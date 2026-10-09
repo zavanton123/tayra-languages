@@ -220,9 +220,9 @@ def check(path, brief=False):
     band_start = up_to - BAND + 1
     need, shortest, longest = rules(up_to)
     names = {fold(code, n.lower()) for n in course.get("names", [])}
-    # In Spanish a name of several words (San José, La Habana) counts as one known word wherever it
+    # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n), key=len, reverse=True) if code == "es" else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True) if code == "es" else []
     seen_new = set()
     ok = True
     report = []

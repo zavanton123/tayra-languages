@@ -1,0 +1,223 @@
+{
+  "id": "es-mini-8100",
+  "rankUpTo": 8100,
+  "level": "C2",
+  "title": "El cuerpo humano",
+  "description": "Ten standalone stories and columns about the human body: anatomy, bones, sleep, hair, movement, first aid, taste, sight, ageing and genetics.",
+  "topic": "The human body",
+  "names": [
+    "Granada",
+    "Julián",
+    "Ortega",
+    "Rosa",
+    "Quispe",
+    "Ayacucho",
+    "Perú",
+    "Diego",
+    "Lima",
+    "Huanta",
+    "Buenos Aires",
+    "Cartagena",
+    "Nelly",
+    "Valeria",
+    "Guadalajara",
+    "Ximena",
+    "Ruiz",
+    "Ramiro",
+    "Ciudad de México",
+    "Providencia",
+    "Santiago",
+    "Ignacio",
+    "Patricia",
+    "Jaén",
+    "Antonio",
+    "Pilar",
+    "Roma",
+    "Al-Ándalus",
+    "Córdoba",
+    "Mediterráneo",
+    "Ernesto",
+    "Valdés",
+    "Cienfuegos",
+    "Cuba",
+    "La Habana",
+    "Yamilé",
+    "La Rioja",
+    "Tomás",
+    "Engracia",
+    "Fermín",
+    "Daniela",
+    "Restrepo",
+    "Medellín",
+    "Miami",
+    "Estados Unidos",
+    "Andrés",
+    "Florida"
+  ],
+  "lessons": [
+    {
+      "title": "La primera clase de anatomía",
+      "summary": "A medical student in Granada describes the first lecture of Descriptive Anatomy and what the professor taught about the body and its names.",
+      "newWords": [
+        "descriptivo",
+        "contorno",
+        "conformación",
+        "flanco",
+        "íntegramente",
+        "anticuado",
+        "alfabeto",
+        "connotación",
+        "facundo",
+        "antiguamente",
+        "bloc"
+      ],
+      "text": "El primer día de curso, en la Facultad de Medicina de Granada, nos tocó la asignatura que todos temíamos: Anatomía descriptiva. Yo esperaba a un profesor serio y gris, pero quien entró en el aula fue don Julián Ortega, un hombre delgado, de pelo blanco, con una voz clara que llenaba la sala. Era, como dicen los libros antiguos, un hombre facundo: hablaba con facilidad, sin papeles, y sus frases parecían salir ya ordenadas. Al cabo de diez minutos, todos teníamos el bloc abierto.\n\n«La anatomía descriptiva», empezó, «no explica por qué el cuerpo funciona como funciona. Eso lo harán otras asignaturas. La anatomía descriptiva hace algo más humilde y más difícil: describe. Dice dónde está cada cosa, qué forma tiene y con qué limita».\n\nDespués dibujó en la pizarra el contorno de un cuerpo humano. Era un contorno sencillo, hecho con una sola línea, pero sobre él fue marcando las regiones: la cabeza, el cuello, el tronco, los miembros. Nos explicó que el vientre tiene dos flancos, el derecho y el izquierdo, y que cuando un paciente dice que le duele «el costado», el médico debe saber traducirlo: ¿el flanco derecho o el flanco izquierdo?, ¿arriba o abajo?\n\nLuego habló de la conformación del cuerpo, es decir, de la manera en que sus partes están dispuestas y unidas entre sí. Dos personas pueden tener la misma altura y una conformación muy distinta: una espalda ancha o estrecha, unos brazos largos o cortos. «El buen médico observa la conformación antes de tocar nada», insistió.\n\nLo que más me sorprendió fue lo que dijo sobre las palabras. Antiguamente, explicó, la anatomía se escribía en latín, y muchos nombres conservan aquella lengua. Para nosotros, aprenderlos sería como aprender un alfabeto nuevo: al principio, letras extrañas; después, un idioma que permite leer el cuerpo. Antiguamente, además, las partes se nombraban por su parecido con otras cosas. «Músculo», por ejemplo, viene de una palabra latina que significa «ratoncito», porque alguien pensó que un músculo en movimiento parecía un ratón bajo la piel. Por eso, dijo, cada término tiene una connotación que merece la pena conocer. La connotación de «músculo» nos recuerda que el cuerpo se mueve, que está vivo.\n\nUna compañera preguntó si no era anticuado seguir usando nombres tan viejos. Don Julián sonrió. «Anticuado sería pensar que el cuerpo ha cambiado desde entonces», contestó. «El cuerpo es el mismo. Lo que cambia es cuánto sabemos de él».\n\nAl final nos pidió una sola cosa: leer íntegramente el primer capítulo del manual antes de la siguiente clase. «Íntegramente», repitió, «porque en el cuerpo no hay páginas que sobren».\n\nEsa noche leí el capítulo íntegramente, con el bloc al lado. No lo entendí todo, pero, por primera vez, el cuerpo me pareció un texto que podía aprender a leer, letra a letra, como un alfabeto.\n\nPreguntas:\n¿Por qué dice el narrador que don Julián era facundo?\nPorque hablaba con facilidad, sin papeles.\n¿Qué hace la anatomía descriptiva, según el profesor?\nDescribe dónde está cada parte del cuerpo, qué forma tiene y con qué limita.\n¿Por qué el médico debe distinguir los dos flancos del vientre?\nPorque, cuando un paciente dice que le duele el costado, el médico debe saber si es el flanco derecho o el izquierdo.\n¿Qué connotación tiene la palabra «músculo»?\nViene de una palabra latina que significa «ratoncito», y nos recuerda que el cuerpo se mueve y está vivo.\n¿Qué les pidió el profesor al final de la clase?\nLes pidió leer íntegramente el primer capítulo del manual antes de la siguiente clase."
+    },
+    {
+      "title": "Los huesos de la caverna",
+      "summary": "An archaeologist in the Peruvian Andes shows a student how ancient bones record the work and lives of the people who lived there.",
+      "newWords": [
+        "arqueólogo",
+        "caverna",
+        "fechado",
+        "vivencia",
+        "mortero",
+        "duramente",
+        "manantial",
+        "poblacional",
+        "sesgo",
+        "agro"
+      ],
+      "text": "Rosa Quispe es arqueóloga, y lo que estudia son huesos. Desde hace seis años, cada mes de julio, sube con un pequeño equipo a una caverna de las alturas de Ayacucho, en el Perú, donde hace unos 800 años una comunidad andina guardaba los restos de sus muertos. Este año la acompaña Diego, un estudiante de Lima que quiere ser arqueólogo.\n\n«Un hueso no es una piedra», le explica Rosa el primer día a la entrada de la caverna. «Mientras la persona vive, el hueso cambia. Se hace más fuerte donde trabaja más y se gasta donde sufre. Por eso los huesos guardan las vivencias de una vida entera».\n\nDiego no entiende bien qué vivencias puede guardar un esqueleto, hasta que Rosa le muestra la columna de una mujer adulta. Los huesos de la espalda tienen pequeños bordes de más, como si el hueso hubiera crecido para defenderse del peso. «Esta mujer trabajó duramente», dice Rosa. «Cargó peso desde niña». Y en los dientes, muy gastados, lee otra vivencia: la de comer cada día granos molidos en un mortero de piedra, que dejaba en la harina un polvo fino de roca. De hecho, hace dos años encontraron en el fondo de la caverna un mortero grande, todavía con restos de maíz.\n\nRosa conoce ese desgaste de cerca. Es hija del agro: sus padres trabajaron la tierra toda la vida en un pueblo cerca de Huanta, y ella creció viendo cómo el agro dobla las espaldas y endurece las manos. «Mi padre vivió duramente, como esta mujer», le dice a Diego en voz baja.\n\nPara saber cuándo vivió cada persona, el equipo envía pequeñas muestras a un laboratorio. Cada hueso vuelve fechado con un margen de unos cincuenta años; los restos fechados más antiguos tienen unos 900 años, y los más recientes, unos 600. Así, poco a poco, Rosa reconstruye una historia poblacional: cuántas personas vivieron allí, a qué edad morían, qué enfermedades sufrían. La salud poblacional, explica, se lee mejor en cien esqueletos que en uno.\n\nSin embargo, Rosa insiste en un problema: el sesgo. En la caverna no está todo el pueblo, sino solo las personas que la comunidad decidió enterrar allí. «Si olvidamos el sesgo de la muestra», le advierte a Diego, «creeremos que conocemos a todo un pueblo cuando solo conocemos a una parte».\n\nAl final de cada jornada, el equipo baja por un sendero hasta un manantial que nace entre las rocas, a diez minutos de la caverna. Rosa cree que aquel manantial explica por qué la comunidad eligió el lugar: el agua no faltaba nunca. Diego bebe del manantial y piensa en quienes bebieron de él hace siglos.\n\nLa última tarde, Diego le confiesa a Rosa que ya no ve huesos, sino vidas. Ella sonríe: eso, le dice, es lo primero que tiene que aprender un arqueólogo.\n\nPreguntas:\n¿Qué estudia Rosa Quispe?\nEstudia los huesos que hay en una caverna de Ayacucho.\n¿Por qué dice Rosa que los huesos guardan las vivencias de una vida?\nPorque el hueso cambia mientras la persona vive: se hace más fuerte donde trabaja y se gasta donde sufre.\n¿Qué revelan los dientes?\nQue aquellas personas comían granos molidos en un mortero de piedra.\n¿Qué es el sesgo del que habla Rosa?\nEs que en la caverna no está todo el pueblo, sino solo las personas que la comunidad decidió enterrar allí.\n¿Por qué cree Rosa que la comunidad eligió ese lugar?\nPorque cerca había un manantial y el agua no faltaba nunca."
+    },
+    {
+      "title": "La conciliación del sueño",
+      "summary": "In a column from Buenos Aires, a woman explains how she learned to fall asleep again by changing her habits.",
+      "newWords": [
+        "conciliación",
+        "estufa",
+        "manía",
+        "desordenado",
+        "relámpago",
+        "levemente",
+        "efímero",
+        "inquietante",
+        "vinilo",
+        "charco"
+      ],
+      "text": "Mi médica de cabecera, en Buenos Aires, usa una expresión que me hace gracia: dice que tengo problemas de «conciliación del sueño». Suena a negociación diplomática, como si el sueño y yo fuéramos dos países en guerra que deben firmar la paz. Y, en cierto modo, es así. Dormir no me cuesta; lo que me cuesta es empezar. La conciliación del sueño, me explicó, es justamente ese paso: el momento en que el cuerpo deja de estar despierto y se entrega.\n\nDurante meses, mis noches fueron un desastre. Llevaba una vida de horarios desordenados: cenaba a las once, miraba el teléfono en la cama, me acostaba un día a las doce y otro a las tres. Un cuerpo con horarios desordenados, me dijo la doctora, no sabe cuándo es de noche. El reloj interno necesita rutina.\n\nTambién me habló de la temperatura. En invierno yo dejaba la estufa encendida toda la noche, porque me encanta el calor. Error: para dormirse, el cuerpo necesita bajar levemente su temperatura, apenas un grado. Con la estufa al máximo, mi cuarto se volvía un horno. Ahora apago la estufa media hora antes de acostarme y abro levemente la ventana.\n\nLo más difícil fue reconocer mis manías. Todos tenemos alguna: revisar dos veces que la puerta esté cerrada, acomodar la almohada de cierta manera, repasar mentalmente la lista de pendientes. Algunas manías ayudan, porque son un ritual que avisa al cuerpo de que el día terminó; otras lo despiertan. Repasar pendientes, por ejemplo, era la peor de mis manías.\n\nAsí que inventé un ritual nuevo. Pongo un vinilo de mi padre, siempre de jazz tranquilo, y lo escucho con la luz baja. El vinilo tiene una ventaja sobre el teléfono: no se puede pasar a otra cosa con el dedo. Cuando termina un lado del vinilo, termina la música, y es hora de ir a la cama.\n\nHay noches en que nada funciona, claro. La semana pasada hubo tormenta. Cada relámpago iluminaba el cuarto como el flash de una cámara, y yo contaba los segundos hasta el trueno. Después de los relámpagos vino la lluvia, y a la mañana siguiente la calle estaba llena de charcos. Esa noche dormí poco, pero no me asusté: había aprendido que una mala noche es efímera, como un relámpago, y que la siguiente suele ser mejor.\n\nTambién aprendí que pasar la noche despierta tiene algo inquietante: en la oscuridad, los problemas parecen más grandes. Una preocupación que de día es un charco, de noche parece un océano. Esa sensación inquietante, sin embargo, también es efímera: con la luz de la mañana, el océano vuelve a ser un charco.\n\nHoy mi conciliación del sueño, como diría la doctora, ha mejorado mucho. No es una paz eterna, pero es una buena paz.\n\nPreguntas:\n¿Qué es la conciliación del sueño, según la médica?\nEs el momento en que el cuerpo deja de estar despierto y se entrega al sueño.\n¿Por qué eran un problema los horarios desordenados?\nPorque un cuerpo con horarios desordenados no sabe cuándo es de noche.\n¿Qué cambió la narradora con la estufa?\nAhora apaga la estufa media hora antes de acostarse, porque el cuerpo necesita bajar levemente su temperatura.\n¿Por qué prefiere el vinilo al teléfono?\nPorque con el vinilo no se puede pasar a otra cosa con el dedo, y cuando termina un lado, es hora de ir a la cama.\n¿Qué aprendió la narradora sobre las malas noches?\nAprendió que una mala noche es efímera, como un relámpago, y que la siguiente suele ser mejor."
+    },
+    {
+      "title": "El pelo de Valeria",
+      "summary": "In a hair salon in Cartagena, a woman who wanted to dye and straighten her curly hair learns to care for it instead.",
+      "newWords": [
+        "crespo",
+        "teñir",
+        "matizar",
+        "elástico",
+        "sonriente",
+        "palmera",
+        "exhortar",
+        "desistir",
+        "entusiasmado"
+      ],
+      "text": "En una calle del centro histórico de Cartagena, entre balcones de madera y dos palmeras altas, está la peluquería de doña Nelly. Valeria entró allí un sábado de abril con una idea fija: quería teñirse el pelo de rubio y alisarlo para siempre.\n\nValeria tiene el pelo crespo, muy crespo, como su madre y su abuela. De niña lo odiaba. En el colegio le decían que parecía una palmera después del viento, y desde los quince años lo había alisado con planchas calientes casi todos los días. Ahora, a los treinta, estaba cansada de pelear cada mañana con su propio pelo.\n\nDoña Nelly la escuchó sonriente, sin interrumpirla. Era una mujer de unos sesenta años, siempre sonriente, que llevaba cuarenta cortando pelo. Cuando Valeria terminó, le tomó un mechón entre los dedos y lo estiró con cuidado. Al soltarlo, el mechón volvió enseguida a su forma de muelle.\n\n«¿Ve?», le dijo. «Su pelo es elástico. El pelo sano es elástico: se estira y vuelve. Cuando usted lo quema con la plancha, pierde esa fuerza y se rompe».\n\nLuego le explicó por qué el pelo crespo es crespo. No es un capricho: depende de la raíz. Cada pelo nace de un pequeño saco bajo la piel, y cuando ese saco está torcido, el pelo sale girando sobre sí mismo. «Usted heredó esa raíz de su abuela», dijo. «No hay plancha que la cambie».\n\nValeria preguntó por el tinte. Doña Nelly no se negó, pero la exhortó a pensarlo bien. Teñir de rubio un pelo oscuro, explicó, obliga a quitarle primero su color, y eso lo debilita mucho. «Si quiere, la tiño», le dijo, «pero la exhorto a empezar por algo suave: un tono miel, apenas más claro que el suyo». Añadió que, después de teñir, ella siempre matiza el color, es decir, le da un último baño que corrige los reflejos naranjas y deja el tono más natural. «Teñir sin matizar», dijo, «es como pintar una pared y dejarla sin terminar».\n\nValeria dudó. Una parte de ella quería el rubio y el pelo liso de las revistas. Pero miró en el espejo el mechón elástico que doña Nelly había estirado, y algo cambió. Decidió desistir del alisado. No quería desistir de todo, así que aceptó el tono miel.\n\nPasó tres horas en la silla. Doña Nelly le tiñó el pelo, lo lavó, lo matizó y, al final, le enseñó a cuidarlo con una crema ligera. Cuando Valeria se miró en el espejo, vio su pelo crespo, brillante, con reflejos de miel, más grande y más vivo que nunca.\n\nSalió a la calle entusiasmada. El viento del mar movía las hojas de las palmeras y también su pelo, y esta vez no le molestó. Esa noche llamó a su madre, entusiasmada como una niña, y le contó que había desistido de pelear con la herencia de la familia.\n\nPreguntas:\n¿Qué quería hacer Valeria al entrar en la peluquería?\nQuería teñirse el pelo de rubio y alisarlo para siempre.\n¿Cómo le demostró doña Nelly que su pelo estaba sano?\nEstiró un mechón y, al soltarlo, volvió a su forma, porque el pelo sano es elástico.\n¿Por qué el pelo de Valeria es crespo?\nPorque cada pelo nace de una raíz torcida, que Valeria heredó de su abuela.\n¿Qué significa matizar el color, según doña Nelly?\nSignifica darle un último baño que corrige los reflejos naranjas y deja el tono más natural.\n¿De qué decidió desistir Valeria?\nDecidió desistir del alisado, y aceptó un tinte suave de tono miel."
+    },
+    {
+      "title": "El salto al potro",
+      "summary": "A 42-year-old woman in Guadalajara returns to gymnastics, trains her body and nerves, and competes again in the vault.",
+      "newWords": [
+        "potro",
+        "ágil",
+        "aceleración",
+        "temple",
+        "formidable",
+        "trabar",
+        "exclamar",
+        "agonía",
+        "patinar"
+      ],
+      "text": "De niña, en Guadalajara, Ximena Ruiz pasaba las tardes en el gimnasio. Su aparato favorito era el potro: correr, saltar sobre el trampolín, apoyar las manos en el potro y volar por encima. A los dieciséis años lo dejó por los estudios y, después, por el trabajo y los hijos. Hasta que, a los cuarenta y dos, vio en el periódico el anuncio de un club de gimnasia para adultos.\n\nEl primer día, Ramiro, el entrenador, le pidió que corriera unos metros y saltara. Ximena descubrió enseguida que su cuerpo ya no era el de antes. Seguía siendo ágil de brazos, pero no de piernas: la rodilla derecha, que se había lastimado de joven, a veces se le trababa al doblarla, como una puerta vieja. «Si se le traba la rodilla, paramos», le dijo Ramiro. «Aquí nadie tiene prisa». Y añadió que un cuerpo ágil no es el más fuerte, sino el que sabe repartir su fuerza.\n\nDurante meses trabajaron la fuerza y la flexibilidad. Ramiro le explicaba cada movimiento como si fuera una lección de física. El salto al potro, decía, depende de la aceleración. No basta con correr rápido; hay que ganar velocidad poco a poco y llegar al trampolín con la aceleración justa. Una aceleración demasiado brusca rompe el ritmo; una aceleración débil no te levanta del suelo.\n\nUn martes, al pisar el trampolín, el pie de Ximena patinó y ella cayó de lado sobre el suelo blando del gimnasio, sin hacerse daño. Desde entonces, Ramiro revisa el trampolín antes de cada sesión, porque si está húmedo, el pie puede patinar otra vez.\n\nLo que más le costó fue el miedo. Ramiro decía que en gimnasia hace falta temple, esa calma firme que permite hacer lo difícil sin que tiemblen las manos. «El temple no se tiene; se entrena», repetía. Y Ximena entrenó su temple como entrenaba las piernas: un salto, otro, otro más.\n\nUn año después, Ramiro la inscribió en una competición para adultos en la Ciudad de México. Ximena hizo su salto: carrera, aceleración, trampolín, manos sobre el potro, vuelo y una caída firme. Luego llegó la espera de la nota, que fue una pequeña agonía: dos minutos que le parecieron una hora, con el corazón golpeándole el pecho. La agonía terminó cuando apareció el número en la pantalla. Era la nota más alta de su categoría.\n\n«¡Formidable!», exclamó Ramiro, levantando los brazos. «¡Un salto formidable!». Ximena no exclamó nada: se tapó la cara con las manos y se rio.\n\nEsa noche, en el autobús de vuelta a Guadalajara, la rodilla se le trabó un poco al levantarse del asiento. No le importó. Pensó que el cuerpo de los cuarenta no es el de los dieciséis, pero que, con paciencia y con temple, todavía sabe volar.\n\nPreguntas:\n¿Qué aparato prefería Ximena de niña?\nPrefería el potro.\n¿Qué problema tenía Ximena en la rodilla derecha?\nA veces se le trababa al doblarla, como una puerta vieja, porque se la había lastimado de joven.\n¿Por qué es importante la aceleración en el salto al potro?\nPorque hay que llegar al trampolín con la aceleración justa: si es demasiado brusca rompe el ritmo, y si es débil no te levanta del suelo.\n¿Qué es el temple, según Ramiro?\nEs la calma firme que permite hacer lo difícil sin que tiemblen las manos, y se entrena.\n¿Cómo vivió Ximena la espera de la nota?\nFue una pequeña agonía: dos minutos que le parecieron una hora.\n¿Qué exclamó Ramiro al ver la nota?\nExclamó que el salto había sido formidable."
+    },
+    {
+      "title": "Un curso de primeros auxilios",
+      "summary": "At an office in Santiago de Chile, a nurse teaches the staff chest compressions, how to smother a small fire and how to evacuate the building.",
+      "newWords": [
+        "compresión",
+        "careta",
+        "desalojo",
+        "sofocar",
+        "imperativo",
+        "cuadrar",
+        "cooperativo",
+        "anonimato",
+        "infinitamente"
+      ],
+      "text": "En la oficina donde trabaja Ignacio, en el barrio de Providencia, en Santiago, hay cada año un curso obligatorio de primeros auxilios. Este año lo dio Patricia, una enfermera de urgencias, que empezó con una frase: «Lo que aprendan hoy quizá no lo usen nunca. Pero si un día lo usan, será lo más importante que hayan hecho».\n\nLa primera parte trató de qué hacer cuando una persona se desmaya y no respira. Lo primero, dijo Patricia, es imperativo: llamar a emergencias o pedir a alguien que llame. Lo segundo son las compresiones del pecho. Patricia se arrodilló junto a un muñeco y mostró la posición: las manos una sobre otra, en el centro del pecho, y los hombros encima, de modo que el peso del cuerpo caiga recto. «Si los hombros no cuadran con las manos, se cansan en un minuto», explicó. Ignacio lo comprobó: con los brazos torcidos, cada compresión le costaba el doble; cuando cuadró los hombros sobre las manos, el movimiento salió casi solo.\n\nLas compresiones deben ser profundas y rápidas: entre 100 y 120 por minuto. Cada compresión empuja la sangre que el corazón ya no mueve por sí mismo, y así llega algo de oxígeno al cerebro mientras viene la ambulancia.\n\nDespués les mostró una careta pequeña de plástico, que se coloca sobre la boca y la nariz de la persona para darle aire sin contacto directo. La careta cabe en un bolsillo, e Ignacio, que nunca había visto una careta así, se guardó una en la mochila.\n\nLa segunda parte del curso trató del fuego. Un fuego pequeño, explicó Patricia, se puede sofocar con un extintor o con una manta, porque sin aire se apaga. Pero insistió en algo: si el fuego no se puede sofocar en unos segundos, es imperativo salir.\n\nPor eso, al terminar, hicieron un ensayo de desalojo del edificio. Sonó la alarma y los cuarenta empleados bajaron por la escalera hasta la plaza de enfrente. El desalojo duró seis minutos; Patricia dijo que el próximo debería durar cuatro. El trabajo, añadió, tiene que ser cooperativo: en un desalojo, cada piso tiene un responsable, y nadie sale corriendo solo. En una emergencia, un grupo cooperativo salva más vidas que un héroe.\n\nAl final, Patricia contó una historia. Hace años, un hombre se desmayó en un vagón del metro de Santiago, y una joven le hizo compresiones hasta que llegó la ambulancia. El hombre vivió. La joven nunca quiso dar su nombre: prefirió el anonimato. «Gracias a ese anonimato», dijo Patricia, «la historia no trata de ella, sino de lo que cualquiera de ustedes puede hacer».\n\nIgnacio se quedó con una idea que la enfermera repitió varias veces: en una emergencia, hacer algo, aunque no sea perfecto, es infinitamente mejor que no hacer nada. Infinitamente mejor.\n\nPreguntas:\n¿Qué es lo primero que hay que hacer cuando una persona no respira, según Patricia?\nEs imperativo llamar a emergencias o pedir a alguien que llame.\n¿Por qué hay que cuadrar los hombros sobre las manos?\nPorque así el peso del cuerpo cae recto y uno no se cansa en un minuto.\n¿Para qué sirve la careta?\nSirve para darle aire a la persona sin contacto directo con su boca.\n¿Cómo se puede sofocar un fuego pequeño?\nCon un extintor o con una manta, porque sin aire se apaga.\n¿Por qué tiene que ser cooperativo el trabajo en un desalojo?\nPorque cada piso tiene un responsable y nadie sale solo; un grupo cooperativo salva más vidas que un héroe."
+    },
+    {
+      "title": "Una cata entre olivares",
+      "summary": "At her uncle's olive mill in Jaén, a woman learns from a friend who is an expert taster how smell and taste work together.",
+      "newWords": [
+        "emplazamiento",
+        "olivar",
+        "cesta",
+        "jugoso",
+        "gastronómico",
+        "conocedor",
+        "comerciar",
+        "mosaico",
+        "sublime",
+        "emir"
+      ],
+      "text": "Mi tío Antonio tiene un pequeño molino de aceite en un pueblo de Jaén. El emplazamiento del molino es perfecto: está en lo alto de una loma, rodeado de olivares que bajan hacia el valle en filas ordenadas, hasta donde alcanza la vista. Mi tío dice que eligió ese emplazamiento porque desde allí ve todos sus olivares a la vez.\n\nEn noviembre, en plena cosecha, fui a visitarlo con mi amiga Pilar, que trabaja catando aceite y es una gran conocedora del tema. Y no es solo conocedora del aceite: también lo es de los sentidos, porque catar, dice, es usar el cuerpo como un instrumento.\n\nAntes de la cata nos sentamos a la sombra con una cesta de pan del pueblo y otra cesta con tomates del huerto. Pilar sirvió un poco de aceite en unos vasos azules, para que el color no nos engañara.\n\n«Lo primero no es probar, sino oler», nos explicó. Calentó el vaso con la mano y lo acercó a la nariz. Según ella, gran parte de lo que llamamos sabor es, en realidad, olor: cuando tenemos la nariz tapada, la comida parece no saber a nada. La lengua solo distingue unos pocos gustos básicos, como el dulce, el salado, el ácido y el amargo; el resto lo pone la nariz.\n\nLuego nos pidió que lo probáramos y lo pasáramos por toda la boca. La lengua, explicó, es un mosaico de miles de pequeños receptores repartidos por su superficie, y, contra lo que se creía antes, cada parte de ese mosaico percibe casi todos los gustos. El aceite nuevo me picó en la garganta, y Pilar me explicó que eso indica un aceite fresco.\n\nDespués mi tío cortó un tomate grande, rojo y jugoso, lo puso sobre el pan y lo cubrió de aceite. El tomate estaba tan jugoso que el jugo me corría por los dedos. Lo probé y me pareció sublime. No exagero: hay momentos en que algo tan simple, pan, tomate y aceite, resulta sublime, porque todos los sentidos trabajan juntos.\n\nPor la tarde, mi tío nos habló de historia. Los romanos ya comerciaban con el aceite de esta tierra y lo llevaban en barcos hasta Roma. Siglos después, cuando un emir gobernaba desde Córdoba, el aceite seguía siendo una gran riqueza; de esa época viene la palabra «aceite», que es de origen árabe. «En tiempos del emir», dijo mi tío, «ya se comerciaba con el aceite de Jaén por medio Mediterráneo».\n\nHoy, añadió, el aceite atrae también un turismo gastronómico: grupos que vienen a ver los olivares, visitar los molinos y aprender a catar. A mi tío no le molesta el turismo gastronómico, aunque prefiere las visitas pequeñas.\n\nAl irnos, nos regaló una botella de aceite y una cesta de pan. En el coche, Pilar me dijo que el mejor instrumento de cata no es ningún aparato, sino un cuerpo atento.\n\nPreguntas:\n¿Por qué eligió el tío Antonio ese emplazamiento para el molino?\nPorque desde lo alto de la loma ve todos sus olivares a la vez.\n¿Por qué dice Pilar que lo primero es oler?\nPorque gran parte de lo que llamamos sabor es, en realidad, olor.\n¿Cómo describe Pilar la lengua?\nComo un mosaico de miles de pequeños receptores, y cada parte percibe casi todos los gustos.\n¿Qué le pareció a la narradora el pan con tomate y aceite?\nLe pareció sublime, porque todos los sentidos trabajaban juntos.\n¿Quiénes comerciaban con el aceite de Jaén en el pasado?\nLos romanos ya comerciaban con él, y siguió siendo una riqueza cuando un emir gobernaba desde Córdoba."
+    },
+    {
+      "title": "Los ojos de Ernesto",
+      "summary": "An old fisherman in Cienfuegos, Cuba, has cataract surgery and sees the coral reef again, this time through his granddaughter's photos too.",
+      "newWords": [
+        "arrecife",
+        "telón",
+        "mirador",
+        "camello",
+        "macro",
+        "tsunami",
+        "vejez",
+        "subvencionar"
+      ],
+      "text": "Ernesto Valdés fue pescador durante cincuenta años en Cienfuegos, en la costa sur de Cuba. Conoce el arrecife que hay frente a la bahía como otros conocen su barrio: cada roca, cada pasaje, cada rincón donde se esconden los peces. Pero en los últimos años, con la vejez, sus ojos empezaron a fallar. Al final, el mar se volvió para él una mancha gris.\n\nEl médico le explicó lo que pasaba. Dentro del ojo hay una pequeña lente natural y transparente que enfoca la luz. Con la vejez, esa lente se vuelve oscura, como un cristal sucio. «Es como si delante de sus ojos hubieran bajado un telón», le dijo. «Un telón que no deja pasar la luz». La buena noticia era que se podía operar: se quita la lente vieja y se pone una artificial. La operación estaba subvencionada, como gran parte de la atención médica en la isla, y Ernesto no tuvo que pagar nada; solo tuvo que viajar a La Habana. Hasta la lente artificial estaba subvencionada.\n\nLo acompañó su nieta Yamilé, que estudia biología marina. En La Habana, Ernesto le habló del camello, el enorme autobús de los años noventa que recorría la ciudad. Lo llamaban camello por sus dos jorobas: el techo subía en los dos extremos y bajaba en el centro. Subir al camello, recordó, era toda una aventura.\n\nLa operación duró veinte minutos y no le dolió. Al día siguiente, cuando el médico le quitó la venda del ojo derecho, Ernesto sintió algo que después no supo explicar bien. Fue como un tsunami de colores: el azul de la pared, el rojo de la blusa de Yamilé, el verde de los árboles, todo llegó de golpe. «Se levantó el telón», dijo el médico. Y Ernesto lloró un poco. Un mes después operaron el otro ojo, y el segundo tsunami fue más suave, porque ya lo esperaba.\n\nDe vuelta en Cienfuegos, lo primero que pidió fue subir al mirador desde donde se ve toda la bahía. Desde el mirador miró el mar durante una hora. Distinguía otra vez las olas que rompen sobre el arrecife y la línea blanca de la espuma.\n\nEsa noche, en casa, Yamilé le enseñó en la computadora sus fotos del arrecife, hechas con un objetivo macro, una lente que permite fotografiar de muy cerca cosas muy pequeñas. Ernesto vio, como si los tuviera en la mano, los diminutos animales que forman el coral, con sus brazos finos como hilos. Cincuenta años pescando sobre el arrecife, dijo, y nunca lo había visto así. Gracias al macro de su nieta y a sus ojos nuevos, conocía su arrecife por segunda vez.\n\nErnesto no se hace ilusiones: sabe que la vejez sigue ahí, en las rodillas y en la espalda. Pero ahora, cada tarde, sube al mirador, y el telón ya no baja.\n\nPreguntas:\n¿Cómo le explicó el médico a Ernesto el problema de sus ojos?\nLe dijo que era como si delante de sus ojos hubieran bajado un telón que no deja pasar la luz.\n¿Por qué no tuvo que pagar nada Ernesto?\nPorque la operación estaba subvencionada, como gran parte de la atención médica en la isla.\n¿Qué era el camello que recordó Ernesto en La Habana?\nEra un enorme autobús de dos jorobas que recorría la ciudad en los años noventa.\n¿Qué sintió Ernesto cuando le quitaron la venda?\nSintió un tsunami de colores, porque todo llegó de golpe.\n¿Para qué sirve el objetivo macro de Yamilé?\nSirve para fotografiar de muy cerca cosas muy pequeñas, como los animales que forman el coral."
+    },
+    {
+      "title": "El convoy del cura",
+      "summary": "In a village in La Rioja, the parish priest starts Nordic walking for his heart and brings the older neighbours, and two of them, together.",
+      "newWords": [
+        "párroco",
+        "señorío",
+        "patriarcal",
+        "concordia",
+        "nórdico",
+        "vid",
+        "convoy",
+        "dogma",
+        "mediador"
+      ],
+      "text": "En un pueblo de La Rioja rodeado de viñas, el párroco, don Tomás, tiene 71 años y un corazón que hace dos años le dio un susto. Después del susto, la cardióloga le dio una orden clara: caminar una hora al día. Don Tomás, que obedece a los médicos más que a nadie, empezó a caminar cada mañana entre las vides.\n\nPronto descubrió la marcha nórdica, que consiste en caminar con dos bastones, parecidos a los de los esquiadores. Nació en los países nórdicos, como entrenamiento de verano para los esquiadores de fondo. Con los bastones trabajan también los brazos y los hombros. El párroco compró varios pares de bastones nórdicos y, un domingo, al final de la misa, invitó a los mayores del pueblo a acompañarlo.\n\nLa primera en apuntarse fue Engracia, de 84 años. Engracia camina con un señorío que impresiona: la espalda recta, la cabeza alta, el paso tranquilo. Ese señorío no le viene del dinero, porque toda su vida ha sido una mujer sencilla, sino de su manera de estar en el mundo. Creció en una casa muy patriarcal, donde el padre lo decidía todo y las mujeres no tenían tiempo para nada que no fuera trabajar. «En aquella casa patriarcal, una mujer paseando con bastones habría sido un escándalo», cuenta ahora, riéndose.\n\nTambién se apuntó Fermín, el vecino de Engracia. El problema era que Engracia y Fermín no se hablaban desde hacía veinte años, por una discusión sobre el muro que separa sus viñas. Don Tomás se ofreció como mediador. No hizo grandes discursos: simplemente los puso a caminar uno al lado del otro. Un buen mediador, piensa el párroco, no resuelve los problemas; crea el lugar donde se resuelven solos.\n\nAsí, cada mañana a las nueve, sale del pueblo un pequeño convoy: el párroco delante, Engracia y Fermín detrás, y otros ocho o diez vecinos en fila, con sus bastones, entre las vides. Los que lo ven pasar desde los balcones lo llaman «el convoy del cura». Al principio, Engracia y Fermín solo hablaban del tiempo; luego, de las vides y de la cosecha; al final, del muro. Un día de septiembre, a mitad de camino, se dieron la mano. La concordia llegó sin ceremonias, con bastones y entre viñas, y don Tomás asegura que esa concordia es lo mejor que ha conseguido en treinta años de párroco.\n\nLa cardióloga está contenta: don Tomás tiene la tensión mejor que nunca. Y él ha aprendido a desconfiar de un viejo dogma, el que dice que en la vejez hay que quedarse sentado. «Ese dogma no está en ningún libro sagrado», bromea. El cuerpo de los mayores, como las vides viejas, todavía da fruto si se lo cuida.\n\nPreguntas:\n¿Por qué empezó a caminar el párroco?\nPorque su corazón le dio un susto y la cardióloga le ordenó caminar una hora al día.\n¿Qué es la marcha nórdica?\nEs caminar con dos bastones; nació en los países nórdicos como entrenamiento de verano para los esquiadores.\n¿De dónde le viene el señorío a Engracia?\nNo le viene del dinero, sino de su manera de estar en el mundo.\n¿Qué hizo don Tomás como mediador entre Engracia y Fermín?\nNo hizo grandes discursos: los puso a caminar uno al lado del otro.\n¿Por qué llaman al grupo «el convoy del cura»?\nPorque cada mañana sale del pueblo una fila de vecinos con bastones, con el párroco delante.\n¿De qué dogma ha aprendido a desconfiar don Tomás?\nDel dogma que dice que en la vejez hay que quedarse sentado."
+    },
+    {
+      "title": "La conferencia plenaria",
+      "summary": "A Colombian geneticist in Miami gives the main lecture at a congress on Hispanic health, about a gene variant and honest research.",
+      "newWords": [
+        "plenario",
+        "hispánico",
+        "patronato",
+        "farmacéutica",
+        "mutante",
+        "corromper",
+        "falsificación",
+        "desacreditar",
+        "conspirar"
+      ],
+      "text": "La doctora Daniela Restrepo nació en Medellín, pero vive desde hace quince años en Miami, donde dirige un laboratorio de genética. Este año recibió un honor que no esperaba: dar la conferencia plenaria del congreso nacional sobre la salud de la población hispánica en los Estados Unidos. En los congresos hay muchas sesiones a la vez, en salas pequeñas; la sesión plenaria, en cambio, es la única que reúne a todos los participantes en el salón principal.\n\nLa mañana de la conferencia, todo parecía conspirar contra ella. Llovía sobre Miami, el tráfico estaba detenido y su computadora se negó a encenderse. «Hoy todo conspira contra mí», le escribió a su colega Andrés. Él le respondió con calma: tenía una copia de la presentación y la esperaba en el salón.\n\nA las diez, Daniela subió al escenario delante de 1500 personas. Habló de un gen que interviene en la manera en que el cuerpo maneja el azúcar y las grasas. Su equipo había estudiado a miles de voluntarios de origen hispánico: mexicanos, puertorriqueños, cubanos, colombianos. En una parte de ellos encontraron una variante mutante del gen, es decir, una versión con un pequeño cambio en su código. Las personas que heredan la variante mutante tienen más riesgo de desarrollar diabetes. «Eso no es un destino», aclaró Daniela. «Es una información. Si sabemos quién tiene la variante mutante, podemos ayudarle antes, con la alimentación, el ejercicio y los controles médicos».\n\nDespués explicó cómo se pagó el estudio. No lo financió ninguna farmacéutica, sino el patronato de una fundación de Florida dedicada a la salud de las comunidades latinas. El patronato, aclaró, no podía cambiar ni una coma de los resultados. Daniela no tiene nada contra la industria farmacéutica, que también hace buena ciencia; pero cree que, en un estudio así, conviene que nadie pueda sospechar intereses ocultos.\n\nLa última parte de la conferencia fue la más personal. Daniela contó que, al principio de su carrera, vio cómo un investigador famoso quedaba desacreditado por la falsificación de sus datos. Aquella falsificación no solo lo desacreditó a él: durante años hizo dudar de todo un campo de estudio. «Un solo dato falso puede corromper mil datos verdaderos», dijo, «porque corrompe la confianza». Por eso su laboratorio publica todos sus datos, para que cualquier colega pueda revisarlos.\n\nCuando terminó, el salón aplaudió de pie. Andrés la esperaba a la salida con un café. «¿Ves?», le dijo, sonriendo. «Nada conspiraba contra ti. Solo era lunes».\n\nPreguntas:\n¿Qué es una sesión plenaria?\nEs la única sesión del congreso que reúne a todos los participantes en el salón principal.\n¿Qué encontró el equipo de Daniela en los voluntarios de origen hispánico?\nEn una parte de ellos encontró una variante mutante de un gen que interviene en la manera en que el cuerpo maneja el azúcar y las grasas.\n¿Por qué dice Daniela que la variante mutante no es un destino?\nPorque es una información que permite ayudar antes a las personas, con la alimentación, el ejercicio y los controles médicos.\n¿Quién pagó el estudio?\nLo pagó el patronato de una fundación de Florida, no una farmacéutica.\n¿Por qué, según Daniela, un dato falso puede corromper mil datos verdaderos?\nPorque corrompe la confianza en todo un campo de estudio."
+    }
+  ]
+}
