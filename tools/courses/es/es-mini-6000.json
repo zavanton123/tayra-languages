@@ -1,0 +1,218 @@
+{
+  "id": "es-mini-6000",
+  "rankUpTo": 6000,
+  "level": "C1",
+  "title": "Memorias",
+  "description": "Ten short memoirs in the first person from Uruguay, Spain, Chile, Costa Rica, Peru, the United States, Mexico, Argentina and Colombia: a drought, a nativity scene, an aircraft mechanic, a heart attack, motherhood, a heritage language, a school play, a first vote, a river crossing and a recycling workshop.",
+  "topic": "Memoirs",
+  "names": [
+    "Tacuarembó",
+    "Uruguay",
+    "Ernesto",
+    "Rosita",
+    "Montevideo",
+    "Cuacos de Yuste",
+    "Yuste",
+    "Extremadura",
+    "Anselmo",
+    "Madrid",
+    "Hernán",
+    "Los Cerrillos",
+    "Santiago de Chile",
+    "Olga",
+    "San José",
+    "Mateo",
+    "Lima",
+    "Julio",
+    "Gabriela",
+    "Los Ángeles",
+    "Jalisco",
+    "Guadalupe",
+    "Benavides",
+    "Ciudad de México",
+    "Rodrigo",
+    "Valeria",
+    "Salinas",
+    "Roma",
+    "Buenos Aires",
+    "Argentina",
+    "Aurelio",
+    "Malvinas",
+    "Galicia",
+    "Miño",
+    "Portugal",
+    "España",
+    "Xosé",
+    "Suiza",
+    "Gustavo",
+    "Medellín"
+  ],
+  "lessons": [
+    {
+      "title": "El año de la sequía",
+      "summary": "A man from northern Uruguay remembers the dry summer of his childhood on his father's small farm, with the old mule, the mice and the first rain in January.",
+      "newWords": [
+        "siembra",
+        "sequía",
+        "predio",
+        "agropecuario",
+        "mula",
+        "roer",
+        "trapo",
+        "enfriar",
+        "suspiro",
+        "tostado"
+      ],
+      "text": "Nací en un predio de 40 hectáreas cerca de Tacuarembó, en el norte de Uruguay. Mi padre, Ernesto, criaba algunas vacas y sembraba maíz; era, como decían en la radio, un pequeño productor agropecuario. De todos los años de mi infancia, el que recuerdo con más claridad es el de la gran sequía, cuando yo tenía 10 años.\n\nAquel año la siembra empezó como siempre. En septiembre mi padre preparó la tierra con la ayuda de Rosita, una mula vieja y paciente que conocía el predio mejor que nosotros. Yo caminaba detrás de ellos y echaba las semillas en la tierra. Mi padre decía que la siembra era un acto de fe: uno pone la semilla y después espera que el cielo haga su parte.\n\nPero aquel año el cielo no hizo su parte. Pasaron octubre y noviembre sin una gota de lluvia. La sequía secó el arroyo, y la tierra quedó tostada por el sol, dura como un ladrillo. El maíz salió pequeño y amarillo. Cada tarde mi padre miraba el horizonte, soltaba un largo suspiro y volvía a la casa sin decir nada. Aprendí a conocer ese suspiro: quería decir que tampoco iba a llover al día siguiente.\n\nCon la sequía llegaron los ratones. Buscaban comida en el depósito y roían todo lo que encontraban: las bolsas de maíz, las cuerdas, hasta el cuero de las sillas. Por la noche los oíamos roer en la oscuridad. Mi madre tapaba los agujeros con un trapo viejo, pero a la mañana siguiente el trapo también estaba roído.\n\nEl calor era tan fuerte que el agua del tanque no se enfriaba ni de noche. Mi madre llenaba botellas, las envolvía en un trapo mojado y las dejaba a la sombra para que se enfriaran un poco. A Rosita le dábamos agua dos veces al día; la mula bebía despacio, con los ojos cerrados, como si entendiera que cada cubo era un tesoro.\n\nEn enero, por fin, llovió. Recuerdo el olor de la tierra tostada al recibir las primeras gotas, y a mi padre de pie en el patio, mojándose sin moverse. Esa vez no hubo suspiro: se rió como un niño. Aquel año perdimos casi toda la cosecha, y la cooperativa agropecuaria del pueblo nos prestó dinero para la siembra siguiente.\n\nHoy vivo en Montevideo y trabajo en una oficina. Sin embargo, cada vez que el verano trae varias semanas sin lluvia, pienso en el predio, en Rosita y en aquel suspiro de mi padre. La sequía me enseñó muy pronto que la tierra no promete nada, y que la paciencia también se siembra.\n\nPreguntas:\n¿Dónde nació el narrador?\nNació en un predio de 40 hectáreas cerca de Tacuarembó, en el norte de Uruguay.\n¿Quién era Rosita?\nEra una mula vieja y paciente que ayudaba al padre a preparar la tierra para la siembra.\n¿Qué hacían los ratones durante la sequía?\nRoían todo lo que encontraban: las bolsas de maíz, las cuerdas y hasta el cuero de las sillas.\n¿Cómo enfriaba la madre el agua?\nEnvolvía las botellas en un trapo mojado y las dejaba a la sombra.\n¿Qué quería decir el suspiro del padre?\nQuería decir que tampoco iba a llover al día siguiente.\n¿Cómo pagaron la siembra siguiente?\nLa cooperativa agropecuaria del pueblo les prestó dinero."
+    },
+    {
+      "title": "El belén de los jerónimos",
+      "summary": "A man from a village in Extremadura remembers the Christmas of 1962, when the abbot of the monastery of Yuste asked him to help the monks build the nativity scene.",
+      "newWords": [
+        "belén",
+        "hostia",
+        "congregación",
+        "abad",
+        "jerónimo",
+        "peseta",
+        "caracol",
+        "mozo",
+        "nuez"
+      ],
+      "text": "Me crié en Cuacos de Yuste, un pueblo de Extremadura que está a los pies del monasterio de Yuste. En mi infancia, a principios de los años sesenta, el monasterio pertenecía a los monjes jerónimos, y para los niños del pueblo los jerónimos eran casi parte de la familia. Los veíamos pasar por el camino con sus hábitos blancos y marrones, y los domingos íbamos con nuestros padres a misa al monasterio.\n\nMi recuerdo más feliz de aquella época es la Navidad de 1962, cuando yo tenía 11 años. Ese diciembre, el abad, un hombre mayor y tranquilo al que todos llamaban fray Anselmo, le pidió a mi padre que yo ayudara a montar el belén de la iglesia. Para mí fue un honor enorme.\n\nDurante una semana subí cada tarde al monasterio. Dos jerónimos jóvenes y yo trabajábamos en una sala fría, al lado de la cocina. Con piedras hacíamos montañas, con papel de plata hacíamos el río y con hierba del bosque cubríamos el suelo del belén. Yo colocaba las figuras: los pastores, las ovejas, los Reyes Magos. El abad venía a mirar de vez en cuando y siempre decía lo mismo: «Despacio, hijo, que el belén no tiene prisa.»\n\nUna tarde encontré en el huerto varios caracoles y los puse entre la hierba, porque me parecía que un belén de verdad debía tener animales vivos. Al día siguiente los caracoles habían subido por las montañas, y uno estaba encima del portal. Los dos jerónimos se rieron mucho, y el abad, en lugar de enfadarse, me ayudó a devolver los caracoles al huerto.\n\nLa noche del 24, toda la congregación del pueblo subió al monasterio para la misa del gallo. La iglesia estaba llena; había gente de pie hasta la puerta. Yo estaba nervioso porque la congregación entera iba a ver nuestro belén. Cuando llegó el momento de la comunión, recibí la hostia de manos del abad, y me pareció que me sonreía de una manera especial. Todavía hoy, cuando recibo la hostia en misa, me acuerdo de aquella sonrisa.\n\nAl terminar, el abad me dio un regalo: una bolsa de nueces del huerto del monasterio y una moneda de 5 pesetas. En casa, mi madre partió las nueces y nos las comimos junto al fuego. Las 5 pesetas las guardé durante años en una caja de metal; era el primer dinero que ganaba con mi trabajo. Hoy las pesetas ya no existen, pero la moneda sigue en la caja.\n\nCuando ya era un mozo de 18 años, me fui a trabajar a Madrid, como tantos mozos del pueblo. Volví muchas veces, y siempre subía al monasterio. Ahora el belén lo montan otras manos, pero cuando lo veo, todavía busco algún caracol escondido entre la hierba.\n\nPreguntas:\n¿A quién pertenecía el monasterio de Yuste en la infancia del narrador?\nPertenecía a los monjes jerónimos.\n¿Qué le pidió el abad al padre del narrador?\nLe pidió que su hijo ayudara a montar el belén de la iglesia.\n¿Qué hizo el narrador con los caracoles?\nLos puso en el belén, porque le parecía que un belén de verdad debía tener animales vivos.\n¿Qué recibió el narrador de manos del abad durante la misa del gallo?\nRecibió la hostia.\n¿Qué regalo le dio el abad?\nLe dio una bolsa de nueces del huerto y una moneda de 5 pesetas.\n¿Qué hizo el narrador cuando era un mozo de 18 años?\nSe fue a trabajar a Madrid, como tantos mozos del pueblo."
+    },
+    {
+      "title": "Las manos de mi padre",
+      "summary": "A physics teacher in Santiago remembers his father, an aircraft mechanic at Los Cerrillos airport, and the patience he showed him as a clumsy boy.",
+      "newWords": [
+        "aviación",
+        "turbo",
+        "neumático",
+        "pinchar",
+        "martillo",
+        "especificación",
+        "computador",
+        "híbrido",
+        "torpe",
+        "afán"
+      ],
+      "text": "Mi padre, Hernán, fue mecánico de aviación durante 35 años en el aeropuerto de Los Cerrillos, en Santiago de Chile. Cuando yo era niño, en los años setenta, la aviación me parecía el mundo más emocionante que existía, y mi padre era su héroe principal.\n\nAlgunos sábados me llevaba al taller del aeropuerto. Allí había aviones pequeños con el motor abierto, como pacientes en una sala de operaciones. Mi padre trabajaba con calma y con un afán de perfección que no he vuelto a ver en nadie. Antes de tocar una pieza, leía el manual; antes de cerrar un motor, volvía a leerlo. «En la aviación no hay segundas oportunidades», me decía.\n\nLos manuales estaban llenos de especificaciones: la presión de cada neumático, el tamaño de cada tornillo, la temperatura del aceite. Mi padre respetaba cada especificación como si fuera una ley. Una vez le pregunté por qué no confiaba más en su experiencia. Me contestó que la experiencia sirve para entender una especificación, no para cambiarla.\n\nYo, en cambio, era un niño torpe. Se me caían las herramientas, me tropezaba con los cables y una vez me di con un martillo en el dedo. Mi padre me curó el dedo y me explicó, con paciencia, cómo se sostiene un martillo. «No eres torpe», me dijo; «todavía no tienes práctica.» Esa frase me ha acompañado toda la vida.\n\nRecuerdo especialmente el día en que revisó el neumático de un avión pequeño y encontró un clavo diminuto. Para mí no era nada, pero él cambió el neumático entero. Esa misma tarde, de vuelta a casa, pinchamos una rueda del auto. Mi padre se rió: «Hoy los clavos me persiguen.» Cambió la rueda pinchada en 10 minutos, como si fuera otro avión.\n\nAquel auto era viejo, pero tenía un turbo que mi padre había arreglado él mismo. Le encantaba explicarme cómo funcionaba el turbo: el aire entra con más fuerza en el motor, y el motor responde con más potencia. Yo no entendía casi nada, pero me gustaba oír el ruido del turbo cuando subíamos hacia la cordillera.\n\nCon los años, el trabajo cambió. En los noventa llegaron los computadores al taller, y los manuales de papel pasaron a una pantalla. Mi padre aprendió a usar el computador a los 50 años, con el mismo afán con que había aprendido todo lo demás.\n\nYo no fui mecánico: soy profesor de física. Pero cuando pienso en la aviación, no pienso en aviones, sino en las manos de mi padre. Hoy tengo un auto híbrido, que combina un motor eléctrico y uno de gasolina. Mi padre, que ya tiene 84 años, lo mira con curiosidad y me hace preguntas sobre el híbrido como si el mecánico fuera yo. Ahora le explico yo las cosas, con la misma paciencia que él tuvo conmigo.\n\nPreguntas:\n¿En qué trabajó el padre del narrador?\nFue mecánico de aviación durante 35 años en el aeropuerto de Los Cerrillos.\n¿Qué contenían los manuales?\nEstaban llenos de especificaciones, como la presión de cada neumático o la temperatura del aceite.\n¿Qué le dijo el padre cuando el niño se dio con el martillo en el dedo?\nLe dijo que no era torpe, sino que todavía no tenía práctica.\n¿Qué pasó en el camino de vuelta a casa?\nPincharon una rueda del auto, y el padre la cambió en 10 minutos.\n¿Cómo aprendió el padre a usar el computador?\nAprendió a los 50 años, con el mismo afán con que había aprendido todo lo demás.\n¿Qué auto tiene hoy el narrador?\nTiene un auto híbrido, que combina un motor eléctrico y uno de gasolina."
+    },
+    {
+      "title": "Tres semanas en el hospital",
+      "summary": "A woman in San José, Costa Rica, remembers the weeks after her mother's heart attack: the first symptoms, the delayed operation and the slow recovery.",
+      "newWords": [
+        "infarto",
+        "quirúrgico",
+        "gravemente",
+        "acompañante",
+        "malestar",
+        "tos",
+        "restringido",
+        "retrasado",
+        "impotencia",
+        "constatar"
+      ],
+      "text": "En marzo de 2015 mi madre, Olga, sufrió un infarto. Tenía 68 años y nunca había estado gravemente enferma. Escribo estas páginas porque aquellas tres semanas en un hospital de San José me enseñaron más sobre mi madre, y sobre mí misma, que muchos años de vida tranquila.\n\nTodo empezó con un malestar. Un domingo, durante el almuerzo, mi madre dijo que sentía un malestar extraño en el pecho y en el brazo izquierdo. Pensó que era cansancio. Además, llevaba unos días con una tos seca, y creyó que el malestar venía de la tos. Yo insistí en llevarla a urgencias, y ella aceptó de mala gana.\n\nEn urgencias, la doctora le hizo unas pruebas y constató lo que yo temía: era un infarto. Recuerdo sus palabras exactas: «Su madre está gravemente enferma, pero ha llegado a tiempo.» Aquella frase contenía, al mismo tiempo, el miedo y la esperanza.\n\nLos médicos decidieron que necesitaba una intervención quirúrgica. Estaba prevista para el día siguiente a las 8, pero el programa quirúrgico iba retrasado, porque habían llegado de noche varios pacientes más graves. A mediodía todo seguía retrasado, y la operación empezó por fin a las 6 de la tarde. Fueron las horas más largas de mi vida.\n\nMientras esperaba, sentí por primera vez una impotencia total. Yo, que siempre había resuelto los problemas de la familia, no podía hacer nada. Esa impotencia me dolía casi tanto como el miedo. Una enfermera mayor se sentó a mi lado y me dijo: «Usted ya hizo lo más importante: la trajo a tiempo.»\n\nLa operación salió bien. Después, mi madre pasó varios días en cuidados intensivos, donde el acceso estaba restringido: solo se permitía un acompañante, y solo durante una hora por la mañana y otra por la tarde. Yo fui esa acompañante cada día. Las visitas restringidas me parecían crueles, pero entendí que eran necesarias para que los pacientes descansaran.\n\nCuando la pasaron a una habitación normal, pude quedarme con ella también por la noche, en una silla para acompañantes junto a la cama. Allí hablamos como no habíamos hablado en años. Me contó cosas de su juventud que yo no conocía, y yo le dije cosas que nunca me había atrevido a decirle.\n\nAl final de la tercera semana, la cardióloga revisó los resultados y constató que el corazón respondía bien. La tos también había desaparecido. Mi madre volvió a casa con una lista de medicinas y la promesa de caminar todos los días.\n\nHan pasado 10 años. Ella camina cada mañana por el parque, y yo, cuando siento un malestar, ya no digo que es cansancio: voy al médico.\n\nPreguntas:\n¿Cómo empezó el infarto de la madre?\nEmpezó con un malestar extraño en el pecho y en el brazo izquierdo.\n¿De dónde creyó la madre que venía el malestar?\nCreyó que venía de la tos seca que tenía desde hacía unos días.\n¿Por qué la operación no empezó a las 8?\nPorque el programa quirúrgico iba retrasado: habían llegado varios pacientes más graves.\n¿Qué sintió la narradora mientras esperaba?\nSintió una impotencia total, porque no podía hacer nada.\n¿Cómo eran las visitas en cuidados intensivos?\nEran restringidas: solo se permitía un acompañante, una hora por la mañana y otra por la tarde.\n¿Qué constató la cardióloga al final de la tercera semana?\nConstató que el corazón respondía bien."
+    },
+    {
+      "title": "El primer año de Mateo",
+      "summary": "A woman in Lima remembers the first year of motherhood: the worry, the lunches with her own mother, a psychiatrist friend's advice and what she discovered about love.",
+      "newWords": [
+        "maternidad",
+        "incondicional",
+        "emotivo",
+        "ansia",
+        "almorzar",
+        "plátano",
+        "mutuamente",
+        "matiz",
+        "similitud",
+        "psiquiatra"
+      ],
+      "text": "Mi hijo Mateo nació en Lima un martes de enero de 2019. Antes de su llegada yo había leído muchos libros sobre la maternidad, pero ninguno me preparó para lo que viví aquel primer año. Hoy, cuando Mateo ya va al colegio, quiero recordar aquellos meses tal como fueron, con su alegría y con su cansancio.\n\nLas primeras semanas viví con una especie de ansia constante. Me levantaba de noche para comprobar si respiraba, contaba las horas entre una toma y otra, y cada vez que lloraba pensaba que algo iba mal. Mi esposo, Julio, también estaba cansado, pero dormía mejor que yo. Él decía que el ansia se me pasaría; yo no estaba tan segura.\n\nLo que más me ayudó fue mi madre. Venía cada día a almorzar con nosotros. Traía la comida ya hecha, casi siempre arroz con plátano frito, que es lo que comíamos en casa cuando yo era niña. Almorzábamos juntas en la cocina mientras Mateo dormía, y durante esa hora yo volvía a sentirme hija y no solo madre. Cuando Mateo empezó a comer, el primer alimento que probó fue plátano aplastado, preparado por su abuela.\n\nUn día le conté mi ansia a mi amiga Gabriela, que es psiquiatra. Pensé que se iba a preocupar, pero me tranquilizó. Me explicó que muchas madres sienten lo mismo y que no debía avergonzarme. «Si el ansia no te deja vivir, ven a verme a la consulta», me dijo, «pero lo que me cuentas es bastante normal.» Escuchar aquello de una psiquiatra me quitó un gran peso de encima.\n\nCon el tiempo descubrí que la maternidad no es un solo sentimiento, sino muchos a la vez, y que cada uno tiene su matiz. Hay un cansancio dulce y un cansancio amargo; hay un miedo que paraliza y otro que te vuelve más atenta. Aprender a distinguir cada matiz fue, para mí, aprender a ser madre.\n\nTambién empecé a ver la similitud entre mi madre y yo. Le cantaba a Mateo las mismas canciones que ella me cantaba, y lo tomaba en brazos de la misma manera. Cuando se lo comenté, se rió y me dijo que la similitud no era casualidad.\n\nJulio y yo aprendimos a apoyarnos mutuamente. Nos turnábamos por las noches y nos contábamos mutuamente cada pequeño avance del bebé. Creo que aquel año nos unió más que cualquier otro.\n\nEl momento más emotivo llegó en su primer cumpleaños. Mateo dio sus primeros pasos hacia los brazos de mi madre. Fue tan emotivo que ninguno de los tres pudo hablar. Entonces comprendí lo que significa un amor incondicional: el de ella por mí, y el mío por él, incondicional y sin esperar nada a cambio.\n\nPreguntas:\n¿Qué sentía la narradora las primeras semanas?\nSentía una especie de ansia constante.\n¿Qué hacía la madre de la narradora cada día?\nVenía a almorzar con ellos y traía arroz con plátano frito.\n¿Qué le dijo su amiga Gabriela, que es psiquiatra?\nLe dijo que muchas madres sienten lo mismo y que lo que le contaba era bastante normal.\n¿Qué descubrió la narradora sobre la maternidad?\nDescubrió que la maternidad son muchos sentimientos a la vez, y que cada uno tiene su matiz.\n¿Qué similitud vio entre su madre y ella?\nLe cantaba a Mateo las mismas canciones y lo tomaba en brazos de la misma manera.\n¿Cuál fue el momento más emotivo del año?\nFue cuando Mateo dio sus primeros pasos hacia los brazos de su abuela."
+    },
+    {
+      "title": "La gramática de mi abuela",
+      "summary": "A Spanish teacher in Los Angeles remembers growing up with English at home, his grandmother's Spanish and the university classes that made him a teacher.",
+      "newWords": [
+        "hablante",
+        "gramática",
+        "metáfora",
+        "determinante",
+        "atributo",
+        "colocación",
+        "antropología",
+        "aleatorio",
+        "incompleto",
+        "predominar"
+      ],
+      "text": "Crecí en Los Ángeles, en una casa donde predominaba el inglés. Mis padres habían llegado de Jalisco muy jóvenes y, para que sus hijos tuvieran éxito en la escuela, nos hablaban casi siempre en inglés. El español solo predominaba los domingos, cuando visitábamos a mi abuela Guadalupe, que nunca aprendió inglés.\n\nCon ella yo hablaba un español incompleto. Entendía casi todo, pero me faltaban palabras, y muchas frases me salían a medias. Mi abuela no me corregía; esperaba con paciencia y terminaba mis frases incompletas con una sonrisa. Hoy sé que yo era lo que los especialistas llaman un «hablante de herencia»: un hablante que aprende la lengua en casa, pero no en la escuela.\n\nEn la universidad estudié antropología. Me interesaba entender cómo las familias de inmigrantes conservan, o pierden, su cultura. Para mi trabajo de antropología tenía que entrevistar a familias mexicanas, y ahí descubrí que mi español no bastaba. Así que me inscribí en un curso de español para hablantes de herencia.\n\nLa profesora, la doctora Benavides, nos enseñó gramática desde el principio. Yo hablaba sin pensar en reglas, y de repente tenía que saber qué era un determinante o un atributo. Nos explicó que en «la casa es grande», «la» es un determinante y «grande» es el atributo. Parecía un juego de nombres, pero me ayudó a entender por qué algunas frases sonaban bien y otras no.\n\nLo que más me sirvió fue el estudio de la colocación, es decir, las palabras que suelen ir juntas. Mi abuela decía «tomar una decisión» y «hacer una pregunta», y yo, por influencia del inglés, decía cosas raras. La doctora Benavides decía que cada colocación es una pequeña costumbre de la lengua.\n\nElla usaba una metáfora que nunca he olvidado: «La gramática no es una cárcel, es el mapa de una casa que ya conocen.» Con esa metáfora entendí que yo no empezaba de cero. Llevaba la lengua dentro; solo me faltaba ordenarla.\n\nHasta entonces, había aprendido el español de manera aleatoria: una palabra aquí, una expresión allá, según lo que oía los domingos. Aquel curso convirtió ese aprendizaje aleatorio en algo ordenado.\n\nAquel curso fue determinante en mi vida. Dejé la antropología y me hice profesor de español. Hoy enseño a jóvenes como yo, que hablan un español incompleto y a veces se avergüenzan de él. A todos les digo lo mismo: lo que traen de casa vale mucho.\n\nMi abuela murió hace unos años. En su último cumpleaños le leí una carta en español, sin errores de gramática. Me escuchó en silencio y después dijo: «Ya hablas como en el pueblo.» Para mí, no hay mejor diploma.\n\nPreguntas:\n¿Qué lengua predominaba en la casa del narrador?\nPredominaba el inglés, porque sus padres les hablaban casi siempre en inglés.\n¿Cómo era el español del narrador cuando era niño?\nEra un español incompleto: entendía casi todo, pero le faltaban palabras.\n¿Qué estudió en la universidad?\nEstudió antropología.\nSegún la profesora, ¿qué es «grande» en la frase «la casa es grande»?\nEs el atributo, y «la» es un determinante.\n¿Qué metáfora usaba la doctora Benavides?\nDecía que la gramática no es una cárcel, sino el mapa de una casa que ya conocen.\n¿Por qué fue determinante aquel curso?\nPorque el narrador dejó la antropología y se hizo profesor de español."
+    },
+    {
+      "title": "El verano del teatro",
+      "summary": "A man in Mexico City remembers the school play of 1986, in which he played the king's guard in a cardboard armour and learned to love the stage.",
+      "newWords": [
+        "decorado",
+        "armadura",
+        "estelar",
+        "entusiasta",
+        "huy",
+        "discoteca",
+        "colorido",
+        "rematar",
+        "escolta",
+        "perverso"
+      ],
+      "text": "En 1986, cuando tenía 17 años, mi escuela en la Ciudad de México montó una obra de teatro sobre un rey medieval. Yo era tímido y nunca había subido a un escenario, pero mi amigo Rodrigo me convenció de que me apuntara. Aquel verano cambió mi manera de ver el mundo.\n\nEl director era el profesor Salinas, un hombre entusiasta que enseñaba literatura y creía que todos llevamos un actor dentro. Su entusiasmo era contagioso: cuando él hablaba, hasta los alumnos menos entusiastas querían participar.\n\nEl papel estelar fue para una compañera, Valeria, que hacía de reina. Rodrigo era el villano, un consejero perverso que quería quedarse con el trono. Le salía tan bien el papel de perverso que los niños pequeños le tenían miedo en el patio. A mí me tocó un papel mucho más modesto: era la escolta del rey. Tenía que estar de pie junto al trono, serio, y decir dos frases en toda la obra. Aun así, me tomé muy en serio mi trabajo de escolta.\n\nMi vestuario era una armadura de cartón pintada de gris. La hicimos en clase, y yo mismo pinté los detalles. Durante los ensayos, la armadura se rompía cada dos por tres, y cada vez que algo caía al suelo yo decía: «¡Huy!» Pronto todo el grupo empezó a repetir mi «¡huy!» en broma.\n\nEl decorado lo pintaron los alumnos de dibujo. Era muy colorido: un castillo morado, un cielo naranja y unas banderas rojas y amarillas. Al profesor Salinas le preocupaba que un decorado tan colorido no pareciera medieval, pero al final le encantó. «El teatro no copia la realidad», nos dijo, «la imagina.»\n\nLa noche del estreno, el auditorio estaba lleno. Todo salió bien hasta la última escena. Cuando Rodrigo, el consejero perverso, cayó derrotado, golpeó sin querer el decorado y una de las torres empezó a moverse. Yo la sujeté con las dos manos, todavía con mi armadura puesta. «¡Huy!», dije en voz alta, y el público se rió. Valeria aprovechó el momento para rematar la escena con su última frase, y la obra terminó entre aplausos. El profesor Salinas dijo después que yo había rematado la noche mejor que cualquier actor.\n\nPara celebrar, fuimos todos a una discoteca de la colonia Roma. Era la primera vez que yo entraba en una discoteca, y bailé, todavía con restos de pintura gris en la cara, hasta la madrugada.\n\nHoy soy actor profesional. He tenido algunos papeles importantes, pero ninguno me ha dado tanta alegría como aquella armadura de cartón.\n\nPreguntas:\n¿Cómo era el profesor Salinas?\nEra un hombre entusiasta que enseñaba literatura y creía que todos llevamos un actor dentro.\n¿Quién tuvo el papel estelar?\nLo tuvo Valeria, que hacía de reina.\n¿Qué papel tenía el narrador?\nEra la escolta del rey y llevaba una armadura de cartón.\n¿Cómo era el decorado?\nEra muy colorido: un castillo morado, un cielo naranja y banderas rojas y amarillas.\n¿Qué pasó en la última escena?\nRodrigo golpeó el decorado, una torre empezó a moverse y el narrador la sujetó diciendo «¡Huy!».\n¿Cómo celebraron el estreno?\nFueron a una discoteca de la colonia Roma."
+    },
+    {
+      "title": "Mi primer voto",
+      "summary": "A woman in Buenos Aires remembers voting for the first time in October 1983 and the history lessons her grandfather gave her in the weeks before.",
+      "newWords": [
+        "sufragio",
+        "liberalismo",
+        "patriotismo",
+        "polémico",
+        "fortalecimiento",
+        "unitario",
+        "anterioridad",
+        "intensificar",
+        "sellar",
+        "armamento"
+      ],
+      "text": "El 30 de octubre de 1983 voté por primera vez. Tenía 19 años y vivía con mis padres y mi abuelo Aurelio en un departamento de Buenos Aires. Hacía años que en la Argentina no había elecciones, y aquel día fue una fiesta para mi familia.\n\nMi abuelo había sido profesor de historia en un colegio secundario. En las semanas anteriores a la elección, me daba cada noche una clase en la cocina. Decía que nadie debía votar sin conocer de dónde venía su país.\n\nEmpezó por el siglo XIX. Me habló de la larga lucha entre unitarios y federales: los unitarios querían un gobierno fuerte en Buenos Aires, y los federales defendían el poder de las provincias. Me explicó también las ideas del liberalismo, que influyeron mucho en la Constitución de 1853. «El liberalismo de entonces», me dijo, «ponía la libertad de cada persona en el centro.»\n\nDespués me habló del sufragio. Me contó que el sufragio secreto y obligatorio para los hombres llegó en 1912, y que las mujeres no consiguieron el sufragio hasta 1947; votaron por primera vez en 1951. «Tu abuela votó por primera vez a los 30 años», me dijo. «Tú vas a votar a los 19.»\n\nUna noche hablamos del patriotismo, que entonces era un asunto muy polémico. Después de la guerra de Malvinas, los diarios discutían el gasto en armamento, y cada familia tenía su opinión. Mi abuelo me dijo que, para él, el patriotismo no consistía en comprar armamento, sino en cuidar las escuelas, los hospitales y las leyes. Sabía que aquel punto de vista era polémico, pero lo defendía con calma.\n\nA medida que se acercaba el día, la campaña se intensificó. Había carteles en todas las paredes y actos en todas las plazas. En casa, las conversaciones también se intensificaron; mis padres y mi abuelo no siempre estaban de acuerdo, pero discutían con respeto.\n\nMi abuelo insistió en que yo leyera con anterioridad las propuestas de cada partido. «Lo que se decide con anterioridad se decide mejor», decía. Así que leí folletos y diarios durante dos semanas.\n\nEl día de la elección fuimos juntos a la escuela del barrio. Me dieron un sobre, entré sola en el cuarto oscuro, elegí mi boleta y la metí en el sobre. Después sellé el sobre con cuidado y lo dejé en la urna. Al salir vi que la urna también estaba sellada, con la firma de las autoridades de la mesa. Me pareció un gesto pequeño y, a la vez, enorme.\n\nEsa noche, mientras escuchábamos los resultados por la radio, mi abuelo me dijo que cada elección libre era un paso más en el fortalecimiento de la democracia, y que ese fortalecimiento dependía de cada uno de nosotros. Han pasado más de 40 años, y desde entonces no he faltado a ninguna elección. Cada vez que sello un sobre, pienso en él.\n\nPreguntas:\n¿Cuándo votó la narradora por primera vez?\nVotó por primera vez el 30 de octubre de 1983, a los 19 años.\n¿Qué querían los unitarios?\nQuerían un gobierno fuerte en Buenos Aires.\n¿Cuándo llegó el sufragio para las mujeres en la Argentina?\nLas mujeres consiguieron el sufragio en 1947 y votaron por primera vez en 1951.\n¿En qué consistía el patriotismo para el abuelo?\nPara él, el patriotismo consistía en cuidar las escuelas, los hospitales y las leyes, no en comprar armamento.\n¿Qué le pidió el abuelo que hiciera con anterioridad?\nLe pidió que leyera con anterioridad las propuestas de cada partido.\n¿Qué hizo la narradora con el sobre?\nLo selló con cuidado y lo dejó en la urna.\n¿Qué era cada elección libre para el abuelo?\nEra un paso más en el fortalecimiento de la democracia."
+    },
+    {
+      "title": "El café del río Miño",
+      "summary": "An old man in Galicia remembers one rainy night in 1953, when he and a friend carried coffee across the river from Portugal, and why he later chose another life.",
+      "newWords": [
+        "contrabando",
+        "evadir",
+        "equipaje",
+        "volcar",
+        "refugiar",
+        "calar",
+        "explorador",
+        "penetración",
+        "prieto"
+      ],
+      "text": "Nací en 1933 en una aldea de Galicia, a orillas del río Miño, justo enfrente de Portugal. En mi juventud éramos muy pobres, y muchos hombres del pueblo vivían en parte del contrabando. Del otro lado del río traían café, que en España escaseaba y se vendía caro. Yo solo hice contrabando una vez, una noche de noviembre de 1953, y quiero contar aquella noche porque me cambió la vida.\n\nMi amigo Xosé tenía una barca pequeña. Me propuso cruzar con él a Portugal, comprar café y volver antes del amanecer. Yo tenía 20 años y me sentía como un explorador ante un territorio desconocido. Mi madre no sabía nada.\n\nCruzamos sin problemas. En el pueblo portugués compramos 4 sacos de café y los atamos bien prietos con cuerdas, para que no se abrieran. Xosé revisó cada nudo y me dijo que un nudo prieto valía más que una buena barca.\n\nAl volver empezó a llover. Era una lluvia fina y constante que nos caló hasta los huesos en pocos minutos. Recuerdo la penetración lenta del frío: primero en las manos, luego en la espalda, al final en todo el cuerpo. Ya no me sentía explorador, sino un muchacho asustado y empapado.\n\nEn medio del río, una corriente fuerte golpeó la barca de lado y estuvimos a punto de volcar. Los sacos se movieron, y Xosé gritó que me echara hacia el otro lado. Por suerte, la barca no volcó, pero uno de los sacos cayó al agua y se perdió.\n\nLlegamos a la orilla española casi sin fuerzas. Para evadir a los guardias, que vigilaban el camino, nos refugiamos en un viejo molino abandonado. Allí esperamos hasta el amanecer, mojados, sin hablar. La lluvia nos había calado tanto que temblábamos sin parar. Mientras estábamos refugiados en el molino, pensé en mi madre y en lo que habría sentido si la barca hubiera volcado.\n\nConseguimos evadir a los guardias y vendimos el café. Gané algo de dinero, pero decidí no volver a cruzar el río de noche. Xosé siguió unos años más; yo busqué otro camino.\n\nEn 1957 emigré a Suiza. Mi equipaje era una maleta de cartón con dos camisas, un pantalón y una foto de mi madre. Era un equipaje pobre, pero en aquella maleta llevaba también la decisión de ganarme la vida sin esconderme. Trabajé 30 años en una fábrica y volví a Galicia ya jubilado.\n\nHoy, cuando paseo por la orilla del Miño, miro el viejo molino donde nos refugiamos. El contrabando forma parte de la historia de la frontera, y no quiero juzgar a quienes vivieron de él. Pero yo aprendí aquella noche que la vida vale más que un saco de café.\n\nPreguntas:\n¿Por qué muchos hombres del pueblo vivían del contrabando?\nPorque eran muy pobres, y el café de Portugal se vendía caro en España.\n¿Cómo ataron los sacos de café?\nLos ataron bien prietos con cuerdas, para que no se abrieran.\n¿Qué sintió el narrador cuando empezó a llover?\nSintió la penetración lenta del frío, porque la lluvia lo caló hasta los huesos.\n¿Qué pasó en medio del río?\nUna corriente golpeó la barca y estuvieron a punto de volcar; uno de los sacos cayó al agua.\n¿Dónde se refugiaron para evadir a los guardias?\nSe refugiaron en un viejo molino abandonado.\n¿Qué llevaba en su equipaje cuando emigró a Suiza?\nLlevaba una maleta de cartón con dos camisas, un pantalón y una foto de su madre."
+    },
+    {
+      "title": "Una segunda vida para las cosas",
+      "summary": "An engineer in Medellín remembers how her father's brake workshop and her own love of computers led her to open a small repair and recycling business.",
+      "newWords": [
+        "reciclar",
+        "incentivar",
+        "deteriorar",
+        "procesador",
+        "stand",
+        "transversal",
+        "zapata",
+        "resurrección"
+      ],
+      "text": "Mi padre, Gustavo, tuvo durante 30 años un taller de frenos en Medellín, en una calle transversal a la avenida principal del barrio. Yo crecí entre motores y herramientas. Su especialidad eran las zapatas de freno: cuando una zapata se gastaba, él no la tiraba, sino que la limpiaba, le cambiaba el material gastado y la devolvía al cliente casi nueva. «Una zapata reparada frena igual que una nueva», decía, «y cuesta la mitad.»\n\nSin darme cuenta, en aquel taller aprendí a reciclar. Mi padre guardaba cada tornillo, cada cable y cada pieza vieja. Para él, reciclar no era una moda, sino una manera de vivir sin desperdiciar nada.\n\nEstudié ingeniería electrónica en la universidad. Mientras mis compañeros soñaban con trabajar en grandes empresas, a mí me fascinaban los computadores viejos que la gente dejaba en la basura. Me los llevaba a casa, los abría y comprobaba qué piezas funcionaban. Muchas veces el procesador estaba en perfecto estado y el problema era una pieza pequeña y barata. Me daba pena pensar en todos los procesadores que terminaban en la basura.\n\nEn 2010 abrí un pequeño local en la misma calle transversal donde estaba el taller de mi padre. Reparaba computadores y teléfonos, y lo que no podía reparar lo llevaba a una planta para reciclarlo. Al principio tenía pocos clientes. Muchos equipos llegaban tan deteriorados que no se podían salvar: la humedad y el polvo los habían deteriorado por dentro.\n\nUn año después, la alcaldía empezó un programa para incentivar el reciclaje de aparatos electrónicos. Para incentivar a los vecinos, ofrecía descuentos a quien entregara sus equipos viejos en lugares autorizados. Mi local fue uno de esos lugares, y el número de clientes creció mucho.\n\nEse mismo año participé en una feria de tecnología. Tenía un stand pequeño, con una mesa, dos computadores reparados y un cartel escrito a mano. Junto a mi stand había empresas enormes, pero mucha gente se detuvo a preguntar. Les mostraba un procesador viejo y les explicaba que todavía podía funcionar durante años.\n\nUna señora mayor me dijo aquel día algo que nunca he olvidado: «Lo que usted hace es una pequeña resurrección.» Me gustó la palabra. Desde entonces pienso en mi trabajo así: cada computador que vuelve a funcionar es una resurrección modesta, sin milagros, hecha con paciencia y con un destornillador.\n\nMi padre ya cerró su taller, pero viene a visitarme casi todos los días. Se sienta en un rincón, mira cómo trabajo y a veces me pasa una herramienta, como yo se las pasaba a él cuando era niña.\n\nPreguntas:\n¿Qué hacía el padre de la narradora con las zapatas de freno gastadas?\nLas limpiaba, les cambiaba el material gastado y las devolvía casi nuevas.\n¿Dónde estaba el taller del padre?\nEstaba en una calle transversal a la avenida principal del barrio, en Medellín.\n¿Qué descubría la narradora al abrir los computadores viejos?\nDescubría que muchas veces el procesador estaba en perfecto estado.\n¿Por qué muchos equipos no se podían salvar?\nPorque la humedad y el polvo los habían deteriorado por dentro.\n¿Cómo incentivó la alcaldía el reciclaje?\nOfrecía descuentos a quien entregara sus equipos viejos en lugares autorizados.\n¿Qué le dijo la señora mayor en el stand de la feria?\nLe dijo que lo que hacía era una pequeña resurrección."
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "es-mini-5700",
+  "rankUpTo": 5700,
+  "level": "C1",
+  "title": "Transporte y movilidad",
+  "description": "Ten columns, portraits, interviews, a report and a travel diary about getting around in Spain, Latin America and New York: metro maps, long flights, a night taxi driver, words for the bus, a ticket app, distant suburbs, safer buses, a coastal trip, bicycles in an old town and earthquakes underground.",
+  "topic": "Transport and mobility",
+  "names": [
+    "Ciudad de México",
+    "México",
+    "Madrid",
+    "Lima",
+    "Buenos Aires",
+    "Bogotá",
+    "América",
+    "Corrientes",
+    "Ramiro Sosa",
+    "Ramiro",
+    "Sosa",
+    "Ezeiza",
+    "Nueva York",
+    "Bronx",
+    "Ecuador",
+    "Puerto Rico",
+    "Valentina Rojas",
+    "Valentina",
+    "Rojas",
+    "Tunja",
+    "Villavicencio",
+    "Ciudad de Guatemala",
+    "Guatemala",
+    "Andrea Morales",
+    "Andrea",
+    "Diego",
+    "Montevideo",
+    "Rocha",
+    "La Paloma",
+    "Córdoba",
+    "Guadalquivir",
+    "Manolo",
+    "Santiago de Chile",
+    "Santiago",
+    "Paula Henríquez",
+    "Paula"
+  ],
+  "lessons": [
+    {
+      "title": "Un mapa sin adornos",
+      "summary": "A young graphic designer in Mexico City explains why the metro map is an abstract drawing rather than a true map, and why every station has its own small picture.",
+      "newWords": [
+        "egresado",
+        "abstracto",
+        "trazado",
+        "aproximación",
+        "adorno",
+        "triángulo",
+        "adonde",
+        "réplica",
+        "jamaica"
+      ],
+      "text": "Hace dos años que soy egresada de diseño gráfico, y desde entonces miro el metro de la Ciudad de México con otros ojos. Antes solo veía trenes llenos de gente; ahora veo también un sistema de colores, signos y líneas que alguien pensó con mucho cuidado. Esta columna es una pequeña defensa de su mapa.\n\nLo primero que conviene entender es que el mapa del metro no es un mapa de verdad. Es un dibujo abstracto. No muestra las calles ni los parques, y tampoco respeta las distancias. Las líneas no siguen el trazado real de los túneles: van rectas, giran en ángulos fijos y dejan el mismo espacio entre una estación y la siguiente, aunque en la calle una esté a 500 metros de la otra y la siguiente a 2 kilómetros. Ese dibujo abstracto no es falso: es una aproximación. Al pasajero no le interesa el trazado exacto del túnel; le interesa saber dónde cambiar de línea y cuántas estaciones le faltan.\n\nEsa aproximación tiene una ventaja enorme: se entiende en pocos segundos. En la universidad, un profesor nos repetía una regla que no he olvidado: «Un buen mapa no lleva adornos». Cada adorno, decía, obliga al ojo a trabajar un poco más antes de encontrar lo importante. Por eso el mapa del metro casi no tiene adornos: colores planos, líneas, círculos y nombres. Las líneas 1, 2 y 3, por ejemplo, se cruzan en tres estaciones distintas y forman un triángulo en pleno centro. Mucha gente usa ese triángulo cada día sin saberlo.\n\nPero el metro de esta ciudad tiene algo más, algo que me sigue pareciendo genial: cada estación tiene su propio icono. La estación de un mercado tiene una fruta o una flor; otras tienen un animal, una campana, un edificio o la cara de un personaje histórico. Los iconos nacieron a finales de los años sesenta, cuando se abrió la primera línea. Era una ciudad adonde llegaban cada año miles de personas del campo, y muchas no sabían leer. Quien no podía leer el nombre de la estación sí podía reconocer el dibujo y contar los iconos hasta llegar al suyo.\n\nHace poco vi en una exposición una réplica del primer mapa, el de 1969. La réplica era sencilla: una sola línea, unas pocas estaciones y, al lado de cada nombre, su icono. Me quedé un buen rato delante de ella.\n\nHoy casi todos llevamos el mapa en el teléfono, pero los iconos siguen ahí, en las paredes de cada estación. Cada mañana, a la salida de la estación adonde voy a trabajar, una señora vende agua de jamaica en vasos grandes. Le compro uno, frío y rojo, y miro el icono de la pared antes de subir a la calle. El agua de jamaica me despierta; el icono me recuerda que el buen diseño es el que todos entienden, sepan leer o no.\n\nPreguntas:\n¿Qué estudió la autora?\nEs egresada de diseño gráfico.\n¿Por qué dice que el mapa del metro es un dibujo abstracto?\nPorque no muestra las calles ni respeta las distancias, y las líneas no siguen el trazado real de los túneles.\n¿Qué forman las líneas 1, 2 y 3?\nSe cruzan en tres estaciones distintas y forman un triángulo en el centro.\n¿Por qué tiene cada estación un icono?\nPorque a la ciudad llegaban muchas personas del campo que no sabían leer, y así podían reconocer el dibujo.\n¿Qué vio la autora en una exposición?\nVio una réplica del primer mapa, el de 1969.\n¿Qué compra cada mañana a la salida de la estación?\nCompra un vaso de agua de jamaica."
+    },
+    {
+      "title": "Doce horas en el aire",
+      "summary": "A family doctor in Madrid gives her patients' most common advice for long flights to Latin America: circulation, joints, tiredness and vitamins.",
+      "newWords": [
+        "sanguíneo",
+        "perjudicial",
+        "mercurio",
+        "articulación",
+        "almohada",
+        "cansancio",
+        "medianoche",
+        "despegar",
+        "vitamina",
+        "duradero"
+      ],
+      "text": "Soy médica de familia en un centro de salud de Madrid, y cada otoño se repite la misma escena en mi consulta. Llegan pacientes que van a visitar a sus hijos en Lima, en Buenos Aires o en Bogotá, y me hacen la misma pregunta: «¿Qué tengo que hacer para llegar bien?». Un vuelo de 12 horas no es una enfermedad, pero tampoco es un viaje cualquiera para el cuerpo. Estos son los consejos que doy.\n\nEl primer riesgo es el más conocido y, por suerte, el menos frecuente: los problemas de circulación sanguínea. Cuando pasamos muchas horas sentados, la sangre de las piernas circula más despacio. En personas sanas, eso no suele tener consecuencias; en personas mayores, o con problemas sanguíneos previos, puede ser perjudicial. La solución es sencilla: levantarse cada hora, caminar por el pasillo y mover los pies mientras estamos sentados. El alcohol también resulta perjudicial, porque empeora el sueño.\n\nA los pacientes con la tensión alta los veo antes del viaje. Les tomo la presión sanguínea y les explico los números. Todavía hoy la presión se mide en milímetros de mercurio, aunque los aparatos modernos ya no lleven mercurio dentro: es una costumbre que viene de los antiguos aparatos de cristal, en los que una columna de mercurio subía y bajaba.\n\nEl segundo problema es el dolor de las articulaciones. Doce horas en un asiento estrecho cansan las rodillas, la espalda y el cuello. Aquí ayudan dos cosas: mover las articulaciones de vez en cuando, aunque sea sin levantarse, y llevar una almohada pequeña para el cuello. Una buena almohada de viaje parece un detalle, pero cambia mucho la postura durante el sueño. Conviene probar la almohada en casa antes del viaje.\n\nEl tercer problema es el cansancio. Muchos vuelos hacia América salen de Madrid por la tarde o cerca de la medianoche, y llegan con varias horas de diferencia. El cansancio de los primeros días no es solo falta de sueño: el cuerpo tiene que adaptarse a un horario nuevo. Si el avión va a despegar a medianoche, aconsejo cenar ligero antes de despegar y dormir la mayor parte del vuelo. Al llegar, conviene salir al sol y acostarse a una hora normal.\n\nPor último, me preguntan mucho por las vitaminas. Algunos creen que una vitamina evita el cansancio. No existe ninguna vitamina contra el cambio de horario. Lo que sí ayuda es comer fruta, beber agua y dormir bien.\n\nNinguno de estos consejos produce un efecto duradero si se aplica solo un día. El efecto más duradero lo da la costumbre: quien camina todos los días y duerme bien en casa también viaja mejor. Y a quien me pregunta si vale la pena tanto esfuerzo, le contesto siempre lo mismo: el abrazo del aeropuerto lo vale.\n\nPreguntas:\n¿Qué pregunta le hacen sus pacientes a la médica cada otoño?\nLe preguntan qué tienen que hacer para llegar bien después de un vuelo largo.\n¿Por qué hay que levantarse cada hora durante el vuelo?\nPorque, cuando pasamos muchas horas sentados, la circulación sanguínea de las piernas es más lenta.\n¿En qué unidad se mide la presión sanguínea?\nSe mide en milímetros de mercurio.\n¿Qué ayuda contra el dolor de las articulaciones?\nMoverlas de vez en cuando y llevar una almohada pequeña para el cuello.\n¿Qué aconseja la médica cuando el avión va a despegar a medianoche?\nAconseja cenar ligero antes de despegar y dormir la mayor parte del vuelo.\n¿Hay alguna vitamina contra el cambio de horario?\nNo, no existe ninguna vitamina contra el cambio de horario."
+    },
+    {
+      "title": "El Cuervo",
+      "summary": "A portrait of an honest night taxi driver in Buenos Aires, nicknamed the Crow, who has a story for every street.",
+      "newWords": [
+        "alias",
+        "cuervo",
+        "interminable",
+        "narrador",
+        "inolvidable",
+        "suplicar",
+        "honrado",
+        "genuino",
+        "fabuloso"
+      ],
+      "text": "En la parada de taxis de la avenida Corrientes todos lo conocen por su alias: el Cuervo. Se llama Ramiro Sosa, tiene 61 años y maneja un taxi por las noches desde hace casi 30. El alias se lo pusieron sus compañeros cuando era joven, por dos razones. La primera, que siempre trabajó de noche, como un cuervo que espera en la oscuridad. La segunda, que nunca se quita su vieja chaqueta negra. A él le gusta: «Un cuervo es un pájaro muy inteligente», dice.\n\nFui a conocerlo una noche de invierno para escribir este retrato. Me senté a su lado y lo acompañé desde las 10 de la noche hasta las 6 de la mañana. Fueron horas interminables para mí, que no estoy acostumbrado a pasar la noche despierto; para él, una noche más. «Al principio las noches parecen interminables», me explicó. «Después uno aprende a mirar la ciudad, y el tiempo pasa solo.»\n\nLo que más sorprende del Cuervo es que es un gran narrador. Cada calle le recuerda una historia, y la cuenta con orden, con pausas y con detalles, como un narrador de radio. Esa noche me contó decenas. La más inolvidable, según él, ocurrió hace 20 años. Un pasajero subió al taxi a las 3 de la mañana con una maleta y le suplicó que lo llevara al aeropuerto de Ezeiza lo más rápido posible, porque su vuelo salía en una hora. «Me lo suplicaba casi llorando», recuerda Ramiro. «Le dije que íbamos a llegar, pero respetando las señales. No corro ni por un rey.» Llegaron con diez minutos de margen, y el pasajero le dio las gracias con un abrazo. Para el Cuervo, aquel abrazo sigue siendo inolvidable.\n\nOtra historia explica por qué en la parada dicen que es el taxista más honrado de Buenos Aires. Una madrugada, después de dejar a una pareja en un hotel, encontró en el asiento de atrás un sobre con mucho dinero. Volvió al hotel, esperó a que la pareja bajara y se lo devolvió. «No hice nada especial», dice. «Ser honrado no es un premio; es lo normal.» Sus compañeros piensan distinto: para ellos, un hombre tan honrado merece un monumento.\n\n¿Qué tiene de especial pasar la noche con él? Que es genuino. No finge interés por sus pasajeros: le interesan de verdad. Un estudiante que viaja con él todos los viernes me dijo que el Cuervo es «la persona más genuina de la ciudad».\n\nHacia las 5, mientras volvíamos por una avenida vacía, le pregunté si pensaba dejar el taxi pronto. «El año que viene, quizás», contestó. «Pero me va a costar. La noche de esta ciudad es fabulosa: tranquila, con las calles libres y la gente con ganas de hablar.» Después de una noche con él, entendí que tenía razón. Las historias del Cuervo son fabulosas porque la ciudad, a esas horas, también lo es.\n\nPreguntas:\n¿Cuál es el alias de Ramiro Sosa?\nSu alias es el Cuervo.\n¿Por qué le pusieron ese alias?\nPorque siempre trabajó de noche, como un cuervo, y nunca se quita su chaqueta negra.\n¿Qué le suplicó un pasajero hace 20 años?\nLe suplicó que lo llevara al aeropuerto de Ezeiza lo más rápido posible.\n¿Por qué dicen que es el taxista más honrado de la ciudad?\nPorque devolvió un sobre con mucho dinero que encontró en el asiento de atrás.\n¿Por qué dice el autor que Ramiro es genuino?\nPorque no finge interés por sus pasajeros: le interesan de verdad.\n¿Cómo describe Ramiro la noche de Buenos Aires?\nDice que es fabulosa: tranquila, con las calles libres y con gente con ganas de hablar."
+    },
+    {
+      "title": "La guagua, el camión y el colectivo",
+      "summary": "A Puerto Rican teacher in New York describes a class in which her students found five different Spanish words for the bus, and what it taught them about dialects.",
+      "newWords": [
+        "puertorriqueño",
+        "educador",
+        "estereotipo",
+        "sarcasmo",
+        "indirecta",
+        "dialecto",
+        "vocabulario",
+        "ortografía",
+        "caricatura",
+        "subjetivo",
+        "vulgar"
+      ],
+      "text": "Soy puertorriqueña, vivo en Nueva York desde hace 15 años y trabajo como educadora en una escuela del Bronx. En mi clase de español hay chicos de familias mexicanas, dominicanas, ecuatorianas, colombianas y, claro, puertorriqueñas. Todos hablan español en casa, pero no todos lo hablan igual. Hace unas semanas, una pregunta muy sencilla convirtió una clase normal en una de las mejores del año: «¿Cómo se llama en tu casa el vehículo grande que lleva pasajeros por la ciudad?».\n\nLos chicos puertorriqueños y dominicanos contestaron enseguida: «La guagua». Los mexicanos se rieron, porque para ellos es «el camión». Un chico de Ecuador dijo «el bus», una chica de familia argentina dijo «el colectivo» y otra, cuya abuela es chilena, dijo «la micro». Cinco nombres para la misma cosa. Los escribí todos y, durante unos minutos, la clase se llenó de risas y de discusiones sobre cuál era el nombre correcto.\n\nAhí apareció el primer estereotipo. Un alumno dijo, con un poco de sarcasmo, que en su país se hablaba «el español de verdad». No se lo dijo directamente a nadie, pero era una indirecta clara para los compañeros que decían «guagua». La indirecta no me molestó; me pareció una buena oportunidad. Les expliqué que ese estereotipo es muy antiguo y que no existe un español «de verdad» y otro falso. Cada región tiene su dialecto, y cada dialecto tiene su vocabulario. El vocabulario del transporte es uno de los que más cambian de un país a otro, porque los vehículos llegaron a cada ciudad en épocas distintas y cada ciudad les dio su propio nombre.\n\nDespués hablamos de la ortografía. Una alumna preguntó cómo se escribe «guagua», y aproveché para explicar algo importante: el vocabulario cambia mucho de un dialecto a otro, pero la ortografía es casi la misma en todos los países. Un chico de México y una chica de Puerto Rico pueden usar palabras distintas, pero las escriben con la misma ortografía, y eso les permite leer los mismos libros.\n\nPara terminar, les pedí un dibujo. Una alumna dibujó una caricatura excelente: un autobús enorme con cinco bocas, y cada boca decía un nombre distinto. Todos se rieron, incluido el chico del sarcasmo, y la caricatura sigue en la pared.\n\nEsa tarde, en la guagua de vuelta a casa (yo sigo llamándola así, aunque viva en Nueva York), pensé en lo que había pasado. Decidir qué palabra suena mejor es algo subjetivo; a mí me gusta «guagua» porque es la palabra de mi infancia, y eso es tan subjetivo como preferir un color. Lo que no es subjetivo es el respeto. Ningún dialecto es vulgar, y ninguna palabra es vulgar solo por venir de otro país. Lo vulgar, si acaso, es burlarse de cómo habla un compañero. Como educadora, creo que mi trabajo no es elegir el mejor nombre para el autobús, sino lograr que los cinco nombres quepan en la misma clase.\n\nPreguntas:\n¿Dónde trabaja la autora?\nTrabaja como educadora en una escuela del Bronx, en Nueva York.\n¿Cómo llaman al autobús los chicos puertorriqueños y dominicanos?\nLo llaman «la guagua».\n¿Qué indirecta lanzó un alumno?\nDijo, con sarcasmo, que en su país se hablaba «el español de verdad».\n¿Qué cambia más de un dialecto a otro, el vocabulario o la ortografía?\nCambia más el vocabulario; la ortografía es casi la misma en todos los países.\n¿Qué dibujó una alumna?\nDibujó una caricatura de un autobús con cinco bocas, cada una con un nombre distinto.\n¿Qué es subjetivo, según la autora, y qué no lo es?\nDecidir qué palabra suena mejor es subjetivo; el respeto no lo es."
+    },
+    {
+      "title": "Pasajes sin fila",
+      "summary": "An interview with a young programmer in Bogotá who built an app for buying intercity bus tickets, and with it simplified refunds and won over one investor.",
+      "newWords": [
+        "programador",
+        "simplificar",
+        "cancelación",
+        "tramitar",
+        "interfaz",
+        "verificación",
+        "beta",
+        "inversionista",
+        "viable",
+        "obtención"
+      ],
+      "text": "Valentina Rojas tiene 29 años, es programadora y vive en Bogotá. Hace dos años, junto con otros dos programadores, creó una aplicación para comprar pasajes de bus entre ciudades colombianas. Hoy la usan miles de personas cada semana. Hablamos con ella en una cafetería cerca de la terminal de transportes.\n\n¿Cómo nació la idea?\n\nDe una mala experiencia. Mi mamá vive en Tunja, y yo viajaba a verla casi todos los meses. Para comprar el pasaje tenía que ir a la terminal, hacer fila en la ventanilla de cada empresa y comparar precios a mano. Una vez hice fila 40 minutos y, cuando llegué a la ventanilla, ya no quedaban puestos. Pensé que todo eso se podía simplificar mucho.\n\n¿Qué fue lo más difícil de simplificar?\n\nLa cancelación. Antes, si alguien no podía viajar, tenía que volver a la terminal para tramitar la devolución del dinero. Tramitar una devolución podía tomar semanas. Nosotros queríamos que la cancelación se hiciera con un solo botón y que el dinero volviera en pocos días. Para eso tuvimos que hablar con cada empresa de buses, una por una.\n\n¿Cómo es la interfaz de la aplicación?\n\nMuy simple, a propósito. Mi abuela usa la aplicación, y ella fue nuestra prueba más importante. Si no entendía la interfaz, la cambiábamos. Una interfaz bonita no sirve de nada si una persona mayor no encuentra el botón de comprar. Por eso tiene pocos colores, letras grandes y solo tres pasos.\n\n¿Cómo funciona la verificación de los pasajeros?\n\nCada pasajero hace una verificación de identidad la primera vez que compra: escribe su número de cédula y recibe un código en el celular. Esa verificación tarda un minuto y evita fraudes. Después, el pasaje llega al teléfono y el conductor lo lee en la puerta del bus.\n\n¿Fue fácil encontrar dinero para el proyecto?\n\nNo. Durante el primer año trabajamos de noche, después de nuestros empleos. Cuando tuvimos una versión beta, la presentamos a varios inversionistas. Casi todos nos dijeron que la idea no era viable, que la gente prefería pagar en efectivo en la ventanilla. Un solo inversionista confió en nosotros. Gracias a él lanzamos la versión beta en dos rutas, de Bogotá a Tunja y de Bogotá a Villavicencio, y en tres meses demostramos que el negocio sí era viable.\n\n¿Qué fue lo más lento de todo el proceso?\n\nLa obtención de los permisos. Para vender pasajes de manera legal necesitábamos contratos con cada empresa y varios documentos oficiales. La obtención de todos esos papeles nos tomó casi un año. Fue el momento en que más pensé en dejarlo.\n\n¿Qué consejo le daría a un joven programador?\n\nQue empiece por un problema que conozca bien. Yo no inventé nada nuevo; solo conocía muy bien la fila de la terminal. Un buen programador escucha antes de escribir código. Y que pruebe todo con su abuela.\n\nPreguntas:\n¿Para qué sirve la aplicación de Valentina?\nSirve para comprar pasajes de bus entre ciudades colombianas.\n¿Qué problema le dio la idea?\nTenía que hacer fila en la terminal para comprar el pasaje, y una vez, después de 40 minutos, ya no quedaban puestos.\n¿Por qué era difícil la cancelación de los pasajes?\nPorque había que volver a la terminal para tramitar la devolución, y eso podía tomar semanas.\n¿Quién fue la prueba más importante de la interfaz?\nSu abuela: si ella no la entendía, la cambiaban.\n¿Qué les dijeron casi todos los inversionistas?\nLes dijeron que la idea no era viable, porque la gente prefería pagar en efectivo.\n¿Qué fue lo más lento del proceso?\nLa obtención de los permisos, que tomó casi un año."
+    },
+    {
+      "title": "Una casa con césped, a dos horas del trabajo",
+      "summary": "A column from Lima on the new housing estates at the city's edge: the space they offer, and the watering, the long commutes and the fares they do not advertise.",
+      "newWords": [
+        "urbanización",
+        "césped",
+        "seducir",
+        "inmobiliario",
+        "comercialización",
+        "riego",
+        "proporcional",
+        "neto",
+        "marginal",
+        "suscitar"
+      ],
+      "text": "En Lima, los carteles de las autopistas venden un sueño muy concreto: una casa con jardín, un parque con césped verde y niños jugando al sol. Son anuncios de nuevas urbanizaciones en los extremos de la ciudad, a veces a 30 o 40 kilómetros del centro. Quieren seducir a las familias jóvenes que viven apretadas en departamentos pequeños. Esta columna no dice que esas familias se equivocan; solo cuenta lo que los anuncios no muestran.\n\nEmpiezo por lo que sí es cierto. En una urbanización nueva, una familia puede comprar una casa de dos o tres dormitorios por el precio de un departamento pequeño en el centro. El negocio inmobiliario lo sabe bien, y la comercialización de estas casas empieza a menudo antes de que exista la primera calle. Para una pareja con hijos, la diferencia de espacio es enorme, y se entiende que ese argumento los seduzca.\n\nVamos a lo que no aparece en los carteles. El primer detalle es el césped. Lima es una ciudad en el desierto: casi nunca llueve. Ese césped tan verde de los anuncios necesita riego todos los días, y el riego cuesta agua y dinero. En muchas urbanizaciones, pocos años después de la venta, los parques ya son de tierra, porque nadie paga el riego.\n\nEl segundo detalle es el transporte, y es el más importante. Muchas de estas urbanizaciones están lejos de cualquier línea del metro o de los grandes buses. Los vecinos dependen de pequeños buses que tardan dos horas, o más, en llegar al centro. El pasaje es más o menos proporcional a la distancia, así que quien vive más lejos también paga más. Hice la cuenta con una vecina que trabaja en el centro: entre los pasajes de ida y vuelta, gasta casi la quinta parte de su sueldo neto en transporte. Si a ese sueldo neto le sumamos las cuatro horas diarias de viaje, la casa grande ya no parece tan barata.\n\nEl tercer detalle es la ciudad misma. Cuando las urbanizaciones crecen sin transporte, los barrios del borde se vuelven marginales: no por la gente que vive en ellos, sino porque quedan al margen de los servicios. Las autoridades suelen responder con mejoras marginales, como una ruta más de buses, que ayudan poco frente a un problema tan grande. Tampoco ayuda que el precio del pasaje no sea proporcional a lo que gana cada familia.\n\nEste tema suele suscitar discusiones apasionadas. Algunos lectores me dirán que cada familia tiene derecho a elegir dónde vive, y tienen razón. Otros dirán que el negocio inmobiliario solo piensa en vender. Mi propuesta es más modesta: que la comercialización de una urbanización vaya acompañada de un plan de transporte real, con fechas y con presupuesto. No quiero suscitar el miedo a las afueras, sino una pregunta sencilla antes de firmar: ¿cuántas horas de mi vida me va a costar este césped?\n\nPreguntas:\n¿Qué muestran los carteles de las autopistas de Lima?\nMuestran casas con jardín y parques con césped verde en nuevas urbanizaciones.\n¿A quiénes quieren seducir esos anuncios?\nQuieren seducir a las familias jóvenes que viven en departamentos pequeños.\n¿Por qué el césped necesita riego todos los días?\nPorque Lima es una ciudad en el desierto y casi nunca llueve.\n¿Cuánto gasta en transporte la vecina del autor?\nGasta casi la quinta parte de su sueldo neto en pasajes.\n¿Por qué los barrios del borde se vuelven marginales?\nPorque, cuando las urbanizaciones crecen sin transporte, quedan al margen de los servicios.\n¿Qué propone el autor?\nPropone que la comercialización de cada urbanización vaya acompañada de un plan de transporte real."
+    },
+    {
+      "title": "Viajar sin miedo",
+      "summary": "A report on a group of university volunteers in Guatemala City who ride the buses to campaign against harassment and discrimination of women passengers.",
+      "newWords": [
+        "voluntariamente",
+        "acosar",
+        "discriminar",
+        "etnia",
+        "sujetar",
+        "divulgar",
+        "divulgación",
+        "desmentir",
+        "crueldad"
+      ],
+      "text": "Cada mañana, cientos de miles de personas viajan en bus por la Ciudad de Guatemala. Para muchas mujeres, ese viaje es también un momento de tensión. Según una encuesta, la mayoría de las pasajeras ha vivido alguna vez una situación desagradable en el transporte público. Desde hace un año, un grupo de estudiantes intenta cambiar esa realidad con una campaña sencilla.\n\nLa campaña empezó en una clase de comunicación. Andrea Morales, estudiante de último año, propuso un proyecto final distinto: en lugar de escribir un trabajo, salir a los buses. Doce compañeros se unieron voluntariamente; nadie les daba puntos extra por ello. Hoy son más de 50, y todos participan voluntariamente.\n\nSu mensaje tiene dos partes. La primera es clara: nadie tiene derecho a acosar a nadie. Acosar a una persona no es una broma ni un cumplido; es una forma de violencia. La segunda parte es menos conocida: en el bus tampoco se debe discriminar a nadie. En Guatemala viven personas de muchas etnias, y muchas mujeres mayas viajan con su ropa tradicional. Algunas cuentan que ciertos buses no se detienen para ellas o que otros pasajeros no les dejan sitio. «Discriminar a alguien por su etnia o por su ropa es tan grave como acosarla», dice Andrea.\n\nLos voluntarios suben a los buses en las horas de más gente. Esperan a que el bus arranque y, mientras los pasajeros se sujetan a las barras, explican la campaña en dos minutos. Reparten tarjetas con un número de teléfono para denunciar y bajan en la parada siguiente. «Al principio me costaba hablar mientras me sujetaba con una mano y repartía tarjetas con la otra», cuenta Diego, otro voluntario.\n\nLa otra mitad del trabajo ocurre en las redes sociales. Allí el objetivo es divulgar información útil: qué hacer si alguien te molesta, a quién llamar, qué dicen las leyes. La divulgación tiene que ser breve y clara, porque la gente la lee en el teléfono, a menudo en el mismo bus. Cada semana publican un video y piden a sus seguidores que lo divulguen.\n\nUna parte importante de esa divulgación consiste en desmentir ideas falsas. Muchos creen todavía que una mujer provoca con su ropa, o que un comentario en la calle no hace daño. Los voluntarios desmienten estas ideas con datos y con testimonios reales. Muchas mujeres escriben para contar la crueldad de algunos comentarios, que parecen pequeños pero duelen durante años. «La crueldad no siempre grita», resume Andrea. «A veces habla bajito, al oído, en un bus lleno.»\n\n¿Ha cambiado algo? Una campaña de estudiantes no cambia un país en un año, pero algunas empresas de buses ya han puesto sus carteles en las ventanas, y muchas pasajeras dicen que ahora saben a quién llamar. Para Andrea, eso ya es un comienzo.\n\nPreguntas:\n¿Dónde nació la campaña?\nNació en una clase de comunicación de una universidad de la Ciudad de Guatemala.\n¿Por qué se dice que los estudiantes participan voluntariamente?\nPorque nadie les da puntos extra; se unen porque quieren.\n¿Cuáles son las dos partes del mensaje?\nQue nadie tiene derecho a acosar a nadie y que en el bus tampoco se debe discriminar a nadie.\n¿Qué hacen los voluntarios cuando suben a un bus?\nMientras los pasajeros se sujetan a las barras, explican la campaña y reparten tarjetas.\n¿Qué ideas falsas intentan desmentir?\nQue una mujer provoca con su ropa y que un comentario en la calle no hace daño.\n¿Cómo describe Andrea la crueldad de algunos comentarios?\nDice que la crueldad no siempre grita: a veces habla bajito, al oído, en un bus lleno."
+    },
+    {
+      "title": "Ballenas desde la ruta costera",
+      "summary": "A travel diary of a weekend bus trip along Uruguay's coast to La Paloma, with a school choir on board, an old wooden pier and a whale with her calf.",
+      "newWords": [
+        "costera",
+        "ballena",
+        "coral",
+        "aroma",
+        "departamental",
+        "madero",
+        "gusano",
+        "plancha"
+      ],
+      "text": "Sábado, 4 de octubre\n\nSalgo de Montevideo a las 8 de la mañana en un ómnibus que va hacia el este por la ruta costera. Viajo sola, con una mochila y una sola meta: ver ballenas. Cada año, entre septiembre y noviembre, las ballenas se acercan a la costa de Rocha con sus crías, y hace años que quiero verlas.\n\nEl ómnibus va casi lleno. Delante de mí viaja una agrupación coral de un liceo de Montevideo: 20 chicos y dos profesoras que van a cantar en un festival de música coral en La Paloma. Durante la primera hora ensayan en voz baja. Los demás pasajeros no se quejan; al contrario, cuando terminan una canción, algunos aplauden. Nunca había viajado con música coral de fondo, y me parece la mejor manera de mirar el mar.\n\nLa ruta costera pasa entre pinos y arena. Cuando abro un poco la ventana, entra un aroma de pino y de sal que me recuerda los veranos de mi infancia. Es un aroma que no se encuentra en la ciudad.\n\nEn la terminal de Rocha cambio de ómnibus. El segundo es más pequeño y pertenece a una línea departamental, de las que unen los pueblos del departamento. El chofer de la línea departamental conoce a casi todos los pasajeros por su nombre y se detiene donde ellos le piden. Llego a La Paloma a la una y media.\n\nPor la tarde camino hasta el muelle viejo. Es un muelle de maderos gruesos, gastados por el agua y por el sol. Sobre los maderos hay varios pescadores sentados en silencio. Uno de ellos, un señor mayor, abre una lata llena de gusanos y pone un gusano en el anzuelo con mucho cuidado. Le pregunto qué pesca. «Lo que venga», me dice. Le pregunto también por las ballenas. Me señala el mar, hacia el sur: «Ayer pasaron tres. Mañana temprano, en la punta, las va a ver».\n\nCeno en un restaurante pequeño junto al puerto. Pido pescado a la plancha con ensalada. El cocinero lo prepara en una plancha de hierro, a la vista de los clientes, y el pescado a la plancha llega a la mesa con un poco de limón. Es sencillo y está perfecto.\n\nDomingo, 5 de octubre\n\nMe levanto a las 6 y camino hasta la punta. Hay viento y hace frío. Durante una hora no veo nada más que olas. Después, a unos 200 metros de las rocas, sale del agua un chorro alto y blanco. Luego aparece una espalda oscura, enorme, que se mueve despacio. Es una ballena. Un poco más lejos sale otra ballena, más pequeña: es su cría. Las miro durante casi media hora, sin hacer fotos, sin moverme.\n\nCuando vuelvo al pueblo, el ómnibus del coro está en la plaza. Los chicos cantan antes de subir, y esta vez yo también aplaudo. En el viaje de vuelta por la ruta costera cierro los ojos y todavía veo la ballena saliendo del agua.\n\nPreguntas:\n¿Para qué viaja la autora a la costa de Rocha?\nViaja para ver ballenas.\n¿Quiénes viajan delante de ella en el ómnibus?\nViaja una agrupación coral de un liceo de Montevideo que va a cantar en un festival.\n¿Qué entra por la ventana del ómnibus?\nEntra un aroma de pino y de sal.\n¿Cómo es el muelle viejo?\nEs un muelle de maderos gruesos, gastados por el agua y por el sol.\n¿Qué pone el pescador en el anzuelo?\nPone un gusano.\n¿Qué ve la autora el domingo por la mañana?\nVe una ballena con su cría, a unos 200 metros de las rocas."
+    },
+    {
+      "title": "Bicicletas entre piedras antiguas",
+      "summary": "A Córdoba columnist weighs the bicycles that now fill the old streets around the Mezquita: their quiet and their speed, and a public debate that ends in a call to slow down.",
+      "newWords": [
+        "mezquita",
+        "pandilla",
+        "lucio",
+        "bailarín",
+        "anarquista",
+        "magno",
+        "laico",
+        "erigir",
+        "inmortal"
+      ],
+      "text": "Vivo en Córdoba desde que nací, y ningún cambio del centro ha provocado tantas discusiones como la bicicleta. Hace 15 años casi nadie iba en bicicleta por las calles estrechas que rodean la Mezquita, la antigua mezquita que hoy es también catedral; ahora, a cualquier hora, pasan bicicletas junto a los turistas, los coches de caballos y los vecinos que vuelven del mercado. ¿Es una buena noticia? Creo que sí, aunque no del todo, y quiero explicar los dos lados.\n\nEmpiezo por los ciclistas, entre los que me cuento. La bicicleta es silenciosa, limpia y ocupa poco espacio, tres virtudes que valen oro en un barrio de calles medievales. Los domingos salgo con una pandilla de amigos del barrio, todos mayores de 50 años. La pandilla recorre la orilla del Guadalquivir y, si hace buen tiempo, sube hasta un lago de la sierra donde uno de nosotros, Manolo, pesca lucios. Mientras él espera a que pique un lucio, los demás descansamos a la sombra.\n\nAhora, el otro lado. Muchos vecinos que van a pie se quejan, y no les falta razón. En las calles más estrechas, algunos ciclistas pasan demasiado rápido, evitan a la gente en el último segundo y siguen su camino como si nada. Hay quien los ve como bailarines elegantes; yo los veo más bien como un peligro. Un bailarín sabe exactamente dónde está su pareja; un ciclista con prisa no sabe dónde va a aparecer un niño. Algunos conductores llaman a los ciclistas «anarquistas», porque dicen que no respetan ninguna norma. Me parece exagerado: un anarquista tiene ideas políticas, no una bicicleta.\n\nEl mes pasado, la universidad organizó un debate sobre el tema en su aula magna. El aula magna estaba llena. También vinieron dos directoras de colegio: la de un colegio religioso y la de un colegio laico del barrio. Las dos explicaron que trabajan juntas en un proyecto para que los niños vayan al colegio en bicicleta por calles seguras. Me gustó ver a un colegio laico y a uno religioso de acuerdo.\n\nAl final del debate habló un historiador. Recordó que la Mezquita se empezó a erigir en el siglo VIII y que, desde entonces, ha visto pasar caballos, carros, coches y ahora bicicletas. «Parece inmortal», dijo, «pero no lo es: la piedra también se gasta.» Propuso no erigir nuevas barreras en el centro histórico, sino algo más sencillo: que todos, a pie o sobre ruedas, vayamos despacio. Nadie es inmortal, añadió, y en una calle estrecha el más lento siempre tiene preferencia.\n\nEstoy de acuerdo. La bicicleta no es el enemigo de la ciudad antigua; la prisa sí lo es. Si vosotros, lectores ciclistas, bajáis un poco la velocidad, y vosotros, lectores que vais a pie, aceptáis compartir la calle, Córdoba tendrá sitio para todos.\n\nPreguntas:\n¿Qué ha cambiado en el centro de Córdoba?\nAhora pasan muchas bicicletas junto a la Mezquita, entre turistas, coches de caballos y vecinos.\n¿Qué hace el autor los domingos?\nSale con una pandilla de amigos del barrio; a veces suben hasta un lago donde Manolo pesca lucios.\n¿Por qué algunos conductores llaman «anarquistas» a los ciclistas?\nPorque dicen que no respetan ninguna norma.\n¿Dónde fue el debate?\nFue en el aula magna de la universidad.\n¿En qué estaban de acuerdo las directoras del colegio laico y del colegio religioso?\nEn un proyecto para que los niños vayan al colegio en bicicleta por calles seguras.\n¿Qué dijo el historiador sobre la Mezquita?\nDijo que se empezó a erigir en el siglo VIII y que parece inmortal, pero no lo es."
+    },
+    {
+      "title": "Cuando tiembla bajo tierra",
+      "summary": "An interview with an engineer in the Santiago metro control room about what happens underground during an earthquake, from sensors and an atomic clock to calm announcements.",
+      "newWords": [
+        "temblor",
+        "umbral",
+        "sofisticado",
+        "atómico",
+        "susto",
+        "idear",
+        "parodia"
+      ],
+      "text": "En Santiago de Chile, los temblores forman parte de la vida diaria. Muchos son tan pequeños que nadie los nota. Para entender qué pasa bajo tierra durante un temblor, conversamos con Paula Henríquez, ingeniera del centro de control del metro, donde trabaja desde hace 12 años.\n\n¿Qué es lo primero que ocurre cuando empieza un temblor?\n\nLo primero lo hacen las máquinas, no las personas. En varios puntos de la red hay sensores que miden el movimiento del suelo. Si el movimiento supera un umbral fijado, el sistema da la orden de que los trenes reduzcan la velocidad y se detengan en la siguiente estación. Ese umbral no es un número cualquiera: lo calcularon ingenieros a partir de muchos años de datos.\n\n¿Y qué hacen ustedes en el centro de control?\n\nRevisamos la información que llega de cada línea, hablamos con los conductores por radio y decidimos cuándo pueden seguir. El sistema es muy sofisticado, pero la decisión final la toma siempre una persona. Un sistema sofisticado ayuda mucho; sin embargo, no conoce a los conductores ni sabe qué estación tiene un colegio al lado.\n\n¿Cómo se coordinan los horarios de todos los trenes?\n\nCon mucha precisión. Todos los relojes del sistema siguen la hora de un reloj atómico, que es el tipo de reloj más exacto que existe. Gracias al reloj atómico, todos los equipos tienen la misma hora al segundo. Así, si un temblor detiene la red, sabemos dónde estaba cada tren en cada momento.\n\n¿Recuerda algún temblor en especial?\n\nUno muy fuerte, hace algunos años, a las 8 de la tarde, con todos los trenes llenos. Duró menos de un minuto, pero fueron los segundos más interminables de mi vida. Los trenes se detuvieron como estaba previsto, y a los pocos minutos supimos que nadie se había hecho daño. Fue un susto enorme, para los pasajeros y para nosotros. Cuando llegué a casa, mi hija me preguntó si había tenido miedo. Le dije la verdad: el susto llega después, cuando todo ya está tranquilo.\n\n¿Y cómo se informa a los pasajeros?\n\nCon mensajes por radio en cada tren. Esos mensajes los idearon hace años varios psicólogos y técnicos del metro. Los idearon cortos y con una voz tranquila, para que nadie entre en pánico. La voz es tan tranquila que un programa de humor de la televisión hizo una parodia: un temblor enorme y una voz que dice, sin ninguna prisa, «estimados pasajeros, les pedimos paciencia». A nosotros la parodia nos hizo mucha gracia. En el fondo, si la gente hace una parodia de tu mensaje, significa que todos lo conocen.\n\n¿Qué consejo da a quien viaja en metro?\n\nMantener la calma, sujetarse bien y escuchar los mensajes. Y no olvidar que un tren detenido en una estación es uno de los lugares más seguros de la ciudad durante un temblor.\n\nPreguntas:\n¿Dónde trabaja Paula Henríquez?\nTrabaja en el centro de control del metro de Santiago.\n¿Qué pasa si el movimiento del suelo supera el umbral?\nLos trenes reducen la velocidad y se detienen en la siguiente estación.\n¿Para qué sirve el reloj atómico?\nSirve para que todos los equipos tengan la misma hora al segundo y se sepa dónde estaba cada tren.\n¿Cómo recuerda Paula el temblor fuerte de hace algunos años?\nDice que fueron los segundos más interminables de su vida y que fue un susto enorme.\n¿Qué hizo un programa de humor de la televisión?\nHizo una parodia de la voz tranquila de los mensajes del metro.\n¿Qué consejo da Paula a los pasajeros?\nMantener la calma, sujetarse bien y escuchar los mensajes."
+    }
+  ]
+}
