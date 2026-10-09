@@ -372,6 +372,7 @@ def check(path, brief=False):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals
+        raw_words = [fold(code, t.lower()) for t in re.findall(r"[^\W\d_]+(?:['’][^\W\d_]+)*", text)]
         lowered = [fold(code, t.lower()) for t in toks] + ["\u0000name"] * whole_names
         names_here = names | {"\u0000name"}
         outside = {}
@@ -406,6 +407,9 @@ def check(path, brief=False):
             if key in seen_new:
                 problems.append(f"new word '{new}' was introduced in an earlier lesson")
             uses = sum(1 for t in lowered if t == key or t in forms)
+            # A word the checker splits (Italian farci is fare + ci) still counts when the list teaches it whole.
+            if code == "it":
+                uses = max(uses, sum(1 for t in raw_words if t == key))
             if uses < 2:
                 problems.append(f"new word '{new}' used {uses}x, needs 2+")
             seen_new.add(key)
