@@ -301,12 +301,19 @@ fun ReadingScreen(
             }
             Row(Modifier.weight(1f).background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else 0.3f))) {
                 Box(Modifier.weight(1f).fillMaxHeight()) {
-                    ReadingBody(state, viewModel, speaker, continuous, onHome = onHome, onPractice = { onNavigate(Route.Practice(bookId, state.pageNumber)) }, onSettings = { onNavigate(Route.OfflineTranslation) }, focusText = { runCatching { focusRequester.requestFocus() } })
+                    ReadingBody(
+                        state, viewModel, speaker, continuous,
+                        onHome = onHome,
+                        onPractice = { onNavigate(Route.Practice(bookId, state.pageNumber)) },
+                        onSettings = { onNavigate(Route.OfflineTranslation) },
+                        focusText = { runCatching { focusRequester.requestFocus() } },
+                        panelBeside = wide && state.panel != ReadingPanel.None,
+                    )
                 }
                 if (wide && state.panel != ReadingPanel.None) {
                     Surface(
-                        // The gap at the start keeps the text's scrollbar off the panel's border.
-                        Modifier.width(432.dp).fillMaxHeight().padding(start = 12.dp, top = 16.dp, end = 16.dp, bottom = 16.dp)
+                        // With the text card's wider margin on this side, the text's scrollbar runs midway between the card and the panel.
+                        Modifier.width(427.dp).fillMaxHeight().padding(start = 7.dp, top = 16.dp, end = 16.dp, bottom = 16.dp)
                             .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
                             .onFocusChanged { panelFocused = it.hasFocus },
                         shape = RoundedCornerShape(14.dp),
@@ -436,6 +443,8 @@ private fun ReadingBody(
     onPractice: () -> Unit,
     onSettings: () -> Unit,
     focusText: () -> Unit,
+    /** Whether the term panel is open beside the text, which then leaves its scrollbar room on that side. */
+    panelBeside: Boolean = false,
 ) {
     val theme = TayraTheme.current
     if (state.loading) {
@@ -509,7 +518,7 @@ private fun ReadingBody(
     val cardModifier = if (focus) {
         Modifier.widthIn(max = state.settings.readingColumnWidth.dp).padding(horizontal = edgePadding, vertical = 12.dp)
     } else {
-        Modifier.padding(if (compact) 12.dp else 16.dp)
+        Modifier.padding(start = if (compact) 12.dp else 16.dp, top = if (compact) 12.dp else 16.dp, bottom = if (compact) 12.dp else 16.dp, end = if (panelBeside) 21.dp else if (compact) 12.dp else 16.dp)
             .widthIn(max = state.settings.readingColumnWidth.dp + 64.dp)
             .clip(RoundedCornerShape(14.dp))
             .background(theme.readingBackground)
