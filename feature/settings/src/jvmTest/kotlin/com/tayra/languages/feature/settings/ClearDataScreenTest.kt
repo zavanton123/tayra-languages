@@ -12,6 +12,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
@@ -41,12 +43,14 @@ class ClearDataScreenTest {
                 }
             }
         }
-        onNodeWithText("What gets removed").assertExists()
+        onNodeWithText("Will be removed").assertExists()
         save("CLEAR_SCREENSHOT")
 
         onNodeWithTag("clear-all").performClick()
         onNodeWithText("Clear all data?").assertExists()
-        onNodeWithText("Cancel").performClick()
+        onNodeWithText("This action is permanent").assertExists()
+        // The dialog's Cancel, not the page's.
+        onAllNodesWithText("Cancel").onLast().performClick()
         assertEquals(0, cleared, "cancelling the dialog removes nothing")
 
         onNodeWithTag("clear-all").performClick()
@@ -55,7 +59,7 @@ class ClearDataScreenTest {
 
         state = ClearDataUiState(started = true, running = ClearStep.DICTIONARIES)
         waitForIdle()
-        onNodeWithText("Clearing…").assertExists()
+        onNodeWithText("This takes a moment; the items above show how far it is.").assertExists()
         save("CLEAR_SCREENSHOT", "-running")
 
         state = ClearDataUiState(started = true, done = true, problems = mapOf(ClearStep.VOICES to "Piper: the folder is in use"))

@@ -42,9 +42,6 @@ import com.tayra.languages.core.ui.components.APP_NAME
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ConfirmDialog
-import com.tayra.languages.core.ui.components.ContentCard
-import com.tayra.languages.core.ui.components.IconTile
-import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
@@ -60,6 +57,16 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.VerticalDivider
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 
 data class ClearDataUiState(
     /** Whether the clearing was started; it cannot be started twice. */
@@ -99,51 +106,75 @@ fun ClearDataScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onCleared: 
     }
 }
 
+/** The three things the page talks about, each standing for the steps behind it. */
+private enum class ClearGroup(val steps: List<ClearStep>) {
+    LEARNING(listOf(ClearStep.LIBRARY)),
+    OFFLINE(listOf(ClearStep.COURSE_PACKS, ClearStep.DICTIONARIES, ClearStep.VOICES, ClearStep.TRANSLATION_MODELS)),
+    CACHE(listOf(ClearStep.CACHES)),
+}
+
 @Composable
 internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBackups: () -> Unit, onDone: () -> Unit, onBack: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val wide = LocalWindowWidth.current.isExpanded
     var confirming by remember { mutableStateOf(false) }
 
-    ScreenHeader(tr("Clear"), tr("Remove everything Tayra keeps on this device and start afresh."), onBackToSettings = onBack)
-    val removed: @Composable (Modifier) -> Unit = { m -> RemovedCard(state, m) }
-    val kept: @Composable (Modifier) -> Unit = { m -> KeptCard(m) }
-    if (wide) {
-        Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
-            removed(Modifier.weight(3f).fillMaxHeight())
-            kept(Modifier.weight(2f).fillMaxHeight())
+    ScreenHeader(tr("Clear local data"), tr("Remove your learning data and downloaded files from this device. Your preferences stay."), onBackToSettings = onBack)
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp)).padding(24.dp),
+    ) {
+        if (wide) {
+            Row(Modifier.height(IntrinsicSize.Min)) {
+                RemovedColumn(state, Modifier.weight(1f).padding(end = 24.dp))
+                VerticalDivider(color = colors.outlineVariant)
+                RemainsColumn(onBackups, enabled = !state.started, Modifier.weight(1f).padding(start = 24.dp))
+            }
+        } else {
+            RemovedColumn(state, Modifier.fillMaxWidth())
+            HorizontalDivider(Modifier.padding(vertical = 20.dp), color = colors.outlineVariant)
+            RemainsColumn(onBackups, enabled = !state.started, Modifier.fillMaxWidth())
         }
-    } else {
-        removed(Modifier)
-        kept(Modifier)
     }
 
-    when {
-        state.done && state.problems.isEmpty() -> InfoBanner(tr("Everything was cleared."), tint = StatusTints.ok, icon = Icons.Default.CheckCircle)
-        state.done -> InfoBanner(tr("Some things could not be removed; the rest is gone. You can try again later from here or from their Settings pages."), tint = colors.error, icon = Icons.Default.Warning)
-        else -> InfoBanner(tr("This cannot be undone. Make a backup first if you may want any of it back."))
+    // The permanent-action bar: a warning before, what happened after.
+    val tint = when {
+        state.done && state.problems.isEmpty() -> StatusTints.ok
+        else -> colors.error
     }
-    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.End), verticalAlignment = Alignment.CenterVertically) {
-        if (state.done) {
-            Button(onClick = onDone, modifier = Modifier.testTag("clear-done")) { Text(tr("Done")) }
-        } else {
-            OutlinedButton(onClick = onBackups, enabled = !state.started) { Text(tr("Back up first")) }
-            Button(
-                onClick = { confirming = true },
-                enabled = !state.started,
-                colors = ButtonDefaults.buttonColors(containerColor = colors.error, contentColor = colors.onError),
-                modifier = Modifier.testTag("clear-all"),
-            ) {
-                if (state.started) {
-                    CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp, color = colors.onError)
-                    Spacer(Modifier.width(10.dp))
-                    Text(tr("Clearing…"))
-                } else {
-                    Icon(AppIcons.RemoveCircle, contentDescription = null, modifier = Modifier.size(18.dp))
-                    Spacer(Modifier.width(8.dp))
-                    Text(tr("Clear all data"))
-                }
-            }
+    Row(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(tint.copy(alpha = 0.07f)).border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(16.dp)).padding(20.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        Tile(if (state.done && state.problems.isEmpty()) Icons.Default.CheckCircle else Icons.Default.Warning, tint, size = 48)
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            Text(
+                when {
+                    state.done && state.problems.isEmpty() -> tr("Everything was cleared")
+                    state.done -> tr("Some things could not be removed")
+                    state.started -> tr("Clearing…")
+                    else -> tr("This action is permanent")
+                },
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold,
+                color = tint,
+            )
+            Text(
+                when {
+                    state.done && state.problems.isEmpty() -> tr("Your library is empty and the downloads are gone. Your preferences stay as they were.")
+                    state.done -> tr("The rest is gone. You can try again later from here or from their Settings pages.")
+                    state.started -> tr("This takes a moment; the items above show how far it is.")
+                    else -> tr("Cleared data cannot be recovered unless you created a backup.")
+                },
+                style = MaterialTheme.typography.bodyMedium,
+                color = colors.onSurfaceVariant,
+            )
+        }
+        if (wide) ActionButtons(state, onCancel = onBack, onClear = { confirming = true }, onDone = onDone)
+    }
+    if (!wide) {
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.End)) {
+            ActionButtons(state, onCancel = onBack, onClear = { confirming = true }, onDone = onDone)
         }
     }
 
@@ -160,64 +191,81 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
 }
 
 @Composable
-private fun RemovedCard(state: ClearDataUiState, modifier: Modifier) {
-    ContentCard(tr("What gets removed"), tr("Everything you added or downloaded."), icon = AppIcons.RemoveCircle, modifier = modifier) {
-        Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
-            ClearStep.entries.forEach { step -> StepRow(step, state) }
+private fun ActionButtons(state: ClearDataUiState, onCancel: () -> Unit, onClear: () -> Unit, onDone: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    if (state.done) {
+        Button(onClick = onDone, modifier = Modifier.testTag("clear-done")) { Text(tr("Done")) }
+        return
+    }
+    OutlinedButton(onClick = onCancel, enabled = !state.started, shape = RoundedCornerShape(50)) { Text(tr("Cancel")) }
+    Button(
+        onClick = onClear,
+        enabled = !state.started,
+        colors = ButtonDefaults.buttonColors(containerColor = colors.error, contentColor = colors.onError),
+        shape = RoundedCornerShape(50),
+        modifier = Modifier.testTag("clear-all"),
+    ) {
+        if (state.started) {
+            CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp, color = colors.onError)
+        } else {
+            Icon(AppIcons.RemoveCircle, contentDescription = null, modifier = Modifier.size(18.dp))
         }
+        Spacer(Modifier.width(8.dp))
+        Text(if (state.started) tr("Clearing…") else tr("Clear all data"))
     }
 }
 
 @Composable
-private fun StepRow(step: ClearStep, state: ClearDataUiState) {
+private fun RemovedColumn(state: ClearDataUiState, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
-    val problem = state.problems[step]
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp), modifier = Modifier.testTag("clear-${step.name}")) {
-        IconTile(
-            when (step) {
-                ClearStep.LIBRARY -> AppIcons.MenuBook
-                ClearStep.COURSE_PACKS -> AppIcons.Download
-                ClearStep.DICTIONARIES -> AppIcons.Book
-                ClearStep.VOICES -> AppIcons.VolumeUp
-                ClearStep.TRANSLATION_MODELS -> AppIcons.Translate
-                ClearStep.CACHES -> AppIcons.Storage
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(20.dp)) {
+        ColumnHeader(AppIcons.RemoveCircle, colors.error, tr("Will be removed"), tr("Everything you added, learned or downloaded."))
+        ClearGroup.entries.forEach { group -> GroupRow(group, state) }
+    }
+}
+
+@Composable
+private fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
+    val colors = MaterialTheme.colorScheme
+    val problems = group.steps.mapNotNull { state.problems[it] }
+    val running = state.running != null && state.running in group.steps
+    val done = state.done || (state.running != null && group.steps.all { it.ordinal < state.running.ordinal })
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp), modifier = Modifier.testTag("clear-${group.name}")) {
+        Tile(
+            when (group) {
+                ClearGroup.LEARNING -> AppIcons.MenuBook
+                ClearGroup.OFFLINE -> AppIcons.Download
+                ClearGroup.CACHE -> AppIcons.VolumeUp
             },
-            size = 40,
+            colors.primary,
         )
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
             Text(
-                when (step) {
-                    ClearStep.LIBRARY -> tr("Books, courses and words")
-                    ClearStep.COURSE_PACKS -> tr("Downloaded courses")
-                    ClearStep.DICTIONARIES -> tr("Offline dictionaries")
-                    ClearStep.VOICES -> tr("Voices")
-                    ClearStep.TRANSLATION_MODELS -> tr("Translation models")
-                    ClearStep.CACHES -> tr("Cached audio")
+                when (group) {
+                    ClearGroup.LEARNING -> tr("Learning data")
+                    ClearGroup.OFFLINE -> tr("Offline content")
+                    ClearGroup.CACHE -> tr("Cached audio")
                 },
-                style = MaterialTheme.typography.titleSmall,
+                style = MaterialTheme.typography.titleMedium,
                 fontWeight = FontWeight.SemiBold,
             )
             Text(
-                when (step) {
-                    ClearStep.LIBRARY -> tr("Your texts, your own courses and lessons, course progress, reading history, words and flashcards")
-                    ClearStep.COURSE_PACKS -> tr("The ready-made course packs and their lessons")
-                    ClearStep.DICTIONARIES -> tr("Every downloaded dictionary pack")
-                    ClearStep.VOICES -> tr("Every downloaded voice; the speech engines stay")
-                    ClearStep.TRANSLATION_MODELS -> tr("Every downloaded language model; the translator stays")
-                    ClearStep.CACHES -> tr("Sentences read aloud and kept for replay")
+                when (group) {
+                    ClearGroup.LEARNING -> tr("Books, courses, progress, vocabulary and flashcards")
+                    ClearGroup.OFFLINE -> tr("Downloaded courses, dictionaries, voices and translation models")
+                    ClearGroup.CACHE -> tr("Sentences stored for replay")
                 },
-                style = MaterialTheme.typography.bodySmall,
+                style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
-            if (problem != null) Text(tr("Could not remove: {0}", problem), style = MaterialTheme.typography.bodySmall, color = colors.error)
+            problems.forEach { Text(tr("Could not remove: {0}", it), style = MaterialTheme.typography.bodySmall, color = colors.error) }
         }
         if (state.started) {
             Box(Modifier.size(24.dp), contentAlignment = Alignment.Center) {
                 when {
-                    problem != null -> Icon(Icons.Default.Warning, contentDescription = tr("Failed"), tint = colors.error)
-                    state.running == step -> CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
-                    state.done || (state.running != null && step.ordinal < state.running.ordinal) ->
-                        Icon(Icons.Default.CheckCircle, contentDescription = tr("Removed"), tint = StatusTints.ok)
+                    problems.isNotEmpty() -> Icon(Icons.Default.Warning, contentDescription = tr("Failed"), tint = colors.error)
+                    running -> CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
+                    done -> Icon(Icons.Default.CheckCircle, contentDescription = tr("Removed"), tint = StatusTints.ok)
                 }
             }
         }
@@ -225,20 +273,57 @@ private fun StepRow(step: ClearStep, state: ClearDataUiState) {
 }
 
 @Composable
-private fun KeptCard(modifier: Modifier) {
+private fun RemainsColumn(onBackups: () -> Unit, enabled: Boolean, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
-    ContentCard(tr("What stays"), tr("Nothing here is touched."), icon = AppIcons.VerifiedUser, modifier = modifier) {
-        Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
-            listOf(
-                tr("Settings") to tr("Themes, fonts, languages and every other preference"),
-                tr("Backups") to tr("Restore one afterwards to get your data back"),
-                tr("Speech and translation engines") to tr("Only their downloaded voices and models go"),
-            ).forEach { (title, detail) ->
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(20.dp)) {
+        ColumnHeader(AppIcons.VerifiedUser, colors.primary, tr("Will remain"), tr("Your app setup is not affected."))
+        listOf(
+            Triple(Icons.Default.Settings, tr("Settings"), tr("Themes, fonts, languages and preferences")),
+            Triple(AppIcons.FileOutline, tr("Backup files"), tr("Restore one later to recover your learning data")),
+            Triple(AppIcons.Translate, tr("Installed engines"), tr("Speech and translation engines remain installed")),
+        ).forEach { (icon, title, detail) ->
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                Tile(icon, colors.primary)
                 Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                    Text(title, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
-                    Text(detail, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                    Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                    Text(detail, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 }
             }
         }
+        Spacer(Modifier.weight(1f, fill = false))
+        Row(
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(colors.primary.copy(alpha = 0.07f)).border(1.dp, colors.primary.copy(alpha = 0.18f), RoundedCornerShape(12.dp)).padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(14.dp),
+        ) {
+            Icon(Icons.Default.Info, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Text(tr("Back up before clearing"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, color = colors.primary)
+                Text(tr("Create a recovery file in case you change your mind."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            }
+            OutlinedButton(onClick = onBackups, enabled = enabled, shape = RoundedCornerShape(50), modifier = Modifier.testTag("clear-backup")) { Text(tr("Create backup")) }
+        }
+    }
+}
+
+@Composable
+private fun ColumnHeader(icon: ImageVector, tint: Color, title: String, subtitle: String) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+        Tile(icon, tint, size = 56)
+        Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+            Text(title, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+            Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+    }
+}
+
+/** A rounded square in a tint, with the icon in it. */
+@Composable
+private fun Tile(icon: ImageVector, tint: Color, size: Int = 48) {
+    Box(
+        Modifier.size(size.dp).clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.09f)),
+        contentAlignment = Alignment.Center,
+    ) {
+        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size((size / 2).dp))
     }
 }
