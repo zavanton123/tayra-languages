@@ -1,0 +1,227 @@
+{
+  "id": "es-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Química y materiales",
+  "description": "Ten stories and reports on chemistry and materials from Cantabria, Monterrey, Atacama, Madrid, Bilbao, Ucayali, Los Angeles, Costa Rica, Buenos Aires and Salamanca: casting bronze bells, a lab audit, meteorites in the desert, cleaning an old oil painting, kitchen chemistry, purifying village water, merino wool for a pachuco suit, snake venom and antivenom, the physics of a football, and a friar's alchemy notebook.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Cantabria",
+    "Tomás",
+    "Nuria",
+    "Santander",
+    "Asturias",
+    "Mariana",
+    "Monterrey",
+    "Salazar",
+    "Óscar Ibarra",
+    "Ibarra",
+    "Atacama",
+    "Chile",
+    "Yanet Fuentes",
+    "Yanet",
+    "Santiago",
+    "Groenlandia",
+    "Clara",
+    "Madrid",
+    "Iker",
+    "Bilbao",
+    "Begoña",
+    "Rosa Quispe",
+    "Rosa",
+    "Lima",
+    "Pucallpa",
+    "Ucayali",
+    "Wilmer",
+    "Kelly",
+    "Ernesto Villalobos",
+    "Ernesto",
+    "East Los Ángeles",
+    "Jalisco",
+    "Daniela Ortiz",
+    "Daniela",
+    "España",
+    "Australia",
+    "Pasadena",
+    "San José",
+    "Costa Rica",
+    "Mauricio Jiménez",
+    "Mauricio",
+    "Rafael Mora",
+    "Rafael",
+    "América Central",
+    "Amparo",
+    "Valencia",
+    "Buenos Aires",
+    "Salamanca",
+    "Anselmo de Medina",
+    "Anselmo",
+    "Medina",
+    "San Agustín",
+    "Luis de León"
+  ],
+  "lessons": [
+    {
+      "title": "Campanas de bronce",
+      "summary": "A reporter spends a day at a family bell foundry in Cantabria, where a father and his daughter, a materials engineer, cast a batch of bronze bells for a village in Asturias.",
+      "newWords": [
+        "fundición",
+        "colado",
+        "tanda",
+        "faena",
+        "minucioso",
+        "estropear",
+        "majestuoso",
+        "venidero",
+        "obsequio"
+      ],
+      "text": "En un pueblo pequeño de Cantabria, hay una fundición de campanas que lleva más de dos siglos en manos de la misma familia. Hoy la dirige Tomás, que tiene sesenta años, junto a su hija Nuria, ingeniera de materiales. Pasé con ellos un día entero para ver cómo nace una campana.\n\nLa faena empieza temprano. A las siete de la mañana, Tomás ya está en el taller preparando el molde. Una campana no se hace de cualquier manera: primero se construye un molde de arcilla y ladrillo con la forma exacta que tendrá la pieza. Es un trabajo minucioso, el más minucioso de toda la fundición. Tomás trabaja la arcilla con las manos durante horas, mide cada curva y vuelve a medirla. «Si el molde tiene un fallo de un milímetro, la campana no suena bien», me explica. Nuria, que estudió química en Santander, añade que el sonido depende tanto de la forma como de la composición del metal.\n\nEse metal es el bronce, una mezcla de cobre y estaño. «Con más cobre, el bronce es más blando», dice Nuria. «Con más estaño, suena más brillante, pero se rompe con más facilidad».\n\nLa fundición no hace una sola campana cada vez, sino que trabaja por tandas. Esta semana prepara una tanda de cuatro campanas para una iglesia de Asturias. Así el horno tiene que calentarse una sola vez, lo que ahorra tiempo y combustible.\n\nA mediodía llega el momento más delicado de la faena. El horno alcanza unos mil cien grados y el bronce se convierte en un líquido brillante, de color naranja. Todos se ponen ropa de protección. El metal sale del horno por un canal y cae en los moldes, que están enterrados en el suelo del taller. El bronce colado tarda varios días en enfriarse. «Si lo sacas antes de tiempo, lo estropeas», dice Tomás. «Un cambio brusco de temperatura puede estropear una campana que ha costado semanas de trabajo».\n\nMientras esperamos, Nuria me enseña una campana colada el mes pasado, ya limpia. La golpea suavemente con un martillo de madera y el taller se llena de un sonido grave y majestuoso, que tarda mucho en apagarse. «Ese sonido largo es la prueba de que el metal está bien colado, sin burbujas de aire dentro», me dice.\n\nPara Tomás, una campana no es solo un objeto de metal: es un obsequio que se hace a un pueblo entero. De hecho, las campanas de Asturias son un obsequio de los vecinos a su parroquia, que cumple quinientos años. «Una campana bien hecha dura siglos», dice. «La van a escuchar las generaciones venideras, gente que todavía no ha nacido». Le gusta pensar en esos años venideros, en niños que un día oirán, sin saberlo, el trabajo de sus manos.\n\nDentro de una semana sacarán las campanas de los moldes. Luego, un camión las llevará a Asturias, donde sonarán, majestuosas, sobre los tejados del pueblo.\n\nPreguntas:\n¿Quién dirige la fundición?\nLa dirige Tomás junto a su hija Nuria, ingeniera de materiales.\n¿Por qué es tan minucioso el trabajo del molde?\nPorque si el molde tiene un fallo de un milímetro, la campana no suena bien.\n¿Por qué trabaja la fundición por tandas?\nPorque fundir varias campanas en una sola tanda ahorra tiempo y combustible.\n¿Qué puede estropear una campana recién colada?\nUn cambio brusco de temperatura puede estropearla si se saca del molde antes de tiempo.\n¿Por qué son un obsequio las campanas de Asturias?\nPorque los vecinos se las regalan a su parroquia, que cumple quinientos años."
+    },
+    {
+      "title": "La semana del auditor",
+      "summary": "In her diary, a lab technician in Monterrey describes the week an external auditor inspects the plastics quality-control lab where she works.",
+      "newWords": [
+        "auditor",
+        "tramitación",
+        "rutinario",
+        "tara",
+        "caracterización",
+        "partición",
+        "ambigüedad",
+        "caché",
+        "interlocutor",
+        "formalidad"
+      ],
+      "text": "Diario de Mariana, técnica de laboratorio en Monterrey.\n\nLunes. Mañana llega el auditor. Cada dos años, un auditor externo comprueba que nuestro laboratorio de control de calidad cumple las normas. Si todo sale bien, renovamos la acreditación; si no, empieza una larga tramitación de papeles y correcciones que nadie quiere. La última vez, la tramitación duró cuatro meses. Hoy pasé la tarde ordenando carpetas con mi jefe, el ingeniero Salazar.\n\nMartes. El auditor se llama Óscar Ibarra. Es un hombre tranquilo que lo apunta todo en un cuaderno. Empezó por lo más rutinario: los registros de temperatura de los refrigeradores, las fechas de los reactivos, la limpieza de las mesas. Salazar me explicó después que un buen auditor siempre empieza por lo rutinario, porque los errores grandes suelen esconderse en las tareas pequeñas.\n\nLuego me pidió que pesara una muestra delante de él. Analizamos el plástico de una fábrica de botellas. Puse el recipiente vacío en la balanza y apreté el botón de la tara, para que la balanza marcara cero. Después añadí el polvo de plástico. Ibarra me preguntó por qué hacía la tara antes de cada muestra y no una vez al día. Le expliqué que cada recipiente pesa un poco distinto y que, sin la tara, el peso del recipiente se sumaría al de la muestra. Asintió y lo apuntó.\n\nMiércoles. Hoy tocó la caracterización del material. La caracterización consiste en describir el plástico con precisión: su temperatura de fusión, su densidad, su resistencia. Antes de analizarla, hacemos la partición de cada muestra en tres partes iguales: una para el análisis, otra para repetirlo si hace falta y otra que guardamos durante un año. Ibarra revisó la partición y las etiquetas.\n\nEntonces encontró el único problema de la semana. Nuestro procedimiento escrito dice que las muestras se guardan «en un lugar fresco». Ibarra señaló la ambigüedad de esa frase: ¿qué es fresco? ¿Quince grados? ¿Veinticinco? «Una norma no puede tener ambigüedad», dijo. «Cada persona la va a entender a su manera». Tenía razón, y Salazar prometió escribir una temperatura exacta.\n\nJueves. Por la mañana se bloqueó el programa de uno de los equipos. Ibarra esperó con paciencia mientras yo borraba la caché y reiniciaba la computadora. La caché se llena de archivos cada pocas semanas, y Ibarra me pidió que borrarla fuera parte del procedimiento escrito.\n\nViernes. Último día. Antes de entregar el informe, Ibarra se despidió de mí. Me dijo que había sido una buena interlocutora, porque contestaba con claridad y no tenía miedo de decir «no lo sé, lo voy a comprobar». Yo pensaba que una auditoría era una pura formalidad, un examen frío, pero no fue así. Las firmas y los sellos son una formalidad; lo importante fue la conversación con un interlocutor atento.\n\nEl informe solo tiene dos observaciones menores, la ambigüedad y la caché, así que no habrá ninguna tramitación larga.\n\nPreguntas:\n¿Por qué empezó el auditor por las tareas más rutinarias?\nPorque los errores grandes suelen esconderse en las tareas pequeñas.\n¿Para qué sirve la tara de la balanza?\nSirve para que la balanza marque cero con el recipiente vacío, y así su peso no se sume al de la muestra.\n¿En cuántas partes se hace la partición de cada muestra?\nEn tres partes iguales: una para el análisis, otra para repetirlo y otra que se guarda durante un año.\n¿Por qué dijo Ibarra que Mariana había sido una buena interlocutora?\nPorque contestaba con claridad y no tenía miedo de decir que no sabía algo."
+    },
+    {
+      "title": "Piedras del cielo en Atacama",
+      "summary": "A report on a Cuban scientist who spends three weeks in the Atacama Desert looking for meteorites and explains why the dry desert keeps them so well.",
+      "newWords": [
+        "meteorito",
+        "árido",
+        "faz",
+        "visado",
+        "nómada",
+        "excavar",
+        "radiactivo",
+        "previsible",
+        "ártico"
+      ],
+      "text": "El desierto de Atacama, en el norte de Chile, es uno de los lugares más áridos del planeta. Hay zonas donde no llueve en años. Para la mayoría de los seres vivos, un clima tan árido es un problema; para Yanet Fuentes, investigadora cubana que trabaja en una universidad de Santiago, es una suerte. Yanet busca meteoritos, y Atacama es uno de los mejores sitios del mundo para encontrarlos.\n\n«Los meteoritos caen sobre toda la faz de la Tierra», explica. «Caen en el mar, en las selvas, en las ciudades. Pero en casi toda la faz del planeta desaparecen pronto: la lluvia y la humedad los rompen y los convierten en tierra. Aquí, en cambio, el aire es tan seco que un meteorito puede quedarse intacto durante miles de años».\n\nYanet llegó a Chile hace seis años. Para venir tuvo que conseguir un visado de trabajo, o una visa, como dicen en Chile, y la espera fue larga. «Pasé meses esperando el visado», recuerda. Hoy tiene la residencia y viaja al desierto dos veces al año con un pequeño equipo de estudiantes.\n\nDurante tres semanas, el grupo lleva una vida casi nómada. Cada dos o tres días levantan el campamento, cargan la camioneta y se mueven a otra zona. Yanet dice, riéndose, que esa vida nómada le recuerda a los antiguos pastores del desierto, que también iban de un lugar a otro buscando lo que la tierra les ofrecía.\n\nEl método es sencillo. Los estudiantes caminan en línea, separados por unos metros, mirando el suelo. Un meteorito suele ser más oscuro que las piedras del desierto y, si contiene hierro, se pega a un imán. Cuando alguien encuentra una piedra sospechosa, no la levanta enseguida. Primero la fotografía, apunta el lugar exacto y, si está medio enterrada, empiezan a excavar alrededor con mucho cuidado. Excavar con prisa podría romperla.\n\nEn el laboratorio de Santiago, el trabajo continúa. Mientras viaja por el espacio, un meteorito recibe rayos cósmicos que forman en su interior pequeñas cantidades de elementos radiactivos. Cuando cae a la Tierra, deja de recibirlos, y esos elementos radiactivos empiezan a desaparecer poco a poco, a un ritmo conocido. Midiendo lo que queda, Yanet puede calcular cuánto tiempo lleva el meteorito en el desierto. «No es peligroso», aclara. «La cantidad radiactiva es mínima, mucho menor que la de muchas rocas normales».\n\nLe pregunto si es previsible lo que van a encontrar. «Nada es previsible en este trabajo», contesta. «Hay semanas en que encontramos diez piezas y semanas en que no encontramos ninguna». Lo que sí es previsible, añade, es el frío. De día el sol quema, pero por la noche la temperatura baja tanto que el viento parece ártico. Yanet trabajó una vez en el Ártico, en Groenlandia, y asegura que algunas noches de Atacama no tienen nada que envidiarle.\n\nPreguntas:\n¿Por qué se conservan tan bien los meteoritos en Atacama?\nPorque el clima es tan árido que la lluvia y la humedad no los rompen.\n¿Qué tuvo que conseguir Yanet para trabajar en Chile?\nTuvo que conseguir un visado de trabajo, y la espera fue larga.\n¿Por qué dice Yanet que el grupo lleva una vida nómada?\nPorque cada dos o tres días levantan el campamento y se mueven a otra zona.\n¿Por qué excavan tan despacio?\nPorque excavar con prisa podría romper el meteorito.\n¿Para qué miden los elementos radiactivos?\nPara calcular cuánto tiempo lleva el meteorito en el desierto.\n¿Qué es previsible en el desierto, según Yanet?\nEs previsible el frío de la noche, cuando el viento parece ártico."
+    },
+    {
+      "title": "La restauradora y el óleo",
+      "summary": "A restorer at a Madrid museum cleans a nineteenth-century oil painting for a retrospective and uses chemistry to tell the painter's own changes from later damage.",
+      "newWords": [
+        "óleo",
+        "suciedad",
+        "retrospectiva",
+        "virtuoso",
+        "caprichoso",
+        "intencionado",
+        "estampa",
+        "plagio",
+        "trance"
+      ],
+      "text": "Clara trabaja desde hace veinte años en el taller de restauración de un museo de Madrid. Estos días tiene delante un óleo de un pintor andaluz del siglo XIX: un mercado lleno de gente, frutas y animales. El museo prepara una gran retrospectiva del pintor, la primera en cincuenta años, y quiere que este óleo, uno de sus cuadros más famosos, esté en el centro de la retrospectiva.\n\nEl problema es la suciedad. Durante más de un siglo, el cuadro estuvo colgado en un palacio con chimeneas, y el humo, el polvo y la grasa formaron sobre la pintura una capa oscura. A esa suciedad se suma el barniz antiguo, que con los años se ha vuelto amarillento. El cielo, que debería ser azul, parece de color verde.\n\nLimpiar un óleo es un trabajo de química. Clara prueba primero varias mezclas de líquidos en un rincón pequeño del cuadro, donde nadie lo notará. Busca una mezcla que disuelva la suciedad sin tocar la pintura original. Cuando la encuentra, empieza a limpiar con un trozo de algodón, centímetro a centímetro. Trabaja horas sin levantar la vista, casi en trance. Sus compañeros dicen que, cuando entra en ese trance, no oye ni el teléfono.\n\nPoco a poco, el mercado recupera sus colores. Aparecen los rojos de las frutas, el blanco de las camisas, el azul limpio del cielo. Clara entiende por qué los críticos llamaban virtuoso a este pintor: cada cesta y cada mano están pintadas con una precisión virtuosa.\n\nTambién descubre que era un pintor caprichoso con los materiales. Los análisis muestran que mezclaba el óleo con cera o con polvo de mármol. Un pintor menos caprichoso habría usado siempre la misma receta.\n\nEn una esquina, Clara encuentra una mancha marrón. ¿Es un daño o un cambio intencionado del pintor? La respuesta está en la química. Si la mancha tiene los mismos materiales que el resto del cuadro, el cambio es intencionado, y hay que respetarlo. Si tiene materiales modernos, alguien la añadió después. El análisis confirma que es original: es la sombra de un perro.\n\nHay otra pregunta que la retrospectiva quiere contestar. En su época, algunos acusaron al pintor de plagio, porque la composición del mercado se parecía mucho a una estampa francesa muy popular entonces. Con rayos X, Clara ve debajo de la pintura un dibujo distinto, con otra colocación de las figuras. El pintor conocía la estampa, sin duda, pero fue cambiando su propia idea sobre el lienzo. Para los organizadores, eso aleja la sospecha de plagio: la estampa fue un punto de partida, no un modelo copiado.\n\nSeis meses después, el óleo cuelga en la sala principal, con su cielo azul otra vez.\n\nPreguntas:\n¿Por qué tiene que limpiar Clara el óleo?\nPorque el museo prepara una retrospectiva del pintor y el cuadro estaba cubierto de suciedad.\n¿De dónde viene la suciedad del cuadro?\nViene del humo, el polvo y la grasa del palacio, y del barniz antiguo que se ha vuelto amarillento.\n¿Por qué dicen sus compañeros que Clara trabaja en trance?\nPorque trabaja horas sin levantar la vista y no oye ni el teléfono.\n¿Por qué era un pintor caprichoso con los materiales?\nPorque mezclaba el óleo con cera o con polvo de mármol, y no usaba siempre la misma receta.\n¿Cómo sabe Clara que la mancha marrón es un cambio intencionado?\nPorque tiene los mismos materiales que el resto del cuadro.\n¿Por qué acusaron al pintor de plagio?\nPorque su composición se parecía mucho a una estampa francesa muy popular."
+    },
+    {
+      "title": "La química de la abuela",
+      "summary": "A teenager in Bilbao cooks an anniversary dinner for his parents with his grandmother, who explains the chemistry behind soda in batter, a lobster turning red and a syrup-soaked sponge cake.",
+      "newWords": [
+        "gaseosa",
+        "hortaliza",
+        "langosta",
+        "emborrachar",
+        "conciliar",
+        "improvisación",
+        "frustrante",
+        "enfado",
+        "majo",
+        "oca"
+      ],
+      "text": "Iker tiene dieciséis años y vive en Bilbao. El sábado sus padres cumplen veinte años de casados, y él ha decidido prepararles una cena especial. La noche anterior apenas pudo conciliar el sueño: daba vueltas en la cama pensando en el menú. Cuando por fin consiguió conciliar el sueño, ya eran casi las tres. Por la mañana fue a casa de su abuela Begoña, que cocina mejor que nadie en la familia.\n\nEl menú tenía tres platos: hortalizas en tempura, langosta y un pastel borracho. En el mercado compraron las hortalizas más frescas que encontraron, cebollas y zanahorias, y una langosta de color casi negro.\n\nEmpezaron por la tempura. Iker mezcló harina con agua fría, pasó las hortalizas por la masa y las frió en aceite muy caliente. El resultado fue frustrante: las verduras salieron pesadas y llenas de aceite. Iker no pudo esconder su enfado. «¡Lo he hecho todo como dice la receta!», dijo. Begoña esperó a que se le pasara el enfado y luego sacó de la nevera una botella de gaseosa. «El secreto de mi madre», le explicó. «Si mezclas la harina con gaseosa en vez de agua, las burbujas de gas se quedan dentro de la masa. Con el calor, ese gas se escapa y deja la masa ligera, llena de pequeños huecos». Lo probaron. Esta vez las hortalizas salieron doradas y ligeras. «¡Qué maja eres, abuela!», dijo Iker. «Majo tú, que te has levantado temprano para esto», contestó ella.\n\nDespués, la langosta. Begoña puso a hervir agua con sal en una olla grande. Cuando metieron la langosta, Iker vio algo que le pareció casi mágico: en pocos minutos, aquel animal oscuro se volvió de un rojo brillante. Su abuela le explicó que dentro de la langosta hay un color rojo que, en vida, está escondido, unido a unas proteínas. El calor rompe esa unión y el rojo aparece. «En la cocina pasan las mismas cosas que en un laboratorio», dijo Begoña. «Solo que aquí nos las comemos».\n\nPor último, el pastel borracho. Begoña lo había hecho el día anterior. Ahora había que emborracharlo. Iker preguntó, un poco preocupado, si llevaba alcohol. Su abuela se rió: en su casa, emborrachar un pastel quiere decir mojarlo con agua, azúcar y piel de naranja, poco a poco, hasta que lo absorbe todo. Lo emborracharon con una cuchara, sin prisa, y lo dejaron en la nevera.\n\nMientras el pastel se enfriaba, jugaron una partida al juego de la oca en la mesa de la cocina, como cuando Iker era pequeño. Begoña llegó la primera a la última oca del tablero.\n\nAntes de irse, Iker le dio las gracias. «La cocina es química», le dijo ella, «pero también un poco de improvisación. La receta te enseña el camino; la improvisación te ayuda cuando algo sale mal».\n\nPreguntas:\n¿Por qué no pudo Iker conciliar el sueño?\nPorque daba vueltas en la cama pensando en el menú de la cena.\n¿Por qué fue frustrante la primera tempura?\nPorque las hortalizas salieron pesadas y llenas de aceite.\n¿Para qué sirve la gaseosa en la masa?\nSus burbujas de gas dejan la masa ligera, llena de pequeños huecos.\n¿Por qué se vuelve roja la langosta?\nPorque el calor rompe la unión entre el color rojo y unas proteínas.\n¿Qué quiere decir emborrachar un pastel en casa de Begoña?\nQuiere decir mojarlo con agua, azúcar y piel de naranja hasta que lo absorbe todo.\n¿A qué jugaron mientras el pastel se enfriaba?\nJugaron una partida al juego de la oca."
+    },
+    {
+      "title": "Agua limpia en Ucayali",
+      "summary": "An engineer from Lima helps a village near Pucallpa purify its drinking water with sand filters and chlorine, under the rules of the national water regulator.",
+      "newWords": [
+        "represa",
+        "germen",
+        "infeccioso",
+        "purificar",
+        "paliar",
+        "recarga",
+        "superintendencia",
+        "contraloría",
+        "yuca",
+        "encaminado"
+      ],
+      "text": "Rosa Quispe es ingeniera sanitaria en Lima. Desde hace un año trabaja en un pueblo de unas trescientas personas cerca de Pucallpa, en la región de Ucayali. El pueblo toma el agua de una quebrada, donde hace tiempo los vecinos construyeron una pequeña represa de piedra y cemento. De la represa sale una tubería que lleva el agua hasta un tanque, en la parte alta del pueblo.\n\nEl problema es que el agua de la represa no es segura. Parece limpia, pero lleva gérmenes que no se ven. Cuando llueve mucho, la corriente arrastra tierra, hojas y restos de animales, y con ellos llega más de un germen peligroso. Cada año, sobre todo entre los niños, había muchos casos de diarrea y otras enfermedades infecciosas. Según Rosa, casi todas esas enfermedades infecciosas se evitan con agua limpia.\n\nPurificar el agua de un pueblo pequeño no exige máquinas caras. Rosa y los vecinos construyeron, junto al tanque, un filtro lento de arena: el agua baja despacio por varias capas de arena y piedras, que retienen la tierra y buena parte de los gérmenes. Después, para purificar el agua del todo, se añade una pequeña dosis de cloro. «El filtro hace la mitad del trabajo y el cloro hace la otra mitad», dice Rosa.\n\nEl cloro está en un recipiente que suelta unas gotas por minuto en el tanque. Cada dos semanas hay que hacer la recarga. Rosa enseñó a dos vecinos, Wilmer y su hija Kelly, a hacer la recarga y a medir el cloro con un pequeño equipo. Kelly apunta cada medida en un cuaderno, como exigen las normas. Esas normas las pone la Superintendencia de Servicios de Saneamiento, la institución del Estado que vigila la calidad del agua en todo el país. Una vez al año, alguien de la superintendencia visita el pueblo y revisa el cuaderno.\n\nEl proyecto se paga con dinero público, así que también lo vigila la contraloría. Rosa tiene que guardar todas las facturas, porque la contraloría revisa en qué se gasta cada sol. «Es dinero de todos», dice ella. «Es justo que alguien lo controle».\n\nEl filtro no lo resuelve todo. En la temporada de lluvias, el agua llega tan sucia que el filtro se llena enseguida. Para paliar ese problema, Rosa pidió a las familias que, en esas semanas, hirvieran el agua de beber. Así logran paliar el riesgo mientras se construye un segundo filtro.\n\nAl final de cada visita, Wilmer invita a Rosa a comer en su casa. Siempre hay yuca, que la familia cultiva junto al río, y Rosa siempre repite plato: le encanta la yuca frita.\n\nEste año casi no ha habido casos de diarrea en el pueblo. Rosa cree que el proyecto va bien encaminado. Todavía falta mucho, pero el agua es más limpia y los vecinos saben cuidarla.\n\nPreguntas:\n¿De dónde toma el agua el pueblo?\nLa toma de una quebrada, donde los vecinos construyeron una pequeña represa.\n¿Por qué había tantas enfermedades infecciosas?\nPorque el agua de la represa llevaba gérmenes que no se ven.\n¿Quién hace la recarga del cloro?\nLa hacen Wilmer y su hija Kelly cada dos semanas.\n¿Qué hace la superintendencia?\nVigila la calidad del agua en todo el país y revisa el cuaderno del pueblo una vez al año.\n¿Cómo intentan paliar el problema de las lluvias?\nLas familias hierven el agua de beber mientras se construye un segundo filtro.\n¿Cómo va el proyecto, según Rosa?\nVa bien encaminado, porque este año casi no ha habido casos de diarrea."
+    },
+    {
+      "title": "El sastre de East Los Ángeles",
+      "summary": "An old tailor in Los Angeles makes a 1940s pachuco suit in merino wool for an advertising campaign and explains to the publicist why wool beats synthetic cloth.",
+      "newWords": [
+        "sastre",
+        "pachuco",
+        "publicista",
+        "carismático",
+        "merino",
+        "domesticar",
+        "malentendido",
+        "pulga",
+        "apego"
+      ],
+      "text": "Ernesto Villalobos es sastre desde hace cuarenta años. Su taller está en East Los Ángeles, en una calle donde casi todos hablan español. Aprendió el oficio de su abuelo, que llegó de Jalisco en los años treinta y también era sastre. En la pared del taller cuelga una foto en blanco y negro: el abuelo, joven, con un traje enorme, sombrero y una larga cadena de reloj. Es un traje de pachuco.\n\nLos pachucos eran jóvenes de origen mexicano que, en los años cuarenta, se vestían de una manera muy particular: chaquetas largas con hombros anchos y pantalones muy anchos arriba y estrechos en el tobillo.\n\nUn lunes de septiembre entró en el taller Daniela Ortiz, una publicista joven. Su agencia preparaba la campaña de una exposición sobre los pachucos, y necesitaba un traje auténtico. La publicista había oído que Ernesto era el último sastre del barrio que sabía hacerlo. El traje sería para un cantante muy carismático, conocido por su voz y por su manera de moverse en el escenario. «Es tan carismático que la gente lo mira aunque no cante», dijo Daniela.\n\nErnesto aceptó. Le explicó que el traje sería de lana merino. La publicista preguntó si no sería más barato usar una tela sintética. «Más barato, sí», contestó él, «pero no es lo mismo». La lana merino tiene fibras muy finas, más finas que las de casi cualquier otra lana. Por eso no pica y deja pasar el aire: absorbe el sudor y lo suelta poco a poco. Además, cada fibra vuelve sola a su forma. Una tela sintética, en cambio, brilla demasiado bajo las luces y guarda el calor.\n\nDaniela quiso saber de dónde venía esa lana. Ernesto le contó que la oveja merina se crió durante siglos en España y que hoy hay muchas en Australia. «El ser humano empezó a domesticar ovejas hace unos diez mil años», dijo. «Al domesticarlas, fue eligiendo las que tenían mejor lana. La merina es el resultado de esa paciencia».\n\nHubo un pequeño malentendido con la fecha. Daniela había dicho por teléfono que necesitaba el traje «para el día diez», y Ernesto entendió que era el diez de octubre. En realidad era el diez de noviembre. Cuando aclararon el malentendido, los dos se rieron.\n\nPara los detalles, Ernesto fue el domingo al mercado de pulgas de Pasadena. En ese mercado de pulgas encontró una cadena de reloj casi igual a la de la foto.\n\nEl día de las fotos, el cantante se puso el traje y se miró al espejo en silencio. Ernesto lo ajustó con las mismas tijeras que había usado su abuelo. Le tiene mucho apego a esas tijeras. Daniela le preguntó por qué no compraba unas nuevas. «Por apego», dijo él. «Con ellas, mi abuelo sigue cosiendo».\n\nPreguntas:\n¿Quiénes eran los pachucos?\nEran jóvenes de origen mexicano que, en los años cuarenta, se vestían con trajes muy particulares.\n¿Por qué fue la publicista al taller de Ernesto?\nPorque necesitaba un traje auténtico de pachuco para la campaña de una exposición.\n¿Por qué prefiere Ernesto la lana merino a una tela sintética?\nPorque sus fibras finas no pican, dejan pasar el aire y no brillan bajo las luces.\n¿Qué fue el malentendido con la fecha?\nErnesto entendió el diez de octubre, pero Daniela quería decir el diez de noviembre.\n¿Qué encontró Ernesto en el mercado de pulgas?\nEncontró una cadena de reloj casi igual a la de la foto de su abuelo.\n¿Por qué no compra Ernesto unas tijeras nuevas?\nPor apego, porque eran las tijeras de su abuelo."
+    },
+    {
+      "title": "El veneno que cura",
+      "summary": "A biochemist at an institute near San José explains how snake venom works as a mixture of proteins and how the antivenom is made, with the help of an experienced snake handler.",
+      "newWords": [
+        "reptil",
+        "emboscada",
+        "certero",
+        "manipulador",
+        "involuntario",
+        "inhibir",
+        "náusea"
+      ],
+      "text": "En las afueras de San José, la capital de Costa Rica, hay un instituto que produce suero contra el veneno de serpiente. Costa Rica tiene muchas especies de serpientes, y algunas son peligrosas para los campesinos que trabajan en el campo. Mauricio Jiménez, bioquímico, trabaja allí desde hace quince años. Él estudia la química del veneno; su compañero, don Rafael Mora, se ocupa de los animales.\n\nDon Rafael es el manipulador de serpientes más antiguo del instituto. Un buen manipulador necesita calma, experiencia y mucho respeto. Cada semana, don Rafael saca a cada serpiente de su caja con un gancho largo, la sujeta con cuidado detrás de la cabeza y la deja morder el borde de un vaso de vidrio cubierto con una tela fina. El veneno cae gota a gota en el vaso. Después, la devuelve a su caja sin hacerle daño.\n\nMauricio dice que las serpientes no son malvadas. Son reptiles tímidos que prefieren huir. Como muchos reptiles, cazan por emboscada: se quedan quietas durante horas entre las hojas, esperando a que pase un ratón. La emboscada funciona porque su color se confunde con el suelo. Cuando la presa se acerca, la serpiente ataca con un movimiento rapidísimo y certero. Ese ataque certero dura menos de un segundo.\n\nMuchas personas, al ver una serpiente, retiran la mano o saltan hacia atrás sin pensarlo. Es un reflejo involuntario, muy antiguo, que nos protege. Don Rafael ha aprendido a controlar ese movimiento involuntario, porque en su trabajo un salto brusco puede ser más peligroso que la serpiente.\n\nEn el laboratorio, Mauricio analiza el veneno. «No es una sola sustancia», explica, «sino una mezcla de decenas de proteínas, cada una con su función». Algunas proteínas rompen los tejidos; otras impiden que la sangre se cierre en las heridas. Dicho de forma química, esas proteínas inhiben los procesos que detienen el sangrado. Por eso una persona mordida puede sangrar mucho. El veneno también puede provocar dolor intenso, mareo y náuseas. Las náuseas, aclara Mauricio, suelen ser una de las primeras señales de una mordida.\n\nPara hacer el suero, el instituto inyecta en caballos dosis muy pequeñas de veneno, tan pequeñas que no les hacen daño. El cuerpo del caballo produce defensas contra esas proteínas. Luego se le saca un poco de sangre, se purifican esas defensas y con ellas se prepara el suero. Cuando una persona recibe el suero, las defensas del caballo se unen a las proteínas del veneno y las inhiben antes de que hagan daño.\n\nMauricio está orgulloso de su trabajo. Cada año, el suero del instituto salva vidas en Costa Rica y en otros países de América Central. Don Rafael, que creció en una finca de bananos, recuerda que de niño conoció a vecinos que no tuvieron esa suerte. «Por eso hago esto», dice.\n\nPreguntas:\n¿Qué hace don Rafael en el instituto?\nEs el manipulador de serpientes: saca el veneno de los animales sin hacerles daño.\n¿Cómo cazan las serpientes?\nCazan por emboscada: se quedan quietas entre las hojas y atacan con un movimiento rápido y certero.\n¿Qué es el reflejo involuntario del que habla el texto?\nEs el movimiento de retirar la mano o saltar hacia atrás al ver una serpiente.\n¿Por qué una persona mordida puede sangrar mucho?\nPorque algunas proteínas del veneno inhiben los procesos que detienen el sangrado.\n¿Cuál suele ser una de las primeras señales de una mordida?\nLas náuseas suelen ser una de las primeras señales.\n¿Cómo se hace el suero?\nSe inyectan dosis muy pequeñas de veneno en caballos, y luego se purifican las defensas de su sangre."
+    },
+    {
+      "title": "La ciencia de la pelota",
+      "summary": "A Spanish materials engineer working for a football club in Buenos Aires describes, in her own words, how a ball changes shape when it is kicked and how artificial grass is tested.",
+      "newWords": [
+        "penalti",
+        "deformación",
+        "triangular",
+        "fulano",
+        "pisotear",
+        "empujón",
+        "hinchada",
+        "rítmico",
+        "muchedumbre",
+        "horda"
+      ],
+      "text": "Me llamo Amparo, soy de Valencia y desde hace tres años trabajo como ingeniera de materiales en un club de fútbol de Buenos Aires. Creen que el fútbol es solo talento y fuerza, pero detrás de cada partido hay mucha química y mucha física.\n\nMi tarea principal es estudiar la pelota. Por dentro tiene una cámara de goma llena de aire; por fuera, varias capas de plásticos y tejidos. Las pelotas clásicas tenían treinta y dos paneles; algunas de las nuevas tienen muy pocos, y en ciertos modelos los paneles son de forma triangular. Un diseño triangular cambia la manera en que el aire pasa por la superficie y, con ella, la trayectoria del tiro.\n\nEn el laboratorio grabamos patadas con una cámara muy rápida. Cuando un jugador patea un penalti, o un penal, como dicen aquí, la pelota se aplasta contra el pie durante una fracción de segundo. Esa deformación no se ve a simple vista, pero en la cámara lenta es enorme: la pelota pierde casi un tercio de su forma redonda. Cuanto mejor vuelve el material a su forma después de la deformación, más energía conserva el tiro. Por eso un penalti pateado con una buena pelota puede superar los cien kilómetros por hora. Y eso no depende del jugador: la pelota se comporta igual con una estrella que con cualquier fulano que la patee en el parque. Si fulano y yo pateamos con la misma fuerza, la física es la misma.\n\nTambién estudio el césped artificial del campo de entrenamiento. Está hecho de fibras de plástico y pequeños granos de goma. Cada día, decenas de jugadores lo pisotean durante horas, y con el tiempo las fibras pisoteadas se quedan aplastadas. Si el césped está demasiado duro, aumentan las lesiones en los tobillos y las rodillas. Si un jugador cae después de un empujón, el suelo tiene que ser algo blando. Un empujón en una superficie dura puede terminar en el hospital.\n\nLo que más me gusta de mi trabajo, sin embargo, no está en el laboratorio. Es el domingo, en el estadio. La hinchada del club es famosa en todo el país. Desde una hora antes del partido, la hinchada canta sin parar, acompañada por un bombo rítmico que se oye a varias calles. Ese sonido rítmico hace temblar las tribunas. Una vez medimos la vibración del cemento: cuando salta la muchedumbre, el estadio entero se mueve unos milímetros. Me impresiona pensar que una muchedumbre de cincuenta mil personas puede mover una estructura así.\n\nAl terminar el partido, una horda de niños de la escuela del club corre al campo para pedir fotos a los jugadores. Ver esa horda feliz sobre el césped que yo cuido es, para mí, el mejor resultado de la semana.\n\nPreguntas:\n¿Qué forma tienen los paneles de algunas pelotas nuevas?\nEn ciertos modelos los paneles son de forma triangular.\n¿Qué le pasa a la pelota cuando un jugador patea un penalti?\nSufre una deformación: se aplasta contra el pie durante una fracción de segundo.\n¿Por qué dice Amparo que la física es la misma para una estrella y para cualquier fulano?\nPorque la pelota se comporta igual con todos si patean con la misma fuerza.\n¿Qué pasa con las fibras del césped que los jugadores pisotean?\nCon el tiempo se quedan aplastadas.\n¿Qué se oye en el estadio antes del partido?\nSe oye la hinchada, que canta sin parar, y un bombo rítmico.\n¿Qué hace la horda de niños al terminar el partido?\nCorre al campo para pedir fotos a los jugadores."
+    },
+    {
+      "title": "El fraile que quería hacer oro",
+      "summary": "A chemistry professor in Salamanca writes a column about the notebook of a sixteenth-century Augustinian friar who did secret experiments with metals, was punished for disobedience and wrote his recipes in verse.",
+      "newWords": [
+        "agustino",
+        "engendrar",
+        "quebrantar",
+        "desobediencia",
+        "penitencia",
+        "calabozo",
+        "aducir",
+        "injerencia",
+        "lira"
+      ],
+      "text": "Soy profesora de química en la Universidad de Salamanca, y hace unos meses la biblioteca me pidió ayuda con un manuscrito antiguo. Era el cuaderno de un fraile agustino del siglo XVI, fray Anselmo de Medina, que vivió en el convento de San Agustín de esta ciudad. Los bibliotecarios querían saber si las recetas del cuaderno tenían algún sentido químico.\n\nFray Anselmo era un hombre de su tiempo. Como muchos sabios de entonces, creía que los metales nacían bajo la tierra igual que las plantas. Según él, el calor de la tierra y ciertos vapores engendraban el plomo, el hierro y la plata, y con siglos de paciencia la naturaleza acababa por engendrar el oro, el metal perfecto. Si eso era así, pensaba, un hombre paciente podría ayudar a la naturaleza y convertir el plomo en oro en su propio laboratorio.\n\nEl problema es que sus superiores se lo habían prohibido. Las reglas de los agustinos exigían obediencia, y el superior del convento consideraba esos trabajos peligrosos y poco adecuados para un religioso. Fray Anselmo decidió quebrantar la prohibición. Durante dos años hizo sus experimentos de noche, en el sótano del convento, con un pequeño horno que había construido él mismo. Sabía que quebrantar una orden era grave, pero no podía dejar de hacerlo.\n\nAl final lo descubrieron por el humo. Su desobediencia tuvo consecuencias: le impusieron una penitencia de cuarenta días. La penitencia consistía en comer solo pan y agua, rezar y pasar las noches en el calabozo del convento, una celda pequeña y fría donde se encerraba a los frailes que habían cometido faltas. Desde aquel calabozo escribió una carta a su superior que se conserva en el cuaderno. En ella aducía que no buscaba riquezas, sino medicinas para los pobres. También aducía que sus estudios no hacían daño a nadie y pedía, con mucho respeto, que no hubiera injerencia de otros en asuntos de ciencia. Hoy esa palabra nos parece moderna, pero la idea de que el estudio necesita libertad, sin injerencia de nadie, ya estaba en aquella carta.\n\nLo más curioso del cuaderno es su forma. Fray Anselmo escribía muchas recetas en verso, en liras, la misma estrofa de cinco versos que usaba otro agustino de Salamanca, el poeta fray Luis de León. Una lira es fácil de aprender de memoria, y quizá por eso la eligió: así podía recordar sus recetas sin dejarlas a la vista. Hay liras que explican cómo calentar una sal, cómo separar un líquido de otro o cómo limpiar la plata.\n\nFray Anselmo nunca hizo oro, claro. Pero muchas de sus recetas son correctas. Describe con precisión cómo obtener cristales puros de una sal. Sin saberlo, aquel fraile hacía química de verdad. Cuando cierro su cuaderno, siempre pienso que la ciencia moderna también nació en sótanos como el suyo.\n\nPreguntas:\n¿Quién era fray Anselmo de Medina?\nEra un fraile agustino del siglo XVI que vivió en el convento de San Agustín de Salamanca.\n¿Qué creía fray Anselmo sobre los metales?\nCreía que el calor de la tierra y ciertos vapores engendraban los metales, y que la naturaleza acababa por engendrar el oro.\n¿Por qué le impusieron una penitencia?\nPor su desobediencia: había decidido quebrantar la prohibición de sus superiores.\n¿En qué consistía la penitencia?\nConsistía en comer solo pan y agua, rezar y pasar las noches en el calabozo del convento.\n¿Qué aducía fray Anselmo en su carta?\nAducía que no buscaba riquezas, sino medicinas para los pobres.\n¿Por qué escribía sus recetas en liras?\nPorque una lira es fácil de aprender de memoria y así podía recordarlas sin dejarlas a la vista."
+    }
+  ]
+}

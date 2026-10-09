@@ -1,0 +1,230 @@
+{
+  "id": "es-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "La física en el día a día",
+  "description": "Ten everyday stories about physics from Mexico City, Buenos Aires, a Chilean fishing cove, Bogotá, Arequipa, Havana, Los Angeles, Costa Rica, Madrid and Asturias: elevator vertigo, curling hair, floating boats, concert-hall sound, boiling at altitude, a hot concrete roof, a microscope at a science fair, a curving free kick, bleeding radiators and a village sundial.",
+  "topic": "Everyday physics",
+  "names": [
+    "Mariana",
+    "Rodrigo",
+    "Paseo de la Reforma",
+    "Ciudad de México",
+    "Graciela",
+    "Hernán",
+    "Palermo",
+    "Buenos Aires",
+    "Tomás",
+    "Santiago",
+    "Horcón",
+    "Chile",
+    "Esteban",
+    "Arquímedes",
+    "Bogotá",
+    "Beethoven",
+    "Pastoral",
+    "Colombia",
+    "Tunja",
+    "Laura",
+    "Joaquín",
+    "Lima",
+    "Arequipa",
+    "Rosa",
+    "Puno",
+    "Nueva Granada",
+    "Francisco José de Caldas",
+    "Caldas",
+    "Andes",
+    "Europa",
+    "Marta",
+    "Centro Habana",
+    "La Habana",
+    "Ernesto",
+    "Sofía",
+    "Los Ángeles",
+    "Guatemala",
+    "Carmen",
+    "Andrés",
+    "Heredia",
+    "San José",
+    "Daniela",
+    "Costa Rica",
+    "Elena",
+    "Pilar",
+    "Segovia",
+    "Julián",
+    "Marcos",
+    "Nuria",
+    "Inés",
+    "Asturias",
+    "Llanes",
+    "Covadonga",
+    "Manuel Díaz",
+    "Ramón",
+    "Cuba",
+    "México",
+    "España"
+  ],
+  "lessons": [
+    {
+      "title": "El elevador de la torre",
+      "summary": "Mariana, who works on the 32nd floor of a tower in Mexico City, learns from an engineer why the elevator gives her a small feeling of vertigo.",
+      "newWords": [
+        "elevador",
+        "vértigo",
+        "hidráulica",
+        "instantáneamente",
+        "inhabilitar",
+        "apurado",
+        "estresado",
+        "medidor"
+      ],
+      "text": "Mariana trabaja en el piso 32 de una torre de oficinas del Paseo de la Reforma, en Ciudad de México. Cada mañana sube en elevador, y cada mañana siente lo mismo: cuando el elevador arranca, el estómago se le hunde un poco; cuando frena, al llegar arriba, le parece que el cuerpo quiere seguir subiendo sin ella. No es miedo, exactamente. Es un vértigo pequeño, que dura dos o tres segundos y desaparece instantáneamente en cuanto se abren las puertas.\n\nUn lunes de lluvia llegó tarde y muy apurada. Había un tráfico terrible, tenía una reunión a las nueve y estaba estresada desde que se había levantado. En el vestíbulo vio un cartel: «Elevador 3 inhabilitado por mantenimiento». Los otros dos elevadores llegaban llenos. Mientras esperaba, apurada y estresada, se encontró con Rodrigo, un ingeniero del piso 30 con quien a veces tomaba café.\n\nPor fin entraron en un elevador. Cuando arrancó, Mariana se agarró a la pared. «¿Tú también sientes ese vértigo?», le preguntó. Rodrigo sonrió. «Todos lo sentimos», dijo. «Pero no es vértigo de verdad. Es física».\n\nLe explicó que, cuando el elevador acelera hacia arriba, el piso empuja el cuerpo con más fuerza, y uno se siente más pesado. Cuando frena, ocurre lo contrario: uno se siente más ligero durante un instante. El oído interno, que se ocupa del equilibrio, nota esos cambios y le manda al cerebro un mensaje confuso. De ahí viene esa sensación.\n\nRodrigo sacó el teléfono y abrió una aplicación. «Mi teléfono lleva dentro un pequeño medidor de aceleración», dijo. «Mira los números». Al arrancar, el medidor marcó un valor más alto; durante el viaje, el valor normal; al frenar, uno más bajo. Mariana no podía creer que el teléfono sintiera lo mismo que ella.\n\nRodrigo le contó que su especialidad era la hidráulica, la parte de la física que estudia cómo los líquidos transmiten la fuerza. «En los edificios bajos se usan a veces elevadores que funcionan con hidráulica: un cilindro lleno de aceite empuja la cabina desde abajo. La presión que se aplica en un punto llega casi instantáneamente a todo el líquido». En una torre de cuarenta pisos, en cambio, la cabina cuelga de cables de acero. Por eso los técnicos inhabilitan cada elevador una vez al mes: revisan los cables, los frenos y los sensores. «Si un elevador está inhabilitado, es buena señal», dijo Rodrigo. «Quiere decir que alguien lo está cuidando».\n\nLa reunión salió bien. Al día siguiente, Mariana salió de casa más temprano. No llegó apurada ni estresada, y en el elevador prestó atención a lo que sentía. Ahí estaba otra vez el pequeño vértigo, pero ahora sabía lo que era, y casi le pareció divertido.\n\nPreguntas:\n¿Qué siente Mariana cuando el elevador arranca y cuando frena?\nSiente un vértigo pequeño: al arrancar se le hunde el estómago y al frenar le parece que el cuerpo quiere seguir subiendo.\n¿Por qué estaba Mariana estresada aquel lunes?\nPorque había mucho tráfico, llegaba tarde y tenía una reunión a las nueve.\n¿Qué decía el cartel del vestíbulo?\nDecía que el elevador 3 estaba inhabilitado por mantenimiento.\n¿Qué mide la aplicación del teléfono de Rodrigo?\nMide la aceleración con un pequeño medidor que el teléfono lleva dentro.\n¿Por qué dice Rodrigo que un elevador inhabilitado es buena señal?\nPorque quiere decir que los técnicos lo están revisando y cuidando."
+    },
+    {
+      "title": "La física del peinado",
+      "summary": "In a Buenos Aires hair salon, a hairdresser explains to a client how water, heat and humid air change the shape of hair.",
+      "newWords": [
+        "peluquero",
+        "rizar",
+        "suavidad",
+        "delicadeza",
+        "impredecible",
+        "gurú",
+        "popularizar",
+        "sustancialmente",
+        "amarillento"
+      ],
+      "text": "Graciela tiene el pelo largo y liso, y desde hace diez años va a la misma peluquería del barrio de Palermo, en Buenos Aires. Su peluquero se llama Hernán, y es el mejor peluquero que ha conocido. Sus clientas dicen que es un gurú del pelo, y él se ríe cuando lo oye. «No soy ningún gurú», dice. «Solo sé un poco de física».\n\nEste sábado Graciela quería algo distinto: tenía una boda por la noche y deseaba llevar el pelo rizado. Hernán la sentó frente al espejo, le lavó el pelo con suavidad y empezó a secarlo con una toalla, con mucha delicadeza, sin frotar.\n\n«¿Sabes por qué se puede rizar el pelo?», le preguntó. Graciela no lo sabía. Hernán le explicó que cada pelo está hecho de una proteína larga, la queratina, cuyas cadenas están unidas por enlaces. Algunos enlaces son muy fuertes y no cambian. Otros son débiles: el agua y el calor los rompen, y cuando el pelo se enfría, vuelven a formarse. «Si envuelvo el pelo mojado alrededor de un cepillo y lo seco con calor, los enlaces débiles se forman de nuevo en la posición nueva», dijo. «Así es como se riza el pelo. Y así es también como se deja liso».\n\nMientras hablaba, Hernán envolvía el pelo, poco a poco y con delicadeza, alrededor de un cepillo redondo. Le contó que hace unos años se popularizaron las planchas muy calientes, y que muchas mujeres se quemaban el pelo. «Con demasiado calor, el pelo pierde su suavidad», explicó. «Y el pelo blanco o muy claro puede volverse amarillento. Por eso trabajo con calor moderado». Graciela se acordó de su madre, que tenía el pelo blanco algo amarillento en las puntas por usar la plancha cada día.\n\nGraciela le preguntó cuánto duraría el peinado. Hernán miró por la ventana. Estaba nublado y el aire estaba muy húmedo. «Eso es lo impredecible», dijo. «La humedad del aire también rompe esos enlaces débiles. En un día seco, un rizado puede durar hasta el día siguiente. En un día húmedo como hoy, cambia sustancialmente en pocas horas». Le aconsejó no salir sin paraguas y le puso un poco de aceite, que forma una capa fina y frena la entrada del agua.\n\nAl terminar, Graciela se miró en el espejo. El pelo caía en ondas suaves y brillantes. Hernán, como buen peluquero, la miraba satisfecho. «El resultado siempre es un poco impredecible», dijo, «pero hoy salió bien». Luego le contó que ese peinado se popularizó en los años setenta y que ahora vuelve a estar de moda.\n\nLa boda fue en un salón con aire acondicionado, y el peinado aguantó toda la noche sin cambiar sustancialmente. Al día siguiente, Graciela le mandó una foto a Hernán con un mensaje: «Gracias, gurú».\n\nPreguntas:\n¿Por qué dicen las clientas que Hernán es un gurú?\nPorque sabe mucho del pelo, aunque él dice que solo sabe un poco de física.\n¿Cómo le secó Hernán el pelo a Graciela?\nSe lo secó con una toalla, con mucha delicadeza y sin frotar.\n¿Por qué se puede rizar el pelo?\nPorque el agua y el calor rompen los enlaces débiles de la queratina, que vuelven a formarse en la posición nueva cuando el pelo se enfría.\n¿Qué le pasa al pelo con demasiado calor?\nPierde su suavidad, y el pelo blanco puede volverse amarillento.\n¿Por qué es impredecible la duración del peinado?\nPorque la humedad del aire también rompe los enlaces débiles, y en un día húmedo el pelo cambia sustancialmente en pocas horas."
+    },
+    {
+      "title": "Lo que flota en la caleta",
+      "summary": "On a summer visit to a fishing cove in central Chile, a fisherman shows his grandson why boats float higher in the sea, how an anchor holds and why salt keeps fish.",
+      "newWords": [
+        "caleta",
+        "ancla",
+        "flote",
+        "salino",
+        "pesquera",
+        "roda",
+        "rocoso",
+        "envergadura",
+        "preservativo"
+      ],
+      "text": "Tomás tiene once años y vive en Santiago, pero pasa los veranos en Horcón, una caleta de pescadores de la costa central de Chile. Allí vive su abuelo, don Esteban, que lleva cincuenta años saliendo al mar. En la caleta hay un muelle de madera, una cooperativa pesquera y muchos botes pintados de colores.\n\nUna mañana, Tomás le hizo a su abuelo una pregunta: «¿Por qué no se hunde el bote, si es tan pesado?». Don Esteban se sentó en el muelle y le habló de un sabio griego, Arquímedes. «El agua empuja hacia arriba todo lo que metes en ella», le dijo. «Si el bote aparta una cantidad de agua que pesa tanto como él, el agua lo sostiene. Así se mantiene a flote».\n\nLuego le contó algo que Tomás no sabía. El agua del mar, con toda su sal, es más densa que el agua dulce de un río, así que empuja con más fuerza. «En un río, este bote se hundiría más», dijo el abuelo. «El agua salada te mantiene a flote mejor que la del río. Por eso tú también flotas con más facilidad en la playa que en una piscina».\n\nSalieron al mar con el sol todavía bajo. La roda del bote, la pieza de madera que forma la punta de la proa, cortaba las olas sin esfuerzo. «La roda tiene esa forma para abrir el agua», explicó don Esteban, «como un cuchillo que corta el pan». El aire salino les mojaba la cara, y Tomás sentía el sabor de la sal en los labios.\n\nSobre ellos volaban los pelícanos. El abuelo le dijo que los pelícanos tienen una envergadura de más de dos metros, de la punta de un ala a la punta de la otra. Con esa envergadura, planean casi sin mover las alas.\n\nCuando llegaron al lugar de pesca, el abuelo echó el ancla. Tomás pensaba que el ancla sujetaba el bote solo por su peso, pero don Esteban le explicó que no. «El ancla tiene unos brazos que se clavan en el fondo», dijo. «Aquí el fondo es rocoso, y el ancla se agarra entre las piedras. En un fondo de arena se agarra peor». Por eso los pescadores de la caleta conocen de memoria cada zona de fondo rocoso.\n\nPor la tarde, en la cooperativa pesquera, una vecina salaba pescado para secarlo al sol y al viento salino. Le explicó a Tomás que la sal tiene un efecto preservativo: saca el agua del pescado, y sin agua las bacterias no pueden crecer. «Mucho antes de que existieran los refrigeradores, los pueblos del mar ya usaban la sal por su poder preservativo», dijo.\n\nPreguntas:\n¿Dónde pasa Tomás los veranos?\nLos pasa en Horcón, una caleta de pescadores de la costa central de Chile, donde vive su abuelo.\n¿Por qué el bote flota más alto en el mar que en el río?\nPorque el agua del mar, con su sal, es más densa y empuja con más fuerza hacia arriba.\n¿Para qué sirve la roda?\nSirve para abrir el agua y cortar las olas.\n¿Por qué se agarra bien el ancla en esa zona?\nPorque el fondo es rocoso y los brazos del ancla se clavan entre las piedras.\n¿Por qué tiene la sal un efecto preservativo?\nPorque saca el agua del pescado, y sin agua las bacterias no pueden crecer."
+    },
+    {
+      "title": "Una sinfonía en el auditorio",
+      "summary": "A physics student in Bogotá writes in her diary about a concert with her father: how the hall carries sound, why the low notes shake the floor and how the radio broadcast reached her grandmother.",
+      "newWords": [
+        "auditivo",
+        "sinfonía",
+        "radiodifusión",
+        "melancolía",
+        "hermosura",
+        "circundante",
+        "esporádico",
+        "singularidad",
+        "estremecer"
+      ],
+      "text": "Bogotá, 14 de marzo\n\nQuerido diario:\n\nEsta noche mi papá y yo fuimos al auditorio de la universidad a oír la Sexta Sinfonía de Beethoven, la Pastoral. Mi papá la ha oído mil veces en casa, pero nunca en vivo. Yo, que estudio física, iba con otra curiosidad: quería entender por qué ese auditorio tiene fama de ser uno de los mejores de Colombia para la música.\n\nLo primero que noté fue el silencio. Afuera, el ruido circundante de la ciudad era enorme: buses, motos, gente hablando. Adentro, en cuanto se cerraron las puertas, todo ese ruido circundante desapareció. Las paredes son gruesas y pesadas, y el sonido de la calle casi no puede atravesarlas.\n\nCuando la orquesta empezó, entendí la singularidad del lugar. El sonido no venía solo del escenario: llegaba de todas partes a la vez. Las paredes y el techo tienen formas curvas que reparten el sonido por la sala, de modo que el violín se oye igual de claro en la última fila que en la primera. Mi profesor de física dice que cada sala tiene su propia voz, y la singularidad de esta es que no se nota, que parece que la música está ahí, sin nada en medio.\n\nEn el segundo movimiento, que es lento, mi papá cerró los ojos. Ese movimiento tiene una melancolía suave, como de tarde de domingo en el campo. No es una melancolía triste; es más bien la de alguien que recuerda algo bonito. Durante esos minutos solo se oyeron toses esporádicas entre el público, y algún esporádico ruido de una silla.\n\nMás adelante, en la tormenta, los contrabajos tocaron notas muy graves y sentí que el piso temblaba y me hacía estremecer. Las notas graves tienen ondas largas, que no solo se oyen: hacen vibrar la madera, las sillas y el cuerpo entero. Me estremecí de verdad, y mi papá también. Le dije que eso era física, y él me contestó que eso era Beethoven.\n\nUna cosa más. El concierto se transmitía por la emisora de la universidad, y mi abuela lo oyó en su casa, en Tunja. Gracias a la radiodifusión, la misma música que nosotros oíamos en la sala viajaba como ondas de radio hasta su cocina. Pensé en lo extraña que es la radiodifusión: un micrófono convierte el sonido en electricidad, una antena lo convierte en ondas, y una radio vieja lo vuelve a convertir en música.\n\nAl salir, mi papá dijo que el oído no es solo un sistema auditivo, sino también una forma de memoria. Tiene razón: la memoria auditiva guarda cosas que los ojos olvidan. Creo que la hermosura de esta noche no se me va a olvidar: la hermosura del movimiento lento, los graves de la tormenta, la cara de mi papá.\n\nLaura\n\nPreguntas:\n¿Qué obra oyeron Laura y su papá?\nOyeron la Sexta Sinfonía de Beethoven, la Pastoral.\n¿Por qué desapareció el ruido circundante de la ciudad?\nPorque las paredes del auditorio son gruesas y pesadas, y el sonido de la calle casi no puede atravesarlas.\n¿Cuál es la singularidad del auditorio, según Laura?\nQue el sonido llega de todas partes y se oye igual de claro en todas las filas, sin que se note la sala.\n¿Por qué se estremeció Laura en la tormenta?\nPorque las notas graves de los contrabajos hacían vibrar el piso, las sillas y el cuerpo entero.\n¿Cómo oyó la abuela el concierto?\nLo oyó por la radio en su casa de Tunja, gracias a la radiodifusión de la emisora de la universidad."
+    },
+    {
+      "title": "Los duraznos de Arequipa",
+      "summary": "A physics teacher from Lima helps his grandmother make peach preserves in Arequipa and works out why water boils there at a lower temperature, remembering a naturalist of colonial times.",
+      "newWords": [
+        "durazno",
+        "bocado",
+        "deseoso",
+        "inflar",
+        "drásticamente",
+        "virreinato",
+        "naturalista",
+        "visionario",
+        "calculadora"
+      ],
+      "text": "Joaquín es profesor de física en un colegio de Lima. En febrero viajó a Arequipa para pasar unos días con su abuela Rosa, que vive en una casa antigua de piedra blanca, construida en tiempos del virreinato, cerca de la plaza principal. Hizo el viaje en bus, de noche, subiendo desde la costa hasta los 2300 metros de la ciudad.\n\nAl despertarse, ya cerca de Arequipa, Joaquín vio que la bolsa de papitas que llevaba en la mochila estaba inflada como un globo. No la había abierto. Sonrió, porque sabía por qué: la bolsa se había cerrado en Lima, junto al mar, con el aire de allí dentro. Al subir, la presión del aire de fuera bajaba, y el aire de dentro empujaba las paredes de la bolsa hasta inflarla.\n\nLa abuela Rosa lo esperaba con una caja enorme de duraznos de su huerto. Quería hacer una conserva de durazno, como cada año, y estaba deseosa de que su nieto la ayudara. Pelaron los duraznos, los cortaron y los pusieron en una olla grande con agua y azúcar.\n\nMientras el agua se calentaba, la abuela se quejó: «Aquí todo tarda más en cocinarse. Cuando vivía en Lima, los frijoles estaban listos en una hora». Joaquín le explicó que en Arequipa el agua no hierve a 100 grados, sino a unos 92. Con menos aire encima, el agua necesita menos calor para hervir; pero, como hierve más fría, la comida tarda más. Ocho grados parecen poca cosa, pero cambian drásticamente el tiempo de cocina. Sacó la calculadora del teléfono e hizo unas cuentas. «En Puno, a casi 4000 metros, la presión baja drásticamente y el agua hierve a unos 87 grados», dijo. «Allá los frijoles tardan muchísimo».\n\nLuego le contó una historia que suele contar a sus alumnos. A comienzos del siglo XIX, en el virreinato de la Nueva Granada, vivía un naturalista llamado Francisco José de Caldas. Un día se le rompió el termómetro durante un viaje por los Andes. Al repararlo, tuvo que hervir agua muchas veces, y notó que hervía a temperaturas distintas según la altura del lugar. De ahí sacó un método para medir la altura de las montañas sin más que un termómetro y una olla. «Fue un visionario», dijo Joaquín. «No tenía calculadora, pero hizo cuentas que muchos sabios de Europa todavía no habían hecho». La abuela comentó que un naturalista tan visionario merecía una calle en cada ciudad.\n\nAl cabo de dos horas, la conserva estaba lista. La abuela le dio a probar el primer bocado con una cuchara de madera. Era dulce y espesa, con un sabor profundo a durazno. Joaquín tomó otro bocado y dijo que el tiempo de espera había valido la pena. La abuela, que estaba deseosa de oír eso, sonrió satisfecha.\n\nPreguntas:\n¿Por qué estaba inflada la bolsa de papitas?\nPorque se había cerrado en Lima, junto al mar, y al subir la presión de fuera bajaba y el aire de dentro la inflaba.\n¿Qué quería hacer la abuela Rosa con los duraznos?\nQuería hacer una conserva de durazno, como cada año.\n¿Por qué tarda más la comida en cocinarse en Arequipa?\nPorque allí el agua hierve a unos 92 grados, una temperatura más baja que a nivel del mar.\n¿Qué descubrió el naturalista Francisco José de Caldas?\nDescubrió que el agua hierve a temperaturas distintas según la altura, y sacó un método para medir las montañas.\n¿Por qué dice Joaquín que Caldas fue un visionario?\nPorque, sin calculadora, hizo cuentas que muchos sabios de Europa todavía no habían hecho."
+    },
+    {
+      "title": "El calor de la losa",
+      "summary": "A retired man in Havana describes how he and his wife fight the summer heat in their top-floor flat using what they know about how heat moves.",
+      "newWords": [
+        "losa",
+        "subsuelo",
+        "colgante",
+        "manija",
+        "reorganizar",
+        "endeudar",
+        "temible",
+        "deplorable",
+        "devastado"
+      ],
+      "text": "Me llamo Ernesto y vivo con mi esposa, Marta, en el último piso de un edificio antiguo de Centro Habana. Las escaleras están en un estado deplorable, el elevador no funciona desde hace años y a veces falta el agua, pero desde nuestro balcón se ve el mar, y no cambiaríamos este apartamento por ningún otro. Lo único que de verdad nos preocupa es el calor de agosto, que en La Habana es temible.\n\nNuestro techo es una losa de hormigón. Hace muchos años, un huracán dejó devastado el techo antiguo, que ya estaba en un estado deplorable. Con el barrio todavía devastado, los vecinos construyeron entre todos esta losa nueva. Es fuerte, pero tiene un problema: durante el día absorbe el sol como una esponja, y por la noche suelta todo ese calor hacia dentro. A las diez de la noche, cuando en la calle ya sopla la brisa, la losa todavía está caliente, y nosotros, debajo, no podemos dormir.\n\nFui profesor de física durante treinta años, así que decidí usar lo que sabía. Primero, Marta y yo pintamos la losa de blanco. Una superficie blanca refleja casi toda la luz del sol, en lugar de convertirla en calor. Solo con eso, la temperatura de la casa bajó un par de grados.\n\nDespués decidimos reorganizar los muebles. El aire caliente sube y el fresco entra por abajo, pero lo más importante es que el aire pueda cruzar la casa de una ventana a otra. Antes, el armario tapaba la ventana del dormitorio. Al reorganizar el cuarto, el aire empezó a correr del balcón hasta la cocina. También colgamos un ventilador del techo, colgante sobre la cama, que mueve el aire caliente que se queda arriba. Al lado, una lámpara colgante de papel se mueve suavemente con la corriente.\n\nMuchos vecinos han comprado aire acondicionado, y algunos tuvieron que endeudarse para pagarlo. Nosotros no quisimos endeudarnos.\n\nHay otra cosa que les explico a mis nietos cuando nos visitan. «Toquen la manija de metal de la puerta y luego la madera de la misma puerta», les digo. Las dos están a la misma temperatura, pero la manija parece más fría. Es porque el metal conduce el calor mucho mejor que la madera, y saca el calor de la mano más rápido. Al mediodía, cuando el sol da en la puerta, pasa lo contrario: la manija quema y la madera no.\n\nDebajo del edificio, en el subsuelo, hay un tanque de agua. En el subsuelo la temperatura casi no cambia en todo el año, y por eso el agua sube siempre fresca. En las noches más temibles, Marta moja una toalla con esa agua del subsuelo y me la pone en la frente. Es nuestro aire acondicionado.\n\nPreguntas:\n¿Por qué no pueden dormir Ernesto y Marta en las noches de agosto?\nPorque la losa de hormigón absorbe el sol durante el día y suelta el calor hacia dentro por la noche.\n¿Por qué pintaron la losa de blanco?\nPorque una superficie blanca refleja casi toda la luz del sol en lugar de convertirla en calor.\n¿Para qué reorganizaron los muebles?\nPara que el aire pudiera cruzar la casa de una ventana a otra.\n¿Por qué parece más fría la manija de metal que la madera?\nPorque el metal conduce el calor mucho mejor y saca el calor de la mano más rápido.\n¿Por qué sube siempre fresca el agua del tanque?\nPorque el tanque está en el subsuelo, donde la temperatura casi no cambia en todo el año."
+    },
+    {
+      "title": "Dos lentes y un póster",
+      "summary": "A high school student in Los Angeles prepares a science fair project on how a microscope magnifies, with help from her aunt, a hospital lab worker, and answers a judge's questions.",
+      "newWords": [
+        "revólver",
+        "póster",
+        "infografía",
+        "pincel",
+        "contestación",
+        "consecución",
+        "genéticamente",
+        "discutible",
+        "estonio",
+        "leucemia"
+      ],
+      "text": "Sofía tiene dieciséis años y vive en Los Ángeles con sus padres, que llegaron de Guatemala antes de que ella naciera. Este año decidió presentar un proyecto en la feria de ciencias de su escuela con una pregunta sencilla: ¿cómo consigue un microscopio que veamos lo que el ojo no ve?\n\nPara empezar, fue a visitar a su tía Carmen, que trabaja en el laboratorio de un hospital. Carmen usa el microscopio todos los días para mirar muestras de sangre. Le contó que así se descubren muchas enfermedades, entre ellas la leucemia: en la leucemia, la sangre tiene demasiados glóbulos blancos, y a menudo tienen una forma extraña. «Un buen microscopio y unos ojos entrenados ayudan a encontrar la leucemia a tiempo», le dijo.\n\nCarmen le enseñó las partes del aparato. Abajo hay una luz; arriba, la lente por la que se mira. En medio, una pieza redonda que gira y sostiene tres lentes de distinto aumento. «Esta pieza se llama revólver», le explicó. «Giras el revólver y cambias de lente sin mover la muestra». También le enseñó a limpiar las lentes con un pincel muy suave, porque un poco de polvo basta para estropear la imagen. Sofía se llevó un pincel igual para su proyecto.\n\nEn casa, Sofía preparó su póster. En el centro dibujó una infografía con el camino de la luz: sale de la lámpara, atraviesa la muestra, pasa por la primera lente, que forma una imagen más grande, y luego por la segunda, que la vuelve a aumentar. En la infografía puso un ejemplo: si una lente aumenta 40 veces y la otra 10, el aumento total es de 400. Para la parte práctica se fijó un objetivo: la consecución de una imagen clara de células de cebolla. Escribió en el póster que todas las células de una cebolla son genéticamente iguales, aunque no todas tengan la misma forma: dos células genéticamente idénticas pueden crecer de manera distinta.\n\nEl día de la feria, uno de los jueces era un físico estonio que trabaja en una universidad cercana. El juez estonio leyó el póster con calma y señaló una frase: «Cuanto más aumento, más se ve». «Eso es discutible», dijo con amabilidad. «¿Qué pasa si aumentas una imagen borrosa?».\n\nSofía pensó un momento. Su contestación fue clara: «Se ve más grande, pero no más clara. Además del aumento, hace falta que la lente separe bien los detalles». El juez sonrió; era justo la contestación que esperaba. Le explicó que a partir de cierto punto el aumento ya no muestra nada nuevo, y que por eso lo que ella había escrito era discutible.\n\nSofía ganó el segundo premio. Para ella, la consecución del premio no fue lo más importante. Lo mejor fue la conversación con el juez, y una idea que no tenía antes: ver no es solo hacer las cosas más grandes.\n\nPreguntas:\n¿Por qué es útil el microscopio en el laboratorio de Carmen?\nPorque con él se miran muestras de sangre y se descubren enfermedades como la leucemia.\n¿Para qué sirve el revólver del microscopio?\nSirve para cambiar de lente sin mover la muestra.\n¿Qué dibujó Sofía en el centro del póster?\nDibujó una infografía con el camino de la luz a través de las dos lentes.\n¿Qué frase del póster le pareció discutible al juez estonio?\nLa frase que decía que cuanto más aumento, más se ve.\n¿Cuál fue la contestación de Sofía?\nDijo que la imagen se ve más grande, pero no más clara, y que la lente también tiene que separar bien los detalles."
+    },
+    {
+      "title": "La pelota que se curva",
+      "summary": "A physics teacher in Costa Rica who coaches a girls' football team uses spin, ball pressure and soft touches to prepare a tight final.",
+      "newWords": [
+        "arbitrar",
+        "estratega",
+        "domar",
+        "paridad",
+        "ratio",
+        "coquetear",
+        "compulsivo",
+        "grotesco",
+        "resignar"
+      ],
+      "text": "Andrés es profesor de física en un colegio de Heredia, cerca de San José, en Costa Rica, y los sábados entrena al equipo de fútbol femenino del colegio. Sus jugadoras dicen que es un gran estratega, aunque él prefiere decir que solo es un profesor que aplica lo que enseña. Tiene, eso sí, una costumbre casi compulsiva: lo anota todo en una libreta. Cuántos tiros hace cada jugadora, cuántos van al arco, cuántos terminan en gol.\n\nAntes de la final del torneo, Andrés reunió al equipo. Abrió la libreta y les mostró un número. «Nuestra ratio de goles por tiro es muy baja», les dijo. «Tiramos mucho y marcamos poco. Muchas veces nos quedamos a punto: coqueteamos con el gol, pero no llegamos». Daniela, la capitana, se rió. «Coquetear con el gol no da puntos, profe».\n\nComo buen profesor, ese día les habló del efecto. Cuando una pelota gira mientras vuela, arrastra un poco de aire a su alrededor. De un lado el aire va más rápido y del otro más lento, y esa diferencia de presión empuja la pelota hacia un costado. Por eso un tiro con efecto se curva. «Si golpean la pelota por un lado, la hacen girar, y el aire hace el resto», explicó. Practicaron tiros libres durante una hora.\n\nDespués practicaron cómo domar la pelota. Andrés les explicó que, cuando la pelota llega con fuerza, hay que recibirla moviendo el pie o el pecho hacia atrás. Así la pelota tarda más en frenar, la fuerza es menor y el balón queda pegado al cuerpo. «Domar la pelota no es pararla de golpe, es acompañarla», dijo.\n\nEl día de la final, el señor que iba a arbitrar el partido revisó la presión del balón antes de empezar. Andrés aprobó en silencio: una pelota con poco aire bota menos y vuela de forma rara. El árbitro arbitró con calma y con justicia durante todo el partido.\n\nFue un partido de gran paridad. Los dos equipos tenían buenas jugadoras y ninguno dominaba. Al descanso, iban 0 a 0. En el segundo tiempo, una defensa del colegio cometió un error grotesco: la pelota le pasó entre las piernas y las rivales marcaron. Pero un error así de grotesco le puede pasar a cualquiera. Daniela reunió a sus compañeras. «No vamos a resignarnos», les dijo. «Queda media hora».\n\nY no se resignaron. A cinco minutos del final, hubo una falta cerca del área. Daniela golpeó la pelota por un lado, la pelota giró en el aire, dibujó una curva por encima de las defensas y entró en el arco. Uno a uno. En los penales ganó el colegio de Andrés.\n\nEsa noche, el estratega del equipo abrió la libreta y escribió: «Final: la paridad se rompió con física».\n\nPreguntas:\n¿Qué costumbre compulsiva tiene Andrés?\nLo anota todo en una libreta: los tiros, los tiros al arco y los goles de cada jugadora.\n¿Qué problema mostraba la ratio de goles por tiro?\nMostraba que el equipo tiraba mucho y marcaba poco.\n¿Por qué se curva un tiro con efecto?\nPorque la pelota gira, arrastra aire, y la diferencia de presión a los lados la empuja hacia un costado.\n¿Cómo hay que domar una pelota que llega con fuerza?\nHay que recibirla moviendo el pie o el pecho hacia atrás, para que la pelota tarde más en frenar y la fuerza sea menor.\n¿Qué hizo Daniela cuando su equipo perdía?\nLes dijo a sus compañeras que no iban a resignarse, y luego marcó el gol del empate con un tiro con efecto."
+    },
+    {
+      "title": "Aire en los radiadores",
+      "summary": "In an e-mail to her sister, a woman in Madrid explains why her radiators were cold at the top, how bleeding them fixed the whole building's heating and how the heating bill is shared among neighbours.",
+      "newWords": [
+        "purga",
+        "redistribución",
+        "imputación",
+        "saldar",
+        "buzón",
+        "arrendar",
+        "sistémico",
+        "catalizador",
+        "cuatrocientos"
+      ],
+      "text": "Asunto: Por fin hace calor en casa\n\nQuerida Elena:\n\nTe escribo desde el sofá, en camiseta y, por primera vez en todo enero, sin frío.\n\nYa sabes que el piso me lo arrienda doña Pilar, una señora mayor que vive en Segovia. Me lo arrienda desde hace tres años. El edificio tiene calefacción central: una caldera en el sótano calienta agua y una bomba la manda por tubos a los radiadores de todos los pisos. Este invierno, mis radiadores estaban calientes abajo y fríos arriba. Y yo vivo en el último piso.\n\nSe lo comenté a Julián, el vecino de enfrente, que instala calefacciones. Vino con una pequeña llave y me dijo: «Lo que tienes es aire. El aire pesa menos que el agua, así que sube a la parte más alta del radiador y no deja pasar el agua caliente. Hay que hacer una purga». Abrió una válvula diminuta en la parte de arriba. Primero salió aire; luego, unas gotas de agua. La purga duró un minuto por radiador. En media hora, toda la casa estaba caliente.\n\nPero lo mejor vino después. Julián me explicó que el problema no era solo mío, sino sistémico: como el aire siempre sube, se junta en los pisos más altos de todo el circuito. Mientras haya aire arriba, el agua caliente se queda abajo, y los vecinos del primero se asan mientras los del quinto se congelan. Un problema sistémico necesita una solución para todo el sistema, así que en la reunión de vecinos propusimos una purga general del edificio. Se hizo el sábado, y ahora hay una redistribución del calor mucho más justa. Esa redistribución se nota hasta en la escalera.\n\nAquel frío de enero fue el catalizador que nos faltaba: por primera vez en años, nos reunimos todos. Julián dice que en química un catalizador acelera una reacción sin gastarse; el frío hizo de catalizador con nosotros. Y ya que estábamos, hablamos del dinero. Cada radiador tiene un pequeño contador que mide cuánto calor da. Con esos datos se hace la imputación de los gastos: cada piso paga según lo que consume. Varios vecinos no entendían la imputación de sus recibos, y el administrador la explicó con paciencia.\n\nYo tenía una deuda: cuatrocientos euros de la calefacción del año pasado que no había pagado porque el recibo se perdió. Ayer encontré en el buzón el recibo nuevo, con la deuda incluida. Fui al banco y la saldé esa misma tarde. Cuatrocientos euros duelen, pero me quedé tranquila al saldar la cuenta.\n\nVen a verme en febrero. Os invito a ti y a Marcos a cenar, y te prometo que no pasaréis frío.\n\nUn abrazo,\nNuria\n\nPreguntas:\n¿Por qué estaban fríos los radiadores de Nuria en la parte de arriba?\nPorque tenían aire, que pesa menos que el agua, sube a la parte más alta y no deja pasar el agua caliente.\n¿Cómo se hace una purga?\nSe abre una pequeña válvula en la parte de arriba del radiador hasta que sale todo el aire y empiezan a salir gotas de agua.\n¿Por qué dice Julián que el problema era sistémico?\nPorque el aire se junta en los pisos más altos de todo el circuito, no solo en un radiador.\n¿Cómo se hace la imputación de los gastos de calefacción?\nCada radiador tiene un contador que mide el calor, y cada piso paga según lo que consume.\n¿Qué encontró Nuria en el buzón?\nEncontró el recibo nuevo, con la deuda de cuatrocientos euros incluida, y la saldó esa misma tarde."
+    },
+    {
+      "title": "El reloj de sol de la plaza",
+      "summary": "In a village in Asturias, a woman back for the summer learns from the local shopkeeper the story of the church's sundial, paid for by an emigrant in Cuba, and why it runs two hours behind official time.",
+      "newWords": [
+        "meridiano",
+        "lápida",
+        "remesa",
+        "recoleto",
+        "reconquista",
+        "pretendiente",
+        "desamparar",
+        "minorista",
+        "perico"
+      ],
+      "text": "Cada verano, Inés vuelve al pueblo de su madre, en el oriente de Asturias, cerca de Llanes. Según la tradición, fue aquí, en las montañas de Covadonga, donde empezó la Reconquista. En el colegio le enseñaron que la Reconquista duró casi ocho siglos. En el pueblo hay una plaza pequeña y recoleta, con una fuente y la iglesia, y en el muro de la iglesia hay un reloj de sol.\n\nEste año, Inés se fijó por primera vez en una lápida de piedra que hay debajo del reloj. La inscripción dice: «Este reloj se hizo en 1898 gracias a la remesa de don Manuel Díaz, hijo de este pueblo, vecino de La Habana». Inés fue a preguntar a Ramón, que tiene la tienda de la plaza, un pequeño comercio minorista donde se vende de todo, desde pan hasta clavos. En la puerta, al sol, Ramón tiene un perico verde en una jaula.\n\nRamón le contó la historia mientras el perico comía. A finales del siglo XIX, muchos jóvenes de Asturias emigraron a Cuba y a México. Los que hicieron fortuna enviaban remesas de dinero a sus pueblos, y con esas remesas se construyeron escuelas, fuentes y caminos. Manuel Díaz se fue a Cuba con diecisiete años. Dicen que antes de irse había sido pretendiente de una muchacha del pueblo, pero que ella se casó con otro pretendiente, y él nunca volvió. Desde La Habana mandó dinero para la escuela y para el reloj.\n\nRamón dice que un minorista de pueblo tiene que saber de todo, también de relojes, y le explicó cómo funciona este. La barra de hierro está inclinada de forma paralela al eje de la Tierra. Al girar la Tierra, el sol parece moverse por el cielo, y la sombra de la barra recorre las horas. Cuando el sol está en lo más alto, la sombra cae justo sobre una línea vertical: es la línea del meridiano, que va de norte a sur. «En ese momento es mediodía de verdad», dijo Ramón.\n\nInés miró su teléfono. Eran las dos y veinte de la tarde, y la sombra acababa de llegar al meridiano. Ramón le explicó por qué: España usa la misma hora que buena parte de Europa central, aunque Asturias está muy al oeste, y en verano se adelanta otra hora más. Por eso el sol de Asturias llega a su meridiano más de dos horas después de las doce del reloj oficial.\n\nDurante muchos años, el reloj estuvo desamparado. Nadie lo cuidaba, la pintura se borró y la lápida quedó sucia. Hace diez años, por fin, los vecinos lo restauraron entre todos.\n\nAl despedirse, Inés miró la sombra, que ya había pasado el meridiano. El perico gritó una vez, y la plaza recoleta volvió a quedarse en silencio.\n\nPreguntas:\n¿Qué dice la lápida que hay debajo del reloj de sol?\nDice que el reloj se hizo en 1898 gracias a la remesa de don Manuel Díaz, hijo del pueblo y vecino de La Habana.\n¿Qué hacían con las remesas los emigrantes asturianos?\nLas enviaban a sus pueblos, y con ellas se construyeron escuelas, fuentes y caminos.\n¿Qué indica la sombra cuando cae sobre la línea del meridiano?\nIndica que el sol está en lo más alto y que es mediodía de verdad.\n¿Por qué llega el sol al meridiano después de las dos de la tarde?\nPorque España usa la hora de Europa central, aunque Asturias está muy al oeste, y en verano se adelanta otra hora más.\n¿Qué le pasó al reloj durante muchos años?\nEstuvo desamparado: nadie lo cuidaba, hasta que los vecinos lo restauraron entre todos."
+    }
+  ]
+}

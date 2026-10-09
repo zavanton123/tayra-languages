@@ -1,0 +1,229 @@
+{
+  "id": "es-mini-9200",
+  "rankUpTo": 9200,
+  "level": "C2",
+  "title": "Mapas y orientación",
+  "description": "Ten stories about maps and finding the way, from the Sierra de Gredos, Mexico City, Cartagena, Buenos Aires, Santiago de Chile, the Way of St James, the jungle of Petén, Montevideo, a drowned village in Aragon and a map exhibition in Lima.",
+  "topic": "Maps and finding the way",
+  "names": [
+    "Gredos",
+    "Ávila",
+    "Pablo",
+    "Ciudad de México",
+    "Coyoacán",
+    "Tlalpan",
+    "Azcapotzalco",
+    "Ángel de la Independencia",
+    "Palacio de Bellas Artes",
+    "Mariana",
+    "Medellín",
+    "Cartagena",
+    "Joaquín",
+    "Efraín",
+    "América",
+    "Caribe",
+    "Jaume",
+    "Mallorca",
+    "Buenos Aires",
+    "Flores",
+    "Kim",
+    "Seúl",
+    "Argentina",
+    "Corea",
+    "Catalina",
+    "Santiago",
+    "Rosa",
+    "Chopin",
+    "Radiología",
+    "Sarria",
+    "Guadalajara",
+    "Camino de Santiago",
+    "Portomarín",
+    "Europa",
+    "Palas de Rei",
+    "Arzúa",
+    "Edad Media",
+    "Obradoiro",
+    "Sofía",
+    "Petén",
+    "Marvin",
+    "Bruno",
+    "Gonzalo",
+    "Valentina",
+    "Montevideo",
+    "Parque Rodó",
+    "Pilar",
+    "San Martín del Río",
+    "Pirineo",
+    "Teresa",
+    "Diego",
+    "Biblioteca Nacional del Perú",
+    "Ximena",
+    "Lima",
+    "Perú",
+    "Andes"
+  ],
+  "lessons": [
+    {
+      "title": "El pliego de Gredos",
+      "summary": "A father teaches his twelve-year-old son to read a paper topographic map on a day's walk in the Sierra de Gredos, through rye fields and holm-oak woods up to a rocky ridge.",
+      "newWords": [
+        "pliego",
+        "pizca",
+        "caserío",
+        "encina",
+        "arista",
+        "centeno",
+        "desanimar",
+        "perseverancia",
+        "bizcocho",
+        "afilado"
+      ],
+      "text": "Mi padre me enseñó a leer mapas en la sierra de Gredos, y este verano quise enseñarle a mi hijo Pablo, que tiene doce años, del mismo modo: sin teléfono, con un mapa de papel y una pizca de paciencia. En Ávila compré el pliego que corresponde a la zona, un pliego grande, doblado en ocho, con las curvas de nivel dibujadas en marrón y los caminos en negro. La noche anterior lo extendimos sobre la mesa de la cocina. Pablo lo miraba como quien mira un idioma desconocido.\n\nLe expliqué lo básico. Cuando las curvas están muy juntas, la pendiente es fuerte; cuando se separan, el terreno se suaviza. Las manchas verdes con pequeños círculos son bosques de encinas. Los puntos negros agrupados son un caserío, unas pocas casas de piedra donde a veces solo vive una familia. Y la línea fina que une las cumbres es la arista, el filo de la montaña, donde dos laderas se encuentran.\n\nSalimos temprano de un caserío al pie de la sierra. Al principio el camino cruzaba campos de centeno. El centeno ya estaba alto y dorado, y Pablo preguntó por qué no sembraban trigo. Le conté que en estas tierras altas y pobres el centeno aguanta mejor el frío; por eso mi abuelo hacía pan de centeno, oscuro y pesado. Después entramos en un bosque de encinas. Las encinas daban una sombra espesa, y le pedí a Pablo que buscara en el pliego dónde estábamos. Tardó un buen rato, pero encontró la mancha verde, el arroyo que acabábamos de cruzar y el caserío que habíamos dejado atrás. Ese fue su primer acierto.\n\nHacia mediodía el sendero empezó a subir en serio. Las curvas del pliego se apretaban, y Pablo empezó a desanimarse. «No vamos a llegar nunca», dijo, sentado en una piedra. Yo también me desanimaba a su edad, y recuerdo lo que me decía mi padre: que la montaña no premia la fuerza, sino la perseverancia. Saqué de la mochila dos trozos del bizcocho que había hecho su abuela, un bizcocho de limón algo seco, y comimos en silencio mirando el valle.\n\nPor fin llegamos a la arista. Desde abajo parecía afilada como un cuchillo, y de cerca lo era: una cresta de granito afilado, con rocas que cortaban el viento. Pablo sacó el pliego, lo orientó con ayuda del sol y señaló, uno por uno, el caserío, el bosque de encinas y los campos de centeno. Todo estaba allí, en el papel y delante de nosotros a la vez.\n\nAl bajar no se desanimó ni una sola vez. Me dijo que el mapa era como un rompecabezas y que lo había resuelto con perseverancia. Yo pensé que había algo más: una pizca de cansancio, otra de bizcocho y mucha curiosidad. Esa noche guardó el pliego en su cuarto, doblado con cuidado, como un tesoro.\n\nPreguntas:\n¿Qué compró el narrador en Ávila?\nCompró el pliego del mapa que corresponde a la zona.\n¿Qué significan en el mapa los puntos negros agrupados?\nSignifican un caserío, unas pocas casas de piedra donde a veces solo vive una familia.\n¿Por qué se siembra centeno en esas tierras?\nPorque en las tierras altas y pobres el centeno aguanta mejor el frío.\n¿Qué hizo el narrador cuando Pablo empezó a desanimarse?\nLe recordó que la montaña premia la perseverancia y sacó dos trozos de bizcocho.\n¿Cómo era la arista de cerca?\nEra una cresta de granito afilado, con rocas que cortaban el viento."
+    },
+    {
+      "title": "Perderse en la urbe",
+      "summary": "A Mexico City columnist confesses that she gets lost in her own city, and tells how, with a dead phone, a homeless man gave her better directions than any map.",
+      "newWords": [
+        "urbe",
+        "columnista",
+        "escepticismo",
+        "píxel",
+        "paranoia",
+        "predominantemente",
+        "antro",
+        "indigente",
+        "descentralizado",
+        "icónico"
+      ],
+      "text": "Llevo quince años escribiendo esta columna y nunca había confesado algo que mis lectores deberían saber: me pierdo. Me pierdo en la Ciudad de México, la urbe donde nací, donde he vivido toda mi vida y sobre la que, como columnista, opino cada semana. Una columnista que no sabe llegar a Coyoacán sin ayuda tiene, lo admito, cierta falta de autoridad.\n\nDurante años desconfié de las aplicaciones de mapas. Las miraba con un escepticismo de vieja escuela: ¿cómo iba a saber una pantalla lo que no sabía yo? Pero el escepticismo cede ante el tráfico, y un día acabé siguiendo el puntito azul como todo el mundo. Ese puntito es apenas un píxel, o unos pocos píxeles, y sin embargo le confiamos el camino entero. Cuando el píxel se queda quieto en medio de un puente, el corazón se detiene con él.\n\nEsa confianza tiene su lado oscuro. Conozco a personas que viven con una pequeña paranoia: creen que el teléfono las escucha y que el mapa sabe demasiado de ellas. No comparto esa paranoia, pero entiendo de dónde viene. Un mapa que nos sigue a todas partes es también un mapa de nosotros.\n\nLa semana pasada, en cambio, me perdí sin teléfono, porque se me acabó la batería. Era de noche, en una colonia que no conocía, predominantemente residencial, con casas bajas y pocos negocios abiertos. Entré en el único lugar con luz: un antro con música a todo volumen, lleno de jóvenes que bailaban. El portero del antro, muy amable, no tenía idea de dónde quedaba la avenida que yo buscaba.\n\nQuien sí lo sabía era un señor indigente que descansaba junto a una parada de autobús. Le pregunté con cierta vergüenza y me lo explicó con una precisión asombrosa: dos cuadras a la derecha, luego la panadería, luego el mercado. Me contó que llevaba diez años en la calle y que había recorrido la ciudad a pie, barrio por barrio. Pensé que pocas personas conocen tan bien el mapa real de la urbe como un hombre indigente, que no tiene más remedio que caminarla.\n\nMientras iba hacia la avenida, recordé que nuestra ciudad no tiene un solo centro. Es una urbe descentralizada, hecha de muchos pueblos que el crecimiento fue uniendo: Tlalpan, Coyoacán, Azcapotzalco. Cada barrio tiene su plaza, su iglesia y su mercado. Por eso los lugares icónicos de la capital, como el Ángel de la Independencia o el Palacio de Bellas Artes, sirven de poco para orientarse: son icónicos, pero quedan lejos de casi todo. En una ciudad descentralizada uno se orienta por la panadería, por el mercado, por la esquina donde venden tamales.\n\nLlegué a casa a medianoche, cansada y contenta. Desde entonces miro el puntito azul con un poco más de escepticismo, y a mis vecinos con un poco más de atención. Ellos, y no los píxeles, son el mejor mapa.\n\nPreguntas:\n¿Qué confiesa la columnista a sus lectores?\nConfiesa que se pierde en la Ciudad de México, la urbe donde nació.\n¿Qué es el puntito azul del mapa?\nEs apenas un píxel, o unos pocos píxeles, al que confiamos el camino entero.\n¿Por qué entró la columnista en un antro?\nPorque era el único lugar con luz en una colonia predominantemente residencial.\n¿Quién le explicó el camino y cómo lo conocía?\nSe lo explicó un señor indigente que había recorrido la ciudad a pie, barrio por barrio.\n¿Por qué sirven de poco los lugares icónicos para orientarse?\nPorque la ciudad está descentralizada y esos lugares quedan lejos de casi todo."
+    },
+    {
+      "title": "El mapa de las murallas",
+      "summary": "A history teacher from Medellín and her teenage son look at a famous eighteenth-century map of Cartagena with an old museum guide, then walk the walls with a copy.",
+      "newWords": [
+        "renombrado",
+        "costero",
+        "cargamento",
+        "sitiar",
+        "vengador",
+        "destacamento",
+        "relator",
+        "atestiguar",
+        "uniformado"
+      ],
+      "text": "Mariana, profesora de historia en Medellín, llevaba años queriendo ver con sus propios ojos el mapa más renombrado del pequeño museo de las murallas de Cartagena: un plano del siglo XVIII que muestra la ciudad, la bahía y los fuertes que la protegían. En julio viajó por fin con su hijo Joaquín, de catorce años, que aceptó acompañarla a cambio de pasar el día siguiente en la playa.\n\nEl guía del museo, un hombre mayor llamado Efraín, era casi tan renombrado como el mapa. Empezó por lo evidente: en los pueblos costeros el peligro llega por el mar, y Cartagena, como todas las ciudades costeras del Caribe, vivía mirando al horizonte. Señaló con el dedo la entrada de la bahía, las islas y los fuertes. «Quien dominaba esta boca dominaba la ciudad», dijo.\n\nLes contó que por este puerto salía buena parte del oro y la plata de América. Cada cargamento esperaba en los almacenes la llegada de la flota, y la noticia de un gran cargamento atraía a piratas y enemigos de todo el Caribe. Por eso la ciudad fue sitiada varias veces. En 1741, una enorme flota inglesa la sitió durante semanas. Los ingleses venían con ánimo vengador, decididos a cobrarse derrotas anteriores, y estaban tan seguros de la victoria que hicieron acuñar medallas antes de tiempo. Pero aquel espíritu vengador no bastó, y el sitio fracasó.\n\nEfraín señaló un pequeño cuadrado junto a uno de los fuertes. «Aquí había un destacamento», explicó. Un destacamento era un grupo de soldados enviado a vigilar un punto concreto. En el mapa, cada destacamento aparece con un signo distinto, y el cartógrafo anotó al margen cuántos hombres había en cada uno. Joaquín, que hasta entonces miraba el teléfono, se acercó al cristal.\n\n«¿Y cómo sabemos que todo esto pasó así?», preguntó.\n\nEfraín sonrió; era la pregunta que esperaba. Explicó que varios relatores de la época dejaron escritos sobre el sitio. Un relator era alguien encargado de contar los hechos por escrito, algo parecido a un cronista. Esos relatores atestiguan la llegada de la flota, las lluvias y las enfermedades que debilitaron a los ingleses. Pero los papeles no son lo único que atestigua el pasado. «También lo atestiguan las piedras», dijo Efraín. Las murallas siguen en pie, y en algunos muros todavía se ven las marcas de los cañones.\n\nAl salir del museo pasaron junto a la puerta principal, donde un policía uniformado dirigía el tráfico de turistas. Joaquín comentó que, con su gorra y su paso firme, aquel hombre uniformado parecía el último soldado del destacamento. Mariana se rió. Por la tarde caminaron por encima de la muralla con una copia del mapa en la mano y fueron reconociendo, uno por uno, los fuertes que habían visto en el papel.\n\nAl día siguiente fueron a la playa, como habían acordado. Pero Joaquín llevaba la copia del mapa en la mochila.\n\nPreguntas:\n¿Qué quería ver Mariana en Cartagena?\nQuería ver el mapa más renombrado del museo de las murallas, un plano del siglo XVIII.\n¿Por qué atraía Cartagena a piratas y enemigos?\nPorque en su puerto esperaban grandes cargamentos de oro y plata.\n¿Con qué ánimo llegó la flota inglesa en 1741?\nLlegó con ánimo vengador, tan segura de la victoria que hizo acuñar medallas antes de tiempo.\n¿Qué era un relator?\nEra alguien encargado de contar los hechos por escrito, algo parecido a un cronista.\n¿Qué otra cosa atestigua el pasado, según Efraín?\nLo atestiguan las piedras de las murallas, que todavía muestran las marcas de los cañones."
+    },
+    {
+      "title": "Un mapa en una servilleta",
+      "summary": "A hotel owner from Majorca gets lost in the Buenos Aires district of Flores, and a Korean-born cook draws him a map on a napkin to the butcher's and the market.",
+      "newWords": [
+        "hotelero",
+        "quehacer",
+        "pimiento",
+        "juliana",
+        "nacionalizar",
+        "fluidez",
+        "carnicería",
+        "cajita",
+        "won",
+        "maní"
+      ],
+      "text": "Jaume es hotelero en Mallorca. Tiene un pequeño hotel familiar cerca del mar, y cada invierno, cuando lo cierra, viaja a algún lugar lejano para comer bien y descansar de los quehaceres de la temporada. Durante el verano los quehaceres no terminan nunca: las reservas, las cocinas, las quejas, las toallas. Este año eligió Buenos Aires. Le habían dicho que en el barrio de Flores había restaurantes coreanos excelentes, y una mañana tomó el colectivo para buscarlos.\n\nSe bajó una parada antes de tiempo y se perdió enseguida. Las calles de Flores le parecían todas iguales: árboles, casas bajas, negocios con carteles en dos alfabetos. Entró en un restaurante pequeño que todavía no había abierto. Dentro, una mujer de unos sesenta años cortaba pimientos sobre una tabla de madera. Cortaba el pimiento rojo en juliana, en tiras muy finas, a una velocidad que a Jaume, que conocía bien las cocinas de hotel, le pareció admirable.\n\n«Disculpe, estoy un poco perdido», dijo.\n\nLa mujer se llamaba Kim. Había nacido en Seúl, llegó a la Argentina a los veinte años y se nacionalizó argentina mucho después. Hablaba castellano con una fluidez total, con el acento porteño de quien ha pasado cuarenta años en Buenos Aires. «Me nacionalicé en 1990», contó con orgullo, «pero en la cocina sigo siendo de Seúl».\n\nJaume le explicó que buscaba un mercado coreano y una carnicería donde, según un amigo, vendían la mejor carne para la parrilla coreana. La señora Kim dejó el cuchillo, tomó una servilleta de papel y dibujó un mapa. Dibujaba con la misma fluidez con que cortaba: tres cuadras derecho, a la izquierda en la plaza, la carnicería en la esquina, frente a una farmacia. Al lado de la carnicería dibujó un cuadrado. «Ahí está el mercado. Pregunte por mi sobrino», dijo.\n\nLuego le contó cómo era el barrio cuando ella llegó: casi no había coreanos, nadie conocía su comida, y su madre preparaba los platos de su tierra con los pimientos que encontraba en la feria. Le enseñó una cajita de lata que guardaba en un estante. Dentro había fotos antiguas y unos billetes de wones, la moneda de Corea. «Son los últimos wones que traje», dijo. «Hoy con un won no se compra nada, pero no los quiero cambiar».\n\nAntes de que se fuera, la señora Kim le dio otra cajita, de cartón, llena de maní tostado con azúcar. «Para el camino», le dijo. Jaume siguió el mapa de la servilleta comiendo maní. Encontró la plaza, la esquina, la farmacia y, por fin, la carnicería. Compró la carne y, en el mercado, saludó al sobrino.\n\nA mediodía volvió al restaurante y pidió el plato del día, que llevaba, por supuesto, pimiento en juliana. Al despedirse, Jaume le dijo que, como hotelero, sabía lo difícil que es atender bien a un desconocido. «Usted me dio un mapa, una cajita de maní y una historia», le dijo. «En mi hotel no damos tanto».\n\nPreguntas:\n¿Por qué viaja Jaume cada invierno?\nViaja para comer bien y descansar de los quehaceres de su hotel.\n¿Qué estaba haciendo la señora Kim cuando Jaume entró?\nEstaba cortando pimientos rojos en juliana, en tiras muy finas.\n¿Cómo habla castellano la señora Kim?\nLo habla con una fluidez total y con acento porteño, porque se nacionalizó argentina y vive en Buenos Aires desde hace cuarenta años.\n¿Qué guarda la señora Kim en la cajita de lata?\nGuarda fotos antiguas y los últimos wones que trajo de Corea.\n¿Qué le dio la señora Kim a Jaume para el camino?\nLe dio una cajita de cartón llena de maní tostado con azúcar."
+    },
+    {
+      "title": "Obras en el hospital",
+      "summary": "In Santiago de Chile, a piano student and her grandmother get lost in a hospital under repair on the way to a routine X-ray, until a maintenance worker shows them the way.",
+      "newWords": [
+        "quimioterapia",
+        "radiografía",
+        "obstruir",
+        "afectación",
+        "preferentemente",
+        "interruptor",
+        "operario",
+        "opus",
+        "mejoría"
+      ],
+      "text": "Catalina estudia piano en Santiago y tiene las tardes muy ocupadas, pero los martes por la mañana acompaña a su abuela Rosa al hospital. Hace un año, la abuela terminó la quimioterapia, y desde entonces va cada tres meses a hacerse una radiografía de control. Las dos conocen el camino de memoria: entrada principal, ascensores, segundo piso, sala de espera de Radiología. Por eso aquel martes les sorprendió tanto perderse.\n\nEn la entrada había un cartel nuevo: «Por obras, el pasillo central permanecerá obstruido hasta el 30 de junio». Debajo, otro cartel anunciaba una afectación en los ascensores: dos de los cuatro no funcionaban, y se pedía a los visitantes que usaran preferentemente las escaleras. La abuela, que tiene ochenta años y una rodilla delicada, miró las escaleras con desconfianza.\n\nSiguieron unas líneas de colores pintadas en el suelo. La línea verde las llevó por un pasillo largo, después por otro, y al final a una puerta con un letrero que decía «Quimioterapia». La abuela se detuvo. Durante meses había cruzado esa puerta cada semana, y no tenía ganas de volver a verla. «Esto no es Radiología», dijo, y Catalina notó que la voz le temblaba un poco.\n\nDieron la vuelta y llegaron a un pasillo oscuro donde no había nadie. Catalina buscó el interruptor de la luz, lo encontró junto a una puerta y lo pulsó, pero no pasó nada. Probó otro interruptor más adelante. Tampoco. En ese momento apareció un operario con casco y chaleco naranja, que llevaba una caja de herramientas.\n\n«¿Se perdieron?», preguntó con amabilidad. Les explicó que estaba cambiando la instalación eléctrica de esa zona y que por eso los interruptores no funcionaban. Las obras habían obstruido el camino de siempre, y la afectación de los ascensores lo complicaba todo aún más. El operario las acompañó por una salida lateral, las llevó hasta el único ascensor que funcionaba y les indicó cómo llegar a Radiología. Antes de irse, le aconsejó a la abuela que en la próxima visita entrara preferentemente por la puerta de urgencias, que estaba libre de obras.\n\nEn el vestíbulo del segundo piso había un piano, y un voluntario tocaba un nocturno de Chopin, del Opus 9. Catalina lo reconoció enseguida: estaba estudiando ese mismo opus para un examen. Se sentaron a escucharlo mientras esperaban su turno, y la abuela, por primera vez en toda la mañana, cerró los ojos tranquila.\n\nLa radiografía fue rápida. Una hora después, la médica les mostró las imágenes en la pantalla y habló de una clara mejoría. «La mejoría se ve a simple vista», dijo, señalando la radiografía de hace tres meses y la de ese día. La abuela sonrió y le apretó la mano a su nieta.\n\nAl salir, el voluntario seguía tocando. Catalina le prometió a su abuela que en la próxima visita tocaría ella el Opus 9 en ese piano, si las obras no lo impedían.\n\nPreguntas:\n¿Para qué va la abuela Rosa al hospital cada tres meses?\nVa a hacerse una radiografía de control, porque hace un año terminó la quimioterapia.\n¿Qué anunciaban los carteles de la entrada?\nAnunciaban que el pasillo central estaba obstruido por obras y que había una afectación en los ascensores.\n¿Por qué no funcionaban los interruptores del pasillo oscuro?\nPorque el operario estaba cambiando la instalación eléctrica de esa zona.\n¿Qué tocaba el voluntario en el vestíbulo?\nTocaba un nocturno de Chopin, del Opus 9, el mismo opus que estudia Catalina.\n¿Qué dijo la médica de las imágenes?\nDijo que había una clara mejoría que se veía a simple vista."
+    },
+    {
+      "title": "Diario de un peregrino",
+      "summary": "A Mexican engineer keeps a diary of the last hundred kilometres of the Way of St James in Galicia, learning to read the yellow arrows, the scallop shell and the Galician place names.",
+      "newWords": [
+        "credo",
+        "simbolismo",
+        "léxico",
+        "sílaba",
+        "pagano",
+        "fúnebre",
+        "precepto",
+        "redención",
+        "trascendental"
+      ],
+      "text": "Sarria, lunes. Empiezo hoy los últimos cien kilómetros del Camino de Santiago. No soy un peregrino muy religioso. Mi abuela, en Guadalajara, rezaba el credo cada noche, pero yo hace años que no entro en una iglesia salvo para ver los retablos. Vengo a caminar, a pensar y a cumplir una promesa que le hice a ella. Llevo un mapa en el bolsillo, aunque casi no hace falta: el camino está marcado con flechas amarillas y con conchas pintadas en las piedras.\n\nPortomarín, martes. La señora que atiende el albergue me ha explicado el simbolismo de la concha. Las líneas de la concha nacen en muchos puntos del borde y se juntan todas en uno solo, igual que los caminos que llegan a Santiago desde toda Europa. Ese simbolismo me ha gustado más que cualquier mapa: muchos caminos, una sola meta. También me ha enseñado a leer los nombres de los pueblos. El léxico de los mapas gallegos está lleno de palabras que no conozco, y me equivoco al pronunciarlas. Ella me las ha dicho sílaba por sílaba, despacio, y me ha corregido la sílaba fuerte cada vez que la ponía donde no era. El léxico de un mapa, pienso, es una forma de historia: cada nombre guarda algo de quienes vivieron allí.\n\nPalas de Rei, miércoles. Junto al camino hay una piedra enorme, mucho más antigua que cualquier iglesia. Un peregrino francés, profesor jubilado, me ha contado que antes del cristianismo en estas tierras había cultos paganos, y que muchas capillas se levantaron sobre lugares paganos, como si la nueva fe quisiera ocupar el sitio de la vieja.\n\nArzúa, jueves. Esta mañana he pasado junto a una pequeña cruz de piedra al borde del camino, con flores secas y una foto vieja. Es un monumento fúnebre en recuerdo de un peregrino que murió aquí hace años. Me esperaba algo triste, pero el lugar no tenía nada de fúnebre: había pájaros, sol y otros caminantes que dejaban una piedrecita encima de la cruz.\n\nPor la tarde he hablado con un sacerdote en la plaza. Me ha explicado que en la Edad Media el viaje a Santiago era casi un precepto, una obligación del alma para quien buscaba la redención. Los peregrinos caminaban meses, a veces años, con la esperanza de esa redención. Yo no busco la redención; ni siquiera sé si creo en ella. Pero entiendo el precepto más sencillo del Camino, el que todos repiten: caminar despacio y saludar a todo el mundo.\n\nSantiago, sábado. He llegado a la plaza del Obradoiro a las once. Muchos peregrinos hablan de una experiencia trascendental al ver la catedral. No sé si la mía lo ha sido. Lo trascendental, para mí, ha sido otra cosa: dentro de la catedral, sin pensarlo, he rezado el credo de mi abuela. Lo sabía de memoria. Luego he guardado el mapa en la mochila. Ya no lo necesito.\n\nPreguntas:\n¿Por qué hace el narrador el Camino de Santiago?\nLo hace para caminar, pensar y cumplir una promesa que le hizo a su abuela.\n¿Qué simbolismo tiene la concha, según la señora del albergue?\nSus líneas se juntan en un solo punto, igual que los caminos que llegan a Santiago desde toda Europa.\n¿Cómo aprendió el narrador a pronunciar los nombres gallegos?\nLa señora del albergue se los dijo sílaba por sílaba y le corrigió la sílaba fuerte.\n¿Qué le contó el profesor francés sobre los lugares paganos?\nLe contó que muchas capillas se levantaron sobre lugares de antiguos cultos paganos.\n¿Qué fue lo trascendental para el narrador en Santiago?\nFue rezar, sin pensarlo, el credo de su abuela dentro de la catedral."
+    },
+    {
+      "title": "Antes del amanecer en Petén",
+      "summary": "A biology student from Guatemala City goes out before dawn with a park ranger and his tracking dog to count birds in the jungle of Petén, and learns to find the way in the dark.",
+      "newWords": [
+        "jungla",
+        "tiniebla",
+        "canino",
+        "tala",
+        "cobardía",
+        "acometer",
+        "tea",
+        "ora",
+        "orificio"
+      ],
+      "text": "Sofía, estudiante de biología en la capital, había venido a Petén para contar aves. Su guía iba a ser don Marvin, un guardaparques que llevaba veinte años recorriendo la jungla. La primera mañana salieron a las cuatro, cuando todavía reinaban las tinieblas. Sofía no había visto nunca una oscuridad así. En la ciudad siempre hay alguna luz; allí las tinieblas eran completas, espesas, llenas de ruidos.\n\nDon Marvin no llevaba GPS. Llevaba un mapa viejo de la reserva, una linterna y a Bruno, un perro pastor que trabajaba con él en la unidad canina de los guardaparques. La unidad canina tiene seis perros, y su tarea principal es detectar la tala ilegal: los perros encuentran madera recién cortada y huelen la gasolina de las máquinas. Don Marvin le enseñó el mapa a la luz de la linterna. Las zonas marcadas en rojo eran lugares donde se había descubierto tala en los últimos años. «La tala ha bajado mucho desde que tenemos a los perros», dijo con orgullo.\n\nAl entrar en la jungla, Sofía sintió miedo. Cada sonido le parecía un animal enorme. Avergonzada, confesó su cobardía en voz baja. Don Marvin se rió con suavidad. «Eso no es cobardía, es prudencia», le dijo. «Cobardía sería no haber venido».\n\nMientras caminaban, le contó que los primeros exploradores que acometieron la tarea de hacer un mapa de las ruinas mayas no tenían linternas. Acometían aquellas caminatas nocturnas con teas encendidas: una tea era un palo de madera resinosa que ardía mucho tiempo, como una antorcha. Una tea daba poca luz y mucho humo, pero era lo único que tenían. Sofía intentó imaginarlos, con su tea en la mano, abriéndose paso entre los árboles.\n\nEl sendero giraba ora a la izquierda, ora a la derecha, y Sofía perdió pronto la orientación. Don Marvin, en cambio, se guiaba ora por el mapa, ora por los árboles que conocía, ora por el olfato de Bruno, que caminaba delante sin dudar. Le explicó que en la jungla no sirve de mucho buscar el norte: hay que reconocer los lugares, como en una ciudad se reconocen las esquinas.\n\nCuando empezó a clarear, llegaron a un árbol enorme. En el tronco, a unos cuatro metros del suelo, había un orificio redondo. «Mire bien ese orificio», susurró don Marvin. Al poco rato asomó la cabeza un loro verde, y después otro. Sofía anotó los dos en su cuaderno: eran las primeras aves de su estudio.\n\nSubieron después a lo alto de un templo antiguo. Desde allí, la jungla se extendía hasta el horizonte como un mar verde, y las tinieblas se retiraban despacio. Sofía contó treinta especies de aves esa mañana. Al bajar, ya no sentía ninguna cobardía, solo hambre y ganas de volver al día siguiente.\n\nPreguntas:\n¿Para qué había venido Sofía a Petén?\nHabía venido para contar aves en la jungla.\n¿Cuál es la tarea principal de la unidad canina?\nSu tarea principal es detectar la tala ilegal.\n¿Qué le respondió don Marvin cuando Sofía confesó su cobardía?\nLe respondió que no era cobardía, sino prudencia, y que cobardía sería no haber venido.\n¿Qué era una tea?\nEra un palo de madera resinosa que ardía mucho tiempo, como una antorcha.\n¿Qué salió del orificio del tronco?\nSalieron dos loros verdes, las primeras aves del estudio de Sofía."
+    },
+    {
+      "title": "El tesoro del parque",
+      "summary": "In Montevideo, a sceptical father joins his daughter in geocaching and, solving a riddle about sulphur electrons and skittles, finds the hidden box and a community of fellow seekers.",
+      "newWords": [
+        "pasatiempo",
+        "cuestionable",
+        "colectividad",
+        "partícipe",
+        "enunciado",
+        "electrón",
+        "azufre",
+        "bolo",
+        "cuerdo",
+        "plenitud"
+      ],
+      "text": "Gonzalo descubrió el pasatiempo de su vida a los cuarenta y dos años, por culpa de su hija Valentina. Ella tiene once años y un día volvió del colegio con una idea fija: quería buscar tesoros. No tesoros de piratas, sino pequeñas cajas escondidas por otras personas en la ciudad. El pasatiempo funciona así: alguien esconde una caja, publica en internet sus coordenadas y una pista, y los demás salen a buscarla con el teléfono.\n\nA Gonzalo la idea le pareció, como mínimo, de utilidad cuestionable. ¿Qué adulto cuerdo pasa un sábado arrodillado entre los arbustos de un parque? Valentina le contestó que muchos adultos cuerdos lo hacían, y le enseñó la página: en Montevideo había una colectividad de más de cien buscadores, que se ayudaban, dejaban comentarios y organizaban encuentros. Esa colectividad, le dijo, se alegraba con cada nuevo partícipe.\n\nEl sábado fueron al Parque Rodó. La caja que buscaban tenía un enunciado curioso. El enunciado decía: «Sume el número de electrones de un átomo de azufre y el número de bolos de una partida clásica. Camine esa cantidad de pasos desde la puerta del viejo club». Gonzalo, que es contador y no recordaba nada de química, tuvo que reconocer que el problema era más difícil de lo que pensaba.\n\nValentina lo resolvió en el autobús. El azufre, ese elemento amarillo que huele a huevo podrido, ocupa el lugar 16 de la tabla periódica, así que un átomo de azufre tiene dieciséis electrones; lo había estudiado ese mismo mes. Gonzalo solo recordaba el azufre por el olor de los fósforos. Para los bolos preguntaron a un señor mayor que paseaba por el parque, que resultó ser socio del viejo club de bolos que hay junto al lago. El señor les explicó que en una partida clásica se colocan diez bolos, en forma de triángulo. Dieciséis electrones más diez bolos: 26 pasos.\n\nDesde la puerta del club contaron 26 pasos y llegaron a un banco. No había nada. Probaron hacia la izquierda, hacia la derecha, y al final Valentina se agachó y encontró, pegada debajo del banco, una cajita de plástico. Dentro había un cuaderno lleno de firmas, una moneda antigua y un pequeño dinosaurio. Las reglas eran sencillas: se firma el cuaderno, se puede llevar un objeto si se deja otro, y se vuelve a esconder la caja tal como estaba.\n\nGonzalo firmó. Por primera vez en mucho tiempo se sentía partícipe de algo, de un juego compartido con desconocidos que nunca vería. Se sentaron en el banco, frente al lago, y miraron el agua sin hablar. Era una tarde de otoño en plenitud: luz dorada, hojas en el suelo, poco viento. Gonzalo pensó que hacía años que no vivía un momento con esa plenitud.\n\nEsa noche escribió su primer comentario en la página. Lo terminó así: «Pasatiempo de utilidad cuestionable, recomendado para adultos poco cuerdos y para sus hijas».\n\nPreguntas:\n¿Cómo funciona el pasatiempo que descubrió Gonzalo?\nAlguien esconde una caja, publica sus coordenadas y una pista, y los demás salen a buscarla.\n¿Qué pensaba Gonzalo de la idea al principio?\nLe parecía de utilidad cuestionable y creía que ningún adulto cuerdo lo haría.\n¿Qué pedía el enunciado de la caja del parque?\nPedía sumar los electrones de un átomo de azufre y los bolos de una partida clásica, y caminar esos pasos.\n¿Dónde encontraron la caja?\nLa encontraron pegada debajo de un banco, a 26 pasos de la puerta del club de bolos.\n¿Cómo se sintió Gonzalo después de firmar el cuaderno?\nSe sintió partícipe de un juego compartido y vivió un momento de plenitud junto al lago."
+    },
+    {
+      "title": "El pueblo bajo el agua",
+      "summary": "During a drought in Aragon, a woman takes her grandmother and an old creased map to a reservoir whose low water has uncovered the village where the grandmother was born.",
+      "newWords": [
+        "arruga",
+        "expropiar",
+        "reiterado",
+        "expirar",
+        "granado",
+        "vertido",
+        "pulir",
+        "mitigar"
+      ],
+      "text": "Mi abuela Pilar nació en un pueblo que ya no aparece en los mapas. Se llamaba San Martín del Río y estaba en un valle del Pirineo aragonés, a orillas de un río tranquilo. Hoy, en su lugar, hay un embalse. Este verano, por la sequía, el agua bajó tanto que volvió a verse la torre de la iglesia, y la abuela me pidió que la llevara.\n\nAntes de salir sacó de un cajón un mapa de 1950. Era un mapa del valle, muy gastado, lleno de arrugas. Lo había doblado y desdoblado tantas veces que las arrugas del papel parecían otro camino más. «Tiene más arrugas que yo», dijo, y se rió.\n\nEn el coche me contó lo que ya me había contado de forma reiterada a lo largo de los años, aunque nunca me canso de oírlo. En 1960 el Estado decidió construir la presa. Las tierras del pueblo fueron expropiadas: las casas, los huertos, los campos, también la iglesia. Los vecinos enviaron cartas reiteradas pidiendo otra solución, pero no sirvió de nada. A cada familia le pagaron una cantidad por lo expropiado y le dieron un plazo para marcharse. El plazo expiró en el otoño de 1962. Cuando expiró, ya no quedaba nadie en el pueblo.\n\nQuiero contar esto con justicia. El embalse dio agua a miles de campos del valle de abajo, que antes sufrían sequías terribles, y ayudó a mitigar las inundaciones de primavera. Nada de eso, sin embargo, mitigó la pena de quienes perdieron su casa. Las dos cosas son verdad a la vez.\n\nDejamos el coche en lo alto y bajamos despacio hasta la orilla. Con el mapa en la mano, la abuela fue reconociendo los lugares: allí la plaza, allí la fuente, allí el camino del molino. Llegamos a un muro bajo, cubierto de barro seco. «Esta era mi casa», dijo. Detrás del muro estaba el huerto, y en el huerto había un granado. Del granado no quedaba nada, pero ella señaló el sitio exacto, y me contó que cada otoño sus granadas eran las más rojas del pueblo.\n\nJunto a la presa, un panel explicaba el funcionamiento del embalse. En los años de lluvia, el vertido de agua por las compuertas es tan grande que la gente sube a verlo. Un guarda nos contó que el último gran vertido fue hace cuatro años, y que este verano no habrá ninguno.\n\nAntes de irnos, la abuela recogió una piedra de la orilla. Era una piedra de la iglesia, lisa y pulida; el agua la pulió durante sesenta años. Ningún artesano podría pulirla mejor. La guardó en el bolso, junto al mapa de las arrugas.\n\nEsa noche, en su casa, puso la piedra sobre el mapa, en el punto exacto donde estaba la iglesia. Me dijo que ahora el mapa tenía otra vez su pueblo.\n\nPreguntas:\n¿Por qué se volvió a ver la torre de la iglesia?\nPorque, por la sequía, el agua del embalse bajó mucho.\n¿Cómo era el mapa de 1950?\nEra un mapa del valle, muy gastado y lleno de arrugas.\n¿Qué pasó con las tierras del pueblo en 1960?\nFueron expropiadas para construir la presa, a pesar de las cartas reiteradas de los vecinos.\n¿Qué ventajas trajo el embalse al valle de abajo?\nDio agua a miles de campos y ayudó a mitigar las sequías y las inundaciones.\n¿Qué recogió la abuela antes de irse?\nRecogió una piedra de la iglesia que el agua pulió durante sesenta años."
+    },
+    {
+      "title": "Mapas del virreinato",
+      "summary": "A retired teacher and her grandson visit an exhibition of colonial maps at the National Library in Lima, where a curator explains how maps served taxes, power and new ideas.",
+      "newWords": [
+        "innovar",
+        "gravar",
+        "destituido",
+        "subversivo",
+        "imparcialidad",
+        "bancada",
+        "marciano"
+      ],
+      "text": "Doña Teresa, maestra jubilada, lleva a su nieto Diego a la Biblioteca Nacional del Perú una vez al mes. Ella dice que es para que el chico conozca la historia de Lima; él sospecha que es porque a ella le gusta el silencio de las salas. Ese sábado había una exposición de mapas antiguos del Perú, y la curadora, una mujer joven llamada Ximena, guiaba a un pequeño grupo.\n\nEl primer mapa era del siglo XVII. Ximena explicó que muchos mapas de aquella época no se hacían para viajar, sino para cobrar. La Corona necesitaba saber cuántos pueblos había, cuántas personas vivían en cada uno y qué producían sus tierras, porque sobre esa base las autoridades decidían cómo gravar a cada comunidad. «Un mapa servía para gravar con tributos a los pueblos», dijo. «Cuanto mejor era el mapa, más fácil resultaba gravarlos». Diego miró el papel de otra manera.\n\nEl segundo mapa tenía una historia curiosa. Lo había mandado hacer un funcionario de una provincia andina que, pocos años después, fue destituido de su cargo. Según los documentos, fue destituido por haber enviado a Lima informes que no gustaron al virrey. En el mapa, aquel hombre había anotado con cuidado los nombres quechuas de los cerros y de los ríos, junto a los nombres en castellano. Ximena contó que, en un momento de rebeliones en los Andes, es posible que las autoridades consideraran subversivo ese gesto. «Hoy nos parece inofensivo», dijo, «pero en su tiempo un mapa también podía ser subversivo».\n\nEl tercer mapa mostraba los Andes de una manera nueva: en lugar de dibujar las montañas como pequeños triángulos, el cartógrafo usó sombras para indicar el relieve. Ximena explicó que así se empezaba a innovar en la cartografía, y que innovar no siempre era bien recibido.\n\nAl final, alguien del grupo preguntó si un mapa podía ser objetivo. Ximena sonrió. Dijo que a un mapa no hay que pedirle una imparcialidad total, porque siempre lo hace alguien, con algún fin. Lo que sí podemos pedirle al historiador es imparcialidad al estudiarlo: mirar quién lo hizo, para qué y qué dejó fuera.\n\nEn la última sala, la exposición terminaba con una imagen satelital de Lima en una pantalla grande. Diego se sentó con su abuela en la bancada de madera que había frente a la pantalla, una bancada larga y antigua donde cabían diez personas. Miró un rato la imagen, con sus manchas grises, verdes y marrones, y dijo que parecía un paisaje marciano. «Para el cartógrafo de los triángulos, esto sería todavía más marciano», le respondió doña Teresa.\n\nAntes de irse, Diego pidió una copia del mapa con los nombres quechuas. Dijo que quería buscar en él el cerro que se ve desde la casa de su abuela.\n\nPreguntas:\n¿Para qué se hacían muchos mapas en el siglo XVII, según Ximena?\nSe hacían para saber cómo gravar con tributos a cada comunidad.\n¿Por qué fue destituido el funcionario de la provincia andina?\nFue destituido por haber enviado a Lima informes que no gustaron al virrey.\n¿Por qué pudieron considerar subversivo su mapa?\nPorque anotó los nombres quechuas de los cerros y de los ríos en un momento de rebeliones.\n¿Cómo innovó el cartógrafo del tercer mapa?\nInnovó al usar sombras para indicar el relieve, en lugar de pequeños triángulos.\n¿Qué le podemos pedir al historiador, según la curadora?\nLe podemos pedir imparcialidad al estudiar un mapa: mirar quién lo hizo, para qué y qué dejó fuera.\n¿Qué le pareció a Diego la imagen satelital de Lima?\nSentado en la bancada frente a la pantalla, le pareció un paisaje marciano."
+    }
+  ]
+}
