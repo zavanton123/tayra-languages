@@ -14,6 +14,8 @@ class DatabaseMaintenanceImpl(private val provider: DatabaseProvider) : Database
             database.maintenanceQueries.deleteAllWordsRead()
             database.maintenanceQueries.deleteAllLanguages()
             database.maintenanceQueries.deleteAllBookTags()
+            database.maintenanceQueries.deleteAllCourseTags()
+            database.maintenanceQueries.deleteAllSentenceTranslations()
         }
     }
 

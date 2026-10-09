@@ -78,6 +78,7 @@ import com.tayra.languages.core.data.network.KtorRecordingFetcher
 import com.tayra.languages.core.domain.service.ExampleRecordings
 import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.domain.service.LanguageSetupService
+import com.tayra.languages.core.domain.service.ClearDataService
 
 /** Platform-specific bindings: the database driver factories and [Settings]. */
 expect val platformDataModule: Module
@@ -152,6 +153,7 @@ val dataModule: Module = module {
     single { CourseService(get(), get(), get(), get(), get()) }
     single { CoursePackService(get(), get()) }
     single { LanguageSetupService(get(), get(), get(), get(), get(), get()) }
+    single { ClearDataService(get(), get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
     single<VocabularyLevelRepository> { VocabularyLevelRepositoryImpl(get()) }
     single { FlashcardService(get(), get(), get()) }

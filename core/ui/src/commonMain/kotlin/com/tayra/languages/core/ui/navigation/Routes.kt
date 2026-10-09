@@ -115,4 +115,8 @@ sealed interface Route {
 
     @Serializable
     data object About : Route
+
+    /** Settings: removing everything the app keeps on the device. */
+    @Serializable
+    data object ClearData : Route
 }

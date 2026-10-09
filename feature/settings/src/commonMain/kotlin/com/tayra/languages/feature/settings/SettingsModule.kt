@@ -14,6 +14,7 @@ val settingsModule = module {
     viewModel { SpeechViewModel(get(), get(), get()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
+    viewModel { ClearDataViewModel(get()) }
     viewModel { LanguageSetupViewModel(get()) }
 }
 
@@ -26,6 +27,14 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
     composable<Route.OfflineDictionaries> { DictionariesScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.CoursePacks> { CoursePacksScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.OfflineTranslation> { OfflineTranslationScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
+    composable<Route.ClearData> {
+        ClearDataScreen(
+            onNavigate = navigate,
+            onBack = { navController.popBackStack() },
+            // Screens opened before the clearing show data that is gone, so the app starts over from the courses.
+            onCleared = { navController.navigate(Route.Courses) { popUpTo<Route.Courses> { inclusive = true } } },
+        )
+    }
     composable<Route.Backups> {
         BackupScreen(
             onNavigate = navigate,
