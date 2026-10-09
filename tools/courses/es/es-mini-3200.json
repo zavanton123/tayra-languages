@@ -1,0 +1,230 @@
+{
+  "id": "es-mini-3200",
+  "rankUpTo": 3200,
+  "level": "B2",
+  "title": "La moda y la ropa",
+  "description": "Ten stories about clothes and fashion across Spain, Latin America and the United States: an old shawl, family embroidery, natural dyes, a kitchen uniform, a first fashion show, a magazine, running gear, a quinceañera dress, donated clothes and a museum exhibition.",
+  "topic": "Fashion and clothes",
+  "names": [
+    "Sevilla",
+    "Amparo",
+    "Manila",
+    "Macarena",
+    "Andalucía",
+    "Ignacio Ruiz",
+    "México",
+    "España",
+    "Salma",
+    "Santiago",
+    "Patronato",
+    "Chile",
+    "Daniela",
+    "Lima",
+    "Chinchero",
+    "Cusco",
+    "Nilda",
+    "Andes",
+    "Álvaro",
+    "Madrid",
+    "Julián",
+    "Rosa",
+    "Lucila",
+    "Corrientes",
+    "Buenos Aires",
+    "Elsa",
+    "Marcos",
+    "Bogotá",
+    "Valentina",
+    "Juliana",
+    "Candelaria",
+    "Hernán",
+    "Montevideo",
+    "Florencia",
+    "Ximena",
+    "San Antonio",
+    "Texas",
+    "Gabriela",
+    "Monterrey",
+    "Toña",
+    "Guatemala",
+    "Andrea",
+    "San Pedro",
+    "Marta",
+    "Centro Histórico",
+    "Ciudad de México",
+    "Museo del Vestido",
+    "Elena Ríos",
+    "París",
+    "Puebla",
+    "Leticia Mora"
+  ],
+  "lessons": [
+    {
+      "title": "El largo viaje del mantón",
+      "summary": "In Seville, a grandmother and her granddaughter visit an exhibition where a historian explains how the Manila shawl came from China to Spain.",
+      "newWords": [
+        "historiador",
+        "magnífico",
+        "asiático",
+        "filipino",
+        "comerciante",
+        "colonial",
+        "occidente",
+        "élite",
+        "longitud",
+        "danza"
+      ],
+      "text": "Cada primavera, cuando llega la Feria de Sevilla, Amparo saca de una caja su mantón de Manila. Es un mantón magnífico, de color blanco, con grandes flores rojas y verdes hechas a mano con hilo fino, y unos flecos largos que se mueven como el agua. Amparo lo recibió de su madre, y su madre, de la suya. Este año, por primera vez, se lo iba a prestar a su nieta Macarena.\n\nMacarena, que estudia Historia en la universidad, quería saber de dónde venía aquel mantón. Su abuela solo sabía que era «de Manila», si bien nunca había salido de Andalucía. Así que una tarde de abril las dos fueron a una exposición sobre el mantón en un museo del centro. Allí las recibió un historiador, Ignacio Ruiz, un hombre amable de voz tranquila.\n\n«El nombre engaña un poco», les explicó el historiador. «Casi todos estos mantones se hacían en China, en el sur del país. Desde allí, comerciantes asiáticos los llevaban a Manila, la gran ciudad filipina, que entonces era parte del imperio español.» Contó que, en la época colonial, un gran barco salía cada año de Manila cargado de productos asiáticos, cruzaba el océano hasta México y, desde allí, la carga seguía hacia España. «Comerciantes filipinos, chinos y españoles hacían negocios en aquel puerto», añadió. «Así llegaron a occidente muchas cosas del mundo asiático. Para la gente de occidente, todo venía de Manila, de modo que el mantón se quedó con ese nombre.»\n\nMacarena tomaba notas. Le parecía magnífico que algo tan nuestro hubiera hecho un viaje tan largo. El historiador les enseñó un mapa colonial con la ruta marcada en rojo.\n\n«Al principio, solo la élite podía pagar un mantón así», siguió el historiador. «Las señoras de la élite lo llevaban en las grandes fiestas. Con los años, dejó de ser un lujo de la élite y entró en todas las casas.» Después señaló un mantón enorme: tenía una longitud de casi dos metros, y sus flecos, una longitud de medio metro. \n\nPor último, el historiador habló de la danza. «Hoy el mantón es parte de la danza andaluza. En la danza, la mujer lo abre y lo cierra como si fueran unas alas.»\n\nUna semana después, en la Feria, Macarena llevaba el mantón de su abuela sobre un vestido azul. Bailó toda la noche, y el mantón se abría y se cerraba como unas alas. Amparo la miraba desde una silla, feliz, y le contaba a todo el que quería oírla el largo viaje de su mantón.\n\nPreguntas:\n¿Qué saca Amparo de una caja cada primavera?\nSaca su mantón de Manila.\n¿Dónde se hacían casi todos los mantones de Manila?\nSe hacían en China, en el sur del país.\n¿Por qué el mantón se llama «de Manila»?\nPorque comerciantes asiáticos los llevaban a Manila, y para la gente de occidente todo venía de allí.\n¿Quién podía pagar un mantón al principio?\nAl principio, solo la élite podía pagarlo.\n¿Qué longitud tenía el mantón enorme del museo?\nTenía una longitud de casi dos metros.\n¿Qué hizo Macarena en la Feria?\nLlevó el mantón de su abuela sobre un vestido azul y bailó toda la noche."
+    },
+    {
+      "title": "Las cruces rojas de mi abuela",
+      "summary": "In Santiago de Chile, a young woman learns her Palestinian grandmother's cross-stitch and finishes her first small piece.",
+      "newWords": [
+        "palestino",
+        "hábito",
+        "tela",
+        "pariente",
+        "retener",
+        "imaginación",
+        "convencido",
+        "desaparición",
+        "legado"
+      ],
+      "text": "Mi abuela Salma tiene 82 años y vive en Santiago, en el barrio de Patronato, desde que se casó. Su familia es palestina: sus padres llegaron a Chile hace casi un siglo, como tantas otras familias palestinas que hicieron aquí su vida. En su casa siempre hay café, pan árabe recién hecho y, sobre todo, hilo de colores.\n\nMi abuela tiene un hábito que conozco desde niña. Cada tarde, después del almuerzo, se sienta junto a la ventana con una tela negra sobre las rodillas y llena la tela de pequeñas cruces de hilo rojo. Es el punto de cruz palestino. Con miles de esas cruces forma dibujos: árboles, estrellas, flores, pájaros. Antes, me explicó, cada pueblo palestino tenía sus propios dibujos, de modo que, por el vestido, se sabía de qué pueblo era una mujer.\n\nEl invierno pasado le pedí que me enseñara. Ella me miró por encima de los lentes. Estaba convencida de que yo no tendría paciencia; según ella, los jóvenes de hoy no saben estar quietos ni diez minutos. Aun así, me dio un trozo de tela blanca, un hilo rojo y una aguja, y empezamos.\n\nEl primer día aprendí que mi abuela no usa papel. Retiene todos los dibujos en la memoria. «Este me lo enseñó mi madre», me dijo, «y a ella se lo enseñó una pariente que se quedó allá.» Habla a menudo de esa pariente, a quien nunca conoció. Yo, en cambio, no lograba retener ni la primera línea del dibujo, así que lo copié en un papel, cruz por cruz.\n\nCuando le pregunté qué hacía si olvidaba un dibujo, se rió. «Entonces uso la imaginación», contestó. «Mi madre decía que este trabajo necesita dos cosas: manos tranquilas e imaginación.» Las mías no eran nada tranquilas, pero la imaginación no me faltaba.\n\nAprendiendo con ella, entendí también lo que le preocupa. Teme la desaparición de esta tradición. Muchas de sus amigas ya han muerto, y casi ninguna de sus nietas sabe hacer el punto de cruz. «La desaparición de un dibujo es como la desaparición de una palabra», me dijo una tarde. Desde ese día, para mí, esas cruces son un legado: el legado de unas mujeres que cruzaron el mar con muy pocas cosas, pero con todos sus dibujos en la cabeza.\n\nTardé cuatro meses en terminar un pequeño cojín con un árbol rojo. En el almuerzo del domingo, mi abuela se lo enseñó a todos los parientes, uno por uno. Ahora estoy convencida de que el hábito se contagia: yo también me siento cada tarde junto a la ventana, con mi tela y mi hilo.\n\nPreguntas:\n¿De dónde es la familia de la abuela Salma?\nSu familia es palestina.\n¿Qué hábito tiene la abuela?\nCada tarde se sienta junto a la ventana y llena una tela de pequeñas cruces de hilo rojo.\n¿Por qué no usa papel la abuela?\nPorque retiene todos los dibujos en la memoria.\n¿Qué hace la abuela si olvida un dibujo?\nUsa la imaginación.\n¿Qué le preocupa a la abuela?\nLe preocupa la desaparición de esta tradición.\n¿Qué hizo la autora en cuatro meses?\nTerminó un pequeño cojín con un árbol rojo."
+    },
+    {
+      "title": "Los colores de Chinchero",
+      "summary": "A fashion student from Lima spends a week with a group of weavers near Cusco and learns how they get their colours from plants.",
+      "newWords": [
+        "coca",
+        "té",
+        "grasa",
+        "laguna",
+        "derivado",
+        "alimentación",
+        "selva",
+        "plantar",
+        "podar",
+        "vidrio",
+        "finalidad"
+      ],
+      "text": "Daniela estudia diseño de moda en Lima. En julio viajó a Chinchero, un pueblo cerca de Cusco, para pasar una semana con un grupo de mujeres que hacen tejidos a mano. Quería entender de dónde salen sus colores.\n\nChinchero está a más de 3700 metros de altura, de modo que, al llegar, a Daniela le dolía la cabeza. Doña Nilda, la mujer que dirige el taller, la recibió con una taza de té de coca. «El té de coca ayuda con la altura», le dijo. La coca es una planta antigua de los Andes, y con sus hojas se hace té desde hace siglos. Poco a poco, Daniela se sintió mejor.\n\nAl día siguiente empezó el trabajo. Primero había que lavar la lana. La lana de oveja tiene mucha grasa natural, y con grasa el color no entra bien. Para quitarle la grasa, las mujeres usan una raíz que, en el agua, limpia como el jabón. El agua la traen de una laguna cercana, una laguna pequeña y muy fría, de color verde oscuro.\n\nDespués, doña Nilda le explicó los colores. «Aquí todos los colores son derivados de la tierra», dijo. «El amarillo es derivado de una flor; el verde, de unas hojas; el rojo, de un insecto muy pequeño.» Ese insecto vive sobre un cactus y su alimentación es muy simple: solo come de esa planta. «Si su alimentación cambia, el rojo ya no sale igual», añadió. El azul, en cambio, es un caso especial: viene de una planta de la selva, al otro lado de las montañas. Antes lo traían a pie desde la selva; hoy llega en autobús.\n\nDetrás de la casa, el grupo tiene un pequeño campo donde plantan las flores y las hierbas para los colores. Esa misma tarde, Daniela ayudó a plantar flores amarillas. Doña Nilda le enseñó también a podar las ramas de un árbol viejo. «Hay que podarlo cada año; si no, da pocas hojas», le explicó. Daniela podó tres ramas con mucho cuidado, convencida de que lo hacía mal; doña Nilda le dijo que estaba muy bien.\n\nLos colores ya preparados se guardan en botellas de vidrio, una al lado de otra, sobre una mesa larga.\n\nEl último día, Daniela le preguntó a doña Nilda cuál era la finalidad del taller. «Vender, claro», contestó ella. «Pero la finalidad más importante es otra: que las chicas del pueblo aprendan lo que sabemos nosotras.» Daniela volvió a Lima con un tejido pequeño, una botella de vidrio llena de rojo y muchas ideas para su próxima colección.\n\nPreguntas:\n¿Para qué viajó Daniela a Chinchero?\nPara pasar una semana con un grupo de mujeres que hacen tejidos y entender de dónde salen sus colores.\n¿Por qué le dio doña Nilda té de coca?\nPorque el té de coca ayuda con la altura.\n¿Por qué hay que quitarle la grasa a la lana?\nPorque con grasa el color no entra bien.\n¿De dónde viene el color azul?\nViene de una planta de la selva, al otro lado de las montañas.\n¿Dónde se guardan los colores ya preparados?\nSe guardan en botellas de vidrio.\n¿Cuál es la finalidad más importante del taller?\nQue las chicas del pueblo aprendan lo que saben las mujeres del taller."
+    },
+    {
+      "title": "Una chaqueta para el pinche",
+      "summary": "A young kitchen assistant in Madrid orders his first chef's uniform online, receives the wrong size and sorts it out with a polite e-mail.",
+      "newWords": [
+        "pinche",
+        "ordenador",
+        "seleccionar",
+        "mediano",
+        "automático",
+        "captura",
+        "factura",
+        "coste",
+        "apartado",
+        "restricción"
+      ],
+      "text": "Álvaro tiene 19 años y acaba de conseguir su primer trabajo: pinche de cocina en un restaurante del centro de Madrid. Un pinche es el trabajador más joven de la cocina: corta, lava, limpia y, sobre todo, mira y aprende. El jefe de cocina, Julián, le dio la bienvenida con una sola regla: «Aquí todos vamos de blanco, también el pinche. El lunes te quiero ver con la chaqueta y el pantalón del uniforme.»\n\nEsa noche, Álvaro encendió su ordenador y buscó una tienda de ropa de trabajo. Encontró una con buenos precios. En la página de la chaqueta había que seleccionar el color, la tela y la talla. Seleccionó el blanco. Para la talla, dudó un momento: nunca sabía si era pequeño o mediano. Al final seleccionó la talla mediana, porque las camisas medianas siempre le quedaban bien.\n\nAntes de pagar, miró el coste del envío. El coste era de 5 euros, si bien el envío era gratis para pedidos de más de 50. Como la chaqueta y el pantalón costaban 48, añadió un segundo pantalón y así se ahorró el coste del envío. Pagó, y en la pantalla del ordenador apareció el número del pedido. Por si acaso, hizo una captura de pantalla.\n\nEl paquete llegó el jueves. Álvaro se probó la chaqueta y vio de inmediato que no era mediana: le llegaba casi a las rodillas. Era la talla más grande de la tienda. Leyó con atención el apartado de cambios de la página web. En ese apartado había una restricción importante: solo aceptaban cambios en un plazo de 14 días y con la factura. Por suerte, la factura venía dentro del paquete.\n\nÁlvaro escribió un correo a la tienda:\n\n«Buenas tardes:\nLes escribo porque el jueves recibí mi pedido, pero la chaqueta no es de la talla mediana que seleccioné, sino de la más grande. Les envío la captura de pantalla del pedido y una foto de la factura. Necesito la chaqueta para el lunes, puesto que empiezo a trabajar ese día. ¿Podrían enviarme la talla correcta?\nMuchas gracias.\nUn saludo,\nÁlvaro»\n\nA los dos minutos recibió una respuesta automática: «Gracias por su mensaje. Le contestaremos en un plazo de 48 horas.» Una respuesta automática no le resolvía nada. Pero el viernes por la mañana le escribió una persona de verdad, Rosa, del servicio al cliente. Le pidió perdón, le dijo que no había ninguna restricción en su caso, puesto que el error era de la tienda, y le explicó que el cambio no tendría ningún coste para él.\n\nEl sábado llegó la chaqueta mediana. Le quedaba perfecta. El lunes, Julián lo vio entrar en la cocina, todo de blanco, y sonrió: «Así me gusta, pinche.»\n\nPreguntas:\n¿Cuál es el primer trabajo de Álvaro?\nEs pinche de cocina en un restaurante del centro de Madrid.\n¿Qué talla seleccionó Álvaro?\nSeleccionó la talla mediana.\n¿Por qué añadió un segundo pantalón a su pedido?\nPara ahorrarse el coste del envío, que era gratis en pedidos de más de 50 euros.\n¿Qué restricción había en el apartado de cambios?\nSolo aceptaban cambios en un plazo de 14 días y con la factura.\n¿Qué envió Álvaro con su correo?\nEnvió la captura de pantalla del pedido y una foto de la factura.\n¿Qué recibió a los dos minutos?\nRecibió una respuesta automática."
+    },
+    {
+      "title": "El estreno de Lucila",
+      "summary": "In Buenos Aires, a young designer who used to make costumes for a theatre presents her first collection, with models of all ages chosen through an open call.",
+      "newWords": [
+        "comedia",
+        "estreno",
+        "convocatoria",
+        "excluir",
+        "polémica",
+        "coordinar",
+        "coordinador",
+        "pop",
+        "autorizado",
+        "captar",
+        "nena"
+      ],
+      "text": "Durante tres años, Lucila hizo la ropa de los actores de una comedia en un teatro de la calle Corrientes, en Buenos Aires. Era una comedia muy conocida, y Lucila conocía cada vestido de memoria. Pero ella soñaba con otra cosa: presentar su propia colección. Este otoño, por fin, llegó el estreno. No era un gran desfile, sino una tarde en un centro cultural del barrio, con sillas para cien personas.\n\nLo primero fue buscar a los modelos. Lucila no quería chicas iguales, todas altas y delgadas, así que publicó una convocatoria abierta en las redes. La convocatoria decía que no iba a excluir a nadie por su edad, su altura o su cuerpo. «No quiero excluir a nadie», le explicó a su abuela Elsa. «La ropa es para todo el mundo.» Se presentaron más de 200 personas: estudiantes, madres, abuelos y hasta una señora de 74 años.\n\nLa convocatoria provocó una pequeña polémica. Algunas personas escribieron que un desfile «de verdad» necesita modelos profesionales. Otras le dieron las gracias. Lucila leyó la polémica con calma y no contestó a nadie; pensó que la mejor respuesta era el estreno mismo.\n\nPara coordinar todo, la ayudó Marcos, un amigo del teatro. Marcos era el coordinador de la comedia, y estaba acostumbrado a coordinar a treinta actores a la vez. Como coordinador, se ocupó de la luz, de las entradas y de la música. Eligió canciones pop, alegres y conocidas. «Con música pop, la gente camina con más ganas», le dijo a Lucila.\n\nLa sala era pequeña, de modo que solo podían trabajar dos fotógrafos autorizados. Marcos les dio una tarjeta verde: con ella estaban autorizados a moverse por todas partes, incluso detrás del escenario. Lucila les pidió una sola cosa: que intentaran captar a las personas, no solo la ropa. «Quiero que se vea cómo se sienten», les dijo.\n\nLa tarde del estreno, Lucila estaba tan nerviosa que no podía comer. Su abuela le tomó la mano. «Nena, ya está todo hecho», le dijo. «Ahora solo tienes que mirar.» Empezó la música pop, se apagaron las luces de la sala y salió la primera modelo: la señora de 74 años, con un vestido rojo y una sonrisa enorme. El público aplaudió durante casi un minuto.\n\nAl día siguiente, una de las fotos estaba en todas partes. Uno de los fotógrafos había logrado captar el momento exacto en que la señora levantaba los brazos al final del desfile. Debajo de la foto, mucha gente escribió lo mismo: que quería un vestido así. Esa noche, la abuela llamó por teléfono: «Nena, estoy muy orgullosa de ti.»\n\nPreguntas:\n¿Qué hizo Lucila durante tres años?\nHizo la ropa de los actores de una comedia en un teatro de la calle Corrientes.\n¿Qué decía la convocatoria?\nDecía que no iba a excluir a nadie por su edad, su altura o su cuerpo.\n¿Por qué hubo una polémica?\nPorque algunas personas escribieron que un desfile de verdad necesita modelos profesionales.\n¿De qué se ocupó Marcos como coordinador?\nSe ocupó de la luz, de las entradas y de la música.\n¿Qué les pidió Lucila a los fotógrafos autorizados?\nLes pidió que intentaran captar a las personas, no solo la ropa.\n¿Quién salió primero en el estreno?\nSalió primero la señora de 74 años, con un vestido rojo."
+    },
+    {
+      "title": "Fotos sin trucos",
+      "summary": "A fashion journalist in Bogotá writes a column about retouched photos, talks with a model and convinces her magazine to be open about it.",
+      "newWords": [
+        "redacción",
+        "esquema",
+        "manipular",
+        "literalmente",
+        "conversar",
+        "homicidio",
+        "sancionar",
+        "transparencia",
+        "resaltar",
+        "específicamente",
+        "panorama"
+      ],
+      "text": "Trabajo desde hace ocho años en la redacción de una revista de moda en Bogotá. Nuestra redacción es una sala larga, con doce mesas y una pared llena de fotos. Cada lunes, a las 9, nos reunimos para hacer el esquema del número siguiente. En el esquema decidimos qué va en cada página, qué fotos usamos y qué tema va primero. Este mes, en el esquema faltaba algo: nadie sabía qué poner en la página 12. De ahí nace esta columna.\n\nPese a los años que llevo en este oficio, nunca me había hecho una pregunta sencilla: ¿cuánto manipulamos las fotos? Me la hizo una fotógrafa joven, Valentina. Puso en mi mesa dos fotos de la misma modelo, una antes y otra después del trabajo en la computadora. En la segunda, la modelo tenía la cintura más pequeña, la piel sin una sola marca y, literalmente, otro color de ojos. Se lo habían cambiado literalmente, de café a verde.\n\nEsa misma tarde llamé a la modelo, Juliana, y nos sentamos a conversar en una cafetería de la Candelaria. Conversamos durante casi dos horas. «Cuando me veo en una revista, no me reconozco», me contó. «Y lo peor es que mi hermana de 15 años cree que esa mujer existe.» No le molesta que arreglen la luz, con tal de que no le cambien el cuerpo.\n\nDe vuelta en la redacción, le pedí su opinión a Hernán, el compañero de la mesa de al lado. Hernán no escribe de moda: trabaja para el periódico del mismo grupo y lleva un mes siguiendo un caso de homicidio. Me escuchó y sonrió. «Yo paso el día con un homicidio», me dijo. «Si tu problema es una foto, tienes suerte.» Tiene razón en parte; sin embargo, una foto falsa también hace daño, aunque sea un daño pequeño y lento.\n\nEn algunos países ya hay leyes que sancionan a las revistas que publican una foto manipulada sin avisar. No creo que haga falta sancionar a nadie. Lo que hace falta es transparencia. Y quiero resaltar algo: no estoy en contra de toda edición. Me refiero específicamente a manipular el cuerpo de una persona, y específicamente cuando no se dice. La buena ropa debe resaltar a quien la lleva, no inventar a otra persona.\n\nEl panorama, por suerte, está cambiando. Cada vez más marcas colombianas muestran a sus modelos tal como son. En ese panorama, nuestra revista no quiere quedarse atrás. Por consiguiente, desde este número, cada foto llevará una pequeña nota que dirá si fue manipulada o no. Es un paso pequeño hacia la transparencia.\n\n¿Y la página 12? Ahí está la foto de Juliana tal como es, con sus ojos de color café, junto a esta columna.\n\nPreguntas:\n¿Para qué se reúne la redacción cada lunes?\nPara hacer el esquema del número siguiente.\n¿Qué le habían cambiado a la modelo en la segunda foto?\nLe habían cambiado la cintura, la piel y, literalmente, el color de los ojos.\n¿Dónde conversaron la autora y Juliana?\nConversaron en una cafetería de la Candelaria.\n¿Sobre qué escribe Hernán?\nEscribe para el periódico y lleva un mes siguiendo un caso de homicidio.\nSegún la autora, ¿qué hace falta?\nHace falta transparencia.\n¿Qué llevará cada foto desde este número?\nLlevará una pequeña nota que dirá si fue manipulada o no."
+    },
+    {
+      "title": "Diario de un corredor de invierno",
+      "summary": "A maths teacher in Montevideo starts running on winter nights and, after his sister's warning, buys clothes that make him visible in the dark.",
+      "newWords": [
+        "matemáticas",
+        "corredor",
+        "oscuridad",
+        "aficionado",
+        "casco",
+        "circulación",
+        "padecer",
+        "oreja",
+        "acelerar"
+      ],
+      "text": "Lunes 3 de junio\n\nHoy empecé a correr. Tengo 41 años, soy profesor de matemáticas en un colegio de Montevideo y, hasta ahora, mi único deporte era subir la escalera del colegio. Mi médica me dijo que tenía que moverme. Como en invierno se hace de noche muy temprano, solo puedo correr a las 7 de la tarde, junto al río, en plena oscuridad. Salí con la ropa de siempre: un pantalón negro, un abrigo gris oscuro y unos zapatos viejos. Corrí 20 minutos y volví a casa sin aire. No me siento todavía un corredor, pero algún día lo seré.\n\nMiércoles 5 de junio\n\nHoy vino a cenar mi hermana Florencia. Ella es aficionada a la bicicleta desde hace años y nunca sale sin su casco ni sus luces. Cuando le conté lo de mis carreras de noche, se puso muy seria. «¿Corres en la oscuridad con ropa negra?», me preguntó. «Para los autos eres un fantasma.» Me explicó que a esa hora hay mucha circulación junto al río: autos, autobuses, bicicletas. «Con tanta circulación, tienes que ser lo primero que vean», me dijo. «Yo me pongo el casco, una luz delante y otra detrás. Tú necesitas algo parecido.»\n\nViernes 7 de junio\n\nFuimos juntos a una tienda de deporte. El vendedor, un corredor de unos 60 años, nos atendió con mucha paciencia. Compré una camiseta amarilla con unas líneas que reflejan la luz de los autos en la oscuridad, y una pequeña luz roja para la espalda. También compré una cinta de lana para las orejas, porque padezco mucho el frío en las orejas; mi madre también lo padecía. El vendedor se rió: «En julio, aquí todos los corredores padecen el frío.»\n\nMartes 11 de junio\n\nHoy corrí con la ropa nueva. Florencia me esperó en su bicicleta, con su casco blanco, y me miró pasar. «¡Ahora sí te veo!», gritó. Me sentí tan bien que, en la última parte, decidí acelerar. Aceleré durante cinco minutos y llegué a casa contento y cansado. Como buen profesor de matemáticas, hice las cuentas: 4 kilómetros en 28 minutos. Las matemáticas no mienten: estoy mejorando.\n\nDomingo 30 de junio\n\nHoy corrí por primera vez con un grupo de aficionados que se reúne los domingos junto al río. Hay estudiantes, abuelos y hasta una señora que corre con su perro. Todos llevan algo amarillo o alguna luz, pese a que es de día. Aprendí que no hace falta acelerar siempre; lo importante es volver. Florencia dice que ahora brillo como un árbol de Navidad. Para un corredor de invierno, creo que es lo mejor que se puede decir.\n\nPreguntas:\n¿Qué trabajo tiene el autor del diario?\nEs profesor de matemáticas en un colegio de Montevideo.\n¿Por qué corre en la oscuridad?\nPorque en invierno se hace de noche muy temprano y solo puede correr a las 7 de la tarde.\n¿Qué le dijo su hermana Florencia?\nLe dijo que con ropa negra era un fantasma para los autos y que necesitaba algo para que lo vieran.\n¿Por qué compró una cinta de lana para las orejas?\nPorque padece mucho el frío en las orejas.\n¿Qué hizo en la última parte de la carrera del martes?\nDecidió acelerar, y aceleró durante cinco minutos.\n¿Quiénes se reúnen los domingos junto al río?\nSe reúne un grupo de aficionados a correr."
+    },
+    {
+      "title": "El vestido de los quince",
+      "summary": "In San Antonio, Texas, a girl wants a new dress for her fifteenth birthday party, but her grandmother turns her mother's old dress into something she loves.",
+      "newWords": [
+        "quince",
+        "inflación",
+        "optar",
+        "enojar",
+        "estancia",
+        "invito",
+        "felicitar",
+        "felicitación",
+        "delicioso"
+      ],
+      "text": "Ximena vive con sus padres en San Antonio, Texas, y en octubre cumple quince años. En su familia, como en muchas familias mexicanas, los quince son una fiesta muy especial: hay baile, comida para cien personas y, sobre todo, un vestido largo. Desde los diez años, Ximena soñaba con un vestido rosa, enorme, nuevo, de tienda.\n\nEn agosto fue con su madre, Gabriela, a mirar vestidos. Un vestido sencillo costaba casi 900 dólares. «Es la inflación», les explicó la vendedora. «Con la inflación, todo ha subido: la tela, el hilo, el transporte.» De vuelta a casa, en el carro, Gabriela hizo cuentas: con la inflación, la fiesta ya costaba el doble de lo que habían pensado.\n\nEsa noche, sus padres le propusieron otra idea. En una caja, en lo alto de un mueble, estaba guardado el vestido que Gabriela había llevado en sus propios quince, en Monterrey, hacía más de veinte años. Era blanco, con mangas largas. Podían optar por un vestido nuevo y una fiesta más pequeña, u optar por arreglar el vestido viejo y gastar mucho menos. Ximena se enojó muchísimo. «¡No quiero un vestido viejo!», dijo, y se fue a su cuarto. Gabriela sabía que su hija, cuando se enoja, necesita tiempo.\n\nA la semana siguiente llegó la abuela Toña desde Monterrey. Su estancia iba a ser larga: dos meses, hasta la fiesta. Durante su estancia, la abuela se instaló con su máquina de coser en la mesa de la cocina. Le pidió a Ximena que se probara el vestido viejo, solo una vez. Ximena aceptó sin ganas. La abuela le dijo: «Vamos a quitarle las mangas, a ponerle una tela rosa por debajo y flores en la falda. Tú eliges las flores.»\n\nDurante semanas, abuela y nieta trabajaron juntas cada tarde. Ximena eligió unas flores rosas pequeñas y ayudó a ponerlas. Mientras tanto, escribió a mano las invitaciones. En cada una puso la misma frase: «Te invito a mis quince.» A su mejor amiga le escribió algo más: «Te invito a ver el vestido antes que nadie.»\n\nEl día de la fiesta, el vestido parecía otro. Era blanco y rosa, sin mangas, con flores en la falda. Cuando Ximena entró en el salón, todos se levantaron para felicitarla. Sus tíos y sus amigas la felicitaron, y muchos quisieron felicitar también a la abuela por el vestido. Ximena recibió tantas felicitaciones que perdió la cuenta. La felicitación que más le gustó fue la de su madre, que le dijo al oído: «Te queda mejor que a mí.»\n\nDespués del baile llegó la comida, que estaba deliciosa, y un pastel de tres pisos, también delicioso. Esa noche, antes de dormir, Ximena guardó el vestido en su caja, con mucho cuidado, para su futura hija.\n\nPreguntas:\n¿Cuántos años cumple Ximena en octubre?\nCumple quince años.\n¿Por qué estaban tan caros los vestidos?\nPor la inflación: todo había subido.\n¿Por qué se enojó Ximena?\nPorque no quería un vestido viejo.\n¿Qué hizo la abuela Toña durante su estancia?\nArregló el vestido viejo con su máquina de coser, con ayuda de Ximena.\n¿Qué frase escribió Ximena en las invitaciones?\nEscribió: «Te invito a mis quince.»\n¿Qué felicitación le gustó más a Ximena?\nLa de su madre, que le dijo: «Te queda mejor que a mí.»"
+    },
+    {
+      "title": "Ropa para San Pedro",
+      "summary": "After an earthquake cuts off a fishing village in Guatemala, a teacher organises a collection of clean, sorted clothes and takes it there once the road opens.",
+      "newWords": [
+        "terremoto",
+        "ocasionar",
+        "pesca",
+        "aislado",
+        "bloqueo",
+        "librar",
+        "acoger",
+        "donación",
+        "sanidad"
+      ],
+      "text": "Un martes de noviembre, a las 5 de la mañana, hubo un terremoto en el oeste de Guatemala. En la capital, Andrea, maestra de primaria, se despertó con la cama moviéndose. Fueron solo unos segundos. En su barrio, el terremoto no ocasionó más que unos cuantos vasos rotos. Sin embargo, por la radio supo que en otras zonas había ocasionado daños graves.\n\nUno de esos lugares era San Pedro, un pueblo de pesca junto a un lago, donde vive la familia de su compañera Marta. Allí casi todas las familias viven de la pesca: los hombres salen al lago antes del amanecer y las mujeres venden el pescado en el mercado. El terremoto tiró muchas paredes, y varias familias perdieron la casa con todo lo que tenían dentro, también la ropa.\n\nEl pueblo se libró de lo peor: nadie murió. Pero quedó aislado. Unas grandes piedras habían caído sobre la única carretera, y el bloqueo duró casi una semana. Mientras el pueblo estuvo aislado, solo se podía llegar en lancha por el lago. Marta hablaba con su madre por teléfono cada noche. «Nos libramos del terremoto», le decía su madre, «pero de noche hace mucho frío y los niños no tienen qué ponerse.»\n\nAndrea decidió hacer algo. Habló con la directora, y la escuela aceptó acoger una recogida de ropa en el gimnasio. Durante diez días, el gimnasio acogió cientos de bolsas. Llegaron suéteres, pantalones, zapatos, mantas y hasta un vestido de novia, que nadie supo para qué servía. Cada donación se recibía en una mesa a la entrada, donde dos madres escribían en un cuaderno qué traía cada familia. Cada donación, por pequeña que fuera, recibía un «gracias».\n\nPronto aprendieron que dar ropa también tiene sus reglas. Una señora de la oficina de sanidad del barrio les explicó las normas: por razones de sanidad, solo podían enviar ropa limpia, en buen estado y bien cerrada en bolsas. «La ropa sucia, en un lugar sin agua, es un problema de sanidad», les dijo. De modo que los niños de sexto grado separaron la ropa por tallas y por edades, y apartaron la que estaba rota.\n\nCuando terminó el bloqueo, un camión de la municipalidad salió hacia San Pedro con todas las bolsas. Andrea y Marta viajaron con él. Tardaron seis horas, por la carretera todavía llena de piedras. En el pueblo las esperaban en la escuela, que también acogió a las familias sin casa durante esas semanas. Los niños se probaron los suéteres allí mismo. Un pescador viejo se puso una chaqueta azul, le quedaba enorme y, aun así, sonrió. «Para la pesca de la madrugada, esto es oro», dijo.\n\nPreguntas:\n¿Qué ocasionó el terremoto en el barrio de Andrea?\nNo ocasionó más que unos cuantos vasos rotos.\n¿De qué viven las familias de San Pedro?\nViven de la pesca.\n¿Por qué quedó aislado el pueblo?\nPorque unas grandes piedras cayeron sobre la única carretera y hubo un bloqueo de casi una semana.\n¿Dónde se recibía cada donación?\nEn una mesa a la entrada del gimnasio de la escuela.\n¿Qué ropa se podía enviar por razones de sanidad?\nSolo ropa limpia, en buen estado y bien cerrada en bolsas.\n¿Qué dijo el pescador viejo de su chaqueta?\nDijo que, para la pesca de la madrugada, era oro."
+    },
+    {
+      "title": "Cinco siglos de ropa en una sola tarde",
+      "summary": "A short newspaper report on a new exhibition in Mexico City that tells the country's history through its clothes, from before the conquest to the revolution.",
+      "newWords": [
+        "inaugurar",
+        "dictar",
+        "conquista",
+        "invasión",
+        "soberanía",
+        "agresión",
+        "perteneciente",
+        "mención"
+      ],
+      "text": "El jueves pasado se inauguró en el Centro Histórico de la Ciudad de México la exposición «Lo que llevamos puesto», en el Museo del Vestido. Es una exposición pequeña, de cinco salas, que cuenta la historia del país a través de su ropa. La entrada es gratuita hasta el mes de marzo.\n\nPara inaugurar la exposición, la historiadora Elena Ríos dictó una conferencia ante unas 200 personas. La doctora Ríos, que ha dado clases durante treinta años en la universidad, habló con calma y sin papeles. «La ropa no es solo moda», dijo. «Es también una manera de contar quiénes somos y qué nos ha pasado.»\n\nLa primera sala está dedicada a la ropa de los pueblos indígenas antes de la conquista. Hay telas de colores muy vivos, hechas a mano, con dibujos de animales y de flores. La segunda sala muestra lo que cambió con la conquista: llegaron nuevas telas, nuevos colores y nuevas formas de vestir, y las dos tradiciones se mezclaron poco a poco.\n\nLa tercera sala es, quizá, la más sorprendente. Está dedicada a la invasión francesa de 1862. Allí se ven los uniformes de los dos ejércitos, uno al lado del otro. La doctora Ríos explicó que, para los mexicanos de entonces, la invasión fue una agresión contra la soberanía del país. «Defender la soberanía también se hacía con la ropa», dijo. Muchas mujeres de la época dejaron de llevar vestidos a la moda de París y volvieron a la ropa del país, como respuesta a la agresión. En la misma sala hay un vestido perteneciente a una señora de Puebla, que lo hizo ella misma durante la invasión, con telas mexicanas.\n\nLa cuarta sala trata de la vida diaria en el siglo XIX, y la quinta, de la Revolución. En esta última hay objetos pertenecientes a familias de todo el país: chales, botones, cartas y fotos. Casi todos son donaciones recientes.\n\nMerece una mención especial el trabajo de los vecinos del barrio, que ayudaron a preparar la exposición. En la última pared, el museo hace una mención de cada familia que prestó algo. Entre ellas está la de doña Leticia Mora, de 79 años, que prestó el chal de su abuela. «Nunca pensé ver el chal de mi abuela en un museo», nos dijo, frente a la pared. «Ahora mis nietos saben de dónde vienen.»\n\nLa doctora Ríos dictará una segunda conferencia el sábado 14, a las 12, sobre la ropa de la Revolución. Con tal de que haya lugar, no hace falta reservar.\n\nPreguntas:\n¿Cuándo se inauguró la exposición?\nSe inauguró el jueves pasado.\n¿Quién dictó una conferencia para inaugurarla?\nLa historiadora Elena Ríos dictó una conferencia.\n¿Qué muestra la segunda sala?\nMuestra lo que cambió con la conquista: nuevas telas, nuevos colores y nuevas formas de vestir.\nSegún la doctora Ríos, ¿qué fue la invasión francesa para los mexicanos de entonces?\nFue una agresión contra la soberanía del país.\n¿Qué hay en la tercera sala, además de los uniformes?\nHay un vestido perteneciente a una señora de Puebla.\n¿Qué hace el museo en la última pared?\nHace una mención de cada familia que prestó algo."
+    }
+  ]
+}

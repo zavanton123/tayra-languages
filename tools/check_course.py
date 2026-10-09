@@ -133,8 +133,8 @@ UNACCENTED = str.maketrans("áéíóú", "aeiou")
 
 
 def spanish_verb_forms(words):
-    """Every form of the list's verbs, the words whose headword is an infinitive."""
-    return {form for key, (_, _, forms) in words.items() if key.endswith(("ar", "er", "ir", "ír")) for form in [key] + forms}
+    """Every form of the list's verbs, the words whose headword is an infinitive (arrepentirse too)."""
+    return {form for key, (_, _, forms) in words.items() if key.endswith(("ar", "er", "ir", "ír", "arse", "erse", "irse", "írse")) for form in [key] + forms}
 
 
 def spanish_imperative_infinitives(form):

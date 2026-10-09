@@ -1,0 +1,222 @@
+{
+  "id": "es-mini-3500",
+  "rankUpTo": 3500,
+  "level": "B2",
+  "title": "Tecnología y sociedad",
+  "description": "Ten everyday stories from Spain, Latin America and the United States about how technology changes ordinary lives: solar panels, a data attack, a taxi app, family memes, a filmed anthem, an online shop, village fibre, a digital inheritance, fire drones and a debate on digital money.",
+  "topic": "Technology and society",
+  "names": [
+    "Santiago",
+    "Carmen",
+    "Verónica",
+    "Pilar",
+    "Madrid",
+    "Álvaro",
+    "Jorge",
+    "Europa",
+    "Ernesto",
+    "Lupita",
+    "Ciudad de México",
+    "Teresa",
+    "Buenos Aires",
+    "Joaquín",
+    "Cusco",
+    "Yolanda Quispe",
+    "Yolanda",
+    "Killa",
+    "Inti Raymi",
+    "José de San Martín",
+    "Lima",
+    "Perú",
+    "Fiestas Patrias",
+    "Los Ángeles",
+    "Daniela",
+    "Texas",
+    "Chicago",
+    "Nueva York",
+    "Rosa",
+    "Ramón",
+    "Soria",
+    "Nuria",
+    "Valladolid",
+    "Julio",
+    "Montevideo",
+    "Mariela",
+    "Guanacaste",
+    "Costa Rica",
+    "México",
+    "Panamá",
+    "Camila",
+    "Bogotá",
+    "Andrés",
+    "Cali",
+    "Medellín",
+    "Barranquilla"
+  ],
+  "lessons": [
+    {
+      "title": "Paneles en el techo",
+      "summary": "A man in Santiago and his wife follow their neighbour, an economist, and put solar panels on the roof of their old house.",
+      "newWords": [
+        "panel",
+        "carbón",
+        "financiación",
+        "monto",
+        "considerable",
+        "tercio",
+        "brillar",
+        "conveniente",
+        "planificación",
+        "economista"
+      ],
+      "text": "Vivo en una casa vieja de Santiago, en un barrio tranquilo donde los inviernos son fríos y secos. Durante años calentamos la casa con carbón, como hacía mi padre. El carbón calienta bien, pero ensucia el aire, y cada mes la cuenta de la luz era más alta. Este año, por fin, mi mujer, Carmen, y yo decidimos poner paneles solares en el techo.\n\nLa idea no fue nuestra, sino de nuestra vecina Verónica, que es economista. Una tarde, mientras tomábamos un té en su jardín, nos mostró los paneles de su casa. Brillaban bajo el sol de marzo como un pequeño lago azul. «Desde que los tengo, pago un tercio de lo que pagaba antes», nos dijo. Un tercio. Carmen y yo nos miramos sin decir nada.\n\nComo buena economista, Verónica nos habló primero de la planificación. «Sin planificación, cualquier inversión sale mal», repetía. Nos ayudó a calcular cuánta energía usábamos, cuántos paneles necesitábamos y cuál era el monto total. El monto era considerable: casi lo mismo que habíamos pagado por nuestro auto. Si bien teníamos algo ahorrado, no nos alcanzaba.\n\nEntonces llegó la cuestión de la financiación. El banco nos ofrecía una financiación a cinco años, con una cuota mensual pequeña. Verónica revisó los números con calma y concluyó que nos era conveniente, puesto que la cuota era más baja que lo que íbamos a ahorrar en luz. «Es conveniente para ustedes y para el aire de Santiago», dijo. Pese a sus palabras, el préstamo nos daba un poco de miedo, pero firmamos.\n\nLos técnicos instalaron ocho paneles en un solo día. Esa noche dejamos de usar carbón para siempre. Mi hijo menor me preguntó si ahora el sol iba a entrar por el techo. Le expliqué que no: el sol se queda afuera, y su energía entra por un cable.\n\nHan pasado tres meses. La primera cuenta llegó en junio y, tal como había dicho Verónica, era un tercio de la anterior. Lo que ahorramos no es una fortuna, pero es considerable. Cada mañana, cuando salgo a trabajar, miro los paneles que brillan sobre la casa y pienso que la planificación de nuestra vecina valió la pena.\n\nPreguntas:\n¿Con qué calentaban la casa antes?\nLa calentaban con carbón, como hacía el padre del autor.\n¿Qué es Verónica?\nVerónica es economista y es la vecina del autor.\n¿Cuánto paga Verónica desde que tiene paneles?\nPaga un tercio de lo que pagaba antes.\n¿Por qué la financiación del banco era conveniente?\nPorque la cuota era más baja que lo que iban a ahorrar en luz.\n¿Cuántos paneles instalaron los técnicos?\nInstalaron ocho paneles en un solo día.\n¿Qué piensa el autor cuando mira los paneles?\nPiensa que la planificación de Verónica valió la pena."
+    },
+    {
+      "title": "El secuestro de los datos",
+      "summary": "A travel agent in Madrid finds her files locked by criminals, refuses to pay, and gets everything back thanks to her nephew's backups.",
+      "newWords": [
+        "secuestro",
+        "exigencia",
+        "transferir",
+        "depositar",
+        "ansiedad",
+        "sospecha",
+        "fuga",
+        "gravedad",
+        "fiscalía",
+        "presunto"
+      ],
+      "text": "Un lunes de febrero, Pilar llegó a su agencia de viajes, en el centro de Madrid, y encendió el ordenador como cada mañana. En la pantalla no apareció lo de siempre, sino un mensaje en letras rojas: todos los archivos de la agencia estaban bloqueados. Era un secuestro de datos. Los autores del secuestro tenían una exigencia muy clara: si Pilar quería recuperar sus archivos, debía transferir 5.000 euros a una cuenta desconocida antes del viernes.\n\nPilar sintió una ansiedad enorme. En esos archivos estaban los viajes de cientos de clientes, sus nombres, sus teléfonos y sus pasaportes. Con las manos temblando, llamó a su sobrino Álvaro, que trabaja en seguridad informática. Álvaro llegó en media hora, leyó el mensaje y le dijo: «Tía, no transfieras nada. Aunque pagues, nadie te garantiza que te devuelvan los archivos.»\n\nÁlvaro tenía una sospecha. Le preguntó a Pilar si alguien había abierto algún correo extraño en los últimos días. Ella llamó a su compañero, Jorge, y él recordó que el viernes había abierto un correo con una factura de un hotel que no conocía. La sospecha de Álvaro era correcta: el secuestro había entrado por ese correo.\n\nSin embargo, a Álvaro le preocupaba algo más. «El secuestro es grave», explicó, «pero una fuga de datos sería mucho peor. Si han copiado los datos de los clientes, la fuga afecta a cientos de personas.» Para medir la gravedad del problema, revisó la red de la agencia durante toda la tarde.\n\nAl día siguiente, Pilar y Jorge fueron a la policía. Allí les dijeron que el caso pasaba a la fiscalía, porque había muchas empresas en la misma situación. Una mujer de la fiscalía les habló con calma: «Estamos investigando a un presunto grupo de delincuentes que hace esto en toda Europa. No depositéis ni un euro en esa cuenta. Cada vez que alguien deposita dinero, el grupo se hace más fuerte.»\n\nPor suerte, Álvaro había instalado en la agencia una copia de seguridad que se hacía cada noche. En dos días recuperó todos los archivos. Además, descubrió que no había habido ninguna fuga: los datos de los clientes estaban a salvo, de modo que la gravedad del caso era menor de lo que temían.\n\nUn mes después, la fiscalía anunció que había detenido al presunto jefe del grupo. Pilar, ya sin ansiedad, organizó una pequeña clase en la agencia. Ahora todos saben que un correo extraño no se abre nunca.\n\nPreguntas:\n¿Qué apareció en la pantalla del ordenador de Pilar?\nApareció un mensaje en letras rojas: todos los archivos estaban bloqueados.\n¿Cuál era la exigencia de los autores del secuestro?\nPilar debía transferir 5.000 euros a una cuenta desconocida antes del viernes.\n¿Por dónde había entrado el secuestro?\nHabía entrado por un correo con una factura falsa que Jorge abrió el viernes.\n¿Por qué le preocupaba a Álvaro una fuga de datos?\nPorque, si habían copiado los datos de los clientes, la fuga afectaba a cientos de personas.\n¿Qué les dijo la mujer de la fiscalía?\nLes dijo que no depositaran ni un euro en esa cuenta.\n¿Cómo recuperó Álvaro los archivos?\nLos recuperó gracias a una copia de seguridad que se hacía cada noche."
+    },
+    {
+      "title": "Don Ernesto y la aplicación",
+      "summary": "An old taxi driver in Mexico City tries the navigation app his daughter installs and learns to use it alongside his own knowledge of the streets.",
+      "newWords": [
+        "autopista",
+        "curva",
+        "metropolitano",
+        "cuadra",
+        "ordinario",
+        "variación",
+        "cuarenta",
+        "vistazo",
+        "triple",
+        "cansar"
+      ],
+      "text": "Don Ernesto lleva cuarenta años manejando un taxi en la Ciudad de México. Conoce cada calle, cada cuadra y cada curva de la ciudad. Por eso, cuando su hija Lupita le instaló una aplicación de mapas en el celular, él se rió. «Yo no necesito que un teléfono me diga por dónde ir», le dijo.\n\nLupita no se rindió. «Papá, la aplicación sabe dónde hay tráfico en este momento. Tú conoces las calles, pero no puedes ver toda el área metropolitana a la vez.» Don Ernesto aceptó probarla una semana, con tal de que su hija dejara de insistir.\n\nEl lunes fue un día ordinario. Un señor le pidió ir al aeropuerto. Don Ernesto echó un vistazo a la pantalla: la aplicación le proponía tomar la autopista. Él prefería ir por las calles de siempre, pero esta vez obedeció. En la autopista no había casi coches, y llegaron en veinte minutos. Por las calles de siempre habría tardado cuarenta.\n\nEl viernes, en cambio, no fue un día ordinario. Llovía mucho y había un partido de fútbol en el estadio. La aplicación anunció que el tráfico era el triple de lo normal. Don Ernesto echó otro vistazo al mapa: la autopista estaba roja, llena de coches. Entonces él recordó una calle pequeña, a dos cuadras del mercado, que la aplicación no conocía bien. Dejó la autopista en la siguiente curva, entró por esa calle y ganó media hora. Esta vez el maestro fue él.\n\nEsa noche, en casa, le contó todo a Lupita. Ella le explicó que la aplicación estudia la variación del tráfico durante el día: a las 8 de la mañana el área metropolitana se llena; a las 11 se vacía un poco; a las 6 de la tarde vuelve a llenarse. Con esa variación calcula el mejor camino. «Pero no conoce todas las cuadras como tú», le dijo ella.\n\nDon Ernesto tiene que admitir que manejar con la aplicación lo cansa menos. Antes, en los días de lluvia, lo cansaban sobre todo los nervios: no saber si iba a llegar a tiempo. Ahora sabe cuánto va a tardar, y los clientes también. Si bien sigue prefiriendo sus calles, ya no apaga el celular. Cada mañana echa un vistazo al mapa, lo compara con lo que él sabe y elige. Dice que, después de cuarenta años, ha encontrado un buen compañero de trabajo.\n\nPreguntas:\n¿Cuántos años lleva don Ernesto manejando un taxi?\nLleva cuarenta años manejando un taxi en la Ciudad de México.\n¿Qué le instaló Lupita en el celular?\nLe instaló una aplicación de mapas.\n¿Qué pasó el lunes, cuando tomó la autopista?\nLlegó al aeropuerto en veinte minutos, en lugar de cuarenta.\n¿Por qué el viernes no fue un día ordinario?\nPorque llovía mucho, había un partido de fútbol y el tráfico era el triple de lo normal.\n¿Qué estudia la aplicación para calcular el mejor camino?\nEstudia la variación del tráfico durante el día.\n¿Por qué lo cansa menos manejar con la aplicación?\nPorque ahora sabe cuánto va a tardar y ya no tiene tantos nervios."
+    },
+    {
+      "title": "Los memes de la abuela",
+      "summary": "A grandmother in Buenos Aires stops pretending to understand the memes in the family chat and, with her grandson's help, becomes a meme herself.",
+      "newWords": [
+        "meme",
+        "fingir",
+        "adivinar",
+        "tontería",
+        "estupidez",
+        "chupar",
+        "rasgo",
+        "motivar",
+        "sombrero",
+        "elegante"
+      ],
+      "text": "Me llamo Teresa, tengo 72 años y vivo en Buenos Aires. Hace un año mis hijos me regalaron un teléfono nuevo y me agregaron al grupo de la familia. Desde entonces, cada día recibo decenas de fotos con frases. Mi nieto Joaquín me explicó que se llaman memes.\n\nAl principio yo no entendía casi ningún meme. Veía un perro con cara seria y una frase debajo, y todos en el grupo se reían. Yo, para no quedar mal, fingía que lo entendía. Escribía «jaja» y ponía una carita. Fingí durante meses. Algunas veces intentaba adivinar el chiste, pero casi nunca lo conseguía adivinar.\n\nUn domingo, Joaquín vino a almorzar. Tiene doce años, es paciente y tiene un rasgo que admiro mucho: nunca se ríe de nadie. Mientras chupaba un caramelo de menta, se sentó a mi lado con mi teléfono. «Abuela, ¿por qué te ríes de este meme si no lo entiendes?», me preguntó. Le confesé la verdad: que me daba vergüenza preguntar.\n\n«Eso es una tontería, abuela», me dijo, y siguió chupando el caramelo. «Un meme no es nada serio. A veces es una estupidez total, y por eso es gracioso.» Entonces me explicó el truco: cada meme tiene un rasgo que se repite, una imagen conocida, y lo que cambia es la frase. Me mostró diez memes del mismo perro, y al final adiviné yo sola el chiste del último. Me reí de verdad, sin fingir.\n\nEsa tarde descubrí que, detrás de cada tontería, hay algo de la vida de todos los días. Y eso me motivó a hacer mi propio meme. Joaquín me sacó una foto con el sombrero elegante que uso para las bodas, un sombrero negro con una flor. Debajo escribimos: «Cuando tu nieto te dice que vas a entender los memes».\n\nLo mandé al grupo. En cinco minutos tenía cuarenta respuestas. Mi hija escribió que era la abuela más elegante de internet. Ahora, cuando no entiendo algo, pregunto. Y cuando alguien de la familia está triste, le mando la foto del sombrero. Dicen que nada los motiva tanto como verme a mí haciendo estupideces en internet.\n\nPreguntas:\n¿Qué hacía Teresa cuando no entendía un meme?\nFingía que lo entendía: escribía «jaja» y ponía una carita.\n¿Qué rasgo de Joaquín admira Teresa?\nAdmira que nunca se ríe de nadie.\n¿Qué hacía Joaquín mientras hablaba con su abuela?\nChupaba un caramelo de menta.\n¿Qué truco le explicó Joaquín?\nQue cada meme tiene un rasgo que se repite, y lo que cambia es la frase.\n¿Qué la motivó a hacer su propio meme?\nLa motivó descubrir que detrás de cada tontería hay algo de la vida de todos los días.\n¿Qué escribió su hija sobre la foto?\nEscribió que era la abuela más elegante de internet."
+    },
+    {
+      "title": "El himno en quechua",
+      "summary": "A school choir in Cusco films the national anthem in Quechua for the city's website before the national holidays.",
+      "newWords": [
+        "municipalidad",
+        "coro",
+        "himno",
+        "traducido",
+        "filmar",
+        "fragmento",
+        "civilización",
+        "ritual",
+        "proclamar"
+      ],
+      "text": "En junio, la municipalidad de Cusco llamó por teléfono a la profesora Yolanda Quispe. Le pidieron algo especial para las Fiestas Patrias: un video del coro de su escuela cantando el himno nacional en quechua. La municipalidad quería publicarlo en su página web y en sus redes el 28 de julio.\n\nEl coro tenía veinte niños de diez a doce años. Todos sabían cantar el himno en castellano, pero solo algunos hablaban quechua en casa. La profesora consiguió el himno traducido al quechua por un grupo de maestros de la región. Lo imprimió y le dio una copia a cada niño. «Este himno traducido es el mismo himno», les explicó, «solo que con las palabras de nuestros abuelos».\n\nDurante tres semanas ensayaron todas las tardes. Primero aprendieron un solo fragmento, la primera parte del himno. Cuando ese fragmento salió bien, pasaron al siguiente. Una niña, Killa, ayudaba a sus compañeros con la pronunciación, porque su abuela le hablaba siempre en quechua.\n\nLa profesora aprovechó los ensayos para contarles la historia. Les recordó que el quechua era la lengua de la civilización inca, una civilización que construyó caminos, puentes y ciudades como el propio Cusco. También les habló del Inti Raymi, el antiguo ritual del sol que todavía se celebra cada 24 de junio en la ciudad. «Cantar juntos también es una especie de ritual», les dijo. Y les explicó que el 28 de julio de 1821 José de San Martín eligió la plaza mayor de Lima para proclamar la independencia del Perú. «Cuando cantamos el himno, volvemos a proclamar esa libertad.»\n\nEl día de la grabación, un joven de la municipalidad llegó con una cámara. Decidieron filmar el video en la plaza principal, con la catedral detrás. Filmaron el himno cuatro veces. La primera vez un perro cruzó delante del coro; la segunda, sonó un celular. La cuarta vez todo salió perfecto, y los niños aplaudieron al terminar.\n\nEl 28 de julio, la municipalidad publicó el video. En dos días lo vieron más de 100.000 personas, en el Perú y fuera del país. La abuela de Killa lo vio en el teléfono de su nieta y le pidió ponerlo otra vez. Después cantó en voz baja un fragmento, con las mismas palabras en quechua.\n\nPreguntas:\n¿Qué le pidió la municipalidad a la profesora Yolanda?\nLe pidió un video del coro de su escuela cantando el himno nacional en quechua.\n¿Quién había traducido el himno al quechua?\nLo había traducido un grupo de maestros de la región.\n¿Cómo aprendieron el himno los niños?\nAprendieron un fragmento cada vez, durante tres semanas.\n¿Qué es el Inti Raymi?\nEs el antiguo ritual del sol que todavía se celebra cada 24 de junio en Cusco.\n¿Dónde decidieron filmar el video?\nDecidieron filmarlo en la plaza principal, con la catedral detrás.\n¿Qué hizo la abuela de Killa al ver el video?\nLe pidió ponerlo otra vez y cantó en voz baja un fragmento en quechua."
+    },
+    {
+      "title": "Carteras en internet",
+      "summary": "A Mexican-American seamstress in Los Angeles opens an online shop for her handmade bags with her daughter's help.",
+      "newWords": [
+        "cartera",
+        "catálogo",
+        "reseña",
+        "calificación",
+        "promocionar",
+        "exclusivo",
+        "modalidad",
+        "adquisición",
+        "millonario"
+      ],
+      "text": "Querida hermana:\n\nTe escribo desde Los Ángeles con una noticia. ¿Te acuerdas de las carteras que hago a mano desde hace años? Hasta ahora solo las vendía a las vecinas y a las señoras de la iglesia. Pues desde hace dos meses las vendo también por internet. La idea fue de mi hija Daniela, que estudia diseño en la universidad.\n\nPrimero hicimos un catálogo. Daniela le sacó fotos a cada cartera en el patio, con la luz de la mañana, y escribió debajo el precio, el tamaño y los colores. El catálogo tiene 25 carteras. Cada una es un modelo exclusivo, porque nunca hago dos iguales. Daniela dice que lo exclusivo es lo que más atrae a la gente: nadie quiere salir a la calle con la misma cartera que su vecina.\n\nDespués había que promocionar la tienda. Yo no sabía cómo promocionar nada en internet, pero Daniela abrió una cuenta en las redes y empezó a promocionar las carteras con videos cortos. En uno de ellos salgo yo cosiendo en mi máquina. Ese video lo vieron miles de personas.\n\nLa primera clienta fue una señora de Texas. Una semana después de recibir su cartera, escribió una reseña: decía que la cartera era preciosa y que había llegado muy bien envuelta. Le dio una calificación de cinco estrellas. Desde entonces leo cada reseña con el corazón en la mano. La mayoría tienen la calificación más alta; solo una clienta se quejó de que el envío tardó mucho, y tenía razón.\n\nTambién aprendí mucho sobre las formas de pago. En la tienda hay dos modalidades: pagar todo al hacer el pedido o pagar en tres meses. Muchas clientas eligen la segunda modalidad, porque una cartera de cuero no es barata.\n\nCon lo que gané el primer mes hice una adquisición importante: una máquina de coser nueva, más rápida que la vieja. Fue la mejor adquisición de mi vida, aunque me costó decidirme. Ahora puedo hacer el doble de carteras en el mismo tiempo.\n\nNo te asustes: no me voy a hacer millonaria. Nadie se hace millonario cosiendo carteras. Pero me gusta pensar que una cartera hecha en mi cocina está ahora en Chicago o en Nueva York. Cuando vengas a visitarnos en diciembre, te voy a hacer una cartera con un modelo exclusivo, solo para ti.\n\nUn abrazo muy fuerte,\nRosa\n\nPreguntas:\n¿Desde cuándo vende Rosa sus carteras por internet?\nLas vende por internet desde hace dos meses.\n¿Por qué cada cartera es un modelo exclusivo?\nPorque Rosa nunca hace dos iguales.\n¿Cómo promocionó Daniela las carteras?\nLas promocionó en las redes con videos cortos.\n¿Qué calificación le dio la primera clienta?\nLe dio una calificación de cinco estrellas.\n¿Cuáles son las dos modalidades de pago?\nPagar todo al hacer el pedido o pagar en tres meses.\n¿Qué adquisición hizo Rosa con lo que ganó el primer mes?\nCompró una máquina de coser nueva, más rápida que la vieja."
+    },
+    {
+      "title": "La fibra llega al pueblo",
+      "summary": "In a small village in Soria, fibre internet finally arrives, and a grandfather who cuts his finger sees a doctor by video call for the first time.",
+      "newWords": [
+        "fibra",
+        "reparación",
+        "sometido",
+        "utilización",
+        "fundamento",
+        "cuchillo",
+        "ángulo",
+        "fiebre",
+        "comprensión"
+      ],
+      "text": "Ramón tiene 80 años y vive en un pueblo pequeño de Soria, donde hoy quedan solo 30 vecinos. Durante años, la conexión a internet del pueblo fue muy mala. La línea se rompía con cada tormenta, y la reparación tardaba semanas. Cada vez que Ramón llamaba para pedir una reparación, le decían que el pueblo estaba demasiado lejos.\n\nEste otoño, por fin, llegó la fibra. Unos técnicos pasaron un cable de fibra óptica por la carretera hasta la plaza. Antes de ponerla en marcha, la nueva línea fue sometida a varias pruebas durante una semana. Cuando terminaron, uno de los técnicos explicó a los vecinos que la fibra era cien veces más rápida que la línea vieja.\n\nAl principio, Ramón no le veía mucha utilización. «¿Para qué quiero yo internet tan rápido?», le preguntó a su nieta Nuria, que vive en Valladolid. Nuria le explicó que la utilización más importante para él podía ser la salud. El centro médico más cercano está a cuarenta minutos en coche, y ahora el médico puede atender por videollamada. «El fundamento es sencillo», le dijo ella. «Si el médico te puede ver y oír, muchas veces no hace falta que vayas.»\n\nDos semanas después, Ramón lo comprobó. Estaba pelando patatas con un cuchillo cuando el cuchillo se le escapó y se cortó un dedo. No era un corte grande, pero sangraba bastante. Llamó a Nuria, y ella le explicó por teléfono cómo conectar con el centro médico desde el móvil.\n\nLa doctora apareció en la pantalla en pocos minutos. Le pidió que pusiera la mano cerca de la cámara, en un ángulo en el que se viera bien el corte. Ramón no encontraba el ángulo correcto, y la doctora esperó con mucha comprensión. «Tranquilo, no tenemos prisa», le dijo. Cuando por fin vio la herida, le hizo varias preguntas: si le dolía mucho, si podía mover el dedo y si tenía fiebre. Ramón le dijo que no tenía fiebre. La doctora le explicó cómo limpiar el corte y cubrirlo, y le pidió que volviera a llamar si aparecía fiebre al día siguiente.\n\nNo apareció. A la semana, el dedo estaba casi curado. Ahora Ramón entiende el fundamento del que hablaba Nuria, y cuenta a todos los vecinos que la fibra le ahorró un viaje. Lo que más le gustó, dice, fue la comprensión de la doctora, que lo trató como si estuviera en la consulta. Desde entonces, guarda el cuchillo de las patatas con mucho más cuidado.\n\nPreguntas:\n¿Qué pasaba antes con la línea de internet del pueblo?\nSe rompía con cada tormenta, y la reparación tardaba semanas.\n¿Qué hicieron con la nueva línea antes de ponerla en marcha?\nLa nueva línea fue sometida a varias pruebas durante una semana.\nSegún Nuria, ¿cuál podía ser la utilización más importante de la fibra para Ramón?\nLa salud, porque el médico puede atender por videollamada.\n¿Cómo se cortó Ramón?\nSe cortó un dedo con un cuchillo mientras pelaba patatas.\n¿Qué le pidió la doctora?\nLe pidió que pusiera la mano cerca de la cámara, en un ángulo en el que se viera bien el corte.\n¿Qué fue lo que más le gustó a Ramón?\nLe gustó la comprensión de la doctora."
+    },
+    {
+      "title": "El ordenador de mi abuelo",
+      "summary": "A columnist in Montevideo inherits her grandfather's computer and, in sorting his tidy files, finds a way through her grief.",
+      "newWords": [
+        "heredero",
+        "duelo",
+        "cementerio",
+        "estima",
+        "varón",
+        "leal",
+        "ordenado",
+        "revés",
+        "tortura"
+      ],
+      "text": "Mi abuelo Julio murió en abril, en Montevideo, a los 91 años. Era un hombre tranquilo, muy ordenado, que guardaba cada cosa en su lugar. Tenía tres hijas y ningún hijo varón. Mi abuela decía a veces que él había querido un varón, pero él siempre respondía que sus tres hijas valían más que nada en el mundo. Entre sus seis nietos yo era la única que sabía arreglar computadoras. Quizás por eso, en su testamento, me dejó a mí su computadora. Así me convertí en la heredera de una máquina vieja y lenta, y de todo lo que había dentro.\n\nLas primeras semanas no quise encenderla. Estaba en pleno duelo, y cada objeto del abuelo me dolía. Iba al cementerio los domingos con mi madre, le llevábamos flores y volvíamos a casa en silencio. En el cementerio, por lo menos, sabía qué hacer. Con la computadora, no.\n\nUn sábado de mayo, por fin, la encendí. Lo primero fue encontrar la contraseña, y eso fue una tortura. Probé su fecha de nacimiento, también escrita al revés, el nombre de mi abuela, el nombre de su perro. Nada. Después de una hora de tortura, la encontré escrita en un papel, pegado al revés debajo del teclado. El abuelo era muy ordenado, pero no confiaba en su memoria.\n\nDentro de la computadora todo estaba tan ordenado como su casa. Había una carpeta para cada nieto, con nuestras fotos, nuestras notas del colegio y los dibujos que le hacíamos de niños. Había también una carpeta con cartas de sus amigos del barrio. Las leí todas. En ellas se veía la estima que le tenía la gente. Un vecino le agradecía su ayuda durante una inundación; otro decía que era el amigo más leal que había tenido.\n\nEsa palabra, leal, me quedó en la cabeza. El abuelo fue leal a sus amigos, a su barrio y a su club de fútbol durante 70 años. Fue leal también a sus costumbres: cada mañana, a las 7, escribía unas líneas en un archivo que se llamaba simplemente «Hoy».\n\nLeí ese archivo durante una semana entera. No contaba nada extraordinario: el tiempo, lo que había comido, una llamada de alguna nieta. Pero al leerlo, el duelo empezó a cambiar. Ya no sentía solo la falta del abuelo, sino también su compañía.\n\nHoy pienso que un heredero no recibe solo cosas. Recibe también una responsabilidad. La mía es cuidar esas carpetas y compartirlas. Por eso hice una copia para cada primo, para que todos tengamos algo de la estima que él nos tenía.\n\nPreguntas:\n¿Por qué el abuelo le dejó la computadora a la autora?\nPorque era la única de los nietos que sabía arreglar computadoras.\n¿Qué hacía la autora los domingos durante el duelo?\nIba al cementerio con su madre y le llevaban flores al abuelo.\n¿Dónde estaba la contraseña?\nEstaba escrita en un papel, pegado al revés debajo del teclado.\n¿Qué decía un amigo en una de las cartas?\nDecía que el abuelo era el amigo más leal que había tenido.\n¿Qué escribía el abuelo cada mañana?\nEscribía unas líneas en un archivo que se llamaba «Hoy».\n¿Por qué hizo la autora una copia para cada primo?\nPara que todos tengan algo de la estima que el abuelo les tenía."
+    },
+    {
+      "title": "Drones contra el fuego",
+      "summary": "A forest engineer in Guanacaste, Costa Rica, uses a drone to spot a fire early, and firefighters put it out before it spreads.",
+      "newWords": [
+        "forestal",
+        "brutal",
+        "gota",
+        "esfera",
+        "bruto",
+        "derivar",
+        "agresivo",
+        "litro",
+        "continental"
+      ],
+      "text": "Mariela es ingeniera forestal y trabaja en un parque nacional de Guanacaste, en el norte de Costa Rica. En la estación seca, de diciembre a abril, su mayor preocupación son los incendios. Ese año el calor era brutal: hacía tres meses que no caía ni una gota de lluvia, y los árboles estaban secos como papel.\n\nDesde hacía un año, el servicio forestal usaba drones para vigilar el bosque. El dron de Mariela era pequeño y blanco. Debajo llevaba una esfera negra, del tamaño de una naranja, y dentro de esa esfera iba una cámara que podía ver el calor. Gracias a la esfera, la cámara podía girar hacia cualquier lado mientras el dron volaba.\n\nCada mañana, Mariela hacía volar el dron sobre el parque durante una hora. El dron enviaba los datos en bruto a su computadora: miles de imágenes, todavía sin ordenar. Los datos en bruto no decían mucho a simple vista. Pero un programa los estudiaba y, de esos datos, se derivaban mapas de calor muy precisos. De los mapas se derivaba también una lista de zonas peligrosas.\n\nUn martes de marzo, el mapa mostró un punto rojo cerca de un río. Mariela llamó enseguida a los bomberos. Era un fuego pequeño, provocado quizás por un cigarro, pero el viento soplaba fuerte y el fuego podía volverse agresivo en pocos minutos. Con ese calor brutal, un fuego agresivo puede destruir cientos de hectáreas en una tarde.\n\nLos bomberos llegaron en media hora. Un helicóptero tiró sobre el fuego miles de litros de agua tomados del río. Cada viaje llevaba unos mil litros. En el río quedaba poca agua, pero cada gota servía. Después de seis viajes, el fuego estaba apagado. En total se quemaron solo dos hectáreas.\n\nEsa noche, Mariela escribió un informe para el servicio forestal. Explicó que sin el dron habrían visto el humo dos o tres horas más tarde, cuando el fuego ya habría sido mucho más agresivo. Unas semanas después la invitaron a presentar su trabajo en una reunión continental, con expertos de México a Panamá. Allí se habló de crear una red continental de drones para proteger los bosques de toda la región.\n\nMariela volvió a Guanacaste contenta. Sabe que la tecnología no hace llover, pero ayuda a llegar a tiempo.\n\nPreguntas:\n¿Qué es Mariela y dónde trabaja?\nEs ingeniera forestal y trabaja en un parque nacional de Guanacaste.\n¿Cómo era el calor ese año?\nEl calor era brutal: hacía tres meses que no caía ni una gota de lluvia.\n¿Qué había dentro de la esfera negra del dron?\nHabía una cámara que podía ver el calor.\n¿Qué se derivaba de los datos en bruto?\nSe derivaban mapas de calor muy precisos y una lista de zonas peligrosas.\n¿Cuántos litros de agua llevaba el helicóptero en cada viaje?\nLlevaba unos mil litros de agua.\n¿De qué se habló en la reunión continental?\nSe habló de crear una red continental de drones para proteger los bosques."
+    },
+    {
+      "title": "El torneo de debate",
+      "summary": "A student in Bogotá is chosen by her university's debate society to argue about digital money at a national tournament.",
+      "newWords": [
+        "agrupación",
+        "directiva",
+        "estatuto",
+        "designar",
+        "bando",
+        "monetario",
+        "socialismo",
+        "demócrata",
+        "proveniente"
+      ],
+      "text": "Camila estudia economía en Bogotá y forma parte de una agrupación de estudiantes que se dedica al debate. La agrupación tiene cuarenta miembros y una directiva de cinco personas, elegidas cada año. Según el estatuto de la agrupación, la directiva es la que designa a los estudiantes que representan a la universidad en los torneos.\n\nEn septiembre llegó la invitación a un torneo nacional en Cali. La directiva se reunió y, para sorpresa de Camila, la designó a ella junto a su compañero Andrés. Los designaron porque eran los que mejor conocían el tema del torneo: «¿Debe el dinero digital reemplazar al dinero de papel?»\n\nEn un debate hay siempre dos bandos: uno a favor y otro en contra. El tema se sabe con un mes de anticipación, pero el bando se sortea una hora antes de empezar. Por eso Camila y Andrés tenían que preparar los dos lados. Leyeron sobre el sistema monetario de varios países y sobre la política monetaria de los bancos centrales. También leyeron historia. En el siglo pasado, el capitalismo y el socialismo discutieron mucho sobre quién debe controlar el dinero; Camila hizo un resumen de lo que pensaba cada lado, aunque sabía que el socialismo no era el tema central.\n\nAndrés, que es muy demócrata, insistía en un punto: en un buen debate se escucha con respeto al otro bando. «Un demócrata no gana gritando, gana con argumentos», repetía. Camila estaba de acuerdo.\n\nEl día del torneo, en Cali, les tocó el bando en contra del dinero digital. Su primer rival fue un equipo proveniente de Medellín, muy bien preparado. Después se enfrentaron a dos estudiantes provenientes de Barranquilla. Camila habló de las personas mayores que no usan el celular y de los pueblos sin buena conexión. Andrés explicó los riesgos del sistema monetario cuando todo depende de una red.\n\nNo ganaron el torneo, pero quedaron en tercer lugar entre veinte universidades. Al volver a Bogotá, la directiva organizó una pequeña fiesta. Según el estatuto, los representantes deben contar lo que aprendieron, así que Camila preparó una charla para los nuevos miembros. Empezó con la frase de Andrés: un buen debate no se gana gritando.\n\nPreguntas:\n¿Qué dice el estatuto de la agrupación sobre los torneos?\nDice que la directiva designa a los estudiantes que representan a la universidad.\n¿A quiénes designó la directiva para el torneo de Cali?\nDesignó a Camila y a su compañero Andrés.\n¿Cuándo se sortea el bando de cada equipo?\nSe sortea una hora antes de empezar.\n¿Sobre qué leyeron Camila y Andrés?\nLeyeron sobre el sistema monetario de varios países, la política monetaria y la historia del capitalismo y el socialismo.\n¿Qué repetía Andrés?\nRepetía que un demócrata no gana gritando, sino con argumentos.\n¿De dónde era el primer equipo rival?\nEra un equipo proveniente de Medellín."
+    }
+  ]
+}
