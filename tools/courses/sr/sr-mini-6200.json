@@ -1,0 +1,210 @@
+{
+  "id": "sr-mini-6200",
+  "rankUpTo": 6200,
+  "level": "C1",
+  "title": "Rudarstvo i prirodna bogatstva",
+  "description": "Ten calm, varied texts about mining and natural resources: museum minerals, geologists in the field, a quarry visit, a miners' family, water, forests, a fair, a guest lecture, recycling and a geologist's collection.",
+  "topic": "Mining and natural resources",
+  "names": [
+    "Nikola",
+    "Jelena",
+    "Beograd",
+    "Ana",
+    "Dragan",
+    "Bor",
+    "Srbija",
+    "Novi Sad",
+    "Fruška gora",
+    "Teodora",
+    "Luka",
+    "Bojan",
+    "Dunja",
+    "Vera",
+    "Milorad",
+    "Spasoje",
+    "Lazar",
+    "Mila",
+    "Zlatibor",
+    "Slavica",
+    "Radmila",
+    "Tara",
+    "Kaluđerske Bare",
+    "Aranđelovac",
+    "Tamara",
+    "Zoran",
+    "Čačak",
+    "Katarina",
+    "Niš",
+    "Ilija",
+    "Marta",
+    "Sanja",
+    "Lece",
+    "Italija",
+    "Jovana",
+    "Štutgart",
+    "Marko",
+    "Tomas",
+    "Nemačka",
+    "Branka",
+    "Kragujevac",
+    "Lena",
+    "Grčka"
+  ],
+  "lessons": [
+    {
+      "title": "Kamenje u staklenim vitrinama",
+      "summary": "A boy visits his aunt, a geologist, at a mineral museum in Beograd and is charmed by crystals and a duchess's necklace.",
+      "newWords": [
+        "izlagati",
+        "dojam",
+        "papuča",
+        "očarati",
+        "buket",
+        "delikatan",
+        "vojvotkinja",
+        "planirano"
+      ],
+      "text": "Nikola je u subotu prvi put došao u muzej u kome radi njegova tetka Jelena. Ona proučava kamenje i brine o zbirci minerala, koja se čuva u staroj zgradi u centru Beograda. Pre nego što su ušli u veliku salu, čuvar im je dao papuče koje se stavljaju preko cipela.\n\n— Pod je star i vrlo delikatan — objasnila je Jelena. — Papuče ga čuvaju od prašine i od sitnog kamenja.\n\nNikola se smejao dok je u tim papučama klizao po glatkom podu, ali je brzo prestao, jer je video prvu veliku kutiju od stakla. U njoj je stajao buket kristala, ljubičastih i sjajnih. Prvo je pomislio da je to buket cveća, samo od kamena, pa je ostao bez reči.\n\n— Naš muzej izlaže skoro hiljadu minerala — rekla je Jelena — ali ih ne izlaže sve odjednom. Svake godine biramo drugi deo zbirke, da posetioci uvek vide nešto novo.\n\nNikola je bio očaran. Išao je od jedne staklene kutije do druge i čitao nazive. Jelena mu je pokazala kako jedan žuti kamen sija kao zlato, i kako se svaki kamen razlikuje po boji, težini i obliku. Kad god bi on stao, ona bi mu ispričala iz kog rudnika ili sa koje planine taj kamen dolazi.\n\nNajveći dojam na njega ostavila je slika u sredini sale. Na slici je jedna vojvotkinja, u dugoj plavoj haljini, nosila ogrlicu od zelenog kamenja. Ispod slike, na plavoj tkanini, ležala je prava ogrlica.\n\n— Zar je to ista ogrlica? — upitao je Nikola.\n\n— Ista — odgovorila je Jelena. — Vojvotkinja ju je dobila na dar, a posle mnogo godina je stigla u naš muzej. Posetioci vole da vide sliku i ogrlicu zajedno. Dojam je tada potpun, jer vide kamen i onoga ko ga je nosio.\n\nNikola je dugo stajao ispred stakla. Primetio je da je zeleno kamenje na slici malo tamnije nego u stvarnosti, i rekao je to Jeleni. Ona je bila srećna što je dete tako pažljivo.\n\n— Planirano je bilo da ostanemo sat vremena — rekla je. — Pogledaj koliko je sati.\n\nPoseta je trajala tri sata, mnogo duže nego što je bilo planirano. Dok su izlazili, Jelena je skinula papuče i pitala Nikolu kakav dojam nosi kući.\n\n— Mislio sam da je kamen dosadan — priznao je on. — Sada mislim da je najlepši deo planete.\n\nJelena se nasmešila. Nikola je već znao da će doći opet, čim muzej izloži novi deo zbirke, i da će ponovo obući velike papuče.\n\nPitanja:\nZašto su posetioci dobili papuče?\nPapuče čuvaju star i delikatan pod od prašine i sitnog kamenja.\nŠta je Nikola prvo pomislio kad je video buket kristala?\nPomislio je da je to buket cveća, samo od kamena.\nŠta muzej izlaže zajedno sa slikom vojvotkinje?\nIzlaže pravu ogrlicu koju je vojvotkinja nosila.\nKoliko je trajala poseta muzeju?\nTrajala je tri sata, mnogo duže nego što je bilo planirano.\nKakav dojam je muzej ostavio na Nikolu?\nNikola je bio očaran i mislio je da je kamen najlepši deo planete."
+    },
+    {
+      "title": "Tri nedelje na terenu",
+      "summary": "Two geologists spend three weeks sampling rock in eastern Serbia and estimate how much copper a hill holds.",
+      "newWords": [
+        "procenjivati",
+        "prosek",
+        "minimum",
+        "minimalan",
+        "konstantno",
+        "dokumentacija",
+        "lom",
+        "svanuti",
+        "baraka",
+        "zadovoljavati"
+      ],
+      "text": "Ana i Dragan su geolozi, i tog leta su tri nedelje radili u istočnoj Srbiji, u brdima iznad Bora. Spavali su u maloj drvenoj baraci pored potoka. Baraka je bila mala, ali suva, a u njoj su bili dva kreveta i sto na kome su držali mape i sveske.\n\nDan je počinjao rano. Čim bi svanulo, Dragan bi skuvao kafu, a Ana bi stavila u torbu čekić, lupu i kese za uzorke. Zatim bi krenuli uz potok, do mesta koje su prethodnog dana označili na mapi.\n\n— Pogledaj ovaj lom — rekla bi Ana, držeći komad stene prema svetlosti. — Svež lom pokazuje pravu boju kamena. Spolja je sve prekriveno prašinom.\n\nDragan je sve zapisivao. Svaki uzorak je imao broj, mesto, dubinu i kratak opis. Ana je govorila da je dokumentacija najvažniji deo posla, jer kamen može da se odnese u laboratoriju, ali sećanje na mesto ne može. Zato je Dragan konstantno zapisivao i vreme, i pravac, i koliko duva vetar. Ana je konstantno proveravala da li se brojevi u svesci slažu sa mapom.\n\nPosle prvih deset dana imali su dovoljno uzoraka da počnu da procenjuju koliko bakra ima u tom brdu. Procenjivali su uveče, u baraci, uz svetlost male lampe, jer je struja stizala samo do sela, nekoliko kilometara niže.\n\n— Prosek nam je za sada dosta nizak — rekao je Dragan, gledajući brojeve.\n\n— To je malo, ali prosek nije sve — odgovorila je Ana. — Da bi ovo mesto imalo smisla, mora da ima određeni minimum. Ispod tog minimuma nikome se ne isplati da kopa.\n\nZnali su i koliko uzoraka im je potrebno. Minimalan broj bio je trideset po svakom pravcu, a oni su bili tek na dvadeset petom. Zato su još dva dana hodali uz strme staze, dok nisu našli uzorke koji zadovoljavaju sva pravila njihove ustanove. Kad su napokon bili gotovi, laboratorija je javila da rezultati zadovoljavaju i da mogu da se unesu u izveštaj.\n\nPoslednje večeri sedeli su ispred barake i gledali kako sunce zalazi iza brda. Ana je rekla da joj ova baraka, uprkos svemu, nedostaje već pre nego što su otišli. Dragan se složio. Potok je tiho žuborio, a u sveskama je ležalo tri nedelje pažljivo zapisanih podataka.\n\nPitanja:\nGde su Ana i Dragan spavali?\nSpavali su u maloj drvenoj baraci pored potoka.\nKad su krenuli na posao?\nKrenuli su čim bi svanulo.\nZašto je Ana smatrala da je dokumentacija važna?\nJer kamen može da se odnese u laboratoriju, ali sećanje na mesto ne može.\nŠta su procenjivali uveče u baraci?\nProcenjivali su koliko bakra ima u brdu.\nZašto su hodali još dva dana?\nMorali su da uzmu minimalan broj uzoraka."
+    },
+    {
+      "title": "Jedan dan u kamenolomu",
+      "summary": "A school class visits a quarry on Fruška gora and an engineer shows how nothing is wasted.",
+      "newWords": [
+        "hauba",
+        "građevinski",
+        "džak",
+        "barijera",
+        "galama",
+        "urlati",
+        "prelazak",
+        "vodstvo",
+        "tratiti"
+      ],
+      "text": "Šesti razred jedne škole iz Novog Sada otišao je autobusom do kamenoloma na Fruškoj gori. Teodora i Luka sedeli su u prvom redu i celim putem pitali učiteljicu da li će smeti da dodirnu pravo kamenje. Učiteljica je obećala da hoće, ali samo ako budu slušali inženjera.\n\nNa ulazu u kamenolom čekala ih je crveno-bela barijera. Čuvar ju je podigao, a iza nje ih je dočekao inženjer Bojan sa žutim kacigama u rukama.\n\n— Dobro došli — rekao je. — Vodstvo kamenoloma dozvolilo je da vas provedem kroz naš pogon, ali pod jednim uslovom. Kacige ostaju na glavi sve vreme, a prelazak preko puta kojim voze kamioni dozvoljen je samo uz mene.\n\nDeca su stala u red i krenula za njim. Prvo su došla do ogromnog kamiona koji je stajao na putu. Njegova hauba bila je viša od Luke, a točak veći od cele učionice, kako je Teodora rekla. Vozač im je mahnuo iz kamiona. Kad je upalio motor, motor je urlao tako glasno da su deca zatvorila uši.\n\nZatim su došla do mesta gde se kamen lomi. Galama je bila tolika da je Bojan morao da viče. Mašina je urlala kao da je živa, a iz nje je izlazilo sitno kamenje, sve sitnije i sitnije. Luka nije skidao ruke sa ušiju, ali nije ni pomislio da ode.\n\n— Šta radite sa ovim kamenjem? — pitala je Teodora.\n\n— Ovo je građevinski materijal — odgovorio je Bojan kad su se udaljili od mašine. — Od velikog kamena pravimo put, od manjeg ono što se stavlja ispod puta, a od najsitnijeg ono što se stavlja između cigala. Sve odlazi građevinskim firmama. Kod nas se ništa ne trati. Ono što ne može da posluži za zgradu, ide u džakove i prodaje se ljudima za bašte i dvorišta.\n\nPored zgrade stajalo je nekoliko džakova sa belim kamenjem. Bojan je svakom detetu dao po jedan kamen da ponese kući, a Teodora je svoj odmah stavila u džep jakne.\n\nPri povratku su prešli preko puta, jedno po jedno, pored velike barijere. Taj prelazak je trajao kratko, jer je Bojan pazio da niko ne zaostane. Zatim je pogledao na sat i rekao da su izgubili manje vremena nego što je mislio.\n\n— Ne bih voleo da tratimo vreme — rekao je u šali. — Kamen čeka milione godina, ali autobus ne čeka.\n\nNa izlazu je učiteljica zahvalila inženjeru, a Bojan je rekao da će o poseti obavestiti vodstvo kamenoloma. U autobusu je Luka pitao može li da postane vozač onog velikog kamiona, a Teodora je rekla da bi radije radila u laboratoriji. Celim putem do kuće pričali su o galami i o haubi velikog kamiona.\n\nPitanja:\nŠta ih je dočekalo na ulazu u kamenolom?\nDočekala ih je crveno-bela barijera i inženjer Bojan.\nŠta je bilo više od Luke?\nHauba velikog kamiona bila je viša od Luke.\nZašto je Bojan morao da viče?\nGalama kod mašine bila je velika.\nŠta se radi sa kamenjem koje ne može u zgradu?\nStavlja se u džakove i prodaje se za bašte i dvorišta.\nŠta je Teodora stavila u džep jakne?\nStavila je kamen koji je dobila od inženjera."
+    },
+    {
+      "title": "Bakine priče iz Bora",
+      "summary": "A grandmother tells her granddaughter about the workers' colony in Bor, the shared dining hall and how her husband proposed.",
+      "newWords": [
+        "radnički",
+        "trpezarija",
+        "tanjur",
+        "šljiva",
+        "prositi",
+        "čeznuti",
+        "herojski",
+        "svečan",
+        "krčma"
+      ],
+      "text": "Kad god Dunja dođe u Bor kod bake Vere, prvo što vidi je tanjur pun palačinki na stolu. Posle ručka baka obično sedne pored prozora i počne da priča o svojoj mladosti. Ovog puta Dunja je donela svesku, jer je htela da zapiše sve što baka kaže.\n\n— Došla sam u Bor kao devojka — počela je baka. — Živela sam u radničkoj koloniji, u maloj kući sa tri sobe. Moj otac je radio u rudniku, kao i svi muškarci u našoj ulici. Radnička kolonija bila je kao jedna velika porodica.\n\n— A gde ste jeli? — upitala je Dunja.\n\n— U zajedničkoj trpezariji. U njoj je bilo trideset dugih stolova. Kad bi se završila smena, svi su sedeli zajedno i niko nije jeo sam. Svaki radnik je imao svoj tanjur, i svaki tanjur je bio drugačiji. Preko puta kolonije bila je mala krčma, gde je gazda posle posla služio vruću supu. Tamo su se okupljali svi koji nisu hteli odmah kući. Na zidu krčme visila je slika sa prvim rudarima, a ispod nje je stajala klupa za one koji su umorni.\n\nDunja je zapisala reč „trpezarija“ i dvaput je podvukla.\n\n— A deda Milorad? — nastavila je. — Kako ste se upoznali?\n\nBaka se nasmejala.\n\n— Deda je bio mlad radnik u rudniku. Posle posla bi sedeo ispred trpezarije i gledao kako prolazim. Meni se činilo da je ozbiljan, a zapravo je bio stidljiv. Kad me je prosio, stajali smo u dvorištu moje majke, ispod stare šljive. Nije umeo da kaže mnogo. Rekao je samo: „Hoćeš li da živiš sa mnom u Boru?“ Odgovorila sam da hoću, i tek tada sam primetila da u ruci držim zrelu šljivu koja je pala sa grane.\n\n— A svadba? — pitala je Dunja.\n\n— Cela kolonija je pripremila svečan ručak u trpezariji. Gazda iz krčme doneo je veliku pitu, a drugi su doneli šljive iz svojih bašta. Deda je došao u svečanom odelu koje je posudio od prijatelja. Bilo mu je široko u ramenima, ali ga je nosio kao da je njegovo.\n\nBaka je ućutala i pogledala kroz prozor.\n\n— Ponekad još čeznem za onim dugim stolovima — rekla je. — Čeznem za zvukom kašika i za glasovima koji se mešaju. Ljudi su tada govorili da je rad u rudniku herojski posao. Deda se uvek smejao tim rečima. Govorio je da herojski može biti samo onaj ko nikad ne žuri kući, a on je žurio svakog dana.\n\nDunja je zatvorila svesku. Pogledala je tanjur sa palačinkama i pomislila na trideset dugih stolova. Obećala je baki da će sledeće nedelje doći opet i da će doneti nešto za jelo.\n\nPitanja:\nGde je baka Vera živela kao devojka?\nŽivela je u radničkoj koloniji u Boru.\nGde su radnici jeli posle smene?\nJeli su u zajedničkoj trpezariji.\nGde je deda Milorad prosio baku?\nProsio ju je u dvorištu njene majke, ispod stare šljive.\nŠta je baka rekla o životu u koloniji?\nRekla je da čezne za dugim stolovima i glasovima ljudi.\nKako se deda smejao reči „herojski“?\nGovorio je da herojski može biti samo onaj ko ne žuri kući, a on je žurio svakog dana."
+    },
+    {
+      "title": "Voda iz izvora",
+      "summary": "A grandfather shows two children the spring that gives their village water, and they spend a day by a stream and a lake.",
+      "newWords": [
+        "tekući",
+        "trta",
+        "labud",
+        "samica",
+        "isploviti",
+        "bos",
+        "vedro",
+        "luna"
+      ],
+      "text": "Deda Spasoje živi u malom selu ispod Zlatibora, i svakog leta kod njega dolaze unuci Lazar i Mila. Ovog puta deda ih je jednog jutra, kad je nebo bilo vedro, poveo uz potok, do mesta gde voda izlazi iz zemlje.\n\n— Ovo je naš izvor — rekao je. — Odavde dolazi sva voda koju pijemo.\n\nMila je kleknula i pogledala. Voda je izlazila iz stene tiho, bez ikakvog zvuka, i odmah se pretvarala u mali potok. Lazar je pitao zašto im je deda to pokazao, kad voda ionako teče iz cevi u kuhinji.\n\n— Zato što ne pamtite kako je bilo ranije — odgovorio je deda. — Kad sam ja bio dete, vodu smo nosili u kantama. Danas imamo tekuću vodu u svakoj kući, ali ona ne dolazi sama od sebe. Ona dolazi odavde, niz brdo, kroz cevi. Tekuća voda je veliko bogatstvo, i zato je moramo čuvati.\n\nDeca su skinula cipele i bosa ušla u potok. Voda je bila ledena, i Mila se smejala od srca. Deda je sedeo na velikom kamenu i gledao kako se talasi lome oko njenih nogu.\n\n— Gledajte ovaj kamen — rekao je. — Izgleda tvrd, a voda ga svakog dana malo tre. Prođe sto godina, hiljadu godina, i kamen postane glatki. Tako voda tre i najtvrđu stenu, samo ako joj damo dovoljno vremena.\n\nLazar je našao komad drveta i napravio mali brod. Stavio je jedan list kao jedro i pustio ga niz potok. Brod je isplovio, okrenuo se i nestao iza krivine. Mila ga je pratila obalom, sve dok joj nije nestao iz vida.\n\nPosle podne deda ih je odveo do jezera, gde su na vodi plivala dva bela labuda. Veći je bio mužjak, a pored njega je plivala samica, manja i oprezna. Deca su sedela na obali i nisu govorila skoro ništa. Labud je lagano okrenuo glavu prema njima, pa nastavio dalje. Samica ga je pratila.\n\nUveče je nebo opet bilo vedro, bez nijednog oblaka. Kad je pao mrak, iznad brda se pojavila luna, velika i okrugla. Mila je rekla da je luna u jezeru isto tako lepa kao na nebu. Deda se nasmejao i složio.\n\nLazar je dugo ležao budan i razmišljao o izvoru, o kamenu koji voda tre i o brodu koji je isplovio. Pomislio je da od sada neće ostavljati vodu da teče dok pere zube. Voda koja tiho izlazi iz stene stiže do njihove kuće, i zato je vredi poštovati.\n\nPitanja:\nOdakle dolazi voda u selu?\nDolazi sa izvora u steni, pa niz brdo kroz cevi.\nKako su deca ušla u potok?\nSkinula su cipele i bosa ušla u ledenu vodu.\nŠta voda radi kamenu?\nVoda ga svakog dana malo tre, dok ne postane glatki.\nŠta je Lazar napravio od drveta?\nNapravio je mali brod, koji je isplovio niz potok.\nŠta su deca videla na jezeru?\nVidela su belog labuda i samicu."
+    },
+    {
+      "title": "Šuma na Tari",
+      "summary": "A new owner of a forest on Tara asks a forester how much wood she may cut and how to look after the trees.",
+      "newWords": [
+        "bor",
+        "vlasnica",
+        "zakonit",
+        "amandman",
+        "etika",
+        "dilema",
+        "nabavljati",
+        "strpjeti"
+      ],
+      "text": "Slavici je pre godinu dana ujak, koji se preselio u grad, poklonio svoju šumu na Tari, nekoliko velikih livada pod borovima. Zakonita vlasnica postala je u septembru, kad je potpisan poslednji papir. Odmah posle toga pozvala je Radmilu, koja se razume u šume, jer nije znala ni odakle da počne.\n\nRadmila je stigla u petak ujutru, sa mapom i debelim papirima ispod ruke. Zajedno su išle stazom između stabala, a Slavica je usput pitala sve što joj je padalo na pamet.\n\n— Koliko drveta smem da posečem? — upitala je. — I sme li se uopšte?\n\n— Smete, ali samo onoliko koliko plan dozvoljava — odgovorila je Radmila. — Zakonit vlasnik šume ima i pravo i dužnost. Pravo da koristi drvo, a dužnost da posadi novo. Bor raste sporo, i to treba imati na umu.\n\nSlavica je nekoliko minuta ćutala. Imala je dilemu koja joj nije dala mira. Krov na kući bio je star i trebalo ga je zameniti, a novac za to mogla je da dobije od prodaje drveta. S druge strane, nije htela da seče stabla koja je čuvao njen ujak.\n\n— To je dilema svakog vlasnika — rekla je Radmila kad joj je Slavica sve ispričala. — U našem poslu postoji i etika. Ne sečemo više nego što šuma može da vrati. Etika nam ne daje gotov odgovor, ali nas podseća da šuma pripada i onima koji dolaze posle nas.\n\nRadmila je predložila da Slavica poseče samo nekoliko starijih borova sa severne strane, gde je šuma najgušća, a da odmah posadi nova stabla. Mlada stabla mogu se nabavljati po maloj ceni, i to na više mesta. Slavica je odlučila da ih odmah počne nabavljati.\n\n— Samo se strpite — dodala je Radmila. — Posadićete ih danas, a bor će vam zahvaliti tek za četrdeset godina.\n\n— Moram da se strpim — nasmejala se Slavica. — A ugovor sa firmom koja kupuje drvo?\n\n— U ugovor možemo da dodamo amandman, ako hoćete. Njime ćete tražiti da firma posle seče sama očisti stazu. Amandman nije nikakva tajna, to je samo dopuna koju obe strane potpišu.\n\nTako je i bilo. Za nedelju dana Slavica je potpisala ugovor sa amandmanom, a Radmila je donela prva mlada stabla. Zajedno su ih posadile na maloj livadi, tačno tamo gde je ujak nekad čuvao svoje borove. Slavica je pomislila da je drvo koje će upotrebiti za krov samo mali deo onoga što šuma daje, i da je ona samo vlasnica koja šumu čuva za druge.\n\nPitanja:\nŠta je Slavica dobila od ujaka?\nDobila je šumu na Tari.\nKakvu dilemu je Slavica imala?\nTrebao joj je novac za krov, ali nije htela da seče ujakova stabla.\nŠta je Radmila rekla o etici?\nDa šuma ne sme da se seče više nego što može da vrati.\nGde mogu da se nabave mlada stabla?\nMogu da se nabave na više mesta, po maloj ceni.\nŠta je amandman dodao u ugovor?\nTražio je da firma posle seče sama očisti stazu."
+    },
+    {
+      "title": "Vašar kamena",
+      "summary": "A girl and her father spend a day at a stone fair with a seller, a clown, snacks and a rock-identifying contest.",
+      "newWords": [
+        "vašar",
+        "klaun",
+        "prodavač",
+        "kreker",
+        "kečap",
+        "maksi",
+        "takmičar",
+        "ker"
+      ],
+      "text": "U Aranđelovcu se svake jeseni održava veliki vašar kamena i starih zanata. Tamara ga čeka celu godinu, jer tamo uvek ide sa ocem Zoranom, koji radi kao majstor za kamen. Ove godine vašar je počeo u subotu, i već u devet sati ujutru između stolova je bilo toliko ljudi da se jedva prolazilo.\n\nPrvi sto koji su posetili pripadao je jednom starom prodavaču. Na njemu su ležali sitno sivo kamenje, komadi crvenog kamena i mali kristali u kutijama. Prodavač je Tamari pokazao kamen koji na svetlosti menja boju, iz zelene u crvenu.\n\n— Evo tebi poklon — rekao je. — Kamen koji dobije neko ko ume da ga gleda, vredi duplo.\n\nZoran se zahvalio, a Tamara je kamen stavila u džep. Dalje su naišli na klauna koji je držao u rukama šest drvenih kugli. Deca su se skupila oko njega i smejala se svaki put kad bi mu neka kugla pala. Klaun se posle svakog pada klanjao i govorio da je kugla teža nego što izgleda.\n\nPored klauna bio je sto sa hranom. Tamara je tražila krekere, a Zoran je poručio sendvič s kobasicom i kečapom. Jeli su stojeći, dok je iza njih prolazila žena u dugoj maksi haljini, sa korpom punom ljubičastog cveća. Tamara je pomislila da bi i ona jednom volela da ima maksi haljinu. Htela je da pita koliko košta cveće, kad je pored njenih nogu prošao veliki žuti ker. Pas je legao ispod stola i zaspao, kao da je tu odrastao.\n\n— Čiji je to pas? — pitala je ona.\n\n— Ničiji, i svačiji — odgovorio je Zoran. — Svake godine dođe na vašar, pojede sve što mu ostane i ode. Ovaj ker je poznatiji od mene.\n\nTamara je sačuvala svoj kreker za kera. Ker ga je pojeo, mahnuo repom i nastavio da spava.\n\nPred podne su stigli do scene, gde je počelo takmičenje u kome se prepoznaje kamenje. Svaki takmičar je dobio kutiju sa deset komada i morao je da pogodi od kakvog je kamena svaki. Zoran se prijavio, a Tamara je sedela u prvom redu i držala palčeve. Prvi takmičar je pogodio samo četiri, drugi šest. Kad je došao red na Zorana, svi su ćutali.\n\nOn je podigao prvi kamen, pa drugi, i svaki je pogodio bez razmišljanja. Pogodio je devet od deset. Pogrešio je samo kod jednog kamena, koji je zbunio čak i sudiju. Takmičar iz Čačka je pogodio svih deset i pobedio.\n\n— Nije važno — rekao je Zoran dok su išli kući. — Došao sam da naučim nešto novo.\n\nTamara je držala kamen od prodavača u džepu i smejala se, jer je znala da njen otac ne može da bude tužan na vašaru.\n\nPitanja:\nGde se svake jeseni održava vašar?\nOdržava se u Aranđelovcu.\nŠta je prodavač dao Tamari?\nDao joj je kamen koji na svetlosti menja boju.\nŠta je radio klaun?\nDržao je šest drvenih kugli, a deca su se smejala kad bi mu neka pala.\nŠta su Tamara i Zoran jeli?\nTamara je jela krekere, a Zoran sendvič s kobasicom i kečapom.\nKako je prošao Zoran na takmičenju?\nPogodio je devet od deset, ali je pobedio drugi takmičar, iz Čačka."
+    },
+    {
+      "title": "Gošća iz Italije",
+      "summary": "A geology student attends a guest lecture on volcanoes translated by an interpreter.",
+      "newWords": [
+        "izborni",
+        "vojnički",
+        "prevodilac",
+        "manira",
+        "spasitelj",
+        "erupcija",
+        "nerazuman",
+        "grešan",
+        "prizvati"
+      ],
+      "text": "Katarina studira geologiju u Nišu, i ove godine je izabrala izborni predmet o vulkanima. Predavanje koje je čekala celu jesen održano je u petak, kad je na fakultet došla gošća iz Italije, gospođa Marta. Profesor Ilija je ušao u učionicu vojnički tačno, u 9 sati, sa gošćom i jednom mladom ženom.\n\n— Ovo je Sanja — rekao je. — Ona je naš prevodilac. Marta govori italijanski i malo engleski, a Sanja će nam pomoći da je razumemo.\n\nMarta je imala lepe manire. Pozdravila je svakog studenta posebno, rukom, i svima je dva puta rekla ime da ga zapamti. Katarini se odmah dopala, a drugi studenti su rekli da takve manire retko viđaju.\n\nPredavanje je počelo mirno. Marta je pokazivala slike vulkana na velikom platnu, a Sanja je svaku njenu rečenicu ponavljala na srpskom, bez žurbe. Katarina je zapisivala ono što je razumela. Kad je Marta počela da govori brzo, sa mnogo stručnih reči, Sanja je sve ponovila tako lako da je Katarina pomislila kako je prevodilac pravi spasitelj za one koji ne znaju jezik. Kasnije je rekla to i Sanji, a ona se samo nasmejala i rekla da je to njen posao.\n\n— Pre mnogo miliona godina, na ovom području bila je velika erupcija — rekla je Sanja, ponavljajući Martine reči. — Tragovi su i danas vidljivi u steni oko Leca, nedaleko od ovde.\n\nStudenti su postali radoznali. Jedan je pitao da li bi mogli da odu tamo. Marta je odgovorila da bi bilo lepo, ali da bi bilo nerazumno ići u planinu bez dobre obuće i bez vodiča. Svi su se nasmejali, jer su znali da je to istina.\n\nJedan trenutak je ipak bio smešan. Marta je spomenula reč koju je Sanja prevela pogrešno, i svi su čuli da se govori o vulkanu koji je „otišao u penziju“. Marta je zapravo mislila na ugašen vulkan. Prevod je bio grešan, i to su svi odmah primetili. Sanja se stidela, a Marta se smejala toliko da joj je pao ključ sa stola.\n\n— U redu je — rekla je Marta kad se smirila. — Ja sam kriva, jer je naziv koji sam upotrebila bio grešan. Inače mi je Sanja danas pravi spasitelj, jer ceo dan prevodi bez greške.\n\nSanja je ispravila prevod i predavanje je nastavljeno. Pred kraj je Marta prizvala u sećanje svoj prvi dolazak u Srbiju, davno, kad je kao studentkinja prvi put videla stene iz Leca. Rekla je da ih nikad nije zaboravila i da ih svake godine prizove u sećanje, makar na slici.\n\nNa kraju je Katarina prišla da joj se zahvali. Marta joj je poklonila mali komad vulkanskog kamena. Predavanje se završilo vojnički tačno, u 11 sati, kako je profesor Ilija i obećao. Katarina je kamen odnela u studentski dom i stavila ga pored knjiga, na mesto gde će ga gledati svakog dana. Pomislila je da bi sledeće godine opet izabrala takav izborni predmet.\n\nPitanja:\nKoga je profesor Ilija doveo na predavanje?\nDoveo je gospođu Martu iz Italije i prevodioca Sanju.\nKako je Marta pozdravila studente?\nPozdravila je svakog posebno, rukom, i svima je dva puta rekla ime.\nŠta je Sanja rekla o erupciji?\nRekla je da je pre mnogo miliona godina tu bila velika erupcija.\nZašto bi bilo nerazumno ići u planinu?\nZato što nemaju dobru obuću i vodiča.\nŠta je Marta poklonila Katarini?\nPoklonila joj je mali komad vulkanskog kamena."
+    },
+    {
+      "title": "Pismo iz Štutgarta",
+      "summary": "A man writes to his sister from Stuttgart about a visit to an old ironworks museum and about recycling cans.",
+      "newWords": [
+        "pešice",
+        "dimnjak",
+        "spoljašnji",
+        "nametati",
+        "limenka",
+        "upotrebljavati",
+        "uzaludan",
+        "pozajmiti"
+      ],
+      "text": "Draga Jovana,\n\npišem ti iz Štutgarta, gde sam proveo prošli vikend. Obećao sam ti da ću ti opisati izlet o kome sam ti pričao telefonom, pa evo kratkog izveštaja.\n\nMoj kolega Tomas, koji ovde radi sa mnom, odveo me je u jednu staru fabriku gvožđa, koja je danas muzej. Do nje smo došli pešice, jer je od stanice udaljena samo petnaest minuta hoda kroz park. Pešice se, kaže Tomas, najbolje vidi grad. Prvo što sam primetio bio je ogroman crveni dimnjak koji se vidi sa svih strana. Spoljašnja strana zida je od starih cigala, i na njima se još vide tragovi vremena. Spoljašnji zid niko ne čisti, jer je baš to ono što ljudi dolaze da vide. Tomas kaže da muzej ne nameće posetiocima nikakvu priču, nego svako sam gleda i misli. Takva mesta ništa ne nameću, a mnogo pokazuju.\n\nUnutra je bilo mnogo zanimljivih predmeta. Vodič nam je objasnio kako je nekada izgledao rad u fabrici i koliko je ljudi trebalo da se jedna peć održi. Mene je najviše zanimalo kako su stari majstori pazili da se ništa ne baci. Iz otpada su dobijali novo gvožđe, i to više puta, tako da je isti komad metala mogao da živi mnogo života. Taj metal su upotrebljavali opet i opet.\n\nTo me je podsetilo na limenke. Ovde u Nemačkoj svaka limenka od soka ima depozit. Kad je vratiš u prodavnicu, dobiješ novac. Isprva mi je to izgledalo nepotrebno, ali sada to radim bez razmišljanja. Moja komšinica upotrebljava stare limenke i za cveće na prozoru. Kaže da nije uzaludan trud ako se nešto vrati u upotrebu, bilo kao metal, bilo kao posuda za cveće.\n\nPosle muzeja hteli smo da se vozimo duž reke. Bicikl nisam imao, ali se u Štutgartu na skoro svakom uglu može pozajmiti bicikl za nekoliko evra. Tomas mi je pokazao kako se to radi. Kad čovek ne želi da kupuje bicikl, lako je pozajmiti tuđi. Vozili smo se do kasno popodne, i bilo je to jedno od onih popodneva kada sve izgleda na svom mestu.\n\nZnaš da ja nisam čovek koji drži velike govore, ali moram da ti kažem da sam se setio dede i njegovog rada u rudniku. Mislio sam da je njegov posao nešto sasvim drugo od ovoga. Sada vidim da su to ista priča: ljudi uzimaju od zemlje ono što im je potrebno i uče da ništa ne bace. Nijedna briga o tome nije uzaludna.\n\nJavi mi kako ste ti i mama, i da li si već posadila paradajz na terasi.\n\nZagrljaj iz Štutgarta,\nMarko\n\nPitanja:\nKako su Marko i Tomas stigli do fabrike gvožđa?\nStigli su pešice kroz park.\nŠta je Marko prvo primetio?\nPrimetio je ogroman crveni dimnjak.\nŠta se dobija kad se limenka vrati u prodavnicu?\nDobija se novac, jer svaka limenka ima depozit.\nŠta se u Štutgartu može pozajmiti za nekoliko evra?\nMože se pozajmiti bicikl.\nZašto je Marko pomislio na dedu?\nZato što ljudi i danas uzimaju od zemlje samo ono što im treba i ništa ne bacaju."
+    },
+    {
+      "title": "Večer sa zbirkom",
+      "summary": "A retired geologist and her granddaughter sort a stone collection in the evening.",
+      "newWords": [
+        "veseliti",
+        "smirivati",
+        "nemoćan",
+        "uzvišen",
+        "patetično",
+        "harmonija",
+        "čir",
+        "detektivka"
+      ],
+      "text": "Baka Branka je prošle godine otišla u penziju, posle četrdeset godina rada kao geolog. Živi u Kragujevcu, u stanu na trećem spratu, i najveći deo prostora zauzima njena zbirka kamenja. Kad god njena unuka Lena dođe u posetu, one uveče sednu na pod i slažu kamenje po kutijama.\n\n— Veselim se ovom delu večeri više nego bilo čemu — rekla je Lena i uzela prvu kutiju.\n\n— I ja — odgovorila je baka. — Kamen u ruci me smiruje bolje od čaše vode. Samo pazi, ovaj je delikatan.\n\nLena je uzela mali komad plavog kamena i okrenula ga prema lampi. Svetlost je igrala po površini kao da se u njemu krije malo neba. Baka joj je ispričala da je taj kamen našla na jednoj planini u Grčkoj, kad je imala dvadeset pet godina.\n\n— Znaš, na vrhu planine čovek se oseti nemoćan — rekla je. — Sve je tako veliko da shvatiš koliko si mali. A opet, istovremeno, osećaš nešto uzvišeno. Ta uzvišena tišina je ono zbog čega se vraćam planinama. Znam da izgleda patetično, ali tako je.\n\nLena se nasmejala.\n\n— Nije patetično. To je baš kao tvoje priče.\n\nBaka je uzela jednu kutiju i počela da slaže kamenje po bojama. Plavo uz plavo, zeleno uz zeleno, a crveno je dobilo posebno mesto. Kad je završila, pogledala je red i bila zadovoljna.\n\n— Pogledaj harmoniju tih boja — rekla je. — Nijedan kamen ne ide uz drugi bez razloga. Priroda ništa ne radi bez razloga, pa ni harmonija nije slučajna.\n\nLena se osećala nemoćna pred tolikim kamenjem, ali joj to nije smetalo. Veselila se svakoj kutiji.\n\nVečerale su u kuhinji, za malim stolom. Baka je jela samo supu i pirinač, jer već godinama pazi na stomak zbog čira. Lena je jela sve što je bilo na stolu i nije se žalila, jer je supa bila ukusna. Čir je davno prošao, rekla je baka, ali stomak pamti. Čim počne da slaže kamenje, kaže, i ruke i misli joj se smiruju.\n\nPosle večere baka je sela na stolicu i uzela knjigu. Pre spavanja je uvek čitala po jednu detektivku, ali kraj nikad nije čitala prvi, kao što to rade neki ljudi. Ta detektivka je bila već treća ove nedelje, a ova detektivka na stolu je imala pet stotina strana. Lena je sedela pored nje i gledala u kutije, a u glavi joj je sve bilo mirno.\n\n— Bako — rekla je tiho — kad porastem, hoću i ja da budem geolog.\n\n— Pa dobro — odgovorila je baka. — Ali nemoj ništa da žuriš. Kamenje je strpljivo, budi i ti.\n\nLena se nasmešila i uzela poslednji kamen iz kutije. Kroz prozor se čula kiša, a u sobi je bilo toplo i tiho. Za njih dve to je bila najlepša večer tog leta.\n\nPitanja:\nŠta baka Branka radi sa unukom uveče?\nSlaže kamenje po kutijama sa Lenom.\nŠta kamen u ruci radi baki?\nKamen je smiruje.\nZašto se na vrhu planine čovek oseti nemoćan?\nZato što je sve tako veliko da shvati koliko je mali.\nZašto baka jede samo supu i pirinač?\nPazi na stomak zbog čira.\nŠta baka čita pre spavanja?\nČita po jednu detektivku, ali kraj nikad ne čita prvi."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "sr-mini-6300",
+  "rankUpTo": 6300,
+  "level": "C1",
+  "title": "Ishrana i zdravlje",
+  "description": "Ten calm texts about food and health in Serbia: a marathon diary, a school canteen, an old royal menu, a grandmother's pantry, a nutritionist interview, a zoo kitchen, a power-plant lunch, fish stew on the Danube, a food carnival and a day in a health centre.",
+  "topic": "Food and health",
+  "names": [
+    "Beograd",
+    "Jelena",
+    "Dragan",
+    "Čačak",
+    "Miroslav",
+    "Tomić",
+    "Ivana",
+    "Luka",
+    "Novi Sad",
+    "Milica",
+    "Subotica",
+    "Ilona",
+    "Nađa",
+    "Marija",
+    "Đorđević",
+    "Zoran",
+    "Kalemegdan",
+    "Jovana",
+    "Danica",
+    "Kostolac",
+    "Mile",
+    "Mileta",
+    "Apatin",
+    "Rade",
+    "Sava",
+    "Petar",
+    "Dunav",
+    "Niš",
+    "Miroslava",
+    "Miroslavina",
+    "Tamara",
+    "Brane",
+    "Mirjana",
+    "Miloš",
+    "Fruška gora",
+    "Vuk"
+  ],
+  "lessons": [
+    {
+      "title": "Doručak pred maraton",
+      "summary": "A first-time runner writes a diary about eating and preparing the night before and the day of her first marathon in Beograd.",
+      "newWords": [
+        "maraton",
+        "dres",
+        "odbrojavanje",
+        "sustignuti",
+        "griz",
+        "idealno",
+        "bučan",
+        "zbiti",
+        "inč"
+      ],
+      "text": "Subota, uveče\n\nSutra trčim svoj prvi maraton u Beogradu i ne mogu mirno da sedim. Pre godinu dana nisam mogla da trčim ni dva kilometra bez odmora, a sutra me čeka 42 kilometra. Trener Dragan kaže da je najvažniji deo posla već urađen i da sada treba samo dobro da jedem i dobro da spavam.\n\nVečeras sam skuvala pirinač sa povrćem, bez mnogo začina. Dragan je rekao da pred maraton ne treba probati ništa novo: hrana mora da bude poznata, jednostavna i laka za stomak. Za doručak sam spremila griz sa medom i bananom. Probala sam ga tri puta u poslednjim nedeljama i svaki put sam posle toga mogla da trčim bez problema. Taj doručak je idealno jednostavan: topao je, mekan i dovoljno sladak da mi da snagu. Dragan kaže da je idealno kad čovek pre trke ne misli o hrani, nego o putu.\n\nDres sa mojim brojem već visi na vratima sobe. Pokraj njega stoje patike, čarape i mala kesa sa suvim šljivama. Novi telefon ima ekran od šest inča, a stari je imao samo četiri inča, pa na velikom ekranu svakog sata gledam odbrojavanje do početka trke. Još 13 sati.\n\nNedelja, uveče\n\nNapisaću sve dok pamtim. Ujutru je centar grada bio bučan kao nikad: muzika, aplauz i hiljade ljudi koji su se zbili u uskoj ulici ispred početka trke. Stajala sam u gužvi, držala čašu vode i pokušala da ne mislim ni na šta. Kad je odbrojavanje stiglo do nule, svi smo krenuli zajedno, polako, jer prvih nekoliko stotina metara niko nije mogao da trči brže od mase. Ljudi su se zbili i na mostu, pa smo gotovo hodali.\n\nDragan me je upozorio da ne pokušam da sustignem one ispred sebe. Zato sam prvih deset kilometara trčala mirnije nego što sam želela, a ljudi su prolazili pored mene kao da su na nekoj drugoj trci. Na svakih pet kilometara stajao je sto sa vodom, bananama i komadima jabuke. Pila sam malo, ali često, baš onako kako sam vežbala. Posle 30 kilometara noge su postale teške i počela sam da usporavam, ali sam u džepu imala komad slatkiša i polako sam ga pojela. Posle toga mi je bilo bolje. Tada sam primetila da sam sustigla mnoge koje sam ranije samo gledala sa leđa, a nisam to ni pokušala.\n\nCilj je bio u parku i opet je bila bučna gužva, ali ovog puta mi se svaki zvuk činio lep. Dobila sam medalju i tanjir tople supe od povrća. Mama je stajala iza ograde i držala je malu zastavu. Večeras jedem palačinke sa džemom, a sutra ću prvi put posle dugo vremena spavati do podne. Dres ću oprati tek preksutra.\n\nPitanja:\nŠta je Jelena jela za doručak pred maraton?\nJela je griz sa medom i bananom.\nZašto Dragan nije hteo ništa novo u ishrani?\nZato što hrana pred maraton mora da bude poznata, jednostavna i laka za stomak.\nŠta je Jelena gledala na telefonu svakog sata?\nGledala je odbrojavanje do početka trke.\nŠta je Jelena uradila posle 30 kilometara?\nPojela je komad slatkiša iz džepa, pa joj je bilo bolje.\nŠta je jela posle trke?\nJela je toplu supu od povrća, a uveče palačinke sa džemom."
+    },
+    {
+      "title": "Pritužbe u školskoj trpezariji",
+      "summary": "A gimnazija in Čačak changes its canteen after complaints from students and guardians, with a study of what pupils really eat.",
+      "newWords": [
+        "gimnazija",
+        "đak",
+        "pritužba",
+        "staratelj",
+        "žitarica",
+        "preduzeće",
+        "proučavanje",
+        "prisutnost",
+        "uvažen"
+      ],
+      "text": "U gimnaziji u Čačku đaci su dugo govorili da je trpezarija njihov najveći problem. Pritužbe su stizale skoro svake nedelje: da je pecivo suvo, da su sendviči hladni i da se hrana uzima samo zato što nema ničega drugog. Neki đaci su prestali da kupuju ručak i donosili su iz kuće šta su stigli da spreme. Trpezariju je vodilo jedno privatno preduzeće iz susednog grada i niko nije znao kome da se obrati.\n\nZato je direktor gimnazije, Miroslav Tomić, u septembru pozvao sve koji imaju šta da kažu na zajednički sastanak. Prisutnost je bila veća nego što je iko očekivao: došlo je 60 đaka, nastavnici i desetak staratelja. „Uvaženi roditelji i dragi đaci“, počeo je direktor, „hvala vam što ste došli. Želim da čujem sve pritužbe, ali i vaše predloge.“\n\nPrvi se javio Luka iz trećeg razreda. Rekao je da je u trpezariji sve belo: beo hleb, beli sir, belo pecivo. Nastavnica biologije Ivana dodala je da u jelovniku skoro nikad nema žitarica, osim belog brašna, a da bi mladi ljudi u tim godinama trebalo da jedu i kašu od pahuljica i tamniji hleb. Jedan staratelj se nije složio: njegova kćerka voli peciva i ne želi ništa drugo. Tako su se i đaci i odrasli našli u dugoj raspravi, dok je direktor strpljivo čekao da svi završe. Uvaženi gosti iz preduzeća sedeli su u prvom redu i pisali.\n\nNa kraju je Ivana predložila da đaci sami urade proučavanje: dve nedelje će zapisivati šta se u trpezariji kupuje, a šta ostaje na tanjirima. Svi su se složili. Proučavanje je radila grupa od osam đaka, a Ivana im je pomagala oko papira. Rezultat je iznenadio i nastavnike: najviše se uzimalo ono što je toplo, a hladni sendviči su ostajali. Ostajala je i salata, jer je bila stara.\n\nPreduzeće je dobilo spisak pritužbi i rezultate proučavanja. Posle mesec dana trpezarija je izgledala drugačije. Doručak je uvek imao neku od žitarica, bilo kao kašu, bilo kao kolač. Salata se pravila svako jutro, a topli obrok je bio izbor između dva jela. Staratelji su dobili pravo da se jave ako primete da nešto nije u redu. Luka je za nekoliko nedelja postao đak zadužen za trpezariju, a pritužbe su prestale. Direktor je rekao da je najbolje proučavanje ono koje rade sami đaci.\n\nPitanja:\nZašto su đaci bili nezadovoljni trpezarijom?\nZato što je pecivo bilo suvo, sendviči hladni, a hrane je bilo malo.\nKo je došao na sastanak?\nDošli su đaci, nastavnici i desetak staratelja, i prisutnost je bila velika.\nŠta je Ivana predložila?\nPredložila je da đaci dve nedelje zapisuju šta se kupuje, a šta ostaje.\nŠta je pokazalo proučavanje?\nPokazalo je da se najviše kupuje ono što je toplo.\nŠta se promenilo posle mesec dana?\nDoručak je imao neku od žitarica, salata se pravila svako jutro i bila su dva topla jela."
+    },
+    {
+      "title": "Sto jedne stare palate",
+      "summary": "A museum guide in Novi Sad shows visitors how a royal family's menus looked in an exhibition on food through the centuries.",
+      "newWords": [
+        "dinastija",
+        "palata",
+        "podanik",
+        "rubin",
+        "razdoblje",
+        "predjelo",
+        "senf",
+        "filozof"
+      ],
+      "text": "Izložba „Šta se jelo nekad“ u Novom Sadu otvorena je pre mesec dana, a vodič Milica svaki dan priča posetiocima kako se nekada jelo. Danas je u grupi mnogo dece iz osnovne škole, pa Milica počinje pitanjem: „Šta mislite, šta je jeo kralj?“\n\nDeca nagađaju: tortu, mnogo mesa, slatkiše. Milica se smeši i vodi ih u prvu salu. Tu je veliki crtež jedne od palata stare dinastije. Dinastija je imala više palata, a ova je bila najveća. Pored crteža stoji dugačak sto sa starim tanjirima. „U razdoblju o kome govorimo“, objašnjava ona, „večera u toj velikoj sali trajala je i po tri sata. Palata je bila puna svetla, a sto pun hrane. Počinjalo se predjelom, najčešće sa hladnim mesom. Uz meso se služio senf, koji je tada bio pravi luksuz. U tom razdoblju senf se donosio iz daleka i mnogo koštao. Posle toga je dolazila supa, pa riba, pa pečenje, a na kraju slatko.“\n\nJedan dečak pita ko je sve to spremao. Milica pokazuje na drugi crtež. Svaka od tih palata imala je veliku kuhinju, a u donjem delu najveće radilo je dvadeset kuvara. Kuvari su počinjali pre zore, a podanici iz obližnjih sela donosili su jaja, sir, povrće i voće. Sve to je imalo svoje mesto na spisku obroka koji je vodio glavni kuvar. Milica kaže da su podanici u ono vreme mnogo radili, ali da su i sami često jeli bolje nego što bismo pomislili, jer su imali svoje njive.\n\nU sledećoj sali su izloženi prstenovi i nakit iz istog razdoblja. Milica kaže da se bogatstvo pokazivalo i na stolu. „Pogledajte ovaj prsten sa rubinom“, kaže ona. „Kraljica ga je nosila na večerama, a kuvari su pravili posebnu slatku poslasticu iste boje, boje rubina, da bi sto izgledao lepše.“ Deca su oduševljena i pritiskaju nosove na staklo.\n\nU poslednjoj sali visi velik natpis sa mišlju jednog filozofa: čovek je ono što jede. Milica se zaustavlja i pita decu šta misle da to znači. Jedna devojčica kaže da, ako jedeš zdravo, i tvoje telo je zdravo. Dečak dodaje da, ako jedeš samo slatkiše, bićeš samo malo srećan. Milica se smeje i kaže da su oni verovatno bolji filozofi nego mnogi odrasli.\n\nNa kraju deca dobijaju papir sa jelovnikom i pitanjem šta bi oni stavili na kraljevsku večeru. Većina piše predjelo od sira, ali jedna devojčica piše samo: „Palačinke, i svi podanici za istim stolom.“\n\nPitanja:\nGde je izložba otvorena?\nIzložba „Šta se jelo nekad“ otvorena je u Novom Sadu.\nKako je počinjala večera na dvoru stare dinastije?\nPočinjala je predjelom sa hladnim mesom i senfom.\nKo je donosio hranu na dvor?\nPodanici iz obližnjih sela donosili su jaja, sir, povrće i voće.\nZašto su kuvari pravili poslasticu boje rubina?\nHteli su da sto izgleda lepše, kao prsten sa rubinom koji je kraljica nosila.\nŠta je napisala jedna devojčica na kraju?\nNapisala je da bi stavila palačinke i da bi svi podanici sedeli za istim stolom."
+    },
+    {
+      "title": "Kod bake Ilone u Subotici",
+      "summary": "A woman remembers how her Hungarian-speaking grandmother in Subotica cooked, stored her food and taught her to roll a fruit pie.",
+      "newWords": [
+        "mađarski",
+        "sočan",
+        "ostava",
+        "urezati",
+        "smotati",
+        "gljiva",
+        "ikako",
+        "opako"
+      ],
+      "text": "Moja baka Ilona živi u maloj kući u Subotici već više od 50 godina. Sa komšijama priča mađarski, sa mnom srpski, a kad se uzbudi, ponekad pomeša oba jezika u istoj rečenici. Ja, Nađa, nikad nisam naučila mađarski kako treba, ali sam još kao dete razumela sve što je rečeno u njenoj kuhinji.\n\nZimi je napolju opako hladno, ali je u njenoj kući uvek toplo. Najvažnija soba u toj kući je ostava. To je mala prostorija pored kuhinje, puna tegli, kesa i drvenih polica. Na gornjoj polici stoje tegle sa paradajzom, na srednjoj suve gljive i pasulj, a na donjoj džem od šljiva. Baka kaže da dobra domaćica nikad ne ide u prodavnicu zbog jedne stvari, jer sve što treba već stoji u ostavi. Kad sam bila mala, ostava mi je izgledala kao čarobna pećina. Dok je baka bila u kuhinji, ja sam tiho ušla u ostavu i brojala tegle.\n\nJedne nedelje baka je odlučila da me nauči da spremim pitu sa jabukama. Rekla je da je to najteži deo celog ručka, pa nisam ikako mogla da je nagovorim da se igram dok ne završimo. Prvo smo razvile testo tako tanko da se kroz njega vidi list novina. Zatim smo na njega stavile jabuke, malo šećera i šaku oraha. Baka mi je pokazala kako se testo smota, polako, bez pritiska, da ne pukne. Moje prvo smotano testo bilo je krivo i kratko, ali baka je rekla da pita ne mora da bude lepa, nego sočna. Pre nego što je pita ušla u rernu, baka je nožem urezala tri male crte na vrhu da para može da izađe. Tek tada sam shvatila da u kuhinji svaki pokret ima razlog, a pita je bila sočna baš zato što ju je baka dobro smotala.\n\nZa ručak je bila supa sa gljivama i domaći hleb. Baka je sama stavila ren u činiju pored. Ja sam, naravno, probala veliki zalogaj i skoro da nisam mogla da govorim. „Taj ren je opako ljut“, rekla sam kroz suze. Baka se nasmejala i pružila mi komad hleba da se smirim. Rekla je nešto na mađarskom, a ja nisam ikako mogla da pogodim šta, ali sam po osmehu razumela da se šali. Nikad više nisam uzela ren tako brzo.\n\nKad sam otišla kući, baka mi je stavila u torbu tegle iz ostave: šljive, gljive i malo meda. Svaki put kad ih otvorim u svom stanu u Beogradu, osetim miris te male kuhinje u Subotici.\n\nPitanja:\nKojim jezicima baka Ilona govori?\nSa komšijama priča mađarski, a sa unukom srpski.\nŠta se nalazi u ostavi?\nU ostavi su tegle sa paradajzom, suve gljive, pasulj i džem od šljiva.\nKako je izgledalo testo za pitu?\nBilo je razvijeno tako tanko da se kroz njega vidi list novina.\nZašto je baka urezala crte na pitu?\nUrezala ih je da para može da izađe tokom pečenja.\nŠta je Nađa odnela kući?\nOdnela je tegle iz ostave sa šljivama, gljivama i medom."
+    },
+    {
+      "title": "Razgovor sa nutricionistkom",
+      "summary": "A journalist interviews a former fashion model turned nutritionist about fad diets, trusting your body and eating without panic.",
+      "newWords": [
+        "manekenka",
+        "površan",
+        "histeričan",
+        "intuicija",
+        "preferirati",
+        "prkositi",
+        "fatalan",
+        "atraktivan",
+        "suzdržati"
+      ],
+      "text": "Marija Đorđević je do svoje 30. godine radila kao manekenka. Danas ima malu ordinaciju u Beogradu i savetuje ljude o ishrani. Pitao sam je zašto je promenila posao.\n\n— Naučila sam kako izgleda svet iz kojeg dolazim — kaže Marija. — Kao manekenka sam stalno slušala da moram da budem tanka i atraktivna. Atraktivne devojke, govorili su mi, ne jedu mnogo, a niko me nije pitao kako se osećam. Jela sam malo, često sam bila gladna, i mislila sam da je to normalno. Videla sam i druge manekenke koje su radile isto, i niko nije mislio da je to loše.\n\n— Kada ste to promenili?\n\n— Kada sam jednom pala na ulici od slabosti. Lekar mi je rekao da je moj odnos prema hrani histeričan: ili sam sve zabranjivala, ili sam posle nedelju dana gladovanja pojela pola frižidera. To je bio kraj jednog života i početak drugog.\n\nPitam je šta danas najčešće čuje od klijenata.\n\n— Većina ljudi dolazi sa površnim znanjem. Pročitaju na internetu da je neka namirnica loša, pa je izbace iz ishrane. Nedelju dana kasnije su umorni i nervozni, a ne znaju zašto. Ja im objašnjavam da nema jedne ishrane za sve i da je svaka stroga zabrana fatalna greška, jer se posle nje obično vraćamo na stare navike. Površno znanje je često opasnije od nikakvog.\n\n— Šta preporučujete umesto toga?\n\n— Intuiciju, ali vaspitanu. Telo zna kad je gladno i kad je sito, ako ga slušamo. Naravno, to ne znači da jedemo šta god nam padne na pamet. Moja intuicija danas dolazi iz iskustva: znam šta mi prija, a šta ne. Ja preferiram jednostavan obrok: nešto od povrća, nešto od žitarica, nešto belančevina. Ne tražim od klijenata da prkose gladi, nego da je pametno zadovolje. Gladi se ne može prkositi dugo, a prkošenje se plaća.\n\n— A slatkiši?\n\n— Slatkiši nisu neprijatelj. Neprijatelj je osećaj krivice koji dolazi posle njih. Ako već jedete parče torte, jedite ga lepo, polako, uz kafu. Zabrana samo pojačava želju, a suzdržati se po svaku cenu retko uspeva. Ko se suzdrži danas, sutra pojede duplo. Zato mi je draže da klijenti jedu ono što vole, ali sa merom.\n\nNa kraju me pita šta ja preferiram za doručak. Priznajem da obično preskočim doručak, pa me Marija samo pogleda i pruži mi jabuku iz svoje torbe.\n\nPitanja:\nŠta je Marija radila pre nego što je postala nutricionistkinja?\nRadila je kao manekenka.\nZašto je njen odnos prema hrani bio histeričan?\nIli je sve zabranjivala, ili je posle gladovanja pojela mnogo.\nŠta Marija misli o strogim zabranama u ishrani?\nMisli da je svaka stroga zabrana fatalna greška.\nŠta ona preferira kao obrok?\nPreferira jednostavan obrok od povrća, žitarica i belančevina.\nŠta je pružila novinaru na kraju razgovora?\nPružila mu je jabuku iz svoje torbe."
+    },
+    {
+      "title": "Jutro u zoološkom vrtu",
+      "summary": "A zookeeper at the Beograd zoo prepares morning meals for a leopard, a camel, ducks and young animals, with the vet checking the diet.",
+      "newWords": [
+        "leopard",
+        "deva",
+        "mladunče",
+        "patak",
+        "ludovati",
+        "žbunje",
+        "iva",
+        "rasan",
+        "rvati"
+      ],
+      "text": "Zoran radi u zoološkom vrtu na Kalemegdanu već 15 godina i kaže da zna svaku životinju po glasu. Dan mu počinje pre sedam, kad je park još prazan, a ptice već glasno pevaju. Prvo ide u kuhinju za životinje, gde ga čeka dugačak spisak. Svaka životinja ima svoju porciju, a veterinarka Jovana pažljivo pazi da u spisku ništa ne bude pogrešno.\n\nPrvi obrok je za leoparda. Dobija sveže meso, vagano na gram, jer prevelika količina nije dobra ni za njega. Zoran ga ostavlja na kamenu, a leopard ga uzima tek kad čovek ode. Kad čuje lagane korake iza ograde, Zoran zna da je leopard već ustao i da ga posmatra između žbunja. U tom gustom žbunju leopard najradije provodi jutro.\n\nZatim ide do deve. Ona jede seno, malo ovsa i sveže povrće, a pije vrlo malo, što Zorana svaki put iznova iznenadi. Deva je dobro raspoložena i voli da se igra lopatom: prevrne je, pa pogleda Zorana kao da čeka aplauz.\n\nNajveselije je kod mladunaca. Prošlog meseca su se rodila tri mala mladunčeta, koja Zoran hrani toplim mlekom. Najveće mladunče uvek prvo stigne do flaše. Posle doručka mladunčad luduju po travi: trče, padaju i rvu se jedno sa drugim. Zoran bi mogao satima da ih gleda, jer ludovati tako slobodno mogu samo siti i zdravi mladunci. Jovana kaže da je to dobar znak, jer životinje koje se hrane kako treba imaju dovoljno snage za igru.\n\nKraj jezera raste stara iva, a ispod nje plivaju patke. Jedan patak sa zelenom glavom uvek prvi dolazi po hranu, a drugi patak ga prati kao senka. Zoran im baca žitarice i malo hleba, ali ne previše, jer Jovana ne dozvoljava da se ptice hrane samo ostacima. Mala farma na kraju parka ima i rasne koze i jednu rasnu ovcu, koje jedu travu iz ruke ako deca pružaju lagano.\n\nKad završi, Zoran sedne na klupu ispod ive i popije kafu. Otvara svoj sendvič i misli kako ovaj posao, uprkos ranom ustajanju, ne bi zamenio ni za jedan drugi.\n\nPitanja:\nGde radi Zoran?\nRadi u zoološkom vrtu na Kalemegdanu.\nŠta dobija leopard za doručak?\nDobija sveže meso vagano na gram.\nČime Zoran hrani mladunčad?\nHrani ih toplim mlekom.\nŠta radi mladunčad posle doručka?\nLuduju po travi, trče, padaju i rvu se.\nŠta Zoran radi kad završi posao?\nSedne na klupu ispod ive, pije kafu i jede sendvič."
+    },
+    {
+      "title": "Ručak u elektrani",
+      "summary": "A doctor visits the Kostolac power plant to see what the workers eat during a shift, and talks to a miner about his packed lunch.",
+      "newWords": [
+        "rudar",
+        "elektrana",
+        "postrojenje",
+        "aktovka",
+        "eksplozivan",
+        "curiti",
+        "celina"
+      ],
+      "text": "Doktorka Danica ulazi u elektranu u Kostolcu u osam ujutru, sa aktovkom u ruci i belim kaputom preko ramena. Sa njom je Mile, rudar iz obližnjeg rudnika, koji je došao da pomogne. Cilj posete je da se vidi šta zaposleni jedu tokom smene, jer su lekari primetili da mnogi preskaču obrok ili jedu samo ono što je brzo.\n\nPrvo obilaze veliko postrojenje. Svuda su cevi, ventili i table sa upozorenjima, a na jednoj piše da je prostor eksplozivan i da je upotreba plamena zabranjena. Danica pita kako onda ljudi greju hranu. Mile objašnjava da postoji posebna prostorija za obroke, daleko od mašina, sa velikim stolom. Tu se okupe oko podne, a to je jedino mesto u celoj elektrani gde se ne čuje buka mašina. Kad se pomene eksplozivan temperament nekog radnika, Mile se nasmeje i kaže da su gladni ljudi najopasniji, a ne gas.\n\nU prostoriji Danica otvara aktovku i vadi list papira sa pitanjima. Pita Mileta šta je poneo. On pokazuje veliku kutiju: dva sendviča sa kobasicom, kiselo mleko i kolač. Sendviči koje prodaju u trpezariji, kaže on, nisu ništa bolji: u njima je belo pecivo i mnogo masnoće. Danica piše i klima glavom. Rudari i radnici u elektrani ne mogu da jedu lagano, ali mogu da jedu pametno.\n\nPosle ručka im pokazuju kupatila, gde jedna cev curi već nedelju dana. Mile obećava da će to rešiti još danas. Danica se smeje i kaže da su ljudi u ovom postrojenju spremni da poprave svaku cev, a ne razmišljaju o svom jelovniku. Mile priznaje da je tačno: za mašine zna sve, a za stomak ništa. Cev koja curi popravlja za pola sata.\n\nNa kraju dana Danica piše preporuku. Dan treba posmatrati kao celinu. U celini gledano, obrok mora da bude podeljen: doručak pre smene, ručak u sredini i nešto lagano uveče. Predlaže da se u trpezariji uvedu supe i salate, da se hleb zameni tamnijim i da svaki radnik dobije bocu vode. Mile potpisuje papir i obećava da će od sutra u kutiji nositi i jabuku. Danica odlazi zadovoljna, jer je u veliko postrojenje ušla s pitanjem, a izašla s planom. Aktovka je uveče bila teža nego ujutru, jer je u njoj ležalo deset ispisanih listova.\n\nPitanja:\nZašto je Danica došla u elektranu?\nDošla je da vidi šta radnici jedu tokom smene.\nŠta piše na tabli u postrojenju?\nPiše da je prostor eksplozivan i da je plamen zabranjen.\nŠta je Mile poneo za ručak?\nPoneo je dva sendviča sa kobasicom, kiselo mleko i kolač.\nŠta Danica predlaže da se uvede u trpezariju?\nPredlaže supe, salate i tamniji hleb.\nŠta Mile obećava?\nObećava da će popraviti cev koja curi i da će nositi jabuku."
+    },
+    {
+      "title": "Riba u loncu na Dunavu",
+      "summary": "A boy and his grandfather cook fish on the Danube near Apatin, where the grandfather and his friend argue gently about the paprika.",
+      "newWords": [
+        "sidro",
+        "vir",
+        "mesečina",
+        "zaći",
+        "darovati",
+        "farba",
+        "prepirati"
+      ],
+      "text": "Svakog leta provodim nedelju dana kod dede Rade u Apatinu. Deda ima mali čamac na Dunavu, koji je prošle zime obojio zelenom farbom, i stalno kaže da je to najlepši čamac na celoj reci. Ja, Sava, imam 12 godina i u tom čamcu sam proveo najlepše večeri svog detinjstva. Svake godine mi dozvoli da malo pomognem oko farbe, ali samo kad je čamac na obali.\n\nJedne večeri deda je rekao da ćemo spremati ribu na obali. Pozvao je i svog prijatelja Petra, ribara iz susednog sela, koji je doneo veliki lonac i kesu paprika. Čamac smo odvezli do mesta gde je reka mirna, a deda je spustio sidro u vodu. Samo nekoliko metara dalje video se mali vir, koji je okretao list, kao da se igra. „Tamo ne idemo“, rekao je deda. „Vir voli da iznenadi.“ Sidro je držalo čamac čvrsto, pa smo mirno sedeli.\n\nPetar je darovao dedi tri velike ribe koje je ujutru uhvatio, a deda je za uzvrat darovao njemu teglu svog domaćeg džema. Sunce je počelo da zalazi i reka je postala crvena i zlatna. Kad je sunce sasvim zašlo, upalili smo malu vatru i stavili lonac. Sunce je tog dana zašlo brzo, kao da je i ono htelo da proba ribu. Riba je morala da se kuva polako, pa smo imali dovoljno vremena da gledamo vodu.\n\nTu je počela prava priča. Deda i Petar su se prepirali o tome da li u lonac ide ljuta ili blaga paprika. Deda je tvrdio da ide blaga, jer je njegova mama tako kuvala. Petar je uvek stavljao ljutu. „Prepirali smo se tako i pre trideset godina“, rekao je Petar i smejao se. Svi su znali kako će se završiti: stavili su po malo od obe paprike. Meni se ta riba učinila najbolja koju sam ikada jeo.\n\nKad smo pojeli, nebo je bilo potpuno tamno, ali je izašao pun mesec. Mesečina je padala na vodu i reka je izgledala kao da je od srebra. Ležali smo u čamcu, sa punim stomacima, i niko nije hteo da govori. Samo smo slušali kako voda tiho udara o čamac, a sidro se povremeno trzalo na lancu. Deda je posle nekog vremena tiho rekao da će mi ostaviti čamac kad porastem. Obećao sam da ću ga svake godine bojiti istom zelenom farbom, a mesečina je tu noć bila toliko jaka da sam mogao da vidim dedin osmeh.\n\nPitanja:\nGde Sava provodi leto?\nProvodi ga kod dede Rade u Apatinu.\nŠta je deda uradio kad su stigli do mirnog mesta na reci?\nSpustio je sidro u vodu.\nŠta je Petar darovao dedi?\nDarovao mu je tri velike ribe.\nO čemu su se deda i Petar prepirali?\nPrepirali su se o tome da li u lonac ide ljuta ili blaga paprika.\nŠta je Sava obećao dedi?\nObećao je da će svake godine bojiti čamac zelenom farbom."
+    },
+    {
+      "title": "Karneval ukusa",
+      "summary": "A restaurant owner in Niš saves her failing business with a food carnival where children in costumes taste unusual dishes, even slimy ones.",
+      "newWords": [
+        "karneval",
+        "arija",
+        "fantom",
+        "ljigav",
+        "branilac",
+        "racija",
+        "bankrotirati",
+        "preokret"
+      ],
+      "text": "Miroslava je u Nišu držala malu kafanu i poslednjih meseci joj je išlo sve lošije. Gostiju je bilo malo, računi su stizali redovno i ona je počela ozbiljno da razmišlja da će morati da bankrotira. Jedne večeri, dok je brojala novac, pomislila je da joj je potreban preokret, nešto što bi ljude vratilo za njene stolove. Bez preokreta, mislila je, kafana će bankrotirati do proleća.\n\nTada joj je kći Tamara pokazala fotografiju sa nekog dečjeg karnevala. „Zašto ne bismo napravili karneval hrane?“, rekla je. „Deca dođu u kostimima, a svako jelo ima svoju priču.“ Miroslava se isprva nasmejala, ali je do jutra već pisala spisak jela.\n\nKarneval je održan prvog septembra u dvorištu kafane. Došlo je više od 100 ljudi. Deca su bila obučena kao pirati, kao princeze i kao fantom iz opere, sa belom maskom preko pola lica. Taj mali fantom je celu večer hodao između stolova i pevao. Na stolovima su bila jela sa neobičnim imenima: supa od bundeve, pita sa jabukama, voćni ražnjići. Bamija u supi bila je malo ljigava, što je nekoliko dečaka dovelo do smeha, ali kad su probali, tražili su još. Jedna devojčica je rekla da je ljigavo jelo najbolje, jer se lepo prima na kašiku.\n\nUsred večeri pojavila se racija, ali ne kakvu je Miroslava zamišljala: dva inspektora došla su da vide da li je sve u redu. Miroslava je malo zadrhtala, ali su inspektori pregledali kuhinju i stolove i rekli da je sve čisto. Jedan od njih je čak uzeo tanjir supe i rekao da bi voleo da se vrati kao gost. Posle ove racije Miroslava se smirila.\n\nZa kraj večeri pozvana je pevačica, Miroslavina komšinica, koja je otpevala jednu poznatu ariju. Arija je trajala tri minuta, a posle arije se dvorište utišalo, a deca su stajala sa tanjirima u rukama. Među gostima je bio i Brane, bivši branilac jednog kluba, koji je glasno aplaudirao. Kasnije je pričao da je kao branilac često trčao po terenu, ali da nikad nije bio tako uzbuđen kao večeras.\n\nPosle karnevala u kafani je opet bilo gostiju. Miroslava danas ima rezervacije za svaki vikend, a svake godine prvog septembra organizuje novi karneval. Kad je neko pita da li se plašila da će bankrotirati, ona kaže da je malo plašenja potrebno, ali da je mnogo važnije imati dobru ideju. Svemu je kriv jedan preokret koji je počeo jednom fotografijom.\n\nPitanja:\nZašto je Miroslava mislila da će bankrotirati?\nZato što je gostiju bilo malo, a računi su stizali redovno.\nČija je ideja bio karneval hrane?\nIdeja je bila Miroslavine kćerke Tamare.\nZašto su se dečaci smejali jelu od bamije?\nSmejali su se jer je bilo malo ljigavo, ali su ga ipak tražili još.\nKo je došao na neočekivanu raciju?\nDošla su dva inspektora i rekla da je sve čisto.\nŠta se promenilo posle karnevala?\nU kafani je opet bilo gostiju i Miroslava ima rezervacije za svaki vikend."
+    },
+    {
+      "title": "Dan u domu zdravlja",
+      "summary": "A nurse in a health centre on Fruška gora describes a busy autumn day with the flu going around and a boy who fell off his bike.",
+      "newWords": [
+        "sestrinstvo",
+        "skalpel",
+        "harati",
+        "šlem",
+        "navodni"
+      ],
+      "text": "Mirjana je medicinska sestra u domu zdravlja na Fruškoj gori. Kaže da je sestrinstvo posao koji se uči godinama, ali još više svakog dana. Posle 20 godina u sestrinstvu ume da pogodi ko je bolestan čim vidi kako ulazi. Kad ujutru uđe u ambulantu, prvo pogleda ko sedi u čekaonici. Danas je tamo petnaest ljudi.\n\nJesen je i grip hara selom već treću nedelju. Skoro svaka porodica ima nekoga ko kašlje, ima temperaturu ili samo leži. Doktor Miloš stiže u osam, a Mirjana mu već sprema papire. Većina pacijenata dobija isti savet: mnogo tečnosti, mirovanje i topla supa. Mirjana ponavlja da lekovi ne mogu da zamene dobru ishranu. Jedna starija žena pita da li sme da pojede kolač. Mirjana se smeši i kaže da sme, samo ne ceo. Drugi pacijent je pročitao na internetu o navodnom čudotvornom čaju koji leči sve i pita može li da ga pije. Mirjana mu strpljivo objašnjava da su navodni čudotvorni lekovi najčešće samo reklama.\n\nU podne dolazi dečak Vuk sa majkom. Pao je sa bicikla i ogrebao koleno i lakat. Srećom, nosio je šlem, pa glava nije povređena. Mirjana ga posmatra: „Šlem ti je spasao ceo dan“, kaže. Dečak se suzdrži da ne zaplače dok mu se rana čisti, a majka mu drži ruku. Kad na stolu ugleda skalpel, pita da li će ga seći. Mirjana objašnjava da skalpel doktor Miloš koristi samo za male zahvate i da danas nikome neće trebati. Dečak se osmehne, a Mirjana se suzdrži da se ne nasmeje glasno.\n\nU pauzi Mirjana jede sendvič i pije čaj sa medom. Priča sa koleginicom o tome kako ljudi ne obraćaju dovoljno pažnje na hranu kad su bolesni. „Hladna supa, preskočen doručak i dva sata sna“, kaže koleginica, „pa se onda čude što ih je grip uhvatio.“ Mirjana klima glavom, jer to vidi svaki dan.\n\nNa kraju smene Mirjana sređuje ambulantu i piše izveštaj. Petnaest pacijenata, tri hladna kašlja, jedno ogrebeno koleno. Gasi svetlo i kroz prozor vidi kako se mrak spušta na šumu. U kućama dole svetle prozori, u svakoj se kuva supa, a ona zna da će sutra u čekaonici opet sedeti petnaest ljudi i da će joj biti drago što je tu.\n\nPitanja:\nGde radi Mirjana?\nRadi u domu zdravlja na Fruškoj gori.\nŠta hara selom u jesen?\nSelom hara grip.\nŠta je Mirjana savetovala većini pacijenata?\nSavetovala im je tečnost, mirovanje i toplu supu.\nZašto je Vuku pomogao šlem?\nZato što je pao sa bicikla, ali glava nije povređena.\nŠta Mirjana radi na kraju smene?\nSređuje ambulantu i piše izveštaj."
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "sr-mini-6800",
+  "rankUpTo": 6800,
+  "level": "C1",
+  "title": "Književnost na srpskom",
+  "description": "Ten calm texts about literature in Serbian: a writer's memorial house, a library, a translator, a book club, the rhythm of a poem, a children's workshop, a bookbinder, a writers' residency, a letter and a bakery book shelf.",
+  "topic": "Literature in Serbian",
+  "names": [
+    "Jelena",
+    "Stevan",
+    "Lukić",
+    "Lukića",
+    "Sombor",
+    "Zorica",
+    "Bačka",
+    "Mile",
+    "Niš",
+    "Milica",
+    "Stanković",
+    "Branko",
+    "Ilić",
+    "Beč",
+    "Beograd",
+    "Tamara",
+    "Marko",
+    "Kragujevac",
+    "Reč",
+    "Nada",
+    "Slobodan",
+    "Vesna",
+    "Aleksa",
+    "Subotica",
+    "Miroslava",
+    "Luka",
+    "Anja",
+    "Čačak",
+    "Biljana",
+    "Kalemegdan",
+    "Dragan",
+    "Sara",
+    "Zemun",
+    "Zlatibor",
+    "Radovan",
+    "Nikolić",
+    "Ivana",
+    "Gordana",
+    "Solun",
+    "Valjevo",
+    "Dušica",
+    "Jasna",
+    "Nikos",
+    "Novi Sad",
+    "Radmila",
+    "Teodora",
+    "Dunavska",
+    "Srbija"
+  ],
+  "lessons": [
+    {
+      "title": "Spomen-kuća u Bačkoj",
+      "summary": "Jelena visits a poet's memorial house near Sombor, where the caretaker shows her the bench, the old photographs, the garden and the beehives.",
+      "newWords": [
+        "spomen",
+        "pšenica",
+        "povetarac",
+        "košnica",
+        "korov",
+        "posaditi",
+        "gošća",
+        "davni",
+        "bačva",
+        "foto"
+      ],
+      "text": "Jelena je dugo želela da poseti spomen-kuću pesnika Stevana Lukića, koja stoji na kraju jednog sela u Bačkoj, nedaleko od Sombora. Prošle nedelje je napokon otišla. Na kapiji ju je dočekala Zorica, žena koja čuva kuću, i pozdravila je kao gošću, a ne kao posetioca.\n\n— Uđite, uđite — rekla je. — Danas ste naša gošća, pa možete da vidite sve. Samo ništa ne dirajte.\n\nKuća je niska i bela, a ispred nje stoji klupa okrenuta prema polju. Dok je Jelena sedela na toj klupi, osetila je blag povetarac, koji je donosio miris pšenice.\n\n— Stevan je govorio da se svet prvo čuje, pa tek onda vidi — objasnila je Zorica. — Prvo se čuje pšenica, a onda se pred vama otvori cela ravnica.\n\nU kući je malo stvari, ali svaka ima svoju priču. Na stolu u radnoj sobi leže naočare i sveska u kojoj je pesnik zapisivao stihove. Na polici stoji foto-album, a u njemu stare fotografije iz davnih godina, kada je u dvorištu bilo više dece nego kokošaka. Jelena je dugo gledala sliku dečaka koji sedi na klupi i posmatra pšenicu.\n\n— To je Stevan sa devet godina — rekla je Zorica. — Već tada je satima sedeo na tom mestu i slušao polje. A evo ga na drugoj fotografiji, na istom mestu, samo malo stariji.\n\nPosle toga su izašle u dvorište. Tamo stoji velika drvena bačva, u koju se i danas hvata kiša za cveće, baš kao na starim fotografijama. Pored bačve je bašta.\n\n— Svakog proleća ljudi iz sela posade isto cveće koje se vidi u albumu — rekla je Zorica. — Tako bašta izgleda kao nekada. A korov izvadimo svakog jutra, jer je Stevan govorio da baštu treba čuvati kao pesmu: u njoj ne sme da bude ništa što nije potrebno. Danas sam korov vadila ja, a sutra će neko drugi.\n\nJelena se nasmejala. Iza bašte stoje tri košnice, o kojima se brine komšija Mile. Zorica je objasnila da pčele i danas lete po istim livadama kao u vreme kada je Stevan pisao, i da se med deli gostima. Pre odlaska Jelena je dobila teglu meda, napisala nekoliko reči u knjigu gostiju i obećala da će doći ponovo, kad se u bašti posade ruže.\n\nPitanja:\nGde se nalazi spomen-kuća pesnika Stevana Lukića?\nNalazi se na kraju jednog sela u Bačkoj, nedaleko od Sombora.\nŠta je Jelena osetila dok je sedela na klupi?\nOsetila je blag povetarac, koji je donosio miris pšenice.\nŠta se nalazi u foto-albumu?\nU njemu su stare fotografije iz davnih godina.\nZašto ljudi iz sela svakog jutra vade korov?\nVade ga zato što je pesnik govorio da baštu treba čuvati kao pesmu.\nŠta je Jelena dobila pre odlaska?\nDobila je teglu meda iz košnica kraj bašte."
+    },
+    {
+      "title": "Biblioteka u Nišu",
+      "summary": "The woman who runs the city library in Niš receives a new four-year term and presents the digital catalogue, the regional collection and the way donated books are handled.",
+      "newWords": [
+        "regionalan",
+        "literatura",
+        "kvalifikacija",
+        "mandat",
+        "licenca",
+        "prezentacija",
+        "zbrinuti",
+        "opteretiti",
+        "dohvat"
+      ],
+      "text": "Gradska biblioteka u Nišu dočekala je ovu jesen sa dobrom vešću: Milica Stanković, žena koja vodi biblioteku, dobila je od odbora novi mandat, ovog puta na četiri godine. Za nju to nije samo zvanje, nego prilika da dovrši ono što je počela.\n\nU petak je održana prezentacija novog kataloga. Milica je objasnila da je biblioteka kupila licencu za program koji pretražuje sve knjige u gradu, kao i one u manjim bibliotekama po selima. Do sada je trebalo pola sata da se nađe jedna knjiga, a sada je dovoljno nekoliko sekundi.\n\n— Ne želim da opteretim članove teškim pravilima — rekla je. — Katalog mora da bude jednostavan, kao dobra polica: tamo gde nešto tražiš, tamo to i stoji.\n\nPosebnu pažnju posvetila je regionalnoj literaturi. U jednom delu sale sada stoje knjige pisaca sa juga Srbije, među njima i one koje se godinama nisu mogle naći. Regionalna literatura je dugo stajala na gornjoj polici, koja je bila opterećena starim izdanjima, pa je Milica odlučila da sve preseli. Najtraženije knjige sada su na dohvat ruke, na najnižoj polici, da ih mogu uzeti i deca.\n\nMilica ne krije da bez dobrih saradnika ništa od toga ne bi bilo moguće. U biblioteci rade ljudi različitih kvalifikacija: ima profesora istorije, stručnjaka za računare i majstora za popravku starih knjiga. Svako zna svoj posao, ali svi znaju i posao ostalih.\n\n— Dobre kvalifikacije nisu dovoljne ako čovek ne voli knjige — dodala je. — Zato volim da ljudi budu radoznali.\n\nJedna priča joj je posebno draga. Gospodin Branko Ilić preselio se u manji stan i doneo tri kutije knjiga, jer ih nije mogao sve da ponese. Zaposleni su te knjige zbrinuli: deo je ušao u fond, a ostatak je poklonjen seoskim školama. Niko nije otišao praznih ruku, kaže Milica, a polica u prolazu uvek je puna. Milica kaže da je zbrinuti knjigu isto što i zbrinuti čoveka: treba joj naći mesto gde će biti potrebna.\n\n— Znam da se u knjigama nalazi ono što se ne vidi na prvi pogled — rekla je na kraju prezentacije. — Zato je naš mandat jednostavan: da svaka knjiga nađe svog čitaoca.\n\nPitanja:\nNa koliko godina je Milica Stanković dobila novi mandat?\nDobila je mandat na četiri godine.\nŠta je biblioteka kupila za novi katalog?\nKupila je licencu za program koji pretražuje sve knjige u gradu.\nZašto su najtraženije knjige na najnižoj polici?\nZato da budu na dohvat ruke i da ih mogu uzeti i deca.\nKakve kvalifikacije imaju ljudi koji rade u biblioteci?\nMeđu njima su profesor istorije, stručnjak za računare i majstor za stare knjige.\nŠta su zaposleni uradili sa knjigama gospodina Ilića?\nZbrinuli su ih: deo je ušao u fond, a ostatak je poklonjen školama."
+    },
+    {
+      "title": "Prevodilac u Beču",
+      "summary": "A Serbian translator living in Vienna describes how she works on a German novel, how she avoids clichés, and the prize she will receive.",
+      "newWords": [
+        "paralelan",
+        "uručiti",
+        "izumreti",
+        "šablona",
+        "kliše",
+        "usavršiti",
+        "dogovarati",
+        "odupreti",
+        "spoznati",
+        "školovati"
+      ],
+      "text": "Već dvadeset godina živim u Beču i prevodim sa nemačkog na srpski. Školovala sam se u Beogradu, a ono što znam o poslu naučila sam tek ovde, uz dobre knjige i strpljive urednike. Mislila sam da ću se jednog dana potpuno usavršiti, ali taj dan nikada ne dolazi: svaki novi roman je nova škola, u kojoj se moram ponovo školovati. Posle svake knjige kažem sebi da sam se malo usavršila, a već sledeće jutro znam da nisam.\n\nKad radim, na stolu držim paralelan tekst: original je levo, a moj prevod desno. Tako odmah vidim gde sam se previše udaljila od pisca. Pored toga, svakog dana se telefonom dogovaram sa urednikom Markom. Neke rečenice nemaju dobar odgovor na srpskom i moramo zajedno da tražimo rešenje, pa se dogovaramo čak i oko najmanjih detalja.\n\nNajteže je kada naiđem na reč koja je skoro izumrla. U romanu na kome radim, jedan pisac koristi izraz iz nekog planinskog govora, a nijedan rečnik ga ne objašnjava. Tražila sam ga u starim knjigama, pitala sam komšije i na kraju sam ga našla u jednom rukopisu. Reč koja izumre ne nestane sasvim: ostane u nekoj rečenici i čeka da je neko pročita.\n\nNajveća opasnost za prevodioca je šablona. Kad je tekst dug, lako se uzme gotovo rešenje, ono što svi već znamo: „srce joj je preskočilo“, „vreme je stalo“. To su klišei koji štede trud, a oduzimaju piscu glas. Svaki put se trudim da se oduprem, iako nije lako. Ponekad mi treba čitav dan da nađem rečenicu koja govori kao pisac, a ne kao uputstvo. Kad se oduprem kliše, osećam se kao da sam pobedila u maloj trci.\n\nMoj profesor je govorio da prevodilac prvo mora da spozna duh jezika, pa tek onda reči. Tek sam kasnije shvatila šta je time mislio: reči se mogu naučiti iz rečnika, ali duh jezika čovek spozna samo čitanjem, danima i mesecima.\n\nProšle nedelje stiglo je pismo iz Beograda. Udruženje prevodilaca mi je javilo da će mi uručiti godišnju nagradu. Ceremonija će biti u novembru. Marko se već šali da mi neće trebati nijedan govor, jer ću sve reći pogledom. Ja se ipak pripremam: nagradu ću u mislima uručiti svim rečenicama koje su me naučile da čitam.\n\nPitanja:\nŠta prevodilac drži na stolu dok radi?\nDrži paralelan tekst: original levo, a prevod desno.\nSa kim se ona svakog dana dogovara?\nDogovara se telefonom sa urednikom Markom.\nŠta je teško kad neka reč skoro izumre?\nTeško je naći njeno objašnjenje, jer je nijedan rečnik ne objašnjava.\nŠta znači odupreti se šablonu?\nZnači ne uzimati gotova rešenja i kliše, nego tražiti pravu rečenicu.\nŠta će joj udruženje uručiti u novembru?\nUručiće joj godišnju nagradu."
+    },
+    {
+      "title": "Klub čitalaca u Kragujevcu",
+      "summary": "A reading club in Kragujevac argues over the ending of a family saga about three generations who make furniture, and its members agree to disagree.",
+      "newWords": [
+        "saga",
+        "suparnik",
+        "glupak",
+        "poštenje",
+        "opravdan",
+        "zaplašiti",
+        "pobuniti",
+        "propovedati"
+      ],
+      "text": "Klub ljubitelja knjiga „Reč“ okuplja se svakog drugog utorka u maloj sali biblioteke u Kragujevcu. Te večeri na redu je bio roman koji svi zovu sagom, jer prati tri generacije jedne porodice koja pravi nameštaj.\n\n— Meni se najviše dopada deda Aleksa — rekla je Nada. — Ljudi u selu misle da je glupak, jer ne ume da traži veću cenu. A on jednostavno ne želi da prevari nikoga.\n\n— Njegovo poštenje je zapravo razlog što radnja još radi — dodao je Slobodan. — Svi znaju da kod njega ne mogu biti prevareni.\n\n— Ali ne zaboravi suparnika — javila se Vesna. — Onaj drugi majstor iz susednog sela pokušava da ga zaplaši. Stalno mu govori da će ostati bez mušterija. A deda Aleksa samo šuti i radi.\n\n— Njegov strah je bio opravdan — rekla je Nada. — Svaki trgovac bi se uplašio. Ali on zna da samo poštenje daje pravo da ostane na svom mestu.\n\nSlobodan je pogledao u knjigu i odmahnuo glavom.\n\n— Priznajem da me kraj ne zadovoljava. Dolazi suviše brzo, i to bez dovoljno borbe. Znam da prigovor nije sasvim opravdan, ali tako osećam. Ja bih voleo da se mušterije pobune protiv suparnika, pa da se vidi ko je u pravu. Glupak bi tada postao junak, a suparnik bi izgubio.\n\n— Ali pisac ne želi da propoveda — odgovorila je Vesna. — Ne želi da nas uči koga treba pohvaliti, a koga osuditi. Prepušta nam da sami zaključimo. Da su se mušterije pobunile, knjiga bi bila glasnija, a manje istinita.\n\n— Dobro, dobro — rekao je Slobodan. — Pobunio sam se, ali ne previše. Kraj ostaje takav kakav jeste.\n\nSvi su se nasmejali. Nada je uzela knjigu u ruke i pročitala jednu rečenicu o dedi Aleksi, koja je opisivala kako svako jutro prvi dolazi u radnju, još pre svetla. Čitala je polako, a ostali su slušali.\n\nSala se ispraznila tek posle devet. Napolju je padala sitna kiša. Na stepenicama su se članovi kluba dogovorili da sledeći put čitaju neku kraću knjigu, ali niko nije bio siguran da će se to zaista dogoditi. Jedino su svi znali da će ponovo doći.\n\nPitanja:\nZašto roman nazivaju sagom?\nZato što prati tri generacije jedne porodice koja pravi nameštaj.\nZašto ljudi misle da je deda Aleksa glupak?\nMisle da je glupak zato što ne ume da traži veću cenu.\nŠta pokušava suparnik iz susednog sela?\nPokušava da zaplaši dedu Aleksu i da mu oduzme mušterije.\nŠta Slobodan misli o kraju romana?\nMisli da dolazi suviše brzo i voleo bi da se mušterije pobune.\nZašto pisac ne želi da propoveda?\nNe želi da nas uči koga treba pohvaliti, nego nam prepušta da sami zaključimo."
+    },
+    {
+      "title": "Ritam jedne pesme",
+      "summary": "A teacher in Subotica shows pupils how the rhythm of a poem works by counting aloud, reversing lines and reading verses about a lighthouse, a fishing hook and a flea.",
+      "newWords": [
+        "kotrljati",
+        "udica",
+        "svetionik",
+        "buva",
+        "zagaditi",
+        "obrnuti",
+        "naopačke",
+        "okov",
+        "resiti"
+      ],
+      "text": "Učiteljica Miroslava iz Subotice voli da kaže da je pesma pre svega ritam, a tek onda reči. Tog jutra je na tablu napisala nekoliko stihova i pozvala učenike da ih zajedno pročitaju.\n\n— Ne čitajte kao u novinama — rekla je. — Čitajte tako da se čuje korak.\n\nDeca su počela polako. Miroslava je rukom pokazivala ritam, jedan, dva, tri, a stihovi su se kotrljali kao lopte niz brdo. Pesma je govorila o dečaku koji sedi na morskoj obali i čeka da riba zagrize udicu. Daleko se vidi svetionik, a njegova svetlost se kotrlja po talasima.\n\n— Čujete li kako se ritam ubrzava kad riba zagrize udicu? — pitala je. — Pesnik to postiže kratkim rečima. Svetionik je zato spor, a udica brza. A sad ćemo da probamo nešto drugo. Šta će se desiti ako obrnemo red stihova?\n\n— Obrnite ih i čitajte od poslednjeg do prvog — rekla je.\n\nDeca su to uradila i pročitala pesmu od kraja ka početku.\n\n— Sve je naopačke! — rekao je mali Luka.\n\n— Tačno — rekla je Miroslava. — Isti stihovi, ali drugačije složeni, i pesma više ne hoda, nego se saplete. Pokušajte još jednom da je pročitate naopačke, pa ćete čuti razliku. Zato pesnici toliko brinu o redu reči.\n\nSledeća pesma bila je šala o buvi koja želi da postane slon. Buva je mala, ali skače visoko, a ritam skače zajedno sa njom. Deca su se smejala. Onda je Miroslava pročitala ozbiljniju pesmu o reci koju su ljudi zagadili, o ribama koje plivaju nazad čim se zagađena voda očisti.\n\n— Neki misle da rima resi stih, kao što nakit resi ruku — rekla je. — Drugi misle da je rima okov, jer tera pesnika da bira reči koje nije hteo. Okovi su teški, ali dobar pesnik ume da hoda i u njima. Ko je u pravu?\n\nAnja je podigla ruku.\n\n— Mislim da je rima kao ogrlica: lepa je, ako ne steže.\n\n— Odlično — nasmešila se učiteljica. — A ritam je kao disanje: ne vidi se, ali bez njega pesma ne živi.\n\nPitanja:\nŠta učiteljica Miroslava kaže o pesmi?\nKaže da je pesma pre svega ritam, a tek onda reči.\nKo je u pesmi čekao da riba zagrize udicu?\nDečak koji sedi na morskoj obali.\nŠta se desilo kad su deca obrnula red stihova?\nPesma se saplela i više nije hodala.\nO čemu je bila šala koju su deca čula?\nBila je to šala o buvi koja želi da postane slon.\nKako je Anja opisala rimu?\nRekla je da je rima kao ogrlica, lepa ako ne steže."
+    },
+    {
+      "title": "Radionica u Čačku",
+      "summary": "In a children's writing workshop in Čačak, two pupils write a story about a unicorn in the savanna, and the librarian helps them with a plaster and a cover.",
+      "newWords": [
+        "jednorog",
+        "divovski",
+        "zlatnik",
+        "savana",
+        "ukrasiti",
+        "mineral",
+        "flaster",
+        "dražestan"
+      ],
+      "text": "Biljana radi u biblioteci u Čačku i svake subote vodi radionicu pisanja za decu. Ovog puta su prvi došli Luka i Anja i odmah seli za sto sa sveskama.\n\n— Hoćemo da napišemo priču o jednorogu — rekla je Anja.\n\n— Dobro — rekla je Biljana. — Ali gde on živi?\n\n— U savani — odgovorio je Luka. — Veliki jednorog sa zlatnim rogom, ali on to ne zna.\n\nBiljana se nasmešila. Savana nije mesto gde bi neko očekivao jednoroga, pa je to bilo dobro. Rekla im je da priča postaje zanimljiva čim se spoje dve stvari koje inače ne idu zajedno.\n\nDeca su pisala, a Biljana je hodala između klupa. Luka je napisao da jednorog na leđima nosi divovsku torbu, a u njoj mineral koji sija. Anja je dodala da se iza drveta pojavljuje dražestan mali slon i govori jednorogu da je izgubio zlatnik.\n\n— A zašto je zlatnik važan? — pitala je Biljana.\n\n— Zato što je jednorog obećao da će njime kupiti kišu — rekla je Anja ozbiljno. — Savana je suva.\n\n— To je dražesna zamisao — rekla je Biljana. — Samo nastavite.\n\nLuka se u tom trenutku naglo okrenuo i prstom prešao preko ivice lista. Papir je bio oštar i na prstu se pojavila tanka crvena linija. Biljana je odmah donela flaster iz fioke.\n\n— Papir ume da seče kao nož — rekla je. — Pisac mora da pazi na ruke. Evo, stavi flaster i piši dalje.\n\nKad je priča bila gotova, Biljana je pomogla deci da naprave naslovnu stranu. Ukrasili su je zlatnim zvezdicama, jednim divovskim jednorogom i kamenjem koje je Luka doneo od kuće. Naslov su napisali krupnim slovima: „Jednorog traži kišu“.\n\n— Da li smemo da je pročitamo ostalima? — pitala je Anja.\n\n— Naravno — rekla je Biljana. — Priča je napisana da bi se čitala.\n\nPitanja:\nKoga su Luka i Anja izabrali za junaka svoje priče?\nIzabrali su jednoroga koji živi u savani.\nŠta je jednorog nosio na leđima?\nNosio je divovsku torbu u kojoj je bio mineral koji sija.\nZašto je zlatnik bio važan?\nJednorog je obećao da će njime kupiti kišu, jer je savana suva.\nŠta se dogodilo Luki dok je pisao?\nPapir mu je posekao prst i Biljana mu je donela flaster.\nČime su deca ukrasila naslovnu stranu?\nUkrasili su je zlatnim zvezdicama, jednorogom i kamenjem."
+    },
+    {
+      "title": "Antikvarnica u Beogradu",
+      "summary": "A bookbinder in a Belgrade antiquarian shop repairs a damp old book with his apprentice and remembers how his own master taught him.",
+      "newWords": [
+        "zadah",
+        "uprljati",
+        "sečivo",
+        "bušilica",
+        "danak",
+        "potajan",
+        "zabadati",
+        "prisećati"
+      ],
+      "text": "U maloj antikvarnici u Beogradu, ispod Kalemegdana, majstor Dragan popravlja stare knjige. Njegova pomoćnica Sara tek uči zanat, pa se svakog jutra raduje onome što stiže na sto.\n\nTog dana stigla je knjiga iz prošlog veka. Čim je Dragan otvorio kutiju, osetio je težak zadah vlage.\n\n— Podrum — rekao je. — Znamo kakav miris ostavlja podrum.\n\n— Vlaga je uzela svoj danak — rekla je Sara. — Pogledajte kako su se stranice slepile.\n\n— Hajde da počnemo polako — rekao je Dragan. — Dodaj mi ono tanko sečivo.\n\nSara je donela mali nož sa tankim sečivom i pažljivo, list po list, razdvajala stranice. Neke su bile uprljane mrljama od vode, a druge samo požutele. Dragan je objašnjavao da se mrlja ne briše, nego se nežno čisti, jer papir ne oprašta grubost. Sečivo mora da bude tanko, a ruka mirna, inače će nož uprljati stranicu još više.\n\n— Vreme uzima danak od svake knjige — rekao je. — Naš posao je da mu ga vratimo bar malo.\n\nKad su stranice bile suve, na red je došla bušilica. Dragan je na hrpu stranica stavio tanak karton sa oznakama, pa je pažljivo napravio nove rupice za konac. Zatim je Sari pokazao kako se igla zabada kroz papir, tako da konac ne cepa list.\n\n— Ruka mora da bude mirna — rekao je. — Zabadaš lagano i vučeš ravno.\n\nDok je radio, Dragan se prisećao svog učitelja, starog majstora iz Zemuna.\n\n— Rekao mi je jednom da dobar uvez nije onaj koji se vidi, nego onaj koji ne smeta čitaocu — rekao je. — Toga se prisećam svaki put kad uzmem iglu.\n\nIzmeđu dve stranice Sara je pronašla suvi list javora, koji je neko davno potajno stavio da označi mesto u knjizi. Pažljivo ga je vratila na isto mesto.\n\n— To nećemo dirati — rekao je Dragan. — Neko je list potajno stavio tu, pre mnogo godina, i neka tu ostane.\n\nUveče je knjiga dobila nove korice i više nije mirisala na podrum. Sara ju je dugo držala u rukama.\n\nPitanja:\nŠta je Dragan osetio kad je otvorio kutiju?\nOsetio je težak zadah vlage.\nČime je Sara razdvajala stranice?\nRazdvajala ih je malim nožem sa tankim sečivom.\nČemu služi bušilica u ovom poslu?\nNjome se prave rupice kroz koje prolazi konac.\nKako treba zabadati iglu kroz papir?\nLagano i mirnom rukom, tako da konac ne cepa list.\nKoga se Dragan prisećao dok je radio?\nPrisećao se svog učitelja, starog majstora iz Zemuna."
+    },
+    {
+      "title": "Rezidencija na Zlatiboru",
+      "summary": "A retired chemist who has become a novelist spends a month in a writers' residency on Zlatibor and tells a visiting journalist about his work and the villagers nearby.",
+      "newWords": [
+        "rezidencija",
+        "izaslanik",
+        "laboratorijski",
+        "zubni",
+        "mutacija",
+        "energetski",
+        "nekoć",
+        "meštanin",
+        "spaljivati"
+      ],
+      "text": "Rezidencija za pisce na Zlatiboru otvorena je prošle godine, u zgradi koja je nekoć bila seoska škola. Izaslanik opštine presekao je crvenu traku pred ulazom i rekao da piscima najviše treba mir. Od tada ga meštani u šali zovu izaslanikom tišine. Ovog leta u rezidenciji boravi Radovan Nikolić, bivši inženjer hemije koji je u šezdesetim godinama počeo da piše romane. Novinarka Ivana ga je posetila jednog jutra.\n\n— Zašto baš hemija pre književnosti? — pitala ga je.\n\n— Nekoć sam mislio da su to dva sveta — odgovorio je. — Dvadeset godina sam radio u laboratorijskom odeljenju jedne energetske kompanije. Merio sam, pisao izveštaje, ponavljao. Međutim, kad pišem roman, vidim da je to isti posao: čovek posmatra i beleži.\n\n— Šta je od toga ostalo u vašim romanima?\n\n— Pažnja prema detalju. I strpljenje. U jednom romanu pišem o porodici u kojoj se isti nos vraća kroz tri generacije, kao mala mutacija koja se ne gubi. Moja supruga Gordana, koja je zubni lekar, kaže da je to najbolja stvar koju sam napisao. Verovatno zato što je nos njenog dede.\n\nIvana se nasmejala.\n\n— Kako vam odgovara život na Zlatiboru?\n\n— Odlično. Ujutru dođe Branko, jedan meštanin, i donese mleko. Meštani su ovde sve pripremili pre nego što sam stigao: sto, lampu i čak dve stolice, jer su bili sigurni da ću imati goste. A ja sam primetio da jedna stolica uvek ostaje prazna.\n\n— Prazna?\n\n— Ostavljam je za čitaoca. Svaki pisac treba jednu stolicu da ostavi.\n\nIvana je pitala i o rukopisima, jer su na stolu bile hrpe papira. Radovan je priznao da nikada nije spaljivao nijedan stari rukopis, iako je ponekad poželeo da to učini. Neki njegovi prijatelji pisci rade drugačije: spaljivati stranice, kažu, znači početi iznova. Radovan to ne radi, jer mu stari tekstovi uvek nešto kažu.\n\n— Hemija me je naučila da se nijedna supstanca ne gubi — rekao je. — Samo menja oblik. Tako je i sa rečenicama.\n\nPitanja:\nČime se Radovan Nikolić bavio pre nego što je počeo da piše romane?\nRadio je u laboratorijskom odeljenju jedne energetske kompanije.\nŠta je u njegovom romanu poput male mutacije?\nIsti nos koji se vraća kroz tri generacije jedne porodice.\nČime se bavi njegova supruga Gordana?\nOna je zubni lekar.\nŠta su meštani uradili pre njegovog dolaska?\nPripremili su sto, lampu i dve stolice.\nZašto Radovan nikada nije spaljivao stare rukopise?\nJer mu stari tekstovi uvek nešto kažu, a ništa se ne gubi, samo menja oblik."
+    },
+    {
+      "title": "Pismo iz Soluna",
+      "summary": "A Serbian woman living in Thessaloniki writes a letter to her friend in Valjevo about a bookshop, an olive tree, the distance between them and a book she is sending.",
+      "newWords": [
+        "razdaljina",
+        "osamnaest",
+        "nikud",
+        "neželjen",
+        "povoljan",
+        "zadesiti",
+        "maslina",
+        "zavlačiti"
+      ],
+      "text": "Solun, 12. oktobra\n\nDraga Dušice,\n\nne zavlači više sa odgovorom, jer sam ti već dvaput pisala! Znam da ti je jesen u Valjevu puna posla, ali bar nekoliko reči zaslužujem. Između nas je razdaljina od više od 600 kilometara, a pismo je jedini način da te osetim blizu.\n\nEvo kako mi je ovde. Prošle nedelje me je zadesilo prijatno iznenađenje: u starom delu grada otvorila se knjižara sa policom srpskih pisaca. Do sada sam knjige iz Srbije naručivala preko interneta, a sada ih držim u rukama. Vlasnik je Nikos, čovek koji je osamnaest godina živeo u Beogradu i savršeno govori naš jezik. Cene su povoljne, a on mi je obećao da će mi naručiti sve što poželim. Kaže da mu nema veće radosti od kupca koji dođe po knjigu koju je dugo tražio, a to ga zadesi skoro svake nedelje.\n\nDok sam birala knjige, napolju je počela kiša. Nikos mi je ponudio čaj i pokazao ulaz u baštu iza radnje, gde raste jedna stara maslina. Seli smo ispod nje i razgovarali o romanima, suvi i zadovoljni. Pomislila sam da bi ti se tu dopalo, jer znam koliko voliš mirna mesta. Posle sam kupila još jednu povoljnu knjigu, zbirku pesama, i odlučila sam da ti je pošaljem.\n\nOsim toga, imam jedno upozorenje: nemoj da zavlačiš ni sa čitanjem! Nikud ne idem a da ne kupim neku knjigu za tebe, ali ti šaljem samo ono što ti pristaje. Ovde mi stalno stižu neželjene reklame za sve i svašta, i najradije bih ih sve vratila. Knjiga koju ti šaljem nije neželjena, to ti obećavam. Pročitaj je polako i javi mi šta misliš.\n\nKad dođeš u posetu, povešću te u onu baštu pod maslinom. Pogledaćemo more, a Nikos će nam doneti čaj. Nikud nećemo žuriti. Biće nam dobro, a ne moramo ni da pričamo.\n\nČuvaj se i piši što pre.\n\nTvoja Jasna\n\nPitanja:\nKoliko je Jasna udaljena od Dušice?\nIzmeđu njih je razdaljina od više od 600 kilometara.\nŠta se otvorilo u starom delu Soluna?\nOtvorila se knjižara sa policom srpskih pisaca.\nKoliko godina je Nikos živeo u Beogradu?\nŽiveo je osamnaest godina u Beogradu.\nGde su Jasna i Nikos sedeli dok je padala kiša?\nSedeli su ispod stare masline u bašti iza radnje.\nZašto Jasna kaže da knjiga nije neželjena?\nZato što ju je poslala prijateljici koja će je rado pročitati."
+    },
+    {
+      "title": "Polica u pekari",
+      "summary": "In Novi Sad, a baker puts up a shelf where customers swap books, and a shy customer discovers that a small gesture can start a conversation.",
+      "newWords": [
+        "pekara",
+        "rezanac",
+        "blagajna",
+        "smešak",
+        "odlučnost",
+        "doživljaj"
+      ],
+      "text": "U jednoj maloj pekari u Novom Sadu, u blizini Dunavske ulice, svako jutro miriše na sveži hleb. Vlasnica, gospođa Radmila, pre nekoliko meseci je pored blagajne postavila policu na kojoj mušterije ostavljaju i uzimaju knjige. Pravilo je samo jedno: ko uzme knjigu, treba da ostavi neku drugu.\n\nPrvih dana polica je bila skoro prazna. Radmila je donela nekoliko svojih knjiga, a jedna stalna mušterija ostavila je roman o putovanju. Posle nedelju dana polica je postala mala biblioteka. Ljudi su dolazili po hleb i odlazili sa knjigom, a neki obrnuto: ostavljali su knjigu, pa kupovali hleb.\n\nJednog utorka u pekaru je ušla mlada žena po imenu Teodora. Dugo je stajala ispred police, a onda je uzela jednu tanku knjigu. Na knjizi je pisalo: „Rezanci sa makom“.\n\n— Zanimljiv naslov — rekla je tiho, sa blagim smeškom.\n\n— Dopašće vam se — odgovorila je Radmila. — To je knjiga priča o jednoj porodici i o njenom ručku. Pročitala sam je dvaput, jednom zbog priča, a drugi put zbog rezanaca.\n\nTeodora je pogledala knjigu, ali nije bila sigurna. Volela je da čita, ali je bila stidljiva i retko je razgovarala sa nepoznatima. Ipak, skupila je odlučnost i pitala:\n\n— A koja je vaša omiljena priča?\n\nRadmila se nasmešila i prestala da broji novac na blagajni.\n\n— Ona o dedi koji je svake nedelje pravio rezance. Ceo kraj bi se okupio u njegovom dvorištu. Pročitajte, pa mi recite šta mislite.\n\nTeodora je platila pecivo, a knjigu stavila u torbu. Uveče je sela pored prozora i čitala do kasno. Sutradan, kad je ušla u pekaru, na licu joj je bio blag smešak.\n\n— Pročitala sam — rekla je. — Priča o rezancima je moj omiljeni doživljaj ove nedelje.\n\nRadmila se nasmejala i pružila joj tek ispečen hleb.\n\n— Sada ostavite neku svoju — rekla je. — Neka neko drugi dobije svoj doživljaj.\n\nTeodora se na trenutak zbunila. Zatim je iz torbe izvadila knjigu koju je nosila sa sobom, i položila je na policu. Odlučnost joj je, izgleda, bila potrebna samo jednom. Od tada je svakog petka ostavljala po jednu knjigu na polici.\n\nPitanja:\nGde se nalazi polica sa knjigama?\nNalazi se u pekari, pored blagajne.\nKoje je pravilo gospođe Radmile?\nKo uzme knjigu, treba da ostavi neku drugu.\nKoju je knjigu Teodora uzela?\nUzela je knjigu priča „Rezanci sa makom“.\nKako se Teodora osećala kad je pitala Radmilu za omiljenu priču?\nBila je stidljiva, ali je skupila odlučnost.\nŠta je Teodora radila od tada svakog petka?\nOstavljala je po jednu knjigu na polici."
+    }
+  ]
+}
