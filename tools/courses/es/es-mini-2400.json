@@ -1,0 +1,231 @@
+{
+  "id": "es-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Ciencia y técnica",
+  "description": "Ten short stories about science and technology in everyday life across Spain, Latin America and the United States: a stolen phone found by its location, a school science fair, the stars of Atacama, a new railway, kitchen chemistry, speech practice with an app, a science museum, solar panels, online paperwork and a runner's smart watch.",
+  "topic": "Science and technology",
+  "names": [
+    "Valentina",
+    "Buenos Aires",
+    "Argentina",
+    "Gómez",
+    "Regina",
+    "Emilio",
+    "Monterrey",
+    "México",
+    "Garza",
+    "Tomás",
+    "Santiago de Chile",
+    "Isidora",
+    "Atacama",
+    "Felipe",
+    "Vía Láctea",
+    "Marta",
+    "Madrid",
+    "Extremadura",
+    "España",
+    "Javier",
+    "Andalucía",
+    "Cano",
+    "Sofía",
+    "Montevideo",
+    "Uruguay",
+    "Elsa",
+    "Mateo",
+    "Lima",
+    "Perú",
+    "Rocío",
+    "Huamán",
+    "Samuel",
+    "Bogotá",
+    "Colombia",
+    "Hernán",
+    "Galileo Galilei",
+    "Galileo",
+    "Roma",
+    "Georges Lemaître",
+    "Altagracia",
+    "República Dominicana",
+    "Caribe",
+    "Ramón",
+    "Layla",
+    "Atocha",
+    "Pilar",
+    "Siria",
+    "Samir",
+    "João",
+    "Daniela",
+    "Miami",
+    "Estados Unidos",
+    "Cuba",
+    "Ernesto"
+  ],
+  "lessons": [
+    {
+      "title": "El celular de Valentina",
+      "summary": "In Buenos Aires, Valentina's phone is stolen on the metro, and the location service she had turned on helps a police officer find it.",
+      "newWords": [
+        "ladrón",
+        "bolsillo",
+        "ubicación",
+        "ubicar",
+        "activar",
+        "servidor",
+        "portal",
+        "juro",
+        "castigar",
+        "ajeno",
+        "violación"
+      ],
+      "text": "Valentina vive en Buenos Aires, en Argentina, y trabaja en una empresa de tecnología. Un lunes por la mañana tomó el metro para ir a la oficina. El tren estaba lleno de gente. Llevaba el celular en el bolsillo, como siempre. Cuando bajó en su estación, metió la mano en el bolsillo y no encontró nada. El bolsillo estaba vacío. Un ladrón le había robado el celular sin que ella se diera cuenta.\n\nValentina no se puso nerviosa. Meses antes, había activado en el celular una función para encontrarlo. Esa función manda la ubicación del teléfono a un servidor de la empresa del celular cada pocos minutos. Desde la computadora de la oficina, Valentina entró en el portal de la empresa con su correo y su clave. En el portal apareció un mapa, y en el mapa, un punto rojo: la ubicación de su celular. El teléfono estaba en una plaza, a pocas cuadras de la estación.\n\nDesde el portal, Valentina activó también el modo perdido. Así el teléfono quedó bloqueado, y en la pantalla apareció un mensaje: «Este teléfono es de Valentina. Por favor, llame a este número.» Si el ladrón hubiera querido usarlo, no habría podido.\n\nDespués llamó a la policía. Un oficial, el señor Gómez, fue con ella a la plaza. «Con el mapa del portal podemos ubicar el teléfono en pocos minutos», le dijo. Gracias al servidor, la ubicación cambiaba cada vez que el ladrón se movía. Al final lograron ubicarlo en un banco de la plaza. Un hombre joven estaba sentado allí, con el celular de Valentina en la mano. Trataba de abrirlo, pero no podía.\n\n«¡Se lo juro, oficial, lo encontré en el suelo!», dijo el hombre. «Se lo juro por mi madre.» El oficial Gómez no le creyó. «Usted estaba intentando entrar en un teléfono ajeno», le contestó. «Entrar en un teléfono ajeno y mirar los datos de otra persona es una violación de la privacidad. La ley castiga el robo, y también castiga esa violación.»\n\nEl oficial se llevó al ladrón. Le explicó a Valentina que un juez decidiría cómo castigarlo. Valentina recuperó su celular esa misma tarde. En el metro de vuelta a casa, lo llevó en la mano y no en el bolsillo. «Si no hubiera activado esa función, nunca habría vuelto a ver mi celular», pensó.\n\nPreguntas:\n¿Dónde llevaba Valentina el celular?\nLo llevaba en el bolsillo.\n¿Qué hace la función que Valentina había activado?\nManda la ubicación del teléfono a un servidor cada pocos minutos.\n¿Dónde vio Valentina la ubicación de su celular?\nLa vio en un mapa, en el portal de la empresa.\n¿Qué dijo el hombre del banco?\nDijo: «¡Se lo juro, oficial, lo encontré en el suelo!»\n¿Por qué no le creyó el oficial?\nPorque el hombre estaba intentando entrar en un teléfono ajeno.\n¿Qué castiga la ley, según el oficial?\nCastiga el robo y también la violación de la privacidad."
+    },
+    {
+      "title": "Un plástico que desaparece",
+      "summary": "Two secondary-school students in Monterrey enter the city science fair with a plastic made from maize and impress the jury by recording every test.",
+      "newWords": [
+        "jurado",
+        "inscribir",
+        "experimentar",
+        "plástico",
+        "creador",
+        "impresionante",
+        "aprobación",
+        "exitoso",
+        "ilusión",
+        "anotar"
+      ],
+      "text": "Regina y Emilio tienen 15 años y estudian en una secundaria de Monterrey, en México. En marzo, la maestra de ciencias les habló de la feria de ciencias de la ciudad. «Pueden inscribirse hasta el viernes», les dijo. «Para inscribir un proyecto, necesitan la aprobación de un maestro.» Regina y Emilio tenían mucha ilusión. Querían participar con un proyecto sobre el plástico.\n\nEn el río de su colonia siempre había bolsas y botellas de plástico. Por eso querían hacer un plástico que desapareciera en la tierra en pocas semanas. La maestra leyó su idea y les dio su aprobación. Esa misma tarde, Regina y Emilio inscribieron el proyecto en la página de la feria. Lo llamaron «Un plástico que desaparece».\n\nDurante tres semanas experimentaron en la cocina de la casa de Regina. Mezclaban maíz, agua y un poco de vinagre, lo calentaban y lo dejaban secar. Cada vez cambiaban un poco la receta. Regina anotaba todo en un cuaderno: cuánto maíz usaban, cuánto tiempo calentaban la mezcla y cómo quedaba el plástico. Emilio sacaba fotos de cada prueba. Las primeras pruebas no fueron exitosas: el plástico se rompía. «Si hubiéramos puesto menos agua, se habría secado mejor», dijo Regina, y también lo anotó. A la quinta vez, el plástico quedó fuerte y suave. Después pusieron un trozo bajo la tierra del jardín, y en un mes casi había desaparecido.\n\nEl día de la feria, el jurado pasó por todas las mesas. Eran tres profesores de la universidad. Una de ellas, la doctora Garza, miró el cuaderno de Regina con mucha atención. «¿Ustedes son los creadores de este plástico?», preguntó. «Sí, somos los creadores», contestó Emilio, nervioso. «Experimentamos muchas veces hasta que salió bien.» «Es impresionante», dijo la doctora. «Lo más impresionante es que anotaron cada prueba, también las que no fueron exitosas. Eso es la ciencia.»\n\nPor la noche, el jurado anunció los premios. El proyecto de Regina y Emilio ganó el segundo lugar. La maestra les dijo que estaba orgullosa de ellos y que el año próximo podrían inscribirse otra vez. Regina y Emilio ya tenían una nueva ilusión: experimentar con otras plantas y hacer un plástico todavía mejor.\n\nPreguntas:\n¿Qué necesitaban Regina y Emilio para inscribir su proyecto?\nNecesitaban la aprobación de un maestro.\n¿Dónde experimentaron?\nExperimentaron en la cocina de la casa de Regina.\n¿Qué anotaba Regina en su cuaderno?\nAnotaba cuánto maíz usaban, cuánto tiempo calentaban la mezcla y cómo quedaba el plástico.\n¿Qué le pareció impresionante a la doctora Garza?\nLe pareció impresionante que anotaran cada prueba, también las que no fueron exitosas.\n¿Qué premio les dio el jurado?\nLes dio el segundo lugar."
+    },
+    {
+      "title": "El cielo de Atacama",
+      "summary": "Tomás takes his daughter Isidora to the Atacama Desert, where they visit an observatory and look at the stars with the naked eye.",
+      "newWords": [
+        "escaso",
+        "particularmente",
+        "dimensión",
+        "espejo",
+        "polvo",
+        "percibir",
+        "tremendo",
+        "desnudo",
+        "eterno",
+        "reflexión"
+      ],
+      "text": "Tomás vive en Santiago de Chile y le encantan las estrellas. En las vacaciones de invierno viajó con su hija Isidora, de 12 años, al desierto de Atacama, en el norte del país. Allí la lluvia es muy escasa: en algunos lugares no llueve en años. Como el agua es tan escasa, casi nunca hay nubes, y el cielo es particularmente limpio. Por eso están allí algunos de los telescopios más grandes del mundo.\n\nUna mañana visitaron uno de esos centros de ciencia. Un guía, Felipe, les mostró un telescopio de dimensiones enormes. «El espejo de este telescopio mide más de 8 metros», explicó. «El espejo recoge la luz de las estrellas. Cuanto más grande es el espejo, más luz recoge.» Isidora le preguntó por qué no lo habían construido cerca de una ciudad. Felipe le contestó que en las ciudades había demasiada luz y demasiado polvo en el aire. «Aquí arriba casi no hay polvo», dijo. «Y el poco polvo que hay, lo limpiamos del espejo con mucho cuidado.»\n\nPor la noche, Tomás e Isidora salieron al desierto. Hacía mucho frío, y el cielo estaba particularmente oscuro. Tomás apagó las luces del auto, y poco a poco sus ojos se acostumbraron a la noche. Entonces empezaron a percibir miles de estrellas. «¡Es tremendo!», dijo Isidora. Nunca había visto un cielo así. A ojo desnudo podían ver la Vía Láctea, como un camino blanco en el cielo. Tomás le explicó que a ojo desnudo se pueden percibir unas 3000 estrellas, pero que con un telescopio se ven millones.\n\nIsidora miró el cielo un largo rato. «Papá, ¿las estrellas son eternas?», preguntó. «Parecen eternas, pero no lo son», contestó Tomás. «Nacen, viven millones de años y al final se apagan. Su luz tarda tanto en llegar que todavía percibimos la luz de algunas que ya no existen.»\n\nDespués se quedaron en silencio. Tomás hizo una reflexión en voz alta: «Las dimensiones del universo son tan tremendas que nosotros somos muy pequeños. Pero podemos entenderlo un poco, y eso también es tremendo.» A Isidora le gustó mucho esa reflexión. Le dijo a su padre que, si pudiera, volvería a Atacama todos los años. Tomás le prometió que volverían en verano.\n\nPreguntas:\n¿Cómo es la lluvia en el desierto de Atacama?\nEs muy escasa: en algunos lugares no llueve en años.\n¿Cuánto mide el espejo del telescopio?\nMide más de 8 metros.\n¿Por qué no construyeron el telescopio cerca de una ciudad?\nPorque en las ciudades hay demasiada luz y demasiado polvo en el aire.\n¿Cuántas estrellas se pueden percibir a ojo desnudo?\nSe pueden percibir unas 3000 estrellas.\n¿Son eternas las estrellas?\nNo. Parecen eternas, pero nacen, viven millones de años y al final se apagan.\n¿Qué le dijo Isidora a su padre al final?\nLe dijo que, si pudiera, volvería a Atacama todos los años."
+    },
+    {
+      "title": "La última prueba",
+      "summary": "Marta, an engineer, tells how her team tested a new railway line in Extremadura, fixed a small fault and showed it to a visiting member of parliament.",
+      "newWords": [
+        "ingeniería",
+        "ferrocarril",
+        "previsto",
+        "recorrido",
+        "hierro",
+        "funcionamiento",
+        "toro",
+        "fallo",
+        "parlamentario",
+        "gira",
+        "mandato"
+      ],
+      "text": "Me llamo Marta y soy ingeniera. Trabajo en una empresa de ingeniería de Madrid, y desde hace dos años mi equipo construye una nueva línea de ferrocarril en Extremadura, en España. Este mes íbamos a hacer la última prueba antes de abrir la línea. Estaba previsto que el primer tren de prueba saliera el lunes a las 9.\n\nEl recorrido completo tiene 120 kilómetros, con cuatro estaciones y tres puentes de hierro. Los puentes de hierro son muy viejos: son del primer ferrocarril de la región, pero los hemos arreglado y ahora están como nuevos.\n\nEl lunes subí al tren con otros ingenieros. Durante el recorrido revisábamos el funcionamiento de todo: los frenos, las luces, las señales y las puertas. En una pantalla veíamos la velocidad. Por la ventana se veía el campo, con vacas y toros. En una colina había también un enorme toro negro de metal, de los que hay junto a muchas carreteras de España. Mi compañero Javier, que es de Andalucía, me contó que de niño contaba esos toros desde el coche de sus padres.\n\nCerca del kilómetro 80, la pantalla mostró un fallo: una de las señales no funcionaba bien. El tren paró, como estaba previsto en estos casos. Javier y yo bajamos a revisar la señal. El fallo era pequeño: el viento había movido un cable. Lo arreglamos en una hora, y el tren siguió su recorrido sin ningún otro fallo. Eso también es ingeniería: encontrar un fallo a tiempo y arreglarlo.\n\nEl miércoles vino una parlamentaria de la región, la señora Cano. Estaba de gira por las obras de la provincia, y en su gira quería ver el funcionamiento de la línea con sus propios ojos. La acompañaban otros dos parlamentarios. La señora Cano me preguntó si la línea abriría en la fecha prevista. Le contesté que sí: si todo seguía así, en junio ya habríamos terminado las pruebas. «Este ferrocarril fue una promesa de mi mandato», dijo ella. «Me alegra mucho que esté casi listo. Antes de que termine mi mandato, quiero viajar en el primer tren.»\n\nEn junio, la línea abrió en la fecha prevista. La señora Cano viajó en el primer tren, y yo también. Esta vez no miré ninguna pantalla. Miré el campo por la ventana y conté los toros, como Javier cuando era niño.\n\nPreguntas:\n¿Qué construye el equipo de Marta?\nConstruye una nueva línea de ferrocarril en Extremadura.\n¿Cómo es el recorrido completo?\nTiene 120 kilómetros, con cuatro estaciones y tres puentes de hierro.\n¿Qué fallo mostró la pantalla?\nMostró que una de las señales no funcionaba bien.\n¿Por qué estaba de gira la señora Cano?\nEstaba de gira por las obras de la provincia y quería ver el funcionamiento de la línea.\n¿Qué quería hacer la señora Cano antes de que terminara su mandato?\nQuería viajar en el primer tren."
+    },
+    {
+      "title": "La química del dulce",
+      "summary": "In rural Uruguay, chemistry student Sofía makes quince paste with her grandmother and explains the science behind the old family recipe.",
+      "newWords": [
+        "infancia",
+        "queso",
+        "cocinar",
+        "fruta",
+        "azúcar",
+        "oler",
+        "agradable",
+        "favorecer",
+        "personalmente",
+        "fino"
+      ],
+      "text": "Sofía estudia química en la universidad, en Montevideo, Uruguay. Un sábado de abril fue a la casa de su abuela Elsa, en el campo. Su abuela cocinaba dulce de membrillo todos los años en abril. Para Sofía, ese olor era el olor de su infancia. Durante toda su infancia había comido pan con dulce y queso en la cocina de su abuela.\n\n«Hoy quiero que me enseñes a cocinarlo», le dijo Sofía. «Y yo te voy a explicar la química del dulce.» La abuela se rió. «¿Química? Yo cocino sin química, mi amor. Solo fruta, azúcar y paciencia.»\n\nLavaron la fruta, la cortaron y la pusieron a cocinar con un poco de agua. Pronto la cocina empezó a oler a fruta. «¡Qué olor tan agradable!», dijo Sofía. Después la abuela agregó el azúcar: casi tanto azúcar como fruta. También agregó un limón. «¿Por qué el limón?», preguntó Sofía, aunque ya lo sabía. «Porque mi madre siempre lo ponía», contestó la abuela.\n\nSofía le explicó que la fruta tiene una sustancia natural que, con el calor y el azúcar, hace que el dulce se ponga firme. «El ácido del limón favorece ese cambio», dijo. «Si no le pusieras limón, el dulce no se pondría firme.» El azúcar también favorece que el dulce dure meses sin ponerse feo.\n\nCocinaron la fruta casi dos horas. La abuela no miraba la hora. Olía el dulce y miraba el color. «Cuando huele así y tiene este color, ya está», dijo. Sofía había llevado un aparato de la universidad para medir la temperatura. Lo metió en el dulce: 104 grados, justo lo que decían sus libros. «Personalmente, prefiero tu experiencia a mi aparato», le dijo Sofía a su abuela, y las dos se rieron.\n\nAl día siguiente el dulce estaba firme. Tenía un color rojo oscuro y era muy fino y agradable. Lo cortaron en pedazos finos y lo comieron con un queso fresco del pueblo. Para Sofía, era el mismo sabor de su infancia. «Personalmente, creo que esto también es ciencia», dijo la abuela. «Pero es una ciencia muy rica.»\n\nPreguntas:\n¿Qué estudia Sofía?\nEstudia química en la universidad.\n¿Qué comía Sofía durante su infancia en la cocina de su abuela?\nComía pan con dulce y queso.\n¿Cuánto azúcar puso la abuela?\nPuso casi tanto azúcar como fruta.\n¿Qué favorece el ácido del limón?\nFavorece el cambio que hace que el dulce se ponga firme.\n¿Cómo sabía la abuela que el dulce estaba listo?\nLo olía y miraba el color.\n¿Con qué comieron el dulce?\nLo comieron con un queso fresco del pueblo."
+    },
+    {
+      "title": "Palabras claras",
+      "summary": "In Lima, six-year-old Mateo practises the sounds he finds hard with a phone app, and his mother makes the practice a game.",
+      "newWords": [
+        "articular",
+        "frecuente",
+        "labio",
+        "atractivo",
+        "audio",
+        "prioridad",
+        "parcial",
+        "queja"
+      ],
+      "text": "Mateo tiene 6 años y vive en Lima, en el Perú, con su mamá, Rocío. Mateo habla mucho, pero le cuesta articular algunos sonidos, sobre todo la erre. Cuando quiere decir «perro», dice «pelo». En el colegio, algunos niños se reían de él, y Mateo empezó a hablar menos. Rocío estaba preocupada.\n\nRocío lo llevó a una especialista, la doctora Huamán. La doctora escuchó a Mateo y le explicó a Rocío que era un problema muy frecuente en niños de su edad. «Para articular la erre, la lengua tiene que moverse rápido detrás de los dientes», dijo. «También hay que mover bien los labios.» Le recomendó que practicaran en casa todos los días, aunque fuera solo diez minutos. También le recomendó una aplicación para el celular.\n\nLa aplicación era muy atractiva para los niños. Tenía colores, animales y juegos. Para Mateo, lo más atractivo eran los animales. Primero, Mateo escuchaba un audio con una palabra, por ejemplo «carro». Después grababa su propio audio con la misma palabra. La aplicación comparaba los dos audios y le daba estrellas. En la pantalla, un dibujo mostraba cómo poner la lengua y los labios. Mateo se miraba los labios en el espejo y lo intentaba otra vez.\n\nRocío se puso una prioridad: diez minutos cada noche, antes de dormir. Era su prioridad, más importante que la televisión. Al principio, los resultados fueron solo parciales: Mateo decía bien la erre en algunas palabras, pero no en otras. «Es un resultado parcial, pero es un buen comienzo», le dijo la doctora. «Me alegra que practiquen tanto.»\n\nRocío había leído las opiniones de otros padres sobre la aplicación. La queja más frecuente era que los niños se aburrían después de unas semanas. Para que Mateo no se aburriera, Rocío inventó un juego: cada vez que él articulaba bien una palabra difícil, ella la escribía en un papel y lo ponía en la pared.\n\nTres meses después, la pared estaba llena de papeles. Un día Mateo llegó del colegio corriendo. «¡Mamá, hoy leí en voz alta en clase, y todos me entendieron!», dijo. Rocío lo abrazó. Ya no tenía ninguna queja: Mateo hablaba otra vez sin miedo.\n\nPreguntas:\n¿Qué sonido le cuesta articular a Mateo?\nLe cuesta articular la erre.\n¿Qué hay que mover para articular la erre, según la doctora?\nHay que mover la lengua rápido detrás de los dientes, y también hay que mover bien los labios.\n¿Cómo funcionaba la aplicación?\nMateo escuchaba un audio, grababa su propio audio y la aplicación comparaba los dos.\n¿Cuál era la prioridad de Rocío?\nDiez minutos de práctica cada noche, antes de dormir.\n¿Cuál era la queja más frecuente de otros padres?\nQue los niños se aburrían después de unas semanas.\n¿Qué inventó Rocío para que Mateo no se aburriera?\nInventó un juego: escribía en la pared cada palabra difícil que Mateo articulaba bien."
+    },
+    {
+      "title": "Un domingo en el museo",
+      "summary": "In Bogotá, Samuel's grandfather takes him to a science museum, where they learn that birds come from dinosaurs and hear the stories of Galileo and Lemaître.",
+      "newWords": [
+        "hueso",
+        "ave",
+        "pico",
+        "creencia",
+        "condenado",
+        "prisionero",
+        "contemporáneo",
+        "sacerdote"
+      ],
+      "text": "Samuel tiene 11 años y vive en Bogotá, en Colombia. Un domingo, su abuelo Hernán lo llevó a un museo de ciencias del centro de la ciudad. El abuelo había sido profesor de física, y le encantaban los museos.\n\nEn la primera sala había huesos de animales muy antiguos. En el centro había un dinosaurio enorme, hecho con huesos de verdad. «¿Sabías que las aves vienen de los dinosaurios?», le preguntó el abuelo. Samuel no lo sabía. Una guía del museo les mostró los huesos de las patas del dinosaurio y los huesos de las patas de un pollo. Se parecían mucho. «Las aves de hoy no tienen dientes; tienen pico», explicó la guía. «Pero hace millones de años, algunas aves tenían dientes dentro del pico.»\n\nEn la segunda sala había un telescopio antiguo, igual al de Galileo Galilei. El abuelo le contó su historia. Hace unos 400 años, la creencia de casi todos era que la Tierra no se movía y que estaba en el centro del universo. Galileo miró el cielo con su telescopio y defendió que la Tierra se movía alrededor del Sol. Esa idea iba contra las creencias de su época. Por eso Galileo fue juzgado en Roma y fue condenado. Fue condenado a no salir de su casa, y vivió allí como prisionero hasta su muerte. «Era un prisionero en su propia casa, pero siguió estudiando», dijo el abuelo.\n\n«¿Y los otros científicos de su tiempo qué pensaban?», preguntó Samuel. «Algunos de sus contemporáneos estaban de acuerdo con él, aunque no lo dijeran en voz alta», contestó el abuelo. «Hoy sabemos que Galileo tenía razón.»\n\nAl lado había una foto de un hombre vestido de negro. «Este es Georges Lemaître», dijo la guía. «Era un sacerdote belga y también un gran científico. Hace casi cien años, este sacerdote propuso que el universo había empezado con una gran explosión.» Samuel se sorprendió: «¿Un sacerdote científico?» «Sí», dijo el abuelo. «La ciencia es de todos. Y la ciencia contemporánea, la de hoy, la hacen personas de todo el mundo.»\n\nAl salir del museo, Samuel le dijo a su abuelo que, si hubiera vivido en la época de Galileo, lo habría ayudado. Por la tarde, en el parque, vio un ave pequeña. Le miró el pico y las patas, y pensó: «Es un dinosaurio muy pequeño.»\n\nPreguntas:\n¿Qué había en la primera sala del museo?\nHabía huesos de animales muy antiguos y un dinosaurio enorme.\n¿Qué tienen las aves de hoy en lugar de dientes?\nTienen pico.\n¿Cuál era la creencia de casi todos hace 400 años?\nQue la Tierra no se movía y que estaba en el centro del universo.\n¿A qué fue condenado Galileo?\nFue condenado a no salir de su casa, y vivió allí como prisionero.\n¿Quién era Georges Lemaître?\nEra un sacerdote belga y también un gran científico.\n¿Qué le dijo Samuel a su abuelo al salir?\nLe dijo que, si hubiera vivido en la época de Galileo, lo habría ayudado."
+    },
+    {
+      "title": "Luz para el pueblo",
+      "summary": "In a village on the Dominican Republic's north coast, teacher Altagracia leads a project to bring solar panels, with help from the mayor, an aid programme and a neighbour's land.",
+      "newWords": [
+        "dominicano",
+        "placa",
+        "liderar",
+        "financiar",
+        "aliado",
+        "cooperación",
+        "cuota",
+        "ceder",
+        "palma",
+        "camión"
+      ],
+      "text": "En un pueblo de la costa norte de la República Dominicana vive Altagracia, una maestra de 50 años. En su pueblo, la luz se iba casi todos los días, a veces durante horas. Sin luz, los niños no podían estudiar de noche.\n\nUn día Altagracia leyó que en otros pueblos dominicanos habían puesto placas solares en los techos. Las placas solares convierten la luz del sol en electricidad. Ella pensó: «Si nuestro pueblo tuviera placas solares, no estaríamos tantas horas sin luz.» Decidió liderar un proyecto para el pueblo. Reunió a los vecinos en la escuela y les explicó la idea. Les dijo que ella lideraría el proyecto, pero que necesitaba la ayuda de todos.\n\nLas placas eran caras. Para financiarlas, Altagracia buscó aliados. El primer aliado fue el alcalde, que prometió financiar una parte. El segundo aliado fue un programa de cooperación internacional que financiaba proyectos de energía limpia en el Caribe. Gracias a esa cooperación, el pueblo recibió casi la mitad del dinero. El resto lo pagarían los vecinos con una cuota pequeña: 300 pesos al mes por familia. «Es menos de lo que pagamos ahora por las velas y la gasolina», dijo Altagracia. Casi todas las familias aceptaron pagar la cuota.\n\nFaltaba un lugar para poner las placas más grandes. Don Ramón, un vecino que tenía un terreno junto a la escuela, decidió cederlo. «Les cedo el terreno», dijo. «Ahí solo hay palmas y piedras.» Cortaron solo dos palmas. Las demás palmas se quedaron para dar sombra.\n\nEn marzo llegó un camión de la capital con las placas, los cables y las baterías. Todo el pueblo salió a ver el camión. Los vecinos ayudaron a bajar las placas del camión, y los técnicos trabajaron una semana entera.\n\nLa primera noche con energía solar, la escuela tenía luz y los niños hicieron una fiesta. Altagracia dio las gracias a todos sus aliados: al alcalde, al programa de cooperación y a don Ramón, que había cedido su terreno. «Este es un proyecto dominicano, hecho por dominicanos», dijo con orgullo. Si alguien le hubiera dicho un año antes que lo lograrían, no lo habría creído.\n\nPreguntas:\n¿Qué problema tenía el pueblo de Altagracia?\nLa luz se iba casi todos los días, a veces durante horas.\n¿Quiénes fueron los aliados del proyecto?\nEl alcalde y un programa de cooperación internacional.\n¿Cuánto era la cuota de cada familia?\nEra de 300 pesos al mes por familia.\n¿Qué decidió ceder don Ramón?\nDecidió ceder un terreno junto a la escuela.\n¿Cómo llegaron las placas al pueblo?\nLlegaron en un camión de la capital."
+    },
+    {
+      "title": "Una carta de Samir",
+      "summary": "Samir, a Syrian engineer in Madrid, writes to his sister about getting Spanish citizenship online and the app he built to help other immigrants.",
+      "newWords": [
+        "ciudadanía",
+        "inmigrante",
+        "pensión",
+        "sirio",
+        "escritura",
+        "constar",
+        "renovar",
+        "secretaría",
+        "portugués"
+      ],
+      "text": "Madrid, 12 de mayo\n\nQuerida Layla:\n\nTe escribo con una gran noticia: ¡ya tengo la ciudadanía española! Ayer me llegó la carta. Te cuento cómo fue todo.\n\nComo sabes, llegué a Madrid hace diez años, como tantos inmigrantes. Los primeros meses viví en una pensión pequeña cerca de la estación de Atocha. La dueña de la pensión, doña Pilar, me ayudó mucho con el español. En Siria yo era ingeniero, pero aquí era solo un inmigrante sirio sin trabajo, y tuve que empezar de cero.\n\nHace tres años pedí la ciudadanía. Casi todo el proceso se hace por internet. Primero tuve que aprobar dos exámenes. Uno era de español, con una parte de lectura y una parte de escritura. La prueba de escritura me daba miedo, pero practiqué mucho y la aprobé. El otro examen era sobre la historia y las leyes de España.\n\nDespués envié todos mis documentos por internet. Cada mes entraba en la página para ver si había novedades. Durante meses, en la página solo constaba: «En trámite». Un día constaba que faltaba un papel: tenía que renovar mi permiso de residencia, porque terminaba pronto. Llamé a la secretaría de la oficina, y una señora muy amable me explicó cómo renovarlo por internet. Lo renové en una semana.\n\nMientras esperaba, pensé en los otros inmigrantes que no entienden bien estas páginas. Así que mi compañero de trabajo João, que es portugués, y yo hicimos una pequeña aplicación. Explica los pasos en árabe, en portugués, en francés y en inglés. João también llegó aquí como inmigrante, y para él el español es fácil porque se parece mucho al portugués. Ya usan la aplicación más de 2000 personas: muchos sirios, pero también gente de otros países.\n\nAyer, por fin, llegó la carta de la secretaría. En ella consta que soy ciudadano español. Primero fui a la pensión a contárselo a doña Pilar. Lloró de alegría. Ojalá hubieras estado aquí; me habría gustado que lo celebráramos juntos. Si todo va bien, el año que viene mamá y tú vendréis a verme, ¿verdad?\n\nUn abrazo muy fuerte,\n\nSamir\n\nPreguntas:\n¿Dónde vivió Samir los primeros meses en Madrid?\nVivió en una pensión pequeña cerca de la estación de Atocha.\n¿Qué partes tenía el examen de español?\nTenía una parte de lectura y una parte de escritura.\n¿Qué constaba en la página durante meses?\nSolo constaba: «En trámite».\n¿Qué tuvo que renovar Samir?\nTuvo que renovar su permiso de residencia.\n¿Quién es João?\nEs un compañero de trabajo de Samir, y es portugués.\n¿Qué consta en la carta de la secretaría?\nConsta que Samir es ciudadano español."
+    },
+    {
+      "title": "El reloj de Daniela",
+      "summary": "In Miami, Daniela trains for a half marathon with a smart watch and her coach, rests when the data warn her, and beats her personal record.",
+      "newWords": [
+        "récord",
+        "entrenador",
+        "componente",
+        "ajustar",
+        "dañar",
+        "amenazar",
+        "ramo",
+        "guapo"
+      ],
+      "text": "Daniela tiene 34 años y vive en Miami, en Estados Unidos. Sus padres llegaron de Cuba antes de que ella naciera. Daniela trabaja en un banco y, desde hace dos años, corre todas las mañanas. Su sueño era correr la media maratón de Miami en menos de dos horas. Su mejor tiempo, su récord personal, era de 2 horas y 6 minutos.\n\nSu entrenador, Ernesto, le recomendó que se comprara un reloj inteligente. «Este reloj tiene varios componentes muy útiles», le explicó. «Un componente mide tu corazón, otro mide la velocidad y otro dibuja todo tu recorrido en un mapa.» Con los datos del reloj, el entrenador ajustaba el plan cada semana. Si Daniela había dormido mal, él ajustaba el entrenamiento y la hacía correr más lento. «Si corres demasiado rápido todos los días, te puedes dañar las piernas», le decía.\n\nEn diciembre, el reloj mostró algo raro: el corazón de Daniela iba más rápido que de costumbre. El entrenador la mandó al médico. El médico le dijo que no era nada grave, pero que estaba muy cansada y que una lesión amenazaba su carrera. «Si sigue así, se podría dañar una pierna», le dijo. Daniela descansó una semana entera. Le costó mucho, pero lo hizo.\n\nLa carrera era en febrero. Esa mañana, el cielo estaba oscuro y la lluvia amenazaba con caer. A las 6, Daniela salió con miles de personas. Miraba el reloj y ajustaba el ritmo: ni muy rápido ni muy lento. En el kilómetro 18 empezó la lluvia, pero ella siguió. Llegó al final en 1 hora y 57 minutos. ¡Un nuevo récord personal!\n\nSus padres la esperaban con un ramo de flores. Su madre le dio el ramo y le sacó una foto. «¡Qué guapa sales!», le dijo. «Estoy muy cansada, mamá», contestó Daniela. «Cansada, pero guapa», dijo su padre, y los tres se rieron.\n\nPor la tarde, Ernesto la llamó. Le dijo que había visto los datos y que la carrera había sido perfecta. «Para la próxima carrera, ya habremos ajustado el plan otra vez», le dijo. «¿Tu próximo récord? Una hora y 50 minutos.»\n\nPreguntas:\n¿Cuál era el récord personal de Daniela antes de la carrera?\nEra de 2 horas y 6 minutos.\n¿Qué le recomendó su entrenador?\nLe recomendó que se comprara un reloj inteligente.\n¿Para qué usaba Ernesto los datos del reloj?\nLos usaba para ajustar el plan cada semana.\n¿Qué le dijo el médico a Daniela?\nLe dijo que estaba muy cansada y que una lesión amenazaba su carrera.\n¿Qué le dieron sus padres al final?\nLe dieron un ramo de flores."
+    }
+  ]
+}

@@ -137,6 +137,28 @@ def spanish_verb_forms(words):
     return {form for key, (_, _, forms) in words.items() if key.endswith(("ar", "er", "ir", "ír")) for form in [key] + forms}
 
 
+def spanish_imperative_infinitives(form):
+    """
+    The infinitives an imperative (or a usted/ustedes form) may come from: pregunta, pregunte and
+    pregunten from preguntar, vive from vivir, and with the stem change undone, cuenta from contar,
+    piensa from pensar, pide from pedir.
+    """
+    bare = form[:-1] if form.endswith("n") else form
+    stems = []
+    if bare.endswith("a"):
+        stems += [bare[:-1] + "ar", bare[:-1] + "er", bare[:-1] + "ir"]
+    if bare.endswith("e"):
+        stems += [bare[:-1] + "er", bare[:-1] + "ir", bare[:-1] + "ar"]
+    out = set(stems)
+    for infinitive in stems:
+        root, ending = infinitive[:-2], infinitive[-2:]
+        for changed, plain in (("ue", "o"), ("ie", "e"), ("i", "e")):
+            at = root.rfind(changed)
+            if at >= 0:
+                out.add(root[:at] + plain + root[at + len(changed):] + ending)
+    return out
+
+
 def spanish_clitics(word, ranks, verbs=None):
     """
     A verb carrying pronouns split into the verb and them, as a learner reads it: levantarse is
@@ -159,12 +181,15 @@ def spanish_clitics(word, ranks, verbs=None):
                 # The list may file a verb's imperative as a noun (pregunta), yet with pronouns and
                 # its written accent (pregúntales) it can only be the verb's.
                 if verbs is not None and not is_verb and any(c in "áéíóú" for c in lower):
-                    bare = candidate[:-1] if candidate.endswith("n") else candidate
-                    is_verb = bare + "r" in verbs or (bare.endswith("e") and bare[:-1] + "ar" in verbs) or (bare.endswith("a") and (bare[:-1] + "er" in verbs or bare[:-1] + "ir" in verbs))
+                    is_verb = any(infinitive in verbs for infinitive in spanish_imperative_infinitives(candidate))
                 # Pronouns after any form but an infinitive call for a written accent (tómate,
                 # dímelo), save one pronoun after a one-syllable form (ponte, dime); so an unaccented
                 # tomate is the noun, not toma + te.
-                if is_verb and not candidate.endswith(("ar", "er", "ir", "ír")) and not any(c in "áéíóú" for c in lower):
+                # The vosotros imperative takes them unaccented, and drops its d before os: habladlo,
+                # sentaos.
+                if verbs is not None and not is_verb and first == "os" and not second and candidate + "d" in verbs:
+                    is_verb = True
+                elif is_verb and not candidate.endswith(("ar", "er", "ir", "ír", "d")) and not any(c in "áéíóú" for c in lower):
                     is_verb = not second and len(re.findall("[aeiouáéíóúü]+", candidate)) == 1
                 if candidate in ranks and is_verb:
                     return [candidate] + ([second] if second else []) + [first]
