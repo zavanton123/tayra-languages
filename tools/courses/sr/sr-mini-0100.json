@@ -1,0 +1,210 @@
+{
+  "id": "sr-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Kod kuće i u porodici",
+  "description": "Ten short, simple stories about home, family and everyday moments in Serbia and among Serbs abroad.",
+  "topic": "Home and family",
+  "names": [
+    "Ana",
+    "Petar",
+    "Niš",
+    "Mina",
+    "Luka",
+    "Beograd",
+    "Mila",
+    "Nikola",
+    "Kragujevac",
+    "Mira",
+    "Jelena",
+    "Subotica",
+    "Draga",
+    "Sara",
+    "Čačak",
+    "Milan",
+    "Dunja",
+    "Tara",
+    "Ivan",
+    "Neda",
+    "Vera",
+    "Zrenjanin",
+    "Teodora",
+    "Zlatibor",
+    "Ivana",
+    "Štutgart",
+    "Dušan",
+    "Novi Sad",
+    "Petrović"
+  ],
+  "lessons": [
+    {
+      "title": "Ovde i tamo",
+      "summary": "Ana and Petar walk around their new flat in Niš and say where each of them is.",
+      "newWords": [
+        "biti",
+        "i",
+        "u",
+        "ja",
+        "ti",
+        "mi",
+        "on",
+        "ona",
+        "ovde",
+        "tamo"
+      ],
+      "text": "Ana i Petar su u Nišu. Oni su u novom stanu.\n\nAna je ovde, a Petar je tamo.\n\n— Ja sam ovde — kaže Ana. — Gde si ti?\n\n— Ja sam tamo — kaže Petar. — Ti si ovde, a ja sam tamo.\n\nOna ide tamo. On ide ovde. Sad je ona tamo, a on je ovde.\n\nOna ide ovde. On ide tamo. Tako idu i idu.\n\nSad su oni ovde. Ana je ovde i Petar je ovde.\n\n— Mi smo ovde — kaže Ana. — Mi smo u novom stanu u Nišu!\n\nPitanja:\nGde su Ana i Petar?\nAna i Petar su u Nišu, u novom stanu.\nGde je Petar, a gde je Ana?\nPetar je tamo, a Ana je ovde.\nKo ide tamo?\nOna ide tamo, a on ide ovde.\nŠta kaže Ana?\nAna kaže: „Mi smo ovde.“"
+    },
+    {
+      "title": "Svako ima svoju sobu",
+      "summary": "Mina and Luka show their friend Mila the two rooms in their flat in Beograd.",
+      "newWords": [
+        "naš",
+        "moj",
+        "tvoj",
+        "vaš",
+        "svoj",
+        "velik",
+        "ovaj",
+        "taj",
+        "jedan",
+        "drugi"
+      ],
+      "text": "Mina i Luka su u Beogradu. Mila je ovde. Ona vidi 2 sobe.\n\n— Vaše sobe su velike — kaže Mila. — Ana i ja imamo samo jednu. To je naša soba.\n\n— Ovde svako ima svoju sobu — kaže Mina. — Jedna je moja. Druga je za Luku.\n\n— Ova je velika — kaže Luka. — Ona je tvoja, a ova druga je moja. Volim svoju sobu.\n\n— I ja volim svoju — kaže Mina. — Tvoja je velika, a moja je velika. Svaka je naša.\n\n— To je dobro — kaže Mila. — Vi imate 2, a ja imam jednu.\n\nSve je dobro.\n\nPitanja:\nŠta Mila vidi?\nMila vidi 2 sobe.\nŠta kaže Mila?\nMila kaže: „Vaše sobe su velike.“\nKo ima svoju sobu?\nSvako ima svoju sobu.\nKo ima 2 sobe?\nMina i Luka imaju 2 sobe."
+    },
+    {
+      "title": "Gde je knjiga?",
+      "summary": "Nikola cannot find his book in Kragujevac, and Mira helps him look for it.",
+      "newWords": [
+        "gde",
+        "šta",
+        "ko",
+        "kako",
+        "zašto",
+        "ne",
+        "da",
+        "ni",
+        "li",
+        "zar"
+      ],
+      "text": "Nikola je u Kragujevcu. Mira je ovde. Nikola ne vidi knjigu.\n\n— Gde je moja knjiga? — kaže Nikola. — Ko je ima?\n\n— Ja je nemam — kaže Mira. — Imaš li je ti?\n\n— Ne. Zar nije ovde? Ne vidim je.\n\n— Ni ja je ne vidim — kaže Mira. — Ni tamo nije.\n\n— Kako to? Šta je to? Zašto je nema? Zašto je ne vidim?\n\nMira ide tamo. Tamo vidi nešto.\n\n— Evo je! — kaže Mira. — Zar to nije tvoja knjiga?\n\n— Je li to ona? Da, to je ona! Kako dobro! Hvala, Mira.\n\nPitanja:\nKo ne vidi knjigu?\nNikola ne vidi knjigu.\nDa li Mira ima knjigu?\nNe, Mira je nema.\nGde je ona?\nOna je tamo.\nŠta Mira vidi tamo?\nMira vidi knjigu."
+    },
+    {
+      "title": "Čaj za baku",
+      "summary": "Jelena helps her grandmother in Subotica find the tea.",
+      "newWords": [
+        "imati",
+        "nemati",
+        "videti",
+        "naći",
+        "znati",
+        "dati",
+        "moliti",
+        "hvala",
+        "hajde",
+        "dobro"
+      ],
+      "text": "Jelena je kod bake Drage u Subotici.\n\n— Molim te, daj mi čaj — kaže Draga.\n\n— Dobro — kaže Jelena. Ona ide tamo, ali ne vidi čaj.\n\n— Ne vidim ga — kaže Jelena. — Znaš li gde je?\n\n— Ne znam — kaže Draga. — Zar ga nemamo?\n\n— Ja ga nemam ovde. Hajde da ga nađemo.\n\nDraga i Jelena ga ne vide. Ni ovde, ni tamo.\n\n— Molim te, vidi tamo — kaže Draga. — Možda ga imamo tamo.\n\n— Evo ga! Imamo ga!\n\n— Hvala, Jelena — kaže Draga. — Ti si dobra.\n\n— Hvala tebi — kaže Jelena. — Evo, dam ti čaj. Sve je dobro.\n\nPitanja:\nŠta Draga moli?\nDraga moli čaj.\nKo ne vidi čaj?\nDraga i Jelena ga ne vide.\nŠta kaže Jelena?\nJelena kaže: „Hajde da ga nađemo.“\nKo je dobra?\nJelena je dobra."
+    },
+    {
+      "title": "Šta radiš, tata?",
+      "summary": "Sara wants to work with her father in Čačak, and he lets her.",
+      "newWords": [
+        "hteti",
+        "želeti",
+        "voleti",
+        "moći",
+        "morati",
+        "trebati",
+        "misliti",
+        "reći",
+        "kazati",
+        "raditi"
+      ],
+      "text": "Sara je u Čačku. Tata radi.\n\n— Tata, šta radiš? — kaže Sara.\n\n— Radim — kaže tata. — Moram da radim.\n\n— Ja hoću da radim s tobom. Ne želim da idem.\n\n— Hoćeš da radiš sa mnom? Mislim da možeš. Reci mi, šta je 2 i 2?\n\n— To je 4! Volim da radim s tobom.\n\n— I ja volim da radim s tobom. Šta još želiš?\n\n— Hoću još! Treba mi još. Ne mogu sad da idem.\n\n— Dobro. Moram da radim, ali mislim da treba da radimo još. Šta je 3 i 3?\n\n— To je 6! Tata, ti si dobar. Hoću da radim ovde svaki dan.\n\nPitanja:\nŠta radi tata?\nTata radi.\nŠta želi Sara?\nSara želi da radi s tatom.\nŠta tata kaže Sari?\nTata kaže: „Reci mi, šta je 2 i 2?“\nŠta Sara voli?\nSara voli da radi s tatom."
+    },
+    {
+      "title": "Svaki dan kod dede",
+      "summary": "Dunja visits her grandfather Milan on Tara every day, and today it is her turn to choose where they go.",
+      "newWords": [
+        "ići",
+        "doći",
+        "otići",
+        "uraditi",
+        "put",
+        "dan",
+        "godina",
+        "vreme",
+        "red",
+        "stvar"
+      ],
+      "text": "Dunja je kod dede Milana na Tari. Milan ima 70 godina. Dunja ima 9 godina. Ona dolazi kod njega svaki dan.\n\n— Dobar dan, deda — kaže Dunja.\n\n— Dobar dan, Dunja. Dođi! Imamo vreme. Hoćeš li da uradimo jednu stvar?\n\n— Koju stvar?\n\n— Da idemo na put. Jedan dan ti kažeš gde idemo, a drugi dan ja kažem. Sad je red na tebe.\n\n— U redu! Hoću da idemo do reke.\n\n— Dobro. Moram samo da uradim još jednu stvar, pa možemo da odemo.\n\n— Hoćeš li da odemo sad?\n\n— Da, hajde. Vreme je dobro, a put nije dug.\n\nDunja i Milan idu na put do reke. Drugi dan će biti red na Milana.\n\nPitanja:\nKo ima 70 godina?\nMilan ima 70 godina.\nKo dolazi kod dede svaki dan?\nDunja dolazi kod dede svaki dan.\nNa koga je sad red?\nSad je red na Dunju.\nGde idu Dunja i Milan?\nDunja i Milan idu na put do reke."
+    },
+    {
+      "title": "Kod bake Vere",
+      "summary": "Ivan and Neda spend the day at their grandmother's in Zrenjanin, and she has something sweet for them.",
+      "newWords": [
+        "oni",
+        "vi",
+        "sav",
+        "svaki",
+        "neki",
+        "nešto",
+        "ništa",
+        "još",
+        "više",
+        "malo"
+      ],
+      "text": "Ivan i Neda su kod bake Vere u Zrenjaninu. Oni su tamo sav dan.\n\n— Vi ste dobra deca — kaže Vera. — Imam nešto za vas.\n\n— Šta je to? Nešto dobro? — kaže Neda.\n\n— To je neki kolač. Svaki ima malo, pa još malo.\n\n— Neki kolač! — kaže Ivan.\n\nOni imaju kolač. Vera daje svakom malo.\n\n— Hvala — kaže Neda. — Ništa više ne želim.\n\n— A ja hoću još — kaže Ivan. — Sve je tako dobro!\n\n— Imam još jedan kolač — kaže Vera. — Hoćeš li ga?\n\n— Hoću! Hvala! — kaže Ivan.\n\nIvan ima više kolača, a Neda ima malo. Ali sve je dobro.\n\nPitanja:\nGde su Ivan i Neda?\nIvan i Neda su kod bake Vere.\nŠta Vera ima za njih?\nVera ima kolač za njih.\nKo želi još?\nIvan želi još.\nŠta kaže Neda?\nNeda kaže: „Ništa više ne želim.“"
+    },
+    {
+      "title": "Ovde ili tamo?",
+      "summary": "A father and his two children at a lake on Zlatibor decide where to spend the day.",
+      "newWords": [
+        "a",
+        "ali",
+        "ili",
+        "pa",
+        "onda",
+        "kad",
+        "ako",
+        "što",
+        "koji",
+        "kao"
+      ],
+      "text": "Tata, Luka i Teodora su na Zlatiboru. Vreme je dobro, pa su na jezeru sav dan.\n\n— Ako je vreme dobro, hoćemo li da budemo ovde ili tamo? — kaže tata.\n\n— Ja hoću tamo — kaže Luka. — Ovde je dobro, ali tamo je bolje.\n\n— A ja hoću ovde — kaže Teodora. — Kad je vreme dobro, ovo je jezero koje volim. Ali ako ti hoćeš tamo, onda hoću i ja tamo.\n\nLuka je velik kao tata, a Teodora hoće kao Luka.\n\n— Pa dobro — kaže tata. — Sad tamo, a onda ovde. To je sve što hoću.\n\n— Ovo je dan koji volim — kaže Luka. — Ovde ili tamo, svaki dan je dobar kad je vreme dobro.\n\n— Sve što hoćemo, to radimo — kaže Teodora.\n\nPitanja:\nGde su Luka i Teodora?\nLuka i Teodora su na jezeru, na Zlatiboru.\nŠta hoće Luka?\nLuka hoće tamo.\nŠta hoće Teodora?\nTeodora hoće ovde, ali hoće i tamo.\nŠta kaže tata?\nTata kaže: „Sad tamo, a onda ovde.“"
+    },
+    {
+      "title": "Ivana zove iz Štutgarta",
+      "summary": "Ivana in Stuttgart speaks to her mother in Čačak and says she will come in 7 days.",
+      "newWords": [
+        "na",
+        "za",
+        "od",
+        "do",
+        "iz",
+        "sa",
+        "s",
+        "o",
+        "pre",
+        "zbog"
+      ],
+      "text": "Ivana je u Štutgartu, a mama je u Čačku. Ivana kaže:\n\n— Mama, ja sam! Ja sam sad u Štutgartu, ali sam iz Čačka.\n\n— Ivana! Kako si? Mislim o tebi svaki dan.\n\n— Dobro sam. I ja mislim o tebi. Imam nešto za tebe.\n\n— Za mene? Od koga je to?\n\n— To je od mene! Ne mogu da kažem šta je. Za 7 dana idem do tebe.\n\n— Samo 7 dana! Kako dobro! Sestra je sa mnom, i tata je sa mnom.\n\n— Pre puta moram da radim — kaže Ivana. — Zbog toga ne mogu sad.\n\n— Dobro je. Pre toga mislim o tebi. Zbog tebe je ovaj dan dobar!\n\n— Do tada, mama! Hoću da budem s tobom.\n\n— Mi smo s tobom, Ivana.\n\nZa 7 dana Ivana je na putu do mame.\n\nPitanja:\nGde je Ivana sad?\nIvana je sad u Štutgartu, ali je iz Čačka.\nGde je mama?\nMama je u Čačku, sa tatom i sestrom.\nŠta Ivana ima za mamu?\nIvana ima nešto za mamu.\nGde je Ivana za 7 dana?\nIvana je na putu do mame."
+    },
+    {
+      "title": "Novi komšija",
+      "summary": "Dušan in Novi Sad helps a new neighbour find the post office.",
+      "newWords": [
+        "se",
+        "sad",
+        "tako",
+        "samo",
+        "možda",
+        "dobar",
+        "čovek",
+        "gospodin",
+        "vam"
+      ],
+      "text": "Dušan je u Novom Sadu. Neko je na vratima. Dušan vidi jednog čoveka.\n\n— Dobar dan — kaže čovek. — Ja sam gospodin Petrović. Ja sam novi komšija.\n\n— Dobar dan, gospodine Petroviću — kaže Dušan. — Ja se zovem Dušan.\n\n— Možda znate gde je pošta? Samo to ne znam.\n\n— Znam — kaže Dušan. — Mogu li da vam kažem? Pošta je tamo. Možda je ne vidite, ali ja znam gde je.\n\n— Hvala vam — kaže gospodin Petrović. — Ali ne znam kako da idem.\n\n— Hajde, idem i ja sad tamo. Samo malo.\n\nDušan i gospodin Petrović idu tamo.\n\n— Tako je, to je pošta — kaže Dušan.\n\n— Tako je dobro! Hvala vam — kaže gospodin Petrović. — Vi ste dobar čovek.\n\n— Molim! Vidimo se!\n\n— Vidimo se!\n\nPitanja:\nKo je na vratima?\nNa vratima je gospodin Petrović.\nŠta gospodin Petrović ne zna?\nGospodin Petrović ne zna gde je pošta.\nKo ide tamo sa gospodinom Petrovićem?\nDušan ide tamo sa gospodinom Petrovićem.\nŠta kaže gospodin Petrović?\nGospodin Petrović kaže: „Vi ste dobar čovek.“"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "sr-mini-0400",
+  "rankUpTo": 400,
+  "level": "A2",
+  "title": "U gradu",
+  "description": "Ten short, plain stories about everyday life in cities across Serbia and beyond: a bus ride, a visit to the doctor, a bookshop, a first day at school, a dog in the park, a boat trip, the cinema, moving flat, a lost child and the market.",
+  "topic": "In the city",
+  "names": [
+    "Mina",
+    "Marko",
+    "Beograd",
+    "Kalemegdan",
+    "Slavija",
+    "Sava",
+    "Dušan",
+    "Jelena",
+    "Petrović",
+    "Novi Sad",
+    "Ana",
+    "Anin",
+    "Vlada",
+    "Niš",
+    "Luka",
+    "Nemanja",
+    "Olga",
+    "Kragujevac",
+    "Šumarice",
+    "Mira",
+    "Reks",
+    "Palić",
+    "Rada",
+    "Boža",
+    "Jovan",
+    "Golupac",
+    "Golupca",
+    "Dunav",
+    "Nikola",
+    "Tara",
+    "Čačak",
+    "Marija",
+    "Goran",
+    "Beč",
+    "Srbija",
+    "Danica",
+    "Dragana",
+    "Miloš",
+    "Jovana",
+    "Zrenjanin"
+  ],
+  "lessons": [
+    {
+      "title": "Autobus broj 26",
+      "summary": "Mina waits on Slavija in Beograd, asks for her bus and rides it to Kalemegdan.",
+      "newWords": [
+        "nekoliko",
+        "dugo",
+        "sledeći",
+        "broj",
+        "izvinite",
+        "uhvatiti",
+        "platiti",
+        "stajati",
+        "sedeti",
+        "proći",
+        "pet"
+      ],
+      "text": "Mina živi u Beogradu. Danas ide na Kalemegdan, gde je čeka prijatelj Marko. Mora da uhvati autobus broj 26. Zato ona stoji na Slaviji i čeka. Tamo čeka i nekoliko ljudi.\n\nOna čeka dugo. Prolaze 17, 32 i 45. Broja 26 nema.\n\n— Izvinite — kaže Mina jednom čoveku. — Kada dolazi broj 26?\n\n— Sledeći dolazi za pet minuta — kaže čovek. — To je broj 26.\n\nMina čeka još pet minuta. Onda dolazi sledeći i ima broj 26! Mina će uhvatiti autobus. Ona uđe i plati. Ne mora da plati mnogo.\n\nU autobusu je mnogo ljudi. Nema mesta da sedi, pa Mina stoji. Ide kroz grad. Posle nekoliko stanica jedna žena izađe. Sada Mina sedi i gleda grad. Prolazi kraj Save i kraj velikih kuća. Ne ide dugo.\n\n— Izvinite — kaže Mina jednoj ženi. — Da li je ovo Kalemegdan?\n\n— Još nije — kaže žena. — Sledeće je Kalemegdan.\n\nPosle pet minuta Mina izađe. Marko stoji tamo i čeka je. Mina je srećna, jer ne mora da čeka dugo.\n\nPitanja:\nGde Mina čeka?\nMina čeka na Slaviji.\nKoji broj Mina čeka?\nMina čeka broj 26.\nZa koliko minuta dolazi sledeći?\nSledeći dolazi za pet minuta.\nKo čeka Minu na Kalemegdanu?\nMinu čeka Marko."
+    },
+    {
+      "title": "Kod doktora",
+      "summary": "Dušan's leg hurts after a game, so his sister Jelena takes him to the doctor in Novi Sad.",
+      "newWords": [
+        "doktor",
+        "teško",
+        "noga",
+        "srce",
+        "krv",
+        "telo",
+        "proveriti",
+        "pomoć",
+        "nedelja",
+        "lak",
+        "sestra"
+      ],
+      "text": "Dušan živi u Novom Sadu. U nedelju on igra fudbal sa prijateljima. Posle igre ga boli noga. I sutra ga boli noga. Dušan teško ide.\n\n— Idemo kod doktora — kaže njegova sestra Jelena. — Ja ću s tobom.\n\nDoktor se zove Petrović. On je dobar čovek.\n\n— Sedite, Dušane — kaže doktor. — Šta je s nogom?\n\n— Noga je loša — kaže Dušan. — Teško ide. Treba mi pomoć.\n\nDoktor mora da proveri nogu. Gleda nogu i pita:\n\n— Je li ovde loše?\n\n— Da — kaže Dušan. — Ovde je loše.\n\nDoktor hoće da proveri i srce, i krv. Sestra Jelena sedi i čeka. Posle nekoliko minuta doktor kaže:\n\n— Srce je dobro, krv je dobra, celo telo je dobro. To nije teško. To je lak problem.\n\n— Hvala vam za pomoć — kaže Dušan.\n\n— Dve nedelje bez fudbala — kaže doktor. — Telo mora da ima mir.\n\nDušan i njegova sestra izađu od doktora. Jelena kaže:\n\n— Vidiš? Lak problem! Sve je dobro, a ja sam srećna.\n\nPitanja:\nKada Dušan igra sa prijateljima?\nDušan igra sa prijateljima u nedelju.\nKo ide s Dušanom kod doktora?\nKod doktora s Dušanom ide njegova sestra Jelena.\nŠta doktor hoće da proveri?\nDoktor hoće da proveri nogu, srce i krv.\nKoliko nedelja Dušan ne igra?\nDušan ne igra dve nedelje."
+    },
+    {
+      "title": "Knjiga o malom gradu",
+      "summary": "Ana dreams of writing a book and gets a book that teaches her how, from her friend Vlada in Niš.",
+      "newWords": [
+        "knjiga",
+        "čitati",
+        "pisati",
+        "slika",
+        "ideja",
+        "naučiti",
+        "divan",
+        "super",
+        "san"
+      ],
+      "text": "Ana živi u Nišu. Ona voli knjige. Svaki dan čita jednu knjigu. Ali Ana ima i san: hoće da piše svoju knjigu. Ima i ideju. To će biti knjiga o jednom malom gradu.\n\nAli Ana ne zna kako se piše knjiga. Zato ide kod prijatelja Vlade. Vlada ima malu radnju, a u radnji ima mnogo knjiga.\n\n— Zdravo, Ana! Šta tražiš? — pita Vlada.\n\n— Tražim knjigu o tome kako se piše knjiga — kaže Ana. — Imam ideju, ali ne znam da pišem.\n\n— Imam jednu takvu knjigu — kaže Vlada. — Ima divne slike i dobre ideje.\n\nAna gleda slike. Slike su zaista divne. Ana plati knjigu i ide kući.\n\nKod kuće Ana čita i čita. Hoće da nauči kako se piše dobra knjiga. Posle tri dana Ana nauči mnogo. Sada ona piše svoju prvu stranu. Piše o malom gradu, o ljudima i kućama.\n\nPosle nekoliko dana Ana ide kod Vlade. Pokaže mu svoju prvu stranu. Vlada čita.\n\n— Super! — kaže Vlada. — Divan početak, Ana!\n\nAna je srećna. Sada zna da može da piše. Njen san će biti knjiga.\n\nPitanja:\nŠta Ana voli?\nAna voli knjige.\nŠta je Anin san?\nAnin san je da piše svoju knjigu.\nŠta Ana traži kod Vlade?\nAna traži knjigu o tome kako se piše knjiga.\nŠta kaže Vlada kad čita?\nVlada kaže da je ovo super i divan početak."
+    },
+    {
+      "title": "Prvi dan u školi",
+      "summary": "Luka comes early on his first day at a new school in Kragujevac and meets Nemanja.",
+      "newWords": [
+        "škola",
+        "dečko",
+        "igra",
+        "ćao",
+        "rano",
+        "jutro",
+        "otvoriti",
+        "plan",
+        "razlog",
+        "osoba"
+      ],
+      "text": "Luka je dečko iz Kragujevca. Danas je njegov prvi dan u novoj školi. Zato Luka dolazi rano. Jutro je lepo, ali se Luka malo brine.\n\n— Zašto danas ideš tako rano? — pita mama.\n\n— Imam razlog — kaže Luka. — Hoću da vidim školu pre svih.\n\nLuka dolazi kod škole. Škola je velika i nova. On otvori vrata i uđe. Unutra je jedan dečko.\n\n— Ćao! Ja sam Nemanja — kaže dečko. — Ti si novi, zar ne?\n\n— Da. Ja sam Luka.\n\n— Dobro jutro, Luka! Hajde sa mnom. Naša učiteljica Olga je veoma dobra osoba.\n\nNemanja otvori vrata sobe. Olga stoji unutra. Luka misli da je ona zaista dobra osoba.\n\nPosle škole Nemanja ima plan.\n\n— Imam plan za danas — kaže Nemanja. — Posle škole idemo u Šumarice. Tamo deca imaju svoju igru. Hoćeš li s nama?\n\n— Hoću — kaže Luka. — To je dobra igra!\n\n— Ćao, Luka! — kaže Nemanja. — Vidimo se posle škole!\n\n— Ćao! — kaže Luka.\n\nLuka je srećan. Škola nije loša. Sada ima i prijatelja, a to je dobar razlog da voli školu.\n\nPitanja:\nZašto Luka dolazi rano?\nLuka dolazi rano, jer hoće da vidi školu pre svih.\nKo je Nemanja?\nNemanja je dečko iz nove škole.\nKakva osoba je Olga?\nOlga je veoma dobra osoba.\nKakav plan ima Nemanja?\nPosle škole oni idu u Šumarice na igru."
+    },
+    {
+      "title": "Pas na Paliću",
+      "summary": "Mira's big dog Reks runs across the road and up some steps into a house, and a kind woman helps.",
+      "newWords": [
+        "pas",
+        "lud",
+        "glup",
+        "zao",
+        "kriv",
+        "preko",
+        "uz",
+        "gore",
+        "dole",
+        "unutra",
+        "paziti",
+        "lice"
+      ],
+      "text": "Mira ima velikog psa. Zove se Reks. Reks nije zao, ali je malo lud: uvek trči. Danas Mira i Reks idu po Paliću.\n\n— Reks, pazi! — kaže Mira. — Ne idi tako brzo!\n\nAli Reks ne sluša. On vidi nešto preko puta. Trči preko puta, pa uz stepenice, gore do jedne kuće. Vrata su velika i Reks uđe unutra.\n\n— Reks! Ne! — kaže Mira i ide gore za njim.\n\nMira uđe unutra. Jedna žena stoji i gleda psa. Reks je sada dole, pod stolom.\n\n— Oprostite — kaže Mira. Lice joj je crveno. — Moj pas je lud i glup!\n\n— Nije on glup — kaže žena. Ona ima dobro lice. — To je dobar pas. Samo je mlad. Zar je zao? Nije.\n\n— Ja sam kriva — kaže Mira. — Treba bolje da pazim.\n\n— Niko nije kriv — kaže žena. — Hajde, idemo dole.\n\nReks ide uz Miru dole, pa preko puta. Sada ne trči. Mira dobro pazi na psa.\n\nPitanja:\nKakav pas je Reks?\nReks je veliki pas, ali nije zao.\nGde Reks ide?\nReks ide preko puta i uz stepenice, gore do jedne kuće.\nŠta Mira kaže o psu?\nMira kaže da je pas lud i glup.\nKo je kriv?\nMira kaže da je ona kriva, jer treba bolje da pazi."
+    },
+    {
+      "title": "Brod na Dunavu",
+      "summary": "Rada and her husband Boža take a boat trip on the Danube at Golubac with Captain Jovan.",
+      "newWords": [
+        "brod",
+        "kapetan",
+        "voditi",
+        "odvesti",
+        "dovesti",
+        "kola",
+        "sreća",
+        "muž",
+        "dozvoliti"
+      ],
+      "text": "Rada i njen muž Boža žive u Beogradu. Danas idu kolima do Golupca. Tamo hoće da vide Dunav sa broda. Brod stoji na Dunavu. Kapetan Jovan ih čeka.\n\n— Dobar dan! — kaže kapetan. — Ja sam Jovan. Ja vodim ovaj brod. Danas ću vas odvesti po Dunavu.\n\n— Dobar dan, kapetane — kaže Boža. — Dozvolite da pitam: koliko dugo ide?\n\n— Dva sata — kaže kapetan.\n\nRada hoće da vidi sve. Ona gleda kapetana i pita:\n\n— Kapetane, dozvolite mi da stojim gore, kod vas.\n\n— Dobro, dozvoljeno je — kaže kapetan. — Ali pazite.\n\nRada stoji kraj kapetana i gleda. Dunav je veliki, a brod ide polako. Kapetan vodi brod dobro. Na brodu je samo još jedna porodica, pa je lepo.\n\n— Imamo sreće — kaže njen muž Boža. — Vreme je divno.\n\n— Da — kaže Rada. — Kakva sreća! Dovešćemo i decu.\n\nPosle dva sata kapetan Jovan vodi brod nazad. On ih odvede do Golupca. Rada i Boža izađu iz broda, pa idu kolima kući. Rada je srećna, jer je Dunav veliki i lep.\n\nPitanja:\nKuda idu Rada i Boža?\nOni idu kolima do Golupca.\nKo vodi brod?\nBrod vodi kapetan Jovan.\nGde Rada stoji na brodu?\nRada stoji gore, kod kapetana.\nKoga će Rada i Boža dovesti sledeći put?\nOni će dovesti i decu."
+    },
+    {
+      "title": "Večeras u bioskopu",
+      "summary": "Nikola and Tara try to get the last seats for the evening film in an old cinema in Čačak.",
+      "newWords": [
+        "film",
+        "večeras",
+        "ovako",
+        "isto",
+        "kasnije",
+        "dakle",
+        "šansa",
+        "muškarac",
+        "protiv",
+        "nakon",
+        "stari"
+      ],
+      "text": "Nikola i Tara su prijatelji iz Čačka. Večeras hoće da vide film u starom bioskopu. To je stari bioskop u gradu. Film je u 8 sati.\n\n— Dakle, idemo večeras — kaže Nikola. — Ali moramo da dođemo rano.\n\n— Imamo šansu da dobijemo dobra mesta — kaže Tara. — Idemo odmah.\n\nKod bioskopa stoji jedan muškarac.\n\n— Izvinite — kaže Nikola. — Ima li mesta za večeras?\n\n— Samo dva — kaže muškarac. — Dva poslednja. To je vaša šansa.\n\n— Hvala! — kaže Tara. — Dakle, film je naš!\n\nIma još vremena. Nikola ne voli da čeka ovako dugo.\n\n— Šta ćemo sada? — pita on. — Ne volim da čekam ovako.\n\n— Isto i ja — kaže Tara. — Hajde da popijemo nešto. Film je kasnije.\n\n— Nisam protiv — kaže Nikola.\n\nOni sede i pričaju. Tara voli dobre filmove, a Nikola isto. On nikad nije protiv dobrog filma. Kasnije idu u stari bioskop. Film je dobar. Nikola i Tara gledaju i ne govore ništa.\n\nNakon filma idu kući. Noć je lepa.\n\n— Ovako dobar film! — kaže Tara.\n\nPitanja:\nGde Nikola i Tara hoće da vide film?\nOni hoće da vide film u starom bioskopu.\nKo stoji kod bioskopa?\nKod bioskopa stoji jedan muškarac.\nKoliko mesta ima?\nIma samo dva mesta.\nŠta oni rade nakon filma?\nNakon filma idu kući."
+    },
+    {
+      "title": "Nova kuća u Beču",
+      "summary": "Marija and Goran, from Kragujevac, move house in Beč and meet a neighbour who is from Serbia too.",
+      "newWords": [
+        "promeniti",
+        "srediti",
+        "nastaviti",
+        "shvatiti",
+        "saznati",
+        "verovatno",
+        "bar",
+        "dešavati",
+        "zapravo"
+      ],
+      "text": "Marija i Goran žive u Beču. Danas hoće da promene kuću. Nova kuća je u lepoj ulici. Unutra je mnogo stvari.\n\n— Moramo da sredimo sve — kaže Goran.\n\n— Verovatno ćemo srediti sve do noći — kaže Marija. — Bar jednu sobu hoću danas.\n\nOni rade i rade. Onda neko stoji na vratima. To je jedna žena.\n\n— Dobar dan — kaže žena. — Ja sam Danica i živim kraj vas. Šta se dešava ovde? Čujem mnogo stvari.\n\n— Izvinite — kaže Marija. — Mi smo novi ovde. Zapravo, mi tek dolazimo.\n\n— Odakle ste? — pita Danica.\n\n— Iz Srbije — kaže Goran. — Iz Kragujevca.\n\n— I ja sam iz Srbije! — kaže žena. — Zapravo, iz Čačka.\n\nMarija ne može da shvati: žena je iz Srbije! Sada i Goran shvati da imaju sreće. On hoće da sazna gde je centar, pa pita Danicu. Danica kaže gde je centar, a Marija sazna da Danica živi tu 10 godina.\n\n— Teško je promeniti kuću — kaže Goran. — Ali ovo je dobra kuća.\n\n— Verovatno će vam biti lepo u Beču — kaže Danica.\n\nDanica ide kući. Marija i Goran nastave da rade.\n\n— Hajde da nastavimo — kaže Goran. — Šta se dešava s ovom sobom? Opet je mnogo stvari! Bar tu sobu hoću danas.\n\nPitanja:\nŠta Marija i Goran danas rade?\nOni menjaju kuću i rade.\nKo stoji na vratima?\nNa vratima stoji Danica.\nOdakle je Danica?\nDanica je iz Srbije, iz Čačka.\nŠta Marija i Goran nastave?\nOni nastave da rade."
+    },
+    {
+      "title": "Mali Miloš nestaje",
+      "summary": "Little Miloš runs off to see a dog in Čačak, and his mother calls the police, who find him.",
+      "newWords": [
+        "policija",
+        "nestati",
+        "otkriti",
+        "javiti",
+        "nazvati",
+        "uništiti",
+        "briga"
+      ],
+      "text": "Dragana i njen mali sin Miloš idu po Čačku. Danas je dan grada i u centru je mnogo ljudi. Miloš ima pet godina. Dragana ga drži za ruku.\n\nMiloš vidi psa. On pusti ruku i trči da vidi psa. Dragana se okrene, a Miloša nema.\n\n— Miloš! Gde si? — kaže Dragana.\n\nNema ga nigde. Dragana ima veliku brigu. Kako dete može tako brzo da nestane? Ona traži, traži, ali ne nalazi Miloša. Ova briga može da uništi ceo dan.\n\n— Moram da nazovem policiju — misli ona.\n\nDragana nazove policiju. Jedan čovek se javi.\n\n— Ne brinite — kaže čovek. — Mi ćemo otkriti gde je dete. Gde ste sada?\n\n— U centru — kaže Dragana. — Kod velike kuće. Moj sin je mali. Deca brzo nestanu!\n\n— Čekajte tamo — kaže čovek. — Javićemo vam.\n\nDragana čeka. Posle pet minuta policija javi:\n\n— Miloš je kod nas. Sedi i pije vodu.\n\nDragana trči u policiju. Miloš sedi i gleda je.\n\n— Mama, hoću psa! — kaže on.\n\n— Hvala vam — kaže Dragana. — Nema više brige.\n\n— Nema na čemu — kaže čovek iz policije.\n\nDan nije uništen. Dragana drži Miloša za ruku i ne pušta ga.\n\nPitanja:\nKoga Dragana zove?\nDragana zove policiju.\nZašto Miloš trči?\nMiloš trči, jer vidi psa.\nŠta kaže čovek iz policije?\nOn kaže da će otkriti gde je dete.\nGde je Miloš na kraju?\nMiloš je kod policije i pije vodu."
+    },
+    {
+      "title": "Na pijaci",
+      "summary": "Jovana and her mother go to the market in Zrenjanin and buy only what they need.",
+      "newWords": [
+        "hrana",
+        "kupiti",
+        "previše",
+        "koristiti",
+        "rad",
+        "ljubav",
+        "tačno",
+        "osim"
+      ],
+      "text": "Jovana ima posao u Zrenjaninu. Posle rada ona koristi kola i ide kod mame. Danas njih dve idu na pijacu. Mama voli da kupi hranu tamo, jer je hrana dobra.\n\n— Kako ti je na radu? — pita mama.\n\n— Dobro, mama. Volim svoj rad — kaže Jovana. — A šta ćemo kupiti?\n\n— Hrana je ljubav — kaže mama. — Ja rado pravim hranu za vas. Imam plan. Treba mi tačno pet stvari.\n\nMama ne koristi kola. Ona voli da ide i koristi svoje noge. Ide od jednog do drugog čoveka. Mama nikad ne kupi previše.\n\nKod jednog čoveka mama gleda hleb.\n\n— Dajte mi tačno dva hleba, molim vas — kaže ona.\n\nJovana vidi jednu malu knjigu i hoće da je kupi za mamu. Osim hrane, mama voli i knjige.\n\n— Mama, ovo je za tebe — kaže Jovana.\n\n— Previše je to — kaže mama. — Ali hvala ti. Osim tebe, niko ne kupi mami knjigu.\n\nPosle toga idu kući. Kod kuće mama napravi večeru. Hrana je divna, a Jovana je srećna. Ona ima mamu, hranu i ljubav.\n\nPitanja:\nGde Jovana ide posle rada?\nJovana ide kod mame, pa na pijacu.\nŠta mama koristi na pijaci?\nMama koristi svoje noge.\nŠta Jovana kupi za mamu?\nJovana kupi malu knjigu.\nKoliko stvari mama hoće da kupi?\nMama hoće da kupi tačno pet stvari."
+    }
+  ]
+}

@@ -198,7 +198,8 @@ def serbian_name_forms(names):
             forms.add(part)
             stem, last = part[:-1], part[-1]
             if last == "a":
-                forms.update(stem + e for e in ("e", "i", "u", "o", "om"))
+                # Ana, Ane, Ani, Anu, Anom, and the adjective-like Fruška gora: Fruškoj gori; Ana's: Anin, Anina.
+                forms.update(stem + e for e in ("e", "i", "u", "o", "om", "oj", "im", "in", "ina", "ino", "ine", "inu", "inim", "inoj", "ini"))
             elif last == "o":
                 forms.update(stem + e for e in ("a", "u", "om", "o"))
             elif last == "e":
@@ -206,7 +207,7 @@ def serbian_name_forms(names):
             elif last == "i":
                 forms.update(stem + e for e in ("og", "om", "oj", "im", "ih", "a", "e", "u", "i"))
             elif last not in "uy":
-                forms.update(part + e for e in ("a", "u", "om", "em", "e", "ov", "i"))
+                forms.update(part + e for e in ("a", "u", "om", "em", "e", "i", "ov", "ova", "ovo", "ove", "ovu", "ovom", "ovoj", "ovi", "ovim"))
                 if len(part) > 4 and part.endswith(("ac", "ak", "ar", "ec", "ek")):
                     short = part[:-2] + part[-1]
                     forms.update(short + e for e in ("a", "u", "om", "em", "e", "i"))
