@@ -70,7 +70,12 @@ def load_list(code):
             word, _, forms = line.rstrip("\n").partition("\t")
             key = fold(code, word.lower())
             forms = [fold(code, form) for form in forms.split()]
-            words[key] = (rank, word, forms)
+            if key in words:
+                # The same word listed twice once ё and е are one letter (ученый, учёный): the commoner entry stays.
+                first_rank, first_word, first_forms = words[key]
+                words[key] = (first_rank, first_word, first_forms + [f for f in forms if f not in first_forms])
+            else:
+                words[key] = (rank, word, forms)
             for form in [key] + forms:
                 ranks[form] = min(ranks.get(form, rank), rank)
     # Forms the list misses, kept per language next to its courses (tools/courses/<code>/extra_forms.tsv).
@@ -145,20 +150,32 @@ def russian_tokens(text):
     return out
 
 
-def russian_name_stems(names):
+def russian_name_forms(names):
     """
-    What a name's case endings leave: Анна, Анну, Анной all start with "анн". Only names of three
-    letters or more give a stem, and a form may add up to four letters to it.
+    The case forms of Russian names, from their regular declension: Анна, Анны, Анне, Анну, Анной;
+    Иван, Ивана, Ивану, Иваном, Иване; Игорь, Игоря, Игорю, Игорем, Игоре; Мария, Марии, Марию,
+    Марией. A name of several words or with a hyphen (Нижний Новгород, Санкт-Петербург) gives
+    the forms of each part. A name whose stem changes (Лев, Пётр, Любовь) is listed by its stems.
     """
-    stems = set()
+    forms = set()
     for name in names:
-        n = name.lower().replace("ё", "е")
-        if " " in n or "-" in n:
-            continue
-        stem = n[:-1] if n[-1] in "аяоеиыьй" else n
-        if len(stem) >= 3:
-            stems.add(stem)
-    return stems
+        for part in re.split(r"[\s-]+", name.lower().replace("ё", "е")):
+            if not part:
+                continue
+            forms.add(part)
+            stem, last = part[:-1], part[-1]
+            if last == "а":
+                forms.update(stem + e for e in ("ы", "и", "е", "у", "ой", "ою"))
+            elif last == "я":
+                if part.endswith("ия"):
+                    forms.update(stem + e for e in ("и", "ю", "ей"))
+                else:
+                    forms.update(stem + e for e in ("и", "е", "ю", "ей", "ею"))
+            elif last in "ьй":
+                forms.update(stem + e for e in ("я", "ю", "ем", "е", "и", "ью"))
+            elif last not in "оеиыуюэ":
+                forms.update(part + e for e in ("а", "у", "ом", "е", "ем"))
+    return forms
 
 
 # Object pronouns a Spanish verb can carry at its end, longest first so "les" goes before "le".
@@ -254,8 +271,9 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True) if code in ("es", "ru") else []
-    name_stems = russian_name_stems(course.get("names", [])) if code == "ru" else set()
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True) if code == "es" else []
+    if code == "ru":
+        names = names | russian_name_forms(course.get("names", []))
     seen_new = set()
     ok = True
     report = []
@@ -279,7 +297,7 @@ def check(path, brief=False):
             # An English possessive ("emma's") counts as its word: the list has few of them.
             if t.endswith(("'s", "’s")) and t not in ranks and len(t) > 2:
                 t = t[:-2]
-            if t in names_here or (name_stems and any(t.startswith(stem) and len(t) <= len(stem) + 4 for stem in name_stems)):
+            if t in names_here:
                 known += 1
                 continue
             rank = ranks.get(t)

@@ -185,15 +185,15 @@ Things to know about the Russian list and the checker:
   Roman numeral (*XIX век*).
 - A form shared by two words counts for both (*лет* for *год* and *лето*, *стали* for *стать* and
   *сталь*, *мою* for *мой* and *мыть*): use a new word in its own sense, never through its homograph.
-- A **name** goes in `names` once, in the nominative (*Аня*, *Москва*, *Иван*, *Ольга*): the
-  checker also accepts its case forms (*Ани*, *Аню*, *Ане*, *Москве*, *Ивана*, *Ольгой*), up to four
-  letters longer than the name's stem, for names whose stem has three letters or more. A name
-  whose stem changes in the cases (*Лев* → *Льва*, *Пётр* → *Петра*, *Любовь* → *Любови*,
-  *Павел* → *Павла*) needs each stem listed. A name of several words or with a hyphen (*Нижний
-  Новгород*, *Санкт-Петербург*) counts whole. Keep only true names there, never common words,
-  and never a name that is also a band word (*Вера*, *Надежда*, *Любовь*, *Мир*, *Роза* hide the
-  words they spell): then call the character something else. Day and month names are in the list;
-  check holidays.
+- A **name** goes in `names` once, in the nominative (*Аня*, *Москва*, *Иван*, *Ольга*, *Игорь*,
+  *Мария*): the checker also accepts its case forms from the regular declension (*Ани*, *Аню*,
+  *Ане*, *Москве*, *Ивана*, *Ольгой*, *Игорю*, *Марией*), however short the name. A name whose stem
+  changes in the cases (*Лев* → *Льва*, *Пётр* → *Петра*, *Любовь* → *Любови*, *Павел* → *Павла*)
+  needs each stem listed. A name of several words or with a hyphen (*Нижний Новгород*,
+  *Санкт-Петербург*) is taken part by part, each part declined (*в Санкт-Петербурге*). Keep only
+  true names there, never common words, and never a name that is also a band word (*Вера*,
+  *Надежда*, *Любовь*, *Мир*, *Роза* hide the words they spell): then call the character something
+  else. Day and month names are in the list; check holidays.
 - The list's form lists are noisy (old spellings, informal spellings, unrelated words): a new word
   must appear as itself or a true inflection, never through such a form. Some entries are names,
   abbreviations or foreign words (*ок*, *the*, *spb*): skip them. Loanwords that Russian uses as
