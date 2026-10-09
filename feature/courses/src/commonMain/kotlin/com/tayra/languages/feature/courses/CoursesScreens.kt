@@ -663,18 +663,6 @@ private fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDownl
                 textAlign = TextAlign.Center,
             )
             if (language.isEmpty()) return@Column
-            Spacer(Modifier.height(20.dp))
-            FlowRow(
-                horizontalArrangement = Arrangement.spacedBy(16.dp, Alignment.CenterHorizontally),
-                verticalArrangement = Arrangement.spacedBy(8.dp),
-                itemVerticalAlignment = Alignment.CenterVertically,
-            ) {
-                val steps = listOf(tr("Choose texts"), tr("Organize lessons"), tr("Start reading"))
-                steps.forEachIndexed { i, step ->
-                    Text(step, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium, color = colors.onSurfaceVariant)
-                    if (i < steps.lastIndex) Icon(AppIcons.ArrowRight, contentDescription = null, tint = colors.onSurfaceVariant.copy(alpha = 0.6f), modifier = Modifier.size(18.dp))
-                }
-            }
             Spacer(Modifier.height(28.dp))
             FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 if (state.packAvailable) {

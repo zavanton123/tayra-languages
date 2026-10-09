@@ -247,6 +247,7 @@ class CoursesScreenTest {
         host { CoursesContent(CoursesUiState(loading = false, languageName = "Estonian"), {}, {}, {}, onOpen = {}, onNewCourse = { created++ }) }
         onNodeWithText("Build a guided reading course from books and texts you choose.").assertExists()
         onNodeWithText("How courses work").assertDoesNotExist()
+        onNodeWithText("Organize lessons").assertDoesNotExist()
         onNodeWithTag("download-courses").assertDoesNotExist()
         assertEquals(1, onAllNodesWithTag("new-course").fetchSemanticsNodes().size, "only the empty state's button, not the header's")
         save("COURSES_EMPTY_SCREENSHOT")
