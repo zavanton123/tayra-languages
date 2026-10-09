@@ -34,9 +34,19 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.language.LanguageCodes
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.ui.draw.alpha
 
-/** The language being learned and the ones to choose from; [languages] are ids with their English names, shown through `tr`. */
-class LearningLanguageState(val languages: List<Pair<Long, String>>, val currentId: Long, val onSelect: (Long) -> Unit) {
+/**
+ * The language being learned and the ones to choose from; [languages] are ids with their English names, shown through `tr`.
+ * [nativeIds] are listed but cannot be chosen, being the native language.
+ */
+class LearningLanguageState(
+    val languages: List<Pair<Long, String>>,
+    val currentId: Long,
+    val nativeIds: Set<Long> = emptySet(),
+    val onSelect: (Long) -> Unit,
+) {
     val currentName: String? get() = languages.firstOrNull { it.first == currentId }?.second
 }
 
@@ -86,17 +96,35 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             state.languages.forEach { (id, language) ->
+                val available = id == state.currentId || id !in state.nativeIds
                 AppMenuItem(
                     text = {
-                        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                            LanguageFlag(language, 18.dp)
-                            Text(tr(language), Modifier.weight(1f), fontWeight = if (id == state.currentId) FontWeight.SemiBold else FontWeight.Normal)
-                            if (id == state.currentId) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(18.dp))
-                        }
+                        LanguageMenuRow(language, tr(language), chosen = id == state.currentId, unavailableNote = tr("Your native language").takeUnless { available })
                     },
                     onClick = { open = false; if (id != state.currentId) state.onSelect(id) },
+                    enabled = available,
                 )
             }
         }
+    }
+}
+
+/**
+ * One language in a language menu: its flag, [label] and a check when [chosen]. One that cannot be
+ * chosen is dimmed, with [unavailableNote] saying why.
+ */
+@Composable
+fun LanguageMenuRow(flagName: String, label: String, chosen: Boolean, unavailableNote: String? = null) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.alpha(if (unavailableNote != null) 0.45f else 1f),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        LanguageFlag(flagName, 18.dp)
+        Text(label, Modifier.weight(1f, fill = false), fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal)
+        Spacer(Modifier.weight(1f))
+        if (unavailableNote != null) Text(unavailableNote, style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
+        if (chosen) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(18.dp))
     }
 }

@@ -17,6 +17,11 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.draw.alpha
 
 /** A simple select box. */
 @OptIn(ExperimentalMaterial3Api::class)
@@ -31,6 +36,8 @@ fun <T> Dropdown(
     enabled: Boolean = true,
     /** How an option is drawn in the menu, such as a font name in its own font; the label is shown otherwise. */
     optionContent: (@Composable (T) -> Unit)? = null,
+    /** Why an option cannot be chosen, or null when it can; such options are listed dimmed. */
+    unavailable: (T) -> String? = { null },
 ) {
     var expanded by remember { mutableStateOf(false) }
     ExposedDropdownMenuBox(expanded = expanded, onExpandedChange = { if (enabled) expanded = it }, modifier = modifier) {
@@ -53,12 +60,19 @@ fun <T> Dropdown(
             border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
         ) {
             options.forEach { option ->
+                val note = if (option == selected) null else unavailable(option)
                 AppMenuItem(
-                    text = { if (optionContent != null) optionContent(option) else Text(optionLabel(option)) },
+                    text = {
+                        Row(Modifier.alpha(if (note != null) 0.45f else 1f), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                            Box(Modifier.weight(1f)) { if (optionContent != null) optionContent(option) else Text(optionLabel(option)) }
+                            if (note != null) Text(note, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1)
+                        }
+                    },
                     onClick = {
                         onSelect(option)
                         expanded = false
                     },
+                    enabled = note == null,
                 )
             }
         }

@@ -244,6 +244,9 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Added ~/.local/bin to your PATH in {0}. Open a new terminal window to use it." to "Папка ~/.local/bin добавлена в PATH в файле {0}. Откройте новое окно терминала, чтобы пользоваться командой.",
     "Could not change the PATH: {0}" to "Не удалось изменить PATH: {0}",
     // LanguageSetupDialog.kt
+    // Language menus (LearningLanguage.kt, LanguagesScreen.kt)
+    "Your native language" to "Ваш родной язык",
+    "You are learning it" to "Вы его изучаете",
     "Get ready to learn {0}" to "Начинаем учить {0}",
     "Everything available for {0} is already on this device." to "Всё, что есть для языка «{0}», уже на этом устройстве.",
     "Not available" to "Недоступно",

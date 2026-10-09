@@ -315,10 +315,11 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
         }
         val nativeField: @Composable (Modifier) -> Unit = { m ->
             Column(m) {
-                // The language being learned cannot be the native one too.
+                // The language being learned cannot be the native one too, so it is listed dimmed.
                 val learningCode = LocalLearningLanguage.current?.currentName?.let(LanguageCodes::codeFor)
                 Dropdown(
-                    options = LanguageCatalog.nativeLanguages.filter { it.code != learningCode || it.code == settings.nativeLanguage },
+                    options = LanguageCatalog.nativeLanguages,
+                    unavailable = { if (it.code == learningCode) tr("You are learning it") else null },
                     selected = LanguageCatalog.nativeOption(settings.nativeLanguage),
                     onSelect = { option -> if (option.code != learningCode) viewModel.update { it.copy(nativeLanguage = option.code) } },
                     label = tr("Native language"),

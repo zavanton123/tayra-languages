@@ -73,9 +73,9 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure()
     }
     val state = remember(languages, currentId, native) {
-        // The native language is not offered for learning; a library that has it as the current one still shows it.
-        val choices = languages.filter { it.id == currentId || !learning.isNative(it) }
-        LearningLanguageState(choices.sortedBy { it.name }.map { it.id to it.name }, currentId) { id ->
+        // The native language is listed but cannot be chosen for learning.
+        val nativeIds = languages.filter { learning.isNative(it) }.map { it.id }.toSet()
+        LearningLanguageState(languages.sortedBy { it.name }.map { it.id to it.name }, currentId, nativeIds) { id ->
             scope.launch {
                 if (!learning.select(id) || id == currentId) return@launch
                 onChosen()

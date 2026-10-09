@@ -61,6 +61,7 @@ import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
+import com.tayra.languages.core.ui.components.LanguageMenuRow
 
 /** The language being learned, the native language meanings are shown in, and the language of the interface. */
 @Composable
@@ -68,7 +69,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     val settings by viewModel.state.collectAsStateWithLifecycle()
     val learning = LocalLearningLanguage.current
     val native = LanguageCatalog.nativeOption(settings.nativeLanguage)
-    // The language learned and the native one are never the same, so neither picker offers the other's.
+    // The language learned and the native one are never the same: each picker lists the other's dimmed.
     val learningCode = learning?.currentName?.let(LanguageCodes::codeFor)
     val ui = LanguageCatalog.interfaceOption(settings.uiLanguage)
     val compact = LocalWindowWidth.current.isCompact
@@ -101,6 +102,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                             onSelect = { (id, _) -> learning?.onSelect?.invoke(id); changes++ },
                             modifier = Modifier.testTag("learning-language"),
                             flagName = { it.second },
+                            unavailable = { if (learning != null && it.first in learning.nativeIds) tr("Your native language") else null },
                         )
                         TileDescription(tr("Used for books, courses, vocabulary and flashcards."))
                     }
@@ -108,12 +110,13 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 val nativeTile: @Composable (Modifier) -> Unit = { m ->
                     LanguageTile(tr("Translations"), tr("Show meanings in"), modifier = m) {
                         FlagPicker(
-                            options = LanguageCatalog.nativeLanguages.filter { it.code != learningCode || it.code == native.code },
+                            options = LanguageCatalog.nativeLanguages,
                             selected = native,
                             name = { tr(it.name) },
                             onSelect = { viewModel.setNativeLanguage(it.code, learningCode); changes++ },
                             modifier = Modifier.testTag("native-language"),
                             flagName = { it.name },
+                            unavailable = { if (it.code == learningCode) tr("You are learning it") else null },
                         )
                         TileDescription(tr("Used for translations, definitions and example sentences."))
                     }
@@ -219,6 +222,8 @@ private fun <T> FlagPicker(
     modifier: Modifier = Modifier,
     /** The English name the flag is looked up by, when [name] is not it. */
     flagName: (T) -> String = name,
+    /** Why an option cannot be chosen, or null when it can; such options are listed dimmed. */
+    unavailable: (T) -> String? = { null },
 ) {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
@@ -246,15 +251,11 @@ private fun <T> FlagPicker(
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             options.forEach { option ->
                 val chosen = option == selected
+                val note = if (chosen) null else unavailable(option)
                 AppMenuItem(
-                    text = {
-                        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                            LanguageFlag(flagName(option), 18.dp)
-                            Text(name(option), Modifier.weight(1f), fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal)
-                            if (chosen) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(18.dp))
-                        }
-                    },
+                    text = { LanguageMenuRow(flagName(option), name(option), chosen, note) },
                     onClick = { open = false; if (!chosen) onSelect(option) },
+                    enabled = note == null,
                 )
             }
         }
