@@ -1,0 +1,222 @@
+{
+  "id": "it-mini-9300",
+  "rankUpTo": 9300,
+  "level": "C2",
+  "title": "Fiabe e leggende",
+  "description": "Gentle tales and legends for all ages, from Trieste to Sardinia, Navarra and Seoul: clever helpers, talking animals, enchanted objects and kind endings.",
+  "topic": "Tales and legends",
+  "names": [
+    "Trieste",
+    "Nives",
+    "Matteo",
+    "Livia",
+    "Torino",
+    "Lia",
+    "Gogi",
+    "Kutaisi",
+    "Nino",
+    "Cogne",
+    "Franco",
+    "Tom",
+    "Tommaso",
+    "Aldo",
+    "Gimillan",
+    "Urbino",
+    "Bruni",
+    "Anna",
+    "Paolo",
+    "Lidia",
+    "Seul",
+    "Chiara",
+    "Min-ji",
+    "Somchai",
+    "Brescia",
+    "Silvia",
+    "Pirenei",
+    "Etxeberria",
+    "Maite",
+    "Mikel",
+    "Navarra",
+    "Catania",
+    "Salvo",
+    "Rosaria",
+    "Turi",
+    "Carmela",
+    "Gelasio",
+    "Ines",
+    "Zurigo",
+    "Val Verzasca",
+    "Canton Ticino",
+    "Ottavio",
+    "Marco",
+    "Maddalena",
+    "Sardegna",
+    "Efisio",
+    "Giulia",
+    "Italia",
+    "Corea",
+    "Gufo"
+  ],
+  "lessons": [
+    {
+      "title": "La bora e la fornaia",
+      "summary": "A grandmother in Trieste tells how a lonely, sharp wind found a friend in a baker, and why ropes hang along the steep streets.",
+      "newWords": [
+        "triestino",
+        "fune",
+        "tagliente",
+        "sorvolare",
+        "oscurare",
+        "tiepido",
+        "sacrosanto",
+        "affrettare",
+        "pasticcio"
+      ],
+      "text": "A Trieste, quando soffia la bora, lungo le strade in salita si tendono delle funi, e i triestini vi si appoggiano ridendo, come se fosse la cosa più naturale del mondo. I turisti credono che quelle funi servano soltanto a non perdere l'equilibrio. La nonna Nives, che ha 82 anni e abita in una casa gialla vicino al molo, racconta invece un'altra storia, e la racconta ogni volta che il vento batte alle finestre.\n\n«C'era una volta una bora che nessuno amava» comincia, mentre il nipote Matteo si siede sul tappeto. «Era un vento tagliente, che sorvolava i tetti con un fischio e portava via cappelli, lenzuola e allegria. Quando arrivava, oscurava perfino il sole: le nuvole correvano davanti alla luce come pecore davanti al cane. Nessuno apriva più le finestre, e la bora, che non voleva fare male a nessuno, si sentiva sempre più sola.»\n\nLa nonna versa il tè e continua. «Un giorno il vento sorvolò la bottega di una donna che faceva il pane, Livia, la quale lavorava con la porta aperta. Per lei era sacrosanto tenere il forno acceso anche nei giorni di tempesta: il pane non aspetta. La bora entrò di colpo, rovesciò la farina e fece un tale pasticcio che tutta la bottega sembrò coperta di neve. Livia non si arrabbiò. Scosse la farina dalle mani, rise e disse al vento di restare, perché là dentro si stava tiepidi.»\n\nNessuno aveva mai invitato la bora, e Livia pensava che fosse sacrosanto offrire un posto al caldo a chiunque bussi, anche a un vento. Il vento si fermò accanto al forno, per la prima volta senza fretta, e ascoltò il pane tiepido che si raffreddava sul tavolo e cantava piano, come una canzone a bocca chiusa. «Da quella sera la bora tornò ogni pomeriggio. Imparò a soffiare dolcemente sui pani per asciugarli, e quando fuori il cielo si oscurava non era più per cattiveria, ma perché il vento tirava le nuvole come una tenda, per stare in pace con la sua amica.»\n\n«E le funi?» chiede Matteo, che ha già capito che la storia non finisce lì.\n\n«Aspetta. I triestini notarono che il vento era meno tagliente e che nel quartiere di Livia i panni stesi non volavano più via. Allora Livia disse a tutti di tendere delle funi lungo le strade, dalla bottega fino al mare, perché la bora, quando si affrettava a tornare da lei, trovasse la strada e non si perdesse tra i vicoli. Così si fece. E ancora oggi, quando senti il vento arrivare di corsa, ti viene voglia di affrettare il passo e di tenerti a una fune: non è la bora che ti spinge, è la tua mano che saluta la sua.»\n\nFuori il vento batte più forte contro il vetro. Matteo si alza, apre appena la finestra e porge al buio un pezzetto di pane. La bora, per un attimo, resta zitta.\n\nDomande:\nChe cosa si tende a Trieste lungo le strade in salita?\nSi tendono delle funi, a cui i triestini si appoggiano quando soffia la bora.\nCom'era la bora all'inizio?\nEra un vento tagliente, che oscurava il sole e portava via cappelli e lenzuola.\nPerché Livia non si arrabbiò con la bora?\nPerché, anche se il vento aveva fatto un pasticcio, lei lo invitò a restare dove si stava tiepidi.\nChe cosa imparò a fare la bora?\nImparò a soffiare dolcemente sui pani per asciugarli.\nPerché furono tese le funi lungo le strade?\nPerché la bora, quando si affrettava a tornare da Livia, trovasse la strada."
+    },
+    {
+      "title": "La ciliegia d'oro",
+      "summary": "In Turin a Georgian great-grandfather tells a girl how a proud prince learned to share on the hill of the golden cherry.",
+      "newWords": [
+        "georgiano",
+        "bisnonno",
+        "ciliegia",
+        "castano",
+        "mandarino",
+        "sapiente",
+        "superbo",
+        "ardito",
+        "incredulo",
+        "invincibile"
+      ],
+      "text": "Lia ha nove anni e vive a Torino, ma il suo bisnonno Gogi è georgiano e non ha mai perso l'accento di Kutaisi. Ha 94 anni, i capelli ancora un po' castani sopra le orecchie e una passione per i mandarini: ne mangia uno ogni sera, lentamente, come se aprisse una lettera. Quella sera Lia lo aiuta a dividere il frutto, e lui dice che è l'ora della storia della ciliegia d'oro.\n\n«Nel mio villaggio» comincia il bisnonno «viveva un giovane principe, e il giovane principe era superbo. Credeva di meritare tutto: il pane più morbido, il cavallo più bello, il posto più alto a tavola. Un giorno sentì dire che in cima alla collina cresceva un albero speciale, e che le sue ciliegie erano le più dolci del mondo. Ne volle una, subito, e partì da solo, perché un principe superbo non chiede mai aiuto.»\n\nGogi mette un pezzetto di mandarino in bocca a Lia e prosegue. «Per strada incontrò una ragazza dai capelli castani, la figlia di un pastore. Si chiamava Nino ed era una ragazza ardita: saliva sulle rocce a piedi nudi e non aveva paura nemmeno dei temporali. Anche lei andava all'albero, perché sua madre era stanca e voleva portarle un frutto dolce. Il principe disse che avrebbe fatto prima lui. Nino rispose di sì, che lo avrebbe seguito per vedere.»\n\n«Il sole saliva, la salita diventava dura, e il principe aveva una fame invincibile. Nella borsa aveva solo un pezzo di pane duro. Sotto l'albero sedeva una vecchietta sapiente, con un cestino di mandarini sulle ginocchia. L'albero era carico, ma i rami si alzavano appena il principe allungava la mano. Più lui si allungava, più i rami salivano. Il principe, che non era abituato ad aspettare, provò una rabbia invincibile; poi provò soltanto fame.»\n\n«Una pianta che sceglie!» disse il principe, incredulo. «Una pianta sceglie sempre» rispose la vecchietta. «Dà ciliegie a chi ha qualcosa da dare.» Allora il principe guardò il suo pane duro, poi guardò Nino, che non aveva mangiato niente dall'alba, e lo spezzò in tre parti: una per sé, una per lei, una per la vecchietta. Nino lo guardò, incredula: un principe che divideva il pane! Era il pane più semplice che avesse mai offerto, e per la prima volta gli sembrò buono.\n\n«In quel momento un ramo si piegò fino a toccare la spalla di Nino, e dal ramo cadde in grembo a lei una ciliegia d'oro. Nino la portò a sua madre, e il principe tornò a casa senza niente. Ma la gente dice che da quel giorno non fu più superbo, e che in cima alla collina ogni estate nasce una ciliegia per chi arriva con un pezzo di pane da dividere.»\n\nLia finisce l'ultimo pezzo. «Bisnonno» dice «domani portiamo il pane al parco?» Gogi ride e le accarezza una guancia. Poi prende un altro mandarino, per il caso che la collina si trovi dietro l'angolo.\n\nDomande:\nDa dove viene il bisnonno di Lia?\nÈ georgiano e viene da Kutaisi.\nCom'era il giovane principe?\nEra superbo e credeva di meritare tutto.\nChe cosa vuole la ragazza ardita dall'albero?\nVuole portare un frutto dolce a sua madre, che è stanca.\nChi aspetta sotto l'albero?\nUna vecchietta sapiente con un cestino di mandarini.\nChe cosa fa il principe con il suo pane duro?\nLo divide in tre parti, per sé, per Nino e per la vecchietta."
+    },
+    {
+      "title": "Il camion della neve",
+      "summary": "A truck driver carrying supplies to a Valle d'Aosta village is stopped by snow, until a boy on skis and a talking shovel help clear the road.",
+      "newWords": [
+        "camionista",
+        "guidatore",
+        "impedimento",
+        "sgombrare",
+        "curvatura",
+        "sciare",
+        "bacon",
+        "mangiata"
+      ],
+      "text": "Franco fa il camionista da trent'anni e conosce ogni curva della strada che porta a Cogne. Quel mattino di gennaio carica sul camion il pane, le uova, due casse di mele e un grosso pezzo di bacon per la festa del paese. «Sono un guidatore prudente» dice al suo cane Tom, che come sempre viaggia sul sedile accanto «ma anche il guidatore più prudente, oggi, guarda con sospetto quel cielo grigio.»\n\nInfatti, dopo l'ultima curvatura prima del villaggio, la neve cade fitta e la strada sparisce. Il camion si ferma. Davanti c'è un muro bianco alto un metro, e Franco sa che non esiste impedimento più ostinato di una strada piena di neve. Scende, guarda la montagna, guarda Tom e sbuffa. «Aspettiamo i mezzi del comune» dice. Ma i mezzi del comune, lo sa bene, non arriveranno prima di sera.\n\nDalla collina scende un ragazzo che scia in discesa, con il berretto rosso tirato sulle orecchie. Si chiama Tommaso, ha dodici anni e sa sciare meglio di quanto cammini. Si ferma a un passo dal camion con una bella frenata. «Franco! Hai il pane?» chiede. «E la polenta di stasera?» «Ho tutto» risponde Franco «ma non posso arrivare.»\n\nTommaso pensa un momento, poi si toglie gli sci. «Vieni» dice. «Nonno Aldo ha una pala vecchia, nella rimessa di Gimillan. Dice che era di suo padre e che, se la si prega bene, sgombra la strada da sola.» Franco sorride, perché i bambini di montagna credono sempre a tutto, e li segue lo stesso. Tom corre avanti, con le orecchie al vento.\n\nNella rimessa c'è davvero una pala di legno, scura per gli anni, con il manico liscio come un osso. Tommaso la prende e dice, con la voce più gentile che ha: «Per favore, ci aiuti a sgombrare la strada?» La pala si muove. Non è una pala che parli molto, ma a un certo punto la sentono dire piano: «Finalmente qualcuno che chiede.» Poi comincia a spingere la neve di lato, con un rumore morbido, e dietro di lei la strada riappare, nera e lucida.\n\nIl camion arriva al villaggio al tramonto. Tutti escono sulla piazza con le torce, e quella sera si fa una vera mangiata: polenta, pane tiepido, mele e il bacon che Franco aveva portato con tanta fatica. Alla fine nonno Aldo prende la pala, la appoggia con rispetto accanto alla porta e le lascia anche un pezzo di pane. Franco guarda Tom, che dorme sotto il tavolo, e non dice niente. Il giorno dopo, quando riparte, la strada è ancora libera.\n\nDomande:\nChe cosa porta il camionista nel camion?\nPorta pane, uova, mele e un grosso pezzo di bacon per la festa.\nChe cosa ferma il camion dopo la curvatura?\nUn muro di neve alto un metro, che è un impedimento ostinato.\nChi arriva dalla collina?\nArriva Tommaso, un ragazzo di dodici anni che sa sciare molto bene.\nCome si sgombra la strada?\nTommaso chiede gentilmente aiuto alla pala magica, che spinge la neve di lato.\nChe cosa fanno tutti la sera?\nFanno una vera mangiata di polenta, pane, mele e bacon."
+    },
+    {
+      "title": "Il ponte della sorellina",
+      "summary": "In the Marche a small girl and a talking heron help a surveyor and the village find the right place for a bridge, and an old benefactress pays for it.",
+      "newWords": [
+        "marchigiano",
+        "sorellina",
+        "geometra",
+        "stanziamento",
+        "finanziatore",
+        "collaborativo",
+        "suddividere",
+        "adeguarsi",
+        "inoltrare",
+        "omissione"
+      ],
+      "text": "In un piccolo paese marchigiano, vicino a Urbino, un torrente divideva il villaggio in due parti, e per andare in piazza bisognava fare un giro di tre chilometri. Ogni inverno gli abitanti marchigiani dicevano che ci voleva un ponte. Ogni primavera il torrente si portava via qualche asse, e il discorso ricominciava.\n\nUn giorno arrivò il geometra Bruni, con il cappello di paglia e un lungo metro giallo. Doveva misurare il punto giusto dove costruire. Con lui c'era la nipotina Anna, che aveva sei anni e tutta la curiosità di un gatto. Suo fratello Paolo, di dieci, le diceva sempre di non toccare niente. Ma lei, la sorellina più piccola del villaggio, toccava tutto.\n\n«Qui il torrente è largo» spiegò il geometra «lì è stretto, ma c'è una curva. Dobbiamo scegliere con attenzione.» Paolo prese appunti. Anna, intanto, si era fermata davanti a un airone grigio che stava immobile nell'acqua. «Signor airone» chiese «dove si passa meglio?» E l'airone, che aveva sentito parlare molte volte di ponti ma nessuno gliene aveva mai chiesto il parere, rispose con una voce calma: «Dove ci sono le pietre piatte, sotto il noce. Io ci passo da cent'anni senza bagnarmi.»\n\nIl geometra non sentì niente, ma misurò dove Anna indicava e scoprì che era davvero il punto migliore. Scrisse la relazione senza nessuna omissione e la inoltrò al comune. Dopo un mese il comune annunciò uno stanziamento, ma era la metà di quello che serviva. Tutti pensarono che il ponte sarebbe rimasto un sogno.\n\nFu allora che si fece avanti la contessa Lidia, una signora di ottant'anni che viveva in una villa sulla collina e non usciva quasi mai. Aveva letto la relazione e sentito parlare dell'airone. Disse che sarebbe stata la finanziatrice del ponte, a una sola condizione: che nessuno lavorasse da solo. Tutto il paese doveva essere collaborativo.\n\nCosì il geometra passò la sera a suddividere il lavoro, e il giorno dopo la squadra era pronta. Suddividendo i compiti, nessuno rimase senza niente da fare. I carpentieri tagliarono le travi, le donne portarono il pranzo, i ragazzi trasportarono le pietre piatte dal fiume, e i vecchi, seduti sulle panche, controllarono che nessuno si dimenticasse niente. Il geometra dovette adeguarsi ai ritmi del paese: cominciava alle sette ma si fermava per il caffè, e la contessa gli dava ragione. Anche i giovani dovettero adeguarsi ai vecchi, che volevano controllare ogni trave.\n\nQuando il ponte fu pronto, la contessa tagliò un nastro rosso e Anna, la sorellina di Paolo, fu la prima a passare. L'airone, sul sasso sotto il noce, piegò il collo in segno di approvazione. Da quel giorno, per andare in piazza, bastano due minuti, e il giro di tre chilometri è diventato una passeggiata per chi ha tempo.\n\nDomande:\nChe cosa divideva il villaggio in due?\nUn torrente, e per andare in piazza bisognava fare un giro di tre chilometri.\nChi suggerì il punto giusto per il ponte?\nAnna, la sorellina di Paolo, che lo aveva sentito da un airone.\nChe cosa fece il geometra con la sua relazione?\nLa scrisse senza omissioni e la inoltrò al comune.\nPerché la contessa Lidia diventò la finanziatrice?\nPerché lo stanziamento era solo la metà di quello che serviva.\nCome fu costruito il ponte?\nIl lavoro fu suddiviso tra tutti gli abitanti, che furono collaborativi."
+    },
+    {
+      "title": "La lepre della luna",
+      "summary": "An Italian girl in Seoul, her South Korean friend and a Thai neighbour compare moon-rabbit stories while cooking together.",
+      "newWords": [
+        "sudcoreano",
+        "tailandese",
+        "curry",
+        "socializzare",
+        "dibattere",
+        "etichettare",
+        "diversificare",
+        "familiarità",
+        "superstizione"
+      ],
+      "text": "Chiara vive a Seul da due anni, perché suo padre lavora per un'azienda italiana. All'inizio non conosceva nessuno, ma a scuola ha imparato a socializzare in fretta: la sua amica sudcoreana Min-ji la invita ogni sabato a casa sua, e il vicino del piano di sopra, il signor Somchai, che è tailandese, la saluta sempre con un sorriso e una piccola frase in italiano. Un sabato di settembre, per la festa della luna piena, Min-ji propone di cucinare tutti insieme.\n\nNella cucina di Min-ji ci sono tre pentole, due mamme che chiacchierano in tre lingue e una lunga tavola piena di barattoli di spezie. Somchai porta un curry verde che ha il profumo del limone. Chiara porta la pasta, perché qualcuno deve pur rappresentare l'Italia. Per socializzare, dice Min-ji, non servono tante parole: basta una pentola. «Dobbiamo etichettare ogni barattolo» dice Min-ji «altrimenti nessuno capisce che cosa mangia.» Chiara ha etichettato tutti i barattoli con una penna blu, e per ogni cibo ha imparato una parola nuova, in coreano o in tailandese.\n\nMentre mescolano, Min-ji racconta che sulla luna, nel suo paese, vive un coniglio che prepara dolci di riso per tutti i bambini. Il signor Somchai sorride. «Anche da noi c'è un coniglio sulla luna» dice, con il suo italiano lento. «Ma il nostro ha dato tutto il suo riso a un viaggiatore affamato, e la luna, per ringraziarlo, lo ha preso con sé.» Chiara resta a bocca aperta. «Allora è lo stesso coniglio?» chiede. «Forse» risponde Somchai. «O forse è la luna che è la stessa.»\n\nI tre cominciano a dibattere con serietà, come fanno i bambini quando il discorso è importante. Min-ji sostiene che il suo coniglio ha più merito, perché lavora tutto il giorno. Chiara dice che il coniglio tailandese è più generoso. Si dibatte a lungo, finché Somchai, che non dà ragione a nessuno, propone di diversificare la cena: un po' di curry, un po' di pasta, un po' di riso dolce. Così la cena si diversifica da sola, e le mamme applaudono. «Se due storie sono vere» dice Somchai «saranno ancora più vere in tavola.»\n\nDopo cena escono sul balcone a guardare la luna. Chiara dice che in Italia, secondo una vecchia superstizione, non si indica la luna con il dito, perché porta sfortuna. Min-ji ride: anche in Corea c'è qualche superstizione, e la più strana è che non si taglia il cibo al buio. Somchai fa di sì con la testa. Le superstizioni, aggiunge, sono come i proverbi: nessuno ci crede davvero, ma tutti li ricordano.\n\nQuando Chiara torna a casa, la strada che all'inizio le sembrava straniera ha ormai una certa familiarità: il negozio all'angolo, il suono dell'ascensore, il profumo del curry nel corridoio. Si accorge che la familiarità non è un luogo, ma qualcuno che ti aspetta con una pentola in mano. In camera apre la finestra. Sulla luna c'è un coniglio, e per una volta sembra uno solo.\n\nDomande:\nDove vive Chiara?\nVive a Seul, perché suo padre lavora per un'azienda italiana.\nChi sono Min-ji e il signor Somchai?\nMin-ji è la sua amica sudcoreana e Somchai è un vicino tailandese.\nChe cosa porta Somchai alla festa?\nPorta un curry verde che ha il profumo del limone.\nChe cosa dicono i tre sulle storie del coniglio?\nChe sono diverse nel racconto, ma forse la luna è la stessa.\nChe cosa capisce Chiara alla fine?\nCapisce che la familiarità è qualcuno che ti aspetta con una pentola in mano."
+    },
+    {
+      "title": "Il pettine della signora del fiume",
+      "summary": "An Italian exchange student in Navarra hears from her host grandmother how a young shepherd returned a golden comb to a river spirit.",
+      "newWords": [
+        "navarro",
+        "asserire",
+        "rinchiudere",
+        "riparlare",
+        "anzitutto",
+        "deliberatamente",
+        "indubbio",
+        "ferrato"
+      ],
+      "text": "Silvia ha quindici anni, viene da Brescia e passa un mese di giugno in un paese navarro, ai piedi dei Pirenei, ospite della famiglia Etxeberria. La nonna di casa, Maite, è una navarra di quelle antiche: parla poco, cucina molto e conosce a memoria tutte le leggende della valle. Anzitutto le ha insegnato a riconoscere il formaggio di pecora giusto, poi a camminare piano nei prati bagnati. Ma la prima sera, davanti al camino, ha promesso a Silvia una cosa più speciale: la storia della lamia del fiume.\n\n«Le lamie» dice Maite «erano donne dei fiumi, con i piedi d'anatra e un pettine d'oro. Di notte sedevano sulle rive e si passavano il pettine tra i capelli lunghi, cantando. Nessuno le aveva mai viste fare del male, ma i vecchi asserivano che bisognava lasciarle in pace.» Silvia, che a scuola è piuttosto ferrata in mitologia, chiede se sono come le sirene dei greci. «Un po' sì» risponde Maite. «Ma le nostre portano le calze di lana.»\n\n«Un giorno di primavera» riprende la nonna «un giovane pastore, Mikel, trovò su un sasso un pettine d'oro. Era indubbio che valesse molto: con quel pettine avrebbe pagato i debiti della famiglia e comprato dieci pecore. Mikel era ferrato in pecore, ma non in tentazioni. Capì anzitutto che il pettine apparteneva a qualcuno, ma l'oro brillava tanto che, per non guardarlo, lo rinchiuse in una cassa, sotto il letto.»\n\n«La notte, mentre dormiva, qualcuno bussò piano alla porta. Era una donna giovane, con i capelli lunghi fino ai piedi e un vestito fatto di foglie bagnate. Non si arrabbiò e non alzò la voce. Disse soltanto che le mancava il suo pettine, e che senza pettine non riusciva più a cantare. Era indubbio che fosse triste. Mikel, che era povero ma onesto, sentì il cuore stringersi. Si mise in ginocchio accanto alla cassa, la aprì, e deliberatamente restituì il pettine alla signora del fiume.»\n\n«Lei se lo passò tra i capelli, una volta sola. Allora il fiume cominciò a ridere. Dalla riva spuntarono canne e rane, e proprio nel pascolo secco di Mikel nacque una sorgente d'acqua limpida, così che da quel giorno non ebbe più sete. La signora gli disse di non rinchiudere mai nulla di ciò che appartiene agli altri, nemmeno per non guardarlo. Poi sparì tra i salici. Mikel, da vecchio, asseriva di non aver mai dormito così bene come quella notte.»\n\nMaite tace e mette un ceppo sul fuoco. «Ne riparleremo domani» dice, con un sorriso «se avrai ancora voglia di ascoltarmi.»\n\nIl giorno dopo, camminando lungo il fiume, Silvia cerca un pettine tra i sassi e non lo trova. Trova però un sasso liscio e tondo, lo mette in tasca e decide di portarselo a Brescia. Poi ci ripensa, lo tira fuori e lo rimette deliberatamente al suo posto, perché le cose del fiume appartengono al fiume. Se un giorno tornerà in Navarra, è sicura che ci sarà ancora qualcuno con cui riparlare di lamie.\n\nDomande:\nChi è Maite?\nÈ una nonna navarra che conosce a memoria le leggende della valle.\nCom'erano le lamie?\nAvevano i piedi d'anatra e un pettine d'oro con cui si passavano tra i capelli di notte.\nChe cosa fece Mikel del pettine?\nLo rinchiuse in una cassa, poi lo restituì deliberatamente alla signora del fiume.\nCome ringraziò la signora il pastore?\nFece nascere nel pascolo secco una sorgente d'acqua limpida.\nChe cosa fa Silvia con il sasso del fiume?\nLo rimette deliberatamente al suo posto, perché appartiene al fiume."
+    },
+    {
+      "title": "Il pallone che sceglieva",
+      "summary": "In Catania an old ball that always rolls towards whoever is left alone brings a courtyard team together.",
+      "newWords": [
+        "centrocampo",
+        "corner",
+        "jolly",
+        "pedina",
+        "blitz",
+        "all'unanimità",
+        "chiamami",
+        "dirtelo",
+        "lasciarli",
+        "discuterne",
+        "alzarmi"
+      ],
+      "text": "Nel cortile di un vecchio palazzo di Catania, il pomeriggio comincia sempre allo stesso modo: Salvo e Rosaria scendono le scale, spingono il portone e cercano qualcuno con cui giocare a pallone. Quel giorno la squadra è incompleta. Mancano tre ragazzi, partiti per il mare, e per giocare una vera partita ne servono almeno otto.\n\n«Chiamami quando ne trovi altri» dice Rosaria, che ha undici anni e i pantaloni sporchi di terra. Salvo, che ne ha dieci, si siede sul bordo della fontana. Sul fondo del cortile, dietro la rimessa, scopre qualcosa di tondo e scuro: un pallone di cuoio, vecchissimo, cucito a mano. Lo tira piano. Il pallone rotola dritto verso Rosaria, che sta ferma vicino al muro, e le si ferma ai piedi.\n\n«Bravo» dice Rosaria. Salvo prova di nuovo, e di nuovo il pallone sceglie lei. Poi rotola fino al piccolo Nino, che guarda gli altri dalla finestra del primo piano, e a Carmela, che ha sempre paura di sbagliare. Ogni volta il pallone va da chi è rimasto isolato. «Non so come dirtelo» dice Salvo «ma questo pallone è strano.»\n\nNonno Turi, che sta giocando a dama sul balcone con una pedina consumata, li sente e scende in cortile con il bastone. «È il pallone di mio fratello» spiega. «Una volta, in questo cortile, nessuno restava solo. Basta lasciarli giocare, senza regole troppo severe, e vedrai che il pallone fa il resto.»\n\nCosì formano due squadre. Rosaria, che sa giocare ovunque, è il jolly: un attimo difende, un attimo corre in avanti, e quando serve ferma tutti a centrocampo per riprendere fiato. Nino batte il primo corner con l'aria di chi tira un rigore al mondiale, e al secondo corner il pallone, invece di finire fuori, curva piano verso Carmela. Per la prima volta lei non ha paura: il pallone arriva con tanta gentilezza che non può sbagliare. Segna, e subito dopo si volta verso Nino. «Volevo dirtelo da giorni» gli grida «grazie di essere sceso!»\n\nQuando la partita finisce, nessuno sa chi ha vinto. Hanno segnato tutti, e quindi non importa. All'ombra del portone, Rosaria dice che vorrebbe discuterne, perché sul punteggio i conti non tornano. «Preferisco discuterne domani» risponde Salvo. «Domani devo alzarmi presto, a scuola c'è un'interrogazione.» «Anch'io devo alzarmi presto» ride Rosaria «ma ne vale la pena.» Allora il nonno li chiama in cucina, dove la mamma di Carmela ha preparato un grande vassoio di bicchieri d'acqua e limone, e i ragazzi fanno un vero blitz: dieci bicchieri svuotati in pochi minuti.\n\nPrima di tornare a casa, si guardano in silenzio. Poi, all'unanimità, decidono che il pallone resterà nel cortile, accanto alla fontana, a disposizione di tutti. «Chiamami quando vuoi giocare» dice Rosaria a Carmela, e Carmela fa di sì con la testa. Nonno Turi guarda i ragazzi e pensa che sia giusto lasciarli soli con il loro pallone. Rimette la pedina in tasca e risale le scale senza dire una parola.\n\nDomande:\nChe cosa cercano Salvo e Rosaria nel cortile?\nCercano altri ragazzi per giocare a pallone.\nDove va il pallone di cuoio?\nRotola sempre verso chi è rimasto isolato.\nChe ruolo ha Rosaria nella partita?\nFa il jolly: difende, corre in avanti e ferma tutti a centrocampo.\nChe cosa fanno i ragazzi dopo la partita?\nFanno un blitz in cucina e bevono dieci bicchieri d'acqua e limone.\nChe cosa decidono all'unanimità?\nDecidono che il pallone resterà nel cortile a disposizione di tutti."
+    },
+    {
+      "title": "Il re che voleva tassare il vento",
+      "summary": "A mountain king short of money wants to tax the wind, and a shepherd girl shows him a kinder way.",
+      "newWords": [
+        "tassare",
+        "liquidità",
+        "contenimento",
+        "anzianità",
+        "compatibilità",
+        "vescovile",
+        "appennino",
+        "ingerenza",
+        "opprimere"
+      ],
+      "text": "Tanto tempo fa, sui monti dell'Appennino, c'era un piccolo regno con un re gentile, che si chiamava Gelasio. Quell'anno l'inverno era stato lungo, il grano era poco e nelle casse del castello la liquidità mancava. I consiglieri si riunirono in sala e il ministro più vecchio, che parlava per primo per diritto di anzianità, disse: «Maestà, dobbiamo tassare il pane, i pozzi e le porte delle case.»\n\nIl re scosse la testa. Non voleva opprimere nessuno, e meno di tutti i suoi sudditi, che avevano già tanto freddo. «Un regno si regge sul contenimento delle spese» disse piano «non sulle tasse nuove.» Ma i consiglieri insistevano, e un altro ministro, che parlava sempre di compatibilità dei conti, riempì tre pagine di numeri. Il re, per non litigare, uscì sul balcone a pensare. Il vento d'Appennino soffiava così forte che gli prese il mantello e glielo lanciò sulla testa. «Ecco» disse Gelasio, tra le pieghe «uno che non ha mai pagato niente. Tassiamo lui!»\n\nI consiglieri, increduli, scoppiarono a ridere. Ma il re parlava sul serio, e la voce corse per tutte le valli. Una pastora di nome Ines, che portava le pecore sui pascoli alti, sentì la notizia mentre era al pascolo. Prese il suo bastone, scese a valle e si fece annunciare al castello. «Maestà» disse «se vuole tassare il vento, devo prima parlare con il vento.»\n\nIl re la seguì in cima al colle, dove l'aria era più pulita. Ines gridò: «Vento! Il re ha bisogno di liquidità!» Il vento, che era un ragazzo allegro, rispose con un fischio: «Non ho monete, ma ho forza da vendere. Soltanto, non tollero nessuna ingerenza, né nel mio cammino né nel mio umore.» Ines guardò il vento, poi guardò il re. «E se ti proponessimo un lavoro? Non ti tassiamo, ti assumiamo.»\n\nIl giorno dopo il re fece costruire sul colle una grande ruota di legno, e poi un'altra, e un'altra ancora. Il vento le faceva girare, e le ruote trasformavano il grano di tutta la valle in farina, senza che nessuno dovesse portare l'acqua. Per conservare la farina, il re usò l'antico palazzo vescovile, vuoto da anni: sotto le sue volte l'aria era asciutta e sicura. Un ingegnere venuto da lontano disse che la compatibilità tra il vento e la montagna era perfetta, e che bastava rispettare le stagioni. Il palazzo vescovile, aggiunse, non era mai stato così utile.\n\nIn poco tempo le casse si riempirono, senza tasse nuove, e tutti poterono avere il pane a metà prezzo. Il vento non fu mai tassato, ma ogni anno, per il suo compleanno, il re faceva salire in cima al colle una focaccia calda, e il vento sentiva il profumo e rideva. I ministri, per la prima volta, parlarono di contenimento delle spese senza litigare, e il più vecchio, per anzianità, ebbe il posto più vicino al fuoco. Ines ricevette un titolo che nessuno aveva mai sentito: ministra del vento.\n\nDomande:\nPerché il regno aveva bisogno di soldi?\nPerché l'inverno era stato lungo e nelle casse c'era poca liquidità.\nChe cosa proponeva il ministro più vecchio?\nProponeva di tassare il pane, i pozzi e le porte delle case.\nPerché il re non voleva le nuove tasse?\nPerché non voleva opprimere i sudditi, già stanchi per il freddo.\nChe cosa disse il vento a Ines?\nDisse che non aveva monete, ma tanta forza, e che non tollerava ingerenze.\nCome finì la storia?\nIl vento fece girare le ruote che trasformavano il grano in farina, e Ines divenne ministra del vento."
+    },
+    {
+      "title": "Il dottor Gufo",
+      "summary": "A sociologist on holiday in a Ticino valley meets a village owl who treats the miller's aching back with gentle methods.",
+      "newWords": [
+        "ernia",
+        "diagnostico",
+        "invasivo",
+        "sociologo",
+        "anidride",
+        "metropolitano",
+        "rilassarsi",
+        "tantino"
+      ],
+      "text": "Marco è un sociologo di Zurigo e passa ogni estate una settimana in Val Verzasca, nel Canton Ticino, a studiare come vive la gente delle valli. Quest'anno ha preso una stanza sopra il mulino di Ottavio, un uomo grande e silenzioso che cammina con la mano sulla schiena. Marco, abituato allo stile di vita metropolitano dei treni e dei semafori, impiega un paio di giorni a capire che il vero centro del villaggio non è il bar, ma la grande quercia dietro il mulino.\n\nSul ramo più basso della quercia abita un gufo. Gli abitanti lo chiamano il dottore e lo consultano per tutto: i raffreddori, i dolori di stomaco, il vitello che non mangia. Nessuno ricorda chi gli abbia dato la laurea, ma nessuno ha mai pensato di chiederlo. Marco, sociologo scettico, annota sul quaderno: «Fiducia collettiva in una figura non ufficiale».\n\nUna mattina Ottavio esce dal mulino piegato in due. Soffre di un'ernia che lo tormenta da mesi, ma ha sempre rimandato la visita perché non vuole andare in città, dove tutto è metropolitano e di corsa. La moglie lo prende per un braccio e lo porta sotto la quercia, e Marco li segue con il quaderno. Il gufo apre un occhio, poi l'altro. «Ottavio» dice, con una voce di campana piccola «vieni più vicino e respira piano.»\n\nPer il suo esame diagnostico non usa strumenti: ascolta il respiro dell'uomo, guarda come tiene le spalle e posa un'ala leggera sulla sua schiena. Non è un metodo invasivo, e Ottavio si sente subito più tranquillo. «È un'ernia piccola» dichiara il gufo «e molto ostinata, perché hai sollevato troppi sacchi. Il tuo corpo mi dice una cosa sola.» «Quale?» chiede Ottavio. «Rilassatevi un po', tu e tua moglie.» Poi prescrive tre rimedi: sacchi più piccoli, un tantino di miele ogni sera e mezz'ora di riposo sotto la quercia, a respirare.\n\nMarco, che non resiste, chiede perché proprio sotto la quercia. «Perché le piante lavorano per noi» risponde il gufo. «Prendono l'anidride carbonica che noi buttiamo fuori e ci restituiscono aria pulita. In un bosco si respira meglio per questo, e anche chi non ci crede si sente meglio.» Poi lo guarda con uno sguardo molto acuto. «Tu invece, sociologo, respiri come un uomo che ha sempre fretta. Anche il mio metodo diagnostico vale per te, e senza nessun trattamento invasivo: rilassiamoci tutti.»\n\nMarco sorride, ma la sera, sulla panca del mulino, per la prima volta posa il quaderno. Ottavio gli porge una fetta di pane con un tantino di miele. In quella pace i due uomini parlano di niente: del fiume, del sacco più piccolo, della farina di mais. In capo a una settimana l'ernia di Ottavio è quasi un ricordo, e Marco scrive sul quaderno: «Il villaggio non ha bisogno di tante cure. Ha bisogno di tempo per rilassarsi».\n\nDomande:\nChi è Marco?\nÈ un sociologo di Zurigo che passa l'estate in Val Verzasca.\nChi è il dottore del villaggio?\nÈ un gufo che vive sul ramo più basso della quercia.\nDi che cosa soffre Ottavio?\nSoffre di un'ernia che lo tormenta da mesi.\nCome visita il gufo l'uomo del mulino?\nLo ascolta e posa un'ala leggera sulla sua schiena, con un metodo per niente invasivo.\nPerché si respira meglio nel bosco?\nPerché le piante prendono l'anidride carbonica e restituiscono aria pulita."
+    },
+    {
+      "title": "Il poeta e la medusa",
+      "summary": "On a Sardinian island an old poet, tired of his own dull verses, learns rhythm from a glowing jellyfish.",
+      "newWords": [
+        "medusa",
+        "metrica",
+        "vocabolo",
+        "ritornello",
+        "sfogliare",
+        "rosicare",
+        "monotono",
+        "gesta"
+      ],
+      "text": "Sull'isola della Maddalena, in Sardegna, vive un poeta di nome Efisio, che ha 78 anni e scrive versi dalla mattina alla sera. Scrive di pescatori, di barche e di antiche gesta di marinai che nessuno ricorda più. Sua nipote Giulia, che ha dieci anni, gli porta ogni pomeriggio un panino e un po' d'aria fresca, perché lui altrimenti dimentica di mangiare e di respirare.\n\nUn giorno Efisio le mostra un quaderno con la copertina blu. «Ho scritto trecento pagine» dice «e non mi piace nemmeno una riga.» Giulia lo apre e lo sfoglia. Le poesie sono perfette per la metrica: undici sillabe, sempre uguali, una dopo l'altra, come le onde di un mare morto. Dopo cinque pagine, Giulia si annoia. «Nonno, questa roba è monotona» dice, con la sincerità dei bambini. «È come contare le pecore.»\n\nEfisio non si offende. Si siede sulla panchina e guarda il mare. «Il guaio è il vocabolo» dice piano. «Mi manca sempre il vocabolo giusto, quello che suona come il mare.» Giulia non risponde, ma il giorno dopo lo prende per mano e lo porta alla caletta dietro il faro, quando il sole sta per scendere.\n\nNell'acqua trasparente c'è una medusa, grande come un piatto, e brilla di una luce lieve, azzurra e rosa. Non fa male, non fa rumore: si apre e si chiude, si apre e si chiude. Efisio la guarda a lungo. «Ascolta» dice a Giulia «ha un battito.» Davvero, la medusa si muove con un ritmo che non è mai uguale: due battiti brevi, uno lungo, una pausa. «Questa» dice Efisio «è la metrica del mare.»\n\nTorna a casa, apre il quaderno e comincia a scrivere in un modo nuovo. I versi non hanno più undici sillabe fisse, ma si fanno più corti e più lunghi, come i battiti della medusa. Ogni sera aggiunge un ritornello di tre parole, che torna a intervalli diversi: «luce, mare, ritorno». Giulia lo ascolta leggere e, per la prima volta, non si annoia. Il ritornello, dice, è come il rumore dell'acqua sugli scogli: ogni volta uguale, e ogni volta diverso.\n\nUna notte un topolino entra nello studio e comincia a rosicare le pagine più vecchie. Il mattino dopo Efisio trova i fogli bucati. Giulia lo aspetta con le mani sui fianchi. «Nonno, non arrabbiarti. Guarda quali pagine ha rosicato.» Efisio sfoglia il quaderno. Il topolino ha mangiato soltanto le poesie più monotone, e ha lasciato intatte quelle nuove. Il poeta ride fino alle lacrime e mette un pezzo di formaggio sulla finestra.\n\nAlla fine dell'estate Efisio pubblica una piccola raccolta e la dedica alla medusa. Tutti i vecchi pescatori dell'isola vengono a comprarla. Dicono che, a leggere quelle poesie, sembra di sentire il battito del mare. Giulia dice che, in fondo, il merito è del topo.\n\nDomande:\nChe cosa scrive Efisio?\nScrive versi su pescatori, barche e antiche gesta di marinai.\nPerché le poesie del quaderno annoiano Giulia?\nPerché sono monotone, tutte con undici sillabe sempre uguali.\nChe cosa scopre Efisio alla caletta?\nScopre una medusa che brilla e si muove con un ritmo sempre diverso.\nChe cosa fa il topolino?\nComincia a rosicare i fogli, ma soltanto le poesie più monotone.\nChe cosa fa il poeta alla fine dell'estate?\nPubblica una piccola raccolta e la dedica alla medusa."
+    }
+  ]
+}
