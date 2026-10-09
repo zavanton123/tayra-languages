@@ -1,0 +1,227 @@
+{
+  "id": "it-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Scienza e tecnica",
+  "description": "Ten short stories about science and technology in everyday life across Italy, Ticino and San Marino: a parcel tracked by app, a school air-quality project, stars above Etna, solar panels on a farm, kitchen chemistry, an electric ferry, a restored statue, a hearing aid, digital paperwork and a school robotics cup.",
+  "topic": "Science and technology",
+  "names": [
+    "Enza",
+    "Napoli",
+    "Piazza Dante",
+    "Pasquale",
+    "Greco",
+    "Matteo",
+    "Sara",
+    "Torino",
+    "Ferrero",
+    "Villa",
+    "Giulia",
+    "Catania",
+    "Etna",
+    "Sicilia",
+    "Concetta",
+    "Saturno",
+    "Donato",
+    "Puglia",
+    "Bari",
+    "Michele",
+    "Irene",
+    "Tommaso",
+    "Aldo",
+    "Bologna",
+    "Renato",
+    "Garda",
+    "Desenzano",
+    "Riva",
+    "Lucia",
+    "Beatrice",
+    "Carlo",
+    "Firenze",
+    "Boboli",
+    "Remo",
+    "Lugano",
+    "Ticino",
+    "Elisa",
+    "Bernasconi",
+    "Luca",
+    "Chiara",
+    "Trento",
+    "Brescia",
+    "Moretti",
+    "Jacopo",
+    "San Marino",
+    "Rimini",
+    "Marcello",
+    "Londra",
+    "Emma"
+  ],
+  "lessons": [
+    {
+      "title": "La consegna sospesa",
+      "summary": "Enza follows a computer she ordered for her father; the app suspends the delivery until she fixes a small problem.",
+      "newWords": [
+        "consegna",
+        "sospeso",
+        "automatico",
+        "completare",
+        "giovedì",
+        "recentemente",
+        "chiarire",
+        "scattare",
+        "velocemente",
+        "rapidamente",
+        "certezza"
+      ],
+      "text": "Enza vive a Napoli, vicino a Piazza Dante. Per il compleanno di suo padre ha ordinato su internet un computer piccolo e leggero, perché lui vuole vedere ogni giorno le foto dei nipoti. Il negozio le ha scritto che la consegna sarebbe arrivata giovedì.\n\nEnza ha guardato l'applicazione del negozio molte volte. Il sistema automatico mandava un messaggio a ogni passaggio della scatola, e lei li leggeva tutti. Quei messaggi erano scritti da una macchina: ogni risposta era automatica. Giovedì mattina la scatola era già a Napoli, e Enza pensava: «Arriverà prima di pranzo.»\n\nAlle 10, però, è arrivato un nuovo messaggio: «Consegna sospesa.» Enza non ha capito il motivo. Aveva completato con cura tutti i dati: l'indirizzo, il piano, il numero di telefono. Non c'era niente da completare. Allora ha chiamato il servizio di consegna, e un uomo di nome Pasquale le ha risposto con pazienza.\n\n«Adesso Le chiarisco tutto», ha detto Pasquale. «Il nostro uomo ha scattato una foto della porta, come fa sempre, ma sulla cassetta della posta non c'è il Suo nome. Il sistema non ha trovato il cognome e ha sospeso la consegna.»\n\nEnza si è ricordata. «È vero! Ho cambiato casa recentemente e non ho ancora scritto il nome. Se lo avessi fatto prima, la consegna non sarebbe stata sospesa, vero?»\n\n«Esatto, ma non è un problema grave», ha risposto Pasquale. «Succede spesso a chi si è trasferito recentemente. Scriva il nome su un biglietto e ci mandi una foto con l'applicazione. Così la consegna continua.»\n\nEnza è scesa velocemente per le scale. Ha scritto «Greco» su un biglietto, lo ha messo sulla cassetta, ha scattato una foto e l'ha mandata velocemente. Dopo pochi secondi è arrivato un messaggio: «Consegna di nuovo attiva.»\n\n«Non ho la certezza che arrivi oggi», ha detto Pasquale al telefono. «Ma una certezza c'è: di solito, dopo una foto così, la scatola arriva rapidamente, in due o tre ore.» Poi ha chiarito: «Per completare la consegna, una persona deve essere in casa.» Enza ha risposto: «Ci sono, aspetto.» Alle 14 qualcuno ha suonato alla porta.\n\nSabato il padre ha aperto il regalo e Enza gli ha mostrato come vedere le foto dei nipoti. «Se tu non avessi chiamato quel signore, oggi non avrei il computer», ha detto lui ridendo. «Hai ragione», ha risposto lei. «Adesso sulla cassetta c'è il mio nome, e la prossima scatola arriverà rapidamente.»\n\nDomande:\nPerché Enza ha ordinato un computer?\nLo ha ordinato per il compleanno di suo padre, che vuole vedere le foto dei nipoti.\nPerché il sistema ha sospeso la consegna?\nPerché sulla cassetta della posta non c'era il nome di Enza.\nChe cosa ha fatto Enza per risolvere il problema?\nHa scritto il nome su un biglietto, ha scattato una foto e l'ha mandata con l'applicazione.\nQuando è arrivata la scatola?\nÈ arrivata giovedì alle 14.\nChe cosa ha detto il padre sabato?\nHa detto che, senza la chiamata, oggi non avrebbe il computer."
+    },
+    {
+      "title": "Il progetto dell'aria",
+      "summary": "Two teenagers in Turin build a small instrument to check the quality of the air, hoping to be chosen for the city science fair.",
+      "newWords": [
+        "secondario",
+        "selezione",
+        "curiosità",
+        "sognare",
+        "fantasia",
+        "disegnare",
+        "ispirato",
+        "analizzare",
+        "indice",
+        "accademico",
+        "approfondire"
+      ],
+      "text": "Matteo e Sara hanno 16 anni e vanno in una scuola secondaria di Torino. Ogni anno la città organizza una fiera della scienza, ma i progetti devono passare una selezione: una commissione ne sceglie 10 su più di 50.\n\nMatteo ha molta curiosità. Da bambino sognava di costruire una macchina che parla, e oggi sogna di diventare ingegnere. Sara, invece, ha molta fantasia e disegna benissimo. Quando la professoressa di fisica, la signora Ferrero, ha parlato della selezione, i due amici hanno avuto la stessa idea: controllare la qualità dell'aria del loro quartiere con uno strumento piccolo ed economico. Matteo era ispirato da un film sulle città, e Sara, ispirata dallo stesso film, ha detto subito di sì.\n\nSara ha disegnato lo strumento sul computer e Matteo lo ha costruito. Per tre settimane hanno analizzato i dati: ogni ora lo strumento dava un numero, e loro lo scrivevano in una lista. «Se avessimo più strumenti, potremmo confrontare più strade», ha detto Matteo. «Ma anche con uno solo possiamo già capire qualcosa.»\n\nAnalizzando i numeri, hanno visto che i più alti erano sempre alle 8 del mattino, quando le macchine portano i ragazzi a scuola. Così i due amici hanno scelto un indice per ogni ora del giorno: un numero semplice, da 1 a 10, che chiunque può capire. Lo hanno chiamato «indice dell'aria».\n\nPrima della selezione, la professoressa ha chiesto a un professore dell'Università di leggere la relazione. Il professore Villa lavora all'Università da molti anni e ha scritto libri accademici, ma ha risposto con parole semplici, senza il linguaggio accademico di certi libri: «Il lavoro è buono, però dovete approfondire una cosa. Perché il venerdì l'indice dell'aria sale?» E ha aggiunto: «La scienza ha bisogno di curiosità e di fantasia. Voi ne avete molta.»\n\nSara e Matteo non lo sapevano. Il venerdì dopo sono andati davanti alla scuola e hanno guardato la strada. Sara ha capito subito: «Il venerdì c'è il mercato, e arrivano molti camion!» I due amici hanno approfondito il tema e hanno aggiunto i nuovi dati alla relazione, senza che nessuno lo chiedesse.\n\nBenché avessero uno strumento solo, la commissione ha scelto il loro progetto. Il giorno della fiera, davanti ai visitatori, i due ragazzi della scuola secondaria hanno raccontato il progetto. Poi Sara ha detto: «Quando sognavo questo momento, non pensavo che sarebbe stato così bello.» Matteo ha sorriso: «E domani cominciamo il progetto nuovo.»\n\nDomande:\nChe cosa controlla lo strumento di Matteo e Sara?\nControlla la qualità dell'aria del loro quartiere.\nChi ha disegnato lo strumento e chi lo ha costruito?\nSara lo ha disegnato e Matteo lo ha costruito.\nChe cos'è l'indice dell'aria?\nÈ un numero semplice, da 1 a 10, per ogni ora del giorno.\nChe cosa ha chiesto il professore Villa?\nHa chiesto perché il venerdì l'indice dell'aria sale.\nPerché il venerdì l'aria è peggiore?\nPerché davanti alla scuola c'è il mercato e arrivano molti camion."
+    },
+    {
+      "title": "Una notte sull'Etna",
+      "summary": "A father writes in his diary about a night with his daughter at the observatory on Mount Etna.",
+      "newWords": [
+        "cima",
+        "ombra",
+        "universale",
+        "flusso",
+        "paradiso",
+        "miracolo",
+        "siciliano",
+        "originario",
+        "turista",
+        "turistico",
+        "contrasto"
+      ],
+      "text": "Catania, 12 agosto. Io e mia figlia Giulia, che ha 12 anni, siamo in Sicilia per una settimana. Siamo due turisti come tanti: abbiamo visto il mare, il mercato del pesce e il centro storico. Ma ieri Giulia ha trovato una visita speciale, di notte, all'osservatorio sull'Etna. Ho prenotato subito due posti.\n\nAlle 20 siamo saliti in macchina, su per la montagna. Ad agosto è la stagione turistica, e di giorno quella è una strada molto turistica, piena di turisti, di bar e di negozi di ricordi; c'è un flusso continuo di macchine. Di notte, invece, non c'era nessuno. La guida si chiama Concetta ed è originaria di un paese vicino a Catania. Ci aspettava davanti all'osservatorio e parla con un forte accento siciliano, ma si capisce benissimo.\n\nEravamo quasi sulla cima della montagna, e il contrasto con il caldo della città era forte: giù c'erano 32 gradi, qui solo 12. Giulia ha messo la giacca e ha guardato il cielo. Non ha detto niente per un minuto intero. Poi ha detto: «Papà, ci sono più stelle che nero!»\n\nConcetta ci ha spiegato che qui l'aria è pulita e non c'è molta luce delle città. Per questo il cielo è così bello. «Per chi studia le stelle questo posto è un paradiso», ha detto. Giulia ha risposto: «Per me è un paradiso!» Con un grande telescopio, Concetta ci ha fatto vedere Saturno e i suoi anelli. Giulia ha guardato per molto tempo.\n\n«La luce che vedi è partita da lì molto tempo fa», ha detto Concetta, «e arriva fino a noi come un flusso continuo. Guardare le stelle è una cosa universale: lo fanno tutte le persone, in ogni paese. Il cielo parla una lingua universale.» Poi ci ha offerto un dolce siciliano.\n\nDopo mezzanotte siamo usciti a piedi. Un'ombra grande camminava accanto a noi: era la nostra ombra, fatta dalla luce della luna che saliva dietro la montagna. Concetta ha detto che, quando la luna è piena, si vedono meno stelle. Giulia ha riso: «Allora la luna è una luce troppo forte!»\n\nAlla fine abbiamo visto una stella cadente. Giulia ha chiuso gli occhi per esprimere un desiderio. «Per me è quasi un miracolo», ha detto. «Non pensavo di vederne una vera.» Anch'io ero senza parole. Sulla cima della montagna c'era un silenzio perfetto.\n\nTornando verso Catania, Giulia dormiva già con la testa contro il finestrino. Io ho guardato ancora il cielo. Domani il programma è il mare, ma questa notte, lo so già, la ricorderemo per tutta la vita.\n\nDomande:\nDa dove viene la guida Concetta?\nÈ originaria di un paese vicino a Catania.\nPerché il contrasto con la città è forte?\nPerché giù ci sono 32 gradi e sulla montagna solo 12.\nPerché sull'Etna il cielo è così bello?\nPerché l'aria è pulita e non c'è molta luce delle città.\nChe cosa hanno visto con il grande telescopio?\nHanno visto Saturno e i suoi anelli.\nChe cosa ha detto Giulia della stella cadente?\nHa detto che per lei era quasi un miracolo."
+    },
+    {
+      "title": "I pannelli sul tetto",
+      "summary": "A farmer in Puglia puts solar panels on the roof of his farmhouse with the help of a few workers.",
+      "newWords": [
+        "contadino",
+        "operaio",
+        "impiego",
+        "concessione",
+        "sconto",
+        "riparare",
+        "estivo",
+        "annuale",
+        "foglia",
+        "fiore"
+      ],
+      "text": "Donato è un contadino della Puglia. Ha un campo con molti alberi vicino a Bari e una grande casa di campagna con un tetto largo. Da molti anni paga un conto della luce molto alto, perché le pompe dell'acqua lavorano tutto il giorno. Una mattina di primavera, davanti al primo fiore bianco di un albero, ha pensato: «Qui il sole c'è quasi sempre. Perché non lo uso per fare la corrente?»\n\nHa parlato con un'azienda della zona. Un tecnico gli ha spiegato che l'impiego dell'energia solare costa poco, ma per mettere i pannelli sul tetto serve una concessione del Comune. Donato ha scritto la richiesta e, dopo un mese, la concessione è arrivata. L'azienda gli ha fatto anche uno sconto, perché i pannelli erano di un modello dell'anno scorso.\n\nLa settimana dopo sono arrivati tre operai. Il più giovane si chiama Michele, ha un impiego fisso nell'azienda da due anni ed è figlio di un contadino anche lui. Hanno lavorato due giorni, con molta attenzione. Alla fine hanno acceso il sistema. «Adesso il sole lavora per Lei», ha detto Michele.\n\nA luglio, sotto il sole estivo, i pannelli hanno prodotto più energia del previsto. Le pompe dell'acqua funzionavano senza costi, e Donato guardava ogni sera il numero sullo schermo in cucina. Il sole estivo, per i campi, a volte è un nemico; per i pannelli è sempre un amico.\n\nA settembre, però, un pannello si è fermato. Donato ha chiamato Michele, che è tornato con un collega. «C'è un cavo rotto», ha detto Michele. «Lo riparo subito.» Dopo un'ora il pannello funzionava di nuovo. Poi ha dato un consiglio: «A ottobre cadono le foglie degli alberi. Se una foglia si mette sul pannello, il pannello prende meno luce. Dopo il vento, guardi sempre il tetto.»\n\nDonato ha seguito il consiglio. C'è anche il controllo annuale: un tecnico guarda ogni pannello e scrive una breve relazione annuale. Per i clienti dell'azienda c'è uno sconto, e così il controllo costa poco. Il primo anno il conto della luce è sceso quasi a metà. Con i soldi risparmiati, Donato ha comprato una nuova macchina per il campo.\n\nAdesso, ogni primavera, davanti al fiore dell'albero, Donato guarda il tetto e sorride. «Il contadino di oggi non è molto diverso da quello di una volta», dice ai suoi figli. «Cerca di usare bene quello che gli danno la terra e il cielo.»\n\nDomande:\nPerché Donato paga un conto della luce molto alto?\nPerché le pompe dell'acqua lavorano tutto il giorno.\nChe cosa serve per mettere i pannelli sul tetto?\nServe una concessione del Comune.\nChi ha messo i pannelli sul tetto?\nTre operai, tra cui il giovane Michele.\nChe cosa ha riparato Michele a settembre?\nHa riparato un cavo rotto.\nChe cosa succede ai pannelli in ottobre?\nLe foglie cadono dagli alberi e tolgono luce ai pannelli."
+    },
+    {
+      "title": "Lo zucchero del nonno",
+      "summary": "Two siblings in Bologna use a kitchen scale and a few bottles to show their grandfather how much sugar is in his drinks.",
+      "newWords": [
+        "zucchero",
+        "bruno",
+        "bottiglia",
+        "dieta",
+        "difetto",
+        "misto",
+        "lavare",
+        "abitudine",
+        "pratico",
+        "degno"
+      ],
+      "text": "Irene e suo fratello Tommaso passano il sabato dal nonno Aldo, a Bologna. Il nonno ha 70 anni e da qualche mese segue una dieta con poco zucchero, perché il medico gli ha detto di mangiare meglio. Per pranzo prepara sempre un piatto di verdure miste e un po' di pane. Ma la dieta non è facile, perché il nonno ha l'abitudine di bere un caffè dopo l'altro, sempre con un po' di zucchero bruno.\n\n«Il nonno dice che lo zucchero bruno fa meno male di quello bianco», dice Tommaso. «Ma è vero?» Irene ha un'idea: «Facciamo una prova. Così lo vediamo con i nostri occhi.»\n\nPrima di cominciare, lavano tre bottiglie di vetro e le riempiono con la stessa quantità di acqua. Nella prima bottiglia Irene mette 100 grammi di zucchero bianco, nella seconda 100 grammi di zucchero bruno, nella terza niente. Il nonno guarda con curiosità. «Che cosa fate?» chiede. «Aspetta e vedrai!» risponde Irene.\n\nPoi i ragazzi mettono le bottiglie, una dopo l'altra, sulla bilancia della cucina. La bottiglia con lo zucchero bianco ha un peso di 760 grammi, quella con lo zucchero bruno di 758. La bottiglia con l'acqua e basta ha un peso molto minore. «I due zuccheri hanno quasi lo stesso peso», spiega Tommaso. «Quindi, per la dieta, non c'è differenza.»\n\nIl nonno si ferma a pensare. «Va bene», dice, «ma nel mio caffè ce n'è poco.» Irene prende dall'armadio la bottiglia del succo di frutta che il nonno beve ogni mattina. Legge l'etichetta e sorride. «Nonno, in questa bottiglia ci sono 12 pezzi di zucchero!» Il nonno resta in silenzio. «12?» ripete.\n\n«Ecco il difetto della nostra prova», dice Tommaso. «Con la bilancia non possiamo controllare ogni bevanda, e lo zucchero nel succo non si vede.» «E allora?» chiede il nonno. «Allora il modo più pratico per sapere la verità è l'etichetta», risponde Irene. «Un modo semplice e pratico: basta leggerla prima di comprare.»\n\nIl nonno scrive su un biglietto: «Prima di comprare, leggo l'etichetta.» Poi sorride: «La mia spesa aveva un difetto: non leggevo mai le etichette! Una lezione così è degna di un professore, e due nipoti così sono degni di un bel dolce... con poco zucchero!»\n\nI ragazzi lavano le bottiglie e preparano il pranzo con il nonno. Mentre mangiano le verdure miste, Aldo dice: «Da oggi, dieta e caffè senza zucchero.» Dopo qualche settimana, il nonno non ha più bisogno dello zucchero bruno. È diventata una nuova abitudine, e Irene e Tommaso ne sono molto contenti.\n\nDomande:\nPerché il nonno segue una dieta con poco zucchero?\nPerché il medico gli ha detto di mangiare meglio.\nChe cosa mettono nelle bottiglie Irene e Tommaso?\nMettono acqua e zucchero bianco, acqua e zucchero bruno, e acqua e basta.\nChe cosa scoprono con la bilancia?\nScoprono che lo zucchero bruno e quello bianco hanno quasi lo stesso peso.\nChe cosa c'è scritto sull'etichetta del succo di frutta?\nC'è scritto che nella bottiglia ci sono 12 pezzi di zucchero.\nChe cosa decide il nonno?\nDecide di leggere sempre l'etichetta prima di comprare."
+    },
+    {
+      "title": "La barca che non fa rumore",
+      "summary": "A small boat company on Lake Garda tests its first electric boat before a new law comes into force.",
+      "newWords": [
+        "barca",
+        "pilota",
+        "uccello",
+        "fumo",
+        "fumare",
+        "dirigere",
+        "promettere",
+        "vigore",
+        "realmente",
+        "personalmente"
+      ],
+      "text": "Renato dirige una piccola compagnia di barche sul lago di Garda. Da 30 anni le sue barche portano turisti e abitanti da Desenzano a Riva. Sono barche belle, ma vecchie: il motore fa molto rumore e, quando parte, fuma. Dietro la barca resta sempre un po' di fumo nero.\n\nQuest'anno entra in vigore una nuova legge: dal prossimo anno, sul lago potranno andare solo barche con un motore elettrico. Renato ha promesso ai suoi uomini che avrebbe trovato una soluzione prima che la legge entrasse in vigore. Dopo molti mesi di lavoro, la compagnia ha comprato la prima barca elettrica. Lucia, la pilota più giovane, ha già fatto le prime prove.\n\nLa mattina della prova più importante, Renato è arrivato al porto prima di tutti. La barca nuova era bianca e piccola, e non faceva rumore. «Non sembra realmente una barca», ha detto Renato. «Sembra una grande bicicletta!» Lucia ha riso: «Venga a vedere, direttore. Voglio che la provi personalmente.»\n\nSono usciti dal porto in silenzio. Sul lago non c'era vento. Renato ha notato una cosa strana: per la prima volta riusciva a sentire gli uccelli. Un grande uccello bianco volava basso sull'acqua, a pochi metri. Prima di quel giorno nessun uccello si avvicinava alle vecchie barche, perché il rumore faceva loro paura.\n\n«Non c'è più fumo», ha osservato Lucia. «E i passeggeri possono parlare come sempre, senza alzare la voce.» Renato ha guardato dietro la barca e ha pensato a suo nonno, che era pilota di una barca a motore. «Mio nonno diceva che una barca vera deve fumare un po'», ha detto con un sorriso. «Ma oggi direbbe il contrario. Se vedesse questa barca, forse non ci crederebbe.»\n\nLa barca si è diretta verso Riva, e Lucia ha fatto un lungo giro. «È realmente così silenziosa?» ha chiesto Renato quando sono tornati. «Sì, ma c'è un problema», ha risposto lei. «La batteria dura solo quattro ore. Per un giorno intero ne servono due.» «Allora ne comprerò un'altra», ha detto lui. «Prometto che entro l'estate avremo tre barche elettriche.»\n\nAl porto, Renato ha riunito la squadra. «La barca è bella e funziona», ha detto. «Ma dobbiamo promettere una cosa ai nostri clienti: ogni anno una barca vecchia lascerà il posto a una barca elettrica. Voglio spiegarlo personalmente a tutti.» Lucia ha aggiunto: «Prometto che sarò la prima pilota a provarle tutte.»\n\nIl giorno dopo, alle 10, c'erano già venti persone al porto. Quando la barca è partita, un uccello bianco l'ha seguita per un lungo tratto.\n\nDomande:\nChe cosa dirige Renato?\nDirige una piccola compagnia di barche sul lago di Garda.\nPerché le vecchie barche fumano?\nPerché hanno vecchi motori che fanno rumore e fumo nero.\nChe cosa dice la nuova legge?\nDice che dal prossimo anno sul lago potranno andare solo barche con motore elettrico.\nChe cosa nota Renato durante la prova?\nNota che riesce a sentire gli uccelli.\nChe cosa promette Renato ai clienti?\nPromette che ogni anno una barca vecchia lascerà il posto a una barca elettrica."
+    },
+    {
+      "title": "La mano della statua",
+      "summary": "In Florence a museum worker and an architecture student rebuild the missing hand of a garden statue with a scanner and a 3D printer.",
+      "newWords": [
+        "statua",
+        "ricostruzione",
+        "ritrovato",
+        "architettura",
+        "trasformazione",
+        "supremo",
+        "sfuggire",
+        "segnato",
+        "intento",
+        "fallito"
+      ],
+      "text": "Nel giardino di Boboli, a Firenze, c'è una statua molto antica che ha perso la mano destra. Nessuno sa quando sia successo. Beatrice lavora al museo, e Carlo, uno studente di architettura, la aiuta per un mese. Il loro compito è la ricostruzione della mano: la faranno al computer e poi la costruiranno con una stampante speciale, con l'intento di metterla di nuovo al suo posto.\n\nCarlo ama l'architettura dei giardini antichi e sa che ogni giardino cambia con il tempo: è una storia di trasformazioni. «Il nostro intento non è fare una statua nuova», dice a Beatrice. «Vogliamo solo completare quella che c'è.»\n\nIl primo passo è guardare la statua con una macchina speciale. Sul computer appare una copia perfetta, fatta di piccoli punti. «La macchina ci dà la forma esatta del braccio», spiega Beatrice. «Ma per la mano servono altre informazioni.»\n\nNell'archivio del museo, Carlo trova una vecchia fotografia del 1920. Nella foto la statua ha ancora la mano. Sul dito più lungo c'è un piccolo segno nero. «Ecco!» dice Beatrice. «Questa cosa era sfuggita a tutti.» Il giorno dopo, in una cassa del museo Carlo ritrova un piccolo pezzo di pietra con la forma di un dito. È un dito ritrovato dopo cento anni!\n\nIl primo tentativo è fallito. Carlo ha costruito una mano al computer, ma le dita erano troppo lunghe e il risultato non sembrava vero. Beatrice ha segnato in rosso gli errori più grandi sulla copia di carta. «Un tentativo fallito non è una brutta cosa: ci dice dove sbagliamo.» Dopo il dito ritrovato, la ricostruzione è diventata più facile.\n\nPer una settimana, ogni sera, Carlo ha corretto un errore dopo l'altro. Ogni volta un piccolo difetto gli sfuggiva e Beatrice lo trovava subito.\n\nL'ultima sera, con uno sforzo supremo, Carlo ha guardato i numeri per un'ultima volta. Poi ha detto: «È il momento supremo!» e ha messo in moto la stampante. Dopo sette ore, nella macchina c'era una mano bianca, un po' più piccola della statua, ma con le dita giuste. Beatrice ha messo il dito di pietra ritrovato accanto alla copia: era uguale.\n\nIl giorno della festa, la mano è tornata al suo posto. Una bambina ha detto a sua madre: «Guarda, la statua ha di nuovo una mano!» «È una trasformazione molto bella», ha risposto la madre. Carlo ha guardato Beatrice e ha detto piano: «Con la tecnica di oggi, le cose antiche possono tornare complete.»\n\nDomande:\nChe cosa ha perso la statua?\nHa perso la mano destra.\nChe cosa hanno trovato Beatrice e Carlo?\nHanno trovato una foto del 1920 e un pezzo di pietra con la forma di un dito.\nPerché il primo tentativo è fallito?\nPerché le dita della mano al computer erano troppo lunghe.\nChe cosa ha fatto Beatrice sulla copia di carta?\nHa segnato in rosso gli errori più grandi.\nChe cosa ha detto la madre alla fine?\nHa detto che la statua con la mano è una trasformazione molto bella."
+    },
+    {
+      "title": "L'apparecchio del signor Remo",
+      "summary": "A man in Ticino finds it hard to admit he needs a hearing aid, until a doctor, a counsellor and a youth centre help him.",
+      "newWords": [
+        "orecchio",
+        "terapia",
+        "psicologico",
+        "disagio",
+        "vergogna",
+        "essersi",
+        "solidarietà",
+        "giovanile"
+      ],
+      "text": "Il signor Remo ha 68 anni e vive a Lugano, in Ticino. Da qualche anno sente peggio: con un orecchio, soprattutto, i suoni sono come coperti. Al negozio non capisce la commessa, e al telefono deve chiedere tre volte di ripetere. Eppure non vuole parlarne con nessuno.\n\nLa figlia Elisa lo conosce bene. Una sera gli ha detto: «Papà, c'è un modo per risolvere il problema. Domani andiamo insieme dalla dottoressa.» Remo ha risposto in fretta: «Non ho nessun problema. Sono gli altri che parlano piano.» Ma dentro di sé provava un grande disagio: aveva paura di sembrare vecchio.\n\nDopo qualche giorno ha accettato di andare. La dottoressa Bernasconi gli ha fatto un test e ha scoperto che un orecchio sentiva molto meno dell'altro. Poi gli ha spiegato piano: «Non c'è nessuna vergogna ad avere un apparecchio. Molte persone ne hanno bisogno, e oggi sono piccoli: nell'orecchio quasi non si vedono.»\n\nPer alcuni mesi Remo ha seguito anche una piccola terapia di ascolto, con esercizi semplici da fare ogni giorno. «Il cervello deve imparare di nuovo a riconoscere i suoni», ha spiegato la dottoressa. Remo ha cercato anche un sostegno psicologico, perché il disagio non era solo nell'orecchio. «Il disagio è anche nei pensieri», gli ha detto la dottoressa che lo ha ascoltato. «Un sostegno psicologico serve ad accettare un cambiamento. Non è una cosa di cui avere vergogna.»\n\nIl primo giorno con l'apparecchio, Remo è uscito a camminare. Ha sentito dei rumori che non sentiva da anni: gli uccelli, le campane, il vento tra le foglie. Dopo essersi seduto al bar, ha capito per la prima volta tutto quello che dicevano le persone vicine. Ha pianto un poco, ma di gioia.\n\nL'apparecchio ha anche un'applicazione sul telefono, che Remo non sapeva usare. Un sabato Elisa lo ha portato al centro giovanile del quartiere, dove un gruppo di ragazzi aiuta gli anziani con la tecnologia. È un bel progetto di solidarietà. Un ragazzo di nome Luca ha spiegato a Remo come regolare il volume dal telefono, un passo dopo l'altro. Dopo essersi fatto spiegare tutto, Remo usava l'applicazione ogni giorno.\n\nAdesso il signor Remo non si nasconde più. Ogni settimana va al centro giovanile e racconta la sua storia ai ragazzi. «La solidarietà funziona in due direzioni», dice sorridendo. E quando incontra un amico con lo stesso problema, gli dice: «Io avevo vergogna, e avevo sbagliato. Vai dalla dottoressa, vedrai che bella differenza.»\n\nDomande:\nPerché Remo non vuole parlare del suo problema?\nPerché ha paura di sembrare vecchio.\nChe cosa gli dice la dottoressa dell'apparecchio?\nGli dice che non c'è vergogna ad averlo e che nell'orecchio quasi non si vede.\nChe cosa fa Remo durante la terapia?\nFa esercizi semplici di ascolto ogni giorno.\nChe cosa sente Remo il primo giorno con l'apparecchio?\nSente gli uccelli, le campane e il vento tra le foglie.\nChi aiuta Remo con l'applicazione?\nUn ragazzo del centro giovanile, di nome Luca."
+    },
+    {
+      "title": "Le carte di Chiara",
+      "summary": "Chiara moves to Trento and does her paperwork online, while the building's administrator moves the residents' meetings to the computer.",
+      "newWords": [
+        "trasferimento",
+        "residenza",
+        "certificato",
+        "registro",
+        "amministratore",
+        "aderire",
+        "minoranza",
+        "cerimonia"
+      ],
+      "text": "Chiara ha trovato un lavoro a Trento e a fine marzo si è trasferita da Brescia. Prima di partire ha pensato alle carte: un trasferimento di residenza richiede sempre tempo, pensava, e ricordava le lunghe file all'ufficio del Comune. Un'amica le ha detto: «Oggi tutto si fa online.»\n\nChiara ha aperto il sito del Comune di Trento ed è entrata con la sua identità digitale. Ha scelto la voce «Cambio di residenza» e ha scritto i suoi dati in dieci minuti. Il sistema ha aggiornato il registro degli abitanti e le ha mandato un messaggio: «La Sua richiesta è stata ricevuta.» Il trasferimento è stato davvero facile.\n\nUna settimana dopo, la residenza era cambiata. Chiara ha avuto un certificato di residenza in formato digitale, con un codice che ogni ufficio può verificare. «Quando ero giovane, ci volevano due giorni per avere un certificato», ha detto sua madre al telefono. «Oggi bastano due minuti.»\n\nNel palazzo di Trento c'è un amministratore, il signor Moretti. Il giorno dopo l'arrivo di Chiara, l'amministratore ha lasciato un biglietto sotto la porta di tutti: «Se qualcuno vuole, le riunioni del palazzo possono essere fatte anche al computer.» Moretti ha spiegato che con le riunioni digitali tutti possono partecipare, anche chi lavora lontano. Il registro delle presenze si scrive da solo.\n\nQuasi tutti gli abitanti hanno aderito subito. Solo una piccola minoranza, quattro persone su 30, preferiva la carta. «Non vi preoccupate», ha detto Moretti. «Chi vuole la carta la riceve. Nessuno resta indietro.» Una minoranza ha gli stessi diritti di tutti, e così Moretti ha preparato una pagina di carta per ognuno dei quattro.\n\nLa prima riunione digitale si è fatta una sera di aprile. Chiara era seduta in cucina e vedeva sullo schermo i volti degli altri abitanti. Dovevano decidere se cambiare il cancello del giardino. Dopo un'ora tutti hanno votato, e Moretti ha chiuso la riunione. «E senza uscire di casa!» ha detto ridendo. Anche Chiara aveva aderito con piacere.\n\nPochi giorni dopo è arrivata una lettera del Comune. Invitava i nuovi abitanti a una cerimonia di benvenuto in piazza, un sabato mattina. Alla cerimonia c'erano 40 persone. Il sindaco ha dato a ognuno un piccolo libro sulla città.\n\nAlla fine della cerimonia, Chiara ha scritto a sua madre: «Ho cambiato città, ho avuto il certificato, ho partecipato a una riunione e a una cerimonia, e tutto è cominciato da casa mia!» La madre ha risposto: «Adesso però cammina un po' e vai a conoscere la tua nuova città.»\n\nDomande:\nPerché Chiara si è trasferita a Trento?\nPerché ha trovato un lavoro.\nChe cosa ha fatto Chiara sul sito del Comune?\nHa scelto «Cambio di residenza» e ha scritto i suoi dati.\nChe cosa ha avuto dopo una settimana?\nHa avuto un certificato di residenza in formato digitale.\nChe cosa ha proposto l'amministratore?\nHa proposto di fare le riunioni del palazzo anche al computer.\nChe cosa ha fatto Moretti per la minoranza?\nHa preparato una pagina di carta con le informazioni per ognuno dei quattro."
+    },
+    {
+      "title": "La coppa dei robot",
+      "summary": "At a school robot contest in San Marino, a boy suspects a British team's robot of cheating, but a look inside shows it only uses a camera.",
+      "newWords": [
+        "coppa",
+        "manager",
+        "barare",
+        "britannico",
+        "affinché",
+        "brano",
+        "rock"
+      ],
+      "text": "Jacopo ha 15 anni e frequenta un liceo di Rimini. Con la sua squadra, tre ragazzi e una ragazza, partecipa a una gara europea di robot nella Repubblica di San Marino. La macchina della squadra deve portare cinque palle dentro una scatola in due minuti. Il premio per i vincitori è una grande coppa d'argento.\n\nLa mattina presto il manager della gara, il signor Marcello, ha spiegato le regole: «Ogni robot lavora da solo. Nessuno può toccarlo con le mani, e nessuno può guidarlo da lontano. Controlliamo tutte le macchine affinché la gara sia giusta.» Poi ha aggiunto: «Per il resto, buona gara. Ho organizzato tutto affinché sia una festa.»\n\nAlla prima prova il robot di Jacopo ha portato tre palle su cinque. Era un buon risultato. Poi è toccato alla squadra britannica, arrivata da Londra con un robot nero e molto veloce. La macchina nera ha portato cinque palle su cinque in un solo minuto. Jacopo ha guardato la sua amica Emma e ha detto piano: «Sono troppo bravi. Secondo me barano.»\n\nEmma ha detto di no con la testa. «Non puoi dirlo senza averne la certezza», ha risposto. «Se ci fosse qualcuno che la guidasse, lo vedremmo.» Ma Jacopo non era convinto e ha chiesto al signor Marcello di controllare. Il manager ha sorriso e ha chiamato due ragazzi della squadra britannica. «Possiamo guardare dentro il vostro robot?» ha chiesto.\n\nI ragazzi britannici, un po' sorpresi, hanno aperto la macchina. Dentro c'erano solo un piccolo computer e una telecamera. Il capitano della squadra ha spiegato in italiano: «Il robot guarda le palle con la telecamera e sceglie da solo la strada più breve. Nessuno lo guida.» Jacopo è diventato rosso. «Scusate», ha detto. «Non dovevo pensare che voleste barare.»\n\n«Non c'è problema», ha risposto il capitano, ridendo. «Anche noi pensavamo che il vostro robot fosse più forte del nostro. Tre palle in due minuti con una macchina così piccola sono un ottimo lavoro!» Poi gli ha spiegato come funziona la telecamera e ha detto che gli piacerebbe vedere il programma di Jacopo.\n\nAlla cerimonia finale, un gruppo di ragazzi ha suonato un brano rock per i vincitori. La coppa è andata a una squadra tedesca, ma il signor Marcello ha dato un piccolo premio a tutte le squadre. Sulla via del ritorno, in macchina, Jacopo ha scritto al capitano britannico: «Mi mandi il tuo programma? Ti mando il nostro.» Il brano rock gli è rimasto in testa per tutto il viaggio.\n\nDomande:\nChe cosa deve fare il robot della gara?\nDeve portare cinque palle dentro una scatola in due minuti.\nChi è il signor Marcello?\nÈ il manager della gara.\nPerché Jacopo pensa che i ragazzi britannici barino?\nPerché il loro robot è troppo bravo e veloce.\nChe cosa c'era dentro il robot britannico?\nC'erano un piccolo computer e una telecamera.\nChe cosa è successo alla cerimonia finale?\nUn gruppo ha suonato un brano rock e la coppa è andata a una squadra tedesca."
+    }
+  ]
+}
