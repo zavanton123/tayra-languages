@@ -1,0 +1,224 @@
+{
+  "id": "sr-mini-3400",
+  "rankUpTo": 3400,
+  "level": "B2",
+  "title": "Stari zanati",
+  "description": "Ten calm B2 stories, diaries, letters and columns about traditional crafts in Serbia and abroad: pottery, blacksmithing, goldsmithing, kilim weaving, woodcarving, knitting, natural dyes, clockmaking, straw art and basket weaving.",
+  "topic": "Traditional crafts",
+  "names": [
+    "Luka",
+    "Dragiša",
+    "Užice",
+    "Zlakusa",
+    "Zlatibor",
+    "Beograd",
+    "Bojan",
+    "Mile",
+    "Rtanj",
+    "Slaviša",
+    "Nikola",
+    "Jelena",
+    "Vuk",
+    "Vlada",
+    "Dorćol",
+    "Stanka",
+    "Pirot",
+    "Niš",
+    "Jovana",
+    "Ana",
+    "Mitrovac",
+    "Dragan",
+    "Radmila",
+    "Sirogojno",
+    "Beč",
+    "Vesna",
+    "Mila",
+    "Zorica",
+    "Nada",
+    "Teodora",
+    "Novi Sad",
+    "Vojvodina",
+    "Mirjana",
+    "Čikago",
+    "Kragujevac",
+    "Bojana",
+    "Zdravko",
+    "Ohajo",
+    "Marija",
+    "Tavankut",
+    "Subotica",
+    "Johan",
+    "Stevan",
+    "Dušan",
+    "Apatin",
+    "Dunav",
+    "Vaso",
+    "Miki",
+    "Mikija",
+    "Mikiju",
+    "Mileta",
+    "Srbija"
+  ],
+  "lessons": [
+    {
+      "title": "Glina iz Zlakuse",
+      "summary": "A boy from Beograd spends two weeks with his grandfather, a potter near Užice, and makes his first pot.",
+      "newWords": [
+        "unuk",
+        "domaćin",
+        "sakupiti",
+        "tur",
+        "pravilan",
+        "odande",
+        "privremeno",
+        "muva",
+        "struktura",
+        "nikuda"
+      ],
+      "text": "Luka je odrastao u Beogradu, među zgradama i autobusima, pa mu je selo kod Užica svakog leta izgledalo kao drugi svet. Dve nedelje je provodio kod dede Dragiše, koji u Zlakusi na Zlatiboru pravi lonce. Deda je bio pravi domaćin. Čim bi njegov unuk stigao, na stolu su ga čekali sir, hleb i pita, a posle ručka deda bi rekao:\n\n— Sutra idemo po glinu. Ustajemo u 5.\n\nGlinu nisu kupovali. Deda je znao jedno mesto iznad reke, i odande su ljudi iz sela vekovima nosili crvenu zemlju. Trebalo je sakupiti dovoljno za celu nedelju. Kad su sakupili pune kese, odneli su ih do kola. Deda je svaki komad dugo gledao.\n\n— Nije svaka dobra — rekao je. — Pogledaj kakva je struktura. Ako se lepo mrvi među prstima, uzmi je. Ako je tvrda kao kamen, vrati je odande.\n\nKod kuće su je dugo mešali s vodom. Muve su im letele oko lica, a Luka ih je terao rukom i žalio što nema još jednu ruku. Onda je deda počeo da radi, i za nekoliko minuta od male kugle nastala je činija.\n\n— Sad ti — rekao je.\n\nLuka je stavio ruke na glinu. Prvi lonac se srušio. Drugi je ispao kriv. Treći je izgledao kao šešir. Unuk je hteo da pobegne, ali ga deda nije pustio nikuda.\n\n— Ne teraj je — rekao je. — Samo je prati.\n\nNedelju dana kasnije Luka je napravio prvi pravilan lonac. Nije bio veliki, ali je bio ravan i lep, i deda je rekao da ima pravilan oblik. Stavio ga je na policu.\n\n— Ovde je samo privremeno — rekao je. — Mora tri dana da se osuši. Ako ga odmah stavimo u vatru, pući će.\n\nTrećeg dana deda je zapalio veliku vatru u dvorištu. Prva tura je ušla u nju, a Luka je celu noć sedeo pored vatre. Nije hteo nikuda da ide dok ne vidi šta će biti. Muve su otišle sa mrakom. Ujutru je našao svoj lonac. Bio je crven, topao i čitav. Posle prve ture došla je i druga, ali Luka je bio najponosniji na prvu.\n\n— Ovo je tvoje — rekao je deda. — Odnesi ga mami.\n\nKao pravi domaćin, stavio mu je u torbu hleb i sir za put.\n\nU autobusu za Beograd Luka je držao lonac u krilu celim putem. Nije dao nikome da ga dodirne. Kod kuće je mama u njega stavila cveće. Zahvaljujući strpljenju svog dede, unuk je prvi put bio ponosan na nešto što je napravio rukama.\n\nPitanja:\nGde je Luka provodio dve nedelje svakog leta?\nProvodio ih je kod dede Dragiše, koji pravi lonce u Zlakusi.\nKakvu strukturu je deda tražio u glini?\nTražio je glinu koja se lepo mrvi među prstima.\nZašto je Luka hteo da pobegne?\nHteo je da pobegne, jer su mu se prva tri lonca srušila ili ispala kriva.\nZašto je pravi lonac privremeno stajao na polici?\nMorao je tri dana da se osuši, jer bi inače pukao u vatri.\nŠta je Luka uradio sa svojim loncem?\nOdneo ga je mami u Beograd, a ona je u njega stavila cveće."
+    },
+    {
+      "title": "Kovačnica pod Rtnjem",
+      "summary": "A sixteen-year-old apprentice spends a harsh winter learning from an almost deaf blacksmith.",
+      "newWords": [
+        "gluv",
+        "modrica",
+        "infekcija",
+        "opak",
+        "stub",
+        "izbacivati",
+        "nafta",
+        "vršiti",
+        "funkcija",
+        "komandir"
+      ],
+      "text": "Bojan je imao 16 godina kad je prvi put ušao u kovačnicu majstora Mileta. Bila je sredina zime, a zima je te godine bila opaka: sneg do kolena i vetar koji je sekao lice.\n\n— Uđi i zatvori vrata! — viknuo je Mile.\n\nMile je bio gluv na jedno uvo, pa je govorio glasnije nego što treba. Trideset godina je udarao čekićem po metalu i sluh mu je popuštao. Bojan se plašio te buke, ali je brzo shvatio da majstor nije ljut. Samo ne čuje. Stoga je naučio da stane ispred majstora i da govori polako.\n\nStruje u selu često nije bilo, pa je Mile imao staru lampu na naftu. Nafta je bila skupa, i zato je lampu palio samo uveče. U uglu je gorela vatra. Izbacivala je iskre, a metal u njoj je postajao crven.\n\n— Svaki alat ima svoju funkciju — rekao je Mile. — Ovaj drži, ovaj udara. Kad to naučiš, nećeš ništa pokvariti. I ti imaš svoju funkciju: držiš i čekaš.\n\nPrvih dana Bojan je vršio samo najlakše poslove. Nosio je vodu i drva, a čekić je izbacivao iskre na svaki udarac. Onda mu je Mile dao da drži metal. Držao ga je loše, i čekić ga je udario po prstu. Odmah se pojavila modrica, i prst je postao plav.\n\n— Hladna voda, pa nazad — rekao je Mile. — Modrica je ništa. Ali spaljenu kožu ne trpim. Ako se spališ, reci mi odmah. Mala rana lako postane infekcija, a infekcija je gora od svake modrice.\n\nPosle podne je došao Slaviša, komandir vatrogasaca iz sela. Hteo je dve kuke za crevo i dva stuba za kapiju. Mile ga nije čuo, pa je Bojan sve ponovio glasno.\n\n— Dve kuke i dva stuba, do kraja zime! — viknuo je Mile. — Svaki posao se mora vršiti polako i do kraja.\n\nPrvu kuku je napravio sam, a Bojan je gledao. Drugu je radio Bojan. Metal je bio vruć, čekić težak, a prst još plav. Prvi udarac je bio loš, drugi bolji, treći dobar.\n\n— Dobro — rekao je Mile. — Ne slušaj mene, slušaj metal.\n\nBojan je shvatio šta majstor misli. Vruć metal peva visoko, a kad se ohladi, zvuk postane težak, i tada ga treba vratiti u vatru. Mada je Mile bio gluv na jedno uvo, metal je slušao bolje od svih.\n\nPre kraja zime bile su gotove sve kuke i oba stuba. Komandir ih je platio i rekao da će doći i sledeće godine. Napolju je i dalje bila opaka zima, ali Bojanu više nije bilo hladno.\n\nPitanja:\nKakva je bila zima kad je Bojan došao?\nZima je bila opaka, sa dubokim snegom i jakim vetrom.\nZašto je Mile govorio tako glasno?\nGovorio je glasno, jer je bio gluv na jedno uvo.\nČega se Mile plašio posle Bojanove modrice?\nPlašio se da mala rana ne postane infekcija.\nŠta je naručio komandir vatrogasaca?\nNaručio je dve kuke za crevo i dva stuba za kapiju.\nŠta je Bojan naučio da čuje?\nNaučio je da čuje zvuk metala i zna kad ga treba vratiti u vatru."
+    },
+    {
+      "title": "Prsten za Jelenu",
+      "summary": "A young man looks for a goldsmith in Beograd to make an engagement ring before he proposes in July.",
+      "newWords": [
+        "zaprositi",
+        "ženiti",
+        "dragulj",
+        "titula",
+        "označiti",
+        "tašna",
+        "medalja",
+        "nadimak",
+        "juli",
+        "preporučiti",
+        "maršal"
+      ],
+      "text": "Nikola je u Beogradu radio tri godine, a Jelenu je poznavao još duže. Jednog proleća shvatio je da više ne želi da čeka. Jeleni je u julu bio rođendan, i Nikola je odlučio da je tada zaprosi.\n\n— Treba mi prsten — rekao je prijatelju Vuku. — Ali ne iz prodavnice. Hoću da ga neko napravi samo za nju.\n\n— Znam čoveka — odgovorio je Vuk. — Meni ga je preporučio otac kad sam se ja ženio. Zove se Vlada, ali ga svi zovu Maršal.\n\n— Maršal? Zašto?\n\n— Ne znam. Taj nadimak je dobio još u školi i ostao mu je do penzije.\n\nRadnja je bila u maloj ulici na Dorćolu. Na prozoru su stajale medalje, lanci i jedna mala zlatna ptica, a na vratima tablica: „Majstor zlatar“. Maršal je bio čovek sa belom kosom i dobrim očima.\n\n— Titula majstora ne znači mnogo — rekao je Maršal kad je Nikola pogledao tablicu. — Znači samo da sam dugo radio. Ta titula ne pravi prsten.\n\n— Preporučio vas je moj prijatelj Vuk. Hoću da zaprosim devojku, a nikad se nisam ženio.\n\n— Onda sedite. Kakva je ona?\n\nNikola je dugo razmišljao.\n\n— Mirna je. Voli stare stvari. Ne nosi mnogo nakita. U njenoj tašni nikad nema ništa nepotrebno.\n\n— Onda joj ne treba veliki dragulj — rekao je Maršal. — Mali kamen, tanak prsten. Nešto što će nositi svaki dan, a ne samo za praznik.\n\nPokazao mu je nekoliko modela. Nikola je izabrao najjednostavniji, sa jednim plavim kamenom.\n\n— Dobar izbor. Ukoliko ga želite do jula, počinjem odmah. Za tri nedelje biće gotov. Hoćete li da ga označim?\n\n— Kako to mislite?\n\n— Unutra urežem datum i dva slova. Tako je prsten samo njen.\n\nNikola je rekao datum rođendana. Trebalo mu je da izađe napolje i udahne, jer ga je odjednom uhvatio strah.\n\nPrsten je bio gotov 15. jula. Maršal ga je stavio u malu kutiju. Nikola ju je spustio u tašnu i celim putem do kuće držao ruku na njoj.\n\n— Sve će biti u redu — rekao mu je Maršal na vratima. — Ja se u to razumem.\n\nJelena je rekla da, i nikoga to nije iznenadilo. Prsten je bio tako jednostavan da je izgledao kao deo njene ruke.\n\nPitanja:\nZašto je Nikola tražio majstora za prsten?\nHteo je da zaprosi Jelenu u julu, za njen rođendan.\nKo je preporučio Maršala i zašto ga tako zovu?\nPreporučio ga je Vuk, a Maršal je nadimak koji je majstor dobio u školi.\nŠta je stajalo na prozoru radnje?\nNa prozoru su stajale medalje, lanci i mala zlatna ptica.\nKakav prsten je Nikola izabrao?\nIzabrao je jednostavan prsten sa malim plavim draguljem.\nŠta je Maršal uradio da prsten bude samo Jelenin?\nOznačio ga je tako što je unutra urezao datum i dva slova."
+    },
+    {
+      "title": "Ćilim iz Pirota",
+      "summary": "A teenager's diary: her grandmother in Pirot teaches her to weave and tells an old tale about a deer.",
+      "newWords": [
+        "jelen",
+        "pozadina",
+        "zavesa",
+        "kletva",
+        "čarolija",
+        "stvaranje",
+        "večan",
+        "ritual",
+        "nevinost",
+        "sirota"
+      ],
+      "text": "Dnevnik, Pirot\n\nSubota. Tri dana sam kod bake Stanke i svako jutro ustajem pre 7, što u Nišu nikad ne bih uradila. Uprkos tome nisam umorna, jer baka nikad ne žuri. Baka kaže da se tepih ne tka kad se probudi čovek, nego kad se probudi i njegova ruka. Stoga svako jutro ima isti ritual: kafa, tišina, pa tek onda tkanje. Ja pijem čaj i gledam kako prstima proverava konce.\n\nDanas mi je prvi put dala da tkam. Zadatak je bio mali jelen, jer jelen, kaže baka, ide u skoro svaki pirotski ćilim. Prva dva jelena izgledala su kao psi. Treći je izgledao kao jelen koji je video psa.\n\n— Ne žuri, Jovana — rekla je baka. — Pozadina drži sliku. Ako je pozadina loša, ni jelen ne pomaže.\n\nKod nas je pozadina crvena, a jelen beo. Baka tvrdi da je tepih nekad visio na vratima kao zavesa, da ne uđe hladnoća. Zato je morao da bude i lep i debeo. Danas su zavese tanke i služe samo da lepo izgledaju.\n\nNedelja. Sinoć mi je baka ispričala priču koju je čula od svoje bake. U selu pod planinom nije bilo kiše dve godine. Ljudi su govorili da je to kletva, a niko nije znao ko ju je izgovorio. Tamo je živela jedna sirota devojka, jedina koja je umela da tka. Nije imala ni majku ni oca, samo dobre ruke. Jedne noći je počela da tka tepih sa belim jelenom na crvenoj pozadini. Kad je završila, jelen je oživeo i potrčao u šumu. Devojka je trčala za njim sve do izvora koji niko nije poznavao. Voda je izašla iz zemlje, a kiša je već sledećeg dana pala na celo selo.\n\n— Je li to istina? — pitala sam.\n\n— Nije — rekla je baka. — Ali svaki put kad tkam jelena, pomislim da bi mogla da bude. U stvaranju ima malo čarolije, čak i kad je čovek ne traži. Za stvaranje jednog jelena treba ceo dan, ali dan tako prođe kao čarolija. A ovakva kletva ne postoji, ni u priči ni u selu. Ima samo ljudi koji nemaju kome da pričaju priče.\n\nPonedeljak. Završila sam svog jelena. Nije savršen, ali više nije pas. Baka ga je dugo gledala.\n\n— U tvojim rukama ima nevinost — rekla je. — Tako tkaju deca, bez straha. Čuvaj je što duže.\n\nNe znam da li je to kompliment, ali sam rekla hvala. U autobusu za Niš držala sam mali tepih u krilu. Baka kaže da je samo dobro tkanje večna stvar, ali mislim da je večna i ova priča. Zato ću je večeras napisati u novu svesku, od prve do poslednje reči. Neka bude večna bar u mojoj svesci.\n\nPitanja:\nŠta baka Stanka radi svako jutro pre tkanja?\nIma isti ritual: pije kafu, ćuti i tek onda počinje da tka.\nZašto je pozadina važna?\nPozadina drži sliku, a ako je loša, ni jelen ne pomaže.\nČemu je tepih nekad služio u kući?\nVisio je na vratima kao zavesa, da ne uđe hladnoća.\nŠta se u priči desilo sa selom?\nU selu nije bilo kiše, ali je jedna sirota devojka počela da tka jelena i kiša je pala.\nŠta je baka rekla o Jovaninim rukama?\nRekla je da u njima ima nevinost, jer tako tkaju deca, bez straha."
+    },
+    {
+      "title": "Rezbar sa Tare",
+      "summary": "On a family trip across Tara, a girl and her father meet a woodcarver who makes small dwarfs from wood.",
+      "newWords": [
+        "tara",
+        "patuljak",
+        "karton",
+        "zasad",
+        "strela",
+        "ograničen",
+        "preporuka",
+        "uveren",
+        "zateći",
+        "sveže"
+      ],
+      "text": "Ana i tata proveli su na Tari dug vikend. Prvog dana im je žena iz pansiona rekla:\n\n— Morate da vidite Dragana. Pravi drvene patuljke i nema ih nigde drugde. To je moja preporuka, a ona je uvek besplatna.\n\nSledećeg dana su išli kroz šumu. Ana je primetila da je vazduh na Tari drugačiji: hladan, a mirisao je sveže, na jele. Posle sat vremena našli su Draganovu kuću na ivici šume. Zatekli su ga ispred vrata kako sedi na klupi sa nožem u ruci. Pored njega je ležalo sveže drvo.\n\n— Dobar dan — rekao je tata. — Čuli smo da pravite patuljke.\n\n— Pravim — rekao je Dragan. — Ali zasad nemam nijednog gotovog. Svi su prodati.\n\nAna se razočarala, ali se on nasmejao.\n\n— Možete da ostanete i gledate, pod uslovom da ne dirate nož. Zasad radim samo jednog.\n\nPored njega je bio karton, a na njemu nacrtan mali čovek sa velikom kapom.\n\n— Karton mi služi kao uzorak — objasnio je. — Prvo nacrtam, pa isečem karton, pa po njemu sečem drvo. Tako svi patuljci imaju isti oblik, ali nijedan nije isti.\n\n— A odakle vam drvo? — pitala je Ana.\n\n— Iz stare jele koju je oborio vetar. Mislio sam da od nje nema ništa, ali drvo je ostalo zdravo. Od takvih jela pravim najbolje patuljke.\n\nNa klupi je ležao i mali luk sa dve strele.\n\n— To je za mog unuka — rekao je Dragan. — Strele nemaju vrh, one su samo za metu.\n\n— Jesu li vaši patuljci opasni? — pitao je tata.\n\n— Nisu — rekao je Dragan. — Najopasniji mi je ovaj nož.\n\nAna je dugo gledala kako iz drveta izlazi nos, pa kapa, pa brada. Bila je uverena da patuljak diše.\n\n— Koliko ih pravite godišnje?\n\n— Oko 30. Broj je ograničen, jer ne mogu više. A ne bih ni želeo.\n\nNa kraju je Dragan ušao u kuću i vratio se sa malim patuljkom. Imao je plavu kapu i bio je veličine šake.\n\n— Ovaj je gotov od jutros. Uzmite ga.\n\n— Ne možemo — rekao je tata.\n\n— Možete. Uveren sam da će vam doneti sreću.\n\nUveče je tata u knjigu utisaka u pansionu napisao preporuku: „Idite kod Dragana.“ Ana je patuljka stavila na prozor u sobi. Kad god bi sunce sijalo kroz prozor, pomislila bi na Taru, na hladnu šumu i na čoveka koga su zatekli kako sedi sa nožem u ruci.\n\nPitanja:\nKo je preporučio Dragana i šta on pravi?\nPreporučila ga je žena iz pansiona, a on pravi drvene patuljke.\nKako je Dragan pravio uzorak?\nNacrtao je patuljka na karton, isekao ga i po njemu sekao drvo.\nOd kakvog drveta pravi patuljke?\nPravi ih od stare jele koju je oborio vetar.\nZašto je broj patuljaka ograničen?\nDragan ne može da napravi više od 30 godišnje.\nŠta je Ana dobila na poklon?\nDobila je malog patuljka sa plavom kapom."
+    },
+    {
+      "title": "Vuna iz Sirogojna",
+      "summary": "In the busiest spring, a small women's workshop on Zlatibor loses a knitter to illness and has to find help for a big order.",
+      "newWords": [
+        "proleće",
+        "razboleti",
+        "pojačanje",
+        "pojačati",
+        "fenomenalan",
+        "sulud",
+        "godišnji",
+        "stroj"
+      ],
+      "text": "Radmila vodi malu radionicu u Sirogojnu, gde osam žena plete džempere. Proleće je njihovo najteže doba, jer se tada vraćaju turisti, a svi žele džemper „iz Sirogojna“. Te godine su u aprilu dobile veliki posao iz Beča: 40 džempera do kraja maja.\n\n— To je suludo — rekla je Vesna. — Za mesec dana? Nećemo stići.\n\n— Zato ćemo raditi svake večeri — odgovorila je Radmila. — Ovo je prvi put da šaljemo posao u drugu zemlju.\n\nŽene su se prihvatile posla. Svaka je radila svoj deo, a Radmila ih je obilazila i proveravala svaki uzorak. Nije volela stroj. Pravi džemper, govorila je, pravi samo čovek, a stari stroj u uglu koristile su samo kad nije bilo druge.\n\nNedelju dana pre roka Vesna se razbolela i morala je da leži. Stoga je Radmila morala da promeni plan, a Mila, koja je imala nedelju dana godišnjeg odmora, htela je da ga otkaže.\n\n— Nema potrebe — rekla je Radmila. — Godišnji odmor je godišnji odmor. Odmori se. Naći ćemo pojačanje.\n\nSledećeg dana su došle dve komšije, Zorica i Nada, koje su u mladosti dugo radile ovde. Zorica je pogledala poslove koji nisu gotovi i rekla:\n\n— Treba pojačati tempo. Ali ne previše, jer vuna ne voli žurbu.\n\nKad je pojačanje stiglo, radile su i noću. Pojačali su i svetlo, jer su im oči bile umorne. Nada je između dve igle skuvala čaj za sve.\n\nDo kraja maja bila su gotova 32 džempera. Radmila je pozvala Beč i objasnila da će ostalih osam stići za nedelju dana. Gospođa na telefonu se nasmejala.\n\n— Nema problema. Prva kutija je stigla jutros. Ovo je fenomenalno! Takav posao nikad nismo videli.\n\nRadmila je spustila slušalicu i pogledala žene oko sebe. Bile su umorne, ali su se smejale. Jedna je rekla da je ovo bilo suludo, druga da je bilo fenomenalno, a treća da je bilo oboje.\n\n— Sledećeg proleća naći ću još tri žene — rekla je Radmila. — Ili ću poslušati Vesnu i kupiti još jedan stroj.\n\n— Nikad — rekle su sve u glas.\n\nKad se Vesna oporavila, vratila se u radionicu i bez reči uzela svoje igle.\n\nPitanja:\nKakav posao su dobile žene iz Sirogojna?\nDobile su posao iz Beča: 40 džempera do kraja maja.\nZašto je proleće njihovo najteže doba?\nTada se vraćaju turisti i svi žele džemper iz Sirogojna.\nŠta se desilo Vesni?\nVesna se razbolela i morala je da leži.\nKo je došao kao pojačanje?\nKao pojačanje su došle komšije Zorica i Nada.\nŠta je Radmila mislila o starom stroju?\nNije ga volela, jer je za nju pravi džemper onaj koji su napravile ruke."
+    },
+    {
+      "title": "Prirodne boje",
+      "summary": "A biologist in Novi Sad prepares an exhibition of colours made from plants, working with a museum.",
+      "newWords": [
+        "izložba",
+        "naslov",
+        "predstavnik",
+        "saradnja",
+        "fajl",
+        "komunicirati",
+        "automatski",
+        "napredan",
+        "eksperiment",
+        "biološki"
+      ],
+      "text": "Zovem se Teodora. Po obrazovanju sam biolog, a po zanimanju pravim boje od biljaka. Na prvi pogled to je hobi, ali već osam godina od toga živim. U maloj radionici u Novom Sadu kuvam koru, cveće i list, i iz svakog kazana izlazi druga boja.\n\nProšle zime me je pozvala predstavnica Muzeja Vojvodine i predložila mi izložbu o prirodnim bojama.\n\n— Naslov još nemamo — rekla je. — Ali imamo prostor i 15 metara zida.\n\nRado sam pristala. Sledećih nedelja smo skoro svaki dan komunicirali preko poruka, jer se saradnja pokazala kao ozbiljan posao. Ja sam slala fajl za fajlom: fotografije, spiskove i opise. Predstavnica mi je na sve odgovarala komentarima i pitanjem da li imam nešto zanimljivije.\n\n— Šta je tebi najzanimljivije? — pitala je jednom.\n\n— Eksperiment — rekla sam. — Svaka boja je mali eksperiment. Nikad ne znam šta ću dobiti.\n\nTo sam shvatila jedne zime, kad sam u stari kazan stavila list i dobila boju koju još uvek ne umem da nazovem. Nije bila ni žuta ni zelena, nego nešto između, kao jesen u parku. Takav eksperiment ne može da se planira.\n\nZa izložbu smo izabrale naslov „Boje koje rastu“. Pored svakog materijala napravile smo natpis: iz koje biljke dolazi boja i koliko se kuva. Objašnjenja sam pisala jednostavno, jer posetioci ne moraju da budu naučnici.\n\nU muzeju su postavili i novi uređaj, automatski aparat koji na ekranu pokazuje kako boja prelazi sa biljke na platno. Iako je to napredna tehnika, ja ne razumem kako radi. Moj posao je, međutim, da kuvam, a ne da razumem uređaje. U mojoj radionici nema ničeg naprednog, ali je saradnja sa muzejom bila lepa: svako je radio ono što najbolje zna. Biološke procese volim više od mašina. Ipak, kad sam videla da se sve na ekranu menja automatski, malo sam se zaljubila i u taj aparat.\n\nUveče pre otvaranja sedela sam sama među svojim materijalima. U muzejskom svetlu izgledali su drugačije nego u radionici. Pomislila sam da je biološki proces najstariji eksperiment na svetu: biljka daje boju, a čovek je samo pazi.\n\nSledećeg dana je došlo 130 ljudi. Jedan stariji čovek dugo je stajao ispred zelenog platna i na kraju me pitao:\n\n— Znate li da je moja baka pravila boje isto tako, od cveća?\n\nZnala sam da će neko to reći. Rekla sam mu da je ova izložba i njegove bake.\n\nPitanja:\nŠta Teodora pravi od biljaka?\nPravi boje od kore, cveća i lista.\nKo ju je pozvao da pripremi izložbu?\nPozvala ju je predstavnica Muzeja Vojvodine.\nKako su Teodora i muzej radili zajedno?\nSkoro svaki dan su komunicirali, a Teodora je slala fajlove sa fotografijama i opisima.\nKoji je naslov izložbe?\nNaslov izložbe je „Boje koje rastu“.\nŠta Teodora smatra najstarijim eksperimentom na svetu?\nSmatra da je to biološki proces u kome biljka daje boju."
+    },
+    {
+      "title": "Dedin sat",
+      "summary": "An e-mail from Čikago: a young woman who has inherited her grandfather's clockmaking tools begins repairing old watches.",
+      "newWords": [
+        "sjediniti",
+        "nazdraviti",
+        "impresioniran",
+        "istovremeno",
+        "značenje",
+        "postupiti",
+        "rukopis"
+      ],
+      "text": "Draga Mirjana,\n\nobećala sam da ću ti napisati kako mi je u Čikagu i evo, napokon sam našla vreme. Prošla je godina otkako sam iz Kragujevca došla u Sjedinjene Države. Radim u banci, ali ti pišem o nečemu drugom.\n\nKad je deda umro, dobila sam njegovu kutiju sa alatom. Pedeset godina je bio majstor za popravku satova. U kutiji su bili mali alat i jedna stara knjiga sa njegovim beleškama. U avionu sam je nosila u krilu, kao da nosim nešto što bi moglo da se razbije. Ovde nije bilo nikoga ko bi znao šta sa tim da radi, pa sam odlučila da pokušam sama.\n\nPrvi sat koji sam popravljala pripadao je starom komšiji, gospodinu Zdravku. Izgledalo je teško, ali kad sam otvorila knjigu, kao da je deda sedeo pored mene. Imao je tačan rukopis, svako slovo kao da je napisano po liniji. Pisao je koji deo ide gde i šta znači svaki zvuk sata.\n\n— Pazi na tiho kucanje — pisao je. — Ono ima značenje. Ukoliko kuca pravilno, sat je zdrav. Svaki drugi zvuk ima drugo značenje, i tu je potrebno strpljenje.\n\nPostupila sam kako piše u knjizi. Iako sam bila sporija nego što treba, sat je opet počeo da radi. Gospodin Zdravko je stajao pored mene, i kad je sat opet počeo da kuca, oči su mu se napunile suzama.\n\n— Moj otac je imao isti — rekao je. — Mislio sam da nikad više neću čuti taj zvuk.\n\nBila sam impresionirana time koliko mu to znači. Tada sam shvatila nešto čudno: u tom tihom poslu sjedinio se moj život ovde i život mog dede tamo. Sat iz Srbije kuca u Čikagu, moje ruke rade ono što su nekad radile njegove, i oba sveta su istovremeno u jednoj maloj sobi.\n\nGospodin Zdravko je doneo flašu soka i dve čaše. Hteo je da nazdravi, pa smo nazdravili satu.\n\n— Za dedu — rekao je. — I za unuku.\n\nOd tada mi se javilo još 6 ljudi, svako sa jednim starim satom iz Srbije. Jedna žena iz Ohaja bila je toliko impresionirana da mi je poslala sat poštom, a ja sam joj poslala račun od 5 dolara i pozdrav. Tako ću postupiti sa svima: ne uzimam više nego što posao vredi.\n\nSada istovremeno radim u banci i kod kuće. Ne znam kuda će me sve to odvesti. Ali kad uveče sedim i slušam kucanje, više nisam stranac u gradu.\n\nPozdravljam te,\ntvoja Bojana\n\nPitanja:\nŠta je Bojana nasledila od dede?\nNasledila je kutiju sa alatom za popravku satova i knjigu sa njegovim beleškama.\nZašto je dedin rukopis bio koristan?\nU knjizi je svako slovo bilo tačno napisano, pa je Bojana mogla da prati uputstva.\nŠta znači tiho kucanje sata?\nAko sat kuca pravilno, znači da je zdrav.\nŠta je rekao gospodin Zdravko kad je sat opet počeo da radi?\nRekao je da je njegov otac imao isti sat i da je mislio da taj zvuk nikad više neće čuti.\nŠta je Bojana osetila dok je radila?\nOsetila je da su se u njenom poslu sjedinila dva sveta, njen i dedin."
+    },
+    {
+      "title": "Slama iz Tavankuta",
+      "summary": "A straw-craft maker near Subotica deals with a complaint from a customer and a visitor who wants a large order.",
+      "newWords": [
+        "pregovor",
+        "prepreka",
+        "svesti",
+        "kikiriki",
+        "stranka",
+        "žalba",
+        "tablica",
+        "upotreba"
+      ],
+      "text": "Marija pravi ukrase od slame u Tavankutu, selu kod Subotice. Ispred kuće stoji tablica „Kod Marije“, a unutra na policama vise ptice, srca i venci. Sve je žuto i meko, kao da je leto zaustavljeno.\n\nJednog utorka pozvala ju je stranka iz Novog Sada, žena koja je mesec dana ranije kupila veliki venac.\n\n— Dobar dan — rekla je žena. — Imam žalbu. Venac je izgubio boju. Sad je skoro beo.\n\nPremda joj je bilo neprijatno, Marija je odmah znala šta se desilo. Venac je visio na prozoru, a sunce je svaki dan sijalo pravo na njega.\n\n— Žao mi je što je do toga došlo — rekla je. — Ali slama ne voli sunce. Zato uz svaku stvar stavljam uputstvo za upotrebu. Možda ste ga izgubili?\n\nNa drugoj strani neko je tražio papir.\n\n— Evo ga — rekla je žena posle nekoliko sekundi. — Piše da ne sme da stoji na suncu. Izvinite, nisam pročitala.\n\n— Nema problema. Pošaljite mi fotografiju, pa ću vam dati novi venac sa nižom cenom.\n\nStranka se zahvalila. Marija je spustila slušalicu i nasmejala se. Svaka žalba je za nju bila nova lekcija. Zato je na tablici ispred kuće napisala: „Ne držati na suncu.“\n\nDva dana kasnije na vratima je stajao gospodin iz Beča, Johan, sa suprugom. Hteli su da kupe 200 komada za svoj hotel.\n\n— 200? — ponovila je Marija. — To je posao za nekoliko meseci.\n\n— Imamo vremena — rekao je Johan na lošem srpskom. — Ali moramo da se dogovorimo o ceni.\n\nPregovori su trajali sat vremena. Jezik nije bio prepreka, jer je Marijin sin Stevan pomagao u razgovoru, a između rečenica su jeli kikiriki iz tanjira na stolu. Johan je tražio nižu cenu, Marija duži rok. Jedina prava prepreka bila je slama, budući da je nema dovoljno. Na kraju su sveli broj komada na 150, a Marija je svela i cenu za 10 posto.\n\n— Ostalih 50 dugujem do sledeće godine — rekla je. — Slama raste samo jednom.\n\nJohan se nasmejao i pristao. Pre odlaska kupio je i jednu malu pticu za ličnu upotrebu, a Marija mu je spakovala i kesu kikirikija za put.\n\nTe večeri Marija je sedela u dvorištu i računala. Znala je da će joj do zime trebati svaka ruka u selu, ali se nije plašila. Posle svih tih pregovora i žalbi osećala je da radi pravi posao.\n\nPitanja:\nŠta piše na tablici ispred Marijine kuće?\nNa njoj piše „Kod Marije“, a Marija je dodala da se slama ne drži na suncu.\nZašto se stranka iz Novog Sada žalila?\nŽalila se, jer je venac izgubio boju posle mesec dana na suncu.\nŠta Marija daje uz svaki ukras?\nDaje uputstvo za upotrebu, u kome piše da slama ne voli sunce.\nŠta je Johan hteo da kupi?\nHteo je 200 komada za svoj hotel.\nNa čemu su se Marija i Johan dogovorili?\nDogovorili su se da Marija napravi 150 komada, a ostalih 50 sledeće godine."
+    },
+    {
+      "title": "Korpar sa ade",
+      "summary": "An office worker from Novi Sad spends a day with an old basket-maker on an island in the Danube.",
+      "newWords": [
+        "ada",
+        "međuvreme",
+        "magarac",
+        "goniti",
+        "zarobljenik",
+        "jadnik"
+      ],
+      "text": "Dušan je sedam godina radio u kancelariji u Novom Sadu i sve više je osećao da je zarobljenik ekrana. Jednog petka je uzeo slobodan dan i otišao na Dunav, na adu kod Apatina, gde stari majstor Vaso pravi korpe.\n\nVaso ga je dočekao pored vrbe. Imao je 70 godina, široke ruke i smeh koji se čuo preko vode.\n\n— Dobro došao, kancelarijo — rekao je. — Danas ćeš seći vrbu.\n\nDušan nije znao šta to znači, ali je poslušao. Vaso mu je pokazao koje grane da seče: samo sveže i tanke, bez čvorova. Za sat vremena Dušan je napunio kolica. Leđa su ga bolela, a ruke su bile pune ogrebotina.\n\n— Jadnik — rekao je Vaso kad ga je video. — A tek ćeš sutra da osetiš.\n\nUprkos tome Dušan je bio zadovoljan.\n\nGrane moraju sat vremena da stoje u reci. U međuvremenu je Vaso izveo magarca, malog sivog Mikija, koji je bio stariji od svih automobila u Apatinu.\n\n— Ovo je Miki — rekao je. — On nosi štapove kad kolica ne mogu. Samo ga ne goni, jer će stati.\n\nDušan ga je lagano vodio kroz travu, a magarac je išao tačno onako kako je hteo. Svaki put kad bi mu Dušan rekao da ide brže, Miki bi stao i pogledao ga, kao da pita zašto se toliko žuri. Tek kad se Dušan opustio i prestao da ga goni, magarac je krenuo.\n\nPosle ručka počelo je pletenje. Vaso je uzeo tri štapa i savio ih jedan oko drugog, i dno korpe je počelo da raste. Dušanovi prsti ga nisu slušali.\n\n— Ne misli — rekao je Vaso. — Ruke znaju bolje od glave.\n\nU međuvremenu je prošlo popodne. Posle dva sata Dušan je imao nešto što je jedva ličilo na korpu. Imalo je dve rupe i nijednu ručku. Vaso ga je pogledao i rekao:\n\n— Za početnika je dobro. Moja prva korpa bila je gora. Jadnik ko je morao da je nosi.\n\nUveče, dok su sedeli pored vode, Dušan je shvatio da ceo dan nije pogledao u telefon. Reka je mirno prolazila, a magarac je jeo travu. Dušan je mislio o ponedeljku, o kancelariji, o poslu. Za trenutak mu se učinilo da zarobljenik više nije zarobljenik.\n\n— Doći ću opet — rekao je.\n\n— Doći ćeš — rekao je Vaso. — Svi dođu opet.\n\nPitanja:\nZašto je Dušan otišao na adu?\nOsećao se kao zarobljenik ekrana, pa je hteo da vidi kako radi stari majstor.\nKoje grane je Vaso tražio?\nTražio je sveže i tanke grane bez čvorova.\nŠta je Vaso rekao o magarcu Mikiju?\nRekao je da ga Dušan ne goni, jer će magarac stati.\nŠta se dešavalo dok su grane stajale u reci?\nU međuvremenu je Vaso izveo magarca.\nŠta je Dušan primetio uveče?\nPrimetio je da ceo dan nije pogledao u telefon."
+    }
+  ]
+}
