@@ -73,6 +73,9 @@ import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.theme.fontFamily
 import kotlin.math.roundToInt
 import com.tayra.languages.core.ui.components.ScrollColumn
+import androidx.compose.ui.layout.Layout
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.constrainWidth
 
 /** What the pane's links and tools open outside it. */
 internal class ReaderPaneActions(
@@ -255,16 +258,41 @@ private fun LabeledRow(icon: ImageVector?, title: String, control: @Composable R
     }
 }
 
-/** A setting named beside its [Segmented] choices, or above them on a phone. */
+/**
+ * A setting named beside its [Segmented] choices when both fit the pane at their natural widths,
+ * else above them, the choices then sharing the full width; always above them on a phone.
+ */
 @Composable
 private fun <T> SegmentedSetting(icon: ImageVector?, title: String, options: List<Pair<T, String>>, selected: T, onSelect: (T) -> Unit) {
-    if (LocalWindowWidth.current.isCompact) {
-        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+    val compact = LocalWindowWidth.current.isCompact
+    Layout(
+        content = {
             LabeledRow(icon, title) {}
             Segmented(options, selected, onSelect, Modifier.fillMaxWidth(), fill = true)
+        },
+    ) { (label, control), constraints ->
+        val gap = 14.dp.roundToPx()
+        val width = constraints.maxWidth
+        val controlWidth = control.maxIntrinsicWidth(constraints.maxHeight)
+        val beside = !compact && width != Constraints.Infinity && label.maxIntrinsicWidth(constraints.maxHeight) + gap + controlWidth <= width
+        if (beside) {
+            val labelWidth = width - gap - controlWidth
+            val l = label.measure(Constraints(minWidth = labelWidth, maxWidth = labelWidth, maxHeight = constraints.maxHeight))
+            val c = control.measure(Constraints(minWidth = controlWidth, maxWidth = controlWidth, maxHeight = constraints.maxHeight))
+            val height = maxOf(l.height, c.height)
+            layout(width, height) {
+                l.placeRelative(0, (height - l.height) / 2)
+                c.placeRelative(width - controlWidth, (height - c.height) / 2)
+            }
+        } else {
+            val l = label.measure(constraints.copy(minHeight = 0))
+            val c = control.measure(constraints.copy(minHeight = 0))
+            val below = l.height + 8.dp.roundToPx()
+            layout(constraints.constrainWidth(maxOf(l.width, c.width)), below + c.height) {
+                l.placeRelative(0, 0)
+                c.placeRelative(0, below)
+            }
         }
-    } else {
-        LabeledRow(icon, title) { Segmented(options, selected, onSelect) }
     }
 }
 

@@ -29,6 +29,7 @@ import org.koin.core.context.startKoin
 import org.junit.Rule
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.height
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.onNodeWithText
@@ -91,6 +92,7 @@ import java.io.File
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
+import androidx.compose.ui.test.getBoundsInRoot
 
 class ReadingHoverTest {
 
@@ -342,6 +344,31 @@ class ReadingHoverTest {
         }
         rule.onNodeWithText("Justified").performScrollTo().performClick()
         rule.waitUntil(5_000) { settings.current.readingJustified }
+    }
+
+    /** A long setting name, as in Russian, goes above its choices rather than being squeezed beside them. */
+    @Test
+    fun aLongSettingNameGoesAboveItsChoices() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        com.tayra.languages.core.ui.i18n.UiLanguage.set("ru")
+        try {
+            rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+            rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+            rule.onNodeWithContentDescription("Меню").performClick()
+            rule.waitUntil(5_000) { rule.onAllNodesWithText("Предложения").fetchSemanticsNodes().isNotEmpty() }
+            rule.onNodeWithText("Предложения").performScrollTo()
+            System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
+                rule.waitForIdle()
+                javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File("$path-ru.png"))
+            }
+            val title = rule.onNodeWithText("Предложения").getBoundsInRoot()
+            val choice = rule.onNodeWithText("По одному в строке").getBoundsInRoot()
+            assertTrue(title.height < 40.dp, "one line, not one letter per line: ${title.height}")
+            assertTrue(choice.top >= title.bottom, "the choices sit below the name")
+        } finally {
+            com.tayra.languages.core.ui.i18n.UiLanguage.set("en")
+        }
     }
 
     /** Typography offers the reading fonts; picking one saves it and the row shows it. */
