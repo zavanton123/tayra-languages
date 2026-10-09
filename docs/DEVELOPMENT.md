@@ -178,16 +178,20 @@ inflates it in its own sql.js worker, which needs the pack host to allow cross-o
 
 The ready-made courses of a language are one download, offered in Settings > Courses: a
 gzip-compressed SQLite file (tables `meta`, `courses`, `lessons`) listed in `CoursePacks` and
-published as an asset of the `courses-v1` GitHub release; there are packs for `pt`, `en`, `de`, `fr` and `es`.
+published as an asset of the `courses-v1` GitHub release; there are packs for `pt`, `en`, `de`, `fr`, `es` and `ru`.
 `tools/build_courses.py --language <code>` checks each course in `tools/courses/<code>/` (written as its `BRIEF.md` says) and writes
 `course-packs/courses-<code>.sqlite.gzip` (ignored by git); upload that file to the release and
 update `downloadSize` in `CoursePacks`. If the layout changes, bump `FORMAT` in the script and in
 `CoursePack`. A language's courses can pin the word list they were written against as
 `tools/courses/<code>/wordlist.tsv`; `tools/check_course.py` then reads it instead of the app's list,
-so rebuilding the app's frequency list does not shift the courses' bands (German, French and Spanish do this).
+so rebuilding the app's frequency list does not shift the courses' bands (German, French, Spanish and Russian do this).
 For Spanish the checker also splits the pronouns attached to a verb (*dándoselo* is *dando* + *se* +
 *lo*), counts a name of several words or with a hyphen (*San José*, *al-Ándalus*) as one known word,
 and reads capital Roman numerals (*siglo XVI*) as numbers.
+For Russian it folds ё into е, splits words at hyphens, skips the ending of an ordinal after digits (*5-го*), reads
+Roman numerals as numbers, and accepts the case forms of the names a course lists (*Анна*, *Анны*, *Анной*).
+For Italian it splits elisions (*l'amico*, *c'è*), counts the pronouns attached to a verb (*dimmelo*, *mangiarlo*)
+as words of their own, and credits a list word written whole (*farci*) even where it also splits that way.
 
 Installing a pack stores it like a dictionary pack and writes its courses into the database as
 samples for every language it teaches, also ones added later. A pack lists a course's tags as
