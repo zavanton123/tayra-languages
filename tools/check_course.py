@@ -94,7 +94,7 @@ def load_list(code):
     return ranks, words
 
 
-def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None):
+def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=None):
     if code == "fr":
         return french_tokens(text, ranks)
     if code == "es":
@@ -102,7 +102,7 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None):
     if code == "ru":
         return russian_tokens(text)
     if code == "it":
-        return italian_tokens(text, ranks, names, verbs)
+        return italian_tokens(text, ranks, names, verbs, heads)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -284,7 +284,7 @@ def italian_verb_forms(words):
 ITALIAN_LISTED_COMPOUNDS = {"dimmi", "fammi", "fallo", "falla", "eccomi", "eccolo", "ditemi", "fatemi", "vattene", "dammi"}
 
 
-def italian_clitics(word, ranks, verbs=None, listed=False):
+def italian_clitics(word, ranks, verbs=None, listed=False, heads=None):
     """
     A verb carrying pronouns split into the verb and them, as a learner reads it: mangiarlo is
     mangiare + lo, dimmelo is di + me + lo, guardandolo is guardando + lo, eccomi is ecco + mi. The
@@ -294,6 +294,9 @@ def italian_clitics(word, ranks, verbs=None, listed=False):
     lower = word.lower()
     if listed and lower in ITALIAN_LISTED_COMPOUNDS:
         listed = False
+    elif listed and heads is not None and lower not in heads:
+        # A form the list files under a verb (parla, under parlare) is that verb's, not pare + la.
+        return None
     elif listed:
         # A word the list holds is only taken for verb and pronouns when it is an apocopated infinitive with them
         # (farmi, dirlo, esserci, alzarsi): parola, bene and portale are words.
@@ -320,7 +323,7 @@ def italian_clitics(word, ranks, verbs=None, listed=False):
     return None
 
 
-def italian_tokens(text, ranks, names=frozenset(), verbs=None):
+def italian_tokens(text, ranks, names=frozenset(), verbs=None, heads=None):
     """
     Italian words as the reader counts them: elisions come off the front (l'amico is l + amico,
     dell'acqua is dell + acqua, c'è is c + è) except the words the list has whole, and a verb's
@@ -329,7 +332,13 @@ def italian_tokens(text, ranks, names=frozenset(), verbs=None):
     out = []
     for token in french_tokens(re.sub(r"(?<=\d)[ºª°]", "", text), ranks):
         lower = token.lower()
-        split = None if lower in names else italian_clitics(token, ranks, verbs, listed=lower in ranks)
+        # An elided pair the list holds as a word of its own at a higher rank than its parts (com'è) counts as the parts.
+        if "'" in token and lower in ranks:
+            parts = [part for part in token.split("'") if part]
+            if len(parts) > 1 and all(part.lower() in ranks for part in parts) and ranks[lower] > max(ranks[part.lower()] for part in parts):
+                out.extend(parts)
+                continue
+        split = None if lower in names else italian_clitics(token, ranks, verbs, listed=lower in ranks, heads=heads)
         out.extend(split or [token])
     return out
 
@@ -357,7 +366,7 @@ def check(path, brief=False):
         for name in long_names:
             whole_names += text.count(name)
             text = text.replace(name, " ")
-        toks = tokens(text, code, ranks, names, verbs)
+        toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
