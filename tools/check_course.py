@@ -49,6 +49,9 @@ def fold(code, word):
     # The French list writes the straight apostrophe; texts may use the curly one.
     if code == "fr":
         return word.replace("’", "'")
+    # Russian texts for learners write ё where it belongs, while the list holds both spellings of most words.
+    if code == "ru":
+        return word.replace("ё", "е")
     return word
 
 
@@ -91,6 +94,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None):
         return french_tokens(text, ranks)
     if code == "es":
         return spanish_tokens(text, ranks, names, verbs)
+    if code == "ru":
+        return russian_tokens(text)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -128,6 +133,33 @@ def french_tokens(text, ranks):
 
 
 ROMAN = re.compile(r"(?=[IVXLC])M{0,3}(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})")
+
+def russian_tokens(text):
+    """Russian words, split at hyphens; the ending of an ordinal glued to its digits (5-го, 20-м) is not a word."""
+    out = []
+    for match in WORD.finditer(text):
+        start = match.start()
+        if start >= 2 and text[start - 1] == "-" and text[start - 2].isdigit():
+            continue
+        out.append(match.group(0))
+    return out
+
+
+def russian_name_stems(names):
+    """
+    What a name's case endings leave: Анна, Анну, Анной all start with "анн". Only names of three
+    letters or more give a stem, and a form may add up to four letters to it.
+    """
+    stems = set()
+    for name in names:
+        n = name.lower().replace("ё", "е")
+        if " " in n or "-" in n:
+            continue
+        stem = n[:-1] if n[-1] in "аяоеиыьй" else n
+        if len(stem) >= 3:
+            stems.add(stem)
+    return stems
+
 
 # Object pronouns a Spanish verb can carry at its end, longest first so "les" goes before "le".
 SPANISH_CLITICS = ("los", "las", "les", "nos", "os", "lo", "la", "le", "me", "te", "se")
@@ -222,7 +254,8 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True) if code == "es" else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True) if code in ("es", "ru") else []
+    name_stems = russian_name_stems(course.get("names", [])) if code == "ru" else set()
     seen_new = set()
     ok = True
     report = []
@@ -234,7 +267,7 @@ def check(path, brief=False):
             text = text.replace(name, " ")
         toks = tokens(text, code, ranks, names, verbs)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
-        if code == "es":
+        if code in ("es", "ru"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals
@@ -246,7 +279,7 @@ def check(path, brief=False):
             # An English possessive ("emma's") counts as its word: the list has few of them.
             if t.endswith(("'s", "’s")) and t not in ranks and len(t) > 2:
                 t = t[:-2]
-            if t in names_here:
+            if t in names_here or (name_stems and any(t.startswith(stem) and len(t) <= len(stem) + 4 for stem in name_stems)):
                 known += 1
                 continue
             rank = ranks.get(t)
