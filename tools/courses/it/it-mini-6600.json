@@ -1,0 +1,219 @@
+{
+  "id": "it-mini-6600",
+  "rankUpTo": 6600,
+  "level": "C1",
+  "title": "Dal campo alla tavola",
+  "description": "Ten calm everyday texts about food on its way from the land to the table: Grana Padano near Lodi, a shepherd's diary in Sardinia, the fish stalls of Rialto, a Ligurian pesto, coffee in Trieste, bread in Pompeii, a school vegetable garden, a rooftop farm in Milan, the olive harvest in Umbria and the beans of a Veneto valley.",
+  "topic": "Farm to table",
+  "names": [
+    "Lodi",
+    "Franco",
+    "Matteo",
+    "Genova",
+    "Olbia",
+    "Salvatore",
+    "Gallura",
+    "Sardegna",
+    "Tullio",
+    "Marco",
+    "Venezia",
+    "Rialto",
+    "Canal Grande",
+    "Bruna",
+    "Gino",
+    "Bruno",
+    "Rosa",
+    "Chiara",
+    "Piero",
+    "Franca",
+    "Riviera di Levante",
+    "Levante",
+    "Trieste",
+    "Sergio",
+    "Kos",
+    "Brasile",
+    "Europa",
+    "America",
+    "Pompei",
+    "Ferri",
+    "Bellandi",
+    "Anna",
+    "Davide",
+    "Luca",
+    "Bologna",
+    "Carducci",
+    "Elena",
+    "Milano",
+    "Italia",
+    "Ines",
+    "Spoleto",
+    "Tonino",
+    "Umbria",
+    "Gemma",
+    "Belluno",
+    "Piave"
+  ],
+  "lessons": [
+    {
+      "title": "Il marchio sulla forma",
+      "summary": "A niece visits her uncle's dairy near Lodi and watches an expert inspect Grana Padano wheels before they get their official mark.",
+      "newWords": [
+        "grana",
+        "padano",
+        "impresso",
+        "oculare",
+        "selettivo",
+        "verdetto",
+        "misurazione",
+        "regolarità",
+        "perlomeno",
+        "solenne"
+      ],
+      "text": "Mio zio Franco lavora da vent'anni in un caseificio vicino a Lodi, nel cuore della Pianura Padana, e domenica scorsa mi ha portata con sé per vedere come nasce il grana. Siamo arrivati alle 6 del mattino, quando fuori c'era ancora la nebbia. Nella grande sala le forme riposavano su scaffali altissimi, una sopra l'altra, come libri in una biblioteca di formaggio.\n\n«Questo è il Grana Padano» mi ha detto lo zio, con la voce di chi presenta un vecchio amico. «Ogni forma ha la sua storia, e la porta scritta sulla crosta.» Ho guardato meglio: sul bordo di ogni forma erano impressi un numero, il nome del caseificio e il mese in cui era stata fatta. Il marchio, mi ha spiegato, viene impresso dai casari nei primi giorni, quando il formaggio è ancora tenero, e poi rimane per sempre.\n\nPoi è arrivato l'esperto del consorzio, un uomo magro con un piccolo martello d'acciaio in mano. Il suo lavoro è molto selettivo: ogni forma deve passare un esame, e non tutte lo superano. Prima fa un controllo oculare, osserva la crosta da vicino e cerca crepe o macchie. «Con un buon controllo oculare si capisce già molto» mi ha detto, «ma l'esame più severo è quello dell'orecchio. Qui siamo molto selettivi.» Poi batte il martello in vari punti e ascolta il suono, con l'orecchio quasi appoggiato al formaggio. Nella sala era sceso un silenzio solenne, e perfino io ho trattenuto il fiato. Per me quella stanza aveva qualcosa di solenne, come in un museo del latte.\n\n«Un suono pieno è buon segno» ha sussurrato lo zio. «Un suono vuoto vuol dire che dentro ci sono dei buchi.»\n\nIntanto un'assistente faceva la misurazione dell'altezza e del peso e segnava i numeri su un foglio. Una misurazione sbagliata, dice lo zio, può rovinare il lavoro di mesi, e la regolarità conta moltissimo: una forma che ha sempre la stessa altezza e la stessa crosta liscia è il segno di un lavoro fatto bene, giorno dopo giorno. «Chi ha pazienza, e perlomeno un po' di fortuna con il latte, ottiene forme così» ha aggiunto. Quest'anno il fieno è stato ottimo, perché l'estate non è stata troppo secca, e le mucche hanno dato un latte ricco.\n\nQuando l'esperto ha finito, ha scritto qualcosa sul registro e ha alzato lo sguardo. Il verdetto era positivo: la forma che aveva esaminato poteva ricevere il marchio ufficiale. Lo zio ha sorriso e ha detto che un verdetto così vale più di un diploma. Dopo, in un piccolo ufficio, mi ha tagliato una scaglia di grana di due anni. Era dura, dolce e salata insieme, e ancora oggi ne ricordo il sapore. Ho promesso allo zio che tornerò, perlomeno per vedere la prossima forma.\n\nDomande:\nDove lavora lo zio Franco?\nLavora in un caseificio vicino a Lodi, nella Pianura Padana.\nChe cosa è impresso sul bordo di ogni forma?\nSul bordo sono impressi un numero, il nome del caseificio e il mese in cui la forma è stata fatta.\nPerché l'esperto batte la forma con il martello?\nPerché ascolta il suono per capire se dentro ci sono dei buchi.\nChe cosa significa la regolarità, per lo zio?\nSignifica che le forme hanno sempre la stessa altezza e la stessa crosta liscia.\nQual è il verdetto dell'esperto?\nIl verdetto è positivo: la forma può ricevere il marchio ufficiale."
+    },
+    {
+      "title": "Il diario del pastore",
+      "summary": "A teenager from Genoa spends a week at his uncle's sheepfold in Sardinia and records vaccinations, a storm, a newborn lamb and a night in a stone hut.",
+      "newWords": [
+        "traghetto",
+        "distare",
+        "capanna",
+        "vaccinazione",
+        "cresta",
+        "picchiata",
+        "lunare",
+        "irruzione",
+        "parare",
+        "culla"
+      ],
+      "text": "Diario di Matteo\n\nLunedì 4 agosto. Il traghetto da Genova è arrivato a Olbia con due ore di ritardo, ma zio Salvatore era ancora sul molo ad aspettarmi, con il cappello in mano e la faccia di sempre. Il suo ovile dista un'ora di macchina dal porto, in mezzo alle colline della Gallura, e l'ultimo tratto è una strada bianca piena di buche. Per cena c'erano formaggio fresco, pane carasau e un'aria così pulita che mi girava la testa. Dopo cena lo zio mi ha portato a vedere la capanna di pietra in cima al pascolo, dove dormiva suo nonno quando saliva con le pecore. Dentro ci sono solo una panca, un focolare e una finestrella. «Questa capanna ha più di cento anni, e non è mai crollata» ha detto. Ho deciso che una notte dormirò lì.\n\nMartedì 5. Questa mattina sono arrivati due veterinari per la vaccinazione delle pecore. È un lavoro lento: ogni animale va preso, vaccinato e segnato con una macchia di colore sulla lana, così nessuna pecora riceve la vaccinazione due volte. Io tenevo ferme le più agitate. Una piccola è scappata verso la cresta della collina e io le sono corso dietro, finché sono scivolato e sono rotolato giù per il pendio. «Che picchiata!» ha commentato lo zio, e tutti hanno riso. Per fortuna non mi sono fatto niente.\n\nMercoledì 6. Lo zio non guarda il telefono per decidere che cosa fare: guarda il calendario lunare appeso in cucina. «Con la luna calante si taglia il fieno e si sistema il recinto» dice, e ho scoperto che sbaglia molto di rado. Verso le 4 i campi erano immobili, e uno stormo di rondini è sceso in picchiata sul pascolo, quasi toccando l'erba. «Arriva un temporale» ha detto lo zio. Poco dopo c'è stata un'irruzione d'aria fredda dal nord, e il cielo è diventato nero in pochi minuti. Abbiamo corso a parare l'orto con grandi teli di plastica. Lo zio, che da ragazzo faceva il portiere, mi ha gridato che parare la grandine è più difficile che parare un rigore. Ci siamo riusciti: l'orto è salvo.\n\nGiovedì 7. Nella notte è nato un agnellino, il più piccolo del gregge. Lo zio ha preparato una culla con una cassetta di legno e un po' di fieno e l'ha messa vicino al focolare, in cucina. Ho dato il latte al piccolo con il biberon e sono rimasto quasi tutto il giorno a guardarlo dormire nella culla.\n\nVenerdì 8. Ho dormito nella capanna di pietra. All'inizio sentivo ogni rumore, poi il silenzio è diventato così grande che mi sono addormentato. All'alba sono salito sulla cresta, con il sole che spuntava dietro il mare, e ho capito perché lo zio non lascerebbe mai questo posto.\n\nSabato 9. Domani riprendo il traghetto per Genova. Lo zio mi ha regalato un formaggio, un pezzo di lana e una frase: «Torna quando vuoi, la capanna ti aspetta».\n\nDomande:\nQuanto dista l'ovile dal porto di Olbia?\nL'ovile dista un'ora di macchina dal porto.\nChe cosa fanno i veterinari martedì?\nFanno la vaccinazione delle pecore e le segnano con una macchia di colore.\nCome decide lo zio i lavori da fare?\nGuarda il calendario lunare appeso in cucina.\nChe cosa succede mercoledì pomeriggio?\nArriva un temporale, con un'irruzione d'aria fredda, e i due coprono l'orto con i teli.\nDove dorme l'agnellino?\nDorme in una culla fatta con una cassetta di legno, vicino al focolare."
+    },
+    {
+      "title": "Sotto la loggia di Rialto",
+      "summary": "A boy in Venice runs his grandfather's fish stall for an hour and meets customers, a fisherman and a middleman.",
+      "newWords": [
+        "loggia",
+        "visuale",
+        "eccitato",
+        "concittadino",
+        "mediatore",
+        "fanatico",
+        "creditore",
+        "naufragio",
+        "proverbio",
+        "bizantino"
+      ],
+      "text": "Ogni mattina alle 5 il nonno Tullio apre la sua bancarella sotto la loggia del mercato di Rialto, a Venezia, e da quando ha compiuto 14 anni anche suo nipote Marco lo aiuta. Dalla loggia la visuale arriva fino al Canal Grande, dove le barche scaricano cassette di pesce ancora fresco, e l'aria sa di sale e di alghe. È una visuale che Marco non si stanca mai di guardare.\n\nOggi Marco è eccitato, perché il nonno gli ha promesso che per un'ora potrà occuparsi da solo del banco. «I clienti sono nostri concittadini» gli dice il nonno prima di uscire, «perciò non sbagliare con il peso, e sorridi.» Poi se ne va a parlare con il mediatore, un uomo basso con un quaderno pieno di numeri, che ogni mattina mette in contatto i pescatori e i venditori e discute il prezzo con tutti.\n\nIl primo cliente è la signora Bruna, una concittadina che abita a due passi e compra sempre le sarde. Dopo di lei arriva il signor Gino, fanatico delle sarde in saor, che le mangia tre volte alla settimana e ne parla come di un'opera d'arte. «Tuo nonno le fa meglio di tutti» dice a Marco, e Marco, ancora più eccitato, mette nella carta il pesce migliore.\n\nVerso le 7 passa anche Bruno, il pescatore che porta al nonno il pesce della laguna. Il nonno gli deve ancora i soldi dell'ultima settimana, ma Bruno non è un creditore impaziente. «Un creditore paziente vale quanto un amico» ripete sempre il nonno. Mentre aspetta il caffè, Bruno racconta a Marco del suo naufragio: qualche anno fa, nella nebbia, la sua barca è finita contro un palo e si è riempita d'acqua. Un piccolo naufragio, senza feriti, ma Bruno ricorda ancora il freddo dell'acqua. «Da allora rispetto la laguna» dice. «E controllo sempre l'orologio, perché chi dorme non piglia pesci, ma chi corre troppo non torna a casa.» Marco non sapeva che fosse un proverbio e lo scrive sulla mano, per non dimenticarlo. Il nonno, quando lo viene a sapere, dice che a Rialto ogni mestiere ha il suo proverbio, e che il più vero è sempre quello che si impara per primo.\n\nQuando il nonno torna, il banco è quasi vuoto. Il mediatore, che lo ha seguito fin lì, gli dà ragione sul prezzo delle seppie e se ne va con un sorriso. Il nonno guarda i soldi nella cassetta, poi guarda Marco, e capisce che l'ora è passata benissimo.\n\nPiù tardi mangiano un panino seduti sul bordo del canale. Il nonno indica l'edificio di fronte, con i suoi archi sottili: «Guarda, è di stile bizantino. Venezia ha preso dall'Oriente molte cose, e i veneziani le hanno fatte diventare loro. Sotto quegli archi si vende il pesce da quasi mille anni.» Marco alza gli occhi, guarda quel palazzo bizantino e per la prima volta pensa che anche il suo piccolo banco fa parte di una storia molto lunga.\n\nDomande:\nPerché Marco è eccitato?\nPerché il nonno gli ha promesso che per un'ora potrà occuparsi da solo del banco.\nChe cosa fa il mediatore?\nMette in contatto i pescatori e i venditori e discute il prezzo con tutti.\nChe cosa piace al signor Gino?\nGli piacciono le sarde in saor: ne è fanatico.\nPerché Bruno non è un creditore impaziente?\nPerché aspetta con pazienza i soldi che il nonno gli deve.\nChe cosa ricorda Bruno del suo naufragio?\nRicorda il freddo dell'acqua e la barca che si è riempita nella nebbia."
+    },
+    {
+      "title": "Il pesto e il dado",
+      "summary": "A girl helps her grandmother make vegetable soup with pesto on the Ligurian coast, and the grandmother and an aunt disagree about stock cubes.",
+      "newWords": [
+        "riviera",
+        "zuppa",
+        "dado",
+        "sugo",
+        "detestare",
+        "gradire",
+        "avorio",
+        "macchiato",
+        "litigio",
+        "scolpito",
+        "formulazione"
+      ],
+      "text": "Ogni domenica d'estate Chiara va con i genitori dalla nonna Rosa, in un paese della Riviera di Levante, dove le case colorate scendono fino al mare e gli orti salgono sulle terrazze. Tutta la riviera, in quella stagione, profuma di basilico e di sole. Oggi la nonna prepara la zuppa di verdure con il pesto, e Chiara, che ha 12 anni, deve aiutarla.\n\nNell'orto raccolgono i fagiolini, le zucchine e le patate, e poi, naturalmente, il basilico. La nonna lo taglia con mano leggera, come se avesse paura di fargli male. «Il basilico della riviera» dice «ha un profumo che non si trova altrove.» In cucina c'è un mortaio di marmo color avorio, grande quanto un secchio, e accanto un pestello di legno scolpito dal nonno Piero tanti anni fa, con la testa di un uccello. Chiara lo prende in mano e comincia a pestare le foglie con l'aglio e un pizzico di sale.\n\nSul fornello intanto cuoce piano il sugo di pomodoro per i ravioli. Poco dopo arriva la zia Franca con una busta. «Ho portato il dado» annuncia «così il brodo viene più buono, e anche il sugo.» La nonna alza gli occhi dal tagliere. «In questa casa il dado non entra» risponde. «Io detesto il dado, lo sai. Il mio sugo ha bisogno soltanto di pomodori buoni e di tempo.» La zia risponde che il dado fa risparmiare tempo, la nonna che il tempo si deve dare alle cose buone, e in un minuto tra le due nasce un piccolo litigio. Chiara, con il pestello in mano, non sa che cosa dire. Il suo grembiule è già macchiato di verde, e anche una guancia è macchiata di pesto.\n\nPer fortuna la nonna non sa tenere il muso a lungo. Prende un foglio vecchio dal cassetto e lo mette davanti alla zia. È la ricetta della bisnonna, scritta a penna, con una formulazione che fa impazzire tutti: «basilico quanto basta, olio fino a quando sembra giusto». «Vedi?» dice la nonna. «Anche lei non usava il dado, e nessuno si è mai lamentato.» La zia comincia a ridere, e il litigio finisce lì.\n\nQuando il pesto è pronto, ha un colore verde brillante e un odore che riempie la cucina. La nonna ne versa un cucchiaio nella zuppa fumante. «Gradisci un assaggio?» chiede alla zia, con un sorriso. La zia assaggia, chiude gli occhi e non dice niente per un momento. Poi dice: «Gradisco anche il bis». Chiara è felice. Nessuno parla più del dado, e la busta resta sul tavolo, chiusa, fino a sera.\n\nDomande:\nDove abita la nonna Rosa?\nAbita in un paese della Riviera di Levante.\nChe cos'è il mortaio della nonna?\nÈ un mortaio di marmo color avorio, con un pestello di legno scolpito dal nonno Piero.\nPerché la nonna detesta il dado?\nPerché pensa che il tempo si debba dare alle cose buone, non ai prodotti pronti.\nChe cosa c'è di strano nella ricetta della bisnonna?\nLa formulazione è vaga: «basilico quanto basta, olio fino a quando sembra giusto».\nCome finisce il litigio?\nLa zia comincia a ridere, assaggia la zuppa e dice che gradisce anche il bis."
+    },
+    {
+      "title": "Il caffè di Trieste",
+      "summary": "A university student interviews an old coffee roaster near the port of Trieste about beans, supply and a few local stories.",
+      "newWords": [
+        "ateneo",
+        "slavo",
+        "sudamericano",
+        "contingente",
+        "insufficienza",
+        "petrolifero",
+        "plausibile",
+        "attendibile",
+        "novella",
+        "drink"
+      ],
+      "text": "Per la mia tesi all'ateneo di Trieste ho deciso di studiare la storia del caffè nella mia città, e questa mattina ho incontrato il signor Sergio Kos, che tosta caffè da quarant'anni in un piccolo laboratorio vicino al porto. Il suo cognome è slavo, ma lui si definisce triestino da cinque generazioni. «Qui tutti hanno un nonno di qualche altro posto» mi ha detto, ridendo.\n\nIl laboratorio profuma di pane tostato. Dalla finestra si vedono le gru e, più in là, le grandi cisterne del porto petrolifero. «Ho cominciato nel 1979, durante la crisi petrolifera» mi ha raccontato. «Allora i prezzi salivano ogni settimana, e il caffè che arrivava dal Brasile costava il doppio. Ma la gente non rinunciava alla tazzina.» Sul pavimento c'erano i sacchi di caffè sudamericano, in tela di juta, con il nome della fattoria stampato sopra. «Il caffè sudamericano è il mio pane» ha detto. «Ma anche quello africano ha il suo posto.» Sergio ne ha aperto uno e mi ha fatto sentire l'odore: erba, frutta secca e un po' di fumo.\n\nGli ho chiesto perché a Trieste si beve così tanto caffè. «Una spiegazione plausibile è il porto» ha risposto. «Le navi portavano i chicchi dall'America, e qui si lavoravano e si rivendevano in tutta l'Europa centrale.» Poi ha alzato un dito: «Ma attenta alle leggende. Su internet si legge di tutto, e non ogni fonte è attendibile. Una fonte attendibile è un vecchio registro del porto, non un blog.» Ho annotato la frase. Un'altra ipotesi plausibile, ha aggiunto, è il clima umido, che fa venire voglia di qualcosa di caldo: ma questa è soltanto una teoria.\n\nQuest'anno, però, Sergio è preoccupato. Il raccolto in Brasile è stato insufficiente a causa della siccità, e il fornitore ha ridotto il contingente che gli spetta. «Con questa insufficienza di caffè dovrò tostare meno e spiegare ai clienti perché il prezzo sale. Un'insufficienza così non la vedevo da dieci anni, ma è sempre stato così: un anno buono, un anno cattivo.»\n\nPrima di salutarmi ha preparato un caffè e ci ha servito una fetta di gubana, un dolce di tradizione slava che sua moglie fa ogni sabato. Mentre mangiavamo, mi ha raccontato una novella che gli raccontava il padre. È una novella breve: quella di un marinaio che, ogni volta che tornava a Trieste, andava a bere un caffè nello stesso bar, e per questo il barista, vedendolo, metteva già l'acqua sul fuoco. «Una storia semplice» ha commentato «ma ci dice tutto del nostro rapporto con il caffè.»\n\nPer l'estate Sergio ha anche inventato un drink freddo, con caffè, ghiaccio e un po' di latte di mandorla. «Un drink senza alcol, per chi ha caldo e sete» lo definisce. L'ho assaggiato sul molo, con le gambe che dondolavano sul mare: sapeva di vacanza. Ho promesso che lo citerò nella tesi, e che i professori dell'ateneo, se vorranno, potranno assaggiarlo.\n\nDomande:\nChe cosa studia l'autrice all'ateneo di Trieste?\nStudia la storia del caffè nella sua città.\nChe cosa si vede dalla finestra del laboratorio?\nSi vedono le gru e le cisterne del porto petrolifero.\nPerché Sergio è preoccupato quest'anno?\nPerché il raccolto in Brasile è stato insufficiente e il fornitore ha ridotto il contingente.\nChe cosa significa una fonte attendibile, per Sergio?\nSignifica una fonte sicura, come un vecchio registro del porto.\nChe cos'è la gubana?\nÈ un dolce di tradizione slava che la moglie di Sergio prepara ogni sabato."
+    },
+    {
+      "title": "Il pane di Pompei",
+      "summary": "A student e-mails her professor notes from a visit to a Roman bakery in Pompeii, about carbonised loaves, mills, farmers and an open question.",
+      "newWords": [
+        "ritrovamento",
+        "manufatto",
+        "monumentale",
+        "liberto",
+        "colono",
+        "discendere",
+        "paragonabile",
+        "interrogativo",
+        "dossier"
+      ],
+      "text": "Oggetto: il pane di Pompei, appunti per il dossier\n\nGentile professoressa Ferri,\n\ncome promesso Le scrivo dopo la visita di ieri a Pompei, con gli appunti per il dossier sul pane nel mondo romano. Spero che Le siano utili.\n\nSiamo entrati nel panificio vicino alla via principale, uno dei meglio conservati. Il ritrovamento più famoso, qui, è quello dei pani carbonizzati: ne sono stati trovati più di ottanta nel forno, ancora al loro posto, come se il panettiere fosse uscito un momento. Ognuno ha otto tagli sulla superficie, per dividerlo in parti uguali. Alcuni, ha spiegato la guida, portavano impresso il marchio del panettiere. Ho fotografato il ritrovamento da ogni lato. Ogni pane è un piccolo manufatto, con il suo disegno e la sua forma, e sembra quasi un'opera d'arte.\n\nNella sala accanto ci sono le macine di pietra vulcanica, monumentali: ognuna è alta quasi quanto me, e veniva girata da un asino o da due uomini. Anche il forno ha una struttura monumentale, con una grande volta di mattoni. Ogni manufatto di quella stanza, dalla macina al forno, serve a una sola cosa, trasformare il grano in pane. La guida dice che il proprietario era forse un liberto, cioè uno schiavo liberato che aveva fatto fortuna con il suo lavoro. Questo, secondo me, è un dettaglio importante: il pane non era soltanto cibo, ma anche un modo per cambiare la propria vita.\n\nIl grano arrivava dalla campagna intorno alla città, coltivata da coloni che pagavano una parte del raccolto al padrone della terra. Molti pompeiani, mi ha ricordato la guida, discendevano da famiglie arrivate lì come coloni dopo la conquista romana. Anche il vocabolario della cucina discende da quel mondo: la parola «pane» non è cambiata molto.\n\nUn confronto mi ha colpito. Il forno di Pompei, con la sua volta bassa, è paragonabile a un moderno forno a legna, e il pane si cuoceva più o meno nello stesso modo. Le differenze sono nel grano, più duro e meno raffinato, e nel tempo di cottura. Ho confrontato i dati con un libro di cucina storica, ma non so ancora quanto sia attendibile, perciò Le chiedo di controllarlo.\n\nRimane un interrogativo che vorrei portare al seminario: come conservavano la farina, in una città dove d'estate faceva così caldo? La guida non lo sapeva, e nemmeno io. Forse la risposta si trova nel registro di un altro scavo. Mi piacerebbe inserire anche questo interrogativo nel dossier, come punto di partenza per una ricerca futura.\n\nAllego le foto del forno e delle macine. Resto a disposizione per qualsiasi correzione.\n\nCon i migliori saluti,\nChiara Bellandi\n\nDomande:\nChe cosa è stato trovato nel forno?\nSono stati trovati più di ottanta pani carbonizzati, ancora al loro posto.\nChe cosa fa pensare che il proprietario fosse un liberto?\nLa guida dice che era forse uno schiavo liberato che aveva fatto fortuna.\nChi coltivava il grano intorno alla città?\nLo coltivavano i coloni, che pagavano una parte del raccolto al padrone della terra.\nA che cosa è paragonabile il forno di Pompei?\nÈ paragonabile a un moderno forno a legna.\nQual è l'interrogativo di Chiara?\nSi chiede come conservassero la farina quando faceva caldo."
+    },
+    {
+      "title": "L'orto della scuola",
+      "summary": "A shy boy in Bologna and a classmate who teased him end up working together in the new school vegetable garden.",
+      "newWords": [
+        "bullo",
+        "bullismo",
+        "complicità",
+        "concordia",
+        "scorretto",
+        "candidarsi",
+        "privare",
+        "gesso"
+      ],
+      "text": "Alla scuola media Carducci di Bologna, la maestra Anna ha deciso di trasformare il cortile in un orto. «I pomodori non nascono al supermercato» dice ai suoi alunni, «nascono qui, nella terra.» Per tutta la classe la notizia è una festa, tranne che per Davide, 12 anni, un ragazzo timido che preferisce stare in silenzio.\n\nIl problema si chiama Luca. Luca è il bullo della classe, e da settembre prende in giro Davide per gli occhiali e per la voce. Quando la maestra distribuisce i primi semi, Luca ne butta via un pacchetto, con una risata, e Davide non dice niente. È un comportamento molto scorretto, e la maestra Anna lo ha visto. Anche i compagni lo sanno: buttare i semi di un altro è scorretto, e nessuno ride davvero. Non grida e non punisce nessuno davanti agli altri. Prende un pezzo di gesso, si gira verso la lavagna e scrive una parola grande: «Rispetto». Poi aspetta che la classe sia in silenzio.\n\n«Nella mia scuola il bullismo non esiste» dice. «Il bullismo comincia con una piccola scorrettezza e finisce per far stare male qualcuno. E nel mio orto non c'è posto per chi rovina il lavoro degli altri. Non voglio privare nessuno della gioia di veder crescere una pianta.» Luca abbassa gli occhi. Per la prima volta nessuno ride.\n\nLa maestra scrive di nuovo con il gesso: «Chi vuole candidarsi come responsabile dell'orto?» Il nonno di Davide, che ha un orto vero, ha dato a Davide un quaderno pieno di consigli. Davide, con il cuore che batte forte, alza la mano. «Mi candido io» dice piano. Nessun altro si fa avanti, nemmeno Luca.\n\nPer una settimana Davide dirige il lavoro, e scopre che sa molte cose: quando seminare, quanta acqua dare, come proteggere le piantine dal sole. Luca lo osserva, poi un giorno si avvicina e chiede di aiutarlo a zappare. «Non voglio privarti del tuo lavoro» gli dice Davide, quasi senza accorgersene. «Ma se vuoi, puoi portare l'acqua.» Luca sorride, per la prima volta senza cattiveria. Da quel giorno tra i due nasce una strana complicità: lavorano fianco a fianco, parlano di calcio e di pomodori, e la concordia della classe cresce insieme alle piante.\n\nA giugno raccolgono le prime zucchine, e la mensa le prepara per tutta la scuola. La maestra scrive di nuovo con il gesso, questa volta una frase: «Dalla terra alla tavola, insieme». Luca e Davide mangiano seduti vicini. Nessuno dice niente, ma tutti hanno capito.\n\nDomande:\nChe cosa decide di fare la maestra Anna?\nDecide di trasformare il cortile della scuola in un orto.\nPerché Luca è il bullo della classe?\nPerché prende in giro Davide per gli occhiali e per la voce.\nChe cosa scrive la maestra con il gesso?\nScrive «Rispetto» e poi chiede chi vuole candidarsi come responsabile dell'orto.\nChi si candida?\nSi candida Davide, con l'aiuto del quaderno del nonno.\nChe cosa succede tra Luca e Davide?\nNasce una complicità: lavorano insieme e la concordia della classe cresce."
+    },
+    {
+      "title": "Un orto sopra la città",
+      "summary": "A journalist profiles Elena, who left a telecom company to run a rooftop farm in Milan.",
+      "newWords": [
+        "metropoli",
+        "avanguardia",
+        "telecomunicazioni",
+        "specialistico",
+        "orbita",
+        "reattore",
+        "cinico",
+        "battito",
+        "lavoriamo",
+        "stamani"
+      ],
+      "text": "Sul tetto di un vecchio palazzo di Milano, a trenta metri da terra, c'è un orto. Ci salgo con l'ascensore merci, tra due cassette di insalata, e quando le porte si aprono la metropoli sparisce: restano file di pomodori, un cielo grigio e il rumore lontano del traffico. Elena ha 41 anni, un grembiule blu e le mani sporche di terra. Fino a tre anni fa lavorava per una società di telecomunicazioni, in un ufficio senza finestre.\n\n«Ho lasciato quel lavoro per una ragione semplice» mi dice, mentre controlla una piantina di basilico. «Passavo le giornate a spedire messaggi e non sapevo da dove arrivasse quello che mangiavo. Vivere in una metropoli ti fa dimenticare che il cibo nasce dalla terra.» Ha iniziato con due vasi sul balcone, poi ha convinto il proprietario del palazzo a prestarle il tetto. Oggi produce verdura per tre ristoranti del quartiere, e le consegne si fanno in bicicletta.\n\nNon tutti ci credevano. Un suo ex collega, un tipo piuttosto cinico, le aveva detto che nessuno compra pomodori cresciuti sopra un parcheggio, e aveva aggiunto, con un sorriso cinico, che il mondo non funziona così. «Invece sì» sorride Elena. «La gente vuole sapere chi li ha fatti. E io posso dirle che nome ha, il pomodoro.»\n\nIl tetto è un piccolo laboratorio all'avanguardia, ed Elena fa parte di un gruppo di giovani agricoltori che in città lavorano con metodi all'avanguardia. Dei sensori misurano l'umidità della terra e mandano i dati a un telefono, e le previsioni del tempo arrivano da un satellite in orbita attorno alla Terra. «Il satellite compie la sua orbita in un'ora e mezza» spiega Elena «e a me basta che passi sopra Milano prima di sera.» Collegare tutto questo è stato facile per lei, perché la vecchia competenza delle telecomunicazioni si è rivelata utilissima. In un angolo c'è un reattore dalle pareti di acciaio, che trasforma gli scarti della mensa di una scuola vicina in concime. Elena ne parla con orgoglio: una rivista specialistica di agricoltura urbana ha dedicato un articolo a quell'impianto. Lei la legge ogni mese, e non è l'unica rivista specialistica sulla sua scrivania: ne ha altre due, piene di appunti, e in Italia impianti così ce ne sono pochissimi.\n\nDalle cassette si sente un ronzio continuo: sono le api, che Elena tiene in due casette di legno vicino al rosmarino. Mi invita ad ascoltare. Il battito d'ali di mille api, a pochi centimetri dall'orecchio, somiglia al battito di un cuore lento. «Questo» dice «è il mio telefono, adesso.»\n\nPrima di scendere, mi consegna un sacchetto. «Stamani abbiamo raccolto le prime fragole. Assaggia.» Le mangio seduta su una panchina, sopra i tetti della città. «Qui lavoriamo con poco» aggiunge Elena. «Un po' di terra, molta pazienza e la voglia di farlo bene. Lavoriamo piano, ma con cura.» Ha ragione: sono le fragole più dolci che abbia mangiato quest'anno.\n\nDomande:\nDove si trova l'orto di Elena?\nSi trova sul tetto di un vecchio palazzo di Milano.\nChe lavoro faceva Elena prima?\nLavorava per una società di telecomunicazioni.\nChe cosa fa il reattore?\nTrasforma gli scarti della mensa di una scuola vicina in concime.\nPerché Elena tiene le api?\nPerché aiutano le piante, e il loro battito d'ali la rilassa.\nChe cosa ha raccolto Elena stamani?\nHa raccolto le prime fragole."
+    },
+    {
+      "title": "L'olio nuovo",
+      "summary": "A writer joins the olive harvest in Umbria, where the village oil brotherhood gathers to taste the first oil of the year.",
+      "newWords": [
+        "annata",
+        "confraternita",
+        "cucire",
+        "greggio",
+        "artificio",
+        "vecchiaia",
+        "memorabile"
+      ],
+      "text": "A fine ottobre torno ogni anno nel paese di mia zia Ines, sulle colline vicino a Spoleto, per la raccolta delle olive. Quest'anno è stata un'annata difficile: l'estate è stata troppo asciutta, e gli alberi hanno dato poche olive. Eppure il paese non rinuncia alla festa.\n\nIl primo giorno la zia mi mette in mano una grande rete verde. «Questa l'ho cucita io» dice «un inverno intero.» Per raccogliere le olive si stendono le reti sotto gli alberi, e la zia le cuce da sola, con un filo grosso e un ago lungo come una matita. Alcune reti sono nuove, altre sono vecchie quanto me, e cucite e ricucite tante volte che non si capisce più dove finisca una riparazione e cominci l'altra. Con le olive si riempiono sacchi di tela greggia, ruvida e chiara, che la zia compra da un artigiano del paese. «La tela greggia lascia respirare i frutti» dice.\n\nIl lavoro dura tutto il giorno. Si sale sulle scale, si pettinano i rami con piccoli rastrelli e le olive cadono sulle reti con un suono leggero, come pioggia. Intorno a me c'è sempre qualcuno che canta o racconta storie. Il vecchio Tonino, che ha 85 anni, mi mostra un olivo grande quanto una casa. «Ha più di cinquecento anni» dice. «Nella sua vecchiaia produce meno, ma meglio. Alla mia età è lo stesso.» Rido, e lui anche. Anche la mia vecchiaia, dice, sarà un buon raccolto, se avrò la pazienza di un olivo.\n\nLa sera il frantoio si anima. La confraternita dell'olio, un'associazione di produttori del paese che esiste da quasi cento anni, si riunisce per assaggiare l'olio nuovo. I soci portano un cucchiaio, un pezzo di pane e una grande pazienza. Il presidente versa un filo d'olio verde in un bicchierino e dice che quest'anno ha un sapore forte, un po' amaro, con un retrogusto di erba tagliata. «Nessun artificio» ripete. «Solo olive, frantoio e un po' di tempo.» Per la confraternita un olio senza artifici è l'unico modo di rispettare la terra.\n\nPoi arriva il momento che aspettavo: il pane caldo, la bruschetta con l'olio nuovo, un pizzico di sale. La confraternita mi ha chiesto di dire due parole, e io ho detto soltanto la verità: che quella bruschetta, in quella sera, era il pasto più memorabile della mia vita. Tutti hanno applaudito, e la zia ha pianto un po'. È stata una cena memorabile, e io so già che tornerò anche l'anno prossimo, qualunque sia l'annata.\n\nDomande:\nCom'è stata l'annata di quest'anno?\nÈ stata un'annata difficile: l'estate è stata troppo asciutta e le olive sono state poche.\nChe cosa cuce la zia Ines?\nCuce le reti da stendere sotto gli alberi.\nPerché la zia usa sacchi di tela greggia?\nPerché la tela greggia lascia respirare i frutti.\nChe cos'è la confraternita dell'olio?\nÈ un'associazione di produttori del paese che si riunisce per assaggiare l'olio nuovo.\nChe cosa significa «nessun artificio» per la confraternita?\nSignifica che l'olio è fatto solo con olive, frantoio e tempo, senza trucchi."
+    },
+    {
+      "title": "I fagioli della nonna Gemma",
+      "summary": "A girl in the Belluno valleys hears from her grandmother how the village left in the flood of 1966 and how a bag of bean seeds was saved.",
+      "newWords": [
+        "leopardo",
+        "evacuare",
+        "commissariato",
+        "turbato",
+        "semmai",
+        "portarlo"
+      ],
+      "text": "Ogni autunno, nella valle del Piave, in provincia di Belluno, la nonna Gemma raccoglie i fagioli. Sono fagioli rossi e bianchi, con la pelle a macchie di leopardo, e lei li stende al sole su un telo grande come un lenzuolo. «Guarda» mi dice «sembra davvero la pelle di un leopardo.» Io, che ho 11 anni e non ho mai visto un leopardo, rido, e lei mi fa toccare il fagiolo più bello.\n\nQuest'anno, mentre sgraniamo i baccelli, la nonna mi racconta una storia. «Nel novembre del 1966 pioveva da giorni» comincia. «Il fiume era alto, e la sera hanno detto che bisognava evacuare il paese. Avevo la tua età.» Io smetto di sgranare. La nonna continua con voce calma: la mamma le aveva dato un sacco di fagioli da tenere stretto, perché erano l'unica semente buona che avessero. «Io volevo portarlo con me, ma pesava quasi quanto me, e non riuscivo a camminare.»\n\n«E allora?» chiedo, un po' turbata: la storia mi ha turbato più di quanto pensassi. La nonna se ne accorge e sorride, come per dirmi di stare tranquilla. «Mio padre ha preso il sacco in spalla, e siamo andati su, fino al punto di raccolta del paese. Là, vicino al commissariato, c'era una stanza grande con coperte e minestra calda. Quella notte nessuno ha dormito molto, ma nessuno si è fatto male.» Dopo due giorni l'acqua è scesa e le famiglie sono tornate a casa. Molti campi erano sott'acqua, ma i fagioli del sacco erano ancora asciutti. L'anno dopo li hanno piantati, e da allora la nonna li pianta ogni primavera.\n\n«Semmai tornasse un'acqua così» dice la nonna «io ripartirei con il sacco. E semmai non ce la facessi a portarlo, lo porteresti tu.» Le prometto che lo porterò io. Mi guarda con occhi lucidi, poi mi dà un abbraccio.\n\nQuella sera mangiamo la minestra di fagioli, con un filo d'olio e un po' di pane. È buonissima, e mi sembra quasi di sentire il racconto in ogni cucchiaio. Prima di andare a letto, apro il sacchetto dei fagioli e li guardo, uno per uno, con le loro macchie. Ora so che non sono soltanto un cibo: sono una storia che continua da molti anni, e un giorno toccherà a me tenerla stretta.\n\nDomande:\nPerché i fagioli della nonna sembrano la pelle di un leopardo?\nPerché hanno la pelle a macchie.\nChe cosa è successo nel novembre del 1966?\nPioveva da giorni, il fiume era alto e il paese è stato evacuato.\nDove sono andate le famiglie?\nSono andate in una stanza grande vicino al commissariato, con coperte e minestra calda.\nChi ha portato il sacco di fagioli?\nLo ha portato il padre della nonna, in spalla.\nChe cosa promette la nipote alla nonna?\nPromette che porterà lei il sacco, semmai tornasse un'acqua così."
+    }
+  ]
+}

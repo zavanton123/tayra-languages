@@ -1,0 +1,217 @@
+{
+  "id": "it-mini-7000",
+  "rankUpTo": 7000,
+  "level": "C1",
+  "title": "Cronache di viaggio",
+  "description": "Ten calm first-person travel columns from Norway, Paris, Viareggio, the Langhe, Liechtenstein, the Dolomites, Trieste, Yellowstone, Sardinia and a Greek island: a coastal steamer, a sewer museum, a carnival, a hazelnut harvest, a stamp museum, a mountain hut, a faxed reservation, a national park, a village match and a sponge shop.",
+  "topic": "Travel columns",
+  "names": [
+    "Bergen",
+    "Giulia",
+    "Tromsø",
+    "Magnus",
+    "Circolo polare",
+    "Camille",
+    "Parigi",
+    "Senna",
+    "Alma",
+    "Torre Eiffel",
+    "Bologna",
+    "Marais",
+    "Rousseau",
+    "Dubois",
+    "Saint-Germain",
+    "Viareggio",
+    "Tommaso",
+    "Garibaldi",
+    "Risorgimento",
+    "Lorenzo",
+    "Langhe",
+    "Nives",
+    "Cortemilia",
+    "Ettore",
+    "Vaduz",
+    "Liechtenstein",
+    "Europa",
+    "Cortina",
+    "Bruno",
+    "Beppe",
+    "Trieste",
+    "Zorzut",
+    "Andrea",
+    "Yellowstone",
+    "Sarah",
+    "Bosa",
+    "Sardegna",
+    "Salvatore",
+    "Pietro",
+    "Milano",
+    "Kalymnos",
+    "Eleni",
+    "Italia",
+    "Svizzera",
+    "Ottocento"
+  ],
+  "lessons": [
+    {
+      "title": "Lungo la costa norvegese",
+      "summary": "A woman and her sister sail up the Norwegian coast on a coastal steamer: a gale, a curtain of rain, a deep fjord and a voyage prolonged by one day.",
+      "newWords": [
+        "norvegese",
+        "colosso",
+        "ammiraglio",
+        "raffica",
+        "cortina",
+        "innocuo",
+        "rizzare",
+        "abisso",
+        "prolungare"
+      ],
+      "text": "Sono partita da Bergen una mattina di fine settembre, a bordo di uno di quei battelli che risalgono la costa norvegese fino al Circolo polare. Con me viaggiava mia sorella Giulia, che sognava questo itinerario da anni e mi aveva convinta a prendere una settimana di ferie. La nave era un colosso bianco e blu, con otto ponti, un ristorante panoramico e un negozietto dove si vendevano maglioni di lana. Eppure è bastato uscire dal porto per capire che, davanti a quella natura, anche un colosso del genere sembra un giocattolo.\n\nPrima di salpare avevamo passato un quarto d'ora davanti alla statua di un ammiraglio, che nel porto guarda il mare con le mani dietro la schiena. Giulia, che legge sempre le targhe, mi ha spiegato che quell'ammiraglio aveva studiato le correnti del Nord e disegnato alcune delle prime carte della costa. Mi è sembrato un buon augurio.\n\nIl secondo giorno il tempo è cambiato. Una raffica di vento gelido ha fatto sbattere tutte le porte della nave, e per un'ora la costa è sparita dietro una cortina di pioggia così fitta che non si distingueva più il mare dal cielo. Magnus, il cameriere, un ragazzo norvegese con i capelli chiarissimi, ci ha portato due tazze di tè e ha detto che per lui era una giornata normale. «Qui le raffiche arrivano senza avvisare» ha spiegato. «Ma sono innocue, se si sta al riparo.» Giulia non è una che sta al riparo. È uscita sul ponte con la giacca a vento ed è tornata dopo dieci minuti, fradicia, con i capelli rizzati sulla testa. «Sembro un porcospino» ha riso. Quando sono uscita anch'io, ho sentito rizzarsi i peli sulle braccia, ma non era soltanto il freddo.\n\nVerso sera la cortina si è aperta come il sipario di un teatro. Davanti a noi c'era un fiordo stretto, con pareti nere che scendevano nell'acqua senza un sentiero e senza una casa. Magnus ci ha detto che in certi punti l'acqua è profonda più di mille metri. Mi sono affacciata alla ringhiera: sotto la superficie verde si apriva un abisso, e per un attimo ho avuto le vertigini. L'abisso non si vedeva, ma si sentiva, come si sente una presenza in una stanza buia. Il vento, ormai, sembrava innocuo come una brezza di agosto.\n\nA Tromsø il capitano ha annunciato che il viaggio sarebbe stato prolungato di un giorno: il vento aveva rallentato la nave e bisognava aspettare la marea. Sul momento ho pensato al volo di ritorno. Poi ho capito che prolungare il viaggio era esattamente ciò che desideravo. Giulia ha proposto di prolungarlo ancora, ma io ho dovuto dire di no: il lunedì dopo mi aspettava la redazione. Non ho rimpianti. Ho imparato che una costa come questa non si guarda soltanto, si ascolta: il rumore dell'acqua, le raffiche, le voci dei marinai e quel silenzio finale che sale dall'abisso.\n\nDomande:\nChi viaggiava con l'autrice?\nViaggiava sua sorella Giulia, che sognava quell'itinerario da anni.\nChe cosa aveva fatto l'ammiraglio della statua?\nAveva studiato le correnti del Nord e disegnato alcune delle prime carte della costa.\nPerché la costa è sparita il secondo giorno?\nPerché una cortina di pioggia così fitta nascondeva il mare e il cielo.\nChe cosa ha detto Magnus delle raffiche?\nHa detto che arrivano senza avvisare, ma che sono innocue se si sta al riparo.\nPerché il viaggio è stato prolungato di un giorno?\nPerché il vento aveva rallentato la nave e bisognava aspettare la marea."
+    },
+    {
+      "title": "Sotto Parigi con Camille",
+      "summary": "A woman from Bologna visits the Paris sewers museum with a Parisian friend, then sees her neighbourhood, a fountain restored by a billionaire and a list of ten places.",
+      "newWords": [
+        "parigino",
+        "fogna",
+        "labirinto",
+        "fiducioso",
+        "semaforo",
+        "campanello",
+        "miliardario",
+        "restaurare",
+        "pizzico",
+        "stilare"
+      ],
+      "text": "Quando Camille, la mia vecchia amica parigina, mi ha proposto di visitare le fogne di Parigi, ho pensato a uno scherzo. Ma lei era serissima. «Tutti salgono sulla Torre Eiffel» mi ha detto. «Un vero parigino porta gli amici sotto terra.» Così, un martedì di novembre, ci siamo trovate davanti a un ingresso grigio sulla riva della Senna, vicino al ponte dell'Alma, dove un cartello annuncia il museo delle fogne.\n\nScendendo le scale mi aspettavo un buio da film. Invece c'era una galleria illuminata e pulita. Camille mi ha spiegato che la fogna di Parigi è una città sotto la città, con più di duemila chilometri di gallerie. Sui muri ci sono le stesse targhe blu delle strade di sopra, quindi chi sa leggerle non si perde mai. «Sembra un labirinto» ho detto, «ma è un labirinto con le indicazioni.» «Come Parigi» ha risposto lei. Fiduciosa, l'ho seguita lungo un corridoio dopo l'altro, e ho scoperto che una fogna ben tenuta può essere quasi elegante.\n\nQuando siamo risalite, Camille ha detto che ci voleva un caffè. Abbiamo camminato fino al suo quartiere, e per strada ha fatto una cosa che ogni parigino sembra fare con piacere: ha attraversato con il semaforo rosso. «A Parigi il semaforo rosso è un suggerimento» ha detto. Io, che sono nata a Bologna e ho il rispetto dei semafori nel sangue, sono rimasta sul marciapiede finché è scattato il verde. Camille rideva dall'altra parte.\n\nIl suo palazzo, nel Marais, ha un portone verde con un campanello d'ottone, e accanto al campanello c'è una targhetta scritta a mano: «Camille Rousseau, terzo piano». Nel cortile c'è una fontana che il vicino del primo piano, il signor Dubois, ha fatto restaurare di tasca sua. Il signor Dubois è un miliardario con tre cani e un cappotto di cammello. «Un miliardario che spende i suoi soldi per la fontana del condominio» ha detto Camille. «Succede solo a Parigi.» Mentre guardavo la fontana restaurata, lui è sceso con i cani e mi ha salutata con un piccolo inchino. Non sembrava un miliardario: sembrava un nonno.\n\nQuella sera Camille ha preparato una zuppa di cipolle con un pizzico di timo, e abbiamo stilato insieme una lista di dieci posti da non perdere a Parigi. Nella lista non c'era la Torre Eiffel. C'erano le fogne, la fontana del signor Dubois, il semaforo rosso di un incrocio, un cinema piccolissimo e un mercato di fiori. Rileggendo la lista stilata in fretta, con un pizzico di ironia, ho pensato che si può conoscere una città in due modi: con la guida in mano, oppure con un'amica parigina che ti apre il portone e suona il campanello al posto tuo. Io ho scelto il secondo, e lo consiglio a tutti. Sono tornata a Bologna fiduciosa che Parigi, prima o poi, mi richiamerà.\n\nDomande:\nDove si trova l'ingresso del museo delle fogne?\nSi trova sulla riva della Senna, vicino al ponte dell'Alma.\nCome mai l'autrice non si perde nella fogna?\nPerché sui muri ci sono le stesse targhe blu delle strade di sopra, e chi sa leggerle non si perde.\nChe cosa pensa Camille del semaforo rosso?\nPensa che a Parigi il semaforo rosso sia soltanto un suggerimento.\nChi è il signor Dubois?\nÈ un miliardario con tre cani, che ha fatto restaurare la fontana del cortile.\nChe cosa c'era nella lista dei dieci posti?\nC'erano le fogne, la fontana, un semaforo rosso, un cinema piccolissimo e un mercato di fiori."
+    },
+    {
+      "title": "Il carnevale dei carri",
+      "summary": "A grandfather takes his eight-year-old grandson, dressed as a clown, to the carnival of Viareggio, where they see a tricolour float about patriots and a workshop master with his script.",
+      "newWords": [
+        "travestito",
+        "pagliaccio",
+        "festivo",
+        "prescelto",
+        "patriota",
+        "patriottico",
+        "tricolore",
+        "scordato",
+        "copione",
+        "rotolo"
+      ],
+      "text": "Ogni anno, a febbraio, porto mio nipote Tommaso a Viareggio per il carnevale. Quest'anno aveva otto anni ed era travestito da pagliaccio, con il naso rosso, le scarpe lunghe e una parrucca arancione che a ogni soffio di vento gli finiva sugli occhi. «Nonno, sono un pagliaccio serio» mi ha detto, e io ho promesso di non ridere. Ho riso lo stesso.\n\nNei giorni festivi del carnevale Viareggio cambia faccia. Il lungomare, di solito tranquillo, si riempie di famiglie, di bambini travestiti e di venditori di zucchero filato. La domenica, che è giorno festivo, i carri sfilano per ore sul viale. Ogni carro è fatto di carta e di ferro ed è alto come un palazzo di quattro piani. Il tema prescelto quest'anno per il carro più grande era la storia del Risorgimento. In cima c'era Garibaldi, con la camicia rossa, e intorno a lui tanti piccoli patrioti con bandiere tricolori che si muovevano a ritmo di musica.\n\n«Chi sono quelli?» ha chiesto Tommaso. Gli ho spiegato che un patriota è una persona che ama il suo Paese e lavora per renderlo migliore, e che nell'Ottocento tanti patrioti hanno sognato un'Italia unita, con un'unica bandiera tricolore. Ha ascoltato con attenzione, poi ha detto: «Allora sono un po' patriota anch'io, perché ho la bandiera nello zaino». Il suo patriottismo era un pezzo di stoffa con tre strisce, ma l'ho trovato commovente. Il clima, quel pomeriggio, era allegro e un po' patriottico, e c'era chi cantava le vecchie canzoni dell'Ottocento.\n\nDietro il carro dei patrioti sfilava una banda di ragazzi con trombe e tromboni. Suonavano con entusiasmo, ma erano un po' scordati: il trombettista in prima fila sbagliava sempre la stessa nota, e ogni volta Tommaso si copriva le orecchie. «È scordato» sentenziava. «Ma suona con il cuore» rispondeva una signora accanto a noi. Poi la banda ha attaccato una marcia patriottica, e anche la tromba scordata è sembrata intonata.\n\nPrima della sfilata avevamo visitato il capannone dove si costruiscono i carri, e Lorenzo, uno dei maestri, ci aveva mostrato il copione dello spettacolo. Ogni carro ha il suo copione, che dice quando le figure si aprono, si girano o fanno uscire il fumo. Lorenzo lo teneva arrotolato come un rotolo di carta e ce l'ha fatto vedere: pagine fitte di disegni, frecce e note scritte a matita. Intorno a lui c'erano altri rotoli, con i progetti dei carri degli anni passati.\n\nA sera Tommaso, stanco e felice, si è addormentato in macchina con la parrucca in mano. Io ho pensato che il carnevale non è soltanto una festa per bambini. È un modo di raccontare una storia, ogni anno, con la carta, il ferro e un po' di fantasia. E mi è rimasta in mente la frase di Lorenzo: «Il copione è importante, ma senza i ragazzi che spingono il carro non si muove niente».\n\nDomande:\nCome era travestito Tommaso?\nEra travestito da pagliaccio, con il naso rosso, le scarpe lunghe e una parrucca arancione.\nQual era il tema prescelto per il carro più grande?\nEra la storia del Risorgimento, con Garibaldi e tanti piccoli patrioti.\nChe cosa ha spiegato il nonno a Tommaso?\nChe un patriota è una persona che ama il suo Paese e lavora per renderlo migliore.\nPerché Tommaso si copriva le orecchie?\nPerché il trombettista in prima fila era scordato e sbagliava sempre la stessa nota.\nChe cosa c'è in un copione dei carri?\nDice quando le figure si aprono, si girano o fanno uscire il fumo."
+    },
+    {
+      "title": "Nocciole sulle colline",
+      "summary": "A woman spends a harvest weekend with her aunt in the Langhe: picking hazelnuts, selling at markets, baking a home-style cake and receiving a jar of hazelnut cream.",
+      "newWords": [
+        "nocciola",
+        "fusto",
+        "campare",
+        "ambulante",
+        "casalingo",
+        "incorporare",
+        "ripassare",
+        "barattolo",
+        "piccolino"
+      ],
+      "text": "Ogni ottobre, quando le colline delle Langhe diventano rosse e gialle, vado a trovare mia zia Nives, che vive in una casa di campagna vicino a Cortemilia e coltiva nocciole da quarant'anni. I suoi noccioli sono bassi e ordinati, e ognuno sale dalla terra con più fusti, come le dita di una mano aperta. «Il nocciolo non ha un tronco solo» mi ha spiegato la zia. «Ha un gruppo di fusti, e ogni anno ne tagliamo uno per far crescere gli altri.»\n\nIn questa stagione le nocciole si raccolgono da terra, a mano o con una macchina che le aspira. Zia Nives preferisce la mano, e per due giorni sono rimasta in ginocchio tra le foglie a riempire ceste di nocciole lucide e marroni. La sera avevo la schiena a pezzi, e la zia rideva. «Una volta di nocciole si campava, e anche bene» diceva. «Oggi bisogna saper fare anche altro.» Per campare, infatti, lei vende i suoi prodotti nei mercati dei paesi vicini. È una venditrice ambulante, con un furgone azzurro e un grande ombrellone a righe, e il sabato dice sempre che i clienti ambulanti si riconoscono dal modo di toccare le cose prima di comprarle.\n\nNel pomeriggio abbiamo preparato la torta di nocciole di famiglia. «Non è una torta da pasticceria» ha detto la zia. «È un dolce casalingo, di quelli che si fanno per i parenti.» Prima abbiamo tostato le nocciole nel forno, poi le abbiamo tritate, e infine ho dovuto incorporarle nell'impasto un poco alla volta, mescolando piano dal basso verso l'alto. «Se le incorpori in fretta, la torta resta pesante» mi ha avvertita. Mentre lavoravo, lei mi faceva ripassare la ricetta ad alta voce: «Ripassiamo: prima il burro e lo zucchero, poi le uova, poi le nocciole. Non si cambia l'ordine». Ho ripassato la lezione tre volte, e alla fine la torta era perfetta. Secondo me, i piatti casalinghi sono proprio questo: ricette che si ripassano a memoria.\n\nIl momento più bello, però, è stato davanti ai barattoli. La zia conserva la crema di nocciole in barattoli di vetro, con etichette scritte a mano. Ne ho contati quaranta, in fila su uno scaffale, ognuno con la data. Uno era più piccolino degli altri, e la zia me l'ha messo in borsa. «Questo è per te» ha detto. «È piccolino, ma è il migliore.» Sul treno di ritorno ho aperto il barattolo una volta soltanto, per sentirne l'odore. Poi l'ho richiuso, perché la crema doveva durare almeno fino a Natale.\n\nDomande:\nCome sono fatti i noccioli della zia?\nSono bassi e ordinati, e ognuno sale dalla terra con più fusti.\nChe cosa fa la zia per campare?\nVende i suoi prodotti nei mercati dei paesi vicini, come venditrice ambulante.\nChe cosa ha dovuto fare l'autrice con le nocciole tostate?\nLe ha dovute incorporare nell'impasto un poco alla volta.\nPerché la zia fa ripassare la ricetta?\nPerché secondo lei l'ordine degli ingredienti non si cambia.\nChe regalo ha ricevuto l'autrice?\nUn barattolo piccolino di crema di nocciole."
+    },
+    {
+      "title": "Due Stati piccoli piccoli",
+      "summary": "A woman takes her stamp-collecting father to the principality of Liechtenstein, where they visit a stamp museum, hear about customs duties of the past and talk about small states.",
+      "newWords": [
+        "principato",
+        "dazio",
+        "nominale",
+        "annoverare",
+        "sottoscrivere",
+        "prospetto",
+        "ripartizione",
+        "divario",
+        "auspicare"
+      ],
+      "text": "Mio padre Ettore, da ragazzo, attraversava il confine svizzero a piedi con un sacco di farina sulle spalle. Me lo ha raccontato mille volte: per ogni sacco bisognava pagare il dazio, e il dazio, secondo lui, era la cosa che aveva insegnato all'Europa a fare i conti. Oggi i confini si passano in pochi secondi, e proprio per questo mio padre, che ha ottant'anni e colleziona francobolli, ha voluto andare in un posto dove i confini sono ancora piccoli e il passaporto ha un valore quasi simbolico: il principato del Liechtenstein.\n\nSiamo partiti in treno, e dopo qualche ora eravamo a Vaduz, la capitale. Una capitale con poche strade, un castello sulla collina e un museo dei francobolli che mio padre non vedeva l'ora di visitare. Il principato è piccolo: si attraversa in macchina in venticinque minuti, e la ripartizione del territorio in undici comuni sembra uno scherzo, tanto sono vicini l'uno all'altro. Eppure c'è un divario evidente tra la dimensione e la fama del principato: tutti ne hanno sentito parlare, quasi nessuno sa dove sia. Il divario si vede anche nei numeri, perché ogni comune ha qualche migliaio di abitanti, e nessuno è più grande di un quartiere di Milano. La ripartizione, mi ha spiegato una cameriera, è molto antica.\n\nNel museo, una guida ci ha mostrato le vetrine con i francobolli emessi negli ultimi cento anni. «Il valore nominale di questi francobolli è basso» ha spiegato. «Ma i collezionisti li pagano molto di più.» Mio padre ha sorriso, perché sa benissimo che il valore nominale di un francobollo non dice nulla del suo valore vero. Poi la guida ci ha dato un prospetto con tutte le emissioni dell'anno, e ci ha chiesto se volevamo sottoscrivere un abbonamento: chi lo sottoscrive riceve ogni nuova serie a casa, nel proprio paese. Mio padre ha letto il prospetto dall'inizio alla fine, con la lente in mano. Poi, con grande dignità, ha deciso di sottoscrivere.\n\nLa guida ha detto che il museo annovera tra i suoi tesori alcuni francobolli rari, e ha aggiunto che il principato stesso annovera tra i suoi vanti una tradizione di stampa molto antica. Quando le ho chiesto che cosa auspicasse per il futuro, ha risposto subito: «Auspico che i giovani non smettano di collezionare. Un francobollo è un pezzo di storia che si tiene nel palmo della mano». Mio padre ha annuito con gli occhi lucidi.\n\nSul treno di ritorno gli ho chiesto che cosa avesse imparato. «Che un piccolo Stato non è un piccolo mondo» ha risposto. «È un grande mondo vissuto più da vicino.» Poi ha tirato fuori il prospetto, lo ha riletto ancora e ha detto che, quando arriverà il primo pacco di francobolli, lo aprirà insieme a me.\n\nDomande:\nChe cosa doveva fare Ettore da ragazzo al confine svizzero?\nDoveva pagare il dazio per ogni sacco di farina.\nQuanto tempo serve per attraversare il principato in macchina?\nVenticinque minuti.\nChe cosa ha spiegato la guida sul valore nominale dei francobolli?\nChe è basso, ma i collezionisti pagano molto di più.\nChe cosa ha deciso di fare Ettore con il prospetto?\nHa deciso di sottoscrivere un abbonamento alle nuove emissioni.\nChe cosa auspica la guida?\nAuspica che i giovani non smettano di collezionare francobolli."
+    },
+    {
+      "title": "Una notte al rifugio",
+      "summary": "A woman and her father spend an autumn night in an Alpine hut run by a volunteer firefighter; unpredictable weather, snow clearing, a night of cold and a dawn of silence.",
+      "newWords": [
+        "materasso",
+        "pompiere",
+        "imprevedibile",
+        "sgombero",
+        "ausilio",
+        "rinforzo",
+        "dosso",
+        "contrazione",
+        "lobo",
+        "midollo",
+        "meditare"
+      ],
+      "text": "A ottobre il tempo in montagna è imprevedibile, e papà lo sa bene. Eppure ha insistito: «Una notte al rifugio non te la toglie nessuno». Così, io e Bruno, mio padre, siamo partiti da Corvara di buon mattino, con gli zaini pieni di maglioni, e abbiamo preso il sentiero che sale tra i larici fino al rifugio. Faceva sole, ma già a metà salita le nuvole hanno cominciato a stringersi attorno alle cime. Papà ha guardato il cielo e ha detto che il cielo di ottobre è imprevedibile come un gatto.\n\nDopo tre ore, su un ultimo dosso sassoso, abbiamo visto il rifugio: una casa di pietra con le finestre piccole e il fumo dal comignolo. Il gestore, Beppe, ci ha accolti con una tazza di brodo. Beppe fa il pompiere volontario in paese, e d'inverno, quando non ha clienti, passa le giornate a pulire il sentiero. «Dopo una nevicata c'è sempre lo sgombero» ci ha detto, «e se non ci penso io, chi ci pensa?» Poi ci ha mostrato la camerata, con otto letti a castello e materassi di lana, alti e un po' ruvidi, che odoravano di legno e di sapone.\n\nNel pomeriggio il tempo è cambiato. Una nuvola nera è scesa fin quasi sul tetto, e con l'imprevedibilità tipica di ottobre si è messo a nevicare. Beppe è uscito con la pala e con un ausilio che a me è sembrato strano: una slitta di legno carica di sacchi. «Con l'ausilio della slitta si porta su tutto» ha spiegato. «La legna, il pane, i materassi di rinforzo per quando arrivano troppi clienti.» Papà e io lo abbiamo aiutato a sgomberare il vialetto, e la neve era così leggera che sembrava farina. Dopo mezz'ora, per lo sforzo, avevo una contrazione alla spalla destra, e papà mi ha detto di smettere. Il freddo, intanto, mi pungeva i lobi delle orecchie. Anche il lobo sinistro, che avevo coperto male, era diventato rosso, e il freddo mi entrava fino al midollo, nonostante due maglioni.\n\nLa sera, nella sala comune, abbiamo mangiato polenta e salsiccia. Verso le dieci Beppe ha portato delle coperte di rinforzo e un materasso in più, perché il vento aveva cominciato a soffiare e la camerata si era riempita di escursionisti che avevano deciso di fermarsi. Ho dormito poco, ma ho dormito bene.\n\nAll'alba sono uscita da sola. La neve aveva smesso di cadere e il cielo era limpido. In piedi sul dosso, davanti alle montagne rosa, mi sono messa a meditare. Non so se si chiami così: stavo ferma, respiravo e guardavo. Papà mi ha raggiunta in silenzio con due tazze di tè. «Anch'io medito, ogni tanto» mi ha detto. «Ma di solito con meno vento.» Ho riso, e per la prima volta dopo mesi non avevo fretta di tornare a casa.\n\nDomande:\nPerché il tempo di ottobre è un problema in montagna?\nPerché è imprevedibile e può cambiare da un momento all'altro.\nChe mestiere fa Beppe in paese?\nFa il pompiere volontario.\nChe cosa porta su la slitta di Beppe?\nPorta su la legna, il pane e i materassi di rinforzo.\nChe cosa sentiva l'autrice dopo lo sgombero della neve?\nSentiva una contrazione alla spalla destra e un freddo che le arrivava fino al midollo.\nChe cosa ha fatto all'alba?\nÈ uscita sul dosso e ha meditato davanti alle montagne."
+    },
+    {
+      "title": "Un fax a Trieste",
+      "summary": "A couple arrive at a small Trieste hotel where a reservation sent by fax has caused a misunderstanding about the dates; the owner's calm and a good solution win them over.",
+      "newWords": [
+        "fax",
+        "equivoco",
+        "incomprensibile",
+        "semplificazione",
+        "prendersela",
+        "sincerità",
+        "perplessità",
+        "sistematicamente",
+        "arroganza"
+      ],
+      "text": "Quando ho prenotato l'albergo a Trieste, la signora Zorzut mi ha risposto che le prenotazioni si facevano ancora per fax. Ho pensato a un errore, poi ho scoperto che era vero: nel 2024, in un piccolo albergo sopra un caffè storico, c'era davvero un fax. «Internet è una grande semplificazione» mi ha detto lei al telefono, «ma il fax mi dà un foglio da tenere in mano». Ho trovato la risposta quasi simpatica e ho mandato il mio fax: due notti, dal 12 al 14.\n\nCon mio marito Andrea siamo arrivati a Trieste di sera, dopo un viaggio in treno lungo e un po' stanco. La signora Zorzut ci aspettava dietro il banco, e quando le ho detto il mio nome ha aggrottato la fronte. Poi ha tirato fuori il mio fax. Il foglio era grigio e macchiato, e la riga con le date era quasi incomprensibile, perché la macchina, ha spiegato, taglia sistematicamente l'ultima riga di ogni messaggio. «Io ho letto il 21 e non il 12» ha ammesso. «Certi fax sono incomprensibili anche per me.» Era un equivoco, e l'equivoco era chiaro: aveva prenotato per noi la camera dal 21 al 23.\n\nEro molto stanca, e la mia prima idea è stata di arrabbiarmi. Andrea mi ha preso il braccio. «Non ce la prendiamo» ha sussurrato. «È un equivoco. Prendersela non serve.» Aveva ragione. La signora Zorzut, d'altra parte, non ha mostrato nessuna arroganza. Ha messo le mani sul banco e ha detto, con una sincerità che mi ha disarmata: «Sono mortificata. La camera di oggi è occupata fino a domani, ma ho una stanza piccola in soffitta, con la finestra sul mare, e per le prime due notti ve la do alla metà del prezzo».\n\nIo e Andrea ci siamo guardati con perplessità. Una stanza in soffitta, con la finestra sul mare, a metà prezzo: sembrava un'offerta troppo bella. Ma la sincerità della signora era evidente, e abbiamo accettato. La stanza era minuscola, con il soffitto basso e un letto a una piazza e mezza, ma dalla finestra si vedeva tutto il golfo con le luci delle navi. Andrea ha detto che non l'avrebbe cambiata per nessuna camera del mondo.\n\nIl mattino dopo, a colazione, la signora Zorzut ci ha chiesto scusa ancora una volta. Le ho risposto che la nostra perplessità era sparita, e che anzi le dovevamo un favore: avevamo dormito in una soffitta con vista sul mare. «Mi fa piacere» ha risposto lei. «Una volta un cliente ha trattato la mia soffitta con arroganza, e da allora ho sempre paura di sbagliare.» Ci siamo messi a ridere tutti e tre.\n\nPrima di partire ho chiesto alla signora un'ultima cosa: una conferma scritta del soggiorno. Me l'ha fatta con una penna blu, su un foglio a righe, e l'ho conservata. A casa ho scansionato il foglio, ma l'ho tenuto anche in cartaceo, perché la semplificazione è utile e il fax, a volte, ha il suo fascino.\n\nDomande:\nCome si prenotava all'albergo di Trieste?\nSi prenotava ancora per fax.\nChe cosa ha causato l'equivoco?\nLa macchina taglia sistematicamente l'ultima riga, e la signora ha letto il 21 invece del 12.\nChe cosa ha detto Andrea alla moglie?\nLe ha detto di non prendersela, perché era soltanto un equivoco.\nChe cosa ha offerto la signora Zorzut?\nHa offerto una stanza in soffitta, con la finestra sul mare, a metà prezzo.\nPerché i due coniugi hanno accettato?\nPerché la sincerità della signora era evidente e la stanza aveva una vista bellissima."
+    },
+    {
+      "title": "Yellowstone, con calma",
+      "summary": "A traveller visits Yellowstone with a ranger: a burger at the lodge, a traffic jam of bison, the story of the pioneers and the wolves, and what the park teaches about patience.",
+      "newWords": [
+        "hamburger",
+        "pioniere",
+        "ecosistema",
+        "manicomio",
+        "decade",
+        "affida",
+        "basandosi",
+        "appendice",
+        "contraddistinguere"
+      ],
+      "text": "Il primo giorno a Yellowstone ho mangiato un hamburger enorme in una locanda di legno, circondato da famiglie americane con il cappello da cowboy. Ero stanco, avevo guidato per otto ore, e quell'hamburger mi è sembrato il pasto più onesto della mia vita: carne, pane, pomodoro, niente di più. Fuori dalla finestra, nel parcheggio, pascolava tranquillamente un bisonte.\n\nIl giorno dopo ho incontrato Sarah, una guida del parco, che accompagna i visitatori a vedere i geyser. Mi ha spiegato che Yellowstone è considerato il primo parco nazionale del mondo e che, fin dall'inizio, ha avuto una missione semplice: conservare la natura così com'è. Poi mi ha mostrato un libretto con una piccola appendice, in fondo, dove sono elencate le regole del parco: non toccare gli animali, non uscire dai sentieri, non dare cibo a nessuno. «È l'appendice più importante» ha detto, «ma è anche quella che nessuno legge».\n\nVerso mezzogiorno una mandria di bisonti ha attraversato la strada, e in cinque minuti la coda delle auto ha fatto un chilometro. Ho sentito clacson, voci, bambini che gridavano dai finestrini: sembrava un manicomio. Sarah, invece, è rimasta calma. «Qui il traffico lo decidono loro» ha detto, e ha aspettato che l'ultimo bisonte lasciasse l'asfalto. Mi ha colpito la sua pazienza, che mi sembrava la qualità che contraddistingue chi vive vicino agli animali. Un'altra cosa contraddistingue questo parco: i visitatori non dominano mai la scena.\n\nCamminando verso uno dei geyser, Sarah mi ha raccontato la storia dei primi esploratori. Il pioniere più famoso del parco, ha detto, era un uomo che nell'Ottocento arrivò a cavallo e non credette ai propri occhi davanti all'acqua che saliva dal terreno. Gli altri pionieri lo presero per un bugiardo. Mi ha parlato anche dei lupi, che erano stati cacciati e sono tornati negli anni Novanta. «Il ritorno dei lupi ha cambiato l'ecosistema» ha detto. «Basandosi sui dati dell'ultima decade, alcuni biologi pensano che siano cambiati anche i fiumi.» Non ho capito subito come i lupi potessero cambiare i fiumi, ma lei mi ha spiegato: i lupi tengono lontani i cervi dalle rive, gli alberi ricrescono, e le radici trattengono la terra. Sui bisonti, invece, Sarah è più prudente: nell'ultima decade sono aumentati, mi ha detto, e lo sa basandosi sui conteggi che i guardiani fanno ogni autunno.\n\nQuesta catena mi ha fatto pensare a quanto sia fragile un ecosistema, e a quanto poco ne sappiamo. Sarah dice che il parco non si affida a una sola persona, ma a tutti quelli che lo visitano. «Ogni visitatore è un po' una guida» mi ha detto. «Se si comporta bene, il parco si salva; se no, ricomincia da capo.»\n\nPrima di ripartire sono tornato alla locanda e ho ordinato un secondo hamburger, questa volta con un pizzico di pazienza in più. Seduto sotto la finestra, ho guardato i bisonti e ho aperto il libretto alla pagina dell'appendice. L'ho riletta lentamente, come una poesia.\n\nDomande:\nChe cosa ha mangiato l'autore il primo giorno?\nHa mangiato un hamburger enorme in una locanda di legno.\nChe cosa c'è nell'appendice del libretto?\nCi sono le regole del parco.\nPerché il traffico sembrava un manicomio?\nPerché una mandria di bisonti attraversava la strada e le auto facevano la coda.\nChe cosa ha cambiato il ritorno dei lupi?\nHa cambiato l'ecosistema, e anche i fiumi.\nChe cosa dice Sarah su chi visita il parco?\nDice che il parco si affida a tutti i visitatori, perché ognuno è un po' una guida."
+    },
+    {
+      "title": "La partita del paese",
+      "summary": "A man from Milan watches his Sardinian cousin's son play defensive midfielder in a village match; rain, gate money for new nets, a missed play and the speaker's accent.",
+      "newWords": [
+        "mediano",
+        "giocata",
+        "cadenza",
+        "incasso",
+        "frustrato",
+        "indignato",
+        "cautelare"
+      ],
+      "text": "Mio cugino Salvatore vive a Bosa, in Sardegna, e suo figlio Pietro, che ha sedici anni, gioca come mediano nella squadra del paese. Quando ho saputo che la domenica giocavano la partita più importante dell'anno, ho preso un aereo da Milano e sono arrivato il sabato sera. Salvatore mi aspettava all'aeroporto con la macchina, e per tutto il viaggio mi ha spiegato che il mediano è il ruolo più ingrato: corre per tutti, recupera i palloni e di solito non segna mai.\n\nIl campo è un rettangolo di terra battuta sulla collina, con quattro file di gradinate in legno e una piccola casa per gli spogliatoi. La domenica ha cominciato a piovere, e noi ci siamo cautelati con gli ombrelli. Anche il presidente della squadra ha voluto cautelarsi: ha fatto coprire con un telone la cassa dell'incasso, perché l'incasso della giornata serviva per comprare le reti nuove. «Quest'anno abbiamo il campo senza reti» ha ammesso, quasi con vergogna. «Se non facciamo incasso, giochiamo in cortile.»\n\nIl paese era tutto lì: nonne, bambini, ragazzi, un parroco in bicicletta. Accanto a me sedeva un vecchio che commentava la partita ad alta voce, con una cadenza sarda così marcata che all'inizio non capivo la metà delle parole. Alla fine, però, ho scoperto che quella cadenza era musica. «Pietro è un bravo mediano» diceva, e allungava la prima vocale, come a voler fermare il tempo.\n\nAl secondo tempo è successo qualcosa. Pietro ha recuperato un pallone a centrocampo, ha alzato la testa e ha visto un compagno solo davanti alla porta. È stata una giocata intelligente: un passaggio lungo e preciso, che richiedeva coraggio. Ma il compagno ha sbagliato il tiro, e il pallone è finito fuori. Pietro si è messo le mani sul viso. Ho capito subito che era frustrato: una giocata così meritava un gol.\n\nIl pubblico, invece, era indignato, ma non con Pietro. Con l'arbitro, che aveva fischiato un fallo che non c'era, e con la pioggia, che rendeva il campo una palude. Il vecchio accanto a me gridava, con la sua cadenza: «Ma che cosa fischia?». Una signora ha alzato l'ombrello come una bandiera. Io, che sono di Milano e vivo di partite viste in televisione, ho provato un'emozione che non provavo da anni.\n\nLa partita è finita zero a zero. Alla fine Pietro, ancora un po' frustrato, ha detto che avrebbe voluto un gol. Gli ho risposto che la giocata più bella della giornata era stata la sua. Il presidente ha contato l'incasso, che bastava per due reti, e ha detto che avrebbe comprato anche un pallone nuovo. La sera, a cena, il vecchio mi ha raccontato che da ragazzo giocava come mediano anche lui, e che «a quei tempi non c'erano né reti né arbitri indignati».\n\nDomande:\nChe ruolo ha Pietro nella squadra?\nÈ mediano: corre per tutti e recupera i palloni.\nA che cosa serviva l'incasso della giornata?\nServiva per comprare le reti nuove per il campo.\nCome parlava il vecchio seduto accanto all'autore?\nParlava ad alta voce, con una forte cadenza sarda.\nPerché Pietro era frustrato?\nPerché il suo compagno ha sbagliato il tiro dopo una giocata intelligente.\nCon chi era indignato il pubblico?\nEra indignato con l'arbitro, che aveva fischiato un fallo che non c'era."
+    },
+    {
+      "title": "Le spugne di Kalymnos",
+      "summary": "A woman visits the Greek island of Kalymnos, where an old sponge diver's family shows her the craft; a sensible purchase, the guilt of nearly buying cheap sponges and a quiet evening.",
+      "newWords": [
+        "spugna",
+        "rimorso",
+        "candida",
+        "ricognizione",
+        "persistente",
+        "rotondo",
+        "sensato"
+      ],
+      "text": "Sono arrivata a Kalymnos in traghetto, una mattina di giugno, con una vaga idea: comprare una spugna vera. Da anni usavo spugne sintetiche, e un amico mi aveva detto che sull'isola si raccoglievano quelle naturali. Dal ponte della nave ho visto il paese salire sulla collina, con le case candide, i tetti rotondi e le persiane azzurre. Il bianco era così forte che ho dovuto mettere gli occhiali da sole.\n\nPer prima cosa ho fatto una ricognizione del porto, come un'esploratrice. Sul molo c'erano bancarelle con pile di spugne di ogni forma, alcune enormi e dorate, altre piccole e grigie. I venditori gridavano prezzi in greco, in inglese e a volte in italiano. Ero perplessa: come capire quali fossero vere? Un commerciante mi ha offerto una spugna rotonda a pochi euro, e stavo per comprarla, quando una signora anziana, seduta davanti a un negozio, mi ha fatto un cenno. «Quella è sintetica» mi ha detto in un italiano lento. «Venga qui.»\n\nSi chiamava Eleni, ed era la moglie di un vecchio palombaro. Mi ha portata nella bottega di famiglia, dove un odore persistente di sale e di mare riempiva le stanze. Ha preso una spugna vera e me l'ha messa in mano. «Senta com'è leggera» ha detto. «E senta com'è forte.» Poi me ne ha mostrata una piccolina, di un giallo caldo, e mi ha spiegato che le spugne piccole sono le più morbide e le più adatte al viso. Ho provato un rimorso improvviso: stavo per comprare la spugna falsa, mentre qui c'era tutta una tradizione che aspettava di essere ascoltata.\n\nEleni mi ha raccontato che suo marito, da giovane, scendeva sul fondo del mare con una pesante tuta di tela e un casco di rame, e che la sua famiglia campava soltanto di spugne. Oggi le spugne sono meno e il lavoro è più raro, ma l'isola le custodisce con orgoglio. L'odore persistente della bottega mi è rimasto nei vestiti per tutto il giorno. Il giorno dopo ho fatto una seconda ricognizione, questa volta per le stradine del paese, e ho trovato le case dei pescatori con le reti stese al sole. Alla fine ho comprato due spugne piccole, che costavano più di quella rotonda del porto, ma erano vere. Mi sembrava la scelta più sensata: pagare di più, ma sapere che cosa si porta a casa. Anche Eleni ha detto che era una scelta sensata.\n\nLa sera ho cenato su una terrazza, con il sole che tramontava dietro le case candide. Mi sono sentita un po' in colpa per la fretta del mattino, ma poi ho capito che il rimorso mi aveva insegnato qualcosa. Chi viaggia con attenzione compra meno e ricorda di più. Sul tavolo avevo la mia spugna piccolina, e il suo odore persistente di mare. Quando sono tornata a casa, l'ho messa vicino al lavandino. Ogni mattina, lavandomi il viso, penso alla signora Eleni e alle sue mani.\n\nDomande:\nPerché l'autrice è andata a Kalymnos?\nVoleva comprare una spugna vera, naturale.\nChe cosa ha notato dal ponte della nave?\nHa notato le case candide con i tetti rotondi e le persiane azzurre.\nPerché Eleni ha fermato l'autrice?\nPerché la spugna che stava per comprare era sintetica.\nDi che cosa viveva la famiglia di Eleni?\nCampava di spugne: il marito scendeva sul fondo del mare.\nPerché l'autrice ha provato rimorso?\nPerché stava per comprare una spugna falsa, mentre c'era una tradizione da ascoltare."
+    }
+  ]
+}
