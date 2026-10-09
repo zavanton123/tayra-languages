@@ -1,0 +1,222 @@
+{
+  "id": "it-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Sanità pubblica",
+  "description": "Ten calm first-person columns and reports on everyday public health: a family doctor, school vaccination day, tap water, a pharmacy, a gym, a market kitchen, walking in town, a health-centre interpreter, a clinic's e-mails and a children's check-up.",
+  "topic": "Public health",
+  "names": [
+    "Elisa",
+    "Brescia",
+    "Gatti",
+    "Palermo",
+    "Rosalia",
+    "Matteo",
+    "Anna",
+    "Cuneo",
+    "Fulvia",
+    "Giorgio",
+    "Napoli",
+    "Ciro",
+    "Teresa",
+    "Cagliari",
+    "Mario",
+    "Giada",
+    "Dora",
+    "Ilaria",
+    "Udine",
+    "Tullio",
+    "Friuli",
+    "Gorizia",
+    "Bellinzona",
+    "Rita",
+    "Leonardo",
+    "Ticino",
+    "Pedibus",
+    "Wanda",
+    "Pavia",
+    "Samira",
+    "Aveen",
+    "Rizgar",
+    "Dara",
+    "Italia",
+    "Bianchi",
+    "Trento",
+    "Elena",
+    "Marta",
+    "Comune",
+    "Valerio",
+    "Franchi",
+    "Sassari",
+    "Sardegna",
+    "Antonio",
+    "Giovanna",
+    "Peppino",
+    "Lucia"
+  ],
+  "lessons": [
+    {
+      "title": "Il Professore di via Cairoli",
+      "summary": "A woman from Brescia visits her family doctor about a pain in her back and comes away understanding her own body a little better.",
+      "newWords": [
+        "bresciano",
+        "perplesso",
+        "accuratamente",
+        "palmo",
+        "fitta",
+        "cute",
+        "anatomia",
+        "sarcastico",
+        "chiedergli",
+        "vedermi",
+        "alias"
+      ],
+      "text": "Ieri mattina sono andata dal medico di famiglia con una piccola fitta alla schiena. Era comparsa due giorni prima, mentre sollevavo una cassetta di mele al mercato, e da allora tornava ogni volta che mi voltavo troppo in fretta.\n\nIl mio medico si chiama Gatti ed è bresciano come me: abbiamo la stessa cadenza bresciana, e questo aiuta a sentirsi a casa. Lavora da 30 anni nello stesso studio, in una via laterale vicino al duomo vecchio, e il quartiere lo chiama «il Professore», alias il dottor Gatti per chi non lo conosce, perché spiega ogni cosa con la pazienza di un insegnante. Anche ieri, appena sono entrata, ha chiuso la cartella e ha detto: «Bene, signora Elisa, mi racconti tutto dall'inizio.»\n\nGli ho parlato della cassetta, del mercato, della fitta. Lui mi ascoltava accuratamente, senza interrompermi. Poi mi ha chiesto di stendermi sul lettino e ha premuto con il palmo della mano, piano, lungo la schiena. «Qui fa male?» «No.» «E qui?» «Un po'.» Ha esaminato accuratamente ogni punto e ha controllato anche la cute, per sicurezza. Non c'era niente di strano.\n\nMentre mi rivestivo ho provato a spiegare, a modo mio, che cosa fosse successo. «Forse è un nervo» ho detto. «Oppure un muscolo.» Il dottor Gatti ha alzato un sopracciglio e ha risposto, con un tono sarcastico ma gentile: «Signora, vedo che ha studiato anatomia su internet.» Mi sono messa a ridere. Il suo tono sarcastico non offende nessuno.\n\nPoi però è tornato serio. Ha preso dalla scrivania il modellino della colonna vertebrale, che tiene lì da sempre, e mi ha mostrato dove passano i nervi e dove si tendono i muscoli. Un libro di anatomia non serve a fare una diagnosi, mi ha detto, ma aiuta a capire il proprio corpo, e questo è già moltissimo. Ero perplessa: non mi aspettavo che un medico incoraggiasse i pazienti a studiare. Lui ha notato la mia faccia perplessa e ha sorriso. «Un paziente che capisce» ha detto «è un paziente che si cura meglio.»\n\nLa cura, alla fine, è stata semplice: caldo sulla schiena la sera, qualche movimento lento al mattino e niente cassette pesanti per una settimana. Sulla porta ho esitato: non è facile chiedergli un'altra visita quando ha la sala d'attesa piena. Alla fine ho trovato il coraggio di chiedergli quando dovevo tornare. «Se la fitta passa, non c'è bisogno di vedermi» ha risposto. «Se torna, mi telefoni e vengo io a vedermi la schiena, come dice lei.» Così il Professore, alias il mio medico di sempre, mi ha salutata con un sorriso. Ho scoperto che si può uscire da uno studio medico più leggeri di come si è entrati, anche senza una medicina in mano.\n\nDomande:\nPerché la signora Elisa va dal medico?\nPerché ha una fitta alla schiena, comparsa mentre sollevava una cassetta di mele.\nCome lo chiama il quartiere, e perché?\nLo chiama «il Professore», perché spiega ogni cosa con la pazienza di un insegnante.\nChe cosa controlla il dottore con il palmo della mano?\nPreme piano lungo la schiena e controlla anche la cute, punto per punto.\nPerché il dottor Gatti parla di anatomia?\nPerché un libro di anatomia aiuta a capire il proprio corpo, anche se non basta a fare una diagnosi.\nQual è la cura?\nCaldo la sera, movimenti lenti al mattino e niente cassette pesanti per una settimana."
+    },
+    {
+      "title": "La palestra diventa ambulatorio",
+      "summary": "On vaccination day in a Palermo middle school, a calm nurse helps an undecided boy through his booster and sends everyone home with a sticker.",
+      "newWords": [
+        "immune",
+        "schierarsi",
+        "felpa",
+        "agitazione",
+        "accorrere",
+        "rimproverare",
+        "allegria",
+        "indeciso",
+        "darvi",
+        "ninja",
+        "ombrello"
+      ],
+      "text": "Il giorno della vaccinazione, a Palermo, cominciò con la pioggia. Davanti alla scuola media i genitori chiudevano gli ombrelli e salutavano i figli, mentre in palestra l'infermiera Rosalia preparava il suo tavolo: siringhe nuove, cotone, cerotti colorati e un grande foglio con l'elenco delle classi. Ogni anno, in autunno, l'azienda sanitaria mandava due infermiere a scuola per i richiami, e ogni anno la palestra si trasformava in un piccolo ambulatorio.\n\nRosalia aveva 25 anni di lavoro alle spalle e conosceva bene l'agitazione che precede un vaccino. Non quella dei bambini piccoli, che di solito dura poco, ma quella dei ragazzi di 12 anni, che fanno i grandi e intanto guardano la siringa con la coda dell'occhio. Per questo, prima di cominciare, parlava sempre alla classe. «Il vaccino» spiegava «insegna al vostro corpo a riconoscere un nemico prima ancora di incontrarlo. Così, quando lo incontra davvero, siete già immuni, o quasi. Vorrei darvi un solo consiglio: respirate piano.»\n\nLa professoressa Anna chiese alla 2ª B di schierarsi in due file lungo il muro. I ragazzi aspettavano con le maniche già arrotolate, e qualcuno con la felpa in mano, perché in palestra faceva caldo. Tra loro c'era Matteo, un ragazzo magro, con una felpa grigia troppo grande. Matteo era indeciso. Voleva andare per primo, per togliersi il pensiero, ma allo stesso tempo voleva restare ultimo, per non andarci mai. Non sapeva dove schierarsi: prima in testa alla fila, poi in fondo, poi di nuovo in mezzo. La professoressa non lo rimproverò. Sapeva che a quell'età rimproverare non serve a niente, e che l'agitazione passa più in fretta se qualcuno ti parla con calma.\n\nAlla fine fu Rosalia a chiamarlo. «Matteo, vieni. Siediti qui e guarda il soffitto. Conta fino a tre, ma conta lentamente.» Matteo contò: uno, due... e al due era già tutto finito. «Tutto qui?» disse. «Tutto qui» rispose Rosalia, e gli mise un cerotto sul braccio. Il ragazzo uscì dalla fila con una faccia così stupita che l'agitazione della classe si sciolse in una risata.\n\nIl resto della mattina passò con una certa allegria, e nella palestra tornò un'allegria da ricreazione. Una ragazza si sentì un po' debole e la sua amica accorse subito con una sedia, mentre un altro compagno accorreva con un bicchiere d'acqua. Rosalia le disse di respirare piano. «Restate seduti 15 minuti» disse a tutti. «Devo darvi un biscotto e un bicchiere d'acqua prima che torniate in classe.»\n\nAll'uscita, ogni ragazzo ricevette un adesivo. Quello di Matteo mostrava un piccolo ninja che teneva in alto una siringa e diceva «Missione compiuta». Matteo lo attaccò sulla felpa grigia e lo mostrò alla professoressa. Fuori aveva smesso di piovere, e i genitori riaprirono gli ombrelli solo per fare ombra ai ragazzi più contenti.\n\nDomande:\nChe cosa succede in palestra ogni autunno?\nDue infermiere dell'azienda sanitaria fanno i richiami e la palestra diventa un ambulatorio.\nPerché Rosalia dice che il vaccino è utile?\nPerché insegna al corpo a riconoscere un nemico, così si è già immuni quando lo si incontra davvero.\nCome si comporta Matteo?\nÈ indeciso: prima si mette in testa alla fila, poi in fondo, poi in mezzo.\nChe cosa fa la professoressa Anna?\nNon lo rimprovera, perché sa che l'agitazione passa più in fretta se qualcuno parla con calma.\nChe cosa ricevono i ragazzi all'uscita?\nRicevono un adesivo; quello di Matteo mostra un piccolo ninja."
+    },
+    {
+      "title": "La strada dell'acqua",
+      "summary": "A columnist follows the water that reaches her kitchen tap back to the mountain springs and the small office that checks it.",
+      "newWords": [
+        "rubinetto",
+        "purezza",
+        "utenza",
+        "sonda",
+        "annualmente",
+        "contabilità",
+        "cronologico",
+        "ventennio",
+        "convergere",
+        "concernente",
+        "preparativo"
+      ],
+      "text": "Ogni mattina apro il rubinetto della cucina, riempio un bicchiere e bevo senza pensarci. È un gesto così comune che solo l'altro giorno mi sono chiesta quanta strada abbia fatto quell'acqua prima di arrivare da me. Così ho chiesto di visitare l'acquedotto del mio paese, in una valle vicino a Cuneo, e la responsabile, Fulvia, mi ha accolta con un casco bianco e un sorriso tranquillo.\n\nPrima di entrare abbiamo fatto i preparativi di rito: casco, stivali di gomma e le mani lavate due volte. «La purezza dell'acqua comincia dalle persone che ci lavorano» ha detto Fulvia. Non era una frase fatta: i preparativi sono durati dieci minuti, e Fulvia ha controllato che io non avessi con me né cibo né sacchetti.\n\nLa prima tappa è una vasca di cemento dove convergono le acque di tre sorgenti. Scendono dalla montagna, da 1.800 metri di quota, e la roccia fa da filtro. «Per questo la purezza è alta fin dall'inizio» mi ha spiegato. «Noi non aggiungiamo quasi niente: controlliamo.» Nella vasca c'è una sonda lunga come un braccio che misura ogni minuto la temperatura e la chiarezza dell'acqua. Se un valore esce dalla norma, un messaggio arriva sul telefono di Fulvia.\n\nSiamo scese in paese, nell'ufficio dell'acquedotto. Su uno scaffale c'è un grande registro cronologico, dove ogni analisi ha la sua riga: una data, un valore, una firma. Annualmente se ne fanno più di 300, in parte dal laboratorio dell'acquedotto e in parte dall'azienda sanitaria, che controlla i controllori. Fulvia ha aperto il registro a caso, e il valore era sempre quello giusto.\n\nNella stanza accanto lavora Giorgio, che si occupa della contabilità. «Ogni utenza, cioè ogni casa, negozio o stalla collegata alla rete, ha il suo contatore» mi ha spiegato. «La contabilità dell'acqua è semplice: quello che esce dal rubinetto viene scritto qui, e la bolletta serve a pagare i controlli e la manutenzione dei tubi.» Sul tavolo c'era un avviso concernente i lavori sulla strada principale. Un secondo avviso, concernente le analisi, era appeso accanto alla porta. Annualmente Giorgio ne manda una dozzina a tutte le utenze, e nessuno protesta.\n\nC'è anche una buona notizia, e riguarda un ventennio di lavoro paziente. In 20 anni i consumi per abitante sono scesi, perché le tubature perdono meno e la gente ha imparato a chiudere il rubinetto mentre si lava i denti. «È merito di tutte le utenze del paese» ha detto Fulvia.\n\nQuando sono tornata a casa, la sera, ho aperto il rubinetto con uno sguardo diverso. Dietro quel gesto c'erano una vasca, una sonda, un registro e due persone che fino a quella mattina non conoscevo. Ho bevuto con un po' di gratitudine, che per un'acqua così pura mi sembra il minimo.\n\nDomande:\nDove convergono le tre sorgenti?\nConvergono in una vasca di cemento, nella quale la roccia fa da filtro.\nChe cosa fa la sonda?\nMisura ogni minuto la temperatura e la chiarezza dell'acqua e avvisa Fulvia se un valore esce dalla norma.\nChe cosa c'è nel registro cronologico?\nPer ogni analisi c'è una riga con una data, un valore e una firma.\nDi che cosa si occupa Giorgio?\nSi occupa della contabilità: ogni utenza ha un contatore, e la bolletta serve a pagare i controlli e i tubi.\nChe cosa è cambiato in un ventennio?\nI consumi per abitante sono scesi, perché le tubature perdono meno e la gente chiude il rubinetto."
+    },
+    {
+      "title": "Niente di miracoloso",
+      "summary": "A man from Naples looks for a miracle pill at the pharmacy and goes home with a herbal tea and some sensible advice.",
+      "newWords": [
+        "melissa",
+        "dispensa",
+        "miracoloso",
+        "alleviare",
+        "riservare",
+        "contraddire",
+        "unanime",
+        "intestinale",
+        "insinuare",
+        "stufo",
+        "distaccato"
+      ],
+      "text": "Il signor Ciro entrò nella farmacia di un vicolo del centro storico di Napoli con l'aria di un uomo che ha già deciso quello che vuole. Da tre giorni, dopo un pranzo di nozze che era durato fino a sera, aveva un piccolo disturbo intestinale: niente di grave, ma abbastanza fastidioso da tenerlo a casa. Era stufo di stare a digiuno, stufo di guardare la televisione e stufo soprattutto dei consigli che ognuno gli dava. Un vicino, alla fermata dell'autobus, aveva insinuato che la sua pazienza fosse sbagliata. «Basta una pastiglia» aveva detto. «In farmacia ne hanno una miracolosa.»\n\n«Buongiorno» disse Ciro alla farmacista. «Vorrei la pastiglia miracolosa.»\n\nLa dottoressa Teresa sorrise senza fretta. Era una donna sulla quarantina, con un camice bianco e una matita dietro l'orecchio, e in quella farmacia aveva fatto una piccola rivoluzione. Il vecchio farmacista era distaccato: porgeva le scatole senza una parola, come se la gente venisse a comprare viti. Teresa, invece, riservava un angolo del banco alle persone che avevano bisogno di spiegazioni, con due sedie, e a ogni cliente riservava il tempo che serviva. Su questo la gente del vicolo era unanime: era la farmacia più gentile del quartiere. «Si accomodi, signor Ciro» disse. «Mi racconti.»\n\nCiro raccontò del pranzo, dei tre giorni e del vicino. Teresa ascoltò tutto, poi fece alcune domande: da quanto tempo, che cosa aveva mangiato, se aveva febbre. «Mi dispiace deluderla» disse alla fine «ma pastiglie miracolose non ne abbiamo. Posso invece alleviare il fastidio con poche cose semplici. Che cosa ha in dispensa?»\n\n«In dispensa?» Ciro ci pensò. «Riso, un po' di pasta, sale, qualche limone.»\n\n«Perfetto. Riso in bianco, limone, molta acqua. E questa.» Mise sul banco una scatola di bustine verdi. «Melissa. Una tisana la sera e una al mattino. Non è una medicina, è un'erba che calma. Aiuta ad alleviare quella sensazione di stomaco pesante.»\n\nCiro la guardò con aria dubbiosa. «Mia nonna faceva la tisana di melissa» disse. «Ma credevo fosse roba da vecchi.»\n\n«Non mi permetterei mai di contraddire sua nonna» rispose Teresa. «Anzi, su questo il parere dei medici è quasi unanime: nei disturbi leggeri la cosa migliore è riposare, bere e mangiare poco. Una pastiglia miracolosa non esiste. Chi la vende, o chi insinua che esista, promette più di quanto può mantenere.» Poi aggiunse, con più serietà: «Se dopo due giorni non va meglio, o se ha febbre, torni a dirmelo: in quel caso la mando dal suo medico.»\n\nCiro uscì dalla farmacia con la scatola di melissa in una mano e una busta di carta nell'altra, dentro cui Teresa aveva messo anche un foglietto con tutto scritto a penna. Per strada incontrò di nuovo il vicino e non lo contraddisse: si limitò a mostrargli la scatola. Due giorni dopo stava molto meglio, e la sua nonna, secondo lui, aveva sempre avuto ragione.\n\nDomande:\nPerché il signor Ciro va in farmacia?\nPerché ha un disturbo intestinale da tre giorni e vuole una pastiglia miracolosa.\nChe cosa ha cambiato la dottoressa Teresa?\nRiservava un angolo del banco alle persone che hanno bisogno di spiegazioni, mentre il vecchio farmacista era distaccato.\nChe cosa ha Ciro in dispensa?\nHa riso, un po' di pasta, sale e qualche limone.\nChe cosa gli consiglia Teresa?\nRiso in bianco, limone, molta acqua e una tisana di melissa.\nPerché Teresa dice che le pastiglie miracolose non esistono?\nPerché nei disturbi leggeri la cosa migliore è riposare e bere, e chi promette miracoli promette più di quanto può mantenere."
+    },
+    {
+      "title": "La palestra del lunedì",
+      "summary": "A retired man from Cagliari joins a free gym class for over-sixties and learns that balance, like patience, can be trained.",
+      "newWords": [
+        "attrezzato",
+        "trave",
+        "pallina",
+        "ruotare",
+        "cascare",
+        "adattarsi",
+        "flessibilità",
+        "dedizione",
+        "cuoio",
+        "significativamente"
+      ],
+      "text": "A Cagliari, nel quartiere vicino al porto, c'è una palestra comunale che il lunedì e il giovedì mattina si riempie di persone con più di 60 anni. Il corso è gratuito, lo organizza l'azienda sanitaria, e si chiama «Muoversi bene». Mario, 70 anni, impiegato delle poste in pensione, ci era arrivato spinto dalla figlia, che gli aveva detto: «Papà, a stare sempre sul divano non si diventa più giovani.»\n\nLa prima volta entrò con le sue scarpe di cuoio, quelle che metteva per andare in banca e al bar, e con l'aria di chi ha sbagliato porta. La palestra era ben attrezzata, anche per chi si muove con il bastone: tappetini, elastici colorati, scalini bassi, specchi e, in fondo, una lunga trave di legno appoggiata a terra. L'istruttrice, Giada, una ragazza sportiva con i capelli raccolti, gli guardò i piedi e sorrise. «Le scarpe di cuoio sono bellissime» disse «ma qui servono scarpe da ginnastica. Ci vuole un po' per abituarsi, ma tutti ci riescono.»\n\nMario non ebbe difficoltà ad adattarsi: nella vita aveva cambiato tre uffici. La settimana dopo comprò un paio di scarpe leggere e tornò. Per fortuna la sala era attrezzata per tutti, e per adattarsi bastava volerlo. L'esercizio più difficile, scoprì presto, era camminare sulla trave. Sembrava facile: un'asse larga 10 centimetri, lunga 3 metri. Ma dopo due passi Mario cominciava a oscillare, apriva le braccia e posava il piede a terra. «Non importa» diceva Giada. «Chi casca si rialza, e intanto impara.» Poi spiegava che l'equilibrio non è un dono, ma un muscolo, e che a 70 anni si allena come a 20, soltanto con più calma.\n\nDopo la trave venivano le mani e le spalle. Ognuno aveva una pallina morbida da stringere e da far passare da una mano all'altra, e a ogni giro si ripeteva: «Spalle indietro, ruotare piano, respirare.» Quando la pallina gli cascava dalle mani, Giada gliela rimetteva nel palmo e diceva: «Non ha fretta, la pallina.»\n\nGiada pensava che l'unica vera misura fosse la flessibilità: non quella dei campioni, ma quella che serve per chinarsi a raccogliere una moneta. Ogni mattina controllava chi riusciva ad allacciarsi le scarpe da solo. Alla fine del terzo mese Mario si allacciava le scarpe in piedi, in due secondi. Era migliorato significativamente, e se ne accorse anche la figlia, che lo vide salire le scale due gradini alla volta.\n\nGiada diceva sempre che il merito era della dedizione di tutti: la sua, perché veniva anche con la pioggia, e quella dei suoi allievi, che non saltavano mai una lezione. «La dedizione» diceva «vale più del talento, e la flessibilità si conquista ogni giorno.» Un lunedì, a metà lezione, Mario si mise sulla trave e la percorse fino in fondo, a braccia abbassate, senza oscillare. Nessuno applaudì: tutti ripresero a ruotare le spalle. Mario sorrise. Le scarpe di cuoio, nel frattempo, aspettavano a casa i giorni di festa.\n\nDomande:\nChi organizza il corso «Muoversi bene»?\nLo organizza l'azienda sanitaria, ed è gratuito per chi ha più di 60 anni.\nPerché Giada guarda le scarpe di Mario?\nPerché sono di cuoio, e in palestra servono scarpe da ginnastica.\nChe cosa c'è di difficile sulla trave?\nDopo due passi si comincia a oscillare, e bisogna imparare a non cascare.\nA che cosa servono le palline?\nSi stringono e si passano da una mano all'altra, mentre si fanno ruotare le spalle.\nChe cosa succede dopo tre mesi?\nMario è migliorato significativamente e percorre tutta la trave senza oscillare."
+    },
+    {
+      "title": "L'orto di nonna Dora",
+      "summary": "A granddaughter in Udine joins her grandmother's community vegetable plot and learns that eating well starts with the soil, the bitter greens and the bread.",
+      "newWords": [
+        "catalogna",
+        "impasto",
+        "mischiare",
+        "friulano",
+        "taverna",
+        "fertilità",
+        "televisore",
+        "prenderti",
+        "cercata"
+      ],
+      "text": "Mia nonna Dora, che è friulana fino al midollo, ha una teoria: la salute comincia dall'orto. Per anni ho sorriso, perché a casa sua il televisore resta acceso tutto il giorno. Poi, quest'autunno, mi ha telefonato. «Sabato vengo a prenderti alle 8» ha detto. «Metti scarpe vecchie.» E io, che a 34 anni non so ancora dire di no a una nonna, ho messo le scarpe vecchie.\n\nIl posto era l'orto condiviso del suo quartiere, a Udine: un terreno comunale diviso in 20 aiuole, curate da famiglie che prima non si salutavano nemmeno. Tullio, un agronomo in pensione che coordina il gruppo, ci ha accolte con un secchio di compost in mano. «La fertilità della terra non è un dono» ci ha detto. «Si costruisce, con le foglie secche, con i resti della cucina e con un po' di pazienza.» Ho capito, per la prima volta, che anche la terra può essere in buona o in cattiva salute.\n\nLa nonna, intanto, aveva già individuato la sua aiuola e la sua verdura preferita: la catalogna, una cicoria dalle foglie lunghe e un po' amare, che in Friuli si mangia soprattutto d'inverno. «La catalogna non vuole troppa acqua» ha spiegato «e non vuole troppa fretta.» Ne abbiamo raccolta una cesta intera, e la nonna ha detto in friulano una frase che non ho capito, ma che aveva il tono di un complimento.\n\nA mezzogiorno il gruppo si è spostato nella taverna dell'orto, una stanza con un tavolo di legno e un forno, che l'associazione usa per i pranzi di quartiere. Lì la nonna mi ha affidato il compito più importante: l'impasto del pane. Abbiamo mischiato farina bianca e farina integrale, e la nonna mi guardava le mani. «Più forte» diceva. «L'impasto deve sentire che ci sei.» Dopo mezz'ora l'impasto era liscio, e nel frattempo abbiamo cucinato la catalogna con aglio e olio.\n\nIl pranzo è stato il migliore dell'anno. Non c'era un televisore, in taverna, e nessuno lo rimpiangeva. Mangiavamo in 12 allo stesso tavolo, pane caldo e catalogna. Nessuno parlava di dieta. A un certo punto la nonna mi ha chiesto di cercare con il telefono la ricetta della minestra d'orzo della sua infanzia. L'ho trovata subito: una ricetta cercata per anni, e cercata invano in tutte le cucine di famiglia, stava in un blog di Gorizia.\n\nTornando a casa, con la cesta in mano e il profumo del pane nei vestiti, ho capito che la teoria della nonna non era una teoria. L'orto non è la salute di per sé. Ma insegna ad aspettare, a mischiare le cose, a mangiare con gli altri. «Sabato prossimo ripasso a prenderti» mi ha detto la nonna, e io le ho risposto di sì senza pensarci.\n\nDomande:\nChi è Tullio e che cosa dice della terra?\nÈ un agronomo in pensione, e dice che la fertilità della terra non è un dono, ma si costruisce.\nChe cos'è la catalogna?\nÈ una cicoria con le foglie lunghe e un po' amare, che in Friuli si mangia soprattutto d'inverno.\nDove si trova la taverna dell'orto e a che cosa serve?\nÈ una stanza con un tavolo di legno e un forno a legna, e serve per i pranzi di quartiere.\nChe cosa mischiano l'autrice e la nonna?\nMischiano farina bianca e farina integrale per fare l'impasto del pane.\nChe cosa capisce l'autrice alla fine?\nCapisce che l'orto insegna ad aspettare, a mischiare le cose e a mangiare con gli altri."
+    },
+    {
+      "title": "Il Pedibus di Bellinzona",
+      "summary": "A mother in Ticino describes the walking school bus that takes her son to school on foot, and what a quiet morning on the pavement does for the whole town.",
+      "newWords": [
+        "pedone",
+        "campanile",
+        "convoglio",
+        "combustione",
+        "socialmente",
+        "ribalta",
+        "granché",
+        "bacchetta",
+        "spiare",
+        "sommo",
+        "discriminare"
+      ],
+      "text": "Da quando mio figlio Leonardo va a scuola con il Pedibus, la mia mattina è cambiata. Il Pedibus, per chi non lo conoscesse, è un autobus senza motore: un gruppo di bambini che cammina in fila da casa fino a scuola, accompagnato da due adulti, con fermate precise e un orario preciso, come un vero servizio pubblico. Qui, a Bellinzona, in Ticino, lo ha riportato alla ribalta il comune tre anni fa, quando si è accorto che davanti alla scuola, alle otto e un quarto, le auto formavano una coda lunga come un convoglio.\n\nIl nostro percorso parte da una panetteria all'angolo e arriva al cancello della scuola in venti minuti. La guida è Wanda, una signora di 65 anni con un giubbotto giallo e una bacchetta rossa, che usa per fermare le auto agli incroci. Non l'ho mai vista alzare la voce. Il suo sommo orgoglio è che nessun bambino si è mai perso. I bambini la seguono in fila per due, e alle fermate se ne aggiungono altri, finché il piccolo convoglio conta una quindicina di teste e altrettanti zaini.\n\nUna mattina ho deciso di camminare con loro. Volevo capire che cosa trovasse Leonardo, ogni giorno, in quei venti minuti. Mi sono accorta subito che i bambini sanno fare una cosa che noi adulti dimentichiamo: guardano. Un bambino mi ha indicato il campanile della chiesa vecchia, in cima a una collina, dicendo che quando c'è il sole sembra più vicino. Leonardo, che a 8 anni crede di sapere tutto, mi ha spiegato come si distingue un platano da un tiglio. Sanno discriminare le foglie meglio di me, e ormai discriminano anche i rumori: il camion, il merlo, la campana.\n\nA settembre il Pedibus è tornato alla ribalta anche sul giornale locale. Camminare, naturalmente, fa bene al corpo. Un pedone che percorre ogni giorno due chilometri a quell'età costruisce gambe forti e un cuore sano. Ma c'è anche un vantaggio che non si misura: la combustione dei motori davanti alla scuola, che prima riempiva la strada di fumo grigio, adesso si sente molto meno. Il traffico del mattino è diminuito significativamente. Ogni pedone, grande o piccolo, respira meglio. Socialmente, poi, il Pedibus fa molto: i bambini si conoscono meglio, i genitori si salutano, i nonni della strada escono a spiare l'arrivo della fila, e anche i vicini la spiano dalla finestra e sventolano la mano. Una scuola socialmente più unita, mi ha detto una maestra, è la cosa che l'ha sorpresa di più.\n\nNaturalmente non tutto è perfetto. Quando piove, non è granché passare venti minuti sotto un ombrello che perde. Una volta Leonardo è arrivato con un calzino bagnato e un umore nero. Ma bastano cinque minuti in classe e il calzino si asciuga. Il piacere di arrivare a scuola con il sangue in circolo e la testa sveglia è, per un bambino, un piccolo bene sommo: non lo sa dire, però lo conosce.\n\nDomande:\nChe cos'è il Pedibus?\nÈ un autobus senza motore: un gruppo di bambini che cammina in fila verso scuola con due adulti.\nChe cosa fa Wanda con la bacchetta rossa?\nLa usa per fermare le auto agli incroci.\nChe cosa notano i bambini lungo la strada?\nNotano il campanile e le foglie degli alberi.\nChe cosa è cambiato davanti alla scuola?\nIl traffico è diminuito, e la combustione dei motori si sente molto meno.\nPerché camminare sotto la pioggia non è granché?\nPerché si passano venti minuti sotto un ombrello che perde, e a volte si arriva con un calzino bagnato."
+    },
+    {
+      "title": "La parola giusta",
+      "summary": "A cultural mediator helps a Kurdish family understand a children's check-up in Pavia, and explains why a good translation is more than words.",
+      "newWords": [
+        "pavese",
+        "curdo",
+        "tunisino",
+        "coesione",
+        "correttezza",
+        "infedele",
+        "abc"
+      ],
+      "text": "Il consultorio pediatrico di un quartiere di Pavia ha una stanza che i pavesi non vedono quasi mai: è piccola, ha due sedie e una pianta, e lì lavora Samira, la mediatrice linguistica del centro. Samira è tunisina, è arrivata in Italia a 20 anni e oggi, a 45, parla bene l'arabo, il francese e l'italiano, e si fa capire in altre tre lingue. Il suo compito è semplice da dire e difficile da fare: aiutare le famiglie straniere a capire il medico, e il medico a capire le famiglie.\n\nQuel martedì doveva accompagnare una coppia curda, Aveen e Rizgar, arrivata in città da pochi mesi con il figlio Dara, di 4 anni. Aveen parlava una lingua che Samira conosceva appena, ma per fortuna Rizgar aveva imparato un po' di arabo da ragazzo, e con quel poco, un sorriso e molta pazienza, ci si capiva. L'incontro era un controllo di routine. «Non c'è niente da temere» ha detto Samira ai genitori prima di entrare. «Il medico guarderà come cresce Dara e vi spiegherà come funziona la vaccinazione.»\n\nLa pediatra, la dottoressa Bianchi, una pavese di vecchia data con gli occhiali sulla fronte, ha cominciato con le domande di sempre: come mangia, come dorme, con chi gioca. Samira traduceva ogni frase una volta, lentamente, senza aggiungere niente. A un certo punto la dottoressa ha usato un'espressione in dialetto pavese, e Samira ha dovuto fermarsi. «Letteralmente» ha detto sorridendo «non si può tradurre. Una traduzione letterale sarebbe infedele: darebbe il senso sbagliato.» Ha cercato un'altra espressione, più semplice, e ha spiegato ad Aveen che il bambino doveva mangiare un po' di verdura ogni giorno. Aveen ha riso e ha risposto con una frase che Samira ha subito riportato al medico.\n\nDopo la visita Samira ha spiegato a me, che ero lì per scrivere un articolo, qual è l'abc del suo mestiere. «Prima regola: tradurre tutto, anche le cose scomode. Seconda: non aggiungere nulla di mio. Terza: la correttezza viene prima della gentilezza.» Ha alzato un dito. «Se una frase del medico è dura, la traduco com'è, ma con un tono calmo. Una traduzione infedele può sembrare più gentile, ma è un modo di mancare di rispetto alla famiglia.»\n\nPrima di andare via, Aveen ha offerto a Samira un dolce al miele e ha detto, con l'aiuto del marito, che i dolci tunisini e quelli curdi in fondo si assomigliano. Rizgar, intanto, aspettava all'uscita con Dara in braccio. Mi ha detto, a gesti e con poche parole, che per lui la visita era stata importante perché per la prima volta si era sentito ascoltato. Samira ha tradotto le sue parole con cura. «Io non mi sento una persona importante» ha aggiunto. «Ma se in questa stanza riesco a costruire un ponte tra due lingue, forse aiuto anche la coesione del quartiere. Una città non si tiene insieme con i muri, ma con le parole giuste.»\n\nDomande:\nChe lavoro fa Samira?\nÈ la mediatrice linguistica del consultorio e aiuta le famiglie straniere a capire il medico.\nChi sono Aveen e Rizgar?\nSono una coppia curda arrivata da pochi mesi a Pavia con il figlio Dara.\nPerché una traduzione letterale può essere infedele?\nPerché può dare il senso sbagliato, come con l'espressione in dialetto pavese.\nQual è l'abc del mestiere di Samira?\nTradurre tutto, non aggiungere niente di proprio e mettere la correttezza prima della gentilezza.\nPerché Samira parla di coesione?\nPerché un ponte tra due lingue può aiutare la coesione del quartiere."
+    },
+    {
+      "title": "Diario della segreteria",
+      "summary": "A medical secretary in Trento writes a week of diary entries: spam in the inbox, a lawyer who explains consent forms, a signature to certify and a waiting room turned into a living room.",
+      "newWords": [
+        "spam",
+        "giurista",
+        "legalizzazione",
+        "forense",
+        "genesi",
+        "originalità",
+        "living"
+      ],
+      "text": "Lunedì. Sono Elena, e da 12 anni lavoro nella segreteria di uno studio medico associato, a Trento. Ogni mattina apro la posta e ogni mattina trovo la stessa cosa: tra le richieste di appuntamento e le ricette da rinnovare ci sono almeno dieci messaggi di spam. Offrono vacanze, medicine «miracolose» e diete che non esistono. Li riconosco dal tono troppo allegro. I medici dicono che lo spam è come il raffreddore: non si elimina, si gestisce. Io lo cancello con la stessa calma con cui metto il caffè nella macchinetta.\n\nMartedì. Oggi è venuta a trovarci Marta, la giurista dell'azienda sanitaria, per spiegarci come trattare i dati dei pazienti. Marta ha lavorato per anni in uno studio forense, tra contratti e testamenti, e poi ha scelto la sanità pubblica «perché qui le leggi servono a qualcosa ogni giorno». Ci ha mostrato un modulo di consenso scritto in un italiano chiaro, e ha detto: «Un paziente deve capire che cosa firma. Se non capisce, la firma non vale niente.» Poi la giurista ha aggiunto, con una cortesia da insegnante, che la riservatezza non è un'idea astratta: è non lasciare mai una cartella aperta sul banco.\n\nMercoledì. È venuto un signore anziano, il signor Valerio, con un certificato per il Comune. Gli serviva la legalizzazione della sua firma, cioè la dichiarazione ufficiale che quella firma è davvero la sua. Gli ho spiegato che la legalizzazione non si fa da noi, ma all'ufficio anagrafe, e gli ho disegnato la strada su un foglio. Ha ringraziato. Mi è sembrata una piccola vittoria: aver trasformato una parola difficile, legalizzazione, in un percorso di quattro minuti a piedi.\n\nGiovedì. Il dottor Franchi mi ha chiesto di raccontare, per il giornalino del quartiere, la genesi della nostra sala d'attesa nuova. L'idea, in realtà, è nata un anno fa da una frase di una bambina: «Sembra una stazione.» Non aveva torto. File di sedie grigie, un televisore muto e nessun fiore. Così i medici hanno deciso di cambiare. Oggi la sala sembra un living: due divani, una libreria con i libri che portano i pazienti, una pianta grande vicino alla finestra. Il dottor Franchi dice che un living fa bene alla salute, perché quando ci si sente a casa ci si preoccupa un po' meno.\n\nVenerdì. Sul muro del living ci sono i disegni dei bambini. C'è un cane con sei zampe, un sole con la faccia triste e una casa con il camino che fuma. Non tutti sono belli, ma l'originalità dei bambini è un piccolo regalo per chi aspetta. Marta, passando, ne ha guardato uno a lungo e ha detto che l'originalità vale più della bravura. Voleva comprarlo. Ho risposto che non è in vendita, ma che può tornare quando vuole. Ho chiuso la posta e ho cancellato l'ultimo messaggio di spam della settimana.\n\nDomande:\nChe cosa trova Elena ogni mattina nella posta?\nTrova richieste di appuntamento, ricette da rinnovare e molti messaggi di spam.\nChe lavoro faceva Marta prima di lavorare nella sanità pubblica?\nLavorava in uno studio forense, tra contratti e testamenti.\nChe cos'è la legalizzazione di una firma?\nÈ la dichiarazione ufficiale che quella firma è davvero della persona; si fa all'ufficio anagrafe.\nQual è la genesi della sala d'attesa nuova?\nÈ nata da una frase di una bambina, che diceva che la sala sembrava una stazione.\nPerché il living fa bene, secondo il dottor Franchi?\nPerché quando ci si sente a casa ci si preoccupa un po' meno."
+    },
+    {
+      "title": "Il controllo dei tre anni",
+      "summary": "In Sassari a pediatrician checks a three-year-old's growth and talks with his mother and his grandfather about sleep, play and what a child really needs.",
+      "newWords": [
+        "evolutivo",
+        "nesso",
+        "anomalo",
+        "milionario",
+        "background"
+      ],
+      "text": "Il pediatra del quartiere, a Sassari, la dottoressa Giovanna, ha una regola: i controlli dei tre anni si fanno con calma, senza orologio. Lo chiama «il controllo evolutivo», e spiega ai genitori che non serve a trovare difetti, ma a vedere come cresce un bambino: come cammina, come parla, come gioca. Quel giovedì il paziente era Antonio, 3 anni appena compiuti, accompagnato dalla madre, Lucia, e dal nonno Peppino, che non aveva voluto restare a casa.\n\nAntonio è entrato nello studio con un camion di plastica in mano e si è fermato davanti alla scrivania. La dottoressa non lo ha chiamato per nome subito. Si è seduta per terra, ha preso un secondo camion dalla cesta dei giochi e ha cominciato a farlo correre sul pavimento. Dopo un minuto Antonio si è seduto accanto a lei. «Questo è il controllo evolutivo più serio che faccio» ha detto Giovanna a Lucia. «Un bambino che gioca mi dice più di cento domande.»\n\nCosì è cominciata la visita. Giovanna ha misurato Antonio, l'ha pesato, ha guardato come saliva sullo sgabello e come disegnava un cerchio con la matita. Ha chiesto quante parole sapesse dire e Lucia ha risposto, un po' preoccupata: «Parla tanto, ma a volte dice parole che non esistono.» «Normalissimo» ha detto la dottoressa. «A questa età le parole nuove si inventano. Non c'è niente di anomalo.» Poi ha controllato la vista con alcune figure e l'udito con un campanello, e ha annotato tutto con una penna verde.\n\nAlla fine ha chiesto del sonno, dei pasti e di come passa il tempo Antonio. Lucia ha raccontato che il bambino dorme dieci ore, mangia bene la pasta e meno bene le verdure, e guarda poco la televisione. Il nonno ha aggiunto che i giochi preferiti sono la sabbia, i sassi e il cane. «C'è un nesso, sa, tra il sonno e la crescita» ha spiegato la dottoressa. «Un bambino che dorme bene cresce meglio. E c'è un nesso anche tra il gioco all'aperto e l'appetito: più corre, più mangia.» Lucia ha sorriso, sollevata, perché aveva temuto di dover cambiare qualcosa.\n\nGiovanna ha ricordato che ogni bambino ha il suo background: la famiglia, la casa, le abitudini, la lingua che si parla a tavola. Per questo le tabelle di crescita sono utili ma non decidono nulla. «Per me contano le abitudini» ha detto. «Un background affettuoso vale quanto una buona dieta.»\n\nNonno Peppino, che aveva ascoltato tutto in silenzio, a quel punto si è alzato in piedi. «Io non ho una lira» ha dichiarato «ma sono milionario di nipoti, dottoressa. Ne ho sei, e questo è il più testardo.» Giovanna ha riso così forte che Antonio ha alzato la testa dal camion. «Allora Antonio è in buone mani» ha detto la dottoressa a Lucia, e ha firmato il libretto con la sua penna verde. Il prossimo controllo era fissato per l'anno dopo.\n\nDomande:\nChe cos'è il controllo evolutivo?\nÈ un controllo che serve a vedere come cresce un bambino: come cammina, come parla, come gioca.\nCome comincia la visita la dottoressa Giovanna?\nSi siede per terra e fa correre un camion sul pavimento, finché Antonio si siede accanto a lei.\nPerché Lucia è preoccupata?\nPerché Antonio dice a volte parole che non esistono, ma la dottoressa dice che non c'è niente di anomalo.\nQuali nessi spiega la dottoressa?\nSpiega che c'è un nesso tra sonno e crescita, e tra gioco all'aperto e appetito.\nPerché il nonno si dice milionario?\nPerché ha sei nipoti, e il più testardo è Antonio."
+    }
+  ]
+}
