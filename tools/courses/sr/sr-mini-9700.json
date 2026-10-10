@@ -1,0 +1,211 @@
+{
+  "id": "sr-mini-9700",
+  "rankUpTo": 9700,
+  "level": "C2",
+  "title": "Bašte i botanika",
+  "description": "Ten calm stories about gardens and plants: jam and chamomile in a village, a school garden, a botanical garden, sore muscles after digging, a park walk, bees, a market of tomatoes, mountain herbs, a trip to Berlin and a seed catalogue.",
+  "topic": "Gardens and botany",
+  "names": [
+    "Jelena",
+    "Beograd",
+    "Radmila",
+    "Topola",
+    "Mira",
+    "Sava",
+    "Čačak",
+    "Vesna",
+    "Luka",
+    "Anđela",
+    "Maja",
+    "Milan",
+    "Subotica",
+    "Bora",
+    "Gordana",
+    "Cvetko",
+    "Aca",
+    "Slavko",
+    "Teodora",
+    "Novi Sad",
+    "Šarko",
+    "Dunavski",
+    "Tijana",
+    "Zrenjanin",
+    "Mirko",
+    "Niš",
+    "Zora",
+    "Dragan",
+    "Milovan",
+    "Zlatibor",
+    "Nina",
+    "Milenko",
+    "Savić",
+    "Čajetina",
+    "Zoran",
+    "Sara",
+    "Berlin",
+    "Aleksanderplac",
+    "Dalem",
+    "Dragoljub",
+    "Kragujevac",
+    "Jelica",
+    "Gruža",
+    "Seme i prijatelji"
+  ],
+  "lessons": [
+    {
+      "title": "Pekmez kod bake Radmile",
+      "summary": "Jelena spends August at her grandmother's village near Topola, picks plums and helps to cook jam.",
+      "newWords": [
+        "njiva",
+        "pekmez",
+        "kamilica",
+        "janje",
+        "stolnjak",
+        "tetkica",
+        "sobica",
+        "sočno",
+        "lomljiv",
+        "nabrojati"
+      ],
+      "text": "Jelena živi u Beogradu, ali svakog leta nekoliko nedelja provodi kod bake Radmile, u selu nedaleko od Topole. Baka ima malu kuću, veliku baštu i njivu iza bašte, na kojoj rastu kukuruz i bundeve. Jelena spava u sobici pod krovom. Ta sobica je mala, ali ima prozor okrenut ka njivi, pa se ujutru prvo vidi zelenilo, a tek onda zid.\n\nSvako jutro Jelena ide do njive, dok je trava još vlažna od rose. Na ivici njive raste kamilica, i baka kaže da je najbolje ubrati je pre podne. Jelena ubere pun džep belih cvetova, a baka ih uveče osuši i skuva čaj. Kraj ograde pase janje komšije Save. Čim ugleda Jelenu, janje dotrči do žice i čeka da ga neko pomiluje. Jelena ga svako jutro pomiluje i svako jutro mu obeća da će se sutra vratiti.\n\nPrvog dana avgusta baka je rekla da je vreme za šljive.\n\n— Ove godine ću skuvati pekmez onako kako sam ga kuvala kad sam bila devojka — rekla je. — Polako, na maloj vatri, uz mnogo strpljenja.\n\nJelena je uzela korpu i otišla u voćnjak. Grane su bile lomljive, pa se nije penjala na drvo, nego je birala samo one šljive do kojih može da dohvati rukom. Voće je bilo tako sočno da joj je sok tekao niz prste, a ona se smejala i brisala ruke o suknju.\n\nU podne je stigla tetkica Mira, sestra bake Radmile. Cela porodica je zove tetkica, iako je i ona odavno baka. Tetkica Mira je donela prazne tegle i veliki beli stolnjak. Stolnjak su stavile na sto u dvorištu, a na njega tegle, jednu do druge. Baka je mešala, tetkica je pričala, a miris pekmeza širio se preko ograde, pa je i janje podiglo glavu. Tetkica Mira je rekla da je voće sa sela uvek sočno.\n\nKad je pekmez bio gotov, baka ga je probala kašikom i rekla da je dobar. Jelena je pomogla da se tegle napune i zatvore. Uveče su sve tri sedele za stolom i jele hleb sa još toplim pekmezom.\n\n— Možeš li da nabrojiš šta sve raste u ovoj bašti? — pitala je baka.\n\nJelena je pokušala da nabroji sve što raste, ali je stala kod desete biljke.\n\n— Nije lako nabrojati sve — rekla je.\n\nBaka se nasmejala i rekla da pekmez nije za brojanje, nego za jelo.\n\nPitanja:\nGde Jelena provodi leto?\nJelena provodi leto kod bake Radmile, u selu nedaleko od Topole.\nŠta raste na ivici njive?\nNa ivici njive raste kamilica.\nZašto se Jelena nije penjala na drvo?\nGrane su bile lomljive, pa je birala samo šljive do kojih može da dohvati rukom.\nKo je donela tegle i stolnjak?\nTegle i stolnjak je donela tetkica Mira.\nŠta su jele uveče?\nUveče su jele hleb sa još toplim pekmezom."
+    },
+    {
+      "title": "Školska bašta u Čačku",
+      "summary": "Two schoolmates in Čačak and their teacher raise young plants, measure the soil and plant the school garden.",
+      "newWords": [
+        "vlažnost",
+        "pedantan",
+        "stalak",
+        "levak",
+        "pasus",
+        "prilagodba",
+        "zaceliti",
+        "ludorija",
+        "nabor",
+        "unakrsno",
+        "nanišaniti"
+      ],
+      "text": "U školskom dvorištu u Čačku nastavnica Vesna ima baštu veličine jedne učionice. Svake godine u martu njeni učenici sade povrće, a u junu ga beru. Ove godine u baštu su došli Luka i Anđela, drugari iz šestog razreda.\n\nAnđela je pedantna. Svaki red meri metrom, a svaku biljku stavlja tačno deset centimetara od sledeće. Pedantna je i njena sveska: slova su joj uredna kao štampana. Luka voli ludorije i stalno nešto smišlja. Prošle nedelje je u kantu za kišobrane posadio jedno zrno graška, samo da vidi šta će nastavnica reći. Nastavnica je rekla da je to pametna ludorija, ali da grašak ne voli kišobrane.\n\nU učionici, kraj prozora, stoji drveni stalak sa tri police. Na policama su kutije sa mladim biljkama paradajza i paprike, koje su deca posadila u februaru. Stalak ima točkove, pa ga deca svakog jutra iznose u dvorište, a popodne unose nazad.\n\nSvako jutro Anđela gurne prst u zemlju i proveri vlažnost. Ako je zemlja suva, kaže Luki da je zalije; ako je vlažnost prevelika, ostavi je da se osuši. Rezultat upiše u svesku. Svakog petka svaki učenik mora da napiše jedan pasus o bašti: šta je primetio, šta je posadio i šta ga je iznenadilo.\n\nZa zalivanje je Luka smislio sistem. Uzeo je plastičnu bocu, na čep je probušio nekoliko rupica, nanišanio bocu tačno iznad korena, a vodu je sipao kroz levak, polako. Levak mu je bio veći od dlana, pa je morao da ga drži obema rukama.\n\n— To nije ludorija, to je pronalazak — rekao je.\n\n— Nije lako smisliti nešto što ne curi. Nanišani bolje — odgovorila je Anđela, ali je ipak priznala da pronalazak radi.\n\nPočetkom aprila nastavnica je rekla da je vreme za prilagodbu.\n\n— Ove biljke su ceo život provele u toploj učionici — objasnila je. — Ako ih odjednom izložimo vetru, uvenule bi. Zato će prvo provesti napolju jedan sat, pa dva, pa ceo dan. Ta prilagodba traje nedelju dana.\n\nJednog jutra Luka je rukavom udario jednu biljku i savio joj stabljiku. Uplašio se, ali je nastavnica samo uzela malo trake.\n\n— Treba joj malo trake da se zaceli — rekla je. — Biljke zacele ranu brže nego što misliš.\n\nAnđela je primetila da je jedan list od hladnoće dobio sitne nabore, pa ga je nacrtala u svesku. Kad se list zagrejao, nabori su nestali. Krajem aprila biljke su bile jake i cela grupa je izašla u baštu. Anđela je predložila da se redovi zasade unakrsno, kao rešetka, i nastavnica se složila. Redove su posadili unakrsno, da svaka biljka dobije dovoljno sunca.\n\nTe večeri je Anđela napisala svoj pasus. Napisala je da je bašta počela, da je Luka pronalazač, i da se stabljika zacelila.\n\nPitanja:\nŠta Anđela proverava svakog jutra?\nSvakog jutra proverava vlažnost zemlje.\nŠta je Luka posadio u kantu za kišobrane?\nPosadio je jedno zrno graška.\nČemu služi prilagodba?\nBiljke se tako navikavaju na vetar i hladnoću, pa se neće osušiti.\nŠta je nastavnica uradila kad je Luka savio stabljiku?\nUzela je malo trake, da se stabljika zaceli.\nKako su posadili redove?\nPosadili su ih unakrsno, kao rešetku."
+    },
+    {
+      "title": "Staklena bašta u Beogradu",
+      "summary": "A guide shows a retired visitor around the glass pavilion of the botanical garden in Belgrade.",
+      "newWords": [
+        "paviljon",
+        "presek",
+        "uzduž",
+        "sfera",
+        "nepostojeći",
+        "izrazito",
+        "bezimen",
+        "opsesivan",
+        "povratnik",
+        "neizlečiv"
+      ],
+      "text": "Maja studira biologiju u Beogradu, a subotom je vodič u botaničkoj bašti. Njen posao je da vodi posetioce kroz baštu i odgovara na pitanja. Danas je došao gospodin Milan, penzioner koji je, kako sam kaže, neizlečiv ljubitelj kaktusa.\n\n— Počnimo od paviljona sa tropskim biljkama — predložila je Maja. — Tamo je najtoplije, pa će nam kasnije biti prijatnije napolju.\n\nKrenuli su stazom uzduž žive ograde. Gospodin Milan je ćutao i gledao oko sebe, a Maja je pokazivala sve redom. Na tabli pored ulaza stajao je plan bašte, na kome je bila nacrtana i jedna staza koja ne postoji.\n\n— To je nepostojeća staza — objasnila je Maja. — Greška iz starog plana. Staza je bila zamišljena, ali je niko nikad nije probio. Svake godine neko pita zašto ne može da je nađe.\n\nU paviljonu ih je dočekao topao i vlažan vazduh. Maja je rekla da biljke u njemu potiču iz krajeva između dva povratnika, gde sunce stoji visoko i gde nikad nije hladno. Severni povratnik i južni povratnik, objasnila je, kao dve linije na mapi sveta, a sve što raste između njih voli toplotu.\n\nNa jednom stolu ležao je presek debla male palme.\n\n— Vidite kako izgleda iznutra — rekla je. — Ovde su prstenovi, a ovde vlakna koja idu uzduž stabla. Kroz njih voda ide od korena do lista.\n\nGospodin Milan se nagnuo nad presek. Maja je primetila da je on u svemu što se tiče kaktusa opsesivan. Ispričao je da u stanu ima sto dvadeset kaktusa, da ih zna sve po imenu, i da ujutru ne pije kafu dok ih ne obiđe.\n\n— Ja sam isto opsesivna — priznala je Maja. — Ali samo kad su tablice u pitanju. Biljka bez imena ne da mi mira.\n\n— Ja sam neizlečiv — rekao je gospodin Milan i nasmejao se.\n\nU uglu paviljona stajao je okrugao kaktus, savršen kao sfera.\n\n— Ovaj je moja slabost — rekla je Maja. — Izgleda kao sfera koju je neko zaboravio na zemlji.\n\nGospodin Milan je pokazao na susednu biljku.\n\n— A ova? Izrazito je ružna, a cveta tako lepo.\n\n— Ne znamo joj ime — priznala je Maja. — Zasad je bezimena. Tablica je pala još u martu, a nova nije stigla. Ali ću se potruditi da ovaj bezimeni kaktus dobije ime do sledeće subote. Izrazito mi je neprijatno kad neko pita, a ja ne znam.\n\nPred izlazom je gospodin Milan stao i dugo gledao paviljon.\n\n— Hvala vam — rekao je. — Došao sam zbog kaktusa, a video sam i jednu mladu osobu koja ih voli.\n\nMaja se zbunila, ali se i nasmejala.\n\nPitanja:\nŠta Maja radi subotom?\nSubotom je vodič u botaničkoj bašti.\nKo je gospodin Milan?\nGospodin Milan je penzioner i neizlečiv ljubitelj kaktusa.\nŠta je greška na planu bašte?\nNa planu je nacrtana nepostojeća staza, koju niko nikad nije probio.\nŠta je Maja pokazala u paviljonu?\nPokazala je presek debla male palme.\nZašto je jedna biljka bezimena?\nTablica sa imenom je pala u martu, a nova nije stigla."
+    },
+    {
+      "title": "Leđa i lopata",
+      "summary": "After digging the whole garden in one day, Mr Bora in Subotica spends the next days sore and finally visits a masseur.",
+      "newWords": [
+        "mišica",
+        "trbušni",
+        "prsni",
+        "maser",
+        "kažiprst",
+        "kontuzija",
+        "snagator",
+        "mučan",
+        "olakšica",
+        "staž"
+      ],
+      "text": "Gospodin Bora iz Subotice voli da kaže da je rođen za baštu. Iza kuće ima veliku baštu sa osam dugačkih redova, jednu klupu i jedna stara kolica. Prošle subote, prvog toplog dana u aprilu, odlučio je da iskopa celu baštu odjednom.\n\nRadio je od jutra do mraka. Lopata je išla gore-dole, kolica su išla tamo-amo, a gospodin Bora je mislio samo na jedno: do večeri sve mora biti gotovo. Uveče je stajao usred bašte, ponosan i prljav, a osam redova bilo je iskopano i ravno.\n\nSutradan ujutru nije mogao da ustane iz kreveta. Bolela ga je svaka mišica, a još više prsni i trbušni mišići, za koje nije ni znao da ih ima. Na kažiprstu je imao veliki žulj od lopate, a na kolenu kontuziju, jer ga je usred bašte udarila ona stara kolica.\n\n— Tako ti i treba — rekla je njegova žena Gordana, ali je donela čaj.\n\nPreko ograde se pojavio komšija Cvetko. Cvetko je pravi snagator: kopa ceo dan bez odmora i ništa ne oseti. Pogledao je gospodina Boru, pa osam redova, pa ponovo gospodina Boru.\n\n— To je mučan posao za jedan dan — rekao je. — Meni treba tri.\n\n— Zašto mi to govoriš tek sad? — žalio se gospodin Bora.\n\n— Zato što me nisi pitao ranije. Ali snagatoru kao što sam ja ne treba maser, a tebi bi dobro došao. Idi kod Ace.\n\nGospodin Bora se nije ljutio. Dva dana je sedeo na klupi i gledao redove, a trećeg je otišao kod masera Ace, koji radi već mnogo godina i ima dugačak staž. Aca ga je video na vratima i odmah sve shvatio.\n\n— Baštu ste iskopali odjednom — rekao je.\n\n— Kako znaš? — iznenadio se gospodin Bora.\n\n— Imam dvadeset pet godina staža. Svakog aprila vidim isto.\n\nPola sata kasnije gospodin Bora je ležao na stolu, a Acine ruke su polako i dugo radile na njegovim leđima. Maser je pritisnuo mišicu kažiprstom i rekao da su prsni mišići u redu, ali da trbušni uopšte nisu spremni za lopatu.\n\n— A kontuzija na kolenu će proći za nedelju dana — dodao je.\n\nKad je gospodin Bora ustao, osetio je ogromnu olakšicu. Bila je to prava olakšica, posle mučne nedelje.\n\n— Sledeći put kopaj po jedan red dnevno — rekao mu je Aca na rastanku.\n\nGospodin Bora je obećao, i ovog puta je to i uradio.\n\nPitanja:\nŠta je gospodin Bora uradio prvog toplog dana u aprilu?\nIskopao je celu baštu odjednom.\nŠta ga je bolelo sutradan?\nBolela ga je svaka mišica, a još više prsni i trbušni mišići.\nKo je Cvetko?\nCvetko je komšija i pravi snagator.\nKome je gospodin Bora otišao?\nOtišao je maseru Aci, koji ima dugačak staž.\nŠta mu je Aca preporučio?\nPreporučio mu je da kopa po jedan red dnevno."
+    },
+    {
+      "title": "Šetnja u Dunavskom parku",
+      "summary": "Grandfather Slavko and his granddaughter Teodora walk their dog through the Danube Park in Novi Sad and talk about trees.",
+      "newWords": [
+        "povodac",
+        "režati",
+        "šmrkati",
+        "ždral",
+        "sujeveran",
+        "balada",
+        "strahopoštovanje",
+        "izazovan",
+        "senzacionalan"
+      ],
+      "text": "Svake nedelje posle ručka deda Slavko vodi unuku Teodoru i psa Šarka u Dunavski park u Novom Sadu. Šarko ima kratke noge, dug rep i povodac koji je duži od njega. Deda uvek kaže da će jednog dana pas povesti njega, a ne obrnuto.\n\nŠarko ne voli ništa kao miris trave. Pas šmrče svaku travu kao da čita novine, a Teodora ga strpljivo čeka. Šmrkati može satima, kaže deda, a ona se slaže. Samo jednom, kod fontane, pas je stao i počeo da reži. Teodora je pogledala šta mu smeta: tanak mlaz vode okretao se u travi i prskao na sve strane. Šarko je još režao, a deda se nasmejao i pomilovao ga po glavi.\n\n— Šarko, to je samo voda. Ona nije opasna.\n\nPas je još jednom počeo da reži, pa je šmrkao vodu i odustao.\n\nHodali su stazom pored jezerca. Teodora je u jednom trenutku podigla glavu i pokazala na nebo.\n\n— Deda, vidi!\n\nJato ždralova letelo je iznad parka, na jug. Dugi vratovi, tanka krila, glasan zov. Deda je skinuo kapu, jer, kako je rekao, ždralovi ne lete svakog dana. Teodora je brojala dok nije došla do dvadeset tri.\n\nStigli su do najstarijeg drveta u parku. Njegova kora bila je puna pukotina kao stara karta, a grane su se širile nad stazom kao krov. Teodora je spustila glas.\n\n— Koliko mu je godina?\n\n— Niko ne zna tačno — rekao je deda. — Više od dve stotine, kažu. Kad god stanem ispod njega, osetim strahopoštovanje. Ono je ovde bilo pre mene, pre tvog oca, pre svih nas. To strahopoštovanje je lepo osećanje.\n\nTeodora je uzela jedan list sa zemlje. Bio je veliki kao njena šaka i već žut. Ona voli izazovne zagonetke, pa je upitala:\n\n— Deda, jesi li ti sujeveran? Baka kaže da ne sadiš ruže petkom.\n\n— Nisam sujeveran — rekao je deda. — Samo ih nikad nisam posadio petkom, i dobro im je.\n\nTo je bila izazovna tema, i deda je to znao. Zato je počeo da peva baladu o starom hrastu, koju je naučio od svoje bake. Balada je bila duga i lepa, a Teodora je držala povodac i slušala baladu do kraja, dok je Šarko legao u lišće i zaspao.\n\nKad su krenuli kući, Teodora je rekla da ima senzacionalnu vest.\n\n— Kakvu? — upitao je deda.\n\n— Večeras ćeš ti voditi psa. Ja sam umorna.\n\nDeda se nasmejao. Šarko je otvorio jedno oko, pa ga opet zatvorio. Bila je to zaista senzacionalna vest.\n\nPitanja:\nKoga deda Slavko vodi u park?\nVodi unuku Teodoru i psa Šarka.\nZašto je Šarko režao?\nRežao je na tanak mlaz vode koji je prskao u travi.\nŠta su videli na nebu?\nVideli su jato ždralova.\nŠta deda oseti ispod starog drveta?\nOseti strahopoštovanje, jer je drvo ovde bilo pre svih njih.\nKoju senzacionalnu vest ima Teodora?\nVečeras će deda voditi psa, jer je ona umorna."
+    },
+    {
+      "title": "Pčele i strah",
+      "summary": "A woman who is afraid of bees buys a neglected garden in a Vojvodina village and slowly makes friends with her neighbour who keeps bees.",
+      "newWords": [
+        "radilica",
+        "krinka",
+        "fobija",
+        "smelost",
+        "anksioznost",
+        "grimasa",
+        "gađenje",
+        "ljuštura",
+        "nametljiv",
+        "zapustiti"
+      ],
+      "text": "Tijana je dugo živela u Beogradu, a prošle jeseni je kupila staru kuću u selu pored Zrenjanina. Kuća je bila skromna, ali je imala veliku baštu koju je prethodni vlasnik sasvim zapustio. Bašta je bila zapuštena, i u njoj je rastao samo korov, a između korova nekoliko starih drveta.\n\nPrvog dana, dok je čistila stazu, Tijana je čula brujanje. Preko ograde, u susednom dvorištu, stajalo je desetak košnica. Sva se ukočila. Još kao devojčicu ujela ju je pčela, i od tada je u njoj ostao strah. Doktor bi to nazvao fobijom, ali Tijana je to zvala jednostavno: ne mogu. Fobija je s godinama postala deo nje.\n\nKomšija Mirko, koji ima pčele, primetio je kako je stala.\n\n— Ne bojte se — viknuo joj je. — Ove neće da vas ujedu. Ovo su radilice. One samo rade.\n\n— Ne znam da li mogu da živim pored toga — priznala je Tijana. — Čim čujem brujanje, osetim anksioznost, ruke mi se tresu.\n\nMirko je razumeo. Sutradan je došao sa šeširom i mrežom preko lica.\n\n— Ovo je krinka — rekao je. — Kad je stavite, pčela ne može do lica. Dođite sa mnom do košnice. Samo da vidite.\n\nTrebalo je mnogo smelosti da Tijana krene za njim. Hodala je sporo, a srce joj je lupalo. Mirko je podigao poklopac, i ona je videla stotine malih radilica kako vredno hodaju po košnici. Nisu je ni primetile. Tijana je dugo gledala, a onda je rekla:\n\n— Pa one su zaista zauzete.\n\n— Evo, vaša prva smelost — rekao je Mirko. — Sad je krinka potrebna samo meni.\n\nAnksioznost je iz dana u dan bila manja. Sledećih nedelja Tijana je počela da uređuje baštu. Zasadila je cveće, posebno da privuče pčele. Kopala je zemlju i prvi put videla crve. Napravila je grimasu gađenja i brzo se povukla. Mirko je preko ograde napravio još smešniju grimasu, da je nasmeje.\n\n— Crvi su prijatelji svakog ko ima baštu — rekao je Mirko preko ograde. — Oni hrane zemlju.\n\nPored staze Tijana je našla praznu ljušturu puža. Podigla ju je i pružila preko ograde.\n\n— Vidite, ni ovo mi nije gadno.\n\nNekoliko puta ju je i jedna nametljiva osa pratila do kuće, ali Tijana više nije bežala. Samo je mahnula rukom, jer nametljiva osa nije bila pčela, a Tijana je to sad znala. Gađenje je nestalo, a strah je bio manji nego ikad. Ono što joj je ostalo bila je radoznalost.\n\nKad su prošli meseci, Tijana je prvi put okusila med njegovih pčela. Rekla je da mu je ukus topao i da je, bez šale, najbolji koji je ikad jela.\n\nPitanja:\nŠta je Tijana kupila?\nKupila je staru kuću u selu pored Zrenjanina.\nČega se Tijana plaši?\nPlaši se pčela, jer ju je jednom ujela pčela.\nŠta je Mirko doneo Tijani?\nDoneo joj je šešir s mrežom, to jest krinku.\nŠta je Tijana našla pored staze?\nNašla je praznu ljušturu puža.\nŠta je Tijana na kraju okusila?\nOkusila je med njegovih pčela."
+    },
+    {
+      "title": "Paradajz i prestiž",
+      "summary": "At the market in Niš, an old seller of tomatoes and a customer talk about prices, quarrels and a giant pumpkin.",
+      "newWords": [
+        "tržišni",
+        "prestiž",
+        "neobavezan",
+        "opipljiv",
+        "razmirica",
+        "monstruozan",
+        "podgrejati",
+        "prikrasti"
+      ],
+      "text": "Pijaca u Nišu počinje da se budi još pre šest ujutru. Do osam sati svi trgovci već stoje iza svojih tezgi, a kupci prolaze između redova sa torbama u rukama. Teta Zora ima mesto u trećem redu, pored ulaza, već dvadeset godina. Prodaje paradajz, i to samo svoj.\n\nJednog petka kod nje je stao Dragan, mladić koji se tek doselio u grad. Hteo je samo da kupi kilo paradajza.\n\n— Koliko košta? — upitao je.\n\n— Sto dvadeset dinara — rekla je teta Zora. — Tržišna cena je sto, ali moj je bolji.\n\n— Kako to znate? — nasmešio se Dragan.\n\n— Znam. Tržišna cena je za one koji ne probaju. Moj dokaz je opipljiv.\n\nPružila mu je jedan paradajz. Dragan ga je okrenuo, pa zagrizao. Sok mu je tekao niz bradu. Teta Zora ga je gledala zadovoljno.\n\n— Za mene nije samo novac u pitanju — rekla je. — Meni je to stvar prestiža. Ako neko u Nišu ima najbolji paradajz, to sam ja. Tako je oduvek bilo, a prestiž se ne prodaje.\n\n— A ovi kod komšije? — upitao je Dragan i pokazao na susednu tezgu, gde je Milovan prodavao slične paradajze, ali jeftinije.\n\n— Sa Milovanom imam malu razmiricu — priznala je teta Zora. — Nije ništa ozbiljno. Svake godine se svađamo oko cene, pa se pomirimo oko ručka. Takve razmirice su u redu. Ali paradajz mu nije kao moj.\n\nDragan je počeo da je pita o povrću i o pijaci. Razgovor je bio neobavezan, ali on je pažljivo slušao. Opipljiva razlika između dobrog i lošeg paradajza, rekla je, vidi se već po mirisu. Neobavezan razgovor je tako postao pravo učenje.\n\nTeta Zora mu je onda pokazala tikvu, koja je ležala ispod tezge.\n\n— Ovo je tikva od četrdeset kilograma. Monstruozna, zar ne? Nosim je samo da se ljudi slikaju. Tikva ovako monstruozna ne raste svakog leta.\n\nDragan je obišao tikvu sa svih strana.\n\n— Kako ste je doneli?\n\n— Zetom, u kolicima. Sama je ne bih podigla ni da me neko moli.\n\nOko podne je teta Zora iz torbe izvadila lonac sa čorbom i podgrejala je na maloj vatri iza tezge. Dragan je, naravno, bio pozvan. Dok su jeli, preko tezge se prikrala mačka, jedna smeđa mačka sa belim šapama, i bez reči sela pored kašike.\n\n— To je moja drugarica — rekla je teta Zora. — Čuva me od miševa. Svaki dan se prikrade baš u vreme kad podgrejem ručak.\n\nDragan je kupio ne kilo, nego pet kila paradajza. Rekao je da će doći i sledećeg petka, i svakog petka posle toga.\n\nPitanja:\nŠta teta Zora prodaje?\nProdaje paradajz, i to samo svoj.\nZašto je njen paradajz skuplji od tržišne cene?\nMisli da joj je paradajz bolji, a to joj je i stvar prestiža.\nSa kim teta Zora ima razmiricu?\nIma malu razmiricu sa komšijom Milovanom oko cene.\nŠta je teta Zora podgrejala?\nPodgrejala je čorbu na maloj vatri iza tezge.\nKoliko je paradajza Dragan na kraju kupio?\nKupio je pet kila paradajza."
+    },
+    {
+      "title": "Bilje sa Zlatibora",
+      "summary": "A girl and her grandfather collect herbs on a Zlatibor slope before a storm and meet a pharmacist who buys them.",
+      "newWords": [
+        "apotekar",
+        "iscelitelj",
+        "olovan",
+        "obistiniti",
+        "usidriti",
+        "severozapad",
+        "vodonik"
+      ],
+      "text": "Svakog avgusta Nina dolazi na Zlatibor kod dede Milenka. Deda živi u maloj kući na padini, a iza kuće je livada puna bilja. Komšije ga zovu iscelitelj, ali deda to ne voli. Kaže da je samo čovek koji zna gde raste majčina dušica, a gde nana. Svaki put kad ga neko nazove iscelitelj, deda samo mahne rukom.\n\nJednog jutra deda je izašao pred kuću i dugo gledao u nebo. Nebo je bilo olovno, teško i sivo, kao poklopac na loncu. Vetar je duvao sa severozapada i nosio miris vlažne zemlje.\n\n— Biće kiše pre podne — rekao je. — Hajde da beremo što možemo, dok ne počne.\n\nNina je uzela korpu, a deda makaze. Na padini je rasla majčina dušica, tanka i niska, i Nina je primetila da joj je koren duboko u kamenu.\n\n— Vidiš li kako je usidrena? — pokazao je deda. — Mora da se usidri u kamen kao mali brod, jer vetar sa severozapada ovde duva jako. Kiša je ne može odneti.\n\n— A zašto je ne bere svako? — pitala je Nina.\n\n— Jer kome se žuri, taj ne vidi gde raste.\n\nBrali su pažljivo, grančicu po grančicu, i jednu trećinu su uvek ostavljali. Deda je rekao da svaka biljka mora da ostane da bi sledeće godine opet bilo bilja. Kad je korpa bila puna, iza brda su se čuli prvi gromovi.\n\nSklonili su se u kuću. Napolju je počela kiša, gusta i topla. Olovni oblaci prekrili su celu livadu, a Nina je gledala kroz prozor kako kapi padaju. Deda je sipao čaj.\n\n— Deda, znaš li šta je u kapi? Učili smo u školi da voda ima vodonik i kiseonik.\n\n— Ja ne znam te stvari — rekao je deda. — Znam samo da je kiša poslala bilju poruku.\n\n— Vodonik je najlakši gas — nastavila je Nina. — Ali u vodi nije gas.\n\n— Eto, vidiš — rekao je deda. — Pametne su te stvari, ali ja volim da znam kad će kiša.\n\nPosle podneva kiša je stala, a Nina je čula zvuk kola ispred kuće. Bio je to gospodin Savić, apotekar iz Čajetine, koji je svake godine dolazio po bilje od dede. Kupio je dve vreće suvog bilja i jednu kutiju majčine dušice, a Nini je poklonio malu svesku.\n\n— Kako ste znali da dolazim baš danas? — upitao je. — Nisam se ni najavio.\n\n— Nisam znao — rekao je deda. — Samo sam jutros rekao da će nam doći dobar gost. I eto, obistinilo se.\n\nNina se smejala i ništa nije rekla. Znala je da deda čita nebo kao drugi ljudi novine, pa mu se prognoze često obistine.\n\nPitanja:\nKako komšije zovu dedu Milenka?\nZovu ga iscelitelj, ali deda to ne voli.\nKakvo je bilo nebo jutros?\nNebo je bilo olovno, teško i sivo.\nZašto se majčina dušica ne može lako odneti?\nUsidrena je u kamen, pa je kiša i vetar ne mogu odneti.\nŠta Nina zna o vodi?\nZna da voda ima vodonik i kiseonik.\nKo je došao po bilje od dede?\nDošao je gospodin Savić, apotekar iz Čajetine."
+    },
+    {
+      "title": "Nedelja u Berlinu",
+      "summary": "A Serbian father and daughter living in Berlin spend a Sunday at the botanical garden and the zoo.",
+      "newWords": [
+        "berlinski",
+        "kameleon",
+        "gazela",
+        "gepard",
+        "sedati"
+      ],
+      "text": "Zoran i njegova kći Sara žive u Berlinu već tri godine. Zoran radi u jednoj firmi blizu Aleksanderplaca, a Sara ide u školu na istoj strani grada. Preko nedelje imaju mnogo posla, ali nedelja pripada samo njima. Svake nedelje biraju po jedno mesto koje do tada nisu videli.\n\nOvog puta je Sara izabrala botanički vrt u Dalemu. Berlinsko leto je bilo toplo, pa su doručkovali kod kuće i krenuli rano.\n\n— Prvo sedamo u voz, pa u drugi voz, pa u autobus — objasnio je Zoran. — Za sat vremena smo tamo.\n\nI zaista, posle sat vremena su stigli.\n\nVrt je bio veći nego što su zamišljali. Prošetali su između ruža, pored jezerca, kroz tihu šumu bambusa. Sara je stalno stajala i slikala, a Zoran je čitao table.\n\n— Tata, jesi li znao da neke biljke jedu insekte? — pitala je.\n\n— Znao sam — rekao je Zoran. — Ali ih nikad nisam video uživo.\n\nNajviše vremena proveli su u staklenoj kući sa tropskim biljkama. Unutra je bilo toplo i vlažno, a vazduh je mirisao na zemlju. Na jednoj grani sedeo je kameleon, tako miran da ga je Sara skoro propustila. Bio je zelen kao list, a samo mu je oko, okruglo i pokretno, pokazivalo da je živ.\n\n— Pogledaj, tata — šapnula je. — Kameleon menja boju?\n\n— Menja, ali sporo — rekao je Zoran. — Čeka da neko prođe, pa onda postane isto što i grana.\n\nPosle podne su iz vrta otišli do zoološkog. Sara je rekla da je cele nedelje čekala da vidi dve životinje: gazelu i geparda. Berlinski zoološki vrt je veliki, pa su dugo hodali stazama. Gazele su stajale u senci, sa dugim vratovima i tankim nogama. Jedna gazela je podigla glavu i dugo ih gledala. Gepard je ležao na steni i bio je tako miran da je Zoran pomislio kako spava. Ali kad je jedna ptica bila blizu, gepard je podigao glavu.\n\n— Gepard je najbrža životinja na svetu — rekla je Sara. — Ali sada se samo odmara.\n\n— Kao ja nedeljom — rekao je Zoran.\n\nUveče su bili umorni i srećni.\n\n— Sedamo u voz za kući — rekao je Zoran. — Sedamo i u autobus, pa smo kod kuće.\n\nSara je zaspala pre druge stanice, sa glavom na očevom ramenu. Zoran je gledao kroz prozor berlinske ulice i mislio da je ovo dobar dan.\n\nPitanja:\nGde Zoran i Sara žive?\nŽive u Berlinu već tri godine.\nKoji vrt su posetili?\nPosetili su botanički vrt u Dalemu.\nŠta su videli u staklenoj kući?\nVideli su kameleona na grani.\nKoje životinje je Sara cele nedelje čekala da vidi?\nČekala je da vidi gazelu i geparda.\nŠta je Sara uradila u vozu na povratku?\nZaspala je sa glavom na očevom ramenu."
+    },
+    {
+      "title": "Katalog semena",
+      "summary": "In winter, a retired clerk in Kragujevac prepares a seed catalogue for his swap society, with a friend at the printing house.",
+      "newWords": [
+        "štamparija",
+        "adresar",
+        "deklaracija",
+        "pisar",
+        "grdno"
+      ],
+      "text": "Grdno se vara onaj ko misli da zimi baštovan nema šta da radi. Gospodin Dragoljub iz Kragujevca zimi radi više nego leti, samo što ne radi u bašti, nego za stolom. Svake godine u januaru priprema katalog semena za društvo koje se zove „Seme i prijatelji“.\n\nDragoljub je ceo život bio pisar u opštini. Pisao je pisma, prepisivao spiskove i pazio da nijedna reč ne bude na pogrešnom mestu. Sad je u penziji, ali mu je ostala navika pisara. Zato ga je društvo izabralo da vodi katalog.\n\nNa stolu pred njim ležale su vrećice sa semenom, deset hrpa, svaka sa po dvadeset vrećica. Svaku je morao da uzme u ruke, pročita deklaraciju i prepiše podatke: ime sorte, godinu kad je seme sakupljeno i mesto odakle potiče. Na jednoj vrećici pisalo je samo „paprika, stara sorta, od bake iz Gruže“. Dragoljub je dugo gledao tu deklaraciju, pa je dodao: „bez daljeg opisa, ali dokazano ukusna“.\n\nPored vrećica ležao je njegov stari adresar, debeo kao cigla. U njemu su bile adrese svih članova društva, i onih iz Kragujevca, i onih iz Čačka, Niša i Subotice. Dragoljub je listove adresara okretao polako, jer je svako ime vezano za jedno seme. Ova gospođa iz Niša šalje paprike. Onaj gospodin iz Subotice šalje crvene tikve. Adresar je bio važniji od svega ostalog na stolu.\n\n— Dragoljube, kako ide? — javila se preko telefona njegova drugarica Jelica, koja radi u štampariji.\n\n— Spiskovi su gotovi — odgovorio je. — Treba još da proverim imena. Prošle godine smo jednu sortu napisali pogrešno, pa su ljudi dobili crni paradajz umesto žutog. Grdno smo se zbunili.\n\n— Pošalji mi sve — rekla je Jelica. — U štampariji ćemo ga štampati za nedelju dana. Ima mesta za sto strana.\n\nSutradan je Dragoljub poslao spisak. Narednih dana činilo mu se da vreme ne prolazi. Gledao je kroz prozor sneg na redovima, brojao dane i pokušao da zamisli kako će izgledati prva stranica.\n\nKatalog je stigao kad je napolju još bilo hladno. Dragoljub ga je uzeo u ruke i polako ga pogledao. Sve je bilo na svom mestu. Na poslednjoj strani, ispod spiska imena, stajalo je malim slovima: „Uredio Dragoljub, pisar po zanimanju, baštovan po ljubavi“.\n\nPitanja:\nŠta Dragoljub priprema u januaru?\nPriprema katalog semena za društvo „Seme i prijatelji“.\nŠta je Dragoljub radio ceo život?\nCeo život je bio pisar u opštini.\nŠta piše na deklaraciji semena?\nNa deklaraciji piše ime sorte, godina i mesto odakle seme potiče.\nŠta je Dragoljub držao pored vrećica?\nPored vrećica držao je svoj stari adresar.\nKo je štampao katalog?\nKatalog su štampali Jelica i njeni drugovi u štampariji."
+    }
+  ]
+}

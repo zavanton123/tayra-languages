@@ -1,0 +1,196 @@
+{
+  "id": "sr-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "Fizika svakodnevice",
+  "description": "Ten short, calm texts about everyday physics: a pendulum on a school stairwell, a mirage on a hot road, a rainbow in the kitchen, a saxophone in a courtyard, a thermos on a snowy path, a bridge and its crane, a swaying tower, a floating boat, jam and cutlets, and a diary of proverbs.",
+  "topic": "Everyday physics",
+  "names": [
+    "Uroš",
+    "Čačak",
+    "Zorica",
+    "Milica",
+    "Dragan",
+    "Pavle",
+    "Zrenjanin",
+    "Kikinda",
+    "Mile",
+    "Nina",
+    "Jovan",
+    "Niš",
+    "Toronto",
+    "Belko",
+    "Boban",
+    "Novi Sad",
+    "Smilja",
+    "Teodora",
+    "Slobodan",
+    "Užice",
+    "Zlatibor",
+    "Kata",
+    "Jelena",
+    "Dunav",
+    "Vladimir",
+    "Beograd",
+    "Mirko",
+    "Ognjen",
+    "Stevan",
+    "Palić",
+    "Subotica",
+    "Ivana",
+    "Radmila",
+    "Luka",
+    "Stana",
+    "Kragujevac",
+    "Mrki",
+    "Hana",
+    "Branko",
+    "Slavica",
+    "Zoran"
+  ],
+  "lessons": [
+    {
+      "title": "Klatno na stepeništu",
+      "summary": "A teacher in Čačak takes a class to the school stairwell, where a heavy pendulum shows a careless pupil that only the length of the rope matters.",
+      "newWords": [
+        "srednjoškolac",
+        "dosledan",
+        "minimalno",
+        "uračunati",
+        "nepažljiv",
+        "iracionalan",
+        "obratno",
+        "logičan"
+      ],
+      "text": "Uroš je srednjoškolac iz Čačka i fiziku nikad nije voleo, jer su mu se formule činile hladne i daleke. Profesor Zoran je to znao. Zato je jednog ponedeljka odveo razred na stepenište gimnazije, gde je sa plafona visilo teško klatno na dugačkom užetu.\n\n— Danas ništa ne računamo napamet — rekao je. — Danas samo merimo.\n\nProfesor Zoran je bio dosledan u svemu što radi. Svako merenje je ponavljao po deset puta, a svaki rezultat je upisao u istu tabelu, istom hemijskom olovkom. Učenici su se šalili da bi i svoj život upisao u tabelu, ali su ga upravo zbog toga poštovali.\n\nPosao su podelili. Jedan učenik je podizao klatno, drugi je merio vreme, a treći je brojao koliko puta klatno prođe tamo i nazad. Uroš je dobio da broji. Klatno su podigli minimalno, tek toliko da krene, jer samo mali ugao daje čist rezultat. Uroš je brojao: jedan, dva, tri... a onda je kroz prozor video golubove i izgubio broj. Bio je nepažljiv i znao je to pre nego što je iko rekao reč.\n\nProfesor Zoran se nije naljutio, nego je i sada bio dosledan.\n\n— Ništa zato — rekao je. — Počinjemo iznova. Podižemo minimalno, brojimo pažljivo. Svako merenje ima neku grešku.\n\nDrugi put Uroš nije skidao oči sa užeta. Kad je klatno završilo deset krugova, Milica je zaustavila sat, ali ni ona nije pritisnula dugme u pravom trenutku.\n\n— Moramo da uračunamo i svoju reakciju — objasnio je profesor. — Čovek nikad ne stisne dugme baš onda kad treba. Zato merimo deset krugova, a ne jedan, pa je greška manja.\n\nZatim su na uže stavili drugi teg, dvaput teži. Svi su očekivali da će se teže klatno ljuljati sporije, ali je vreme ostalo isto. Kad su uže skratili, klatno je išlo brže. Kad su uže pustili da bude duže, klatno je išlo sporije. Obratno od onoga što su mislili, težina nije odlučivala ništa; odlučivala je samo dužina užeta.\n\n— Zaključak je logičan — rekao je Uroš, i sam se iznenadio što govori kao fizičar.\n\nNa kraju je profesor na tabli napisao formulu za vreme jednog kruga. U njoj se nalazio broj pi. Objasnio je da je pi iracionalan broj, jer ima beskrajno mnogo cifara koje se nikad ne ponavljaju. Uroš je pomislio da je njegov strah od formula bio iracionalan, jer iza formule nije bilo ničeg strašnog, samo dugačko uže i jedan teg koji se mirno ljulja.\n\nKod kuće je rekao majci da je prvi put razumeo fiziku. Kad je ona pitala kako, odgovorio je: — Brojao sam. I to pažljivo.\n\nPitanja:\nKo je Uroš?\nUroš je srednjoškolac iz Čačka koji nikad nije voleo fiziku.\nZašto je Uroš izgubio broj?\nIzgubio je broj zato što je bio nepažljiv i gledao je golubove kroz prozor.\nZašto treba uračunati reakciju čoveka?\nZato što čovek nikad ne stisne dugme baš u pravom trenutku.\nŠta se desilo kad su uže pustili da bude duže?\nKlatno je išlo sporije, a kad su ga skratili, obratno, išlo je brže.\nZašto je Uroš rekao da je zaključak logičan?\nZato što je merenje pokazalo da odlučuje dužina užeta, a težina ne.\nZašto je broj pi iracionalan?\nZato što ima beskrajno mnogo cifara koje se nikad ne ponavljaju."
+    },
+    {
+      "title": "Voda na putu",
+      "summary": "A grandfather and his grandson drive to a village in Banat in a hot summer, and the boy sees a puddle on the road that is only a mirage.",
+      "newWords": [
+        "priviđenje",
+        "terenac",
+        "kontrast",
+        "gorući",
+        "tamošnji",
+        "ovogodišnji",
+        "boravište",
+        "postanak"
+      ],
+      "text": "Deda Dragan je ovog leta vozio unuka Pavla iz Zrenjanina u selo kod Kikinde, gde porodica ima staru kuću, svoje boravište za leto. Deda je vozio svoj stari terenac, jer je poslednji deo puta zemljani i pun rupa. Ovogodišnji jul bio je najtopliji u poslednjih deset godina i svi su govorili samo o vrućini.\n\nSunce je stajalo visoko, a asfalt je bio gorući; vazduh iznad njega drhtao je kao iznad vruće peći. Pavle je gledao kroz staklo auta i odjednom je viknuo:\n\n— Deda, vidi, tamo je voda! Na putu je velika lokva!\n\n— Dobro gledaj — rekao je deda i usporio. — Lokva će nestati čim joj se približimo.\n\nTako je i bilo. Svaki put kad bi im se učinilo da će do nje stići, lokva bi se pojavila malo dalje. Pavle je ćutao i nije skidao pogled sa puta.\n\n— To je priviđenje — objasnio je deda. — Vode tamo nema. Postanak tog priviđenja je prost: vazduh uz vreo asfalt mnogo je topliji od vazduha iznad njega, pa savija zrake svetlosti. Ti zapravo vidiš komadić neba koji se odbio od puta, a oči misle da je to voda.\n\n— Znači, vidim nebo na zemlji?\n\n— Tačno tako. A vidi se najbolje kad je kontrast velik: plavo nebo gore, tamni put dole. Zimi nema priviđenja, jer je tada asfalt hladan. Treba ti dovoljno gorući put, a to se desi samo u najvećoj vrućini.\n\nPavle je još dugo gledao u daljinu. Lokva je stalno bežala, ali sada je on znao zašto i to mu je bilo dovoljno. Priviđenje je postalo igra: pogađao je gde će se sledeća lokva pojaviti, a deda je pogađao da li će je biti.\n\nU selu ih je dočekao komšija Mile, jedan od tamošnjih ljudi koji u vrućini sede u hladu i znaju sve o vremenu. Kad mu je Pavle ispričao šta je video, Mile se nasmejao.\n\n— Tamošnji ljudi to zovu „voda koja bega“ — rekao je. — Ravnica uvek obećava vodu, a nikad je ne daje.\n\nU boravištu je bilo sveže kao u podrumu. Pavle je sedeo kraj prozora, pio hladan sok i crtao: plavo nebo, tamni put i malu lokvu na njemu. Ispod crteža napisao je velikim slovima: „Voda koje nema“. Deda je pogledao crtež i rekao da bi ovogodišnjeg leta mnogi hteli da imaju takvu lokvu, makar i samo na papiru.\n\nPitanja:\nKuda su deda Dragan i Pavle putovali?\nPutovali su iz Zrenjanina u selo kod Kikinde, u boravište porodice za leto.\nČime je deda vozio?\nVozio je svoj stari terenac.\nŠta je Pavle video na putu?\nVideo je lokvu vode, ali je to bilo samo priviđenje.\nKakav je postanak tog priviđenja?\nVreo vazduh uz asfalt savija zrake svetlosti, pa se komadić neba odbija od puta.\nKada se priviđenje najbolje vidi?\nNajbolje se vidi kad je kontrast velik i kad je put gorući.\nŠta su tamošnji ljudi rekli o lokvi?\nRekli su da je to „voda koja bega“."
+    },
+    {
+      "title": "Duga u kuhinji",
+      "summary": "In an e-mail to her cousin abroad, a girl in Niš describes how a test tube of water and a thin strip of light make a rainbow on the kitchen wall.",
+      "newWords": [
+        "epruveta",
+        "dvoličan",
+        "albino",
+        "prigodan",
+        "sastavni",
+        "smernica",
+        "selotejp",
+        "neuredno",
+        "sjati"
+      ],
+      "text": "Predmet: Duga u kuhinji\n\nDragi Jovane,\n\npitao si u poslednjoj poruci šta radim ovih dana u Nišu, pa evo odgovora: pravim dugu. Pišem ti iz kuhinje, gde je sto neuredno pokriven papirima, lampom, čašom vode i jednom malom epruvetom koju mi je dala nastavnica fizike.\n\nNastavnica nam je dala listić sa smernicama. Prva smernica kaže da nam treba uska pruga svetlosti. Zato sam karton sa tankim otvorom stavila na prozor, a selotejp ga drži na mestu. Druga smernica kaže da nam treba mrak, pa sam spustila zavese i ostavila samo otvor. Kuhinja nije baš prigodno mesto za pokus, ali drugog nemamo. Najzad sam našla prigodan ugao, kraj frižidera.\n\nTreća smernica glasi: epruvetu treba napuniti vodom i držati u uskoj pruzi svetlosti. Lampa sja jako, i kad sam to uradila, na zidu se pojavila mala duga! Bila je tanka, ali su se videle sve boje: crvena, žuta, zelena i plava. Nastavnica kaže da su te boje sastavni delovi bele svetlosti. Voda ih razdvaja, jer svaku boju savija malo drukčije. Dakle, bela svetlost nije prosta, ona u sebi ima sve sastavne delove duge.\n\nTata je prošao kroz kuhinju i pogledao zid. Rekao je da je ogledalo najpošteniji predmet u kući, jer nikad nije dvolično: pokazuje samo ono što stoji pred njim. Duga je, kaže, pomalo dvolična, jer se čini da je tu, a ne možeš je dodirnuti. Smejali smo se tome, a mala duga je i dalje stajala na zidu. Zavese su držale mrak, karton je ostao na mestu, i sve je radilo kao sat.\n\nPoslala sam ti i sliku našeg zeca Belka. On je albino, pa su mu oči crvene. Kod albino životinja u očima nema boje, pa se svetlost odbija od crvenila iznutra. Belko zbog toga ne voli jaku lampu, pa ga ostavljam u hladu.\n\nOprosti što pišem ovako dugo i ponekad neuredno; žurila sam da ti sve ispričam pre nego što lampa i epruveta opet budu potrebne nastavnici. Javi mi kako je kod tebe u Torontu i da li sneg još sja na suncu.\n\nPozdrav iz Niša,\nNina\n\nPitanja:\nŠta Nina pravi u kuhinji?\nPravi dugu pomoću epruvete, vode i uske pruge svetlosti.\nČime je Nina držala karton na prozoru?\nDržala ga je selotejpom.\nŠta su sastavni delovi bele svetlosti?\nSastavni delovi bele svetlosti su sve boje duge.\nZašto tata kaže da je duga pomalo dvolična?\nZato što se čini da je tu, a ne možeš je dodirnuti.\nZašto su oči albino zeca crvene?\nZato što u njima nema boje, pa se svetlost odbija od crvenila iznutra."
+    },
+    {
+      "title": "Saksofon u dvorištu",
+      "summary": "A niece in Novi Sad tells how her uncle plays the saxophone at an informal evening concert in the courtyard and explains why a shorter tube gives a higher note.",
+      "newWords": [
+        "saksofon",
+        "retorički",
+        "monolog",
+        "neformalan",
+        "nesigurnost",
+        "obziran",
+        "izostati",
+        "ležeran"
+      ],
+      "text": "Ujak Boban svira saksofon, ali samo kad komšije nisu kod kuće ili kad su ga baš molile. Zato sam se veoma iznenadila kad je jedne subote rekao da će u dvorištu naše zgrade u Novom Sadu održati neformalan koncert. Nije bilo ni oglasa ni karata, samo nekoliko stolica, jedna lampa i susedi koji su dolazili sa čajem u rukama.\n\nUjak je obziran čovek. Pre koncerta je obišao sve stanove i pitao ljude da li im smeta ako malo svira. Nijedna komšinica nije izostala sa koncerta, a gospođa Smilja, koja se uvek žali na buku, donela je čak i kolače.\n\nUjak je sedeo ležerno, kao da sedi u svojoj sobi, i podigao saksofon. U prvih nekoliko tonova čula se nesigurnost; čula sam kako mu vazduh dršće u ustima. Onda se nesigurnost izgubila i ton je postao topao i pun. Zid dvorišta odbijao je zvuk nazad, pa nam se činilo da svira ceo orkestar.\n\nPosle prve pesme ujak je ostavio saksofon na kolenima i održao mali monolog, sasvim ležeran, kao da priča sam sa sobom.\n\n— Znate li šta je saksofon? — pitao je. — To je samo savijena cev. Kad duvam u nju, vazduh u cevi treperi, i to treperenje vi čujete kao ton. Kad zatvorim više rupa, cev je duža, i ton je dublji. Kad rupe otvorim, cev je kraća, i ton je viši. Cela muzika je u tome: kratka cev, visok ton, duga cev, dubok ton.\n\nZatim je dodao: — A zašto zid vraća zvuk? To je retoričko pitanje, odgovor već znate. Zato što zvuk, kao lopta, odbije se od tvrde površine.\n\nJedna devojčica je ipak odgovorila na retoričko pitanje, i ujak se nasmejao. Njegov monolog trajao je jedva pet minuta, ali sam iz njega naučila više nego iz školske knjige.\n\nPosle poslednje pesme aplauz nije izostao. Gospođa Smilja je ustala i rekla da je ovo najlepša buka koju je ikada čula u dvorištu. Ujak se samo nasmejao i stavio saksofon u crni kofer. Kad sam sutradan prolazila pored zida, glasno sam rekla jedan ton, i zid mi ga je vratio.\n\nPitanja:\nGde je ujak Boban održao koncert?\nOdržao je neformalan koncert u dvorištu zgrade u Novom Sadu.\nZašto kažemo da je ujak obziran?\nZato što je pre koncerta pitao komšije da li im smeta ako svira.\nKako je ujak sedeo i svirao na početku?\nSedeo je ležerno, a u prvim tonovima čula se nesigurnost.\nŠta se dešava kad ujak zatvori više rupa?\nCev postaje duža, pa je ton dublji.\nŠta je ujak rekao u svom monologu o zidu?\nRekao je da se zvuk odbije od zida kao lopta od tvrde površine."
+    },
+    {
+      "title": "Čaj iz termosa",
+      "summary": "On a snowy Zlatibor path an old hiker and his granddaughter learn why a thermos, layers of clothing and a closed belt keep the heat in.",
+      "newWords": [
+        "planinar",
+        "izdržljiv",
+        "komfor",
+        "pripravan",
+        "struk",
+        "bodlja",
+        "nozdrva"
+      ],
+      "text": "Slobodan je planinar iz Užica i na Zlatibor ide svake zime, makar bio sneg ili ne. Ove godine poveo je unuku Katu, koja je prvi put išla na dugu šetnju. Bio je izdržljiv čovek, kakvi su planinari uvek, i Kata je jedva stizala da ide za njim.\n\nSneg je bio dubok i beo, a vazduh tako hladan da su je nozdrve bolele sa svakim udahom. Svaki put kad bi izdahnula, ispred lica joj se pojavio beli oblak.\n\n— Zašto vidim svoj dah? — pitala je.\n\n— Zato što je dah topao, a vazduh hladan — rekao je deda. — Para iz usta se odmah pretvara u sitne kapi. Kad bi bilo toplo, ne bi se videlo ništa.\n\nSlobodan je uvek bio pripravan. Imao je ranac sa pojasom koji se stegne u struku, tako da teret ne vuče ramena. U rancu su bile dve kape, rukavice, hleb i veliki termos. Kata je na sebi imala tri tanka sloja odeće umesto jednog debelog.\n\n— Zašto tri? — pitala je.\n\n— Između slojeva ostaje vazduh, a vazduh loše provodi toplotu. Tako ti ostaje tvoja toplota. Komfor u planini nije u tome da ti bude vruće, nego da ti ne bude hladno.\n\nHodali su pored šipka, čije su grane bile pune bodlji. Kata je dodirnula jednu bodlju i videla kako se sneg topi na njenom vrhu. Druga bodlja uhvatila joj se za rukav, ali ju je deda polako skinuo.\n\n— Planinar koji nije pripravan brzo se vrati kući — rekao je. — A pripravan planinar uvek ima nešto toplo.\n\nPosle sat vremena stali su kraj klupe. Gomila snega pored nje bila je visoka kao Katin struk. Slobodan je otvorio termos i sipao čaj u poklopac. Para se podigla ravno gore.\n\n— Zašto je čaj još vruć, kad je jutros bio na vatri? — pitala je Kata.\n\n— Zato što termos ima dva zida, a između njih nema vazduha. Toplota ne može da pređe preko praznog prostora, pa čaj ostaje topao satima. Ista stvar štiti i nas, samo nam treba više slojeva.\n\nKata je držala poklopac sa obe ruke i osećala kako toplota ulazi u dlanove. Čaj je bio mali komfor, ali je u planini i mali komfor velik. Udahnula je duboko, i nozdrve je više nisu bolele. Rekla je da je to najbolji čaj na svetu, a deda se samo nasmejao, kao da je to znao od početka.\n\nPitanja:\nKo je Slobodan?\nSlobodan je izdržljiv planinar iz Užica.\nZašto Kata vidi svoj dah?\nZato što je dah topao, a vazduh hladan, pa se para odmah pretvara u kapi.\nZašto je Kata imala tri tanka sloja odeće?\nZato što između slojeva ostaje vazduh, koji loše provodi toplotu.\nŠta se uhvatilo za Katin rukav?\nZa njen rukav uhvatila se bodlja šipka.\nZašto je čaj ostao topao satima?\nZato što termos ima dva zida bez vazduha između njih, pa toplota ne može da pređe."
+    },
+    {
+      "title": "Most na Dunavu",
+      "summary": "A columnist walks with the site supervisor over a new bridge in Novi Sad and learns how pillars, cables and cranes share out the forces.",
+      "newWords": [
+        "supervizor",
+        "zdanje",
+        "rugoba",
+        "kolektiv",
+        "krak",
+        "svojina",
+        "recesija"
+      ],
+      "text": "Većina ljudi misli da je most obično zdanje, nešto kao kuća položena preko reke. I ja sam tako mislila, sve dok me Jelena, supervizor radova na novom mostu u Novom Sadu, nije povela da vidim kako se most gradi. Dala mi je žutu kacigu i rekla da ne gledam dole, nego gore.\n\nGore je stajala dizalica, a njen krak bio je dugačak kao ulica. Jelena mi je objasnila da je dizalica velika poluga. Dugi krak nosi teret, a iza kratkog kraka vise betonski tegovi koji drže ravnotežu. Što je teret dalji od stuba, to je potrebno više tegova sa suprotne strane.\n\n— Kad bi dizalica radila bez njih — rekla je, — ne bi mogla da podigne ništa.\n\nRekla mi je da most nije jedno zdanje, nego mnogo sila koje se dogovaraju. Stubovi guraju ka zemlji, a čelična užad vuče kolovoz ka vrhu. Jedno gura, drugo vuče, i tako drže most, jer nijedno ne sme da pobedi. Nijedan deo nije važniji od drugog.\n\nJelena vodi kolektiv od šezdeset ljudi: vozače, električare i jednu ženu koja po ceo dan samo računa. Svako ima svoj posao, ali je most na kraju posao svih njih.\n\n— Most je svojina celog grada — rekla je. — Zato svako ima pravo da pita zašto se gradi baš ovako. A ta svojina je velika odgovornost, i ja je osećam svakog dana.\n\nPričala mi je i kako je gradnja jednom stala. Zbog recesije grad je dve godine imao manje novca, pa su stubovi stajali bez kolovoza, i ljudi su ih zvali „rugoba na Dunavu“. Šalili su se da će most zauvek ostati rugoba. Jelena se samo smejala, jer je znala da se pravi izgled mosta vidi tek kad se završi. Kad je recesija prošla, novac se vratio i radnici su opet došli na stubove.\n\nDanas, kad je most gotov, niko ne govori o rugobi. Stotine ljudi svakog dana prelaze preko njega pešice, na biciklima i autobusima, a kad jak vetar duva, most se malo ljulja, baš kako je zamišljeno. Jelena kaže da zdanje koje ne popusti nimalo nije dobro zdanje; mora malo da popusti da bi izdržalo.\n\nPre odlaska pogledala sam još jednom krak dizalice. Bio je miran i izgledao je skoro nežno. Pomislila sam da svaki most ima svoju priču, ali da samo retko ko zna da je ona zapisana u silama.\n\nPitanja:\nKo je Jelena?\nJelena je supervizor radova na novom mostu u Novom Sadu.\nZašto iza kratkog kraka dizalice vise betonski tegovi?\nOni drže ravnotežu teretu na dugom kraku.\nKoliko ljudi ima Jelenin kolektiv?\nNjen kolektiv ima šezdeset ljudi.\nZašto je gradnja jednom stala?\nStala je zbog recesije, jer je grad imao manje novca.\nKako su ljudi zvali stubove bez kolovoza?\nZvali su ih „rugoba na Dunavu“.\nZašto zdanje mora malo da popusti?\nZato što se mora malo ljuljati da bi izdržalo vetar."
+    },
+    {
+      "title": "Neboder se njiše",
+      "summary": "A newcomer to Belgrade learns from the tenants' representative why a tall building sways a little in the wind and how the sensors, the lift and the oil keep it safe.",
+      "newWords": [
+        "neboder",
+        "pridošlica",
+        "poverenik",
+        "server",
+        "dovoziti",
+        "maz",
+        "zloupotrebiti"
+      ],
+      "text": "Vladimir je došao u Beograd da studira i prvi put u životu stanovao je na dvadeset osmom spratu. Bio je pridošlica, pa mu je sve izgledalo veliko: ulice, tramvaji, a naročito neboder u kome je dobio sobu. Prve noći probudio ga je vetar. Činilo mu se da se cela zgrada ljulja.\n\nUjutro je u liftu sreo gospodina Mirka, koji je poverenik stanara. Mirko je imao velike ključeve i veliko strpljenje.\n\n— Ne brinite — rekao je kad je čuo Vladimirovo pitanje. — Neboder se zaista ljulja, ali tako treba. Zgrada koja bi bila potpuno kruta ne bi izdržala vetar. Ova je napravljena da se savija, kao drvo.\n\n— Mislio sam da to samo pridošlici tako izgleda — rekao je Vladimir.\n\n— Ne, svi to osećaju. Ali pridošlice se plaše, a stari stanari pričaju da se uz ljuljanje najbolje spava.\n\nPoveo ga je u podrum, gde je stajala mala soba puna kablova. U njoj je radio računar povezan sa uređajima na vrhu zgrade.\n\n— Ti uređaji mere koliko se zgrada ljulja — objasnio je Mirko. — Podaci se šalju do servera, a ja ih svako jutro pogledam. Evo, danas je vrh otišao samo dva centimetra. Za zgradu od devedeset metara to je ništa.\n\n— A kad vetar jače duva?\n\n— Tada podaci sa servera pokažu veću liniju, ali nikad opasnu.\n\nNa putu nazad pokazao mu je i lift. U otvoru lifta jedan radnik je na šine stavljao gust maz.\n\n— Taj maz čini da sve lakše klizi — objasnio je Mirko. — Zato lift ide tiho i troši manje struje. Uz dobar maz, jedan lift traje godinama.\n\nZatim je dodao: — Ljudi ponekad zloupotrebe lift pa drže vrata dok neko ne stigne. Dugme je tu da se koristi, a ne da se zloupotrebi. Zloupotrebiti lift znači uzeti nešto što pripada svima.\n\nIspred zgrade radnici su dovozili novi materijal za popravku fasade. Mirko je rekao da kamioni dovoze sve što zgradi treba, a da zgrada to ni ne primeti. Vladimir je gledao kako kamioni dovoze dugačke šipke i pomislio da neboder nije samo kula iz bajke, nego mašina koja radi.\n\nTe noći, kad je vetar opet jače duvao, Vladimir se okrenuo na bok i slušao kako zgrada tiho škripi. Više se nije plašio. Zaspao je kao u kolevci.\n\nPitanja:\nGde Vladimir stanuje?\nStanuje na dvadeset osmom spratu nebodera u Beogradu.\nKo je Mirko?\nMirko je poverenik stanara.\nZašto se neboder ljulja?\nLjulja se zato što zgrada koja je potpuno kruta ne bi izdržala vetar.\nŠta se šalje do servera?\nŠalju se podaci o tome koliko se vrh zgrade ljulja.\nČemu služi maz na šinama lifta?\nČini da sve lakše klizi, pa lift ide tiho i troši manje struje."
+    },
+    {
+      "title": "Plastelin i čamac",
+      "summary": "At a small regatta on Lake Palić a father and son discover why a ball of plasticine sinks but the same plasticine shaped like a boat floats.",
+      "newWords": [
+        "bova",
+        "potonuti",
+        "dresirati",
+        "drvoseča",
+        "sutkinja",
+        "dobrotvor"
+      ],
+      "text": "Na jezeru Palić kod Subotice svake godine se održava takmičenje čamaca koje deca prave sama. Ove godine došli su i Ognjen i njegov otac Stevan. Ognjen je za takmičenje napravio čamac od gline.\n\n— Glina je teška — rekao je Stevan. — Čamac će potonuti.\n\n— Videćemo — odgovorio je Ognjen.\n\nNa vodi je plutala narandžasta bova, koja je označavala mesto gde se trka završava. Takmičenje je sudila sutkinja Ivana, mlada žena sa velikom beležnicom. Kad su svi čamci bili spremni, rekla je: — Prvo da vidimo šta se događa sa materijalom.\n\nUzela je kuglu gline i bacila je u vodu. Kugla je odmah otišla na dno, jer mora potonuti, i deca su se nasmejala. Zatim je Ognjen uzeo isti komad, oblikovao ga u široku, plitku posudu i spustio na vodu. Čamac je ostao na površini.\n\n— To nije moguće — rekao je Stevan. — Glina je ista!\n\n— Glina je ista, ali oblik nije — objasnila je sutkinja. — Široka posuda zauzima mnogo mesta u vodi, pa voda gura čamac gore. Kugla zauzima malo mesta, pa je voda jedva gura, i ona mora potonuti.\n\nTada se pojavila Radmila, drvoseča iz susednog sela. Donela je dasku od drveta.\n\n— Drvo je lagano i pluta — rekla je. — Ali ja uvek proverim svaki komad pre nego što ga upotrebim. Neko drvo je tvrdo i teško, pa bi moglo potonuti kao kamen. Zato drvoseča mora da zna i malo fizike.\n\nPosle toga počela je trka. Čamci su plovili ka bovi, a deca su ih duvala ustima. Pas jednog dečaka, dobro dresiran da donosi štap iz vode, skočio je u jezero po svoj štap, na opšte oduševljenje publike. Nagradu je dao mesni dobrotvor, starac koji svake godine poklanja medalje. Taj dobrotvor ne traži da iko govori o njegovom imenu.\n\nOgnjenov čamac nije pobedio, ali je stigao do bove. Ognjen je rekao da mu je dovoljno što čamac nije otišao na dno, i prvi put posle dugo vremena Stevan nije imao šta da odgovori.\n\nPitanja:\nGde je održano takmičenje?\nOdržano je na jezeru Palić kod Subotice.\nOd čega je Ognjen napravio čamac?\nNapravio ga je od gline.\nŠta se desilo kad su kuglu gline bacili u vodu?\nKugla je otišla na dno, jer zauzima malo mesta, a voda je jedva gura.\nKo je Radmila?\nRadmila je drvoseča koja je donela dasku od drveta.\nKo je dao nagradu?\nNagradu je dao mesni dobrotvor.\nKakav je bio pas dečaka?\nPas je bio dobro dresiran i skočio je u jezero po štap."
+    },
+    {
+      "title": "Marmelada i kotlet",
+      "summary": "A boy helps his grandmother in a Kragujevac kitchen and, while jam bubbles and a cutlet fries, learns about boiling, smells and how celery drinks.",
+      "newWords": [
+        "marmelada",
+        "kotlet",
+        "celer",
+        "jestiv",
+        "njuh",
+        "prepreden",
+        "magma"
+      ],
+      "text": "Moja baka Stana kaže da je kuhinja najstarija laboratorija na svetu. Ja sam Luka, imam dvanaest godina i svakog petka posle škole idem kod nje u Kragujevac, gde me čekaju pun sto i mnogo pitanja.\n\nProšlog petka kuvali smo marmeladu od šljiva. Baka je sipala šljive i šećer u veliki lonac i stavila ga na vatru. Posle pola sata sve je počelo da kuva i da pravi mehuriće.\n\n— Pogledaj — rekla je. — Čista voda ključa na stotinu stepeni. Ali kad u njoj ima mnogo šećera, ključa na višoj temperaturi. Zato marmelada postane tako gusta.\n\nMehurići su bili veliki i spori, i pucali su uz tihi zvuk. Rekao sam joj da izgleda kao magma u vulkanu, a baka je rekla da to nije slučajno: i jedno i drugo je gusta masa koju toplota pokreće, pa pravi velike mehure. Samo što se naša magma na kraju pretvori u tegle.\n\nDok je marmelada kuvala, baka je stavila tiganj na vatru i spustila kotlet. Za nekoliko trenutaka kuhinju je ispunio miris mesa koje se prži.\n\n— Kako miris tako brzo stigne do vrata? — pitao sam.\n\n— Toplota podiže sitne čestice sa kotleta, a vazduh ih nosi — objasnila je. — Zato do nas stignu pre nego što pojedemo kotlet. A najbrže ih primeti Mrki.\n\nMrki je naš mačak, veoma prepreden. Znao je da je kotlet na vatri, pa je sedeo ispod stola i pravio se da spava. Njuh mu je odličan, i već posle minut oči su mu bile otvorene. Baka kaže da taj prepreden mačak oseti svaki miris u kući i da njegov njuh nikad ne greši.\n\nNa stolu je stajala čaša sa obojenom vodom i u njoj stabljika celera.\n\n— Pogledaj šta se desilo za sat vremena — rekla je baka.\n\nListovi celera postali su plavi! Stabljika pije vodu kroz sitne cevi, baš kao kroz slamku. Baka mi je objasnila da je celer jestiv i u korenu i u listovima, ali da ova stabljika nije jestiva, jer smo je obojili samo zbog pokusa.\n\nZa ručak smo ipak jeli običan kotlet, i bio je najbolji koji sam ikad probao.\n\nPitanja:\nŠta su Luka i baka Stana kuvali?\nKuvali su marmeladu od šljiva.\nZašto marmelada postane tako gusta?\nZato što voda sa mnogo šećera ključa na višoj temperaturi.\nNa šta liči marmelada po Luki?\nLiči na magmu u vulkanu.\nZašto se mačak Mrki probudio?\nProbudio se zato što je njegov njuh osetio kotlet.\nŠta se desilo sa celerom u obojenoj vodi?\nNjegovi listovi su postali plavi, jer stabljika pije vodu kroz sitne cevi."
+    },
+    {
+      "title": "Dnevnik jednog petka",
+      "summary": "In her diary a Belgrade schoolgirl writes down four proverbs from a physics lesson, a grammar class on pronouns, and a baboon swinging like a pendulum in the zoo.",
+      "newWords": [
+        "poslovica",
+        "dolikovati",
+        "zamenica",
+        "babun",
+        "sujeta",
+        "neosnovan"
+      ],
+      "text": "Petak, 13. oktobar\n\nDragi dnevniče,\n\ndanas je bio čudan dan, ali dobar. Prva dva časa imali smo fiziku, a profesor Branko je počeo neobično. Na tabli je stajala poslovica: „Kap po kap kamen dubi.“ Pitao nas je da li je ta poslovica tačna i u fizici. Niko nije znao, pa je on objasnio da voda, makar bila mekana, kad dugo pada na isto mesto, može da napravi rupu i u tvrdom kamenu. Ta poslovica je, dakle, dobra fizika.\n\nZatim je napisao drugu: „Gde ima dima, ima i vatre.“ Rekao je da je i ta poslovica uglavnom tačna, jer dim nastaje kad nešto gori. Ipak, dodao je, svaka poslovica je samo savet, a ne dokaz. Zato u nauci proveravamo, a ne samo verujemo.\n\nPosle pauze imali smo srpski, i nastavnica Slavica nas je pitala šta je zamenica. Zamenica je reč koja stoji umesto imena, objasnila je, kao „on“ umesto „Branko“. Odjednom sam shvatila da smo na fizici celo jutro koristili zamenice: „ona“ za vodu, „on“ za kamen. Rekla sam to naglas i nastavnica se nasmejala. Rekla je da je to dobro zapažanje i da treba da ga zapamtim.\n\nNisam znala da li treba da se pohvalim, pa sam ćutala. Mama kaže da sujeta nije dobra i da devojci koja traži znanje ne dolikuje da se pravi važna. Tata kaže da ne dolikuje ni da se krijem, jer znanje služi da se podeli. Možda je ono što sam osetila bila mala sujeta, ali samo mala.\n\nPosle škole otišla sam sa tatom u zoološki vrt. Stali smo kod kaveza sa babunom. Babun se njihao na užetu, napred i nazad, tačno kao klatno. Odmah sam se setila fizike. Uže je dugačko, pa se babun njiše sporo, ali mirno. Mislila sam da je to slučajnost, ali tata je rekao da babun ne računa, nego oseća. Gledali smo babuna dugo, dok nas čuvar nije pozvao da idemo.\n\nNa putu kući rekla sam tati da me je bilo strah da ću pogrešiti na testu. On je rekao da je moj strah bio neosnovan i da znam više nego što mislim. Ne znam da li je u pravu, ali mi je bilo lepo da čujem da je i svaka bojazan ponekad neosnovana, kao poslovica koja nije tačna.\n\nSada ležim u krevetu i pitam se šta će profesor Branko napisati sledeće nedelje. Možda opet neka poslovica. Ja ću već zapisati u ovaj dnevnik šta ona znači za fiziku.\n\nLaku noć,\nHana\n\nPitanja:\nKoja je poslovica stajala na tabli na početku časa?\nNa tabli je stajala poslovica „Kap po kap kamen dubi“.\nŠta je zamenica?\nZamenica je reč koja stoji umesto imena.\nŠta mama kaže o sujeti?\nKaže da sujeta nije dobra i da devojci koja traži znanje ne dolikuje da se pravi važna.\nŠta je Hana videla u zoološkom vrtu?\nVidela je babuna koji se njiše na užetu kao klatno.\nZašto je Hanin strah bio neosnovan?\nZato što ona zna više nego što misli."
+    }
+  ]
+}

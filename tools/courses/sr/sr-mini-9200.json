@@ -1,0 +1,203 @@
+{
+  "id": "sr-mini-9200",
+  "rankUpTo": 9200,
+  "level": "C2",
+  "title": "Karte i snalaženje",
+  "description": "Ten calm stories and columns about maps and finding the way: a paper map in Belgrade, a compass on Tara, a canoe down the Tisa, a letter from Chicago, a school trip to the zoo, the sense of direction, a village road, bus lines in Niš, a map class in the library and an evening on Zlatibor.",
+  "topic": "Maps and finding the way",
+  "names": [
+    "Jelena",
+    "Čačak",
+    "Beograd",
+    "Radmila",
+    "Nenad",
+    "Luka",
+    "Tara",
+    "Tisa",
+    "Žabalj",
+    "Titel",
+    "Bora",
+    "Čikago",
+    "Ivana",
+    "Dragana",
+    "Vašington",
+    "Tom",
+    "Palić",
+    "Subotica",
+    "Nada",
+    "Ana",
+    "Sima",
+    "Mina",
+    "Zora",
+    "Aranđelovac",
+    "Stana",
+    "Milutin",
+    "Milica",
+    "Mirko",
+    "Zoran",
+    "Vuk",
+    "Niš",
+    "Kragujevac",
+    "Vera",
+    "Jana",
+    "Šumadija",
+    "Topola",
+    "Rudnik",
+    "Zlatibor",
+    "Dragan",
+    "Teodora",
+    "Čigota"
+  ],
+  "lessons": [
+    {
+      "title": "Papirna karta",
+      "summary": "A student from Čačak arrives in Belgrade with a paper map and learns to read it with the help of a kind stranger.",
+      "newWords": [
+        "aktuelan",
+        "koridor",
+        "paragraf",
+        "zaseban",
+        "poznanstvo",
+        "danonoćni",
+        "zelenilo",
+        "biciklist",
+        "iranski"
+      ],
+      "text": "Jelena je iz Čačka stigla u Beograd jednog septembarskog jutra, sa jednim koferom i jednom papirnom kartom u džepu. Kartu joj je otac kupio dan ranije.\n\n— Telefon se isprazni, a papir nikad — rekao je i dodao da je karta aktuelna, štampana ove godine.\n\nJelena se tada nasmešila, a sada mu je bila zahvalna. Stara karta pokazuje linije kojih više nema, a aktuelna samo one koje stvarno voze.\n\nAutobuska stanica je bila velika, a koridor koji vodi do izlaza dugačak i pun ljudi. Na kraju koridora videla se ulica i svetlo. Jelena je stala uz zid, raširila kartu i potražila žutu tačku koju je otac označio olovkom. Tamo je stanovala njena tetka, a do tetke se stizalo tramvajem.\n\nIspod crteža grada nalazio se jedan paragraf sitnih slova, objašnjenje znakova. Taj paragraf bio je kratak, ali je objašnjavao sve. Jelena ga je pročitala dvaput. Zelena boja znači park, plava reku, a tanka crvena linija tramvaj. Brojeve linija nije našla na samoj karti. Bio je to zaseban list, uložen među korice, jer je grad ove godine promenio nekoliko linija. Pored njega stajala je i zasebna tabela sa vremenom polaska.\n\nKraj Jelene je stala starija žena sa pletenom torbom.\n\n— Izgledate kao neko ko traži tramvaj — rekla je. — Ja sam Radmila.\n\nTako je Jelena u novom gradu stekla svoje prvo poznanstvo. Poznanstvo je trajalo tek nekoliko minuta, ali je vredelo više od svake karte. Radmila je pogledala kartu, odobrila je klimanjem glave i rekla da je dobra, ali da karta ne zna sve što zna čovek.\n\n— Do stanice ideš pravo, pored danonoćne apoteke — objasnila je. — Zapamti je. Danonoćna apoteka radi i noću, pa će ti biti oslonac kad god posumnjaš da si skrenula pogrešno.\n\nJelena je prešla ulicu i krenula uz park. Zelenilo je bilo gusto, a staza široka, sa posebnom trakom za bicikle. Iza nje je zazvonilo zvonce i jedan biciklist je projurio pored nje. Kasnije je prošao drugi biciklist, starija gospođa u slamnatom šeširu, koja se samo osmehnula. Jelena je shvatila da u Beogradu treba gledati i kartu i stazu.\n\nNa uglu ispod zelenila bila je prodavnica iranskih tepiha, šarena i puna boja. Na karti je nije bilo, i Jelena je shvatila da je grad veći od svakog crteža. Kod apoteke je našla stanicu, na zasebnom listu pronašla svoju liniju i zakoračila u tramvaj.\n\nNa karti je pored tetkine ulice dopisala sitnim slovima: „Radmila, danonoćna apoteka, prodavnica iranskih tepiha“. Karta je od tada bila malo manje papirna, a malo više njena.\n\nPitanja:\nŠta je Jelena imala u džepu?\nImala je papirnu kartu grada.\nZašto je njen otac rekao da je papir bolji od telefona?\nRekao je da se telefon isprazni, a papir nikad.\nGde su bili brojevi tramvajskih linija?\nBili su na zasebnom listu, uloženom među korice karte.\nKo je Jeleni objasnio put do stanice?\nObjasnila joj je starija žena Radmila.\nZašto treba zapamtiti danonoćnu apoteku?\nZato što radi i noću, pa je dobar oslonac na putu."
+    },
+    {
+      "title": "Kompas na Tari",
+      "summary": "A father and his son hike on Tara with a map and a compass, camp by a lake and meet a hedgehog and a nightingale.",
+      "newWords": [
+        "šumski",
+        "močvaran",
+        "kampirati",
+        "krošnja",
+        "predahnuti",
+        "provalija",
+        "posrnuti",
+        "sirovo",
+        "jež",
+        "slavuj"
+      ],
+      "text": "Nenad i njegov sin Luka planirali su vikend na Tari već mesec dana. Nenad je govorio da planinu treba upoznati uz kartu i kompas, a ne samo uz telefon, pa je pred polazak na sto raširio planinarsku kartu.\n\n— Ovde počinje šumski put — rekao je i pokazao prstom. — Njime idemo do jezera. Tamo ćemo kampirati, ali samo na mestu koje je obeleženo. Divlje kampirati nije dozvoljeno.\n\nLuka je pažljivo posmatrao crteže. Krive smeđe linije označavale su visinu, a sitne plave tačkice močvaran teren.\n\n— A šta je ovo? — upitao je.\n\n— Močvaran travnjak. Zemlja je tamo vlažna, pa ga zaobilazimo. Staza ide pored njega.\n\nUjutru su krenuli. Šumski put bio je mekan od iglica. Krošnje velikih smrča zatvarale su nebo, a vazduh je mirisao na smolu. Kroz krošnje je tu i tamo pao tanak zrak sunca. Luka je držao kompas i na svakom raskršću proveravao gde je sever. Nenad je govorio da kompas ne laže, ali da ga treba pitati u pravo vreme.\n\nPosle sat vremena seli su na jedan panj. Luka je pojeo jabuku, a Nenad je ispružio noge.\n\n— Hajde da predahnemo još malo — rekao je. — Do jezera nam ne treba žurba. Predahni, pa ćemo dalje.\n\nPosle podne stigli su do vidikovca. Na karti je tu bila označena provalija, duboka litica, ali je staza prolazila daleko od nje i imala je drvenu ogradu. Luka je stao uz ogradu i pogledao u provaliju. Reka na dnu izgledala je kao tanak srebrni konac.\n\nSilazeći nazad na stazu, Luka je posrnuo o koren. Nenad ga je uhvatio za rukav.\n\n— Obojica smo već posrnuli, a to je dobar razlog da gledamo gde stajemo — rekao je.\n\nNa obeleženom mestu kraj jezera podigli su šator. Večerali su hleb, sir i sirovo povrće koje je Nenad poneo u kutiji. Luka nije voleo sirovo povrće, ali je te večeri pojeo sve.\n\nKad se spustio mrak, pored šatora je prošao jež. Zastao je, onjušio vazduh i otišao dalje.\n\n— Jež je došao da vidi jesmo li dobri susedi — šapnuo je Nenad. Luka se tiho nasmejao, da ga ne uplaši.\n\nSledećeg jutra ih je probudio slavuj. Pevao je u grmlju kraj vode, a Luka je ležao u vreći za spavanje i slušao. Pomislio je da slavuj sigurno nema potrebe za kompasom, jer uvek zna gde je jutro.\n\nPitanja:\nŠta su Nenad i Luka gledali pre polaska?\nGledali su planinarsku kartu i kompas.\nŠta znače sitne plave tačkice na karti?\nOznačavaju močvaran teren.\nZašto je staza kod provalije bezbedna?\nProlazi daleko od provalije i ima drvenu ogradu.\nŠta su večerali kraj jezera?\nVečerali su hleb, sir i sirovo povrće.\nŠta ih je probudilo ujutru?\nProbudio ih je slavuj."
+    },
+    {
+      "title": "Niz reku",
+      "summary": "A girl and her uncle paddle a canoe downstream on the Tisa with a river map, from dawn until the sun is orange over the water.",
+      "newWords": [
+        "nizvodno",
+        "svit",
+        "krma",
+        "ovalan",
+        "glinen",
+        "mlaz",
+        "talasni",
+        "okrilje",
+        "narančast"
+      ],
+      "text": "Ujak Bora je celog života veslao, a mene je prvi put poveo na reku kad sam napunila dvanaest godina. Od tog dana pamtim jedno jutro, ono kad smo kanuom krenuli sa Tise kod Žablja nizvodno, ka Titelu.\n\nUstali smo pred svit, dok je reka još bila siva i tiha. U svitu je mirisala na vlažnu zemlju. Ujak je seo napred, a ja pozadi. Sela sam na krmu, sa kartom u providnoj kesi na kolenima. Na krmi sedi onaj koji upravlja kanuom i čita kartu, rekao mi je, i taj dan sam prvi put bila ozbiljna.\n\nKarta je prikazivala reku kao plavu krivudavu traku. Svaka okuka imala je svoj broj, a na jednoj od njih bilo je nacrtano ostrvo ovalnog oblika. Ujak je rekao da ćemo na tom ovalnom ostrvu praviti odmor.\n\nNizvodno je veslanje lako, jer reka nosi kanu. Ujak je jedva dodirivao vodu veslom, a ja sam brojala okuke. Posle jedne od njih pored nas je prošao veliki teretni brod i voda se zatalasala. Dugo su vode bile talasne, a kanu se ljuljao kao kolevka. Ujak se smejao i rekao da talasne vode nisu strašne ako ih poznaješ, a ja sam čvrsto držala kartu.\n\nObala je na tom mestu bila od gline. Glineni breg bio je žut i strm, pun malih rupa u kojima su živele lastavice. Kad smo veslom zagrabili preblizu, jedan mlaz vode prsnuo je po obali, a ptice su uzletele u krug. Ujak je rekao da je to najviši mlaz koji je te godine video. Ujak je rekao da je glinena obala naša kapija: kad je vidimo na karti, znamo da smo na pola puta.\n\nDo podne smo stigli do ovalnog ostrva i izvukli kanu na pesak. Pod okriljem velikih vrba bilo je hladno i mirno. Vrbe su tu bile naše okrilje, kao krov bez zidova. Jeli smo sendviče i pili sok, a ujak je crtao prstom po pesku kako će reka ići do večeri.\n\nPopodne smo ponovo seli u kanu. Sunce se spuštalo, a nebo je postajalo narančasto. Na vodi se video jedan narančasti plovak, znak da je plićak, pa smo ga zaobišli. Kasno popodne stigli smo do Titela, gde nas je čekala ujna sa autom.\n\nTog dana naučila sam da karta nije zamena za reku, već njen prevod. Reka teče, a karta stoji, pa treba dobro znati čitati jedno i drugo.\n\nPitanja:\nOdakle su ujak Bora i njegova sestričina krenuli kanuom?\nKrenuli su sa Tise kod Žablja.\nZašto je devojčica sedela na krmi?\nNa krmi sedi onaj koji upravlja kanuom i čita kartu.\nŠta je bilo na ovalnom ostrvu?\nBile su velike vrbe, pod čijim su okriljem napravili odmor.\nŠta su živele u rupama glinenog brega?\nU njima su živele lastavice.\nGde je na kraju stigao kanu?\nStigao je do Titela, gde ih je čekala ujna sa autom."
+    },
+    {
+      "title": "Pismo iz Čikaga",
+      "summary": "A Serbian woman in Chicago writes to her sister in Subotica about finding her way around the city and getting an errand done in Washington.",
+      "newWords": [
+        "prerija",
+        "trampiti",
+        "duplikat",
+        "overiti",
+        "garant",
+        "veleposlanstvo",
+        "kutijica",
+        "slonovača",
+        "naslovnik"
+      ],
+      "text": "Čikago, 12. oktobra\n\nDraga Ivana,\n\nkonačno imam vremena da ti ispričam kako sam ovog meseca nalazila put po jednoj velikoj zemlji. Kad smo se doselili, mislila sam da ću se izgubiti u prvom bloku. Ispostavilo se da je Čikago najlakši grad na svetu za onoga ko voli karte: ulice se seku pod pravim uglom, a brojevi kuća rastu pravilno, kao u tabeli.\n\nKad sam kroz prozor voza prvi put videla preriju, nisam mogla da verujem koliko je zemlja ravna. Ravna prerija ide do horizonta, a nebo je veće nego kod nas. Tamo gde mi imamo brdo, ovde imaju samo vetar.\n\nKomšija Tom, penzioner iz susednog stana, ima kolekciju starih karata. Kad je čuo da imam staru kartu Beograda, odmah mi je predložio da trampimo. Ja sam trampila Beograd za veliku kartu Čikaga iz pedesetih godina, a on se tako obradovao da je za mene skuvao čaj. Mislim da sam u toj trampi dobila više.\n\nProšle nedelje sam putovala u Vašington. U veleposlanstvu je trebalo da overim duplikat svoje diplome, jer je original ostao u Beogradu. Pre puta sam sve proverila na karti: stanicu, trg, ulicu i zgradu. Službenica u veleposlanstvu rekla mi je da je duplikat u redu i overila ga je jednim pečatom. Za sat vremena sve je bilo gotovo, a ja sam izašla na ulicu srećna kao dete.\n\nNajviše me je zabavio garant. Vlasniku stana bila je potrebna osoba koja garantuje da ću plaćati zakup, pa je Tom, koga sam poznavala tek mesec dana, rekao da će on biti moj garant. Rekao je da čovek koji razmenjuje karte sa komšijom ne može biti loš stanar.\n\nŠaljem ti malu kutijicu boje slonovače. U njoj je stari džepni kompas koji sam kupila na buvljaku. Na koverat sam sa velikom pažnjom napisala tvoju adresu. Ti si na njemu naslovnik, a to me je neobično dirnulo: naslovnik je onaj kome je pismo namenjeno, pa mislim da tako i treba da bude.\n\nKad je otvoriš, zamisli da stojiš na prerijskoj ravnici i da kompas pokazuje put do mene. Biću uz tebe, ma koliko velika bila karta.\n\nPiši mi kako je na Paliću i da li još voziš bicikl do pijace.\n\nTvoja Dragana\n\nPitanja:\nKome Dragana piše pismo?\nPiše svojoj sestri Ivani u Subotici.\nŠta je Dragana videla kroz prozor voza?\nVidela je ravnu preriju koja ide do horizonta.\nŠta je Dragana trampila sa komšijom Tomom?\nTrampila je staru kartu Beograda za kartu Čikaga.\nZašto je putovala u Vašington?\nPutovala je u veleposlanstvo da overi duplikat diplome.\nŠta je poslala u kutijici boje slonovače?\nPoslala je stari džepni kompas."
+    },
+    {
+      "title": "Izlet u zoološki vrt",
+      "summary": "A teacher takes a class of eight children to the zoo at Palić and every child gets a job with the zoo map.",
+      "newWords": [
+        "osmoro",
+        "tigrica",
+        "plavokos",
+        "kovrdžav",
+        "levoruk",
+        "nerazdvojan",
+        "zvocati",
+        "kijati",
+        "raspuštati"
+      ],
+      "text": "Učiteljica Nada je jednog proleća povela osmoro dece iz Subotice u zoološki vrt na Paliću. Svako dete dobilo je malu kartu zoološkog vrta i jedan zadatak. Nada je rekla da će izlet biti uspešan samo ako svako zna gde se nalazi.\n\nPlavokosa Ana bila je zadužena za prvi deo karte: ulaz, kapije i klupe. Plavokosa devojčica uvek je držala kartu preblizu licu. Njen drug Sima, kovrdžav dečak, vodio je grupu do životinja sa dugim repovima. Kovrdžava kosa padala mu je u oči, pa ju je stalno sklanjao sa karte. Sima je bio levoruk, pa je kartu držao u levoj ruci i prstom prelazio preko linija.\n\n— Gde su tigrovi? — pitala je Mina, najmanja u grupi.\n\n— Na karti piše da je tigrica pored velikog jezera — odgovorio je Sima.\n\nDo jezera se išlo kroz drvored. Ana i Mina bile su nerazdvojne drugarice i uvek su hodale ruku pod ruku. Nada je govorila da su nerazdvojni drugari najbolji pomoćnici na izletu, jer jedno drugom čitaju kartu.\n\nKraj kaveza stajao je stariji čuvar sa dugim brkovima. Prvo se čulo samo zvocanje: čuvar je mrmljao da su deca preglasna. Zvocanje je trajalo sve dok nije čuo da su učenici iz Subotice, a onda je počeo da im priča o životinjama.\n\n— Tigrica se zove Zora — rekao je. — Spora je, ali kad skoči, preskoči pola kaveza.\n\nDeca su stajala ispred kaveza i gledala kako tigrica šeta.\n\n— Pazite, Sima kija! — viknula je Mina.\n\nPerje iz obližnjeg paunovog kaveza golicalo ga je u nosu. Njegovo kijanje bilo je toliko glasno da je tigrica okrenula glavu. Svi su se nasmejali, a čuvar je prestao da zvoca.\n\nPosle podne, kod sladoleda, učiteljica je rekla da je došlo vreme da raspušta grupu. Raspuštanje grupe bilo je pravo malo putovanje: Nada je dozvolila deci da dva sata sama šetaju po vrtu, ali samo u parovima i sa kartom. Ana i Mina otišle su do ptica, Sima do majmuna, a ostala deca do fontane.\n\nNa kraju su se okupili kod kapije. Svako dete je pokazalo gde je bilo, jednim prstom na karti. Nada je bila ponosna: nijedno dete se nije izgubilo, a karta je bila prekrivena otiscima malih prstiju.\n\nPitanja:\nKoliko dece je Nada povela na izlet?\nPovela je osmoro dece.\nKo je u grupi bio levoruk?\nSima je bio levoruk i držao je kartu u levoj ruci.\nKoje su drugarice bile nerazdvojne?\nAna i Mina su bile nerazdvojne drugarice.\nŠta se desilo kad je Sima glasno kinuo?\nTigrica je okrenula glavu, a svi su se nasmejali.\nZašto je Nada bila ponosna na kraju?\nNijedno dete se nije izgubilo, a svako je znalo gde je bilo."
+    },
+    {
+      "title": "Osećaj za pravac",
+      "summary": "A columnist remembers her grandmother, who never owned a map and never lost her way, and reflects on what a sense of direction really is.",
+      "newWords": [
+        "neuron",
+        "intelekt",
+        "prvenstveno",
+        "nepovezan",
+        "neprirodno",
+        "selekcija",
+        "dinamika",
+        "beznačajno",
+        "oličenje"
+      ],
+      "text": "Moja baba Zora nikada nije imala kartu, a nikada se nije izgubila. Kad bi je neko pitao kako zna put, slegnula bi ramenima i rekla da put zna nju. Dugo sam mislila da je to obična hvalisavost, a danas mislim da je to bila najpoštenija definicija osećaja za pravac.\n\nNaučnici kažu da u mozgu postoje neuroni koji pamte prostor: jedni se jave kad stojimo na jednom mestu, drugi kad se okrenemo ka severu. Ne umem da proverim sve što pišu, ali mi se sviđa slika da u glavi svakog od nas radi neka mala, nevidljiva karta. Svaki neuron je na njoj jedna tačka, a zajedno čine ceo grad.\n\nMoja baba nije imala visoko obrazovanje, ali je imala nešto što nije intelekt u užem smislu: pažljivost. Intelekt se meri ocenama, a pažljivost se vidi po tome što čovek zna da se kod drugog hrasta skreće levo. Za mene je baba bila oličenje takvog pamćenja, oličenje pažnje koja ništa ne propušta. Njen mozak nije čuvao adrese, nego slike, a slike se pamte lakše od brojeva.\n\nOsećaj za pravac, rekla bih, prvenstveno je navika. Razvija se pažnjom, a tek onda znanjem, i vene tamo gde ga prepustimo drugome. Kad se oslonimo samo na telefon, grad nam postaje nepovezan: samo polazna i krajnja tačka, a između njih ništa. Ne vidimo ulice kojima smo prošli, jer smo gledali u ekran, pa u glavi ostaje samo početak i kraj, kao pesma bez stihova.\n\nPamćenje je uvek i selekcija. Mozak ne može da zadrži sve, pa bira ono što mu se čini važnim, a takva selekcija se može vežbati. Zato se isplati naučiti ga šta je važno: ugao poznate kuće, miris pekare, zvuk tramvaja. Svaka takva sitnica izgleda beznačajno, ali upravo od sitnica nastaje unutrašnja karta. Ništa što nas vodi nije potpuno beznačajno.\n\nZanimljivo je kako se grad menja: svake godine neka ulica postane jednosmerna, neka zgrada nestane, neka prodavnica promeni ime. Ta dinamika grada znači da se unutrašnja karta mora stalno ispravljati. Moja baba je to činila tiho, bez ikakvog truda. Dinamika grada nju nikada nije zbunjivala, jer je znala da se grad menja, a da put ostaje isti.\n\nPriznajem da mi je neprirodno da hodam po gradu bez telefona. Ruke traže ekran, a oči traže plavu tačku. Ali kad ga ostavim kod kuće, dogodi se nešto neobično: grad postane veći, a ja pažljivija. Nije neprirodno biti pažljiv, neprirodno je biti svuda a nigde.\n\nZato sam rešila da jednom nedeljno, prvenstveno radi vežbe, prođem put koji dobro poznajem, bez ikakve pomoći. Kada mi pođe za rukom, osetim ono što je moja baba osećala svaki dan: da me put zna.\n\nPitanja:\nŠta je baba Zora govorila kad bi je neko pitao kako zna put?\nGovorila je da put zna nju.\nŠta kažu naučnici o neuronima u mozgu?\nKažu da neki neuroni pamte prostor, pa u glavi svakog od nas radi mala nevidljiva karta.\nZašto grad postaje nepovezan kad se oslonimo samo na telefon?\nJer ne vidimo ulice kojima smo prošli, pa ostaju samo početak i kraj puta.\nZašto se unutrašnja karta mora stalno ispravljati?\nZato što se grad menja: ulice postaju jednosmerne, zgrade nestaju, prodavnice menjaju ime.\nŠta autorka radi jednom nedeljno?\nProlazi poznati put bez ikakve pomoći."
+    },
+    {
+      "title": "Karta od hemijske olovke",
+      "summary": "A student visits a village in Šumadija with a hand-drawn map from her great-aunt, whose landmarks are a mason's well, lace in a window and a muddy road.",
+      "newWords": [
+        "zidar",
+        "čipka",
+        "presti",
+        "razmetati",
+        "porezati",
+        "rđav",
+        "stupati",
+        "izrastati",
+        "očinski"
+      ],
+      "text": "Kad sam prvi put odlučila da posetim tetku Stanu u selu kraj Aranđelovca, ona mi je poslala kartu. Nije to bila prava karta, nego list iz sveske, nacrtan hemijskom olovkom, sa strelicama, krstićima i uputstvima ispisanim krupnim, ravnim slovima. Pored drugog krstića pisalo je: „Ovde se ne skreće, ma šta ti pamet govorila.“\n\nAutobus me je ostavio kod prodavnice, a odatle sam krenula po crtežu. Prvi orijentir bila je velika kruška. Na crtežu je bila okrugla, a u stvarnosti kriva i puna plodova, ali sam je prepoznala odmah. Drugi orijentir bio je bunar. Tetka je napisala: „Bunar je sagradio zidar Milutin, pa gledaj kako je ravan.“ Zidar Milutin je zaista bio majstor, jer je njegov bunar stajao ravno više od pedeset godina.\n\nPosle bunara put je bio rđav. Kiša je padala celu noć, pa se zemlja pretvorila u kašu. Kartu sam držala u jednoj ruci, a cipele u drugoj, i govorila sebi da je i rđav put deo puta. Pored njega je izrastao stari orah, a ispod orahovog korena video se treći krstić na mojoj karti.\n\nTreći orijentir bila je kuća zidara Milutina i njegove žene. Na prozoru je visila čipka, bela i fina kao pena, a Milutin je sedeo na klupi pored kapije. Pogledao me je očinski, kao da me odavno poznaje.\n\n— Stana te čeka — rekao je očinski. — Samo pravo, preko livade.\n\nIza kuće put je vodio kroz livadu. Jedan seljak razmetao je seno vilama, a miris je bio toliko jak da sam stala i udahnula.\n\n— Razmeće se da se osuši — rekao je. — Dobro je došla karta do tebe?\n\n— Dobro — odgovorila sam. — Svaki krstić je pogodio.\n\nTetka Stana me je dočekala na kapiji. Imala je maramu na glavi i vunu u rukama. Prede celog života, i dalje prede svako veče. Za stolom je porezala hleb, porezala je i sir i rekla da je najgore prošlo.\n\n— Kako stupaš! — nasmejala se. — Kao da hodaš po jajima.\n\n— Znam — rekla sam. — Stupam kao gradsko dete.\n\n— Ništa zato. Rđav put je znak da si stigla. Dobar put vodi svuda, a rđav samo kod nas. Kod nas iz svakog kamena izrasta po neka trava, pa nema razloga da ne izraste i gradsko dete.\n\nPosle ručka pomogla sam joj da namota vunu. Pitala sam je zašto crta kartu hemijskom olovkom, kad bi mogla da mi pošalje broj. Odgovorila je da broj ne pamti ni kruška, ni bunar, ni selo, a crtež pamti sve.\n\nPitanja:\nKakvu je kartu tetka Stana poslala devojci?\nPoslala joj je kartu nacrtanu hemijskom olovkom na listu iz sveske.\nŠta je sagradio zidar Milutin?\nSagradio je bunar koji stoji ravno više od pedeset godina.\nZašto je put posle bunara bio rđav?\nZato što je padala kiša, pa se zemlja pretvorila u kašu.\nŠta je visilo na prozoru kuće zidara Milutina?\nNa prozoru je visila bela čipka.\nZašto tetka Stana crta kartu umesto da pošalje broj?\nZato što broj ne pamti ni kruška ni bunar ni selo, a crtež pamti sve."
+    },
+    {
+      "title": "Sedmica kasni",
+      "summary": "In Niš a mother, her little son and her limping father wait for a late bus to the paediatrician and learn about the company's compensation rule.",
+      "newWords": [
+        "pedijatar",
+        "šepati",
+        "paradirati",
+        "operator",
+        "poslovođa",
+        "rukovodstvo",
+        "kompenzacija",
+        "bezobziran",
+        "sjahati"
+      ],
+      "text": "Milica je u Nišu imala zakazan pregled kod pedijatra, u domu zdravlja na drugom kraju grada. Ujutru je obukla sina Vuka, a njen otac Mirko, koji je poslednjih dana šepao zbog stare povrede kolena, rekao je da ide s njima.\n\n— Sedmica staje ispred zgrade — rekao je. — Šepam polako, ali stići ćemo.\n\nAutobus broj 7 nije došao u devet, a nije ni u pet minuta posle devet. Pored klupe je paradirao jedan golub, debeo i ponosan, i Vuk ga je gledao kao da gleda svečanu povorku. Deda Mirko je do prodavnice i nazad šepao tako sporo da je golub, koji je i dalje paradirao ispred njega, imao više posla nego on.\n\nMilica je pogledala raspored vožnje. Tabela je jasno govorila da sedmica ide na svakih deset minuta. Zato je pozvala broj za informacije.\n\n— Dobro jutro, ovde operator gradskog prevoza — rekao je ljubazni glas. — Sedmica kasni zbog kvara. Obratite se poslovođi na stanici, u maloj kancelariji kod prodavnice.\n\nPoslovođa se zvao Zoran. Sedeo je za stolom punom papira i tek kad je čuo Milicu, podigao je pogled.\n\n— Znam, gospođo, već smo poslali drugi autobus. Stiže za pet minuta — rekao je. — Rukovodstvo preduzeća ima pravilo: kad autobus kasni više od petnaest minuta, putnik dobija kompenzaciju. Evo vaše.\n\nPružio joj je besplatnu kartu za sledeću vožnju. Rukovodstvo je to uvelo, rekao je, zato što ne želi da putnici čekaju i još se ljute. Milica je zahvalila i pomislila da je to prvi put da neko kašnjenje pretvara u poklon.\n\nDok su čekali, kraj stanice je prošao jedan bezobziran vozač automobila i zatrubio tako glasno da se golub podigao u vazduh. Odmah za njim došao je biciklist i krenuo da vozi među putnicima.\n\n— Sjašite, molim vas — rekao mu je Zoran kroz prozor. — Na stanici se bicikl vodi.\n\nBiciklist se postideo i sjahao. Vuk je sve to gledao sa velikim zanimanjem i ponovio, ne znajući tačno šta znači:\n\n— Sjašite!\n\nSvi su se nasmejali. Kasnije se vratio i bezobziran vozač i izvinio se svima.\n\nKad je drugi autobus stigao, Milica je pomogla ocu da se popne, a Vuka je držala u naručju. Vozili su se petnaest minuta pored parkova i zgrada, a Mirko je sve vreme govorio da je svaki grad bolji kad se kroz njega putuje polako.\n\nKod pedijatra su stigli sa pola sata zakašnjenja, ali pedijatar je rekao da Vuk ima zdrava pluća i da mu je dovoljno više sunca. Milica je zahvalila, a kartu koju je dobila kao kompenzaciju čuvala je u novčaniku kao uspomenu.\n\nPitanja:\nZašto je Milica išla sa sinom u dom zdravlja?\nImali su zakazan pregled kod pedijatra.\nZašto je deda Mirko šepao?\nŠepao je zbog stare povrede kolena.\nŠta je Milica uradila kad autobus nije došao?\nPozvala je broj za informacije, a operator ju je uputio poslovođi na stanici.\nŠta je dobila od poslovođe?\nDobila je besplatnu kartu kao kompenzaciju za kašnjenje.\nŠta je Zoran rekao biciklisti?\nRekao mu je da sjaše, jer se na stanici bicikl vodi."
+    },
+    {
+      "title": "Čas čitanja karte",
+      "summary": "A father and daughter attend a free evening class at the library in Kragujevac where a retired surveyor shows how to read a map on a screen.",
+      "newWords": [
+        "projektor",
+        "implicirati",
+        "jednostavnost",
+        "blic"
+      ],
+      "text": "Biblioteka u Kragujevcu jednom mesečno organizuje besplatne časove za građane, a prošlog četvrtka tema je bila „Kako se čita karta“. Prijavio sam se sa ćerkom Janom, koja će na jesen ići u planinarsku sekciju. Čas je držala gospođa Vera, penzionisana geometarka sa dvadeset godina iskustva.\n\nU sali je bio postavljen projektor, a na platnu se pojavila stara karta Šumadije, žućkasta kao pergament. Gospođa Vera je rekla da je projektor bolji učitelj od table, jer karta na platnu postaje veća od nas, pa možemo da je posmatramo spolja, kao da stojimo iznad zemlje.\n\n— Karta nije slika — rekla je. — Karta je dogovor. Svaka linija nešto implicira: kriva linija implicira brdo, ravna put, a isprekidana stazu. Ko čita kartu, ne čita crtež, nego dogovor.\n\nPokazala je deo platna gde su se smeđe linije gusto stezale.\n\n— Što su linije bliže jedna drugoj, to je padina strmija — objasnila je. — A gde su daleko, tamo je zemlja blaga.\n\nJana je podigla ruku i pitala zašto na kartama nema svih kuća. Gospođa Vera se nasmešila, jer je to bilo pitanje koje je čekala.\n\n— Zato što je najveća vrlina karte jednostavnost — rekla je. — Karta koja pokazuje sve ne pokazuje ništa. Jednostavnost nije siromaštvo, nego odluka: šta ostaviti, a šta izostaviti, da bi se video put.\n\nJedan polaznik u poslednjem redu slikao je platno telefonom, sa blicem, pa je na slici ostao samo beo odsjaj.\n\n— Isključite blic, molim vas — rekla je gospođa Vera. — Platno je dovoljno svetlo samo, a blic ga briše. Mnogo toga na svetu brišemo upravo onim čime želimo da ga sačuvamo.\n\nČas je trajao sat i po. Na kraju nam je podelila male papirne karte iste Šumadije, bez imena mesta, i zamolila nas da u parovima upišemo sve što pamtimo. Jana i ja smo upisali Kragujevac, Topolu i planinu Rudnik, a pored njih sitnim slovima i zaseok u kome je moja baka rođena. Kad je projektor bio ugašen, na papiru je ostalo samo ono što smo upisali, ništa više, i ta jednostavnost mi se jako dopala.\n\nNa putu kući Jana je nosila svoju kartu u ruci, kao da je to diploma. Rekla je da će sutra odmah nacrtati kartu naše ulice, bez ijedne kuće, samo sa putem i pekarom. Pomislio sam da je gospođa Vera dobro postigla ono što je želela: ćerka više nije gledala kartu kao ukras, već kao rečenicu koja nešto znači.\n\nPitanja:\nGde je održan čas čitanja karte?\nOdržan je u biblioteci u Kragujevcu.\nŠta znači to što kriva linija na karti implicira brdo?\nZnači da je karta dogovor: kriva linija označava brdo, ravna put, a isprekidana stazu.\nZašto na kartama nema svih kuća?\nZato što je najveća vrlina karte jednostavnost: karta koja pokazuje sve ne pokazuje ništa.\nZašto je gospođa Vera tražila da se isključi blic?\nZato što blic briše platno, pa se na slici vidi samo beo odsjaj.\nŠta će Jana nacrtati sutra?\nNacrtaće kartu svoje ulice, samo sa putem i pekarom."
+    },
+    {
+      "title": "Večernja šetnja na Zlatiboru",
+      "summary": "A grandfather and his granddaughter read the map when a gust of wind comes up on Zlatibor, wait it out on a log in a hut and walk back at dusk.",
+      "newWords": [
+        "bura",
+        "klada",
+        "mišićni"
+      ],
+      "text": "Deda Dragan je na Zlatibor dolazio svakog leta, a ove godine poveo je i unuku Teodoru. Imao je sedamdeset godina, ali je još bio snažan, jedan od onih mišićnih staraca koji kažu da im snagu daje hodanje. Teodora je imala mišićne noge od fudbala i šalila se da ga nikada neće umoriti.\n\nPopodne su krenuli iz Čigote prema vidikovcu. Imali su planinarsku kartu, kompas i čaj u boci. Deda je na svakom raskršću stajao, pokazivao na kartu i pitao Teodoru gde se nalaze.\n\n— Ovde smo — rekla je i pokazala prstom. — Između crvene oznake i potoka.\n\n— Tačno — rekao je deda. — A kuda ćemo kad se budemo vraćali?\n\n— Niz padinu, pa levo — odgovorila je bez razmišljanja.\n\nNa vidikovcu su ostali dugo. Videlo se celo brdo, sa livadama, šumama i stazama kao tankim kanapima. Teodora je na karti našla isti taj vidikovac i uporedila sliku na papiru sa pejzažom pred sobom. Kada su se okrenuli ka severu, preko brda je pošao veliki tamni oblak.\n\n— Dolazi bura — rekao je deda. — Neće dugo trajati, ali ne treba da ostanemo na otvorenom.\n\nBura je stigla pre nego što su stigli do prvog drveća. Vetar je savijao grane i dizao prašinu u vazduh. Teodora je uhvatila dedu za ruku, a deda je rekao da se vetra ne treba plašiti, nego ga treba poštovati. Na karti je bila označena mala drvena koliba pored staze, i oni su se u nju sklonili.\n\nU kolibi je stajala velika klada, glatka od mnogih sedenja. Seli su na kladu jedno pored drugog i pili topao čaj. Bura je tutnjala preko brda, a Teodora je gledala kartu i računala koliko im treba da siđu, kad vetar popusti. Mišićne ruke dede Dragana držale su bocu i nijednom nisu zadrhtale.\n\n— Deda, bura prolazi — rekla je posle pola sata. — Čuješ? Sve je tiše.\n\n— Čujem — rekao je deda. — Vidiš da si mi dobar vodič.\n\nSpustili su se u sumrak, niz padinu i levo, tačno kako je Teodora rekla. U Čigoti su već gorela svetla, a miris pečenog hleba dolazio je iz kuće u kojoj su odseli. Teodora je te noći zaspala sa kartom pod jastukom.\n\nPitanja:\nKuda su deda Dragan i Teodora krenuli iz Čigote?\nKrenuli su prema vidikovcu.\nŠta je deda stalno pitao Teodoru?\nPitao ju je gde se nalaze na karti.\nZašto su se sklonili u kolibu?\nZato što je došla bura i nisu smeli da ostanu na otvorenom.\nNa čemu su sedeli u kolibi?\nSedeli su na velikoj kladi.\nKako su se vratili u Čigotu?\nSpustili su se niz padinu i levo, kako je Teodora rekla."
+    }
+  ]
+}
