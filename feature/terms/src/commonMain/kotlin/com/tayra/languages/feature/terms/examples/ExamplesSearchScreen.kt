@@ -356,7 +356,6 @@ private fun TermPane(
 private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -> Unit, onNavigate: (Route) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val uriHandler = LocalUriHandler.current
-    val target = LanguageCodes.option(query.targetLanguage)?.name ?: query.targetLanguage
     Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.Top) {
         if (!compact) {
             Box(
@@ -376,7 +375,6 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
                 style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold,
             )
-            Text("${tr(query.language.name)} → ${tr(target)}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
         Row(
             Modifier.clip(RoundedCornerShape(6.dp)).clickable {
@@ -386,7 +384,6 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(6.dp),
         ) {
-            Icon(AppIcons.Globe, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(18.dp))
             if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             Text("Tatoeba", style = MaterialTheme.typography.bodyMedium, color = colors.primary, fontWeight = FontWeight.Medium)
             Icon(AppIcons.OpenInNew, contentDescription = tr("Open on Tatoeba"), tint = colors.primary, modifier = Modifier.size(16.dp))
