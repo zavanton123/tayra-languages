@@ -94,7 +94,7 @@ class ExamplesSearchViewModel(
     }
 
     private fun defaultFilters(query: ExampleSearchQuery) =
-        query.copy(minWords = 1, maxWords = 50, sort = ExampleSort.RANDOM, limit = 10, hasAudio = null)
+        query.copy(minWords = 1, maxWords = 6, sort = ExampleSort.RANDOM, limit = 10, hasAudio = null)
 
     fun search() {
         val query = _state.value.query ?: return
