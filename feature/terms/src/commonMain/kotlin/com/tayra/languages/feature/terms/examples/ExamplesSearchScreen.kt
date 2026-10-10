@@ -69,9 +69,18 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
+import androidx.compose.ui.input.key.isAltPressed
+import androidx.compose.ui.input.key.isCtrlPressed
+import androidx.compose.ui.input.key.isMetaPressed
+import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.relocation.BringIntoViewRequester
+import androidx.compose.foundation.relocation.bringIntoViewRequester
+import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.pointerInput
@@ -164,6 +173,18 @@ fun ExamplesSearchScreen(
     var paneForm by remember { mutableStateOf<TermFormViewModel?>(null) }
     // A status set on a result's word may be the pane's term (or its family): the pane reads it again.
     LaunchedEffect(state.termsChanged) { if (state.termsChanged > 0) paneForm?.refresh() }
+    // The result the keys act on, marked on screen; none until a key picks one, and a new search starts over.
+    var activeIndex by rememberSaveable { mutableStateOf(-1) }
+    LaunchedEffect(state.results) { if (activeIndex >= state.results.size) activeIndex = -1 }
+    fun moveActive(delta: Int) {
+        if (state.results.isEmpty()) return
+        activeIndex = if (activeIndex < 0) 0 else (activeIndex + delta).coerceIn(0, state.results.lastIndex)
+    }
+    fun playActive() {
+        if (state.results.isEmpty() || query == null) return
+        if (activeIndex < 0) activeIndex = 0
+        audio.toggle(state.results[activeIndex], LanguageCodes.codeFor(query.language.name))
+    }
 
     /** Applies a status shortcut to the word under the mouse, or else to the pane's term; [status] null means a step of [delta]. */
     fun applyStatus(status: TermStatus?, delta: Int = 0): Boolean {
@@ -196,6 +217,14 @@ fun ExamplesSearchScreen(
                 .focusable()
                 .onPreviewKeyEvent { event ->
                     if (event.type != KeyEventType.KeyDown || !listFocused) return@onPreviewKeyEvent false
+                    // The results are walked and heard as the reader's sentences are: A and D (or ← and →) move, W, S, Space, ↑ and ↓ play.
+                    if (!event.isCtrlPressed && !event.isMetaPressed && !event.isAltPressed) {
+                        when (event.key) {
+                            Key.A, Key.DirectionLeft -> { moveActive(-1); return@onPreviewKeyEvent true }
+                            Key.D, Key.DirectionRight -> { moveActive(1); return@onPreviewKeyEvent true }
+                            Key.W, Key.S, Key.Spacebar, Key.DirectionUp, Key.DirectionDown -> { playActive(); return@onPreviewKeyEvent true }
+                        }
+                    }
                     val pressed = HotkeyMatcher.fromEvent(event) ?: return@onPreviewKeyEvent false
                     when (HotkeyAction.resolve(viewModel.hotkeys, pressed, wordSelected = true, listening = false)) {
                         HotkeyAction.STATUS_1 -> applyStatus(TermStatus.NEW_1)
@@ -250,7 +279,7 @@ fun ExamplesSearchScreen(
                     state.searching -> item { LoadingIndicator(Modifier.fillMaxWidth().padding(32.dp)) }
                     state.results.isEmpty() -> item { EmptyMessage(tr("No examples match these filters."), Modifier.fillMaxWidth()) }
                     else -> {
-                        items(state.results) { example ->
+                        itemsIndexed(state.results) { index, example ->
                             ExampleCard(
                                 text = emphasize(example.text, query.text)
                                     .withStatuses(state.words[example.text].orEmpty(), TayraTheme.current.statusColors, showHighlights)
@@ -258,7 +287,8 @@ fun ExamplesSearchScreen(
                                 translateWord = translateWord,
                                 translation = example.translation,
                                 sound = audio.soundOf(example),
-                                onPlay = { audio.toggle(example, LanguageCodes.codeFor(query.language.name)) },
+                                active = index == activeIndex,
+                                onPlay = { activeIndex = index; audio.toggle(example, LanguageCodes.codeFor(query.language.name)) },
                                 direction = direction,
                                 fontFamily = ReadingFont.byId(prefs.readingFont).fontFamily(),
                                 fontScale = prefs.readingFontScale,
@@ -481,6 +511,8 @@ private fun ExampleCard(
     translateWord: suspend (String) -> String?,
     translation: String?,
     sound: ExampleSound,
+    /** The result the keys act on, marked and kept in view. */
+    active: Boolean,
     onPlay: () -> Unit,
     direction: TextDirection,
     fontFamily: FontFamily,
@@ -492,10 +524,13 @@ private fun ExampleCard(
     onHover: (String?) -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
+    val intoView = remember { BringIntoViewRequester() }
+    LaunchedEffect(active) { if (active) intoView.bringIntoView() }
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
-            .background(if (sound.playing) colors.primary.copy(alpha = 0.06f) else Color.Transparent)
-            .border(1.dp, colors.outlineVariant, RoundedCornerShape(12.dp))
+        Modifier.fillMaxWidth().bringIntoViewRequester(intoView).clip(RoundedCornerShape(12.dp))
+            .background(if (sound.playing || active) colors.primary.copy(alpha = 0.06f) else Color.Transparent)
+            .border(if (active) 2.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, RoundedCornerShape(12.dp))
+            .semantics { selected = active }
             .padding(horizontal = 16.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {

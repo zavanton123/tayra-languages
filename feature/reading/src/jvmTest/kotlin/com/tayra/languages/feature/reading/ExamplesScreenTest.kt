@@ -69,6 +69,8 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 import androidx.compose.ui.test.rightClick
+import androidx.compose.ui.input.key.Key
+import kotlin.test.assertTrue
 import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.test.pressKey
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
@@ -179,6 +181,40 @@ class ExamplesScreenTest {
         rule.waitUntil(5_000) { savedTerm("voa")?.status == TermStatus.WELL_KNOWN }
         assertNull(savedTerm("voa")?.sentence)
         rule.waitUntil(5_000) { backgroundOf(sentence, "voa") == null }
+    }
+
+    /** The keys walk the results as the reader's sentences: A and D (or the arrows) move the mark, W, S, Space and ↑ ↓ play the marked one. */
+    @Test
+    fun theKeysWalkAndPlayTheResults() {
+        val first = "O tempo voa."
+        val second = "Não tenho tempo."
+        val third = "Tempo é dinheiro."
+        show(listOf(first, second, third).map { ExampleSentence(text = it, translation = null) })
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText(third)).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Preparing speech").fetchSemanticsNodes().isEmpty() }
+        fun press(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
+        fun marked(sentence: String) = rule.onAllNodes(androidx.compose.ui.test.isSelected() and androidx.compose.ui.test.hasAnyDescendant(hasText(sentence))).fetchSemanticsNodes().isNotEmpty()
+
+        assertEquals(0, rule.onAllNodes(androidx.compose.ui.test.isSelected()).fetchSemanticsNodes().size, "nothing marked at first")
+        press(Key.D)
+        rule.waitUntil(2_000) { marked(first) }
+        press(Key.DirectionRight)
+        rule.waitUntil(2_000) { marked(second) }
+        press(Key.D)
+        rule.waitUntil(2_000) { marked(third) }
+        press(Key.D)
+        rule.waitForIdle()
+        assertTrue(marked(third), "the last result stays marked")
+        press(Key.A)
+        rule.waitUntil(2_000) { marked(second) }
+        press(Key.DirectionLeft)
+        rule.waitUntil(2_000) { marked(first) }
+
+        press(Key.W)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(listOf("pt:$first"), spoken.toList().filter { it.endsWith(first) })
+        press(Key.Spacebar)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isEmpty() }
     }
 
     /** A right click on the pane's own term among the results shows in the pane as well. */
