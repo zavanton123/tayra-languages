@@ -109,6 +109,14 @@ class ExamplesSearchViewModel(
         viewModelScope.launch { loadLearning() }
     }
 
+    private var shown = false
+
+    /** The screen came back to the front: terms may have changed on a screen opened from here. The first time, it is still loading. */
+    fun onResumed() {
+        if (shown && !_state.value.loading) refreshTerms()
+        shown = true
+    }
+
     private suspend fun loadLearning() {
         val helper = exampleTerms ?: return
         val current = _state.value

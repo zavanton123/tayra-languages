@@ -78,6 +78,8 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
@@ -127,6 +129,7 @@ fun ExamplesSearchScreen(
     viewModel: ExamplesSearchViewModel = koinViewModel(key = "examples-$languageId-$text") { parametersOf(languageId, text) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.onResumed() }
     val query = state.query
     val audio = rememberExampleAudio()
     audio.PrepareSpeech(state.results, state.language?.let { LanguageCodes.codeFor(it.name) })

@@ -383,6 +383,38 @@ class TermFormViewModel(
         }
     }
 
+    private var shown = false
+
+    /**
+     * The form came back to the front. The term and the words of its examples may have been changed
+     * on a screen opened from here (the examples, a duplicate), so their statuses are read again; a
+     * draft with unsaved edits keeps them. The first time, the form is still loading.
+     */
+    fun onResumed() {
+        if (!shown || _state.value.loading) {
+            shown = true
+            return
+        }
+        viewModelScope.launch {
+            val current = _state.value
+            val draft = current.draft
+            val id = draft.id
+            val fresh = runCatching {
+                when {
+                    id != null -> termService.load(id)
+                    draft.languageId != 0L && draft.text.isNotBlank() -> termService.findOrNew(draft.languageId, draft.text)
+                    else -> null
+                }
+            }.getOrNull()
+            if (fresh != null && !current.dirty) {
+                // A suggested translation that was never saved stays on screen.
+                _state.update { it.copy(draft = fresh.copy(translation = fresh.translation.ifBlank { it.draft.translation })) }
+            }
+            refreshFlashcard(_state.value.draft.id)
+            refreshExampleTerms()
+        }
+    }
+
     @OptIn(DelicateCoroutinesApi::class)
     override fun onCleared() {
         // The form can disappear with unsaved edits (panel closed, navigation); persist them.

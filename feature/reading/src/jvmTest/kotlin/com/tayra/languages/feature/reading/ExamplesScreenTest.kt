@@ -319,7 +319,7 @@ class ExamplesScreenTest {
         assertEquals(1, spoken.size, "the prepared audio is played, not made again")
     }
 
-    private fun show(sentences: List<ExampleSentence>, paneSentences: List<ExampleSentence> = emptyList(), speechDelayMs: Long = 0) {
+    private fun show(sentences: List<ExampleSentence>, paneSentences: List<ExampleSentence> = emptyList(), speechDelayMs: Long = 0): ExamplesSearchViewModel {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-examples", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider).also { this.terms = it }
@@ -368,6 +368,25 @@ class ExamplesScreenTest {
         }
         val vm = ExamplesSearchViewModel(languageId, "tempo", languages, settings, examples, exampleTerms)
         rule.setContent { ExamplesSearchScreen(languageId, "tempo", onNavigate = {}, onBack = {}, viewModel = vm) }
+        return vm
+    }
+
+    /** A status set on another screen shows in the results and in a term form once the screen is back in front. */
+    @Test
+    fun comingBackShowsStatusesChangedElsewhere() {
+        val sentence = "Eu não tenho tempo."
+        val vm = show(listOf(ExampleSentence(text = sentence, translation = null)))
+        rule.waitUntil(5_000) { vm.state.value.words[sentence]?.any { it.status == TermStatus.UNKNOWN } == true }
+        val form = org.koin.core.context.GlobalContext.get().get<TermFormViewModel> { org.koin.core.parameter.parametersOf(TermFormKey.ByText(languageId, "tempo", null)) }
+        rule.waitUntil(5_000) { !form.state.value.loading && form.state.value.draft.text == "tempo" }
+        // The first resume is the one the screen opens with.
+        form.onResumed()
+
+        runBlocking { terms.save(com.tayra.languages.core.domain.model.Term(languageId = languageId, text = "tempo", textLc = "tempo", status = TermStatus.LEARNING_3)) }
+        vm.onResumed()
+        form.onResumed()
+        rule.waitUntil(5_000) { vm.state.value.words[sentence]?.any { it.status == TermStatus.LEARNING_3 } == true }
+        rule.waitUntil(5_000) { form.state.value.draft.status == TermStatus.LEARNING_3 && form.state.value.draft.id != null }
     }
 
     private fun termField(text: String) = rule.onAllNodes(hasSetTextAction() and hasText(text)).fetchSemanticsNodes().isNotEmpty()
