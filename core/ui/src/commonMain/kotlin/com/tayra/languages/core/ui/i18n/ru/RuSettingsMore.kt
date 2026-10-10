@@ -64,7 +64,9 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Create backup" to "Создать копию",
     "Import a backup" to "Импортировать резервную копию",
     "Restore Tayra data from a previously exported backup file." to "Восстановите данные Tayra из ранее экспортированного файла резервной копии.",
-    "It joins the history below; nothing changes until you restore it." to "Копия появится в истории ниже; ничего не изменится, пока вы её не восстановите.",
+    "It joins the history below, and you are asked whether to restore it right away." to "Копия появится в истории ниже, и вам сразу предложат её восстановить.",
+    "Restore the imported backup?" to "Восстановить импортированную резервную копию?",
+    "The backup of {0} is in the list now. Restoring it replaces all languages, books, vocabulary, reading history and settings; your current data is backed up first, so you can go back to it." to "Резервная копия от {0} теперь в списке. Её восстановление заменит все языки, книги, слова, историю чтения и настройки; перед этим текущие данные сохранятся в резервную копию, так что к ним можно будет вернуться.",
     "Choose file" to "Выбрать файл",
     "Restore this backup?" to "Восстановить эту резервную копию?",
     "All languages, books, vocabulary, reading history and settings will be replaced by those of the backup of {0}. Your current data is backed up first, so you can go back to it." to "Все языки, книги, слова, история чтения и настройки будут заменены данными из резервной копии от {0}. Перед этим текущие данные сохранятся в резервную копию, так что к ним можно будет вернуться.",
@@ -245,7 +247,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Could not change the PATH: {0}" to "Не удалось изменить PATH: {0}",
     // LanguageSetupDialog.kt
     // ClearDataScreen.kt
-    "Clear" to "Очистка",
+    "Clear data" to "Очистить данные",
     "Clear local data" to "Очистить данные на устройстве",
     "Remove your learning data and downloaded files from this device. Your preferences stay." to "Удалите учебные данные и скачанные файлы с этого устройства. Настройки останутся.",
     "Will be removed" to "Будет удалено",

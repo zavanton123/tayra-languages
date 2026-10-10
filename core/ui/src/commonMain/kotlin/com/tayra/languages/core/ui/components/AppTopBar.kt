@@ -78,7 +78,7 @@ private val menuGroups = listOf(
             MenuEntry("Vocabulary", Route.VocabularySettings),
             MenuEntry("Keyboard shortcuts", Route.Shortcuts),
             MenuEntry("Backups", Route.Backups),
-            MenuEntry("Clear", Route.ClearData),
+            MenuEntry("Clear data", Route.ClearData),
             MenuEntry("About", Route.About),
         ),
     ),

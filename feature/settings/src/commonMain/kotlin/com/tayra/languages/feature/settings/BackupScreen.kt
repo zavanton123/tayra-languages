@@ -94,6 +94,8 @@ data class BackupState(
     val error: String? = null,
     /** Set once a restore finished, with the backup made of the data it replaced. */
     val restored: Backup? = null,
+    /** Set once a file was imported, until the reader has said whether to restore it now. */
+    val imported: Backup? = null,
 )
 
 class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
@@ -121,8 +123,11 @@ class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
 
     fun import(bytes: ByteArray) = run(tr("Importing the backup"), { tr("Could not import the backup: {0}", it) }) {
         val backup = backups.import(bytes)
+        _state.update { it.copy(imported = backup) }
         tr("Backup of {0} added to the list", formatBackupTime(backup))
     }
+
+    fun importSeen() = _state.update { it.copy(imported = null) }
 
     fun restore(backup: Backup) = run(tr("Restoring the backup"), { tr("Could not restore the backup: {0}", it) }) {
         val undo = backups.restore(backup.name)
@@ -207,7 +212,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                     tr("Import a backup"),
                     tr("Restore Tayra data from a previously exported backup file."),
                     AppIcons.UploadFile,
-                    note = tr("It joins the history below; nothing changes until you restore it."),
+                    note = tr("It joins the history below, and you are asked whether to restore it right away."),
                     modifier = m,
                 ) { OutlinedButton(onClick = { picker.launch() }, enabled = idle, shape = RoundedCornerShape(50)) { Text(tr("Choose file"), Modifier.padding(horizontal = 24.dp)) } }
             }
@@ -253,6 +258,20 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
             text = { Text(tr("The backup of {0} will be deleted from this device. Exported copies are kept.", formatBackupTime(backup))) },
             confirmButton = { Button(onClick = { deleting = null; viewModel.delete(backup) }) { Text(tr("Delete")) } },
             dismissButton = { TextButton(onClick = { deleting = null }) { Text(tr("Cancel")) } },
+        )
+    }
+    // An imported file is most often meant to be restored: offer that at once, with the same warning as the Restore button.
+    state.imported?.let { backup ->
+        AlertDialog(
+            onDismissRequest = viewModel::importSeen,
+            title = { Text(tr("Restore the imported backup?")) },
+            text = {
+                Text(
+                    tr("The backup of {0} is in the list now. Restoring it replaces all languages, books, vocabulary, reading history and settings; your current data is backed up first, so you can go back to it.", formatBackupTime(backup)),
+                )
+            },
+            confirmButton = { Button(onClick = { viewModel.importSeen(); viewModel.restore(backup) }) { Text(tr("Yes")) } },
+            dismissButton = { TextButton(onClick = viewModel::importSeen) { Text(tr("No")) } },
         )
     }
     state.restored?.let { undo ->

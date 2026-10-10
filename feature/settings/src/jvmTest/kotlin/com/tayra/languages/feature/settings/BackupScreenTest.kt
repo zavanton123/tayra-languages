@@ -84,6 +84,40 @@ class BackupScreenTest {
         onNodeWithText("3 Oct 2026, 12:00:00").assertExists()
     }
 
+    @Test
+    fun anImportedBackupIsOfferedForRestoring() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-backup-import", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val books = BookRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val book = runBlocking {
+            val language = languages.save(Language(name = "Portuguese"))
+            BookService(books, languages).create(BookDraft(languageId = language, title = "O lobo", text = "O lobo dorme."))
+        }
+        val repository = BackupRepositoryImpl(provider, settings, BackupFiles(Files.createTempDirectory("tayra-backup-import").toFile()), Ticking(), timeZone = { TimeZone.UTC })
+        // A file exported earlier: made here, then forgotten by the device.
+        val exported = runBlocking { repository.create().let { backup -> repository.read(backup.name).also { repository.delete(backup.name) } } }
+        runBlocking { books.deleteBook(book) }
+        val viewModel = BackupViewModel(repository)
+        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, viewModel = viewModel) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No backups yet", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+
+        // Declining keeps the file in the list and the data as it is.
+        viewModel.import(exported)
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Restore the imported backup?")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("No").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Restore the imported backup?")).fetchSemanticsNodes().isEmpty() }
+        onNodeWithText("3 Oct 2026, 12:00:00").assertExists()
+        assertEquals(emptyList(), runBlocking { books.getBooks() })
+
+        // Accepting restores it, backing the current data up first.
+        viewModel.import(exported)
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Restore the imported backup?")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Yes").performClick()
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Backup restored")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(listOf("O lobo"), runBlocking { books.getBooks() }.map { it.title })
+    }
+
     private fun ComposeUiTest.save(path: String) {
         waitForIdle()
         ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
