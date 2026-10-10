@@ -157,11 +157,15 @@ fun ReadingScreen(
     bookId: Long,
     initialPage: Int?,
     onNavigate: (Route) -> Unit,
+    /** Leaves a book for the library. */
     onHome: () -> Unit,
+    /** Leaves a lesson for its course, given the course's id. */
+    onCourse: (String) -> Unit = { onHome() },
     viewModel: ReadingViewModel = koinViewModel(key = "reading-$bookId") { parametersOf(bookId, initialPage) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.onResumed() }
+    val leave: () -> Unit = { state.lesson?.let { onCourse(it.course.id) } ?: onHome() }
     val clipboard = LocalClipboardManager.current
     val uriHandler = LocalUriHandler.current
     val theme = TayraTheme.current
@@ -179,7 +183,7 @@ fun ReadingScreen(
             is ReadingEvent.CopyText -> clipboard.setText(AnnotatedString(event.text))
             is ReadingEvent.OpenUrl -> uriHandler.openUri(event.url)
             is ReadingEvent.Navigate -> onNavigate(Route.Read(event.bookId, event.page))
-            ReadingEvent.BookFinished -> onHome()
+            ReadingEvent.BookFinished -> leave()
             is ReadingEvent.Toast -> toast.show(event.message)
         }
     }
@@ -297,17 +301,17 @@ fun ReadingScreen(
             val compact = LocalWindowWidth.current.isCompact
             when {
                 state.settings.focusMode -> FocusBar(state, viewModel, onMenu = { scope.launch { drawerState.open() } })
-                compact -> ReadingHeader(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = onHome)
+                compact -> ReadingHeader(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = leave)
                 else -> {
                     AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = if (state.lesson == null) NavSection.BOOKS else NavSection.COURSES)
-                    ReaderToolbar(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = onHome, onCourses = { onNavigate(Route.Courses) })
+                    ReaderToolbar(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = leave, onCourses = { onNavigate(Route.Courses) })
                 }
             }
             Row(Modifier.weight(1f).background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else 0.3f))) {
                 Box(Modifier.weight(1f).fillMaxHeight()) {
                     ReadingBody(
                         state, viewModel, speaker, continuous,
-                        onHome = onHome,
+                        onHome = leave,
                         onPractice = { onNavigate(Route.Practice(bookId, state.pageNumber)) },
                         onSettings = { onNavigate(Route.OfflineTranslation) },
                         focusText = { runCatching { focusRequester.requestFocus() } },

@@ -23,8 +23,9 @@ fun NavGraphBuilder.readingGraph(navController: NavController) {
             bookId = route.bookId,
             initialPage = route.page,
             onNavigate = { navController.navigate(it) },
-            // A lesson goes back to its course; a book, to the library.
-            onHome = { if (!navController.popBackStack<Route.Course>(inclusive = false)) navController.navigate(Route.Books) { popUpTo<Route.Courses>() } },
+            onHome = { navController.navigate(Route.Books) { popUpTo<Route.Courses>() } },
+            // Back to the course the lesson was opened from, or to the course itself when the lesson was opened straight from the course list.
+            onCourse = { courseId -> if (!navController.popBackStack(Route.Course(courseId), inclusive = false)) navController.navigate(Route.Course(courseId)) { popUpTo<Route.Courses>() } },
         )
     }
     composable<Route.Practice> { entry ->

@@ -298,7 +298,8 @@ class ReadingHoverTest {
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
         var back = 0
-        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = { back++ }, viewModel = vm) }
+        val courses = mutableListOf<String>()
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = { back++ }, onCourse = { courses += it }, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Finish lesson").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("LESSON_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
@@ -307,12 +308,15 @@ class ReadingHoverTest {
         for (gone in listOf("Back to library", "Finish book")) {
             assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is not shown in a lesson")
         }
+        // Every way out of a lesson leads to its course, never to the library.
         rule.onNodeWithText(course.title).performClick()
-        rule.waitUntil(5_000) { back == 1 }
+        rule.waitUntil(5_000) { courses.size == 1 }
         rule.onNodeWithText("Back to course").performScrollTo().performClick()
-        rule.waitUntil(5_000) { back == 2 }
+        rule.waitUntil(5_000) { courses.size == 2 }
         rule.onNodeWithText("Finish lesson").performScrollTo().performClick()
-        rule.waitUntil(5_000) { back == 3 }
+        rule.waitUntil(5_000) { courses.size == 3 }
+        assertEquals(List(3) { course.id }, courses)
+        assertEquals(0, back, "a lesson never leaves for the library")
 
         rule.onNodeWithContentDescription("Menu").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-bookmarks").fetchSemanticsNodes().isNotEmpty() }
