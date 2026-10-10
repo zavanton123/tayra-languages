@@ -181,6 +181,25 @@ class ExamplesScreenTest {
         rule.waitUntil(5_000) { backgroundOf(sentence, "voa") == null }
     }
 
+    /** A right click on the pane's own term among the results shows in the pane as well. */
+    @Test
+    fun aRightClickOnThePanesTermShowsInThePane() {
+        val sentence = "O tempo voa depressa."
+        show(listOf(ExampleSentence(text = sentence, translation = null)))
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { termField("tempo") }
+        fun paneShows(status: TermStatus) = rule.onAllNodes(androidx.compose.ui.test.isSelected() and hasText(status.abbreviation)).fetchSemanticsNodes().isNotEmpty()
+        // A word never saved opens in the pane as a new term at 1.
+        rule.waitUntil(5_000) { paneShows(TermStatus.NEW_1) }
+
+        // Two right clicks: unknown to 1, then 1 to known; the pane follows.
+        rule.onAllNodes(hasText(sentence))[0].performMouseInput { rightClick(at(sentence, "tempo")) }
+        rule.waitUntil(5_000) { savedTerm("tempo")?.status == TermStatus.NEW_1 }
+        rule.onAllNodes(hasText(sentence))[0].performMouseInput { rightClick(at(sentence, "tempo")) }
+        rule.waitUntil(5_000) { savedTerm("tempo")?.status == TermStatus.WELL_KNOWN }
+        rule.waitUntil(5_000) { paneShows(TermStatus.WELL_KNOWN) }
+    }
+
     /** Dragging over words of a result opens the phrase in the pane, where a status saves it with the result as its sentence. */
     @Test
     fun draggingOverAnExampleOpensThePhrase() {

@@ -40,6 +40,8 @@ data class ExamplesSearchUiState(
     val paneSentence: String? = null,
     /** The words of each result with their statuses, by the result's text. */
     val words: Map<String, List<WordStatus>> = emptyMap(),
+    /** Counts the statuses set on the results' words, so the pane can read its term again. */
+    val termsChanged: Int = 0,
 ) {
     val hasMore: Boolean get() = nextPage != null
 }
@@ -130,6 +132,12 @@ class ExamplesSearchViewModel(
         viewModelScope.launch { settings.update(transform) }
     }
 
+    /** A word of a result changed status: the results are recoloured and the pane told, since its term or family may be that word. */
+    private suspend fun wordChanged() {
+        loadLearning()
+        _state.update { it.copy(termsChanged = it.termsChanged + 1) }
+    }
+
     private suspend fun loadLearning() {
         val helper = exampleTerms ?: return
         val current = _state.value
@@ -147,7 +155,7 @@ class ExamplesSearchViewModel(
         val language = _state.value.language ?: return
         viewModelScope.launch {
             helper.setStatus(word, sentence, language, status)
-            loadLearning()
+            wordChanged()
         }
     }
 
@@ -156,7 +164,7 @@ class ExamplesSearchViewModel(
         val language = _state.value.language ?: return
         viewModelScope.launch {
             helper.shiftStatus(word, sentence, language, delta)
-            loadLearning()
+            wordChanged()
         }
     }
 
@@ -166,7 +174,7 @@ class ExamplesSearchViewModel(
         val language = _state.value.language ?: return
         viewModelScope.launch {
             helper.toggle(word, sentence, language)
-            loadLearning()
+            wordChanged()
         }
     }
 

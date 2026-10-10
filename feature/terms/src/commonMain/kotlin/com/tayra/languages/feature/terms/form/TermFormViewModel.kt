@@ -395,6 +395,12 @@ class TermFormViewModel(
             shown = true
             return
         }
+        refresh()
+    }
+
+    /** Reads the term's status, its flashcard and its examples' words again after they may have changed elsewhere; unsaved edits stay. */
+    fun refresh() {
+        if (_state.value.loading) return
         viewModelScope.launch {
             val current = _state.value
             val draft = current.draft

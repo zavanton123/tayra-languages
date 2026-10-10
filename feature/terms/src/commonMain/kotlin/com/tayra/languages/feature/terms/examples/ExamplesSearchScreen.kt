@@ -162,6 +162,8 @@ fun ExamplesSearchScreen(
     /** The word under the mouse and the example it is in. */
     var hovered by remember { mutableStateOf<Pair<String, String>?>(null) }
     var paneForm by remember { mutableStateOf<TermFormViewModel?>(null) }
+    // A status set on a result's word may be the pane's term (or its family): the pane reads it again.
+    LaunchedEffect(state.termsChanged) { if (state.termsChanged > 0) paneForm?.refresh() }
 
     /** Applies a status shortcut to the word under the mouse, or else to the pane's term; [status] null means a step of [delta]. */
     fun applyStatus(status: TermStatus?, delta: Int = 0): Boolean {
