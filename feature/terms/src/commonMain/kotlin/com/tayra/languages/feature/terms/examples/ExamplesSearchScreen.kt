@@ -520,6 +520,7 @@ private fun ExampleCard(
             icon = sound.icon,
             description = sound.description,
             active = sound.playing,
+            stops = true,
             loading = sound.loading,
             onClick = onPlay,
         )
@@ -555,7 +556,16 @@ private fun SliderRow(title: String, value: String, current: Float, range: Close
 }
 
 @Composable
-private fun ActionButton(icon: ImageVector, description: String, enabled: Boolean = true, active: Boolean = false, loading: Boolean = false, onClick: () -> Unit) {
+private fun ActionButton(
+    icon: ImageVector,
+    description: String,
+    enabled: Boolean = true,
+    /** Tints the button; with [stops], a stop square replaces the icon, as on a button that plays. */
+    active: Boolean = false,
+    stops: Boolean = false,
+    loading: Boolean = false,
+    onClick: () -> Unit,
+) {
     val colors = MaterialTheme.colorScheme
     Box(
         Modifier.size(40.dp).clip(RoundedCornerShape(10.dp))
@@ -567,7 +577,7 @@ private fun ActionButton(icon: ImageVector, description: String, enabled: Boolea
     ) {
         when {
             loading -> CircularProgressIndicator(Modifier.size(18.dp), color = colors.primary, strokeWidth = 2.dp)
-            active -> Box(Modifier.size(12.dp).background(colors.primary, RoundedCornerShape(2.dp)))
+            active && stops -> Box(Modifier.size(12.dp).background(colors.primary, RoundedCornerShape(2.dp)))
             else -> Icon(icon, contentDescription = null, tint = if (enabled) colors.primary else colors.outlineVariant, modifier = Modifier.size(20.dp))
         }
     }
