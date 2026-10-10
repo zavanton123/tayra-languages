@@ -112,6 +112,25 @@ class WordFrequencyService(
         )
     }
 
+    /**
+     * How many words the reader knows in the language with [languageId], counting each word once
+     * whatever forms of it were saved: a known list word, through any of its forms ("casas" known
+     * counts for "casa"), or a known saved word that the list has neither as a word nor as a form.
+     * Phrases are not words. Without a list, every known saved word counts.
+     */
+    fun observeKnownWords(languageId: Long): Flow<Int> = flow {
+        val language = languages.getById(languageId)
+        val list = language?.let { LanguageCodes.codeFor(it.name) }?.let { lists.list(it) }
+        val listed = list?.words?.flatMapTo(HashSet()) { it.forms + it.key }.orEmpty()
+        emitAll(
+            terms.observeWordStatuses(languageId).map { statuses ->
+                val known = statuses.filterValues { it == TermStatus.WELL_KNOWN }.keys
+                val inList = list?.words?.count { statusOf(it, statuses) == TermStatus.WELL_KNOWN } ?: 0
+                inList + known.count { it !in listed }
+            },
+        )
+    }
+
     companion object {
         /**
          * The word's own status, or else the furthest status among its forms the reader has saved,

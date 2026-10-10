@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -39,12 +40,14 @@ import androidx.compose.ui.draw.alpha
 
 /**
  * The language being learned and the ones to choose from; [languages] are ids with their English names, shown through `tr`.
- * [nativeIds] are listed but cannot be chosen, being the native language.
+ * [nativeIds] are listed but cannot be chosen, being the native language. [knownWords] is how many
+ * words the reader knows in the current language, shown after its name; null leaves it out.
  */
 class LearningLanguageState(
     val languages: List<Pair<Long, String>>,
     val currentId: Long,
     val nativeIds: Set<Long> = emptySet(),
+    val knownWords: Int? = null,
     val onSelect: (Long) -> Unit,
 ) {
     val currentName: String? get() = languages.firstOrNull { it.first == currentId }?.second
@@ -77,20 +80,22 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
     val name = state.currentName ?: return
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
+    // "Portuguese (432)": the words known in the language, as the Word frequency page counts them.
+    val label = state.knownWords?.let { "${tr(name)} (${formatCount(it)})" } ?: tr(name)
     Box(modifier) {
         Row(
             Modifier.clip(RoundedCornerShape(12.dp))
                 .background(colors.primary.copy(alpha = 0.06f))
                 .border(1.dp, colors.primary.copy(alpha = 0.12f), RoundedCornerShape(12.dp))
                 .clickable { open = true }
-                .semantics { contentDescription = tr("Learning language: {0}", tr(name)) }
+                .semantics { contentDescription = tr("Learning language: {0}", label) }
                 .padding(horizontal = if (compact) 8.dp else 12.dp, vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(if (compact) 4.dp else 10.dp),
         ) {
             LanguageFlag(name, if (compact) 18.dp else 22.dp)
             if (!compact) {
-                Text(tr(name), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(label, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
             Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
         }

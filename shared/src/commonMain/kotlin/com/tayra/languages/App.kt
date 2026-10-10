@@ -35,6 +35,7 @@ import androidx.compose.runtime.mutableIntStateOf
 import com.tayra.languages.feature.settings.LanguageSetupDialog
 import androidx.compose.runtime.setValue
 import com.tayra.languages.core.domain.frequency.VocabularyLevelService
+import com.tayra.languages.core.domain.frequency.WordFrequencyService
 import com.tayra.languages.feature.frequency.VocabularyLevelPrompt
 import kotlinx.coroutines.launch
 import com.tayra.languages.core.ui.components.LoadingIndicator
@@ -63,6 +64,8 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     val levels = koinInject<VocabularyLevelService>()
     val settings = koinInject<SettingsRepository>()
     val native by remember(settings) { settings.settings.map { it.nativeLanguage }.distinctUntilChanged() }.collectAsStateWithLifecycle(null)
+    val frequency = koinInject<WordFrequencyService>()
+    val knownWords by remember(frequency, currentId) { frequency.observeKnownWords(currentId) }.collectAsStateWithLifecycle(null)
     val scope = rememberCoroutineScope()
     // The language just chosen, asked for its vocabulary level first.
     var askLevelFor by remember { mutableStateOf<Long?>(null) }
@@ -72,10 +75,10 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     LaunchedEffect(currentId, languages) {
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure()
     }
-    val state = remember(languages, currentId, native) {
+    val state = remember(languages, currentId, native, knownWords) {
         // The native language is listed but cannot be chosen for learning.
         val nativeIds = languages.filter { learning.isNative(it) }.map { it.id }.toSet()
-        LearningLanguageState(languages.sortedBy { it.name }.map { it.id to it.name }, currentId, nativeIds) { id ->
+        LearningLanguageState(languages.sortedBy { it.name }.map { it.id to it.name }, currentId, nativeIds, knownWords) { id ->
             scope.launch {
                 if (!learning.select(id) || id == currentId) return@launch
                 onChosen()

@@ -94,6 +94,31 @@ class WordFrequencyServiceTest {
     }
 
     @Test
+    fun knownWordsAreCountedOnceWhateverFormsWereSaved() = runTest {
+        val pt = languages.save(Language(name = "Portuguese"))
+        val latest = MutableStateFlow(-1)
+        backgroundScope.launch { service.observeKnownWords(pt).collect { latest.value = it } }
+        assertEquals(0, latest.first { it >= 0 })
+        // Two forms of "ser" and the word itself: one known word.
+        terms.save(Term(languageId = pt, text = "foi", textLc = "foi", status = TermStatus.WELL_KNOWN))
+        terms.save(Term(languageId = pt, text = "era", textLc = "era", status = TermStatus.WELL_KNOWN))
+        terms.save(Term(languageId = pt, text = "ser", textLc = "ser", status = TermStatus.WELL_KNOWN))
+        // Being learned, ignored and a known phrase do not count.
+        terms.save(Term(languageId = pt, text = "diz", textLc = "diz", status = TermStatus.NEW_2))
+        terms.save(Term(languageId = pt, text = "casa", textLc = "casa", status = TermStatus.IGNORED))
+        terms.save(Term(languageId = pt, text = "foi embora", textLc = "foi​embora", status = TermStatus.WELL_KNOWN, tokenCount = 2))
+        // A known word the list does not have counts as a word of its own.
+        terms.save(Term(languageId = pt, text = "Lisboa", textLc = "lisboa", status = TermStatus.WELL_KNOWN))
+        assertEquals(2, latest.first { it >= 2 })
+
+        // Without a list, each known saved word counts.
+        val es = languages.save(Language(name = "Spanish"))
+        terms.save(Term(languageId = es, text = "casa", textLc = "casa", status = TermStatus.WELL_KNOWN))
+        terms.save(Term(languageId = es, text = "casas", textLc = "casas", status = TermStatus.WELL_KNOWN))
+        assertEquals(2, service.observeKnownWords(es).first())
+    }
+
+    @Test
     fun aLanguageWithoutAListHasNone() = runTest {
         assertNull(service.observe(languages.save(Language(name = "Spanish"))).first())
         assertNull(service.observe(12345).first())
