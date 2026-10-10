@@ -60,6 +60,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.key.isShiftPressed
@@ -199,7 +200,10 @@ fun ReadingScreen(
     val nextIncrement = if (rtl) -1 else 1
     // Shared with the text below, so the keyboard drives the same reading aloud as the buttons.
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
-    val continuous = remember(speaker) { ContinuousReading(speaker) }
+    // The sentence reading stopped on outlives leaving the screen (for the examples, say), so play goes on from it.
+    var readingPlace by rememberSaveable { mutableStateOf(-1) }
+    val continuous = remember(speaker) { ContinuousReading(speaker, readingPlace.takeIf { it >= 0 }) }
+    LaunchedEffect(continuous) { snapshotFlow { continuous.currentIndex }.collect { readingPlace = it ?: -1 } }
 
     fun handleAction(action: HotkeyAction): Boolean {
         when (action) {

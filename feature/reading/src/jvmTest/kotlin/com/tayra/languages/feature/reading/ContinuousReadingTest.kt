@@ -107,6 +107,26 @@ class ContinuousReadingTest {
         assertTrue(highlighted("A noite é fria."))
     }
 
+    /** Coming back to the screen (from the examples, say) finds reading where it stopped: play goes on from that sentence, not the first. */
+    @Test
+    fun comingBackToTheScreenKeepsTheSentenceReadingStoppedOn() {
+        val shown = androidx.compose.runtime.mutableStateOf(true)
+        show(autoPause = true, shown = shown)
+        rule.onNodeWithContentDescription("Read the page").performClick()
+        assertEquals(listOf("O lobo dorme."), readUntilSilent())
+        rule.onNodeWithContentDescription("Read the page").performClick()
+        assertEquals(listOf("A noite é fria."), readUntilSilent())
+        assertTrue(highlighted("A noite é fria."))
+
+        shown.value = false
+        rule.waitForIdle()
+        shown.value = true
+        rule.waitUntil(10_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(highlighted("A noite é fria."), "the sentence reading stopped on is still marked")
+        rule.onNodeWithContentDescription("Read the page").performClick()
+        assertEquals(listOf("A noite é fria."), readUntilSilent(), "reading goes on from where it stopped")
+    }
+
     /** A sentence played with its own button and heard to the end counts as read: Space goes on with the next. */
     @Test
     fun spaceAfterASentenceButtonGoesOnToTheNextSentence() {
@@ -301,7 +321,8 @@ class ContinuousReadingTest {
         }
     }
 
-    private fun show(autoPause: Boolean, text: String = "O lobo dorme. A noite é fria.\n---\nO dia chega.", sentenceMillis: Int = 400) {
+    /** [shown], when given, hides and shows the screen through a saveable state holder, as the navigation does with a back-stack entry. */
+    private fun show(autoPause: Boolean, text: String = "O lobo dorme. A noite é fria.\n---\nO dia chega.", sentenceMillis: Int = 400, shown: androidx.compose.runtime.MutableState<Boolean>? = null) {
         val vm = runBlocking {
             val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-continuous", ".db").also { it.delete() }))
             val languages = LanguageRepositoryImpl(provider)
@@ -332,7 +353,12 @@ class ContinuousReadingTest {
                 LocalTranslation(null), speech, WordTranslationService(terms, offline, engine, settings), audio,
             )
         }
-        rule.setContent { ReadingScreen(bookId = 1, initialPage = 1, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.setContent {
+            if (shown == null) ReadingScreen(bookId = 1, initialPage = 1, onNavigate = {}, onHome = {}, viewModel = vm) else {
+                val holder = androidx.compose.runtime.saveable.rememberSaveableStateHolder()
+                if (shown.value) holder.SaveableStateProvider("reader") { ReadingScreen(bookId = 1, initialPage = 1, onNavigate = {}, onHome = {}, viewModel = vm) }
+            }
+        }
         rule.waitUntil(10_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isNotEmpty() }
         // Every sentence of the page is ready, so the reading below does not wait on synthesis.
         rule.waitUntil(10_000) { rule.onAllNodesWithContentDescription("Preparing sentence").fetchSemanticsNodes().isEmpty() }

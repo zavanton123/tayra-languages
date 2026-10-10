@@ -14,12 +14,16 @@ import com.tayra.languages.core.ui.audio.Speaker
  * knows texts only, is given [current].
  */
 @Stable
-class ContinuousReading(private val speaker: Speaker) {
+class ContinuousReading(private val speaker: Speaker, initialIndex: Int? = null) {
     var active: Boolean by mutableStateOf(false)
         private set
 
-    /** The place of the current sentence among the page's spoken sentences, or null before reading starts. */
-    var currentIndex: Int? by mutableStateOf(null)
+    /**
+     * The place of the current sentence among the page's spoken sentences, or null before reading
+     * starts. [initialIndex] is the place kept from before the screen was left, which the first page
+     * set keeps when it is on it.
+     */
+    var currentIndex: Int? by mutableStateOf(initialIndex)
         private set
 
     /** The text of the current sentence. */
@@ -33,6 +37,9 @@ class ContinuousReading(private val speaker: Speaker) {
     private var sentences: List<String> = emptyList()
     private var languageCode: String? = null
 
+    /** Set once a page was given, after which a different page means another page was opened. */
+    private var pageSet = false
+
     /** Set when the page was turned mid-reading, so the new page is read from its first sentence. */
     private var readNewPage = false
 
@@ -44,6 +51,8 @@ class ContinuousReading(private val speaker: Speaker) {
 
     fun setPage(sentences: List<String>, languageCode: String?) {
         val changed = sentences != this.sentences
+        val first = !pageSet
+        pageSet = true
         this.sentences = sentences
         this.languageCode = languageCode
         if (!changed) return
@@ -52,6 +61,9 @@ class ContinuousReading(private val speaker: Speaker) {
         if (readNewPage) {
             readNewPage = false
             if (sentences.isNotEmpty()) read(0) else stopReading()
+        } else if (first) {
+            // The place kept from before stays when the page has it.
+            currentIndex = currentIndex?.takeIf { it in sentences.indices }
         } else if (currentIndex != null) {
             // Another page was opened by hand while reading (or paused): the old page's sentence stops too.
             if (active || speaker.paused.value != null) {
