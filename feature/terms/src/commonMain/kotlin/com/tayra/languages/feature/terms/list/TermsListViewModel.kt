@@ -76,9 +76,10 @@ class TermsListViewModel(
 
     private val filter = MutableStateFlow(
         TermListFilter(
-            // A list of given terms shows them whatever their language; otherwise the language being learned.
+            // A list of given terms shows them whatever their language or status; otherwise the words being learned in the language chosen.
             languageId = settings.current.currentLanguageId.takeIf { it != 0L && initialTermIds == null },
             minStatus = if (initialTermIds != null) TermStatus.UNKNOWN else TermStatus.NEW_1,
+            statuses = if (initialTermIds != null) null else LEARNING_STATUSES,
             termIds = initialTermIds,
         ),
     )
@@ -155,7 +156,11 @@ class TermsListViewModel(
         selected.value = emptySet()
     }
 
+    /** Takes every filter off: the list shows the words being learned and the known ones. */
     fun clearFilters() = updateFilter { TermListFilter(languageId = it.languageId, minStatus = TermStatus.NEW_1) }
+
+    /** Puts the filters back as the screen opens: the words being learned (statuses 1 to 4). */
+    fun resetFilters() = updateFilter { TermListFilter(languageId = it.languageId, minStatus = TermStatus.NEW_1, statuses = LEARNING_STATUSES) }
 
     fun toggleFilters() { filtersVisible.value = !filtersVisible.value }
 
@@ -251,5 +256,8 @@ class TermsListViewModel(
 
     companion object {
         const val PAGE_SIZE = 50
+
+        /** The statuses ticked when the vocabulary opens: the words being learned. */
+        val LEARNING_STATUSES: Set<TermStatus> = TermStatus.selectable.filter { it.isLearning }.toSet()
     }
 }

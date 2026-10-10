@@ -418,7 +418,7 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(tr("Filter vocabulary"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-            TextButton(onClick = viewModel::clearFilters) { Text(tr("Reset all")) }
+            TextButton(onClick = viewModel::resetFilters) { Text(tr("Reset all")) }
         }
         Text(tr("Learning status"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp, bottom = 10.dp))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {

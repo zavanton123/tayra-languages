@@ -89,7 +89,7 @@ class TermsScreenTest {
                 }
             }
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("gostar").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("comprar").fetchSemanticsNodes().isNotEmpty() }
     }
 
     private fun ComposeUiTest.listed(word: String) = onAllNodesWithText(word).fetchSemanticsNodes().isNotEmpty()
@@ -100,8 +100,13 @@ class TermsScreenTest {
     @Test
     fun tickingStatusesAndDaysNarrowsTheListAtOnce() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        // Ignored terms stay out until asked for.
-        assertTrue(!listed("lá"))
+        // The screen opens on the words being learned: statuses 1 to 4 are ticked, known and ignored terms stay out.
+        waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
+        onNodeWithContentDescription("1 filter on").assertExists()
+        for (status in listOf("New (1)", "New (2)", "Learning (3)", "Learning (4)")) onNodeWithContentDescription("Remove $status").assertExists()
+        onAllNodesWithText("Clear all")[0].performClick()
+        // With nothing ticked, the known terms show too; ignored terms stay out until asked for.
+        waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))
         onNodeWithText("Filters").performClick()
         onNodeWithText("Filter vocabulary").assertExists()
         assertEquals(0, onAllNodesWithText("Apply filters").fetchSemanticsNodes().size)
@@ -124,5 +129,10 @@ class TermsScreenTest {
         waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))
         assertEquals(0, onAllNodesWithText("Added: up to 30 days ago").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("filters on", substring = true).fetchSemanticsNodes().size)
+
+        // The panel's reset goes back to how the screen opened.
+        onNodeWithText("Reset all").performClick()
+        waitForList("comprar", "pensar", hidden = listOf("gostar", "lá"))
+        onNodeWithContentDescription("1 filter on").assertExists()
     }
 }
