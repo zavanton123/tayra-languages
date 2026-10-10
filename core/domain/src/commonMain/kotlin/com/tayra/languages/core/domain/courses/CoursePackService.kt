@@ -16,12 +16,21 @@ class CoursePackService(private val store: CoursePackStore, private val courses:
     /** Every known pack with its current state, in catalog order. */
     val packs: StateFlow<List<CoursePackStatus>> = _packs.asStateFlow()
 
-    /** Reads which packs are on the device; call once at start. */
+    /**
+     * Reads which packs are on the device; call once at start. A pack whose courses are in the
+     * database without its file (restored from a backup, say) counts as installed too, so it is
+     * offered for removal rather than downloaded over its courses.
+     */
     suspend fun refresh() {
         for (pack in CoursePacks.all) {
             if (stateOf(pack) is PackState.Downloading) continue
             val size = store.installedSize(pack)
-            setState(pack, if (size != null) PackState.Installed(size) else PackState.NotInstalled)
+            val state = when {
+                size != null -> PackState.Installed(size)
+                courses.sampleCourseIds(pack.languageCode).isNotEmpty() -> PackState.Installed(0)
+                else -> PackState.NotInstalled
+            }
+            setState(pack, state)
         }
     }
 
@@ -44,7 +53,8 @@ class CoursePackService(private val store: CoursePackStore, private val courses:
 
     /** Deletes the pack's courses, with their lessons and the texts read from them, and then the file. */
     suspend fun remove(pack: CoursePack) {
-        courses.removeSamples(store.courseIds(pack))
+        // The database's own sample courses too, which outlive the file in a restored backup.
+        courses.removeSamples(store.courseIds(pack) + courses.sampleCourseIds(pack.languageCode))
         store.remove(pack)
         setState(pack, PackState.NotInstalled)
     }

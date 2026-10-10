@@ -146,7 +146,8 @@ private fun PackCard(status: CoursePackStatus, onDownload: () -> Unit, onRemove:
             Column(Modifier.weight(1f)) {
                 Text(
                     when (state) {
-                        is PackState.Installed -> tr("{0} on this device", formatSize(state.sizeBytes))
+                        // No file size when the courses alone are on the device, restored from a backup without the file.
+                        is PackState.Installed -> if (state.sizeBytes > 0) tr("{0} on this device", formatSize(state.sizeBytes)) else tr("The courses are on this device")
                         else -> tr("{0} to download", formatSize(pack.downloadSize))
                     },
                     style = MaterialTheme.typography.bodyMedium,

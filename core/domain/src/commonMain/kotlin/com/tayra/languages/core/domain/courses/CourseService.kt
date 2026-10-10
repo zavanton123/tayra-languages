@@ -47,6 +47,12 @@ class CourseService(
         }
     }
 
+    /** The ids of the sample courses in the database for the language with [languageCode], whatever pack file brought them. */
+    suspend fun sampleCourseIds(languageCode: String): Set<String> =
+        languages.getAll().filter { LanguageCodes.codeFor(it.name) == languageCode }
+            .flatMap { language -> repository.observeCourses(language.id).first().filter { it.builtIn }.map { it.id } }
+            .toSet()
+
     /**
      * Deletes the sample courses with [courseIds] in every language, with the texts read from
      * their lessons, and forgets they were written, so installing their pack again restores them.

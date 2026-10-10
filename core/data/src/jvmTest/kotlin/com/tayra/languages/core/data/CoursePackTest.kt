@@ -115,6 +115,24 @@ class CoursePackTest {
         assertEquals(listOf("pt-mini-0100", "pt-mini-0200", own), env.courses.observeCourses(pt).first().map { it.course.id }, "installing again restores them")
     }
 
+    /** A backup restores the courses but not the pack file: the pack still counts as installed, and removing it deletes the courses. */
+    @Test
+    fun coursesWithoutTheirFileCountAsInstalledAndCanBeRemoved() = runTest {
+        val env = Env(buildPack())
+        val pt = env.languages.save(Language(name = "Portuguese"))
+        env.packs.download(pack)
+        assertEquals(2, env.courses.observeCourses(pt).first().size)
+        env.directory.listFiles().orEmpty().forEach { it.delete() }
+
+        env.packs.refresh()
+        assertIs<PackState.Installed>(env.packs.packs.value.first { it.pack == pack }.state, "the courses are on the device")
+        env.packs.remove(pack)
+        assertEquals(PackState.NotInstalled, env.packs.packs.value.first { it.pack == pack }.state)
+        assertEquals(emptyList(), env.courses.observeCourses(pt).first(), "the courses go with the pack")
+        env.packs.download(pack)
+        assertEquals(2, env.courses.observeCourses(pt).first().size, "downloading again restores them")
+    }
+
     @Test
     fun aLanguageAddedLaterGetsTheInstalledCourses() = runTest {
         val env = Env(buildPack())
