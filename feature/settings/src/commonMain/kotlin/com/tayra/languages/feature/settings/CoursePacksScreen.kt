@@ -30,6 +30,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
+import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.domain.courses.CoursePack
 import com.tayra.languages.core.domain.courses.CoursePackService
 import com.tayra.languages.core.domain.courses.CoursePackStatus
@@ -61,21 +63,34 @@ class CoursePacksViewModel(private val service: CoursePackService) : ViewModel()
 @Composable
 fun CoursePacksScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: CoursePacksViewModel = koinViewModel()) {
     val packs by viewModel.packs.collectAsStateWithLifecycle()
+    // Only the pack of the language chosen in the top bar: the others are a tap of that bar away.
+    val language = LocalLearningLanguage.current?.currentName
+    val code = language?.let { LanguageCodes.codeFor(it) }
     Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            CoursePacksContent(packs, onDownload = viewModel::download, onRemove = viewModel::remove, onBack = onBack)
+            CoursePacksContent(packs.filter { it.pack.languageCode == code }, onDownload = viewModel::download, onRemove = viewModel::remove, onBack = onBack, languageName = language)
         }
     }
 }
 
 @Composable
-internal fun CoursePacksContent(packs: List<CoursePackStatus>, onDownload: (CoursePack) -> Unit, onRemove: (CoursePack) -> Unit, onBack: (() -> Unit)? = null) {
+internal fun CoursePacksContent(
+    packs: List<CoursePackStatus>,
+    onDownload: (CoursePack) -> Unit,
+    onRemove: (CoursePack) -> Unit,
+    onBack: (() -> Unit)? = null,
+    /** The language the packs are for, named when there is none. */
+    languageName: String? = null,
+) {
     var removing by remember { mutableStateOf<CoursePack?>(null) }
     ScreenHeader(tr("Courses"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), onBackToSettings = onBack)
     InfoBanner(tr("Downloaded courses appear under Courses when you learn their language. Like the courses you make, they can be changed."))
+    if (packs.isEmpty() && languageName != null) {
+        Text(tr("There are no ready-made courses for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
     packs.forEach { status -> PackCard(status, onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) }
     removing?.let { pack ->
         AlertDialog(

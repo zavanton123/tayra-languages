@@ -76,6 +76,18 @@ class CoursePacksScreenTest {
         onNodeWithText("Try again").assertExists()
     }
 
+    /** Only the pack of the language being learned is listed; a language without one says so. */
+    @Test
+    fun aLanguageWithoutAPackSaysSo() = runDesktopComposeUiTest(width = 1400, height = 900) {
+        setContent {
+            Hosted(SettingsRepositoryImpl(MapSettings())) {
+                Column { CoursePacksContent(emptyList(), onDownload = {}, onRemove = {}, languageName = "Finnish") }
+            }
+        }
+        onNodeWithText("There are no ready-made courses for Finnish yet.").assertExists()
+        onNodeWithText("Download").assertDoesNotExist()
+    }
+
     private fun ComposeUiTest.save(path: String) {
         waitForIdle()
         ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))

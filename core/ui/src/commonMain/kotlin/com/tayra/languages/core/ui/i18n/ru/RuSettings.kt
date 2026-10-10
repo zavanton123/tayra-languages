@@ -222,6 +222,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     // CoursePacksScreen.kt
     "Courses" to "Курсы",
     "Download the ready-made courses of a language as one file, or remove them to free space." to "Скачайте готовые курсы языка одним файлом или удалите их, чтобы освободить место.",
+    "There are no ready-made courses for {0} yet." to "Готовых курсов для языка «{0}» пока нет.",
     "Downloaded courses appear under Courses when you learn their language. Like the courses you make, they can be changed." to "Скачанные курсы появляются в разделе «Курсы», когда вы изучаете их язык. Их можно изменять, как и созданные вами курсы.",
     "Remove the {0} courses?" to "Удалить курсы «{0}»?",
     "Their courses and lessons are deleted, with the lesson texts you opened and how far you read them. Courses you made yourself stay. You can download the courses again at any time." to "Курсы и уроки будут удалены вместе с открытыми текстами уроков и прогрессом чтения. Созданные вами курсы останутся. Курсы можно скачать снова в любое время.",
