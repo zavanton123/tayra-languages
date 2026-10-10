@@ -313,12 +313,10 @@ private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewMode
     OutlinedTextField(
         value = state.draft.translation,
         onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
-        label = { Text(tr("Translation")) },
-        supportingText = when {
-            state.lookingUpTranslation -> ({ Text(tr("Looking up translation...")) })
-            hint != null -> ({ Text(hint) })
-            else -> null
-        },
+        // The lookup is announced in the label, which is there anyway: a line under the field that comes and goes
+        // would move everything below it (the examples, their button) while the user is about to click.
+        label = { Text(if (state.lookingUpTranslation) tr("Looking up translation...") else tr("Translation")) },
+        supportingText = hint?.let { { Text(it) } },
         minLines = if (compact) 1 else 3,
         shape = RoundedCornerShape(10.dp),
         colors = fieldColors(),

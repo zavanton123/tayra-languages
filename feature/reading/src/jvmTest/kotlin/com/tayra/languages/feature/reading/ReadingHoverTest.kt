@@ -54,6 +54,7 @@ import com.tayra.languages.core.domain.service.LocalSpeech
 import org.koin.core.module.dsl.viewModel
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.service.ExampleSearchResult
+import com.tayra.languages.core.domain.service.ExampleSentence
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.repository.DictionaryRepository
@@ -117,7 +118,17 @@ class ReadingHoverTest {
     }
 
     /** [mainIsDefault] swaps the UI thread for a pool, for tests that never draw the screen. */
-    private suspend fun reader(mainIsDefault: Boolean = true, speech: LocalSpeech = LocalSpeech(emptyList()), pages: Int = 1, translation: String? = null, lesson: LessonReading? = null): ReadingViewModel {
+    private suspend fun reader(
+        mainIsDefault: Boolean = true,
+        speech: LocalSpeech = LocalSpeech(emptyList()),
+        pages: Int = 1,
+        translation: String? = null,
+        lesson: LessonReading? = null,
+        /** The term pane's example sentences; none by default. */
+        examples: ExampleSentencesProvider? = null,
+        /** The term pane's online translation suggestion for a word. */
+        suggest: suspend (String) -> String? = { "<$it>" },
+    ): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
@@ -132,7 +143,7 @@ class ReadingHoverTest {
         val bookId = bookService.create(BookDraft(languageId = languageId, title = "T", text = List(pages) { "O lobo dorme na floresta." }.joinToString("\n\n"), wordsPerPage = 5))
         val engine = object : TermTranslationProvider {
             override val name = "Fake"
-            override suspend fun suggestTranslation(text: String, language: Language): String? = "<$text>"
+            override suspend fun suggestTranslation(text: String, language: Language): String? = suggest(text)
         }
         val offline = object : OfflineDictionary {
             override suspend fun isAvailable(dictionary: DictionaryId) = false
@@ -159,7 +170,7 @@ class ReadingHoverTest {
                     override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
                 }
                 val dictionaries = DictionaryService(noPacks, noEntries)
-                TermFormViewModel(key, termService, terms, languages, settings, engine, noExamples, dictionaries, dictionaries)
+                TermFormViewModel(key, termService, terms, languages, settings, engine, examples ?: noExamples, dictionaries, dictionaries)
             }
         }
         sentenceAudio = SentenceAudio(speech, settings, MemorySpeechAudioCache())
@@ -492,7 +503,13 @@ class ReadingHoverTest {
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
-        rule.onNodeWithTag(STATUS_BAR_TAG, useUnmergedTree = true).performMouseInput { moveTo(center + Offset(0f, 200f)) }
+        // A click elsewhere while the tooltip is up reaches its target the first time: a focusable tooltip would swallow it.
+        val paragraph = rule.onNodeWithText("lobo dorme", substring = true)
+        val layouts = mutableListOf<TextLayoutResult>()
+        paragraph.fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        val box = layouts.single().getBoundingBox(layouts.single().layoutInput.text.text.indexOf("lobo") + 1)
+        paragraph.performMouseInput { click(Offset(box.center.x, box.center.y + 6.dp.toPx())) }
+        rule.waitUntil(5_000) { vm.index("lobo") in vm.state.value.marked }
         rule.waitUntil(5_000) { !tooltipShown() }
     }
 
@@ -523,6 +540,81 @@ class ReadingHoverTest {
         val vm = reader()
         vm.startSelection(vm.state.value.items[vm.index("lobo")].index)
         assertNull(vm.hoverCard("floresta"))
+    }
+
+    /** The pane's "View all examples" opens the examples at the first click, with speech, translations and split sentences on. */
+    @Test
+    fun viewAllExamplesOpensAtTheFirstClick() {
+        val examples = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult(listOf(ExampleSentence(text = "O lobo uiva.", translation = "The wolf howls.")), 762, null)
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+        }
+        val vm = runBlocking { reader(mainIsDefault = false, translation = "The wolf sleeps in the forest.", examples = examples) }
+        val piper = object : LocalSpeechEngine {
+            override val engine = SpeechEngine.PIPER
+            override val displayName = "Fake Piper"
+            override val description = ""
+            override val packagesDescription = ""
+            override val hasRuntimeSetup = false
+            override val progress = MutableStateFlow<String?>(null)
+            override suspend fun status() = "ready"
+            override suspend fun isReady() = true
+            override suspend fun setUp() = "ready"
+            override suspend fun packages() = emptyList<SpeechPackage>()
+            override suspend fun installPackage(id: String) {}
+            override suspend fun removePackage(id: String) {}
+            override suspend fun voices(languageCode: String) = emptyList<SpeechVoice>()
+            override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray {
+                delay(300)
+                return silentWav()
+            }
+        }
+        runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER, showSentencePlay = true, showTranslations = true, splitSentences = true, sideBySideTranslations = true) } }
+        startKoin { modules(module { single { LocalSpeech(listOf(piper)) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        val paragraph = rule.onNodeWithText("lobo dorme", substring = true)
+        val layouts = mutableListOf<TextLayoutResult>()
+        paragraph.fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        val box = layouts.single().getBoundingBox(layouts.single().layoutInput.text.text.indexOf("lobo") + 1)
+        paragraph.performMouseInput { click(Offset(box.center.x, box.center.y + 6.dp.toPx())) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("View all", substring = true).fetchSemanticsNodes().isNotEmpty() }
+
+        rule.onNodeWithText("View all", substring = true).performScrollTo().performMouseInput {
+            moveTo(center)
+            press()
+            advanceEventTime(120)
+            release()
+        }
+        rule.waitUntil(5_000) { visited.isNotEmpty() }
+        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Examples(languageId, "lobo")), visited)
+    }
+
+    /** The pane's buttons stay put while the translation is looked up online: a reply arriving as the user clicks must not move them. */
+    @Test
+    fun thePaneDoesNotShiftWhenTheTranslationLookupEnds() {
+        val examples = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult(listOf(ExampleSentence(text = "O lobo uiva.", translation = "The wolf howls.")), 762, null)
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+        }
+        // The lookup answers only when the test lets it, after the examples are on screen.
+        val reply = kotlinx.coroutines.CompletableDeferred<String?>()
+        val vm = runBlocking { reader(mainIsDefault = false, examples = examples, suggest = { reply.await() }) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        vm.onWordClick(vm.index("lobo"), shift = false)
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("View all", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Looking up translation...").assertExists()
+        // The dictionaries card sits below the translation field, in view; the examples and their button under it would move the same way.
+        val before = rule.onNodeWithText("Dictionaries").fetchSemanticsNode().boundsInRoot
+
+        reply.complete("wolf")
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Looking up translation...").fetchSemanticsNodes().isEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("wolf").fetchSemanticsNodes().isNotEmpty() }
+        val after = rule.onNodeWithText("Dictionaries").fetchSemanticsNode().boundsInRoot
+        assertEquals(before.top, after.top, "what is below the field is where it was")
     }
 
     /** With "Speak word on click" on, a click reads the word aloud with the chosen engine; with it off, nothing is said. */
