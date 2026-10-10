@@ -45,6 +45,7 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.staticCompositionLocalOf
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -291,7 +292,7 @@ private fun TermField(state: TermFormUiState, viewModel: TermFormViewModel, dire
         textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
         shape = RoundedCornerShape(10.dp),
         colors = fieldColors(),
-        modifier = Modifier.fillMaxWidth().focusRequester(focusRequester),
+        modifier = Modifier.fillMaxWidth().focusRequester(focusRequester).reportsTyping(),
     )
 }
 
@@ -304,7 +305,7 @@ private fun RomanizationField(state: TermFormUiState, viewModel: TermFormViewMod
         label = { Text(tr("Pronunciation")) },
         singleLine = true,
         shape = RoundedCornerShape(10.dp),
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().reportsTyping(),
     )
 }
 
@@ -320,8 +321,20 @@ private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewMode
         minLines = if (compact) 1 else 3,
         shape = RoundedCornerShape(10.dp),
         colors = fieldColors(),
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().reportsTyping(),
     )
+}
+
+/**
+ * Told whether one of the form's text fields is being typed in, by the screen around the form,
+ * whose hotkeys (plain letters and digits among them) must stay out of the typing.
+ */
+val LocalTypingReporter = staticCompositionLocalOf<(typing: Boolean) -> Unit> { {} }
+
+@Composable
+private fun Modifier.reportsTyping(): Modifier {
+    val report = LocalTypingReporter.current
+    return onFocusChanged { report(it.isFocused) }
 }
 
 /** Text fields stay white even inside a tinted card. */
@@ -348,7 +361,7 @@ private fun ParentField(state: TermFormUiState, viewModel: TermFormViewModel) {
             placeholder = { Text(tr("None")) },
             singleLine = true,
             shape = RoundedCornerShape(10.dp),
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxWidth().reportsTyping(),
         )
         AppMenu(expanded = open && state.parentSuggestions.isNotEmpty(), onDismissRequest = { open = false }) {
             state.parentSuggestions.take(8).forEach { match ->

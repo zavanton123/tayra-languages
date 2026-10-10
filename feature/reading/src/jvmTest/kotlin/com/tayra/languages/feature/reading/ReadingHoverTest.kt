@@ -623,6 +623,35 @@ class ReadingHoverTest {
         assertEquals(before.y, after.y, "the paragraph is where it was")
     }
 
+    /** The display hotkeys work after a click in the term pane (a button keeps the focus) and stay out of a field being typed in. */
+    @Test
+    fun displayHotkeysWorkAfterAClickInThePaneButNotWhileTyping() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        vm.onWordClick(vm.index("lobo"), shift = false)
+        val translationField = androidx.compose.ui.test.hasSetTextAction() and androidx.compose.ui.test.hasText("Translation")
+        rule.waitUntil(5_000) { rule.onAllNodes(translationField).fetchSemanticsNodes().isNotEmpty() }
+        fun larger() = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { keyDown(Key.CtrlLeft); pressKey(Key.Equals); keyUp(Key.CtrlLeft) }
+
+        // A status button in the pane takes the focus when clicked; the hotkey still sizes the text.
+        rule.onNode(androidx.compose.ui.test.hasText("3") and androidx.compose.ui.test.hasClickAction()).performClick()
+        rule.waitUntil(5_000) { runBlocking { termRepository.findByTextLc(languageId, "lobo") }?.status == TermStatus.LEARNING_3 }
+        val font = settings.current.readingFontScale
+        larger()
+        rule.waitUntil(2_000) { settings.current.readingFontScale > font }
+
+        // Typing in the translation field: Ctrl + = is the field's, not a hotkey.
+        rule.onNode(translationField).performClick()
+        rule.waitForIdle()
+        val typed = settings.current.readingFontScale
+        larger()
+        rule.waitForIdle()
+        Thread.sleep(300)
+        assertEquals(typed, settings.current.readingFontScale, "no hotkey while typing")
+    }
+
     /** The pane's buttons stay put while the translation is looked up online: a reply arriving as the user clicks must not move them. */
     @Test
     fun thePaneDoesNotShiftWhenTheTranslationLookupEnds() {

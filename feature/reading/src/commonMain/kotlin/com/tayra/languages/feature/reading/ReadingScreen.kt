@@ -87,6 +87,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.runtime.CompositionLocalProvider
+import com.tayra.languages.feature.terms.form.LocalTypingReporter
 import androidx.compose.ui.input.key.KeyEventType
 import androidx.compose.ui.input.key.onKeyEvent
 import androidx.compose.ui.input.key.type
@@ -174,7 +176,8 @@ fun ReadingScreen(
     val scope = rememberCoroutineScope()
     val drawerState = rememberDrawerState(DrawerValue.Closed)
     var bookmarkDialog by remember { mutableStateOf(false) }
-    var panelFocused by remember { mutableStateOf(false) }
+    // True while a text field of the term pane is being typed in: the hotkeys then stay out of the typing.
+    var typing by remember { mutableStateOf(false) }
     val focusRequester = remember { FocusRequester() }
     val shift = remember { ShiftTracker() }
     val toast = rememberToastState()
@@ -190,7 +193,7 @@ fun ReadingScreen(
     }
     LaunchedEffect(state.loading, state.panel) {
         if (!state.loading && state.panel == ReadingPanel.None) {
-            panelFocused = false
+            typing = false
             runCatching { focusRequester.requestFocus() }
         }
     }
@@ -294,7 +297,7 @@ fun ReadingScreen(
                 .onPreviewKeyEvent { event ->
                     val isShift = event.key == Key.ShiftLeft || event.key == Key.ShiftRight
                     if (shift.onKey(isShift, down = event.type == KeyEventType.KeyDown)) return@onPreviewKeyEvent false
-                    if (event.type != KeyEventType.KeyDown || panelFocused || state.items.isEmpty()) return@onPreviewKeyEvent false
+                    if (event.type != KeyEventType.KeyDown || typing || state.items.isEmpty()) return@onPreviewKeyEvent false
                     val pressed = HotkeyMatcher.fromEvent(event)?.let(shift::adjust) ?: return@onPreviewKeyEvent false
                     val action = HotkeyAction.resolve(hotkeys, pressed, wordSelected = state.marked.isNotEmpty(), listening = state.settings.showSentencePlay)
                     Logger.d { "Reader key ${event.key} (char ${event.utf16CodePoint}, Shift flag ${event.isShiftPressed}, Shift held ${shift.held}) read as $pressed: ${action ?: "no shortcut"}" }
@@ -326,12 +329,11 @@ fun ReadingScreen(
                     Surface(
                         // With the text card's wider margin on this side, the text's scrollbar runs midway between the card and the panel.
                         Modifier.width(427.dp).fillMaxHeight().padding(start = 7.dp, top = 16.dp, end = 16.dp, bottom = 16.dp)
-                            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
-                            .onFocusChanged { panelFocused = it.hasFocus },
+                            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)),
                         shape = RoundedCornerShape(14.dp),
                         color = MaterialTheme.colorScheme.surface,
                     ) {
-                        PanelContent(state, viewModel, onNavigate)
+                        CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) }
                     }
                 }
             }
@@ -341,7 +343,7 @@ fun ReadingScreen(
     if (!wide && state.panel != ReadingPanel.None) {
         val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = false)
         ModalBottomSheet(onDismissRequest = viewModel::closePanel, sheetState = sheetState) {
-            Box(Modifier.fillMaxWidth().onFocusChanged { panelFocused = it.hasFocus }) { PanelContent(state, viewModel, onNavigate) }
+            Box(Modifier.fillMaxWidth()) { CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) } }
         }
     }
     if (bookmarkDialog) {
