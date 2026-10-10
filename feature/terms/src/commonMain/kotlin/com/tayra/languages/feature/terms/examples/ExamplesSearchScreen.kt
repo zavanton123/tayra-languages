@@ -224,10 +224,15 @@ fun ExamplesSearchScreen(
                     },
                 contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp),
             ) {
-                item { PageHeader(query, compact, onBack, onNavigate, textSettingsOpen, onTextSettings = { textSettingsOpen = !textSettingsOpen }) }
+                item { PageHeader(query, compact, onBack, onNavigate) }
                 item { ErrorMessage(state.error) }
                 item { SearchBar(query, viewModel, onSearch = { viewModel.search(); focusList() }) }
                 item { FilterRow(query, viewModel) }
+                item {
+                    Row(Modifier.fillMaxWidth().padding(top = 14.dp)) {
+                        ActionButton(icon = AppIcons.FormatSize, description = tr("Text settings"), active = textSettingsOpen, onClick = { textSettingsOpen = !textSettingsOpen })
+                    }
+                }
                 if (textSettingsOpen) item { TextSettings(prefs, viewModel) }
                 item {
                     Text(
@@ -348,11 +353,11 @@ private fun TermPane(
 }
 
 @Composable
-private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -> Unit, onNavigate: (Route) -> Unit, textSettingsOpen: Boolean, onTextSettings: () -> Unit) {
+private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -> Unit, onNavigate: (Route) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val uriHandler = LocalUriHandler.current
     val target = LanguageCodes.option(query.targetLanguage)?.name ?: query.targetLanguage
-    Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+    Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.Top) {
         if (!compact) {
             Box(
                 Modifier.size(40.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(onClick = onBack),
@@ -373,7 +378,6 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
             )
             Text("${tr(query.language.name)} → ${tr(target)}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
-        ActionButton(icon = AppIcons.FormatSize, description = tr("Text settings"), active = textSettingsOpen, onClick = onTextSettings)
         Row(
             Modifier.clip(RoundedCornerShape(6.dp)).clickable {
                 val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
