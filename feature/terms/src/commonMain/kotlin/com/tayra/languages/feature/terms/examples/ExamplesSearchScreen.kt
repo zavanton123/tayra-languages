@@ -566,6 +566,16 @@ private fun ExampleCard(
             .padding(horizontal = 16.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
+        // The button leads, as the reader's sentence buttons do.
+        ActionButton(
+            icon = sound.icon,
+            description = sound.description,
+            active = sound.playing,
+            stops = true,
+            loading = sound.loading,
+            onClick = onPlay,
+        )
+        Spacer(Modifier.width(16.dp))
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
             HoverTranslatedText(
                 text,
@@ -579,15 +589,6 @@ private fun ExampleCard(
             )
             translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium.copy(fontSize = MaterialTheme.typography.bodyMedium.fontSize * fontScale), color = colors.onSurfaceVariant) }
         }
-        Spacer(Modifier.width(16.dp))
-        ActionButton(
-            icon = sound.icon,
-            description = sound.description,
-            active = sound.playing,
-            stops = true,
-            loading = sound.loading,
-            onClick = onPlay,
-        )
     }
 }
 
