@@ -4,6 +4,7 @@ import app.cash.sqldelight.async.coroutines.synchronous
 import app.cash.sqldelight.db.SqlDriver
 import app.cash.sqldelight.driver.native.NativeSqliteDriver
 import co.touchlab.sqliter.DatabaseConfiguration
+import com.tayra.languages.core.data.db.atFormat
 import com.tayra.languages.core.data.dictionary.DictionaryDownloader
 import com.tayra.languages.core.data.dictionary.gunzip
 import com.tayra.languages.core.domain.courses.CoursePack
@@ -55,7 +56,7 @@ actual class CoursePackFiles(private val downloader: DictionaryDownloader) {
     actual suspend fun openDriver(pack: CoursePack): SqlDriver? {
         if (installedSize(pack) == null) return null
         return NativeSqliteDriver(
-            schema = CoursePackDatabase.Schema.synchronous(),
+            schema = CoursePackDatabase.Schema.synchronous().atFormat(CoursePack.FORMAT),
             name = fileName(pack),
             onConfiguration = { config: DatabaseConfiguration ->
                 config.copy(extendedConfig = DatabaseConfiguration.Extended(basePath = directory))

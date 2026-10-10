@@ -173,6 +173,9 @@ installed.
 Android, iOS and desktop unpack a downloaded pack into app storage and open it read-only as a
 second SQLDelight database; the web build keeps the compressed file in the browser Cache API and
 inflates it in its own sql.js worker, which needs the pack host to allow cross-origin requests.
+A pack file's `user_version` is its format, and the Android and iOS drivers refuse a file whose
+version is above their schema's (the generated schema's is 1), so they open a pack with the
+schema at the pack's format (`atFormat`), which neither creates nor migrates anything.
 
 ## Course packs
 

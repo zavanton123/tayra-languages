@@ -1,7 +1,9 @@
 package com.tayra.languages.core.data
 
+import app.cash.sqldelight.async.coroutines.synchronous
 import app.cash.sqldelight.driver.jdbc.sqlite.JdbcSqliteDriver
 import com.tayra.languages.core.data.coursepack.CoursePackFiles
+import com.tayra.languages.core.data.db.atFormat
 import com.tayra.languages.core.data.coursepack.CoursePackRepository
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
@@ -120,6 +122,25 @@ class CoursePackTest {
         val pt = env.languages.save(Language(name = "Portuguese"))
         env.courses.seedSamples()
         assertEquals(2, env.courses.observeCourses(pt).first().size)
+    }
+
+    /**
+     * The phones' drivers open a pack with a schema and refuse a file whose user_version is above
+     * the schema's version; a pack's is its format, so the schema is opened at that format.
+     */
+    @Test
+    fun thePackSchemaOpensAtThePacksFormat() {
+        val schema = com.tayra.languages.core.data.coursepack.CoursePackDatabase.Schema.synchronous().atFormat(CoursePack.FORMAT)
+        assertEquals(CoursePack.FORMAT.toLong(), schema.version)
+        val file = File.createTempFile("tayra-pack", ".sqlite").also { it.delete() }
+        file.writeBytes(java.util.zip.GZIPInputStream(buildPack().inputStream()).readBytes())
+        val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}", java.util.Properties(), schema)
+        val userVersion = driver.executeQuery(null, "PRAGMA user_version", { cursor -> app.cash.sqldelight.db.QueryResult.Value(if (cursor.next().value) cursor.getLong(0) else null) }, 0).value
+        assertEquals(CoursePack.FORMAT.toLong(), userVersion, "opened as it is: neither created nor migrated")
+        val ids = com.tayra.languages.core.data.coursepack.CoursePackDatabase(driver).coursePackQueries.selectCourseIds().executeAsList()
+        assertEquals(listOf("pt-mini-0100", "pt-mini-0200"), ids.sorted())
+        driver.close()
+        file.delete()
     }
 
     @Test

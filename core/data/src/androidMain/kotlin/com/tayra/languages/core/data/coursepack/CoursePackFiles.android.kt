@@ -4,6 +4,7 @@ import android.content.Context
 import app.cash.sqldelight.async.coroutines.synchronous
 import app.cash.sqldelight.db.SqlDriver
 import app.cash.sqldelight.driver.android.AndroidSqliteDriver
+import com.tayra.languages.core.data.db.atFormat
 import com.tayra.languages.core.data.dictionary.DictionaryDownloader
 import com.tayra.languages.core.data.dictionary.PackFiles
 import com.tayra.languages.core.domain.courses.CoursePack
@@ -20,7 +21,6 @@ actual class CoursePackFiles(private val context: Context, downloader: Dictionar
 
     actual suspend fun openDriver(pack: CoursePack): SqlDriver? {
         if (files.installedSize(pack.id, CoursePack.FORMAT) == null) return null
-        // The file's user_version equals the schema version, so the driver neither creates nor migrates.
-        return AndroidSqliteDriver(schema = CoursePackDatabase.Schema.synchronous(), context = context, name = files.file(pack.id).absolutePath)
+        return AndroidSqliteDriver(schema = CoursePackDatabase.Schema.synchronous().atFormat(CoursePack.FORMAT), context = context, name = files.file(pack.id).absolutePath)
     }
 }
