@@ -20,6 +20,9 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import com.tayra.languages.core.domain.settings.UserSettings
+import com.tayra.languages.core.ui.theme.ReadingFont
+import kotlin.math.roundToInt
 
 data class ExamplesSearchUiState(
     val loading: Boolean = true,
@@ -115,6 +118,16 @@ class ExamplesSearchViewModel(
     fun onResumed() {
         if (shown && !_state.value.loading) refreshTerms()
         shown = true
+    }
+
+    // ---- the examples' text, set as the reader's (one setting for both)
+
+    fun setReadingFont(font: ReadingFont) = updateSettings { it.copy(readingFont = font.id) }
+    fun setFontScale(scale: Float) = updateSettings { it.copy(readingFontScale = ((scale * 10).roundToInt() / 10f).coerceIn(0.6f, 2.5f)) }
+    fun setLineHeight(height: Float) = updateSettings { it.copy(readingLineHeight = ((height * 10).roundToInt() / 10f).coerceIn(1.0f, 3.0f)) }
+
+    private fun updateSettings(transform: (UserSettings) -> UserSettings) {
+        viewModelScope.launch { settings.update(transform) }
     }
 
     private suspend fun loadLearning() {

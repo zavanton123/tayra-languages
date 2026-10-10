@@ -8,6 +8,11 @@ import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onAllNodesWithTag
+import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.performSemanticsAction
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.performScrollTo
@@ -80,11 +85,32 @@ class ExamplesScreenTest {
     /** What the fake speech engine was asked to read, as "language:text". */
     private val spoken: MutableList<String> = Collections.synchronizedList(mutableListOf())
     private lateinit var terms: TermRepositoryImpl
+    private lateinit var settings: SettingsRepositoryImpl
     private var languageId = 0L
 
     @After
     fun tearDown() {
         stopKoin()
+    }
+
+    /** The examples' font, size and line height are set on the screen, as the reader's and shared with it; the copy button is gone. */
+    @Test
+    fun theTextSettingsSetTheExamplesAsTheReaders() {
+        show(listOf(ExampleSentence(text = "Eu não tenho tempo.", translation = null)))
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Eu não tenho tempo.").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, rule.onAllNodesWithContentDescription("Copy sentence").fetchSemanticsNodes().size, "no copy button")
+
+        rule.onNodeWithContentDescription("Text settings").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("examples-font-size").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("examples-font-size").performSemanticsAction(SemanticsActions.SetProgress) { it(1.5f) }
+        rule.waitUntil(5_000) { settings.current.readingFontScale == 1.5f }
+        rule.onNodeWithTag("examples-line-height").performSemanticsAction(SemanticsActions.SetProgress) { it(2f) }
+        rule.waitUntil(5_000) { settings.current.readingLineHeight == 2f }
+        val current = com.tayra.languages.core.ui.theme.ReadingFont.byId(settings.current.readingFont)
+        rule.onNodeWithText(current.label).performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Open Sans").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Open Sans").performClick()
+        rule.waitUntil(5_000) { settings.current.readingFont == "open_sans" }
     }
 
     /** The term pane beside the results shows the searched term, then a clicked word, until it is closed. */
@@ -323,7 +349,7 @@ class ExamplesScreenTest {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-examples", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider).also { this.terms = it }
-        val settings = SettingsRepositoryImpl(MapSettings())
+        val settings = SettingsRepositoryImpl(MapSettings()).also { this.settings = it }
         runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER) } }
         val languageId = runBlocking { languages.save(Language(name = "Portuguese")) }.also { this.languageId = it }
         val examples = object : ExampleSentencesProvider {

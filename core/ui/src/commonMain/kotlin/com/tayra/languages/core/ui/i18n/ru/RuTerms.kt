@@ -223,7 +223,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Per page" to "На странице",
     "Has audio" to "Есть аудио",
     "Reset filters" to "Сбросить фильтры",
-    "Copy sentence" to "Копировать предложение",
+    "Text settings" to "Настройки текста",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Язык не найден",

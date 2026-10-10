@@ -42,13 +42,22 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.unit.sp
+import com.tayra.languages.core.domain.settings.UserSettings
+import com.tayra.languages.core.ui.components.RoundSlider
+import com.tayra.languages.core.ui.theme.ReadingFont
+import com.tayra.languages.core.ui.theme.fontFamily
+import kotlin.math.roundToInt
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.AnnotatedString
 import org.koin.compose.koinInject
@@ -143,7 +152,9 @@ fun ExamplesSearchScreen(
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> state.language?.let { wordTranslations.translate(it, word) } }
 
-    val showHighlights = koinInject<SettingsRepository>().settings.collectAsStateWithLifecycle().value.showHighlights
+    val prefs by koinInject<SettingsRepository>().settings.collectAsStateWithLifecycle()
+    val showHighlights = prefs.showHighlights
+    var textSettingsOpen by rememberSaveable { mutableStateOf(false) }
     // Status shortcuts work while the results, not a text field, have the keyboard.
     val focus = remember { FocusRequester() }
     var listFocused by remember { mutableStateOf(false) }
@@ -211,10 +222,11 @@ fun ExamplesSearchScreen(
                     },
                 contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp),
             ) {
-                item { PageHeader(query, compact, onBack, onNavigate) }
+                item { PageHeader(query, compact, onBack, onNavigate, textSettingsOpen, onTextSettings = { textSettingsOpen = !textSettingsOpen }) }
                 item { ErrorMessage(state.error) }
                 item { SearchBar(query, viewModel, onSearch = { viewModel.search(); focusList() }) }
                 item { FilterRow(query, viewModel) }
+                if (textSettingsOpen) item { TextSettings(prefs, viewModel) }
                 item {
                     Text(
                         when {
@@ -241,7 +253,9 @@ fun ExamplesSearchScreen(
                                 sound = audio.soundOf(example),
                                 onPlay = { audio.toggle(example, LanguageCodes.codeFor(query.language.name)) },
                                 direction = direction,
-                                compact = compact,
+                                fontFamily = ReadingFont.byId(prefs.readingFont).fontFamily(),
+                                fontScale = prefs.readingFontScale,
+                                lineHeight = prefs.readingLineHeight,
                                 onWordClick = { word -> openWord(word, example.text) },
                                 onWordSecondaryClick = { word -> viewModel.markWord(word, example.text) },
                                 onPhraseSelect = { phrase -> openWord(phrase, example.text) },
@@ -332,11 +346,11 @@ private fun TermPane(
 }
 
 @Composable
-private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -> Unit, onNavigate: (Route) -> Unit) {
+private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -> Unit, onNavigate: (Route) -> Unit, textSettingsOpen: Boolean, onTextSettings: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val uriHandler = LocalUriHandler.current
     val target = LanguageCodes.option(query.targetLanguage)?.name ?: query.targetLanguage
-    Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.Top) {
+    Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         if (!compact) {
             Box(
                 Modifier.size(40.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(onClick = onBack),
@@ -357,6 +371,7 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
             )
             Text("${tr(query.language.name)} → ${tr(target)}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
+        ActionButton(icon = AppIcons.FormatSize, description = tr("Text settings"), active = textSettingsOpen, onClick = onTextSettings)
         Row(
             Modifier.clip(RoundedCornerShape(6.dp)).clickable {
                 val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
@@ -465,14 +480,15 @@ private fun ExampleCard(
     sound: ExampleSound,
     onPlay: () -> Unit,
     direction: TextDirection,
-    compact: Boolean,
+    fontFamily: FontFamily,
+    fontScale: Float,
+    lineHeight: Float,
     onWordClick: (String) -> Unit,
     onWordSecondaryClick: (String) -> Unit,
     onPhraseSelect: (String) -> Unit,
     onHover: (String?) -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
-    val clipboard = LocalClipboardManager.current
     Row(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
             .background(if (sound.playing) colors.primary.copy(alpha = 0.06f) else Color.Transparent)
@@ -484,27 +500,51 @@ private fun ExampleCard(
             HoverTranslatedText(
                 text,
                 translate = translateWord,
-                style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction, lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.25),
+                // Set as the reader's text, from the same settings.
+                style = TextStyle(fontSize = (18 * fontScale).sp, lineHeight = (18 * fontScale * lineHeight).sp, fontFamily = fontFamily, color = colors.onSurface, textDirection = direction),
                 onWordClick = onWordClick,
                 onWordSecondaryClick = onWordSecondaryClick,
                 onPhraseSelect = onPhraseSelect,
                 onHover = onHover,
             )
-            translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
+            translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium.copy(fontSize = MaterialTheme.typography.bodyMedium.fontSize * fontScale), color = colors.onSurfaceVariant) }
         }
         Spacer(Modifier.width(16.dp))
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            ActionButton(
-                icon = sound.icon,
-                description = sound.description,
-                active = sound.playing,
-                loading = sound.loading,
-                onClick = onPlay,
-            )
-            if (!compact) {
-                ActionButton(icon = AppIcons.ContentCopy, description = tr("Copy sentence"), onClick = { clipboard.setText(AnnotatedString(text.text)) })
-            }
+        ActionButton(
+            icon = sound.icon,
+            description = sound.description,
+            active = sound.playing,
+            loading = sound.loading,
+            onClick = onPlay,
+        )
+    }
+}
+
+/** The font, size and line height of the examples: the reader's settings, changed here as there. */
+@Composable
+private fun TextSettings(prefs: UserSettings, viewModel: ExamplesSearchViewModel) {
+    val colors = MaterialTheme.colorScheme
+    Column(
+        Modifier.fillMaxWidth().padding(top = 16.dp).clip(RoundedCornerShape(14.dp)).background(colors.surface)
+            .border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(horizontal = 20.dp, vertical = 16.dp),
+        verticalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        Text(tr("Text settings"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+        Select(tr("Font"), ReadingFont.choices, ReadingFont.byId(prefs.readingFont), { it.label }, 220.dp, viewModel::setReadingFont)
+        SliderRow(tr("Font size"), "${(prefs.readingFontScale * 100).roundToInt()}%", prefs.readingFontScale, 0.6f..2.5f, viewModel::setFontScale, "examples-font-size")
+        SliderRow(tr("Line height"), "${(prefs.readingLineHeight * 10).roundToInt() / 10f}", prefs.readingLineHeight, 1.0f..3.0f, viewModel::setLineHeight, "examples-line-height")
+    }
+}
+
+/** A slider with its name and value above it. */
+@Composable
+private fun SliderRow(title: String, value: String, current: Float, range: ClosedFloatingPointRange<Float>, onChange: (Float) -> Unit, tag: String) {
+    Column {
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            Text(title, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
+            Text(value, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
+        RoundSlider(value = current.coerceIn(range), onValueChange = onChange, valueRange = range, modifier = Modifier.fillMaxWidth().testTag(tag))
     }
 }
 
