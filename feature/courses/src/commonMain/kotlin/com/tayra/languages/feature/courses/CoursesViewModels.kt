@@ -3,8 +3,10 @@ package com.tayra.languages.feature.courses
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.courses.CourseLevel
+import com.tayra.languages.core.domain.courses.CoursePackService
 import com.tayra.languages.core.domain.courses.CoursePacks
 import com.tayra.languages.core.domain.courses.CourseProgress
+import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -35,6 +37,8 @@ data class CoursesUiState(
     val languageName: String = "",
     /** Whether ready-made courses for the language can be downloaded, offered while there are none. */
     val packAvailable: Boolean = false,
+    /** How far the language's ready-made courses are: downloading, failed, or neither; null without a pack. */
+    val packState: PackState? = null,
     val courses: List<CourseProgress> = emptyList(),
     val search: String = "",
     /** Null shows every level. */
@@ -106,7 +110,7 @@ sealed interface CoursesEvent {
 }
 
 /** The courses of the language being learned. */
-class CoursesViewModel(private val service: CourseService, languages: LanguageRepository, settings: SettingsRepository) : ViewModel() {
+class CoursesViewModel(private val service: CourseService, languages: LanguageRepository, settings: SettingsRepository, private val packs: CoursePackService) : ViewModel() {
     init {
         // A language added since the app started gets its sample courses here.
         viewModelScope.launch { service.seedSamples() }
@@ -131,12 +135,13 @@ class CoursesViewModel(private val service: CourseService, languages: LanguageRe
     private val courses = settings.settings.map { it.currentLanguageId }.distinctUntilChanged()
         .flatMapLatest { id -> service.observeCourses(id).map { list -> (languages.getById(id)?.name.orEmpty()) to list } }
 
-    val state: StateFlow<CoursesUiState> = combine(courses, choices) { (language, list), c ->
-        val packAvailable = LanguageCodes.codeFor(language)?.let { CoursePacks.forLanguage(it).isNotEmpty() } == true
+    val state: StateFlow<CoursesUiState> = combine(courses, choices, packs.packs) { (language, list), c, packStates ->
+        val pack = LanguageCodes.codeFor(language)?.let { code -> packStates.firstOrNull { it.pack.languageCode == code } }
         CoursesUiState(
             loading = false,
             languageName = language,
-            packAvailable = packAvailable,
+            packAvailable = pack != null,
+            packState = pack?.state,
             courses = list,
             search = c.search,
             // A level chosen for another language's courses does not hide this one's.
@@ -157,6 +162,13 @@ class CoursesViewModel(private val service: CourseService, languages: LanguageRe
     fun setSort(value: CoursesSort) = choices.update { it.copy(sort = value) }
     fun setView(value: CoursesView) = choices.update { it.copy(view = value) }
     fun setTags(tags: Set<String>, matchAll: Boolean) = choices.update { it.copy(tags = tags, matchAllTags = matchAll) }
+
+    /** Downloads the language's ready-made courses; they appear here as soon as they are written. */
+    fun downloadCourses() {
+        val code = LanguageCodes.codeFor(state.value.languageName) ?: return
+        val pack = CoursePacks.forLanguage(code).firstOrNull() ?: return
+        viewModelScope.launch { packs.download(pack) }
+    }
 
     /** Opens the next lesson of the course to read it. */
     fun continueCourse(progress: CourseProgress) {

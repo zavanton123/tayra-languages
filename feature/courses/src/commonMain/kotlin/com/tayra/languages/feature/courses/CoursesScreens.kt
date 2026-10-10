@@ -71,6 +71,8 @@ import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseProgress
+import com.tayra.languages.core.domain.dictionary.PackState
+import androidx.compose.material3.CircularProgressIndicator
 import com.tayra.languages.core.domain.courses.LessonProgress
 import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.ui.components.AppIcons
@@ -207,7 +209,7 @@ fun CoursesScreen(onNavigate: (Route) -> Unit, viewModel: CoursesViewModel = koi
             onStatus = viewModel::setStatus,
             onOpen = { onNavigate(Route.Course(it)) },
             onNewCourse = { onNavigate(Route.NewCourse) },
-            onDownloadCourses = { onNavigate(Route.CoursePacks) },
+            onDownloadCourses = viewModel::downloadCourses,
             onSort = viewModel::setSort,
             onView = viewModel::setView,
             onContinue = viewModel::continueCourse,
@@ -667,10 +669,13 @@ private fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDownl
             Spacer(Modifier.height(28.dp))
             FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 if (state.packAvailable) {
-                    Button(onClick = onDownloadCourses, shape = RoundedCornerShape(12.dp), contentPadding = PaddingValues(horizontal = 28.dp, vertical = 14.dp), modifier = Modifier.testTag("download-courses")) {
-                        Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(20.dp))
+                    // The courses are downloaded from here; they take the page over as soon as they are written.
+                    val downloading = state.packState is PackState.Downloading
+                    Button(onClick = onDownloadCourses, enabled = !downloading, shape = RoundedCornerShape(12.dp), contentPadding = PaddingValues(horizontal = 28.dp, vertical = 14.dp), modifier = Modifier.testTag("download-courses")) {
+                        if (downloading) CircularProgressIndicator(Modifier.size(20.dp), color = colors.onPrimary, strokeWidth = 2.dp)
+                        else Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(20.dp))
                         Spacer(Modifier.width(10.dp))
-                        Text(tr("Download courses"), style = MaterialTheme.typography.titleSmall)
+                        Text(if (downloading) tr("Downloading…") else tr("Download courses"), style = MaterialTheme.typography.titleSmall)
                     }
                     OutlinedButton(onClick = onNewCourse, shape = RoundedCornerShape(12.dp), contentPadding = PaddingValues(horizontal = 28.dp, vertical = 14.dp), modifier = Modifier.testTag("new-course")) {
                         Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(20.dp))

@@ -29,7 +29,13 @@ import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import androidx.compose.ui.test.assertIsNotEnabled
 import com.tayra.languages.core.domain.courses.CourseService
+import com.tayra.languages.core.domain.courses.Course
+import com.tayra.languages.core.domain.courses.CoursePack
+import com.tayra.languages.core.domain.courses.CoursePackService
+import com.tayra.languages.core.domain.courses.CoursePackStore
+import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.ReadingService
@@ -63,6 +69,18 @@ class CoursesScreenTest {
     private val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages))
     private val languageId = runBlocking { languages.save(Language(name = "Portuguese")).also { id -> settings.update { it.copy(currentLanguageId = id) }; service.seedSamples() } }
 
+    /** Course packs that are never on the device. */
+    private val packs = CoursePackService(
+        object : CoursePackStore {
+            override suspend fun installedSize(pack: CoursePack): Long? = null
+            override suspend fun install(pack: CoursePack, onProgress: (Float?) -> Unit) = Unit
+            override suspend fun remove(pack: CoursePack) = Unit
+            override suspend fun courseIds(pack: CoursePack): Set<String> = emptySet()
+            override suspend fun courses(pack: CoursePack): List<Course> = emptyList()
+        },
+        service,
+    )
+
     private fun ComposeUiTest.host(section: NavSection = NavSection.COURSES, content: @androidx.compose.runtime.Composable () -> Unit) = setContent {
         TayraTheme {
             ProvideWindowWidth {
@@ -89,7 +107,7 @@ class CoursesScreenTest {
 
     @Test
     fun coursesCanBeSearchedFilteredAndOpened() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = CoursesViewModel(service, languages, settings)
+        val viewModel = CoursesViewModel(service, languages, settings, packs)
         val opened = mutableListOf<String>()
         host {
             val state by viewModel.state.collectAsState()
@@ -178,7 +196,7 @@ class CoursesScreenTest {
             reading.openPage(bookId, 1, trackOpen = true)
             reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
         }
-        val viewModel = CoursesViewModel(service, languages, settings)
+        val viewModel = CoursesViewModel(service, languages, settings, packs)
         val read = java.util.Collections.synchronizedList(mutableListOf<Long>())
         val collecting = CoroutineScope(Dispatchers.Default).launch { viewModel.events.flow.collect { if (it is CoursesEvent.Read) read += it.bookId } }
         host {
@@ -199,7 +217,7 @@ class CoursesScreenTest {
     fun coursesCanBeFilteredByAnyOrAllOfSeveralTags() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val trip = runBlocking { service.createCourse(languageId, CourseDraft("Uma viagem", tags = listOf("travel", "food"))) }
         val market = runBlocking { service.createCourse(languageId, CourseDraft("No mercado", tags = listOf("food"))) }
-        val viewModel = CoursesViewModel(service, languages, settings)
+        val viewModel = CoursesViewModel(service, languages, settings, packs)
         host {
             val state by viewModel.state.collectAsState()
             if (!state.loading) CoursesContent(state, viewModel::setSearch, viewModel::setLevel, viewModel::setStatus, onOpen = {}, onTags = viewModel::setTags)
@@ -239,6 +257,16 @@ class CoursesScreenTest {
         save("COURSES_EMPTY_PACK_SCREENSHOT")
         onNodeWithTag("download-courses").performClick()
         assertEquals(1, asked)
+    }
+
+    /** While the ready-made courses download, the button shows it and takes no second click. */
+    @Test
+    fun theDownloadShowsOnTheButton() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        var asked = 0
+        host { CoursesContent(CoursesUiState(loading = false, languageName = "Portuguese", packAvailable = true, packState = PackState.Downloading(0.4f)), {}, {}, {}, onOpen = {}, onDownloadCourses = { asked++ }) }
+        onNodeWithText("Downloading…").assertExists()
+        onNodeWithTag("download-courses").assertIsNotEnabled()
+        assertEquals(0, asked)
     }
 
     @Test

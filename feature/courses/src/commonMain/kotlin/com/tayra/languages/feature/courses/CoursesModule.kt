@@ -9,7 +9,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val coursesModule = module {
-    viewModel { CoursesViewModel(get(), get(), get()) }
+    viewModel { CoursesViewModel(get(), get(), get(), get()) }
     viewModel { (courseId: String) -> CourseViewModel(courseId, get()) }
     viewModel { (courseId: String?) -> CourseFormViewModel(courseId, get(), get(), get()) }
     viewModel { (courseId: String, lessonId: String?) -> LessonFormViewModel(courseId, lessonId, get(), get()) }
