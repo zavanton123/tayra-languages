@@ -156,6 +156,35 @@ class AnkiExportTest {
         }.also { file.delete() }
     }
 
+    /** A form whose sentence came through its family blanks out the form the sentence holds, inside the sentence. */
+    @Test
+    fun theClozeBlanksOutTheFamilyFormReadInTheSentence() = runBlocking<Unit> {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val lemma = env.terms.save(Term(languageId = language, text = "destruir", textLc = "destruir", status = TermStatus.NEW_1))
+        val past = env.terms.save(Term(languageId = language, text = "destruíram", textLc = "destruíram", status = TermStatus.NEW_1, sentence = "Eu vou destruir esta parede."))
+        env.terms.setParents(past, listOf(lemma))
+
+        val export = env.service.export(listOf(past))!!
+        val entries = mutableMapOf<String, ByteArray>()
+        ZipInputStream(ByteArrayInputStream(export.bytes)).use { zip ->
+            while (true) {
+                val entry = zip.nextEntry ?: break
+                entries[entry.name] = zip.readBytes()
+            }
+        }
+        val file = File.createTempFile("tayra-anki", ".anki2").apply { writeBytes(entries.getValue("collection.anki2")) }
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { c ->
+            val notes = c.createStatement().executeQuery("SELECT flds FROM notes")
+            assertTrue(notes.next())
+            val fields = notes.getString(1).split('\u001f')
+            assertEquals("Eu vou {{c1::destruir}} esta parede.", fields[0])
+            assertEquals("destruíram", fields[4])
+            assertEquals("destruir", fields[5])
+        }
+        file.delete()
+    }
+
     /** A word is exported once: after its package was saved it is left out, and nothing is made when all are out. */
     @Test
     fun exportedWordsAreNotExportedAgain() = runBlocking<Unit> {

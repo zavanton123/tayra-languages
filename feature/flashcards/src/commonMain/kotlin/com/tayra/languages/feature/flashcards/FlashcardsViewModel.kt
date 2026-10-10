@@ -113,11 +113,12 @@ class FlashcardsViewModel(
             val language = languageId?.let { languages.getById(it) } ?: session.term?.let { languages.getById(it.languageId) }
             current = session.card
             val term = session.term
+            val wordRange = term?.let { service.clozeRange(it) }
             _state.update {
                 it.copy(
                     loading = false,
                     languageName = language?.name.orEmpty(),
-                    card = if (session.card != null && term != null) content(term, language, session.card!!.schedule.state) else null,
+                    card = if (session.card != null && term != null) content(term, language, wordRange, session.card!!.schedule.state) else null,
                     revealed = false,
                     counts = session.counts,
                     nextLearningAt = session.nextLearningAt,
@@ -135,14 +136,14 @@ class FlashcardsViewModel(
         }
     }
 
-    private fun content(term: Term, language: Language?, state: CardState): CardContent {
+    private fun content(term: Term, language: Language?, wordRange: IntRange?, state: CardState): CardContent {
         val word = term.displayText
         val sentence = term.sentence?.trim()?.takeIf { it.isNotEmpty() }
         return CardContent(
             termId = term.id,
             word = word,
             sentence = sentence,
-            wordRange = sentence?.let { com.tayra.languages.core.domain.flashcards.Cloze.range(it, word) },
+            wordRange = wordRange,
             translation = term.translation.orEmpty().trim(),
             romanization = term.romanization.orEmpty().trim(),
             languageCode = language?.let { LanguageCodes.codeFor(it.name) },

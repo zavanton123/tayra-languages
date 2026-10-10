@@ -78,7 +78,7 @@ class AnkiExportService(
             "[sound:$name]"
         }.orEmpty()
         val fields = listOf(
-            sentence?.let { cloze(it, word) } ?: "{{c1::$word}}",
+            sentence?.let { cloze(it, Cloze.familyRange(it, term, terms), word) } ?: "{{c1::$word}}",
             "WORD|$lemma|$code",
             sentence ?: word,
             translation,
@@ -117,9 +117,9 @@ class AnkiExportService(
         return dictionary.lookup(pack, word)
     }
 
-    /** The sentence with its first whole occurrence of [word] blanked out; the word alone when it does not occur. */
-    internal fun cloze(sentence: String, word: String): String {
-        val found = Cloze.range(sentence, word) ?: return "{{c1::$word}}<br>$sentence"
+    /** The sentence with [found] (the word, or the form of its family read there) blanked out; [word] before the sentence when nothing was found. */
+    internal fun cloze(sentence: String, found: IntRange?, word: String): String {
+        if (found == null) return "{{c1::$word}}<br>$sentence"
         return sentence.substring(0, found.first) + "{{c1::" + sentence.substring(found) + "}}" + sentence.substring(found.last + 1)
     }
 

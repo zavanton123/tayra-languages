@@ -82,6 +82,24 @@ class FlashcardServiceTest {
         assertEquals(learning, service.next(id).card?.termId)
     }
 
+    /** A card blanks out the form the sentence holds: the term's own, or a parent's or sibling's when the sentence came through the family. */
+    @Test
+    fun theCardBlanksOutTheFormOfTheFamilyReadInTheSentence() = runTest {
+        val id = language()
+        val lemma = term(id, "destruir")
+        val past = term(id, "destruíram")
+        val future = term(id, "destruirão")
+        terms.setParents(past, listOf(lemma))
+        terms.setParents(future, listOf(lemma))
+        terms.updateSentence(past, "Eu vou destruir esta parede.")
+        terms.updateSentence(future, "Eles destruíram a casa.")
+        terms.updateSentence(lemma, "Nada aqui.")
+
+        assertEquals(7 until 15, service.clozeRange(terms.getById(past)!!), "the parent's form")
+        assertEquals(5 until 15, service.clozeRange(terms.getById(future)!!), "a sibling's form")
+        assertNull(service.clozeRange(terms.getById(lemma)!!), "no form of the family in the sentence")
+    }
+
     @Test
     fun cardsBelongToTheirLanguage() = runTest {
         val portuguese = language()
