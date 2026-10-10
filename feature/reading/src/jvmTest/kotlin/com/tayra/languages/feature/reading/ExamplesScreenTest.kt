@@ -217,6 +217,31 @@ class ExamplesScreenTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isEmpty() }
     }
 
+    /** The example being played is kept in the middle of the list, as the reader keeps the sentence being read. */
+    @Test
+    fun thePlayingExampleIsCentred() {
+        val sentences = (1..30).map { "Frase número $it sobre o tempo." }
+        show(sentences.map { ExampleSentence(text = it, translation = null) }, speechDelayMs = 0)
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText(sentences[0])).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(10_000) { rule.onAllNodesWithContentDescription("Preparing speech").fetchSemanticsNodes().isEmpty() }
+        fun press(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
+
+        // Walk to the twentieth example and play it.
+        repeat(20) { press(Key.D) }
+        rule.waitUntil(5_000) { rule.onAllNodes(androidx.compose.ui.test.isSelected() and androidx.compose.ui.test.hasAnyDescendant(hasText(sentences[19]))).fetchSemanticsNodes().isNotEmpty() }
+        press(Key.W)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitForIdle()
+        Thread.sleep(800)
+        rule.waitForIdle()
+
+        // The results' scrolling list; the pane beside it scrolls too, but holds no results.
+        val list = rule.onAllNodes(androidx.compose.ui.test.SemanticsMatcher.keyIsDefined(androidx.compose.ui.semantics.SemanticsProperties.VerticalScrollAxisRange)).fetchSemanticsNodes()
+            .map { it.boundsInRoot }.maxBy { it.width }
+        val playing = rule.onNode(androidx.compose.ui.test.isSelected() and androidx.compose.ui.test.hasAnyDescendant(hasText(sentences[19]))).fetchSemanticsNode().boundsInRoot
+        assertTrue(kotlin.math.abs(playing.center.y - list.center.y) < 40, "the playing example (${playing.center.y}) sits in the middle of the list (${list.center.y})")
+    }
+
     /** A right click on the pane's own term among the results shows in the pane as well. */
     @Test
     fun aRightClickOnThePanesTermShowsInThePane() {

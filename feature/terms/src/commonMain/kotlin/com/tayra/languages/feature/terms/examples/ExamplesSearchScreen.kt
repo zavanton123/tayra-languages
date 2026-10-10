@@ -78,6 +78,10 @@ import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.ui.geometry.Rect
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.ui.unit.IntSize
 import androidx.compose.foundation.relocation.BringIntoViewRequester
 import androidx.compose.foundation.relocation.bringIntoViewRequester
 import androidx.compose.ui.semantics.selected
@@ -243,14 +247,25 @@ fun ExamplesSearchScreen(
             // Asked for here, once the row exists: the scaffold builds its content after the screen's own effects ran.
             LaunchedEffect(state.paneTerm == null) { focusList() }
             // One scrolling list holds the filters and the results so both fit on small screens.
+            var visibleHeight by remember { mutableStateOf(0) }
+            val listState = rememberLazyListState()
+            // A marked result off the screen is not composed, so it cannot ask to be scrolled to: the list goes to it first.
+            LaunchedEffect(activeIndex) {
+                if (activeIndex < 0) return@LaunchedEffect
+                val info = listState.layoutInfo
+                val first = info.totalItemsCount - state.results.size - (if (state.hasMore) 1 else 0)
+                val target = first + activeIndex
+                if (first >= 0 && info.visibleItemsInfo.none { it.index == target }) listState.scrollToItem(target)
+            }
             ScrollList(
-                Modifier.weight(1f).fillMaxHeight()
+                Modifier.weight(1f).fillMaxHeight().onSizeChanged { visibleHeight = it.height }
                     // A press on the results hands them the keyboard; a text field under it takes it right back.
                     .pointerInput(Unit) {
                         awaitPointerEventScope {
                             while (true) if (awaitPointerEvent(PointerEventPass.Initial).type == PointerEventType.Press) focusList()
                         }
                     },
+                state = listState,
                 contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp),
             ) {
                 item { PageHeader(query, compact, onBack, onNavigate) }
@@ -288,6 +303,7 @@ fun ExamplesSearchScreen(
                                 translation = example.translation,
                                 sound = audio.soundOf(example),
                                 active = index == activeIndex,
+                                visibleHeight = visibleHeight,
                                 onPlay = { activeIndex = index; audio.toggle(example, LanguageCodes.codeFor(query.language.name)) },
                                 direction = direction,
                                 fontFamily = ReadingFont.byId(prefs.readingFont).fontFamily(),
@@ -513,6 +529,8 @@ private fun ExampleCard(
     sound: ExampleSound,
     /** The result the keys act on, marked and kept in view. */
     active: Boolean,
+    /** The height of the list's viewport in pixels, so a playing example can be centred in it; 0 when unknown. */
+    visibleHeight: Int,
     onPlay: () -> Unit,
     direction: TextDirection,
     fontFamily: FontFamily,
@@ -525,9 +543,19 @@ private fun ExampleCard(
 ) {
     val colors = MaterialTheme.colorScheme
     val intoView = remember { BringIntoViewRequester() }
-    LaunchedEffect(active) { if (active) intoView.bringIntoView() }
+    var measured by remember { mutableStateOf(IntSize.Zero) }
+    LaunchedEffect(active, sound.playing) {
+        if (!active) return@LaunchedEffect
+        // Playing, the example is kept in the middle of the list, as the reader keeps the sentence being read; marked, it is only kept in view.
+        val margin = if (sound.playing) (visibleHeight - measured.height) / 2f else 0f
+        if (margin > 0 && measured != IntSize.Zero) {
+            intoView.bringIntoView(Rect(0f, -margin, measured.width.toFloat(), measured.height + margin))
+        } else {
+            intoView.bringIntoView()
+        }
+    }
     Row(
-        Modifier.fillMaxWidth().bringIntoViewRequester(intoView).clip(RoundedCornerShape(12.dp))
+        Modifier.fillMaxWidth().onSizeChanged { measured = it }.bringIntoViewRequester(intoView).clip(RoundedCornerShape(12.dp))
             .background(if (sound.playing || active) colors.primary.copy(alpha = 0.06f) else Color.Transparent)
             .border(if (active) 2.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, RoundedCornerShape(12.dp))
             .semantics { selected = active }
