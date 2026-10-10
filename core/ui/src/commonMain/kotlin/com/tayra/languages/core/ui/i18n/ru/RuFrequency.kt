@@ -61,14 +61,10 @@ internal val ruFrequency: Map<String, String> = mapOf(
     "Vocabulary level" to "Словарный запас",
     "There is no word frequency list for this language, so a level cannot be set." to "Для этого языка нет частотного списка, поэтому уровень задать нельзя.",
     "There is no word frequency list for {0}, so a level cannot be set." to "Для {0} языка нет частотного списка, поэтому уровень задать нельзя.",
-    "Click the last row where you know all the words. The most common {1} words and their forms are then saved as known; words you have saved already keep their status." to "Нажмите на последнюю строку, в которой вы знаете все слова. Тогда {1} самое частое слово и его формы будут сохранены со статусом «Знаю»; статус уже сохранённых слов не изменится.|Нажмите на последнюю строку, в которой вы знаете все слова. Тогда {1} самых частых слова и их формы будут сохранены со статусом «Знаю»; статус уже сохранённых слов не изменится.|Нажмите на последнюю строку, в которой вы знаете все слова. Тогда {1} самых частых слов и их формы будут сохранены со статусом «Знаю»; статус уже сохранённых слов не изменится.",
+    "Move the slider to how many words you know. The most common {1} words and their forms are then saved as known; words you have saved already keep their status." to "Передвиньте ползунок к числу слов, которые вы знаете. Тогда {1} самое частое слово и его формы будут сохранены со статусом «Знаю»; статус уже сохранённых слов не изменится.|Передвиньте ползунок к числу слов, которые вы знаете. Тогда {1} самых частых слова и их формы будут сохранены со статусом «Знаю»; статус уже сохранённых слов не изменится.|Передвиньте ползунок к числу слов, которые вы знаете. Тогда {1} самых частых слов и их формы будут сохранены со статусом «Знаю»; статус уже сохранённых слов не изменится.",
     "Set to {0}" to "Задан: {0}",
     "Not set" to "Не задано",
     "Word frequency" to "Частотность слов",
-    "I'm just starting out" to "Я только начинаю",
-    "Example text" to "Пример текста",
-    "Known at this level" to "Известны на этом уровне",
-    "Rarer than the {0} most common" to "Реже {0} самых частых",
 
     // WordFrequencyScreen.kt
     "Learning" to "Изучаю",

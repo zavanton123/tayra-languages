@@ -11,6 +11,7 @@ import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.performSemanticsAction
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollTo
@@ -59,11 +60,15 @@ class VocabularySettingsScreenTest {
         }
         waitUntil(timeoutMillis = 10_000) { viewModel.state.value.list != null }
         onNodeWithText("Not set").assertExists()
-        onNodeWithText("I'm just starting out").assertExists()
+        // The same estimate card as the question asked when a language is chosen: the level's name and the slider's start.
+        assertEquals(2, onAllNodesWithText("Starting out").fetchSemanticsNodes().size)
+        onNodeWithText("Reading preview").assertExists()
         onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()
         assertTrue(viewModel.state.value.example.count { it.isWord } > 50, "the example is a sample story")
 
-        onNodeWithTag("level-500").performClick()
+        // The slider's stops run 0, 100, 200, 300, 400, 500, …: the sixth is 500.
+        onNodeWithTag("level-slider").performSemanticsAction(androidx.compose.ui.semantics.SemanticsActions.SetProgress) { it(5f) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Words around this level").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("set-vocabulary-level").assertIsEnabled()
         waitForIdle()
         System.getenv("VOCABULARY_SETTINGS_SCREENSHOT")?.let { save(it) }

@@ -180,9 +180,9 @@ private fun shortCount(n: Int): String = when {
     else -> "${n / 1000}.${n % 1000 / 100}k"
 }
 
-/** The estimate in words, a slider over the levels, and words at the chosen one to judge it by. */
+/** The estimate in words, a slider over the levels, and words at the chosen one to judge it by; the vocabulary settings show it too. */
 @Composable
-private fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit, modifier: Modifier) {
+internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
     val index = choices.indexOf(level).coerceAtLeast(0)
@@ -297,7 +297,7 @@ private val THUMB = 28.dp
 
 /** The language's sample story coloured by the estimate: the words it knows, the new ones, and the ones outside the list. */
 @Composable
-private fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier: Modifier) {
+internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val outside = colors.onSurfaceVariant.copy(alpha = 0.55f)
     val shape = RoundedCornerShape(16.dp)
