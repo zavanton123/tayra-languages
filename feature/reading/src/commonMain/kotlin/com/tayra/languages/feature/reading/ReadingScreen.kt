@@ -87,6 +87,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.runtime.CompositionLocalProvider
 import com.tayra.languages.feature.terms.form.LocalTypingReporter
 import androidx.compose.ui.input.key.KeyEventType
@@ -276,7 +277,7 @@ fun ReadingScreen(
         drawerContent = {
             ModalDrawerSheet(
                 drawerContainerColor = MaterialTheme.colorScheme.surface,
-                drawerShape = RoundedCornerShape(topEnd = 20.dp, bottomEnd = 20.dp),
+                drawerShape = RectangleShape,
                 windowInsets = WindowInsets.safeDrawing,
                 // Wider than Material's 360dp drawer, so the tabs and tool tiles fit; a phone keeps a strip of the page.
                 modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth(0.9f) else Modifier.width(460.dp),
