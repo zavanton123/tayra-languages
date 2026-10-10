@@ -459,8 +459,10 @@ private fun ReadingBody(
         return
     }
     val speechLanguage = state.language?.name?.let { LanguageCodes.codeFor(it) }
-    val speakSentence: (String) -> Unit = remember(continuous) { { text -> continuous.sentenceClicked(text) } }
+    val speakSentence: (Int) -> Unit = remember(continuous) { { place -> continuous.sentenceClicked(place) } }
     val playingSentence by speaker.playing.collectAsState()
+    // The speaker knows texts only; which of the page's sentences is heard (a text can occur twice) comes from continuous reading.
+    val playingPlace = continuous.currentIndex?.takeIf { playingSentence != null && playingSentence == continuous.current }
     val synthesizing by speaker.working.collectAsState()
     val audioStates by viewModel.sentenceAudioStates.collectAsState()
     // Sentences whose audio is still being made: queued or under way ahead of time, or the one just asked for.
@@ -469,7 +471,7 @@ private fun ReadingBody(
     }
     // The callbacks are built once, so they read the state through this rather than the value of the first frame.
     val current by rememberUpdatedState(state)
-    val pageSentences = remember(state.page) { state.page.paragraphs.flatMap { it.sentences }.map { it.displayText }.filter { it.any(Char::isLetter) } }
+    val pageSentences = remember(state.page) { state.page.spokenSentences() }
     LaunchedEffect(pageSentences, speechLanguage) { continuous.setPage(pageSentences, speechLanguage) }
     LaunchedEffect(continuous) { speaker.playing.collect(continuous::speakerTaken) }
     SideEffect {
@@ -563,10 +565,10 @@ private fun ReadingBody(
                 translations = if (state.settings.showTranslations) state.translations else null,
                 sideBySide = state.settings.sideBySideTranslations,
                 onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,
-                playingSentence = playingSentence,
+                playingSentence = playingPlace,
                 preparingSentences = preparingSentences,
                 // A sentence played on its own is highlighted while heard; continuous reading's place stays marked when paused.
-                readingSentence = if (state.settings.showSentencePlay) playingSentence ?: continuous.current else null,
+                readingSentence = if (state.settings.showSentencePlay) (if (playingSentence != null) playingPlace else continuous.currentIndex) else null,
                 readingHeard = playingSentence != null,
                 followReading = continuous.active,
                 visibleHeight = visibleHeight,

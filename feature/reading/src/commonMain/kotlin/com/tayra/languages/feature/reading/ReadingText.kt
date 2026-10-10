@@ -128,14 +128,18 @@ fun ReadingText(
     translations: Map<String, SentenceTranslation>? = null,
     /** With translations, put each sentence in a left column and its translation in a right one. */
     sideBySide: Boolean = false,
-    /** Reads a sentence aloud; a play button precedes every sentence when set. */
-    onSpeakSentence: ((String) -> Unit)? = null,
-    /** The sentence being read aloud, whose button shows Stop. */
-    playingSentence: String? = null,
+    /**
+     * Reads a sentence aloud, given its place among the page's spoken sentences (see [isSpoken]); a
+     * play button precedes every sentence when set. The same sentence can occur twice on a page,
+     * so a place, not a text, says which one is meant here and in [playingSentence] and [readingSentence].
+     */
+    onSpeakSentence: ((Int) -> Unit)? = null,
+    /** The place of the sentence being read aloud, whose button shows Stop. */
+    playingSentence: Int? = null,
     /** Sentences whose audio is still being made; their buttons show a spinner. */
     preparingSentences: Set<String> = emptySet(),
-    /** The sentence being heard, or the one continuous reading will go on from, shown with a background. */
-    readingSentence: String? = null,
+    /** The place of the sentence being heard, or the one continuous reading will go on from, shown with a background. */
+    readingSentence: Int? = null,
     /** Whether [readingSentence] is being heard right now (a stronger background) or only waits (a faint one). */
     readingHeard: Boolean = false,
     /** Keeps [readingSentence] scrolled into view while reading runs. */
@@ -151,17 +155,21 @@ fun ReadingText(
     val readingTint = theme.readingText.copy(alpha = if (readingHeard) HEARD_TINT_ALPHA else WAITING_TINT_ALPHA)
     // The highlight reaches out into the card's margin, stopping a little short of its border.
     val highlightReach = (edgePadding - HIGHLIGHT_INSET).coerceAtLeast(0.dp)
+    // Counts the spoken sentences across the page, so their places match [RenderedPage.spokenSentences].
+    var spoken = 0
     Column(modifier) {
         page.paragraphs.forEach { paragraph ->
+            val places: List<Int?> = paragraph.sentences.map { if (it.displayText.isSpoken()) spoken++ else null }
             // A run of items that shares one Text: the whole paragraph, or one sentence each.
-            val runs = if (perSentence) paragraph.sentences.map { it.items to it.displayText } else listOf(paragraph.sentences.flatMap { it.items } to "")
+            val runs = if (perSentence) paragraph.sentences.mapIndexed { i, s -> Run(s.items, s.displayText, places[i]) } else listOf(Run(paragraph.sentences.flatMap { it.items }, "", null))
             // In a flowing paragraph the play buttons sit inline, before the first item of each sentence.
-            val inlinePlay: Map<Int, String> = if (perSentence || onSpeakSentence == null) emptyMap() else buildMap {
+            val inlinePlay: Map<Int, SpokenSentence> = if (perSentence || onSpeakSentence == null) emptyMap() else buildMap {
                 var position = 0
-                paragraph.sentences.forEach { sentence ->
-                    if (sentence.displayText.any { it.isLetter() }) {
+                paragraph.sentences.forEachIndexed { i, sentence ->
+                    val place = places[i]
+                    if (place != null) {
                         val lead = sentence.items.indexOfFirst { !it.isParagraphMark && it.renderText.isNotBlank() }
-                        if (lead >= 0) put(position + lead, sentence.displayText)
+                        if (lead >= 0) put(position + lead, SpokenSentence(place, sentence.displayText))
                     }
                     position += sentence.items.size
                 }
@@ -169,17 +177,17 @@ fun ReadingText(
             // In a flowing paragraph the sentence being read is tinted word by word.
             val readingRange: IntRange? = if (perSentence || readingSentence == null) null else {
                 var position = 0
-                paragraph.sentences.firstNotNullOfOrNull { sentence ->
+                paragraph.sentences.withIndex().firstNotNullOfOrNull { (i, sentence) ->
                     val range = position until position + sentence.items.size
                     position += sentence.items.size
-                    range.takeIf { sentence.displayText == readingSentence }
+                    range.takeIf { places[i] == readingSentence }
                 }
             }
-            runs.forEach { (runItems, sentenceText) ->
+            runs.forEach { (runItems, sentenceText, place) ->
                 val first = itemOffset
                 itemOffset += runItems.size
-                val isReading = readingSentence != null && (if (perSentence) sentenceText == readingSentence else readingRange != null)
-                val speakable = perSentence && onSpeakSentence != null && sentenceText.any { it.isLetter() }
+                val isReading = readingSentence != null && (if (perSentence) place == readingSentence else readingRange != null)
+                val speakable = perSentence && onSpeakSentence != null && place != null
                 val sentence: @Composable () -> Unit = {
                     ParagraphText(
                         items = runItems,
@@ -210,7 +218,7 @@ fun ReadingText(
                 // The button is centred on its sentence's text, so a translation under it stays out of the row.
                 val withButton: @Composable (Modifier) -> Unit = { rowModifier ->
                     Row(rowModifier, verticalAlignment = Alignment.CenterVertically) {
-                        PlayButton(sentenceText.takeIf { speakable }, sentenceText == playingSentence, sentenceText in preparingSentences, fontScale, edgePadding, onSpeakSentence!!)
+                        PlayButton(place.takeIf { speakable }, place == playingSentence, sentenceText in preparingSentences, fontScale, edgePadding, onSpeakSentence!!)
                         Box(Modifier.weight(1f)) { sentence() }
                     }
                 }
@@ -241,15 +249,27 @@ fun ReadingText(
     }
 }
 
+/** Whether a sentence is read aloud: the ones without a letter get no button and no turn. */
+internal fun String.isSpoken(): Boolean = any { it.isLetter() }
+
+/** The texts of the page's spoken sentences, in order; a sentence's index here is its place for [ReadingText]. */
+internal fun RenderedPage.spokenSentences(): List<String> = paragraphs.flatMap { it.sentences }.map { it.displayText }.filter { it.isSpoken() }
+
+/** The items that share one Text, with the sentence's text and place when the run is one sentence. */
+private data class Run(val items: List<TextItem>, val text: String, val place: Int?)
+
+/** A sentence with a play button: its place among the page's spoken sentences and its text. */
+private data class SpokenSentence(val place: Int, val text: String)
+
 /**
  * The button before a sentence. It sits at the start of the text area and leaves [gap] before
  * the text, the same as the card's margin before it, so it is centred between edge and text;
  * an empty slot of the same width keeps sentences without words aligned.
  */
 @Composable
-private fun PlayButton(text: String?, playing: Boolean, preparing: Boolean, fontScale: Float, gap: Dp, onSpeak: (String) -> Unit) {
+private fun PlayButton(place: Int?, playing: Boolean, preparing: Boolean, fontScale: Float, gap: Dp, onSpeak: (Int) -> Unit) {
     Box(Modifier.padding(end = gap).size((PLAY_BUTTON_SIZE * fontScale).dp)) {
-        if (text != null) SpeakerCircle(playing, preparing, Modifier.fillMaxSize()) { onSpeak(text) }
+        if (place != null) SpeakerCircle(playing, preparing, Modifier.fillMaxSize()) { onSpeak(place) }
     }
 }
 
@@ -369,9 +389,9 @@ private fun ParagraphText(
     fontFamily: FontFamily = FontFamily.Serif,
     justify: Boolean = false,
     /** Local item positions that start a sentence, with the sentence to read, for inline play buttons. */
-    inlinePlay: Map<Int, String> = emptyMap(),
-    onSpeakSentence: ((String) -> Unit)? = null,
-    playingSentence: String? = null,
+    inlinePlay: Map<Int, SpokenSentence> = emptyMap(),
+    onSpeakSentence: ((Int) -> Unit)? = null,
+    playingSentence: Int? = null,
     preparingSentences: Set<String> = emptySet(),
     trimLeadingSpace: Boolean = false,
     /** Local positions of the items of the sentence being read, tinted where they have no colour of their own. */
@@ -386,11 +406,11 @@ private fun ParagraphText(
     val primary = MaterialTheme.colorScheme.primary
     val inlineContent = remember(inlinePlay, onSpeakSentence, primary, playingSentence, preparingSentences) {
         if (onSpeakSentence == null) emptyMap() else inlinePlay.entries.associate { (position, sentence) ->
-            val playing = sentence == playingSentence
+            val playing = sentence.place == playingSentence
             // The circle fills the placeholder's height; the extra width is the gap before the sentence.
             "play-$position" to InlineTextContent(Placeholder(1.85.em, 1.35.em, PlaceholderVerticalAlign.TextCenter)) {
                 Box(Modifier.fillMaxSize()) {
-                    SpeakerCircle(playing, sentence in preparingSentences, Modifier.fillMaxHeight().aspectRatio(1f).align(Alignment.CenterStart)) { onSpeakSentence(sentence) }
+                    SpeakerCircle(playing, sentence.text in preparingSentences, Modifier.fillMaxHeight().aspectRatio(1f).align(Alignment.CenterStart)) { onSpeakSentence(sentence.place) }
                 }
             }
         }

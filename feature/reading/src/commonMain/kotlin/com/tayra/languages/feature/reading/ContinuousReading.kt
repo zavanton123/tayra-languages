@@ -9,15 +9,21 @@ import com.tayra.languages.core.ui.audio.Speaker
 /**
  * Reads the page aloud sentence after sentence, turning to the next page at the end of one.
  * With [autoPause] it stops after each sentence and stays on it; the next [play] moves on to the
- * following one. [current] is the sentence being read, or the one it stopped on.
+ * following one. [currentIndex] is the sentence being read, or the one it stopped on. Sentences
+ * are known by their place on the page, since the same text can occur twice; the speaker, which
+ * knows texts only, is given [current].
  */
 @Stable
 class ContinuousReading(private val speaker: Speaker) {
     var active: Boolean by mutableStateOf(false)
         private set
 
-    var current: String? by mutableStateOf(null)
+    /** The place of the current sentence among the page's spoken sentences, or null before reading starts. */
+    var currentIndex: Int? by mutableStateOf(null)
         private set
+
+    /** The text of the current sentence. */
+    val current: String? get() = currentIndex?.let { sentences.getOrNull(it) }
 
     var autoPause: Boolean = false
 
@@ -33,7 +39,7 @@ class ContinuousReading(private val speaker: Speaker) {
     /** Set when an auto-pause fell at the end of a page, so the next play turns the page. */
     private var pageEnded = false
 
-    /** Set when an auto-pause stopped after [current] was read, so the next play reads the one after it. */
+    /** Set when an auto-pause stopped after the current sentence was read, so the next play reads the one after it. */
     private var moveOnPlay = false
 
     fun setPage(sentences: List<String>, languageCode: String?) {
@@ -46,13 +52,13 @@ class ContinuousReading(private val speaker: Speaker) {
         if (readNewPage) {
             readNewPage = false
             if (sentences.isNotEmpty()) read(0) else stopReading()
-        } else if (current !in sentences) {
+        } else if (currentIndex != null) {
             // Another page was opened by hand while reading (or paused): the old page's sentence stops too.
             if (active || speaker.paused.value != null) {
                 speaker.stop()
                 stopReading()
             }
-            current = null
+            currentIndex = null
         }
     }
 
@@ -60,7 +66,8 @@ class ContinuousReading(private val speaker: Speaker) {
 
     fun play() {
         // A sentence paused part-way goes on from where it was held.
-        if (current != null && speaker.paused.value == current && speaker.resume()) {
+        val held = current
+        if (held != null && speaker.paused.value == held && speaker.resume()) {
             active = true
             return
         }
@@ -70,7 +77,7 @@ class ContinuousReading(private val speaker: Speaker) {
             return
         }
         if (sentences.isEmpty()) return
-        val index = sentences.indexOf(current).coerceAtLeast(0)
+        val index = currentIndex?.takeIf { it in sentences.indices } ?: 0
         if (moveOnPlay) {
             moveOnPlay = false
             if (index + 1 < sentences.size) read(index + 1) else nextPage()
@@ -81,7 +88,7 @@ class ContinuousReading(private val speaker: Speaker) {
 
     /** Reads the sentence after the current one; on the page's last sentence it stays where it is. */
     fun next() {
-        val index = sentences.indexOf(current) + 1
+        val index = (currentIndex ?: -1) + 1
         if (index !in sentences.indices) return
         pageEnded = false
         read(index)
@@ -91,14 +98,14 @@ class ContinuousReading(private val speaker: Speaker) {
     fun previous() {
         if (sentences.isEmpty()) return
         pageEnded = false
-        read((sentences.indexOf(current) - 1).coerceAtLeast(0))
+        read(((currentIndex ?: 0) - 1).coerceAtLeast(0))
     }
 
     /** Reads the current sentence again from its start. */
     fun repeat() {
         if (sentences.isEmpty()) return
         pageEnded = false
-        read(sentences.indexOf(current).coerceAtLeast(0))
+        read(currentIndex?.takeIf { it in sentences.indices } ?: 0)
     }
 
     /**
@@ -112,32 +119,30 @@ class ContinuousReading(private val speaker: Speaker) {
     }
 
     /**
-     * A sentence's own button: while reading, reading carries on from it (or pauses on the one
-     * being read); otherwise it is read alone, and the next [play] reads it again if it was
-     * stopped, or the one after it once it was heard to the end.
+     * A sentence's own button, by the sentence's place on the page: while reading, reading carries
+     * on from it (or pauses on the one being read); otherwise it is read alone, and the next [play]
+     * reads it again if it was stopped, or the one after it once it was heard to the end.
      */
-    fun sentenceClicked(sentence: String) {
-        val index = sentences.indexOf(sentence)
-        if (active && index >= 0) {
-            if (sentence == current) pause() else read(index)
+    fun sentenceClicked(index: Int) {
+        if (index !in sentences.indices) return
+        val sentence = sentences[index]
+        if (active) {
+            if (index == currentIndex) pause() else read(index)
             return
         }
         // The sentence reading was paused on: its button goes on with it.
-        if (index >= 0 && sentence == current && speaker.paused.value == sentence) {
+        if (index == currentIndex && speaker.paused.value == sentence) {
             play()
             return
         }
-        if (index < 0) {
-            speaker.toggle(sentence, languageCode)
-            return
-        }
-        current = sentence
+        val same = index == currentIndex
+        currentIndex = index
         pageEnded = false
         moveOnPlay = false
-        when (sentence) {
-            speaker.playing.value -> speaker.stop()
-            speaker.paused.value -> speaker.resume()
-            else -> speaker.speak(sentence, languageCode) { if (!active && current == sentence) moveOnPlay = true }
+        when {
+            same && sentence == speaker.playing.value -> speaker.stop()
+            same && sentence == speaker.paused.value -> speaker.resume()
+            else -> speaker.speak(sentence, languageCode) { if (!active && currentIndex == index) moveOnPlay = true }
         }
     }
 
@@ -154,16 +159,15 @@ class ContinuousReading(private val speaker: Speaker) {
     }
 
     private fun read(index: Int) {
-        val sentence = sentences[index]
         moveOnPlay = false
         active = true
-        current = sentence
-        speaker.speak(sentence, languageCode) { finished(sentence) }
+        currentIndex = index
+        speaker.speak(sentences[index], languageCode) { finished(index) }
     }
 
-    private fun finished(sentence: String) {
-        if (!active || current != sentence) return
-        val next = sentences.indexOf(sentence) + 1
+    private fun finished(index: Int) {
+        if (!active || currentIndex != index) return
+        val next = index + 1
         when {
             // The highlight stays on the sentence just read until play is pressed again.
             next in sentences.indices && autoPause -> {
@@ -185,7 +189,7 @@ class ContinuousReading(private val speaker: Speaker) {
             readNewPage = true
         } else {
             stopReading()
-            current = null
+            currentIndex = null
         }
     }
 

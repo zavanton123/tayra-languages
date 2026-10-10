@@ -79,6 +79,19 @@ class ContinuousReadingTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isNotEmpty() }
     }
 
+    /** A sentence that occurs twice on the page is read in each place in turn, with one highlight at a time. */
+    @Test
+    fun aRepeatedSentenceIsReadInEachPlace() {
+        show(autoPause = false, text = "O lobo dorme. A noite é fria. O lobo dorme.\n---\nO dia chega.")
+        rule.onNodeWithContentDescription("Read the page").performClick()
+
+        val current = SemanticsMatcher.expectValue(SemanticsProperties.StateDescription, CURRENT_SENTENCE)
+        var mostHighlighted = 0
+        val heard = readUntilSilent { mostHighlighted = maxOf(mostHighlighted, rule.onAllNodes(current).fetchSemanticsNodes().size) }
+        assertEquals(listOf("O lobo dorme.", "A noite é fria.", "O lobo dorme.", "O dia chega."), heard)
+        assertEquals(1, mostHighlighted, "only the sentence being read is highlighted, never its twin too")
+    }
+
     @Test
     fun autoPauseStopsAfterEachSentence() {
         show(autoPause = true)
@@ -262,13 +275,14 @@ class ContinuousReadingTest {
         assertTrue(abs(reading.center.y - area.center.y) < 30, "the row being read (${reading.center.y}) should sit at the middle (${area.center.y})")
     }
 
-    /** The sentences read aloud, in order, until reading stops for a moment. */
-    private fun readUntilSilent(): List<String> {
+    /** The sentences read aloud, in order, until reading stops for a moment; [onPoll] looks at the screen each time. */
+    private fun readUntilSilent(onPoll: () -> Unit = {}): List<String> {
         val heard = mutableListOf<String>()
         var quiet = 0
         val deadline = System.currentTimeMillis() + 15_000
         while (System.currentTimeMillis() < deadline) {
             rule.waitForIdle()
+            onPoll()
             val now = sentenceBeingRead()
             if (now != null && heard.lastOrNull() != now) heard += now
             quiet = if (now == null && heard.isNotEmpty()) quiet + 1 else 0
