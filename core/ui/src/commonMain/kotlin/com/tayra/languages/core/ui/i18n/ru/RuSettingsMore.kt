@@ -65,6 +65,8 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Import a backup" to "Импортировать резервную копию",
     "Restore Tayra data from a previously exported backup file." to "Восстановите данные Tayra из ранее экспортированного файла резервной копии.",
     "It joins the history below, and you are asked whether to restore it right away." to "Копия появится в истории ниже, и вам сразу предложат её восстановить.",
+    "Or drop a backup file anywhere on this screen. It joins the history below, and you are asked whether to restore it right away." to "Или перетащите файл резервной копии в любое место этого экрана. Копия появится в истории ниже, и вам сразу предложат её восстановить.",
+    "Drop the file to import it." to "Отпустите файл, чтобы импортировать его.",
     "Restore the imported backup?" to "Восстановить импортированную резервную копию?",
     "The backup of {0} is in the list now. Restoring it replaces all languages, books, vocabulary, reading history and settings; your current data is backed up first, so you can go back to it." to "Резервная копия от {0} теперь в списке. Её восстановление заменит все языки, книги, слова, историю чтения и настройки; перед этим текущие данные сохранятся в резервную копию, так что к ним можно будет вернуться.",
     "Choose file" to "Выбрать файл",

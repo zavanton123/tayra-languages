@@ -4,6 +4,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.files.acceptsDroppedFiles
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.PageColumn
@@ -184,6 +185,11 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
         if (file != null) scope.launch { viewModel.import(file.readBytes()) }
     }
     val idle = state.working == null
+    // A file dragged in from the desktop lands anywhere on the screen; the import card lights up meanwhile.
+    var dropping by remember { mutableStateOf(false) }
+    val dropTarget = Modifier.acceptsDroppedFiles(enabled = idle, onHover = { dropping = it }) { files ->
+        scope.launch { viewModel.import(files.first().readBytes()) }
+    }
     val wide = LocalWindowWidth.current.isExpanded
     val compact = LocalWindowWidth.current.isCompact
     val count = state.backups.size
@@ -195,7 +201,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        PageColumn(padding) {
+        PageColumn(padding, modifier = dropTarget) {
             ScreenHeader(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), onBackToSettings = onBack) { if (!compact) pill() }
             if (compact) pill()
             val create: @Composable (Modifier) -> Unit = { m ->
@@ -212,8 +218,13 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                     tr("Import a backup"),
                     tr("Restore Tayra data from a previously exported backup file."),
                     AppIcons.UploadFile,
-                    note = tr("It joins the history below, and you are asked whether to restore it right away."),
+                    note = when {
+                        dropping -> tr("Drop the file to import it.")
+                        acceptsDroppedFiles -> tr("Or drop a backup file anywhere on this screen. It joins the history below, and you are asked whether to restore it right away.")
+                        else -> tr("It joins the history below, and you are asked whether to restore it right away.")
+                    },
                     modifier = m,
+                    highlighted = dropping,
                 ) { OutlinedButton(onClick = { picker.launch() }, enabled = idle, shape = RoundedCornerShape(50)) { Text(tr("Choose file"), Modifier.padding(horizontal = 24.dp)) } }
             }
             if (compact) {
@@ -298,12 +309,13 @@ private fun Progress(state: BackupState) {
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
 }
 
-/** A card with one action: its icon, what it does, the button, and a note under it. */
+/** A card with one action: its icon, what it does, the button, and a note under it; [highlighted] while a drop would land in it. */
 @Composable
-private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note: String, modifier: Modifier = Modifier, button: @Composable () -> Unit) {
+private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note: String, modifier: Modifier = Modifier, highlighted: Boolean = false, button: @Composable () -> Unit) {
+    val colors = MaterialTheme.colorScheme
     Row(
-        modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(24.dp),
+        modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(if (highlighted) colors.primaryContainer else colors.surface)
+            .border(1.dp, if (highlighted) colors.primary else colors.outlineVariant, RoundedCornerShape(14.dp)).padding(24.dp),
     ) {
         IconTile(icon, size = 64)
         Spacer(Modifier.width(20.dp))

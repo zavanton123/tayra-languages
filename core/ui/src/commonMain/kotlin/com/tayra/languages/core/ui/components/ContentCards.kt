@@ -339,10 +339,10 @@ fun formatSize(bytes: Long): String = when {
 
 /** The scrolling page body, centred and kept to a readable width on large windows. */
 @Composable
-fun PageColumn(padding: PaddingValues, content: @Composable ColumnScope.() -> Unit) {
+fun PageColumn(padding: PaddingValues, modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
     val scroll = rememberScrollState()
-    Box(Modifier.padding(padding).fillMaxSize()) {
+    Box(modifier.padding(padding).fillMaxSize()) {
         Box(Modifier.fillMaxSize().verticalScroll(scroll), contentAlignment = Alignment.TopCenter) {
             Column(
                 Modifier.widthIn(max = 1480.dp).fillMaxWidth()
