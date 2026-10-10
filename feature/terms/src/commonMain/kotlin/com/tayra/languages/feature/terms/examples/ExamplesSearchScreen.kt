@@ -179,6 +179,8 @@ fun ExamplesSearchScreen(
     LaunchedEffect(state.termsChanged) { if (state.termsChanged > 0) paneForm?.refresh() }
     // The result the keys act on, marked on screen; none until a key picks one, and a new search starts over.
     var activeIndex by rememberSaveable { mutableStateOf(-1) }
+    // Counts the plays of the marked result, which bring it back on screen after the list was scrolled away from it.
+    var reveals by remember { mutableStateOf(0) }
     LaunchedEffect(state.results) { if (activeIndex >= state.results.size) activeIndex = -1 }
     fun moveActive(delta: Int) {
         if (state.results.isEmpty()) return
@@ -187,6 +189,7 @@ fun ExamplesSearchScreen(
     fun playActive() {
         if (state.results.isEmpty() || query == null) return
         if (activeIndex < 0) activeIndex = 0
+        reveals++
         audio.toggle(state.results[activeIndex], LanguageCodes.codeFor(query.language.name))
     }
 
@@ -250,7 +253,7 @@ fun ExamplesSearchScreen(
             var visibleHeight by remember { mutableStateOf(0) }
             val listState = rememberLazyListState()
             // A marked result off the screen is not composed, so it cannot ask to be scrolled to: the list goes to it first.
-            LaunchedEffect(activeIndex) {
+            LaunchedEffect(activeIndex, reveals) {
                 if (activeIndex < 0) return@LaunchedEffect
                 val info = listState.layoutInfo
                 val first = info.totalItemsCount - state.results.size - (if (state.hasMore) 1 else 0)
@@ -544,7 +547,8 @@ private fun ExampleCard(
     val colors = MaterialTheme.colorScheme
     val intoView = remember { BringIntoViewRequester() }
     var measured by remember { mutableStateOf(IntSize.Zero) }
-    LaunchedEffect(active, sound.playing) {
+    // Also once the size is known: a row the list has just scrolled to is measured after its first composition.
+    LaunchedEffect(active, sound.playing, measured) {
         if (!active) return@LaunchedEffect
         // Playing, the example is kept in the middle of the list, as the reader keeps the sentence being read; marked, it is only kept in view.
         val margin = if (sound.playing) (visibleHeight - measured.height) / 2f else 0f

@@ -16,6 +16,7 @@ import androidx.compose.ui.test.performSemanticsAction
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.performScrollTo
+import androidx.compose.ui.test.performScrollToIndex
 import androidx.compose.ui.text.TextLayoutResult
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
@@ -240,6 +241,34 @@ class ExamplesScreenTest {
             .map { it.boundsInRoot }.maxBy { it.width }
         val playing = rule.onNode(androidx.compose.ui.test.isSelected() and androidx.compose.ui.test.hasAnyDescendant(hasText(sentences[19]))).fetchSemanticsNode().boundsInRoot
         assertTrue(kotlin.math.abs(playing.center.y - list.center.y) < 40, "the playing example (${playing.center.y}) sits in the middle of the list (${list.center.y})")
+    }
+
+    /** Playing the marked example after the list was scrolled away from it brings it back, centred. */
+    @Test
+    fun playingTheMarkedExampleScrollsBackToIt() {
+        val sentences = (1..30).map { "Frase número $it sobre o tempo." }
+        show(sentences.map { ExampleSentence(text = it, translation = null) }, speechDelayMs = 0)
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText(sentences[0])).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(10_000) { rule.onAllNodesWithContentDescription("Preparing speech").fetchSemanticsNodes().isEmpty() }
+        fun press(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
+        fun shown(sentence: String) = rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().isNotEmpty()
+
+        repeat(20) { press(Key.D) }
+        rule.waitUntil(5_000) { shown(sentences[19]) }
+        // Back to the top by hand: the marked example leaves the screen (and the composition).
+        rule.onNode(androidx.compose.ui.test.hasScrollToIndexAction()).performScrollToIndex(0)
+        rule.waitUntil(5_000) { shown(sentences[0]) && !shown(sentences[19]) }
+
+        press(Key.Spacebar)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { shown(sentences[19]) }
+        rule.waitForIdle()
+        Thread.sleep(800)
+        rule.waitForIdle()
+        val list = rule.onAllNodes(androidx.compose.ui.test.SemanticsMatcher.keyIsDefined(androidx.compose.ui.semantics.SemanticsProperties.VerticalScrollAxisRange)).fetchSemanticsNodes()
+            .map { it.boundsInRoot }.maxBy { it.width }
+        val playing = rule.onNode(androidx.compose.ui.test.isSelected() and androidx.compose.ui.test.hasAnyDescendant(hasText(sentences[19]))).fetchSemanticsNode().boundsInRoot
+        assertTrue(kotlin.math.abs(playing.center.y - list.center.y) < 40, "the playing example (${playing.center.y}) is back in the middle of the list (${list.center.y})")
     }
 
     /** A right click on the pane's own term among the results shows in the pane as well. */
