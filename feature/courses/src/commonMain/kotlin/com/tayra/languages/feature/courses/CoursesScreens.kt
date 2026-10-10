@@ -1014,12 +1014,11 @@ private fun LessonRow(
     val status = progress.status
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
-    val inset = if (compact) 10.dp else 22.dp
+    val inset = if (compact) 18.dp else 30.dp
     val line = colors.outlineVariant
+    // The row's tint runs edge to edge, square, as the card's dividers do.
     Row(
         Modifier.fillMaxWidth()
-            .padding(horizontal = 8.dp, vertical = if (hint != null) 4.dp else 0.dp)
-            .clip(RoundedCornerShape(12.dp))
             .background(
                 when {
                     hint != null -> colors.primary.copy(alpha = 0.07f)
