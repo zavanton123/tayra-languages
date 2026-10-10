@@ -343,7 +343,8 @@ fun ReadingScreen(
 
     if (!wide && state.panel != ReadingPanel.None) {
         val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = false)
-        ModalBottomSheet(onDismissRequest = viewModel::closePanel, sheetState = sheetState) {
+        // The default sheet width (640dp) leaves a tablet's sheet narrower than its page.
+        ModalBottomSheet(onDismissRequest = viewModel::closePanel, sheetState = sheetState, sheetMaxWidth = Dp.Unspecified) {
             Box(Modifier.fillMaxWidth()) { CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) } }
         }
     }

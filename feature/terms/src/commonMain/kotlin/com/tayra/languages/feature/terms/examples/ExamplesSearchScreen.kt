@@ -99,6 +99,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
@@ -352,7 +353,7 @@ fun ExamplesSearchScreen(
     val sheetLanguage = state.language
     if (!wide && sheetOpen && sheetTerm != null && sheetLanguage != null) {
         val close = { sheetOpen = false }
-        ModalBottomSheet(onDismissRequest = close, sheetState = rememberModalBottomSheetState()) {
+        ModalBottomSheet(onDismissRequest = close, sheetState = rememberModalBottomSheetState(), sheetMaxWidth = Dp.Unspecified) {
             TermPane(sheetLanguage.id, sheetTerm, state.paneSentence, onClose = close, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onNavigate = onNavigate)
         }
     }
