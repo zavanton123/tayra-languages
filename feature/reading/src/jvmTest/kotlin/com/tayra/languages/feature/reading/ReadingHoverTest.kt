@@ -128,6 +128,8 @@ class ReadingHoverTest {
         examples: ExampleSentencesProvider? = null,
         /** The term pane's online translation suggestion for a word. */
         suggest: suspend (String) -> String? = { "<$it>" },
+        /** How the book's paragraphs (one per [pages]) are cut into pages: one each by default. */
+        wordsPerPage: Int = 5,
     ): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() }))
@@ -140,7 +142,7 @@ class ReadingHoverTest {
         val readingService = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), termService)
         val bookService = BookService(books, languages)
         languageId = languages.save(Language(name = "Portuguese"))
-        val bookId = bookService.create(BookDraft(languageId = languageId, title = "T", text = List(pages) { "O lobo dorme na floresta." }.joinToString("\n\n"), wordsPerPage = 5))
+        val bookId = bookService.create(BookDraft(languageId = languageId, title = "T", text = List(pages) { "O lobo dorme na floresta." }.joinToString("\n\n"), wordsPerPage = wordsPerPage))
         val engine = object : TermTranslationProvider {
             override val name = "Fake"
             override suspend fun suggestTranslation(text: String, language: Language): String? = suggest(text)
@@ -589,6 +591,32 @@ class ReadingHoverTest {
         }
         rule.waitUntil(5_000) { visited.isNotEmpty() }
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Examples(languageId, "lobo")), visited)
+    }
+
+    /** Coming back to the reader (from the examples, say) finds the page scrolled where it was left; a new page starts at its top. */
+    @Test
+    fun comingBackToTheReaderKeepsThePlaceOnThePage() {
+        val vm = runBlocking { reader(mainIsDefault = false, pages = 80, wordsPerPage = 1_000) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        // Shown and hidden through a saveable state holder, as the navigation keeps a back-stack entry's state.
+        val shown = androidx.compose.runtime.mutableStateOf(true)
+        rule.setContent {
+            val holder = androidx.compose.runtime.saveable.rememberSaveableStateHolder()
+            if (shown.value) holder.SaveableStateProvider("reader") { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().size > 10 }
+        rule.onAllNodesWithText("lobo dorme", substring = true)[60].performScrollTo()
+        rule.waitForIdle()
+        // Positions are unclipped, so a paragraph scrolled off the top sits above the root.
+        val before = rule.onAllNodesWithText("lobo dorme", substring = true)[60].fetchSemanticsNode().positionInRoot
+        assertTrue(rule.onAllNodesWithText("lobo dorme", substring = true)[0].fetchSemanticsNode().positionInRoot.y < 0, "the page is scrolled down")
+
+        shown.value = false
+        rule.waitForIdle()
+        shown.value = true
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().size > 10 }
+        val after = rule.onAllNodesWithText("lobo dorme", substring = true)[60].fetchSemanticsNode().positionInRoot
+        assertEquals(before.y, after.y, "the paragraph is where it was")
     }
 
     /** The pane's buttons stay put while the translation is looked up online: a reply arriving as the user clicks must not move them. */

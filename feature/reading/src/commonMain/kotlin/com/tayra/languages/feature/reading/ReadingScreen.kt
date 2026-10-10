@@ -58,6 +58,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -516,7 +517,14 @@ private fun ReadingBody(
         )
     }
     val scrollState = rememberScrollState()
-    LaunchedEffect(state.pageNumber) { scrollState.scrollTo(0) }
+    // A new page starts at its top; coming back to the screen (from the examples, say) keeps the place it was scrolled to.
+    var scrolledPage by rememberSaveable { mutableStateOf(state.pageNumber) }
+    LaunchedEffect(state.pageNumber) {
+        if (scrolledPage != state.pageNumber) {
+            scrolledPage = state.pageNumber
+            scrollState.scrollTo(0)
+        }
+    }
     val compact = LocalWindowWidth.current.isCompact
     val focus = state.settings.focusMode
     val edgePadding = if (focus || compact) 16.dp else 32.dp
