@@ -49,25 +49,31 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
     val settings by viewModel.state.collectAsStateWithLifecycle()
     val wide = LocalWindowWidth.current.isExpanded
     val compact = LocalWindowWidth.current.isCompact
+    val reset = {
+        val defaults = UserSettings()
+        viewModel.update {
+            it.copy(
+                flashcardNewPerDay = defaults.flashcardNewPerDay,
+                flashcardReviewsPerDay = defaults.flashcardReviewsPerDay,
+                flashcardRetention = defaults.flashcardRetention,
+                flashcardLearnSteps = defaults.flashcardLearnSteps,
+                flashcardRelearnSteps = defaults.flashcardRelearnSteps,
+                flashcardAutoplay = defaults.flashcardAutoplay,
+            )
+        }
+        Unit
+    }
+    if (compact) {
+        PhoneFlashcardSettingsScreen(settings, viewModel, onNavigate, onBack, onReset = reset)
+        return
+    }
     Scaffold(
         topBar = { AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
             ScreenHeader(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), onBackToSettings = { onNavigate(Route.Settings) }) {
-                HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = {
-                    val defaults = UserSettings()
-                    viewModel.update {
-                        it.copy(
-                            flashcardNewPerDay = defaults.flashcardNewPerDay,
-                            flashcardReviewsPerDay = defaults.flashcardReviewsPerDay,
-                            flashcardRetention = defaults.flashcardRetention,
-                            flashcardLearnSteps = defaults.flashcardLearnSteps,
-                            flashcardRelearnSteps = defaults.flashcardRelearnSteps,
-                            flashcardAutoplay = defaults.flashcardAutoplay,
-                        )
-                    }
-                })
+                HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = reset)
             }
             if (wide) {
                 Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {

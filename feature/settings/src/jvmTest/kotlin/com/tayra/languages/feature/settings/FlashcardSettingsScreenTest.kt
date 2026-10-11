@@ -6,9 +6,13 @@ import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.isToggleable
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.semantics.SemanticsActions
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
+import androidx.compose.ui.test.performSemanticsAction
 import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
@@ -53,5 +57,32 @@ class FlashcardSettingsScreenTest {
         onNodeWithText("Reset to defaults").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 20 && settings.current.flashcardLearnSteps == "1m 10m" && settings.current.flashcardRelearnSteps == "10m" }
         assertEquals(0, settings.current.flashcardReviewsPerDay)
+    }
+
+    /** A phone gets compact rows, the retention slider under its label, the explanation folded away and Reset at the bottom. */
+    @Test
+    fun aPhoneChangesTheSettingsInCompactRows() = runDesktopComposeUiTest(width = 400, height = 1300) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        setContent { Hosted(settings) { FlashcardSettingsScreen(onNavigate = {}, onBack = {}, viewModel = SettingsViewModel(settings)) } }
+        waitForIdle()
+        onNodeWithText("Daily limits and review scheduling.").assertExists()
+        onNodeWithText("How many cards a day, for each language.").assertDoesNotExist()
+        System.getenv("FLASHCARD_SETTINGS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone.png"))) }
+
+        onNodeWithContentDescription("Increase new cards a day").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 25 }
+        onAllNodes(isToggleable())[0].performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardReviewsPerDay == 200 }
+        onNodeWithTag("phone-retention").performSemanticsAction(SemanticsActions.SetProgress) { it(85f) }
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardRetention == 85 }
+        onNodeWithText("85%").assertExists()
+        onNodeWithContentDescription("Learning steps").performTextClearance()
+        onNodeWithContentDescription("Learning steps").performTextInput("30s 5m")
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardLearnSteps == "30s 5m" }
+
+        onNodeWithTag("phone-how-it-works").performScrollTo().performClick()
+        onNodeWithText("Every word at status 1 to 4 has a card.", substring = true).assertExists()
+        onNodeWithTag("phone-reset-flashcards").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 20 && settings.current.flashcardLearnSteps == "1m 10m" && settings.current.flashcardRetention == 90 }
     }
 }

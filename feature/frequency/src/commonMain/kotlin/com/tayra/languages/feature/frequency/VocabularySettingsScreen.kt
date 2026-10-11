@@ -75,6 +75,10 @@ fun VocabularySettingsScreen(onNavigate: (Route) -> Unit, viewModel: VocabularyS
     val toast = rememberToastState()
     CollectEvents(viewModel.events) { toast.show(it) }
     ToastHost(toast)
+    if (LocalWindowWidth.current.isCompact && !state.loading) {
+        PhoneVocabularySettingsScreen(state, onPick = viewModel::pick, onSave = viewModel::save, onNavigate = onNavigate)
+        return
+    }
     Scaffold(
         topBar = { AppTopBar(title = tr("Vocabulary settings"), onNavigate = onNavigate, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,

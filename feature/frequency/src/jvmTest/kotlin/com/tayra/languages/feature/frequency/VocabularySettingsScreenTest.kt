@@ -83,6 +83,30 @@ class VocabularySettingsScreenTest {
         onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()
     }
 
+    /** A phone shows the estimate, the preview and the way to the word frequency page, with one button to set the level. */
+    @Test
+    fun aPhoneSetsTheLevelFromItsOwnPage() = runDesktopComposeUiTest(width = 400, height = 1400) {
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) { VocabularySettingsScreen(onNavigate = {}, viewModel = viewModel) }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("Explore word frequency").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Not set").assertDoesNotExist()
+        onNodeWithText("Reading preview").assertExists()
+        onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()
+        onNodeWithTag("level-slider").performSemanticsAction(androidx.compose.ui.semantics.SemanticsActions.SetProgress) { it(5f) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Words around this level").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("VOCABULARY_SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+        onNodeWithTag("set-vocabulary-level").performScrollTo().performClick()
+        onNodeWithText("Set your vocabulary level to 500?", substring = true).assertExists()
+        onNodeWithText("Yes").performClick()
+        waitUntil(timeoutMillis = 10_000) { viewModel.state.value.level == 500 && !viewModel.state.value.saving }
+        onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()
+    }
+
     private fun ComposeUiTest.save(path: String) {
         waitForIdle()
         ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path))

@@ -13,6 +13,7 @@ internal val ruFrequency: Map<String, String> = mapOf(
 
     // VocabularyLevelDialogs.kt
     "Set vocabulary level" to "Задать уровень словарного запаса",
+    "Explore word frequency" to "Частотность слов",
     "Set your vocabulary level to {0}?" to "Задать уровень словарного запаса {0}?",
     "Change vocabulary level from {0} to {1}?" to "Изменить уровень словарного запаса с {0} на {1}?",
     "No words are marked as known; you can raise the level whenever you like." to "Ни одно слово не будет отмечено как известное; уровень можно повысить в любой момент.",

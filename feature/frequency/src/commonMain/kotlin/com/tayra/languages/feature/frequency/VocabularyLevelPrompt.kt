@@ -184,7 +184,7 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
 
 /** The sample text with each word in the colour of its standing at [level]: known, new, or outside the list. */
 @Composable
-private fun colouredExample(state: VocabularySettingsUiState, level: Int) = buildAnnotatedString {
+internal fun colouredExample(state: VocabularySettingsUiState, level: Int) = buildAnnotatedString {
     val colors = MaterialTheme.colorScheme
     val outside = colors.onSurfaceVariant.copy(alpha = 0.55f)
     for (token in state.example) {
@@ -264,7 +264,7 @@ private fun PromptButtons(state: VocabularySettingsUiState, level: Int, onSave: 
 }
 
 /** What a level means to a learner, roughly. */
-private fun levelName(level: Int): String = when {
+internal fun levelName(level: Int): String = when {
     level == 0 -> tr("Starting out")
     level <= 300 -> tr("Early beginner")
     level <= 700 -> tr("Beginner")
@@ -342,7 +342,7 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, named: Set<Int> = NAMED_STOPS, sparse: Boolean = false, caption: Boolean = true) {
+internal fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, named: Set<Int> = NAMED_STOPS, sparse: Boolean = false, caption: Boolean = true) {
     val colors = MaterialTheme.colorScheme
     val last = (choices.size - 1).coerceAtLeast(1)
     Column {
