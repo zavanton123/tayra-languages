@@ -96,6 +96,34 @@ class LanguageSetupDialogTest {
     }
 
     @Test
+    fun aPhoneGetsABottomSheetSummingUpTheChoice() = runDesktopComposeUiTest(width = 400, height = 860) {
+        var state by mutableStateOf(LanguageSetupUiState(1, items, items.filter { it.recommended }.map { it.id }.toSet()))
+        var started = 0
+        setContent {
+            Hosted(SettingsRepositoryImpl(MapSettings())) {
+                PhoneSetupSheet(
+                    state, emptyMap(),
+                    onToggle = { id -> state = state.copy(selected = if (id in state.selected) state.selected - id else state.selected + id) },
+                    onStart = { started++; state = state.copy(started = true) },
+                    onRetry = {},
+                    onClosed = {},
+                )
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Get ready to learn Greek").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("3 selected · 270.5 MB").assertExists()
+        onNodeWithText("Greek voice · Piper").assertExists()
+        onNodeWithText("Chreece · low · Greece").assertExists()
+        onNodeWithText("Piper engine · about 86.0 MB").assertDoesNotExist()
+        System.getenv("SETUP_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+        onNodeWithTag("setup-voice:PIPER:el_GR-rapunzelina-medium").performClick()
+        onNodeWithText("4 selected · about 420.0 MB").assertExists()
+        onNodeWithText("Download selected").performClick()
+        assertEquals(1, started)
+        onNodeWithText("Downloads go on in the background if you close this.").assertExists()
+    }
+
+    @Test
     fun kokoroVoicesAreChosenOneByOneAndShareTheirModel() = runDesktopComposeUiTest(width = 760, height = 720) {
         val model = SetupFile(SetupFileKind.VOICE_MODEL, "Kokoro model with 34 voices", 120_500_000)
         val voices = listOf("pf_dora" to "Dora (Brazilian, female)", "pm_alex" to "Alex (Brazilian, male)").map { (id, name) ->

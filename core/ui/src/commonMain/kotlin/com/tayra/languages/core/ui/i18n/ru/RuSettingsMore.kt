@@ -295,6 +295,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "{0} downloads selected" to "Выбрана {0} загрузка|Выбрано {0} загрузки|Выбрано {0} загрузок",
     "Some downloads failed." to "Некоторые загрузки не удались.",
     "Everything is downloaded." to "Всё скачано.",
+    "{0} selected" to "Выбрано: {0}",
     "Set up later" to "Настроить позже",
     "Download selected" to "Скачать выбранное",
     "about {0}" to "около {0}",
