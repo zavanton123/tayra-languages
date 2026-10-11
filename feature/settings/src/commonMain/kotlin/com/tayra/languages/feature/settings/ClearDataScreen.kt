@@ -96,6 +96,10 @@ class ClearDataViewModel(private val service: ClearDataService) : ViewModel() {
 @Composable
 fun ClearDataScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onCleared: () -> Unit, viewModel: ClearDataViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    if (LocalWindowWidth.current.isCompact) {
+        PhoneClearDataScreen(state, onClear = viewModel::clear, onBackups = { onNavigate(Route.Backups) }, onDone = onCleared, onNavigate = onNavigate, onBack = onBack)
+        return
+    }
     Scaffold(
         topBar = { AppTopBar(title = APP_NAME, onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -107,7 +111,7 @@ fun ClearDataScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onCleared: 
 }
 
 /** The three things the page talks about, each standing for the steps behind it. */
-private enum class ClearGroup(val steps: List<ClearStep>) {
+internal enum class ClearGroup(val steps: List<ClearStep>) {
     LEARNING(listOf(ClearStep.LIBRARY)),
     OFFLINE(listOf(ClearStep.COURSE_PACKS, ClearStep.DICTIONARIES, ClearStep.VOICES, ClearStep.TRANSLATION_MODELS)),
     CACHE(listOf(ClearStep.CACHES)),
@@ -136,11 +140,7 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
         }
     }
 
-    // The permanent-action bar: a warning before, what happened after.
-    val tint = when {
-        state.done && state.problems.isEmpty() -> StatusTints.ok
-        else -> colors.error
-    }
+    val tint = clearStatusTint(state)
     Row(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(tint.copy(alpha = 0.07f)).border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(16.dp)).padding(20.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -148,27 +148,8 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
     ) {
         Tile(if (state.done && state.problems.isEmpty()) Icons.Default.CheckCircle else Icons.Default.Warning, tint, size = 48)
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text(
-                when {
-                    state.done && state.problems.isEmpty() -> tr("Everything was cleared")
-                    state.done -> tr("Some things could not be removed")
-                    state.started -> tr("Clearing…")
-                    else -> tr("This action is permanent")
-                },
-                style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.Bold,
-                color = tint,
-            )
-            Text(
-                when {
-                    state.done && state.problems.isEmpty() -> tr("Your library is empty and the downloads are gone. Your preferences stay as they were.")
-                    state.done -> tr("The rest is gone. You can try again later from here or from their Settings pages.")
-                    state.started -> tr("This takes a moment; the items above show how far it is.")
-                    else -> tr("Cleared data cannot be recovered unless you created a backup.")
-                },
-                style = MaterialTheme.typography.bodyMedium,
-                color = colors.onSurfaceVariant,
-            )
+            Text(clearStatusTitle(state), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = tint)
+            Text(clearStatusText(state), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         if (wide) ActionButtons(state, onCancel = onBack, onClear = { confirming = true }, onDone = onDone)
     }
@@ -178,16 +159,40 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
         }
     }
 
-    if (confirming) {
-        ConfirmDialog(
-            title = tr("Clear all data?"),
-            text = tr("This removes your books and texts, your courses and lessons with their progress, your words and flashcards, and the downloaded dictionaries, voices and translation models. Settings and backups stay. This cannot be undone."),
-            confirmLabel = tr("Clear everything"),
-            destructive = true,
-            onConfirm = { confirming = false; onClear() },
-            onDismiss = { confirming = false },
-        )
-    }
+    if (confirming) ClearConfirmDialog(onConfirm = { confirming = false; onClear() }, onDismiss = { confirming = false })
+}
+
+@Composable
+internal fun ClearConfirmDialog(onConfirm: () -> Unit, onDismiss: () -> Unit) {
+    ConfirmDialog(
+        title = tr("Clear all data?"),
+        text = tr("This removes your books and texts, your courses and lessons with their progress, your words and flashcards, and the downloaded dictionaries, voices and translation models. Settings and backups stay. This cannot be undone."),
+        confirmLabel = tr("Clear everything"),
+        destructive = true,
+        onConfirm = onConfirm,
+        onDismiss = onDismiss,
+    )
+}
+
+/** The tint of the permanent-action bar: a warning before, what happened after. */
+@Composable
+internal fun clearStatusTint(state: ClearDataUiState): Color =
+    if (state.done && state.problems.isEmpty()) StatusTints.ok else MaterialTheme.colorScheme.error
+
+@Composable
+internal fun clearStatusTitle(state: ClearDataUiState): String = when {
+    state.done && state.problems.isEmpty() -> tr("Everything was cleared")
+    state.done -> tr("Some things could not be removed")
+    state.started -> tr("Clearing…")
+    else -> tr("This action is permanent")
+}
+
+@Composable
+internal fun clearStatusText(state: ClearDataUiState): String = when {
+    state.done && state.problems.isEmpty() -> tr("Your library is empty and the downloads are gone. Your preferences stay as they were.")
+    state.done -> tr("The rest is gone. You can try again later from here or from their Settings pages.")
+    state.started -> tr("This takes a moment; the items above show how far it is.")
+    else -> tr("Cleared data cannot be recovered unless you created a backup.")
 }
 
 @Composable
@@ -225,7 +230,7 @@ private fun RemovedColumn(state: ClearDataUiState, modifier: Modifier) {
 }
 
 @Composable
-private fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
+internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
     val colors = MaterialTheme.colorScheme
     val problems = group.steps.mapNotNull { state.problems[it] }
     val running = state.running != null && state.running in group.steps
@@ -277,11 +282,7 @@ private fun RemainsColumn(onBackups: () -> Unit, enabled: Boolean, modifier: Mod
     val colors = MaterialTheme.colorScheme
     Column(modifier, verticalArrangement = Arrangement.spacedBy(20.dp)) {
         ColumnHeader(AppIcons.VerifiedUser, colors.primary, tr("Will remain"), tr("Your app setup is not affected."))
-        listOf(
-            Triple(Icons.Default.Settings, tr("Settings"), tr("Themes, fonts, languages and preferences")),
-            Triple(AppIcons.FileOutline, tr("Backup files"), tr("Restore one later to recover your learning data")),
-            Triple(AppIcons.Translate, tr("Installed engines"), tr("Speech and translation engines remain installed")),
-        ).forEach { (icon, title, detail) ->
+        remainingItems().forEach { (icon, title, detail) ->
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
                 Tile(icon, colors.primary)
                 Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -306,6 +307,14 @@ private fun RemainsColumn(onBackups: () -> Unit, enabled: Boolean, modifier: Mod
     }
 }
 
+/** What clearing leaves alone: icon, title, detail. */
+@Composable
+internal fun remainingItems(): List<Triple<ImageVector, String, String>> = listOf(
+    Triple(Icons.Default.Settings, tr("Settings"), tr("Themes, fonts, languages and preferences")),
+    Triple(AppIcons.FileOutline, tr("Backup files"), tr("Restore one later to recover your learning data")),
+    Triple(AppIcons.Translate, tr("Installed engines"), tr("Speech and translation engines remain installed")),
+)
+
 @Composable
 private fun ColumnHeader(icon: ImageVector, tint: Color, title: String, subtitle: String) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
@@ -319,7 +328,7 @@ private fun ColumnHeader(icon: ImageVector, tint: Color, title: String, subtitle
 
 /** A rounded square in a tint, with the icon in it. */
 @Composable
-private fun Tile(icon: ImageVector, tint: Color, size: Int = 48) {
+internal fun Tile(icon: ImageVector, tint: Color, size: Int = 48) {
     Box(
         Modifier.size(size.dp).clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.09f)),
         contentAlignment = Alignment.Center,

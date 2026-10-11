@@ -295,6 +295,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Some things could not be removed" to "Кое-что удалить не удалось",
     "The rest is gone. You can try again later from here or from their Settings pages." to "Остальное удалено. Попробуйте позже здесь или на соответствующих страницах настроек.",
     "Clear all data" to "Удалить все данные",
+    "Continue to clear data" to "Перейти к удалению",
     "Clear all data?" to "Удалить все данные?",
     "This removes your books and texts, your courses and lessons with their progress, your words and flashcards, and the downloaded dictionaries, voices and translation models. Settings and backups stay. This cannot be undone." to "Будут удалены ваши книги и тексты, ваши курсы и уроки вместе с прогрессом, слова и карточки, а также скачанные словари, голоса и модели перевода. Настройки и резервные копии останутся. Это нельзя отменить.",
     "Could not remove: {0}" to "Не удалось удалить: {0}",

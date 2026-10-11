@@ -18,6 +18,7 @@ import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
@@ -67,6 +68,43 @@ class ClearDataScreenTest {
         onNodeWithText("Could not remove: Piper: the folder is in use").assertExists()
         save("CLEAR_SCREENSHOT", "-done")
         onNodeWithTag("clear-done").performClick()
+        assertEquals(1, done)
+    }
+
+    /** A phone stacks the two cards, the backup reminder and the permanent-action box, each with a full-width button. */
+    @Test
+    fun aPhoneConfirmsAndReportsFromItsOwnPage() = runDesktopComposeUiTest(width = 400, height = 1500) {
+        var state by mutableStateOf(ClearDataUiState())
+        var cleared = 0
+        var backups = 0
+        var done = 0
+        setContent {
+            Hosted(SettingsRepositoryImpl(MapSettings())) {
+                PhoneClearDataScreen(state, onClear = { cleared++ }, onBackups = { backups++ }, onDone = { done++ }, onNavigate = {}, onBack = {})
+            }
+        }
+        onNodeWithText("Will be removed").assertExists()
+        onNodeWithText("Will remain").assertExists()
+        onNodeWithText("Continue to clear data").assertExists()
+        save("CLEAR_SCREENSHOT", "-phone")
+
+        onNodeWithTag("clear-backup").performScrollTo().performClick()
+        assertEquals(1, backups)
+        onNodeWithTag("clear-all").performScrollTo().performClick()
+        onNodeWithText("Clear all data?").assertExists()
+        onAllNodesWithText("Cancel").onLast().performClick()
+        assertEquals(0, cleared, "cancelling the dialog removes nothing")
+        onNodeWithTag("clear-all").performClick()
+        onNodeWithText("Clear everything").performClick()
+        assertEquals(1, cleared)
+
+        state = ClearDataUiState(started = true, running = ClearStep.DICTIONARIES)
+        waitForIdle()
+        onNodeWithText("This takes a moment; the items above show how far it is.").assertExists()
+        state = ClearDataUiState(started = true, done = true, problems = mapOf(ClearStep.VOICES to "Piper: the folder is in use"))
+        waitForIdle()
+        onNodeWithText("Could not remove: Piper: the folder is in use").assertExists()
+        onNodeWithTag("clear-done").performScrollTo().performClick()
         assertEquals(1, done)
     }
 
