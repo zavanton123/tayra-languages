@@ -82,4 +82,43 @@ class LanguagesScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.uiLanguage == "ru" }
         assertEquals("ru", settings.current.nativeLanguage)
     }
+
+    /** A phone gets the three choices as cards whose rows open bottom sheets of the languages. */
+    @Test
+    fun aPhonePicksTheLanguagesFromSheets() = runDesktopComposeUiTest(width = 400, height = 1000) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        var learningId = 1L
+        setContent {
+            var current by remember { mutableLongStateOf(1L) }
+            val state = LearningLanguageState(listOf(1L to "Portuguese", 2L to "German", 3L to "English"), current, nativeIds = setOf(3L)) { current = it; learningId = it }
+            TayraTheme(AppThemes.byId(AppThemes.all.first().id)) {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides state) {
+                        LanguagesScreen(onNavigate = {}, onBack = {}, viewModel = LanguagesViewModel(settings))
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Show meanings in")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Language setup").assertDoesNotExist()
+        onNodeWithText("Books, courses, vocabulary and flashcards.").assertExists()
+        System.getenv("LANGUAGES_SCREENSHOT")?.let { path -> waitForIdle(); ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path.replace(".png", "-phone.png"))) }
+
+        onNodeWithTag("learning-language").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your native language").fetchSemanticsNodes().isNotEmpty() }
+        onAllNodesWithText("English").onLast().assertIsNotEnabled()
+        onAllNodesWithText("German").onLast().performClick()
+        waitUntil(timeoutMillis = 5_000) { learningId == 2L }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your native language").fetchSemanticsNodes().isEmpty() }
+
+        onNodeWithTag("native-language").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("You are learning it").fetchSemanticsNodes().isNotEmpty() }
+        onAllNodesWithText("Russian").onLast().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.nativeLanguage == "ru" }
+
+        onNodeWithTag("interface-language").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Русский").fetchSemanticsNodes().isNotEmpty() }
+        onAllNodesWithText("Русский").onLast().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.uiLanguage == "ru" }
+    }
 }

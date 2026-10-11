@@ -77,6 +77,10 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     var changes by remember { mutableIntStateOf(0) }
     val wide = LocalWindowWidth.current.isExpanded
 
+    if (compact) {
+        PhoneLanguagesScreen(settings, learning, viewModel, onNavigate, onBack)
+        return
+    }
     Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
