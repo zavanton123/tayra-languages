@@ -85,6 +85,7 @@ class SettingsRepositoryImpl(
             splitSentences = store.getBoolean(Keys.SPLIT_SENTENCES, defaults.splitSentences),
             showTranslations = store.getBoolean(Keys.SHOW_TRANSLATIONS, defaults.showTranslations),
             sideBySideTranslations = store.getBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, defaults.sideBySideTranslations),
+            practiceTranslation = store.getBoolean(Keys.PRACTICE_TRANSLATION, defaults.practiceTranslation),
             showSentencePlay = store.getBoolean(Keys.SHOW_SENTENCE_PLAY, defaults.showSentencePlay),
             speakWordOnClick = store.getBoolean(Keys.SPEAK_WORD_ON_CLICK, defaults.speakWordOnClick),
             autoPause = store.getBoolean(Keys.AUTO_PAUSE, defaults.autoPause),
@@ -180,6 +181,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.SPLIT_SENTENCES, s.splitSentences)
         store.putBoolean(Keys.SHOW_TRANSLATIONS, s.showTranslations)
         store.putBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, s.sideBySideTranslations)
+        store.putBoolean(Keys.PRACTICE_TRANSLATION, s.practiceTranslation)
         store.putBoolean(Keys.SHOW_SENTENCE_PLAY, s.showSentencePlay)
         store.putBoolean(Keys.SPEAK_WORD_ON_CLICK, s.speakWordOnClick)
         store.putBoolean(Keys.AUTO_PAUSE, s.autoPause)
@@ -241,6 +243,7 @@ class SettingsRepositoryImpl(
         const val SPEECH_VOICES = "speech_voices"
         const val SPEECH_SPEED = "speech_speed"
         const val SHOW_TRANSLATIONS = "reading_show_translations"
+        const val PRACTICE_TRANSLATION = "reading_practice_translation"
         const val TRANSLATION_ENGINE = "translation_engine"
         const val GOOGLE_TRANSLATE_API_KEY = "google_translate_api_key"
         const val ARGOS_PYTHON = "argos_python"

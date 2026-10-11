@@ -721,6 +721,16 @@ class ReadingViewModel(
             if (enabling) translateSentences(enabled = true) else translationJob?.cancel()
         }
     }
+
+    /** Practising needs the translations on screen, so turning it on turns them on too. */
+    fun togglePracticeTranslation() {
+        val enabling = !state.value.settings.practiceTranslation
+        val needsTranslations = enabling && !state.value.settings.showTranslations
+        viewModelScope.launch {
+            settingsRepository.update { it.copy(practiceTranslation = enabling, showTranslations = it.showTranslations || enabling) }
+            if (needsTranslations) translateSentences(enabled = true)
+        }
+    }
     /** Downloads the models the offline translator reported missing, then translates the page. */
     fun installOfflineModels() {
         val problem = state.value.translationError as? LocalTranslationProblem.ModelMissing ?: return
@@ -788,6 +798,7 @@ class ReadingViewModel(
             splitSentences = defaults.splitSentences,
             showTranslations = defaults.showTranslations,
             sideBySideTranslations = defaults.sideBySideTranslations,
+            practiceTranslation = defaults.practiceTranslation,
             showSentencePlay = defaults.showSentencePlay,
             speakWordOnClick = defaults.speakWordOnClick,
             autoPause = defaults.autoPause,

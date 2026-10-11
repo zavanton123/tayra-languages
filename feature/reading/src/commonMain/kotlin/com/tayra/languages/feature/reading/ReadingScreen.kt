@@ -527,6 +527,8 @@ private fun ReadingBody(
             },
         )
     }
+    // The sentences shown while practising translation; a new page hides them all again.
+    var revealed by remember(state.book?.id, state.pageNumber) { mutableStateOf(emptySet<Int>()) }
     val scrollState = rememberScrollState()
     // A new page starts at its top; coming back to the screen (from the examples, say) keeps the place it was scrolled to.
     var scrolledPage by rememberSaveable { mutableStateOf(state.pageNumber) }
@@ -581,6 +583,9 @@ private fun ReadingBody(
                 justify = state.settings.readingJustified,
                 translations = if (state.settings.showTranslations) state.translations else null,
                 sideBySide = state.settings.sideBySideTranslations,
+                practice = state.settings.practiceTranslation,
+                revealed = revealed,
+                onToggleRevealed = { revealed = if (it in revealed) revealed - it else revealed + it },
                 onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,
                 playingSentence = playingPlace,
                 preparingSentences = preparingSentences,

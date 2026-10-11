@@ -26,6 +26,8 @@ data class UserSettings(
     val showTranslations: Boolean = false,
     /** Original sentence on the left, its translation on the right, instead of the translation underneath. */
     val sideBySideTranslations: Boolean = false,
+    /** Hide the original sentences behind their translations, each shown again with a click, to practise translating. */
+    val practiceTranslation: Boolean = false,
     /** A play button before each sentence that reads it aloud. */
     val showSentencePlay: Boolean = true,
     /** Clicking or tapping a word in the reader reads it aloud. */

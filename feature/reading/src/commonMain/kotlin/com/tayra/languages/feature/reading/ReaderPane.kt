@@ -396,6 +396,7 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
     }
     PaneCard(tr("Translations")) {
         SwitchSetting(AppIcons.Translate, tr("Show translations"), null, prefs.showTranslations) { viewModel.toggleShowTranslations() }
+        SwitchSetting(AppIcons.School, tr("Practice translation"), tr("Blur the sentences; click one to show it"), prefs.practiceTranslation) { viewModel.togglePracticeTranslation() }
         SegmentedSetting(AppIcons.ViewColumn, tr("Translation layout"), listOf(true to tr("Side by side"), false to tr("Below")), prefs.sideBySideTranslations, viewModel::setSideBySideTranslations)
         val keyed = prefs.googleTranslateApiKey.isNotBlank()
         fun usable(engine: TranslationEngine) = engine != TranslationEngine.GOOGLE || keyed

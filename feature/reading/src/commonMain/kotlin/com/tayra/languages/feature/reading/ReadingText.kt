@@ -11,6 +11,9 @@ import com.tayra.languages.core.ui.components.AppIcons
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
 import androidx.compose.foundation.clickable
+import androidx.compose.ui.draw.blur
+import androidx.compose.ui.graphics.graphicsLayer
+import com.tayra.languages.core.ui.components.softBlurAvailable
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.draw.drawBehind
@@ -80,7 +83,7 @@ import com.tayra.languages.core.ui.theme.AppTheme
 import com.tayra.languages.core.ui.i18n.tr
 
 /** Callbacks from the text to the screen. Item indexes refer to [RenderedPage.items]. */
-class ReadingTextCallbacks(
+data class ReadingTextCallbacks(
     val onClick: (itemIndex: Int, shift: Boolean) -> Unit,
     /** Right mouse button on a word. */
     val onSecondaryClick: (itemIndex: Int) -> Unit = {},
@@ -92,6 +95,8 @@ class ReadingTextCallbacks(
     val onDragEnd: (itemIndex: Int, shift: Boolean) -> Unit,
     /** Draws the popup for the item; [word] is the item's rectangle in the paragraph's coordinates. */
     val popupContent: @Composable (itemIndex: Int, word: androidx.compose.ui.unit.IntRect) -> Unit,
+    /** A click or tap on the text beside its words. */
+    val onBlankTap: () -> Unit = {},
 )
 
 /** Where each item was placed within a paragraph's annotated string. */
@@ -143,9 +148,18 @@ fun ReadingText(
     followReading: Boolean = false,
     /** The margin between the card's edge and this text; a sentence button leaves the same space before the text. */
     edgePadding: Dp = 16.dp,
+    /**
+     * Practising translation: every sentence is blurred under its translation until it is in
+     * [revealed] (sentences counted through the page); a click on a blurred sentence, or beside the
+     * words of a shown one or on its translation, asks [onToggleRevealed] to switch it.
+     */
+    practice: Boolean = false,
+    revealed: Set<Int> = emptySet(),
+    onToggleRevealed: (Int) -> Unit = {},
 ) {
     var itemOffset = 0
-    val perSentence = splitSentences || translations != null
+    val perSentence = splitSentences || translations != null || practice
+    var sentenceNo = 0
     val twoColumns = translations != null && sideBySide
     val readingTint = theme.readingText.copy(alpha = if (readingHeard) HEARD_TINT_ALPHA else WAITING_TINT_ALPHA)
     // The highlight reaches out into the card's margin, stopping a little short of its border.
@@ -183,8 +197,12 @@ fun ReadingText(
                 itemOffset += runItems.size
                 val isReading = readingSentence != null && (if (perSentence) place == readingSentence else readingRange != null)
                 val speakable = perSentence && onSpeakSentence != null && place != null
+                val no = sentenceNo++
+                val hidden = practice && no !in revealed
+                val shown = practice && !hidden
+                val toggle = { onToggleRevealed(no) }
                 val sentence: @Composable () -> Unit = {
-                    ParagraphText(
+                    Hideable(hidden, theme, onReveal = toggle) { ParagraphText(
                         items = runItems,
                         // A sentence on its own line starts at its first word, not at the space that follows the previous one.
                         trimLeadingSpace = perSentence,
@@ -205,11 +223,13 @@ fun ReadingText(
                         lineHeight = lineHeight,
                         justify = justify,
                         rightToLeft = rightToLeft,
-                        callbacks = callbacks,
+                        callbacks = if (shown) callbacks.copy(onBlankTap = toggle) else callbacks,
                         fontFamily = fontFamily,
-                    )
+                    ) }
                 }
                 val translated = translations != null && sentenceText.any { it.isLetter() }
+                // While practising, the translation hides its sentence again.
+                val hideAgain = if (shown) Modifier.clickable(onClickLabel = tr("Hide the sentence"), onClick = toggle) else Modifier
                 // The button is centred on its sentence's text, so a translation under it stays out of the row.
                 val withButton: @Composable (Modifier) -> Unit = { rowModifier ->
                     Row(rowModifier, verticalAlignment = Alignment.CenterVertically) {
@@ -222,7 +242,7 @@ fun ReadingText(
                     Row(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING), verticalAlignment = Alignment.Top) {
                         if (onSpeakSentence != null) withButton(Modifier.weight(1f)) else Box(Modifier.weight(1f)) { sentence() }
                         Box(Modifier.width(24.dp))
-                        Box(Modifier.weight(1f)) {
+                        Box(Modifier.weight(1f).then(hideAgain)) {
                             if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true)
                         }
                     }
@@ -230,7 +250,7 @@ fun ReadingText(
                     Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING)) {
                         if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else sentence()
                         if (translated) {
-                            Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp)) {
+                            Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp).then(hideAgain)) {
                                 TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
                             }
                         }
@@ -241,6 +261,30 @@ fun ReadingText(
                 }
             }
         }
+    }
+}
+
+/**
+ * A sentence being practised: blurred until shown, with a click on the blur showing it. Where
+ * blurring does not draw, the text is made invisible over a soft bar instead.
+ */
+@Composable
+private fun Hideable(hidden: Boolean, theme: AppTheme, onReveal: () -> Unit, content: @Composable () -> Unit) {
+    if (!hidden) {
+        content()
+        return
+    }
+    val label = tr("Hidden sentence")
+    val show = tr("Show the sentence")
+    val veil = if (softBlurAvailable) {
+        Modifier.blur(9.dp)
+    } else {
+        Modifier.drawBehind { drawRoundRect(theme.readingText.copy(alpha = 0.08f), cornerRadius = CornerRadius(8.dp.toPx())) }.graphicsLayer { alpha = 0f }
+    }
+    Box(Modifier.fillMaxWidth()) {
+        Box(veil) { content() }
+        // On top of the text, so its words take no clicks or hovers until it is shown.
+        Box(Modifier.matchParentSize().clickable(onClickLabel = show, onClick = onReveal).semantics { contentDescription = label })
     }
 }
 
@@ -453,7 +497,13 @@ private fun ParagraphText(
                         if (isMouse) {
                             val shift = press.keyboardModifiers.isShiftPressed
                             val secondary = press.buttons.isSecondaryPressed || !press.buttons.isPrimaryPressed
-                            if (startItem == null) return@awaitEachGesture
+                            if (startItem == null) {
+                                // A click beside the words, once released there.
+                                var release = awaitPointerEvent()
+                                while (release.type != PointerEventType.Release) release = awaitPointerEvent()
+                                if (!secondary && itemAt(release.changes.first().position) == null) callbacks.onBlankTap()
+                                return@awaitEachGesture
+                            }
                             if (secondary) {
                                 var release = awaitPointerEvent()
                                 while (release.type != PointerEventType.Release) release = awaitPointerEvent()
@@ -487,6 +537,7 @@ private fun ParagraphText(
                                 ?: run { timedOut = currentEvent.changes.any { it.pressed }; null }
                             when {
                                 up != null && startItem != null -> callbacks.onTap(startItem)
+                                up != null -> callbacks.onBlankTap()
                                 timedOut && startItem != null -> callbacks.onLongPress(startItem)
                             }
                         }
