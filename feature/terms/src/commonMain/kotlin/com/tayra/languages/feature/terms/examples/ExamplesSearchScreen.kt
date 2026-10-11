@@ -180,9 +180,14 @@ fun ExamplesSearchScreen(
     // Counts the plays of the marked result, which bring it back on screen after the list was scrolled away from it.
     var reveals by remember { mutableStateOf(0) }
     LaunchedEffect(state.results) { if (activeIndex >= state.results.size) activeIndex = -1 }
+    /** Marks the next or previous result and plays it; at either end the mark stays where it is, unplayed. */
     fun moveActive(delta: Int) {
-        if (state.results.isEmpty()) return
-        activeIndex = if (activeIndex < 0) 0 else (activeIndex + delta).coerceIn(0, state.results.lastIndex)
+        if (state.results.isEmpty() || query == null) return
+        val next = if (activeIndex < 0) 0 else (activeIndex + delta).coerceIn(0, state.results.lastIndex)
+        if (next == activeIndex) return
+        activeIndex = next
+        reveals++
+        audio.play(state.results[next], LanguageCodes.codeFor(query.language.name))
     }
     fun playActive() {
         if (state.results.isEmpty() || query == null) return
@@ -222,7 +227,7 @@ fun ExamplesSearchScreen(
                 .focusable()
                 .onPreviewKeyEvent { event ->
                     if (event.type != KeyEventType.KeyDown || !listFocused) return@onPreviewKeyEvent false
-                    // The results are walked and heard as the reader's sentences are: A and D (or ← and →) move, W, S, Space, ↑ and ↓ play.
+                    // The results are walked and heard as the reader's sentences are: A and D (or ← and →) move to the next and play it, W, S, Space, ↑ and ↓ play or stop the marked one.
                     if (!event.isCtrlPressed && !event.isMetaPressed && !event.isAltPressed) {
                         when (event.key) {
                             Key.A, Key.DirectionLeft -> { moveActive(-1); return@onPreviewKeyEvent true }

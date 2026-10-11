@@ -80,9 +80,19 @@ class ExampleAudio internal constructor(
     fun toggle(example: ExampleSentence, languageCode: String?) {
         val url = recordingOf(example)
         val wasPlaying = speaker.playing.value == example.text || (url != null && playback.isPlaying(url))
+        if (wasPlaying) {
+            speaker.stop()
+            playback.stop()
+        } else {
+            play(example, languageCode)
+        }
+    }
+
+    /** Plays the example, in place of whatever was playing. */
+    fun play(example: ExampleSentence, languageCode: String?) {
         speaker.stop()
         playback.stop()
-        if (wasPlaying) return
+        val url = recordingOf(example)
         if (url == null) speaker.speak(example.text, languageCode)
         else playback.play(url, scope, load = { recordings.audioFor(url) }, onFailed = { speaker.speak(example.text, languageCode) })
     }

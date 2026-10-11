@@ -184,36 +184,37 @@ class ExamplesScreenTest {
         rule.waitUntil(5_000) { backgroundOf(sentence, "voa") == null }
     }
 
-    /** The keys walk the results as the reader's sentences: A and D (or the arrows) move the mark, W, S, Space and ↑ ↓ play the marked one. */
+    /** The keys walk the results as the reader's sentences: A and D (or the arrows) move the mark and play the result it lands on; at the ends it stays put. */
     @Test
     fun theKeysWalkAndPlayTheResults() {
         val first = "O tempo voa."
         val second = "Não tenho tempo."
         val third = "Tempo é dinheiro."
-        show(listOf(first, second, third).map { ExampleSentence(text = it, translation = null) })
+        show(listOf(first, second, third).map { ExampleSentence(text = it, translation = null) }, clipMillis = 3_000)
         rule.waitUntil(5_000) { rule.onAllNodes(hasText(third)).fetchSemanticsNodes().isNotEmpty() }
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Preparing speech").fetchSemanticsNodes().isEmpty() }
         fun press(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
         fun marked(sentence: String) = rule.onAllNodes(androidx.compose.ui.test.isSelected() and androidx.compose.ui.test.hasAnyDescendant(hasText(sentence))).fetchSemanticsNodes().isNotEmpty()
 
+        /** The marked card is [sentence] and shows Stop: it is being played. */
+        fun playing(sentence: String) = rule.onAllNodes(
+            androidx.compose.ui.test.isSelected() and androidx.compose.ui.test.hasAnyDescendant(hasText(sentence)) and androidx.compose.ui.test.hasAnyDescendant(androidx.compose.ui.test.hasContentDescription("Stop")),
+        ).fetchSemanticsNodes().isNotEmpty()
         assertEquals(0, rule.onAllNodes(androidx.compose.ui.test.isSelected()).fetchSemanticsNodes().size, "nothing marked at first")
         press(Key.D)
-        rule.waitUntil(2_000) { marked(first) }
+        rule.waitUntil(2_000) { playing(first) }
         press(Key.DirectionRight)
-        rule.waitUntil(2_000) { marked(second) }
+        rule.waitUntil(2_000) { playing(second) }
         press(Key.D)
-        rule.waitUntil(2_000) { marked(third) }
+        rule.waitUntil(2_000) { playing(third) }
         press(Key.D)
         rule.waitForIdle()
         assertTrue(marked(third), "the last result stays marked")
         press(Key.A)
-        rule.waitUntil(2_000) { marked(second) }
+        rule.waitUntil(2_000) { playing(second) }
         press(Key.DirectionLeft)
-        rule.waitUntil(2_000) { marked(first) }
-
-        press(Key.W)
-        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(listOf("pt:$first"), spoken.toList().filter { it.endsWith(first) })
+        rule.waitUntil(2_000) { playing(first) }
+        // Space stops the one playing.
         press(Key.Spacebar)
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isEmpty() }
     }
@@ -222,16 +223,16 @@ class ExamplesScreenTest {
     @Test
     fun thePlayingExampleIsKeptOnScreen() {
         val sentences = (1..30).map { "Frase número $it sobre o tempo." }
-        show(sentences.map { ExampleSentence(text = it, translation = null) }, speechDelayMs = 0)
+        show(sentences.map { ExampleSentence(text = it, translation = null) }, speechDelayMs = 0, clipMillis = 3_000)
         rule.waitUntil(5_000) { rule.onAllNodes(hasText(sentences[0])).fetchSemanticsNodes().isNotEmpty() }
         rule.waitUntil(10_000) { rule.onAllNodesWithContentDescription("Preparing speech").fetchSemanticsNodes().isEmpty() }
         fun press(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
 
-        // Walk to the twentieth example and play it.
+        // Walk to the twentieth example; landing on it plays it.
         repeat(20) { press(Key.D) }
-        rule.waitUntil(5_000) { rule.onAllNodes(androidx.compose.ui.test.isSelected() and androidx.compose.ui.test.hasAnyDescendant(hasText(sentences[19]))).fetchSemanticsNodes().isNotEmpty() }
-        press(Key.W)
-        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) {
+            rule.onAllNodes(androidx.compose.ui.test.isSelected() and androidx.compose.ui.test.hasAnyDescendant(hasText(sentences[19])) and androidx.compose.ui.test.hasAnyDescendant(androidx.compose.ui.test.hasContentDescription("Stop"))).fetchSemanticsNodes().isNotEmpty()
+        }
         rule.waitForIdle()
         Thread.sleep(800)
         rule.waitForIdle()
@@ -255,6 +256,9 @@ class ExamplesScreenTest {
 
         repeat(20) { press(Key.D) }
         rule.waitUntil(5_000) { shown(sentences[19]) }
+        // Landing on it played its short clip; Space below must find it silent again, to play it rather than stop it.
+        Thread.sleep(300)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isEmpty() }
         // Back to the top by hand: the marked example leaves the screen (and the composition).
         rule.onNode(androidx.compose.ui.test.hasScrollToIndexAction()).performScrollToIndex(0)
         rule.waitUntil(5_000) { shown(sentences[0]) && !shown(sentences[19]) }
@@ -454,7 +458,7 @@ class ExamplesScreenTest {
         assertEquals(1, spoken.size, "the prepared audio is played, not made again")
     }
 
-    private fun show(sentences: List<ExampleSentence>, paneSentences: List<ExampleSentence> = emptyList(), speechDelayMs: Long = 0): ExamplesSearchViewModel {
+    private fun show(sentences: List<ExampleSentence>, paneSentences: List<ExampleSentence> = emptyList(), speechDelayMs: Long = 0, clipMillis: Int = 50): ExamplesSearchViewModel {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-examples", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider).also { this.terms = it }
@@ -487,7 +491,7 @@ class ExamplesScreenTest {
         val exampleTerms = ExampleTerms(readingService, termService)
         startKoin {
             modules(module {
-                single { LocalSpeech(listOf(RecordingSpeech(spoken, speechDelayMs))) }
+                single { LocalSpeech(listOf(RecordingSpeech(spoken, speechDelayMs, clipMillis))) }
                 val cache = MemorySpeechAudioCache()
                 single { ExampleRecordings(KtorRecordingFetcher(createHttpClient()), cache) }
                 single { SentenceAudio(get(), settings, cache, get()) }
@@ -527,7 +531,7 @@ class ExamplesScreenTest {
     private fun termField(text: String) = rule.onAllNodes(hasSetTextAction() and hasText(text)).fetchSemanticsNodes().isNotEmpty()
 
     /** A Piper stand-in that notes what it reads and returns a short silent WAV. */
-    private class RecordingSpeech(private val spoken: MutableList<String>, private val delayMs: Long) : LocalSpeechEngine {
+    private class RecordingSpeech(private val spoken: MutableList<String>, private val delayMs: Long, private val clipMillis: Int = 50) : LocalSpeechEngine {
         override val engine = SpeechEngine.PIPER
         override val displayName = "Fake Piper"
         override val description = ""
@@ -544,7 +548,8 @@ class ExamplesScreenTest {
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray {
             delay(delayMs)
             spoken += "$languageCode:$text"
-            val data = 1600
+            // 16-bit mono at 16 kHz: 32 bytes a millisecond.
+            val data = 32 * clipMillis
             val header = java.nio.ByteBuffer.allocate(44).order(java.nio.ByteOrder.LITTLE_ENDIAN).apply {
                 put("RIFF".toByteArray()); putInt(36 + data); put("WAVE".toByteArray())
                 put("fmt ".toByteArray()); putInt(16); putShort(1); putShort(1); putInt(16_000); putInt(32_000); putShort(2); putShort(16)
