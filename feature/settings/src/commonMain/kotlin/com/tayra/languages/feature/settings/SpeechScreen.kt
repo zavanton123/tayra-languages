@@ -223,6 +223,10 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
     val compact = LocalWindowWidth.current.isCompact
     val pill: @Composable () -> Unit = { SpeechStatusPill(engine, busy || !checked, ready, learning, voices) }
 
+    if (compact) {
+        PhoneSpeechScreen(settings, viewModel, engine, learning, voices, packages, checking = busy || !checked, ready, onNavigate, onBack)
+        return
+    }
     Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -690,7 +694,7 @@ private fun VoiceTile(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, 
 
 /** "Installed" with a menu to remove it, a download button, or what is happening right now. */
 @Composable
-private fun PackageAction(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit) {
+internal fun PackageAction(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit) {
     var menu by remember { mutableStateOf(false) }
     Row(verticalAlignment = Alignment.CenterVertically) {
         when {
@@ -727,7 +731,7 @@ private fun DefaultVoiceNote(engine: LocalSpeechEngine, settings: UserSettings, 
 }
 
 /** The package's title; the one-download models of Kokoro read "Kokoro model with 34 voices". */
-private val SpeechPackage.displayTitle: String
+internal val SpeechPackage.displayTitle: String
     get() = MODEL_TITLE.matchEntire(title)?.let { match ->
         trPlural(match.groupValues[2].toInt(), "{1} model with {0} voice", "{1} model with {0} voices", match.groupValues[1])
     } ?: title
@@ -735,7 +739,7 @@ private val SpeechPackage.displayTitle: String
 private val MODEL_TITLE = Regex("""(.+) model with (\d+) voices""")
 
 /** A short sentence per language so the Try it field is never empty for the common ones. */
-private val SAMPLES: Map<String, String> = mapOf(
+internal val SAMPLES: Map<String, String> = mapOf(
     "en" to "Reading a little every day is the best way to learn.",
     "de" to "Jeden Tag ein wenig zu lesen ist der beste Weg zu lernen.",
     "es" to "Leer un poco cada día es la mejor manera de aprender.",

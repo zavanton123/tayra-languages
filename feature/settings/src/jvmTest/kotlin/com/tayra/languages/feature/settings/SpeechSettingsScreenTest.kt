@@ -11,9 +11,13 @@ import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasClickAction
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.semantics.SemanticsActions
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
+import androidx.compose.ui.test.performSemanticsAction
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
@@ -143,6 +147,29 @@ class SpeechSettingsScreenTest {
         onNodeWithText("Search voices").performTextInput("czech")
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Jirka (Czechia, low)")).fetchSemanticsNodes().isNotEmpty() }
         assertEquals(2, piper.installed.size)
+    }
+
+    /** A phone shows a banner for the voice situation, the speed under its label, and the voices to download in a plain list. */
+    @Test
+    fun aPhoneListsTheVoicesToDownloadUnderTheBanner() = runDesktopComposeUiTest(width = 400, height = 1400) {
+        val piper = FakePiper()
+        piper.installed.clear()
+        val settings = show(SpeechEngine.PIPER, FakeKokoro(), piper)
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No Portuguese voice downloaded. System voice is being used.")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Available Portuguese voices").assertExists()
+        onNodeWithText("80%").assertExists()
+        onNodeWithText("Reader playback and term pronunciation use this engine.").assertDoesNotExist()
+        System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+
+        // Downloading a voice makes it the language's voice and lifts the banner.
+        onAllNodes(hasText("Download") and hasClickAction())[0].performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { piper.installed.size == 1 }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline speech ready")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Installed voices").assertExists()
+        onNodeWithText("Search voices").performTextInput("czech")
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Jirka (Czechia, low)")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("phone-speech-speed").performSemanticsAction(SemanticsActions.SetProgress) { it(1.0f) }
+        waitUntil(timeoutMillis = 5_000) { settings.current.speechSpeed == 1.0f }
     }
 
     private fun ComposeUiTest.save(path: String) {

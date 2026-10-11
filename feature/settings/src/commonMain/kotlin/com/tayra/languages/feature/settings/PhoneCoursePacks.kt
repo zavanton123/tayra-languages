@@ -4,6 +4,8 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -87,6 +89,7 @@ internal fun PhoneCoursePacksScreen(
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun PhonePackCard(status: CoursePackStatus, onDownload: () -> Unit, onRemove: () -> Unit) {
     val colors = MaterialTheme.colorScheme
@@ -98,8 +101,9 @@ private fun PhonePackCard(status: CoursePackStatus, onDownload: () -> Unit, onRe
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             IconTile(null, pack.languageCode.uppercase(), size = 52)
-            Column {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            Column(Modifier.weight(1f)) {
+                // A long title pushes the pill onto the next line rather than squeezing it.
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(6.dp), itemVerticalAlignment = Alignment.CenterVertically) {
                     Text(tr(pack.title), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                     when (state) {
                         is PackState.Installed -> StatusPill(tr("Installed"), StatusTints.ok)
