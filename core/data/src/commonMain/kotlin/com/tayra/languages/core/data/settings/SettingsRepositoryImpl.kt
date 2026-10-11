@@ -91,7 +91,6 @@ class SettingsRepositoryImpl(
             speechEngine = SpeechEngine.entries.firstOrNull { it.name == store.getString(Keys.SPEECH_ENGINE, "") } ?: defaults.speechEngine,
             speechVoices = store.getString(Keys.SPEECH_VOICES, "").split('\n').mapNotNull { line -> line.split('\t').takeIf { it.size == 2 }?.let { it[0] to it[1] } }.toMap(),
             speechSpeed = store.getFloat(Keys.SPEECH_SPEED, defaults.speechSpeed),
-            demoDataLoaded = store.getBoolean(Keys.DEMO_DATA, defaults.demoDataLoaded),
             tutorialBooksAdded = store.getBoolean(Keys.TUTORIAL_BOOKS, defaults.tutorialBooksAdded),
             nativeLanguage = LanguageCatalog.nativeOption(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
@@ -187,7 +186,6 @@ class SettingsRepositoryImpl(
         store.putString(Keys.SPEECH_ENGINE, s.speechEngine.name)
         store.putString(Keys.SPEECH_VOICES, s.speechVoices.entries.joinToString("\n") { "${it.key}\t${it.value}" })
         store.putFloat(Keys.SPEECH_SPEED, s.speechSpeed)
-        store.putBoolean(Keys.DEMO_DATA, s.demoDataLoaded)
         store.putBoolean(Keys.TUTORIAL_BOOKS, s.tutorialBooksAdded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.UI_LANGUAGE, s.uiLanguage)
@@ -210,10 +208,13 @@ class SettingsRepositoryImpl(
     }
 
     private object Keys {
-        /** Settings of the Microsoft, Alibaba, Baidu, DeepL and Qwen translation services, removed on 2026-10-03. */
+        /**
+         * Settings of the Microsoft, Alibaba, Baidu, DeepL and Qwen translation services, removed on
+         * 2026-10-03, and the flag behind the home page's demo-data notice, removed on 2026-10-10.
+         */
         val RETIRED = listOf(
             "azure_translator_api_key", "azure_translator_region", "alibaba_access_key_id", "alibaba_access_key_secret", "alibaba_endpoint",
-            "baidu_app_id", "baidu_secret_key", "deepl_api_key", "qwen_api_key", "qwen_model", "qwen_international",
+            "baidu_app_id", "baidu_secret_key", "deepl_api_key", "qwen_api_key", "qwen_model", "qwen_international", "is_demo_data",
         )
 
         const val CURRENT_LANGUAGE = "current_language_id"
@@ -243,7 +244,6 @@ class SettingsRepositoryImpl(
         const val TRANSLATION_ENGINE = "translation_engine"
         const val GOOGLE_TRANSLATE_API_KEY = "google_translate_api_key"
         const val ARGOS_PYTHON = "argos_python"
-        const val DEMO_DATA = "is_demo_data"
         const val TUTORIAL_BOOKS = "tutorial_books_added"
         const val NATIVE_LANGUAGE = "native_language"
         const val LEGACY_TRANSLATION_TARGET = "translation_target_language"

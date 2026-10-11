@@ -198,14 +198,12 @@ class RepositoryIntegrationTest {
     fun catalogLanguagesAreSeededAndSurviveWipe() = runTest {
         val env = Env()
         env.demo.ensureLanguages()
-        assertTrue(env.demo.isDemoData)
         assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
-        assertNotNull(env.demo.tutorialBookId())
-        assertTrue(env.books.getBooks().isNotEmpty())
+        val english = env.languages.findByName("English")!!
+        assertNotNull(env.books.findByTitle(Tutorials.forLanguage("English")!!.title, english.id), "every language starts with its tutorial")
         env.demo.wipeDatabase()
         assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().isEmpty())
-        assertTrue(!env.demo.isDemoData)
     }
 
     @Test
@@ -239,7 +237,6 @@ class RepositoryIntegrationTest {
         val welshId = env.languages.save(env.languages.getById(englishId)!!.copy(id = 0, name = "Welsh"))
         env.bookService.create(BookDraft(languageId = welshId, title = "Hola", text = "Hola mundo."))
         env.demo.ensureLanguages()
-        assertTrue(!env.demo.isDemoData)
         assertEquals(englishId, env.languages.findByName("English")?.id)
         assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().none { it.title == "Hola" })

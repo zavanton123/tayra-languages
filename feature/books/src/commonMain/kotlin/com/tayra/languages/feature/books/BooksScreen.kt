@@ -45,7 +45,6 @@ import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Button
-import androidx.compose.material3.Card
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -108,7 +107,6 @@ fun BooksScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     var pendingDelete by remember { mutableStateOf<BookListItem?>(null) }
-    var confirmWipe by remember { mutableStateOf(false) }
     var confirmDeleteSelected by remember { mutableStateOf(false) }
 
     Scaffold(
@@ -134,9 +132,6 @@ fun BooksScreen(
                 onDelete = { pendingDelete = it },
                 onBookmarks = { onNavigate(Route.Bookmarks(it.id)) },
                 onNewBook = { onNavigate(Route.NewBook) },
-                onOpenTutorial = { onNavigate(Route.Read(it, 1)) },
-                onWipe = { confirmWipe = true },
-                onDismissDemo = viewModel::dismissDemoNotice,
                 onSearch = viewModel::setSearch,
                 onSort = viewModel::setSort,
                 onTags = viewModel::setTags,
@@ -172,16 +167,6 @@ fun BooksScreen(
             onDismiss = { confirmDeleteSelected = false },
         )
     }
-    if (confirmWipe) {
-        ConfirmDialog(
-            title = tr("Clear the database?"),
-            text = tr("This removes all languages, books and terms so you can start fresh. This cannot be undone."),
-            confirmLabel = tr("Clear everything"),
-            destructive = true,
-            onConfirm = { viewModel.wipeDatabase(); confirmWipe = false },
-            onDismiss = { confirmWipe = false },
-        )
-    }
 }
 
 internal class BooksCallbacks(
@@ -191,9 +176,6 @@ internal class BooksCallbacks(
     val onDelete: (BookListItem) -> Unit = {},
     val onBookmarks: (BookListItem) -> Unit = {},
     val onNewBook: () -> Unit = {},
-    val onOpenTutorial: (Long) -> Unit = {},
-    val onWipe: () -> Unit = {},
-    val onDismissDemo: () -> Unit = {},
     val onSearch: (String) -> Unit = {},
     val onSort: (BookSort) -> Unit = {},
     val onTags: (tags: Set<String>, matchAll: Boolean) -> Unit = { _, _ -> },
@@ -219,9 +201,6 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
         modifier.fillMaxSize(),
         contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
     ) {
-        if (state.isDemo && !state.archived) {
-            item { DemoNotice(state.tutorialBookId, callbacks) }
-        }
         item { PageHeader(state.archived, compact, callbacks.onNewBook) }
         if (!state.archived) state.continueWith?.let { book -> item { ContinueCard(book, compact) { callbacks.onOpen(book) } } }
         item { ProgressTabs(state.counts, state.progress, callbacks.onProgress) }
@@ -817,21 +796,6 @@ private fun EmptyState(archived: Boolean, onNewBook: () -> Unit) {
         Icon(AppIcons.Book, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(36.dp))
         Text(if (archived) tr("No archived books.") else tr("No books match these filters."), style = MaterialTheme.typography.titleMedium)
         if (!archived) TextButton(onClick = onNewBook) { Text(tr("Create a book")) }
-    }
-}
-
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun DemoNotice(tutorialBookId: Long?, callbacks: BooksCallbacks) {
-    Card(Modifier.fillMaxWidth().padding(bottom = 20.dp)) {
-        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(tr("Every language comes with a tutorial book on learning it with Tayra Languages, written in that language. Start with the one for the language you are learning."))
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                if (tutorialBookId != null) Button(onClick = { callbacks.onOpenTutorial(tutorialBookId) }) { Text(tr("Open the tutorial")) }
-                TextButton(onClick = callbacks.onWipe) { Text(tr("Clear database")) }
-                TextButton(onClick = callbacks.onDismissDemo) { Text(tr("Dismiss")) }
-            }
-        }
     }
 }
 

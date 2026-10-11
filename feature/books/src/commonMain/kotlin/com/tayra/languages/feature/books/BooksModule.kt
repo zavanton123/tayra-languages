@@ -9,7 +9,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val booksModule = module {
-    viewModel { (archived: Boolean) -> BooksViewModel(archived, get(), get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { (archived: Boolean) -> BooksViewModel(archived, get(), get(), get(), get(), get(), get(), get()) }
     viewModel { (bookId: Long?) -> BookFormViewModel(bookId, get(), get(), get(), get()) }
     viewModel { (bookId: Long) -> BookmarksViewModel(bookId, get()) }
     viewModel { (bookId: Long, page: Int) -> PageEditViewModel(bookId, page, get(), get(), get()) }

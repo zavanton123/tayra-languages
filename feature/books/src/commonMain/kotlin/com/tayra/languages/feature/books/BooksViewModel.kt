@@ -13,7 +13,6 @@ import com.tayra.languages.core.domain.repository.TermListSort
 import com.tayra.languages.core.domain.repository.TermRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
-import com.tayra.languages.core.domain.service.DemoDataService
 import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -77,8 +76,6 @@ data class BooksUiState(
     val tags: Set<String> = emptySet(),
     /** Whether a book needs every one of [tags], or any of them. */
     val matchAllTags: Boolean = false,
-    val isDemo: Boolean = false,
-    val tutorialBookId: Long? = null,
     val streak: Int = 0,
     val showStreak: Boolean = false,
     val wordsLearned: Int = 0,
@@ -133,7 +130,6 @@ class BooksViewModel(
     private val settings: SettingsRepository,
     private val bookService: BookService,
     private val bookStats: BookStatsService,
-    private val demoData: DemoDataService,
     private val statsService: StatsService,
 ) : ViewModel() {
 
@@ -146,7 +142,7 @@ class BooksViewModel(
     private val extras = MutableStateFlow(Extras())
     private val statsInFlight = HashSet<Long>()
 
-    private data class Extras(val tutorialBookId: Long? = null, val streak: Int = 0)
+    private data class Extras(val streak: Int = 0)
 
     private data class TagChoice(val tags: Set<String> = emptySet(), val matchAll: Boolean = false)
 
@@ -187,8 +183,6 @@ class BooksViewModel(
             sort = opts.sort,
             progress = opts.progress,
             view = opts.view,
-            isDemo = prefs.demoDataLoaded,
-            tutorialBookId = opts.extras.tutorialBookId,
             streak = opts.extras.streak,
             showStreak = prefs.showStreakOnHome,
             wordsLearned = opts.wordsLearned,
@@ -201,7 +195,7 @@ class BooksViewModel(
 
     private fun refreshExtras() {
         viewModelScope.launch {
-            extras.value = Extras(tutorialBookId = demoData.tutorialBookId(), streak = statsService.streak())
+            extras.value = Extras(streak = statsService.streak())
         }
     }
 
@@ -267,11 +261,4 @@ class BooksViewModel(
     fun archive(bookId: Long) = viewModelScope.launch { bookService.archive(bookId) }
     fun unarchive(bookId: Long) = viewModelScope.launch { bookService.unarchive(bookId) }
     fun delete(bookId: Long) = viewModelScope.launch { bookService.delete(bookId) }
-
-    fun dismissDemoNotice() = viewModelScope.launch { demoData.dismissDemoFlag() }
-
-    fun wipeDatabase() = viewModelScope.launch {
-        demoData.wipeDatabase()
-        refreshExtras()
-    }
 }

@@ -21,8 +21,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Delete" to "Удалить",
     "Delete {0} books?" to "Удалить {0} книгу?|Удалить {0} книги?|Удалить {0} книг?",
     "The books and their pages will be deleted. Terms are kept." to "Книги и их страницы будут удалены. Слова сохранятся.",
-    "Clear the database?" to "Очистить базу данных?",
-    "This removes all languages, books and terms so you can start fresh. This cannot be undone." to "Будут удалены все языки, книги и слова, чтобы вы могли начать с чистого листа. Это действие нельзя отменить.",
     "Clear everything" to "Очистить всё",
     "Books" to "Книги",
     "Books you have set aside. Unarchive one to keep reading it." to "Отложенные книги. Верните книгу из архива, чтобы продолжить чтение.",
@@ -53,10 +51,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "No archived books." to "В архиве нет книг.",
     "No books match these filters." to "Нет книг, подходящих под фильтры.",
     "Create a book" to "Создать книгу",
-    "Every language comes with a tutorial book on learning it with Tayra Languages, written in that language. Start with the one for the language you are learning." to "Для каждого языка есть учебная книга о том, как изучать его с Tayra Languages, написанная на этом языке. Начните с книги для языка, который вы изучаете.",
-    "Open the tutorial" to "Открыть руководство",
-    "Clear database" to "Очистить базу данных",
-    "Dismiss" to "Скрыть",
     "{1} words" to "{1} слово|{1} слова|{1} слов",
 
     // BooksViewModel.kt: sort and progress labels, shown through tr(label).
