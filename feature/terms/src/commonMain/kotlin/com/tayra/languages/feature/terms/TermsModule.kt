@@ -24,10 +24,7 @@ val termsModule = module {
 }
 
 fun NavGraphBuilder.termsGraph(navController: NavController) {
-    val navigate: (Route) -> Unit = { route ->
-        // Asking twice for the same examples keeps one page of them, so Back leads out at once.
-        if (route is Route.Examples) navController.navigate(route) { launchSingleTop = true } else navController.navigate(route)
-    }
+    val navigate: (Route) -> Unit = { navController.navigate(it) }
     val openParent: (Long, String) -> Unit = { languageId, text -> navController.navigate(Route.EditTermByText(languageId, text)) }
     composable<Route.Terms> { entry ->
         val route = entry.toRoute<Route.Terms>()
