@@ -108,14 +108,20 @@ fun BooksScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     var pendingDelete by remember { mutableStateOf<BookListItem?>(null) }
     var confirmDeleteSelected by remember { mutableStateOf(false) }
+    val compact = LocalWindowWidth.current.isCompact
+    // On a phone, ticking books starts from the list menu in the bar, so the choice lives here.
+    var selecting by rememberSaveable { mutableStateOf(false) }
 
     Scaffold(
         topBar = {
             AppTopBar(
-                title = if (archived) tr("Archived books") else "Tayra Languages",
+                title = if (archived) tr("Archived books") else if (compact) tr("Books") else "Tayra Languages",
                 onNavigate = onNavigate,
                 onBack = onBack,
                 section = NavSection.BOOKS,
+                actions = {
+                    if (compact) PhoneBooksMenu(archived, selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAll(false) }, onNewBook = { onNavigate(Route.NewBook) }, onArchive = { onNavigate(Route.ArchivedBooks) })
+                },
             )
         },
     ) { padding ->
@@ -123,9 +129,7 @@ fun BooksScreen(
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        BooksContent(
-            state = state,
-            callbacks = BooksCallbacks(
+        val callbacks = BooksCallbacks(
                 onOpen = { onNavigate(Route.Read(it.id)) },
                 onEdit = { onNavigate(Route.EditBook(it.id)) },
                 onArchive = { if (it.isArchived) viewModel.unarchive(it.id) else viewModel.archive(it.id) },
@@ -141,9 +145,9 @@ fun BooksScreen(
                 onSelectAll = viewModel::selectAll,
                 onArchiveSelected = { viewModel.archiveSelected() },
                 onDeleteSelected = { confirmDeleteSelected = true },
-            ),
-            modifier = Modifier.padding(padding),
-        )
+            )
+        if (compact) PhoneBooksContent(state, callbacks, selecting = selecting, onDone = { selecting = false; viewModel.selectAll(false) }, modifier = Modifier.padding(padding))
+        else BooksContent(state = state, callbacks = callbacks, modifier = Modifier.padding(padding))
     }
 
     pendingDelete?.let { book ->
@@ -202,7 +206,7 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
         contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
     ) {
         item { PageHeader(state.archived, compact, callbacks.onNewBook) }
-        if (!state.archived) state.continueWith?.let { book -> item { ContinueCard(book, compact) { callbacks.onOpen(book) } } }
+        if (!state.archived) state.continueWith?.let { book -> item { ContinueCard(book) { callbacks.onOpen(book) } } }
         item { ProgressTabs(state.counts, state.progress, callbacks.onProgress) }
         item { Toolbar(state, compact, wide, books.size, callbacks) }
         item {
@@ -252,19 +256,19 @@ private fun PageHeader(archived: Boolean, compact: Boolean, onNewBook: () -> Uni
 
 private val BLUE = Color(0xFF3B6FE0)
 private val GREEN = Color(0xFF2E9D57)
-private val PROGRESS = Color(0xFF4A90E2)
-private val KNOWN = Color(0xFF4CC38A)
+internal val PROGRESS = Color(0xFF4A90E2)
+internal val KNOWN = Color(0xFF4CC38A)
 
 /** The book being read most recently: where the reader is, what they know of it, and the way back in. */
 @Composable
-private fun ContinueCard(book: BookListItem, compact: Boolean, onContinue: () -> Unit) {
+private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val shape = RoundedCornerShape(16.dp)
     val card = Modifier.fillMaxWidth().padding(bottom = 24.dp).clip(shape).background(colors.primary.copy(alpha = 0.06f)).border(1.dp, colors.primary.copy(alpha = 0.16f), shape)
     val title: @Composable (Modifier) -> Unit = { m ->
         Row(m, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(20.dp)) {
-            Box(Modifier.size(if (compact) 52.dp else 76.dp).clip(CircleShape).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
-                Icon(AppIcons.MenuBook, contentDescription = null, tint = colors.primary, modifier = Modifier.size(if (compact) 26.dp else 36.dp))
+            Box(Modifier.size(76.dp).clip(CircleShape).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
+                Icon(AppIcons.MenuBook, contentDescription = null, tint = colors.primary, modifier = Modifier.size(36.dp))
             }
             Column(Modifier.weight(1f, fill = false), verticalArrangement = Arrangement.spacedBy(2.dp)) {
                 Text(tr("Continue reading"), style = MaterialTheme.typography.titleSmall, color = colors.primary, fontWeight = FontWeight.SemiBold)
@@ -288,25 +292,16 @@ private fun ContinueCard(book: BookListItem, compact: Boolean, onContinue: () ->
             Text(tr("Continue"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
         }
     }
-    if (compact) {
-        Column(card.padding(18.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-            title(Modifier)
-            bar(tr("Reading progress"), book.progressPercent, PROGRESS, Modifier.fillMaxWidth())
-            bar(tr("Vocabulary known"), book.masteryPercent, KNOWN, Modifier.fillMaxWidth())
-            button(Modifier.fillMaxWidth())
-        }
-    } else {
-        Row(card.height(IntrinsicSize.Min).padding(horizontal = 24.dp, vertical = 20.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(32.dp)) {
-            title(Modifier.weight(1.2f))
-            bar(tr("Reading progress"), book.progressPercent, PROGRESS, Modifier.weight(1f))
-            Box(Modifier.width(1.dp).fillMaxHeight().background(colors.outlineVariant))
-            bar(tr("Vocabulary known"), book.masteryPercent, KNOWN, Modifier.weight(1f))
-            button(Modifier.width(180.dp))
-        }
+    Row(card.height(IntrinsicSize.Min).padding(horizontal = 24.dp, vertical = 20.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(32.dp)) {
+        title(Modifier.weight(1.2f))
+        bar(tr("Reading progress"), book.progressPercent, PROGRESS, Modifier.weight(1f))
+        Box(Modifier.width(1.dp).fillMaxHeight().background(colors.outlineVariant))
+        bar(tr("Vocabulary known"), book.masteryPercent, KNOWN, Modifier.weight(1f))
+        button(Modifier.width(180.dp))
     }
 }
 
-private val ProgressFilter.tabLabel: String
+internal val ProgressFilter.tabLabel: String
     get() = when (this) {
         ProgressFilter.ALL -> tr("All")
         else -> tr(label)
@@ -408,7 +403,7 @@ private fun LibraryHeader(state: BooksUiState, selecting: Boolean, onSelect: () 
 private val CONTROL_HEIGHT = 48.dp
 
 @Composable
-private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier = Modifier) {
+internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).background(colors.surface)
@@ -573,7 +568,7 @@ private fun BookTableRow(book: BookListItem, selected: Boolean, selecting: Boole
 }
 
 @Composable
-private fun StatusTag(status: ReadingStatus) {
+internal fun StatusTag(status: ReadingStatus) {
     val (label, tint) = when (status) {
         ReadingStatus.READING -> tr("In progress") to BLUE
         ReadingStatus.FINISHED -> tr("Finished") to GREEN
@@ -592,7 +587,7 @@ private fun StatusTag(status: ReadingStatus) {
 /** A book's tags as small grey chips, the first few of them. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun BookTags(tags: List<String>, max: Int = 3) {
+internal fun BookTags(tags: List<String>, max: Int = 3) {
     if (tags.isEmpty()) return
     val colors = MaterialTheme.colorScheme
     FlowRow(Modifier.padding(top = 2.dp), horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -611,7 +606,7 @@ private fun BookTags(tags: List<String>, max: Int = 3) {
 
 /** A thin bar filled to [percent] with the figure beside it; "…" while the figure is not known yet. */
 @Composable
-private fun PercentBar(percent: Int?, color: Color) {
+internal fun PercentBar(percent: Int?, color: Color) {
     val colors = MaterialTheme.colorScheme
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
         Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(4.dp)).background(colors.onSurface.copy(alpha = 0.07f))) {
@@ -692,7 +687,7 @@ private val coverTints = listOf(Color(0xFF5B8DEF), Color(0xFF9B7BEA), Color(0xFF
  * the book's id, so each book keeps its look and books side by side differ.
  */
 @Composable
-private fun BookCover(book: BookListItem, width: Dp) {
+internal fun BookCover(book: BookListItem, width: Dp) {
     val tint = coverTints[(book.id % coverTints.size).toInt().let { if (it < 0) -it else it }]
     val figure = ((book.id + book.id / coverTints.size) % 4).toInt().let { if (it < 0) -it else it }
     val code = LanguageCodes.codeFor(book.languageName)?.uppercase() ?: book.languageName.take(2).uppercase()
@@ -735,13 +730,13 @@ private val CHECKBOX_GAP = 4.dp
 private val CHECKBOX_WIDTH = 48.dp
 
 @Composable
-private fun BookCheckbox(book: BookListItem, selected: Boolean, callbacks: BooksCallbacks) {
+internal fun BookCheckbox(book: BookListItem, selected: Boolean, callbacks: BooksCallbacks) {
     Checkbox(checked = selected, onCheckedChange = { callbacks.onToggle(book) }, modifier = Modifier.semantics { contentDescription = tr("Select {0}", book.title) })
 }
 
 /** While books are being ticked: how many, all of them at once, the bulk actions, and Done. */
 @Composable
-private fun SelectionBar(state: BooksUiState, callbacks: BooksCallbacks, onDone: () -> Unit) {
+internal fun SelectionBar(state: BooksUiState, callbacks: BooksCallbacks, onDone: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val count = state.selectedBooks.size
     val all = count > 0 && count == state.filteredBooks.size
@@ -760,7 +755,7 @@ private fun SelectionBar(state: BooksUiState, callbacks: BooksCallbacks, onDone:
 
 /** Below the books: how many there are and the words known in the language, with the streak where it is shown. */
 @Composable
-private fun Footer(state: BooksUiState) {
+internal fun Footer(state: BooksUiState) {
     val parts = buildList {
         add(trPlural(state.books.size, "{1} book", "{1} books", formatCount(state.books.size)))
         if (!state.archived) {
@@ -772,7 +767,7 @@ private fun Footer(state: BooksUiState) {
 }
 
 @Composable
-private fun BookMenu(book: BookListItem, callbacks: BooksCallbacks) {
+internal fun BookMenu(book: BookListItem, callbacks: BooksCallbacks) {
     var open by remember { mutableStateOf(false) }
     Box {
         IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("Actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
@@ -787,7 +782,7 @@ private fun BookMenu(book: BookListItem, callbacks: BooksCallbacks) {
 }
 
 @Composable
-private fun EmptyState(archived: Boolean, onNewBook: () -> Unit) {
+internal fun EmptyState(archived: Boolean, onNewBook: () -> Unit) {
     Column(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -799,7 +794,7 @@ private fun EmptyState(archived: Boolean, onNewBook: () -> Unit) {
     }
 }
 
-private fun words(count: Int) = trPlural(count, "{1} word", "{1} words", count.grouped())
+internal fun words(count: Int) = trPlural(count, "{1} word", "{1} words", count.grouped())
 
 /** 1223 → "1,223". */
 private fun Int.grouped(): String = formatCount(this)

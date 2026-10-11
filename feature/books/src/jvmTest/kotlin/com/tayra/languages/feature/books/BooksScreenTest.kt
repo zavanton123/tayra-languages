@@ -28,6 +28,7 @@ import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
 import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithContentDescription
 import kotlin.test.assertTrue
 import androidx.compose.ui.test.hasScrollToIndexAction
@@ -179,6 +180,69 @@ class BooksScreenTest {
     private fun ComposeUiTest.save(path: String) {
         waitForIdle()
         ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+    }
+
+    /** A phone shows the book being read as a card, the library as cards, and sorts and filters from sheets. */
+    @Test
+    fun aPhoneListsBooksAsCardsAndFiltersFromSheets() = runDesktopComposeUiTest(width = 400, height = 1400) {
+        var selecting by mutableStateOf(false)
+        setContent {
+            var state by remember { mutableStateOf(BooksUiState(loading = false, books = books, wordsLearned = 349)) }
+            TayraTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {}) {
+                        Surface(color = MaterialTheme.colorScheme.background) {
+                            Column {
+                                AppTopBar(title = "Books", onNavigate = {}, section = NavSection.BOOKS, actions = { PhoneBooksMenu(archived = false, selecting, onSelecting = { selecting = it }, onNewBook = {}, onArchive = {}) })
+                                PhoneBooksContent(
+                                    state,
+                                    BooksCallbacks(
+                                        onSort = { state = state.copy(sort = it) },
+                                        onProgress = { state = state.copy(progress = it) },
+                                        onTags = { tags, all -> state = state.copy(tags = tags, matchAllTags = all) },
+                                        onToggle = { book -> state = state.copy(selected = if (book.id in state.selected) state.selected - book.id else state.selected + book.id) },
+                                        onSelectAll = { all -> state = state.copy(selected = if (all) state.filteredBooks.map { it.id }.toSet() else emptySet()) },
+                                        onArchiveSelected = { bulk["archive"] = state.selectedBooks.map { it.title } },
+                                    ),
+                                    selecting = selecting,
+                                    onDone = { selecting = false; state = state.copy(selected = emptySet()) },
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        waitForIdle()
+        onNodeWithText("Page 3 of 5 · 1,223 words").assertExists()
+        onNodeWithText("60% read").assertExists()
+        onNodeWithText("69% known").assertExists()
+        onNodeWithText("Your library").assertExists()
+        onNodeWithText("Read, learn, and build your vocabulary with every text.").assertDoesNotExist()
+        System.getenv("BOOKS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+
+        // Sorting from the sheet.
+        onNodeWithTag("phone-sort").performClick()
+        onNodeWithText("Title").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Title").fetchSemanticsNodes().size == 1 }
+
+        // The tags from the sheet, applied at once.
+        onNodeWithTag("phone-filters").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("tag-news").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("tag-news").performClick()
+        onNodeWithTag("apply-tags").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("2 books").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithText("Demo").fetchSemanticsNodes().size)
+
+        // Ticking books starts from the bar's menu.
+        onNodeWithContentDescription("List actions").performClick()
+        onNodeWithText("Select books").performClick()
+        onNodeWithContentDescription("Select A Maldição").performClick()
+        onNodeWithText("1 of 2 selected").assertExists()
+        onNodeWithText("Archive").performClick()
+        assertEquals(listOf("A Maldição"), bulk["archive"])
+        onNodeWithTag("done-selecting").performClick()
+        assertEquals(0, onAllNodesWithContentDescription("Select A Maldição").fetchSemanticsNodes().size)
     }
 
     @Test

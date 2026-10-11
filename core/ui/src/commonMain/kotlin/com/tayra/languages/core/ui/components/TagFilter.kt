@@ -22,7 +22,12 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -40,6 +45,7 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
@@ -83,58 +89,79 @@ fun TagFilterButton(
             Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = colors.onSurfaceVariant)
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }, modifier = Modifier.width(440.dp)) {
-            // The panel is built anew each time it opens, from the tags chosen so far.
-            var picked by remember { mutableStateOf(selected) }
-            var all by remember { mutableStateOf(matchAll) }
-            var query by remember { mutableStateOf("") }
-            Column(Modifier.padding(horizontal = 18.dp, vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(tr("Filter by tags"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            TagFilterBody(available, selected, matchAll) { tags, all -> open = false; onApply(tags, all) }
+        }
+    }
+}
+
+/**
+ * A phone's bottom sheet with the same tag filter; [onApply] gets the tags picked and whether a
+ * book needs all of them, and the sheet is closed by whoever shows it.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun TagFilterSheet(available: List<String>, selected: Set<String>, matchAll: Boolean, onApply: (tags: Set<String>, matchAll: Boolean) -> Unit, onDismiss: () -> Unit) {
+    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), sheetMaxWidth = Dp.Unspecified, containerColor = MaterialTheme.colorScheme.surface) {
+        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(bottom = 12.dp)) {
+            TagFilterBody(available, selected, matchAll, onApply)
+        }
+    }
+}
+
+/** The tags to pick from, how they match, and Apply; built anew each time it is shown, from the tags chosen so far. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun TagFilterBody(available: List<String>, selected: Set<String>, matchAll: Boolean, onApply: (tags: Set<String>, matchAll: Boolean) -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    var picked by remember { mutableStateOf(selected) }
+    var all by remember { mutableStateOf(matchAll) }
+    var query by remember { mutableStateOf("") }
+    Column(Modifier.padding(horizontal = 18.dp, vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(tr("Filter by tags"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            Text(
+                tr("Clear all"),
+                Modifier.clip(RoundedCornerShape(6.dp)).clickable(enabled = picked.isNotEmpty()) { picked = emptySet() }.padding(horizontal = 6.dp, vertical = 2.dp),
+                style = MaterialTheme.typography.bodyMedium,
+                color = if (picked.isNotEmpty()) colors.primary else colors.outline,
+            )
+        }
+        FindField(query, { query = it }, Modifier.fillMaxWidth())
+        val found = available.filter { it.contains(query.trim(), ignoreCase = true) }
+        if (found.isEmpty()) {
+            Text(tr("No tags match."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        } else {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                found.forEach { tag -> TagChip(tag, tag in picked) { picked = if (tag in picked) picked - tag else picked + tag } }
+            }
+        }
+        HorizontalDivider(color = colors.outlineVariant)
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+            Text(tr("Match"), style = MaterialTheme.typography.bodyLarge)
+            Row(Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(3.dp)) {
+                listOf(false to tr("Any tag"), true to tr("All tags")).forEach { (needsAll, label) ->
+                    val chosen = all == needsAll
                     Text(
-                        tr("Clear all"),
-                        Modifier.clip(RoundedCornerShape(6.dp)).clickable(enabled = picked.isNotEmpty()) { picked = emptySet() }.padding(horizontal = 6.dp, vertical = 2.dp),
+                        label,
+                        Modifier.clip(RoundedCornerShape(7.dp)).background(if (chosen) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
+                            .clickable { all = needsAll }.padding(horizontal = 16.dp, vertical = 8.dp).testTag(if (needsAll) "match-all" else "match-any"),
                         style = MaterialTheme.typography.bodyMedium,
-                        color = if (picked.isNotEmpty()) colors.primary else colors.outline,
+                        fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal,
+                        color = if (chosen) colors.primary else colors.onSurfaceVariant,
                     )
                 }
-                FindField(query, { query = it }, Modifier.fillMaxWidth())
-                val found = available.filter { it.contains(query.trim(), ignoreCase = true) }
-                if (found.isEmpty()) {
-                    Text(tr("No tags match."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                } else {
-                    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        found.forEach { tag -> TagChip(tag, tag in picked) { picked = if (tag in picked) picked - tag else picked + tag } }
-                    }
-                }
-                HorizontalDivider(color = colors.outlineVariant)
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                    Text(tr("Match"), style = MaterialTheme.typography.bodyLarge)
-                    Row(Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(3.dp)) {
-                        listOf(false to tr("Any tag"), true to tr("All tags")).forEach { (needsAll, label) ->
-                            val chosen = all == needsAll
-                            Text(
-                                label,
-                                Modifier.clip(RoundedCornerShape(7.dp)).background(if (chosen) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
-                                    .clickable { all = needsAll }.padding(horizontal = 16.dp, vertical = 8.dp).testTag(if (needsAll) "match-all" else "match-any"),
-                                style = MaterialTheme.typography.bodyMedium,
-                                fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal,
-                                color = if (chosen) colors.primary else colors.onSurfaceVariant,
-                            )
-                        }
-                    }
-                }
-                HorizontalDivider(color = colors.outlineVariant)
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(
-                        if (picked.isEmpty()) tr("No tags selected") else trPlural(picked.size, "{0} tag selected", "{0} tags selected"),
-                        Modifier.weight(1f),
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = colors.onSurfaceVariant,
-                    )
-                    Button(onClick = { open = false; onApply(picked, all) }, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("apply-tags")) {
-                        Text(tr("Apply"))
-                    }
-                }
+            }
+        }
+        HorizontalDivider(color = colors.outlineVariant)
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(
+                if (picked.isEmpty()) tr("No tags selected") else trPlural(picked.size, "{0} tag selected", "{0} tags selected"),
+                Modifier.weight(1f),
+                style = MaterialTheme.typography.bodyMedium,
+                color = colors.onSurfaceVariant,
+            )
+            Button(onClick = { onApply(picked, all) }, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("apply-tags")) {
+                Text(tr("Apply"))
             }
         }
     }
