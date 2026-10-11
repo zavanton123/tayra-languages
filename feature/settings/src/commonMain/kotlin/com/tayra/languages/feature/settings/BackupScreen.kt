@@ -197,7 +197,9 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
         if (state.loaded) StatusPill(if (count == 0) tr("No backups yet") else trPlural(count, "{0} local backup", "{0} local backups"), if (count == 0) StatusTints.warning else StatusTints.ok)
     }
 
-    Scaffold(
+    if (compact) {
+        PhoneBackupsScreen(state, idle, viewModel, onImport = { picker.launch() }, onRestore = { restoring = it }, onDelete = { deleting = it }, onNavigate = onNavigate, onBack = onBack)
+    } else Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
@@ -298,7 +300,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
 
 /** What is being done right now, and how the last action went. */
 @Composable
-private fun Progress(state: BackupState) {
+internal fun Progress(state: BackupState) {
     state.working?.let { working ->
         Column(Modifier.fillMaxWidth()) {
             Text("$working…", style = MaterialTheme.typography.bodyMedium)
@@ -479,7 +481,7 @@ private fun IncludedCard(modifier: Modifier = Modifier) {
 }
 
 @Composable
-private fun IncludedLine(text: String, icon: ImageVector, tint: Color) {
+internal fun IncludedLine(text: String, icon: ImageVector, tint: Color) {
     Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 5.dp)) {
         Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(22.dp))
         Spacer(Modifier.width(14.dp))
@@ -489,9 +491,10 @@ private fun IncludedLine(text: String, icon: ImageVector, tint: Color) {
 
 private val MONTHS = listOf("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
-internal fun formatBackupTime(backup: Backup): String = backup.createdAt?.let(::formatBackupTime) ?: backup.name
+internal fun formatBackupTime(backup: Backup, seconds: Boolean = true): String = backup.createdAt?.let { formatBackupTime(it, seconds) } ?: backup.name
 
-private fun formatBackupTime(time: LocalDateTime): String {
+private fun formatBackupTime(time: LocalDateTime, seconds: Boolean): String {
     fun two(n: Int) = n.toString().padStart(2, '0')
-    return "${time.day} ${tr(MONTHS[time.month.ordinal])} ${time.year}, ${two(time.hour)}:${two(time.minute)}:${two(time.second)}"
+    val clock = "${two(time.hour)}:${two(time.minute)}" + if (seconds) ":${two(time.second)}" else ""
+    return "${time.day} ${tr(MONTHS[time.month.ordinal])} ${time.year}, $clock"
 }

@@ -9,6 +9,7 @@ import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollTo
@@ -116,6 +117,36 @@ class BackupScreenTest {
         onNodeWithText("Yes").performClick()
         waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Backup restored")).fetchSemanticsNodes().isNotEmpty() }
         assertEquals(listOf("O lobo"), runBlocking { books.getBooks() }.map { it.title })
+    }
+
+    /** A phone has one card with both actions, a plain history list with a menu per backup, and what is included folded away. */
+    @Test
+    fun aPhoneCreatesAndDeletesABackupFromItsOwnLayout() = runDesktopComposeUiTest(width = 400, height = 1100) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-backup-phone", ".db").also { it.delete() }))
+        val settings = SettingsRepositoryImpl(MapSettings())
+        runBlocking { LanguageRepositoryImpl(provider).save(Language(name = "Portuguese")) }
+        val repository = BackupRepositoryImpl(provider, settings, BackupFiles(Files.createTempDirectory("tayra-backup-phone").toFile()), Ticking(), timeZone = { TimeZone.UTC })
+        val viewModel = BackupViewModel(repository)
+        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, viewModel = viewModel) } }
+
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Protect your data")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Backups are stored on this device.").assertExists()
+        onNodeWithText("Create a backup").assertDoesNotExist()
+        onNodeWithTag("phone-create-backup").performClick()
+        // The phone row leaves the seconds out.
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("3 Oct 2026, 12:00")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("1 local").assertExists()
+        System.getenv("BACKUP_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+
+        onNodeWithTag("phone-whats-included").performScrollTo().performClick()
+        onNodeWithText("Languages and books").assertExists()
+        onNodeWithContentDescription("More for the backup of 3 Oct 2026, 12:00:00").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Delete")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Delete").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Delete this backup?")).fetchSemanticsNodes().isNotEmpty() }
+        onAllNodes(hasText("Delete") and hasClickAction()).onLast().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("3 Oct 2026, 12:00")).fetchSemanticsNodes().isEmpty() }
+        onNodeWithText("No backups yet. Create one to keep a copy of your data.").assertExists()
     }
 
     private fun ComposeUiTest.save(path: String) {
