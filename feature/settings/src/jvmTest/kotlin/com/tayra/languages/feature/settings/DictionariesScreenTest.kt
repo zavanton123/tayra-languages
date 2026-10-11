@@ -8,6 +8,7 @@ import androidx.compose.ui.test.hasClickAction
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollTo
@@ -95,6 +96,47 @@ class DictionariesScreenTest {
         onNodeWithText("Remove").performClick()
         waitUntil(timeoutMillis = 5_000) { "be-ru" !in store.installed }
         assertFalse("be-ru" in store.installed)
+    }
+
+    /** A phone downloads the pair's dictionary with one button and switches between Installed and Available with a search. */
+    @Test
+    fun aPhoneDownloadsThePairWithOneButtonAndSearchesTheRest() = runDesktopComposeUiTest(width = 400, height = 1200) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-dictionaries-phone", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val store = FakeStore(setOf("en-ru", "de-ru"))
+        val service = DictionaryService(store, FakeEntries)
+        runBlocking {
+            service.refresh()
+            val portuguese = languages.save(Language(name = "Portuguese"))
+            settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru") }
+        }
+        val viewModel = DictionariesViewModel(settings, service, languages)
+        setContent { Hosted(settings) { DictionariesScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
+
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian is not downloaded")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Manage downloaded dictionaries for offline lookup.").assertDoesNotExist()
+        onNodeWithText("Installed 2").assertExists()
+        System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+        onNodeWithTag("phone-download-current").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { "pt-ru" in store.installed }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Dictionary ready")).fetchSemanticsNodes().isNotEmpty() }
+
+        // Available leads with the learning language; a search looks through everything.
+        onNodeWithTag("phone-tab-AVAILABLE").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Available for Portuguese")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Portuguese → French").performScrollTo().assertExists()
+        onNodeWithText("Search dictionaries").performTextInput("Czech")
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("All dictionaries")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Czech → Russian").performScrollTo().assertExists()
+
+        // Installed lists what is on the device, with removal from the row's menu.
+        onNodeWithTag("phone-tab-INSTALLED").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed dictionaries")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithContentDescription("More for German → Russian").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Remove").performClick()
+        waitUntil(timeoutMillis = 5_000) { "de-ru" !in store.installed }
     }
 
     private fun ComposeUiTest.save(path: String, root: Int = 0) {

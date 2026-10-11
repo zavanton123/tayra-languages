@@ -117,13 +117,13 @@ class DictionariesViewModel(
 }
 
 /** The pack's source and target language names, from its "Source → Target" title. */
-private val DictionaryPack.sourceName: String get() = title.substringBefore(" →")
-private val DictionaryPack.targetName: String get() = title.substringAfter("→ ", id.targetLanguage)
+internal val DictionaryPack.sourceName: String get() = title.substringBefore(" →")
+internal val DictionaryPack.targetName: String get() = title.substringAfter("→ ", id.targetLanguage)
 
 /** The pack's title with the language names in the interface language. */
-private val DictionaryPack.displayTitle: String get() = "${tr(sourceName)} \u2192 ${tr(targetName)}"
+internal val DictionaryPack.displayTitle: String get() = "${tr(sourceName)} \u2192 ${tr(targetName)}"
 
-private fun DictionaryPack.matches(query: String): Boolean =
+internal fun DictionaryPack.matches(query: String): Boolean =
     query.isBlank() || title.contains(query.trim(), ignoreCase = true) || displayTitle.contains(query.trim(), ignoreCase = true)
 
 /**
@@ -153,7 +153,9 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
         }
     }
 
-    Scaffold(
+    if (compact) {
+        PhoneDictionariesScreen(packs, learning, native, nativeName, current, viewModel, onNavigate, onBack, onTest = { testing = it }, pill)
+    } else Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
@@ -360,7 +362,7 @@ private fun Segmented(options: List<String>, selected: String?, onSelect: (Strin
 }
 
 @Composable
-private fun InstalledRow(status: PackStatus, onRemove: () -> Unit) {
+internal fun InstalledRow(status: PackStatus, onRemove: () -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
     var menu by remember { mutableStateOf(false) }
     Row(Modifier.fillMaxWidth().heightIn(min = 52.dp).padding(start = 8.dp, end = 4.dp), verticalAlignment = Alignment.CenterVertically) {
