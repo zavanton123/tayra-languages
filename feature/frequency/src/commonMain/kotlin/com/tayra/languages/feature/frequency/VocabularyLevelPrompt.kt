@@ -34,9 +34,10 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.ui.graphics.RectangleShape
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.rememberModalBottomSheetState
+import androidx.compose.ui.unit.Dp
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -92,26 +93,108 @@ fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: Vo
     LaunchedEffect(ready, state.picked) {
         if (ready && !state.chosen && state.picked == null) viewModel.pick(0)
     }
-    // On a phone the prompt takes the whole screen, as a page of its own; elsewhere it floats.
-    val compact = LocalWindowWidth.current.isCompact
+    val later = { viewModel.forgetPick(); onClosed() }
+    // On a phone the prompt is a bottom sheet with the essentials; elsewhere a floating dialog with the cards.
+    if (LocalWindowWidth.current.isCompact) {
+        PhonePromptSheet(ready, state, onPick = viewModel::pick, onSave = viewModel::save, onLater = later)
+        return
+    }
     Dialog(onDismissRequest = {}, properties = DialogProperties(usePlatformDefaultWidth = false, dismissOnClickOutside = false)) {
         Surface(
-            if (compact) Modifier.fillMaxSize().testTag("vocabulary-level-prompt")
-            else Modifier.widthIn(max = 1180.dp).fillMaxWidth(0.94f).padding(vertical = 24.dp).testTag("vocabulary-level-prompt"),
-            shape = if (compact) RectangleShape else RoundedCornerShape(28.dp),
+            Modifier.widthIn(max = 1180.dp).fillMaxWidth(0.94f).padding(vertical = 24.dp).testTag("vocabulary-level-prompt"),
+            shape = RoundedCornerShape(28.dp),
             color = MaterialTheme.colorScheme.surface,
         ) {
             if (!ready) {
                 Box(Modifier.fillMaxWidth().heightIn(min = 240.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
                 return@Surface
             }
-            VocabularyLevelPromptContent(
-                state,
-                onPick = viewModel::pick,
-                onSave = viewModel::save,
-                onLater = { viewModel.forgetPick(); onClosed() },
-            )
+            VocabularyLevelPromptContent(state, onPick = viewModel::pick, onSave = viewModel::save, onLater = later)
         }
+    }
+}
+
+/**
+ * The prompt on a phone: a bottom sheet with the question, the estimate and its slider, and the
+ * sample text coloured by it; swiping it away puts the question off, like Skip for now.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit, onLater: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    ModalBottomSheet(
+        onDismissRequest = onLater,
+        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
+        sheetMaxWidth = Dp.Unspecified,
+        containerColor = colors.surface,
+        modifier = Modifier.testTag("vocabulary-level-prompt"),
+    ) {
+        val list = state.list
+        if (!ready || list == null) {
+            Box(Modifier.fillMaxWidth().heightIn(min = 240.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
+            return@ModalBottomSheet
+        }
+        val level = state.picked ?: state.level
+        val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
+        val index = choices.indexOf(level).coerceAtLeast(0)
+        Column(Modifier.padding(horizontal = 20.dp)) {
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                IconButton(onClick = onLater, enabled = !state.saving, modifier = Modifier.clip(CircleShape).background(colors.surfaceContainerHigh)) {
+                    Icon(Icons.Default.Close, contentDescription = tr("Close"))
+                }
+            }
+            Spacer(Modifier.height(8.dp))
+            Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+            Spacer(Modifier.height(6.dp))
+            Text(tr("Choose an estimate. Words below this level will start as known."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            Spacer(Modifier.height(20.dp))
+            Row(verticalAlignment = Alignment.Bottom) {
+                Text(formatCount(level), style = MaterialTheme.typography.displayMedium, fontWeight = FontWeight.Bold, color = colors.primary)
+                Spacer(Modifier.width(12.dp))
+                Text(trPlural(level, "word", "words"), Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineMedium, color = colors.onSurface)
+            }
+            Text(levelName(level), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+            Spacer(Modifier.height(8.dp))
+            // Four landmarks are all a phone's width can name.
+            LevelSlider(choices, index, onPick, named = setOf(0, 1000, 5000, choices.last()), sparse = true, caption = false)
+            Spacer(Modifier.height(16.dp))
+            Column(
+                Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.06f)).padding(16.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                Text(tr("Example text"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+                if (state.example.isEmpty()) {
+                    Text(tr("No sample text for {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)), color = colors.onSurfaceVariant)
+                } else {
+                    Text(
+                        colouredExample(state, level),
+                        style = MaterialTheme.typography.bodyLarge.copy(lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.3f),
+                        fontWeight = FontWeight.Medium,
+                        maxLines = 3,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                }
+            }
+            Spacer(Modifier.height(16.dp))
+        }
+        HorizontalDivider(color = colors.outlineVariant)
+        PromptButtons(state, level, onSave, onLater, Modifier.padding(horizontal = 20.dp, vertical = 12.dp), compact = true)
+    }
+}
+
+/** The sample text with each word in the colour of its standing at [level]: known, new, or outside the list. */
+@Composable
+private fun colouredExample(state: VocabularySettingsUiState, level: Int) = buildAnnotatedString {
+    val colors = MaterialTheme.colorScheme
+    val outside = colors.onSurfaceVariant.copy(alpha = 0.55f)
+    for (token in state.example) {
+        val color = when {
+            !token.isWord -> colors.onSurface
+            token.rank == null -> outside
+            token.rank <= level -> KNOWN_GREEN
+            else -> colors.primary
+        }
+        withStyle(SpanStyle(color = color)) { append(token.text) }
     }
 }
 
@@ -121,10 +204,6 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
     val colors = MaterialTheme.colorScheme
     val width = LocalWindowWidth.current
     val level = state.picked ?: state.level
-    if (width.isCompact) {
-        PhonePromptContent(state, list, level, onPick, onSave, onLater)
-        return
-    }
     Column {
         ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(start = 40.dp, end = 28.dp, top = 28.dp, bottom = 24.dp)) {
             Row(verticalAlignment = Alignment.Top) {
@@ -152,79 +231,6 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
         }
         HorizontalDivider(color = colors.outlineVariant)
         PromptButtons(state, level, onSave, onLater, Modifier.padding(horizontal = 28.dp, vertical = 20.dp))
-    }
-}
-
-/**
- * The prompt as one phone screen, with nothing to scroll: the title, the estimate with its slider
- * and the words at that level, spread over the height, and the buttons at the bottom. The reading
- * preview is left to wider screens.
- */
-@Composable
-private fun PhonePromptContent(state: VocabularySettingsUiState, list: FrequencyList, level: Int, onPick: (Int) -> Unit, onSave: () -> Unit, onLater: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
-    val index = choices.indexOf(level).coerceAtLeast(0)
-    Column(Modifier.fillMaxSize().padding(start = 20.dp, end = 8.dp, top = 8.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(
-                tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)),
-                Modifier.weight(1f),
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold,
-            )
-            IconButton(onClick = onLater, enabled = !state.saving) { Icon(Icons.Default.Close, contentDescription = tr("Close")) }
-        }
-        Text(
-            tr("Choose an estimate. Words below this level will start as known. You can change it later in Settings → Vocabulary."),
-            Modifier.padding(end = 12.dp),
-            style = MaterialTheme.typography.bodySmall,
-            color = colors.onSurfaceVariant,
-        )
-        // The rest keeps clear of the close button's column and shares out the height left.
-        Column(Modifier.weight(1f).padding(end = 12.dp), verticalArrangement = Arrangement.SpaceEvenly) {
-            Column {
-                Text(tr("Estimated vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                Row(verticalAlignment = Alignment.Bottom) {
-                    Text(formatCount(level), style = MaterialTheme.typography.displayMedium, fontWeight = FontWeight.Bold, color = colors.primary)
-                    Spacer(Modifier.width(10.dp))
-                    Text(trPlural(level, "word", "words"), Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineSmall, color = colors.onSurface)
-                }
-                Text(levelName(level), style = MaterialTheme.typography.titleMedium)
-            }
-            LevelSlider(choices, index, onPick, compact = true)
-            val words = remember(list, level, choices) {
-                val previous = if (index == 0) 0 else choices[index - 1]
-                if (level == 0) samples(list, 0, minOf(100, list.words.size)) else samples(list, previous, level)
-            }
-            Column(
-                Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.06f)).padding(14.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp),
-            ) {
-                Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
-                words.take(6).chunked(3).forEach { row ->
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        row.forEach { word ->
-                            Text(
-                                word,
-                                Modifier.weight(1f).clip(RoundedCornerShape(50)).background(colors.primary.copy(alpha = 0.10f)).padding(vertical = 6.dp, horizontal = 8.dp),
-                                style = MaterialTheme.typography.bodyMedium,
-                                textAlign = TextAlign.Center,
-                                maxLines = 1,
-                                overflow = TextOverflow.Ellipsis,
-                            )
-                        }
-                        repeat(3 - row.size) { Spacer(Modifier.weight(1f)) }
-                    }
-                }
-                Text(
-                    if (level == 0) tr("Not familiar yet? Start from scratch, or move the slider.") else tr("Move the slider until these words feel familiar."),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = colors.onSurfaceVariant,
-                )
-            }
-        }
-        PromptButtons(state, level, onSave, onLater, Modifier.padding(end = 12.dp, top = 8.dp, bottom = 12.dp), compact = true)
     }
 }
 
@@ -294,7 +300,7 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
         }
         Text(levelName(level), style = if (compact) MaterialTheme.typography.titleMedium else MaterialTheme.typography.titleLarge)
         Spacer(Modifier.height(if (compact) 12.dp else 18.dp))
-        LevelSlider(choices, index, onPick, compact)
+        LevelSlider(choices, index, onPick, sparse = compact)
         Spacer(Modifier.height(if (compact) 16.dp else 22.dp))
         // The words a learner at this level has just reached; at 0, the first ones to learn.
         val words = remember(list, level, choices) {
@@ -330,10 +336,13 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
     }
 }
 
-/** A slider that stops at each level, with ticks under it and the main levels named; a [compact] one ticks only the named levels. */
+/**
+ * A slider that stops at each level, with ticks under it and the [named] levels labelled, plus any
+ * other with room unless [sparse], which also ticks only the named levels; [caption] names the start.
+ */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, compact: Boolean) {
+private fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, named: Set<Int> = NAMED_STOPS, sparse: Boolean = false, caption: Boolean = true) {
     val colors = MaterialTheme.colorScheme
     val last = (choices.size - 1).coerceAtLeast(1)
     Column {
@@ -356,11 +365,11 @@ private fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, c
         // at either end. Names that would run into one another are left out, the chosen level's first.
         Layout(
             content = {
-                choices.forEach { stop -> Box(Modifier.width(1.5.dp).height(10.dp).background(if (compact && stop !in NAMED_STOPS) Color.Transparent else colors.outline)) }
+                choices.forEachIndexed { i, stop -> Box(Modifier.width(1.5.dp).height(10.dp).background(if (sparse && stop !in named && i != index) Color.Transparent else colors.outline)) }
                 choices.forEachIndexed { i, stop ->
                     Text(
                         shortCount(stop),
-                        style = if (compact) MaterialTheme.typography.bodySmall else MaterialTheme.typography.bodyMedium,
+                        style = if (sparse) MaterialTheme.typography.bodySmall else MaterialTheme.typography.bodyMedium,
                         fontWeight = if (i == index) FontWeight.Bold else FontWeight.Normal,
                         color = if (i == index) colors.primary else colors.onSurfaceVariant,
                     )
@@ -378,7 +387,7 @@ private fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, c
             val shown = mutableSetOf<Int>()
             fun fits(i: Int) = shown.none { j -> left(i) < left(j) + names[j].width + gap && left(j) < left(i) + names[i].width + gap }
             // The chosen level, the two ends, the named levels, then any other stop with room.
-            val order = listOf(index, 0, choices.size - 1) + choices.indices.filter { choices[it] in NAMED_STOPS } + choices.indices
+            val order = listOf(index, 0, choices.size - 1) + choices.indices.filter { choices[it] in named } + if (sparse) emptyList() else choices.indices
             for (i in order) if (i !in shown && fits(i)) shown += i
             val tickHeight = ticks.maxOf { it.height }
             val top = tickHeight + 6.dp.roundToPx()
@@ -387,7 +396,7 @@ private fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, c
                 shown.forEach { i -> names[i].place(left(i), top) }
             }
         }
-        Text(tr("Starting out"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+        if (caption) Text(tr("Starting out"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
     }
 }
 
@@ -415,17 +424,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
                 Text(tr("No sample text for {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)), color = colors.onSurfaceVariant)
             } else {
                 Text(
-                    buildAnnotatedString {
-                        for (token in state.example) {
-                            val color = when {
-                                !token.isWord -> colors.onSurface
-                                token.rank == null -> outside
-                                token.rank <= level -> KNOWN_GREEN
-                                else -> colors.primary
-                            }
-                            withStyle(SpanStyle(color = color)) { append(token.text) }
-                        }
-                    },
+                    colouredExample(state, level),
                     style = MaterialTheme.typography.bodyLarge.copy(lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.45f),
                     maxLines = 9,
                     overflow = TextOverflow.Ellipsis,

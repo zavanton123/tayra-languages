@@ -29,6 +29,8 @@ internal val ruFrequency: Map<String, String> = mapOf(
     // VocabularyLevelPrompt.kt
     "How much {0} do you know?" to "Насколько хорошо вы знаете {0}?",
     "Choose an estimate. Words below this level will start as known. You can change it later in Settings → Vocabulary." to "Выберите примерную оценку. Слова до этого уровня сразу получат статус «Знаю». Изменить её можно позже в разделе «Настройки → Слова».",
+    "Choose an estimate. Words below this level will start as known." to "Выберите примерную оценку. Слова до этого уровня сразу получат статус «Знаю».",
+    "Example text" to "Пример текста",
     "Close" to "Закрыть",
     "Skip for now" to "Пропустить",
     "Saving…" to "Сохранение…",

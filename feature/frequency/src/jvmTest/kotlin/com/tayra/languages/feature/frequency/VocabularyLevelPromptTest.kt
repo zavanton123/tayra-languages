@@ -97,6 +97,23 @@ class VocabularyLevelPromptTest {
         assertEquals(false, runBlocking { service.needsLevel(portuguese) })
     }
 
+    @Test
+    fun aPhoneGetsABottomSheetWithTheSampleText() = runDesktopComposeUiTest(width = 400, height = 860) {
+        show()
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("How much Portuguese do you know?").assertExists()
+        onNodeWithText("Example text").assertExists()
+        assertTrue(onAllNodesWithText("Your first words").fetchSemanticsNodes().isEmpty(), "the sheet keeps to the sample text")
+        assertTrue(onAllNodesWithText("Reading preview").fetchSemanticsNodes().isEmpty())
+        onNodeWithTag("level-slider").performSemanticsAction(SemanticsActions.SetProgress) { it(7f) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Start with 1,000 words").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Elementary").assertExists()
+        System.getenv("LEVEL_SHEET_SCREENSHOT")?.let { save(it) }
+        onNodeWithText("Start with 1,000 words").performClick()
+        waitUntil(timeoutMillis = 10_000) { closed == 1 }
+        assertEquals(1000, viewModel.state.value.level)
+    }
+
     private fun ComposeUiTest.save(path: String) {
         waitForIdle()
         ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
