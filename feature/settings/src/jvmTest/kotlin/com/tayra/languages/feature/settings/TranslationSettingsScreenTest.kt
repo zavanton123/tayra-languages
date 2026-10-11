@@ -14,8 +14,10 @@ import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
@@ -113,6 +115,38 @@ class TranslationSettingsScreenTest {
         onNodeWithText("Remove").performClick()
         waitUntil(timeoutMillis = 5_000) { "bg-en" !in argos.installed }
         assertFalse("bg-en" in argos.installed)
+    }
+
+    /** A phone installs what the pair lacks with one button and reaches the rest of the catalogue through a sheet. */
+    @Test
+    fun aPhoneInstallsTheMissingPackagesWithOneButton() = runDesktopComposeUiTest(width = 400, height = 1100) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-translation-phone", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val argos = FakeArgos(setOf("cs-en", "de-en"))
+        runBlocking {
+            val portuguese = languages.save(Language(name = "Portuguese"))
+            settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru", translationEngine = TranslationEngine.ARGOS) }
+        }
+        val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(argos), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
+
+        // Portuguese → Russian needs two packages, so it goes through English; one button installs both.
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian translates through English.")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Language setup").assertDoesNotExist()
+        onNodeWithText("Portuguese → English").assertExists()
+        onNodeWithText("English → Russian").assertExists()
+        System.getenv("TRANSLATION_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+        onNodeWithTag("phone-install-missing").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { "pt-en" in argos.installed && "en-ru" in argos.installed }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian is ready")).fetchSemanticsNodes().isNotEmpty() }
+
+        // The catalogue sheet lists the rest and searches them.
+        onNodeWithTag("phone-browse-packages").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Italian → English")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Search packages").performTextInput("pol")
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Italian → English")).fetchSemanticsNodes().isEmpty() }
+        onNodeWithText("Polish → English").assertExists()
     }
 
     private fun ComposeUiTest.save(path: String) {

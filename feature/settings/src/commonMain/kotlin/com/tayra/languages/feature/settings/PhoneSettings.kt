@@ -17,19 +17,15 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -43,7 +39,6 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppIcons
@@ -51,6 +46,7 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.NumberStepper
+import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.RoundSlider
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
@@ -194,38 +190,5 @@ private fun SliderRow(label: String, value: String, current: Float, range: Close
             valueRange = range,
             modifier = Modifier.fillMaxWidth().semantics { contentDescription = name }.testTag("phone-slider-$name"),
         )
-    }
-}
-
-/** A bottom sheet listing [options] to pick one from, the chosen one ticked; [labelContent] draws an option's name, [leading] goes before it. */
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun <T> PickerSheet(
-    title: String,
-    options: List<T>,
-    selected: T,
-    label: (T) -> String,
-    onDismiss: () -> Unit,
-    onPick: (T) -> Unit,
-    labelContent: @Composable (T) -> Unit = { Text(label(it), style = MaterialTheme.typography.bodyLarge) },
-    leading: @Composable ((T) -> Unit)? = null,
-) {
-    val colors = MaterialTheme.colorScheme
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), sheetMaxWidth = Dp.Unspecified, containerColor = colors.surface) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 4.dp).padding(bottom = 16.dp)) {
-            Text(title, Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-            options.forEach { option ->
-                Row(
-                    Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).clickable { onPick(option) }.padding(vertical = 12.dp, horizontal = 4.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(12.dp),
-                ) {
-                    leading?.let { it(option) }
-                    Row(Modifier.weight(1f)) { labelContent(option) }
-                    if (option == selected) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(22.dp))
-                    else Spacer(Modifier.width(22.dp))
-                }
-            }
-        }
     }
 }

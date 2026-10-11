@@ -16,13 +16,10 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowRight
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -34,7 +31,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.tayra.languages.core.domain.language.LanguageCatalog
@@ -43,7 +39,7 @@ import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LanguageFlag
-import com.tayra.languages.core.ui.components.LanguageMenuRow
+import com.tayra.languages.core.ui.components.LanguagePickerSheet
 import com.tayra.languages.core.ui.components.LearningLanguageState
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.i18n.tr
@@ -81,7 +77,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         }
     }
     if (learningSheet && learning != null) {
-        LanguageSheet(
+        LanguagePickerSheet(
             tr("I'm learning"), learning.languages, selected = learning.languages.firstOrNull { it.first == learning.currentId },
             name = { tr(it.second) }, flagName = { it.second },
             unavailable = { if (it.first in learning.nativeIds) tr("Your native language") else null },
@@ -91,7 +87,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         )
     }
     if (nativeSheet) {
-        LanguageSheet(
+        LanguagePickerSheet(
             tr("Show meanings in"), LanguageCatalog.nativeLanguages, selected = native,
             name = { tr(it.name) }, flagName = { it.name },
             unavailable = { if (it.code == learningCode) tr("You are learning it") else null },
@@ -100,7 +96,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         )
     }
     if (uiSheet) {
-        LanguageSheet(
+        LanguagePickerSheet(
             tr("Interface language"), LanguageCatalog.interfaceLanguages, selected = ui,
             name = { it.name }, flagName = { LanguageCatalog.nativeOption(it.code).name },
             onDismiss = { uiSheet = false },
@@ -145,36 +141,5 @@ private fun PhoneLanguageRow(flagName: String?, tag: String, label: String? = fl
         }
         Text(label.orEmpty(), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Icon(Icons.Default.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
-    }
-}
-
-/** A bottom sheet of the [options], each with its flag, the chosen one ticked and the ones that cannot be chosen dimmed with why. */
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun <T> LanguageSheet(
-    title: String,
-    options: List<T>,
-    selected: T?,
-    name: (T) -> String,
-    flagName: (T) -> String,
-    onDismiss: () -> Unit,
-    onPick: (T) -> Unit,
-    unavailable: (T) -> String? = { null },
-) {
-    val colors = MaterialTheme.colorScheme
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), sheetMaxWidth = Dp.Unspecified, containerColor = colors.surface) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 4.dp).padding(bottom = 16.dp)) {
-            Text(title, Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-            options.forEach { option ->
-                val chosen = option == selected
-                val note = if (chosen) null else unavailable(option)
-                Row(
-                    Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).clickable(enabled = note == null) { if (!chosen) onPick(option) else onDismiss() }
-                        .padding(vertical = 10.dp, horizontal = 4.dp),
-                ) {
-                    LanguageMenuRow(flagName(option), name(option), chosen, note)
-                }
-            }
-        }
     }
 }

@@ -244,6 +244,10 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
     val missing = packages.filter { it.key in wanted && !it.installed }
     val pair = PairState(learningName, nativeName, missing, sameLanguage = inUse.contains(native))
 
+    if (LocalWindowWidth.current.isCompact) {
+        PhoneTranslationScreen(settings, viewModel, onNavigate, onBack, local, checking = busy || !checked, ready, pair, packages, wanted, learningName, nativeName)
+        return
+    }
     Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -268,13 +272,13 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
 }
 
 /** Whether the language being learned can be translated into the native language with what is installed. */
-private class PairState(val learning: String?, val native: String, val missing: List<LocalPackage>, val sameLanguage: Boolean) {
+internal class PairState(val learning: String?, val native: String, val missing: List<LocalPackage>, val sameLanguage: Boolean) {
     val label: String get() = "${learning ?: tr("Your language")} → $native"
     val ready: Boolean get() = missing.isEmpty()
 }
 
 @Composable
-private fun EngineStatusPill(settings: UserSettings, viewModel: OfflineTranslationViewModel, local: Boolean, checking: Boolean, ready: Boolean, pair: PairState) {
+internal fun EngineStatusPill(settings: UserSettings, viewModel: OfflineTranslationViewModel, local: Boolean, checking: Boolean, ready: Boolean, pair: PairState) {
     when (settings.translationEngine) {
         TranslationEngine.ARGOS -> when {
             !local -> StatusPill(tr("Online translation: {0}", "MyMemory"), StatusTints.ok)
@@ -485,7 +489,7 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
 }
 
 @Composable
-private fun GoogleSettings(settings: UserSettings, viewModel: OfflineTranslationViewModel) {
+internal fun GoogleSettings(settings: UserSettings, viewModel: OfflineTranslationViewModel) {
     var showKey by remember { mutableStateOf(false) }
     val googleBusy by viewModel.googleBusy.collectAsStateWithLifecycle()
     val googleStatus by viewModel.googleStatus.collectAsStateWithLifecycle()
@@ -508,13 +512,13 @@ private fun GoogleSettings(settings: UserSettings, viewModel: OfflineTranslation
 }
 
 /** The engine's name in menus, as [label] gives it, in the interface language. */
-private fun TranslationEngine.displayLabel(localTranslatorName: String?): String =
+internal fun TranslationEngine.displayLabel(localTranslatorName: String?): String =
     if (this == TranslationEngine.ARGOS && localTranslatorName != null) tr("{0} (offline, free)", localTranslatorName) else tr(label)
 
 /** The local translator's packages are named "from → to" with the languages' English names, or by [LocalPackage.label]. */
-private val LocalPackage.displayTitle: String get() = label?.let { tr(it) } ?: "${tr(fromName)} \u2192 ${tr(toName)}"
+internal val LocalPackage.displayTitle: String get() = label?.let { tr(it) } ?: "${tr(fromName)} \u2192 ${tr(toName)}"
 
-private fun TranslationEngine.shortName(localName: String): String = when (this) {
+internal fun TranslationEngine.shortName(localName: String): String = when (this) {
     TranslationEngine.ARGOS -> localName.ifEmpty { tr("On this device") }
     TranslationEngine.MYMEMORY -> "MyMemory"
     TranslationEngine.GOOGLE -> "Google Translate"
@@ -670,7 +674,7 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
 }
 
 @Composable
-private fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
+internal fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
     var menu by remember { mutableStateOf(false) }
     Row(
         modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp))
