@@ -11,6 +11,7 @@ import com.tayra.languages.core.ui.components.AppIcons
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
 import androidx.compose.foundation.clickable
+import androidx.compose.ui.draw.BlurredEdgeTreatment
 import androidx.compose.ui.draw.blur
 import androidx.compose.ui.graphics.graphicsLayer
 import com.tayra.languages.core.ui.components.softBlurAvailable
@@ -277,7 +278,8 @@ private fun Hideable(hidden: Boolean, theme: AppTheme, onReveal: () -> Unit, con
     val label = tr("Hidden sentence")
     val show = tr("Show the sentence")
     val veil = if (softBlurAvailable) {
-        Modifier.blur(9.dp)
+        // Unbounded, so the blur fades out past the text's edges instead of being cut off at them.
+        Modifier.blur(9.dp, BlurredEdgeTreatment.Unbounded)
     } else {
         Modifier.drawBehind { drawRoundRect(theme.readingText.copy(alpha = 0.08f), cornerRadius = CornerRadius(8.dp.toPx())) }.graphicsLayer { alpha = 0f }
     }
