@@ -50,6 +50,7 @@ enum class HotkeyCategory(val label: String) {
     DISPLAY("Display"),
     COPY("Copy"),
     MISC("Misc"),
+    FLASHCARDS("Flashcards"),
 }
 
 /**
@@ -117,7 +118,9 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     NEXT_THEME(HotkeyCategory.MISC, "Change to the next theme", Hotkey("M")),
     TOGGLE_HIGHLIGHT(HotkeyCategory.MISC, "Toggle highlights", Hotkey("H")),
     TOGGLE_FOCUS(HotkeyCategory.MISC, "Toggle focus mode", Hotkey("F")),
-    SAVE_TERM(HotkeyCategory.MISC, "Save term in term form", Hotkey("Enter", ctrl = true));
+    SAVE_TERM(HotkeyCategory.MISC, "Save term in term form", Hotkey("Enter", ctrl = true)),
+
+    FLASHCARDS_PREVIOUS(HotkeyCategory.FLASHCARDS, "Go back to the previous card", Hotkey("Z", ctrl = true));
 
     /** Stable key used for persistence. */
     val settingKey: String get() = "hotkey_$name"

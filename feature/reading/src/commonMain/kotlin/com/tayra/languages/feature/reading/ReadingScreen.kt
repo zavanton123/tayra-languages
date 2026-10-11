@@ -257,7 +257,7 @@ fun ReadingScreen(
             HotkeyAction.NEXT_THEME -> viewModel.nextTheme()
             HotkeyAction.TOGGLE_HIGHLIGHT -> viewModel.toggleHighlights()
             HotkeyAction.TOGGLE_FOCUS -> viewModel.toggleFocusMode()
-            HotkeyAction.SAVE_TERM -> return false
+            HotkeyAction.SAVE_TERM, HotkeyAction.FLASHCARDS_PREVIOUS -> return false
         }
         return true
     }

@@ -19,6 +19,9 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.test.pressKey
+import androidx.compose.ui.test.withKeyDown
+import com.tayra.languages.core.domain.settings.Hotkey
+import com.tayra.languages.core.domain.settings.HotkeyAction
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
@@ -62,7 +65,7 @@ class FlashcardsScreenTest {
     private val sentence = "Quando precisamos comprar alguma coisa, passamos no supermercado."
     private var termId = 0L
 
-    private fun ComposeUiTest.show(): FlashcardsViewModel {
+    private fun ComposeUiTest.show(hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults): FlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru") }
@@ -96,6 +99,7 @@ class FlashcardsScreenTest {
                                     state,
                                     speaker = null,
                                     actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard),
+                                    hotkeys = hotkeys,
                                 )
                             }
                         }
@@ -158,14 +162,28 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("LEARNING").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(TermStatus.NEW_1, status())
         onNodeWithText("Card 2 of 2").assertExists()
-        // Back once more, with the key: the first answer goes too, and the card is new again.
-        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.DirectionLeft) }
+        // Back once more, with the shortcut (Ctrl+Z by default): the first answer goes too, and the card is new again.
+        onNodeWithTag("flashcard").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Z) } }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("NEW").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Card 1 of 1").assertExists()
         // Nothing lies behind the first card.
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.DirectionLeft) }
         waitForIdle()
         onNodeWithText("Card 1 of 1").assertExists()
+    }
+
+    /** The shortcut back is the configurable one: given another key, that key goes back and Ctrl+Z no longer does. */
+    @Test
+    fun theShortcutBackCanBeChanged() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(hotkeys = HotkeyAction.defaults + (HotkeyAction.FLASHCARDS_PREVIOUS to Hotkey("B")))
+        onNodeWithText("Show answer").performClick()
+        onNodeWithTag("answer-Good").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("LEARNING").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("flashcard").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Z) } }
+        waitForIdle()
+        onNodeWithText("LEARNING").assertExists()
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.B) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("NEW").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** The answer is read aloud when shown, and the reading stops as the card goes away. */

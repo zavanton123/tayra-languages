@@ -185,6 +185,7 @@ private fun HotkeyCategory.title(): String = when (this) {
     HotkeyCategory.DISPLAY -> tr("Display")
     HotkeyCategory.COPY -> tr("Copying")
     HotkeyCategory.MISC -> tr("Misc")
+    HotkeyCategory.FLASHCARDS -> tr("Flashcards")
 }
 
 /** The keys of [hotkey] as keycap labels, modifiers first. */
@@ -215,6 +216,7 @@ private fun HotkeyCategory.icon(): ImageVector = when (this) {
     HotkeyCategory.DISPLAY -> AppIcons.FormatSize
     HotkeyCategory.COPY -> AppIcons.ContentCopy
     HotkeyCategory.MISC -> AppIcons.Tune
+    HotkeyCategory.FLASHCARDS -> AppIcons.School
 }
 
 @OptIn(ExperimentalLayoutApi::class)

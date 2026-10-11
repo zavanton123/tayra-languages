@@ -15,6 +15,8 @@ import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.WordTranslationService
+import com.tayra.languages.core.domain.settings.Hotkey
+import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.state.UiEvents
 import kotlinx.coroutines.Job
@@ -93,6 +95,8 @@ class FlashcardsViewModel(
     private var waitingJob: Job? = null
 
     private val languageId: Long? get() = settings.current.currentLanguageId.takeIf { it != 0L }
+
+    val hotkeys: Map<HotkeyAction, Hotkey?> get() = settings.current.hotkeys
 
     init {
         load()

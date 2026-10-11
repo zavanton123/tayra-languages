@@ -60,7 +60,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.domain.settings.Hotkey
+import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.ui.unit.sp
@@ -113,6 +116,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
         FlashcardsContent(
             state = state,
             speaker = speaker,
+            hotkeys = viewModel.hotkeys,
             actions = FlashcardActions(
                 onReveal = viewModel::reveal,
                 onAnswer = viewModel::answer,
@@ -152,9 +156,9 @@ private val Rating.tint: Color
         Rating.EASY -> Color(0xFF3B6FE0)
     }
 
-/** The page under the top bar. [speaker] reads the card aloud; without one there are no listen buttons. */
+/** The page under the top bar. [speaker] reads the card aloud; without one there are no listen buttons. [hotkeys] holds the shortcut back to the previous card. */
 @Composable
-internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier) {
+internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults) {
     val compact = LocalWindowWidth.current.isCompact
     val focus = remember { FocusRequester() }
     LaunchedEffect(state.card?.termId, state.revealed) { runCatching { focus.requestFocus() } }
@@ -163,8 +167,10 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
             .focusRequester(focus).focusable()
             .onPreviewKeyEvent { event ->
                 if (event.type != KeyEventType.KeyDown || state.card == null) return@onPreviewKeyEvent false
+                val pressed = HotkeyMatcher.fromEvent(event)
                 when {
-                    (event.isCtrlPressed || event.isMetaPressed) && event.key == Key.Z -> if (state.canUndo) actions.onUndo()
+                    // The configurable shortcut (Ctrl+Z unless changed), and the left arrow always.
+                    pressed != null && pressed == hotkeys[HotkeyAction.FLASHCARDS_PREVIOUS] -> if (state.canUndo) actions.onUndo()
                     event.key == Key.DirectionLeft -> if (state.canUndo) actions.onUndo()
                     event.isCtrlPressed || event.isMetaPressed -> return@onPreviewKeyEvent false
                     !state.revealed && (event.key == Key.Spacebar || event.key == Key.Enter) -> actions.onReveal()
