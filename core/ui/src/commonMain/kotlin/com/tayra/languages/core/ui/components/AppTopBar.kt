@@ -19,7 +19,6 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -115,10 +114,10 @@ fun AppTopBar(
                     IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back")) }
                 }
             },
+            // The phone's menu is its bottom bar (see PhoneNavBar), so the compact bar has none.
             actions = {
                 actions()
                 LearningLanguageSelector(compact = true)
-                if (showMenu) CompactMenu(onNavigate)
             },
             colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
         )
@@ -204,21 +203,5 @@ private fun NavTab(section: NavSection, active: Boolean, onClick: () -> Unit) {
             Modifier.fillMaxWidth().height(2.dp).clip(RoundedCornerShape(1.dp))
                 .background(if (active) MaterialTheme.colorScheme.primary else androidx.compose.ui.graphics.Color.Transparent),
         )
-    }
-}
-
-@Composable
-private fun CompactMenu(onNavigate: (Route) -> Unit) {
-    var open by remember { mutableStateOf(false) }
-    Box {
-        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("Menu")) }
-        AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            menuGroups.forEachIndexed { i, group ->
-                if (i > 0) HorizontalDivider()
-                group.entries.forEach { entry ->
-                    AppMenuItem(text = { Text(tr(entry.label)) }, onClick = { open = false; onNavigate(entry.route) })
-                }
-            }
-        }
     }
 }

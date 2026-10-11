@@ -2,6 +2,10 @@ package com.tayra.languages.core.ui.i18n.ru
 
 /** Shared words, the language names, and the app's frame: top bar, components, themes and the platform launchers. */
 internal val ruCommon: Map<String, String> = mapOf(
+    // PhoneNavigation.kt
+    "Insights" to "Обзор",
+    "Preferences" to "Настройки",
+    "Data" to "Данные",
     // Language names, shown through tr(name).
     "Belarusian" to "Белорусский",
     "Bulgarian" to "Болгарский",
