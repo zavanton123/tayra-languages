@@ -74,7 +74,6 @@ import com.tayra.languages.core.domain.settings.Hotkey
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.ui.input.key.onPreviewKeyEvent
-import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
@@ -552,9 +551,7 @@ private fun ReadingBody(
             .padding(start = edgePadding, end = edgePadding, top = if (compact) 16.dp else 28.dp)
     }
     Box(Modifier.fillMaxSize()) {
-    // The visible height, so the sentence being read can be scrolled to the middle of it.
-    var visibleHeight by remember { mutableStateOf(0) }
-    Column(Modifier.fillMaxSize().onSizeChanged { visibleHeight = it.height }.verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
+    Column(Modifier.fillMaxSize().verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
         Column(cardModifier) {
             if (!focus) {
                 Text(
@@ -591,7 +588,6 @@ private fun ReadingBody(
                 readingSentence = if (state.settings.showSentencePlay) (if (playingSentence != null) playingPlace else continuous.currentIndex) else null,
                 readingHeard = playingSentence != null,
                 followReading = continuous.active,
-                visibleHeight = visibleHeight,
                 edgePadding = edgePadding,
                 callbacks = callbacks,
             )

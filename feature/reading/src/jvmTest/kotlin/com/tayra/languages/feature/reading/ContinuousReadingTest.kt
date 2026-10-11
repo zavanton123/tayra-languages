@@ -45,7 +45,6 @@ import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.input.key.Key
 import kotlin.test.assertTrue
-import kotlin.math.abs
 import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.compose.ui.test.SemanticsMatcher
@@ -268,9 +267,9 @@ class ContinuousReadingTest {
         assertTrue(highlighted("O lobo dorme."), "auto-pause stops on the sentence once it is finished")
     }
 
-    /** On a long page the sentence being read is scrolled to the middle of the reading area. */
+    /** On a long page the sentence being read is scrolled onto the screen and no further. */
     @Test
-    fun theSentenceBeingReadIsCentred() {
+    fun theSentenceBeingReadIsKeptOnScreen() {
         val long = (1..30).joinToString(" ") { "Frase número $it." }
         show(autoPause = false, text = long, sentenceMillis = 3_000)
         rule.onNodeWithContentDescription("Read the page").performClick()
@@ -286,13 +285,13 @@ class ContinuousReadingTest {
         Thread.sleep(800)
         rule.waitForIdle()
 
-        // The Stop button sits in the middle of the row being read.
+        // The Stop button sits in the row being read, which is on the screen.
         // The reader's scrolling area; the closed drawer has one too, off to the left.
         val area = rule.onAllNodes(SemanticsMatcher.keyIsDefined(SemanticsProperties.VerticalScrollAxisRange)).fetchSemanticsNodes()
             .map { it.boundsInRoot }.first { it.left >= 0f }
         val reading = rule.onNode(hasContentDescription("Stop")).fetchSemanticsNode().boundsInRoot
         assertEquals("Frase número 15.", sentenceBeingRead(listOf("Frase número 15.")))
-        assertTrue(abs(reading.center.y - area.center.y) < 30, "the row being read (${reading.center.y}) should sit at the middle (${area.center.y})")
+        assertTrue(reading.top >= area.top && reading.bottom <= area.bottom, "the row being read (${reading.top}–${reading.bottom}) should be on the screen (${area.top}–${area.bottom})")
     }
 
     /** The sentences read aloud, in order, until reading stops for a moment; [onPoll] looks at the screen each time. */

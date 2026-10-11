@@ -12,9 +12,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
 import androidx.compose.foundation.clickable
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.unit.IntSize
-import androidx.compose.ui.layout.onSizeChanged
-import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -144,8 +141,6 @@ fun ReadingText(
     readingHeard: Boolean = false,
     /** Keeps [readingSentence] scrolled into view while reading runs. */
     followReading: Boolean = false,
-    /** The height of the scrolling area in pixels, so the sentence followed is kept in its middle; 0 when unknown. */
-    visibleHeight: Int = 0,
     /** The margin between the card's edge and this text; a sentence button leaves the same space before the text. */
     edgePadding: Dp = 16.dp,
 ) {
@@ -224,7 +219,7 @@ fun ReadingText(
                 }
                 // The background takes in the sentence's translation too, beside it or under it.
                 if (twoColumns) {
-                    Row(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach, visibleHeight).padding(vertical = SENTENCE_ROW_PADDING), verticalAlignment = Alignment.Top) {
+                    Row(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING), verticalAlignment = Alignment.Top) {
                         if (onSpeakSentence != null) withButton(Modifier.weight(1f)) else Box(Modifier.weight(1f)) { sentence() }
                         Box(Modifier.width(24.dp))
                         Box(Modifier.weight(1f)) {
@@ -232,7 +227,7 @@ fun ReadingText(
                         }
                     }
                 } else if (perSentence) {
-                    Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach, visibleHeight).padding(vertical = SENTENCE_ROW_PADDING)) {
+                    Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING)) {
                         if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else sentence()
                         if (translated) {
                             Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp)) {
@@ -242,7 +237,7 @@ fun ReadingText(
                     }
                 } else {
                     // A flowing paragraph: its words are tinted instead.
-                    Box(Modifier.fillMaxWidth().followed(isReading, followReading, Color.Transparent, highlightReach, visibleHeight)) { sentence() }
+                    Box(Modifier.fillMaxWidth().followed(isReading, followReading, Color.Transparent, highlightReach)) { sentence() }
                 }
             }
         }
@@ -301,31 +296,19 @@ private fun SpeakerCircle(playing: Boolean, preparing: Boolean, modifier: Modifi
 /**
  * Marks the sentence being read: a light rounded background drawn [reach] beyond its sides, into
  * the card's margin, so it spans the whole row (none for a flowing paragraph, whose words are
- * tinted instead). Drawn, not laid out, so nothing moves as the highlight moves on.
- *
- * While [follow] is on it is scrolled to the middle of the [visibleHeight]: a screen-high area
- * around it is asked for, which only fits with the sentence centred. Asking this way leaves every
- * other request to bring something into view (a focused button, say) as it was.
+ * tinted instead); kept on screen while [follow] is on, scrolled no further than that takes.
+ * Drawn, not laid out, so nothing moves as the highlight moves on.
  */
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-private fun Modifier.followed(isReading: Boolean, follow: Boolean, tint: Color, reach: Dp, visibleHeight: Int): Modifier {
+private fun Modifier.followed(isReading: Boolean, follow: Boolean, tint: Color, reach: Dp): Modifier {
     val requester = remember { BringIntoViewRequester() }
-    var measuredSize by remember { mutableStateOf(IntSize.Zero) }
-    LaunchedEffect(isReading, follow) {
-        if (!isReading || !follow) return@LaunchedEffect
-        val margin = (visibleHeight - measuredSize.height) / 2f
-        if (margin > 0 && measuredSize != IntSize.Zero) {
-            requester.bringIntoView(Rect(0f, -margin, measuredSize.width.toFloat(), measuredSize.height.toFloat() + margin))
-        } else {
-            requester.bringIntoView()
-        }
-    }
+    LaunchedEffect(isReading, follow) { if (isReading && follow) requester.bringIntoView() }
     val current = tr(CURRENT_SENTENCE)
-    val measured = onSizeChanged { measuredSize = it }.bringIntoViewRequester(requester)
+    val marked = bringIntoViewRequester(requester)
         .then(if (isReading) Modifier.semantics { stateDescription = current } else Modifier)
-    if (!isReading || tint == Color.Transparent) return measured
-    return measured.drawBehind {
+    if (!isReading || tint == Color.Transparent) return marked
+    return marked.drawBehind {
         val side = reach.toPx()
         drawRoundRect(tint, topLeft = Offset(-side, 0f), size = Size(size.width + side * 2, size.height), cornerRadius = CornerRadius(12.dp.toPx()))
     }
