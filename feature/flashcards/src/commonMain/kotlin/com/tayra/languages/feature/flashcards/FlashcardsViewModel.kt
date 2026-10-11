@@ -59,6 +59,7 @@ data class FlashcardsUiState(
     val counts: DueCounts = DueCounts(),
     /** With no card to show: when the next card being learned comes back today. */
     val nextLearningAt: Instant? = null,
+    /** Whether an answered card lies behind the one on show, to go back to. */
     val canUndo: Boolean = false,
     /** Cards answered since the screen opened. */
     val answered: Int = 0,
@@ -86,7 +87,8 @@ class FlashcardsViewModel(
     val events = UiEvents<FlashcardsEvent>()
 
     private var current: Flashcard? = null
-    private var lastAnswer: FlashcardService.Answered? = null
+    /** The answers given this session, the latest last; going back takes them back one at a time. */
+    private val answers = ArrayDeque<FlashcardService.Answered>()
     private var extrasJob: Job? = null
     private var waitingJob: Job? = null
 
@@ -97,7 +99,7 @@ class FlashcardsViewModel(
         // The cards follow the language chosen in the top bar.
         viewModelScope.launch {
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().drop(1).collect {
-                lastAnswer = null
+                answers.clear()
                 _state.update { it.copy(canUndo = false) }
                 load()
             }
@@ -122,7 +124,7 @@ class FlashcardsViewModel(
                     revealed = false,
                     counts = session.counts,
                     nextLearningAt = session.nextLearningAt,
-                    canUndo = lastAnswer != null,
+                    canUndo = answers.isNotEmpty(),
                 )
             }
             if (term != null && language != null) loadExtras(term, language)
@@ -199,16 +201,15 @@ class FlashcardsViewModel(
         current = null
         events.trySend(FlashcardsEvent.StopSpeaking)
         viewModelScope.launch {
-            lastAnswer = service.answer(card, rating)
+            service.answer(card, rating)?.let { answers.addLast(it) }
             _state.update { it.copy(answered = it.answered + 1) }
             load()
         }
     }
 
-    /** Takes the last answer back and shows that card again. */
+    /** Goes back to the previous card: its answer is taken back and it is shown again, to answer anew. */
     fun undo() {
-        val answered = lastAnswer ?: return
-        lastAnswer = null
+        val answered = answers.removeLastOrNull() ?: return
         events.trySend(FlashcardsEvent.StopSpeaking)
         viewModelScope.launch {
             service.undo(answered)

@@ -26,7 +26,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -129,6 +129,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
 internal class FlashcardActions(
     val onReveal: () -> Unit = {},
     val onAnswer: (Rating) -> Unit = {},
+    /** Back to the previous card, its answer taken back. */
     val onUndo: () -> Unit = {},
     val onSuspend: () -> Unit = {},
     val onEdit: (termId: Long) -> Unit = {},
@@ -164,6 +165,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                 if (event.type != KeyEventType.KeyDown || state.card == null) return@onPreviewKeyEvent false
                 when {
                     (event.isCtrlPressed || event.isMetaPressed) && event.key == Key.Z -> if (state.canUndo) actions.onUndo()
+                    event.key == Key.DirectionLeft -> if (state.canUndo) actions.onUndo()
                     event.isCtrlPressed || event.isMetaPressed -> return@onPreviewKeyEvent false
                     !state.revealed && (event.key == Key.Spacebar || event.key == Key.Enter) -> actions.onReveal()
                     !state.revealed -> return@onPreviewKeyEvent false
@@ -414,7 +416,7 @@ private fun Answers(actions: FlashcardActions, compact: Boolean) {
 @Composable
 private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardActions) {
     FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally), itemVerticalAlignment = Alignment.CenterVertically) {
-        FooterLink(Icons.Default.Refresh, tr("Undo last answer"), enabled = canUndo, onClick = actions.onUndo)
+        FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), enabled = canUndo, onClick = actions.onUndo)
         PillDivider()
         FooterLink(Icons.Default.Edit, tr("Edit term"), onClick = { actions.onEdit(card.termId) })
         PillDivider()
@@ -457,7 +459,7 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
         }
         Text(detail, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            if (state.canUndo) TextButton(onClick = actions.onUndo) { Text(tr("Undo last answer")) }
+            if (state.canUndo) TextButton(onClick = actions.onUndo) { Text(tr("Previous card")) }
             TextButton(onClick = actions.onVocabulary) { Text(tr("Open vocabulary")) }
         }
     }

@@ -152,9 +152,20 @@ class FlashcardsScreenTest {
         onNodeWithText("2 of 2 answered").assertExists()
         save("FLASHCARD_DONE_SCREENSHOT")
 
-        onNodeWithText("Undo last answer").performClick()
+        // Back one card: the second answer is taken back and that card shown again.
+        onNodeWithText("Previous card").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("LEARNING").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(TermStatus.NEW_1, status())
+        onNodeWithText("Card 2 of 2").assertExists()
+        // Back once more, with the key: the first answer goes too, and the card is new again.
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.DirectionLeft) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("NEW").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Card 1 of 1").assertExists()
+        // Nothing lies behind the first card.
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.DirectionLeft) }
+        waitForIdle()
+        onNodeWithText("Card 1 of 1").assertExists()
     }
 
     /** The answer is read aloud when shown, and the reading stops as the card goes away. */
