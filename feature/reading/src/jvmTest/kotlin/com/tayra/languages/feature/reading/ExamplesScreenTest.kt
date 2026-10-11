@@ -78,6 +78,7 @@ import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.ReadingService
+import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.feature.terms.examples.ExampleTerms
 
 class ExamplesScreenTest {
@@ -132,6 +133,23 @@ class ExamplesScreenTest {
 
         rule.onNodeWithContentDescription("Close").performClick()
         rule.waitUntil(5_000) { !termField("voa") }
+    }
+
+    /** The pane's way to a word's examples searches this page for it, so no second Examples page piles up behind Back; the searched term has no such button. */
+    @Test
+    fun thePaneSearchesThePageInsteadOfOpeningAnotherOne() {
+        val navigated = mutableListOf<Route>()
+        val vm = show(listOf(ExampleSentence(text = "O tempo voa depressa.", translation = null)), paneSentences = listOf(ExampleSentence(text = "Ela voa alto.", translation = null)), onNavigate = { navigated += it })
+        rule.waitUntil(5_000) { termField("tempo") }
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText("Ela voa alto.")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, rule.onAllNodes(hasText("View all", substring = true)).fetchSemanticsNodes().size, "the searched term's pane offers no way to the same page")
+
+        rule.onAllNodes(hasText("O tempo voa depressa."))[0].performMouseInput { click(at("O tempo voa depressa.", "voa")) }
+        rule.waitUntil(5_000) { termField("voa") }
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText("View all", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        rule.onAllNodes(hasText("View all", substring = true))[0].performScrollTo().performClick()
+        rule.waitUntil(5_000) { vm.state.value.query?.text == "voa" }
+        assertEquals(emptyList(), navigated)
     }
 
     /** Where [word] sits in the text node showing [sentence]; the first node is the results list's. */
@@ -454,7 +472,7 @@ class ExamplesScreenTest {
         assertEquals(1, spoken.size, "the prepared audio is played, not made again")
     }
 
-    private fun show(sentences: List<ExampleSentence>, paneSentences: List<ExampleSentence> = emptyList(), speechDelayMs: Long = 0): ExamplesSearchViewModel {
+    private fun show(sentences: List<ExampleSentence>, paneSentences: List<ExampleSentence> = emptyList(), speechDelayMs: Long = 0, onNavigate: (Route) -> Unit = {}): ExamplesSearchViewModel {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-examples", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider).also { this.terms = it }
@@ -502,7 +520,7 @@ class ExamplesScreenTest {
             })
         }
         val vm = ExamplesSearchViewModel(languageId, "tempo", languages, settings, examples, exampleTerms)
-        rule.setContent { ExamplesSearchScreen(languageId, "tempo", onNavigate = {}, onBack = {}, viewModel = vm) }
+        rule.setContent { ExamplesSearchScreen(languageId, "tempo", onNavigate = onNavigate, onBack = {}, viewModel = vm) }
         return vm
     }
 

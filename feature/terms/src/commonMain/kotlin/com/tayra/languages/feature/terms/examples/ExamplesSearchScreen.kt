@@ -165,6 +165,12 @@ fun ExamplesSearchScreen(
     }
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> state.language?.let { wordTranslations.translate(it, word) } }
+    // The pane's "View all examples" searches this page for the word instead of opening another
+    // Examples page over it, so Back still leads out; for the searched word itself it is left out.
+    val searchFor: (String) -> ((String) -> Unit)? = { term ->
+        if (term.equals(query?.text?.trim(), ignoreCase = true)) null
+        else { word -> viewModel.updateQuery { it.copy(text = word) }; viewModel.search(); sheetOpen = false }
+    }
 
     val prefs by koinInject<SettingsRepository>().settings.collectAsStateWithLifecycle()
     val showHighlights = prefs.showHighlights
@@ -343,7 +349,7 @@ fun ExamplesSearchScreen(
                     shape = RoundedCornerShape(14.dp),
                     color = MaterialTheme.colorScheme.surface,
                 ) {
-                    TermPane(query.language.id, term, state.paneSentence, onClose = viewModel::closePane, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onNavigate = onNavigate)
+                    TermPane(query.language.id, term, state.paneSentence, onClose = viewModel::closePane, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onSearch = searchFor(term), onNavigate = onNavigate)
                 }
             }
         }
@@ -354,7 +360,7 @@ fun ExamplesSearchScreen(
     if (!wide && sheetOpen && sheetTerm != null && sheetLanguage != null) {
         val close = { sheetOpen = false }
         ModalBottomSheet(onDismissRequest = close, sheetState = rememberModalBottomSheetState(), sheetMaxWidth = Dp.Unspecified) {
-            TermPane(sheetLanguage.id, sheetTerm, state.paneSentence, onClose = close, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onNavigate = onNavigate)
+            TermPane(sheetLanguage.id, sheetTerm, state.paneSentence, onClose = close, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onSearch = searchFor(sheetTerm), onNavigate = onNavigate)
         }
     }
 }
@@ -375,6 +381,8 @@ private fun TermPane(
     onTermsChanged: () -> Unit,
     /** The form showing the term, null once the pane is gone. */
     onForm: (TermFormViewModel?) -> Unit,
+    /** Searches the page for the pane's term; null when it is the searched term already. */
+    onSearch: ((String) -> Unit)?,
     onNavigate: (Route) -> Unit,
 ) {
     val opening = remember(languageId, text) { Random.nextLong() }
@@ -397,7 +405,7 @@ private fun TermPane(
         embedded = true,
         onClose = { form.flush(); onClose() },
         onDuplicateClick = { onNavigate(Route.EditTerm(it)) },
-        onOpenExamples = { id, term -> onNavigate(Route.Examples(id, term)) },
+        onOpenExamples = onSearch?.let { search -> { _, term -> search(term) } },
         onManageDictionaries = { id -> onNavigate(Route.ManageDictionaries(id)) },
     )
 }
