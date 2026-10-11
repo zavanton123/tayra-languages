@@ -19,9 +19,14 @@ import kotlin.time.Clock
 import kotlin.time.Instant
 
 /**
- * Exports terms as Anki cloze notes, one per term: the sentence the term was read in with the
- * term blanked out, the sentence's translation, the term's translation, lemma and part of
- * speech, and the sentence read aloud. The note type matches Language Reactor's cards.
+ * Exports terms as Anki cloze notes: the sentence the term was read in with the term blanked
+ * out, the sentence's translation, the term's translation, lemma and part of speech, and the
+ * sentence read aloud. The note type matches Language Reactor's cards.
+ *
+ * A note stands for a card's content, not a term: a sentence is shared by the forms of a word
+ * family read in it, and all of them blank out the same form, so they make one note between
+ * them. Its guid comes from that content, so Anki never adds a second copy of the same card,
+ * even from a later export.
  */
 class AnkiExportService(
     private val terms: TermRepository,
@@ -34,8 +39,11 @@ class AnkiExportService(
     private val clock: Clock = Clock.System,
     private val timeZone: () -> TimeZone = { TimeZone.currentSystemDefault() },
 ) {
-    /** The package, the ids of the terms in it and how many terms were left out as already exported. */
-    class Export(val fileName: String, val bytes: ByteArray, val termIds: List<Long>, val skipped: Int)
+    /**
+     * The package, the ids of the terms in it (several may share a note), how many notes it
+     * holds and how many terms were left out as already exported.
+     */
+    class Export(val fileName: String, val bytes: ByteArray, val termIds: List<Long>, val notes: Int, val skipped: Int)
 
     /**
      * Builds the package for [termIds], leaving out terms exported before; null when none is
@@ -48,16 +56,18 @@ class AnkiExportService(
         val all = terms.getByIds(termIds).sortedBy { order[it.id] }
         val selected = all.filter { it.ankiExportedAt == null }
         if (selected.isEmpty()) return null
-        val notes = mutableListOf<AnkiNote>()
+        // Terms whose cards would read the same (a family's forms sharing a sentence) make one note; the first keeps it.
+        val notes = LinkedHashMap<String, AnkiNote>()
         val media = LinkedHashMap<String, AnkiMedia>()
         selected.forEachIndexed { index, term ->
             onProgress(index, selected.size)
             val language = languages.getById(term.languageId) ?: return@forEachIndexed
-            notes += noteFor(term, language, native, now, media)
+            val note = noteFor(term, language, native, now, media)
+            notes.getOrPut(note.guid) { note }
         }
         onProgress(selected.size, selected.size)
-        val collection = AnkiCollection(noteType(), notes, media.values.toList())
-        return Export("${stamp(now)}.apkg", packager.pack(collection, now), selected.map { it.id }, all.size - selected.size)
+        val collection = AnkiCollection(noteType(), notes.values.toList(), media.values.toList())
+        return Export("${stamp(now)}.apkg", packager.pack(collection, now), selected.map { it.id }, notes.size, all.size - selected.size)
     }
 
     /** Records that the terms of [export] are in Anki now, once its file was saved. */
@@ -77,8 +87,9 @@ class AnkiExportService(
             media.getOrPut(name) { AnkiMedia(name, wav) }
             "[sound:$name]"
         }.orEmpty()
+        val cloze = sentence?.let { cloze(it, Cloze.familyRange(it, term, terms), word) } ?: "{{c1::$word}}"
         val fields = listOf(
-            sentence?.let { cloze(it, Cloze.familyRange(it, term, terms), word) } ?: "{{c1::$word}}",
+            cloze,
             "WORD|$lemma|$code",
             sentence ?: word,
             translation,
@@ -104,7 +115,8 @@ class AnkiExportService(
             clip,
         )
         return AnkiNote(
-            guid = Sha1.hex("tayra|$code|${term.textLc}".encodeToByteArray()).take(16),
+            // The card's content names the note, so the same card is never added twice.
+            guid = Sha1.hex("tayra|$code|$cloze".encodeToByteArray()).take(16),
             deck = "Tayra Languages::${language.name}",
             fields = fields,
             tags = listOf("Tayra_Languages::lang::$code", "Tayra_Languages::source::reading"),

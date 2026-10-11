@@ -185,6 +185,40 @@ class AnkiExportTest {
         file.delete()
     }
 
+    /** The forms of a family read in one sentence make the same card, so they share one note, in one package or across two. */
+    @Test
+    fun aFamilySharingASentenceMakesOneNote() = runBlocking<Unit> {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val sentence = "Eu vou destruir esta parede."
+        val lemma = env.terms.save(Term(languageId = language, text = "destruir", textLc = "destruir", status = TermStatus.NEW_1, sentence = sentence))
+        val past = env.terms.save(Term(languageId = language, text = "destruíram", textLc = "destruíram", status = TermStatus.NEW_1, sentence = sentence))
+        env.terms.setParents(past, listOf(lemma))
+
+        val export = env.service.export(listOf(lemma, past))!!
+        assertEquals(listOf(lemma, past), export.termIds, "both terms count as exported")
+        assertEquals(1, export.notes)
+        val notes = notesOf(export.bytes)
+        assertEquals(1, notes.size)
+        assertEquals("Eu vou {{c1::destruir}} esta parede.", notes.single().second[0])
+        assertEquals("destruir", notes.single().second[4], "the first term keeps the note")
+
+        // Exported on their own, the two forms get the same guid, so Anki keeps one note of them.
+        assertEquals(notesOf(env.service.export(listOf(lemma))!!.bytes).single().first, notesOf(env.service.export(listOf(past))!!.bytes).single().first)
+    }
+
+    /** The guid and fields of each note of a package. */
+    private fun notesOf(apkg: ByteArray): List<Pair<String, List<String>>> {
+        val database = ZipInputStream(ByteArrayInputStream(apkg)).use { zip ->
+            generateSequence { zip.nextEntry }.first { it.name == "collection.anki2" }.let { zip.readBytes() }
+        }
+        val file = File.createTempFile("tayra-anki", ".anki2").apply { writeBytes(database) }
+        return DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { c ->
+            val rows = c.createStatement().executeQuery("SELECT guid, flds FROM notes ORDER BY id")
+            generateSequence { if (rows.next()) rows.getString(1) to rows.getString(2).split('\u001f') else null }.toList()
+        }.also { file.delete() }
+    }
+
     /** A word is exported once: after its package was saved it is left out, and nothing is made when all are out. */
     @Test
     fun exportedWordsAreNotExportedAgain() = runBlocking<Unit> {
