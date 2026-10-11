@@ -88,6 +88,36 @@ class CoursePacksScreenTest {
         onNodeWithText("Download").assertDoesNotExist()
     }
 
+    /** A phone shows the pack's figures and one full-width button that downloads, then removes after confirming. */
+    @Test
+    fun aPhoneDownloadsAndRemovesThePackWithOneButton() = runDesktopComposeUiTest(width = 400, height = 1000) {
+        var state by mutableStateOf<PackState>(PackState.NotInstalled)
+        var removed = 0
+        setContent {
+            Hosted(SettingsRepositoryImpl(MapSettings())) {
+                PhoneCoursePacksScreen(
+                    listOf(CoursePackStatus(pack, state)),
+                    languageName = "Portuguese",
+                    onDownload = { state = PackState.Installed(4_049_920) },
+                    onRemove = { removed++; state = PackState.NotInstalled },
+                    onNavigate = {},
+                    onBack = {},
+                )
+            }
+        }
+        onNodeWithText("Course downloads").assertExists()
+        onNodeWithText("1,000").assertExists()
+        onNodeWithText("1.2 MB").assertExists()
+        System.getenv("COURSE_PACKS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+        onNodeWithTag("download-courses-pt").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("remove-courses-pt").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("4.0 MB on this device").assertExists()
+        onNodeWithTag("remove-courses-pt").performClick()
+        onNodeWithTag("confirm-remove").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("download-courses-pt").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, removed)
+    }
+
     private fun ComposeUiTest.save(path: String) {
         waitForIdle()
         ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))

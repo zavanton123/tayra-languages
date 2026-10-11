@@ -32,6 +32,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
+import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.domain.courses.CoursePack
 import com.tayra.languages.core.domain.courses.CoursePackService
 import com.tayra.languages.core.domain.courses.CoursePackStatus
@@ -66,6 +67,10 @@ fun CoursePacksScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel
     // Only the pack of the language chosen in the top bar: the others are a tap of that bar away.
     val language = LocalLearningLanguage.current?.currentName
     val code = language?.let { LanguageCodes.codeFor(it) }
+    if (LocalWindowWidth.current.isCompact) {
+        PhoneCoursePacksScreen(packs.filter { it.pack.languageCode == code }, language, onDownload = viewModel::download, onRemove = viewModel::remove, onNavigate = onNavigate, onBack = onBack)
+        return
+    }
     Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
