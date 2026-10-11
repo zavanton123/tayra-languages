@@ -10,6 +10,7 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performTextInput
@@ -133,6 +134,38 @@ class TermsScreenTest {
         // The panel's reset goes back to how the screen opened.
         onNodeWithText("Reset all").performClick()
         waitForList("comprar", "pensar", hidden = listOf("gostar", "lá"))
+        onNodeWithContentDescription("1 filter on").assertExists()
+    }
+
+    /** A phone keeps the filters in a sheet: statuses in two columns, the days picked from a list, and a button that closes it. */
+    @Test
+    fun aPhoneFiltersFromASheet() = runDesktopComposeUiTest(width = 400, height = 1100) {
+        show()
+        waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
+        onNodeWithText("5 terms · 2 known").assertExists()
+        onNodeWithText("Filter vocabulary").assertDoesNotExist()
+        System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone.png"))) }
+
+        onNodeWithText("Filters").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("status-filter-K").performClick()
+        waitForList("gostar", "expressão", "comprar", "pensar", hidden = listOf("lá"))
+        onNodeWithContentDescription("Added to, days ago").performClick()
+        onNodeWithText("30").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("30").fetchSemanticsNodes().size == 1 }
+        onNodeWithContentDescription("Remove the added filter").assertDoesNotExist()
+        System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone-filters.png"))) }
+        onNodeWithText("Show 5 terms").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }
+        onNodeWithContentDescription("2 filters on").assertExists()
+
+        // The sheet's Reset goes back to how the screen opened.
+        onNodeWithText("Filters").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Reset").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Reset").performClick()
+        waitForList("comprar", "pensar", hidden = listOf("gostar", "lá"))
+        onNodeWithContentDescription("Close").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }
         onNodeWithContentDescription("1 filter on").assertExists()
     }
 }

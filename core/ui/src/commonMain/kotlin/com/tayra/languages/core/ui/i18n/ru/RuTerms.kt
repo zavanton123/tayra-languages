@@ -30,6 +30,13 @@ internal val ruTerms: Map<String, String> = mapOf(
     // TermsScreen.kt
     "Recently added" to "Недавно добавленные",
     "Term A–Z" to "По алфавиту",
+    // PhoneTerms.kt
+    "{0} terms · {1} known" to "Слов: {0} · известных: {1}",
+    "Select terms" to "Выбрать слова",
+    "Done selecting" to "Закончить выбор",
+    "Added today" to "Добавлено сегодня",
+    "Added yesterday" to "Добавлено вчера",
+    "Show {0} terms" to "Показать {0} слово|Показать {0} слова|Показать {0} слов",
     "Status" to "Статус",
     "OK" to "ОК",
     "Delete {0} terms?" to "Удалить {0} слово?|Удалить {0} слова?|Удалить {0} слов?",

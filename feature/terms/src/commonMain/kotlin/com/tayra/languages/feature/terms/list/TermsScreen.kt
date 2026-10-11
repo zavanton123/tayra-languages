@@ -105,7 +105,7 @@ import kotlin.time.Clock
 import kotlin.time.Instant
 import com.tayra.languages.core.ui.components.ScrollList
 
-private enum class TermSortOption(val sort: TermListSort) {
+internal enum class TermSortOption(val sort: TermListSort) {
     RECENT(TermListSort(TermSortField.CREATED, ascending = false)),
     OLDEST(TermListSort(TermSortField.CREATED, ascending = true)),
     TEXT(TermListSort(TermSortField.TEXT, ascending = true)),
@@ -141,8 +141,18 @@ fun TermsScreen(
     }
     val compact = LocalWindowWidth.current.isCompact
     val listActions = ListActions(onBulk = { bulkEdit = true }, onDelete = { confirmDelete = true })
+    val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
+    val rowActions = RowActions(
+        speaker = speaker,
+        onOpen = { onNavigate(Route.EditTerm(it.id)) },
+        onDelete = { pendingDelete = it },
+        onStatus = { term, status -> viewModel.setStatus(term.id, status) },
+        onToggle = { viewModel.toggleSelected(it.id) },
+    )
 
-    Scaffold(
+    if (compact) {
+        PhoneTermsScreen(state, viewModel, listActions, rowActions, onNavigate = onNavigate, onBack = onBack, onNew = { onNavigate(Route.NewTerm) })
+    } else Scaffold(
         topBar = {
             AppTopBar(
                 title = "Tayra Languages",
@@ -156,15 +166,7 @@ fun TermsScreen(
             state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text(tr("OK")) } }) { Text(it) } }
         },
     ) { padding ->
-        val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
         val gutter = if (compact) 16.dp else 32.dp
-        val rowActions = RowActions(
-            speaker = speaker,
-            onOpen = { onNavigate(Route.EditTerm(it.id)) },
-            onDelete = { pendingDelete = it },
-            onStatus = { term, status -> viewModel.setStatus(term.id, status) },
-            onToggle = { viewModel.toggleSelected(it.id) },
-        )
         ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp)) {
             item { PageHeader(compact, exporting = state.exporting, onExport = viewModel::exportAnki, onNew = { onNavigate(Route.NewTerm) }) }
             item { StatCards(state, compact) }
@@ -215,9 +217,9 @@ fun TermsScreen(
     }
 }
 
-private class ListActions(val onBulk: () -> Unit, val onDelete: () -> Unit)
+internal class ListActions(val onBulk: () -> Unit, val onDelete: () -> Unit)
 
-private class RowActions(
+internal class RowActions(
     /** Reads a word or its example aloud. */
     val speaker: Speaker,
     val onOpen: (Term) -> Unit,
@@ -323,7 +325,7 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
 
 /** Opens and closes the filter panel; the badge counts the kinds of filter that are on. */
 @Composable
-private fun FiltersButton(open: Boolean, count: Int, onClick: () -> Unit) {
+internal fun FiltersButton(open: Boolean, count: Int, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val highlighted = open || count > 0
     Row(
@@ -349,7 +351,7 @@ private fun FiltersButton(open: Boolean, count: Int, onClick: () -> Unit) {
 }
 
 @Composable
-private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) {
+internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.height(44.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 12.dp),
@@ -399,11 +401,11 @@ private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, o
 }
 
 /** "New", "Learning", "Known" or "Ignored": the status's name without its number, which the badge shows. */
-private val TermStatus.chipName: String get() = tr(label).substringBefore(" (")
+internal val TermStatus.chipName: String get() = tr(label).substringBefore(" (")
 
 /** The status's highlight colour, or a neutral one where the theme has none. */
 @Composable
-private fun statusTint(status: TermStatus): Color =
+internal fun statusTint(status: TermStatus): Color =
     TayraTheme.current.statusColors.background(status).takeIf { it != Color.Transparent } ?: MaterialTheme.colorScheme.surfaceVariant
 
 /** The filters, applied as soon as they change: the statuses to show and how long ago terms were added. */
@@ -474,7 +476,7 @@ private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () 
 
 /** The status's number or letter on its colour. */
 @Composable
-private fun StatusBadge(status: TermStatus) {
+internal fun StatusBadge(status: TermStatus) {
     Text(
         status.abbreviation,
         Modifier.clip(RoundedCornerShape(6.dp)).background(statusTint(status).copy(alpha = 0.85f)).padding(horizontal = 8.dp, vertical = 2.dp),
@@ -528,7 +530,7 @@ private fun DaysField(value: Int?, description: String, onChange: (Int?) -> Unit
 /** The filters that are on, each removable on its own, under the toolbar. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewModel) {
+internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewModel) {
     val filter = state.filter
     FlowRow(
         Modifier.fillMaxWidth().padding(bottom = 14.dp),
@@ -701,10 +703,10 @@ private fun StatusChip(status: TermStatus, onSelect: (TermStatus) -> Unit) {
     }
 }
 
-private fun Color.darken(factor: Float = 0.85f): Color = Color(red * factor, green * factor, blue * factor, alpha)
+internal fun Color.darken(factor: Float = 0.85f): Color = Color(red * factor, green * factor, blue * factor, alpha)
 
 @Composable
-private fun RowMenu(term: Term, actions: RowActions) {
+internal fun RowMenu(term: Term, actions: RowActions) {
     var open by remember { mutableStateOf(false) }
     Box {
         IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("Term actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
@@ -716,7 +718,7 @@ private fun RowMenu(term: Term, actions: RowActions) {
 }
 
 @Composable
-private fun EmptyState() {
+internal fun EmptyState() {
     Column(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -728,7 +730,7 @@ private fun EmptyState() {
 }
 
 @Composable
-private fun Pager(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean) {
+internal fun Pager(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
     val from = if (state.totalCount == 0) 0 else state.page * state.pageSize + 1
     val to = minOf(state.totalCount, (state.page + 1) * state.pageSize)
@@ -770,7 +772,7 @@ private fun PagerButton(icon: ImageVector, description: String, enabled: Boolean
 }
 
 /** "Today", "Yesterday", or a short date. */
-private fun addedLabel(instant: Instant, now: Instant = Clock.System.now()): String {
+internal fun addedLabel(instant: Instant, now: Instant = Clock.System.now()): String {
     val zone = TimeZone.currentSystemDefault()
     val date = instant.toLocalDateTime(zone).date
     val today = now.toLocalDateTime(zone).date
@@ -782,7 +784,7 @@ private fun addedLabel(instant: Instant, now: Instant = Clock.System.now()): Str
 }
 
 /** "Jan 5", or "Jan 5, 2024" with a [year]. */
-private fun shortDate(month: Int, day: Int, year: Int? = null): String = if (year == null) {
+internal fun shortDate(month: Int, day: Int, year: Int? = null): String = if (year == null) {
     when (month) {
         0 -> tr("Jan {0}", day)
         1 -> tr("Feb {0}", day)
