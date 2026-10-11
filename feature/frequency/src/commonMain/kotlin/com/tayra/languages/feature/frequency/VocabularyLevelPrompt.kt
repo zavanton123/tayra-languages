@@ -120,67 +120,139 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
     val list = state.list ?: return
     val colors = MaterialTheme.colorScheme
     val width = LocalWindowWidth.current
-    val wide = width.isExpanded
-    val compact = width.isCompact
     val level = state.picked ?: state.level
+    if (width.isCompact) {
+        PhonePromptContent(state, list, level, onPick, onSave, onLater)
+        return
+    }
     Column {
-        val contentPadding = if (compact) PaddingValues(start = 20.dp, end = 8.dp, top = 12.dp, bottom = 20.dp) else PaddingValues(start = 40.dp, end = 28.dp, top = 28.dp, bottom = 24.dp)
-        ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(contentPadding)) {
+        ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(start = 40.dp, end = 28.dp, top = 28.dp, bottom = 24.dp)) {
             Row(verticalAlignment = Alignment.Top) {
-                Column(Modifier.weight(1f).padding(top = 6.dp), verticalArrangement = Arrangement.spacedBy(if (compact) 6.dp else 10.dp)) {
-                    Text(
-                        tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)),
-                        style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium,
-                        fontWeight = FontWeight.Bold,
-                    )
+                Column(Modifier.weight(1f).padding(top = 6.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                     Text(
                         tr("Choose an estimate. Words below this level will start as known. You can change it later in Settings → Vocabulary."),
-                        style = if (compact) MaterialTheme.typography.bodyMedium else MaterialTheme.typography.bodyLarge,
+                        style = MaterialTheme.typography.bodyLarge,
                         color = colors.onSurfaceVariant,
                     )
                 }
                 IconButton(onClick = onLater, enabled = !state.saving) { Icon(Icons.Default.Close, contentDescription = tr("Close")) }
             }
-            // The phone's content keeps clear of the close button's column; the cards run to the edge the button leaves.
-            Column(Modifier.padding(end = if (compact) 12.dp else 0.dp)) {
-                Spacer(Modifier.height(if (compact) 16.dp else 24.dp))
-                if (wide) {
-                    Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(24.dp)) {
-                        EstimateCard(list, level, onPick, Modifier.weight(1f).fillMaxHeight())
-                        PreviewCard(state, level, Modifier.weight(1f).fillMaxHeight())
-                    }
-                } else {
-                    EstimateCard(list, level, onPick, Modifier.fillMaxWidth())
-                    Spacer(Modifier.height(if (compact) 16.dp else 20.dp))
-                    PreviewCard(state, level, Modifier.fillMaxWidth())
+            Spacer(Modifier.height(24.dp))
+            if (width.isExpanded) {
+                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(24.dp)) {
+                    EstimateCard(list, level, onPick, Modifier.weight(1f).fillMaxHeight())
+                    PreviewCard(state, level, Modifier.weight(1f).fillMaxHeight())
                 }
+            } else {
+                EstimateCard(list, level, onPick, Modifier.fillMaxWidth())
+                Spacer(Modifier.height(20.dp))
+                PreviewCard(state, level, Modifier.fillMaxWidth())
             }
         }
         HorizontalDivider(color = colors.outlineVariant)
-        Row(
-            Modifier.fillMaxWidth().padding(horizontal = if (compact) 12.dp else 28.dp, vertical = if (compact) 12.dp else 20.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
-        ) {
-            TextButton(onClick = onLater, enabled = !state.saving) { Text(tr("Skip for now"), style = MaterialTheme.typography.titleMedium) }
-            Spacer(Modifier.weight(1f))
-            if (state.saving) {
-                CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
-                if (!compact) Text(tr("Saving…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        PromptButtons(state, level, onSave, onLater, Modifier.padding(horizontal = 28.dp, vertical = 20.dp))
+    }
+}
+
+/**
+ * The prompt as one phone screen, with nothing to scroll: the title, the estimate with its slider
+ * and the words at that level, spread over the height, and the buttons at the bottom. The reading
+ * preview is left to wider screens.
+ */
+@Composable
+private fun PhonePromptContent(state: VocabularySettingsUiState, list: FrequencyList, level: Int, onPick: (Int) -> Unit, onSave: () -> Unit, onLater: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
+    val index = choices.indexOf(level).coerceAtLeast(0)
+    Column(Modifier.fillMaxSize().padding(start = 20.dp, end = 8.dp, top = 8.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(
+                tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)),
+                Modifier.weight(1f),
+                style = MaterialTheme.typography.titleLarge,
+                fontWeight = FontWeight.Bold,
+            )
+            IconButton(onClick = onLater, enabled = !state.saving) { Icon(Icons.Default.Close, contentDescription = tr("Close")) }
+        }
+        Text(
+            tr("Choose an estimate. Words below this level will start as known. You can change it later in Settings → Vocabulary."),
+            Modifier.padding(end = 12.dp),
+            style = MaterialTheme.typography.bodySmall,
+            color = colors.onSurfaceVariant,
+        )
+        // The rest keeps clear of the close button's column and shares out the height left.
+        Column(Modifier.weight(1f).padding(end = 12.dp), verticalArrangement = Arrangement.SpaceEvenly) {
+            Column {
+                Text(tr("Estimated vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                Row(verticalAlignment = Alignment.Bottom) {
+                    Text(formatCount(level), style = MaterialTheme.typography.displayMedium, fontWeight = FontWeight.Bold, color = colors.primary)
+                    Spacer(Modifier.width(10.dp))
+                    Text(trPlural(level, "word", "words"), Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineSmall, color = colors.onSurface)
+                }
+                Text(levelName(level), style = MaterialTheme.typography.titleMedium)
             }
-            Button(
-                onClick = onSave,
-                enabled = state.picked != null && !state.saving,
-                contentPadding = if (compact) PaddingValues(horizontal = 20.dp, vertical = 12.dp) else PaddingValues(horizontal = 28.dp, vertical = 14.dp),
-                modifier = Modifier.testTag("prompt-set-level"),
+            LevelSlider(choices, index, onPick, compact = true)
+            val words = remember(list, level, choices) {
+                val previous = if (index == 0) 0 else choices[index - 1]
+                if (level == 0) samples(list, 0, minOf(100, list.words.size)) else samples(list, previous, level)
+            }
+            Column(
+                Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.06f)).padding(14.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
             ) {
+                Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+                words.take(6).chunked(3).forEach { row ->
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        row.forEach { word ->
+                            Text(
+                                word,
+                                Modifier.weight(1f).clip(RoundedCornerShape(50)).background(colors.primary.copy(alpha = 0.10f)).padding(vertical = 6.dp, horizontal = 8.dp),
+                                style = MaterialTheme.typography.bodyMedium,
+                                textAlign = TextAlign.Center,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis,
+                            )
+                        }
+                        repeat(3 - row.size) { Spacer(Modifier.weight(1f)) }
+                    }
+                }
                 Text(
-                    if (level == 0) tr("Start from scratch") else trPlural(level, "Start with {1} word", "Start with {1} words", formatCount(level)),
-                    style = MaterialTheme.typography.titleMedium,
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
+                    if (level == 0) tr("Not familiar yet? Start from scratch, or move the slider.") else tr("Move the slider until these words feel familiar."),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = colors.onSurfaceVariant,
                 )
             }
+        }
+        PromptButtons(state, level, onSave, onLater, Modifier.padding(end = 12.dp, top = 8.dp, bottom = 12.dp), compact = true)
+    }
+}
+
+/** Skip for now on the left, the saving state and the Start button on the right. */
+@Composable
+private fun PromptButtons(state: VocabularySettingsUiState, level: Int, onSave: () -> Unit, onLater: () -> Unit, modifier: Modifier, compact: Boolean = false) {
+    val colors = MaterialTheme.colorScheme
+    Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        TextButton(onClick = onLater, enabled = !state.saving, contentPadding = if (compact) PaddingValues(horizontal = 4.dp) else androidx.compose.material3.ButtonDefaults.TextButtonContentPadding) {
+            Text(tr("Skip for now"), style = MaterialTheme.typography.titleMedium)
+        }
+        Spacer(Modifier.weight(1f))
+        if (state.saving) {
+            CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
+            if (!compact) Text(tr("Saving…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        }
+        Button(
+            onClick = onSave,
+            enabled = state.picked != null && !state.saving,
+            contentPadding = if (compact) PaddingValues(horizontal = 20.dp, vertical = 12.dp) else PaddingValues(horizontal = 28.dp, vertical = 14.dp),
+            modifier = Modifier.testTag("prompt-set-level"),
+        ) {
+            Text(
+                if (level == 0) tr("Start from scratch") else trPlural(level, "Start with {1} word", "Start with {1} words", formatCount(level)),
+                style = MaterialTheme.typography.titleMedium,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
         }
     }
 }
