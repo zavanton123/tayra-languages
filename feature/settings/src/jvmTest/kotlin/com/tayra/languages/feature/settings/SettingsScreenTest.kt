@@ -10,8 +10,11 @@ import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onLast
+import androidx.compose.ui.semantics.SemanticsActions
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.performSemanticsAction
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.runDesktopComposeUiTest
@@ -63,6 +66,37 @@ class SettingsScreenTest {
         assertEquals(5, settings.current.statsSampleSize)
         assertEquals(false, settings.current.showStreakOnHome)
         assertEquals("serif", settings.current.readingFont)
+    }
+
+    /** A phone gets compact cards: the theme and font from bottom sheets, the sliders under their labels, Reset in the top bar. */
+    @Test
+    fun aPhoneGetsCompactCardsWithSheetPickers() = runDesktopComposeUiTest(width = 400, height = 1200) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        runBlocking { settings.update { it.copy(readingFontScale = 1.2f) } }
+        setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings)) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Personalize your reading experience.").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Reset to defaults").assertDoesNotExist()
+        onNodeWithText("120%").assertExists()
+        System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+
+        onNodeWithTag("phone-slider-reading font size").performSemanticsAction(SemanticsActions.SetProgress) { it(1.3f) }
+        waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.3f }
+        onNodeWithText("130%").assertExists()
+
+        onNodeWithTag("phone-theme").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Darcula").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Darcula").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.themeId == AppThemes.all.first { it.label == "Darcula" }.id }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Gruvbox Dark").fetchSemanticsNodes().isEmpty() }
+
+        onNodeWithTag("phone-font").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Literata").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Literata").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.readingFont == "literata" }
+
+        onNodeWithText("Reset").performClick()
+        onAllNodesWithText("Reset").onLast().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.0f && settings.current.readingFont == "serif" }
     }
 
     /** The theme list shows each theme with its colours; a theme that was removed opens as the one standing in for it. */

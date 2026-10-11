@@ -50,6 +50,7 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
@@ -145,13 +146,15 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
     val wide = LocalWindowWidth.current.isExpanded
     val compact = LocalWindowWidth.current.isCompact
 
-    Scaffold(
+    if (compact) {
+        PhoneSettingsScreen(settings, viewModel, onNavigate, onReset = { confirmReset = true })
+    } else Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
             ScreenHeader(tr("Settings"), tr("Personalize your reading experience.")) {
-                HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
+                HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
             }
             if (wide) {
                 Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
@@ -215,7 +218,7 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
 
 /** A theme's page with its text, accent and new and learning word colours, to tell the themes apart in the list. */
 @Composable
-private fun ThemeSwatch(theme: AppTheme) {
+internal fun ThemeSwatch(theme: AppTheme) {
     Row(
         Modifier.clip(RoundedCornerShape(6.dp)).background(theme.readingBackground)
             .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(6.dp)).padding(horizontal = 6.dp, vertical = 5.dp),
@@ -355,43 +358,47 @@ private fun CommandBox(text: String) {
 /** A sentence in the language being learned, drawn as the reader draws it with the chosen theme, highlighting, size and spacing. */
 @Composable
 private fun PreviewCard(settings: UserSettings) {
+    ContentCard(tr("Reading preview"), tr("Preview updates as you adjust the controls."), icon = AppIcons.MenuBook) { PreviewBox(settings) }
+}
+
+/** The preview itself: the sample sentence on the theme's page with the legend under it; [padding] is the page's inner margin. */
+@Composable
+internal fun PreviewBox(settings: UserSettings, padding: Dp = 24.dp) {
     val theme = TayraTheme.current
     val learning = LocalLearningLanguage.current?.let { state -> state.languages.firstOrNull { it.first == state.currentId }?.second }
     val sample = PreviewSamples.forLanguage(learning?.let { LanguageCodes.codeFor(it) })
-    ContentCard(tr("Reading preview"), tr("Preview updates as you adjust the controls."), icon = AppIcons.MenuBook) {
-        Column(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(theme.readingBackground)
-                .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(12.dp)).padding(horizontal = 28.dp, vertical = 24.dp),
-        ) {
-            val colors = theme.statusColors
-            val text = buildAnnotatedString {
-                sample.forEach { (part, status) ->
-                    // As in the reader, known words are never coloured.
-                    val shown = status != null && settings.showHighlights && status != TermStatus.WELL_KNOWN
-                    val background = if (shown) colors.background(status!!) else Color.Transparent
-                    when {
-                        background == Color.Transparent -> append(part)
-                        status == TermStatus.UNKNOWN && colors.unknownAsText -> withStyle(SpanStyle(color = background)) { append(part) }
-                        else -> withStyle(SpanStyle(background = background, color = colors.onHighlight)) { append(part) }
-                    }
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(theme.readingBackground)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(12.dp)).padding(horizontal = padding + 4.dp, vertical = padding),
+    ) {
+        val colors = theme.statusColors
+        val text = buildAnnotatedString {
+            sample.forEach { (part, status) ->
+                // As in the reader, known words are never coloured.
+                val shown = status != null && settings.showHighlights && status != TermStatus.WELL_KNOWN
+                val background = if (shown) colors.background(status!!) else Color.Transparent
+                when {
+                    background == Color.Transparent -> append(part)
+                    status == TermStatus.UNKNOWN && colors.unknownAsText -> withStyle(SpanStyle(color = background)) { append(part) }
+                    else -> withStyle(SpanStyle(background = background, color = colors.onHighlight)) { append(part) }
                 }
             }
-            Text(
-                text,
-                style = TextStyle(
-                    fontSize = (18 * settings.readingFontScale).sp,
-                    lineHeight = (18 * settings.readingFontScale * settings.readingLineHeight).sp,
-                    color = theme.readingText,
-                    fontFamily = ReadingFont.byId(settings.readingFont).fontFamily(),
-                ),
-                modifier = Modifier.padding(vertical = 8.dp),
-            )
-            HorizontalDivider(Modifier.padding(vertical = 16.dp), color = MaterialTheme.colorScheme.outlineVariant)
-            Row(horizontalArrangement = Arrangement.spacedBy(24.dp), verticalAlignment = Alignment.CenterVertically) {
-                LegendDot(tr("New"), colors.background(TermStatus.UNKNOWN), theme)
-                LegendDot(tr("Learning"), colors.background(TermStatus.NEW_1), theme)
-                LegendDot(tr("Known"), null, theme)
-            }
+        }
+        Text(
+            text,
+            style = TextStyle(
+                fontSize = (18 * settings.readingFontScale).sp,
+                lineHeight = (18 * settings.readingFontScale * settings.readingLineHeight).sp,
+                color = theme.readingText,
+                fontFamily = ReadingFont.byId(settings.readingFont).fontFamily(),
+            ),
+            modifier = Modifier.padding(vertical = 8.dp),
+        )
+        HorizontalDivider(Modifier.padding(vertical = 16.dp), color = MaterialTheme.colorScheme.outlineVariant)
+        Row(horizontalArrangement = Arrangement.spacedBy(24.dp), verticalAlignment = Alignment.CenterVertically) {
+            LegendDot(tr("New"), colors.background(TermStatus.UNKNOWN), theme)
+            LegendDot(tr("Learning"), colors.background(TermStatus.NEW_1), theme)
+            LegendDot(tr("Known"), null, theme)
         }
     }
 }

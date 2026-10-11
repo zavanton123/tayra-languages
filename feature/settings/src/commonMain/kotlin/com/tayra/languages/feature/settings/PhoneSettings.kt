@@ -1,0 +1,231 @@
+package com.tayra.languages.feature.settings
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.KeyboardArrowRight
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Switch
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.material3.rememberModalBottomSheetState
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.domain.settings.UserSettings
+import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.NumberStepper
+import com.tayra.languages.core.ui.components.RoundSlider
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppThemes
+import com.tayra.languages.core.ui.theme.ReadingFont
+import com.tayra.languages.core.ui.theme.fontFamily
+
+/**
+ * The settings page on a phone: compact cards of plain rows, the theme and the font picked from a
+ * bottom sheet, the sliders under their labels, and Reset in the top bar.
+ */
+@Composable
+internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsViewModel, onNavigate: (Route) -> Unit, onReset: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    var themeSheet by remember { mutableStateOf(false) }
+    var fontSheet by remember { mutableStateOf(false) }
+    Scaffold(
+        topBar = {
+            AppTopBar(title = tr("Settings"), onNavigate = onNavigate, section = NavSection.SETTINGS, actions = {
+                TextButton(onClick = onReset) { Text(tr("Reset"), style = MaterialTheme.typography.titleMedium) }
+            })
+        },
+        containerColor = colors.surfaceContainerLow,
+    ) { padding ->
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            Text(tr("Personalize your reading experience."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            PhoneCard(tr("Appearance"), icon = AppIcons.Palette) {
+                PickerRow(tr("Theme"), AppThemes.byId(settings.themeId).label, tag = "phone-theme") { themeSheet = true }
+                RowDivider()
+                SwitchRow(tr("Highlight terms by status"), settings.showHighlights) { v -> viewModel.update { it.copy(showHighlights = v) } }
+            }
+            PhoneCard(tr("Reading"), iconText = "Aa") {
+                PickerRow(tr("Reading font"), ReadingFont.byId(settings.readingFont).label, tag = "phone-font") { fontSheet = true }
+                RowDivider()
+                SliderRow(
+                    tr("Font size"),
+                    "${kotlin.math.round(settings.readingFontScale * 100).toInt()}%",
+                    settings.readingFontScale,
+                    0.6f..2.5f,
+                    step = 0.1f,
+                    name = tr("reading font size"),
+                ) { v -> viewModel.update { it.copy(readingFontScale = v) } }
+                RowDivider()
+                SliderRow(
+                    tr("Line height"),
+                    (kotlin.math.round(settings.readingLineHeight * 10) / 10f).toString(),
+                    settings.readingLineHeight,
+                    1.0f..3.0f,
+                    step = 0.1f,
+                    name = tr("reading line height"),
+                ) { v -> viewModel.update { it.copy(readingLineHeight = v) } }
+            }
+            PhoneCard(tr("Reading preview"), icon = AppIcons.MenuBook) { PreviewBox(settings, padding = 16.dp) }
+            PhoneCard(tr("Behaviour"), icon = Icons.Default.Settings) {
+                SwitchRow(tr("Show reading streak on home page"), settings.showStreakOnHome) { v -> viewModel.update { it.copy(showStreakOnHome = v) } }
+                RowDivider()
+                Column(Modifier.padding(vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Text(tr("Book stats page sample size"), style = MaterialTheme.typography.bodyLarge)
+                    NumberStepper(
+                        value = settings.statsSampleSize,
+                        range = UserSettings.MIN_STATS_SAMPLE_SIZE..UserSettings.MAX_STATS_SAMPLE_SIZE,
+                        name = tr("book stats page sample size"),
+                    ) { n -> viewModel.update { it.copy(statsSampleSize = n) } }
+                }
+            }
+        }
+    }
+    if (themeSheet) {
+        PickerSheet(tr("Theme"), AppThemes.all, selected = AppThemes.byId(settings.themeId), label = { it.label }, onDismiss = { themeSheet = false }, onPick = { theme ->
+            themeSheet = false
+            viewModel.update { it.copy(themeId = theme.id) }
+        }) { theme -> ThemeSwatch(theme) }
+    }
+    if (fontSheet) {
+        PickerSheet(
+            tr("Reading font"), ReadingFont.choices, selected = ReadingFont.byId(settings.readingFont), label = { it.label },
+            labelContent = { font -> Text(font.label, fontFamily = font.fontFamily(), style = MaterialTheme.typography.bodyLarge) },
+            onDismiss = { fontSheet = false },
+            onPick = { font -> fontSheet = false; viewModel.update { it.copy(readingFont = font.id) } },
+        )
+    }
+}
+
+/** A card with an icon tile and a title, its rows below. */
+@Composable
+private fun PhoneCard(title: String, icon: ImageVector? = null, iconText: String? = null, content: @Composable ColumnScope.() -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(16.dp),
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+            IconTile(icon, iconText, size = 44)
+            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+        }
+        Spacer(Modifier.height(6.dp))
+        content()
+    }
+}
+
+@Composable
+private fun RowDivider() = HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+
+/** A row that opens a picker: the label, the current value and a chevron. */
+@Composable
+private fun PickerRow(label: String, value: String, tag: String, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.fillMaxWidth().clickable(onClick = onClick).padding(vertical = 14.dp).testTag(tag),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
+        Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        Icon(Icons.Default.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
+    }
+}
+
+@Composable
+private fun SwitchRow(label: String, checked: Boolean, onChange: (Boolean) -> Unit) {
+    Row(Modifier.fillMaxWidth().padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
+        Switch(checked = checked, onCheckedChange = onChange)
+    }
+}
+
+/** The label with the value at the end, and the slider under them, moving in [step]s. */
+@Composable
+private fun SliderRow(label: String, value: String, current: Float, range: ClosedFloatingPointRange<Float>, step: Float, name: String, onChange: (Float) -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    // Dividing by the number of steps per unit, not multiplying by the step, lands on the nearest float of a value such as 1.3.
+    val perUnit = kotlin.math.round(1 / step)
+    fun snap(v: Float) = (kotlin.math.round(v * perUnit) / perUnit).coerceIn(range.start, range.endInclusive)
+    Column(Modifier.padding(top = 12.dp, bottom = 4.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
+            Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        }
+        RoundSlider(
+            value = current,
+            onValueChange = { v -> snap(v).let { if (it != current) onChange(it) } },
+            valueRange = range,
+            modifier = Modifier.fillMaxWidth().semantics { contentDescription = name }.testTag("phone-slider-$name"),
+        )
+    }
+}
+
+/** A bottom sheet listing [options] to pick one from, the chosen one ticked; [labelContent] draws an option's name, [leading] goes before it. */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun <T> PickerSheet(
+    title: String,
+    options: List<T>,
+    selected: T,
+    label: (T) -> String,
+    onDismiss: () -> Unit,
+    onPick: (T) -> Unit,
+    labelContent: @Composable (T) -> Unit = { Text(label(it), style = MaterialTheme.typography.bodyLarge) },
+    leading: @Composable ((T) -> Unit)? = null,
+) {
+    val colors = MaterialTheme.colorScheme
+    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), sheetMaxWidth = Dp.Unspecified, containerColor = colors.surface) {
+        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 4.dp).padding(bottom = 16.dp)) {
+            Text(title, Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+            options.forEach { option ->
+                Row(
+                    Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).clickable { onPick(option) }.padding(vertical = 12.dp, horizontal = 4.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    leading?.let { it(option) }
+                    Row(Modifier.weight(1f)) { labelContent(option) }
+                    if (option == selected) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(22.dp))
+                    else Spacer(Modifier.width(22.dp))
+                }
+            }
+        }
+    }
+}
