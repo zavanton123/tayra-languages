@@ -41,6 +41,7 @@ import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -112,6 +113,7 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, view
         onSuspend = viewModel::setSuspended,
         onReset = { confirmReset = it.toList() },
         onReview = { onNavigate(Route.Flashcards) },
+        onSaveSentence = viewModel::saveSentence,
     )
     val width = LocalWindowWidth.current
     if (width.isCompact) {
@@ -150,6 +152,8 @@ internal class BrowseActions(
     /** Asks before the cards are made new again. */
     val onReset: (termIds: Collection<Long>) -> Unit = {},
     val onReview: () -> Unit = {},
+    /** Replaces the example sentence of the card's term. */
+    val onSaveSentence: (termId: Long, sentence: String) -> Unit = { _, _ -> },
 )
 
 private val DETAIL_WIDTH = 400.dp
@@ -530,14 +534,7 @@ internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActio
             }
             if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
-        row.sentence?.let { sentence ->
-            Text(
-                sentence,
-                Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(colors.primary.copy(alpha = 0.05f)).padding(horizontal = 14.dp, vertical = 12.dp),
-                style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction),
-                color = colors.onSurfaceVariant,
-            )
-        }
+        SentenceBox(row, actions.onSaveSentence)
         FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp), maxItemsInEachRow = 2) {
             val tile = Modifier.weight(1f)
             StatTile(tr("Due"), dueLabel(row, now), tile)
@@ -574,6 +571,47 @@ internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActio
                     if (index > 0) HorizontalDivider(color = colors.outlineVariant.copy(alpha = 0.6f))
                     ReviewRow(review, compact)
                 }
+            }
+        }
+    }
+}
+
+/** The example sentence the card blanks the word out of, with a pencil to change it in place; without one, the offer to add one. */
+@Composable
+private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String) -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val direction = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
+    var editing by remember(row.termId) { mutableStateOf(false) }
+    var draft by remember(row.termId, editing) { mutableStateOf(row.sentence.orEmpty()) }
+    val sentence = row.sentence
+    when {
+        editing -> Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            OutlinedTextField(
+                value = draft,
+                onValueChange = { draft = it },
+                modifier = Modifier.fillMaxWidth().testTag("sentence-field"),
+                placeholder = { Text(tr("Example sentence")) },
+                textStyle = MaterialTheme.typography.bodyMedium.copy(textDirection = direction),
+                minLines = 2,
+                shape = RoundedCornerShape(10.dp),
+            )
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
+                TextButton(onClick = { editing = false }) { Text(tr("Cancel")) }
+                Button(onClick = { onSave(row.termId, draft); editing = false }, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("sentence-save")) { Text(tr("Save")) }
+            }
+        }
+        sentence == null -> TextButton(onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit")) {
+            Icon(Icons.Default.Edit, contentDescription = null, modifier = Modifier.size(18.dp))
+            Spacer(Modifier.width(6.dp))
+            Text(tr("Add a sentence"))
+        }
+        else -> Row(
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(colors.primary.copy(alpha = 0.05f)).padding(start = 14.dp, end = 4.dp, top = 4.dp, bottom = 4.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Text(sentence, Modifier.weight(1f).padding(vertical = 8.dp), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction), color = colors.onSurfaceVariant)
+            IconButton(onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit")) {
+                Icon(Icons.Default.Edit, contentDescription = tr("Edit sentence"), tint = colors.onSurfaceVariant, modifier = Modifier.size(18.dp))
             }
         }
     }

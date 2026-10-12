@@ -195,4 +195,7 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Word" to "Слово",
     "Select cards" to "Выбрать карточки",
     "{0} lapses" to "{0} раз забыто|{0} раза забыто|{0} раз забыто",
+    "Edit sentence" to "Изменить предложение",
+    "Add a sentence" to "Добавить предложение",
+    "Example sentence" to "Пример предложения",
 )

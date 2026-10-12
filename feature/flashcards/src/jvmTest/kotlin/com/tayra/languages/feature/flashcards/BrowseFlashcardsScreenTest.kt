@@ -67,7 +67,7 @@ class BrowseFlashcardsScreenTest {
             service.setSuspended(livro, true)
             id
         }
-        val viewModel = BrowseFlashcardsViewModel(service, languages, settings)
+        val viewModel = BrowseFlashcardsViewModel(service, languages, settings, terms)
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -136,6 +136,23 @@ class BrowseFlashcardsScreenTest {
         // A new card has nothing to reset; its history stays, as in Anki.
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Reset progress").fetchSemanticsNodes().isEmpty() }
         onNodeWithText("Easy").assertExists()
+    }
+
+    /** The sentence the card is built on can be changed in the card info, in place. */
+    @Test
+    fun theSentenceIsEditedInTheCardInfo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onNodeWithTag("browse-row-$casa").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("sentence-edit").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Add a sentence").performClick()
+        onNodeWithTag("sentence-field").performTextInput("A casa é grande.")
+        onNodeWithTag("sentence-save").performClick()
+        waitUntil(timeoutMillis = 5_000) { runBlocking { terms.getById(casa)!!.sentence } == "A casa é grande." }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("A casa é grande.").fetchSemanticsNodes().size == 2 }
+        // The pencil now opens the sentence for changing.
+        onNodeWithTag("sentence-edit").performClick()
+        onNodeWithText("Cancel").performClick()
+        assertEquals(0, onAllNodesWithTag("sentence-field").fetchSemanticsNodes().size)
     }
 
     @Test

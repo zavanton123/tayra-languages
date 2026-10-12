@@ -7,6 +7,7 @@ import com.tayra.languages.core.domain.flashcards.FlashcardReview
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
+import com.tayra.languages.core.domain.repository.TermRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -86,6 +87,7 @@ class BrowseFlashcardsViewModel(
     private val service: FlashcardService,
     private val languages: LanguageRepository,
     private val settings: SettingsRepository,
+    private val terms: TermRepository,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(BrowseUiState())
@@ -238,6 +240,14 @@ class BrowseFlashcardsViewModel(
 
     fun closeDetail() {
         _state.update { it.copy(detail = null) }
+    }
+
+    /** Gives the card's term a new example sentence, the one its front blanks the word out of; blank removes it. */
+    fun saveSentence(termId: Long, sentence: String) {
+        viewModelScope.launch {
+            terms.updateSentence(termId, sentence.trim().ifEmpty { null })
+            refresh()
+        }
     }
 
     /** Puts the cards aside, or brings them back into the reviews. */
