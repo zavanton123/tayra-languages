@@ -69,7 +69,7 @@ class StatsScreenTest {
         val terms = TermRepositoryImpl(provider)
         val saved = listOf(TermStatus.NEW_1, TermStatus.NEW_1, TermStatus.LEARNING_3, TermStatus.WELL_KNOWN, TermStatus.WELL_KNOWN, TermStatus.WELL_KNOWN, TermStatus.IGNORED)
             .mapIndexed { i, status -> terms.save(Term(languageId = id, text = "palavra$i", textLc = "palavra$i", status = status)) }
-        // Two words were saved this week (one of them today), the others three weeks ago.
+        // Two words were saved this week (one of them today), the others three weeks ago; only the words being learned count as saved.
         DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { c ->
             saved.drop(2).forEach { c.createStatement().execute("UPDATE terms SET created_at = ${at(21).toEpochMilliseconds()} WHERE id = $it") }
             c.createStatement().execute("UPDATE terms SET created_at = ${at(0).toEpochMilliseconds()} WHERE id = ${saved[0]}")
@@ -95,7 +95,7 @@ class StatsScreenTest {
         assertEquals(1, overview.ignored)
         assertEquals(2, overview.savedThisWeek)
         assertEquals(1, overview.savedToday)
-        assertEquals(listOf(0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 2), overview.savedByWeek)
+        assertEquals(listOf(0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2), overview.savedByWeek)
         assertEquals(4, overview.reviewsTotal)
         assertEquals(75, overview.rememberedPercent)
 

@@ -3,10 +3,11 @@
 termStatusCounts:
 SELECT status, count(*) AS term_count FROM terms WHERE language_id = :languageId GROUP BY status;
 
--- When the reader saved each word; the words the vocabulary level marked known were not saved by hand.
+-- When the reader saved each word being learned (statuses 1 to 4): words marked known or ignored on
+-- sight were not added to learn, and the vocabulary level's known words were not saved by hand.
 termSavedTimes:
 SELECT created_at FROM terms
-WHERE language_id = :languageId AND id NOT IN (SELECT term_id FROM level_terms);
+WHERE language_id = :languageId AND status BETWEEN 1 AND 4 AND id NOT IN (SELECT term_id FROM level_terms);
 
 reviewTimes:
 SELECT r.reviewed_at, r.rating FROM flashcard_reviews r INNER JOIN terms t ON t.id = r.term_id

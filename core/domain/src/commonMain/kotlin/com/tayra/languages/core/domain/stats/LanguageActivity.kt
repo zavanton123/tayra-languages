@@ -6,7 +6,7 @@ import kotlinx.datetime.LocalDate
 /** What the database holds about the reader's work in one language, beyond the words read. */
 data class LanguageActivity(
     val termsByStatus: Map<TermStatus, Int> = emptyMap(),
-    /** Words the reader saved, by the day they were saved; those the vocabulary level marked known are left out. */
+    /** Words being learned (statuses 1 to 4), by the day they were saved; words marked known or ignored on sight are not counted. */
     val termsSaved: Map<LocalDate, Int> = emptyMap(),
     /** Flashcard answers by day, and how many of them were not "Again". */
     val reviews: Map<LocalDate, Int> = emptyMap(),
