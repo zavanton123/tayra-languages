@@ -64,7 +64,7 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.practice.Exercise
 import com.tayra.languages.core.domain.practice.ExerciseKind
-import com.tayra.languages.core.domain.practice.PracticeMode
+import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppIcons
@@ -72,7 +72,6 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
-import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.label
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
@@ -85,10 +84,10 @@ import org.koin.core.parameter.parametersOf
 @Composable
 fun PracticeScreen(
     source: PracticeSource,
-    mode: PracticeMode,
+    kinds: Set<ExerciseKind>,
     onNavigate: (Route) -> Unit,
     onBack: () -> Unit,
-    viewModel: PracticeViewModel = koinViewModel(key = "practice-$source-$mode") { parametersOf(source, mode) },
+    viewModel: PracticeViewModel = koinViewModel(key = "practice-$source-${kinds.sorted()}") { parametersOf(source, kinds) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
@@ -173,10 +172,7 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
             verticalArrangement = Arrangement.spacedBy(if (compact) 16.dp else 20.dp),
         ) {
             Column {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    Text(tr("Practice"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-                    if (state.mode != PracticeMode.MIXED) Tag(state.mode.label(), MaterialTheme.colorScheme.primary)
-                }
+                Text(tr("Practice"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                 Text(
                     when {
                         state.pageNumber == null -> trPlural(state.wordCount, "{0} word from your vocabulary.", "{0} words from your vocabulary.")
@@ -186,6 +182,14 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
+                // Fewer than all the kinds: which ones.
+                if (state.kinds.size < PracticeBuilder.KINDS.size) {
+                    Text(
+                        tr("Questions: {0}", PracticeBuilder.KINDS.filter { it in state.kinds }.joinToString(", ") { it.label().lowercase() }),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
             }
             when {
                 state.exercises.isEmpty() -> Empty(state, actions)

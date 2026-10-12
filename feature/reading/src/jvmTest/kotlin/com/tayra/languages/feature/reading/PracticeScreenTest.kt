@@ -29,7 +29,7 @@ import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.practice.ExerciseKind
-import com.tayra.languages.core.domain.practice.PracticeMode
+import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.feature.reading.practice.PracticeSource
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
@@ -82,7 +82,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeMode.MIXED, books, languages, reading, examples, translator, settings, terms, Random(seed))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeBuilder.KINDS.toSet(), books, languages, reading, examples, translator, settings, terms, Random(seed))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -105,9 +105,9 @@ class PracticeScreenTest {
         return viewModel
     }
 
-    /** Words chosen in the vocabulary are asked in the sentences they were saved with, in the mode chosen: here only choices. */
+    /** Words chosen in the vocabulary are asked in the sentences they were saved with, with the kinds of question chosen: here only choices. */
     @Test
-    fun chosenWordsArePractisedInTheModeChosen() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun chosenWordsArePractisedWithTheKindsChosen() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val ids = runBlocking {
             languageId = languages.save(Language(name = "Portuguese"))
             listOf(
@@ -124,7 +124,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Words(ids), PracticeMode.CHOICE, books, languages, reading, examples, translator, settings, terms, Random(3))
+        val viewModel = PracticeViewModel(PracticeSource.Words(ids), setOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE), books, languages, reading, examples, translator, settings, terms, Random(3))
         var left = 0
         setContent {
             TayraTheme {
@@ -138,7 +138,7 @@ class PracticeScreenTest {
         }
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("4 words from your vocabulary.").assertExists()
-        onNodeWithText("Multiple choice").assertExists()
+        onNodeWithText("Questions: choose the missing word, listen and choose").assertExists()
         val exercises = viewModel.state.value.exercises
         assertTrue(exercises.isNotEmpty() && exercises.all { it.isChoice }, exercises.map { it.kind }.toString())
         assertEquals(setOf("moro", "semana", "comprar", "rotina"), exercises.map { it.word }.toSet())

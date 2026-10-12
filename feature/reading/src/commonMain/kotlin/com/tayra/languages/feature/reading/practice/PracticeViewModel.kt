@@ -8,8 +8,8 @@ import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.practice.Exercise
 import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.domain.practice.PracticeChecker
+import com.tayra.languages.core.domain.practice.ExerciseKind
 import com.tayra.languages.core.domain.practice.PracticeExample
-import com.tayra.languages.core.domain.practice.PracticeMode
 import com.tayra.languages.core.domain.practice.PracticeWord
 import com.tayra.languages.core.domain.practice.TypedResult
 import com.tayra.languages.core.domain.repository.BookRepository
@@ -57,7 +57,8 @@ data class PracticeUiState(
     val pageNumber: Int? = 1,
     /** How many chosen words the questions are about. */
     val wordCount: Int = 0,
-    val mode: PracticeMode = PracticeMode.MIXED,
+    /** The kinds of question asked for. */
+    val kinds: Set<ExerciseKind> = PracticeBuilder.KINDS.toSet(),
     val languageCode: String? = null,
     val rightToLeft: Boolean = false,
     val exercises: List<Exercise> = emptyList(),
@@ -86,7 +87,7 @@ data class PracticeUiState(
  */
 class PracticeViewModel(
     private val source: PracticeSource,
-    private val mode: PracticeMode,
+    private val kinds: Set<ExerciseKind>,
     private val books: BookRepository,
     private val languages: LanguageRepository,
     private val reading: ReadingService,
@@ -99,7 +100,7 @@ class PracticeViewModel(
 
     private val pageNumber: Int? = (source as? PracticeSource.Page)?.page
 
-    private val _state = MutableStateFlow(PracticeUiState(pageNumber = pageNumber, mode = mode))
+    private val _state = MutableStateFlow(PracticeUiState(pageNumber = pageNumber, kinds = kinds))
     val state: StateFlow<PracticeUiState> = _state.asStateFlow()
 
     private var language: Language? = null
@@ -114,7 +115,7 @@ class PracticeViewModel(
 
     /** Builds a fresh set of questions and starts from the first. */
     fun start() {
-        _state.update { PracticeUiState(pageNumber = pageNumber, bookTitle = it.bookTitle, mode = mode) }
+        _state.update { PracticeUiState(pageNumber = pageNumber, bookTitle = it.bookTitle, kinds = kinds) }
         viewModelScope.launch {
             val prepared = when (source) {
                 is PracticeSource.Page -> pageWords(source)
@@ -126,7 +127,7 @@ class PracticeViewModel(
             }
             val lang = prepared.language
             language = lang
-            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, fetchExamples(prepared.words, lang), random, mode = mode)
+            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, fetchExamples(prepared.words, lang), random, kinds = kinds)
             _state.update {
                 it.copy(
                     loading = false,

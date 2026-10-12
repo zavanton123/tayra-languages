@@ -1,7 +1,8 @@
 package com.tayra.languages.feature.reading
 
 import com.tayra.languages.core.domain.courses.CourseService
-import com.tayra.languages.core.domain.practice.PracticeMode
+import com.tayra.languages.core.domain.practice.ExerciseKind
+import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.feature.reading.practice.PracticeScreen
 import com.tayra.languages.feature.reading.practice.PracticeSource
 import com.tayra.languages.feature.reading.practice.PracticeViewModel
@@ -15,7 +16,7 @@ import org.koin.dsl.module
 
 val readingModule = module {
     viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading) }
-    viewModel { (source: PracticeSource, mode: PracticeMode) -> PracticeViewModel(source, mode, get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { (source: PracticeSource, kinds: Set<ExerciseKind>) -> PracticeViewModel(source, kinds, get(), get(), get(), get(), get(), get(), get()) }
 }
 
 fun NavGraphBuilder.readingGraph(navController: NavController) {
@@ -32,11 +33,11 @@ fun NavGraphBuilder.readingGraph(navController: NavController) {
     }
     composable<Route.Practice> { entry ->
         val route = entry.toRoute<Route.Practice>()
-        PracticeScreen(PracticeSource.Page(route.bookId, route.page), PracticeMode.MIXED, onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
+        PracticeScreen(PracticeSource.Page(route.bookId, route.page), PracticeBuilder.KINDS.toSet(), onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
     }
     composable<Route.PracticeWords> { entry ->
         val route = entry.toRoute<Route.PracticeWords>()
-        val mode = PracticeMode.entries.firstOrNull { it.name == route.mode } ?: PracticeMode.MIXED
-        PracticeScreen(PracticeSource.Words(route.termIds), mode, onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
+        val kinds = route.kinds.mapNotNull { name -> ExerciseKind.entries.firstOrNull { it.name == name } }.toSet().ifEmpty { PracticeBuilder.KINDS.toSet() }
+        PracticeScreen(PracticeSource.Words(route.termIds), kinds, onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
     }
 }

@@ -33,17 +33,18 @@ class PracticeTest {
         exercises.take(5).zip(exercises.drop(5)).forEach { (first, second) -> assertEquals(first.word, second.word) }
     }
 
-    /** A mode keeps to its own kinds: choices only, typing only, or listening only. */
+    /** Only the kinds asked for come up: choices only, typing only, or one kind alone; a sentence from elsewhere comes with the gap choice. */
     @Test
-    fun aModeKeepsToItsKinds() {
+    fun onlyTheKindsAskedForComeUp() {
         val examples = mapOf("comprar" to PracticeExample("Vou comprar pão.", Cloze.range("Vou comprar pão.", "comprar")!!, "I will buy bread."))
-        val choice = PracticeBuilder.build(words, pageWords, examples, Random(1), mode = PracticeMode.CHOICE)
+        val choice = PracticeBuilder.build(words, pageWords, examples, Random(1), kinds = setOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE))
         assertTrue(choice.isNotEmpty() && choice.all { it.isChoice }, "choice: ${choice.map { it.kind }}")
         assertTrue(choice.any { it.kind == ExerciseKind.NEW_CONTEXT }, "a sentence from elsewhere is a choice too")
-        val typing = PracticeBuilder.build(words, pageWords, examples, Random(1), mode = PracticeMode.TYPING)
+        val typing = PracticeBuilder.build(words, pageWords, examples, Random(1), kinds = setOf(ExerciseKind.GAP_TYPED, ExerciseKind.DICTATION))
         assertTrue(typing.isNotEmpty() && typing.none { it.isChoice }, "typing: ${typing.map { it.kind }}")
-        val listening = PracticeBuilder.build(words, pageWords, examples, Random(1), mode = PracticeMode.LISTENING)
-        assertTrue(listening.isNotEmpty() && listening.all { it.isListening }, "listening: ${listening.map { it.kind }}")
+        val dictation = PracticeBuilder.build(words, pageWords, examples, Random(1), kinds = setOf(ExerciseKind.DICTATION))
+        assertTrue(dictation.isNotEmpty() && dictation.all { it.kind == ExerciseKind.DICTATION }, "dictation: ${dictation.map { it.kind }}")
+        assertEquals(emptyList(), PracticeBuilder.build(words, pageWords, examples, Random(1), kinds = emptySet()))
     }
 
     @Test

@@ -138,9 +138,9 @@ class TermsScreenTest {
         onNodeWithContentDescription("1 filter on").assertExists()
     }
 
-    /** Chosen terms can be practised: the list menu asks which kind of practice, then opens it on them. */
+    /** Chosen terms can be practised: the list menu asks which kinds of question, any of them, then opens the practice on them. */
     @Test
-    fun chosenTermsArePractisedInTheKindChosen() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun chosenTermsArePractisedWithTheKindsTicked() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val visited = mutableListOf<Route>()
         show(onNavigate = { visited += it })
         waitForList("comprar", "pensar", hidden = listOf("gostar"))
@@ -152,11 +152,13 @@ class TermsScreenTest {
         onNodeWithContentDescription("List actions").performClick()
         onNodeWithText("Practise 2 selected").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("practice-mode-CHOICE").performClick()
+        // All four kinds are ticked to begin with; the typed ones are unticked here.
+        onNodeWithTag("practice-kind-GAP_TYPED").performClick()
+        onNodeWithTag("practice-kind-DICTATION").performClick()
         onNodeWithTag("start-practice").performClick()
         waitUntil(timeoutMillis = 5_000) { visited.isNotEmpty() }
         val route = visited.single() as Route.PracticeWords
-        assertEquals("CHOICE", route.mode)
+        assertEquals(listOf("GAP_CHOICE", "HEAR_CHOOSE"), route.kinds)
         assertEquals(2, route.termIds.size)
         assertTrue(route.termIds.all { id -> runBlocking { terms.getById(id) }?.text in setOf("comprar", "pensar", "produtos") })
     }

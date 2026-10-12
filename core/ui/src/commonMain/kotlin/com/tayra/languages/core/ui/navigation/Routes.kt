@@ -23,9 +23,9 @@ sealed interface Route {
     @Serializable
     data class Practice(val bookId: Long, val page: Int) : Route
 
-    /** Exercises on chosen words of the vocabulary; [mode] names a PracticeMode. */
+    /** Exercises on chosen words of the vocabulary; [kinds] names the ExerciseKinds asked, every kind when empty. */
     @Serializable
-    data class PracticeWords(val termIds: List<Long>, val mode: String = "MIXED") : Route
+    data class PracticeWords(val termIds: List<Long>, val kinds: List<String> = emptyList()) : Route
     @Serializable
     data class EditPage(val bookId: Long, val page: Int) : Route
 

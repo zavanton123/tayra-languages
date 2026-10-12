@@ -11,8 +11,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
+import androidx.compose.material3.Checkbox
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -26,41 +26,44 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.tayra.languages.core.domain.practice.PracticeMode
+import com.tayra.languages.core.domain.practice.ExerciseKind
+import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.ui.components.description
 import com.tayra.languages.core.ui.components.label
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 
-/** Asks which kind of practice to start on the [count] chosen words. */
+/** Asks which kinds of question to practise the [count] chosen words with; any of them can be ticked, all are to begin with. */
 @Composable
-internal fun PracticeModeDialog(count: Int, onStart: (PracticeMode) -> Unit, onDismiss: () -> Unit) {
+internal fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    var mode by remember { mutableStateOf(PracticeMode.MIXED) }
+    var kinds by remember { mutableStateOf(PracticeBuilder.KINDS.toSet()) }
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text(trPlural(count, "Practise {0} word", "Practise {0} words")) },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                PracticeMode.entries.forEach { option ->
-                    val chosen = option == mode
+                Text(tr("Kinds of question"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                PracticeBuilder.KINDS.forEach { kind ->
+                    val ticked = kind in kinds
+                    val toggle = { kinds = if (ticked) kinds - kind else kinds + kind }
                     Row(
                         Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
-                            .background(if (chosen) colors.primary.copy(alpha = 0.08f) else colors.surface)
-                            .border(1.dp, if (chosen) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant, RoundedCornerShape(12.dp))
-                            .clickable { mode = option }.padding(end = 12.dp).testTag("practice-mode-${option.name}"),
+                            .background(if (ticked) colors.primary.copy(alpha = 0.08f) else colors.surface)
+                            .border(1.dp, if (ticked) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant, RoundedCornerShape(12.dp))
+                            .clickable(onClick = toggle).padding(end = 12.dp).testTag("practice-kind-${kind.name}"),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        RadioButton(selected = chosen, onClick = { mode = option })
+                        Checkbox(checked = ticked, onCheckedChange = { toggle() })
                         Column(Modifier.padding(vertical = 10.dp)) {
-                            Text(option.label(), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
-                            Text(option.description(), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                            Text(kind.label(), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+                            Text(kind.description(), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
                         }
                     }
                 }
             }
         },
-        confirmButton = { Button(onClick = { onStart(mode) }, modifier = Modifier.testTag("start-practice")) { Text(tr("Start")) } },
+        confirmButton = { Button(onClick = { onStart(kinds) }, enabled = kinds.isNotEmpty(), modifier = Modifier.testTag("start-practice")) { Text(tr("Start")) } },
         dismissButton = { TextButton(onClick = onDismiss) { Text(tr("Cancel")) } },
     )
 }

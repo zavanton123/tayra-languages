@@ -31,21 +31,6 @@ enum class ExerciseKind {
     DICTATION,
 }
 
-/** Which kinds of question a practice asks. */
-enum class PracticeMode(val kinds: List<ExerciseKind>) {
-    /** Every kind in turn. */
-    MIXED(listOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE, ExerciseKind.GAP_TYPED, ExerciseKind.DICTATION)),
-
-    /** Only questions answered by picking one of four. */
-    CHOICE(listOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE)),
-
-    /** Only questions answered by typing. */
-    TYPING(listOf(ExerciseKind.GAP_TYPED, ExerciseKind.DICTATION)),
-
-    /** Only questions that are heard first. */
-    LISTENING(listOf(ExerciseKind.HEAR_CHOOSE, ExerciseKind.DICTATION)),
-}
-
 /** One question of a page's practice. */
 data class Exercise(
     val kind: ExerciseKind,
@@ -78,11 +63,14 @@ object PracticeBuilder {
     /** Sentences of at most this many words are typed whole in a dictation. */
     private const val SHORT_SENTENCE_WORDS = 6
 
+    /** The kinds a practice can be made of, in the order they come round; a sentence from elsewhere is asked where the gap choice is. */
+    val KINDS: List<ExerciseKind> = listOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE, ExerciseKind.GAP_TYPED, ExerciseKind.DICTATION)
+
     /**
      * About two questions a word, ten at most, going round the words so that a word's questions
-     * are apart, and round the [mode]'s kinds so that each comes up. Where the mode has reading
-     * choices, words with an [examples] sentence get a question in that new context at the end.
-     * [pageWords] are the other words of the page, for wrong choices.
+     * are apart, and round the [kinds] asked for so that each comes up. Where the gap choice is
+     * among them, words with an [examples] sentence get a question in that new context at the
+     * end. [pageWords] are the other words of the page, for wrong choices.
      */
     fun build(
         words: List<PracticeWord>,
@@ -90,11 +78,11 @@ object PracticeBuilder {
         examples: Map<String, PracticeExample> = emptyMap(),
         random: Random = Random.Default,
         maxQuestions: Int = MAX_QUESTIONS,
-        mode: PracticeMode = PracticeMode.MIXED,
+        kinds: Set<ExerciseKind> = KINDS.toSet(),
     ): List<Exercise> {
         val targets = words.distinctBy { it.text.lowercase() }.shuffled(random)
-        if (targets.isEmpty()) return emptyList()
-        val rotation = mode.kinds
+        val rotation = KINDS.filter { it in kinds }
+        if (targets.isEmpty() || rotation.isEmpty()) return emptyList()
         val inNewContext = if (ExerciseKind.GAP_CHOICE in rotation) targets.filter { it.text.lowercase() in examples }.take(2) else emptyList()
         val rotated = (maxOf(targets.size * 2, 5)).coerceAtMost(targets.size * rotation.size).coerceAtMost(maxQuestions - inNewContext.size)
         val exercises = mutableListOf<Exercise>()
