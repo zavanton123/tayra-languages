@@ -100,6 +100,33 @@ class FlashcardServiceTest {
         assertNull(service.clozeRange(terms.getById(lemma)!!), "no form of the family in the sentence")
     }
 
+    /** The browser lists every card with its term and history, and acts on many cards at once. */
+    @Test
+    fun browsingListsEveryCardWithItsTermAndHistory() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        val casa = term(id, "casa")
+        term(id, "de", TermStatus.IGNORED)
+        answer(id, lobo, Rating.GOOD)
+        clock.advance(1.hours)
+
+        val browse = service.browse(id)
+        assertEquals(listOf("lobo", "casa"), browse.cards.map { it.term.text })
+        val answered = browse.cards.first { it.term.id == lobo }
+        assertEquals(CardState.LEARNING, answered.card.schedule.state)
+        assertNotNull(answered.retrievability, "answered once: a memory state to recall from")
+        assertNull(browse.cards.first { it.term.id == casa }.retrievability)
+        assertTrue(browse.endOfDay > browse.now)
+        assertEquals(listOf(Rating.GOOD), service.reviews(lobo).map { it.rating })
+        assertTrue(service.reviews(casa).isEmpty())
+
+        service.setSuspended(listOf(lobo, casa), true)
+        assertTrue(service.browse(id).cards.all { it.card.suspended })
+        service.restart(listOf(lobo))
+        assertEquals(CardState.NEW, service.cardFor(lobo)!!.schedule.state)
+        assertTrue(service.cardFor(lobo)!!.suspended, "a reset keeps the card aside")
+    }
+
     @Test
     fun cardsBelongToTheirLanguage() = runTest {
         val portuguese = language()

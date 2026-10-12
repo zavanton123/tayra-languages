@@ -33,6 +33,13 @@ CREATE INDEX flashcard_reviews_at ON flashcard_reviews(reviewed_at);
 selectByTerm:
 SELECT * FROM flashcards WHERE term_id = :termId;
 
+selectAll:
+SELECT f.*
+FROM flashcards f
+INNER JOIN terms t ON t.id = f.term_id
+WHERE :languageId IS NULL OR t.language_id = :languageId
+ORDER BY f.term_id;
+
 nextInStates:
 SELECT f.*
 FROM flashcards f
@@ -79,6 +86,9 @@ SELECT last_insert_rowid();
 
 deleteReview:
 DELETE FROM flashcard_reviews WHERE id = :id;
+
+selectReviewsByTerm:
+SELECT * FROM flashcard_reviews WHERE term_id = :termId ORDER BY reviewed_at DESC, id DESC;
 
 countReviewsSince:
 SELECT count(*)

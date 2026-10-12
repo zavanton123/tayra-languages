@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.repository
 
+import app.cash.sqldelight.async.coroutines.awaitAsList
 import app.cash.sqldelight.async.coroutines.awaitAsOne
 import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
 import app.cash.sqldelight.coroutines.asFlow
@@ -11,6 +12,7 @@ import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.Flashcard
 import com.tayra.languages.core.domain.flashcards.FlashcardReview
 import com.tayra.languages.core.domain.flashcards.MemoryState
+import com.tayra.languages.core.domain.flashcards.Rating
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.repository.FlashcardRepository
 import kotlinx.coroutines.flow.Flow
@@ -38,6 +40,24 @@ class FlashcardRepositoryImpl(private val provider: DatabaseProvider) : Flashcar
 
     override suspend fun get(termId: Long): Flashcard? = withContext(databaseDispatcher) {
         queries().selectByTerm(termId).awaitAsOneOrNull()?.toFlashcard()
+    }
+
+    override suspend fun list(languageId: Long?): List<Flashcard> = withContext(databaseDispatcher) {
+        queries().selectAll(languageId).awaitAsList().map { it.toFlashcard() }
+    }
+
+    override suspend fun reviews(termId: Long): List<FlashcardReview> = withContext(databaseDispatcher) {
+        queries().selectReviewsByTerm(termId).awaitAsList().map {
+            FlashcardReview(
+                id = it.id,
+                termId = it.term_id,
+                at = it.reviewed_at.toInstant(),
+                rating = Rating.of(it.rating.toInt()),
+                stateBefore = CardState.of(it.state_before.toInt()),
+                intervalDays = it.interval_days.toInt(),
+                elapsedDays = it.elapsed_days.toInt(),
+            )
+        }
     }
 
     override suspend fun next(languageId: Long?, states: Set<CardState>, dueBy: Instant): Flashcard? = withContext(databaseDispatcher) {

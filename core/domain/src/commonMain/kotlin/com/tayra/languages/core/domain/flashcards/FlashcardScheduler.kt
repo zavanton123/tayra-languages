@@ -77,6 +77,13 @@ class FlashcardScheduler(private val fsrs: Fsrs = Fsrs(), private val timeZone: 
     fun dayStart(day: Long, config: SchedulerConfig): Instant =
         LocalDate.fromEpochDays(day.toInt()).atTime(LocalTime(config.dayStartHour, 0)).toInstant(timeZone())
 
+    /** The chance, from 0 to 1, of recalling the card at [now]; null for a card never answered. */
+    fun retrievability(card: CardSchedule, now: Instant, config: SchedulerConfig): Double? {
+        val memory = card.memory ?: return null
+        val elapsed = card.lastReview?.let { (day(now, config) - day(it, config)).coerceAtLeast(0) } ?: 0
+        return fsrs.retrievability(elapsed.toDouble(), memory.stability)
+    }
+
     /** The card after answering [rating] at [now]. */
     fun answer(card: CardSchedule, rating: Rating, now: Instant, config: SchedulerConfig, fuzz: Double? = null): CardSchedule =
         outcomes(card, now, config, fuzz).getValue(rating)

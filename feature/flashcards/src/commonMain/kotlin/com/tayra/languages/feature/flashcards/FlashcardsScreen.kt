@@ -29,6 +29,8 @@ import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -105,8 +107,17 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     DisposableEffect(speaker) { onDispose { speaker.stop() } }
     // Coming back from editing a term or the settings shows the card as it is now.
     LaunchedEffect(Unit) { viewModel.load() }
+    val compact = LocalWindowWidth.current.isCompact
     Scaffold(
-        topBar = { AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS) },
+        topBar = {
+            AppTopBar(
+                title = tr("Flashcards"),
+                onNavigate = onNavigate,
+                section = NavSection.FLASHCARDS,
+                // Wide windows offer the browser from the page heading instead.
+                actions = { if (compact) IconButton(onClick = { onNavigate(Route.BrowseFlashcards) }) { Icon(AppIcons.ViewList, contentDescription = tr("Browse flashcards")) } },
+            )
+        },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -124,6 +135,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onSuspend = viewModel::suspendCard,
                 onEdit = { onNavigate(Route.EditTerm(it)) },
                 onVocabulary = { onNavigate(Route.Terms()) },
+                onBrowse = { onNavigate(Route.BrowseFlashcards) },
             ),
             modifier = Modifier.padding(padding),
         )
@@ -138,17 +150,19 @@ internal class FlashcardActions(
     val onSuspend: () -> Unit = {},
     val onEdit: (termId: Long) -> Unit = {},
     val onVocabulary: () -> Unit = {},
+    /** Every card in a list, to search and manage. */
+    val onBrowse: () -> Unit = {},
 )
 
 private val WORD_HIGHLIGHT = Color(0xFFFFD166)
 private val POS_BACKGROUND = Color(0xFFFFE9A8)
 private val POS_TEXT = Color(0xFF7A6A3A)
 
-private val NEW_TINT = Color(0xFF3B6FE0)
-private val LEARNING_TINT = Color(0xFFD9622B)
-private val REVIEW_TINT = Color(0xFF2E9D57)
+internal val NEW_TINT = Color(0xFF3B6FE0)
+internal val LEARNING_TINT = Color(0xFFD9622B)
+internal val REVIEW_TINT = Color(0xFF2E9D57)
 
-private val Rating.tint: Color
+internal val Rating.tint: Color
     get() = when (this) {
         Rating.AGAIN -> Color(0xFFD64545)
         Rating.HARD -> Color(0xFFD68A00)
@@ -189,7 +203,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
             Modifier.widthIn(max = 1048.dp).fillMaxWidth().padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 28.dp),
             verticalArrangement = Arrangement.spacedBy(if (compact) 16.dp else 22.dp),
         ) {
-            Header(state, compact)
+            Header(state, compact, actions.onBrowse)
             Progress(state, compact)
             val card = state.card
             if (card == null) {
@@ -204,14 +218,24 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
 }
 
 @Composable
-private fun Header(state: FlashcardsUiState, compact: Boolean) {
-    Column(Modifier.fillMaxWidth()) {
-        Text(tr("Flashcards"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-        Text(
-            if (state.languageName.isEmpty()) tr("Review the words you are learning.") else tr("Review the {0} words you are learning.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
-            style = MaterialTheme.typography.bodyLarge,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
+private fun Header(state: FlashcardsUiState, compact: Boolean, onBrowse: () -> Unit) {
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(Modifier.weight(1f)) {
+            Text(tr("Flashcards"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+            Text(
+                if (state.languageName.isEmpty()) tr("Review the words you are learning.") else tr("Review the {0} words you are learning.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+        // The phone's bar carries this button instead.
+        if (!compact) {
+            OutlinedButton(onClick = onBrowse, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("browse-flashcards")) {
+                Icon(AppIcons.ViewList, contentDescription = null, modifier = Modifier.size(18.dp))
+                Spacer(Modifier.width(6.dp))
+                Text(tr("Browse flashcards"))
+            }
+        }
     }
 }
 
@@ -471,7 +495,7 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
     }
 }
 
-private fun clockTime(instant: Instant): String {
+internal fun clockTime(instant: Instant): String {
     val time = instant.toLocalDateTime(TimeZone.currentSystemDefault()).time
     return "${time.hour.toString().padStart(2, '0')}:${time.minute.toString().padStart(2, '0')}"
 }

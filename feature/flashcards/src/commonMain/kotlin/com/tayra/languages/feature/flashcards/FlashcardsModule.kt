@@ -9,8 +9,10 @@ import org.koin.dsl.module
 
 val flashcardsModule = module {
     viewModel { FlashcardsViewModel(get(), get(), get(), get(), get(), get()) }
+    viewModel { BrowseFlashcardsViewModel(get(), get(), get()) }
 }
 
 fun NavGraphBuilder.flashcardsGraph(navController: NavController) {
     composable<Route.Flashcards> { FlashcardsScreen(onNavigate = { navController.navigate(it) }) }
+    composable<Route.BrowseFlashcards> { BrowseFlashcardsScreen(onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() }) }
 }

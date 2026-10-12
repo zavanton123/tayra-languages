@@ -17,6 +17,12 @@ interface FlashcardRepository {
 
     suspend fun get(termId: Long): Flashcard?
 
+    /** Every card of [languageId] (null for every language), suspended ones included. */
+    suspend fun list(languageId: Long?): List<Flashcard>
+
+    /** The answers given to the term's card, the latest first. */
+    suspend fun reviews(termId: Long): List<FlashcardReview>
+
     /** The card in [states] due soonest, by [dueBy] at the latest, among those not suspended. */
     suspend fun next(languageId: Long?, states: Set<CardState>, dueBy: Instant): Flashcard?
     suspend fun count(languageId: Long?, states: Set<CardState>, dueBy: Instant): Int

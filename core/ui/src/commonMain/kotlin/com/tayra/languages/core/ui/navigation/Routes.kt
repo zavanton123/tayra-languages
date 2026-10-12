@@ -80,6 +80,11 @@ sealed interface Route {
     /** Reviewing the flashcards of the language being learned. */
     @Serializable
     data object Flashcards : Route
+
+    /** Every flashcard of the language being learned, to search, sort and manage; the browser of Anki. */
+    @Serializable
+    data object BrowseFlashcards : Route
+
     @Serializable
     data object FlashcardSettings : Route
     @Serializable

@@ -46,6 +46,17 @@ class FlashcardService(
         val shownAt: Instant,
     )
 
+    /** A card with its term, as the browser lists them. */
+    data class BrowseCard(
+        val card: Flashcard,
+        val term: Term,
+        /** The chance, from 0 to 1, of recalling the card now; null before its first answer. */
+        val retrievability: Double?,
+    )
+
+    /** Every card of a language with its term; [endOfDay] is when the current study day ends, by which the cards due today come. */
+    data class Browse(val cards: List<BrowseCard>, val now: Instant, val endOfDay: Instant)
+
     /** What an answer changed, enough to take it back. */
     data class Answered(val before: Flashcard, val statusBefore: TermStatus, val statusAfter: TermStatus, val reviewId: Long)
 
@@ -145,22 +156,40 @@ class FlashcardService(
         if (answered.statusAfter != answered.statusBefore) terms.updateStatus(listOf(answered.before.termId), answered.statusBefore)
     }
 
+    /** Every card of [languageId] (null for every language) with its term, suspended cards included. */
+    suspend fun browse(languageId: Long?): Browse {
+        val now = clock.now()
+        cards.reconcile(now)
+        val config = config()
+        val all = cards.list(languageId)
+        val byId = terms.getByIds(all.map { it.termId }).associateBy { it.id }
+        val listed = all.mapNotNull { card -> byId[card.termId]?.let { BrowseCard(card, it, scheduler.retrievability(card.schedule, now, config)) } }
+        return Browse(listed, now, scheduler.dayStart(scheduler.day(now, config) + 1, config))
+    }
+
+    /** The answers given to the term's card, the latest first. */
+    suspend fun reviews(termId: Long): List<FlashcardReview> = cards.reviews(termId)
+
     /** The term's card, if it has one. */
     suspend fun cardFor(termId: Long): Flashcard? {
         cards.reconcile(clock.now())
         return cards.get(termId)
     }
 
-    suspend fun setSuspended(termId: Long, suspended: Boolean) {
+    suspend fun setSuspended(termId: Long, suspended: Boolean) = setSuspended(listOf(termId), suspended)
+
+    suspend fun setSuspended(termIds: Collection<Long>, suspended: Boolean) {
         cards.reconcile(clock.now())
-        cards.setSuspended(termId, suspended)
+        termIds.forEach { cards.setSuspended(it, suspended) }
     }
 
     /** Forgets the card's history: it is a new card again. */
-    suspend fun restart(termId: Long) {
+    suspend fun restart(termId: Long) = restart(listOf(termId))
+
+    suspend fun restart(termIds: Collection<Long>) {
         val now = clock.now()
         cards.reconcile(now)
-        cards.restart(termId, now)
+        termIds.forEach { cards.restart(it, now) }
     }
 
     /** How many cards of the language being learned wait today; follows changes and the clock. */
