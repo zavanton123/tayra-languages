@@ -7,6 +7,9 @@ import com.tayra.languages.core.domain.courses.InstalledCoursePacks
 import com.tayra.languages.core.domain.courses.SampleCourseSource
 import com.tayra.languages.core.domain.courses.CourseRepository
 import com.tayra.languages.core.data.coursepack.CoursePackRepository
+import com.tayra.languages.core.data.bookpack.BookPackRepository
+import com.tayra.languages.core.domain.books.BookPackService
+import com.tayra.languages.core.domain.books.BookPackStore
 import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
 import com.tayra.languages.core.data.repository.VocabularyLevelRepositoryImpl
@@ -152,6 +155,8 @@ val dataModule: Module = module {
     single<SampleCourseSource> { InstalledCoursePacks(get()) }
     single { CourseService(get(), get(), get(), get(), get()) }
     single { CoursePackService(get(), get()) }
+    single<BookPackStore> { BookPackRepository(get()) }
+    single { BookPackService(get(), get(), get(), get()) }
     single { LanguageSetupService(get(), get(), get(), get(), get(), get()) }
     single { ClearDataService(get(), get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }

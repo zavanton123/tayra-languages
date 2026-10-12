@@ -106,6 +106,10 @@ sealed interface Route {
     @Serializable
     data object CoursePacks : Route
 
+    /** Downloadable book packs, free texts of a language graded by level, as one file. */
+    @Serializable
+    data object BookPacks : Route
+
     /** Speech engines and their voices. */
     @Serializable
     data object Speech : Route

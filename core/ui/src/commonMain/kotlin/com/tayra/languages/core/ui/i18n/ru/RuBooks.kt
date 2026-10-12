@@ -26,6 +26,14 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Books you have set aside. Unarchive one to keep reading it." to "Отложенные книги. Верните книгу из архива, чтобы продолжить чтение.",
     "Read, learn, and explore languages through great texts." to "Читайте, учитесь и открывайте для себя языки с помощью отличных текстов.",
     "New book" to "Новая книга",
+    // EmptyLibrary
+    "Your library is empty" to "Ваша библиотека пуста",
+    "Choose a language to learn to see its books." to "Выберите язык для изучения, чтобы увидеть его книги.",
+    "Download a bundle of free {0} books graded from A2 to C2, or add a text of your own." to "Скачайте подборку бесплатных книг на {0} языке с уровнями от A2 до C2 или добавьте свой текст.",
+    "Add a text you want to read: paste it, or open a file." to "Добавьте текст, который хотите прочитать: вставьте его или откройте файл.",
+    "Download the book bundle" to "Скачать подборку книг",
+    "Downloading…" to "Скачивание…",
+    "Add a book" to "Добавить книгу",
     // PhoneBooks.kt
     "Select books" to "Выбрать книги",
     "{0}% read" to "{0}% прочитано",

@@ -3,6 +3,10 @@ package com.tayra.languages.feature.books
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
+import com.tayra.languages.core.domain.books.BookPackService
+import com.tayra.languages.core.domain.books.BookPacks
+import com.tayra.languages.core.domain.dictionary.PackState
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.BookListItem
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
@@ -81,7 +85,14 @@ data class BooksUiState(
     val wordsLearned: Int = 0,
     /** Ticked books; only those still listed count, so a filter never hides a selected book from a bulk action. */
     val selected: Set<Long> = emptySet(),
+    /** Whether a bundle of free books for the language can be downloaded, offered while the library is empty. */
+    val packAvailable: Boolean = false,
+    /** How far the language's book bundle is: downloading, failed, or neither; null without a bundle. */
+    val packState: PackState? = null,
 ) {
+    /** The name of the language being learned, empty when none is chosen. */
+    val languageName: String get() = languages.firstOrNull { it.id == currentLanguageId }?.name.orEmpty()
+
     /** The books matching the search and the tags, whatever their progress. */
     private val searched: List<BookListItem>
         get() {
@@ -131,6 +142,7 @@ class BooksViewModel(
     private val bookService: BookService,
     private val bookStats: BookStatsService,
     private val statsService: StatsService,
+    private val packs: BookPackService,
 ) : ViewModel() {
 
     private val search = MutableStateFlow("")
@@ -164,11 +176,13 @@ class BooksViewModel(
         languages.observeAll(),
         settings.settings,
         combine(search, selected, tagFilter, ::Triple),
-        options,
-    ) { bookList, languageList, prefs, (query, ticked, tagChoice), opts ->
+        combine(options, packs.packs, ::Pair),
+    ) { bookList, languageList, prefs, (query, ticked, tagChoice), (opts, packStates) ->
         val currentLanguageId = if (languageList.any { it.id == prefs.currentLanguageId }) prefs.currentLanguageId else 0
         // The page lists the books of the language being learned.
         val listed = if (currentLanguageId == 0L) bookList else bookList.filter { it.languageId == currentLanguageId }
+        val languageName = languageList.firstOrNull { it.id == currentLanguageId }?.name
+        val pack = languageName?.let { LanguageCodes.codeFor(it) }?.let { code -> packStates.firstOrNull { it.pack.languageCode == code } }
         BooksUiState(
             loading = false,
             archived = archived,
@@ -186,8 +200,17 @@ class BooksViewModel(
             streak = opts.extras.streak,
             showStreak = prefs.showStreakOnHome,
             wordsLearned = opts.wordsLearned,
+            packAvailable = pack != null,
+            packState = pack?.state,
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), BooksUiState(archived = archived))
+
+    /** Downloads the language's book bundle; its books appear here as soon as they are written. */
+    fun downloadBooks() {
+        val code = state.value.languages.firstOrNull { it.id == state.value.currentLanguageId }?.name?.let { LanguageCodes.codeFor(it) } ?: return
+        val pack = BookPacks.forLanguage(code).firstOrNull() ?: return
+        viewModelScope.launch { packs.download(pack) }
+    }
 
     init {
         refreshExtras()

@@ -22,6 +22,10 @@ kotlin-js-store/
 /dictionaries/
 # Built course packs, uploaded to the GitHub release (tools/build_courses.py)
 /course-packs/
+# Built book packs, uploaded to the GitHub release (tools/build_books.py)
+/book-packs/
+# Downloaded sources for tools/fetch_books.py
+/tools/books/.cache/
 __pycache__/
 
 # CocoaPods

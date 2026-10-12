@@ -6,6 +6,7 @@ import com.tayra.languages.core.data.settings.KeychainSecureStore
 import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.coursepack.CoursePackFiles
+import com.tayra.languages.core.data.bookpack.BookPackFiles
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.backup.BackupFiles
 import org.koin.core.module.Module
@@ -20,6 +21,7 @@ actual val platformDataModule: Module = module {
     single<SpeechAudioCache> { FileSpeechAudioCache() }
     single { DictionaryPackStorage(get()) }
     single { CoursePackFiles(get()) }
+    single { BookPackFiles(get()) }
     single<Settings> { NSUserDefaultsSettings(NSUserDefaults.standardUserDefaults) }
     single<SecureStore> { KeychainSecureStore() }
 }

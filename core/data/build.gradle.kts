@@ -22,6 +22,12 @@ sqldelight {
             srcDirs.setFrom("src/commonMain/sqldelight-coursepack")
             generateAsync.set(true)
         }
+        // Read-only book packs downloaded from Settings > Books (tools/build_books.py).
+        create("BookPackDatabase") {
+            packageName.set("com.tayra.languages.core.data.bookpack")
+            srcDirs.setFrom("src/commonMain/sqldelight-bookpack")
+            generateAsync.set(true)
+        }
     }
 }
 

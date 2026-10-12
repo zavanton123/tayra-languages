@@ -11,6 +11,7 @@ val settingsModule = module {
     viewModel { SettingsViewModel(get(), getOrNull()) }
     viewModel { DictionariesViewModel(get(), get(), get()) }
     viewModel { CoursePacksViewModel(get()) }
+    viewModel { BookPacksViewModel(get()) }
     viewModel { SpeechViewModel(get(), get(), get()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
@@ -26,6 +27,7 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
     composable<Route.FlashcardSettings> { FlashcardSettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.OfflineDictionaries> { DictionariesScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.CoursePacks> { CoursePacksScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
+    composable<Route.BookPacks> { BookPacksScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.OfflineTranslation> { OfflineTranslationScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.ClearData> {
         ClearDataScreen(

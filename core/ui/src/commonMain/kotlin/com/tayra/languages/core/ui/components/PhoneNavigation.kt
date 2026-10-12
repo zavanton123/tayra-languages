@@ -98,6 +98,7 @@ private val moreGroups = listOf(
             MoreEntry("Translation", AppIcons.Translate, Route.OfflineTranslation),
             MoreEntry("Dictionaries", AppIcons.Book, Route.OfflineDictionaries),
             MoreEntry("Courses", AppIcons.MenuBook, Route.CoursePacks),
+            MoreEntry("Books", AppIcons.BookClosed, Route.BookPacks),
             MoreEntry("Speech", AppIcons.VolumeUp, Route.Speech),
             MoreEntry("Flashcards", AppIcons.Style, Route.FlashcardSettings),
             MoreEntry("Vocabulary", AppIcons.Abc, Route.VocabularySettings),

@@ -87,6 +87,9 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
             item {
                 Text(tr("Books you have set aside. Unarchive one to keep reading it."), Modifier.padding(bottom = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
+        } else if (state.books.isEmpty()) {
+            item { EmptyLibrary(state, callbacks.onNewBook, callbacks.onDownloadBooks) }
+            return@ScrollList
         } else {
             state.continueWith?.let { book -> item { PhoneContinueCard(book) { callbacks.onOpen(book) } } }
         }

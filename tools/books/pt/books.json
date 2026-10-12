@@ -1,0 +1,433 @@
+{
+  "language": "pt",
+  "books": [
+    {
+      "id": "pt-bichos-da-mata",
+      "level": "A2",
+      "title": "Bichos da mata",
+      "author": "Wikilivros",
+      "tags": [
+        "animals",
+        "nature",
+        "children"
+      ],
+      "source": "wikibooks",
+      "pages": [
+        "Bichos da mata/Introdução",
+        "Bichos da mata/Ararajuba",
+        "Bichos da mata/Gavião-real",
+        "Bichos da mata/Tucano",
+        "Bichos da mata/Uirapuru",
+        "Bichos da mata/Anta",
+        "Bichos da mata/Bicho-preguiça",
+        "Bichos da mata/Boto",
+        "Bichos da mata/Cachorro-vinagre",
+        "Bichos da mata/Gato Maracajá",
+        "Bichos da mata/Jaguatirica",
+        "Bichos da mata/Jupará",
+        "Bichos da mata/Macaco-aranha",
+        "Bichos da mata/Onça-pintada",
+        "Bichos da mata/Peixe-boi",
+        "Bichos da mata/Pirarucu",
+        "Bichos da mata/Poraquê",
+        "Bichos da mata/Sucuri",
+        "Bichos da mata/Tartaruga-da-amazônia",
+        "Bichos da mata/Tucunaré"
+      ],
+      "summary": "Short portraits of the animals of the Amazon forest and its rivers, written for children.",
+      "url": "https://pt.wikibooks.org/wiki/Bichos_da_mata",
+      "license": "CC BY-SA 4.0",
+      "append": "Fonte: Wikilivros, «Bichos da mata» (https://pt.wikibooks.org/wiki/Bichos_da_mata), licença CC BY-SA 4.0."
+    },
+    {
+      "id": "pt-rodolfo-lagartixas",
+      "level": "A2",
+      "title": "Rodolfo e as lagartixas",
+      "author": "Wikilivros",
+      "tags": [
+        "story",
+        "children"
+      ],
+      "source": "wikibooks",
+      "pages": [
+        "Rodolfo e as lagartixas/Rodolfo",
+        "Rodolfo e as lagartixas/Cartaz",
+        "Rodolfo e as lagartixas/Ensaio",
+        "Rodolfo e as lagartixas/Apresentação"
+      ],
+      "summary": "A short children's story in four parts about a boy, a poster and a show.",
+      "url": "https://pt.wikibooks.org/wiki/Rodolfo_e_as_lagartixas",
+      "license": "CC BY-SA 4.0",
+      "append": "Fonte: Wikilivros, «Rodolfo e as lagartixas» (https://pt.wikibooks.org/wiki/Rodolfo_e_as_lagartixas), licença CC BY-SA 4.0."
+    },
+    {
+      "id": "pt-astronomia-mirim",
+      "level": "A2",
+      "title": "Astronomia mirim",
+      "author": "Wikilivros",
+      "tags": [
+        "science",
+        "children"
+      ],
+      "source": "wikibooks",
+      "pages": [
+        "Astronomia mirim/Introdução",
+        "Astronomia mirim/A Terra e o céu",
+        "Astronomia mirim/A Terra",
+        "Astronomia mirim/A Lua",
+        "Astronomia mirim/Estrelas cadentes",
+        "Astronomia mirim/Cometas",
+        "Astronomia mirim/Cinturão de Kuiper",
+        "Astronomia mirim/Júpiter",
+        "Astronomia mirim/As galáxias",
+        "Astronomia mirim/A grande explosão",
+        "Astronomia mirim/A grande implosão",
+        "Astronomia mirim/Descobertas"
+      ],
+      "summary": "The sky, the Earth, the Moon, comets and galaxies, for young readers.",
+      "url": "https://pt.wikibooks.org/wiki/Astronomia_mirim",
+      "license": "CC BY-SA 4.0",
+      "append": "Fonte: Wikilivros, «Astronomia mirim» (https://pt.wikibooks.org/wiki/Astronomia_mirim), licença CC BY-SA 4.0."
+    },
+    {
+      "id": "pt-brasil-verbetes",
+      "level": "B1",
+      "title": "O Brasil em verbetes",
+      "author": "Wikipédia",
+      "tags": [
+        "culture",
+        "nature",
+        "brazil"
+      ],
+      "source": "wikipedia",
+      "pages": [
+        "Capivara",
+        "Tucano",
+        "Onça-pintada",
+        "Mico-leão-dourado",
+        "Boto-cor-de-rosa",
+        "Floresta Amazônica",
+        "Pantanal",
+        "Cataratas do Iguaçu",
+        "Lençóis Maranhenses",
+        "Rio de Janeiro (cidade)",
+        "Cristo Redentor",
+        "Feijoada",
+        "Pão de queijo",
+        "Brigadeiro (doce)",
+        "Açaí",
+        "Guaraná",
+        "Carnaval do Brasil",
+        "Festa junina",
+        "Samba",
+        "Bossa nova",
+        "Capoeira",
+        "Futebol no Brasil",
+        "Pelé"
+      ],
+      "summary": "Twenty-three short encyclopedia entries on Brazil's animals, places, food, music and sport.",
+      "url": "https://pt.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
+      "append": "Fonte: Wikipédia, a enciclopédia livre (https://pt.wikipedia.org/), introduções dos verbetes citados, licença CC BY-SA 4.0."
+    },
+    {
+      "id": "pt-portugal-verbetes",
+      "level": "B1",
+      "title": "Portugal em verbetes",
+      "author": "Wikipédia",
+      "tags": [
+        "culture",
+        "portugal"
+      ],
+      "source": "wikipedia",
+      "pages": [
+        "Lisboa",
+        "Porto",
+        "Coimbra",
+        "Sintra",
+        "Algarve",
+        "Madeira",
+        "Açores",
+        "Rio Douro",
+        "Fado",
+        "Azulejo",
+        "Pastel de nata",
+        "Bacalhau",
+        "Vinho do Porto",
+        "Luís de Camões",
+        "Fernando Pessoa",
+        "Cristiano Ronaldo",
+        "Descobrimentos portugueses",
+        "Língua portuguesa"
+      ],
+      "summary": "Eighteen short encyclopedia entries on Portugal's cities, islands, food, music and history.",
+      "url": "https://pt.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
+      "append": "Fonte: Wikipédia, a enciclopédia livre (https://pt.wikipedia.org/), introduções dos verbetes citados, licença CC BY-SA 4.0."
+    },
+    {
+      "id": "pt-lima-barreto-contos",
+      "level": "B2",
+      "title": "O homem que sabia javanês e outros contos",
+      "author": "Lima Barreto",
+      "tags": [
+        "short stories",
+        "classic"
+      ],
+      "source": "wikisource",
+      "pages": [
+        "O homem que sabia javanês",
+        "O único assassinato de Cazuza",
+        "Milagre do Natal",
+        "Manel Capineiro",
+        "Um especialista",
+        "O filho de Gabriela",
+        "A mulher do Anacleto",
+        "O caçador doméstico"
+      ],
+      "summary": "Eight stories of Rio de Janeiro life by Lima Barreto, with his famous tale of the man who claimed to know Javanese.",
+      "url": "https://pt.wikisource.org/wiki/O_homem_que_sabia_javanês_e_outros_contos",
+      "license": "Public domain",
+      "append": "Fonte: Wikisource (https://pt.wikisource.org/wiki/O_homem_que_sabia_javanês_e_outros_contos). Obra em domínio público."
+    },
+    {
+      "id": "pt-machado-varias-historias",
+      "level": "B2",
+      "title": "Contos de Várias Histórias",
+      "author": "Machado de Assis",
+      "tags": [
+        "short stories",
+        "classic"
+      ],
+      "source": "machado-collection",
+      "stories": [
+        [
+          "contos/macn005.txt",
+          "A cartomante"
+        ],
+        [
+          "contos/macn005.txt",
+          "Uns braços"
+        ],
+        [
+          "contos/macn005.txt",
+          "A causa secreta"
+        ],
+        [
+          "contos/macn005.txt",
+          "O enfermeiro"
+        ],
+        [
+          "contos/macn005.txt",
+          "Conto de escola"
+        ],
+        [
+          "contos/macn005.txt",
+          "Um apólogo"
+        ],
+        [
+          "contos/macn005.txt",
+          "D. Paula"
+        ],
+        [
+          "contos/macn005.txt",
+          "Viver!"
+        ]
+      ],
+      "summary": "Eight stories from Várias Histórias (1896): a fortune-teller, a nurse, a schoolboy, a needle and a thread.",
+      "url": "http://machado.mec.gov.br/",
+      "license": "Public domain",
+      "append": "Fonte: Machado de Assis, Obra Completa (http://machado.mec.gov.br/), edição Nova Aguilar, 1994. Obra em domínio público."
+    },
+    {
+      "id": "pt-machado-contos-escolhidos",
+      "level": "B2",
+      "title": "Contos escolhidos",
+      "author": "Machado de Assis",
+      "tags": [
+        "short stories",
+        "classic"
+      ],
+      "source": "machado-collection",
+      "stories": [
+        [
+          "contos/macn006.txt",
+          "Missa do galo"
+        ],
+        [
+          "contos/macn006.txt",
+          "O caso da vara"
+        ],
+        [
+          "contos/macn006.txt",
+          "O dicionário"
+        ],
+        [
+          "contos/macn006.txt",
+          "Idéias do canário"
+        ],
+        [
+          "contos/macn007.txt",
+          "Pai contra mãe"
+        ],
+        [
+          "contos/macn007.txt",
+          "Umas férias"
+        ],
+        [
+          "contos/macn007.txt",
+          "Evolução"
+        ],
+        [
+          "contos/macn003.txt",
+          "Teoria do medalhão"
+        ],
+        [
+          "contos/macn003.txt",
+          "O espelho"
+        ],
+        [
+          "contos/macn004.txt",
+          "A igreja do Diabo"
+        ],
+        [
+          "contos/macn004.txt",
+          "Noite de almirante"
+        ]
+      ],
+      "summary": "Eleven of Machado de Assis's best-known stories, from Missa do galo to O espelho.",
+      "url": "http://machado.mec.gov.br/",
+      "license": "Public domain",
+      "append": "Fonte: Machado de Assis, Obra Completa (http://machado.mec.gov.br/), edição Nova Aguilar, 1994. Obra em domínio público."
+    },
+    {
+      "id": "pt-o-alienista",
+      "level": "C1",
+      "title": "O alienista",
+      "author": "Machado de Assis",
+      "tags": [
+        "novella",
+        "classic"
+      ],
+      "source": "machado",
+      "file": "contos/macn003.txt",
+      "story": "O alienista",
+      "summary": "A doctor opens an asylum in the town of Itaguaí and finds madness everywhere, in this satirical novella of 1882.",
+      "url": "http://machado.mec.gov.br/",
+      "license": "Public domain",
+      "append": "Fonte: Machado de Assis, Obra Completa (http://machado.mec.gov.br/), edição Nova Aguilar, 1994. Obra em domínio público."
+    },
+    {
+      "id": "pt-helena",
+      "level": "C1",
+      "title": "Helena",
+      "author": "Machado de Assis",
+      "tags": [
+        "novel",
+        "classic"
+      ],
+      "source": "machado",
+      "file": "romance/marm03.txt",
+      "summary": "A romantic novel of 1876: a young woman arrives in a wealthy family of Rio de Janeiro with a secret.",
+      "url": "http://machado.mec.gov.br/",
+      "license": "Public domain",
+      "append": "Fonte: Machado de Assis, Obra Completa (http://machado.mec.gov.br/), edição Nova Aguilar, 1994. Obra em domínio público."
+    },
+    {
+      "id": "pt-policarpo-quaresma",
+      "level": "C1",
+      "title": "Triste Fim de Policarpo Quaresma",
+      "author": "Lima Barreto",
+      "tags": [
+        "novel",
+        "classic"
+      ],
+      "source": "wikisource",
+      "pages": [
+        "Triste Fim de Policarpo Quaresma/I/I",
+        "Triste Fim de Policarpo Quaresma/I/II",
+        "Triste Fim de Policarpo Quaresma/I/III",
+        "Triste Fim de Policarpo Quaresma/I/IV",
+        "Triste Fim de Policarpo Quaresma/I/V",
+        "Triste Fim de Policarpo Quaresma/II/I",
+        "Triste Fim de Policarpo Quaresma/II/II",
+        "Triste Fim de Policarpo Quaresma/II/III",
+        "Triste Fim de Policarpo Quaresma/II/IV",
+        "Triste Fim de Policarpo Quaresma/II/V",
+        "Triste Fim de Policarpo Quaresma/III/I",
+        "Triste Fim de Policarpo Quaresma/III/II",
+        "Triste Fim de Policarpo Quaresma/III/III",
+        "Triste Fim de Policarpo Quaresma/III/IV",
+        "Triste Fim de Policarpo Quaresma/III/V"
+      ],
+      "summary": "The sad end of a patriotic clerk who wanted Brazil to speak Tupi, in Lima Barreto's novel of 1915.",
+      "url": "https://pt.wikisource.org/wiki/Triste_Fim_de_Policarpo_Quaresma",
+      "license": "Public domain",
+      "append": "Fonte: Wikisource (https://pt.wikisource.org/wiki/Triste_Fim_de_Policarpo_Quaresma). Obra em domínio público."
+    },
+    {
+      "id": "pt-dom-casmurro",
+      "level": "C1",
+      "title": "Dom Casmurro",
+      "author": "Machado de Assis",
+      "tags": [
+        "novel",
+        "classic"
+      ],
+      "source": "machado",
+      "file": "romance/marm08.txt",
+      "summary": "Bentinho tells of his love for Capitu and the doubt that poisoned it, in the novel of 1899.",
+      "url": "http://machado.mec.gov.br/",
+      "license": "Public domain",
+      "append": "Fonte: Machado de Assis, Obra Completa (http://machado.mec.gov.br/), edição Nova Aguilar, 1994. Obra em domínio público."
+    },
+    {
+      "id": "pt-memorias-postumas",
+      "level": "C2",
+      "title": "Memórias Póstumas de Brás Cubas",
+      "author": "Machado de Assis",
+      "tags": [
+        "novel",
+        "classic"
+      ],
+      "source": "machado",
+      "file": "romance/marm05.txt",
+      "summary": "A dead man writes his memoirs, in the novel of 1881 that changed Brazilian literature.",
+      "url": "http://machado.mec.gov.br/",
+      "license": "Public domain",
+      "append": "Fonte: Machado de Assis, Obra Completa (http://machado.mec.gov.br/), edição Nova Aguilar, 1994. Obra em domínio público."
+    },
+    {
+      "id": "pt-quincas-borba",
+      "level": "C2",
+      "title": "Quincas Borba",
+      "author": "Machado de Assis",
+      "tags": [
+        "novel",
+        "classic"
+      ],
+      "source": "machado",
+      "file": "romance/marm07.txt",
+      "summary": "Rubião inherits a fortune and a philosophy, and loses both, in the novel of 1891.",
+      "url": "http://machado.mec.gov.br/",
+      "license": "Public domain",
+      "append": "Fonte: Machado de Assis, Obra Completa (http://machado.mec.gov.br/), edição Nova Aguilar, 1994. Obra em domínio público."
+    },
+    {
+      "id": "pt-esau-e-jaco",
+      "level": "C2",
+      "title": "Esaú e Jacó",
+      "author": "Machado de Assis",
+      "tags": [
+        "novel",
+        "classic"
+      ],
+      "source": "machado",
+      "file": "romance/marm09.txt",
+      "summary": "Twin brothers who disagree about everything, including Brazil, in the novel of 1904.",
+      "url": "http://machado.mec.gov.br/",
+      "license": "Public domain",
+      "append": "Fonte: Machado de Assis, Obra Completa (http://machado.mec.gov.br/), edição Nova Aguilar, 1994. Obra em domínio público."
+    }
+  ]
+}

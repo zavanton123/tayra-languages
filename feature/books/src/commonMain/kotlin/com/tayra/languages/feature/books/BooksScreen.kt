@@ -45,6 +45,12 @@ import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.ui.text.style.TextAlign
+import com.tayra.languages.core.domain.dictionary.PackState
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.languageInSentence
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -145,6 +151,7 @@ fun BooksScreen(
                 onSelectAll = viewModel::selectAll,
                 onArchiveSelected = { viewModel.archiveSelected() },
                 onDeleteSelected = { confirmDeleteSelected = true },
+                onDownloadBooks = viewModel::downloadBooks,
             )
         if (compact) PhoneBooksContent(state, callbacks, selecting = selecting, onDone = { selecting = false; viewModel.selectAll(false) }, modifier = Modifier.padding(padding))
         else BooksContent(state = state, callbacks = callbacks, modifier = Modifier.padding(padding))
@@ -189,6 +196,8 @@ internal class BooksCallbacks(
     val onSelectAll: (Boolean) -> Unit = {},
     val onArchiveSelected: () -> Unit = {},
     val onDeleteSelected: () -> Unit = {},
+    /** Downloads the language's bundle of free books. */
+    val onDownloadBooks: () -> Unit = {},
 )
 
 /** The page below the top bar, from the header to the list of books. */
@@ -206,6 +215,11 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
         contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
     ) {
         item { PageHeader(state.archived, compact, callbacks.onNewBook) }
+        // An empty library: the way in is a bundle of free books, or a first book of one's own.
+        if (!state.archived && state.books.isEmpty()) {
+            item { EmptyLibrary(state, callbacks.onNewBook, callbacks.onDownloadBooks) }
+            return@ScrollList
+        }
         if (!state.archived) state.continueWith?.let { book -> item { ContinueCard(book) { callbacks.onOpen(book) } } }
         item { ProgressTabs(state.counts, state.progress, callbacks.onProgress) }
         item { Toolbar(state, compact, wide, books.size, callbacks) }
@@ -777,6 +791,65 @@ internal fun BookMenu(book: BookListItem, callbacks: BooksCallbacks) {
             AppMenuItem(text = { Text(tr("Bookmarks")) }, onClick = { open = false; callbacks.onBookmarks(book) })
             AppMenuItem(text = { Text(if (book.isArchived) tr("Unarchive") else tr("Archive")) }, onClick = { open = false; callbacks.onArchive(book) })
             AppMenuItem(text = { Text(tr("Delete")) }, onClick = { open = false; callbacks.onDelete(book) })
+        }
+    }
+}
+
+/** No books yet in the language: the free bundle, when there is one, and a book of one's own. */
+@Composable
+internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownloadBooks: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val compact = LocalWindowWidth.current.isCompact
+    val language = state.languageName
+    val downloading = state.packState is PackState.Downloading
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(20.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(20.dp))
+            .padding(horizontal = if (compact) 20.dp else 48.dp, vertical = if (compact) 28.dp else 36.dp).testTag("empty-library"),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Box(Modifier.size(72.dp).clip(CircleShape).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
+            Icon(AppIcons.MenuBook, contentDescription = null, tint = colors.primary, modifier = Modifier.size(36.dp))
+        }
+        Spacer(Modifier.height(20.dp))
+        Text(
+            if (language.isEmpty()) tr("Choose a language to learn") else tr("Your library is empty"),
+            style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center,
+        )
+        Spacer(Modifier.height(10.dp))
+        Text(
+            when {
+                language.isEmpty() -> tr("Choose a language to learn to see its books.")
+                state.packAvailable -> tr("Download a bundle of free {0} books graded from A2 to C2, or add a text of your own.", languageInSentence(language, LanguageCase.PREPOSITIONAL))
+                else -> tr("Add a text you want to read: paste it, or open a file.")
+            },
+            style = MaterialTheme.typography.bodyLarge,
+            color = colors.onSurfaceVariant,
+            textAlign = TextAlign.Center,
+        )
+        if (language.isEmpty()) return@Column
+        state.packState?.let { packState ->
+            if (packState is PackState.Failed) {
+                Spacer(Modifier.height(10.dp))
+                Text(tr(packState.message), style = MaterialTheme.typography.bodyMedium, color = colors.error, textAlign = TextAlign.Center)
+            }
+        }
+        Spacer(Modifier.height(24.dp))
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            if (state.packAvailable) {
+                Button(onClick = onDownloadBooks, enabled = !downloading, shape = RoundedCornerShape(12.dp), contentPadding = PaddingValues(horizontal = 24.dp, vertical = 14.dp), modifier = Modifier.testTag("download-books")) {
+                    if (downloading) CircularProgressIndicator(Modifier.size(20.dp), color = colors.onPrimary, strokeWidth = 2.dp)
+                    else Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(20.dp))
+                    Spacer(Modifier.width(10.dp))
+                    Text(if (downloading) tr("Downloading…") else tr("Download the book bundle"), fontWeight = FontWeight.SemiBold)
+                }
+            }
+            OutlinedButton(onClick = onNewBook, shape = RoundedCornerShape(12.dp), contentPadding = PaddingValues(horizontal = 24.dp, vertical = 14.dp)) {
+                Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(20.dp))
+                Spacer(Modifier.width(10.dp))
+                Text(tr("Add a book"), fontWeight = FontWeight.SemiBold)
+            }
         }
     }
 }

@@ -17,6 +17,8 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.assertIsNotEnabled
+import com.tayra.languages.core.domain.dictionary.PackState
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.tayra.languages.core.domain.model.BookListItem
 import com.tayra.languages.core.domain.model.BookStats
@@ -243,6 +245,34 @@ class BooksScreenTest {
         assertEquals(listOf("A Maldição"), bulk["archive"])
         onNodeWithTag("done-selecting").performClick()
         assertEquals(0, onAllNodesWithContentDescription("Select A Maldição").fetchSemanticsNodes().size)
+    }
+
+    /** An empty library offers the language's free book bundle, and the offer waits while it downloads. */
+    @Test
+    fun anEmptyLibraryOffersTheBookBundle() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        var state by mutableStateOf(BooksUiState(loading = false, books = emptyList(), languages = emptyList(), currentLanguageId = 1, packAvailable = true))
+        var asked = 0
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {}) {
+                        Surface(color = MaterialTheme.colorScheme.background) {
+                            Column {
+                                AppTopBar(title = "Tayra Languages", onNavigate = {}, section = NavSection.BOOKS)
+                                BooksContent(state.copy(languages = listOf(com.tayra.languages.core.domain.model.Language(id = 1, name = "Portuguese"))), BooksCallbacks(onDownloadBooks = { asked++ }))
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        onNodeWithText("Your library is empty").assertExists()
+        onNodeWithTag("download-books").performClick()
+        assertEquals(1, asked)
+        state = state.copy(packState = PackState.Downloading(0.3f))
+        waitForIdle()
+        onNodeWithText("Downloading…").assertExists()
+        onNodeWithTag("download-books").assertIsNotEnabled()
     }
 
     @Test

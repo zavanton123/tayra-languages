@@ -1,0 +1,23 @@
+-- A downloaded book pack, read only: free texts of one language graded by level, written by
+-- tools/build_books.py. PRAGMA user_version equals the format, so drivers never create it.
+CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL);
+
+-- tags: labels separated by spaces, such as "classic novel".
+CREATE TABLE books (
+    id TEXT NOT NULL PRIMARY KEY,
+    position INTEGER NOT NULL,
+    level TEXT NOT NULL,
+    title TEXT NOT NULL,
+    author TEXT NOT NULL,
+    summary TEXT NOT NULL,
+    source_url TEXT NOT NULL,
+    license TEXT NOT NULL,
+    tags TEXT NOT NULL,
+    text TEXT NOT NULL
+);
+
+selectMeta:
+SELECT value FROM meta WHERE key = :key;
+
+selectBooks:
+SELECT * FROM books ORDER BY position;

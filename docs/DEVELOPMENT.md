@@ -198,6 +198,21 @@ as words of their own, and credits a list word written whole (*farci*) even wher
 For Serbian (Latin script, ekavian) it counts the case forms of the names a course lists (*Šapac*, *u Šapcu*) as known; the list
 also holds Cyrillic and ijekavian forms, which the checker accepts, so the texts keep to ekavian Serbian by the brief.
 
+## Book packs
+
+A language's ready-made books are one download too, offered in Settings > Books and on the empty
+Books page: a gzip-compressed SQLite file (tables `meta`, `books`) listed in `BookPacks` and published as an
+asset of the `books-v1` GitHub release; there is a pack for `pt`. The texts are authentic works under a
+free licence (public domain, or CC BY-SA 4.0 for the Wikibooks and Wikipedia pages), listed with their
+level, source and licence in `tools/books/<code>/books.json`. `tools/fetch_books.py --language <code>`
+downloads the sources (the NLTK Machado de Assis corpus, pt.wikisource, pt.wikibooks, pt.wikipedia
+leads) into `tools/books/.cache/` (ignored by git) and writes the cleaned texts to `tools/books/<code>/text/`
+(checked in), each ending in its attribution line; `tools/build_books.py --language <code>` then writes
+`book-packs/books-<code>.sqlite.gzip` (ignored by git) and prints the `downloadSize` for `BookPacks`.
+Installing a pack adds its books to the library with the level and the manifest's tags, and a source URI
+starting with `tayra-books://`, by which removing the pack finds them again; books of the pack that are
+already in the library are left alone, so a user's edits survive a reinstall.
+
 Installing a pack stores it like a dictionary pack and writes its courses into the database as
 samples for every language it teaches, also ones added later. A pack lists a course's tags as
 space-separated text; in the database each tag is a row of `course_tags`, linked to its courses
