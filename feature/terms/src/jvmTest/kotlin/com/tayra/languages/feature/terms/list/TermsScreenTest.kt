@@ -155,6 +155,8 @@ class TermsScreenTest {
         // All four kinds are ticked to begin with; the typed ones are unticked here.
         onNodeWithTag("practice-kind-GAP_TYPED").performClick()
         onNodeWithTag("practice-kind-DICTATION").performClick()
+        onNodeWithText("2 question types selected").assertExists()
+        System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", File(it.replace(".png", "-practice-dialog.png"))) }
         onNodeWithTag("start-practice").performClick()
         waitUntil(timeoutMillis = 5_000) { visited.isNotEmpty() }
         val route = visited.single() as Route.PracticeWords

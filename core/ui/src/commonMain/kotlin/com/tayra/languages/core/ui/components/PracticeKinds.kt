@@ -1,5 +1,8 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.ui.graphics.vector.ImageVector
 import com.tayra.languages.core.domain.practice.ExerciseKind
 import com.tayra.languages.core.ui.i18n.tr
 
@@ -13,8 +16,16 @@ fun ExerciseKind.label(): String = when (this) {
 
 /** What the kind asks, in a few words. */
 fun ExerciseKind.description(): String = when (this) {
-    ExerciseKind.GAP_CHOICE, ExerciseKind.NEW_CONTEXT -> tr("The sentence with a gap and four words to pick from")
-    ExerciseKind.GAP_TYPED -> tr("The sentence with a gap to fill in")
-    ExerciseKind.HEAR_CHOOSE -> tr("The word read aloud: pick what it means")
-    ExerciseKind.DICTATION -> tr("The sentence read aloud: type the missing word, or a short sentence whole")
+    ExerciseKind.GAP_CHOICE, ExerciseKind.NEW_CONTEXT -> tr("Pick from four options")
+    ExerciseKind.GAP_TYPED -> tr("Complete the sentence")
+    ExerciseKind.HEAR_CHOOSE -> tr("Hear a word and choose its meaning")
+    ExerciseKind.DICTATION -> tr("Hear the prompt and type the answer")
+}
+
+/** The kind's icon, as in the dialog that offers it. */
+fun ExerciseKind.icon(): ImageVector = when (this) {
+    ExerciseKind.GAP_CHOICE, ExerciseKind.NEW_CONTEXT -> AppIcons.ViewList
+    ExerciseKind.GAP_TYPED -> Icons.Default.Edit
+    ExerciseKind.HEAR_CHOOSE -> AppIcons.VolumeUp
+    ExerciseKind.DICTATION -> AppIcons.RecordVoiceOver
 }

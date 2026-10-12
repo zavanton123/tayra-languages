@@ -66,6 +66,9 @@ object PracticeBuilder {
     /** The kinds a practice can be made of, in the order they come round; a sentence from elsewhere is asked where the gap choice is. */
     val KINDS: List<ExerciseKind> = listOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE, ExerciseKind.GAP_TYPED, ExerciseKind.DICTATION)
 
+    /** How many questions [words] words get with [kinds] kinds, before any sentence from elsewhere. */
+    fun questionCount(words: Int, kinds: Int): Int = if (words == 0 || kinds == 0) 0 else maxOf(words * 2, 5).coerceAtMost(words * kinds).coerceAtMost(MAX_QUESTIONS)
+
     /**
      * About two questions a word, ten at most, going round the words so that a word's questions
      * are apart, and round the [kinds] asked for so that each comes up. Where the gap choice is
