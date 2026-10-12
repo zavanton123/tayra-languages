@@ -48,6 +48,7 @@ import kotlin.test.AfterTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
+import com.tayra.languages.core.ui.navigation.Route
 
 /** The vocabulary filters apply as they change: statuses ticked as chips, the days since a term was added, and removable chips for what is on. */
 @OptIn(ExperimentalTestApi::class)
@@ -63,7 +64,7 @@ class TermsScreenTest {
     @AfterTest
     fun tearDown() = stopKoin()
 
-    private fun ComposeUiTest.show() {
+    private fun ComposeUiTest.show(onNavigate: (Route) -> Unit = {}) {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id) }
@@ -85,7 +86,7 @@ class TermsScreenTest {
             TayraTheme {
                 ProvideWindowWidth {
                     CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {}) {
-                        TermsScreen(termIds = null, onNavigate = {}, onBack = null, viewModel = viewModel)
+                        TermsScreen(termIds = null, onNavigate = onNavigate, onBack = null, viewModel = viewModel)
                     }
                 }
             }
@@ -135,6 +136,29 @@ class TermsScreenTest {
         onNodeWithText("Reset all").performClick()
         waitForList("comprar", "pensar", hidden = listOf("gostar", "lá"))
         onNodeWithContentDescription("1 filter on").assertExists()
+    }
+
+    /** Chosen terms can be practised: the list menu asks which kind of practice, then opens it on them. */
+    @Test
+    fun chosenTermsArePractisedInTheKindChosen() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val visited = mutableListOf<Route>()
+        show(onNavigate = { visited += it })
+        waitForList("comprar", "pensar", hidden = listOf("gostar"))
+        // Ticked through the rows' checkboxes: the header's ticks all, the rows' one each.
+        val rows = onAllNodes(androidx.compose.ui.test.isToggleable())
+        rows[1].performClick()
+        rows[2].performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("2 of 3 selected").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithContentDescription("List actions").performClick()
+        onNodeWithText("Practise 2 selected").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("practice-mode-CHOICE").performClick()
+        onNodeWithTag("start-practice").performClick()
+        waitUntil(timeoutMillis = 5_000) { visited.isNotEmpty() }
+        val route = visited.single() as Route.PracticeWords
+        assertEquals("CHOICE", route.mode)
+        assertEquals(2, route.termIds.size)
+        assertTrue(route.termIds.all { id -> runBlocking { terms.getById(id) }?.text in setOf("comprar", "pensar", "produtos") })
     }
 
     /** A phone keeps the filters in a sheet: statuses in two columns, the days picked from a list, and a button that closes it. */

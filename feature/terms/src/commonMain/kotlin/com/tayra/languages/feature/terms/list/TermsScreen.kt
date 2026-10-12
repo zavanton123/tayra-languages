@@ -132,6 +132,7 @@ fun TermsScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     var bulkEdit by remember { mutableStateOf(false) }
     var confirmDelete by remember { mutableStateOf(false) }
+    var practising by remember { mutableStateOf(false) }
     var pendingDelete by remember { mutableStateOf<Term?>(null) }
     val scope = androidx.compose.runtime.rememberCoroutineScope()
     CollectEvents(viewModel.events) { event ->
@@ -140,7 +141,7 @@ fun TermsScreen(
         }
     }
     val compact = LocalWindowWidth.current.isCompact
-    val listActions = ListActions(onBulk = { bulkEdit = true }, onDelete = { confirmDelete = true })
+    val listActions = ListActions(onBulk = { bulkEdit = true }, onDelete = { confirmDelete = true }, onPractice = { practising = true })
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     val rowActions = RowActions(
         speaker = speaker,
@@ -195,6 +196,9 @@ fun TermsScreen(
     if (bulkEdit) {
         BulkEditDialog(count = state.selected.size, onApply = { viewModel.applyBulkUpdate(it); bulkEdit = false }, onDismiss = { bulkEdit = false })
     }
+    if (practising) {
+        PracticeModeDialog(count = state.selected.size, onStart = { mode -> practising = false; onNavigate(Route.PracticeWords(state.selected.toList(), mode.name)) }, onDismiss = { practising = false })
+    }
     if (confirmDelete) {
         ConfirmDialog(
             title = trPlural(state.selected.size, "Delete {0} term?", "Delete {0} terms?"),
@@ -217,7 +221,7 @@ fun TermsScreen(
     }
 }
 
-internal class ListActions(val onBulk: () -> Unit, val onDelete: () -> Unit)
+internal class ListActions(val onBulk: () -> Unit, val onDelete: () -> Unit, val onPractice: () -> Unit)
 
 internal class RowActions(
     /** Reads a word or its example aloud. */
@@ -237,6 +241,7 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             AppMenuItem(text = { Text(if (selected > 0) tr("Bulk edit {0} selected", selected) else tr("Bulk edit selected")) }, enabled = selected > 0, onClick = { open = false; actions.onBulk() })
             AppMenuItem(text = { Text(if (selected > 0) tr("Delete {0} selected", selected) else tr("Delete selected")) }, enabled = selected > 0, onClick = { open = false; actions.onDelete() })
+            AppMenuItem(text = { Text(if (selected > 0) tr("Practise {0} selected", selected) else tr("Practise selected")) }, enabled = selected > 0, onClick = { open = false; actions.onPractice() })
         }
     }
 }

@@ -203,6 +203,7 @@ private fun PhoneListMenu(state: TermsListUiState, actions: ListActions, selecti
             AppMenuItem(text = { Text(if (selecting) tr("Done selecting") else tr("Select terms")) }, onClick = { open = false; onSelecting(!selecting) })
             AppMenuItem(text = { Text(if (selected > 0) tr("Bulk edit {0} selected", selected) else tr("Bulk edit selected")) }, enabled = selected > 0, onClick = { open = false; actions.onBulk() })
             AppMenuItem(text = { Text(if (selected > 0) tr("Delete {0} selected", selected) else tr("Delete selected")) }, enabled = selected > 0, onClick = { open = false; actions.onDelete() })
+            AppMenuItem(text = { Text(if (selected > 0) tr("Practise {0} selected", selected) else tr("Practise selected")) }, enabled = selected > 0, onClick = { open = false; actions.onPractice() })
             AppMenuItem(text = { Text(if (state.exporting == null) tr("Export to Anki") else tr("Exporting {0}", state.exporting)) }, enabled = state.exporting == null, onClick = { open = false; onExport() })
         }
     }

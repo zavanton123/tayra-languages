@@ -48,7 +48,7 @@ fun AppNavHost(openCourses: Int = 0) {
     // Phones get the main areas as a bottom bar, except while reading; wider screens have them in the top bar.
     val entry by navController.currentBackStackEntryAsState()
     val destination = entry?.destination
-    val phoneBar = LocalWindowWidth.current.isCompact && destination != null && !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>()
+    val phoneBar = LocalWindowWidth.current.isCompact && destination != null && !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>()
     var more by remember { mutableStateOf(false) }
     Scaffold(
         bottomBar = {

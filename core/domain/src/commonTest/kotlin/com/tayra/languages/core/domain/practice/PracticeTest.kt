@@ -33,6 +33,19 @@ class PracticeTest {
         exercises.take(5).zip(exercises.drop(5)).forEach { (first, second) -> assertEquals(first.word, second.word) }
     }
 
+    /** A mode keeps to its own kinds: choices only, typing only, or listening only. */
+    @Test
+    fun aModeKeepsToItsKinds() {
+        val examples = mapOf("comprar" to PracticeExample("Vou comprar pão.", Cloze.range("Vou comprar pão.", "comprar")!!, "I will buy bread."))
+        val choice = PracticeBuilder.build(words, pageWords, examples, Random(1), mode = PracticeMode.CHOICE)
+        assertTrue(choice.isNotEmpty() && choice.all { it.isChoice }, "choice: ${choice.map { it.kind }}")
+        assertTrue(choice.any { it.kind == ExerciseKind.NEW_CONTEXT }, "a sentence from elsewhere is a choice too")
+        val typing = PracticeBuilder.build(words, pageWords, examples, Random(1), mode = PracticeMode.TYPING)
+        assertTrue(typing.isNotEmpty() && typing.none { it.isChoice }, "typing: ${typing.map { it.kind }}")
+        val listening = PracticeBuilder.build(words, pageWords, examples, Random(1), mode = PracticeMode.LISTENING)
+        assertTrue(listening.isNotEmpty() && listening.all { it.isListening }, "listening: ${listening.map { it.kind }}")
+    }
+
     @Test
     fun choicesHoldTheAnswerOnceAmongFour() {
         val exercises = PracticeBuilder.build(words, pageWords, random = Random(2))

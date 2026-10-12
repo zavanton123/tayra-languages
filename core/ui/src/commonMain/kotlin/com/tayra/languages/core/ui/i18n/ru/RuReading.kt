@@ -157,6 +157,10 @@ internal val ruReading: Map<String, String> = mapOf(
     "Practice does not change the status of your words." to "Тренировка не меняет статус ваших слов.",
     "Practice again" to "Пройти ещё раз",
     "Back to reading" to "Вернуться к чтению",
+    "Back to vocabulary" to "Вернуться к словарю",
+    "{0} words from your vocabulary." to "{0} слово из вашего словаря.|{0} слова из вашего словаря.|{0} слов из вашего словаря.",
+    "Nothing to practise" to "Нечего тренировать",
+    "Practice asks about a word in the sentence it was read in: none of the chosen words was saved with one." to "Тренировка спрашивает слово в предложении, где оно встретилось: ни одно из выбранных слов не сохранено с предложением.",
     "Nothing to practise on this page" to "На этой странице нечего тренировать",
     "Practice uses the words you are learning: give some words on the page a status of 1 to 4 first." to "Для тренировки нужны изучаемые слова: сначала присвойте некоторым словам на странице статус от 1 до 4.",
     // ReaderPane.kt

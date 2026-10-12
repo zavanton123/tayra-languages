@@ -31,6 +31,21 @@ enum class ExerciseKind {
     DICTATION,
 }
 
+/** Which kinds of question a practice asks. */
+enum class PracticeMode(val kinds: List<ExerciseKind>) {
+    /** Every kind in turn. */
+    MIXED(listOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE, ExerciseKind.GAP_TYPED, ExerciseKind.DICTATION)),
+
+    /** Only questions answered by picking one of four. */
+    CHOICE(listOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE)),
+
+    /** Only questions answered by typing. */
+    TYPING(listOf(ExerciseKind.GAP_TYPED, ExerciseKind.DICTATION)),
+
+    /** Only questions that are heard first. */
+    LISTENING(listOf(ExerciseKind.HEAR_CHOOSE, ExerciseKind.DICTATION)),
+}
+
 /** One question of a page's practice. */
 data class Exercise(
     val kind: ExerciseKind,
@@ -63,13 +78,11 @@ object PracticeBuilder {
     /** Sentences of at most this many words are typed whole in a dictation. */
     private const val SHORT_SENTENCE_WORDS = 6
 
-    private val ROTATION = listOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE, ExerciseKind.GAP_TYPED, ExerciseKind.DICTATION)
-
     /**
      * About two questions a word, ten at most, going round the words so that a word's questions
-     * are apart, and round the kinds so that each comes up. Words with an [examples] sentence get
-     * a question in that new context at the end. [pageWords] are the other words of the page,
-     * for wrong choices.
+     * are apart, and round the [mode]'s kinds so that each comes up. Where the mode has reading
+     * choices, words with an [examples] sentence get a question in that new context at the end.
+     * [pageWords] are the other words of the page, for wrong choices.
      */
     fun build(
         words: List<PracticeWord>,
@@ -77,16 +90,18 @@ object PracticeBuilder {
         examples: Map<String, PracticeExample> = emptyMap(),
         random: Random = Random.Default,
         maxQuestions: Int = MAX_QUESTIONS,
+        mode: PracticeMode = PracticeMode.MIXED,
     ): List<Exercise> {
         val targets = words.distinctBy { it.text.lowercase() }.shuffled(random)
         if (targets.isEmpty()) return emptyList()
-        val inNewContext = targets.filter { it.text.lowercase() in examples }.take(2)
-        val rotated = (maxOf(targets.size * 2, 5)).coerceAtMost(targets.size * ROTATION.size).coerceAtMost(maxQuestions - inNewContext.size)
+        val rotation = mode.kinds
+        val inNewContext = if (ExerciseKind.GAP_CHOICE in rotation) targets.filter { it.text.lowercase() in examples }.take(2) else emptyList()
+        val rotated = (maxOf(targets.size * 2, 5)).coerceAtMost(targets.size * rotation.size).coerceAtMost(maxQuestions - inNewContext.size)
         val exercises = mutableListOf<Exercise>()
         for (k in 0 until rotated) {
             val word = targets[k % targets.size]
             // Each round starts one kind further on, so a word meets a different kind every time.
-            val kind = ROTATION[(k % targets.size + k / targets.size) % ROTATION.size]
+            val kind = rotation[(k % targets.size + k / targets.size) % rotation.size]
             exercises += exercise(kind, word, targets, pageWords, random)
         }
         for (word in inNewContext) {

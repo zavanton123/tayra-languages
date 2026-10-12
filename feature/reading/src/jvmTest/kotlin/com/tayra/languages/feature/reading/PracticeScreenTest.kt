@@ -29,6 +29,8 @@ import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.practice.ExerciseKind
+import com.tayra.languages.core.domain.practice.PracticeMode
+import com.tayra.languages.feature.reading.practice.PracticeSource
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSearchResult
@@ -80,7 +82,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(bookId, 1, books, languages, reading, examples, translator, settings, Random(seed))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeMode.MIXED, books, languages, reading, examples, translator, settings, terms, Random(seed))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -101,6 +103,54 @@ class PracticeScreenTest {
         }
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
         return viewModel
+    }
+
+    /** Words chosen in the vocabulary are asked in the sentences they were saved with, in the mode chosen: here only choices. */
+    @Test
+    fun chosenWordsArePractisedInTheModeChosen() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val ids = runBlocking {
+            languageId = languages.save(Language(name = "Portuguese"))
+            listOf(
+                Triple("moro", "I live", "Eu moro no Brasil."),
+                Triple("semana", "week", "Durante a semana, tenho uma rotina bastante organizada."),
+                Triple("comprar", "to buy", "Quando precisamos comprar alguma coisa, passamos no supermercado."),
+                Triple("rotina", "routine", "Durante a semana, tenho uma rotina bastante organizada."),
+            ).map { (word, meaning, sentence) -> terms.save(Term(languageId = languageId, text = word, textLc = word, status = TermStatus.NEW_1, translation = meaning, sentence = sentence)) } +
+                // Saved without a sentence: left out.
+                terms.save(Term(languageId = languageId, text = "casa", textLc = "casa", status = TermStatus.NEW_1, translation = "house"))
+        }
+        val examples = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult.EMPTY
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+        }
+        val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
+        val viewModel = PracticeViewModel(PracticeSource.Words(ids), PracticeMode.CHOICE, books, languages, reading, examples, translator, settings, terms, Random(3))
+        var left = 0
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    val state by viewModel.state.collectAsState()
+                    Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                        if (!state.loading) PracticeContent(state, PracticeActions(onChoose = viewModel::choose, onNext = viewModel::next, onBack = { left++ }, onSpeak = { spoken += it }))
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("4 words from your vocabulary.").assertExists()
+        onNodeWithText("Multiple choice").assertExists()
+        val exercises = viewModel.state.value.exercises
+        assertTrue(exercises.isNotEmpty() && exercises.all { it.isChoice }, exercises.map { it.kind }.toString())
+        assertEquals(setOf("moro", "semana", "comprar", "rotina"), exercises.map { it.word }.toSet())
+        exercises.forEachIndexed { index, exercise ->
+            waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index == index && !viewModel.state.value.answered }
+            onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+            onNodeWithText(if (index == exercises.lastIndex) "See the result" else "Continue").performClick()
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Back to vocabulary").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Back to vocabulary").performClick()
+        assertEquals(1, left)
     }
 
     private fun ComposeUiTest.shot(name: String) {

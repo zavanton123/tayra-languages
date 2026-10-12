@@ -64,6 +64,7 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.practice.Exercise
 import com.tayra.languages.core.domain.practice.ExerciseKind
+import com.tayra.languages.core.domain.practice.PracticeMode
 import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppIcons
@@ -71,26 +72,29 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.label
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
-/** Practising the words being learned on a page, right after reading it. */
+/** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
 @Composable
 fun PracticeScreen(
-    bookId: Long,
-    page: Int,
+    source: PracticeSource,
+    mode: PracticeMode,
     onNavigate: (Route) -> Unit,
     onBack: () -> Unit,
-    viewModel: PracticeViewModel = koinViewModel(key = "practice-$bookId-$page") { parametersOf(bookId, page) },
+    viewModel: PracticeViewModel = koinViewModel(key = "practice-$source-$mode") { parametersOf(source, mode) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     DisposableEffect(speaker) { onDispose { speaker.stop() } }
     Scaffold(
-        topBar = { AppTopBar(title = tr("Practice"), onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack) },
+        topBar = { AppTopBar(title = tr("Practice"), onNavigate = onNavigate, section = if (source is PracticeSource.Words) NavSection.TERMS else NavSection.BOOKS, onBack = onBack) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -169,15 +173,22 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
             verticalArrangement = Arrangement.spacedBy(if (compact) 16.dp else 20.dp),
         ) {
             Column {
-                Text(tr("Practice"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Text(tr("Practice"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                    if (state.mode != PracticeMode.MIXED) Tag(state.mode.label(), MaterialTheme.colorScheme.primary)
+                }
                 Text(
-                    if (state.bookTitle.isEmpty()) tr("The words you are learning on page {0}.", state.pageNumber) else tr("The words you are learning on page {0} of {1}.", state.pageNumber, state.bookTitle),
+                    when {
+                        state.pageNumber == null -> trPlural(state.wordCount, "{0} word from your vocabulary.", "{0} words from your vocabulary.")
+                        state.bookTitle.isEmpty() -> tr("The words you are learning on page {0}.", state.pageNumber)
+                        else -> tr("The words you are learning on page {0} of {1}.", state.pageNumber, state.bookTitle)
+                    },
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
             when {
-                state.exercises.isEmpty() -> Empty(actions)
+                state.exercises.isEmpty() -> Empty(state, actions)
                 exercise == null -> Finished(state, actions)
                 else -> {
                     ProgressStrip(state)
@@ -389,26 +400,30 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
         Text(tr("Practice does not change the status of your words."), style = MaterialTheme.typography.bodySmall, color = colors.outline, textAlign = TextAlign.Center)
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             OutlinedButton(onClick = actions.onRestart, shape = RoundedCornerShape(12.dp)) { Text(tr("Practice again")) }
-            Button(onClick = actions.onBack, shape = RoundedCornerShape(12.dp)) { Text(tr("Back to reading")) }
+            Button(onClick = actions.onBack, shape = RoundedCornerShape(12.dp)) { Text(backLabel(state)) }
         }
     }
 }
 
+/** Where Back leads: to the page read, or to the vocabulary the words were chosen in. */
+private fun backLabel(state: PracticeUiState): String = if (state.fromVocabulary) tr("Back to vocabulary") else tr("Back to reading")
+
 @Composable
-private fun Empty(actions: PracticeActions) {
+private fun Empty(state: PracticeUiState, actions: PracticeActions) {
     val colors = MaterialTheme.colorScheme
     Column(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(18.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(18.dp)).padding(36.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text(tr("Nothing to practise on this page"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
+        Text(if (state.fromVocabulary) tr("Nothing to practise") else tr("Nothing to practise on this page"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
         Text(
-            tr("Practice uses the words you are learning: give some words on the page a status of 1 to 4 first."),
+            if (state.fromVocabulary) tr("Practice asks about a word in the sentence it was read in: none of the chosen words was saved with one.")
+            else tr("Practice uses the words you are learning: give some words on the page a status of 1 to 4 first."),
             style = MaterialTheme.typography.bodyLarge,
             color = colors.onSurfaceVariant,
             textAlign = TextAlign.Center,
         )
-        Button(onClick = actions.onBack, shape = RoundedCornerShape(12.dp)) { Text(tr("Back to reading")) }
+        Button(onClick = actions.onBack, shape = RoundedCornerShape(12.dp)) { Text(backLabel(state)) }
     }
 }
