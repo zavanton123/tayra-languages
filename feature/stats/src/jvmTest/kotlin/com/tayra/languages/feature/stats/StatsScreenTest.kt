@@ -69,10 +69,11 @@ class StatsScreenTest {
         val terms = TermRepositoryImpl(provider)
         val saved = listOf(TermStatus.NEW_1, TermStatus.NEW_1, TermStatus.LEARNING_3, TermStatus.WELL_KNOWN, TermStatus.WELL_KNOWN, TermStatus.WELL_KNOWN, TermStatus.IGNORED)
             .mapIndexed { i, status -> terms.save(Term(languageId = id, text = "palavra$i", textLc = "palavra$i", status = status)) }
-        // Two words were saved this week, the others three weeks ago.
+        // Two words were saved this week (one of them today), the others three weeks ago.
         DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { c ->
             saved.drop(2).forEach { c.createStatement().execute("UPDATE terms SET created_at = ${at(21).toEpochMilliseconds()} WHERE id = $it") }
-            saved.take(2).forEach { c.createStatement().execute("UPDATE terms SET created_at = ${at(1).toEpochMilliseconds()} WHERE id = $it") }
+            c.createStatement().execute("UPDATE terms SET created_at = ${at(0).toEpochMilliseconds()} WHERE id = ${saved[0]}")
+            c.createStatement().execute("UPDATE terms SET created_at = ${at(1).toEpochMilliseconds()} WHERE id = ${saved[1]}")
         }
         val cards = FlashcardRepositoryImpl(provider)
         for ((i, rating) in listOf(Rating.GOOD, Rating.AGAIN, Rating.EASY, Rating.GOOD).withIndex()) {
@@ -93,6 +94,7 @@ class StatsScreenTest {
         assertEquals(3, overview.learning)
         assertEquals(1, overview.ignored)
         assertEquals(2, overview.savedThisWeek)
+        assertEquals(1, overview.savedToday)
         assertEquals(listOf(0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 2), overview.savedByWeek)
         assertEquals(4, overview.reviewsTotal)
         assertEquals(75, overview.rememberedPercent)
@@ -116,6 +118,9 @@ class StatsScreenTest {
         assertEquals(3, onAllNodesWithText("1,670").fetchSemanticsNodes().size)
         onNodeWithText("3 days").assertExists()
         onNodeWithText("Longest: 4 days").assertExists()
+        onNodeWithText("New words today").assertExists()
+        onNodeWithText("2 words saved this week").assertExists()
+        onNodeWithText("3 words being learned").assertExists()
         onNodeWithText("4 reviews, remembered 75% of the time").assertExists()
         onNodeWithTag("heatmap").assertExists()
     }

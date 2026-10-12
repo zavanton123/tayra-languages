@@ -60,6 +60,7 @@ class StatsService(
             termsByStatus = statuses,
             savedByWeek = ReadingStats.weekly(activity.termsSaved, today, SAVED_WEEKS),
             savedThisWeek = ReadingStats.weekly(activity.termsSaved, today, 1).single(),
+            savedToday = activity.termsSaved[today] ?: 0,
             reviewsByDay = activity.reviews,
             reviewsTotal = reviewsTotal,
             rememberedPercent = if (reviewsTotal == 0) null else (100.0 * activity.reviewsRemembered / reviewsTotal).roundToInt(),

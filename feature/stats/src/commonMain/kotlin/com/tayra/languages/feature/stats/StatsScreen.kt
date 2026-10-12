@@ -160,8 +160,8 @@ private data class Tile(val label: String, val value: String, val detail: String
 private fun OverviewTiles(o: LanguageOverview) {
     val tiles = listOf(
         Tile(tr("Words read"), formatCount(o.wordsRead), tr("{0} this week", formatCount(o.wordsReadThisWeek)), AppIcons.MenuBook, BLUE, "words-read"),
-        Tile(tr("Known words"), formatCount(o.known), trPlural(o.savedThisWeek, "{1} word saved this week", "{1} words saved this week", formatCount(o.savedThisWeek)), AppIcons.DoneAll, GREEN, "known-words"),
-        Tile(tr("Words being learned"), formatCount(o.learning), tr("Statuses 1 to 4"), AppIcons.Abc, ORANGE, "learning-words"),
+        Tile(tr("Known words"), formatCount(o.known), trPlural(o.learning, "{1} word being learned", "{1} words being learned", formatCount(o.learning)), AppIcons.DoneAll, GREEN, "known-words"),
+        Tile(tr("New words today"), formatCount(o.savedToday), trPlural(o.savedThisWeek, "{1} word saved this week", "{1} words saved this week", formatCount(o.savedThisWeek)), AppIcons.Abc, ORANGE, "words-today"),
         Tile(tr("Reading streak"), trPlural(o.streak, "{0} day", "{0} days"), trPlural(o.longestStreak, "Longest: {0} day", "Longest: {0} days"), AppIcons.Flame, PINK, "streak"),
         Tile(tr("Days with reading"), formatCount(o.daysRead), tr("{0} words a day on average", formatCount(o.wordsPerReadingDay)), AppIcons.History, PURPLE, "days-read"),
         Tile(tr("Pages read"), formatCount(o.pagesRead), trPlural(o.booksFinished, "{1} book finished", "{1} books finished", formatCount(o.booksFinished)), AppIcons.Book, TEAL, "pages-read"),

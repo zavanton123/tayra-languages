@@ -39,6 +39,8 @@ data class LanguageOverview(
     /** Words saved in each of the last weeks, oldest first, each week ending on [today]'s weekday. */
     val savedByWeek: List<Int>,
     val savedThisWeek: Int,
+    /** Words the reader saved today. */
+    val savedToday: Int,
     val reviewsByDay: Map<LocalDate, Int>,
     val reviewsTotal: Int,
     /** The share of answers that were not "Again", from 0 to 100; null without reviews. */
