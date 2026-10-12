@@ -17,6 +17,8 @@ class KokoroSpeechEngine(
 ) : PythonSpeechEngine(python, worker, "kokoro", listOf("kokoro-onnx", "soundfile"), pipDownloadSize = 39_000_000) {
 
     override val engine: SpeechEngine = SpeechEngine.KOKORO
+    // The worker pads the clips with silence since this version.
+    override val cacheVersion: String = "padded"
     override val displayName: String = "Kokoro"
     override val description: String = "Kokoro is a high-quality neural voice that runs on this computer with no network. It speaks English, Spanish, French, Italian and Portuguese; other languages fall back to the system voice."
     override val packagesDescription: String = "One download holds the model and all its voices."

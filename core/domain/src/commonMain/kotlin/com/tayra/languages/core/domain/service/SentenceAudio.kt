@@ -143,13 +143,13 @@ class SentenceAudio(
     private fun configuration(): String? {
         val engine = engine() ?: return null
         val prefs = settings.current
-        return "${engine.engine.name}|${prefs.speechVoices}|${prefs.speechSpeed}"
+        return "${engine.engine.name}${engine.cacheVersion}|${prefs.speechVoices}|${prefs.speechSpeed}"
     }
 
     private fun keyOf(text: String, languageCode: String): String? {
         val engine = engine() ?: return null
         val prefs = settings.current
         val voice = prefs.speechVoices["${engine.engine.name}:$languageCode"].orEmpty()
-        return "${engine.engine.name}|$voice|${prefs.speechSpeed}|$languageCode|$text"
+        return "${engine.engine.name}${engine.cacheVersion}|$voice|${prefs.speechSpeed}|$languageCode|$text"
     }
 }

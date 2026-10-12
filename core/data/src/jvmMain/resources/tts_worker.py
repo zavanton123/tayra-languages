@@ -35,6 +35,9 @@ def status(engine):
     raise RuntimeError(f"unknown engine {engine!r}")
 
 
+KOKORO_PADDING_SECONDS = 0.2
+
+
 def synthesize(req):
     engine, text, out = req["engine"], req["text"], req["out"]
     speed = max(0.3, min(3.0, float(req.get("speed") or 1.0)))
@@ -58,6 +61,11 @@ def synthesize(req):
         if model is None:
             model = KOKORO[key] = Kokoro(req["model"], req["voices"])
         samples, rate = model.create(text, voice=req["voice"], speed=speed, lang=req["lang"])
+        # Kokoro trims the silence off both ends, leaving a few hundredths of a second, which
+        # sounds cut off once the player's own start-up eats into it: give each end some quiet.
+        import numpy
+        quiet = numpy.zeros(int(rate * KOKORO_PADDING_SECONDS), dtype=samples.dtype)
+        samples = numpy.concatenate([quiet, samples, quiet])
         soundfile.write(out, samples, rate, subtype="PCM_16")
         return {"out": out}
     raise RuntimeError(f"unknown engine {engine!r}")

@@ -28,6 +28,9 @@ data class SpeechVoice(val id: String, val name: String, val languageCode: Strin
 interface LocalSpeechEngine {
     val engine: SpeechEngine
 
+    /** Changes when the engine's clips come out differently, so the ones cached before are made again. */
+    val cacheVersion: String get() = ""
+
     /** How the engine is named to the user. */
     val displayName: String
 
