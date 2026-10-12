@@ -12,6 +12,8 @@ import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.assertIsFocused
 import com.tayra.languages.core.domain.model.TermStatus
 import androidx.compose.ui.test.pressKey
+import androidx.compose.foundation.focusable
+import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.input.key.Key
 import com.tayra.languages.core.data.network.createHttpClient
@@ -621,6 +623,36 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().size > 10 }
         val after = rule.onAllNodesWithText("lobo dorme", substring = true)[60].fetchSemanticsNode().positionInRoot
         assertEquals(before.y, after.y, "the paragraph is where it was")
+    }
+
+    /** Back from another screen with the term pane still open (the examples are opened from it), the hotkeys work again without a click on the text first. */
+    @Test
+    fun hotkeysWorkAgainAfterComingBackWithThePaneOpen() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        val shown = androidx.compose.runtime.mutableStateOf(true)
+        rule.setContent {
+            val holder = androidx.compose.runtime.saveable.rememberSaveableStateHolder()
+            if (shown.value) {
+                holder.SaveableStateProvider("reader") { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+            } else {
+                // The other screen takes the keyboard, as the examples list does.
+                val focus = androidx.compose.runtime.remember { androidx.compose.ui.focus.FocusRequester() }
+                androidx.compose.foundation.layout.Box(androidx.compose.ui.Modifier.focusRequester(focus).focusable())
+                androidx.compose.runtime.LaunchedEffect(Unit) { focus.requestFocus() }
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        vm.onWordClick(vm.index("lobo"), shift = false)
+        rule.waitUntil(5_000) { rule.onAllNodes(androidx.compose.ui.test.hasSetTextAction() and androidx.compose.ui.test.hasText("Translation")).fetchSemanticsNodes().isNotEmpty() }
+
+        shown.value = false
+        rule.waitForIdle()
+        shown.value = true
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        val font = settings.current.readingFontScale
+        rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { keyDown(Key.CtrlLeft); pressKey(Key.Equals); keyUp(Key.CtrlLeft) }
+        rule.waitUntil(2_000) { settings.current.readingFontScale > font }
     }
 
     /** The display hotkeys work after a click in the term pane (a button keeps the focus) and stay out of a field being typed in. */

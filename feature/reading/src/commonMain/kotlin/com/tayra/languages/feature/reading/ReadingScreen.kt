@@ -167,7 +167,6 @@ fun ReadingScreen(
     viewModel: ReadingViewModel = koinViewModel(key = "reading-$bookId") { parametersOf(bookId, initialPage) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
-    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.onResumed() }
     val leave: () -> Unit = { state.lesson?.let { onCourse(it.course.id) } ?: onHome() }
     val clipboard = LocalClipboardManager.current
     val uriHandler = LocalUriHandler.current
@@ -181,6 +180,11 @@ fun ReadingScreen(
     val focusRequester = remember { FocusRequester() }
     val shift = remember { ShiftTracker() }
     val toast = rememberToastState()
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
+        viewModel.onResumed()
+        // Back in front (from the examples, say) the text takes the keys again, even with the term pane open, which the focus below leaves alone.
+        if (!state.loading) runCatching { focusRequester.requestFocus() }
+    }
 
     CollectEvents(viewModel.events) { event ->
         when (event) {
