@@ -585,7 +585,7 @@ private fun ReadingBody(
                 sideBySide = state.settings.sideBySideTranslations,
                 practice = state.settings.practiceTranslation,
                 revealed = revealed,
-                onToggleRevealed = { revealed = if (it in revealed) revealed - it else revealed + it },
+                onRevealed = { no, shown -> revealed = if (shown) revealed + no else revealed - no },
                 onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,
                 playingSentence = playingPlace,
                 preparingSentences = preparingSentences,

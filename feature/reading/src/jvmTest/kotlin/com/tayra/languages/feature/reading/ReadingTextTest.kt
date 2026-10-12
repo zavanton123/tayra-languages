@@ -17,6 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.performMouseInput
+import androidx.compose.ui.test.performTouchInput
 import androidx.compose.ui.unit.IntOffset
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
@@ -86,7 +87,7 @@ class ReadingTextTest {
         assertEquals(2, hovered.last(), "second word hovered")
     }
 
-    /** Practising translation blurs each sentence under its translation; a click shows it, and a click beside its words hides it again. */
+    /** Practising translation blurs each sentence under its translation; the mouse shows it while over it, and by touch a tap shows it and a tap beside its words hides it. */
     @Test
     fun practisingTranslationHidesAndShowsEachSentence() {
         var revealed by androidx.compose.runtime.mutableStateOf(emptySet<Int>())
@@ -106,7 +107,7 @@ class ReadingTextTest {
                 translations = mapOf("Hello world." to com.tayra.languages.core.domain.service.SentenceTranslation.Done("Привет, мир.")),
                 practice = true,
                 revealed = revealed,
-                onToggleRevealed = { revealed = if (it in revealed) revealed - it else revealed + it },
+                onRevealed = { no, shown -> revealed = if (shown) revealed + no else revealed - no },
                 callbacks = ReadingTextCallbacks(
                     onClick = { index, _ -> clicked.add(index) },
                     onTap = {},
@@ -122,21 +123,24 @@ class ReadingTextTest {
         rule.onNodeWithText("Привет, мир.").assertExists()
         rule.onNodeWithContentDescription("Hidden sentence").assertExists()
         System.getenv("READING_PRACTICE_SCREENSHOT")?.let { javax.imageio.ImageIO.write(rule.onRoot().captureToImage().toAwtImage(), "png", java.io.File(it)) }
-        // Hidden: a click on a word shows the sentence instead of looking the word up.
-        rule.onNodeWithText("Hello world.").performMouseInput { click(Offset(8f, 10f)) }
+        // The mouse over the sentence shows it; a click then looks the word up as usual.
+        rule.onNodeWithText("Hello world.").performMouseInput { moveTo(Offset(8f, 10f)) }
         rule.waitUntil(5_000) { revealed == setOf(0) }
-        assertEquals(emptyList(), clicked)
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Hidden sentence").fetchSemanticsNodes().isEmpty() }
-
-        // Shown: a word is looked up as usual; a click beside the words hides the sentence again.
         rule.onNodeWithText("Hello world.").performMouseInput { click(Offset(8f, 10f)) }
         rule.waitForIdle()
         assertEquals(listOf(0), clicked)
-        rule.onNodeWithText("Hello world.").performMouseInput { click(Offset(400f, 10f)) }
+        // The pointer leaving, down to the translation, blurs it again.
+        rule.onNodeWithText("Привет, мир.").performMouseInput { moveTo(Offset(8f, 8f)) }
         rule.waitUntil(5_000) { revealed.isEmpty() }
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Hidden sentence").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithContentDescription("Hidden sentence").performClick()
+        rule.onNodeWithText("Привет, мир.").performMouseInput { exit() }
+
+        // By touch: a tap on the blur shows the sentence, a tap beside its words hides it.
+        rule.onNodeWithContentDescription("Hidden sentence").performTouchInput { click(Offset(8f, 10f)) }
         rule.waitUntil(5_000) { revealed == setOf(0) }
+        rule.onNodeWithText("Hello world.").performTouchInput { click(Offset(400f, 10f)) }
+        rule.waitUntil(5_000) { revealed.isEmpty() }
     }
 
     @Test

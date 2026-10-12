@@ -11,6 +11,9 @@ import com.tayra.languages.core.ui.components.AppIcons
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.hoverable
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsHoveredAsState
 import androidx.compose.ui.draw.BlurredEdgeTreatment
 import androidx.compose.ui.draw.blur
 import androidx.compose.ui.graphics.graphicsLayer
@@ -96,7 +99,7 @@ data class ReadingTextCallbacks(
     val onDragEnd: (itemIndex: Int, shift: Boolean) -> Unit,
     /** Draws the popup for the item; [word] is the item's rectangle in the paragraph's coordinates. */
     val popupContent: @Composable (itemIndex: Int, word: androidx.compose.ui.unit.IntRect) -> Unit,
-    /** A click or tap on the text beside its words. */
+    /** A tap (touch, not mouse) on the text beside its words. */
     val onBlankTap: () -> Unit = {},
 )
 
@@ -151,12 +154,13 @@ fun ReadingText(
     edgePadding: Dp = 16.dp,
     /**
      * Practising translation: every sentence is blurred under its translation until it is in
-     * [revealed] (sentences counted through the page); a click on a blurred sentence, or beside the
-     * words of a shown one or on its translation, asks [onToggleRevealed] to switch it.
+     * [revealed] (sentences counted through the page). With a mouse a sentence shows while the
+     * pointer is over it; by touch a tap on a blurred sentence shows it and a tap beside the words
+     * of a shown one hides it. [onRevealed] is asked to show or hide a sentence.
      */
     practice: Boolean = false,
     revealed: Set<Int> = emptySet(),
-    onToggleRevealed: (Int) -> Unit = {},
+    onRevealed: (sentence: Int, shown: Boolean) -> Unit = { _, _ -> },
 ) {
     var itemOffset = 0
     val perSentence = splitSentences || translations != null || practice
@@ -201,9 +205,9 @@ fun ReadingText(
                 val no = sentenceNo++
                 val hidden = practice && no !in revealed
                 val shown = practice && !hidden
-                val toggle = { onToggleRevealed(no) }
+                val reveal = { shown: Boolean -> onRevealed(no, shown) }
                 val sentence: @Composable () -> Unit = {
-                    Hideable(hidden, theme, onReveal = toggle) { ParagraphText(
+                    Hideable(hidden, theme, onRevealed = reveal) { ParagraphText(
                         items = runItems,
                         // A sentence on its own line starts at its first word, not at the space that follows the previous one.
                         trimLeadingSpace = perSentence,
@@ -224,13 +228,11 @@ fun ReadingText(
                         lineHeight = lineHeight,
                         justify = justify,
                         rightToLeft = rightToLeft,
-                        callbacks = if (shown) callbacks.copy(onBlankTap = toggle) else callbacks,
+                        callbacks = if (shown) callbacks.copy(onBlankTap = { reveal(false) }) else callbacks,
                         fontFamily = fontFamily,
                     ) }
                 }
                 val translated = translations != null && sentenceText.any { it.isLetter() }
-                // While practising, the translation hides its sentence again.
-                val hideAgain = if (shown) Modifier.clickable(onClickLabel = tr("Hide the sentence"), onClick = toggle) else Modifier
                 // The button is centred on its sentence's text, so a translation under it stays out of the row.
                 val withButton: @Composable (Modifier) -> Unit = { rowModifier ->
                     Row(rowModifier, verticalAlignment = Alignment.CenterVertically) {
@@ -243,7 +245,7 @@ fun ReadingText(
                     Row(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING), verticalAlignment = Alignment.Top) {
                         if (onSpeakSentence != null) withButton(Modifier.weight(1f)) else Box(Modifier.weight(1f)) { sentence() }
                         Box(Modifier.width(24.dp))
-                        Box(Modifier.weight(1f).then(hideAgain)) {
+                        Box(Modifier.weight(1f)) {
                             if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true)
                         }
                     }
@@ -251,7 +253,7 @@ fun ReadingText(
                     Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING)) {
                         if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else sentence()
                         if (translated) {
-                            Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp).then(hideAgain)) {
+                            Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp)) {
                                 TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
                             }
                         }
@@ -266,27 +268,38 @@ fun ReadingText(
 }
 
 /**
- * A sentence being practised: blurred until shown, with a click on the blur showing it. Where
- * blurring does not draw, the text is made invisible over a soft bar instead.
+ * A sentence being practised: blurred until shown. The mouse shows it while over it and hides it
+ * on leaving; by touch, a tap on the blur shows it. Where blurring does not draw, the text is
+ * made invisible over a soft bar instead.
  */
 @Composable
-private fun Hideable(hidden: Boolean, theme: AppTheme, onReveal: () -> Unit, content: @Composable () -> Unit) {
-    if (!hidden) {
-        content()
-        return
+private fun Hideable(hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> Unit, content: @Composable () -> Unit) {
+    val interaction = remember { MutableInteractionSource() }
+    val hovered by interaction.collectIsHoveredAsState()
+    // Only a change of hovering counts: the first composition is not a pointer leaving.
+    var wasHovered by remember { mutableStateOf(false) }
+    LaunchedEffect(hovered) {
+        if (hovered != wasHovered) {
+            wasHovered = hovered
+            onRevealed(hovered)
+        }
     }
-    val label = tr("Hidden sentence")
-    val show = tr("Show the sentence")
-    val veil = if (softBlurAvailable) {
-        // Unbounded, so the blur fades out past the text's edges instead of being cut off at them.
-        Modifier.blur(9.dp, BlurredEdgeTreatment.Unbounded)
-    } else {
-        Modifier.drawBehind { drawRoundRect(theme.readingText.copy(alpha = 0.08f), cornerRadius = CornerRadius(8.dp.toPx())) }.graphicsLayer { alpha = 0f }
-    }
-    Box(Modifier.fillMaxWidth()) {
-        Box(veil) { content() }
-        // On top of the text, so its words take no clicks or hovers until it is shown.
-        Box(Modifier.matchParentSize().clickable(onClickLabel = show, onClick = onReveal).semantics { contentDescription = label })
+    Box(Modifier.fillMaxWidth().hoverable(interaction)) {
+        if (!hidden) {
+            content()
+        } else {
+            val label = tr("Hidden sentence")
+            val show = tr("Show the sentence")
+            val veil = if (softBlurAvailable) {
+                // Unbounded, so the blur fades out past the text's edges instead of being cut off at them.
+                Modifier.blur(9.dp, BlurredEdgeTreatment.Unbounded)
+            } else {
+                Modifier.drawBehind { drawRoundRect(theme.readingText.copy(alpha = 0.08f), cornerRadius = CornerRadius(8.dp.toPx())) }.graphicsLayer { alpha = 0f }
+            }
+            Box(veil) { content() }
+            // On top of the text, so its words take no taps until it is shown.
+            Box(Modifier.matchParentSize().clickable(onClickLabel = show, onClick = { onRevealed(true) }).semantics { contentDescription = label })
+        }
     }
 }
 
@@ -499,13 +512,7 @@ private fun ParagraphText(
                         if (isMouse) {
                             val shift = press.keyboardModifiers.isShiftPressed
                             val secondary = press.buttons.isSecondaryPressed || !press.buttons.isPrimaryPressed
-                            if (startItem == null) {
-                                // A click beside the words, once released there.
-                                var release = awaitPointerEvent()
-                                while (release.type != PointerEventType.Release) release = awaitPointerEvent()
-                                if (!secondary && itemAt(release.changes.first().position) == null) callbacks.onBlankTap()
-                                return@awaitEachGesture
-                            }
+                            if (startItem == null) return@awaitEachGesture
                             if (secondary) {
                                 var release = awaitPointerEvent()
                                 while (release.type != PointerEventType.Release) release = awaitPointerEvent()
