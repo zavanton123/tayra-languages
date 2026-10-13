@@ -188,6 +188,24 @@ class CoursesScreenTest {
         collecting.cancel()
     }
 
+    /** On a phone a lesson's title keeps its width beside its tags and the hint; they go under it when the line is full. */
+    @Test
+    fun aPhoneKeepsTheLessonTitleWhole() = runDesktopComposeUiTest(width = 400, height = 900) {
+        val viewModel = CourseViewModel("pt-mini-0100", service)
+        host {
+            val state by viewModel.state.collectAsState()
+            // Downloaded courses tag every lesson, as "tayra".
+            val tagged = state.progress?.let { p -> state.copy(progress = p.copy(lessons = p.lessons.map { it.copy(lesson = it.lesson.copy(tags = listOf("tayra"))) })) } ?: state
+            if (!state.loading) CourseContent(tagged, onOpenLesson = {}, onCourses = {})
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("A casa nova").fetchSemanticsNodes().isNotEmpty() }
+        save("COURSE_PHONE_SCREENSHOT")
+        // The title's own text, not the lesson row it merges into.
+        val title = onNodeWithText("A casa nova", useUnmergedTree = true).fetchSemanticsNode()
+        val tag = onAllNodesWithText("tayra", useUnmergedTree = true).fetchSemanticsNodes().last()
+        assertTrue(title.size.height < 2 * tag.size.height, "the title stays on one line, not a word or letter a line: ${title.size}")
+    }
+
     @Test
     fun theCourseBeingReadIsOfferedToContinue() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         // The first lesson of the second course is read to its end.

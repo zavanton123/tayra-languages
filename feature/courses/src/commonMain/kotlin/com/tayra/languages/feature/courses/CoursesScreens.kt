@@ -1008,6 +1008,7 @@ private fun LessonList(progress: CourseProgress, compact: Boolean, onOpenLesson:
 
 private val LESSON_CIRCLE = 48.dp
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun LessonRow(
     number: Int,
@@ -1056,8 +1057,9 @@ private fun LessonRow(
             else Text("$number", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, color = colors.primary)
         }
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-                Text(lesson.title, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            // The title keeps its width; the tags follow it, or go under it when the line is full.
+            FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text(lesson.title, Modifier.padding(end = 4.dp), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                 lesson.tags.forEach { LabelTag(it) }
                 if (hint != null) {
                     Text(
