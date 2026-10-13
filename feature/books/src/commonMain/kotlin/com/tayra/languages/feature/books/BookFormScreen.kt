@@ -99,7 +99,7 @@ fun BookFormScreen(
     val wide = LocalWindowWidth.current.isExpanded
 
     Scaffold(
-        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack) },
+        topBar = { AppTopBar(title = if (bookId == null) tr("New book") else tr("Edit book"), onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack) },
         bottomBar = { if (!state.loading) ActionBar(state, onCancel = onBack, onSave = viewModel::save) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->

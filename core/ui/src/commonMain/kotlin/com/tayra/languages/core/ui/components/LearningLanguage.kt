@@ -397,31 +397,6 @@ private fun LanguageTile(name: String, native: Boolean, modifier: Modifier, onCl
 }
 
 /**
- * The language being learned as a pill for a phone page's own header: its flag, its name and a
- * chevron, leading to the language screen through [onOpen]. Shows nothing until languages exist.
- */
-@Composable
-fun LearningLanguagePill(onOpen: () -> Unit, modifier: Modifier = Modifier) {
-    val state = LocalLearningLanguage.current ?: return
-    val name = state.currentName ?: return
-    val colors = MaterialTheme.colorScheme
-    val label = state.knownWords?.let { "${tr(name)} (${formatCount(it)})" } ?: tr(name)
-    Row(
-        modifier.height(48.dp).clip(RoundedCornerShape(12.dp)).background(colors.surface)
-            .border(1.dp, colors.outlineVariant, RoundedCornerShape(12.dp))
-            .clickable(onClick = onOpen)
-            .semantics(mergeDescendants = true) { contentDescription = tr("Learning language: {0}", label) }
-            .padding(start = 12.dp, end = 8.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
-    ) {
-        LanguageFlag(name, 22.dp)
-        Text(tr(name), Modifier.weight(1f, fill = false), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-    }
-}
-
-/**
  * One language in a language menu: its flag, [label] and a check when [chosen]. One that cannot be
  * chosen is dimmed, with [unavailableNote] saying why.
  */

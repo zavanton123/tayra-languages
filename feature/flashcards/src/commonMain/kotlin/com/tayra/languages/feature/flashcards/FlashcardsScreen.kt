@@ -117,8 +117,8 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     val compact = LocalWindowWidth.current.isCompact
     Scaffold(
         topBar = {
-            if (compact) PhoneHeader(onBrowse = { onNavigate(Route.BrowseFlashcards()) }, onLanguage = { onNavigate(Route.ChooseLanguage) })
-            else AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS)
+            // Wide windows offer the browser from the page heading instead.
+            AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS, actions = { if (compact) BrowseAction { onNavigate(Route.BrowseFlashcards()) } })
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
@@ -222,20 +222,11 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
     }
 }
 
-/** The phone's page header: the title, the way to every card, and the language being learned. */
+/** The phone bar's way to every card. */
 @Composable
-internal fun PhoneHeader(onBrowse: () -> Unit, onLanguage: () -> Unit) {
-    Row(
-        Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceContainerLow).windowInsetsPadding(WindowInsets.statusBars)
-            .height(76.dp).padding(start = 18.dp, end = 14.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-    ) {
-        Text(tr("Flashcards"), Modifier.weight(1f), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold, maxLines = 1)
-        IconButton(onClick = onBrowse, modifier = Modifier.testTag("browse-flashcards")) {
-            Icon(AppIcons.ViewList, contentDescription = tr("Browse flashcards"), tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(28.dp))
-        }
-        LearningLanguageSelector(compact = true, onOpen = onLanguage)
+internal fun BrowseAction(onBrowse: () -> Unit) {
+    IconButton(onClick = onBrowse, modifier = Modifier.testTag("browse-flashcards")) {
+        Icon(AppIcons.ViewList, contentDescription = tr("Browse flashcards"), tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(28.dp))
     }
 }
 

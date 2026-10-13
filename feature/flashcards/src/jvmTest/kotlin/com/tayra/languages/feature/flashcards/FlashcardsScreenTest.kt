@@ -94,7 +94,7 @@ class FlashcardsScreenTest {
                         val state by viewModel.state.collectAsState()
                         Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             Column {
-                                if (phone) PhoneHeader(onBrowse = {}, onLanguage = {}) else AppTopBar(title = "Flashcards", onNavigate = {}, section = NavSection.FLASHCARDS)
+                                AppTopBar(title = "Flashcards", onNavigate = {}, section = NavSection.FLASHCARDS, actions = { if (phone) BrowseAction {} })
                                 FlashcardsContent(
                                     state,
                                     speaker = null,

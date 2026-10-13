@@ -51,7 +51,8 @@ import com.tayra.languages.core.domain.courses.CourseProgress
 import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.InfoBanner
-import com.tayra.languages.core.ui.components.LearningLanguagePill
+import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.ScrollColumn
@@ -66,7 +67,7 @@ import com.tayra.languages.core.ui.navigation.Route
 @Composable
 internal fun PhoneCoursesScreen(state: CoursesUiState, viewModel: CoursesViewModel, onNavigate: (Route) -> Unit) {
     Scaffold(
-        topBar = { PhoneCoursesHeader(state, onLanguage = { onNavigate(Route.ChooseLanguage) }, onNewCourse = { onNavigate(Route.NewCourse) }) },
+        topBar = { AppTopBar(title = tr("Courses"), onNavigate = onNavigate, section = NavSection.COURSES, actions = { NewCourseAction(state) { onNavigate(Route.NewCourse) } }) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -103,22 +104,12 @@ internal class PhoneCoursesActions(
     val onDownloadCourses: () -> Unit = {},
 )
 
-/** The title, the language being learned and a new course, under the status bar. */
+/** The phone bar's new course; without courses the empty state's own button creates the first one. */
 @Composable
-internal fun PhoneCoursesHeader(state: CoursesUiState, onLanguage: () -> Unit, onNewCourse: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Column(Modifier.background(colors.surfaceContainerLow).windowInsetsPadding(WindowInsets.statusBars)) {
-        Row(Modifier.fillMaxWidth().height(76.dp).padding(start = 18.dp, end = 14.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            Text(tr("Courses"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold, maxLines = 1)
-            Box(Modifier.weight(1f), contentAlignment = Alignment.CenterEnd) { LearningLanguagePill(onLanguage) }
-            // Without courses the empty state's own button creates the first one.
-            if (state.languageName.isNotEmpty() && state.courses.isNotEmpty()) {
-                FilledIconButton(onClick = onNewCourse, shape = CircleShape, modifier = Modifier.size(52.dp).testTag("new-course")) {
-                    Icon(Icons.Default.Add, contentDescription = tr("New course"), modifier = Modifier.size(28.dp))
-                }
-            }
-        }
-        HorizontalDivider(color = colors.outlineVariant)
+internal fun NewCourseAction(state: CoursesUiState, onNewCourse: () -> Unit) {
+    if (state.languageName.isEmpty() || state.courses.isEmpty()) return
+    FilledIconButton(onClick = onNewCourse, shape = CircleShape, modifier = Modifier.size(44.dp).testTag("new-course")) {
+        Icon(Icons.Default.Add, contentDescription = tr("New course"))
     }
 }
 

@@ -231,7 +231,7 @@ class CoursesScreenTest {
                         Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             val state by viewModel.state.collectAsState()
                             Column {
-                                PhoneCoursesHeader(state, onLanguage = {}, onNewCourse = {})
+                                AppTopBar(title = "Courses", onNavigate = {}, section = NavSection.COURSES, actions = { NewCourseAction(state) {} })
                                 if (!state.loading) {
                                     PhoneCoursesContent(
                                         state,

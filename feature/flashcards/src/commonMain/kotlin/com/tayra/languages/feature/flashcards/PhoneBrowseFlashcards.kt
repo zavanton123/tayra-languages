@@ -80,7 +80,7 @@ internal fun PhoneBrowseFlashcardsScreen(
     var sorting by remember { mutableStateOf(false) }
     val showChecks = selecting || state.selected.isNotEmpty()
     Scaffold(
-        topBar = { PhoneBrowseHeader(onBack = onBack, onReview = actions.onReview, onLanguage = { onNavigate(Route.ChooseLanguage) }) },
+        topBar = { AppTopBar(title = tr("Browse flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS, onBack = onBack, actions = { BrowseMenu(onReview = actions.onReview) }) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         val list = rememberLazyListState()
@@ -158,25 +158,15 @@ internal val BrowseSortField.label: String
         BrowseSortField.ADDED -> tr("Added")
     }
 
-/** The page's header: back, the title, the page's menu and the language being learned. */
+/** The page's menu, in the bar. */
 @Composable
-private fun PhoneBrowseHeader(onBack: () -> Unit, onReview: () -> Unit, onLanguage: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
+private fun BrowseMenu(onReview: () -> Unit) {
     var open by remember { mutableStateOf(false) }
-    Row(
-        Modifier.fillMaxWidth().background(colors.surfaceContainerLow).windowInsetsPadding(WindowInsets.statusBars).height(72.dp).padding(start = 4.dp, end = 14.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back")) }
-        Text(tr("Browse flashcards"), Modifier.weight(1f).padding(start = 4.dp), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        Box {
-            IconButton(onClick = { open = true }, modifier = Modifier.testTag("phone-browse-menu")) { Icon(Icons.Default.MoreVert, contentDescription = tr("List actions"), tint = colors.onSurfaceVariant) }
-            AppMenu(expanded = open, onDismissRequest = { open = false }) {
-                AppMenuItem(text = { Text(tr("Review cards")) }, onClick = { open = false; onReview() })
-            }
+    Box {
+        IconButton(onClick = { open = true }, modifier = Modifier.testTag("phone-browse-menu")) { Icon(Icons.Default.MoreVert, contentDescription = tr("List actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            AppMenuItem(text = { Text(tr("Review cards")) }, onClick = { open = false; onReview() })
         }
-        Spacer(Modifier.width(4.dp))
-        LearningLanguageSelector(compact = true, onOpen = onLanguage)
     }
 }
 

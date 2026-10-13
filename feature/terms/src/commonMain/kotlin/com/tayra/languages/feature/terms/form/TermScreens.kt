@@ -60,7 +60,7 @@ fun TermEditScreen(
     val isNew = key is TermFormKey.New
     val compact = LocalWindowWidth.current.isCompact
     val gutter = if (compact) 16.dp else 32.dp
-    Scaffold(topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = if (isNew) tr("New term") else tr("Edit term"), onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
             PageHeader(
                 title = if (isNew) tr("New term") else tr("Edit term"),

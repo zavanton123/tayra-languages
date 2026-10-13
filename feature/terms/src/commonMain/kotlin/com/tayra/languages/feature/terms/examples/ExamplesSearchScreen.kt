@@ -212,7 +212,7 @@ fun ExamplesSearchScreen(
     }
 
     Scaffold(
-        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) },
+        topBar = { AppTopBar(title = tr("Examples"), onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) },
     ) { padding ->
         if (state.loading || query == null) {
             LoadingIndicator(Modifier.padding(padding))

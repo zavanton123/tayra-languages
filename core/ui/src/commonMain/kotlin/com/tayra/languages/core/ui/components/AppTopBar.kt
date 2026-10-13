@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.layout.Row
@@ -26,8 +27,6 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBar
-import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -108,20 +107,26 @@ fun AppTopBar(
 ) {
     val width = LocalWindowWidth.current
     if (width.isCompact) {
-        TopAppBar(
-            title = { Text(title) },
-            navigationIcon = {
-                if (onBack != null) {
-                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back")) }
-                }
-            },
-            // The phone's menu is its bottom bar (see PhoneNavBar), so the compact bar has none.
-            actions = {
-                actions()
-                LearningLanguageSelector(compact = true, onOpen = { onNavigate(Route.ChooseLanguage) })
-            },
-            colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
-        )
+        // The page's own heading on the page's own background: a large title, the screen's actions and the language.
+        // The phone's menu is its bottom bar (see PhoneNavBar), so the bar has none.
+        Row(
+            Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).height(72.dp)
+                .padding(start = if (onBack != null) 4.dp else 18.dp, end = 14.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            if (onBack != null) IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back")) }
+            Text(
+                title,
+                Modifier.weight(1f).padding(start = if (onBack != null) 4.dp else 0.dp, end = 8.dp),
+                style = if (onBack != null) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium,
+                fontWeight = FontWeight.Bold,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) { actions() }
+            Spacer(Modifier.width(4.dp))
+            LearningLanguageSelector(compact = true, onOpen = { onNavigate(Route.ChooseLanguage) })
+        }
         return
     }
     Surface(color = MaterialTheme.colorScheme.surface) {

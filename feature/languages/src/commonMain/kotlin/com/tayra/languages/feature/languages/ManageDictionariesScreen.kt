@@ -62,7 +62,7 @@ fun ManageDictionariesScreen(
     val compact = LocalWindowWidth.current.isCompact
     val colors = MaterialTheme.colorScheme
     Scaffold(
-        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.SETTINGS, onBack = if (compact) onBack else null) },
+        topBar = { AppTopBar(title = tr("Dictionaries"), onNavigate = onNavigate, section = NavSection.SETTINGS, onBack = if (compact) onBack else null) },
         snackbarHost = {
             state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text(tr("OK")) } }) { Text(it) } }
         },

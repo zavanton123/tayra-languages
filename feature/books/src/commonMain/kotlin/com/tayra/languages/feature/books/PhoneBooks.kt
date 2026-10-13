@@ -66,7 +66,7 @@ internal fun PhoneBooksMenu(archived: Boolean, selecting: Boolean, onSelecting: 
         }
     }
     if (!archived) {
-        FilledIconButton(onClick = onNewBook, modifier = Modifier.size(40.dp).testTag("phone-new-book")) { Icon(Icons.Default.Add, contentDescription = tr("New book")) }
+        FilledIconButton(onClick = onNewBook, modifier = Modifier.size(44.dp).testTag("phone-new-book")) { Icon(Icons.Default.Add, contentDescription = tr("New book")) }
         Spacer(Modifier.width(8.dp))
     }
 }
