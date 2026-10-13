@@ -8,7 +8,11 @@ import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.runDesktopComposeUiTest
@@ -16,6 +20,7 @@ import com.tayra.languages.core.ui.theme.TayraTheme
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import kotlin.test.assertEquals
 
 /** The language dialog laid out on a wide window and on a phone. */
 @OptIn(ExperimentalTestApi::class)
@@ -50,13 +55,21 @@ class LanguageDialogTest {
     @Test
     fun wideWindow() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         open(compact = false)
-        onAllNodesWithText("29 languages").fetchSemanticsNodes().isNotEmpty()
+        onNodeWithText("29 languages").assertExists()
         save("LANGUAGE_DIALOG_SCREENSHOT")
     }
 
+    /** The phone's picker is a page with a letter index: a letter brings its languages into view. */
     @Test
     fun phone() = runDesktopComposeUiTest(width = 420, height = 900) {
         open(compact = true)
+        onNodeWithTag("current-language").assertExists()
+        onNodeWithText("29 languages").assertExists()
         save("LANGUAGE_DIALOG_PHONE_SCREENSHOT")
+        // Far down the list, Swedish is not even laid out yet.
+        assertEquals(0, onAllNodesWithTag("language-sv").fetchSemanticsNodes().size)
+        onNodeWithTag("index-S").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("language-sv").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("language-sv").assertIsDisplayed()
     }
 }
