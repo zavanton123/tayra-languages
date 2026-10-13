@@ -144,6 +144,7 @@ internal val ruCourses: Map<String, String> = mapOf(
     "REVIEW" to "ПОВТОРЕНИЕ",
     "Undo last answer" to "Отменить последний ответ",
     "Previous card" to "Предыдущая карточка",
+    "Previous" to "Назад",
     "Edit term" to "Изменить слово",
     "Edit flashcard" to "Изменить карточку",
     "Suspend card" to "Приостановить карточку",

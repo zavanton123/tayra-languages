@@ -6,6 +6,10 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import com.tayra.languages.core.ui.components.LearningLanguageSelector
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.layout.statusBars
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -113,13 +117,8 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     val compact = LocalWindowWidth.current.isCompact
     Scaffold(
         topBar = {
-            AppTopBar(
-                title = tr("Flashcards"),
-                onNavigate = onNavigate,
-                section = NavSection.FLASHCARDS,
-                // Wide windows offer the browser from the page heading instead.
-                actions = { if (compact) IconButton(onClick = { onNavigate(Route.BrowseFlashcards()) }) { Icon(AppIcons.ViewList, contentDescription = tr("Browse flashcards")) } },
-            )
+            if (compact) PhoneHeader(onBrowse = { onNavigate(Route.BrowseFlashcards()) }, onLanguage = { onNavigate(Route.ChooseLanguage) })
+            else AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS)
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
@@ -217,9 +216,26 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
             } else {
                 Card(card, state.revealed, speaker, compact, actions.onReveal)
                 if (state.revealed) Answers(actions, compact)
-                CardFooter(card, state.canUndo, actions)
+                CardFooter(card, state.canUndo, actions, compact)
             }
         }
+    }
+}
+
+/** The phone's page header: the title, the way to every card, and the language being learned. */
+@Composable
+internal fun PhoneHeader(onBrowse: () -> Unit, onLanguage: () -> Unit) {
+    Row(
+        Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceContainerLow).windowInsetsPadding(WindowInsets.statusBars)
+            .height(76.dp).padding(start = 18.dp, end = 14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        Text(tr("Flashcards"), Modifier.weight(1f), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold, maxLines = 1)
+        IconButton(onClick = onBrowse, modifier = Modifier.testTag("browse-flashcards")) {
+            Icon(AppIcons.ViewList, contentDescription = tr("Browse flashcards"), tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(28.dp))
+        }
+        LearningLanguageSelector(compact = true, onOpen = onLanguage)
     }
 }
 
@@ -227,7 +243,8 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
 private fun Header(state: FlashcardsUiState, compact: Boolean, onBrowse: () -> Unit) {
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Column(Modifier.weight(1f)) {
-            Text(tr("Flashcards"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+            // On a phone the page header carries the title.
+            if (!compact) Text(tr("Flashcards"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             Text(
                 if (state.languageName.isEmpty()) tr("Review the words you are learning.") else tr("Review the {0} words you are learning.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
                 style = MaterialTheme.typography.bodyLarge,
@@ -255,12 +272,16 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
     val total = state.answered + counts.total
     val current = if (state.card != null) (state.answered + 1).coerceAtMost(total.coerceAtLeast(1)) else state.answered
     val pills: @Composable () -> Unit = {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            CountPill("New", counts.new, trPlural(counts.new, "new", "new"), NEW_TINT)
+        Row(
+            if (compact) Modifier.fillMaxWidth() else Modifier,
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(if (compact) 12.dp else 10.dp, Alignment.CenterHorizontally),
+        ) {
+            CountPill("New", counts.new, trPlural(counts.new, "new", "new"), NEW_TINT, compact)
             PillDivider()
-            CountPill("Learning", counts.learning, trPlural(counts.learning, "learning", "learning"), LEARNING_TINT)
+            CountPill("Learning", counts.learning, trPlural(counts.learning, "learning", "learning"), LEARNING_TINT, compact)
             PillDivider()
-            CountPill("To review", counts.review, trPlural(counts.review, "to review", "to review"), REVIEW_TINT)
+            CountPill("To review", counts.review, trPlural(counts.review, "to review", "to review"), REVIEW_TINT, compact)
         }
     }
     val bar: @Composable (Modifier) -> Unit = { m ->
@@ -284,8 +305,8 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
     }
     val box = Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp))
     if (compact) {
-        Column(box.padding(14.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(box.padding(horizontal = 16.dp, vertical = 16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
                 label()
                 bar(Modifier.weight(1f))
             }
@@ -306,15 +327,16 @@ private fun PillDivider() {
 }
 
 @Composable
-private fun CountPill(tag: String, count: Int, label: String, tint: Color) {
+private fun CountPill(tag: String, count: Int, label: String, tint: Color, large: Boolean = false) {
+    val style = if (large) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.bodyMedium
     Row(
         Modifier.clip(RoundedCornerShape(50)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.3f), RoundedCornerShape(50))
-            .padding(horizontal = 12.dp, vertical = 5.dp).testTag("count-$tag"),
+            .padding(horizontal = if (large) 14.dp else 12.dp, vertical = if (large) 7.dp else 5.dp).testTag("count-$tag"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(6.dp),
     ) {
-        Text("$count", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = tint)
-        Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurface, softWrap = false)
+        Text("$count", style = style, fontWeight = FontWeight.Bold, color = tint)
+        Text(label, style = style, color = MaterialTheme.colorScheme.onSurface, softWrap = false)
     }
 }
 
@@ -328,7 +350,7 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color) {
 private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compact: Boolean, onReveal: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
-    val sentenceSize = if (compact) 22.sp else 30.sp
+    val sentenceSize = if (compact) 26.sp else 30.sp
     val inset = if (compact) 18.dp else 32.dp
     Column(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(18.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(18.dp))
@@ -404,7 +426,7 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
             Button(
                 onClick = onReveal,
                 shape = RoundedCornerShape(12.dp),
-                modifier = Modifier.padding(top = 20.dp, bottom = 8.dp).widthIn(min = if (compact) 220.dp else 360.dp).height(if (compact) 52.dp else 64.dp).then(NoFocus),
+                modifier = Modifier.padding(top = 20.dp, bottom = 8.dp).then(if (compact) Modifier.fillMaxWidth(0.85f) else Modifier.widthIn(min = 360.dp)).height(if (compact) 54.dp else 64.dp).then(NoFocus),
             ) {
                 Text(tr("Show answer"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
             }
@@ -457,7 +479,18 @@ private fun Answers(actions: FlashcardActions, compact: Boolean) {
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardActions) {
+private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardActions, compact: Boolean) {
+    if (compact) {
+        // A phone has the room for the short names only, spread over the width.
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous"), Modifier.weight(1f), enabled = canUndo, onClick = actions.onUndo)
+            PillDivider()
+            FooterLink(Icons.Default.Edit, tr("Edit"), Modifier.weight(1f), onClick = { actions.onEdit(card.termId) })
+            PillDivider()
+            FooterLink(AppIcons.Pause, tr("Suspend"), Modifier.weight(1f), onClick = actions.onSuspend)
+        }
+        return
+    }
     FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally), itemVerticalAlignment = Alignment.CenterVertically) {
         FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), enabled = canUndo, onClick = actions.onUndo)
         PillDivider()
@@ -468,8 +501,8 @@ private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardAc
 }
 
 @Composable
-private fun FooterLink(icon: ImageVector, label: String, enabled: Boolean = true, onClick: () -> Unit) {
-    TextButton(onClick = onClick, enabled = enabled, modifier = NoFocus) {
+private fun FooterLink(icon: ImageVector, label: String, modifier: Modifier = Modifier, enabled: Boolean = true, onClick: () -> Unit) {
+    TextButton(onClick = onClick, enabled = enabled, modifier = modifier.then(NoFocus)) {
         Icon(icon, contentDescription = null, modifier = Modifier.size(20.dp))
         Spacer(Modifier.width(8.dp))
         Text(label, style = MaterialTheme.typography.bodyLarge)

@@ -65,7 +65,7 @@ class FlashcardsScreenTest {
     private val sentence = "Quando precisamos comprar alguma coisa, passamos no supermercado."
     private var termId = 0L
 
-    private fun ComposeUiTest.show(hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults): FlashcardsViewModel {
+    private fun ComposeUiTest.show(hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults, phone: Boolean = false): FlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru") }
@@ -94,7 +94,7 @@ class FlashcardsScreenTest {
                         val state by viewModel.state.collectAsState()
                         Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             Column {
-                                AppTopBar(title = "Flashcards", onNavigate = {}, section = NavSection.FLASHCARDS)
+                                if (phone) PhoneHeader(onBrowse = {}, onLanguage = {}) else AppTopBar(title = "Flashcards", onNavigate = {}, section = NavSection.FLASHCARDS)
                                 FlashcardsContent(
                                     state,
                                     speaker = null,
@@ -199,6 +199,19 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { events.size == 2 }
         assertEquals(FlashcardsEvent.StopSpeaking, events[1])
         collecting.cancel()
+    }
+
+    /** A phone has the page's own header, one title, and the short footer. */
+    @Test
+    fun aPhoneShowsTheCardUnderItsOwnHeader() = runDesktopComposeUiTest(width = 420, height = 900) {
+        show(phone = true)
+        assertEquals(1, onAllNodesWithText("Flashcards").fetchSemanticsNodes().size, "the title once, in the header")
+        onNodeWithTag("browse-flashcards").assertExists()
+        for (label in listOf("Previous", "Edit", "Suspend")) onNodeWithText(label).assertExists()
+        save("FLASHCARD_PHONE_SCREENSHOT")
+        onNodeWithText("Show answer").performClick()
+        onNodeWithTag("flashcard-answer").assertExists()
+        save("FLASHCARD_PHONE_BACK_SCREENSHOT")
     }
 
     @Test
