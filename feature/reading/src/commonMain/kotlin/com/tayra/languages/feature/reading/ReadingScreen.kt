@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.only
+import androidx.compose.foundation.layout.WindowInsetsSides
 import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -293,7 +295,8 @@ fun ReadingScreen(
             Modifier
                 .fillMaxSize()
                 .background(theme.readingBackground)
-                .windowInsetsPadding(WindowInsets.safeDrawing)
+                // The headers take the top inset themselves, so their colour runs up behind the status bar.
+                .windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Horizontal + WindowInsetsSides.Bottom))
                 .focusRequester(focusRequester)
                 .focusable()
                 // Before the focused button sees it, so Space after clicking a button still plays or pauses.
@@ -347,7 +350,7 @@ fun ReadingScreen(
     if (!wide && state.panel != ReadingPanel.None) {
         val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = false)
         // The default sheet width (640dp) leaves a tablet's sheet narrower than its page.
-        ModalBottomSheet(onDismissRequest = viewModel::closePanel, sheetState = sheetState, sheetMaxWidth = Dp.Unspecified) {
+        ModalBottomSheet(onDismissRequest = viewModel::closePanel, sheetState = sheetState, sheetMaxWidth = Dp.Unspecified, dragHandle = { SheetHandle() }) {
             Box(Modifier.fillMaxWidth()) { CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) } }
         }
     }
@@ -362,10 +365,19 @@ fun ReadingScreen(
     ToastHost(toast)
 }
 
+/** The sheet's grabber, with less room around it than Material's. */
+@Composable
+private fun SheetHandle() {
+    Box(
+        Modifier.padding(top = 10.dp, bottom = 6.dp).size(width = 32.dp, height = 4.dp).clip(RoundedCornerShape(2.dp))
+            .background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.4f)),
+    )
+}
+
 @Composable
 private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit, onHome: () -> Unit) {
     Surface(tonalElevation = 2.dp) {
-        Column(Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 4.dp)) {
+        Column(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = 8.dp, vertical = 4.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = tr("Menu")) }
                 if (state.lesson == null) IconButton(onClick = onHome) { Icon(Icons.Default.Home, contentDescription = tr("Home")) }
@@ -438,7 +450,7 @@ private fun Crumb(label: String, onClick: () -> Unit, modifier: Modifier = Modif
 /** Minimal header shown in focus mode: just the menu, the page position and a way out. */
 @Composable
 private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit) {
-    Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+    Row(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = 8.dp), verticalAlignment = Alignment.CenterVertically) {
         IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = tr("Menu")) }
         Spacer(Modifier.weight(1f))
         IconButton(onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage) {
