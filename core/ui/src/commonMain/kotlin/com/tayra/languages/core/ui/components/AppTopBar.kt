@@ -118,7 +118,7 @@ fun AppTopBar(
             // The phone's menu is its bottom bar (see PhoneNavBar), so the compact bar has none.
             actions = {
                 actions()
-                LearningLanguageSelector(compact = true)
+                LearningLanguageSelector(compact = true, onOpen = { onNavigate(Route.ChooseLanguage) })
             },
             colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
         )

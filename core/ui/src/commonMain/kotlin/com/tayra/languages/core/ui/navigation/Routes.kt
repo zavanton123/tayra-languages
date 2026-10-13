@@ -87,6 +87,10 @@ sealed interface Route {
 
     @Serializable
     data object FlashcardSettings : Route
+    /** Choosing the language being learned, on phones; wider windows choose it in a dialog. */
+    @Serializable
+    data object ChooseLanguage : Route
+
     @Serializable
     data object Languages : Route
 

@@ -1,5 +1,7 @@
 package com.tayra.languages.navigation
 
+import com.tayra.languages.core.ui.components.ChooseLanguageScreen
+import androidx.navigation.compose.composable
 import com.tayra.languages.feature.courses.coursesGraph
 import com.tayra.languages.feature.flashcards.flashcardsGraph
 import com.tayra.languages.feature.frequency.frequencyGraph
@@ -48,7 +50,8 @@ fun AppNavHost(openCourses: Int = 0) {
     // Phones get the main areas as a bottom bar, except while reading; wider screens have them in the top bar.
     val entry by navController.currentBackStackEntryAsState()
     val destination = entry?.destination
-    val phoneBar = LocalWindowWidth.current.isCompact && destination != null && !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>()
+    val phoneBar = LocalWindowWidth.current.isCompact && destination != null && !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>() &&
+        !destination.hasRoute<Route.ChooseLanguage>()
     var more by remember { mutableStateOf(false) }
     Scaffold(
         bottomBar = {
@@ -80,6 +83,7 @@ fun AppNavHost(openCourses: Int = 0) {
             readingGraph(navController)
             settingsGraph(navController)
             statsGraph(navController)
+            composable<Route.ChooseLanguage> { ChooseLanguageScreen(onBack = { navController.popBackStack() }) }
         }
     }
     if (more) MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })

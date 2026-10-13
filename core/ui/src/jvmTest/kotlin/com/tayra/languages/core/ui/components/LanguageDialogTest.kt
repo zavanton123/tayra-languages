@@ -16,6 +16,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.runDesktopComposeUiTest
+import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.TayraTheme
 import java.io.File
 import javax.imageio.ImageIO
@@ -59,10 +60,28 @@ class LanguageDialogTest {
         save("LANGUAGE_DIALOG_SCREENSHOT")
     }
 
-    /** The phone's picker is a page with a letter index: a letter brings its languages into view. */
+    /** On a phone the selector does not open a dialog: it leads to the language screen. */
     @Test
-    fun phone() = runDesktopComposeUiTest(width = 420, height = 900) {
-        open(compact = true)
+    fun aPhoneOpensTheLanguageScreen() = runDesktopComposeUiTest(width = 420, height = 900) {
+        val visited = mutableListOf<Route>()
+        val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 1L, knownWords = 586) {}
+        setContent {
+            TayraTheme { ProvideWindowWidth { CompositionLocalProvider(LocalLearningLanguage provides state) { Surface { AppTopBar(title = "Courses", onNavigate = { visited += it }) } } } }
+        }
+        onNodeWithContentDescription("Learning language: Portuguese (586)").performClick()
+        assertEquals(listOf<Route>(Route.ChooseLanguage), visited)
+        assertEquals(0, onAllNodesWithText("Choose a language").fetchSemanticsNodes().size, "no dialog")
+    }
+
+    /** The phone's screen: the current language, the rest with a letter index that brings its languages into view, and a choice that goes back. */
+    @Test
+    fun theLanguageScreen() = runDesktopComposeUiTest(width = 420, height = 900) {
+        val chosen = mutableListOf<Long>()
+        var back = 0
+        val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 1L, nativeIds = setOf(26L), knownWords = 586) { chosen += it }
+        setContent {
+            TayraTheme { ProvideWindowWidth { CompositionLocalProvider(LocalLearningLanguage provides state) { ChooseLanguageScreen(onBack = { back++ }) } } }
+        }
         onNodeWithTag("current-language").assertExists()
         onNodeWithText("29 languages").assertExists()
         save("LANGUAGE_DIALOG_PHONE_SCREENSHOT")
@@ -70,6 +89,8 @@ class LanguageDialogTest {
         assertEquals(0, onAllNodesWithTag("language-sv").fetchSemanticsNodes().size)
         onNodeWithTag("index-S").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("language-sv").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("language-sv").assertIsDisplayed()
+        onNodeWithTag("language-sv").assertIsDisplayed().performClick()
+        assertEquals(listOf(names.indexOf("Swedish") + 1L), chosen)
+        assertEquals(1, back)
     }
 }

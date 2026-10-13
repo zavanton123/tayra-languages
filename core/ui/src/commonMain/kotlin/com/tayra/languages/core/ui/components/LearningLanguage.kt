@@ -65,6 +65,10 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.runtime.rememberCoroutineScope
 import kotlinx.coroutines.launch
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.material3.CenterAlignedTopAppBar
+import androidx.compose.material3.Scaffold
 
 /**
  * The language being learned and the ones to choose from; [languages] are ids with their English names, shown through `tr`.
@@ -100,10 +104,11 @@ fun LanguageCodeBadge(languageName: String, size: Dp = 28.dp) {
 
 /**
  * The global choice of the language being learned, for the top bar: the name with its flag on
- * wide screens, just the flag on [compact] ones. Shows nothing until languages exist.
+ * wide screens, just the flag on [compact] ones. It opens the language dialog, or calls [onOpen]
+ * where the choice is a screen of its own (phones). Shows nothing until languages exist.
  */
 @Composable
-fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
+fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier, onOpen: (() -> Unit)? = null) {
     val state = LocalLearningLanguage.current ?: return
     val name = state.currentName ?: return
     val colors = MaterialTheme.colorScheme
@@ -115,7 +120,7 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
             Modifier.clip(RoundedCornerShape(12.dp))
                 .background(colors.primary.copy(alpha = 0.06f))
                 .border(1.dp, colors.primary.copy(alpha = 0.12f), RoundedCornerShape(12.dp))
-                .clickable { open = true }
+                .clickable { if (onOpen != null) onOpen() else open = true }
                 .semantics { contentDescription = tr("Learning language: {0}", label) }
                 .padding(horizontal = if (compact) 8.dp else 12.dp, vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
@@ -127,127 +132,127 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
             }
             Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
         }
-        if (open) {
-            if (LocalWindowWidth.current.isCompact) PhoneLanguagePicker(state, onDismiss = { open = false })
-            else LanguageDialog(state, onDismiss = { open = false })
-        }
+        if (open) LanguageDialog(state, onDismiss = { open = false })
     }
 }
 
 /**
- * The phone's picker, a page over the screen: the current language on its card, then every
- * other one as a row with its flag, with a letter index down the right edge that jumps the list.
+ * The phone's language screen: the current language on its card, then every other one as a row
+ * with its flag, with a letter index down the right edge that jumps the list. Choosing one goes
+ * back, and the app moves on to that language's courses.
  */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun PhoneLanguagePicker(state: LearningLanguageState, onDismiss: () -> Unit) {
+fun ChooseLanguageScreen(onBack: () -> Unit) {
+    val state = LocalLearningLanguage.current
     val colors = MaterialTheme.colorScheme
     var query by remember { mutableStateOf("") }
     val needle = query.trim().lowercase()
     fun shown(name: String) = needle.isEmpty() || tr(name).lowercase().contains(needle) || name.lowercase().contains(needle)
-    val others = state.languages.filter { (id, name) -> id != state.currentId && shown(name) }
-    val currentName = state.currentName?.takeIf { shown(it) }
+    val others = state?.languages.orEmpty().filter { (id, name) -> id != state?.currentId && shown(name) }
+    val currentName = state?.currentName?.takeIf { shown(it) }
     val list = rememberLazyListState()
     val scope = rememberCoroutineScope()
     // The rows before the languages: search, the current language (when shown) and the heading.
     val rowsBefore = if (currentName != null) 4 else 2
     val letters = others.map { (_, name) -> tr(name).first().uppercaseChar() }.distinct()
-    Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
-        Surface(Modifier.fillMaxSize(), color = colors.surface) {
-            Column(Modifier.fillMaxSize()) {
-                Box(Modifier.fillMaxWidth().height(56.dp)) {
-                    IconButton(onClick = onDismiss, modifier = Modifier.align(Alignment.CenterStart).padding(start = 4.dp)) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), tint = colors.primary)
+    Scaffold(
+        topBar = {
+            CenterAlignedTopAppBar(
+                title = { Text(tr("Choose a language"), fontWeight = FontWeight.Bold) },
+                navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), tint = colors.primary) } },
+                colors = TopAppBarDefaults.centerAlignedTopAppBarColors(containerColor = colors.surface),
+            )
+        },
+        containerColor = colors.surface,
+    ) { padding ->
+        if (state == null) return@Scaffold
+        Box(Modifier.padding(padding).fillMaxSize().testTag("choose-language")) {
+            LazyColumn(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(bottom = 24.dp)) {
+                item {
+                    Row(
+                        Modifier.padding(horizontal = 16.dp).fillMaxWidth().height(52.dp).clip(RoundedCornerShape(12.dp)).background(colors.surfaceVariant.copy(alpha = 0.5f)).padding(horizontal = 14.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
+                        Spacer(Modifier.width(10.dp))
+                        BasicTextField(
+                            value = query,
+                            onValueChange = { query = it },
+                            singleLine = true,
+                            textStyle = MaterialTheme.typography.bodyLarge.copy(color = colors.onSurface),
+                            cursorBrush = SolidColor(colors.primary),
+                            modifier = Modifier.weight(1f).testTag("language-search"),
+                            decorationBox = { inner ->
+                                Box(contentAlignment = Alignment.CenterStart) {
+                                    if (query.isEmpty()) Text(tr("Search languages"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge)
+                                    inner()
+                                }
+                            },
+                        )
+                        if (query.isNotEmpty()) {
+                            Icon(
+                                Icons.Default.Close,
+                                contentDescription = tr("Clear search"),
+                                tint = colors.onSurfaceVariant,
+                                modifier = Modifier.size(24.dp).clip(CircleShape).clickable { query = "" }.padding(4.dp),
+                            )
+                        }
                     }
-                    Text(tr("Choose a language"), Modifier.align(Alignment.Center), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                 }
-                Box(Modifier.fillMaxSize()) {
-                    LazyColumn(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(bottom = 24.dp)) {
-                        item {
-                            Row(
-                                Modifier.padding(horizontal = 16.dp).fillMaxWidth().height(52.dp).clip(RoundedCornerShape(12.dp)).background(colors.surfaceVariant.copy(alpha = 0.5f)).padding(horizontal = 14.dp),
-                                verticalAlignment = Alignment.CenterVertically,
-                            ) {
-                                Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
-                                Spacer(Modifier.width(10.dp))
-                                BasicTextField(
-                                    value = query,
-                                    onValueChange = { query = it },
-                                    singleLine = true,
-                                    textStyle = MaterialTheme.typography.bodyLarge.copy(color = colors.onSurface),
-                                    cursorBrush = SolidColor(colors.primary),
-                                    modifier = Modifier.weight(1f).testTag("language-search"),
-                                    decorationBox = { inner ->
-                                        Box(contentAlignment = Alignment.CenterStart) {
-                                            if (query.isEmpty()) Text(tr("Search languages"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge)
-                                            inner()
-                                        }
-                                    },
-                                )
-                                if (query.isNotEmpty()) {
-                                    Icon(
-                                        Icons.Default.Close,
-                                        contentDescription = tr("Clear search"),
-                                        tint = colors.onSurfaceVariant,
-                                        modifier = Modifier.size(24.dp).clip(CircleShape).clickable { query = "" }.padding(4.dp),
-                                    )
-                                }
+                if (currentName != null) {
+                    item { PhoneSectionTitle(tr("Current language")) }
+                    item {
+                        Row(
+                            Modifier.padding(horizontal = 16.dp).fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.08f))
+                                .padding(horizontal = 14.dp, vertical = 14.dp).testTag("current-language"),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(16.dp),
+                        ) {
+                            LanguageFlag(currentName, 36.dp, Modifier.clip(RoundedCornerShape(6.dp)))
+                            Column(Modifier.weight(1f)) {
+                                Text(tr(currentName), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                                state.knownWords?.let { Text(trPlural(it, "{0} word", "{0} words", formatCount(it)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
                             }
-                        }
-                        if (currentName != null) {
-                            item { PhoneSectionTitle(tr("Current language")) }
-                            item {
-                                Row(
-                                    Modifier.padding(horizontal = 16.dp).fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.08f))
-                                        .padding(horizontal = 14.dp, vertical = 14.dp).testTag("current-language"),
-                                    verticalAlignment = Alignment.CenterVertically,
-                                    horizontalArrangement = Arrangement.spacedBy(16.dp),
-                                ) {
-                                    LanguageFlag(currentName, 36.dp, Modifier.clip(RoundedCornerShape(6.dp)))
-                                    Column(Modifier.weight(1f)) {
-                                        Text(tr(currentName), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-                                        state.knownWords?.let { Text(trPlural(it, "{0} word", "{0} words", formatCount(it)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
-                                    }
-                                    Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(26.dp))
-                                }
-                            }
-                        }
-                        item { PhoneSectionTitle(tr("All languages"), trPlural(others.size, "{0} language", "{0} languages")) }
-                        if (others.isEmpty()) {
-                            item { Text(tr("No languages match"), Modifier.padding(horizontal = 16.dp, vertical = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
-                        }
-                        itemsIndexed(others, key = { _, (id, _) -> id }) { index, (id, name) ->
-                            val native = id in state.nativeIds
-                            Row(
-                                Modifier.fillMaxWidth().clickable(enabled = !native) { onDismiss(); state.onSelect(id) }.alpha(if (native) 0.45f else 1f)
-                                    .padding(start = 24.dp, end = 40.dp, top = 12.dp, bottom = 12.dp).testTag("language-${LanguageCodes.codeFor(name) ?: name}"),
-                                verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(18.dp),
-                            ) {
-                                LanguageFlag(name, 30.dp, Modifier.clip(RoundedCornerShape(5.dp)))
-                                Text(tr(name), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                                if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
-                            }
-                            if (index < others.lastIndex) HorizontalDivider(Modifier.padding(start = 16.dp, end = 32.dp), color = colors.outlineVariant.copy(alpha = 0.6f))
+                            Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(26.dp))
                         }
                     }
-                    if (letters.size > 1) {
-                        Column(Modifier.align(Alignment.CenterEnd).padding(end = 6.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                            letters.forEach { letter ->
-                                Text(
-                                    letter.toString(),
-                                    Modifier.clip(CircleShape)
-                                        .clickable(onClickLabel = tr("Jump to {0}", letter.toString())) {
-                                            val target = others.indexOfFirst { (_, name) -> tr(name).first().uppercaseChar() == letter }
-                                            if (target >= 0) scope.launch { list.animateScrollToItem(rowsBefore + target) }
-                                        }
-                                        .padding(horizontal = 6.dp, vertical = 2.dp)
-                                        .testTag("index-$letter"),
-                                    style = MaterialTheme.typography.labelMedium,
-                                    fontWeight = FontWeight.SemiBold,
-                                    color = colors.primary,
-                                )
-                            }
-                        }
+                }
+                item { PhoneSectionTitle(tr("All languages"), trPlural(others.size, "{0} language", "{0} languages")) }
+                if (others.isEmpty()) {
+                    item { Text(tr("No languages match"), Modifier.padding(horizontal = 16.dp, vertical = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
+                }
+                itemsIndexed(others, key = { _, (id, _) -> id }) { index, (id, name) ->
+                    val native = id in state.nativeIds
+                    Row(
+                        Modifier.fillMaxWidth().clickable(enabled = !native) { onBack(); state.onSelect(id) }.alpha(if (native) 0.45f else 1f)
+                            .padding(start = 24.dp, end = 40.dp, top = 12.dp, bottom = 12.dp).testTag("language-${LanguageCodes.codeFor(name) ?: name}"),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(18.dp),
+                    ) {
+                        LanguageFlag(name, 30.dp, Modifier.clip(RoundedCornerShape(5.dp)))
+                        Text(tr(name), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                        if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
+                    }
+                    if (index < others.lastIndex) HorizontalDivider(Modifier.padding(start = 16.dp, end = 32.dp), color = colors.outlineVariant.copy(alpha = 0.6f))
+                }
+            }
+            if (letters.size > 1) {
+                Column(Modifier.align(Alignment.CenterEnd).padding(end = 6.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                    letters.forEach { letter ->
+                        Text(
+                            letter.toString(),
+                            Modifier.clip(CircleShape)
+                                .clickable(onClickLabel = tr("Jump to {0}", letter.toString())) {
+                                    val target = others.indexOfFirst { (_, name) -> tr(name).first().uppercaseChar() == letter }
+                                    if (target >= 0) scope.launch { list.animateScrollToItem(rowsBefore + target) }
+                                }
+                                .padding(horizontal = 6.dp, vertical = 2.dp)
+                                .testTag("index-$letter"),
+                            style = MaterialTheme.typography.labelMedium,
+                            fontWeight = FontWeight.SemiBold,
+                            color = colors.primary,
+                        )
                     }
                 }
             }
