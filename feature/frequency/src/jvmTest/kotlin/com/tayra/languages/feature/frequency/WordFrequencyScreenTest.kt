@@ -20,6 +20,7 @@ import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performTextInput
+import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.frequency.RankedWord
@@ -116,6 +117,16 @@ class WordFrequencyScreenTest {
         onNodeWithText(overview.count(WordKnowledge.NEW).let { n -> n.toString().reversed().chunked(3).joinToString(",").reversed() }).assertExists()
         onNodeWithTag("word-dizer").performClick()
         assertEquals(listOf("dizer"), opened)
+    }
+
+    /** On a phone the bar names the page, so the page does not repeat it. */
+    @Test
+    fun aPhoneShowsTheTitleOnceInTheBar() = runDesktopComposeUiTest(width = 420, height = 900) {
+        show()
+        waitForIdle()
+        assertEquals(1, onAllNodesWithText("Word frequency").fetchSemanticsNodes().size)
+        onNodeWithText("Ranks 1–100").assertExists()
+        System.getenv("FREQUENCY_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
     }
 
     @Test

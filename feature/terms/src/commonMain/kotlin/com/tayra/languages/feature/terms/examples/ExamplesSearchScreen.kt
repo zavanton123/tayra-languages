@@ -415,10 +415,13 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
             Spacer(Modifier.width(24.dp))
         }
         Column(Modifier.weight(1f)) {
-            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text(tr("Vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable { onNavigate(Route.Terms()) })
-                Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
-                Text(tr("Examples"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            // On a phone the bar has the way back and the screen's name.
+            if (!compact) {
+                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(tr("Vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable { onNavigate(Route.Terms()) })
+                    Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
+                    Text(tr("Examples"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                }
             }
             Text(
                 tr("Examples for ‘{0}’", query.text),

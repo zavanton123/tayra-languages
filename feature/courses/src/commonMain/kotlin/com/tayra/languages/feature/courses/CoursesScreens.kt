@@ -822,7 +822,8 @@ internal fun CourseContent(
         contentModifier = Modifier.padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
         verticalArrangement = Arrangement.spacedBy(20.dp),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
+        // On a phone the bar has the way back and the course's title.
+        if (!compact) Row(verticalAlignment = Alignment.CenterVertically) {
             Row(
                 Modifier.clip(RoundedCornerShape(8.dp)).clickable(onClick = onCourses).padding(vertical = 4.dp, horizontal = 2.dp),
                 verticalAlignment = Alignment.CenterVertically,

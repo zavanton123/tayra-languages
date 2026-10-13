@@ -96,18 +96,20 @@ private fun PageHeader(
 ) {
     val colors = MaterialTheme.colorScheme
     Column(Modifier.fillMaxWidth().padding(horizontal = gutter, vertical = 16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            if (!compact) {
+        // On a phone the bar has the way back and the title; the buttons stay.
+        if (!compact) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 Box(Modifier.size(28.dp).clip(RoundedCornerShape(6.dp)).clickable(onClick = onBack), contentAlignment = Alignment.Center) {
                     Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
                 }
+                Text(tr("Vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable(onClick = onTerms))
+                Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
+                Text(title, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
-            Text(tr("Vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable(onClick = onTerms))
-            Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
-            Text(title, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(title, Modifier.weight(1f), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+            if (compact) Spacer(Modifier.weight(1f))
+            else Text(title, Modifier.weight(1f), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             OutlinedButton(onClick = onBack, shape = RoundedCornerShape(10.dp)) { Text(tr("Cancel")) }
             Spacer(Modifier.width(12.dp))
             Button(onClick = onSave, enabled = canSave && !saving, shape = RoundedCornerShape(10.dp)) { Text(if (saving) tr("Saving...") else tr("Save changes")) }

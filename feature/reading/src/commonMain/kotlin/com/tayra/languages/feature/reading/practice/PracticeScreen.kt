@@ -172,7 +172,8 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
             verticalArrangement = Arrangement.spacedBy(if (compact) 16.dp else 20.dp),
         ) {
             Column {
-                Text(tr("Practice"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                // On a phone the bar carries the title.
+                if (!compact) Text(tr("Practice"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                 Text(
                     when {
                         state.pageNumber == null -> trPlural(state.wordCount, "{0} word from your vocabulary.", "{0} words from your vocabulary.")

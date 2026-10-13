@@ -89,7 +89,8 @@ fun ManageDictionariesScreen(
                         Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(32.dp))
                         Spacer(Modifier.width(14.dp))
                         Column(Modifier.weight(1f)) {
-                            Text(tr("Dictionaries"), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                            // On a phone the bar carries the title.
+                            if (!compact) Text(tr("Dictionaries"), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
                             val pair = listOfNotNull(state.source?.name, state.target?.name).joinToString(" \u2192 ") { tr(it) }
                             Text(tr("{0} \u00b7 changes apply immediately", pair), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                         }

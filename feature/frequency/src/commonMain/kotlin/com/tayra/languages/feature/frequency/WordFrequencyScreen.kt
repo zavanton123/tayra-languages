@@ -290,7 +290,8 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
     val overview = state.overview
     Column(Modifier.fillMaxWidth().padding(bottom = 12.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text(tr("Word frequency"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+            // On a phone the bar carries the title.
+            if (!compact) Text(tr("Word frequency"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             Text(
                 if (overview == null) tr("The most common words of a language, from the most used down.")
                 else tr("The {0} most common {1} words, from the most used down. Click a word to save it or change its status.", formatCount(overview.words.size), tr(overview.languageName)),
@@ -299,7 +300,8 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
             )
         }
         if (overview == null) return@Column
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+        // The link keeps its words together and goes under the sentence when the line is full.
+        FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             Text(
                 if (state.level > 0) tr("Your vocabulary level: {0}", formatCount(state.level)) else tr("No vocabulary level set yet: use a band's button, or"),
                 style = MaterialTheme.typography.bodyMedium,
@@ -309,6 +311,7 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
                 Text(
                     if (state.level > 0) tr("Change") else tr("choose one"),
                     Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onSettings).padding(horizontal = 4.dp, vertical = 2.dp),
+                    softWrap = false,
                     style = MaterialTheme.typography.bodyMedium,
                     fontWeight = FontWeight.SemiBold,
                     color = colors.primary,

@@ -63,7 +63,7 @@ fun ScreenTitle(title: String, modifier: Modifier = Modifier) {
     Text(title, modifier, style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
 }
 
-/** The page heading: an optional way back to Settings, the title and subtitle, and actions on the right. */
+/** The page heading: an optional way back to Settings, the title and subtitle, and actions on the right. On a phone the bar names the screen, so only the subtitle and actions show. */
 @Composable
 fun ScreenHeader(
     title: String,
@@ -86,11 +86,7 @@ fun ScreenHeader(
         }
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Column(Modifier.weight(1f)) {
-                Text(
-                    title,
-                    style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineLarge,
-                    fontWeight = FontWeight.Bold,
-                )
+                if (!compact) Text(title, style = MaterialTheme.typography.headlineLarge, fontWeight = FontWeight.Bold)
                 Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             actions()
