@@ -56,7 +56,7 @@ class BrowseFlashcardsScreenTest {
     private var livro = 0L
 
     /** Three cards: one new, one answered Easy and so in review days away, one suspended. */
-    private fun ComposeUiTest.show(width: Int = 1586): BrowseFlashcardsViewModel {
+    private fun ComposeUiTest.show(width: Int = 1586, open: (() -> Long)? = null): BrowseFlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru") }
@@ -76,7 +76,7 @@ class BrowseFlashcardsScreenTest {
                         LocalFlashcardsDue provides 0,
                     ) {
                         Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
-                            BrowseFlashcardsScreen(onNavigate = {}, onBack = {}, viewModel = viewModel)
+                            BrowseFlashcardsScreen(onNavigate = {}, onBack = {}, termId = open?.invoke(), viewModel = viewModel)
                         }
                     }
                 }
@@ -153,6 +153,16 @@ class BrowseFlashcardsScreenTest {
         onNodeWithTag("sentence-edit").performClick()
         onNodeWithText("Cancel").performClick()
         assertEquals(0, onAllNodesWithTag("sentence-field").fetchSemanticsNodes().size)
+    }
+
+    /** Opened for a card, as from the review screen's Edit flashcard, the browser shows that card's info. */
+    @Test
+    fun theBrowserOpensTheCardItWasOpenedFor() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(open = { livro })
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("browse-detail").fetchSemanticsNodes().isNotEmpty() }
+        // The translation shows in the row and in the info; only the suspended card offers Resume.
+        assertEquals(2, onAllNodesWithText("книга").fetchSemanticsNodes().size)
+        onNodeWithText("Resume").assertExists()
     }
 
     @Test

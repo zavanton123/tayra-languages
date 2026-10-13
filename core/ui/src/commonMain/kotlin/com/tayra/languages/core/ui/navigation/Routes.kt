@@ -81,9 +81,9 @@ sealed interface Route {
     @Serializable
     data object Flashcards : Route
 
-    /** Every flashcard of the language being learned, to search, sort and manage; the browser of Anki. */
+    /** Every flashcard of the language being learned, to search, sort and manage; the browser of Anki. [termId] names a card to open on arrival. */
     @Serializable
-    data object BrowseFlashcards : Route
+    data class BrowseFlashcards(val termId: Long? = null) : Route
 
     @Serializable
     data object FlashcardSettings : Route

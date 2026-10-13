@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -82,7 +83,10 @@ internal fun PhoneBrowseFlashcardsScreen(
             )
         },
     ) { padding ->
-        ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = 16.dp, vertical = 12.dp)) {
+        val list = rememberLazyListState()
+        // Search, groups and the sort row, with the selection's actions when there is a selection, come before the cards.
+        FocusRow(state, list, rowsBefore = if (state.selected.isNotEmpty()) 4 else 3, onShown = viewModel::focusShown)
+        ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(horizontal = 16.dp, vertical = 12.dp)) {
             item { CardSearchBox(state.search, viewModel::setSearch, Modifier.fillMaxWidth().padding(bottom = 10.dp)) }
             item {
                 // Unbounded on the right, the chips stay on one line and scroll sideways.

@@ -21,7 +21,10 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
@@ -101,10 +104,14 @@ import kotlin.time.Instant
  * schedule and review history.
  */
 @Composable
-fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: BrowseFlashcardsViewModel = koinViewModel()) {
+fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, termId: Long? = null, viewModel: BrowseFlashcardsViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
-    // Coming back from editing a term shows the cards as they are now.
-    LaunchedEffect(Unit) { viewModel.load() }
+    // The card the browser was opened for is opened once; coming back from editing a term only shows the cards as they are now.
+    var arrived by rememberSaveable { mutableStateOf(false) }
+    LaunchedEffect(Unit) {
+        viewModel.load(open = termId.takeUnless { arrived })
+        arrived = true
+    }
     var confirmReset by remember { mutableStateOf<Collection<Long>?>(null) }
     val actions = BrowseActions(
         onOpen = viewModel::open,
@@ -163,7 +170,10 @@ private val SUSPENDED_TINT = Color(0xFF8A8F98)
 /** The page beside the detail panel: heading, search, the groups, the selection's actions and the table. */
 @Composable
 private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel, actions: BrowseActions, modifier: Modifier) {
-    ScrollList(modifier, contentPadding = PaddingValues(horizontal = 32.dp, vertical = 16.dp)) {
+    val list = rememberLazyListState()
+    // Heading, toolbar, groups, the selection's actions when there is a selection, and the table header come before the rows.
+    FocusRow(state, list, rowsBefore = if (state.selected.isNotEmpty()) 5 else 4, onShown = viewModel::focusShown)
+    ScrollList(modifier, state = list, contentPadding = PaddingValues(horizontal = 32.dp, vertical = 16.dp)) {
         item { PageHeader(state, actions.onReview) }
         item { Toolbar(state, viewModel) }
         item { ViewChips(state, viewModel::setView, Modifier.fillMaxWidth().padding(bottom = 14.dp)) }
@@ -178,6 +188,18 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
                 }
             }
         }
+    }
+}
+
+/** Scrolls the list to the card asked for, a little above it so the rows before it show too. */
+@Composable
+internal fun FocusRow(state: BrowseUiState, list: LazyListState, rowsBefore: Int, onShown: () -> Unit) {
+    val focus = state.focus
+    LaunchedEffect(focus, state.rows) {
+        if (focus == null) return@LaunchedEffect
+        val index = state.rows.indexOfFirst { it.termId == focus }
+        if (index >= 0) list.animateScrollToItem((rowsBefore + index - 2).coerceAtLeast(0))
+        onShown()
     }
 }
 

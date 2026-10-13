@@ -115,7 +115,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onNavigate = onNavigate,
                 section = NavSection.FLASHCARDS,
                 // Wide windows offer the browser from the page heading instead.
-                actions = { if (compact) IconButton(onClick = { onNavigate(Route.BrowseFlashcards) }) { Icon(AppIcons.ViewList, contentDescription = tr("Browse flashcards")) } },
+                actions = { if (compact) IconButton(onClick = { onNavigate(Route.BrowseFlashcards()) }) { Icon(AppIcons.ViewList, contentDescription = tr("Browse flashcards")) } },
             )
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -133,9 +133,9 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onAnswer = viewModel::answer,
                 onUndo = viewModel::undo,
                 onSuspend = viewModel::suspendCard,
-                onEdit = { onNavigate(Route.EditTerm(it)) },
+                onEdit = { onNavigate(Route.BrowseFlashcards(termId = it)) },
                 onVocabulary = { onNavigate(Route.Terms()) },
-                onBrowse = { onNavigate(Route.BrowseFlashcards) },
+                onBrowse = { onNavigate(Route.BrowseFlashcards()) },
             ),
             modifier = Modifier.padding(padding),
         )
@@ -148,6 +148,7 @@ internal class FlashcardActions(
     /** Back to the previous card, its answer taken back. */
     val onUndo: () -> Unit = {},
     val onSuspend: () -> Unit = {},
+    /** Opens the card in the browser, where its sentence, schedule and state are changed. */
     val onEdit: (termId: Long) -> Unit = {},
     val onVocabulary: () -> Unit = {},
     /** Every card in a list, to search and manage. */
@@ -448,7 +449,7 @@ private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardAc
     FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally), itemVerticalAlignment = Alignment.CenterVertically) {
         FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous card"), enabled = canUndo, onClick = actions.onUndo)
         PillDivider()
-        FooterLink(Icons.Default.Edit, tr("Edit term"), onClick = { actions.onEdit(card.termId) })
+        FooterLink(Icons.Default.Edit, tr("Edit flashcard"), onClick = { actions.onEdit(card.termId) })
         PillDivider()
         FooterLink(AppIcons.Pause, tr("Suspend card"), onClick = actions.onSuspend)
     }

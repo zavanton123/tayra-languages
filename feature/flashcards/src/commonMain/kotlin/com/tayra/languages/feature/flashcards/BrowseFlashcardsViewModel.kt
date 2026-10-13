@@ -78,6 +78,8 @@ data class BrowseUiState(
     val selected: Set<Long> = emptySet(),
     val detail: BrowseDetail? = null,
     val now: Instant = Instant.DISTANT_PAST,
+    /** A card to bring into view in the list, once; the one the browser was opened for. */
+    val focus: Long? = null,
 ) {
     val filtered: Boolean get() = search.isNotBlank() || view != BrowseView.ALL
 }
@@ -108,8 +110,20 @@ class BrowseFlashcardsViewModel(
         }
     }
 
-    fun load() {
-        viewModelScope.launch { refresh() }
+    /** Loads the cards; [open] names one to open and bring into view, as when the browser is opened for it. */
+    fun load(open: Long? = null) {
+        viewModelScope.launch {
+            refresh()
+            if (open != null && all.any { it.termId == open }) {
+                open(open)
+                _state.update { it.copy(focus = open) }
+            }
+        }
+    }
+
+    /** The card asked to be brought into view is in view. */
+    fun focusShown() {
+        _state.update { it.copy(focus = null) }
     }
 
     private suspend fun refresh() {
