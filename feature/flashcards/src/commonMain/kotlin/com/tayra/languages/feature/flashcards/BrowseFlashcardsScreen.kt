@@ -237,24 +237,25 @@ private fun Toolbar(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel) 
 }
 
 @Composable
-internal fun CardSearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) {
+internal fun CardSearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier, large: Boolean = false) {
     val colors = MaterialTheme.colorScheme
+    val text = if (large) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.bodyMedium
     Row(
-        modifier.height(44.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 12.dp),
+        modifier.height(if (large) 52.dp else 44.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-        Spacer(Modifier.width(8.dp))
+        Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(if (large) 24.dp else 20.dp))
+        Spacer(Modifier.width(if (large) 12.dp else 8.dp))
         BasicTextField(
             value = value,
             onValueChange = onChange,
             singleLine = true,
-            textStyle = MaterialTheme.typography.bodyMedium.copy(color = colors.onSurface),
+            textStyle = text.copy(color = colors.onSurface),
             cursorBrush = SolidColor(colors.primary),
             modifier = Modifier.weight(1f).testTag("browse-search"),
             decorationBox = { inner ->
                 Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text(tr("Search words, translations or sentences"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
+                    if (value.isEmpty()) Text(tr("Search words, translations or sentences"), color = colors.onSurfaceVariant, style = text, maxLines = 1, overflow = TextOverflow.Ellipsis)
                     inner()
                 }
             },
@@ -285,14 +286,14 @@ internal val BrowseView.label: String
 /** The groups of cards to show, each with how many it holds. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-internal fun ViewChips(state: BrowseUiState, onSelect: (BrowseView) -> Unit, modifier: Modifier = Modifier) {
+internal fun ViewChips(state: BrowseUiState, onSelect: (BrowseView) -> Unit, modifier: Modifier = Modifier, large: Boolean = false) {
     FlowRow(modifier, horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        BrowseView.entries.forEach { view -> ViewChip(view, state.counts[view], selected = view == state.view) { onSelect(view) } }
+        BrowseView.entries.forEach { view -> ViewChip(view, state.counts[view], selected = view == state.view, large) { onSelect(view) } }
     }
 }
 
 @Composable
-private fun ViewChip(view: BrowseView, count: Int, selected: Boolean, onClick: () -> Unit) {
+private fun ViewChip(view: BrowseView, count: Int, selected: Boolean, large: Boolean, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val tint = when (view) {
         BrowseView.NEW -> NEW_TINT
@@ -304,15 +305,15 @@ private fun ViewChip(view: BrowseView, count: Int, selected: Boolean, onClick: (
         BrowseView.ALL -> colors.primary
     }
     Row(
-        Modifier.height(36.dp).clip(RoundedCornerShape(50))
+        Modifier.height(if (large) 46.dp else 36.dp).clip(RoundedCornerShape(50))
             .background(if (selected) tint.copy(alpha = 0.14f) else Color.Transparent)
             .border(1.dp, if (selected) tint else colors.outlineVariant, RoundedCornerShape(50))
-            .clickable(onClick = onClick).padding(horizontal = 14.dp).testTag("browse-view-${view.name}"),
+            .clickable(onClick = onClick).padding(horizontal = if (large) 18.dp else 14.dp).testTag("browse-view-${view.name}"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        Text(view.label, style = MaterialTheme.typography.bodyMedium, fontWeight = if (selected) FontWeight.SemiBold else FontWeight.Medium, color = if (selected) tint else colors.onSurface)
-        Text("$count", style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.SemiBold, color = if (selected) tint else colors.onSurfaceVariant)
+        Text(view.label, style = if (large) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.bodyMedium, fontWeight = if (selected) FontWeight.SemiBold else FontWeight.Medium, color = if (selected) tint else colors.onSurface)
+        Text("$count", style = if (large) MaterialTheme.typography.labelLarge else MaterialTheme.typography.labelMedium, fontWeight = FontWeight.SemiBold, color = if (selected) tint else colors.onSurfaceVariant)
     }
 }
 
@@ -468,15 +469,16 @@ internal fun RowMenu(row: BrowseRow, actions: BrowseActions) {
 
 /** The card's state on its colour; a suspended card is grey whatever its state. */
 @Composable
-internal fun StatePill(row: BrowseRow) {
+internal fun StatePill(row: BrowseRow, large: Boolean = false) {
     val (label, tint) = when {
         row.suspended -> tr("Suspended") to SUSPENDED_TINT
         else -> stateName(row.state) to stateTint(row.state)
     }
     Text(
         label,
-        Modifier.clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(8.dp)).padding(horizontal = 10.dp, vertical = 4.dp),
-        style = TextStyle(fontSize = 12.sp, letterSpacing = 0.6.sp, color = tint, fontWeight = FontWeight.Bold),
+        Modifier.clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(8.dp))
+            .padding(horizontal = if (large) 12.dp else 10.dp, vertical = 4.dp),
+        style = TextStyle(fontSize = if (large) 14.sp else 12.sp, letterSpacing = 0.6.sp, color = tint, fontWeight = FontWeight.Bold),
         maxLines = 1,
     )
 }

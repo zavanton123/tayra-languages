@@ -186,6 +186,13 @@ class BrowseFlashcardsScreenTest {
     fun aPhoneOpensTheCardInASheet() = runDesktopComposeUiTest(width = 420, height = 900) {
         show(width = 420)
         onNodeWithTag("phone-sort").assertExists()
+        save("BROWSE_PHONE_LIST_SCREENSHOT")
+        // Select puts checkboxes on the rows; a tap then picks the card instead of opening it.
+        onNodeWithTag("phone-select").performClick()
+        onNodeWithTag("browse-row-$comprar").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("selection-bar").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Done").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("selection-bar").fetchSemanticsNodes().isEmpty() }
         onNodeWithTag("browse-row-$casa").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("review-history").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("browse-detail").assertExists()

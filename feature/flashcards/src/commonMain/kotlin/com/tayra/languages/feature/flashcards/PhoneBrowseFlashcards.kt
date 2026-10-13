@@ -6,6 +6,13 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import com.tayra.languages.core.ui.components.LearningLanguageSelector
+import androidx.compose.material3.TextButton
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.layout.statusBars
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -73,35 +80,29 @@ internal fun PhoneBrowseFlashcardsScreen(
     var sorting by remember { mutableStateOf(false) }
     val showChecks = selecting || state.selected.isNotEmpty()
     Scaffold(
-        topBar = {
-            AppTopBar(
-                title = tr("Browse flashcards"),
-                onNavigate = onNavigate,
-                section = NavSection.FLASHCARDS,
-                onBack = onBack,
-                actions = { PhoneMenu(selecting = selecting, onSelecting = { selecting = it; if (!it) viewModel.clearSelection() }, onReview = actions.onReview) },
-            )
-        },
+        topBar = { PhoneBrowseHeader(onBack = onBack, onReview = actions.onReview, onLanguage = { onNavigate(Route.ChooseLanguage) }) },
+        containerColor = colors.surfaceContainerLow,
     ) { padding ->
         val list = rememberLazyListState()
         // Search, groups and the sort row, with the selection's actions when there is a selection, come before the cards.
         FocusRow(state, list, rowsBefore = if (state.selected.isNotEmpty()) 4 else 3, onShown = viewModel::focusShown)
-        ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(horizontal = 16.dp, vertical = 12.dp)) {
-            item { CardSearchBox(state.search, viewModel::setSearch, Modifier.fillMaxWidth().padding(bottom = 10.dp)) }
+        // The controls keep to the page's margins; the cards run edge to edge between dividers.
+        ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(top = 4.dp, bottom = 12.dp)) {
+            item { CardSearchBox(state.search, viewModel::setSearch, Modifier.padding(horizontal = 16.dp).fillMaxWidth().padding(bottom = 14.dp), large = true) }
             item {
                 // Unbounded on the right, the chips stay on one line and scroll sideways.
-                Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(bottom = 12.dp)) {
-                    ViewChips(state, viewModel::setView)
+                Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(bottom = 14.dp)) {
+                    ViewChips(state, viewModel::setView, large = true)
                 }
             }
             item {
-                Row(Modifier.fillMaxWidth().padding(bottom = 12.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                Row(Modifier.fillMaxWidth().padding(start = 16.dp, end = 8.dp, bottom = 12.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     OutlinedButton(
                         onClick = { sorting = true },
                         shape = RoundedCornerShape(10.dp),
                         contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
                         colors = ButtonDefaults.outlinedButtonColors(contentColor = colors.onSurface),
-                        modifier = Modifier.height(44.dp).testTag("phone-sort"),
+                        modifier = Modifier.height(48.dp).testTag("phone-sort"),
                     ) {
                         Icon(AppIcons.SwapVert, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(18.dp))
                         Spacer(Modifier.width(8.dp))
@@ -112,18 +113,22 @@ internal fun PhoneBrowseFlashcardsScreen(
                     Text(
                         if (state.selected.isEmpty()) trPlural(state.rows.size, "{0} card", "{0} cards") else tr("{0} of {1} selected", state.selected.size, state.rows.size),
                         Modifier.weight(1f),
-                        style = MaterialTheme.typography.bodyMedium,
+                        style = MaterialTheme.typography.bodyLarge,
                         color = colors.onSurfaceVariant,
                     )
+                    TextButton(onClick = { selecting = !showChecks; if (!selecting) viewModel.clearSelection() }, modifier = Modifier.testTag("phone-select")) {
+                        Text(if (showChecks) tr("Done") else tr("Select"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                    }
                 }
             }
-            if (state.selected.isNotEmpty()) item { SelectionBar(state, viewModel, actions, compact = true) }
+            if (state.selected.isNotEmpty()) item { Box(Modifier.padding(horizontal = 16.dp)) { SelectionBar(state, viewModel, actions, compact = true) } }
             when {
                 state.loading -> item { Text(tr("Loading..."), Modifier.padding(16.dp), color = colors.onSurfaceVariant) }
-                state.rows.isEmpty() -> item { EmptyCards(state) }
-                else -> itemsIndexed(state.rows, key = { _, row -> row.termId }) { _, row ->
+                state.rows.isEmpty() -> item { Box(Modifier.padding(horizontal = 16.dp)) { EmptyCards(state) } }
+                else -> itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row ->
+                    HorizontalDivider(color = colors.outlineVariant)
                     PhoneCardRow(row, state, showCheck = showChecks, actions)
-                    Spacer(Modifier.height(8.dp))
+                    if (index == state.rows.lastIndex) HorizontalDivider(color = colors.outlineVariant)
                 }
             }
         }
@@ -153,47 +158,56 @@ internal val BrowseSortField.label: String
         BrowseSortField.ADDED -> tr("Added")
     }
 
+/** The page's header: back, the title, the page's menu and the language being learned. */
 @Composable
-private fun PhoneMenu(selecting: Boolean, onSelecting: (Boolean) -> Unit, onReview: () -> Unit) {
+private fun PhoneBrowseHeader(onBack: () -> Unit, onReview: () -> Unit, onLanguage: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
-    Box {
-        IconButton(onClick = { open = true }, modifier = Modifier.testTag("phone-browse-menu")) { Icon(Icons.Default.MoreVert, contentDescription = tr("List actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
-        AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text(if (selecting) tr("Done selecting") else tr("Select cards")) }, onClick = { open = false; onSelecting(!selecting) })
-            AppMenuItem(text = { Text(tr("Review cards")) }, onClick = { open = false; onReview() })
+    Row(
+        Modifier.fillMaxWidth().background(colors.surfaceContainerLow).windowInsetsPadding(WindowInsets.statusBars).height(72.dp).padding(start = 4.dp, end = 14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back")) }
+        Text(tr("Browse flashcards"), Modifier.weight(1f).padding(start = 4.dp), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Box {
+            IconButton(onClick = { open = true }, modifier = Modifier.testTag("phone-browse-menu")) { Icon(Icons.Default.MoreVert, contentDescription = tr("List actions"), tint = colors.onSurfaceVariant) }
+            AppMenu(expanded = open, onDismissRequest = { open = false }) {
+                AppMenuItem(text = { Text(tr("Review cards")) }, onClick = { open = false; onReview() })
+            }
         }
+        Spacer(Modifier.width(4.dp))
+        LearningLanguageSelector(compact = true, onOpen = onLanguage)
     }
 }
 
-/** A card as a tile: the word and its translation, its state and when it comes. */
+/** A card as a row of the list: the word and its translation, its state and when it comes. */
 @Composable
 private fun PhoneCardRow(row: BrowseRow, state: BrowseUiState, showCheck: Boolean, actions: BrowseActions) {
     val colors = MaterialTheme.colorScheme
     val selected = row.termId in state.selected
     val dim = if (row.suspended) colors.outline else colors.onSurfaceVariant
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
+        Modifier.fillMaxWidth()
             .background(if (selected) colors.primary.copy(alpha = 0.08f) else colors.surface)
-            .border(1.dp, if (selected) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant, RoundedCornerShape(12.dp))
             .clickable { if (showCheck) actions.onToggle(row.termId) else actions.onOpen(row.termId) }
-            .padding(start = if (showCheck) 4.dp else 14.dp, end = 4.dp, top = 10.dp, bottom = 10.dp)
+            .padding(start = if (showCheck) 6.dp else 18.dp, end = 6.dp, top = 14.dp, bottom = 14.dp)
             .testTag("browse-row-${row.termId}"),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         if (showCheck) Checkbox(checked = selected, onCheckedChange = { actions.onToggle(row.termId) })
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text(
                 row.word,
-                style = TextStyle(fontSize = 17.sp, fontWeight = FontWeight.Medium, color = if (row.suspended) colors.outline else colors.primary, textDirection = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
+                style = TextStyle(fontSize = 19.sp, fontWeight = FontWeight.SemiBold, color = if (row.suspended) colors.outline else colors.primary, textDirection = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
             )
-            if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                StatePill(row)
+            if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodyLarge, color = dim, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                StatePill(row, large = true)
                 Text(
                     dueLabel(row, state.now),
-                    style = MaterialTheme.typography.bodySmall,
+                    style = MaterialTheme.typography.bodyMedium,
                     color = if (row.isDue && !row.suspended) LEARNING_TINT else dim,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis,
