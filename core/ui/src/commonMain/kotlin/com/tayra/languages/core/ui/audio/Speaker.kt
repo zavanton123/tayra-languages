@@ -12,6 +12,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import kotlin.coroutines.cancellation.CancellationException
 
 /**
  * Reads text aloud with the engine chosen in settings. A local engine synthesizes audio that the
@@ -85,13 +86,17 @@ class Speaker(
         }
         job = scope.launch {
             _working.value = true
-            val wav = runCatching {
+            val wav = try {
                 prepared?.audioFor(text, languageCode) ?: engine.synthesize(text, languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], prefs.speechSpeed)
+            } catch (e: CancellationException) {
+                // Stopped or replaced: the newer request owns the state now.
+                throw e
+            } catch (e: Exception) {
+                Logger.w { "${engine.displayName} could not speak: ${e.message}" }
+                null
             }
-                .onFailure { Logger.w { "${engine.displayName} could not speak: ${it.message}" } }
-                .getOrNull()
-            _working.value = false
             if (request != current) return@launch
+            _working.value = false
             if (wav != null) {
                 output = Output.PLAYER
                 player.play(wav, done)

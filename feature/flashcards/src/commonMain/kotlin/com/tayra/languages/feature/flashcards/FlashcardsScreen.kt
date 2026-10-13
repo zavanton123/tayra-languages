@@ -44,7 +44,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
@@ -176,10 +179,12 @@ internal val Rating.tint: Color
 internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults) {
     val compact = LocalWindowWidth.current.isCompact
     val focus = remember { FocusRequester() }
-    LaunchedEffect(state.card?.termId, state.revealed) { runCatching { focus.requestFocus() } }
+    // The page holds the keys: it takes them with each card and answer, and back when the window or the screen returns to the front.
+    LaunchedEffect(state.card?.termId, state.revealed, state.canUndo) { runCatching { focus.requestFocus() } }
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { runCatching { focus.requestFocus() } }
     Box(
         modifier.fillMaxSize().verticalScroll(rememberScrollState())
-            .focusRequester(focus).focusable()
+            .focusRequester(focus).focusable().testTag("flashcards-keys")
             .onPreviewKeyEvent { event ->
                 if (event.type != KeyEventType.KeyDown || state.card == null) return@onPreviewKeyEvent false
                 val pressed = HotkeyMatcher.fromEvent(event)
@@ -337,7 +342,7 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
                 Box(
                     Modifier.size(48.dp).clip(RoundedCornerShape(12.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(12.dp)),
                     contentAlignment = Alignment.Center,
-                ) { SpeakButton(card.spoken, card.languageCode, speaker, Modifier.size(44.dp)) }
+                ) { SpeakButton(card.spoken, card.languageCode, speaker, Modifier.size(44.dp).then(NoFocus)) }
             }
         }
         val highlight = SpanStyle(background = WORD_HIGHLIGHT.copy(alpha = 0.55f), fontWeight = FontWeight.SemiBold)
@@ -379,7 +384,7 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
                 verticalArrangement = Arrangement.spacedBy(6.dp),
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally)) {
-                    if (speaker != null) SpeakButton(card.word, card.languageCode, speaker, Modifier.size(40.dp))
+                    if (speaker != null) SpeakButton(card.word, card.languageCode, speaker, Modifier.size(40.dp).then(NoFocus))
                     Text(card.word, style = TextStyle(fontSize = if (compact) 24.sp else 30.sp, fontWeight = FontWeight.Medium, color = colors.onSurface, textDirection = direction))
                     if (card.partOfSpeech.isNotEmpty()) {
                         Text(
@@ -399,7 +404,7 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
             Button(
                 onClick = onReveal,
                 shape = RoundedCornerShape(12.dp),
-                modifier = Modifier.padding(top = 20.dp, bottom = 8.dp).widthIn(min = if (compact) 220.dp else 360.dp).height(if (compact) 52.dp else 64.dp),
+                modifier = Modifier.padding(top = 20.dp, bottom = 8.dp).widthIn(min = if (compact) 220.dp else 360.dp).height(if (compact) 52.dp else 64.dp).then(NoFocus),
             ) {
                 Text(tr("Show answer"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
             }
@@ -408,6 +413,13 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
 }
 
 private const val BLANK = "[...]"
+
+/**
+ * For the page's buttons: a click does not move the keyboard focus onto them, so it stays with
+ * the page, whose keys answer the card. A focused button that goes away (Show answer once
+ * pressed, Previous card once disabled) would otherwise leave nothing to take the keys.
+ */
+private val NoFocus = Modifier.focusProperties { canFocus = false }
 
 @Composable
 private fun StateLabel(state: CardState) {
@@ -434,7 +446,7 @@ private fun Answers(actions: FlashcardActions, compact: Boolean) {
             val label = tr(rating.label)
             Column(
                 Modifier.weight(1f).clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.45f), RoundedCornerShape(12.dp))
-                    .clickable(onClickLabel = label) { actions.onAnswer(rating) }.padding(vertical = if (compact) 16.dp else 20.dp, horizontal = 6.dp).testTag("answer-${rating.label}"),
+                    .then(NoFocus).clickable(onClickLabel = label) { actions.onAnswer(rating) }.padding(vertical = if (compact) 16.dp else 20.dp, horizontal = 6.dp).testTag("answer-${rating.label}"),
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
                 Text(label, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = tint)
@@ -457,7 +469,7 @@ private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardAc
 
 @Composable
 private fun FooterLink(icon: ImageVector, label: String, enabled: Boolean = true, onClick: () -> Unit) {
-    TextButton(onClick = onClick, enabled = enabled) {
+    TextButton(onClick = onClick, enabled = enabled, modifier = NoFocus) {
         Icon(icon, contentDescription = null, modifier = Modifier.size(20.dp))
         Spacer(Modifier.width(8.dp))
         Text(label, style = MaterialTheme.typography.bodyLarge)
@@ -490,8 +502,8 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
         }
         Text(detail, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            if (state.canUndo) TextButton(onClick = actions.onUndo) { Text(tr("Previous card")) }
-            TextButton(onClick = actions.onVocabulary) { Text(tr("Open vocabulary")) }
+            if (state.canUndo) TextButton(onClick = actions.onUndo, modifier = NoFocus) { Text(tr("Previous card")) }
+            TextButton(onClick = actions.onVocabulary, modifier = NoFocus) { Text(tr("Open vocabulary")) }
         }
     }
 }
