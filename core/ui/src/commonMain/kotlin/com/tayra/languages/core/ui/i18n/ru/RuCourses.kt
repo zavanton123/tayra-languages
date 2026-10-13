@@ -33,6 +33,9 @@ internal val ruCourses: Map<String, String> = mapOf(
     "A lesson needs a text to read" to "У урока должен быть текст для чтения",
 
     // CoursesScreens.kt
+    "Tags: {0}" to "Теги: {0}",
+    "Guided lessons, level by level." to "Уроки по уровням.",
+    "Guided {0} lessons, level by level." to "Уроки на {0} языке, по уровням.",
     "Choose a language to learn" to "Выберите язык для изучения",
     "Create your first course" to "Создайте первый курс",
     "Download the ready-made {0} courses, or build your own from books and texts you choose." to "Скачайте готовые курсы на {0} языке или соберите свой из выбранных книг и текстов.",

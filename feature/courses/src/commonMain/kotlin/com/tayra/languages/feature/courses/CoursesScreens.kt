@@ -99,13 +99,13 @@ import com.tayra.languages.core.ui.components.CoursesIllustration
 import com.tayra.languages.core.ui.components.ScrollColumn
 
 private val BLUE = Color(0xFF3B6FE0)
-private val GREEN = Color(0xFF2E9D57)
+internal val GREEN = Color(0xFF2E9D57)
 private val ORANGE = Color(0xFFD9822B)
 private val PURPLE = Color(0xFF7C4DDB)
 private val RED = Color(0xFFC94A4A)
 private val TEAL = Color(0xFF1F8A8A)
 
-private val CourseLevel.tint: Color
+internal val CourseLevel.tint: Color
     get() = when (this) {
         CourseLevel.A1 -> GREEN
         CourseLevel.A2 -> BLUE
@@ -115,16 +115,16 @@ private val CourseLevel.tint: Color
         CourseLevel.C2 -> TEAL
     }
 
-private val LessonStatus.label: String
+internal val LessonStatus.label: String
     get() = when (this) {
         LessonStatus.NOT_STARTED -> tr("Not started")
         LessonStatus.IN_PROGRESS -> tr("In progress")
         LessonStatus.COMPLETED -> tr("Completed")
     }
 
-private fun lessonCount(n: Int) = trPlural(n, "{0} lesson", "{0} lessons")
+internal fun lessonCount(n: Int) = trPlural(n, "{0} lesson", "{0} lessons")
 
-private fun wordCount(n: Int) = trPlural(n, "{1} word", "{1} words", formatCount(n))
+internal fun wordCount(n: Int) = trPlural(n, "{1} word", "{1} words", formatCount(n))
 
 internal val CourseLevel.display: String get() = "$code · ${tr(label)}"
 
@@ -150,7 +150,7 @@ private fun CourseTags(course: com.tayra.languages.core.domain.courses.Course) {
 
 /** The most common words a course built on the frequency list covers. */
 @Composable
-private fun RankTag(rankUpTo: Int) {
+internal fun RankTag(rankUpTo: Int) {
     Text(
         tr("Words {0}–{1}", rankUpTo - 99, rankUpTo),
         Modifier.clip(RoundedCornerShape(50)).background(BLUE.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
@@ -162,7 +162,7 @@ private fun RankTag(rankUpTo: Int) {
 
 /** One of a course's or a lesson's tags. */
 @Composable
-private fun LabelTag(label: String) {
+internal fun LabelTag(label: String) {
     Text(
         label,
         Modifier.clip(RoundedCornerShape(50)).background(PURPLE.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
@@ -175,7 +175,7 @@ private fun LabelTag(label: String) {
 
 /** Marks one of the app's sample courses. */
 @Composable
-private fun SampleTag() {
+internal fun SampleTag() {
     Text(
         tr("Sample course"),
         Modifier.clip(RoundedCornerShape(50)).background(PURPLE.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
@@ -193,6 +193,10 @@ fun CoursesScreen(onNavigate: (Route) -> Unit, viewModel: CoursesViewModel = koi
         when (event) {
             is CoursesEvent.Read -> onNavigate(Route.Read(event.bookId))
         }
+    }
+    if (LocalWindowWidth.current.isCompact) {
+        PhoneCoursesScreen(state, viewModel, onNavigate)
+        return
     }
     Scaffold(
         topBar = { AppTopBar(title = tr("Courses"), onNavigate = onNavigate, section = NavSection.COURSES) },
@@ -219,7 +223,7 @@ fun CoursesScreen(onNavigate: (Route) -> Unit, viewModel: CoursesViewModel = koi
     }
 }
 
-private val CoursesSort.label: String
+internal val CoursesSort.label: String
     get() = when (this) {
         CoursesSort.RECOMMENDED -> tr("Recommended")
         CoursesSort.RECENTLY_READ -> tr("Recently read")
@@ -227,7 +231,7 @@ private val CoursesSort.label: String
         CoursesSort.PROGRESS -> tr("Progress")
     }
 
-private val CoursesSort.description: String
+internal val CoursesSort.description: String
     get() = when (this) {
         CoursesSort.RECOMMENDED -> tr("Sorted by recommended")
         CoursesSort.RECENTLY_READ -> tr("Sorted by recently read")
@@ -351,7 +355,7 @@ internal fun CoursesContent(
 
 /** All courses, then those not started, in progress and completed, each with how many it holds. */
 @Composable
-private fun StatusTabs(counts: Map<LessonStatus?, Int>, selected: LessonStatus?, onSelect: (LessonStatus?) -> Unit) {
+internal fun StatusTabs(counts: Map<LessonStatus?, Int>, selected: LessonStatus?, onSelect: (LessonStatus?) -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         listOf(null, LessonStatus.IN_PROGRESS, LessonStatus.NOT_STARTED, LessonStatus.COMPLETED).forEach { status ->
@@ -466,7 +470,7 @@ private fun ContinueCard(progress: CourseProgress, compact: Boolean, onContinue:
 
 /** A level's heading over its courses, in the level's colour. */
 @Composable
-private fun LevelHeader(level: CourseLevel, count: Int) {
+internal fun LevelHeader(level: CourseLevel, count: Int) {
     Row(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(level.tint.copy(alpha = 0.1f)).padding(horizontal = 16.dp, vertical = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -479,14 +483,14 @@ private fun LevelHeader(level: CourseLevel, count: Int) {
 }
 
 /** Under a course's title: its topic, else its description; the level is shown beside it already. */
-private val com.tayra.languages.core.domain.courses.Course.cardSubtitle: String
+internal val com.tayra.languages.core.domain.courses.Course.cardSubtitle: String
     get() = topic.ifBlank { description }
 
-private fun percent(progress: CourseProgress) = "${(progress.fraction * 100).roundToInt()}%"
+internal fun percent(progress: CourseProgress) = "${(progress.fraction * 100).roundToInt()}%"
 
 /** How far the course has got: not started, completed, or lessons read with the share. */
 @Composable
-private fun StatusText(progress: CourseProgress, stacked: Boolean) {
+internal fun StatusText(progress: CourseProgress, stacked: Boolean) {
     val colors = MaterialTheme.colorScheme
     when (progress.status) {
         LessonStatus.NOT_STARTED -> Text(tr("Not started"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, softWrap = false)
@@ -509,7 +513,7 @@ private fun StatusText(progress: CourseProgress, stacked: Boolean) {
 }
 
 @Composable
-private fun ProgressBar(progress: CourseProgress, modifier: Modifier) {
+internal fun ProgressBar(progress: CourseProgress, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     Box(modifier.height(8.dp).clip(RoundedCornerShape(4.dp)).background(colors.onSurface.copy(alpha = 0.07f))) {
         if (progress.completed > 0) {
@@ -558,7 +562,7 @@ private fun CourseCard(progress: CourseProgress, modifier: Modifier, tagsBelow: 
     }
 }
 
-private fun courseFacts(course: com.tayra.languages.core.domain.courses.Course) = "${lessonCount(course.lessons.size)} · ${wordCount(course.wordCount)}"
+internal fun courseFacts(course: com.tayra.languages.core.domain.courses.Course) = "${lessonCount(course.lessons.size)} · ${wordCount(course.wordCount)}"
 
 /** A course as one row of the list. */
 @Composable
@@ -602,7 +606,7 @@ private fun CourseRow(progress: CourseProgress, compact: Boolean, onClick: () ->
 }
 
 @Composable
-private fun LevelTile(level: CourseLevel, size: Int) {
+internal fun LevelTile(level: CourseLevel, size: Int) {
     Box(Modifier.size(size.dp).clip(RoundedCornerShape(12.dp)).background(level.tint.copy(alpha = 0.13f)), contentAlignment = Alignment.Center) {
         Text(level.code, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = level.tint)
     }
@@ -632,7 +636,7 @@ private fun ProgressLine(progress: CourseProgress) {
 
 /** The courses page of a language without courses: how to make the first one, or download the ready-made ones. */
 @Composable
-private fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDownloadCourses: () -> Unit) {
+internal fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDownloadCourses: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val language = state.languageName
@@ -695,7 +699,7 @@ private fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDownl
 }
 
 @Composable
-private fun Notice(title: String, text: String, action: @Composable () -> Unit = {}) {
+internal fun Notice(title: String, text: String, action: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     Column(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp)).padding(36.dp),
@@ -709,10 +713,10 @@ private fun Notice(title: String, text: String, action: @Composable () -> Unit =
     }
 }
 
-private val CONTROL_HEIGHT = 48.dp
+internal val CONTROL_HEIGHT = 48.dp
 
 @Composable
-private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) =
+internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) =
     SearchField(value, onChange, tr("Search courses, lessons and tags"), modifier, Modifier.testTag("course-search"))
 
 @Composable

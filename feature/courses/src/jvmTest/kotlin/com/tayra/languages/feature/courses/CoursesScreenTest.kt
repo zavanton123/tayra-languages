@@ -213,6 +213,59 @@ class CoursesScreenTest {
         collecting.cancel()
     }
 
+    /** On a phone the page has its own header, the filters open sheets, and the course being read is offered first. */
+    @Test
+    fun aPhoneShowsTheCoursesAsCardsWithSheetsForTheFilters() = runDesktopComposeUiTest(width = 420, height = 900) {
+        runBlocking {
+            val bookId = service.openLesson("pt-mini-0200", "pt-mini-0200-01")!!
+            reading.openPage(bookId, 1, trackOpen = true)
+            reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
+        }
+        val viewModel = CoursesViewModel(service, languages, settings, packs)
+        val read = java.util.Collections.synchronizedList(mutableListOf<Long>())
+        val collecting = CoroutineScope(Dispatchers.Default).launch { viewModel.events.flow.collect { if (it is CoursesEvent.Read) read += it.bookId } }
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {}) {
+                        Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                            val state by viewModel.state.collectAsState()
+                            Column {
+                                PhoneCoursesHeader(state, onLanguage = {}, onNewCourse = {})
+                                if (!state.loading) {
+                                    PhoneCoursesContent(
+                                        state,
+                                        PhoneCoursesActions(onSearch = viewModel::setSearch, onLevel = viewModel::setLevel, onStatus = viewModel::setStatus, onSort = viewModel::setSort, onTags = viewModel::setTags, onContinue = viewModel::continueCourse),
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue learning").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("new-course").assertExists()
+        onNodeWithText("1 of 10 lessons").assertExists()
+        assertEquals(0, onAllNodesWithTag("view-GRID").fetchSemanticsNodes().size, "no grid or list on a phone")
+        save("COURSES_PHONE_SCREENSHOT")
+
+        // The level opens a sheet; choosing A2 leaves the A2 courses.
+        onNodeWithTag("level-filter").performClick()
+        onNodeWithText("A2 · Elementary").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.level == com.tayra.languages.core.domain.courses.CourseLevel.A2 }
+        onNodeWithText("Level: A2").assertExists()
+        assertTrue(viewModel.state.value.shown.all { it.course.level == com.tayra.languages.core.domain.courses.CourseLevel.A2 })
+        // The sort opens a sheet too.
+        onNodeWithTag("course-sort").performClick()
+        onNodeWithText("Title").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.sort == CoursesSort.TITLE }
+
+        onNodeWithTag("continue-course").performClick()
+        waitUntil(timeoutMillis = 5_000) { read.size == 1 }
+        collecting.cancel()
+    }
+
     @Test
     fun coursesCanBeFilteredByAnyOrAllOfSeveralTags() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val trip = runBlocking { service.createCourse(languageId, CourseDraft("Uma viagem", tags = listOf("travel", "food"))) }
