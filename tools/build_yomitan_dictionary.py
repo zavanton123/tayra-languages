@@ -22,7 +22,7 @@ the files are published.
 
 Usage: python3 tools/build_yomitan_dictionary.py --source ka --target en [--wty-source CODE] [--out FILE]
        python3 tools/build_yomitan_dictionary.py --pairs ka-en,ka-ru,...
-       python3 tools/build_yomitan_dictionary.py --write-catalog
+       python3 tools/build_yomitan_dictionary.py --write-catalog [--include '.*-pl']
 """
 import argparse
 import json
@@ -344,12 +344,17 @@ def record(name, size):
         json.dump(dict(sorted(built.items())), f, indent=1)
 
 
-def write_catalog():
-    """Replaces the dictionaries-v2 block of the app's catalog with the packs built so far."""
+def write_catalog(include=None):
+    """
+    Writes the packs built so far into the dictionaries-v2 block of the app's catalog: those whose
+    name matches [include], when given, besides the ones the block already lists.
+    """
     built = json.load(open(BUILT)) if os.path.exists(BUILT) else {}
+    text = open(CATALOG).read()
+    listed = set(re.findall(r'"([a-z]+-[a-z]+)" to', text[text.index(f'"{RELEASE}"'):]))
+    built = {name: size for name, size in built.items() if name in listed or include is None or re.fullmatch(include, name)}
     items = [f'"{name}" to {size:_}L' for name, size in sorted(built.items())]
     lines = ["        " + ", ".join(items[i:i + 5]) + "," for i in range(0, len(items), 5)]
-    text = open(CATALOG).read()
     block = re.compile(r'(    "' + RELEASE + r'" to mapOf\(\n)(.*?)(\n    \),)', re.S)
     if not block.search(text):
         sys.exit(f"no {RELEASE} block in {CATALOG}")
@@ -368,9 +373,10 @@ def main():
     parser.add_argument("--out", help="output file (default dictionaries/<source>-<target>.sqlite.gzip)")
     parser.add_argument("--min-entries", type=int, default=1000)
     parser.add_argument("--write-catalog", action="store_true", help="write the built packs into the app's catalog")
+    parser.add_argument("--include", help="with --write-catalog, add only the built packs whose name matches this regex")
     args = parser.parse_args()
     if args.write_catalog:
-        write_catalog()
+        write_catalog(args.include)
         return
     pairs = [p.split("-", 1) for p in args.pairs.split(",")] if args.pairs else [(args.source, args.target)]
     if not all(s and t for s, t in pairs):

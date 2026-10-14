@@ -14,7 +14,7 @@ object LanguageCatalog {
     /** Languages translations and example sentences can be shown in. */
     val nativeLanguages: List<LanguageOption> = listOf(
         LanguageOption("en", "English"), LanguageOption("fr", "French"), LanguageOption("de", "German"),
-        LanguageOption("pt", "Portuguese"), LanguageOption("ru", "Russian"), LanguageOption("es", "Spanish"),
+        LanguageOption("pl", "Polish"), LanguageOption("pt", "Portuguese"), LanguageOption("ru", "Russian"), LanguageOption("es", "Spanish"),
     )
 
     /** Languages the interface is translated into, each named in itself. */
