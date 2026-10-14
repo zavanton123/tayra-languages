@@ -1930,6 +1930,46 @@ Sa computer, pinabibilis ng mga keyboard shortcut ang pagbabasa. Ang mga numero 
 
 Sa Mga Setting, maaari mo ring piliin ang iyong katutubong wika, ang wika ng interface, mga offline na diksiyonaryo at mga boses. Ngayon, buksan ang Mga Kurso, piliin ang unang kurso at simulan ang pagbabasa. Sana'y magtagumpay ka!""",
             ),
+            "tok" to Tutorial(
+                title = "nasin pi kama sona kepeken ilo Tajala",
+                text = """kama pona tawa ilo Tajala! lipu lili ni li toki e ni: sina lukin e lipu la sina ken kama sona e toki kepeken ilo ni. lipu ni li lon toki ni: sina kama sona e ona. tan ni la ona li lipu pali sina nanpa wan kin. sina sona ala e nimi ale lon tenpo ni la o pilin ike ala.
+
+lukin lipu li pona tan seme
+
+mi mute li kama sona pona e toki tan lipu mute pi musi mute. mi sona e mute pi lipu ni, taso mi sona ala e ale ona. sina sona e nimi mute lon lipu la sina ken pilin sona e nimi ante, en nimi sin ale li kama pona tawa awen lon lawa sina. ilo Tajala li pona e alasa sina pi lipu sama ni. ona li awen sona e nimi ale ni: sina lukin e ona.
+
+kule li toki e sona sina
+
+sina awen ala e nimi la ona li laso: ona li sin tawa sina. o luka e nimi la sina ken lukin e ona lon toki mama sina, li ken alasa e ona lon lipu nimi, li ken kute e kalama ona. ni la o toki e mute pi sona sina. nasin nanpa 1 tawa nasin nanpa 4 li toki e ni: sina awen kama sona e nimi. sina kama sona mute la kule ona li kama walo. nasin sona li toki e ni: sina sona pona e nimi. ni la nimi li jo ala e kule. nasin weka li tawa nimi jan en nanpa en nimi ante ni: sina wile ala kama sona e ona. sina ken awen e kulupu nimi kin.
+
+o pini e lipu ale
+
+lon pini lipu la o pana e nasin sona tawa nimi ale ni: ona li awen. nimi laso ale lon lipu ni li kama jo e nasin sona. nasin ni la ilo Tajala li kama sona e ni: sina sona e nimi seme. tan ni la o toki lon: sina awen sona ala e nimi la o luka e ona lon tenpo nanpa wan, o pana e nasin pi kama sona tawa ona. ni la lipu kama li jo e nimi laso lili.
+
+o kute, o ante e toki
+
+o luka e nena kalama la ilo li toki e lipu kepeken kalama uta: ona li toki e toki lili ale, wan lon tenpo wan. nasin pi awen lili li open la ilo li awen lili lon pini pi toki lili ale. ni la sina ken toki sin e ona. toki lili li ike mute tawa sina la sina ken ante e ona, taso o alasa sona e ona kepeken lawa sina lon tenpo nanpa wan.
+
+nasin sona en lipu sina
+
+tomo pi nasin sona li jo e nasin sona pali: ona li toki musi lili pi ike lili. toki ni li tan nasin A1 pi ike lili nanpa wan, li tawa nasin C2 pi ike mute nanpa wan. nasin sona ale li pana e sona pi nimi 100 kama. jan li kepeken mute e nimi ni lon toki. sina ken kama jo e nasin sona pi toki sina lon tomo pi nasin ilo, lon poki pi nasin sona. lon tomo lipu la sina ken pana e lipu sina kin: o pana e lipu sona, o pana e lipu tan poki ilo, anu o pali e nasin sona sina tan lipu ni: sina wile e ona.
+
+mute pi nimi sina
+
+lon tomo nimi la lipu nanpa pi nimi li toki e nimi pi kepeken mute nanpa wan lon toki sina. sina sona lili e toki la o pana e mute pi nimi sina lon ni. ni la ilo Tajala li pana e nasin sona tawa nimi pi kepeken mute nanpa wan.
+
+lipu lili
+
+sina kama sona e nimi la nimi ni li kama jo e lipu lili. tenpo suno ale la o lukin sin e lipu lili lon tomo pi lipu lili, lon tenpo ona; tenpo lili taso li pona. lukin lipu li awen pali suli. lipu lili li pona e ni: nimi sin li awen lon lawa sina.
+
+o pali e ni lon tenpo suno ale
+
+o lukin e lipu lili lon tenpo suno ale. tenpo lili luka luka taso kin li pona. o lukin e lipu ni: ona li pona tawa sina. o lukin e ona lon tenpo mute. o kute, o lukin lon tenpo sama. o awen ala e nimi ale: o awen e nimi ni taso: sina wile kama sona e ona. o awen lukin. sina ken lukin e kama sona sina lon lipu nanpa, li ken lukin e ona lon nimi ni: ona li laso ala.
+
+lon ilo nanpa la nasin nena li pona e ni: sina lukin e lipu kepeken tenpo lili. nena 1 tawa nena 4 li pana e nasin, nena K li pana e nasin sona tawa nimi, nena I li weka e ona, nena T li ante e toki lili, nena linja li open anu awen lili e kalama. sina ken lukin e ona ale lon tomo pi nasin ilo, lon poki pi nasin nena.
+
+lon tomo pi nasin ilo la sina ken kin wile e toki mama sina, e toki pi selo ilo, e lipu nimi pi linja ala, e kalama uta. tenpo ni la o open e tomo pi nasin sona, o wile e nasin sona nanpa wan, o open lukin. pona tawa sina!""",
+            ),
             "tr" to Tutorial(
                 title = "Tayra Languages ile nasıl öğrenilir",
                 text = """Tayra Languages uygulamasına hoş geldiniz! Bu kısa kitap, okuyarak dil öğrenmek için uygulamayı nasıl kullanacağınızı gösteriyor. Kitap öğrendiğiniz dilde yazılmıştır, bu yüzden aynı zamanda ilk alıştırma metninizdir. Henüz her kelimeyi anlamıyorsanız endişelenmeyin.
