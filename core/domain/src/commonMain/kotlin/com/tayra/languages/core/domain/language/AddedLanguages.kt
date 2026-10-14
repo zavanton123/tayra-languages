@@ -28,6 +28,23 @@ object AddedLanguages {
         ),
     )
 
+    private fun assyrian() = LanguageDefinition(
+        language = Language(
+            name = "Assyrian",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Assyrian_Neo-Aramaic", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.sargonsays.com/?s=[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=syr&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?܀܁܂",
+            wordCharacters = "\\u0700-\\u070D\\u070F-\\u074F\\u0303\\u0304\\u0307\\u0308\\u0323\\u032E\\u0330\\u0331",
+            rightToLeft = true,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun cornish() = LanguageDefinition(
         language = Language(
             name = "Cornish",
@@ -247,6 +264,7 @@ object AddedLanguages {
     val all: List<LanguageDefinition> by lazy {
         listOf(
             ancientGreek(),
+            assyrian(),
             cornish(),
             egyptianArabic(),
             hawaiian(),

@@ -195,6 +195,6 @@ class WordFrequencyScreenTest {
 
     private companion object {
         /** Languages no freely licensed corpus is big enough to count: their screen says so. */
-        val WITHOUT_CORPUS = setOf("sga")
+        val WITHOUT_CORPUS = setOf("sga", "aii")
     }
 }

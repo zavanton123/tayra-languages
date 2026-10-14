@@ -1,7 +1,7 @@
 package com.tayra.languages.core.domain.language
 
 /** The writing systems text is in, as far as telling one language's translations from another's needs. */
-enum class Script { LATIN, CYRILLIC, GREEK, ARABIC, HEBREW, HAN, KANA, HANGUL, DEVANAGARI, THAI, GEORGIAN, ARMENIAN }
+enum class Script { LATIN, CYRILLIC, GREEK, ARABIC, HEBREW, SYRIAC, HAN, KANA, HANGUL, DEVANAGARI, KANNADA, THAI, LAO, KHMER, GEORGIAN, ARMENIAN }
 
 object Scripts {
     /** The scripts a language is written in; Latin when it is not one of the others. */
@@ -10,6 +10,7 @@ object Scripts {
         "el", "grc" -> setOf(Script.GREEK)
         "ar", "arz", "fa", "ur", "ps", "ug", "sd" -> setOf(Script.ARABIC)
         "he", "yi" -> setOf(Script.HEBREW)
+        "aii" -> setOf(Script.SYRIAC)
         "zh" -> setOf(Script.HAN)
         "ja" -> setOf(Script.KANA, Script.HAN)
         "ko" -> setOf(Script.HANGUL, Script.HAN)
@@ -31,6 +32,7 @@ object Scripts {
         in 0x530..0x58F -> Script.ARMENIAN
         in 0x590..0x5FF -> Script.HEBREW
         in 0x600..0x6FF, in 0x750..0x77F -> Script.ARABIC
+        in 0x700..0x74F -> Script.SYRIAC
         in 0x900..0x97F -> Script.DEVANAGARI
         in 0xE00..0xE7F -> Script.THAI
         in 0x10A0..0x10FF -> Script.GEORGIAN
