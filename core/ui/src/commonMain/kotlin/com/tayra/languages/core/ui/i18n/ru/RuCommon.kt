@@ -15,6 +15,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     // Language names, shown through tr(name).
     "Albanian" to "Албанский",
     "Ancient Greek" to "Древнегреческий",
+    "Arabic" to "Арабский",
     "Armenian" to "Армянский",
     "Basque" to "Баскский",
     "Belarusian" to "Белорусский",
