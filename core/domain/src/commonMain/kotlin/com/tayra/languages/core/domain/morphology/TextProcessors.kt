@@ -38,6 +38,8 @@ internal object TextProcessors {
         // Serbo-Croatian
         "removeSerboCroatianAccentMarks" to { s -> listOf(s, serboCroatianAccents.replace(Unicode.nfd(s), "$1")) },
         "addSerboCroatianDiacritics" to { s -> serboCroatianDiacriticVariants(s) },
+        // Italian
+        "removeApostrophedWords" to { s -> listOf(s, italianElisions.replace(s, "")) },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
@@ -83,4 +85,6 @@ internal object TextProcessors {
     }
 
     private const val MAX_VARIANTS = 4096
+
+    private val italianElisions = Regex("(l|dell|all|dall|nell|sull|coll|un|quest|quell|c|n)['\u2019]")
 }

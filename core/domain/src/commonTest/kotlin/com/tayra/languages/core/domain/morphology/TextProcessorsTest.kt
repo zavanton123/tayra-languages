@@ -48,4 +48,9 @@ class TextProcessorsTest {
         assertTrue("đak" in spellings("hr", "djak"))
         assertTrue(spellings("sr", "pa\u030fs").any { Unicode.nfc(it) == "pas" })
     }
+
+    @Test
+    fun italian() {
+        assertTrue("Italia" in spellings("it", "dell'Italia"))
+    }
 }
