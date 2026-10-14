@@ -90,6 +90,46 @@ object Tutorials {
 
 В Настройки можете също да изберете родния си език, езика на интерфейса, офлайн речници и гласове. Сега отворете Курсове, изберете първия курс и започнете да четете. Успех!""",
             ),
+            "br" to Tutorial(
+                title = "Penaos deskiñ gant Tayra Languages",
+                text = """Degemer mat war Tayra Languages! Al levrig-mañ a ziskouez deoc'h penaos ober gant an arload evit deskiñ ur yezh en ur lenn. Skrivet eo er yezh emaoc'h o teskiñ, setu eo ivez ho testenn gentañ evit en em bleustriñ. Na vezit ket nec'het ma ne gomprenit ket pep ger c'hoazh.
+
+Perak eo talvoudus al lenn
+
+Ar gwellañ e teskomp ur yezh diwar kalz a destennoù dedennus a c'hallomp kompren hogos. Pa anavezit an darn vrasañ eus ar gerioù war ur bajenn, e c'hallit divinout ar peurrest, ha soñj a zalc'hit aesoc'h eus pep ger nevez. Tayra a sikour ac'hanoc'h da gavout testennoù evel-se, hag a zalc'h soñj eus pep ger a welit.
+
+Al livioù a ziskouez ar pezh a ouzoc'h
+
+Ar gerioù n'hoc'h eus ket enrollet c'hoazh a zo glas: nevez int evidoc'h. Klikit war ur ger evit gwelet e droidigezh en ho yezh-vamm, evit e glask en ur geriadur pe evit klevet penaos e son. Goude-se, dibabit pegen mat e anavezit anezhañ. Ar statudoù eus 1 da 4 a dalvez ez oc'h o teskiñ ar ger c'hoazh, ha sklaeraat a ra e liv tamm-ha-tamm e-keit ma teskit anezhañ. Anavezet a dalvez e anavezit mat ar ger, ha neuze n'en deus liv ebet ken. Lezet a-gostez a zo evit an anvioù, an niveroù hag ar gerioù all n'hoc'h eus ket ezhomm da zeskiñ. Gallout a rit ivez enrollañ meur a c'her asambles evel ul lavarenn.
+
+Echuit pep pajenn
+
+E dibenn ur bajenn, merkit evel anavezet ar gerioù a chom. Pep ger glas a chom war ar bajenn a zeu da vezañ anavezet. Evel-se e teu Tayra da c'houzout peseurt gerioù a anavezit dija, neuze bezit onest: ma n'eo ket sklaer c'hoazh ur ger, klikit warnañ da gentañ ha roit dezhañ ur statud deskiñ. Neuze e vo nebeutoc'h a c'herioù glas war ar bajenn war-lerc'h.
+
+Selaouit ha troit
+
+Pouezit war ar bouton lenn evit klevet an destenn lennet a-vouezh uhel, frazenn goude frazenn. Pa vez enaouet an ehan emgefreek, e paouez al lenn goude pep frazenn, evit ma c'hallfec'h he adlavaret. Ma'z eo re ziaes ur frazenn, e c'hallit he zreiñ, met klaskit he c'hompren hoc'h-unan da gentañ.
+
+Ar c'hentelioù hag ho testennoù deoc'h
+
+War ar skramm Kentelioù ez eus kentelioù prest: istorioù berr hag eeun, eus al live aesañ, A1, betek an diaesañ, C2. Pep kentel a zesk deoc'h ar c'hant ger da-heul e-touez ar re implijetañ er yezh. Gallout a rit pellgargañ kentelioù ho yezh en Arventennoù, dindan Kentelioù. E Levrioù e c'hallit ouzhpennañ ho testennoù deoc'h ivez: pegañ ur pennad, enporzhiañ ur restr, pe sevel ur gentel deoc'h diwar testennoù dibabet ganeoc'h.
+
+Live ho keriaoueg
+
+E Geriaoueg, roll stankter ar gerioù a ziskouez ar gerioù implijetañ er yezh emaoc'h o teskiñ. Ma c'houzoc'h un tamm eus ar yezh dija, lakait live ho keriaoueg eno, ha Tayra a verko evidoc'h ar gerioù implijetañ evel anavezet.
+
+Kartennoù-deskiñ
+
+Pep ger emaoc'h o teskiñ en deus ur gartenn-deskiñ. Bemdez, e Kartennoù-deskiñ, adwelit ar c'hartennoù a zo da adwelet; a-walc'h eo un nebeud munutennoù. Al lenn eo al labour pennañ atav, hag ar c'hartennoù-deskiñ a sikour ac'hanoc'h da zerc'hel soñj eus ar gerioù nevez.
+
+Grit ur boaz anezhañ
+
+Lennit un tamm bemdez, ha pa ne vefe nemet dek munutenn. Dibabit testennoù a blij deoc'h, ha lennit anezho meur a wech. Selaouit ha lennit war un dro. N'enrollit ket pep ger: enrollit ar gerioù a fell deoc'h deskiñ, ha kendalc'hit da lenn. Gallout a rit gwelet hoc'h araokadennoù er stadegoù, hag er gerioù n'int ket glas ken.
+
+War un urzhiataer, berradennoù ar c'hlavier a laka al lenn da vont buanoc'h. An niveroù eus 1 da 4 a laka ur statud, K a verk ur ger evel anavezet, I a laka anezhañ a-gostez, T a dro ar frazenn hag ar varrenn-esaouenn a lañs pe a ehan ar son. Kavout a reot anezho holl en Arventennoù, dindan Berradennoù ar c'hlavier.
+
+En Arventennoù e c'hallit ivez dibab ho yezh-vamm, yezh an etrefas, geriadurioù ezlinenn ha mouezhioù. Bremañ, digorit Kentelioù, dibabit ar gentel gentañ ha krogit da lenn. Chañs vat!""",
+            ),
             "bs" to Tutorial(
                 title = "Kako učiti uz Tayra Languages",
                 text = """Dobro došli u Tayra Languages! Ova kratka knjiga pokazuje vam kako da koristite aplikaciju da biste učili jezik čitanjem. Napisana je na jeziku koji učite, pa je ujedno i vaš prvi tekst za vježbu. Ne brinite ako još ne razumijete svaku riječ.

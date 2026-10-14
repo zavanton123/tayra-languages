@@ -185,7 +185,9 @@ that only say a capitalised word is a name are dropped where an edition is full 
 Wiktionary has a bot-made entry for every surname), and a pack with fewer than 1,000 entries besides
 names is not written. Downloads are cached in `dictionaries/wty/`; built packs are
 recorded in `dictionaries/wty/built.json`, and `--write-catalog` writes them into
-`DictionaryPackSizes.kt` as the `dictionaries-v2` release, to which the files are uploaded.
+`DictionaryPackSizes.kt` as the `dictionaries-v2` release, to which the files are uploaded. wty has
+no Breton dictionary, so Breton's packs are built from kaikki.org with `tools/build_dictionary.py`
+(its English, French and Russian Wiktionary sections) and recorded in the same list.
 
 Android, iOS and desktop unpack a downloaded pack into app storage and open it read-only as a
 second SQLDelight database; the web build keeps the compressed file in the browser Cache API and

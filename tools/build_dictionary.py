@@ -73,6 +73,8 @@ SOURCES = {
     "is": ("Icelandic", "icelandic", "dictionaries/kaikki.org-dictionary-Icelandic.jsonl.gz"),
     "ca": ("Catalan", "catalan", "dictionaries/kaikki.org-dictionary-Catalan.jsonl.gz"),
     "gl": ("Galician", "galician", "dictionaries/kaikki.org-dictionary-Galician.jsonl.gz"),
+    # wiktionary-to-yomitan has no Breton dictionary, so Breton is built from kaikki.org here.
+    "br": ("Breton", "breton", "dictionaries/kaikki.org-dictionary-Breton.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".

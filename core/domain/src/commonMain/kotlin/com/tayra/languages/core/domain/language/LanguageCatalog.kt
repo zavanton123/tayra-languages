@@ -4,13 +4,13 @@ package com.tayra.languages.core.domain.language
 object LanguageCatalog {
     /** Names of the predefined languages a user can learn, in display order. */
     val targetLanguages: List<String> = listOf(
-        "Albanian", "Armenian", "Basque", "Belarusian", "Bosnian", "Bulgarian", "Catalan", "Cornish",
-        "Croatian", "Czech", "Danish", "Dutch", "English", "Esperanto", "Estonian", "Finnish", "French",
-        "Galician", "Georgian", "German", "Greek", "Hawaiian", "Hungarian", "Icelandic", "Indonesian",
-        "Irish", "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian", "Maltese", "Manx",
-        "Mongolian", "Norwegian", "Polish", "Portuguese", "Romanian", "Russian", "Scottish Gaelic",
-        "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Turkish", "Ukrainian",
-        "Vietnamese", "Welsh",
+        "Albanian", "Armenian", "Basque", "Belarusian", "Bosnian", "Breton", "Bulgarian", "Catalan",
+        "Cornish", "Croatian", "Czech", "Danish", "Dutch", "English", "Esperanto", "Estonian",
+        "Finnish", "French", "Galician", "Georgian", "German", "Greek", "Hawaiian", "Hungarian",
+        "Icelandic", "Indonesian", "Irish", "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian",
+        "Maltese", "Manx", "Mongolian", "Norwegian", "Polish", "Portuguese", "Romanian", "Russian",
+        "Scottish Gaelic", "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Turkish",
+        "Ukrainian", "Vietnamese", "Welsh",
     )
 
     /** Languages translations and example sentences can be shown in. */
