@@ -227,6 +227,23 @@ object AddedLanguages {
         ),
     )
 
+    private fun yiddish() = LanguageDefinition(
+        language = Language(
+            name = "Yiddish",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Yiddish", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/yi/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=yi&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            wordCharacters = "\\u0591-\\u05C7\\u05D0-\\u05F4\\uFB1D-\\uFB4F'",
+            rightToLeft = true,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     val all: List<LanguageDefinition> by lazy {
         listOf(
             ancientGreek(),
@@ -241,6 +258,7 @@ object AddedLanguages {
             scottishGaelic(),
             tagalog(),
             welsh(),
+            yiddish(),
         )
     }
 }

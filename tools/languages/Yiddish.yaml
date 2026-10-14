@@ -1,0 +1,17 @@
+name: Yiddish
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Yiddish"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/yi/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=yi&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?"
+word_chars: "\\u0591-\\u05C7\\u05D0-\\u05F4\\uFB1D-\\uFB4F'"
+right_to_left: true
+show_romanization: true
+parser_type: spacedel

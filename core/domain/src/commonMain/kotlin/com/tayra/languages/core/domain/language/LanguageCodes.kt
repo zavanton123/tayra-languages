@@ -30,6 +30,7 @@ object LanguageCodes {
         "old irish" to "sga",
         "ancient greek" to "grc",
         "egyptian arabic" to "arz",
+        "yiddish" to "yi",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -54,6 +55,7 @@ object LanguageCodes {
         "sga" to "sga",
         "grc" to "grc",
         "arz" to "arz",
+        "yi" to "yid",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */
