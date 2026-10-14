@@ -12,4 +12,9 @@ class TextProcessorsTest {
         assertTrue("Straße" in spellings("de", "Strasse"))
         assertTrue("Strasse" in spellings("de", "Straße"))
     }
+
+    @Test
+    fun french() {
+        assertTrue("l\u2019homme" in spellings("fr", "l'homme"))
+    }
 }

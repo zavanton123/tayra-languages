@@ -17,5 +17,7 @@ internal object TextProcessors {
         "removeAlphabeticDiacritics" to { s -> listOf(s, Unicode.nfd(s).replace(combiningMarks, "")) },
         // German
         "eszettPreprocessor" to { s -> listOf(s, s.replace("ẞ", "SS").replace("ß", "ss"), s.replace("SS", "ẞ").replace("ss", "ß")) },
+        // French
+        "apostropheVariants" to { s -> listOf(s, s.replace('\'', '\u2019'), s.replace('\u2019', '\'')) },
     )
 }
