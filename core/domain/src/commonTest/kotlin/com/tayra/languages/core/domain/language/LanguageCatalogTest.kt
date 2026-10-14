@@ -9,7 +9,7 @@ class LanguageCatalogTest {
     @Test
     fun targetLanguagesArePredefinedAndSupported() {
         LanguageCatalog.targetLanguages.forEach { name ->
-            val definition = PredefinedLanguages.all.firstOrNull { it.name == name }
+            val definition = LanguageDefinitions.all.firstOrNull { it.name == name }
             assertNotNull(definition, name)
             assertNotNull(Tutorials.forLanguage(name), "$name has its tutorial")
             assertNotNull(LanguageCodes.codeFor(name), "$name has a language code")

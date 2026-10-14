@@ -2,7 +2,7 @@ package com.tayra.languages.core.domain.service
 
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageDefinition
-import com.tayra.languages.core.domain.language.PredefinedLanguages
+import com.tayra.languages.core.domain.language.LanguageDefinitions
 import com.tayra.languages.core.domain.language.Tutorials
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.DictionaryUse
@@ -21,7 +21,7 @@ class LanguageService(
 
     /** Predefined languages supported on this platform, sorted by name. */
     fun predefined(): List<LanguageDefinition> =
-        PredefinedLanguages.all.filter { it.language.isSupported }.sortedBy { it.name }
+        LanguageDefinitions.all.filter { it.language.isSupported }.sortedBy { it.name }
 
     fun predefined(name: String): LanguageDefinition? = predefined().firstOrNull { it.name == name }
 

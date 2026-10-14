@@ -86,7 +86,11 @@ Locally:
 
 The catalog is fixed: `LanguageCatalog` lists the 33 learnable languages and the six native
 languages. The predefined language definitions (parsers and dictionaries) are generated into
-`PredefinedLanguages.kt` by `tools/generate_language_defs.py`. Every language's one sample book
+`PredefinedLanguages.kt` by `tools/generate_language_defs.py` from a language definitions checkout;
+the languages added since, or whose definitions changed, are written in the same format in
+`tools/languages/<Name>.yaml` and generated into `AddedLanguages.kt` by
+`tools/generate_language_defs.py --added`. `LanguageDefinitions.all` is both, an added definition
+replacing the generated one of the same name. Every language's one sample book
 is a tutorial on learning it with the app, written in that language: `tools/tutorial/<code>.txt`
 (English is the source), turned into `Tutorials.kt` by `tools/generate_tutorials.py`. Databases
 from before the tutorial lose the sample books they came with once (`RetiredSamples`, matched by

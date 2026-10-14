@@ -8,3 +8,11 @@ data class LanguageDefinition(
 ) {
     val name: String get() = language.name
 }
+
+/** Every language definition: the generated ones, with those in tools/languages added or put in their place. */
+object LanguageDefinitions {
+    val all: List<LanguageDefinition> by lazy {
+        val added = AddedLanguages.all.map { it.name }.toSet()
+        PredefinedLanguages.all.filter { it.name !in added } + AddedLanguages.all
+    }
+}
