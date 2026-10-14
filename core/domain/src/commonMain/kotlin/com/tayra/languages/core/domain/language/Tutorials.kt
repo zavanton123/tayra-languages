@@ -1690,6 +1690,46 @@ Tot în Setări poți alege limba maternă, limba interfeței, dicționarele off
 
 В Настройках также можно выбрать родной язык, язык интерфейса, офлайн-словари и голоса. А теперь откройте раздел Курсы, выберите первый курс и начните читать. Удачи!""",
             ),
+            "sga" to Tutorial(
+                title = "Amail do-gní foglaimm la Tayra Languages",
+                text = """Fo chen duit i Tayra Languages! Do-adbat in lebor becc so duit amail do-gní foglaimm bélrai tre légend lasin glés. Is isin bélru fo-glenn ro-scríbad, conid é dano do chétna scríbend fri foglaimm. Ná bad imned fort, mani tuicce cach bríathar beus.
+
+Cid ara mbí in légend torbach
+
+Is ó scríbennaib imdaib suarcaib tuicem acht becc as ferr fo-glennam bélrae. In tan ro-fetar a mór inna mbríathar fil for duillin, is assu duit in chuit aile do thomus, ocus is assu foraithmet cach bréithre nue. Do-gní Tayra cobair duit co fagbae scríbenna samlai, ocus is cuman leis cach bríathar ad-cí.
+
+Do-adbadat inna datha a ro-fetar
+
+Inna bríathra nád ro-thaiscis beus, it gorma: it nui duit. Ben forsin mbríathair do aicsin a tintúda it bélru dúthchais, dia cuingid i llebur inna mbríathar, nó do éitsecht fria fogur. Iarsain, tog cía feib ro-fetar. Is ed as chíall do chéimmennaib ó 1 co 4, fo-glenn in mbríathair beus, ocus is bániu a dath feib fo-glenn. Is ed as chíall do Gnáth, ro-fetar in mbríathair co maith, ocus ní bí dath fuirri etir íarum. Is do anmannaib ocus do numraib ocus do bríathraib ailib nád écen duit a foglaimm atá Léicthe. Is cumaing duit dano ilbríathra do thaisciud immalle amal óenráiti.
+
+Forcenn cach duillen
+
+I forciunn duillne, comarthaig inna bríathra fil i fuidiull amal gnátha. Bid gnáth íarum cach bríathar gorm fil i fuidiull forsin duillin. Is samlaid fo-gleinn Tayra cía bríathra ro-fetar cheana; bí fírén didiu: mani réil in bríathar duit beus, ben fuirri ar thús ocus tabair céim foglamma di. Iarsain bid lugu lín inna mbríathar ngorm forsin duillin tánaisi.
+
+Éitsi ocus tintaí
+
+Ben forsin comartha légind do éitsecht frisin scríbinn oc a légud for ard, ráite iar ráiti. In tan atá in t-anad fadéin i ngním, anaid in légend iar cach ráiti, conid cumaing duit a aithris. Mad ró-doilig ráite, is cumaing duit a tintúd, acht féch ar thús in tuicce fadéin.
+
+Séta ocus do scríbenna fadéin
+
+Fil séta erlama isin rainn dianid ainm Séta: scéla gerra réidi, ón grád as assu, A1, co ruici in grád as doilgiu, C2. For-cain cach sét in chét as nessa inna mbríathar as menciu isin bélru. Is cumaing duit séta do bélrai do thabairt chucut isin Chórus, i rainn Séta. I Libraib is cumaing duit dano do scríbenna fadéin do thormach: suidig aiste and, tabair taisced scríbind and, nó dén sét fadéin do scríbennaib as toga lat.
+
+Grád do bríathar
+
+I mBríathraib do-adbat clár menci inna mbríathar inna bríathra as menciu isin bélru fo-glenn. Ma ro-fetar ní don bélru cheana, suidig and grád do bríathar, ocus comarthaigfid Tayra duit inna bríathra as menciu amal gnátha.
+
+Cairti
+
+Fo-gaib cach bríathar fo-glenn a cairt fadéin. Cach laí, déca isna Cairtib inna cairti dia tánic a n-uain; is lór becc mírenn inna huaire. Is é in légend in prímgním beus, ocus do-gniat inna cairti cobair duit co marat inna bríathra nui it chuimne.
+
+Dén bés de
+
+Lég becán cach laí, cid deich mírenna inna huaire nammá. Tog scríbenna as maith lat, ocus dén a llégend ní as menciu oldás óenfecht. Éitsi ocus lég immalle. Ná taisc cach bríathar: taisc inna bríathra as áil duit do foglaimm, ocus ná hain don légud. Is cumaing duit do forbairt d'aicsin isna hairmib, ocus isna bríathraib nád gorma ó sin immach.
+
+For glés áirme do-gniat conara aithgerra inna n-eochrach in légend ní as luathiu. Suidigit inna numir ó 1 co 4 céim, comarthaigid K bríathar amal gnáth, nos-léici I, do-intai T in ráiti, ocus do-beir eochair in fháis in fogur for siubul nó fo anad. Fo-dos-gébae uili isin Chórus, fo Chonaraib aithgerraib inna n-eochrach.
+
+Isin Chórus is cumaing duit dano do bélrae dúthchais do thogu, ocus bélrae in gléis, ocus libuir inna mbríathar cen etarlín, ocus gotha. Oslaic indossa Séta, tog in cétna sét, ocus tinscain légend. Soirbius duit!""",
+            ),
             "sk" to Tutorial(
                 title = "Ako sa učiť s Tayra Languages",
                 text = """Vitajte v Tayra Languages! Táto krátka kniha vám ukáže, ako používať aplikáciu, aby ste sa jazyk učili čítaním. Je napísaná v jazyku, ktorý sa učíte, takže je to zároveň váš prvý text na precvičovanie. Nebojte sa, ak ešte nerozumiete každému slovu.

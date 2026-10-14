@@ -268,7 +268,8 @@ first, written as the dictionary writes it ("Haus"), with up to 40 lowercase for
 after a tab. Lists have up to 10,000 words, and fewer where the language's dictionary, lemmatizer
 or corpus is small (Belarusian about 3,800, Basque about 2,800). Toki Pona's list is its whole
 vocabulary, ranked by the usage survey of lipu Linku, from which `tools/build_toki_pona.py` also
-builds its dictionary packs, since no Wiktionary covers the language.
+builds its dictionary packs, since no Wiktionary covers the language. Old Irish has no list: no freely
+licensed corpus of it is big enough to count.
 
 `tools/build_frequency_list.py --language <code>|all` makes them; it needs `pip install wordfreq
 simplemma` and the `dictionaries/<code>-en.sqlite` packs. Counts come from wordfreq; Croatian,

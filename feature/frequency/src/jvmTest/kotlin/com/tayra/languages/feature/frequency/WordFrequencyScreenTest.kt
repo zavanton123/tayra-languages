@@ -98,6 +98,10 @@ class WordFrequencyScreenTest {
         for (name in LanguageCatalog.targetLanguages) {
             val code = LanguageCodes.codeFor(name)!!
             val list = lists.list(code)
+            if (code in WITHOUT_CORPUS) {
+                assertNull(list, "$name has no corpus to count")
+                continue
+            }
             // Toki Pona's whole vocabulary is under two hundred words.
             val minimum = if (code == "tok") 150 else 1_000
             assertTrue(list != null && list.words.size >= minimum, "$name has a list of at least $minimum words")
@@ -183,5 +187,10 @@ class WordFrequencyScreenTest {
     private fun ComposeUiTest.save(path: String) {
         waitForIdle()
         ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+    }
+
+    private companion object {
+        /** Languages no freely licensed corpus is big enough to count: their screen says so. */
+        val WITHOUT_CORPUS = setOf("sga")
     }
 }

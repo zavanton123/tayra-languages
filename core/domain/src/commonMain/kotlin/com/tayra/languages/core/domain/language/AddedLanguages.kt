@@ -119,6 +119,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun oldIrish() = LanguageDefinition(
+        language = Language(
+            name = "Old Irish",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Old_Irish", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://dil.ie/search?q=[WORD]&search_in=headword", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/sga/en/[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=sga&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ'-",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun scottishGaelic() = LanguageDefinition(
         language = Language(
             name = "Scottish Gaelic",
@@ -182,6 +200,7 @@ object AddedLanguages {
             maltese(),
             manx(),
             mongolian(),
+            oldIrish(),
             scottishGaelic(),
             tagalog(),
             welsh(),

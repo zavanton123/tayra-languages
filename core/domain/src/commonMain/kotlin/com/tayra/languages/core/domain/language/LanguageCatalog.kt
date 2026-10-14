@@ -8,9 +8,9 @@ object LanguageCatalog {
         "Cornish", "Croatian", "Czech", "Danish", "Dutch", "English", "Esperanto", "Estonian",
         "Finnish", "French", "Galician", "Georgian", "German", "Greek", "Hawaiian", "Hungarian",
         "Icelandic", "Indonesian", "Irish", "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian",
-        "Maltese", "Manx", "Mongolian", "Norwegian", "Polish", "Portuguese", "Romanian", "Russian",
-        "Scottish Gaelic", "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Toki Pona",
-        "Turkish", "Ukrainian", "Vietnamese", "Welsh",
+        "Maltese", "Manx", "Mongolian", "Norwegian", "Old Irish", "Polish", "Portuguese", "Romanian",
+        "Russian", "Scottish Gaelic", "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog",
+        "Toki Pona", "Turkish", "Ukrainian", "Vietnamese", "Welsh",
     )
 
     /** Languages translations and example sentences can be shown in. */
