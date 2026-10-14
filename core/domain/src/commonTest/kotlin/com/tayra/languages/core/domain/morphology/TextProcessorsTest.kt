@@ -28,4 +28,10 @@ class TextProcessorsTest {
         assertTrue("puellæ" in spellings("la", "puellae"))
         assertTrue("caelum" in spellings("la", "cælum"))
     }
+
+    @Test
+    fun ukrainian() {
+        assertTrue("мама" in spellings("uk", "ма\u0301ма"))
+        assertTrue("п'ять" in spellings("uk", "п\u2019ять"))
+    }
 }

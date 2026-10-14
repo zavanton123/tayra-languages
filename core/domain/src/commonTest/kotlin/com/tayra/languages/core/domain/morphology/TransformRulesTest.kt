@@ -10,4 +10,5 @@ class TransformRulesTest {
     @Test fun spanish() = checkTransformCases(esTransforms, esTransformCases)
     @Test fun greek() = checkTransformCases(elTransforms, elTransformCases)
     @Test fun latin() = checkTransformCases(laTransforms, laTransformCases)
+    @Test fun ukrainian() = checkTransformCases(ukTransforms, ukTransformCases)
 }

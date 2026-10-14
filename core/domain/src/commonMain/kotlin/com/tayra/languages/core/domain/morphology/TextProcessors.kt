@@ -29,6 +29,9 @@ internal object TextProcessors {
                 s.replace("ae", "æ").replace("AE", "Æ").replace("oe", "œ").replace("OE", "Œ"),
             )
         },
+        // Ukrainian
+        "removeUkrainianDiacritics" to { s -> listOf(s, s.replace("\u0301", "")) },
+        "ukrainianApostropheVariants" to { s -> listOf(s) + listOf("'", "\u2019", "\u02bc").map { s.replace(ukrainianApostrophes, it) } },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
@@ -37,4 +40,6 @@ internal object TextProcessors {
         val first = decomposed.indexOf('\u0301')
         return Unicode.nfc(decomposed.filterIndexed { i, c -> c != '\u0301' || i == first })
     }
+
+    private val ukrainianApostrophes = Regex("['\u2018\u2019\u02bc`\u00b4]")
 }
