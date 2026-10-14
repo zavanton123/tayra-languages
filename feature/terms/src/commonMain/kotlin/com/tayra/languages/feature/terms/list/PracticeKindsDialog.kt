@@ -55,7 +55,7 @@ private const val SECONDS_A_QUESTION = 20
 
 /** Asks which kinds of question to practise the [count] chosen words with; any of them can be ticked, all are to begin with. */
 @Composable
-internal fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDismiss: () -> Unit) {
+fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     var kinds by remember { mutableStateOf(PracticeBuilder.KINDS.toSet()) }

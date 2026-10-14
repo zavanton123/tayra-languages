@@ -33,7 +33,9 @@ fun NavGraphBuilder.readingGraph(navController: NavController) {
     }
     composable<Route.Practice> { entry ->
         val route = entry.toRoute<Route.Practice>()
-        PracticeScreen(PracticeSource.Page(route.bookId, route.page), PracticeBuilder.KINDS.toSet(), onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
+        val kinds = route.kinds.mapNotNull { name -> ExerciseKind.entries.firstOrNull { it.name == name } }.toSet().ifEmpty { PracticeBuilder.KINDS.toSet() }
+        val source = route.page?.let { PracticeSource.Page(route.bookId, it) } ?: PracticeSource.Book(route.bookId)
+        PracticeScreen(source, kinds, onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
     }
     composable<Route.PracticeWords> { entry ->
         val route = entry.toRoute<Route.PracticeWords>()

@@ -105,6 +105,37 @@ class PracticeScreenTest {
         return viewModel
     }
 
+    /** The whole text's practice asks about the words being learned on every page, each in its own sentence. */
+    @Test
+    fun theWholeTextIsPractisedPageByPage() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        runBlocking {
+            languageId = languages.save(Language(name = "Portuguese"))
+            bookId = BookService(books, languages).create(BookDraft(languageId = languageId, title = "Rotina", text = "Eu moro no Brasil.\n\nQuando precisamos comprar alguma coisa, passamos no supermercado.\n\nA minha casa fica perto da praia.", wordsPerPage = 4))
+            for ((word, meaning) in listOf("moro" to "I live", "comprar" to "to buy")) terms.save(Term(languageId = languageId, text = word, textLc = word, status = TermStatus.NEW_1, translation = meaning))
+        }
+        assertTrue(runBlocking { books.pageCount(bookId) } > 1, "the text runs over several pages")
+        val examples = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult.EMPTY
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+        }
+        val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
+        val viewModel = PracticeViewModel(PracticeSource.Book(bookId), setOf(ExerciseKind.GAP_CHOICE), books, languages, reading, examples, translator, settings, terms, Random(3))
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    val state by viewModel.state.collectAsState()
+                    Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                        if (!state.loading) PracticeContent(state, PracticeActions(onChoose = viewModel::choose, onNext = viewModel::next, onBack = {}, onSpeak = {}))
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("The 2 words you are learning in Rotina.").assertExists()
+        assertEquals(setOf("moro", "comprar"), viewModel.state.value.exercises.map { it.word }.toSet())
+        assertTrue(viewModel.state.value.exercises.first { it.word == "comprar" }.sentence.startsWith("Quando precisamos"), "in its own sentence of the text")
+    }
+
     /** Words chosen in the vocabulary are asked in the sentences they were saved with, with the kinds of question chosen: here only choices. */
     @Test
     fun chosenWordsArePractisedWithTheKindsChosen() = runDesktopComposeUiTest(width = 1586, height = 1000) {

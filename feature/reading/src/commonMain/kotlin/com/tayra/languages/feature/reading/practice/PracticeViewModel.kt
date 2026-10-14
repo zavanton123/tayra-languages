@@ -22,6 +22,7 @@ import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.ExampleSort
 import com.tayra.languages.core.domain.service.ReadingService
+import com.tayra.languages.core.domain.render.RenderedPage
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.Job
@@ -45,6 +46,9 @@ enum class PracticeResult { CORRECT, ALMOST, WRONG }
 sealed interface PracticeSource {
     /** The words being learned on a page of a book. */
     data class Page(val bookId: Long, val page: Int) : PracticeSource
+
+    /** The words being learned anywhere in a book or lesson, each in a sentence of it. */
+    data class Book(val bookId: Long) : PracticeSource
 
     /** Words chosen in the vocabulary, by their ids. */
     data class Words(val termIds: List<Long>) : PracticeSource
@@ -73,10 +77,12 @@ data class PracticeUiState(
     /** The words answered wrongly or skipped, in the order they came up. */
     val missed: List<String> = emptyList(),
     val finished: Boolean = false,
+    /** Practising the whole book or lesson rather than a page of it. */
+    val wholeBook: Boolean = false,
 ) {
     val current: Exercise? get() = if (finished) null else exercises.getOrNull(index)
     val answered: Boolean get() = result != null
-    val fromVocabulary: Boolean get() = pageNumber == null
+    val fromVocabulary: Boolean get() = pageNumber == null && !wholeBook
 }
 
 /**
@@ -99,8 +105,9 @@ class PracticeViewModel(
 ) : ViewModel() {
 
     private val pageNumber: Int? = (source as? PracticeSource.Page)?.page
+    private val wholeBook = source is PracticeSource.Book
 
-    private val _state = MutableStateFlow(PracticeUiState(pageNumber = pageNumber, kinds = kinds))
+    private val _state = MutableStateFlow(PracticeUiState(pageNumber = pageNumber, kinds = kinds, wholeBook = wholeBook))
     val state: StateFlow<PracticeUiState> = _state.asStateFlow()
 
     private var language: Language? = null
@@ -115,10 +122,11 @@ class PracticeViewModel(
 
     /** Builds a fresh set of questions and starts from the first. */
     fun start() {
-        _state.update { PracticeUiState(pageNumber = pageNumber, bookTitle = it.bookTitle, kinds = kinds) }
+        _state.update { PracticeUiState(pageNumber = pageNumber, bookTitle = it.bookTitle, kinds = kinds, wholeBook = wholeBook) }
         viewModelScope.launch {
             val prepared = when (source) {
                 is PracticeSource.Page -> pageWords(source)
+                is PracticeSource.Book -> bookWords(source)
                 is PracticeSource.Words -> chosenWords(source)
             }
             if (prepared == null) {
@@ -148,15 +156,26 @@ class PracticeViewModel(
         val page = books.getPage(source.bookId, source.page)
         if (book == null || lang == null || page == null) return null
         val rendered = reading.renderPage(page.text, lang)
-        val words = rendered.paragraphs.flatMap { it.sentences }.flatMap { sentence ->
+        return Prepared(lang, book.title, learningWords(rendered), rendered.words.map { it.renderText }.distinctBy { it.lowercase() })
+    }
+
+    /** Every page's words being learned, each in the first sentence it comes in; the book's other words are the wrong choices. */
+    private suspend fun bookWords(source: PracticeSource.Book): Prepared? {
+        val book = books.getBook(source.bookId)
+        val lang = book?.let { languages.getById(it.languageId) } ?: return null
+        val pages = (1..books.pageCount(source.bookId)).mapNotNull { books.getPage(source.bookId, it) }.map { reading.renderPage(it.text, lang) }
+        val words = pages.flatMap(::learningWords).distinctBy { it.text.lowercase() }
+        return Prepared(lang, book.title, words, pages.flatMap { it.words }.map { it.renderText }.distinctBy { it.lowercase() })
+    }
+
+    private fun learningWords(rendered: RenderedPage): List<PracticeWord> =
+        rendered.paragraphs.flatMap { it.sentences }.flatMap { sentence ->
             val text = sentence.displayText
             sentence.items.filter { it.isWord && it.status.isLearning }.mapNotNull { item ->
                 val word = item.renderText
                 Cloze.range(text, word)?.let { PracticeWord(word, item.term?.translation?.trim()?.takeIf(String::isNotEmpty), text, it) }
             }
         }.distinctBy { it.text.lowercase() }
-        return Prepared(lang, book.title, words, rendered.words.map { it.renderText }.distinctBy { it.lowercase() })
-    }
 
     /** The chosen words that were saved with a sentence, each in it; the language's other words being learned stand in for the page's. */
     private suspend fun chosenWords(source: PracticeSource.Words): Prepared? {

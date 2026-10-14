@@ -176,6 +176,7 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                 if (!compact) Text(tr("Practice"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                 Text(
                     when {
+                        state.wholeBook -> trPlural(state.wordCount, "The {0} word you are learning in {1}.", "The {0} words you are learning in {1}.", state.bookTitle)
                         state.pageNumber == null -> trPlural(state.wordCount, "{0} word from your vocabulary.", "{0} words from your vocabulary.")
                         state.bookTitle.isEmpty() -> tr("The words you are learning on page {0}.", state.pageNumber)
                         else -> tr("The words you are learning on page {0} of {1}.", state.pageNumber, state.bookTitle)
@@ -421,10 +422,13 @@ private fun Empty(state: PracticeUiState, actions: PracticeActions) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text(if (state.fromVocabulary) tr("Nothing to practise") else tr("Nothing to practise on this page"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
+        Text(if (state.fromVocabulary || state.wholeBook) tr("Nothing to practise") else tr("Nothing to practise on this page"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
         Text(
-            if (state.fromVocabulary) tr("Practice asks about a word in the sentence it was read in: none of the chosen words was saved with one.")
-            else tr("Practice uses the words you are learning: give some words on the page a status of 1 to 4 first."),
+            when {
+                state.fromVocabulary -> tr("Practice asks about a word in the sentence it was read in: none of the chosen words was saved with one.")
+                state.wholeBook -> tr("Practice uses the words you are learning: give some words in the text a status of 1 to 4 first.")
+                else -> tr("Practice uses the words you are learning: give some words on the page a status of 1 to 4 first.")
+            },
             style = MaterialTheme.typography.bodyLarge,
             color = colors.onSurfaceVariant,
             textAlign = TextAlign.Center,

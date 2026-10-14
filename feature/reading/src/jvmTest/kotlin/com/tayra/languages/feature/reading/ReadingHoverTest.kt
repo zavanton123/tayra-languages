@@ -507,7 +507,8 @@ class ReadingHoverTest {
     /** Once the page has a word being learned, the footer offers to practise it. */
     @Test
     fun theFooterOffersPracticeOnceAWordIsBeingLearned() {
-        val vm = runBlocking { reader(mainIsDefault = false) }
+        // Several pages: a one-page text offers only the whole text's practice.
+        val vm = runBlocking { reader(mainIsDefault = false, pages = 3) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
@@ -519,6 +520,34 @@ class ReadingHoverTest {
         rule.onNodeWithText("Practice this page").performScrollTo().performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Practice(1, 1)), visited)
+    }
+
+    /** On the last page the footer offers every word being learned in the text, after asking for the kinds of question. */
+    @Test
+    fun theLastPageOffersTheWholeTextsWordsWithTheKindsChosen() {
+        val vm = runBlocking { reader(mainIsDefault = false, pages = 3) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        vm.markToLearn(vm.index("lobo"))
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "lobo" && it.status.isLearning } }
+        // Not the last page yet.
+        assertTrue(rule.onAllNodesWithTag("practice-all").fetchSemanticsNodes().isEmpty())
+
+        vm.goToPage(vm.state.value.pageCount)
+        rule.waitUntil(5_000) { vm.state.value.isLastPage && vm.state.value.pageNumber > 1 && vm.state.value.items.any { it.isWord } }
+        vm.markToLearn(vm.index("floresta"))
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("practice-all").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Practice the book's words").performScrollTo().performClick()
+        // Both pages' words: lobo, and floresta from this one.
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("practice-kind-GAP_TYPED").performClick()
+        rule.onNodeWithTag("start-practice").performClick()
+        rule.waitUntil(5_000) { visited.isNotEmpty() }
+        val route = visited.single() as com.tayra.languages.core.ui.navigation.Route.Practice
+        assertEquals(null, route.page, "the whole text")
+        assertTrue("GAP_TYPED" !in route.kinds && route.kinds.isNotEmpty(), route.kinds.toString())
     }
 
     /** Hovering the page's vocabulary bar explains it; ignored words count as known. */

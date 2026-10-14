@@ -253,6 +253,16 @@ class ReadingViewModel(
         }
     }
 
+    /** How many different words being learned the whole book (or lesson) holds, for practising them all. */
+    suspend fun bookPracticeCount(): Int {
+        val language = _state.value.language ?: return 0
+        return (1..books.pageCount(bookId)).mapNotNull { books.getPage(bookId, it) }
+            .flatMap { page -> readingService.renderPage(page.text, language).paragraphs.flatMap { it.sentences }.flatMap { it.items } }
+            .filter { it.isWord && it.status.isLearning }
+            .map { it.renderText.lowercase() }
+            .toSet().size
+    }
+
     // ---- cursor / selection
 
     fun onWordClick(itemIndex: Int, shift: Boolean) {

@@ -158,6 +158,9 @@ import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import com.tayra.languages.feature.terms.list.BulkEditDialog
 import kotlinx.coroutines.launch
+import androidx.compose.ui.platform.testTag
+import com.tayra.languages.core.domain.practice.ExerciseKind
+import com.tayra.languages.feature.terms.list.PracticeKindsDialog
 import org.koin.compose.viewmodel.koinViewModel
 import kotlin.random.Random
 import org.koin.core.parameter.parametersOf
@@ -340,6 +343,7 @@ fun ReadingScreen(
                         state, viewModel, speaker, continuous,
                         onHome = leave,
                         onPractice = { onNavigate(Route.Practice(bookId, state.pageNumber)) },
+                        onPracticeAll = { kinds -> onNavigate(Route.Practice(bookId, page = null, kinds = kinds.map { it.name })) },
                         onSettings = { onNavigate(Route.OfflineTranslation) },
                         focusText = { runCatching { focusRequester.requestFocus() } },
                         panelBeside = wide && state.panel != ReadingPanel.None,
@@ -514,6 +518,8 @@ private fun ReadingBody(
     continuous: ContinuousReading,
     onHome: () -> Unit,
     onPractice: () -> Unit,
+    /** Practising every word being learned in the book, with the kinds of question chosen. */
+    onPracticeAll: (Set<ExerciseKind>) -> Unit,
     onSettings: () -> Unit,
     focusText: () -> Unit,
     /** Whether the term panel is open beside the text, which then leaves its scrollbar room on that side. */
@@ -657,7 +663,7 @@ private fun ReadingBody(
             if (state.selecting) {
                 Text(tr("Long-press the last word of the expression, or tap to cancel."), style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
-            if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome, onPractice, edgePadding)
+            if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome, onPractice, onPracticeAll, edgePadding)
         }
         Spacer(Modifier.height(120.dp))
     }
@@ -881,12 +887,17 @@ private fun PageVocabulary(state: ReadingUiState) {
 }
 
 @Composable
-private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onPractice: () -> Unit, edgePadding: Dp) {
+private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onPractice: () -> Unit, onPracticeAll: (Set<ExerciseKind>) -> Unit, edgePadding: Dp) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val uriHandler = LocalUriHandler.current
     val unknowns = remember(state.page) { BookStatsCalculator.calculate(state.items).distinctUnknowns }
     val last = state.isLastPage
+    // At the end of the text: how many words being learned it holds, page by page, to practise them all.
+    var bookWords by remember { mutableStateOf(0) }
+    LaunchedEffect(last, state.items) { bookWords = if (last) viewModel.bookPracticeCount() else 0 }
+    var choosingKinds by remember { mutableStateOf(false) }
+    if (choosingKinds) PracticeKindsDialog(count = bookWords, onStart = { kinds -> choosingKinds = false; onPracticeAll(kinds) }, onDismiss = { choosingKinds = false })
     Column(Modifier.fillMaxWidth().padding(top = 28.dp), verticalArrangement = Arrangement.spacedBy(28.dp)) {
         val source = state.book?.sourceUri
         if (!source.isNullOrBlank()) {
@@ -901,7 +912,13 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         }
         // Practice asks about the words being learned, so it is offered only when the page has some.
         val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
-        val practice: @Composable (Modifier) -> Unit = { modifier -> if (practisable) PracticeButton(modifier, onPractice) }
+        // A text of one page has the same words either way, so it offers only the whole.
+        val practice: @Composable (Modifier) -> Unit = { modifier -> if (practisable && state.pageCount > 1) PracticeButton(tr("Practice this page"), modifier, onPractice) }
+        val practiceAll: @Composable (Modifier) -> Unit = { modifier ->
+            if (last && bookWords > 0) {
+                PracticeButton(if (state.lesson == null) tr("Practice the book's words") else tr("Practice the lesson's words"), modifier.testTag("practice-all")) { choosingKinds = true }
+            }
+        }
         val next: @Composable (Modifier) -> Unit = { modifier ->
             if (last) PrimaryFooterButton(if (state.lesson == null) tr("Finish book") else tr("Finish lesson"), modifier, viewModel::finishBook) else PrimaryFooterButton(tr("Next page"), modifier) { viewModel.markPageRead(false, 1) }
         }
@@ -909,6 +926,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
             content = {
                 BackToLibrary(if (state.lesson == null) tr("Back to library") else tr("Back to course"), onHome)
                 practice(Modifier)
+                practiceAll(Modifier)
                 markRemaining(Modifier)
                 next(Modifier)
             },
@@ -969,7 +987,7 @@ private fun BackToLibrary(label: String, onClick: () -> Unit) {
 }
 
 @Composable
-private fun PracticeButton(modifier: Modifier, onClick: () -> Unit) {
+private fun PracticeButton(label: String, modifier: Modifier, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.height(52.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.primary.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
@@ -978,7 +996,7 @@ private fun PracticeButton(modifier: Modifier, onClick: () -> Unit) {
         horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
     ) {
         Icon(AppIcons.Abc, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
-        Text(tr("Practice this page"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = colors.primary, softWrap = false)
+        Text(label, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = colors.primary, softWrap = false)
     }
 }
 
