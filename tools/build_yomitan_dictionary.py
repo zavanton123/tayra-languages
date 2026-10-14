@@ -48,6 +48,9 @@ RELEASE = "dictionaries-v2"
 # The app's code where wty files the language under another: Serbo-Croatian covers Serbian,
 # Croatian and Bosnian, and Norwegian is the Bokmål dictionary.
 WTY_SOURCES = {"sr": "sh", "hr": "sh", "bs": "sh", "no": "nb"}
+# Languages whose pack joins more than one wty dictionary, the first one's entries first: Cantonese
+# words of their own are few, and Wiktionary files most words Cantonese writes under Chinese.
+WTY_MERGED = {"yue": ["yue", "zh"]}
 
 # wty's part-of-speech tags, as the app's packs name them (the names kaikki.org uses).
 POS = {
@@ -308,11 +311,21 @@ def english_forms(source, wty):
 
 def build(source, target, out_path, wty_source=None, min_entries=1000):
     wty = wty_source or WTY_SOURCES.get(source, source)
-    path = main_dictionary(wty, target)
-    if path is None:
+    entries, forms = {}, set()
+    for part in WTY_MERGED.get(source, [wty]):
+        path = main_dictionary(part, target)
+        if path is None:
+            continue
+        part_entries, part_forms = read_dictionary(path, source, target)
+        for key, entry in part_entries.items():
+            if key in entries:
+                entries[key]["senses"].extend(s for s in entry["senses"] if s not in entries[key]["senses"])
+            else:
+                entries[key] = entry
+        forms |= part_forms
+    if not entries:
         print(f"{source}-{target}: wty has no {wty}-{target} dictionary", file=sys.stderr)
         return None
-    entries, forms = read_dictionary(path, source, target)
     words = sum(1 for e in entries.values() if e["pos"] != "name")
     if words < min_entries:
         print(f"{source}-{target}: only {words:,} entries besides names, not written", file=sys.stderr)
