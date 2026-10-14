@@ -176,8 +176,10 @@ installed.
 converts a dictionary of wiktionary-to-yomitan (wty), the Wiktionary dictionaries Yomitan uses,
 into the same layout: glosses and their tags from the structured content, the part of speech from
 wty's tags, a transcription from wty's IPA dictionaries (the gloss language's edition, else the English one), and the forms table from the dictionary's
-"form of" entries, to which the forms of the language's English-gloss dictionary are added. A pack
-under 1,000 entries is not written. Downloads are cached in `dictionaries/wty/`; built packs are
+"form of" entries, to which the forms of the language's English-gloss dictionary are added. Entries
+that only say a capitalised word is a name are dropped where an edition is full of them (the Greek
+Wiktionary has a bot-made entry for every surname), and a pack with fewer than 1,000 entries besides
+names is not written. Downloads are cached in `dictionaries/wty/`; built packs are
 recorded in `dictionaries/wty/built.json`, and `--write-catalog` writes them into
 `DictionaryPackSizes.kt` as the `dictionaries-v2` release, to which the files are uploaded.
 

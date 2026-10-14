@@ -66,6 +66,11 @@ SKIPPED_BLOCKS = {"tags", "details-entry-examples", "extra-info", "example-sente
 # A sense whose tags are all one of these says nothing about the meaning.
 NOISE_TAGS = {"form-of", "alt-of", "no-gloss", "morpheme", "romanization"}
 
+# Glosses that only say a capitalised headword is a name. The Greek Wiktionary has a bot-made
+# entry for every surname it met in each language ("επώνυμο (ανδρικό ή γυναικείο)"), which would
+# outnumber the words; such entries are left out.
+NAME_GLOSSES = {"el": re.compile(r"επώνυμο|όνομα")}
+
 
 def download(name, url):
     """The cached file for a wty download, fetched with curl when missing; None when the release lacks it."""
@@ -216,7 +221,7 @@ def spellings_for(source):
     return lambda word: [clean(word)]
 
 
-def read_dictionary(path, source):
+def read_dictionary(path, source, target=None):
     """Returns (entries keyed by (word, pos), forms) from a wty main dictionary."""
     rows, tag_bank = banks(path, "term_bank")
     spellings = spellings_for(source)
@@ -252,6 +257,9 @@ def read_dictionary(path, source):
             elif isinstance(d, dict) and d.get("type") == "text" and d.get("text"):
                 senses.append({"glosses": [d["text"].strip()]})
         if not senses:
+            continue
+        names = NAME_GLOSSES.get(target)
+        if names and term[:1].isupper() and all(names.search(g) for sense in senses for g in sense["glosses"]):
             continue
         for word in words:
             key = (word, pos)
@@ -304,9 +312,10 @@ def build(source, target, out_path, wty_source=None, min_entries=1000):
     if path is None:
         print(f"{source}-{target}: wty has no {wty}-{target} dictionary", file=sys.stderr)
         return None
-    entries, forms = read_dictionary(path, source)
-    if len(entries) < min_entries:
-        print(f"{source}-{target}: only {len(entries):,} entries, not written", file=sys.stderr)
+    entries, forms = read_dictionary(path, source, target)
+    words = sum(1 for e in entries.values() if e["pos"] != "name")
+    if words < min_entries:
+        print(f"{source}-{target}: only {words:,} entries besides names, not written", file=sys.stderr)
         return None
     lemmas = {e["word"] for e in entries.values()}
     if target != "en":

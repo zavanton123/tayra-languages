@@ -82,7 +82,7 @@ back to the system voice. The web version uses the system voices.
 Download a dictionary pack for a language and its meanings appear in the term pane with no
 network: definitions, every sense with a one-tap add, and the link from an inflected form to
 its base word. Packs exist for 33 European languages with meanings in English, Chinese,
-French, German, Polish, Portuguese, Russian or Spanish, and are managed on the Dictionaries screen.
+French, German, Greek, Polish, Portuguese, Russian or Spanish, and are managed on the Dictionaries screen.
 
 ## Languages
 
@@ -90,7 +90,7 @@ Read in Belarusian, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, English,
 Finnish, French, Galician, German, Greek, Hungarian, Icelandic, Italian, Latin, Latvian,
 Lithuanian, Macedonian, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak,
 Slovene, Spanish, Swedish, Turkish or Ukrainian, with meanings shown in English, Chinese, French,
-German, Polish, Portuguese, Russian or Spanish. Each language comes with a tutorial book on learning it with the
+German, Greek, Polish, Portuguese, Russian or Spanish. Each language comes with a tutorial book on learning it with the
 app, written in that language. The Languages page sets the language being learned, the native
 language meanings are shown in, and the language of the interface (English or Russian).
 
