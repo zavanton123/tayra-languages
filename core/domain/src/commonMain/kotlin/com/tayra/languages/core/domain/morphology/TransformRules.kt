@@ -9,4 +9,5 @@ internal val transformRules: Map<String, () -> List<String>> = mapOf(
     "en" to { enTransforms },
     "es" to { esTransforms },
     "fr" to { frTransforms },
+    "la" to { laTransforms },
 )

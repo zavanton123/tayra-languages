@@ -21,6 +21,14 @@ internal object TextProcessors {
         "apostropheVariants" to { s -> listOf(s, s.replace('\'', '\u2019'), s.replace('\u2019', '\'')) },
         // Modern Greek
         "removeDoubleAcuteAccents" to { s -> listOf(s, removeDoubleAcuteAccents(s)) },
+        // Latin
+        "processDiphtongs" to { s ->
+            listOf(
+                s,
+                s.replace("æ", "ae").replace("Æ", "AE").replace("œ", "oe").replace("Œ", "OE"),
+                s.replace("ae", "æ").replace("AE", "Æ").replace("oe", "œ").replace("OE", "Œ"),
+            )
+        },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */

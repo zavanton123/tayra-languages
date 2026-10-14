@@ -22,4 +22,10 @@ class TextProcessorsTest {
     fun greek() {
         assertTrue("πρόσωπο" in spellings("el", "πρόσωπό"))
     }
+
+    @Test
+    fun latin() {
+        assertTrue("puellæ" in spellings("la", "puellae"))
+        assertTrue("caelum" in spellings("la", "cælum"))
+    }
 }
