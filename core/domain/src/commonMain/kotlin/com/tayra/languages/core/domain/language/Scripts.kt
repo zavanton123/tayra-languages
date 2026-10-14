@@ -7,7 +7,7 @@ object Scripts {
     /** The scripts a language is written in; Latin when it is not one of the others. */
     fun of(languageCode: String): Set<Script> = when (languageCode.trim().lowercase()) {
         "ru", "uk", "be", "bg", "sr", "mk", "kk", "ky", "tg", "mn", "tt", "ba", "cv" -> setOf(Script.CYRILLIC)
-        "el" -> setOf(Script.GREEK)
+        "el", "grc" -> setOf(Script.GREEK)
         "ar", "fa", "ur", "ps", "ug", "sd" -> setOf(Script.ARABIC)
         "he", "yi" -> setOf(Script.HEBREW)
         "zh" -> setOf(Script.HAN)

@@ -10,6 +10,24 @@ import com.tayra.languages.core.domain.model.LanguageDictionary
 @Suppress("LargeClass", "MaxLineLength")
 object AddedLanguages {
 
+    private fun ancientGreek() = LanguageDefinition(
+        language = Language(
+            name = "Ancient Greek",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Ancient_Greek", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://logeion.uchicago.edu/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/grc/en/[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=grc&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".;·!?",
+            wordCharacters = "\\u0370-\\u03FF\\u1F00-\\u1FFF\\u0300-\\u036f'’",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun cornish() = LanguageDefinition(
         language = Language(
             name = "Cornish",
@@ -194,6 +212,7 @@ object AddedLanguages {
 
     val all: List<LanguageDefinition> by lazy {
         listOf(
+            ancientGreek(),
             cornish(),
             hawaiian(),
             irish(),

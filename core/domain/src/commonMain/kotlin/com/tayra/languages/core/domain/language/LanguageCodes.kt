@@ -28,6 +28,7 @@ object LanguageCodes {
         "hawaiian" to "haw",
         "mongolian" to "mn",
         "old irish" to "sga",
+        "ancient greek" to "grc",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -50,6 +51,7 @@ object LanguageCodes {
         "haw" to "haw",
         "mn" to "mon",
         "sga" to "sga",
+        "grc" to "grc",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */

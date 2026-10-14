@@ -57,6 +57,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "fi-pl" to 4_100_432L, "fi-zh" to 4_268_232L, "fr-el" to 5_561_186L, "fr-pl" to 3_468_315L, "fr-zh" to 4_882_238L,
         "ga-en" to 3_715_664L, "ga-es" to 265_528L, "ga-fr" to 393_479L, "ga-pl" to 313_707L, "ga-ru" to 584_564L,
         "gd-en" to 953_913L, "gd-pt" to 92_400L, "gd-ru" to 156_427L, "gl-pl" to 308_895L, "gl-zh" to 988_590L,
+        "grc-de" to 1_210_000L, "grc-el" to 8_832_444L, "grc-en" to 16_659_138L, "grc-fr" to 8_275_980L, "grc-ru" to 8_603_152L,
         "gv-en" to 203_593L, "haw-en" to 187_834L, "haw-ru" to 47_885L, "hr-zh" to 1_099_072L, "hu-pl" to 10_085_421L,
         "hu-zh" to 3_570_861L, "hy-en" to 11_903_275L, "hy-fr" to 776_175L, "hy-pl" to 1_670_185L, "hy-ru" to 3_515_042L,
         "hy-zh" to 1_530_952L, "id-en" to 2_767_096L, "id-fr" to 802_509L, "id-pl" to 109_725L, "id-pt" to 63_397L,
