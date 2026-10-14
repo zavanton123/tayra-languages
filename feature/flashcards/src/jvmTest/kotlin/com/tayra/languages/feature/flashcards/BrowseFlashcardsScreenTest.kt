@@ -165,6 +165,27 @@ class BrowseFlashcardsScreenTest {
         onNodeWithText("Resume").assertExists()
     }
 
+    /** A card is deleted from its info, after asking, with its word; the selection deletes several. */
+    @Test
+    fun cardsAreDeletedWithTheirWords() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onNodeWithTag("browse-row-$casa").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("detail-delete").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("detail-delete").performClick()
+        onNodeWithText("Delete 1 flashcard?").assertExists()
+        onNode(androidx.compose.ui.test.hasText("Delete") and androidx.compose.ui.test.hasClickAction() and androidx.compose.ui.test.hasAnyAncestor(androidx.compose.ui.test.isDialog())).performClick()
+        waitUntil(timeoutMillis = 5_000) { rows() == 2 }
+        assertEquals(null, runBlocking { terms.getById(casa) })
+        assertEquals(0, onAllNodesWithTag("browse-detail").fetchSemanticsNodes().size, "the deleted card's info closes")
+
+        onNodeWithTag("browse-select-all").performClick()
+        onNodeWithTag("delete-selected").performClick()
+        onNodeWithText("Delete 2 flashcards?").assertExists()
+        onNode(androidx.compose.ui.test.hasText("Delete") and androidx.compose.ui.test.hasClickAction() and androidx.compose.ui.test.hasAnyAncestor(androidx.compose.ui.test.isDialog())).performClick()
+        waitUntil(timeoutMillis = 5_000) { rows() == 0 }
+        assertEquals(null, runBlocking { terms.getById(comprar) })
+    }
+
     @Test
     fun selectedCardsAreSuspendedTogether() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()

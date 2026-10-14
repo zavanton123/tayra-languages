@@ -113,12 +113,14 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         arrived = true
     }
     var confirmReset by remember { mutableStateOf<Collection<Long>?>(null) }
+    var confirmDelete by remember { mutableStateOf<Collection<Long>?>(null) }
     val actions = BrowseActions(
         onOpen = viewModel::open,
         onToggle = viewModel::toggleSelected,
         onEdit = { onNavigate(Route.EditTerm(it)) },
         onSuspend = viewModel::setSuspended,
         onReset = { confirmReset = it.toList() },
+        onDelete = { confirmDelete = it.toList() },
         onReview = { onNavigate(Route.Flashcards) },
         onSaveSentence = viewModel::saveSentence,
     )
@@ -137,6 +139,16 @@ fun BrowseFlashcardsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, term
         }
         val detail = state.detail
         if (detail != null && !width.isExpanded) DetailSheet(detail, state.now, actions, onDismiss = viewModel::closeDetail)
+    }
+    confirmDelete?.let { ids ->
+        ConfirmDialog(
+            title = trPlural(ids.size, "Delete {0} flashcard?", "Delete {0} flashcards?"),
+            text = trPlural(ids.size, "Its word is deleted from your vocabulary too, with the card's review history. This cannot be undone.", "Their words are deleted from your vocabulary too, with the cards' review history. This cannot be undone."),
+            confirmLabel = tr("Delete"),
+            destructive = true,
+            onConfirm = { viewModel.delete(ids); confirmDelete = null },
+            onDismiss = { confirmDelete = null },
+        )
     }
     confirmReset?.let { ids ->
         ConfirmDialog(
@@ -158,6 +170,8 @@ internal class BrowseActions(
     val onSuspend: (termIds: Collection<Long>, suspended: Boolean) -> Unit = { _, _ -> },
     /** Asks before the cards are made new again. */
     val onReset: (termIds: Collection<Long>) -> Unit = {},
+    /** Asks before the cards are deleted with their words. */
+    val onDelete: (termIds: Collection<Long>) -> Unit = {},
     val onReview: () -> Unit = {},
     /** Replaces the example sentence of the card's term. */
     val onSaveSentence: (termId: Long, sentence: String) -> Unit = { _, _ -> },
@@ -335,6 +349,7 @@ internal fun SelectionBar(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
         if (anyActive) TextButton(onClick = { actions.onSuspend(state.selected, true); viewModel.clearSelection() }) { Text(tr("Suspend")) }
         if (anySuspended) TextButton(onClick = { actions.onSuspend(state.selected, false); viewModel.clearSelection() }) { Text(tr("Resume")) }
         TextButton(onClick = { actions.onReset(state.selected); viewModel.clearSelection() }) { Text(tr("Reset progress"), color = colors.error) }
+        TextButton(onClick = { actions.onDelete(state.selected) }, modifier = Modifier.testTag("delete-selected")) { Text(tr("Delete"), color = colors.error) }
         if (!compact) Spacer(Modifier.weight(1f))
         TextButton(onClick = viewModel::clearSelection) { Text(tr("Clear selection")) }
     }
@@ -463,6 +478,7 @@ internal fun RowMenu(row: BrowseRow, actions: BrowseActions) {
             AppMenuItem(text = { Text(tr("Edit term")) }, onClick = { open = false; actions.onEdit(row.termId) })
             AppMenuItem(text = { Text(if (row.suspended) tr("Resume") else tr("Suspend")) }, onClick = { open = false; actions.onSuspend(listOf(row.termId), !row.suspended) })
             AppMenuItem(text = { Text(tr("Reset progress")) }, enabled = row.state != CardState.NEW, onClick = { open = false; actions.onReset(listOf(row.termId)) })
+            AppMenuItem(text = { Text(tr("Delete"), color = MaterialTheme.colorScheme.error) }, onClick = { open = false; actions.onDelete(listOf(row.termId)) })
         }
     }
 }
@@ -584,6 +600,7 @@ internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActio
                 Text(if (row.suspended) tr("Resume") else tr("Suspend"))
             }
             if (row.state != CardState.NEW) TextButton(onClick = { actions.onReset(listOf(row.termId)) }) { Text(tr("Reset progress"), color = colors.error) }
+            TextButton(onClick = { actions.onDelete(listOf(row.termId)) }, modifier = Modifier.testTag("detail-delete")) { Text(tr("Delete"), color = colors.error) }
         }
         HorizontalDivider(color = colors.outlineVariant)
         Text(tr("Review history"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)

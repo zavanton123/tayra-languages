@@ -6,6 +6,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
 import com.tayra.languages.core.ui.components.LearningLanguageSelector
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.layout.statusBars
@@ -32,6 +33,11 @@ import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Button
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.mutableStateOf
+import com.tayra.languages.core.ui.components.ConfirmDialog
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.OutlinedButton
@@ -67,6 +73,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.settings.Hotkey
@@ -115,6 +122,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     // Coming back from editing a term or the settings shows the card as it is now.
     LaunchedEffect(Unit) { viewModel.load() }
     val compact = LocalWindowWidth.current.isCompact
+    var confirmDelete by remember { mutableStateOf<CardContent?>(null) }
     Scaffold(
         topBar = {
             // Wide windows offer the browser from the page heading instead.
@@ -135,11 +143,22 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onAnswer = viewModel::answer,
                 onUndo = viewModel::undo,
                 onSuspend = viewModel::suspendCard,
+                onDelete = { confirmDelete = state.card },
                 onEdit = { onNavigate(Route.BrowseFlashcards(termId = it)) },
                 onVocabulary = { onNavigate(Route.Terms()) },
                 onBrowse = { onNavigate(Route.BrowseFlashcards()) },
             ),
             modifier = Modifier.padding(padding),
+        )
+    }
+    confirmDelete?.let { card ->
+        ConfirmDialog(
+            title = tr("Delete the flashcard of \"{0}\"?", card.word),
+            text = trPlural(1, "Its word is deleted from your vocabulary too, with the card's review history. This cannot be undone.", "Their words are deleted from your vocabulary too, with the cards' review history. This cannot be undone."),
+            confirmLabel = tr("Delete"),
+            destructive = true,
+            onConfirm = { confirmDelete = null; viewModel.deleteCard() },
+            onDismiss = { confirmDelete = null },
         )
     }
 }
@@ -150,6 +169,8 @@ internal class FlashcardActions(
     /** Back to the previous card, its answer taken back. */
     val onUndo: () -> Unit = {},
     val onSuspend: () -> Unit = {},
+    /** Asks before the card is deleted with its word. */
+    val onDelete: () -> Unit = {},
     /** Opens the card in the browser, where its sentence, schedule and state are changed. */
     val onEdit: (termId: Long) -> Unit = {},
     val onVocabulary: () -> Unit = {},
@@ -476,11 +497,13 @@ private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardAc
     if (compact) {
         // A phone has the room for the short names only, spread over the width.
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-            FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous"), Modifier.weight(1f), enabled = canUndo, onClick = actions.onUndo)
+            FooterLink(Icons.AutoMirrored.Filled.ArrowBack, tr("Previous"), Modifier.weight(1f), tight = true, enabled = canUndo, onClick = actions.onUndo)
             PillDivider()
-            FooterLink(Icons.Default.Edit, tr("Edit"), Modifier.weight(1f), onClick = { actions.onEdit(card.termId) })
+            FooterLink(Icons.Default.Edit, tr("Edit"), Modifier.weight(1f), tight = true, onClick = { actions.onEdit(card.termId) })
             PillDivider()
-            FooterLink(AppIcons.Pause, tr("Suspend"), Modifier.weight(1f), onClick = actions.onSuspend)
+            FooterLink(AppIcons.Pause, tr("Suspend"), Modifier.weight(1f), tight = true, onClick = actions.onSuspend)
+            PillDivider()
+            FooterLink(Icons.Default.Delete, tr("Delete"), Modifier.weight(1f), tight = true, destructive = true, onClick = actions.onDelete)
         }
         return
     }
@@ -490,15 +513,33 @@ private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardAc
         FooterLink(Icons.Default.Edit, tr("Edit flashcard"), onClick = { actions.onEdit(card.termId) })
         PillDivider()
         FooterLink(AppIcons.Pause, tr("Suspend card"), onClick = actions.onSuspend)
+        PillDivider()
+        FooterLink(Icons.Default.Delete, tr("Delete card"), destructive = true, onClick = actions.onDelete)
     }
 }
 
+/** One of the actions under the card; [tight] for a phone's row of four. */
 @Composable
-private fun FooterLink(icon: ImageVector, label: String, modifier: Modifier = Modifier, enabled: Boolean = true, onClick: () -> Unit) {
-    TextButton(onClick = onClick, enabled = enabled, modifier = modifier.then(NoFocus)) {
-        Icon(icon, contentDescription = null, modifier = Modifier.size(20.dp))
-        Spacer(Modifier.width(8.dp))
-        Text(label, style = MaterialTheme.typography.bodyLarge)
+private fun FooterLink(icon: ImageVector, label: String, modifier: Modifier = Modifier, enabled: Boolean = true, destructive: Boolean = false, tight: Boolean = false, onClick: () -> Unit) {
+    TextButton(
+        onClick = onClick,
+        enabled = enabled,
+        modifier = modifier.then(NoFocus),
+        contentPadding = if (tight) PaddingValues(horizontal = 2.dp, vertical = 6.dp) else ButtonDefaults.TextButtonContentPadding,
+        shape = if (tight) RoundedCornerShape(12.dp) else ButtonDefaults.textShape,
+        colors = if (destructive) ButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.error) else ButtonDefaults.textButtonColors(),
+    ) {
+        if (tight) {
+            // The icon over its name, so each name has the whole column.
+            Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Icon(icon, contentDescription = null, modifier = Modifier.size(22.dp))
+                Text(label, style = MaterialTheme.typography.labelLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+        } else {
+            Icon(icon, contentDescription = null, modifier = Modifier.size(20.dp))
+            Spacer(Modifier.width(8.dp))
+            Text(label, style = MaterialTheme.typography.bodyLarge)
+        }
     }
 }
 

@@ -183,6 +183,17 @@ class FlashcardService(
         termIds.forEach { cards.setSuspended(it, suspended) }
     }
 
+    /**
+     * Deletes the cards with their words, as Anki deletes a card's note: a word at status 1 to 4
+     * always has a card, so the card cannot go while the word stays (Suspend keeps a word without
+     * reviews). The cards' review history goes with them.
+     */
+    suspend fun delete(termIds: Collection<Long>) {
+        if (termIds.isEmpty()) return
+        terms.deleteAll(termIds)
+        cards.reconcile(clock.now())
+    }
+
     /** Forgets the card's history: it is a new card again. */
     suspend fun restart(termId: Long) = restart(listOf(termId))
 

@@ -273,6 +273,16 @@ class BrowseFlashcardsViewModel(
         }
     }
 
+    /** Deletes the cards with their words and review history. */
+    fun delete(termIds: Collection<Long>) {
+        if (termIds.isEmpty()) return
+        viewModelScope.launch {
+            service.delete(termIds)
+            _state.update { it.copy(selected = it.selected - termIds.toSet()) }
+            refresh()
+        }
+    }
+
     /** Makes the cards new again, their review schedules forgotten. */
     fun reset(termIds: Collection<Long>) {
         if (termIds.isEmpty()) return

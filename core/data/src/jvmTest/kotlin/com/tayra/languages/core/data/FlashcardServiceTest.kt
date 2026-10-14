@@ -127,6 +127,21 @@ class FlashcardServiceTest {
         assertTrue(service.cardFor(lobo)!!.suspended, "a reset keeps the card aside")
     }
 
+    /** Deleting a card deletes its word and history; the other cards stay. */
+    @Test
+    fun deletingACardDeletesItsWordAndHistory() = runTest {
+        val id = language()
+        val lobo = term(id, "lobo")
+        val casa = term(id, "casa")
+        answer(id, lobo, Rating.GOOD)
+
+        service.delete(listOf(lobo))
+        assertNull(terms.getById(lobo))
+        assertNull(service.cardFor(lobo))
+        assertTrue(service.reviews(lobo).isEmpty())
+        assertEquals(listOf(casa), service.browse(id).cards.map { it.term.id })
+    }
+
     @Test
     fun cardsBelongToTheirLanguage() = runTest {
         val portuguese = language()

@@ -225,6 +225,18 @@ class FlashcardsViewModel(
         }
     }
 
+    /** Deletes the card on show with its word; answers given to it this session can no longer be taken back. */
+    fun deleteCard() {
+        val card = current ?: return
+        current = null
+        events.trySend(FlashcardsEvent.StopSpeaking)
+        answers.removeAll { it.before.termId == card.termId }
+        viewModelScope.launch {
+            service.delete(listOf(card.termId))
+            load()
+        }
+    }
+
     /** Puts the card on show aside until it is resumed from its term. */
     fun suspendCard() {
         val card = current ?: return

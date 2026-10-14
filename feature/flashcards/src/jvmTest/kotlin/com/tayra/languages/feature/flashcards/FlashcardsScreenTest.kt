@@ -98,7 +98,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -207,7 +207,7 @@ class FlashcardsScreenTest {
         show(phone = true)
         assertEquals(1, onAllNodesWithText("Flashcards").fetchSemanticsNodes().size, "the title once, in the header")
         onNodeWithTag("browse-flashcards").assertExists()
-        for (label in listOf("Previous", "Edit", "Suspend")) onNodeWithText(label).assertExists()
+        for (label in listOf("Previous", "Edit", "Suspend", "Delete")) onNodeWithText(label).assertExists()
         save("FLASHCARD_PHONE_SCREENSHOT")
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("flashcard-answer").assertExists()
@@ -232,6 +232,15 @@ class FlashcardsScreenTest {
         onNodeWithTag("flashcard-answer").assertExists()
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Three) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("LEARNING").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** Deleting the card on show deletes its word, and the next card, if any, comes up. */
+    @Test
+    fun deletingTheCardOnShowDeletesItsWord() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onNodeWithText("Delete card").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No cards are due").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(null, runBlocking { terms.getById(termId) })
     }
 
     @Test
