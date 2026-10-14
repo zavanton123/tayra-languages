@@ -29,9 +29,28 @@ object AddedLanguages {
         ),
     )
 
+    private fun welsh() = LanguageDefinition(
+        language = Language(
+            name = "Welsh",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Welsh", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/cy/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=cy&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "Mr.|Mrs.|Dr.|e.e.|h.y.|gw.|Gw.|t.|tt.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſŴŵŶŷ'",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     val all: List<LanguageDefinition> by lazy {
         listOf(
             irish(),
+            welsh(),
         )
     }
 }

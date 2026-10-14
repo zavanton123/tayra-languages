@@ -1,0 +1,18 @@
+name: Welsh
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Welsh"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/cy/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=cy&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?"
+split_sentence_exceptions: "Mr.|Mrs.|Dr.|e.e.|h.y.|gw.|Gw.|t.|tt."
+word_chars: "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſŴŵŶŷ'"
+right_to_left: false
+show_romanization: false
+parser_type: spacedel

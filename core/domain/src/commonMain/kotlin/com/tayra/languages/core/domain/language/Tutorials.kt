@@ -170,6 +170,46 @@ Na počítači čtení zrychlí klávesové zkratky. Čísla od 1 do 4 nastavuj�
 
 V Nastavení si také můžete zvolit svůj rodný jazyk, jazyk rozhraní, offline slovníky a hlasy. Teď otevřete Kurzy, vyberte první kurz a začněte číst. Hodně štěstí!""",
             ),
+            "cy" to Tutorial(
+                title = "Sut i ddysgu gyda Tayra Languages",
+                text = """Croeso i Tayra Languages! Mae'r llyfr byr hwn yn dangos i ti sut i ddefnyddio'r ap i ddysgu iaith drwy ddarllen. Mae wedi'i ysgrifennu yn yr iaith rwyt ti'n ei dysgu, felly dyma dy destun ymarfer cyntaf hefyd. Paid â phoeni os nad wyt ti'n deall pob gair eto.
+
+Pam mae darllen yn gweithio
+
+Rydyn ni'n dysgu iaith orau o lawer o destunau diddorol rydyn ni bron yn eu deall. Pan fyddi di'n gwybod y rhan fwyaf o'r geiriau ar dudalen, galli di ddyfalu'r gweddill, ac mae pob gair newydd yn haws i'w gofio. Mae Tayra yn dy helpu i ddod o hyd i destunau fel hyn ac yn cofio pob gair rwyt ti'n dod ar ei draws.
+
+Mae lliwiau'n dangos beth rwyt ti'n ei wybod
+
+Mae'r geiriau nad wyt ti wedi'u cadw eto yn las: maen nhw'n newydd i ti. Clicia ar air i weld ei gyfieithiad yn dy famiaith, i chwilio amdano mewn geiriadur neu i glywed sut mae'n swnio. Yna dewisa pa mor dda rwyt ti'n ei wybod. Mae'r statwsau o 1 i 4 yn golygu dy fod di'n dal i ddysgu'r gair, ac mae ei liw'n mynd yn oleuach wrth i ti ei ddysgu. Mae Hysbys yn golygu dy fod di'n gwybod y gair yn dda, ac wedyn does dim lliw arno o gwbl. Mae Anwybyddu ar gyfer enwau, rhifau a geiriau eraill nad oes angen i ti eu dysgu. Galli di hefyd gadw ymadrodd o sawl gair gyda'i gilydd.
+
+Gorffen pob tudalen
+
+Ar ddiwedd tudalen, noda'r geiriau sy'n weddill fel rhai hysbys. Mae pob gair glas sydd ar ôl ar y dudalen yn dod yn hysbys. Fel hyn mae Tayra yn dysgu pa eiriau rwyt ti'n eu gwybod yn barod, felly bydd yn onest: os nad yw gair yn glir eto, clicia arno a rho statws dysgu iddo yn gyntaf. Yna bydd llai o eiriau glas ar y dudalen nesaf.
+
+Gwrando a chyfieithu
+
+Gwasga'r botwm chwarae i glywed y testun yn cael ei ddarllen yn uchel, frawddeg wrth frawddeg. Pan fydd saib awtomatig ymlaen, mae'r darllen yn stopio ar ôl pob brawddeg, felly galli di ei hailadrodd. Os yw brawddeg yn rhy anodd, galli di ei chyfieithu, ond ceisia ei deall ar dy ben dy hun yn gyntaf.
+
+Cyrsiau a dy destunau dy hun
+
+Ar y sgrin Cyrsiau mae cyrsiau parod: straeon byr a syml, o'r lefel hawsaf, A1, i'r anoddaf, C2. Mae pob cwrs yn dysgu'r cant nesaf o eiriau mwyaf cyffredin yr iaith. Galli di lawrlwytho cyrsiau dy iaith yn y Gosodiadau, o dan Cyrsiau. Ar y sgrin Llyfrau galli di ychwanegu dy destunau dy hun hefyd: gluda erthygl, mewnforia ffeil, neu crea dy gwrs dy hun o destunau rwyt ti'n eu dewis.
+
+Lefel dy eirfa
+
+Ar y sgrin Geirfa, mae'r rhestr amlder geiriau yn dangos geiriau mwyaf cyffredin dy iaith. Os wyt ti'n gwybod rhywfaint o'r iaith yn barod, gosoda lefel dy eirfa yno, a bydd Tayra yn nodi'r geiriau mwyaf cyffredin yn rhai hysbys i ti.
+
+Cardiau fflach
+
+Mae pob gair rwyt ti'n ei ddysgu yn cael cerdyn fflach. Bob dydd, adolyga'r cardiau sy'n ddyledus ar y sgrin Cardiau Fflach; mae ychydig funudau'n ddigon. Darllen yw'r prif waith o hyd, ac mae'r cardiau fflach yn helpu'r geiriau newydd i aros gyda ti.
+
+Gwneud arfer ohono
+
+Darllena ychydig bob dydd, hyd yn oed am ddeg munud. Dewisa destunau rwyt ti'n eu mwynhau, a darllena nhw fwy nag unwaith. Gwranda a darllena ar yr un pryd. Paid â chadw pob gair: cadwa'r geiriau rwyt ti eisiau eu dysgu, a dal ati i ddarllen. Galli di weld dy gynnydd yn yr ystadegau, ac yn y geiriau sydd ddim yn las bellach.
+
+Ar gyfrifiadur, mae llwybrau byr bysellfwrdd yn gwneud darllen yn gyflymach. Mae'r rhifau 1 i 4 yn gosod statws, mae K yn nodi bod gair yn hysbys, mae I yn ei anwybyddu, mae T yn cyfieithu'r frawddeg ac mae'r bar bylchu yn chwarae neu'n oedi'r sain. Fe ddoi di o hyd iddyn nhw i gyd yn y Gosodiadau, o dan Llwybrau byr bysellfwrdd.
+
+Yn y Gosodiadau galli di hefyd ddewis dy famiaith, iaith y rhyngwyneb, geiriaduron all-lein a lleisiau. Nawr agora Cyrsiau, dewisa'r cwrs cyntaf a dechreua ddarllen. Pob lwc!""",
+            ),
             "da" to Tutorial(
                 title = "Sådan lærer du med Tayra Languages",
                 text = """Velkommen til Tayra Languages! Denne korte bog viser dig, hvordan du bruger appen til at lære et sprog ved at læse. Den er skrevet på det sprog, du lærer, så den er også din første øvetekst. Bare rolig, hvis du ikke forstår alle ordene endnu.

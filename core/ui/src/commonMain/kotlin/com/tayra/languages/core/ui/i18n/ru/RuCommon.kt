@@ -49,6 +49,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Swedish" to "Шведский",
     "Turkish" to "Турецкий",
     "Ukrainian" to "Украинский",
+    "Welsh" to "Валлийский",
 
     // App.kt
     "Could not start: {0}" to "Не удалось запустить: {0}",

@@ -234,8 +234,8 @@ class RepositoryIntegrationTest {
     fun existingDatabaseIsBroughtInLineWithTheCatalog() = runTest {
         val env = Env()
         val englishId = env.english()
-        val welshId = env.languages.save(env.languages.getById(englishId)!!.copy(id = 0, name = "Welsh"))
-        env.bookService.create(BookDraft(languageId = welshId, title = "Hola", text = "Hola mundo."))
+        val klingonId = env.languages.save(env.languages.getById(englishId)!!.copy(id = 0, name = "Klingon"))
+        env.bookService.create(BookDraft(languageId = klingonId, title = "Hola", text = "Hola mundo."))
         env.demo.ensureLanguages()
         assertEquals(englishId, env.languages.findByName("English")?.id)
         assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
