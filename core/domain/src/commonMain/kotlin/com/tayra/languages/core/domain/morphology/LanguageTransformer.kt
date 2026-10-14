@@ -217,7 +217,7 @@ class LanguageTransformer internal constructor(data: List<String>) {
 
         private const val MAX_RESULTS = 4096
         private const val REGEX_SYNTAX = "\\^$.|?*+()[]{}"
-        private const val YIDDISH_VOWELS = "עװאאַױוײיִײַיאָ"
+        private const val YIDDISH_VOWELS = "\u05e2\u05f0\u05d0\ufb2e\u05f1\u05d5\u05f2\ufb1d\ufb1f\u05d9\ufb2f"
 
         /** A JavaScript replacement string ("$1", "$&", "$$") in the syntax Kotlin's Regex.replace reads. */
         internal fun javaScriptReplacement(replacement: String): String = buildString {

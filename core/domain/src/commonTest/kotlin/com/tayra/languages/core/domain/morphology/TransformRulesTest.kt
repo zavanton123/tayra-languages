@@ -6,4 +6,5 @@ import kotlin.test.Test
 /** Each ported rule set against Yomitan's own tests of it. */
 class TransformRulesTest {
     @Test fun english() = checkTransformCases(enTransforms, enTransformCases)
+    @Test fun german() = checkTransformCases(deTransforms, deTransformCases)
 }
