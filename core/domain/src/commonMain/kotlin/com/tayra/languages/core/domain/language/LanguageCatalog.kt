@@ -6,12 +6,12 @@ object LanguageCatalog {
     val targetLanguages: List<String> = listOf(
         "Albanian", "Ancient Greek", "Arabic", "Armenian", "Basque", "Belarusian", "Bosnian", "Breton",
         "Bulgarian", "Catalan", "Cornish", "Croatian", "Czech", "Danish", "Dutch", "Egyptian Arabic",
-        "English", "Esperanto", "Estonian", "Finnish", "French", "Galician", "Georgian", "German",
-        "Greek", "Hawaiian", "Hebrew", "Hungarian", "Icelandic", "Indonesian", "Irish", "Italian",
-        "Latin", "Latvian", "Lithuanian", "Macedonian", "Maltese", "Manx", "Mongolian", "Norwegian",
-        "Old Irish", "Polish", "Portuguese", "Romanian", "Russian", "Scottish Gaelic", "Serbian",
-        "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Toki Pona", "Turkish", "Ukrainian",
-        "Vietnamese", "Welsh",
+        "English", "Esperanto", "Estonian", "Farsi", "Finnish", "French", "Galician", "Georgian",
+        "German", "Greek", "Hawaiian", "Hebrew", "Hungarian", "Icelandic", "Indonesian", "Irish",
+        "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian", "Maltese", "Manx", "Mongolian",
+        "Norwegian", "Old Irish", "Polish", "Portuguese", "Romanian", "Russian", "Scottish Gaelic",
+        "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Toki Pona", "Turkish",
+        "Ukrainian", "Vietnamese", "Welsh",
     )
 
     /** Languages translations and example sentences can be shown in. */

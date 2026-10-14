@@ -33,6 +33,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "English" to "Английский",
     "Esperanto" to "Эсперанто",
     "Estonian" to "Эстонский",
+    "Farsi" to "Персидский",
     "Finnish" to "Финский",
     "French" to "Французский",
     "Galician" to "Галисийский",
