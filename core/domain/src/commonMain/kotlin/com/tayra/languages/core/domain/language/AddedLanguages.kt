@@ -65,6 +65,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun tagalog() = LanguageDefinition(
+        language = Language(
+            name = "Tagalog",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Tagalog", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/tl/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=tl&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "G.|Gng.|Bb.|Dr.|atbp.|Bb.|Hal.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſÑñ'-",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun welsh() = LanguageDefinition(
         language = Language(
             name = "Welsh",
@@ -88,6 +106,7 @@ object AddedLanguages {
             irish(),
             maltese(),
             manx(),
+            tagalog(),
             welsh(),
         )
     }

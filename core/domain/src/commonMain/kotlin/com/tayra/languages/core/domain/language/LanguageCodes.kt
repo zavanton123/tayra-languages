@@ -22,6 +22,7 @@ object LanguageCodes {
         "irish" to "ga",
         "manx" to "gv",
         "maltese" to "mt",
+        "tagalog" to "tl",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -38,6 +39,7 @@ object LanguageCodes {
         "ga" to "gle",
         "gv" to "glv",
         "mt" to "mlt",
+        "tl" to "tgl",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */

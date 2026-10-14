@@ -8,7 +8,7 @@ object LanguageCatalog {
         "Estonian", "Finnish", "French", "Galician", "German", "Greek", "Hungarian", "Icelandic",
         "Irish", "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian", "Maltese", "Manx",
         "Norwegian", "Polish", "Portuguese", "Romanian", "Russian", "Serbian", "Slovak", "Slovene",
-        "Spanish", "Swedish", "Turkish", "Ukrainian", "Welsh",
+        "Spanish", "Swedish", "Tagalog", "Turkish", "Ukrainian", "Welsh",
     )
 
     /** Languages translations and example sentences can be shown in. */

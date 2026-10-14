@@ -1,0 +1,18 @@
+name: Tagalog
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Tagalog"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/tl/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=tl&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?"
+split_sentence_exceptions: "G.|Gng.|Bb.|Dr.|atbp.|Bb.|Hal."
+word_chars: "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſÑñ'-"
+right_to_left: false
+show_romanization: false
+parser_type: spacedel
