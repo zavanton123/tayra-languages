@@ -101,6 +101,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun mongolian() = LanguageDefinition(
+        language = Language(
+            name = "Mongolian",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Mongolian", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/mn/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=mn&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "г.м.|ж.нь|т.б.|ш.в.",
+            wordCharacters = "А-Яа-яЁёӨөҮү'",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun scottishGaelic() = LanguageDefinition(
         language = Language(
             name = "Scottish Gaelic",
@@ -163,6 +181,7 @@ object AddedLanguages {
             irish(),
             maltese(),
             manx(),
+            mongolian(),
             scottishGaelic(),
             tagalog(),
             welsh(),
