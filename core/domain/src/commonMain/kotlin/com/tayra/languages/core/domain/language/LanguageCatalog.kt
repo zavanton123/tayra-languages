@@ -10,7 +10,7 @@ object LanguageCatalog {
         "Irish", "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian", "Maltese", "Manx",
         "Mongolian", "Norwegian", "Polish", "Portuguese", "Romanian", "Russian", "Scottish Gaelic",
         "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Turkish", "Ukrainian",
-        "Welsh",
+        "Vietnamese", "Welsh",
     )
 
     /** Languages translations and example sentences can be shown in. */
