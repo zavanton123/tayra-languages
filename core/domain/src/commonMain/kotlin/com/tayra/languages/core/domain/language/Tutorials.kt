@@ -1410,6 +1410,46 @@ Na računalniku z bližnjicami na tipkovnici berete hitreje. Številke od 1 do 4
 
 V Nastavitvah lahko izberete tudi svoj materni jezik, jezik vmesnika, slovarje brez povezave in glasove. Zdaj odprite Tečaje, izberite prvi tečaj in začnite brati. Veliko uspeha!""",
             ),
+            "sq" to Tutorial(
+                title = "Si të mësosh me Tayra Languages",
+                text = """Mirë se erdhe në Tayra Languages! Ky libër i shkurtër të tregon si ta përdorësh aplikacionin për të mësuar një gjuhë duke lexuar. Është shkruar në gjuhën që po mëson, prandaj është edhe teksti yt i parë për ushtrim. Mos u shqetëso nëse ende nuk e kupton çdo fjalë.
+
+Pse leximi funksionon
+
+Një gjuhë e mësojmë më mirë nga shumë tekste interesante që pothuajse i kuptojmë. Kur i di shumicën e fjalëve në një faqe, mund ta hamendësosh pjesën tjetër, dhe çdo fjalë e re mbahet mend më lehtë. Tayra të ndihmon të gjesh tekste të tilla dhe mban mend çdo fjalë që has.
+
+Ngjyrat tregojnë çfarë di
+
+Fjalët që nuk i ke ruajtur ende janë blu: ato janë të reja për ty. Kliko mbi një fjalë për të parë përkthimin e saj në gjuhën tënde amtare, për ta kërkuar në një fjalor ose për të dëgjuar si tingëllon. Pastaj zgjidh sa mirë e di. Statuset nga 1 deri në 4 do të thonë se fjalën po e mëson ende, dhe ngjyra e saj bëhet më e çelët ndërsa e mëson. E njohur do të thotë se fjalën e di mirë, dhe atëherë ajo nuk ka fare ngjyrë. Shpërfill është për emra, numra dhe fjalë të tjera që nuk ke nevojë t'i mësosh. Mund të ruash edhe një shprehje prej disa fjalësh së bashku.
+
+Përfundo çdo faqe
+
+Në fund të një faqeje, shëno si të njohura fjalët që kanë mbetur. Çdo fjalë blu që ka mbetur në faqe bëhet e njohur. Kështu Tayra mëson cilat fjalë i di tashmë, prandaj ji i sinqertë: nëse një fjalë ende nuk është e qartë, kliko më parë mbi të dhe jepi një status mësimi. Atëherë faqja tjetër do të ketë më pak fjalë blu.
+
+Dëgjo dhe përkthe
+
+Shtyp butonin e luajtjes për ta dëgjuar tekstin të lexuar me zë, fjali pas fjalie. Kur pauza automatike është e ndezur, leximi ndalet pas çdo fjalie, që ta përsëritësh. Nëse një fjali është shumë e vështirë, mund ta përkthesh, por së pari përpiqu ta kuptosh vetë.
+
+Kurset dhe tekstet e tua
+
+Ekrani Kurset ka kurse të gatshme: tregime të shkurtra dhe të thjeshta, nga niveli më i lehtë, A1, deri te më i vështiri, C2. Çdo kurs të mëson njëqind fjalët e radhës nga më të zakonshmet e gjuhës. Kurset e gjuhës sate mund t'i shkarkosh te Cilësimet, nën Kurset. Te Librat mund të shtosh edhe tekstet e tua: ngjit një artikull, importo një skedar ose krijo një kurs tëndin nga tekste që zgjedh vetë.
+
+Niveli i fjalorit tënd
+
+Te Fjalori, lista e shpeshtësisë së fjalëve tregon fjalët më të zakonshme të gjuhës që po mëson. Nëse e di tashmë pak gjuhën, cakto atje nivelin e fjalorit tënd, dhe Tayra do t'i shënojë për ty si të njohura fjalët më të zakonshme.
+
+Kartat mësimore
+
+Çdo fjalë që po mëson merr një kartë mësimore. Çdo ditë, te Kartat mësimore, përsërit kartat që e kanë radhën; mjaftojnë disa minuta. Leximi mbetet puna kryesore, dhe kartat mësimore të ndihmojnë t'i mbash mend fjalët e reja.
+
+Bëje zakon
+
+Lexo pak çdo ditë, qoftë edhe dhjetë minuta. Zgjidh tekste që të pëlqejnë dhe lexoji më shumë se një herë. Dëgjo dhe lexo në të njëjtën kohë. Mos e ruaj çdo fjalë: ruaj fjalët që dëshiron të mësosh dhe vazhdo të lexosh. Përparimin tënd mund ta shohësh te statistikat dhe te fjalët që nuk janë më blu.
+
+Në kompjuter, shkurtoret e tastierës e bëjnë leximin më të shpejtë. Numrat nga 1 deri në 4 caktojnë një status, K e shënon një fjalë si të njohur, I e shpërfill, T e përkthen fjalinë dhe tasti i hapësirës e luan ose e ndal audion. Do t'i gjesh të gjitha te Cilësimet, nën Shkurtoret e tastierës.
+
+Te Cilësimet mund të zgjedhësh edhe gjuhën tënde amtare, gjuhën e ndërfaqes, fjalorë jashtë linje dhe zëra. Tani hap Kurset, zgjidh kursin e parë dhe fillo të lexosh. Suksese!""",
+            ),
             "sr" to Tutorial(
                 title = "Како учити уз Tayra Languages",
                 text = """Добро дошли у Tayra Languages! Ова кратка књига показује вам како да користите апликацију да бисте учили језик читањем. Написана је на језику који учите, па је уједно и ваш први текст за вежбу. Не брините ако још не разумете сваку реч.

@@ -4,8 +4,8 @@ package com.tayra.languages.core.domain.language
 object LanguageCatalog {
     /** Names of the predefined languages a user can learn, in display order. */
     val targetLanguages: List<String> = listOf(
-        "Armenian", "Belarusian", "Bulgarian", "Catalan", "Croatian", "Czech", "Danish", "Dutch",
-        "English", "Estonian", "Finnish", "French", "Galician", "Georgian", "German", "Greek",
+        "Albanian", "Armenian", "Belarusian", "Bulgarian", "Catalan", "Croatian", "Czech", "Danish",
+        "Dutch", "English", "Estonian", "Finnish", "French", "Galician", "Georgian", "German", "Greek",
         "Hungarian", "Icelandic", "Irish", "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian",
         "Maltese", "Manx", "Norwegian", "Polish", "Portuguese", "Romanian", "Russian", "Serbian",
         "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Turkish", "Ukrainian", "Welsh",
