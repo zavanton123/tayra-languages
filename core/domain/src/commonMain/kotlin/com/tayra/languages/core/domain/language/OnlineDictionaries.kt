@@ -328,5 +328,6 @@ object OnlineDictionaries {
         "is" to listOf("islandes", "icelandic", "islenska", "islandisch"),
         "mk" to listOf("macedonio", "macedonian", "makedonski", "mazedonisch"),
         "be" to listOf("bielorrusso", "belarusian", "belaruskaya", "weissrussisch"),
+        "zh" to listOf("chines", "chinesa", "chinese", "chinois", "chinesisch", "cinese", "zhongwen"),
     ).flatMap { (code, words) -> words.map { it to code } }.toMap()
 }

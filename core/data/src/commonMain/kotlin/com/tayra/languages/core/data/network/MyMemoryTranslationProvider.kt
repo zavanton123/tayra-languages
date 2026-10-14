@@ -49,7 +49,7 @@ class MyMemoryTranslationProvider(
         val body = try {
             val response = client.get(baseUrl) {
                 parameter("q", query)
-                parameter("langpair", "$source|$target")
+                parameter("langpair", "${myMemoryCode(source)}|${myMemoryCode(target)}")
                 settings.current.translationContactEmail.trim().takeIf { it.isNotEmpty() }?.let { parameter("de", it) }
             }
             if (response.status != HttpStatusCode.OK) return null
@@ -75,6 +75,9 @@ class MyMemoryTranslationProvider(
 
     private companion object {
         const val MAX_QUERY_LENGTH = 480
+
+        /** MyMemory names Chinese by its script: simplified, as mainland texts are written. */
+        fun myMemoryCode(code: String): String = if (code == "zh") "zh-CN" else code
         val SERVICE_MESSAGE_MARKERS = listOf("PLEASE SELECT", "QUERY LENGTH LIMIT", "MYMEMORY WARNING", "INVALID LANGUAGE")
     }
 }

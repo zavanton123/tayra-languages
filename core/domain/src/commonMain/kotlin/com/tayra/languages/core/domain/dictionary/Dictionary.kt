@@ -66,7 +66,7 @@ object DictionaryPacks {
         "is" to "Icelandic", "it" to "Italian", "la" to "Latin", "lv" to "Latvian", "lt" to "Lithuanian",
         "mk" to "Macedonian", "no" to "Norwegian", "pl" to "Polish", "pt" to "Portuguese", "ro" to "Romanian",
         "ru" to "Russian", "sr" to "Serbian", "sk" to "Slovak", "sl" to "Slovene", "es" to "Spanish",
-        "sv" to "Swedish", "tr" to "Turkish", "uk" to "Ukrainian",
+        "sv" to "Swedish", "tr" to "Turkish", "uk" to "Ukrainian", "zh" to "Chinese",
     )
 
     /** Every published pack; a pair the Wiktionaries cover too thinly has none. */
