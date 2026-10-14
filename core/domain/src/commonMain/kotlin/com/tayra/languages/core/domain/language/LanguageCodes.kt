@@ -25,6 +25,7 @@ object LanguageCodes {
         "tagalog" to "tl",
         "scottish gaelic" to "gd",
         "cornish" to "kw",
+        "hawaiian" to "haw",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -44,6 +45,7 @@ object LanguageCodes {
         "tl" to "tgl",
         "gd" to "gla",
         "kw" to "cor",
+        "haw" to "haw",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */

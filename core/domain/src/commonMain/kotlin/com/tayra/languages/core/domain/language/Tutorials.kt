@@ -770,6 +770,46 @@ Er co-earrooder, ta giare-raaidyn y voayrd-chramman jannoo lhaih ny s'tappee. Ta
 
 Ayns ny Soiaghyn foddee oo neesht dty hengey ghooie y reih, çhengey yn app, fockleyryn gyn linney as coraaghyn. Nish fosil Coorsyn, reih yn chied choorse as toshee lhaih. Aigh vie!""",
             ),
+            "haw" to Tutorial(
+                title = "Pehea e aʻo ai me Tayra Languages",
+                text = """E komo mai i Tayra Languages! Hōʻike kēia puke pōkole iā ʻoe i ke ʻano o ka hoʻohana ʻana i ka polokalamu no ke aʻo ʻana i kekahi ʻōlelo ma ka heluhelu ʻana. Ua kākau ʻia ʻo ia ma ka ʻōlelo āu e aʻo nei, no laila ʻo ia nō hoʻi kāu kikokikona hoʻomaʻamaʻa mua. Mai hopohopo inā ʻaʻole i maopopo iā ʻoe kēlā me kēia huaʻōlelo i kēia manawa.
+
+No ke aha e pono ai ka heluhelu ʻana
+
+Aʻo maikaʻi loa kākou i kekahi ʻōlelo mai nā kikokikona hoihoi he nui i aneane maopopo iā kākou. Inā ʻike ʻoe i ka hapanui o nā huaʻōlelo ma kekahi ʻaoʻao, hiki iā ʻoe ke koho i ke koena, a ʻoi aku ka maʻalahi o ka hoʻomanaʻo ʻana i kēlā me kēia huaʻōlelo hou. Kōkua ʻo Tayra iā ʻoe e loaʻa nā kikokikona e like me ia, a hoʻomanaʻo ʻo ia i kēlā me kēia huaʻōlelo āu e hālāwai ai.
+
+Hōʻike nā waihoʻoluʻu i kāu mea i ʻike ai
+
+ʻO nā huaʻōlelo i mālama ʻole ʻia e ʻoe a hiki i kēia manawa, he uliuli lākou: he mau huaʻōlelo hou lākou nou. Kaomi i kekahi huaʻōlelo no ka nānā ʻana i kona unuhina ma kāu ʻōlelo makuahine, no ka huli ʻana iā ia ma ka puke wehewehe ʻōlelo, a i ʻole no ka hoʻolohe ʻana i kona kani. A laila, koho i ke ʻano o kou ʻike ʻana iā ia. ʻO nā kūlana mai ka 1 a i ka 4, ʻo ia hoʻi, ke aʻo mau nei ʻoe i ka huaʻōlelo, a ʻoi aku ka māmā o kona waihoʻoluʻu i kou aʻo ʻana iā ia. ʻO Ua ʻIke, ʻo ia hoʻi, ua ʻike maikaʻi ʻoe i ka huaʻōlelo, a laila ʻaʻohe ona waihoʻoluʻu. ʻO Haʻalele, no nā inoa, nā helu, a me nā huaʻōlelo ʻē aʻe ʻaʻole pono iā ʻoe ke aʻo. Hiki nō iā ʻoe ke mālama pū i kekahi māmalaʻōlelo o nā huaʻōlelo he nui.
+
+E hoʻopau i kēlā me kēia ʻaoʻao
+
+Ma ka hopena o kekahi ʻaoʻao, e kaha i nā huaʻōlelo i koe ma ke ʻano he mau huaʻōlelo i ʻike ʻia. Lilo kēlā me kēia huaʻōlelo uliuli i koe ma ka ʻaoʻao i huaʻōlelo i ʻike ʻia. Pēia e aʻo ai ʻo Tayra i nā huaʻōlelo āu i ʻike mua ai, no laila, e ʻoiaʻiʻo: inā ʻaʻole i maopopo kekahi huaʻōlelo, e kaomi mua iā ia a hāʻawi iā ia i kekahi kūlana aʻo. A laila, emi iho nā huaʻōlelo uliuli ma ka ʻaoʻao aʻe.
+
+E hoʻolohe a e unuhi
+
+E kaomi i ke pihi hoʻokani no ka hoʻolohe ʻana i ke kikokikona e heluhelu leo nui ʻia ana, hopunaʻōlelo ma hope o ka hopunaʻōlelo. Inā hoʻā ʻia ka hoʻomaha ʻakomi, kū ka heluhelu ʻana ma hope o kēlā me kēia hopunaʻōlelo, i hiki iā ʻoe ke hoʻopuka hou iā ia. Inā paʻakikī loa kekahi hopunaʻōlelo, hiki iā ʻoe ke unuhi iā ia, akā e hoʻāʻo mua e hoʻomaopopo iā ia nāu iho.
+
+Nā papa a me kāu mau kikokikona ponoʻī
+
+Aia ma Nā Papa nā papa i hoʻomākaukau ʻia: nā moʻolelo pōkole a maʻalahi, mai ka pae maʻalahi loa, A1, a i ka pae paʻakikī loa, C2. Aʻo kēlā me kēia papa i nā huaʻōlelo maʻamau loa he hanele aʻe o ka ʻōlelo. Hiki iā ʻoe ke hoʻoiho i nā papa o kāu ʻōlelo ma Nā Hoʻonohonoho, ma lalo o Nā Papa. Ma Nā Puke, hiki nō iā ʻoe ke hoʻohui i kāu mau kikokikona ponoʻī: e hoʻopili i kekahi ʻatikala, e hoʻokomo i kekahi faila, a i ʻole e haku i kāu papa ponoʻī mai nā kikokikona āu e koho ai.
+
+Ka pae o kāu mau huaʻōlelo
+
+Ma Nā Huaʻōlelo, hōʻike ka papa helu alapine huaʻōlelo i nā huaʻōlelo maʻamau loa o kāu ʻōlelo. Inā ua ʻike iki mua ʻoe i ka ʻōlelo, e hoʻonohonoho i ka pae o kāu mau huaʻōlelo ma laila, a na Tayra e kaha i nā huaʻōlelo maʻamau loa i ʻike ʻia nou.
+
+Nā kāleka aʻo
+
+Loaʻa i kēlā me kēia huaʻōlelo āu e aʻo nei he kāleka aʻo. I kēlā me kēia lā, e nānā hou i nā kāleka i hiki ko lākou manawa ma Nā Kāleka Aʻo; lawa nō kekahi mau minuke. ʻO ka heluhelu nō ka hana nui, a kōkua nā kāleka aʻo i nā huaʻōlelo hou e paʻa i kou noʻonoʻo.
+
+E hoʻolilo iā ia i maʻa mau
+
+E heluhelu iki i kēlā me kēia lā, ʻoiai he ʻumi minuke wale nō. E koho i nā kikokikona e leʻaleʻa ai ʻoe, a e heluhelu iā lākou ʻoi aku ma mua o hoʻokahi manawa. E hoʻolohe a e heluhelu i ka manawa hoʻokahi. Mai mālama i kēlā me kēia huaʻōlelo: e mālama i nā huaʻōlelo āu e makemake ai e aʻo, a e hoʻomau i ka heluhelu ʻana. Hiki iā ʻoe ke ʻike i kou holomua ma ka ʻikepili helu, a ma nā huaʻōlelo i uliuli ʻole hou.
+
+Ma ke kamepiula, hoʻowikiwiki nā pōkole papa pihi i ka heluhelu ʻana. Hoʻonoho nā helu mai ka 1 a i ka 4 i kekahi kūlana, kaha ʻo K i kekahi huaʻōlelo ma ke ʻano he huaʻōlelo i ʻike ʻia, haʻalele ʻo I iā ia, unuhi ʻo T i ka hopunaʻōlelo, a hoʻokani a hoʻomaha paha ke pihi kaʻawale i ka leo. Aia lākou a pau ma Nā Hoʻonohonoho, ma lalo o Nā Pōkole Papa Pihi.
+
+Ma Nā Hoʻonohonoho, hiki nō iā ʻoe ke koho i kāu ʻōlelo makuahine, ka ʻōlelo o ka polokalamu, nā puke wehewehe ʻōlelo e hana ana me ka pūnaewele ʻole, a me nā leo. I kēia manawa, e wehe iā Nā Papa, e koho i ka papa mua, a e hoʻomaka i ka heluhelu ʻana. Pōmaikaʻi!""",
+            ),
             "hr" to Tutorial(
                 title = "Kako učiti s Tayra Languages",
                 text = """Dobro došli u Tayra Languages! Ova kratka knjiga pokazuje vam kako se služiti aplikacijom da biste učili jezik čitanjem. Napisana je na jeziku koji učite, pa je ujedno i vaš prvi tekst za vježbu. Ne brinite ako još ne razumijete svaku riječ.

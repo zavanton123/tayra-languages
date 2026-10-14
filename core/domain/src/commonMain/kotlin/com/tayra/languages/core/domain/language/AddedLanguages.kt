@@ -28,6 +28,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun hawaiian() = LanguageDefinition(
+        language = Language(
+            name = "Hawaiian",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Hawaiian", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/haw/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=haw&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "Mr.|Dr.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſʻ'",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun irish() = LanguageDefinition(
         language = Language(
             name = "Irish",
@@ -141,6 +159,7 @@ object AddedLanguages {
     val all: List<LanguageDefinition> by lazy {
         listOf(
             cornish(),
+            hawaiian(),
             irish(),
             maltese(),
             manx(),
