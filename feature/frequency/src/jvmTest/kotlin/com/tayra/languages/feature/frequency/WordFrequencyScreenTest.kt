@@ -98,7 +98,7 @@ class WordFrequencyScreenTest {
         for (name in LanguageCatalog.targetLanguages) {
             val code = LanguageCodes.codeFor(name)!!
             val list = lists.list(code)
-            assertTrue(list != null && list.words.size >= 3_000, "$name has a list of at least 3,000 words")
+            assertTrue(list != null && list.words.size >= 1_000, "$name has a list of at least 1,000 words")
             assertTrue(list.source.isNotBlank(), "$name names its source")
             assertEquals(list.words.size, list.words.map { it.key }.toSet().size, "$name lists each word once")
         }

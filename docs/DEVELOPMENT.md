@@ -263,8 +263,8 @@ The Word frequency screen (feature/frequency) shows the most common words of the
 learned, bundled as `feature/frequency/src/commonMain/composeResources/files/frequency/<code>.tsv`
 for every language in `LanguageCatalog.targetLanguages`: one dictionary word per line, most common
 first, written as the dictionary writes it ("Haus"), with up to 40 lowercase forms counted for it
-after a tab. Lists have 10,000 words, except Latvian (about 6,600) and Belarusian (about 3,800),
-whose dictionaries and lemmatizer coverage are small.
+after a tab. Lists have up to 10,000 words, and fewer where the language's dictionary, lemmatizer
+or corpus is small (Belarusian about 3,800, Basque about 2,800).
 
 `tools/build_frequency_list.py --language <code>|all` makes them; it needs `pip install wordfreq
 simplemma` and the `dictionaries/<code>-en.sqlite` packs. Counts come from wordfreq; Croatian,

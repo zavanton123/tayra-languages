@@ -490,6 +490,46 @@ Arvutis saad kiirklahvidega kiiremini lugeda. Numbrid 1 kuni 4 määravad oleku,
 
 Vaates Seaded saad valida ka oma emakeele, liidese keele, võrguühenduseta sõnaraamatud ja hääled. Ava nüüd vaade Kursused, vali esimene kursus ja hakka lugema. Edu!""",
             ),
+            "eu" to Tutorial(
+                title = "Nola ikasi Tayra Languages-ekin",
+                text = """Ongi etorri Tayra Languages-era! Liburu labur honek erakusten dizu nola erabili aplikazioa hizkuntza bat irakurriz ikasteko. Ikasten ari zaren hizkuntzan idatzita dago; beraz, zure lehen praktika-testua ere bada. Ez kezkatu oraindik hitz guztiak ulertzen ez badituzu.
+
+Zergatik balio du irakurtzeak
+
+Hizkuntza bat ondoen ia ulertzen ditugun testu interesgarri askoren bidez ikasten dugu. Orrialde bateko hitz gehienak ezagutzen dituzunean, gainerakoak asma ditzakezu, eta hitz berri bakoitza errazago gogoratzen da. Tayrak horrelako testuak aurkitzen laguntzen dizu, eta aurkitzen duzun hitz oro gogoratzen du.
+
+Koloreek erakusten dute zer dakizun
+
+Oraindik gorde ez dituzun hitzak urdinak dira: berriak dira zuretzat. Egin klik hitz batean zure ama-hizkuntzako itzulpena ikusteko, hiztegi batean bilatzeko edo nola ahoskatzen den entzuteko. Ondoren, aukeratu zein ondo ezagutzen duzun. 1etik 4ra bitarteko egoerek esan nahi dute hitza ikasten ari zarela oraindik, eta haren kolorea argitu egiten da ikasi ahala. Ezaguna egoerak esan nahi du hitza ondo ezagutzen duzula, eta orduan ez du batere kolorerik. Baztertu egoera izenetarako, zenbakietarako eta ikasi behar ez dituzun beste hitzetarako da. Hainbat hitzez osatutako esapide bat ere gorde dezakezu, hitz guztiak batera.
+
+Amaitu orrialde bakoitza
+
+Orrialde baten amaieran, markatu geratzen diren hitzak ezagun gisa. Orrialdean geratzen den hitz urdin oro ezagun bihurtzen da. Horrela jakiten du Tayrak zein hitz ezagutzen dituzun jada; beraz, izan zintzoa: hitz bat oraindik argi ez badago, egin klik haren gainean eta eman lehenik ikasketa-egoera bat. Hala, hurrengo orrialdeak hitz urdin gutxiago erakutsiko ditu.
+
+Entzun eta itzuli
+
+Sakatu erreproduzitzeko botoia testua ozen irakurrita entzuteko, esaldiz esaldi. Pausa automatikoa aktibatuta badago, irakurketa gelditu egiten da esaldi bakoitzaren ondoren, errepika dezazun. Esaldi bat zailegia bada, itzul dezakezu, baina saiatu lehenik zeure kabuz ulertzen.
+
+Ikastaroak eta zure testuak
+
+Ikastaroak pantailan ikastaro prestatuak daude: istorio labur eta errazak, maila errazenetik, A1etik, zailenera, C2ra. Ikastaro bakoitzak hizkuntzako hurrengo ehun hitz ohikoenak irakasten ditu. Zure hizkuntzaren ikastaroak Ezarpenak atalean deskarga ditzakezu, Ikastaroak azpian. Liburuak atalean zure testuak ere gehi ditzakezu: itsatsi artikulu bat, inportatu fitxategi bat edo sortu zeure ikastaroa zuk aukeratutako testuekin.
+
+Zure hitz-altxorraren maila
+
+Hitz-altxorra atalean, hitzen maiztasun-zerrendak ikasten ari zaren hizkuntzako hitz ohikoenak erakusten ditu. Hizkuntza apur bat badakizu jada, ezarri han zure hitz-altxorraren maila, eta Tayrak hitz ohikoenak ezagun gisa markatuko ditu zuretzat.
+
+Ikas-txartelak
+
+Ikasten ari zaren hitz bakoitzak bere ikas-txartela jasotzen du. Egunero, errepasatu Ikas-txartelak atalean tokatzen zaizkizun txartelak; minutu batzuk nahikoak dira. Irakurtzea da oraindik lan nagusia, eta ikas-txartelek hitz berriak gogoan gordetzen laguntzen dizute.
+
+Bihurtu ohitura
+
+Irakurri pixka bat egunero, hamar minutuz bada ere. Aukeratu gustuko dituzun testuak, eta irakurri behin baino gehiagotan. Entzun eta irakurri aldi berean. Ez gorde hitz guztiak: gorde ikasi nahi dituzun hitzak, eta jarraitu irakurtzen. Zure aurrerapena estatistiketan ikus dezakezu, baita jada urdinak ez diren hitzetan ere.
+
+Ordenagailuan, teklatuko lasterbideek irakurketa azkartzen dute. 1etik 4ra bitarteko zenbakiek egoera bat ezartzen dute, K-k hitz bat ezagun gisa markatzen du, I-k baztertu egiten du, T-k esaldia itzultzen du, eta zuriune-barrak audioa erreproduzitzen edo pausatzen du. Guztiak Ezarpenak atalean aurkituko dituzu, Teklatuko lasterbideak azpian.
+
+Ezarpenetan zure ama-hizkuntza, interfazearen hizkuntza, lineaz kanpoko hiztegiak eta ahotsak ere aukera ditzakezu. Orain, ireki Ikastaroak, aukeratu lehen ikastaroa eta hasi irakurtzen. Zorte on!""",
+            ),
             "fi" to Tutorial(
                 title = "Näin opit kieltä Tayra Languages -sovelluksella",
                 text = """Tervetuloa Tayra Languages -sovellukseen! Tämä lyhyt kirja näyttää, miten voit oppia kieltä sovelluksella lukemalla. Kirja on kirjoitettu kielellä, jota opiskelet, joten se on myös ensimmäinen harjoitustekstisi. Älä huoli, jos et vielä ymmärrä jokaista sanaa.
