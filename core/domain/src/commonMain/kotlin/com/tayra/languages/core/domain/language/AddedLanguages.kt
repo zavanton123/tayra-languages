@@ -10,6 +10,24 @@ import com.tayra.languages.core.domain.model.LanguageDictionary
 @Suppress("LargeClass", "MaxLineLength")
 object AddedLanguages {
 
+    private fun cornish() = LanguageDefinition(
+        language = Language(
+            name = "Cornish",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Cornish", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/kw/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=kw&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "Mr.|Dr.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ'",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun irish() = LanguageDefinition(
         language = Language(
             name = "Irish",
@@ -122,6 +140,7 @@ object AddedLanguages {
 
     val all: List<LanguageDefinition> by lazy {
         listOf(
+            cornish(),
             irish(),
             maltese(),
             manx(),

@@ -1,0 +1,18 @@
+name: Cornish
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Cornish"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/kw/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=kw&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?"
+split_sentence_exceptions: "Mr.|Dr."
+word_chars: "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ'"
+right_to_left: false
+show_romanization: false
+parser_type: spacedel
