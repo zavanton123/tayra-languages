@@ -7,7 +7,8 @@ A wty dictionary is a zip of term banks: JSON rows of [term, reading, tags, rule
 definitions, sequence, term tags], where a definition is either structured content (an HTML-like
 tree holding the glosses, their tags and examples) or a [lemma, [inflection]] pair saying the term
 is a form of the lemma. The pack keeps what the app shows: the glosses with their tags, the part
-of speech, a transcription from wty's IPA dictionary, and the forms table, to which the forms of the
+of speech, a transcription from wty's IPA dictionaries (the gloss language's edition, else the
+English one), and the forms table, to which the forms of the
 same language's English-gloss dictionary (the app's own when dictionaries/<source>-en.sqlite is
 there) are added for the lemmas the pack has: the English Wiktionary lists far more inflections
 than the others. The layout is the one
@@ -311,7 +312,9 @@ def build(source, target, out_path, wty_source=None, min_entries=1000):
     if target != "en":
         forms |= {(form, lemma) for form, lemma in english_forms(source, wty) if lemma in lemmas}
     forms = {(form, lemma) for form, lemma in forms if lemma in lemmas}
-    ipa = read_ipa(ipa_dictionary(wty, target) or ipa_dictionary(wty, "en"), source)
+    # The target edition's transcriptions first, then the English edition's, which has the most.
+    ipa = read_ipa(ipa_dictionary(wty, "en"), source) if target != "en" else {}
+    ipa.update(read_ipa(ipa_dictionary(wty, target), source))
 
     db, sqlite_path = open_output(out_path)
     rows = sorted(entries.values(), key=lambda e: (e["word"].lower(), e["word"], e["pos"]))

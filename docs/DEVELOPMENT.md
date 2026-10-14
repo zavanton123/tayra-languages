@@ -175,7 +175,7 @@ installed.
 `tools/build_yomitan_dictionary.py --source <code> --target <code>` (or `--pairs ka-en,ka-ru`)
 converts a dictionary of wiktionary-to-yomitan (wty), the Wiktionary dictionaries Yomitan uses,
 into the same layout: glosses and their tags from the structured content, the part of speech from
-wty's tags, a transcription from wty's IPA dictionary, and the forms table from the dictionary's
+wty's tags, a transcription from wty's IPA dictionaries (the gloss language's edition, else the English one), and the forms table from the dictionary's
 "form of" entries, to which the forms of the language's English-gloss dictionary are added. A pack
 under 1,000 entries is not written. Downloads are cached in `dictionaries/wty/`; built packs are
 recorded in `dictionaries/wty/built.json`, and `--write-catalog` writes them into
