@@ -124,6 +124,27 @@ class FlashcardService(
         return Session(card, term, scheduler.outcomes(card.schedule, now, config, fuzz(card)), counts, null, now)
     }
 
+    /**
+     * The terms of the cards today's session holds, roughly in the order they come up: cards being
+     * learned whose wait is over, the reviews due and the new cards within the day's limits, then
+     * the cards being learned that come back later today.
+     */
+    suspend fun sessionTerms(languageId: Long?): List<Term> {
+        val now = clock.now()
+        cards.reconcile(now)
+        val config = config()
+        val limits = limits(languageId, now, config)
+        val endOfDay = scheduler.dayStart(scheduler.day(now, config) + 1, config)
+        val active = cards.list(languageId).filter { !it.suspended }.sortedWith(compareBy({ it.schedule.due }, { it.termId }))
+        val stepping = active.filter { it.schedule.state in STEPPING && it.schedule.due < endOfDay }
+        val ordered = stepping.filter { it.schedule.due <= now } +
+            active.filter { it.schedule.state == CardState.REVIEW && it.schedule.due <= now }.take(limits.reviewsLeft) +
+            active.filter { it.schedule.state == CardState.NEW }.take(limits.newLeft) +
+            stepping.filter { it.schedule.due > now }
+        val byId = terms.getByIds(ordered.map { it.termId }).associateBy { it.id }
+        return ordered.mapNotNull { byId[it.termId] }
+    }
+
     /** Answers [card] and moves its term's status with it. */
     suspend fun answer(card: Flashcard, rating: Rating): Answered? {
         val now = clock.now()

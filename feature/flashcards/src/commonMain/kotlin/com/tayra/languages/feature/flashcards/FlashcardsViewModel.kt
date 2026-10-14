@@ -13,6 +13,7 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.repository.LanguageRepository
+import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.domain.settings.Hotkey
@@ -84,6 +85,8 @@ class FlashcardsViewModel(
     private val translator: SentenceTranslator,
     private val dictionary: OfflineDictionary,
     private val words: WordTranslationService,
+    /** Speech made ahead of time; null where there is none to make, as in tests. */
+    private val audio: SentenceAudio? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(FlashcardsUiState())
@@ -95,6 +98,7 @@ class FlashcardsViewModel(
     private val answers = ArrayDeque<FlashcardService.Answered>()
     private var extrasJob: Job? = null
     private var waitingJob: Job? = null
+    private var speechJob: Job? = null
 
     private val languageId: Long? get() = settings.current.currentLanguageId.takeIf { it != 0L }
 
@@ -102,12 +106,33 @@ class FlashcardsViewModel(
 
     init {
         load()
+        prepareSpeech()
         // The cards follow the language chosen in the top bar.
         viewModelScope.launch {
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().drop(1).collect {
                 answers.clear()
                 _state.update { it.copy(canUndo = false) }
                 load()
+                prepareSpeech()
+            }
+        }
+    }
+
+    /**
+     * Has the local speech engine make the audio of every card in the session, one after another in
+     * the order they come up, while the cards are reviewed: the sentences read when an answer is
+     * shown first, then the words. A card whose audio is ready plays at once; one still waiting is
+     * made next, after the one being made. Nothing is made for the system voice.
+     */
+    private fun prepareSpeech() {
+        val audio = audio ?: return
+        speechJob?.cancel()
+        speechJob = viewModelScope.launch {
+            val terms = service.sessionTerms(languageId)
+            terms.groupBy { it.languageId }.forEach { (id, group) ->
+                val code = languages.getById(id)?.let { LanguageCodes.codeFor(it.name) } ?: return@forEach
+                val spoken = group.map { term -> term.sentence?.trim()?.takeIf { it.isNotEmpty() } ?: term.displayText }
+                audio.prepare(spoken + group.map { it.displayText }, code)
             }
         }
     }

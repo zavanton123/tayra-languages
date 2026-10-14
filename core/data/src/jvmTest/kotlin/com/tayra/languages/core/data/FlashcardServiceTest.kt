@@ -142,6 +142,25 @@ class FlashcardServiceTest {
         assertEquals(listOf(casa), service.browse(id).cards.map { it.term.id })
     }
 
+    /** The session's cards: one being learned whose wait is over first, then the new ones within the day's limit; suspended ones stay out. */
+    @Test
+    fun theSessionHoldsTheCardsDueWithinTheLimits() = runTest {
+        settings.update { it.copy(flashcardNewPerDay = 3) }
+        val id = language()
+        val lobo = term(id, "lobo")
+        val casa = term(id, "casa")
+        val gato = term(id, "gato")
+        val mesa = term(id, "mesa")
+        val livro = term(id, "livro")
+        service.setSuspended(gato, true)
+        answer(id, lobo, Rating.AGAIN)
+        clock.advance(2.minutes)
+
+        // lobo is back from its one-minute step and new, so one of the three new cards is spent.
+        assertEquals(listOf("lobo", "casa", "mesa"), service.sessionTerms(id).map { it.text })
+        assertTrue(livro !in service.sessionTerms(id).map { it.id }, "beyond the day's new cards")
+    }
+
     @Test
     fun cardsBelongToTheirLanguage() = runTest {
         val portuguese = language()
