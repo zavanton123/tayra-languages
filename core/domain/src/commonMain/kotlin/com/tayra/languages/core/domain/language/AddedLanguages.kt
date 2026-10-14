@@ -29,6 +29,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun maltese() = LanguageDefinition(
+        language = Language(
+            name = "Maltese",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Maltese", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/mt/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=mt&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "Sur.|Sinj.|Dr.|eż.|Nru.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſĊċĠġĦħŻż'",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun manx() = LanguageDefinition(
         language = Language(
             name = "Manx",
@@ -68,6 +86,7 @@ object AddedLanguages {
     val all: List<LanguageDefinition> by lazy {
         listOf(
             irish(),
+            maltese(),
             manx(),
             welsh(),
         )

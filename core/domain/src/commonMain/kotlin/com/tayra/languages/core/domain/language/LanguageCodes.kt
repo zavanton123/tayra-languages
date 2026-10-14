@@ -21,6 +21,7 @@ object LanguageCodes {
         "ukrainian" to "uk", "vietnamese" to "vi", "welsh" to "cy",
         "irish" to "ga",
         "manx" to "gv",
+        "maltese" to "mt",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -36,6 +37,7 @@ object LanguageCodes {
         "nah" to "nah", "nv" to "nav", "ain" to "ain", "ceb" to "ceb", "ryu" to "ryu",
         "ga" to "gle",
         "gv" to "glv",
+        "mt" to "mlt",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */

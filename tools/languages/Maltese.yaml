@@ -1,0 +1,18 @@
+name: Maltese
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Maltese"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/mt/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=mt&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?"
+split_sentence_exceptions: "Sur.|Sinj.|Dr.|eż.|Nru."
+word_chars: "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſĊċĠġĦħŻż'"
+right_to_left: false
+show_romanization: false
+parser_type: spacedel

@@ -970,6 +970,46 @@ Iestatījumos varat arī izvēlēties savu dzimto valodu, saskarnes valodu, bezs
 
 Во Поставки можете да ги изберете и вашиот мајчин јазик, јазикот на интерфејсот, офлајн речниците и гласовите. Сега отворете го екранот Курсеви, изберете го првиот курс и почнете да читате. Среќно!""",
             ),
+            "mt" to Tutorial(
+                title = "Kif titgħallem ma' Tayra Languages",
+                text = """Merħba f'Tayra Languages! Dan il-ktieb qasir juri kif tuża l-app biex titgħallem lingwa billi taqra. Huwa miktub bil-lingwa li qed titgħallem, għalhekk huwa wkoll l-ewwel test tiegħek għall-prattika. Tinkwetax jekk għadek ma tifhimx kull kelma.
+
+Għaliex il-qari jaħdem
+
+Nitgħallmu lingwa l-aħjar minn ħafna testi interessanti li kważi nifhmu. Meta taf il-biċċa l-kbira tal-kliem f'paġna, tista' taqta' l-bqija, u kull kelma ġdida tkun eħfef biex tiftakarha. Tayra jgħinek issib testi bħal dawn u jiftakar kull kelma li tiltaqa' magħha.
+
+Il-kuluri juru x'taf
+
+Il-kliem li għadek ma salvajtx huwa blu: huwa ġdid għalik. Ikklikkja fuq kelma biex tara t-traduzzjoni tagħha fil-lingwa nattiva tiegħek, biex tfittixha f'dizzjunarju jew biex tisma' kif tinstema'. Imbagħad agħżel kemm tafha tajjeb. L-istati minn 1 sa 4 ifissru li għadek qed titgħallem il-kelma, u l-kulur tagħha jsir iktar ċar hekk kif titgħallimha. Magħrufa tfisser li taf il-kelma tajjeb, u allura ma jkollha l-ebda kulur. Injora huwa għal ismijiet, numri u kliem ieħor li m'għandekx bżonn titgħallem. Tista' wkoll issalva frażi ta' diversi kelmiet flimkien.
+
+Spiċċa kull paġna
+
+Fl-aħħar ta' paġna, immarka l-kliem li jkun fadal bħala magħruf. Kull kelma blu li tibqa' fuq il-paġna ssir magħrufa. Hekk Tayra jitgħallem liema kliem diġà taf, għalhekk kun onest: jekk kelma għadha mhix ċara, l-ewwel ikklikkja fuqha u agħtiha status ta' tagħlim. Imbagħad il-paġna li jmiss turi inqas kliem blu.
+
+Isma' u ittraduċi
+
+Agħfas il-buttuna tad-daqq biex tisma' t-test jinqara b'leħen għoli, sentenza b'sentenza. Meta l-waqfa awtomatika tkun mixgħula, il-qari jieqaf wara kull sentenza, biex tkun tista' tirrepetiha. Jekk sentenza tkun iebsa wisq, tista' tittraduċiha, imma l-ewwel ipprova tifhimha waħdek.
+
+Korsijiet u t-testi tiegħek
+
+Fl-iskrin Korsijiet hemm korsijiet lesti: stejjer qosra u sempliċi, mil-livell l-eħfef, A1, sal-livell l-aktar diffiċli, C2. Kull kors jgħallmek il-mitt kelma li jmiss mill-aktar komuni tal-lingwa. Tista' tniżżel il-korsijiet tal-lingwa tiegħek fl-Issettjar, taħt Korsijiet. Fil-Kotba tista' żżid ukoll it-testi tiegħek: waħħal artiklu, importa fajl, jew agħmel kors tiegħek minn testi li tagħżel int.
+
+Il-livell tal-vokabolarju tiegħek
+
+Fil-Vokabolarju, il-lista tal-frekwenza tal-kliem turi l-aktar kliem komuni tal-lingwa tiegħek. Jekk diġà taf ftit mil-lingwa, issettja l-livell tal-vokabolarju tiegħek hemmhekk, u Tayra jimmarka l-aktar kliem komuni bħala magħruf għalik.
+
+Karti tal-memorja
+
+Kull kelma li qed titgħallem ikollha karta tal-memorja. Kuljum, irrevedi l-karti li jkunu dovuti f'Karti tal-Memorja; ftit minuti huma biżżejjed. Il-qari jibqa' x-xogħol ewlieni, u l-karti tal-memorja jgħinu biex il-kliem il-ġdid jibqa' miegħek.
+
+Agħmilha drawwa
+
+Aqra ftit kuljum, anke għal għaxar minuti. Agħżel testi li jogħġbuk, u aqrahom aktar minn darba. Isma' u aqra fl-istess ħin. Tissalvax kull kelma: salva l-kliem li trid titgħallem, u kompli aqra. Tista' tara l-progress tiegħek fl-istatistika, u fil-kliem li m'għadux blu.
+
+Fuq kompjuter, il-kombinazzjonijiet tat-tastiera jagħmlu l-qari aktar mgħaġġel. In-numri minn 1 sa 4 jissettjaw status, K timmarka kelma bħala magħrufa, I tinjoraha, T tittraduċi s-sentenza u l-buttuna tal-ispazju tindaqq jew twaqqaf l-awdjo. Issibhom kollha fl-Issettjar, taħt Kombinazzjonijiet tat-tastiera.
+
+Fl-Issettjar tista' wkoll tagħżel il-lingwa nattiva tiegħek, il-lingwa tal-interfaċċa, dizzjunarji mingħajr internet u vuċijiet. Issa iftaħ Korsijiet, agħżel l-ewwel kors u ibda aqra. Ix-xorti t-tajba!""",
+            ),
             "nl" to Tutorial(
                 title = "Zo leer je met Tayra Languages",
                 text = """Welkom bij Tayra Languages! Dit korte boek laat zien hoe je met de app een taal leert door te lezen. Het is geschreven in de taal die je leert, dus het is ook je eerste oefentekst. Maak je geen zorgen als je nog niet elk woord begrijpt.

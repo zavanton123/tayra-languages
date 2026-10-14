@@ -6,9 +6,9 @@ object LanguageCatalog {
     val targetLanguages: List<String> = listOf(
         "Belarusian", "Bulgarian", "Catalan", "Croatian", "Czech", "Danish", "Dutch", "English",
         "Estonian", "Finnish", "French", "Galician", "German", "Greek", "Hungarian", "Icelandic",
-        "Irish", "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian", "Manx", "Norwegian",
-        "Polish", "Portuguese", "Romanian", "Russian", "Serbian", "Slovak", "Slovene", "Spanish",
-        "Swedish", "Turkish", "Ukrainian", "Welsh",
+        "Irish", "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian", "Maltese", "Manx",
+        "Norwegian", "Polish", "Portuguese", "Romanian", "Russian", "Serbian", "Slovak", "Slovene",
+        "Spanish", "Swedish", "Turkish", "Ukrainian", "Welsh",
     )
 
     /** Languages translations and example sentences can be shown in. */
