@@ -17,4 +17,9 @@ class TextProcessorsTest {
     fun french() {
         assertTrue("l\u2019homme" in spellings("fr", "l'homme"))
     }
+
+    @Test
+    fun greek() {
+        assertTrue("πρόσωπο" in spellings("el", "πρόσωπό"))
+    }
 }

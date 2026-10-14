@@ -19,5 +19,14 @@ internal object TextProcessors {
         "eszettPreprocessor" to { s -> listOf(s, s.replace("ẞ", "SS").replace("ß", "ss"), s.replace("SS", "ẞ").replace("ss", "ß")) },
         // French
         "apostropheVariants" to { s -> listOf(s, s.replace('\'', '\u2019'), s.replace('\u2019', '\'')) },
+        // Modern Greek
+        "removeDoubleAcuteAccents" to { s -> listOf(s, removeDoubleAcuteAccents(s)) },
     )
+
+    /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
+    internal fun removeDoubleAcuteAccents(word: String): String {
+        val decomposed = Unicode.nfd(word)
+        val first = decomposed.indexOf('\u0301')
+        return Unicode.nfc(decomposed.filterIndexed { i, c -> c != '\u0301' || i == first })
+    }
 }
