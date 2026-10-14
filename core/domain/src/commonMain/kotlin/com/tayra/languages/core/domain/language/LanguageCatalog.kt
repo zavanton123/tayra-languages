@@ -8,8 +8,8 @@ object LanguageCatalog {
         "Danish", "Dutch", "English", "Esperanto", "Estonian", "Finnish", "French", "Galician",
         "Georgian", "German", "Greek", "Hungarian", "Icelandic", "Irish", "Italian", "Latin", "Latvian",
         "Lithuanian", "Macedonian", "Maltese", "Manx", "Norwegian", "Polish", "Portuguese", "Romanian",
-        "Russian", "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Turkish",
-        "Ukrainian", "Welsh",
+        "Russian", "Scottish Gaelic", "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog",
+        "Turkish", "Ukrainian", "Welsh",
     )
 
     /** Languages translations and example sentences can be shown in. */

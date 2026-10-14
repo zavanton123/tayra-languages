@@ -65,6 +65,25 @@ object AddedLanguages {
         ),
     )
 
+    private fun scottishGaelic() = LanguageDefinition(
+        language = Language(
+            name = "Scottish Gaelic",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Scottish_Gaelic", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.faclair.com/?txtSearch=[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/gd/en/[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=gd&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "Mr.|Dr.|m.e.|msaa.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ'",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun tagalog() = LanguageDefinition(
         language = Language(
             name = "Tagalog",
@@ -106,6 +125,7 @@ object AddedLanguages {
             irish(),
             maltese(),
             manx(),
+            scottishGaelic(),
             tagalog(),
             welsh(),
         )

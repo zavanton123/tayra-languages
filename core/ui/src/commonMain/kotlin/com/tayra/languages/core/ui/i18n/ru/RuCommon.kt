@@ -49,6 +49,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Portuguese (Brazil)" to "Португальский (Бразилия)",
     "Romanian" to "Румынский",
     "Russian" to "Русский",
+    "Scottish Gaelic" to "Шотландский гэльский",
     "Serbian" to "Сербский",
     "Slovak" to "Словацкий",
     "Slovene" to "Словенский",
