@@ -58,4 +58,16 @@ class MorphologyLookupTest {
         assertTrue(lookup.entries.single().isOwnEntry, "another spelling of the word is the word itself")
         assertTrue(service.lookup(la, "puer").isEmpty)
     }
+
+    @Test
+    fun anInflectionThePackDoesNotListFindsItsDictionaryWord() = runTest {
+        val (service, en) = service("en", listOf(Triple("walk", "verb", "to go on foot"), Triple("happy", "adj", "glad")))
+        val walking = service.lookup(en, "walking")
+        assertEquals(listOf("walk"), walking.lemmas)
+        assertEquals("walk", walking.parentSuggestion)
+        assertTrue(!walking.entries.single().isOwnEntry)
+        assertEquals("happy", service.lookup(en, "happiest").parentSuggestion)
+        // A rule only leads to a word of the part of speech it makes: "walker" is not a form of an adjective.
+        assertTrue(service.lookup(en, "happied").isEmpty)
+    }
 }
