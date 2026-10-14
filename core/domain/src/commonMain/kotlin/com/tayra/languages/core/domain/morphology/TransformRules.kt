@@ -6,4 +6,5 @@ import com.tayra.languages.core.domain.morphology.rules.*
 internal val transformRules: Map<String, () -> List<String>> = mapOf(
     "de" to { deTransforms },
     "en" to { enTransforms },
+    "es" to { esTransforms },
 )
