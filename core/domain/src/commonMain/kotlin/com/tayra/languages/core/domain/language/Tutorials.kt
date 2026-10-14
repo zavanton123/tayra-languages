@@ -970,6 +970,46 @@ A Beállításokban kiválaszthatod az anyanyelvedet, a felület nyelvét, az of
 
 Կարգավորումներում կարող եք նաև ընտրել ձեր մայրենի լեզուն, միջերեսի լեզուն, անցանց բառարաններ և ձայներ։ Այժմ բացեք Դասընթացներ բաժինը, ընտրեք առաջին դասընթացը և սկսեք կարդալ։ Մաղթում ենք հաջողություն։""",
             ),
+            "id" to Tutorial(
+                title = "Cara belajar dengan Tayra Languages",
+                text = """Selamat datang di Tayra Languages! Buku pendek ini menunjukkan cara memakai aplikasi ini untuk belajar bahasa dengan membaca. Buku ini ditulis dalam bahasa yang sedang kamu pelajari, jadi ini juga teks latihan pertamamu. Jangan khawatir jika kamu belum memahami setiap kata.
+
+Mengapa membaca membantu
+
+Kita belajar bahasa paling baik dari banyak teks menarik yang hampir bisa kita pahami. Jika kamu tahu sebagian besar kata di sebuah halaman, kamu bisa menebak sisanya, dan setiap kata baru lebih mudah diingat. Tayra membantumu menemukan teks seperti itu dan mengingat setiap kata yang kamu temui.
+
+Warna menunjukkan apa yang kamu ketahui
+
+Kata yang belum kamu simpan berwarna biru: kata itu baru bagimu. Klik sebuah kata untuk melihat terjemahannya dalam bahasa ibumu, mencarinya di kamus, atau mendengar bunyinya. Lalu pilih seberapa baik kamu mengenalnya. Status 1 sampai 4 berarti kamu masih mempelajari kata itu, dan warnanya makin terang seiring kamu mempelajarinya. Dikenal berarti kamu sudah mengenal kata itu dengan baik, dan kata itu tidak berwarna sama sekali. Abaikan dipakai untuk nama, angka, dan kata lain yang tidak perlu kamu pelajari. Kamu juga bisa menyimpan frasa yang terdiri dari beberapa kata sekaligus.
+
+Selesaikan setiap halaman
+
+Di akhir halaman, tandai kata-kata yang tersisa sebagai dikenal. Setiap kata biru yang masih ada di halaman itu menjadi dikenal. Dengan cara inilah Tayra mengetahui kata mana yang sudah kamu kenal, jadi jujurlah: jika sebuah kata masih belum jelas, klik dulu kata itu dan beri status belajar. Dengan begitu, halaman berikutnya menampilkan lebih sedikit kata biru.
+
+Dengarkan dan terjemahkan
+
+Tekan tombol putar untuk mendengar teks dibacakan dengan keras, kalimat demi kalimat. Jika jeda otomatis aktif, pembacaan berhenti setelah setiap kalimat, sehingga kamu bisa mengulanginya. Jika sebuah kalimat terlalu sulit, kamu bisa menerjemahkannya, tetapi cobalah dulu memahaminya sendiri.
+
+Kursus dan teksmu sendiri
+
+Layar Kursus berisi kursus siap pakai: cerita pendek dan sederhana, dari tingkat termudah, A1, sampai yang tersulit, C2. Setiap kursus mengajarkan seratus kata paling umum berikutnya dalam bahasa itu. Kamu bisa mengunduh kursus untuk bahasamu di Pengaturan, di bagian Kursus. Di Buku kamu juga bisa menambahkan teksmu sendiri: tempel sebuah artikel, impor sebuah berkas, atau buat kursusmu sendiri dari teks yang kamu pilih.
+
+Tingkat kosakatamu
+
+Di Kosakata, daftar frekuensi kata menampilkan kata-kata paling umum dalam bahasamu. Jika kamu sudah sedikit menguasai bahasa itu, atur tingkat kosakatamu di sana, dan Tayra akan menandai kata-kata paling umum sebagai dikenal untukmu.
+
+Kartu Hafalan
+
+Setiap kata yang sedang kamu pelajari mendapat kartu hafalan. Setiap hari, ulangi kartu yang sudah tiba waktunya di Kartu Hafalan; beberapa menit sudah cukup. Membaca tetap menjadi pekerjaan utama, dan kartu hafalan membantu kata-kata baru tetap melekat di ingatanmu.
+
+Jadikan kebiasaan
+
+Bacalah sedikit setiap hari, walau hanya sepuluh menit. Pilih teks yang kamu sukai, dan bacalah lebih dari sekali. Dengarkan dan baca pada saat yang sama. Jangan simpan setiap kata: simpan kata-kata yang ingin kamu pelajari, dan teruslah membaca. Kamu bisa melihat kemajuanmu di statistik, dan pada kata-kata yang tidak lagi berwarna biru.
+
+Di komputer, pintasan papan ketik membuat membaca lebih cepat. Angka 1 sampai 4 mengatur status, K menandai kata sebagai dikenal, I mengabaikannya, T menerjemahkan kalimat, dan tombol spasi memutar atau menjeda audio. Kamu akan menemukan semuanya di Pengaturan, di bagian Pintasan papan ketik.
+
+Di Pengaturan kamu juga bisa memilih bahasa ibumu, bahasa antarmuka, kamus luring, dan suara. Sekarang buka Kursus, pilih kursus pertama, dan mulailah membaca. Semoga berhasil!""",
+            ),
             "is" to Tutorial(
                 title = "Svona lærir þú með Tayra Languages",
                 text = """Velkomin í Tayra Languages! Þessi stutta bók sýnir þér hvernig þú notar forritið til að læra tungumál með því að lesa. Hún er skrifuð á tungumálinu sem þú ert að læra, svo hún er líka fyrsti æfingatextinn þinn. Ekki hafa áhyggjur þótt þú skiljir ekki hvert orð enn.
