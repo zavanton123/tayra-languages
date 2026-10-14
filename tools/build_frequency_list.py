@@ -9,6 +9,7 @@ Word counts come from the first source that has the language:
   2. FrequencyWords (hermitdave/FrequencyWords), counts from OpenSubtitles 2018
   3. the Leipzig Corpora Collection, counts from a news or Wikipedia corpus
   4. the language's Wikipedia, counted from its articles dump (for languages none of the others has)
+  5. for Ancient Greek, the New Testament's word forms as MorphGNT parses the SBLGNT
 
 --source forces one of them. The counts are of word forms; each form is credited to the dictionary
 words it is a form of, using the forms table of the language's offline dictionary pack
@@ -72,6 +73,11 @@ FALLBACKS = {
     "lt": {"leipzig": ["lit_news_2020_300K"]},
     "lv": {"leipzig": ["lav_news_2020_300K"]},
     "cy": {"leipzig": ["cym_wikipedia_2021_100K"]},
+    "br": {"leipzig": ["bre_wikipedia_2021_100K"]},
+    "yi": {"leipzig": ["yid_wikipedia_2021_30K"]},
+    "arz": {"leipzig": ["arz_wikipedia_2021_100K"]},
+    "kn": {"leipzig": ["kan_wikipedia_2021_300K"]},
+    "th": {"leipzig": ["tha_news_2020_30K", "tha_wikipedia_2021_10K"]},
     "ga": {"leipzig": ["gle_wikipedia_2021_30K"]},
     "gv": {"leipzig": ["glv_wikipedia_2021_10K"]},
     "mt": {"leipzig": ["mlt_wikipedia_2021_30K", "mlt_news_2020_30K"]},
@@ -84,6 +90,15 @@ FALLBACKS = {
     "eo": {"leipzig": ["epo_newscrawl_2017_1M", "epo_wikipedia_2021_300K"]},
 }
 
+# Languages written without spaces: a corpus's runs of letters are cut into words as the app's
+# parser cuts them, the longest the dictionary knows first; wordfreq's own lists are cut already.
+SEGMENTED = {"zh", "yue", "ja", "th", "lo", "km"}
+# Of these, the ones whose letters no word covers make one word together, as in the app.
+JOIN_UNKNOWN = {"th", "lo", "km"}
+
+# The gloss language of the pack whose forms group a language's words, where English's is small.
+DICTIONARY_TARGETS = {"br": "fr"}
+
 # Wikipedia editions by the app's code where they differ.
 WIKIPEDIAS = {"yue": "zh_yue"}
 
@@ -92,6 +107,7 @@ WIKIPEDIAS = {"yue": "zh_yue"}
 ENOUGH_FORMS = 100_000
 
 SOURCE_LICENCES = {
+    "morphgnt": "CC BY-SA 3.0; text SBLGNT",
     "wikipedia": "CC BY-SA 4.0",
     "wordfreq": "CC BY-SA 4.0",
     "frequencywords": "CC BY-SA 4.0",
@@ -168,14 +184,17 @@ def wordfreq_counts(language, limit):
     language = WORDFREQ_CODES.get(language, language)
     if language not in wordfreq.available_languages("best"):
         return None
-    words = wordfreq.top_n_list(language, limit, wordlist="best")
+    # The list's own frequencies: word_frequency would tokenize each word again, which needs MeCab
+    # for Japanese and Korean.
+    frequencies = wordfreq.get_frequency_dict(language, wordlist="best")
+    words = sorted(frequencies, key=lambda w: -frequencies[w])[:limit]
     from importlib.metadata import version as installed
     version = installed("wordfreq")
     counts = {}
     for w in words:
         # wordfreq folds Greek final ς to σ ("τησ"); the dictionary and texts write ς.
         key = w[:-1] + "ς" if language == "el" and w.endswith("σ") else w
-        counts[key] = counts.get(key, 0) + wordfreq.word_frequency(w, language, wordlist="best")
+        counts[key] = counts.get(key, 0) + frequencies[w]
     return counts, f"wordfreq {version}".strip()
 
 
@@ -299,7 +318,27 @@ def wikipedia_counts(language, limit):
     return dict(top), f"{wiki}.wikipedia.org articles"
 
 
-SOURCES = {"wordfreq": wordfreq_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts}
+def morphgnt_counts(language, limit):
+    """Ancient Greek, which no other source has: the word forms of the New Testament as MorphGNT parses the SBLGNT."""
+    if language != "grc":
+        return None
+    path = download("https://github.com/morphgnt/sblgnt/archive/refs/heads/master.zip", "morphgnt.zip")
+    if path is None:
+        return None
+    import zipfile
+    counts = defaultdict(int)
+    with zipfile.ZipFile(path) as z:
+        for name in z.namelist():
+            if name.endswith("-morphgnt.txt"):
+                for line in z.read(name).decode("utf-8").splitlines():
+                    parts = line.split()
+                    if len(parts) == 7:
+                        counts[lower(language, parts[4])] += 1
+    top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
+    return dict(top), "MorphGNT parses of the SBLGNT"
+
+
+SOURCES = {"wordfreq": wordfreq_counts, "morphgnt": morphgnt_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts}
 
 
 class Lemmatizer:
@@ -326,7 +365,7 @@ def simplemma_for(language):
 
 
 def load_dictionary(language):
-    path = os.path.join(DICTIONARIES, f"{language}-en.sqlite")
+    path = os.path.join(DICTIONARIES, f"{language}-{DICTIONARY_TARGETS.get(language, 'en')}.sqlite")
     if not os.path.exists(path):
         sys.exit(f"{path} is missing; build it with: python3 tools/build_dictionary.py --source {language} --target en")
     db = sqlite3.connect(path)
@@ -359,11 +398,52 @@ def load_dictionary(language):
     return pos, lemmas, common, outdated
 
 
+def segmenter(language):
+    """Cuts a run of letters into the longest words of the language's dictionary, as SegmentingParser does."""
+    db = sqlite3.connect(os.path.join(DICTIONARIES, f"{language}-{DICTIONARY_TARGETS.get(language, 'en')}.sqlite"))
+    words = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
+    longest = min(16, max((len(w) for w in words), default=1))
+    join = language in JOIN_UNKNOWN
+
+    def segment(run):
+        out, unknown, i = [], "", 0
+        while i < len(run):
+            end = next((j for j in range(min(len(run), i + longest), i, -1) if run[i:j] in words), None)
+            if end is None:
+                if join:
+                    unknown += run[i]
+                else:
+                    out.append(run[i])
+                i += 1
+                continue
+            if unknown:
+                out.append(unknown)
+                unknown = ""
+            out.append(run[i:end])
+            i = end
+        if unknown:
+            out.append(unknown)
+        return out
+
+    return segment
+
+
+def resegment(language, counts):
+    segment = segmenter(language)
+    out = defaultdict(int)
+    for text, count in counts.items():
+        for word in segment(text):
+            out[word] += count
+    return dict(out)
+
+
 def build(language, source, size):
-    order = [source] if source else ["wordfreq", "frequencywords", "leipzig", "wikipedia"]
+    order = [source] if source else ["wordfreq", "frequencywords", "leipzig", "wikipedia", "morphgnt"]
     found = []
     for name in order:
         result = SOURCES[name](language, 200_000)
+        if result and language in SEGMENTED and name != "wordfreq":
+            result = (resegment(language, result[0]), result[1])
         if result:
             found.append((name, *result))
             if len(found) == 1 and len(result[0]) >= ENOUGH_FORMS:

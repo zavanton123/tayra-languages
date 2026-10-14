@@ -270,7 +270,11 @@ or corpus is small (Belarusian about 3,800, Basque about 2,800).
 simplemma` and the `dictionaries/<code>-en.sqlite` packs. Counts come from wordfreq; Croatian,
 Serbian, Estonian and Galician from FrequencyWords (OpenSubtitles); Belarusian and Latin from the
 Leipzig Corpora Collection; a language none of these has, from its Wikipedia, counted from the
-articles dump with the markup taken out. A language for which wordfreq keeps only its short list is blended with
+articles dump with the markup taken out; Ancient Greek from the New Testament as MorphGNT parses
+it. A corpus of a language written without spaces (Thai, Lao, Khmer, Cantonese) is cut into words
+as the app's parser cuts it, the longest the dictionary knows first; wordfreq's lists are cut
+already. Breton's words are grouped with its French pack's forms, which are far more than its
+English pack's. A language for which wordfreq keeps only its short list is blended with
 the other sources. Downloads are cached in `dictionaries/frequency-sources`.
 
 Forms are grouped under their dictionary words with the pack's forms table, then simplemma for
