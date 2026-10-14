@@ -128,3 +128,13 @@ For iOS, run `pod install` in `iosApp` once, then open `iosApp/iosApp.xcworkspac
 
 Details for contributors, from the module layout to how dictionary packs are built, are in
 [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
+
+## Licence
+
+Tayra Languages is free software under the GNU General Public License, version 3 or later
+([LICENSE](LICENSE)). It began as a port of [Lute](https://github.com/LuteOrg/lute-v3) (MIT), and
+its language rules (text normalisation and inflection) are ported from
+[Yomitan](https://github.com/yomidevs/yomitan) (GPL-3.0). Dictionary packs are built from Wiktionary
+through kaikki.org and [wiktionary-to-yomitan](https://github.com/yomidevs/wiktionary-to-yomitan),
+under CC BY-SA 4.0. Bundled fonts and flags keep their own licences, in
+`core/ui/src/commonMain/composeResources/files/licenses`.
