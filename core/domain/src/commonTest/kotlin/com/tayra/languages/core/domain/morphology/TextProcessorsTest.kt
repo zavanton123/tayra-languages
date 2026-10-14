@@ -41,4 +41,11 @@ class TextProcessorsTest {
         assertTrue("ёлка" in spellings("ru", "елка"))
         assertTrue("слово" in spellings("ru", "сло\u0301во"))
     }
+
+    @Test
+    fun serboCroatian() {
+        assertTrue("čas" in spellings("sr", "cas"))
+        assertTrue("đak" in spellings("hr", "djak"))
+        assertTrue(spellings("sr", "pa\u030fs").any { Unicode.nfc(it) == "pas" })
+    }
 }

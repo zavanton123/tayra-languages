@@ -35,6 +35,9 @@ internal object TextProcessors {
         // Russian
         "removeRussianDiacritics" to { s -> listOf(s, s.replace("\u0301", "")) },
         "yoToE" to { s -> listOf(s, s.replace('ё', 'е').replace('Ё', 'Е'), s.replace('е', 'ё').replace('Е', 'Ё')) },
+        // Serbo-Croatian
+        "removeSerboCroatianAccentMarks" to { s -> listOf(s, serboCroatianAccents.replace(Unicode.nfd(s), "$1")) },
+        "addSerboCroatianDiacritics" to { s -> serboCroatianDiacriticVariants(s) },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
@@ -45,4 +48,39 @@ internal object TextProcessors {
     }
 
     private val ukrainianApostrophes = Regex("['\u2018\u2019\u02bc`\u00b4]")
+
+    private val serboCroatianAccents = Regex("([aeiourAEIOUR])[\u0300-\u036f]")
+
+    /** Every spelling of a word typed without diacritics: c as č or ć, z as ž, s as š, dj as đ. */
+    internal fun serboCroatianDiacriticVariants(word: String): List<String> {
+        val text = Unicode.nfc(word)
+        var variants = listOf("")
+        var i = 0
+        while (i < text.length) {
+            val c = text[i]
+            val next = text.getOrNull(i + 1)
+            variants = if ((c == 'd' || c == 'D') && (next == 'j' || next == 'J')) {
+                val base = "$c$next"
+                val dj = if (c == 'D') "Đ" else "đ"
+                i++
+                variants.flatMap { listOf(it + base, it + dj) }
+            } else {
+                val choices = when (c) {
+                    'c' -> listOf("c", "č", "ć")
+                    'C' -> listOf("C", "Č", "Ć")
+                    'z' -> listOf("z", "ž")
+                    'Z' -> listOf("Z", "Ž")
+                    's' -> listOf("s", "š")
+                    'S' -> listOf("S", "Š")
+                    else -> listOf(c.toString())
+                }
+                variants.flatMap { v -> choices.map { v + it } }
+            }
+            if (variants.size > MAX_VARIANTS) variants = variants.take(MAX_VARIANTS)
+            i++
+        }
+        return variants
+    }
+
+    private const val MAX_VARIANTS = 4096
 }
