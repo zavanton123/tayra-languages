@@ -34,4 +34,11 @@ class TextProcessorsTest {
         assertTrue("мама" in spellings("uk", "ма\u0301ма"))
         assertTrue("п'ять" in spellings("uk", "п\u2019ять"))
     }
+
+    @Test
+    fun russian() {
+        assertTrue("еще" in spellings("ru", "ещё"))
+        assertTrue("ёлка" in spellings("ru", "елка"))
+        assertTrue("слово" in spellings("ru", "сло\u0301во"))
+    }
 }

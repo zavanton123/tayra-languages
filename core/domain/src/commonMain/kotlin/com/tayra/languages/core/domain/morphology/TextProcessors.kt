@@ -32,6 +32,9 @@ internal object TextProcessors {
         // Ukrainian
         "removeUkrainianDiacritics" to { s -> listOf(s, s.replace("\u0301", "")) },
         "ukrainianApostropheVariants" to { s -> listOf(s) + listOf("'", "\u2019", "\u02bc").map { s.replace(ukrainianApostrophes, it) } },
+        // Russian
+        "removeRussianDiacritics" to { s -> listOf(s, s.replace("\u0301", "")) },
+        "yoToE" to { s -> listOf(s, s.replace('ё', 'е').replace('Ё', 'Е'), s.replace('е', 'ё').replace('Е', 'Ё')) },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
