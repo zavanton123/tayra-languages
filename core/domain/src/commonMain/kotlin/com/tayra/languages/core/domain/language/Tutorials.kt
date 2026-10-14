@@ -610,6 +610,46 @@ Nun ordenador, os atallos de teclado fan que leas máis rápido. Os números do 
 
 En Configuración tamén podes escoller a túa lingua materna, o idioma da interface, os dicionarios sen conexión e as voces. Agora abre Cursos, escolle o primeiro curso e comeza a ler. Boa sorte!""",
             ),
+            "gv" to Tutorial(
+                title = "Kys dy ynsaghey lesh Tayra Languages",
+                text = """Failt ort gys Tayra Languages! Ta'n lioar ghiare shoh soilshaghey dhyt kys dy ymmydey yn app dy ynsaghey çhengey liorish lhaih. Te scruit ayns y çhengey t'ou dy ynsaghey, myr shen she dty chied screeuyn son cleaghtey eh neesht. Ny bee imnea ort mannagh vel oo toiggal dagh fockle foast.
+
+Cre'n fa ta lhaih gobbraghey
+
+Ta shin ynsaghey çhengey share voish ymmodee screeunyn taitnyssagh ta shin bunnys toiggal. Tra ta fys ayd er y chooid smoo jeh ny focklyn er duillag, foddee oo tomys y yannoo er y chooid elley, as s'aashey eh dagh fockle noa y chooinaghtyn. Ta Tayra cooney lhiat screeunyn myr shen y gheddyn, as t'eh cooinaghtyn er dagh fockle t'ou meeteil.
+
+Ta daaghyn soilshaghey ny t'ou toiggal
+
+Ta ny focklyn nagh vel oo er hauail foast gorrym: t'ad noa dhyt. Brooie er fockle dy akin yn chyndaays echey ayns dty hengey ghooie, dy ronsaghey eh ayns fockleyr ny dy chlashtyn kys t'eh sheeanal. Eisht reih cre cha mie as t'ou toiggal eh. Ta ny staydyn veih 1 gys 4 soilshaghey dy vel oo foast ynsaghey yn fockle, as ta'n daah echey goll ny s'soilshey myr t'ou dy ynsaghey eh. Ta Toiggit soilshaghey dy vel oo toiggal yn fockle dy mie, as eisht cha nel daah erbee er. Ta Cur er-cheu son enmyn, earrooyn as focklyn elley nagh vel feme ayd er ynsaghey. Foddee oo myrgeddin raa jeh shiartanse focklyn y hauail cooidjagh.
+
+Jean jerrey jeh dagh duillag
+
+Ec jerrey duillag, cowree ny focklyn ta faagit myr toiggit. Bee dagh fockle gorrym ta faagit er y duillag toiggit eisht. Shoh myr ta Tayra ynsaghey cre ny focklyn t'ou toiggal hannah, myr shen bee firrinagh: mannagh vel fockle baghtal foast, brooie er as cur stayd ynsee da hoshiaght. Eisht bee ny sloo focklyn gorrym er yn nah duillag.
+
+Clasht as chyndaa
+
+Brooie er y chramman cloie dy chlashtyn y screeuyn er ny lhaih magh, raa lurg raa. Tra ta'n scuirr hene-obbragh er, ta'n lhaih scuirr lurg dagh raa, myr shen foddee oo eh y ghra reesht. My ta raa ro ghoillee, foddee oo eh y chyndaa, agh prow dy hoiggal eh dty lomarcan hoshiaght.
+
+Coorsyn as dty screeunyn hene
+
+Ayns Coorsyn ta coorsyn aarlit: skeealyn giare as aashagh, veih'n keim s'aashey, A1, gys y keim s'doillee, C2. Ta dagh coorse ynsaghey yn nah keead jeh ny focklyn smoo cadjin ayns y çhengey. Foddee oo coorsyn dty hengey y laadey neose ayns ny Soiaghyn, fo Coorsyn. Ayns Lioaryn foddee oo dty screeunyn hene y chur stiagh neesht: cur art stiagh, imbyrt coadan, ny jean coorse dty hene veih screeunyn t'ou reih.
+
+Keim dty ockleyreen
+
+Ayns Fockleyreen, ta'n rolley mennickys focklyn soilshaghey ny focklyn smoo cadjin ayns dty hengey. My t'ou toiggal paart jeh'n çhengey hannah, soie keim dty ockleyreen ayns shen, as nee Tayra cowraghey ny focklyn smoo cadjin myr toiggit er dty hon.
+
+Cartyn cooinaghtyn
+
+Ta cart cooinaghtyn ec dagh fockle t'ou dy ynsaghey. Dagh laa, jeeagh reesht ayns Cartyn Cooinaghtyn er ny cartyn ta kiarit son jiu; ta paart dy vinnidyn dy liooar. Ta lhaih foast yn obbyr vooar, as ta ny cartyn cooinaghtyn cooney lhiat ny focklyn noa y reayll.
+
+Jean cliaghtey jeh
+
+Lhaih red beg dagh laa, eer son jeih minnid. Reih screeunyn ta taitnyssagh dhyt, as lhaih ad ny smoo na un cheayrt. Clasht as lhaih ec yn un traa. Ny sauail dagh fockle: sauail ny focklyn ta mian ayd dy ynsaghey, as freill ort lhaih. Foddee oo dty vishaghey y akin ayns ny staydraghtyn, as ayns ny focklyn nagh vel gorrym ny sodjey.
+
+Er co-earrooder, ta giare-raaidyn y voayrd-chramman jannoo lhaih ny s'tappee. Ta ny earrooyn veih 1 gys 4 soiaghey stayd, ta K cowraghey fockle myr toiggit, ta I cur eh er-cheu, ta T chyndaa yn raa as ta'n barr follym cloie ny scuirr yn sheean. Yiow oo ad ooilley ayns ny Soiaghyn, fo Giare-raaidyn y voayrd-chramman.
+
+Ayns ny Soiaghyn foddee oo neesht dty hengey ghooie y reih, çhengey yn app, fockleyryn gyn linney as coraaghyn. Nish fosil Coorsyn, reih yn chied choorse as toshee lhaih. Aigh vie!""",
+            ),
             "hr" to Tutorial(
                 title = "Kako učiti s Tayra Languages",
                 text = """Dobro došli u Tayra Languages! Ova kratka knjiga pokazuje vam kako se služiti aplikacijom da biste učili jezik čitanjem. Napisana je na jeziku koji učite, pa je ujedno i vaš prvi tekst za vježbu. Ne brinite ako još ne razumijete svaku riječ.

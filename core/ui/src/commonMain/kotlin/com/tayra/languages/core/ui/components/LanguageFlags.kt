@@ -52,6 +52,7 @@ import tayra_languages.core.ui.generated.resources.flag_hu
 import tayra_languages.core.ui.generated.resources.flag_id
 import tayra_languages.core.ui.generated.resources.flag_ie
 import tayra_languages.core.ui.generated.resources.flag_il
+import tayra_languages.core.ui.generated.resources.flag_im
 import tayra_languages.core.ui.generated.resources.flag_in
 import tayra_languages.core.ui.generated.resources.flag_ir
 import tayra_languages.core.ui.generated.resources.flag_is
