@@ -93,6 +93,7 @@ import kotlinx.coroutines.withTimeout
 import org.junit.After
 import java.io.File
 import kotlin.test.Test
+import androidx.compose.ui.test.performTouchInput
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 import androidx.compose.ui.test.getBoundsInRoot
@@ -437,6 +438,49 @@ class ReadingHoverTest {
     }
 
     /** A translation under its sentence starts where the sentence does, with or without the play buttons before sentences. */
+    /** A click on the word the pane shows leaves the pane open; only its close button puts it away. */
+    @Test
+    fun clickingTheShownWordAgainKeepsThePane() = runBlocking {
+        val vm = reader()
+        vm.onWordClick(vm.index("lobo"), shift = false)
+        delay(200)
+        val panel = vm.state.value.panel
+        assertTrue(panel != ReadingPanel.None)
+        vm.onWordClick(vm.index("lobo"), shift = false)
+        delay(200)
+        assertEquals(panel, vm.state.value.panel, "the same pane, still open")
+        assertEquals(setOf(vm.index("lobo")), vm.state.value.marked)
+        vm.closePanel()
+        delay(200)
+        assertEquals(ReadingPanel.None, vm.state.value.panel)
+    }
+
+    /** On a phone the pane is a sheet over a live page: a tap on the text above it does not put it away. */
+    @Test
+    fun aPhonesTermSheetStaysOpenWhenTheTextIsTapped() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent {
+            androidx.compose.runtime.CompositionLocalProvider(com.tayra.languages.core.ui.components.LocalWindowWidth provides com.tayra.languages.core.ui.components.WindowWidth.COMPACT) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm)
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        vm.onWordTap(vm.index("lobo"))
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Term details", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
+        // A touch on the page above the sheet: the text's own, not a scrim's.
+        val root = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0]
+        root.performTouchInput { click(Offset(width / 2f, height * 0.2f)) }
+        rule.waitForIdle()
+        assertTrue(vm.state.value.panel != ReadingPanel.None, "the pane stays open")
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Term details", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
+        // Another word shows that word in the same sheet.
+        vm.onWordTap(vm.index("floresta"))
+        rule.waitUntil(5_000) { vm.state.value.marked == setOf(vm.index("floresta")) && vm.state.value.panel != ReadingPanel.None }
+        // The new word's form loads before its heading shows.
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Term details", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
+    }
+
     @Test
     fun aTranslationUnderItsSentenceLinesUpWithIt() = translationLinesUp(playButtons = false)
 

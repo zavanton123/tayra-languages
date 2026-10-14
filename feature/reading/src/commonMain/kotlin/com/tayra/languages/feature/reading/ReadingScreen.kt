@@ -41,7 +41,15 @@ import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.ui.graphics.Color
+import kotlinx.coroutines.flow.drop
+import androidx.compose.ui.backhandler.BackHandler
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.material3.rememberStandardBottomSheetState
+import androidx.compose.material3.rememberBottomSheetScaffoldState
+import androidx.compose.material3.SheetValue
+import androidx.compose.material3.BottomSheetScaffold
 import androidx.compose.material3.ModalDrawerSheet
 import androidx.compose.material3.ModalNavigationDrawer
 import androidx.compose.material3.Snackbar
@@ -53,7 +61,6 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Button
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.material3.DrawerValue
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -291,6 +298,12 @@ fun ReadingScreen(
             }
         },
     ) {
+        TermSheet(
+            enabled = !wide,
+            open = state.panel != ReadingPanel.None,
+            onClosed = viewModel::closePanel,
+            sheet = { CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) } },
+        ) {
         Column(
             Modifier
                 .fillMaxSize()
@@ -345,15 +358,9 @@ fun ReadingScreen(
                 }
             }
         }
-    }
-
-    if (!wide && state.panel != ReadingPanel.None) {
-        val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = false)
-        // The default sheet width (640dp) leaves a tablet's sheet narrower than its page.
-        ModalBottomSheet(onDismissRequest = viewModel::closePanel, sheetState = sheetState, sheetMaxWidth = Dp.Unspecified, dragHandle = { SheetHandle() }) {
-            Box(Modifier.fillMaxWidth()) { CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) } }
         }
     }
+
     if (bookmarkDialog) {
         TextInputDialog(
             title = tr("Add bookmark"),
@@ -363,6 +370,41 @@ fun ReadingScreen(
         )
     }
     ToastHost(toast)
+}
+
+/**
+ * On narrower windows the term pane is a sheet over the page that leaves the text live: a tap on
+ * another word shows that word, and the pane goes only when it is swiped down, closed from its
+ * button, or with Back. [open] follows the pane; [onClosed] hears that it was put away.
+ */
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalComposeUiApi::class)
+@Composable
+private fun TermSheet(enabled: Boolean, open: Boolean, onClosed: () -> Unit, sheet: @Composable () -> Unit, content: @Composable () -> Unit) {
+    if (!enabled) {
+        content()
+        return
+    }
+    val sheetState = rememberStandardBottomSheetState(initialValue = SheetValue.Hidden, skipHiddenState = false)
+    val scaffold = rememberBottomSheetScaffoldState(bottomSheetState = sheetState)
+    val closed by rememberUpdatedState(onClosed)
+    LaunchedEffect(open) { if (open) sheetState.partialExpand() else sheetState.hide() }
+    // Hidden by a swipe is the pane closed by hand.
+    LaunchedEffect(sheetState) {
+        snapshotFlow { sheetState.currentValue }.drop(1).collect { if (it == SheetValue.Hidden) closed() }
+    }
+    BackHandler(enabled = open) { closed() }
+    BoxWithConstraints(Modifier.fillMaxSize()) {
+        val full = maxHeight
+        BottomSheetScaffold(
+            sheetContent = { Box(Modifier.fillMaxWidth().height(full * 0.9f)) { if (open) sheet() } },
+            scaffoldState = scaffold,
+            sheetPeekHeight = full * 0.55f,
+            // The default sheet width (640dp) leaves a tablet's sheet narrower than its page.
+            sheetMaxWidth = Dp.Unspecified,
+            sheetDragHandle = { SheetHandle() },
+            containerColor = Color.Transparent,
+        ) { content() }
+    }
 }
 
 /** The sheet's grabber, with less room around it than Material's. */

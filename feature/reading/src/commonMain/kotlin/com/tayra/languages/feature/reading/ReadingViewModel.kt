@@ -261,9 +261,10 @@ class ReadingViewModel(
         if (!item.isWord) return
         hidePopup()
         if (!shift) {
-            val nowMarked = itemIndex !in s.marked || s.marked.size > 1
-            _state.update { it.copy(marked = if (nowMarked) setOf(itemIndex) else emptySet(), hovered = null, selection = null) }
-            if (nowMarked) openTerm(item) else closePanel()
+            // The pane goes only when it is closed; a click on the word it shows changes nothing.
+            if (s.marked == setOf(itemIndex) && s.panel != ReadingPanel.None) return
+            _state.update { it.copy(marked = setOf(itemIndex), hovered = null, selection = null) }
+            openTerm(item)
             return
         }
         val marked = if (itemIndex in s.marked) s.marked - itemIndex else s.marked + itemIndex
