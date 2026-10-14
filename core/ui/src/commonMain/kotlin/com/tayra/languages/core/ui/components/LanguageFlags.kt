@@ -21,21 +21,20 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
 import tayra_languages.core.ui.generated.resources.Res
-import tayra_languages.core.ui.generated.resources.flag_ke
-import tayra_languages.core.ui.generated.resources.flag_eg
-import tayra_languages.core.ui.generated.resources.flag_br
 import tayra_languages.core.ui.generated.resources.flag_al
 import tayra_languages.core.ui.generated.resources.flag_am
 import tayra_languages.core.ui.generated.resources.flag_az
 import tayra_languages.core.ui.generated.resources.flag_ba
 import tayra_languages.core.ui.generated.resources.flag_bd
 import tayra_languages.core.ui.generated.resources.flag_bg
+import tayra_languages.core.ui.generated.resources.flag_br
 import tayra_languages.core.ui.generated.resources.flag_by
 import tayra_languages.core.ui.generated.resources.flag_cn
 import tayra_languages.core.ui.generated.resources.flag_cz
 import tayra_languages.core.ui.generated.resources.flag_de
 import tayra_languages.core.ui.generated.resources.flag_dk
 import tayra_languages.core.ui.generated.resources.flag_ee
+import tayra_languages.core.ui.generated.resources.flag_eg
 import tayra_languages.core.ui.generated.resources.flag_es
 import tayra_languages.core.ui.generated.resources.flag_es_ct
 import tayra_languages.core.ui.generated.resources.flag_es_ga
@@ -51,12 +50,14 @@ import tayra_languages.core.ui.generated.resources.flag_gr
 import tayra_languages.core.ui.generated.resources.flag_hr
 import tayra_languages.core.ui.generated.resources.flag_hu
 import tayra_languages.core.ui.generated.resources.flag_id
+import tayra_languages.core.ui.generated.resources.flag_ie
 import tayra_languages.core.ui.generated.resources.flag_il
 import tayra_languages.core.ui.generated.resources.flag_in
 import tayra_languages.core.ui.generated.resources.flag_ir
 import tayra_languages.core.ui.generated.resources.flag_is
 import tayra_languages.core.ui.generated.resources.flag_it
 import tayra_languages.core.ui.generated.resources.flag_jp
+import tayra_languages.core.ui.generated.resources.flag_ke
 import tayra_languages.core.ui.generated.resources.flag_kh
 import tayra_languages.core.ui.generated.resources.flag_kr
 import tayra_languages.core.ui.generated.resources.flag_kz
@@ -160,6 +161,7 @@ private val flags: Map<String, List<DrawableResource>> by lazy {
         "uk" to listOf(Res.drawable.flag_ua),
         "vi" to listOf(Res.drawable.flag_vn),
         "cy" to listOf(Res.drawable.flag_gb_wls),
+        "ga" to listOf(Res.drawable.flag_ie),
     )
 }
 

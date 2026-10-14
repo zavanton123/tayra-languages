@@ -19,6 +19,7 @@ object LanguageCodes {
         "sanskrit" to "sa", "serbian" to "sr", "slovak" to "sk", "slovene" to "sl", "slovenian" to "sl", "spanish" to "es",
         "swahili" to "sw", "swedish" to "sv", "thai" to "th", "tibetan" to "bo", "toki pona" to "tok", "turkish" to "tr",
         "ukrainian" to "uk", "vietnamese" to "vi", "welsh" to "cy",
+        "irish" to "ga",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -32,6 +33,7 @@ object LanguageCodes {
         "ru" to "rus", "sa" to "san", "sr" to "srp", "sk" to "slk", "sl" to "slv", "es" to "spa", "sw" to "swh", "sv" to "swe",
         "th" to "tha", "bo" to "bod", "tr" to "tur", "uk" to "ukr", "vi" to "vie", "cy" to "cym", "tok" to "toki", "got" to "got",
         "nah" to "nah", "nv" to "nav", "ain" to "ain", "ceb" to "ceb", "ryu" to "ryu",
+        "ga" to "gle",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */

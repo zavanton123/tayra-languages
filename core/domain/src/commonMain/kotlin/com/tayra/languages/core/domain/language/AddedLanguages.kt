@@ -10,8 +10,28 @@ import com.tayra.languages.core.domain.model.LanguageDictionary
 @Suppress("LargeClass", "MaxLineLength")
 object AddedLanguages {
 
+    private fun irish() = LanguageDefinition(
+        language = Language(
+            name = "Irish",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Irish", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.teanglann.ie/en/fgb/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/ga/en/[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=ga&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "Mr.|Dr.|m.sh.|lch.|Uimh.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ'",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     val all: List<LanguageDefinition> by lazy {
         listOf(
+            irish(),
         )
     }
 }

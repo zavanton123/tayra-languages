@@ -51,8 +51,9 @@ OUT_DIR = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "compo
 
 # The languages the app teaches, by the codes it files them under.
 LANGUAGES = [
-    "be", "bg", "ca", "cs", "da", "de", "el", "en", "es", "et", "fi", "fr", "gl", "hr", "hu", "is", "it",
-    "la", "lt", "lv", "mk", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "tr", "uk",
+    "be", "bg", "ca", "cs", "da", "de", "el", "en", "es", "et", "fi", "fr", "gl", "hr", "hu", "is",
+    "it", "la", "lt", "lv", "mk", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "tr",
+    "uk", "ga",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
