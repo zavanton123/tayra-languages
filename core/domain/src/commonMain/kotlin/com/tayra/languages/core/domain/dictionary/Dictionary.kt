@@ -51,70 +51,30 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String) 
     }
 }
 
-/** A downloadable dictionary: a gzip-compressed SQLite file produced by tools/build_dictionary.py. */
-data class DictionaryPack(val id: DictionaryId, val title: String, val url: String) {
-    /** The size of the download in bytes, when known. */
-    val downloadSize: Long? get() = dictionaryPackSizes[id.name]
-}
+/** A downloadable dictionary: a gzip-compressed SQLite file produced by tools/build_dictionary.py or tools/build_yomitan_dictionary.py. */
+data class DictionaryPack(val id: DictionaryId, val title: String, val url: String, val downloadSize: Long? = null)
 
 /** The packs the app knows how to download, by title. */
 object DictionaryPacks {
-    private const val BASE_URL = "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0"
+    private const val RELEASES_URL = "https://github.com/zavanton123/tayra-languages/releases/download"
 
-    /** Source languages with packs, by ISO 639-1 code. */
-    private val sources: List<Pair<String, String>> = listOf(
-        "be" to "Belarusian",
-        "bg" to "Bulgarian",
-        "ca" to "Catalan",
-        "hr" to "Croatian",
-        "cs" to "Czech",
-        "da" to "Danish",
-        "nl" to "Dutch",
-        "en" to "English",
-        "et" to "Estonian",
-        "fi" to "Finnish",
-        "fr" to "French",
-        "gl" to "Galician",
-        "de" to "German",
-        "el" to "Greek",
-        "hu" to "Hungarian",
-        "is" to "Icelandic",
-        "it" to "Italian",
-        "la" to "Latin",
-        "lv" to "Latvian",
-        "lt" to "Lithuanian",
-        "mk" to "Macedonian",
-        "no" to "Norwegian",
-        "pl" to "Polish",
-        "pt" to "Portuguese",
-        "ro" to "Romanian",
-        "ru" to "Russian",
-        "sr" to "Serbian",
-        "sk" to "Slovak",
-        "sl" to "Slovene",
-        "es" to "Spanish",
-        "sv" to "Swedish",
-        "tr" to "Turkish",
-        "uk" to "Ukrainian",
+    /** Languages with packs, as sources or as the language of the glosses, by ISO 639 code. */
+    private val names: Map<String, String> = mapOf(
+        "be" to "Belarusian", "bg" to "Bulgarian", "ca" to "Catalan", "hr" to "Croatian", "cs" to "Czech",
+        "da" to "Danish", "nl" to "Dutch", "en" to "English", "et" to "Estonian", "fi" to "Finnish",
+        "fr" to "French", "gl" to "Galician", "de" to "German", "el" to "Greek", "hu" to "Hungarian",
+        "is" to "Icelandic", "it" to "Italian", "la" to "Latin", "lv" to "Latvian", "lt" to "Lithuanian",
+        "mk" to "Macedonian", "no" to "Norwegian", "pl" to "Polish", "pt" to "Portuguese", "ro" to "Romanian",
+        "ru" to "Russian", "sr" to "Serbian", "sk" to "Slovak", "sl" to "Slovene", "es" to "Spanish",
+        "sv" to "Swedish", "tr" to "Turkish", "uk" to "Ukrainian",
     )
 
-    /** Languages the glosses can be in. */
-    private val targets: List<Pair<String, String>> = listOf(
-        "ru" to "Russian", "en" to "English", "de" to "German", "fr" to "French", "es" to "Spanish", "pt" to "Portuguese",
-    )
-
-    /**
-     * Pairs without a pack: Russian to Russian is not a translation, the German Wiktionary has no
-     * Galician or Serbian section, the Spanish Wiktionary covers only eighteen of the languages,
-     * and the Portuguese Wiktionary has no Czech, Dutch or Macedonian section.
-     */
-    private val missing: Set<String> = setOf("ru-ru", "gl-de", "sr-de") +
-        listOf("be", "bg", "hr", "et", "is", "lv", "lt", "mk", "no", "sr", "sk", "sl", "tr", "uk").map { "$it-es" } +
-        listOf("cs", "nl", "mk").map { "$it-pt" }
-
-    val all: List<DictionaryPack> = targets.flatMap { (target, targetName) ->
-        sources.filter { (source, _) -> "$source-$target" !in missing }.map { (source, sourceName) ->
-            DictionaryPack(DictionaryId(source, target), "$sourceName → $targetName", "$BASE_URL/$source-$target.sqlite.gzip")
+    /** Every published pack; a pair the Wiktionaries cover too thinly has none. */
+    val all: List<DictionaryPack> = dictionaryPackReleases.flatMap { (release, sizes) ->
+        sizes.mapNotNull { (name, size) ->
+            val (source, target) = name.split('-').takeIf { it.size == 2 } ?: return@mapNotNull null
+            val title = "${names[source] ?: source} → ${names[target] ?: target}"
+            DictionaryPack(DictionaryId(source, target), title, "$RELEASES_URL/$release/$name.sqlite.gzip", size)
         }
     }.sortedBy { it.title }
 
