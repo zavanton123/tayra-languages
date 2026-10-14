@@ -29,6 +29,7 @@ object LanguageCodes {
         "mongolian" to "mn",
         "old irish" to "sga",
         "ancient greek" to "grc",
+        "egyptian arabic" to "arz",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -52,6 +53,7 @@ object LanguageCodes {
         "mn" to "mon",
         "sga" to "sga",
         "grc" to "grc",
+        "arz" to "arz",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */

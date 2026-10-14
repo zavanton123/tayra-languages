@@ -102,8 +102,12 @@ class WordFrequencyScreenTest {
                 assertNull(list, "$name has no corpus to count")
                 continue
             }
-            // Toki Pona's whole vocabulary is under two hundred words.
-            val minimum = if (code == "tok") 150 else 1_000
+            // Toki Pona's whole vocabulary is under two hundred words; Egyptian Arabic's dictionary is small.
+            val minimum = when (code) {
+                "tok" -> 150
+                "arz" -> 500
+                else -> 1_000
+            }
             assertTrue(list != null && list.words.size >= minimum, "$name has a list of at least $minimum words")
             assertTrue(list.source.isNotBlank(), "$name names its source")
             assertEquals(list.words.size, list.words.map { it.key }.toSet().size, "$name lists each word once")

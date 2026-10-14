@@ -1,0 +1,17 @@
+name: Egyptian Arabic
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Egyptian_Arabic"
+  - for: terms
+    type: popup
+    url: "https://www.livingarabic.com/en/search?q=[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=ar&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?؟۔"
+word_chars: "\\u0600-\\u0608\\u060B\\u060E-\\u061A\\u061C\\u0620-\\u0669\\u066E-\\u06D3\\u06D5-\\u06FF\\uFE70-\\uFEFC"
+right_to_left: true
+show_romanization: true
+parser_type: spacedel

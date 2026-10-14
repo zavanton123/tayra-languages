@@ -29,6 +29,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Czech" to "Чешский",
     "Danish" to "Датский",
     "Dutch" to "Нидерландский",
+    "Egyptian Arabic" to "Египетский арабский",
     "English" to "Английский",
     "Esperanto" to "Эсперанто",
     "Estonian" to "Эстонский",

@@ -46,6 +46,23 @@ object AddedLanguages {
         ),
     )
 
+    private fun egyptianArabic() = LanguageDefinition(
+        language = Language(
+            name = "Egyptian Arabic",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Egyptian_Arabic", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.livingarabic.com/en/search?q=[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=ar&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?؟۔",
+            wordCharacters = "\\u0600-\\u0608\\u060B\\u060E-\\u061A\\u061C\\u0620-\\u0669\\u066E-\\u06D3\\u06D5-\\u06FF\\uFE70-\\uFEFC",
+            rightToLeft = true,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun hawaiian() = LanguageDefinition(
         language = Language(
             name = "Hawaiian",
@@ -214,6 +231,7 @@ object AddedLanguages {
         listOf(
             ancientGreek(),
             cornish(),
+            egyptianArabic(),
             hawaiian(),
             irish(),
             maltese(),
