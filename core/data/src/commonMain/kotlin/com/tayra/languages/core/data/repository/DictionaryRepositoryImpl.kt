@@ -25,6 +25,12 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
         }
     }
 
+    override suspend fun entries(dictionary: DictionaryId, wordsLc: Collection<String>): Map<String, List<DictionaryEntry>> = withContext(databaseDispatcher) {
+        val db = databases.database(dictionary) ?: return@withContext emptyMap()
+        wordsLc.distinct().chunked(MAX_PARAMETERS).flatMap { chunk -> db.dictionaryQueries.selectEntriesIn(chunk).awaitAsList() }
+            .groupBy({ it.word_lc }, { row -> DictionaryEntry(row.word, row.pos, row.ipa, parseSenses(row.senses)) })
+    }
+
     override suspend fun lemmas(dictionary: DictionaryId, formLc: String): List<String> = withContext(databaseDispatcher) {
         databases.database(dictionary)?.dictionaryQueries?.selectLemmas(formLc)?.awaitAsList().orEmpty()
     }
@@ -34,6 +40,8 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
     }
 
     private companion object {
+        /** SQLite's limit on bound parameters is 999 in older builds. */
+        const val MAX_PARAMETERS = 500
         val json = Json { ignoreUnknownKeys = true }
         val senseListSerializer = ListSerializer(StoredSense.serializer())
 

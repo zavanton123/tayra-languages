@@ -190,6 +190,26 @@ A pack file's `user_version` is its format, and the Android and iOS drivers refu
 version is above their schema's (the generated schema's is 1), so they open a pack with the
 schema at the pack's format (`atFormat`), which neither creates nor migrates anything.
 
+## Language rules
+
+`core/domain/.../morphology` is Yomitan's language logic (GPL-3.0), ported: for each language,
+the text processors that give a clicked word's other spellings (lowercase, without stress or
+length marks, ё as е, ss as ß) and the inflection rules that lead from a form to its dictionary
+word. `tools/export_yomitan_rules.mjs <yomitan checkout>` writes them from Yomitan's sources:
+`YomitanLanguages.kt` names the processors each language runs, which are written by hand in
+`TextProcessors.kt`, and `rules/<Code>Transforms.kt` holds a language's rules as data, listed in
+`TransformRules.kt`. A Yomitan rule is a pattern, a function undoing the inflection and the
+conditions (parts of speech, intermediate forms) it goes from and to; the exporter records each
+function as data (letters cut and added at the ends, a fixed word, or a chain of replacements,
+captured by running it on a probe string), and `LanguageTransformer` runs them as Yomitan's
+transformer does. `Unicode.kt` normalises text (NFD, NFC), which Kotlin's common library cannot,
+from the tables `tools/generate_unicode_tables.py` writes.
+
+`DictionaryService` uses them when a pack has nothing under the clicked word, neither as a
+headword nor as a form: the word's other spellings are looked up as the word itself, and the words
+it may be an inflection of, of a part of speech its rules allow, as its lemmas, so the term still
+gets its meaning and its parent.
+
 ## Course packs
 
 The ready-made courses of a language are one download, offered in Settings > Courses: a

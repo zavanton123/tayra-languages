@@ -29,5 +29,8 @@ SELECT value FROM meta WHERE key = :key;
 selectEntries:
 SELECT word, pos, ipa, senses FROM entries WHERE word_lc = :wordLc ORDER BY id;
 
+selectEntriesIn:
+SELECT word_lc, word, pos, ipa, senses FROM entries WHERE word_lc IN ? ORDER BY id;
+
 selectLemmas:
 SELECT lemma FROM forms WHERE form_lc = :formLc ORDER BY generated, lemma;

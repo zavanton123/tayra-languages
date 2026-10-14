@@ -8,6 +8,9 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
+import com.tayra.languages.core.domain.dictionary.DictionaryEntry
+import com.tayra.languages.core.domain.morphology.LanguageMorphology
+import com.tayra.languages.core.domain.morphology.Morphology
 import com.tayra.languages.core.domain.repository.DictionaryRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -82,10 +85,50 @@ class DictionaryService(
                 .sortedWith(compareBy({ posRank(it.pos) }, { -it.senses.size }))
                 .map { it.copy(isOwnEntry = false) }
         }
-        return DictionaryLookup(
+        val lookup = DictionaryLookup(
             own + inherited + otherCase.map { it.copy(isOwnEntry = false) },
             lemmas.filter { lemma -> inherited.any { it.word == lemma } },
         )
+        if (own.isNotEmpty() || lookup.lemmas.isNotEmpty()) return lookup
+        val morphology = Morphology.forLanguage(dictionary.sourceLanguage) ?: return lookup
+        return deinflected(dictionary, word, wordLc, morphology)?.let { found ->
+            DictionaryLookup(found.entries + lookup.entries, found.lemmas)
+        } ?: lookup
+    }
+
+    /**
+     * What the pack has for the word's other spellings and the words it may be an inflection of,
+     * by the language's Yomitan rules, when it has nothing under the word itself: another
+     * spelling ("еще" for "ещё") counts as the word, an inflection's dictionary word ("walk" for
+     * "walked", when the pack's forms lack it) as its lemma.
+     */
+    private suspend fun deinflected(dictionary: DictionaryId, word: String, wordLc: String, morphology: LanguageMorphology): DictionaryLookup? {
+        val candidates = morphology.candidates(word).filter { it.text.isNotBlank() && lowercase(it.text, dictionary) != wordLc }
+        if (candidates.isEmpty()) return null
+        val keys = candidates.map { lowercase(it.text, dictionary) }.distinct().take(MAX_LOOKUPS)
+        val found = repository.entries(dictionary, keys)
+        val own = mutableListOf<DictionaryEntry>()
+        val inherited = LinkedHashMap<String, List<DictionaryEntry>>()
+        for (candidate in candidates) {
+            val key = lowercase(candidate.text, dictionary)
+            val entries = found[key].orEmpty().filter { morphology.accepts(candidate.conditions, it.pos) }
+            if (candidate.transforms.isEmpty()) {
+                // A spelling of the word itself, and the lemmas the pack lists for that spelling.
+                entries.filter { it !in own }.let { own += it }
+                if (own.isEmpty()) {
+                    for (lemma in repository.lemmas(dictionary, key)) {
+                        if (lemma !in inherited) inherited[lemma] = repository.entries(dictionary, lowercase(lemma, dictionary)).filter { it.word == lemma }
+                    }
+                }
+            } else {
+                for ((lemma, group) in entries.groupBy { it.word }) if (lemma !in inherited) inherited[lemma] = group
+            }
+        }
+        if (own.isEmpty() && inherited.values.all { it.isEmpty() }) return null
+        val lemmas = if (own.isEmpty()) inherited.filterValues { it.isNotEmpty() }.keys.toList() else emptyList()
+        val entries = own.sortedWith(compareBy({ posRank(it.pos) }, { -it.senses.size })) +
+            inherited.values.flatten().sortedWith(compareBy({ posRank(it.pos) }, { -it.senses.size })).map { it.copy(isOwnEntry = false) }
+        return DictionaryLookup(entries, lemmas)
     }
 
     private fun stateOf(id: DictionaryId): PackState = _packs.value.firstOrNull { it.pack.id == id }?.state ?: PackState.NotInstalled
@@ -99,6 +142,9 @@ class DictionaryService(
         (if (dictionary.sourceLanguage == "tr") word.replace('I', 'ı').replace('İ', 'i') else word).lowercase()
 
     private val DATED_TAGS = setOf("obsolete", "archaic", "dated", "rare", "historical")
+
+    /** Words looked up at most for one clicked word's spellings and dictionary forms. */
+    private val MAX_LOOKUPS = 2000
 
     private fun posRank(pos: String): Int = when (pos) {
         "noun", "verb" -> 0
