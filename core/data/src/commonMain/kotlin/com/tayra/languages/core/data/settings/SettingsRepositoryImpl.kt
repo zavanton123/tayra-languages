@@ -108,6 +108,7 @@ class SettingsRepositoryImpl(
             flashcardLearnSteps = store.getString(Keys.FLASHCARD_LEARN_STEPS, defaults.flashcardLearnSteps),
             flashcardRelearnSteps = store.getString(Keys.FLASHCARD_RELEARN_STEPS, defaults.flashcardRelearnSteps),
             flashcardAutoplay = store.getBoolean(Keys.FLASHCARD_AUTOPLAY, defaults.flashcardAutoplay),
+            flashcardTwoButtons = store.getBoolean(Keys.FLASHCARD_TWO_BUTTONS, defaults.flashcardTwoButtons),
             hotkeys = loadHotkeys(store),
         )
     }
@@ -200,6 +201,7 @@ class SettingsRepositoryImpl(
         store.putString(Keys.FLASHCARD_LEARN_STEPS, s.flashcardLearnSteps)
         store.putString(Keys.FLASHCARD_RELEARN_STEPS, s.flashcardRelearnSteps)
         store.putBoolean(Keys.FLASHCARD_AUTOPLAY, s.flashcardAutoplay)
+        store.putBoolean(Keys.FLASHCARD_TWO_BUTTONS, s.flashcardTwoButtons)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
         }
@@ -258,5 +260,6 @@ class SettingsRepositoryImpl(
         const val FLASHCARD_LEARN_STEPS = "flashcard_learn_steps"
         const val FLASHCARD_RELEARN_STEPS = "flashcard_relearn_steps"
         const val FLASHCARD_AUTOPLAY = "flashcard_autoplay"
+        const val FLASHCARD_TWO_BUTTONS = "flashcard_two_buttons"
     }
 }

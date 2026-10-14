@@ -111,6 +111,18 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                     }
                     Switch(checked = settings.flashcardAutoplay, onCheckedChange = { v -> viewModel.update { it.copy(flashcardAutoplay = v) } })
                 }
+                HorizontalDivider(color = colors.outlineVariant)
+                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                    Column(Modifier.weight(1f)) {
+                        Text(tr("Two answer buttons"), style = MaterialTheme.typography.bodyLarge)
+                        Text(tr("Show only Again and Good."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                    }
+                    Switch(
+                        checked = settings.flashcardTwoButtons,
+                        onCheckedChange = { v -> viewModel.update { it.copy(flashcardTwoButtons = v) } },
+                        modifier = Modifier.testTag("phone-two-buttons"),
+                    )
+                }
             }
             HowItWorks()
             OutlinedButton(onClick = onReset, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(52.dp).testTag("phone-reset-flashcards")) {

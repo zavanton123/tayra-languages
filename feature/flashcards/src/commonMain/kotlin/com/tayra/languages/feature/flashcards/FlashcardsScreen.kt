@@ -196,8 +196,9 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                     !state.revealed -> return@onPreviewKeyEvent false
                     event.key == Key.Spacebar || event.key == Key.Enter || event.key == Key.Three -> actions.onAnswer(Rating.GOOD)
                     event.key == Key.One -> actions.onAnswer(Rating.AGAIN)
-                    event.key == Key.Two -> actions.onAnswer(Rating.HARD)
-                    event.key == Key.Four -> actions.onAnswer(Rating.EASY)
+                    // With two buttons the hidden answers have no keys either, so none is given by accident.
+                    event.key == Key.Two && !state.twoButtons -> actions.onAnswer(Rating.HARD)
+                    event.key == Key.Four && !state.twoButtons -> actions.onAnswer(Rating.EASY)
                     else -> return@onPreviewKeyEvent false
                 }
                 true
@@ -215,7 +216,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                 Finished(state, actions)
             } else {
                 Card(card, state.revealed, speaker, compact, actions.onReveal)
-                if (state.revealed) Answers(actions, compact)
+                if (state.revealed) Answers(actions, compact, state.twoButtons)
                 CardFooter(card, state.canUndo, actions, compact)
             }
         }
@@ -450,11 +451,12 @@ private fun StateLabel(state: CardState) {
     )
 }
 
-/** The four answers. */
+/** The answers: all four, or Again and Good only. */
 @Composable
-private fun Answers(actions: FlashcardActions, compact: Boolean) {
+private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boolean) {
+    val ratings = if (twoButtons) listOf(Rating.AGAIN, Rating.GOOD) else Rating.entries
     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(if (compact) 8.dp else 14.dp)) {
-        Rating.entries.forEach { rating ->
+        ratings.forEach { rating ->
             val tint = rating.tint
             val label = tr(rating.label)
             Column(

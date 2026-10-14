@@ -214,6 +214,26 @@ class FlashcardsScreenTest {
         save("FLASHCARD_PHONE_BACK_SCREENSHOT")
     }
 
+    /** With two answer buttons only Again and Good are offered, and the keys of the others do nothing. */
+    @Test
+    fun twoButtonsLeaveOutHardAndEasy() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        runBlocking { settings.update { it.copy(flashcardTwoButtons = true) } }
+        show()
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Spacebar) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("answer-Again").assertExists()
+        onNodeWithTag("answer-Good").assertExists()
+        assertEquals(0, onAllNodesWithTag("answer-Hard").fetchSemanticsNodes().size)
+        assertEquals(0, onAllNodesWithTag("answer-Easy").fetchSemanticsNodes().size)
+        save("FLASHCARD_TWO_BUTTONS_SCREENSHOT")
+        // Easy's key gives nothing; Good's still answers.
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Four) }
+        waitForIdle()
+        onNodeWithTag("flashcard-answer").assertExists()
+        onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Three) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("LEARNING").fetchSemanticsNodes().isNotEmpty() }
+    }
+
     @Test
     fun easyKeySendsANewCardDaysAway() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()

@@ -59,6 +59,7 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
                 flashcardLearnSteps = defaults.flashcardLearnSteps,
                 flashcardRelearnSteps = defaults.flashcardRelearnSteps,
                 flashcardAutoplay = defaults.flashcardAutoplay,
+                flashcardTwoButtons = defaults.flashcardTwoButtons,
             )
         }
         Unit
@@ -178,6 +179,9 @@ private fun AnswerCard(settings: UserSettings, viewModel: SettingsViewModel) {
     ContentCard(tr("Answer"), tr("What happens when a card's answer is shown."), icon = AppIcons.VolumeUp) {
         SwitchSetting(tr("Read aloud"), tr("Read the sentence, or the word, when the answer is shown."), settings.flashcardAutoplay) { v ->
             viewModel.update { it.copy(flashcardAutoplay = v) }
+        }
+        SwitchSetting(tr("Two answer buttons"), tr("Answer with Again and Good only; Hard and Easy are left out."), settings.flashcardTwoButtons, divider = true) { v ->
+            viewModel.update { it.copy(flashcardTwoButtons = v) }
         }
     }
 }

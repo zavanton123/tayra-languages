@@ -66,6 +66,8 @@ data class UserSettings(
     val flashcardRelearnSteps: String = "10m",
     /** Read the sentence (or word) aloud when a flashcard's answer is shown. */
     val flashcardAutoplay: Boolean = true,
+    /** Answer flashcards with Again and Good only, Hard and Easy left out. */
+    val flashcardTwoButtons: Boolean = false,
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
 ) {
     fun hotkeyFor(action: HotkeyAction): Hotkey? = hotkeys[action]

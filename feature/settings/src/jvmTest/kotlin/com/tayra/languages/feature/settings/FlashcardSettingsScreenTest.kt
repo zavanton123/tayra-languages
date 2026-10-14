@@ -54,8 +54,13 @@ class FlashcardSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Use steps such as 1m 10m").fetchSemanticsNodes().isNotEmpty() }
         assertEquals("", settings.current.flashcardRelearnSteps, "clearing the field saved no steps; the unreadable text was not saved")
 
+        onNodeWithText("Two answer buttons").performScrollTo()
+        onAllNodes(isToggleable()).fetchSemanticsNodes().size.let { n -> onAllNodes(isToggleable())[n - 1].performClick() }
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardTwoButtons }
+
         onNodeWithText("Reset to defaults").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 20 && settings.current.flashcardLearnSteps == "1m 10m" && settings.current.flashcardRelearnSteps == "10m" }
+        assertEquals(false, settings.current.flashcardTwoButtons, "reset brings the four buttons back")
         assertEquals(0, settings.current.flashcardReviewsPerDay)
     }
 
@@ -80,6 +85,8 @@ class FlashcardSettingsScreenTest {
         onNodeWithContentDescription("Learning steps").performTextInput("30s 5m")
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardLearnSteps == "30s 5m" }
 
+        onNodeWithTag("phone-two-buttons").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.flashcardTwoButtons }
         onNodeWithTag("phone-how-it-works").performScrollTo().performClick()
         onNodeWithText("Every word at status 1 to 4 has a card.", substring = true).assertExists()
         onNodeWithTag("phone-reset-flashcards").performScrollTo().performClick()

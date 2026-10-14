@@ -65,6 +65,8 @@ data class FlashcardsUiState(
     val canUndo: Boolean = false,
     /** Cards answered since the screen opened. */
     val answered: Int = 0,
+    /** Only Again and Good are offered, as the settings ask. */
+    val twoButtons: Boolean = false,
 )
 
 sealed interface FlashcardsEvent {
@@ -129,6 +131,7 @@ class FlashcardsViewModel(
                     counts = session.counts,
                     nextLearningAt = session.nextLearningAt,
                     canUndo = answers.isNotEmpty(),
+                    twoButtons = settings.current.flashcardTwoButtons,
                 )
             }
             if (term != null && language != null) loadExtras(term, language)
