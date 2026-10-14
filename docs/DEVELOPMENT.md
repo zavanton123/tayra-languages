@@ -269,7 +269,8 @@ whose dictionaries and lemmatizer coverage are small.
 `tools/build_frequency_list.py --language <code>|all` makes them; it needs `pip install wordfreq
 simplemma` and the `dictionaries/<code>-en.sqlite` packs. Counts come from wordfreq; Croatian,
 Serbian, Estonian and Galician from FrequencyWords (OpenSubtitles); Belarusian and Latin from the
-Leipzig Corpora Collection. A language for which wordfreq keeps only its short list is blended with
+Leipzig Corpora Collection; a language none of these has, from its Wikipedia, counted from the
+articles dump with the markup taken out. A language for which wordfreq keeps only its short list is blended with
 the other sources. Downloads are cached in `dictionaries/frequency-sources`.
 
 Forms are grouped under their dictionary words with the pack's forms table, then simplemma for

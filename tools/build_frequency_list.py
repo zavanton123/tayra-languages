@@ -8,6 +8,7 @@ Word counts come from the first source that has the language:
   1. wordfreq (pip install wordfreq), a blend of subtitles, Wikipedia, books, news and web text
   2. FrequencyWords (hermitdave/FrequencyWords), counts from OpenSubtitles 2018
   3. the Leipzig Corpora Collection, counts from a news or Wikipedia corpus
+  4. the language's Wikipedia, counted from its articles dump (for languages none of the others has)
 
 --source forces one of them. The counts are of word forms; each form is credited to the dictionary
 words it is a form of, using the forms table of the language's offline dictionary pack
@@ -29,12 +30,15 @@ Usage: python3 tools/build_frequency_list.py --language pt|all [--source wordfre
        [--size 10000] [--out FILE]
 """
 import argparse
+import html
 import io
+import re
 import os
 import sqlite3
 import sys
 import subprocess
 import tarfile
+import unicodedata
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -53,7 +57,7 @@ LANGUAGES = [
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
 # with its nearest one (Russian for Belarusian, Serbo-Croatian for Croatian), which is not wanted.
-WORDFREQ_CODES = {"no": "nb"}
+WORDFREQ_CODES = {"no": "nb", "tl": "fil"}
 
 # Per language: the FrequencyWords folder and the Leipzig corpora to fall back on. Croatian and
 # Serbian, which wordfreq only has together, Estonian and Galician come from FrequencyWords;
@@ -65,13 +69,28 @@ FALLBACKS = {
     "la": {"leipzig": ["lat_wikipedia_2021_100K"]},
     "lt": {"leipzig": ["lit_news_2020_300K"]},
     "lv": {"leipzig": ["lav_news_2020_300K"]},
+    "cy": {"leipzig": ["cym_wikipedia_2021_100K"]},
+    "ga": {"leipzig": ["gle_wikipedia_2021_30K"]},
+    "gv": {"leipzig": ["glv_wikipedia_2021_10K"]},
+    "mt": {"leipzig": ["mlt_wikipedia_2021_30K", "mlt_news_2020_30K"]},
+    "mn": {"leipzig": ["mon_wikipedia_2021_100K", "mon_news_2020_100K"]},
+    "tl": {"leipzig": ["tgl_wikipedia_2021_100K", "tgl_news_2020_30K"]},
+    "hy": {"leipzig": ["hye_wikipedia_2021_1M", "hye_news_2020_30K"]},
+    "ka": {"leipzig": ["kat_wikipedia_2021_300K", "kat_news_2020_100K"]},
+    "sq": {"leipzig": ["sqi_news_2020_1M", "sqi_wikipedia_2021_300K"]},
+    "eu": {"leipzig": ["eus_wikipedia_2021_300K", "eus_news_2020_30K"]},
+    "eo": {"leipzig": ["epo_newscrawl_2017_1M", "epo_wikipedia_2021_300K"]},
 }
+
+# Wikipedia editions by the app's code where they differ.
+WIKIPEDIAS = {"yue": "zh_yue"}
 
 # A first source with fewer word forms than this (wordfreq keeps only its short list for some
 # languages) is blended with every other source that has the language.
 ENOUGH_FORMS = 100_000
 
 SOURCE_LICENCES = {
+    "wikipedia": "CC BY-SA 4.0",
     "wordfreq": "CC BY-SA 4.0",
     "frequencywords": "CC BY-SA 4.0",
     "leipzig": "terms at https://wortschatz.uni-leipzig.de/en/download",
@@ -101,6 +120,11 @@ INFLECTED_TAKEOVER = 0.2
 MAX_LEMMAS_PER_FORM = 6
 # Forms considered per word, most common first; the app matches saved words against them.
 FORMS_PER_WORD = 40
+
+
+def is_wordlike(text):
+    """Letters, hyphens and apostrophes; and the vowel signs and other marks of the scripts that write them apart."""
+    return all(c.isalpha() or unicodedata.category(c)[0] == "M" or c in "-'ʻ\u200c" for c in text)
 
 
 def english_share(form):
@@ -207,7 +231,73 @@ def leipzig_counts(language, limit):
     return dict(top), f"Leipzig Corpora Collection {', '.join(used)}"
 
 
-SOURCES = {"wordfreq": wordfreq_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts}
+# Wikipedia markup that is not running text: templates, tables, references, files and comments.
+WIKI_NOISE = [
+    re.compile(r"<!--.*?-->", re.S),
+    re.compile(r"<ref[^>/]*/>|<ref[^>]*>.*?</ref>", re.S),
+    re.compile(r"\{\|.*?\|\}", re.S),
+    re.compile(r"\[\[(?:[^\]|:]+):[^\]]*\]\]"),
+    re.compile(r"<[^>]+>"),
+    re.compile(r"https?://\S+"),
+]
+WIKI_LINK = re.compile(r"\[\[(?:[^\]|]*\|)?([^\]|]*)\]\]")
+# A letter, or a combining mark of the scripts whose vowel signs Python does not count as letters.
+WIKI_LETTER = r"[^\W\d_]|[\u0300-\u036f\u0591-\u05c7\u064b-\u065f\u0670\u0730-\u074a\u0900-\u0dff\u0e31\u0e34-\u0e3a\u0e47-\u0e4e\u0eb1\u0eb4-\u0ebc\u0ec8-\u0ecd\u17b4-\u17d3]"
+WIKI_WORD = re.compile(rf"(?:{WIKI_LETTER})+(?:['’ʻ\u200c-](?:{WIKI_LETTER})+)*")
+
+
+def strip_templates(text):
+    """The text without {{templates}}, which nest."""
+    out, depth, i = [], 0, 0
+    while i < len(text):
+        if text.startswith("{{", i):
+            depth += 1
+            i += 2
+        elif text.startswith("}}", i) and depth:
+            depth -= 1
+            i += 2
+        else:
+            if not depth:
+                out.append(text[i])
+            i += 1
+    return "".join(out)
+
+
+def wikipedia_counts(language, limit):
+    wiki = WIKIPEDIAS.get(language, language)
+    name = f"wikipedia-{wiki}.xml.bz2"
+    path = download(f"https://dumps.wikimedia.org/{wiki}wiki/latest/{wiki}wiki-latest-pages-articles.xml.bz2", name)
+    if path is None:
+        return None
+    import bz2
+    counts = defaultdict(int)
+    page = []
+    in_text = False
+    with bz2.open(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            if "<text" in line:
+                in_text = True
+                line = line[line.index(">", line.index("<text")) + 1:]
+            if in_text:
+                end = line.find("</text>")
+                page.append(line if end < 0 else line[:end])
+                if end >= 0:
+                    in_text = False
+                    text = "".join(page)
+                    page = []
+                    if text.lstrip().lower().startswith("#redirect"):
+                        continue
+                    text = html.unescape(strip_templates(text))
+                    for noise in WIKI_NOISE:
+                        text = noise.sub(" ", text)
+                    text = WIKI_LINK.sub(r"\1", text)
+                    for word in WIKI_WORD.findall(text):
+                        counts[lower(language, word)] += 1
+    top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
+    return dict(top), f"{wiki}.wikipedia.org articles"
+
+
+SOURCES = {"wordfreq": wordfreq_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts}
 
 
 class Lemmatizer:
@@ -259,7 +349,7 @@ def load_dictionary(language):
         if "deprecated in the spelling reform" in lemma:
             outdated.add(form_lc)
         lemma = lower(language, lemma)
-        if all(c.isalpha() or c in "-'" for c in lemma):
+        if is_wordlike(lemma):
             lemmas[form_lc].append(lemma)
     for form_lc, of in lemmas.items():
         if len(set(of)) > MAX_LEMMAS_PER_FORM:
@@ -268,7 +358,7 @@ def load_dictionary(language):
 
 
 def build(language, source, size):
-    order = [source] if source else ["wordfreq", "frequencywords", "leipzig"]
+    order = [source] if source else ["wordfreq", "frequencywords", "leipzig", "wikipedia"]
     found = []
     for name in order:
         result = SOURCES[name](language, 200_000)
@@ -295,7 +385,7 @@ def build(language, source, size):
 
     def guess(form):
         """simplemma's word for a form the dictionary does not have, or None for a name or an unknown form."""
-        if lemmatizer is None or len(form) < 2 or not all(c.isalpha() or c in "-'" for c in form) or not lemmatizer.is_known(form):
+        if lemmatizer is None or len(form) < 2 or not is_wordlike(form) or not lemmatizer.is_known(form):
             return None
         # Web text in every language is full of English, and simplemma knows English loanwords.
         if language != "en" and english_share(form) >= freq.get(form, 0):
