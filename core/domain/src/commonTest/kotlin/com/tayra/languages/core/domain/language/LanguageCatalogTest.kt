@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.language
 
+import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
@@ -28,5 +29,13 @@ class LanguageCatalogTest {
         assertEquals("pl", LanguageCatalog.nativeOption("pl").code)
         assertEquals("en", LanguageCatalog.nativeOption("ja").code)
         assertEquals("en", LanguageCatalog.nativeOption("").code)
+    }
+
+    @Test
+    fun everyPackIsTitledWithItsLanguagesNames() {
+        for (pack in DictionaryPacks.all) {
+            val (source, target) = pack.title.split(" \u2192 ")
+            assertTrue(source.first().isUpperCase() && target.first().isUpperCase(), pack.title)
+        }
     }
 }

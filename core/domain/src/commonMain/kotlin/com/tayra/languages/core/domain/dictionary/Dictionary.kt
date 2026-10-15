@@ -60,14 +60,21 @@ object DictionaryPacks {
 
     /** Languages with packs, as sources or as the language of the glosses, by ISO 639 code. */
     private val names: Map<String, String> = mapOf(
-        "be" to "Belarusian", "bg" to "Bulgarian", "ca" to "Catalan", "hr" to "Croatian", "cs" to "Czech",
-        "da" to "Danish", "nl" to "Dutch", "en" to "English", "et" to "Estonian", "fi" to "Finnish",
-        "fr" to "French", "gl" to "Galician", "de" to "German", "el" to "Greek", "hu" to "Hungarian",
-        "is" to "Icelandic", "it" to "Italian", "la" to "Latin", "lv" to "Latvian", "lt" to "Lithuanian",
-        "mk" to "Macedonian", "no" to "Norwegian", "pl" to "Polish", "pt" to "Portuguese", "ro" to "Romanian",
-        "ru" to "Russian", "sr" to "Serbian", "sk" to "Slovak", "sl" to "Slovene", "es" to "Spanish",
-        "sv" to "Swedish", "tr" to "Turkish", "uk" to "Ukrainian", "zh" to "Chinese",
-        "ga" to "Irish",
+        "sq" to "Albanian", "grc" to "Ancient Greek", "ar" to "Arabic", "hy" to "Armenian",
+        "aii" to "Assyrian", "eu" to "Basque", "be" to "Belarusian", "bs" to "Bosnian", "br" to "Breton",
+        "bg" to "Bulgarian", "yue" to "Cantonese", "ca" to "Catalan", "zh" to "Chinese", "kw" to "Cornish",
+        "hr" to "Croatian", "cs" to "Czech", "da" to "Danish", "nl" to "Dutch", "arz" to "Egyptian Arabic",
+        "en" to "English", "eo" to "Esperanto", "et" to "Estonian", "fa" to "Farsi", "fi" to "Finnish",
+        "fr" to "French", "gl" to "Galician", "ka" to "Georgian", "de" to "German", "el" to "Greek",
+        "haw" to "Hawaiian", "he" to "Hebrew", "hi" to "Hindi", "hu" to "Hungarian", "is" to "Icelandic",
+        "id" to "Indonesian", "ga" to "Irish", "it" to "Italian", "ja" to "Japanese", "kn" to "Kannada",
+        "km" to "Khmer", "ko" to "Korean", "lo" to "Lao", "la" to "Latin", "lv" to "Latvian",
+        "lt" to "Lithuanian", "mk" to "Macedonian", "mt" to "Maltese", "gv" to "Manx", "mn" to "Mongolian",
+        "no" to "Norwegian", "sga" to "Old Irish", "pl" to "Polish", "pt" to "Portuguese",
+        "ro" to "Romanian", "ru" to "Russian", "gd" to "Scottish Gaelic", "sr" to "Serbian",
+        "sk" to "Slovak", "sl" to "Slovene", "es" to "Spanish", "sv" to "Swedish", "tl" to "Tagalog",
+        "th" to "Thai", "tok" to "Toki Pona", "tr" to "Turkish", "uk" to "Ukrainian", "vi" to "Vietnamese",
+        "cy" to "Welsh", "yi" to "Yiddish",
     )
 
     /** Every published pack; a pair the Wiktionaries cover too thinly has none. */
