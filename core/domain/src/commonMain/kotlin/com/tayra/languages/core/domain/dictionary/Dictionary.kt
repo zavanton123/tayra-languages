@@ -1,7 +1,10 @@
 package com.tayra.languages.core.domain.dictionary
 
-/** One meaning of a dictionary entry, with usage labels such as "comparative" or "abbreviation". */
-data class DictionarySense(val glosses: List<String>, val tags: List<String> = emptyList())
+/** One meaning of a dictionary entry, with usage labels such as "comparative" or "abbreviation" and the dictionary's example sentences. */
+data class DictionarySense(val glosses: List<String>, val tags: List<String> = emptyList(), val examples: List<DictionaryExample> = emptyList())
+
+/** An example sentence a dictionary gives for a sense, with its translation when it has one. */
+data class DictionaryExample(val text: String, val translation: String? = null)
 
 /**
  * A headword in one part of speech; [isOwnEntry] is true when it is the looked-up word itself rather than a lemma of it.

@@ -4,6 +4,7 @@ import app.cash.sqldelight.async.coroutines.awaitAsList
 import com.tayra.languages.core.data.db.databaseDispatcher
 import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
 import com.tayra.languages.core.domain.dictionary.DictionaryEntry
+import com.tayra.languages.core.domain.dictionary.DictionaryExample
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionarySense
 import com.tayra.languages.core.domain.repository.DictionaryRepository
@@ -50,10 +51,15 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
         val senseListSerializer = ListSerializer(StoredSense.serializer())
 
         fun parseSenses(value: String): List<DictionarySense> =
-            json.decodeFromString(senseListSerializer, value).map { DictionarySense(it.glosses, it.tags) }
+            json.decodeFromString(senseListSerializer, value).map { sense ->
+                DictionarySense(sense.glosses, sense.tags, sense.examples.map { DictionaryExample(it.text, it.translation) })
+            }
     }
 }
 
-/** The JSON stored in the senses column. */
+/** The JSON stored in the senses column; packs built before examples were kept have none. */
 @Serializable
-private data class StoredSense(val glosses: List<String>, val tags: List<String> = emptyList())
+private data class StoredSense(val glosses: List<String>, val tags: List<String> = emptyList(), val examples: List<StoredExample> = emptyList())
+
+@Serializable
+private data class StoredExample(val text: String, val translation: String? = null)

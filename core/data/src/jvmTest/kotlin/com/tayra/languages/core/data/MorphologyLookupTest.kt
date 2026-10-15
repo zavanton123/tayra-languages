@@ -22,7 +22,7 @@ import kotlin.test.assertTrue
 
 /** Lookups that need a language's spelling variants and inflection rules, as Yomitan applies them. */
 class MorphologyLookupTest {
-    /** A pack of [entries] (word, part of speech, gloss) and [forms] (form, lemma) for [source] to English. */
+    /** A pack of [entries] (word, part of speech, gloss or the senses JSON itself) and [forms] (form, lemma) for [source] to English. */
     private suspend fun service(source: String, entries: List<Triple<String, String, String>>, forms: List<Pair<String, String>> = emptyList()): Pair<DictionaryService, DictionaryId> {
         val file = File.createTempFile("tayra-morph", ".sqlite").also { it.delete() }
         val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
@@ -36,7 +36,8 @@ class MorphologyLookupTest {
             "PRAGMA user_version = $format",
         ).forEach { driver.execute(null, it, 0) }
         for ((word, pos, gloss) in entries) {
-            driver.execute(null, "INSERT INTO entries(word, word_lc, pos, senses) VALUES (${q(word)}, ${q(word.lowercase())}, ${q(pos)}, ${q("[{\"glosses\":[\"$gloss\"]}]")})", 0)
+            val senses = if (gloss.startsWith("[")) gloss else "[{\"glosses\":[\"$gloss\"]}]"
+            driver.execute(null, "INSERT INTO entries(word, word_lc, pos, senses) VALUES (${q(word)}, ${q(word.lowercase())}, ${q(pos)}, ${q(senses)})", 0)
         }
         for ((form, lemma) in forms) driver.execute(null, "INSERT INTO forms VALUES (${q(form)}, ${q(lemma)}, 0)", 0)
         driver.close()
@@ -87,5 +88,14 @@ class MorphologyLookupTest {
         assertEquals("使う", used.parentSuggestion)
         assertEquals(listOf("-て"), used.entries.single().inflection)
         assertEquals("短い", service.lookup(ja, "短かった").parentSuggestion)
+    }
+
+    @Test
+    fun aSenseBringsTheDictionarysExampleSentences() = runTest {
+        val senses = """[{"glosses":["of"],"examples":[{"text":"os amigos dele","translation":"his friends"},{"text":"fones de ouvido"}]}]"""
+        val (service, pt) = service("pt", listOf(Triple("de", "prep", senses)))
+        val examples = service.lookup(pt, "de").entries.single().senses.single().examples
+        assertEquals(listOf("os amigos dele", "fones de ouvido"), examples.map { it.text })
+        assertEquals(listOf("his friends", null), examples.map { it.translation })
     }
 }

@@ -54,6 +54,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.selected
@@ -780,6 +784,16 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, o
                         Text(gloss, style = MaterialTheme.typography.bodyLarge)
                         if (sense.tags.isNotEmpty()) {
                             Text(sense.tags.joinToString(", "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                        }
+                        // The dictionary's own examples of this sense, each with its translation below it.
+                        sense.examples.forEach { example ->
+                            Row(Modifier.padding(top = 6.dp).height(IntrinsicSize.Min)) {
+                                Box(Modifier.width(2.dp).fillMaxHeight().background(colors.primary.copy(alpha = 0.35f)))
+                                Column(Modifier.padding(start = 8.dp)) {
+                                    Text(example.text, style = MaterialTheme.typography.bodyMedium, fontStyle = FontStyle.Italic)
+                                    example.translation?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
+                                }
+                            }
                         }
                     }
                     Spacer(Modifier.size(8.dp))
