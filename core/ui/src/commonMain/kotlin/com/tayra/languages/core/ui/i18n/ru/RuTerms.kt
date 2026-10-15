@@ -217,6 +217,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "odaka" to "одака",
     "kifuku" to "кифуку",
     "Kanji" to "Кандзи",
+    "Recordings" to "Записи",
     "On" to "Он",
     "Kun" to "Кун",
     "{0} strokes" to "{0} черта|{0} черты|{0} черт",

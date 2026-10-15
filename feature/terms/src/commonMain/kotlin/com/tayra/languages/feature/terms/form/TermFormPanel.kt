@@ -122,6 +122,10 @@ import com.tayra.languages.core.ui.components.IconTile
 import org.koin.compose.koinInject
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.audio.SpeakButton
+import com.tayra.languages.core.ui.audio.AudioPlayback
+import com.tayra.languages.core.ui.audio.RecordingButton
+import com.tayra.languages.core.ui.audio.rememberAudioPlayback
+import com.tayra.languages.core.domain.service.WordRecording
 import com.tayra.languages.core.ui.theme.TayraTheme
 import io.ktor.http.encodeURLParameter
 import com.tayra.languages.core.ui.components.ScrollColumn
@@ -142,6 +146,21 @@ fun TermFormPanel(
     onManageDictionaries: ((languageId: Long) -> Unit)? = null,
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val playback = rememberAudioPlayback()
+    CompositionLocalProvider(LocalRecordingPlayback provides playback) { TermFormContent(state, viewModel, modifier, embedded, onClose, onDuplicateClick, onOpenExamples, onManageDictionaries) }
+}
+
+@Composable
+private fun TermFormContent(
+    state: TermFormUiState,
+    viewModel: TermFormViewModel,
+    modifier: Modifier,
+    embedded: Boolean,
+    onClose: (() -> Unit)?,
+    onDuplicateClick: ((Long) -> Unit)?,
+    onOpenExamples: ((languageId: Long, text: String) -> Unit)?,
+    onManageDictionaries: ((languageId: Long) -> Unit)?,
+) {
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.onResumed() }
     val uriHandler = LocalUriHandler.current
     val focusRequester = remember { FocusRequester() }
@@ -190,6 +209,7 @@ fun TermFormPanel(
                 !state.dictionary.isEmpty -> DictionarySection(state.dictionary, language?.let { LanguageCodes.codeFor(it.name) }, onAdd = viewModel::addGloss)
                 pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
             }
+            if (!empty && state.recordings.isNotEmpty()) RecordingsSection(state.recordings, draft.text.trim())
             if (!empty && state.kanji.isNotEmpty()) KanjiSection(state.kanji)
         }
         val linksContent: @Composable () -> Unit = {
@@ -297,13 +317,50 @@ private fun TermField(state: TermFormUiState, viewModel: TermFormViewModel, dire
         onValueChange = { text -> viewModel.update { it.copy(text = text) } },
         label = { Text(tr("Term")) },
         singleLine = true,
-        trailingIcon = { SpeakButton(state.draft.text, language?.let { LanguageCodes.codeFor(it.name) }, rememberSpeaker(koinInject(), koinInject())) },
+        trailingIcon = { TermSpeakButton(state, language?.let { LanguageCodes.codeFor(it.name) }) },
         textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
         shape = RoundedCornerShape(10.dp),
         colors = fieldColors(),
         modifier = Modifier.fillMaxWidth().focusRequester(focusRequester).reportsTyping(),
     )
 }
+
+/** Plays a person's recording of the term when there is one, and has the speech engine read it otherwise or when it fails. */
+@Composable
+private fun TermSpeakButton(state: TermFormUiState, languageCode: String?) {
+    val speaker = rememberSpeaker(koinInject(), koinInject())
+    val recording = state.recordings.firstOrNull { it.word == state.draft.text.trim() }
+    if (recording != null) {
+        RecordingButton(recording.url, LocalRecordingPlayback.current, onFailed = { speaker.speak(state.draft.text, languageCode) })
+    } else {
+        SpeakButton(state.draft.text, languageCode, speaker)
+    }
+}
+
+/** People's recordings of the term from Wikimedia Commons, each naming who recorded it and linking to its page and licence. */
+@Composable
+internal fun RecordingsSection(recordings: List<WordRecording>, term: String) {
+    val colors = MaterialTheme.colorScheme
+    val uriHandler = LocalUriHandler.current
+    val playback = LocalRecordingPlayback.current
+    SectionCard({ BadgeIcon(AppIcons.VolumeUp) }, tr("Recordings"), count = recordings.size, tint = null, filled = false) {
+        recordings.forEach { recording ->
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.testTag("recording-${recording.speaker}")) {
+                RecordingButton(recording.url, playback, Modifier.size(32.dp))
+                if (recording.word != term) Text(recording.word, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
+                Text(
+                    "${recording.speaker} \u00b7 ${recording.source}",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = colors.onSurfaceVariant,
+                    modifier = Modifier.clip(RoundedCornerShape(6.dp)).clickable(enabled = recording.pageUrl.isNotEmpty()) { uriHandler.openUri(recording.pageUrl) }.padding(horizontal = 4.dp, vertical = 2.dp),
+                )
+            }
+        }
+    }
+}
+
+/** The one player of the form's recordings, so starting one stops the other. */
+internal val LocalRecordingPlayback = staticCompositionLocalOf<AudioPlayback> { error("no recording playback") }
 
 @Composable
 private fun RomanizationField(state: TermFormUiState, viewModel: TermFormViewModel) {

@@ -164,6 +164,14 @@ engine has no voice for the language or fails.
     the app, so it can be compiled against sherpa-onnx's macOS library and run on a Mac.
 - Web binds no local engines; kokoro-js exists for the browser, should one be added.
 
+Recorded words come before any engine in the term pane: `WordRecordings` asks
+`CommonsRecordingSource` for files on Wikimedia Commons the way Yomitan's audio sources do, Lingua
+Libre's (`LL-Q<id> (<ISO 639-3>)-<speaker>-<word>.wav`, in the category of the language) and
+Wiktionary's (`<code>(-<region>)-<word>.ogg`), and plays Commons' MP3 transcode of each, the one
+format every platform's `AudioPlayer` decodes. The pane names each recording's speaker and links to
+its file page, where its licence (mostly CC BY-SA) is. An inflected form with no recording falls
+back to its dictionary form's.
+
 ## Offline dictionary packs
 
 Packs are gzip-compressed SQLite files (tables `meta`, `entries`, `forms`), one per source

@@ -11,8 +11,11 @@ import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
+import com.tayra.languages.core.domain.service.WordRecordings
+import com.tayra.languages.core.domain.service.WordRecording
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.domain.model.ZWS_STRING
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermDraft
@@ -80,6 +83,8 @@ data class TermFormUiState(
     val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
     /** The kanji the term is written with, for Japanese. */
     val kanji: List<KanjiInfo> = emptyList(),
+    /** Recordings of the term, or of its dictionary form when the term has none. */
+    val recordings: List<WordRecording> = emptyList(),
     /** The downloadable pack for the language pair and whether it is on the device; null when none exists. */
     val dictionaryPack: PackStatus? = null,
     /** The words of each example with their statuses, by the example's text. */
@@ -121,6 +126,8 @@ class TermFormViewModel(
     private val exampleTerms: ExampleTerms? = null,
     /** Lets the form show the term's flashcard, suspend it and reset it. */
     private val flashcards: FlashcardService? = null,
+    /** People's recordings of the term, played instead of the speech engine when there are some. */
+    private val recordings: WordRecordings? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(TermFormUiState())
@@ -180,7 +187,7 @@ class TermFormViewModel(
         _state.update {
             it.copy(
                 draft = draft, dirty = false, saved = false, error = null, duplicateOf = null, createdAt = null, references = null,
-                translationSuggested = false, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY, kanji = emptyList(),
+                translationSuggested = false, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(),
                 examples = emptyList(), examplesTotal = null, loadingExamples = false,
             )
         }
@@ -205,6 +212,7 @@ class TermFormViewModel(
             }
             // A new inflected form is linked to its lemma so the family shares one status.
             lookup.parentSuggestion?.let { if (untouched) linkParent(it) }
+            launch { loadRecordings(draft.text, lookup, language) }
             loadExamples(draft.text, language)
         }
     }
@@ -271,6 +279,17 @@ class TermFormViewModel(
     fun addGloss(gloss: String) {
         update { d -> d.copy(translation = if (d.translation.isBlank()) gloss else "${d.translation.trimEnd()}; $gloss") }
         _state.update { it.copy(translationSuggested = false) }
+    }
+
+    private suspend fun loadRecordings(text: String, lookup: DictionaryLookup, language: Language?) {
+        val source = recordings ?: return
+        val code = language?.let { LanguageCodes.codeFor(it.name) } ?: return
+        val word = text.replace(ZWS_STRING, "").trim()
+        val found = source.of(word, code).ifEmpty {
+            // An inflected form is rarely recorded; its dictionary form often is.
+            lookup.lemmas.firstOrNull()?.let { source.of(it, code) }.orEmpty()
+        }
+        if (_state.value.draft.text == text) _state.update { it.copy(recordings = found) }
     }
 
     private suspend fun loadExamples(text: String, language: Language?) {
@@ -362,7 +381,7 @@ class TermFormViewModel(
             it.copy(
                 draft = emptyDraft(it.draft.languageId).copy(text = text), dirty = false, saved = false, error = null, duplicateOf = null,
                 createdAt = null, references = null, translationSuggested = false, lookingUpTranslation = false,
-                dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), examples = emptyList(), examplesTotal = null, loadingExamples = false,
+                dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), examples = emptyList(), examplesTotal = null, loadingExamples = false,
             )
         }
         scheduleLookup(text)

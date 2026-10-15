@@ -81,6 +81,8 @@ import org.koin.core.module.Module
 import org.koin.dsl.module
 import com.tayra.languages.core.data.network.KtorRecordingFetcher
 import com.tayra.languages.core.domain.service.ExampleRecordings
+import com.tayra.languages.core.domain.service.WordRecordings
+import com.tayra.languages.core.data.network.CommonsRecordingSource
 import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.domain.service.LanguageSetupService
 import com.tayra.languages.core.domain.service.ClearDataService
@@ -141,6 +143,7 @@ val dataModule: Module = module {
     single { AnkiExportService(get(), get(), get(), get(), get(), get(), get()) }
     single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request) }
     single { ExampleRecordings(KtorRecordingFetcher(get()), get()) }
+    single { WordRecordings(CommonsRecordingSource(get())) }
     single { SentenceAudio(get(), get(), get(), get()) }
     single { TranslationLanguageKeeper(get(), get(), get<DictionaryService>(), get(), get()) }
     single { LexiconService(get(), get(), getOrNull()) }

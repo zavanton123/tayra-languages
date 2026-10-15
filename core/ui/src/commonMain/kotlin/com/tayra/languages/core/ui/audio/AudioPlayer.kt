@@ -1,6 +1,7 @@
 package com.tayra.languages.core.ui.audio
 
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.components.AppIcons
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
@@ -137,5 +138,14 @@ fun PlayButton(url: String, playback: AudioPlayback, modifier: Modifier = Modifi
         } else {
             Icon(Icons.Default.PlayArrow, contentDescription = tr("Play recording"), tint = MaterialTheme.colorScheme.primary)
         }
+    }
+}
+
+/** Plays a person's recording of a word, with [SpeakButton]'s icons; [onFailed] runs, on the player's thread, when it cannot be played. */
+@Composable
+fun RecordingButton(url: String, playback: AudioPlayback, modifier: Modifier = Modifier, onFailed: (() -> Unit)? = null) {
+    val active = playback.isPlaying(url)
+    IconButton(onClick = { playback.toggle(url, onFailed) }, modifier = modifier) {
+        Icon(if (active) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = if (active) tr("Stop") else tr("Play recording"), tint = MaterialTheme.colorScheme.primary)
     }
 }
