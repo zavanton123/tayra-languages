@@ -18,11 +18,14 @@ import platform.zlib.inflateInit2_
 import platform.zlib.z_stream
 
 /** Decompresses gzip data with the system zlib; Foundation has no gzip API of its own. */
+// 15 window bits plus 16 tells zlib to expect a gzip header rather than a raw deflate stream.
+internal fun gunzip(input: ByteArray): ByteArray = zlibInflate(input, 15 + 16)
+
+/** Decompresses [input] with zlib; negative [windowBits] read a raw deflate stream, as zip entries are. */
 @OptIn(ExperimentalForeignApi::class)
-internal fun gunzip(input: ByteArray): ByteArray = memScoped {
+internal fun zlibInflate(input: ByteArray, windowBits: Int): ByteArray = memScoped {
     val stream = alloc<z_stream>()
-    // 15 window bits plus 16 tells zlib to expect a gzip header rather than a raw deflate stream.
-    check(inflateInit2_(stream.ptr, 15 + 16, ZLIB_VERSION, sizeOf<z_stream>().toInt()) == Z_OK) { "zlib could not start inflating" }
+    check(inflateInit2_(stream.ptr, windowBits, ZLIB_VERSION, sizeOf<z_stream>().toInt()) == Z_OK) { "zlib could not start inflating" }
     val chunks = mutableListOf<ByteArray>()
     try {
         input.usePinned { pinnedInput ->

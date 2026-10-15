@@ -90,10 +90,16 @@ data class DictionaryLookup(val entries: List<DictionaryEntry>, val lemmas: List
 /**
  * Identifies a dictionary by the ISO 639-1 codes of the language it explains and the language it explains in.
  * A [glossary] is a word finder instead: words of the reader's own language with their translations
- * into the language they learn, so a word can be found from its meaning.
+ * into the language they learn, so a word can be found from its meaning. An [imported] dictionary
+ * is one the user brought, by its [ImportedDictionary.key].
  */
-data class DictionaryId(val sourceLanguage: String, val targetLanguage: String, val glossary: Boolean = false) {
-    val name: String get() = if (glossary) "$sourceLanguage-$targetLanguage-gloss" else "$sourceLanguage-$targetLanguage"
+data class DictionaryId(val sourceLanguage: String, val targetLanguage: String, val glossary: Boolean = false, val imported: String? = null) {
+    val name: String
+        get() = when {
+            imported != null -> "imported-$imported"
+            glossary -> "$sourceLanguage-$targetLanguage-gloss"
+            else -> "$sourceLanguage-$targetLanguage"
+        }
 
     companion object {
         /**
