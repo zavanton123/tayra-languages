@@ -487,11 +487,16 @@ private fun ParagraphText(
         val offset = result.getOffsetForPosition(position)
         val line = result.getLineForOffset(offset)
         if (position.x < result.getLineLeft(line) - 4 || position.x > result.getLineRight(line) + 4) return null
-        // The nearest caret comes after a letter whose far half the mouse is over (its right half, or
-        // its left in a right-to-left line): the letter under the mouse is the one before it then.
-        val under = if (offset > 0 && result.getLineForOffset(offset - 1) == line && result.getBoundingBox(offset - 1).let { position.x >= it.left && position.x <= it.right }) offset - 1 else offset
         val spans = currentSpans
-        val span = spans.firstOrNull { under >= it.start && under < it.end } ?: spans.lastOrNull { under == it.end } ?: return null
+        fun spanAt(at: Int) = spans.firstOrNull { at >= it.start && at < it.end }
+        // The nearest caret comes after the word under the mouse when it is over the far half of its last
+        // letter (its left half in a right-to-left line), or over a letter carrying vowel signs or marks.
+        val before = if (offset > 0) spanAt(offset - 1) else null
+        if (before != null && before.end > before.start && result.getLineForOffset(before.start) == line && result.getLineForOffset(before.end - 1) == line) {
+            val bounds = result.getPathForRange(before.start, before.end).getBounds()
+            if (position.x >= bounds.left && position.x <= bounds.right) return before.itemIndex
+        }
+        val span = spanAt(offset) ?: spans.lastOrNull { offset == it.end } ?: return null
         return span.itemIndex
     }
 

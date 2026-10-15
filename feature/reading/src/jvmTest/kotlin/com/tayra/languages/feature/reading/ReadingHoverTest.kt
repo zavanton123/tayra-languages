@@ -679,7 +679,22 @@ class ReadingHoverTest {
     @Test
     fun everyLetterOfAnArabicWordHoversIt() = assertEveryLetterHovers("Arabic", "ذهب الولد إلى المدرسة في الصباح مع 3 كتب.")
 
-    /** The mouse over either edge or the middle of any letter of a word of [paragraph] hovers that word. */
+    /** The marks of a pointed text sit on the letters, so the mouse over them is over the word. */
+    @Test
+    fun everyLetterOfAVowelledArabicWordHoversIt() = assertEveryLetterHovers("Arabic", "ذَهَبَ الْوَلَدُ إِلَى الْمَدْرَسَةِ صَبَاحًا.")
+
+    @Test
+    fun everyLetterOfAPointedHebrewWordHoversIt() = assertEveryLetterHovers("Hebrew", "הַיֶּלֶד קָרָא סֵפֶר בַּבַּיִת.")
+
+    /** A word ending in a vowel sign (है, पानी) ends in a letter the sign is drawn with. */
+    @Test
+    fun everyLetterOfAHindiWordHoversIt() = assertEveryLetterHovers("Hindi", "लड़का किताब पढ़ता है और पानी पीता है।")
+
+    /** 𠮷 is one character of two UTF-16 units, so the word after it begins two units on. */
+    @Test
+    fun everyLetterOfAJapaneseWordHoversIt() = assertEveryLetterHovers("Japanese", "𠮷野家で牛丼を食べた。")
+
+    /** The mouse anywhere across a word of [paragraph], from edge to edge, hovers that word. */
     private fun assertEveryLetterHovers(name: String, paragraph: String) {
         val language = com.tayra.languages.core.domain.language.LanguageDefinitions.all.first { it.name == name }.language
         val vm = runBlocking { reader(mainIsDefault = false, language = language, paragraph = paragraph, wordsPerPage = 100) }
@@ -700,15 +715,20 @@ class ReadingHoverTest {
             val start = text.indexOf(item.renderText, offset).takeIf { it >= 0 } ?: return@forEachIndexed
             offset = start + item.renderText.length
             if (!item.isWord) return@forEachIndexed
-            for (c in start until offset) {
-                val box = layout.getBoundingBox(c)
-                if (box.width <= 0f) continue
-                for (f in listOf(0.05f, 0.5f, 0.95f)) {
-                    node.performMouseInput { moveTo(Offset(box.left + box.width * f, box.center.y + 6.dp.toPx())) }
-                    rule.waitForIdle()
-                    val hovered = vm.state.value.hovered
-                    if (hovered != index) wrong += "${item.renderText}[${c - start}]@$f got ${hovered?.let { items[it].renderText }}"
-                }
+            if (layout.getLineForOffset(start) != layout.getLineForOffset(offset - 1)) return@forEachIndexed
+            // From the caret before the word to the caret after it, whichever way it runs: a mark has no box of its own.
+            val a = layout.getHorizontalPosition(start, usePrimaryDirection = true)
+            val b = layout.getHorizontalPosition(offset, usePrimaryDirection = true)
+            val left = minOf(a, b)
+            val width = maxOf(a, b) - left
+            val line = layout.getLineForOffset(start)
+            val y = (layout.getLineTop(line) + layout.getLineBottom(line)) / 2
+            for (i in 0..20) {
+                val x = left + 0.5f + (width - 1f) * i / 20f
+                node.performMouseInput { moveTo(Offset(x, y + 6.dp.toPx())) }
+                rule.waitForIdle()
+                val hovered = vm.state.value.hovered
+                if (hovered != index) wrong += "${item.renderText}@${(100 * (x - left) / width).toInt()}% got ${hovered?.let { items[it].renderText }}"
             }
         }
         assertTrue(wrong.isEmpty(), wrong.toString())
