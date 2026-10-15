@@ -2,32 +2,76 @@ package com.tayra.languages.core.data.files
 
 class FileImportException(message: String, cause: Throwable? = null) : Exception(message, cause)
 
-/** Reads the text of an epub file, or throws [FileImportException] when unsupported on this platform. */
-expect fun extractEpubText(bytes: ByteArray): String
+/** A file's text, one paragraph per line, and the title the file gives itself when it has one. */
+data class ExtractedText(val text: String, val title: String? = null)
 
 /**
- * Extracts book text from uploaded files: txt, srt, vtt and epub.
+ * Extracts the text of a book or lesson from a file: plain text and subtitles, e-books (epub, fb2,
+ * mobi, azw3), documents (docx, odt, rtf), web pages (html, mhtml) and Markdown; a zip that
+ * holds one such file (a downloaded "book.fb2.zip") is read through.
  */
 object FileTextExtractor {
-    val supportedExtensions = listOf("txt", "epub", "srt", "vtt")
 
-    fun extract(fileName: String, bytes: ByteArray): String {
+    /** The file extensions the picker offers. */
+    val supportedExtensions: List<String> = listOf(
+        "txt", "epub", "fb2", "fbz", "docx", "odt", "rtf", "mobi", "azw", "azw3",
+        "html", "htm", "xhtml", "mhtml", "mht", "md", "markdown", "srt", "vtt", "zip",
+    )
+
+    /** The formats as people name them, for the form that offers the picker. */
+    val formatNames: List<String> = listOf(
+        "TXT", "EPUB", "FB2", "DOCX", "ODT", "RTF", "MOBI", "AZW3", "HTML", "MHTML", "MD", "SRT", "VTT",
+    )
+
+    suspend fun extract(fileName: String, bytes: ByteArray): ExtractedText {
         val extension = fileName.substringAfterLast('.', "").lowercase()
-        val content = when (extension) {
-            "txt" -> decodeUtf8(fileName, bytes)
-            "srt" -> subtitleText(decodeUtf8(fileName, bytes))
-            "vtt" -> vttText(decodeUtf8(fileName, bytes))
-            "epub" -> extractEpubText(bytes)
+        val extracted = when (extension) {
+            "txt" -> ExtractedText(decodeUtf(fileName, bytes))
+            "srt" -> ExtractedText(subtitleText(decodeUtf(fileName, bytes)))
+            "vtt" -> ExtractedText(vttText(decodeUtf(fileName, bytes)))
+            "md", "markdown" -> ExtractedText(MarkdownText.text(decodeUtf(fileName, bytes)))
+            "html", "htm", "xhtml" -> decodeHtml(fileName, bytes).let { ExtractedText(HtmlText.text(it), HtmlText.title(it)) }
+            "mhtml", "mht" -> MhtmlText.read(bytes)
+            "epub" -> EpubText.read(bytes)
+            "fb2" -> Fb2Text.read(bytes)
+            "fbz", "zip" -> fromArchive(bytes)
+            "docx" -> DocxText.read(bytes)
+            "odt" -> OdtText.read(bytes)
+            "rtf" -> RtfText.read(bytes)
+            "mobi", "azw", "azw3", "prc" -> MobiText.read(bytes)
             else -> throw FileImportException("Unknown file extension \"$extension\"")
-        }.trim()
+        }
+        val content = clean(extracted.text)
         if (content.isEmpty()) throw FileImportException("$fileName is empty.")
-        return content
+        return ExtractedText(content, extracted.title?.let(::clean)?.takeIf { it.isNotEmpty() })
     }
 
-    private fun decodeUtf8(fileName: String, bytes: ByteArray): String = try {
-        bytes.decodeToString(throwOnInvalidSequence = true).removePrefix("﻿")
-    } catch (e: CharacterCodingException) {
-        throw FileImportException("$fileName is not utf-8 encoding, please convert it to utf-8 first", e)
+    /** The one book a zip holds (an fbz is a zipped FB2), read by its own extension. */
+    private suspend fun fromArchive(bytes: ByteArray): ExtractedText {
+        val zip = openZip(bytes, "zip")
+        val inner = zip.entries.firstOrNull { entry ->
+            val ext = entry.name.substringAfterLast('.', "").lowercase()
+            !entry.name.endsWith("/") && ext in supportedExtensions && ext != "zip" && ext != "fbz"
+        } ?: throw FileImportException("The zip holds no file Tayra can read")
+        return extract(inner.name.substringAfterLast('/'), zip.read(inner))
+    }
+
+    /** Line ends made "\n"; soft hyphens, which only mark where a word may break, removed. */
+    private fun clean(text: String): String =
+        text.replace("\r\n", "\n").replace('\r', '\n').replace("­", "").trim()
+
+    private fun decodeUtf(fileName: String, bytes: ByteArray): String {
+        if (!TextDecoding.isUtf(bytes)) throw FileImportException("$fileName is not utf-8 encoding, please convert it to utf-8 first")
+        return TextDecoding.utf(bytes)
+    }
+
+    /** A web page in UTF-8, or in the charset its <meta> names when it is not UTF-8. */
+    private fun decodeHtml(fileName: String, bytes: ByteArray): String {
+        if (TextDecoding.isUtf(bytes)) return TextDecoding.utf(bytes)
+        val head = latin1(bytes.copyOfRange(0, minOf(bytes.size, 4096)))
+        val charset = Regex("""(?i)<meta[^>]+charset\s*=\s*["']?([\w-]+)""").find(head)?.groupValues?.get(1)
+            ?: throw FileImportException("$fileName is not utf-8 encoding, please convert it to utf-8 first")
+        return TextDecoding.decode(bytes, charset)
     }
 
     private val timing = Regex("""^\d{1,2}:\d{2}:\d{2}[,.]\d{3}\s*-->""")

@@ -87,4 +87,28 @@ class BookFormScreenTest {
         waitUntil(timeoutMillis = 5_000) { saved }
         assertEquals(3, runBlocking { books.pageCount(id) })
     }
+
+    /** A file that names its book, as an FB2 does, gives the new book that title; the form lists the formats it reads. */
+    @Test
+    fun anImportedBookTakesTheTitleItsFileGives() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        runBlocking { languages.save(Language(name = "Portuguese")) }
+        val viewModel = BookFormViewModel(null, books, languages, settings, service)
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {}) {
+                        BookFormScreen(bookId = null, onNavigate = {}, onBack = {}, onSaved = { _, _ -> }, viewModel = viewModel)
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Create new book").fetchSemanticsNodes().isNotEmpty() }
+        onAllNodesWithText("FB2", substring = true).fetchSemanticsNodes().let { kotlin.test.assertTrue(it.isNotEmpty(), "the formats name FB2") }
+        val fb2 = """<?xml version="1.0" encoding="utf-8"?><FictionBook><description><title-info><book-title>O Lobo</book-title></title-info></description>
+            <body><section><p>O lobo dorme na floresta.</p></section></body></FictionBook>"""
+        viewModel.importFile("lobo.fb2", fb2.toByteArray())
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.importedFileName != null }
+        assertEquals("O Lobo", viewModel.state.value.draft.title)
+        assertEquals("O lobo dorme na floresta.", viewModel.state.value.draft.text)
+    }
 }

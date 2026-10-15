@@ -149,7 +149,7 @@ private fun BookContentCard(
     viewModel: BookFormViewModel,
     modifier: Modifier = Modifier,
 ) {
-    val formats = FileTextExtractor.supportedExtensions.joinToString(" · ") { it.uppercase() }
+    val formats = FileTextExtractor.formatNames.joinToString(" · ")
     val rtl = state.language?.rightToLeft == true
     val subtitle = if (state.isNew) tr("Add the text for your book.") else tr("Edit the text of your book.")
     ContentCard(tr("Book content"), subtitle, icon = AppIcons.FileOutline, modifier = modifier) {

@@ -103,12 +103,13 @@ class BookFormViewModel(
         _state.update { it.copy(busy = true, error = null, notice = null) }
         viewModelScope.launch {
             try {
-                val text = FileTextExtractor.extract(fileName, bytes)
+                val extracted = FileTextExtractor.extract(fileName, bytes)
+                val text = extracted.text
                 _state.update {
                     it.copy(
                         busy = false,
                         importedFileName = fileName,
-                        draft = it.draft.copy(text = text, title = it.draft.title.ifBlank { fileName.substringBeforeLast('.') }),
+                        draft = it.draft.copy(text = text, title = it.draft.title.ifBlank { extracted.title ?: fileName.substringBeforeLast('.') }),
                         notice = trPlural(text.length, "Loaded {0} character from {1}.", "Loaded {0} characters from {1}.", fileName),
                     )
                 }

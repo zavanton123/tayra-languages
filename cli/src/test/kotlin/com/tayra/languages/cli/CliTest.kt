@@ -51,6 +51,15 @@ class CliTest {
         assertTrue("house" in run("terms", "show", "casa").stdout)
     }
 
+    /** A book's file is read as the app imports it: a web page's text, without its markup. */
+    @Test
+    fun aBookIsAddedFromAWebPageFile() {
+        ready()
+        val page = File(dataDir, "casa.html").apply { writeText("<html><head><title>x</title></head><body><h1>A casa</h1><p>Eu moro <b>no</b> Brasil.</p></body></html>") }
+        val id = json("books", "add", "--title", "A casa", "--file", page.absolutePath).jsonObject["id"]!!.jsonPrimitive.content
+        assertEquals("A casa\nEu moro no Brasil.", json("books", "text", id).jsonObject["text"]!!.jsonPrimitive.content)
+    }
+
     @Test
     fun aCourseGetsLessonsInOrder() {
         ready()

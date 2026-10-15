@@ -109,7 +109,9 @@ particles and endings.
 
 ## Books
 
-- Import plain text, EPUB and subtitle files (SRT, VTT), or paste a text; on desktop and
+- Import e-books (EPUB, FB2, MOBI, AZW3), documents (DOCX, ODT, RTF), web pages (HTML, MHTML),
+  Markdown, plain text and subtitle files (SRT, VTT), or paste a text: each becomes plain text,
+  with the book's own title. A zipped book (`.fb2.zip`, `.fbz`) is read through. On desktop and
   Android, a web page can be imported by its address.
 - Long texts are split into pages by paragraph or by word count; pages can be edited, added
   or removed later.

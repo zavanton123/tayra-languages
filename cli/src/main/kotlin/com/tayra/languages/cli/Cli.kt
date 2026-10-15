@@ -6,6 +6,8 @@ import co.touchlab.kermit.Severity
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.core.CliktError
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
+import com.tayra.languages.core.data.files.FileImportException
+import com.tayra.languages.core.data.files.FileTextExtractor
 import com.tayra.languages.core.data.di.dataModule
 import com.tayra.languages.core.data.runtime.AppInstanceLock
 import com.tayra.languages.core.domain.backup.BackupException
@@ -150,8 +152,18 @@ private object StderrLogWriter : LogWriter() {
 fun readInput(text: String?, file: String?): String? = when {
     text != null -> text
     file == "-" -> System.`in`.bufferedReader().readText()
-    file != null -> File(file).takeIf { it.isFile }?.readText() ?: notFound("No file $file")
+    file != null -> File(file).takeIf { it.isFile }?.let(::fileText) ?: notFound("No file $file")
     else -> null
+}
+
+/** A file's text: an e-book, document or web page is read as the app imports it, any other file as UTF-8 text. */
+private fun fileText(file: File): String {
+    if (file.extension.lowercase() !in FileTextExtractor.supportedExtensions || file.extension.lowercase() == "txt") return file.readText()
+    return try {
+        runBlocking { FileTextExtractor.extract(file.name, file.readBytes()).text }
+    } catch (e: FileImportException) {
+        invalid(e.message ?: "Could not read ${file.name}")
+    }
 }
 
 /** Columns padded to line up, for the lists people read. */
