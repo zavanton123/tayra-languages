@@ -53,6 +53,11 @@ database in WAL mode with a busy timeout, so they can use it at the same time.
 ./gradlew :core:domain:wasmJsBrowserTest       # parser tests in a headless browser
 ```
 
+`YomitanTranslatorTest` (core/data) runs Yomitan's own translator tests: its test dictionary and
+expected results (`core/data/src/jvmTest/resources/yomitan`, copied from Yomitan's `test/data`,
+GPL-3.0) are imported and looked up through the app, which must find the same words, readings and
+inflections. Refresh them from a newer Yomitan by copying those files again.
+
 iOS: ML Kit ships only as CocoaPods, so run `pod install` in `iosApp` and build from
 `iosApp/iosApp.xcworkspace`. New Swift files must be added to `project.pbxproj`. ML Kit's
 binaries have no arm64 simulator slice; on Apple Silicon, `xcodebuild` builds for devices
