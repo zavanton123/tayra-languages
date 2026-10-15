@@ -135,6 +135,26 @@ object AddedLanguages {
         ),
     )
 
+    private fun japanese() = LanguageDefinition(
+        language = Language(
+            name = "Japanese",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://jisho.org/search/[WORD]", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.japandict.com/?s=[WORD]&lang=eng", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Japanese", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://www.deepl.com/translator#jp/en/[WORD]", isActive = true, sortOrder = 4),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://www.weblio.jp/content/[WORD]", isActive = true, sortOrder = 5),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://conjugator.reverso.net/conjugation-japanese-verb-[WORD].html", isActive = true, sortOrder = 6),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?。？！",
+            wordCharacters = "\\u3041-\\u3096\\u309D-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF\\u3005-\\u3007\\u303B\\uFF66-\\uFF9F",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "japanese",
+        ),
+    )
+
     private fun kannada() = LanguageDefinition(
         language = Language(
             name = "Kannada",
@@ -322,6 +342,7 @@ object AddedLanguages {
             egyptianArabic(),
             hawaiian(),
             irish(),
+            japanese(),
             kannada(),
             lao(),
             maltese(),

@@ -1,0 +1,26 @@
+name: Japanese
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://jisho.org/search/[WORD]"
+  - for: terms
+    type: popup
+    url: "https://www.japandict.com/?s=[WORD]&lang=eng"
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Japanese"
+  - for: sentences
+    type: popup
+    url: "https://www.deepl.com/translator#jp/en/[WORD]"
+  - for: terms
+    type: embedded
+    url: "https://www.weblio.jp/content/[WORD]"
+  - for: terms
+    type: popup
+    url: "https://conjugator.reverso.net/conjugation-japanese-verb-[WORD].html"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?。？！"
+word_chars: "\\u3041-\\u3096\\u309D-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF\\u3005-\\u3007\\u303B\\uFF66-\\uFF9F"
+right_to_left: false
+show_romanization: true
+parser_type: japanese
