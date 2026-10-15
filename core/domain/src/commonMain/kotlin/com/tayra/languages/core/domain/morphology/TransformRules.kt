@@ -15,5 +15,6 @@ internal val transformRules: Map<String, () -> List<String>> = mapOf(
     "ka" to { kaTransforms },
     "la" to { laTransforms },
     "sq" to { sqTransforms },
+    "tl" to { tlTransforms },
     "uk" to { ukTransforms },
 )
