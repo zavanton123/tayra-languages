@@ -88,8 +88,18 @@ TARGETS = {
 # Stored as PRAGMA user_version and in meta; the app checks it before trusting a file.
 FORMAT = 1
 
-# Entries in the English dump whose "forms" are not inflections but table markup or spellings.
-SKIP_FORM_TAGS = {"table-tags", "inflection-template", "canonical", "class", "romanization", "alternative", "misspelling"}
+# Entries in the English dump whose "forms" are not inflections but table markup or spellings, or
+# the auxiliary a table names beside a verb's forms ("haben" for every German verb).
+SKIP_FORM_TAGS = {"table-tags", "inflection-template", "canonical", "class", "romanization", "alternative", "misspelling",
+                  "auxiliary"}
+# A compound tense is a form as a whole ("hat Schwein gehabt" of "Schwein haben"), but a single
+# word so tagged is one torn out of it ("ayant" of "ayant fini").
+COMPOUND_TENSE_TAG = "multiword-construction"
+# A spelling that more lemmas than this list as their form is no inflection but a word their tables
+# name: a pronoun of every Latvian conjugation, a Vietnamese classifier, a case label. The app leaves
+# such forms out too (DictionaryService). Kana readings and toneless pinyin are shared on purpose.
+MAX_LEMMAS_PER_FORM = 30
+SHARED_FORM_SOURCES = {"ja", "zh", "yue"}
 # Finnish and Hungarian tables also list every possessive-suffix variant of every case, which
 # multiplies the pack several times over; those forms are left out to keep it downloadable.
 SKIP_FORM_TAGS_BY_SOURCE = {
@@ -305,6 +315,12 @@ def load_glossary(path, variant_re, clean=lambda word: word):
     return entries, forms, variants, dropped
 
 
+def skipped_form(x, skip_tags):
+    """Whether a form of the English dump is left out: table markup, an auxiliary, a word torn from a compound tense."""
+    tags = set(x.get("tags", []))
+    return bool(tags & skip_tags) or (COMPOUND_TENSE_TAG in tags and " " not in x.get("form", "").strip())
+
+
 def load_english_forms(path, lemmas, spellings=lambda word: [word], skip_tags=SKIP_FORM_TAGS, report_every=200_000):
     """
     Collects (form, lemma) pairs from the English Wiktionary dump for the given lemmas.
@@ -324,7 +340,7 @@ def load_english_forms(path, lemmas, spellings=lambda word: [word], skip_tags=SK
                 if word not in lemmas:
                     continue
                 for x in d.get("forms", []):
-                    if set(x.get("tags", [])) & skip_tags:
+                    if skipped_form(x, skip_tags):
                         continue
                     for form in spellings(x.get("form", "").strip()):
                         if is_clean_form(form, word):
@@ -408,7 +424,18 @@ def open_output(out_path):
     return db, path
 
 
+def drop_shared_forms(db, source):
+    """Removes the forms that too many lemmas share (see MAX_LEMMAS_PER_FORM); returns how many rows went."""
+    if source in SHARED_FORM_SOURCES:
+        return 0
+    return db.execute(
+        "DELETE FROM forms WHERE form_lc IN (SELECT form_lc FROM forms GROUP BY form_lc HAVING count(*) > ?)",
+        (MAX_LEMMAS_PER_FORM,),
+    ).rowcount
+
+
 def finish_output(db, path, out_path, source, target, entry_count, form_count, sources):
+    form_count -= drop_shared_forms(db, source)
     db.executemany(
         "INSERT INTO meta(key, value) VALUES (?, ?)",
         [
@@ -543,7 +570,7 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
             pos_totals[pos] += 1
             stem = plain(word)[: min(3, len(word) - 1)]
             for x in d.get("forms", []):
-                if set(x.get("tags", [])) & skip_tags:
+                if skipped_form(x, skip_tags):
                     continue
                 form = cleaner(x.get("form", "").strip())
                 if not is_clean_form(form, word) or (latin_only and cyrillic(form)):
