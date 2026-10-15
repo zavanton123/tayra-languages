@@ -27,6 +27,8 @@ clikt = { module = "com.github.ajalt.clikt:clikt", version = "5.1.0" }
 slf4j-nop = { module = "org.slf4j:slf4j-nop", version = "2.0.17" }
 sherpa-onnx = { module = "k2-fsa:sherpa-onnx", version = "1.13.8" }
 commons-compress = { module = "org.apache.commons:commons-compress", version = "1.27.1" }
+pdfbox = { module = "org.apache.pdfbox:pdfbox", version = "3.0.3" }
+pdfbox-android = { module = "com.tom-roush:pdfbox-android", version = "2.0.27.0" }
 mlkit-translate = { module = "com.google.mlkit:translate", version = "17.0.3" }
 jna = { module = "net.java.dev.jna:jna", version = "5.19.1" }
 jna-platform = { module = "net.java.dev.jna:jna-platform", version = "5.19.1" }

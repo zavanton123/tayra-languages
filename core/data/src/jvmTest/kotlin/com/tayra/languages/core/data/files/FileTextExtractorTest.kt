@@ -1,6 +1,11 @@
 package com.tayra.languages.core.data.files
 
 import kotlinx.coroutines.test.runTest
+import org.apache.pdfbox.pdmodel.PDDocument
+import org.apache.pdfbox.pdmodel.PDPage
+import org.apache.pdfbox.pdmodel.PDPageContentStream
+import org.apache.pdfbox.pdmodel.font.PDType1Font
+import org.apache.pdfbox.pdmodel.font.Standard14Fonts
 import java.io.ByteArrayOutputStream
 import java.nio.charset.Charset
 import java.util.zip.ZipEntry
@@ -170,16 +175,44 @@ class FileTextExtractorTest {
         assertEquals("abcabcabc A", MobiText.palmDocInflate(data).decodeToString())
     }
 
-    /** Chinese and Japanese have no spaces between words, so a wrapped line joins without one. */
+    @Test
+    fun pdfLinesJoinedIntoParagraphs() = runTest {
+        val out = ByteArrayOutputStream()
+        PDDocument().use { document ->
+            val page = PDPage()
+            document.addPage(page)
+            document.documentInformation.title = "Ein PDF"
+            PDPageContentStream(document, page).use { stream ->
+                stream.beginText()
+                stream.setFont(PDType1Font(Standard14Fonts.FontName.HELVETICA), 12f)
+                stream.setLeading(14f)
+                stream.newLineAtOffset(50f, 700f)
+                for (line in listOf("Dies ist ein langer Absatz, der auf mehrere", "Zeilen verteilt ist und ein Wort mit Binde-", "strich am Ende hat, bis er endlich endet.", "", "Ein zweiter Absatz.")) {
+                    stream.showText(line)
+                    stream.newLine()
+                }
+                stream.endText()
+            }
+            document.save(out)
+        }
+        val pdf = FileTextExtractor.extract("doc.pdf", out.toByteArray())
+        assertEquals("Dies ist ein langer Absatz, der auf mehrere Zeilen verteilt ist und ein Wort mit Bindestrich am Ende hat, bis er endlich endet.\nEin zweiter Absatz.", pdf.text)
+        assertEquals("Ein PDF", pdf.title)
+    }
+
+    /** Chinese, Japanese and Thai have no spaces between words, so a wrapped line joins without one. */
     @Test
     fun linesWrappedInScriptsWithoutSpacesJoinWithoutOne() = runTest {
         assertEquals("我们是学生，他们也是学生。", FileTextExtractor.extract("a.html", "<p>我们是学生，\n他们也是学生。</p>".toByteArray()).text)
         assertEquals("日本語の文章です。 Next words", FileTextExtractor.extract("a.md", "日本語の文\n章です。\nNext\nwords".toByteArray()).text)
+        assertEquals("ฉันชอบกินข้าว", PdfText.reflow("ฉันชอบ\nกินข้าว"))
+        assertEquals("Hello world", PdfText.reflow("Hello\nworld"))
     }
 
     @Test
     fun wrongFilesAreRefusedWithAReason() {
         assertTrue(assertFailsWith<FileImportException> { extract("book.epub", "not a zip".toByteArray()) }.message!!.contains("not a valid EPUB file"))
+        assertTrue(assertFailsWith<FileImportException> { extract("doc.pdf", "nope".toByteArray()) }.message!!.contains("not a valid PDF file"))
         assertEquals("The zip holds no file Tayra can read", assertFailsWith<FileImportException> { extract("a.zip", zip("a.exe" to byteArrayOf(1))) }.message)
         assertEquals("x.txt is not utf-8 encoding, please convert it to utf-8 first", assertFailsWith<FileImportException> { extract("x.txt", byteArrayOf(0xC3.toByte(), 0x28)) }.message)
     }

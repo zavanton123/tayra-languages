@@ -7,20 +7,20 @@ data class ExtractedText(val text: String, val title: String? = null)
 
 /**
  * Extracts the text of a book or lesson from a file: plain text and subtitles, e-books (epub, fb2,
- * mobi, azw3), documents (docx, odt, rtf), web pages (html, mhtml) and Markdown; a zip that
+ * mobi, azw3), documents (docx, odt, rtf, pdf), web pages (html, mhtml) and Markdown; a zip that
  * holds one such file (a downloaded "book.fb2.zip") is read through.
  */
 object FileTextExtractor {
 
     /** The file extensions the picker offers. */
-    val supportedExtensions: List<String> = listOf(
-        "txt", "epub", "fb2", "fbz", "docx", "odt", "rtf", "mobi", "azw", "azw3",
+    val supportedExtensions: List<String> = listOfNotNull(
+        "txt", "epub", "fb2", "fbz", "docx", "odt", "rtf", "pdf".takeIf { pdfSupported }, "mobi", "azw", "azw3",
         "html", "htm", "xhtml", "mhtml", "mht", "md", "markdown", "srt", "vtt", "zip",
     )
 
     /** The formats as people name them, for the form that offers the picker. */
-    val formatNames: List<String> = listOf(
-        "TXT", "EPUB", "FB2", "DOCX", "ODT", "RTF", "MOBI", "AZW3", "HTML", "MHTML", "MD", "SRT", "VTT",
+    val formatNames: List<String> = listOfNotNull(
+        "TXT", "EPUB", "FB2", "DOCX", "ODT", "RTF", "PDF".takeIf { pdfSupported }, "MOBI", "AZW3", "HTML", "MHTML", "MD", "SRT", "VTT",
     )
 
     suspend fun extract(fileName: String, bytes: ByteArray): ExtractedText {
@@ -38,6 +38,7 @@ object FileTextExtractor {
             "docx" -> DocxText.read(bytes)
             "odt" -> OdtText.read(bytes)
             "rtf" -> RtfText.read(bytes)
+            "pdf" -> PdfText.read(bytes)
             "mobi", "azw", "azw3", "prc" -> MobiText.read(bytes)
             else -> throw FileImportException("Unknown file extension \"$extension\"")
         }

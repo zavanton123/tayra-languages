@@ -12,7 +12,7 @@
 | Preferences | multiplatform-settings; secrets through `SecureStore` |
 | Networking | Ktor client with HTTP cache |
 | Serialization | kotlinx.serialization |
-| Files | FileKit (picking files, CSV export); `FileTextExtractor` turns epub, fb2, mobi/azw3, docx, odt, rtf, html, mhtml, md, txt, srt and vtt into text in common code |
+| Files | FileKit (picking files, CSV export); `FileTextExtractor` turns epub, fb2, mobi/azw3, docx, odt, rtf, html, mhtml, md, txt, srt and vtt into text in common code, pdf through PDFBox (desktop), PDFBox-Android and PDFKit (iOS) |
 | Logging | Kermit |
 | Date/time | kotlinx-datetime |
 | Testing | kotlin-test, kotlinx-coroutines-test, Turbine |

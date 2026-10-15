@@ -40,4 +40,5 @@ private val CREDITS = listOf(
     "Example sentences come from Tatoeba, licensed CC BY 2.0 FR. Recorded pronunciations come from Lingua Libre and Wiktionary on Wikimedia Commons; each names its speaker and links to its licence.",
     "Word frequency lists come from wordfreq by Robyn Speer and from FrequencyWords by Hermit Dave (OpenSubtitles counts), both licensed CC BY-SA 4.0, and from the Leipzig Corpora Collection (Universität Leipzig).",
     "The inflection rules, furigana and reading code port Yomitan (GPL-3.0); the Japanese inflections and number, era and area readers follow 10ten Japanese Reader (GPL-3.0); the tone colours, zhuyin and grammar links come from the Zhongwen Chinese reader (GPL-2.0 or later). Japanese text on desktop is cut with Kuromoji (Apache 2.0) and MeCab's IPADIC dictionary. Chinese is converted between simplified and traditional characters with the tables of Open Chinese Convert (OpenCC, Apache 2.0), as GoldenDict converts it.",
+    "PDF files are read with Apache PDFBox, and on Android with PDFBox-Android by Tom Roush, both licensed Apache 2.0.",
 )

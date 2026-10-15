@@ -130,6 +130,7 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Could not read the file: it is not a valid Word (docx) file" to "Не удалось прочитать файл: он повреждён или не является документом Word (docx)",
     "Could not read the file: it is not a valid OpenDocument (odt) file" to "Не удалось прочитать файл: он повреждён или не является документом OpenDocument (odt)",
     "Could not read the file: it is not a valid zip file" to "Не удалось прочитать файл: он повреждён или не является архивом zip",
+    "Could not read the file: it is not a valid PDF file" to "Не удалось прочитать файл: он повреждён или не является PDF",
     "Could not read the document: it has no text" to "Не удалось прочитать документ: в нём нет текста",
     "Could not read the document: it is not a valid RTF file" to "Не удалось прочитать документ: он повреждён или не является RTF",
     "Could not read the book: it has no text" to "Не удалось прочитать книгу: в ней нет текста",
@@ -141,6 +142,9 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Could not read the web page: it is not a valid MHTML file" to "Не удалось прочитать веб-страницу: файл повреждён или не является MHTML",
     "Could not read the web page: it has no HTML page" to "Не удалось прочитать веб-страницу: в архиве нет HTML-страницы",
     "Could not read the web page: it has no text" to "Не удалось прочитать веб-страницу: на ней нет текста",
+    "PDF import is not available in the browser; import the PDF in the app on a computer or phone" to "В браузере PDF не импортируется. Импортируйте его в приложении на компьютере или телефоне.",
+    "This PDF has no text layer (it may be scanned pages); Tayra cannot read it" to "В этом PDF нет текстового слоя (возможно, это отсканированные страницы). Tayra не может его прочитать.",
+    "This PDF is protected by a password and cannot be imported" to "PDF защищён паролем, его нельзя импортировать",
     "The zip holds no file Tayra can read" to "В архиве zip нет файла, который Tayra может прочитать",
 
     // BookmarksScreen.kt

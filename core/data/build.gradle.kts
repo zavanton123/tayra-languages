@@ -58,6 +58,7 @@ kotlin {
             implementation(libs.mlkit.translate)
             implementation("k2-fsa:sherpa-onnx:1.13.8@aar")
             implementation(libs.commons.compress)
+            implementation(libs.pdfbox.android)
         }
         jvmMain.dependencies {
             implementation(libs.sqldelight.sqlite.driver)
@@ -65,6 +66,7 @@ kotlin {
             implementation(libs.jna)
             implementation(libs.jna.platform)
             implementation(libs.kuromoji.ipadic)
+            implementation(libs.pdfbox)
         }
         iosMain.dependencies {
             implementation(libs.sqldelight.native.driver)
