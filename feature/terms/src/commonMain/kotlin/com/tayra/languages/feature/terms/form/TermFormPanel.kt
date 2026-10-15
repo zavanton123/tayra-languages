@@ -100,6 +100,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.ui.components.toneColored
 import com.tayra.languages.core.domain.morphology.Chinese
+import com.tayra.languages.core.domain.morphology.ChineseGrammarWiki
 import com.tayra.languages.core.domain.dictionary.WordFrequency
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
@@ -229,6 +230,12 @@ private fun TermFormContent(
                         LinkChip(labels[dictionary] ?: OnlineDictionaries.host(dictionary.url)) {
                             uriHandler.openUri(dictionary.lookupUrl(draft.text.replace("​", "").encodeURLParameter()))
                         }
+                    }
+                    // The Chinese Grammar Wiki's notes on the word, or on its dictionary form, as Zhongwen links them.
+                    if (source.code == "zh") {
+                        val words = listOf(draft.text.replace("​", "")) + state.dictionary.lemmas
+                        words.firstNotNullOfOrNull(ChineseGrammarWiki::grammarUrl)?.let { url -> LinkChip(tr("Grammar notes")) { uriHandler.openUri(url) } }
+                        words.firstNotNullOfOrNull(ChineseGrammarWiki::vocabularyUrl)?.let { url -> LinkChip(tr("Vocabulary notes")) { uriHandler.openUri(url) } }
                     }
                 }
                 if (onManageDictionaries != null) {

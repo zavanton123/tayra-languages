@@ -84,6 +84,13 @@ modern era years (昭和56年 is 1981; the eras before 1873 need a calendar tabl
 and floor areas (四畳半 is 7.29 m², with the regional mat sizes); the term pane shows them for the
 text at the term in its sentence, an era name just before the word included.
 
+From the Zhongwen Chinese reader (GPL-2.0-or-later): `Chinese.syllables` cuts pinyin, spaced or
+joined, into syllables by its syllable table (`Zhuyin.kt`), the cut with the fewest syllables;
+`toneColored` (core/ui) colours them by tone in Zhongwen's standard colours, in the reader and the
+term pane ("Tone colours" in the reader's settings); `Chinese.zhuyin` writes them in bopomofo
+("Zhuyin"); and `ChineseGrammarWiki` links the words AllSet Learning's Chinese Grammar Wiki has
+notes on (simplified spellings) from the term pane's dictionary links.
+
 `YomitanTranslatorTest` (core/data) runs Yomitan's own translator tests: its test dictionary and
 expected results (`core/data/src/jvmTest/resources/yomitan`, copied from Yomitan's `test/data`,
 GPL-3.0) are imported and looked up through the app, which must find the same words, readings and

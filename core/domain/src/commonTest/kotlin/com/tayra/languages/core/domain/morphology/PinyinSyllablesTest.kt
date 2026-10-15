@@ -24,3 +24,13 @@ class PinyinSyllablesTest {
         assertEquals("ㄓㄨㄥ ㄨㄣˊ", Chinese.zhuyin("zhōngwén"))
     }
 }
+
+class ChineseGrammarWikiTest {
+    @Test
+    fun grammarWordsLinkToTheirNotes() {
+        assertEquals("https://resources.allsetlearning.com/chinese/grammar/%E6%8A%8A", ChineseGrammarWiki.grammarUrl("把"))
+        assertEquals(null, ChineseGrammarWiki.grammarUrl("电脑"))
+        assertEquals(null, ChineseGrammarWiki.vocabularyUrl("把"))
+        kotlin.test.assertTrue(ChineseGrammarWiki.vocabularyUrl("上班") != null)
+    }
+}

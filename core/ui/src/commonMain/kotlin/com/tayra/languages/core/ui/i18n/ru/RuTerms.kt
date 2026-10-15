@@ -240,6 +240,8 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Send to Anki" to "Отправить в Anki",
     "common" to "частое",
     "Names" to "Имена",
+    "Grammar notes" to "Заметки о грамматике",
+    "Vocabulary notes" to "Заметки о слове",
     "{0} ({1}), its first year" to "{0} ({1}), первый год эры",
     "Anki is not running, or AnkiConnect is not installed in it" to "Anki не запущена или в ней не установлен AnkiConnect",
     "Added {0} cards to Anki" to "В Anki добавлена {0} карточка|В Anki добавлены {0} карточки|В Anki добавлено {0} карточек",
