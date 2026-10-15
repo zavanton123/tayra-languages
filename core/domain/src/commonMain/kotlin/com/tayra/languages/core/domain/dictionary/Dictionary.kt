@@ -41,6 +41,21 @@ data class PitchAccent(val reading: String, val downstep: Int) {
 }
 
 /**
+ * What KANJIDIC says of a kanji: its meanings in the pack's gloss language (English where it has
+ * none), its on and kun readings, stroke count, school grade, JLPT level and newspaper frequency rank.
+ */
+data class KanjiInfo(
+    val character: String,
+    val meanings: List<String>,
+    val onyomi: List<String>,
+    val kunyomi: List<String>,
+    val strokes: Int? = null,
+    val grade: Int? = null,
+    val jlpt: Int? = null,
+    val frequency: Int? = null,
+)
+
+/**
  * What the dictionary knows about a clicked word: entries for the word itself first, then for
  * the lemmas it is a form of. [lemmas] lists the lemmas the word inflects, excluding the word.
  */
@@ -150,4 +165,7 @@ interface DictionaryPackStore {
 interface OfflineDictionary {
     suspend fun isAvailable(dictionary: DictionaryId): Boolean
     suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup
+
+    /** The kanji [text] is written with, in order, from a Japanese pack; empty for other languages. */
+    suspend fun kanji(dictionary: DictionaryId, text: String): List<KanjiInfo> = emptyList()
 }

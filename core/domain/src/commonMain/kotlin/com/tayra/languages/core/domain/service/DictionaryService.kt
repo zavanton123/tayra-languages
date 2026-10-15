@@ -9,7 +9,9 @@ import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.dictionary.DictionaryEntry
+import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.morphology.Chinese
+import com.tayra.languages.core.domain.morphology.Japanese
 import com.tayra.languages.core.domain.morphology.LanguageMorphology
 import com.tayra.languages.core.domain.morphology.Morphology
 import com.tayra.languages.core.domain.repository.DictionaryRepository
@@ -69,6 +71,19 @@ class DictionaryService(
         val pitch = if (dictionary.sourceLanguage == "ja") repository.pitch(dictionary, words) else emptyMap()
         if (readings.isEmpty() && pitch.isEmpty()) return found
         return found.copy(entries = found.entries.map { it.copy(reading = readings[it.word], pitch = pitch[it.word].orEmpty()) })
+    }
+
+    override suspend fun kanji(dictionary: DictionaryId, text: String): List<KanjiInfo> {
+        if (dictionary.sourceLanguage != "ja" || stateOf(dictionary) !is PackState.Installed) return emptyList()
+        val characters = mutableListOf<String>()
+        var i = 0
+        while (i < text.length) {
+            // Rare kanji lie outside the Basic Multilingual Plane, as surrogate pairs.
+            val length = if (text[i].isHighSurrogate() && i + 1 < text.length) 2 else 1
+            if (Japanese.isKanji(text[i])) characters += text.substring(i, i + length)
+            i += length
+        }
+        return if (characters.isEmpty()) emptyList() else repository.kanji(dictionary, characters.distinct().take(MAX_KANJI))
     }
 
     private suspend fun find(dictionary: DictionaryId, text: String): DictionaryLookup {
@@ -182,6 +197,8 @@ class DictionaryService(
 
     /** Languages whose packs give headwords a reading (kana, pinyin). */
     private val READING_LANGUAGES = setOf("ja", "zh")
+    /** More would push the meanings out of the pane for a long phrase. */
+    private val MAX_KANJI = 8
 
     /** Languages whose words carry their particles and endings joined on, so a word's beginning may be the dictionary word. */
     private val PARTICLE_LANGUAGES = setOf("ko")

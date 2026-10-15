@@ -7,12 +7,14 @@ import com.tayra.languages.core.domain.dictionary.DictionaryEntry
 import com.tayra.languages.core.domain.dictionary.DictionaryExample
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionarySense
+import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.dictionary.PitchAccent
 import com.tayra.languages.core.domain.repository.DictionaryRepository
 import kotlinx.coroutines.withContext
 import kotlin.coroutines.cancellation.CancellationException
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.ListSerializer
+import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
 
 class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider) : DictionaryRepository {
@@ -56,6 +58,19 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
         }.getOrElse { if (it is CancellationException) throw it else emptyMap() }
     }
 
+    override suspend fun kanji(dictionary: DictionaryId, characters: List<String>): List<KanjiInfo> = withContext(databaseDispatcher) {
+        val db = databases.database(dictionary) ?: return@withContext emptyList()
+        runCatching {
+            val rows = db.dictionaryQueries.selectKanji(characters.distinct()).awaitAsList().associateBy { it.character }
+            characters.distinct().mapNotNull { rows[it] }.map { row ->
+                KanjiInfo(
+                    row.character, json.decodeFromString(stringListSerializer, row.meanings), row.onyomi.words(), row.kunyomi.words(),
+                    row.strokes?.toInt(), row.grade?.toInt(), row.jlpt?.toInt(), row.frequency?.toInt(),
+                )
+            }
+        }.getOrElse { if (it is CancellationException) throw it else emptyList() }
+    }
+
     override suspend fun lemmas(dictionary: DictionaryId, formLc: String): List<String> = withContext(databaseDispatcher) {
         databases.database(dictionary)?.dictionaryQueries?.selectLemmas(formLc)?.awaitAsList().orEmpty()
     }
@@ -69,6 +84,9 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
         const val MAX_PARAMETERS = 500
         val json = Json { ignoreUnknownKeys = true }
         val senseListSerializer = ListSerializer(StoredSense.serializer())
+        val stringListSerializer = ListSerializer(String.serializer())
+
+        fun String.words(): List<String> = split(' ').filter { it.isNotEmpty() }
 
         /** Kanjium's positions, "0,2" or with the part of speech each applies to: "(副)1,(名;形動)0". */
         fun parseDownsteps(value: String): List<Int> =

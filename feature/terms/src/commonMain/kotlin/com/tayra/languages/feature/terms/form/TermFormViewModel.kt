@@ -10,6 +10,7 @@ import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
+import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
@@ -77,6 +78,8 @@ data class TermFormUiState(
     val createdAt: Instant? = null,
     /** Offline dictionary entries for the term, empty when no bundled dictionary covers the language pair. */
     val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
+    /** The kanji the term is written with, for Japanese. */
+    val kanji: List<KanjiInfo> = emptyList(),
     /** The downloadable pack for the language pair and whether it is on the device; null when none exists. */
     val dictionaryPack: PackStatus? = null,
     /** The words of each example with their statuses, by the example's text. */
@@ -177,7 +180,7 @@ class TermFormViewModel(
         _state.update {
             it.copy(
                 draft = draft, dirty = false, saved = false, error = null, duplicateOf = null, createdAt = null, references = null,
-                translationSuggested = false, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY,
+                translationSuggested = false, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY, kanji = emptyList(),
                 examples = emptyList(), examplesTotal = null, loadingExamples = false,
             )
         }
@@ -229,7 +232,8 @@ class TermFormViewModel(
         if (language == null || text.isBlank()) return DictionaryLookup.EMPTY
         val id = DictionaryPacks.find(LanguageCodes.codeFor(language.name), settings.current.nativeLanguage)?.id ?: return DictionaryLookup.EMPTY
         val lookup = dictionary.lookup(id, text)
-        _state.update { it.copy(dictionary = lookup) }
+        val kanji = dictionary.kanji(id, text)
+        _state.update { it.copy(dictionary = lookup, kanji = kanji) }
         return lookup
     }
 
@@ -358,7 +362,7 @@ class TermFormViewModel(
             it.copy(
                 draft = emptyDraft(it.draft.languageId).copy(text = text), dirty = false, saved = false, error = null, duplicateOf = null,
                 createdAt = null, references = null, translationSuggested = false, lookingUpTranslation = false,
-                dictionary = DictionaryLookup.EMPTY, examples = emptyList(), examplesTotal = null, loadingExamples = false,
+                dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), examples = emptyList(), examplesTotal = null, loadingExamples = false,
             )
         }
         scheduleLookup(text)

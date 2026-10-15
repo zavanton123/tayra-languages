@@ -5,6 +5,7 @@ import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
 import com.tayra.languages.core.data.dictionary.DictionaryDownloader
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
+import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.dictionary.PitchAccent
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
@@ -136,6 +137,21 @@ class MorphologyLookupTest {
         assertEquals(listOf(1, 0), accents.map { it.downstep }, "the parts of speech Kanjium marks are dropped")
         assertEquals(listOf("ちょ", "っ", "と"), accents.first().morae)
         assertEquals(listOf("atamadaka", "heiban"), accents.map { it.category(isVerbOrAdjective = false) })
+    }
+
+    @Test
+    fun aJapaneseTermListsTheKanjiItIsWrittenWith() = runTest {
+        val kanji = listOf(
+            "CREATE TABLE kanji (character TEXT NOT NULL PRIMARY KEY, meanings TEXT NOT NULL, onyomi TEXT NOT NULL, kunyomi TEXT NOT NULL, strokes INTEGER, grade INTEGER, jlpt INTEGER, frequency INTEGER)",
+            "INSERT INTO kanji VALUES ('日', '[\"day\",\"sun\"]', 'ニチ ジツ', 'ひ -び -か', 4, 1, 4, 1), ('本', '[\"book\"]', 'ホン', 'もと', 5, 1, 4, 10), ('𠮟', '[\"scold\"]', 'シツ', 'しか.る', 5, 8, NULL, NULL)",
+        )
+        val (service, ja) = service("ja", listOf(Triple("日本", "name", "Japan")), extra = kanji)
+        val found = service.kanji(ja, "日本の本")
+        assertEquals(listOf("日", "本"), found.map { it.character }, "each kanji once, in order, without the kana")
+        assertEquals(KanjiInfo("日", listOf("day", "sun"), listOf("ニチ", "ジツ"), listOf("ひ", "-び", "-か"), 4, 1, 4, 1), found.first())
+        assertEquals(listOf("𠮟"), service.kanji(ja, "𠮟る").map { it.character }, "a kanji outside the Basic Multilingual Plane")
+        val (plain, zh) = service("zh", listOf(Triple("日本", "name", "Japan")))
+        assertEquals(emptyList(), plain.kanji(zh, "日本"))
     }
 
     @Test

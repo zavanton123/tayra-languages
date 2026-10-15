@@ -97,6 +97,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
+import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.language.LanguageCatalog
@@ -189,6 +190,7 @@ fun TermFormPanel(
                 !state.dictionary.isEmpty -> DictionarySection(state.dictionary, language?.let { LanguageCodes.codeFor(it.name) }, onAdd = viewModel::addGloss)
                 pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
             }
+            if (!empty && state.kanji.isNotEmpty()) KanjiSection(state.kanji)
         }
         val linksContent: @Composable () -> Unit = {
             if (language != null) {
@@ -752,6 +754,55 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
 
 /** The pack's language pair, "Spanish → English", with the names in the interface language. */
 private fun packTitle(status: PackStatus): String = status.pack.title.split(" \u2192 ").joinToString(" \u2192 ") { tr(it) }
+
+/** Each kanji of a Japanese term, large, with its meanings, on and kun readings and how common it is, as Yomitan's kanji entries. */
+@Composable
+internal fun KanjiSection(kanji: List<KanjiInfo>) {
+    val colors = MaterialTheme.colorScheme
+    SectionCard({ KanjiBadge() }, tr("Kanji"), count = kanji.size, tint = null, filled = false) {
+        kanji.forEachIndexed { index, info ->
+            if (index > 0) HorizontalDivider(Modifier.padding(vertical = 4.dp), color = colors.outlineVariant)
+            Row(horizontalArrangement = Arrangement.spacedBy(14.dp), modifier = Modifier.testTag("kanji-${info.character}")) {
+                Text(info.character, style = MaterialTheme.typography.displaySmall)
+                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                    if (info.meanings.isNotEmpty()) Text(info.meanings.joinToString(", "), style = MaterialTheme.typography.bodyLarge)
+                    if (info.onyomi.isNotEmpty()) KanjiReadings(tr("On"), info.onyomi)
+                    if (info.kunyomi.isNotEmpty()) KanjiReadings(tr("Kun"), info.kunyomi)
+                    val facts = listOfNotNull(
+                        info.strokes?.let { trPlural(it, "{0} stroke", "{0} strokes") },
+                        info.grade?.let { schoolGrade(it) },
+                        info.jlpt?.let { tr("Old JLPT {0}", it) },
+                        info.frequency?.let { tr("Frequency #{0}", it) },
+                    )
+                    if (facts.isNotEmpty()) Text(facts.joinToString(" \u00b7 "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                }
+            }
+        }
+    }
+}
+
+/** KANJIDIC's grades: 1 to 6 are taught in primary school, 8 later among the jōyō kanji, 9 and 10 are for names only. */
+private fun schoolGrade(grade: Int): String = when {
+    grade <= 6 -> tr("Grade {0}", grade)
+    grade == 8 -> tr("Secondary school")
+    else -> tr("Used in names")
+}
+
+@Composable
+private fun KanjiReadings(label: String, readings: List<String>) {
+    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+        Text(label, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.width(32.dp))
+        Text(readings.joinToString("\u3001"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.primary)
+    }
+}
+
+/** A filled square with 字 ("character"), the mark of the kanji section. */
+@Composable
+private fun KanjiBadge() {
+    Box(Modifier.size(22.dp).clip(RoundedCornerShape(5.dp)).background(MaterialTheme.colorScheme.primary), contentAlignment = Alignment.Center) {
+        Text("\u5b57", color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.Bold)
+    }
+}
 
 /** Parts of speech whose downstep moves as they inflect, so Japanese calls their accented pattern kifuku. */
 private val VERB_OR_ADJECTIVE = setOf("verb", "adj")
