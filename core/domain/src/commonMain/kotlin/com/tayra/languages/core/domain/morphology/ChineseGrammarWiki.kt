@@ -70,11 +70,13 @@ object ChineseGrammarWiki {
         "问", "附近", "题目", "高兴",
     )
 
-    /** The wiki's grammar notes on [word], or null when it has none. */
-    fun grammarUrl(word: String): String? = word.trim().takeIf { it in grammar }?.let { "$BASE/grammar/${encoded(it)}" }
+    /** The wiki's grammar notes on [word], in either script, or null when it has none. */
+    fun grammarUrl(word: String): String? = simplified(word).takeIf { it in grammar }?.let { "$BASE/grammar/${encoded(it)}" }
 
-    /** The wiki's vocabulary notes on [word], or null when it has none. */
-    fun vocabularyUrl(word: String): String? = word.trim().takeIf { it in vocabulary }?.let { "$BASE/vocabulary/${encoded(it)}" }
+    /** The wiki's vocabulary notes on [word], in either script, or null when it has none. */
+    fun vocabularyUrl(word: String): String? = simplified(word).takeIf { it in vocabulary }?.let { "$BASE/vocabulary/${encoded(it)}" }
+
+    private fun simplified(word: String): String = ChineseScripts.convert(word.trim(), ChineseScript.SIMPLIFIED)
 
     /** The word percent-encoded as UTF-8, as a URL path carries it. */
     private fun encoded(word: String): String = word.encodeToByteArray().joinToString("") { byte ->

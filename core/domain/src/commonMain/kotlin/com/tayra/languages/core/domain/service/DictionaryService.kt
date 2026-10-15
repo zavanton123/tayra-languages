@@ -16,6 +16,8 @@ import com.tayra.languages.core.domain.dictionary.ImportedDictionary
 import com.tayra.languages.core.domain.dictionary.YomitanDictionaryInfo
 import com.tayra.languages.core.domain.dictionary.YomitanImporter
 import com.tayra.languages.core.domain.morphology.Chinese
+import com.tayra.languages.core.domain.morphology.ChineseScript
+import com.tayra.languages.core.domain.morphology.ChineseScripts
 import com.tayra.languages.core.domain.morphology.Japanese
 import com.tayra.languages.core.domain.morphology.LanguageMorphology
 import com.tayra.languages.core.domain.morphology.Morphology
@@ -148,7 +150,12 @@ class DictionaryService(
     }
 
     private suspend fun lookupIn(dictionary: DictionaryId, text: String): DictionaryLookup {
-        val found = find(dictionary, text)
+        val found = find(dictionary, text).let { found ->
+            // Text read in traditional characters may use Taiwan's variants (為) where the pack files
+            // another (爲); every pack lists the simplified spelling as a form of its word.
+            if (!found.isEmpty || dictionary.sourceLanguage != "zh" || !ChineseScripts.isReady) found
+            else ChineseScripts.convert(text, ChineseScript.SIMPLIFIED).takeIf { it != text }?.let { find(dictionary, it) } ?: found
+        }
         if (found.isEmpty || dictionary.sourceLanguage !in READING_LANGUAGES) return found
         val words = found.entries.map { it.word }
         val readings = repository.readings(dictionary, words)

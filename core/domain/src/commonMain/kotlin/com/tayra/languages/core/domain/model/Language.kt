@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.model
 
+import com.tayra.languages.core.domain.morphology.ChineseScript
+
 enum class DictionaryUse(val key: String) {
     TERMS("terms"),
     SENTENCES("sentences");
@@ -57,6 +59,8 @@ data class Language(
     val rightToLeft: Boolean = false,
     val showRomanization: Boolean = false,
     val parserType: String = DEFAULT_PARSER_TYPE,
+    /** For Chinese, the script its texts are shown in and its terms kept in; null keeps them as written. */
+    val chineseScript: ChineseScript? = null,
 ) {
     fun activeDictionaries(useFor: DictionaryUse): List<LanguageDictionary> =
         dictionaries.filter { it.isActive && it.useFor == useFor }.sortedBy { it.sortOrder }

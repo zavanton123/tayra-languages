@@ -1,6 +1,7 @@
 package com.tayra.languages.core.domain.parse
 
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.morphology.ChineseScripts
 
 /**
  * A parser for languages written without spaces between words (Chinese, Japanese, Thai, Lao,
@@ -26,7 +27,10 @@ open class SegmentingParser(
     protected open fun matches(text: String, lexicon: Lexicon): Boolean = text in lexicon
 
     override fun parse(text: String, language: Language): List<ParsedToken> {
-        val prepared = applyCharacterSubstitutions(text, language.characterSubstitutions)
+        // Chinese is read in the language's script, whichever one the text was written in, so its words
+        // are kept in that script and a word reads the same in a simplified and a traditional text.
+        val written = language.chineseScript?.let { ChineseScripts.convert(text, it) } ?: text
+        val prepared = applyCharacterSubstitutions(written, language.characterSubstitutions)
             .replace("\r\n", "\n")
             .replace('{', '[')
             .replace('}', ']')

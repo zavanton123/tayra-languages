@@ -254,7 +254,7 @@ class TermFormViewModel(
         val code = LanguageCodes.codeFor(language.name) ?: return DictionaryLookup.EMPTY
         // A pair with no pack of the app's may still have imported dictionaries.
         val id = DictionaryPacks.find(code, settings.current.nativeLanguage)?.id ?: DictionaryId(code, settings.current.nativeLanguage.ifBlank { "en" })
-        val lookup = dictionary.lookup(id, text)
+        val lookup = dictionary.lookup(id, text).inScript(language.chineseScript)
         val kanji = dictionary.kanji(id, text)
         _state.update { it.copy(dictionary = lookup, kanji = kanji, notes = if (code == "ja") notesOf(text) else emptyList()) }
         return lookup

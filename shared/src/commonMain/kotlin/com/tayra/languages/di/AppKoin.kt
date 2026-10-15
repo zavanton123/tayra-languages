@@ -11,13 +11,16 @@ import com.tayra.languages.feature.reading.readingModule
 import com.tayra.languages.feature.settings.settingsModule
 import com.tayra.languages.feature.stats.statsModule
 import com.tayra.languages.feature.terms.termsModule
+import com.tayra.languages.core.domain.morphology.ChineseScriptTables
+import com.tayra.languages.core.ui.chinese.ResourceChineseScriptTables
 import org.koin.core.context.startKoin
 import org.koin.core.module.Module
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 private val appModule = module {
-    viewModel { AppBootstrapViewModel(get(), get(), get(), get(), get(), get(), get(), get(), get()) }
+    single<ChineseScriptTables> { ResourceChineseScriptTables() }
+    viewModel { AppBootstrapViewModel(get(), get(), get(), get(), get(), get(), get(), get(), get(), getOrNull()) }
 }
 
 /** Feature modules wired into the app. */

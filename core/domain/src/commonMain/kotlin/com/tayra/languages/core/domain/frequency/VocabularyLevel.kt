@@ -47,12 +47,12 @@ class VocabularyLevelService(
 
     /** The frequency list of the language with [languageId], or null when the app has none. */
     suspend fun list(languageId: Long): FrequencyList? =
-        languages.getById(languageId)?.let { LanguageCodes.codeFor(it.name) }?.let { lists.list(it) }
+        languages.getById(languageId)?.let { language -> LanguageCodes.codeFor(language.name)?.let { lists.list(it) }?.inScript(language.chineseScript) }
 
     /** Sets the level to [level] (0 for none); null when the language has no frequency list. */
     suspend fun setLevel(languageId: Long, level: Int): LevelChange? {
         val language = languages.getById(languageId) ?: return null
-        val list = LanguageCodes.codeFor(language.name)?.let { lists.list(it) } ?: return null
+        val list = LanguageCodes.codeFor(language.name)?.let { lists.list(it) }?.inScript(language.chineseScript) ?: return null
         val known = list.words.take(level.coerceIn(0, list.words.size)).map { word ->
             val textLc = language.lowercase(word.word)
             KnownWord(word.word, textLc, word.forms.filter { it != textLc })

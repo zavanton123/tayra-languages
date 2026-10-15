@@ -8,6 +8,8 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emitAll
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
+import com.tayra.languages.core.domain.morphology.ChineseScript
+import com.tayra.languages.core.domain.morphology.ChineseScripts
 
 /** A word of a frequency list, with the forms of it that were counted ("diz", "disse" for "dizer"). */
 data class FrequencyWord(
@@ -24,6 +26,16 @@ data class FrequencyWord(
 
 /** A language's most common words, most common first, and where the counts came from. */
 data class FrequencyList(val source: String, val words: List<FrequencyWord>) {
+    /**
+     * The list as a Chinese language read in [script] has it: its words and their counted forms in
+     * that script, as its terms are kept, the forms as written kept too; unchanged without a script.
+     */
+    fun inScript(script: ChineseScript?): FrequencyList = if (script == null) this else copy(
+        words = words.map { word ->
+            word.copy(word = ChineseScripts.convert(word.word, script), forms = (word.forms.map { ChineseScripts.convert(it, script) } + word.forms).distinct())
+        },
+    )
+
     companion object {
         /**
          * Reads a list made by tools/build_frequency_list.py: `# source: ...` and other comment
@@ -100,7 +112,7 @@ class WordFrequencyService(
     /** The list of the language with [languageId], kept up to date as words are saved; null when the app has no list for it. */
     fun observe(languageId: Long): Flow<WordFrequencyOverview?> = flow {
         val language = languages.getById(languageId)
-        val list = language?.let { LanguageCodes.codeFor(it.name) }?.let { lists.list(it) }
+        val list = language?.let { LanguageCodes.codeFor(it.name) }?.let { lists.list(it) }?.inScript(language.chineseScript)
         if (language == null || list == null) {
             emit(null)
             return@flow
@@ -120,7 +132,7 @@ class WordFrequencyService(
      */
     fun observeKnownWords(languageId: Long): Flow<Int> = flow {
         val language = languages.getById(languageId)
-        val list = language?.let { LanguageCodes.codeFor(it.name) }?.let { lists.list(it) }
+        val list = language?.let { LanguageCodes.codeFor(it.name) }?.let { lists.list(it) }?.inScript(language.chineseScript)
         val listed = list?.words?.flatMapTo(HashSet()) { it.forms + it.key }.orEmpty()
         emitAll(
             terms.observeWordStatuses(languageId).map { statuses ->

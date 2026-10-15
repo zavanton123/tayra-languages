@@ -60,6 +60,7 @@ import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.LanguageService
 import com.tayra.languages.core.domain.service.LexiconService
+import com.tayra.languages.core.domain.service.ChineseScriptService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.WordReadings
 import com.tayra.languages.core.domain.service.StatsService
@@ -146,12 +147,13 @@ val dataModule: Module = module {
     single { LearningTranslations(get(), get(), get()) }
     single<AnkiPackager> { AnkiPackagerImpl() }
     single { AnkiExportService(get(), get(), get(), get(), get(), get(), get()) }
-    single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request) }
+    single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request, chineseTables = getOrNull()) }
     single { ExampleRecordings(KtorRecordingFetcher(get()), get()) }
     single { WordRecordings(CommonsRecordingSource(get())) }
     single { SentenceAudio(get(), get(), get(), get()) }
     single { TranslationLanguageKeeper(get(), get(), get<DictionaryService>(), get(), get()) }
-    single { LexiconService(get(), get(), getOrNull()) }
+    single { LexiconService(get(), get(), getOrNull(), getOrNull()) }
+    single { ChineseScriptService(get(), getOrNull(), get(), get()) }
     single { WordReadings(get(), get()) }
     single { ReadingService(get(), get(), get(), get(), get(), get<LexiconService>()) }
     single { TermPopupBuilder(get(), get(), get()) }

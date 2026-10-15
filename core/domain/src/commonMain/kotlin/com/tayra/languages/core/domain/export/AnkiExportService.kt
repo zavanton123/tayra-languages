@@ -103,7 +103,7 @@ class AnkiExportService(
         val code = LanguageCodes.codeFor(language.name) ?: language.name.lowercase()
         val word = term.displayText
         val sentence = term.sentence?.trim()?.takeIf { it.isNotEmpty() }
-        val lookup = attempt { lookup(code, native, word) }
+        val lookup = attempt { lookup(code, native, word) }?.inScript(language.chineseScript)
         val lemma = term.parents.firstOrNull()?.displayText ?: lookup?.parentSuggestion ?: word
         val partOfSpeech = lookup?.entries?.firstOrNull()?.pos?.replaceFirstChar { it.uppercase() }.orEmpty()
         val translation = sentence?.let { attempt { translator.translate(it, language) } }.orEmpty()

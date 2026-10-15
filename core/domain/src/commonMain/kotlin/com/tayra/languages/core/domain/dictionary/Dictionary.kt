@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.dictionary
 
+import com.tayra.languages.core.domain.morphology.ChineseScript
+import com.tayra.languages.core.domain.morphology.ChineseScripts
 import com.tayra.languages.core.domain.morphology.Japanese
 
 /** One meaning of a dictionary entry, with usage labels such as "comparative" or "abbreviation" and the dictionary's example sentences. */
@@ -94,6 +96,15 @@ data class DictionaryLookup(val entries: List<DictionaryEntry>, val lemmas: List
             val (top, second) = weights
             return top.first.takeIf { top.second >= DOMINANT_SENSE_RATIO * maxOf(second.second, 1) }
         }
+
+    /**
+     * The lookup as a Chinese language read in [script] shows it: its headwords and lemmas in that
+     * script (the packs file Chinese words under their traditional spelling); unchanged without one.
+     */
+    fun inScript(script: ChineseScript?): DictionaryLookup = if (script == null || isEmpty) this else DictionaryLookup(
+        entries.map { it.copy(word = ChineseScripts.convert(it.word, script)) },
+        lemmas.map { ChineseScripts.convert(it, script) }.distinct(),
+    )
 
     /** The first gloss, used to prefill an empty translation. */
     val suggestedTranslation: String? get() = entries.firstOrNull()?.senses?.firstOrNull()?.glosses?.firstOrNull()

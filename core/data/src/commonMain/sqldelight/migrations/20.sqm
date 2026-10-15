@@ -1,0 +1,7 @@
+-- A Chinese language keeps the script its texts are read in and its terms are kept in. A table of its
+-- own, made only when missing, so this runs whether it is there already or not; a language without a
+-- row, as every language until now, keeps them as written.
+CREATE TABLE IF NOT EXISTS language_scripts (
+    language_id INTEGER NOT NULL PRIMARY KEY REFERENCES languages(id) ON DELETE CASCADE,
+    script TEXT NOT NULL
+);

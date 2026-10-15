@@ -5,6 +5,8 @@ import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.frequency.FrequencyLists
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.morphology.ChineseScriptTables
+import com.tayra.languages.core.domain.morphology.ChineseScripts
 import com.tayra.languages.core.domain.parse.Lexicon
 import com.tayra.languages.core.domain.parse.Lexicons
 import com.tayra.languages.core.domain.parse.SegmentingParser
@@ -22,12 +24,15 @@ class LexiconService(
     private val dictionaries: DictionaryService,
     private val repository: DictionaryRepository,
     private val frequency: FrequencyLists?,
+    /** OpenCC's tables, for a Chinese language read in one script. */
+    private val chineseTables: ChineseScriptTables? = null,
 ) {
     private val mutex = Mutex()
     private val loadedFrom = mutableMapOf<String, Set<DictionaryId>>()
 
     /** Makes sure the language's lexicon is loaded before its texts are parsed; does nothing for spaced languages. */
     suspend fun prepare(language: Language) {
+        if (language.chineseScript != null) chineseTables?.let { ChineseScripts.prepare(it) }
         if (runCatching { language.parser }.getOrNull() !is SegmentingParser) return
         val code = LanguageCodes.codeFor(language.name) ?: return
         val packs = dictionaries.packs.value
@@ -36,7 +41,7 @@ class LexiconService(
         mutex.withLock {
             if (loadedFrom[code] == packs && Lexicons[code] != null) return
             val words = HashSet<String>()
-            frequency?.list(code)?.words?.forEach { word ->
+            frequency?.list(code)?.inScript(language.chineseScript)?.words?.forEach { word ->
                 words += word.key
                 words += word.forms
             }

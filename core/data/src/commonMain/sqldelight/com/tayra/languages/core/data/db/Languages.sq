@@ -10,6 +10,13 @@ CREATE TABLE languages (
     parser_type TEXT NOT NULL DEFAULT 'spacedel'
 );
 
+-- For a Chinese language, the script its texts are read in and its terms kept in, 'simplified' or
+-- 'traditional'; a language without a row keeps them as written.
+CREATE TABLE IF NOT EXISTS language_scripts (
+    language_id INTEGER NOT NULL PRIMARY KEY REFERENCES languages(id) ON DELETE CASCADE,
+    script TEXT NOT NULL
+);
+
 CREATE TABLE language_dictionaries (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
@@ -65,3 +72,12 @@ SELECT last_insert_rowid();
 
 countLanguages:
 SELECT count(*) FROM languages;
+
+selectScripts:
+SELECT language_id, script FROM language_scripts WHERE language_id IN :languageIds;
+
+setScript:
+INSERT OR REPLACE INTO language_scripts(language_id, script) VALUES (:languageId, :script);
+
+deleteScript:
+DELETE FROM language_scripts WHERE language_id = :languageId;

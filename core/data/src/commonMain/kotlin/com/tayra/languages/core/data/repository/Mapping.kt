@@ -13,10 +13,11 @@ import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.model.Page
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermRef
+import com.tayra.languages.core.domain.morphology.ChineseScript
 import com.tayra.languages.core.domain.model.TermStatus
 import kotlin.time.Instant
 
-internal fun Languages.toDomain(dictionaries: List<Language_dictionaries>): Language = Language(
+internal fun Languages.toDomain(dictionaries: List<Language_dictionaries>, script: String? = null): Language = Language(
     id = id,
     name = name,
     dictionaries = dictionaries.map { it.toDomain() },
@@ -27,6 +28,7 @@ internal fun Languages.toDomain(dictionaries: List<Language_dictionaries>): Lang
     rightToLeft = right_to_left,
     showRomanization = show_romanization,
     parserType = parser_type,
+    chineseScript = ChineseScript.of(script),
 )
 
 internal fun Language_dictionaries.toDomain(): LanguageDictionary = LanguageDictionary(

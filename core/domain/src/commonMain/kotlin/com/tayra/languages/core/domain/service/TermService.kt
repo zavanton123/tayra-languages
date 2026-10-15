@@ -1,6 +1,8 @@
 package com.tayra.languages.core.domain.service
 
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.morphology.ChineseScriptTables
+import com.tayra.languages.core.domain.morphology.ChineseScripts
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermDraft
 import com.tayra.languages.core.domain.model.TermMatch
@@ -29,10 +31,15 @@ class TermService(
     private val languages: LanguageRepository,
     /** Called with terms that may be starting to be learned without a translation, so one is looked up. */
     private val translationsWanted: (Collection<Long>) -> Unit = {},
+    /** OpenCC's tables: a Chinese language's terms are kept in its script, so they must be loaded before one is parsed. */
+    private val chineseTables: ChineseScriptTables? = null,
 ) {
 
-    suspend fun language(languageId: Long): Language =
-        languages.getById(languageId) ?: throw NoSuchElementException("No language $languageId")
+    suspend fun language(languageId: Long): Language {
+        val language = languages.getById(languageId) ?: throw NoSuchElementException("No language $languageId")
+        if (language.chineseScript != null) chineseTables?.let { ChineseScripts.prepare(it) }
+        return language
+    }
 
     suspend fun find(languageId: Long, text: String): Term? {
         val language = language(languageId)

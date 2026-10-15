@@ -73,6 +73,8 @@ class LanguageRepositoryImpl(private val provider: DatabaseProvider) : LanguageR
                 )
                 language.id
             }
+            val script = language.chineseScript
+            if (script == null) q.deleteScript(id) else q.setScript(id, script.id)
             q.deleteDictionaries(id)
             language.dictionaries.forEachIndexed { index, dict ->
                 q.insertDictionary(
@@ -98,6 +100,7 @@ class LanguageRepositoryImpl(private val provider: DatabaseProvider) : LanguageR
         if (rows.isEmpty()) return emptyList()
         val dictionaries = database.languagesQueries.selectDictionaries(rows.map { it.id }).awaitAsList()
             .groupBy { it.language_id }
-        return rows.map { it.toDomain(dictionaries[it.id] ?: emptyList()) }
+        val scripts = database.languagesQueries.selectScripts(rows.map { it.id }).awaitAsList().associate { it.language_id to it.script }
+        return rows.map { it.toDomain(dictionaries[it.id] ?: emptyList(), scripts[it.id]) }
     }
 }
