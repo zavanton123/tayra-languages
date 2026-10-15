@@ -18,7 +18,7 @@ under) that the app decompresses once and opens read-only on every platform; the
 .sqlite file is written next to it for inspection with sqlite3:
 
   meta(key, value)                           format, source/target language, entry count
-  entries(id, word, word_lc, pos, ipa, senses) senses is a JSON list of {glosses, tags}
+  entries(id, word, word_lc, pos, ipa, senses) senses is a JSON list of {glosses, tags, examples}
   forms(form_lc, lemma, generated)
 
 Usage: python3 tools/build_dictionary.py --source de [--target ru|en|de] [--glosses FILE] [--en FILE] [--out FILE]
@@ -283,6 +283,9 @@ def load_glossary(path, variant_re, clean=lambda word: word):
                 tags = s.get("tags", [])
                 if tags:
                     sense["tags"] = tags
+                examples = examples_of(s)
+                if examples:
+                    sense["examples"] = examples
                 senses.append(sense)
             if not senses:
                 dropped += 1
@@ -448,6 +451,27 @@ def write_sqlite(out_path, entries, form_rows, source, target):
     )
 
 
+# Example sentences kept per sense; quotations from literature are left out, they are long and dated.
+MAX_EXAMPLES = 3
+
+
+def examples_of(sense):
+    """A sense's example sentences with their translations, as the app reads them: [{"text", "translation"}]."""
+    out = []
+    for x in sense.get("examples", []):
+        text = " ".join((x.get("text") or "").split())
+        if not text or x.get("type") == "quotation" or len(text) > 300:
+            continue
+        example = {"text": text}
+        translation = " ".join((x.get("translation") or x.get("english") or "").split())
+        if translation:
+            example["translation"] = translation
+        out.append(example)
+        if len(out) == MAX_EXAMPLES:
+            break
+    return out
+
+
 # Sense tags that only repeat the part of speech or table markup rather than describe usage.
 NOISE_SENSE_TAGS = {"form-of", "alt-of", "no-gloss", "morpheme", "romanization"}
 
@@ -505,6 +529,9 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 kept_tags = [t for t in tags if t not in NOISE_SENSE_TAGS]
                 if kept_tags:
                     sense["tags"] = kept_tags
+                examples = examples_of(s)
+                if examples:
+                    sense["examples"] = examples
                 senses.append(sense)
             if not senses:
                 continue
