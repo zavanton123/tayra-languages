@@ -1,0 +1,20 @@
+name: Korean
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Korean"
+  - for: terms
+    type: popup
+    url: "https://korean.dict.naver.com/koendict/#/search?query=[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://papago.naver.com/?sk=ko&tk=en&st=[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=ko&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?。"
+word_chars: "\\uAC00-\\uD7A3\\u1100-\\u11FF\\u3130-\\u318F"
+right_to_left: false
+show_romanization: true
+parser_type: spacedel

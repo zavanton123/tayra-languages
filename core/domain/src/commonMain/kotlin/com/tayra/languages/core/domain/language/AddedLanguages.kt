@@ -172,6 +172,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun korean() = LanguageDefinition(
+        language = Language(
+            name = "Korean",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Korean", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://korean.dict.naver.com/koendict/#/search?query=[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://papago.naver.com/?sk=ko&tk=en&st=[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=ko&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?。",
+            wordCharacters = "\\uAC00-\\uD7A3\\u1100-\\u11FF\\u3130-\\u318F",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun lao() = LanguageDefinition(
         language = Language(
             name = "Lao",
@@ -344,6 +362,7 @@ object AddedLanguages {
             irish(),
             japanese(),
             kannada(),
+            korean(),
             lao(),
             maltese(),
             manx(),
