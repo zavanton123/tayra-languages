@@ -73,6 +73,12 @@ Anki afterwards count as exported either way.
 ./gradlew :core:domain:wasmJsBrowserTest       # parser tests in a headless browser
 ```
 
+`TentenDeinflectTest` (core/domain) checks the Japanese rules against the 209 word pairs of 10ten
+Japanese Reader's deinflection tests (GPL-3.0). The forms they need that Yomitan's rules lack are
+in `rules/JaExtraTransforms.kt`, hand-kept beside the generated `JaTransforms.kt`: -ないで,
+-ていらっしゃる, -なさる, -いたす, お〜になる, -得る, -ざるを得ない, Kansai -どる and the
+irregular する-verbs, the masu-stem ones derived from Yomitan's -なさい rules.
+
 `YomitanTranslatorTest` (core/data) runs Yomitan's own translator tests: its test dictionary and
 expected results (`core/data/src/jvmTest/resources/yomitan`, copied from Yomitan's `test/data`,
 GPL-3.0) are imported and looked up through the app, which must find the same words, readings and
