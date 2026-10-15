@@ -13,6 +13,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.rememberScrollState
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
@@ -20,12 +22,22 @@ import com.tayra.languages.core.ui.navigation.Route
 @Composable
 fun AboutScreen(onNavigate: (Route) -> Unit) {
     Scaffold(topBar = { AppTopBar(title = tr("About"), onNavigate = onNavigate, section = NavSection.SETTINGS) }) { padding ->
-        Column(Modifier.padding(padding).fillMaxSize().padding(16.dp).widthIn(max = 720.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 720.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             ScreenTitle(tr("About"))
             Text("Tayra Languages", style = MaterialTheme.typography.headlineSmall)
             Text(tr("Learn languages by reading. Import texts, click words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)
             Text(tr("A reader for learning languages through texts, running on Android, iOS, desktop and the web with a shared Compose UI."), style = MaterialTheme.typography.bodyMedium)
-            Text(tr("The offline English-Russian dictionary is built from the Russian and English Wiktionaries via kaikki.org, licensed CC BY-SA 4.0. Example sentences come from Tatoeba, licensed CC BY 2.0 FR. Word frequency lists come from wordfreq by Robyn Speer and from FrequencyWords by Hermit Dave (OpenSubtitles counts), both licensed CC BY-SA 4.0, and from the Leipzig Corpora Collection (Universität Leipzig)."), style = MaterialTheme.typography.bodySmall)
+            Text(tr("Credits"), style = MaterialTheme.typography.titleMedium)
+            CREDITS.forEach { Text(tr(it), style = MaterialTheme.typography.bodySmall) }
         }
     }
 }
+
+/** Where the app's dictionaries, sentences, lists and recordings come from, and under which licences. */
+private val CREDITS = listOf(
+    "Offline dictionaries are built from Wiktionary, through kaikki.org and wiktionary-to-yomitan, licensed CC BY-SA 4.0. Japanese ones add JMdict, the names pack is JMnedict, and kanji come from KANJIDIC2, all by the Electronic Dictionary Research and Development Group (EDRDG), licensed CC BY-SA 4.0. Chinese-English adds CC-CEDICT by MDBG, licensed CC BY-SA 4.0. The Toki Pona dictionaries come from lipu Linku, licensed CC BY-SA 4.0.",
+    "The pitch accent notation was provided by Uros O. through his free database Kanjium, licensed CC BY-SA 4.0.",
+    "Example sentences come from Tatoeba, licensed CC BY 2.0 FR. Recorded pronunciations come from Lingua Libre and Wiktionary on Wikimedia Commons; each names its speaker and links to its licence.",
+    "Word frequency lists come from wordfreq by Robyn Speer and from FrequencyWords by Hermit Dave (OpenSubtitles counts), both licensed CC BY-SA 4.0, and from the Leipzig Corpora Collection (Universität Leipzig).",
+    "The inflection rules, furigana and reading code port Yomitan (GPL-3.0); the Japanese inflections and number, era and area readers follow 10ten Japanese Reader (GPL-3.0); the tone colours, zhuyin and grammar links come from the Zhongwen Chinese reader (GPL-2.0 or later). Japanese text on desktop is cut with Kuromoji (Apache 2.0) and MeCab's IPADIC dictionary.",
+)
