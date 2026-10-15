@@ -43,6 +43,16 @@ class on the app's own runtime and jars (see the end of `desktopApp/build.gradle
 `app.lock` in the data folder while it is open, which tells the command so. Both open the
 database in WAL mode with a busy timeout, so they can use it at the same time.
 
+## Anki
+
+`AnkiExportService` builds cloze notes from terms and either packs them into an .apkg file
+(`AnkiPackagerImpl`, every platform) or, on desktop, adds them to the running Anki through the
+AnkiConnect add-on (`AnkiConnectClient`, bound as `AnkiConnection` in the JVM data module, at
+http://127.0.0.1:8765): it creates the "Tayra Languages" note type and the decks when missing, asks
+`canAddNotesWithErrorDetail` which notes Anki already has (the same cloze in the deck), stores the
+added notes' audio with `storeMediaFile` and adds them with `addNotes`. Terms whose notes are in
+Anki afterwards count as exported either way.
+
 ## Building and testing
 
 ```

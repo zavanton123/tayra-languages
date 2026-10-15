@@ -113,7 +113,7 @@ internal fun PhoneTermsScreen(
                 onNavigate = onNavigate,
                 section = NavSection.TERMS,
                 onBack = onBack,
-                actions = { PhoneListMenu(state, listActions, selecting = selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAllVisible(false) }, onExport = viewModel::exportAnki) },
+                actions = { PhoneListMenu(state, listActions, selecting = selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAllVisible(false) }, onExport = viewModel::exportAnki, onSend = if (viewModel.canSendToAnki) ({ viewModel.sendToAnki() }) else null) },
             )
         },
         snackbarHost = {
@@ -194,7 +194,7 @@ internal fun PhoneTermsScreen(
 }
 
 @Composable
-private fun PhoneListMenu(state: TermsListUiState, actions: ListActions, selecting: Boolean, onSelecting: (Boolean) -> Unit, onExport: () -> Unit) {
+private fun PhoneListMenu(state: TermsListUiState, actions: ListActions, selecting: Boolean, onSelecting: (Boolean) -> Unit, onExport: () -> Unit, onSend: (() -> Unit)? = null) {
     var open by remember { mutableStateOf(false) }
     val selected = state.selected.size
     Box {
@@ -205,6 +205,7 @@ private fun PhoneListMenu(state: TermsListUiState, actions: ListActions, selecti
             AppMenuItem(text = { Text(if (selected > 0) tr("Delete {0} selected", selected) else tr("Delete selected")) }, enabled = selected > 0, onClick = { open = false; actions.onDelete() })
             AppMenuItem(text = { Text(if (selected > 0) tr("Practise {0} selected", selected) else tr("Practise selected")) }, enabled = selected > 0, onClick = { open = false; actions.onPractice() })
             AppMenuItem(text = { Text(if (state.exporting == null) tr("Export to Anki") else tr("Exporting {0}", state.exporting)) }, enabled = state.exporting == null, onClick = { open = false; onExport() })
+            if (onSend != null) AppMenuItem(text = { Text(tr("Send to Anki")) }, enabled = state.exporting == null, onClick = { open = false; onSend() })
         }
     }
 }

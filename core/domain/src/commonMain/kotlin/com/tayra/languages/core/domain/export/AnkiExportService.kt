@@ -51,6 +51,34 @@ class AnkiExportService(
      */
     suspend fun export(termIds: Collection<Long>, onProgress: (done: Int, total: Int) -> Unit = { _, _ -> }): Export? {
         val now = clock.now()
+        val prepared = prepare(termIds, now, onProgress) ?: return null
+        return Export("${stamp(now)}.apkg", packager.pack(prepared.collection, now), prepared.notesTerms.flatten(), prepared.collection.notes.size, prepared.skipped)
+    }
+
+    /** Records that the terms of [export] are in Anki now, once its file was saved. */
+    suspend fun markExported(export: Export) = terms.markAnkiExported(export.termIds, clock.now())
+
+    /** What [send] did: notes added, notes Anki already had, notes it refused (with why), and terms left out as exported before. */
+    class Sent(val added: Int, val duplicates: Int, val failed: List<String>, val skipped: Int)
+
+    /**
+     * Adds the notes of [termIds] straight into the running Anki through [connection], leaving out
+     * terms exported before; null when none is left. The terms whose notes are in Anki afterwards,
+     * added now or there already, count as exported.
+     */
+    suspend fun send(termIds: Collection<Long>, connection: AnkiConnection, onProgress: (done: Int, total: Int) -> Unit = { _, _ -> }): Sent? {
+        val now = clock.now()
+        val prepared = prepare(termIds, now, onProgress) ?: return null
+        val result = connection.add(prepared.collection)
+        val inAnki = (result.added + result.duplicates).flatMap { prepared.notesTerms[it] }
+        if (inAnki.isNotEmpty()) terms.markAnkiExported(inAnki, clock.now())
+        return Sent(result.added.size, result.duplicates.size, result.failed.values.distinct(), prepared.skipped)
+    }
+
+    /** The notes of [termIds] not exported before, with the terms each note stands for, in note order. */
+    private class Prepared(val collection: AnkiCollection, val notesTerms: List<List<Long>>, val skipped: Int)
+
+    private suspend fun prepare(termIds: Collection<Long>, now: Instant, onProgress: (done: Int, total: Int) -> Unit): Prepared? {
         val native = settings.current.nativeLanguage.trim().lowercase().ifEmpty { "en" }
         val order = termIds.withIndex().associate { (i, id) -> id to i }
         val all = terms.getByIds(termIds).sortedBy { order[it.id] }
@@ -58,20 +86,18 @@ class AnkiExportService(
         if (selected.isEmpty()) return null
         // Terms whose cards would read the same (a family's forms sharing a sentence) make one note; the first keeps it.
         val notes = LinkedHashMap<String, AnkiNote>()
+        val noteTerms = LinkedHashMap<String, MutableList<Long>>()
         val media = LinkedHashMap<String, AnkiMedia>()
         selected.forEachIndexed { index, term ->
             onProgress(index, selected.size)
             val language = languages.getById(term.languageId) ?: return@forEachIndexed
             val note = noteFor(term, language, native, now, media)
             notes.getOrPut(note.guid) { note }
+            noteTerms.getOrPut(note.guid) { mutableListOf() } += term.id
         }
         onProgress(selected.size, selected.size)
-        val collection = AnkiCollection(noteType(), notes.values.toList(), media.values.toList())
-        return Export("${stamp(now)}.apkg", packager.pack(collection, now), selected.map { it.id }, notes.size, all.size - selected.size)
+        return Prepared(AnkiCollection(noteType(), notes.values.toList(), media.values.toList()), notes.keys.map { noteTerms.getValue(it) }, all.size - selected.size)
     }
-
-    /** Records that the terms of [export] are in Anki now, once its file was saved. */
-    suspend fun markExported(export: Export) = terms.markAnkiExported(export.termIds, clock.now())
 
     private suspend fun noteFor(term: Term, language: Language, native: String, now: Instant, media: MutableMap<String, AnkiMedia>): AnkiNote {
         val code = LanguageCodes.codeFor(language.name) ?: language.name.lowercase()

@@ -33,6 +33,10 @@ import java.io.ByteArrayInputStream
 import java.io.File
 import java.sql.DriverManager
 import java.util.zip.ZipInputStream
+import kotlinx.serialization.json.jsonArray
+import kotlinx.serialization.json.jsonObject
+import kotlinx.serialization.json.jsonPrimitive
+import io.ktor.client.engine.mock.respond
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -246,5 +250,58 @@ class AnkiExportTest {
     fun sha1MatchesTheStandard() {
         assertEquals("a9993e364706816aba3e25717850c26c9cd0d89d", Sha1.hex("abc".encodeToByteArray()))
         assertEquals("da39a3ee5e6b4b0d3255bfef95601890afd80709", Sha1.hex(ByteArray(0)))
+    }
+
+    /** AnkiConnect as Anki answers: it has no Tayra note type yet, and already has the second card. */
+    private class FakeAnkiConnect {
+        val calls = mutableListOf<Pair<String, kotlinx.serialization.json.JsonObject?>>()
+        val client = io.ktor.client.HttpClient(io.ktor.client.engine.mock.MockEngine { request ->
+            val body = kotlinx.serialization.json.Json.parseToJsonElement((request.body as io.ktor.http.content.TextContent).text).jsonObject
+            val action = body["action"]!!.jsonPrimitive.content
+            val params = body["params"] as? kotlinx.serialization.json.JsonObject
+            calls += action to params
+            val result = when (action) {
+                "version" -> "6"
+                "modelNames" -> """["Basic"]"""
+                "canAddNotesWithErrorDetail" -> """[{"canAdd": true}, {"canAdd": false, "error": "cannot create note because it is a duplicate"}]"""
+                "addNotes" -> "[1700000000000]"
+                else -> "null"
+            }
+            respond("""{"result": $result, "error": null}""")
+        })
+    }
+
+    @Test
+    fun sendingAddsTheNewNotesToTheRunningAnki() = runBlocking<Unit> {
+        val env = Env()
+        env.settings.update { it.copy(nativeLanguage = "ru", speechEngine = SpeechEngine.PIPER) }
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val hesitou = env.terms.save(Term(languageId = language, text = "hesitou", textLc = "hesitou", status = TermStatus.NEW_1, translation = "сомневался", sentence = "Ele hesitou antes de responder."))
+        val lobo = env.terms.save(Term(languageId = language, text = "lobo", textLc = "lobo", status = TermStatus.NEW_2, translation = "волк"))
+        val anki = FakeAnkiConnect()
+        val connection = com.tayra.languages.core.data.export.AnkiConnectClient(anki.client)
+
+        assertEquals(6, connection.version())
+        val sent = env.service.send(listOf(hesitou, lobo), connection)!!
+        assertEquals(1, sent.added)
+        assertEquals(1, sent.duplicates)
+        assertEquals(listOf("version", "modelNames", "createModel", "createDeck", "canAddNotesWithErrorDetail", "storeMediaFile", "addNotes"), anki.calls.map { it.first })
+        val model = anki.calls.first { it.first == "createModel" }.second!!
+        assertEquals("Tayra Languages", model["modelName"]!!.jsonPrimitive.content)
+        assertEquals(AnkiExportService.FIELDS.size, model["inOrderFields"]!!.jsonArray.size)
+        val note = anki.calls.first { it.first == "addNotes" }.second!!["notes"]!!.jsonArray.single().jsonObject
+        assertEquals("Tayra Languages::Portuguese", note["deckName"]!!.jsonPrimitive.content)
+        assertEquals("Ele {{c1::hesitou}} antes de responder.", note["fields"]!!.jsonObject["Cloze"]!!.jsonPrimitive.content)
+        // Only the added note's sentence audio is stored.
+        assertTrue(anki.calls.single { it.first == "storeMediaFile" }.second!!["filename"]!!.jsonPrimitive.content.startsWith("tayra-"))
+
+        // Both are in Anki now, the duplicate too, so neither is sent again.
+        assertEquals(null, env.service.send(listOf(hesitou, lobo), connection))
+    }
+
+    @Test
+    fun anAnkiWithoutAnkiConnectHasNoVersion() = runBlocking<Unit> {
+        val refused = io.ktor.client.HttpClient(io.ktor.client.engine.mock.MockEngine { throw java.net.ConnectException("Connection refused") })
+        assertEquals(null, com.tayra.languages.core.data.export.AnkiConnectClient(refused).version())
     }
 }

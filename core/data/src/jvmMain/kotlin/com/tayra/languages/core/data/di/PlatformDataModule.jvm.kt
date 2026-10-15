@@ -23,6 +23,8 @@ import org.koin.core.module.Module
 import org.koin.dsl.module
 import java.util.prefs.Preferences
 import java.io.File
+import com.tayra.languages.core.data.export.AnkiConnectClient
+import com.tayra.languages.core.domain.export.AnkiConnection
 import com.tayra.languages.core.domain.service.SpeechAudioCache
 import com.tayra.languages.core.data.speech.FileSpeechAudioCache
 
@@ -41,4 +43,6 @@ actual val platformDataModule: Module = module {
     single<Settings> { DatabaseDriverFactory.customDataDirectory()?.let { fileSettings(File(it, "settings.properties")) } ?: PreferencesSettings(Preferences.userRoot().node("com/tayra/languages")) }
     single<SecureStore> { desktopSecureStore() }
     single<CommandLineTool> { DesktopCommandLineTool() }
+    // Anki's AnkiConnect add-on listens on the desktop only.
+    single<AnkiConnection> { AnkiConnectClient(get()) }
 }

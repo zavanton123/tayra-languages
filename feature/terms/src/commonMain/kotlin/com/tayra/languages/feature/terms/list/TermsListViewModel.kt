@@ -15,6 +15,7 @@ import com.tayra.languages.core.domain.repository.TermRepository
 import com.tayra.languages.core.domain.repository.TermSortField
 import com.tayra.languages.core.domain.service.BulkTermUpdate
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.export.AnkiConnection
 import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.service.TermValidationException
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -72,7 +73,11 @@ class TermsListViewModel(
     private val settings: SettingsRepository,
     private val termService: TermService,
     private val anki: AnkiExportService,
+    /** A running Anki to add notes to directly; only the desktop has one. */
+    private val ankiConnection: AnkiConnection? = null,
 ) : ViewModel() {
+
+    val canSendToAnki: Boolean get() = ankiConnection != null
 
     private val filter = MutableStateFlow(
         TermListFilter(
@@ -241,6 +246,38 @@ class TermsListViewModel(
             else events.send(TermsListEvent.AnkiReady(export))
         } catch (e: Exception) {
             message.value = tr("Could not export: {0}", e.message)
+        } finally {
+            exporting.value = null
+        }
+    }
+
+    /** Adds the selected terms, or every listed one, straight into the running Anki through AnkiConnect. */
+    fun sendToAnki() = viewModelScope.launch {
+        val connection = ankiConnection ?: return@launch
+        if (exporting.value != null) return@launch
+        val ids = selected.value.toList().ifEmpty { terms.list(filter.value, sort.value, 0, 1_000_000).items.map { it.id } }
+        if (ids.isEmpty()) {
+            message.value = tr("Nothing to export")
+            return@launch
+        }
+        if (connection.version() == null) {
+            message.value = tr("Anki is not running, or AnkiConnect is not installed in it")
+            return@launch
+        }
+        exporting.value = tr("{0} of {1}", 0, ids.size)
+        try {
+            val sent = anki.send(ids, connection) { done, total -> exporting.value = tr("{0} of {1}", done, total) }
+            message.value = if (sent == null) {
+                if (ids.size == 1) tr("This word is already in Anki") else trPlural(ids.size, "All {0} words are already in Anki", "All {0} words are already in Anki")
+            } else {
+                listOfNotNull(
+                    trPlural(sent.added, "Added {0} card to Anki", "Added {0} cards to Anki"),
+                    (sent.duplicates + sent.skipped).takeIf { it > 0 }?.let { tr("{0} already in Anki left out", it) },
+                    sent.failed.firstOrNull()?.let { tr("Anki refused some: {0}", it) },
+                ).joinToString(", ")
+            }
+        } catch (e: Exception) {
+            message.value = tr("Could not send to Anki: {0}", e.message)
         } finally {
             exporting.value = null
         }

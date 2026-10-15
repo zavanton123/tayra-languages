@@ -17,3 +17,21 @@ data class AnkiCollection(val noteType: AnkiNoteType, val notes: List<AnkiNote>,
 interface AnkiPackager {
     suspend fun pack(collection: AnkiCollection, now: Instant): ByteArray
 }
+
+/**
+ * A running Anki that takes notes directly, through the AnkiConnect add-on on desktop, the way
+ * Yomitan adds its cards.
+ */
+interface AnkiConnection {
+    /** AnkiConnect's API version, or null when Anki is not running or has no AnkiConnect. */
+    suspend fun version(): Int?
+
+    /**
+     * Adds the notes of [collection] that Anki does not have yet, creating its note type and decks
+     * when they are missing and storing its media. Throws when Anki refuses the request.
+     */
+    suspend fun add(collection: AnkiCollection): AnkiAddResult
+}
+
+/** What Anki did with each note, by its index in the collection. */
+class AnkiAddResult(val added: Set<Int>, val duplicates: Set<Int>, val failed: Map<Int, String>)

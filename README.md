@@ -34,7 +34,8 @@ everything you learn stays on your own device.
 ## Vocabulary
 
 - **A vocabulary list** with search, status filters and sorting, bulk status changes, and CSV
-  and Anki export.
+  and Anki export; on desktop, cards can also go straight into a running Anki with the
+  AnkiConnect add-on.
 - **Parents and components.** Link an inflected form to its base word; the popup shows the
   base word's meaning and, for expressions, the words inside them.
 - **Word frequency.** Up to 10,000 of the most common words of the language, a hundred to a band

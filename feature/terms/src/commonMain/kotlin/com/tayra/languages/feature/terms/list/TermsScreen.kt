@@ -169,7 +169,7 @@ fun TermsScreen(
     ) { padding ->
         val gutter = if (compact) 16.dp else 32.dp
         ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp)) {
-            item { PageHeader(compact, exporting = state.exporting, onExport = viewModel::exportAnki, onNew = { onNavigate(Route.NewTerm) }) }
+            item { PageHeader(compact, exporting = state.exporting, onExport = viewModel::exportAnki, onSend = if (viewModel.canSendToAnki) ({ viewModel.sendToAnki() }) else null, onNew = { onNavigate(Route.NewTerm) }) }
             item { StatCards(state, compact) }
             item { Toolbar(state, viewModel, compact) }
             if (state.filtersVisible) item { FilterPanel(state, viewModel) }
@@ -247,7 +247,7 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
 }
 
 @Composable
-private fun PageHeader(compact: Boolean, exporting: String?, onExport: () -> Unit, onNew: () -> Unit) {
+private fun PageHeader(compact: Boolean, exporting: String?, onExport: () -> Unit, onSend: (() -> Unit)?, onNew: () -> Unit) {
     Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
         Column(Modifier.weight(1f)) {
             Text(tr("Vocabulary"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
@@ -257,6 +257,14 @@ private fun PageHeader(compact: Boolean, exporting: String?, onExport: () -> Uni
             Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
             Spacer(Modifier.width(6.dp))
             Text(if (exporting == null) tr("Export to Anki") else tr("Exporting {0}", exporting))
+        }
+        if (onSend != null) {
+            // Straight into the Anki that is open, through AnkiConnect, rather than a file to import.
+            OutlinedButton(onClick = onSend, enabled = exporting == null, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("send-to-anki")) {
+                Icon(AppIcons.UploadFile, contentDescription = null, modifier = Modifier.size(18.dp))
+                Spacer(Modifier.width(6.dp))
+                Text(tr("Send to Anki"))
+            }
         }
         Button(onClick = onNew, shape = RoundedCornerShape(10.dp)) {
             Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
