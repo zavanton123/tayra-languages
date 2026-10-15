@@ -7,6 +7,7 @@ internal val transformRules: Map<String, () -> List<String>> = mapOf(
     "de" to { deTransforms },
     "el" to { elTransforms },
     "en" to { enTransforms },
+    "eo" to { eoTransforms },
     "es" to { esTransforms },
     "eu" to { euTransforms },
     "fr" to { frTransforms },

@@ -13,4 +13,5 @@ class TransformRulesTest {
     @Test fun ukrainian() = checkTransformCases(ukTransforms, ukTransformCases)
     @Test fun albanian() = checkTransformCases(sqTransforms, sqTransformCases)
     @Test fun basque() = checkDeinflections(euTransforms, "etxean" to "etxe", "mendira" to "mendi")
+    @Test fun esperanto() = checkTransformCases(eoTransforms, eoTransformCases)
 }
