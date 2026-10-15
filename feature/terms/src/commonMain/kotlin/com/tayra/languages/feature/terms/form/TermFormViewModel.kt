@@ -88,6 +88,8 @@ data class TermFormUiState(
     val kanji: List<KanjiInfo> = emptyList(),
     /** Recordings of the term, or of its dictionary form when the term has none. */
     val recordings: List<WordRecording> = emptyList(),
+    /** Chinese readings coloured by tone. */
+    val toneColors: Boolean = true,
     /** For Japanese, the numbers, era years and floor areas at the term, spelled out. */
     val notes: List<JapaneseNote> = emptyList(),
     /** The downloadable pack for the language pair and whether it is on the device; null when none exists. */
@@ -179,7 +181,7 @@ class TermFormViewModel(
             _state.update { it.copy(loading = false, error = e.message) }
             return
         }
-        _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }) }
+        _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }, toneColors = settings.current.toneColors) }
         observePack(_state.value.language)
         observeFinder(_state.value.language)
         showEntry(draft, linkParent = { setParents(listOf(it)) })

@@ -5,6 +5,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.morphology.Chinese
 import com.tayra.languages.core.domain.morphology.Furigana
 import com.tayra.languages.core.domain.morphology.Japanese
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -46,9 +47,9 @@ class WordReadings(private val dictionary: OfflineDictionary, private val settin
         }
     }
 
-    /** Pinyin over each character when the reading has a syllable for each, else over the whole word. */
+    /** Pinyin over each character when the reading has a syllable for each ("wǒmen" over 我們 too), else over the whole word. */
     private fun pinyinOf(word: String, reading: String): List<Furigana> {
-        val syllables = reading.split(' ').filter { it.isNotBlank() }
+        val syllables = Chinese.syllables(reading).filter { it.tone != 0 }.map { it.text }
         return if (syllables.size == word.length) word.mapIndexed { i, c -> Furigana(c.toString(), syllables[i]) } else listOf(Furigana(word, reading))
     }
 

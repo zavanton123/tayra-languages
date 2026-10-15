@@ -645,6 +645,7 @@ private fun ReadingBody(
                 fontFamily = ReadingFont.byId(state.settings.readingFont).fontFamily(),
                 splitSentences = state.settings.splitSentences,
                 readings = if (state.settings.showReadings) state.readings else emptyMap(),
+                toneColors = state.settings.toneColors && state.language?.let { LanguageCodes.codeFor(it.name) } in setOf("zh", "yue"),
                 justify = state.settings.readingJustified,
                 translations = if (state.settings.showTranslations) state.translations else null,
                 sideBySide = state.settings.sideBySideTranslations,

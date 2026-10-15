@@ -692,6 +692,7 @@ class ReadingViewModel(
         updateSettings { it.copy(showReadings = show) }
         prepareReadings(show)
     }
+    fun toggleToneColors() = updateSettings { it.copy(toneColors = !it.toneColors) }
     fun toggleAutoPause() = updateSettings { it.copy(autoPause = !it.autoPause) }
     fun toggleSpeakWordOnClick() = updateSettings { it.copy(speakWordOnClick = !it.speakWordOnClick) }
 
@@ -843,6 +844,7 @@ class ReadingViewModel(
             practiceTranslation = defaults.practiceTranslation,
             showSentencePlay = defaults.showSentencePlay,
             showReadings = defaults.showReadings,
+            toneColors = defaults.toneColors,
             speakWordOnClick = defaults.speakWordOnClick,
             autoPause = defaults.autoPause,
             speechSpeed = defaults.speechSpeed,

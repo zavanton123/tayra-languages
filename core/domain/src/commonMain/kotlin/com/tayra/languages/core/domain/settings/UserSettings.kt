@@ -32,6 +32,8 @@ data class UserSettings(
     val showSentencePlay: Boolean = true,
     /** Readings above the words of Japanese and Chinese texts: furigana, pinyin. */
     val showReadings: Boolean = true,
+    /** Chinese readings coloured by tone, as Zhongwen colours them. */
+    val toneColors: Boolean = true,
     /** Clicking or tapping a word in the reader reads it aloud. */
     val speakWordOnClick: Boolean = false,
     /** Continuous reading stops after each sentence, so the next press of play reads the following one. */

@@ -24,6 +24,7 @@ import androidx.compose.ui.draw.drawBehind
 import com.tayra.languages.core.domain.morphology.Furigana
 import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.text.drawText
+import com.tayra.languages.core.ui.components.toneColored
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.TextMeasurer
 import androidx.compose.ui.draw.drawWithContent
@@ -136,6 +137,8 @@ fun ReadingText(
     splitSentences: Boolean = false,
     /** Readings drawn above words (furigana, pinyin), by the word's text; lines get room for them when there are any. */
     readings: Map<String, List<Furigana>> = emptyMap(),
+    /** Pinyin readings coloured by tone. */
+    toneColors: Boolean = false,
     /** Justify the lines of text rather than aligning them to the start. */
     justify: Boolean = false,
     /** Translations shown under each sentence, keyed by [RenderedSentence.displayText]; null hides them. */
@@ -239,6 +242,7 @@ fun ReadingText(
                         callbacks = if (shown) callbacks.copy(onBlankTap = { reveal(false) }) else callbacks,
                         fontFamily = fontFamily,
                         readings = readings,
+                        toneColors = toneColors,
                     ) }
                 }
                 val translated = translations != null && sentenceText.any { it.isLetter() }
@@ -449,6 +453,8 @@ private fun ParagraphText(
     readingItems: IntRange? = null,
     readingTint: Color = Color.Transparent,
     readings: Map<String, List<Furigana>> = emptyMap(),
+    /** Pinyin readings coloured by tone. */
+    toneColors: Boolean = false,
 ) {
     val spans = remember(items) { mutableListOf<Span>() }
     val rubySize = 18 * fontScale * RUBY_SCALE
@@ -502,7 +508,7 @@ private fun ParagraphText(
                 .drawWithContent {
                     drawContent()
                     val result = layout
-                    if (readings.isNotEmpty() && result != null) drawReadings(result, spans, items, firstItemIndex, readings, measurer, TextStyle(fontSize = rubySize.sp, color = theme.readingText.copy(alpha = 0.75f), fontFamily = fontFamily))
+                    if (readings.isNotEmpty() && result != null) drawReadings(result, spans, items, firstItemIndex, readings, measurer, toneColors, TextStyle(fontSize = rubySize.sp, color = theme.readingText.copy(alpha = 0.75f), fontFamily = fontFamily))
                 }
                 .pointerInput(callbacks) {
                     awaitPointerEventScope {
@@ -656,6 +662,7 @@ private fun androidx.compose.ui.graphics.drawscope.DrawScope.drawReadings(
     firstItemIndex: Int,
     readings: Map<String, List<Furigana>>,
     measurer: TextMeasurer,
+    toneColors: Boolean,
     style: TextStyle,
 ) {
     for (span in spans) {
@@ -670,7 +677,7 @@ private fun androidx.compose.ui.graphics.drawscope.DrawScope.drawReadings(
                 val boxes = positions.map { result.getBoundingBox(it) }
                 val left = boxes.minOf { it.left }
                 val right = boxes.maxOf { it.right }
-                val measured = measurer.measure(segment.reading, style)
+                val measured = measurer.measure(if (toneColors) toneColored(segment.reading) else AnnotatedString(segment.reading), style)
                 drawText(measured, topLeft = Offset((left + right) / 2 - measured.size.width / 2f, result.getLineTop(line)))
             }
         }

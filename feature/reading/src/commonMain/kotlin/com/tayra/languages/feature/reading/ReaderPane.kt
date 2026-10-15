@@ -384,6 +384,9 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in READING_LANGUAGES) {
             SwitchSetting(AppIcons.Abc, tr("Show readings"), tr("Furigana or pinyin above the words"), prefs.showReadings) { viewModel.toggleReadings() }
         }
+        if (state.language?.let { LanguageCodes.codeFor(it.name) } in TONE_LANGUAGES) {
+            SwitchSetting(AppIcons.Palette, tr("Tone colours"), tr("Colour pinyin by its tone"), prefs.toneColors) { viewModel.toggleToneColors() }
+        }
         if (prefs.showHighlights) {
             val statusColors = TayraTheme.current.statusColors
             Row(Modifier.padding(start = 36.dp), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
@@ -683,3 +686,6 @@ private fun ToolTile(icon: ImageVector, label: String, note: String, active: Boo
 
 /** Languages whose words get their reading shown above them. */
 private val READING_LANGUAGES = setOf("ja", "zh")
+
+/** The languages whose readings are pinyin with tones. */
+private val TONE_LANGUAGES = setOf("zh", "yue")
