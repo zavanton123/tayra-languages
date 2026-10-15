@@ -1,0 +1,163 @@
+package com.tayra.languages.feature.terms.form
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.SuggestionChip
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.domain.dictionary.DictionaryLookup
+import com.tayra.languages.core.domain.dictionary.PackState
+import com.tayra.languages.core.domain.dictionary.PackStatus
+import com.tayra.languages.core.domain.language.LanguageCatalog
+import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.i18n.tr
+import kotlinx.coroutines.delay
+
+/** "Find from Russian": opens the word finder, which gives the learned language's words for a word of the reader's own. */
+@Composable
+internal fun WordFinderButton(state: TermFormUiState, viewModel: TermFormViewModel) {
+    val finder = state.finderPack ?: return
+    val learning = state.language?.name ?: return
+    val native = LanguageCatalog.nativeOption(state.nativeLanguage).name
+    var open by remember { mutableStateOf(false) }
+    TextButton(onClick = { open = true }, modifier = Modifier.testTag("word-finder")) {
+        Icon(Icons.Default.Search, contentDescription = null, modifier = Modifier.size(18.dp))
+        Spacer(Modifier.size(6.dp))
+        Text(tr("Find a {0} word from {1}", tr(learning), tr(native)))
+    }
+    if (open) {
+        WordFinderDialog(
+            finder, native, learning,
+            onSearch = viewModel::findWord,
+            onDownload = viewModel::downloadFinder,
+            onPick = { word ->
+                open = false
+                viewModel.openFoundWord(word)
+            },
+            onDismiss = { open = false },
+        )
+    }
+}
+
+/** A search over the word finder: each meaning of the native word found, with the learned language's words for it to pick from. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+internal fun WordFinderDialog(
+    finder: PackStatus,
+    nativeName: String,
+    learningName: String,
+    onSearch: suspend (String) -> DictionaryLookup,
+    onDownload: () -> Unit,
+    onPick: (String) -> Unit,
+    onDismiss: () -> Unit,
+) {
+    val colors = MaterialTheme.colorScheme
+    var query by remember { mutableStateOf("") }
+    var result by remember { mutableStateOf<Pair<String, DictionaryLookup>?>(null) }
+    val installed = finder.state is PackState.Installed
+    val focus = remember { FocusRequester() }
+    LaunchedEffect(query, installed) {
+        if (!installed) return@LaunchedEffect
+        delay(SEARCH_DELAY_MS)
+        result = query to onSearch(query)
+    }
+    LaunchedEffect(installed) { if (installed) runCatching { focus.requestFocus() } }
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(tr("Find a {0} word", tr(learningName))) },
+        text = {
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                when (val state = finder.state) {
+                    is PackState.Installed -> {
+                        OutlinedTextField(
+                            value = query,
+                            onValueChange = { query = it },
+                            label = { Text(tr("A word in {0}", tr(nativeName))) },
+                            singleLine = true,
+                            shape = RoundedCornerShape(10.dp),
+                            modifier = Modifier.fillMaxWidth().focusRequester(focus).testTag("word-finder-query"),
+                        )
+                        val (searched, lookup) = result ?: ("" to DictionaryLookup.EMPTY)
+                        Column(Modifier.heightIn(max = 380.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                            if (searched.isNotBlank() && lookup.isEmpty) {
+                                Text(tr("The word finder does not know \"{0}\".", searched), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                            }
+                            lookup.entries.forEachIndexed { index, entry ->
+                                if (index > 0) HorizontalDivider(color = colors.outlineVariant)
+                                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                                    Text(entry.word, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+                                    Text(entry.pos, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                                }
+                                entry.senses.forEach { sense ->
+                                    Column(Modifier.padding(start = 8.dp)) {
+                                        sense.tags.firstOrNull()?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
+                                        FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                                            sense.glosses.forEach { word ->
+                                                SuggestionChip(onClick = { onPick(word) }, label = { Text(word) }, modifier = Modifier.testTag("found-$word"))
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    is PackState.Downloading -> {
+                        Text(tr("Downloading the word finder..."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                        val progress = state.progress
+                        if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth())
+                        else LinearProgressIndicator(Modifier.fillMaxWidth())
+                    }
+                    else -> {
+                        Text(
+                            if (state is PackState.Failed) tr("The download failed: {0}", state.message)
+                            else tr("The word finder gives {0} words for {1} ones, from the translations in the {1} Wiktionary. Download it to use it offline.", tr(learningName), tr(nativeName)),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = if (state is PackState.Failed) colors.error else colors.onSurfaceVariant,
+                        )
+                        Button(onClick = onDownload, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("word-finder-download")) {
+                            Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
+                            Spacer(Modifier.size(8.dp))
+                            Text(if (state is PackState.Failed) tr("Try again") else tr("Download word finder"))
+                        }
+                    }
+                }
+            }
+        },
+        confirmButton = { TextButton(onClick = onDismiss) { Text(tr("Close")) } },
+    )
+}
+
+private const val SEARCH_DELAY_MS = 250L

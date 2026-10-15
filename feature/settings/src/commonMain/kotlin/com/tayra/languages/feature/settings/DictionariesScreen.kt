@@ -89,6 +89,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -103,7 +104,10 @@ class DictionariesViewModel(
     languages: LanguageRepository,
 ) : ViewModel() {
     val settings: StateFlow<UserSettings> = settings.settings
+    /** The dictionaries, and the word finders that are installed: the term pane offers the others. */
     val packs: StateFlow<List<PackStatus>> = dictionaries.packs
+        .map { list -> list.filter { !it.pack.id.glossary || it.state is PackState.Installed || it.state is PackState.Downloading } }
+        .stateIn(viewModelScope, SharingStarted.Eagerly, dictionaries.packs.value.filter { !it.pack.id.glossary })
 
     /** The language being learned, whose dictionaries the page leads with. */
     val learning: StateFlow<LanguageOption?> = learningLanguage(languages, settings)
@@ -121,7 +125,8 @@ internal val DictionaryPack.sourceName: String get() = title.substringBefore(" â
 internal val DictionaryPack.targetName: String get() = title.substringAfter("â†’ ", id.targetLanguage)
 
 /** The pack's title with the language names in the interface language. */
-internal val DictionaryPack.displayTitle: String get() = "${tr(sourceName)} \u2192 ${tr(targetName)}"
+internal val DictionaryPack.displayTitle: String
+    get() = "${tr(sourceName)} \u2192 ${tr(targetName)}" + if (id.glossary) " \u00b7 " + tr("word finder") else ""
 
 internal fun DictionaryPack.matches(query: String): Boolean =
     query.isBlank() || title.contains(query.trim(), ignoreCase = true) || displayTitle.contains(query.trim(), ignoreCase = true)

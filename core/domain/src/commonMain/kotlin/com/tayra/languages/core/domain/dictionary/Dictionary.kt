@@ -87,9 +87,13 @@ data class DictionaryLookup(val entries: List<DictionaryEntry>, val lemmas: List
     }
 }
 
-/** Identifies a dictionary by the ISO 639-1 codes of the language it explains and the language it explains in. */
-data class DictionaryId(val sourceLanguage: String, val targetLanguage: String) {
-    val name: String get() = "$sourceLanguage-$targetLanguage"
+/**
+ * Identifies a dictionary by the ISO 639-1 codes of the language it explains and the language it explains in.
+ * A [glossary] is a word finder instead: words of the reader's own language with their translations
+ * into the language they learn, so a word can be found from its meaning.
+ */
+data class DictionaryId(val sourceLanguage: String, val targetLanguage: String, val glossary: Boolean = false) {
+    val name: String get() = if (glossary) "$sourceLanguage-$targetLanguage-gloss" else "$sourceLanguage-$targetLanguage"
 
     companion object {
         /**
@@ -126,19 +130,34 @@ object DictionaryPacks {
         "cy" to "Welsh", "yi" to "Yiddish",
     )
 
-    /** Every published pack; a pair the Wiktionaries cover too thinly has none. */
-    val all: List<DictionaryPack> = dictionaryPackReleases.flatMap { (release, sizes) ->
+    private val published: List<DictionaryPack> = dictionaryPackReleases.flatMap { (release, sizes) ->
         sizes.mapNotNull { (name, size) ->
-            val (source, target) = name.split('-').takeIf { it.size == 2 } ?: return@mapNotNull null
+            val parts = name.split('-')
+            val glossary = parts.size == 3 && parts[2] == "gloss"
+            if (parts.size != 2 && !glossary) return@mapNotNull null
+            val (source, target) = parts
             val title = "${names[source] ?: source} → ${names[target] ?: target}"
-            DictionaryPack(DictionaryId(source, target), title, "$RELEASES_URL/$release/$name.sqlite.gzip", size)
+            DictionaryPack(DictionaryId(source, target, glossary), title, "$RELEASES_URL/$release/$name.sqlite.gzip", size)
         }
     }.sortedBy { it.title }
 
-    fun find(id: DictionaryId): DictionaryPack? = all.firstOrNull { it.id == id }
+    /** Every published dictionary of words; a pair the Wiktionaries cover too thinly has none. */
+    val all: List<DictionaryPack> = published.filter { !it.id.glossary }
+
+    /** The word finders, by the reader's language (their source) and the learned one. */
+    val glossaries: List<DictionaryPack> = published.filter { it.id.glossary }
+
+    /** Dictionaries and word finders: every pack that can be installed. */
+    val everything: List<DictionaryPack> = published
+
+    fun find(id: DictionaryId): DictionaryPack? = published.firstOrNull { it.id == id }
 
     fun find(sourceLanguage: String?, targetLanguage: String?): DictionaryPack? =
         all.firstOrNull { it.id.sourceLanguage == sourceLanguage?.lowercase() && it.id.targetLanguage == targetLanguage?.lowercase() }
+
+    /** The word finder from [nativeLanguage] words to [learningLanguage] ones, when there is one. */
+    fun findGlossary(nativeLanguage: String?, learningLanguage: String?): DictionaryPack? =
+        glossaries.firstOrNull { it.id.sourceLanguage == nativeLanguage?.lowercase() && it.id.targetLanguage == learningLanguage?.lowercase() }
 }
 
 /** Whether a pack is on the device. */

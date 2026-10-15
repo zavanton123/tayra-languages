@@ -8,6 +8,7 @@ import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.dictionary.PitchAccent
 import com.tayra.languages.core.domain.dictionary.DictionaryId
+import com.tayra.languages.core.domain.dictionary.DictionaryPack
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.russhwolf.settings.MapSettings
@@ -36,6 +37,8 @@ class MorphologyLookupTest {
         forms: List<Pair<String, String>> = emptyList(),
         /** Statements run on the pack after the entries, for its optional tables. */
         extra: List<String> = emptyList(),
+        /** The published pack the file stands in for; [source] to English by default. */
+        packOf: () -> DictionaryPack = { DictionaryPacks.find(source, "en")!! },
     ): Pair<DictionaryService, DictionaryId> {
         val file = File.createTempFile("tayra-morph", ".sqlite").also { it.delete() }
         val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
@@ -59,7 +62,7 @@ class MorphologyLookupTest {
         file.delete()
         val storage = DictionaryPackStorage(DictionaryDownloader(HttpClient(MockEngine { respond(packed) })), Files.createTempDirectory("tayra-morph").toFile())
         val service = DictionaryService(storage, DictionaryRepositoryImpl(DictionaryDatabaseProvider(storage)))
-        val pack = DictionaryPacks.find(source, "en")!!
+        val pack = packOf()
         service.refresh()
         service.download(pack)
         return service to pack.id
@@ -152,6 +155,19 @@ class MorphologyLookupTest {
         assertEquals(listOf("𠮟"), service.kanji(ja, "𠮟る").map { it.character }, "a kanji outside the Basic Multilingual Plane")
         val (plain, zh) = service("zh", listOf(Triple("日本", "name", "Japan")))
         assertEquals(emptyList(), plain.kanji(zh, "日本"))
+    }
+
+    @Test
+    fun theWordFinderGivesTheLearnedLanguagesWordsForANativeOne() = runTest {
+        val free = """[{"glosses":["свободный","вольный"],"tags":["not imprisoned"]},{"glosses":["бесплатно"],"tags":["without needing to pay"]}]"""
+        val (service, finder) = service("en", listOf(Triple("free", "adj", free)), packOf = { DictionaryPacks.findGlossary("en", "ru")!! })
+        assertEquals(DictionaryId("en", "ru", glossary = true), finder)
+        assertEquals("en-ru-gloss", finder.name)
+        val found = service.lookup(finder, "Free").entries.single()
+        assertEquals(listOf("свободный", "вольный"), found.senses.first().glosses)
+        assertEquals(listOf("not imprisoned"), found.senses.first().tags)
+        assertTrue(DictionaryPacks.all.none { it.id.glossary }, "the dictionaries of words have no word finder among them")
+        assertEquals(DictionaryId("en", "ru"), DictionaryPacks.find("en", "ru")!!.id)
     }
 
     @Test

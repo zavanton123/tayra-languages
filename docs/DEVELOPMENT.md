@@ -210,6 +210,14 @@ recorded in `dictionaries/wty/built.json`, and `--write-catalog` writes them int
 no Breton dictionary, so Breton's packs are built from kaikki.org with `tools/build_dictionary.py`
 (its English, French and Russian Wiktionary sections) and recorded in the same list.
 
+Word finders find a word of the learned language from the reader's own: `--glossaries` converts
+wty's glossary dictionaries, the translation tables of the native language's Wiktionary, into
+`<native>-<learning>-gloss` packs whose entries are native words and whose senses list the learned
+language's words for one meaning, its label as the tag. They have the packs' layout, are
+`DictionaryId(native, learning, glossary = true)` in the app (kept out of `DictionaryPacks.all`,
+listed in `DictionaryPacks.glossaries`) and are published in the `glossaries-v1` release. The term
+pane's "Find a … word from …" opens them; the Dictionaries screen lists only installed ones.
+
 Android, iOS and desktop unpack a downloaded pack into app storage and open it read-only as a
 second SQLDelight database; the web build keeps the compressed file in the browser Cache API and
 inflates it in its own sql.js worker, which needs the pack host to allow cross-origin requests.

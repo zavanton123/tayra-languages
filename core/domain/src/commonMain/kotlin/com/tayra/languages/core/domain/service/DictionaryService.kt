@@ -26,14 +26,14 @@ class DictionaryService(
     private val repository: DictionaryRepository,
 ) : OfflineDictionary {
 
-    private val _packs = MutableStateFlow(DictionaryPacks.all.map { PackStatus(it, PackState.NotInstalled) })
+    private val _packs = MutableStateFlow(DictionaryPacks.everything.map { PackStatus(it, PackState.NotInstalled) })
 
     /** Every known pack with its current state, in catalog order. */
     val packs: StateFlow<List<PackStatus>> = _packs.asStateFlow()
 
     /** Reads which packs are on the device; call once at start. */
     suspend fun refresh() {
-        for (pack in DictionaryPacks.all) {
+        for (pack in DictionaryPacks.everything) {
             val current = stateOf(pack.id)
             if (current is PackState.Downloading) continue
             val size = store.installedSize(pack)
