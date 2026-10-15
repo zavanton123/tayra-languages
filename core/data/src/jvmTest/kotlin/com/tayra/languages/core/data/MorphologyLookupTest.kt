@@ -171,6 +171,22 @@ class MorphologyLookupTest {
     }
 
     @Test
+    fun aCommonWordIsMarkedAndComesFirst() = runTest {
+        val tables = listOf(
+            "CREATE TABLE common_entries (entry_id INTEGER NOT NULL PRIMARY KEY)",
+            "INSERT INTO common_entries VALUES (2)",
+            "CREATE TABLE entry_readings (entry_id INTEGER NOT NULL PRIMARY KEY, reading TEXT NOT NULL)",
+            "INSERT INTO entry_readings VALUES (1, 'こんじつ'), (2, 'こんにち')",
+        )
+        val (service, ja) = service("ja", listOf(Triple("今日", "noun", "this day (archaic)"), Triple("今日", "noun", "today")), extra = tables)
+        val found = service.lookup(ja, "今日").entries
+        assertEquals(listOf("こんにち" to true, "こんじつ" to false), found.map { it.reading to it.common })
+        // A pack without the table has no common words.
+        val (plain, en) = service("en", listOf(Triple("today", "noun", "this day")))
+        assertEquals(false, plain.lookup(en, "today").entries.single().common)
+    }
+
+    @Test
     fun chineseIsFoundByItsPinyin() = runTest {
         val (service, zh) = service("zh", listOf(Triple("你好", "intj", "hello")), forms = listOf("nǐhǎo" to "你好", "nihao" to "你好"))
         assertEquals("你好", service.lookup(zh, "Nǐ hǎo").parentSuggestion)

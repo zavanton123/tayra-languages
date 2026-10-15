@@ -28,6 +28,8 @@ data class DictionaryEntry(
     val dictionary: String? = null,
     /** How common the imported frequency dictionaries say the word is. */
     val frequencies: List<WordFrequency> = emptyList(),
+    /** Whether the pack marks the word as a common one (JMdict's priority marks, for Japanese). */
+    val common: Boolean = false,
 )
 
 /**

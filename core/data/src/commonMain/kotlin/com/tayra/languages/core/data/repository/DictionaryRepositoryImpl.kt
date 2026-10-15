@@ -30,15 +30,22 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
         val db = databases.database(dictionary) ?: return@withContext emptyList()
         val rows = db.dictionaryQueries.selectEntries(wordLc).awaitAsList()
         val readings = entryReadings(db, rows.map { it.id })
-        rows.map { row -> DictionaryEntry(row.word, row.pos, row.ipa, parseSenses(row.senses), reading = readings[row.id]) }
+        val common = commonEntries(db, rows.map { it.id })
+        rows.map { row -> DictionaryEntry(row.word, row.pos, row.ipa, parseSenses(row.senses), reading = readings[row.id], common = row.id in common) }
     }
 
     override suspend fun entries(dictionary: DictionaryId, wordsLc: Collection<String>): Map<String, List<DictionaryEntry>> = withContext(databaseDispatcher) {
         val db = databases.database(dictionary) ?: return@withContext emptyMap()
         val rows = wordsLc.distinct().chunked(MAX_PARAMETERS).flatMap { chunk -> db.dictionaryQueries.selectEntriesIn(chunk).awaitAsList() }
         val readings = entryReadings(db, rows.map { it.id })
-        rows.groupBy({ it.word_lc }, { row -> DictionaryEntry(row.word, row.pos, row.ipa, parseSenses(row.senses), reading = readings[row.id]) })
+        val common = commonEntries(db, rows.map { it.id })
+        rows.groupBy({ it.word_lc }, { row -> DictionaryEntry(row.word, row.pos, row.ipa, parseSenses(row.senses), reading = readings[row.id], common = row.id in common) })
     }
+
+    /** The entries of common words, in the packs that mark them (the Japanese ones, from JMdict). */
+    private suspend fun commonEntries(db: DictionaryDatabase, ids: List<Long>): Set<Long> = runCatching {
+        ids.distinct().chunked(MAX_PARAMETERS).flatMap { db.dictionaryQueries.selectCommonEntries(it).awaitAsList() }.toSet()
+    }.getOrElse { if (it is CancellationException) throw it else emptySet() }
 
     /** Each entry's own reading, from the packs that keep one per entry; the others have no such table. */
     private suspend fun entryReadings(db: DictionaryDatabase, ids: List<Long>): Map<Long, String> = runCatching {

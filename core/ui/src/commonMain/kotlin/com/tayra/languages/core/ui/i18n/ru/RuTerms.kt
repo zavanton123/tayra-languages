@@ -238,6 +238,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Explained in" to "Объяснения на языке",
     "Import" to "Импортировать",
     "Send to Anki" to "Отправить в Anki",
+    "common" to "частое",
     "Anki is not running, or AnkiConnect is not installed in it" to "Anki не запущена или в ней не установлен AnkiConnect",
     "Added {0} cards to Anki" to "В Anki добавлена {0} карточка|В Anki добавлены {0} карточки|В Anki добавлено {0} карточек",
     "Anki refused some: {0}" to "Anki не приняла часть карточек: {0}",

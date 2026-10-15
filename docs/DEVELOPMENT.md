@@ -234,7 +234,12 @@ table (each headword's kana or pinyin, the pinyin without the other romanisation
 Japanese packs a `kanji` table from KANJIDIC2 (EDRDG, CC BY-SA 4.0: meanings in the gloss language
 where KANJIDIC2 has it, else English; on and kun readings, strokes, grade, JLPT level, frequency)
 and a `pitch` table from Kanjium (CC BY-SA 4.0; "The pitch accent notation was provided by Uros O.
-through his free database"), both read from `dictionaries/japanese/`. These tables are optional:
+through his free database"), both read from `dictionaries/japanese/`. The Japanese packs of the languages JMdict has glosses in (en, de, ru, es, fr) add JMdict's entries
+(EDRDG, CC BY-SA 4.0, read by `tools/jmdict.py` from `dictionaries/japanese/JMdict.gz`) for the
+words and readings wty lacks, an entry per headword and reading, leaving out the spellings JMdict
+keeps for search only or marks irregular (they become forms); the entries JMdict marks as common
+(news1, ichi1, spec1, gai1) are listed in a `common_entries` table, badged in the term pane and
+ranked first. These tables are optional:
 the app reads them where a pack has them, and the format stays 1. Downloads are cached in `dictionaries/wty/`; built packs are
 recorded in `dictionaries/wty/built.json`, and `--write-catalog` writes them into
 `DictionaryPackSizes.kt` as the `dictionaries-v2` release, to which the files are uploaded. wty has

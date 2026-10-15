@@ -46,6 +46,11 @@ CREATE TABLE entry_readings (
     reading TEXT NOT NULL
 );
 
+-- The entries of common words, as JMdict marks them (news1, ichi1, spec1, gai1).
+CREATE TABLE common_entries (
+    entry_id INTEGER NOT NULL PRIMARY KEY
+);
+
 CREATE TABLE frequencies (
     word TEXT NOT NULL,
     reading TEXT,
@@ -88,3 +93,6 @@ SELECT entry_id, reading FROM entry_readings WHERE entry_id IN ?;
 
 selectFrequencies:
 SELECT word, reading, value, display FROM frequencies WHERE word IN ?;
+
+selectCommonEntries:
+SELECT entry_id FROM common_entries WHERE entry_id IN ?;

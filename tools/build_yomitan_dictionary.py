@@ -42,6 +42,7 @@ import zipfile
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import jmdict  # noqa: E402
 from build_dictionary import CLEANERS, finish_output, is_clean_form, lowercase, open_output, serbian_spellings  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -427,6 +428,9 @@ def write_extras(db, source, target, rows):
         readings = sorted({(e["word"], clean_reading(source, e.get("reading"))) for e in rows if clean_reading(source, e.get("reading")) not in (None, e["word"])})
         db.executescript("CREATE TABLE readings (word TEXT NOT NULL, reading TEXT NOT NULL); CREATE INDEX readings_word ON readings(word);")
         db.executemany("INSERT INTO readings VALUES (?, ?)", readings)
+        # The entries JMdict counts as common words, by id.
+        db.execute("CREATE TABLE common_entries (entry_id INTEGER NOT NULL PRIMARY KEY)")
+        db.executemany("INSERT INTO common_entries VALUES (?)", [(i + 1,) for i, e in enumerate(rows) if e.get("common")])
         # Each entry's own reading, by its id: the rows are inserted in this order from 1.
         db.execute("CREATE TABLE entry_readings (entry_id INTEGER NOT NULL PRIMARY KEY, reading TEXT NOT NULL)")
         db.executemany("INSERT INTO entry_readings VALUES (?, ?)", [
@@ -464,6 +468,37 @@ def english_forms(source, wty):
     return read_dictionary(english, source)[1] if english else set()
 
 
+def add_jmdict(entries, forms, target):
+    """
+    Adds JMdict's entries for the words and readings [entries] lack (keeping wty's, which have
+    examples) and its other spellings as forms; marks the entries JMdict counts as common.
+    Answers how many entries it added.
+    """
+    rows, spellings = jmdict.read(target)
+    have = {}
+    for entry in entries.values():
+        have.setdefault((entry["word"], entry.get("reading")), []).append(entry)
+    added = 0
+    for row in rows:
+        known = have.get((row["word"], row["reading"]))
+        if known:
+            for entry in known:
+                entry["common"] = entry.get("common") or row["common"]
+            continue
+        key = (row["word"], row["pos"], row["reading"] or "", "jmdict")
+        if key in entries:
+            entries[key]["senses"].extend(s for s in row["senses"] if s not in entries[key]["senses"])
+            entries[key]["common"] = entries[key]["common"] or row["common"]
+            continue
+        entries[key] = dict(row, order=len(entries))
+        added += 1
+        if row["reading"]:
+            forms.add((row["reading"], row["word"]))
+    forms |= spellings
+    print(f"ja-{target}: JMdict adds {added:,} entries", file=sys.stderr)
+    return added
+
+
 def build(source, target, out_path, wty_source=None, min_entries=1000):
     wty = wty_source or WTY_SOURCES.get(source, source)
     entries, forms = {}, set()
@@ -478,10 +513,15 @@ def build(source, target, out_path, wty_source=None, min_entries=1000):
             else:
                 entries[key] = entry
         forms |= part_forms
+    # JMdict adds the words and readings wty's Japanese dictionary lacks, in every language it has.
+    jmdict_count = 0
+    if source == "ja" and target in jmdict.LANGUAGES:
+        jmdict_count = add_jmdict(entries, forms, target)
     if not entries:
         print(f"{source}-{target}: wty has no {wty}-{target} dictionary", file=sys.stderr)
         return None
     words = sum(1 for e in entries.values() if e["pos"] != "name")
+    sources = f"wiktionary-to-yomitan wty-{wty}-{target} (Wiktionary via kaikki.org)" + (" and JMdict (EDRDG, CC BY-SA 4.0)" if jmdict_count else "")
     if words < min_entries:
         print(f"{source}-{target}: only {words:,} entries besides names, not written", file=sys.stderr)
         return None
@@ -509,7 +549,7 @@ def build(source, target, out_path, wty_source=None, min_entries=1000):
     write_extras(db, source, target, rows)
     finish_output(
         db, sqlite_path, out_path, source, target, len(rows), len(form_rows),
-        f"wiktionary-to-yomitan wty-{wty}-{target} (Wiktionary via kaikki.org)",
+        sources,
     )
     size = os.path.getsize(out_path)
     print(f"{source}-{target}: {len(rows):,} entries, {len(form_rows):,} forms, {size:,} bytes", file=sys.stderr)

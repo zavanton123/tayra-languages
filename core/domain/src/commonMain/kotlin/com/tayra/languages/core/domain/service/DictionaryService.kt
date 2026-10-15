@@ -197,12 +197,13 @@ class DictionaryService(
         val wordLc = lowercase(word, dictionary)
         if (wordLc.isEmpty()) return DictionaryLookup.EMPTY
         // Among entries for one spelling, nouns and verbs are usually the everyday word ("maison"
-        // the noun before the adjective "homemade"), and among those the one with more senses.
+        // the noun before the adjective "homemade"), and among those the one with more senses; a word
+        // the pack marks as common (JMdict's, for Japanese) comes before the others.
         // An entry in another case ("CATS" for "cats"), or one whose every sense is obsolete
         // (the archaic noun "went"), is not the word the reader met: it ranks after the lemmas'
         // entries and does not stop an inflected form from getting its parent.
         val (own, otherCase) = repository.entries(dictionary, wordLc)
-            .sortedWith(compareBy({ caseRank(it.word, word) }, { posRank(it.pos) }, { -it.senses.size }))
+            .sortedWith(compareBy({ caseRank(it.word, word) }, { !it.common }, { posRank(it.pos) }, { -it.senses.size }))
             .partition { caseRank(it.word, word) < 2 && it.senses.any { sense -> sense.tags.none { tag -> tag in DATED_TAGS } } }
         // Headwords that differ only in case are usually a common noun and a name ("word", "Word");
         // the one whose case matches the clicked word wins, so the name does not become the parent.
@@ -213,7 +214,7 @@ class DictionaryService(
         val inherited = lemmas.flatMap { lemma ->
             repository.entries(dictionary, lowercase(lemma, dictionary))
                 .filter { it.word == lemma }
-                .sortedWith(compareBy({ posRank(it.pos) }, { -it.senses.size }))
+                .sortedWith(compareBy({ !it.common }, { posRank(it.pos) }, { -it.senses.size }))
                 .map { it.copy(isOwnEntry = false) }
         }
         val lookup = DictionaryLookup(
@@ -282,8 +283,8 @@ class DictionaryService(
         }
         if (own.isEmpty() && inherited.values.all { it.isEmpty() }) return null
         val lemmas = if (own.isEmpty()) inherited.filterValues { it.isNotEmpty() }.keys.toList() else emptyList()
-        val entries = own.sortedWith(compareBy({ posRank(it.pos) }, { -it.senses.size })) +
-            inherited.values.flatten().sortedWith(compareBy({ posRank(it.pos) }, { -it.senses.size })).map { it.copy(isOwnEntry = false) }
+        val entries = own.sortedWith(compareBy({ !it.common }, { posRank(it.pos) }, { -it.senses.size })) +
+            inherited.values.flatten().sortedWith(compareBy({ !it.common }, { posRank(it.pos) }, { -it.senses.size })).map { it.copy(isOwnEntry = false) }
         return DictionaryLookup(entries, lemmas)
     }
 
