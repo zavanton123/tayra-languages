@@ -67,6 +67,15 @@ internal object TextProcessors {
         "removeSyriacScriptDiacritics" to { s -> listOf(s, syriacDiacritics.replace(s, "")) },
         // Chinese, Cantonese and Japanese
         "normalizeRadicalCharacters" to { s -> listOf(s, s.map { c -> if (c.isCjkRadical()) Unicode.nfkd(c.toString()) else c.toString() }.joinToString("")) },
+        // Japanese
+        "convertHalfWidthCharacters" to { s -> listOf(s, Japanese.halfWidthKanaToFullWidth(s)) },
+        "alphabeticToHiragana" to { s -> listOf(s, Japanese.alphabeticToKana(s)) },
+        "normalizeCombiningCharacters" to { s -> listOf(s, Japanese.normalizeCombiningCharacters(s)) },
+        "normalizeCJKCompatibilityCharacters" to { s -> listOf(s, s.map { c -> if (c.code in 0x3300..0x33ff) Unicode.nfkd(c.toString()) else c.toString() }.joinToString("")) },
+        "alphanumericWidthVariants" to { s -> listOf(s, Japanese.fullWidthAlphanumericToNormal(s), Japanese.alphanumericToFullWidth(s)) },
+        "convertHiraganaToKatakana" to { s -> listOf(s, Japanese.hiraganaToKatakana(s), Japanese.katakanaToHiragana(s)) },
+        "collapseEmphaticSequences" to { s -> listOf(s, Japanese.collapseEmphaticSequences(s, full = false), Japanese.collapseEmphaticSequences(s, full = true)) },
+        "standardizeKanji" to { s -> listOf(s, Japanese.standardizeKanji(s)) },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
