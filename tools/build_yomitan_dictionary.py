@@ -42,6 +42,7 @@ import zipfile
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import cedict  # noqa: E402
 import jmdict  # noqa: E402
 from build_dictionary import CLEANERS, finish_output, is_clean_form, lowercase, open_output, serbian_spellings  # noqa: E402
 
@@ -499,6 +500,32 @@ def add_jmdict(entries, forms, target):
     return added
 
 
+def add_cedict(entries, forms):
+    """
+    Adds CC-CEDICT's entries for the words and readings [entries] lack, with their simplified
+    spellings and pinyin as forms. Answers how many entries it added.
+    """
+    rows, spellings = cedict.read()
+    have = {(e["word"], normalize_pinyin(clean_reading("zh", e.get("reading")) or "")) for e in entries.values()}
+    added = 0
+    for row in rows:
+        reading = normalize_pinyin(row["reading"])
+        if (row["word"], reading) in have:
+            continue
+        key = (row["word"], row["pos"], row["reading"], "cedict")
+        if key in entries:
+            entries[key]["senses"].extend(s for s in row["senses"] if s not in entries[key]["senses"])
+            continue
+        entries[key] = dict(row, order=len(entries))
+        added += 1
+        forms.add((row["reading"], row["word"]))
+        forms.add((reading, row["word"]))
+        forms.add((toneless_pinyin(row["reading"]), row["word"]))
+    forms |= spellings
+    print(f"zh-en: CC-CEDICT adds {added:,} entries", file=sys.stderr)
+    return added
+
+
 def build(source, target, out_path, wty_source=None, min_entries=1000):
     wty = wty_source or WTY_SOURCES.get(source, source)
     entries, forms = {}, set()
@@ -517,11 +544,13 @@ def build(source, target, out_path, wty_source=None, min_entries=1000):
     jmdict_count = 0
     if source == "ja" and target in jmdict.LANGUAGES:
         jmdict_count = add_jmdict(entries, forms, target)
+    # CC-CEDICT adds the Chinese words and readings wty lacks, in English.
+    cedict_count = add_cedict(entries, forms) if source == "zh" and target == "en" else 0
     if not entries:
         print(f"{source}-{target}: wty has no {wty}-{target} dictionary", file=sys.stderr)
         return None
     words = sum(1 for e in entries.values() if e["pos"] != "name")
-    sources = f"wiktionary-to-yomitan wty-{wty}-{target} (Wiktionary via kaikki.org)" + (" and JMdict (EDRDG, CC BY-SA 4.0)" if jmdict_count else "")
+    sources = f"wiktionary-to-yomitan wty-{wty}-{target} (Wiktionary via kaikki.org)" + (" and JMdict (EDRDG, CC BY-SA 4.0)" if jmdict_count else "") + (" and CC-CEDICT (MDBG, CC BY-SA 4.0)" if cedict_count else "")
     if words < min_entries:
         print(f"{source}-{target}: only {words:,} entries besides names, not written", file=sys.stderr)
         return None

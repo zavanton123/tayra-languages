@@ -89,7 +89,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "uk-pl" to 4_762_598L, "uk-zh" to 1_219_334L, "vi-en" to 3_195_387L, "vi-fr" to 1_420_750L, "vi-pl" to 183_947L,
         "vi-ru" to 143_468L, "vi-zh" to 1_756_074L, "yi-en" to 616_817L, "yi-pl" to 518_542L, "yi-ru" to 181_411L,
         "yue-en" to 19_448_790L, "yue-fr" to 1_057_828L, "yue-pl" to 524_731L, "yue-pt" to 160_688L, "yue-zh" to 8_445_373L,
-        "zh-en" to 28_719_645L, "zh-fr" to 1_197_949L, "zh-pl" to 573_612L, "zh-pt" to 209_192L,
+        "zh-en" to 37_447_737L, "zh-fr" to 1_197_949L, "zh-pl" to 573_612L, "zh-pt" to 209_192L,
     ),
     "glossaries-v1" to mapOf(
         "de-be-gloss" to 462_689L, "de-bg-gloss" to 736_739L, "de-ca-gloss" to 1_098_602L, "de-cs-gloss" to 1_492_152L, "de-da-gloss" to 659_797L,
