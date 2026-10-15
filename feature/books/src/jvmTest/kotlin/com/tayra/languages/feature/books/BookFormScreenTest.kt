@@ -111,4 +111,62 @@ class BookFormScreenTest {
         assertEquals("O Lobo", viewModel.state.value.draft.title)
         assertEquals("O lobo dorme na floresta.", viewModel.state.value.draft.text)
     }
+
+    /** Says a model must be downloaded until it is, then reads a photo's bytes as its text. */
+    private class FakeRecognizer(private val supported: Boolean = true) : com.tayra.languages.core.domain.ocr.TextRecognizer {
+        var downloaded = false
+        override suspend fun readiness(language: Language) = when {
+            !supported -> com.tayra.languages.core.domain.ocr.OcrReadiness.Unsupported
+            downloaded -> com.tayra.languages.core.domain.ocr.OcrReadiness.Ready
+            else -> com.tayra.languages.core.domain.ocr.OcrReadiness.NeedsDownload(3_600_000)
+        }
+        override suspend fun download(language: Language, onProgress: (Float?) -> Unit) { onProgress(0.5f); downloaded = true }
+        override suspend fun recognize(image: ByteArray, language: Language) = image.decodeToString()
+        override suspend fun installedPacks() = emptyList<com.tayra.languages.core.domain.ocr.OcrPack>()
+        override suspend fun remove(pack: com.tayra.languages.core.domain.ocr.OcrPack) = Unit
+    }
+
+    private fun ComposeUiTest.newBook(recognizer: com.tayra.languages.core.domain.ocr.TextRecognizer): BookFormViewModel {
+        runBlocking { languages.save(Language(name = "Portuguese")) }
+        val viewModel = BookFormViewModel(null, books, languages, settings, service, recognizer)
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {}) {
+                        BookFormScreen(bookId = null, onNavigate = {}, onBack = {}, onSaved = { _, _ -> }, viewModel = viewModel)
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Create new book").fetchSemanticsNodes().isNotEmpty() }
+        return viewModel
+    }
+
+    /**
+     * Photos of pages are read in the order their names number them, after the model their language
+     * needs is offered and downloaded, and their text follows what the form already has.
+     */
+    @Test
+    fun photosAreReadInOrderOnceTheirModelIsDownloaded() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val recognizer = FakeRecognizer()
+        val viewModel = newBook(recognizer)
+        viewModel.update { it.copy(text = "Prefácio.") }
+        viewModel.importFiles(listOf("IMG_10.jpg" to "Página dez.".encodeToByteArray(), "IMG_2.jpg" to "Página dois.".encodeToByteArray()))
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Download text recognition?").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("3.6 MB", substring = true).assertExists()
+        onNodeWithText("Download").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.notice != null }
+        assertEquals("Prefácio.\n\nPágina dois.\n\nPágina dez.", viewModel.state.value.draft.text)
+        assertEquals(true, recognizer.downloaded)
+        onNodeWithText("Read the text of 2 photos; check them for misread words.").assertExists()
+    }
+
+    @Test
+    fun aLanguageThisDeviceCannotReadSaysSo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = newBook(FakeRecognizer(supported = false))
+        viewModel.importFiles(listOf("page.jpg" to "x".encodeToByteArray()))
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.error != null }
+        assertEquals("Reading Portuguese from photos is not available on this device.", viewModel.state.value.error)
+        assertEquals("", viewModel.state.value.draft.text)
+    }
 }

@@ -45,6 +45,11 @@ android {
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            // Tesseract's bytedeco jars each carry GraalVM native-image settings and their C build files.
+            excludes += "/META-INF/native-image/**"
+            excludes += "/lib/*/lib/**"
+            excludes += "/lib/*/include/**"
+            excludes += "/lib/*/tesseract"
         }
     }
     buildTypes {

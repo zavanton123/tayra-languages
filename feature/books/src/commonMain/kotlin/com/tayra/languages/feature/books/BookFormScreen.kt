@@ -18,6 +18,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Warning
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -27,6 +28,7 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -49,6 +51,8 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.formatSize
+import com.tayra.languages.core.ui.files.rememberCameraCapture
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -62,6 +66,7 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import io.github.vinceglb.filekit.dialogs.FileKitMode
 import io.github.vinceglb.filekit.dialogs.FileKitType
 import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
 import io.github.vinceglb.filekit.name
@@ -89,13 +94,17 @@ fun BookFormScreen(
     CollectEvents(viewModel.events) { if (it is BookFormEvent.Saved) onSaved(it.bookId, it.isNew) }
     var source by remember { mutableStateOf(ContentSource.PASTE) }
     val scope = rememberCoroutineScope()
-    val filePicker = rememberFilePickerLauncher(type = FileKitType.File(FileTextExtractor.pickerExtensions)) { file ->
-        if (file != null) scope.launch {
-            viewModel.importFile(file.name, file.readBytes())
+    val filePicker = rememberFilePickerLauncher(type = FileKitType.File(FileTextExtractor.pickerExtensions), mode = FileKitMode.Multiple()) { files ->
+        if (!files.isNullOrEmpty()) scope.launch {
+            viewModel.importFiles(files.map { it.name to it.readBytes() })
             // The imported text is shown where it can be checked and edited.
             source = ContentSource.PASTE
         }
     }
+    val camera = rememberCameraCapture { name, bytes ->
+        viewModel.importPhotos(listOf(name to bytes))
+        source = ContentSource.PASTE
+    }.takeIf { FileTextExtractor.readsPhotos }
     val wide = LocalWindowWidth.current.isExpanded
 
     Scaffold(
@@ -121,16 +130,18 @@ fun BookFormScreen(
             )
             state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
             state.notice?.let { InfoBanner(it, tint = StatusTints.ok) }
+            state.progress?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.primary) }
+            state.ocrOffer?.let { OcrDownloadDialog(it, onDownload = viewModel::downloadRecognition, onCancel = viewModel::cancelPhotos) }
             when {
                 wide -> Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
-                    BookContentCard(state, source, onSource = { source = it }, onChooseFile = { filePicker.launch() }, viewModel, Modifier.weight(1.65f))
+                    BookContentCard(state, source, onSource = { source = it }, onChooseFile = { filePicker.launch() }, camera, viewModel, Modifier.weight(1.65f))
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
                         DetailsCard(state, viewModel)
                         PageSetupCard(state, viewModel)
                     }
                 }
                 else -> {
-                    BookContentCard(state, source, onSource = { source = it }, onChooseFile = { filePicker.launch() }, viewModel)
+                    BookContentCard(state, source, onSource = { source = it }, onChooseFile = { filePicker.launch() }, camera, viewModel)
                     DetailsCard(state, viewModel)
                     PageSetupCard(state, viewModel)
                 }
@@ -146,6 +157,7 @@ private fun BookContentCard(
     source: ContentSource,
     onSource: (ContentSource) -> Unit,
     onChooseFile: () -> Unit,
+    onTakePhoto: (() -> Unit)?,
     viewModel: BookFormViewModel,
     modifier: Modifier = Modifier,
 ) {
@@ -192,7 +204,7 @@ private fun BookContentCard(
                     Text(trPlural(words, "{0} word", "{0} words"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
-            ContentSource.FILE -> FileDrop(state, formats, onChooseFile)
+            ContentSource.FILE -> FileDrop(state, formats, onChooseFile, onTakePhoto)
         }
     }
 }
@@ -223,7 +235,7 @@ private fun SourceToggle(selected: ContentSource, onSelect: (ContentSource) -> U
 }
 
 @Composable
-private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -> Unit) {
+private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -> Unit, onTakePhoto: (() -> Unit)?) {
     Column(
         Modifier.fillMaxWidth().height(400.dp).clip(RoundedCornerShape(12.dp))
             .background(MaterialTheme.colorScheme.surfaceContainerLow)
@@ -237,8 +249,18 @@ private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -
         Spacer(Modifier.height(14.dp))
         Text(tr("Choose a file to read its text"), style = MaterialTheme.typography.titleMedium)
         Text(tr("{0} — the text appears under Paste text, ready to check.", formats), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        if (FileTextExtractor.readsPhotos) {
+            Text(
+                tr("Photos of pages (JPG, PNG, HEIC) are read as text in the book's language; several photos make one text."),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
         Spacer(Modifier.height(16.dp))
-        Button(onClick = onChooseFile, enabled = !state.busy, shape = RoundedCornerShape(50)) { Text(if (state.busy) tr("Reading…") else tr("Choose file")) }
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Button(onClick = onChooseFile, enabled = !state.busy, shape = RoundedCornerShape(50)) { Text(if (state.busy) tr("Reading…") else tr("Choose file")) }
+            onTakePhoto?.let { take -> OutlinedButton(onClick = take, enabled = !state.busy, shape = RoundedCornerShape(50)) { Text(tr("Take photo")) } }
+        }
         state.importedFileName?.let {
             Spacer(Modifier.height(10.dp))
             Text(tr("Last imported: {0}", it), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -351,4 +373,21 @@ private fun ActionBar(state: BookFormUiState, onCancel: () -> Unit, onSave: () -
             }
         }
     }
+}
+
+/** Asks before downloading the model that reading the language from photos needs. */
+@Composable
+private fun OcrDownloadDialog(offer: OcrOffer, onDownload: () -> Unit, onCancel: () -> Unit) {
+    AlertDialog(
+        onDismissRequest = onCancel,
+        title = { Text(tr("Download text recognition?")) },
+        text = {
+            Text(
+                offer.sizeBytes?.let { tr("Reading {0} from photos needs its recognition model ({1}). It is downloaded once and kept on this device.", languageInSentence(offer.languageName, LanguageCase.PREPOSITIONAL), formatSize(it)) }
+                    ?: tr("Reading {0} from photos needs a recognition model, which Google Play downloads once.", languageInSentence(offer.languageName, LanguageCase.PREPOSITIONAL)),
+            )
+        },
+        confirmButton = { TextButton(onClick = onDownload) { Text(tr("Download")) } },
+        dismissButton = { TextButton(onClick = onCancel) { Text(tr("Cancel")) } },
+    )
 }

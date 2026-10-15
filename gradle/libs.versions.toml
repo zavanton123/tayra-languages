@@ -1,4 +1,7 @@
 [versions]
+bytedeco-javacpp = "1.5.11"
+bytedeco-leptonica = "1.85.0-1.5.11"
+bytedeco-tesseract = "5.5.0-1.5.11"
 agp = "9.4.1"
 android-compileSdk = "37"
 android-minSdk = "26"
@@ -30,6 +33,15 @@ commons-compress = { module = "org.apache.commons:commons-compress", version = "
 pdfbox = { module = "org.apache.pdfbox:pdfbox", version = "3.0.3" }
 pdfbox-android = { module = "com.tom-roush:pdfbox-android", version = "2.0.27.0" }
 mlkit-translate = { module = "com.google.mlkit:translate", version = "17.0.3" }
+mlkit-text-latin = { module = "com.google.android.gms:play-services-mlkit-text-recognition", version = "19.0.1" }
+mlkit-text-chinese = { module = "com.google.android.gms:play-services-mlkit-text-recognition-chinese", version = "16.0.1" }
+mlkit-text-japanese = { module = "com.google.android.gms:play-services-mlkit-text-recognition-japanese", version = "16.0.1" }
+mlkit-text-korean = { module = "com.google.android.gms:play-services-mlkit-text-recognition-korean", version = "16.0.1" }
+mlkit-text-devanagari = { module = "com.google.android.gms:play-services-mlkit-text-recognition-devanagari", version = "16.0.1" }
+play-services-base = { module = "com.google.android.gms:play-services-base", version = "18.11.1" }
+bytedeco-javacpp = { module = "org.bytedeco:javacpp", version.ref = "bytedeco-javacpp" }
+bytedeco-leptonica = { module = "org.bytedeco:leptonica", version.ref = "bytedeco-leptonica" }
+bytedeco-tesseract = { module = "org.bytedeco:tesseract", version.ref = "bytedeco-tesseract" }
 jna = { module = "net.java.dev.jna:jna", version = "5.19.1" }
 jna-platform = { module = "net.java.dev.jna:jna-platform", version = "5.19.1" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }

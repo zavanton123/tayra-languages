@@ -13,6 +13,7 @@
 | Networking | Ktor client with HTTP cache |
 | Serialization | kotlinx.serialization |
 | Files | FileKit (picking files, CSV export); `FileTextExtractor` turns epub, fb2, mobi/azw3, docx, odt, rtf, html, mhtml, md, txt, srt and vtt into text in common code, pdf through PDFBox (desktop), PDFBox-Android and PDFKit (iOS) |
+| Text recognition | `TextRecognizer` (domain): `VisionTextRecognizer` (iOS), `AndroidTextRecognizer` (ML Kit through Google Play services, Tesseract otherwise), `TesseractTextRecognizer` (desktop; bytedeco's JavaCPP builds, natives for the OS the installer is built on, arm64 only on Android). Models from tessdata_fast, pinned in `TesseractModels` |
 | Logging | Kermit |
 | Date/time | kotlinx-datetime |
 | Testing | kotlin-test, kotlinx-coroutines-test, Turbine |

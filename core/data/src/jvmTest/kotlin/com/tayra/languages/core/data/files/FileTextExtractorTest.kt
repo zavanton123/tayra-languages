@@ -205,8 +205,8 @@ class FileTextExtractorTest {
     fun linesWrappedInScriptsWithoutSpacesJoinWithoutOne() = runTest {
         assertEquals("我们是学生，他们也是学生。", FileTextExtractor.extract("a.html", "<p>我们是学生，\n他们也是学生。</p>".toByteArray()).text)
         assertEquals("日本語の文章です。 Next words", FileTextExtractor.extract("a.md", "日本語の文\n章です。\nNext\nwords".toByteArray()).text)
-        assertEquals("ฉันชอบกินข้าว", PdfText.reflow("ฉันชอบ\nกินข้าว"))
-        assertEquals("Hello world", PdfText.reflow("Hello\nworld"))
+        assertEquals("ฉันชอบกินข้าว", LineReflow.paragraphs("ฉันชอบ\nกินข้าว"))
+        assertEquals("Hello world", LineReflow.paragraphs("Hello\nworld"))
     }
 
     @Test

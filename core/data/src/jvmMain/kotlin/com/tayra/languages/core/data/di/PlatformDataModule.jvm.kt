@@ -1,34 +1,36 @@
 package com.tayra.languages.core.data.di
 
 import com.russhwolf.settings.PreferencesSettings
-import com.tayra.languages.core.data.settings.fileSettings
 import com.russhwolf.settings.Settings
+import com.tayra.languages.core.data.backup.BackupFiles
+import com.tayra.languages.core.data.bookpack.BookPackFiles
+import com.tayra.languages.core.data.coursepack.CoursePackFiles
+import com.tayra.languages.core.data.db.DatabaseDriverFactory
+import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
+import com.tayra.languages.core.data.export.AnkiConnectClient
+import com.tayra.languages.core.data.ocr.TesseractTextRecognizer
+import com.tayra.languages.core.data.parse.KuromojiBoundaries
 import com.tayra.languages.core.data.runtime.DesktopCommandLineTool
 import com.tayra.languages.core.data.runtime.ManagedPython
-import com.tayra.languages.core.domain.service.CommandLineTool
 import com.tayra.languages.core.data.settings.SecureStore
+import com.tayra.languages.core.data.settings.desktopSecureStore
+import com.tayra.languages.core.data.settings.fileSettings
+import com.tayra.languages.core.data.speech.FileSpeechAudioCache
 import com.tayra.languages.core.data.speech.KokoroSpeechEngine
 import com.tayra.languages.core.data.speech.PiperSpeechEngine
 import com.tayra.languages.core.data.speech.TtsWorker
-import com.tayra.languages.core.domain.service.LocalSpeech
-import com.tayra.languages.core.data.settings.desktopSecureStore
-import com.tayra.languages.core.data.db.DatabaseDriverFactory
-import com.tayra.languages.core.data.coursepack.CoursePackFiles
-import com.tayra.languages.core.data.bookpack.BookPackFiles
-import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.translation.ArgosSentenceTranslator
+import com.tayra.languages.core.domain.export.AnkiConnection
+import com.tayra.languages.core.domain.ocr.TextRecognizer
+import com.tayra.languages.core.domain.parse.Segmenters
+import com.tayra.languages.core.domain.service.CommandLineTool
+import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.domain.service.LocalTranslation
-import com.tayra.languages.core.data.backup.BackupFiles
+import com.tayra.languages.core.domain.service.SpeechAudioCache
+import java.io.File
+import java.util.prefs.Preferences
 import org.koin.core.module.Module
 import org.koin.dsl.module
-import java.util.prefs.Preferences
-import java.io.File
-import com.tayra.languages.core.data.parse.KuromojiBoundaries
-import com.tayra.languages.core.domain.parse.Segmenters
-import com.tayra.languages.core.data.export.AnkiConnectClient
-import com.tayra.languages.core.domain.export.AnkiConnection
-import com.tayra.languages.core.domain.service.SpeechAudioCache
-import com.tayra.languages.core.data.speech.FileSpeechAudioCache
 
 actual val platformDataModule: Module = module {
     single { ManagedPython() }
@@ -44,6 +46,7 @@ actual val platformDataModule: Module = module {
     // A data folder of its own keeps its settings beside the database, so it shares nothing with the usual library.
     single<Settings> { DatabaseDriverFactory.customDataDirectory()?.let { fileSettings(File(it, "settings.properties")) } ?: PreferencesSettings(Preferences.userRoot().node("com/tayra/languages")) }
     single<SecureStore> { desktopSecureStore() }
+    single<TextRecognizer> { TesseractTextRecognizer(File(DatabaseDriverFactory.dataDirectory(), "ocr/tessdata")) }
     single<CommandLineTool> { DesktopCommandLineTool() }
     // Anki's AnkiConnect add-on listens on the desktop only.
     single<AnkiConnection> { AnkiConnectClient(get()) }

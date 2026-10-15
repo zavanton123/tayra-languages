@@ -6,11 +6,17 @@ import com.tayra.languages.core.data.files.FileImportException
 import com.tayra.languages.core.data.files.FileTextExtractor
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.ocr.NoTextRecognizer
+import com.tayra.languages.core.domain.ocr.OcrException
+import com.tayra.languages.core.domain.ocr.OcrReadiness
+import com.tayra.languages.core.domain.ocr.TextRecognizer
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookValidationException
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.state.UiEvents
@@ -19,6 +25,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.math.roundToInt
 
 data class BookFormUiState(
     val loading: Boolean = true,
@@ -32,6 +39,10 @@ data class BookFormUiState(
     /** For an existing book: its text and page size as loaded, to tell whether the pages need rebuilding. */
     val loaded: BookDraft? = null,
     val pageCount: Int = 0,
+    /** Text recognition the photos being imported need, offered for download. */
+    val ocrOffer: OcrOffer? = null,
+    /** What a long import is doing (downloading a model, reading photo 2 of 5). */
+    val progress: String? = null,
 ) {
     val isNew: Boolean get() = draft.id == null
 
@@ -40,6 +51,9 @@ data class BookFormUiState(
         get() = loaded != null && (draft.text != loaded.text || draft.wordsPerPage != loaded.wordsPerPage)
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
 }
+
+/** The download that reading [languageName] from photos needs: [sizeBytes] of it, null when Google Play fetches it. */
+data class OcrOffer(val languageName: String, val sizeBytes: Long?)
 
 sealed interface BookFormEvent {
     data class Saved(val bookId: Long, val isNew: Boolean) : BookFormEvent
@@ -51,6 +65,7 @@ class BookFormViewModel(
     private val languages: LanguageRepository,
     private val settings: SettingsRepository,
     private val bookService: BookService,
+    private val recognizer: TextRecognizer = NoTextRecognizer,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(BookFormUiState())
@@ -119,6 +134,98 @@ class BookFormViewModel(
         }
     }
 
+    /** Photos waiting for the text recognition model offered for download. */
+    private var pendingPhotos: List<Pair<String, ByteArray>> = emptyList()
+
+    /** Files chosen to import: one document, whose text is read, or photos of pages, whose text is recognized. */
+    fun importFiles(files: List<Pair<String, ByteArray>>) {
+        val photos = files.filter { FileTextExtractor.isImage(it.first) }
+        when {
+            files.isEmpty() -> Unit
+            photos.size == files.size -> importPhotos(photos.sortedWith { a, b -> naturalCompare(a.first, b.first) })
+            files.size == 1 -> importFile(files[0].first, files[0].second)
+            else -> _state.update { it.copy(error = tr("Choose one document, or one or more photos of pages.")) }
+        }
+    }
+
+    /** Recognizes the text of [photos], once the language's model is here; asks to download it first if not. */
+    fun importPhotos(photos: List<Pair<String, ByteArray>>) {
+        val language = _state.value.language ?: run {
+            _state.update { it.copy(error = tr("Please select a language")) }
+            return
+        }
+        _state.update { it.copy(busy = true, error = null, notice = null) }
+        viewModelScope.launch {
+            when (val readiness = recognizer.readiness(language)) {
+                OcrReadiness.Unsupported -> _state.update {
+                    it.copy(busy = false, error = tr("Reading {0} from photos is not available on this device.", languageInSentence(language.name, LanguageCase.PREPOSITIONAL)))
+                }
+                is OcrReadiness.NeedsDownload -> {
+                    pendingPhotos = photos
+                    _state.update { it.copy(busy = false, ocrOffer = OcrOffer(language.name, readiness.sizeBytes)) }
+                }
+                OcrReadiness.Ready -> recognize(photos, language)
+            }
+        }
+    }
+
+    /** Downloads the offered text recognition model, then reads the photos that wait for it. */
+    fun downloadRecognition() {
+        val language = _state.value.language ?: return
+        val photos = pendingPhotos
+        pendingPhotos = emptyList()
+        _state.update { it.copy(ocrOffer = null, busy = true, error = null, progress = tr("Downloading text recognition…")) }
+        viewModelScope.launch {
+            try {
+                recognizer.download(language) { share ->
+                    val percent = share?.let { (it * 100).roundToInt() }
+                    _state.update { it.copy(progress = percent?.let { p -> tr("Downloading text recognition… {0}%", p) } ?: tr("Downloading text recognition…")) }
+                }
+            } catch (e: OcrException) {
+                _state.update { it.copy(busy = false, progress = null, error = tr(e.message.orEmpty())) }
+                return@launch
+            }
+            recognize(photos, language)
+        }
+    }
+
+    /** Leaves the photos unread, the model not downloaded. */
+    fun cancelPhotos() {
+        pendingPhotos = emptyList()
+        _state.update { it.copy(ocrOffer = null, busy = false) }
+    }
+
+    /** Reads [photos] in order and adds their text after any already in the form, a page of a book at a time. */
+    private suspend fun recognize(photos: List<Pair<String, ByteArray>>, language: Language) {
+        val texts = mutableListOf<String>()
+        try {
+            photos.forEachIndexed { index, (_, bytes) ->
+                _state.update { it.copy(busy = true, progress = tr("Reading photo {0} of {1}…", index + 1, photos.size)) }
+                texts += recognizer.recognize(bytes, language)
+            }
+        } catch (e: OcrException) {
+            _state.update { it.copy(busy = false, progress = null, error = tr(e.message.orEmpty())) }
+            return
+        } catch (e: Exception) {
+            _state.update { it.copy(busy = false, progress = null, error = tr("Could not read the photo")) }
+            return
+        }
+        val text = texts.filter { it.isNotBlank() }.joinToString("\n\n")
+        if (text.isBlank()) {
+            _state.update { it.copy(busy = false, progress = null, error = trPlural(photos.size, "No text was found in the photo.", "No text was found in the photos.")) }
+            return
+        }
+        _state.update {
+            it.copy(
+                busy = false,
+                progress = null,
+                importedFileName = photos.last().first,
+                draft = it.draft.copy(text = listOf(it.draft.text.trim(), text).filter { part -> part.isNotEmpty() }.joinToString("\n\n")),
+                notice = trPlural(photos.size, "Read the text of {0} photo; check it for misread words.", "Read the text of {0} photos; check them for misread words."),
+            )
+        }
+    }
+
     fun save() {
         val draft = _state.value.draft
         val rebuild = _state.value.rebuildsPages
@@ -133,6 +240,20 @@ class BookFormViewModel(
                 _state.update { it.copy(busy = false, error = e.message?.let { m -> tr(m) } ?: tr("Could not save book")) }
             }
         }
+    }
+
+    /** Names in the order people number them: "IMG_2" before "IMG_10". */
+    private fun naturalCompare(a: String, b: String): Int {
+        val chunk = Regex("\\d+|\\D+")
+        val left = chunk.findAll(a.lowercase()).map { it.value }.toList()
+        val right = chunk.findAll(b.lowercase()).map { it.value }.toList()
+        for (i in 0 until minOf(left.size, right.size)) {
+            val x = left[i]
+            val y = right[i]
+            val order = if (x[0].isDigit() && y[0].isDigit()) compareValuesBy(x, y, { it.length }, { it }) else x.compareTo(y)
+            if (order != 0) return order
+        }
+        return left.size - right.size
     }
 
     /** The import error in the interface language; the messages naming the file are matched to put the name in place. */
