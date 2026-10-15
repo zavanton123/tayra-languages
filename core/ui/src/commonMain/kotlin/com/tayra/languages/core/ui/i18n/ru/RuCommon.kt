@@ -57,6 +57,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Lithuanian" to "Литовский",
     "Macedonian" to "Македонский",
     "Maltese" to "Мальтийский",
+    "Mandarin Chinese" to "Китайский (мандаринский)",
     "Manx" to "Мэнский",
     "Mongolian" to "Монгольский",
     "Norwegian" to "Норвежский",
