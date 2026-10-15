@@ -58,4 +58,10 @@ class TextProcessorsTest {
     fun ancientGreek() {
         assertTrue("λογος" in spellings("grc", "logos"))
     }
+
+    @Test
+    fun vietnamese() {
+        assertTrue("hòa" in spellings("vi", "hoà"))
+        assertTrue("hoà" in spellings("vi", "hòa"))
+    }
 }

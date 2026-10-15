@@ -42,6 +42,8 @@ internal object TextProcessors {
         "removeApostrophedWords" to { s -> listOf(s, italianElisions.replace(s, "")) },
         // Ancient Greek
         "convertLatinToGreek" to { s -> listOf(s, latinToGreek(s)) },
+        // Vietnamese
+        "normalizeDiacritics" to { s -> listOf(s, vietnameseTones(s, oldStyle = true), vietnameseTones(s, oldStyle = false)) },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
@@ -99,5 +101,25 @@ internal object TextProcessors {
         for ((digraph, greek) in greekDigraphs) result = result.replace(digraph, greek)
         for ((letter, greek) in greekLetters) result = result.replace(letter, greek)
         return if (result.endsWith('σ')) result.dropLast(1) + 'ς' else result
+    }
+
+    private const val VIETNAMESE_TONES = "([̣̀̉̃́])"
+    private const val VIETNAMESE_MARKS = "̛̆̂"
+    private val vietnameseRules = listOf(
+        // The tone on the second vowel; then on the vowel with a mark; then on the penultimate vowel.
+        Regex("$VIETNAMESE_TONES([aeiouy$VIETNAMESE_MARKS]+)", RegexOption.IGNORE_CASE) to "$2$1",
+        Regex("(?<=[$VIETNAMESE_MARKS])(.)$VIETNAMESE_TONES", RegexOption.IGNORE_CASE) to "$2$1",
+        Regex("(?<=[ae])([iouy])$VIETNAMESE_TONES", RegexOption.IGNORE_CASE) to "$2$1",
+        Regex("(?<=[oy])([iuy])$VIETNAMESE_TONES", RegexOption.IGNORE_CASE) to "$2$1",
+        Regex("(?<!q)(u)([aeiou])$VIETNAMESE_TONES", RegexOption.IGNORE_CASE) to "$1$3$2",
+        Regex("(?<!g)(i)([aeiouy])$VIETNAMESE_TONES", RegexOption.IGNORE_CASE) to "$1$3$2",
+    )
+    private val vietnameseOldStyle = Regex("(?<!q)([ou])([aeoy])$VIETNAMESE_TONES(?!\\w)", RegexOption.IGNORE_CASE)
+
+    /** The word with its tone mark where the old or the new spelling rules put it ("hoà", "hòa"). */
+    internal fun vietnameseTones(word: String, oldStyle: Boolean): String {
+        var result = vietnameseRules.fold(Unicode.nfd(word)) { text, (rule, replacement) -> rule.replaceFirst(text, replacement) }
+        if (oldStyle) result = vietnameseOldStyle.replaceFirst(result, "$1$3$2")
+        return Unicode.nfc(result)
     }
 }
