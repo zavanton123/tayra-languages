@@ -78,11 +78,11 @@ class FuriganaTest {
     @Test
     fun readingsAreSplitOverTheKanjiAsYomitanSplitsThem() {
         for ((term, reading, expected) in plain) {
-            assertEquals(expected.map { Japanese.Furigana(it.first, it.second) }, Japanese.distributeFurigana(term, reading), "$term $reading")
+            assertEquals(expected.map { Furigana(it.first, it.second) }, Japanese.distributeFurigana(term, reading), "$term $reading")
         }
         for ((input, expected) in inflected) {
             val (term, reading, source) = input
-            assertEquals(expected.map { Japanese.Furigana(it.first, it.second) }, Japanese.distributeFuriganaInflected(term, reading, source), "$term $reading $source")
+            assertEquals(expected.map { Furigana(it.first, it.second) }, Japanese.distributeFuriganaInflected(term, reading, source), "$term $reading $source")
         }
     }
 

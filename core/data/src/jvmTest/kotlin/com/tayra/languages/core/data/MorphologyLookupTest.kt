@@ -8,6 +8,11 @@ import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.service.DictionaryService
+import com.russhwolf.settings.MapSettings
+import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.morphology.Furigana
+import com.tayra.languages.core.domain.service.WordReadings
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.mock.MockEngine
 import io.ktor.client.engine.mock.respond
@@ -121,5 +126,21 @@ class MorphologyLookupTest {
         val (service, zh) = service("zh", listOf(Triple("你好", "intj", "hello")), forms = listOf("nǐhǎo" to "你好", "nihao" to "你好"))
         assertEquals("你好", service.lookup(zh, "Nǐ hǎo").parentSuggestion)
         assertEquals("你好", service.lookup(zh, "ni hao").parentSuggestion)
+    }
+
+    @Test
+    fun wordsGetFuriganaOverTheirKanjiOnly() = runTest {
+        val readings = listOf(
+            "CREATE TABLE readings (word TEXT NOT NULL, reading TEXT NOT NULL)",
+            "INSERT INTO readings VALUES ('使う', 'つかう'), ('日本語', 'にほんご')",
+        )
+        val (service, _) = service("ja", listOf(Triple("使う", "verb", "to use"), Triple("日本語", "noun", "Japanese")), extra = readings)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        settings.update { it.copy(nativeLanguage = "en") }
+        val japanese = Language(name = "Japanese")
+        val furigana = WordReadings(service, settings).of(japanese, listOf("使って", "日本語", "を"))
+        assertEquals(listOf(Furigana("使", "つか"), Furigana("って", "")), furigana["使って"])
+        assertEquals(listOf(Furigana("日本語", "にほんご")), furigana["日本語"])
+        assertTrue("を" !in furigana, "kana need no reading")
     }
 }

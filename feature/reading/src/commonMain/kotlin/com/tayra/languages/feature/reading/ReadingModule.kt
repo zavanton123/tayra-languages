@@ -15,7 +15,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val readingModule = module {
-    viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading) }
+    viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading, wordReadings = getOrNull()) }
     viewModel { (source: PracticeSource, kinds: Set<ExerciseKind>) -> PracticeViewModel(source, kinds, get(), get(), get(), get(), get(), get(), get()) }
 }
 

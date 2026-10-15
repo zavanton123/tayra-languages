@@ -33,6 +33,8 @@ import com.tayra.languages.core.domain.service.TermPopup
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.service.WordTranslationService
+import com.tayra.languages.core.domain.service.WordReadings
+import com.tayra.languages.core.domain.morphology.Furigana
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.service.effectiveEngine
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -99,6 +101,8 @@ data class ReadingUiState(
     val translationError: LocalTranslationProblem? = null,
     /** What the offline translator is installing right now, shown above the text. */
     val translationProgress: String? = null,
+    /** Readings shown above the page's Japanese and Chinese words, by word. */
+    val readings: Map<String, List<Furigana>> = emptyMap(),
 ) {
     val items: List<TextItem> get() = page.items
     val isLastPage: Boolean get() = pageNumber >= pageCount
@@ -139,6 +143,7 @@ class ReadingViewModel(
     private val wordTranslations: WordTranslationService,
     private val sentenceAudio: SentenceAudio,
     private val lessonOf: suspend (Long) -> LessonReading? = { null },
+    private val wordReadings: WordReadings? = null,
 ) : ViewModel() {
 
     private val local = localTranslation.translator
@@ -209,10 +214,12 @@ class ReadingViewModel(
                     panel = if (keepMarked) it.panel else ReadingPanel.None,
                     error = null,
                     translations = if (keepMarked) it.translations else emptyMap(),
+                    readings = if (keepMarked) it.readings else emptyMap(),
                 )
             }
             translateSentences()
             prepareSpeech()
+            prepareReadings()
         } catch (e: Exception) {
             Logger.e(e) { "Could not load page" }
             _state.update { it.copy(loading = false, error = e.message ?: tr("Could not load page")) }
@@ -637,6 +644,25 @@ class ReadingViewModel(
         }
     }
 
+    private var readingsJob: Job? = null
+
+    /** Looks up the readings of the page's words for furigana or pinyin, when the language has them and they are on. */
+    private fun prepareReadings(enabled: Boolean = settingsRepository.current.showReadings) {
+        readingsJob?.cancel()
+        val s = _state.value
+        val language = s.language
+        val service = wordReadings
+        if (language == null || service == null || !enabled) {
+            _state.update { it.copy(readings = emptyMap()) }
+            return
+        }
+        val words = s.page.items.filter { it.isWord }.map { it.renderText }
+        readingsJob = viewModelScope.launch {
+            val readings = service.of(language, words)
+            _state.update { if (it.page == s.page) it.copy(readings = readings) else it }
+        }
+    }
+
     /**
      * Makes the audio of every sentence on the page ahead of time when the play buttons are on and
      * a local speech engine reads them, then the next page's, so turning to it is instant too;
@@ -661,6 +687,11 @@ class ReadingViewModel(
     fun toggleSplitSentences() = updateSettings { it.copy(splitSentences = !it.splitSentences) }
     fun toggleSideBySideTranslations() = updateSettings { it.copy(sideBySideTranslations = !it.sideBySideTranslations) }
     fun toggleSentencePlay() = updateSettings { it.copy(showSentencePlay = !it.showSentencePlay) }
+    fun toggleReadings() {
+        val show = !settingsRepository.current.showReadings
+        updateSettings { it.copy(showReadings = show) }
+        prepareReadings(show)
+    }
     fun toggleAutoPause() = updateSettings { it.copy(autoPause = !it.autoPause) }
     fun toggleSpeakWordOnClick() = updateSettings { it.copy(speakWordOnClick = !it.speakWordOnClick) }
 
@@ -811,6 +842,7 @@ class ReadingViewModel(
             sideBySideTranslations = defaults.sideBySideTranslations,
             practiceTranslation = defaults.practiceTranslation,
             showSentencePlay = defaults.showSentencePlay,
+            showReadings = defaults.showReadings,
             speakWordOnClick = defaults.speakWordOnClick,
             autoPause = defaults.autoPause,
             speechSpeed = defaults.speechSpeed,

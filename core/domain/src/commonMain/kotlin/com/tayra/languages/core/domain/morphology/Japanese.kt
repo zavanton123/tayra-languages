@@ -5,6 +5,9 @@ package com.tayra.languages.core.domain.morphology
  * Yomitan Authors): kana and width variants, combining marks, emphatic spellings, romaji and
  * kanji variants.
  */
+/** A stretch of a word and the reading shown above it (furigana, pinyin); empty where none is needed. */
+data class Furigana(val text: String, val reading: String)
+
 internal object Japanese {
     private const val HIRAGANA_FIRST = 0x3041
     private const val HIRAGANA_LAST = 0x3096
@@ -216,9 +219,6 @@ internal object Japanese {
         }
         return result.toString()
     }
-
-    /** A stretch of a word and the reading shown above it; empty for kana, which needs none. */
-    data class Furigana(val text: String, val reading: String)
 
     private class Group(val isKana: Boolean, var text: String, var normalized: String? = null)
 

@@ -21,6 +21,12 @@ import com.tayra.languages.core.ui.components.softBlurAvailable
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.draw.drawBehind
+import com.tayra.languages.core.domain.morphology.Furigana
+import androidx.compose.ui.text.style.LineHeightStyle
+import androidx.compose.ui.text.drawText
+import androidx.compose.ui.text.rememberTextMeasurer
+import androidx.compose.ui.text.TextMeasurer
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.foundation.relocation.bringIntoViewRequester
@@ -128,6 +134,8 @@ fun ReadingText(
     modifier: Modifier = Modifier,
     /** Lay each sentence out on its own line instead of flowing a paragraph together. */
     splitSentences: Boolean = false,
+    /** Readings drawn above words (furigana, pinyin), by the word's text; lines get room for them when there are any. */
+    readings: Map<String, List<Furigana>> = emptyMap(),
     /** Justify the lines of text rather than aligning them to the start. */
     justify: Boolean = false,
     /** Translations shown under each sentence, keyed by [RenderedSentence.displayText]; null hides them. */
@@ -230,6 +238,7 @@ fun ReadingText(
                         rightToLeft = rightToLeft,
                         callbacks = if (shown) callbacks.copy(onBlankTap = { reveal(false) }) else callbacks,
                         fontFamily = fontFamily,
+                        readings = readings,
                     ) }
                 }
                 val translated = translations != null && sentenceText.any { it.isLetter() }
@@ -439,8 +448,11 @@ private fun ParagraphText(
     /** Local positions of the items of the sentence being read, tinted where they have no colour of their own. */
     readingItems: IntRange? = null,
     readingTint: Color = Color.Transparent,
+    readings: Map<String, List<Furigana>> = emptyMap(),
 ) {
     val spans = remember(items) { mutableListOf<Span>() }
+    val rubySize = 18 * fontScale * RUBY_SCALE
+    val measurer = rememberTextMeasurer()
     val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint) {
         spans.clear()
         buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint)
@@ -474,7 +486,9 @@ private fun ParagraphText(
             text = text,
             style = TextStyle(
                 fontSize = (18 * fontScale).sp,
-                lineHeight = (18 * fontScale * lineHeight).sp,
+                // Lines keep room above the letters for readings, and the letters sit at the bottom of it.
+                lineHeight = (18 * fontScale * lineHeight + if (readings.isEmpty()) 0f else rubySize * 1.3f).sp,
+                lineHeightStyle = if (readings.isEmpty()) null else LineHeightStyle(LineHeightStyle.Alignment.Bottom, LineHeightStyle.Trim.None),
                 color = theme.readingText,
                 textDirection = if (rightToLeft) TextDirection.Rtl else TextDirection.Ltr,
                 fontFamily = fontFamily,
@@ -485,6 +499,11 @@ private fun ParagraphText(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = 6.dp)
+                .drawWithContent {
+                    drawContent()
+                    val result = layout
+                    if (readings.isNotEmpty() && result != null) drawReadings(result, spans, items, firstItemIndex, readings, measurer, TextStyle(fontSize = rubySize.sp, color = theme.readingText.copy(alpha = 0.75f), fontFamily = fontFamily))
+                }
                 .pointerInput(callbacks) {
                     awaitPointerEventScope {
                         while (true) {
@@ -620,6 +639,41 @@ private fun buildParagraph(
             if (selected) pop()
         }
         spans.add(Span(start, length, itemIndex))
+    }
+}
+
+/** Readings are drawn at half the size of the text. */
+private const val RUBY_SCALE = 0.5f
+
+/**
+ * Draws each word's readings centred above the characters they read, in the room the line height
+ * leaves above the letters; a reading over characters that wrap is drawn over each line's part.
+ */
+private fun androidx.compose.ui.graphics.drawscope.DrawScope.drawReadings(
+    result: TextLayoutResult,
+    spans: List<Span>,
+    items: List<TextItem>,
+    firstItemIndex: Int,
+    readings: Map<String, List<Furigana>>,
+    measurer: TextMeasurer,
+    style: TextStyle,
+) {
+    for (span in spans) {
+        val item = items.getOrNull(span.itemIndex - firstItemIndex) ?: continue
+        val furigana = readings[item.renderText] ?: continue
+        var offset = span.end - item.renderText.length
+        for (segment in furigana) {
+            val start = offset
+            offset += segment.text.length
+            if (segment.reading.isEmpty() || offset > result.layoutInput.text.length) continue
+            (start until offset).groupBy { result.getLineForOffset(it) }.forEach { (line, positions) ->
+                val boxes = positions.map { result.getBoundingBox(it) }
+                val left = boxes.minOf { it.left }
+                val right = boxes.maxOf { it.right }
+                val measured = measurer.measure(segment.reading, style)
+                drawText(measured, topLeft = Offset((left + right) / 2 - measured.size.width / 2f, result.getLineTop(line)))
+            }
+        }
     }
 }
 

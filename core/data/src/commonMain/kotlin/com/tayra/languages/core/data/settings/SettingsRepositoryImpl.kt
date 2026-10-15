@@ -87,6 +87,7 @@ class SettingsRepositoryImpl(
             sideBySideTranslations = store.getBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, defaults.sideBySideTranslations),
             practiceTranslation = store.getBoolean(Keys.PRACTICE_TRANSLATION, defaults.practiceTranslation),
             showSentencePlay = store.getBoolean(Keys.SHOW_SENTENCE_PLAY, defaults.showSentencePlay),
+            showReadings = store.getBoolean(Keys.SHOW_READINGS, defaults.showReadings),
             speakWordOnClick = store.getBoolean(Keys.SPEAK_WORD_ON_CLICK, defaults.speakWordOnClick),
             autoPause = store.getBoolean(Keys.AUTO_PAUSE, defaults.autoPause),
             speechEngine = SpeechEngine.entries.firstOrNull { it.name == store.getString(Keys.SPEECH_ENGINE, "") } ?: defaults.speechEngine,
@@ -184,6 +185,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, s.sideBySideTranslations)
         store.putBoolean(Keys.PRACTICE_TRANSLATION, s.practiceTranslation)
         store.putBoolean(Keys.SHOW_SENTENCE_PLAY, s.showSentencePlay)
+        store.putBoolean(Keys.SHOW_READINGS, s.showReadings)
         store.putBoolean(Keys.SPEAK_WORD_ON_CLICK, s.speakWordOnClick)
         store.putBoolean(Keys.AUTO_PAUSE, s.autoPause)
         store.putString(Keys.SPEECH_ENGINE, s.speechEngine.name)
@@ -235,6 +237,7 @@ class SettingsRepositoryImpl(
         const val SPLIT_SENTENCES = "reading_split_sentences"
         const val SIDE_BY_SIDE_TRANSLATIONS = "reading_side_by_side_translations"
         const val SHOW_SENTENCE_PLAY = "reading_show_sentence_play"
+        const val SHOW_READINGS = "reading_show_readings"
         const val SPEAK_WORD_ON_CLICK = "reading_speak_word_on_click"
         const val AUTO_PAUSE = "reading_auto_pause"
         const val LATER_HOTKEY_DEFAULTS = "hotkeys_later_defaults_applied"

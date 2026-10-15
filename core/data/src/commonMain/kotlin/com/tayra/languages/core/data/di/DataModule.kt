@@ -57,6 +57,7 @@ import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.LanguageService
 import com.tayra.languages.core.domain.service.LexiconService
 import com.tayra.languages.core.domain.service.ReadingService
+import com.tayra.languages.core.domain.service.WordReadings
 import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.domain.stats.LearningStatsRepository
 import com.tayra.languages.core.data.repository.LearningStatsRepositoryImpl
@@ -143,6 +144,7 @@ val dataModule: Module = module {
     single { SentenceAudio(get(), get(), get(), get()) }
     single { TranslationLanguageKeeper(get(), get(), get<DictionaryService>(), get(), get()) }
     single { LexiconService(get(), get(), getOrNull()) }
+    single { WordReadings(get(), get()) }
     single { ReadingService(get(), get(), get(), get(), get(), get<LexiconService>()) }
     single { TermPopupBuilder(get(), get(), get()) }
     single { BookService(get(), get()) }

@@ -644,6 +644,7 @@ private fun ReadingBody(
                 rightToLeft = state.language?.rightToLeft == true,
                 fontFamily = ReadingFont.byId(state.settings.readingFont).fontFamily(),
                 splitSentences = state.settings.splitSentences,
+                readings = if (state.settings.showReadings) state.readings else emptyMap(),
                 justify = state.settings.readingJustified,
                 translations = if (state.settings.showTranslations) state.translations else null,
                 sideBySide = state.settings.sideBySideTranslations,

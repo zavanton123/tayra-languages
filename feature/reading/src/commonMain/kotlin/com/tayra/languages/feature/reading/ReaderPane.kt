@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.domain.language.LanguageCodes
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -380,6 +381,9 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
     PaneCard(tr("Reading experience")) {
         SwitchSetting(AppIcons.Fullscreen, tr("Focus mode"), tr("Hide navigation and distractions"), prefs.focusMode) { viewModel.toggleFocusMode() }
         SwitchSetting(AppIcons.Palette, tr("Highlight terms"), tr("Color words by learning status"), prefs.showHighlights) { viewModel.toggleHighlights() }
+        if (state.language?.let { LanguageCodes.codeFor(it.name) } in READING_LANGUAGES) {
+            SwitchSetting(AppIcons.Abc, tr("Show readings"), tr("Furigana or pinyin above the words"), prefs.showReadings) { viewModel.toggleReadings() }
+        }
         if (prefs.showHighlights) {
             val statusColors = TayraTheme.current.statusColors
             Row(Modifier.padding(start = 36.dp), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
@@ -676,3 +680,6 @@ private fun ToolTile(icon: ImageVector, label: String, note: String, active: Boo
         Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
 }
+
+/** Languages whose words get their reading shown above them. */
+private val READING_LANGUAGES = setOf("ja", "zh")
