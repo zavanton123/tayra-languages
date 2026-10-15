@@ -87,4 +87,10 @@ class TextProcessorsTest {
     fun assyrian() {
         assertTrue("ܟܬܒ" in spellings("aii", "ܟܵܬܹܒ݂"))
     }
+
+    @Test
+    fun chinese() {
+        assertTrue("\u4e00" in spellings("zh", "\u2f00"))
+        assertTrue("\u4e00" in spellings("yue", "\u2f00"))
+    }
 }

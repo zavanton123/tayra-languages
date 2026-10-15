@@ -65,6 +65,8 @@ internal object TextProcessors {
         },
         // Assyrian Neo-Aramaic
         "removeSyriacScriptDiacritics" to { s -> listOf(s, syriacDiacritics.replace(s, "")) },
+        // Chinese, Cantonese and Japanese
+        "normalizeRadicalCharacters" to { s -> listOf(s, s.map { c -> if (c.isCjkRadical()) Unicode.nfkd(c.toString()) else c.toString() }.joinToString("")) },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
@@ -158,4 +160,7 @@ internal object TextProcessors {
     private val yiddishFinals = mapOf('מ' to 'ם', 'נ' to 'ן', 'צ' to 'ץ', 'פ' to 'ף', 'כ' to 'ך')
 
     private val syriacDiacritics = Regex("[̣̮̰̱̃̄̇̈ܰ-݊]")
+
+    /** Kangxi radicals, CJK radicals supplement and strokes, which have plain ideographs as compatibility forms. */
+    private fun Char.isCjkRadical(): Boolean = code in 0x2e80..0x2eff || code in 0x2f00..0x2fdf || code in 0x31c0..0x31ef
 }
