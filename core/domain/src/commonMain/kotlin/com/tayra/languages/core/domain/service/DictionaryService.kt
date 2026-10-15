@@ -217,7 +217,7 @@ class DictionaryService(
             .partition { caseRank(it.word, word) < 2 && it.senses.any { sense -> sense.tags.none { tag -> tag in DATED_TAGS } } }
         // Headwords that differ only in case are usually a common noun and a name ("word", "Word");
         // the one whose case matches the clicked word wins, so the name does not become the parent.
-        val lemmas = repository.lemmas(dictionary, wordLc)
+        val lemmas = formLemmas(dictionary, wordLc)
             .filter { !it.equals(wordLc, ignoreCase = true) }
             .groupBy { it.lowercase() }
             .map { (_, variants) -> variants.minBy { caseRank(it, word) } }
@@ -279,7 +279,7 @@ class DictionaryService(
                 // A spelling of the word itself, and the lemmas the pack lists for that spelling.
                 entries.filter { it !in own }.let { own += it }
                 if (own.isEmpty()) {
-                    for (lemma in repository.lemmas(dictionary, key)) {
+                    for (lemma in formLemmas(dictionary, key)) {
                         if (lemma !in inherited) inherited[lemma] = repository.entries(dictionary, lowercase(lemma, dictionary)).filter { it.word == lemma }
                     }
                 }
@@ -297,6 +297,15 @@ class DictionaryService(
             inherited.values.flatten().sortedWith(compareBy({ !it.common }, { posRank(it.pos) }, { -it.senses.size })).map { it.copy(isOwnEntry = false) }
         return DictionaryLookup(entries, lemmas)
     }
+
+    /**
+     * The lemmas [formLc] is a form of. A spelling that dozens of lemmas list is no inflection but a
+     * word their tables name beside the forms: the auxiliary of every German verb ("haben"), the
+     * pronouns of a Latvian conjugation, a Vietnamese classifier. Such links are left out; a kana
+     * reading or a toneless pinyin, which many words share, is a form on purpose.
+     */
+    private suspend fun formLemmas(dictionary: DictionaryId, formLc: String): List<String> =
+        repository.lemmas(dictionary, formLc).takeIf { it.size <= MAX_LEMMAS_PER_FORM || dictionary.sourceLanguage in SHARED_FORM_LANGUAGES }.orEmpty()
 
     private fun stateOf(id: DictionaryId): PackState = _packs.value.firstOrNull { it.pack.id == id }?.state ?: PackState.NotInstalled
 
@@ -320,6 +329,12 @@ class DictionaryService(
 
     /** Languages whose words carry their particles and endings joined on, so a word's beginning may be the dictionary word. */
     private val PARTICLE_LANGUAGES = setOf("ko")
+
+    /** More lemmas than any real inflection is shared by; tools/build_dictionary.py drops such forms too. */
+    private val MAX_LEMMAS_PER_FORM = 30
+
+    /** Languages whose packs file readings as forms, many words to one reading. */
+    private val SHARED_FORM_LANGUAGES = setOf("ja", "zh", "yue")
 
     /** Words looked up at most for one clicked word's spellings and dictionary forms. */
     private val MAX_LOOKUPS = 2000

@@ -29,7 +29,7 @@ class DictionaryServiceTest {
     private val enRu = pack.id
 
     /** Builds a gzip-compressed pack the way tools/build_dictionary.py lays it out. */
-    private fun buildPack(format: Int = DictionaryId.FORMAT): ByteArray {
+    private fun buildPack(format: Int = DictionaryId.FORMAT, extra: List<String> = emptyList()): ByteArray {
         val file = File.createTempFile("tayra-dict-src", ".sqlite").also { it.delete() }
         val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
         listOf(
@@ -51,7 +51,7 @@ class DictionaryServiceTest {
             """INSERT INTO forms VALUES ('cats', 'cat', 1), ('did', 'do', 0), ('done', 'do', 0), ('words', 'Word', 0), ('words', 'word', 0),
                 ('left', 'leave', 0), ('went', 'go', 0), ('went', 'wend', 0)""",
             "PRAGMA user_version = $format",
-        ).forEach { driver.execute(null, it, 0) }
+        ).plus(extra).forEach { driver.execute(null, it, 0) }
         driver.close()
         val packed = ByteArrayOutputStream()
         GZIPOutputStream(packed).use { it.write(file.readBytes()) }
@@ -117,6 +117,30 @@ class DictionaryServiceTest {
         assertEquals(PackState.NotInstalled, again.service.packs.value.first { it.pack == pack }.state)
         assertTrue(!File(directory, "en-ru.sqlite").exists())
         assertTrue(again.service.lookup(enRu, "cat").isEmpty)
+    }
+
+    /**
+     * A conjugation table names the auxiliary beside every verb's forms, and some packs took it for one
+     * of them: "have" a form of forty verbs. Its own entry is all a lookup shows, and a word with no
+     * entry of its own that forty lemmas list gets none of them, nor a parent.
+     */
+    @Test
+    fun aWordEveryTableNamesIsNoFormOfTheirs() = runTest {
+        val verbs = (1..40).map { "verb$it" }
+        val extra = listOf(
+            "INSERT INTO entries(word, word_lc, pos, ipa, senses) VALUES ('have', 'have', 'verb', NULL, '[{\"glosses\":[\"иметь\"]}]'), " +
+                verbs.joinToString(", ") { "('$it', '$it', 'verb', NULL, '[{\"glosses\":[\"$it\"]}]')" },
+            "INSERT INTO forms VALUES " + verbs.joinToString(", ") { "('have', '$it', 0), ('they', '$it', 0)" },
+        )
+        val env = Env(Files.createTempDirectory("tayra-dict").toFile(), buildPack(extra = extra))
+        env.service.refresh()
+        env.service.download(pack)
+
+        assertEquals(listOf("have"), env.service.lookup(enRu, "have").entries.map { it.word })
+        val they = env.service.lookup(enRu, "they")
+        assertTrue(they.isEmpty, they.toString())
+        assertNull(they.parentSuggestion)
+        assertEquals("cat", env.service.lookup(enRu, "cats").parentSuggestion, "an ordinary form keeps its lemma")
     }
 
     @Test
