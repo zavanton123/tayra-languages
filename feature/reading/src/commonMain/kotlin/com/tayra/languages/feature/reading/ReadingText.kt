@@ -487,8 +487,11 @@ private fun ParagraphText(
         val offset = result.getOffsetForPosition(position)
         val line = result.getLineForOffset(offset)
         if (position.x < result.getLineLeft(line) - 4 || position.x > result.getLineRight(line) + 4) return null
+        // The nearest caret comes after a letter whose far half the mouse is over (its right half, or
+        // its left in a right-to-left line): the letter under the mouse is the one before it then.
+        val under = if (offset > 0 && result.getLineForOffset(offset - 1) == line && result.getBoundingBox(offset - 1).let { position.x >= it.left && position.x <= it.right }) offset - 1 else offset
         val spans = currentSpans
-        val span = spans.firstOrNull { offset >= it.start && offset < it.end } ?: spans.lastOrNull { offset == it.end } ?: return null
+        val span = spans.firstOrNull { under >= it.start && under < it.end } ?: spans.lastOrNull { under == it.end } ?: return null
         return span.itemIndex
     }
 

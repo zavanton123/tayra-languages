@@ -669,6 +669,51 @@ class ReadingHoverTest {
         assertEquals("是", vm.state.value.items[vm.state.value.marked.single()].renderText)
     }
 
+    @Test
+    fun everyLetterOfAWordHoversIt() = assertEveryLetterHovers("Portuguese", "O lobo dorme na floresta e sonha com 3 coelhos.")
+
+    /** Right to left, the far half of a word's last letter is its left half; numbers and Latin words sit among the words. */
+    @Test
+    fun everyLetterOfAHebrewWordHoversIt() = assertEveryLetterHovers("Hebrew", "הילד קרא 3 ספרים על Python בבית הספר.")
+
+    @Test
+    fun everyLetterOfAnArabicWordHoversIt() = assertEveryLetterHovers("Arabic", "ذهب الولد إلى المدرسة في الصباح مع 3 كتب.")
+
+    /** The mouse over either edge or the middle of any letter of a word of [paragraph] hovers that word. */
+    private fun assertEveryLetterHovers(name: String, paragraph: String) {
+        val language = com.tayra.languages.core.domain.language.LanguageDefinitions.all.first { it.name == name }.language
+        val vm = runBlocking { reader(mainIsDefault = false, language = language, paragraph = paragraph, wordsPerPage = 100) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        val opening = paragraph.substring(0, 8)
+        rule.waitUntil(5_000) { rule.onAllNodesWithText(opening, substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitForIdle()
+        val node = rule.onNodeWithText(opening, substring = true)
+        val layouts = mutableListOf<TextLayoutResult>()
+        node.fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        val layout = layouts.single()
+        val text = layout.layoutInput.text.text
+        val items = vm.state.value.items
+        var offset = 0
+        val wrong = mutableListOf<String>()
+        items.forEachIndexed { index, item ->
+            val start = text.indexOf(item.renderText, offset).takeIf { it >= 0 } ?: return@forEachIndexed
+            offset = start + item.renderText.length
+            if (!item.isWord) return@forEachIndexed
+            for (c in start until offset) {
+                val box = layout.getBoundingBox(c)
+                if (box.width <= 0f) continue
+                for (f in listOf(0.05f, 0.5f, 0.95f)) {
+                    node.performMouseInput { moveTo(Offset(box.left + box.width * f, box.center.y + 6.dp.toPx())) }
+                    rule.waitForIdle()
+                    val hovered = vm.state.value.hovered
+                    if (hovered != index) wrong += "${item.renderText}[${c - start}]@$f got ${hovered?.let { items[it].renderText }}"
+                }
+            }
+        }
+        assertTrue(wrong.isEmpty(), wrong.toString())
+    }
+
     /** A phrase saved as one term joins the words it was read as; the words after it are still the ones under the mouse. */
     @Test
     fun theHoveredWordIsTheOneUnderTheMouseAfterAPhraseIsSaved() {
