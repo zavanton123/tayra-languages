@@ -136,7 +136,8 @@ class YomitanConverter : YomitanImporter {
             if (source == "zh") forms += reading.substringBefore(" (").lowercase().filter { !it.isWhitespace() } to word
         }
         if (senses.isEmpty()) return
-        val key = word to pos
+        // Japanese and Chinese words have an entry per reading (打つ read うつ and ぶつ), as Yomitan shows them.
+        val key = word to if (source in READING_LANGUAGES) "$pos\u0000${reading.orEmpty()}" else pos
         val existing = entries[key]
         if (existing == null) {
             entries[key] = Entry(word, pos, senses.distinct().toMutableList(), reading)
@@ -312,7 +313,7 @@ class YomitanConverter : YomitanImporter {
         out += "CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL)"
         out += "CREATE TABLE entries (id INTEGER NOT NULL PRIMARY KEY, word TEXT NOT NULL, word_lc TEXT NOT NULL, pos TEXT NOT NULL, ipa TEXT, senses TEXT NOT NULL)"
         out += "CREATE TABLE forms (form_lc TEXT NOT NULL, lemma TEXT NOT NULL, generated INTEGER NOT NULL DEFAULT 0)"
-        val rows = content.entries.values.sortedWith(compareBy({ it.word.lowercase() }, { it.word }, { it.pos }))
+        val rows = content.entries.values.sortedWith(compareBy({ it.word.lowercase() }, { it.word }, { it.pos }, { it.reading.orEmpty() }))
         rows.chunked(BATCH).forEachIndexed { batch, chunk ->
             out += "INSERT INTO entries(id, word, word_lc, pos, ipa, senses) VALUES " + chunk.mapIndexed { i, e ->
                 val ipa = content.ipa[e.word] ?: e.reading?.takeIf { source !in READING_LANGUAGES }
@@ -327,6 +328,10 @@ class YomitanConverter : YomitanImporter {
                 out += "INSERT INTO readings VALUES " + chunk.joinToString(", ") { (word, reading) -> "(${q(word)}, ${q(reading)})" }
             }
             out += "CREATE INDEX readings_word ON readings(word)"
+            out += "CREATE TABLE entry_readings (entry_id INTEGER NOT NULL PRIMARY KEY, reading TEXT NOT NULL)"
+            rows.withIndex().filter { it.value.reading != null }.chunked(BATCH).forEach { chunk ->
+                out += "INSERT INTO entry_readings VALUES " + chunk.joinToString(", ") { (i, e) -> "(${i + 1}, ${q(if (source == "zh") e.reading!!.substringBefore(" (") else e.reading!!)})" }
+            }
         }
         if (content.pitch.isNotEmpty()) {
             out += "CREATE TABLE pitch (word TEXT NOT NULL, reading TEXT NOT NULL, positions TEXT NOT NULL)"

@@ -2,6 +2,7 @@ package com.tayra.languages.core.data.repository
 
 import app.cash.sqldelight.async.coroutines.awaitAsList
 import com.tayra.languages.core.data.db.databaseDispatcher
+import com.tayra.languages.core.data.dictionary.DictionaryDatabase
 import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
 import com.tayra.languages.core.domain.dictionary.DictionaryEntry
 import com.tayra.languages.core.domain.dictionary.DictionaryExample
@@ -25,16 +26,22 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
 
     override suspend fun entries(dictionary: DictionaryId, wordLc: String): List<DictionaryEntry> = withContext(databaseDispatcher) {
         val db = databases.database(dictionary) ?: return@withContext emptyList()
-        db.dictionaryQueries.selectEntries(wordLc).awaitAsList().map { row ->
-            DictionaryEntry(row.word, row.pos, row.ipa, parseSenses(row.senses))
-        }
+        val rows = db.dictionaryQueries.selectEntries(wordLc).awaitAsList()
+        val readings = entryReadings(db, rows.map { it.id })
+        rows.map { row -> DictionaryEntry(row.word, row.pos, row.ipa, parseSenses(row.senses), reading = readings[row.id]) }
     }
 
     override suspend fun entries(dictionary: DictionaryId, wordsLc: Collection<String>): Map<String, List<DictionaryEntry>> = withContext(databaseDispatcher) {
         val db = databases.database(dictionary) ?: return@withContext emptyMap()
-        wordsLc.distinct().chunked(MAX_PARAMETERS).flatMap { chunk -> db.dictionaryQueries.selectEntriesIn(chunk).awaitAsList() }
-            .groupBy({ it.word_lc }, { row -> DictionaryEntry(row.word, row.pos, row.ipa, parseSenses(row.senses)) })
+        val rows = wordsLc.distinct().chunked(MAX_PARAMETERS).flatMap { chunk -> db.dictionaryQueries.selectEntriesIn(chunk).awaitAsList() }
+        val readings = entryReadings(db, rows.map { it.id })
+        rows.groupBy({ it.word_lc }, { row -> DictionaryEntry(row.word, row.pos, row.ipa, parseSenses(row.senses), reading = readings[row.id]) })
     }
+
+    /** Each entry's own reading, from the packs that keep one per entry; the others have no such table. */
+    private suspend fun entryReadings(db: DictionaryDatabase, ids: List<Long>): Map<Long, String> = runCatching {
+        ids.distinct().chunked(MAX_PARAMETERS).flatMap { db.dictionaryQueries.selectEntryReadings(it).awaitAsList() }.associate { it.entry_id to it.reading }
+    }.getOrElse { if (it is CancellationException) throw it else emptyMap() }
 
     override suspend fun words(dictionary: DictionaryId): Collection<String> = withContext(databaseDispatcher) {
         databases.database(dictionary)?.dictionaryQueries?.selectWords()?.awaitAsList().orEmpty()

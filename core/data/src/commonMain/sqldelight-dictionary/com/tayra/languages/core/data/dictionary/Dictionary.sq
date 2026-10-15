@@ -40,6 +40,12 @@ CREATE TABLE kanji (
     frequency INTEGER
 );
 
+-- The reading of each entry, where a word has entries for several readings (打つ read うつ and ぶつ).
+CREATE TABLE entry_readings (
+    entry_id INTEGER NOT NULL PRIMARY KEY,
+    reading TEXT NOT NULL
+);
+
 CREATE TABLE pitch (
     word TEXT NOT NULL,
     reading TEXT NOT NULL,
@@ -50,10 +56,10 @@ selectMeta:
 SELECT value FROM meta WHERE key = :key;
 
 selectEntries:
-SELECT word, pos, ipa, senses FROM entries WHERE word_lc = :wordLc ORDER BY id;
+SELECT id, word, pos, ipa, senses FROM entries WHERE word_lc = :wordLc ORDER BY id;
 
 selectEntriesIn:
-SELECT word_lc, word, pos, ipa, senses FROM entries WHERE word_lc IN ? ORDER BY id;
+SELECT id, word_lc, word, pos, ipa, senses FROM entries WHERE word_lc IN ? ORDER BY id;
 
 selectWords:
 SELECT word_lc FROM entries UNION SELECT form_lc FROM forms;
@@ -69,3 +75,6 @@ SELECT * FROM kanji WHERE character IN ?;
 
 selectPitch:
 SELECT word, reading, positions FROM pitch WHERE word IN ?;
+
+selectEntryReadings:
+SELECT entry_id, reading FROM entry_readings WHERE entry_id IN ?;

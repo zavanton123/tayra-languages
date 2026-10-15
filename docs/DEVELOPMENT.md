@@ -224,7 +224,9 @@ reads the zip with `ZipArchive`, whose entries are inflated per platform (`Infla
 term banks to entries and forms, wty's glosses lists, other dictionaries' glossary lists or list
 items or text as senses, and pitch accents and IPA from the term meta banks. The pack is written
 with `newSqliteFile` and stored by `DictionaryPackStore.installFile` as `imported-<key>`; the list
-of imported dictionaries is kept in the settings (`SettingsImportedDictionaryStore`). Lookups in a
+of imported dictionaries is kept in the settings (`SettingsImportedDictionaryStore`). Japanese and
+Chinese words get an entry per reading (打つ read うつ and ぶつ), each entry's reading in the optional
+`entry_readings` table; a word typed as one of its readings shows that reading's entries only. Lookups in a
 pair's pack add the entries of its imported dictionaries after their own, each named by its title.
 
 Android, iOS and desktop unpack a downloaded pack into app storage and open it read-only as a

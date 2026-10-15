@@ -127,8 +127,21 @@ class DictionaryService(
         val words = found.entries.map { it.word }
         val readings = repository.readings(dictionary, words)
         val pitch = if (dictionary.sourceLanguage == "ja") repository.pitch(dictionary, words) else emptyMap()
-        if (readings.isEmpty() && pitch.isEmpty()) return found
-        return found.copy(entries = found.entries.map { it.copy(reading = readings[it.word], pitch = pitch[it.word].orEmpty()) })
+        val read = found.entries.map { it.copy(reading = it.reading ?: readings[it.word], pitch = pitch[it.word].orEmpty()) }
+        return found.copy(entries = if (dictionary.sourceLanguage == "ja") byReading(read, text) else read)
+    }
+
+    /**
+     * A Japanese word typed as one of its readings ("ぶつ") shows the entries read that way, as Yomitan
+     * does, rather than every entry of the word it found (打つ, read うつ as well).
+     */
+    private fun byReading(entries: List<DictionaryEntry>, text: String): List<DictionaryEntry> {
+        // Typed as the lookup reads it: half-width kana and romaji as kana ("ｳﾂ", "utsu" as うつ).
+        val typed = Japanese.katakanaToHiragana(Japanese.alphabeticToKana(Japanese.halfWidthKanaToFullWidth(Japanese.fullWidthAlphanumericToNormal(text.trim()).lowercase())))
+        if (typed.isEmpty() || !typed.all { Japanese.isKana(it) || it == 'ー' }) return entries
+        fun readsAs(entry: DictionaryEntry) = entry.word == text.trim() ||
+            entry.reading?.split(", ")?.any { Japanese.katakanaToHiragana(it) == typed } == true
+        return if (entries.any(::readsAs)) entries.filter(::readsAs) else entries
     }
 
     override suspend fun kanji(dictionary: DictionaryId, text: String): List<KanjiInfo> {
