@@ -141,6 +141,14 @@ MAX_LEMMAS_PER_FORM = 6
 FORMS_PER_WORD = 40
 
 
+# Languages whose words are written in Chinese characters or kana.
+CJK = {"zh", "yue", "ja"}
+
+
+def is_cjk(c):
+    return "\u3040" <= c <= "\u30ff" or "\u3400" <= c <= "\u9fff" or "\uf900" <= c <= "\ufaff" or ord(c) >= 0x20000
+
+
 def is_wordlike(text):
     """Letters, hyphens and apostrophes; and the vowel signs and other marks of the scripts that write them apart."""
     return all(c.isalpha() or unicodedata.category(c)[0] == "M" or c in "-'ʻ\u200c" for c in text)
@@ -393,6 +401,31 @@ def load_dictionary(language):
         lemma = lower(language, lemma)
         if is_wordlike(lemma):
             lemmas[form_lc].append(lemma)
+    if language == "ja":
+        # The pack files a kanji word's kana reading as a form of it, so the reader finds the word written
+        # in kana ("ところ" for 所). A reading that is a word of its own is counted for itself: else "ます",
+        # the polite ending, would go to 増す "to increase".
+        try:
+            aliases = {(reading, lower(language, word)) for reading, word in db.execute("SELECT reading, word FROM readings")}
+        except sqlite3.OperationalError:
+            aliases = set()
+        for form_lc, of in lemmas.items():
+            if form_lc in pos:
+                lemmas[form_lc] = [lemma for lemma in of if (form_lc, lemma) not in aliases]
+    if language in ("zh", "yue"):
+        # A simplified spelling is a form of every traditional word written with it, variant and dialect
+        # spellings among them (我们 of 我們 and of 姆們); its count goes to the main word: the most common
+        # one, as wordfreq counts a traditional spelling under its simplified one, or else the one with the most senses.
+        senses = dict(db.execute("SELECT word_lc, SUM(json_array_length(senses)) FROM entries GROUP BY word_lc"))
+        try:
+            from wordfreq import word_frequency
+            weight = lambda lemma: (word_frequency(lemma, "zh"), senses.get(lemma, 0))  # noqa: E731
+        except ImportError:
+            weight = lambda lemma: (0, senses.get(lemma, 0))  # noqa: E731
+        for form_lc, of in lemmas.items():
+            if len(set(of)) > 1:
+                best = max(weight(lemma) for lemma in of)
+                lemmas[form_lc] = [lemma for lemma in of if weight(lemma) == best]
     for form_lc, of in lemmas.items():
         if len(set(of)) > MAX_LEMMAS_PER_FORM:
             lemmas[form_lc] = []
@@ -481,6 +514,9 @@ def build(language, source, size):
         return key
 
     def is_word(w):
+        # Chinese and Japanese text quotes Latin words, and Wikipedia's leaves markup; the dictionaries have some.
+        if language in CJK and not any(is_cjk(c) for c in w):
+            return False
         if w in guessed and w not in pos:
             return True
         kinds = pos.get(w, set()) & WORD_POS
@@ -489,8 +525,18 @@ def build(language, source, size):
         # Single letters are kept only as the little words they can be ("a", "e", "o").
         return len(w) > 1 or bool(kinds & {"prep", "conj", "article", "pron", "det"})
 
+    try:
+        from wordfreq import word_frequency
+    except ImportError:
+        word_frequency = None
+
     def count(word):
-        """How common a word's own spelling is; wordfreq has German ß words under ss ("heissen")."""
+        """
+        How common a word's own spelling is; wordfreq has German ß words under ss ("heissen"), and
+        Chinese under its simplified spelling, which it finds for a traditional one (我們 as 我们).
+        """
+        if language in ("zh", "yue") and word not in freq and word_frequency:
+            return word_frequency(word, "zh")
         return freq.get(word, 0) or (freq.get(word.replace("ß", "ss"), 0) if language == "de" else 0)
 
     def spellings(form):
@@ -514,6 +560,9 @@ def build(language, source, size):
                 word = guess(form)
                 return {word: 1.0} if word else {}
             candidates = [l for s in known for l in ([s] if s != form else []) + lemmas.get(s, [])]
+            # A Chinese or Japanese name ("日本", "美国") is filed with its poetic synonyms (神国, 金山) as their form.
+            if language in CJK and any(pos.get(l) and pos[l] <= {"name"} for l in [form] + candidates):
+                return {}
             others = list(dict.fromkeys(l for l in candidates if l != form and is_word(l)))
         # A form whose only entry is an interjection ("foi", "nossa") is counted for the word it is a form of.
         if is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"}):

@@ -1422,3 +1422,13 @@ OVERRIDES["pt"].update({"vir": ["vir"], "veio": ["vir"], "vinha": ["vir"], "vind
 # Portuguese's later additions apply on top of its first set.
 OVERRIDES["pt"] = {**PORTUGUESE_OVERRIDES["pt"], **OVERRIDES.get("pt", {})}
 EXCLUDE["pt"] = PORTUGUESE_EXCLUDE["pt"] | EXCLUDE.get("pt", set())
+
+# Japanese: the polite ending ます is a suffix to the dictionary, whose kana forms it shares with
+# 申す and 増す; its forms are its own.
+OVERRIDES.setdefault("ja", {}).update({"ます": ["ます"], "まし": ["ます"], "ませ": ["ます"], "ましょ": ["ます"]})
+# The tokenizer cuts "知ってる" into 知っ and てる, the spoken いる, whose reading 照る shares.
+OVERRIDES["ja"]["てる"] = ["いる"]
+# Little words the dictionary also files as the kana of other words: はい "yes" as 這う's stem,
+# おい "hey" as 追う's, でし as 弟子 rather than です, ところ as 野老 rather than 所.
+OVERRIDES["ja"].update({"はい": ["はい"], "おい": ["おい"], "しか": ["しか"], "よく": ["よく"], "でし": ["です"], "ところ": ["所"]})
+OVERRIDES["ja"].update({"うち": ["内"], "こういう": ["こういう"], "ほんと": ["本当"]})
