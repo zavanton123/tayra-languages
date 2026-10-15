@@ -37,13 +37,16 @@ class LanguageMorphology internal constructor(
     /**
      * Whether a dictionary word of part of speech [pos] (as the packs name it: "noun", "verb")
      * can be what a candidate in [conditions] deinflected to. A candidate in no condition matches
-     * any word; one that is, say, a verb only matches a verb.
+     * any word; one that is, say, a verb only matches a verb, of any of the rules' verb classes.
      */
     fun accepts(conditions: Int, pos: String): Boolean {
         if (conditions == 0) return true
         val transformer = transformer ?: return true
         val names = POS_CONDITIONS[pos] ?: listOf(pos)
-        return LanguageTransformer.conditionsMatch(conditions, transformer.dictionaryFormConditions(names))
+        // A part of speech the packs give more broadly than the rules ("verb" for Japanese's verb
+        // classes v1, v5...) stands for all of its kinds; one the rules do not know at all, for any.
+        val flags = transformer.conditions(names)
+        return flags == 0 || LanguageTransformer.conditionsMatch(conditions, flags)
     }
 
     private fun variants(text: String, processors: List<(String) -> List<String>>): List<String> {
@@ -66,7 +69,7 @@ class LanguageMorphology internal constructor(
 
         /** The packs' parts of speech, by the condition names Yomitan's rules give them. */
         val POS_CONDITIONS: Map<String, List<String>> = mapOf(
-            "noun" to listOf("n"), "name" to listOf("n"), "verb" to listOf("v"), "adj" to listOf("adj"),
+            "noun" to listOf("n"), "name" to listOf("n"), "verb" to listOf("v"), "adj" to listOf("adj", "adj-i"),
             "adv" to listOf("adv"), "pron" to listOf("pron"), "num" to listOf("num"), "aux" to listOf("aux"),
         )
     }

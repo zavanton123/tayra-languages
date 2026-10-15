@@ -78,4 +78,11 @@ class MorphologyLookupTest {
         assertEquals("가다", service.lookup(ko, "갔어요").parentSuggestion)
         assertTrue(service.lookup(ko, "없다").isEmpty)
     }
+
+    @Test
+    fun japaneseConjugationsFindTheirDictionaryForm() = runTest {
+        val (service, ja) = service("ja", listOf(Triple("使う", "verb", "to use"), Triple("短い", "adj", "short")))
+        assertEquals("使う", service.lookup(ja, "使って").parentSuggestion)
+        assertEquals("短い", service.lookup(ja, "短かった").parentSuggestion)
+    }
 }
