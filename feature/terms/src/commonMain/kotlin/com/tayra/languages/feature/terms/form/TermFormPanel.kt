@@ -54,6 +54,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.semantics.contentDescription
@@ -761,6 +762,15 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, o
                 Text(entry.pos, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 if (entry.ipa != null) Text(entry.ipa!!, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 SpeakButton(entry.word, languageCode, speaker, Modifier.size(32.dp))
+            }
+            if (entry.inflection.isNotEmpty()) {
+                // The inflections the language's rules undid to reach this word, as Yomitan lists them.
+                Text(
+                    entry.inflection.joinToString(" \u00b7 "),
+                    style = MaterialTheme.typography.labelLarge,
+                    color = colors.primary,
+                    modifier = Modifier.padding(start = 2.dp, top = 2.dp).testTag("inflection-${entry.word}"),
+                )
             }
             entry.senses.forEachIndexed { senseIndex, sense ->
                 val gloss = sense.glosses.joinToString("; ")

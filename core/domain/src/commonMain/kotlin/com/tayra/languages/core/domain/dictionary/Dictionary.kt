@@ -3,8 +3,19 @@ package com.tayra.languages.core.domain.dictionary
 /** One meaning of a dictionary entry, with usage labels such as "comparative" or "abbreviation". */
 data class DictionarySense(val glosses: List<String>, val tags: List<String> = emptyList())
 
-/** A headword in one part of speech; [isOwnEntry] is true when it is the looked-up word itself rather than a lemma of it. */
-data class DictionaryEntry(val word: String, val pos: String, val ipa: String?, val senses: List<DictionarySense>, val isOwnEntry: Boolean = true)
+/**
+ * A headword in one part of speech; [isOwnEntry] is true when it is the looked-up word itself rather than a lemma of it.
+ * [inflection] names the inflections that lead from this word to the looked-up one ("-て", "past"), in the
+ * order they apply, when the language's rules found it rather than the pack's forms.
+ */
+data class DictionaryEntry(
+    val word: String,
+    val pos: String,
+    val ipa: String?,
+    val senses: List<DictionarySense>,
+    val isOwnEntry: Boolean = true,
+    val inflection: List<String> = emptyList(),
+)
 
 /**
  * What the dictionary knows about a clicked word: entries for the word itself first, then for

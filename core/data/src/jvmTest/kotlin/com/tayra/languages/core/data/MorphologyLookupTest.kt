@@ -65,6 +65,7 @@ class MorphologyLookupTest {
         val walking = service.lookup(en, "walking")
         assertEquals(listOf("walk"), walking.lemmas)
         assertEquals("walk", walking.parentSuggestion)
+        assertEquals(listOf("ing"), walking.entries.single().inflection)
         assertTrue(!walking.entries.single().isOwnEntry)
         assertEquals("happy", service.lookup(en, "happiest").parentSuggestion)
         // A rule only leads to a word of the part of speech it makes: "walker" is not a form of an adjective.
@@ -82,7 +83,9 @@ class MorphologyLookupTest {
     @Test
     fun japaneseConjugationsFindTheirDictionaryForm() = runTest {
         val (service, ja) = service("ja", listOf(Triple("使う", "verb", "to use"), Triple("短い", "adj", "short")))
-        assertEquals("使う", service.lookup(ja, "使って").parentSuggestion)
+        val used = service.lookup(ja, "使って")
+        assertEquals("使う", used.parentSuggestion)
+        assertEquals(listOf("-て"), used.entries.single().inflection)
         assertEquals("短い", service.lookup(ja, "短かった").parentSuggestion)
     }
 }

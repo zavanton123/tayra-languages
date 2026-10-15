@@ -142,7 +142,11 @@ class DictionaryService(
                     }
                 }
             } else {
-                for ((lemma, group) in entries.groupBy { it.word }) if (lemma !in inherited) inherited[lemma] = group
+                // The candidates come nearest first, so a lemma keeps its shortest path of inflections.
+                val inflection = morphology.inflectionNames(candidate.transforms)
+                for ((lemma, group) in entries.groupBy { it.word }) {
+                    if (lemma !in inherited) inherited[lemma] = group.map { it.copy(inflection = inflection) }
+                }
             }
         }
         if (own.isEmpty() && inherited.values.all { it.isEmpty() }) return null

@@ -34,6 +34,13 @@ class LanguageMorphology internal constructor(
         return out.values.sortedBy { it.transforms.size }
     }
 
+    /** The display names of a candidate's transforms ("-て", "past"), from the dictionary word outwards, each once in a row. */
+    fun inflectionNames(transforms: List<String>): List<String> {
+        val transformer = transformer ?: return emptyList()
+        val names = transforms.map { transformer.transformName(it) }
+        return names.filterIndexed { i, name -> i == 0 || names[i - 1] != name }
+    }
+
     /**
      * Whether a dictionary word of part of speech [pos] (as the packs name it: "noun", "verb")
      * can be what a candidate in [conditions] deinflected to. A candidate in no condition matches
