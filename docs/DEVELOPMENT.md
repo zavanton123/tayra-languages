@@ -43,6 +43,16 @@ class on the app's own runtime and jars (see the end of `desktopApp/build.gradle
 `app.lock` in the data folder while it is open, which tells the command so. Both open the
 database in WAL mode with a busy timeout, so they can use it at the same time.
 
+## Japanese with MeCab on desktop
+
+On desktop, Japanese text is also cut with MeCab's analysis: `KuromojiBoundaries` (core/data jvmMain)
+runs Kuromoji, a Java port of MeCab with its IPADIC dictionary, and is registered as the Japanese
+`WordBoundaries` in `Segmenters`. It joins MeCab's pieces that cannot stand alone (auxiliaries,
+suffixes, helper verbs, the て and たり joining them) to the word before; `SegmentingParser` then
+never lets a word run past one of those words, and within one takes the longest run of pieces the
+lexicon knows (選んでください is 選んで and ください). Its dictionary loads on a thread of its own
+at start; until then, and on the other platforms, the lexicon alone cuts the text.
+
 ## Anki
 
 `AnkiExportService` builds cloze notes from terms and either packs them into an .apkg file

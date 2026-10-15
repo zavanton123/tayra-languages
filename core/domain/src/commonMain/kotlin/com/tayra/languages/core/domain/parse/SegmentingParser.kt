@@ -8,6 +8,10 @@ import com.tayra.languages.core.domain.model.Language
  * scanning from the left as Yomitan does when it looks text up. [matches] may accept more than
  * the lexicon's own words, such as an inflection of one. Letters no word covers become a word
  * each ([joinUnknown] false: every Chinese character is a word of its own) or one word together.
+ *
+ * Where the language has an analyser ([Segmenters]), a word never runs past the analyser's word
+ * ("かれはいしゃ" is "he is a doctor", not "he, dentist"), and within one it is the longest run of
+ * the analyser's pieces the lexicon knows, so 選んでください is 選んで and ください, both looked up.
  */
 open class SegmentingParser(
     override val name: String,
@@ -54,6 +58,7 @@ open class SegmentingParser(
     fun segment(run: String, lexicon: Lexicon? = Lexicons[code]): List<String> {
         val words = mutableListOf<String>()
         val unknown = StringBuilder()
+        Segmenters[code]?.of(run)?.let { return analysed(run, it, lexicon) }
         var i = 0
         while (i < run.length) {
             val end = lexicon?.let { longestMatch(run, i, it) }
@@ -71,6 +76,23 @@ open class SegmentingParser(
         }
         if (unknown.isNotEmpty()) words += unknown.toString()
         return words
+    }
+
+    private fun analysed(run: String, analysis: Analysis, lexicon: Lexicon?): List<String> {
+        val words = (analysis.words + 0 + run.length).filter { it in 0..run.length }.sorted()
+        val pieces = (analysis.pieces + words).filter { it in 0..run.length }.sorted()
+        val out = mutableListOf<String>()
+        for ((from, to) in words.zipWithNext()) {
+            var i = from
+            while (i < to) {
+                val ends = pieces.filter { it in (i + 1)..to }
+                // The longest run of pieces the lexicon knows, else the next piece by itself (a name, a word it lacks).
+                val end = ends.lastOrNull { end -> lexicon != null && matches(lowercase(run.substring(i, end)), lexicon) } ?: ends.first()
+                out += run.substring(i, end)
+                i = end
+            }
+        }
+        return out
     }
 
     private fun longestMatch(run: String, start: Int, lexicon: Lexicon): Int? {

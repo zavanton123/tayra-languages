@@ -64,6 +64,7 @@ kotlin {
             implementation(libs.ktor.client.okhttp)
             implementation(libs.jna)
             implementation(libs.jna.platform)
+            implementation(libs.kuromoji.ipadic)
         }
         iosMain.dependencies {
             implementation(libs.sqldelight.native.driver)

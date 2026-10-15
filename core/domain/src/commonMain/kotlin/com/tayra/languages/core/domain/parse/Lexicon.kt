@@ -32,3 +32,26 @@ object Lexicons {
         byLanguage = if (lexicon == null) byLanguage - code else byLanguage + (code to lexicon)
     }
 }
+
+/**
+ * How a morphological analyser (MeCab's way) cuts a stretch of letters: [pieces] are the offsets
+ * where its morphemes start, [words] those where a word starts, a word being a morpheme that can
+ * stand alone with the pieces after it that cannot (食べ・まし・た; 選ん・で・ください).
+ */
+class Analysis(val pieces: Set<Int>, val words: Set<Int>)
+
+/** A language's morphological analyser; null when it cannot tell, as before it has loaded. */
+fun interface WordBoundaries {
+    fun of(run: String): Analysis?
+}
+
+/** The analysers of the languages that have one on this platform, by code: Japanese on desktop. */
+object Segmenters {
+    private val byCode = HashMap<String, WordBoundaries>()
+
+    operator fun get(code: String): WordBoundaries? = byCode[code]
+
+    fun set(code: String, boundaries: WordBoundaries?) {
+        if (boundaries == null) byCode.remove(code) else byCode[code] = boundaries
+    }
+}
