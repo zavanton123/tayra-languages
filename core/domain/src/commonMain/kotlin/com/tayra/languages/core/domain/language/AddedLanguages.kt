@@ -117,6 +117,23 @@ object AddedLanguages {
         ),
     )
 
+    private fun kannada() = LanguageDefinition(
+        language = Language(
+            name = "Kannada",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Kannada", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.shabdkosh.com/search-dictionary?lc=kn&sl=kn&tl=en&e=[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=kn&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?।॥",
+            wordCharacters = "\\u0C80-\\u0CFF\\u200C\\u200D",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun maltese() = LanguageDefinition(
         language = Language(
             name = "Maltese",
@@ -269,6 +286,7 @@ object AddedLanguages {
             egyptianArabic(),
             hawaiian(),
             irish(),
+            kannada(),
             maltese(),
             manx(),
             mongolian(),

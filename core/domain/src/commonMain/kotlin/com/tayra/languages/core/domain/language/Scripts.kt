@@ -15,6 +15,7 @@ object Scripts {
         "ja" -> setOf(Script.KANA, Script.HAN)
         "ko" -> setOf(Script.HANGUL, Script.HAN)
         "hi", "mr", "ne", "sa" -> setOf(Script.DEVANAGARI)
+        "kn" -> setOf(Script.KANNADA)
         "th" -> setOf(Script.THAI)
         "ka" -> setOf(Script.GEORGIAN)
         "hy" -> setOf(Script.ARMENIAN)
@@ -34,6 +35,7 @@ object Scripts {
         in 0x600..0x6FF, in 0x750..0x77F -> Script.ARABIC
         in 0x700..0x74F -> Script.SYRIAC
         in 0x900..0x97F -> Script.DEVANAGARI
+        in 0xC80..0xCFF -> Script.KANNADA
         in 0xE00..0xE7F -> Script.THAI
         in 0x10A0..0x10FF -> Script.GEORGIAN
         in 0x3040..0x30FF -> Script.KANA
