@@ -40,6 +40,8 @@ internal object TextProcessors {
         "addSerboCroatianDiacritics" to { s -> serboCroatianDiacriticVariants(s) },
         // Italian
         "removeApostrophedWords" to { s -> listOf(s, italianElisions.replace(s, "")) },
+        // Ancient Greek
+        "convertLatinToGreek" to { s -> listOf(s, latinToGreek(s)) },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
@@ -87,4 +89,15 @@ internal object TextProcessors {
     private const val MAX_VARIANTS = 4096
 
     private val italianElisions = Regex("(l|dell|all|dall|nell|sull|coll|un|quest|quell|c|n)['\u2019]")
+
+    private val greekDigraphs = listOf("th" to "θ", "ph" to "φ", "ch" to "χ", "ps" to "ψ", "Th" to "Θ", "Ph" to "Φ", "Ch" to "Χ", "Ps" to "Ψ")
+    private val greekLetters = "abgdezēiklmnxoprstuōABGDEZĒIKLMNXOPRSTUŌ".zip("αβγδεζηικλμνξοπρστυωΑΒΓΔΕΖΗΙΚΛΜΝΞΟΠΡΣΤΥΩ")
+
+    /** Greek written in Latin letters ("logos") in Greek ones ("λογος"), as Yomitan transliterates it. */
+    internal fun latinToGreek(latin: String): String {
+        var result = Unicode.nfd(latin).replace(combiningMarks, "")
+        for ((digraph, greek) in greekDigraphs) result = result.replace(digraph, greek)
+        for ((letter, greek) in greekLetters) result = result.replace(letter, greek)
+        return if (result.endsWith('σ')) result.dropLast(1) + 'ς' else result
+    }
 }

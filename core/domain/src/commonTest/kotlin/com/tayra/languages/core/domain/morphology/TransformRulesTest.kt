@@ -18,4 +18,5 @@ class TransformRulesTest {
     @Test fun irish() = checkTransformCases(gaTransforms, gaTransformCases)
     @Test fun tagalog() = checkTransformCases(tlTransforms, tlTransformCases)
     @Test fun oldIrish() = checkDeinflections(sgaTransforms, "mbó" to "bó", "thech" to "tech")
+    @Test fun ancientGreek() = checkTransformCases(grcTransforms, grcTransformCases)
 }
