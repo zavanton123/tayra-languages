@@ -17,12 +17,17 @@ tools/build_dictionary.py writes.
 Downloads are cached in dictionaries/wty/. The script prints the pack's size and entry count;
 a pair whose pack would hold fewer than --min-entries entries is not written.
 
+--glossaries builds word finders, "<native>-<learning>-gloss" packs: the words of a native language
+with their translations into the learning one, from the translation tables of the native
+language's Wiktionary (wty's glossary dictionaries), each meaning's label kept as its tag.
+
 Built packs are listed in dictionaries/wty/built.json; --write-catalog writes that list into the
-app's catalog (DictionaryPackSizes.kt) as the packs of the dictionaries-v2 release, which is where
-the files are published.
+app's catalog (DictionaryPackSizes.kt) as the packs of the dictionaries-v2 release, and the word
+finders as those of the glossaries-v1 release, which is where the files are published.
 
 Usage: python3 tools/build_yomitan_dictionary.py --source ka --target en [--wty-source CODE] [--out FILE]
        python3 tools/build_yomitan_dictionary.py --pairs ka-en,ka-ru,...
+       python3 tools/build_yomitan_dictionary.py --glossaries ru-en,ru-de,...
        python3 tools/build_yomitan_dictionary.py --write-catalog [--include '.*-pl']
 """
 import argparse
@@ -45,6 +50,8 @@ BASE_URL = "https://huggingface.co/datasets/daxida/wty-release/resolve/main/late
 BUILT = os.path.join(CACHE, "built.json")
 CATALOG = os.path.join(ROOT, "core/domain/src/commonMain/kotlin/com/tayra/languages/core/domain/dictionary/DictionaryPackSizes.kt")
 RELEASE = "dictionaries-v2"
+# The word finders' release: the glossary packs, named "<native>-<learning>-gloss".
+GLOSSARY_RELEASE = "glossaries-v1"
 
 # The app's code where wty files the language under another: Serbo-Croatian covers Serbian,
 # Croatian and Bosnian, and Norwegian is the Bokmål dictionary.
@@ -502,6 +509,67 @@ def build(source, target, out_path, wty_source=None, min_entries=1000):
     return size
 
 
+def glossary_dictionary(native, learning):
+    return download(f"wty-{native}-{learning}-gloss.zip", f"{BASE_URL}/{native}/{learning}/wty-{native}-{learning}-gloss.zip")
+
+
+def read_glossary(path, native, learning):
+    """
+    The entries of a wty glossary dictionary: words of [native] with the [learning] words its
+    Wiktionary's translation tables give for each of their meanings, the meaning's label as a tag.
+    """
+    rows, tag_bank = banks(path, "term_bank")
+    clean = CLEANERS.get(learning, lambda word: word)
+    entries = {}
+    for term, _reading, def_tags, _rules, _score, definitions, *_ in rows:
+        word = term.strip()
+        tags = def_tags.split() if def_tags else []
+        pos_tag = next((t for t in tags if tag_bank.get(t, ("",))[0] == "partOfSpeech" or t in POS), None)
+        pos = POS.get(pos_tag, "unknown") if pos_tag else "unknown"
+        senses = []
+        for d in definitions:
+            if isinstance(d, str) and d.strip():
+                senses.append({"glosses": [clean(d.strip())]})
+            elif isinstance(d, dict) and d.get("type") == "structured-content":
+                label = " ".join(text_of(find_blocks(d.get("content"), "sense-label")).split())
+                for block in find_blocks(d.get("content"), "glossary"):
+                    words = [clean(" ".join(text_of(li.get("content")).split())) for li in block.get("content") or [] if isinstance(li, dict) and li.get("tag") == "li"]
+                    words = list(dict.fromkeys(w for w in words if w))
+                    if words:
+                        senses.append({"glosses": words} | ({"tags": [label]} if label else {}))
+        if not word or not senses:
+            continue
+        key = (word, pos)
+        if key in entries:
+            entries[key]["senses"].extend(s for s in senses if s not in entries[key]["senses"])
+        else:
+            entries[key] = {"word": word, "pos": pos, "senses": senses}
+    return entries
+
+
+def build_glossary(native, learning, out_path, min_entries=100):
+    """A word finder: [native] words with their [learning] translations, from wty's glossary dictionary."""
+    wty = WTY_SOURCES.get(learning, learning)
+    path = glossary_dictionary(native, wty)
+    if path is None:
+        print(f"{native}-{learning}-gloss: wty has no {native}-{wty} glossary", file=sys.stderr)
+        return None
+    entries = read_glossary(path, native, learning)
+    if len(entries) < min_entries:
+        print(f"{native}-{learning}-gloss: only {len(entries):,} entries, not written", file=sys.stderr)
+        return None
+    db, sqlite_path = open_output(out_path)
+    rows = sorted(entries.values(), key=lambda e: (e["word"].lower(), e["word"], e["pos"]))
+    db.executemany(
+        "INSERT INTO entries(id, word, word_lc, pos, ipa, senses) VALUES (?, ?, ?, ?, NULL, ?)",
+        ((i + 1, e["word"], lowercase(e["word"], native), e["pos"], json.dumps(e["senses"], ensure_ascii=False, separators=(",", ":"))) for i, e in enumerate(rows)),
+    )
+    finish_output(db, sqlite_path, out_path, native, learning, len(rows), 0, f"wiktionary-to-yomitan wty-{native}-{wty}-gloss (Wiktionary via kaikki.org)")
+    size = os.path.getsize(out_path)
+    print(f"{native}-{learning}-gloss: {len(rows):,} entries, {size:,} bytes", file=sys.stderr)
+    return size
+
+
 def record(name, size):
     built = json.load(open(BUILT)) if os.path.exists(BUILT) else {}
     if size:
@@ -514,22 +582,26 @@ def record(name, size):
 
 def write_catalog(include=None):
     """
-    Writes the packs built so far into the dictionaries-v2 block of the app's catalog: those whose
-    name matches [include], when given, besides the ones the block already lists.
+    Writes the packs built so far into the app's catalog, the word dictionaries into the
+    dictionaries-v2 block and the glossaries into the glossaries-v1 one: those whose name matches
+    [include], when given, besides the ones the blocks already list.
     """
     built = json.load(open(BUILT)) if os.path.exists(BUILT) else {}
     text = open(CATALOG).read()
-    listed = set(re.findall(r'"([a-z]+-[a-z]+)" to', text[text.index(f'"{RELEASE}"'):]))
-    built = {name: size for name, size in built.items() if name in listed or include is None or re.fullmatch(include, name)}
-    items = [f'"{name}" to {size:_}L' for name, size in sorted(built.items())]
-    lines = ["        " + ", ".join(items[i:i + 5]) + "," for i in range(0, len(items), 5)]
-    block = re.compile(r'(    "' + RELEASE + r'" to mapOf\(\n)(.*?)(\n    \),)', re.S)
-    if not block.search(text):
-        sys.exit(f"no {RELEASE} block in {CATALOG}")
-    text = block.sub(lambda m: m.group(1) + "\n".join(lines) + m.group(3), text)
+    for release, glossaries in ((RELEASE, False), (GLOSSARY_RELEASE, True)):
+        block = re.compile(r'(    "' + release + r'" to mapOf\(\n)(.*?)(\n    \),)', re.S)
+        found = block.search(text)
+        if not found:
+            sys.exit(f"no {release} block in {CATALOG}")
+        listed = set(re.findall(r'"([a-z]+-[a-z]+(?:-gloss)?)" to', found.group(2)))
+        sizes = {name: size for name, size in built.items() if name.endswith("-gloss") == glossaries
+                 and (name in listed or include is None or re.fullmatch(include, name))}
+        items = [f'"{name}" to {size:_}L' for name, size in sorted(sizes.items())]
+        lines = ["        " + ", ".join(items[i:i + 5]) + "," for i in range(0, len(items), 5)]
+        text = block.sub(lambda m: m.group(1) + "\n".join(lines) + m.group(3), text)
+        print(f"wrote {len(items)} packs into the {release} block", file=sys.stderr)
     with open(CATALOG, "w") as f:
         f.write(text)
-    print(f"wrote {len(items)} packs into {CATALOG}", file=sys.stderr)
 
 
 def main():
@@ -540,11 +612,17 @@ def main():
     parser.add_argument("--wty-source", help="wty's code for the source language when it differs")
     parser.add_argument("--out", help="output file (default dictionaries/<source>-<target>.sqlite.gzip)")
     parser.add_argument("--min-entries", type=int, default=1000)
+    parser.add_argument("--glossaries", help="comma-separated native-learning pairs to build word finders for, from wty's glossaries")
     parser.add_argument("--write-catalog", action="store_true", help="write the built packs into the app's catalog")
     parser.add_argument("--include", help="with --write-catalog, add only the built packs whose name matches this regex")
     args = parser.parse_args()
     if args.write_catalog:
         write_catalog(args.include)
+        return
+    if args.glossaries:
+        for native, learning in (p.split("-", 1) for p in args.glossaries.split(",")):
+            name = f"{native}-{learning}-gloss"
+            record(name, build_glossary(native, learning, os.path.join(ROOT, "dictionaries", f"{name}.sqlite.gzip")))
         return
     pairs = [p.split("-", 1) for p in args.pairs.split(",")] if args.pairs else [(args.source, args.target)]
     if not all(s and t for s, t in pairs):
