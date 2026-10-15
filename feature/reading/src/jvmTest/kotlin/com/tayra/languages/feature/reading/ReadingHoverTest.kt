@@ -133,6 +133,8 @@ class ReadingHoverTest {
         suggest: suspend (String) -> String? = { "<$it>" },
         /** How the book's paragraphs (one per [pages]) are cut into pages: one each by default. */
         wordsPerPage: Int = 5,
+        language: Language = Language(name = "Portuguese"),
+        paragraph: String = "O lobo dorme na floresta.",
     ): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() }))
@@ -144,8 +146,8 @@ class ReadingHoverTest {
         val termService = TermService(terms, languages).also { this.termService = it }
         val readingService = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), termService)
         val bookService = BookService(books, languages)
-        languageId = languages.save(Language(name = "Portuguese"))
-        val bookId = bookService.create(BookDraft(languageId = languageId, title = "T", text = List(pages) { "O lobo dorme na floresta." }.joinToString("\n\n"), wordsPerPage = wordsPerPage))
+        languageId = languages.save(language)
+        val bookId = bookService.create(BookDraft(languageId = languageId, title = "T", text = List(pages) { paragraph }.joinToString("\n\n"), wordsPerPage = wordsPerPage))
         val engine = object : TermTranslationProvider {
             override val name = "Fake"
             override suspend fun suggestTranslation(text: String, language: Language): String? = suggest(text)
@@ -614,6 +616,57 @@ class ReadingHoverTest {
         val card = rule.onNodeWithText("<floresta>").fetchSemanticsNode().boundsInWindow
         val words = paragraph.fetchSemanticsNode().boundsInWindow
         assertTrue(card.bottom <= words.top + box.top + 6.dp.value * 2 + 1, "the card should sit above the word")
+    }
+
+    /**
+     * Every Chinese word is the one the mouse is over, before and after a word is saved that joins
+     * the characters it was read as (我 and 们 becoming 我们) and moves the words after it.
+     */
+    @Test
+    fun theHoveredChineseWordIsTheOneUnderTheMouse() {
+        val mandarin = com.tayra.languages.core.domain.language.LanguageDefinitions.all.first { it.name == "Mandarin Chinese" }.language
+        val vm = runBlocking { reader(mainIsDefault = false, language = mandarin, paragraph = "我们是学生。他们也是学生，我们都喜欢读书。", wordsPerPage = 100) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("我们是学生", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        fun check(stage: String) {
+            rule.waitForIdle()
+            val paragraph = rule.onNodeWithText("我们是学生", substring = true)
+            val layouts = mutableListOf<TextLayoutResult>()
+            paragraph.fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+            val layout = layouts.single()
+            val text = layout.layoutInput.text.text
+            val items = vm.state.value.items
+            var offset = 0
+            val wrong = mutableListOf<String>()
+            items.forEachIndexed { index, item ->
+                val start = text.indexOf(item.renderText, offset).takeIf { it >= 0 } ?: return@forEachIndexed
+                offset = start + item.renderText.length
+                if (!item.isWord) return@forEachIndexed
+                val box = layout.getBoundingBox(start)
+                paragraph.performMouseInput { moveTo(Offset(box.center.x, box.center.y + 6.dp.toPx())) }
+                rule.waitForIdle()
+                val hovered = vm.state.value.hovered
+                if (hovered != index) wrong += "${item.renderText}@$index got ${hovered?.let { items[it].renderText }}@$hovered"
+            }
+            paragraph.performMouseInput { moveTo(Offset(-50f, -50f)) }
+            assertTrue(wrong.isEmpty(), "$stage: $wrong")
+        }
+        check("as read")
+        runBlocking {
+            termService.save(com.tayra.languages.core.domain.model.TermDraft(languageId = languageId, text = "我们", originalText = "", status = TermStatus.NEW_1))
+        }
+        vm.refresh()
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "我们" } }
+        check("after saving 我们")
+        // A click picks the word under it too.
+        val paragraph = rule.onNodeWithText("我们是学生", substring = true)
+        val layouts = mutableListOf<TextLayoutResult>()
+        paragraph.fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        val box = layouts.single().getBoundingBox(layouts.single().layoutInput.text.text.indexOf("是"))
+        paragraph.performMouseInput { click(Offset(box.center.x, box.center.y + 6.dp.toPx())) }
+        rule.waitUntil(5_000) { vm.state.value.marked.isNotEmpty() }
+        assertEquals("是", vm.state.value.items[vm.state.value.marked.single()].renderText)
     }
 
     @Test

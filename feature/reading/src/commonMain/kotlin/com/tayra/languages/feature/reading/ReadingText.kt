@@ -64,6 +64,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
@@ -457,6 +458,9 @@ private fun ParagraphText(
     toneColors: Boolean = false,
 ) {
     val spans = remember(items) { mutableListOf<Span>() }
+    // The pointer handlers live as long as the paragraph, but its words are laid out anew when they
+    // regroup (a Chinese word saved joins the characters it was read as): they read the spans of now.
+    val currentSpans by rememberUpdatedState(spans)
     val rubySize = 18 * fontScale * RUBY_SCALE
     val measurer = rememberTextMeasurer()
     val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint) {
@@ -483,6 +487,7 @@ private fun ParagraphText(
         val offset = result.getOffsetForPosition(position)
         val line = result.getLineForOffset(offset)
         if (position.x < result.getLineLeft(line) - 4 || position.x > result.getLineRight(line) + 4) return null
+        val spans = currentSpans
         val span = spans.firstOrNull { offset >= it.start && offset < it.end } ?: spans.lastOrNull { offset == it.end } ?: return null
         return span.itemIndex
     }
