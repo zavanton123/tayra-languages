@@ -7,6 +7,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryEntry
 import com.tayra.languages.core.domain.dictionary.DictionaryExample
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionarySense
+import com.tayra.languages.core.domain.dictionary.PitchAccent
 import com.tayra.languages.core.domain.repository.DictionaryRepository
 import kotlinx.coroutines.withContext
 import kotlin.coroutines.cancellation.CancellationException
@@ -46,6 +47,15 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
         }.getOrElse { if (it is CancellationException) throw it else emptyMap() }
     }
 
+    override suspend fun pitch(dictionary: DictionaryId, words: Collection<String>): Map<String, List<PitchAccent>> = withContext(databaseDispatcher) {
+        val db = databases.database(dictionary) ?: return@withContext emptyMap()
+        runCatching {
+            words.distinct().chunked(MAX_PARAMETERS).flatMap { db.dictionaryQueries.selectPitch(it).awaitAsList() }
+                .groupBy({ it.word }, { row -> parseDownsteps(row.positions).map { PitchAccent(row.reading, it) } })
+                .mapValues { (_, accents) -> accents.flatten().distinct() }
+        }.getOrElse { if (it is CancellationException) throw it else emptyMap() }
+    }
+
     override suspend fun lemmas(dictionary: DictionaryId, formLc: String): List<String> = withContext(databaseDispatcher) {
         databases.database(dictionary)?.dictionaryQueries?.selectLemmas(formLc)?.awaitAsList().orEmpty()
     }
@@ -59,6 +69,10 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
         const val MAX_PARAMETERS = 500
         val json = Json { ignoreUnknownKeys = true }
         val senseListSerializer = ListSerializer(StoredSense.serializer())
+
+        /** Kanjium's positions, "0,2" or with the part of speech each applies to: "(副)1,(名;形動)0". */
+        fun parseDownsteps(value: String): List<Int> =
+            value.replace(Regex("\\([^)]*\\)"), "").split(',').mapNotNull { it.trim().toIntOrNull() }.distinct()
 
         fun parseSenses(value: String): List<DictionarySense> =
             json.decodeFromString(senseListSerializer, value).map { sense ->

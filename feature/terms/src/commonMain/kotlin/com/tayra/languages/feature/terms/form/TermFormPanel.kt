@@ -753,6 +753,9 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
 /** The pack's language pair, "Spanish → English", with the names in the interface language. */
 private fun packTitle(status: PackStatus): String = status.pack.title.split(" \u2192 ").joinToString(" \u2192 ") { tr(it) }
 
+/** Parts of speech whose downstep moves as they inflect, so Japanese calls their accented pattern kifuku. */
+private val VERB_OR_ADJECTIVE = setOf("verb", "adj")
+
 /** Meanings from the offline dictionary; the speaker reads a headword aloud, the plus adds a meaning to the translation. */
 @Composable
 private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, onAdd: (String) -> Unit) {
@@ -767,6 +770,9 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, o
                 Text(entry.pos, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 if (entry.ipa != null) Text(entry.ipa!!, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 SpeakButton(entry.word, languageCode, speaker, Modifier.size(32.dp))
+            }
+            if (entry.pitch.isNotEmpty()) {
+                PitchAccents(entry.pitch, isVerbOrAdjective = entry.pos in VERB_OR_ADJECTIVE, modifier = Modifier.padding(start = 2.dp, top = 2.dp, bottom = 2.dp))
             }
             if (entry.inflection.isNotEmpty()) {
                 // The inflections the language's rules undid to reach this word, as Yomitan lists them.

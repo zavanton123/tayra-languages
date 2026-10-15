@@ -64,8 +64,11 @@ class DictionaryService(
     override suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup {
         val found = find(dictionary, text)
         if (found.isEmpty || dictionary.sourceLanguage !in READING_LANGUAGES) return found
-        val readings = repository.readings(dictionary, found.entries.map { it.word })
-        return if (readings.isEmpty()) found else found.copy(entries = found.entries.map { it.copy(reading = readings[it.word]) })
+        val words = found.entries.map { it.word }
+        val readings = repository.readings(dictionary, words)
+        val pitch = if (dictionary.sourceLanguage == "ja") repository.pitch(dictionary, words) else emptyMap()
+        if (readings.isEmpty() && pitch.isEmpty()) return found
+        return found.copy(entries = found.entries.map { it.copy(reading = readings[it.word], pitch = pitch[it.word].orEmpty()) })
     }
 
     private suspend fun find(dictionary: DictionaryId, text: String): DictionaryLookup {

@@ -2,6 +2,7 @@ package com.tayra.languages.core.domain.repository
 
 import com.tayra.languages.core.domain.dictionary.DictionaryEntry
 import com.tayra.languages.core.domain.dictionary.DictionaryId
+import com.tayra.languages.core.domain.dictionary.PitchAccent
 
 /** Read access to the installed dictionary databases. */
 interface DictionaryRepository {
@@ -18,6 +19,9 @@ interface DictionaryRepository {
 
     /** The readings (kana, pinyin) the pack gives these headwords, by headword; empty for a pack without readings. */
     suspend fun readings(dictionary: DictionaryId, words: Collection<String>): Map<String, String> = emptyMap()
+
+    /** The Japanese pitch accents the pack gives these headwords, by headword; empty for a pack without them. */
+    suspend fun pitch(dictionary: DictionaryId, words: Collection<String>): Map<String, List<PitchAccent>> = emptyMap()
 
     /** Closes the dictionary so its file can be replaced or deleted. */
     suspend fun close(dictionary: DictionaryId)

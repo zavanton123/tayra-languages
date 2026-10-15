@@ -5,6 +5,7 @@ import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
 import com.tayra.languages.core.data.dictionary.DictionaryDownloader
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
+import com.tayra.languages.core.domain.dictionary.PitchAccent
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.service.DictionaryService
@@ -119,6 +120,22 @@ class MorphologyLookupTest {
         // A pack without the table still answers, without readings.
         val (plain, zh) = service("zh", listOf(Triple("你好", "intj", "hello")))
         assertEquals(null, plain.lookup(zh, "你好").entries.single().reading)
+    }
+
+    @Test
+    fun japaneseEntriesCarryTheirPitchAccents() = runTest {
+        val pitch = listOf(
+            "CREATE TABLE pitch (word TEXT NOT NULL, reading TEXT NOT NULL, positions TEXT NOT NULL)",
+            "INSERT INTO pitch VALUES ('箸', 'はし', '1'), ('日本', 'にほん', '2'), ('日本', 'にっぽん', '3'), ('一寸', 'ちょっと', '(副)1,(名;形動)0')",
+        )
+        val entries = listOf(Triple("箸", "noun", "chopsticks"), Triple("日本", "name", "Japan"), Triple("一寸", "adv", "a little"))
+        val (service, ja) = service("ja", entries, extra = pitch)
+        assertEquals(listOf(PitchAccent("はし", 1)), service.lookup(ja, "箸").entries.single().pitch)
+        assertEquals(listOf(PitchAccent("にほん", 2), PitchAccent("にっぽん", 3)), service.lookup(ja, "日本").entries.single().pitch)
+        val accents = service.lookup(ja, "一寸").entries.single().pitch
+        assertEquals(listOf(1, 0), accents.map { it.downstep }, "the parts of speech Kanjium marks are dropped")
+        assertEquals(listOf("ちょ", "っ", "と"), accents.first().morae)
+        assertEquals(listOf("atamadaka", "heiban"), accents.map { it.category(isVerbOrAdjective = false) })
     }
 
     @Test

@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.dictionary
 
+import com.tayra.languages.core.domain.morphology.Japanese
+
 /** One meaning of a dictionary entry, with usage labels such as "comparative" or "abbreviation" and the dictionary's example sentences. */
 data class DictionarySense(val glosses: List<String>, val tags: List<String> = emptyList(), val examples: List<DictionaryExample> = emptyList())
 
@@ -20,7 +22,23 @@ data class DictionaryEntry(
     val inflection: List<String> = emptyList(),
     /** How the word is read, for languages whose script does not say it: kana for Japanese, pinyin for Chinese. */
     val reading: String? = null,
+    /** The word's Japanese pitch accents, one per reading and accent. */
+    val pitch: List<PitchAccent> = emptyList(),
 )
+
+/**
+ * A Japanese pitch accent: the reading and the mora after which the pitch falls (its downstep),
+ * 0 when it never falls (heiban), as Kanjium numbers them.
+ */
+data class PitchAccent(val reading: String, val downstep: Int) {
+    /** The reading's morae: a small kana belongs to the mora before it. */
+    val morae: List<String> get() = Japanese.morae(reading)
+
+    fun isHigh(mora: Int): Boolean = Japanese.isMoraPitchHigh(mora, downstep)
+
+    /** The pattern's name (heiban, atamadaka, nakadaka, odaka, kifuku), or null when it has none. */
+    fun category(isVerbOrAdjective: Boolean): String? = Japanese.pitchCategory(reading, downstep, isVerbOrAdjective)
+}
 
 /**
  * What the dictionary knows about a clicked word: entries for the word itself first, then for
