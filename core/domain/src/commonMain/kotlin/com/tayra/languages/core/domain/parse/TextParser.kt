@@ -36,13 +36,17 @@ internal fun applyCharacterSubstitutions(text: String, substitutions: String): S
 }
 
 /**
- * Word character patterns written for PHP regexes could contain `\x{0600}`; convert
- * these to the `\u0600` form understood by all Kotlin regex engines.
+ * Word character patterns written for PHP regexes could contain `\x{0600}`, and those written for
+ * Python `\U00015C00`; convert these to the `\u0600` form understood by all Kotlin regex engines, or
+ * to the character itself beyond the Basic Multilingual Plane, which `\u` cannot reach.
  */
 internal fun normalizeRegexEscapes(pattern: String): String =
-    Regex("""\\x\{([0-9A-Fa-f]+)\}""").replace(pattern) { match ->
-        val hex = match.groupValues[1].padStart(4, '0')
-        "\\u$hex"
+    Regex("""\\x\{([0-9A-Fa-f]+)\}|\\U([0-9A-Fa-f]{8})""").replace(pattern) { match ->
+        val code = (match.groupValues[1].ifEmpty { match.groupValues[2] }).toInt(16)
+        if (code <= 0xFFFF) "\\u" + code.toString(16).padStart(4, '0') else {
+            val offset = code - 0x10000
+            charArrayOf((0xD800 + (offset shr 10)).toChar(), (0xDC00 + (offset and 0x3FF)).toChar()).concatToString()
+        }
     }
 
 /** Escapes a character for use inside a regex character class, portably across engines. */

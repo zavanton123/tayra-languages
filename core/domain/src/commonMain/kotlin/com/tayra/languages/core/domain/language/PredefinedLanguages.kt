@@ -1517,7 +1517,7 @@ object PredefinedLanguages {
             characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
             regexpSplitSentences = "།༎",
             exceptionsSplitSentences = "[A-Z].|ངས.|བློ་ཡུལ་དུ་མེད་པའི་བྱུར་པོ་ཆེ་ཞིག་བྱུང་འདུག.|མི་རྐྱང་ངས.|མེ་ཏོག་གི་དྲི་བསུང་རྒྱང་རིང་དུ་ཁ་བ།.|མེ་ཏོག་ལྟ་བུའི་ཕྲུ་གུ་དག་འོད་ཟེར་གྱི་གཤོག་ཐོགས་བཞིན་མཁའ་རུ་ལྡིང་དུས.|རོ་དྲུག་གི་ཡ་གྱལ་ཏེ་དོམ་མཁྲིས་ལྟ་བུའི་རྫས་གང་ཁར་རེག་པའི་ཚེ་ཁ་ཡི་དྲི་སྦྱང་ཞིང་ཡི་ག་མེད་པར་གྱུར་པའི་བྲོ་བ་ཞིག.|ལ་ལ་གཉིད་ལོག་འགའ་ཞིག་བློ་རྩེ་གཅིག་གིས་སློབ་ལ་འབད།།.|뭐.",
-            wordCharacters = "u\\0F00\\u0F15-\\u0F39\\u0F3E-\\u0FFF",
+            wordCharacters = "\\u0F00\\u0F15-\\u0F39\\u0F3E-\\u0FFF",
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",

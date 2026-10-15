@@ -1,0 +1,4 @@
+-- Tibetan's word characters began with a typo, "u\0F00" for "ༀ", that no text could be parsed with.
+-- The backslashes are char(92): SQLDelight would read a backslash and u in a string as the character they name.
+UPDATE languages SET word_characters = char(92) || 'u0F00' || substr(word_characters, 7)
+WHERE word_characters = 'u' || char(92) || '0F00' || char(92) || 'u0F15-' || char(92) || 'u0F39' || char(92) || 'u0F3E-' || char(92) || 'u0FFF';
