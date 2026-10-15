@@ -669,6 +669,37 @@ class ReadingHoverTest {
         assertEquals("是", vm.state.value.items[vm.state.value.marked.single()].renderText)
     }
 
+    /** A phrase saved as one term joins the words it was read as; the words after it are still the ones under the mouse. */
+    @Test
+    fun theHoveredWordIsTheOneUnderTheMouseAfterAPhraseIsSaved() {
+        val vm = runBlocking { reader(mainIsDefault = false, paragraph = "O lobo dorme na floresta e o lobo sonha.", wordsPerPage = 100) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitForIdle()
+        // The reader is in use before the phrase is saved: its pointer handlers are already running.
+        rule.onNodeWithText("lobo dorme", substring = true).performMouseInput { moveTo(center) }
+        rule.waitForIdle()
+        runBlocking { termService.save(com.tayra.languages.core.domain.model.TermDraft(languageId = languageId, text = "o lobo", originalText = "", status = TermStatus.NEW_1)) }
+        vm.refresh()
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "O lobo" } }
+        rule.waitForIdle()
+        val paragraph = rule.onNodeWithText("dorme na floresta", substring = true)
+        val layouts = mutableListOf<TextLayoutResult>()
+        paragraph.fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        val layout = layouts.single()
+        val text = layout.layoutInput.text.text
+        val wrong = mutableListOf<String>()
+        for (word in listOf("dorme", "floresta", "sonha")) {
+            val box = layout.getBoundingBox(text.indexOf(word) + 1)
+            paragraph.performMouseInput { moveTo(Offset(box.center.x, box.center.y + 6.dp.toPx())) }
+            rule.waitForIdle()
+            val hovered = vm.state.value.hovered?.let { vm.state.value.items[it].renderText }
+            if (hovered != word) wrong += "$word got $hovered"
+        }
+        assertTrue(wrong.isEmpty(), wrong.toString())
+    }
+
     @Test
     fun noCardDuringADragSelection() = runBlocking {
         val vm = reader()
