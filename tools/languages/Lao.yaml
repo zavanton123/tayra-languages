@@ -1,0 +1,17 @@
+name: Lao
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Lao"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/lo/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=lo&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?"
+word_chars: "\\u0E81-\\u0EDF"
+right_to_left: false
+show_romanization: true
+parser_type: lao

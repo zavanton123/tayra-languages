@@ -56,7 +56,7 @@ LANGUAGES = [
     "it", "la", "lt", "lv", "mk", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "tr",
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn",
-    "th",
+    "th", "lo",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks

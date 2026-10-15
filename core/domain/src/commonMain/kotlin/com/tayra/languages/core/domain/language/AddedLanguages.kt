@@ -134,6 +134,23 @@ object AddedLanguages {
         ),
     )
 
+    private fun lao() = LanguageDefinition(
+        language = Language(
+            name = "Lao",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Lao", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/lo/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=lo&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            wordCharacters = "\\u0E81-\\u0EDF",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "lao",
+        ),
+    )
+
     private fun maltese() = LanguageDefinition(
         language = Language(
             name = "Maltese",
@@ -287,6 +304,7 @@ object AddedLanguages {
             hawaiian(),
             irish(),
             kannada(),
+            lao(),
             maltese(),
             manx(),
             mongolian(),

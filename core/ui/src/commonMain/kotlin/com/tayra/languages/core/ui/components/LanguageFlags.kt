@@ -63,6 +63,7 @@ import tayra_languages.core.ui.generated.resources.flag_ke
 import tayra_languages.core.ui.generated.resources.flag_kh
 import tayra_languages.core.ui.generated.resources.flag_kr
 import tayra_languages.core.ui.generated.resources.flag_kz
+import tayra_languages.core.ui.generated.resources.flag_la
 import tayra_languages.core.ui.generated.resources.flag_lt
 import tayra_languages.core.ui.generated.resources.flag_lv
 import tayra_languages.core.ui.generated.resources.flag_mk

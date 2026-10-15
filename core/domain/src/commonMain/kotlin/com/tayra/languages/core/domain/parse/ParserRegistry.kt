@@ -11,6 +11,7 @@ object ParserRegistry {
         "turkish" to TurkishParser(),
         "classicalchinese" to ClassicalChineseParser(),
         "thai" to SegmentingParser("Thai", "th", joinUnknown = true),
+        "lao" to SegmentingParser("Lao", "lo", joinUnknown = true),
     )
 
     /** Parser types with their display names. */

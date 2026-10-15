@@ -33,6 +33,7 @@ object LanguageCodes {
         "yiddish" to "yi",
         "assyrian" to "aii",
         "kannada" to "kn",
+        "lao" to "lo",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -60,6 +61,7 @@ object LanguageCodes {
         "yi" to "yid",
         "aii" to "aii",
         "kn" to "kan",
+        "lo" to "lao",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */
