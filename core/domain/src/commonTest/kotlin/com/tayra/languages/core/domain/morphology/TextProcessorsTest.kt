@@ -64,4 +64,17 @@ class TextProcessorsTest {
         assertTrue("hòa" in spellings("vi", "hoà"))
         assertTrue("hoà" in spellings("vi", "hòa"))
     }
+
+    @Test
+    fun arabic() {
+        assertTrue("ولد" in spellings("ar", "وَلَدَ"))
+        assertTrue("لكن" in spellings("ar", "لـكن"))
+        assertTrue("أكبر" in spellings("ar", "اكبر"))
+        assertTrue("ي" in spellings("ar", "\ufef4"))
+    }
+
+    @Test
+    fun egyptianArabic() {
+        assertTrue("لغة" in spellings("arz", "لغه"))
+    }
 }

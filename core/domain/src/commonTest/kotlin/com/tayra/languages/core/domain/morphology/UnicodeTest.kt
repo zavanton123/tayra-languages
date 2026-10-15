@@ -22,4 +22,11 @@ class UnicodeTest {
         assertEquals("한", Unicode.nfd("한"))
         assertEquals("한국어", Unicode.nfc(Unicode.nfd("한국어")))
     }
+
+    @Test
+    fun compatibilityFormsBecomeTheLettersTheyStandFor() {
+        assertEquals("\u064a", Unicode.nfkc("\ufef4"))
+        assertEquals("\u4e00", Unicode.nfkd("\u2f00"))
+        assertEquals("A1", Unicode.nfkc("\uff21\uff11"))
+    }
 }

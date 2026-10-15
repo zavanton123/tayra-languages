@@ -3,7 +3,8 @@
 Generates core/domain/.../morphology/UnicodeTables.kt, the data Unicode.kt needs for canonical
 normalisation (NFD and NFC), which Kotlin's common library lacks: every BMP character's canonical
 decomposition (one level), the characters that compose back (not excluded from composition) and
-the combining classes of the characters that have one. Hangul syllables are decomposed by rule.
+the combining classes of the characters that have one, and the compatibility decompositions for
+NFKD and NFKC (presentation forms, width variants, radicals). Hangul syllables are decomposed by rule.
 
 Usage: python3 tools/generate_unicode_tables.py
 """
@@ -30,6 +31,7 @@ def chunks(text, size=6000):
 
 def main():
     decompositions = []
+    compatibility = []
     composable = []
     classes = []
     for code in range(0x10000):
@@ -37,6 +39,10 @@ def main():
             continue
         c = chr(code)
         raw = unicodedata.decomposition(c)
+        if raw and raw.startswith("<"):
+            parts = "".join(chr(int(x, 16)) for x in raw.split()[1:])
+            if parts and all(ord(p) < 0x10000 for p in parts) and len(parts) < 0x10000:
+                compatibility.append(c + chr(len(parts)) + parts)
         if raw and not raw.startswith("<"):
             parts = "".join(chr(int(x, 16)) for x in raw.split())
             if all(ord(p) < 0x10000 for p in parts):
@@ -56,6 +62,11 @@ def main():
         *[f"    {kotlin_string(part)}," for part in chunks("".join(decompositions))],
         ").joinToString(\"\")",
         "",
+        "/** Each character with a compatibility decomposition, its length and the decomposition. */",
+        "internal val unicodeCompatibilityDecompositions: String = listOf(",
+        *[f"    {kotlin_string(part)}," for part in chunks("".join(compatibility))],
+        ").joinToString(\"\")",
+        "",
         "/** The characters whose two-character decomposition composes back under NFC. */",
         "internal val unicodeComposable: String = listOf(",
         *[f"    {kotlin_string(part)}," for part in chunks("".join(composable))],
@@ -69,7 +80,7 @@ def main():
     ]
     with open(OUT, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
-    print(f"wrote {OUT}: {len(decompositions)} decompositions, {len(composable)} composable, {len(classes)} combining classes", file=sys.stderr)
+    print(f"wrote {OUT}: {len(decompositions)} decompositions, {len(compatibility)} compatibility ones, {len(composable)} composable, {len(classes)} combining classes", file=sys.stderr)
 
 
 if __name__ == "__main__":

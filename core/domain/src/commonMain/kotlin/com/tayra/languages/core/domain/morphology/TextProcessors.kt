@@ -44,6 +44,14 @@ internal object TextProcessors {
         "convertLatinToGreek" to { s -> listOf(s, latinToGreek(s)) },
         // Vietnamese
         "normalizeDiacritics" to { s -> listOf(s, vietnameseTones(s, oldStyle = true), vietnameseTones(s, oldStyle = false)) },
+        // Arabic
+        "removeArabicScriptDiacritics" to { s -> listOf(s, arabicDiacritics.replace(s, "")) },
+        "removeTatweel" to { s -> listOf(s, s.replace("ـ", "")) },
+        "normalizeUnicode" to { s -> listOf(s, Unicode.nfkc(s)) },
+        "addHamzaTop" to { s -> listOf(s, s.replaceFirst("ا", "أ")) },
+        "addHamzaBottom" to { s -> listOf(s, s.replaceFirst("ا", "إ")) },
+        "convertAlifMaqsuraToYaa" to { s -> listOf(s, if (s.endsWith('ى')) s.dropLast(1) + 'ي' else s) },
+        "convertHaToTaMarbuta" to { s -> listOf(s, if (s.endsWith('ه')) s.dropLast(1) + 'ة' else s) },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
@@ -122,4 +130,6 @@ internal object TextProcessors {
         if (oldStyle) result = vietnameseOldStyle.replaceFirst(result, "$1$3$2")
         return Unicode.nfc(result)
     }
+
+    private val arabicDiacritics = Regex("[ًؘؙؚ-ٰٖ]")
 }
