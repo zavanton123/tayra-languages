@@ -5,6 +5,9 @@ class FileImportException(message: String, cause: Throwable? = null) : Exception
 /** A file's text, one paragraph per line, and the title the file gives itself when it has one. */
 data class ExtractedText(val text: String, val title: String? = null)
 
+/** Whether this platform's file picker can offer files by their extension. */
+internal expect val pickerFiltersByExtension: Boolean
+
 /**
  * Extracts the text of a book or lesson from a file: plain text and subtitles, e-books (epub, fb2,
  * mobi, azw3), documents (docx, odt, rtf, pdf), web pages (html, mhtml) and Markdown; a zip that
@@ -17,6 +20,12 @@ object FileTextExtractor {
         "txt", "epub", "fb2", "fbz", "docx", "odt", "rtf", "pdf".takeIf { pdfSupported }, "mobi", "azw", "azw3",
         "html", "htm", "xhtml", "mhtml", "mht", "md", "markdown", "srt", "vtt", "zip",
     )
+
+    /**
+     * The extensions to give the file picker, or null for every file: Android's picker filters by
+     * MIME type, and has none for most book formats (fb2, azw3, md), so there every file is offered.
+     */
+    val pickerExtensions: Set<String>? get() = if (pickerFiltersByExtension) supportedExtensions.toSet() else null
 
     /** The formats as people name them, for the form that offers the picker. */
     val formatNames: List<String> = listOfNotNull(

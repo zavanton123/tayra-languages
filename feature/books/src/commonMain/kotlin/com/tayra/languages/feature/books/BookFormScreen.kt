@@ -89,7 +89,7 @@ fun BookFormScreen(
     CollectEvents(viewModel.events) { if (it is BookFormEvent.Saved) onSaved(it.bookId, it.isNew) }
     var source by remember { mutableStateOf(ContentSource.PASTE) }
     val scope = rememberCoroutineScope()
-    val filePicker = rememberFilePickerLauncher(type = FileKitType.File(FileTextExtractor.supportedExtensions)) { file ->
+    val filePicker = rememberFilePickerLauncher(type = FileKitType.File(FileTextExtractor.pickerExtensions)) { file ->
         if (file != null) scope.launch {
             viewModel.importFile(file.name, file.readBytes())
             // The imported text is shown where it can be checked and edited.
