@@ -216,4 +216,148 @@ internal object Japanese {
         }
         return result.toString()
     }
+
+    /** A stretch of a word and the reading shown above it; empty for kana, which needs none. */
+    data class Furigana(val text: String, val reading: String)
+
+    private class Group(val isKana: Boolean, var text: String, var normalized: String? = null)
+
+    fun isKana(c: Char): Boolean = c.code in 0x3040..0x30ff
+
+    fun isKanji(c: Char): Boolean = c.code in 0x4e00..0x9fff || c.code in 0x3400..0x4dbf || c.code in 0xf900..0xfaff || c.isSurrogate()
+
+    /** Yomitan's distributeFurigana: the reading of a dictionary word split over its kanji ("有り難う" as 有/あ り 難/がと う). */
+    fun distributeFurigana(term: String, reading: String): List<Furigana> {
+        if (reading == term) return listOf(Furigana(term, ""))
+        val groups = mutableListOf<Group>()
+        for (c in term) {
+            val kana = isKana(c)
+            val last = groups.lastOrNull()
+            if (last != null && last.isKana == kana) last.text += c else groups += Group(kana, c.toString())
+        }
+        for (group in groups) if (group.isKana) group.normalized = katakanaToHiragana(group.text)
+        return segmentize(reading, katakanaToHiragana(reading), groups, 0) ?: listOf(Furigana(term, reading))
+    }
+
+    private fun segmentize(reading: String, readingNormalized: String, groups: List<Group>, start: Int): MutableList<Furigana>? {
+        val count = groups.size - start
+        if (count <= 0) return if (reading.isEmpty()) mutableListOf() else null
+        val group = groups[start]
+        val length = group.text.length
+        if (group.isKana) {
+            val normalized = group.normalized
+            if (normalized != null && readingNormalized.startsWith(normalized)) {
+                val segments = segmentize(reading.substring(length), readingNormalized.substring(length), groups, start + 1)
+                if (segments != null) {
+                    if (reading.startsWith(group.text)) segments.add(0, Furigana(group.text, "")) else segments.addAll(0, kanaSegments(group.text, reading))
+                    return segments
+                }
+            }
+            return null
+        }
+        var result: MutableList<Furigana>? = null
+        var i = reading.length
+        while (i >= length) {
+            val segments = segmentize(reading.substring(i), readingNormalized.substring(i), groups, start + 1)
+            if (segments != null) {
+                // More than one way to split the rest: ambiguous.
+                if (result != null) return null
+                segments.add(0, Furigana(group.text, reading.substring(0, i)))
+                result = segments
+            }
+            if (count == 1) break
+            i--
+        }
+        return result
+    }
+
+    private fun kanaSegments(text: String, reading: String): List<Furigana> {
+        val segments = mutableListOf<Furigana>()
+        var start = 0
+        var same = reading.getOrNull(0) == text[0]
+        for (i in 1 until text.length) {
+            val now = reading.getOrNull(i) == text[i]
+            if (same == now) continue
+            segments += Furigana(text.substring(start, i), if (same) "" else reading.substring(start, i))
+            same = now
+            start = i
+        }
+        segments += Furigana(text.substring(start), if (same) "" else reading.substring(start, minOf(text.length, reading.length)))
+        return segments
+    }
+
+    private fun stemLength(a: String, b: String): Int {
+        val limit = minOf(a.length, b.length)
+        var i = 0
+        while (i < limit && a[i] == b[i]) i++
+        // Never split a surrogate pair.
+        if (i in 1 until limit && a[i - 1].isHighSurrogate()) i--
+        return i
+    }
+
+    /** Yomitan's distributeFuriganaInflected: the furigana of an inflected form ([source]) of a dictionary word and its reading. */
+    fun distributeFuriganaInflected(term: String, reading: String, source: String): List<Furigana> {
+        val termNormalized = katakanaToHiragana(term)
+        val readingNormalized = katakanaToHiragana(reading)
+        val sourceNormalized = katakanaToHiragana(source)
+        var main = term
+        var stem = stemLength(termNormalized, sourceNormalized)
+        var read = reading
+        val readingStem = stemLength(readingNormalized, sourceNormalized)
+        if (readingStem > 0 && readingStem >= stem) {
+            main = reading
+            stem = readingStem
+            read = source.substring(0, stem) + reading.substring(stem)
+        }
+        val segments = mutableListOf<Furigana>()
+        if (stem > 0) {
+            main = source.substring(0, stem) + main.substring(stem)
+            var consumed = 0
+            for (segment in distributeFurigana(main, read)) {
+                val start = consumed
+                consumed += segment.text.length
+                if (consumed < stem) {
+                    segments += segment
+                } else if (consumed == stem) {
+                    segments += segment
+                    break
+                } else {
+                    if (start < stem) segments += Furigana(main.substring(start, stem), "")
+                    break
+                }
+            }
+        }
+        if (stem < source.length) {
+            val remainder = source.substring(stem)
+            val last = segments.lastOrNull()
+            if (last != null && last.reading.isEmpty()) segments[segments.lastIndex] = last.copy(text = last.text + remainder)
+            else segments += Furigana(remainder, "")
+        }
+        return segments
+    }
+
+    private const val SMALL_KANA = "ぁぃぅぇぉゃゅょゎァィゥェォャュョヮ"
+
+    /** The morae of a kana reading, small kana joined to the one before ("きょう" as きょ, う). */
+    fun morae(text: String): List<String> {
+        val out = mutableListOf<String>()
+        for (c in text) if (c in SMALL_KANA && out.isNotEmpty()) out[out.lastIndex] += c else out += c.toString()
+        return out
+    }
+
+    /** Whether mora [index] is high in a word with its downstep after mora [downstep] (0 for none), as Yomitan's isMoraPitchHigh. */
+    fun isMoraPitchHigh(index: Int, downstep: Int): Boolean = when (downstep) {
+        0 -> index > 0
+        1 -> index < 1
+        else -> index in 1 until downstep
+    }
+
+    /** The name of a pitch pattern: heiban (flat), atamadaka, nakadaka, odaka; kifuku for a verb or adjective with a downstep. */
+    fun pitchCategory(reading: String, downstep: Int, isVerbOrAdjective: Boolean): String? = when {
+        downstep == 0 -> "heiban"
+        isVerbOrAdjective -> if (downstep > 0) "kifuku" else null
+        downstep == 1 -> "atamadaka"
+        downstep > 1 -> if (downstep >= morae(reading).size) "odaka" else "nakadaka"
+        else -> null
+    }
 }
