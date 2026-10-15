@@ -10,6 +10,7 @@ object ParserRegistry {
         "spacedel" to SpaceDelimitedParser(),
         "turkish" to TurkishParser(),
         "classicalchinese" to ClassicalChineseParser(),
+        "thai" to SegmentingParser("Thai", "th", joinUnknown = true),
     )
 
     /** Parser types with their display names. */

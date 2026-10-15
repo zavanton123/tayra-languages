@@ -11,7 +11,7 @@ object LanguageCatalog {
         "Indonesian", "Irish", "Italian", "Kannada", "Latin", "Latvian", "Lithuanian", "Macedonian",
         "Maltese", "Manx", "Mongolian", "Norwegian", "Old Irish", "Polish", "Portuguese", "Romanian",
         "Russian", "Scottish Gaelic", "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog",
-        "Toki Pona", "Turkish", "Ukrainian", "Vietnamese", "Welsh", "Yiddish",
+        "Thai", "Toki Pona", "Turkish", "Ukrainian", "Vietnamese", "Welsh", "Yiddish",
     )
 
     /** Languages translations and example sentences can be shown in. */
