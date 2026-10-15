@@ -32,6 +32,7 @@ import re
 import sqlite3
 import subprocess
 import sys
+import unicodedata
 import zipfile
 from collections import defaultdict
 
@@ -308,6 +309,11 @@ def read_dictionary(path, source, target=None):
                 entries[key] = {"word": word, "pos": pos, "senses": list(senses), "reading": reading.strip() or None}
             if reading and reading.strip() and reading.strip() != word:
                 forms.add((reading.strip(), word))
+                if source == "zh":
+                    # Pinyin is looked up as Yomitan normalises it, with and without its tone marks.
+                    pinyin = clean_reading(source, reading)
+                    forms.add((normalize_pinyin(pinyin), word))
+                    forms.add((toneless_pinyin(pinyin), word))
     return entries, forms
 
 
@@ -335,6 +341,15 @@ READING_LANGUAGES = {"ja", "zh"}
 JAPANESE = os.path.join(ROOT, "dictionaries", "japanese")
 # KANJIDIC2 has meanings in these languages; the other packs give its English ones.
 KANJI_MEANING_LANGUAGES = {"en", "fr", "es", "pt"}
+
+
+def normalize_pinyin(text):
+    """Yomitan's normalizePinyin: composed, lowercase, without spaces or syllable marks."""
+    return re.sub(r"[\s・:'’-]|//", "", unicodedata.normalize("NFC", text).lower())
+
+
+def toneless_pinyin(text):
+    return unicodedata.normalize("NFC", "".join(c for c in unicodedata.normalize("NFD", normalize_pinyin(text)) if not "\u0300" <= c <= "\u036f"))
 
 
 def clean_reading(source, reading):

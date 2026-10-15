@@ -115,4 +115,11 @@ class MorphologyLookupTest {
         val (plain, zh) = service("zh", listOf(Triple("你好", "intj", "hello")))
         assertEquals(null, plain.lookup(zh, "你好").entries.single().reading)
     }
+
+    @Test
+    fun chineseIsFoundByItsPinyin() = runTest {
+        val (service, zh) = service("zh", listOf(Triple("你好", "intj", "hello")), forms = listOf("nǐhǎo" to "你好", "nihao" to "你好"))
+        assertEquals("你好", service.lookup(zh, "Nǐ hǎo").parentSuggestion)
+        assertEquals("你好", service.lookup(zh, "ni hao").parentSuggestion)
+    }
 }

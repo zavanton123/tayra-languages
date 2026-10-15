@@ -9,6 +9,7 @@ import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.dictionary.DictionaryEntry
+import com.tayra.languages.core.domain.morphology.Chinese
 import com.tayra.languages.core.domain.morphology.LanguageMorphology
 import com.tayra.languages.core.domain.morphology.Morphology
 import com.tayra.languages.core.domain.repository.DictionaryRepository
@@ -69,7 +70,8 @@ class DictionaryService(
 
     private suspend fun find(dictionary: DictionaryId, text: String): DictionaryLookup {
         if (stateOf(dictionary) !is PackState.Installed) return DictionaryLookup.EMPTY
-        val word = text.trim()
+        // Chinese typed as pinyin is looked up by the reading, normalised as the packs store it.
+        val word = if (dictionary.sourceLanguage == "zh" && !Chinese.isPartlyChinese(text)) Chinese.normalizePinyin(text.trim()) else text.trim()
         val wordLc = lowercase(word, dictionary)
         if (wordLc.isEmpty()) return DictionaryLookup.EMPTY
         // Among entries for one spelling, nouns and verbs are usually the everyday word ("maison"
