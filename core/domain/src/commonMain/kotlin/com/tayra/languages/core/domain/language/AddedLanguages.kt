@@ -45,6 +45,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun cantonese() = LanguageDefinition(
+        language = Language(
+            name = "Cantonese",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Chinese", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://words.hk/zidin/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://cantonese.org/search.php?q=[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=yue&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?。！？",
+            wordCharacters = "\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF\\u3005\\u3007",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "cantonese",
+        ),
+    )
+
     private fun cornish() = LanguageDefinition(
         language = Language(
             name = "Cornish",
@@ -299,6 +317,7 @@ object AddedLanguages {
         listOf(
             ancientGreek(),
             assyrian(),
+            cantonese(),
             cornish(),
             egyptianArabic(),
             hawaiian(),

@@ -48,6 +48,7 @@ import tayra_languages.core.ui.generated.resources.flag_gb_sct
 import tayra_languages.core.ui.generated.resources.flag_gb_wls
 import tayra_languages.core.ui.generated.resources.flag_ge
 import tayra_languages.core.ui.generated.resources.flag_gr
+import tayra_languages.core.ui.generated.resources.flag_hk
 import tayra_languages.core.ui.generated.resources.flag_hr
 import tayra_languages.core.ui.generated.resources.flag_hu
 import tayra_languages.core.ui.generated.resources.flag_id

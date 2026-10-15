@@ -5,14 +5,14 @@ object LanguageCatalog {
     /** Names of the predefined languages a user can learn, in display order. */
     val targetLanguages: List<String> = listOf(
         "Albanian", "Ancient Greek", "Arabic", "Armenian", "Assyrian", "Basque", "Belarusian",
-        "Bosnian", "Breton", "Bulgarian", "Catalan", "Cornish", "Croatian", "Czech", "Danish", "Dutch",
-        "Egyptian Arabic", "English", "Esperanto", "Estonian", "Farsi", "Finnish", "French", "Galician",
-        "Georgian", "German", "Greek", "Hawaiian", "Hebrew", "Hindi", "Hungarian", "Icelandic",
-        "Indonesian", "Irish", "Italian", "Kannada", "Khmer", "Lao", "Latin", "Latvian", "Lithuanian",
-        "Macedonian", "Maltese", "Mandarin Chinese", "Manx", "Mongolian", "Norwegian", "Old Irish",
-        "Polish", "Portuguese", "Romanian", "Russian", "Scottish Gaelic", "Serbian", "Slovak",
-        "Slovene", "Spanish", "Swedish", "Tagalog", "Thai", "Toki Pona", "Turkish", "Ukrainian",
-        "Vietnamese", "Welsh", "Yiddish",
+        "Bosnian", "Breton", "Bulgarian", "Cantonese", "Catalan", "Cornish", "Croatian", "Czech",
+        "Danish", "Dutch", "Egyptian Arabic", "English", "Esperanto", "Estonian", "Farsi", "Finnish",
+        "French", "Galician", "Georgian", "German", "Greek", "Hawaiian", "Hebrew", "Hindi", "Hungarian",
+        "Icelandic", "Indonesian", "Irish", "Italian", "Kannada", "Khmer", "Lao", "Latin", "Latvian",
+        "Lithuanian", "Macedonian", "Maltese", "Mandarin Chinese", "Manx", "Mongolian", "Norwegian",
+        "Old Irish", "Polish", "Portuguese", "Romanian", "Russian", "Scottish Gaelic", "Serbian",
+        "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Thai", "Toki Pona", "Turkish",
+        "Ukrainian", "Vietnamese", "Welsh", "Yiddish",
     )
 
     /** Languages translations and example sentences can be shown in. */
