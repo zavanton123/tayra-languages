@@ -99,6 +99,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.ui.components.toneColored
+import com.tayra.languages.core.domain.morphology.Chinese
 import com.tayra.languages.core.domain.dictionary.WordFrequency
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
@@ -208,7 +209,7 @@ private fun TermFormContent(
         val dictionaryBlock: @Composable () -> Unit = {
             when {
                 empty -> Unit
-                !state.dictionary.isEmpty -> DictionarySection(state.dictionary, language?.let { LanguageCodes.codeFor(it.name) }, toneColors = state.toneColors, onAdd = viewModel::addGloss)
+                !state.dictionary.isEmpty -> DictionarySection(state.dictionary, language?.let { LanguageCodes.codeFor(it.name) }, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss)
                 pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
             }
             if (!empty && state.notes.isNotEmpty()) NotesSection(state.notes)
@@ -901,7 +902,7 @@ private val VERB_OR_ADJECTIVE = setOf("verb", "adj")
 
 /** Meanings from the offline dictionary; the speaker reads a headword aloud, the plus adds a meaning to the translation. */
 @Composable
-private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, toneColors: Boolean = false, onAdd: (String) -> Unit) {
+private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, toneColors: Boolean = false, zhuyin: Boolean = false, onAdd: (String) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val speaker = rememberSpeaker(koinInject(), koinInject())
     SectionCard({ DictionaryBadge() }, tr("Dictionary"), count = lookup.entries.size, tint = null, filled = false) {
@@ -909,8 +910,10 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, t
             if (index > 0) HorizontalDivider(Modifier.padding(vertical = 6.dp), color = colors.outlineVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.padding(top = 4.dp)) {
                 Text(entry.word, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-                entry.reading?.let { reading ->
-                    if (toneColors && languageCode in setOf("zh", "yue")) Text(toneColored(reading), style = MaterialTheme.typography.titleMedium, modifier = Modifier.testTag("tone-reading"))
+                entry.reading?.let { written ->
+                    val chinese = languageCode in setOf("zh", "yue")
+                    val reading = if (chinese && zhuyin) Chinese.zhuyin(written) else written
+                    if (toneColors && chinese) Text(toneColored(reading), style = MaterialTheme.typography.titleMedium, modifier = Modifier.testTag("tone-reading"))
                     else Text(reading, style = MaterialTheme.typography.titleMedium, color = colors.primary)
                 }
                 Text(entry.pos, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)

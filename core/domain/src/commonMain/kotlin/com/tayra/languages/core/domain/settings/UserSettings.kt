@@ -34,6 +34,8 @@ data class UserSettings(
     val showReadings: Boolean = true,
     /** Chinese readings coloured by tone, as Zhongwen colours them. */
     val toneColors: Boolean = true,
+    /** Chinese readings in zhuyin (bopomofo) rather than pinyin, as Taiwan teaches them. */
+    val zhuyin: Boolean = false,
     /** Clicking or tapping a word in the reader reads it aloud. */
     val speakWordOnClick: Boolean = false,
     /** Continuous reading stops after each sentence, so the next press of play reads the following one. */

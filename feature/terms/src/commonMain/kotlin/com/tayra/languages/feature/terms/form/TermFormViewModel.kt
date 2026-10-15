@@ -90,6 +90,8 @@ data class TermFormUiState(
     val recordings: List<WordRecording> = emptyList(),
     /** Chinese readings coloured by tone. */
     val toneColors: Boolean = true,
+    /** Chinese readings in zhuyin rather than pinyin. */
+    val zhuyin: Boolean = false,
     /** For Japanese, the numbers, era years and floor areas at the term, spelled out. */
     val notes: List<JapaneseNote> = emptyList(),
     /** The downloadable pack for the language pair and whether it is on the device; null when none exists. */
@@ -181,7 +183,7 @@ class TermFormViewModel(
             _state.update { it.copy(loading = false, error = e.message) }
             return
         }
-        _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }, toneColors = settings.current.toneColors) }
+        _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }, toneColors = settings.current.toneColors, zhuyin = settings.current.zhuyin) }
         observePack(_state.value.language)
         observeFinder(_state.value.language)
         showEntry(draft, linkParent = { setParents(listOf(it)) })

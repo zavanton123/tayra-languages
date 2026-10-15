@@ -89,6 +89,7 @@ class SettingsRepositoryImpl(
             showSentencePlay = store.getBoolean(Keys.SHOW_SENTENCE_PLAY, defaults.showSentencePlay),
             showReadings = store.getBoolean(Keys.SHOW_READINGS, defaults.showReadings),
             toneColors = store.getBoolean(Keys.TONE_COLORS, defaults.toneColors),
+            zhuyin = store.getBoolean(Keys.ZHUYIN, defaults.zhuyin),
             speakWordOnClick = store.getBoolean(Keys.SPEAK_WORD_ON_CLICK, defaults.speakWordOnClick),
             autoPause = store.getBoolean(Keys.AUTO_PAUSE, defaults.autoPause),
             speechEngine = SpeechEngine.entries.firstOrNull { it.name == store.getString(Keys.SPEECH_ENGINE, "") } ?: defaults.speechEngine,
@@ -188,6 +189,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.SHOW_SENTENCE_PLAY, s.showSentencePlay)
         store.putBoolean(Keys.SHOW_READINGS, s.showReadings)
         store.putBoolean(Keys.TONE_COLORS, s.toneColors)
+        store.putBoolean(Keys.ZHUYIN, s.zhuyin)
         store.putBoolean(Keys.SPEAK_WORD_ON_CLICK, s.speakWordOnClick)
         store.putBoolean(Keys.AUTO_PAUSE, s.autoPause)
         store.putString(Keys.SPEECH_ENGINE, s.speechEngine.name)
@@ -241,6 +243,7 @@ class SettingsRepositoryImpl(
         const val SHOW_SENTENCE_PLAY = "reading_show_sentence_play"
         const val SHOW_READINGS = "reading_show_readings"
         const val TONE_COLORS = "reading_tone_colors"
+        const val ZHUYIN = "reading_zhuyin"
         const val SPEAK_WORD_ON_CLICK = "reading_speak_word_on_click"
         const val AUTO_PAUSE = "reading_auto_pause"
         const val LATER_HOTKEY_DEFAULTS = "hotkeys_later_defaults_applied"

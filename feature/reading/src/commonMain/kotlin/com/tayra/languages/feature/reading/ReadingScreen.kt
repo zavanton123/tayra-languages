@@ -130,6 +130,7 @@ import com.tayra.languages.core.domain.service.SentenceAudioState
 import com.tayra.languages.core.domain.service.SentenceAudio
 import org.koin.compose.koinInject
 import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.domain.morphology.Chinese
 import com.tayra.languages.core.ui.components.AboveTargetPositionProvider
 import androidx.compose.ui.platform.LocalDensity
 import com.tayra.languages.core.ui.components.AppIcons
@@ -631,6 +632,12 @@ private fun ReadingBody(
                 HorizontalDivider(Modifier.padding(bottom = 20.dp), color = MaterialTheme.colorScheme.outlineVariant)
             }
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
+            val chinese = state.language?.let { LanguageCodes.codeFor(it.name) } in setOf("zh", "yue")
+            // Pinyin above the words is kept; zhuyin is written from it when chosen.
+            val wantsZhuyin = state.settings.zhuyin && chinese
+            val zhuyinReadings = remember(state.readings, wantsZhuyin) {
+                if (wantsZhuyin) state.readings.mapValues { (_, parts) -> parts.map { it.copy(reading = Chinese.zhuyin(it.reading)) } } else emptyMap()
+            }
             ReadingText(
                 page = state.page,
                 theme = theme,
@@ -644,8 +651,12 @@ private fun ReadingBody(
                 rightToLeft = state.language?.rightToLeft == true,
                 fontFamily = ReadingFont.byId(state.settings.readingFont).fontFamily(),
                 splitSentences = state.settings.splitSentences,
-                readings = if (state.settings.showReadings) state.readings else emptyMap(),
-                toneColors = state.settings.toneColors && state.language?.let { LanguageCodes.codeFor(it.name) } in setOf("zh", "yue"),
+                readings = when {
+                    !state.settings.showReadings -> emptyMap()
+                    wantsZhuyin -> zhuyinReadings
+                    else -> state.readings
+                },
+                toneColors = state.settings.toneColors && chinese,
                 justify = state.settings.readingJustified,
                 translations = if (state.settings.showTranslations) state.translations else null,
                 sideBySide = state.settings.sideBySideTranslations,

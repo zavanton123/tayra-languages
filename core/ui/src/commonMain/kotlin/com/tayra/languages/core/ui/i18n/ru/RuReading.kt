@@ -49,6 +49,8 @@ internal val ruReading: Map<String, String> = mapOf(
     "Play audio" to "Воспроизводить аудио",
     "Speak word on click" to "Произносить слово по щелчку",
     "Tone colours" to "Цвета тонов",
+    "Zhuyin" to "Чжуинь",
+    "Readings in bopomofo instead of pinyin" to "Чтения бопомофо вместо пиньиня",
     "Colour pinyin by its tone" to "Окрашивать пиньинь по тонам",
     "Show readings" to "Показывать чтения",
     "Furigana or pinyin above the words" to "Фуригана или пиньинь над словами",

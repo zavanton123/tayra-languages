@@ -386,6 +386,7 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
         }
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in TONE_LANGUAGES) {
             SwitchSetting(AppIcons.Palette, tr("Tone colours"), tr("Colour pinyin by its tone"), prefs.toneColors) { viewModel.toggleToneColors() }
+            SwitchSetting(AppIcons.Abc, tr("Zhuyin"), tr("Readings in bopomofo instead of pinyin"), prefs.zhuyin) { viewModel.toggleZhuyin() }
         }
         if (prefs.showHighlights) {
             val statusColors = TayraTheme.current.statusColors
