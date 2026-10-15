@@ -98,6 +98,7 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
+import com.tayra.languages.core.domain.dictionary.WordFrequency
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.language.LanguageCatalog
@@ -863,6 +864,24 @@ private fun KanjiBadge() {
     }
 }
 
+/** What the frequency dictionaries say of a word, each as its title and its rank or count, as Yomitan tags them. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+internal fun FrequencyLabels(frequencies: List<WordFrequency>) {
+    val colors = MaterialTheme.colorScheme
+    FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(4.dp), modifier = Modifier.padding(start = 2.dp, top = 2.dp)) {
+        frequencies.forEach { frequency ->
+            Row(
+                Modifier.clip(RoundedCornerShape(6.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(6.dp)).testTag("frequency-${frequency.dictionary}"),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(frequency.dictionary, style = MaterialTheme.typography.labelSmall, color = colors.onSecondaryContainer, modifier = Modifier.background(colors.secondaryContainer).padding(horizontal = 6.dp, vertical = 2.dp))
+                Text(frequency.label, style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp))
+            }
+        }
+    }
+}
+
 /** Parts of speech whose downstep moves as they inflect, so Japanese calls their accented pattern kifuku. */
 private val VERB_OR_ADJECTIVE = setOf("verb", "adj")
 
@@ -884,6 +903,7 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, o
             entry.dictionary?.let {
                 Text(it, style = MaterialTheme.typography.labelMedium, color = colors.tertiary, modifier = Modifier.padding(start = 2.dp).testTag("entry-dictionary"))
             }
+            if (entry.frequencies.isNotEmpty()) FrequencyLabels(entry.frequencies)
             if (entry.pitch.isNotEmpty()) {
                 PitchAccents(entry.pitch, isVerbOrAdjective = entry.pos in VERB_OR_ADJECTIVE, modifier = Modifier.padding(start = 2.dp, top = 2.dp, bottom = 2.dp))
             }

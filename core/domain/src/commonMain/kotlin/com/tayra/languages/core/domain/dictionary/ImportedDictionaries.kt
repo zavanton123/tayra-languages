@@ -11,6 +11,8 @@ data class YomitanDictionaryInfo(
     val sourceLanguage: String? = null,
     val targetLanguage: String? = null,
     val attribution: String? = null,
+    /** "rank-based" when its frequencies are ranks (1 the most common), "occurrence-based" when counts. */
+    val frequencyMode: String? = null,
 )
 
 /** Turns a Yomitan dictionary, a zip of JSON banks, into the app's pack file. */

@@ -10,6 +10,8 @@ import com.tayra.languages.core.data.yomitan.YomitanConverter
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaries
+import com.tayra.languages.core.domain.dictionary.KanjiInfo
+import com.tayra.languages.core.domain.dictionary.WordFrequency
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.service.DictionaryService
 import io.ktor.client.HttpClient
@@ -28,18 +30,20 @@ import kotlin.test.assertTrue
 
 class ImportedDictionaryTest {
 
-    private val zip: ByteArray = ByteArrayOutputStream().also { out ->
+    private fun zipOf(vararg files: Pair<String, String>): ByteArray = ByteArrayOutputStream().also { out ->
         ZipOutputStream(out).use { zip ->
-            for ((name, text) in listOf(
-                "index.json" to """{"title": "My Russian Dictionary", "revision": "3", "format": 3}""",
-                "term_bank_1.json" to """[["дом", "", "n", "", 0, ["house", "home"], 1, ""], ["дома", "", "non-lemma", "", 0, [["дом", ["genitive"]]], 2, ""]]""",
-            )) {
+            for ((name, text) in files) {
                 zip.putNextEntry(ZipEntry(name))
                 zip.write(text.toByteArray())
                 zip.closeEntry()
             }
         }
     }.toByteArray()
+
+    private val zip = zipOf(
+        "index.json" to """{"title": "My Russian Dictionary", "revision": "3", "format": 3}""",
+        "term_bank_1.json" to """[["дом", "", "n", "", 0, ["house", "home"], 1, ""], ["дома", "", "non-lemma", "", 0, [["дом", ["genitive"]]], 2, ""]]""",
+    )
 
     private val settings = MapSettings()
     private val directory: File = Files.createTempDirectory("tayra-imported").toFile()
@@ -73,5 +77,25 @@ class ImportedDictionaryTest {
         assertTrue(again.lookup(DictionaryId("ru", "en"), "дом").isEmpty)
         assertTrue(again.packs.value.none { it.pack.id.imported != null })
         assertTrue(directory.listFiles().orEmpty().none { it.name.startsWith("imported-") })
+    }
+
+    @Test
+    fun frequencyAndKanjiDictionariesAddToTheLookupsOfTheirPair() = runTest {
+        val (service, _) = service()
+        service.refresh()
+        service.import(zip, "ru", "en")
+        service.import(zipOf(
+            "index.json" to """{"title": "Ranks", "revision": "1", "format": 3, "frequencyMode": "rank-based"}""",
+            "term_meta_bank_1.json" to """[["дом", "freq", 120]]""",
+        ), "ru", "en")
+        val house = service.lookup(DictionaryId("ru", "en"), "дом").entries.single()
+        assertEquals(listOf(WordFrequency("Ranks", 120, null, rankBased = true)), house.frequencies)
+        assertEquals("#120", house.frequencies.single().label)
+
+        service.import(zipOf(
+            "index.json" to """{"title": "Kanji", "revision": "1", "format": 3}""",
+            "kanji_bank_1.json" to """[["猫", "ビョウ", "ねこ", "", ["cat"], {"strokes": "11", "grade": "8", "jlpt": "2"}]]""",
+        ), "ja", "en")
+        assertEquals(listOf(KanjiInfo("猫", listOf("cat"), listOf("ビョウ"), listOf("ねこ"), 11, 8, 2, null)), service.kanji(DictionaryId("ja", "en"), "猫が"))
     }
 }

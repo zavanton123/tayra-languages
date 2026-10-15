@@ -27,7 +27,8 @@ import kotlinx.serialization.json.put
  * definitions are its senses, and the rows that only point to another word ("non-lemma") its forms.
  * Structured content is read as wty writes it (glosses lists, example sentences, tags) and, for other
  * dictionaries, as their glossary lists, any list, or else its text. Pitch accents and IPA come from
- * the term meta banks; kanji banks and frequencies are not kept.
+ * the term meta banks, with the frequencies they give, and kanji from the kanji banks. A dictionary
+ * of frequencies or of kanji alone is a pack of those alone.
  */
 class YomitanConverter : YomitanImporter {
 
@@ -37,7 +38,7 @@ class YomitanConverter : YomitanImporter {
         val archive = ZipArchive(zip)
         val info = info(archive)
         val content = read(archive, sourceLanguage, onProgress)
-        if (content.entries.isEmpty()) throw ZipException("${info.title} has no terms")
+        if (content.isEmpty) throw ZipException("${info.title} has no terms, frequencies or kanji")
         onProgress(0.95f)
         newSqliteFile(statements(content, info, sourceLanguage, targetLanguage))
     }
@@ -52,17 +53,27 @@ class YomitanConverter : YomitanImporter {
             sourceLanguage = field("sourceLanguage"),
             targetLanguage = field("targetLanguage"),
             attribution = field("attribution"),
+            frequencyMode = field("frequencyMode"),
         )
     }
 
     internal class Entry(val word: String, val pos: String, val senses: MutableList<JsonObject>, var reading: String?)
+
+    internal class Frequency(val word: String, val reading: String?, val value: Int?, val display: String?)
+
+    internal class Kanji(val character: String, val meanings: List<String>, val onyomi: String, val kunyomi: String, val stats: Map<String, String>)
 
     internal class Content(
         val entries: Map<Pair<String, String>, Entry>,
         val forms: Set<Pair<String, String>>,
         val pitch: List<Triple<String, String, String>>,
         val ipa: Map<String, String>,
-    )
+        val frequencies: List<Frequency> = emptyList(),
+        val kanji: List<Kanji> = emptyList(),
+        val kanjiFrequency: Map<String, Int> = emptyMap(),
+    ) {
+        val isEmpty: Boolean get() = entries.isEmpty() && frequencies.isEmpty() && kanji.isEmpty()
+    }
 
     internal suspend fun read(archive: ZipArchive, source: String, onProgress: (Float) -> Unit = {}): Content {
         val tags = HashMap<String, Pair<String, String>>()
@@ -85,10 +96,15 @@ class YomitanConverter : YomitanImporter {
         }
         val pitch = ArrayList<Triple<String, String, String>>()
         val ipa = HashMap<String, String>()
+        val frequencies = ArrayList<Frequency>()
         for (bank in banks(archive, "term_meta_bank_")) {
             for (row in json.parseToJsonElement(archive.read(bank).decodeToString()).jsonArray) {
                 val cells = row.jsonArray
                 val word = cells.string(0)?.let(clean) ?: continue
+                if (cells.string(1) == "freq") {
+                    frequencyOf(cells.getOrNull(2))?.let { (reading, value, display) -> frequencies += Frequency(word, reading, value, display) }
+                    continue
+                }
                 val data = cells.getOrNull(2) as? JsonObject ?: continue
                 when (cells.string(1)) {
                     "pitch" -> {
@@ -99,8 +115,47 @@ class YomitanConverter : YomitanImporter {
                 }
             }
         }
+        val kanji = ArrayList<Kanji>()
+        for (bank in banks(archive, "kanji_bank_")) {
+            for (row in json.parseToJsonElement(archive.read(bank).decodeToString()).jsonArray) {
+                val cells = row.jsonArray
+                val character = cells.string(0)?.takeIf { it.isNotEmpty() } ?: continue
+                val meanings = (cells.getOrNull(4) as? JsonArray)?.mapNotNull { (it as? JsonPrimitive)?.contentOrNull?.trim()?.ifEmpty { null } }.orEmpty()
+                val stats = (cells.getOrNull(5) as? JsonObject)?.mapNotNull { (key, value) -> (value as? JsonPrimitive)?.contentOrNull?.let { key to it } }?.toMap().orEmpty()
+                kanji += Kanji(character, meanings, cells.string(1).orEmpty().trim(), cells.string(2).orEmpty().trim(), stats)
+            }
+        }
+        val kanjiFrequency = HashMap<String, Int>()
+        for (bank in banks(archive, "kanji_meta_bank_")) {
+            for (row in json.parseToJsonElement(archive.read(bank).decodeToString()).jsonArray) {
+                val cells = row.jsonArray
+                val character = cells.string(0) ?: continue
+                if (cells.string(1) == "freq") frequencyOf(cells.getOrNull(2))?.second?.let { kanjiFrequency.getOrPut(character) { it } }
+            }
+        }
         val lemmas = entries.values.mapTo(HashSet()) { it.word }
-        return Content(entries, forms.filterTo(LinkedHashSet()) { it.second in lemmas }, pitch, ipa)
+        return Content(entries, forms.filterTo(LinkedHashSet()) { it.second in lemmas }, pitch, ipa, frequencies, kanji, kanjiFrequency)
+    }
+
+    /**
+     * A frequency as Yomitan's meta banks write it: a number, a text ("five (5)"), {value, displayValue},
+     * or either of those under {reading, frequency}. Answers the reading, the number (the first in a
+     * text) and the text to show, when it differs from the number.
+     */
+    private fun frequencyOf(data: JsonElement?): Triple<String?, Int?, String?>? {
+        fun plain(element: JsonElement?): Pair<Int?, String?>? = when (element) {
+            is JsonPrimitive -> if (element.isString) {
+                Regex("\\d+").find(element.content)?.value?.toIntOrNull() to element.content
+            } else {
+                element.content.toDoubleOrNull()?.toInt() to null
+            }
+            is JsonObject -> element["value"]?.jsonPrimitive?.content?.toDoubleOrNull()?.toInt() to element.string("displayValue")
+            else -> null
+        }
+        val (reading, value) = if (data is JsonObject && "frequency" in data) data.string("reading") to data["frequency"] else null to data
+        val (number, display) = plain(value) ?: return null
+        if (number == null && display.isNullOrBlank()) return null
+        return Triple(reading, number, display?.takeIf { it != number?.toString() })
     }
 
     private fun addTerm(
@@ -338,11 +393,28 @@ class YomitanConverter : YomitanImporter {
             content.pitch.chunked(BATCH).forEach { chunk -> out += "INSERT INTO pitch VALUES " + chunk.joinToString(", ") { (w, r, p) -> "(${q(w)}, ${q(r)}, ${q(p)})" } }
             out += "CREATE INDEX pitch_word ON pitch(word)"
         }
+        if (content.frequencies.isNotEmpty()) {
+            out += "CREATE TABLE frequencies (word TEXT NOT NULL, reading TEXT, value INTEGER, display TEXT)"
+            content.frequencies.chunked(BATCH).forEach { chunk ->
+                out += "INSERT INTO frequencies VALUES " + chunk.joinToString(", ") { f -> "(${q(f.word)}, ${f.reading?.let(::q) ?: "NULL"}, ${f.value ?: "NULL"}, ${f.display?.let(::q) ?: "NULL"})" }
+            }
+            out += "CREATE INDEX frequencies_word ON frequencies(word)"
+        }
+        if (content.kanji.isNotEmpty()) {
+            out += "CREATE TABLE kanji (character TEXT NOT NULL PRIMARY KEY, meanings TEXT NOT NULL, onyomi TEXT NOT NULL, kunyomi TEXT NOT NULL, strokes INTEGER, grade INTEGER, jlpt INTEGER, frequency INTEGER)"
+            content.kanji.distinctBy { it.character }.chunked(BATCH).forEach { chunk ->
+                out += "INSERT INTO kanji VALUES " + chunk.joinToString(", ") { k ->
+                    fun stat(vararg keys: String) = keys.firstNotNullOfOrNull { k.stats[it] }?.let { Regex("\\d+").find(it)?.value } ?: "NULL"
+                    val frequency = content.kanjiFrequency[k.character]?.toString() ?: stat("freq", "frequency")
+                    "(${q(k.character)}, ${q(JsonArray(k.meanings.map(::JsonPrimitive)).toString())}, ${q(k.onyomi)}, ${q(k.kunyomi)}, ${stat("strokes")}, ${stat("grade")}, ${stat("jlpt")}, $frequency)"
+                }
+            }
+        }
         val sources = listOf(info.title, info.revision).filter { it.isNotEmpty() }.joinToString(" ") + " (imported Yomitan dictionary)"
         val meta = listOf(
             "format" to DictionaryId.FORMAT.toString(), "source_language" to source, "target_language" to target,
             "entry_count" to rows.size.toString(), "form_count" to formRows.size.toString(), "sources" to sources,
-        ) + listOfNotNull(info.attribution?.let { "license" to it })
+        ) + listOfNotNull(info.attribution?.let { "license" to it }, info.frequencyMode?.let { "frequency_mode" to it })
         out += "INSERT INTO meta(key, value) VALUES " + meta.joinToString(", ") { (k, v) -> "(${q(k)}, ${q(v)})" }
         out += "CREATE INDEX entries_word_lc ON entries(word_lc)"
         out += "CREATE INDEX forms_form_lc ON forms(form_lc)"

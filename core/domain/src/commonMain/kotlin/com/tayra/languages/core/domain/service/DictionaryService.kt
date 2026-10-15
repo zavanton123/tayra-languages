@@ -10,6 +10,7 @@ import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.dictionary.DictionaryEntry
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
+import com.tayra.languages.core.domain.dictionary.WordFrequency
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaries
 import com.tayra.languages.core.domain.dictionary.ImportedDictionary
 import com.tayra.languages.core.domain.dictionary.YomitanDictionaryInfo
@@ -109,16 +110,38 @@ class DictionaryService(
     override suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup {
         val own = lookupIn(dictionary, text)
         if (dictionary.glossary || dictionary.imported != null) return own
+        val pair = importedOf(dictionary)
         // The imported dictionaries of the pair add their entries after the pack's own, each named.
-        val extra = _packs.value.filter { status ->
-            val id = status.pack.id
-            id.imported != null && id.sourceLanguage == dictionary.sourceLanguage && id.targetLanguage == dictionary.targetLanguage && status.state is PackState.Installed
-        }.map { status -> status.pack.title to lookupIn(status.pack.id, text) }.filter { !it.second.isEmpty }
-        if (extra.isEmpty()) return own
-        return DictionaryLookup(
+        val extra = pair.map { pack -> pack.title to lookupIn(pack.id, text) }.filter { !it.second.isEmpty }
+        val merged = if (extra.isEmpty()) own else DictionaryLookup(
             own.entries + extra.flatMap { (title, found) -> found.entries.map { it.copy(dictionary = title) } },
             (own.lemmas + extra.flatMap { it.second.lemmas }).distinct(),
         )
+        return if (merged.isEmpty || pair.isEmpty()) merged else merged.copy(entries = withFrequencies(merged.entries, pair))
+    }
+
+    /** The installed imported dictionaries of [dictionary]'s language pair. */
+    private fun importedOf(dictionary: DictionaryId): List<DictionaryPack> = _packs.value.filter { status ->
+        val id = status.pack.id
+        id.imported != null && id.sourceLanguage == dictionary.sourceLanguage && id.targetLanguage == dictionary.targetLanguage && status.state is PackState.Installed
+    }.map { it.pack }
+
+    /** Each entry with the frequencies the imported dictionaries give its word, in its reading where they say which. */
+    private suspend fun withFrequencies(entries: List<DictionaryEntry>, packs: List<DictionaryPack>): List<DictionaryEntry> {
+        val words = entries.map { it.word }.distinct()
+        val given = packs.mapNotNull { pack ->
+            val found = repository.frequencies(pack.id, words)
+            if (found.isEmpty()) null else Triple(pack.title, repository.meta(pack.id, "frequency_mode") == "rank-based", found)
+        }
+        if (given.isEmpty()) return entries
+        return entries.map { entry ->
+            val readings = entry.reading?.split(", ").orEmpty()
+            val frequencies = given.flatMap { (title, rankBased, found) ->
+                found[entry.word].orEmpty().filter { it.reading == null || it.reading in readings || it.reading == entry.word }
+                    .map { WordFrequency(title, it.value, it.display, rankBased) }.distinct()
+            }
+            if (frequencies.isEmpty()) entry else entry.copy(frequencies = frequencies)
+        }
     }
 
     private suspend fun lookupIn(dictionary: DictionaryId, text: String): DictionaryLookup {
@@ -145,7 +168,7 @@ class DictionaryService(
     }
 
     override suspend fun kanji(dictionary: DictionaryId, text: String): List<KanjiInfo> {
-        if (dictionary.sourceLanguage != "ja" || stateOf(dictionary) !is PackState.Installed) return emptyList()
+        if (dictionary.sourceLanguage != "ja") return emptyList()
         val characters = mutableListOf<String>()
         var i = 0
         while (i < text.length) {
@@ -154,7 +177,17 @@ class DictionaryService(
             if (Japanese.isKanji(text[i])) characters += text.substring(i, i + length)
             i += length
         }
-        return if (characters.isEmpty()) emptyList() else repository.kanji(dictionary, characters.distinct().take(MAX_KANJI))
+        if (characters.isEmpty()) return emptyList()
+        val wanted = characters.distinct().take(MAX_KANJI)
+        // The pack's own kanji first; an imported kanji dictionary gives those it lacks.
+        val found = LinkedHashMap<String, KanjiInfo>()
+        val sources = listOf(dictionary).filter { stateOf(it) is PackState.Installed } + importedOf(dictionary).map { it.id }
+        for (source in sources) {
+            val missing = wanted.filter { it !in found }
+            if (missing.isEmpty()) break
+            repository.kanji(source, missing).forEach { found.getOrPut(it.character) { it } }
+        }
+        return wanted.mapNotNull { found[it] }
     }
 
     private suspend fun find(dictionary: DictionaryId, text: String): DictionaryLookup {

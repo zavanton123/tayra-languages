@@ -46,6 +46,13 @@ CREATE TABLE entry_readings (
     reading TEXT NOT NULL
 );
 
+CREATE TABLE frequencies (
+    word TEXT NOT NULL,
+    reading TEXT,
+    value INTEGER,
+    display TEXT
+);
+
 CREATE TABLE pitch (
     word TEXT NOT NULL,
     reading TEXT NOT NULL,
@@ -78,3 +85,6 @@ SELECT word, reading, positions FROM pitch WHERE word IN ?;
 
 selectEntryReadings:
 SELECT entry_id, reading FROM entry_readings WHERE entry_id IN ?;
+
+selectFrequencies:
+SELECT word, reading, value, display FROM frequencies WHERE word IN ?;

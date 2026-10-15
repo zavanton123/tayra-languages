@@ -101,6 +101,39 @@ class YomitanConverterTest {
     }
 
     @Test
+    fun yomitansTestDictionaryKeepsEveryKindOfFrequencyAndItsKanji() = runTest {
+        val folder = java.io.File(javaClass.getResource("/yomitan/valid-dictionary1")!!.toURI())
+        val pack = YomitanConverter().convert(zip(*folder.listFiles()!!.sortedBy { it.name }.map { it.name to it.readText() }.toTypedArray()), "ja", "en")
+        val (frequencies, kanji) = readSqliteFile(pack, listOf(
+            SqliteQuery("SELECT reading, value, display FROM frequencies WHERE word = '打' ORDER BY rowid", 3),
+            SqliteQuery("SELECT character, meanings, onyomi, kunyomi, frequency FROM kanji ORDER BY character", 5),
+        ))
+        // 1, "four", "five (5)", {value}, {reading, frequency}: the number where there is one, the text where it is not just the number.
+        assertEquals(listOf(null, "1", null), frequencies[0])
+        assertEquals(listOf(null, null, "four"), frequencies[1])
+        assertEquals(listOf(null, "5", "five (5)"), frequencies[2])
+        assertTrue(listOf("だ", "8", null) in frequencies && listOf("ダース", "9", null) in frequencies, frequencies.toString())
+        assertEquals(listOf("打", "込"), kanji.map { it[0] })
+        assertEquals(listOf("ダ ダアス", "う.つ う.ち- ぶ.つ", "1"), kanji[0].drop(2))
+        assertTrue("utsu meaning 1" in kanji[0][1]!!)
+    }
+
+    @Test
+    fun aDictionaryOfFrequenciesAloneIsAPack() = runTest {
+        val frequencies = zip(
+            "index.json" to """{"title": "Word Ranks", "revision": "1", "format": 3, "frequencyMode": "rank-based"}""",
+            "term_meta_bank_1.json" to """[["дом", "freq", 120], ["кот", "freq", {"value": 900, "displayValue": "900㋕"}]]""",
+        )
+        val pack = YomitanConverter().convert(frequencies, "ru", "en")
+        val (rows, mode) = readSqliteFile(pack, listOf(
+            SqliteQuery("SELECT word, value, display FROM frequencies ORDER BY word", 3),
+            SqliteQuery("SELECT value FROM meta WHERE key = 'frequency_mode'", 1),
+        ))
+        assertEquals(listOf(listOf("дом", "120", null), listOf("кот", "900", "900㋕")), rows)
+        assertEquals("rank-based", mode.single().single())
+    }
+
+    @Test
     fun aZipWithoutAnIndexIsRefused() = runTest {
         assertFailsWith<Exception> { YomitanConverter().inspect(zip("term_bank_1.json" to "[]")) }
         assertFailsWith<Exception> { YomitanConverter().inspect("not a zip".toByteArray()) }

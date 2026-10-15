@@ -1,6 +1,7 @@
 package com.tayra.languages.core.data.repository
 
 import app.cash.sqldelight.async.coroutines.awaitAsList
+import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
 import com.tayra.languages.core.data.db.databaseDispatcher
 import com.tayra.languages.core.data.dictionary.DictionaryDatabase
 import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
@@ -10,6 +11,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionarySense
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.dictionary.PitchAccent
+import com.tayra.languages.core.domain.dictionary.StoredFrequency
 import com.tayra.languages.core.domain.repository.DictionaryRepository
 import kotlinx.coroutines.withContext
 import kotlin.coroutines.cancellation.CancellationException
@@ -76,6 +78,18 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
                 )
             }
         }.getOrElse { if (it is CancellationException) throw it else emptyList() }
+    }
+
+    override suspend fun frequencies(dictionary: DictionaryId, words: Collection<String>): Map<String, List<StoredFrequency>> = withContext(databaseDispatcher) {
+        val db = databases.database(dictionary) ?: return@withContext emptyMap()
+        runCatching {
+            words.distinct().chunked(MAX_PARAMETERS).flatMap { db.dictionaryQueries.selectFrequencies(it).awaitAsList() }
+                .groupBy({ it.word }, { StoredFrequency(it.reading, it.value_?.toInt(), it.display) })
+        }.getOrElse { if (it is CancellationException) throw it else emptyMap() }
+    }
+
+    override suspend fun meta(dictionary: DictionaryId, key: String): String? = withContext(databaseDispatcher) {
+        databases.database(dictionary)?.dictionaryQueries?.selectMeta(key)?.awaitAsOneOrNull()
     }
 
     override suspend fun lemmas(dictionary: DictionaryId, formLc: String): List<String> = withContext(databaseDispatcher) {

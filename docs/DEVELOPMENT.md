@@ -227,7 +227,12 @@ Any Yomitan dictionary can be imported from the Dictionaries screen. `YomitanCon
 reads the zip with `ZipArchive`, whose entries are inflated per platform (`Inflater`, zlib on iOS,
 `DecompressionStream` on the web), and converts it in Kotlin the way the Python tool converts wty's:
 term banks to entries and forms, wty's glosses lists, other dictionaries' glossary lists or list
-items or text as senses, and pitch accents and IPA from the term meta banks. The pack is written
+items or text as senses, pitch accents, IPA and frequencies from the term meta banks (a
+`frequencies` table, with the index's `frequencyMode` in the meta table), and kanji from the kanji
+banks (the `kanji` table, its strokes, grade and JLPT level read from the banks' stats). A
+dictionary of frequencies or kanji alone is a pack of those alone: the term pane labels entries
+with the frequencies of the pair's imported dictionaries, and its kanji panel fills in from them
+what the app's pack lacks. The pack is written
 with `newSqliteFile` and stored by `DictionaryPackStore.installFile` as `imported-<key>`; the list
 of imported dictionaries is kept in the settings (`SettingsImportedDictionaryStore`). Japanese and
 Chinese words get an entry per reading (打つ read うつ and ぶつ), each entry's reading in the optional

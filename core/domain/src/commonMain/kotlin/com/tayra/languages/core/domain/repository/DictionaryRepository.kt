@@ -4,6 +4,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryEntry
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.dictionary.PitchAccent
+import com.tayra.languages.core.domain.dictionary.StoredFrequency
 
 /** Read access to the installed dictionary databases. */
 interface DictionaryRepository {
@@ -26,6 +27,12 @@ interface DictionaryRepository {
 
     /** KANJIDIC's entries for these characters, in their order; empty for a pack without them. */
     suspend fun kanji(dictionary: DictionaryId, characters: List<String>): List<KanjiInfo> = emptyList()
+
+    /** The frequencies the pack gives these words, by word; empty for a pack without them. */
+    suspend fun frequencies(dictionary: DictionaryId, words: Collection<String>): Map<String, List<StoredFrequency>> = emptyMap()
+
+    /** A value of the pack's meta table, null when it has none. */
+    suspend fun meta(dictionary: DictionaryId, key: String): String? = null
 
     /** Closes the dictionary so its file can be replaced or deleted. */
     suspend fun close(dictionary: DictionaryId)

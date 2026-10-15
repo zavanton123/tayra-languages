@@ -26,7 +26,20 @@ data class DictionaryEntry(
     val pitch: List<PitchAccent> = emptyList(),
     /** The title of the imported dictionary the entry comes from; null for the app's own pack. */
     val dictionary: String? = null,
+    /** How common the imported frequency dictionaries say the word is. */
+    val frequencies: List<WordFrequency> = emptyList(),
 )
+
+/**
+ * How common a frequency dictionary says a word is: [value] is a rank (1 the most common) when
+ * [rankBased], else a count; [display] is the dictionary's own text for it, when it has one.
+ */
+data class WordFrequency(val dictionary: String, val value: Int?, val display: String?, val rankBased: Boolean) {
+    val label: String get() = display ?: value?.let { if (rankBased) "#$it" else "$it" }.orEmpty()
+}
+
+/** A frequency as a pack stores it, for the word in one reading or in all of them. */
+data class StoredFrequency(val reading: String?, val value: Int?, val display: String?)
 
 /**
  * A Japanese pitch accent: the reading and the mora after which the pitch falls (its downstep),
