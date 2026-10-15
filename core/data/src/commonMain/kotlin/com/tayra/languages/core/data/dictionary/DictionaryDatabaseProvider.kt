@@ -3,12 +3,17 @@ package com.tayra.languages.core.data.dictionary
 import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.domain.dictionary.DictionaryId
+import com.tayra.languages.core.domain.dictionary.DictionaryPack
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 
 /** Opens each installed pack once and rejects files whose format the app does not know. */
-class DictionaryDatabaseProvider(private val storage: DictionaryPackStorage) {
+class DictionaryDatabaseProvider(
+    private val storage: DictionaryPackStorage,
+    /** The pack a dictionary is, the imported ones among them. */
+    private val packOf: (DictionaryId) -> DictionaryPack? = DictionaryPacks::find,
+) {
     private val mutex = Mutex()
     private val open = mutableMapOf<DictionaryId, Opened?>()
 
@@ -23,7 +28,7 @@ class DictionaryDatabaseProvider(private val storage: DictionaryPackStorage) {
     }
 
     private suspend fun openChecked(dictionary: DictionaryId): Opened? {
-        val pack = DictionaryPacks.find(dictionary) ?: return null
+        val pack = packOf(dictionary) ?: return null
         val driver = try {
             storage.openDriver(pack)
         } catch (e: Exception) {

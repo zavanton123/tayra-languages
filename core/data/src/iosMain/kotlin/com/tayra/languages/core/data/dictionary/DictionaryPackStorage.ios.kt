@@ -41,8 +41,10 @@ actual class DictionaryPackStorage(private val downloader: DictionaryDownloader)
         return (attributes["NSFileSize"] as? Number)?.toLong()
     }
 
-    actual override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) {
-        val bytes = gunzip(downloader.download(pack.url, onProgress))
+    actual override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) = installFile(pack, gunzip(downloader.download(pack.url, onProgress)))
+
+    actual override suspend fun installFile(pack: DictionaryPack, sqlite: ByteArray) {
+        val bytes = sqlite
         NSFileManager.defaultManager.createDirectoryAtPath(directory, withIntermediateDirectories = true, attributes = null, error = null)
         val data = bytes.usePinned { pinned -> NSData.create(bytes = pinned.addressOf(0), length = bytes.size.toULong()) }
         check(data.writeToFile(path(pack), atomically = true)) { "Could not write ${path(pack)}" }

@@ -9,6 +9,7 @@ expect class DictionaryPackStorage : DictionaryPackStore {
     override suspend fun installedSize(pack: DictionaryPack): Long?
     override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit)
     override suspend fun remove(pack: DictionaryPack)
+    override suspend fun installFile(pack: DictionaryPack, sqlite: ByteArray)
     /** A driver over the installed pack, or null when it is not installed. */
     suspend fun openDriver(pack: DictionaryPack): SqlDriver?
 }

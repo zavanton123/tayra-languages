@@ -89,6 +89,10 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import kotlinx.coroutines.flow.SharingStarted
+import com.tayra.languages.core.domain.dictionary.YomitanDictionaryInfo
+import kotlin.coroutines.cancellation.CancellationException
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn
@@ -118,15 +122,71 @@ class DictionariesViewModel(
 
     /** What the installed pack says about [word]. */
     suspend fun lookup(pack: DictionaryPack, word: String): DictionaryLookup = dictionaries.lookup(pack.id, word.trim())
+
+    val canImport: Boolean get() = dictionaries.canImport
+
+    private val _import = MutableStateFlow<DictionaryImport>(DictionaryImport.Idle)
+
+    /** How far importing a Yomitan dictionary has got. */
+    val import: StateFlow<DictionaryImport> = _import.asStateFlow()
+
+    /** Reads the picked file's index, so the user can say which languages it is for. */
+    fun pickImport(zip: ByteArray) = viewModelScope.launch {
+        _import.value = DictionaryImport.Reading
+        _import.value = try {
+            DictionaryImport.Ready(dictionaries.inspect(zip), zip)
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            DictionaryImport.Failed(e.message ?: "Not a Yomitan dictionary")
+        }
+    }
+
+    fun startImport(sourceLanguage: String, targetLanguage: String) {
+        val ready = _import.value as? DictionaryImport.Ready ?: return
+        viewModelScope.launch {
+            _import.value = DictionaryImport.Importing(ready.info.title, 0f)
+            _import.value = try {
+                val imported = dictionaries.import(ready.zip, sourceLanguage, targetLanguage) { progress ->
+                    _import.value = DictionaryImport.Importing(ready.info.title, progress)
+                }
+                DictionaryImport.Done(imported.title)
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                DictionaryImport.Failed(e.message ?: "The import failed")
+            }
+        }
+    }
+
+    fun dismissImport() {
+        _import.value = DictionaryImport.Idle
+    }
 }
 
-/** The pack's source and target language names, from its "Source → Target" title. */
-internal val DictionaryPack.sourceName: String get() = title.substringBefore(" →")
-internal val DictionaryPack.targetName: String get() = title.substringAfter("→ ", id.targetLanguage)
+/** Importing a Yomitan dictionary, from picking its file to its pack being installed. */
+sealed interface DictionaryImport {
+    data object Idle : DictionaryImport
+    data object Reading : DictionaryImport
+    class Ready(val info: YomitanDictionaryInfo, val zip: ByteArray) : DictionaryImport
+    data class Importing(val title: String, val progress: Float) : DictionaryImport
+    data class Done(val title: String) : DictionaryImport
+    data class Failed(val message: String) : DictionaryImport
+}
+
+/** The pack's source and target language names, from its "Source → Target" title; an imported one's title is its own. */
+internal val DictionaryPack.sourceName: String
+    get() = if (id.imported != null) DictionaryPacks.languageName(id.sourceLanguage) else title.substringBefore(" →")
+internal val DictionaryPack.targetName: String
+    get() = if (id.imported != null) DictionaryPacks.languageName(id.targetLanguage) else title.substringAfter("→ ", id.targetLanguage)
 
 /** The pack's title with the language names in the interface language. */
 internal val DictionaryPack.displayTitle: String
-    get() = "${tr(sourceName)} \u2192 ${tr(targetName)}" + if (id.glossary) " \u00b7 " + tr("word finder") else ""
+    get() = when {
+        id.imported != null -> "$title \u00b7 ${tr(sourceName)} \u2192 ${tr(targetName)}"
+        id.glossary -> "${tr(sourceName)} \u2192 ${tr(targetName)} \u00b7 " + tr("word finder")
+        else -> "${tr(sourceName)} \u2192 ${tr(targetName)}"
+    }
 
 internal fun DictionaryPack.matches(query: String): Boolean =
     query.isBlank() || title.contains(query.trim(), ignoreCase = true) || displayTitle.contains(query.trim(), ignoreCase = true)
@@ -177,6 +237,7 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
                 InstalledCard(packs, nativeName, viewModel)
                 AvailableCard(packs, learning, native, viewModel)
             }
+            if (viewModel.canImport) ImportDictionaryCard(viewModel, learning, native)
         }
     }
     testing?.let { pack -> TestLookupDialog(pack, viewModel, onDismiss = { testing = null }) }

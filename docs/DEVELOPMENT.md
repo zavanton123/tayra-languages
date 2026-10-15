@@ -218,6 +218,15 @@ language's words for one meaning, its label as the tag. They have the packs' lay
 listed in `DictionaryPacks.glossaries`) and are published in the `glossaries-v1` release. The term
 pane's "Find a … word from …" opens them; the Dictionaries screen lists only installed ones.
 
+Any Yomitan dictionary can be imported from the Dictionaries screen. `YomitanConverter` (core/data)
+reads the zip with `ZipArchive`, whose entries are inflated per platform (`Inflater`, zlib on iOS,
+`DecompressionStream` on the web), and converts it in Kotlin the way the Python tool converts wty's:
+term banks to entries and forms, wty's glosses lists, other dictionaries' glossary lists or list
+items or text as senses, and pitch accents and IPA from the term meta banks. The pack is written
+with `newSqliteFile` and stored by `DictionaryPackStore.installFile` as `imported-<key>`; the list
+of imported dictionaries is kept in the settings (`SettingsImportedDictionaryStore`). Lookups in a
+pair's pack add the entries of its imported dictionaries after their own, each named by its title.
+
 Android, iOS and desktop unpack a downloaded pack into app storage and open it read-only as a
 second SQLDelight database; the web build keeps the compressed file in the browser Cache API and
 inflates it in its own sql.js worker, which needs the pack host to allow cross-origin requests.

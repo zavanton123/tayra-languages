@@ -92,6 +92,7 @@ internal fun PhoneDictionariesScreen(
                 pill()
             }
             PhoneLookupCard(learning, nativeName, current, onDownload = { viewModel.download(it) }, onTest = onTest)
+            if (viewModel.canImport) ImportDictionaryCard(viewModel, learning, native)
             // A search belongs to the list it was typed into.
             PhoneSegments(tab, installed.size) { tab = it; query = "" }
             OutlinedTextField(

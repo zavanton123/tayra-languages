@@ -33,6 +33,10 @@ import com.tayra.languages.core.data.repository.DatabaseMaintenanceImpl
 import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
 import com.tayra.languages.core.data.dictionary.DictionaryDownloader
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
+import com.tayra.languages.core.data.yomitan.YomitanConverter
+import com.tayra.languages.core.data.dictionary.SettingsImportedDictionaryStore
+import com.tayra.languages.core.domain.dictionary.DictionaryPacks
+import com.tayra.languages.core.domain.dictionary.ImportedDictionaries
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
@@ -107,9 +111,10 @@ val dataModule: Module = module {
     single<DatabaseMaintenance> { DatabaseMaintenanceImpl(get()) }
     single { DictionaryDownloader(get()) }
     single<DictionaryPackStore> { get<DictionaryPackStorage>() }
-    single { DictionaryDatabaseProvider(get()) }
+    single { ImportedDictionaries(SettingsImportedDictionaryStore(get<Settings>())) }
+    single { DictionaryDatabaseProvider(get()) { id -> DictionaryPacks.find(id) ?: get<ImportedDictionaries>().pack(id) } }
     single<DictionaryRepository> { DictionaryRepositoryImpl(get()) }
-    single { DictionaryService(get(), get()) }
+    single { DictionaryService(get(), get(), get(), YomitanConverter()) }
     single { WordTranslationService(get(), get<DictionaryService>(), get(), get()) }
     single<OfflineDictionary> { get<DictionaryService>() }
 

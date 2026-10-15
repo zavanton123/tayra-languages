@@ -9,6 +9,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.service.DictionaryService
+import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.service.WordRecordings
@@ -242,7 +243,9 @@ class TermFormViewModel(
 
     private suspend fun lookupDictionary(text: String, language: Language?): DictionaryLookup {
         if (language == null || text.isBlank()) return DictionaryLookup.EMPTY
-        val id = DictionaryPacks.find(LanguageCodes.codeFor(language.name), settings.current.nativeLanguage)?.id ?: return DictionaryLookup.EMPTY
+        val code = LanguageCodes.codeFor(language.name) ?: return DictionaryLookup.EMPTY
+        // A pair with no pack of the app's may still have imported dictionaries.
+        val id = DictionaryPacks.find(code, settings.current.nativeLanguage)?.id ?: DictionaryId(code, settings.current.nativeLanguage.ifBlank { "en" })
         val lookup = dictionary.lookup(id, text)
         val kanji = dictionary.kanji(id, text)
         _state.update { it.copy(dictionary = lookup, kanji = kanji) }

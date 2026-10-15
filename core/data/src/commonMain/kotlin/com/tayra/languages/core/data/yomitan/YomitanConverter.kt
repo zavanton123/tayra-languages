@@ -5,6 +5,8 @@ import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.YomitanDictionaryInfo
 import com.tayra.languages.core.domain.dictionary.YomitanImporter
 import com.tayra.languages.core.domain.morphology.Unicode
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
@@ -31,13 +33,13 @@ class YomitanConverter : YomitanImporter {
 
     override suspend fun inspect(zip: ByteArray): YomitanDictionaryInfo = info(ZipArchive(zip))
 
-    override suspend fun convert(zip: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit): ByteArray {
+    override suspend fun convert(zip: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit): ByteArray = withContext(Dispatchers.Default) {
         val archive = ZipArchive(zip)
         val info = info(archive)
         val content = read(archive, sourceLanguage, onProgress)
         if (content.entries.isEmpty()) throw ZipException("${info.title} has no terms")
         onProgress(0.95f)
-        return newSqliteFile(statements(content, info, sourceLanguage, targetLanguage))
+        newSqliteFile(statements(content, info, sourceLanguage, targetLanguage))
     }
 
     private suspend fun info(archive: ZipArchive): YomitanDictionaryInfo {

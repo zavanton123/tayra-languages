@@ -21,6 +21,8 @@ actual class DictionaryPackStorage(
 
     actual override suspend fun remove(pack: DictionaryPack) = files.remove(pack.id.name)
 
+    actual override suspend fun installFile(pack: DictionaryPack, sqlite: ByteArray) = files.installFile(pack.id.name, sqlite, DictionaryId.FORMAT)
+
     actual suspend fun openDriver(pack: DictionaryPack): SqlDriver? {
         if (files.installedSize(pack.id.name, DictionaryId.FORMAT) == null) return null
         val properties = Properties().apply { put("open_mode", "1") } // SQLITE_OPEN_READONLY

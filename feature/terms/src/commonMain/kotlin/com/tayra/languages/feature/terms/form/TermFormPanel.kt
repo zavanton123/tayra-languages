@@ -881,6 +881,9 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, o
                 if (entry.ipa != null) Text(entry.ipa!!, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 SpeakButton(entry.word, languageCode, speaker, Modifier.size(32.dp))
             }
+            entry.dictionary?.let {
+                Text(it, style = MaterialTheme.typography.labelMedium, color = colors.tertiary, modifier = Modifier.padding(start = 2.dp).testTag("entry-dictionary"))
+            }
             if (entry.pitch.isNotEmpty()) {
                 PitchAccents(entry.pitch, isVerbOrAdjective = entry.pos in VERB_OR_ADJECTIVE, modifier = Modifier.padding(start = 2.dp, top = 2.dp, bottom = 2.dp))
             }

@@ -29,6 +29,17 @@ internal class PackFiles(private val directory: File, private val downloader: Di
         stamp(name).writeText(format.toString())
     }
 
+    /** Stores a pack made on the device, its SQLite file as it is. */
+    fun installFile(name: String, sqlite: ByteArray, format: Int) {
+        directory.mkdirs()
+        val target = file(name)
+        val temp = File(target.path + ".tmp")
+        temp.writeBytes(sqlite)
+        target.delete()
+        check(temp.renameTo(target)) { "Could not move ${temp.path} to ${target.path}" }
+        stamp(name).writeText(format.toString())
+    }
+
     fun remove(name: String) {
         stamp(name).delete()
         file(name).delete()

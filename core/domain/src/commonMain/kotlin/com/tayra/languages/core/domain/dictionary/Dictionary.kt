@@ -24,6 +24,8 @@ data class DictionaryEntry(
     val reading: String? = null,
     /** The word's Japanese pitch accents, one per reading and accent. */
     val pitch: List<PitchAccent> = emptyList(),
+    /** The title of the imported dictionary the entry comes from; null for the app's own pack. */
+    val dictionary: String? = null,
 )
 
 /**
@@ -147,6 +149,9 @@ object DictionaryPacks {
         }
     }.sortedBy { it.title }
 
+    /** A language's English name, by its code; the code itself when no pack has the language. */
+    fun languageName(code: String): String = names[code] ?: code
+
     /** Every published dictionary of words; a pair the Wiktionaries cover too thinly has none. */
     val all: List<DictionaryPack> = published.filter { !it.id.glossary }
 
@@ -184,6 +189,9 @@ interface DictionaryPackStore {
     /** Downloads and stores the pack, reporting progress 0..1 (or null when unknown). Throws when the download fails. */
     suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit)
     suspend fun remove(pack: DictionaryPack)
+
+    /** Stores an imported dictionary's pack, the SQLite file itself. */
+    suspend fun installFile(pack: DictionaryPack, sqlite: ByteArray): Unit = throw UnsupportedOperationException("Importing dictionaries is not supported here")
 }
 
 /** Looks words up in the installed dictionaries. */

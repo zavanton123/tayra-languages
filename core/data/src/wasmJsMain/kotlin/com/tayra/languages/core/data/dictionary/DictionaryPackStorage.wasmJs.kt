@@ -6,6 +6,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPack
 import com.tayra.languages.core.domain.dictionary.DictionaryPackStore
 import kotlinx.coroutines.await
 import org.w3c.dom.Worker
+import kotlin.io.encoding.Base64
 import kotlin.js.Promise
 
 internal fun cacheInstall(url: String): Promise<JsAny?> = js(
@@ -28,6 +29,17 @@ internal fun cacheRemove(url: String): Promise<JsAny?> = js(
 
 internal fun loadMessage(url: String): JsAny = js("({ action: 'load', url: url })")
 
+/** Stores the base64 SQLite file under [url], gzip-compressed as the downloaded packs are, for the worker to open. */
+internal fun cachePut(url: String, base64: String): Promise<JsAny?> = js(
+    """(function () {
+        var binary = atob(base64);
+        var bytes = new Uint8Array(binary.length);
+        for (var i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+        var packed = new Response(new Blob([bytes]).stream().pipeThrough(new CompressionStream('gzip')));
+        return caches.open('tayra-dictionaries').then(function (cache) { return cache.put(url, packed); }).then(function () { return null; });
+    })()""",
+)
+
 /**
  * Browsers have no file system, so packs live in the Cache API under their download URL and
  * are inflated into a sql.js worker (served by the web app as dictionary.worker.js) when opened.
@@ -39,6 +51,10 @@ actual class DictionaryPackStorage : DictionaryPackStore {
     actual override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) {
         onProgress(null)
         cacheInstall(pack.url).await<JsAny?>()
+    }
+
+    actual override suspend fun installFile(pack: DictionaryPack, sqlite: ByteArray) {
+        cachePut(pack.url, Base64.encode(sqlite)).await<JsAny?>()
     }
 
     actual override suspend fun remove(pack: DictionaryPack) {

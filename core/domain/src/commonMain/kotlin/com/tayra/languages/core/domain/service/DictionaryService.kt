@@ -10,6 +10,10 @@ import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.dictionary.DictionaryEntry
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
+import com.tayra.languages.core.domain.dictionary.ImportedDictionaries
+import com.tayra.languages.core.domain.dictionary.ImportedDictionary
+import com.tayra.languages.core.domain.dictionary.YomitanDictionaryInfo
+import com.tayra.languages.core.domain.dictionary.YomitanImporter
 import com.tayra.languages.core.domain.morphology.Chinese
 import com.tayra.languages.core.domain.morphology.Japanese
 import com.tayra.languages.core.domain.morphology.LanguageMorphology
@@ -24,16 +28,28 @@ import kotlinx.coroutines.flow.update
 class DictionaryService(
     private val store: DictionaryPackStore,
     private val repository: DictionaryRepository,
+    /** The dictionaries the user imported, looked up with the pack of their language pair. */
+    private val imported: ImportedDictionaries? = null,
+    private val importer: YomitanImporter? = null,
 ) : OfflineDictionary {
 
     private val _packs = MutableStateFlow(DictionaryPacks.everything.map { PackStatus(it, PackState.NotInstalled) })
 
-    /** Every known pack with its current state, in catalog order. */
+    /** Every known pack with its current state, in catalog order, the imported ones last. */
     val packs: StateFlow<List<PackStatus>> = _packs.asStateFlow()
+
+    /** Whether dictionaries can be imported here. */
+    val canImport: Boolean get() = imported != null && importer != null
 
     /** Reads which packs are on the device; call once at start. */
     suspend fun refresh() {
-        for (pack in DictionaryPacks.everything) {
+        imported?.let { registry ->
+            registry.load()
+            val known = _packs.value.map { it.pack.id }.toSet()
+            val added = registry.all.value.filter { it.id !in known }.map { PackStatus(it.pack, PackState.NotInstalled) }
+            _packs.update { it + added }
+        }
+        for (pack in _packs.value.map { it.pack }) {
             val current = stateOf(pack.id)
             if (current is PackState.Downloading) continue
             val size = store.installedSize(pack)
@@ -57,13 +73,55 @@ class DictionaryService(
     suspend fun remove(pack: DictionaryPack) {
         repository.close(pack.id)
         store.remove(pack)
-        setState(pack.id, PackState.NotInstalled)
+        if (pack.id.imported != null) {
+            imported?.remove(pack.id)
+            _packs.update { list -> list.filter { it.pack.id != pack.id } }
+        } else {
+            setState(pack.id, PackState.NotInstalled)
+        }
+    }
+
+    /** What the Yomitan dictionary in [zip] says of itself; throws when it is not one. */
+    suspend fun inspect(zip: ByteArray): YomitanDictionaryInfo = (importer ?: error("Importing dictionaries is not supported here")).inspect(zip)
+
+    /**
+     * Imports the Yomitan dictionary in [zip] as words of [sourceLanguage] explained in
+     * [targetLanguage]; from then on lookups in that pair's pack show its entries too. Throws on failure.
+     */
+    suspend fun import(zip: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit = {}): ImportedDictionary {
+        val registry = imported ?: error("Importing dictionaries is not supported here")
+        val converter = importer ?: error("Importing dictionaries is not supported here")
+        val info = converter.inspect(zip)
+        val sqlite = converter.convert(zip, sourceLanguage, targetLanguage, onProgress)
+        val dictionary = ImportedDictionary(
+            ImportedDictionary.keyFor(info.title, registry.all.value.map { it.key }), info.title, info.revision,
+            sourceLanguage, targetLanguage, sqlite.size.toLong(),
+        )
+        store.installFile(dictionary.pack, sqlite)
+        registry.add(dictionary)
+        _packs.update { it + PackStatus(dictionary.pack, PackState.Installed(store.installedSize(dictionary.pack) ?: sqlite.size.toLong())) }
+        return dictionary
     }
 
     override suspend fun isAvailable(dictionary: DictionaryId): Boolean =
         stateOf(dictionary) is PackState.Installed && repository.isAvailable(dictionary)
 
     override suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup {
+        val own = lookupIn(dictionary, text)
+        if (dictionary.glossary || dictionary.imported != null) return own
+        // The imported dictionaries of the pair add their entries after the pack's own, each named.
+        val extra = _packs.value.filter { status ->
+            val id = status.pack.id
+            id.imported != null && id.sourceLanguage == dictionary.sourceLanguage && id.targetLanguage == dictionary.targetLanguage && status.state is PackState.Installed
+        }.map { status -> status.pack.title to lookupIn(status.pack.id, text) }.filter { !it.second.isEmpty }
+        if (extra.isEmpty()) return own
+        return DictionaryLookup(
+            own.entries + extra.flatMap { (title, found) -> found.entries.map { it.copy(dictionary = title) } },
+            (own.lemmas + extra.flatMap { it.second.lemmas }).distinct(),
+        )
+    }
+
+    private suspend fun lookupIn(dictionary: DictionaryId, text: String): DictionaryLookup {
         val found = find(dictionary, text)
         if (found.isEmpty || dictionary.sourceLanguage !in READING_LANGUAGES) return found
         val words = found.entries.map { it.word }

@@ -1,5 +1,9 @@
 package com.tayra.languages.core.domain.dictionary
 
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
 /** What a Yomitan dictionary's index says of it; its languages only when its format has them. */
 data class YomitanDictionaryInfo(
     val title: String,
@@ -50,4 +54,26 @@ data class ImportedDictionary(
 interface ImportedDictionaryStore {
     suspend fun list(): List<ImportedDictionary>
     suspend fun save(dictionaries: List<ImportedDictionary>)
+}
+
+/** The imported dictionaries, kept in [store] and known in memory so their packs can be opened by id. */
+class ImportedDictionaries(private val store: ImportedDictionaryStore) {
+    private val _all = MutableStateFlow<List<ImportedDictionary>>(emptyList())
+    val all: StateFlow<List<ImportedDictionary>> = _all.asStateFlow()
+
+    suspend fun load() {
+        _all.value = store.list()
+    }
+
+    fun pack(id: DictionaryId): DictionaryPack? = _all.value.firstOrNull { it.id == id }?.pack
+
+    suspend fun add(dictionary: ImportedDictionary) {
+        _all.value = _all.value.filter { it.key != dictionary.key } + dictionary
+        store.save(_all.value)
+    }
+
+    suspend fun remove(id: DictionaryId) {
+        _all.value = _all.value.filter { it.id != id }
+        store.save(_all.value)
+    }
 }
