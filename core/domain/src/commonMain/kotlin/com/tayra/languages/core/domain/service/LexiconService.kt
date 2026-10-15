@@ -31,7 +31,7 @@ class LexiconService(
         if (runCatching { language.parser }.getOrNull() !is SegmentingParser) return
         val code = LanguageCodes.codeFor(language.name) ?: return
         val packs = dictionaries.packs.value
-            .filter { it.pack.id.sourceLanguage == code && !it.pack.id.glossary && it.state is PackState.Installed }
+            .filter { it.pack.id.sourceLanguage == code && !it.pack.id.glossary && !it.pack.id.isNames && it.state is PackState.Installed }
             .map { it.pack.id }.toSet()
         mutex.withLock {
             if (loadedFrom[code] == packs && Lexicons[code] != null) return

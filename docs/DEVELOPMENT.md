@@ -246,7 +246,11 @@ keeps for search only or marks irregular (they become forms); the entries JMdict
 (news1, ichi1, spec1, gai1) are listed in a `common_entries` table, badged in the term pane and
 ranked first. The Chinese-English pack likewise adds CC-CEDICT's entries (MDBG, CC BY-SA 4.0, read by
 `tools/cedict.py` from `dictionaries/chinese/`) for the words and readings wty lacks, each simplified
-spelling a form of its traditional headword and its measure words a tag. These tables are optional:
+spelling a form of its traditional headword and its measure words a tag. `tools/build_jmnedict.py`
+builds ja-names, Japanese names from JMnedict (EDRDG, CC BY-SA 4.0), an entry per spelling with a
+sense per reading; installed, it adds its names after the entries of every Japanese lookup,
+labelled JMnedict, but stays out of the lexicon that cuts text and of the readings above it.
+These tables are optional:
 the app reads them where a pack has them, and the format stays 1. Downloads are cached in `dictionaries/wty/`; built packs are
 recorded in `dictionaries/wty/built.json`, and `--write-catalog` writes them into
 `DictionaryPackSizes.kt` as the `dictionaries-v2` release, to which the files are uploaded. wty has

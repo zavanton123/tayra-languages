@@ -111,8 +111,11 @@ class DictionaryService(
         val own = lookupIn(dictionary, text)
         if (dictionary.glossary || dictionary.imported != null) return own
         val pair = importedOf(dictionary)
-        // The imported dictionaries of the pair add their entries after the pack's own, each named.
-        val extra = pair.map { pack -> pack.title to lookupIn(pack.id, text) }.filter { !it.second.isEmpty }
+        // The imported dictionaries of the pair add their entries after the pack's own, each named,
+        // and so does the language's pack of names when it is installed.
+        val names = DictionaryId(dictionary.sourceLanguage, DictionaryId.NAMES).takeIf { it != dictionary && stateOf(it) is PackState.Installed }
+        val extra = (pair.map { pack -> pack.title to lookupIn(pack.id, text) } + listOfNotNull(names?.let { NAMES_TITLE to lookupIn(it, text) }))
+            .filter { !it.second.isEmpty }
         val merged = if (extra.isEmpty()) own else DictionaryLookup(
             own.entries + extra.flatMap { (title, found) -> found.entries.map { it.copy(dictionary = title) } },
             (own.lemmas + extra.flatMap { it.second.lemmas }).distinct(),
@@ -302,6 +305,9 @@ class DictionaryService(
 
     /** Languages whose packs give headwords a reading (kana, pinyin). */
     private val READING_LANGUAGES = setOf("ja", "zh")
+    /** How the entries of a pack of names are labelled, by its source. */
+    private val NAMES_TITLE = "JMnedict"
+
     /** More would push the meanings out of the pane for a long phrase. */
     private val MAX_KANJI = 8
 

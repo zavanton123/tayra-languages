@@ -22,7 +22,7 @@ class WordReadings(private val dictionary: OfflineDictionary, private val settin
     suspend fun of(language: Language, words: Collection<String>): Map<String, List<Furigana>> {
         val code = LanguageCodes.codeFor(language.name)?.takeIf { it in LANGUAGES } ?: return emptyMap()
         val native = settings.current.nativeLanguage
-        val packs = DictionaryPacks.all.filter { it.id.sourceLanguage == code }.sortedBy { if (it.id.targetLanguage == native) 0 else 1 }
+        val packs = DictionaryPacks.all.filter { it.id.sourceLanguage == code && !it.id.isNames }.sortedBy { if (it.id.targetLanguage == native) 0 else 1 }
         val pack = packs.firstOrNull { dictionary.isAvailable(it.id) } ?: return emptyMap()
         val out = HashMap<String, List<Furigana>>()
         for (word in words.distinct()) {

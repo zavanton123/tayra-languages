@@ -187,6 +187,40 @@ class MorphologyLookupTest {
     }
 
     @Test
+    fun aJapaneseLookupAddsTheNamesOfTheNamesPack() = runTest {
+        fun pack(rows: List<Triple<String, String, String>>, forms: List<Pair<String, String>> = emptyList()): ByteArray {
+            val file = File.createTempFile("tayra-names", ".sqlite").also { it.delete() }
+            val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
+            fun q(s: String) = "'" + s.replace("'", "''") + "'"
+            listOf(
+                "CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL)",
+                "CREATE TABLE entries (id INTEGER NOT NULL PRIMARY KEY, word TEXT NOT NULL, word_lc TEXT NOT NULL, pos TEXT NOT NULL, ipa TEXT, senses TEXT NOT NULL)",
+                "CREATE TABLE forms (form_lc TEXT NOT NULL, lemma TEXT NOT NULL, generated INTEGER NOT NULL DEFAULT 0)",
+                "INSERT INTO meta VALUES ('format', '${DictionaryId.FORMAT}')",
+            ).forEach { driver.execute(null, it, 0) }
+            for ((word, pos, gloss) in rows) driver.execute(null, "INSERT INTO entries(word, word_lc, pos, senses) VALUES (${q(word)}, ${q(word)}, ${q(pos)}, ${q("[{\"glosses\":[\"$gloss\"]}]")})", 0)
+            for ((form, lemma) in forms) driver.execute(null, "INSERT INTO forms VALUES (${q(form)}, ${q(lemma)}, 0)", 0)
+            driver.close()
+            return ByteArrayOutputStream().also { out -> GZIPOutputStream(out).use { it.write(file.readBytes()) } }.toByteArray().also { file.delete() }
+        }
+        val words = pack(listOf(Triple("小池", "noun", "small pond")))
+        val names = pack(listOf(Triple("小池", "name", "Koike (こいけ)"), Triple("百合子", "name", "Yuriko (ゆりこ)")), listOf("ゆりこ" to "百合子"))
+        val storage = DictionaryPackStorage(
+            DictionaryDownloader(HttpClient(MockEngine { request -> respond(if ("ja-names" in request.url.toString()) names else words) })),
+            Files.createTempDirectory("tayra-names").toFile(),
+        )
+        val service = DictionaryService(storage, DictionaryRepositoryImpl(DictionaryDatabaseProvider(storage)))
+        service.refresh()
+        val ja = DictionaryPacks.find("ja", "en")!!
+        service.download(ja)
+        assertEquals(listOf("small pond"), service.lookup(ja.id, "小池").entries.map { it.senses.single().glosses.single() }, "no names until the names pack is installed")
+        service.download(DictionaryPacks.find(DictionaryId("ja", DictionaryId.NAMES))!!)
+        val koike = service.lookup(ja.id, "小池").entries
+        assertEquals(listOf("small pond" to null, "Koike (こいけ)" to "JMnedict"), koike.map { it.senses.single().glosses.single() to it.dictionary })
+        assertEquals(listOf("百合子"), service.lookup(ja.id, "ゆりこ").entries.map { it.word }, "a name written in kana finds its spelling")
+    }
+
+    @Test
     fun chineseIsFoundByItsPinyin() = runTest {
         val (service, zh) = service("zh", listOf(Triple("你好", "intj", "hello")), forms = listOf("nǐhǎo" to "你好", "nihao" to "你好"))
         assertEquals("你好", service.lookup(zh, "Nǐ hǎo").parentSuggestion)

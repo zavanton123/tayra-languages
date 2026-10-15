@@ -111,6 +111,9 @@ data class DictionaryLookup(val entries: List<DictionaryEntry>, val lemmas: List
  * is one the user brought, by its [ImportedDictionary.key].
  */
 data class DictionaryId(val sourceLanguage: String, val targetLanguage: String, val glossary: Boolean = false, val imported: String? = null) {
+    /** A pack of names (people, places, companies) rather than words: JMnedict's, for Japanese. */
+    val isNames: Boolean get() = targetLanguage == NAMES
+
     val name: String
         get() = when {
             imported != null -> "imported-$imported"
@@ -124,6 +127,9 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String, 
          * PRAGMA user_version; a file with another format is ignored.
          */
         const val FORMAT = 1
+
+        /** The "target language" of a pack of names, as its file is called: ja-names. */
+        const val NAMES = "names"
     }
 }
 
@@ -150,7 +156,7 @@ object DictionaryPacks {
         "ro" to "Romanian", "ru" to "Russian", "gd" to "Scottish Gaelic", "sr" to "Serbian",
         "sk" to "Slovak", "sl" to "Slovene", "es" to "Spanish", "sv" to "Swedish", "tl" to "Tagalog",
         "th" to "Thai", "tok" to "Toki Pona", "tr" to "Turkish", "uk" to "Ukrainian", "vi" to "Vietnamese",
-        "cy" to "Welsh", "yi" to "Yiddish",
+        "cy" to "Welsh", "yi" to "Yiddish", "names" to "Names",
     )
 
     private val published: List<DictionaryPack> = dictionaryPackReleases.flatMap { (release, sizes) ->
