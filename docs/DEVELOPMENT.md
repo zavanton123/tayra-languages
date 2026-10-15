@@ -189,7 +189,14 @@ wty's tags, a transcription from wty's IPA dictionaries (the gloss language's ed
 "form of" entries, to which the forms of the language's English-gloss dictionary are added. Entries
 that only say a capitalised word is a name are dropped where an edition is full of them (the Greek
 Wiktionary has a bot-made entry for every surname), and a pack with fewer than 1,000 entries besides
-names is not written. Downloads are cached in `dictionaries/wty/`; built packs are
+names is not written. A sense keeps up to three of its example sentences with their
+translations (`examples` in the senses JSON). Japanese and Chinese packs also have a `readings`
+table (each headword's kana or pinyin, the pinyin without the other romanisations wty adds), and
+Japanese packs a `kanji` table from KANJIDIC2 (EDRDG, CC BY-SA 4.0: meanings in the gloss language
+where KANJIDIC2 has it, else English; on and kun readings, strokes, grade, JLPT level, frequency)
+and a `pitch` table from Kanjium (CC BY-SA 4.0; "The pitch accent notation was provided by Uros O.
+through his free database"), both read from `dictionaries/japanese/`. These tables are optional:
+the app reads them where a pack has them, and the format stays 1. Downloads are cached in `dictionaries/wty/`; built packs are
 recorded in `dictionaries/wty/built.json`, and `--write-catalog` writes them into
 `DictionaryPackSizes.kt` as the `dictionaries-v2` release, to which the files are uploaded. wty has
 no Breton dictionary, so Breton's packs are built from kaikki.org with `tools/build_dictionary.py`

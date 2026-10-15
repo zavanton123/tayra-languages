@@ -153,8 +153,41 @@ def tags_of(node):
     return out
 
 
+# Example sentences kept per sense; Wiktionary has dozens for some common words.
+MAX_EXAMPLES = 3
+
+
+def examples_of(node):
+    """The example sentences of a gloss line, with their translations: [{"text", "translation"}]."""
+    out = []
+
+    def walk(n):
+        if isinstance(n, list):
+            for x in n:
+                walk(x)
+        elif isinstance(n, dict):
+            if n.get("tag") in ("ol", "ul"):
+                return
+            if (n.get("data") or {}).get("content") == "example-sentence":
+                parts = {}
+                for child in n.get("content") if isinstance(n.get("content"), list) else [n.get("content")]:
+                    kind = (child.get("data") or {}).get("content") if isinstance(child, dict) else None
+                    if kind in ("example-sentence-a", "example-sentence-b"):
+                        parts[kind] = " ".join(text_of(child.get("content")).split())
+                if parts.get("example-sentence-a"):
+                    example = {"text": parts["example-sentence-a"]}
+                    if parts.get("example-sentence-b"):
+                        example["translation"] = parts["example-sentence-b"]
+                    out.append(example)
+                return
+            walk(n.get("content"))
+
+    walk(node)
+    return out[:MAX_EXAMPLES]
+
+
 def senses_of(node):
-    """Each item of the glosses lists, nested ones as senses of their own: (gloss, tags)."""
+    """Each item of the glosses lists, nested ones as senses of their own: (gloss, tags, examples)."""
     out = []
 
     def items(n):
@@ -165,7 +198,7 @@ def senses_of(node):
             if n.get("tag") == "li" and (n.get("data") or {}).get("content") not in ("synonym-item", "antonym-item"):
                 gloss = " ".join(text_of(n.get("content")).split())
                 if gloss:
-                    out.append((gloss, tags_of(n.get("content"))))
+                    out.append((gloss, tags_of(n.get("content")), examples_of(n.get("content"))))
                 items(nested_lists(n.get("content")))
                 return
             if (n.get("data") or {}).get("content") in SKIPPED_BLOCKS:
@@ -251,11 +284,13 @@ def read_dictionary(path, source, target=None):
                 senses.append({"glosses": [d.strip()]} | ({"tags": entry_tags} if entry_tags else {}))
                 continue
             if isinstance(d, dict) and d.get("type") == "structured-content":
-                for gloss, gloss_tags in senses_of(d.get("content")):
+                for gloss, gloss_tags, examples in senses_of(d.get("content")):
                     kept = [t for t in entry_tags + gloss_tags if t not in NOISE_TAGS]
                     sense = {"glosses": [gloss]}
                     if kept:
                         sense["tags"] = list(dict.fromkeys(kept))
+                    if examples:
+                        sense["examples"] = examples
                     senses.append(sense)
             elif isinstance(d, dict) and d.get("type") == "text" and d.get("text"):
                 senses.append({"glosses": [d["text"].strip()]})
@@ -268,6 +303,7 @@ def read_dictionary(path, source, target=None):
             key = (word, pos)
             if key in entries:
                 entries[key]["senses"].extend(s for s in senses if s not in entries[key]["senses"])
+                entries[key]["reading"] = entries[key]["reading"] or reading.strip() or None
             else:
                 entries[key] = {"word": word, "pos": pos, "senses": list(senses), "reading": reading.strip() or None}
             if reading and reading.strip() and reading.strip() != word:
@@ -291,6 +327,97 @@ def read_ipa(path, source):
             for word in spellings(row[0].strip()):
                 out.setdefault(word, ipa)
     return out
+
+
+# Languages whose words get a reading shown above them (furigana, pinyin): the reading wty gives
+# each headword. Cantonese's pack borrows the Chinese dictionary, whose readings are Mandarin.
+READING_LANGUAGES = {"ja", "zh"}
+JAPANESE = os.path.join(ROOT, "dictionaries", "japanese")
+# KANJIDIC2 has meanings in these languages; the other packs give its English ones.
+KANJI_MEANING_LANGUAGES = {"en", "fr", "es", "pt"}
+
+
+def clean_reading(source, reading):
+    """The reading as shown above a word: Chinese gives pinyin first and other romanisations after it in brackets."""
+    if not reading:
+        return None
+    if source == "zh":
+        reading = reading.split(" (")[0].strip()
+    return reading or None
+
+
+def kanji_rows(target):
+    """
+    One row per kanji of KANJIDIC2 (EDRDG, CC BY-SA 4.0): the character, its meanings in [target]
+    (or English), on and kun readings, stroke count, school grade, JLPT level and frequency rank.
+    """
+    import gzip
+    import xml.etree.ElementTree as ET
+    path = os.path.join(JAPANESE, "kanjidic2.xml.gz")
+    if not os.path.exists(path):
+        subprocess.run(["curl", "-fsSL", "-o", path, "http://www.edrdg.org/kanjidic/kanjidic2.xml.gz"], check=True)
+    language = target if target in KANJI_MEANING_LANGUAGES else "en"
+    rows = []
+    with gzip.open(path) as f:
+        for _, element in ET.iterparse(f):
+            if element.tag != "character":
+                continue
+            literal = element.findtext("literal")
+            misc = element.find("misc")
+            meanings, onyomi, kunyomi = [], [], []
+            for group in element.iter("rmgroup"):
+                for r in group.findall("reading"):
+                    if r.get("r_type") == "ja_on":
+                        onyomi.append(r.text)
+                    elif r.get("r_type") == "ja_kun":
+                        kunyomi.append(r.text)
+                for m in group.findall("meaning"):
+                    if (m.get("m_lang") or "en") == language:
+                        meanings.append(m.text)
+            def number(tag):
+                value = misc.findtext(tag) if misc is not None else None
+                return int(value) if value and value.isdigit() else None
+            if meanings or onyomi or kunyomi:
+                rows.append((literal, json.dumps(meanings, ensure_ascii=False), " ".join(onyomi), " ".join(kunyomi),
+                             number("stroke_count"), number("grade"), number("jlpt"), number("freq")))
+            element.clear()
+    return rows, language
+
+
+def pitch_rows():
+    """Kanjium's pitch accents (CC BY-SA 4.0): word, reading and the positions of the downstep, "0" for none."""
+    path = os.path.join(JAPANESE, "accents.txt")
+    if not os.path.exists(path):
+        subprocess.run(["curl", "-fsSL", "-o", path, "https://raw.githubusercontent.com/mifunetoshiro/kanjium/master/data/source_files/raw/accents.txt"], check=True)
+    rows = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) == 3 and parts[2]:
+                rows.append((parts[0], parts[1] or parts[0], parts[2]))
+    return rows
+
+
+def write_extras(db, source, target, rows):
+    """The tables only some packs have: readings, and for Japanese kanji and pitch accents."""
+    if source in READING_LANGUAGES:
+        readings = sorted({(e["word"], clean_reading(source, e.get("reading"))) for e in rows if clean_reading(source, e.get("reading")) not in (None, e["word"])})
+        db.executescript("CREATE TABLE readings (word TEXT NOT NULL, reading TEXT NOT NULL); CREATE INDEX readings_word ON readings(word);")
+        db.executemany("INSERT INTO readings VALUES (?, ?)", readings)
+    if source == "ja":
+        kanji, language = kanji_rows(target)
+        db.executescript(
+            "CREATE TABLE kanji (character TEXT NOT NULL PRIMARY KEY, meanings TEXT NOT NULL, onyomi TEXT NOT NULL, "
+            "kunyomi TEXT NOT NULL, strokes INTEGER, grade INTEGER, jlpt INTEGER, frequency INTEGER);"
+        )
+        db.executemany("INSERT OR IGNORE INTO kanji VALUES (?, ?, ?, ?, ?, ?, ?, ?)", kanji)
+        db.executescript("CREATE TABLE pitch (word TEXT NOT NULL, reading TEXT NOT NULL, positions TEXT NOT NULL); CREATE INDEX pitch_word ON pitch(word);")
+        db.executemany("INSERT INTO pitch VALUES (?, ?, ?)", pitch_rows())
+        db.executemany("INSERT INTO meta(key, value) VALUES (?, ?)", [
+            ("kanji_meanings_language", language),
+            ("kanji_source", "KANJIDIC2 (EDRDG, CC BY-SA 4.0)"),
+            ("pitch_source", "The pitch accent notation was provided by Uros O. through his free database Kanjium (CC BY-SA 4.0)"),
+        ])
 
 
 def english_forms(source, wty):
@@ -343,13 +470,14 @@ def build(source, target, out_path, wty_source=None, min_entries=1000):
     db.executemany(
         "INSERT INTO entries(id, word, word_lc, pos, ipa, senses) VALUES (?, ?, ?, ?, ?, ?)",
         (
-            (i + 1, e["word"], lowercase(e["word"], source), e["pos"], ipa.get(e["word"]) or e.get("reading"),
+            (i + 1, e["word"], lowercase(e["word"], source), e["pos"], ipa.get(e["word"]) or (None if source in READING_LANGUAGES else e.get("reading")),
              json.dumps(e["senses"], ensure_ascii=False, separators=(",", ":")))
             for i, e in enumerate(rows)
         ),
     )
     form_rows = sorted({(lowercase(form, source), lemma) for form, lemma in forms})
     db.executemany("INSERT INTO forms(form_lc, lemma, generated) VALUES (?, ?, 0)", form_rows)
+    write_extras(db, source, target, rows)
     finish_output(
         db, sqlite_path, out_path, source, target, len(rows), len(form_rows),
         f"wiktionary-to-yomitan wty-{wty}-{target} (Wiktionary via kaikki.org)",
