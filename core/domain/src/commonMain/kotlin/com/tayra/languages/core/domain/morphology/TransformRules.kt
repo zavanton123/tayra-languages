@@ -5,7 +5,6 @@ import com.tayra.languages.core.domain.morphology.rules.*
 /** The inflection rules exported from Yomitan (rules/<Code>Transforms.kt), by Yomitan's language code. */
 internal val transformRules: Map<String, () -> List<String>> = mapOf(
     "ar" to { arTransforms },
-    // Egyptian Arabic has the same rules as Modern Standard Arabic in Yomitan.
     "arz" to { arTransforms },
     "de" to { deTransforms },
     "el" to { elTransforms },
@@ -22,4 +21,6 @@ internal val transformRules: Map<String, () -> List<String>> = mapOf(
     "sq" to { sqTransforms },
     "tl" to { tlTransforms },
     "uk" to { ukTransforms },
+    "yi" to { yiTransforms },
+    // Egyptian Arabic has the same rules as Modern Standard Arabic in Yomitan.
 )

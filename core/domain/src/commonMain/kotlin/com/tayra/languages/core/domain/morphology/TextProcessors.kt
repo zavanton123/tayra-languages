@@ -52,6 +52,17 @@ internal object TextProcessors {
         "addHamzaBottom" to { s -> listOf(s, s.replaceFirst("ا", "إ")) },
         "convertAlifMaqsuraToYaa" to { s -> listOf(s, if (s.endsWith('ى')) s.dropLast(1) + 'ي' else s) },
         "convertHaToTaMarbuta" to { s -> listOf(s, if (s.endsWith('ه')) s.dropLast(1) + 'ة' else s) },
+        // Yiddish
+        "removeYiddishDiacritics" to { s -> listOf(yiddishPoints.replace(s, "")) },
+        "combineYiddishLigatures" to { s -> listOf(yiddishLigatures.fold(s) { acc, (lig, split) -> acc.replaceFirst(split, lig) }) },
+        "convertFinalLetters" to { s -> listOf(yiddishFinals[s.lastOrNull()]?.let { s.dropLast(1) + it } ?: s) },
+        "convertYiddishLigatures" to { s ->
+            listOf(
+                s,
+                yiddishLigatures.fold(s) { acc, (lig, split) -> acc.replaceFirst(lig, split) },
+                yiddishLigatures.fold(s) { acc, (lig, split) -> acc.replaceFirst(split, lig) },
+            )
+        },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
@@ -132,4 +143,15 @@ internal object TextProcessors {
     }
 
     private val arabicDiacritics = Regex("[ًؘؙؚ-ٰٖ]")
+
+    private val yiddishPoints = Regex("[ְ-ׇ]")
+
+    /** Each Yiddish ligature and the letters it joins (װ for וו). */
+    private val yiddishLigatures = listOf(
+        "װ" to "וו", "ױ" to "וי", "ײ" to "יי",
+        "יִ" to "יִ", "ײַ" to "ייַ", "אַ" to "אַ", "אָ" to "אָ",
+    )
+
+    /** The final forms of the letters that have one (מ to ם). */
+    private val yiddishFinals = mapOf('מ' to 'ם', 'נ' to 'ן', 'צ' to 'ץ', 'פ' to 'ף', 'כ' to 'ך')
 }

@@ -77,4 +77,9 @@ class TextProcessorsTest {
     fun egyptianArabic() {
         assertTrue("لغة" in spellings("arz", "لغه"))
     }
+
+    @Test
+    fun yiddish() {
+        assertTrue(spellings("yi", "פֿאָתּ").single() == "פאת")
+    }
 }
