@@ -61,6 +61,13 @@ class DictionaryService(
         stateOf(dictionary) is PackState.Installed && repository.isAvailable(dictionary)
 
     override suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup {
+        val found = find(dictionary, text)
+        if (found.isEmpty || dictionary.sourceLanguage !in READING_LANGUAGES) return found
+        val readings = repository.readings(dictionary, found.entries.map { it.word })
+        return if (readings.isEmpty()) found else found.copy(entries = found.entries.map { it.copy(reading = readings[it.word]) })
+    }
+
+    private suspend fun find(dictionary: DictionaryId, text: String): DictionaryLookup {
         if (stateOf(dictionary) !is PackState.Installed) return DictionaryLookup.EMPTY
         val word = text.trim()
         val wordLc = lowercase(word, dictionary)
@@ -167,6 +174,9 @@ class DictionaryService(
         (if (dictionary.sourceLanguage == "tr") word.replace('I', 'ı').replace('İ', 'i') else word).lowercase()
 
     private val DATED_TAGS = setOf("obsolete", "archaic", "dated", "rare", "historical")
+
+    /** Languages whose packs give headwords a reading (kana, pinyin). */
+    private val READING_LANGUAGES = setOf("ja", "zh")
 
     /** Languages whose words carry their particles and endings joined on, so a word's beginning may be the dictionary word. */
     private val PARTICLE_LANGUAGES = setOf("ko")

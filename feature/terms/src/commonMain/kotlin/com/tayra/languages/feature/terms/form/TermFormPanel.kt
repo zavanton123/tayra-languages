@@ -763,6 +763,7 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, o
             if (index > 0) HorizontalDivider(Modifier.padding(vertical = 6.dp), color = colors.outlineVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.padding(top = 4.dp)) {
                 Text(entry.word, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                entry.reading?.let { Text(it, style = MaterialTheme.typography.titleMedium, color = colors.primary) }
                 Text(entry.pos, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 if (entry.ipa != null) Text(entry.ipa!!, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 SpeakButton(entry.word, languageCode, speaker, Modifier.size(32.dp))

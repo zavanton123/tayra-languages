@@ -23,7 +23,13 @@ import kotlin.test.assertTrue
 /** Lookups that need a language's spelling variants and inflection rules, as Yomitan applies them. */
 class MorphologyLookupTest {
     /** A pack of [entries] (word, part of speech, gloss or the senses JSON itself) and [forms] (form, lemma) for [source] to English. */
-    private suspend fun service(source: String, entries: List<Triple<String, String, String>>, forms: List<Pair<String, String>> = emptyList()): Pair<DictionaryService, DictionaryId> {
+    private suspend fun service(
+        source: String,
+        entries: List<Triple<String, String, String>>,
+        forms: List<Pair<String, String>> = emptyList(),
+        /** Statements run on the pack after the entries, for its optional tables. */
+        extra: List<String> = emptyList(),
+    ): Pair<DictionaryService, DictionaryId> {
         val file = File.createTempFile("tayra-morph", ".sqlite").also { it.delete() }
         val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
         val format = DictionaryId.FORMAT
@@ -40,6 +46,7 @@ class MorphologyLookupTest {
             driver.execute(null, "INSERT INTO entries(word, word_lc, pos, senses) VALUES (${q(word)}, ${q(word.lowercase())}, ${q(pos)}, ${q(senses)})", 0)
         }
         for ((form, lemma) in forms) driver.execute(null, "INSERT INTO forms VALUES (${q(form)}, ${q(lemma)}, 0)", 0)
+        extra.forEach { driver.execute(null, it, 0) }
         driver.close()
         val packed = ByteArrayOutputStream().also { out -> GZIPOutputStream(out).use { it.write(file.readBytes()) } }.toByteArray()
         file.delete()
@@ -97,5 +104,15 @@ class MorphologyLookupTest {
         val examples = service.lookup(pt, "de").entries.single().senses.single().examples
         assertEquals(listOf("os amigos dele", "fones de ouvido"), examples.map { it.text })
         assertEquals(listOf("his friends", null), examples.map { it.translation })
+    }
+
+    @Test
+    fun japaneseAndChineseEntriesCarryTheirReadings() = runTest {
+        val readings = listOf("CREATE TABLE readings (word TEXT NOT NULL, reading TEXT NOT NULL)", "INSERT INTO readings VALUES ('使う', 'つかう')")
+        val (service, ja) = service("ja", listOf(Triple("使う", "verb", "to use")), extra = readings)
+        assertEquals("つかう", service.lookup(ja, "使って").entries.single().reading)
+        // A pack without the table still answers, without readings.
+        val (plain, zh) = service("zh", listOf(Triple("你好", "intj", "hello")))
+        assertEquals(null, plain.lookup(zh, "你好").entries.single().reading)
     }
 }

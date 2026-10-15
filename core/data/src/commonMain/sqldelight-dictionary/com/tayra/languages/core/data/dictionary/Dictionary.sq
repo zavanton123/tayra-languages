@@ -23,6 +23,29 @@ CREATE TABLE forms (
 
 CREATE INDEX forms_form_lc ON forms(form_lc);
 
+-- Optional tables: only the packs of some languages have them, so queries on them may fail.
+CREATE TABLE readings (
+    word TEXT NOT NULL,
+    reading TEXT NOT NULL
+);
+
+CREATE TABLE kanji (
+    character TEXT NOT NULL PRIMARY KEY,
+    meanings TEXT NOT NULL,
+    onyomi TEXT NOT NULL,
+    kunyomi TEXT NOT NULL,
+    strokes INTEGER,
+    grade INTEGER,
+    jlpt INTEGER,
+    frequency INTEGER
+);
+
+CREATE TABLE pitch (
+    word TEXT NOT NULL,
+    reading TEXT NOT NULL,
+    positions TEXT NOT NULL
+);
+
 selectMeta:
 SELECT value FROM meta WHERE key = :key;
 
@@ -37,3 +60,12 @@ SELECT word_lc FROM entries UNION SELECT form_lc FROM forms;
 
 selectLemmas:
 SELECT lemma FROM forms WHERE form_lc = :formLc ORDER BY generated, lemma;
+
+selectReadings:
+SELECT word, reading FROM readings WHERE word IN ?;
+
+selectKanji:
+SELECT * FROM kanji WHERE character IN ?;
+
+selectPitch:
+SELECT word, reading, positions FROM pitch WHERE word IN ?;

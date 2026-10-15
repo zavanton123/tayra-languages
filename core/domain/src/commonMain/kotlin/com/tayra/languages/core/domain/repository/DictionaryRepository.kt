@@ -16,6 +16,9 @@ interface DictionaryRepository {
     /** Every headword and form the pack has, lowercase: the lexicon a language written without spaces is cut into words with. */
     suspend fun words(dictionary: DictionaryId): Collection<String> = emptyList()
 
+    /** The readings (kana, pinyin) the pack gives these headwords, by headword; empty for a pack without readings. */
+    suspend fun readings(dictionary: DictionaryId, words: Collection<String>): Map<String, String> = emptyMap()
+
     /** Closes the dictionary so its file can be replaced or deleted. */
     suspend fun close(dictionary: DictionaryId)
 }

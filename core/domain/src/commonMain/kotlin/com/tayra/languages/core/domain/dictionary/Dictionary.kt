@@ -18,6 +18,8 @@ data class DictionaryEntry(
     val senses: List<DictionarySense>,
     val isOwnEntry: Boolean = true,
     val inflection: List<String> = emptyList(),
+    /** How the word is read, for languages whose script does not say it: kana for Japanese, pinyin for Chinese. */
+    val reading: String? = null,
 )
 
 /**
