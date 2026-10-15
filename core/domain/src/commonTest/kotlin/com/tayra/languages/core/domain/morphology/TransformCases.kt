@@ -22,3 +22,10 @@ internal fun checkTransformCases(rules: List<String>, cases: List<String>, prepr
     }
     if (failed.isNotEmpty()) fail("${failed.size} of ${cases.size} cases fail:\n" + failed.take(30).joinToString("\n"))
 }
+
+/** Checks rules Yomitan has no tests of against words they should lead back to their dictionary words. */
+internal fun checkDeinflections(rules: List<String>, vararg cases: Pair<String, String>) {
+    val transformer = LanguageTransformer(rules)
+    val missing = cases.filter { (word, lemma) -> transformer.transform(word).none { it.text == lemma } }
+    if (missing.isNotEmpty()) fail("not deinflected: $missing")
+}
