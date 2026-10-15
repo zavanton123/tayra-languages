@@ -63,6 +63,8 @@ internal object TextProcessors {
                 yiddishLigatures.fold(s) { acc, (lig, split) -> acc.replaceFirst(split, lig) },
             )
         },
+        // Assyrian Neo-Aramaic
+        "removeSyriacScriptDiacritics" to { s -> listOf(s, syriacDiacritics.replace(s, "")) },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */
@@ -154,4 +156,6 @@ internal object TextProcessors {
 
     /** The final forms of the letters that have one (מ to ם). */
     private val yiddishFinals = mapOf('מ' to 'ם', 'נ' to 'ן', 'צ' to 'ץ', 'פ' to 'ף', 'כ' to 'ך')
+
+    private val syriacDiacritics = Regex("[̣̮̰̱̃̄̇̈ܰ-݊]")
 }
