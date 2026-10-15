@@ -100,13 +100,31 @@ import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import com.tayra.languages.core.ui.components.EdgeScrollbar
 import com.tayra.languages.core.ui.components.ScrollColumn
+import com.tayra.languages.core.domain.ocr.TextRecognizer
+import com.tayra.languages.core.domain.ocr.OcrPack
+import com.tayra.languages.core.domain.ocr.NoTextRecognizer
 
 /** The downloadable offline dictionary packs and their state on this device. */
 class DictionariesViewModel(
     settings: SettingsRepository,
     private val dictionaries: DictionaryService,
     languages: LanguageRepository,
+    private val recognizer: TextRecognizer = NoTextRecognizer,
 ) : ViewModel() {
+    private val _ocrPacks = MutableStateFlow<List<OcrPack>>(emptyList())
+
+    /** The text recognition models downloaded for reading photos of pages. */
+    val ocrPacks: StateFlow<List<OcrPack>> = _ocrPacks.asStateFlow()
+
+    init {
+        viewModelScope.launch { _ocrPacks.value = recognizer.installedPacks() }
+    }
+
+    fun removeOcr(pack: OcrPack) = viewModelScope.launch {
+        recognizer.remove(pack)
+        _ocrPacks.value = recognizer.installedPacks()
+    }
+
     val settings: StateFlow<UserSettings> = settings.settings
     /** The dictionaries, and the word finders that are installed: the term pane offers the others. */
     val packs: StateFlow<List<PackStatus>> = dictionaries.packs
@@ -238,6 +256,7 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
                 AvailableCard(packs, learning, native, viewModel)
             }
             if (viewModel.canImport) ImportDictionaryCard(viewModel, learning, native)
+            TextRecognitionCard(viewModel)
         }
     }
     testing?.let { pack -> TestLookupDialog(pack, viewModel, onDismiss = { testing = null }) }
