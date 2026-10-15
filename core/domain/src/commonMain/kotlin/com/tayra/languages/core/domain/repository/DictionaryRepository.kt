@@ -13,6 +13,9 @@ interface DictionaryRepository {
     /** The entries for several lowercase spellings at once, by spelling. */
     suspend fun entries(dictionary: DictionaryId, wordsLc: Collection<String>): Map<String, List<DictionaryEntry>> =
         wordsLc.associateWith { entries(dictionary, it) }.filterValues { it.isNotEmpty() }
+    /** Every headword and form the pack has, lowercase: the lexicon a language written without spaces is cut into words with. */
+    suspend fun words(dictionary: DictionaryId): Collection<String> = emptyList()
+
     /** Closes the dictionary so its file can be replaced or deleted. */
     suspend fun close(dictionary: DictionaryId)
 }

@@ -94,8 +94,14 @@ replacing the generated one of the same name. Every language's one sample book
 is a tutorial on learning it with the app, written in that language: `tools/tutorial/<code>.txt`
 (English is the source), turned into `Tutorials.kt` by `tools/generate_tutorials.py`. Databases
 from before the tutorial lose the sample books they came with once (`RetiredSamples`, matched by
-title and a fingerprint of the text) and get the tutorial. Languages that
-need external tokenisers (Japanese, Thai, Khmer, Mandarin) are not supported. Any language
+title and a fingerprint of the text) and get the tutorial. Languages written
+without spaces between words (Chinese, Cantonese, Japanese, Thai, Lao, Khmer) are parsed by
+`SegmentingParser`, which cuts a run of the language's letters into the longest words of its
+`Lexicon`, from the left, as Yomitan scans text; Japanese also accepts a stretch that its Yomitan
+rules deinflect to a word ("食べました" for "食べる"). `LexiconService` gives a language its
+lexicon before a page is parsed: the words and forms of its frequency list and every headword and
+form of its installed dictionary packs, made again when the installed packs change. Without a
+lexicon, each Chinese character is a word and a Thai, Lao or Khmer run stays whole. Any language
 outside the catalog found in the database is removed on start together with its books and terms.
 
 ## Interface languages

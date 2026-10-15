@@ -35,6 +35,7 @@ class ReadingService(
     private val terms: TermRepository,
     private val wordsRead: WordsReadRepository,
     private val termService: TermService,
+    private val lexicons: LexiconService? = null,
     private val clock: Clock = Clock.System,
 ) {
 
@@ -49,6 +50,7 @@ class ReadingService(
         val order = pageNumber.coerceIn(1, maxOf(pageCount, 1))
         val page = books.getPage(bookId, order) ?: throw NoSuchElementException("No page $order in book $bookId")
 
+        lexicons?.prepare(language)
         books.replaceSentences(page.id, SentenceBuilder.build(page.text, language))
         books.clearStats(bookId)
         if (trackOpen) {
@@ -68,6 +70,7 @@ class ReadingService(
      * Renders text, persisting new status-0 terms so every word has a term id.
      */
     suspend fun renderPage(text: String, language: Language): RenderedPage {
+        lexicons?.prepare(language)
         val tokens = language.parseTokens(text)
         var found = findTermsInTokens(tokens, language)
         var result = TextItemCalculator.calculate(tokens, found, language)
@@ -93,14 +96,17 @@ class ReadingService(
 
     /** Renders text without touching the database (used for statistics). */
     suspend fun renderItems(text: String, language: Language, multiwordIndex: MultiwordTermIndex? = null): List<TextItem> {
+        lexicons?.prepare(language)
         val tokens = language.parseTokens(text)
         val found = findTermsInTokens(tokens, language, multiwordIndex)
         return TextItemCalculator.calculate(tokens, found, language).items
     }
 
     /** Saved terms (single and multi-word) contained in the text. */
-    suspend fun findTermsInText(text: String, language: Language): List<Term> =
-        findTermsInTokens(language.parseTokens(text.replace(Regex(" +"), " ")), language)
+    suspend fun findTermsInText(text: String, language: Language): List<Term> {
+        lexicons?.prepare(language)
+        return findTermsInTokens(language.parseTokens(text.replace(Regex(" +"), " ")), language)
+    }
 
     suspend fun findTermsInTokens(
         tokens: List<ParsedToken>,

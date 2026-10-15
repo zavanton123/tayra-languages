@@ -31,6 +31,10 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
             .groupBy({ it.word_lc }, { row -> DictionaryEntry(row.word, row.pos, row.ipa, parseSenses(row.senses)) })
     }
 
+    override suspend fun words(dictionary: DictionaryId): Collection<String> = withContext(databaseDispatcher) {
+        databases.database(dictionary)?.dictionaryQueries?.selectWords()?.awaitAsList().orEmpty()
+    }
+
     override suspend fun lemmas(dictionary: DictionaryId, formLc: String): List<String> = withContext(databaseDispatcher) {
         databases.database(dictionary)?.dictionaryQueries?.selectLemmas(formLc)?.awaitAsList().orEmpty()
     }
