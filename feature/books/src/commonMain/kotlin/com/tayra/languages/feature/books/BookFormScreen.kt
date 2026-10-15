@@ -155,10 +155,17 @@ private fun BookContentCard(
     ContentCard(tr("Book content"), subtitle, icon = AppIcons.FileOutline, modifier = modifier) {
         // A file can only start a book; an existing book's text is edited in place.
         if (state.isNew) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
+            // The formats are many: beside the toggle where there is room, under it on a phone.
+            if (LocalWindowWidth.current.isCompact) {
                 SourceToggle(source, onSource)
-                Spacer(Modifier.width(20.dp))
+                Spacer(Modifier.height(10.dp))
                 Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            } else {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    SourceToggle(source, onSource)
+                    Spacer(Modifier.width(20.dp))
+                    Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
+                }
             }
             Spacer(Modifier.height(16.dp))
         }
