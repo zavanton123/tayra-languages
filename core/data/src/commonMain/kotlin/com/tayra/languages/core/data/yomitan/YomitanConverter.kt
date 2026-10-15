@@ -368,7 +368,9 @@ class YomitanConverter : YomitanImporter {
         out += "CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL)"
         out += "CREATE TABLE entries (id INTEGER NOT NULL PRIMARY KEY, word TEXT NOT NULL, word_lc TEXT NOT NULL, pos TEXT NOT NULL, ipa TEXT, senses TEXT NOT NULL)"
         out += "CREATE TABLE forms (form_lc TEXT NOT NULL, lemma TEXT NOT NULL, generated INTEGER NOT NULL DEFAULT 0)"
-        val rows = content.entries.values.sortedWith(compareBy({ it.word.lowercase() }, { it.word }, { it.pos }, { it.reading.orEmpty() }))
+        // A word's readings keep the dictionary's order, the main one first.
+        val order = content.entries.values.withIndex().associate { (i, e) -> e to i }
+        val rows = content.entries.values.sortedWith(compareBy({ it.word.lowercase() }, { it.word }, { it.pos }, { order.getValue(it) }))
         rows.chunked(BATCH).forEachIndexed { batch, chunk ->
             out += "INSERT INTO entries(id, word, word_lc, pos, ipa, senses) VALUES " + chunk.mapIndexed { i, e ->
                 val ipa = content.ipa[e.word] ?: e.reading?.takeIf { source !in READING_LANGUAGES }

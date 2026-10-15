@@ -308,12 +308,13 @@ def read_dictionary(path, source, target=None):
         if names and term[:1].isupper() and all(names.search(g) for sense in senses for g in sense["glosses"]):
             continue
         for word in words:
-            key = (word, pos)
+            # Japanese and Chinese words have an entry per reading (打つ read うつ and ぶつ), as Yomitan shows them.
+            key = (word, pos, reading.strip()) if source in READING_LANGUAGES else (word, pos)
             if key in entries:
                 entries[key]["senses"].extend(s for s in senses if s not in entries[key]["senses"])
                 entries[key]["reading"] = entries[key]["reading"] or reading.strip() or None
             else:
-                entries[key] = {"word": word, "pos": pos, "senses": list(senses), "reading": reading.strip() or None}
+                entries[key] = {"word": word, "pos": pos, "senses": list(senses), "reading": reading.strip() or None, "order": len(entries)}
             if reading and reading.strip() and reading.strip() != word:
                 forms.add((reading.strip(), word))
                 if source == "zh":
@@ -426,6 +427,11 @@ def write_extras(db, source, target, rows):
         readings = sorted({(e["word"], clean_reading(source, e.get("reading"))) for e in rows if clean_reading(source, e.get("reading")) not in (None, e["word"])})
         db.executescript("CREATE TABLE readings (word TEXT NOT NULL, reading TEXT NOT NULL); CREATE INDEX readings_word ON readings(word);")
         db.executemany("INSERT INTO readings VALUES (?, ?)", readings)
+        # Each entry's own reading, by its id: the rows are inserted in this order from 1.
+        db.execute("CREATE TABLE entry_readings (entry_id INTEGER NOT NULL PRIMARY KEY, reading TEXT NOT NULL)")
+        db.executemany("INSERT INTO entry_readings VALUES (?, ?)", [
+            (i + 1, clean_reading(source, e.get("reading"))) for i, e in enumerate(rows) if clean_reading(source, e.get("reading")) not in (None, e["word"])
+        ])
     if source == "ja":
         kanji, language = kanji_rows(target)
         db.executescript(
@@ -488,7 +494,8 @@ def build(source, target, out_path, wty_source=None, min_entries=1000):
     ipa.update(read_ipa(ipa_dictionary(wty, target), source))
 
     db, sqlite_path = open_output(out_path)
-    rows = sorted(entries.values(), key=lambda e: (e["word"].lower(), e["word"], e["pos"]))
+    # A word's readings keep wty's order, the main one first (日本: にほん, にっぽん, じっぽん).
+    rows = sorted(entries.values(), key=lambda e: (e["word"].lower(), e["word"], e["pos"], e.get("order", 0)))
     db.executemany(
         "INSERT INTO entries(id, word, word_lc, pos, ipa, senses) VALUES (?, ?, ?, ?, ?, ?)",
         (
