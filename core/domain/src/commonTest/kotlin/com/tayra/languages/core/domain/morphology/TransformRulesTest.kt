@@ -22,4 +22,5 @@ class TransformRulesTest {
     @Test fun arabic() = checkTransformCases(arTransforms, arTransformCases)
     @Test fun yiddish() = checkTransformCases(yiTransforms, yiTransformCases)
     @Test fun japanese() = checkTransformCases(jaTransforms, jaTransformCases)
+    @Test fun korean() = checkTransformCases(koTransforms, koTransformCases) { Hangul.disassemble(it) }
 }

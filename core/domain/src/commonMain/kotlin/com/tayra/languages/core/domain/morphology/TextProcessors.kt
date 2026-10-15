@@ -76,6 +76,9 @@ internal object TextProcessors {
         "convertHiraganaToKatakana" to { s -> listOf(s, Japanese.hiraganaToKatakana(s), Japanese.katakanaToHiragana(s)) },
         "collapseEmphaticSequences" to { s -> listOf(s, Japanese.collapseEmphaticSequences(s, full = false), Japanese.collapseEmphaticSequences(s, full = true)) },
         "standardizeKanji" to { s -> listOf(s, Japanese.standardizeKanji(s)) },
+        // Korean
+        "disassembleHangul" to { s -> listOf(Hangul.disassemble(s)) },
+        "reassembleHangul" to { s -> listOf(Hangul.assemble(s)) },
     )
 
     /** Keeps the first acute accent of a word and drops the others ("πρόσωπό" to "πρόσωπο"). */

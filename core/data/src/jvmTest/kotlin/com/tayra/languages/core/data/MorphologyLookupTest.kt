@@ -70,4 +70,12 @@ class MorphologyLookupTest {
         // A rule only leads to a word of the part of speech it makes: "walker" is not a form of an adjective.
         assertTrue(service.lookup(en, "happied").isEmpty)
     }
+
+    @Test
+    fun koreanWordsAreFoundWithoutTheirParticlesAndEndings() = runTest {
+        val (service, ko) = service("ko", listOf(Triple("학교", "noun", "school"), Triple("가다", "verb", "to go")))
+        assertEquals("학교", service.lookup(ko, "학교에서").parentSuggestion)
+        assertEquals("가다", service.lookup(ko, "갔어요").parentSuggestion)
+        assertTrue(service.lookup(ko, "없다").isEmpty)
+    }
 }

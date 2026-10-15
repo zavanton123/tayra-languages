@@ -93,4 +93,11 @@ class TextProcessorsTest {
         assertTrue("\u4e00" in spellings("zh", "\u2f00"))
         assertTrue("\u4e00" in spellings("yue", "\u2f00"))
     }
+
+    @Test
+    fun korean() {
+        assertTrue(spellings("ko", "갔어요").single() == "ㄱㅏㅆㅇㅓㅇㅛ")
+        assertTrue(Hangul.assemble("ㄱㅏㅆㅇㅓㅇㅛ") == "갔어요")
+        assertTrue(Hangul.assemble(Hangul.disassemble("왔습니다 읽어 앉았다")) == "왔습니다 읽어 앉았다")
+    }
 }

@@ -91,9 +91,30 @@ class DictionaryService(
         )
         if (own.isNotEmpty() || lookup.lemmas.isNotEmpty()) return lookup
         val morphology = Morphology.forLanguage(dictionary.sourceLanguage) ?: return lookup
-        return deinflected(dictionary, word, wordLc, morphology)?.let { found ->
-            DictionaryLookup(found.entries + lookup.entries, found.lemmas)
-        } ?: lookup
+        deinflected(dictionary, word, wordLc, morphology)?.let { found ->
+            return DictionaryLookup(found.entries + lookup.entries, found.lemmas)
+        }
+        if (dictionary.sourceLanguage in PARTICLE_LANGUAGES) beginning(dictionary, word, morphology)?.let { return it }
+        return lookup
+    }
+
+    /**
+     * A word written with its particles ("학교에서", at school) is looked up by its beginnings, the
+     * longest first, as Yomitan scans text: the first one the pack has, or that inflects a word it
+     * has, is the word's lemma.
+     */
+    private suspend fun beginning(dictionary: DictionaryId, word: String, morphology: LanguageMorphology): DictionaryLookup? {
+        for (end in word.length - 1 downTo 1) {
+            val prefix = word.substring(0, end)
+            val prefixLc = lowercase(prefix, dictionary)
+            val own = repository.entries(dictionary, prefixLc)
+            val found = if (own.isNotEmpty()) DictionaryLookup(own, emptyList()) else deinflected(dictionary, prefix, prefixLc, morphology)
+            if (found != null && !found.isEmpty) {
+                val entries = found.entries.map { it.copy(isOwnEntry = false) }
+                return DictionaryLookup(entries, entries.map { it.word }.distinct())
+            }
+        }
+        return null
     }
 
     /**
@@ -142,6 +163,9 @@ class DictionaryService(
         (if (dictionary.sourceLanguage == "tr") word.replace('I', 'ı').replace('İ', 'i') else word).lowercase()
 
     private val DATED_TAGS = setOf("obsolete", "archaic", "dated", "rare", "historical")
+
+    /** Languages whose words carry their particles and endings joined on, so a word's beginning may be the dictionary word. */
+    private val PARTICLE_LANGUAGES = setOf("ko")
 
     /** Words looked up at most for one clicked word's spellings and dictionary forms. */
     private val MAX_LOOKUPS = 2000
