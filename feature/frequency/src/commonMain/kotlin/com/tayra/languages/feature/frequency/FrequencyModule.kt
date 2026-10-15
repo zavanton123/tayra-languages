@@ -15,7 +15,7 @@ val frequencyModule = module {
     single { WordFrequencyService(get(), get(), get()) }
     single { VocabularyLevelService(get(), get(), get()) }
     viewModel { WordFrequencyViewModel(get(), get(), get(), get(), get()) }
-    viewModel { VocabularySettingsViewModel(get(), get(), get()) }
+    viewModel { VocabularySettingsViewModel(get(), get(), get(), getOrNull()) }
 }
 
 fun NavGraphBuilder.frequencyGraph(navController: NavController) {

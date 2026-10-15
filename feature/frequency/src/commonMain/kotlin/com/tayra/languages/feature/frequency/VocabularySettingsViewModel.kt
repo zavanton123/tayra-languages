@@ -5,7 +5,11 @@ import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.frequency.VocabularyLevelService
 import com.tayra.languages.core.domain.language.Tutorials
+import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.parse.PARAGRAPH_MARK
 import com.tayra.languages.core.domain.parse.lowercase
+import com.tayra.languages.core.domain.parse.parseTokens
+import com.tayra.languages.core.domain.service.LexiconService
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.state.UiEvents
@@ -48,6 +52,7 @@ class VocabularySettingsViewModel(
     private val levels: VocabularyLevelService,
     private val languages: LanguageRepository,
     settings: SettingsRepository,
+    private val lexicons: LexiconService? = null,
 ) : ViewModel() {
     private val picked = MutableStateFlow<Int?>(null)
     private val saving = MutableStateFlow(false)
@@ -101,35 +106,25 @@ class VocabularySettingsViewModel(
         }
     }
 
-    /** The start of the language's tutorial, split into words with their ranks. */
-    private fun example(language: com.tayra.languages.core.domain.model.Language, list: FrequencyList): List<ExampleToken> {
+    /** The start of the language's tutorial, split into words as the reader splits them, with their ranks. */
+    private suspend fun example(language: Language, list: FrequencyList): List<ExampleToken> {
         val story = Tutorials.forLanguage(language.name)?.text ?: return emptyList()
         val ranks = HashMap<String, Int>()
         for (word in list.words) {
             ranks.getOrPut(word.key) { word.rank }
             for (form in word.forms) ranks.getOrPut(form) { word.rank }
         }
-        return tokens(story.take(EXAMPLE_LENGTH).substringBeforeLast(' ')).map { (text, isWord) ->
-            ExampleToken(text, isWord, if (isWord) ranks[language.lowercase(text)] else null)
+        lexicons?.prepare(language)
+        // Cut at a space where the text has spaces; a text without them (Japanese, Thai) is cut where it is.
+        val start = story.take(EXAMPLE_LENGTH)
+        val text = start.lastIndexOf(' ').takeIf { it > EXAMPLE_LENGTH / 2 }?.let { start.substring(0, it) } ?: start
+        return language.parseTokens(text).map { token ->
+            if (token.token == PARAGRAPH_MARK) ExampleToken("\n\n", isWord = false, rank = null)
+            else ExampleToken(token.token, token.isWord, if (token.isWord) ranks[language.lowercase(token.token)] else null)
         }
     }
 
     private companion object {
         const val EXAMPLE_LENGTH = 700
-
-        /** The text cut into runs of letters (words) and runs of everything else. */
-        fun tokens(text: String): List<Pair<String, Boolean>> {
-            val out = ArrayList<Pair<String, Boolean>>()
-            var start = 0
-            fun isWordChar(c: Char) = c.isLetter() || c == '́' || c == '\''
-            while (start < text.length) {
-                val word = isWordChar(text[start])
-                var end = start + 1
-                while (end < text.length && isWordChar(text[end]) == word) end++
-                out += text.substring(start, end) to word
-                start = end
-            }
-            return out
-        }
     }
 }
