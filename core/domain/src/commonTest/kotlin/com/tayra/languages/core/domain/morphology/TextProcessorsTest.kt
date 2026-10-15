@@ -1,6 +1,9 @@
 package com.tayra.languages.core.domain.morphology
 
+import com.tayra.languages.core.domain.language.LanguageCatalog
+import com.tayra.languages.core.domain.language.LanguageCodes
 import kotlin.test.Test
+import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 /** The spellings each language's ported text processors give a word. */
@@ -99,5 +102,13 @@ class TextProcessorsTest {
         assertTrue(spellings("ko", "갔어요").single() == "ㄱㅏㅆㅇㅓㅇㅛ")
         assertTrue(Hangul.assemble("ㄱㅏㅆㅇㅓㅇㅛ") == "갔어요")
         assertTrue(Hangul.assemble(Hangul.disassemble("왔습니다 읽어 앉았다")) == "왔습니다 읽어 앉았다")
+    }
+
+    @Test
+    fun everyLanguageTheAppTeachesHasYomitansProcessorsPorted() {
+        for (name in LanguageCatalog.targetLanguages) {
+            val code = LanguageCodes.codeFor(name)!!
+            assertEquals(emptyList(), Morphology.missingProcessors(code), name)
+        }
     }
 }

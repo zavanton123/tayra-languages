@@ -37,9 +37,9 @@ everything you learn stays on your own device.
   and Anki export.
 - **Parents and components.** Link an inflected form to its base word; the popup shows the
   base word's meaning and, for expressions, the words inside them.
-- **Word frequency.** The 10,000 most common words of the language, a hundred to a band and
-  coloured by your status, with your level marked; hover for a translation, click to save.
-  For every language the app teaches.
+- **Word frequency.** Up to 10,000 of the most common words of the language, a hundred to a band
+  and coloured by your status, with your level marked; hover for a translation, click to save.
+  For every language the app teaches that has a corpus to count.
 - **Pronunciation** with the device's speech voices, and recorded example sentences.
 - **Statistics** of words read and learned over time, per language and per book.
 
@@ -81,18 +81,30 @@ back to the system voice. The web version uses the system voices.
 
 Download a dictionary pack for a language and its meanings appear in the term pane with no
 network: definitions, every sense with a one-tap add, and the link from an inflected form to
-its base word. Packs exist for 33 European languages with meanings in English, Chinese,
-French, German, Greek, Polish, Portuguese, Russian or Spanish, and are managed on the Dictionaries screen.
+its base word. Packs exist for 69 languages, with meanings in English, Chinese, French,
+German, Greek, Polish, Portuguese, Russian or Spanish where Wiktionary covers the pair, and are
+managed on the Dictionaries screen. When a pack lacks a word, the language's rules, ported from
+Yomitan, find what it is a spelling or an inflection of ("walked" to "walk", "еще" to "ещё",
+"食べました" to "食べる"), so the meaning and the base word still show.
 
 ## Languages
 
-Read in Belarusian, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, English, Estonian,
-Finnish, French, Galician, German, Greek, Hungarian, Icelandic, Italian, Latin, Latvian,
-Lithuanian, Macedonian, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak,
-Slovene, Spanish, Swedish, Turkish or Ukrainian, with meanings shown in English, Chinese, French,
-German, Greek, Polish, Portuguese, Russian or Spanish. Each language comes with a tutorial book on learning it with the
-app, written in that language. The Languages page sets the language being learned, the native
-language meanings are shown in, and the language of the interface (English or Russian).
+Read in Albanian, Ancient Greek, Arabic, Armenian, Assyrian, Basque, Belarusian, Bosnian,
+Breton, Bulgarian, Cantonese, Catalan, Cornish, Croatian, Czech, Danish, Dutch, Egyptian Arabic,
+English, Esperanto, Estonian, Farsi, Finnish, French, Galician, Georgian, German, Greek,
+Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Kannada,
+Khmer, Korean, Lao, Latin, Latvian, Lithuanian, Macedonian, Maltese, Mandarin Chinese, Manx,
+Mongolian, Norwegian, Old Irish, Polish, Portuguese, Romanian, Russian, Scottish Gaelic,
+Serbian, Slovak, Slovene, Spanish, Swedish, Tagalog, Thai, Toki Pona, Turkish, Ukrainian,
+Vietnamese, Welsh or Yiddish, with meanings shown in English, Chinese, French, German, Greek,
+Polish, Portuguese, Russian or Spanish. Each language comes with a tutorial book on learning it
+with the app, written in that language. The Languages page sets the language being learned, the
+native language meanings are shown in, and the language of the interface (English or Russian).
+
+Right-to-left scripts (Arabic, Hebrew, Farsi, Yiddish, Assyrian) read right to left. Chinese,
+Cantonese, Japanese, Thai, Lao and Khmer, written without spaces, are cut into words with the
+language's dictionary and word list, as Yomitan does; Korean words are looked up without their
+particles and endings.
 
 ## Books
 

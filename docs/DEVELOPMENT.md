@@ -84,7 +84,7 @@ Locally:
 
 ## Languages
 
-The catalog is fixed: `LanguageCatalog` lists the 33 learnable languages and the six native
+The catalog is fixed: `LanguageCatalog` lists the 69 learnable languages and the nine native
 languages. The predefined language definitions (parsers and dictionaries) are generated into
 `PredefinedLanguages.kt` by `tools/generate_language_defs.py` from a language definitions checkout;
 the languages added since, or whose definitions changed, are written in the same format in
