@@ -210,6 +210,7 @@ private fun TermFormContent(
                 !state.dictionary.isEmpty -> DictionarySection(state.dictionary, language?.let { LanguageCodes.codeFor(it.name) }, onAdd = viewModel::addGloss)
                 pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
             }
+            if (!empty && state.notes.isNotEmpty()) NotesSection(state.notes)
             if (!empty && state.recordings.isNotEmpty()) RecordingsSection(state.recordings, draft.text.trim())
             if (!empty && state.kanji.isNotEmpty()) KanjiSection(state.kanji)
         }

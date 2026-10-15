@@ -79,6 +79,11 @@ in `rules/JaExtraTransforms.kt`, hand-kept beside the generated `JaTransforms.kt
 -ていらっしゃる, -なさる, -いたす, お〜になる, -得る, -ざるを得ない, Kansai -どる and the
 irregular する-verbs, the masu-stem ones derived from Yomitan's -なさい rules.
 
+`JapaneseNotes` (core/domain morphology) ports 10ten's readers of Japanese numbers (五十六, 39,800万),
+modern era years (昭和56年 is 1981; the eras before 1873 need a calendar table and are left out)
+and floor areas (四畳半 is 7.29 m², with the regional mat sizes); the term pane shows them for the
+text at the term in its sentence, an era name just before the word included.
+
 `YomitanTranslatorTest` (core/data) runs Yomitan's own translator tests: its test dictionary and
 expected results (`core/data/src/jvmTest/resources/yomitan`, copied from Yomitan's `test/data`,
 GPL-3.0) are imported and looked up through the app, which must find the same words, readings and

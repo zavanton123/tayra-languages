@@ -17,6 +17,8 @@ import com.tayra.languages.core.domain.service.WordRecording
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.ZWS_STRING
+import com.tayra.languages.core.domain.morphology.JapaneseNotes
+import com.tayra.languages.core.domain.morphology.JapaneseNote
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermDraft
@@ -86,6 +88,8 @@ data class TermFormUiState(
     val kanji: List<KanjiInfo> = emptyList(),
     /** Recordings of the term, or of its dictionary form when the term has none. */
     val recordings: List<WordRecording> = emptyList(),
+    /** For Japanese, the numbers, era years and floor areas at the term, spelled out. */
+    val notes: List<JapaneseNote> = emptyList(),
     /** The downloadable pack for the language pair and whether it is on the device; null when none exists. */
     val dictionaryPack: PackStatus? = null,
     /** The word finder from the native language to the term's, null when there is none. */
@@ -192,7 +196,7 @@ class TermFormViewModel(
         _state.update {
             it.copy(
                 draft = draft, dirty = false, saved = false, error = null, duplicateOf = null, createdAt = null, references = null,
-                translationSuggested = false, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(),
+                translationSuggested = false, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(),
                 examples = emptyList(), examplesTotal = null, loadingExamples = false,
             )
         }
@@ -248,7 +252,7 @@ class TermFormViewModel(
         val id = DictionaryPacks.find(code, settings.current.nativeLanguage)?.id ?: DictionaryId(code, settings.current.nativeLanguage.ifBlank { "en" })
         val lookup = dictionary.lookup(id, text)
         val kanji = dictionary.kanji(id, text)
-        _state.update { it.copy(dictionary = lookup, kanji = kanji) }
+        _state.update { it.copy(dictionary = lookup, kanji = kanji, notes = if (code == "ja") notesOf(text) else emptyList()) }
         return lookup
     }
 
@@ -275,6 +279,14 @@ class TermFormViewModel(
                 }
             }
         }
+    }
+
+    /** The notes on [text] where the reader met it, or on the text alone; an era's name may come just before the word. */
+    private fun notesOf(text: String): List<JapaneseNote> {
+        val word = text.replace(ZWS_STRING, "").trim()
+        val sentence = key.sentence?.replace(ZWS_STRING, "")
+        val at = sentence?.indexOf(word)?.takeIf { it >= 0 }
+        return if (sentence != null && at != null) JapaneseNotes.at(sentence, at) else JapaneseNotes.at(word, 0)
     }
 
     /** Tracks the word finder from the native language into [language]. */
@@ -419,7 +431,7 @@ class TermFormViewModel(
             it.copy(
                 draft = emptyDraft(it.draft.languageId).copy(text = text), dirty = false, saved = false, error = null, duplicateOf = null,
                 createdAt = null, references = null, translationSuggested = false, lookingUpTranslation = false,
-                dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), examples = emptyList(), examplesTotal = null, loadingExamples = false,
+                dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(), examples = emptyList(), examplesTotal = null, loadingExamples = false,
             )
         }
         scheduleLookup(text)
