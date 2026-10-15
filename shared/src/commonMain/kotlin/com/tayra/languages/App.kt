@@ -47,6 +47,7 @@ import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.navigation.AppNavHost
 import org.koin.compose.KoinContext
 import org.koin.compose.koinInject
+import com.tayra.languages.feature.settings.ChineseScriptPrompt
 import org.koin.compose.viewmodel.koinViewModel
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
@@ -72,6 +73,8 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     // The language waiting for its downloads to be offered, once the level is dealt with.
     var setupPending by remember { mutableStateOf<Long?>(null) }
     var setupFor by remember { mutableStateOf<Long?>(null) }
+    // Mandarin just chosen without a script: which characters come first, then the level and downloads.
+    var askScriptFor by remember { mutableStateOf<Long?>(null) }
     LaunchedEffect(currentId, languages) {
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure()
     }
@@ -82,7 +85,10 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
             scope.launch {
                 if (!learning.select(id) || id == currentId) return@launch
                 onChosen()
-                if (levels.needsLevel(id)) {
+                val language = languages.firstOrNull { it.id == id }
+                if (language?.parserType == "mandarin" && language.chineseScript == null) {
+                    askScriptFor = id
+                } else if (levels.needsLevel(id)) {
                     setupPending = id
                     askLevelFor = id
                 } else {
@@ -99,6 +105,18 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
             setupPending = null
         })
         LanguageSetupDialog(setupFor, onClosed = { setupFor = null })
+        ChineseScriptPrompt(askScriptFor, onClosed = {
+            val id = askScriptFor
+            askScriptFor = null
+            if (id != null) scope.launch {
+                if (levels.needsLevel(id)) {
+                    setupPending = id
+                    askLevelFor = id
+                } else {
+                    setupFor = id
+                }
+            }
+        })
     }
 }
 

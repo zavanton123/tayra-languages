@@ -91,6 +91,22 @@ term pane ("Tone colours" in the reader's settings); `Chinese.zhuyin` writes the
 ("Zhuyin"); and `ChineseGrammarWiki` links the words AllSet Learning's Chinese Grammar Wiki has
 notes on (simplified spellings) from the term pane's dictionary links.
 
+## Chinese scripts
+
+A Mandarin language can be read in simplified or traditional characters (`Language.chineseScript`,
+kept in the `language_scripts` table; none keeps texts as written). `ChineseConverter` converts with
+OpenCC's tables (Apache-2.0, bundled in core/ui `files/opencc`, loaded by `ChineseScripts.prepare`
+from `ResourceChineseScriptTables`): OpenCC's s2tw chain to traditional (Taiwan's character variants,
+no regional words) and tw2s to simplified. `SegmentingParser` converts a text into the language's
+script before cutting it, so its tokens, saved terms (`TermTextNormalizer`), highlighting and
+lookups are all in that script; the term pane shows dictionary headwords, and the frequency list
+its words, in it (`DictionaryLookup.inScript`, `FrequencyList.inScript`). The tables load at start
+when a language uses a script (`ChineseScriptService.prepareIfUsed`) and before Chinese terms are
+found or saved. `ChineseScriptService.setScript` changes a language's script, rewriting its saved
+terms (a term saved in both becomes one, keeping the more advanced status) and remaking the
+sentences of its texts. Choosing Mandarin asks which characters (`ChineseScriptPrompt`); the
+reader's settings change it later.
+
 `YomitanTranslatorTest` (core/data) runs Yomitan's own translator tests: its test dictionary and
 expected results (`core/data/src/jvmTest/resources/yomitan`, copied from Yomitan's `test/data`,
 GPL-3.0) are imported and looked up through the app, which must find the same words, readings and

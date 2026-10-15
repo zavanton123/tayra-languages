@@ -39,6 +39,8 @@ import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import com.tayra.languages.core.ui.components.Dropdown
+import com.tayra.languages.core.domain.morphology.ChineseScript
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -384,6 +386,7 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in READING_LANGUAGES) {
             SwitchSetting(AppIcons.Abc, tr("Show readings"), tr("Furigana or pinyin above the words"), prefs.showReadings) { viewModel.toggleReadings() }
         }
+        if (viewModel.canChooseChineseScript) ChineseScriptSetting(state.language?.chineseScript, viewModel::setChineseScript)
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in TONE_LANGUAGES) {
             SwitchSetting(AppIcons.Palette, tr("Tone colours"), tr("Colour pinyin by its tone"), prefs.toneColors) { viewModel.toggleToneColors() }
             SwitchSetting(AppIcons.Abc, tr("Zhuyin"), tr("Readings in bopomofo instead of pinyin"), prefs.zhuyin) { viewModel.toggleZhuyin() }
@@ -690,3 +693,32 @@ private val READING_LANGUAGES = setOf("ja", "zh")
 
 /** The languages whose readings are pinyin with tones. */
 private val TONE_LANGUAGES = setOf("zh", "yue")
+
+/**
+ * Which characters a Mandarin text is shown in and its words are kept in. Choosing a script asks
+ * first: the saved words are rewritten in it, and a word saved in both scripts becomes one.
+ */
+@Composable
+private fun ChineseScriptSetting(current: ChineseScript?, onChoose: (ChineseScript?) -> Unit) {
+    var asking by remember { mutableStateOf<ChineseScript?>(null) }
+    val options = listOf<ChineseScript?>(null, ChineseScript.SIMPLIFIED, ChineseScript.TRADITIONAL)
+    fun label(script: ChineseScript?) = when (script) {
+        null -> tr("As written")
+        ChineseScript.SIMPLIFIED -> tr("Simplified")
+        ChineseScript.TRADITIONAL -> tr("Traditional")
+    }
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Icon(AppIcons.Abc, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
+        SettingText(tr("Characters"), tr("Texts shown and words kept in one script"), Modifier.weight(1f))
+        Dropdown(options, current, { chosen -> if (chosen == null) onChoose(null) else if (chosen != current) asking = chosen }, null, ::label, Modifier.width(150.dp).testTag("chinese-script"))
+    }
+    asking?.let { script ->
+        AlertDialog(
+            onDismissRequest = { asking = null },
+            title = { Text(tr("Read in {0} characters?", label(script).lowercase())) },
+            text = { Text(tr("Texts will be shown in these characters, and your saved words rewritten in them; a word you saved in both scripts becomes one, keeping its more advanced status.")) },
+            confirmButton = { Button(onClick = { asking = null; onChoose(script) }, modifier = Modifier.testTag("chinese-script-confirm")) { Text(tr("Rewrite")) } },
+            dismissButton = { TextButton(onClick = { asking = null }) { Text(tr("Cancel")) } },
+        )
+    }
+}

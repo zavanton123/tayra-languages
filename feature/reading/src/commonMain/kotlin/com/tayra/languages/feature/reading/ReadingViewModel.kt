@@ -57,6 +57,8 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import com.tayra.languages.core.domain.service.ChineseScriptService
+import com.tayra.languages.core.domain.morphology.ChineseScript
 import kotlin.math.roundToInt
 
 /** What is shown in the side panel / bottom sheet. */
@@ -144,6 +146,8 @@ class ReadingViewModel(
     private val sentenceAudio: SentenceAudio,
     private val lessonOf: suspend (Long) -> LessonReading? = { null },
     private val wordReadings: WordReadings? = null,
+    /** Changes the script a Chinese language is read in, rewriting its saved words. */
+    private val chineseScripts: ChineseScriptService? = null,
 ) : ViewModel() {
 
     private val local = localTranslation.translator
@@ -231,6 +235,24 @@ class ReadingViewModel(
     }
 
     fun goToRelativePage(delta: Int) = goToPage(_state.value.pageNumber + delta)
+
+    /** Whether the language can be read in one script of Chinese: Mandarin, whose parser converts its texts. */
+    val canChooseChineseScript: Boolean get() = chineseScripts != null && _state.value.language?.parserType == "mandarin"
+
+    /**
+     * Reads the language in [script] from now on (as written when null): its saved words are
+     * rewritten in that script, and the page is shown again in it.
+     */
+    fun setChineseScript(script: ChineseScript?) {
+        val service = chineseScripts ?: return
+        val language = _state.value.language ?: return
+        viewModelScope.launch {
+            val change = service.setScript(language.id, script)
+            load(_state.value.pageNumber, trackOpen = false, keepMarked = true)
+            val done = change.converted + change.merged
+            if (done > 0) _state.update { it.copy(flash = trPlural(done, "{0} saved word rewritten", "{0} saved words rewritten")) }
+        }
+    }
 
     /** Re-renders the current page after term changes, keeping the cursor. */
     fun refresh() {
