@@ -7,9 +7,9 @@ object LanguageCatalog {
         "Albanian", "Ancient Greek", "Arabic", "Armenian", "Assyrian", "Basque", "Belarusian",
         "Bosnian", "Breton", "Bulgarian", "Catalan", "Cornish", "Croatian", "Czech", "Danish", "Dutch",
         "Egyptian Arabic", "English", "Esperanto", "Estonian", "Farsi", "Finnish", "French", "Galician",
-        "Georgian", "German", "Greek", "Hawaiian", "Hebrew", "Hungarian", "Icelandic", "Indonesian",
-        "Irish", "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian", "Maltese", "Manx",
-        "Mongolian", "Norwegian", "Old Irish", "Polish", "Portuguese", "Romanian", "Russian",
+        "Georgian", "German", "Greek", "Hawaiian", "Hebrew", "Hindi", "Hungarian", "Icelandic",
+        "Indonesian", "Irish", "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian", "Maltese",
+        "Manx", "Mongolian", "Norwegian", "Old Irish", "Polish", "Portuguese", "Romanian", "Russian",
         "Scottish Gaelic", "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Toki Pona",
         "Turkish", "Ukrainian", "Vietnamese", "Welsh", "Yiddish",
     )
