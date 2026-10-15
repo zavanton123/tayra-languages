@@ -15,4 +15,5 @@ class TransformRulesTest {
     @Test fun basque() = checkDeinflections(euTransforms, "etxean" to "etxe", "mendira" to "mendi")
     @Test fun esperanto() = checkTransformCases(eoTransforms, eoTransformCases)
     @Test fun georgian() = checkDeinflections(kaTransforms, "სახლში" to "სახლ", "წიგნები" to "წიგნი")
+    @Test fun irish() = checkTransformCases(gaTransforms, gaTransformCases)
 }
