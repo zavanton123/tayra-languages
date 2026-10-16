@@ -46,14 +46,15 @@ story; a lesson never needs another lesson to make sense.
     modal verbs in the perfect (*hij had moeten komen*), the passive with *zijn* (*de deur is
     gesloten*) and the impersonal *er wordt...*, short participle phrases (*de gisteren gekochte
     krant*);
-  - ranks 2501–3000: a richer, more formal register: connectors such as *desondanks*, *echter*,
-    *daarentegen*, *mits*, *doordat*, *ondanks*; reported speech (*hij zei dat hij moe was*;
+  - ranks 2501–3000: a richer, more formal register: connectors such as *echter*, *daarentegen*,
+    *doordat*, *ondanks*, *tenzij*, *indien*; reported speech (*hij zei dat hij moe was*;
     *volgens de krant zou het gaan regenen*); common idioms explained by their context;
   - ranks 3001–4000: everything before, in a more literary, descriptive style: precise
-    adjectives and clear images, the *column* or *cursiefje* (a light reflection on everyday
-    life, as in Dutch newspapers), dialogue that marks *u* and *je*, and less common connectors
-    (*zodat*, *tenzij*, *indien*, *opdat*, *zodra*);
-  - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content: a short
+    adjectives and clear images, the *column* (a light reflection on everyday life, as in Dutch
+    newspapers), dialogue that marks *u* and *je*, and less common connectors (*desondanks*,
+    *zodra*, *bovendien*);
+  - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content (and the
+    rarer connectors *mits* and *opdat*): a short
     essay or reflective column that weighs two sides, an interview, a profile, a review; precise
     vocabulary for feelings, ideas and processes; long sentences that stay easy to parse; tone
     and register chosen to suit the text type;
