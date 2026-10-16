@@ -1,0 +1,209 @@
+{
+  "id": "da-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "Hverdagens fysik",
+  "description": "Ten standalone stories, columns and letters about the physics hidden in everyday life: wind, baking, smells, echoes, ice, water in space, camouflage, heat loss, braking and a sauna.",
+  "topic": "Everyday physics",
+  "names": [
+    "Aarhus",
+    "Mette",
+    "Jonas",
+    "Jonas'",
+    "Ida",
+    "Ali",
+    "Europa",
+    "Signe",
+    "Signes",
+    "Henrik",
+    "Henriks",
+    "Kasper",
+    "Oliver",
+    "Olivers",
+    "Inger",
+    "Ingers",
+    "Thy",
+    "Thisted",
+    "Niels",
+    "Mathilde",
+    "Mathildes",
+    "Jorden",
+    "Thomas",
+    "Den Blå Planet",
+    "Kastrup",
+    "Rikke",
+    "Odense",
+    "København",
+    "Bente Holm",
+    "Emil",
+    "Emils",
+    "Jens",
+    "Laura",
+    "Poul",
+    "Pouls"
+  ],
+  "lessons": [
+    {
+      "title": "Vindstød på havnen",
+      "summary": "A cyclist explains how gusts, slopes and the position of her upper body shape her daily ride along the harbour.",
+      "newWords": [
+        "vindstød",
+        "basalt",
+        "overkrop",
+        "mekanik",
+        "hestehale",
+        "hældning",
+        "optimere",
+        "komfort",
+        "uforudset",
+        "fordør"
+      ],
+      "text": "Hver morgen cykler jeg langs havnen i Aarhus på vej til arbejde, og hver morgen får jeg en lille lektion i fysik. Vinden kommer næsten altid fra vest, og den kommer sjældent jævnt. Den kommer i vindstød. Et vindstød er ikke bare mere vind; det er en pludselig ændring, og det er netop ændringen, kroppen mærker. Når et vindstød rammer mig fra siden, skubber det til cyklen, og jeg må læne mig en smule ind mod vinden for ikke at blive skubbet ud på vejen.\n\nHelt basalt handler det om kræfter. Vinden presser på alt, hvad den møder, og jo større en flade den møder, desto hårdere presser den. Den største flade på en cyklist er overkroppen. Sidder man ret op og ned, står overkroppen som et sejl og tager imod hvert eneste vindstød. Bøjer man overkroppen frem over styret, bliver fladen mindre, og luften glider lettere hen over ryggen. Det er derfor, cykelryttere sidder, som de gør. Det har intet med mode at gøre; det er ren mekanik, og mekanik er basalt set bare læren om kræfter og bevægelse.\n\nMin kollega Mette cykler samme vej. Hun har langt hår, som hun samler i en hestehale, og hun siger, at hestehalen er bedre end enhver vejrudsigt. Når hestehalen hænger stille ned ad ryggen, er luften rolig. Når hestehalen står ud til siden, ved hun, at der er vindstød på vej, før hun mærker dem på cyklen.\n\nTuren har også en anden fjende: hældningen. Ved enden af havnen går vejen op over en bro, og selv om hældningen kun er på få procent, føles den stejl, når vinden er imod. Op ad en hældning arbejder man mod tyngdekraften, og i modvind arbejder man samtidig mod luften. Begge dele koster kræfter.\n\nEn overgang prøvede jeg at optimere turen. Jeg tog tid, skiftede til smallere dæk og pumpede dem hårdere, så de rullede lettere. Jeg optimerede også min stilling og bøjede overkroppen endnu længere frem. Det gav næsten to minutter. Men jeg mistede al komfort. Ryggen gjorde ondt, og jeg så intet af havnen, fordi jeg kun kiggede ned i asfalten. Nu har jeg fundet en mellemvej: lidt mindre fart og lidt mere komfort. Man behøver ikke at optimere alt.\n\nDet uforudsete hører med. En morgen i november kom et vindstød så pludseligt, at jeg måtte stå af cyklen. Det er de uforudsete vindstød, der er farligst, fordi man ikke når at læne sig ind mod dem.\n\nNår jeg kommer hjem, ser jeg den samme fysik i det små. Står vinduet i køkkenet åbent, når jeg åbner fordøren, suser et vindstød gennem huset, og fordøren smækker bag mig. Luften strømmer fra et sted med højt tryk mod et sted med lavt tryk, og den korteste vej går gennem min entré. Derfor lukker jeg altid vinduet, før jeg åbner fordøren.\n\nSpørgsmål:\nHvorfor mærker fortælleren et vindstød så tydeligt?\nFordi et vindstød er en pludselig ændring, og det er ændringen, kroppen mærker.\nHvorfor bøjer cykelryttere overkroppen frem over styret?\nFordi fladen, som vinden presser på, bliver mindre, og luften glider lettere hen over ryggen.\nHvordan bruger Mette sin hestehale?\nHun ser på hestehalen: Når den står ud til siden, ved hun, at der er vindstød på vej.\nHvad skete der, da fortælleren prøvede at optimere turen?\nHun sparede næsten to minutter, men hun mistede al komfort, og ryggen gjorde ondt.\nHvorfor smækker fordøren, når vinduet i køkkenet står åbent?\nFordi luften strømmer fra højt tryk mod lavt tryk, og den korteste vej går gennem entréen."
+    },
+    {
+      "title": "En vaskeægte chokoladekage",
+      "summary": "A father bakes a chocolate cake for his daughter's birthday party and learns from his neighbour, who runs a pizzeria, why cakes rise and fall.",
+      "newWords": [
+        "chokoladekage",
+        "gilde",
+        "vaskeægte",
+        "madvare",
+        "delikatesse",
+        "pizzeria",
+        "spisested",
+        "svulme",
+        "uundværlig",
+        "støbning"
+      ],
+      "text": "Jonas' datter, Ida, fyldte otte år, og hun havde ønsket sig en chokoladekage til sit gilde. Ikke en kage fra bageren, men en vaskeægte chokoladekage, som far selv havde bagt. Jonas var ikke vant til at bage, men han lovede det.\n\nOm lørdagen skrev han en liste over de madvarer, han skulle bruge: smør, sukker, mel, æg og god mørk chokolade. De fleste madvarer fandt han i supermarkedet, men chokoladen købte han i en lille butik på hjørnet, hvor ejeren solgte oste, olie og andre delikatesser fra hele Europa. »Den her chokolade er en delikatesse i sig selv,« sagde hun. »Til en vaskeægte chokoladekage skal du bruge vaskeægte chokolade.«\n\nHjemme piskede Jonas æg og sukker, til massen var lys og luftig. »Hvorfor skal det piskes så længe?« spurgte Ida. Det vidste Jonas ikke, så han ringede til naboen, Ali, der havde et pizzeria nede på gaden. Hans pizzeria var et af kvarterets mest populære spisesteder, og ingen kendte mere til ovne end Ali. Hans ovn blev 450 grader varm.\n\n»Når du pisker, laver du tusindvis af små bobler af luft,« forklarede Ali. »I ovnen bliver luften i boblerne varm, og varm luft fylder mere end kold. Så svulmer kagen op. Æggene er uundværlige, for de holder på boblerne.« Han tilføjede: »Og luk ikke ovnen op for tidligt. Hvis den kolde luft kommer ind, trækker boblerne sig sammen, og kagen falder.«\n\nJonas satte kagen i ovnen, og han og Ida satte sig foran ruden. De så kagen svulme langsomt op. Den svulmede og svulmede, og overfladen revnede en smule, sådan som den skulle. De lukkede ikke ovnen op.\n\nImens lavede Jonas pynt. Ali havde fortalt, at chokolade ikke bare kan smeltes og hældes i en form. Ved støbning af chokolade, der skal skinne, skal den varmes, køles og varmes en lille smule igen, så fedtet stivner på den rigtige måde. Ved den slags støbning er et godt øje for temperaturen uundværligt. Jonas' første støbning blev mat og grå. Den anden støbning blev blank. Ida fik lov at vælge formen: små stjerner til toppen af kagen.\n\nOm søndagen kom gæsterne til gildet. Chokoladekagen stod midt på bordet med de blanke stjerner, og ingen kunne se, at den første støbning var gået galt. Ali kom også forbi med to pizzaer fra sit pizzeria. »Dit køkken er nu det næstbedste spisested i gaden,« sagde han.\n\nIda spiste tre stykker chokoladekage. »Det var en vaskeægte chokoladekage,« sagde hun. Jonas var enig. Han havde lært, at bagning ikke er trylleri, men fysik: luft, varme og tålmodighed.\n\nSpørgsmål:\nHvad ønskede Ida sig til sit gilde?\nHun ønskede sig en vaskeægte chokoladekage, som hendes far selv havde bagt.\nHvor købte Jonas chokoladen?\nHan købte den i en lille butik på hjørnet, hvor ejeren solgte delikatesser fra hele Europa.\nHvorfor svulmer kagen op i ovnen?\nFordi luften i de små bobler bliver varm, og varm luft fylder mere end kold.\nHvorfor må man ikke åbne ovnen for tidligt?\nFordi den kolde luft får boblerne til at trække sig sammen, så kagen falder.\nHvordan gik det med Jonas' støbning af chokolade?\nDen første støbning blev mat og grå, men den anden blev blank."
+    },
+    {
+      "title": "Drankerens gang",
+      "summary": "A physics teacher writes a column about how she uses a pot of jasmine and the image of a drunkard to explain diffusion.",
+      "newWords": [
+        "jasmin",
+        "dranker",
+        "term",
+        "drukkenbolt",
+        "leksikon",
+        "kortfattet",
+        "ordvalg",
+        "overdrivelse",
+        "tilnærmelse",
+        "vag"
+      ],
+      "text": "På mit bord i fysiklokalet står en lille potte med jasmin. Den blomstrer i marts, og når den blomstrer, gør jeg noget, som mine elever efterhånden kender. Jeg beder dem sætte sig rundt omkring i lokalet og række hånden op, så snart de kan dufte blomsterne. Først rækker de forreste hånden op, så dem i midten og til sidst dem ved væggen. Duften af jasmin har bevæget sig gennem lokalet, selv om der ikke er den mindste vind.\n\nHvordan sker det? Duften består af små molekyler, der hele tiden støder ind i luftens molekyler. Hvert molekyle bliver skubbet i en ny retning, igen og igen, mange milliarder gange i sekundet. Det går ikke ligeud. Det går frem og tilbage og til siden, ligesom en dranker på vej hjem fra kroen.\n\nNetop det billede bruger fysikerne. På engelsk har bevægelsen en term, der direkte betyder drankerens gang, og den term har jeg taget med ind i min undervisning. Jeg kan godt lide den, fordi alle kan se den for sig: En dranker tager et skridt frem, et skridt til venstre, et skridt tilbage. Han ved ikke selv, hvor han skal hen. Alligevel er han efter mange skridt kommet et godt stykke væk fra det sted, hvor han startede.\n\nEn dag sagde en elev, at hans morfar ville have sagt drukkenbolt i stedet for dranker. Vi slog begge ord op i et gammelt leksikon på skolens bibliotek. Leksikonet var kortfattet: En drukkenbolt er en person, der drikker for meget. Om dranker stod der næsten det samme, lige så kortfattet. Ordvalget er altså en smagssag; en drukkenbolt og en dranker går lige skævt.\n\nNogle forældre har spurgt, om ordvalget passer sig for en skole. Det forstår jeg godt. Men billedet er ikke en hån mod nogen; det er en hjælp til at huske. Jeg siger altid til eleverne, at det er en overdrivelse at kalde molekylerne berusede. Men det er en overdrivelse, der gør en abstrakt idé konkret.\n\nDesuden er billedet kun en tilnærmelse. Et molekyle har ingen vilje og ingen kro at gå hjem fra, og det bevæger sig i alle retninger, ikke kun hen ad et fortov. Men en god tilnærmelse er ikke en fejl. Hele fysikken er bygget af tilnærmelser, der er gode nok til det, de skal bruges til.\n\nDet, jeg vil undgå, er vage forklaringer. Hvis jeg bare siger, at duften spreder sig, er det vagt. Eleverne nikker, men de har ikke forstået noget. Vage ord giver vage tanker. Når de derimod har set drankeren for sig, kan de forklare, hvorfor duften når væggen sidst, og hvorfor det går hurtigere i et varmt lokale end i et koldt: Varme molekyler bevæger sig hurtigere, så drankeren tager flere skridt i sekundet.\n\nSpørgsmål:\nHvad gør fortælleren, når hendes jasmin blomstrer?\nHun beder eleverne række hånden op, så snart de kan dufte blomsterne.\nHvorfor bevæger duften sig ikke ligeud?\nFordi duftens molekyler hele tiden støder ind i luftens molekyler og bliver skubbet i nye retninger.\nHvad stod der om en drukkenbolt i det gamle leksikon?\nDer stod kortfattet, at en drukkenbolt er en person, der drikker for meget.\nHvorfor er billedet af drankeren kun en tilnærmelse?\nFordi et molekyle ikke har nogen vilje, og fordi det bevæger sig i alle retninger.\nHvorfor vil fortælleren undgå vage forklaringer?\nFordi eleverne nikker uden at forstå noget, når forklaringen er vag."
+    },
+    {
+      "title": "Ekkoet i kirken",
+      "summary": "A guitarist rehearsing for a Christmas concert in a village church learns about echoes and interference from a sound engineer and her gamer nephew.",
+      "newWords": [
+        "guitarist",
+        "nadver",
+        "forbavset",
+        "passage",
+        "jammer",
+        "konsultere",
+        "interferens",
+        "gamer",
+        "splejse",
+        "videobånd"
+      ],
+      "text": "Signe er guitarist, og i december skulle hun give en julekoncert i landsbykirken, hvor hun var vokset op. Hun havde spillet på spillesteder og i private stuer, men aldrig i en kirke. Til den første prøve tog hun guitar og forstærker med og stillede sig ved alteret, hvor præsten holder nadver om søndagen. Kirkens graver, Henrik, havde flyttet bordet til nadver lidt til side for at give hende plads.\n\nAllerede ved de første toner blev hun forbavset. Lyden blev hængende i luften, længe efter at hun havde taget fingrene fra strengene. De langsomme stykker lød smukke, næsten større end hende selv. Men da hun kom til en hurtig passage, flød tonerne sammen til én grød. Passagen, som hun havde øvet i ugevis, kunne slet ikke høres.\n\n»Det er en jammer,« sagde hun til Henrik. »Det er det smukkeste rum, jeg har spillet i som guitarist, og så kan man ikke høre noget.« Henrik foreslog, at hun skulle konsultere hans nevø, Kasper, der arbejdede med lyd i et studie i Aarhus. Hun konsulterede ham samme aften i telefonen.\n\nKasper forklarede, at lyd er bølger i luften. I en kirke med stenvægge og højt til loftet bliver bølgerne kastet frem og tilbage mange gange, før de dør ud. Derfor hænger hver tone i luften i flere sekunder, og i en hurtig passage kommer den næste tone, før den forrige er væk. »Spil passagen lidt langsommere,« sagde han. »Den lyder ikke dårligere i det rum. Den lyder bedre. Det ville være en jammer at opgive sådan en kirke.«\n\nHan fortalte også om interferens. Når to bølger mødes, kan de lægge sig oven i hinanden og blive stærkere, eller de kan ophæve hinanden. Derfor findes der steder i en kirke, hvor lyden er svag, selv om man sidder tæt på. »Gå rundt, mens nogen spiller,« sagde han, »så finder du dem.«\n\nSignes egen nevø, Oliver, var gamer og sad hver aften med et stort sæt hovedtelefoner på. Han gik rundt mellem bænkene, mens hun spillede, og ved den tredje række fandt han et sted, hvor lyden næsten forsvandt. »Det er ligesom mine hovedtelefoner,« sagde han forbavset. »De laver en modsat lyd, så larmen bliver ophævet. Det er også interferens.« Signe havde aldrig tænkt over, at en gamer skulle forstå akustik bedre end hun selv.\n\nDer var én ting mere: Kablet til forstærkeren var gået i stykker. Henrik tog en kniv og splejsede de to ender sammen med tape. »Et splejset kabel spiller lige så godt som et nyt,« sagde han.\n\nKoncerten blev en succes. Henrik optog den på kirkens gamle videokamera, der stadig brugte videobånd. Videobåndet står nu på en hylde i præstens kontor ved siden af et andet videobånd fra en julekoncert i 1994.\n\nSpørgsmål:\nHvorfor blev guitaristen Signe forbavset ved den første prøve?\nFordi lyden blev hængende i luften, længe efter at hun havde taget fingrene fra strengene.\nHvad skete der med den hurtige passage?\nTonerne flød sammen til én grød, så passagen slet ikke kunne høres.\nHvem konsulterede Signe, og hvad rådede han hende til?\nHun konsulterede Henriks nevø, Kasper, og han rådede hende til at spille passagen lidt langsommere.\nHvad har Olivers hovedtelefoner med interferens at gøre?\nDe laver en modsat lyd, så larmen bliver ophævet.\nHvad gjorde Henrik ved kablet?\nHan splejsede de to ender sammen med tape."
+    },
+    {
+      "title": "Træsko på isen",
+      "summary": "An old woman in Thy slips on the ice in her clogs, and a shoemaker and her son help her understand friction.",
+      "newWords": [
+        "træsko",
+        "iklæde",
+        "nådesløs",
+        "forsvarsløs",
+        "tidsbegrænse",
+        "rehabilitering",
+        "udmattelse",
+        "modvilje",
+        "skomager",
+        "lavine"
+      ],
+      "text": "Inger er 81 år og har boet i det samme hus i Thy hele sit voksne liv. Hun har altid gået i træsko. Om sommeren går hun i træsko i haven, og om vinteren går hun i træsko, når hun henter avisen. Træsko er varme, de er lette at få af og på, og de holder i mange år.\n\nEn morgen i januar var trappen dækket af et tyndt lag is. Inger stod i døren, iklædt sin store frakke og sine træsko. Hun tog et skridt ud på det øverste trin, og i samme øjeblik gled den ene træsko væk under hende. Hun faldt, tog fra med hånden og brækkede håndleddet.\n\nIsen er nådesløs. Når glat træ møder is, er der meget lidt, der holder igen, og et tyndt lag vand på isens overflade gør den endnu glattere. I det øjeblik foden glider, er man forsvarsløs; man når ikke at gøre noget. Inger følte sig både forsvarsløs og lidt flov, mens hun lå på trappen og ventede på, at naboen skulle komme.\n\nEfter operationen fik hun et tidsbegrænset forløb med rehabilitering. To gange om ugen i otte uger kørte hun til et center i Thisted og lavede små øvelser med hånden. Forløbet var tidsbegrænset, så bagefter skulle hun selv fortsætte derhjemme. Øvelserne var små, men efter hver gang mærkede hun en udmattelse, hun ikke kendte fra før. Udmattelsen gik over efter et par uger, og rehabiliteringen gik godt.\n\nHendes søn, Niels, ville have hende til at gå i støvler med gummi under. Men Inger havde en dyb modvilje mod støvler. »Jeg har gået i træsko i 70 år,« sagde hun. Den modvilje var ikke til at flytte. Så Niels tog hendes træsko med til den gamle skomager i byen. Skomageren nikkede. »Det ser jeg hver vinter,« sagde han. Skomageren satte et lag gummi under træet og slog små pigge af stål i. »Gummi holder bedre fast end træ, og piggene bider sig ned i isen,« forklarede han.\n\nSamme vinter lærte Inger endnu mere om fysik. En eftermiddag hørte hun et brag, og da hun kiggede ud, lå der en stor bunke sne foran døren. Den var gledet ned fra taget i én lille lavine. Niels forklarede, at det sker, når solen varmer taget. Sneen ligger på en hældning, og når det nederste lag smelter, er der ikke længere noget, der holder den. Så glider det hele på én gang. »En lavine fra et tag kan være farlig,« sagde han, og han satte et gitter op langs tagrenden.\n\nIsen er lige så nådesløs som før, men nu går Inger igen ud efter avisen hver morgen, iklædt frakke og træsko med pigge. Niels strør salt på trappen, og skomageren har lovet at se på træskoene igen til næste vinter.\n\nSpørgsmål:\nHvad skete der med Inger en morgen i januar?\nHun gled på isen i sine træsko på det øverste trin og brækkede håndleddet.\nHvorfor er man forsvarsløs, når foden glider?\nFordi man ikke når at gøre noget i det øjeblik, foden glider.\nHvordan forløb Ingers rehabilitering?\nHun fik et tidsbegrænset forløb på et center i Thisted og mærkede en udmattelse efter øvelserne, men det gik godt.\nHvad gjorde skomageren ved Ingers træsko?\nHan satte et lag gummi under træet og slog små pigge af stål i.\nHvorfor gled sneen ned fra taget i en lille lavine?\nFordi solen varmede taget, og når det nederste lag smeltede, var der ikke noget, der holdt sneen på hældningen."
+    },
+    {
+      "title": "Vand som en kugle",
+      "summary": "A girl who dreams of becoming an astronaut learns why water floats as a ball on the space station.",
+      "newWords": [
+        "rumstation",
+        "undfange",
+        "sfære",
+        "eventyrland",
+        "genetik",
+        "optimist",
+        "rekruttering",
+        "certifikat",
+        "indvie"
+      ],
+      "text": "Mathilde er elleve år, og hun har besluttet sig: Hun vil være astronaut. Idéen blev undfanget en tirsdag i skolen, hvor klassen så en video fra den internationale rumstation. Mange store drømme bliver undfanget på den måde, i et ganske almindeligt klasselokale.\n\nI videoen klemte en astronaut lidt vand ud af en pose. Vandet faldt ikke ned. Det svævede midt i luften og trak sig sammen til en skinnende kugle, en næsten perfekt sfære. Astronauten puffede blidt til den, og sfæren dirrede og blev rund igen.\n\nDeres lærer, Thomas, forklarede, hvad de havde set. »På Jorden trækker tyngdekraften vandet ned, så det løber ud på bordet eller hænger som en dråbe under hanen,« sagde han. »På rumstationen er tyngdekraften der stadig, men hele stationen falder hele tiden rundt om Jorden, og alt inde i den falder med. Derfor svæver tingene.« Vandet bliver kun holdt sammen af sine egne kræfter i overfladen, og de kræfter vil gøre overfladen så lille som muligt. Af alle former har en sfære den mindste overflade for en bestemt mængde vand.\n\nFor Mathilde var rumstationen et eventyrland. Hun så video efter video. Hun så astronauter sove i poser på væggen og spise jordbær, der svævede. Hun læste, at forskerne på stationen også studerer genetik: Hvordan påvirker livet i rummet planters og dyrs genetik? Hun forstod ikke alt, men hun forstod, at rumstationen ikke bare var et eventyrland, men også et laboratorium.\n\nHendes far er optimist. »Hvis du vil, så kan du,« siger han tit, og det sagde han også nu. Men han er en optimist, der kan lide at undersøge tingene, og han fandt ud af, hvordan astronauter bliver valgt. Der er rekruttering med flere års mellemrum, og tusindvis søger. Under rekrutteringen skal man bestå prøver i fysik, sprog og helbred. Mange astronauter har også et certifikat som pilot. »Så du har god tid til at blive klar,« sagde han.\n\nI foråret skulle skolen indvie et nyt lokale til naturfag. Borgmesteren kom for at indvie det, og eleverne lavede forsøg for gæsterne. Mathilde viste, hvordan en dråbe vand på et stykke voks bliver næsten rund, fordi vandet trækker sig sammen. »Det er den samme kraft som på rumstationen,« forklarede hun. Bagefter fik alle et certifikat med deres navn på, og Mathilde hængte sit over sengen.\n\nHun er stadig elleve år, og der er langt til næste rekruttering. Men hun er blevet en optimist ligesom sin far.\n\nSpørgsmål:\nHvornår blev Mathildes idé undfanget?\nDen blev undfanget en tirsdag i skolen, hvor klassen så en video fra den internationale rumstation.\nHvorfor blev vandet til en sfære på rumstationen?\nFordi vandet kun bliver holdt sammen af kræfterne i overfladen, og en sfære har den mindste overflade.\nHvorfor svæver tingene på rumstationen?\nFordi hele stationen hele tiden falder rundt om Jorden, og alt inde i den falder med.\nHvad fandt Mathildes far ud af om rekruttering af astronauter?\nHan fandt ud af, at der er rekruttering med flere års mellemrum, og at man skal bestå prøver i fysik, sprog og helbred.\nHvad skete der, da skolen skulle indvie det nye lokale?\nBorgmesteren kom, eleverne lavede forsøg, og bagefter fik alle et certifikat med deres navn på."
+    },
+    {
+      "title": "Blæksprutten, der forsvandt",
+      "summary": "A visit to an aquarium shows how marine animals use light and colour to hide.",
+      "newWords": [
+        "horde",
+        "østside",
+        "marin",
+        "camouflage",
+        "dyreart",
+        "vellidt",
+        "sindstilstand",
+        "geled",
+        "øjenlåg"
+      ],
+      "text": "Klokken ti om formiddagen står en horde af skolebørn foran indgangen til Den Blå Planet i Kastrup. Hordens lærere tæller, tæller igen og fører dem så indenfor. Jeg går med som journalist for at se, hvad fysik har at gøre med livet i havet.\n\nMin guide er Rikke, der er marin biolog. Hun har studeret marin biologi i tolv år og har stadig ikke mistet begejstringen. Vi starter ved et stort bassin på bygningens østside. På østsiden kommer morgenlyset ind gennem høje vinduer, og vandet skinner grønt og blåt.\n\n»Her kan du se den mest almindelige form for camouflage i havet,« siger Rikke og peger på en stime af fisk. Fiskene er mørke på ryggen og lyse på maven. Hvis man ser dem ovenfra, forsvinder deres mørke ryg mod den mørke dybde. Hvis man ser dem nedefra, forsvinder deres lyse mave mod det lyse vand ved overfladen. Mange dyrearter bruger denne camouflage, fordi lyset i havet altid kommer fra oven.\n\nFiskene svømmer side om side, som soldater i geled. »Når de holder geled, er det svært for et rovdyr at vælge én fisk,« forklarer Rikke. Hvis en enkelt fisk forlader geleddet, bliver den let at få øje på.\n\nSå kommer vi til husets mest vellidte beboer, en blæksprutte. Den er vellidt blandt børnene, fordi den kan skifte farve på et øjeblik. Først kan jeg slet ikke finde den. Den ligger på en sten og har nøjagtig samme farve som stenen. »Dens hud er fuld af små sække med farve, og dyret kan åbne og lukke dem på et sekund,« siger Rikke. Farverne afslører også dyrets sindstilstand. En rolig blæksprutte er bleg; en blæksprutte, der er bange eller vred, bliver mørk. »Man kan næsten læse dens sindstilstand som et ansigt,« siger hun.\n\nTil sidst viser hun mig en haj. Den ser på os med store, sorte øjne, og jeg lægger mærke til, at den aldrig blinker. Ifølge Rikke har de fleste fisk ikke øjenlåg. Vandet holder øjnene våde, og derfor har fiskene ikke brug for øjenlåg, sådan som vi har. Hver dyreart har sine egne løsninger, og nogle hajer har en tynd hud, der kan trækkes hen over øjet, når de angriber.\n\nDa jeg går, møder jeg igen horden af skolebørn. De står med næsen mod glasset ved blæksprutten og råber, hver gang den skifter farve. Den er tydeligvis lige så vellidt som altid, og dens sindstilstand ser ud til at være helt rolig.\n\nSpørgsmål:\nHvem er Rikke?\nRikke er marin biolog og fortællerens guide i Den Blå Planet.\nHvordan fungerer fiskenes camouflage?\nDe er mørke på ryggen og lyse på maven, så de forsvinder mod dybden ovenfra og mod det lyse vand nedefra.\nHvorfor svømmer fiskene i geled?\nFordi det er svært for et rovdyr at vælge én fisk, når de holder geled.\nHvordan kan man se blækspruttens sindstilstand?\nEn rolig blæksprutte er bleg, mens en blæksprutte, der er bange eller vred, bliver mørk.\nHvorfor har de fleste fisk ikke brug for øjenlåg?\nFordi vandet holder deres øjne våde."
+    },
+    {
+      "title": "Fysikken er ligeglad med styreformen",
+      "summary": "A tenant writes a letter to a newspaper about cold flats, heat loss and politicians who argue instead of acting.",
+      "newWords": [
+        "læserbrev",
+        "lejebolig",
+        "stedse",
+        "kreditor",
+        "degradere",
+        "skriveri",
+        "folkevalgt",
+        "konsensus",
+        "styreform"
+      ],
+      "text": "Læserbrev\n\nJeg har boet i den samme lejebolig i Odense i 22 år. Det er en god lejebolig med høje lofter og store vinduer, men hver vinter er det samme: Varmen forsvinder ud gennem de gamle ruder, og regningen bliver stedse større. Jeg skriver dette læserbrev, fordi jeg er træt af at betale for at varme gaden op.\n\nLad mig begynde med fysikken, for den er ikke til diskussion. Varme bevæger sig altid fra det varme mod det kolde. Det gør den, uanset hvad vi mener om det. Et gammelt vindue med ét lag glas lader varmen slippe ud mange gange hurtigere end et nyt vindue med to eller tre lag og luft imellem. Luft er nemlig dårlig til at lede varme. Derfor holder en dyne varmen, og derfor holder et godt vindue varmen inde.\n\nHuset er ejet af et selskab i København. Selskabet har, så vidt jeg kan læse, store lån, og pengene går stedse oftere til renter frem for til reparationer. Når jeg ringer, får jeg at vide, at man først skal betale sine kreditorer. Det forstår jeg. Men jeg er også en slags kreditor: Jeg har betalt husleje i 22 år og har aldrig fået nye vinduer.\n\nSidste år kom en ingeniør og gav bygningen et nyt mærke for energi. Bygningen blev degraderet fra D til F. Det er ikke huset, der er blevet dårligere; det er kravene, der er blevet strengere. Men når en bygning bliver degraderet, burde det være en anledning til at handle, ikke kun et bogstav på et papir.\n\nAvisen har bragt mange skriverier om sagen. Der har været skriverier om energi, om priser og om ejere, der ikke vedligeholder deres huse. Jeg har læst dem alle. De folkevalgte i byrådet er enige om, at noget må gøres. De er bare ikke enige om hvad. Nogle folkevalgte vil give tilskud, andre vil stille krav. Der er bred konsensus om problemet, men ingen konsensus om løsningen.\n\nImens går varmen ud gennem vinduerne. Fysikken venter ikke på et møde i byrådet. Den er ligeglad med, om vi har en god eller en dårlig styreform, om vi har konge, præsident eller byråd. Under enhver styreform løber varmen fra det varme mod det kolde.\n\nJeg beder derfor om tre ting: at ejeren skifter vinduerne, at kommunen hjælper med at betale, og at politikerne holder op med at diskutere, før vinteren kommer igen.\n\nMed venlig hilsen\nBente Holm, lejer i Odense\n\nSpørgsmål:\nHvorfor skriver Bente Holm sit læserbrev?\nFordi varmen forsvinder ud gennem de gamle ruder, og regningen for varme bliver stedse større.\nHvorfor holder et nyt vindue bedre på varmen end et gammelt?\nFordi det har to eller tre lag glas med luft imellem, og luft er dårlig til at lede varme.\nHvorfor kalder Bente Holm sig selv en slags kreditor?\nFordi hun har betalt husleje i 22 år uden at få nye vinduer.\nHvad betyder det, at bygningen blev degraderet fra D til F?\nDet betyder, at den fik et dårligere mærke for energi, fordi kravene er blevet strengere.\nHvad mener hun om de folkevalgte i byrådet?\nHun mener, at de er enige om problemet, men at de ikke har nogen konsensus om løsningen."
+    },
+    {
+      "title": "Missekatten på vejen",
+      "summary": "A newly qualified young driver learns from his father why speed matters so much when braking.",
+      "newWords": [
+        "fødselsdato",
+        "erindre",
+        "speeder",
+        "slagteri",
+        "missekat",
+        "skytsengel",
+        "afstraffelse",
+        "platin"
+      ],
+      "text": "Emil fyldte 18 år en fredag i marts, og allerede ugen efter bestod han sin køreprøve. Da han hentede kørekortet, kontrollerede damen ved skranken hans fødselsdato to gange. »Det er ikke mange dage siden, du havde fødselsdag,« sagde hun og smilede. Hans fødselsdato stod nu på et kort, der gav ham lov til at køre alene.\n\nDen første søndag lånte han sin fars bil, og faren, Jens, kørte med. Emils lillesøster, Laura, sad på bagsædet. Jens kunne godt erindre sin egen første tur: Han havde kørt alt for stærkt ned ad en bakke og havde bremset så hårdt, at hans mor slog hovedet mod ruden. »Jeg erindrer det, som var det i går,« sagde han.\n\nDe kørte ud ad landevejen forbi det gamle slagteri. Ved slagteriet kom en stor lastbil ud på vejen, og Emil måtte tage foden fra speederen. Kort efter løb en lille kat over vejen. »Missekat!« råbte Laura fra bagsædet. Emil slap speederen helt og bremsede, og bilen standsede i god tid. Missekatten forsvandt ind i en have.\n\n»Godt,« sagde Jens. »Ved du, hvorfor det gik så let?« Emil rystede på hovedet. Jens forklarede, at en bil i bevægelse har en energi, der vokser meget hurtigere end farten. Når farten bliver dobbelt så stor, bliver energien fire gange så stor, og bremselængden bliver omtrent fire gange så lang. Ved 40 kilometer i timen standser en bil på kort afstand. Ved 80 kilometer i timen skal den bruge fire gange så langt.\n\n»Og så er der kroppen,« sagde Jens. »Når bilen standser, vil kroppen fortsætte fremad med samme fart. Den eneste, der holder dig tilbage, er selen.« Han kaldte selen for sin skytsengel. »Min mor havde ingen skytsengel den dag,« sagde han. »Hun havde ikke sele på.«\n\nPå vejen hjem talte de om bøder. »Bøden er ikke den egentlige afstraffelse,« sagde Jens. »Den egentlige afstraffelse kommer fra fysikken, og den kan ikke forhandles.«\n\nTil sidst ville Laura vide, hvorfor det lugtede, når bilen startede. Jens forklarede, at under bilen sidder en dåse med en tynd hinde af platin. Platin gør udstødningen mindre giftig. »Er det ligesom guld?« spurgte Laura. »Platin er sjældnere end guld,« svarede Jens, »og derfor bliver de dåser nogle gange stjålet.«\n\nDa de holdt i indkørslen, sagde Laura, at hun også ville have en skytsengel. Emil hjalp hende med at få selen af og lovede at holde øje med hver missekat på vejen.\n\nSpørgsmål:\nHvorfor kontrollerede damen ved skranken Emils fødselsdato?\nFordi Emil lige var fyldt 18 år og kun havde haft fødselsdag ugen før.\nHvad kunne Jens erindre om sin egen første tur?\nHan havde kørt for stærkt ned ad en bakke og bremset så hårdt, at hans mor slog hovedet mod ruden.\nHvad skete der, da missekatten løb over vejen?\nEmil slap speederen og bremsede, og bilen standsede i god tid.\nHvad sker der med bremselængden, når farten bliver dobbelt så stor?\nBremselængden bliver omtrent fire gange så lang.\nHvorfor kalder Jens selen for sin skytsengel?\nFordi selen holder kroppen tilbage, når bilen standser."
+    },
+    {
+      "title": "Varmen ved fjorden",
+      "summary": "A grandchild remembers building a small sauna by the fjord with a retired prison officer grandfather, and the long game of chess that followed.",
+      "newWords": [
+        "fængselsbetjent",
+        "håndvåben",
+        "skærsild",
+        "inferno",
+        "balsam",
+        "remis",
+        "ildkraft"
+      ],
+      "text": "Min morfar, Poul, var fængselsbetjent i 38 år. Han talte sjældent om sit arbejde, men én ting fortalte han gerne: at han aldrig havde båret et håndvåben. Danske fængselsbetjente bærer ikke håndvåben, sagde han, og de skal klare sig med ord. »Ord er langsommere,« sagde han, »men de virker længere.«\n\nDa han gik på pension, byggede han en lille sauna ved fjorden, et stykke nede ad haven bag sommerhuset. Jeg var tretten år og hjalp ham hele sommeren. Vi savede brædder, bar sten og satte en lille ovn ind i det ene hjørne. Morfar var en tålmodig mand, men han var ikke ingeniør.\n\nFørste gang vi tændte op, fyldte han ovnen helt med brænde. Efter en halv time var det lille rum blevet en skærsild. Luften brændte i næsen, og træet i væggene var for varmt at røre ved. »Det er jo et inferno,« sagde mormor, da hun kiggede ind, og hun lukkede døren igen med det samme. Vi måtte vente en time på, at infernoet faldt til ro.\n\nLangsomt lærte vi fysikken. Tør luft på 80 grader kan man godt sidde i, fordi luft er dårlig til at lede varme, og fordi sveden køler huden, når den fordamper. Men når man hælder vand på de varme sten, bliver det til damp, og fugtig luft føles meget varmere, for sveden kan ikke længere fordampe. En skefuld vand for meget, og rummet var igen en skærsild. Når vi havde siddet i varmen, gik vi ned ad stien og ud i det kolde vand. Kulden føltes ikke som en straf, men som en lettelse.\n\nBagefter smurte mormor vores hænder ind i en balsam, hun selv lavede af bivoks og olie. Varmen og saltvandet tørrede huden ud, og hendes balsam hjalp. Den lugtede af honning, og for mig er det stadig lugten af den sommer.\n\nOm aftenen spillede morfar og jeg skak på terrassen. Han spillede roligt og sikkert, sådan som han vel også havde gjort sit arbejde. Jeg ville altid angribe. Jeg samlede mine tårne og min dronning, al min ildkraft, mod hans konge. Men morfar flyttede sine brikker et felt ad gangen, og min ildkraft løb ud i sandet. Den sidste aften i august spillede vi i tre timer. Til sidst havde vi hver kun en konge og en bonde tilbage. »Remis,« sagde morfar og rakte mig hånden. Det var første gang, jeg ikke havde tabt, og en remis mod ham føltes som en sejr.\n\nSaunaen står der stadig. Jeg tænder selv op nu, med lidt mindre brænde end dengang, og når varmen kommer, tænker jeg på ham.\n\nSpørgsmål:\nHvad fortalte Poul gerne om sit arbejde som fængselsbetjent?\nHan fortalte, at han aldrig havde båret et håndvåben, og at fængselsbetjente skal klare sig med ord.\nHvorfor blev rummet en skærsild første gang?\nFordi morfar fyldte ovnen helt med brænde.\nHvorfor føles fugtig luft varmere end tør luft?\nFordi sveden ikke kan fordampe og køle huden, når luften er fugtig.\nHvad brugte mormor sin balsam til?\nHun smurte den på deres hænder, fordi varmen og saltvandet tørrede huden ud.\nHvordan endte skakspillet den sidste aften i august?\nDet endte remis, fordi de hver kun havde en konge og en bonde tilbage."
+    }
+  ]
+}

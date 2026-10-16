@@ -1,0 +1,212 @@
+{
+  "id": "da-mini-9500",
+  "rankUpTo": 9500,
+  "level": "C2",
+  "title": "Byplanlægning",
+  "description": "Ten calm stories, reports and columns about how Danish towns are planned and changed: a local railway, a metro, pavements, an old hospital, a seaside hotel, a former dump, a housing estate, a harbour dispute, a school class and a trotting-track neighbourhood.",
+  "topic": "Urban planning",
+  "names": [
+    "Vestby",
+    "Østerlund",
+    "København",
+    "Nørrebro",
+    "London",
+    "Hovedbanegården",
+    "Lene",
+    "Mads",
+    "Svendborg",
+    "Egeby",
+    "Inger",
+    "Sofie",
+    "Anders",
+    "Klitby",
+    "Hamborg",
+    "Sofies",
+    "Danmark",
+    "Danmarks",
+    "Karin Holm",
+    "Søparken",
+    "Nordhavn",
+    "Planklagenævnet",
+    "Amalie",
+    "Amalies",
+    "Bo",
+    "Oliver",
+    "Olivers",
+    "Vitruvius",
+    "Jakob",
+    "Milans",
+    "Beograd",
+    "Polen"
+  ],
+  "lessons": [
+    {
+      "title": "Det sidste lokaltog",
+      "summary": "A local newspaper reports on a plan to close a small railway line and on how the town debates it.",
+      "newWords": [
+        "lokaltog",
+        "nedlæggelse",
+        "rejsetid",
+        "gyldighed",
+        "pjece",
+        "erhvervsdrivende",
+        "effektivisering",
+        "tilbageholdende",
+        "påtrængende",
+        "uinteressant"
+      ],
+      "text": "Hver morgen klokken 6.42 forlader et lille, rødt lokaltog stationen i Vestby. Det kører gennem marker og små skove, standser ved fire landsbyer og når frem til Østerlund knap en halv time senere. I mere end hundrede år har dette lokaltog været en fast del af egnens hverdag. Nu kan det være slut. Regionen har foreslået en nedlæggelse af banen.\n\nSet fra hovedstaden kan sagen virke uinteressant: en lille bane med et par hundrede passagerer om dagen. Regionens argument er økonomisk. Toget er gammelt, og skinnerne skal snart skiftes. I en pjece, som er delt ud til alle husstande, forklarer regionen, at banen skal erstattes af en bus. Ifølge pjecen er der tale om en effektivisering og ikke om en besparelse: Bussen kan køre oftere, og den kan standse midt i landsbyerne. Pjecen lover desuden, at rejsetiden kun bliver lidt længere.\n\nNetop rejsetiden er det, mange borgere hæfter sig ved. En bus skal dele vejen med lastbiler og traktorer, og om vinteren er landevejen glat. »I toget ved jeg præcis, hvornår jeg er fremme,« siger en sygeplejerske, der hver dag pendler til hospitalet i Østerlund. »Med bussen bliver rejsetiden et gæt.«\n\nOgså de erhvervsdrivende i Vestby er bekymrede. Byens bager, købmand og frisør mener, at stationen holder liv i hovedgaden. Når folk venter på toget, køber de en kop kaffe eller en bolle. De erhvervsdrivende frygter, at en nedlæggelse vil gøre byen mindre attraktiv for nye familier. For dem er spørgsmålet langtfra uinteressant; det handler om byens fremtid.\n\nAndre er mere tilbageholdende. De bruger sjældent toget selv og forstår ikke, hvorfor regionen skal bruge millioner på en bane med så få passagerer. En pensioneret lærer siger det sådan: »Jeg er tilbageholdende med at kræve penge til noget, jeg aldrig bruger. Men jeg er også tilbageholdende med at lukke noget, der ikke kan åbnes igen.«\n\nPjecen svarer nemlig ikke på, hvad der sker med skinnerne. En bane, der først er lukket, kommer sjældent tilbage. Mange synes derfor, at det påtrængende spørgsmål ikke er, om toget er billigt nok i dag, men om egnen får brug for det om tredive år, når flere skal pendle, og benzinen måske er dyrere.\n\nEt mere praktisk spørgsmål gælder billetterne. Mange pendlere har et kort med en gyldighed på et helt år. Regionen oplyser, at kortets gyldighed vil blive overført til bussen, så ingen mister penge.\n\nI forsamlingshuset var salen fyldt, da regionen holdt møde i sidste uge. Regionens repræsentant gentog, at forslaget er en effektivisering, der giver mere for færre penge. Til sidst rejste en ung mor sig og sagde stille: »Det mest påtrængende for mig er ikke prisen. Det er, at mine børn kan tage toget alene til skole.« Hun fik det længste bifald den aften.\n\nBeslutningen bliver truffet i marts. Indtil da kører det lille, røde lokaltog videre, klokken 6.42 hver morgen.\n\nSpørgsmål:\nHvad har regionen foreslået?\nRegionen har foreslået en nedlæggelse af banen mellem Vestby og Østerlund.\nHvorfor kalder regionen forslaget en effektivisering?\nFordi bussen kan køre oftere og standse midt i landsbyerne.\nHvorfor er de erhvervsdrivende i Vestby bekymrede?\nDe mener, at stationen holder liv i hovedgaden, og de frygter, at byen bliver mindre attraktiv for nye familier.\nHvad sker der med pendlernes kort?\nKortets gyldighed bliver overført til bussen, så ingen mister penge.\nHvad var det mest påtrængende for den unge mor?\nDet mest påtrængende for hende var, at hendes børn kan tage toget alene til skole."
+    },
+    {
+      "title": "Under gaden",
+      "summary": "A resident of Copenhagen writes a calm column about living above the building site of a new metro line.",
+      "newWords": [
+        "undergrundsbane",
+        "vibrere",
+        "skanning",
+        "fjernstyre",
+        "operativ",
+        "brøl",
+        "knurre",
+        "irritabel",
+        "jamre",
+        "splint"
+      ],
+      "text": "I to år har jeg boet oven på en byggeplads. Ikke bogstaveligt, for min lejlighed ligger på fjerde sal i en gammel ejendom på Nørrebro, men nede under gaden bliver der bygget en ny linje til metroen. København får endnu en undergrundsbane, og jeg har fået en plads på første række.\n\nOrdet undergrundsbane lyder gammeldags, næsten som noget fra en roman om London for hundrede år siden. Men det beskriver ganske præcist, hvad der sker: Man graver en bane ned i undergrunden, under huse, kirker og kældre, mens byen oven over lever videre.\n\nDet begyndte med en skanning. En morgen stod to unge ingeniører i opgangen og bad om lov til at måle min lejlighed. De forklarede, at man laver en skanning af alle huse langs linjen, før arbejdet går i gang. Skanningen viser, hvordan murene ser ud i dag, så man senere kan se, om der er kommet revner. Jeg syntes, det var betryggende.\n\nSå kom maskinerne. Det første år var præget af et dybt brøl fra gravemaskiner og lastbiler, der kørte jord væk dag og nat. Et brøl er måske et stort ord, men om morgenen klokken seks føles det sådan. Senere kom selve boret. Det er en enorm maskine, der arbejder sig gennem jorden ti meter under os, og meget af tiden bliver den fjernstyret fra et kontrolrum oppe på pladsen. Jeg kan godt lide tanken om, at en ung kvinde med en skærm og en kop kaffe fjernstyrer et monster under mit køkken.\n\nBoret brøler ikke; det knurrer. Det er en lav, jævn lyd, som man mere mærker end hører. Når det passerer, begynder kopperne i skabet at vibrere, og vandet i et glas på bordet bevæger sig i små ringe. Min nabos hund knurrer ad gulvet, som om der var en fremmed hund i kælderen. Efter tre dage holder huset op med at vibrere, og boret er kommet videre.\n\nUndervejs fandt arbejderne noget, ingen havde regnet med: gamle pæle af egetræ, som et hus fra 1700-tallet engang havde stået på. Boret rev en splint af den ene pæl, og splinten blev sendt til et museum. Det var en lille splint af byens historie, som ingen havde set i tre hundrede år.\n\nJeg skal ikke jamre. Det er let at jamre over støj, og mange af mine naboer har været irritable i perioder. Jeg har selv været irritabel, når jeg er blevet vækket af en lastbil, der bakkede. Men når jeg står på gaden og ser hullet, tænker jeg på, at man også gravede, da de første kloakker blev lavet, og at nogen sikkert jamrede dengang.\n\nIfølge planen bliver linjen operativ om tre år. Når den er operativ, kan jeg komme til Hovedbanegården på otte minutter. Og når toget kører under mit køkken, vil kopperne måske vibrere en lille smule, hver gang det passerer.\n\nSpørgsmål:\nHvad er en undergrundsbane ifølge skribenten?\nDet er en bane, som man graver ned under huse, kirker og kældre, mens byen lever videre oven over.\nHvorfor lavede ingeniørerne en skanning af lejligheden?\nFordi skanningen viser, hvordan murene ser ud i dag, så man senere kan se, om der er kommet revner.\nHvordan bliver boret styret?\nMeget af tiden bliver det fjernstyret fra et kontrolrum oppe på pladsen.\nHvad sker der i lejligheden, når boret passerer?\nKopperne i skabet begynder at vibrere, og naboens hund knurrer.\nHvad fandt arbejderne under gaden?\nDe fandt gamle pæle af egetræ, og en splint af en af pælene blev sendt til et museum.\nHvornår bliver linjen operativ?\nIfølge planen bliver den operativ om tre år."
+    },
+    {
+      "title": "En tur på fortovet",
+      "summary": "A woman in a wheelchair takes a young town planner on a tour of the pavements of Svendborg to show him what stands in the way.",
+      "newWords": [
+        "fodgænger",
+        "baghjul",
+        "rullestol",
+        "blokering",
+        "bagtil",
+        "vrikke",
+        "forbinding",
+        "kæk",
+        "snesevis",
+        "påfaldende"
+      ],
+      "text": "Lene er 54 år og har siddet i rullestol, siden hun var tyve. Hun sidder i kommunens råd for tilgængelighed, og en tirsdag i oktober har hun inviteret Mads, en ung planlægger fra kommunens tekniske afdeling, på en tur gennem midten af Svendborg. Han skal ikke gå ved siden af hende. Han skal sidde i en lånt rullestol.\n\n»Det er den bedste måde at forstå det på,« siger Lene. »På papiret ser byen fin ud. På fortovet ser den anderledes ud.«\n\nMads får forklaret det vigtigste. Stolen har to store baghjul, som man skubber med hænderne, og to små hjul foran. Bagtil sidder der to små støttehjul, som forhindrer stolen i at tippe bagover, når man kører op over en kant. »Uden dem bagtil ville jeg have ligget på ryggen snesevis af gange,« siger Lene med et kækt smil.\n\nDe har ikke kørt hundrede meter, før det første problem viser sig. Midt på fortovet står en række elcykler, som nogen har efterladt. Det er en fuldstændig blokering. En fodgænger kan bare træde ud på vejen og gå udenom, men en rullestol kan ikke komme ned fra den høje kant. De må vende om og tage en anden vej.\n\nDet er påfaldende, hvor mange små ting der gør en stor forskel. En skraldespand står på det forkerte sted. Et skilt med tilbud fra en butik står midt i vejen. Et hjørne mangler en rampe. Hver enkelt ting er en lille blokering, men tilsammen gør de byen til en forhindringsbane. Mads noterer det hele i sin notesbog: snesevis af steder på en tur, der varer under en time.\n\nPå torvet sidder en ældre mand på en bænk med en hvid forbinding om anklen. Lene kender ham. Han fortæller, at han vrikkede om på en løs flise i sidste uge. »Jeg vrikkede om lige der,« siger han og peger. »Det er ikke kun os i stole, der har brug for jævne fortove,« siger Lene, da de kører videre. »Enhver fodgænger kan vrikke om, og så går man med en forbinding i flere uger.«\n\nPå vej ned ad en smal gade, som er lagt med gamle sten, sætter Mads' ene baghjul sig fast i et hul. Han skubber og skubber, men stolen rører sig ikke. Lene kører hen bag ham og giver ham et lille skub. »Velkommen til min hverdag,« siger hun kækt.\n\nTilbage på rådhuset er Mads træt i armene. Han siger, at det var påfaldende, hvor meget han så, som han aldrig havde lagt mærke til som fodgænger. Han lover, at kommunen vil se på hjørnerne, fliserne og cyklerne. Lene smiler. Næste gang vil hun tage borgmesteren med.\n\nSpørgsmål:\nHvorfor skal Mads sidde i en rullestol på turen?\nFordi Lene mener, at det er den bedste måde at forstå, hvordan byen ser ud fra et fortov.\nHvad sidder der bagtil på rullestolen?\nDer sidder to små støttehjul, som forhindrer stolen i at tippe bagover.\nHvorfor er elcyklerne en blokering?\nFordi de står midt på fortovet, og en rullestol ikke kan komme ned fra den høje kant og køre udenom.\nHvorfor har den ældre mand en forbinding om anklen?\nFordi han vrikkede om på en løs flise i sidste uge.\nHvad sker der med Mads' baghjul i den smalle gade?\nDet ene baghjul sætter sig fast i et hul, og Lene må give ham et skub.\nHvad lover Mads til sidst?\nHan lover, at kommunen vil se på hjørnerne, fliserne og cyklerne."
+    },
+    {
+      "title": "Det gamle sygehus",
+      "summary": "A retired midwife shows a reporter round the old town hospital, which is being turned into homes and a small health centre.",
+      "newWords": [
+        "sygeafdeling",
+        "jordemoder",
+        "pattebarn",
+        "prostata",
+        "milt",
+        "modermærke",
+        "fremskreden",
+        "eftertid",
+        "salig"
+      ],
+      "text": "Sygehuset i Egeby lukkede for fem år siden, da regionens nye, store hospital åbnede tres kilometer væk. Siden har de røde bygninger stået tomme. Nu er planerne langt fremskredne: Den ene fløj skal laves om til boliger for ældre, og i den anden fløj åbner kommunen et lille sted, hvor borgerne kan blive undersøgt og få taget blodprøver uden at køre den lange vej.\n\nInger er 78 år. Hun var jordemoder på sygehuset i næsten fyrre år, og hun har lovet at vise os rundt, før håndværkerne går i gang. Hun går langsomt op ad trappen, men hun kender hver dør.\n\n»Her lå den medicinske sygeafdeling,« siger hun og peger ned ad en lang gang. »Og der ovre lå den kirurgiske sygeafdeling. Her blev min egen far opereret for sin prostata i 1975. Dengang lå man på en sygeafdeling i tre uger efter sådan en operation. I dag er man hjemme efter et par dage.«\n\nHun fortæller om en dreng, der væltede på cykel en vinterdag i 1960'erne. Hans milt var gået i stykker, og kirurgen måtte fjerne milten samme nat. Drengen overlevede, og mange år senere blev han selv læge på sygehuset. »Man kan godt leve uden milt,« siger Inger, »men man skal passe lidt bedre på sig selv.«\n\nØverst i bygningen ligger de stuer, hvor Inger arbejdede. Som jordemoder har hun taget imod mere end fire tusind børn. »Halvdelen af Egeby har jeg holdt som pattebarn,« siger hun og ler. Hun husker især nætterne: lyset fra lampen, mødrene, der var trætte, og det salige udtryk hos et pattebarn, når det endelig faldt i søvn ved brystet. »Det salige øjeblik, når der bliver stille,« siger hun. »Det glemmer man aldrig.«\n\nIkke alle i Egeby er glade for planen. Mange savner sygehuset og synes, at det er for langt at køre til det nye hospital, især for gamle mennesker i en fremskreden alder. Kommunen svarer, at man ikke kan have specialister i hver by, men at det nye sted vil klare de små ting tæt på. En læge vil for eksempel kunne fjerne et modermærke, som man er bekymret for, tage en blodprøve eller undersøge en mands prostata. »Hvis man har et modermærke, der ændrer farve, skal man ikke vente i tre måneder på en tid,« siger kommunens direktør.\n\nInger forstår argumenterne, men hun synes, det er trist, at børn fra Egeby ikke længere bliver født i Egeby. »Eftertiden vil vise, om det var klogt,« siger hun. »Måske vil eftertiden synes, at vi var dumme, der lukkede så mange små sygehuse. Måske vil den synes, at det var nødvendigt.«\n\nDa vi går ud, standser hun ved døren og ser op på de røde mursten. »Jeg er glad for, at der kommer liv i huset igen,« siger hun. »Et hus skal bruges.«\n\nSpørgsmål:\nHvad skal der ske med det gamle sygehus?\nDen ene fløj skal laves om til boliger for ældre, og i den anden åbner kommunen et sted, hvor borgerne kan blive undersøgt.\nHvad var Inger på sygehuset?\nHun var jordemoder i næsten fyrre år.\nHvad skete der med drengen, der væltede på cykel?\nHans milt var gået i stykker, og kirurgen fjernede milten samme nat, men han overlevede og blev senere læge.\nHvad husker Inger især fra nætterne?\nHun husker det salige udtryk hos et pattebarn, når det faldt i søvn.\nHvad skal en læge kunne gøre på det nye sted?\nEn læge skal for eksempel kunne fjerne et modermærke eller tage en blodprøve.\nHvad siger Inger om eftertiden?\nHun siger, at eftertiden vil vise, om det var klogt at lukke så mange små sygehuse."
+    },
+    {
+      "title": "Badehotellet ved klitterne",
+      "summary": "A young couple buy an old seaside hotel on the west coast and restore it within the town's strict rules.",
+      "newWords": [
+        "badehotel",
+        "sandstrand",
+        "wienerbrød",
+        "pilsner",
+        "gelé",
+        "rødbede",
+        "køje",
+        "henrykt",
+        "flamingo",
+        "godte"
+      ],
+      "text": "Bag klitterne ved Klitby ligger et hvidt badehotel fra 1908. Det har en lang veranda, et rødt tag og en udsigt over en bred sandstrand, der fortsætter så langt, øjet kan se. For hundrede år siden kom gæsterne med tog fra København og Hamborg og blev hele sommeren. I de seneste år har badehotellet stået tomt.\n\nSofie og Anders er begge 32 år. Hun er kok, han er tømrer, og sidste vinter købte de badehotellet for alle deres opsparinger og et stort lån. Mange i Klitby rystede på hovedet. En nabo sagde, at to unge mennesker aldrig ville klare så stort et hus. Han var parat til at godte sig, når det gik galt.\n\nDet første, de lærer, er, at et gammelt badehotel ikke må se ud, som man vil. Kommunen har bestemt, at facaden skal bevares, at verandaen skal males hvid, og at der ikke må bygges nyt mellem hotellet og stranden. Reglerne skal beskytte den åbne sandstrand og udsigten fra klitterne, så alle kan nyde den, ikke kun hotellets gæster. Anders er først irriteret, men han indser hurtigt, at reglerne er grunden til, at stedet stadig er så smukt.\n\nPå plænen foran hotellet står seks lyserøde flamingoer af plastik. Den forrige ejer satte dem op i 1980'erne, og de er falmede af solen. Sofie vil smide dem ud, men gamle gæster skriver og beder dem lade flamingoerne blive. En flamingo på en dansk strand er måske lidt mærkelig, men nu hører den til.\n\nOppe på loftet bygger Anders værelser med køjer til familier og unge, der rejser på cykel. Der er fire køjer i hvert værelse, og de er lavet af træ fra de gamle gulve. Børnene elsker at sove i den øverste køje og høre havet om natten.\n\nSofies køkken er enkelt. Om morgenen er der nybagt wienerbrød, rugbrød og hjemmelavet gelé af æbler fra haven bag huset. Om aftenen serverer hun fisk fra havnen med kartofler og rødbeder fra en gård lidt inde i landet. Rødbederne bliver bagt i ovnen med timian, og mange gæster spørger efter opskriften. Til maden kan man få en kold pilsner fra et lille bryggeri i nærheden. En pilsner på verandaen ved solnedgang er for mange gæster det bedste ved hele opholdet.\n\nI juni åbner badehotellet igen. Den første aften er alle værelser fulde, og gæsterne er henrykte. En ældre dame fortæller, at hun var her som barn i 1950'erne, og at verandaen ser ud præcis som dengang. Hun er så henrykt, at hun bestiller værelse til næste sommer allerede samme aften.\n\nNaboen kommer også forbi. Han får et stykke wienerbrød og en kop kaffe. Han har ikke længere noget at godte sig over, men han siger, at det er rart at se lys i vinduerne igen.\n\nSpørgsmål:\nHvor ligger badehotellet?\nDet ligger bag klitterne ved Klitby med udsigt over en bred sandstrand.\nHvad har kommunen bestemt?\nKommunen har bestemt, at facaden skal bevares, og at der ikke må bygges nyt mellem hotellet og stranden.\nHvorfor bliver flamingoerne stående på plænen?\nFordi gamle gæster beder Sofie og Anders om at lade flamingoerne blive.\nHvad bygger Anders oppe på loftet?\nHan bygger værelser med køjer af træ fra de gamle gulve.\nHvad serverer Sofie om morgenen?\nHun serverer nybagt wienerbrød, rugbrød og hjemmelavet gelé af æbler fra haven.\nHvordan reagerer gæsterne den første aften?\nGæsterne er henrykte, og en ældre dame bestiller værelse til næste sommer."
+    },
+    {
+      "title": "Bakken, der var en losseplads",
+      "summary": "A short report on how an old rubbish dump at the edge of a town became a green hill, and what it says about the town's waste today.",
+      "newWords": [
+        "luftforurening",
+        "madspild",
+        "ildelugtende",
+        "hob",
+        "kræ",
+        "øgle",
+        "stork",
+        "karton",
+        "destruktion"
+      ],
+      "text": "I udkanten af mange danske byer ligger der en grøn bakke, som ikke altid har været grøn. Under græsset ligger affald fra hundrede år. Denne tekst handler om en af dem, og om hvad den kan lære os om den måde, en by tager sig af sit affald på.\n\nIndtil 1970'erne kørte byens skraldebiler alt affald ud på lossepladsen. Her blev det lagt i store bunker, og når en bunke blev for høj, blev den dækket med jord. Lossepladsen var et ildelugtende sted. Om sommeren kunne man lugte den i hele kvarteret, og en hob af måger fulgte efter hver lastbil. Folk, der boede tæt på, holdt vinduerne lukkede. Ingen ville bo ved siden af noget så ildelugtende.\n\nSenere blev det meste affald kørt til destruktion. Det gamle ord for forbrænding af affald var netop destruktion, og mange ældre mennesker siger stadig, at de kører noget »på destruktionen«. Røgen fra den høje skorsten var dengang en kilde til luftforurening, som man ikke talte meget om. I dag er filtrene så gode, at luftforureningen fra anlægget er lille, og varmen fra forbrændingen bliver brugt til at varme tusindvis af boliger op.\n\nDen gamle losseplads blev lukket og dækket med et tykt lag jord. Man plantede træer og såede græs, og efter tyve år var bakken en eng. I dag lever der mange små kræ i græsset: biller, sommerfugle og frøer. På de varme sten ved stien kan man om sommeren se en lille øgle ligge i solen. Det er et skovfirben, Danmarks mest almindelige øgle. Når man går tæt på, forsvinder øglen hurtigt ind under en sten.\n\nFor tre år siden skete der noget, som fik hele byen til at tale. Et par storke byggede en rede på en gammel lygtepæl ved foden af bakken. En stork er en sjælden fugl i Danmark, og folk kom fra hele landet for at se reden. I år kom storkene tilbage og fik tre unger.\n\nBakken minder os også om, hvor meget vi smider ud. I dag sorterer byens borgere deres affald i mange spande. Karton og pap fra pakker for sig, plastik for sig, glas for sig. Madspild er en særlig opgave. En familie smider i gennemsnit mange kilo mad ud om året, og madspild er både spild af penge og en belastning for klimaet. Rester af mad bliver nu samlet ind for sig og lavet om til gas og gødning til landmændene.\n\nNår man står på toppen af bakken, kan man se byen og skorstenen og havet i det fjerne. Under ens fødder ligger gamle kasser af karton, flasker og potteskår fra en tid, hvor man smed alt ud på samme sted. Over dem lever storke, sommerfugle og små kræ. Det er en god påmindelse om, at en by ikke bare er huse og veje. En by er også det, den efterlader.\n\nSpørgsmål:\nHvordan var lossepladsen før 1970'erne?\nDet var et ildelugtende sted, hvor en hob af måger fulgte efter hver lastbil.\nHvad betyder det gamle ord destruktion?\nDet betyder forbrænding af affald.\nHvorfor er luftforureningen fra anlægget lille i dag?\nFordi filtrene er så gode.\nHvilke dyr lever på bakken i dag?\nDer lever biller, sommerfugle, frøer og små øgler, og et par storke har bygget en rede ved foden af bakken.\nHvad sker der med madspild i byen i dag?\nRester af mad bliver samlet ind for sig og lavet om til gas og gødning.\nHvad ligger der under bakken?\nDer ligger gamle kasser af karton, flasker og potteskår."
+    },
+    {
+      "title": "Tryghed bygges også med mursten",
+      "summary": "An interview with a police commissioner about how a troubled housing estate became a safer place, and why planning played a part.",
+      "newWords": [
+        "politikommissær",
+        "bandemedlem",
+        "lyssky",
+        "hvidvaske",
+        "signalement",
+        "nedkæmpe",
+        "koldblodig",
+        "retskaffen",
+        "mobber",
+        "skyts"
+      ],
+      "text": "For femten år siden havde boligområdet Søparken et dårligt ry. I dag er det et af de kvarterer i byen, hvor flest siger, at de føler sig trygge. Politikommissær Karin Holm har arbejdet i området i hele perioden. Vi har talt med hende om, hvad der skete.\n\nHvordan var Søparken, da du begyndte?\n»Det var et område, hvor mange retskafne mennesker boede side om side med en lille gruppe, der skabte problemer. Det er vigtigt at sige: Langt de fleste beboere var dengang, og er i dag, helt almindelige, retskafne familier. Men en lille gruppe unge mænd bestemte for meget. Nogle af dem var bandemedlemmer, og andre ville gerne være det.«\n\nHvordan vil du beskrive den gruppe?\n»Et bandemedlem opfører sig tit som en mobber i en skolegård. En mobber har sjældent ret mange venner, men han har magt, fordi andre er bange for ham. Folk turde ikke sige noget, og derfor turde de heller ikke give os et signalement, når de havde set noget.«\n\nHvorfor er et signalement så vigtigt?\n»Fordi vi ikke kan være overalt. Et godt signalement, altså en beskrivelse af en persons højde, tøj og bil, er tit det, der gør, at vi kan løse en sag. Når folk tør give os et signalement, betyder det, at de stoler på os. Det er et tegn på tryghed.«\n\nVar der også økonomisk kriminalitet?\n»Ja. Der lå nogle lyssky butikker i det gamle center. Om dagen solgte de næsten ingenting, men regnskabet viste en stor omsætning. Butikkerne blev brugt til at hvidvaske penge fra salg af stoffer. Når man vil hvidvaske penge, skal man have en forretning, der ser ægte ud. Vi lukkede dem i samarbejde med skattevæsenet, og i dag ligger der et bibliotek og en bager.«\n\nHvad gjorde kommunen?\n»Kommunen satte tungt skyts ind, og det skyts var ikke kun politi. Man rev to blokke ned og byggede rækkehuse i stedet. Man lavede nye stier med lys, og man fjernede de høje buske, hvor man ikke kunne se, hvem der stod. Lys og åbne pladser betyder meget. Det tungeste skyts var nok de fritidsjob, som kommunen og de lokale virksomheder skaffede de unge.«\n\nHar du selv oplevet farlige situationer?\n»En nat satte nogen ild til en container ved skolen. Brandvæsenet nedkæmpede branden på en halv time. Jeg siger tit, at man kan nedkæmpe en brand på en time, men det tager ti år at ændre et kvarter.«\n\nMan siger, at du er koldblodig. Er det rigtigt?\n»Jeg ved ikke, om jeg er koldblodig, men man skal kunne holde hovedet koldt. Det er ikke det samme som at være kold. Man skal være koldblodig i situationen og varm i mødet med folk bagefter.«\n\nHvad er du mest stolt af?\n»Et tidligere bandemedlem arbejder i dag i klubben for de unge. Han siger til dem, at der findes andre veje. Det kan ingen betjent sige lige så godt som han.«\n\nSpørgsmål:\nHvem boede i Søparken for femten år siden?\nMange retskafne familier og en lille gruppe unge mænd, der skabte problemer.\nHvad sammenligner politikommissæren et bandemedlem med?\nHun sammenligner det med en mobber i en skolegård.\nHvad er et signalement?\nEt signalement er en beskrivelse af en persons højde, tøj og bil.\nHvad blev de lyssky butikker brugt til?\nDe blev brugt til at hvidvaske penge fra salg af stoffer.\nHvilket skyts satte kommunen ind?\nKommunen rev to blokke ned, lavede nye stier med lys og skaffede fritidsjob til de unge.\nHvad er Karin Holm mest stolt af?\nHun er mest stolt af, at et tidligere bandemedlem i dag arbejder i klubben for de unge."
+    },
+    {
+      "title": "Kom til besindelse",
+      "summary": "A local newspaper's editorial asks both sides of a long dispute about towers on the harbour front to calm down.",
+      "newWords": [
+        "stridighed",
+        "debatindlæg",
+        "hykleri",
+        "kæphøj",
+        "besindelse",
+        "anke",
+        "dødstrussel",
+        "forsvarsadvokat",
+        "pjatte",
+        "fordærv"
+      ],
+      "text": "Leder. I snart tre år har striden om havnen fyldt mere i denne avis end noget andet emne. Det handler om fire tårne på op til tyve etager, som en investor vil bygge ved de gamle pakhuse i Nordhavn. Byrådet sagde ja for et år siden. En gruppe naboer valgte at anke afgørelsen til Planklagenævnet, og nævnet har endnu ikke truffet sin afgørelse. Imens fortsætter stridighederne.\n\nVi har modtaget mere end fire hundrede debatindlæg om sagen. Mange af dem har været kloge og velskrevne. Et debatindlæg fra en ældre arkitekt om lyset mellem pakhusene var så godt, at vi bragte det to gange. Men tonen er blevet hårdere. Hver uge får vi debatindlæg, hvor den ene side beskylder den anden for hykleri.\n\nModstanderne siger, at tårnene vil styrte den gamle havn i fordærv, og at investoren kun tænker på penge. Tilhængerne svarer, at det er rent hykleri, når folk, der selv bor i store villaer med udsigt over vandet, vil forhindre andre i at få en bolig med udsigt. Begge sider har en pointe. Men ordet hykleri bliver brugt så tit, at det har mistet sin betydning.\n\nHeller ikke investoren har gjort det lettere. Han har optrådt kæphøjt på møderne, og da han i et interview sagde, at »naboerne kan jo bare flytte«, var det et kæphøjt svar, som skadede hans egen sag. At bygge boliger er ikke at styrte en by i fordærv. Men det er heller ikke klogt at håne dem, der skal bo ved siden af.\n\nSå skete der det, som fik os til at skrive denne leder. I foråret modtog et medlem af byrådet en dødstrussel på nettet. Manden bag den blev fundet og er nu blevet dømt. I retten sagde hans forsvarsadvokat, at manden var vred over tårnene, og at han ikke havde ment det alvorligt. Forsvarsadvokaten bad om en mild dom, og retten gav ham en betinget straf. Dommen kan han anke, men han har sagt, at han ikke vil.\n\nLad os være helt klare: En dødstrussel er ikke noget at pjatte med. Den, der får en, kan ikke vide, om den er ment alvorligt. Vi pjatter heller ikke, når vi siger, at en del af ansvaret ligger hos os alle sammen. Når vi kalder hinanden løgnere og hyklere, gør vi det lettere for de få, der går over grænsen.\n\nDerfor beder vi alle om at komme til besindelse. At komme til besindelse betyder ikke at give op. Man kan være imod tårnene og stadig tale pænt om dem, der er for. Stridigheder om byens fremtid er sunde, så længe de handler om sagen og ikke om personer.\n\nVi vil fortsat bringe debatindlæg fra begge sider. Men vi vil ikke bringe dem, der håner andre. Vi håber, at både investoren og naboerne kommer til besindelse, før Planklagenævnet taler.\n\nSpørgsmål:\nHvad handler striden i Nordhavn om?\nDen handler om fire tårne på op til tyve etager, som en investor vil bygge ved de gamle pakhuse.\nHvad gjorde naboerne efter byrådets ja?\nDe valgte at anke afgørelsen til Planklagenævnet.\nHvad beskylder siderne hinanden for i deres debatindlæg?\nDe beskylder hinanden for hykleri.\nHvorfor kalder avisen investorens svar kæphøjt?\nFordi han sagde, at naboerne bare kan flytte, og det skadede hans egen sag.\nHvad sagde forsvarsadvokaten i retten?\nHan sagde, at manden var vred over tårnene og ikke havde ment sin dødstrussel alvorligt.\nHvad beder avisen alle om?\nAvisen beder alle om at komme til besindelse og tale om sagen og ikke om personer."
+    },
+    {
+      "title": "Børnenes kvarter",
+      "summary": "A nineteen-year-old with a summer job at the town hall asks a school class what their new neighbourhood should look like.",
+      "newWords": [
+        "klasseværelse",
+        "fnise",
+        "naturtalent",
+        "nitten",
+        "erhvervserfaring",
+        "arbejdsindsats",
+        "babysitte",
+        "gnubbe",
+        "redigering",
+        "triade"
+      ],
+      "text": "Amalie var nitten år, da hun fik sit første rigtige job. Hun havde lige afsluttet gymnasiet og ville gerne læse til arkitekt, men hun manglede erhvervserfaring. Indtil da havde hun kun babysittet for naboerne og arbejdet i et supermarked. Så hun blev glad, da kommunens afdeling for byplaner tilbød hende et job i tre måneder. »Det er ikke meget, men det er erhvervserfaring,« sagde hendes mor.\n\nHendes chef hed Bo. Den første dag tegnede han tre ord på en tavle: holdbarhed, nytte og skønhed. »Det er den gamle triade,« forklarede han. »Den romerske arkitekt Vitruvius skrev om den for to tusind år siden. Et godt hus skal stå længe, det skal kunne bruges, og det skal være smukt. Den triade gælder også for en by.«\n\nKommunen skulle bygge et nyt kvarter på en mark ved skolen, og Bo ville gerne vide, hvad børnene mente. Det blev Amalies opgave. En mandag morgen stod hun i et klasseværelse foran 24 elever i femte klasse. Hun var mere nervøs, end hun havde været til eksamen. Da hun skrev ordet »kvarter« på tavlen, kom hun til at stave det forkert, og nogle af pigerne begyndte at fnise. Amalie grinede selv. Så holdt de op med at fnise og begyndte at lytte.\n\nHun bad børnene tegne det kvarter, de selv ville bo i. Klasseværelset blev stille, mens de tegnede. Næsten alle tegnede en legeplads og mange træer. En pige tegnede en svømmehal, og en dreng tegnede en sti, så han kunne cykle sikkert til skole. En anden dreng, Oliver, tegnede et helt kort over kvarteret, med huse, stier og en lille sø i midten. Han var et naturtalent. Læreren fortalte, at Oliver altid tegnede kort, også når han skulle regne. »Han er et naturtalent,« sagde hun, »men han har ikke lært det af nogen.«\n\nBagefter skulle Amalie samle det hele i en rapport og en kort video. Redigeringen tog næsten to uger. Hun sad om aftenen og gnubbede sig i øjnene foran skærmen, mens hun klippede børnenes svar sammen. Det sværeste ved redigeringen var at vælge, hvad der skulle med. Til sidst brugte hun Olivers kort som forside på rapporten.\n\nDa Bo så videoen, gnubbede han sig i hænderne. »Det her er præcis triaden,« sagde han. »Børnene vil have noget, der holder, noget, de kan bruge, og noget, der er smukt.« Han roste hendes arbejdsindsats foran hele afdelingen. Hendes arbejdsindsats havde givet kommunen noget, som ingen planer kunne give: børnenes egne ønsker.\n\nDen sidste dag fik Amalie et brev, hvor der stod, at hun var velkommen tilbage. Om aftenen skulle hun babysitte for naboen igen, og hun fortalte den lille pige om det nye kvarter. Pigen ville bare vide, om der kom en legeplads.\n\nSpørgsmål:\nHvor gammel var Amalie, da hun fik sit første rigtige job?\nHun var nitten år.\nHvorfor ville Amalie gerne have jobbet hos kommunen?\nFordi hun ville læse til arkitekt, men manglede erhvervserfaring.\nHvad er den triade, som Bo tegnede på tavlen?\nDet er holdbarhed, nytte og skønhed, som Vitruvius skrev om for to tusind år siden.\nHvorfor begyndte pigerne i klasseværelset at fnise?\nFordi Amalie kom til at stave ordet »kvarter« forkert på tavlen.\nHvorfor kaldte læreren Oliver et naturtalent?\nFordi han tegnede et helt kort over kvarteret uden at have lært det af nogen.\nHvad var det sværeste ved redigeringen?\nDet sværeste var at vælge, hvad der skulle med.\nHvad sagde Bo om Amalies arbejdsindsats?\nHan roste hendes arbejdsindsats foran hele afdelingen."
+    },
+    {
+      "title": "Kvarteret ved banen",
+      "summary": "A columnist walks through the mixed neighbourhood around an old trotting track that is about to become a new housing area.",
+      "newWords": [
+        "trav",
+        "sportsdirektør",
+        "snedker",
+        "pater",
+        "buddhist",
+        "serbisk",
+        "fordrukken",
+        "udstoppe",
+        "hallucinere",
+        "dyrisk"
+      ],
+      "text": "Første gang jeg så en hest i trav midt i byen, troede jeg, at jeg hallucinerede. Det var en tidlig morgen i november, tågen lå over vejen, og pludselig kom der en brun hest forbi med en lille vogn bag sig. Jeg hallucinerede ikke. Jeg var bare flyttet til kvarteret ved den gamle travbane.\n\nNu skal banen lukke. Om to år flytter klubben til et nyt anlæg uden for byen, og på den store, flade grund skal der bygges otte hundrede boliger. Før det sker, vil jeg gerne beskrive kvarteret, som det er nu.\n\nOm morgenen trænes hestene. Man hører hovene i sandet, et jævnt trav, der lyder som regn på et tag. Når de passerer tæt på hegnet, mærker man en dyrisk varme og lugten af hø og sved. Den dyriske lugt fra staldene ligger over hele kvarteret, når vinden kommer fra vest. Nogle af mine naboer hader den. Jeg kommer til at savne den.\n\nKlubbens sportsdirektør er en rolig mand på 60 år. Han har været sportsdirektør i tyve år og kender hver hest ved navn. Han forklarer, at banen er for lille og for gammel, og at hestene får bedre forhold på det nye sted. »Men det er trist,« siger han. »I hundrede år har folk gået herhen for at se heste i trav.« Han viser mig gamle fotos. I 1920'erne skrev avisen om fordrukne mænd, der spillede hele lønnen op på banen om lørdagen. »Ikke alle var fordrukne,« siger han og smiler. »De fleste kom med deres familie og en madkurv.«\n\nUnder tribunen har en snedker sit værksted. Han laver borde og stole af gammelt træ og har lovet at lave bænke til det nye kvarter af træet fra tribunen, når den bliver revet ned. »En snedker kan ikke lide at se godt træ blive smidt ud,« siger han.\n\nPå hjørnet ligger en lille katolsk kirke, hvor en gammel pater har holdt messe i over tredive år. Pater Jakob kommer oprindeligt fra Polen. Lige ved siden af har en gruppe buddhister lejet en tidligere stald. Hver tirsdag sidder ti buddhister i stilhed på et tæppe, hvor der engang stod heste. Pateren og buddhisterne drikker kaffe sammen hver jul.\n\nDen bedste kaffe får man dog i Milans bageri. Milans forældre kom fra Beograd, og han bager stadig serbisk brød efter sin mors opskrift. Det serbiske brød er rundt og tungt, og der er kø om lørdagen.\n\nI den gamle skole for enden af gaden er der en samling af udstoppede dyr: en ræv, en ugle og en hjort, som en lærer udstoppede i 1930'erne. Samlingen skal flytte til det nye bibliotek, så børnene i det nye kvarter også kan se dem.\n\nKvarteret vil forandre sig. Men måske vil en ny beboer en dag se den udstoppede ugle eller sidde på en af snedkerens bænke og ane, at her engang løb heste i trav.\n\nSpørgsmål:\nHvad oplevede skribenten en tidlig morgen i november?\nEn brun hest i trav kom pludselig forbi i tågen, og skribenten troede først, at det ikke var virkeligt.\nHvorfor skal banen lukke ifølge sportsdirektøren?\nFordi banen er for lille og for gammel, og hestene får bedre forhold på det nye sted.\nHvad skrev avisen om i 1920'erne?\nAvisen skrev om fordrukne mænd, der spillede hele lønnen op på banen.\nHvad vil snedkeren lave af træet fra tribunen?\nHan vil lave bænke til det nye kvarter.\nHvor mødes buddhisterne?\nDe mødes i en tidligere stald ved siden af den katolske kirke.\nHvad skal der ske med de udstoppede dyr?\nSamlingen skal flytte til det nye bibliotek."
+    }
+  ]
+}
