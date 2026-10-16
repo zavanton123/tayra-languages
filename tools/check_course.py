@@ -116,7 +116,7 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return italian_tokens(text, ranks, names, verbs, heads)
     if code == "nl":
         return dutch_tokens(text)
-    if code in ("da", "no", "sv"):
+    if code in ("da", "no", "sv", "el"):
         return danish_tokens(text, ranks)
     out = []
     for match in WORD.finditer(text):
