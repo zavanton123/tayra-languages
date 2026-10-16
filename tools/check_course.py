@@ -474,6 +474,8 @@ def check(path, brief=False):
             text = GREEK_ELISION.sub(lambda m: GREEK_ELIDED[m.group(1).lower()] + " ", text)
             # ό,τι ("whatever") is one word written with a comma.
             text = re.sub(r"([Όό]),τι", r"\1τι", text)
+            # An ordinal written with digits (19ος, 19ου, 3η) is a number.
+            text = re.sub(r"(?<=\d)(?:ος|ης|ου|ων|ους|οι|ες|ο|η|α)(?![^\W\d_])", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr"):
