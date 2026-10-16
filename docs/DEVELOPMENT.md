@@ -336,13 +336,13 @@ gets its meaning and its parent.
 
 The ready-made courses of a language are one download, offered in Settings > Courses: a
 gzip-compressed SQLite file (tables `meta`, `courses`, `lessons`) listed in `CoursePacks` and
-published as an asset of the `courses-v1` GitHub release; there are packs for `pt`, `en`, `de`, `fr`, `es`, `ru`, `it`, `sr`, `nl`, `da`, `no` and `sv`.
+published as an asset of the `courses-v1` GitHub release; there are packs for `pt`, `en`, `de`, `fr`, `es`, `ru`, `it`, `sr`, `nl`, `da`, `no`, `sv` and `el`.
 `tools/build_courses.py --language <code>` checks each course in `tools/courses/<code>/` (written as its `BRIEF.md` says) and writes
 `course-packs/courses-<code>.sqlite.gzip` (ignored by git); upload that file to the release and
 update `downloadSize` in `CoursePacks`. If the layout changes, bump `FORMAT` in the script and in
 `CoursePack`. A language's courses can pin the word list they were written against as
 `tools/courses/<code>/wordlist.tsv`; `tools/check_course.py` then reads it instead of the app's list,
-so rebuilding the app's frequency list does not shift the courses' bands (German, French, Spanish, Russian, Italian, Serbian, Dutch, Danish, Norwegian and Swedish do this).
+so rebuilding the app's frequency list does not shift the courses' bands (German, French, Spanish, Russian, Italian, Serbian, Dutch, Danish, Norwegian, Swedish and Greek do this).
 For Spanish the checker also splits the pronouns attached to a verb (*dándoselo* is *dando* + *se* +
 *lo*), counts a name of several words or with a hyphen (*San José*, *al-Ándalus*) as one known word,
 and reads capital Roman numerals (*siglo XVI*) as numbers.
@@ -361,6 +361,10 @@ For Norwegian it does the same for names and hyphenated words, counts decades (*
 For Swedish it reads an ending joined to an abbreviation with a colon (*tv:n*) as the abbreviation and counts decades
 (*1960-talet*) as numbers; `extra_forms.tsv` links the adjective forms the list files as words of their own (*fint* to *fin*,
 *mjuka* to *mjuk*) and adds noun genitives and weak-verb participles.
+For Greek it reads the elided words (*σ' το*, *απ' τη*, *γι' αυτό*) as the words they stand for, takes a word with a
+second accent before an enclitic (*όνομά μου*) as the word with its first accent, reads *ό,τι* as one word, skips the ending of an
+ordinal after digits (*20ός*, *3η*), and keeps a hyphenated pair whole when the list has it (*σιγά-σιγά*); `extra_forms.tsv` adds
+the verb, participle and noun forms the wordfreq list and Wiktionary miss.
 
 ## Book packs
 
