@@ -336,13 +336,13 @@ gets its meaning and its parent.
 
 The ready-made courses of a language are one download, offered in Settings > Courses: a
 gzip-compressed SQLite file (tables `meta`, `courses`, `lessons`) listed in `CoursePacks` and
-published as an asset of the `courses-v1` GitHub release; there are packs for `pt`, `en`, `de`, `fr`, `es`, `ru`, `it` and `sr`.
+published as an asset of the `courses-v1` GitHub release; there are packs for `pt`, `en`, `de`, `fr`, `es`, `ru`, `it`, `sr` and `nl`.
 `tools/build_courses.py --language <code>` checks each course in `tools/courses/<code>/` (written as its `BRIEF.md` says) and writes
 `course-packs/courses-<code>.sqlite.gzip` (ignored by git); upload that file to the release and
 update `downloadSize` in `CoursePacks`. If the layout changes, bump `FORMAT` in the script and in
 `CoursePack`. A language's courses can pin the word list they were written against as
 `tools/courses/<code>/wordlist.tsv`; `tools/check_course.py` then reads it instead of the app's list,
-so rebuilding the app's frequency list does not shift the courses' bands (German, French, Spanish, Russian, Italian and Serbian do this).
+so rebuilding the app's frequency list does not shift the courses' bands (German, French, Spanish, Russian, Italian, Serbian and Dutch do this).
 For Spanish the checker also splits the pronouns attached to a verb (*dándoselo* is *dando* + *se* +
 *lo*), counts a name of several words or with a hyphen (*San José*, *al-Ándalus*) as one known word,
 and reads capital Roman numerals (*siglo XVI*) as numbers.
@@ -352,6 +352,8 @@ For Italian it splits elisions (*l'amico*, *c'è*), counts the pronouns attached
 as words of their own, and credits a list word written whole (*farci*) even where it also splits that way.
 For Serbian (Latin script, ekavian) it counts the case forms of the names a course lists (*Šapac*, *u Šapcu*) as known; the list
 also holds Cyrillic and ijekavian forms, which the checker accepts, so the texts keep to ekavian Serbian by the brief.
+For Dutch it reads the short forms with an apostrophe in front (*'s ochtends*, *'t*, *'n*, *'k*, *'m*) as the words they stand for and keeps
+words with an apostrophe inside whole (*auto's*, *zo'n*); the pack shows a list headword wordfreq split with an underscore (*om_liggen*) as its form.
 
 ## Book packs
 
