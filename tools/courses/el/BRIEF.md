@@ -152,9 +152,15 @@ Things to know about the Greek list and the checker:
   (*Μαρία*, *Μαρίας*; *Γιώργος*, *Γιώργου*, *Γιώργο*; *Αθήνα*, *Αθήνας*; *Ελλάδα*, *Ελλάδας*). Some
   day names are also ordinary words (*Πέμπτη* "Thursday" and *πέμπτη* "fifth", *Παρασκευή* and
   *παρασκευή* "preparation"): never teach a band word through such a name.
+- Write the second accent a word takes before an enclitic pronoun (*το όνομά μου*, *το τηλέφωνό
+  της*): the checker reads it as the word itself.
 - Elided forms before a vowel count as their full word: *σ'* as *σε*, *τ'* as *το*, *μ'* as
   *με*, *απ'* as *από*, *γι'* as *για* (*σ' αγαπώ*, *απ' το σπίτι*). In the narration prefer the
   full words; keep the short ones for speech and fixed phrases. *κι* is listed under *και*.
+- `extra_forms.tsv` also holds the inflections the Greek Wiktionary lists for each word, and it links
+  forms the list files as words of their own to their lemma (*αγοράσει* to *αγοράζω*, *ωραία* to
+  *ωραίος*). Such an entry in your band is a form of a word the learner already has: skip it, unless it
+  is a word of its own (an adverb such as *καλά*, a language name such as *ελληνικά*).
 - Common forms the list misses go in `extra_forms.tsv` (headword, a tab, the forms): add a line
   there for another true form you need rather than writing around it, and say so in your report.
 - A form shared by two words counts for both, and a form listed under a word may be another word
