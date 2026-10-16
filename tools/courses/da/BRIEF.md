@@ -22,7 +22,7 @@ story; a lesson never needs another lesson to make sense.
   happen. Few characters (one to three), named clearly; say who "han"/"hun" is whenever it could
   be unclear (*de* is "they", *De* the rare formal "you": keep them apart).
 - **Plain narration**: third person, short sentences, one idea per sentence, the verb in second
-  position (*I dag går Emma i byen*). Present tense up to rank 500; from rank 600 the story may be
+  position (*I dag går Emma i byen*); *der er* ("there is") belongs to every level. Present tense up to rank 500; from rank 600 the story may be
   told in the past (*hun gik*, *han købte*), with the perfect where Danish uses it (*hun har
   spist*, *han er gået*). Little dialogue; when there is some, short and simple, with *du*: Danes
   say *du* to almost everyone, strangers included.
@@ -40,8 +40,8 @@ story; a lesson never needs another lesson to make sense.
     indirect questions (*hun spørger, om...*, *han ved ikke, hvor...*), *for at* and *at* with
     the infinitive;
   - ranks 1601–2000: the past perfect (*han var allerede gået*, *hun havde set det*), conditional
-    sentences (*hvis jeg havde mere tid, ville jeg...*), *der* as a formal subject (*der står en
-    mand ved døren*), *efter at*, *før*, *siden*, *mens*, *indtil*;
+    sentences (*hvis jeg havde mere tid, ville jeg...*), *der* as a formal subject with verbs other
+    than *være* (*der står en mand ved døren*), *efter at*, *før*, *siden*, *mens*, *indtil*;
   - ranks 2001–2500: the conditional of the past (*hvis hun havde vidst det, var hun blevet*),
     modal verbs in the perfect (*han skulle have ringet*, *hun burde have sagt det*), the
     *-s* passive with modal verbs (*det kan ikke gøres*), short participle phrases (*den netop
