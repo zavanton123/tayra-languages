@@ -42,6 +42,9 @@ def rules(rank_up_to):
     return 0.95, 350, 600
 
 
+GREEK_ACCENTED = {"ά": "α", "έ": "ε", "ή": "η", "ί": "ι", "ό": "ο", "ύ": "υ", "ώ": "ω", "ΐ": "ϊ", "ΰ": "ϋ"}
+
+
 def fold(code, word):
     # The German list folds ß to ss in most of its forms, so both spellings are compared folded.
     if code == "de":
@@ -52,6 +55,11 @@ def fold(code, word):
     # Russian texts for learners write ё where it belongs, while the list holds both spellings of most words.
     if code == "ru":
         return word.replace("ё", "е")
+    # A Greek word stressed on the third syllable from the end takes a second accent before an enclitic
+    # pronoun (όνομά μου, τηλέφωνό της): the word is the one with the first accent only.
+    if code == "el" and sum(1 for c in word if c in GREEK_ACCENTED) > 1:
+        last = max(i for i, c in enumerate(word) if c in GREEK_ACCENTED)
+        return word[:last] + GREEK_ACCENTED[word[last]] + word[last + 1:]
     return word
 
 
@@ -464,6 +472,8 @@ def check(path, brief=False):
         # Greek elides a short word before a vowel (σ' αγαπώ, τ' όνομα, απ' το): it counts as the word it stands for.
         if code == "el":
             text = GREEK_ELISION.sub(lambda m: GREEK_ELIDED[m.group(1).lower()] + " ", text)
+            # ό,τι ("whatever") is one word written with a comma.
+            text = re.sub(r"([Όό]),τι", r"\1τι", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr"):
