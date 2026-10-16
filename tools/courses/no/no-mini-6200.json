@@ -1,0 +1,208 @@
+{
+  "id": "no-mini-6200",
+  "rankUpTo": 6200,
+  "level": "C1",
+  "title": "Naturens ressurser",
+  "description": "Ten standalone stories and texts about how people in Norway use copper, water, oil, wood, berries, sunlight, salmon, stone and plants, and what that use costs and gives.",
+  "topic": "Natural resources",
+  "names": [
+    "Røros",
+    "Europa",
+    "Vestlandet",
+    "Ingrid",
+    "Ida",
+    "Jonas",
+    "Lene",
+    "Haugen",
+    "Stavanger",
+    "Nordsjøen",
+    "Norge",
+    "Valdres",
+    "Silje",
+    "Ola",
+    "Mia",
+    "Even",
+    "Lillehammer",
+    "Marit",
+    "Berg",
+    "Trøndelag",
+    "Sara",
+    "Kristi himmelfartsdag",
+    "Henrik",
+    "Kristiansand",
+    "Tone",
+    "Danmark",
+    "Sverige",
+    "Tromsø",
+    "Hodan",
+    "Østlandet"
+  ],
+  "lessons": [
+    {
+      "title": "Kobberet i fjellet",
+      "summary": "A short history of Røros: how copper made a mining town in the mountains, what it cost the workers and the forest, and why tourists come today.",
+      "newWords": [
+        "kobber",
+        "utkant",
+        "beundre",
+        "ryggrad",
+        "søyle",
+        "utmatte",
+        "brenning",
+        "plyndre",
+        "arbeiderklasse",
+        "oppbygging"
+      ],
+      "text": "Røros ligger høyt oppe på fjellet, i utkanten av landet, langt fra kysten og de store byene. I dag kommer turister fra hele verden for å beundre de gamle husene av tre, de smale gatene og den store, hvite kirken. Men byen ble ikke bygget for å være vakker. Den ble bygget fordi det var kobber i fjellet.\n\nI 1644 fant man kobber i området, og samme år begynte arbeidet i de første gruvene. Kobber var en verdifull ressurs. Metallet ble brukt til tak, gryter, mynter og kanoner, og det ble solgt til mange land i Europa. I over 300 år var kobberet ryggraden i økonomien på Røros. Nesten alle familier levde av gruvene på en eller annen måte, enten de arbeidet under jorda, kjørte stein med hest eller laget mat til arbeiderne.\n\nArbeidet i gruvene var hardt og farlig. Arbeiderne gikk ned i mørket tidlig om morgenen og kom ikke opp igjen før om kvelden. For å holde taket oppe lot de store søyler av stein stå igjen inne i fjellet. Mellom søylene hogg de løs steinen med enkle verktøy, og hvis en søyle var for tynn, kunne taket falle ned. Om vinteren så mange av dem nesten ikke lyset fra sola. Når de kom hjem, var de så utmattet at de sovnet rett etter maten. Det er ikke rart at mange av de utmattede mennene ble syke og døde unge.\n\nKobberet satt fast i steinen, og for å få det ut måtte steinen varmes opp i store bål. Til denne brenningen trengte man enorme mengder ved. Brenningen foregikk dag og natt, og røyken la seg over hele dalen. Skogen rundt byen ble hogd så hardt at den nesten forsvant. Man kan si at skogen ble plyndret for å holde verket i gang. Det tok mange generasjoner før trærne kom tilbake, og noen steder kan man fortsatt se sporene etter et landskap som ble plyndret.\n\nGruvene skapte også en egen arbeiderklasse på fjellet. Arbeiderne eide ikke jorda de bodde på, og de var helt avhengige av verket. Mange hadde likevel en liten gård med noen kyr ved siden av. Slik kunne arbeiderklassen på Røros overleve de årene da prisen på kobber var lav.\n\nOppbyggingen av byen skjedde langsomt. Først kom enkle hus, så kirken og etter hvert gårdene langs gatene. Oppbyggingen ble stoppet flere ganger, blant annet da svenske soldater brente byen i 1678. Men folk bygget opp igjen, hver gang i tre.\n\nGruvene ble stengt i 1977. Byen mistet da ryggraden i økonomien sin, men turismen ble etter hvert en ny ryggrad. Når turister i dag beundrer de fargerike husene, er det lett å glemme at alt begynte med kobber, med utmattede menn under jorda og med en skog som gikk opp i røyk. Byen lå i utkanten av landet, men kobberet gjorde den rik.\n\nSpørsmål:\nHvorfor ble Røros bygget?\nRøros ble bygget fordi det var kobber i fjellet.\nHvorfor lot arbeiderne søyler av stein stå igjen i gruvene?\nDe lot søylene stå igjen for å holde taket oppe inne i fjellet.\nHva trengte man til brenningen?\nTil brenningen trengte man enorme mengder ved, og den foregikk dag og natt.\nHva skjedde med skogen rundt byen?\nDen ble hogd så hardt at man kan si at den ble plyndret.\nHvordan klarte arbeiderklassen seg når prisen på kobber var lav?\nMange hadde en liten gård med noen kyr, og slik kunne de overleve.\nHva ble den nye ryggraden i økonomien etter at gruvene ble stengt?\nTurismen ble den nye ryggraden, og turistene kommer for å beundre de gamle husene."
+    },
+    {
+      "title": "Sommerjobb i kraftstasjonen",
+      "summary": "A student spends a summer at a small hydropower station and learns how water becomes electricity, and why only authorised staff may adjust the machines.",
+      "newWords": [
+        "håndbok",
+        "diameter",
+        "generator",
+        "watt",
+        "ventil",
+        "vibrasjon",
+        "justering",
+        "autorisert",
+        "påkrevd",
+        "fremgangsmåte"
+      ],
+      "text": "Sommeren etter at jeg hadde begynt å studere til ingeniør, fikk jeg jobb ved et lite kraftverk på Vestlandet. Den første dagen møtte jeg Ingrid, som hadde arbeidet der i over tjue år. «Velkommen, Ida,» sa hun og ga meg en tykk håndbok med blå perm. «Les denne før du rører noe som helst,» sa hun. I håndboka sto det hvordan alt i stasjonen virket, og hva man skulle gjøre hvis noe gikk galt.\n\nIngrid forklarte hvordan vann blir til strøm. Høyt oppe i fjellet ligger et vann som fylles av regn og smeltet snø. Derfra går vannet gjennom et stort rør ned til stasjonen. Røret har en diameter på nesten to meter, så en voksen mann kan nesten stå rett inni det. Nede i stasjonen treffer vannet et hjul som begynner å gå rundt, og hjulet driver en generator. Det er generatoren som lager strømmen. «Vannet er den viktigste ressursen vi har i dette landet,» sa Ingrid. «Uten regn og snø på fjellet står generatoren stille.»\n\nPå en skjerm kunne vi se hvor mye strøm stasjonen lagde. Strøm måles i watt, men tallene på skjermen var så store at de sto i millioner av watt. En vanlig lampe hjemme bruker kanskje 10 watt. Generatoren vår kunne lage 20 millioner watt, nok til flere tusen hjem.\n\nMellom røret og hjulet sitter en stor ventil. Når ventilen åpnes, strømmer vannet inn, og når den stenges, stopper alt. Ingrid sa at ventilen alltid måtte åpnes og stenges langsomt. Hvis den ble stengt for fort, kunne trykket i røret bli så høyt at røret ble skadet.\n\nHver morgen gikk vi en runde i stasjonen. Vi lyttet til maskinene og la hånden på dem. En generator som går som den skal, har en jevn og svak vibrasjon. Hvis vibrasjonen blir sterkere, kan det bety at noe er i ferd med å gå galt.\n\nEn morgen i juli kjente Ingrid at vibrasjonen var sterkere enn vanlig. Hun mente at maskinen trengte en liten justering. Jeg ville gjerne hjelpe til, men jeg fikk ikke lov til å gjøre justeringen selv. Bare autoriserte personer kan arbeide på slike maskiner, og for å bli autorisert må man ha både utdanning og lang erfaring. «Det er påkrevd ved lov,» forklarte Ingrid. «Og det er også påkrevd at vi alltid er to når vi arbeider inne ved maskinene.»\n\nHun slo opp i håndboka og fant riktig fremgangsmåte. Fremgangsmåten var beskrevet steg for steg: først stenge ventilen, så vente til alt sto stille, så låse ventilen slik at ingen kunne åpne den ved en feil. Først da kunne hun begynne med justeringen. Det tok to timer. Da hun åpnet ventilen igjen, var vibrasjonen jevn og svak, akkurat som før.\n\nDen siste dagen ga Ingrid meg en gammel håndbok som gave. «Når du selv blir autorisert,» sa hun, «vet du allerede den viktigste fremgangsmåten: Les først, og rør etterpå.»\n\nSpørsmål:\nHva ga Ingrid til Ida den første dagen?\nHun ga Ida en tykk håndbok og sa at hun måtte lese den før hun rørte noe.\nHvor stor er diameteren på røret?\nRøret har en diameter på nesten to meter.\nHvor mange watt kunne generatoren lage?\nDen kunne lage 20 millioner watt, nok til flere tusen hjem.\nHvorfor måtte ventilen stenges langsomt?\nHvis den ble stengt for fort, kunne trykket bli så høyt at røret ble skadet.\nHvorfor fikk ikke Ida gjøre justeringen selv?\nBare autoriserte personer kan arbeide på maskinene, og det er påkrevd ved lov.\nHva var fremgangsmåten før justeringen?\nFørst måtte ventilen stenges, så måtte de vente til alt sto stille, og så måtte ventilen låses."
+    },
+    {
+      "title": "Olje, penger og moral",
+      "summary": "An interview with a geologist and former state secretary about where North Sea oil comes from, the oil price collapse, and the hard questions about the future.",
+      "newWords": [
+        "dinosaur",
+        "kollaps",
+        "opplag",
+        "aksjemarked",
+        "risikabel",
+        "statssekretær",
+        "koalisjon",
+        "moral",
+        "underbygge",
+        "anmodning"
+      ],
+      "text": "Lene Haugen er geolog og har arbeidet med olje i over 30 år. I en periode var hun også statssekretær i en regjering. Avisa sendte henne en anmodning om et intervju. Hun svarte på anmodningen samme dag og sa ja, forutsatt at vi ikke bare skulle snakke om penger. Vi møtte henne på kontoret hennes i Stavanger.\n\n– Mange tror at olja i Nordsjøen kommer fra dinosaurer. Stemmer det?\n– Nei, det er en myte. Dinosaurene levde på land, og de ble ikke til olje. Olja i Nordsjøen er laget av små planter og dyr som levde i havet for svært lenge siden. Da de døde, falt de til bunnen og ble dekket av sand og leire. Over millioner av år ble de til olje og gass. Men jeg forstår myten. Både dinosaurene og olja er veldig gamle.\n\n– Hvor viktig har olja vært for Norge?\n– Den har vært helt avgjørende. Etter at man fant olje i 1969, ble Norge et av de rikeste landene i verden. Store deler av pengene er satt inn i et fond, og fondet eier aksjer i tusenvis av selskaper i det globale aksjemarkedet. Når aksjemarkedet går godt, blir fondet større.\n\n– Har det alltid gått godt?\n– Langt ifra. I 2014 kom det en kollaps i oljeprisen. På få måneder falt prisen til under halvparten. Mange skip ble lagt i opplag, fordi det ikke lenger var arbeid for dem. Langs kysten lå store skip i opplag i flere år, og tusenvis av mennesker mistet jobben. Kollapsen viste oss hvor risikabelt det er å være avhengig av én enkelt ressurs.\n\n– Du var statssekretær på den tiden. Hvordan var det?\n– Det var en krevende tid. Regjeringen var en koalisjon av tre partier, og de var ikke alltid enige. I en koalisjon må alle gi litt, og det tar tid. Noen ville bruke mer penger for å hjelpe dem som hadde mistet jobben, mens andre mente at det var risikabelt å bruke for mye av fondet.\n\n– Mange unge mener at Norge bør slutte å lete etter ny olje. Hva mener du?\n– Her handler det ikke bare om økonomi, men også om moral. Kan et land som har blitt rikt på olje, be andre land om å kutte utslippene sine? Jeg mener at vi har et ansvar. Samtidig er det mange arbeidsplasser som henger på olja, og de forsvinner ikke over natta. Begge sider har gode argumenter, og det er viktig at man underbygger argumentene sine med fakta, ikke bare med følelser.\n\n– Hvordan underbygger du dine egne argumenter?\n– Jeg prøver å se på tallene for utslipp, for arbeidsplasser og for hva det koster å bygge ut fornybar energi. Moralen er viktig, men den må gå hånd i hånd med kunnskap.\n\nFør vi gikk, viste hun oss en stein som lå på skrivebordet hennes. Den var mørk og glatt. – Dette er en stein fra havbunnen, sa hun. – Den minner meg om at alt vi har, en gang kommer til en slutt.\n\nSpørsmål:\nHva er Lene Haugen?\nHun er geolog, og i en periode var hun statssekretær i en regjering.\nKommer olja i Nordsjøen fra dinosaurer?\nNei, olja er laget av små planter og dyr som levde i havet, ikke av dinosaurer.\nHva eier fondet?\nFondet eier aksjer i tusenvis av selskaper i det globale aksjemarkedet.\nHva skjedde etter kollapsen i oljeprisen i 2014?\nMange skip ble lagt i opplag, og tusenvis av mennesker mistet jobben.\nHvorfor tok det tid å bli enige?\nRegjeringen var en koalisjon av tre partier, og i en koalisjon må alle gi litt.\nHvordan mener hun at man bør underbygge argumentene sine?\nMan bør underbygge dem med fakta, ikke bare med følelser."
+    },
+    {
+      "title": "Ved til vinteren",
+      "summary": "On a day off in October, a young man and his grandfather saw and split a load of logs, store the firewood in the barn, and end the day tired and content.",
+      "newWords": [
+        "fridag",
+        "kran",
+        "pigg",
+        "bløt",
+        "låve",
+        "albue",
+        "hake",
+        "lettelse",
+        "utslått",
+        "tilfreds",
+        "betryggende"
+      ],
+      "text": "Jeg heter Jonas. Det var en fridag i oktober, og jeg hadde lovet bestefar å hjelpe ham med veden. Bestefar bor alene på en gård i Valdres, og han varmer opp huset med ved hele vinteren. Han sier at skogen er den beste ressursen han har. «Den vokser opp igjen hvis du tar vare på den,» sier han alltid.\n\nTidlig om morgenen kom en lastebil med tømmer fra skogen hans. Lastebilen hadde en kran bak på, og sjåføren løftet stokkene av med kranen og la dem i en stor haug på tunet. Det hadde allerede kommet snø på fjellet, og lastebilen hadde pigger på dekkene. «Uten pigger kommer jeg ikke opp de bratte bakkene her om vinteren,» sa sjåføren før han kjørte.\n\nBestefar og jeg begynte å sage stokkene i biter. Det hadde regnet i flere dager, og veden var bløt. «Bløt ved brenner dårlig og gir mye røyk,» sa bestefar. «Den må tørke i minst et halvt år før vi kan bruke den.» Vi sagde biter av samme lengde og la dem i en stor kasse.\n\nEtterpå skulle bitene deles med øks. Bestefar viste meg hvordan jeg skulle stå, og hvordan jeg skulle holde albuene inntil kroppen. «Det er ikke armene som gjør jobben, det er hele kroppen,» sa han. Han er over 80 år, men han deler ved raskere enn noen jeg kjenner.\n\nEtter en time traff jeg en bit på skrå. Den hoppet opp og traff meg rett på haka. Det gjorde vondt, og jeg ble redd for at jeg hadde skadet meg. Bestefar så på haka mi og sa at det bare var et lite merke. Det var en stor lettelse. Etter det var jeg mer forsiktig, og jeg holdt albuene der han hadde vist meg.\n\nMidt på dagen kom det mer regn. Vi måtte få veden i hus før den ble enda mer bløt. Vi bar alt inn i den gamle låven bak huset. Låven er åpen i den ene enden, slik at vinden kan blåse gjennom og tørke veden. Vi stablet bitene langs veggene i låven, høyt opp mot taket.\n\nDa vi var ferdige, var det mørkt ute. Jeg var helt utslått, og albuen min verket. Bestefar var også utslått, men han ville ikke si det. Vi satt foran ovnen og spiste suppe, og ingen av oss sa noe på en lang stund.\n\n«Er du tilfreds?» spurte bestefar til slutt.\n\n«Ja, jeg er tilfreds,» svarte jeg. «Og det er betryggende å vite at du har nok ved til neste vinter.»\n\nBestefar smilte. «Det er betryggende for meg også. Og det er en lettelse at haka di fortsatt sitter på plass.»\n\nSpørsmål:\nHvorfor hadde Jonas tid til å hjelpe bestefaren?\nDet var en fridag, og han hadde lovet å hjelpe bestefar med veden.\nHvordan fikk sjåføren stokkene av lastebilen?\nHan løftet dem av med en kran som satt bak på lastebilen.\nHvorfor hadde lastebilen pigger på dekkene?\nUten pigger kommer den ikke opp de bratte bakkene om vinteren.\nHvorfor kunne de ikke bruke veden med en gang?\nVeden var bløt, og bløt ved brenner dårlig og må tørke i minst et halvt år.\nHva skjedde da Jonas traff en bit på skrå?\nBiten hoppet opp og traff ham på haka, men det var bare et lite merke.\nHvorfor la de veden i låven?\nLåven er åpen i den ene enden, slik at vinden kan blåse gjennom og tørke veden."
+    },
+    {
+      "title": "Bær i skogen",
+      "summary": "A family with two children goes berry picking in the forest, the children make a bet about who picks most, and the day ends with berries and milk.",
+      "newWords": [
+        "barnefamilie",
+        "åttende",
+        "sanke",
+        "plastpose",
+        "veddemål",
+        "forgjeves",
+        "bukk",
+        "fallskjerm",
+        "lekre",
+        "tallerken"
+      ],
+      "text": "Silje og Ola er en vanlig barnefamilie fra Lillehammer, med to barn: Mia på ti år og Even på åtte. Hver høst drar de til den samme skogen for å plukke bær. I år var det åttende gang de dro dit. Den første gangen var Mia bare to år, og Even var ikke født ennå. Nå var det åttende året på rad, og barna gledet seg like mye som før.\n\nI Norge har alle lov til å gå i skogen og sanke bær og sopp, også på andres jord. Silje forklarte det for barna i bilen. «Vi har lov til å sanke så mye vi vil, så lenge vi ikke skader naturen,» sa hun. «Og vi tar med oss alt vi har med inn i skogen, hjem igjen.»\n\nEven hadde tatt med seg en plastpose til bærene, men mor ristet på hodet. «I en plastpose blir bærene knust,» sa hun. «Ta en bøtte i stedet.» Plastposen tok de likevel med, for å samle søppel hvis de fant noe i skogen.\n\nDa de kom fram, foreslo Mia et veddemål. «Den som plukker mest, får bestemme hva vi skal ha til dessert,» sa hun. Even var med på veddemålet med en gang. Han løp inn mellom trærne og begynte å lete.\n\nMen det var ikke så lett som Even hadde trodd. Han lette forgjeves under de første trærne. Han lette forgjeves på en åpen plass i skogen. Det var nesten ingen bær der. Mia, derimot, hadde gått rett til et sted hun husket fra året før, og bøtta hennes ble raskt fylt.\n\nOla så at Even var lei seg, og tok ham med ned mot en liten bekk. Der var lyngen full av mørke bær. Plutselig ble Ola stående helt stille. Ved bekken sto en bukk, et rådyr med små horn. Bukken så på dem en stund, og så hoppet den uten en lyd inn i skogen. Even sto med åpen munn. «Så du bukken?» hvisket han.\n\nLitt senere så Even noe hvitt som svevde i lufta. Det var frø fra en plante, og hvert av dem hadde små hvite hår. «De ser ut som små fallskjermer,» sa Ola. «Vinden bærer dem langt av sted, akkurat som en fallskjerm bærer en mann ned fra himmelen. Slik sprer planten seg til nye steder.»\n\nMange barnefamilier drar på slike turer om høsten. Da de skulle hjem, sammenliknet barna bøttene sine. Mia hadde litt mer enn Even, så hun vant veddemålet. Hun bestemte at de skulle lage lekre kaker med bær. Om kvelden sto kakene på bordet, og de så like lekre ut som i en bok. Men Even fikk velge sitt eget: en dyp tallerken med friske bær og kald melk. Til slutt ville alle ha en slik tallerken.\n\nSpørsmål:\nHvor mange ganger hadde familien vært i den samme skogen?\nI år var det åttende gang, det åttende året på rad.\nHva har alle lov til i skogen?\nAlle har lov til å sanke bær og sopp, så lenge de ikke skader naturen.\nHvorfor skulle ikke Even ha bærene i en plastpose?\nI en plastpose blir bærene knust, så han skulle bruke en bøtte.\nHva var veddemålet?\nDen som plukket mest, fikk bestemme hva de skulle ha til dessert.\nHva så Ola og Even ved bekken?\nDe så en bukk, et rådyr med små horn.\nHvorfor sa Ola at frøene så ut som fallskjermer?\nVinden bar dem langt av sted, akkurat som en fallskjerm bærer en mann ned fra himmelen."
+    },
+    {
+      "title": "Sola på låven",
+      "summary": "A farmer puts solar panels on her old barn, blogs about it, and weighs her neighbours' doubts about looks against what the panels give her.",
+      "newWords": [
+        "blogge",
+        "sollys",
+        "estetisk",
+        "parodi",
+        "bevegelig",
+        "innrette",
+        "digitalisere",
+        "bredbånd",
+        "anstendig",
+        "innfri"
+      ],
+      "text": "Marit Berg driver en liten gård i Trøndelag, og hun har blogget om livet på gården i mange år. Hun blogger om dyrene, om været og om maten hun lager. I fjor skrev hun om noe nytt: Hun hadde satt solcellepaneler på taket av den gamle låven.\n\nMange tror at det er for lite sollys i Norge til at solenergi lønner seg. Marit trodde det samme lenge. Men hun fikk vite at panelene virker godt i kaldt vær, og at sommerens lange dager gir mye sollys, også langt mot nord. Om vinteren er det derimot nesten ikke sollys i det hele tatt. Da gir panelene nesten ingenting.\n\nIkke alle i bygda var begeistret. En nabo mente at panelene var et estetisk problem. Låven er over hundre år gammel og er malt rød, og han syntes at de svarte panelene ødela hele tunet. «Det ser ut som en parodi på en gammel gård,» skrev han i en kommentar på bloggen. Marit tok kritikken på alvor. Hun forsto at et vakkert landskap også er en ressurs, og at estetiske spørsmål ikke er uviktige. Likevel mente hun at det viktigste var at gården fikk ren energi. Senere svarte en annen leser at det var en parodi å kalle panelene stygge når alle ville ha billig strøm.\n\nUte på jordet satte hun også opp noen bevegelige paneler. De står på en fot og snur seg etter sola i løpet av dagen, slik at de alltid får mest mulig lys. De bevegelige panelene var dyrere, men de gir mer strøm enn de som ligger fast på taket.\n\nMarit har også måttet innrette seg etter sola. Hun vasker klær og lader den elektriske traktoren midt på dagen, når panelene gir mest. Det tok tid å innrette hele hverdagen på denne måten, men nå er det blitt en vane.\n\nHele anlegget er digitalisert. Hun kan følge med på telefonen og se hvor mye strøm panelene lager hver time. For at det skulle virke, trengte hun bredbånd på gården. Bredbånd kom til bygda først for to år siden, og uten det kunne hun ikke ha digitalisert noe som helst.\n\nVar det verdt pengene? Marit sier at panelene ikke gjorde henne rik, men at de gir en anstendig gevinst over tid. Strømregningen er blitt lavere, og prisen hun betalte, var anstendig. Hun hadde håpet at panelene skulle gi minst en tredjedel av strømmen gården bruker, og det håpet er blitt innfridd. På bloggen skrev hun: «Forventningene mine er innfridd. Naboen synes fortsatt at låven er stygg, men han kommer likevel innom for å se tallene på telefonen min.»\n\nSpørsmål:\nHva har Marit blogget om i mange år?\nHun har blogget om dyrene, om været og om maten hun lager på gården.\nNår gir panelene nesten ingenting?\nOm vinteren, når det nesten ikke er sollys.\nHvorfor mente naboen at panelene var et estetisk problem?\nHan syntes at de svarte panelene ødela tunet og den gamle, røde låven.\nHvorfor gir de bevegelige panelene mer strøm?\nDe snur seg etter sola i løpet av dagen, slik at de alltid får mest mulig lys.\nHvorfor trengte hun bredbånd?\nAnlegget er digitalisert, og uten bredbånd kunne hun ikke følge med på telefonen.\nBle forventningene hennes innfridd?\nJa, panelene gir minst en tredjedel av strømmen, og prisen var anstendig."
+    },
+    {
+      "title": "Laksen kommer tilbake",
+      "summary": "A girl from a village by a salmon river joins the parade when the crown prince comes to open the restored river, after the old main road beside it has been moved.",
+      "newWords": [
+        "riksvei",
+        "trafikkulykke",
+        "helligdag",
+        "kronprins",
+        "kongefamilie",
+        "bryting",
+        "trøye",
+        "parade",
+        "politibil",
+        "superhelt"
+      ],
+      "text": "Sara er elleve år og bor i en liten bygd ved en elv i Trøndelag. Elva var en gang kjent for laks. Bestemor hennes forteller at folk kom fra hele Europa for å fiske der. Men på 1960-tallet ble det bygget en riksvei langs elva. Riksveien gikk helt nede ved vannet, og mange steder ble elva lagt i et smalere løp for å gi plass til veien. Etter det kom det nesten ingen laks lenger.\n\nRiksveien var også farlig. Den var smal og hadde mange skarpe svinger, og det skjedde flere trafikkulykker der hvert år. Etter en alvorlig trafikkulykke for noen år siden bestemte myndighetene seg for å bygge en ny vei i tunnel gjennom fjellet. Den gamle riksveien ble fjernet, og elva fikk tilbake sitt gamle løp. Steiner ble lagt ut i vannet, slik at laksen kunne finne gode steder å legge egg.\n\nNå var arbeidet ferdig, og elva skulle åpnes på Kristi himmelfartsdag. Det er en helligdag, så alle hadde fri. Den store nyheten var at kronprinsen skulle komme. Det var første gang noen fra kongefamilien besøkte bygda.\n\nSara driver med bryting, og laget hennes skulle gå i paraden. Alle på laget for bryting hadde fått nye røde trøyer med navnet på bygda foran. Sara hadde prøvd trøya hjemme mange ganger. Hun syntes at den var den fineste trøya hun hadde eid.\n\nOm morgenen kom to politibiler kjørende foran en svart bil. Politibilene stoppet ved brua, og kronprinsen gikk ut. Han hilste på ordføreren og på noen av de eldste i bygda. Så begynte paraden. Først gikk skolekorpset, så barnehagen, og til slutt laget for bryting i sine røde trøyer. Paraden gikk langs elva, der den gamle riksveien hadde ligget.\n\nVed elva holdt kronprinsen en kort tale. Han sa at laksen er en av de viktigste ressursene vi har, og at vi har et ansvar for å ta vare på den. Han sa også at han var glad for at det ikke lenger ville skje trafikkulykker langs elva. Så klippet han et bånd, og folk klappet.\n\nEtterpå kom kronprinsen bort til laget. Han spurte Sara hvor lenge hun hadde drevet med bryting. «I tre år,» svarte hun. Han smilte og sa at det måtte kreve mye styrke. Sara klarte nesten ikke å si noe mer.\n\nOm kvelden fortalte Sara bestemor om dagen. «Han var som en superhelt,» sa hun. Bestemor lo. «Kronprinsen er ingen superhelt,» sa hun. «Han er et vanlig menneske med en uvanlig jobb.» Så ble hun stille og så ut av vinduet. «Hvis laksen kommer tilbake, er det de som har arbeidet med elva, som er de virkelige superheltene.»\n\nSpørsmål:\nHvorfor forsvant laksen fra elva?\nDet ble bygget en riksvei langs elva, og elva ble lagt i et smalere løp.\nHvorfor var den gamle riksveien farlig?\nDen var smal og hadde skarpe svinger, og det skjedde flere trafikkulykker hvert år.\nHvorfor hadde alle fri den dagen elva ble åpnet?\nKristi himmelfartsdag er en helligdag, så alle hadde fri.\nHvem fra kongefamilien kom til bygda?\nKronprinsen kom, og det var første gang noen fra kongefamilien besøkte bygda.\nHva hadde laget for bryting på seg i paraden?\nDe hadde nye røde trøyer med navnet på bygda foran.\nHvem mente bestemor var de virkelige superheltene?\nHun mente at de som har arbeidet med elva, er de virkelige superheltene."
+    },
+    {
+      "title": "Stein som var gull verdt",
+      "summary": "A secondary school class visits a museum and learns how Stone Age hunters valued good stone, made spears and fire, and lived far more cleverly than people think.",
+      "newWords": [
+        "lektor",
+        "spyd",
+        "sivilisert",
+        "pung",
+        "fordypning",
+        "lydspor",
+        "beseire",
+        "briste"
+      ],
+      "text": "Henrik er lektor ved en videregående skole i Kristiansand. Hver høst tar han med elevene sine til et museum for å lære om steinalderen. «Mange tror at folk i steinalderen var dumme og ville,» sier han i bussen. «Men de var dyktige, og på sin måte var de like siviliserte som oss. Et sivilisert samfunn trenger ikke byer og biler. Det trenger kunnskap og samarbeid.»\n\nPå museet møter de Tone, som arbeider der. Hun forklarer at stein var den viktigste ressursen i steinalderen. Av stein laget folk økser, kniver og spisser til spyd. Men all stein var ikke like god. Den beste var en hard, grå stein som kalles flint. Den kan slås til så skarpe kanter at man kan skjære seg på dem. Det rare er at det nesten ikke finnes flint i norske fjell. Den kom med isen fra Danmark og Sverige for lenge siden, og den ble liggende på strendene langs kysten her i sør. «For folk i steinalderen var en god stein på stranda gull verdt,» sier Tone.\n\nHun viser elevene et spyd som er laget slik det ble gjort for 8000 år siden. Spissen er av stein, og den er festet til et langt skaft av tre. Med et slikt spyd kunne jegerne jakte på store dyr. Alene kunne en jeger sjelden beseire en elg eller en bjørn. Men sammen, med flere spyd og en god plan, kunne de beseire nesten hvilket som helst dyr.\n\nI et skap ligger en liten pung av skinn. Tone forteller at en slik pung var noe av det viktigste en jeger hadde med seg. I pungen hadde han stein og tørt gress for å lage ild. Uten pungen kunne han fryse i hjel på en kald natt.\n\nUtenfor museet ligger en stor, flat stein. I steinen er det flere lange fordypninger. Tone forklarer at folk slipte øksene sine her, fram og tilbake, i mange hundre år. Hver fordypning ble litt dypere for hver øks som ble slipt. Elevene får lov til å legge hånden ned i en fordypning. Den er glatt som glass.\n\nTil slutt ser klassen en kort film. Filmen viser en familie som ror ut på et vann om våren. Lydsporet er laget av lyder fra naturen: vind, fugler og vann mot båten. Det er ingen ord i filmen, bare lydsporet. Plutselig hører de en lyd som et skudd. Isen på vannet er i ferd med å briste. Familien ror i land før isen brister helt.\n\nPå vei hjem spør en elev om Henrik tror at folk i steinalderen var lykkelige. Henrik tenker seg om. «Jeg vet ikke,» sier han. «Men de visste hvordan de skulle leve av naturen, og det er mer enn de fleste av oss kan si.»\n\nSpørsmål:\nHva er Henrik?\nHan er lektor ved en videregående skole.\nHvorfor var flint så verdifull i steinalderen?\nDen kan slås til svært skarpe kanter, og det finnes nesten ikke flint i norske fjell.\nHvordan kunne jegerne beseire store dyr?\nDe jaktet sammen, med flere spyd og en god plan.\nHva hadde jegeren i pungen sin?\nHan hadde stein og tørt gress for å lage ild.\nHvordan ble fordypningene i steinen laget?\nFolk slipte øksene sine fram og tilbake i steinen i mange hundre år.\nHva består lydsporet i filmen av?\nDet består av lyder fra naturen: vind, fugler og vann mot båten."
+    },
+    {
+      "title": "Salven som ikke var naturlig",
+      "summary": "A newspaper report on a herbal skin ointment that secretly contained a strong steroid, what happened in court, and what we can learn about medicine from plants.",
+      "newWords": [
+        "salve",
+        "steroid",
+        "overdose",
+        "statsadvokat",
+        "straffesak",
+        "forlik",
+        "evangelium"
+      ],
+      "text": "Planter har vært en ressurs for medisin i tusenvis av år. Den kjente medisinen aspirin har sin opprinnelse i et stoff fra bark, og mange moderne medisiner er laget med planter som forbilde. Derfor er det ikke rart at mange stoler på produkter som kalles naturlige. Men en sak fra i fjor viser at man bør være forsiktig.\n\nEt lite firma på Østlandet solgte en salve som skulle hjelpe mot tørr og rød hud. På boksen sto det at salven var laget av planter fra norske skoger, og at den var helt uten kjemikalier. Mange foreldre kjøpte salven til barn med sår hud, og de var fornøyde. Huden ble bedre etter bare noen dager.\n\nMen en lege ble mistenksom. Hun hadde flere små pasienter som hadde brukt salven i lang tid, og huden deres var blitt tynn. Hun sendte salven til analyse. Resultatet viste at den inneholdt et sterkt steroid. Slike steroider brukes også i vanlige medisiner, men da står det tydelig på pakken, og man skal bare bruke dem i en kort periode. Når et steroid brukes på store deler av kroppen hver dag i flere måneder, kan det virke som en overdose. Legen mente at noen av barna hadde fått en slik overdose, fordi foreldrene ikke visste hva salven inneholdt.\n\nSaken ble meldt til politiet. Statsadvokaten tok ut tiltale mot eieren av firmaet, og i vår kom straffesaken opp i retten. I straffesaken sa eieren at han ikke visste at det var steroider i salven. Han hadde kjøpt den ferdige blandingen fra et firma i utlandet. Statsadvokaten mente at han burde ha visst det, siden han selv skrev på boksen at salven var uten kjemikalier. Retten var enig med statsadvokaten, og eieren fikk en bot.\n\nVed siden av straffesaken gikk flere familier til sak for å få penger tilbake. Den saken endte med et forlik. I forliket gikk firmaet med på å betale tilbake alt familiene hadde brukt på salven, og litt til. Et forlik betyr at begge sider gir litt, slik at saken ikke må avgjøres i retten.\n\nHva kan vi lære av dette? Ikke at alle produkter fra naturen er farlige. Mange planter har gode egenskaper, og det er mye vi ennå ikke vet om dem. Men vi bør ikke ta alt som står på en boks som et evangelium. Ordet naturlig er ikke et evangelium, og det sier ingenting om hva som faktisk er inni. Legen som oppdaget saken, sier det slik: «Spør heller apoteket. Der kan de fortelle deg hva en salve inneholder, og hvor lenge du kan bruke den.»\n\nSpørsmål:\nHva sto det på boksen med salven?\nDet sto at salven var laget av planter fra norske skoger og var helt uten kjemikalier.\nHva viste analysen av salven?\nDen viste at salven inneholdt et sterkt steroid.\nHvorfor kunne noen av barna ha fått en overdose?\nForeldrene brukte salven hver dag i flere måneder fordi de ikke visste hva den inneholdt.\nHva mente statsadvokaten i straffesaken?\nHan mente at eieren burde ha visst det, siden han skrev at salven var uten kjemikalier.\nHvordan endte saken som familiene startet?\nDen endte med et forlik, der firmaet betalte tilbake det familiene hadde brukt på salven.\nHva mener teksten om ordet naturlig?\nOrdet er ikke et evangelium, og det sier ingenting om hva som faktisk er inni."
+    },
+    {
+      "title": "Brev fra Tromsø",
+      "summary": "A student who came to Norway as a child writes to her old teacher about choosing to study geology in Tromsø, her languages and her new life in the north.",
+      "newWords": [
+        "korrespondanse",
+        "postkort",
+        "avsender",
+        "somalisk",
+        "oppholdstillatelse",
+        "integrasjon",
+        "humaniora",
+        "informatikk",
+        "lånekasse",
+        "språkråd"
+      ],
+      "text": "Kjære Henrik!\n\nTakk for postkortet du sendte meg i sommer. Jeg kjente igjen håndskriften din før jeg så hvem som var avsender. Det er fint at vi har holdt denne korrespondansen gående siden jeg gikk ut av skolen. Jeg har tatt vare på alle brevene og postkortene dine, og de ligger i en eske under senga mi.\n\nDu spurte hvordan det går i Tromsø. Det går bra! Jeg har nå bodd her i over et år, og jeg trives bedre enn jeg hadde trodd. Mørketida var vanskelig i begynnelsen, men nordlyset gjør det verdt det. Jeg legger ved et postkort med nordlys over byen.\n\nDu husker kanskje at jeg ikke visste hva jeg skulle studere. En stund tenkte jeg på humaniora, fordi jeg alltid har likt språk og historie. Så tenkte jeg på informatikk, fordi mamma mente at det var trygt å få jobb med informatikk. Men til slutt valgte jeg geologi. Det var timene dine om ressursene i naturen som fikk meg til å velge det. Nå lærer jeg om stein, olje, mineraler og om havet i nord. Jeg tror at vi trenger folk som forstår hvordan vi kan bruke ressursene uten å ødelegge naturen. Jeg leser fortsatt romaner, så helt borte er humaniora ikke fra livet mitt.\n\nDet er dyrt å bo her, men jeg har lån og stipend fra lånekassen. Uten lånekassen kunne jeg ikke ha studert så langt hjemmefra. Om sommeren arbeider jeg også i en butikk.\n\nDu spurte også om familien. Mamma har det bra. Hun tenker ofte på den dagen vi fikk oppholdstillatelse i Norge. Jeg var bare seks år, men jeg husker at hun gråt av glede. Oppholdstillatelsen betydde at vi kunne bli, og at jeg kunne begynne på skolen. Hjemme snakker vi fortsatt somalisk, og jeg ringer mamma på somalisk hver søndag. Hun sier at integrasjon ikke betyr at man må glemme språket sitt. Jeg er enig. For meg har integrasjon betydd å få to språk og to hjem.\n\nForresten har jeg begynt å interessere meg for ord. Jeg leste at mange land har et eget språkråd, som gir råd om hvordan språket skal skrives. Et språkråd kan for eksempel bestemme hvordan nye ord fra andre språk skal staves. Jeg lurer på om det somaliske språket også har et slikt språkråd. Kanskje du vet det?\n\nJeg håper at korrespondansen vår kan fortsette i mange år. Skriv snart igjen, og send gjerne et nytt postkort fra Kristiansand!\n\nHilsen\nHodan\n\nSpørsmål:\nHvordan visste Hodan hvem som var avsender av postkortet?\nHun kjente igjen håndskriften til Henrik.\nHvorfor tenkte hun på å studere informatikk?\nMammaen mente at det var trygt å få jobb med informatikk.\nHvorfor valgte hun geologi?\nTimene om ressursene i naturen fikk henne til å velge geologi.\nHvordan klarer hun å betale for å bo i Tromsø?\nHun har lån og stipend fra lånekassen, og hun arbeider i en butikk om sommeren.\nHva betydde oppholdstillatelsen for familien?\nDen betydde at de kunne bli i Norge, og at Hodan kunne begynne på skolen.\nHva mener mammaen om integrasjon?\nHun mener at integrasjon ikke betyr at man må glemme språket sitt."
+    }
+  ]
+}

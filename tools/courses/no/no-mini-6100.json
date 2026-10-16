@@ -1,0 +1,220 @@
+{
+  "id": "no-mini-6100",
+  "rankUpTo": 6100,
+  "level": "C1",
+  "title": "Universet og stjernene",
+  "description": "A diary, explanatory columns, a profile, a report, a review, an essay and a reader's letter about how people in Norway watch, study and live with the sky, from the northern lights over a farm to the life and death of stars.",
+  "topic": "The universe and the stars",
+  "names": [
+    "Ola",
+    "Troms",
+    "Nord-Norge",
+    "Line Berg",
+    "Line",
+    "Henrik",
+    "Kari",
+    "Oslo",
+    "Arne Nilsen",
+    "Arne",
+    "Norge",
+    "Bodø",
+    "Polaris",
+    "Nordpolen",
+    "Trøndelag",
+    "Siri Moe",
+    "Siri",
+    "Trondheim",
+    "Molde",
+    "Knut",
+    "Bergen",
+    "Vega",
+    "NRK",
+    "Pakistan",
+    "USA",
+    "Sovjetunionen",
+    "Galileo Galilei",
+    "Galileo",
+    "Albert Einstein",
+    "Einstein",
+    "Italia",
+    "Jupiter",
+    "Nobelprisen",
+    "Tyskland",
+    "Max Planck",
+    "Hitler",
+    "Europa",
+    "Jonas Lie",
+    "Jonas",
+    "Karlsvogna",
+    "Melkeveien",
+    "Eva Strand",
+    "Eva"
+  ],
+  "lessons": [
+    {
+      "title": "Nordlys over fjøset",
+      "summary": "A woman visits her father-in-law's farm in Troms in the polar night and sees the northern lights for the first time.",
+      "newWords": [
+        "svigerfar",
+        "arktisk",
+        "fjøs",
+        "pus",
+        "gylden",
+        "solnedgang",
+        "hysj",
+        "vanntett",
+        "stappe",
+        "iris"
+      ],
+      "text": "I fjor vinter reiste jeg og mannen min, Ola, til gården til svigerfar i Troms. Svigerfar har bodd der hele livet, og han har fortsatt noen kuer i et gammelt fjøs ved siden av huset. Jeg hadde aldri vært så langt nord om vinteren, og jeg ønsket meg bare én ting: å se nordlyset.\n\nFør vi dro, stappet vi sekkene fulle av varme klær. Ola stappet til og med en ekstra genser ned i sekken min. Svigerfar hadde sagt i telefonen at vi måtte ta med vanntette støvler, for snøen var våt og dyp. «Det arktiske været tilgir ikke dårlige sko,» sa han. Ola lo, men jeg kjøpte et par vanntette støvler likevel.\n\nI desember går ikke sola opp over fjellene i Troms. Likevel er det ikke helt mørkt. Midt på dagen ble himmelen i sør gylden og rosa, som en lang solnedgang uten sol. Jeg sto ute i en time og så på det gyldne lyset før det forsvant. Svigerfar forklarte at sola ligger like under horisonten, så vi ser bare fargene fra en solnedgang som aldri blir ferdig.\n\nHan fortalte også hvordan nordlyset oppstår. Sola sender hele tiden ut små partikler. Når partiklene treffer atmosfæren høyt over jorda, begynner lufta å lyse, oftest grønt og noen ganger rødt. Det skjer helst i et belte rundt de arktiske områdene, og derfor er Nord-Norge et av de beste stedene i verden å se det.\n\nDen tredje kvelden gikk vi ut i fjøset for å hjelpe svigerfar med kuene. Pusen hans, en grå katt som bor i fjøset, fulgte etter oss. Da vi kom ut igjen, slo svigerfar av lyset over døra. «Vent litt,» sa han. «Øynene trenger tid.» Han forklarte at irisen er den fargede ringen i øyet. I mørket blir irisen smalere, slik at åpningen i midten blir større og slipper inn mer lys. Det tar likevel en halv time før øynene er helt vant til mørket.\n\nJeg begynte å snakke, men svigerfar løftet hånden. «Hysj,» sa han og pekte opp. Over taket på fjøset kom et svakt, grønt bånd. Båndet vokste og begynte å bevege seg som et teppe i vinden. Vi sto helt stille. Selv pusen satt rolig i snøen. «Hysj,» hvisket Ola, selv om ingen sa noe.\n\nEtterpå satt vi i stua med kaffe. Svigerfar sa at nordlyset aldri blir vanlig, selv etter mange vintre. Nå forstår jeg ham.\n\nSpørsmål:\nHvor bor svigerfaren?\nHan bor på en gård i Troms, der han har noen kuer i et gammelt fjøs.\nHvorfor kjøpte fortelleren vanntette støvler?\nSvigerfar hadde sagt at snøen var våt og dyp, og at det arktiske været ikke tilgir dårlige sko.\nHvordan så himmelen ut midt på dagen?\nDen var gylden og rosa, som en lang solnedgang uten sol.\nHva skjer med irisen i mørket?\nIrisen blir smalere, slik at åpningen i midten blir større og slipper inn mer lys.\nHva sa svigerfar da nordlyset kom?\nHan sa «hysj» og pekte opp mot himmelen over fjøset."
+    },
+    {
+      "title": "Hva får stjernene til å skinne?",
+      "summary": "A short explanatory column on how stars turn hydrogen into helium, why big stars die young and why we are made of star dust.",
+      "newWords": [
+        "helium",
+        "drivkraft",
+        "fremgå",
+        "harmoni",
+        "uunngåelig",
+        "sekvens",
+        "ubetinget",
+        "forkorte",
+        "førti",
+        "derved"
+      ],
+      "text": "Når vi ser opp på stjernene en klar kveld, er det lett å tro at de er evige. Men en stjerne har et liv, akkurat som et menneske. Den blir født, den lever i lang tid, og til slutt dør den. Hva er det egentlig som holder en stjerne i gang?\n\nSvaret finnes dypt inne i stjernen. En stjerne består for det meste av hydrogen, den letteste gassen vi kjenner. I kjernen er trykket og temperaturen så høye at hydrogenet smelter sammen og blir til helium. Dette kalles fusjon. Ved hver fusjon frigjøres litt energi, og denne energien er stjernens drivkraft. Den får stjernen til å lyse og varme, og derved gjør den også livet på jorda mulig. Uten denne drivkraften ville stjernen falle sammen.\n\nNavnet helium har en egen historie. Som det fremgår av ordet, kommer det fra det greske ordet for sol, helios. Forskere fant nemlig helium i lyset fra sola i 1868, nesten tretti år før noen fant det på jorda. Av dette fremgår det at vi kan lære mye om stoffer langt borte bare ved å studere lyset de sender ut. I dag kjenner de fleste helium fra ballonger, fordi helium er lettere enn luft.\n\nEn stjerne kan leve lenge fordi to krefter er i harmoni. Tyngden trekker alt mot midten, mens trykket fra varmen presser utover. Så lenge kreftene er i harmoni, er stjernen stabil. Sola har vært i en slik tilstand i omtrent fem milliarder år, og den har drivstoff til like lang tid til.\n\nMen slutten er uunngåelig. Når hydrogenet i kjernen tar slutt, blir harmonien brutt. Det som skjer da, følger en fast sekvens. Først blåses stjernen opp og blir stor og rød. Deretter mister den de ytre lagene sine. Til slutt er det bare en liten, varm kjerne igjen. Forskerne har lært denne sekvensen ved å studere mange stjerner i ulike faser av livet, omtrent som man kan forstå et menneskes liv ved å se på folk i alle aldre.\n\nMan skulle kanskje tro at store stjerner lever lengst. Det er ikke ubetinget slik. Tvert imot: jo større en stjerne er, desto raskere bruker den drivstoffet sitt. Den store vekten forkorter livet. En stjerne som er førti ganger tyngre enn sola, brenner så kraftig at den kan dø etter bare noen millioner år. Sola vil derimot leve i rundt ti milliarder år. Førti ganger mer vekt gjør altså livet over tusen ganger kortere.\n\nAt stjerner dør, er heller ikke ubetinget trist. Når de største stjernene eksploderer, blir nye stoffer sendt ut i rommet. Mye av karbonet og jernet i kroppene våre ble laget i stjerner for lenge siden. Døden til en stjerne er uunngåelig, men den gir stoff til nye stjerner og planeter, og derved også til oss.\n\nSpørsmål:\nHva skjer i kjernen av en stjerne?\nHydrogenet smelter sammen og blir til helium, og det frigjøres energi.\nHvor kommer navnet helium fra?\nSom det fremgår av ordet, kommer det fra det greske ordet for sol.\nHvorfor er en stjerne stabil i lang tid?\nFordi tyngden og trykket fra varmen er i harmoni.\nHvorfor lever ikke de største stjernene lengst?\nDen store vekten forkorter livet, fordi de bruker drivstoffet sitt mye raskere.\nHvorfor er døden til en stjerne ikke ubetinget trist?\nDen sender nye stoffer ut i rommet, og derved blir det stoff til nye stjerner, planeter og mennesker."
+    },
+    {
+      "title": "Møtene i solgruppen",
+      "summary": "A researcher who studies the sun is made small in meetings by a new leader, gets help from the union representative and is later promoted.",
+      "newWords": [
+        "inkompetent",
+        "taus",
+        "motsi",
+        "klandre",
+        "sykefravær",
+        "tillitsvalgt",
+        "hersketeknikk",
+        "dagsorden",
+        "referat",
+        "forfremme"
+      ],
+      "text": "Line Berg forsker på sola. Hun arbeider ved et institutt i Oslo, der en gruppe på tolv personer studerer stormer på sola og hvordan de påvirker satellittene rundt jorda. En kraftig storm på sola kan nemlig ødelegge satellitter og strømnett, og derfor er det viktig å kunne varsle dem i tide.\n\nDet første året likte Line jobben svært godt. Så fikk gruppen en ny leder, Henrik. Henrik var flink til å snakke, men han hadde noen vaner som gjorde møtene tunge. Når Line tok ordet, så han på telefonen eller avbrøt henne. Litt senere gjentok han ideene hennes som om de var hans egne. En gang sa han foran alle at hun var inkompetent når det gjaldt statistikk, selv om det var hun som hadde gjort de fleste beregningene i gruppen.\n\nLine ble mer og mer taus på møtene. Hun ville ikke motsi lederen sin, fordi hun var redd for å skape konflikt. I stedet begynte hun å tvile på seg selv. Var hun virkelig inkompetent? Skulle hun klandres for at prosjektet gikk så sakte?\n\nHun var ikke den eneste som hadde det slik. I løpet av et halvt år steg sykefraværet i gruppen. To kolleger var borte i flere uker, og en tredje snakket om å slutte. Til slutt gikk Line til den tillitsvalgte, en eldre forsker som het Kari. Kari lyttet lenge. Så sa hun: «Det du beskriver, har et navn. Det kalles hersketeknikker.» Hun forklarte at en hersketeknikk er en måte å gjøre andre små på: å overse dem, å gjøre narr av dem eller å ta æren for arbeidet deres. «Det er ikke du som skal klandres,» sa den tillitsvalgte. «Og det høye sykefraværet er et tegn på at du ikke er alene.»\n\nKari foreslo at de skulle sette saken på dagsordenen på neste møte med ledelsen. Line forberedte seg godt og skrev ned eksempler med datoer. På møtet fortalte hun rolig hva som hadde skjedd. Henrik prøvde å motsi henne, men hun hadde notatene sine, og to kolleger bekreftet det hun sa. Det er vanskelig å motsi tre personer med datoer på papiret.\n\nEtter møtet skrev Kari et referat, og alle i gruppen fikk lese det. I referatet sto det at sykefraværet hadde steget, og at lederen måtte endre måten han ledet møtene på. Henrik fikk et kurs i ledelse, og etter en tid ble stemningen bedre. Han sluttet med hersketeknikkene, og ingen var lenger taus på møtene.\n\nEt år senere ble Line forfremmet. Hun ble leder for en ny gruppe som skulle varsle stormer på sola. Da hun ble forfremmet, lovet hun seg selv én ting: Det første punktet på dagsordenen skulle alltid være det samme. «Hva vil dere si i dag?»\n\nSpørsmål:\nHva forsker Line på?\nHun forsker på stormer på sola og hvordan de påvirker satellittene rundt jorda.\nHvorfor ble Line taus på møtene?\nHun ville ikke motsi lederen sin, fordi hun var redd for å skape konflikt.\nHva er en hersketeknikk?\nDet er en måte å gjøre andre små på, for eksempel å overse dem eller ta æren for arbeidet deres.\nHva sto det i referatet etter møtet?\nDet sto at sykefraværet hadde steget, og at lederen måtte endre måten han ledet møtene på.\nHva gjorde Line etter at hun ble forfremmet?\nHun satte alltid det samme første punktet på dagsordenen: hva de andre ville si."
+    },
+    {
+      "title": "Skipperen som leser himmelen",
+      "summary": "A profile of a retired skipper who teaches young people, among them coast guard crews, to find their way by the stars.",
+      "newWords": [
+        "skipper",
+        "navigasjon",
+        "erverve",
+        "ekspertise",
+        "flittig",
+        "uforsvarlig",
+        "kystvakt",
+        "motto",
+        "timeplan"
+      ],
+      "text": "Arne Nilsen er 76 år og har vært skipper på fiskebåter langs kysten i over førti år. Han begynte på sjøen da han var 15, og ble skipper på sin første båt før han fylte 25. I dag er han pensjonist, men hver tirsdag kveld underviser han i navigasjon ved en skole i Bodø.\n\n«Da jeg var ung, fantes det ikke satellitter som kunne fortelle oss hvor vi var,» sier han. «Vi hadde kart, kompass og stjernene. En god skipper visste alltid hvor båten var, også midt på havet.»\n\nDen kunnskapen ervervet han ikke på skolen, men på dekk. Den gamle skipperen han arbeidet for de første årene, var en flittig lærer. Hver klar natt tok han Arne med ut og viste ham stjernene. Arne ervervet ekspertise på samme måte som man lærer et språk: ved å bruke det hver dag, i mange år.\n\nDen viktigste stjernen for navigasjon i nord er Polaris. Den står nesten rett over Nordpolen, og den står derfor nesten stille på himmelen mens de andre stjernene går rundt den. Høyden over horisonten forteller dessuten hvor langt nord man er. I Bodø står Polaris høyere enn i Oslo.\n\nI dag har alle båter elektronisk navigasjon. Arne bruker den selv, og han synes den er fantastisk. Men han mener det er uforsvarlig å stole bare på en skjerm.\n\n«Strømmen kan gå, og signalene kan forsvinne,» sier han. «Da er det uforsvarlig om ingen om bord vet hvordan man finner veien uten skjermen.»\n\nDet er ikke bare unge fiskere som kommer på kurset hans. Også mannskaper fra kystvakta har vært der. Norge har en egen kystvakt som passer på kysten og hjelper båter i nød, og kystvakta vil at folkene sine skal ha ekspertise på mer enn én form for navigasjon.\n\nTimeplanen for kurset er enkel. Den første timen sitter elevene inne og lærer teori. Den andre timen går de ut, hvis været tillater det. Om vinteren er det mørkt nok tidlig på kvelden, og timeplanen passer godt. Om sommeren går det ikke, for da er det lyst hele natta i Bodø. Da står det bare teori på timeplanen.\n\nArne er fornøyd med elevene sine. «De fleste er flittige,» sier han. «De øver hjemme og sender meg spørsmål på telefonen.»\n\nHan har et motto som han gjentar på hvert kurs: «Se opp, ikke bare ned.» Mottoet betyr at man skal se på himmelen og havet, ikke bare på skjermen. Det står skrevet på tavla i klasserommet.\n\nSpørsmål:\nHvor lenge var Arne skipper?\nHan var skipper på fiskebåter langs kysten i over førti år.\nHvordan ervervet han kunnskapen om stjernene?\nHan ervervet den på dekk, fordi en gammel skipper viste ham stjernene hver klar natt.\nHvorfor er Polaris viktig for navigasjon?\nDen står nesten stille over Nordpolen, og høyden forteller hvor langt nord man er.\nHvorfor mener Arne at det er uforsvarlig å stole bare på en skjerm?\nStrømmen kan gå og signalene kan forsvinne, og da må noen kunne finne veien uten skjermen.\nHvorfor står det bare teori på timeplanen om sommeren?\nOm sommeren er det lyst hele natta i Bodø, så elevene kan ikke se stjernene.\nHva er mottoet til Arne?\nMottoet hans er «Se opp, ikke bare ned»."
+    },
+    {
+      "title": "Steinene som fulgte sola",
+      "summary": "A report from an archaeological dig where students find a settlement whose people marked the sun's path with a ring of stones.",
+      "newWords": [
+        "arkeologisk",
+        "bosetting",
+        "segment",
+        "orm",
+        "tekstil",
+        "intakt",
+        "uti",
+        "slagmark",
+        "vandring",
+        "overnatting"
+      ],
+      "text": "I sommer var en gruppe studenter med på en arkeologisk utgraving på en gård i Trøndelag. Lederen for utgravingen, Siri Moe, hadde lenge visst at det fantes spor etter en gammel bosetting på stedet. Bosettingen var omtrent 3000 år gammel, fra bronsealderen.\n\nFolk i bygda hadde i lang tid trodd at jordet var en gammel slagmark. Bonden hadde nemlig funnet flere gamle våpen i jorda. Men Siri mente at stedet ikke var noen slagmark. Hun trodde at det hadde vært en bosetting, der folk levde og arbeidet i fred, og at våpnene var gaver til gudene.\n\nOvernattingen var enkel. Studentene sov i telt ved siden av jordet, og maten ble laget på et lite kjøkken i låven. Etter et par uker var alle vant til overnattingen i telt, selv når det regnet.\n\nDet første de fant, var rester etter to hus. Så kom de til en ring av store steiner. Ringen var ikke hel; de fant bare et segment av den, omtrent en tredjedel. Siri målte segmentet nøye. Hun fant ut at to av steinene sto slik at sola gikk ned mellom dem på den lengste dagen i året. Folk i bosettingen hadde altså fulgt solas vei over himmelen. For dem var det viktig å vite når dagene ble lengre igjen, og når de skulle så og høste.\n\nPå en av steinene var det hogget inn en sol og en orm. Ormen lå i en ring rundt sola. Siri forklarte at ormen kanskje var et bilde på tiden som går i ring, år etter år.\n\nDet mest spesielle funnet kom fra myra. Langt uti myra, omtrent hundre meter fra husene, fant studentene en bit tekstil. Tekstil holder seg vanligvis ikke i tusenvis av år, men i myra er det lite luft, og da kan tekstiler holde seg nesten intakt. Biten var liten, men mønsteret var intakt: små stjerner i rader. Det tok en hel dag å grave den forsiktig fri der ute i myra.\n\nSiri tror at folk i bosettingen ikke bodde på stedet hele året. Hver høst tok de dyrene med seg på en lang vandring opp i fjellet, og om våren kom de tilbake. På en slik vandring var det nyttig å kunne lese stjernene.\n\nFunnene skal nå studeres i Trondheim. For Siri er dette det viktigste arkeologiske funnet hun har gjort, og neste sommer fortsetter utgravingen.\n\nSpørsmål:\nHva trodde folk i bygda om jordet?\nDe trodde det var en gammel slagmark, fordi bonden hadde funnet våpen der.\nHvordan var overnattingen for studentene?\nDen var enkel; de sov i telt ved siden av jordet.\nHva viste segmentet av steinringen?\nTo av steinene sto slik at sola gikk ned mellom dem på den lengste dagen i året.\nHvordan kunne tekstilet holde seg nesten intakt?\nDet lå langt uti myra, og der er det lite luft.\nHva gjorde folk i bosettingen hver høst?\nDe tok dyrene med seg på en lang vandring opp i fjellet."
+    },
+    {
+      "title": "Stjernene til mormor",
+      "summary": "A woman whose grandmother has dementia arranges a reunion with the grandmother's brother-in-law, who used to watch the stars with her.",
+      "newWords": [
+        "demens",
+        "anger",
+        "pådra",
+        "svoger",
+        "gjenforening",
+        "stum",
+        "kjærlig",
+        "begeistring",
+        "vinke"
+      ],
+      "text": "Mormor er 89 år og har demens. Hun bor på et sykehjem i Molde. De siste årene har hun glemt mye. Hun vet ikke alltid hvilken dag det er, og noen ganger tror hun at jeg er moren min. Demens er en sykdom som tar minnene bit for bit, men ikke alle på en gang.\n\nI lang tid besøkte jeg henne for sjelden. Jeg hadde mye å gjøre på jobben, og jeg syntes det var vondt å se henne så forandret. I vinter pådro hun seg et brudd i hofta etter et fall, og da forsto jeg at tiden var kort. Anger er en tung følelse. Jeg tenkte på alle søndagene jeg kunne ha vært hos henne. Men anger hjelper ingen hvis man ikke gjør noe med den.\n\nDa jeg var liten, fortalte mormor ofte om stjernene. Hun og svogeren hennes, onkel Knut, hadde et lite teleskop som de delte. Knut er gift med søsteren hennes, og han og mormor var de eneste i familien som brydde seg om himmelen. De to kunne sitte ute i mange timer om høsten. Etter at mormor fikk demens, hadde de ikke sett hverandre på flere år, fordi Knut bor i Bergen og ikke lenger kjører bil.\n\nJeg bestemte meg for å ordne en gjenforening. Jeg ringte Knut, og han sa ja med en gang. En kald kveld i mars hentet jeg ham på flyplassen og kjørte ham til sykehjemmet. Han hadde det gamle teleskopet med seg.\n\nFørst kjente mormor ham ikke igjen. Hun satt stum i stolen og så på ham. Knut ble også stum en stund. Så tok han hånden hennes og sa navnet på en stjerne. «Vega,» sa han. Mormor så opp. «Vega står lavt i nord om vinteren,» sa hun. «Om sommeren står den høyt over oss.» Det var som om noe våknet i henne.\n\nVi trillet henne bort til vinduet. Knut satte opp teleskopet, og de to begynte å snakke om stjernene som om det var femti år siden sist. Begeistringen til mormor var lett å se. Hun lo og pekte, og øynene hennes var klare. Jeg hadde ikke sett så mye begeistring hos henne på lenge. Det var en kjærlig samtale, full av gamle minner. Gjenforeningen hadde gitt henne noe av seg selv tilbake.\n\nDa vi skulle gå, vinket mormor til oss fra vinduet. Knut vinket tilbake helt til vi var ute av syne. I bilen sa han at han ville komme igjen i mai. Jeg lovet å hente ham. Siden har jeg besøkt mormor hver søndag. Hun husker ikke alltid hvem jeg er, men hun er like kjærlig hver gang.\n\nSpørsmål:\nHvorfor forsto fortelleren at tiden var kort?\nMormor pådro seg et brudd i hofta etter et fall.\nHvem er onkel Knut?\nHan er svogeren til mormor, gift med søsteren hennes.\nHvorfor hadde de ikke sett hverandre på flere år?\nKnut bor i Bergen og kjører ikke lenger bil.\nHva skjedde da Knut sa navnet på en stjerne?\nMormor så opp og begynte å snakke om stjernen, som om noe våknet i henne.\nHva gjorde mormor da de skulle gå?\nHun vinket til dem fra vinduet."
+    },
+    {
+      "title": "Anmeldelse: Jorda ovenfra",
+      "summary": "A review of a TV series about satellites that praises its pictures and its stories about aid, but criticises its preaching host.",
+      "newWords": [
+        "fjernsyn",
+        "ovenfra",
+        "etterretningstjeneste",
+        "nødhjelp",
+        "forkynne",
+        "retorisk",
+        "fristelse",
+        "vantro",
+        "tilbakestående",
+        "legitimere"
+      ],
+      "text": "Det er ikke ofte at en serie om satellitter blir vist på fjernsyn i beste sendetid. Derfor var jeg spent da NRK startet serien «Jorda ovenfra» denne høsten. Serien har seks deler, og den handler om hvordan satellittene rundt jorda har forandret livet vårt.\n\nBildene er det beste ved serien. Vi ser fjorder, skoger og byer ovenfra, i farger som man sjelden ser på fjernsyn. Det er noe rolig ved å se verden ovenfra. Grensene mellom landene forsvinner, og det blir lett å forstå at vi alle bor på den samme kloden.\n\nDen andre delen forteller historien om de første bildene fra rommet. På 1960-tallet var det ikke forskere, men etterretningstjenester som sendte opp de første kameraene. Både den amerikanske og den sovjetiske etterretningstjenesten ville vite hva den andre siden bygde. Bildene ble holdt hemmelige i mange år. Det er en spennende del, og den viser at mye av teknologien vi bruker i dag, ble laget for helt andre formål.\n\nEnda sterkere er den fjerde delen, om nødhjelp. Etter et jordskjelv eller en flom kan satellittbilder vise hvilke veier som er stengt, og hvor folk trenger hjelp. Vi følger en kvinne som planlegger nødhjelp i Pakistan, og vi ser hvordan bildene ovenfra hjelper henne å sende mat og vann til riktig sted. Her viser serien tydelig hvorfor satellittene betyr noe.\n\nDet svake punktet er programlederen. Han forkynner mer enn han forteller. Han står foran kamera og forkynner om rommet som en prest på en søndag. Han stiller også altfor mange retoriske spørsmål: «Kan vi leve uten satellitter? Vil vi tilbake til mørket?» Et retorisk spørsmål eller to kan være effektivt, men etter seks deler blir det slitsomt.\n\nJeg forstår fristelsen. Når man har så store bilder, er det en fristelse å bruke store ord. Men seerne trenger ikke å bli overtalt. Bildene gjør jobben selv. Programlederen virker nesten vantro når en forsker sier at satellitter også skaper problemer, for eksempel med søppel i rommet. Han rister på hodet, vantro, i stedet for å stille et godt oppfølgingsspørsmål.\n\nVerst er det når han kaller dem som tviler på nytten av romforskning, for tilbakestående. Det er ikke tilbakestående å spørre hva pengene brukes til. Det er et rimelig spørsmål. En god serie trenger ikke å legitimere romforskningen ved å gjøre narr av andre. Den kan legitimere den ved å vise hva den gir oss, og det gjør «Jorda ovenfra» når den er på sitt beste.\n\nSpørsmål:\nHva handler serien om?\nDen handler om hvordan satellittene rundt jorda har forandret livet vårt.\nHvem sendte opp de første kameraene?\nDet var etterretningstjenester i USA og Sovjetunionen.\nHvordan kan satellitter hjelpe med nødhjelp?\nBildene ovenfra kan vise hvilke veier som er stengt, og hvor folk trenger hjelp.\nHva synes anmelderen om programlederen?\nHan forkynner mer enn han forteller, og han stiller for mange retoriske spørsmål.\nHvorfor liker ikke anmelderen ordet tilbakestående?\nDet er et rimelig spørsmål å spørre hva pengene brukes til, og det er ikke tilbakestående."
+    },
+    {
+      "title": "Når himmelen blir farlig",
+      "summary": "An essay on Galileo and Einstein, two scientists whose ideas about the universe were not tolerated in their time.",
+      "newWords": [
+        "tolerere",
+        "tabu",
+        "heder",
+        "trofé",
+        "raseri",
+        "antisemittisme",
+        "beryktet",
+        "hederlig"
+      ],
+      "text": "Vi tenker ofte på astronomi som et fredelig fag. Forskeren sitter alene om natta og ser på stjernene, langt fra krangel og politikk. Men historien viser at ideer om himmelen kan skape sterke følelser. To kjente eksempler er Galileo Galilei og Albert Einstein.\n\nI Italia på 1600-tallet var det tabu å si at jorda går rundt sola. Kirken lærte at jorda sto stille i midten av universet. Da Galileo så gjennom teleskopet sitt, fant han måner som gikk rundt Jupiter. Det viste at ikke alt i universet går rundt jorda. Galileo skrev om dette, men kirken kunne ikke tolerere en idé som gikk imot læren. I 1633 måtte han si at han tok feil, og han levde resten av livet i huset sitt uten å få reise. Det tok mange år før emnet ikke lenger var tabu.\n\nAlbert Einstein levde tre hundre år senere, i et samfunn som var mer åpent for vitenskap. Han endret måten vi forstår rom og tid på. I 1922 fikk han Nobelprisen i fysikk, og han fikk heder fra hele verden. Men Einstein brydde seg lite om heder. For mange er en pris et trofé å sette på hylla. For Einstein var prisen ikke noe trofé; han sa at det viktigste var arbeidet.\n\nI Tyskland vokste samtidig antisemittismen. Einstein var jøde, og noen kalte arbeidet hans «jødisk fysikk». I 1931 kom en beryktet bok som het «Hundre forfattere mot Einstein». Boka er beryktet fordi den angrep mannen, ikke ideene. Einstein svarte tørt at én forfatter hadde vært nok, hvis han virkelig tok feil.\n\nDa nazistene tok makten i 1933, ble det farlig for ham. Antisemittismen ble statens politikk, og raseriet mot jødiske forskere var stort. Einstein var i USA da det skjedde, og han reiste aldri tilbake til Tyskland. Mange andre jødiske forskere mistet jobbene sine. Raseriet rammet også dem som hjalp dem.\n\nDet fantes likevel hederlige unntak. Noen tyske forskere sa åpent at de ikke ville tolerere at kolleger ble kastet ut. Max Planck, en av de mest kjente fysikerne i landet, gikk til Hitler selv for å forsvare en jødisk kollega. Han fikk ikke gjennomslag, men det var hederlig å prøve.\n\nHva kan vi lære av dette? Kanskje at vitenskapen aldri er helt fri fra samfunnet rundt den. Et samfunn som ikke kan tolerere nye ideer, mister ofte de beste hodene sine.\n\nSpørsmål:\nHva var tabu i Italia på 1600-tallet?\nDet var tabu å si at jorda går rundt sola.\nHvorfor fikk Galileo problemer med kirken?\nKirken kunne ikke tolerere en idé som gikk imot læren.\nHva mente Einstein om heder og priser?\nHan brydde seg lite om heder; for ham var prisen nesten ikke et trofé, og arbeidet var det viktigste.\nHvorfor er boka fra 1931 beryktet?\nDen er beryktet fordi den angrep mannen, ikke ideene.\nHva var de hederlige unntakene?\nNoen tyske forskere sa åpent at de ikke ville tolerere at jødiske kolleger ble kastet ut."
+    },
+    {
+      "title": "Stjernekveld på fotballbanen",
+      "summary": "An amateur astronomer organises a stargazing evening for children on a football pitch, which starts in chaos and ends in cosy calm.",
+      "newWords": [
+        "wiki",
+        "nærområde",
+        "fotballbane",
+        "disponere",
+        "varebil",
+        "skyss",
+        "cape",
+        "kaotisk",
+        "harddisk",
+        "hygge"
+      ],
+      "text": "Jonas Lie er leder for en liten klubb for folk som er glade i stjernene. Klubben har en egen wiki på nettet, der medlemmene skriver om utstyr, gode steder å se stjerner og hva som skjer på himmelen hver måned. I høst skrev Jonas på wikien at klubben ville lage en stjernekveld for barn i nærområdet.\n\nHan trengte et sted som var stort, åpent og mørkt. Den beste plassen i nærområdet var fotballbanen ved skolen. Jonas spurte kommunen om klubben kunne disponere fotballbanen en fredag kveld i november. Kommunen svarte ja. Klubben kunne disponere banen fra klokka 18 til 21, og lysene rundt banen skulle være slukket.\n\nKlubben har seks teleskoper, men ingen av medlemmene hadde en bil som var stor nok. Jonas lånte derfor en varebil av svogeren sin. Han kjørte rundt og hentet teleskopene, og i varebilen var det også plass til tre barn som trengte skyss. Andre foreldre ordnet skyss for resten.\n\nJonas hadde skrevet på wikien at barna gjerne kunne kle seg ut. Mange kom med en cape og en hatt full av stjerner, som små trollmenn. En gutt hadde laget en cape av et gammelt laken som han hadde malt svart.\n\nDe første tjue minuttene var kaotiske. Førti barn løp rundt på fotballbanen i mørket, og alle ville se gjennom teleskopene samtidig. Noen gråt fordi de ikke fant foreldrene sine, og én mistet capen sin i gresset. Jonas ropte, men ingen hørte ham. Det var så kaotisk at han et øyeblikk angret på hele ideen.\n\nSå fikk han en idé. Han ba alle barna legge seg ned på ryggen i gresset og være helt stille. Etter et par minutter ble det rolig. Han pekte ut Karlsvogna og fortalte om stjernene, og barna lyttet. Deretter fikk de gå i små grupper til teleskopene. Mange så månen på nært hold for første gang.\n\nTil slutt drakk alle varm kakao rundt varebilen. Det var ekte hygge: mørke, stjerner, varme kopper og barn som snakket lavt om det de hadde sett. Mange foreldre sa at det var den fineste hyggen de hadde hatt på lenge.\n\nJonas tok over hundre bilder av månen gjennom teleskopene. Han la dem på en harddisk og sendte dem senere til foreldrene. Harddisken står nå i hylla hans, og bildene ligger også på klubbens wiki.\n\nSpørsmål:\nHvor skrev Jonas om stjernekvelden?\nHan skrev om den på klubbens wiki på nettet.\nHvorfor ville Jonas disponere fotballbanen?\nDen var det beste stedet i nærområdet, fordi den var stor, åpen og mørk.\nHvorfor lånte Jonas en varebil?\nIngen av medlemmene hadde en bil som var stor nok til teleskopene, og noen barn trengte skyss.\nHvorfor var de første minuttene kaotiske?\nFørti barn løp rundt i mørket, og alle ville se gjennom teleskopene samtidig.\nHvor la Jonas bildene av månen?\nHan la dem på en harddisk og på klubbens wiki."
+    },
+    {
+      "title": "La oss se stjernene igjen",
+      "summary": "A letter to a local newspaper before the municipal election that asks the parties to dim the lights at night for the sake of animals and the stars.",
+      "newWords": [
+        "kommunevalg",
+        "sidelinje",
+        "vinmonopol",
+        "dyrevelferd",
+        "slitasje",
+        "direktorat",
+        "beskatning",
+        "portal",
+        "henlegge"
+      ],
+      "text": "Til redaksjonen. Om noen uker er det kommunevalg, og jeg vil be partiene om å tenke på en sak som sjelden står i valgkampen: lyset om natta.\n\nDa jeg var barn i denne byen, kunne jeg se Melkeveien fra hagen vår. I dag ser jeg bare noen få stjerner, selv på en klar kveld. Det er ikke himmelen som har forandret seg. Det er vi som lyser den opp. Kjøpesenteret har lys på hele natta, også når alle butikkene er stengt. Selv skiltet på det lokale vinmonopolet lyser til langt over midnatt, selv om vinmonopolet stengte klokka 18. Det er vanskelig å forstå hvem et slikt lys skal hjelpe.\n\nDette handler ikke bare om stjernene. Det handler også om dyrevelferd. Mange insekter flyr mot lyset og dør. Fugler som flyr om natta, mister veien. Forskere har vist at kunstig lys om natta er et problem for dyrevelferd i hele Europa. Et statlig direktorat har derfor laget råd til kommunene om hvordan de kan bruke mindre lys. Rådene fra direktoratet er enkle: rett lyset nedover, bruk svakere lys etter midnatt, og slå det av der ingen trenger det.\n\nNoen vil kanskje si at dette koster penger. Det er ikke riktig. Det handler ikke om høyere beskatning, men om å spare. Når lyset er svakere om natta, bruker kommunen mindre strøm, og lampene får mindre slitasje. Mindre slitasje betyr at de varer lenger. Ingen trenger å frykte høyere beskatning for at vi skal få se stjernene igjen.\n\nJeg har prøvd før. For to år siden sendte jeg et forslag gjennom kommunens portal på nettet. Portalen er laget for at innbyggerne skal kunne komme med ideer. Men saken ble henlagt uten at noen tok kontakt med meg. Jeg håper at det nye kommunestyret ikke vil henlegge saken igjen.\n\nVi kan ikke stå på sidelinjen og vente på at andre skal løse dette. Jeg spør derfor alle partiene: Hva vil dere gjøre med lyset om natta etter kommunevalget? Jeg vil gjerne vite svaret før jeg stemmer. Jeg vet at mange av naboene mine tenker det samme, og at de heller ikke vil bli stående på sidelinjen.\n\nHilsen Eva Strand\n\nSpørsmål:\nHva vil Eva at partiene skal tenke på før kommunevalget?\nHun vil at de skal tenke på lyset om natta.\nHvorfor handler saken også om dyrevelferd?\nInsekter flyr mot lyset og dør, og fugler som flyr om natta, mister veien.\nHva er rådene fra direktoratet?\nRett lyset nedover, bruk svakere lys etter midnatt, og slå det av der ingen trenger det.\nHvorfor mener Eva at det ikke handler om høyere beskatning?\nKommunen sparer strøm, og lampene får mindre slitasje og varer lenger.\nHva skjedde med forslaget hun sendte gjennom portalen?\nSaken ble henlagt uten at noen tok kontakt med henne."
+    }
+  ]
+}
