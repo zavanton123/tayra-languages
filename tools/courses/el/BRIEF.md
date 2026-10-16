@@ -49,11 +49,11 @@ story; a lesson never needs another lesson to make sense.
     κουρασμένος*; *σύμφωνα με την εφημερίδα θα έβρεχε*); common idioms explained by their context;
   - ranks 3001–4000: everything before, in a more literary, descriptive style: precise
     adjectives and clear images, the newspaper *χρονογράφημα* (a light reflection on everyday
-    life), and less common connectors (*εντούτοις*, *επιπλέον*, *μόλις*, *όσο ... τόσο*);
+    life), and less common connectors (*παρόλα αυτά*, *επιπλέον*, *μόλις*, *όσο ... τόσο*);
   - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content: a short
     essay or reflective column that weighs two sides, an interview, a profile, a review; precise
     vocabulary for feelings, ideas and processes; long sentences that stay easy to parse; tone
-    and register chosen to suit the text type;
+    and register chosen to suit the text type; the formal *εντούτοις*;
   - ranks 5001–6000 (C1): the same, with the more specialised words of professions, sciences
     and the arts, each made clear by its context, texts that explain a process or compare
     viewpoints in some depth, and the formal *με την προϋπόθεση ότι* and *δεδομένου ότι*;
