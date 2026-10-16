@@ -1,0 +1,30 @@
+package com.tayra.languages.core.ui.i18n.ru
+
+/** The home page. */
+internal val ruHome: Map<String, String> = mapOf(
+    "Pick up where you left off." to "Продолжите с того места, где остановились.",
+    "Pick up where you left off in {0}." to "Продолжите с того места, где остановились, в {0} языке.",
+    "Words added today" to "Слов добавлено сегодня",
+    "Day streak" to "Дней подряд",
+    "Study today to keep it going" to "Позанимайтесь сегодня, чтобы не прервать серию",
+    "Study today to start a streak" to "Позанимайтесь сегодня, чтобы начать серию",
+    "Continue course" to "Продолжить курс",
+    "Start course" to "Начать курс",
+    "Lesson {0}: {1}" to "Урок {0}: {1}",
+    "No course in progress" to "Нет начатых курсов",
+    "Choose a course to start learning." to "Выберите курс, чтобы начать учиться.",
+    "Browse courses" to "Открыть курсы",
+    "Continue book" to "Продолжить книгу",
+    "Page {0} of {1}" to "Страница {0} из {1}",
+    "No book in progress" to "Нет начатых книг",
+    "Open a book from your library to start reading." to "Откройте книгу из библиотеки, чтобы начать читать.",
+    "Browse books" to "Открыть книги",
+    "{1} cards due today" to "{1} карточка на сегодня|{1} карточки на сегодня|{1} карточек на сегодня",
+    "All caught up" to "Всё повторено",
+    "Review them to keep your words fresh." to "Повторите их, чтобы слова не забывались.",
+    "No cards are due right now." to "Сейчас карточек на повторение нет.",
+    "Study activity" to "Активность занятий",
+    "{1} days studied since {2}" to "{1} день занятий с {2}|{1} дня занятий с {2}|{1} дней занятий с {2}",
+    "Less study" to "Меньше занятий",
+    "More study" to "Больше занятий",
+)

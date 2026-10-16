@@ -4,6 +4,10 @@ import kotlinx.serialization.Serializable
 
 /** Type-safe navigation destinations shared by all features. */
 sealed interface Route {
+    /** The start page: today's progress and the ways back into the courses, books and flashcards. */
+    @Serializable
+    data object Home : Route
+
     @Serializable
     data object Books : Route
 

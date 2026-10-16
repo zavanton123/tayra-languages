@@ -47,7 +47,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 
 /** The main navigation areas, used to highlight the active tab; [label] is English, shown through `tr`. */
-enum class NavSection(val label: String) { COURSES("Courses"), BOOKS("Books"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), SETTINGS("Settings") }
+enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOOKS("Books"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), SETTINGS("Settings") }
 
 /** How many flashcards wait today, shown beside the Flashcards tab; provided at the root of the app. */
 val LocalFlashcardsDue = compositionLocalOf { 0 }
@@ -59,6 +59,7 @@ private data class MenuEntry(val label: String, val route: Route)
 private data class MenuGroup(val section: NavSection, val entries: List<MenuEntry>, val direct: Boolean = false)
 
 private val menuGroups = listOf(
+    MenuGroup(NavSection.HOME, listOf(MenuEntry("Home", Route.Home)), direct = true),
     MenuGroup(NavSection.COURSES, listOf(MenuEntry("Courses", Route.Courses)), direct = true),
     MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Books), MenuEntry("Create new book", Route.NewBook), MenuEntry("Book archive", Route.ArchivedBooks))),
     MenuGroup(NavSection.FLASHCARDS, listOf(MenuEntry("Review flashcards", Route.Flashcards), MenuEntry("Browse flashcards", Route.BrowseFlashcards()), MenuEntry("Flashcard settings", Route.FlashcardSettings))),
@@ -86,10 +87,10 @@ private val menuGroups = listOf(
 const val APP_NAME = "Tayra Languages"
 
 /**
- * The application bar with the choice of the language being learned and the main menu (Courses,
+ * The application bar with the choice of the language being learned and the main menu (Home, Courses,
  * Books, Flashcards, Vocabulary, Settings), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
  *
- * Wide windows always show the logo with the app's name, which leads to the courses, the home screen. [title] names the
+ * Wide windows always show the logo with the app's name, which leads to the home screen. [title] names the
  * screen only in the compact bar on phones, so screens show their own heading on wide windows
  * (see [ScreenTitle]).
  *
@@ -143,7 +144,7 @@ fun AppTopBar(
                 // The logo and name lead home, as on most sites.
                 Row(
                     Modifier.clip(RoundedCornerShape(10.dp))
-                        .clickable(onClickLabel = tr("Go to Courses"), role = Role.Button) { onNavigate(Route.Courses) }
+                        .clickable(onClickLabel = tr("Go to Home"), role = Role.Button) { onNavigate(Route.Home) }
                         .padding(horizontal = 6.dp, vertical = 4.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {

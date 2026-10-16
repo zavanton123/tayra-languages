@@ -7,6 +7,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsSelected
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
@@ -16,7 +17,7 @@ import com.tayra.languages.core.ui.navigation.Route
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-/** The phone's bottom bar marks the current area and counts the flashcards due; More opens the sheet of the other pages. */
+/** The phone's bottom bar marks the current area and counts the flashcards due; More opens the sheet of the other pages, the vocabulary among them. */
 @OptIn(ExperimentalTestApi::class)
 class PhoneNavigationTest {
     @Test
@@ -32,11 +33,18 @@ class PhoneNavigationTest {
         }
         onNodeWithTag("phone-nav-BOOKS").assertIsSelected()
         onNodeWithText("19", useUnmergedTree = true).assertExists()
-        onNodeWithTag("phone-nav-TERMS").performClick()
+        onNodeWithTag("phone-nav-HOME").performClick()
         onNodeWithTag("phone-nav-COURSES").performClick()
-        assertEquals(listOf(Route.Terms(), Route.Courses), visited)
+        assertEquals(listOf(Route.Home, Route.Courses), visited)
+        assertEquals(0, onAllNodesWithTag("phone-nav-TERMS").fetchSemanticsNodes().size)
         onNodeWithTag("phone-nav-SETTINGS").performClick()
         assertEquals(1, more)
+    }
+
+    @Test
+    fun theVocabularyPagesMarkMore() = runDesktopComposeUiTest(width = 400, height = 800) {
+        setContent { MaterialTheme { PhoneNavBar(section = NavSection.TERMS, onNavigate = {}, onMore = {}) } }
+        onNodeWithTag("phone-nav-SETTINGS").assertIsSelected()
     }
 
     @Test
@@ -54,8 +62,10 @@ class PhoneNavigationTest {
         onNodeWithText("Croatian").assertExists()
         onNodeWithText("Clear data").assertExists()
         onNodeWithText("Keyboard shortcuts").assertDoesNotExist()
-        onNodeWithTag("more-Statistics").performClick()
-        assertEquals(listOf<Route>(Route.Stats), visited)
+        onNodeWithTag("more-Statistics").assertExists()
+        // The vocabulary comes first, before its settings among the preferences.
+        onAllNodesWithTag("more-Vocabulary")[0].performClick()
+        assertEquals(listOf<Route>(Route.Terms()), visited)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isEmpty() }
     }
 }

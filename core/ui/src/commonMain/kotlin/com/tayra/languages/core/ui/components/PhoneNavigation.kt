@@ -13,6 +13,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Settings
@@ -42,18 +43,20 @@ import com.tayra.languages.core.ui.navigation.Route
 
 /**
  * The phone's bottom bar: the main areas as tabs, with the flashcards due on theirs, and More for
- * everything else. [section] is the area of the current screen; More counts as the settings area.
+ * everything else. [section] is the area of the current screen; More holds the vocabulary and settings areas.
  */
 @Composable
 fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val due = LocalFlashcardsDue.current
+    // The vocabulary pages are reached through More.
+    val area = if (section == NavSection.TERMS) NavSection.SETTINGS else section
     NavigationBar(containerColor = colors.surface, modifier = Modifier.testTag("phone-nav")) {
-        PhoneTab(NavSection.COURSES, AppIcons.School, section) { onNavigate(Route.Courses) }
-        PhoneTab(NavSection.BOOKS, AppIcons.MenuBook, section) { onNavigate(Route.Books) }
-        PhoneTab(NavSection.FLASHCARDS, AppIcons.Style, section, badge = due) { onNavigate(Route.Flashcards) }
-        PhoneTab(NavSection.TERMS, AppIcons.ViewList, section) { onNavigate(Route.Terms()) }
-        PhoneTab(NavSection.SETTINGS, AppIcons.MoreHoriz, section, label = tr("More"), onClick = onMore)
+        PhoneTab(NavSection.HOME, Icons.Default.Home, area) { onNavigate(Route.Home) }
+        PhoneTab(NavSection.COURSES, AppIcons.School, area) { onNavigate(Route.Courses) }
+        PhoneTab(NavSection.BOOKS, AppIcons.MenuBook, area) { onNavigate(Route.Books) }
+        PhoneTab(NavSection.FLASHCARDS, AppIcons.Style, area, badge = due) { onNavigate(Route.Flashcards) }
+        PhoneTab(NavSection.SETTINGS, AppIcons.MoreHoriz, area, label = tr("More"), onClick = onMore)
     }
 }
 
@@ -89,7 +92,14 @@ private class MoreEntry(val label: String, val icon: ImageVector, val route: Rou
 private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 
 private val moreGroups = listOf(
-    MoreGroup("Insights", listOf(MoreEntry("Word frequency", AppIcons.BarChart, Route.WordFrequency), MoreEntry("Statistics", AppIcons.PieChart, Route.Stats))),
+    MoreGroup(
+        "Words",
+        listOf(
+            MoreEntry("Vocabulary", AppIcons.ViewList, Route.Terms()),
+            MoreEntry("Word frequency", AppIcons.BarChart, Route.WordFrequency),
+            MoreEntry("Statistics", AppIcons.PieChart, Route.Stats),
+        ),
+    ),
     MoreGroup(
         "Preferences",
         listOf(

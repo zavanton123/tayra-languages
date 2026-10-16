@@ -5,6 +5,7 @@ import androidx.navigation.compose.composable
 import com.tayra.languages.feature.courses.coursesGraph
 import com.tayra.languages.feature.flashcards.flashcardsGraph
 import com.tayra.languages.feature.frequency.frequencyGraph
+import com.tayra.languages.feature.home.homeGraph
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.consumeWindowInsets
 import androidx.compose.foundation.layout.padding
@@ -38,13 +39,14 @@ import com.tayra.languages.feature.terms.termsGraph
 @Composable
 fun AppNavHost(openCourses: Int = 0) {
     val navController = rememberNavController()
-    // A newly chosen language starts on its courses, with nothing of the old one to go back to.
+    // A newly chosen language starts on its courses, with only its home page to go back to.
     LaunchedEffect(openCourses) {
         if (openCourses > 0) {
-            navController.navigate(Route.Courses) {
+            navController.navigate(Route.Home) {
                 popUpTo(navController.graph.id) { inclusive = true }
                 launchSingleTop = true
             }
+            navController.navigate(Route.Courses)
         }
     }
     // Phones get the main areas as a bottom bar, except while reading; wider screens have them in the top bar.
@@ -58,7 +60,7 @@ fun AppNavHost(openCourses: Int = 0) {
             if (phoneBar) {
                 PhoneNavBar(
                     section = destination?.let(::sectionOf),
-                    // A tab always lands on its own page, with only the start page (Courses) left beneath it.
+                    // A tab always lands on its own page, with only the start page (Home) left beneath it.
                     onNavigate = { route ->
                         navController.navigate(route) {
                             popUpTo(navController.graph.findStartDestination().id)
@@ -73,7 +75,8 @@ fun AppNavHost(openCourses: Int = 0) {
         // The screens handle the window insets themselves; only the bar's height is taken from them, and consumed so they do not pad for it twice.
         contentWindowInsets = WindowInsets(0, 0, 0, 0),
     ) { padding ->
-        NavHost(navController = navController, startDestination = Route.Courses, modifier = Modifier.padding(padding).consumeWindowInsets(padding)) {
+        NavHost(navController = navController, startDestination = Route.Home, modifier = Modifier.padding(padding).consumeWindowInsets(padding)) {
+            homeGraph(navController)
             booksGraph(navController)
             coursesGraph(navController)
             languagesGraph(navController)
@@ -91,6 +94,7 @@ fun AppNavHost(openCourses: Int = 0) {
 
 /** The area of the bottom bar a destination belongs to; pages beyond the tabs count as More. */
 private fun sectionOf(destination: NavDestination): NavSection = when {
+    destination.hasRoute<Route.Home>() -> NavSection.HOME
     destination.hasRoute<Route.Courses>() || destination.hasRoute<Route.Course>() || destination.hasRoute<Route.NewCourse>() ||
         destination.hasRoute<Route.EditCourse>() || destination.hasRoute<Route.NewLesson>() || destination.hasRoute<Route.EditLesson>() -> NavSection.COURSES
     destination.hasRoute<Route.Books>() || destination.hasRoute<Route.NewBook>() || destination.hasRoute<Route.EditBook>() ||

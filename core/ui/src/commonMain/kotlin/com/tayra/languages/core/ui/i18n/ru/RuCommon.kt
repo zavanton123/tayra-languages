@@ -9,7 +9,6 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Translations, definitions and examples." to "Переводы, определения и примеры.",
     "Menus, buttons and messages." to "Меню, кнопки и сообщения.",
     // PhoneNavigation.kt
-    "Insights" to "Обзор",
     "Preferences" to "Настройки",
     "Data" to "Данные",
     // Language names, shown through tr(name).
@@ -110,7 +109,8 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Backups" to "Резервные копии",
     "Statistics" to "Статистика",
     "Back" to "Назад",
-    "Go to Courses" to "К курсам",
+    "Go to Home" to "На главную",
+    "Words" to "Лексика",
     "{0} flashcards due" to "{0} карточка к повторению|{0} карточки к повторению|{0} карточек к повторению",
     "Menu" to "Меню",
 
