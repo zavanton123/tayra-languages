@@ -162,7 +162,8 @@ Things to know about the Danish list and the checker:
   parts. Danish writes compounds as one word, and many common ones are in the list
   (*morgenmad*, *aftensmad*); prefer those, or say it another way (*værelset til børnene* for
   an unlisted compound), and keep the unlisted ones few.
-- Keep only true names in `names`, never common words. Day and month names are in the list;
+- Keep only true names in `names`, never common words. Day and month names are in the list
+  (except *juli*, which the list lacks: put *juli* in `names` when a story needs it);
   check holiday names (*Sankthans*, *Fastelavn*) and put them in `names` if they are not.
 - The list's form lists are noisy (old spellings, other words that share a spelling, Norwegian
   forms); a new word must appear as itself or a true inflection, never through such a form. Some
