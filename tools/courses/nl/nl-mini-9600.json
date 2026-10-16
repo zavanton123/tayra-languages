@@ -1,0 +1,217 @@
+{
+  "id": "nl-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "Natuurkunde van alledag",
+  "description": "Ten essays, columns and portraits on the physics of everyday life, from the sound of a harp to static electricity, cyclones and a cool house in a hot city.",
+  "topic": "Everyday physics",
+  "names": [
+    "Mahler",
+    "Hilde",
+    "Hilde Visser",
+    "Wim",
+    "Leiden",
+    "Noor",
+    "Aristoteles",
+    "Galileo Galilei",
+    "Galilei",
+    "Jupiter",
+    "Europa",
+    "Griekse",
+    "Amerikaanse",
+    "Lise Meitner",
+    "Meitner",
+    "Otto Hahn",
+    "Hahn",
+    "Otto Frisch",
+    "Frisch",
+    "Dirk Coster",
+    "Berlijn",
+    "Duitsland",
+    "Oostenrijk",
+    "Nederland",
+    "Nederlandse",
+    "Zweden",
+    "Stockholm",
+    "Groningen",
+    "Nobelprijs",
+    "Joost",
+    "Nijmegen",
+    "Fenna",
+    "Sem",
+    "Sems",
+    "Sinterklaas",
+    "Marga",
+    "Ruud",
+    "Ineke",
+    "Lisa",
+    "Rotterdam",
+    "Femke de Wit",
+    "De Wit",
+    "Delft"
+  ],
+  "lessons": [
+    {
+      "title": "Wat de harp ons leert",
+      "summary": "At a concert, the narrator explains how strings, air and the ear turn a vibration into music.",
+      "newWords": [
+        "symfonie",
+        "harp",
+        "vertolking",
+        "precisie",
+        "brullen",
+        "karaoke",
+        "ontvankelijk",
+        "pieper",
+        "dimmen",
+        "tikkeltje"
+      ],
+      "text": "Toen de lichten in de zaal werden gedimd, viel er een stilte die je bijna kon horen. Het orkest zou een symfonie van Mahler spelen, en ik had een plaats op de eerste rij, vlak naast de harp. Ik werk als natuurkundige, en ik kan bij muziek nooit helemaal ophouden met denken. Ook die avond niet.\n\nWat is geluid eigenlijk? Niets anders dan lucht die beweegt. Als de harpiste een snaar aanraakt, gaat die snaar trillen, honderden keren per seconde. Die trilling duwt tegen de lucht, en de lucht geeft de duw door, in golven, tot aan ons oor. Een korte snaar trilt sneller dan een lange, en klinkt daarom hoger. Een harp is in feite een rij snaren van steeds grotere lengte: van kort en hoog tot lang en laag. Wie naar een harp kijkt, ziet de natuurkunde van de toon gewoon voor zich.\n\nToch maakt een snaar alleen weinig geluid. Daarvoor is het houten lichaam van de harp nodig, dat met de snaar meetrilt en de lucht in beweging zet. Een symfonie is, natuurkundig gezien, een zee van golven die elkaar kruisen, versterken en doven.\n\nDat er uit die zee muziek ontstaat, is het werk van precisie. Een snaar die een tikkeltje te slap staat, klinkt een tikkeltje te laag, en het oor merkt dat meteen. Ons gehoor is ongelooflijk ontvankelijk voor kleine verschillen. Daarom stemt de harpiste haar instrument met zoveel precisie, snaar voor snaar, terwijl het publiek nog binnenkomt. Een goede vertolking begint lang voor de eerste noot.\n\nDie avond hoorde ik een vertolking die ik niet snel zal vergeten. In het langzame deel speelde de harp bijna alleen, zo zacht dat de hele zaal leek te luisteren met ingehouden adem. Juist dan is het oor het meest ontvankelijk.\n\nEn juist toen ging er ergens achter mij een pieper af. Een arts, vermoedde ik. Het geluid was niet hard, maar het was hoog en scherp, en in die stilte klonk de pieper als een alarm. De man stond op en verliet de zaal. De harpiste speelde verder zonder één fout.\n\nHet merkwaardige is dat de kracht van een geluid weinig zegt over wat we horen. Een leeuw kan brullen met meer kracht dan een vrachtwagen, en wie bij karaoke naast iemand staat die een lied probeert te brullen, weet hoe hard een mens kan zijn. Maar we horen het verschil tussen een vals lied bij karaoke en een zuivere toon in de zaal niet aan de kracht. We horen het aan de precisie.\n\nNa afloop gingen de lichten weer aan, langzaam, alsof iemand ze van gedimd naar helder draaide. Het publiek klapte lang, en niemand hoefde te brullen om zijn waardering te laten horen.\n\nVragen:\nWat gebeurt er als de harpiste een snaar aanraakt?\nDe snaar gaat trillen, en die trilling gaat in golven door de lucht tot aan ons oor.\nWaarom klinkt een korte snaar hoger dan een lange?\nEen korte snaar trilt sneller dan een lange, en daarom klinkt hij hoger.\nWaarom stemt de harpiste haar instrument met zoveel precisie?\nOmdat ons gehoor heel ontvankelijk is voor kleine verschillen, en een snaar die te slap staat, meteen te laag klinkt.\nWat gebeurde er tijdens het langzame deel van de symfonie?\nEr ging een pieper af, waarschijnlijk van een arts, en de man verliet de zaal.\nWaaraan horen we het verschil tussen karaoke en een zuivere toon?\nWe horen het niet aan de kracht, maar aan de precisie."
+    },
+    {
+      "title": "De vijver van de bioloog",
+      "summary": "A biologist in a Frisian hamlet shows a reporter how light bends at the surface of her pond and how terns and goldfish deal with it.",
+      "newWords": [
+        "goudvis",
+        "rimpel",
+        "bioloog",
+        "polarisatie",
+        "donkerblauw",
+        "verwonderen",
+        "stern",
+        "redeneren",
+        "gehucht",
+        "vanbinnen"
+      ],
+      "text": "Het gehucht telt zeven huizen, een boerderij en een kerkje zonder toren. Achter het laatste huis ligt een vijver, en aan de rand van die vijver staat Hilde Visser, bioloog, met een zonnebril op haar hoofd. “Kijk,” zegt ze, en ze wijst naar het water. Ik zie niets dan licht. De zon weerkaatst in het oppervlak, zo fel dat ik mijn ogen moet sluiten.\n\n“Zet deze eens op,” zegt de bioloog, en ze geeft me haar zonnebril. Ineens is de schittering weg. Ik kijk door het oppervlak heen en zie de bodem, de waterplanten en een goudvis die langzaam tussen de stenen zwemt. “Dat is polarisatie,” zegt ze. “Licht trilt in alle richtingen. Maar licht dat door water wordt teruggekaatst, trilt vooral in één richting, en dit glas houdt precies dat licht tegen.”\n\nZe laat me ook naar de hemel kijken, eerst met en dan zonder de bril. Op sommige plaatsen wordt de lucht door het glas ineens donkerblauw, bijna paars. “Ook het licht van de hemel heeft een polarisatie,” legt ze uit. “Wij zien dat niet, maar bijen wel. Zij gebruiken het als een kompas.” Zonder bril is de lucht gewoon blauw. Het donkerblauw zat in het glas, niet in mijn ogen.\n\nDan verschijnt er een vogel, wit met een zwarte kop. Het is een stern. Hij blijft even boven de vijver hangen en duikt dan loodrecht het water in. Een seconde later vliegt hij weer op, met een visje in zijn snavel. “Dat is knapper dan het lijkt,” zegt Hilde. “Licht buigt af als het van het water in de lucht komt. Daardoor lijkt een vis hoger te zwemmen dan hij werkelijk doet. Een stern die gewoon recht op de vis afgaat, mist hem.”\n\nKan een vogel dan redeneren? Ze lacht. “Een stern hoeft niet te redeneren. Zijn hersenen hebben het geleerd. Jonge sterns missen vaak; oude bijna nooit.” Ook de mens moet het leren, zegt ze. Je kunt erover redeneren wat je wilt, maar het oog gelooft het pas na veel oefening.\n\nEr waait een windje over het water, en het oppervlak breekt in duizend kleine stukjes. Elke rimpel buigt het licht een beetje anders, en het beeld van de bodem valt uiteen. Pas als de laatste rimpel verdwenen is, zie ik de goudvis weer. “Vanbinnen ziet het er nog vreemder uit,” zegt Hilde. “Een goudvis die omhoog kijkt, ziet de hele wereld boven het water in een kleine ronde cirkel. Daaromheen is alles een spiegel. Vanbinnen is de vijver een zaal met een rond raam in het plafond.”\n\nZe is al dertig jaar bioloog, maar het blijft haar verwonderen. “Waarom zou ik naar de stad verhuizen?” zegt ze. “Alles wat me kan verwonderen, ligt hier achter het huis, in een gehucht van zeven huizen.”\n\nVragen:\nWaarom ziet de schrijver eerst niets in de vijver?\nOmdat de zon zo fel in het oppervlak weerkaatst dat hij zijn ogen moet sluiten.\nWat doet de zonnebril van de bioloog?\nDe bril houdt door polarisatie het licht tegen dat door het water wordt teruggekaatst, zodat de schittering weg is.\nWaarom lijkt een vis hoger te zwemmen dan hij werkelijk doet?\nOmdat licht afbuigt als het van het water in de lucht komt.\nMoet een stern kunnen redeneren om een vis te vangen?\nNee, een stern hoeft niet te redeneren; zijn hersenen hebben het geleerd.\nWat ziet een goudvis als hij omhoog kijkt?\nHij ziet de wereld boven het water in een kleine ronde cirkel, en daaromheen is alles een spiegel."
+    },
+    {
+      "title": "Een dag in de tropische kas",
+      "summary": "A retired gardener writes in her diary about a visit to a botanical garden, where she learns why a glass house stays warm and what plants make from light.",
+      "newWords": [
+        "botanisch",
+        "tropen",
+        "oerwoud",
+        "inheems",
+        "tuinieren",
+        "levenscyclus",
+        "aanmerkelijk",
+        "koolhydraat",
+        "imposant"
+      ],
+      "text": "Zaterdag, 12 februari\n\nVandaag ben ik met Wim naar de botanische tuin in Leiden geweest. Buiten was het twee graden en grijs, maar zodra we de grote kas binnenliepen, besloeg mijn bril. Ik moest hem afzetten en schoonvegen, en toen ik weer iets zag, stond ik midden in de tropen. Palmen, varens, bananen aan de boom, en een lucht zo vochtig dat je hem bijna kon drinken.\n\nDe kas is imposant: een hoog gebouw van ijzer en glas, meer dan honderd jaar oud. Een imposante plek, maar ook een slimme. Een vrijwilliger, een vriendelijke oudere man, legde ons uit waarom het binnen zo aanmerkelijk warmer is dan buiten. Ik schrijf het hier op, omdat ik het anders vergeet.\n\nHet zonlicht gaat bijna zonder moeite door het glas heen. Binnen valt het op de bladeren en op de grond, en die worden warm. Een warm voorwerp geeft zelf ook straling af, maar dat is onzichtbare warmtestraling, en die komt veel moeilijker door het glas naar buiten. Zo blijft de warmte binnen, als onder een deken. Op een zonnige dag is het in zo'n kas aanmerkelijk warmer dan je zou verwachten, ook in de winter.\n\nNatuurlijk vroeg Wim waarom het zo vochtig was. De planten uit de tropen hebben dat nodig, zei de man. In een echt oerwoud regent het bijna elke dag, en de bomen geven zelf ook water af door hun bladeren. Een oerwoud maakt dus voor een deel zijn eigen regen. Daarom sproeien ze in de kas elke ochtend, en daarom besloeg mijn bril.\n\nWat me het meest is bijgebleven, is wat hij over koolhydraten vertelde. Een plant gebruikt het licht om van water en lucht suiker te maken. Die suiker, en het zetmeel dat de plant ervan maakt, zijn koolhydraten. “Alles wat u eet, begint hier,” zei hij. “Brood, aardappelen, rijst: allemaal koolhydraten die een plant uit zonlicht heeft gemaakt.” Ik heb mijn hele leven aan tuinieren gedaan, maar zo had ik er nog nooit naar gekeken. Een botanisch lesje op mijn oude dag.\n\nNa de tropische kas liepen we nog door de tuin buiten. Daar staan de planten die hier inheems zijn: hei, gras, een paar eiken. In februari is er weinig te zien. De man zei dat dat bij hun levenscyclus hoort. Een plant die hier inheems is, weet wanneer het winter is en wacht; een plant uit de tropen kent geen winter en zou hier buiten binnen een week doodgaan. Elke soort heeft zijn eigen levenscyclus, aangepast aan zijn eigen klimaat.\n\nThuis heb ik meteen mijn zaden voor het voorjaar uitgezocht. Tuinieren is in feite natuurkunde, denk ik nu: licht, warmte en water. Volgend jaar wil ik een kleine kas in de tuin. Geen imposant gebouw, maar genoeg voor de tomaten.\n\nVragen:\nWat gebeurde er toen de schrijfster de kas binnenliep?\nHaar bril besloeg, omdat de lucht in de kas heel vochtig was.\nWaarom is het in de kas aanmerkelijk warmer dan buiten?\nHet zonlicht gaat door het glas naar binnen, maar de warmtestraling van de bladeren en de grond komt veel moeilijker naar buiten.\nWaarom is het zo vochtig in de kas?\nDe planten uit de tropen hebben dat nodig, want in een oerwoud regent het bijna elke dag.\nWat zijn koolhydraten, volgens de vrijwilliger?\nHet zijn de suiker en het zetmeel die een plant met het licht uit water en lucht maakt.\nWaarom zou een plant uit de tropen hier buiten doodgaan?\nEen plant uit de tropen kent geen winter; alleen een plant die hier inheems is, heeft een levenscyclus die bij ons klimaat past."
+    },
+    {
+      "title": "Natuurkunde aan de brunchtafel",
+      "summary": "A columnist hosts a Sunday brunch and explains the physics of mayonnaise, ointment, whipped cream and the bubbles in a glass of wine.",
+      "newWords": [
+        "mayo",
+        "bubbels",
+        "brunch",
+        "combo",
+        "houdbaar",
+        "veelgebruikt",
+        "petto",
+        "inblazen",
+        "zalf",
+        "linnen"
+      ],
+      "text": "Op zondag geef ik graag een brunch. Het is de beste maaltijd van de week, omdat niemand haast heeft. Vorige week zaten er zes vrienden aan tafel, en zoals altijd ging het gesprek al snel over eten. Mijn vriendin Noor vroeg waarom mijn zelfgemaakte mayo zo veel lekkerder was dan die uit de winkel. Ik had een antwoord in petto, maar het werd een lang verhaal.\n\nMayo is namelijk een klein wonder. Olie en water willen niet samen: wie ze in een glas giet, ziet de olie altijd boven drijven. Toch bestaat mayo voor het grootste deel uit olie, met een beetje water uit het ei en de citroen. Het geheim is de dooier van het ei. Daarin zit een stof die met één kant aan water hecht en met de andere kant aan olie. Als je de olie heel langzaam door de dooier klopt, valt hij uiteen in miljoenen kleine druppeltjes, en die stof houdt ze uit elkaar. Giet je te snel, dan lukt het niet.\n\nPrecies zo werkt een zalf, zei ik, en Noor keek me vreemd aan. Maar het is waar. Een zalf uit de apotheek is ook een mengsel van vet en water, net als mayo. De zalf van de apotheek is wel veel langer houdbaar. Mijn mayo is hooguit drie dagen houdbaar in de koelkast; die uit de winkel blijft maanden goed, dankzij zuur en een paar stoffen die ik liever niet in mijn eigen keuken heb.\n\nToen kwam het dessert: aardbeien met slagroom uit een spuitbus. Ook daar zit natuurkunde in. In de bus zit room onder hoge druk, met een gas erbij. Als je op de knop drukt, wordt het gas als het ware in de room ingeblazen: het zet uit, en de room wordt in een tel licht en luchtig. Het is een veelgebruikt trucje in restaurants. Met een garde moet je zelf lucht in de room inblazen, en dat duurt veel langer.\n\nBij de aardbeien dronken we een glas wijn met bubbels. Waarom ontstaan die bubbels steeds op dezelfde plekjes in het glas? In de fles is het gas opgelost onder druk. Zodra je inschenkt, wil het eruit, maar het heeft een beginpunt nodig: een krasje in het glas, of een vezeltje. Wie zijn glazen met een linnen doek afdroogt, laat er kleine vezels van het linnen in achter, en juist daar beginnen de bubbels. Het is een veelgebruikte truc van de horeca, die de doeken daarom bewust kiest.\n\nAan het eind van de middag vatte Noor het samen. “Een brunch bij jou,” zei ze, “is een combo van eten en een les natuurkunde.” Ik vond het een mooie combo. Volgende week maak ik weer mayo, en ik heb al een nieuwe vraag in petto: waarom gaat brood van de ene dag op de andere oud?\n\nVragen:\nWat is het geheim van mayo?\nDe dooier van het ei bevat een stof die de kleine druppeltjes olie uit elkaar houdt.\nWat hebben mayo en een zalf met elkaar gemeen?\nZe zijn allebei een mengsel van vet en water.\nWaarom is mayo uit de winkel langer houdbaar?\nDankzij zuur en een paar andere stoffen blijft die maanden goed.\nWat gebeurt er als je op de knop van een spuitbus slagroom drukt?\nHet gas wordt in de room ingeblazen, het zet uit, en de room wordt licht en luchtig.\nWaarom ontstaan bubbels vaak in een glas dat met een linnen doek is afgedroogd?\nDe doek laat kleine vezels in het glas achter, en het gas heeft zo'n beginpunt nodig om eruit te komen."
+    },
+    {
+      "title": "De hamer en de veer",
+      "summary": "A physics teacher writes about dropping a hammer and a feather, and about Galileo, who had to take back what his evidence showed.",
+      "newWords": [
+        "herroepen",
+        "gelovig",
+        "kosmos",
+        "onderbouwing",
+        "nageslacht",
+        "institutie",
+        "stigma",
+        "onderstrepen",
+        "bewijsmateriaal"
+      ],
+      "text": "Elk jaar begin ik mijn lessen natuurkunde met een eenvoudige vraag. Ik houd een hamer in mijn ene hand en een veer in de andere, en ik vraag de klas wat het eerst de grond raakt. Bijna iedereen zegt: de hamer. Dan laat ik ze tegelijk vallen, en natuurlijk hebben ze gelijk. De veer zweeft langzaam naar beneden.\n\n“Maar waarom?” vraag ik dan. Omdat de hamer zwaarder is, zeggen de meeste leerlingen. Dat antwoord is meer dan tweeduizend jaar oud. De Griekse denker Aristoteles schreef al dat zware dingen sneller vallen dan lichte. Eeuwenlang twijfelde niemand eraan. In zijn kosmos had alles een natuurlijke plaats: stenen hoorden beneden, vuur hoorde boven, en de aarde lag stil in het middelpunt van de kosmos.\n\nDan laat ik een filmpje zien. In 1971 stond een Amerikaanse astronaut op de maan, met een hamer en een veer in zijn handen. Hij liet ze tegelijk los, en ze kwamen tegelijk op de grond. Op de maan is geen lucht. Op aarde remt de lucht de veer af; zonder lucht vallen alle dingen even snel. Het filmpje duurt een halve minuut, maar het is beter bewijsmateriaal dan welke uitleg ook.\n\nWie dat als eerste begreep, was Galileo Galilei, rond 1600. Hij liet kogels van verschillend gewicht over een schuine plank rollen en mat nauwkeurig hoe snel ze gingen. Zo bouwde hij een zorgvuldige onderbouwing voor zijn idee. Met een kijker zag hij bovendien manen rond Jupiter draaien. Dat was bewijsmateriaal tegen het oude beeld waarin alles om de aarde draaide.\n\nToch kreeg Galilei geen dank. De kerk was in die tijd de machtigste institutie van Europa, en zijn ideeën pasten niet in haar leer. In 1633 moest hij voor de rechters verschijnen. Hij werd gedwongen zijn opvattingen te herroepen, en hij bracht de rest van zijn leven door onder huisarrest. Wat moet het voor een man van zijn talent hebben betekend om te herroepen wat zijn eigen ogen hadden gezien?\n\nHet merkwaardige is dat Galilei zelf gelovig was. Hij zag geen strijd tussen zijn geloof en zijn metingen. Ook veel van zijn tegenstanders waren niet dom; zij waren gelovig op een andere manier, en zij verdedigden een institutie die eeuwen oud was. Toch bleef er een stigma aan hem kleven. Pas in 1992 erkende de kerk officieel dat Galilei onrecht was aangedaan. Het nageslacht had zijn oordeel toen al lang geveld: geen naam uit die tijd wordt in de natuurkunde vaker genoemd.\n\nWaarom vertel ik dit aan vijftienjarigen? Omdat het iets wil onderstrepen wat verder gaat dan vallende hamers. Een goede onderbouwing is meer waard dan een mening, hoe oud of hoe machtig die mening ook is. En wie het stigma van de afwijkende stem durft te dragen, wordt soms pas door het nageslacht begrepen. Aan het eind van de les laat ik de hamer en de veer nog één keer vallen, om dat te onderstrepen. De veer komt weer als laatste aan, en de klas lacht.\n\nVragen:\nWat schreef Aristoteles over vallende dingen?\nHij schreef dat zware dingen sneller vallen dan lichte.\nWat gebeurde er op de maan in 1971?\nEen astronaut liet een hamer en een veer tegelijk vallen, en ze kwamen tegelijk op de grond, omdat er geen lucht is.\nHoe bouwde Galilei een onderbouwing voor zijn idee?\nHij liet kogels over een schuine plank rollen en mat nauwkeurig hoe snel ze gingen.\nWat moest Galilei in 1633 doen?\nHij moest zijn opvattingen herroepen, en daarna leefde hij onder huisarrest.\nWaarom vertelt de leraar dit verhaal aan zijn leerlingen?\nHij wil onderstrepen dat een goede onderbouwing meer waard is dan een mening, hoe machtig die mening ook is."
+    },
+    {
+      "title": "Een wandeling in de sneeuw",
+      "summary": "A portrait of the physicist Lise Meitner, who fled Germany in 1938 and, during a winter walk in Sweden, understood how an atomic nucleus can split.",
+      "newWords": [
+        "atoombom",
+        "antisemitisme",
+        "gemis",
+        "weerzien",
+        "vriendenkring",
+        "promovendus",
+        "ontmoetingsplaats",
+        "afzender",
+        "aankan"
+      ],
+      "text": "Op een grijze dag in juli 1938 stapte een kleine vrouw van bijna zestig in Berlijn op de trein. Ze had twee koffers bij zich en tien mark in haar tas. Niemand mocht weten dat ze niet terug zou komen. Haar naam was Lise Meitner, en ze was een van de beste natuurkundigen van haar tijd.\n\nMeitner kwam uit Wenen. Ze was een van de eerste vrouwen die aan de universiteit van Wenen in de natuurkunde promoveerden. Als jonge promovendus had ze al gemerkt dat een vrouw in de wetenschap twee keer zo hard moest werken. In Berlijn deed ze dertig jaar onderzoek samen met de scheikundige Otto Hahn. Hun laboratorium was een ontmoetingsplaats voor de grote namen van de natuurkunde, en elke nieuwe promovendus die er binnenkwam, leerde snel dat zij de natuurkunde begreep en Hahn de scheikunde.\n\nMaar Meitner was van joodse afkomst, en in Duitsland groeide het antisemitisme met de maand. Toen Oostenrijk in 1938 bij Duitsland werd gevoegd, was ze niet langer veilig. De Nederlandse natuurkundige Dirk Coster uit Groningen hielp haar over de grens. Zo kwam ze via Nederland in Zweden terecht, alleen, zonder laboratorium, zonder haar vriendenkring. Het antisemitisme had haar in een paar dagen alles afgenomen wat ze in dertig jaar had opgebouwd.\n\nHet gemis was groot. In Stockholm kreeg ze een kamer om te werken, maar bijna geen geld en geen medewerkers. Het is moeilijk voor te stellen hoeveel een mens op zo'n moment aankan. Uit haar oude vriendenkring kwamen brieven, en op veel enveloppen stond dezelfde afzender: Otto Hahn.\n\nIn december 1938 kreeg ze een brief die alles veranderde. De afzender schreef dat hij uranium met kleine deeltjes had beschoten, en dat er daarna een veel lichter element in zijn proef zat. Hahn begreep niet hoe dat kon. Meitner las de brief in een klein stadje bij de kust, waar ze met haar neef Otto Frisch, ook natuurkundige, de kerst doorbracht.\n\nDe volgende ochtend maakten ze een wandeling in de sneeuw. Ergens onderweg gingen ze op een boomstam zitten en begonnen te rekenen op een stukje papier. De kern van een atoom, dachten ze, gedraagt zich als een druppel water. Als je hem een duw geeft, kan hij in tweeën splijten. De twee stukken samen wegen iets minder dan de oude kern, en dat kleine verschil in massa komt vrij als een enorme hoeveelheid energie. \n\nUit die ontdekking kwam enkele jaren later de atoombom voort. Meitner werd gevraagd om eraan mee te werken, maar ze weigerde. Ze wilde niets met een atoombom te maken hebben. De Nobelprijs voor de ontdekking ging in 1944 naar Hahn alleen.\n\nNa de oorlog kwam het tot een weerzien in Stockholm, dat voor de twee oude vrienden een nieuwe ontmoetingsplaats werd. Het was een hartelijk weerzien, maar niet zonder pijn, want het gemis van al die jaren lag tussen hen in. Toch bleven ze vrienden tot het eind. Wie zich afvraagt hoeveel een mens aankan, vindt in haar leven een antwoord.\n\nVragen:\nWaarom moest Lise Meitner in 1938 uit Duitsland vertrekken?\nZe was van joodse afkomst, en het antisemitisme in Duitsland groeide met de maand.\nWie hielp haar over de grens?\nDe Nederlandse natuurkundige Dirk Coster uit Groningen hielp haar.\nWat stond er in de brief van Otto Hahn?\nHahn schreef dat er na zijn proef met uranium een veel lichter element was ontstaan.\nWat begrepen Meitner en Frisch tijdens hun wandeling in de sneeuw?\nZe begrepen dat de kern van een atoom zich als een druppel gedraagt en in tweeën kan splijten.\nWaarom werkte Meitner niet mee aan de atoombom?\nZe wilde niets met een atoombom te maken hebben."
+    },
+    {
+      "title": "Vier dagen lopen",
+      "summary": "The narrator walks the Nijmegen Four Days Marches with his half-brother for a charity and learns why walking is controlled falling and where blisters come from.",
+      "newWords": [
+        "vierdaagse",
+        "voetafdruk",
+        "parkeerterrein",
+        "uitstrekken",
+        "inzameling",
+        "ontwikkeling_samenwerking",
+        "topklasse",
+        "estafette",
+        "halfbroer"
+      ],
+      "text": "Om vier uur 's ochtends stond ik met mijn halfbroer Joost op een parkeerterrein aan de rand van Nijmegen. Het was nog donker, maar het parkeerterrein stond al vol auto's en mensen met rugzakken. Het was de eerste dag van de Vierdaagse: vier dagen lang veertig kilometer per dag.\n\nJoost en ik zijn geen sporters van topklasse; die lopen mee in een snelle groep en zijn soms al om de middag klaar. Hij is de zoon van mijn vader uit zijn eerste huwelijk. We zijn pas als volwassenen goede vrienden geworden. Dit jaar liepen we de Vierdaagse voor een inzameling van zijn kerk: elke kilometer leverde geld op voor een project van ontwikkelingssamenwerking, een waterput in een dorp ver weg. Mijn halfbroer had zestig sponsors gevonden.\n\nDe eerste ochtend legde Joost me uit wat lopen eigenlijk is. Hij is leraar natuurkunde, en hij kan het niet laten. “Lopen is vallen,” zei hij. “Bij elke stap laat je je lichaam een beetje naar voren vallen, en je vangt jezelf op met je andere voet.” Het is waar. Wie op de rand van een stoep stilstaat en voorover leunt, merkt het meteen.\n\nOp de tweede dag liepen we een stuk over een zandpad langs de rivier. In het zand stond de voetafdruk van de wandelaar voor ons. Joost wees ernaar. “Kijk naar die voetafdruk,” zei hij. “Diep bij de hiel, diep bij de bal van de voet, en in het midden bijna niets. Daar draagt de voet het gewicht. De rest is een boog.” Elke voetafdruk in het zand was een kleine les over druk en gewicht.\n\nOp de derde dag kreeg ik blaren. Ook daar had Joost een verklaring voor. Een blaar ontstaat door wrijving: de sok schuurt bij elke stap over de huid, steeds op dezelfde plek, duizenden keren per dag. Vocht en warmte maken het erger. “Zonder wrijving zou je niet kunnen lopen,” zei hij, “want dan glijdt je voet weg. Maar te veel wrijving op de verkeerde plek kost je een blaar.” Hij gaf me een paar droge sokken en een pleister.\n\nHalverwege de vierde dag wilde ik opgeven. Mijn voeten deden pijn, en ik vroeg Joost of hij het laatste stuk niet alleen kon lopen. Hij lachte. “De Vierdaagse is geen estafette,” zei hij. “Bij een estafette neemt een ander het van je over. Hier loop je elke kilometer zelf.” Dus liep ik verder.\n\nDie middag kwamen we samen over de finish. Langs de weg stonden duizenden mensen met bloemen. Op de stoep van een café kon ik eindelijk mijn benen uitstrekken. Joost zat naast me, met zijn armen uitgestrekt over de leuning van de bank. De inzameling had meer dan 3000 euro opgebracht, genoeg voor een groot deel van de waterput. Volgend jaar lopen we weer, heeft mijn halfbroer al besloten.\n\nVragen:\nZijn Joost en de schrijver sporters van topklasse?\nNee, ze zijn geen sporters van topklasse, maar ze lopen samen de hele Vierdaagse.\nWaarvoor liepen ze de Vierdaagse?\nZe liepen voor een inzameling voor een project van ontwikkelingssamenwerking, een waterput in een dorp ver weg.\nWat bedoelde Joost met “lopen is vallen”?\nBij elke stap laat je je lichaam naar voren vallen, en je vangt jezelf op met je andere voet.\nWat leerde de schrijver van de voetafdruk in het zand?\nDat de voet het gewicht vooral bij de hiel en de bal draagt, en dat het midden een boog is.\nHoe ontstaat een blaar?\nDoor wrijving: de sok schuurt bij elke stap op dezelfde plek over de huid."
+    },
+    {
+      "title": "Vonken in december",
+      "summary": "A father writes about a winter evening when stroking the cat gives sparks, and his children learn about plus and minus charges.",
+      "newWords": [
+        "strelen",
+        "ouderschap",
+        "verzieken",
+        "chanteren",
+        "krans",
+        "minus",
+        "googelen",
+        "racer"
+      ],
+      "text": "In december hangt er bij ons een krans aan de voordeur, van dennentakken en rode linten. Mijn dochter Fenna maakt hem elk jaar zelf. Dit jaar was de krans net klaar toen het eerste vonkje van de winter oversprong.\n\nHet gebeurde op de bank. Fenna, die negen is, zat de kat te strelen, en bij elke streek over de rug hoorden we een zacht geknetter. Toen ze daarna de metalen lamp aanraakte, sprong er een blauw vonkje tussen haar vinger en de lamp. Ze schrok, en de kat schrok nog meer. Haar broertje Sem, die zes is, vond het geweldig. Hij wilde de kat nu ook strelen.\n\nFenna wilde eerst weten wat er gebeurd was. Ze pakte de tablet en ging googelen. Kinderen van nu googelen alles, en meestal vinden ze iets wat klopt. Ze las hardop voor dat alles om ons heen uit heel kleine deeltjes bestaat, met een lading plus of minus. Als je twee dingen langs elkaar wrijft, springen er deeltjes met een lading minus van het ene naar het andere. Het ene ding krijgt zo een lading minus, het andere houdt een lading plus over.\n\n“Dus de kat is nu plus,” zei Fenna, “en ik ben minus.” Ongeveer, zei ik. Als zo'n lading een weg naar metaal vindt, springt ze over, als een kleine bliksem. In de winter gebeurt dat vaker, omdat de lucht in huis droog is. Vochtige lucht voert de lading langzaam af; droge lucht laat haar groeien tot er een vonk overspringt.\n\nIntussen was Sem op het tapijt gaan spelen met zijn racer, een rood autootje dat hij met Sinterklaas had gekregen. Hij reed de racer heen en weer over het tapijt, in zijn wollen trui, op zijn sokken. Toen hij opstond en de deur wilde openen, kreeg hij een schok van de deurklink. Hij was zelf geladen geraakt.\n\nToen begon wat elke ouder kent. Sem probeerde zijn zus te chanteren. “Als ik de kat niet mag strelen,” zei hij, “vertel ik aan mama wie de laatste koekjes heeft opgegeten.” Fenna keek me aan. Een kind van zes dat al probeert te chanteren: dat staat in geen enkel boek over ouderschap.\n\nIk wilde niet dat zo'n ruzie de avond zou verzieken. Dus deden we een proef, met zijn drieën. We wreven een ballon over Sems haar, en de ballon bleef aan de muur hangen. Sems haren stonden recht overeind, en hij lachte zo hard dat hij de koekjes vergat. Een ruzie kan een avond verzieken, maar een ballon kan haar ook redden.\n\nLater, toen de kinderen sliepen, dacht ik na over die avond. Ouderschap is soms net natuurkunde: twee lagen die langs elkaar schuren, een lading die zich opbouwt, en een vonk die je liever voorkomt. Je kunt de lucht wat vochtiger maken. Je kunt ook gewoon een ballon pakken.\n\nVragen:\nWat gebeurde er toen Fenna de kat zat te strelen?\nZe hoorden een zacht geknetter, en toen ze de lamp aanraakte, sprong er een vonkje over.\nWat las Fenna toen ze ging googelen?\nZe las dat er deeltjes met een lading minus van het ene ding naar het andere springen als je ze langs elkaar wrijft.\nWaarom springen er in de winter vaker vonken over?\nOmdat de lucht in huis droog is, en droge lucht laat de lading groeien.\nWaarom kreeg Sem een schok van de deurklink?\nHij had in zijn wollen trui met zijn racer over het tapijt gespeeld en was zelf geladen geraakt.\nHoe redde de vader de avond?\nHij deed met de kinderen een proef met een ballon, die aan de muur bleef hangen."
+    },
+    {
+      "title": "Een omweg om de storm",
+      "summary": "In an e-mail to her sister, a woman on a cruise explains how a tropical cyclone forms, why storms get names in alphabetical order and how their trip changed.",
+      "newWords": [
+        "cycloon",
+        "cruiseschip",
+        "promenade",
+        "persbureau",
+        "alfabetisch",
+        "eindbestemming",
+        "consulent"
+      ],
+      "text": "Lieve Marga,\n\nJe hebt het misschien al op het nieuws gezien: er staat een zware storm boven de oceaan, niet ver van onze route. Maak je geen zorgen. Ruud en ik zijn veilig, en ons cruiseschip vaart er met een grote omweg omheen. Ik schrijf je vanaf het dek, in de zon, met een kop koffie. Van de storm is hier alleen een hoge, grijze muur van wolken aan de horizon te zien.\n\nGisteren hield de kapitein een praatje over het weer, en ik heb goed opgelet, want ik wist dat jij het zou willen weten. Zo'n storm heet in het algemeen een tropische cycloon. In ons deel van de wereld noemen ze hem een orkaan, maar het is hetzelfde verschijnsel. Een cycloon ontstaat alleen boven warm zeewater, van minstens 26 graden. Het warme water verdampt, de vochtige lucht stijgt op, en daaronder zakt de luchtdruk. Van alle kanten stroomt er lucht naar dat lage punt toe. Omdat de aarde draait, gaat die lucht niet recht naar het midden, maar in een grote draaiende beweging. Zo ontstaat een wervel van honderden kilometers breed.\n\nHet vreemdste vond ik het oog. In het midden van een cycloon is het bijna windstil, soms zelfs met blauwe lucht, terwijl er rondom de zwaarste storm woedt. De kapitein zei dat mensen soms denken dat de storm voorbij is, terwijl ze in het oog staan. Een half uur later komt de andere helft.\n\nIemand vroeg hoe de stormen aan hun naam komen. Dat gaat alfabetisch, zei de kapitein. Aan het begin van elk seizoen ligt er een lijst klaar, en de stormen krijgen hun namen in alfabetische volgorde: de eerste begint met een A, de tweede met een B, enzovoort. Deze storm is de twaalfde van het jaar, en hij heet Lisa. Een naam onthoud je beter dan een nummer, en zo raken berichten minder snel door elkaar.\n\nDoor Lisa is onze eindbestemming veranderd. We zouden eindigen op een eiland in het oosten, maar daar komt de storm morgen langs. Nu varen we naar een haven verder naar het zuiden, en daar is de nieuwe eindbestemming. Ruud vond het eerst jammer, maar inmiddels geniet hij van de extra dag op zee. De consulent van ons reisbureau heeft me al een mail gestuurd. Ze schreef dat de vlucht naar huis wordt omgeboekt en dat we niets hoeven te doen. Een betere consulent kun je je niet wensen.\n\nOp internet lees ik het nieuws van een persbureau over de eilanden waar de storm al is geweest. Het persbureau meldt veel schade aan huizen en wegen, maar gelukkig weinig gewonden. Dan voel ik me een beetje schuldig, hier op mijn stoel in de zon.\n\nVanavond lopen we nog over de promenade van het schip, waar je rond het hele dek kunt wandelen. Morgen, in de nieuwe haven, gaan we over de promenade langs het water, als het weer het toelaat. Ik stuur je foto's.\n\nVeel liefs, ook van Ruud,\nIneke\n\nVragen:\nWaarom vaart het cruiseschip een omweg?\nEr staat een zware storm boven de oceaan, niet ver van de route.\nWaar ontstaat een tropische cycloon?\nAlleen boven warm zeewater van minstens 26 graden.\nWaarom gaat de lucht in een grote draaiende beweging naar het midden?\nOmdat de aarde draait, gaat de lucht niet recht naar het lage punt.\nHoe krijgen de stormen hun naam?\nDat gaat alfabetisch: ze krijgen hun namen in alfabetische volgorde van een lijst.\nWat schreef de consulent van het reisbureau?\nZe schreef dat de vlucht naar huis wordt omgeboekt en dat Ineke en Ruud niets hoeven te doen."
+    },
+    {
+      "title": "Een koel huis in een warme stad",
+      "summary": "A newspaper report follows an urban planner who explains why cities stay hot at night and how she keeps her own old house cool.",
+      "newWords": [
+        "behang",
+        "kozijn",
+        "stedenbouwkundig",
+        "bouwkunde",
+        "stads",
+        "onbetaalbaar",
+        "beroepsvereniging",
+        "legaliseren",
+        "koophandel",
+        "beroepsbevolking",
+        "lease"
+      ],
+      "text": "Het is half tien 's avonds en nog altijd 29 graden in de binnenstad van Rotterdam. Femke de Wit, stedenbouwkundige, staat op een plein vol stenen en legt haar hand op een muur. “Voel maar,” zegt ze. “Die muur heeft de hele dag zon gehad, en nu geeft hij de warmte terug. Daarom koelt een stad 's nachts zo slecht af.”\n\nDe Wit studeerde bouwkunde in Delft en heeft sinds tien jaar een eigen bureau, ingeschreven bij de Kamer van Koophandel als adviesbureau voor stedenbouwkundig ontwerp. In de beroepsvereniging van haar vak wordt het onderwerp elk jaar dringender; de beroepsvereniging schreef er onlangs zelfs een handboek over. “Bij bouwkunde leerden we hoe je een huis warm houdt,” zegt ze. “Nu moeten we leren hoe je het koel houdt.” Bij de Kamer van Koophandel schrijven zich steeds meer bureaus in die over hitte adviseren.\n\nHet verschijnsel heeft een eenvoudige verklaring. Stenen, beton en asfalt nemen overdag veel warmte op, vooral als ze donker van kleur zijn. 's Nachts geven al die stenen hun warmte weer af. Op het platteland is het op een zomernacht daardoor soms zeven graden koeler. Dit plein is door en door stads: steen, glas en asfalt, en geen boom te zien. Bomen helpen: ze geven schaduw, en ze verdampen water door hun bladeren, wat de lucht om hen heen afkoelt.\n\nWat dat betekent, merkt een steeds groter deel van de beroepsbevolking zelf. Wie vroeger op een koel kantoor zat, werkt nu vaak twee of drie dagen thuis, op een warme zolder. “Een groot deel van de beroepsbevolking woont in oude stadse wijken,” zegt De Wit. “Daar is het 's zomers binnen soms warmer dan buiten.” Een airco lijkt de oplossing, maar voor veel huurders is de stroomrekening dan onbetaalbaar. In sommige straten hangen illegale airco's aan de gevels. De gemeente denkt erover om die te legaliseren, als ze stil genoeg zijn. Maar legaliseren lost het probleem niet op, vindt De Wit: “Een airco blaast de warmte gewoon de straat op.”\n\nZe neemt me mee naar haar eigen huis, een woning uit 1920 in een smalle straat. Het eerste wat ze liet doen, was de kozijnen vervangen. In elk oud kozijn zat enkel glas, en in de winter tochtte het overal. Nu zit er dubbel glas in nieuwe houten kozijnen, en aan de buitenkant hangen luiken. Overdag gaan de luiken dicht.\n\nIn de slaapkamer wijst ze naar het behang. Onder het oude behang vond ze bij de verbouwing grote plekken schimmel. Warme, vochtige lucht was jarenlang tegen de koude muur geslagen, en het vocht was achter het behang blijven zitten. Nu is de muur geïsoleerd, en de kamer krijgt elke dag frisse lucht.\n\nOp het dak liggen zonnepanelen, die ze via een lease heeft. “Kopen was voor mij te duur,” zegt ze. “Met een lease betaal ik elke maand een vast bedrag, en de stroom gebruik ik zelf.” Een stad wordt koeler huis voor huis, zegt ze, en boom voor boom.\n\nVragen:\nWaarom koelt een stad 's nachts zo slecht af?\nDe stenen nemen overdag veel warmte op en geven die 's nachts weer af.\nWaarom heeft een groot deel van de beroepsbevolking last van de hitte?\nVeel mensen werken thuis, vaak in oude wijken op een warme zolder.\nWaarom is een airco voor veel huurders geen goede oplossing?\nDe stroomrekening wordt dan onbetaalbaar, en een airco blaast de warmte de straat op.\nWat vond De Wit onder het oude behang in haar slaapkamer?\nZe vond grote plekken schimmel, omdat het vocht achter het behang was blijven zitten."
+    }
+  ]
+}
