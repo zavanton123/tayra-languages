@@ -1,0 +1,100 @@
+1	6401	diktator	diktator diktatorer diktatoren diktatorens diktators
+2	6402	kit	kit kits kittet
+3	6403	stilart	stilarter stilart
+4	6404	kamel	kamel kameler kamelen kamelerne kamels
+5	6405	eftertanke	eftertanke
+6	6406	fyrre	fyrre
+7	6407	ugevis	ugevis
+8	6408	overreagere	overreagerer overreagerede overreagere overreager overreageret
+9	6409	adrenalin	adrenalin adrenalinet
+10	6410	kendetegne	kendetegner kendetegnende kendetegnes kendetegnet kendetegne
+11	6411	sengetøj	sengetøj sengetøjet
+12	6412	trygle	trygler tryglede trygle tryglet trygl tryglen tryglende
+13	6413	synsk	synsk synske
+14	6414	værft	værft værftet værfter værftets
+15	6415	uafbrudt	uafbrudt uafbrudte
+16	6416	panda	panda pandaer pandaen pandaerne pandas
+17	6417	punktere	punkteret punkterede punktere punkterer punkter punkteres
+18	6418	oprydning	oprydning oprydningen oprydninger oprydnings
+19	6419	videreføre	videreføre videreføres videreført viderefører videreførte
+20	6420	genvalg	genvalg genvalget genvalgs
+21	6421	sædvanligvis	sædvanligvis
+22	6422	yndling	yndling ynglings yndlinge yngling yndlingen ynglingen ynglinge
+23	6423	skrap	skrap skrappe skrapt skrappeste skrappere
+24	6424	dug	dug duge dugen duggen dugene
+25	6425	ideologisk	ideologisk ideologiske
+26	6426	husmor	husmor husmødre husmødrene husmoder husmoderen husmoren
+27	6427	indvolde	indvolde indvoldene
+28	6428	tyrker	tyrkerne tyrker tyrkere tyrkeren tyrkernes tyrkers
+29	6429	kinky	kinky
+30	6430	genforening	genforening genforeningen genforeninger genforenings genforeningens
+31	6431	direktiv	direktiv direktiver direktivet direktiverne
+32	6432	fordrive	fordrive fordrevet fordriver fordrev fordrives fordriv fordrevne
+33	6433	iscenesætte	iscenesat iscenesatte iscenesætte iscenesætter iscenesæt
+34	6434	mordforsøg	mordforsøg mordforsøget
+35	6435	problemstilling	problemstilling problemstillinger
+36	6436	bedrage	bedrage bedrog bedraget bedragede bedrages bedragne bedragende
+37	6437	mistænksom	mistænksom mistænksomme mistænksomt
+38	6438	afføring	afføring afføringen afførings
+39	6439	rensdyr	rensdyr rensdyrene rensdyret
+40	6440	kosmisk	kosmisk kosmiske
+41	6441	hidtidig	hidtidige
+42	6442	separere	separeret separerede separeres separere separerer
+43	6443	energisk	energisk energiske
+44	6444	kassere	kasseret kasserede kassere kasser kasseres kasseren
+45	6445	boring	boring boringer boringen boringerne
+46	6446	gæng	gængse gængs
+47	6447	omstridt	omstridt omstridte
+48	6448	fritage	fritaget fritager fritages fritage fritog fritag
+49	6449	sennep	sennep senneppen senneps
+50	6450	animere	animeret animerede
+51	6451	akademiker	akademikere akademiker akademikerne
+52	6452	arrangør	arrangør arrangørerne arrangører arrangøren
+53	6453	stræber	stræber stræbere
+54	6454	udsættelse	udsættelse udsættelsen udsættelser
+55	6455	ulige	ulige
+56	6456	udkæmpe	udkæmpe udkæmpet udkæmper udkæmpes udkæmpede udkæmpedes
+57	6457	titan	titan titans titanerne titanernes titaner titanen
+58	6458	kosttilskud	kosttilskud
+59	6459	varehus	varehus varehuset varehuse varehusene
+60	6460	myg	myg myggene myggen
+61	6461	nervesystem	nervesystem nervesystemet nervesystemer
+62	6462	udenad	udenad
+63	6463	tankstation	tankstation tankstationer tankstationen tankstationens tankstationerne
+64	6464	opsamling	opsamling opsamlingen opsamlinger opsamlings
+65	6465	affyring	affyring affyringen affyrings affyringer
+66	6466	brasiliansk	brasilianske brasiliansk
+67	6467	indspil	indspillet indspil
+68	6468	trille	trille triller trillede tril trillet trillende
+69	6469	hovsa	hovsa
+70	6470	regnbue	regnbue regnbuen regnbuer regnbuens
+71	6471	husholdning	husholdning husholdninger husholdningen husholdnings
+72	6472	refleksion	refleksion refleksioner reflektion refleksionen refleksionerne
+73	6473	artilleri	artilleri artilleriet
+74	6474	hast	hast
+75	6475	røvrende	røvrendt røvrende røvrender røvrendte røvrend røvrendes
+76	6476	opholdstilladelse	opholdstilladelse opholdstilladelsen
+77	6477	overarbejde	overarbejde overarbejdet overarbejdende
+78	6478	lama	lama lamaer lamaen lamas lamaerne
+79	6479	modsætte	modsætte modsætter modsæt
+80	6480	kasket	kasket kasketten kasketter kasketterne
+81	6481	intuition	intuition intuitionen
+82	6482	udlede	udlede udledes udleder udledt udledte
+83	6483	bedøvelse	bedøvelse bedøvelsen bedøvelses
+84	6484	dokumentarfilm	dokumentarfilm dokumentarfilmen
+85	6485	kølle	kølle køller køllen køllerne
+86	6486	censur	censur censuren
+87	6487	bestand	bestanden bestand bestande bestandene
+88	6488	værtinde	værtinde værtinden værtinder værtindens
+89	6489	grød	grød grøden
+90	6490	inspektion	inspektion inspektionen inspektioner inspektionerne
+91	6491	udbetaling	udbetaling udbetalinger udbetalingen udbetalingerne
+92	6492	hverv	hverv hvervet
+93	6493	krølle	krøller krølle krøllede krøllerne krøl krøllen
+94	6494	byggeplads	byggeplads byggepladsen byggepladser
+95	6495	kommandant	kommandant kommandanten kommandantens kommandanter
+96	6496	boghandel	boghandel boghandlen boghandler boghandleren boghandelen boghandlere boghandlerne
+97	6497	futte	fut futte futter futtede futtet
+98	6498	volt	volt
+99	6499	prægtig	prægtige prægtig prægtigt prægtigste
+100	6500	hygiejne	hygiejne hygiejnen

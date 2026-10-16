@@ -1,0 +1,100 @@
+1	6301	stønne	stønner stønnende stønne støn stønnede stønnet
+2	6302	vidunder	vidunder vidundere vidunderet vidunderne
+3	6303	styresystem	styresystem styresystemet styresystemer styresystemerne
+4	6304	snøre	snøre snøret snørede snører snøren snør snørerne
+5	6305	filosofisk	filosofiske filosofisk
+6	6306	bankkonto	bankkonto bankkonti bankkontoen bankkontoer bankkontiene
+7	6307	hengivenhed	hengivenhed hengivenheden
+8	6308	ualmindelig	ualmindeligt ualmindelig ualmindelige
+9	6309	andetsteds	andetsteds
+10	6310	arena	arenaen arenaer arenaens
+11	6311	optik	optik optikken
+12	6312	slyngel	slyngel slyngler slynglerne slynglen slyngels
+13	6313	tap	tap tappe tappet tappede tappen taps tappers tappes tapperne
+14	6314	anstrenge	anstrengt anstrenge anstrenger anstrengte anstreng
+15	6315	flyvetur	flyvetur flyveturen flyveture flyveturene
+16	6316	fyrste	fyrste fyrsten fyrster fyrstens fyrstes fyrsterne
+17	6317	muldvarp	muldvarp muldvarpen muldvarpe muldvarper muldvarpene muldvarperne
+18	6318	overvågningskamera	overvågningskameraer overvågningskamera overvågningskameraerne overvågningskameraet
+19	6319	erhvervsuddannelse	erhvervsuddannelse erhvervsuddannelser
+20	6320	intensitet	intensitet intensiteten
+21	6321	generalsekretær	generalsekretær generalsekretæren
+22	6322	strandvej	strandvejen strandvej
+23	6323	allerførst	allerførste allerførst
+24	6324	klods	klods klodser klodserne klodsen
+25	6325	omkreds	omkreds omkredsen
+26	6326	bestige	bestige bestiger besteg besteget bestig bestiges
+27	6327	bæk	bæk bække bækkene bækkens
+28	6328	parodi	parodi parodier parodien
+29	6329	tilbagetrækning	tilbagetrækning tilbagetrækningen tilbagetrækninger
+30	6330	anklagemyndighed	anklagemyndigheden anklagemyndighedens anklagemyndighed
+31	6331	linke	linke linker linkes linkede
+32	6332	brystkasse	brystkassen brystkasse brystkasser
+33	6333	bruser	bruseren bruser bruserne brusere
+34	6334	tandbørste	tandbørste tandbørsten tandbørster tandbørsterne
+35	6335	nordpol	nordpolen nordpol nordpolens
+36	6336	overmorgen	overmorgen
+37	6337	elektriker	elektriker elektrikeren elektrikere elektrikerne
+38	6338	agurk	agurk agurker agurken agurkerne
+39	6339	drejning	drejning drejninger drejningen
+40	6340	pløk	pløkker pløk pløkke pløkket pløkkede pløkkes pløkkerne
+41	6341	tam	tam tamme tamt
+42	6342	ansigtsudtryk	ansigtsudtryk ansigtsudtrykket
+43	6343	endeløs	endeløse endeløs endeløst
+44	6344	gestus	gestus gestussen
+45	6345	kortlægge	kortlægge kortlagt kortlægger kortlagde kortlæg kortlægges
+46	6346	hippie	hippie hippier hippierne hippien
+47	6347	ophør	ophør
+48	6348	immun	immun immune immunt
+49	6349	værtshus	værtshus værtshuse værtshuset værtshusene værtshusets
+50	6350	afvikling	afvikling afviklingen
+51	6351	hørelse	hørelse hørelsen
+52	6352	opera	operaen operaer
+53	6353	urolighed	urolighederne uroligheder urolighed
+54	6354	operatør	operatør operatører operatøren operatørerne
+55	6355	forhenværende	forhenværende
+56	6356	substans	substans substansen substanser
+57	6357	junkie	junkie junkier junkien junkierne
+58	6358	spekulation	spekulationer spekulation spekulationerne spekulationen
+59	6359	hovedgade	hovedgaden hovedgade
+60	6360	spinde	spinder spinde spundet spandt spinne spindende spinden spinnes
+61	6361	paraply	paraply paraplyen paraplyer paraplyerne
+62	6362	opposition	oppositionen oppositionens
+63	6363	kradse	kradser kradse kradsede kradset krads kradsen kradsende kradses
+64	6364	begive	begiver begive begiv begivet
+65	6365	konfiskere	konfiskeret konfiskerede konfiskere konfiskerer konfisker konfiskeres
+66	6366	legitimation	legitimation legitimationen
+67	6367	kontrast	kontrast kontrasten kontraster
+68	6368	straffeattest	straffeattest straffeattester straffeattesten
+69	6369	tarvelig	tarveligt tarvelig tarvelige tarveligste
+70	6370	gnaver	gnaver gnavere gnaverne gnaveren
+71	6371	cafe	cafeen cafeer cafeerne cafeens
+72	6372	judas	judas
+73	6373	wiki	wiki
+74	6374	østers	østers østersene østersen
+75	6375	kirsebær	kirsebær kirsebærret kirsebærrene
+76	6376	vibe	vibe vibes viber viben
+77	6377	latinsk	latinske latinsk
+78	6378	fundamental	fundamentale fundamentalt fundamental
+79	6379	signalere	signalerer signalere signalerede signaleret
+80	6380	herfor	herfor
+81	6381	elbil	elbiler elbil
+82	6382	arrest	arrest arresten arrester
+83	6383	smiley	smiley smileys smileyer
+84	6384	kogebog	kogebog kogebøger kogebogen
+85	6385	telefonopkald	telefonopkald telefonopkaldet telefonopkaldene
+86	6386	quarterback	quarterback quarterbacken quarterbacks quarterbackens
+87	6387	hiphop	hiphop hiphoppens
+88	6388	udspille	udspiller udspillede udspille udspilles
+89	6389	forske	forske forsket forskede forsk forskes
+90	6390	letbane	letbanen letbane
+91	6391	lokum	lokum lokummet lokummer lokummerne lokumet
+92	6392	kapre	kapret kapre kaprede kaprer kaprerne kaprere kapreren kaprerens kaprernes
+93	6393	strikke	strikke strikker strikse striks strikket strikkede strik
+94	6394	arkæologisk	arkæologiske arkæologisk
+95	6395	finanskrise	finanskrisen finanskrise
+96	6396	ævl	ævl ævlet
+97	6397	forbløde	forbløder forbløde forblødte forblødt forblød
+98	6398	afviger	afviger afvigere afvigerne afvigeren
+99	6399	stum	stum stumme stumt
+100	6400	vandring	vandring vandringen vandringer vandrings

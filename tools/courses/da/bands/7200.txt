@@ -1,0 +1,100 @@
+1	7101	gynge	gynge gynger gyngen gyngerne gyngede gyngende gyng
+2	7102	opholdssted	opholdssted opholdssteder opholdsstedet opholdsstederne
+3	7103	korstog	korstog korstogene korstoget
+4	7104	kano	kano kanoen kanoer kanoerne
+5	7105	ruin	ruinerne ruinen ruinernes ruinens
+6	7106	angre	angrer angre angrende angrede angret angr angren
+7	7107	selvsamme	selvsamme
+8	7108	vielse	vielsen vielse vielser vielses
+9	7109	bås	bås båsen båsene båse
+10	7110	svedig	svedig svedige svedigt svedigste
+11	7111	anomali	anomali anomalien anomalier anomalierne
+12	7112	toiletpapir	toiletpapir toiletpapiret
+13	7113	gunstig	gunstige gunstig gunstigt gunstigere
+14	7114	kirurgi	kirurgi kirurgien
+15	7115	evangelium	evangeliet evangelium evangelierne evangelier evangeliets evangelie
+16	7116	fortære	fortærer fortære fortæret fortærede fortæres fortær fortærende
+17	7117	entusiasme	entusiasme entusiasmen
+18	7118	indfange	indfange indfanget indfanger indfangede indfang indfanges
+19	7119	dygtighed	dygtighed
+20	7120	tiltænke	tiltænkt tiltænkte
+21	7121	snaps	snaps snapsen snapsene snapse
+22	7122	utålmodig	utålmodig utålmodige utålmodigt
+23	7123	snigmorder	snigmorder snigmordere snigmorderen snigmorderne snigmordernes snigmorders snigmorderens
+24	7124	udstyre	udstyre udstyres udstyrede udstyret udstyrer
+25	7125	hylster	hylster hylsteret hylstre hylstret hylstrene hylstrer
+26	7126	miljømæssig	miljømæssige miljømæssig miljømæssigt
+27	7127	hellighed	hellighed helligheds helligheden
+28	7128	flystyrt	flystyrt flystyrtet
+29	7129	bevidne	bevidne bevidnet bevidnede bevidner bevidn bevidnes
+30	7130	sidelinje	sidelinjen sidelinje
+31	7131	fortrolighed	fortrolighed fortroligheden fortroligheds fortroligheder
+32	7132	episk	episk episke
+33	7133	nørdet	nørdet nørdede
+34	7134	flække	flække flækker flækkede flækket flækken flæk
+35	7135	prikke	prikke prikkede prikkende prikkes
+36	7136	sponsorere	sponsoreret sponsorere sponsorerer sponsorerede sponserer sponsere sponsoreres
+37	7137	svineri	svineri svineriet
+38	7138	baghoved	baghovedet baghoved baghoveder
+39	7139	prise	prise prisen priser priserne priste prises prist prisende
+40	7140	sheik	sheik sheiken sheikens sheiker sheikernes sheikerne
+41	7141	talemåde	talemåde talemåden talemåder
+42	7142	hårfarve	hårfarve hårfarven hårfarver
+43	7143	særpræg	særpræg særpræget særprægede
+44	7144	nam	nam nams
+45	7145	afkode	afkode afkodet afkoder afkodede afkoderen afkodes afkod
+46	7146	kløgtig	kløgtig kløgtigt kløgtige kløgtigere kløgtigste
+47	7147	volumen	volumen
+48	7148	fidus	fidus fidusen fiduser fiduserne
+49	7149	oldtid	oldtiden oldtidens oldtids oldtid
+50	7150	farao	farao faraos faraoen faraoens faraoer faraoerne faraoernes faraonerne faraonernes faraoner
+51	7151	fastgøre	fastgjort fastgør fastgøre fastgøres fastgjorde
+52	7152	markering	markering markeringer markeringerne markeringen
+53	7153	udfolde	udfolde udfolder udfoldet udfoldede udfoldes
+54	7154	mystik	mystik mystikken mystikkens
+55	7155	beklædning	beklædning beklædningen
+56	7156	terminal	terminalen terminaler terminalerne terminalt terminale terminalens
+57	7157	præsidentkandidat	præsidentkandidat præsidentkandidater præsidentkandidats
+58	7158	udsving	udsving udsvingene udsvinget
+59	7159	ledighed	ledighed
+60	7160	interaktion	interaktion interaktioner interaktionen
+61	7161	alp	alperne alper alpen alpernes alp
+62	7162	ophævelse	ophævelse ophævelsen
+63	7163	værn	værn værnet værns værnets
+64	7164	imødekommende	imødekommende
+65	7165	højrefløj	højrefløj højrefløjen
+66	7166	opstandelse	opstandelse opstandelsen
+67	7167	kampsport	kampsport kampsports kampsporten kampsportens
+68	7168	retssal	retssal retssalen retssale retssalene retssalens
+69	7169	luftvåben	luftvåben luftvåbnet luftvåbenet luftvåbnets luftvåbenets luftvåbens
+70	7170	lak	lak lakken lakker lakket
+71	7171	svinde	svinder svinde svandt svunden svundne svindende svundet svind
+72	7172	antikvitet	antikviteter antikvitet antikviteterne
+73	7173	kontrolrum	kontrolrummet kontrolrum
+74	7174	komposition	komposition kompositioner kompositionen kompositionerne
+75	7175	udlægge	udlagt udlægge udlægger udlagde udlægges
+76	7176	programmør	programmør programmører programmørerne programmøren programmørens
+77	7177	sporvogn	sporvogn sporvognen sporvogne sporvognene
+78	7178	fortvivlet	fortvivlet fortvivlede
+79	7179	misunde	misunder misunde misundte misundt misund misundes
+80	7180	meteor	meteor meteoren meteorer meteorerne meteoret
+81	7181	abonnement	abonnement abonnementet abonnementer
+82	7182	indskud	indskud indskuddet
+83	7183	organisatorisk	organisatorisk organisatoriske
+84	7184	fodboldbane	fodboldbaner fodboldbane fodboldbanen
+85	7185	tonic	tonic
+86	7186	udrensning	udrensning udrensningen udrensninger udrensningerne
+87	7187	bonderøv	bonderøv bonderøve bonderøven bonderøvene bonderøvs bonderøvenes bonderøvens bonderøves
+88	7188	hollænder	hollænder hollænderne hollænderen hollændere hollænderens hollændernes
+89	7189	korrespondent	korrespondent korrespondenter korrespondenterne korrespondenternes
+90	7190	regnskov	regnskov regnskoven regnskove regnskovens regnskovene regnskovs
+91	7191	tøjle	tøjler tøjlerne tøjle tøjlet tøjles tøjlen tøjlede tøjl
+92	7192	kollision	kollision kollisionen kollisioner
+93	7193	puha	puha
+94	7194	studium	studiet studium studier studierne studiets
+95	7195	møgdyr	møgdyr møgdyret
+96	7196	gigt	gigt gigten
+97	7197	offentliggørelse	offentliggørelsen offentliggørelse
+98	7198	forretningsrejse	forretningsrejse forretningsrejser forretningsrejsen
+99	7199	røntgen	røntgen
+100	7200	vandforsyning	vandforsyning vandforsyningen vandforsyninger

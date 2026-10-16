@@ -1,0 +1,100 @@
+1	1901	ekstrem	ekstremt ekstreme ekstrem ekstremer ekstremerne
+2	1902	kriminel	kriminelle kriminel kriminelt
+3	1903	forhåbentlig	forhåbentlig forhåbentligt
+4	1904	tråd	tråd tråden tråde trådene trådte tråder trådet trådende
+5	1905	koncentrere	koncentrere koncentreret koncentrer koncentrerer koncentrerede koncentrér
+6	1906	dernede	dernede
+7	1907	fiske	fiske fisker fiskere fiskede fiskerne fisket fisken fiskeren fiskers fiskerens
+8	1908	tilsyneladende	tilsyneladende
+9	1909	mild	milde mild mildt mildest mildere mildeste
+10	1910	joke	joke jokes joker jokeren joken jokede jokere jokerens joket jokers
+11	1911	klima	klima klimaet klimaer
+12	1912	djævel	djævelen djævlen djævel djævelens djævle djævlens djævlene djævels
+13	1913	virus	virus virussen vira virusset virusen viruset virusser viruser virussens viras
+14	1914	lomme	lommen lomme lommer lommerne
+15	1915	kø	kø køen køer køerne køernes køers
+16	1916	dale	dale dalen dal daler dales dalens dalende dalene dalede dalet
+17	1917	genial	genialt genial geniale
+18	1918	forårsage	forårsaget forårsager forårsage forårsagede forårsages forårsagedes forårsag
+19	1919	tilfældig	tilfældigt tilfældig tilfældige
+20	1920	institution	institutioner institution institutionen institutionerne institutionens institutions
+21	1921	hævn	hævn hævnen hævnens
+22	1922	rede	rede red reder reden redt redede redte redes rederne
+23	1923	lastbil	lastbil lastbilen lastbiler lastbilerne lastbilens lastbils lastbilernes
+24	1924	bekæmpe	bekæmpe bekæmper bekæmpede bekæmpes bekæmpet bekæmp
+25	1925	trappe	trappen trapperne trappe trapper trappes trappens
+26	1926	skinne	skinner skinne skin skinnerne skinnede skinnet skinnen skinners
+27	1927	tysker	tyskerne tyskere tysker tyskeren tyskernes tyskerens tyskers
+28	1928	fantasi	fantasi fantasier fantasien fantasierne fantasiens fantasis
+29	1929	temmelig	temmelig
+30	1930	flåde	flåden flåde flådens flåder flådes flåd flåderne
+31	1931	registrere	registreret registrerede registrere registrerer registreres registrer
+32	1932	formentlig	formentlig formentligt
+33	1933	oversættelse	oversættelse oversættelser oversættelsen oversættelserne
+34	1934	midlertidig	midlertidigt midlertidig midlertidige
+35	1935	ligefrem	ligefrem ligefremt ligefremme
+36	1936	udelukkende	udelukkende
+37	1937	offentliggøre	offentliggjort offentliggøre offentliggør offentliggjorde offentliggøres offentliggjorte
+38	1938	aktie	aktier aktierne aktie aktien aktiernes
+39	1939	laboratorium	laboratoriet laboratorium laboratorier laboratorierne laboratoriets laboratoriernes laboratoriums
+40	1940	forsinke	forsinket forsinkede forsinke forsinker forsink forsinkes
+41	1941	tilgængelig	tilgængelig tilgængelige tilgængeligt
+42	1942	religion	religion religioner religionen religionens religions
+43	1943	nøjagtig	nøjagtig nøjagtigt nøjagtige
+44	1944	ensom	ensom ensomme ensomt ensomste
+45	1945	fabrik	fabrikken fabrik fabrikker fabrikkerne fabrikkens fabriks
+46	1946	forestilling	forestilling forestillingen forestillinger forestillingerne forestillingens
+47	1947	genere	genere generer gener generet generede generende generes
+48	1948	smitte	smittet smitte smitter smittede smitten smittes smittende smit smittens
+49	1949	udtrykke	udtrykke udtrykker udtrykt udtrykte udtrykkes
+50	1950	forandring	forandring forandringer forandringen forandringerne forandringens
+51	1951	base	base basen baser basens baserne bases
+52	1952	frugt	frugt frugter frugten frugterne
+53	1953	overvåge	overvåger overvåge overvåget overvågede overvåges overvåg overvågerne overvågende overvågere overvågeren
+54	1954	praksis	praksis praksissen praksisen praksiser
+55	1955	unik	unikke unik unikt
+56	1956	allesammen	allesammen allesammens
+57	1957	meddele	meddele meddelt meddeler meddelte meddel meddelere meddeleren meddeles meddelerne meddelerens
+58	1958	diskussion	diskussion diskussioner diskussionen diskussionerne diskussions diskussionens
+59	1959	race	race racer racen races racerne racere raceren racers racens racet
+60	1960	glædelig	glædelig glædeligt glædelige
+61	1961	sky	sky skyerne skyer skyen skyet skyr skyes skys skyernes skyede
+62	1962	medføre	medfører medføre medført medførte medfør
+63	1963	udvalg	udvalg udvalget udvalgets udvalgene
+64	1964	sandsynligvis	sandsynligvis
+65	1965	chokolade	chokolade chokoladen chokolader chokoladerne chokoladens
+66	1966	slange	slange slanger slangen slang slangerne slangens slanges slangernes slangers slangede
+67	1967	kyst	kysten kyst kyster kysterne kystens
+68	1968	ophold	ophold opholdet opholds opholdets
+69	1969	afholde	afholdes afholder afholde afholdte afholdende afhold afholden
+70	1970	so	so søer sos søerne soen soens søernes søers
+71	1971	anse	anses anser anse anså ansås
+72	1972	stadigvæk	stadigvæk
+73	1973	udsende	udsendt udsender udsendte udsende udsendes udsend
+74	1974	fjerde	fjerde
+75	1975	romantisk	romantisk romantiske
+76	1976	nægte	nægtede nægte nægtet nægt nægtes
+77	1977	festival	festival festivalen festivaler festivalens
+78	1978	ignorere	ignorere ignorerer ignorerede ignorer ignoreret ignoreres ignoreren
+79	1979	tvivler	tvivler tvivlere tvivlerne
+80	1980	nation	nation nationer nationen nationens nations nationers nationerne nationernes
+81	1981	vært	vært værter værten værterne værtens værts værternes værters
+82	1982	adskille	adskilt adskiller adskille adskilte adskilles adskil
+83	1983	vanskelig	vanskeligt vanskelig vanskelige vanskeligere vanskeligste
+84	1984	forfølge	forfulgt forfølger forfølge forfulgte forfølgere forfølges forfølg forfølgeren forfølgerne forfølgende
+85	1985	erklære	erklærer erklæret erklærede erklære erklæres erklær
+86	1986	markant	markant markante
+87	1987	spøgelse	spøgelse spøgelser spøgelset spøgelserne spøgelses spøgelsets spøgelsernes
+88	1988	fornuftig	fornuftigt fornuftig fornuftige fornuftigere fornuftigste
+89	1989	forlove	forlovede forlovet forlover forloveren forloves forlovedes forlovere forlove forloverens forloverne
+90	1990	forstand	forstand forstanden forstands
+91	1991	midler	midler
+92	1992	besat	besat besatte
+93	1993	tælle	tælle tæl talt talte tælles taltes
+94	1994	spejl	spejlet spejl spejle spejlene spejler spejlede spejlets spejlenes spejles spejlende
+95	1995	norsk	norsk norske
+96	1996	tæppe	tæppe tæppet tæpper tæpperne
+97	1997	bund	bund bunds bunde bunder bundet bundede bundes
+98	1998	græs	græs græsset græsser græssets
+99	1999	daglig	daglige daglig
+100	2000	å	å åen åer åens

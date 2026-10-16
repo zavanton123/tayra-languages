@@ -1,0 +1,100 @@
+1	5501	opsparing	opsparing opsparingen opsparinger
+2	5502	indtræde	indtræder indtræden indtræde indtrådt indtrådte
+3	5503	skøjte	skøjter skøjte skøjterne skøjtet skøjtede skøjt skøjten
+4	5504	inderside	indersiden inderside
+5	5505	labyrint	labyrint labyrinten labyrintens labyrinter
+6	5506	falk	falk falken falke falks falkene falkens
+7	5507	millionær	millionær millionærer millionæren millionærerne millionærernes millionærs millionærens
+8	5508	indgive	indgivet indgive indgav indgiver indgiv indgives
+9	5509	underjordisk	underjordiske underjordisk
+10	5510	sløv	sløv sløve sløvt sløver sløvet sløvede sløvende sløvere sløveste sløves
+11	5511	allermest	allermest
+12	5512	rødhåret	rødhåret rødhårede
+13	5513	byrådsmedlem	byrådsmedlem byrådsmedlemmer byrådsmedlemmet byrådsmedlemmerne byrådsmedlemmets
+14	5514	udspil	udspil udspillet
+15	5515	svigermor	svigermor svigermors svigermødre
+16	5516	paragraf	paragraf paragrafferne paragraffer paragraffen
+17	5517	forordning	forordning forordningen forordninger
+18	5518	ergo	ergo
+19	5519	kompakt	kompakt kompakte
+20	5520	forebyggelse	forebyggelse
+21	5521	udløbe	udløber udløbe udløbne udløberne udløbere
+22	5522	sive	siver sive siv sivet sivene sivede sivende
+23	5523	belaste	belastende belaster belaste belastede belastes
+24	5524	værdiløs	værdiløs værdiløse værdiløst
+25	5525	befaling	befaling befalingen befalinger befalings
+26	5526	galskab	galskab galskaben galskabens
+27	5527	forkølet	forkølet forkølede
+28	5528	udtænke	udtænkt udtænke udtænkte udtænker udtænk
+29	5529	bippe	bip bipper bippet bippe bippende bippede bippen bipperen bippene bippere
+30	5530	østkyst	østkysten østkyst østkystens
+31	5531	snuse	snuse snuser snusede snuste snusende snust
+32	5532	uforskammet	uforskammet uforskammede
+33	5533	sump	sump sumpen sumpe sumpene sumpens
+34	5534	nedbør	nedbør nedbøren
+35	5535	muffin	muffin muffins muffinen
+36	5536	opgradering	opgradering opgraderinger opgraderingen opgraderingerne
+37	5537	korridor	korridor korridoren korridorer korridorerne
+38	5538	spædbarn	spædbarn spædbørn spædbarnet spædbarns spædbørns spædbørnene
+39	5539	tilfælles	tilfælles
+40	5540	harmoni	harmoni harmonien harmonier harmonierne harmoniens
+41	5541	bedrageri	bedrageri bedrageriet bedragerier bedrageriets
+42	5542	knop	knoppen knopper knop knopperne knoppernes
+43	5543	stabilisere	stabilisere stabiliseret stabiliserer stabiliseres stabiliserede stabiliserende
+44	5544	dynamisk	dynamisk dynamiske
+45	5545	specifikation	specifikationer specifikationerne specifikation specifikationen
+46	5546	ækel	ækle ækelt ækel ækleste
+47	5547	impuls	impulser impuls impulsen impulserne
+48	5548	berette	beretter berette berettede beret berettet berettes
+49	5549	krimi	krimi krimier
+50	5550	legat	legat legatet legater legats
+51	5551	karate	karate
+52	5552	il	il
+53	5553	bas	bas
+54	5554	spolere	spolere spolerer spoleret spolerede spoler spoleres spolér
+55	5555	bevismateriale	bevismateriale bevismaterialet bevismaterialer bevismaterialerne
+56	5556	hjernerystelse	hjernerystelse hjernerystelser hjernerystelsen hjernerystelses
+57	5557	annullere	annulleret annullere annullerer annuller annullerede annulleres annullér
+58	5558	reference	referencer referencen referencerne
+59	5559	iransk	iranske iransk
+60	5560	kommentator	kommentator kommentatorer kommentatoren kommentatorerne
+61	5561	tolerere	tolerere tolererer tolereres tolereret tolerer tolererede
+62	5562	ligeud	ligeud
+63	5563	prædiken	prædiken prædikener prædikenen
+64	5564	finansministerium	finansministeriet finansministeriets finansministerium
+65	5565	begære	begærer begære begærede begæret begæres
+66	5566	kakao	kakao kakaoen
+67	5567	fortolke	fortolke fortolkes fortolker fortolket fortolkede fortolk
+68	5568	hæderlig	hæderlig hæderligt hæderlige hæderligste
+69	5569	sofistikeret	sofistikeret sofistikerede
+70	5570	ytringsfrihed	ytringsfrihed ytringsfriheden ytringsfrihedens
+71	5571	foragt	foragt foragten
+72	5572	cykelløb	cykelløb cykelløbet
+73	5573	kondolere	kondolerer kondolere kondoleret kondolerede
+74	5574	monument	monument monumenter monumentet monumenterne monumenternes
+75	5575	diller	diller dilleren dillere dillerne
+76	5576	foreligge	foreligger forelå foreligge foreliggende
+77	5577	kristelig	kristeligt kristelig kristelige
+78	5578	araber	arabere araber araberne araberen arabernes
+79	5579	udgravning	udgravning udgravningen udgravninger udgravningerne
+80	5580	tilegne	tilegnet tilegne tilegner tilegnede tilegnes tilegn
+81	5581	reaktor	reaktoren reaktor reaktorer reaktorerne reaktorens
+82	5582	smøge	smøger smøgerne smøgen smøge smøget
+83	5583	ironi	ironi ironien
+84	5584	metafor	metafor metaforer metaforen metaforerne
+85	5585	vås	vås
+86	5586	undertiden	undertiden
+87	5587	antagelse	antagelse antagelser antagelsen
+88	5588	opsluge	opslugt opsluge opsluger opslugte opsluges
+89	5589	uduelig	uduelig uduelige udueligt
+90	5590	barriere	barriere barrieren barrierer barriererne barrierens
+91	5591	forflytte	forflyttet forflyttes forflytte forflytter forflyttede forflyt
+92	5592	beføjelse	beføjelser beføjelse beføjelserne beføjelsen
+93	5593	underordnet	underordnet underordnede underordnedes
+94	5594	ungdomsuddannelse	ungdomsuddannelse ungdomsuddannelser ungdomsuddannelserne
+95	5595	spilletid	spilletid
+96	5596	dryppe	drypper dryppe dryp dryppede dryppende dryppet dryppes dryppen
+97	5597	identifikation	identifikation identifikationen identifikations
+98	5598	afværge	afværge afværget afværgede afværger afværges afværg
+99	5599	embede	embede embedet embeder embedes
+100	5600	indsende	indsendt indsendte indsende indsender indsend indsendes

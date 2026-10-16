@@ -1,0 +1,100 @@
+1	3401	svend	svend svende svenden svends
+2	3402	dåse	dåse dåser dåsen dåserne
+3	3403	tingest	tingest tingester tingesten tingesterne tingestens
+4	3404	regere	regere regerende regerer regerede regeret regeres reger regér
+5	3405	efterlyse	efterlyst efterlyser efterlyste efterlyse efterlys efterlyses
+6	3406	hk	hk
+7	3407	uretfærdig	uretfærdigt uretfærdig uretfærdige
+8	3408	flue	fluer flue fluen fluerne fluernes flues
+9	3409	kujon	kujon kujoner kujonen kujonerne kujonens kujons
+10	3410	hyppig	hyppigt hyppige hyppig hyppigst hyppigere hyppigste
+11	3411	barsk	barsk barske barskt barskere barskeste
+12	3412	neutral	neutral neutralt neutrale
+13	3413	dværg	dværg dværge dværgene dværgen dværgenes dværges dværgens
+14	3414	åndelig	åndelige åndelig åndeligt
+15	3415	påtage	påtager påtage påtaget påtog påtag påtagede påtagne
+16	3416	støde	støde stødte stødende stødes
+17	3417	brite	briterne briter briternes brite briten
+18	3418	bilde	bilder bilde bildt bild bildte
+19	3419	elite	elite eliten elitens eliter
+20	3420	kompetence	kompetencer kompetence
+21	3421	brad	brad brads braden
+22	3422	kontant	kontant kontante
+23	3423	shop	shop shoppen shopper shops
+24	3424	afvikle	afviklet afvikles afvikle afvikler afviklede
+25	3425	redaktør	redaktør redaktøren redaktører redaktørerne redaktørens
+26	3426	fjord	fjord fjorden fjorde fjordene
+27	3427	anmodning	anmodning anmodningen anmodninger anmodningerne
+28	3428	gene	gene gener generne genes genernes
+29	3429	eksemplar	eksemplar eksemplarer eksemplaret eksemplarerne
+30	3430	sprængstof	sprængstof sprængstoffer sprængstoffet sprængstofferne
+31	3431	homoseksuel	homoseksuelle homoseksuel homoseksuelt
+32	3432	syne	syne synet syner
+33	3433	manipulere	manipulere manipuleret manipulerende manipulerer manipulerede manipuleres manipuler
+34	3434	borgerkrig	borgerkrig borgerkrigen borgerkrigens borgerkrigs borgerkrige
+35	3435	beskadige	beskadiget beskadigede beskadige beskadiger beskadiges
+36	3436	messe	messen messe messer messede mes messens messende messes
+37	3437	mexicansk	mexicansk mexicanske mexikansk
+38	3438	hoste	hoste hoster host hostede hosten hostet hostende
+39	3439	sved	sved svede svedte sveden svedt svedende svedent
+40	3440	inderst	inderst inderste
+41	3441	kro	kro kroen kroer kroens
+42	3442	sydpå	sydpå
+43	3443	voldtægt	voldtægt voldtægter voldtægten voldtægts voldtægterne
+44	3444	indikere	indikerer indikere indikerede indikeret
+45	3445	rap	rap rappe rappere rappede rapt rappen rappende rappet
+46	3446	auktion	auktion auktionen auktioner auktionerne auktionens auktions
+47	3447	lind	lind linde linden linds lindens
+48	3448	tennis	tennis
+49	3449	intelligens	intelligens intelligensen
+50	3450	bænk	bænken bænk bænke bænkene bænket
+51	3451	frakke	frakke frakken frakker frakkerne
+52	3452	dimension	dimension dimensioner dimensionerne dimensionen
+53	3453	landmand	landmænd landmand landmændene landmanden landmandens landmændenes landmands
+54	3454	overdrage	overdraget overdrage overdrager overdrages overdrog overdrag overdragede
+55	3455	smykker	smykker
+56	3456	greve	greve greven grevens grever greverne greves
+57	3457	sidstnævnte	sidstnævnte
+58	3458	drøfte	drøfte drøftet drøfter drøftede drøftes drøft
+59	3459	konkurrere	konkurrere konkurrerer konkurrerende konkurrerede konkurreret konkurrer
+60	3460	iværksætter	iværksætter iværksættere iværksætteren
+61	3461	website	website websitet websites
+62	3462	moms	moms momsen
+63	3463	idømme	idømt idømmes idømmer idømme idømte idømtes
+64	3464	age	ag age ager ages ageren agre
+65	3465	arbejdsløs	arbejdsløs arbejdsløse
+66	3466	rutine	rutine rutiner rutinen rutinerne
+67	3467	indkomst	indkomst indkomster indkomsten indkomsterne
+68	3468	realistisk	realistisk realistiske
+69	3469	regional	regionale regionalt
+70	3470	menu	menuen menu menuer menuerne
+71	3471	jævne	jævne jævn jævnt jævnet jævner jævnede jævnes jævnere
+72	3472	raket	raket raketter raketten raketterne rakettens raketternes
+73	3473	besættelse	besættelse besættelsen besættelser besættelses besættelsens
+74	3474	opdele	opdelt opdele opdeles opdeler opdelte opdel
+75	3475	kørsel	kørsel kørslen kørsler
+76	3476	palads	palads paladset paladser paladsets paladserne
+77	3477	englænder	englænderne englænder englændere englænderen englændernes englænders englænderens
+78	3478	målmand	målmand målmanden målmænd
+79	3479	bredde	bredde bredden bredder bredderne
+80	3480	oprører	oprørere oprørerne oprører oprørernes oprøreren oprørers
+81	3481	efterskole	efterskole efterskolen efterskoler
+82	3482	instruktion	instruktioner instruktion instruktionerne instruktionen instruktions
+83	3483	beskylde	beskylder beskyldt beskyldte beskylde beskyldes beskyld
+84	3484	modstå	modstå modstår modstod modstået modstande
+85	3485	rat	rattet rat rats
+86	3486	citere	citerer citeret citere citerede citeres citer
+87	3487	opløse	opløst opløses opløse opløser opløste opløs opløstes
+88	3488	variant	varianter variant
+89	3489	salat	salat salaten salater salaterne
+90	3490	begrænsning	begrænsninger begrænsning begrænsningerne begrænsningen
+91	3491	knald	knald knaldet
+92	3492	cowboy	cowboy cowboys cowboyen cowboyer cowboyerne
+93	3493	slagte	slagtet slagte slagtede slagtes slagt
+94	3494	innovation	innovation innovationer innovations
+95	3495	kunstnerisk	kunstnerisk kunstneriske
+96	3496	henholde	henhold henholder
+97	3497	rækkefølge	rækkefølge rækkefølgen
+98	3498	højdepunkt	højdepunkt højdepunkter højdepunktet højdepunkterne
+99	3499	svække	svækket svække svækker svækkes svækkede svækkende svækkedes svæk
+100	3500	bivirkning	bivirkninger bivirkning bivirkningerne bivirkningen

@@ -1,0 +1,100 @@
+1	9901	tyksak	tyksak tyksakken tyksakker tyksakke
+2	9902	kannibal	kannibaler kannibal kannibalen kannibalerne kannibalernes
+3	9903	fordreje	fordrejet fordrejer fordreje fordrejede fordrejes fordrej
+4	9904	amnesti	amnesti amnestien
+5	9905	mikroorganisme	mikroorganismer mikroorganisme mikroorganismerne
+6	9906	ragnarok	ragnarok
+7	9907	dirre	dir dirrer dirrende dirre dirrede dirren
+8	9908	afskedigelse	afskedigelse afskedigelser afskedigelsen
+9	9909	barbering	barbering barberingen
+10	9910	harmonika	harmonika harmonikaen harmonikaer
+11	9911	bagom	bagom
+12	9912	sluse	slusen sluserne sluse sluser
+13	9913	forretningsfolk	forretningsfolk forretningsfolkene
+14	9914	slankekur	slankekur slankekure slankekuren
+15	9915	udflytning	udflytningen udflytning
+16	9916	forgangen	forgangne forgangen
+17	9917	controller	controller controlleren controllers
+18	9918	falme	falmer falmet falme falmede falmende
+19	9919	patriot	patrioter patrioterne patrioten patrioternes
+20	9920	ufølsom	ufølsom ufølsomt ufølsomme
+21	9921	barberblad	barberblad barberblade barberbladet barberbladene
+22	9922	knirke	knirker knirkende knirken knirke knirkede knirk
+23	9923	hulke	hulkende hulken hulker hulkede hulke
+24	9924	dagligdags	dagligdags
+25	9925	lægemiddelstyrelse	lægemiddelstyrelsen
+26	9926	foreskrive	foreskriver foreskrevet foreskrevne foreskrev foreskrive
+27	9927	økosystem	økosystem økosystemet økosystemer
+28	9928	skolegård	skolegården skolegård
+29	9929	lugtesans	lugtesans lugtesansen
+30	9930	hekseri	hekseri hekseriet hekserier
+31	9931	østeuropæisk	østeuropæiske østeuropæisk
+32	9932	hindbær	hindbær
+33	9933	målscorer	målscorer
+34	9934	handskerum	handskerummet handskerum
+35	9935	gryderet	gryderet gryderetten gryderetter
+36	9936	enspænder	enspænder enspændere enspænderen
+37	9937	bankrøver	bankrøver bankrøvere bankrøverne bankrøveren
+38	9938	taxachauffør	taxachauffør taxichauffør taxachaufføren taxachauffører taxachaufførerne
+39	9939	væmmes	væmmes væmmedes væmmede
+40	9940	vittig	vittig vittige vittigt
+41	9941	fordømmelse	fordømmelse fordømmelsens fordømmelser fordømmelsen
+42	9942	flugtforsøg	flugtforsøg flugtforsøget
+43	9943	antologi	antologi antologien
+44	9944	uendelighed	uendelighed uendeligheden uendeligheder uendelighedens
+45	9945	latinamerikansk	latinamerikanske latinamerikansk
+46	9946	grube	gruber gruben grube
+47	9947	oppustet	oppustet oppustede
+48	9948	opsummere	opsummeret opsummere opsummerer opsummerede opsummeres opsummerende
+49	9949	centralbank	centralbank centralbanken centralbanker centralbankens
+50	9950	formation	formationen formationer
+51	9951	racerkører	racerkører racerkørere racerkørerne
+52	9952	skydeskive	skydeskive skydeskiver skydeskiven skydeskiverne
+53	9953	diskette	disketten diskette disketter disketterne
+54	9954	grillfest	grillfest grillfesten grillfester grillfesterne
+55	9955	barrikade	barrikaderne barrikader barrikaden barrikade
+56	9956	afkøle	afkølet afkøle afkøler afkøles afkølede afkøl
+57	9957	havearbejde	havearbejde havearbejdet
+58	9958	psykoterapi	psykoterapi
+59	9959	kvadratkilometer	kvadratkilometer
+60	9960	uhelbredelig	uhelbredelig uhelbredeligt uhelbredelige
+61	9961	simulering	simulering simuleringen simuleringer simuleringerne simuleringens
+62	9962	boligejer	boligejere boligejer
+63	9963	magnetfelt	magnetfelt magnetfeltet magnetfelter magnetfelterne
+64	9964	vikingetid	vikingetiden
+65	9965	tyveknægt	tyveknægte tyveknægt
+66	9966	afskrive	afskrive afskrevet afskrev afskriver afskriv afskrives
+67	9967	svejse	svejser svejset svejse svejsede svejsere svejseren
+68	9968	eliksir	eliksir eliksiren eliksirer
+69	9969	pudder	pudder pudderet
+70	9970	holdleder	holdleder holdlederen holdledere holdlederne
+71	9971	overhånd	overhånd overhånden
+72	9972	folketælling	folketælling folketællingen
+73	9973	nærkamp	nærkamp nærkampe nærkamps
+74	9974	libanesisk	libanesiske libanesisk
+75	9975	aldrende	aldrende
+76	9976	atletisk	atletisk atletiske
+77	9977	gyserfilm	gyserfilm
+78	9978	klitoris	klitoris klitorisen
+79	9979	femårig	femårig femårige femårigt
+80	9980	samliv	samliv samlivet
+81	9981	udlært	udlært udlærte
+82	9982	boldspil	boldspil
+83	9983	danskvand	danskvand
+84	9984	tegl	tegl
+85	9985	velbefindende	velbefindende
+86	9986	henlægge	henlagt henlagde henlægges henlægge henlagte henlægger
+87	9987	abstinens	abstinenser abstinenserne abstinens
+88	9988	akvarel	akvarel akvareller
+89	9989	søvnløshed	søvnløshed søvnløsheden
+90	9990	koffeinfri	koffeinfri koffeinfrit koffeinfrie
+91	9991	solo	solis soloer soloen soloerne
+92	9992	skrin	skrinet skrin skrinets
+93	9993	fuske	fusker fuske fuskede fuskere fusket fuskeren
+94	9994	familieliv	familieliv familielivet
+95	9995	selfie	selfie selfies selfier
+96	9996	kapsejlads	kapsejlads
+97	9997	oldemor	oldemor oldemors
+98	9998	brudstykke	brudstykker brudstykke brudstykkerne
+99	9999	lanterne	lanterne lanterner lanternen lanternerne lanternes
+100	10000	ængstelig	ængstelig ængstelige ængsteligt

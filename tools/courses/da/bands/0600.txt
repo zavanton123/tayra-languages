@@ -1,0 +1,100 @@
+1	501	tal	tal tallet tallene tallets tals
+2	502	kærlighed	kærlighed kærligheden kærlighedens kærligheds
+3	503	slap	slap slappe slapper slappede slapt slappet slappes slappere
+4	504	herfra	herfra
+5	505	selvom	selvom
+6	506	foregå	foregår foregik foregå foregående foregået
+7	507	våben	våben våbnet våbnene våbenet våbnets våbens våbnenes våbenets
+8	508	helvede	helvede helvedes helvedet helvedets helveder helvederne
+9	509	klub	klubben klub klubber klubbens klubberne klubs klubbernes
+10	510	ung	ung yngre yngste ungt yngst
+11	511	savne	savner savnet savne savnede savnes savn savnedes
+12	512	ti	ti
+13	513	sæson	sæson sæsonen sæsoner sæsonens sæsons sæsonerne
+14	514	gruppe	gruppe gruppen grupper gruppens grupperne gruppes gruppers
+15	515	sgu	sgu sq
+16	516	nævne	nævnt nævnte nævne nævner nævnes nævn nævnet nævnede nævneren nævnets
+17	517	chef	chef chefen chefer cheferne chefens chefs chefers chefernes
+18	518	tøj	tøj tøjet tøjets
+19	519	besked	besked beskeder beskeden beskedne beskedent beskederne beskedens
+20	520	søster	søster søstre søsters søstrene søsteren søsterens søstres søstrenes
+21	521	forklare	forklare forklarer forklar forklarede forklaret forklares forklarende
+22	522	sidst	sidst
+23	523	fremtid	fremtiden fremtid fremtidens fremtids fremtider fremtiderne
+24	524	fedt	fedt fedtet fedtede fedter
+25	525	føre	føre førte ført førende føres føret førtes føren
+26	526	syg	syg syge sygt sygeste sygere syges sygen
+27	527	samarbejde	samarbejde samarbejdet samarbejder samarbejdede samarbejd samarbejdende samarbejdets
+28	528	foran	foran
+29	529	flyve	flyve flyver fløj flyvende fløjet flyv flyveren fløjen flyvere flyves
+30	530	tabe	tabte tabt tabe tabes tabende
+31	531	tom	tom tomme tomt tommer tommers tommen tommens
+32	532	lukke	lukke lukker lukkede lukkes lukkeren lukkende lukkedes
+33	533	beklage	beklager beklage beklagede beklaget beklag beklagende
+34	534	musik	musik musikken musikkens
+35	535	gemme	gemmer gemme gemt gem gemte gemmes gemmen gemmerne gemmet
+36	536	løbe	løbe løbet løbende løberne løben løbes løbers
+37	537	desværre	desværre
+38	538	fængsel	fængsel fængslet fængsler fængslets fængslerne fængsels fængselet
+39	539	lede	lede ledte ledt ledende led ledes ledet ledede leddene leddet
+40	540	venstre	venstre venstres venster
+41	541	konge	konge kongen kongens konger konges kongerne kongernes kongers
+42	542	halv	halv halvt halve
+43	543	føde	født føde fødte fødes føder føden fødtes fød fødende føderne
+44	544	danse	danse dans danser dansede dansen dansere danset dansende danserne danseren
+45	545	minde	minder minde mindes mind mindede mindet minderne mindedes minden mindernes
+46	546	stjæle	stjal stjålet stjæle stjæler stjålne stjæl stjålen stjæles stjålent stjælende
+47	547	tør	tør tørre tørt tørrer tørret tørrede tørres tørreste tørrere tøre
+48	548	ansigt	ansigt ansigtet ansigter ansigterne ansigts ansigtets
+49	549	politisk	politisk politiske
+50	550	kontrol	kontrol kontrollere kontrollen kontrollerer kontrolleret kontrollerede kontroller kontrollerende kontrollér kontrollerne
+51	551	fylde	fyldt fylder fylde fyldte fyld fyldes fyldet fyldtes
+52	552	netop	netop
+53	553	sandhed	sandheden sandhed sandheder sandhedens sandheds sandhederne
+54	554	utrolig	utroligt utrolig utrolige utroligste
+55	555	skib	skib skibet skibe skibets skibene skibs skibes skibenes skibede skiber
+56	556	resultat	resultater resultat resultatet resultaterne
+57	557	samtidig	samtidig samtidigt samtidige
+58	558	værelse	værelse værelset værelser værelses værelserne værelsets
+59	559	personlig	personligt personlige personlig
+60	560	dollar	dollars dollar dollaren
+61	561	sikkerhed	sikkerhed sikkerheden sikkerheds sikkerhedens sikkerhederne
+62	562	sang	sang sange sangen sangene sangs sangens
+63	563	presse	pres presse pressen presset presser pressede presses pressens pressende presserne
+64	564	tidspunkt	tidspunkt tidspunktet tidspunkter tidspunkterne
+65	565	artikel	artikel artikler artiklen artiklerne artiklens
+66	566	samlet	samlet samlede
+67	567	blod	blod blodet blodets blods
+68	568	sørge	sørge sørg sørger sørgede sørget sørgende sørges
+69	569	træt	træt trætte trættende trætter trættes trættede trættet trættere
+70	570	forvente	forventer forventet forventede forvente forventes forvent forventedes
+71	571	kaffe	kaffe kaffen kaffer kaffere
+72	572	system	system systemet systemer systems systemerne systemets
+73	573	ingenting	ingenting
+74	574	bank	bank banken banker banks banket bankerne bankens banketten bankernes bankers
+75	575	rum	rum rummet rummer rumme rummene rummede rummets rums rummes
+76	576	angreb	angreb angrebet angrebene angrebs angrebets
+77	577	bord	bord bordet borde bordene bords bordede bordets
+78	578	krop	krop kroppen kroppe kroppens krops kroppene kroppes
+79	579	antal	antal antallet
+80	580	vor	vore vor vort
+81	581	opgave	opgave opgaver opgaven opgaverne opgavens
+82	582	værd	værd
+83	583	præsident	præsident præsidenten præsidentens præsidenter præsidents præsidenterne præsidenternes præsidenters
+84	584	kæft	kæft kæften kæfter kæfte kæftede
+85	585	pis	pis pisset
+86	586	gide	gider gad gide gidet
+87	587	koste	koster koste kostede kostet kost kosten kostene kostes
+88	588	kraft	kraft kræfter kraften kræfterne kraftens kræfters krafts
+89	589	ej	ej
+90	590	top	top toppen tops toppe topper toppede toppet toppes toppene
+91	591	åben	åben åbent
+92	592	direkte	direkte
+93	593	vejr	vejret vejr vejrs vejrets
+94	594	eksempel	eksempel eksempler eksemplet eksemplerne
+95	595	kaste	kaste kaster kastede kastet kast kastes kasteren kasten kastere
+96	596	besøge	besøge besøgte besøger besøgt besøgende besøges
+97	597	kirke	kirke kirken kirkens kirker kirkes kirkerne
+98	598	hår	hår håret hårene hårede hårets
+99	599	nyhed	nyheder nyhed nyhederne nyheden nyheds nyhedens nyhedernes
+100	600	sex	sex

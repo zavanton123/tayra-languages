@@ -1,0 +1,100 @@
+1	3001	arabisk	arabiske arabisk
+2	3002	mikrofon	mikrofon mikrofonen mikrofoner mikrofonerne
+3	3003	debut	debut debuten
+4	3004	hjemmefra	hjemmefra
+5	3005	drej	drej drejet
+6	3006	anbefaling	anbefaling anbefalinger anbefalingen anbefalingerne
+7	3007	forholdsvis	forholdsvis forholdsvist
+8	3008	gerningsmand	gerningsmanden gerningsmand gerningsmænd gerningsmændene gerningsmandens gerningsmændenes
+9	3009	søvnproblem	re res søvnproblemer
+10	3010	jern	jern jernet jernene jernets
+11	3011	kritisere	kritiseret kritisere kritiserer kritiserede kritiseres kritiser kritisér
+12	3012	vældig	vældig vældigt vældige
+13	3013	udskrive	udskrevet udskrive udskriv udskriver udskrev udskrives
+14	3014	kartoffel	kartofler kartoffel kartoflerne kartoflen kartoflers
+15	3015	underholdning	underholdning underholdningen underholdnings underholdningens
+16	3016	hjemmebane	hjemmebane hjemmebanen
+17	3017	forud	forud
+18	3018	nordpå	nordpå
+19	3019	nederst	nederste nederst
+20	3020	konkurrent	konkurrenter konkurrent konkurrenterne konkurrenten konkurrenternes konkurrents konkurrenters konkurrentens
+21	3021	fredelig	fredeligt fredelig fredelige fredeligere
+22	3022	forsyning	forsyninger forsyning forsyningerne forsyningen forsynings
+23	3023	væske	væske væsken væsker væskerne væskende vædske
+24	3024	terrorist	terrorister terroristerne terroristen terroristernes terroristers terroristens
+25	3025	rækkevidde	rækkevidde rækkevidden
+26	3026	gennemsnitlig	gennemsnitlige gennemsnitligt gennemsnitlig
+27	3027	mellemtid	mellemtiden
+28	3028	fastslå	fastslå fastslår fastslået fastslog fastslås
+29	3029	nål	nål nåle nålen nålene nålens
+30	3030	lancere	lanceret lancerede lancerer lancere lanceres
+31	3031	opholde	opholdt opholde opholder opholdte
+32	3032	prioritere	prioritere prioriterer prioriteret prioriterede prioriter prioriteres
+33	3033	satellit	satellit satellitter satellitten satellitterne satellittens
+34	3034	pastor	pastor pastoren pastorens pastorer
+35	3035	lyn	lyn lynet lynets lynene lyns
+36	3036	stilhed	stilhed stilheden stilhedens
+37	3037	knus	knus knuses knuset
+38	3038	medlemskab	medlemskab medlemskabet medlemskaber
+39	3039	udvej	udvej udveje udvejen
+40	3040	gerningssted	gerningsstedet gerningssted gerningssteder gerningsstederne gerningsstedets
+41	3041	individ	individ individer individet individets individs individerne individers
+42	3042	tosse	tosse tosser tossede tossen tosserne tos tosses tossedes tossens tossernes
+43	3043	fuldføre	fuldført fuldføre fuldførte fuldfører fuldfør fuldføres
+44	3044	distrikt	distrikt distriktet distrikter distrikterne distrikts distriktets
+45	3045	fremstå	fremstår fremstå fremstod fremstående
+46	3046	udsendelse	udsendelse udsendelsen udsendelser udsendelserne udsendelsens
+47	3047	kendskab	kendskab kendskabet
+48	3048	udefra	udefra
+49	3049	foreløbig	foreløbig foreløbige foreløbigt
+50	3050	udstille	udstiller udstillet udstille udstillede udstilles udstil
+51	3051	kopiere	kopiere kopieret kopier kopierer kopierede kopieres
+52	3052	part	parter parterne parters parternes
+53	3053	forbud	forbud forbuddet forbudet
+54	3054	konklusion	konklusion konklusioner konklusionen konklusionerne
+55	3055	henrette	henrettet henrette henrettes henrettede henretter henret
+56	3056	heroppe	heroppe
+57	3057	enke	enke enken enker enkens enkes enkerne enkers enkernes
+58	3058	skue	sku skue skuer skuet skuede skuets
+59	3059	smøre	smøre smurt smører smurte smøres smøren
+60	3060	fremgang	fremgang fremgangen fremgangs fremgangens
+61	3061	sommetider	sommetider
+62	3062	forsinkelse	forsinkelse forsinkelsen forsinkelser forsinkelserne
+63	3063	paradis	paradis paradiset paradisets
+64	3064	kor	kor koret korets
+65	3065	tåbelig	tåbelige tåbeligt tåbelig tåbeligste
+66	3066	fartøj	fartøj fartøjet fartøjer fartøjets fartøjerne fartøjs
+67	3067	plakat	plakater plakat plakaten plakaterne
+68	3068	penny	penny pennys pennyer
+69	3069	puste	pust puste puster pusten pustede pustet pustende pustes
+70	3070	yo	yo
+71	3071	mysterium	mysterium mysteriet mysterier mysterie mysterierne mysteriernes mysteriets
+72	3072	uddele	uddeler uddeles uddelt uddele uddelte uddel
+73	3073	pragtfuld	pragtfuld pragtfuldt pragtfulde
+74	3074	udarbejde	udarbejdet udarbejde udarbejdede udarbejder udarbejdes udarbejd
+75	3075	størstedel	størstedelen
+76	3076	tand	tand tanden tænderne tænders tændernes
+77	3077	giftig	giftig giftige giftigt giftigste giftigere
+78	3078	mappe	mappe mappen mapper mapperne
+79	3079	jungle	junglen jungle junglens jungler junglerne
+80	3080	snor	snor snoren snore snorene
+81	3081	handske	handsker handske handsken handskerne
+82	3082	uventet	uventet uventede
+83	3083	euro	euro euroen euros euroer
+84	3084	mel	mel melet mels melede
+85	3085	medbringe	medbringe medbragt medbragte medbringer medbring medbringes medbringende
+86	3086	indebære	indebærer indebar indebære indebær indebåret
+87	3087	charmerende	charmerende
+88	3088	demonstration	demonstration demonstrationer demonstrationen demonstrationerne
+89	3089	fremlægge	fremlagt fremlægge fremlægger fremlagde fremlægges fremlæg fremlagte
+90	3090	dagsorden	dagsorden dagsordenen dagsordnen dagsordener dagsordner
+91	3091	aflægge	aflægge aflagt aflagde aflægger aflæg aflagte aflægges
+92	3092	omkostning	omkostninger omkostningerne omkostning omkostningen
+93	3093	football	football
+94	3094	tilslutte	tilslutte tilsluttet tilslutter tilsluttede tilslut tilsluttes
+95	3095	argument	argument argumenter argumentet argumenterne argumentets
+96	3096	ambassade	ambassade ambassaden ambassader ambassadens ambassaderne
+97	3097	tragisk	tragisk tragiske
+98	3098	taxi	taxi taxien taxier taxierne
+99	3099	kabel	kabel kabler kablet kablerne kabelet
+100	3100	udskifte	udskiftet udskifte udskiftes udskifter udskiftede udskift

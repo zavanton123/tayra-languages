@@ -1,0 +1,100 @@
+1	101	måske	måske
+2	102	helt	helt helte helten heltene helts heltenes heltens heltes
+3	103	mange	mange
+4	104	arbejde	arbejde arbejder arbejdet arbejdede arbejdere arbejd arbejdes arbejderne arbejdernes arbejdende
+5	105	hele	hele hel heler helet heles helede helende heledes
+6	106	tilbage	tilbage
+7	107	end	end
+8	108	igen	igen
+9	109	tale	tale taler talt talte tales talen talende talere talerne taleren
+10	110	sammen	sammen
+11	111	lille	lille små mindste mindre mindst småt
+12	112	sted	sted stedet steder stedets stederne steds steders
+13	113	klar	klar klare klart klarer klaret klarede klarere klares klareste klarest
+14	114	sådan	sådan sådanne sådant
+15	115	ske	sker skete sket ske skeer skeen skeerne skeens
+16	116	hvem	hvem
+17	117	gerne	gerne hellere helst
+18	118	holde	holde holder holdt holdes holdte holden holdent holdende holderen holdere
+19	119	aldrig	aldrig
+20	120	dansk	dansk danske
+21	121	død	død døde døden dødt dødens dødes dødsens døds dødede dødende
+22	122	barn	børn barn børnene barnet børns børnenes barnets barns
+23	123	mod	mod modet mods
+24	124	tænke	tænker tænke tænkte tænk tænkt tænkes tænkende tænkere tænkeren
+25	125	ret	ret rette retten rettet retter rettede rettere rettes rettens rets
+26	126	fordi	fordi
+27	127	stå	står stå stod stået stående
+28	128	del	del dele deler dels delt delte deles delene delen deltes
+29	129	før	før
+30	130	fortælle	fortælle fortæller fortalte fortæl fortalt fortælles fortælleren fortællende fortællen fortællere
+31	131	vide	vide vidste viden vidst vid vides vidende videns vider videnen
+32	132	spille	spiller spille spil spillet spillede spillere spillerne spilles spilleren spillets
+33	133	siden	siden
+34	134	far	far fars faren fædre fædrene farens fædres fædrenes farsen
+35	135	hold	hold holdet holdene holdets holden holds holdent holdens
+36	136	vej	vej vejen veje vejer vejene vejede vejs vejens vejet vejes
+37	137	rigtig	rigtig rigtigt rigtige rigtigere rigtigst rigtigste
+38	138	folk	folk folket folks folkens folkene folkets folkenes
+39	139	flere	flere
+40	140	hej	hej
+41	141	altid	altid
+42	142	mor	mor mors mødre moren morer mødrene morens mødres mødrenes
+43	143	liv	liv livet livs livets livene
+44	144	sætte	sætte sæt sætter sat satte sættes sættet sættene sættende
+45	145	prøve	prøver prøve prøv prøvede prøvet prøven prøverne prøves prøvende prøvens
+46	146	vente	vent venter vente ventede ventet ventes ventende venten
+47	147	ned	ned
+48	148	mene	mener mente mene ment menes mentes menter
+49	149	jer	jer
+50	150	brug	brug brugen brugsen bruget
+51	151	uden	uden
+52	152	møde	møde mødes mødte møder mødt mødtes mød mødet møderne mødets
+53	153	længe	længe længere længst længes længtes længer længen
+54	154	gammel	gamle gammel ældre gammelt ældste ældres ældst ældstes
+55	155	ting	ting tingene tingen tingenes tinget tings tingets
+56	156	første	første
+57	157	køre	kører køre kørte kør kørt kørende køres kørere kørerne køreren
+58	158	lang	langt lang lange længst længste langer langede langes langet
+59	159	under	under undere underet underen unders
+60	160	stadig	stadig stadigt stadige
+61	161	vise	viser vise vis viste visse vises visere viserne viseste viseren
+62	162	samme	samme
+63	163	forstå	forstår forstå forstået forstod forstås forstående
+64	164	kende	kender kende kendte kendes kend kendtes kendere kendet kenderen
+65	165	burde	burde bør børsen børs børe børserne børser børene
+66	166	virkelig	virkelig virkeligt virkelige virkeligere
+67	167	sidste	sidste
+68	168	slå	slå slog slår slået slås sloges slående slåer slagne slåen
+69	169	ven	venner ven vennerne vens venners vennen vennernes vennens
+70	170	væk	væk
+71	171	lide	lide led lider ledt lid lidende liden leddene leddet ledeste
+72	172	penge	penge pengene pengenes penges
+73	173	hvilken	hvilket hvilken hvilke
+74	174	elske	elsker elske elsket elsk elskere elskende elskes elskedes elskeren elskers
+75	175	tre	tre
+76	176	hver	hver hvert
+77	177	hjem	hjem hjemmet hjemmets hjemmene hjems
+78	178	kvinde	kvinde kvinder kvinden kvinderne kvinders kvindernes kvindes kvindens
+79	179	ringe	ringe ringer ring ringede ringet ringen ringere ringenes ringene ringeste
+80	180	undskylde	undskyld undskylde undskylder undskyldt undskyldte undskyldes undskyldende
+81	181	skrive	skrive skrevet skriver skrev skriv skrives skrivende skrevne skreven skriveren
+82	182	stoppe	stop stoppe stopper stoppede stoppet stoppes stoppene stoppen
+83	183	ønske	ønsker ønske ønskede ønsket ønskes ønsk ønskerne
+84	184	hendes	hendes
+85	185	følge	følge følger følgende følg fulgte fulgt følges følgere følgerne fulgtes
+86	186	menneske	mennesker menneske mennesket menneskets menneskers menneskene menneskes menneskerne menneskenes menneskernes
+87	187	gennem	gennem igennem
+88	188	pige	pige piger pigen pigerne piges pigens pigernes pigers
+89	189	synes	synes syntes
+90	190	navn	navn navnet navne navnene navns navner
+91	191	sende	sender sende sendt sendte send sendes senderen sendere senderne senderens
+92	192	by	byen by byens byer byerne bys byernes byers
+93	193	problem	problemer problem problemet problemerne problemets problems
+94	194	hos	hos
+95	195	dræbe	dræbe dræbt dræbte dræber dræb dræbes dræbende dræbere dræberen dræbtes
+96	196	verden	verden verdens verdener verdner verdenerne verdeners verdnerne verdenernes
+97	197	endnu	endnu
+98	198	læse	læse læs læst læser læste læsere læses læserne læseren læsset
+99	199	vel	vel
+100	200	leve	leve lever levende levede leverer levere levet leveret lev leverede

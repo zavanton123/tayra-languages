@@ -1,0 +1,2 @@
+# Common forms the Danish frequency list misses; check_course.py counts them as forms of the word.
+# headword<TAB>forms

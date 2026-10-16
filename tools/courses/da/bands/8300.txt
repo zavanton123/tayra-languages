@@ -1,0 +1,100 @@
+1	8201	førend	førend
+2	8202	lydløs	lydløs lydløst lydløse
+3	8203	aircondition	aircondition airconditionen airconditionering
+4	8204	kajak	kajak kajakken kajakker kajakkerne
+5	8205	loppe	lopper loppe lopperne loppen lop
+6	8206	trompet	trompet trompeter trompeten trompeterne trompeteren
+7	8207	fremvisning	fremvisning fremvisningen fremvisninger
+8	8208	rundtur	rundtur rundturen rundture
+9	8209	refundere	refunderet refunderes refundere refunderer
+10	8210	udad	udad
+11	8211	arkivere	arkiveret arkivere arkiverer arkiver arkiveres arkiverede arkivér
+12	8212	utilfredshed	utilfredshed utilfredsheden
+13	8213	forvrænge	forvrænget forvrænger forvrængede forvrænge forvrænges forvrængeren forvræng
+14	8214	mistillid	mistillid mistilliden mistillidens
+15	8215	afstå	afstå afstår afstod afstået
+16	8216	formidabel	formidabel formidabelt formidable
+17	8217	debutere	debuterede debuterer debutere
+18	8218	fremmøde	fremmøde fremmødte fremmødet fremmødt
+19	8219	opdagelsesrejsende	opdagelsesrejsende opdagelsesrejsendes
+20	8220	flise	fliser fliserne flise flis flisen
+21	8221	tryllestav	tryllestav tryllestaven tryllestave tryllestavene
+22	8222	velgørende	velgørende
+23	8223	gennemtænke	gennemtænkt gennemtænke gennemtænkte gennemtænker
+24	8224	bøsset	bøsset bøssede
+25	8225	tilovers	tilovers
+26	8226	straight	straight straights
+27	8227	intellekt	intellekt intellektet intellekter
+28	8228	macho	macho
+29	8229	tik	tik tikket
+30	8230	stafet	stafetten stafet
+31	8231	kystnær	kystnære
+32	8232	mejeri	mejeri mejeriet mejerier
+33	8233	gispe	gisper gispende gispede gispe gispen gispet
+34	8234	godbid	godbid godbidder godbidderne godbidden
+35	8235	vielsesring	vielsesring vielsesringen vielsesringe vielsesringene
+36	8236	vestre	vestre
+37	8237	dump	dumpet dumpt
+38	8238	skizofreni	skizofreni
+39	8239	proportion	proportioner proportion proportionerne
+40	8240	mikroskopisk	mikroskopiske mikroskopisk
+41	8241	ildebrand	ildebrand ildebrande ildebranden ildebrandene
+42	8242	romantiker	romantiker romantikere romantikerne romantikeren
+43	8243	uovertruffen	uovertruffen uovertrufne uovertruffet uovertruffent
+44	8244	postyr	postyr postyret
+45	8245	frafald	frafaldet frafald
+46	8246	landdistrikt	landdistrikterne landdistrikter
+47	8247	forlystelsespark	forlystelsespark forlystelsesparken forlystelsesparker
+48	8248	pollen	pollen pollenet
+49	8249	løsepenge	løsepenge løsepengene
+50	8250	byttehandel	byttehandel byttehandlen byttehandler byttehandelen
+51	8251	sultan	sultan sultanen sultanens sultans
+52	8252	kontinuerlig	kontinuerligt kontinuerlig kontinuerlige
+53	8253	modarbejde	modarbejde modarbejder modarbejdet modarbejdede modarbejdende modarbejd
+54	8254	empirisk	empiriske empirisk
+55	8255	særling	særling særlinge særlingen særlingene
+56	8256	løgnagtig	løgnagtige løgnagtig løgnagtigt
+57	8257	slæng	slæng slænget slængets
+58	8258	lebbe	lebbe lebber lebberne lebben lebbere
+59	8259	opium	opium opiummen opiummet
+60	8260	tilbageværende	tilbageværende
+61	8261	tomhed	tomhed tomheden
+62	8262	halleluja	halleluja
+63	8263	skrækslagen	skrækslagen skrækslagne
+64	8264	afrikaner	afrikanere afrikaner afrikanerne afrikaneren
+65	8265	sonar	sonar sonaren sonarens
+66	8266	efterårsferie	efterårsferien efterårsferie
+67	8267	diplom	diplom diplomer diplomet
+68	8268	skiftevis	skiftevis
+69	8269	yngle	yngler yngle ynglet ynglede ynglende
+70	8270	overhøre	overhørte overhøre overhørt overhører overhør overhøres
+71	8271	udestå	udestående udeståender
+72	8272	derigennem	derigennem
+73	8273	mandarin	mandarin mandariner mandarinen
+74	8274	fyldig	fyldig fyldige fyldigt fyldigere
+75	8275	udskrift	udskrift udskrifter udskriften udskrifterne udskriftet
+76	8276	fjerdeplads	fjerdeplads fjerdepladsen
+77	8277	elcykel	elcykel cykler cyklen
+78	8278	disposition	disposition dispositioner
+79	8279	lsd	lsd
+80	8280	kontanthjælpsmodtager	kontanthjælpsmodtagere
+81	8281	campere	campere camper camperer camperen camperede camperet
+82	8282	armbøjning	armbøjninger armbøjning armbøjningerne
+83	8283	eddike	eddike eddiken
+84	8284	fagbevægelse	fagbevægelsen fagbevægelsens
+85	8285	komplot	komplot komplottet komplotter
+86	8286	sydstat	sydstaterne sydstaternes sydstats sydstater
+87	8287	splid	splid spliden
+88	8288	alfabetisk	alfabetisk
+89	8289	overholdelse	overholdelse
+90	8290	utopi	utopia utopi
+91	8291	bibeholde	bibeholde bibeholdt bibeholder bibeholdes bibehold
+92	8292	sydøstlig	sydøstlige sydøstlig
+93	8293	forgylde	forgyldt forgyldte forgylde forgylder forgyldes
+94	8294	toft	toft
+95	8295	bondeknold	bondeknold bondeknolde bondeknolden bondeknoldene bondeknolds
+96	8296	visitere	visitere visiter visiteret visiterer visiterede visitér visiteres
+97	8297	indikation	indikation indikationer
+98	8298	jaja	jaja
+99	8299	opmuntring	opmuntring opmuntringen opmuntringer
+100	8300	reglement	reglementet reglement reglementer

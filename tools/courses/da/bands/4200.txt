@@ -1,0 +1,100 @@
+1	4101	harpe	harper harpe harpers harpen harpens
+2	4102	ensomhed	ensomhed ensomheden ensomhedens
+3	4103	kompliment	kompliment komplimenter komplimenten komplimentet komplimenterne
+4	4104	ski	ski skiene
+5	4105	tillige	tillige
+6	4106	koma	koma komaen komaer
+7	4107	vodka	vodka vodkaen vodkaer
+8	4108	ussel	usle ussel usselt usleste
+9	4109	illegal	illegale illegal illegalt
+10	4110	radar	radar radaren radarer radarens
+11	4111	københavnsk	københavnske københavnsk
+12	4112	nummerplade	nummerplade nummerplader nummerpladen nummerpladerne
+13	4113	supplere	suppleret supplerende supplere suppleres supplerer
+14	4114	ruinere	ruiner ruineret ruinere ruinerede ruinerer ruineres
+15	4115	kompagni	kompagni kompagniet kompagnier kompagniets kompagnis kompagnierne
+16	4116	kontroversiel	kontroversiel kontroversielle kontroversielt
+17	4117	gennemsøge	gennemsøge gennemsøgt gennemsøg gennemsøger gennemsøgte gennemsøges
+18	4118	psykologi	psykologi psykologien
+19	4119	østlig	østlige østlig
+20	4120	trives	trives trivedes
+21	4121	håndværk	håndværk håndværket håndværks
+22	4122	illusion	illusion illusioner illusionen illusionerne illusionernes illusions
+23	4123	hviske	hvisker hviskede hviske hvisket hvisk hviskende hviskes hviskedes
+24	4124	ble	ble bleer bleen bleerne
+25	4125	menneskerettighed	menneskerettigheder menneskerettighederne menneskerettighed menneskerettigheds
+26	4126	hovedperson	hovedperson hovedpersonen hovedpersoner hovedpersonerne hovedpersonens
+27	4127	plukke	plukke plukket plukker plukkede pluk plukkes plukkere plukkerne
+28	4128	levering	levering leveringen leveringer leveringerne leverings
+29	4129	fattigdom	fattigdom fattigdommen
+30	4130	mislykkes	mislykkedes mislykkes
+31	4131	mat	mat matte
+32	4132	anliggende	anliggender anliggende anliggendet
+33	4133	halvvejs	halvvejs
+34	4134	tærte	tærte tærter tærten tærterne
+35	4135	accent	accent accenten accenter accenterne
+36	4136	spontan	spontan spontant spontane
+37	4137	omhyggelig	omhyggeligt omhyggelig omhyggelige
+38	4138	tankegang	tankegang tankegangen tankegange
+39	4139	separat	separat separate
+40	4140	kåre	kåret kåre kår kårer kåres
+41	4141	tilsammen	tilsammen
+42	4142	zoom	zoom zoomer zoomen
+43	4143	poker	poker pokerens
+44	4144	jazz	jazz jazzen jazzens
+45	4145	karantæne	karantæne karantænen karantæner
+46	4146	identisk	identisk identiske
+47	4147	tilværelse	tilværelse tilværelsen tilværelser tilværelsens
+48	4148	juleaften	juleaften juleaftener juleaftner juleaftens
+49	4149	skur	skur skuret skure skurer skurede skurene
+50	4150	forlig	forlig forliget forligs
+51	4151	trøst	trøst trøsten
+52	4152	håndtag	håndtag håndtaget håndtagene
+53	4153	vittighed	vittighed vittigheder vittighederne vittigheden
+54	4154	bingo	bingo
+55	4155	uklar	uklart uklar uklare
+56	4156	patrulje	patrulje patruljer patruljen patruljerne patruljens
+57	4157	løg	løg løgene løget
+58	4158	stempel	stemplet stempel stempler stemplerne
+59	4159	nåh	nåh
+60	4160	banan	banan bananer bananen bananerne
+61	4161	ærinde	ærinde ærinder ærindet
+62	4162	ejendel	ejendele ejendel ejendelene
+63	4163	jura	jura juraen
+64	4164	delta	delta deltaet deltaer deltas deltaerne
+65	4165	sømand	sømand sømænd sømanden sømændene sømands sømandens sømændenes sømænds
+66	4166	underholde	underholde underholdt underholder underhold underholdes underholdte underholdet
+67	4167	styrelse	styrelsen styrelse
+68	4168	nabolag	nabolaget nabolag nabolagets nabolagene
+69	4169	ankel	ankel ankler anklen anklerne ankelen
+70	4170	benægte	benægte benægtede benægt benægtet benægtes benægtende
+71	4171	derhenne	derhenne
+72	4172	fortjeneste	fortjeneste fortjenesten fortjenester
+73	4173	knude	knude knuder knuden knuderne
+74	4174	skandinavisk	skandinaviske skandinavisk
+75	4175	logik	logik logikken logikkens
+76	4176	usikkerhed	usikkerhed usikkerheden usikkerheder usikkerhederne usikkerhedens
+77	4177	kirurg	kirurg kirurger kirurgen kirurgerne kirurgs kirurgens
+78	4178	torturere	tortureret torturere torturerede torturerer tortureres torturer
+79	4179	trofæ	trofæ trofæer trofæet trofæerne
+80	4180	event	event eventet
+81	4181	spjæld	spjældet spjæld
+82	4182	engagement	engagement engagementer engagementet
+83	4183	landsdækkende	landsdækkende
+84	4184	velfærd	velfærd velfærden
+85	4185	pat	pat
+86	4186	profet	profet profeten profeter profeterne profetens profets
+87	4187	indviklet	indviklet indviklede
+88	4188	bedrift	bedrift bedrifter bedriften
+89	4189	ekspedition	ekspedition ekspeditionen ekspeditioner ekspeditionens ekspeditionerne ekspeditions
+90	4190	flyselskab	flyselskab flyselskaber flyselskabet flyselskaberne flyselskabets
+91	4191	opgradere	opgraderet opgradere opgraderede opgraderer opgraderes opgrader
+92	4192	bio	bio
+93	4193	vig	vig vige veg viger vigende veget vigen
+94	4194	fordeling	fordeling fordelingen
+95	4195	oprettelse	oprettelse oprettelsen
+96	4196	håndled	håndled håndleddet håndleddene håndledet håndledene
+97	4197	patent	patent patenter patentet patenterne
+98	4198	røvfuld	røvfuld røvfulde
+99	4199	rand	rand randen rande rands rander
+100	4200	lodret	lodret lodrette

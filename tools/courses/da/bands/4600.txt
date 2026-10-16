@@ -1,0 +1,100 @@
+1	4501	overlæge	overlæge overlæger overlægen overlægens
+2	4502	skipper	skipper skipperen skippers skipperne
+3	4503	søjle	søjler søjle søjlerne søjlen
+4	4504	ak	ak
+5	4505	nuance	nuancer nuance nuancerne nuancen
+6	4506	distance	distance distancen distancer
+7	4507	deraf	deraf
+8	4508	økonom	økonom økonomer økonomerne økonomen
+9	4509	marina	marina marinaen marinaer marinas marinaerne
+10	4510	fiktion	fiktion fiktionen
+11	4511	bartender	bartender bartenderen bartendere bartenderens bartenderne
+12	4512	trodse	trodser trodse trodsede trodset
+13	4513	obs	obs
+14	4514	marchere	marchere marcherer marcherede marcherende marcheret marcher marchér
+15	4515	ligestilling	ligestilling ligestillingen ligestillingens
+16	4516	optimal	optimale optimalt
+17	4517	illustration	illustration illustrationer illustrationerne
+18	4518	opførelse	opførelse opførelsen opførelser
+19	4519	kraftfuld	kraftfuld kraftfulde kraftfuldt
+20	4520	opstilling	opstilling opstillingen opstillinger
+21	4521	nedre	nedre
+22	4522	besværligt	besværligt
+23	4523	forsæt	forsæt forsætter
+24	4524	stejle	stejle stejl stejlt stejler stejlede stejlere stejlende stejleste
+25	4525	praktisere	praktiserende praktisere praktiserer praktiseret praktiseres praktiserede praktiser
+26	4526	bosætte	bosat bosætte bosatte bosættere bosætterne bosætter
+27	4527	forsørge	forsørge forsørger forsørgere forsørgede forsørget forsørges forsørgeren
+28	4528	tåbe	tåbe tåber tåben tåberne tåbes tåbers tåbens tåbernes
+29	4529	fortolkning	fortolkning fortolkninger fortolkningen
+30	4530	ingrediens	ingredienser ingrediens ingredienserne ingrediensen
+31	4531	udrette	udrette udrettet udretter udrettede udret
+32	4532	ledsage	ledsaget ledsage ledsages ledsagede ledsag ledsagende
+33	4533	obligatorisk	obligatorisk obligatoriske
+34	4534	ridse	ridser ridse ridset ridsede rids ridserne ridsen
+35	4535	sølle	sølle
+36	4536	kristendom	kristendommen kristendom kristendommens
+37	4537	pensionere	pensioneret pensionerede pensioneres pensionere pensionerer
+38	4538	fremsætte	fremsat fremsatte fremsætte fremsætter fremsæt fremsættes
+39	4539	valuta	valuta valutaer valutaen
+40	4540	surfe	surfe surfer surfere surfede surfet surferne surferen
+41	4541	palæstinensisk	palæstinensiske palæstinensisk
+42	4542	forfatning	forfatning forfatningen forfatningens forfatnings
+43	4543	begrundelse	begrundelse begrundelsen begrundelser
+44	4544	grafik	grafik grafikken
+45	4545	poesi	poesi poesien poesiens
+46	4546	jury	juryen juryens juryer juryerne
+47	4547	yes	yes
+48	4548	ærme	ærmet ærmerne ærmer ærme
+49	4549	klør	klør klørene
+50	4550	konfrontere	konfrontere konfronteret konfronterer konfronterede konfronteres konfronter konfronterende
+51	4551	udenrigsministerium	udenrigsministeriet udenrigsministeriets udenrigsministerium
+52	4552	agter	agter agterste
+53	4553	tidsskrift	tidsskrifter tidsskrift tidsskriftet tidsskrifterne
+54	4554	begavet	begavet begavede
+55	4555	tilsætte	tilsat tilsæt tilsættes tilsætte tilsætter tilsatte
+56	4556	eng	eng enge engen engene
+57	4557	sundhedsstyrelse	sundhedsstyrelsen sundhedsstyrelsens sundhedsstyrelse
+58	4558	overskride	overskredet overskrider overskride overskred overskrides overskrid
+59	4559	downloade	downloade downloader downloades downloadede
+60	4560	hacker	hacker hackere hackeren hackerne hackers hackerens hackernes
+61	4561	litterær	litterære litterær litterært
+62	4562	spørgsmålstegn	spørgsmålstegn spørgsmålstegnet
+63	4563	rygning	rygning rygningen
+64	4564	kapsel	kapsler kapsel kapslen kapslerne kapslens kapselen
+65	4565	seriemorder	seriemorder seriemordere seriemorderen seriemorders seriemorderens seriemorderne
+66	4566	helgen	helgen helgener helgenen helgenerne helgenens helgeners helgenernes
+67	4567	forurene	forurenet forurenende forurenede forurener forurene forurenes forurenere
+68	4568	semifinale	semifinalen semifinale semifinalerne semifinalens
+69	4569	finsk	finsk finske
+70	4570	gudinde	gudinde gudinden gudinder gudindens gudindes gudinderne
+71	4571	nødvendighed	nødvendighed nødvendigheden nødvendigheder
+72	4572	fastmaske	fm
+73	4573	akavet	akavet akavede
+74	4574	unde	und unde unden undt undte undes
+75	4575	bly	bly blyet blys
+76	4576	nikke	nik nikke nikker nikkede nikket
+77	4577	indretning	indretning indretningen indretninger indretnings
+78	4578	vits	vits vitser vitsen vitserne
+79	4579	statistisk	statistisk statistiske
+80	4580	porto	porto portoen portos
+81	4581	forsamling	forsamling forsamlingen forsamlinger forsamlings forsamlingens
+82	4582	bolt	bolt bolte boltene bolten boltet boltede
+83	4583	alfons	alfons alfonser alfonsen alfonserne
+84	4584	syndrom	syndrom syndromet syndromer
+85	4585	fyrværkeri	fyrværkeri fyrværkeriet fyrværkerierne fyrværkerier
+86	4586	decidere	decideret deciderede
+87	4587	køretur	køretur køreturen køreture
+88	4588	besværlig	besværlig besværlige besværligere
+89	4589	tilfredsstille	tilfredsstille tilfredsstiller tilfredsstillet tilfredsstillede tilfredsstilles tilfredsstil
+90	4590	uønsket	uønsket uønskede
+91	4591	konkludere	konkludere konkluderer konkluderede konkluderet konkluder konkluderes
+92	4592	nationalpark	nationalpark nationalparken nationalparker nationalparkerne
+93	4593	massage	massage massagen massager
+94	4594	fornavn	fornavn fornavne fornavnet
+95	4595	gyde	gyde gyden gyder gyderne gød gydet
+96	4596	syrisk	syriske syrisk
+97	4597	ribben	ribben ribbenene ribbenet
+98	4598	karakteristisk	karakteristiske karakteristisk
+99	4599	udformning	udformning udformningen udformninger
+100	4600	atombombe	atombombe atombomben atombomber atombomberne atombombens atombombes

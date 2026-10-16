@@ -1,0 +1,100 @@
+1	8901	psykose	psykose psykoser psykosen
+2	8902	rosin	rosiner rosin rosinen rosinerne
+3	8903	livskraft	livskraft livskraften livskræfter
+4	8904	chat	chatten
+5	8905	udmelding	udmelding udmeldingen
+6	8906	eventyrer	eventyrer eventyrere eventyrerne eventyreren eventyrernes
+7	8907	vinterferie	vinterferie vinterferien
+8	8908	penicillin	penicillin penicillinen
+9	8909	tilbagebetale	tilbagebetalt tilbagebetale tilbagebetales tilbagebetaler
+10	8910	planke	planker planken planke plankerne planket
+11	8911	stær	stær stære stærene stæren
+12	8912	indlandsis	indlandsisen indlandsis
+13	8913	lovløs	lovløse lovløs lovløst
+14	8914	pladder	pladder pladderet
+15	8915	bøddel	bøddel bødlen bødler bødlerne bøddelen bødlens bøddelens
+16	8916	udsending	udsending udsendinge udsendingen
+17	8917	halvbror	halvbror halvbrødre halvbrors
+18	8918	merle	merle merl merles
+19	8919	mikroskop	mikroskop mikroskopet mikroskoper
+20	8920	nedbrud	nedbrud nedbruddet
+21	8921	kærlighedshistorie	kærlighedshistorie kærlighedshistorier kærlighedshistorien
+22	8922	speedway	speedway
+23	8923	brigade	brigade brigaden brigader brigades
+24	8924	stofskifte	stofskifte stofskiftet
+25	8925	rulleskøjte	rulleskøjter rulleskøjterne rulleskøjte
+26	8926	harke	harker harken hark harke
+27	8927	tjære	tjære tjæren tjærede tjæret
+28	8928	lunte	lunten lunte lunter lunterne lunt luntende luntede
+29	8929	forfængelighed	forfængelighed forfængelighedens forfængeligheden forfængeligheds
+30	8930	dvd	dvd'er dvd'en
+31	8931	giftstof	giftstoffer giftstof giftstofferne giftstoffet
+32	8932	afstamning	afstamning afstamningerne afstamninger
+33	8933	bøtte	bøtte bøtten bøtter
+34	8934	vakle	vakler vakle vaklede vaklende vaklen vaklet
+35	8935	freelancer	freelancer freelancere freelancerne
+36	8936	skepsis	skepsis
+37	8937	gennemgribende	gennemgribende
+38	8938	kulminere	kulminerede kulminerer kulmineret kulminere kulminerende kulminer
+39	8939	epilepsi	epilepsi epilepsien
+40	8940	matros	matros matroser matroserne matrosen matrosens
+41	8941	sølvfarvet	sølvfarvet sølvfarvede
+42	8942	hylende	hylende
+43	8943	frieri	frieri frieriet frierier
+44	8944	krigsherre	krigsherre krigsherrer krigsherren krigsherrerne krigsherrens
+45	8945	træningskamp	træningskamp træningskampe
+46	8946	bymidte	bymidten bymidte
+47	8947	alarmere	alarmerende alarmere alarmeret alarmerer alarmerede alarmér alarmeres
+48	8948	bisse	bissen bisse bisser bisserne bissede bissende
+49	8949	kærtegne	kærtegn kærtegner kærtegne kærtegnede kærtegnet
+50	8950	maskinpistol	maskinpistoler maskinpistol maskinpistolen maskinpistolerne
+51	8951	afdæmpe	afdæmpet afdæmpede
+52	8952	marinekorps	marinekorpset marinekorps marinekorpsets
+53	8953	juletid	juletid juletiden
+54	8954	jetfly	jetfly jetflyet jetflyene
+55	8955	cover	coveret
+56	8956	hensigtsmæssig	hensigtsmæssigt hensigtsmæssig hensigtsmæssige
+57	8957	promovere	promovere promoverer promoveret promoverede
+58	8958	cafeteria	cafeteriet cafeteriaet cafeteriets
+59	8959	implantat	implantat implantater implantatet implantaterne
+60	8960	stewardesse	stewardesse stewardessen stewardesser stewardesserne stewardesses
+61	8961	indforstået	indforstået indforståede
+62	8962	enkeltstart	enkeltstart
+63	8963	landsformand	landsformand
+64	8964	verdensrangliste	verdensranglisten
+65	8965	indsættelse	indsættelse indsættelsen
+66	8966	arh	arh
+67	8967	kulstof	kulstof
+68	8968	følsomhed	følsomhed følsomheden følsomheds
+69	8969	bankdirektør	bankdirektør bankdirektøren bankdirektørens bankdirektører bankdirektørerne
+70	8970	henrive	henrivende henrevet
+71	8971	nærig	nærig nærige nærigt
+72	8972	nobelpris	nobelprisen nobelpris nobelpriser
+73	8973	elver	elver elvere elverne elvernes
+74	8974	rov	rov rovet
+75	8975	selvbestemmelse	selvbestemmelse
+76	8976	viljestyrke	viljestyrke viljestyrken
+77	8977	storhedstid	storhedstid storhedstiden
+78	8978	forfærde	forfærdet forfærdede forfærdende forfærdes forfærde forfærder
+79	8979	rekvisit	rekvisitter rekvisit rekvisitterne rekvisitten
+80	8980	p-plads	p-pladsen p-plads p-pladser
+81	8981	urørt	urørt urørte
+82	8982	udstråling	udstråling udstrålingen
+83	8983	verne	verne vernes
+84	8984	levested	levesteder levested
+85	8985	dykning	dykning dykningen dykninger
+86	8986	udlån	udlån
+87	8987	ruste	rustet ruster ruste rustede
+88	8988	armé	armé armés arméen arméer
+89	8989	sydside	sydsiden sydside
+90	8990	simulation	simulation simulationer simulationen simulationerne
+91	8991	endsige	endsige
+92	8992	gamble	gambler gamblere gamblede gambleren gamblet gamblerne
+93	8993	udrede	udrede udreder udredt udredet udredes
+94	8994	olivenolie	olivenolie olivenolien
+95	8995	forsørgelse	forsørgelse
+96	8996	fremskaffe	fremskaffe fremskaffet fremskaf fremskaffer fremskaffede fremskaffes
+97	8997	benzintank	benzintank benzintanken benzintanke benzintankene
+98	8998	proviant	proviant provianten
+99	8999	symfoni	symfoni symfonier symfonien
+100	9000	pascal	pascal

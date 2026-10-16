@@ -1,0 +1,100 @@
+1	6101	saft	saft saften safter safterne
+2	6102	utilstrækkelig	utilstrækkelig utilstrækkelige utilstrækkeligt
+3	6103	mutant	mutant mutanter mutanterne mutanten mutanternes mutanters mutants
+4	6104	dødbringende	dødbringende
+5	6105	billedkunst	billedkunst
+6	6106	pickup	pickup pickuppen pickupper pickups
+7	6107	stearinlys	stearinlys stearinlysene stearinlyset stearinlysets stearinlysenes
+8	6108	uformel	uformelt uformelle uformel
+9	6109	talk	talk
+10	6110	sminke	sminke sminken sminket sminkede sminker sminkes smink
+11	6111	ydmygelse	ydmygelse ydmygelsen ydmygelser ydmygelserne
+12	6112	stuepige	stuepige stuepigen stuepiger stuepigerne stuepigens
+13	6113	babs	babser babs babserne babsen
+14	6114	hvormed	hvormed
+15	6115	genbrug	genbrug genbrugs
+16	6116	fremdrift	fremdrift fremdriften
+17	6117	lønforhøjelse	lønforhøjelse lønforhøjelser lønforhøjelsen
+18	6118	eagle	eagle eaglen
+19	6119	node	noder noderne node
+20	6120	modgift	modgiften modgift modgifte
+21	6121	unormal	unormalt unormal unormale
+22	6122	komfur	komfuret komfur komfurer
+23	6123	beslægtet	beslægtede beslægtet
+24	6124	reservedel	reservedele reservedelene reservedel reservedelen
+25	6125	pilgrim	pilgrim pilgrimme pilgrimmene pilgrimmen pilgrims pilgrimmens pilgrimmenes
+26	6126	udskud	udskud udskuddene udskuddet
+27	6127	plaster	plaster plastre plasteret plastret plastrer plastrene
+28	6128	forskud	forskud forskuddet
+29	6129	infiltrere	infiltrere infiltreret infiltrerede infiltrerer infiltrer infiltreres
+30	6130	kompensation	kompensation kompensationen kompensationer
+31	6131	belysning	belysning belysningen
+32	6132	mobbe	mobbet mob mobbe mobbede mobbes
+33	6133	juble	jubler juble jublede jublende jublet jublen jubl
+34	6134	overtro	overtro overtroen overtroens
+35	6135	klargøre	klargøre klargør klargjort klargjorde klargøres
+36	6136	vrimmel	vrimler vrimlede vrimle vrimlen vrimlende vrimlet vrimmel
+37	6137	belejligt	belejligt
+38	6138	frugtbar	frugtbar frugtbare frugtbart
+39	6139	kobling	koblingen kobling koblinger koblingerne
+40	6140	favn	favn favne favnen favner favnet favnende
+41	6141	skel	skel skellet
+42	6142	ubegrænset	ubegrænset ubegrænsede
+43	6143	pressekonference	pressekonference pressekonferencen pressekonferencer
+44	6144	aflæse	aflæse aflæses aflæser aflæs aflæste aflæst
+45	6145	udspringe	udspringer udsprang udsprunget udspringe udspringerne udspringere udspringeren
+46	6146	rampe	rampen rampe ramper ramperne
+47	6147	leverance	leverancer leverance leverancen leverancerne
+48	6148	deaktivere	deaktivere deaktiveret deaktiverer deaktiver deaktiverede deaktiveres deaktivér
+49	6149	betage	betaget betagende betage betager betagede betog betag
+50	6150	sigtelse	sigtelse sigtelser sigtelsen sigtelserne
+51	6151	forbande	forbandede forbande forbander forbandende forband forbandedes forbandes
+52	6152	kommunistisk	kommunistiske kommunistisk
+53	6153	schweizisk	schweiziske schweizisk
+54	6154	laste	lastet laste lasten lastede lastes laster
+55	6155	elendighed	elendighed elendigheden elendigheder elendighedens
+56	6156	hø	hø høet høs
+57	6157	nedenstående	nedenstående
+58	6158	svigerfar	svigerfar svigerfars svigerfaren svigerfaderen svigerfædre
+59	6159	tornado	tornado tornadoen tornadoer tornadoerne tornadoens tornadoers
+60	6160	mums	mums
+61	6161	ion	ion ioner ionerne
+62	6162	kuvert	kuvert kuverten kuverter kuverterne
+63	6163	sus	sus suset
+64	6164	civiliseret	civiliserede civiliseret
+65	6165	husstand	husstande husstand husstanden husstandens
+66	6166	nederen	nederen
+67	6167	modvirke	modvirke modvirker modvirket modvirkede
+68	6168	sinke	sinke sinker sink sinken sinket sinkede sinkes sinkerne
+69	6169	topmøde	topmøde topmødet
+70	6170	sløjfe	sløjfe sløjfen sløjfer sløjfet sløjferne sløjfede sløjf
+71	6171	epidemi	epidemi epidemien epidemier
+72	6172	underlag	underlag underlaget
+73	6173	omkuld	omkuld
+74	6174	cylinder	cylinder cylinderen cylindre cylindrene cylinderne cylindere
+75	6175	forkortelse	forkortelse forkortelser forkortelsen forkortelserne
+76	6176	skildre	skildrer skildre skildret skildrede skildres
+77	6177	selen	selen
+78	6178	drue	druer drue druerne druen druens
+79	6179	aktionær	aktionærer aktionærerne aktionær aktionærernes aktionærers aktionærene
+80	6180	analytiker	analytiker analytikere analytikeren analytikerne
+81	6181	steroid	steroider steroiderne
+82	6182	indtaste	indtast indtaste indtastet indtaster indtastede indtastes
+83	6183	hensynsløs	hensynsløs hensynsløse hensynsløst
+84	6184	inventar	inventar inventaret
+85	6185	kommunalvalg	kommunalvalget kommunalvalg
+86	6186	forbrænding	forbrænding forbrændinger forbrændingen forbrændingerne
+87	6187	ubevæbnet	ubevæbnet ubevæbnede
+88	6188	infrarød	infrarød infrarøde infrarødt
+89	6189	larve	larver larve larverne larven larves
+90	6190	krus	krus kruset krusene krusede
+91	6191	erhverve	erhverve erhvervede erhvervet erhverver erhverves
+92	6192	meningsmåling	meningsmåling meningsmålinger meningsmålingerne meningsmålingen
+93	6193	fjorten	fjorten
+94	6194	førtidspension	førtidspension
+95	6195	straffelov	straffelovens straffeloven straffelov
+96	6196	snu	snu
+97	6197	kulisse	kulisserne kulissen kulisser kulisse
+98	6198	latte	latte
+99	6199	udspring	udspring udspringet
+100	6200	eftertragte	eftertragtede eftertragtet eftertragter

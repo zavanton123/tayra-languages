@@ -1,0 +1,100 @@
+1	2501	pund	pund pundet punds
+2	2502	cigaret	cigaretter cigaret cigaretten cigaretterne cigarettens
+3	2503	lektie	lektier lektie lektierne lektien
+4	2504	gudskelov	gudskelov
+5	2505	jomfru	jomfru jomfruer jomfruen jomfruerne jomfrus jomfruens jomfruernes jomfruers
+6	2506	meddelelse	meddelelse meddelelser meddelelsen meddelelserne
+7	2507	fryser	fryser fryseren frysere fryserne
+8	2508	hælde	hælder hælde hæld hældte hældt hældes hældende
+9	2509	champagne	champagne champagnen champagner
+10	2510	fascinere	fascinerende fascineret fascinerer fascinerede fascinere fascineres
+11	2511	antyde	antyder antydede antyde antydet antydes antydende antyd
+12	2512	mission	missionen missioner missionens missionerne
+13	2513	landshold	landsholdet landshold
+14	2514	bonde	bonde bønder bønderne bonden bondens bondes bøndernes bønders
+15	2515	solid	solid solidt solide
+16	2516	isolere	isoleret isolere isolerede isolerer isolerende isoler isoleres
+17	2517	hensigt	hensigt hensigter hensigten hensigterne
+18	2518	sandsynlig	sandsynligt sandsynlige sandsynlig
+19	2519	fotograf	fotograf fotografen fotografer fotograferne fotografens
+20	2520	dominere	dominerende dominerer domineret dominere dominerede domineres
+21	2521	grundlægge	grundlagt grundlagde grundlægger grundlæggeren grundlæggere grundlæggerne grundlægge grundlæggernes grundlæggerens
+22	2522	knalde	knalde knalder knaldede knaldet knaldes knaldende
+23	2523	femte	femte
+24	2524	tusindvis	tusindvis
+25	2525	knibe	knibe kneb kniber kniben knib knebet knebent knebene kneben knebne
+26	2526	spion	spion spioner spionen spionerne spionernes spions spionens spioners
+27	2527	oprør	oprør oprøret oprørene oprørets oprørs
+28	2528	jæger	jæger jægere jægeren jægerne jægerens jægers jægernes
+29	2529	tilstrækkelig	tilstrækkeligt tilstrækkelig tilstrækkelige
+30	2530	forløb	forløb forløbet
+31	2531	råber	råber
+32	2532	guvernør	guvernør guvernøren guvernørens guvernører guvernørerne guvernørs
+33	2533	nedsætte	nedsat nedsatte nedsætte nedsættende nedsætter nedsættes nedsæt
+34	2534	rapportere	rapportere rapporterer rapporteret rapporterede rapporteres rapportér rapporterende rapporteren
+35	2535	ressource	ressourcer ressource ressourcerne ressources
+36	2536	skamme	skamme skammer skammede skammen skammet skammes
+37	2537	overvågning	overvågning overvågningen overvågnings overvågninger overvågningens
+38	2538	uheldig	uheldig uheldigt uheldige uheldigste
+39	2539	suppe	suppe suppen supper
+40	2540	kur	kur kuren kure kurens
+41	2541	pinligt	pinligt
+42	2542	røveri	røveri røveriet røverier røverierne røveriets
+43	2543	zone	zone zonen zoner zonerne zonens
+44	2544	vurdering	vurdering vurderinger vurderingen vurderingerne vurderings
+45	2545	jagte	jagtet jagte jagtede jagten jagter jagtes jagtende
+46	2546	vædde	vædde vædder væddede væddet vædderen væd væddere vædderens vædders vædderne
+47	2547	synke	synke synker sank sunket synk synkende sunkne sunken synket
+48	2548	omgive	omgivet omgiver omgivende omgive omgav omgives omgiv
+49	2549	flamme	flammer flamme flammen flammerne flammende flammernes flammens flammede
+50	2550	voldtage	voldtaget voldtog voldtage voldtager voldtages voldtag voldtagne
+51	2551	støv	støv støvet støvede
+52	2552	kaos	kaos kaosset kaoset
+53	2553	foredrag	foredrag foredraget foredragene
+54	2554	hank	hank hanken
+55	2555	stifte	stiftet stifte stifter stiftede stift stiftende stifteren stifterne stiften stiftere
+56	2556	panik	panik panikken
+57	2557	teenager	teenager teenagere teenagers teenagerne teenageren teenageres teenagernes
+58	2558	kerne	kernen kerne kerner kernerne kernens kernes
+59	2559	fejltagelse	fejltagelse fejltagelser fejltagelsen fejltagelserne
+60	2560	myte	myter myte myten myterne myternes
+61	2561	kunstig	kunstig kunstige kunstigt
+62	2562	institut	institut instituttet institutter instituttets instituts
+63	2563	hernede	hernede
+64	2564	gidsel	gidsler gidsel gidslerne gidslet gidslernes gidsels gidslets gidslers gidselet
+65	2565	klemme	klemme klem klemmer klemt klemte klemmen klemmerne klemmes klemmende
+66	2566	ørken	ørkenen ørken ørknen ørkenens ørkener ørkner ørkenerne
+67	2567	skæg	skæg skægt skægget skæggede skægge skæggere
+68	2568	liter	liter liters literen
+69	2569	eventuel	eventuelt eventuelle eventuel
+70	2570	ydre	ydre
+71	2571	streg	stregen streg streger stregerne
+72	2572	chok	chok chokket
+73	2573	dagligt	dagligt
+74	2574	mormor	mormor mormors mormoderen mormoren
+75	2575	beordre	beordrede beordret beordrer beordre beordres beordr
+76	2576	usikker	usikker usikkert usikre
+77	2577	whisky	whisky whiskyen whiskyer whiskyens
+78	2578	omgivelse	omgivelser omgivelserne omgivelsernes
+79	2579	værksted	værksted værkstedet værksteder værkstederne værkstedets værksteds
+80	2580	spild	spild spildet
+81	2581	anonym	anonym anonymt anonyme
+82	2582	yde	yde yder ydet ydede ydes yd yden
+83	2583	vanvid	vanvid vanviddet vanviddets
+84	2584	informere	informeret informere informerer informerede informer informeres informér informerende
+85	2585	overføre	overføre overføres overfører overfør
+86	2586	diamant	diamanter diamant diamanterne diamanten diamantens diamanternes
+87	2587	lillebror	lillebror lillebrors lillebroren lillebroder lillebrødre
+88	2588	intelligent	intelligent intelligente
+89	2589	formå	formår formåede formået formå
+90	2590	mast	master mast masten masteren masterne masterens
+91	2591	tatovering	tatovering tatoveringer tatoveringen tatoveringerne tatoverings
+92	2592	derover	derover
+93	2593	turist	turister turist turisterne turisten turisternes
+94	2594	kombinere	kombineret kombinere kombinerer kombineres kombinerede kombiner
+95	2595	sutte	sutte sut suttede suttet sutten suttes sutters suttende sutterne
+96	2596	cirkel	cirkel cirkler cirklen cirklerne cirkelen cirkels cirklens
+97	2597	mose	moses mose moser mosen moset mosede moserne mosens
+98	2598	primær	primære primær
+99	2599	forholde	forholde forholder forholdt forholdende
+100	2600	mandlig	mandlige mandlig mandligt

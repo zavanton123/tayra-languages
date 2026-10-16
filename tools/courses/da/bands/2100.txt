@@ -1,0 +1,100 @@
+1	2001	indlede	indledende indleder indledt indlede indledte indledes indled indledtes
+2	2002	skiderik	skiderik skiderikker skiderikken skiderikkerne skideriks skiderikkens
+3	2003	lokke	lokke lokker lokkede lokket lok lokkes lokkende lokkeren lokkerne lokken
+4	2004	front	front fronten fronter fronterne frontens fronts
+5	2005	bøn	bønner bøn bønnerne bønnen bønnens
+6	2006	angå	angår angik angå
+7	2007	fornemmelse	fornemmelse fornemmelsen fornemmelser
+8	2008	drukne	druknede drukner drukne druknet druknende drukn druknes
+9	2009	behandler	behandler behandlere
+10	2010	mangel	mangel manglen manglerne
+11	2011	tydeligvis	tydeligvis
+12	2012	beboer	beboerne beboere beboer beboeren beboernes beboeres beboers beboerens
+13	2013	derind	derind
+14	2014	opfylde	opfylde opfyldt opfylder opfyldte opfyldes opfyld
+15	2015	identitet	identitet identiteter identiteten identiteterne identitets
+16	2016	anmelde	anmelde anmelder anmeldt anmeldte anmeldere anmelderen anmelderne anmeld anmeldes anmeldende
+17	2017	kategori	kategori kategorier kategorien kategorierne
+18	2018	flugt	flugt flugten flugter
+19	2019	symbol	symbol symboler symbolet symbolerne
+20	2020	dokument	dokumenter dokument dokumentet dokumenterne
+21	2021	stammer	stammer stammerne stammers stammeren stammernes
+22	2022	tvang	tvang tvangen tvangs
+23	2023	smut	smut smuttet smuts
+24	2024	advarsel	advarsel advarsler advarslen advarslerne advarsels advarselen
+25	2025	more	more morede moret morer
+26	2026	spids	spidsen spids spidse spidser spidserne spidst spidsede spidset spidsere
+27	2027	flygtning	flygtninge flygtning flygtningene flygtningen flygtningenes flygtnings
+28	2028	potte	potter pot potten potte potters pottet potterne
+29	2029	ansætte	ansatte ansætte ansætter ansættes ansæt ansattes
+30	2030	ost	ost osten oste ostene ostet
+31	2031	anelse	anelse anelser
+32	2032	koge	kog koge koger kogt kogende kogte koges kogeren
+33	2033	tryg	tryg trygt trygge tryggere tryggeste tryggest
+34	2034	initiativ	initiativ initiativer initiativet
+35	2035	skændes	skændes skændtes
+36	2036	forleden	forleden
+37	2037	favorit	favorit favoritter favoritterne favoritten
+38	2038	duft	dufter duft duften dufte duftende duftede duftet duftene duftenes
+39	2039	spænding	spænding spændingen spændinger spændingerne spændingens spændings
+40	2040	kompliceret	kompliceret komplicerede
+41	2041	green	green greens greenen
+42	2042	boss	boss bossen bosser bosserne bossens bossernes
+43	2043	spring	spring springs springet springene
+44	2044	skæv	skæv skævt skæve skævede skæver
+45	2045	døgn	døgnet døgn døgns døgnets
+46	2046	definere	definerer definere defineret defineres definerede definer definér definerende
+47	2047	konservativ	konservative konservativ konservativt
+48	2048	tante	tante tanter tantes tanten tanterne tantens
+49	2049	nul	nul nuller nullet nullerne
+50	2050	bølge	bølge bølger bølgerne bølgen bølgende bølgede bølget bølgernes bølgens
+51	2051	forvandle	forvandlet forvandle forvandler forvandlede forvandles forvandledes forvandl forvandlende
+52	2052	deroppe	deroppe
+53	2053	uafhængig	uafhængige uafhængigt uafhængig
+54	2054	vampyr	vampyr vampyrer vampyren vampyrerne vampyrernes vampyrs vampyrers vampyrens
+55	2055	batteri	batteri batteriet batterier batterierne batteriets
+56	2056	tyde	tyder tyde tydede tydet tydes tyd
+57	2057	tværs	tværs
+58	2058	robot	robot robotter robotten robotterne robottens robotternes
+59	2059	udseende	udseende udseendet
+60	2060	vælte	vælter vælte væltede væltet væltende vælt vælten væltes
+61	2061	angående	angående
+62	2062	ulv	ulv ulve ulven ulvene ulvens ulvs ulvenes ulves
+63	2063	gylden	gyldne gylden gyldent
+64	2064	umiddelbart	umiddelbart
+65	2065	opfinde	opfundet opfandt opfinde opfind opfundne
+66	2066	hastighed	hastighed hastigheden hastigheder hastigheds
+67	2067	eksempelvis	eksempelvis
+68	2068	passager	passagerer passager passagererne passageren passagerernes passagerens passagerers passagers
+69	2069	bedstemor	bedstemor bedstemors bedstemødre bedstemoren bedstemorens bedstemødrene
+70	2070	fjernsyn	fjernsyn fjernsynet fjernsynets fjernsynene fjernsyns
+71	2071	jep	jep
+72	2072	nysgerrig	nysgerrig nysgerrige nysgerrigt
+73	2073	ar	ar arret arrene ars arene aren arens
+74	2074	gris	gris grise grisen grisene griset griser grisens grises grisenes grisede
+75	2075	knogle	knogler knoglerne knogle knoglen knoglernes knoglens
+76	2076	betydelig	betydeligt betydelig betydelige betydeligste
+77	2077	formel	formel formelt formelle formlen formler formelen formlerne
+78	2078	grå	grå gråt
+79	2079	medicinsk	medicinsk medicinske
+80	2080	metal	metal metallet metaller metals metallets metallerne
+81	2081	vandre	vandre vandrer vandret vandrede vandrere vandrende vandrette vandrerne vandreren vandren
+82	2082	medvirke	medvirkende medvirker medvirke medvirken medvirket medvirkede
+83	2083	pension	pension pensionen pensioner pensions pensionerne
+84	2084	tisse	tisse tisser tis tissede tisset tissende
+85	2085	ligeså	ligeså
+86	2086	gid	gid
+87	2087	vove	vover vove vovede vovet vov
+88	2088	tunnel	tunnel tunnelen tunnellen tunneler tunneller tunnelerne tunnellerne tunnelens
+89	2089	betingelse	betingelser betingelse betingelserne betingelsen
+90	2090	affære	affære affærer affæren affærerne
+91	2091	tippe	tip tippet tipper tippede tippe tippen tippene
+92	2092	religiøs	religiøse religiøs religiøst
+93	2093	hændelse	hændelser hændelse hændelsen hændelserne
+94	2094	relevant	relevant relevante
+95	2095	assistent	assistent assistenter assistenten assistents assistenterne assistentens
+96	2096	drab	drab drabet drabene drabs drabets
+97	2097	sorg	sorg sorgen sorger sorgens sorgerne sorgs
+98	2098	vedtage	vedtaget vedtog vedtage vedtages vedtagne vedtager vedtag
+99	2099	udløse	udløser udløste udløse udløst udløses udløseren udløs udløsende udløsere udløstes
+100	2100	formode	formoder formodes formodede formodet formode formod formoderen formodedes

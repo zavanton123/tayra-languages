@@ -1,0 +1,100 @@
+1	4401	lektor	lektor lektoren
+2	4402	økologi	økologi
+3	4403	ledsager	ledsager ledsagere ledsageren ledsagerne
+4	4404	vade	vader vade vad vadede vadende vadet vaders
+5	4405	seværdighed	seværdigheder seværdighed seværdighederne
+6	4406	forinden	forinden
+7	4407	udveksle	udveksle udveksler udvekslet udvekslede udveksles
+8	4408	korruption	korruption korruptionen korruptionens
+9	4409	baron	baron baronen baroner baronens baronerne barons
+10	4410	flyvning	flyvning flyvninger flyvningen flyvningens flyvningerne
+11	4411	vision	visioner visionen visionerne
+12	4412	reparation	reparation reparationer reparationerne reparationen
+13	4413	japaner	japanerne japanere japaner japanernes japaneren
+14	4414	tvivlsom	tvivlsomt tvivlsom tvivlsomme
+15	4415	harddisk	harddisk harddisken harddiske harddiskene
+16	4416	cyklus	cyklus cykler cyklen cyklussen cyklusser cyklerne
+17	4417	variabel	variabel variable variabler variablerne variablen
+18	4418	annonce	annonce annoncen annoncerne
+19	4419	borgen	borgen
+20	4420	barnepige	barnepige barnepigen barnepiger barnepigens barnepigerne barnepiges
+21	4421	livsstil	livsstil livsstilen livsstile
+22	4422	tidsplan	tidsplan tidsplanen tidsplaner tidsplanerne
+23	4423	løsne	løsne løsner løsnet løsn løsnede løsnes
+24	4424	objektiv	objektiv objektive objektivt objektivet objektiver
+25	4425	opgørelse	opgørelse opgørelsen opgørelser opgørelserne
+26	4426	rave	raven rave ravende raver ravet ravede
+27	4427	latter	latter latteren
+28	4428	ruder	ruder ruderne
+29	4429	pengeskab	pengeskab pengeskabet pengeskabe pengeskabene pengeskabs pengeskabets
+30	4430	bestilling	bestilling bestillinger bestillingen bestillingerne
+31	4431	dusin	dusin dusinet
+32	4432	skrækkelig	skrækkeligt skrækkelig skrækkelige skrækkeligste
+33	4433	spot	spot spottet spots spotten
+34	4434	middelalder	middelalderen middelalder middelalderens
+35	4435	mæt	mæt mætte mættet mætter mættes mættede mættende
+36	4436	bølle	bølle bøller bøllerne bøllen bøllens
+37	4437	alibi	alibi alibier alibiet alibierne
+38	4438	agn	agnes agn agne agnet
+39	4439	aha	aha
+40	4440	velgørenhed	velgørenhed velgørenheds velgørenheden velgørenhedens
+41	4441	kreativitet	kreativitet kreativiteten kreativitetens
+42	4442	forude	forude
+43	4443	børnehjem	børnehjem børnehjemmet børnehjemmets børnehjems børnehjemmene
+44	4444	velbekomme	velbekomme
+45	4445	klø	klø kløede kløen kløet kløende kløs kløes
+46	4446	bagi	bagi
+47	4447	mudder	mudder mudderet
+48	4448	koordinere	koordinere koordineret koordinerer koordinerede koordiner koordineres koordinér
+49	4449	græker	grækerne grækere græker grækeren grækernes
+50	4450	herske	herske herskede herskende hersk hersket herskes
+51	4451	fremkalde	fremkalde fremkaldt fremkalder fremkaldte fremkaldes fremkald
+52	4452	badekar	badekar badekarret badekars
+53	4453	appetit	appetit appetitten
+54	4454	beredskab	beredskab beredskabet beredskabs
+55	4455	sushi	sushi sushien
+56	4456	kvittering	kvittering kvitteringer kvitteringen kvitteringerne
+57	4457	materiel	materiel materielle materielt materiellet
+58	4458	bearbejde	bearbejde bearbejdet bearbejder bearbejdes bearbejdede bearbejd
+59	4459	nødsituation	nødsituation nødsituationer nødsituationen nødsituations
+60	4460	aftrækker	aftrækkeren aftrækker aftrækkere aftrækkerne
+61	4461	rude	rude ruden ruderne
+62	4462	prototype	prototype prototypen prototyper prototyperne
+63	4463	hertug	hertugen hertug hertugens hertuger hertugs hertugerne
+64	4464	småkage	småkager småkage småkagerne småkagen
+65	4465	renovere	renoveret renovere renoverede renoverer renoveres
+66	4466	cigar	cigar cigarer cigaren cigarerne
+67	4467	neger	neger negre negere negeren negrene negerne negers negrenes negernes
+68	4468	bore	bore borer borede boret bores borende boren
+69	4469	alter	alter alteret alters altret altre
+70	4470	nydelig	nydeligt nydelig nydelige nydeligste
+71	4471	troværdig	troværdig troværdigt troværdige
+72	4472	omend	omend
+73	4473	liderlig	liderlig liderlige liderligt
+74	4474	urt	urter urt urterne urten
+75	4475	varevogn	varevogn varevognen varevogne varevognene varevognens
+76	4476	økse	økse øksen økser økserne
+77	4477	ubrugelig	ubrugelig ubrugelige ubrugeligt
+78	4478	vitamin	vitaminer vitamin vitaminerne
+79	4479	but	but butte
+80	4480	kompetent	kompetente kompetent
+81	4481	gran	gran graner granen
+82	4482	vedligeholde	vedligeholde vedligeholdt vedligeholdes vedligehold vedligeholder vedligeholdte
+83	4483	nordjysk	nordjyske nordjysk
+84	4484	forurolige	foruroligende foruroliget foruroliger forurolige foruroligede
+85	4485	skulptur	skulptur skulpturer skulpturen skulpturerne
+86	4486	arbejdsløshed	arbejdsløshed arbejdsløsheden arbejdsløsheds
+87	4487	tilfældighed	tilfældighed tilfældigheder tilfældighederne tilfældigheden tilfældighedernes
+88	4488	kemikalie	kemikalier kemikalie kemikalierne kemikaliet
+89	4489	radioaktiv	radioaktivt radioaktive radioaktiv
+90	4490	væbne	væbnet væbnede væbner væbnere væbne væbneren
+91	4491	bridge	bridge bridges
+92	4492	forældet	forældet forældede
+93	4493	motivation	motivation motivationen motivationer motivations
+94	4494	lidenskab	lidenskab lidenskaben lidenskaber lidenskabens lidenskaberne
+95	4495	omgås	omgås omgikkes
+96	4496	forebygge	forebygge forebyggende forebygger forebygges forebygget
+97	4497	vandløb	vandløb vandløbet vandløbene
+98	4498	grundlov	grundloven grundlov
+99	4499	forsegle	forseglet forseglede forsegl forsegle forsegler forsegles
+100	4500	menighed	menigheden menighed menigheder menighedens

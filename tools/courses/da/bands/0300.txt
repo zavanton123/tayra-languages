@@ -1,0 +1,100 @@
+1	201	købe	købe køber købt købte køb købes købet købere køberen køberne
+2	202	sidde	sidder sidde sad sid siddende siddet sidt
+3	203	huske	huske husker husk huskede husket huskes
+4	204	aften	aften aftenen aftenens aftener aftens aftnen aftner aftenerne aftnens aftnerne
+5	205	bil	bil bilen biler bilerne bilens bils bilernes bilers
+6	206	lov	lov lover love loven lovede lovet lovende lovens lovene loves
+7	207	sikker	sikker sikre sikrer sikret sikrede sikreste sikrere sikres sikr sikrest
+8	208	mellem	mellem
+9	209	ligge	ligger lå ligge liggende ligget ligges
+10	210	morgen	morgen morges morgenen morgener morgenens morgnen morgens morgenerne
+11	211	dog	dog
+12	212	høj	høj højt højere høje højeste højest højen højene
+13	213	egen	egen eget egne egner egnedes
+14	214	dårlig	dårligt dårlig værre dårlige værste dårligere værst dårligste dårligst
+15	215	time	timer time times timers timen timerne timeren timet timede timere
+16	216	land	land landet lande landets lander landede lands landene landes landenes
+17	217	måde	måde måder måden måderne
+18	218	begynde	begynder begyndte begynde begyndt begynd begyndende begyndere begynderen begyndes
+19	219	familie	familie familien familier familiens families familierne familiers familiernes
+20	220	stille	stille stil stiller stillet stillede stilen stilles stile stilet stiles
+21	221	gud	gud guds guder guderne gudernes guden guders gudens
+22	222	føle	føler føles føle følte føltes følt føl følere føllet føleren
+23	223	nå	nå nåede nået nås
+24	224	lære	lære lærer lært lærte lærere lær lærerne læreren lærernes læren
+25	225	kalde	kalder kalde kaldte kaldes kaldt kald kaldet kaldtes kalden kaldende
+26	226	fint	fint
+27	227	hus	hus huset huse husets husene huser husede huses husenes
+28	228	uge	uge uger ugen uges ugens ugers ugerne
+29	229	grund	grund grunden grunde grundet grundene grunder grundt grundende grunds
+30	230	spørge	spørge spørger spurgte spørg spurgt spørges spørgende spørgere spørgeren
+31	231	vigtig	vigtigt vigtig vigtigste vigtige vigtigere vigtigst
+32	232	lægge	lægger læg lægge lagt lagde lægges lægt læggen læggene
+33	233	først	først
+34	234	par	par parret parrets parrene pars
+35	235	vinde	vinder vinde vandt vundet vinderen vindere vinderne vindende vindes vindens
+36	236	tidlig	tidligere tidligt tidlig tidlige tidligst tidligste
+37	237	fyr	fyr fyre fyren fyret fyrer fyrene fyrede fyres fyrs fyrens
+38	238	betyde	betyder betyde betød betydet betydende betyd
+39	239	snakke	snakke snakker snak snakkede snakket snakkes snakken snakkende
+40	240	derfor	derfor
+41	241	mest	mest
+42	242	jeres	jeres
+43	243	lyd	lyder lyd lyde lød lyden lydene lydt lydens lydende løden
+44	244	faktisk	faktisk faktiske
+45	245	næste	næste næst næstes
+46	246	bo	bor bo boede boet boende boret bos boer borene bors
+47	247	åh	åh
+48	248	virke	virker virkede virke virket virk virkende
+49	249	billede	billeder billede billedet billederne billedets billedernes billedes
+50	250	side	side sider siderne siders sides sidens
+51	251	hånd	hånd hænder hånden hænderne håndens hånds hænders
+52	252	inden	inden
+53	253	svar	svar svarer svare svaret svarede svarende svarene svareren svart svarerne
+54	254	sag	sagen sag sager sagerne sagens sags
+55	255	øje	øjne øje øjnene øjet øjets øj øjnes øjnede øjner øjen
+56	256	eneste	eneste
+57	257	ellers	ellers
+58	258	vælge	valgt valgte vælge vælger vælg vælges vælgere vælgerne vælgernes vælgeren
+59	259	spise	spise spiser spist spiste spis spises spisende spisen
+60	260	ude	ude
+61	261	søn	søn sønner søns sønnen sønnens sønnerne sønners sønnernes
+62	262	glemme	glem glemt glemte glemme glemmer glemmes glemtes
+63	263	frem	frem
+64	264	vist	vist
+65	265	rejse	rejse rejser rejste rejst rejs rejsen rejsende rejses rejserne rejsens
+66	266	dreng	dreng drenge drengen drengene drengens drengs drengenes drenges
+67	267	kamp	kamp kampen kampe kampene kampens kamps
+68	268	passe	passer passe passende passede passere passerer passerede passet passeret passes
+69	269	betale	betale betaler betalt betalte betales betal betalende betalere
+70	270	altså	altså
+71	271	sikkert	sikkert
+72	272	omkring	omkring
+73	273	allerede	allerede
+74	274	selvfølgelig	selvfølgelig selvfølgeligt selvfølgelige
+75	275	plads	plads pladser pladsen pladserne
+76	276	historie	historie historien historier historiens historierne histories
+77	277	sød	sød søde sødt sødeste sødere sødet sødest sødede sødes søder
+78	278	snart	snart snarest
+79	279	dør	dør døren døre dørene dørs dørens
+80	280	hen	hen
+81	281	glad	glad glade gladere gladeste gladest
+82	282	kigge	kigge kig kigger kiggede kigget kikker kikke kigges kiggende kiggere
+83	283	mens	mens medens
+84	284	kort	kort kortet korte kortere kortene korteste kortest kortets kortes korts
+85	285	svær	svært svær svære sværere sværeste sværest sværen
+86	286	skat	skat skatter skatten skatte skats skatterne skattene skattede skattet skattens
+87	287	bog	bog bøger bogen bøgerne bogens bogs bøgernes bøgers
+88	288	håbe	håber håbede håbe håbet håbende
+89	289	både	både bådens
+90	290	starte	starte start startede starten startet startes startende starts
+91	291	spørgsmål	spørgsmål spørgsmålet spørgsmålene
+92	292	fanden	fanden fandens
+93	293	smuk	smuk smukke smukt smukkeste smukkere smukkest
+94	294	skole	skole skolen skoler skolens skolerne skoles skolernes skolet skol skolers
+95	295	skyde	skudt skyde skød skyder skyd skydes skødet skyderen skydere skyderne
+96	296	ord	ord ordet ordene ordets ords ordenes
+97	297	mad	mad maden mads madden madder madens maddens
+98	298	skabe	skabe skaber skabt skabte skab skabet skabes skaberen skabene skabende
+99	299	begge	begge begges
+100	300	idé	idé ide ideer ideen idéer idéen ideerne idéerne ideernes ideers

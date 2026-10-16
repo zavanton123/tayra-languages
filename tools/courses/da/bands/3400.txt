@@ -1,0 +1,100 @@
+1	3301	logisk	logisk logiske
+2	3302	omgående	omgående
+3	3303	årgang	årgang årgange årgangen årgangens årgangs
+4	3304	mandskab	mandskab mandskabet mandskaber mandskabets mandskabs mandskaberne
+5	3305	forgifte	forgiftet forgiftede forgifte forgifter forgiftes forgift
+6	3306	bagside	bagsiden bagside bagsider bagsidens
+7	3307	ho	ho
+8	3308	tilhænger	tilhængere tilhænger tilhængerne tilhængernes
+9	3309	dæmpe	dæmpe dæmp dæmper dæmpet dæmpede dæmpes dæmperne dæmpere dæmperen dæmpende
+10	3310	rigdom	rigdom rigdomme rigdommen rigdommene
+11	3311	spencer	spencer spencers
+12	3312	hvorhen	hvorhen
+13	3313	synspunkt	synspunkt synspunkter synspunktet
+14	3314	erobre	erobre erobret erobrede erobrer erobreren erobrere erobres erobrende erobr
+15	3315	parlament	parlamentet parlamentets parlament parlamenter
+16	3316	ødelæggelse	ødelæggelse ødelæggelser ødelæggelsen ødelæggelserne ødelæggelsens ødelæggelses
+17	3317	forræder	forræder forrædere forræderen forræderne forræders forrædernes forræderens
+18	3318	forpligte	forpligtet forpligter forpligtede forpligte forpligtiget forpligtende
+19	3319	violet	violet violette
+20	3320	organ	organer organerne organet organernes
+21	3321	adlyde	adlyde adlyder adlød adlyd adlydt adlydes adlydende
+22	3322	massiv	massiv massivt
+23	3323	loyalitet	loyalitet loyaliteten loyaliteter loyalitets
+24	3324	pink	pink
+25	3325	friste	fristet fristende friste frister fristen fristes fristede fristedes
+26	3326	cæsar	cæsar cæsars
+27	3327	flirte	flirt flirte flirter flirtede flirtet flirtende flirten
+28	3328	montere	monteret montere monteres monterede monterer monter montér
+29	3329	returnere	returnere returnerer returneret returnerede returneres returner
+30	3330	strømer	strømer strømere strømerne strømeren strømers strømerens strømernes
+31	3331	genetisk	genetisk genetiske
+32	3332	omegn	omegn omegnen omegns omegnens
+33	3333	infektion	infektion infektioner infektionen infektionerne infektions
+34	3334	inddrage	inddrage inddraget inddrager inddrages inddrog inddrag inddragede
+35	3335	rektor	rektor rektoren rektors rektorens rektorer
+36	3336	spejder	spejder spejdere spejderne spejderen spejdernes spejderens
+37	3337	kind	kind kinder kinden kinderne kinders
+38	3338	busk	busk buske busken buskene buskede busket
+39	3339	prik	prik prikker prikken prikket prikkerne
+40	3340	redskab	redskaber redskab redskaberne redskabet
+41	3341	efternavn	efternavn efternavnet efternavne efternavnene
+42	3342	haj	haj hajer hajen hajerne hajens hajs
+43	3343	højhed	højhed højheds højheder
+44	3344	psykopat	psykopat psykopater psykopaten psykopaterne psykopatens psykopats
+45	3345	iføre	iført iføre iførte ifører ifør iføres
+46	3346	hundredvis	hundredvis hundredevis
+47	3347	hvori	hvori
+48	3348	genre	genre genrer genren genrens
+49	3349	betragter	betragter betragterens betragteren
+50	3350	almen	almen almene alment
+51	3351	overskrift	overskrift overskrifter overskriften overskrifterne
+52	3352	fastholde	fastholde fastholder fastholdt fastholdes fasthold fastholdte
+53	3353	følelsesmæssig	følelsesmæssigt følelsesmæssige følelsesmæssig
+54	3354	parkeringsplads	parkeringspladsen parkeringsplads parkeringspladser parkeringspladserne
+55	3355	tåge	tåge tågen tåget tågede tåger tågens tågerne tåg
+56	3356	arbejdskraft	arbejdskraft arbejdskraften
+57	3357	præge	præget præger præge prægede præges
+58	3358	vane	vane vaner vanes vanen vanens vanerne
+59	3359	visuel	visuel visuelle visuelt
+60	3360	skænke	skænket skænke skænker skænk skænkede skænken skænkes
+61	3361	gods	gods godset godser godsets
+62	3362	ordning	ordning ordningen ordninger
+63	3363	bronze	bronze bronzen
+64	3364	pirat	pirater pirat piraterne piraten piraternes piratens pirats
+65	3365	halløj	halløj halløjet
+66	3366	brystholder	bh brystholder brystholderen
+67	3367	køl	køl køle køler køleren kølet køles kølen kølede kølende kølere
+68	3368	sodavand	sodavand sodavanden sodavands sodavandene sodavander
+69	3369	hvorvidt	hvorvidt
+70	3370	henvisning	henvisning henvisninger henvisningen
+71	3371	grusom	grusomme grusomt grusom grusomste grusommere
+72	3372	opdagelse	opdagelse opdagelser opdagelsen opdagelses opdagelserne opdagelsens
+73	3373	ritual	ritual ritualer ritualet ritualerne ritualets
+74	3374	sommerferie	sommerferien sommerferie sommerferier
+75	3375	konstatere	konstatere konstateret konstaterede konstateres konstaterer
+76	3376	bærbar	bærbare bærbar bærbart bærbaren bærbares
+77	3377	mega	mega
+78	3378	nazist	nazisterne nazist nazister nazisternes nazisten nazists
+79	3379	buk	buk bukke bukker bukkede bukket bukken buksen bukkene buks bukkende
+80	3380	pynte	pynte pynt pynter pyntet pynten pyntede pyntes
+81	3381	kulde	kulden kulde
+82	3382	filosofi	filosofi filosofien filosofier
+83	3383	opsætte	opsat opsætte opsatte opsætter opsæt opsættes
+84	3384	dernæst	dernæst
+85	3385	fotografere	fotografere fotograferet fotograferer fotograferede fotografer fotograferes fotografér
+86	3386	tilhørende	tilhørende
+87	3387	egnet	egnet egnede
+88	3388	oplyst	oplyst oplyste
+89	3389	tegneserie	tegneserier tegneserie tegneserien tegneserierne tegneseriens
+90	3390	berøre	berørt berørte berører berøre berøres berør berørtes
+91	3391	betegnelse	betegnelsen betegnelse betegnelser
+92	3392	angiver	angiver angivere angiveren
+93	3393	adoptere	adopteret adoptere adopterede adopterer adopteres
+94	3394	supermarked	supermarked supermarkedet supermarkeder supermarkederne supermarkeds
+95	3395	blæst	blæst blæste blæsten blæstens
+96	3396	sutter	sutter sutters sutterne
+97	3397	smugle	smugle smugler smuglet smuglede smuglere smuglerne smugleren smugles smuglernes smugl
+98	3398	markedsføring	markedsføring markedsføringen markedsførings
+99	3399	centimeter	centimeter centimeters
+100	3400	infrastruktur	infrastruktur infrastrukturen infrastrukturer

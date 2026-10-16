@@ -1,0 +1,100 @@
+1	8501	intervention	intervention interventioner interventionen
+2	8502	sperm	sperm spermen sperma
+3	8503	bortrejst	bortrejst bortrejste
+4	8504	lommetørklæde	lommetørklæde lommetørklæder lommetørklædet lommetørklæderne
+5	8505	pomfrit	pomfritter pomfrit pomfritterne pomfritten
+6	8506	lærdom	lærdom lærdommen lærdommens lærdomme lærdoms
+7	8507	ernæring	ernæring ernærings
+8	8508	krønike	krøniken krønike krønikerne krøniker
+9	8509	rille	rille riller rillerne rillede rillet rillen
+10	8510	skare	skare skarer skaret skaren
+11	8511	rederi	rederiet rederier rederi rederierne
+12	8512	bekendelse	bekendelse bekendelser bekendelsen
+13	8513	klistermærke	klistermærke klistermærker klistermærket klistermærkerne
+14	8514	forret	forret forretten forretter forretterne
+15	8515	genkendelig	genkendelige genkendelig genkendeligt
+16	8516	ulidelig	ulidelig ulideligt ulidelige
+17	8517	afghansk	afghanske afghansk
+18	8518	flødeskum	flødeskum flødeskummet
+19	8519	fraråde	fraråder fraråde frarådede frarådet frarådes
+20	8520	afhjælpe	afhjælpe afhjælpes afhjælper afhjulpet afhjælpende
+21	8521	mælkeprodukt	mælkeprodukter
+22	8522	brav	brave bravt brav
+23	8523	tilkende	tilkendt tilkendes tilkende tilkender
+24	8524	universitetshospital	universitetshospital universitetshospitalet
+25	8525	rutsjebane	rutsjebane rutsjebanen rutsjebaner
+26	8526	spinat	spinat spinaten
+27	8527	upopulær	upopulære upopulær upopulært
+28	8528	hydraulisk	hydraulisk hydrauliske
+29	8529	lakrids	lakrids lakridsen lakridser lakridserne
+30	8530	spejlbillede	spejlbillede spejlbilledet spejlbilleder
+31	8531	tilskadekommet	tilskadekomne tilskadekommet
+32	8532	rigsarkiv	rigsarkivet
+33	8533	kvælning	kvælning kvælningen kvælninger
+34	8534	budding	budding buddingen
+35	8535	grum	grum grumt grummeste
+36	8536	sprængning	sprængning sprængningen sprængninger sprængnings sprængningerne
+37	8537	brudekjole	brudekjole brudekjolen brudekjoler
+38	8538	inaktiv	inaktiv inaktive inaktivt
+39	8539	mas	mas maset
+40	8540	storstilet	storstilet storstilede
+41	8541	software	softwaren
+42	8542	tørring	tørring
+43	8543	skvat	skvat skvattet
+44	8544	luftbåren	luftbårne luftbåren luftbåret luftbårent
+45	8545	hovedbestyrelse	hovedbestyrelsen hovedbestyrelse
+46	8546	danmarkshistorie	danmarkshistoriens danmarkshistorien danmarkshistorie
+47	8547	spillestil	spillestil
+48	8548	kelvin	kelvin
+49	8549	ørred	ørred ørreder ørreden ørrederne
+50	8550	jubel	jubel jublen jubelen
+51	8551	udmærke	udmærker udmærke udmærkes udmærkede
+52	8552	geometri	geometri geometrien geometriens
+53	8553	uimodståelig	uimodståelig uimodståelige uimodståeligt
+54	8554	modpart	modparten modpart modpartens modparter
+55	8555	udtømme	udtømt udtømmende udtømte udtømme udtømmer udtømmes
+56	8556	stjerneskud	stjerneskud stjerneskuddet
+57	8557	indbrudstyv	indbrudstyve indbrudstyv indbrudstyven indbrudstyvene
+58	8558	videokamera	videokamera videokameraet videokameraer videokameraerne
+59	8559	overskydende	overskydende
+60	8560	møgso	møgso møgsoen møgsøer
+61	8561	rockstjerne	rockstjerne rockstjerner rockstjernen rockstjernerne
+62	8562	folketingskandidat	folketingskandidat
+63	8563	fan	fansene fansenes
+64	8564	fortræffelig	fortræffelig fortræffeligt fortræffelige
+65	8565	altafgørende	altafgørende
+66	8566	festlighed	festlighederne festligheder festlighed
+67	8567	nedskrive	nedskrevet nedskrive nedskrev nedskriver nedskrevne nedskriv nedskrives
+68	8568	svømmetur	svømmetur svømmeturen svømmeture
+69	8569	byrum	byrum
+70	8570	sommerland	sommerland
+71	8571	følgesvend	følgesvend følgesvende følgesvenden følgesvendene
+72	8572	konsultation	konsultation konsultationen konsultationer konsultationerne
+73	8573	ugeblad	ugebladet ugeblade ugeblad ugebladene
+74	8574	styrketræning	styrketræning
+75	8575	nøjagtighed	nøjagtighed nøjagtigheden
+76	8576	kæp	kæp kæppen kæppe kæppene
+77	8577	smølf	smølf smølfer smølferne smølfs smølfernes smølfen
+78	8578	rødme	rødmer rødme rødmede rødmen rødmende rødmet
+79	8579	børnefamilie	børnefamilier
+80	8580	skråning	skråning skråninger skråningen skråningerne
+81	8581	synkronisere	synkroniseret synkronisere synkroniserer synkroniserede synkroniser synkroniseres
+82	8582	testosteron	testosteron testosteronet
+83	8583	diarré	diarré diarréen
+84	8584	udenpå	udenpå
+85	8585	aldersgruppe	aldersgruppe aldersgrupper
+86	8586	stræbe	stræbe stræbte stræbt stræbende stræb stræbet
+87	8587	globe	globe globes globen
+88	8588	flabet	flabet flabede
+89	8589	modernisere	moderniseret modernisere moderniserede moderniserer
+90	8590	fordøje	fordøje fordøjer fordøjet fordøjes fordøjede fordøj
+91	8591	breddegrad	breddegrad breddegrader breddegraden
+92	8592	målestok	målestok målestokken
+93	8593	helligdom	helligdom helligdommen helligdomme
+94	8594	snot	snot snottet snots
+95	8595	oplade	opladet oplade oplad opladt oplades opladede
+96	8596	bøsserøv	bøsserøv bøsserøve bøsserøven bøsserøvene
+97	8597	perse	pers
+98	8598	sporløs	sporløst sporløs
+99	8599	drivhus	drivhus drivhuset drivhuse drivhusene
+100	8600	dyrevelfærd	dyrevelfærd

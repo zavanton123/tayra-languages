@@ -1,0 +1,100 @@
+1	4001	ørn	ørn ørnen ørne ørnene ørnens ørns
+2	4002	indendørs	indendørs
+3	4003	målrettet	målrettet målrettede
+4	4004	oprindelse	oprindelse oprindelsen oprindelsens
+5	4005	bræt	bræt brættet brædder brædderne brætter brættets
+6	4006	overtrædelse	overtrædelse overtrædelser overtrædelsen overtrædelserne
+7	4007	solnedgang	solnedgang solnedgangen solnedgange solnedgangene solnedgangs
+8	4008	specialisere	specialiseret specialiserede specialiserer specialisere
+9	4009	videregående	videregående
+10	4010	ambitiøs	ambitiøse ambitiøs ambitiøst
+11	4011	damp	damp dampen dampe damper dampene dampende dampede dampet damperen
+12	4012	orkester	orkester orkestre orkestret orkesteret orkesterets orkestrets
+13	4013	oprigtig	oprigtigt oprigtig oprigtige oprigtigste
+14	4014	kup	kup kuppet kuppene
+15	4015	indimellem	indimellem
+16	4016	provokere	provokerende provokere provokeret provokerer provokerede provoker provokeres
+17	4017	støj	støj støjen
+18	4018	massere	massere masser masserer masserede masseret masseres
+19	4019	overbevisning	overbevisning overbevisninger overbevisningen overbevisningers
+20	4020	håndværker	håndværkere håndværker håndværkerne håndværkeren
+21	4021	pågældende	pågældende
+22	4022	afslå	afslog afslå afslået afslår afslås
+23	4023	smertefuld	smertefuldt smertefuld smertefulde
+24	4024	nyre	nyre nyrer nyrerne nyren
+25	4025	indgreb	indgreb indgrebet
+26	4026	fornærme	fornærme fornærmer fornærmende fornærmede fornærm fornærmes
+27	4027	systematisk	systematisk systematiske
+28	4028	dedikere	dedikeret dedikerede dedikere dedikerer dedikeres
+29	4029	embedsmand	embedsmænd embedsmand embedsmændene embedsmanden embedsmands
+30	4030	feje	feje fej fejer fejet fejt fejede fejes fejende fejeste
+31	4031	abort	abort aborter aborten aborterne
+32	4032	pool	poolen
+33	4033	kompromis	kompromis kompromiser kompromisser kompromiserne kompromisets
+34	4034	kriminalassistent	kriminalassistent kriminalassistenten kriminalassistenter kriminalassistenterne kriminalassistentens
+35	4035	log	logget logger logge loggen loggede loggene logges
+36	4036	demonstrere	demonstrere demonstrerer demonstrerede demonstreret demonstrer demonstreres demonstrér
+37	4037	frigøre	frigøre frigør frigjort frigøres frigjorde frigjorte frigørende
+38	4038	opbygning	opbygning opbygningen
+39	4039	israelsk	israelske israelsk
+40	4040	landevej	landevejen landevej landeveje landevejene landevejens landevejs landevejenes
+41	4041	nyhedsbrev	nyhedsbrev nyhedsbrevet nyhedsbreve
+42	4042	socialdemokrati	socialdemokratiet socialdemokratiets
+43	4043	minimum	minimum minimums
+44	4044	slør	sløret slør
+45	4045	kapital	kapital kapitalen kapitalens
+46	4046	rust	rust rusten rustne rustent rusts
+47	4047	færdighed	færdigheder færdighed færdighederne færdigheden
+48	4048	latin	latin
+49	4049	observation	observation observationer observations observationerne observationen observationens
+50	4050	besvime	besvimede besvimer besvimet besvime besvim
+51	4051	prale	prale praler pralede pralet pralende
+52	4052	iskold	iskold iskoldt iskolde
+53	4053	forståelig	forståeligt forståelig forståelige
+54	4054	bemærkelsesværdig	bemærkelsesværdigt bemærkelsesværdig bemærkelsesværdige
+55	4055	booke	booket booke bookede bookes
+56	4056	stump	stump stumper stumperne stumpen stumpt stumpe stumpet
+57	4057	læring	læring lærings
+58	4058	mistænkelig	mistænkeligt mistænkelig mistænkelige
+59	4059	ideel	ideelle ideelt ideel
+60	4060	ugentlig	ugentlige ugentlig ugentligt
+61	4061	gold	gold golde goldt goldeste
+62	4062	undervurdere	undervurderet undervurdere undervurderede undervurderer undervurder undervurdér undervurderes
+63	4063	forræderi	forræderi forræderiet forræderier forræderiets
+64	4064	nedad	nedad
+65	4065	omkomme	omkom omkommet omkommer omkomne omkomme
+66	4066	fuldkommen	fuldkommen fuldkomne fuldkomment
+67	4067	jah	jah
+68	4068	svømning	svømning svømningen
+69	4069	kronisk	kronisk kroniske
+70	4070	bedømme	bedømme bedømt bedømmer bedømmes bedøm bedømte bedømmende
+71	4071	udbyde	udbyder udbydes udbudt udbydere udbyde udbyderen udbød
+72	4072	platform	platforme platformen platformene platformens
+73	4073	gudstjeneste	gudstjeneste gudstjenesten gudstjenester gudstjenesterne
+74	4074	republik	republikken republik republikkens republiks republikker
+75	4075	brønd	brønd brønden brønde brøndene brøndens
+76	4076	pest	pest pesten pestens
+77	4077	kriterium	kriterier kriterierne kriteriet kriterium
+78	4078	geografisk	geografisk geografiske
+79	4079	tromme	trommer tromme trommerne trommen trommede trom trommens trommernes
+80	4080	høst	høst høsten høster høsterne høstens høsts
+81	4081	spytte	spytter spytte spyttede spyttet spytten spyttes spyttende
+82	4082	rist	ristet ristede rist riste risten rister ristes ristene
+83	4083	vogter	vogter vogtere vogteren vogterne vogterens vogternes
+84	4084	samtykke	samtykke samtykker samtykkende samtykkede samtykket
+85	4085	revisor	revisor revisorer revisoren revisorerne revisors revisorens
+86	4086	indkøb	indkøb indkøbene indkøbet indkøbs
+87	4087	opfange	opfanger opfange opfanget opfangede opfanges opfang
+88	4088	pulje	pulje puljen puljer
+89	4089	tavs	tavs tavse tavst
+90	4090	told	told tolden tolderne tolder toldere tolderen toldens
+91	4091	proppe	proppet propper proppe proppen proppede proppes
+92	4092	storby	storbyer storbyen storby storbyens storbyerne storbys
+93	4093	invadere	invadere invaderet invaderede invaderer invaderende invader invaderes
+94	4094	flyde	flyde flød flydt flyd
+95	4095	sulte	sulte sulter sultede sultende sultet
+96	4096	fastlægge	fastlagt fastlægge fastlægger fastlagte fastlægges fastlagde
+97	4097	fjer	fjer fjerene fjeren fjers
+98	4098	godkendelse	godkendelse godkendelsen godkendelser godkendelses
+99	4099	sæbe	sæbe sæben sæber sæbet sæb sæbede
+100	4100	argumentere	argumentere argumenter argumenterer argumenterede argumenterende argumenteret

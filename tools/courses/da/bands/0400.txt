@@ -1,0 +1,100 @@
+1	301	minut	minutter minut minutters minuttet minuts minutterne
+2	302	person	person personer personen personerne persons personens personers personernes
+3	303	forskellig	forskellige forskellig forskelligt
+4	304	senere	senere
+5	305	område	området område områder områdets områderne områdes områders
+6	306	unge	unge unger ungerne ungen unges ungernes ungens ungers
+7	307	måned	måneder måned måneden måneders måneds månedens månederne
+8	308	næsten	næsten
+9	309	behøve	behøver behøvede behøves behøvet behøve behøvedes behøv
+10	310	handle	handler handle handlede handlet handlen handlende handles handlerne handlere handl
+11	311	bede	beder bede bed bedt bedes bedte bedende bedet bedene beds
+12	312	hedde	hedder hedde heddet
+13	313	ende	ende ender endte enden endt enderne enders
+14	314	fortsætte	fortsætter fortsætte fortsat fortsæt fortsatte fortsættes fortsættende
+15	315	fejl	fejl fejler fejlen fejlede fejle fejlet fejlene fejlende
+16	316	sen	sent seneste senest sen sene sener senerne senen
+17	317	ligesom	ligesom lissom
+18	318	hente	hente henter hent hentet hentede hentes
+19	319	fantastisk	fantastisk fantastiske
+20	320	fri	fri frit frie friede frier friet fries friere frieste frierne
+21	321	politi	politiet politi politiets politis
+22	322	åbne	åbne åbner åbn åbnede åbnet åbnes åbnedes åbneren åbnende
+23	323	engang	engang
+24	324	stærk	stærk stærkt stærke stærkere stærkeste stærkest
+25	325	fem	fem
+26	326	fire	fire firer fir fireren fires firere firede firet
+27	327	kommune	kommune kommunen kommuner kommunerne kommunens kommunes kommunernes
+28	328	job	job jobbet jobs jobbene jobbets
+29	329	samt	samt
+30	330	leder	leder ledere lederen lederne leders lederens lederes ledernes
+31	331	videre	videre
+32	332	indtil	indtil
+33	333	bag	bag bage bagt bagte bagenden bagende bages bagen bags
+34	334	heller	heller
+35	335	falde	faldt falder falde faldet faldende faldne falden
+36	336	vand	vand vandet vande vandets vands vander vandene vandede vandes vandenes
+37	337	hinanden	hinanden hinandens
+38	338	hård	hårdt hård hårde hårdere hårdeste hårdest
+39	339	masse	masse masser massen masserne massernes masses massens massers
+40	340	ændre	ændre ændret ændrer ændrede ændres ændredes ændr ændrende
+41	341	hurtigt	hurtigt
+42	342	redde	redde red reddede reddet redder reddes redderne reddere redderen redden
+43	343	miste	mistede mistet mister miste mist mistes
+44	344	hoved	hovedet hoved hoveder hovederne hovede hovedets
+45	345	rundt	rundt
+46	346	plan	plan planer planen planerne planens plans
+47	347	tæt	tæt tættere tætte tætteste tættest tætter
+48	348	alene	alene
+49	349	flot	flot flotte flotteste flottere flottest flotter flottede flottet
+50	350	rolig	rolig roligt rolige roligere roligste
+51	351	flytte	flytte flytter flyttet flyttede flyt flyttes flytten
+52	352	gift	gift gifte giftes giftede gifter giftet giften giftene giftens gifts
+53	353	nødt	nødt
+54	354	kæmpe	kæmpe kæmper kæmpede kæmpet kæmp kæmpende kæmpen kæmpere kæmperne kæmpes
+55	355	nat	nat natten nætter nattens nats nætterne nætters
+56	356	fuld	fuld fulde fuldt fuldere fuldeste fulder
+57	357	blandt	blandt
+58	358	film	film filmen filmene filmens films
+59	359	søge	søger søge søgte søges søg søgt søgen søgende søgeren søgere
+60	360	slags	slags slagsen
+61	361	løb	løb løbet løbene løbets løbs
+62	362	ramme	ramt rammer ramte ramme ram rammes rammerne rammen rammende ramtes
+63	363	fast	fast faste faster fasten fastere fastende fastet fastede fasters
+64	364	hvornår	hvornår
+65	365	vende	vender vende vendte vend vendt vendes venden vendende
+66	366	mål	mål målet målene målets måls
+67	367	jord	jorden jord jordens jorder jorde jordet jords jordede jordene jorderne
+68	368	forsøge	forsøger forsøgte forsøge forsøgt forsøges
+69	369	valg	valg valget valgene valgets
+70	370	færdig	færdig færdige færdigt
+71	371	kone	kone konen koner kones konens konerne konernes koners
+72	372	øjeblik	øjeblik øjeblikket øjeblikke øjebliks øjeblikkets øjeblikkene øjeblikkes
+73	373	bad	bad badet bade brusebad bader badede badene badende bades brusebadene
+74	374	sove	sove sover sov sovet sovende soves
+75	375	datter	datter døtre datters datteren datterens døtrene døtres
+76	376	trække	trække trækker trak trukket trækkes trukne trækken trækkende trækkeren
+77	377	ofte	ofte oftest oftere
+78	378	tur	tur turen ture turene turens turede
+79	379	skyld	skyld skylden skyldens
+80	380	dejlig	dejligt dejlig dejlige dejligste dejligere dejligst deilig
+81	381	ond	ondt ond værre værste værst ondeste ondere
+82	382	imod	imod
+83	383	sand	sandt sand sande sandet sands sander sandeste sandede sandere sandets
+84	384	bange	bange
+85	385	forhold	forhold forholdet forholdene forholds forholdets forholdenes
+86	386	fatte	fat fatter fatte fattet fattede fattes fatters
+87	387	bror	bror brødre brødrene brors broren brødrenes brødres brorens
+88	388	tv	tv
+89	389	nær	nær nærmest nærmere nærmeste nære nært nærer nærede nærende næret
+90	390	let	let lettere lette letter lettet lettede letteste lettest letters lets
+91	391	lav	laver lavet lavere lavt laveste lav lavest laverne
+92	392	pris	pris prisen priser priserne
+93	393	forlade	forlade forlod forlader forladt forlad forladte forlades
+94	394	nummer	nummer numre nummeret numrene numret nummers
+95	395	fange	fange fanget fanger fangede fangerne fang fangen fanges fangens fangernes
+96	396	orden	orden ordner ordens ordenen ordnen ordenens ordener ordnens
+97	397	ked	ked keder kede kedede kedet kedes
+98	398	særlig	særlig særligt særlige
+99	399	stykke	stykke stykker stykket styk stykkerne styks stykkede stykkets stykkes
+100	400	drikke	drikke drikker drik drak drukket drikken drikkes drikkende drukken

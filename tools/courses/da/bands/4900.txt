@@ -1,0 +1,100 @@
+1	4801	udyr	udyret udyr udyrets udyrene
+2	4802	romantik	romantik romantikken romantikker romantikkens
+3	4803	tyngdekraft	tyngdekraften tyngdekraft tyngdekraftens tyngdekrafts
+4	4804	save	save sav saven saver savede savet savene
+5	4805	spade	spade spader spaden spaderne
+6	4806	nærliggende	nærliggende
+7	4807	stresse	stressende stresser stresse stressede stresset stres
+8	4808	håndfuld	håndfuld håndfulde
+9	4809	alfa	alfa alfaer alfaerne
+10	4810	praktikant	praktikant praktikanter praktikanten praktikanterne praktikants
+11	4811	tyggegummi	tyggegummi tyggegummiet
+12	4812	socialdemokratisk	socialdemokratiske socialdemokratisk
+13	4813	folkekirke	folkekirken folkekirkens folkekirke
+14	4814	mursten	mursten murstenene murstenen
+15	4815	ideologi	ideologi ideologier ideologien
+16	4816	comeback	comeback comebacks comebacket
+17	4817	omdømme	omdømme omdømmet
+18	4818	heppe	hepper heppe hep heppede heppet heppende
+19	4819	talrig	talrige talrig
+20	4820	tegnefilm	tegnefilm tegnefilmen tegnefilms tegnefilmene
+21	4821	foregive	foregiver foregive foregav foregiv foregivet foregivende
+22	4822	import	import importen imports importer
+23	4823	medtage	medtaget medtage medtages medtager medtagne medtog medtagede
+24	4824	hjemland	hjemland hjemlandet hjemlands hjemlandets hjemlande
+25	4825	netto	netto
+26	4826	forestå	forestående forestå forestår forestod forestået
+27	4827	korporal	korporal korporalen korporaler korporalens korporalerne
+28	4828	særdeleshed	særdeleshed
+29	4829	mineral	mineraler mineral mineralerne mineralet
+30	4830	industriel	industrielle industriel industrielt
+31	4831	deri	deri
+32	4832	beskyde	beskudt beskyder beskyde beskød beskyd beskydes
+33	4833	kvartfinale	kvartfinalen kvartfinale kvartfinalerne
+34	4834	tøsedreng	tøsedreng tøsedrenge tøsedrengen tøsedrengene
+35	4835	skovl	skovl skovle skovlen skovler skovlede skovlene skovlet skovles
+36	4836	agere	agere agerer agerede ageret ager ageren agre
+37	4837	gryde	gryde gryden gryder gryderne
+38	4838	herved	herved
+39	4839	pressemeddelelse	pressemeddelelse pressemeddelelsen pressemeddelelser pressemeddelelserne
+40	4840	folkeafstemning	folkeafstemning folkeafstemningen
+41	4841	komiker	komiker komikeren komikere komikerne komikernes
+42	4842	ugle	ugle ugler uglen uglet uglerne uglernes uglens
+43	4843	rationel	rationel rationelt rationelle
+44	4844	uacceptabel	uacceptabelt uacceptabel uacceptable
+45	4845	superhelt	superhelt superhelte superhelten superheltene superheltenes
+46	4846	skaldet	skaldet skaldede
+47	4847	lægemiddel	lægemidler lægemiddel lægemidlet lægemidlerne
+48	4848	kontinent	kontinent kontinenter kontinentet kontinenterne kontinentets kontinenternes
+49	4849	tømmermænd	tømmermænd tømmermændene tømmermænds
+50	4850	forbillede	forbillede forbilleder forbilledet
+51	4851	hæfte	hæfte hæfter hæftet hæftede hæfterne hæft
+52	4852	taknemmelighed	taknemmelighed taknemlighed taknemmeligheden taknemligheden
+53	4853	kostbar	kostbar kostbare kostbart kostbareste
+54	4854	valgkamp	valgkampen valgkamp valgkampe valgkampens
+55	4855	forvaltning	forvaltning forvaltningen forvaltninger
+56	4856	fremfor	fremfor
+57	4857	opringning	opringning opringninger opringningen opringningerne
+58	4858	ombestemme	ombestemt ombestemmer ombestemme ombestemte ombestem
+59	4859	opfostre	opfostret opfostre opfostrede opfostrer opfostres
+60	4860	fremføre	fremføre fremført fremfører fremførte fremføres fremfør
+61	4861	afhøring	afhøring afhøringen afhøringer afhøringerne
+62	4862	antibiotikum	antibiotika antibiotikum antibiotikummet antibiotikaene
+63	4863	håndtering	håndtering håndteringen håndterings
+64	4864	tremme	tremmer tremmerne tremme
+65	4865	moster	moster mosters mostre mosteren mostrene
+66	4866	assistere	assistere assisterende assisteret assisterer assisterede assisteres assister
+67	4867	heriblandt	heriblandt
+68	4868	ninja	ninja ninjaer ninjas ninjaen ninjaerne
+69	4869	interiør	interiør interiøret interiører
+70	4870	dominans	dominans dominansen
+71	4871	smykke	smykke smykkerne smykket
+72	4872	politifolk	politifolk politifolkene politifolks
+73	4873	stok	stok stokken stokke stokkene
+74	4874	ekskone	ekskone ekskonen ekskoner ekskones ekskonens
+75	4875	rune	rune runer runerne runen
+76	4876	æsel	æsel æsler æslet æslerne æselet æsels æslets
+77	4877	benægter	benægter
+78	4878	kløft	kløften kløft kløfter kløfterne kløftens
+79	4879	blyant	blyant blyanter blyanten blyanterne
+80	4880	gummi	gummi gummiet
+81	4881	genoprette	genoprette genoprettet genopretter genoprettes genopret genoprettede
+82	4882	årrække	årrække
+83	4883	albue	albue albuen albuer albuerne
+84	4884	dokumentation	dokumentation dokumentationen
+85	4885	faxe	faxe faxede faxet
+86	4886	socialistisk	socialistiske socialistisk
+87	4887	gebyr	gebyr gebyrer gebyret gebyrerne
+88	4888	kunstværk	kunstværker kunstværk kunstværkerne kunstværket
+89	4889	tygge	tygge tygger tyg tyggede tygget tygges
+90	4890	panel	panel panelet paneler panelerne
+91	4891	eksklusiv	eksklusivt eksklusiv
+92	4892	gavekort	gavekort gavekortet
+93	4893	forskrække	forskrækket forskrækkede forskrække forskrækker forskræk
+94	4894	musical	musical musicals musicalen musicaler
+95	4895	republikaner	republikanere republikaner republikanerne republikanernes republikaneren republikaneres
+96	4896	fremvise	fremvise fremviser fremvist fremviste fremvises fremviseren fremvis
+97	4897	rovdyr	rovdyr rovdyrene rovdyret rovdyrs rovdyrets rovdyrenes
+98	4898	islandsk	islandske islandsk
+99	4899	næstformand	næstformand næstformanden
+100	4900	afspille	afspiller afspil afspille afspillede afspilles afspillet afspilleren afspillere

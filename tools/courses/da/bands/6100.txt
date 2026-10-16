@@ -1,0 +1,100 @@
+1	6001	nedslag	nedslag nedslaget nedslagene
+2	6002	doven	doven dovent
+3	6003	arkæolog	arkæolog arkæologer arkæologen arkæologerne
+4	6004	julekalender	julekalender julekalenderen
+5	6005	vejleder	vejleder vejledere vejlederen vejlederne
+6	6006	hydra	hydra hydras hydraen hydraens
+7	6007	tidslinje	tidslinje tidslinjen tidslinjer tidslinjerne
+8	6008	jade	jade jaden jadens
+9	6009	afkom	afkom afkommet afkoms
+10	6010	overhale	overhalet overhale overhalede overhaler overhal overhales
+11	6011	polo	polo poloen
+12	6012	afbrydelse	afbrydelse afbrydelser afbrydelsen afbrydelserne
+13	6013	demens	demens demensen
+14	6014	håndskrift	håndskrift håndskriften håndskrifter
+15	6015	midtbanespiller	midtbanespiller midtbanespilleren
+16	6016	dankort	dankort dankortet
+17	6017	forespørgsel	forespørgsel forespørgsler forespørgslen forespørgslerne
+18	6018	jobsamtale	jobsamtale jobsamtalen jobsamtaler jobsamtalerne
+19	6019	kundskab	kundskab kundskaber kundskabens kundskaben
+20	6020	login	login
+21	6021	idiotisk	idiotisk idiotiske
+22	6022	aksel	aksel akslen aksler akslerne aksels akselen
+23	6023	afvigelse	afvigelse afvigelser afvigelsen afvigelserne
+24	6024	lungebetændelse	lungebetændelse
+25	6025	gartner	gartner gartneren gartnere gartnerens gartnerne gartners
+26	6026	knæle	knæl knæle knæler knælede knælende knæleren knælerens knælen knælet
+27	6027	rim	rim rimene rimet
+28	6028	kaotisk	kaotisk kaotiske
+29	6029	forvandling	forvandling forvandlingen forvandlinger forvandlingerne forvandlings
+30	6030	visitkort	visitkort visitkortet
+31	6031	sydvest	sydvest sydvesten sydvestens
+32	6032	øjenvidne	øjenvidne øjenvidner øjenvidnet øjenvidnerne øjenvidnets øjenvidnernes
+33	6033	bule	bule bulet bulede
+34	6034	tømrer	tømrer tømreren tømrere tømrerne tømrers
+35	6035	reflektere	reflekterer reflektere reflekterende reflekteres reflekteret reflekterede reflekter
+36	6036	fornærmelse	fornærmelse fornærmelser fornærmelsen fornærmelserne
+37	6037	cubansk	cubanske cubansk
+38	6038	komponist	komponist komponister komponisten komponisterne
+39	6039	hyle	hyler hyle hylede hyl hylet hylen hylere hyles hylene hyleren
+40	6040	erfare	erfaret erfarede erfarer erfare erfor erfar
+41	6041	ulejlighed	ulejligheden ulejlighed
+42	6042	bageri	bageri bageriet bagerier
+43	6043	opdigtet	opdigtet opdigtede
+44	6044	finans	finans
+45	6045	opsætning	opsætning opsætningen opsætninger
+46	6046	graf	graf grafer grafen graferne
+47	6047	pressemøde	pressemøde pressemødet pressemøder
+48	6048	konvertere	konvertere konverteret konverterede konverterer konverter konverteres
+49	6049	abstrakt	abstrakt abstrakte
+50	6050	kult	kult kulten kulter kults
+51	6051	vejrtrækning	vejrtrækning vejrtrækningen vejrtrækninger
+52	6052	spirituel	spirituelle spirituel spirituelt
+53	6053	symbolsk	symbolsk symbolske
+54	6054	fyrtårn	fyrtårn fyrtårnet fyrtårne
+55	6055	opsigelse	opsigelse opsigelser opsigelsen
+56	6056	stiftstidende	stiftstidende
+57	6057	prøvelse	prøvelse prøvelser prøvelserne prøvelsen
+58	6058	medina	medina medinas
+59	6059	tjenestepige	tjenestepige tjenestepigen tjenestepiger tjenestepigerne tjenestepigens tjenestepiges
+60	6060	berømthed	berømtheder berømthed berømthederne berømtheden berømtheds berømtheders berømthedernes
+61	6061	regnvejr	regnvejr regnvejret regnvejrs
+62	6062	ungarsk	ungarsk ungarske
+63	6063	brunch	brunch brunchen
+64	6064	udskille	udskiller udskilles udskille udskilt udskilte udskil
+65	6065	klit	klit klitterne klitter klitten
+66	6066	venstreorienteret	venstreorienterede venstreorienteret
+67	6067	uvis	uvist uvisse uvis
+68	6068	eksmand	eksmand eksmanden eksmands eksmænd
+69	6069	udholde	udholde udholdende udholdt udholder udholdte udhold udholdes
+70	6070	umage	umage umagen
+71	6071	egyptisk	egyptiske egyptisk
+72	6072	frimærke	frimærker frimærke frimærket frimærkerne
+73	6073	onanere	onanere onanerer onanerede onaneret onanerende onaner
+74	6074	minoritet	minoriteter minoritet minoriteterne minoriteten
+75	6075	salme	salmer salme salmernes salmerne salmen
+76	6076	reklamere	reklamerer reklamere reklamer reklamerede reklameret
+77	6077	klynge	klynger klynge klynget klyng klyngede klyngen klynges klyngerne klyngende
+78	6078	besætte	besætte besætter besættes besatte besætterne besættere besæt besættende
+79	6079	chefredaktør	chefredaktør chefredaktøren
+80	6080	boligområde	boligområde boligområder boligområdet
+81	6081	hjemby	hjemby hjembyen hjembyer hjembys
+82	6082	slåskamp	slåskamp slåskampe slåskampen slåskampene
+83	6083	konvoj	konvoj konvojen konvojer konvojerne konvojens
+84	6084	kabine	kabinen kabine kabiner kabinerne
+85	6085	hovedkontor	hovedkontoret hovedkontor hovedkontorets
+86	6086	computerspil	computerspil computerspillet
+87	6087	skøge	skøge skøger skøgen skøgerne skøges skøgernes skøgens
+88	6088	elektromagnetisk	elektromagnetisk elektromagnetiske
+89	6089	budbringer	budbringer budbringeren budbringere budbringerne budbringernes
+90	6090	komet	komet kometen kometer kometerne kometens
+91	6091	forstørre	forstørret forstørre forstør forstørrede forstørrer forstørres
+92	6092	kvadratmeter	kvadratmeter
+93	6093	cancer	cancer canceren
+94	6094	blowjob	blowjob blowjobs blowjobbet
+95	6095	testikel	testikler testikel testiklerne testiklen
+96	6096	buffet	buffet buffeten buffeter
+97	6097	videospil	videospil videospillet videospillene
+98	6098	bluffe	bluffer bluffede bluffe bluffet
+99	6099	faglighed	faglighed fagligheden
+100	6100	browser	browser browseren browsere

@@ -1,0 +1,100 @@
+1	9801	ståsted	ståsted
+2	9802	nedstamme	nedstammer nedstammede nedstamme
+3	9803	svindelnummer	svindelnummer svindelnummeret svindelnumre
+4	9804	kødædende	kødædende
+5	9805	berede	bered beredte berede beredne bereder
+6	9806	plapre	plaprer plapre plaprede plapren plaprende plapret
+7	9807	bryllupsnat	bryllupsnat bryllupsnatten bryllupsnætter
+8	9808	ordret	ordret
+9	9809	tvangsauktion	tvangsauktion tvangsauktioner tvangsauktions
+10	9810	kolesterol	kolesterol kolesterolet
+11	9811	kebab	kebab kebabs kebabben
+12	9812	jolle	jolle jollen joller
+13	9813	postnummer	postnummer postnummeret postnumre
+14	9814	vaccination	vaccination vaccinationer vaccinationerne vaccinationen
+15	9815	kønsdel	kønsdele kønsdelene kønsdel
+16	9816	tæthed	tæthed tætheden
+17	9817	vedhæng	vedhæng vedhænget
+18	9818	kolera	kolera koleraen koleraens
+19	9819	mademoiselle	mademoiselle mademoiselles
+20	9820	juleleg	julelege julelegene juleleg
+21	9821	vaskemaskine	vaskemaskinen vaskemaskine vaskemaskiner vaskemaskinerne
+22	9822	førstedame	førstedamen førstedame førstedamens førstedamerne førstedamer
+23	9823	tærskel	tærsklen tærskel tærskelen
+24	9824	hjemmearbejde	hjemmearbejde hjemmearbejdet
+25	9825	horisontal	horisontale horisontal horisontalt
+26	9826	nikotin	nikotin nikotinen
+27	9827	selvbiografi	selvbiografi selvbiografien selvbiografier
+28	9828	transvestit	transvestit transvestitter transvestitten transvestitterne
+29	9829	stivhed	stivhed stivheden
+30	9830	hovedregel	hovedregel hovedreglen
+31	9831	rituel	rituelle rituel rituelt
+32	9832	elm	elm elms
+33	9833	stativ	stativ stativet stativerne stativer
+34	9834	spotte	spottede spotte spottet spottende spotten
+35	9835	harme	harme harm harmes harms harmen
+36	9836	benægtelse	benægtelse benægtelser benægtelsen
+37	9837	havbund	havbunden havbund
+38	9838	hjerteskærende	hjerteskærende
+39	9839	regiment	regimentet regimenter regimentets regimenterne
+40	9840	kruse	kruse kruset kruser krusede
+41	9841	anmelderrost	anmelderroste
+42	9842	mangfoldig	mangfoldige mangfoldig
+43	9843	stime	stime stimer stimen stimens
+44	9844	brudgom	brudgommen brudgom brudgommens brudgomme brudgommene
+45	9845	spisetid	spisetid spisetider spisetiderne spisetiden
+46	9846	bov	bov boven
+47	9847	golfklub	golfklub golfklubben golfklubber
+48	9848	fadervor	fadervor
+49	9849	skiløb	skiløb
+50	9850	lovovertrædelse	lovovertrædelser lovovertrædelse lovovertrædelsen
+51	9851	højtidelig	højtideligt højtidelige højtidelig
+52	9852	karry	karry karryen
+53	9853	vindrue	vindruer vindrue vindruerne
+54	9854	rumpe	rumpen rumpe rumper
+55	9855	kastrere	kastreret kastrere kastrerer kastrerede kastreres kastrerende kastrer
+56	9856	djævelsk	djævelsk djævelske
+57	9857	indramme	indrammet indramme indrammer indrammede
+58	9858	kædereaktion	kædereaktion kædereaktionen
+59	9859	underslæb	underslæb underslæbet
+60	9860	terapeutisk	terapeutisk terapeutiske
+61	9861	ligegyldighed	ligegyldighed ligegyldigheder ligegyldigheden
+62	9862	indlevere	indleveret indlevere indleverer indleverede indleveres
+63	9863	trækfugl	trækfugle trækfugl
+64	9864	karburator	karburator karburatoren karburatorer
+65	9865	calcium	calcium kalcium
+66	9866	automatisering	automatisering
+67	9867	gnom	gnom gnomer gnomen gnomerne
+68	9868	uvirkelig	uvirkeligt uvirkelig uvirkelige
+69	9869	irrationel	irrationel irrationelt irrationelle
+70	9870	isbjerg	isbjerget isbjerg isbjerge isbjergene
+71	9871	eskimo	eskimo eskimoer eskimoerne eskimoernes eskimoen
+72	9872	opsendelse	opsendelse opsendelsen opsendelser
+73	9873	elfenben	elfenben elfenbenet elfenbens
+74	9874	vildkat	vildkat vildkatte vildkatten
+75	9875	indbegreb	indbegrebet
+76	9876	generisk	generisk generiske
+77	9877	uvildig	uvildig uvildige
+78	9878	bankerot	bankerot bankerotter
+79	9879	beholdning	beholdning beholdningen beholdninger beholdningerne
+80	9880	horeunge	horeunge horeunger horeungen horeunges
+81	9881	brændemærke	brændemærker brændemærke brændemærket brændemærkede brændemærkerne brændemærkes brændemærk
+82	9882	projicere	projicere projicerer projicerede projicer projiceret projiceres
+83	9883	tjenesteydelse	tjenesteydelser tjenesteydelse
+84	9884	optagelsesprøve	optagelsesprøve optagelsesprøven optagelsesprøver optagelsesprøverne
+85	9885	udlægning	udlægning udlægninger
+86	9886	lavendel	lavendel lavendler
+87	9887	forcere	forcere forceret forcerer forcerede forceres forcer
+88	9888	stenalder	stenalderen stenalder
+89	9889	kronologisk	kronologisk kronologiske
+90	9890	vegetation	vegetation vegetationen
+91	9891	manicure	manicure manicuren
+92	9892	kapitalistisk	kapitalistiske kapitalistisk
+93	9893	centrere	centreret centrerer centrere
+94	9894	nyskabe	nyskabende
+95	9895	konstituere	konstitueret konstituerende konstituerede konstituerer
+96	9896	mindesmærke	mindesmærke mindesmærket mindesmærker
+97	9897	beklagelse	beklagelse beklagelser
+98	9898	æresord	æresord
+99	9899	myrekryb	myrekryb
+100	9900	sociopat	sociopat sociopater sociopaten

@@ -1,0 +1,100 @@
+1	7001	genføde	genfødt genfødes genfødte genføder
+2	7002	kejserinde	kejserinde kejserinden kejserindens kejserindes
+3	7003	nyuddannet	nyuddannede nyuddannet
+4	7004	marv	marv marven marvs
+5	7005	fortrænge	fortrænge fortrængt fortrænger fortrængte fortrænges fortræng
+6	7006	krigsforbrydelse	krigsforbrydelser krigsforbrydelse
+7	7007	eksklusive	eksklusive
+8	7008	kapitalisme	kapitalisme kapitalismen kapitalismens
+9	7009	spektrum	spektrum spektret spektrummet spektre
+10	7010	gips	gips gipsen
+11	7011	tuborg	tuborg
+12	7012	rynke	rynker rynke rynkede rynkerne rynk rynken
+13	7013	hypotetisk	hypotetisk hypotetiske
+14	7014	tumor	tumor tumorer tumoren tumorerne tumorens
+15	7015	afhente	afhente afhentet afhentes afhenter afhentede afhent
+16	7016	kikse	kiksede kikset kikse kiksen
+17	7017	anatomi	anatomi anatomien
+18	7018	kortspil	kortspil kortspillet
+19	7019	hengiven	hengiven hengivne hengivent
+20	7020	tilfredsstillelse	tilfredsstillelse tilfredsstillelsen
+21	7021	grænseoverskridende	grænseoverskridende
+22	7022	instans	instans instanser
+23	7023	montage	montage montagen
+24	7024	næstkommanderende	næstkommanderende næstkommanderendes
+25	7025	spinkel	spinkle spinkel spinkelt
+26	7026	diktatur	diktatur diktaturer diktaturet diktaturets
+27	7027	ditto	ditto
+28	7028	tilbygning	tilbygning tilbygninger tilbygningen
+29	7029	uberørt	uberørt uberørte
+30	7030	skrammel	skrammel skramlet
+31	7031	østrigsk	østrigske østrigsk
+32	7032	kontaktperson	kontaktperson kontaktpersonen kontaktpersoner kontaktpersonerne
+33	7033	luftrum	luftrum luftrummet
+34	7034	væmmelig	væmmeligt væmmelige væmmelig
+35	7035	fremtræde	fremtræder fremtræden fremtræde
+36	7036	anyway	anyway
+37	7037	optimisme	optimisme optimismen
+38	7038	persisk	persiske persisk
+39	7039	dynamik	dynamik dynamikken
+40	7040	strukturel	strukturelle strukturel strukturelt
+41	7041	blokade	blokade blokaden blokader blokaderne
+42	7042	skudsår	skudsår skudsåret skudsårene
+43	7043	parforhold	parforholdet parforhold
+44	7044	grundskole	grundskole grundskolen grundskoler
+45	7045	unødig	unødigt unødig unødige
+46	7046	forsigtighed	forsigtighed forsigtigheden
+47	7047	hil	hil
+48	7048	okse	okse okser oksen okserne oksens
+49	7049	nedtrykt	nedtrykt nedtrykte
+50	7050	privilegeret	privilegeret privilegerede
+51	7051	udvælgelse	udvælgelse udvælgelsen udvælgelses
+52	7052	afhentning	afhentning afhentningen afhentninger
+53	7053	tsk	tsk
+54	7054	humanitær	humanitære humanitær humanitært
+55	7055	uagtet	uagtet
+56	7056	skrifte	skrifte skrifter skriften skriftede skriftet
+57	7057	lotteri	lotteri lotteriet lotterier
+58	7058	flyvemaskine	flyvemaskine flyvemaskiner flyvemaskinen flyvemaskinerne
+59	7059	vedtagelse	vedtagelse vedtagelsen vedtagelser
+60	7060	filippiner	filippinerne filippinere filippiner
+61	7061	håndlanger	håndlangere håndlanger håndlangerne håndlangeren
+62	7062	uregelmæssig	uregelmæssig uregelmæssige uregelmæssigt
+63	7063	forkølelse	forkølelse forkølelsen forkølelser
+64	7064	legal	legal legalt legale
+65	7065	indbefatte	indbefatter indbefattet indbefattede indbefatte
+66	7066	vildlede	vildledende vildledt vildlede vildledte vildleder
+67	7067	drabsafdeling	drabsafdelingen drabsafdeling drabsafdelingens
+68	7068	reportage	reportage reportager reportagen
+69	7069	blodprop	blodprop blodpropper blodproppen
+70	7070	svigerinde	svigerinde svigerindes svigerinden svigerinder
+71	7071	styrbord	styrbord
+72	7072	krigsskib	krigsskib krigsskibe krigsskibet krigsskibene
+73	7073	omvej	omvej omveje omvejen
+74	7074	koffein	koffein koffeinen
+75	7075	bug	bug bugs bugen buggen buge
+76	7076	højtstående	højtstående
+77	7077	københavner	københavnere københavner københavnerne
+78	7078	lokalsamfund	lokalsamfundet lokalsamfund lokalsamfundets lokalsamfundene
+79	7079	neutralisere	neutralisere neutraliseret neutraliserer neutraliseres neutraliser neutraliserede
+80	7080	udadtil	udadtil
+81	7081	fersken	fersken ferskner ferskener ferskenen fersknerne ferskenerne
+82	7082	rubin	rubin rubiner rubinen rubinerne
+83	7083	mytologi	mytologi mytologien
+84	7084	notesbog	notesbog notesbøger notesbogen notesbøgerne
+85	7085	datterselskab	datterselskab datterselskaber datterselskaberne datterselskabet
+86	7086	grusomhed	grusomhed grusomheder grusomhederne grusomheden
+87	7087	kæle	kæle kæler kælede kæl kælen kælet kælne kælent kæles
+88	7088	stueetage	stueetagen stueetage
+89	7089	bæver	bæver bævere bæveren bæverne bævers bæverens
+90	7090	publikation	publikationer publikation
+91	7091	belejring	belejring belejringen belejringer belejringens
+92	7092	pedel	pedel pedellen pedeller pedellens pedellerne pedels
+93	7093	avle	avle avlet avlede avles avlen
+94	7094	klistre	klistret klistrede klistrer klistre klistres klistrende
+95	7095	bajer	bajer bajere bajerne bajeren
+96	7096	idol	idol idoler idolet idols
+97	7097	facon	facon faconen faconer
+98	7098	ål	ål ålen ålene
+99	7099	plotte	plottet plotte
+100	7100	indbyde	indbudt indbydende indbyder indbød indbyde indbudte indbydes indbyd

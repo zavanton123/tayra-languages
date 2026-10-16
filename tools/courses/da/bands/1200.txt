@@ -1,0 +1,100 @@
+1	1101	sø	søen sø søs søer søerne søens søernes søers
+2	1102	august	august augusts
+3	1103	derinde	derinde
+4	1104	falsk	falsk falske falskt
+5	1105	organisation	organisation organisationer organisationen organisationens organisations organisationerne
+6	1106	ankomme	ankom ankommer ankommet ankomme ankommende ankomne
+7	1107	test	test tester testen tests testene testerne testens testere
+8	1108	scene	scenen scene scener scenerne scenens scenes
+9	1109	godnat	godnat
+10	1110	svag	svag svage svagt svagere svageste svagest
+11	1111	oktober	oktober
+12	1112	tusind	tusind tusinder
+13	1113	udstyr	udstyr udstyret udstyrs udstyrets
+14	1114	te	te teen ter teede tes teet teer teens
+15	1115	forfærdelig	forfærdeligt forfærdelig forfærdelige
+16	1116	slag	slag slaget slagene slagets
+17	1117	evig	evigt evig evige
+18	1118	tja	tja
+19	1119	skam	skam skammen skammens
+20	1120	runde	runde runder rund rundede runden runderne rundes runders
+21	1121	øre	øre ører øret ørerne ørene øren øres ørers yre
+22	1122	blad	bladet blade blad bladene bladets bladenes blades bladende blads
+23	1123	fremme	fremme fremmede fremmer fremmet fremmedes fremmende fremmes
+24	1124	hoppe	hopper hoppe hoppede hoppet hoppende hoppen hoppers hopperne hoppes hoppens
+25	1125	sejle	sejle sejler sejlede sejl sejlet sejlene sejlere sejles sejlende
+26	1126	frygte	frygter frygtede frygte frygtet frygten frygtes
+27	1127	skål	skål skåle skålen skåler skålede skålene skålet skåles
+28	1128	korrekt	korrekt korrekte
+29	1129	bagefter	bagefter
+30	1130	produkt	produkter produkt produktet produkterne produktets
+31	1131	tænde	tændt tænd tænde tændte tændes tændtes
+32	1132	skud	skud skuddet skuddene skuds
+33	1133	ledelse	ledelse ledelsen ledelsens ledelses
+34	1134	søndag	søndag søndagen søndags søndage søndagens søndagene
+35	1135	kage	kage kager kagen kagerne kagede
+36	1136	ol	ol olen
+37	1137	basere	baseret baserede baserer baseres basere
+38	1138	marked	markedet marked markeder markederne markeds markedets
+39	1139	foretrække	foretrækker foretrække foretrukne foretrak foretrukket fortrækker fortrække fortrak fortrukne foretrukken
+40	1140	fejre	fejre fejrer fejres fejret fejrede fejr
+41	1141	drink	drink drinks drinken drinksene
+42	1142	udtryk	udtryk udtrykket udtrykkene
+43	1143	konkurrence	konkurrence konkurrencen konkurrencer konkurrencens konkurrencerne
+44	1144	lufthavn	lufthavnen lufthavn lufthavne lufthavnene lufthavnens lufthavns
+45	1145	ø	øen øer øerne øens øernes
+46	1146	procent	procent procents procenter procenterne procenten
+47	1147	dyb	dyb dybere dybe dybeste dybest dybet dybets
+48	1148	vaske	vaske vasker vask vasket vasken vaskede vaskes
+49	1149	dér	dér
+50	1150	gravid	gravid gravide
+51	1151	millimeter	mm millimeter millimeters millimeteren
+52	1152	rige	rige riget rigets riger riges rigerne rigers
+53	1153	bukser	bukser bukserne buksers buksernes
+54	1154	ild	ild ilden ildens ilds
+55	1155	efterhånden	efterhånden
+56	1156	benytte	benytter benyttes benytte benyttet benyttede benyt
+57	1157	træffe	træffe truffet traf træffer træf træffes træffere træffet
+58	1158	operation	operation operationen operationer operations operationerne operationens
+59	1159	medarbejder	medarbejdere medarbejder medarbejderne medarbejdernes medarbejderen medarbejderes medarbejders
+60	1160	kollega	kollega kolleger kollegaer kollegerne kollegaerne kollegaen kollegas kollegers kollegaers kollegernes
+61	1161	blød	blød bløde bløder blødt blødte blødere blødende blødeste bløderen
+62	1162	tit	tit tiere tits
+63	1163	profil	profil profiler profilen profilerne
+64	1164	drage	drage drager drog dragen drag draget drages dragerne dragens dragende
+65	1165	naturlig	naturligt naturlige naturlig naturligste
+66	1166	risiko	risiko risikoen risici risiciene risikoer risikoerne
+67	1167	frihed	frihed friheden frihedens friheder friheds
+68	1168	ed	ed eden eders eder edens eds
+69	1169	absolut	absolut absolutte
+70	1170	nar	nar narre narret narrede narrer narren narres narrens nars narrene
+71	1171	doktor	doktor doktoren doktorens doktorer doktorerne doktors
+72	1172	gennemføre	gennemført gennemføre gennemførte gennemføres gennemfører gennemfør
+73	1173	hænger	hænger
+74	1174	digital	digital digitale digitalt
+75	1175	binde	bind binde binder bundet bandt bindende bindes bindet bundne bindene
+76	1176	omgang	omgang omgange omgangen omgangs
+77	1177	skylde	skylder skyldte skylde skylden skyldtes skyldt
+78	1178	fugl	fugle fugl fuglen fuglene fuglenes fugls fuglens fugles
+79	1179	sport	sport sporten sportens
+80	1180	bryllup	bryllup brylluppet bryllupper bryllups brylluppets bryllupperne
+81	1181	adresse	adresse adressen adresser adresserne
+82	1182	efterfølgende	efterfølgende
+83	1183	emne	emne emner emnet emnerne emnets emnes
+84	1184	gulv	gulvet gulv gulve gulvene gulvets
+85	1185	åbenbart	åbenbart
+86	1186	afgøre	afgjort afgøre afgør afgøres afgjorde afgjorte
+87	1187	værk	værk værker værket værkerne værks værkets
+88	1188	radio	radio radioen radioer radioerne radioens radios
+89	1189	studie	studiet studie studier studierne studies studiets
+90	1190	bryst	bryster brystet bryst brysterne brystets
+91	1191	rig	rig rigt rigeste rigere riggen rigget rigge rigs rigest
+92	1192	le	le lo ler les leret leen leet leer leende loen
+93	1193	indlægge	indlæg indlagt indlægget indlægges indlægge indlagte indlagde indlægger indlæggene
+94	1194	hals	halsen hals halse halser halsens halsene halsende
+95	1195	handling	handling handlinger handlingen handlingerne handlingens handlings handlingers
+96	1196	begyndelse	begyndelsen begyndelse begyndelser begyndelserne
+97	1197	væg	væggen væg væggene vægge vægs væggens
+98	1198	overalt	overalt
+99	1199	forberede	forberedt forberede forbereder forbered forberedte forberedende forberedes
+100	1200	bold	bolden bold bolde boldene boldt boldens

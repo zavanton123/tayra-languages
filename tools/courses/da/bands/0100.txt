@@ -1,0 +1,100 @@
+1	1	være	er var være været vær ere værende est væren væres
+2	2	jeg	jeg mig jeger jeget jæ jegs
+3	3	det	det dét ded
+4	4	en	en et én ene ens ét een enes enedes ener
+5	5	i	i
+6	6	du	du dig duer dur duet duede duetten duetter duende duetterne
+7	7	og	og
+8	8	at	at
+9	9	have	har have havde haft hav havet haven haver havets haves
+10	10	ikke	ikke inte
+11	11	af	af
+12	12	til	til
+13	13	på	på paa
+14	14	de	de dem
+15	15	vi	vi os vos vierne
+16	16	med	med
+17	17	for	for forenes foret fors
+18	18	den	den
+19	19	kunne	kan kunne kunnet kunnen
+20	20	der	der dær
+21	21	han	han ham hand hanner hannen hannerne hams hannens
+22	22	så	så såret sår sårede såre sårer sås sårene sået sårende
+23	23	ville	vil ville vilde villet vilden villes vildes
+24	24	skulle	skal skulle skallen skaller skulde skullet skallerne skulderne skals
+25	25	som	som
+26	26	hvad	hvad hva
+27	27	om	om
+28	28	men	men mén
+29	29	blive	bliver blev blive blevet bliv bleven blivende
+30	30	ved	ved
+31	31	min	min mit mine miner minen minerne miners minens mines minernes
+32	32	få	få får fik fået færre fås færreste fårene færrest fåret
+33	33	komme	kom kommer komme kommet kommende kommen kommes
+34	34	hun	hun hende hunnen hunner hunnerne hunnens huns hunnere hunnernes hunneren
+35	35	gøre	gør gøre gjorde gjort gøres gøren gjorder gjorte gjordet
+36	36	her	her
+37	37	fra	fra
+38	38	se	se ser set ses sete sås seende
+39	39	din	din dit dine
+40	40	nu	nu nuet nuets
+41	41	al	alle alt al alles als alen alleen
+42	42	gå	går gå gik gået gående gås gæs gak gåsen gæssene
+43	43	hvor	hvor
+44	44	tage	tager tage tog tag taget toget tages ta togene tagget
+45	45	noget	noget ngt
+46	46	hvis	hvis
+47	47	sige	siger sagde sige sagt siges sigende sagte sigen sagdes
+48	48	ja	ja jas jaer
+49	49	ud	ud
+50	50	god	god bedre bedste gode bedst goder bedstes godes goderne bedres
+51	51	bare	bare baret baretter baretters
+52	52	denne	dette denne disse dennes dis disses disser dissede disen disset
+53	53	godt	godt
+54	54	man	man én ens manerer mans éns maner manen
+55	55	måtte	må måtte måttet måtten måtter måtterne
+56	56	også	også osse
+57	57	sig	sig
+58	58	anden	andre anden andet andres andets
+59	59	nej	nej nejer
+60	60	efter	efter
+61	61	finde	finde finder fandt fundet findes find fandtes fundne finderen funden
+62	62	eller	eller
+63	63	lige	lige liges
+64	64	op	op
+65	65	tro	tror troede tro troet troen troende troens tros
+66	66	nogen	nogen nogle nogens nogles
+67	67	meget	meget
+68	68	da	da
+69	69	give	giver give gav giv givet gives given givne gi'r givent
+70	70	når	når
+71	71	stor	store stor stort større største størst
+72	72	dag	dag dage dagen dagens dages dags dagene dagenes
+73	73	lidt	lidt mindre mindst
+74	74	ingen	ingen intet ingens
+75	75	år	år års året årets årene årer åre årenes årerne åren
+76	76	mere	mere
+77	77	over	over overens overs overe overen
+78	78	lade	lad lade lader lod ladet laden ladt lades lodder ladens
+79	79	hvordan	hvordan
+80	80	to	to tor toes
+81	81	nok	nok nokken
+82	82	selv	selv selvet
+83	83	gang	gang gange gangen gangs gangene ganger ganges ganget gangere gangeren
+84	84	vores	vores
+85	85	ny	nye ny nyt nyere nyeste nys nyet
+86	86	hvorfor	hvorfor
+87	87	tid	tid tiden tider tiders tids tidens tiderne tidernes
+88	88	mand	mand mænd manden mands mændene mandens mænds mændenes
+89	89	jo	jo
+90	90	tak	tak takker takken taks takkerne
+91	91	kun	kun
+92	92	ind	ind
+93	93	hans	hans
+94	94	høre	høre hør hører hørt hørte høres hørende hørtes høren
+95	95	sin	sin sit sine
+96	96	hjælpe	hjælpe hjælp hjælper hjalp hjulpet hjælpen hjælpere hjælpende hjælpes hjælperen
+97	97	deres	deres
+98	98	lave	laver lave lavet lavede lav laves
+99	99	bruge	bruge bruger brugt bruges brugte brugere brugen brugerne brugeren brugerens
+100	100	okay	okay

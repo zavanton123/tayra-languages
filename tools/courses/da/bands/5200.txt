@@ -1,0 +1,100 @@
+1	5101	boldklub	boldklub boldklubs
+2	5102	guide	guidet guider guiden guidede guid guiderne
+3	5103	fuldendt	fuldendt fuldendte
+4	5104	bryllupsdag	bryllupsdag bryllupsdagen bryllupsdage
+5	5105	kæbe	kæbe kæben kæber kæberne kæbens
+6	5106	reje	rejer reje rejerne rejen
+7	5107	indvi	indviet indviede indvier indvi indvies indviedes
+8	5108	svoger	svoger svogers svogeren svogre svogrene
+9	5109	nedtur	nedtur nedture nedturen nedturene
+10	5110	forrygende	forrygende
+11	5111	konsekvent	konsekvent konsekvente
+12	5112	kvit	kvit
+13	5113	medlidenhed	medlidenhed medlidenheds medlidenheden medlidenhedens
+14	5114	timevis	timevis
+15	5115	talsmand	talsmand talsmænd talsmanden
+16	5116	skramme	skramme skrammer skrammerne skrammet skrammen skrammede skrammende
+17	5117	klassificere	klassificeret klassificeres klassificerede klassificere klassificerer
+18	5118	regime	regime regimet regimer regimets regimes regimerne
+19	5119	brutalt	brutalt
+20	5120	besynderlig	besynderligt besynderlig besynderlige
+21	5121	fornærmet	fornærmet fornærmede
+22	5122	jordbær	jordbær jordbærrene jordbærret
+23	5123	numse	numsen numse numser
+24	5124	påvise	påvist påvise påvises påviste påviser
+25	5125	ejendomsmægler	ejendomsmægler ejendomsmæglere ejendomsmægleren ejendomsmæglerne ejendomsmæglerens
+26	5126	akt	akt akter akten akterne
+27	5127	kuglepen	kuglepen kuglepennen kuglepenne kuglepennene
+28	5128	reception	receptionen receptioner
+29	5129	laks	laks laksen laksene
+30	5130	bon	bon boner bonen bonerne bons
+31	5131	sejlads	sejlads sejladsen sejladser
+32	5132	urimelig	urimeligt urimelig urimelige
+33	5133	polterabend	polterabend polterabenden polterabender
+34	5134	oprive	oprevet oprevne
+35	5135	ligning	ligningen ligning ligninger ligningerne
+36	5136	kortvarig	kortvarigt kortvarig kortvarige
+37	5137	bagdel	bagdel bagdelen bagdele bagdelene
+38	5138	svimmel	svimmel svimlende svimle
+39	5139	obduktion	obduktion obduktionen obduktioner obduktions obduktionerne
+40	5140	diplomatisk	diplomatisk diplomatiske
+41	5141	møgsvin	møgsvin møgsvinet møgsvinene møgsvins
+42	5142	skikkelse	skikkelse skikkelser skikkelsen
+43	5143	bækken	bækken bækkenet bækkener bækkenerne bækkenets bækkens
+44	5144	racistisk	racistisk racistiske
+45	5145	tobak	tobak tobakken tobaks tobakkens
+46	5146	pote	pote poter potens poterne poten potensen
+47	5147	respektive	respektive
+48	5148	adgangskode	adgangskode adgangskoden adgangskoder adgangskoderne
+49	5149	ægtepar	ægtepar ægteparret
+50	5150	wc	wc
+51	5151	domæne	domæne domæner domænet
+52	5152	udbredelse	udbredelse udbredelsen
+53	5153	beherske	beherske behersker behersket behersk beherskede beherskes
+54	5154	bryllupsrejse	bryllupsrejse bryllupsrejsen bryllupsrejser
+55	5155	cyklist	cyklister cyklist cyklisterne cyklisten
+56	5156	svane	svane svanen svaner svanerne
+57	5157	lagen	lagen lagner lagnerne lagener lagenet lagnet lagenerne
+58	5158	veksle	veksle veksler vekslende vekslet vekslede veksles vekslen veksl
+59	5159	indehaver	indehaver indehaveren indehavere indehaverne
+60	5160	dyrebar	dyrebare dyrebar dyrebart dyrebareste
+61	5161	omsætte	omsat omsætter omsætte omsættes omsatte
+62	5162	anslå	anslået anslår anslås anslå anslåede anslog
+63	5163	forsikringsselskab	forsikringsselskab forsikringsselskabet forsikringsselskaber forsikringsselskaberne forsikringsselskabets
+64	5164	dagslys	dagslys dagslyset
+65	5165	udsøgt	udsøgt udsøgte
+66	5166	sovjetisk	sovjetiske sovjetisk
+67	5167	tiltro	tiltro tiltroen tiltror tiltroet
+68	5168	katolik	katolik katolikker katolikkerne katolikken katolikkernes
+69	5169	matematisk	matematisk matematiske
+70	5170	skinnende	skinnende
+71	5171	forhør	forhør forhøret forhørene forhørs forhørets
+72	5172	bestikkelse	bestikkelse bestikkelsen bestikkelser bestikkelserne
+73	5173	bat	bat battet bats battene
+74	5174	orientering	orientering orienteringen orienteringer
+75	5175	brystvorte	brystvorter brystvorte brystvorterne brystvorten
+76	5176	ulighed	ulighed uligheden uligheder ulighederne
+77	5177	pant	pant panter pants pantere panteren panterne pantet panten panterens panters
+78	5178	aids	aids
+79	5179	medfølelse	medfølelse medfølelsen
+80	5180	herudover	herudover
+81	5181	anskaffe	anskaffet anskaffe anskaffer anskaffede anskaf
+82	5182	heftig	heftig heftigt heftige heftigste
+83	5183	anordning	anordning anordningen anordninger anordningerne anordningens
+84	5184	autorisere	autoriseret autoriserede autorisere autoriserer
+85	5185	hof	hoffet hof hoffets hoffer
+86	5186	afkald	afkald
+87	5187	pære	pære pærer pæren pærerne
+88	5188	afslag	afslag afslaget
+89	5189	forfremmelse	forfremmelse forfremmelsen forfremmelser forfremmelserne forfremmelses
+90	5190	traktor	traktor traktorer traktoren traktorens
+91	5191	sportsgren	sportsgrene sportsgren
+92	5192	ovenfor	ovenfor
+93	5193	juletræ	juletræ juletræet juletræer juletræerne juletræs
+94	5194	ikon	ikon ikoner ikonet ikonerne ikonen
+95	5195	bagsæde	bagsædet bagsæde bagsæderne bagsæder
+96	5196	øvre	øvre
+97	5197	bizar	bizarre bizart bizar
+98	5198	velstand	velstand velstanden velstandens
+99	5199	nysgerrighed	nysgerrighed nysgerrigheden nysgerrighedens
+100	5200	smigre	smigret smigrende smigre smigrer smigrede smigren smigr

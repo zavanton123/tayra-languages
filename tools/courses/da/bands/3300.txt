@@ -1,0 +1,100 @@
+1	3201	undvære	undvære undværes undværet undværer undvær
+2	3202	klassiker	klassiker klassikere klassikerne klassikeren
+3	3203	udbredt	udbredt udbredte
+4	3204	motel	motel motellet moteller motellets motellerne
+5	3205	stolthed	stolthed stoltheden stolthedens stoltheds
+6	3206	trone	tronen trone tron troner tronens tronerne
+7	3207	dybde	dybde dybden dybder dybderne
+8	3208	forgæves	forgæves
+9	3209	konstruktion	konstruktion konstruktioner konstruktionen konstruktions
+10	3210	amatør	amatør amatører amatørerne amatøren
+11	3211	enlig	enlig enlige enligt
+12	3212	blomstre	blomstrer blomstre blomstrende blomstrede blomstret
+13	3213	underskrift	underskrift underskrifter underskriften underskrifterne
+14	3214	afrikansk	afrikanske afrikansk
+15	3215	udendørs	udendørs
+16	3216	troldmand	troldmand troldmanden troldmænd troldmands troldmændene troldmandens troldmænds troldmændenes
+17	3217	herregud	herregud
+18	3218	pave	paven pave pavens paver paves
+19	3219	stød	stød stødet stødene
+20	3220	udstede	udstedt udstede udstedte udsteder udstedes udsted udstedet udstederne
+21	3221	koble	koblet koble kobler kobles koblede kobl
+22	3222	klokke	klokke klokker klokkerne klokkede klokket klokkeren klok klokkerent
+23	3223	forrige	forrige
+24	3224	bitter	bitter bitre bittert bitreste
+25	3225	skytte	skytte skytten skytter skytterne skyttens
+26	3226	frekvens	frekvens frekvenser frekvensen frekvenserne
+27	3227	bogstavelig	bogstaveligt bogstavelig bogstavelige bogstaveligste
+28	3228	patte	patter patterne patten pats patte pattet pattede
+29	3229	overvælde	overvældende overvældet overvælde overvældede overvælder overvældes overvæld
+30	3230	herned	herned
+31	3231	fødevare	fødevarer fødevare fødevarerne
+32	3232	pædagogisk	pædagogisk pædagogiske
+33	3233	styring	styring styringen styrings
+34	3234	offensiv	offensiv offensive offensiven offensivt
+35	3235	oplæg	oplæg oplægget
+36	3236	socialdemokrat	socialdemokraterne socialdemokrater socialdemokraternes socialdemokrat socialdemokraten
+37	3237	farfar	farfar farfars farfaderen
+38	3238	varetage	varetage varetager varetages varetaget varetog varetag
+39	3239	apotek	apotek apoteket apoteker apotekeren apotekerens apotekerne apotekere apotekets
+40	3240	udbrud	udbrud udbruddet udbruddene
+41	3241	udrydde	udrydde udryddet udrydder udryd udryddede udryddes
+42	3242	tivoli	tivoli tivoliet tivolier
+43	3243	overholde	overholde overholder overholdt overholdes overhold overholdte
+44	3244	eksistens	eksistens eksistensen eksistenser eksistensens
+45	3245	finansiel	finansielle finansiel finansielt
+46	3246	kvalme	kvalme kvalmende kvalmen kvalm kvalmt
+47	3247	kredsløb	kredsløb kredsløbet kredsløbene kredsløbs
+48	3248	testamente	testamente testamentet testamenter testamentets testamentes testamenterne
+49	3249	herop	herop
+50	3250	ophæve	ophævet ophæve ophæver ophæves ophæv ophævede
+51	3251	minusse	minus minusser minusset
+52	3252	sprut	sprut sprutten spruttens
+53	3253	politimand	politimand politimanden politimænd politimands politimandens politimændene politimændenes
+54	3254	beregning	beregninger beregning beregningerne beregningen
+55	3255	manuskript	manuskript manuskriptet manuskripter manuskripterne
+56	3256	kvik	kvik kvikke kvikt kvikkere kvikkeste kvikker kvikket
+57	3257	omsætning	omsætning omsætningen
+58	3258	udløb	udløb udløbet
+59	3259	apparat	apparat apparatet apparater apparaterne apparatets
+60	3260	statslig	statslige statslig statsligt
+61	3261	slægt	slægt slægten slægter slægtens slægts slægterne slægters
+62	3262	gavn	gavn gavnet
+63	3263	larm	larm larmen
+64	3264	diskret	diskret diskrete
+65	3265	sammensætte	sammensat sammensatte sammensætte sammensættes sammensætter sammensæt
+66	3266	korn	korn kornet kornene kornets
+67	3267	nigger	nigger niggere niggeren niggerne niggerens
+68	3268	teoretisk	teoretisk teoretiske
+69	3269	håndklæde	håndklæde håndklæder håndklædet håndklæderne
+70	3270	deling	deling delingen delinger delingens delings delingerne
+71	3271	misforståelse	misforståelse misforståelser misforståelsen misforståelserne
+72	3272	konkurs	konkurs konkurser konkursen konkursens
+73	3273	moral	moral moralen moralens moraler
+74	3274	opløsning	opløsning opløsningen opløsninger
+75	3275	tabel	tabellen tabel tabeller tabellerne
+76	3276	rosa	rosa
+77	3277	foster	foster fosteret fostret fostre fosters fostrene fostrets fostrede fosterets fostrer
+78	3278	dam	dam dammen damme dammene dammers dammens
+79	3279	attraktiv	attraktiv attraktivt attraktive
+80	3280	sønderjysk	sønderjyske sønderjysk
+81	3281	hersker	hersker herskere herskeren herskerne herskerens herskeres herskers
+82	3282	besiddelse	besiddelse besiddelser besiddelsen
+83	3283	telefonnummer	telefonnummer telefonnumre telefonnummeret telefonnumrene telefonnumret
+84	3284	barbere	barberet barbere barber barberer barberede barberen barberes barbererne
+85	3285	ammunition	ammunition ammunitionen
+86	3286	forudse	forudset forudse forudså forudser forudseende forudses
+87	3287	kendelse	kendelse kendelsen kendelser kendelserne
+88	3288	udsagn	udsagn udsagnet udsagnene
+89	3289	indvandrer	indvandrere indvandrer indvandrerne indvandreren
+90	3290	tavle	tavlen tavle tavler tavlerne tavlens
+91	3291	tyveri	tyveri tyveriet tyverier tyverierne
+92	3292	kemi	kemi kemien
+93	3293	udnævne	udnævnt udnævner udnævne udnævnte udnævnes udnævn
+94	3294	liberal	liberale liberalt
+95	3295	donna	donna donnas
+96	3296	misse	missede misse misset misser misses missen
+97	3297	løkke	løkke løkken løkker løkkerne
+98	3298	fysik	fysik fysikkens fysikken
+99	3299	efterforsker	efterforsker efterforskere efterforskerne efterforskeren efterforskernes efterforskers
+100	3300	pandekage	pandekager pandekage pandekagerne pandekagen

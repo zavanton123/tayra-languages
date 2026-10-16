@@ -1,0 +1,100 @@
+1	2401	forventning	forventninger forventning forventningerne forventningen forventningens
+2	2402	em	em ems
+3	2403	uhyre	uhyre uhyrer uhyret uhyrerne uhyrets uhyres uhyrernes
+4	2404	global	globale globalt
+5	2405	hidtil	hidtil
+6	2406	årti	årtier årti årtiers årtiets årtiet årtis årtierne
+7	2407	ridder	ridder riddere ridderne ridderen ridders riddernes ridderens
+8	2408	folkeskole	folkeskolen folkeskole folkeskolens folkeskoler
+9	2409	opfattelse	opfattelse opfattelsen opfattelser opfattelses
+10	2410	sti	sti stien stier stierne
+11	2411	herovre	herovre
+12	2412	fortræd	fortræd
+13	2413	mirakel	mirakel mirakler miraklet miraklernes miraklerne
+14	2414	elektronisk	elektronisk elektroniske
+15	2415	forståelse	forståelse forståelsen forståelser
+16	2416	bur	bur buret bure burene burer burede bures
+17	2417	ombord	ombord
+18	2418	kreativ	kreative kreativ kreativt
+19	2419	opførsel	opførsel opførslen opførsler
+20	2420	landskab	landskab landskabet landskaber landskabs landskaberne landskabets
+21	2421	eksperiment	eksperiment eksperimenter eksperimentet eksperimenterne eksperimentets eksperimenters
+22	2422	tildele	tildelt tildeles tildele tildelte tildeler tildel tildeltes
+23	2423	opgøre	opgør opgøret opgjort opgøres opgøre opgørets
+24	2424	smelte	smelter smelte smeltet smeltede smelt smeltende smeltes smelten
+25	2425	fremtidig	fremtidige fremtidig fremtidigt
+26	2426	betaling	betaling betalingen betalinger betalingerne betalings
+27	2427	overordnet	overordnede overordnet overordnedes
+28	2428	organisere	organiseret organisere organiserede organiserer organiseres organiser
+29	2429	sæde	sæde sædet sæder sæderne sædernes sædets
+30	2430	overtale	overtale overtalte overtalt overtal overtales overtaler overtalende
+31	2431	generel	generel generelle
+32	2432	komplet	komplet komplette
+33	2433	sprøjte	sprøjte sprøjter sprøjten sprøjtede sprøjt sprøjtet sprøjterne sprøjtes sprøjtende sprøjtene
+34	2434	taxa	taxa taxaen taxaer taxaerne taxaens taxas
+35	2435	mage	mage magen mag mager magre magert magere mageren magerne mages
+36	2436	bevæbne	bevæbnet bevæbnede bevæbne bevæbner bevæbn bevæbnes
+37	2437	mønt	mønter mønt mønten mønterne møntens mønternes
+38	2438	fund	fund fundet fundene funds fundets
+39	2439	hammer	hammer hammeren hamrer hamre hamrede hamret hammere hamren hammers hammerne
+40	2440	nedlægge	nedlagt nedlægge nedlægges nedlagde nedlægger nedlagte nedlæg
+41	2441	kyle	kyle kyles kyler kylede kyl kylet
+42	2442	urolig	urolig urolige uroligt
+43	2443	russer	russerne russere russer russeren russernes russerens russeres
+44	2444	modsætning	modsætning modsætninger modsætningen modsætningerne modsætningernes
+45	2445	katastrofe	katastrofe katastrofen katastrofer katastroferne katastrofens
+46	2446	forsikring	forsikring forsikringen forsikringer forsikrings forsikringerne forsikringens
+47	2447	forlange	forlanger forlange forlangte forlangt forlang forlangende forlanges
+48	2448	psykisk	psykisk psykiske
+49	2449	insistere	insisterer insisterede insistere insisteret insisterende insisteren insister
+50	2450	ondskab	ondskab ondskaben ondskabens ondskabs
+51	2451	inkludere	inkluderer inkluderet inkludere inkluderede inkluderes inkluder inkluderende
+52	2452	anføre	anfører anført anførte anføres anføreren anføre anførere anfør anførerne anføren
+53	2453	aftensmad	aftensmad aftensmaden
+54	2454	faktor	faktorer faktor faktorerne faktoren
+55	2455	tyv	tyv tyven tyvene tyvenes tyvens tyvs
+56	2456	stiv	stiv stive stift stiftet stifter stifterne stiveste stifteren stivere stiften
+57	2457	ungdom	ungdom ungdommen ungdommens ungdoms
+58	2458	drama	drama dramaet dramaer dramaets dramas
+59	2459	fort	fort fortet forter fortets
+60	2460	angive	angivet angives angive angav angivne angiv
+61	2461	kongelig	kongelige kongelig kongeligt
+62	2462	plet	plet pletter pletten pletterne plettens
+63	2463	stue	stuen stue stuer stuerne
+64	2464	frelse	frelse frelser frelst frelste frelsens frels frelseren frelses frelsen frelsere
+65	2465	tiltag	tiltag tiltaget tiltagene
+66	2466	kompleks	komplekse kompleks komplekst komplekset komplekser
+67	2467	kidnappe	kidnappet kidnappede kidnapper kidnappe kidnapperne kidnapperen kidnappere kidnappes kidnapperens kidnappernes
+68	2468	æble	æbler æble æblet æblerne æblets
+69	2469	kombination	kombination kombinationer kombinationen kombinations kombinationerne
+70	2470	indbrud	indbrud indbruddet indbruddene indbruds
+71	2471	sektor	sektor sektoren sektorer sektorerne sektorens sektors
+72	2472	rytter	rytter ryttere rytteren rytterne rytterens rytternes rytters rytteres
+73	2473	henvise	henviser henvise henvist henviste henvises henvis
+74	2474	café	café caféen caféer caféerne cafés
+75	2475	fornuft	fornuft fornuften fornuftens fornufts
+76	2476	kravle	kravle kravler kravlede kravl kravlet kravlende
+77	2477	tie	tie tier tiende tav tiet tiede tien ties tieren tiere
+78	2478	vilkår	vilkår vilkårene vilkåret
+79	2479	personlighed	personlighed personligheder personligheden personligheds personlighederne
+80	2480	sans	sans sanser sanserne sansers sansen
+81	2481	kommission	kommissionen kommission kommissionens kommissioner
+82	2482	relation	relationer relation relationen relationerne relations
+83	2483	forekomme	forekommer forekomme forekommende forekom forekommet
+84	2484	hal	hal hallen haller hallerne hallens
+85	2485	plage	plage plager plaget plagede plages plag plagen plagerne plagedes plagende
+86	2486	bremse	bremser bremse bremsen bremserne brems bremset bremsede bremses
+87	2487	mental	mentalt mentale mental
+88	2488	ubehagelig	ubehageligt ubehagelig ubehagelige
+89	2489	division	division divisionen divisioner divisions divisionens divisionerne
+90	2490	læbe	læber læberne læben læbe læbers
+91	2491	cd	cd
+92	2492	løslade	løsladt løslade løslader løslad løslades løslod løsladte
+93	2493	verdenskrig	verdenskrig verdenskrigs verdenskrige verdenskrigen verdenskrigene
+94	2494	stamme	stamme stammen stammede stammens stammes stammende stammerne stam stammers stammernes
+95	2495	balance	balance balancen balancer
+96	2496	mus	mus musen musene musenes musens
+97	2497	oversigt	oversigt oversigten oversigter oversigterne
+98	2498	julemand	julemanden julemand julemandens julemænd julemændene julemands
+99	2499	fryse	fryse frosset frosne frossen frys frøs frossent frysende fryses
+100	2500	benzin	benzin benzinen

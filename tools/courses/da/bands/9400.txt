@@ -1,0 +1,100 @@
+1	9301	forkynde	forkynder forkynde forkyndt forkynd forkyndte forkyndes
+2	9302	sendebud	sendebud sendebudet sendebuddet
+3	9303	forpost	forpost forposten forposter forposterne
+4	9304	pryde	pryder prydet pryde prydes
+5	9305	velskrevet	velskrevet velskrevne
+6	9306	fugtighed	fugtighed fugtigheden
+7	9307	lilje	lilje liljer liljerne liljen
+8	9308	persondata	persondata
+9	9309	gazelle	gazelle gazeller gazellen gazellerne
+10	9310	lillefinger	lillefinger lillefingeren lillefingre lillefingers
+11	9311	ballademager	ballademager ballademagere ballademageren ballademagerne
+12	9312	isolering	isolering isoleringen
+13	9313	dødsleje	dødsleje dødslejet
+14	9314	sikkerhedsnet	sikkerhedsnet sikkerhedsnettet
+15	9315	restaurering	restaurering restaureringen restaureringer
+16	9316	skolepige	skolepige skolepiger skolepiges skolepigen
+17	9317	hamle	hamle haml
+18	9318	rækkehus	rækkehuse rækkehus rækkehusene rækkehuset
+19	9319	livsvarig	livsvarig livsvarigt
+20	9320	solsystem	solsystem solsystemer solsystemets
+21	9321	solidarisk	solidarisk solidariske
+22	9322	intimitet	intimitet intimiteten
+23	9323	vertikal	vertikale vertikal vertikalt
+24	9324	gudfar	gudfar gudfædre
+25	9325	distributør	distributør distributører distributøren distributørerne
+26	9326	frafalde	frafalder frafalde frafaldes frafaldne frafaldt frafalden
+27	9327	middelalderlig	middelalderlige middelalderlig middelalderligt
+28	9328	boligmarked	boligmarkedet boligmarked
+29	9329	prange	prangende prangen
+30	9330	pansre	pansrede pansret
+31	9331	aflåse	aflåst aflås aflåste aflåse aflåses
+32	9332	firser	firserne
+33	9333	redningsaktion	redningsaktion redningsaktionen redningsaktioner
+34	9334	sportschef	sportschef
+35	9335	desarmere	desarmere desarmeret desarmerer desarmerede desarmeres desarmér desarmer
+36	9336	ligelig	ligeligt
+37	9337	henføre	henføres henført henfører
+38	9338	uforstyrret	uforstyrret uforstyrrede
+39	9339	blodkar	blodkar blodkarrene blodkarret
+40	9340	verdenshistorie	verdenshistorien verdenshistoriens verdenshistorie
+41	9341	magnesium	magnesium magnesiummet
+42	9342	beskatning	beskatning
+43	9343	gennemslagskraft	gennemslagskraft
+44	9344	hvorhenne	hvorhenne
+45	9345	sarkasme	sarkasme sarkasmen
+46	9346	hovedmistænkt	hovedmistænkte hovedmistænkt
+47	9347	tv-serie	tv-serie tv-serier tv-serien tv-serierne
+48	9348	urne	urne urnen urner urnerne
+49	9349	fjerkræ	fjerkræ fjerkræet
+50	9350	billard	billard
+51	9351	orientalsk	orientalsk orientalske
+52	9352	landing	landingen landinger
+53	9353	bestandig	bestandig bestandigt bestandige
+54	9354	følelsesløs	følelsesløs følelsesløse følelsesløst
+55	9355	gringo	gringo gringoen gringos gringoer gringoerne
+56	9356	mutere	muteret muterede muterer mutere muterende
+57	9357	fæ	fæ fæet
+58	9358	indgravere	indgraveret indgraverede indgravere indgraveres indgraverer
+59	9359	fysiologi	fysiologi fysiologien
+60	9360	personel	personel
+61	9361	tampon	tamponer tamponerne tamponen
+62	9362	joh	joh
+63	9363	byudvikling	byudvikling
+64	9364	døber	døber døberen døberens
+65	9365	folkemængde	folkemængden folkemængde folkemængder folkemængderne
+66	9366	endestation	endestationen endestation
+67	9367	pissesur	pissesur pissesure pissesurt
+68	9368	underbevidsthed	underbevidsthed underbevidstheden
+69	9369	pøbel	pøblen pøbel pøbelen pøblens pøbelens
+70	9370	molekylær	molekylær molekylære molekylært
+71	9371	hertz	hertz
+72	9372	nærværende	nærværende
+73	9373	rynket	rynket rynkede
+74	9374	maskulin	maskuline maskulin maskulint
+75	9375	militærbase	militærbase militærbaser militærbasen
+76	9376	træningscenter	træningscenter træningscentret træningscenteret træningscentre
+77	9377	rådmand	rådmand rådmanden rådmænd rådmændene
+78	9378	underværk	underværker underværk underværket
+79	9379	asp	aspen asp
+80	9380	laboratorie	laboratorie
+81	9381	lægelig	lægelige lægelig lægeligt
+82	9382	banecykling	banecykling
+83	9383	kommandere	kommandere kommanderende kommanderer kommanderede kommander kommanderet kommanderes
+84	9384	skalpel	skalpel skalpellen skalpeller
+85	9385	lagerrum	lagerrum lagerrummet lagerrummene
+86	9386	funk	funk funken
+87	9387	nostalgi	nostalgi nostalgien
+88	9388	fagområde	fagområder fagområde
+89	9389	fordærve	fordærvede fordærvet fordærve fordærver fordærves
+90	9390	pornostjerne	pornostjerne pornostjerner pornostjernen
+91	9391	carbon	carbon karbon
+92	9392	anatomisk	anatomisk anatomiske
+93	9393	arkæologi	arkæologi arkæologien
+94	9394	snert	snert snært snerten
+95	9395	ae	ae aer aede aet aes aen
+96	9396	gry	gry gryr gryer gryede gryet gryende
+97	9397	påsætte	påsat påsatte påsætte påsætter
+98	9398	tørste	tørster tørste tørstede tørstende
+99	9399	udlejning	udlejning udlejnings udlejningen
+100	9400	forenkle	forenklet forenkle forenkler forenklede

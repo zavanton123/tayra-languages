@@ -1,0 +1,100 @@
+1	7701	benåde	benådet benåde benåder benådede benådes benåd
+2	7702	afveje	afveje afvejen afvejer afvejet afvej afvejede
+3	7703	halsbånd	halsbånd halsbåndet halsbåndene
+4	7704	ananas	ananas ananassen
+5	7705	hint	hint hints hintet
+6	7706	brændsel	brændsel brændslet brændsels
+7	7707	tilskrive	tilskrives tilskriver tilskrevet tilskrive tilskrev
+8	7708	kvæste	kvæstet kvæstede kvæste kvæster
+9	7709	sparre	sparre sparrede sparrer sparret
+10	7710	interval	intervaller intervallet intervallerne
+11	7711	ulig	ulig uligt
+12	7712	mellemnavn	mellemnavn mellemnavnet
+13	7713	håndtaske	håndtaske håndtasken håndtasker
+14	7714	kval	kvaler kval kvalen kvalerne
+15	7715	befolke	befolket befolkede befolke befolker
+16	7716	bankmand	bankmand bankmanden bankmænd bankmands bankmandens
+17	7717	smertefri	smertefrit smertefri smertefrie
+18	7718	understøttelse	understøttelse understøttelsen
+19	7719	fuldmagt	fuldmagt fuldmagten fuldmagter fuldmagterne
+20	7720	stadium	stadier stadiet stadierne
+21	7721	sommerdag	sommerdag sommerdage
+22	7722	prøveløslade	prøveløsladt prøveløsladte prøveløslades prøveløslader prøveløslade
+23	7723	gate	gaten gatens gatene
+24	7724	krater	krater krateret kratere kratre kraterne
+25	7725	indskrænke	indskrænket indskrænke indskrænkede indskrænker indskrænk indskrænkes indskrænkende
+26	7726	mangelfuld	mangelfuld mangelfulde mangelfuldt
+27	7727	uegnet	uegnet uegnede
+28	7728	bekendtgøre	bekendtgjort bekendtgøre bekendtgør bekendtgjorde bekendtgøres
+29	7729	impulsiv	impulsiv impulsivt impulsive
+30	7730	krigsførelse	krigsførelse krigsførelsens
+31	7731	overvurdere	overvurderet overvurderer overvurderede overvurdere overvurder
+32	7732	bodyguard	bodyguard bodyguarden
+33	7733	serge	serge serges
+34	7734	landsforening	landsforeningen landsforening
+35	7735	ælde	ældes ældet ælde ældedes ælder æld
+36	7736	tablet	tabletter tabletten tabletterne
+37	7737	pejs	pejsen pejs pejse pejsene
+38	7738	fangenskab	fangenskab fangenskabet fangenskabets
+39	7739	menneskeskabt	menneskeskabte menneskeskabt
+40	7740	undersåt	undersåtter undersåt undersåtters undersåtterne
+41	7741	robust	robuste
+42	7742	gøg	gøg gøgen
+43	7743	prædikant	prædikant prædikanten prædikanter prædikantens prædikanterne
+44	7744	misundelse	misundelse misundelsen
+45	7745	rangere	rangerer rangeret rangere rangerende rangerede rangeren
+46	7746	muldyr	muldyr muldyret muldyrene
+47	7747	fabrikant	fabrikanten fabrikant fabrikanter fabrikantens fabrikanterne
+48	7748	balde	balder balderne balde balders balden
+49	7749	adle	adler adlet adles
+50	7750	milepæl	milepæl milepæle
+51	7751	skår	skår skårene
+52	7752	autocamper	autocamper autocamperen autocampere
+53	7753	nationalmuseum	nationalmuseet nationalmuseets nationalmuseum
+54	7754	benhård	benhård benhårdt benhårde
+55	7755	udpræget	udpræget
+56	7756	uanmeldt	uanmeldt uanmeldte
+57	7757	razzia	razzia razziaen razziaer razziaerne
+58	7758	barbar	barbarer barbar barbarerne barbaren barbarernes
+59	7759	syfilis	syfilis syfilissen
+60	7760	reklamefilm	reklamefilm reklamefilmen
+61	7761	malerisk	malerisk maleriske
+62	7762	frigivelse	frigivelse frigivelsen
+63	7763	knold	knold knolden knolde
+64	7764	prøveløsladelse	prøveløsladelse prøveløsladelsen prøveløsladelses prøveløsladelser
+65	7765	massevis	massevis
+66	7766	slynge	slynge slynger slyngede slyngen slynges
+67	7767	indvirkning	indvirkning indvirkningen indvirkninger
+68	7768	undertal	undertal
+69	7769	lydbog	lydbog lydbøger lydbogen
+70	7770	rokke	rokke rokker rokkede rokket rokkende
+71	7771	komma	komma kommaer kommaet
+72	7772	javist	javist
+73	7773	egetræ	egetræ egetræer egetræet egetræerne
+74	7774	middelklasse	middelklasse middelklassen middelklassens
+75	7775	flette	flettet flette flet fletter flettede flettes flettedes
+76	7776	landsmøde	landsmøde landsmødet
+77	7777	naturområde	naturområder naturområde
+78	7778	sportsfolk	sportsfolk sportsfolkene
+79	7779	pjække	pjækker pjække pjækkede pjækket pjæk
+80	7780	minimal	minimale minimalt
+81	7781	hierarki	hierarki hierarkiet hierarkier
+82	7782	forsvarlig	forsvarligt forsvarlig forsvarlige
+83	7783	utal	utal
+84	7784	vandstand	vandstanden vandstand
+85	7785	skovtur	skovtur skovturen skovture
+86	7786	dekan	dekan dekanen dekanens
+87	7787	sekt	sekt sekter sekten sektens
+88	7788	anstændighed	anstændighed anstændigheden anstændighedens anstændigheds
+89	7789	tele	tele
+90	7790	hykler	hykler hyklere hykleren hyklerne
+91	7791	safari	safari safarier safarien
+92	7792	frokostpause	frokostpause frokostpausen frokostpauser frokostpauserne
+93	7793	næsehorn	næsehorn næsehornet næsehornene næsehorns næsehornets
+94	7794	medborger	medborgere medborger medborgerne medborgeres medborgernes
+95	7795	styrmand	styrmand styrmanden styrmænd styrmændene
+96	7796	kejserlig	kejserlige kejserlig kejserligt
+97	7797	skolebal	skoleballet skolebal skoleballets skoleballer skolebals
+98	7798	rettergang	rettergang rettergangen rettergange
+99	7799	udvisning	udvisning udvisninger udvisningen
+100	7800	modtagelig	modtagelig modtagelige modtageligt

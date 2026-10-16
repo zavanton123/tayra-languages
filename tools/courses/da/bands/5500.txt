@@ -1,0 +1,100 @@
+1	5401	forsvarsministerium	forsvarsministeriet forsvarsministeriets forsvarsministerium
+2	5402	bopæl	bopæl bopælen bopæle
+3	5403	uskyld	uskyld uskylden uskyldens
+4	5404	krage	krage krag krager kragerne kragen kragens krages
+5	5405	udførelse	udførelse udførelsen
+6	5406	indsprøjtning	indsprøjtning indsprøjtninger indsprøjtningen indsprøjtningerne
+7	5407	fødselsdagsgave	fødselsdagsgave fødselsdagsgaver fødselsdagsgaven fødselsdagsgaverne
+8	5408	dømmekraft	dømmekraft dømmekraften
+9	5409	navnlig	navnlig
+10	5410	eskortere	eskortere eskorteret eskorterer eskorter eskorterede eskorteres
+11	5411	katastrofal	katastrofalt katastrofale katastrofal
+12	5412	dinosaurus	dinosaurer dinosaurerne dinosaurus dinosauren dinosaurusser dinosaurernes dinosauruser dinosaurens
+13	5413	troværdighed	troværdighed troværdigheden
+14	5414	delfin	delfiner delfin delfinerne delfinen delfins delfinernes
+15	5415	parkering	parkering parkerings parkeringen parkeringer
+16	5416	fy	fy
+17	5417	hotdog	hotdog hotdogs hotdoggen hotdogsene
+18	5418	brormand	brormand
+19	5419	martyr	martyr martyrer martyrerne martyrs martyren martyrernes martyrers
+20	5420	fremtrædende	fremtrædende
+21	5421	fjernbetjening	fjernbetjeningen fjernbetjening fjernbetjeninger
+22	5422	mekanisme	mekanisme mekanismer mekanismen mekanismerne
+23	5423	kørestol	kørestol kørestolen kørestole kørestolene
+24	5424	bordel	bordel bordeller bordellet bordellerne
+25	5425	destruere	destruere destrueret destrueres destruerer destruerede destruer destruér
+26	5426	zoologisk	zoologisk zoologiske
+27	5427	livskvalitet	livskvalitet livskvaliteten
+28	5428	trampe	trampe tramper trampet tramp trampede trampes trampende trampen
+29	5429	jordisk	jordiske jordisk
+30	5430	blogger	blogger bloggere bloggerne bloggeren bloggers
+31	5431	kam	kam kammen kamme kammede kammet kammene
+32	5432	dødsdømt	dødsdømt dødsdømte
+33	5433	månedsvis	månedsvis
+34	5434	stemmeret	stemmeret stemmeretten
+35	5435	strømpe	strømper strømpe strømperne strømpen
+36	5436	signatur	signatur signaturen signaturer signaturerne
+37	5437	birk	birk birken
+38	5438	unødvendig	unødvendige unødvendig
+39	5439	sending	sending sendingen sendinger sendingerne
+40	5440	belgisk	belgisk belgiske
+41	5441	postkasse	postkasse postkassen postkasser postkasserne
+42	5442	snegl	snegle snegl sneglen sneglene snegler sneglede
+43	5443	klodset	klodset klodsede
+44	5444	helligdag	helligdag helligdage helligdagene helligdagen helligdagenes
+45	5445	blænde	blændende blændet blænde blænder blændede blændes blænd blænden
+46	5446	tillægge	tillagt tillægger tillægges tillægge tillagde
+47	5447	bif	biffen bif
+48	5448	atomvåben	atomvåben atomvåbnene
+49	5449	næring	næring næringen
+50	5450	farvand	farvande farvand farvandet farvandene
+51	5451	kampvogn	kampvogne kampvogn kampvognen kampvognene kampvogns kampvognens
+52	5452	skoleår	skoleår skoleåret
+53	5453	endog	endog
+54	5454	henseende	henseende henseender
+55	5455	farverig	farverige farverig farverigt
+56	5456	trådløs	trådløse trådløs trådløst
+57	5457	smartphone	smartphones
+58	5458	entreprenør	entreprenør entreprenører entreprenøren entreprenørerne entreprenørens
+59	5459	bøvl	bøvl bøvlet bøvlede
+60	5460	fordømme	fordømmer fordømme fordømte fordømmende fordømmes fordømtes fordøm
+61	5461	myre	myrer myre myrerne myr myren myrernes myres
+62	5462	fup	fup fuppet
+63	5463	baghold	baghold bagholdet bagholds
+64	5464	bevilling	bevilling bevillinger bevillingen bevillingerne
+65	5465	sludre	sludre sludrer sludrede sludret sludren sludres sludrende
+66	5466	virtuel	virtuelle virtuel virtuelt
+67	5467	blæk	blæk blækket
+68	5468	basse	basse bassen basser basserne
+69	5469	parameter	parametre parameter parametrene
+70	5470	afspærre	afspærret afspær afspærre afspærrer afspærrede afspærres
+71	5471	aktivist	aktivister aktivist aktivisterne aktivisten
+72	5472	vidneudsagn	vidneudsagn vidneudsagnet vidneudsagnene
+73	5473	bagest	bageste bagest
+74	5474	raseri	raseri raseriet raseriets
+75	5475	ventil	ventil ventiler ventilen ventilerne ventilers
+76	5476	snigskytte	snigskytte snigskytter snigskytten snigskytterne snigskyttens snigskyttes
+77	5477	grille	grillet grille grillede
+78	5478	afsky	afsky afskyr afskyede afskyer afskyet
+79	5479	slagtilfælde	slagtilfælde slagtilfældet slagtilfældene
+80	5480	diplomat	diplomater diplomat diplomaten diplomaterne diplomats
+81	5481	forelæsning	forelæsning forelæsninger forelæsningen forelæsningerne
+82	5482	frustrerende	frustrerende
+83	5483	webside	webside websider websiden websiderne
+84	5484	forspring	forspring forspringet
+85	5485	målsætning	målsætninger målsætning målsætningen
+86	5486	rådgive	rådgive rådgivende rådgivet rådgav rådgiv rådgives
+87	5487	svindler	svindler svindlere svindleren svindlerne svindlerens
+88	5488	folkelig	folkelige folkeligt folkelig
+89	5489	grill	grillen griller
+90	5490	redigere	redigeret redigere redigerer redigerede redigeres rediger
+91	5491	installation	installation installationer installationen installationerne
+92	5492	indkøbscenter	indkøbscenter indkøbscentre indkøbscentret indkøbscenteret indkøbscentrene
+93	5493	agt	agt
+94	5494	turné	turné turnéen turnéer
+95	5495	luftangreb	luftangreb luftangrebet luftangrebene
+96	5496	plast	plast plasten
+97	5497	skinke	skinke skinken skinker skinkerne
+98	5498	skælde	skælde skælder skældte skæld skældt skældes
+99	5499	fremkomme	fremkommer fremkommet fremkom fremkomme fremkommende
+100	5500	indvandring	indvandring indvandringen indvandrings

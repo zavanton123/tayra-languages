@@ -1,0 +1,100 @@
+1	8401	overdådig	overdådigt overdådige overdådig
+2	8402	småbarn	småbørn
+3	8403	entusiastisk	entusiastisk entusiastiske
+4	8404	mayonnaise	mayonnaise mayonnaisen
+5	8405	pigenavn	pigenavn pigenavne pigenavnet
+6	8406	skildring	skildring skildringer skildringen
+7	8407	gyse	gyser gysere gyse gøs gysende gysen
+8	8408	dagtime	dagtimerne dagtimer
+9	8409	accept	accepter accepten
+10	8410	kulturhistorisk	kulturhistoriske kulturhistorisk
+11	8411	dige	diget dige digerne
+12	8412	kryptering	kryptering krypteringen krypteringer krypterings
+13	8413	brødføde	brødføde brødføder brødfødte brødfød brødfødt
+14	8414	forudbestemt	forudbestemt forudbestemte
+15	8415	træthed	træthed trætheden
+16	8416	mumle	mumler mumlede mumle mumlen mumlende mumlet
+17	8417	udstrakt	udstrakt udstrakte
+18	8418	bitterhed	bitterhed bitterheden
+19	8419	beskyttelsesrum	beskyttelsesrum beskyttelsesrummet beskyttelsesrummene
+20	8420	immigrant	immigranter immigrant immigranterne immigranternes
+21	8421	krypt	krypten krypt krypter krypterne kryptens
+22	8422	landsdel	landsdel landsdele landsdelen
+23	8423	krydstogt	krydstogt krydstogtet krydstogter
+24	8424	anstrengende	anstrengende
+25	8425	oppefra	oppefra
+26	8426	retræte	retræte retræten
+27	8427	togstation	togstationen togstation togstationer togstationerne
+28	8428	udmærkelse	udmærkelse udmærkelser udmærkelsen udmærkelserne
+29	8429	uhm	uhm
+30	8430	livstegn	livstegn livstegnene
+31	8431	superkraft	superkræfter superkraft superkræfterne
+32	8432	uidentificeret	uidentificeret uidentificerede
+33	8433	fugt	fugt fugten
+34	8434	klandre	klandre klandrer klandres klandrede klandret
+35	8435	folketingsvalg	folketingsvalg folketingsvalget
+36	8436	togt	togt togter togtet togterne
+37	8437	praktikplads	praktikplads praktikpladsen praktikpladser
+38	8438	hovedsag	hovedsagen
+39	8439	benådning	benådning benådningen benådninger
+40	8440	smidig	smidig smidige smidigt smidigere
+41	8441	dobbeltgænger	dobbeltgænger dobbeltgængere dobbeltgængeren dobbeltgængerne dobbeltgængerens
+42	8442	skateboard	skateboard skateboardet
+43	8443	lidet	lidet
+44	8444	messing	messing messingen
+45	8445	sokkel	sokkel soklen sokkelen
+46	8446	udtræk	udtræk udtrækket
+47	8447	afspærring	afspærring afspærringen afspærringer afspærringerne
+48	8448	toer	toer toeren toere
+49	8449	afkørsel	afkørsel afkørslen afkørsler
+50	8450	vaskebjørn	vaskebjørn vaskebjørne vaskebjørnen vaskebjørnene vaskebjørns
+51	8451	dommerkendelse	dommerkendelse dommerkendelsen dommerkendelser
+52	8452	stud	stud studs studser stude studses studene
+53	8453	krigsfange	krigsfanger krigsfange krigsfangerne
+54	8454	levn	levn levnene levnet
+55	8455	nygift	nygifte nygift
+56	8456	tilbagegang	tilbagegang tilbagegangen
+57	8457	skelsættende	skelsættende
+58	8458	samfundsmæssig	samfundsmæssige samfundsmæssig
+59	8459	blasfemi	blasfemi blasfemier
+60	8460	nedrivning	nedrivning nedrivningen nedrivninger nedrivnings
+61	8461	blodsukker	blodsukker blodsukkeret
+62	8462	teleskop	teleskop teleskopet teleskoper teleskopets
+63	8463	homoseksualitet	homoseksualitet
+64	8464	maskot	maskot maskotten maskotter
+65	8465	rædselsslagen	rædselsslagen rædselsslagne rædselslagen
+66	8466	lemlæste	lemlæstet lemlæstede lemlæste lemlæster lemlæst
+67	8467	omdrejningspunkt	omdrejningspunkt omdrejningspunktet
+68	8468	polere	poleret polere polerer polerede poleres poler
+69	8469	oplæring	oplæring oplæringen
+70	8470	snus	snus snuset snusen
+71	8471	husarrest	husarrest husarresten
+72	8472	kunstnernavn	kunstnernavn
+73	8473	horst	horst
+74	8474	trance	trance trancen trancer
+75	8475	brise	brise brisen briser
+76	8476	fyldest	fyldest
+77	8477	timing	timingen
+78	8478	medgang	medgang
+79	8479	fortrydelse	fortrydelse fortrydelsen fortrydelsens
+80	8480	paprika	paprika paprikaen
+81	8481	dynasti	dynasti dynastiet dynastier dynastiets
+82	8482	utryghed	utryghed
+83	8483	malaria	malaria malariaen
+84	8484	infanteri	infanteri infanteriet infanteriets
+85	8485	nervøsitet	nervøsitet nervøsiteten
+86	8486	førstefødt	førstefødte førstefødt
+87	8487	gisp	gisp gispet
+88	8488	forneden	forneden
+89	8489	stadighed	stadighed
+90	8490	ufrivillig	ufrivillig ufrivilligt ufrivillige
+91	8491	blackjack	blackjack
+92	8492	fanatisk	fanatisk fanatiske
+93	8493	kulturarv	kulturarv
+94	8494	forlegen	forlegen forlegne forlegent
+95	8495	forhistorisk	forhistorisk forhistoriske
+96	8496	ovenover	ovenover
+97	8497	enkeltstående	enkeltstående
+98	8498	mink	mink minken
+99	8499	frygtindgydende	frygtindgydende
+100	8500	støje	støjende støjer støje støjede

@@ -1,0 +1,100 @@
+1	1201	oberst	oberst obersten oberstens oberster obersts obersterne
+2	1202	motor	motoren motor motorer motorerne motors motorens motorernes
+3	1203	gut	gutter gutterne gut gutten guts guttens gutternes
+4	1204	journalist	journalist journalister journalisten journalisterne journalistens journalists journalisternes journalisters
+5	1205	udover	udover
+6	1206	dybt	dybt
+7	1207	ægteskab	ægteskab ægteskabet ægteskaber ægteskabets ægteskabs ægteskaberne
+8	1208	erfaring	erfaring erfaringer erfaringen erfaringerne erfaringens
+9	1209	behandling	behandling behandlingen behandlinger behandlingerne behandlings
+10	1210	plejer	plejer plejeren plejere plejerne
+11	1211	kode	kode koden koder koderne kodet kodede kod kodes kodere
+12	1212	foreslå	foreslår foreslå foreslog foreslået foreslåede foreslås
+13	1213	central	central centrale centralt centralen centraler
+14	1214	fornøjelse	fornøjelse fornøjelsen fornøjelser fornøjelses fornøjelsens fornøjelserne
+15	1215	præst	præst præsten præster præsterne præstens præsts præsters præsternes
+16	1216	goddag	goddag
+17	1217	afstand	afstand afstanden afstande afstandene
+18	1218	klassisk	klassisk klassiske
+19	1219	pause	pause pausen pauser pauserne pauset
+20	1220	restaurant	restaurant restauranten restauranter restauranterne restaurantens restaurants
+21	1221	link	link links linket
+22	1222	sindssyg	sindssyg sindssygt sindssyge sindssygen sindssygeste sindssyges
+23	1223	stikke	stikke stukket stikken stikkende stikkes stukken
+24	1224	score	score scorede scorer scoret scores scor scoren scorende
+25	1225	forskning	forskning forskningen forsknings forskningens
+26	1226	producere	produceret producerer producere produceres producer producerede produceren producerne producers producerens
+27	1227	udvælge	udvalgte udvalgt udvælger valgte udvælge udvælges udvælg udvalgtes
+28	1228	kraftig	kraftig kraftigt kraftige kraftigere kraftigste kraftigst
+29	1229	professor	professor professoren professorer professorens professorerne professors
+30	1230	forfatter	forfatter forfatteren forfattere forfatterne forfatterens forfatters forfatteres forfatternes
+31	1231	lignende	lignende
+32	1232	skridt	skridt skridtet skridtene skridts
+33	1233	opmærksomhed	opmærksomhed opmærksomheden
+34	1234	hvile	hvile hviler hvil hvilet hvilede hvilende hvilens hvilen hvilt
+35	1235	påvirke	påvirker påvirket påvirke påvirkede påvirkes påvirk påvirkende
+36	1236	udgave	udgave udgaver udgaven
+37	1237	national	nationale national nationalt
+38	1238	frivillig	frivillige frivilligt frivillig
+39	1239	anbefale	anbefale anbefaler anbefales anbefalede anbefalet anbefal
+40	1240	art	art arter arten arts arterne artens arternes arters
+41	1241	herinde	herinde
+42	1242	ur	ur uret ure urene urent uren urs urets uretten urette
+43	1243	bytte	bytte byttet bytter byttede byt byttes byttets byttere
+44	1244	taske	taske tasken tasker taskerne taskens
+45	1245	tone	tone ton tons toner tonen tonerne tonede tonet tones
+46	1246	vanvittig	vanvittig vanvittigt vanvittige
+47	1247	aftes	aftes
+48	1248	udnytte	udnytte udnytter udnyttede udnyttet udnyttes udnyt udnytteren udnyttere udnyttende
+49	1249	svensk	svenske svensk svensken
+50	1250	kunst	kunst kunsten kunstens kunster kunsterne kunsts kunsters
+51	1251	strøm	strøm strømmen strømmer strømme strømmede strømmende strømmet strømmene strøms
+52	1252	røvhul	røvhul røvhuller røvhullet røvhullerne røvhullets røvhuls røvhullernes røvhullers
+53	1253	kontrakt	kontrakt kontrakten kontrakter kontrakterne kontraktens kontrakternes
+54	1254	placere	placeret placere placerer placeres placerede placer placér
+55	1255	frygt	frygt frygten frygtens
+56	1256	kød	kød kødet kødets køds
+57	1257	æg	æg ægget æggene ægge æggende æggen ægger æggede æggets æggenes
+58	1258	vest	vest vesten vestens veste vestene
+59	1259	mave	maven mave maver mav maverne mavens maves
+60	1260	bud	bud buddet buddene bude budet budene buds
+61	1261	skyldes	skyldes skyldtes
+62	1262	snyde	snydt snyde snyder snød snyd snydes snydere snydende snyders snyderen
+63	1263	søren	søren
+64	1264	myndighed	myndigheder myndighederne myndighed myndighedernes myndigheden myndigheders myndighedens myndigheds
+65	1265	alternativ	alternativ alternative alternativt alternativet alternativer alternativets alternativerne
+66	1266	droppe	droppe dropper droppede droppet droppes
+67	1267	per	per
+68	1268	muligvis	muligvis
+69	1269	ulykke	ulykke ulykken ulykker ulykkerne ulykkes ulykkens
+70	1270	mulig	mulige mulig
+71	1271	sigte	sigte sigt sigtet sigter sigtede sigtes sigtedes sigten
+72	1272	grine	griner grine grinede grinte grinet grinende grineren grint grines grinen
+73	1273	mængde	mængde mængder mængden mængderne
+74	1274	effekt	effekt effekten effekter effekterne effektens effekts
+75	1275	køn	køn kønt kønne kønnene kønnere kønnet kønneste køns kønnenes kønnest
+76	1276	smadre	smadret smadre smadrer smadrede smadr smadres smadredes smadren smadrende
+77	1277	oplevelse	oplevelse oplevelser oplevelsen oplevelserne oplevelsens oplevelses
+78	1278	sulten	sulten sultne sultent
+79	1279	alting	alting altings
+80	1280	produktion	produktion produktionen produktioner produktions produktionerne
+81	1281	materiale	materiale materialer materialet materialerne materialets
+82	1282	billet	billetter billet billetterne billetten billets
+83	1283	bevægelse	bevægelse bevægelser bevægelsen bevægelserne bevægelses bevægelsens
+84	1284	grim	grim grimme grimt grimmeste grimmere
+85	1285	studerende	studerende studerendes
+86	1286	bemærke	bemærket bemærkede bemærk bemærker bemærke bemærkes
+87	1287	forhindre	forhindre forhindrer forhindret forhindrede forhindres forhindr
+88	1288	pik	pik pikken pikke pikkene pikket piks pikker pikkede
+89	1289	december	december
+90	1290	kneppe	kneppe knepper knep kneppede kneppet kneppes kneppende kneppen
+91	1291	involvere	involveret involverede involverer involvere involveres involver involveredes involverende
+92	1292	frue	frue fruen fruens fruer frues fruerne
+93	1293	metode	metoder metode metoden metoderne
+94	1294	nervøs	nervøs nervøse nervøst
+95	1295	kugle	kugle kugler kuglen kuglerne kuglens kuglernes kugles
+96	1296	næse	næse næsen næser næserne næsens
+97	1297	tab	tab tabet tabene tabs tabets
+98	1298	ejendom	ejendom ejendomme ejendommen ejendommene ejendommens ejendoms
+99	1299	sværge	sværger svor sværge svoret svære sværg sværgede sværget svorne svoren
+100	1300	køkken	køkkenet køkken køkkener køknet køkkenets køkkenerne køkkens

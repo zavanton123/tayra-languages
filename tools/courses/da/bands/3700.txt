@@ -1,0 +1,100 @@
+1	3601	efterspørgsel	efterspørgsel efterspørgslen
+2	3602	videnskabsmand	videnskabsmand videnskabsmænd videnskabsmanden videnskabsmændene videnskabsmands
+3	3603	hurra	hurra hurraer
+4	3604	apropos	apropos
+5	3605	hval	hval hvaler hvalerne hvalen hvalernes hvalens hvals
+6	3606	depression	depression depressionen depressioner depressionens
+7	3607	ynkelig	ynkelig ynkeligt ynkelige ynkeligste ynkeligere
+8	3608	tilsyn	tilsyn tilsynet
+9	3609	dråbe	dråbe dråber dråben dråberne
+10	3610	hæle	hælene hæle hæl hælen hæler hæleren hælere hælende hælerne
+11	3611	variation	variation variationer variationen variationerne
+12	3612	pålidelig	pålidelig pålidelige pålideligt
+13	3613	sjette	sjette
+14	3614	bestemmelse	bestemmelser bestemmelse bestemmelsen bestemmelserne
+15	3615	ork	orker ork orkerne orken orkernes
+16	3616	underrette	underrettet underrette underretter underret underrettes underrettede underretten
+17	3617	skriftlig	skriftlige skriftlig skriftligt
+18	3618	sok	sokker sok sokkerne sokken soks
+19	3619	forudsætning	forudsætning forudsætninger forudsætningen forudsætningerne
+20	3620	udforske	udforske udforsker udforsket udforskede udforsk udforskere udforskeren udforskende udforskes
+21	3621	uro	uro uroen uroerne uroer
+22	3622	opfyldelse	opfyldelse opfyldelsen
+23	3623	statue	statue statuen statuer statuerne statuens statues
+24	3624	overnatte	overnatte overnatter overnattede overnattet overnattende overnat
+25	3625	bamse	bamse bamsen bamser bamserne bamses
+26	3626	riffel	riffel rifler riflen riflerne riffelen riflens
+27	3627	cola	cola colaer colaen colaerne
+28	3628	nedenfor	nedenfor
+29	3629	hævne	hævne hævner hævnet hævnen hævnede hævnes hævneren hævnende hævnere hævnerne
+30	3630	tape	tape tapet tapetet tapen tapede taper tapes tapeter
+31	3631	orientere	orienteret orienterede orientere orienterer orienter orienteres orientér
+32	3632	grøntsag	grøntsager grøntsag grøntsagerne grønsag grøntsagen grøntsags
+33	3633	jordskælv	jordskælv jordskælvet jordskælvene jordskælvets jordskælvs
+34	3634	forhøje	forhøjet forhøje forhøjede forhøjer forhøj forhøjes
+35	3635	ged	ged geder geden gederne gedens geds
+36	3636	ka	ka
+37	3637	koncentration	koncentration koncentrationen koncentrationer koncentrations
+38	3638	afprøve	afprøve afprøvet afprøver afprøvede afprøves afprøv
+39	3639	stang	stang stangen stænger stængerne
+40	3640	islamisk	islamisk islamiske
+41	3641	succesfuld	succesfuld succesfulde succesfuldt
+42	3642	gu	gu
+43	3643	bod	bod boden boder boderne bods
+44	3644	gen	gen gener genet generne gens genernes
+45	3645	terræn	terræn terrænet
+46	3646	uundgåelig	uundgåeligt uundgåelige uundgåelig
+47	3647	redaktion	redaktionen redaktion
+48	3648	monsieur	monsieur monsieurs
+49	3649	bydel	bydel bydelen bydele bydels
+50	3650	hindre	hindre hindrer hindrede hindret hindres
+51	3651	ekstraordinær	ekstraordinært ekstraordinær ekstraordinære
+52	3652	protein	protein proteiner proteinet proteinerne
+53	3653	arving	arving arvinger arvingerne arvingen
+54	3654	ups	ups
+55	3655	udtag	udtaget udtag
+56	3656	kvæg	kvæg kvæget
+57	3657	torv	torv torvet torvene torve torvs
+58	3658	klan	klan klanen klaner klanens klanerne klans klaners
+59	3659	administrere	administrerende administrere administreres administrerer administreret administrerede
+60	3660	hvorpå	hvorpå
+61	3661	pels	pels pelsen pelse pelsene pelset pelsede pelser
+62	3662	ufattelig	ufatteligt ufattelig ufattelige
+63	3663	kappe	kappe kappen kapper kappede kappes kappet kapperne kappedes
+64	3664	forpligtelse	forpligtelser forpligtelse forpligtigelse forpligtigelser forpligtelsen forpligtelserne forpligtigelsen
+65	3665	ve	ve veer veerne ves veen veers
+66	3666	maling	maling malingen
+67	3667	formiddag	formiddag formiddagen formiddags formiddagens
+68	3668	dosis	dosis doser dosen doserne dosisen dosissen
+69	3669	granat	granat granater granaten granaterne
+70	3670	e-mail	e-mail e-mails e-mailen e-mailene
+71	3671	romersk	romerske romersk
+72	3672	honning	honning honningen
+73	3673	facilitet	faciliteter facilitet faciliteterne faciliteten
+74	3674	bokser	bokser boksere bokseren bokserne boksers bokserens bokseres
+75	3675	fundament	fundament fundamentet fundamenter
+76	3676	musikalsk	musikalske musikalsk
+77	3677	naiv	naiv naive naivt
+78	3678	match	matcher matchen
+79	3679	dykke	dykke dyk dykkede dykket dykkende
+80	3680	nedbryde	nedbryde nedbrudt nedbrydes nedbryder nedbrudte nedbrydende nedbrød nedbryd nedbryderen
+81	3681	svæve	svæver svæve svævende svævede svæv svævet
+82	3682	indslag	indslag indslaget indslagene
+83	3683	understøtte	understøtte understøtter understøttet understøttes understøttende understøt understøttede
+84	3684	vanskelighed	vanskeligheder vanskelighederne vanskelighed vanskeligheden
+85	3685	chip	chip chippen chippene
+86	3686	ægtemand	ægtemand ægtemænd ægtemanden ægtemands ægtemandens ægtemændene ægtemænds
+87	3687	madame	madame madames
+88	3688	pårørende	pårørende pårørendes
+89	3689	melodi	melodi melodien melodier melodierne
+90	3690	akademi	akademiet akademi akademiets akademier akademis
+91	3691	odder	odder oddere odderen odderne
+92	3692	gåde	gåde gåder gåden gåderne gådes gådens
+93	3693	bagfra	bagfra
+94	3694	fiskeri	fiskeri fiskeriet
+95	3695	vindmølle	vindmøller vindmølle vindmøllen vindmøllerne
+96	3696	afslappet	afslappet afslappede
+97	3697	realitet	realitet realiteten realiteter realiteterne realiteternes
+98	3698	arbejdsgiver	arbejdsgiver arbejdsgivere arbejdsgiverne arbejdsgivers arbejdsgiveren
+99	3699	fremstilling	fremstilling fremstillingen fremstillinger
+100	3700	fritid	fritid fritiden

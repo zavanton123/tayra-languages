@@ -1,0 +1,100 @@
+1	7601	gengivelse	gengivelse gengivelser
+2	7602	beundring	beundring beundrings
+3	7603	fraskilt	fraskilt fraskilte
+4	7604	gøremål	gøremål
+5	7605	retorisk	retorisk retoriske
+6	7606	pokalturnering	pokalturneringen
+7	7607	hidsig	hidsig hidsige hidsigt
+8	7608	atten	atten
+9	7609	lærebog	lærebog lærebøger lærebogen lærebøgerne
+10	7610	epoke	epoke
+11	7611	argumentation	argumentation
+12	7612	gårsdag	gårsdagens gårsdagen
+13	7613	åndsvag	åndsvagt åndsvage åndsvag
+14	7614	bombning	bombningen bombning bombninger bombningerne
+15	7615	franc	franc francs francen
+16	7616	forsamlingshus	forsamlingshus forsamlingshuset
+17	7617	indtrængende	indtrængende
+18	7618	uretfærdighed	uretfærdighed uretfærdigheder uretfærdigheden uretfærdighedens uretfærdighederne
+19	7619	karat	karat karats
+20	7620	redegøre	redegøre redegjort redegør redegøres redegjorde
+21	7621	snestorm	snestorm snestormen snestorme snestormene
+22	7622	arrogance	arrogance arrogancen
+23	7623	blæksprutte	blæksprutte blæksprutter blæksprutten blæksprutterne blækspruttens
+24	7624	bagland	bagland baglandet
+25	7625	belære	belære belærer belær belært belærte belæres belærende
+26	7626	ildsjæl	ildsjæle ildsjæl
+27	7627	selvfølge	selvfølge
+28	7628	faktura	faktura fakturaer fakturaen fakturaerne
+29	7629	opdrætte	opdrættet opdræt opdrætter opdrætte opdrættede opdrættes opdrætteren opdrættere
+30	7630	gym	gym
+31	7631	voodoo	voodoo voodooens
+32	7632	indbydelse	indbydelse indbydelsen indbydelser indbydelserne
+33	7633	elastik	elastik elastikken elastikker elastikkerne
+34	7634	implementere	implementeret implementere implementerer implementeres implementerede implementer
+35	7635	lure	luret lurede lurende
+36	7636	rettelse	rettelse rettelser rettelserne
+37	7637	prognose	prognose prognosen prognoser prognoserne
+38	7638	vrangforestilling	vrangforestillinger vrangforestilling vrangforestillingerne vrangforestillingen
+39	7639	uovervindelig	uovervindelig uovervindelige uovervindeligt
+40	7640	selvisk	selvisk selviske
+41	7641	analytisk	analytisk analytiske
+42	7642	reservat	reservatet reservat reservater reservaterne reservatets
+43	7643	advokatfirma	advokatfirma advokatfirmaet advokatfirmaer advokatfirmas
+44	7644	oval	ovale oval ovalen ovalt
+45	7645	skotte	skotte skotter skotterne skottet skotten skot skotternes skottes
+46	7646	skolelærer	skolelærer skolelæreren skolelærere
+47	7647	snørebånd	snørebånd snørebåndene snørebåndet
+48	7648	tonsvis	tonsvis
+49	7649	indad	indad
+50	7650	kodenavn	kodenavn kodenavnet kodenavne
+51	7651	logi	logi
+52	7652	snage	snage snager snagede snaget snagen snagende
+53	7653	litium	lithium litium
+54	7654	kulhydrat	kulhydrater kulhydraterne kulhydrat
+55	7655	sytten	sytten
+56	7656	opstand	opstand opstanden opstandne opstande
+57	7657	seertal	seertal seertallene seertallet
+58	7658	sirene	sirener sirene sirenen sirenerne sirenernes sirenens
+59	7659	ofring	ofring ofringer ofringen ofringerne ofringens ofrings
+60	7660	ytre	ytre ytrer ytret ytrede ytres
+61	7661	uorden	uorden uordenen
+62	7662	udenbys	udenbys
+63	7663	topkarakter	topkarakter topkarakterer
+64	7664	marsvin	marsvin marsvinet marsvinene
+65	7665	rumænsk	rumænske rumænsk
+66	7666	arktisk	arktiske arktisk
+67	7667	bibliotekar	bibliotekar bibliotekaren bibliotekarer bibliotekarerne
+68	7668	reduktion	reduktion reduktionen
+69	7669	ordforråd	ordforråd ordforrådet
+70	7670	forgude	forguder forgudede forgudet forgude forgud
+71	7671	bilnøgle	bilnøgler bilnøglerne bilnøglen bilnøgle
+72	7672	sprit	sprit spritten
+73	7673	daginstitution	daginstitutioner daginstitutionerne daginstitution
+74	7674	police	police policen policer policerne
+75	7675	varetægtsfængsle	varetægtsfængslet varetægtsfængsles varetægtsfængsle varetægtsfængslede varetægtsfængsler
+76	7676	bueskytte	bueskytter bueskytte bueskytterne bueskytten
+77	7677	kridt	kridt kridtet
+78	7678	dødelighed	dødelighed dødeligheden dødelighedens
+79	7679	skruetrækker	skruetrækker skruetrækkeren skruetrækkere skruetrækkerne
+80	7680	plysse	plys plysset plyssede
+81	7681	fagfolk	fagfolk
+82	7682	kaserne	kasernen kaserne kaserner kasernerne kasernens
+83	7683	stedmor	stedmor stedmors stedmødre stedmoren
+84	7684	opkast	opkast opkastet
+85	7685	hypnose	hypnose hypnosen
+86	7686	bookmaker	bookmaker bookmakere bookmakeren bookmakerne bookmakernes
+87	7687	primo	primo
+88	7688	manøvre	manøvre manøvren manøvrerne
+89	7689	restaurere	restaureret restaurere restaurerer restaurerede restaureres
+90	7690	tiltage	tiltagende tiltager tiltage tiltog tiltaget
+91	7691	glimmer	glimmer glimmeret glimmeren
+92	7692	politiassistent	politiassistent politiassistenten politiassistenter
+93	7693	maskineri	maskineri maskineriet
+94	7694	tilfalde	tilfalder tilfalde tilfaldt tilfaldet
+95	7695	indeklima	indeklima
+96	7696	cirkulær	cirkulære cirkulær cirkulært
+97	7697	nytænkning	nytænkning
+98	7698	hidkalde	hidkalde hidkalder hidkaldt hidkaldte hidkald hidkaldes
+99	7699	finanser	finanser finanserne
+100	7700	opsige	opsagt opsige opsiger opsagde opsiges opsig opsagte

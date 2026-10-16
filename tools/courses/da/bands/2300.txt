@@ -1,0 +1,100 @@
+1	2201	trin	trin trins trinene trinnet trinet trinnene
+2	2202	bekymring	bekymring bekymringer bekymringen bekymringerne
+3	2203	eks	eks ekser eksen ekserne
+4	2204	vænne	vænne vænner vænnet væn vænnede vænnes
+5	2205	glimrende	glimrende
+6	2206	jysk	jyske jysk
+7	2207	konkret	konkrete konkret
+8	2208	civil	civile civil civilt
+9	2209	overgive	overgive overgiver overgav overgiv overgivet overgives
+10	2210	venskab	venskab venskaber venskabet venskabs venskabets venskaberne
+11	2211	elektrisk	elektrisk elektriske
+12	2212	overfald	overfaldet overfald overfaldene overfalds
+13	2213	operere	opererer operere opereret opereres opererede operer
+14	2214	frø	frø frøs frøer frøene frøen frøerne frøet frøens frøernes
+15	2215	hejsa	hejsa
+16	2216	kapitel	kapitel kapitler kapitlet kapitlerne
+17	2217	eksplodere	eksploderer eksplodere eksploderede eksploderet eksploderende eksploder eksploderes
+18	2218	juridisk	juridisk juridiske
+19	2219	areal	areal arealer arealet arealerne
+20	2220	skjorte	skjorte skjorter skjorten skjorterne
+21	2221	grundlæggende	grundlæggende grundliggende
+22	2222	nederlag	nederlag nederlaget nederlagets nederlagene
+23	2223	oplyse	oplyse oplyser oplyste oplysende oplys oplyses
+24	2224	rode	rode roder rodet rodede roden rodes rodens
+25	2225	sukker	sukker sukkeret
+26	2226	forlænge	forlænget forlænge forlænger forlængede forlænges forlæng forlængeren
+27	2227	fond	fonden fond fonde fondens fondet fonder fonds
+28	2228	design	designet designene
+29	2229	opfordre	opfordrer opfordre opfordrede opfordret opfordres
+30	2230	sy	sy syet sys syr syede syes syer
+31	2231	herind	herind
+32	2232	formue	formue formuer formuen
+33	2233	amok	amok
+34	2234	brille	briller brillerne brille brillen
+35	2235	streng	streng strenge strengt strengere strengen strengeste strengene strenger
+36	2236	vinge	vinger vingerne vinge vingen vingernes vingens
+37	2237	klam	klamt klam klamme klammeste klammer klammere klammerne
+38	2238	opfatte	opfatter opfattes opfattet opfatte opfattede opfat opfattende
+39	2239	kriger	kriger krigere krigeren krigerne krigers krigerens krigeres krigernes
+40	2240	demokrati	demokrati demokratiet demokratiets demokratier demokratis
+41	2241	sætning	sætning sætninger sætningen sætningerne
+42	2242	taste	har taste tast tasterne taster tastede tastet tasten tastes
+43	2243	industri	industri industrien industriens industrier industris
+44	2244	japansk	japanske japansk
+45	2245	højst	højst
+46	2246	vinkel	vinkel vinkler vinklen vinklerne
+47	2247	planlægge	planlægge planlagde planlægges planlæg
+48	2248	beløb	beløb beløbet beløbene beløbets
+49	2249	snuppe	snupper snup snuppe snuppede snuppet snuppes
+50	2250	forhandling	forhandlinger forhandlingerne forhandling forhandlingen forhandlings
+51	2251	slæbe	slæbe slæber slæbt slæbte slæb slæbet slæbende slæbes slæben
+52	2252	retfærdighed	retfærdighed retfærdigheden retfærdighedens retfærdigheds
+53	2253	statsminister	statsminister statsministeren statsministerens statsministers
+54	2254	udsætte	udsætte udsættes udsætter udsatte udsæt udsattes
+55	2255	lovgivning	lovgivning lovgivningen lovgivninger
+56	2256	grundig	grundigt grundig grundige grundigere
+57	2257	møller	møller møllers møllerne mølleren møllerens møllere
+58	2258	ydmyge	ydmyge ydmyg ydmygende ydmyget ydmygede ydmygt ydmyger ydmyges ydmygest ydmygeste
+59	2259	besætning	besætningen besætning besætninger besætningens besætningerne besætnings
+60	2260	fag	fag faget fagene fags fagets
+61	2261	skive	skive skiver skiven skiverne skivet skivens
+62	2262	last	last lasten laster lastens lasterne lasternes
+63	2263	tilsvarende	tilsvarende
+64	2264	gi	gi gir gien
+65	2265	fis	fis fist fiser feset fise fisser fisen fisserne fes fisens
+66	2266	forene	forenede forene forenet forener forenedes forenende
+67	2267	vant	vant vante vanter vanten vanterne
+68	2268	åbning	åbning åbningen åbninger åbnings åbningerne
+69	2269	hverdag	hverdag hverdagen hverdage hverdagens hverdags hverdagene
+70	2270	bøje	bøje bøjer bøjet bøj bøjede bøjes bøjen bøjerne
+71	2271	herhen	herhen
+72	2272	bidrag	bidrag bidraget bidragene
+73	2273	udtalelse	udtalelse udtalelser udtalelsen udtalelserne
+74	2274	had	had hadet hadets
+75	2275	rigelig	rigeligt rigelig rigelige
+76	2276	undtagelse	undtagelse undtagelser undtagelsen undtagelses undtagelserne
+77	2277	affyre	affyret affyre affyrede affyrer affyr affyres affyredes
+78	2278	lidelse	lidelse lidelser lidelsen lidelserne lidelsens lidelses lidelsernes
+79	2279	slik	slik slikket slikken
+80	2280	statistik	statistik statistikken statistikker statistikkerne
+81	2281	amager	amager
+82	2282	blokere	blokeret blokerer blokere blokerede bloker blokeres
+83	2283	kommando	kommandoen kommando kommandoer kommandoerne kommandoens
+84	2284	hukommelse	hukommelse hukommelsen hukommelses hukommelser hukommelsens
+85	2285	citat	citat citater citatet citaterne
+86	2286	afgang	afgang afgange afgangen afgangs
+87	2287	rådgiver	rådgiver rådgivere rådgiveren rådgiverne rådgiverens rådgivers
+88	2288	hytte	hytte hytten hytter hytterne hyttens
+89	2289	kæde	kæde kæden kæder kæderne kædet kædes kædens kædede kæd
+90	2290	intern	interne intern internt
+91	2291	investere	investere investeret investerer investerede investeres invester
+92	2292	villa	villa villaen villaer villas villaens villaerne
+93	2293	holm	holm holmes holmen holme holmens holms
+94	2294	diverse	diverse
+95	2295	kalender	kalender kalenderen kalendere kalenderne
+96	2296	pisse	pisse pisser pissede pisset pissen pissende
+97	2297	derved	derved
+98	2298	opskrift	opskrift opskriften opskrifter opskrifterne
+99	2299	markere	markeret markerer markere markerede markeres marker markér
+100	2300	præg	præget præg

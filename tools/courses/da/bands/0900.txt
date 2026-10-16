@@ -1,0 +1,100 @@
+1	801	straks	straks
+2	802	pistol	pistol pistolen pistoler pistolerne pistols pistolens
+3	803	hvid	hvid hvidt hvides hvidere hvideste
+4	804	kædemaske	km
+5	805	sej	sejt sej seje sejeste sejere sejest sejer
+6	806	elskede	elskede
+7	807	beslutte	besluttede besluttet beslutte beslut besluttes
+8	808	fører	fører føreren førerens førere førerne førers
+9	809	begå	begået begå begik begår begås
+10	810	soldat	soldater soldat soldaterne soldaten soldats soldaters soldaternes soldatens
+11	811	rolle	rolle rollen roller rollerne rolles rollers
+12	812	fordel	fordel fordelt fordele fordelen fordeles fordelene fordeler fordelte
+13	813	besøg	besøg besøget besøgene besøgs
+14	814	jamen	jamen
+15	815	sælger	sælger sælgeren sælgere sælgerne sælgers sælgerens sælgernes
+16	816	beslutning	beslutning beslutninger beslutningen beslutningerne beslutnings
+17	817	beholde	beholde beholder behold beholdt beholderen beholdere beholdte beholderne beholdes beholderens
+18	818	hær	hær hæren hære hærens hærs hærene hæres
+19	819	tjene	tjene tjente tjent tjen tjenes tjenende
+20	820	overraske	overrasket overraskende overraske overrasker overraskede overrask overraskes
+21	821	afsted	afsted
+22	822	super	super supert
+23	823	skør	skør skøre skørt skørter skøreste skørere skørtet skørterne skøres
+24	824	enten	enten
+25	825	melde	melde melder meldt meldte meld meldes
+26	826	jul	jul julen jules jule julens julet juls
+27	827	beskrive	beskriver beskrevet beskrive beskrives beskrev beskriv beskrevne beskrivende
+28	828	mark	mark marken marker marks markerne markens markers
+29	829	indeholde	indeholder indeholdt indeholde indeholdende indeholdte indehold
+30	830	brev	brev breve brevet brevene brevets brevenes
+31	831	sko	sko skoene skoen skor skoet skos skoens skoer skoede
+32	832	kunde	kunder kunde kunderne kunden kundernes kunders kundens kundes
+33	833	advokat	advokat advokater advokaten advokaterne advokats advokatens advokaternes advokaters
+34	834	voksen	voksen voksne voksnes voksent
+35	835	marts	marts
+36	836	naturligvis	naturligvis
+37	837	fodbold	fodbold fodbolden fodbolde fodboldens fodbolds fodboldene
+38	838	midt	midt
+39	839	travl	travlt travl travle travleste
+40	840	styr	styr styret
+41	841	forestille	forestille forestil forestiller forestillet forestillede
+42	842	nøgle	nøglen nøgle nøgler nøglerne nøglens
+43	843	ære	ære æren ærede æret ærer ær ærens æres ærende
+44	844	blande	blande blandet bland blander blandede blandes
+45	845	lugte	lugter lugte lugt lugten lugtede lugtet lugtende lugtes lugtene lugtens
+46	846	hjerne	hjerne hjernen hjerner hjernens hjernerne hjernes hjerners hjernernes
+47	847	ordne	ordne ordnet ordnede ordner ordnes ordn ordnen
+48	848	forslag	forslag forslaget forslagene
+49	849	evne	evner evne evnen evnerne evnede evnet evners
+50	850	baggrund	baggrund baggrunden baggrunde baggrunds
+51	851	vindue	vinduet vindue vinduer vinduerne vindues vinduets
+52	852	opføre	opfører opføre opført opførte opfør opføres
+53	853	flygte	flygte flygtede flygter flygtet flygt flygtende
+54	854	patient	patienter patient patienten patienterne patientens patienternes patients patienters
+55	855	finger	fingre fingrene finger fingeren fingers fingrer fingres
+56	856	løsning	løsning løsninger løsningen løsningerne
+57	857	seriøs	seriøst seriøs seriøse
+58	858	interesse	interesse interesser interessen interesserne
+59	859	dommer	dommer dommeren dommere dommerne dommerens dommernes dommers dommeres
+60	860	synge	synge synger syng sunget syngende synges syngen
+61	861	knap	knap knappen knapt knapper knapperne knappe knappet knappede knappes
+62	862	tvivl	tvivl tvivlen tvivlens
+63	863	information	information informationer informationen informationerne informations
+64	864	løfte	løfte løfter løft løftet løftede løftes løfterne løftedes løftere løfters
+65	865	mærkelig	mærkeligt mærkelig mærkelige mærkeligste mærkeligere
+66	866	avis	avisen avis aviser aviserne avisens avisernes
+67	867	dygtig	dygtig dygtige dygtigste dygtigt dygtigere
+68	868	gætte	gæt gætte gætter gættet gættede
+69	869	oplysning	oplysninger oplysning oplysningerne oplysningen oplysningens
+70	870	gæst	gæster gæst gæsterne gæsten gæsternes gæsters gæsts gæstens
+71	871	sprog	sprog sproget sprogets sprogs sprogene
+72	872	rive	river revet rive rev revner riv revne rivers rives revnet
+73	873	derude	derude
+74	874	hertil	hertil
+75	875	fælles	fælles
+76	876	forretning	forretning forretninger forretningen forretningerne forretnings forretningens
+77	877	bekymret	bekymret bekymrede
+78	878	værsgo	værsgo
+79	879	fjende	fjender fjende fjenden fjendens fjenderne fjendes fjenders fjendernes
+80	880	løgn	løgn løgne løgnen løgnene løgnens løgnenes løgnes
+81	881	maj	maj
+82	882	smule	smule smulerne smuler
+83	883	pokker	pokker pokkers
+84	884	afdeling	afdeling afdelingen afdelinger afdelingens afdelingerne afdelings
+85	885	stjerne	stjerne stjerner stjernerne stjernen stjernernes stjernes stjernens stjerners
+86	886	adgang	adgang adgangen adgangs adgange
+87	887	skønne	skønne skøn skønneste skønnes skønner skønnet skønnere skønnest skønnede
+88	888	ryg	ryggen ryg rygge ryggene
+89	889	alder	alder alderen aldre alders alderens aldrene
+90	890	computer	computer computeren computere computerne computerens computers
+91	891	myrde	myrdet myrdede myrde myrder myrdes myrd myrdedes myrdende
+92	892	bred	bred bredt brede bredere bredden breder bredte bredeste bredder bredderne
+93	893	træner	træner trænere træneren trænerne trænerens træners
+94	894	weekend	weekend weekenden weekenderne weekender weekendens weekends
+95	895	kamera	kamera kameraet kameraer kameraerne kameraets kameraernes kameras
+96	896	september	september septembers
+97	897	fader	fader faderen faderens faders fædre fædrene fædres fædrenes
+98	898	brød	brød brødet brødene brødets
+99	899	ganske	ganske
+100	900	svin	svin svinet svinene svinets svins svinenes

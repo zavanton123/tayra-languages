@@ -1,0 +1,100 @@
+1	9501	vindstød	vindstød
+2	9502	overdrivelse	overdrivelse overdrivelser
+3	9503	genetik	genetik genetikken
+4	9504	spisested	spisesteder spisested spisestedet
+5	9505	uundværlig	uundværlig uundværlige uundværligt
+6	9506	jasmin	jasmin jasminer
+7	9507	vaskeægte	vaskeægte
+8	9508	undfange	undfanget undfange undfangede undfanger undfanges
+9	9509	basalt	basalt
+10	9510	ordvalg	ordvalg ordvalget
+11	9511	øjenlåg	øjenlåg øjenlågene øjenlåget
+12	9512	mekanik	mekanik mekanikken mekanikker
+13	9513	camouflage	camouflage kamuflage camouflagen kamuflagen
+14	9514	tilnærmelse	tilnærmelser tilnærmelse
+15	9515	rehabilitering	rehabilitering rehabiliteringen rehabiliterings
+16	9516	kreditor	kreditorer kreditorerne kreditor
+17	9517	kortfattet	kortfattet kortfattede
+18	9518	sindstilstand	sindstilstand
+19	9519	uforudset	uforudsete uforudset
+20	9520	slagteri	slagteri slagteriet slagterier slagterierne
+21	9521	chokoladekage	chokoladekage chokoladekager chokoladekagen
+22	9522	folkevalgt	folkevalgte folkevalgt
+23	9523	guitarist	guitarist guitaristen guitarister
+24	9524	drukkenbolt	drukkenbolt drukkenbolte drukkenbolten
+25	9525	fordør	fordøren fordør fordørene
+26	9526	skriveri	skriverier skriveriet skriveri skriverierne
+27	9527	vellidt	vellidt vellidte
+28	9528	certifikat	certifikat certifikatet certifikater certifikaterne
+29	9529	eventyrland	eventyrland eventyrlandet
+30	9530	afstraffelse	afstraffelse afstraffelsen afstraffelser afstraffelsens
+31	9531	træsko	træsko træskoene
+32	9532	delikatesse	delikatesse delikatesser delikatessen
+33	9533	konsultere	konsultere konsulterer konsulteret konsulterede konsulter konsulterende
+34	9534	gamer	gamer gamere
+35	9535	fister	fister
+36	9536	naller	nallerne naller
+37	9537	inferno	inferno infernos infernoet
+38	9538	fælledpark	fælledparken
+39	9539	lavine	lavine lavinen laviner
+40	9540	rekruttering	rekruttering rekrutteringen rekrutterings
+41	9541	østside	østsiden østside
+42	9542	gilde	gilde gildet gilder
+43	9543	konsensus	konsensus
+44	9544	skomager	skomager skomageren skomagerens
+45	9545	hældning	hældning hældningen
+46	9546	fødselsdato	fødselsdato fødselsdatoen fødselsdatoer
+47	9547	hestehale	hestehale hestehalen hestehaler hestehalerne
+48	9548	iklæde	iklædt iklæde iklæder iklæd
+49	9549	modvilje	modvilje
+50	9550	pizzeria	pizzeria pizzeriaet pizzaria pizzariaet pizzeriaer
+51	9551	skytsengel	skytsengel skytsengle skytsenglen skytsenglene
+52	9552	selvmordsforsøg	selvmordsforsøg selvmordsforsøget
+53	9553	platin	platin platinet
+54	9554	madvare	madvarer madvarerne
+55	9555	læserbrev	læserbrev læserbreve
+56	9556	tissemand	tissemand tissemænd tissemanden
+57	9557	optimere	optimeret optimere optimerede
+58	9558	leksikon	leksikon leksikonet leksikoner
+59	9559	håndvåben	håndvåben
+60	9560	jammer	jammer jammeren
+61	9561	passage	passagen passagerne
+62	9562	degradere	degraderet degraderer degradere degraderes degraderede
+63	9563	horde	horder horde horden horderne hordens
+64	9564	indvie	indvie
+65	9565	speeder	speederen speeder speedere speederne
+66	9566	støbning	støbning støbningen
+67	9567	overkrop	overkroppen overkrop
+68	9568	marin	marin
+69	9569	lejebolig	lejebolig lejeboliger
+70	9570	remis	remis remisen
+71	9571	sfære	sfære sfæren sfærerne sfærer sfærens
+72	9572	komfort	komfort komforten
+73	9573	verdensbank	verdensbanken verdensbankens
+74	9574	optimist	optimist optimister optimisten
+75	9575	missekat	missekat missekatten missekatte
+76	9576	videobånd	videobånd videobåndet videobåndene
+77	9577	nådesløs	nådesløs nådesløse nådesløst
+78	9578	styreform	styreform
+79	9579	erindre	erindrer erindre erindredes erindrede
+80	9580	heteroseksuel	heteroseksuelle heteroseksuel heteroseksuelt
+81	9581	nadver	nadver nadveren
+82	9582	udmattelse	udmattelse udmattelsen
+83	9583	tidsbegrænse	tidsbegrænset
+84	9584	ildkraft	ildkraft ildkraften
+85	9585	geled	geled geleddet geledderne geledder
+86	9586	skærsild	skærsilden skærsild skærsildens
+87	9587	forsvarsløs	forsvarsløse forsvarsløs forsvarsløst
+88	9588	interferens	interferens interferensen
+89	9589	rumstation	rumstation rumstationen rumstationer
+90	9590	forbavset	forbavset forbavsede
+91	9591	hvadbehager	hvadbehager
+92	9592	svulme	svulmer svulme svulmende svulmede svulmet svulmen
+93	9593	splejse	splejs splejse splejset splejsede splejser splejsen splejses
+94	9594	dranker	dranker drankere drankeren drankers
+95	9595	vag	vag vage
+96	9596	balsam	balsam
+97	9597	stedse	stedse
+98	9598	term	termer termen termerne
+99	9599	fængselsbetjent	fængselsbetjent fængselsbetjente fængselsbetjentene fængselsbetjenten
+100	9600	dyreart	dyrearter dyreart

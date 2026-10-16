@@ -1,0 +1,100 @@
+1	1601	original	originale original originalt originalen originaler originalerne originals
+2	1602	dertil	dertil
+3	1603	fjols	fjols fjolser fjolset fjolserne fjolsets fjolsers fjolsernes
+4	1604	ånd	ånd ånder ånden ånderne åndens åndernes ånds ånders
+5	1605	storm	storm stormen storme stormer stormede stormende stormene stormet stormens storms
+6	1606	undskyldning	undskyldning undskyldninger undskyldningen undskyldningerne
+7	1607	banke	banke bankede banken banker banket bankerne bankens bankende bankes banketten
+8	1608	tæller	tæller tælleren tællerne
+9	1609	forvirre	forvirret forvirrende forvirrede forvirre forvirrer forvir forvirres
+10	1610	smil	smil smilet smilene
+11	1611	status	status statussen statusen
+12	1612	parat	parat parate
+13	1613	kritik	kritik kritikken kritikkerne kritikker
+14	1614	finale	finalen finale finaler finalerne
+15	1615	yderst	yderst yderste
+16	1616	øverst	øverste øverst
+17	1617	reel	reelt reelle reel
+18	1618	sagtens	sagtens
+19	1619	langs	langs
+20	1620	tilføje	tilføjet tilføje tilføjede tilføjer tilføj tilføjes
+21	1621	fremstille	fremstillet fremstille fremstiller fremstilles fremstillede fremstil
+22	1622	proces	proces processen processer processerne
+23	1623	grin	grin grinet grinene
+24	1624	brygge	har brygge brygget bryggen brygger bryg bryggede bryggerset bryggers bryggere
+25	1625	slette	slettet slette sletter slettes slettede sletten sletterne sletternes
+26	1626	flok	flok flokken flokke flokkes flokkens flokkene flokkedes floks
+27	1627	optagelse	optagelse optagelser optagelserne optagelsen optagelses
+28	1628	fortryde	fortryder fortryde fortrudt fortrød fortryd fortrydes
+29	1629	kvarter	kvarter kvarteret kvarterer kvarterets kvartererne
+30	1630	hive	hive hiv hiver hev hevet hives hivs hivende hiven hivet
+31	1631	forbedre	forbedre forbedret forbedrer forbedrede forbedres forbedr forbedredes
+32	1632	prinsesse	prinsesse prinsessen prinsesser prinsessens prinsesserne prinsesses
+33	1633	derovre	derovre
+34	1634	tynd	tynd tyndt tynde tyndere tynder tyndeste tyndet tyndede tyndest tyndes
+35	1635	stakkels	stakkels
+36	1636	tyk	tyk tykke tykt tykkere tykkeste
+37	1637	mail	mail mails mailen mailene
+38	1638	standse	standse standser standsede standset stands standses
+39	1639	li	li lis lien lier
+40	1640	vurdere	vurdere vurderet vurderer vurderede vurderes vurder vurdér
+41	1641	studere	studere studerede studeret studerer studer studér studeres
+42	1642	svømme	svømme svømmer svømmede svømmere svøm svømmet svømmende svømmeren svømmerne
+43	1643	modtager	modtager modtageren modtagere modtagerne modtagerens modtagers
+44	1644	fælde	fælde fælder fælden fældet fældede fælderne fældende fæld fældes
+45	1645	nakke	nakken nakke nakker nak nakket nakkede nakkes
+46	1646	hensyn	hensyn hensynet
+47	1647	latterlig	latterligt latterlig latterlige latterligste
+48	1648	trykke	trykke trykt trykkede trykket trykte trykkes trykken trykkende
+49	1649	tung	tung tungt tungere tungeste tungest
+50	1650	univers	universet univers universets universer universerne universernes
+51	1651	nylig	nylig nyligt nylige
+52	1652	sær	sært sær sære særeste særere
+53	1653	rettighed	rettigheder rettighederne rettighed rettigheden rettigheders rettigheds
+54	1654	skarp	skarp skarpt skarpe skarpere skarpeste skarpest
+55	1655	sygeplejerske	sygeplejerske sygeplejersker sygeplejersken sygeplejerskerne sygeplejerskernes sygeplejerskens sygeplejerskes
+56	1656	begreb	begrebet begreb begreber begreberne
+57	1657	omtale	omtale omtalte omtalt omtaler omtales omtalen omtal
+58	1658	fattig	fattige fattig fattigste fattigt fattigere
+59	1659	kurs	kurs kursen kurser kurserne
+60	1660	ledig	ledige ledig ledigt
+61	1661	såsom	såsom
+62	1662	angriber	angriber angribere angriberen angriberne angriberens
+63	1663	fremad	fremad
+64	1664	flade	flade flad fladt flader fladen fladere fladeste fladet fladens fladede
+65	1665	kant	kanten kant kanter kanterne kants
+66	1666	italiensk	italiensk italienske
+67	1667	indføre	indført indføre indførte indføres indfører indfør indførtes
+68	1668	indflydelse	indflydelse indflydelser indflydelsen
+69	1669	selvstændig	selvstændig selvstændigt selvstændige
+70	1670	frygtelig	frygtelig frygteligt frygtelige frygteligste
+71	1671	humør	humør humøret
+72	1672	sprænge	sprænge sprængt sprænger sprængte sprænges spræng sprængtes
+73	1673	steg	steg stegt stege stegte steger stegen steges stegende
+74	1674	århundrede	århundrede århundreder århundredes århundredets århundreders århundredet århundrederne
+75	1675	befinde	befinder befandt befinde befundet
+76	1676	kinesisk	kinesiske kinesisk
+77	1677	æde	æde æder åd ædt æd ædes ædere æderen ædende æderne
+78	1678	standard	standard standarder standarden standarderne standards
+79	1679	udenlandsk	udenlandske udenlandsk
+80	1680	midte	midten midte
+81	1681	eje	eje ejede ejet ejes ejen
+82	1682	glippe	glip glippede glipper glippe glippet
+83	1683	fremmed	fremmed fremmede fremmeds fremmedes
+84	1684	moder	moder moderen moderens moders mødre mødrene mødres mødrenes
+85	1685	satse	satser satse sats satsede satset satsen satserne satses
+86	1686	ukendt	ukendt ukendte
+87	1687	opdatere	opdateret opdatere opdaterer opdaterede opdateres opdater opdatér
+88	1688	knæ	knæ knæet knæene
+89	1689	tilbringe	tilbringe tilbragte tilbragt tilbringer tilbring tilbringes
+90	1690	smile	smiler smile smilede smilende smilet smilte smiles smilt
+91	1691	cykel	cykel cykler cyklen cyklerne
+92	1692	fællesskab	fællesskab fællesskabet fællesskaber fællesskabets
+93	1693	ovenpå	ovenpå
+94	1694	væsen	væsen væsner væsener væsenet væsnet væsnerne væsenerne væsens væsenets væsnets
+95	1695	barnebarn	barnebarn børne børnebørn børnebørnene barnebarns barnebarnet barne børnebørns børnebørnenes
+96	1696	effektiv	effektivt effektiv effektive effektivere
+97	1697	kommentar	kommentar kommentarer kommentarerne kommentaren
+98	1698	derhen	derhen
+99	1699	angribe	angribe angrebet angrib angribes angribende angrebne
+100	1700	stikker	stikker stikkere stikkeren stikkerne

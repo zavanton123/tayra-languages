@@ -1,0 +1,100 @@
+1	8801	forbrugerråd	forbrugerrådet
+2	8802	ubeskyttet	ubeskyttet ubeskyttede
+3	8803	afdrag	afdrag afdragene afdraget
+4	8804	afskum	afskum afskummet
+5	8805	kurator	kurator kuratoren kuratorer kuratorerne
+6	8806	husbond	husbond husbonden husbonds husbonder
+7	8807	istid	istid istiden istider
+8	8808	aktieselskab	aktieselskab aktieselskaber aktieselskabet
+9	8809	etnicitet	etnicitet
+10	8810	halo	halo
+11	8811	bundlinje	bundlinjen bundlinje
+12	8812	generobre	generobre generobrer generobret generobrede
+13	8813	sagsanlæg	sagsanlæg sagsanlægget sagsanlæggene
+14	8814	turistattraktion	turistattraktioner turistattraktion
+15	8815	grime	grimes grime grimen
+16	8816	oplader	oplader opladeren opladere opladerne
+17	8817	sommerlejr	sommerlejr sommerlejren sommerlejre
+18	8818	procentdel	procentdel procentdelen
+19	8819	fordring	fordringer fordring fordringen
+20	8820	udgyde	udgydt udgyde udgyder udgydes udgød udgyd
+21	8821	gibbon	gibbons gibbonen
+22	8822	kuk	kuk
+23	8823	immigration	immigration immigrationen immigrations
+24	8824	revolutionerende	revolutionerende
+25	8825	velbevaret	velbevaret velbevarede
+26	8826	udlevering	udlevering udleveringen udleveringer
+27	8827	involvering	involvering
+28	8828	borgerservice	borgerservice
+29	8829	adressere	adresseret adressere adresser adresserede adresseres adresserer
+30	8830	renseri	renseriet renseri renserier renserierne
+31	8831	tomhændet	tomhændet tomhændede
+32	8832	plutonium	plutonium plutoniummet plutoniumet
+33	8833	imødegå	imødegå imødegår imødegået
+34	8834	pegefinger	pegefinger pegefingeren pegefingre
+35	8835	gense	gense genser genså genset
+36	8836	gotisk	gotisk gotiske
+37	8837	udtørre	udtørret udtørrede udtørrer udtørre
+38	8838	sandal	sandaler sandal sandalerne sandalen
+39	8839	sportsvogn	sportsvogn sportsvogne sportsvognen sportsvognene
+40	8840	hvisken	hvisken
+41	8841	pensionat	pensionat pensionatet pensionater
+42	8842	synliggøre	synliggøre
+43	8843	udviklingsprojekt	udviklingsprojekter udviklingsprojekt
+44	8844	skorpion	skorpion skorpionen skorpioner skorpionens skorpionerne
+45	8845	umenneske	umennesker umenneske umenneskerne umennesket umenneskernes umenneskene umenneskers
+46	8846	begave	begav begave begavede
+47	8847	beskære	beskåret beskæres beskærer beskære beskårne beskar beskårede beskær
+48	8848	sprinte	sprinter sprinte sprintere sprintende sprintede
+49	8849	ansvarsområde	ansvarsområder ansvarsområde
+50	8850	vandmelon	vandmelon vandmeloner vandmelonen vandmelonerne
+51	8851	casanova	casanova casanovas
+52	8852	elementær	elementære elementær elementært
+53	8853	poppe	popper poppende
+54	8854	petit	petit
+55	8855	ødemark	ødemarken ødemark ødemarker ødemarkens ødemarkerne
+56	8856	vejspærring	vejspærringer vejspærring vejspærringen vejspærringerne
+57	8857	mumie	mumie mumien mumier mumiens mumierne
+58	8858	scenarie	scenarie
+59	8859	diplomati	diplomati diplomatiet diplomatiets
+60	8860	modvind	modvind modvinden
+61	8861	utæt	utæt utætte
+62	8862	tribun	tribunen tribun tribunerne tribuner
+63	8863	ypperst	ypperste
+64	8864	politidirektør	politidirektør politidirektøren politidirektørens
+65	8865	prestige	prestige prestigen
+66	8866	sikkerhedschef	sikkerhedschef sikkerhedschefen sikkerhedschefens
+67	8867	hundehvalp	hundehvalp hundehvalpe hundehvalpen
+68	8868	blender	blender blenderen blendere
+69	8869	omsorgsfuld	omsorgsfuld omsorgsfulde omsorgsfuldt
+70	8870	skydebane	skydebane skydebanen skydebaner
+71	8871	bevægelig	bevægelige bevægelig bevægeligt
+72	8872	overdragelse	overdragelse overdragelsen
+73	8873	navle	navle navlen navler
+74	8874	did	did
+75	8875	opkrævning	opkrævning opkrævninger
+76	8876	partiformand	partiformand partiformanden
+77	8877	flor	flor
+78	8878	levevis	levevis
+79	8879	livret	livret livretter
+80	8880	pigtråd	pigtråd pigtråden
+81	8881	bedrøvet	bedrøvet bedrøvede
+82	8882	badedragt	badedragt badedragter badedragten
+83	8883	excentrisk	excentrisk excentriske
+84	8884	fastfood	fastfood
+85	8885	dunk	dunke dunker dunken dunkende dunkede dunket dunkene
+86	8886	kemoterapi	kemoterapi kemoterapien
+87	8887	barak	barak barakkerne barakken barakker barakkens
+88	8888	kategorisere	kategoriseret kategoriseres kategorisere kategoriserer kategoriserede
+89	8889	tilkomme	tilkommer tilkommende tilkom tilkomne tilkomme
+90	8890	tø	tø tøet tøede
+91	8891	moske	moskeen moske moskeer
+92	8892	hagl	hagl haglene haglet
+93	8893	modangreb	modangreb modangrebet
+94	8894	statskasse	statskassen
+95	8895	bankrøveri	bankrøveri bankrøverier bankrøveriet bankrøverierne
+96	8896	lukketid	lukketid
+97	8897	uoverskuelig	uoverskueligt uoverskuelige uoverskuelig
+98	8898	gulvtæppe	gulvtæppet gulvtæppe gulvtæpper
+99	8899	gage	gage gagen
+100	8900	dirigere	dirigere dirigerer dirigeret dirigerede dirigér diriger dirigeres

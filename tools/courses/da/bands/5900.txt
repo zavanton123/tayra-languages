@@ -1,0 +1,100 @@
+1	5801	halte	halter halte haltede haltende halten haltet
+2	5802	kognitiv	kognitiv kognitive kognitivt
+3	5803	alverdens	alverdens
+4	5804	racisme	racisme racismen racismens
+5	5805	jalousi	jalousi jalousien jalousiens
+6	5806	sladder	sladder sladderen
+7	5807	kynisk	kynisk kyniske
+8	5808	krokodille	krokodille krokodiller krokodillen krokodillerne krokodillens krokodilles
+9	5809	sammenhold	sammenhold sammenholdet
+10	5810	barsel	barsel
+11	5811	indvielse	indvielsen indvielse indvielser indvielses
+12	5812	tredive	tredive tredve
+13	5813	andenplads	andenpladsen andenplads
+14	5814	drastisk	drastisk drastiske
+15	5815	krampe	kramper krampe kramperne krampen
+16	5816	brok	brok brokket ets brokken
+17	5817	åndedræt	åndedræt åndedrættet åndedræts
+18	5818	indtræffe	indtraf indtræffer indtruffet indtræffe indtrufne indtræf
+19	5819	rustning	rustning rustningen rustninger rustningerne
+20	5820	orgasme	orgasme orgasmer orgasmen
+21	5821	popularitet	popularitet popularitets populariteten
+22	5822	uheldigvis	uheldigvis
+23	5823	krammer	krammer krammere krammeren
+24	5824	serviet	servietter serviet servietten servietterne
+25	5825	ydermere	ydermere
+26	5826	undvige	undvige undvegne undviger undvigende undvegen undveg undveget undvig undviges
+27	5827	allergi	allergi allergier allergien allergierne
+28	5828	absorbere	absorbere absorberer absorberet absorberede absorberes absorberende absorbér
+29	5829	kirkelig	kirkelige kirkelig kirkeligt
+30	5830	bulgarsk	bulgarsk bulgarske
+31	5831	parallel	parallel parallelle paralleller parallels
+32	5832	abc	abc
+33	5833	uven	uvenner
+34	5834	ukrainsk	ukrainske ukrainsk
+35	5835	rippe	ripper rippet rippe rippede
+36	5836	sekretariat	sekretariatet sekretariat
+37	5837	inddele	inddelt inddeles inddeler inddele inddelte
+38	5838	afklare	afklaret afklare afklarer afklarede afklares afklar
+39	5839	sno	sno snoet snoede
+40	5840	site	sitet
+41	5841	sovjet	sovjet sovjets sovjetterne sovjetter
+42	5842	almægtig	almægtige almægtig almægtigt
+43	5843	eftersøgt	eftersøgt
+44	5844	aluminium	aluminium aluminiummet
+45	5845	symbolisere	symboliserer symbolisere symboliserede symboliseres
+46	5846	bedsteforælder	bedsteforældre bedsteforældrene bedsteforældres bedsteforælder bedsteforældrenes
+47	5847	kundeservice	kundeservice
+48	5848	uforudsigelig	uforudsigelig uforudsigelige uforudsigeligt
+49	5849	hjælpeløs	hjælpeløs hjælpeløse hjælpeløst
+50	5850	kræsen	kræsen kræsne kræsent
+51	5851	bomuld	bomuld bomulden bomulds
+52	5852	genåbne	genåbnet genåbne genåbner genåbnede genåbnes genåbn
+53	5853	tilberede	tilberedt tilberede tilberedes tilbereder tilberedte tilbered
+54	5854	udspørge	udspørge udspurgte udspørger udspurgt udspørg udspørges udspørgen
+55	5855	kb	kb
+56	5856	rinde	rundet rindende rinder rinde randt
+57	5857	garderobe	garderobe garderoben garderober
+58	5858	eftersøge	eftersøgte eftersøger eftersøg eftersøge eftersøges
+59	5859	journalistisk	journalistiske journalistisk
+60	5860	kongresmedlem	kongresmedlem kongresmedlemmer kongresmedlemmet kongresmedlemmets kongresmedlemmerne
+61	5861	profeti	profeti profetien profetier profetierne profetiens
+62	5862	kalk	kalk kalken kalker kalke
+63	5863	nag	nag naget
+64	5864	forvise	forvist forviste forvise forviser forvises
+65	5865	pap	pap pappet
+66	5866	målgruppe	målgruppe målgruppen målgrupper
+67	5867	underverden	underverdenen underverden underverdenens underverdens
+68	5868	vugge	vugge vuggen vuggende vugger vuggede vug vugget vugges
+69	5869	vasketøj	vasketøj vasketøjet vasketøjs
+70	5870	banebrydende	banebrydende
+71	5871	bæredygtighed	bæredygtighed
+72	5872	bifald	bifald bifaldet
+73	5873	undergrund	undergrunden undergrund undergrunds undergrundens
+74	5874	fuldmåne	fuldmåne fuldmånen fuldmånens fuldmåner fuldmånes
+75	5875	demonstrant	demonstranter demonstranterne demonstrant demonstranternes
+76	5876	uændret	uændret uændrede
+77	5877	reformation	reformationen
+78	5878	indbringe	indbringende indbringe indbragte indbringer indbragt
+79	5879	nærvær	nærvær nærværet
+80	5880	klon	klon kloner klonerne klonen klons klonernes
+81	5881	prostitution	prostitution prostitutionen prostitutions
+82	5882	forløbe	forløber forløbe forløbne forløberen forløbere
+83	5883	datere	dateret dateres datere daterer daterede dater
+84	5884	velhavende	velhavende
+85	5885	livsform	livsform livsformer livsformen livsformerne livsforms
+86	5886	velkomst	velkomst velkomsten
+87	5887	forholdsregel	forholdsregler forholdsregel forholdsreglerne
+88	5888	træls	træls trælse trælst
+89	5889	grej	grej grejet grejer
+90	5890	yankee	yankee yankeerne
+91	5891	vital	vitale vital vitalt
+92	5892	ært	ærter ærterne ært ærten
+93	5893	firkantet	firkantet firkantede
+94	5894	lidenskabelig	lidenskabelig lidenskabeligt lidenskabelige
+95	5895	pip	pip pips pippet
+96	5896	selvsikker	selvsikker selvsikre selvsikkert
+97	5897	kvist	kvist kviste kvisten kvistene
+98	5898	biografi	biografi biografier biografien
+99	5899	overrække	overrakt overrække overrækker overrækkes overrakte overræk
+100	5900	undertegne	undertegnede undertegnet undertegnedes

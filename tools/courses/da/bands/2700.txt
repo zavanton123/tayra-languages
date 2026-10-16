@@ -1,0 +1,100 @@
+1	2601	skjold	skjold skjoldet skjolde skjoldene skjoldets skjolden skjolder
+2	2602	hovedpine	hovedpine hovedpinen hovedpiner hovedpinerne
+3	2603	nedenunder	nedenunder
+4	2604	utro	utro
+5	2605	kemisk	kemiske kemisk
+6	2606	jaså	jaså
+7	2607	kuffert	kuffert kufferten kufferter kufferterne
+8	2608	ærgerlig	ærgerligt ærgerlig ærgerlige
+9	2609	aske	aske ask asken asker askerne asks
+10	2610	undslippe	undslippe undslap undslipper undsluppet undslupne undsluppen undslip
+11	2611	bogstav	bogstaver bogstav bogstaverne bogstavet bogstavs bogstavernes
+12	2612	fingeraftryk	fingeraftryk fingeraftrykkene fingeraftrykket fingeraftryks
+13	2613	overgå	overgår overgå overgået overgik overgås
+14	2614	kørekort	kørekort kørekortet
+15	2615	kanin	kanin kaniner kaninen kaninerne kaninens kanins kaninernes
+16	2616	etnisk	etniske etnisk
+17	2617	elevator	elevatoren elevator elevatorer elevatorerne elevatorens elevators
+18	2618	forfra	forfra
+19	2619	automatisk	automatisk automatiske
+20	2620	tiger	tiger tigre tigeren tigers tigerens tigere tigrene tigerne tigernes tigres
+21	2621	union	union unionen unions unionens unioner
+22	2622	blok	blok blokke blokken blokkene blokker blokkes bloks
+23	2623	tåre	tårer tåre tårerne tårernes tåren
+24	2624	tyrkisk	tyrkiske tyrkisk
+25	2625	hermed	hermed
+26	2626	forrest	forrest forreste
+27	2627	administration	administration administrationen administrations administrationens administrationer
+28	2628	tæve	tæve tæver tæv tævet tævede tæven tævene tæves tæverne tævens
+29	2629	pol	polen pol polens polerne poler
+30	2630	gevær	gevær geværet geværer geværerne geværets
+31	2631	ekstern	eksterne ekstern eksternt
+32	2632	skilsmisse	skilsmisse skilsmissen skilsmisser skilsmisserne
+33	2633	erkende	erkende erkender erkendte erkendt erkend
+34	2634	slide	slidt slider slide slides slidte sled slidere
+35	2635	mobiltelefon	mobiltelefon mobiltelefoner mobiltelefonen mobiltelefonerne mobiltelefons
+36	2636	rådighed	rådighed
+37	2637	muslimsk	muslimske muslimsk
+38	2638	arresteret	arresteret arresterede
+39	2639	etablere	etablere etableres etablerede etablerer etabler etablér
+40	2640	forsikre	forsikre forsikrer forsikret forsikrede forsikres forsikr forsikrende
+41	2641	lund	lund lunde lunden lunders lundens lunds
+42	2642	mistanke	mistanke mistanken mistanker
+43	2643	tå	tæer tå tæerne tåen
+44	2644	voldelig	voldelige voldelig voldeligt voldeligste
+45	2645	måltid	måltid måltider måltidet måltiderne
+46	2646	barndom	barndom barndommen barndoms barndommens
+47	2647	tilkalde	tilkalde tilkaldt tilkalder tilkaldte tilkaldes
+48	2648	instruktør	instruktør instruktøren instruktører instruktørerne instruktørens
+49	2649	løve	løve løven løver løverne løvens løvernes løves
+50	2650	royal	royal royale royalt
+51	2651	desto	desto
+52	2652	fremskridt	fremskridt fremskridtet fremskridtene fremskridtets fremskridts
+53	2653	kommissær	kommissær kommissæren kommissærens kommissærer kommissærerne
+54	2654	producent	producent producenter producenten producenterne producentens
+55	2655	basis	basis basen baser basens baserne
+56	2656	spekulere	spekulerer spekulere spekulerede spekuleret spekuler spekuleres spekulerende
+57	2657	strategisk	strategisk strategiske
+58	2658	puls	puls pulsen pulse
+59	2659	undervejs	undervejs
+60	2660	uenig	uenig uenige
+61	2661	bevidst	bevidst bevidste
+62	2662	flå	flå flår flået flåede flås
+63	2663	finansiere	finansieret finansiere finansierer finansieres finansierede
+64	2664	følsom	følsom følsomme følsomt
+65	2665	kvæle	kvalt kvæle kvæler kvalte kvæles kvæl kvælende kvæleren kvaltes
+66	2666	ep	ep
+67	2667	køleskab	køleskabet køleskab køleskabe køleskabene køleskabets
+68	2668	avanceret	avanceret avancerede
+69	2669	adfærd	adfærd adfærden adfærds
+70	2670	tegner	tegner tegneren tegnere
+71	2671	midnat	midnat midnats
+72	2672	affald	affald affaldet affalds
+73	2673	tønde	tønder tønde tønden tønderne
+74	2674	nosse	nosser nosserne nossede nosse nos nosset
+75	2675	koncept	koncept konceptet koncepter koncepterne
+76	2676	golf	golf golfen golfer
+77	2677	spredt	spredt spredte
+78	2678	vedkommende	vedkommende vedkommendes
+79	2679	dødelig	dødelig dødelige dødeligt dødeligste dødeligere
+80	2680	lift	lift liftet liften lifte
+81	2681	afgive	afgive afgiver afgivet afgav afgivne afgives afgiv
+82	2682	missil	missiler missil missilet missilerne missilets
+83	2683	tendens	tendens tendenser tendensen tendenserne
+84	2684	støvle	støvler støvle støvlerne støvlen
+85	2685	introducere	introducere introduceret introducerede introducerer introduceres introducer
+86	2686	glo	glor glo gloede gloet gloende
+87	2687	uh	uh
+88	2688	fremmest	fremmest fremmeste
+89	2689	evighed	evighed evigheder evigheden evighedens evighedernes
+90	2690	ansøgning	ansøgning ansøgninger ansøgningen ansøgningerne ansøgnings
+91	2691	hvoraf	hvoraf
+92	2692	journal	journal journaler journalen journalerne journals
+93	2693	kærlig	kærlig kærligt kærlige kærligst kærligste
+94	2694	jødisk	jødiske jødisk
+95	2695	klinik	klinik klinikken klinikker klinikkens klinikkerne kliniken kliniker
+96	2696	fjollet	fjollet fjollede
+97	2697	afgørelse	afgørelse afgørelsen afgørelser afgørelsens afgørelserne
+98	2698	indbygger	indbyggere indbyggerne indbygger indbyggeres indbyggernes
+99	2699	portræt	portræt portrætter portrættet portrætterne
+100	2700	old	old olds olden

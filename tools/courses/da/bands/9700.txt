@@ -1,0 +1,100 @@
+1	9601	gigant	gigant giganter giganterne giganten giganternes
+2	9602	digtsamling	digtsamling digtsamlingen digtsamlinger
+3	9603	jordboer	jordboere jordboerne jordboer jordboeren jordboernes
+4	9604	veganer	veganer veganere
+5	9605	ultralyd	ultralyd ultralyden
+6	9606	rydning	rydning rydningen
+7	9607	gom	gommen gom gommens
+8	9608	forræderisk	forræderiske forræderisk
+9	9609	opfindsom	opfindsom opfindsomt opfindsomme
+10	9610	forbipasserende	forbipasserende
+11	9611	frifinde	frifundet frifinde frifinder frifindes frifandt
+12	9612	spidskandidat	spidskandidat
+13	9613	swimmingpool	swimmingpool swimmingpools swimmingpoolen
+14	9614	kollektion	kollektion kollektionen kollektioner
+15	9615	bevarelse	bevarelse bevarelsen
+16	9616	genialitet	genialitet genialiteten
+17	9617	strømforsyning	strømforsyning strømforsyningen
+18	9618	topløs	topløs topløse topløst
+19	9619	realisme	realisme realismen
+20	9620	gennembløde	gennemblødt gennemblødte
+21	9621	fanatiker	fanatiker fanatikere fanatikerne
+22	9622	udtagelse	udtagelse udtagelsen udtagelserne udtagelser
+23	9623	aminosyre	aminosyrer aminosyre aminosyren aminosyrerne
+24	9624	eksponere	eksponeret eksponere eksponerede eksponerer eksponeres
+25	9625	sidespor	sidespor sidesporet
+26	9626	strømpebuks	strømpebukser strømpebukserne
+27	9627	fremtoning	fremtoning fremtoningen
+28	9628	sygesikring	sygesikring sygesikringen sygesikrings sygesikringer
+29	9629	skældsord	skældsord skældsordene
+30	9630	silo	silo siloen siloer siloerne
+31	9631	klimaks	klimaks klimakset
+32	9632	ytring	ytringer ytring ytrings
+33	9633	praj	praj prajet
+34	9634	modernisering	modernisering moderniseringen
+35	9635	bejler	bejler bejlere bejlerne
+36	9636	feministisk	feministisk feministiske
+37	9637	streame	streame streamede streames
+38	9638	narkopoliti	narkopolitiet narkopolitiets narkopoliti
+39	9639	kemo	kemo kemoen
+40	9640	uærlig	uærlig uærligt uærlige
+41	9641	terrorisere	terroriserer terrorisere terroriseret terroriserede terroriseres terroriser
+42	9642	sygemelde	sygemeldt sygemelde sygemeldte sygemelder sygemeld
+43	9643	foredragsholder	foredragsholder
+44	9644	førstnævnte	førstnævnte
+45	9645	californisk	californiske californisk
+46	9646	fredning	fredningen fredning
+47	9647	tsunami	tsunami tsunamien tsunamier
+48	9648	fredsaftale	fredsaftale fredsaftalen fredsaftaler
+49	9649	utilgivelig	utilgiveligt utilgivelige utilgivelig
+50	9650	drøne	drøner drøne drønede drøn drønende drønet
+51	9651	gåsehud	gåsehud
+52	9652	stådreng	stådreng stådrenge stådrengen
+53	9653	politirapport	politirapporten politirapport politirapporter politirapporterne
+54	9654	fordufte	fordufter fordufte forduftet forduftede forduft
+55	9655	børnevenlig	børnevenlig børnevenligt
+56	9656	hammel	hammel
+57	9657	formandskab	formandskabet formandskab
+58	9658	resolution	resolution resolutionen resolutioner
+59	9659	lærke	lærke lærken lærker lærkerne
+60	9660	råstof	råstoffer råstof råstofferne
+61	9661	bryghus	bryghus
+62	9662	nedadgående	nedadgående
+63	9663	kunsthåndværk	kunsthåndværk
+64	9664	pisseligeglad	pisseligeglad pisseligeglade
+65	9665	uselvisk	uselvisk uselviske
+66	9666	dagligstue	dagligstuen dagligstue dagligstuer
+67	9667	knytnæve	knytnæve knytnæver knytnæven knytnæverne
+68	9668	forunderlig	forunderlige forunderlig forunderligt
+69	9669	rubrik	rubrik rubrikken
+70	9670	indfald	indfald
+71	9671	overordentlig	overordentlig overordentligt
+72	9672	ingenmandsland	ingenmandsland ingenmandslandet
+73	9673	tyfus	tyfus tyfussen
+74	9674	bestride	bestride bestrider bestrides bestridt bestred bestrid
+75	9675	hjemmehørende	hjemmehørende
+76	9676	guldmønt	guldmønter guldmønt guldmønterne guldmønten
+77	9677	fært	færten fært
+78	9678	medaljon	medaljon medaljonen medaljoner
+79	9679	riviera	riviera rivieraen
+80	9680	hækle	hæklede hækler hækle hæklet
+81	9681	kiwi	kiwi kiwier kiwierne
+82	9682	kloning	kloning kloningen klonings
+83	9683	installatør	installatør installatøren
+84	9684	stikord	stikord stikordet
+85	9685	øjensynlig	øjensynligt øjensynlig
+86	9686	badetøj	badetøj badetøjet badetøjs
+87	9687	enkemand	enkemand enkemænd enkemanden
+88	9688	undergrave	undergrave undergravende undergraver undergravet undergravede undergraves
+89	9689	ovenfra	ovenfra
+90	9690	uddybning	uddybning
+91	9691	startopstilling	startopstillingen startopstilling
+92	9692	ellevild	ellevild ellevilde
+93	9693	redningshold	redningshold redningsholdet redningsholdene
+94	9694	kremere	kremeret kremeres kremere kremerede kremerer
+95	9695	mindeværdig	mindeværdige mindeværdig mindeværdigt
+96	9696	teaterstykke	teaterstykke teaterstykker teaterstykket
+97	9697	regelsæt	regelsæt regelsættet
+98	9698	muld	muld mulden
+99	9699	karaktertræk	karaktertræk
+100	9700	byggemateriale	byggematerialer byggemateriale

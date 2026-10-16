@@ -1,0 +1,100 @@
+1	4301	sovs	sovs sovsen sovset sovse
+2	4302	val	val vals valse valser valsende valsen valsede valen valens vallens
+3	4303	yndig	yndig yndigt yndige yndigste yndigere
+4	4304	lovforslag	lovforslag lovforslaget lovforslagene lovforslagets
+5	4305	gymnastik	gymnastik gymnastikken gymnastikkens
+6	4306	tomat	tomater tomat tomaterne tomaten
+7	4307	ulempe	ulemper ulempe ulempen ulemperne
+8	4308	etablering	etablering etableringen
+9	4309	gardin	gardiner gardinerne gardinet gardin gardiners
+10	4310	besparelse	besparelser besparelse besparelserne besparelsen
+11	4311	skik	skik skikke skikken skikkene
+12	4312	armbånd	armbånd armbåndet armbåndene
+13	4313	gus	gus
+14	4314	dokumentar	dokumentar dokumentaren dokumentarer
+15	4315	varde	varde varden varderne varder vardernes
+16	4316	skylle	skylle skyller skyllede skylles skyllen
+17	4317	visdom	visdom visdommen visdommens visdoms
+18	4318	talentfuld	talentfuld talentfulde talentfuldt
+19	4319	dyster	dyster dystre dystert
+20	4320	uafgjort	uafgjort uafgjorte
+21	4321	filter	filter filteret filtre filtret filtrene filtrer
+22	4322	made	made mader madede mades madet
+23	4323	sikring	sikring sikringen sikringerne sikringer sikrings
+24	4324	rumskib	rumskib rumskibet rumskibe rumskibene rumskibets
+25	4325	slim	slim slimet slimen
+26	4326	lettelse	lettelse lettelsen lettelsens
+27	4327	koncern	koncernen koncern koncernens koncerner koncernerne
+28	4328	forelske	forelsker forelske forelskede forelsk
+29	4329	bilulykke	bilulykke bilulykken bilulykker
+30	4330	rumvæsen	rumvæsner rumvæsen rumvæsnerne rumvæsnet rumvæsnernes rumvæsens rumvæsners
+31	4331	kæmpestor	kæmpestor kæmpestort kæmpestore
+32	4332	låg	låget låg lågene
+33	4333	livlig	livlig livlige livligt livligere livligste
+34	4334	komponent	komponenter komponent komponenten komponenterne
+35	4335	stodder	stodder stodderen stoddere stodders stodderne
+36	4336	iblandt	iblandt
+37	4337	våbenhvile	våbenhvile våbenhvilen våbenhvilens
+38	4338	livstid	livstid livstids livstider
+39	4339	bleg	bleg blege bleget blegt bleger blegere blegede bleges blegeste
+40	4340	forsætte	forsat forsætte forsatte forsættes
+41	4341	skrubbe	skrub skrubbe skrubber skrubbet skrubbede skrubbes
+42	4342	redning	redning redningen rednings redninger
+43	4343	beundre	beundre beundrede beundret beundres beundrende beundr
+44	4344	hip	hip hippe hipt hippeste
+45	4345	hjerteanfald	hjerteanfald hjerteanfaldet hjerteanfaldene
+46	4346	betydningsfuld	betydningsfulde betydningsfuld betydningsfuldt
+47	4347	fordoble	fordoblet fordoble fordobler fordoblede fordobles fordobl fordobledes
+48	4348	heri	heri
+49	4349	formulere	formuleret formulere formulerede formulerer formuler formuleres
+50	4350	spind	spin spind spindet
+51	4351	skyderi	skyderi skyderiet skyderier skyderierne
+52	4352	efterkomme	efterkommere efterkommer efterkomme efterkommerne efterkommet efterkommes efterkom
+53	4353	forklæde	forklædt forklæde forklædet forklædte forklæder forklæd forklæderne forklædes
+54	4354	pagt	pagt pagten pagtens pagter pagts
+55	4355	dykker	dykker dykkere dykkerne dykkeren dykkerens dykkers
+56	4356	omsider	omsider
+57	4357	fløde	fløde flød fløden
+58	4358	ocean	ocean oceaner oceanet oceans oceanerne oceanets
+59	4359	tørstig	tørstig tørstige tørstigt
+60	4360	marine	marine marinen marines mariner marinens mariners marinerne
+61	4361	bestikke	bestikke bestik bestak bestukket bestikker bestikkes bestikket
+62	4362	overførsel	overførsel overførslen overførsler overførslerne overførselen overførslens
+63	4363	pushe	pusher pushere pusheren pusherne pushe pushede pusherens pushet
+64	4364	fratage	frataget fratage fratages fratager fratog fratag
+65	4365	slagsmål	slagsmål slagsmålet slagsmålene
+66	4366	rang	rang rangerne rangen rangs
+67	4367	vellykket	vellykket vellykkede
+68	4368	patron	patroner patron patronerne patronen
+69	4369	iværksætte	iværksat iværksætte iværksatte iværksæt iværksættes
+70	4370	arbejdsmiljø	arbejdsmiljø arbejdsmiljøet
+71	4371	inficere	inficeret inficerede inficere inficerer inficeres
+72	4372	gin	gin ginnen
+73	4373	country	country
+74	4374	fane	fanen fane faner fanerne
+75	4375	gulerod	gulerødder gulerod guleroden gulerødderne
+76	4376	uniform	uniformer uniformen uniformerne
+77	4377	matche	matche matchede matchende matchet
+78	4378	gradvis	gradvist gradvis
+79	4379	forældreløs	forældreløse forældreløs forældreløst
+80	4380	elleve	elleve
+81	4381	skelet	skelet skeletter skelettet skeletterne skelettets skelets
+82	4382	trailer	trailer traileren trailere trailerne trailers
+83	4383	intellektuel	intellektuelle intellektuel intellektuelt
+84	4384	genoptage	genoptage genoptaget genoptager genoptages genoptag genoptog
+85	4385	referere	refererer referere refererede refereres refereret referer
+86	4386	udskiftning	udskiftning udskiftninger udskiftningen
+87	4387	klikke	klikke klikker klikkede klikkende klikken
+88	4388	tude	tude tuder tud tuden tudede tudende tudet
+89	4389	charme	charme charmen charms charmer charm charmende
+90	4390	sympati	sympati sympatien sympatier
+91	4391	replik	replikker replik replikkerne replikken
+92	4392	udmattet	udmattet udmattede
+93	4393	mellemrum	mellemrum mellemrummet mellemrummene
+94	4394	indfødt	indfødte indfødt
+95	4395	blondine	blondine blondiner blondinen blondinens blondinerne blondines
+96	4396	tænkning	tænkning tænkningen
+97	4397	grotte	grotte grotten grotter grotterne grottens
+98	4398	horisont	horisonten horisont horisonter
+99	4399	baghave	baghaven baghave baghaver
+100	4400	kodeord	kodeord kodeordet kodeordene

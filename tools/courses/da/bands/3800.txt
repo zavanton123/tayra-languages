@@ -1,0 +1,100 @@
+1	3701	arkitektur	arkitektur arkitekturen
+2	3702	single	singler singlen
+3	3703	niks	niks nix
+4	3704	tekste	tekstet tekstede
+5	3705	udfald	udfald udfaldet udfaldene
+6	3706	anerkendelse	anerkendelse anerkendelsen anerkendelser
+7	3707	restere	resterende resterer
+8	3708	facade	facade facaden facader facaderne
+9	3709	opfordring	opfordring opfordringer opfordringen
+10	3710	kane	kane kanen kanes
+11	3711	diagnose	diagnose diagnosen diagnoser diagnoserne
+12	3712	døv	døv døve døves døver
+13	3713	skænderi	skænderi skænderier skænderiet skænderierne
+14	3714	anholdelse	anholdelse anholdelsen anholdelser anholdelserne anholdelses
+15	3715	motion	motion motionen motionens
+16	3716	detaljere	detaljeret detaljerede
+17	3717	færdiggøre	færdiggøre færdiggjort færdiggør færdiggjorde færdiggøres
+18	3718	vejledning	vejledning vejledningen vejledninger
+19	3719	avenue	avenue avenues
+20	3720	akademisk	akademisk akademiske
+21	3721	linie	linie linien linierne
+22	3722	brokke	brokker brokke brokkede brokkerne brokkende
+23	3723	indirekte	indirekte
+24	3724	fravær	fravær fraværet
+25	3725	aftryk	aftryk aftrykkene aftrykket
+26	3726	ballon	ballon balloner ballonen ballonerne ballons
+27	3727	klo	klo kløer kløerne klos kloen
+28	3728	kurere	kurere kureret kurer kurerer kureren kureres kurerede kurererne kurerens
+29	3729	ophidse	ophidset ophidsende ophidsede ophidser ophidse ophids ophidses
+30	3730	middelhav	middelhavet middelhavets middelhavs middelhav
+31	3731	norm	normer norm normen normerne norms
+32	3732	høring	høring høringen høringer høringerne
+33	3733	bemærkning	bemærkninger bemærkning bemærkningen bemærkningerne
+34	3734	yoga	yoga
+35	3735	irsk	irske irsk
+36	3736	forhånd	forhånd
+37	3737	stødt	stødt stødte
+38	3738	lim	lim lime limet limes limen limede limer
+39	3739	bedøve	bedøvet bedøvede bedøve bedøvende bedøver bedøv bedøves
+40	3740	skind	skind skindet skindene
+41	3741	tredjedel	tredjedel tredjedele tredjedels tredjedeles
+42	3742	skandale	skandale skandalen skandaler skandalerne
+43	3743	slagter	slagter slagteren slagtere slagterens slagterne slagters slagternes
+44	3744	ceremoni	ceremonien ceremoni ceremonier ceremonierne ceremoniens
+45	3745	tilintetgøre	tilintetgøre tilintetgjort tilintetgør tilintetgøres tilintetgjorde tilintetgørende tilintetgjorte
+46	3746	episode	episoder episoden episoderne
+47	3747	hovedsagelig	hovedsageligt hovedsagelig
+48	3748	motivere	motivere motiveret motiver motiverede motiverer motiverende motiveres
+49	3749	ego	ego egoer egoet egos
+50	3750	zoo	zoo zooen zooer zoos
+51	3751	perle	perler perle perlerne perlen perl perlende
+52	3752	storslået	storslået storslåede
+53	3753	dumpe	dumpe dumpede dumper dumpende dumpes
+54	3754	psykiater	psykiater psykiatere psykiateren psykiaterne psykiaterens psykiaters
+55	3755	udskyde	udskudt udskyde udskyder udskyd udskød udskydes udskudte
+56	3756	frost	frost frosten frosts
+57	3757	anker	anker ankeret ankre ankers ankret ankrene
+58	3758	stævne	stævne stævnet stævner stævnen stævnede stævn stævnes stævnets stævnerne
+59	3759	indsigt	indsigt indsigten indsigter indsigtens
+60	3760	ansættelse	ansættelse ansættelsen ansættelser ansættelses ansættelserne
+61	3761	smæk	smæk smækker smækket smækre smækken smækkene
+62	3762	inklusiv	inklusiv inklusivt
+63	3763	øm	øm ømme ømt ømmer ømmere ømmeste
+64	3764	vie	viet vie viede vier
+65	3765	pervers	perverse pervers perverst
+66	3766	jeps	jeps
+67	3767	tværtimod	tværtimod
+68	3768	dagblad	dagblad dagbladet dagblade
+69	3769	mafia	mafiaen mafia mafiaens mafias mafiaer
+70	3770	bugt	bugt bugten bugter bugtens
+71	3771	psykiatrisk	psykiatrisk psykiatriske
+72	3772	sommerfugl	sommerfugle sommerfugl sommerfuglen sommerfuglene sommerfugls sommerfuglens
+73	3773	forkæle	forkælet forkælede forkæle forkæler forkæl forkæles
+74	3774	kommunist	kommunister kommunist kommunisterne kommunisternes kommunisten
+75	3775	blid	blid blidt blide blidere blideste blider
+76	3776	prostitueret	prostitueret prostituerede
+77	3777	overfalde	overfaldt overfalder overfalde overfaldes overfaldte overfalden
+78	3778	idræt	idræt idræts
+79	3779	homo	homo homoer homoerne homoen
+80	3780	plyndre	plyndre plyndret plyndrede plyndrer plyndres plyndrere plyndrende plyndrerne plyndr
+81	3781	ædel	ædle ædel ædelt ædlere ædleste
+82	3782	misbrug	misbrug misbruget
+83	3783	tilfældigvis	tilfældigvis
+84	3784	polsk	polske polsk
+85	3785	akut	akut akutte
+86	3786	levetid	levetid levetiden levetider
+87	3787	forbløffe	forbløffende forbløffet forbløffer forbløffede forbløffe forbløffes forbløf
+88	3788	rente	renter rente renten renterne renters
+89	3789	meningsløs	meningsløst meningsløse meningsløs
+90	3790	kriminalbetjent	kriminalbetjent kriminalbetjente kriminalbetjenten kriminalbetjentene kriminalbetjentens
+91	3791	bluse	bluse blusen bluser bluserne
+92	3792	scanne	scanner scanne scannet scanneren scannede scannere scannerne scannes
+93	3793	kammer	kammer kammeret kamre kamret kamrene kammerets kammers
+94	3794	trusser	trusser trusserne
+95	3795	skak	skak skakken
+96	3796	opfindelse	opfindelse opfindelser opfindelsen opfindelserne
+97	3797	syre	syre syren syrer syrere syrener syrerne syreren syrenerne
+98	3798	gangster	gangster gangstere gangsterne gangsteren gangsternes gangsterens
+99	3799	sagsøge	sagsøge sagsøgte sagsøgt sagsøg sagsøges sagsøgtes
+100	3800	indsamling	indsamling indsamlingen indsamlinger indsamlings indsamlingerne

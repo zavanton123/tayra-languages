@@ -1,0 +1,100 @@
+1	5001	dyne	dynen dyne dyner dynerne
+2	5002	terning	terninger terning terningen terningerne
+3	5003	varieret	varieret varierede
+4	5004	fremgangsmåde	fremgangsmåde fremgangsmåden fremgangsmåder
+5	5005	anlægge	anlægge anlægges anlagde anlægger
+6	5006	str	str
+7	5007	frites	pommes frites
+8	5008	hærge	hærger hærget hærgede hærge hærgen hærgende hærges hærg
+9	5009	slutspil	slutspillet slutspil
+10	5010	sekundær	sekundære sekundær sekundært
+11	5011	høne	høne hønen hønsene høner hønens hønerne
+12	5012	pub	pub pubben pubber pubberne
+13	5013	kompensere	kompensere kompenserer kompenseres kompenseret kompenserede kompenser kompenserende
+14	5014	bassin	bassinet bassin bassiner bassinerne bassinets
+15	5015	sensor	sensorer sensorerne sensoren
+16	5016	vestpå	vestpå
+17	5017	politichef	politichef politichefen politichefens politichefer
+18	5018	selvforsvar	selvforsvar selvforsvars
+19	5019	forveksle	forveksle forveksler forvekslet forveksles forvekslede forveksl
+20	5020	duel	duel duellen dueller
+21	5021	rengøring	rengøring rengøringen rengørings
+22	5022	fraværende	fraværende
+23	5023	popcorn	popcorn popcornene
+24	5024	undtage	undtaget undtager
+25	5025	storartet	storartet storartede
+26	5026	kolonne	kolonne kolonner kolonnen kolonnes kolonnerne
+27	5027	flytning	flytningen flytning flytninger
+28	5028	due	due duerne duen dues duens duer
+29	5029	ordinær	ordinære ordinær ordinært
+30	5030	sagsøger	sagsøger sagsøgere sagsøgerne sagsøgeren sagsøgers sagsøgerens
+31	5031	bilist	bilister bilist bilisten bilisterne
+32	5032	høns	høns
+33	5033	svans	svans svanser svanse svansen
+34	5034	menstruation	menstruation menstruationen menstruationer menstruations
+35	5035	skraldespand	skraldespanden skraldespand skraldespande skraldespandene
+36	5036	nuvel	nuvel
+37	5037	spredning	spredning spredningen
+38	5038	registrering	registrering registreringen registreringer registrerings
+39	5039	forstad	forstæderne forstad forstaden forstæder forstads forstædernes
+40	5040	efterspørge	efterspørger efterspurgt efterspurgte efterspørges
+41	5041	dagpenge	dagpenge
+42	5042	frist	frist frister fristen
+43	5043	linse	linse linser linsen linserne
+44	5044	udflugt	udflugt udflugter udflugten
+45	5045	kompas	kompas kompasset kompasser kompasserne
+46	5046	tilføjelse	tilføjelse tilføjelser tilføjelsen tilføjelserne
+47	5047	overnaturlig	overnaturlige overnaturlig overnaturligt
+48	5048	antenne	antenne antennen antenner antennerne
+49	5049	hybrid	hybrid hybrider hybriden hybriderne hybridens hybride
+50	5050	recept	recept recepter recepten recepterne
+51	5051	human	human humane humant
+52	5052	katalog	katalog kataloget kataloger katalogerne
+53	5053	ideal	idealer ideal idealerne idealet ideale
+54	5054	lokalavis	lokalavisen lokalavis lokalaviserne lokalaviser
+55	5055	afbud	afbud
+56	5056	troskab	troskab troskaben
+57	5057	revidere	revideret reviderede revidere revideres reviderer revidér
+58	5058	ondskabsfuld	ondskabsfuld ondskabsfulde ondskabsfuldt
+59	5059	forhøre	forhøre forhørt forhører forhørte forhøres
+60	5060	astronaut	astronaut astronauter astronauterne astronauten astronauts astronauternes astronauters
+61	5061	førsteplads	førstepladsen førsteplads
+62	5062	kardinal	kardinal kardinalen kardinaler kardinalens kardinalerne kardinals kardinalers kardinalernes
+63	5063	anspændt	anspændt anspændte
+64	5064	hoveddør	hoveddøren hoveddør hoveddøre hoveddørene
+65	5065	farm	farm farmen farms farme farmene
+66	5066	dovne	dovne dovner
+67	5067	pibe	pibe piben piber piv peb pibende piberne pibens
+68	5068	spole	spole spol spoler spolen spolet spolede spolerne
+69	5069	stank	stank stanken stanke
+70	5070	aflevering	aflevering afleveringen afleveringer afleverings afleveringerne
+71	5071	fridag	fridag fridage fridagen
+72	5072	varig	varige varig varigt
+73	5073	cykling	cykling
+74	5074	revolver	revolver revolveren revolvere revolverne
+75	5075	gorilla	gorilla gorillaer gorillaen gorillaerne gorillas gorillaernes
+76	5076	beslaglægge	beslaglagt beslaglægge beslaglægger beslaglagde beslaglagte beslaglæg beslaglægges
+77	5077	omverden	omverdenen omverden omverdenens
+78	5078	konventionel	konventionelle konventionel konventionelt
+79	5079	syntetisk	syntetisk syntetiske
+80	5080	grus	grus gruset
+81	5081	ørering	øreringe ørering øreringene øreringen
+82	5082	hænde	hændt hændte hænde hænder
+83	5083	sprække	sprækker sprække sprækken sprækkerne sprukne sprak sprækkede sprækket
+84	5084	donation	donationer donation donationen donationerne
+85	5085	kapel	kapellet kapel kapeller
+86	5086	skræk	skræk skrækken skrækkens
+87	5087	skildpadde	skildpadde skildpadder skildpadden skildpadderne skildpaddens skildpaddes
+88	5088	hue	hue huer huen huede huerne huens
+89	5089	tidsrum	tidsrum tidsrummet
+90	5090	gåtur	gåtur gåture gåturen
+91	5091	sammenbrud	sammenbrud sammenbruddet sammenbruddets
+92	5092	frede	fredet fredede frede freden
+93	5093	cheftræner	cheftræner
+94	5094	fædreland	fædreland fædrelandet fædrelandets fædrelands
+95	5095	instruks	instrukser instruks instrukserne instruksen
+96	5096	terrorisme	terrorisme terrorismen terrorismens
+97	5097	plat	plat platte
+98	5098	åbenbaring	åbenbaring åbenbaringen åbenbaringer åbenbarings åbenbaringens åbenbaringernes åbenbaringerne
+99	5099	barnlig	barnlig barnlige barnligt
+100	5100	alkoholiker	alkoholiker alkoholikere alkoholikerne alkoholikeren

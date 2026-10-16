@@ -1,0 +1,100 @@
+1	1301	tilladelse	tilladelse tilladelsen tilladelser tilladelserne tilladelses
+2	1302	flod	floden flod floder floderne flodens flodernes flods
+3	1303	allé	alle allé alles alléen alleen
+4	1304	position	position positioner positionen positionerne positions
+5	1305	rydde	rydde ryddet rydder ryd ryddede ryddes
+6	1306	diskutere	diskutere diskuterer diskuteret diskuterede diskuteres diskuter diskutér
+7	1307	syd	syd syden sydens
+8	1308	gal	gal gale galen galer gales galede gals galere galens
+9	1309	tilgive	tilgive tilgiv tilgiver tilgivet tilgav tilgivende tilgives
+10	1310	koncert	koncert koncerter koncerten koncerterne
+11	1311	vækst	vækst væksten vækster
+12	1312	europæisk	europæiske europæisk
+13	1313	karakter	karakter karakterer karakteren karaktererne karakterernes karakters
+14	1314	november	november
+15	1315	flaske	flaske flasken flasker flaskerne flask flaskede flaskens flasket
+16	1316	detalje	detaljer detaljerne detalje detaljen
+17	1317	sind	sind sinde sindet sindets sinds sindene
+18	1318	gentage	gentager gentage gentag gentagne gentog gentages gentaget gentagende gentagen
+19	1319	ændring	ændringer ændring ændringen ændringerne
+20	1320	kedelig	kedeligt kedelig kedelige kedeligste kedeligere
+21	1321	gengæld	gengæld
+22	1322	tilfreds	tilfreds tilfredse
+23	1323	skilt	skilt skiltet skilte skiltene skiltes skilter skiltede
+24	1324	ofre	ofre ofret ofrede ofrer ofr
+25	1325	tydelig	tydeligt tydelig tydelige tydeligere tydeligst tydeligste
+26	1326	eksistere	eksisterer eksistere eksisteret eksisterede eksister
+27	1327	krydse	krydser krydse kryds krydset krydsede krydses krydsere krydserne krydseren krydsende
+28	1328	karriere	karriere karrieren karrierer karrierens karrieres karriererne
+29	1329	kontakte	kontakte kontaktet kontaktede kontakter kontaktes
+30	1330	nabo	nabo naboer naboerne naboen naboens nabos naboernes naboers
+31	1331	fortid	fortid fortiden fortidens fortids fortider
+32	1332	jagt	jagt jagten jagter jagtens
+33	1333	løn	løn lønnen lønnet lønnede lønner lønne lønnes
+34	1334	medmindre	medmindre
+35	1335	udsat	udsat udsatte
+36	1336	mandag	mandag mandagen mandags mandage mandagens
+37	1337	synd	synd synder syndere synden syndens synderne synderen syndernes synders synderens
+38	1338	træne	træne trænet trænede trænes træn
+39	1339	signal	signal signalet signaler signalerne signalets
+40	1340	tide	tide
+41	1341	bunden	bunden bundet bundne
+42	1342	overbevise	overbevist overbevise overbevisende overbeviste overbeviser overbevis overbevises
+43	1343	mørk	mørkt mørk mørkere mørkeste mørkest
+44	1344	toilet	toilettet toilet toiletter toiletterne toilettets toilets toiletternes
+45	1345	sparke	sparke spark sparker sparkede sparket sparks sparkende sparkes sparkene sparken
+46	1346	begrave	begravet begrave begravede begraver begraves begrav begravedes
+47	1347	planet	planet planeten planeter planetens planeterne planets planeternes planeters
+48	1348	simpel	simpelt simpel simple simplere simpleste
+49	1349	planlagt	planlagt planlagte
+50	1350	oprette	oprettet oprette opret opretter oprettede oprettes oprettende
+51	1351	afgørende	afgørende
+52	1352	forelsket	forelsket forelskede
+53	1353	punkt	punkt punkter punktet punkterne
+54	1354	hygge	hygge hygger hyg hyggede hygget hyggen hyggens
+55	1355	indrømme	indrømme indrømmer indrøm indrømmede indrømmet
+56	1356	rende	rend rende render rendte rendende rendt renden
+57	1357	skæbne	skæbne skæbnen skæbner skæbnens skæbnes skæbnerne
+58	1358	indse	indså indse indser indset
+59	1359	version	version versioner versionen versionerne
+60	1360	veninde	veninde veninder veninden venindes veninderne veninders venindens
+61	1361	skubbe	skubbe skub skubber skubbede skubbet skubbes skubben skubbende
+62	1362	trist	trist triste tristeste tristere
+63	1363	hellige	hellige hellig helligt helliget helliger helligste helliges helligede helligere
+64	1364	spilde	spilder spilde spildt spildte spildes
+65	1365	militær	militær militæret militære militært militærets militærs
+66	1366	leje	leje lejer lejet lejede lejen lejere lejes lej lejeren lejerne
+67	1367	fokusere	fokusere fokuserer fokuseret fokuser fokuserede fokusér fokuseres
+68	1368	generelt	generelt
+69	1369	vække	vække vækker vækkede vækket vakte vakt vækkes vækkende
+70	1370	museum	museum museet museer museets museums museerne
+71	1371	heldigvis	heldigvis
+72	1372	forsker	forskere forsker forskerne forskeren forskers forskerens forskeres forskernes
+73	1373	forbinde	forbundet forbinder forbinde forbindes forbundne forbandt forbind forbunden
+74	1374	dobbelt	dobbelt dobbelte
+75	1375	kysse	kysse kyssede kysser kysset kysses kyssende kyssen
+76	1376	højde	højde højden højder højderne
+77	1377	vidt	vidt
+78	1378	amerikaner	amerikanere amerikaner amerikanerne amerikaneren amerikanernes amerikaneres amerikaners amerikanerens
+79	1379	miljø	miljø miljøet miljøer miljøets
+80	1380	fysisk	fysisk fysiske
+81	1381	venligst	venligst
+82	1382	bortse	bortset
+83	1383	bånd	bånd båndet båndene båndets
+84	1384	sund	sund sundt sunde sundere sundet sundeste
+85	1385	handel	handel handlen handelen handels handeler handlens
+86	1386	trussel	trussel trusler truslen truslerne trussels truslens trusselen
+87	1387	brække	brækket brækkede brække brækker bræk brækkes
+88	1388	vilje	vilje viljen viljens viljer viljes
+89	1389	morgenmad	morgenmad morgenmaden morgenmads
+90	1390	syn	syn synet syner syns synerne synene synets
+91	1391	advare	advare advarer advarede advaret advar advares advarende
+92	1392	kniv	kniv kniven knive knivene knives knivens
+93	1393	mistænke	mistænkte mistænkt mistænker mistænkes mistænke mistænktes mistænk
+94	1394	hjørne	hjørnet hjørne hjørner hjørnerne
+95	1395	begrænse	begrænset begrænse begrænsede begrænser begrænses begræns begrænsende
+96	1396	vind	vind vinden vindes vindene vindens vindenes vinds
+97	1397	sammenhæng	sammenhæng sammenhænge sammenhængen sammenhængene sammenhænget
+98	1398	idet	idet
+99	1399	konsekvens	konsekvenser konsekvens konsekvenserne konsekvensen
+100	1400	gul	gule gul gult

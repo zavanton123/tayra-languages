@@ -1,0 +1,100 @@
+1	6701	dane	dane
+2	6702	fjerdedel	fjerdedel fjerdedele fjerdedels
+3	6703	fritte	fritter fritte fritterne fritten frit frittes frittet
+4	6704	omløb	omløb omløbet
+5	6705	essentiel	essentielle essentielt essentiel
+6	6706	sørme	sørme
+7	6707	kronprins	kronprinsen kronprins kronprinsens
+8	6708	afsige	afsagt afsiger afsige afsiges afsagde afsig
+9	6709	lønmodtager	lønmodtagere lønmodtager
+10	6710	råvare	råvarer råvare råvarerne
+11	6711	salon	salonen saloner salonerne salonens
+12	6712	oprejst	oprejst oprejste
+13	6713	polak	polakker polak polakkerne polakken
+14	6714	dragon	dragon dragoner dragonerne
+15	6715	maribo	maribo
+16	6716	igangværende	igangværende
+17	6717	forgå	forgår forgå forgik forgået
+18	6718	rådhusplads	rådhuspladsen rådhusplads
+19	6719	gruppering	grupperinger gruppering grupperingen
+20	6720	dagevis	dagevis
+21	6721	thailandsk	thailandske thailandsk
+22	6722	maskere	maskerede maskeret maskere maskerer masker maskeres
+23	6723	essens	essensen essens
+24	6724	hidse	hidse hids hidser hidsede hidset
+25	6725	medhjælper	medhjælper medhjælpere medhjælperen medhjælperne
+26	6726	eftersyn	eftersyn eftersynet
+27	6727	indtrængen	indtrængen
+28	6728	kollaps	kollaps kollapser kollapset
+29	6729	traumatisk	traumatisk traumatiske
+30	6730	betænksom	betænksomt betænksom betænksomme
+31	6731	uvurderlig	uvurderlig uvurderligt uvurderlige
+32	6732	trommeslager	trommeslager trommeslageren trommeslagere trommeslagerne
+33	6733	pus	pus pusset
+34	6734	perfektion	perfektion perfektionen perfektionens
+35	6735	kartel	kartellet kartel kartellerne karteller kartellets kartellernes
+36	6736	lønning	lønninger lønningerne lønnings lønningen
+37	6737	nordøst	nordøst
+38	6738	ævle	ævler ævlede ævle ævlen ævlende
+39	6739	sangerinde	sangerinde sangerinden sangerinder
+40	6740	yoghurt	yoghurt yoghurten
+41	6741	datid	datidens datid datiden
+42	6742	strube	struben strube struber strubes struberne
+43	6743	strå	strå stråene
+44	6744	mægler	mægler mægleren mæglere mæglerne
+45	6745	format	formatet formater
+46	6746	oveni	oveni
+47	6747	selvstændighed	selvstændighed
+48	6748	webshop	webshop
+49	6749	læsse	læsse læsser læssede læsses læsset
+50	6750	ansvarlighed	ansvarlighed ansvarligheden
+51	6751	fodboldhold	fodboldhold fodboldholdet fodboldholdets
+52	6752	maritim	maritime maritim maritimt
+53	6753	golfbane	golfbane golfbanen golfbaner golfbanerne
+54	6754	verdensklasse	verdensklasse verdensklasses
+55	6755	solidaritet	solidaritet solidariteten
+56	6756	grotesk	grotesk groteske
+57	6757	skudsikker	skudsikker skudsikre skudsikkert
+58	6758	vildsvin	vildsvin vildsvinet vildsvinene vildsvins
+59	6759	førsteklasses	førsteklasses
+60	6760	pure	pure
+61	6761	loge	logen loge logens logerne
+62	6762	udstationere	udstationeret udstationeres udstationerede
+63	6763	fakultet	fakultet fakultetet fakultetets fakultets
+64	6764	efterlysning	efterlysning efterlysningen efterlysninger efterlysningerne
+65	6765	hædre	hædret hædre hædrer hædres hædrende hædrede
+66	6766	afrejse	afrejse afrejsen
+67	6767	underofficer	underofficer underofficerer underofficeren underofficerens underofficererne underofficers underofficerers
+68	6768	brøle	brøler brøle brølende brølede brølere brølen
+69	6769	tredjeplads	tredjepladsen tredjeplads
+70	6770	ledetråd	ledetråd ledetråde ledetråden ledetrådene
+71	6771	garn	garn garner garnet garners
+72	6772	sammenslutning	sammenslutning sammenslutningen sammenslutninger sammenslutningens
+73	6773	dims	dims dimser dimsen dimserne
+74	6774	specialstyrke	specialstyrker specialstyrkerne specialstyrken specialstyrke specialstyrkens specialstyrkernes
+75	6775	hu	hu huen huens
+76	6776	fysiker	fysiker fysikere fysikeren fysikerne fysikers
+77	6777	hallucination	hallucinationer hallucinationerne hallucinationen
+78	6778	opfølgning	opfølgning opfølgningen
+79	6779	torsk	torsk torsken
+80	6780	bebo	beboet beboede bebor bebos bebo
+81	6781	udelade	udeladt udelod udelade udelader udelad udelades
+82	6782	vibration	vibrationer vibrationerne vibrationen
+83	6783	armere	armeret armerede armerer armere armer armeres
+84	6784	tilbeder	tilbeder tilbedere
+85	6785	initial	initialer initialerne initialet
+86	6786	lokkemad	lokkemad lokkemaden
+87	6787	hyrde	hyrde hyrder hyrden hyrderne hyrdes hyrdens
+88	6788	alligator	alligator alligatorer alligatoren alligatorerne alligators alligatorens
+89	6789	tatovere	tatoveret tatoverede tatovere tatoveres tatoverer
+90	6790	kværn	kværn kværnen kværner kværne kværnet kværnede kværnene
+91	6791	påklædning	påklædning påklædningen påklædninger
+92	6792	slid	slid sliddet slids slidser
+93	6793	gearkasse	gearkasse gearkassen gearkasser
+94	6794	afgrund	afgrunden afgrund afgrundens afgrunde afgrundene
+95	6795	opvisning	opvisning opvisningen opvisninger opvisnings
+96	6796	pattedyr	pattedyr pattedyrs pattedyrene pattedyrenes
+97	6797	gennemsigtig	gennemsigtig gennemsigtige gennemsigtigt
+98	6798	kasserer	kasserer kassereren kassererne kasserere kasserernes kassererens
+99	6799	designer	designere designeren designerne designerede
+100	6800	midaldrende	midaldrende

@@ -1,0 +1,100 @@
+1	7801	omdrejning	omdrejninger omdrejning omdrejningerne
+2	7802	skitse	skitse skitsen skitserne
+3	7803	bagværk	bagværk bagværket
+4	7804	livsforsikring	livsforsikring livsforsikringer livsforsikringen
+5	7805	husholderske	husholderske husholdersken husholdersker husholderskens husholderskerne husholderskes
+6	7806	debattere	debattere debatteret debatterer debatter debatterede debatteres
+7	7807	hangar	hangar hangaren hangarer hangarerne hangarens
+8	7808	fastlåse	fastlåst fastlåse fastlås fastlåser fastlåste fastlåses
+9	7809	verdensrekord	verdensrekord verdensrekorden verdensrekorder
+10	7810	stolpe	stolpe stolper stolpen stolperne
+11	7811	forslå	forslået forslår forslå forslog forslåede
+12	7812	flyvevåben	flyvevåbnet flyvevåben flyvevåbenet flyvevåbnets flyvevåbenets
+13	7813	destruktiv	destruktive destruktiv destruktivt
+14	7814	pubertet	puberteten pubertet pubertets
+15	7815	skælve	skælver skælve skælvede skælv skælvet skælvende skælven skælvene
+16	7816	madding	madding maddingen
+17	7817	rædselsfuld	rædselsfuldt rædselsfuld rædselsfulde
+18	7818	adel	adel adelen adels adlen adelens
+19	7819	genanvendelse	genanvendelse
+20	7820	bagbord	bagbord
+21	7821	samfundstjeneste	samfundstjeneste samfundstjenesten
+22	7822	spiral	spiral spiralen spiraler
+23	7823	underminere	underminere underminerer undermineret underminerede undermineres underminer
+24	7824	pegasus	pegasus
+25	7825	psyke	psyke psyk psyken psyker psykes
+26	7826	synsvinkel	synsvinkel synsvinklen synsvinkler
+27	7827	afslapning	afslapning afslapningen afslapnings
+28	7828	tiltrækning	tiltrækning tiltrækningen
+29	7829	rival	rivaler rivalerne rivalen rivalers
+30	7830	underliggende	underliggende
+31	7831	afgrænsning	afgrænsning afgrænsningen
+32	7832	fundere	funderet funder fundere funderede funderer
+33	7833	stuearrest	stuearrest
+34	7834	lejlighedsvis	lejlighedsvis lejlighedsvise lejlighedsvist
+35	7835	evidens	evidens
+36	7836	afslappe	afslappende afslapper afslappe afslappede
+37	7837	urealistisk	urealistisk urealistiske
+38	7838	brætspil	brætspil brætspillet
+39	7839	arbejdsliv	arbejdslivet arbejdsliv
+40	7840	fif	fif fiffet
+41	7841	blitz	blitz blitzen blitzene
+42	7842	manøvrere	manøvrere manøvrer manøvrerer manøvrerede
+43	7843	klynke	klynker klynke klynkende klynken klynkede
+44	7844	pensum	pensum pensummet
+45	7845	naboland	nabolandene nabolande nabolandet naboland
+46	7846	lejemål	lejemål lejemålet
+47	7847	matador	matador matadoren matadorer matadorens matadors
+48	7848	kurdisk	kurdiske kurdisk
+49	7849	forum	fora forummet foraene forummer
+50	7850	bruse	brus brusende bruse brusen bruset brusede
+51	7851	vished	vished visheden visheder
+52	7852	fodfæste	fodfæste fodfæstet
+53	7853	høg	høg høgen høge høgene høgens høgs
+54	7854	leveår	leveår
+55	7855	renhed	renhed renheden renhedens
+56	7856	od	od odde ods odden odderne
+57	7857	ubemærket	ubemærket ubemærkede
+58	7858	tilgængelighed	tilgængelighed
+59	7859	pigebarn	pigebarn pigebarnet pigebørn
+60	7860	politibil	politibil politibilen politibiler politibilerne
+61	7861	misfoster	misfoster misfostre misfostret misfostrene misfosteret
+62	7862	melon	melon meloner melonerne melonen
+63	7863	tweet	tweet tweets tweetet
+64	7864	firewall	firewall firewallen
+65	7865	brøkdel	brøkdel brøkdele
+66	7866	milkshake	milkshake milkshakes milkshaken milkshakene
+67	7867	misvisende	misvisende
+68	7868	ærgre	ærgrer ærgre ærgret ærgrede
+69	7869	udløbsdato	udløbsdato udløbsdatoen udløbsdatoer
+70	7870	ekspedient	ekspedienten ekspedient ekspedienter ekspedienterne
+71	7871	sløje	sløj sløjt sløje
+72	7872	nøj	nøj
+73	7873	billedkunstner	billedkunstner
+74	7874	lasagne	lasagne lasagnen
+75	7875	udligne	udligne udligner udlignet udlign udlignede udlignes
+76	7876	herregård	herregård herregården herregårde
+77	7877	husly	husly
+78	7878	manddrab	manddrab
+79	7879	allersidst	allersidste allersidst
+80	7880	arbejdsopgave	arbejdsopgaver arbejdsopgave arbejdsopgaverne
+81	7881	sniffe	sniffer sniffe sniffede
+82	7882	forseelse	forseelse forseelser
+83	7883	hundred	hundred
+84	7884	dvale	dvale dvalen
+85	7885	indiansk	indiansk indianske
+86	7886	bandage	bandage bandager bandagen bandagerne
+87	7887	solsystemet	solsystemet
+88	7888	selvværd	selvværd selvværdet
+89	7889	hin	hin hine
+90	7890	musketer	musketerer musketer musketererne musketerernes musketers musketeren
+91	7891	supplement	supplement
+92	7892	tjald	tjald tjalden
+93	7893	rastløs	rastløs rastløse rastløst
+94	7894	udryddelse	udryddelse udryddelsen udryddelses udryddelser
+95	7895	korsfæste	korsfæstet korsfæste korsfæstede korsfæster korsfæst korsfæstes
+96	7896	præ	præ præs
+97	7897	diagnosticere	diagnosticeret diagnosticere diagnosticerede diagnosticerer diagnosticeres
+98	7898	blodtype	blodtype blodtypen blodtyper
+99	7899	fedme	fedme
+100	7900	sangtekst	sangtekster sangtekst sangteksten sangteksterne

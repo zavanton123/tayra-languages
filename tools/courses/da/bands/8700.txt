@@ -1,0 +1,100 @@
+1	8601	iværksætteri	iværksætteri
+2	8602	rasle	rasler rasle raslende raslen raslede raslet
+3	8603	forlystelse	forlystelser forlystelse forlystelserne forlystelsen forlystelses
+4	8604	scanning	scanningen scanninger scanningerne
+5	8605	indkomme	indkommende indkomne
+6	8606	maile	mailer mailede maile mailet
+7	8607	logbog	logbog logbogen logbøger logbøgerne
+8	8608	opkræve	opkræve opkræver opkrævet opkrævede opkræv opkrævere opkræves
+9	8609	fadøl	fadøl fadøllen
+10	8610	synlighed	synlighed synligheden
+11	8611	kemiker	kemiker kemikeren kemikere kemikerne
+12	8612	sod	sod soden
+13	8613	overbelaste	overbelastet overbelaste overbelastede overbelaster overbelastes
+14	8614	stofmisbrug	stofmisbrug stofmisbruget
+15	8615	sukkersyge	sukkersyge sukkersygen
+16	8616	banner	bannere banneret bannerne
+17	8617	medmenneske	medmennesker medmenneske medmenneskers
+18	8618	jurisdiktion	jurisdiktion jurisdiktionen jurisdiktioner
+19	8619	modstridende	modstridende
+20	8620	studentereksamen	studentereksamen studentereksamenen
+21	8621	satsning	satsning satsningen satsninger
+22	8622	spir	spir spiret
+23	8623	uregelmæssighed	uregelmæssigheder uregelmæssighed uregelmæssighederne
+24	8624	skude	skuden skude skuder
+25	8625	motorsport	motorsport motorsportens
+26	8626	sjover	sjover sjoveren
+27	8627	utydelig	utydelig utydeligt utydelige
+28	8628	scenarium	scenarier scenariet scenarium
+29	8629	bælt	bælt
+30	8630	tilstedeværende	tilstedeværende
+31	8631	beklagelig	beklageligt beklagelig beklagelige
+32	8632	autorisation	autorisation autorisationer
+33	8633	guldmedalje	guldmedalje guldmedaljer guldmedaljen
+34	8634	marmelade	marmelade marmeladen marmelader
+35	8635	manifest	manifest manifestet manifester manifesterne
+36	8636	beslutsomhed	beslutsomhed beslutsomheden
+37	8637	tackle	tackler tacklet tacklede tackl
+38	8638	stritte	stritter stritte strittede strit strittende strittet stritterne
+39	8639	ophavsret	ophavsret ophavsretten ophavsrettens
+40	8640	sømil	sømil sømils
+41	8641	ubeskrivelig	ubeskriveligt ubeskrivelig ubeskrivelige
+42	8642	kønsorgan	kønsorganer kønsorganerne kønsorgan kønsorganet
+43	8643	udforskning	udforskning udforskningen
+44	8644	indsatsstyrke	indsatsstyrken indsatsstyrke indsatsstyrker indsatsstyrkens
+45	8645	maskinrum	maskinrummet maskinrum
+46	8646	antydning	antydning antydninger antydningen antydningens
+47	8647	kandidatur	kandidatur kandidaturet
+48	8648	inkompetent	inkompetente inkompetent
+49	8649	landjord	landjorden landjord landjordens
+50	8650	arbejderklasse	arbejderklassen arbejderklassens arbejderklasse
+51	8651	stræben	stræben
+52	8652	skrivemaskine	skrivemaskine skrivemaskinen skrivemaskiner skrivemaskinerne
+53	8653	hentydning	hentydning hentydninger hentydningen hentydningerne
+54	8654	skattefri	skattefri skattefrit
+55	8655	levebrød	levebrød
+56	8656	retsmedicinsk	retsmedicinsk retsmedicinske
+57	8657	forsoning	forsoning forsoningen forsonings
+58	8658	konspiration	konspiration konspirationer konspirationen konspirations konspirationerne
+59	8659	opklaring	opklaring opklaringen opklaringer
+60	8660	enkeltvis	enkeltvis
+61	8661	nav	nav navet
+62	8662	storcenter	storcenter storcenteret storcentret storcentre
+63	8663	omdannelse	omdannelse omdannelsen
+64	8664	nedefra	nedefra
+65	8665	påskud	påskud påskuddet
+66	8666	skattejagt	skattejagt skattejagten skattejagter
+67	8667	fodaftryk	fodaftryk fodaftrykkene fodaftrykket
+68	8668	socialisme	socialisme socialismen
+69	8669	blodlegeme	blodlegemer blodlegemerne
+70	8670	gennemsigtighed	gennemsigtighed gennemsigtigheden
+71	8671	opløfte	opløftende opløftet opløfte opløfter opløft opløftede opløftes
+72	8672	helium	helium heliums heliummet
+73	8673	dildo	dildo dildoer dildoen
+74	8674	sydkoreansk	sydkoreanske sydkoreansk
+75	8675	statsfængsel	statsfængsel statsfængslet
+76	8676	lethed	lethed letheden
+77	8677	raffineret	raffineret raffinerede
+78	8678	cappuccino	cappuccino cappuccinoer
+79	8679	udse	udset udså udser udse udsete
+80	8680	velvilje	velvilje
+81	8681	kaviar	kaviar kaviaren
+82	8682	forlygte	forlygter forlygterne forlygte forlygten
+83	8683	indenrigsminister	indenrigsminister indenrigsministeren
+84	8684	folkeslag	folkeslag folkeslags
+85	8685	gavl	gavl gavle gavlen
+86	8686	sovepille	sovepiller sovepille sovepillerne sovepillen
+87	8687	krebs	krebs krebsen krebsene krebsens
+88	8688	rystelse	rystelser rystelserne rystelse rystelsen
+89	8689	travlhed	travlhed travlheden
+90	8690	udbrænde	udbrændte udbrændt udbrænder udbrænde
+91	8691	lydighed	lydighed lydighedens lydigheds
+92	8692	bearbejdning	bearbejdning
+93	8693	gevind	gevind gevindet
+94	8694	ufødt	ufødte ufødt
+95	8695	menighedsråd	menighedsråd menighedsrådet
+96	8696	teologisk	teologiske teologisk
+97	8697	hamster	hamster hamstere hamsteren hamsterne
+98	8698	tidsrejse	tidsrejser tidsrejse tidsrejsen tidsrejserne
+99	8699	hvorom	hvorom
+100	8700	smoothie	smoothie

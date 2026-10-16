@@ -1,0 +1,100 @@
+1	6201	æstetisk	æstetiske æstetisk
+2	6202	astma	astma astmaen
+3	6203	agentur	agentur agenturet agenturer agenturets
+4	6204	omtanke	omtanke omtanken
+5	6205	indespærre	indespærret indespærrede indespærre indespærrer indespærres
+6	6206	modificere	modificeret modificerede modificere modificerer modificeres
+7	6207	holdkammerat	holdkammerater holdkammerat holdkammeraterne holdkammerats holdkammeraters
+8	6208	kunstmuseum	kunstmuseum kunstmuseet
+9	6209	cognac	cognac cognacen
+10	6210	parasit	parasitter parasit parasitten parasitterne parasittens
+11	6211	regulering	regulering reguleringen reguleringer
+12	6212	maraton	maraton maratonet maratonen
+13	6213	gravsted	gravsted gravsteder gravstedet gravstederne
+14	6214	sanktion	sanktioner sanktion sanktionerne sanktionen
+15	6215	visning	visninger visning visningen
+16	6216	itu	itu
+17	6217	papirarbejde	papirarbejde papirarbejdet
+18	6218	forarbejde	forarbejde forarbejdet forarbejderne forarbejdede forarbejder
+19	6219	omfavne	omfavne omfavner omfavnede omfavn omfavnet
+20	6220	udebane	udebane
+21	6221	gødning	gødning gødningen gødnings
+22	6222	dynamit	dynamit dynamitten
+23	6223	henvendelse	henvendelser henvendelse henvendelsen
+24	6224	lynhurtig	lynhurtigt lynhurtige lynhurtig
+25	6225	enzym	enzymer enzym enzymet enzymerne
+26	6226	indblanding	indblanding indblandingen
+27	6227	formidling	formidling formidlingen
+28	6228	bønne	bønner bønne bønnerne bønnen bønnens
+29	6229	længsel	længsel længsler længslen længslens længsels længslers
+30	6230	sikkerhedsvagt	sikkerhedsvagt sikkerhedsvagter sikkerhedsvagten sikkerhedsvagterne
+31	6231	seksualitet	seksualitet seksualiteten seksualitetens
+32	6232	nedtælling	nedtælling nedtællingen
+33	6233	syndebuk	syndebuk syndebukke syndebukken
+34	6234	kiosk	kiosk kiosken kiosker kioskerne
+35	6235	bastard	bastard bastarder bastarden bastards bastarderne bastardens
+36	6236	tilbehør	tilbehør tilbehøret
+37	6237	muliggøre	muliggør muliggøre muliggjorde muliggjort
+38	6238	teologi	teologi teologien
+39	6239	snedig	snedigt snedig snedige snedigste snedigere
+40	6240	opkøbe	opkøbt opkøber opkøbe opkøbte opkøbere opkøbes
+41	6241	omslag	omslag omslaget
+42	6242	bekendtskab	bekendtskab bekendtskaber bekendtskabet
+43	6243	hektisk	hektisk hektiske
+44	6244	fabel	fabler fabel fablen
+45	6245	opvarme	opvarmet opvarmes opvarme opvarmer opvarmede opvarm
+46	6246	botanisk	botanisk botaniske
+47	6247	forsendelse	forsendelse forsendelsen forsendelser forsendelserne
+48	6248	konfirmation	konfirmation konfirmationen
+49	6249	racist	racist racister racisterne racisten
+50	6250	nødstilfælde	nødstilfælde nødstilfældet
+51	6251	håndtryk	håndtryk håndtrykket håndtrykkene håndtryks
+52	6252	blogindlæg	blogindlæg
+53	6253	zulu	zulu zuluerne zuluer
+54	6254	cement	cement cementen
+55	6255	vicedirektør	vicedirektør vicedirektøren vicedirektører
+56	6256	lus	lus lusene lusen
+57	6257	fragte	fragte fragtet fragtede fragtes fragter fragten
+58	6258	tilbede	tilbede tilbad tilbedt tilbed tilbedes tilbedende tilbedte
+59	6259	gennemførelse	gennemførelse gennemførelsen
+60	6260	brugernavn	brugernavn brugernavnet brugernavne
+61	6261	akvarium	akvarium akvariet akvarier akvarierne akvariets
+62	6262	næb	næb næbbet næbet næbbede næbbene
+63	6263	samråd	samråd samrådet
+64	6264	succesrig	succesrig succesrige succesrigt
+65	6265	aflive	aflive aflivet aflives afliver aflivede afliv
+66	6266	tæske	tæsket tæske tæsker tæskede
+67	6267	anger	anger angeren
+68	6268	lap	lap lapper lappen laps lapperne lapse lapsen
+69	6269	barmhjertighed	barmhjertighed barmhjertighedens barmhjertigheden barmhjertigheds
+70	6270	mandel	mandler mandel mandlerne
+71	6271	nappe	nappe nap napper nappede nappet
+72	6272	vejlede	vejlede vejledt vejledende vejled vejledte vejledes
+73	6273	opbevaring	opbevaring opbevaringen opbevarings
+74	6274	bestræbelse	bestræbelser bestræbelserne bestræbelse
+75	6275	begrunde	begrundet begrundede begrunde begrunder begrund begrundes
+76	6276	foder	foder foderet
+77	6277	fremskynde	fremskynde fremskynder fremskyndet fremskyndede fremskyndes fremskynd fremskyndte
+78	6278	attentat	attentat attentatet attentater attentaterne
+79	6279	hindring	hindring hindringer hindringerne hindringen
+80	6280	bachelor	bachelor bachelorer
+81	6281	stinkende	stinkende
+82	6282	præcision	præcision præcisionen præcisions
+83	6283	forfald	forfald forfaldet
+84	6284	gentagelse	gentagelse gentagelser gentagelsen
+85	6285	mole	molen mole moler moles molerne
+86	6286	tilpasning	tilpasning tilpasninger tilpasningen
+87	6287	ciffer	cifre ciffer cifrene cifret
+88	6288	uægte	uægte
+89	6289	ekko	ekko ekkoet ekkoer ekkoerne
+90	6290	komisk	komisk komiske
+91	6291	sart	sart sarte
+92	6292	højtid	højtider højtid højtiden højtiderne højtidens
+93	6293	gæstfrihed	gæstfrihed gæstfriheden
+94	6294	halshugge	halshugget halshuggede halshugge halshug halshugger halshugges
+95	6295	værne	værne værner værnede værnes
+96	6296	halløjsa	halløjsa
+97	6297	matrix	matrix matrixen matricen matricer matrixer
+98	6298	endegyldig	endegyldigt endegyldige endegyldig
+99	6299	rabbiner	rabbiner rabbineren rabbinere rabbinerne rabbinerens rabbiners
+100	6300	uddannelsesinstitution	uddannelsesinstitutioner uddannelsesinstitution

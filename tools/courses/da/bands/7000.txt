@@ -1,0 +1,100 @@
+1	6901	fyring	fyring fyringen fyringer fyringerne
+2	6902	indvending	indvendinger indvending
+3	6903	arrestordre	arrestordre arrestordren arrestordrer arrestordrerne
+4	6904	plæne	plænen plæne plæner plænerne
+5	6905	børnebog	børnebøger børnebog børnebøgerne
+6	6906	spalte	spalte spalter spalten spaltet spaltede spaltes spalterne
+7	6907	ugyldig	ugyldig ugyldigt ugyldige
+8	6908	spå	spå spået spår spåede spås
+9	6909	unaturlig	unaturligt unaturlige unaturlig
+10	6910	samvær	samvær samværet
+11	6911	udsmykning	udsmykning udsmykningen udsmykninger udsmykningerne
+12	6912	forfatterskab	forfatterskab forfatterskabet
+13	6913	snappe	snap snapper snappet snappe snappede
+14	6914	fjernelse	fjernelse fjernelsen
+15	6915	bemande	bemandet bemand bemandede bemande bemander bemandes
+16	6916	ubrugt	ubrugt ubrugte
+17	6917	portugisisk	portugisisk portugisiske
+18	6918	lutter	lutter
+19	6919	logo	logoet logoer logoerne
+20	6920	udleve	udlever udleve udlevet udlevede udlev
+21	6921	spektakulær	spektakulære spektakulær spektakulært
+22	6922	bofælle	bofælle bofæller bofællen bofælles bofællerne
+23	6923	energikilde	energikilde energikilder energikilden
+24	6924	smitsom	smitsom smitsomme smitsomt
+25	6925	meditation	meditation meditationen meditations
+26	6926	diskretion	diskretion diskretionen
+27	6927	halvø	halvøen halvø
+28	6928	tabu	tabu tabuer
+29	6929	trolddom	trolddom trolddommen trolddommens trolddoms
+30	6930	hævelse	hævelse hævelsen hævelser hævelserne
+31	6931	befrielse	befrielse befrielsen befrielses
+32	6932	artist	artist artister artists artisten artisterne
+33	6933	socialrådgiver	socialrådgiver socialrådgivere socialrådgiveren socialrådgiverne
+34	6934	livsfarlig	livsfarligt livsfarlig livsfarlige
+35	6935	peanut	peanuts peanut
+36	6936	skrædder	skrædder skrædderen skræddere skrædders
+37	6937	bøg	bøg
+38	6938	snude	snuden snude snuder
+39	6939	benævne	benævnt benævnes benævne benævnte benævner
+40	6940	mangfoldighed	mangfoldighed mangfoldigheden mangfoldighedens
+41	6941	mundfuld	mundfuld mundfulde
+42	6942	verdensberømt	verdensberømte verdensberømt
+43	6943	konsul	konsul konsulen konsulens konsuler konsuls konsulerne
+44	6944	harmonisk	harmonisk harmoniske
+45	6945	diskrimination	diskrimination diskriminationen
+46	6946	cruise	cruise cruises cruisede
+47	6947	bæ	bæ bæen bæer
+48	6948	anvisning	anvisninger anvisning anvisningerne anvisningen
+49	6949	observatør	observatør observatører observatørerne observatøren observatørernes observatørens
+50	6950	spasser	spasser spassere spasseren
+51	6951	middelmådig	middelmådig middelmådige middelmådigt
+52	6952	autisme	autisme
+53	6953	styrkelse	styrkelse
+54	6954	forhåbning	forhåbninger forhåbning forhåbningerne
+55	6955	indskrive	indskrevet indskrive indskrev indskriv indskriver indskrives
+56	6956	personbil	personbil personbiler personbilen
+57	6957	glans	glans glansen
+58	6958	vicevært	vicevært viceværten viceværter viceværterne viceværtens
+59	6959	fredfyldt	fredfyldt fredfyldte
+60	6960	komfortabel	komfortabelt komfortabel komfortable
+61	6961	bedårende	bedårende
+62	6962	neden	neden
+63	6963	forrude	forruden forrude forruder
+64	6964	hjerneskade	hjerneskade hjerneskader hjerneskaden
+65	6965	geografi	geografi geografien
+66	6966	indløse	indløse indløst indløser indløste indløs indløses
+67	6967	umådelig	umådelig umådeligt umådelige
+68	6968	simulere	simulere simulerer simuleret simulerede simuler simuleres
+69	6969	retmæssig	retmæssige retmæssigt retmæssig
+70	6970	palæstinenser	palæstinensere palæstinenserne palæstinenser palæstinensernes
+71	6971	græskar	græskar græskarret græskarrene
+72	6972	håndhæve	håndhæve håndhæver håndhæves håndhævere håndhævet håndhævede håndhævende håndhæverne
+73	6973	dulle	dulle duller dullen dullerne dullet dullens dullede
+74	6974	skoletid	skoletid skoletiden
+75	6975	lue	lu lue luer luerne
+76	6976	kvæstelse	kvæstelser kvæstelserne kvæstelse kvæstelsen
+77	6977	messias	messias
+78	6978	menneskelighed	menneskelighed menneskeligheden menneskelighedens
+79	6979	forhaste	forhastede forhastet forhaste forhaster forhast forhastes
+80	6980	samspil	samspil samspillet
+81	6981	quiz	quiz quizzen quizzer
+82	6982	hudfarve	hudfarve hudfarven hudfarver
+83	6983	samfundsfag	samfundsfag
+84	6984	skolegang	skolegang
+85	6985	græsplæne	græsplæne græsplænen græsplæner
+86	6986	odds	oddsene
+87	6987	finne	finne finner finnerne finnen finnes finnens
+88	6988	geologisk	geologiske geologisk
+89	6989	truck	truck trucken truckerne
+90	6990	savle	savler savle savl savlede savlende savlet savlen
+91	6991	vedkomme	vedkommer vedkom vedkomne vedkomme
+92	6992	fødselsdagsfest	fødselsdagsfest fødselsdagsfesten fødselsdagsfester
+93	6993	butterfly	butterfly butterflyen
+94	6994	modulere	moduler modulerer modulere moduleret modulerede
+95	6995	eksil	eksil
+96	6996	berøve	berøvet berøve berøver berøvede berøves berøv
+97	6997	påskønne	påskønner påskønne påskønnet påskønnede påskønnes påskønnende påskøn
+98	6998	kvote	kvote kvoter kvoten kvoterne
+99	6999	høflighed	høflighed høfligheder høflighederne høfligheden høfligheds høflighedens
+100	7000	løsladelse	løsladelse løsladelsen løsladelses løsladelser

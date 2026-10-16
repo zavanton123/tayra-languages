@@ -1,0 +1,100 @@
+1	4701	ih	ih
+2	4702	bedrag	bedrag bedraget bedragets
+3	4703	nydelse	nydelse nydelsen nydelser nydelsens
+4	4704	vandfald	vandfald vandfaldet vandfaldene vandfaldets
+5	4705	kvart	kvart kvarters kvarts kvarte
+6	4706	uvidende	uvidende
+7	4707	omega	omega omegaer
+8	4708	begejstring	begejstring begejstringen
+9	4709	brag	brag braget bragene
+10	4710	udleje	udlejes udlejet udleje udlejede
+11	4711	solskin	solskin solskinnet
+12	4712	checke	checke checker checkede checkes
+13	4713	terapeut	terapeut terapeuten terapeuter terapeuts terapeutens
+14	4714	årstid	årstid årstider årstiderne årstiden årstidernes årstidens årstids
+15	4715	lodtrækning	lodtrækningen lodtrækning
+16	4716	boksning	boksning boksningen boksningens boksnings
+17	4717	diameter	diameter diameteren
+18	4718	fantasy	fantasy
+19	4719	hjemsøge	hjemsøgt hjemsøger hjemsøgte hjemsøge hjemsøges hjemsøg hjemsøgende
+20	4720	oplagt	oplagt oplagte
+21	4721	manual	manual manualen manualer manualerne
+22	4722	vippe	vip vippe vippen vipper vippede vippet vipperne vippes vippende
+23	4723	læder	læder læderet
+24	4724	kredit	kredit kreditten kreditter kredits
+25	4725	justitsministerium	justitsministeriet justitsministeriets justitsministerium
+26	4726	indlysende	indlysende
+27	4727	italiener	italiener italienerne italienere italieneren italienernes
+28	4728	erotisk	erotiske erotisk
+29	4729	bæst	bæst bæstet bæster bæsterne bæstets bæsters
+30	4730	trøste	trøste trøster trøstede trøstende trøstet trøstes
+31	4731	genopbygge	genopbygge genopbygget genopbygger genopbygges genopbyggede genopbyg genopbyggende
+32	4732	himmelsk	himmelske himmelsk
+33	4733	formidle	formidle formidler formidlet formidlede formidles formidlere formidlende
+34	4734	sammenhængende	sammenhængende
+35	4735	kaution	kaution kautionen kautioner
+36	4736	genvinde	genvinde genvinder genvundet genvandt genvind genvindes
+37	4737	krybe	krybe kryber krøb krybende krøbet
+38	4738	fleksibel	fleksibel fleksible fleksibelt
+39	4739	indledning	indledning indledningen
+40	4740	privilegium	privilegium privilegier privilegiet privilegie privilegierne
+41	4741	vulkan	vulkan vulkanen vulkaner vulkanerne vulkanens vulkans
+42	4742	hare	hare haren harer hares harens harerne
+43	4743	anstændig	anstændig anstændigt anstændige
+44	4744	finansiering	finansiering finansieringen
+45	4745	læbestift	læbestift læbestiften læbestifter
+46	4746	lejemorder	lejemorder lejemordere lejemorderen lejemorderne lejemorders lejemordernes lejemorderens
+47	4747	intim	intime intimt intim
+48	4748	drikkepenge	drikkepenge drikkepengene
+49	4749	lab	lab labs labberne labben labber
+50	4750	fad	fad fade fadet fadene fadt fadede
+51	4751	journalistik	journalistik journalistikken journalistikkens
+52	4752	ubetydelig	ubetydelig ubetydelige ubetydeligt
+53	4753	broderskab	broderskab broderskabet broderskabets broderskabs broderskaber
+54	4754	rønne	rønne rønnede rønner
+55	4755	strejke	strejke strejker strejken strejkede strejkende strejkerne
+56	4756	introduktion	introduktion introduktionen introduktioner
+57	4757	tarm	tarm tarme tarmen tarmene
+58	4758	overlegen	overlegen overlegne overlegent
+59	4759	konstruere	konstrueret konstruere konstruerede konstruerer konstruer
+60	4760	gnist	gnist gnister gnisten gnisterne
+61	4761	berygtet	berygtede berygtet
+62	4762	generere	genererer generere generer genereret genererede genereres
+63	4763	beton	beton betonen betoner
+64	4764	arbejdstid	arbejdstiden arbejdstid arbejdstider arbejdstiderne
+65	4765	pågribe	pågrebet pågribe pågreb pågrib pågriber pågribes pågrebne
+66	4766	pudsig	pudsigt pudsige pudsig
+67	4767	frustreret	frustreret frustrerede
+68	4768	pyramide	pyramide pyramiden pyramiderne pyramider pyramidens pyramides pyramidernes
+69	4769	spyd	spyd spyddet spydet spyddene spydene
+70	4770	mol	mols mol
+71	4771	brase	bras brasende braser brase brasede braste braset braserne brasen
+72	4772	aldeles	aldeles
+73	4773	langvarig	langvarig langvarige langvarigt
+74	4774	legeplads	legeplads legepladsen legepladser legepladserne
+75	4775	pingvin	pingvin pingviner pingvinen pingvinerne pingvinens pingvins pingvinernes
+76	4776	udveksling	udveksling udvekslingen udvekslings udvekslinger
+77	4777	fodspor	fodspor fodsporene
+78	4778	uenighed	uenighed uenigheder uenigheden uenighederne
+79	4779	frisør	frisør frisøren frisører frisørs frisørens
+80	4780	fiber	fibre fiber fibrene fiberen
+81	4781	opvækst	opvækst opvæksten
+82	4782	betinget	betinget betingede
+83	4783	blond	blond blondt
+84	4784	venlighed	venlighed venligheden venligheder
+85	4785	influenza	influenza influenzaen
+86	4786	tilståelse	tilståelse tilståelsen tilståelser tilståelserne
+87	4787	borg	borg borge borgens borgs borges borgene
+88	4788	bestyrelsesmedlem	bestyrelsesmedlem bestyrelsesmedlemmer bestyrelsesmedlemmerne
+89	4789	flint	flint flints flinten
+90	4790	genoplive	genoplive genoplivet genoplivede genopliver genoplives genopliv
+91	4791	afgå	afgår afgået afgik afgående afgå afgåede
+92	4792	underlægge	underlagt underlægge underlægger underlægges underlagde
+93	4793	madlavning	madlavning madlavningen madlavnings
+94	4794	tørklæde	tørklæde tørklædet tørklæder tørklæderne
+95	4795	dolk	dolk dolken dolket dolkede dolke dolker dolkene dolkens dolkes
+96	4796	teknologisk	teknologiske teknologisk
+97	4797	dødsstraf	dødsstraf dødsstraffen dødstraf
+98	4798	march	march marchen marcher
+99	4799	indbyrdes	indbyrdes
+100	4800	autentisk	autentisk autentiske

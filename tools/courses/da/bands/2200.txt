@@ -1,0 +1,100 @@
+1	2101	chauffør	chauffør chaufføren chauffører chaufførerne chaufførens chaufførs
+2	2102	villig	villig villige villigt
+3	2103	næ	næ næs næsset
+4	2104	motiv	motiv motiver motivet motiverne
+5	2105	anvendelse	anvendelse anvendelsen anvendelser
+6	2106	andel	andel andelen andele andelene
+7	2107	mystisk	mystisk mystiske
+8	2108	videnskabelig	videnskabelige videnskabelig videnskabeligt
+9	2109	dialog	dialog dialogen dialoger dialogerne
+10	2110	las	las laser laseren lasere laserne lasen laserens
+11	2111	overskud	overskud overskuddet
+12	2112	spændt	spændt spændte
+13	2113	besejre	besejre besejret besejrede besejrer besejres besejr
+14	2114	endvidere	endvidere
+15	2115	mile	miles mile milen
+16	2116	id	id ids
+17	2117	eftersom	eftersom
+18	2118	lovlig	lovligt lovlig lovlige
+19	2119	total	total totale totalen totaller
+20	2120	fødsel	fødsel fødslen fødsler fødsels fødslens fødselen
+21	2121	bøde	bøde bøder bød bøden bøderne bødet bødes bødede
+22	2122	afhænge	afhænger afhænge afhang
+23	2123	bedstefar	bedstefar bedstefars bedstefædre bedstefaren bedstefarens
+24	2124	indtryk	indtryk indtrykket indtrykkene
+25	2125	ko	ko køer koen køerne kos koens køernes køers
+26	2126	helikopter	helikopter helikopteren helikoptere helikopterne helikopterens helikopters
+27	2127	budskab	budskab budskabet budskaber budskaberne
+28	2128	befri	befri befriet befriede befrier befriende befries befriere befris befrir befrieren
+29	2129	lag	lag laget lagene lags
+30	2130	arbejdsplads	arbejdspladser arbejdsplads arbejdspladsen arbejdspladserne
+31	2131	retssag	retssag retssagen retssager retssagerne retssagens
+32	2132	skønhed	skønhed skønheden skønheder skønheds skønhedens
+33	2133	tømme	tømt tømme tømmer tømte tøm tømmes tømmeret tømmerne tømtes tømmen
+34	2134	udpege	udpeget udpege udpegede udpeger udpeges udpeg
+35	2135	badeværelse	badeværelset badeværelse badeværelser badeværelserne badeværelses badeværelsets
+36	2136	branche	branche branchen brancher branchens
+37	2137	kræft	kræft kræften kræftens
+38	2138	beregne	beregnet beregne beregnes beregner beregnede beregnende beregn
+39	2139	stemning	stemning stemningen stemninger stemningens stemnings
+40	2140	forbund	forbundet forbund forbundets forbunds forbundene
+41	2141	tiltale	tiltalte tiltalt tiltale tiltaler tiltalende tiltalen tiltales tiltaltes tiltal tiltalerne
+42	2142	uhyggelig	uhyggeligt uhyggelige uhyggelig uhyggeligste uhyggeligere
+43	2143	tårn	tårnet tårn tårne tårnene tårner tårnets tårnede tårnenes tårnes
+44	2144	loft	loftet loft lofter lofterne
+45	2145	springer	springer springeren springere springerne springerens
+46	2146	aktuel	aktuelle aktuelt aktuel
+47	2147	soveværelse	soveværelset soveværelse soveværelser soveværelserne soveværelsets
+48	2148	modstand	modstand modstanden modstands modstandens modstande
+49	2149	inspiration	inspiration inspirationen inspirationer inspirationens
+50	2150	mønster	mønster mønstre mønstret mønsteret mønstrene mønstrede
+51	2151	nåde	nåde nådes nåden nådens
+52	2152	trøje	trøje trøjen trøjer trøjerne
+53	2153	fase	fase faser fasen faserne fasede faset fasernes
+54	2154	sergent	sergent sergenten sergentens sergenter sergenterne sergents
+55	2155	stadion	stadion stadionet stadioner stadions
+56	2156	undtagen	undtagen
+57	2157	genstand	genstande genstand genstanden genstandene genstandens genstands genstandes genstandenes
+58	2158	mareridt	mareridt mareridtet mareridtene mareridts mareridtets
+59	2159	overblik	overblik overblikket
+60	2160	hale	hale halen haler hales halet halede halerne
+61	2161	henholdsvis	henholdsvis hhv
+62	2162	senator	senator senatoren senatorer senatorens senatorerne senators senatorernes
+63	2163	motorvej	motorvejen motorvej motorveje motorvejene motorvejs
+64	2164	hylde	hylde hylder hylden hyldet hylderne hyldede hyldes hyld
+65	2165	rotte	rotter rotte rotten rotterne rottet rottens rottes rottede rotternes rot
+66	2166	egenskab	egenskaber egenskab egenskaberne egenskaben
+67	2167	besvare	besvare besvarer besvaret besvarede besvar besvares
+68	2168	værdsætte	værdsætter værdsat værdsætte værdsatte værdsæt værdsættes
+69	2169	dækning	dækning dækningen dæknings
+70	2170	indstille	indstillet indstil indstille indstillede indstiller indstilles
+71	2171	omfattende	omfattende
+72	2172	radikal	radikale radikal radikalt radikaler
+73	2173	beskæftige	beskæftiger beskæftiget beskæftigede beskæftige beskæftig
+74	2174	eksamen	eksamen eksamener eksaminer eksamens eksamenen eksamenerne eksaminerne
+75	2175	glide	gled glider glide glidende gledet glid gliderne glidere glideren
+76	2176	sum	summer sum summen summeren
+77	2177	opmærksom	opmærksom opmærksomme opmærksomt
+78	2178	udgang	udgangen udgang udgange udgangene udgangs
+79	2179	sundhed	sundhed sundheds sundheden
+80	2180	delvis	delvist delvis delvise
+81	2181	forvej	forvejen
+82	2182	imidlertid	imidlertid
+83	2183	stråle	strålende stråler stråle strålen strålede strålerne strål strålet strålens
+84	2184	demokratisk	demokratiske demokratisk
+85	2185	herude	herude
+86	2186	karl	karl karls karle karlen karlene
+87	2187	blanding	blanding blandingen blandinger blandingerne
+88	2188	vågen	vågen vågent
+89	2189	byggeri	byggeriet byggeri byggerier
+90	2190	biograf	biografen biograf biografer biograferne biografens
+91	2191	magasin	magasin magasinet magasiner magasinerne
+92	2192	not	not noter noterne noten
+93	2193	rekord	rekord rekorden rekorder rekorderne
+94	2194	skuffet	skuffet
+95	2195	deltagelse	deltagelse deltagelsen
+96	2196	medalje	medalje medaljer medaljen medaljerne
+97	2197	alkohol	alkohol alkoholen alkoholens
+98	2198	køretøj	køretøjer køretøj køretøjet køretøjerne køretøjets køretøjs
+99	2199	symptom	symptomer symptomerne symptom symptomet
+100	2200	desperat	desperat desperate

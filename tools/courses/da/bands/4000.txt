@@ -1,0 +1,100 @@
+1	3901	tapper	tapper tapre tappert tapreste taprere
+2	3902	dav	dav
+3	3903	tilmed	tilmed
+4	3904	skelne	skelne skelner skelnes skelnen skelnede
+5	3905	hash	hash hashen
+6	3906	morfar	morfar morfars
+7	3907	tekniker	tekniker teknikere teknikerne teknikeren teknikernes
+8	3908	afskaffe	afskaffet afskaffe afskaffes afskaffede afskaffer afskaf
+9	3909	investor	investorer investorerne investoren investorernes investorers
+10	3910	imperium	imperium imperiet imperiets imperier imperie imperiums imperiers
+11	3911	afspejle	afspejler afspejle afspejles afspejlede afspejlet
+12	3912	glimt	glimt glimtet glimtene
+13	3913	premierminister	premierminister premierministeren premierministerens premierministre
+14	3914	atlet	atleter atlet atleterne atleters atleten atleternes
+15	3915	donere	donere doneret donerede donerer doner doneres donér
+16	3916	højesteret	højesteret højesterets højesteretten
+17	3917	trold	trold trolde trolden troldene troldens troldenes trolds troldes
+18	3918	taktik	taktik taktikken taktikker taktikkerne
+19	3919	canadisk	canadiske canadisk
+20	3920	undertrykke	undertrykke undertrykt undertrykte undertrykker undertrykkende undertrykkere undertryk undertrykkes undertrykkerne undertryktes
+21	3921	guddommelig	guddommelige guddommelig guddommeligt
+22	3922	taktisk	taktisk taktiske
+23	3923	omtrent	omtrent
+24	3924	vicepræsident	vicepræsident vicepræsidenten vicepræsidentens vicepræsidenter vicepræsidents
+25	3925	udbytte	udbytte udbyttet udbytter udbyttere
+26	3926	ophøre	ophører ophøre ophørt ophørte
+27	3927	forfremme	forfremmet forfremme forfremmes forfremmer forfremmede forfrem
+28	3928	heroin	heroin heroinen heroinet
+29	3929	skrå	skråt skrå
+30	3930	lektion	lektion lektioner lektionen lektionerne
+31	3931	flov	flov flovt flove
+32	3932	beskæftigelse	beskæftigelse beskæftigelsen beskæftigelser
+33	3933	bagagerum	bagagerummet bagagerum
+34	3934	interview	interviewet interviewene
+35	3935	forælder	forælder forældrene forældres forældrenes forælders forælderen
+36	3936	kendetegn	kendetegnet kendetegn kendetegnene
+37	3937	mangen	fleste mangen mangt
+38	3938	næh	næh
+39	3939	overtræde	overtrådt overtræder overtræde overtrådte overtrædere overtrædes overtræd
+40	3940	regulere	reguleret regulere regulerer reguleres regulerede regulerende
+41	3941	koloni	koloni kolonien kolonier kolonierne koloniens koloniernes kolonis
+42	3942	munter	muntre munter muntert muntrer muntrede muntret muntres
+43	3943	nisse	nisse nisser nissen nisserne nisses
+44	3944	stråling	stråling strålingen strålings
+45	3945	jævnlig	jævnligt jævnlig jævnlige
+46	3946	larme	larmer larmende larme larmede larmet
+47	3947	erindring	erindringer erindring erindringen erindringerne
+48	3948	asie	asien asiens asier
+49	3949	indefra	indefra
+50	3950	romer	romerne romere romer romernes romeren romers
+51	3951	tålmodig	tålmodig tålmodige tålmodigt
+52	3952	genert	genert generte
+53	3953	illustrere	illustreret illustrerer illustrere illustreres illustrerede
+54	3954	gabe	gabe gab gaber gabet gabte gabende gabt gabes gaben gabs
+55	3955	bevidstløs	bevidstløs bevidstløse bevidstløst
+56	3956	påvirkning	påvirkning påvirkninger påvirkningen
+57	3957	aspekt	aspekter aspekt aspektet aspekterne
+58	3958	suveræn	suveræn suverænt suveræne
+59	3959	sammensætning	sammensætning sammensætningen sammensætninger
+60	3960	betro	betroede betroet betro betror betros
+61	3961	spøge	spøger spøge spøgte spøgt spøgen spøgede spøgende
+62	3962	sild	sild silden sildene silds
+63	3963	kasino	kasino kasinoet kasinoer kasinoerne kasinoets
+64	3964	klinisk	klinisk kliniske
+65	3965	ustabil	ustabil ustabilt ustabile
+66	3966	chili	chili chilien chilier chilis chilierne
+67	3967	daggry	daggry daggryet daggryets
+68	3968	tryghed	tryghed trygheden
+69	3969	nytår	nytår nytåret nytårs
+70	3970	detektiv	detektiv detektiver detektiven detektiverne detektivs detektivens
+71	3971	instinkt	instinkt instinkter instinktet instinkterne
+72	3972	prioritet	prioritet prioriteter prioriteten prioriteterne prioritets
+73	3973	territorium	territorium territorier territoriet territorierne territoriets
+74	3974	udsælge	udsolgt udsolgte
+75	3975	sult	sult sultens
+76	3976	lillesøster	lillesøster lillesøsteren lillesøsters lillesøstre
+77	3977	katolsk	katolske katolsk
+78	3978	statsborger	statsborger statsborgere
+79	3979	orlov	orlov orloven orlovs
+80	3980	autoritet	autoritet autoriteter autoriteten autoriteterne autoritetens
+81	3981	knokle	knokler knoklet knokle knoklede knokles knokl
+82	3982	brugbar	brugbart brugbar brugbare
+83	3983	ventetid	ventetid ventetiden
+84	3984	velsignelse	velsignelse velsignelser velsignelsen velsignelserne
+85	3985	læne	læn læner læne lænede lænet
+86	3986	integrere	integreret integrerede integrere integreres integrerer integrer
+87	3987	udbetale	udbetalt udbetales udbetale udbetaler udbetalte
+88	3988	reserve	reserve reserver reserven reserverne
+89	3989	bager	bager bageren bagere bagerens bagerne
+90	3990	lem	lem lemmer lemmen lemmerne lemmet lemme lemmers
+91	3991	krystal	krystal krystaller krystallen krystallerne krystallet krystallens krystallets krystallernes
+92	3992	kaj	kaj kajen kajerne kajs kajer
+93	3993	angivelig	angiveligt angivelige angivelig
+94	3994	utilfreds	utilfreds utilfredse
+95	3995	udelukket	udelukket
+96	3996	gloria	gloria glorias
+97	3997	arrestere	arrestere arresterer arrester arresterede arresteres arrestér
+98	3998	støder	støder stødere støderen
+99	3999	bebyggelse	bebyggelse bebyggelsen bebyggelser
+100	4000	passiv	passiv passive passivt passiver

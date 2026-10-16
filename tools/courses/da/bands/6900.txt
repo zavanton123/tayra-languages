@@ -1,0 +1,100 @@
+1	6801	ubetinget	ubetinget ubetingede
+2	6802	respektløs	respektløst respektløs respektløse
+3	6803	sportslig	sportslige sportslig sportsligt
+4	6804	korrigere	korrigeret korrigere korrigerer korriger korrigerede korrigeres korrigerende
+5	6805	ophøje	ophøjet ophøjede ophøje ophøjer ophøjes ophøj
+6	6806	inklusion	inklusion
+7	6807	rad	rad rader rade rads raden
+8	6808	omhu	omhu
+9	6809	opkøb	opkøb opkøbet
+10	6810	øverstbefalende	øverstbefalende
+11	6811	fortvivlelse	fortvivlelse fortvivlelsen fortvivlelsens
+12	6812	udarbejdelse	udarbejdelsen udarbejdelse
+13	6813	klassekammerat	klassekammerater klassekammerat klassekammeraterne klassekammeraters klassekammerats
+14	6814	gråd	gråd gråden grådens
+15	6815	tænkelig	tænkelige tænkelig tænkeligt
+16	6816	kompagnon	kompagnon kompagnoner kompagnonen kompagnonerne
+17	6817	morskab	morskab morskaben morskabs morskabens
+18	6818	regent	regent regenterne regenter regenten regents regenternes regentens
+19	6819	ujævn	ujævn ujævnt ujævne
+20	6820	bagpå	bagpå
+21	6821	posthus	posthuset posthus posthuse
+22	6822	udslag	udslag udslaget udslagene
+23	6823	à	à
+24	6824	bønfalde	bønfalder bønfaldt bønfalde bønfald bønfaldende bønfaldet
+25	6825	vanære	vanære vanæret vanærer vanærede vanærende vanæres vanæren
+26	6826	tastatur	tastatur tastaturet tastaturer
+27	6827	principiel	principielt principielle principiel
+28	6828	sympatisk	sympatisk sympatiske
+29	6829	afvige	afvigende afvige afveg afvig afveget afvegen
+30	6830	hovedindgang	hovedindgangen hovedindgang
+31	6831	tørke	tørke tørken tørker
+32	6832	analog	analog analoge analogt
+33	6833	forvalte	forvalter forvalte forvalteren forvaltede forvaltere forvaltet forvaltes forvalterens
+34	6834	mase	mase maser maste masen masede mases masende maset
+35	6835	uvedkommende	uvedkommende
+36	6836	forstander	forstander forstanderen forstanderens
+37	6837	udholdenhed	udholdenhed udholdenheden
+38	6838	kande	kande kanden kander
+39	6839	kvælstof	kvælstof kvælstoffet
+40	6840	milits	militsen milits militser militserne militsens
+41	6841	mishandle	mishandlet mishandlede mishandle mishandles
+42	6842	privatskole	privatskole privatskoler privatskolen
+43	6843	attraktion	attraktioner attraktion attraktionen attraktionerne
+44	6844	halvtreds	halvtreds
+45	6845	respons	respons responsen
+46	6846	vokal	vokal vokaler vokalerne vokale
+47	6847	arvelig	arveligt arvelig arvelige
+48	6848	overgivelse	overgivelse overgivelsen overgivelsens
+49	6849	hvidvin	hvidvin hvidvinen
+50	6850	molekyle	molekyler molekyle molekylerne molekylet
+51	6851	bordtennis	bordtennis
+52	6852	sprød	sprød sprøde sprødt sprødere
+53	6853	drikkevare	drikkevarer drikkevarerne drikkevare
+54	6854	tao	tao
+55	6855	rav	rav ravet
+56	6856	prutte	prutter prutte pruttede pruttet pruttende prutten pruttes
+57	6857	distribuere	distribuere distribueres distribueret distribuerer distribuerede
+58	6858	forkorte	forkortet forkorte forkorter forkortede forkortes forkort
+59	6859	gemmested	gemmested gemmesteder gemmestedet gemmestederne
+60	6860	palæ	palæ palæet palæer palæets
+61	6861	irakisk	irakiske irakisk
+62	6862	asteroide	asteroide asteroiden asteroider asteroiderne asteroidens asteroides
+63	6863	flora	flora floras floraen
+64	6864	kakerlak	kakerlakker kakerlak kakerlakkerne kakerlakken
+65	6865	spæde	spæde spæd spæder spædet spædede
+66	6866	oliven	oliven olivenerne
+67	6867	porcelæn	porcelæn porcelænet porcelæns
+68	6868	sparekasse	sparekassen sparekasse
+69	6869	rådden	rådden råddent
+70	6870	lokation	lokation lokationer lokationen lokationerne
+71	6871	kål	kål kålen
+72	6872	tomrum	tomrum tomrummet tomrummene
+73	6873	pendle	pendler pendlere pendle pendlerne pendlede pendlet
+74	6874	forlægge	forlægger forlagt forlæggeren forlagde forlæggere forlægge forlæg forlæggerens forlagte forlæggerne
+75	6875	ukrudt	ukrudt ukrudtet
+76	6876	nøgenbillede	nøgenbilleder nøgenbillede nøgenbillederne nøgenbilledet
+77	6877	regi	regi regier regierne
+78	6878	slurk	slurk slurke
+79	6879	sabotere	sabotere saboterede saboteret saboterer saboter
+80	6880	diskotek	diskotek diskoteker diskoteket diskotekerne
+81	6881	udsyn	udsyn udsynet
+82	6882	hukommelsestab	hukommelsestab hukommelsestabet
+83	6883	tidevand	tidevandet tidevand tidevands tidevandets
+84	6884	flygtig	flygtige flygtig flygtigt
+85	6885	feminin	feminine feminin feminint
+86	6886	friskole	friskole friskoler friskolerne
+87	6887	utilpas	utilpas utilpasse
+88	6888	drivkraft	drivkraft drivkraften drivkræfter
+89	6889	snorke	snorker snorken snorkede snorke snorket snork snorkende
+90	6890	alderdom	alderdom alderdommen alderdommens
+91	6891	bevilge	bevilget bevilgede bevilliget bevilge bevilger bevilges bevillige
+92	6892	fusion	fusionen fusioner
+93	6893	neglelak	neglelak neglelakken
+94	6894	uddø	uddø uddøde uddør uddøende
+95	6895	havfrue	havfrue havfruer havfruen havfruerne havfruernes havfrues
+96	6896	forstille	forstille forstil forstiller forstillet forstillede
+97	6897	sagn	sagn sagnet sagnene
+98	6898	beklageligvis	beklageligvis
+99	6899	telefonsamtale	telefonsamtaler telefonsamtale telefonsamtalen telefonsamtalerne
+100	6900	diktere	dikterer diktere dikteret dikterede dikteres dikter

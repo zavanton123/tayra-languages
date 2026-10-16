@@ -1,0 +1,100 @@
+1	1401	eftermiddag	eftermiddag eftermiddagen eftermiddags eftermiddage eftermiddagens
+2	1402	borgmester	borgmester borgmesteren borgmestre borgmesterens borgmesters
+3	1403	aflevere	aflevere afleverer afleveret afleverede afleveres aflever aflevér
+4	1404	fandeme	fandeme fandme
+5	1405	udgøre	udgør udgjorde udgøre udgøres udgjort
+6	1406	tryk	tryk trykket trykkene
+7	1407	makker	makker makkere makkers makkeren makkerne
+8	1408	kilometer	kilometer kilometers kilomet
+9	1409	opgive	opgive opgivet opgav opgiver opgiv opgives opgivende opgivne
+10	1410	afvise	afvist afviser afviste afvise afvises afvisende afvis
+11	1411	album	albummet album albums albummer
+12	1412	rygte	rygter rygte rygtet rygterne rygtes rygtedes
+13	1413	teori	teori teorier teorien teorierne
+14	1414	imellem	imellem
+15	1415	februar	februar
+16	1416	aktivitet	aktiviteter aktivitet aktiviteterne aktiviteten aktivitets
+17	1417	godkende	godkendt godkendte godkende godkendes godkender godkend
+18	1418	overraskelse	overraskelse overraskelser overraskelsen overraskelses overraskelserne overraskelsens
+19	1419	slutning	slutningen slutning slutninger slutningerne slutningens
+20	1420	javel	javel
+21	1421	hov	hov hove hoven hovene hovne hovet hovent
+22	1422	historisk	historisk historiske
+23	1423	springe	springe sprang sprunget springende springes springen sprungen
+24	1424	opstå	opstår opstod opstået opstå opståen opståede
+25	1425	tilhører	tilhører tilhørere tilhørerne tilhøreren
+26	1426	bærer	bærer bæreren bærere bærerne bærerens
+27	1427	enorm	enormt enorme enorm
+28	1428	medie	medier medierne medie mediernes mediet mediers mediets
+29	1429	udfordring	udfordring udfordringer udfordringen udfordringerne
+30	1430	van	van vaner vanen vanens vans vanerne
+31	1431	knuse	knust knuse knuste knuser knusende knuseren knustes
+32	1432	skrige	skriger skreg skrige skrig skrigende skrigene skreget skriget skrigen skriges
+33	1433	bestyrelse	bestyrelsen bestyrelse bestyrelsens bestyrelser bestyrelserne bestyrelses
+34	1434	vogn	vogn vognen vogne vognene vognens vogns
+35	1435	forår	foråret forår forårets forårs
+36	1436	årlig	årligt årlige årlig
+37	1437	kop	kop kopper koppen kopperne kops koppers
+38	1438	brænder	brænder brænderen brændere brænderne
+39	1439	oprindelig	oprindelige oprindeligt oprindelig
+40	1440	modsat	modsatte modsat
+41	1441	vold	vold volden volde volder voldt voldte voldens volds voldene
+42	1442	bevare	bevare bevares bevaret bevarer bevar bevarede bevarende
+43	1443	kanal	kanal kanaler kanalen kanalerne kanalens
+44	1444	råbe	råbe råbte råb råbt råben råbende råbet råbene råbes
+45	1445	tilstand	tilstand tilstande tilstanden tilstandene
+46	1446	ride	ride rider red redet reden rid ridende riders rides riden
+47	1447	bolig	bolig boliger boligen boligerne
+48	1448	vidunderlig	vidunderligt vidunderlig vidunderlige vidunderligste
+49	1449	gård	gården gård gårde gårdens gårdene
+50	1450	forbandet	forbandede forbandet
+51	1451	vegne	vegne
+52	1452	lejr	lejren lejr lejre lejrene lejrens lejrs
+53	1453	jage	jage jager jag jaget jagede jog jages jagere jagerne jagende
+54	1454	fremragende	fremragende
+55	1455	derfra	derfra
+56	1456	tillid	tillid tilliden tillids
+57	1457	ryge	ryge røget rygende ryges
+58	1458	my	my myers myer mys
+59	1459	røg	røg røgen
+60	1460	uskyldig	uskyldig uskyldige uskyldigt
+61	1461	næppe	næppe
+62	1462	menneskelig	menneskelige menneskelig menneskeligt
+63	1463	netværk	netværk netværket netværkets netværker netværks netværkene
+64	1464	arrangere	arrangeret arrangere arrangerer arrangerede arrangeres arranger
+65	1465	pleje	plejede pleje plejet plejes plej plejen plejende
+66	1466	gennemgå	gennemgå gennemgår gennemgået gennemgik gennemgående gennemgås
+67	1467	mur	muren mur mure murene murer muret murens murede murerne murere
+68	1468	ansvarlig	ansvarlig ansvarlige ansvarligt
+69	1469	trafik	trafik trafikken
+70	1470	russisk	russiske russisk
+71	1471	kjole	kjole kjolen kjoler kjolerne kjolens
+72	1472	derudover	derudover
+73	1473	nettet	nettet nettets
+74	1474	cirka	cirka
+75	1475	omfatte	omfatter omfatte omfattet omfattede omfattes
+76	1476	rom	rom roms rommen
+77	1477	selve	selve
+78	1478	kvalitet	kvalitet kvaliteten kvaliteter kvalitets kvaliteterne
+79	1479	indre	indre
+80	1480	nærme	nærmer nærme nærmede nærm nærmet
+81	1481	kim	kim kimet kimen
+82	1482	kvindelig	kvindelige kvindelig kvindeligt
+83	1483	ulovlig	ulovligt ulovlig ulovlige
+84	1484	væsentlig	væsentlig væsentligt væsentlige væsentligste
+85	1485	ekspert	ekspert eksperter eksperterne eksperten eksperts
+86	1486	plusse	plus plusser plusset plusse
+87	1487	teste	teste testet testede testes tester testen testere
+88	1488	beskrivelse	beskrivelse beskrivelsen beskrivelser beskrivelserne
+89	1489	bande	bande banden bander bandet banderne bandede bandens bandende bandes banders
+90	1490	inspirere	inspireret inspirerende inspirere inspirerede inspirerer inspireres inspirer inspirér
+91	1491	afbryde	afbrudt afbryde afbryder afbrød afbryd afbrydes afbryderen afbrydende afbryderne afbrydere
+92	1492	folketing	folketinget folketingets folketing
+93	1493	øve	øve øv øvet øver øvede øves
+94	1494	befolkning	befolkningen befolkning befolkningens befolkninger befolknings befolkningerne
+95	1495	berømt	berømte berømt berømteste
+96	1496	klippe	klippe klipper klippet klippen klippede klipperne klippes klipperen klippere klippens
+97	1497	hovedstad	hovedstaden hovedstad hovedstadens hovedstæder hovedstæderne
+98	1498	gribe	gribe griber grib grebet gribende gribbe gribbene gribben gribes griberen
+99	1499	kunstner	kunstner kunstnere kunstneren kunstnerne kunstnerens kunstners kunstneres kunsterne
+100	1500	øh	øh

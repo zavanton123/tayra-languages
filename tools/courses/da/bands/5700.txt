@@ -1,0 +1,100 @@
+1	5601	tilbagevendende	tilbagevendende
+2	5602	mær	mær mæren mærs mære
+3	5603	udspionere	udspionerer udspionere udspionerede udspioneret udspioner
+4	5604	beskyldning	beskyldninger beskyldning beskyldningerne beskyldningen
+5	5605	indkørsel	indkørslen indkørsel indkørsler
+6	5606	kvaje	kvajede kvajer kvaje kvajet
+7	5607	belastning	belastning belastningen belastninger
+8	5608	telegram	telegram telegrammer telegrammet telegrammerne
+9	5609	vase	vase vaser vasen vaserne vasens
+10	5610	slank	slank slanke slankere slanker slankende slanket slankt
+11	5611	portion	portion portioner portionerne
+12	5612	afkast	afkast afkastet
+13	5613	bryggeri	bryggeri bryggeriet bryggerier bryggerierne
+14	5614	gnide	gnide gnider gnid gned gnedet gnides
+15	5615	vride	vride vrider vrid vredet vreden vrides vridende vrideren
+16	5616	mandat	mandat mandatet mandaterne
+17	5617	skribent	skribent skribenter skribenten
+18	5618	almindelighed	almindelighed almindeligheder
+19	5619	rotere	roterende roterer rotere roter roterede rotér roteret
+20	5620	lærd	lærde lærd
+21	5621	grande	grande grandes
+22	5622	lokalitet	lokaliteter lokalitet lokaliteten
+23	5623	briste	brister brast briste brist bristede bristet bristen
+24	5624	føring	føringen føring
+25	5625	nederdel	nederdel nederdelen nederdele nederdelene
+26	5626	omklædningsrum	omklædningsrum omklædningsrummet omklædningsrummene
+27	5627	projektleder	projektleder projektlederen projektledere
+28	5628	uofficiel	uofficielt uofficielle uofficiel
+29	5629	igangsætte	igangsat igangsætte igangsatte igangsætter igangsæt igangsætteren igangsættere igangsættes
+30	5630	creme	creme cremen cremer crem
+31	5631	genvej	genvej genveje genvejen
+32	5632	konvention	konventionen konvention konventioner konventionerne
+33	5633	koreansk	koreansk koreanske
+34	5634	trekke	trek trekker
+35	5635	afgrænse	afgrænset afgrænses afgrænsede afgrænser afgrænse afgræns
+36	5636	clean	clean
+37	5637	oprykning	oprykning
+38	5638	pæl	pæl pæle pælen pælene pæls
+39	5639	retsmediciner	retsmedicineren retsmediciner retsmedicinerens retsmedicinerne retsmedicinere retsmedicinernes
+40	5640	afhængighed	afhængighed afhængigheden afhængigheder afhængigheds
+41	5641	velegnet	velegnet velegnede
+42	5642	sekvens	sekvens sekvenser sekvensen sekvenserne
+43	5643	håne	håner håne hånede hånet hånes hånende hånen
+44	5644	sentimental	sentimental sentimentale sentimentalt
+45	5645	beære	beæret beærede beærer beære beær
+46	5646	skede	skede skeden skeder
+47	5647	opspore	opspore opsporede opsporet opsporer opspor opspores
+48	5648	overnatning	overnatning overnatninger overnatningen
+49	5649	dåb	dåb dåben dåbs
+50	5650	såfremt	såfremt
+51	5651	jurist	jurist jurister juristerne juristen juristernes
+52	5652	ekspertise	ekspertise ekspertisen ekspertiser
+53	5653	hærværk	hærværk hærværket
+54	5654	monopol	monopol monopolet monopoler monopolerne
+55	5655	segl	segl seglet seglene
+56	5656	utroskab	utroskab utroskaben
+57	5657	obligation	obligationer obligationerne obligationen
+58	5658	herr	herr
+59	5659	souvenir	souvenir souvenirs souvenirer
+60	5660	berømmelse	berømmelse berømmelsen berømmelsens
+61	5661	password	password passwordet passwords
+62	5662	betvivle	betvivle betvivler betvivlede betvivlet betvivl betvivles
+63	5663	ravn	ravn ravne ravnen ravnens ravnene ravns
+64	5664	gaffel	gaffel gafler gaflen gaflerne
+65	5665	marihuana	marihuana marihuanaen
+66	5666	indeks	indeks indekset indekser
+67	5667	hinsides	hinsides
+68	5668	vegetar	vegetar vegetarer vegetarerne
+69	5669	indblik	indblik
+70	5670	limousine	limousine limousinen limousiner limousinerne limousinens
+71	5671	særskilt	særskilt særskilte
+72	5672	knob	knob knobet
+73	5673	oplag	oplag oplaget
+74	5674	spiritus	spiritus spiritussen
+75	5675	smoking	smoking smokingen smokinger smokingerne
+76	5676	puslespil	puslespil puslespillet puslespillets
+77	5677	grev	grev
+78	5678	defensiv	defensiv defensivt defensiven
+79	5679	realisere	realiseret realisere realiseres realiserer realiserede
+80	5680	overskæg	overskæg overskægget
+81	5681	afdække	afdække afdækket afdækker afdækkede afdæk afdækkes
+82	5682	livvagt	livvagt livvagter livvagten livvagterne livvagtens
+83	5683	ør	ør ører ørerne ørt øren ørers
+84	5684	komplikation	komplikationer komplikation komplikationerne komplikationen
+85	5685	tumpe	tumpe tumper tumpen tumperne
+86	5686	storhed	storhed storheden storhedens storheds
+87	5687	landstræner	landstræner
+88	5688	vandtæt	vandtæt vandtætte
+89	5689	stedfar	stedfar stedfars stedfaren stedfædre stedfarens
+90	5690	indførelse	indførelse indførelsen
+91	5691	stipendium	stipendium stipendiet stipendier stipendierne
+92	5692	hummer	hummer hummere hummeren hummerne hummers
+93	5693	pædagogik	pædagogik
+94	5694	venstrefløj	venstrefløjen venstrefløj venstrefløjens
+95	5695	afskedige	afskediget afskedige afskedigede afskediger afskediges
+96	5696	ubevidst	ubevidst ubevidste
+97	5697	domkirke	domkirke domkirken
+98	5698	værge	værge værger værgen værgede værges
+99	5699	fristelse	fristelse fristelser fristelsen fristelserne fristelsens
+100	5700	ældgammel	ældgamle ældgammel ældgammelt

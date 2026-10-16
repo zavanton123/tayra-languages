@@ -1,0 +1,100 @@
+1	7401	tilbagevenden	tilbagevenden
+2	7402	blikkenslager	blikkenslager blikkenslageren blikkenslagere blikkenslagerne
+3	7403	imødekomme	imødekomme imødekommer imødekommet imødekommes imødekom
+4	7404	vaccinere	vaccineret vaccinere vaccineres vaccinerede vaccinerer
+5	7405	sagsmappe	sagsmappe sagsmappen sagsmapper sagsmapperne
+6	7406	småpenge	småpenge småpengene
+7	7407	indkøbe	indkøbt indkøbte indkøber indkøbere indkøbe indkøberen indkøberne
+8	7408	premiere	premieren premierer premiererne
+9	7409	forbrænde	forbrændt forbrændte forbrænder forbrænde forbrændes
+10	7410	juveler	juveler juveleren juvelerer
+11	7411	uforklarlig	uforklarlige uforklarligt uforklarlig
+12	7412	rytmisk	rytmisk rytmiske
+13	7413	løsesum	løsesum løsesummen løsesums
+14	7414	vagabond	vagabond vagabonder vagabonden vagabonderne
+15	7415	gladiator	gladiator gladiatorer gladiatorerne gladiators gladiatoren gladiatorernes
+16	7416	paradoks	paradoks paradokset paradokser paradokserne
+17	7417	hedensk	hedenske hedensk
+18	7418	stampe	stampe stamper stamp stampede stampet stampen stampere stampende
+19	7419	slibe	slebet slibe sliber slibes sleb slib slebne sleben
+20	7420	humle	humle humlen
+21	7421	squash	squash squashen
+22	7422	blåbær	blåbær blåbærrene
+23	7423	utænkelig	utænkeligt utænkelige utænkelig
+24	7424	ghetto	ghettoen ghettoer ghettoens ghettoerne
+25	7425	omskæring	omskæring omskæringen omskæringer
+26	7426	postbud	postbud postbuddet postbudet postbude postbudene postbuddets
+27	7427	stiftelse	stiftelsen stiftelse stiftelsens stiftelser
+28	7428	betragtelig	betragteligt betragtelig betragtelige
+29	7429	tvær	tværer tvær tvære tværet tværede tvært tværes
+30	7430	mellemmand	mellemmand mellemmanden mellemmænd mellemmændene
+31	7431	skilling	skilling skillinger skillingen skillingerne
+32	7432	bogholder	bogholder bogholderen bogholdere bogholderne
+33	7433	aftager	aftager aftagere
+34	7434	brat	brat bratte
+35	7435	vuggestue	vuggestuen vuggestue vuggestuer
+36	7436	mug	mug muggen muggent mugne mugs mugner
+37	7437	aftage	aftage aftagende aftaget aftog
+38	7438	kalorie	kalorier kalorie kalorierne
+39	7439	mindfulness	mindfulness
+40	7440	nedrykning	nedrykning
+41	7441	skolebarn	skolebørn skolebørnene skolebarn
+42	7442	straffespark	straffespark
+43	7443	hårdfør	hårdfør hårdføre hårdført
+44	7444	stævnemøde	stævnemøde stævnemøder stævnemødet stævnemøderne
+45	7445	uerfaren	uerfaren uerfarne uerfarent
+46	7446	blu	blu
+47	7447	følelsesladet	følelsesladet følelsesladede
+48	7448	utilsigtet	utilsigtet utilsigtede
+49	7449	karamel	karamel karameller karamellen karamellerne
+50	7450	sammentræf	sammentræf
+51	7451	elg	elg elgen elge elgens elgene
+52	7452	tværgående	tværgående
+53	7453	nattevagt	nattevagt nattevagten nattevagter nattevagterne
+54	7454	aggression	aggression aggressioner aggressionen aggressionerne
+55	7455	tæmme	tæmme tæmmet tæmmes tæmmer tæmmede tæm
+56	7456	hjemmehold	hjemmeholdet hjemmehold hjemmeholdets
+57	7457	bureaukrati	bureaukrati bureaukratiet bureaukratiets
+58	7458	dødtræt	dødtræt dødtrætte
+59	7459	møgkælling	møgkælling møgkællinger møgkællingen
+60	7460	heroisk	heroisk heroiske
+61	7461	bedemand	bedemand bedemanden bedemænd bedemændene bedemandens bedemands
+62	7462	spam	spam
+63	7463	alsidig	alsidig alsidige alsidigt
+64	7464	sammenkomst	sammenkomst sammenkomster sammenkomsten
+65	7465	tænketank	tænketank tænketanken tænketanke
+66	7466	opbruge	opbrugt opbrugte opbruger opbruge
+67	7467	rem	rem remmen remme remmene rems remmer
+68	7468	fotografering	fotografering fotograferingen fotograferings
+69	7469	asparges	asparges aspargeserne
+70	7470	markør	markør markører markøren markørerne
+71	7471	alfabet	alfabetet alfabet
+72	7472	kontra	kontra kontraerne
+73	7473	deromkring	deromkring
+74	7474	europæer	europæere europæerne europæer europæeren europæernes
+75	7475	nonsens	nonsens
+76	7476	alge	alger algerne alge algen
+77	7477	hovedbygning	hovedbygningen hovedbygning
+78	7478	vedtægt	vedtægter vedtægterne vedtægt vedtægten
+79	7479	flybillet	flybillet flybilletter flybilletten flybilletterne
+80	7480	lysår	lysår
+81	7481	fraktion	fraktioner fraktion fraktionerne fraktionen
+82	7482	løbetur	løbetur løbeturen løbeture
+83	7483	hjemad	hjemad
+84	7484	akse	akse aksen akser
+85	7485	svovl	svovl svovlen svovlet
+86	7486	velfungerende	velfungerende
+87	7487	åndedrag	åndedrag åndedraget
+88	7488	krøllet	krøllet krøllede
+89	7489	indtjening	indtjening indtjeningen indtjeninger
+90	7490	anstalt	anstalten anstalt anstalter anstaltens anstalterne
+91	7491	privatdetektiv	privatdetektiv privatdetektiver privatdetektiven privatdetektivens privatdetektivs
+92	7492	oberstløjtnant	oberstløjtnant oberstløjtnanten
+93	7493	saltvand	saltvand saltvandet saltvands
+94	7494	frastødende	frastødende
+95	7495	perron	perronen perron perronerne
+96	7496	galla	galla gallaen
+97	7497	forudsigelse	forudsigelser forudsigelse forudsigelsen forudsigelserne
+98	7498	visionær	visionær visionære visionært
+99	7499	fristed	fristed fristedet fristeder
+100	7500	fortale	fortaler fortale fortal fortalte fortalere fortalerne

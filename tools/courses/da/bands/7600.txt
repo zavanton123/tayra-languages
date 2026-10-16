@@ -1,0 +1,100 @@
+1	7501	prima	prima
+2	7502	forlyd	forlyder forlydender forlød forlydende
+3	7503	holdbar	holdbar holdbart holdbare
+4	7504	bone	bone bonet boner bonede
+5	7505	sammenlægning	sammenlægning sammenlægningen
+6	7506	fodboldklub	fodboldklubber fodboldklub fodboldklubben
+7	7507	filmstjerne	filmstjerne filmstjerner filmstjernen filmstjernerne filmstjernes filmstjernens filmstjernernes
+8	7508	sammenlægge	sammenlagt sammenlægge sammenlægger
+9	7509	spisestue	spisestuen spisestue
+10	7510	filial	filial filialer filialen filialerne
+11	7511	kahyt	kahyt kahytten kahytterne kahytter
+12	7512	pig	pigge pig piggene pigs piggen
+13	7513	skærpe	skærpet skærpede skærper skærpe skærpes skærpende skærp
+14	7514	færøsk	færøske
+15	7515	litra	litra
+16	7516	selvejende	selvejende
+17	7517	syddansk	syddansk
+18	7518	politiskole	politiskolen politiskole politiskolens politiskoler
+19	7519	halm	halm halmen
+20	7520	tynge	tynget tynger tynge tyngede tynges tyngende
+21	7521	magte	magte magtede magter magtet
+22	7522	hjemmeværn	hjemmeværnet hjemmeværn hjemmeværnets hjemmeværns
+23	7523	vovse	vovse vovser vovsen vovserne
+24	7524	betændelse	betændelse betændelsen
+25	7525	pensel	pensel pensler penslen penslerne
+26	7526	lineær	lineær lineære lineært
+27	7527	bøjle	bøjle bøjler bøjlen bøjlerne
+28	7528	nutidig	nutidige nutidig nutidigt
+29	7529	fordrage	fordrage
+30	7530	broccoli	broccoli broccolien
+31	7531	poet	poet poeter poeten poeters poets poetens
+32	7532	mountainbike	mountainbike
+33	7533	veluddannet	veluddannet veluddannede
+34	7534	vilkårlig	vilkårligt vilkårlig vilkårlige
+35	7535	verdensplan	verdensplan
+36	7536	bordeaux	bordeaux
+37	7537	guldsmed	guldsmed guldsmeden guldsmede
+38	7538	detonator	detonatoren detonator detonatorer detonatorerne
+39	7539	kystvagt	kystvagten kystvagt kystvagtens
+40	7540	våge	våger våge våg våget vågede vågende
+41	7541	pladeselskab	pladeselskab pladeselskabet pladeselskaber pladeselskaberne pladeselskabets
+42	7542	tilflugt	tilflugt
+43	7543	transportmiddel	transportmiddel transportmidler transportmidlet
+44	7544	genoverveje	genoverveje genovervejer genovervejet genovervej genovervejes genovervejede
+45	7545	hedning	hedninge hedning hedningene hedninger hedningerne hedningen hedningenes hednings hedningens
+46	7546	migræne	migræne migræner migrænen
+47	7547	udnævnelse	udnævnelse udnævnelsen udnævnelser
+48	7548	dødsdom	dødsdom dødsdommen dødsdomme
+49	7549	midtby	midtbyen midtby midtbyens
+50	7550	syltetøj	syltetøj syltetøjet syltetøjs
+51	7551	honorar	honorar honoraret honorarer honorarerne
+52	7552	dramatik	dramatik dramatikken
+53	7553	taletid	taletid taletids taletiden
+54	7554	karakteristikum	karakteristika
+55	7555	uansvarlig	uansvarligt uansvarlig uansvarlige
+56	7556	spanier	spanierne spanier spaniere spanieren spaniernes
+57	7557	frodig	frodige frodig frodigt frodigste
+58	7558	same	same samen samerne samer
+59	7559	neurologisk	neurologiske neurologisk
+60	7560	verbal	verbale verbalt
+61	7561	luftfart	luftfart luftfarten luftfartens
+62	7562	fjor	fjor
+63	7563	tiltræde	tiltrådte tiltrådt tiltrædende tiltræder tiltræde
+64	7564	vantro	vantro vantros
+65	7565	upålidelig	upålidelige upålidelig upålideligt
+66	7566	medregne	medregnet medregnes medregner medregne medregnede
+67	7567	losseplads	losseplads lossepladsen lossepladser
+68	7568	østre	østre
+69	7569	indånde	indånder indånde indånd indåndet indåndede indåndes
+70	7570	abonnent	abonnenter abonnenten abonnent
+71	7571	milliardær	milliardær milliardærer milliardæren milliardærs milliardærerne
+72	7572	klumme	klumme klummen klummer
+73	7573	serienummer	serienummer serienummeret serienumrene serienumre serienumret
+74	7574	klassetrin	klassetrin
+75	7575	fisketur	fisketur fisketuren fisketure
+76	7576	standpunkt	standpunkt standpunkter
+77	7577	overflod	overflod overfloden overflodens
+78	7578	tapperhed	tapperhed tapperheden
+79	7579	natura	natura
+80	7580	tin	tin
+81	7581	zebra	zebra zebraer zebraen zebraerne zebras
+82	7582	verdensomspændende	verdensomspændende
+83	7583	atelier	atelier atelieret
+84	7584	leukæmi	leukæmi leukæmien
+85	7585	drikkevand	drikkevand drikkevandet
+86	7586	indtagelse	indtagelse indtagelsen
+87	7587	asylansøger	asylansøgere
+88	7588	bronzemedalje	bronzemedalje bronzemedaljen
+89	7589	torpedo	torpedoer torpedoerne torpedoen torpedoens
+90	7590	uautoriseret	uautoriseret uautoriserede
+91	7591	entydig	entydigt entydig entydige
+92	7592	vælde	væld vælde vælder vældede
+93	7593	akustisk	akustisk akustiske
+94	7594	israeler	israelerne israelere israeler israelernes
+95	7595	udkald	udkald
+96	7596	vestjysk	vestjysk vestjyske
+97	7597	fodnote	fodnoter fodnote fodnoterne
+98	7598	kliché	kliché klichéer klichéerne klichéen
+99	7599	udregne	udregne udregnes udregnet udregner udregnede udregn
+100	7600	tilstødende	tilstødende

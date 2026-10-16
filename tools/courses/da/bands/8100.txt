@@ -1,0 +1,100 @@
+1	8001	talje	talje taljen taljer taljerne
+2	8002	gunst	gunst
+3	8003	kusk	kusk kusken kuske kuskene
+4	8004	akkord	akkorder akkord akkorden akkorderne
+5	8005	herberg	herberg herberget herberger herbergerne herbergets
+6	8006	artig	artig artige artigt
+7	8007	shampoo	shampoo shampooen shampooer
+8	8008	delegere	delegerede delegeret delegerer delegeredes
+9	8009	chikanere	chikanerer chikanere chikaneret chikanerede chikaneres chikanerende
+10	8010	kompromittere	kompromitteret kompromittere kompromitterende kompromitterede kompromitterer kompromitteres
+11	8011	ir	ir irs
+12	8012	sabotage	sabotage sabotagen
+13	8013	velfærdsstat	velfærdsstaten velfærdsstat
+14	8014	medejer	medejer medejere medejeren medejerne
+15	8015	tjekkisk	tjekkiske tjekkisk
+16	8016	tjenestemand	tjenestemænd tjenestemand
+17	8017	varsom	varsom varsomt varsomme
+18	8018	fotografisk	fotografisk fotografiske
+19	8019	patruljere	patruljerer patruljere patruljer patruljerede patruljeret patruljeres patruljerende
+20	8020	brunette	brunette brunetten brunetter brunetterne
+21	8021	afrunde	afrundet afrundede afrunder afrunde
+22	8022	skideren	skideren
+23	8023	nationalbank	nationalbanken nationalbankens nationalbank
+24	8024	målstreg	målstregen målstreg
+25	8025	leopard	leopard leoparden leoparder leoparderne leopardens
+26	8026	kapløb	kapløb kapløbet
+27	8027	steril	steril sterile sterilt
+28	8028	arbejdsdag	arbejdsdag arbejdsdage arbejdsdagen
+29	8029	eksistentiel	eksistentielle eksistentiel eksistentielt
+30	8030	sløre	sløret slørede sløre slører sløres
+31	8031	præsidentvalg	præsidentvalget præsidentvalg
+32	8032	beklæde	beklædt beklæde beklæder beklædte
+33	8033	genbruge	genbrugt genbruges genbruge genbruger genbrugte
+34	8034	accelerere	accelererer accelerere accelereret accelererede accelerer accelererende
+35	8035	politiinspektør	politiinspektør politiinspektøren politiinspektørens
+36	8036	heile	heil heile
+37	8037	hundesulten	hundesulten hundesultne
+38	8038	udmatte	udmattende udmatte udmatter udmattede udmat udmattes
+39	8039	navigere	navigere navigerer navigerede naviger navigeret
+40	8040	turbulens	turbulens turbulensen
+41	8041	nordøstlig	nordøstlige nordøstlig
+42	8042	renæssance	renæssance renæssancen renæssancens
+43	8043	beskatte	beskattes beskatter beskatte beskattet beskattede
+44	8044	skumfidus	skumfiduser skumfidus skumfiduserne
+45	8045	lagkage	lagkage lagkagen lagkager
+46	8046	lyne	lyne lynet lyner lynede lynende lynes
+47	8047	mavefornemmelse	mavefornemmelse mavefornemmelsen
+48	8048	granit	granit granitten
+49	8049	bredbånd	bredbånd
+50	8050	nytteløs	nytteløst nytteløs nytteløse nyttesløs
+51	8051	brie	brien briens
+52	8052	ræs	ræs ræset ræsene
+53	8053	påkøre	påkørt påkørte påkører påkøre
+54	8054	røst	røst røster røsten
+55	8055	stræde	stræder strædet stræde stræderne
+56	8056	iagttagelse	iagttagelser iagttagelse
+57	8057	sørøver	sørøvere sørøver sørøverne sørøveren sørøvernes
+58	8058	atlant	atlanten atlantens
+59	8059	udstå	udstå udstået udstående udstod udstår udstås
+60	8060	forringe	forringe forringet forringes forringer forringede
+61	8061	indgribe	indgriben indgribende indgrebet
+62	8062	vaskeri	vaskeri vaskeriet vaskerier vaskerierne
+63	8063	vietnamesisk	vietnamesisk vietnamesiske
+64	8064	formulering	formulering formuleringer formuleringen
+65	8065	fakkel	fakler fakkel faklen faklerne
+66	8066	ransage	ransage ransagede ransaget ransager ransag ransages
+67	8067	surmule	surmule surmuler surmulede surmulende surmulet surmul surmulen
+68	8068	livshistorie	livshistorie livshistorier livshistorien
+69	8069	spionage	spionage spionagen
+70	8070	æstetik	æstetik
+71	8071	optælling	optælling optællingen optællinger
+72	8072	søgelys	søgelys søgelyset
+73	8073	retsforfølge	retsforfulgt retsforfølge retsforfølges retsforfølger retsforfulgte
+74	8074	rådyr	rådyr rådyret rådyrene
+75	8075	udbringe	udbringe udbringer udbring udbragt udbragte
+76	8076	kviksølv	kviksølv kviksølvet
+77	8077	mytteri	mytteri mytteriet
+78	8078	klimaanlæg	klimaanlæg klimaanlægget
+79	8079	subjektiv	subjektive subjektiv subjektivt
+80	8080	læ	læ lær
+81	8081	overskue	overskue
+82	8082	blindgyde	blindgyde blindgyder
+83	8083	konvolut	konvolut konvolutten konvolutter konvolutterne konvoluttens
+84	8084	belyse	belyse belyser belyste belyses
+85	8085	dialekt	dialekt dialekten dialekter
+86	8086	frembrud	frembrud frembruddet
+87	8087	fitnesscenter	fitnesscenter fitnesscentret fitnesscenteret fitnesscentre
+88	8088	mødelokale	mødelokalet mødelokaler mødelokale
+89	8089	kuld	kuld kuldet
+90	8090	julefrokost	julefrokosten julefrokoster julefrokost
+91	8091	superstjerne	superstjerne superstjerner superstjernen
+92	8092	desperation	desperation desperationen
+93	8093	karneval	karneval karnevalet
+94	8094	sagsbehandle	sagsbehandler sagsbehandleren sagsbehandlere
+95	8095	forkaste	forkastet forkaster forkaste forkastede forkast forkastes
+96	8096	ger	ger gers
+97	8097	overvægtig	overvægtig overvægtige overvægtigt
+98	8098	forbavse	forbavsende forbavser forbavse
+99	8099	tandpasta	tandpasta tandpastaen
+100	8100	skæl	skæl skællene skællet

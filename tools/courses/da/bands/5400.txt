@@ -1,0 +1,100 @@
+1	5301	oversvømme	oversvømmet oversvømmede oversvømme oversvømmer oversvømmes oversvøm
+2	5302	bortvise	bortvist bortvise bortviste bortvises bortviser bortvis
+3	5303	entré	entré entre entréen entrer entrede entreer entréer
+4	5304	nedgang	nedgang nedgangen
+5	5305	dræne	drænet dræner dræne drænede dræn drænes
+6	5306	forværre	forværres forværret forværre forværrer forværrede forværredes forværrende
+7	5307	deprimere	deprimerende deprimerer deprimere deprimerede
+8	5308	niende	niende
+9	5309	musikvideo	musikvideo musikvideoer musikvideoen
+10	5310	omkringliggende	omkringliggende
+11	5311	udbygge	udbygge udbygget udbygges udbygger
+12	5312	slaveri	slaveri slaveriet slaveriets
+13	5313	finansminister	finansminister finansministeren
+14	5314	karakterisere	karakteriseret karakteriseres karakteriserer karakterisere karakteriserede
+15	5315	mesterværk	mesterværk mesterværker mesterværket mesterværkerne
+16	5316	uhøflig	uhøflig uhøfligt uhøflige
+17	5317	urin	urin urinen
+18	5318	tango	tango tangoen
+19	5319	oversvømmelse	oversvømmelse oversvømmelser oversvømmelsen oversvømmelserne oversvømmelses
+20	5320	uddeling	uddeling uddelingen
+21	5321	udsalg	udsalg udsalget
+22	5322	hjertestop	hjertestop hjertestoppet
+23	5323	finanslov	finansloven finanslov
+24	5324	frikende	frikendt frikende frikender frikendte frikendes
+25	5325	oplære	oplært oplære oplærte oplærer oplæres oplær
+26	5326	alf	alf alfer alferne alfen alfernes alfs
+27	5327	røbe	røbe røber røbede røbet røb røbes
+28	5328	partnerskab	partnerskab partnerskabet partnerskaber
+29	5329	unødvendigt	unødvendigt
+30	5330	skyl	skyllet skyl
+31	5331	reporter	reporter reportere reporteren reporterne reporterede reporterer reporteret reporters reporteres
+32	5332	lærling	lærling lærlinge lærlingen lærlingene lærlings
+33	5333	krydderi	krydderier krydderi krydderierne krydderiet
+34	5334	hastig	hastigt hastig hastige
+35	5335	transmission	transmission transmissionen transmissioner transmissionerne transmissions
+36	5336	østpå	østpå
+37	5337	poetisk	poetisk poetiske
+38	5338	hæder	hæder hæderen hæderens
+39	5339	optegnelse	optegnelser optegnelserne optegnelse optegnelsen
+40	5340	integritet	integritet integriteten integritetens
+41	5341	svindel	svindel svindlen svindelen
+42	5342	hentyde	hentyder hentydede hentyde hentydet
+43	5343	smertestillende	smertestillende
+44	5344	forsømme	forsømt forsømte forsømmer forsømme forsøm forsømtes forsømmende
+45	5345	modbydelig	modbydelige modbydelig modbydeligt
+46	5346	kran	kran krans kraner kranen kranse kransen kranerne
+47	5347	stabilitet	stabilitet stabiliteten
+48	5348	bark	barker bark barken barkers barks
+49	5349	lærred	lærred lærredet lærreder
+50	5350	depot	depot depotet depoter depoterne
+51	5351	saftig	saftige saftig saftigt saftigere saftigste
+52	5352	udstrækning	udstrækning
+53	5353	propaganda	propaganda propagandaen
+54	5354	skummel	skumle skummelt skummel skumler skumleste
+55	5355	hotelværelse	hotelværelse hotelværelset hotelværelser hotelværelserne
+56	5356	ottende	ottende
+57	5357	politimester	politimester politimesteren politimesterens politimestre
+58	5358	dej	dej dejen
+59	5359	importere	importeret importere importerede importerer importeres importer
+60	5360	grøft	grøft grøften grøfter grøfterne
+61	5361	iver	iver iveren
+62	5362	overflødig	overflødigt overflødig overflødige
+63	5363	ordsprog	ordsprog ordsproget ordsprogenes
+64	5364	præstere	præstere præsteret præsterede præsterer præsterende
+65	5365	nødigt	nødigt
+66	5366	bekendtgørelse	bekendtgørelse bekendtgørelsen bekendtgørelser
+67	5367	aktør	aktører aktør
+68	5368	hovedbanegård	hovedbanegård hovedbanegården
+69	5369	modgang	modgang modgangen
+70	5370	overhoved	overhoved overhoveder overhovederne
+71	5371	rebel	rebel rebellerne rebeller rebellen rebels rebellernes
+72	5372	rase	raser ras rasede rase raset rasen
+73	5373	koran	koranen koraner
+74	5374	livmoder	livmoderen livmoder livmor livmodere livmoren
+75	5375	ynde	ynder ynde yndet yndede ynd ynden
+76	5376	container	containeren containere containerne containerens
+77	5377	atletik	atletik
+78	5378	postkort	postkort postkortet postkortene
+79	5379	pokémon	pokémon
+80	5380	kansler	kansler kansleren kanslerens kanslere
+81	5381	opsyn	opsyn opsynet
+82	5382	programmering	programmering programmeringen
+83	5383	månedlig	månedligt månedlige månedlig
+84	5384	punktum	punktum punktummer
+85	5385	defekt	defekt defekte defekter defekten
+86	5386	stimulere	stimulere stimulerer stimulerende stimuleret stimuleres stimulerede
+87	5387	overdosis	overdosis overdoser
+88	5388	verdensmester	verdensmester verdensmestre verdensmesteren verdensmestrene
+89	5389	solbriller	solbriller solbrillerne
+90	5390	krænkelse	krænkelse krænkelser krænkelsen krænkelserne
+91	5391	vægttab	vægttab vægttabet
+92	5392	skorsten	skorstenen skorsten skorstene skorstenene
+93	5393	nyfødt	nyfødte nyfødt
+94	5394	samleje	samleje samlejet samlejer
+95	5395	åbenhed	åbenhed
+96	5396	præmiere	præmier præmiere præmierede præmieren
+97	5397	tilfredsstillende	tilfredsstillende
+98	5398	kollegium	kollegiet kollegium kollegie kollegier kollegierne kollegiets
+99	5399	behåret	behårede behåret
+100	5400	konstruktiv	konstruktiv konstruktivt konstruktive

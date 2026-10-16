@@ -1,0 +1,100 @@
+1	1801	rense	rense renset renser renses rensede rens rensende renseren
+2	1802	seksuel	seksuelle seksuelt seksuel
+3	1803	skulder	skulder skulderen skuldre skuldrene skuldret skuldrer skuldren
+4	1804	elendig	elendig elendige elendigt
+5	1805	bidrage	bidrage bidrager bidrog bidraget bidragede
+6	1806	die	di die dies diet dien dier diende
+7	1807	årevis	årevis
+8	1808	pose	pose posen poser poserne pos posede posens
+9	1809	server	servere serverer serveret serveres serveren serverede servér serverens
+10	1810	ludder	luder ludder luddere
+11	1811	spansk	spansk spanske
+12	1812	sværd	sværd sværdet sværdene sværdets sværds
+13	1813	anklage	anklaget anklage anklagede anklagen anklages anklagerne anklagedes anklag anklagende anklagers
+14	1814	imponere	imponeret imponere imponerede imponerer imponer imponér imponeres
+15	1815	klappe	klap klappe klapper klappede klappen klappet klappes klapperne klapperen
+16	1816	maske	maske masken masker maskerne maskens maskernes
+17	1817	håndbold	håndbold
+18	1818	magi	magi magien magiens magis
+19	1819	app	app apps appen
+20	1820	herlig	herligt herlig herlige herligste herligere
+21	1821	digte	digte digt digter digtet digteren digtere digtene digtede digterne digters
+22	1822	figur	figur figurer figuren figurerne figurens
+23	1823	reagere	reagerer reagere reagerede reageret reager reagér reagerende
+24	1824	placering	placering placeringen placeringer placeringerne
+25	1825	sexet	sexet sexede
+26	1826	sherif	sherif sheriffen sheriffens sheriffer sherifferne sherifs
+27	1827	våd	våd våde vådt vådere vådeste
+28	1828	forbudt	forbudt forbudte
+29	1829	nøjes	nøjes nøje nøjedes nøjere
+30	1830	måne	månen måne månens måner månerne månes månernes
+31	1831	drift	drift driften drifter drifterne drifts
+32	1832	rask	rask raske raskt raskere
+33	1833	google	google googler googlede googlet googles googl
+34	1834	blik	blik blikket blikke blikkene
+35	1835	bøsse	bøsse bøsser bøssen bøsserne bøssernes bøsses bøssens bøssers
+36	1836	reklame	reklame reklamer reklamen reklamerne reklamens
+37	1837	hop	hop hoppet hops hoppene
+38	1838	fætter	fætter fætre fætters fætteren fætrene
+39	1839	kommunikation	kommunikation kommunikationen kommunikations kommunikationer
+40	1840	sms	sms sms'er
+41	1841	offentligt	offentligt
+42	1842	princip	principper princippet princip principperne princippets
+43	1843	kampagne	kampagne kampagnen kampagner kampagnens kampagnerne kampagnes
+44	1844	check	check checks checken checket checkene
+45	1845	udgangspunkt	udgangspunkt udgangspunktet
+46	1846	svinge	sving svinger svinge svingende svinget svingede svingene svang svunget svangen
+47	1847	fucking	fucking
+48	1848	erhverv	erhverv erhvervet erhvervs
+49	1849	nægter	nægter
+50	1850	flertal	flertal flertallet flertallets flertals
+51	1851	sofa	sofaen sofa sofaer sofaerne sofaens
+52	1852	magisk	magiske magisk
+53	1853	modig	modig modige modigt modigste modigere modigst
+54	1854	omvendt	omvendt omvendte
+55	1855	underskrive	underskrevet underskrive underskrev underskriver underskriv underskrives underskrevne underskreven
+56	1856	fræk	fræk frække frækt frækkere frækkeste
+57	1857	sædvanlig	sædvanlige sædvanlig sædvanligt
+58	1858	begravelse	begravelse begravelsen begravelser begravelses begravelserne begravelsens
+59	1859	flag	flag flaget flagene flags flagets
+60	1860	videnskab	videnskab videnskaben videnskabens videnskabs videnskaber
+61	1861	bjørn	bjørn bjørne bjørnen bjørnene bjørns bjørnens bjørnes bjørnenes
+62	1862	alarm	alarm alarmen alarmer alarmerne alarms
+63	1863	tosset	tosset tossede
+64	1864	dna	dna dnaet
+65	1865	programmere	programmer programmeret programmere programmerede programmerer programmeres
+66	1866	lager	lager lageret lagre lagret lagres lagrer lagerets lagrene lagrede lagere
+67	1867	fornemme	fornemme fornemmer fornemt fornem fornemmede fornemste fornemmet fornemmeste fornemmes fornemmeren
+68	1868	dæmon	dæmoner dæmon dæmonen dæmonerne dæmonens dæmons dæmoners dæmonernes
+69	1869	aflyse	aflyst aflyse aflyser aflyste aflys aflyses
+70	1870	smutte	smutte smuttede smuttet smutten
+71	1871	såvel	såvel
+72	1872	temperatur	temperatur temperaturen temperaturer temperaturerne
+73	1873	gymnasium	gymnasiet gymnasium gymnasier gymnasie gymnasiets gymnasiums gymnasierne
+74	1874	mælk	mælk mælken
+75	1875	praktisk	praktisk praktiske
+76	1876	ballade	ballade balladen ballader
+77	1877	hyre	hyret hyrede hyre hyrer hyr hyres hyren
+78	1878	hit	hit hits hittet hittene
+79	1879	blæse	blæser blæse blæs blæste blæsere blæsende blæseren blæses blæserne
+80	1880	filme	filme filmer filmet filmede filmen filmes
+81	1881	imens	imens
+82	1882	alvor	alvor alvoren
+83	1883	kanon	kanon kanoner kanonerne kanonen kanont kanons kanonens kanoners kanonerer
+84	1884	ligegyldig	ligegyldigt ligegyldig ligegyldige
+85	1885	teknik	teknik teknikker teknikken teknikkerne teknikkens
+86	1886	tema	tema temaer temaet temaerne
+87	1887	kælder	kælderen kælder kældre kældrene kælderens kældere
+88	1888	medium	medier medierne medium mediernes mediet mediers mediets
+89	1889	krise	krise krisen kriser krisens kriserne
+90	1890	brun	brun brune brunt bruner brunede brunet brunere brunes
+91	1891	sygehus	sygehus sygehuset sygehuse sygehusene sygehusets
+92	1892	pizza	pizza pizzaer pizzaen pizzaerne
+93	1893	fortælling	fortælling fortællinger fortællingen fortællingerne
+94	1894	styrte	styrtede styrtet styrte styrter styrt styrtende styrtes
+95	1895	knytte	knyttet knytter knytte knyttede knyt knyttes
+96	1896	knække	knække knækker knækket knækkede knæk knækkes knak
+97	1897	konflikt	konflikt konflikter konflikten konflikterne konfliktens konflikternes
+98	1898	reducere	reduceret reducere reducerer reduceres reducerede reducer
+99	1899	smutter	smutter smuttere
+100	1900	omstændighed	omstændigheder omstændighederne omstændighed omstændigheden

@@ -1,0 +1,100 @@
+1	601	smag	smag smager smage smagt smagte smagen smages smagens smags smagene
+2	602	ren	ren rene renere rens reneste rener renes renerne
+3	603	bygning	bygningen bygning bygninger bygningerne bygningens bygnings bygningernes
+4	604	liste	liste listen lister list listet listerne listede lists listende listes
+5	605	kære	kære kær kært kæres kærer kærere kærest
+6	606	type	type typer typen typerne
+7	607	ærlig	ærligt ærlig ærlige ærligste ærligere
+8	608	indenfor	indenfor
+9	609	træ	træ træer træet træerne træets træernes træs træers
+10	610	egentlig	egentlig egentlige egentligt
+11	611	vokse	vokser voksede vokse vokset voksende voks voksens vokses
+12	612	udvikle	udviklet udvikle udvikler udviklede udvikles udviklere udviklende udvikledes udvikleren udviklerne
+13	613	følelse	følelser følelse følelsen følelserne følelses følelsernes følelsers
+14	614	uanset	uanset
+15	615	lejlighed	lejlighed lejligheden lejligheder lejlighederne lejlighedens lejligheds
+16	616	selskab	selskab selskabet selskaber selskabets selskaberne selskabs selvskab selskabernes
+17	617	pakke	pakke pakker pakket pakken pak pakkede pakkes pakkerne pakkere
+18	618	almindelig	almindelig almindelige almindeligt almindeligste
+19	619	spor	spor sporet sporene spors
+20	620	forskel	forskel forskellen forskelle forskellene
+21	621	slut	slut
+22	622	samle	samle samler samlede samles saml samledes samlere samlende samlerne samleren
+23	623	dansker	danskere danskerne dansker danskernes danskeren danskeres
+24	624	social	sociale social socialt
+25	625	uddannelse	uddannelse uddannelser uddannelsen uddannelserne uddannelses uddannelsens
+26	626	grad	grad grader graden graders graderne grads
+27	627	udvikling	udvikling udviklingen udviklinger udviklings udviklingens
+28	628	tegn	tegn tegnet tegne tegnede tegnene tegnes thegn
+29	629	rar	rart rar rare rarere rareste rarest
+30	630	kaptajn	kaptajn kaptajnen kaptajnens kaptajner kaptajns kaptajnerne
+31	631	styrke	styrke styrker styrken styrket styrkerne styrkede styrkes styrk styrkende styrkers
+32	632	mund	mund munden munde munder mundene mundet mundens mundede
+33	633	hul	hul huller hullet hule hulen hullerne huler hulerne hult hulens
+34	634	grænse	grænsen grænser grænse grænserne grænsende grænsens grænsede
+35	635	årig	årig årige årigt
+36	636	opdage	opdagede opdaget opdager opdage opdages opdag opdagere opdageren
+37	637	bestemt	bestemt bestemte
+38	638	and	and andens ænder ænderne ands
+39	639	overleve	overleve overlever overlevede overlevende overlevet overlev overleves overleven
+40	640	udenfor	udenfor
+41	641	farlig	farligt farlig farlige farligste farligere farligst
+42	642	luft	luften luft lufte luftens lufter luftet luftede luftes
+43	643	spændende	spændende
+44	644	fod	fod fødder fødderne foden fods fødders
+45	645	program	program programmet programmerne programmets
+46	646	tjeneste	tjeneste tjenester tjenesten tjenesterne tjenestens
+47	647	la	la
+48	648	blå	blå blåt
+49	649	grave	grave grav graven groft grov grove graver gravet gravede graves
+50	650	stand	stand stands stande stod standen stander standene standerne standeren standes
+51	651	video	video videoen videoer videos videoerne videoens
+52	652	speciel	specielt speciel specielle
+53	653	hjemmeside	hjemmeside hjemmesiden hjemmesider hjemmesidens hjemmesiderne
+54	654	skære	skære skærer skåret skær skar skæres skærene skæret skært skærende
+55	655	undersøge	undersøge undersøger undersøgt undersøgte undersøg undersøges undersøgende undersøgerne undersøgere undersøgers
+56	656	kontakt	kontakt kontakter kontakten kontakterne kontaktens
+57	657	røre	røre rører rørt rørte rørende røret røres røren
+58	658	fred	fred freden fredens freds
+59	659	stof	stoffer stof stoffet stofferne stoffets stoffernes stofs
+60	660	baby	baby babyen babyer babyerne babyens babys babyers
+61	661	træk	træk trækket trækkene trækken
+62	662	trods	trods
+63	663	tilfælde	tilfælde tilfældet tilfældene tilfældes tilfældets
+64	664	således	således
+65	665	gade	gaden gade gader gaderne gadens gadernes gaders
+66	666	in	in
+67	667	amerikansk	amerikanske amerikansk
+68	668	højre	højre
+69	669	gælde	gælder gældende gjaldt gælde gælden gælds
+70	670	styre	styre styrer styres styrede styret styrende
+71	671	samfund	samfund samfundet samfundets samfunds
+72	672	kontor	kontor kontoret kontorer kontorerne kontorets kontors
+73	673	lig	lig liget ligene ligets ligt ligs ligenes
+74	674	syv	syv syvs
+75	675	stat	staten stat statens stater stats staters staterne staternes
+76	676	efterlade	efterlod efterlader efterlade efterladt efterlad efterladte efterlades efterladende
+77	677	enig	enig enige enigt
+78	678	fed	fed fede fedeste fedest federe feder fedet fedes fedende feds
+79	679	fungere	fungerer fungere fungerede fungerende fungeret funger
+80	680	hotel	hotel hotellet hoteller hotellets hotellerne
+81	681	stige	stiger stigende stig stige steget stigen stegen stigerne stigens
+82	682	bane	banen bane baner banens banede banerne banet banes
+83	683	agent	agent agenter agenten agenterne agents agenters agentens agenternes
+84	684	aktiv	aktiv aktive aktivt aktiveret aktiver aktivere aktiverer aktiveres aktiverede aktivér
+85	685	hvide	hvide hvides
+86	686	desuden	desuden
+87	687	opleve	oplever opleve oplevet oplevede opleves oplev opleveren
+88	688	firma	firma firmaet firmaer firmaets firmaerne firmas firmaers firmaernes
+89	689	øvrig	øvrigt øvrige øvrig
+90	690	lukket	lukket lukkede
+91	691	nyde	nyder nyd nyde nydt nydes nydende
+92	692	løber	løber løbere løberen løberne løberens løbers
+93	693	ifølge	ifølge
+94	694	parti	parti partier partiet partiets partierne partis
+95	695	ha	ha
+96	696	ejer	ejer ejeren ejere ejerne ejerens ejers ejernes ejeres
+97	697	ane	aner anede ane anes anet anende aners
+98	698	situation	situation situationen situationer situationens
+99	699	nede	nede
+100	700	anvende	anvendes anvendt anvende anvender anvendte anvend anvendtes

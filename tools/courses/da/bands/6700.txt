@@ -1,0 +1,100 @@
+1	6601	progressiv	progressive progressiv progressivt
+2	6602	heromkring	heromkring
+3	6603	druk	druk
+4	6604	solcreme	solcreme solcremen
+5	6605	udslæt	udslæt udslættet udslættene
+6	6606	bundt	bundt bundter bundtet bundterne
+7	6607	sydøst	sydøst
+8	6608	grundspil	grundspillet
+9	6609	ubesejret	ubesejret ubesejrede
+10	6610	lindre	lindre lindrer lindrende lindrede lindres lindret
+11	6611	kanel	kanel kanelen
+12	6612	fiktiv	fiktive fiktiv fiktivt
+13	6613	livslang	livslang livslange livslangt
+14	6614	besidde	besidde besad besiddende besiddes besid
+15	6615	sagfører	sagfører sagførere sagføreren sagførerne sagførers
+16	6616	iagttage	iagttaget iagttage iagttog iagttag iagttages
+17	6617	fersk	fersk ferskt ferske
+18	6618	køter	køter køtere køteren køterne køters
+19	6619	autonom	autonome autonom autonomt
+20	6620	overstige	overstiger overstige oversteg oversteget
+21	6621	espresso	espresso espressoer espressoen
+22	6622	bibelsk	bibelsk bibelske
+23	6623	ufarlig	ufarligt ufarlig ufarlige
+24	6624	brystkræft	brystkræft
+25	6625	idrætsforening	idrætsforening idrætsforeninger
+26	6626	springvand	springvand springvandet springvandene
+27	6627	kabinet	kabinet kabinettet kabinetter kabinettets
+28	6628	arbejdsgruppe	arbejdsgruppe arbejdsgruppen
+29	6629	ombygge	ombygget ombygge ombyggede ombygger ombygges
+30	6630	delikat	delikat delikate
+31	6631	fossil	fossile fossiler fossil fossilt fossilerne fossilet
+32	6632	repræsentation	repræsentation repræsentationer
+33	6633	tørst	tørst tørsten tørstens
+34	6634	bilag	bilag bilaget bilagene
+35	6635	kælenavn	kælenavn kælenavne kælenavnet
+36	6636	strejfe	strejfer strejfede strejfe strejfet strejfere strejferen strejfende
+37	6637	højlydt	højlydt højlydte
+38	6638	kalv	kalv kalve kalven kalvene
+39	6639	lækage	lækage lækagen lækager lækagerne
+40	6640	krydre	krydret krydrede krydre krydrer
+41	6641	genvælge	genvalgt genvælg genvælges genvalgte genvælge
+42	6642	gravsten	gravsten gravstenen gravstene gravstenene
+43	6643	anime	anime
+44	6644	næstbedst	næstbedste næstbedst
+45	6645	lotto	lotto
+46	6646	tøjte	tøjte tøjter tøjten tøjterne tøjtens
+47	6647	mare	maren mare
+48	6648	imam	imam imamer imamen
+49	6649	basal	basale
+50	6650	betrygge	betryggende
+51	6651	brandy	brandy brandys brandyen
+52	6652	valentinsdag	valentinsdag valentinsdage
+53	6653	sele	sele seler selerne
+54	6654	småstykker	småstykker småstykkerne
+55	6655	ketchup	ketchup ketchuppen
+56	6656	roulette	roulette rouletten rouletter
+57	6657	tryllekunstner	tryllekunstner tryllekunstnere tryllekunstneren tryllekunstners tryllekunstnerens
+58	6658	katedral	katedralen katedral katedraler katedralens
+59	6659	psykotisk	psykotisk psykotiske
+60	6660	bestseller	bestseller bestsellere bestselleren
+61	6661	godtage	godtager godtage godtaget godtog godtages godtag
+62	6662	suverænitet	suverænitet
+63	6663	pakhus	pakhus pakhuset pakhuse pakhusene
+64	6664	skadedyr	skadedyr skadedyrene skadedyrs skadedyret
+65	6665	låge	lågen låge lågerne låger
+66	6666	flanke	flanke flanken flanker flankerne
+67	6667	sideløbende	sideløbende
+68	6668	skum	skum skummet
+69	6669	smække	smække smækkede smækker smækkes smækket smak smækkende smækre smækken
+70	6670	segment	segment segmenter
+71	6671	maksimum	maksimum
+72	6672	kølvand	kølvandet kølvand
+73	6673	stene	stenet stene stener stenede stenes
+74	6674	kviklån	kviklån
+75	6675	satire	satire
+76	6676	udlejer	udlejer udlejeren udlejere udlejerens udlejers
+77	6677	tibetansk	tibetanske tibetansk
+78	6678	kantine	kantinen kantine kantiner
+79	6679	herpå	herpå
+80	6680	optisk	optisk optiske
+81	6681	forvaring	forvaring forvaringen forvarings
+82	6682	tredobbelt	tredobbelt tredobbelte
+83	6683	rocker	rocker rockere rockerne rockeren
+84	6684	rollespil	rollespil rollespillet
+85	6685	deriblandt	deriblandt
+86	6686	påkrævet	påkrævet påkrævede
+87	6687	uhørt	uhørt uhørte
+88	6688	bero	beror bero
+89	6689	landsmand	landsmænd landsmand landsmænds
+90	6690	storesøster	storesøster storesøsteren storesøsters storesøstre
+91	6691	tår	tår tåren
+92	6692	terrorangreb	terrorangreb terrorangrebet terrorangrebene
+93	6693	appel	appel appellen appellerne
+94	6694	asfalt	asfalt asfalten
+95	6695	sexliv	sexliv sexlivet
+96	6696	undertrykkelse	undertrykkelse undertrykkelsen undertrykkelsens
+97	6697	gokke	gokke gokker gokkede gokkes
+98	6698	blottet	blottet blottede
+99	6699	klarhed	klarhed klarheden klarhedens
+100	6700	tankevækkende	tankevækkende

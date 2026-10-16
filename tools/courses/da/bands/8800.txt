@@ -1,0 +1,100 @@
+1	8701	umenneskelig	umenneskelige umenneskeligt umenneskelig
+2	8702	tegnsprog	tegnsprog tegnsproget
+3	8703	vagthavende	vagthavende
+4	8704	isbjørn	isbjørn isbjørne isbjørnen isbjørnene isbjørnenes
+5	8705	dynamo	dynamo dynamoerne
+6	8706	doktorgrad	doktorgrad doktorgrader doktorgraden
+7	8707	lungekræft	lungekræft
+8	8708	zen	zen
+9	8709	fremadrettet	fremadrettet fremadrettede
+10	8710	giraf	giraf giraffer giraffen girafferne
+11	8711	pådrage	pådraget pådrog pådrage pådrager
+12	8712	indbetale	indbetalt indbetale indbetaler indbetalte
+13	8713	tilhørsforhold	tilhørsforhold
+14	8714	gæsteværelse	gæsteværelset gæsteværelse gæsteværelser gæsteværelserne
+15	8715	skakt	skakten skakt skakter skakte skakterne
+16	8716	manager	manageren managere managerens managerne
+17	8717	logistik	logistik logistikken
+18	8718	udi	udi
+19	8719	fordybelse	fordybelse
+20	8720	madpakke	madpakke madpakker madpakken madpakkerne
+21	8721	indenrigs	indenrigs
+22	8722	forskruet	forskruet forskruede
+23	8723	grynte	gryntende grynte grynter grynten gryntede
+24	8724	hjemmekamp	hjemmekamp hjemmekampe hjemmekampene
+25	8725	moské	moské moskéen moskéer moskéerne
+26	8726	genopbygning	genopbygning genopbygningen
+27	8727	vendepunkt	vendepunkt vendepunktet vendepunkter
+28	8728	brombær	brombær
+29	8729	forord	forord forordet
+30	8730	skiltning	skiltning
+31	8731	immunforsvar	immunforsvar immunforsvaret
+32	8732	velsagtens	velsagtens
+33	8733	kulturhus	kulturhuset kulturhus
+34	8734	biks	biksen biks bikse bikser biksede bikset
+35	8735	skanne	skanner skanne skanneren skannet skan skannede skannes skannere skannerne
+36	8736	to-tre	to-tre
+37	8737	pikslikker	pikslikker pikslikkere pikslikkeren pikslikkerens
+38	8738	båndoptager	båndoptager båndoptageren båndoptagere båndoptagerne
+39	8739	bølgelængde	bølgelængde bølgelængder bølgelængden
+40	8740	okkult	okkulte okkult
+41	8741	sexchikane	sexchikane sexchikanen
+42	8742	hjerneblødning	hjerneblødning hjerneblødninger hjerneblødningen
+43	8743	domino	domino dominoerne dominoer
+44	8744	sugerør	sugerør sugerøret sugerørene
+45	8745	mekka	mekka
+46	8746	hærfører	hærfører hærførere hærføreren hærførerne
+47	8747	stoffri	stoffri stoffrit stoffrie
+48	8748	hjernedød	hjernedød hjernedøde hjernedødt
+49	8749	nyse	nyser nyse nøs nyste nysere nysen nyst nysende
+50	8750	gengældelse	gengældelse gengældelsen gengældelsens
+51	8751	evaluere	evaluere evalueret evaluerer evalueres evaluerede evaluer
+52	8752	hovedsæde	hovedsæde hovedsædet
+53	8753	litteraturpris	litteraturpris
+54	8754	titanium	titanium
+55	8755	dun	dun dunet dunene
+56	8756	smug	smug
+57	8757	nordside	nordsiden nordside
+58	8758	rekreativ	rekreative rekreativt rekreativ
+59	8759	nynne	nynne nynner nynnede nyn nynnen nynnende
+60	8760	rate	rate rater raten raterne
+61	8761	ukorrekt	ukorrekt ukorrekte
+62	8762	spionere	spionere spionerer spionerede spioneret
+63	8763	overmande	overmande overmandet overmandede overmander overmandes
+64	8764	vedholdende	vedholdende
+65	8765	udenrigspolitik	udenrigspolitik udenrigspolitikken
+66	8766	blokhus	blokhus blokhuset
+67	8767	migrant	migranter
+68	8768	lærerinde	lærerinde lærerinden lærerinderne
+69	8769	souschef	souschef souschefen
+70	8770	cabriolet	cabriolet cabrioleten cabrioleter
+71	8771	ammoniak	ammoniak ammoniakken
+72	8772	portefølje	portefølje porteføljen porteføljer
+73	8773	røgfri	røgfri røgfrit
+74	8774	indrømmelse	indrømmelse indrømmelser
+75	8775	mobilisere	mobilisere mobiliseret mobiliserer mobiliser mobiliseres mobiliserede
+76	8776	umoden	umodne umoden umodent
+77	8777	skranke	skranken skranke skrankerne
+78	8778	bondegård	bondegård bondegården bondegårde bondegårds
+79	8779	broget	broget brogede
+80	8780	barndomshjem	barndomshjem barndomshjemmet
+81	8781	omskrive	omskrive omskriver omskrevet omskrev omskrives omskriv omskrevne
+82	8782	skalle	skalle skallede skallet skalles skallen skaller skallerne
+83	8783	videnskabsfolk	videnskabsfolk videnskabsfolkene
+84	8784	fjeder	fjeder fjederen fjedre fjedrene fjedrer fjedrende
+85	8785	afmærke	afmærket afmærkede afmærk afmærker afmærke
+86	8786	erobring	erobring erobringer erobringen
+87	8787	puf	puf puffet pufferne puffen
+88	8788	gårdsplads	gårdspladsen gårdsplads
+89	8789	diversitet	diversitet
+90	8790	navngivning	navngivning navngivningen
+91	8791	forlise	forliste forlist forlise forliser
+92	8792	rensning	rensning rensningen rensnings
+93	8793	trilogi	trilogien trilogi
+94	8794	beskikke	beskikket beskikkede beskikke beskikkes
+95	8795	søværn	søværnet søværnets søværn søværns
+96	8796	immunsystem	immunsystem immunsystemet immunsystemer
+97	8797	gynækolog	gynækolog gynækologen gynækologer
+98	8798	løgnhals	løgnhals løgnhalse løgnhalsen
+99	8799	balle	balle
+100	8800	dy	dy dyer

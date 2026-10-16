@@ -1,0 +1,100 @@
+1	1701	kylling	kylling kyllinger kyllingen kyllingerne kyllings kyllingens
+2	1702	hustru	hustru hustruer hustruen hustrus hustruens hustruerne hustruers
+3	1703	boks	boksen boks bokse boksene boksede bokset boksens boksenes bokses boksende
+4	1704	anmeldelse	anmeldelse anmeldelser anmeldelsen anmeldelserne anmeldelses
+5	1705	skille	skille skilles skiller skilte skil skiltes skilter skiltede
+6	1706	kandidat	kandidat kandidater kandidaterne kandidaten kandidaternes kandidats kandidatens kandidaters
+7	1707	anledning	anledning anledningen anledninger
+8	1708	dato	dato datoen datoer datoerne
+9	1709	brud	brud bruden bruddet brudens brude bruddene brudene bruddets brudes bruds
+10	1710	nordisk	nordisk nordiske
+11	1711	primært	primært
+12	1712	stramme	stramme stramt stram strammer strammere strammet strammes strammede strammeste
+13	1713	bolle	boller bolle bollede bollet bollerne bol bolles bollen
+14	1714	ovre	ovre
+15	1715	teater	teater teatret teateret teatre teaters teatrets teatrene teaterets
+16	1716	overflade	overfladen overflade overflader overfladens overfladerne
+17	1717	frøken	frøken frøkenen frøkenerne frøkener frøknen frøkner
+18	1718	skuespiller	skuespiller skuespillere skuespilleren skuespillerne skuespillernes skuespillers skuespillerens
+19	1719	indtage	indtage indtager indtaget indtog indtag indtages indtagende
+20	1720	modstander	modstander modstandere modstanderen modstanderens modstanderne modstanders modstandernes modstanderes
+21	1721	anerkende	anerkendt anerkendte anerkender anerkende anerkendes anerkend anerkendende
+22	1722	jakke	jakke jakken jakker jakkerne jakkens
+23	1723	påstå	påstår påstod påstå påstået påståede påstås
+24	1724	imponerende	imponerende
+25	1725	forbrydelse	forbrydelse forbrydelser forbrydelsen forbrydelserne forbrydelsens forbrydelses forbrydelsernes
+26	1726	afhængig	afhængig afhængige afhængigt
+27	1727	dets	dets
+28	1728	respektere	respekterer respektere respekteret respekterede respekter respekteres respektér
+29	1729	bide	bider bidt bide bidende biden bedes bides
+30	1730	begivenhed	begivenheder begivenhed begivenhederne begivenheden begivenhedernes begivenheds begivenhedens
+31	1731	sne	sne sneen snes sner sneede sneet snese sneens
+32	1732	traditionel	traditionelle traditionel traditionelt
+33	1733	måle	måle målt måler måles målte måleren målere målerne
+34	1734	blog	blog bloggen blogs bloggene
+35	1735	skærm	skærmen skærm skærme skærmene skærmer skærmet skærmede skærmens
+36	1736	publikum	publikum publikums publikummet publikummer publikumet
+37	1737	reaktion	reaktion reaktioner reaktionen reaktionerne reaktions
+38	1738	eventyr	eventyr eventyret eventyrene eventyrets eventyrs
+39	1739	kritisk	kritisk kritiske
+40	1740	pege	peger pege pegede peg peget pegende peges pegen
+41	1741	onsdag	onsdag onsdags onsdagen onsdage onsdagens
+42	1742	tradition	tradition traditioner traditionen traditionerne
+43	1743	britisk	britiske britisk
+44	1744	olie	olie olien olier oliens olierne
+45	1745	beskyttelse	beskyttelse beskyttelsen beskyttelses beskyttelsens
+46	1746	skuffe	skuffe skuffer skuffede skuffende skuffen skuf skufferne skuffes
+47	1747	fil	filer fil filen filerne file files filede filens fils filene
+48	1748	lokal	lokal lokalt
+49	1749	pligt	pligt pligter pligten pligterne pligtens
+50	1750	pilot	pilot piloter piloten piloterne piloternes pilotens pilots piloters
+51	1751	øst	øst østen østens
+52	1752	rute	rute ruten ruter ruterne
+53	1753	garantere	garanteret garanterer garantere garanterede garanteres garanter
+54	1754	stress	stress stresset stressen
+55	1755	forhandle	forhandle forhandler forhandlet forhandlere forhandlede forhandles forhandleren forhandlerne forhandl
+56	1756	undre	undrer undre undrede undret undrende undres undren undredes
+57	1757	derimod	derimod
+58	1758	roman	roman romanen romaner romanens romans romanerne
+59	1759	los	los losser losset lossen
+60	1760	maleri	maleri malerier maleriet malerierne maleriets
+61	1761	morsom	morsomt morsom morsomme morsommere morsomste
+62	1762	element	elementer element elementerne elementet elementernes elementers elements
+63	1763	liga	ligaen liga ligaens ligaer
+64	1764	nytte	nytte nytter nyt nyttede nytten nyttet
+65	1765	broder	broder brødre broderen brødrene broders broderens brødrenes brødres
+66	1766	milliard	milliarder milliard milliarders milliarden milliarderne
+67	1767	jøde	jøder jøde jøderne jøden jødernes jødens jødes
+68	1768	tiltrække	tiltrukket tiltrækker tiltrække tiltrækkende tiltrækkes tiltrak tiltræk
+69	1769	kopi	kopi kopier kopien kopierne
+70	1770	usædvanlig	usædvanligt usædvanlig usædvanlige
+71	1771	kælling	kælling kællinger kællingen kællingerne kællings kællingens kællingernes
+72	1772	hot	hot hotte hotteste hottere hottest
+73	1773	længde	længde længden længder
+74	1774	uddanne	uddannet uddanne uddannede uddanner uddannes uddan
+75	1775	udstilling	udstilling udstillingen udstillinger udstillingerne udstillingens udstillings
+76	1776	slot	slot slottet slots slotte slottets slottene slottes
+77	1777	klient	klient klienter klienten klients klienterne klientens klienters klienternes
+78	1778	etage	etage etager etagen etagers etagerne etages
+79	1779	afslutning	afslutning afslutningen afslutninger afslutnings
+80	1780	mode	mode moden modne modent modnes moders modner modnet modes modens
+81	1781	erstatte	erstatte erstattet erstatter erstattes erstattede erstat
+82	1782	putte	putte putter put puttet puttede puttes putteren
+83	1783	anklager	anklager anklageren anklagerne anklagerens anklagere anklagers anklagernes
+84	1784	kong	kong
+85	1785	antage	antager antage antog antages antaget antag
+86	1786	heks	heks hekse heksen heksene heksens heksenes hekses
+87	1787	derhjemme	derhjemme
+88	1788	beskidt	beskidt beskidte
+89	1789	band	band bandet bands bandets bandene bandenes
+90	1790	amme	am amme ammer ammede ammet ammen ammende ammes
+91	1791	gæld	gæld gælden gælds
+92	1792	ah	ah
+93	1793	tegning	tegninger tegning tegningerne tegningen
+94	1794	grundlag	grundlag grundlaget
+95	1795	udfordre	udfordre udfordrer udfordrende udfordret udfordrede udfordres udfordreren udfordrere udfordr udfordrerne
+96	1796	løj	løj
+97	1797	stak	stak stakke stakken staks stakkes
+98	1798	løjtnant	løjtnant løjtnanten løjtnanter løjtnantens løjtnanterne løjtnants
+99	1799	betragte	betragtes betragte betragtet betragtede betragt betragtende betragtedes
+100	1800	skrue	skrue skruer skru skruet skruen skruede skruerne skrues

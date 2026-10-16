@@ -1,0 +1,100 @@
+1	8101	bankboks	bankboks bankboksen bankbokse bankboksene
+2	8102	overdække	overdækket overdækkede overdækker
+3	8103	søgsmål	søgsmål søgsmålet søgsmålene
+4	8104	formodning	formodning formodninger formodningen
+5	8105	fængselsstraf	fængselsstraf fængselsstraffe fængselsstraffen
+6	8106	vanilje	vanilje
+7	8107	basta	basta
+8	8108	herlighed	herlighed herligheden herligheder herligheds herlighederne herlighedens
+9	8109	elskov	elskov elskovs elskovens elskoven
+10	8110	skændsel	skændsel skændslen skændslens
+11	8111	collie	collier collie colliers collien
+12	8112	klint	klint klinten klinterne
+13	8113	fucke	fucke fuckede fucket fuckes
+14	8114	rummelig	rummelige rummelig rummeligt
+15	8115	vildmark	vildmarken vildmark vildmarkens vildmarker
+16	8116	maestro	maestro maestroen maestroens
+17	8117	ordspil	ordspil ordspillet
+18	8118	komponere	komponeret komponere komponerede komponerer
+19	8119	mishandling	mishandling mishandlingen
+20	8120	beredt	beredt
+21	8121	spidde	spiddet spidde spidder spiddede spid spiddes
+22	8122	forøgelse	forøgelse forøgelsen
+23	8123	udruste	udrustet udrustede udruste udruster udrust udrustes
+24	8124	minimere	minimere minimerer minimeret minimer minimeres minimerede
+25	8125	gylle	gylle
+26	8126	tilbagefald	tilbagefald
+27	8127	spisebord	spisebord spisebordet
+28	8128	republikansk	republikanske republikansk
+29	8129	efteruddannelse	efteruddannelse
+30	8130	efterligning	efterligning efterligninger
+31	8131	skaft	skaftet skaft skafter skafterne
+32	8132	indflydelsesrig	indflydelsesrige indflydelsesrig indflydelsesrigt
+33	8133	major	majoren majorens majorer
+34	8134	ovenikøbet	ovenikøbet
+35	8135	formindske	formindske formindsket formindsker formindskes formindskede formindsk
+36	8136	sarkastisk	sarkastisk sarkastiske
+37	8137	krøbling	krøbling krøblingen krøblinger krøblingerne
+38	8138	forhekse	forhekset forheksede forhekse forhekser
+39	8139	forkøb	forkøbet
+40	8140	omvandrende	omvandrende
+41	8141	kippe	kip kipper kippers
+42	8142	colombiansk	colombianske colombiansk
+43	8143	pioner	pioner pionerer pionererne pioneren
+44	8144	grundvand	grundvand grundvandet
+45	8145	ungkarl	ungkarl ungkarle ungkarlen ungkarlene
+46	8146	markedsplads	markedspladsen markedsplads
+47	8147	globalisering	globalisering globaliseringen
+48	8148	hestekraft	hestekræfter hestekræfterne hestekræfters
+49	8149	empati	empati empatien
+50	8150	reservere	reservere reserver reserverer reserverede reserveres
+51	8151	vestindisk	vestindiske vestindisk
+52	8152	vandhul	vandhul vandhuller vandhullet vandhullerne
+53	8153	eksportere	eksportere eksporterer eksporteres eksporteret eksporterede
+54	8154	hamrende	hamrende
+55	8155	næststørst	næststørste
+56	8156	træningslejr	træningslejr træningslejren træningslejre træningslejrene
+57	8157	presserende	presserende
+58	8158	næringsstof	næringsstoffer næringsstofferne
+59	8159	forgårs	forgårs
+60	8160	genstart	genstart genstarter genstarten
+61	8161	periodisk	periodisk periodiske
+62	8162	mande	mande mander mandede mandet
+63	8163	bittesmå	bittesmå
+64	8164	haglgevær	haglgevær haglgeværet haglgeværer haglgeværerne
+65	8165	tophemmelig	tophemmeligt tophemmelige tophemmelig
+66	8166	fejlfri	fejlfri fejlfrit fejlfrie
+67	8167	undtagelsestilstand	undtagelsestilstand undtagelsestilstanden
+68	8168	amfetamin	amfetamin amfetaminen
+69	8169	synonym	synonym synonymer synonymt synonyme synonymet
+70	8170	fastelavn	fastelavn
+71	8171	snildt	snildt
+72	8172	betænkning	betænkning
+73	8173	langtfra	langtfra
+74	8174	tuberkulose	tuberkulose tuberkulosen
+75	8175	id-kort	id-kort id-kortet id-kortene
+76	8176	samaritan	samaritan samaritaner samaritaneren samaritanere samaritaners
+77	8177	gådefuld	gådefulde gådefuld gådefuldt
+78	8178	dyrkning	dyrkning dyrkningen
+79	8179	hovedtelefon	hovedtelefoner hovedtelefonerne hovedtelefon
+80	8180	rejsekort	rejsekort rejsekortet
+81	8181	sjællandsk	sjællandske sjællandsk
+82	8182	bekende	bekende bekend bekendte
+83	8183	tres	tres
+84	8184	spiselig	spiselige spiseligt spiselig
+85	8185	bortførelse	bortførelse bortførelsen bortførelser bortførelserne bortførelses
+86	8186	hån	hån hånen
+87	8187	skorpe	skorpe skorpen skorper skorperne skorpet
+88	8188	persille	persille persillen
+89	8189	livsværk	livsværk
+90	8190	gaffa	gaffa
+91	8191	udenlands	udenlands
+92	8192	juledag	juledag juledagene juledage
+93	8193	undervisningsministerium	undervisningsministeriet undervisningsministeriets
+94	8194	forkærlighed	forkærlighed
+95	8195	smagsprøve	smagsprøve smagsprøver smagsprøven
+96	8196	tildeling	tildeling tildelingen
+97	8197	ondsindet	ondsindet ondsindede
+98	8198	hjerteløs	hjerteløs hjerteløse hjerteløst
+99	8199	hærde	hærdet hærdede hærder hærde hærdes
+100	8200	lommepenge	lommepenge lommepengene

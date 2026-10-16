@@ -1,0 +1,100 @@
+1	9101	sangskriver	sangskriver sangskrivere sangskriverne
+2	9102	makrel	makrel makrellen
+3	9103	nostalgisk	nostalgisk nostalgiske
+4	9104	bosiddende	bosiddende
+5	9105	bombefly	bombefly bombeflyene bombeflyet
+6	9106	tudse	tudse tudser tudsen tudserne
+7	9107	bryllupsgave	bryllupsgave bryllupsgaver bryllupsgaven bryllupsgaverne
+8	9108	moderskib	moderskibet moderskib moderskibe moderskibene moderskibets
+9	9109	hypnotisere	hypnotiseret hypnotisere hypnotiserede hypnotiserer hypnotiseres hypnotiserende hypnotiseren
+10	9110	gendanne	gendanne gendannes gendannet gendanner gendannede gendan
+11	9111	trane	trane tranen traner tranerne
+12	9112	jordnød	jordnødder jordnød jordnødderne jordnødden
+13	9113	spadestik	spadestik spadestikket
+14	9114	dement	demente dement
+15	9115	hepatitis	hepatitis
+16	9116	indtale	indtal indtale indtalte indtalt indtaler
+17	9117	grufuld	grufulde grufuldt grufuld
+18	9118	overhængende	overhængende
+19	9119	kløe	kløe kløen kløes
+20	9120	kaktus	kaktus kaktussen kaktusser kaktusserne kaktuser
+21	9121	håbefuld	håbefulde håbefuld håbefuldt
+22	9122	konsortium	konsortium konsortiet
+23	9123	farbror	farbror farbrors
+24	9124	formalitet	formalitet formaliteterne formaliteter
+25	9125	snut	snut
+26	9126	søvnig	søvnig søvnige søvnigt
+27	9127	eftersidning	eftersidning eftersidningen eftersidninger eftersidningerne
+28	9128	etter	etter etteren ettere
+29	9129	reproduktion	reproduktion reproduktionen reproduktioner
+30	9130	podium	podiet
+31	9131	arbejdsgiverforening	arbejdsgiverforening
+32	9132	brugervenlighed	brugervenlighed
+33	9133	dagtilbud	dagtilbud
+34	9134	hovedstadsområde	hovedstadsområdet
+35	9135	beredskabsstyrelse	beredskabsstyrelsen beredskabsstyrelsens
+36	9136	aloe	aloe
+37	9137	besætningsmedlem	besætningsmedlemmer besætningsmedlem besætningsmedlemmerne
+38	9138	fordampe	fordamper fordampet fordampe fordampede
+39	9139	blodåre	blodårer blodåre blodårerne blodåren
+40	9140	videreudvikling	videreudvikling
+41	9141	årsskift	årsskiftet
+42	9142	lastrum	lastrummet lastrum lastrummene lastrummets
+43	9143	japser	japserne japsere japser japseren japsernes
+44	9144	granske	granske gransket gransker granskede granskes gransk gransken
+45	9145	gral	gral gralen gralens
+46	9146	kontaktlinse	kontaktlinser kontaktlinse kontaktlinserne kontaktlinsen
+47	9147	sparsom	sparsomme sparsom
+48	9148	adelsmand	adelsmand adelsmænd adelsmændene adelsmands adelsmanden
+49	9149	fuldbyrde	fuldbyrdet fuldbyrde fuldbyrdede fuldbyrdes fuldbyrder fuldbyrd
+50	9150	katalysator	katalysator katalysatoren katalysatorer
+51	9151	bipolar	bipolar bipolare
+52	9152	udstråle	udstråler udstråle udstrålede udstrål udstrålende
+53	9153	bakspejl	bakspejlet bakspejl
+54	9154	tilbageblik	tilbageblik
+55	9155	hungersnød	hungersnød hungersnøden
+56	9156	tandpleje	tandpleje tandplejen
+57	9157	murværk	murværk murværket
+58	9158	berige	beriget berige berigende beriger beriges berigede
+59	9159	steppe	steppe stepper stepperne steppen steppede steppens
+60	9160	folkedrab	folkedrab folkedrabet
+61	9161	grumme	grumme
+62	9162	sensommer	sensommeren sensommer
+63	9163	bandeord	bandeord bandeordene
+64	9164	forsanger	forsanger forsangeren forsangere
+65	9165	overvægt	overvægt overvægten
+66	9166	avl	avl avls avlerne avlen
+67	9167	glasur	glasur glasuren
+68	9168	verdensmesterskab	verdensmesterskabet verdensmesterskaberne verdensmesterskab verdensmesterskaber
+69	9169	lagune	lagune lagunen laguner
+70	9170	orgel	orgel orglet orgelet
+71	9171	donor	donorer donoren donorens donorerne
+72	9172	julekort	julekort julekortet julekortene
+73	9173	børnetøj	børnetøj
+74	9174	mirakuløs	mirakuløst mirakuløs mirakuløse
+75	9175	sprænghoved	sprænghovedet sprænghoved sprænghoveder sprænghovederne
+76	9176	sprætte	sprætter sprætte sprættet sprættede sprættes spræt
+77	9177	suppleant	suppleant suppleanter
+78	9178	jævnaldrende	jævnaldrende
+79	9179	besvarelse	besvarelser besvarelse
+80	9180	valnød	valnød valnødder valnødderne
+81	9181	udeblive	udeblev udeblevet udebliver udeblive udebleven udeblevne
+82	9182	modersmål	modersmål modersmålet
+83	9183	vartegn	vartegn
+84	9184	radiostation	radiostation radiostationen radiostationer radiostationerne
+85	9185	modvillig	modvilligt modvillig modvillige
+86	9186	pletskud	pletskud
+87	9187	kærlighedsliv	kærlighedsliv kærlighedslivet
+88	9188	topform	topform
+89	9189	dannebrog	dannebrog
+90	9190	brutalitet	brutalitet brutaliteten
+91	9191	mistro	mistro mistror mistroede
+92	9192	ubesvaret	ubesvarede ubesvaret
+93	9193	pavillon	pavillon pavillonen
+94	9194	tilblivelse	tilblivelse tilblivelsen
+95	9195	stjernetegn	stjernetegn stjernetegnet stjernetegnene
+96	9196	fuldmægtig	fuldmægtig fuldmægtige fuldmægtigen
+97	9197	hjertelig	hjertelig hjerteligt hjertelige hjerteligste
+98	9198	billion	billioner billion
+99	9199	tosproget	tosprogede tosproget
+100	9200	jordnøddesmør	jordnøddesmør jordnøddesmørret

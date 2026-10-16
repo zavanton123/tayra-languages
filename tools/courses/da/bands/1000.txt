@@ -1,0 +1,100 @@
+1	901	smart	smart smarte smartere smarteste smartest
+2	902	fare	fare farer faret farerne faren fór farende farede farens
+3	903	varme	varme varmen varmer varmet varmes varmede varmeren varmende varmens
+4	904	post	post posten poster poste postet posterne postede posteret postere posts
+5	905	præsentere	præsentere præsenterer præsenteret præsenterede præsenteres præsenter præsentér
+6	906	ferie	ferie ferien ferier ferierne
+7	907	træde	træde træder træd trådte trådt trædes
+8	908	niveau	niveau niveauet niveauer niveauerne niveaus
+9	909	lås	låst lås låse låser låste låsen låses låsene låset
+10	910	sygdom	sygdom sygdomme sygdommen sygdommens sygdommene sygdoms
+11	911	formand	formand formanden formænd formandens formands formændene
+12	912	nuværende	nuværende
+13	913	april	april aprils
+14	914	bevise	bevise beviser bevist beviste bevises
+15	915	trænge	trænger trænge trængte trængt trængende træng trænges
+16	916	sten	sten stenen stenene stens stenens stenenes
+17	917	bevis	bevis beviser beviserne beviset
+18	918	hyggelig	hyggeligt hyggelig hyggelige hyggeligere hyggeligste
+19	919	guld	guld guldet guldets
+20	920	fuck	fuck
+21	921	virkelighed	virkeligheden virkelighed virkelighedens virkeligheder virkeligheds virkelighederne
+22	922	tredje	tredje tredjes
+23	923	an	an
+24	924	slutte	slutter slutte sluttede sluttet sluttes
+25	925	krav	krav kravet kravene
+26	926	kasse	kassen kasse kasser kasserne kassens
+27	927	tillade	tillader tilladt tillade tillad tillod tilladte tillades
+28	928	bestemme	bestemmer bestemme bestemte bestemmes bestem bestemmende
+29	929	luk	luk
+30	930	megen	meste megen
+31	931	umulig	umuligt umulig umulige
+32	932	slukke	sluk slukke slukket slukker slukkede slukkes slukkedes
+33	933	foretage	foretaget foretage foretager foretog foretages foretagende foretag foretagendet foretagender foretagendes
+34	934	dengang	dengang
+35	935	enhed	enhed enheder enheden enhederne enhedens enheds enheders
+36	936	politik	politik politikken politikker politikkens politiks politikkerne
+37	937	byde	byder byde budt bød byd bydende bydes
+38	938	borger	borgere borgerne borger borgernes borgeren borgeres borgers borgerens
+39	939	bevæge	bevæger bevæge bevægede bevæg bevæget bevægende bevæges
+40	940	krone	kroner krone kronen kronet kronens kron kronede krones kroners kronerne
+41	941	hemmelig	hemmelige hemmeligt hemmelig hemmeligste hemmeligere
+42	942	afsnit	afsnit afsnittet afsnittene afsnittets
+43	943	sjælden	sjældent sjælden sjældne sjældnere sjældneste
+44	944	knægt	knægt knægten knægte knægtens knægtene knægts knægter knægtet knægtes
+45	945	fuldstændig	fuldstændig fuldstændigt fuldstændige
+46	946	betydning	betydning betydningen betydninger betydnings
+47	947	fokus	fokus
+48	948	tjek	tjek tjekket tjekkede tjeks
+49	949	middag	middag middagen middage middags middagene middagens
+50	950	mørke	mørke mørket mørkets mørkes
+51	951	bro	broen bro broer bros broerne broens
+52	952	ni	ni
+53	953	dens	dens
+54	954	øge	øget øge øger øges øgede øg øgedes
+55	955	forsigtig	forsigtig forsigtigt forsigtige forsigtigere
+56	956	vagt	vagt vagter vagterne vagten vagternes vagtens vagts vagters
+57	957	true	truer truede truet true truende trues tru
+58	958	økonomi	økonomi økonomien økonomier økonomiens økonomis økonomierne
+59	959	samtale	samtale samtaler samtalen samtalerne samtalens samtales
+60	960	takke	takke takket takkede takker takken takkes
+61	961	politiker	politikere politiker politikerne politikernes politikeren politikers politikeres politikerens
+62	962	internet	internettet internet net nets internettets nette nettets nettene netter
+63	963	pille	piller pille pil pile pillerne pillet pilen pillen pillede pilene
+64	964	show	show showet shows showets showene
+65	965	mobil	mobil mobilen mobile mobiler mobilt mobilerne mobilens
+66	966	langsom	langsomt langsom langsommere langsomme langsomste
+67	967	kat	kat katte katten kattene kattens kats kattenes kattes
+68	968	fart	fart farten farter fartens
+69	969	medicin	medicin medicinen mediciner medicinens medicineres medicins medicinerne medicineren
+70	970	båd	båd båden bådene bådens
+71	971	dronning	dronning dronningen dronningens dronninger dronnings dronningerne dronningernes dronningers
+72	972	fødselsdag	fødselsdag fødselsdagen fødselsdage fødselsdags fødselsdagene
+73	973	natur	natur naturen naturens naturs naturer
+74	974	bære	bære bær båret bærende bæres bærrene båren bærret
+75	975	mester	mester mestre mesteren mestrene mestrer mesters mesterens mestrenes mestret mestrede
+76	976	general	general generalen generaler generalens generalerne generals generalers generalernes
+77	977	rapport	rapport rapporten rapporter rapporterne rapportens
+78	978	overfor	overfor
+79	979	deltage	deltage deltog deltaget deltagende deltag
+80	980	fransk	fransk franske fransker
+81	981	butik	butikken butik butikker butikkerne butikkens butiks butikkernes
+82	982	græde	græder græde græd grædende grædt
+83	983	pænt	pænt
+84	984	afsløre	afsløre afslører afsløret afslørede afsløres afslørende afslør afsløredes
+85	985	afslutte	afsluttet afslutte afslutter afsluttede afsluttes afsluttende afslut afslutteren afsluttedes
+86	986	station	station stationen stationer stationerne stationens stations
+87	987	tilbud	tilbud tilbuddet tilbudet tilbuddene tilbudene
+88	988	succes	succes succesen succeser succesens
+89	989	værdi	værdi værdier værdien værdierne
+90	990	formål	formål formålet formålene
+91	991	stilling	stilling stillinger stillingen stillingerne
+92	992	satan	satan satans sataner satanen satanerne
+93	993	opnå	opnå opnået opnår opnåede opnås opnåes
+94	994	point	point points pointene pointet
+95	995	dømme	dømt dømme dømmer dømte dømmes døm dømmende dømtes
+96	996	frisk	frisk friske friskt friskere frisker friskes frisket friskeste
+97	997	morder	morder morderen mordere morderne morderens morders mordernes morderes
+98	998	yderligere	yderligere
+99	999	tvinge	tvunget tvinge tvinger tvinges tving tvungen tvingende tvungne tvungent
+100	1000	smerte	smerte smerter smerten smerterne smertens smertede smertende smertes

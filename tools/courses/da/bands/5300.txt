@@ -1,0 +1,100 @@
+1	5201	øjenbryn	øjenbryn øjenbrynene øjenbrynet
+2	5202	magnetisk	magnetisk magnetiske
+3	5203	jarl	jarl jarlen jarler jarlens
+4	5204	egern	egern egernet egernerne egernene egerns
+5	5205	bekræftelse	bekræftelse bekræftelsen bekræftelser
+6	5206	kritiker	kritikere kritiker kritikerne kritikeren
+7	5207	kloak	kloak kloakken kloakkerne kloakker kloakkens
+8	5208	landskamp	landskamp landskampe landskampen
+9	5209	legeme	legeme legemet legemer legemes
+10	5210	hektar	hektar hektarer
+11	5211	fordom	fordomme fordom fordommene
+12	5212	korps	korpset korps korpsets
+13	5213	zombi	zombier zombierne zombien zombiernes zombiens
+14	5214	trivsel	trivsel
+15	5215	hjælpsom	hjælpsom hjælpsomme hjælpsomt
+16	5216	brandvæsen	brandvæsen brandvæsenet brandvæsnet brandvæsnets brandvæsenets
+17	5217	gyldig	gyldig gyldigt gyldige
+18	5218	immunitet	immunitet immuniteten immunitets
+19	5219	gavmild	gavmild gavmilde gavmildt
+20	5220	babysitter	babysitter babysitteren babysittere babysitterne baby-sitter babysitterens babysitters
+21	5221	blære	blære blærer blæret blæren blær blærede blærerne
+22	5222	rygrad	rygrad rygraden rygrade
+23	5223	camping	camping
+24	5224	såmænd	såmænd
+25	5225	gengive	gengivet gengive gengiver gengives gengav
+26	5226	roma	roma romaer romaerne romas
+27	5227	ekskæreste	ekskæreste ekskærester ekskæresten ekskærestes ekskæresters ekskærestens
+28	5228	oprøre	oprørt oprørte oprørende oprøre
+29	5229	foranstaltning	foranstaltninger foranstaltning foranstaltningen
+30	5230	sherry	sherry sherryen sherrys
+31	5231	silke	silke silken silkens
+32	5232	ensarte	ensartet ensartede
+33	5233	kryb	kryb krybet krybene krybets krybenes
+34	5234	stab	stab staben stabs stabens
+35	5235	massakre	massakre massakren massakrer massakrerne
+36	5236	omstilling	omstilling omstillingen omstillinger
+37	5237	aflytte	aflyttet aflytter aflytte aflyttede aflyt aflyttes aflytteren
+38	5238	signere	signeret signere signerede signerer signer signeres
+39	5239	lobbye	lobbyen lobby lobbyer lobbye
+40	5240	forudsætte	forudsat forudsætter forudsætte
+41	5241	pentagon	pentagon pentagons
+42	5242	undertekst	undertekster undertekst underteksterne
+43	5243	bestyrer	bestyrer bestyreren bestyrerens bestyrere bestyrerne
+44	5244	solopgang	solopgang solopgangen solopgange
+45	5245	spaghetti	spaghetti spaghettien spaghettierne spaghettier
+46	5246	optimistisk	optimistisk optimistiske
+47	5247	stad	stads stad staden stadset stadses
+48	5248	berettiget	berettiget berettigede
+49	5249	relativ	relativ relative
+50	5250	innovativ	innovative innovativ innovativt
+51	5251	rapper	rapper rapperen rappere rapperne rappers rapperes
+52	5252	hormon	hormoner hormon hormonerne hormonet
+53	5253	produktiv	produktiv produktive produktivt
+54	5254	førhen	førhen
+55	5255	tilslutning	tilslutning tilslutninger tilslutningen
+56	5256	motto	motto mottoet
+57	5257	bekostning	bekostning bekostninger
+58	5258	improvisere	improvisere improviserede improviseret improviserer improviser
+59	5259	sollys	sollys sollyset
+60	5260	ranch	ranch ranchen rancher ranchens rancherne
+61	5261	killing	killing killinger killingerne killingen
+62	5262	nobel	noble nobel nobelt
+63	5263	fangst	fangst fangsten fangster
+64	5264	hovedrolle	hovedrollen hovedrolle hovedrollerne hovedroller
+65	5265	berøring	berøring berøringer berøringen
+66	5266	redegørelse	redegørelse redegørelsen redegørelser
+67	5267	mødested	mødested mødestedet mødesteder
+68	5268	hætte	hætte hætten hætter hætterne hættens
+69	5269	algoritme	algoritme algoritmer algoritmen algoritmerne
+70	5270	færdes	færdes færden færdedes
+71	5271	modstandsbevægelse	modstandsbevægelsen modstandsbevægelse modstandsbevægelsens modstandsbevægelser modstandsbevægelses
+72	5272	irrelevant	irrelevant irrelevante
+73	5273	efterligne	efterligne efterligner efterlignede efterligneren efterlign efterlignet efterlignere efterlignes efterlignerne
+74	5274	fortov	fortovet fortov fortove fortovene
+75	5275	vaffel	vafler vaffel vaflerne vaflen
+76	5276	sønder	sønder
+77	5277	ligetil	ligetil
+78	5278	lederskab	lederskab lederskabet lederskabs lederskabets
+79	5279	morfin	morfin morfinen
+80	5280	asyl	asyl asylet
+81	5281	skotsk	skotsk skotske
+82	5282	kirurgisk	kirurgisk kirurgiske
+83	5283	forfalske	forfalskede forfalsket forfalske forfalsker forfalskes forfalsk
+84	5284	boulevard	boulevard boulevarden boulevarder
+85	5285	filosof	filosof filosoffer filosoffen filosofferne
+86	5286	retningslinje	retningslinjer retningslinjerne retningslinje
+87	5287	sengetid	sengetid sengetider
+88	5288	indspille	indspille indspillede indspiller indspilles
+89	5289	dirigent	dirigent dirigenten dirigentens
+90	5290	varemærke	varemærke varemærker varemærket
+91	5291	fragt	fragt fragter fragten
+92	5292	flagermus	flagermus flagermusen flagermusene flagermusens
+93	5293	tommelfinger	tommelfinger tommelfingeren tommelfingre tommelfingrene tommelfingerens
+94	5294	uvejr	uvejr uvejret uvejrene uvejrets
+95	5295	skuespillerinde	skuespillerinde skuespillerinden skuespillerinder skuespillerinderne
+96	5296	kavaleri	kavaleriet kavaleri kavaleriets
+97	5297	behage	behage behager behag behagede behaget behages
+98	5298	kollapse	kollapsede kollapse kollapser kollapset kollapsende
+99	5299	afpresse	afpresse afpresser afpressede afpresset afpresseren afpresses afpressere afpressende afpres
+100	5300	diabetes	diabetes

@@ -1,0 +1,100 @@
+1	9201	kommandocentral	kommandocentralen kommandocentral
+2	9202	skyttegrav	skyttegravene skyttegraven skyttegrav skyttegrave
+3	9203	patriotisk	patriotisk patriotiske
+4	9204	fødekæde	fødekæden fødekæde
+5	9205	sprogbrug	sprogbrug
+6	9206	trafikulykke	trafikulykke trafikulykker trafikulykken
+7	9207	ciao	ciao
+8	9208	selvoptaget	selvoptaget selvoptagede selvoptagne
+9	9209	overbringe	overbringe overbringer overbring overbragt overbragte overbringes
+10	9210	solstråle	solstråle solstråler solstrålerne solstrålen
+11	9211	iagttager	iagttager iagttagere
+12	9212	frækkert	frækkert frækkerter frækkerten
+13	9213	etapeløb	etapeløb
+14	9214	storklub	storklub
+15	9215	fæl	fælt fæle fæl fæleste
+16	9216	hebraisk	hebraisk hebraiske
+17	9217	missionær	missionær missionærer missionærerne missionæren
+18	9218	færdiguddanne	færdiguddannet
+19	9219	bombeangreb	bombeangreb bombeangrebet bombeangrebene
+20	9220	skrivning	skrivning skrivningen
+21	9221	kejsersnit	kejsersnit kejsersnittet
+22	9222	mærkbar	mærkbart mærkbar mærkbare
+23	9223	hulrum	hulrum hulrummet
+24	9224	operativsystem	operativsystem operativsystemer operativsystemet
+25	9225	frispark	frispark
+26	9226	enkeltperson	enkeltpersoner enkeltperson
+27	9227	audiens	audiens audiensen
+28	9228	integration	integrationen
+29	9229	halvere	halveret halverer halvere halveres halverede halver
+30	9230	ubehøvlet	ubehøvlet ubehøvlede
+31	9231	machete	machete macheter macheten machetes
+32	9232	prærieulv	prærieulv prærieulve prærieulven prærieulvene
+33	9233	rable	rablende rabler rablede rable rablen rablet
+34	9234	rasteplads	rasteplads rastepladsen rastepladser rastepladserne
+35	9235	carport	carport carporten
+36	9236	spildevand	spildevand spildevandet
+37	9237	livstruende	livstruende
+38	9238	syret	syret syrede
+39	9239	bombemand	bombemanden bombemand bombemænd bombemændene bombemandens
+40	9240	kraftfelt	kraftfelt kraftfeltet kraftfelter kraftfelterne
+41	9241	suse	suser suse susede susende susen
+42	9242	operationsstue	operationsstuen operationsstue operationsstuerne operationsstuer
+43	9243	muskuløs	muskuløs muskuløse
+44	9244	svimmelhed	svimmelhed svimmelheden
+45	9245	kartoffelmos	kartoffelmos kartoffelmosen
+46	9246	revy	revy revyen
+47	9247	soda	soda sodaen
+48	9248	epic	epic
+49	9249	anus	anus
+50	9250	overklasse	overklassen overklasse overklassens
+51	9251	forskningscenter	forskningscenter forskningscentret forskningscenteret forskningscentre
+52	9252	hjerterytme	hjerterytme hjerterytmen
+53	9253	somalisk	somaliske somalisk
+54	9254	nektar	nektar nektaren
+55	9255	puck	pucken
+56	9256	intrige	intriger intrige intrigerne intrigen
+57	9257	udgangsforbud	udgangsforbud udgangsforbuddet udgangsforbudet
+58	9258	grønskolling	grønskolling grønskollinger grønskollingen grønskollingerne grønskollingens
+59	9259	fantom	fantomet fantom fantomer fantomerne fantomets
+60	9260	svigerdatter	svigerdatter svigerdøtre svigerdatteren
+61	9261	eskadrille	eskadrille eskadrillen eskadriller eskadrillens
+62	9262	trumf	trumf trumfer trumferne trumfen
+63	9263	tilholdssted	tilholdssted tilholdssteder tilholdsstedet
+64	9264	overlevere	overleveret overlevere overlever overleverer overleverede overleveren overleveres
+65	9265	censor	censor censorer censoren
+66	9266	turne	turne turneen turneer
+67	9267	næsebor	næsebor næseborene næseboret næsebors
+68	9268	overkomme	overkomme overkom overkommer overkommet
+69	9269	våbenhandler	våbenhandler våbenhandlere våbenhandleren våbenhandlerne
+70	9270	tilsynsværge	tilsynsværge tilsynsværgen tilsynsværger
+71	9271	stupid	stupid stupide stupidt
+72	9272	skrab	skrabet skrab
+73	9273	masseødelæggelsesvåben	masseødelæggelsesvåben masseødelæggelsesvåbnene
+74	9274	klæbe	klæber klæbende klæbe klæbede klæbet klæberen
+75	9275	dørklokke	dørklokken dørklokker dørklokke
+76	9276	ubelejlig	ubelejligt ubelejlig ubelejlige
+77	9277	flop	flop floppet flops
+78	9278	ten	ten tenen
+79	9279	eksakt	eksakt eksakte
+80	9280	retssikkerhed	retssikkerhed retssikkerheden
+81	9281	forskellighed	forskelligheder forskellighed forskelligheden
+82	9282	læremester	læremester læremestre læremesteren læremesters
+83	9283	myldretid	myldretiden myldretid
+84	9284	prævention	prævention
+85	9285	angivelse	angivelse angivelsen
+86	9286	kalium	kalium
+87	9287	kropssprog	kropssprog kropssproget
+88	9288	genfødsel	genfødsel genfødslen genfødslens genfødsler
+89	9289	frigørelse	frigørelse frigørelsen frigørelses
+90	9290	prestigefyldt	prestigefyldte prestigefyldt
+91	9291	forankre	forankret forankrer forankre forankrede
+92	9292	biluheld	biluheld biluheldet
+93	9293	båre	båre bårer bårerne båren
+94	9294	statsministerium	statsministeriet statsministeriets
+95	9295	patentere	patenteret patenterede patentere patenter
+96	9296	interagere	interagere interagerer interageret interagerede
+97	9297	elskværdig	elskværdig elskværdigt elskværdige
+98	9298	ankestyrelse	ankestyrelsen
+99	9299	spy	spy spyr spyede spyer
+100	9300	anciennitet	anciennitet

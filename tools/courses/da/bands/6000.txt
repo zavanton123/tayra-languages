@@ -1,0 +1,100 @@
+1	5901	fodboldkamp	fodboldkamp fodboldkampe fodboldkampen
+2	5902	organisering	organisering organiseringen
+3	5903	betjening	betjening betjeningen
+4	5904	fælg	fælge fælgene fælgen fælg
+5	5905	revolutionær	revolutionære revolutionær revolutionært
+6	5906	vikar	vikar vikaren vikarer
+7	5907	autograf	autograf autografer autografen autograferne
+8	5908	glød	glød gløder gløden gløderne gløds
+9	5909	vigtighed	vigtigheden vigtighed
+10	5910	udbryde	udbrød udbryder udbrudt udbryde udbrydere udbryderne
+11	5911	bæger	bæger bægeret bægre bægrene bægret bægere bægerets
+12	5912	besværgelse	besværgelse besværgelser besværgelsen besværgelserne besværgelsernes
+13	5913	fallit	fallit fallittens fallitter
+14	5914	sikkerhedssele	sikkerhedssele sikkerhedsselen sikkerhedsseler sikkerhedsselerne
+15	5915	socialist	socialister socialist socialisterne
+16	5916	nytårsaften	nytårsaften
+17	5917	plastic	plastic plasticen plastics
+18	5918	lægehjælp	lægehjælp lægehjælpen
+19	5919	skyldfølelse	skyldfølelse skyldfølelsen skyldfølelser skyldfølelserne
+20	5920	naturstyrelse	naturstyrelsen naturstyrelsens
+21	5921	rigshospital	rigshospitalet
+22	5922	uploade	uploade uploader uploadet uploadede uploades
+23	5923	hovedpart	hovedparten
+24	5924	eftermæle	eftermæle eftermælet
+25	5925	skeptisk	skeptisk skeptiske
+26	5926	narkohandler	narkohandler narkohandlere narkohandlerne narkohandleren narkohandlers
+27	5927	gudfader	gudfader gudfaderen
+28	5928	hvidløg	hvidløg hvidløgs hvidløget hvidløgene
+29	5929	yderside	ydersiden yderside
+30	5930	appellere	appellere appellerer appeller appellerede appelleret appellerende appelleres
+31	5931	anstrengelse	anstrengelser anstrengelse anstrengelserne anstrengelsen
+32	5932	smøg	smøg
+33	5933	ejerskab	ejerskab ejerskabet ejerskaber
+34	5934	allerbedst	allerbedste allerbedst
+35	5935	henover	henover
+36	5936	terrasse	terrassen terrasse terrasser
+37	5937	grevinde	grevinde grevinden grevindens
+38	5938	campingvogn	campingvogn campingvogne campingvognen
+39	5939	uran	uran uranen uranium uranet
+40	5940	tilmelding	tilmelding tilmeldingen tilmeldinger
+41	5941	direktion	direktionen direktion direktionens
+42	5942	utvivlsomt	utvivlsomt
+43	5943	akkurat	akkurat
+44	5944	belægge	belæg belagt belægge belagte
+45	5945	uvidenhed	uvidenhed uvidenheden uvidenhedens
+46	5946	svømmehal	svømmehal svømmehallen svømmehaller
+47	5947	krabbe	krabbe krabber krabben krabberne krab krabbens
+48	5948	snuble	snubler snublede snuble snublet snublende
+49	5949	søreme	søreme
+50	5950	narkoman	narkoman narkomaner narkomanen narkomanerne
+51	5951	hjerteslag	hjerteslag hjerteslaget hjerteslagene
+52	5952	uoverensstemmelse	uoverensstemmelser uoverensstemmelse uoverensstemmelserne uoverensstemmelsen
+53	5953	blues	blues
+54	5954	tun	tun tunet tunen
+55	5955	fortsættelse	fortsættelse fortsættelsen fortsættelser
+56	5956	lejesoldat	lejesoldater lejesoldat lejesoldaterne lejesoldaten lejesoldaternes
+57	5957	rundvisning	rundvisning rundvisningen rundvisninger rundvisningerne
+58	5958	grammatik	grammatik grammatikken
+59	5959	forgænger	forgænger forgængere forgængeren forgængers forgængeres forgængerne
+60	5960	landingsbane	landingsbane landingsbanen landingsbaner landingsbanerne
+61	5961	refleks	reflekser refleks reflekserne refleksen
+62	5962	kvartal	kvartal kvartaler kvartalet kvartals kvartalets
+63	5963	gengælde	gengælde gengældt gengælder gengældte gengældes
+64	5964	vending	vending vendinger vendingen
+65	5965	kikkert	kikkert kikkerten kikkerter
+66	5966	mundtlig	mundtlig mundtlige mundtligt
+67	5967	højttaler	højttalere højttaler højttaleren højttalerne
+68	5968	vogte	vogte vogt vogtede vogtet vogtes vogtende
+69	5969	eksplosiv	eksplosiv eksplosive eksplosivt eksplosiver eksplosiverne
+70	5970	kramme	kramme krammede krammet krammes krammende
+71	5971	hysterisk	hysterisk hysteriske
+72	5972	skidegod	skidegodt skidegod skidegode
+73	5973	rædsom	rædsomt rædsom rædsomme
+74	5974	rumfærge	rumfærgen rumfærge rumfærger rumfærgens rumfærgerne
+75	5975	dekoration	dekorationer dekoration dekorationerne dekorationen
+76	5976	telefonsvarer	telefonsvarer telefonsvareren telefonsvarere
+77	5977	triumf	triumf triumfer triumfen triumfens
+78	5978	veranda	verandaen veranda verandaer
+79	5979	ugift	ugift ugifte
+80	5980	trylle	trylle tryller tryllede tryllet tryl trylles
+81	5981	tolkning	tolkning tolkninger tolkningen
+82	5982	herredømme	herredømme herredømmet herredømmes
+83	5983	styg	stygge styg stygt styggeste
+84	5984	præmis	præmis præmisser præmissen præmisserne
+85	5985	harmløs	harmløs harmløse harmløst
+86	5986	specialist	specialister specialisten specialisterne
+87	5987	tidende	tidende tidender
+88	5988	dumhed	dumhed dumheder dumheden dumhederne
+89	5989	pensionist	pensionist pensionister pensionisterne
+90	5990	forældremyndighed	forældremyndigheden forældremyndighed
+91	5991	luske	lusket luskede lusker luske luskende lusken
+92	5992	evolution	evolution evolutionen evolutionens
+93	5993	thai	thai
+94	5994	tændstik	tændstikker tændstik tændstikkerne tændstikken
+95	5995	paryk	paryk parykken parykker parykkerne
+96	5996	legion	legion legioner legionen legionerne legionens legions
+97	5997	sublim	sublime sublim sublimt sublimere
+98	5998	salve	salve salver salven salvede salvet salverne
+99	5999	dekorere	dekoreret dekorere dekorerede dekorerer dekoreres
+100	6000	legitim	legitime legitimt legitim

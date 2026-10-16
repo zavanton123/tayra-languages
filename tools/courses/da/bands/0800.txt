@@ -1,0 +1,100 @@
+1	701	alvorlig	alvorligt alvorlig alvorlige alvorligere alvorligste
+2	702	ansvar	ansvar ansvaret
+3	703	kold	koldt kold kolde koldere koldeste koldest
+4	704	derefter	derefter
+5	705	vågne	vågner vågn vågne vågnede vågnet vågnende
+6	706	sommer	sommer sommeren sommers somre sommerens somrene
+7	707	park	park parken parker parks parkens parkers parkerne
+8	708	enhver	enhver ethvert enhvers
+9	709	klokken	klokken
+10	710	magt	magt magten magter magtens magts magters magterne
+11	711	pludselig	pludselig pludseligt pludselige
+12	712	varm	varmt varm varmere varmeste
+13	713	projekt	projekt projektet projekter projektets projekterne
+14	714	skjule	skjult skjule skjulte skjuler skjul skjules skjulet skjulende
+15	715	privat	private privat
+16	716	tjekke	tjekke tjekker tjekkede tjekket tjekkes tjekkerne tjekken
+17	717	klasse	klasse klassen klasser klasses klassens klasserne
+18	718	tekst	tekster tekst teksten teksterne tekstens
+19	719	modtage	modtaget modtage modtog modtages modtag modtagne modtagende
+20	720	is	is isen isene isens
+21	721	brænde	brænde brændte brændt brændende brænd brændes brændet brændtes
+22	722	fortjene	fortjener fortjent fortjente fortjene fortjen fortjenes
+23	723	heldig	heldig heldige heldigt heldigste heldigere heldigst
+24	724	meter	meter meters meteren
+25	725	tanke	tanke tanken tank tankerne tanks tankens tanket tankene tankede tankes
+26	726	oppe	oppe opper oppede oppet
+27	727	hr.	hr.
+28	728	grøn	grønne grøn grønt grønnere grønneste
+29	729	vare	varer vare varede varerne varen varet varens varende vares
+30	730	hest	hest heste hesten hestene hestens hests hestenes hestes
+31	731	klog	klog klogere klogt kloge klogeste klogest kloges
+32	732	farve	farve farver farven farvede farverne farvet farv farves farvedes farvens
+33	733	el	el ellen elle ellens els elles
+34	734	sekund	sekunder sekund sekundet sekunders sekunderne sekunds sekunden
+35	735	model	model modeller modellen modellerne modellens
+36	736	pr	pr
+37	737	betjene	betjent betjente betjenten betjene betjentene betjener betjenes betjents betjentens betjentes
+38	738	skaffe	skaffe skaffer skaf skaffede skaffet skaffes
+39	739	ligeglad	ligeglad ligeglade
+40	740	ansat	ansatte ansat ansattes ansats
+41	741	nemlig	nemlig
+42	742	sikken	sikke sikken sikket
+43	743	tysk	tyske tysk tysken
+44	744	underlig	underligt underlig underlige underligste underligere
+45	745	skræmme	skræmmende skræmmer skræmme skræmte skræmt skræm skræmmes
+46	746	gratis	gratis
+47	747	periode	periode perioden perioder periodens perioderne
+48	748	gave	gave gaver gaven gaverne
+49	749	vred	vred vrede vreden vredt vredere vredens vredes vredeste
+50	750	dukke	dukker dukkede dukke dukket duk dukken dukkerne dukkes dukkens dukkernes
+51	751	økonomisk	økonomisk økonomiske
+52	752	øl	øl øllet øllen øller øllene øllerne øllets
+53	753	interessant	interessant interessante
+54	754	låne	låne lån lånte låner lånt lånet låns lånene lånere lånes
+55	755	f.eks.	fx
+56	756	overveje	overveje overvejer overvejet overvejede overvej overvejende overvejes
+57	757	anderledes	anderledes
+58	758	otte	otte
+59	759	starter	starter starteren startere
+60	760	stolt	stolt stolte stolteste stoltere
+61	761	hospital	hospitalet hospital hospitaler hospitalets hospitalerne hospitals
+62	762	drive	driver drive drevet drev drives drivende drevne driv dreven drevene
+63	763	ro	ro ros roen roret ror roede roet rosset roes rorene
+64	764	mord	mord mordet mordene mords mordenes mordets
+65	765	dermed	dermed
+66	766	ordre	ordre ordrer ordren ordrerne
+67	767	bestå	består bestod bestå bestået beståen
+68	768	bar	bar baren bart barer bars barerne barens barene
+69	769	offentlig	offentlige offentlig
+70	770	lyve	lyver lyve løjet lyv lyvende lyves
+71	771	overhovedet	overhovedet
+72	772	skov	skoven skov skove skovene skovens skovenes skovs
+73	773	udføre	udført udføre udfører udførte udføres udfør udførtes
+74	774	interessere	interesseret interesserer interesserede interessere interesser interesserende
+75	775	hænge	hænge hang hængt hængende hæng hængte hænges hængene
+76	776	nødvendig	nødvendigt nødvendige nødvendig nødvendigste
+77	777	lokale	lokale lokaler lokalet lokalerne lokales lokalets
+78	778	ekstra	ekstra
+79	779	international	internationale international internationalt
+80	780	ægte	ægte ægter ægtede ægtet ægt
+81	781	sol	solen sol solens sole sols soler solede solene solet soles
+82	782	sur	sur sure surt surret sureste surere
+83	783	idiot	idiot idioter idioten idioterne idiotens idiots idioternes idioters
+84	784	invitere	inviteret invitere inviterede inviterer inviter inviteres
+85	785	forsøg	forsøg forsøget forsøgene forsøgs
+86	786	optage	optaget optager optage optog optages optag optagede optoget optageren optagerne
+87	787	arm	arm arme armen armene arms armeer armes armens
+88	788	billig	billig billigt billige billigere billigste billiger billiget billigst billigede billigende
+89	789	engelsk	engelsk engelske
+90	790	danne	dan danner danne dannet dannes dannede dannedes
+91	791	rent	rent
+92	792	tilbyde	tilbyder tilbyde tilbød tilbudt tilbydes tilbyd tilbudte
+93	793	sejr	sejr sejren sejre sejrede sejrer sejret sejrende sejrens sejrene sejrs
+94	794	undgå	undgå undgår undgået undgik undgås
+95	795	skynde	skynd skynde skynder skyndte skyndt skyndede
+96	796	slem	slemt slem slemme slemmere slemmeste slemmer slemmest
+97	797	serie	serie serien serier seriens serierne
+98	798	held	held heldet heldets
+99	799	tillykke	tillykke
+100	800	elev	elever elev eleverne eleven elevernes elevers elevs elevens

@@ -1,0 +1,100 @@
+1	9701	enkeltbillet	enkeltbillet enkeltbilletter
+2	9702	indelukket	indelukket indelukkede
+3	9703	modsvar	modsvar modsvaret
+4	9704	spiseforstyrrelse	spiseforstyrrelser spiseforstyrrelse spiseforstyrrelsen
+5	9705	anonymitet	anonymitet anonymiteten
+6	9706	finkæmme	finkæmmer finkæmme finkæmmet finkæm finkæmmede finkæmmes
+7	9707	femmer	femmer femmere femmeren femmerne
+8	9708	lovlydig	lovlydig lovlydige lovlydigt
+9	9709	fabelagtig	fabelagtig fabelagtigt fabelagtige
+10	9710	moppe	moppe mopper moppen moppet mopperne moppede
+11	9711	havregrød	havregrød havregrøden
+12	9712	sikkerhedsråd	sikkerhedsråd sikkerhedsrådet sikkerhedsrådets
+13	9713	chrom	krom kromet chrom chromet
+14	9714	udregning	udregninger udregning udregningerne udregningen
+15	9715	derunder	derunder
+16	9716	belastet	belastet
+17	9717	møl	møl møllene møllet
+18	9718	omgangskreds	omgangskreds omgangskredsen
+19	9719	fedtsyre	fedtsyrer
+20	9720	nordre	nordre
+21	9721	mærkesag	mærkesager mærkesag
+22	9722	orkide	orkideer orkideen orkide orkideerne
+23	9723	kokosnød	kokosnød kokosnødder kokosnødden kokosnødderne
+24	9724	uskadeliggøre	uskadeliggøre uskadeliggør uskadeliggjort uskadeliggjorde uskadeliggøres
+25	9725	fejltrin	fejltrin
+26	9726	fjog	fjog fjoget fjogede
+27	9727	modstrid	modstrid
+28	9728	omvæltning	omvæltning omvæltninger omvæltningen
+29	9729	brint	brint brinten
+30	9730	regeringsmagt	regeringsmagten
+31	9731	godsejer	godsejer godsejeren godsejere godsejerne godsejerens
+32	9732	omskære	omskåret omskære omskårne omskæres omskærer omskar
+33	9733	minedrift	minedrift minedriften minedriftens
+34	9734	familiefilm	familiefilm
+35	9735	kortlægning	kortlægning kortlægningen
+36	9736	religionsfrihed	religionsfrihed
+37	9737	baglokale	baglokalet baglokale baglokaler
+38	9738	pupil	pupiller pupillerne pupil pupillen
+39	9739	forsæde	forsædet forsæde forsæderne
+40	9740	vidneforklaring	vidneforklaring vidneforklaringer vidneforklaringen vidneforklaringerne
+41	9741	minearbejder	minearbejdere minearbejder minearbejderne minearbejdernes minearbejderen minearbejders minearbejderens
+42	9742	anhængertræk	anhængertræk
+43	9743	overborgmester	overborgmester
+44	9744	genfinde	genfinde genfundet genfinder genfandt genfundne
+45	9745	udlåne	udlånt udlåner udlåne udlånte udlånerne
+46	9746	fjendtlighed	fjendtlighed fjendtligheder fjendtlighederne fjendtligheden
+47	9747	afsende	afsendt afsendte afsende afsend afsendes
+48	9748	dyst	dyst dysten
+49	9749	forældremøde	forældremøde forældremøder forældremødet
+50	9750	overlegenhed	overlegenhed overlegenheden
+51	9751	irritation	irritation
+52	9752	rygsmerter	rygsmerter rygsmerterne
+53	9753	væde	væde væder vædet væden vædede væd
+54	9754	supergod	supergodt supergod supergode
+55	9755	fremmedsprog	fremmedsprog
+56	9756	forskyde	forskudt forskudte forskyder forskyde forskød forskydes
+57	9757	nulstille	nulstille nulstillet nulstiller nulstil nulstilles nulstillede
+58	9758	oversergent	oversergent oversergenten
+59	9759	dørmand	dørmand dørmanden dørmænd dørmændene
+60	9760	chimpanse	chimpanse chimpanser chimpansen chimpanserne chimpansernes chimpansens
+61	9761	fangehul	fangehullet fangehul fangehuller fangehullerne
+62	9762	kuldioxid	kuldioxid kuldioxiden
+63	9763	herskerinde	herskerinde herskerinden herskerindes
+64	9764	dyste	dyste dysten dystede dystet
+65	9765	skolestart	skolestart
+66	9766	lumen	lumen
+67	9767	koalition	koalition koalitionen koalitionens
+68	9768	spirituskørsel	spirituskørsel
+69	9769	åbningstid	åbningstiden åbningstider åbningstid åbningstiderne
+70	9770	konsol	konsol konsollen konsoller konsollerne
+71	9771	tilbagekalde	tilbagekaldes tilbagekalde tilbagekaldt tilbagekalder tilbagekald tilbagekaldte
+72	9772	hjemmegående	hjemmegående
+73	9773	udbedre	udbedre udbedret udbedrer udbedres
+74	9774	overkant	overkanten overkant
+75	9775	provokation	provokation provokationer provokationen
+76	9776	kåbe	kåbe kåben kåber kåberne
+77	9777	mås	mås måsen måse
+78	9778	vanskabning	vanskabning vanskabninger vanskabningen vanskabningerne
+79	9779	sidelæns	sidelæns
+80	9780	formåen	formåen
+81	9781	verdensmål	verdensmål verdensmålene
+82	9782	engangsknald	engangsknald engangsknaldet
+83	9783	stædighed	stædighed
+84	9784	ortodoks	ortodokse ortodoks ortodokst
+85	9785	transkønnet	transkønnede transkønnet
+86	9786	slagtning	slagtning slagtningen
+87	9787	statskundskab	statskundskab
+88	9788	lovgive	lovgivende lovgiver lovgiverne lovgivere lovgive lovgiveren
+89	9789	eksponering	eksponering eksponeringen
+90	9790	indhegning	indhegning indhegningen indhegninger
+91	9791	hologram	hologram hologrammet hologrammer hologrammerne
+92	9792	hægte	hægterne hægte hægtet hægter hægt hægtede hægten hægtes
+93	9793	personnummer	personnummer personnumre personnummeret
+94	9794	antropolog	antropolog antropologer antropologen antropologerne
+95	9795	myndig	myndig myndige
+96	9796	lakere	lakeret lakere lakerer lakerede lakeres
+97	9797	verdslig	verdslige verdslig verdsligt
+98	9798	plov	plov ploven plove plovene
+99	9799	udligning	udligning
+100	9800	skattelettelse	skattelettelser skattelettelse

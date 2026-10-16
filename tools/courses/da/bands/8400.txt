@@ -1,0 +1,100 @@
+1	8301	airbag	airbags airbag airbaggen
+2	8302	iøjnefaldende	iøjnefaldende
+3	8303	almindeligvis	almindeligvis
+4	8304	firben	firben firbenede firbenet firbens firbenene
+5	8305	siddeplads	siddepladser siddeplads siddepladserne
+6	8306	vang	vang vanger vange
+7	8307	infirmeri	infirmeriet infirmeri infirmeriets
+8	8308	enhjørning	enhjørning enhjørninger enhjørningen enhjørningens enhjørningerne enhjørnings
+9	8309	førstehjælp	førstehjælp førstehjælps førstehjælpen
+10	8310	fragtskib	fragtskib fragtskibet fragtskibe fragtskibene
+11	8311	midtbane	midtbanen midtbane
+12	8312	lystig	lystigt lystig lystige
+13	8313	vakuum	vakuum vakuummet vakuumet
+14	8314	keramisk	keramiske keramisk
+15	8315	hjemve	hjemve hjemvé
+16	8316	bistå	bistå bistår bistået bistod
+17	8317	ensidig	ensidig ensidigt ensidige ensidet
+18	8318	lynlås	lynlås lynlåsen lynlåse
+19	8319	miljøvenlig	miljøvenlig miljøvenligt miljøvenlige
+20	8320	bestanddel	bestanddel bestanddele bestanddelene
+21	8321	byttepenge	byttepenge byttepengene
+22	8322	gymnastiksal	gymnastiksalen gymnastiksal gymnastiksale
+23	8323	omlægning	omlægning omlægningen
+24	8324	delegation	delegation delegationen delegationer
+25	8325	præstegård	præstegård præstegården
+26	8326	dagligdag	dagligdagen dagligdag dagligdagens
+27	8327	tykkelse	tykkelse tykkelsen tykkelser
+28	8328	vinding	vinding vindings
+29	8329	kroatisk	kroatiske kroatisk
+30	8330	stævning	stævning stævninger stævningen stævningerne
+31	8331	resurse	resurser resurserne resurse
+32	8332	deromme	deromme
+33	8333	begæring	begæring begæringen begæringer
+34	8334	roer	roer roere roerne
+35	8335	fosfor	fosfor fosforen
+36	8336	revanche	revanche
+37	8337	meditere	meditere mediterer mediterede mediteret mediter
+38	8338	strømsvigt	strømsvigt strømsvigtet strømsvigtene
+39	8339	hovedfag	hovedfag
+40	8340	frikadelle	frikadeller frikadelle frikadellerne frikadellen
+41	8341	ubuden	ubudne ubuden
+42	8342	rekonstruktion	rekonstruktion rekonstruktionen rekonstruktioner
+43	8343	ejendomsret	ejendomsret ejendomsretten
+44	8344	redningsbåd	redningsbåd redningsbåden redningsbådene redningsbåde
+45	8345	orakel	oraklet orakel orakler oraklets
+46	8346	stel	stel stellet
+47	8347	moar	moar
+48	8348	ungdomshus	ungdomshuset ungdomshus
+49	8349	sørens	sørens
+50	8350	hetero	hetero heteroer
+51	8351	canadier	canadier canadiere canadierne canadieren
+52	8352	barbarisk	barbariske barbarisk
+53	8353	liniere	linier
+54	8354	udstødning	udstødningen udstødning udstødnings
+55	8355	ekskludere	ekskluderet ekskludere ekskluderede ekskluderes ekskluderer ekskluderende
+56	8356	måge	måger måge mågerne mågen
+57	8357	omdirigere	omdirigeret omdirigere omdirigerer omdiriger omdirigerede omdirigeres omdirigér
+58	8358	rygsøjle	rygsøjlen rygsøjle rygsøjler
+59	8359	ydmyghed	ydmyghed
+60	8360	valgperiode	valgperiode valgperioden valgperioder
+61	8361	ubehag	ubehag ubehaget
+62	8362	værsågod	værsågod
+63	8363	balancere	balancere balanceret balancerer balancerede
+64	8364	passagerfly	passagerfly passagerflyet
+65	8365	håndholdt	håndholdt håndholdte
+66	8366	afholdelse	afholdelse afholdelsen
+67	8367	ærefuld	ærefuld ærefuldt ærefulde
+68	8368	overkommelig	overkommelig overkommeligt overkommelige
+69	8369	buddhisme	buddhisme buddhismen
+70	8370	kedsomhed	kedsomhed kedsomheden
+71	8371	sydvestlig	sydvestlige sydvestlig
+72	8372	hik	hik
+73	8373	barmhjertig	barmhjertig barmhjertige barmhjertigt
+74	8374	spøjs	spøjst spøjs spøjse
+75	8375	beslag	beslag beslagene beslaget
+76	8376	operationel	operationelle operationel operationelt
+77	8377	indvilge	indvilliger indvilget indvilgede indvilger indvillige indvilge
+78	8378	strejf	strejf strejfet
+79	8379	længerevarende	længerevarende
+80	8380	bluff	bluff
+81	8381	humanistisk	humanistiske humanistisk
+82	8382	bandlyse	bandlyst bandlyste bandlyse bandlyses bandlyser
+83	8383	skanse	skansen skanse
+84	8384	fragment	fragmenter fragmenterne fragmentet
+85	8385	hjernevaske	hjernevasket hjernevaskede hjernevaske hjernevasker hjernevaskes hjernevasken
+86	8386	fjolle	fjolle fjoller fjol fjollen
+87	8387	røntgenbillede	røntgenbilleder røntgenbillederne røntgenbillede røntgenbilledet
+88	8388	selvkørende	selvkørende
+89	8389	saltomortale	salto saltomortale saltoer saltomortaler
+90	8390	sexlegetøj	sexlegetøj sexlegetøjet
+91	8391	tyranni	tyranni tyranniet tyranniets tyrannis
+92	8392	tekstning	tekstning
+93	8393	morderisk	morderiske morderisk
+94	8394	opsnappe	opsnappede opsnappet opsnappe opsnapper opsnappes
+95	8395	tjenestefolk	tjenestefolk tjenestefolkene tjenestefolkenes
+96	8396	sporty	sporty
+97	8397	hjemrejse	hjemrejse hjemrejsen
+98	8398	magthaver	magthaverne magthavere magthaver magthavernes
+99	8399	korrespondance	korrespondance korrespondancen korrespondancer
+100	8400	samarbejdsaftale	samarbejdsaftale

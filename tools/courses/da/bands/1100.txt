@@ -1,0 +1,100 @@
+1	1001	skønt	skønt
+2	1002	strand	stranden strand strande strandet strandene strandede strander strandens strands
+3	1003	kilo	kg kilo kiloet kiloene
+4	1004	acceptere	acceptere accepterer accepteret accepterede accepteres acceptér accepterende
+5	1005	vidne	vidne vidner vidnet vidnede vidnerne vidnets vidners vidnernes vidnes vidn
+6	1006	juni	juni
+7	1007	offer	offer offeret ofrene ofret offerets ofrets ofres ofrenes offers
+8	1008	kilde	kilde kilder kilden kilderne kildens kildede kild kildet kildne kildes
+9	1009	rør	rør røret rørene rørets
+10	1010	straf	straf straffe straffet straffes straffen straffer straffede straffens straffende strafferne
+11	1011	bombe	bombe bomber bomben bomberne bombet bombede bomb bombens bombers bombes
+12	1012	overtage	overtage overtaget overtager overtog overtag overtages
+13	1013	dreje	drejer dreje drejede drejet drejes drejerne drejende drejen
+14	1014	taber	taber tabere taberen taberne tabernes tabers taberens taberes
+15	1015	skride	skrid skrider skride skred skredet skrides
+16	1016	hverken	hverken
+17	1017	deltager	deltager deltagere deltagerne deltageren deltagernes
+18	1018	nord	nord norden nordens nords
+19	1019	godmorgen	godmorgen
+20	1020	rose	rose roser rosen ros roste roses roserne rost rosende rosens
+21	1021	himmel	himlen himmel himlens himmelen himlene himmels himmelens himler himle
+22	1022	bekymre	bekymre bekymrer bekymrede bekymrende bekymr
+23	1023	herunder	herunder
+24	1024	positiv	positiv positive positivt positiver
+25	1025	undersøgelse	undersøgelse undersøgelser undersøgelsen undersøgelserne undersøgelses undersøgelsens
+26	1026	lykkelig	lykkelig lykkelige lykkeligt lykkeligere lykkeligste lykkeligst
+27	1027	direktør	direktør direktøren direktører direktørens direktørerne direktørs direktørernes
+28	1028	papir	papir papirer papirerne papiret papirs papirets
+29	1029	kultur	kultur kulturer kulturen kulturs kulturerne kulturens kulturers
+30	1030	populær	populære populær populært populæreste
+31	1031	bestille	bestille bestilt bestilte bestiller bestil bestilles
+32	1032	håb	håb håbet håbets håbs
+33	1033	indsats	indsats indsatsen indsatser indsatserne
+34	1034	male	male maler malet malede mal malt maleren malere males malte
+35	1035	bryde	bryde brudt brydes bryd brudte bryden bryderne brydende
+36	1036	vin	vin vine vinen vinens vinene vines
+37	1037	tanker	tanker tankerne tankere tankeren tankers
+38	1038	respekt	respekt respekten
+39	1039	bjerge	bjergene bjerget bjerge bjerg berg bjergets bjærge bjærget bjærgede bjergenes
+40	1040	cm	cm
+41	1041	venlig	venlig venlige venligt venligere venligste
+42	1042	maskine	maskine maskinen maskiner maskinerne maskinens maskinernes maskines
+43	1043	professionel	professionel professionelle professionelt
+44	1044	moderne	moderne
+45	1045	endda	endda
+46	1046	nærhed	nærheden nærhed
+47	1047	teknisk	teknisk tekniske
+48	1048	indgå	indgår indgået indgå indgik indgående indgås
+49	1049	data	data dataene dataet datas
+50	1050	mon	mon
+51	1051	typisk	typisk typiske
+52	1052	rod	rod rødder rodet rødderne roden rods røddernes rodens
+53	1053	hilse	hils hilse hilsen hilser hilsner hilst hilste hilsener hilsenen hilsnen
+54	1054	sjæl	sjæl sjæle sjælen sjælens sjælene sjæls sjælenes sjæler sjæles sjælere
+55	1055	date	date dater dates datede datet daten datene
+56	1056	halvdel	halvdelen halvdel halvdele halvdelene
+57	1057	energi	energi energien energier energierne energiens
+58	1058	årsag	årsag årsagen årsager årsagerne
+59	1059	linje	linje linjer linjen linjerne linjers
+60	1060	hed	hed hede heden hedt heder hedeste hedere hedest hederne hedes
+61	1061	tjener	tjener tjenere tjeneren tjenerne tjeners tjenerens tjenernes tjeneres
+62	1062	behov	behov behovet behovene
+63	1063	ordentlig	ordentligt ordentlig ordentlige
+64	1064	spare	spare spar sparer sparet sparede spares
+65	1065	nød	nød nødder nødderne nødens nøden nødden nøds
+66	1066	havn	havnen havn havner havne havnede havnet havnens havnene havns
+67	1067	universitet	universitet universitetet universiteter universiteterne universitets universitetets
+68	1068	fisk	fisk fisken fiskene fisks fiskenes fiskens
+69	1069	træning	træning træningen trænings træningens træninger
+70	1070	blomst	blomster blomst blomsterne blomsten blomstens blomsternes
+71	1071	glas	glas glasset glassene glassets
+72	1072	forsvare	forsvare forsvarer forsvaret forsvarede forsvares forsvareren forsvarende forsvarere forsvarerne forsvarerens
+73	1073	brand	brand branden brande brandes brands brandet brandene brandens
+74	1074	bus	bussen bus busser busserne bussens
+75	1075	retning	retning retninger retningen retningerne
+76	1076	onkel	onkel onkels onkler onklen onklens onklerne onklers
+77	1077	bakke	bakke bakker bakken bak bakkede bakkerne bakket bakkes bakkens
+78	1078	hemmelighed	hemmelighed hemmeligheder hemmeligheden hemmelighederne hemmelighedernes hemmeligheds
+79	1079	frokost	frokost frokosten frokoster frokosterne
+80	1080	salg	salg salget salgs salgene
+81	1081	tænder	tænder tænderne tænders tændernes tænderen
+82	1082	officiel	officielt officielle officiel
+83	1083	plante	planter plante plantet planten planterne plantede plant plantes plantens planternes
+84	1084	klæde	klædt klæder klæde klædte klæd klædes klædet klæderne
+85	1085	bryder	bryder brydere bryderen bryderne
+86	1086	anholde	anholdt anholde anholder anhold anholdte anholdes anholdende anholdtes
+87	1087	pæn	pæn pæne pen pænere pennen pæneste penne pænest pennene
+88	1088	søvn	søvn søvne søvnen søvnens
+89	1089	bekræfte	bekræftet bekræfter bekræfte bekræftede bekræft bekræftes bekræftende
+90	1090	partner	partner partnere partners partnerne partneren partnerens partneres partnernes
+91	1091	størrelse	størrelse størrelsen størrelser størrelserne
+92	1092	region	region regioner regionen regionerne regionens regions
+93	1093	lørdag	lørdag lørdags lørdagen lørdagens lørdage lørdagene
+94	1094	fredag	fredag fredags fredagen fredage fredagens
+95	1095	behandle	behandle behandlet behandles behandlede behandl behandlende
+96	1096	forening	foreningen forening foreninger foreningens forenings foreningerne
+97	1097	udgive	udgivet udgiver udgav udgive udgives udgivne udgiv udgiveren udgivere
+98	1098	fru	fru
+99	1099	januar	januar
+100	1100	ryger	ryger rygere rygeren rygerne

@@ -1,0 +1,100 @@
+1	4201	generator	generator generatoren generatorer generatorerne generatorens
+2	4202	lygte	lygter lygte lygten lygterne
+3	4203	lække	lækket læk lækkede lække lækken lækkes lækkende lækkerne
+4	4204	provins	provinsen provins provinser provinserne provinsens
+5	4205	blodprøve	blodprøve blodprøver blodprøverne blodprøven
+6	4206	instruere	instrueret instruere instruerer instruerede instruer instrueres
+7	4207	overensstemmelse	overensstemmelse
+8	4208	es	es esser esset esserne ess
+9	4209	efterretningstjeneste	efterretningstjeneste efterretningstjenesten efterretningstjenester efterretningstjenesterne efterretningstjenestens efterretningstjenestes
+10	4210	vedvarende	vedvarende
+11	4211	narrøv	narrøv narrøve narrøven narrøvene narrerøv narrøvs narrerøve
+12	4212	reserveret	reserveret reserverede
+13	4213	galakse	galaksen galakse galakser galaksens galakserne galaksernes galaksers galakses
+14	4214	sønnike	sønnike
+15	4215	usandsynlig	usandsynligt usandsynlig usandsynlige
+16	4216	forudsige	forudsige forudsagt forudsagde forudsiger forudsiges forudsagte forudsigende forudsig
+17	4217	underbukser	underbukser underbukserne
+18	4218	deprimeret	deprimeret deprimerede
+19	4219	natklub	natklub natklubben natklubber natklubberne natklubbens
+20	4220	tov	tove tov tovene tovet
+21	4221	kap	kap kappet
+22	4222	stakkel	stakkel staklen stakler staklerne staklens stakkelen
+23	4223	bevogte	bevogtet bevogte bevogter bevogtede bevogt bevogtes
+24	4224	pålægge	pålagt pålægges pålægger pålægge pålagde
+25	4225	upassende	upassende
+26	4226	protestere	protestere protesterer protesterede protester protesteret protesterende protesteres
+27	4227	tvivle	tvivle tvivlede tvivlet tvivlende
+28	4228	fynsk	fynske fynsk
+29	4229	efterretning	efterretninger efterretning efterretningerne efterretningen efterretnings
+30	4230	underskud	underskud underskuddet
+31	4231	komité	komiteen komitéen komité komite komitéens komitéer komitéerne
+32	4232	høste	høste høsten høstet høstede høstes høster
+33	4233	gensidig	gensidig gensidigt gensidige
+34	4234	komedie	komedie komedier komedien
+35	4235	primitiv	primitive primitiv primitivt
+36	4236	egoistisk	egoistisk egoistiske
+37	4237	lun	lun lune luner lunt lunet
+38	4238	afskære	afskåret afskære afskærer afskær afskar afskårne afskæres afskåren
+39	4239	pokal	pokal pokalen pokaler pokalerne
+40	4240	justere	justere justeret justeres justerer justerede juster
+41	4241	intakt	intakt intakte
+42	4242	fjæs	fjæs fjæset
+43	4243	skema	skema skemaet skemaer skemaerne
+44	4244	leverandør	leverandør leverandører leverandøren leverandørerne leverandørens
+45	4245	tilskud	tilskud tilskuddet tilskuddene
+46	4246	skadestue	skadestuen skadestue skadestuer skadestuerne skadestuens
+47	4247	vers	vers verset versene
+48	4248	sponsor	sponsor sponsorer sponsorerne sponsoren sponsors
+49	4249	khan	khan khanen khans khanens khanernes
+50	4250	menig	menig menige
+51	4251	tilpasset	tilpasset
+52	4252	forvirring	forvirring forvirringen forvirringer
+53	4253	korrupt	korrupt korrupte
+54	4254	indvendig	indvendigt indvendig indvendige
+55	4255	konsulent	konsulent konsulenter konsulenten konsulenterne
+56	4256	melding	melding meldinger meldingen meldingerne
+57	4257	skuffelse	skuffelse skuffelser skuffelsen skuffelserne
+58	4258	saks	saks saksen sakse saksere sakserne sakser saksene saksernes
+59	4259	misundelig	misundelig misundelige
+60	4260	værdighed	værdighed værdigheden værdigheds
+61	4261	parfume	parfume parfumen parfumer
+62	4262	gigantisk	gigantisk gigantiske
+63	4263	tillæg	tillæg tillægget
+64	4264	olympisk	olympiske olympisk
+65	4265	hollandsk	hollandske hollandsk
+66	4266	elskerinde	elskerinde elskerinder elskerinden elskerinderne elskerindes elskerindens
+67	4267	forurening	forurening forureningen forureninger forurenings
+68	4268	psykiatri	psykiatri psykiatrien psykiatriens psykiatrier
+69	4269	legendarisk	legendariske legendarisk
+70	4270	klode	kloden klodens klode klodernes kloder klodes
+71	4271	tara	tara taras
+72	4272	sundhedsvæsen	sundhedsvæsen sundhedsvæsenet sundhedsvæsnet
+73	4273	besidder	besidder
+74	4274	præsentation	præsentation præsentationen præsentationer præsentationerne
+75	4275	omdanne	omdannet omdanne omdannes omdanner omdannede
+76	4276	øde	øde ødt ød ødet øder
+77	4277	forføre	forføre forfører forført forførte forførende forfør forføres forføreren
+78	4278	begær	begær begæret begærets begærs
+79	4279	påpege	påpegede påpege påpeger påpeget
+80	4280	tilgivelse	tilgivelse tilgivelsen tilgivelsens tilgivelser
+81	4281	irriteret	irriteret irriterede
+82	4282	udkast	udkast udkastet
+83	4283	hovedvej	hovedvejen hovedvej hovedvejene hovedveje
+84	4284	kul	kul kullet kullene
+85	4285	sproglig	sproglig sproglige sprogligt
+86	4286	selvtillid	selvtillid selvtilliden selvtillids
+87	4287	indbygge	indbygget indbyggede
+88	4288	justitsminister	justitsminister justitsministeren justitsministerens
+89	4289	langsigtet	langsigtede langsigtet
+90	4290	niece	niece niecer nieces niecen
+91	4291	føderal	føderale føderal føderalt
+92	4292	anlagt	anlagt anlagte
+93	4293	register	register registre registeret registret registrene
+94	4294	hjemmelavet	hjemmelavet hjemmelavede
+95	4295	ræv	ræv ræven ræve rævens rævene
+96	4296	turisme	turisme turismen
+97	4297	eg	eg ege eger egerne egene
+98	4298	henrettelse	henrettelse henrettelsen henrettelser henrettelserne henrettelses
+99	4299	stald	stalden stald stalde staldene stalder
+100	4300	skrøbelig	skrøbelig skrøbelige skrøbeligt

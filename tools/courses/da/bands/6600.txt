@@ -1,0 +1,100 @@
+1	6501	udbygning	udbygning udbygningen
+2	6502	parre	parre parrer parrede parres parret
+3	6503	bataljon	bataljon bataljonen bataljoner bataljonens bataljons
+4	6504	jaguar	jaguar jaguars jaguaren jaguarer jaguarerne jaguarens
+5	6505	videregive	videregive videregivet videregiver videregav videregives videregiv
+6	6506	klimaforandring	klimaforandringer klimaforandringerne
+7	6507	hjemkomst	hjemkomst hjemkomsten
+8	6508	pyjamas	pyjamas pyjamassen pyjamasser pyjamasen pyjamaser pyjamasserne
+9	6509	referat	referat referatet referater referaterne
+10	6510	lommelygte	lommelygte lommelygten lommelygter lommelygterne
+11	6511	lærestreg	lærestreg lærestreger lærestregen
+12	6512	nævning	nævningene nævninge nævning nævningenes nævningen
+13	6513	altan	altan altanen altanerne
+14	6514	støbe	støbt støbte støbe støbes
+15	6515	overså	overså oversået
+16	6516	frygtløs	frygtløs frygtløse frygtløst
+17	6517	mobilitet	mobilitet
+18	6518	blodbad	blodbad blodbadet
+19	6519	kommunisme	kommunismen kommunisme kommunismens
+20	6520	tekstil	tekstiler tekstil tekstilerne
+21	6521	udvinde	udvinde udvundet udvindes udvinder udvandt
+22	6522	hist	hist
+23	6523	transaktion	transaktioner transaktion transaktionen transaktionerne transaktionens
+24	6524	regulær	regulær regulære regulært
+25	6525	sonde	sonden sonde sonder sondens sonderne
+26	6526	øgenavn	øgenavn øgenavne øgenavnet øgenavnene
+27	6527	aktivering	aktivering aktiveringen aktiverings
+28	6528	forklædning	forklædning forklædninger forklædningen forklædningens forklædningerne
+29	6529	medfødt	medfødt medfødte
+30	6530	flænge	flænge flæng flænger flængen flænget flængerne flængede
+31	6531	afsone	afsonet afsone afsoner afsonede afsones afson
+32	6532	rugbrød	rugbrød rugbrødet
+33	6533	genforene	genforenet genforenes genforene genforenede genforener genforenedes
+34	6534	byret	byret byretten
+35	6535	patetisk	patetisk patetiske
+36	6536	medstifter	medstifter medstiftere
+37	6537	restriktion	restriktioner restriktionerne
+38	6538	afvænning	afvænning afvænningen afvænnings
+39	6539	fejring	fejring fejringen
+40	6540	ishockey	ishockey
+41	6541	herom	herom
+42	6542	automat	automat automaten automater automaterne
+43	6543	peber	peber peberet pebre peberen pebere
+44	6544	tidsalder	tidsalder tidsalderen tidsalders tidsaldre tidsalderens
+45	6545	sigøjner	sigøjnere sigøjner sigøjnerne sigøjneren sigøjners sigøjnerens sigøjnernes
+46	6546	feminist	feminister feminist feministerne
+47	6547	nr.	nr.
+48	6548	publicere	publiceret publicerede publicere publicerer publiceres
+49	6549	øse	øse øser øs øsen øste øsede øsende
+50	6550	kongehus	kongehus kongehuset kongehusets kongehuse
+51	6551	vrøvle	vrøvler vrøvle vrøvlede vrøvlende vrøvlet
+52	6552	genopstå	genopstår genopstå genopstået genopstod genopståede genopståen
+53	6553	bump	bump bumpet bumpene
+54	6554	antænde	antænde antændt antændte antænder antændes antænd
+55	6555	distribution	distribution distributionen distributions
+56	6556	keramik	keramik keramikken
+57	6557	dyreliv	dyreliv dyrelivet
+58	6558	sognepræst	sognepræst sognepræsten
+59	6559	svigersøn	svigersøn svigersønnen svigersønner svigersøns
+60	6560	eskorte	eskorte eskorten
+61	6561	mayday	mayday
+62	6562	loppemarked	loppemarked loppemarkedet loppemarkeder
+63	6563	udbrede	udbrede udbreder udbredes udbred
+64	6564	slutrunde	slutrunde slutrunden
+65	6565	arkitektonisk	arkitektoniske arkitektonisk
+66	6566	optakt	optakt optakten
+67	6567	krave	krave kraven kraver kraverne
+68	6568	kronik	kronik kronikken kronikker
+69	6569	udsnit	udsnit
+70	6570	retorik	retorik retorikken
+71	6571	gnaven	gnaven gnavne
+72	6572	kedel	kedlen kedel kedler kedlerne kedelen
+73	6573	fastland	fastlandet fastland
+74	6574	morgendag	morgendagens morgendagen morgendag morgendage
+75	6575	buket	buket buketten buketter buketterne
+76	6576	overbetjent	overbetjent overbetjenten overbetjente
+77	6577	nedskæring	nedskæringer nedskæringerne nedskæring
+78	6578	pornofilm	pornofilm pornofilmen pornofilmene
+79	6579	forfølgelse	forfølgelse forfølgelsen forfølgelser forfølgelserne
+80	6580	hvede	hvede hveden
+81	6581	klubhus	klubhus klubhuset klubhuse
+82	6582	ovenstående	ovenstående
+83	6583	forlovelse	forlovelse forlovelsen forlovelses forlovelser
+84	6584	specialitet	specialitet specialiteter specialiteten
+85	6585	retssystem	retssystem retssystemet retssystemer retssystems
+86	6586	fatal	fatale fatal fatalt
+87	6587	statisk	statisk statiske
+88	6588	chikane	chikane chikanen
+89	6589	afledning	afledning afledningen afledninger aflednings
+90	6590	møn	møn
+91	6591	påmindelse	påmindelse påmindelsen påmindelser
+92	6592	omvende	omvende omvendte omvender omvendes omvend
+93	6593	hverve	hverve hvervet hvervede hverver hververen hverves
+94	6594	dok	dok dokken dokker dokkerne doks
+95	6595	digitalisering	digitalisering
+96	6596	forladelse	forladelse
+97	6597	mødom	mødom mødommen
+98	6598	æ	æ
+99	6599	knallert	knallert knallerter knallerten
+100	6600	hæslig	hæslig hæsligt hæslige

@@ -1,0 +1,100 @@
+1	4901	portal	portalen portaler portalerne portalens
+2	4902	overenskomst	overenskomst overenskomster overenskomsten
+3	4903	nørre	nørre
+4	4904	opvokse	opvokset opvoksede opvokse
+5	4905	grønlandsk	grønlandske grønlandsk
+6	4906	navngive	navngivet navngive navngav navngivne navngiver navngiv navngives
+7	4907	afhandling	afhandling afhandlingen afhandlinger
+8	4908	kalkun	kalkun kalkunen kalkuner kalkunerne kalkunens
+9	4909	kaliber	kaliber kalibers kaliberen kalibre
+10	4910	tegnebog	tegnebog tegnebogen tegnebøger tegnebøgerne
+11	4911	suspendere	suspenderet suspendere suspenderer suspenderede suspenderes suspender
+12	4912	australsk	australske australsk
+13	4913	hvorimod	hvorimod
+14	4914	hæmme	hæmmer hæmmet hæmme hæmmende hæmmede hæmmes hæmmeren hæmmere
+15	4915	mekaniker	mekaniker mekanikere mekanikeren mekanikerne mekanikers mekanikerens
+16	4916	skydning	skydningen skydning
+17	4917	mobning	mobning mobningen
+18	4918	citron	citron citroner citronen citronerne
+19	4919	bagdør	bagdøren bagdør bagdøre bagdørene bagdørs
+20	4920	rødvin	rødvin rødvinen
+21	4921	ombygning	ombygning ombygningen ombygninger
+22	4922	problematisk	problematisk problematiske
+23	4923	tilføre	tilført tilføre tilføres tilfører tilførte tilfør
+24	4924	kommunalbestyrelse	kommunalbestyrelsen kommunalbestyrelse
+25	4925	renovering	renovering renoveringen renoveringer
+26	4926	effektivitet	effektivitet effektiviteten
+27	4927	humoristisk	humoristisk humoristiske
+28	4928	spire	spirende spire spirer spiren spirede
+29	4929	forære	foræret forære forærede forærer forærende foræres forær
+30	4930	center	centeret centrene centerets
+31	4931	uartig	uartig uartige uartigt
+32	4932	holt	holte holt holts
+33	4933	lukning	lukning lukningen lukninger
+34	4934	bekæmpelse	bekæmpelse bekæmpelsen
+35	4935	bowle	bowl bowle bowler bowles bowlede bowlen bowlet bowlere bowleren
+36	4936	antik	antikke antik antikt antikkens
+37	4937	vedrøre	vedrører vedrørte vedrøre
+38	4938	brandmand	brandmand brandmænd brandmændene brandmanden brandmændenes brandmands brandmandens brandmænds
+39	4939	varetægt	varetægt varetægten
+40	4940	tequila	tequila tequilaen tequilaer
+41	4941	beruset	beruset berusede
+42	4942	fængsle	fængslede fængslende fængsle fængslet fængsles fængsler
+43	4943	varighed	varighed varigheden
+44	4944	visum	visa visum visummet visaene
+45	4945	sammenstød	sammenstød sammenstødet
+46	4946	hyldest	hyldest hyldesten hyldester
+47	4947	daværende	daværende
+48	4948	evakuering	evakuering evakueringen evakuerings evakueringer evakueringerne
+49	4949	eliminere	eliminere elimineret eliminerer elimineres eliminerede eliminer
+50	4950	orkan	orkan orkanen orkaner orkanens orkanerne
+51	4951	dødsårsag	dødsårsagen dødsårsag dødsårsager
+52	4952	gennemskue	gennemskue gennemskuet gennemskuede gennemskuer
+53	4953	skabelse	skabelsen skabelse skabelsens skabelser
+54	4954	efterforske	efterforske efterforskede efterforsket efterforskes efterforsk
+55	4955	radius	radius radiussen radiusen
+56	4956	opfinder	opfinder opfinderen opfindere opfinderne
+57	4957	narkotikum	narkotika narkotikum narkotikaen narkotikummet
+58	4958	appelsin	appelsin appelsiner appelsinerne appelsinen
+59	4959	servitrice	servitrice servitricen servitricer servitricerne servitricens
+60	4960	kar	kar karret kars karrene karrets
+61	4961	ly	ly
+62	4962	ægtefælle	ægtefælle ægtefæller ægtefællen ægtefællerne ægtefælles ægtefællens
+63	4963	statsadvokat	statsadvokaten statsadvokat statsadvokatens statsadvokater statsadvokaterne
+64	4964	plantage	plantage plantagen plantager plantagerne plantagens
+65	4965	befale	befaler befalede befalet befale befal befalende befales
+66	4966	afløb	afløb afløbet afløbene
+67	4967	interaktiv	interaktive interaktiv interaktivt
+68	4968	flittig	flittigt flittig flittige flittigste
+69	4969	overfladisk	overfladisk overfladiske
+70	4970	alias	alias aliasser aliaser aliaset aliasset
+71	4971	varulv	varulv varulve varulven varulvene varulvens
+72	4972	definition	definitionen definitioner definitionerne
+73	4973	familiemedlem	familiemedlemmer familiemedlem familiemedlemmerne familiemedlems familiemedlemmers
+74	4974	frustration	frustration frustrationer frustrationen frustrationerne
+75	4975	klump	klump klumper klumpen klumperne klumps
+76	4976	intention	intentioner intentionen intentionerne
+77	4977	hvorledes	hvorledes
+78	4978	bedring	bedring bedringen bedrings
+79	4979	festlig	festlig festligt festlige festligere
+80	4980	generøs	generøs generøst generøse
+81	4981	vifte	vifte vifter viftede viften viftende vifterne viftes
+82	4982	gø	gør gø gøede gøen gøende gøet
+83	4983	dyd	dyd dyder dydens dyden dyderne
+84	4984	fæstning	fæstning fæstningen fæstninger fæstningens fæstnings fæstningerne
+85	4985	madras	madras madrassen madrasser madrasserne
+86	4986	sukke	suk sukkenes sukke sukkede sukkende sukken sukket
+87	4987	mindreårig	mindreårige mindreårig mindreårigt
+88	4988	uha	uha
+89	4989	skrog	skroget skrog skrogets
+90	4990	kobber	kobber kobberet
+91	4991	ilde	ilde værst
+92	4992	bedrager	bedrager bedragere bedrageren bedragerne bedragerens bedragers
+93	4993	skrabe	skrabe skraber skrabede skraberen skraben skrabende skrabere skrabes
+94	4994	uafhængighed	uafhængighed uafhængigheden uafhængigheds
+95	4995	plastik	plastik plastikken
+96	4996	vedligeholdelse	vedligeholdelse vedligeholdelsen vedligeholdelses
+97	4997	statsborgerskab	statsborgerskab
+98	4998	gensyn	gensyn gensynet
+99	4999	tilstede	tilstede
+100	5000	kusse	kusse kussen kusser

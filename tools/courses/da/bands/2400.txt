@@ -1,0 +1,100 @@
+1	2301	kvalificere	kvalificeret kvalificerede kvalificerer kvalificere kvalificeres
+2	2302	ty	ty tyr tyren tys tyre tyrene tyede tyer tyrens tyet
+3	2303	virkning	virkning virkningen virkninger virkningerne
+4	2304	hvorefter	hvorefter
+5	2305	fa	fa faet faer faerne
+6	2306	græsk	græsk græske
+7	2307	indgang	indgangen indgang indgange indgangene indgangs
+8	2308	kursus	kursus kurser kurset kurserne kursets
+9	2309	flink	flink flinke flinkt flinkere flinkeste
+10	2310	herover	herover
+11	2311	kejser	kejseren kejser kejserens kejsere kejsers kejserne kejseres
+12	2312	konference	konference konferencen konferencer konferencens
+13	2313	note	note noter noterne noten notes
+14	2314	værdifuld	værdifulde værdifuld værdifuldt
+15	2315	stabil	stabil stabilt stabile
+16	2316	hævde	hævder hævdede hævde hævdet hævdes hævd
+17	2317	permanent	permanent permanente permanentet permanenten permanenter
+18	2318	muslim	muslimer muslim muslimerne muslimernes muslims muslimen muslimers
+19	2319	folkeparti	folkeparti folkepartis folkepartiet
+20	2320	struktur	struktur strukturer strukturen strukturerne
+21	2321	arrangement	arrangement arrangementer arrangementet arrangementerne arrangements arrangementets
+22	2322	mægtig	mægtige mægtig mægtigt mægtigste mægtigere mægtigst
+23	2323	heraf	heraf
+24	2324	enkel	enkel enkle enklere enkleste enklest
+25	2325	adskillig	adskillige
+26	2326	taknemmelig	taknemmelig taknemmelige taknemlig taknemlige taknemmeligt taknemligt
+27	2327	stede	stede stedt stedes stedte
+28	2328	overlade	overlade overlader overladt overlad overlod overlades
+29	2329	hvorfra	hvorfra
+30	2330	snige	sniger snige sneg sneget snigende snig snigen snigeren
+31	2331	mesterskab	mesterskabet mesterskaber mesterskab mesterskaberne mesterskabs mesterskabets
+32	2332	udkomme	udkommer udkom udkommet udkomme
+33	2333	stave	stave stav staves staver staven stavet stavede stavene stavens
+34	2334	tyve	tyve
+35	2335	rykker	rykker rykkere
+36	2336	personale	personale personalet personalets personales personaler
+37	2337	tilpas	tilpas tilpasse tilpasser tilpassede tilpasses tilpassende
+38	2338	specifik	specifikt specifikke specifik
+39	2339	etableret	etableret etablerede
+40	2340	kok	kok kokken kokke koks kokkene kokkens
+41	2341	legetøj	legetøj legetøjet legetøjs
+42	2342	irriterende	irriterende
+43	2343	forside	forsiden forside forsider forsiderne
+44	2344	anbringe	anbragt anbragte anbringe anbringes anbring anbringer anbringende
+45	2345	eksplosion	eksplosion eksplosionen eksplosioner eksplosionerne eksplosionens eksplosions
+46	2346	reparere	reparere repareret reparerer repareres reparerede reparer
+47	2347	hjul	hjul hjulet hjulene hjulets hjuls
+48	2348	klip	klip klippet klippene klips
+49	2349	godaften	godaften
+50	2350	samtlige	samtlige
+51	2351	vestlig	vestlige vestlig vestligt
+52	2352	lam	lam lammet lamme lamt lammede lammer lammende lammets lammes lammene
+53	2353	bi	bi bier bierne bien bis biernes biens biers
+54	2354	snarere	snarere
+55	2355	stinke	stinker stinke stink stinkere stinkeren
+56	2356	indsamle	indsamle indsamlet indsamlede indsamler indsamles indsaml indsamlere indsamleren
+57	2357	greb	greb grebet grebe
+58	2358	værktøj	værktøj værktøjer værktøjet værktøjerne værktøjs
+59	2359	spærre	spærret spærrer spærre spær spærrede spærres spæret
+60	2360	beliggende	beliggende
+61	2361	budget	budget budgettet budgetter budgetterne
+62	2362	afholdt	afholdt afholdte
+63	2363	bibel	bibelen biblen bibel bibelens bibler biblens biblerne
+64	2364	troppe	tropper tropperne trop troppe troppede troppernes troppers troppen troppens troppene
+65	2365	nødvendigvis	nødvendigvis
+66	2366	forråde	forrådte forrådt forråde forråder forråd forrådet forrådene forrådes forrådende
+67	2367	ambulance	ambulance ambulancen ambulancer ambulancerne
+68	2368	samvittighed	samvittighed samvittigheden samvittighedens samvittigheds
+69	2369	omfang	omfang omfanget
+70	2370	repræsentant	repræsentanter repræsentant repræsentanternes repræsentanterne repræsentanten
+71	2371	kulturel	kulturelle kulturelt kulturel
+72	2372	opbygge	opbygget opbygge opbygger opbyggede opbygges opbyg opbyggende
+73	2373	kommunal	kommunale kommunal kommunalt
+74	2374	undervise	undervise undervist underviste undervises undervis
+75	2375	øvelse	øvelse øvelser øvelsen øvelserne øvelses øvelsens
+76	2376	tusinde	tusinde tusinder
+77	2377	planlægger	planlægger planlæggeren planlæggere
+78	2378	strid	strid strider striden stride strides stridende stred stridens stridt
+79	2379	stigning	stigning stigningen stigninger stigningerne
+80	2380	relativt	relativt
+81	2381	transport	transportere transporten transporteret transporterer transporteres transporter transporterede transporteren transporterne
+82	2382	rage	rager rage ragede raget rag rages ragende
+83	2383	faglig	fagligt faglig faglige
+84	2384	parkere	parkere parkeret parkerer parker parkerede parkér parkeres
+85	2385	bagved	bagved
+86	2386	erstatning	erstatning erstatninger erstatningen erstatningerne erstatnings
+87	2387	bid	bid bidder biddet biddene
+88	2388	strække	strækker strække stræk strakte strakt strukket strækkes strækket strækkende
+89	2389	oven	oven
+90	2390	efterforskning	efterforskning efterforskningen efterforskninger efterforsknings efterforskningens efterforskningerne
+91	2391	bunke	bunke bunker bunkeren bunken bunkere bunkerne bunkers bunkerens
+92	2392	turnering	turnering turneringen turneringer turneringens turneringerne
+93	2393	investering	investeringer investering investeringen investeringerne investerings
+94	2394	strategi	strategi strategier strategien strategierne
+95	2395	velsigne	velsigne velsignet velsignede velsign velsigner velsignes velsignedes
+96	2396	forresten	forresten
+97	2397	matematik	matematik matematikken matematikkens
+98	2398	perspektiv	perspektiv perspektiver perspektivet
+99	2399	udvise	udvist udviser udvise udviste udvises udvis
+100	2400	sølv	sølv sølvet

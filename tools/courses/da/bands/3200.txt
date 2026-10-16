@@ -1,0 +1,100 @@
+1	3101	sørgelig	sørgeligt sørgelige sørgelig sørgeligste sørgeligere
+2	3102	pude	pude puder puden puderne
+3	3103	byråd	byrådet byråd byrådets byråds
+4	3104	åbenlys	åbenlyst åbenlyse åbenlys
+5	3105	folde	folder folde fold foldet folden foldede foldes foldere folderen folderne
+6	3106	cirkus	cirkus cirkusset cirkuset cirkusser cirkussets
+7	3107	juice	juice juicen juices
+8	3108	søm	søm sømmet sømmene sømme sømmer sømmen sømmede sømmes
+9	3109	skrift	skrift skrifter skriften skriftet skrifterne skriftens
+10	3110	husleje	husleje huslejen huslejer huslejerne
+11	3111	udlænding	udlændinge udlænding udlændingen udlændingene
+12	3112	kommentere	kommentere kommenteret kommenterede kommenterer kommenter
+13	3113	potentiel	potentielle potentielt potentiel
+14	3114	pisk	pisk piske pisken pisket pisker piskede piskes piskene piskens
+15	3115	forbrug	forbrug forbruget
+16	3116	værdig	værdig værdige værdigt værdigere værdiger værdiget
+17	3117	helbrede	helbrede helbredt helbreder helbredende helbredte helbredes helbrederen helbredere
+18	3118	erfaren	erfaren erfarne erfarent
+19	3119	franskmand	franskmændene franskmænd franskmand franskmanden franskmændenes franskmandens franskmands
+20	3120	pine	pine pin piner pines pint pinte pinen
+21	3121	kommerciel	kommercielle kommercielt kommerciel
+22	3122	davs	davs
+23	3123	smal	smalle smal smalt smallere smalleste
+24	3124	forberedelse	forberedelse forberedelserne forberedelser forberedelsen forberedelses
+25	3125	sektion	sektion sektioner sektionen sektionerne
+26	3126	psykologisk	psykologisk psykologiske
+27	3127	ledning	ledninger ledning ledningen ledningerne
+28	3128	bagage	bagage bagagen
+29	3129	sæd	sæd sæder sæden sæderne sædens sædernes
+30	3130	speciale	speciale specialer specialet
+31	3131	fe	fe feer feen fes feerne feernes feers
+32	3132	bravo	bravo
+33	3133	smør	smør smørret smørrede smørrets
+34	3134	sludder	sludder sludderen sludderet
+35	3135	krog	krog krogen kroge krogene krogede kroget kroger
+36	3136	garanti	garanti garantier garantien
+37	3137	hugge	hugge huggede hugger hugget hugges huggeren huggen huggende
+38	3138	derop	derop
+39	3139	blodig	blodige blodig blodigt blodigste blodigere
+40	3140	hacke	hacket hack hacke hackede hackes hacken
+41	3141	pyt	pyt pytten pytter pytterne
+42	3142	udvidelse	udvidelse udvidelsen udvidelser udvidelserne
+43	3143	klatre	klatre klatrer klatrede klatret klatr klatrere klatrende klatreren klatren klatrerne
+44	3144	kostume	kostume kostumer kostumet kostumerne
+45	3145	flyder	flyder flyderen flydere flyderne
+46	3146	annoncere	annonceret annoncer annoncerede annoncere annoncerer annonceres
+47	3147	bortføre	bortført bortførte bortføre bortfører bortføreren bortførere bortførerne bortfør bortføres bortførerens
+48	3148	håbløs	håbløst håbløs håbløse
+49	3149	pjat	pjat pjattet
+50	3150	bakterie	bakterier bakterie bakterierne bakterien
+51	3151	sårbar	sårbar sårbare sårbart
+52	3152	aggressiv	aggressiv aggressive aggressivt
+53	3153	varsel	varsel varsler varslet varslerne
+54	3154	ambition	ambitioner ambition ambitionerne ambitionen ambitionens
+55	3155	observere	observere observeret observerer observerede observeres observér observerende
+56	3156	si	si sis siet sien sier
+57	3157	magtfuld	magtfulde magtfuld magtfuldt
+58	3158	tilknytte	tilknyttet tilknyttede tilknyttes tilknytter
+59	3159	sandelig	sandelig
+60	3160	anmode	anmoder anmode anmodet anmodede anmod anmodes
+61	3161	fremgå	fremgår fremgik fremgå
+62	3162	tragedie	tragedie tragedien tragedier tragedierne tragediens
+63	3163	skala	skala skalaen skalaer skalaerne
+64	3164	bål	bål bålet bålene
+65	3165	procedure	procedure proceduren procedurer procedurerne
+66	3166	forlængelse	forlængelse forlængelser forlængelsen
+67	3167	licens	licens licensen licenser licenserne
+68	3168	brik	brik brikker brikkerne briksen brikken briks
+69	3169	from	from fromme fromt
+70	3170	inklusive	inklusive
+71	3171	kreditkort	kreditkort kreditkortet kreditkortene
+72	3172	ulækker	ulækkert ulækker ulækre
+73	3173	burger	burger burgere burgeren burgerne
+74	3174	notat	notat notater notatet notaterne
+75	3175	tallerken	tallerken tallerkener tallerkner tallerkenen tallerkenerne tallerknerne tallerknen
+76	3176	bøf	bøf bøffer bøffen bøfferne
+77	3177	bue	bue buen buer bu buede buet buerne bues
+78	3178	misbruge	misbrugt misbruger misbrugte misbruge misbruges misbrugere misbrugeren misbrugerne misbrugers
+79	3179	pung	pung pungen punge punger pungene punget
+80	3180	nørd	nørd nørder nørderne nørden nørdernes nørds
+81	3181	skåne	skåne skåner skånet skån skånede skånes
+82	3182	jubilæum	jubilæum jubilæet jubilæer jubilæums
+83	3183	henblik	henblik
+84	3184	nerve	nerver nerverne nerve nerven
+85	3185	ivrig	ivrig ivrige ivrigt
+86	3186	lighed	lighed ligheder ligheden lighederne
+87	3187	æske	æske æsken æsker æskerne æskens
+88	3188	beliggenhed	beliggenhed beliggenheden beliggenheder
+89	3189	elefant	elefant elefanter elefanten elefanterne elefantens elefants elefanternes
+90	3190	ulykkelig	ulykkelig ulykkelige ulykkeligt ulykkeligste
+91	3191	fotografi	fotografier fotografi fotografiet fotografierne
+92	3192	galleri	galleri galleriet gallerier galleriets gallerierne
+93	3193	rådhus	rådhuset rådhus rådhusets
+94	3194	fodboldspiller	fodboldspiller fodboldspillere fodboldspilleren fodboldspillerne
+95	3195	arbejdsmarked	arbejdsmarkedet arbejdsmarked arbejdsmarkedets
+96	3196	opbakning	opbakning opbakningen
+97	3197	kollektiv	kollektiv kollektive kollektivt kollektivet kollektivets kollektiver
+98	3198	planlægning	planlægning planlægningen planlægnings
+99	3199	afvente	afventer afvent afvente afventende afventede afventet afventes
+100	3200	væv	væv vævet væver væve vævede væven væves vævs vævere væverne

@@ -1,0 +1,100 @@
+1	401	mangle	mangler manglende manglede mangle manglet manglen mangles
+2	402	ødelægge	ødelægge ødelagt ødelægger ødelagde ødelagte ødelæggende ødelæg ødelægges ødelæggeren ødelagdes
+3	403	vild	vild vildt vildeste vilde vildere vildtet vilden vildes
+4	404	række	række rækker ræk rækken rakte rækkerne rakt rækkende
+5	405	galt	galt galten
+6	406	stemme	stemme stemmer stemte stemmen stemt stemmerne stem stemmes stemmens stemmers
+7	407	sort	sort sorte sortere sorter sorteret sorterer sorten sorterede sorteste sorteres
+8	408	aftale	aftale aftalen aftaler aftalt aftalte aftalerne aftal aftales aftalens
+9	409	skide	skide skidt skid skider skidtet sked skidte skidne skids skiderne
+10	410	slippe	slip slippe slipper sluppet slippes slippers sluppen
+11	411	sjovt	sjovt
+12	412	ok	ok
+13	413	mulighed	mulighed muligheder muligheden mulighederne mulighedernes muligheders
+14	414	sælge	sælge solgt solgte sælges sælg sælgende solgtes
+15	415	dum	dum dumt dumme dummeste dummede dummere dummer dummet dummest
+16	416	ligne	ligner lignede ligne lign lignet
+17	417	chance	chance chancen chancer chancerne chances
+18	418	dyr	dyr dyrt dyre dyrene dyrere dyret dyreste dyrenes dyrs dyrets
+19	419	lys	lys lyset lyse lyser lysene lysets lysere lysende lyste lyseste
+20	420	hjemme	hjemme
+21	421	velkommen	velkommen velkomne velkomment
+22	422	slet	slet
+23	423	form	form former formen formet forme formede formere formerer formes formerne
+24	424	forsvinde	forsvandt forsvinder forsvundet forsvind forsvinde forsvundne forsvinden forsvunden forsvindende
+25	425	kendt	kendt kendte kendteste
+26	426	smide	smide smid smed smider smidt smides smede smeden smedet smeder
+27	427	rest	resten rester resterne rest
+28	428	krig	krig krigen krige krigens krigs krigene kriges
+29	429	forbi	forbi
+30	430	læge	læge lægen læger lægerne lægens læges lægers lægernes lægende lægt
+31	431	inde	inde
+32	432	fald	fald faldet faldene falds
+33	433	mærke	mærke mærker mærket mærkede mærk mærkes mærkerne mærkedes
+34	434	forkert	forkert forkerte
+35	435	ad	ad
+36	436	bygge	bygge bygget bygger byggede byg bygges byggedes byggen byggeren byggere
+37	437	mening	mening meningen meninger meningerne meningers
+38	438	herre	herre herrer herren herrens herrerne herres herrers herrernes
+39	439	endelig	endelig endelige endeligt
+40	440	præcis	præcis præcist præcise
+41	441	alligevel	alligevel
+42	442	medlem	medlemmer medlem medlemmerne medlemmernes medlemmet medlemmers medlems
+43	443	stole	stole stoler stol stolen stolede stolene stolet stoles stolens
+44	444	kæreste	kæreste kærester kæresten kærestes kærestens kæresterne kærest kærestet kæresters kærestede
+45	445	hund	hund hunde hunden hundene hundens hunds hundenes hundes
+46	446	normal	normalt normal normale normalen
+47	447	nogensinde	nogensinde
+48	448	live	live liver lives livede
+49	449	drøm	drøm drømme drømmer drømte drømt drømmen drømmene drømmende drømmere drømmes
+50	450	virksomhed	virksomheder virksomhed virksomheden virksomhedens virksomhederne virksomheds virksomheders virksomhedernes
+51	451	lege	lege leg leger legende legede legenden legen legender leget legene
+52	452	dame	damer dame damen damerne damernes dames damens damers
+53	453	skade	skade skader skadet skaden skaderne skadede skades skad skadens skadernes
+54	454	regel	regler regel reglerne reglen regelen
+55	455	røv	røv røven røve røver røvere røvet røvede røverne røveren røvernes
+56	456	bringe	bringe bringer bragt bragte bring bringes
+57	457	forbindelse	forbindelse forbindelser forbindelsen forbindelserne forbindelses
+58	458	fjerne	fjerne fjern fjernet fjerner fjernede fjernes fjernt fjerneste fjerneren fjernere
+59	459	dø	dø døende døet døen
+60	460	pas	pas passet passene
+61	461	hade	hader hade hadede hadet hades hadere haden haderne hadende
+62	462	lytte	lytter lytte lyt lyttede lyttet lyttere lytterne lyttende lyttes lytteren
+63	463	million	millioner million millionen millionerne millions millioners
+64	464	enkelt	enkelt enkelte
+65	465	forældre	forældre forældrene forældres forældrenes
+66	466	ben	ben benene benet bens benede
+67	467	fest	fest festen fester festerne festens festers festernes
+68	468	telefon	telefon telefonen telefoner telefonerne telefonens telefons
+69	469	ihjel	ihjel
+70	470	kræve	kræver kræve krævede kræves krævende krævet kræv krævedes
+71	471	perfekt	perfekt perfekte
+72	472	hurtig	hurtigere hurtig hurtigst hurtige hurtigste
+73	473	seks	seks
+74	474	beskytte	beskytte beskytter beskyttet beskyttede beskyt beskyttes beskyttende beskyttere beskytteren beskytterne
+75	475	glæde	glæder glæde glæden glædet glædede glæd glædes glædens glæderne
+76	476	farvel	farvel farveller
+77	477	skifte	skifte skifter skiftet skift skiftede skiftes skiftende skiftedes skiften skifteren
+78	478	fly	fly flyet flyene flyets ede flyer flys flyende flyeren flyr
+79	479	hjerte	hjerte hjertet hjerter hjertets hjertes hjertens hjerterne hjerters hjerternes
+80	480	hallo	hallo
+81	481	seng	seng sengen senge sengene sengs sengens
+82	482	lyst	lyst lyster lysten lystrer lystre lystne lystens lystrede lysterne lystent
+83	483	regne	regne regner regnet regn regnede regnen regnes regnens regnende
+84	484	støtte	støtte støtter støttet støttede støt støtten støttes støttende støtterne støtters
+85	485	fin	fin fine fineste finere finest
+86	486	rød	røde rød rødt rødere rødeste
+87	487	løs	løs løse løst løser løses løste løsere løsen løsenet
+88	488	nem	nemt nemmere nem nemme nemmeste nemmest nemmer
+89	489	lykke	lykke lykkedes lykkes lykken lykkens
+90	490	flest	fleste flest
+91	491	lækker	lækker lækkert lækre lækreste lækrere lækrest
+92	492	dække	dækker dække dækket dæk dækkede dækkene dækkes dækkende dækken dækkenes
+93	493	via	via
+94	494	råd	råd rådet råde råder råds rådets rådede rådes rådene råddet
+95	495	lort	lort lortet lorte lorten lortede lortene lorts
+96	496	blot	blot blotte blotter blottede blottere blotteren blottes
+97	497	især	især
+98	498	sjov	sjov sjove sjovere sjoveste sjovs sjovest
+99	499	muligt	muligt
+100	500	regering	regeringen regering regeringens regeringer regerings regeringerne regeringers

@@ -1,0 +1,100 @@
+1	1501	pa	pa paen
+2	1502	forklaring	forklaring forklaringer forklaringen forklaringerne
+3	1503	såkaldt	såkaldte såkaldt
+4	1504	minister	minister ministeren ministre ministerens ministrene ministrenes
+5	1505	svigte	svigter svigtede svigtet svigte svigt svigtende svigtes
+6	1506	titel	titel titlen titler titlerne
+7	1507	nøgen	nøgen nøgne nøgent
+8	1508	kammerat	kammerat kammerater kammeraterne kammeraten kammerats kammeraters kammeraternes
+9	1509	pointe	pointen pointe pointer pointere pointerede pointerer pointeret
+10	1510	generation	generation generationer generations generationen generationers generationerne generationens
+11	1511	tøs	tøs tøser tøsen tøserne tøse tøsens tøsernes tøsers
+12	1512	konstant	konstant konstante konstanter konstanten
+13	1513	anlæg	anlæg anlægget anlæggets anlæggene anlægs
+14	1514	vinter	vinteren vinter vintre vinterens vinters vintrene
+15	1515	dyrke	dyrke dyrker dyrkede dyrket dyrkes dyrk dyrkere dyrkerne
+16	1516	simpelthen	simpelthen
+17	1517	forsvar	forsvar forsvaret forsvarets forsvars
+18	1518	gas	gas gassen gasser gasserne gass gassens
+19	1519	totalt	totalt
+20	1520	rimelig	rimelig rimeligt rimelige
+21	1521	forblive	forblive forbliver forblev forblevet forbliv
+22	1522	overstå	overstået overstås overstå overståede
+23	1523	abe	abe ab aber aben aberne abers abernes abes abens abede
+24	1524	hundrede	hundrede hundreder hundredes
+25	1525	forstyrre	forstyrrer forstyrre forstyrret forstyrrede forstyrres forstyrrende forstyr
+26	1526	felt	felt feltet felter felten felterne feltets
+27	1527	opkald	opkald opkaldet opkaldene opkalds opkaldets
+28	1528	hat	hat hatten hatte hattene hats hattens
+29	1529	bort	bort
+30	1530	skyldig	skyldig skyldige skyldigt skyldigere
+31	1531	selvmord	selvmord selvmordet selvmords selvmordene selvmordets
+32	1532	rulle	rulle ruller rul rullede rullende rullet rullen rulles rullerne rulleren
+33	1533	voldsom	voldsomt voldsom voldsomme voldsommere voldsomste
+34	1534	ryste	ryster rystet ryste rystede rystende ryst rystes rysten rysteren
+35	1535	bekendt	bekendt bekendte bekendts
+36	1536	identificere	identificere identificeret identificerede identificerer identificeres identificer identificér identificerende
+37	1537	indhold	indhold indholdet
+38	1538	torsdag	torsdag torsdags torsdagen torsdagens torsdage
+39	1539	dom	dom dommen domme dommens doms dommene dommes
+40	1540	udsigt	udsigt udsigten udsigter udsigterne udsigtens udsigts
+41	1541	debat	debat debatten debatter debatterne
+42	1542	sal	sal salen sale sales sals salene
+43	1543	genkende	genkende genkender genkendte genkendt genkendes genkend genkendende
+44	1544	ave	av ave
+45	1545	kors	kors korset korsets korsettet korsetter korsene
+46	1546	blind	blind blinde blindt blindet blindes blindede
+47	1547	forandre	forandret forandre forandrer forandrede forandres forandredes forandr forandrende
+48	1548	analyse	analyse analyser analysen analyserne
+49	1549	repræsentere	repræsenterer repræsenteret repræsentere repræsenterede repræsenteres repræsenter
+50	1550	spore	spore sporer spores sporet sporede sporerne sporen
+51	1551	sprede	sprede spreder spredes spred spredte spredtes sprederen
+52	1552	skygge	skygge skyggen skygger skyggerne skygget skyggede skyggernes skyg skygges skyggens
+53	1553	foto	foto fotos fotoet fotoene fotoer fotoerne
+54	1554	tunge	tunge tungen tunger tungerne tungens
+55	1555	herefter	herefter
+56	1556	port	porten port porte portene portens
+57	1557	vægt	vægt vægten vægte vægter vægtene vægteren vægtere vægtede vægtes vægtet
+58	1558	sænke	sænk sænke sænker sænket sænkede sænkes
+59	1559	udmærket	udmærket udemærket udmærkede
+60	1560	centrum	centrum centret centrets centrer
+61	1561	undervisning	undervisning undervisningen undervisnings
+62	1562	negativ	negativ negative negativt negativerne negativer negativet
+63	1563	kys	kys kysset kyssene
+64	1564	bob	bob
+65	1565	landsby	landsby landsbyen landsbyer landsbyerne landsbyens landsbys
+66	1566	hud	hud huden huder huds hudens huderne
+67	1567	prins	prins prinsen prinsens prinser prinserne
+68	1568	udvide	udvidet udvide udvider udvidede udvides udvid
+69	1569	celle	celle celler cellen cellerne cellens cellernes celles
+70	1570	efterår	efteråret efterår efterårets efterårs
+71	1571	hæve	hævet hæve hæver hævede hæves hæv
+72	1572	udtale	udtale udtaler udtalt udtalte udtales udtalen udtal
+73	1573	regning	regning regningen regninger regningerne
+74	1574	faktum	fakta faktum faktummet faktaene faktumet
+75	1575	samling	samling samlinger samlingen samlingerne samlings samlingens
+76	1576	plade	plade plader pladen pladerne plades pladens
+77	1577	henne	henne
+78	1578	risikere	risikerer risikere risikerede risikeret risiker
+79	1579	uheld	uheld uheldet uheldene uhelds uheldets
+80	1580	klage	klage klager klagede klaget klagen klag klagerne klagende klageren
+81	1581	salt	salt har saltet salte saltede salter salten salts
+82	1582	oversætte	oversat oversætte oversætter oversættes oversæt oversatte oversættere oversætteren
+83	1583	engel	engel engle englene englen engels englenes englens engles engelen
+84	1584	talent	talent talenter talentet talenterne
+85	1585	rykke	rykke rykket ryk rykkede rykkes rykken
+86	1586	kristne	kristne kristen kristent kristnes
+87	1587	optræde	optræder optræde optræden optrådte optrådt optrædener optrædende optræd
+88	1588	landbrug	landbrug landbruget landbrugets landbrugs
+89	1589	holdning	holdning holdninger holdningen
+90	1590	teknologi	teknologi teknologien teknologier teknologiens teknologis
+91	1591	sammenligne	sammenlignet sammenligne sammenligner sammenlignes sammenlignede sammenlign sammenlignende
+92	1592	håndtere	håndtere håndterer håndteret håndterede håndteres håndter håndtér
+93	1593	bibliotek	biblioteket bibliotek biblioteker bibliotekerne bibliotekets biblioteks
+94	1594	konto	konto kontoen konti kontoer kontiene kontoerne kontoens kontos
+95	1595	udland	udlandet udland
+96	1596	funktion	funktion funktioner funktionen funktionerne funktions
+97	1597	stik	stik stikket stikkene
+98	1598	onde	onde ondes onder ondet ondets
+99	1599	tirsdag	tirsdag tirsdags tirsdagen tirsdage tirsdagens
+100	1600	ligeledes	ligeledes

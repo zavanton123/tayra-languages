@@ -1,0 +1,100 @@
+1	4601	partikel	partikler partikel partiklerne partiklen partiklers partiklernes
+2	4602	demokrat	demokraterne demokrater demokrat demokraternes demokraten demokraters
+3	4603	formodentlig	formodentlig formodentligt
+4	4604	dyrlæge	dyrlæge dyrlægen dyrlæger dyrlægerne dyrlægens
+5	4605	atom	atom atomer atomet atomerne atoms atomets
+6	4606	mentor	mentor mentorer mentoren mentors mentorerne
+7	4607	sveder	sveder svedere
+8	4608	ærlighed	ærlighed ærligheden ærlighedens
+9	4609	rådgivning	rådgivning rådgivningen
+10	4610	udforme	udformet udforme udformede udformer udformes
+11	4611	påføre	påført påføre påføres påførte påfører påfør
+12	4612	snæver	snæver snævert snævre snævret snævrer snævrere snævrede
+13	4613	kuppel	kuplen kuppel kuplens kuppelen kupler kuplerne
+14	4614	kidnapning	kidnapning kidnapningen kidnapninger kidnapningerne
+15	4615	hane	hanen hane haner hanerne hanes hanens
+16	4616	badminton	badminton
+17	4617	bandit	bandit banditter banditten banditterne banditternes banditters bandittens
+18	4618	derpå	derpå
+19	4619	gennemgang	gennemgang gennemgangen
+20	4620	fejlagtig	fejlagtigt fejlagtige fejlagtig
+21	4621	biologi	biologi biologien biologiens
+22	4622	isolation	isolation isolationen isolations
+23	4623	skadelig	skadelige skadeligt skadelig
+24	4624	overvære	overvære overværede overværet overværer overvær overværes
+25	4625	skage	skagen skag
+26	4626	lår	lår låret lårene
+27	4627	majs	majs majsen majsene
+28	4628	bille	bille biller billerne billen billes
+29	4629	forhindring	forhindringer forhindring forhindringerne forhindringen
+30	4630	lokalisere	lokaliseret lokalisere lokaliserer lokaliser lokaliserede lokaliseres
+31	4631	fortrylle	fortryllende fortryllet fortryllede fortrylle fortryller fortrylles fortryl fortrylledes
+32	4632	erica	erica ericas
+33	4633	nonne	nonne nonner nonnerne nonnen nonnes nonnernes nonnens
+34	4634	dusør	dusør dusøren dusører dusørerne
+35	4635	feedback	feedback feedbacken
+36	4636	tang	tang tangen tænger tangs tængerne tangens
+37	4637	universel	universal universelle universel universelt universalt
+38	4638	bagerst	bagerst bagerste
+39	4639	afgrøde	afgrøder afgrøde afgrøderne afgrøden
+40	4640	slagmark	slagmarken slagmark slagmarker slagmarkerne
+41	4641	landsret	landsretten landsret
+42	4642	umiddelbar	umiddelbar umiddelbare
+43	4643	veteran	veteran veteraner veteranerne veteranen veteranernes veterans
+44	4644	temperament	temperament temperamentet temperamenter
+45	4645	kendsgerning	kendsgerning kendsgerninger kendsgerningerne kendsgerningen
+46	4646	forbeholde	forbeholdt forbehold forbeholder forbeholden forbeholdene
+47	4647	halvleg	halvleg halvlegen halvlege halvlegs
+48	4648	tavshed	tavshed tavsheden tavshedens tavsheds
+49	4649	udkant	udkanten udkant udkanter udkants
+50	4650	yndlings	yndlings
+51	4651	hvorved	hvorved
+52	4652	allergisk	allergisk allergiske
+53	4653	thi	thi
+54	4654	høvding	høvding høvdingen høvdinge høvdingens høvdingene høvdings høvdinger høvdingerne
+55	4655	spyt	spyt
+56	4656	bums	bums bumser bumsen bumserne bumsede bumset
+57	4657	udødelig	udødelige udødelig udødeligt
+58	4658	traktat	traktaten traktat traktater traktatens traktaterne
+59	4659	baglæns	baglæns
+60	4660	etisk	etiske etisk
+61	4661	moderat	moderat moderate
+62	4662	organisme	organisme organismer organismen organismerne organismers organismes organismens
+63	4663	politistation	politistationen politistation politistationer politistationerne
+64	4664	praktik	praktik praktikken
+65	4665	eftersøgning	eftersøgningen eftersøgning eftersøgninger eftersøgnings
+66	4666	pinlig	pinlig pinlige pinligste
+67	4667	udenrigsminister	udenrigsminister udenrigsministeren udenrigsministerens
+68	4668	krudt	krudt krudtet
+69	4669	team	teamet teamets teamene
+70	4670	vrag	vrag vraget vragene vragets
+71	4671	skydevåben	skydevåben skydevåbnene skydevåbnet skydevåbenet
+72	4672	risikabel	risikabelt risikabel risikable
+73	4673	designe	designede designe designes
+74	4674	rædsel	rædsel rædsler rædslen rædslerne rædslernes rædslens rædselen rædsels
+75	4675	sågar	sågar
+76	4676	uddrag	uddrag
+77	4677	mislykket	mislykket mislykkede
+78	4678	kiks	kiks kiksene kiksen
+79	4679	intensiv	intensiv intensivt intensive
+80	4680	svine	sviner svine svinede svinet svines svinen
+81	4681	krumme	krumme krummer krum krummerne krummet krummede krumt krummen
+82	4682	luge	luge lugen luger lugerne luget
+83	4683	mindretal	mindretal mindretallet mindretallets
+84	4684	eksotisk	eksotiske eksotisk
+85	4685	hvortil	hvortil
+86	4686	julegave	julegave julegaver julegaverne julegaven
+87	4687	elektronik	elektronik elektronikken
+88	4688	egn	egnen egn egnens egne egnes egner egnedes
+89	4689	luksus	luksus
+90	4690	haste	haster hastede hastet hastende
+91	4691	fordømt	fordømt fordømte
+92	4692	shoppe	shoppe shoppede shoppet
+93	4693	formular	formular formularen formularer formularerne
+94	4694	femten	femten
+95	4695	herred	herred herredet herredets
+96	4696	arrogant	arrogant arrogante
+97	4697	interviewe	interviewe interviewede interviewes
+98	4698	indånding	indånding indåndinger
+99	4699	bistand	bistand bistanden bistands
+100	4700	klud	klud klude kludene kluden

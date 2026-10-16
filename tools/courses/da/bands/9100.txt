@@ -1,0 +1,100 @@
+1	9001	udråbe	udråbt udråber udråbe udråbte udråbes
+2	9002	lammelse	lammelse lammelsen lammelser
+3	9003	foroven	foroven
+4	9004	årbog	årbog årbogen årbøger årbogs
+5	9005	øverstkommanderende	øverstkommanderende
+6	9006	tilbageslag	tilbageslag tilbageslaget
+7	9007	adr	adr
+8	9008	spillemand	spillemand spillemanden spillemænd
+9	9009	byrd	byrd byrden byrds
+10	9010	afskrække	afskrække afskrækkende afskrækker afskrækket afskrækkes afskræk afskrækkede
+11	9011	overlagt	overlagt overlagte
+12	9012	vulgær	vulgær vulgært vulgære
+13	9013	cello	cello celloen celloer
+14	9014	kratte	krat krattet
+15	9015	ømhed	ømhed ømheden
+16	9016	piccolo	piccolo piccoloen piccoloer piccoloerne piccolos
+17	9017	incitament	incitament incitamenter
+18	9018	oralsex	oralsex
+19	9019	sovepose	sovepose soveposer soveposen soveposerne
+20	9020	fængsling	fængsling fængslingen
+21	9021	lykønske	lykønske lykønsker lykønskede lykønsket lykønsk lykønskes
+22	9022	dytte	dytter dytte dyttede dytten dyttende dyttet
+23	9023	kortslutte	kortslutte kortslutter kortsluttede kortsluttet kortslut kortsluttes
+24	9024	avler	avler avlere avlerne
+25	9025	førnævnt	førnævnte
+26	9026	ligevægt	ligevægt ligevægten
+27	9027	knut	knut knuts
+28	9028	derom	derom
+29	9029	kønssygdom	kønssygdomme kønssygdom kønssygdommen
+30	9030	uforståelig	uforståeligt uforståelig uforståelige
+31	9031	sommertid	sommertid sommertiden
+32	9032	kunstakademi	kunstakademiet kunstakademi
+33	9033	aktiemarked	aktiemarkedet aktiemarked aktiemarkederne aktiemarkeder
+34	9034	verdenskendt	verdenskendt verdenskendte
+35	9035	afledningsmanøvre	afledningsmanøvre afledningsmanøvrer afledningsmanøvren
+36	9036	cheeseburger	cheeseburger cheeseburgere cheeseburgeren
+37	9037	udrustning	udrustning udrustningen
+38	9038	spillested	spillesteder spillested spillestedet spillestederne
+39	9039	rejsehold	rejseholdet rejsehold
+40	9040	eneret	eneret eneretten
+41	9041	arbejdsstyrke	arbejdsstyrken arbejdsstyrke
+42	9042	stilk	stilk stilke stilken stilkene
+43	9043	blusse	blus blusset blusser blussede blusse blussende blussene
+44	9044	iod	jod iod joden
+45	9045	føderation	føderationen føderation føderationens federation føderations
+46	9046	bekender	bekender
+47	9047	kødbolle	kødboller kødbolle kødbollerne kødbollen
+48	9048	deportere	deporteret deportere deporteres deporterer deporterede deporteredes
+49	9049	trafikant	trafikanter
+50	9050	mavesår	mavesår mavesåret
+51	9051	tilbagetog	tilbagetog tilbagetoget
+52	9052	hurtighed	hurtighed hurtigheden
+53	9053	medlemsland	medlemslande medlemslandene
+54	9054	applikation	applikationer applikation
+55	9055	diskvalificere	diskvalificeret diskvalificere diskvalificerer diskvalificeres diskvalificerede
+56	9056	relevans	relevans relevansen
+57	9057	spisesal	spisesalen spisesal
+58	9058	narkohandel	narkohandel narkohandlen narkohandelen
+59	9059	roomservice	roomservice roomservicen
+60	9060	indenrigsministerium	indenrigsministeriet indenrigsministerium
+61	9061	natteliv	nattelivet natteliv
+62	9062	opland	opland oplandet
+63	9063	karismatisk	karismatisk karismatiske
+64	9064	bambus	bambus bambussen
+65	9065	pornografi	pornografi pornografien
+66	9066	ægteskabelig	ægteskabelige ægteskabelig ægteskabeligt
+67	9067	retsmøde	retsmøde retsmødet retsmøder
+68	9068	påklædt	påklædt påklædte
+69	9069	erektion	erektion erektioner erektionen
+70	9070	udslettelse	udslettelse udslettelsen
+71	9071	lyshåret	lyshåret lyshårede
+72	9072	respektabel	respektabel respektable respektabelt
+73	9073	ulydighed	ulydighed
+74	9074	kupere	kuperet kuperede
+75	9075	instrumentbræt	instrumentbrættet instrumentbræt
+76	9076	betænde	betændt betændte
+77	9077	overfyldt	overfyldt overfyldte
+78	9078	krypton	krypton kryptons
+79	9079	stemmeberettiget	stemmeberettigede
+80	9080	rekonstruere	rekonstruere rekonstrueret rekonstruerer rekonstruerede rekonstrueres
+81	9081	vandværk	vandværk vandværket vandværker
+82	9082	malke	malke malker malket malkede malk malkes
+83	9083	sambo	sambo samboer samboen sambos
+84	9084	telefonboks	telefonboks telefonboksen telefonbokse
+85	9085	gågade	gågade
+86	9086	tordenvejr	tordenvejr tordenvejret
+87	9087	underside	undersiden
+88	9088	sygeforsikring	sygeforsikring sygeforsikringen sygeforsikringer
+89	9089	påfund	påfund påfundet
+90	9090	skrælle	skræller skrælle skrællet skræl skrællede skrællen skrælles
+91	9091	kringle	kringle kringlet kringler kringlede kringles kringlen kringlerne
+92	9092	manér	manér manérer manerer maner
+93	9093	årstal	årstal årstallet
+94	9094	krybdyr	krybdyr krybdyret krybdyrs
+95	9095	standardisere	standardiserede standardiseret standardiseres
+96	9096	vingård	vingård vingården vingårde vingårdene
+97	9097	væddeløb	væddeløb væddeløbet væddeløbene væddeløbs
+98	9098	pony	ponyer ponyen ponyerne
+99	9099	ridning	ridning
+100	9100	gitter	gitter gitteret gitre gitrene

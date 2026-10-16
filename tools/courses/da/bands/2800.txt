@@ -1,0 +1,100 @@
+1	2701	flydende	flydende
+2	2702	analysere	analysere analyseret analyserer analyserede analyseres analysér
+3	2703	forbandelse	forbandelse forbandelsen forbandelser forbandelsens forbandelserne
+4	2704	jaloux	jaloux
+5	2705	menneskehed	menneskeheden menneskehedens menneskehed
+6	2706	underviser	underviser undervisere underviserne underviseren
+7	2707	overdrive	overdrevet overdrev overdriver overdrive overdreven overdrevne overdrevent overdriv overdrives
+8	2708	tilhøre	tilhørte tilhøre tilhørt tilhør
+9	2709	udenom	udenom
+10	2710	øjeblikkelig	øjeblikkeligt øjeblikkelig øjeblikkelige
+11	2711	loyal	loyal loyale loyalt
+12	2712	handicappe	handicap handicappede handicappet
+13	2713	stirre	stirrer stirre stirrede stirret stir stirrende stirren
+14	2714	børnehave	børnehave børnehaven børnehaver
+15	2715	uendelig	uendelige uendelig uendeligt
+16	2716	kreds	kreds kredse kredsen kredser kredsede kredset kredsene kredsende kredsens
+17	2717	alliere	allierede allieret allieredes alliere allierer
+18	2718	humor	humor humoren
+19	2719	trykker	trykker trykkeren trykkere trykkerne
+20	2720	objekt	objekter objekt objektet objekterne objektets objekts objekters
+21	2721	indrette	indrettet indrettede indrette indrettes indretter indret
+22	2722	offentlighed	offentligheden offentlighed offentlighedens
+23	2723	spøg	spøg spøgen
+24	2724	blinke	blink blinker blinke blinkede blinkende blinket blinkene blinken
+25	2725	økologisk	økologisk økologiske
+26	2726	hall	hall hallen haller hallerne halls hallens
+27	2727	spænde	spænd spænder spænde spændte spændet spændene spændes spænderne
+28	2728	hjemsted	hjemsted hjemstedet
+29	2729	pumpe	pumpe pumper pumpen pump pumpet pumpes pumperne pumpede pumpende
+30	2730	biologisk	biologiske biologisk
+31	2731	helbred	helbred helbredet helbreds helbredets
+32	2732	motorcykel	motorcykel motorcykler motorcyklen motorcyklerne motorcyklens motorcykelen
+33	2733	tempel	templet tempel templer templets templerne tempels
+34	2734	ambassadør	ambassadør ambassadører ambassadøren ambassadørens ambassadørerne ambassadørs
+35	2735	privatliv	privatliv privatlivet privatlivets privatlivs
+36	2736	invitation	invitation invitationen invitationer invitationerne invitations
+37	2737	like	like likes liker likede
+38	2738	fisse	fisse fissen fisser fisserne
+39	2739	slave	slave slaverne slaven slavernes slaves slavers slavens slavede slavet
+40	2740	nordlig	nordlige nordligste nordlig
+41	2741	tilskuer	tilskuere tilskuer tilskuerne tilskueren tilskuernes
+42	2742	database	database databasen databaser databaserne
+43	2743	påbegynde	påbegyndt påbegynder påbegynde påbegyndte påbegyndes påbegynd påbegyndtes
+44	2744	usynlig	usynlig usynlige usynligt
+45	2745	nutid	nutidens nutiden nutid nutids
+46	2746	pande	panden pande pander pandede pandet panderne pand pandes pandens
+47	2747	tolv	tolv
+48	2748	uskadt	uskadt uskadte
+49	2749	overse	overset overser overse oversete overses
+50	2750	glat	glat glatte glatter glattere glattet glatteste glattede glattes
+51	2751	sommerhus	sommerhus sommerhuse sommerhuset sommerhusene
+52	2752	kue	ku kue kuet kuede kues kuer
+53	2753	kongres	kongressen kongres kongressens kongresser kongress
+54	2754	seddel	seddel sedler sedlen sedlerne seddelen
+55	2755	gevinst	gevinst gevinsten gevinster gevinsterne
+56	2756	udgift	udgifter udgifterne udgift udgiften
+57	2757	kriminalitet	kriminalitet kriminaliteten kriminalitets kriminalitetens
+58	2758	novelle	novelle noveller novellen novellerne
+59	2759	bagud	bagud
+60	2760	telt	telt teltet telte teltene
+61	2761	regnskab	regnskab regnskaber regnskabet regnskaberne regnskabets
+62	2762	elegant	elegant elegante
+63	2763	opsøge	opsøge opsøgte opsøger opsøgt opsøg opsøgende
+64	2764	eksisterende	eksisterende
+65	2765	sydlig	sydlige sydligste sydlig sydligt sydligere
+66	2766	hegn	hegn hegnet hegnene
+67	2767	variere	varierer variere varierende varierede varier
+68	2768	svaghed	svaghed svagheder svagheden svaghederne
+69	2769	udfylde	udfylde udfylder udfyldt udfyld udfyldte udfyldes
+70	2770	retfærdig	retfærdig retfærdigt retfærdige
+71	2771	drille	driller drille drillede drillet dril drilles drillende
+72	2772	indeni	indeni
+73	2773	sladre	sladrer sladre sladrede sladret sladrende sladr sladren sladres
+74	2774	dagbog	dagbog dagbogen dagbøger dagbøgerne dagbogs
+75	2775	suge	suger suge suget sug sugede suges sugende sugeren sugere
+76	2776	måling	måling målinger målingerne målingen
+77	2777	gammeldags	gammeldags
+78	2778	svensker	svenskerne svenskere svensker svenskeren svenskerens
+79	2779	stribe	stribe striber stribet stribede striberne striben
+80	2780	arv	arv arven
+81	2781	stål	stål stålet stålets
+82	2782	indhente	indhente indhenter indhentet indhentede indhent indhentes
+83	2783	sluge	sluge sluger slugte slugt slug slugten sluges slugter slugterne
+84	2784	alliance	alliance alliancen alliancer alliancens alliances alliancerne
+85	2785	færge	færgen færge færger færgerne færgens
+86	2786	opretholde	opretholde opretholder opretholdes opretholdt oprethold opretholdte
+87	2787	norman	norman normannere normannerne normannernes normanner
+88	2788	tåle	tåle tåler tåls tåles tålte tålt tål
+89	2789	slikke	slikke slikker slikkede slikket slikkes slikkende
+90	2790	nogenlunde	nogenlunde
+91	2791	kiste	kiste kisten kister kisterne kistens
+92	2792	udlevere	udleveret udlevere udleverer udleverede udleveres udlevér
+93	2793	arkiv	arkiv arkivet arkiver arkiverne arkivets
+94	2794	stund	stund stunder stunden
+95	2795	åndssvag	åndssvagt åndssvage åndssvag
+96	2796	gram	gram grams grammet
+97	2797	bevidsthed	bevidsthed bevidstheden bevidstheder bevidsthedens bevidstheds
+98	2798	afstemning	afstemning afstemningen afstemninger afstemnings
+99	2799	fortrolig	fortrolige fortroligt fortrolig
+100	2800	kirkegård	kirkegården kirkegård kirkegårde kirkegårdene kirkegårdens

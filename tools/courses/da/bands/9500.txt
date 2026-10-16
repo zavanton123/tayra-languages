@@ -1,0 +1,100 @@
+1	9401	dyrisk	dyriske dyrisk
+2	9402	ildelugtende	ildelugtende
+3	9403	baghjul	baghjul baghjulet baghjulene
+4	9404	fodgænger	fodgængere fodgænger fodgængerne fodgængeren
+5	9405	lokaltog	lokaltog
+6	9406	gelé	gelé geléen
+7	9407	gyldighed	gyldighed gyldigheden
+8	9408	pater	pater paterne pateren patere
+9	9409	nitten	nitten
+10	9410	hallucinere	hallucinerer hallucinerede hallucinere hallucinerende hallucineret
+11	9411	kæphøj	kæphøj kæphøje kæphøjt
+12	9412	klasseværelse	klasseværelse klasseværelset klasseværelser klasseværelserne
+13	9413	udstoppe	udstoppet udstoppede udstoppe udstopper udstoppes udstop
+14	9414	modermærke	modermærke modermærket modermærker
+15	9415	splint	splint splinten splinterne
+16	9416	fjernstyre	fjernstyret fjernstyrede fjernstyre fjernstyres fjernstyrer
+17	9417	skanning	skanning skanningen skanninger skanningerne
+18	9418	serbisk	serbiske serbisk
+19	9419	operativ	operativ operativt
+20	9420	erhvervserfaring	erhvervserfaring
+21	9421	fordærv	fordærvet fordærv fordærvets
+22	9422	snedker	snedker snedkeren snedkere
+23	9423	fnise	fniser fnise fnis fnisen fnisende fniste fnisede fniset
+24	9424	koldblodig	koldblodig koldblodigt koldblodige
+25	9425	vibrere	vibrerer vibrere vibrerende vibrerede vibreret
+26	9426	brøl	brøl brølet
+27	9427	skyts	skyts skytset
+28	9428	wienerbrød	wienerbrød wienerbrødet
+29	9429	arbejdsindsats	arbejdsindsats arbejdsindsatsen
+30	9430	irritabel	irritabel irritable
+31	9431	flamingo	flamingo flamingoer flamingos flamingoerne flamingoen
+32	9432	pjece	pjece pjecer pjecerne pjecen
+33	9433	salig	salige salig saligt
+34	9434	buddhist	buddhister buddhist buddhisterne buddhisten
+35	9435	lyssky	lyssky
+36	9436	kimse	kims kimse
+37	9437	påfaldende	påfaldende
+38	9438	kæk	kæk kække kækt
+39	9439	forsvarsadvokat	forsvarsadvokat forsvarsadvokaten forsvarsadvokater forsvarsadvokaterne
+40	9440	triade	triaden triaderne triade triader triadens
+41	9441	gnubbe	gnubbe gnubber gnub gnubbede gnubbet gnubbes gnubben
+42	9442	karton	karton kartoner kartonen kartonerne
+43	9443	nedkæmpe	nedkæmpe nedkæmpet nedkæmpede nedkæmper nedkæmp
+44	9444	fremskreden	fremskreden fremskredne fremskredent fremskredet
+45	9445	destruktion	destruktion destruktionen destruktions
+46	9446	signalement	signalement signalementet signalementer
+47	9447	politikommissær	politikommissær politikommissæren politikommissærs
+48	9448	jordemoder	jordemoder jordemoderen jordmoder jordemor jordemødre jordemoderens jordemødrene
+49	9449	besindelse	besindelsen besindelse
+50	9450	pattebarn	pattebarn pattebørn pattebarnet
+51	9451	pjatte	pjatter pjattede pjatte
+52	9452	retskaffen	retskaffen retskafne retskaffent
+53	9453	hvidvaske	hvidvasker hvidvaske hvidvaskede hvidvask hvidvasket hvidvaskes hvidvasken
+54	9454	undergrundsbane	undergrundsbanen undergrundsbane undergrundsbaner
+55	9455	vrikke	vrik vrikke vrikker vrikkede vrikket vrikkende vrikken
+56	9456	erhvervsdrivende	erhvervsdrivende
+57	9457	blokering	blokering blokeringen blokeringer blokeringerne
+58	9458	mobber	mobber mobbere mobberne mobberen
+59	9459	badehotel	badehotellet badehotel
+60	9460	sportsdirektør	sportsdirektør sportsdirektøren
+61	9461	anke	anke ankede anket ankes ankerne anken ank ankers
+62	9462	hykleri	hykleri hykleriet
+63	9463	bagtil	bagtil
+64	9464	trav	trav travet
+65	9465	øgle	øgle øgler øglen øglerne
+66	9466	prostata	prostata prostataen
+67	9467	påtrængende	påtrængende
+68	9468	snesevis	snesevis
+69	9469	uinteressant	uinteressant uinteressante
+70	9470	køje	køje køjer køjen køjerne
+71	9471	forbinding	forbinding forbindinger forbindingen forbindingerne
+72	9472	godte	godte godter godterne godten
+73	9473	sygeafdeling	sygeafdelingen sygeafdeling
+74	9474	milt	milt milten
+75	9475	knurre	knurren knurrer knurre knurrede knur knurrende
+76	9476	pilsner	pilsner pilsnere
+77	9477	dødstrussel	dødstrusler dødstrussel dødstruslerne dødstruslen
+78	9478	rødbede	rødbeder rødbede rødbederne
+79	9479	tilbageholdende	tilbageholdende
+80	9480	luftforurening	luftforurening luftforureningen
+81	9481	kræ	kræ kræet kræene
+82	9482	sandstrand	sandstrande sandstrand
+83	9483	stridighed	stridigheder stridighederne stridighed
+84	9484	debatindlæg	debatindlæg
+85	9485	effektivisering	effektivisering
+86	9486	madspild	madspild
+87	9487	stork	stork storken storke storkene
+88	9488	eftertid	eftertiden eftertid eftertidens
+89	9489	redigering	redigering redigeringen redigeringer redigeringerne
+90	9490	funky	funky
+91	9491	rejsetid	rejsetid rejsetiden
+92	9492	hob	hober hob hobe hoben hobede hobet hobes
+93	9493	naturtalent	naturtalent naturtalenter
+94	9494	babysitte	babysitte babysittede babysittet babysit
+95	9495	rullestol	rullestol rullestolen rullestole
+96	9496	henrykt	henrykt henrykte
+97	9497	fordrukken	fordrukne fordrukken fordrukkent
+98	9498	bandemedlem	bandemedlemmer bandemedlem bandemedlemmerne bandemedlemmet
+99	9499	jamre	jamrer jamre jamren jamrede jamrende jamret
+100	9500	nedlæggelse	nedlæggelse nedlæggelsen
