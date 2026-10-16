@@ -1,0 +1,242 @@
+{
+  "id": "no-mini-7600",
+  "rankUpTo": 7600,
+  "level": "C1",
+  "title": "Verdens byer",
+  "description": "Ten standalone stories, profiles and letters about cities around the world, from Bangkok and Vancouver to Vienna, Houston and Montreal.",
+  "topic": "Cities of the world",
+  "names": [
+    "Bangkok",
+    "Thailand",
+    "Kristin",
+    "Tromsø",
+    "Vancouver",
+    "Canada",
+    "Norge",
+    "Vestlandet",
+    "Jonas",
+    "Ålesund",
+    "Bamse",
+    "Stanley Park",
+    "Athen",
+    "Athens",
+    "Eleni",
+    "Akropolis",
+    "Parthenon",
+    "Athena",
+    "Hellas",
+    "Perikles",
+    "Sokrates",
+    "Seoul",
+    "Bergen",
+    "København",
+    "Hilde Berg",
+    "Per Nilsen",
+    "Wien",
+    "Marte",
+    "Martes",
+    "Habsburg",
+    "Europa",
+    "Østerrike",
+    "Johann Strauss",
+    "Donau",
+    "Ole Hansen",
+    "Ole",
+    "Houston",
+    "Stavanger",
+    "USA",
+    "Texas",
+    "NASAs",
+    "Jupiters",
+    "Florida",
+    "Oslo",
+    "New York",
+    "Ingrids",
+    "Ingrid",
+    "Anders",
+    "England",
+    "Atlanterhavet",
+    "Ellis Island",
+    "Brooklyn",
+    "Amerika",
+    "FN",
+    "Manhattan",
+    "Montreal",
+    "Québec",
+    "Hudsonbukta",
+    "Tone",
+    "Madrid",
+    "Spania",
+    "Jon",
+    "Noa",
+    "Haifa",
+    "Kari"
+  ],
+  "lessons": [
+    {
+      "title": "Gaffel og skje i Bangkok",
+      "summary": "A cook from Tromsø takes a cooking class in Bangkok and learns how Thais eat with fork and spoon.",
+      "newWords": [
+        "gaffel",
+        "krydre",
+        "svinekjøtt",
+        "forkle",
+        "beger",
+        "diaré",
+        "konsum",
+        "tilbyder",
+        "hissig",
+        "bris"
+      ],
+      "text": "Den som kommer til Bangkok for første gang, merker straks at byen lever ute. Langs fortauene står små kjøkken på hjul, og over flammene henger lukten av hvitløk, chili og grillet svinekjøtt. Mange som bor i byen, lager nesten aldri middag selv. De kjøper maten på gata, og konsumet av slik mat er så stort at det har blitt en del av byens identitet. Uten dette konsumet ville gatene vært stille.\n\nKristin, en kokk fra Tromsø, var i Bangkok i to uker for å lære det thailandske kjøkkenet å kjenne. Hun hadde meldt seg på et kurs hos en av de mange tilbyderne som lærer turister å lage mat. Tilbyderne konkurrerer hardt om kundene, men Kristin valgte en liten skole ved elva, der læreren var en eldre kvinne med et blått forkle.\n\nDet første Kristin la merke til, var bordet. Ved hver tallerken lå en skje og en gaffel, men ingen kniv. Læreren forklarte at man i Thailand holder gaffelen i venstre hånd og bruker den til å skyve maten over på skjeen. Gaffelen kommer aldri i munnen. Kjøttet skjæres i små biter allerede på kjøkkenet, så ingen trenger kniv ved bordet.\n\nSå begynte arbeidet. Kristin fikk et forkle og et beger med fersk chili. «Thailandsk mat skal krydres i balanse,» sa læreren. «Sterkt, surt, søtt og salt, alt på én gang.» De krydret svinekjøttet med hvitløk, sukker og litt salt, og stekte det raskt på høy varme. Læreren var hissig når hun lagde mat: Hun ropte, lo og slo med skjeen på kanten av panna. Men hun var hissig på en varm og glad måte, ikke på en sint måte.\n\nKristin var redd for én ting. Venner hjemme hadde advart henne mot diaré, som mange turister får de første dagene. Læreren ristet på hodet. «Det er sjelden maten på gata som gir diaré,» sa hun. «Her lages alt mens du ser på, og alt blir stekt på høy varme. Drikk vann fra flaske, og vask hendene.» Kristin fulgte rådet, og hun slapp unna.\n\nOm kvelden satt hun ved elva med et beger kald te og en tallerken krydret svinekjøtt med ris. En lett bris kom inn fra vannet og gjorde den tunge varmen lettere å bære. Hun holdt gaffelen i venstre hånd, slik hun hadde lært, og tenkte at hun hadde lært mer om byen på et kjøkken enn på noe museum.\n\nSpørsmål:\nHvorfor lager mange i Bangkok sjelden middag selv?\nDe kjøper maten på gata, og konsumet av slik mat er svært stort.\nHvordan bruker man gaffelen i Thailand?\nMan holder gaffelen i venstre hånd og skyver maten over på skjeen. Gaffelen kommer aldri i munnen.\nHvordan skal thailandsk mat krydres, ifølge læreren?\nDen skal krydres i balanse: sterkt, surt, søtt og salt på én gang.\nHvorfor er det sjelden maten på gata som gir diaré?\nAlt lages mens kunden ser på, og alt blir stekt på høy varme.\nHva gjorde Kristin om kvelden?\nHun satt ved elva med et beger kald te og krydret svinekjøtt, mens en lett bris kom inn fra vannet."
+    },
+    {
+      "title": "Villmark ved byen",
+      "summary": "A Norwegian engineer walks his restless terrier in Vancouver, where the wilderness starts at the city's edge.",
+      "newWords": [
+        "villmark",
+        "snor",
+        "reim",
+        "terrier",
+        "tupp",
+        "nordside",
+        "vestkyst",
+        "dekar",
+        "rastløs",
+        "iherdig"
+      ],
+      "text": "Få storbyer ligger så nær villmarka som Vancouver. Byen ligger på vestkysten av Canada, mellom havet og høye fjell, og fra sentrum kan man se snø på toppene store deler av året. Mange som flytter dit fra Norge, sier at vestkysten av Canada minner om Vestlandet hjemme: regn, grønne skoger og fjell som går bratt ned i sjøen.\n\nJonas er ingeniør fra Ålesund og har bodd i Vancouver i tre år. Han har en terrier som heter Bamse. Terrieren er liten, men rastløs; den klarer ikke å sitte stille i mer enn et minutt. Derfor går Jonas tur med den hver morgen før jobb.\n\nTuren går som regel til Stanley Park, en stor park på tuppen av halvøya der sentrum ligger. Parken dekker rundt 4000 dekar, og mye av den er tett skog med trær som er flere hundre år gamle. «Så mange dekar med skog ti minutter fra kontoret,» sier Jonas. «Det er en luksus.»\n\nI parken må hunder gå i snor. Jonas holder snora godt fast, for terrieren er iherdig når den har fått lukten av en fugl eller en hare. Den drar og drar og gir seg ikke. «Han er den mest iherdige jegeren jeg kjenner,» sier Jonas og ler. På ryggen bærer Jonas en liten sekk med to reimer, med vann, en jakke og noe godt til hunden. Reimene er slitt etter tre år med regn.\n\nFra tuppen av halvøya ser man over vannet til nordsiden av byen. På nordsiden reiser fjellene seg rett opp fra husene, og der starter stier som går flere dager inn i villmarka. Om helgene tar Jonas ferja over til nordsiden. Da får terrieren gå uten snor på steder der det er lov, og den rastløse hunden blir endelig rolig.\n\nJonas sier at Vancouver har lært ham noe om forholdet mellom by og natur. «Hjemme tenkte jeg at villmark er noe man må reise langt for å finne,» sier han. «Her ligger den rett utenfor døra. Byen og skogen lever side om side, og ingen av dem ser ut til å ha vunnet.»\n\nSpørsmål:\nHvor ligger Vancouver?\nVancouver ligger på vestkysten av Canada, mellom havet og høye fjell.\nHvorfor går Jonas tur med terrieren hver morgen?\nTerrieren er rastløs og klarer ikke å sitte stille lenge.\nHvor stor er Stanley Park?\nParken dekker rundt 4000 dekar, og mye av den er tett skog.\nHvorfor må Jonas holde snora godt fast?\nTerrieren er iherdig når den har fått lukten av en fugl eller en hare, og den gir seg ikke.\nHva finner man på nordsiden av byen?\nDer reiser fjellene seg rett opp, og stier går flere dager inn i villmarka."
+    },
+    {
+      "title": "En omvisning i Athen",
+      "summary": "A guide shows Norwegian tourists the Acropolis and talks about temples, philosophers and the price of greatness.",
+      "newWords": [
+        "hedensk",
+        "dyd",
+        "materie",
+        "kulturhistorie",
+        "omvisning",
+        "storhet",
+        "analytisk",
+        "egoisme",
+        "minnesmerke",
+        "statsmann"
+      ],
+      "text": "Det er tidlig morgen i Athen, og sola har ennå ikke rukket å gjøre steinene varme. Eleni samler en gruppe norske turister ved inngangen til Akropolis. Hun har gitt omvisninger her i over tjue år, og hun begynner hver omvisning på samme måte: «Glem det dere har lest. Se på steinene først.»\n\nAkropolis er en klippe midt i byen, og på toppen står Parthenon, et tempel som ble bygget for nesten 2500 år siden. For grekerne den gang var dette et hellig sted. Templet var viet gudinnen Athena, og Eleni forklarer at det var en hedensk religion med mange guder, lenge før kristendommen kom til Hellas. «Ordet hedensk betyr bare at folk trodde på andre guder enn den kristne,» sier hun. «For dem var templet like hellig som en kirke er for mange i dag.»\n\nMens gruppen går langs søylene, forteller Eleni om Perikles, statsmannen som fikk templet bygget. Han var en dyktig taler og en klok statsmann, men han var også omstridt. Noen mente at han brukte byens penger på sin egen ære, og at hele prosjektet var et utslag av egoisme. Andre så det motsatt: at han ville gi hele byen noe å være stolt av.\n\n«Byens storhet var viktig for Perikles,» sier Eleni. «Men storheten var ikke bare marmor. Den lå også i ideene.» Her i Athen gikk filosofer rundt på torget og stilte spørsmål om alt. Hva er en dyd? Er mot en dyd, eller er det kunnskap? Sokrates mente at ingen gjør galt med vilje, og at kunnskap er den høyeste dyden.\n\nAndre filosofer var mer opptatt av naturen. De spurte hva verden egentlig er laget av. Noen mente at all materie består av små deler som ikke kan deles mer, og de kalte dem atomer. «Tenk på det,» sier Eleni. «Uten moderne verktøy, bare med tanken, kom de fram til at materie har en minste del.» Denne analytiske måten å tenke på, der man deler et stort problem opp i mindre spørsmål, er kanskje Athens viktigste bidrag til kulturhistorien.\n\nTil slutt stopper gruppen ved en liten stein med navn hogd inn. Det er et minnesmerke over soldater som falt i en krig for lenge siden. Eleni sier at hun alltid avslutter her. «Templene viser byens storhet,» sier hun, «men minnesmerket viser prisen. Begge deler hører med i kulturhistorien.»\n\nSpørsmål:\nHvordan begynner Eleni hver omvisning?\nHun ber gruppen glemme det de har lest og se på steinene først.\nHva betyr ordet hedensk, ifølge Eleni?\nDet betyr at folk trodde på andre guder enn den kristne.\nHvorfor var Perikles omstridt?\nNoen mente at templet var et utslag av egoisme, mens andre mente at han ville gi byen noe å være stolt av.\nHva mente noen filosofer om materie?\nDe mente at all materie består av små deler som ikke kan deles mer.\nHva er kanskje Athens viktigste bidrag til kulturhistorien?\nDen analytiske måten å tenke på, der man deler et stort problem opp i mindre spørsmål.\nHvorfor avslutter Eleni ved minnesmerket?\nTemplene viser byens storhet, men minnesmerket viser prisen."
+    },
+    {
+      "title": "Et alfabet for alle",
+      "summary": "In her diary a Norwegian teacher describes Seoul's schools, the Korean alphabet and children who sleep too little.",
+      "newWords": [
+        "alfabet",
+        "subjekt",
+        "skolebarn",
+        "pedagog",
+        "retting",
+        "leggetid",
+        "videospill",
+        "resette",
+        "kvise",
+        "begavet"
+      ],
+      "text": "Mandag. Jeg har vært i Seoul i tre dager nå, sammen med to andre pedagoger fra Bergen. Vi er her for å se hvordan koreanske skoler arbeider. Byen er enorm, og den er aldri helt stille: Selv midt på natta lyser skjermene, og togene går.\n\nI dag besøkte vi en barneskole. Det første jeg la merke til, var hvor tidlig skolebarna lærer å lese. Grunnen er alfabetet. Det koreanske alfabetet ble laget på 1400-tallet av en konge som ville at vanlige folk skulle kunne lese, ikke bare de lærde. Alfabetet har bare 24 bokstaver, og formene er logiske: Noen av dem viser hvordan munnen og tunga ligger når man sier lyden. En lærer fortalte at et begavet barn kan lære det på en formiddag, og at en voksen lærer det på en uke. Hun skrev bokstavene på tavla for oss, og etter en time kunne jeg lese mitt eget navn.\n\nHun viste oss også hvordan en koreansk setning er bygget. Verbet kommer til slutt, og subjektet blir ofte utelatt når det er klart hvem man snakker om. «På norsk må subjektet nesten alltid være med,» sa jeg. «Vi kan ikke bare ta bort ordet jeg.» Hun lo og sa at på koreansk er en setning uten subjekt helt vanlig.\n\nTirsdag. I dag så vi den andre siden av skolen. Mange skolebarn i Seoul går på private kurs om ettermiddagen og kvelden, etter at den vanlige skoledagen er over. Det er ikke uvanlig at en tenåring kommer hjem klokka 22. Lærerne vi snakket med, var bekymret. «Barna er flinke og begavede,» sa en av dem, «men de sover for lite.» Hun fortalte at mange foreldre ikke lenger klarer å holde en fast leggetid. Leggetiden blir skjøvet stadig senere, også fordi barna spiller videospill når de endelig er hjemme.\n\nByen er kjent for videospill. Noen unge spiller som jobb og blir stjerner, og i store haller ser tusenvis av mennesker på at andre spiller. En gutt på fjorten med kviser i panna fortalte meg stolt at han trener tre timer hver dag. Moren hans hadde prøvd å stenge nettet om kvelden, men han hadde lært seg å resette ruteren. Nå har hun gjemt ruteren, så han ikke får resette den igjen. Han trakk på skuldrene og klødde seg på en av kvisene.\n\nOnsdag. Siste dag. Jeg satt sammen med en lærer mens hun holdt på med retting av prøver. Denne gangen tok retting ikke lang tid, for nesten alle hadde svart riktig. «Det er ikke det de kan, jeg er bekymret for,» sa hun. «Det er om de rekker å være barn.» Som pedagog forstår jeg henne godt, og jeg tar med meg den setningen hjem: et alfabet laget for alle, og barn som har for lite tid.\n\nSpørsmål:\nHvorfor ble det koreanske alfabetet laget?\nEn konge ville at vanlige folk skulle kunne lese, ikke bare de lærde.\nHvordan skiller en koreansk setning seg fra en norsk?\nVerbet kommer til slutt, og subjektet blir ofte utelatt.\nHvorfor sover mange skolebarn i Seoul for lite?\nDe går på kurs om kvelden, og leggetiden blir skjøvet senere fordi de spiller videospill.\nHvordan kom gutten forbi morens regel?\nHan hadde lært seg å resette ruteren.\nHva var læreren bekymret for?\nHun var bekymret for om barna rekker å være barn."
+    },
+    {
+      "title": "Sykkelbyen",
+      "summary": "Local politicians from a merged Norwegian municipality visit Copenhagen to learn about climate, cycling and community houses.",
+      "newWords": [
+        "varaordfører",
+        "fylkesordfører",
+        "kommunesammenslåing",
+        "klimautslipp",
+        "samfunnshus",
+        "tverrfaglig",
+        "rådgivning",
+        "tilslutte",
+        "ringvirkning",
+        "ekspansjon"
+      ],
+      "text": "Da kommunen vår ble slått sammen med nabokommunen for tre år siden, var det mange som fryktet at de små stedene skulle bli glemt. Kommunesammenslåingen ga oss én stor kommune med ett rådhus, og mange spurte seg hva som nå skulle skje med det gamle samfunnshuset i bygda. I forrige uke reiste en gruppe fra kommunen og fylket til København for å lære av en by som har gått gjennom store forandringer. Med på turen var varaordføreren, Hilde Berg, og fylkesordføreren, Per Nilsen.\n\nKøbenhavn er i dag kjent som en av verdens beste byer for dem som sykler. Slik har det ikke alltid vært. På 1960-tallet var gatene fulle av biler, og byen var på vei til å bli som mange andre storbyer. Så steg prisen på olje kraftig, og danskene begynte å tenke nytt. I dag sykler nesten halvparten av byens innbyggere til jobb eller skole. Målet er at byen skal kutte klimautslippene sine kraftig, og trafikken står for en stor del av klimautslippene.\n\nVaraordføreren hadde fått i oppdrag å finne ut hva en mindre kommune kan lære. Hun møtte en dansk planlegger som arbeider med byens ekspansjon. København vokser raskt, og nye bydeler bygges der det før lå havn og industri. Planleggeren forklarte at ekspansjonen ikke må skje på bekostning av klimaet: Nye boliger bygges nær tog og sykkelveier, slik at folk ikke trenger bil.\n\n«Det som slo meg, var hvor tverrfaglig de jobber,» sa Hilde Berg etterpå. «Ingeniører, arkitekter, leger og lærere sitter i samme gruppe. Hos oss jobber hver etat for seg.» Hun mener at et tverrfaglig samarbeid kunne ha hjulpet etter kommunesammenslåingen, da mange ansatte måtte finne nye måter å jobbe sammen på.\n\nFylkesordføreren var mest opptatt av ringvirkningene. En ny bro for sykler og gående hadde ikke bare gitt kortere vei til jobb. Den hadde også gitt nye kafeer og butikker langs ruta, og dermed flere arbeidsplasser. «Ringvirkningene av en god investering er ofte større enn selve investeringen,» sa fylkesordføreren. Han håper at flere kommuner i fylket vil tilslutte seg et nettverk av nordiske byer som vil kutte klimautslipp. Kommunen vår har allerede tilsluttet seg.\n\nGruppen besøkte også et nytt hus i en av de nyeste bydelene. Huset fungerer som et samfunnshus for hele nabolaget. Her er det bibliotek, et kjøkken som alle kan låne, og et kontor der innbyggerne kan få gratis rådgivning om alt fra å spare strøm til å søke jobb. Det var nettopp en slik idé varaordføreren ville ta med hjem. Hun vil foreslå at det gamle samfunnshuset i bygda pusses opp og får et tilbud om rådgivning to dager i uka.\n\nSpørsmål:\nHvorfor reiste gruppen til København?\nDe ville lære av en by som har gått gjennom store forandringer.\nHvordan skal byens ekspansjon skje uten å skade klimaet?\nNye boliger bygges nær tog og sykkelveier, slik at folk ikke trenger bil.\nHva var det som slo varaordføreren?\nHun la merke til hvor tverrfaglig danskene jobber.\nHva mente fylkesordføreren om ringvirkninger?\nHan mente at ringvirkningene av en god investering ofte er større enn selve investeringen.\nHva vil varaordføreren foreslå når hun kommer hjem?\nHun vil foreslå at det gamle samfunnshuset pusses opp og får et tilbud om rådgivning."
+    },
+    {
+      "title": "Bak porten i Wien",
+      "summary": "A Norwegian music student in Vienna describes high ceilings, quiet courtyards, the Habsburgs and the city's balls.",
+      "newWords": [
+        "herredømme",
+        "giftermål",
+        "borgerskap",
+        "takhøyde",
+        "bakgård",
+        "fengende",
+        "kontrovers",
+        "behage",
+        "slør",
+        "tilreisende"
+      ],
+      "text": "Marte studerer musikk i Wien og bor i en gammel leilighet i tredje etasje. Takhøyden er nesten fire meter, og vinduene er så høye at hun trenger en stige for å vaske dem. Slike leiligheter ble bygget på 1800-tallet for byens borgerskap: kjøpmenn, leger og advokater som ville vise at de hadde lyktes. Den store takhøyden var et tegn på rikdom. Jo høyere tak, desto finere familie.\n\nHuset har en bakgård, slik nesten alle de gamle husene i Wien har. Fra gata ser man bare en tung port, men bak porten åpner bakgården seg, stille og grønn, med et stort tre og noen benker. «Det er som å gå inn i en annen by,» sier Marte. «Gata bråker, men i bakgården hører jeg bare fugler.»\n\nWien var i flere hundre år sentrum for et stort rike. Habsburg-familien hadde herredømme over store deler av Europa, og mye av herredømmet ble ikke vunnet med krig, men med giftermål. Et gammelt ordtak sier det slik: Andre får føre krig, men du, lykkelige Østerrike, skal gifte deg. Et godt giftermål mellom to kongehus kunne gi mer land enn ti år med krig.\n\nByens borgerskap fikk etter hvert sin egen kultur. På 1800-tallet danset folk på store ball, og de fengende melodiene til Johann Strauss ble spilt over hele verden. «En god dans fra Wien er fengende på en måte som er vanskelig å forklare,» sier Marte. «Den sitter i kroppen før du har hørt den ferdig.»\n\nHver vinter holdes det fortsatt hundrevis av ball i byen. Ballene er likevel ikke uten kontrovers. Noen mener at de er en vakker tradisjon, andre at de er et gammeldags show for de rike. Kontroversen kommer tilbake hvert år når prisene på billettene blir kjent. Marte forstår begge sider. «Det er dyrt,» sier hun, «men jeg tror ikke ballene først og fremst er til for å behage de rike. De er til for musikken.»\n\nHvert år kommer millioner av tilreisende for å se slottene og kirkene. Byen gjør mye for å behage dem, med konserter, kaffe og kaker på hvert hjørne. De tilreisende ser gullet og marmoren. Marte har lært å se noe annet.\n\nOm morgenen, før hun går til skolen, står hun ofte ved vinduet. Da ligger det gjerne et tynt slør av tåke over byen og elva Donau. Takene og tårnene står fram gjennom sløret, grå og stille. Så stiger sola, tåka letter, og byen våkner. «Det er da jeg liker Wien best,» sier Marte. «Før de tilreisende står opp.»\n\nSpørsmål:\nHvorfor har Martes leilighet så stor takhøyde?\nDen ble bygget for byens borgerskap, som ville vise at de hadde lyktes.\nHva finner man bak porten i de gamle husene?\nBak porten ligger en stille, grønn bakgård.\nHvordan fikk Habsburg-familien herredømme over store deler av Europa?\nMye av herredømmet ble vunnet med giftermål, ikke med krig.\nHvorfor er ballene en kontrovers?\nNoen mener at de er en vakker tradisjon, andre at de er et gammeldags show for de rike.\nHva ser Marte fra vinduet om morgenen?\nHun ser et tynt slør av tåke over byen og elva Donau."
+    },
+    {
+      "title": "Romfart og olje i Houston",
+      "summary": "An engineer from Stavanger compares two oil cities and tells about the space probe he builds in Houston.",
+      "newWords": [
+        "sonde",
+        "luftrom",
+        "flyge",
+        "havarere",
+        "oljepenger",
+        "punktere",
+        "automatisering",
+        "talentfull",
+        "trøkk"
+      ],
+      "text": "Ole Hansen kom til Houston fra Stavanger for femten år siden. Han hadde jobbet med olje hjemme, og Houston er oljeindustriens hovedstad i USA. «Begge byene er bygget på olje,» sier han. «Forskjellen er hva man har gjort med pengene. I Norge ble oljepengene lagt i et fond for framtiden. Her i Texas ble oljepengene brukt til motorveier, høye tårn og en by som bare fortsetter å vokse.»\n\nHouston er også en by for romfart. Det var hit astronautene snakket da de landet på månen i 1969, og her ligger fortsatt senteret som styrer NASAs ferder. I dag jobber Ole ikke lenger med olje, men med en sonde som skal sendes til en av Jupiters måner. Sonden skal flyge i nesten seks år før den kommer fram.\n\n«Å flyge så langt er det enkleste,» sier Ole. «Det vanskelige er alt som kan gå galt underveis.» Hvis en del havarerer langt ute i rommet, kan ingen reise ut og reparere den. Derfor bygger teamet alt dobbelt. Han forteller om en sonde som havarerte på 1990-tallet fordi to grupper hadde regnet med forskjellige mål. «Én liten feil, og flere års arbeid var borte.»\n\nMye av arbeidet er i dag automatisk. Automatiseringen betyr at sonden må ta mange avgjørelser selv, fordi et signal fra jorda bruker lang tid på å nå fram. Men automatisering erstatter ikke mennesker, mener Ole. «Vi trenger talentfulle folk som forstår hva maskinene gjør. Teamet mitt er det mest talentfulle jeg har jobbet med.»\n\nSåfremt alt går etter planen, skal sonden skytes opp om to år. Raketten skytes opp fra Florida, og da stenges luftrommet over et stort område. Fly må ta en annen vei, og båter må holde seg unna. «Luftrommet er fullt av fly hver dag,» sier Ole, «så det er ikke lite å be om.»\n\nLivet i Houston har ellers sine egne utfordringer. Byen er enorm, og uten bil kommer man ingen vei. Den første uka punkterte Ole på motorveien i 35 graders varme. «Jeg sto der og svettet ved et punktert dekk og tenkte: Hva har jeg gjort?» sier han og ler. Men han ble. «Det er et trøkk i denne byen, en energi jeg ikke har funnet noe annet sted. Folk vil noe. Det trøkket gir meg lyst til å jobbe.»\n\nSpørsmål:\nHva er forskjellen på hvordan Norge og Texas brukte oljepengene?\nI Norge ble oljepengene lagt i et fond, mens de i Texas ble brukt til veier, tårn og vekst.\nHvor lenge skal sonden flyge?\nSonden skal flyge i nesten seks år før den kommer fram.\nHvorfor bygger teamet alt dobbelt?\nHvis en del havarerer langt ute i rommet, kan ingen reparere den.\nHvorfor er automatisering viktig for sonden?\nSonden må ta mange avgjørelser selv, fordi et signal fra jorda bruker lang tid på å nå fram.\nHva skjer med luftrommet når raketten skytes opp?\nLuftrommet over et stort område blir stengt, og fly må ta en annen vei.\nHva liker Ole ved Houston?\nHan liker trøkket i byen, en energi han ikke har funnet noe annet sted."
+    },
+    {
+      "title": "Oldefarens New York",
+      "summary": "A woman follows her great-grandfather's path from Ellis Island to the Norwegian part of Brooklyn.",
+      "newWords": [
+        "flyreise",
+        "identifisering",
+        "dødsårsak",
+        "flagge",
+        "misunnelse",
+        "skur",
+        "statsleder",
+        "latterliggjøre"
+      ],
+      "text": "I dag tar en flyreise fra Oslo til New York rundt åtte timer. Da Ingrids oldefar, Anders, reiste samme vei i 1903, tok turen nesten to uker, først med båt til England og så med et stort skip over Atlanterhavet. Ingrid hadde lenge villet se byen der han bygde livet sitt, og i vår satte hun seg endelig på flyet. Flyreisen gikk fort: Hun så en film, spiste og sov litt. Likevel tenkte hun hele tiden på hvor annerledes reisen hadde vært for ham.\n\nDet første hun gjorde i New York, var å ta ferja til Ellis Island. Her kom millioner av innvandrere i land mellom 1892 og 1954. I den store hallen ble hver enkelt kontrollert. Identifiseringen var grundig: Navn, alder, yrke og helse ble skrevet ned, og leger så etter sykdom. Ingrid fant oldefarens navn i en gammel bok. Han var 19 år, snekker, og hadde 25 dollar på lomma. Hun visste at identifiseringen ikke alltid gikk uten feil. Mange fikk navnet sitt skrevet feil, og noen beholdt det nye navnet resten av livet.\n\nAnders slo seg ned i Brooklyn, i et område som senere ble kalt «Lille Norge» fordi så mange nordmenn bodde der. Nordmennene ble kjent som dyktige snekkere og sjøfolk. Men de første årene var tunge. Den første vinteren bodde Anders i et skur bak verkstedet der han jobbet. Skuret hadde ingen ovn. Engelsken hans var dårlig, og han ble latterliggjort for måten han snakket på. I et brev hjem skrev han at det var tungt å bli latterliggjort hver dag, men at han ikke ville gi opp.\n\nBrevene hans ble lest høyt hjemme i bygda. Mange der følte misunnelse når de hørte om lønningene i Amerika, og flere reiste etter ham. Men misunnelsen ble mindre når de leste hele brevet, for han skrev også om kulde, sult og lange dager.\n\nI et arkiv fant Ingrid også et papir fra legen som var skrevet da oldefaren døde i 1951. Han ble 67 år. Dødsårsaken var et svakt hjerte. For Ingrid var det rart å se en så kort setning om et så langt liv. Hun skrev dødsårsaken ned i boka si, ved siden av navnet hans fra Ellis Island: begynnelsen og slutten.\n\nDen 17. mai gikk hun i toget i Brooklyn. Det holdes fortsatt et stort tog der hvert år, og mange av husene flagger med både det norske og det amerikanske flagget. Ingrid møtte en gammel mann som fortalte at han har pleid å flagge fra balkongen sin hver 17. mai i over 70 år. Hun tenkte at oldefaren kanskje hadde gått i det samme toget.\n\nDen siste dagen besøkte hun FN-bygningen på Manhattan. Hver høst samles statsledere fra hele verden her. Guiden fortalte at statslederne bor på hotell i flere dager, og at trafikken i byen stopper helt når de kjører forbi. Ingrid tenkte at New York fortsatt var et sted der hele verden møttes, slik den hadde vært for oldefaren.\n\nSpørsmål:\nHvor lang tid tok reisen for oldefaren, og hvor lang tid tok Ingrids flyreise?\nOldefarens reise tok nesten to uker, mens Ingrids flyreise tok rundt åtte timer.\nHva skjedde under identifiseringen på Ellis Island?\nNavn, alder, yrke og helse ble skrevet ned, og leger så etter sykdom.\nHvordan var den første tiden i Brooklyn for Anders?\nHan bodde i et skur uten ovn, og han ble latterliggjort for engelsken sin.\nHvorfor følte mange hjemme misunnelse?\nDe hørte om lønningene i Amerika i brevene hans.\nHva var oldefarens dødsårsak?\nDødsårsaken var et svakt hjerte.\nHvem samles i FN-bygningen hver høst?\nStatsledere fra hele verden samles der."
+    },
+    {
+      "title": "Byen under bakken",
+      "summary": "Montreal's underground city runs on hydropower from the north, where a long dispute over the land was settled.",
+      "newWords": [
+        "vannkraftverk",
+        "grunneier",
+        "tvist",
+        "nemnd",
+        "bestride",
+        "understøtte",
+        "omslag",
+        "sirkulasjon",
+        "rutte"
+      ],
+      "text": "Vinteren i Montreal er lang og hard. Temperaturen kan falle til minus 30 grader, og vinden fra elva gjør kulda enda verre. Været kan også skifte brått. Et omslag fra mildt vær til sterk kulde kan komme i løpet av noen timer, og da fryser gatene til is. Slike omslag i været er en del av hverdagen for dem som bor i byen.\n\nByen har funnet sin egen løsning: en by under bakken. Under sentrum går et nettverk av ganger på over 30 kilometer, med butikker, kafeer, kontorer og stasjoner. Om vinteren kan man gå fra leiligheten til jobben og videre til kinoen uten å gå ut. For at lufta skal være frisk, må det være god sirkulasjon. Store vifter sørger for at lufta er i sirkulasjon hele tiden, slik at gangene ikke blir tunge og varme.\n\nAll denne energien må komme fra et sted. Provinsen Québec får nesten all strømmen sin fra vannkraft. Langt mot nord ligger enorme vannkraftverk ved elver som renner ut i Hudsonbukta. For en nordmann er dette kjent: Også i Norge kommer det meste av strømmen fra vannkraftverk. Fordi strømmen er billig, er det lett å rutte med den. Myndighetene ber nå folk om å spare, og byen sier at den ikke lenger vil rutte med energien.\n\nVannkraften har også en annen side. Da de store demningene ble bygget på 1970-tallet, ble store områder satt under vann. På dette landet hadde urfolk levd i tusenvis av år, med jakt og fiske. Staten mente at landet tilhørte staten. Urfolket bestred dette. De mente at de var de rettmessige grunneierne, og at ingen kunne bygge der uten å spørre dem. Staten bestred på sin side at de hadde en slik rett.\n\nTvisten gikk til retten, og i 1975 kom partene fram til en stor avtale. Urfolket fikk penger og rett til å jakte og fiske i store deler av området, og staten fikk bygge. Pengene har siden understøttet skoler og helse i bygdene, og avtalen skulle også understøtte språket og kulturen deres. Senere ble det opprettet en nemnd der begge parter sitter. Nemnda skal behandle nye planer før det bygges, slik at en ny tvist kan løses før den blir stor.\n\nIkke alle er fornøyde med resultatet. Noen mener at avtalen ga for lite, og at grunneiere aldri burde ha blitt tvunget til å forhandle med en stat som allerede hadde begynt å bygge. Andre mener at den har vært et forbilde for andre land.\n\nNeste gang du går gjennom den varme byen under bakken i Montreal, kan du tenke på at lyset kommer fra elver langt mot nord, og på den lange tvisten om hvem som eide dem.\n\nSpørsmål:\nHva er et omslag i været, og hvorfor er det et problem i Montreal?\nVæret kan skifte fra mildt vær til sterk kulde på noen timer, og da fryser gatene til is.\nHvordan holdes lufta frisk i byen under bakken?\nStore vifter sørger for god sirkulasjon av lufta hele tiden.\nHvor får Québec strømmen sin fra?\nNesten all strømmen kommer fra store vannkraftverk langt mot nord.\nHva handlet tvisten om?\nDen handlet om hvem som var de rettmessige grunneierne av landet.\nHva gjør nemnda?\nNemnda behandler nye planer før det bygges."
+    },
+    {
+      "title": "Et brev fra Madrid",
+      "summary": "In a letter home a Norwegian woman in Madrid writes about paperwork, her language class and the clichés people have.",
+      "newWords": [
+        "blondine",
+        "nedsettende",
+        "assosiere",
+        "oppreisning",
+        "uvenn",
+        "egge",
+        "israeler",
+        "barnetrygd",
+        "selvangivelse"
+      ],
+      "text": "Kjære Tone!\n\nNå har vi bodd i Madrid i tre måneder, og jeg har endelig tid til å skrive et ordentlig brev. Byen er varm, høylytt og vennlig. Folk spiser middag klokka ti om kvelden, og barna leker ute på plassene til langt på natt. Jeg tror jeg kommer til å trives.\n\nDen første tiden gikk mest med til papirer. Du vet hvor ryddig alt er hjemme; her må man stå i kø for nesten alt. Jeg brukte lang tid på å finne ut om vi fortsatt kan få barnetrygd fra Norge. Svaret var nei: Når hele familien flytter ut av landet, faller barnetrygden som regel bort. Spania har sine egne ordninger, som vi nå har søkt om. Til våren må vi dessuten levere selvangivelse i begge land, siden Jon fortsatt hadde lønn fra Norge i januar. Jeg gruer meg allerede til den spanske selvangivelsen, men en venninne har lovet å hjelpe meg.\n\nHver morgen går jeg på kurs i spansk. Vi er tolv elever fra hele verden. Ved siden av meg sitter Noa, en israeler fra Haifa som har flyttet hit med mannen sin. Hun er den første israeleren jeg har blitt kjent med. Vi er de eneste i klassen som ikke snakker et språk som ligner på spansk, så vi pleier å egge hverandre til å si mer i timene. Hvis den ene tier, prøver den andre å egge henne til å svare.\n\nDet er rart hvor mye folk assosierer med et land. Når jeg sier at jeg er norsk, assosierer mange det med snø, fjorder og blondiner. En mann i butikken spurte rett ut hvorfor jeg ikke hadde lyst hår. Han hadde trodd at alle norske kvinner var blondiner! Jeg har mørkt hår, som du vet. Det var ikke ment nedsettende, og jeg lo av det. Men læreren vår sa noe klokt etterpå: at selv vennlige fordommer kan bli nedsettende, fordi de gjør et menneske mindre enn det er. Noa sier at hun kjenner seg igjen. Mange vet bare det de har sett på nyhetene om landet hennes, ikke noe om strendene, maten eller musikken.\n\nEn dag ble Noa og en annen elev uvenner. Han hadde laget en spøk om landet hennes i timen, og hun ble lei seg. I noen dager satt de som uvenner i hver sin ende av rommet. Så kom han en morgen med kaffe til henne og ba om unnskyldning foran hele klassen. Noa sa etterpå at hun følte at hun fikk oppreisning. Jeg tror oppreisningen betydde mer for henne enn selve ordene, fordi den kom foran alle.\n\nJeg savner deg og regnet i Bergen, i hvert fall nesten. Kom og besøk oss!\n\nHilsen Kari\n\nSpørsmål:\nHvorfor får ikke familien barnetrygd fra Norge lenger?\nNår hele familien flytter ut av landet, faller barnetrygden som regel bort.\nHvorfor må familien levere selvangivelse i begge land?\nJon hadde fortsatt lønn fra Norge i januar.\nHvem er Noa?\nNoa er en israeler fra Haifa som går på kurs i spansk sammen med Kari.\nHva assosierer mange med Norge, ifølge Kari?\nMange assosierer Norge med snø, fjorder og blondiner.\nHva sa læreren om vennlige fordommer?\nHun sa at selv vennlige fordommer kan bli nedsettende, fordi de gjør et menneske mindre enn det er.\nHvorfor betydde unnskyldningen så mye for Noa?\nDen kom foran hele klassen, så hun følte at hun fikk oppreisning."
+    }
+  ]
+}

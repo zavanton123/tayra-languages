@@ -1,0 +1,225 @@
+{
+  "id": "no-mini-7800",
+  "rankUpTo": 7800,
+  "level": "C1",
+  "title": "Stat og borger",
+  "description": "Ten standalone texts on how the Norwegian state and its citizens meet: in the fire service, the courts, the welfare office, the archives, public procurement, nature management and the political history behind it all.",
+  "topic": "State and citizens",
+  "names": [
+    "Norge",
+    "Norges",
+    "Silje",
+    "Siljes",
+    "Silje Hansen",
+    "Arbeiderpartiet",
+    "Stortinget",
+    "Svalbard",
+    "Narvik",
+    "Narviks",
+    "Jonas",
+    "Storbritannia",
+    "Frankrike",
+    "Polen",
+    "Genève",
+    "Ottawa",
+    "Brigade Nord",
+    "Kari",
+    "Karis",
+    "Lene",
+    "Lenes",
+    "NAV",
+    "Marco",
+    "Marcos",
+    "Italia",
+    "Ingrid",
+    "Ingrids",
+    "Finnmark",
+    "Miljødirektoratet",
+    "Arne",
+    "Arnes",
+    "Per",
+    "Pers",
+    "Ida",
+    "Idas",
+    "Nora",
+    "Noras",
+    "Arkivverket",
+    "Forsvaret",
+    "Hans Brun",
+    "Brun",
+    "Bruns",
+    "Tyskland",
+    "Vestlandet",
+    "EØS"
+  ],
+  "lessons": [
+    {
+      "title": "Brannen på campingplassen",
+      "summary": "A firefighter in a small municipality tells how her crew stopped a summer fire among caravans, and why she gives the credit to the passer-by who called.",
+      "newWords": [
+        "brannmann",
+        "lovpålagt",
+        "sommertid",
+        "campingvogn",
+        "forbipasserende",
+        "ukontrollert",
+        "tilførsel",
+        "bragd",
+        "utmerke",
+        "instinkt"
+      ],
+      "text": "Alle kommuner i Norge har en lovpålagt plikt til å ha et brannvesen. Plikten står i loven, og den gjelder for den minste bygda like mye som for de store byene. I kommunen der Silje Hansen bor, er brannvesenet lite: fire faste brannmenn og tolv andre som har vanlige jobber, men som rykker ut når alarmen går.\n\nSilje har vært brannmann i 11 år. Hun sier at sommertiden er den travleste delen av året. Da er det tørt i skogen, og mange turister kjører gjennom bygda med campingvogn. En kveld i juli i fjor ringte en forbipasserende bilist til brannvesenet. Han hadde sett tykk røyk over campingplassen ved sjøen. En campingvogn sto i full brann, og flammene var i ferd med å spre seg til to andre campingvogner.\n\nDa Silje og kollegene kom fram, var brannen nesten ukontrollert. Vinden blåste inn fra sjøen og ga flammene stadig ny tilførsel av oksygen. Det første brannmennene gjorde, var å kjøle ned de to campingvognene som ennå ikke brant. «Vi måtte stanse tilførselen av varme til de andre vognene før vi kunne slokke selve brannen,» forklarer hun. Etter en halv time var brannen under kontroll, og ingen var skadet.\n\nSiden har mange i bygda omtalt den kvelden som en bragd. Lokalavisen skrev at brannmennene hadde utmerket seg, og ordføreren kom med blomster. Silje vil likevel ikke kalle det en bragd. «Den virkelige helten var den forbipasserende som ringte,» sier hun. «Uten ham kunne brannen ha vært ukontrollert lenge før noen merket den.»\n\nHun forteller at folk ofte tror at en god brannmann følger sitt instinkt. Det er bare delvis riktig. Instinktet til de fleste mennesker er enten å løpe bort fra flammene eller å løpe rett inn for å hjelpe. Begge deler kan være farlig. «Vi trener for at vi ikke skal følge instinktet blindt,» sier Silje. «Vi skal tenke først og handle etterpå.»\n\nDerfor er også øvelsene lovpålagt. Hvert år må brannmennene øve på ulike typer brann, og kommunen må vise at beredskapen er god nok. Silje mener at det var slik kvelden i juli endte godt: Det var ikke mot alene som gjorde at mannskapet utmerket seg, men mange timer med kjedelig trening.\n\nNeste sommer skal kommunen sette opp skilt på campingplassen om hvordan man bruker gass trygt i en campingvogn. «Den beste brannen er den som aldri starter,» sier Silje.\n\nSpørsmål:\nHva er lovpålagt for alle kommuner i Norge?\nAlle kommuner har en lovpålagt plikt til å ha et brannvesen.\nHvorfor er sommertiden travel for brannmennene?\nDet er tørt i skogen, og mange turister kjører gjennom bygda med campingvogn.\nHvem varslet om brannen?\nEn forbipasserende bilist ringte etter at han hadde sett røyk over campingplassen.\nHvorfor var brannen vanskelig å få kontroll over?\nVinden ga flammene stadig ny tilførsel av oksygen, så brannen var nesten ukontrollert.\nHvorfor vil ikke Silje kalle innsatsen en bragd?\nHun mener at den virkelige helten var den forbipasserende som ringte.\nHva sier Silje om instinktet?\nHun sier at brannmennene trener for at de ikke skal følge instinktet blindt."
+    },
+    {
+      "title": "Synsing og resonnement",
+      "summary": "A column looks back at political debate in Norway after 1945 and asks what separates a reasoned argument from mere opinion.",
+      "newWords": [
+        "synsing",
+        "resonnement",
+        "etterkrigstid",
+        "vakuum",
+        "sosialdemokrat",
+        "marxistisk",
+        "arroganse",
+        "vendepunkt",
+        "kabinett",
+        "republikansk"
+      ],
+      "text": "Mange som er opptatt av politikk i dag, klager over at debatten har blitt til ren synsing. Alle har en mening, men få viser hvordan de har kommet fram til den. I en slik tid kan det være nyttig å se tilbake på etterkrigstiden, de første tiårene etter 1945, da Norge skulle bygges opp igjen.\n\nDa krigen var over, var mye ødelagt, særlig i nord. Mange fryktet et politisk vakuum: Hvem skulle ta ansvar, og hvilke ideer skulle styre gjenoppbyggingen? Vakuumet ble ikke langvarig. Sosialdemokratene i Arbeiderpartiet vant valget høsten 1945 og styrte landet i mange år. Målet deres var en sterk stat som kunne sikre arbeid, bolig og skole for alle. De var likevel ikke marxistiske i streng forstand. Et marxistisk parti vil at fellesskapet skal eie fabrikkene og jorda, mens sosialdemokratene ville styre markedet uten å avskaffe det.\n\nEtterkrigstiden var ikke fri for strid. Det fantes kritikere som mente at sosialdemokratene hadde fått for mye makt, og som så arroganse hos et parti som hadde vunnet for mange valg på rad. Et vendepunkt kom i 1963. Året etter en ulykke i en gruve på Svalbard, der 21 arbeidere omkom, ble regjeringen felt i Stortinget. For første gang siden krigen dannet de borgerlige partiene et kabinett alene. Kabinettet satt bare i noen uker, men vendepunktet var tydelig: Det var mulig å skifte regjering, og velgerne hadde fått se et alternativ.\n\nIkke alle spørsmål har vært like omstridt. Om Norge skulle være et kongerike eller en republikk, ble avgjort ved en folkeavstemning i 1905, og ønsket om en republikansk styreform har siden vært svakt. Likevel finnes det fortsatt noen som argumenterer for en republikansk ordning. Det er verdt å lytte til dem, ikke fordi de nødvendigvis har rett, men fordi de legger fram et resonnement som kan prøves.\n\nForskjellen mellom synsing og et resonnement er lett å forklare, men vanskelig å leve etter. Synsing sier bare: «Jeg synes.» Et resonnement sier: «Jeg mener dette fordi ..., og hvis jeg tar feil, vil vi se det på ...» Den som resonnerer, kan bli motbevist. Den som bare synser, kan aldri bli det. Kanskje er det her den egentlige arrogansen ligger: ikke i å ha en sterk mening, men i å nekte å forklare den.\n\nPolitikerne i etterkrigstiden var ingen helgener. Men et godt resonnement tvang dem den gang, som nå, til å vise hva målet var, og hvordan de ville nå den.\n\nSpørsmål:\nHva klager mange over når det gjelder debatten i dag?\nDe klager over at debatten har blitt til ren synsing.\nHva fryktet mange da krigen var over?\nDe fryktet et politisk vakuum, fordi det var uklart hvem som skulle ta ansvar.\nHva var målet til sosialdemokratene?\nMålet deres var en sterk stat som kunne sikre arbeid, bolig og skole for alle.\nHvordan skilte sosialdemokratene seg fra et marxistisk parti?\nDe ville styre markedet uten å avskaffe det, mens et marxistisk parti vil at fellesskapet skal eie fabrikkene.\nHvorfor var 1963 et vendepunkt?\nDe borgerlige partiene dannet et kabinett, og velgerne så at det var mulig å skifte regjering.\nHva er forskjellen mellom synsing og et resonnement?\nEt resonnement forklarer hvorfor man mener noe og kan bli motbevist, mens synsing bare sier hva man synes."
+    },
+    {
+      "title": "Budstikka og folkeretten",
+      "summary": "A teacher takes his class to a war museum in Narvik, where a guide explains the fighting of 1940 and the international law that protects civilians today.",
+      "newWords": [
+        "budstikke",
+        "franskmenn",
+        "brigade",
+        "retrett",
+        "tilflukt",
+        "skvadron",
+        "ubevæpnet",
+        "folkerett",
+        "bannlyse",
+        "kraftfull",
+        "klamre"
+      ],
+      "text": "En kald morgen i mars tok læreren Jonas med seg klassen sin til et krigsmuseum i Narvik. Elevene var 16 år, og de fleste visste lite om krigen utover det de hadde sett på film.\n\nDet første guiden viste dem, var en enkel trestokk. «Dette er en budstikke,» forklarte hun. I gamle dager, lenge før telefonen, sendte man en budstikke fra gård til gård når fienden kom. Den som fikk budstikka, måtte bringe den videre til neste gård, og alle våpenføre menn skulle møte opp. Budstikka var et tegn på at staten ikke kunne forsvare landet alene; den trengte hver eneste borger.\n\nSå fortalte guiden om våren 1940. Tyske soldater hadde tatt Narvik, og norske styrker kjempet sammen med soldater fra Storbritannia, Polen og Frankrike for å ta byen tilbake. Franskmennene var vant til fjell, men ikke til så mye snø. Mange franskmenn hadde aldri sett et vinterlandskap som det. En norsk brigade kjempet i fjellene øst for byen, og i slutten av mai var Narvik igjen i norske og allierte hender. Seieren varte ikke lenge. Krigen i Frankrike gikk dårlig, de allierte trengte soldatene sine der, og i juni kom ordren om retrett. Etter retretten måtte de norske styrkene gi opp.\n\nByen var nesten ødelagt. Mange sivile hadde søkt tilflukt i tunneler og kjellere, og noen hadde funnet tilflukt på gårder langt inne i dalene. Guiden viste et bilde av en familie som hadde klamret seg til hverandre i en kjeller mens bombene falt. «De klamret seg til håpet om at det snart skulle være over,» sa hun.\n\nIkke alle soldater ga opp. Noen kom seg over til Storbritannia og fortsatte kampen derfra. Guiden fortalte om en skvadron av norske flygere som fløy med britene resten av krigen. Elevene fikk se en modell av et fly fra skvadronen.\n\nTil slutt snakket guiden om folkeretten. Folkeretten er reglene som land har blitt enige om, også i krig. Den sier blant annet at ubevæpnede sivile skal beskyttes, og at en ubevæpnet fange ikke skal skades. Etter andre verdenskrig ble disse reglene gjort mer kraftfulle gjennom avtaler i Genève. Senere har land gått sammen for å bannlyse våpen som rammer sivile lenge etter at krigen er slutt. I 1997 ble landminer bannlyst i en avtale som ble underskrevet i Ottawa.\n\n«Er folkeretten kraftfull nok?» spurte en elev. Guiden tenkte seg om. «Den blir ikke alltid fulgt,» svarte hun. «Men uten den ville vi ikke engang hatt ord for det som er galt.» I dag finnes det fortsatt en norsk brigade i nord, Brigade Nord, men den har en helt annen verden å forholde seg til.\n\nSpørsmål:\nHva var en budstikke?\nDet var en trestokk som ble sendt fra gård til gård for å kalle sammen våpenføre menn når fienden kom.\nHvem kjempet sammen med de norske styrkene ved Narvik?\nSoldater fra Storbritannia, Polen og Frankrike kjempet sammen med dem, blant annet mange franskmenn.\nHvorfor kom ordren om retrett?\nKrigen i Frankrike gikk dårlig, og de allierte trengte soldatene sine der.\nHvor søkte de sivile tilflukt?\nDe søkte tilflukt i tunneler og kjellere, og noen på gårder langt inne i dalene.\nHva sier folkeretten om ubevæpnede sivile?\nDen sier at ubevæpnede sivile skal beskyttes.\nHva skjedde med landminene i 1997?\nLandminer ble bannlyst i en avtale som ble underskrevet i Ottawa."
+    },
+    {
+      "title": "Meddommeren",
+      "summary": "A citizen chosen as a lay judge tells what she learned in a case where an expert witness found that the accused had been psychotic.",
+      "newWords": [
+        "sakkyndig",
+        "drapsforsøk",
+        "psykose",
+        "schizofreni",
+        "vrangforestilling",
+        "politiarbeid",
+        "vitterlig",
+        "frifot",
+        "skjermet"
+      ],
+      "text": "I Norge dømmer ikke bare juristene. I mange saker sitter det også vanlige borgere i retten. De kalles meddommere, og de blir valgt av kommunen for fire år av gangen. Kari er 52 år og jobber på et lager. I fjor ble hun meddommer for første gang. Hun forteller at det var en av de viktigste ukene i livet hennes.\n\nSaken gjaldt en ung mann som var tiltalt for drapsforsøk. En kveld hadde han gått løs på naboen sin med en kniv. Naboen ble alvorlig skadet, men kom seg etter noen uker på sykehus. At den unge mannen hadde gjort det, var vitterlig: Han hadde selv ringt politiet etterpå, og det fantes vitner. Politiarbeidet var grundig, og ingen var i tvil om hva som hadde skjedd. Spørsmålet var et annet: Kunne han straffes?\n\nTo sakkyndige psykiatere hadde undersøkt mannen. De sakkyndige forklarte at han hadde schizofreni, en alvorlig psykisk sykdom. I ukene før drapsforsøket hadde han vært i en psykose. Under en psykose mister man kontakten med virkeligheten. Han hadde fått en vrangforestilling om at naboen ville drepe ham, og han trodde fullt og fast at han forsvarte seg. «En vrangforestilling er ikke bare en feil tanke,» forklarte den ene sakkyndige. «Den er umulig å argumentere bort, fordi den føles helt sann.»\n\nKari visste lite om schizofreni fra før. Hun hadde trodd at det betydde å ha flere personligheter, men de sakkyndige forklarte at det er en vanlig misforståelse. Schizofreni kan blant annet gi psykoser, og mange som har sykdommen, lever gode liv med riktig behandling.\n\nEtter norsk lov kan den som var psykotisk da handlingen skjedde, ikke straffes med fengsel. Mange tilhørere i salen likte ikke dette. Naboens familie var redd for at mannen nå skulle gå på frifot. Men det var ikke det som skjedde. Retten dømte ham til tvungent psykisk helsevern. Det betyr at han skal bo på en skjermet avdeling så lenge han kan være farlig for andre. En skjermet avdeling er en del av sykehuset der pasientene ikke kan gå ut alene.\n\n«Jeg forsto at frifinnelse ikke er det samme som å gå på frifot,» sier Kari. Hun mener at det var lærerikt å se hvordan rettssystemet skiller mellom sykdom og ond vilje. «Det var vitterlig at han hadde gjort det, men det var like vitterlig at han var syk,» sier hun. Hun har også fått stor respekt for politiarbeidet som gjøres lenge før en sak kommer til retten.\n\nSpørsmål:\nHvem er meddommerne?\nMeddommerne er vanlige borgere som blir valgt av kommunen for å sitte i retten.\nHva var den unge mannen tiltalt for?\nHan var tiltalt for drapsforsøk etter at han hadde gått løs på naboen med en kniv.\nHva forklarte de sakkyndige?\nDe forklarte at han hadde schizofreni og hadde vært i en psykose i ukene før.\nHvilken vrangforestilling hadde mannen?\nHan trodde at naboen ville drepe ham, og at han selv forsvarte seg.\nHvorfor var familien til naboen redd?\nDe var redd for at mannen skulle gå på frifot.\nHva er en skjermet avdeling?\nDet er en del av sykehuset der pasientene ikke kan gå ut alene."
+    },
+    {
+      "title": "Et nytt regnestykke",
+      "summary": "After a break-up, a mother hesitates to ask the welfare office for help, until an adviser works through her budget and she sees that the support is a right, not a shame.",
+      "newWords": [
+        "samlivsbrudd",
+        "regnestykke",
+        "sosialhjelp",
+        "vegre",
+        "ufortjent",
+        "utregning",
+        "brøkdel",
+        "riking",
+        "iboende"
+      ],
+      "text": "Lene var 38 år da hun og samboeren gikk fra hverandre. Et samlivsbrudd er tungt for de fleste, og for Lene kom det på et dårlig tidspunkt. Hun hadde nettopp mistet jobben i en butikk som ble lagt ned, og hun hadde to barn på 7 og 10 år.\n\nDen første måneden etter bruddet satt hun hver kveld ved kjøkkenbordet med en blyant og en blokk. Regnestykket gikk ikke opp. Husleien alene tok mer enn halvparten av pengene hun hadde, og da var det lite igjen til mat, klær og strøm.\n\nEn venninne foreslo at hun skulle søke sosialhjelp hos NAV. Lene vegret seg. Hun hadde alltid klart seg selv, og hun hadde en følelse av at sosialhjelp var for andre. «Jeg vegret meg i flere uker,» sier hun i dag. «Jeg skammet meg, selv om jeg ikke hadde gjort noe galt.» Hun vet nå at skammen var ufortjent. Likevel er det mange som har det slik, og skammen er like ufortjent for dem. De vegrer seg for å be om hjelp, og noen venter så lenge at problemene vokser.\n\nTil slutt bestilte Lene en time. Rådgiveren hun møtte, var rolig og vennlig. Sammen gikk de gjennom alle utgiftene hennes, post for post. Utregningen tok nesten en time. Til slutt la rådgiveren den fram for henne: Det Lene manglet hver måned, var bare en brøkdel av det hun hadde fryktet. Med litt sosialhjelp i noen måneder og bostøtte i tillegg ville regnestykket gå opp, til hun fant en ny jobb. «Utregningen var en lettelse,» sier hun. «For første gang på lenge så jeg tallene uten å bli redd.»\n\nHun forteller at hun lenge hadde tenkt på velferdsstaten som noe for de svakeste. Nå ser hun det annerledes. Alle bruker fellesskapets tjenester: skole, sykehus, veier og brannvesen. Også en riking sender barna sine på offentlig skole og blir behandlet på det samme sykehuset som alle andre. Forskjellen er at rikingen sjelden trenger å be om det.\n\nTanken bak velferdsstaten er at hvert menneske har en iboende verdi, en verdi som ikke avhenger av lønn eller formue. Den iboende verdien gjør at samfunnet har plikt til å hjelpe den som faller, enten det skyldes sykdom, arbeidsløshet eller et samlivsbrudd.\n\nEt halvt år senere fikk Lene jobb på et kontor. Hun trenger ikke lenger sosialhjelp. Men hun har sagt til venninnen sin at hun skal gjøre det samme for andre: foreslå at de ber om hjelp før regnestykket blir for tungt.\n\nSpørsmål:\nHvorfor gikk ikke regnestykket opp for Lene?\nHun hadde mistet jobben, og husleien alene tok mer enn halvparten av pengene hennes.\nHvorfor vegret Lene seg for å søke sosialhjelp?\nHun hadde alltid klart seg selv, og hun skammet seg selv om hun ikke hadde gjort noe galt.\nHva viste utregningen hos NAV?\nDen viste at det hun manglet hver måned, bare var en brøkdel av det hun hadde fryktet.\nHva sier teksten om rikinger og velferdsstaten?\nOgså en riking bruker offentlig skole og sykehus, men rikingen trenger sjelden å be om det.\nHva er tanken bak velferdsstaten?\nTanken er at hvert menneske har en iboende verdi som ikke avhenger av lønn eller formue.\nHva vil Lene gjøre for andre?\nHun vil foreslå at de ber om hjelp før regnestykket blir for tungt."
+    },
+    {
+      "title": "Olivenolje til skolekjøkkenet",
+      "summary": "A small importer of olive oil and a local berry farmer team up to bid for a municipal contract against a large chain.",
+      "newWords": [
+        "olivenolje",
+        "innførsel",
+        "anskaffelse",
+        "markedsandel",
+        "utkonkurrere",
+        "manager",
+        "såfremt",
+        "bringebær",
+        "rush",
+        "transportplan"
+      ],
+      "text": "Marco kom til Norge fra Italia for 15 år siden. I dag driver han en liten bedrift som selger olivenolje fra familiens gård i sør. Det tok ham lang tid å lære reglene for innførsel av mat. All innførsel av mat fra land utenfor EØS må følge strenge regler, men fordi Italia er med i EØS, er det enklere for ham enn for mange andre. Likevel må han vise hvor oljen kommer fra, og alle varene må merkes riktig på norsk.\n\nI fjor høst leste Marco at kommunen skulle kjøpe inn mat til alle skolekjøkkenene. En slik offentlig anskaffelse må ut på anbud. Det betyr at alle firmaer kan sende inn et tilbud, og kommunen må velge på en rettferdig måte. Reglene for offentlig anskaffelse er laget for at ingen skal få fordeler fordi de kjenner de rette personene.\n\nMarco visste at han hadde en liten markedsandel. De store kjedene har en markedsandel som han bare kan drømme om, og de kan ofte utkonkurrere små firmaer på pris. Han ringte derfor til en bonde i bygda som dyrket bringebær. Sammen kunne de tilby både olivenolje og norske bringebær til skolene. Det var noe de store kjedene ikke hadde.\n\nI kunngjøringen fra kommunen sto det at et tilbud ville bli vurdert, såfremt det oppfylte alle kravene til kvalitet og levering. Marco leste den setningen mange ganger. Såfremt de kunne levere hver uke, hadde de en sjanse. Han tenkte på transporten. Den nye veien som sto i den nasjonale transportplanen, var nettopp åpnet, og den gjorde turen fra lageret til skolene en halv time kortere. Uten transportplanen ville de ikke ha klart fristene.\n\nNoen dager før fristen ble det et rush på kontoret. Bonden kom med bilder av bringebærene, og Marco skrev og regnet til langt på natt. Midt i rushet ringte en manager fra en av de store kjedene. Han ville vite om Marco var interessert i å selge oljen sin gjennom dem. Manageren var hyggelig, men Marco takket nei. «Da hadde vi bare blitt en liten del av noe stort,» sa han senere.\n\nSeks uker etterpå kom svaret. Kommunen hadde valgt tilbudet fra Marco og bonden for to år. De klarte ikke å utkonkurrere kjedene på pris, men de vant på kvalitet og på at maten var kortreist. «Det viste meg at reglene fungerer,» sier Marco. «Også en liten bedrift kan vinne, såfremt den gjør jobben sin godt.»\n\nSpørsmål:\nHva selger Marco?\nHan selger olivenolje fra familiens gård i Italia.\nHvorfor er innførsel enklere for Marco enn for mange andre?\nFordi Italia er med i EØS, er det enklere for ham.\nHva er en offentlig anskaffelse?\nDet er når det offentlige kjøper noe, og alle firmaer kan sende inn et tilbud.\nHvorfor samarbeidet Marco med en bonde?\nHan hadde en liten markedsandel, og sammen kunne de tilby både olivenolje og norske bringebær.\nHvordan hjalp transportplanen dem?\nDen nye veien i transportplanen gjorde turen til skolene en halv time kortere.\nHvorfor takket Marco nei til manageren?\nHan ville ikke bli bare en liten del av noe stort."
+    },
+    {
+      "title": "Et år i naturforvaltningen",
+      "summary": "A biologist working for the state describes her year of counting lynx, following reindeer, protecting river spawning grounds and spotting dolphins off the coast.",
+      "newWords": [
+        "gaupe",
+        "reinsdyr",
+        "kulturlandskap",
+        "evje",
+        "klekke",
+        "skadedyr",
+        "evolusjonær",
+        "delfin",
+        "stupe"
+      ],
+      "text": "Ingrid er biolog og arbeider for staten. Hun har ansvar for å vite hvor mange dyr det finnes av ulike arter i fylket, slik at politikerne kan ta kloke beslutninger. Hun sier at jobben følger årstidene.\n\nOm vinteren teller hun gauper. Gaupa er et sky dyr som sjelden viser seg, så hun teller sporene i snøen i stedet. Når det har snødd om natten, kjører hun ut tidlig om morgenen og leter etter ferske spor. Ingrid mener at gaupa er et godt eksempel på evolusjonær tilpasning: De store, brede potene fungerer nesten som truger og gjør at gaupa kan gå på løs snø. Slike evolusjonære trekk har utviklet seg over mange tusen år.\n\nOm våren reiser hun til Finnmark. Der følger hun reinsdyrene når de trekker fra vinterbeitene til kysten. Reinsdyrene er ikke ville; de eies av reindriftsutøvere, og staten må passe på at det ikke blir for mange dyr på beitene. For mange reinsdyr kan ødelegge vegetasjonen, mens for få gjør det vanskelig å leve av reindriften.\n\nOm sommeren er det elvene som gjelder. Ved en stor elv i nærheten av byen har hun funnet en evje, et stille sted ved siden av hovedstrømmen der vannet nesten står stille. I evja klekkes fiskeegg om våren, og de små fiskene kan vokse der uten å bli tatt av strømmen. Da en entreprenør ville bygge en vei langs elva, sørget Ingrid for at evja ble vernet. Uten evja ville færre egg klekke, og fisken i elva ville bli borte med tiden.\n\nOm høsten arbeider hun ofte i kulturlandskapet. Et kulturlandskap er et landskap som er formet av mennesker gjennom flere hundre år, med beiter, steingjerder og gamle gårder. Når bøndene slutter å la dyrene beite, gror kulturlandskapet igjen. Ingrid samarbeider med bøndene for å finne ut hvordan beitene kan holdes åpne. Noen ganger må hun også vurdere skadedyr. Enkelte insekter er skadedyr som kan ødelegge store deler av skogen på få år, og da må staten vite om problemet før det blir for stort.\n\nDet Ingrid husker best fra i fjor, er likevel en dag på havet. Hun var med på å telle delfiner langs kysten. Plutselig dukket en flokk på nesten tjue delfiner opp ved båten. De stupte ned i havet og kom opp igjen, om og om igjen. Like etter så hun en havørn stupe mot vannet etter fisk. «Da tenkte jeg at jeg har verdens beste jobb,» sier hun.\n\nSpørsmål:\nHvordan teller Ingrid gaupene?\nHun teller sporene deres i snøen, fordi gaupa sjelden viser seg.\nHvilken evolusjonær tilpasning har gaupa?\nDen har store, brede poter som gjør at den kan gå på løs snø.\nHvorfor må staten passe på reinsdyrene?\nFor mange reinsdyr kan ødelegge vegetasjonen på beitene.\nHva er en evje?\nEn evje er et stille sted ved siden av hovedstrømmen i en elv der vannet nesten står stille.\nHva skjer med kulturlandskapet når dyrene slutter å beite?\nDa gror kulturlandskapet igjen.\nHva så Ingrid på havet?\nHun så en flokk delfiner som stupte ned i havet og kom opp igjen."
+    },
+    {
+      "title": "Digitalt kurs for seniorer",
+      "summary": "A retired man signs up for the library's course on public digital services and learns, lesson by lesson, how his data are kept safe.",
+      "newWords": [
+        "senior",
+        "påmelde",
+        "leksjon",
+        "binær",
+        "kryptering",
+        "brette",
+        "skule",
+        "korreksjon",
+        "avsporing"
+      ],
+      "text": "Nesten alt det offentlige tilbyr, skjer i dag på nettet: Man søker om pensjon, bestiller time hos legen og leverer skattemeldingen digitalt. For mange seniorer er dette en utfordring. Derfor tilbyr biblioteket i kommunen et gratis kurs for seniorer som vil lære å bruke de digitale tjenestene.\n\nArne er 78 år og har aldri vært glad i datamaskiner. Det var datteren hans som meldte ham på. Den første kvelden var det tolv påmeldte, og alle de påmeldte var over 70 år. Kursholderen, en ung bibliotekar, forklarte at kurset skulle bestå av fem leksjoner, én hver tirsdag.\n\nDen første leksjonen handlet om hvordan en datamaskin fungerer. Bibliotekaren forklarte at alt en datamaskin lagrer, er binær kode, det vil si lange rekker av nuller og enere. Et bilde, et brev eller en sang er bare binære tall for maskinen. Arne skulte bort på mannen ved siden av seg, som så like forvirret ut som han selv. Så delte bibliotekaren ut et ark, og alle skulle brette det på midten. På den ene siden skrev de et ord, og på den andre siden skrev de ordet med binære tall. «Når dere har brettet arket, ser dere at det er det samme ordet,» sa hun.\n\nDen andre leksjonen handlet om sikkerhet. Bibliotekaren forklarte at kryptering er en måte å gjøre informasjon uleselig for alle som ikke har nøkkelen. Når Arne logger inn på en offentlig tjeneste, blir opplysningene hans sendt med kryptering, slik at ingen andre kan lese dem underveis. «Uten kryptering kunne hvem som helst lese meldingene dine til legen,» sa hun.\n\nMidt i leksjonen ble det en liten avsporing. En av kvinnene begynte å fortelle om barnebarnet sitt som jobbet med datamaskiner i Tyskland, og snart snakket alle om barnebarna sine. Bibliotekaren smilte og lot dem snakke en stund før hun førte samtalen tilbake. Hun sa senere at slike avsporinger var en del av kurset; folk lærer bedre når de er trygge.\n\nI den tredje leksjonen skulle alle logge inn på egen hånd. Arne skrev feil passord to ganger. Bibliotekaren kom bort og gjorde en liten korreksjon: Han hadde skrevet en stor bokstav der det skulle være en liten. Etter korreksjonen kom han inn. Han skulte ikke lenger bort på naboen; nå var det naboen som skulte bort på ham.\n\nEtter den femte leksjonen bestilte Arne time hos legen helt alene. Han ringte datteren og fortalte det. Hun sa at hun var stolt av ham.\n\nSpørsmål:\nHvorfor tilbyr biblioteket et kurs for seniorer?\nFordi nesten alt det offentlige tilbyr, skjer på nettet, og det er en utfordring for mange seniorer.\nHvor mange påmeldte var det den første kvelden?\nDet var tolv påmeldte, og alle var over 70 år.\nHva lærte Arne om binær kode?\nHan lærte at alt en datamaskin lagrer, er lange rekker av nuller og enere.\nHva er kryptering?\nKryptering er en måte å gjøre informasjon uleselig for alle som ikke har nøkkelen.\nHva skjedde under avsporingen?\nEn kvinne begynte å fortelle om barnebarnet sitt, og snart snakket alle om barnebarna sine.\nHvilken korreksjon gjorde bibliotekaren?\nHun viste Arne at han hadde skrevet en stor bokstav der det skulle være en liten."
+    },
+    {
+      "title": "Treningssenteret i kommunen",
+      "summary": "A sixty-year-old starts training at the municipality's new gym, where a young powerlifter becomes his guide and the state's public health goal turns personal.",
+      "newWords": [
+        "målsetting",
+        "roing",
+        "vektløfting",
+        "styrkeløft",
+        "manne",
+        "bule",
+        "blodåre",
+        "fukte",
+        "smittsom",
+        "følgesvenn"
+      ],
+      "text": "Det er en uttalt målsetting for staten at flere nordmenn skal bevege seg mer. Mange sykdommer kan forebygges med enkel trening, og det sparer både folk og sykehus for mye. Derfor har kommunen der Per bor, bygget et nytt treningssenter som er åpent for alle, med lave priser for pensjonister.\n\nPer er 61 år. Legen hans hadde sagt at blodtrykket var for høyt, og at han burde trene. Per hadde lenge latt være. Han syntes at treningssentre var for unge mennesker med store muskler. Men en mandag i januar gikk han dit.\n\nDen første som tok imot ham, var en ung kvinne som het Ida. Hun jobbet som instruktør, og på fritiden drev hun med styrkeløft. Hun forklarte at styrkeløft og vektløfting ikke er det samme. I styrkeløft løfter man tunge vekter i tre øvelser, mens vektløfting handler om å løfte vekten raskt over hodet. Per hadde ingen planer om å drive med noen av delene. Han ville bare bli litt sprekere.\n\nIda begynte med roing. Roing er god trening fordi den bruker nesten alle musklene i kroppen samtidig. Etter ti minutter med roing var Per svett og rød i ansiktet. Han gikk på badet, fuktet et håndkle med kaldt vann og la det over nakken. Så fuktet han munnen med litt vann og gikk tilbake.\n\nEtter noen uker fikk Per prøve vekter. Første gang han skulle løfte en tung stang, måtte han manne seg opp. Han sto lenge og så på den. «Du klarer det,» sa Ida. Han mannet seg opp og løftet. Han kjente blodårene bule på armene, og han tenkte at det sikkert så dramatisk ut. Ida lo og sa at det var helt normalt at blodårene buler når man anstrenger seg.\n\nDet Per likte best, var stemningen. Idas glede var smittsom. Når hun klappet for en ny rekord, klappet alle i salen. Per merket at gleden ble smittsom også for ham; han begynte selv å heie på de andre. Etter et halvt år var blodtrykket lavere, og legen var fornøyd.\n\nPer har nå fått en fast følgesvenn på treningen: naboen hans, som også er pensjonist. De to går sammen til senteret tre ganger i uka. «En følgesvenn gjør det vanskeligere å finne unnskyldninger,» sier Per. Målsettingen hans for neste år er å løfte like mye som Ida gjorde da hun var 15. Ida tror han klarer det.\n\nSpørsmål:\nHva er statens målsetting?\nMålsettingen er at flere nordmenn skal bevege seg mer.\nHvorfor begynte Per å trene?\nLegen hadde sagt at blodtrykket hans var for høyt.\nHva er forskjellen mellom styrkeløft og vektløfting?\nI styrkeløft løfter man tunge vekter i tre øvelser, mens vektløfting handler om å løfte vekten raskt over hodet.\nHvorfor er roing god trening?\nDen bruker nesten alle musklene i kroppen samtidig.\nHva gjorde Per da han var svett etter roingen?\nHan fuktet et håndkle med kaldt vann og la det over nakken.\nHvem er følgesvennen til Per?\nFølgesvennen hans er naboen, som også er pensjonist."
+    },
+    {
+      "title": "Filmen om arkivet",
+      "summary": "A filmmaker making a documentary about the national archives finds letters from a nineteenth-century official and old reports of UFOs.",
+      "newWords": [
+        "filmskaper",
+        "embetsmann",
+        "innkomme",
+        "passasje",
+        "persisk",
+        "rubin",
+        "møll",
+        "reprodusere",
+        "ufo",
+        "spillestil",
+        "forestående"
+      ],
+      "text": "Nora er filmskaper. Hun har laget flere dokumentarfilmer om norsk historie, og nå arbeider hun med en film om Arkivverket, statens eget arkiv. Der ligger dokumenter fra flere hundre år: skatteregistre, kart, rettssaker og brev.\n\nNora ville bygge filmen rundt én person. Hun valgte en embetsmann som het Hans Brun, og som levde på 1800-tallet. I den tiden var embetsmennene statens viktigste folk ute i landet. En embetsmann kunne være prest, dommer eller fogd, og han representerte kongen og staten i bygda. Brun var sorenskriver i en liten by på Vestlandet, og han skrev mange brev til kona si.\n\nI arkivet fant Nora en stor eske med innkomne brev, altså brev som Brun hadde fått, og kopier av brevene han selv hadde sendt. En passasje i ett av brevene gjorde særlig inntrykk på henne. Der beskriver Brun en reise til hovedstaden, der han kjøpte et persisk teppe og en ring med en rubin til kona. Han skriver at det persiske teppet var for stort for stua, men at kona ville elske fargene. Om rubinen skriver han at den var «rød som tyttebær i september».\n\nNora leste passasjen høyt for arkivaren, en eldre mann. Han fortalte at teppet og ringen ikke finnes lenger, men at brevene har overlevd i nesten 200 år. Han viste henne hvordan arkivet passer på dokumentene. Den største fienden er fukt og møll. Møll kan spise seg gjennom gamle tekstiler og papir på kort tid, og derfor holder de rommene kalde og tørre. For at de gamle dokumentene ikke skal slites, lar arkivet folk se på kopier. De bruker spesielle skannere for å reprodusere brevene og bildene, slik at de kan reproduseres uten å bli skadet.\n\nArkivaren viste henne også noe hun ikke hadde ventet. I en annen eske lå innkomne meldinger til Forsvaret fra 1950-tallet, fra folk som mente de hadde sett en ufo på himmelen. «Folk har alltid sett ting de ikke forstår,» sa han. Nora tenkte at en ufo kanskje kunne bli en egen film en dag.\n\nTil filmen vil Nora at skuespillere skal lese brevene. Hun ønsker en rolig spillestil, uten store følelser. «En overdreven spillestil ville ødelegge det,» sier hun. «Ordene er sterke nok i seg selv.»\n\nPremieren er forestående. Den forestående visningen skal skje på arkivet selv, og etter filmen skal publikum få se de ekte brevene bak glass.\n\nSpørsmål:\nHva arbeider filmskaperen Nora med?\nHun arbeider med en dokumentarfilm om Arkivverket.\nHva var en embetsmann på 1800-tallet?\nEn embetsmann var en av statens viktigste folk ute i landet, for eksempel en prest, en dommer eller en fogd.\nHva beskriver passasjen som gjorde inntrykk på Nora?\nDen beskriver en reise der Brun kjøpte et persisk teppe og en ring med en rubin til kona.\nHvorfor holder arkivet rommene kalde og tørre?\nFordi fukt og møll er de største fiendene til gamle dokumenter.\nHva lå i den andre esken?\nDet lå innkomne meldinger fra folk som mente de hadde sett en ufo.\nHvilken spillestil ønsker Nora?\nHun ønsker en rolig spillestil, uten store følelser."
+    }
+  ]
+}
