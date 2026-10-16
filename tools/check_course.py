@@ -422,6 +422,12 @@ def check(path, brief=False):
         text = lesson["text"]
         whole_names = 0
         for name in long_names:
+            if code in ("da", "nl"):
+                # The genitive of a name of several words goes with it (Maja Holms, Jan de Vries').
+                pattern = re.compile(re.escape(name) + r"(?:['’]s|s|['’])?(?![^\W\d_])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
             whole_names += text.count(name)
             text = text.replace(name, " ")
         # Danish writes decades and number endings after an apostrophe (1960'erne, 3'eren): a number.
