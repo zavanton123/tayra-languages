@@ -1,0 +1,100 @@
+1	8501	världsledande	världsledande
+2	8502	ovän	ovänner ovän
+3	8503	grillning	grillning grillningen
+4	8504	understöd	understöd understödet understöds
+5	8505	uppkalla	uppkallad uppkallat uppkallade uppkallades uppkalla uppkallats uppkallas uppkallar
+6	8506	tillsäga	tillsagd tillsagt
+7	8507	aveny	avenyn aveny avenyer avenyerna
+8	8508	tango	tango tangon tangons tangos
+9	8509	avrunda	avrunda avrundar avrundade avrundat avrundas avrundad avrundades
+10	8510	körfält	körfält körfältet körfälten
+11	8511	oduglig	odugliga oduglig odugligt
+12	8512	fax	fax faxar faxen
+13	8513	ovilja	ovilja oviljan
+14	8514	beskydda	beskydda beskyddande beskyddar beskyddade beskyddas beskyddad beskyddat
+15	8515	majonnäs	majonnäs majo majonnäsen
+16	8516	förspel	förspel förspelet
+17	8517	rostig	rostig rostiga rostigt
+18	8518	golfklubb	golfklubb golfklubben golfklubbar golfklubbarna
+19	8519	trippel	trippel trippeln trippla trippelt
+20	8520	analytisk	analytisk analytiska analytiskt
+21	8521	begrunda	begrunda begrundar begrundade begrundande begrundat begrundas
+22	8522	globalisering	globalisering globaliseringen globaliseringens
+23	8523	skolarbete	skolarbete skolarbeten skolarbetet
+24	8524	insättning	insättning insättningar insättningen insättningarna
+25	8525	bolån	bolån bolånen bolånet
+26	8526	oval	ovala oval ovalt ovalen ovaler
+27	8527	stampa	stampa stampar stampen stampade stampe stampat stampande stampad
+28	8528	mållinje	mållinjen mållinje
+29	8529	samhällsdebatt	samhällsdebatten samhällsdebatt
+30	8530	återspegla	återspeglar återspeglas återspegla återspeglade återspeglades
+31	8531	stenkastning	stenkastning stenkastningen
+32	8532	städare	städare städaren städarna
+33	8533	dekorativ	dekorativa dekorativ dekorativt
+34	8534	kyrkoherde	kyrkoherde kyrkoherden kyrkoherdar kyrkoherdens
+35	8535	respektfull	respektfullt respektfull respektfulla
+36	8536	intåg	intåg intåget
+37	8537	långsökt	långsökt långsökta
+38	8538	inspektera	inspektera inspekterar inspekterade inspekteras inspekterat inspekterades inspekterad
+39	8539	förbrukning	förbrukning förbrukningen
+40	8540	utbryta	utbröt utbryter utbrutit utbryta utbruten utbröts
+41	8541	begåvning	begåvning begåvningar begåvningen
+42	8542	uv	uv uven uvar
+43	8543	beskydd	beskydd beskyddet
+44	8544	sula	sula sulan sulor sulorna
+45	8545	sjukgymnast	sjukgymnast sjukgymnasten sjukgymnaster
+46	8546	taliban	talibanerna talibaner taliban talibanernas talibanen
+47	8547	hjälplös	hjälplös hjälplösa hjälplöst
+48	8548	rödhårig	rödhåriga rödhårig rödhårige
+49	8549	lärobok	läroböcker lärobok läroboken läroböckerna
+50	8550	teologi	teologi teologin teologins
+51	8551	typsnitt	typsnitt typsnittet typsnitten
+52	8552	mandel	mandel mandlar mandeln mandlarna
+53	8553	personangrepp	personangrepp personangreppet
+54	8554	kladdig	kladdigt kladdig kladdiga
+55	8555	kaotisk	kaotiskt kaotisk kaotiska
+56	8556	essä	essä essäer essän essäerna
+57	8557	traska	traska traskar traskat traskade
+58	8558	explicit	explicit explicita
+59	8559	mystik	mystik mystiken mystikens
+60	8560	ränna	ränner ränna rännan rännor rände ränt rännande rännorna
+61	8561	omnämna	omnämns omnämndes omnämnas omnämner omnämnts omnämna omnämnt omnämnde
+62	8562	ridsport	ridsport ridsporten ridsportens
+63	8563	bieffekt	bieffekter bieffekt bieffekterna bieffekten
+64	8564	kupa	kupa kupan kupor kuporna kup kups kupade kupans kupen kupad
+65	8565	fångenskap	fångenskap fångenskapen
+66	8566	sprängning	sprängningar sprängning sprängningen sprängningarna
+67	8567	gill	gill gillt gille gillet gillets gilles gillen
+68	8568	anständig	anständiga anständig
+69	8569	genetik	genetik genetiken genetikens
+70	8570	okunnighet	okunnighet okunnigheten okunnighetens
+71	8571	uppställning	uppställning uppställningen uppställningar
+72	8572	oväsen	oväsen oväsendet
+73	8573	bläckfisk	bläckfisk bläckfiskar bläckfisken bläckfiskarna
+74	8574	adekvat	adekvat adekvata
+75	8575	skönlitteratur	skönlitteratur skönlitteraturen
+76	8576	harmonisk	harmonisk harmoniska harmoniskt
+77	8577	vanföreställning	vanföreställningar vanföreställning vanföreställningen vanföreställningarna
+78	8578	förnedring	förnedring förnedringen
+79	8579	donator	donator donatorer donatorn donatorns donatorerna donators
+80	8580	keramik	keramik keramiken
+81	8581	arbetskraftsinvandring	arbetskraftsinvandring arbetskraftsinvandringen
+82	8582	utbetalning	utbetalning utbetalningar utbetalningen utbetalningarna
+83	8583	ofullständig	ofullständig ofullständiga ofullständigt
+84	8584	nybliven	nybliven nyblivna nyblivne
+85	8585	hyresgästförening	hyresgästföreningen hyresgästföreningens
+86	8586	svartsjuka	svartsjuka svartsjukan
+87	8587	anbud	anbud anbudet anbuden
+88	8588	otacksam	otacksamma otacksam otacksamt
+89	8589	servitris	servitris servitrisen servitriser servitriserna
+90	8590	uppfinnare	uppfinnare uppfinnaren uppfinnarna
+91	8591	elproduktion	elproduktion elproduktionen
+92	8592	iver	iver ivern ivers
+93	8593	toapapper	toapapper toapappret
+94	8594	krya	krya kryar
+95	8595	skojig	skojigt skojig skojiga skojsig skojigare
+96	8596	lift	lift liften liftar liftarna
+97	8597	minna	minna minner minde
+98	8598	ramsa	ramsor ramsa ramsan ramsorna
+99	8599	finess	finess finesser finessen finesserna
+100	8600	föräldraskap	föräldraskap föräldraskapet föräldraskapets

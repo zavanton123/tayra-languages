@@ -1,0 +1,100 @@
+1	2801	ande	ande anden andar andarna andes andarnas andens andars
+2	2802	upprätthålla	upprätthålla upprätthåller upprätthålls upprätthållas upprätthållande upprätthållandet upprätthöll upprätthållit upprätthölls upprätthåll
+3	2803	original	original originalet originalen originals originalets
+4	2804	träff	träff träffar träffarna träffen
+5	2805	kreativ	kreativ kreativa kreativt
+6	2806	rutin	rutiner rutin rutinen rutinerna
+7	2807	liter	liter liters litern
+8	2808	etnisk	etniska etnisk etniskt
+9	2809	kollektivtrafik	kollektivtrafik kollektivtrafiken kollektivtrafikens
+10	2810	frivillig	frivillig frivilliga frivillige frivilligas
+11	2811	kränka	kränkande kränker kränka kränks kränkts kränkte kränkas kränktes
+12	2812	skåp	skåpet skåp skåpen skåpets
+13	2813	tiggare	tiggare tiggarna tiggarnas tiggaren tiggarens tiggares
+14	2814	skrift	skrift skrifter skriften skrifterna skriftens
+15	2815	sajt	sajt sajter sajten sajterna sajtens
+16	2816	redovisa	redovisa redovisar redovisas redovisat redovisade redovisades redovisats redovisad
+17	2817	kejsare	kejsaren kejsare kejsarens kejsar kejsarna kejsares kejsarnas
+18	2818	lök	lök löken lökar lökarna
+19	2819	mast	master masters masten mast masterna mastern mastens
+20	2820	utsläpp	utsläpp utsläppen utsläppet
+21	2821	löpa	löper löpa löpte löpt löp löpet lupo löpe löpen löps
+22	2822	mjuk	mjuk mjukt mjukare mjukaste mjukast
+23	2823	orimligt	orimligt
+24	2824	kostym	kostym kostymer kostymen kostymerna
+25	2825	format	format formatet formats formaten
+26	2826	mynt	mynt myntet mynten myntets myntens
+27	2827	förstärka	förstärker förstärka förstärkt förstärks förstärkta förstärkas förstärkte förstärk förstärktes förstärkts
+28	2828	bortse	bortsett bortse bortser bortsåg bortses
+29	2829	konstruktion	konstruktion konstruktionen konstruktioner konstruktionerna konstruktions konstruktionens
+30	2830	check	check checkar checken checks checkarna
+31	2831	grann	grann grant granna grannas
+32	2832	blandning	blandning blandningen blandningar blandningens
+33	2833	skattepeng	skattepengar skattepengarna
+34	2834	spets	spets spetsen spetsar spetsarna
+35	2835	öster	öster östern östers österns
+36	2836	logik	logik logiken logikens logiker
+37	2837	radikal	radikala radikal radikalt radikaler radikalare radikalerna radikale
+38	2838	italienska	italienska italienskan italienskans
+39	2839	oändlig	oändligt oändliga oändlig oändlige
+40	2840	lassa	lasse lasses lassa lassar lassen
+41	2841	tilldela	tilldelas tilldelats tilldelades tilldelad tilldelade tilldelat tilldela tilldelar
+42	2842	alt	alt alten
+43	2843	ängel	ängel änglar änglarna ängeln änglarnas ängels änglars ängelns ängla
+44	2844	konservativ	konservativa konservativ konservativt konservative konservativas
+45	2845	antyda	antyder antydde antyda antytt antyds antyddes antytts antydda antydande antyd
+46	2846	anordna	anordnar anordnas anordna anordnade anordnat anordnades anordnare anordnad anordnats anordnande
+47	2847	badrum	badrummet badrum badrummen badrums
+48	2848	sannolikhet	sannolikhet sannolikheten sannolikheter sannolikheterna
+49	2849	sola	solen sola solat solade solar sole
+50	2850	källare	källaren källare källarna källarens källar
+51	2851	skara	skara skaran skaror skaras skarorna
+52	2852	sammanfatta	sammanfatta sammanfattar sammanfattas sammanfattat sammanfattande sammanfattade sammanfattad sammanfattades
+53	2853	opposition	opposition oppositionen oppositionens oppositioner oppositions
+54	2854	agent	agent agenter agenten agenterna agents agentens agenternas
+55	2855	sy	sy syr sys sydde sytt sydda sydd syddes sytts
+56	2856	nominera	nominerad nominerade nominera nominerats nominerat nominerades nominerar nomineras
+57	2857	mätning	mätning mätningar mätningen mätningarna
+58	2858	importera	importera importerade importerar importerat importerad importeras importerades importerats
+59	2859	utsikt	utsikt utsikten utsikter utsikterna utsiktens
+60	2860	motivation	motivation motivationen motivationer
+61	2861	konferens	konferens konferensen konferenser konferenserna konferensens
+62	2862	tömma	tömma tömmer tömt töm tömde töms tömd tömmas tömdes tömda
+63	2863	anfall	anfall anfallet anfallen anfalls
+64	2864	sexuellt	sexuellt
+65	2865	äh	äh
+66	2866	bekväm	bekväm bekväma bekvämare bekvämaste bekvämast
+67	2867	panna	pannan panna pannor pannorna panne pannans pann
+68	2868	champagne	champagne champagnen champagner
+69	2869	skadlig	skadliga skadlig skadligt skadligare skadligaste
+70	2870	utbyte	utbyte utbytet utbyten utbytes
+71	2871	hälsning	hälsningar hälsning hälsningen
+72	2872	rasa	rasar rasa rasade rasat rasen rase
+73	2873	pott	potter pott potten potters potts
+74	2874	ovanlig	ovanliga ovanlig ovanligare ovanligaste
+75	2875	företrädare	företrädare företrädaren företrädarna företrädares företrädarens
+76	2876	beklaga	beklagar beklaga beklagade beklagat beklagande
+77	2877	diskriminering	diskriminering diskrimineringen diskriminerings
+78	2878	stryk	stryk stryks
+79	2879	tålamod	tålamod tålamodet
+80	2880	bensin	bensin bensinen
+81	2881	mental	mental mentala
+82	2882	skyldighet	skyldighet skyldigheter skyldigheten skyldigheterna
+83	2883	turist	turister turist turisterna turisten turisters turisternas turistens
+84	2884	penis	penis penisar penisen
+85	2885	vansinnig	vansinnigt vansinnig vansinniga
+86	2886	provocera	provocerande provocera provocerar provocerad provocerade provoceras provocerat
+87	2887	aktivera	aktivera aktiveras aktiverar aktiverat aktiverad aktiverade aktiverats aktiverades aktiverande
+88	2888	gigantisk	gigantiska gigantisk gigantiskt
+89	2889	depression	depression depressionen depressioner depressionens
+90	2890	euro	euro euron euros eurons
+91	2891	knark	knark knarket
+92	2892	institut	institutet institut institutets instituten instituts
+93	2893	klassiker	klassiker klassikern klassikerna
+94	2894	historik	historik historiker historiken historikern historikerna historikers
+95	2895	förebild	förebild förebilder förebilden förebilderna
+96	2896	anlita	anlita anlitar anlitade anlitat anlitad anlitades anlitas anlitats
+97	2897	främja	främja främjar främjande främjas främjat främjandet främjade främjare
+98	2898	tanka	tanka tanken tankar tankat tankade tankas tankad
+99	2899	jodå	jodå jorå
+100	2900	ensamkommande	ensamkommande

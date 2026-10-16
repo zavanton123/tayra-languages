@@ -1,0 +1,100 @@
+1	5901	transaktion	transaktioner transaktion transaktionen transaktionerna
+2	5902	turkisk	turkisk turkiskt turkiske
+3	5903	djungel	djungeln djungel djungelns djungler
+4	5904	uteservering	uteservering uteserveringar uteserveringen uteserveringarna
+5	5905	smuggla	smuggla smugglar smugglade smugglat smugglas smugglades smugglats smugglad
+6	5906	sympatisera	sympatiserar sympatisera sympatiserade sympatiserat sympatiserande
+7	5907	katalog	katalog katalogen kataloger katalogerna
+8	5908	överträffa	överträffar överträffa överträffat överträffade överträffas överträffades överträffad överträffats
+9	5909	mekanism	mekanismer mekanism mekanismen mekanismerna
+10	5910	sekel	sekel seklet sekler seklets seklerna seklen sekels seklers seklernas
+11	5911	hö	hö höet
+12	5912	tolk	tolk tolkar tolkarna tolken tolkens
+13	5913	miljonär	miljonär miljonärer miljonären miljonärerna
+14	5914	drivkraft	drivkraft drivkraften drivkrafter drivkrafterna
+15	5915	hädanefter	hädanefter
+16	5916	mums	mums
+17	5917	optimalt	optimalt
+18	5918	successivt	successivt
+19	5919	såpass	såpass
+20	5920	utmed	utmed
+21	5921	vips	vips
+22	5922	klandra	klandra klandrar klandras klandrade klandrat
+23	5923	prenumeration	prenumeration prenumerationer prenumerationen prenumerationerna
+24	5924	pussa	pussa pussas pussade pussar pussat pussades pussats pussande pussen
+25	5925	förespråkare	förespråkare förespråkarna förespråkaren
+26	5926	domän	domäner domän domänen domänerna
+27	5927	symbolisk	symboliskt symbolisk symboliska
+28	5928	pensionera	pensionerad pensionerade pensionera pensionerades pensioneras pensionerat pensionerar pensionerats
+29	5929	kärleksfull	kärleksfull kärleksfullt kärleksfulla kärleksfulle
+30	5930	hatbrott	hatbrott hatbrotten hatbrottet
+31	5931	snäpp	snäppet snäpp
+32	5932	analog	analoga analog analogt
+33	5933	knuffa	knuffa knuffade knuffar knuffas knuffad knuffat knuffades knuffen knuffats knuffande
+34	5934	skridsko	skridskor skridskorna skridsko skridskon
+35	5935	ytlig	ytliga ytlig ytligare
+36	5936	bristfällig	bristfällig bristfälliga bristfälligt
+37	5937	inblick	inblick inblickar
+38	5938	krage	kragen krage kragar kragarna
+39	5939	uppgång	uppgång uppgången uppgångar
+40	5940	överföring	överföring överföringen överföringar överföringarna överförings
+41	5941	syna	syna synar synes synen synade synat synad synades syne
+42	5942	mes	mes mesar mesen mesarna
+43	5943	bemärkelse	bemärkelse bemärkelsen bemärkelser
+44	5944	sudda	sudda sudden suddar suddas suddade suddat suddats suddades
+45	5945	välta	välta välte välter vält välts
+46	5946	liknelse	liknelse liknelsen liknelser liknelserna
+47	5947	anime	anime animen
+48	5948	putta	putta putte puttar puttade putten puttat puttas puttad puttes
+49	5949	polisanmäla	polisanmäla polisanmält polisanmäld polisanmäler polisanmälas polisanmälde polisanmäls polisanmäldes polisanmälts polisanmäl
+50	5950	medelålder	medelåldern medelålder
+51	5951	överviktig	överviktiga överviktig överviktigt
+52	5952	föreläsa	föreläser föreläsa föreläste föreläst
+53	5953	shopping	shopping shoppingen
+54	5954	gudomlig	gudomliga gudomlig gudomlige
+55	5955	glimt	glimt glimten glimtar
+56	5956	tvist	tvist tvister tvisten tvisterna
+57	5957	fundamental	fundamentalt fundamental fundamentala
+58	5958	knasig	knasigt knasiga knasig
+59	5959	samhällsproblem	samhällsproblem samhällsproblemen samhällsproblemet
+60	5960	automatik	automatik automatiken
+61	5961	poängtera	poängtera poängterar poängterade poängteras poängterat
+62	5962	reklamfilm	reklamfilm reklamfilmer reklamfilmen reklamfilmerna
+63	5963	finans	finans finanser finanserna finansen
+64	5964	barnmorska	barnmorska barnmorskor barnmorskan barnmorskorna barnmorskans barnmorskornas
+65	5965	horisont	horisonten horisont horisonter horisontens
+66	5966	asiatisk	asiatisk asiatiskt asiatiske
+67	5967	värvning	värvning värvningar värvningen värvningarna
+68	5968	torsk	torsk torskar torsken torskarna
+69	5969	bestraffa	bestraffas bestraffa bestraffar bestraffad bestraffade bestraffades bestraffande bestraffats
+70	5970	pyramid	pyramid pyramiden pyramiderna pyramider pyramids pyramidens
+71	5971	orgasm	orgasm orgasmer orgasmen
+72	5972	estetisk	estetiska estetiskt estetisk
+73	5973	banna	banne banna bannade bannar bannor bannan bannas bannen bannat
+74	5974	rationell	rationella rationell
+75	5975	kronisk	kronisk kroniskt kroniska
+76	5976	representativ	representativa representativt representativ
+77	5977	laser	laser lasern lasrar lasers
+78	5978	sammanställning	sammanställning sammanställningen sammanställningar
+79	5979	psykiatrisk	psykiatrisk psykiatriska psykiatriskt
+80	5980	afrikansk	afrikansk afrikanskt afrikanske
+81	5981	avvikelse	avvikelser avvikelse avvikelsen avvikelserna
+82	5982	vagina	vagina vaginan vaginor
+83	5983	flörta	flörta flirta flörtar flörtade flörtat flörtande
+84	5984	bläddra	bläddra bläddrar bläddrade bläddrat
+85	5985	kupp	kupp kuppen kupper
+86	5986	främlingsfientlighet	främlingsfientlighet främlingsfientligheten
+87	5987	brandkår	brandkåren brandkår brandkårens brandkårer
+88	5988	rap	rap rapar raps
+89	5989	kamma	kamma kammade kammar kammat kammen kammas
+90	5990	experimentera	experimentera experimenterade experimenterar experimenterat experimenterande
+91	5991	regissera	regisserad regissera regisserat regisserade regisserar regisserades regisseras regisserats
+92	5992	framställning	framställning framställningen framställningar
+93	5993	normalisera	normalisera normaliseras normaliserar normaliserat normaliserad normaliserade normaliserats normaliserande
+94	5994	förfärligt	förfärligt
+95	5995	grafen	grafen
+96	5996	häpnadsväckande	häpnadsväckande
+97	5997	härom	härom
+98	5998	ifråga	ifråga
+99	5999	mexikanska	mexikanska
+100	6000	nästintill	nästintill

@@ -1,0 +1,100 @@
+1	4501	humanitär	humanitära humanitär humanitärt
+2	4502	klan	klan klanen klaner klanerna klanens klans klanernas
+3	4503	munk	munkar munk munken munkarna munkens munkarnas munks
+4	4504	upphov	upphov upphovet upphovs
+5	4505	kurd	kurder kurderna kurd kurdernas kurds
+6	4506	manipulera	manipulera manipulerar manipuleras manipulerade manipulerad manipulerat manipulerande manipulerats manipulerades
+7	4507	jazz	jazz jazzen jazzens
+8	4508	strypa	strypa stryper strypt stryp ströp stryps strypas ströps strypta strypts
+9	4509	motorcykel	motorcykel motorcyklar motorcykeln motorcyklarna
+10	4510	storebror	storebror storebrors storebröder storebrodern
+11	4511	kärring	kärring kärringen kärringar kärringarna
+12	4512	mugg	muggen mugg muggar muggarna muggs
+13	4513	förmögenhet	förmögenhet förmögenheter förmögenheten förmögenhets
+14	4514	hudfärg	hudfärg hudfärgen hudfärger
+15	4515	forn	forna forne forn
+16	4516	kreditkort	kreditkort kreditkortet kreditkorten kreditkorts
+17	4517	dimension	dimension dimensioner dimensionen dimensionerna dimensions
+18	4518	illusion	illusion illusionen illusioner illusions illusionerna illusionernas
+19	4519	galenskap	galenskap galenskaper galenskapen galenskaperna
+20	4520	störta	störta störtade störtar störtat störtades störtas störtad störtande störtats störtandet
+21	4521	arsenal	arsenal arsenals arsenalen
+22	4522	spika	spike spika spikat spiken spikade spikar spikas spikad spikades spikes
+23	4523	kokain	kokain kokainet
+24	4524	sits	sits sitsen sitsar
+25	4525	genombrott	genombrott genombrottet genombrotten
+26	4526	ifred	ifred
+27	4527	österut	österut
+28	4528	involverad	involverad involverade involverat
+29	4529	heroin	heroin heroinet
+30	4530	poet	poet poeten poeter poeterna poets poetens poeters poeternas
+31	4531	aktion	aktion aktioner aktionen aktionerna
+32	4532	explosion	explosion explosionen explosioner explosionerna explosions explosionens
+33	4533	täckning	täckning täckningen
+34	4534	premiärminister	premiärminister premiärministern premiärministerns premiärministrar premiärministers
+35	4535	avklara	avklarat avklarad avklarade avklara avklaras avklarades
+36	4536	fruga	frugan frugans fruga
+37	4537	kontra	kontra kontrar kontrade kontras kontrat
+38	4538	pressmeddelande	pressmeddelande pressmeddelandet pressmeddelanden
+39	4539	upplysning	upplysning upplysningar upplysningen upplysningens upplysningarna
+40	4540	jämlik	jämlika jämlik jämlikt jämlikar jämlikare jämlike
+41	4541	talare	talare talaren talarna talarens
+42	4542	förmoda	förmodar förmodade förmoda förmodas förmodat förmodad förmodades förmodats
+43	4543	slutgiltig	slutgiltiga slutgiltigt slutgiltig
+44	4544	dräkt	dräkt dräkter dräkten dräkterna dräktens
+45	4545	stökig	stökigt stökig stökiga stökigare stökigaste
+46	4546	överta	överta övertog övertagande övertar övertagit övertogs övertagandet övertas övertagits övertagen
+47	4547	räka	räkor räka räkan räkorna räk
+48	4548	komponent	komponenter komponent komponenterna komponenten
+49	4549	hy	hy hyn
+50	4550	myra	myror myrorna myra myran myrornas myrans myre myras
+51	4551	förlita	förlita förlitar förlitade förlitat
+52	4552	fotbollsspelare	fotbollsspelare fotbollsspelaren fotbollsspelarna
+53	4553	huvudkontor	huvudkontor huvudkontoret huvudkontoren
+54	4554	vodka	vodka vodkan
+55	4555	inbyggd	inbyggd inbyggda inbyggt
+56	4556	nerv	nerverna nerver nerv nerven nervernas
+57	4557	avgång	avgång avgångar avgången avgångarna avgångs
+58	4558	rekrytering	rekrytering rekryteringen rekryteringar rekryterings
+59	4559	förnya	förnya förnyat förnyade förnyas förnyar förnyad förnyades förnyats förnyande
+60	4560	valrörelse	valrörelsen valrörelse valrörelser valrörelsens valrörelserna
+61	4561	biskop	biskop biskopen biskopar biskoparna biskopens biskops biskoparnas
+62	4562	portfölj	portfölj portföljen portföljer portföljerna
+63	4563	väldig	väldig väldiga väldige
+64	4564	förfölja	förföljer förfölja förföljd förföljde förföljs förföljt förföljare förföljdes förföljande förföljas
+65	4565	frustrerad	frustrerad frustrerade frustrerat
+66	4566	programmera	programmera programmerade programmerad programmerar programmerat programmeras programmerats programmerades
+67	4567	utredare	utredare utredaren utredarna utredarens
+68	4568	utkik	utkik utkiken
+69	4569	frustration	frustration frustrationen frustrationer
+70	4570	korsa	korsa korsade korsat korsas korsande korsades korsats korsad korsen
+71	4571	famn	famn famnen famnar
+72	4572	massage	massage massagen
+73	4573	utge	utger utge utgav utges utgavs utgett utgivits utgivande utgivit utgivandet
+74	4574	vett	vett vettet
+75	4575	kyss	kyss kyssar kyssen kyssarna
+76	4576	hänvisning	hänvisning hänvisningar hänvisningen hänvisningarna
+77	4577	åtanke	åtanke åtanken
+78	4578	specialisera	specialiserade specialiserad specialiserat specialiserar specialisera
+79	4579	zombie	zombie zombies zombier zombierna zombien
+80	4580	döpt	döpt döpte döpta
+81	4581	webbsida	webbsida webbsidor webbsidan webbsidorna
+82	4582	sökning	sökning sökningen sökningar sökningarna
+83	4583	romersk	romerska romersk romerskt romerske
+84	4584	antik	antika antik antikens antikt
+85	4585	tillfredsställa	tillfredsställa tillfredsställande tillfredsställd tillfredsställer tillfredsställda tillfredsställt tillfredsställde tillfredsställas tillfredsställs
+86	4586	återhämta	återhämta återhämtat återhämtar återhämtade återhämtad återhämtande
+87	4587	antisemitism	antisemitism antisemitismen antisemitismens
+88	4588	parallellt	parallellt
+89	4589	utrikes	utrikes
+90	4590	åratal	åratal
+91	4591	älskare	älskare älskaren älskarna älskares älskarens
+92	4592	bekräftelse	bekräftelse bekräftelsen bekräftelser
+93	4593	viska	viskar viska viskade viskan viskande viskas viskat visk viskans
+94	4594	björk	björk björken björkar björks björkarna björkens björkarnas
+95	4595	mellanrum	mellanrum mellanrummet mellanrummen
+96	4596	komedi	komedi komedier komedin komedien komedierna
+97	4597	färdighet	färdigheter färdighet färdigheten färdigheterna
+98	4598	årsdag	årsdag årsdagen årsdagar
+99	4599	ansvarsfull	ansvarsfullt ansvarsfull ansvarsfulla
+100	4600	lamm	lamm lammet lammen lammets lammens

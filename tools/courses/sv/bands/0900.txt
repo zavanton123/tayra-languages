@@ -1,0 +1,100 @@
+1	801	erkänna	erkänna erkänner erkännande erkänt erkände erkänn erkänd erkända erkännandet erkännas
+2	802	klubb	klubben klubb klubbar klubbens klubbarna klubbarnas klubbars klubbs
+3	803	kostnad	kostnader kostnad kostnaden kostnaderna kostnads
+4	804	skratta	skratta skrattar skrattade skrattat skrattande skratten skrattas skrattandes skrattad
+5	805	plocka	plocka plockar plockade plockat plockas plockades plockats plockad plockare
+6	806	hot	hot hotet hoten hots
+7	807	delta	delta deltog deltar deltagande deltagit deltaga deltagandet deltat deltager deltan
+8	808	kund	kunder kund kunden kunderna kundens kunders kundernas kunds
+9	809	verklighet	verkligheten verklighet verklighetens verkligheter verklighets
+10	810	band	band bandet banden bandets bands bandens
+11	811	icke	icke icket
+12	812	vapen	vapen vapnet vapnen vapnets vapnens vapens
+13	813	uppe	uppe
+14	814	öppet	öppet
+15	815	bit	bit biten bitar bitarna bitars bits bitna
+16	816	el	el elen els
+17	817	punkt	punkt punkten punkter punkterna punkts punkters
+18	818	hantera	hantera hanterar hanteras hanterat hanterade hanterats hanterades hanterad hanterande hanterandet
+19	819	sort	sorts sorters sort sortens sorter sorten sorterna
+20	820	någonstans	någonstans nånstans
+21	821	förvänta	förväntar förväntas förvänta förväntat förväntade förväntad förväntades förväntats
+22	822	fira	fira firar firas firade fire firande firat firandet firades firad
+23	823	lyfta	lyfta lyfter lyft lyfte lyfts lyftas lyftes lyftet lyften lyftande
+24	824	erfarenhet	erfarenhet erfarenheter erfarenheten erfarenheterna erfarenhetens
+25	825	laga	laga lagen lagar lagade lagat lagad lagas lage lagades lagats
+26	826	myndighet	myndigheter myndighet myndigheterna myndigheten myndighetens myndigheters myndigheternas myndighets
+27	827	aktiebolag	ab aktiebolag aktiebolaget aktiebolags aktiebolagets
+28	828	kall	kallt kall kallare kalle kallaste kallast kalls kallet kallen
+29	829	söt	söt söta sött sötaste sötare söte sötast sötat sötad sötade
+30	830	behov	behov behovet behoven behovs
+31	831	kämpa	kämpa kämpar kämpat kämpade kämpe kämpande kämparna kämpen kämpas kämpandes
+32	832	sjunga	sjunga sjunger sjöng sjung sjungit sjungande sjungs sjungas sjöngs sjungen
+33	833	fot	fot fötter fötterna foten fots fotens fötternas
+34	834	råka	råkar råkade råkat råka råkas råkades råkor
+35	835	öl	öl ölet øl ölets öler
+36	836	gata	gatan gator gatorna gata gatans gatu gators gatornas
+37	837	period	period perioden perioder perioderna periodens periods
+38	838	innehålla	innehåller innehöll innehålla innehållande innehållit innehållandes innehålls
+39	839	svår	svår svåra svåraste svårare svårast
+40	840	annorlunda	annorlunda
+41	841	exempelvis	exempelvis
+42	842	sekund	sekunder sekund sekunden sekunders sekunderna sekunds
+43	843	slänga	slänga slänger släng slängde slängt slängs slängas slängdes slängd slängar
+44	844	närhet	närheten närhet
+45	845	gissa	gissa gissar gissade gissat
+46	846	säkerhet	säkerhet säkerheten säkerhets säkerhetens säkerheter
+47	847	allvar	allvar allvaret
+48	848	vård	vård vården vårdens
+49	849	ladda	ladda laddar laddat laddade laddad laddas laddades laddats
+50	850	journalist	journalister journalist journalisten journalisterna journalisters journalistens journalisternas journalists
+51	851	offentlig	offentliga offentlig offentligt offentligas offentlige
+52	852	röra	röra rörande rörde rört rörd röran rören röras rördes rörda
+53	853	enorm	enormt enorm enorma
+54	854	föda	föddes föda föds föder födas fötts födde fött födan föd
+55	855	max	max maxar
+56	856	anställd	anställda anställd anställde anställt anställdas anställds
+57	857	grön	gröna grön grönt grönare gröne grönas grönaste gröns
+58	858	beroende	beroende beroendet beroenden
+59	859	september	september septembers
+60	860	middag	middag middagen middagar middags middagarna
+61	861	central	centrala central centralt centralen centraler centrale centralens centralerna centralare centrals
+62	862	prova	prova provat provar provade proven provas provats prove provad provades
+63	863	effekt	effekt effekter effekten effekterna effektens
+64	864	sköta	sköter sköta sköt skötte skött sköts skötas sköttes skötts skötta
+65	865	anmäla	anmäla anmäler anmälda anmält anmäl anmälde anmäld anmäls anmäldes anmälts
+66	866	uppskatta	uppskattar uppskatta uppskattas uppskattat uppskattad uppskattade uppskattades uppskattats uppskattande
+67	867	guld	guld guldet gulden guldets
+68	868	bolag	bolag bolaget bolagen bolagets bolags bolagens
+69	869	tvungen	tvungen tvungna tvunget
+70	870	samband	samband sambandet sambanden sambands
+71	871	gäng	gäng gänget gängen gängets gängens gängs
+72	872	marknad	marknaden marknad marknader marknadens marknaderna marknads
+73	873	grad	grader grad graden graders graderna gradens grads
+74	874	rent	rent renast
+75	875	enbart	enbart
+76	876	såklart	såklart
+77	877	överallt	överallt
+78	878	föra	föra förde fört fördes föras förts förd förande förs förandet
+79	879	åtminstone	åtminstone åtminstonde
+80	880	individ	individer individ individen individens individerna individers individs individernas
+81	881	bilda	bilda bildar bilden bildas bildades bildade bildat bildats bildad bildandet
+82	882	trycka	trycka trycker tryckte tryckt tryckta tryckas trycktes trycks tryckts tryckande
+83	883	butik	butik butiken butiker butikerna butikens butiks butikernas butikers
+84	884	miljard	miljarder miljard miljarderna miljarden miljarders
+85	885	affär	affären affärer affär affärerna affärs affärens affärers affärernas
+86	886	förut	förut
+87	887	skull	skull
+88	888	skämt	skämt skämtet skämten skämts skämtets
+89	889	värde	värde värdet värden värdena värdens
+90	890	minne	minne minnen minnet minnena minnes minnenas minnets
+91	891	bank	bank banken banker bankerna banks bankens bankernas bankers bankarna
+92	892	rekommendera	rekommenderar rekommendera rekommenderas rekommenderade rekommenderat rekommenderad rekommenderades rekommenderats
+93	893	presentera	presentera presenterar presenteras presenterade presenterades presenterat presenterats presenterad
+94	894	satsa	satsa satsar satsat satsade satsas satsen satsades satsats satsad
+95	895	stolt	stolt stolta stoltare stoltaste stolte stoltast
+96	896	billig	billigare billig billiga billigaste billigast
+97	897	kontroll	kontroll kontrollen kontroller kontrollerna kontrollens
+98	898	kunskap	kunskap kunskaper kunskapen kunskaperna kunskapens kunskaps
+99	899	byggnad	byggnaden byggnader byggnad byggnaderna byggnads byggnadens byggnaders byggnadernas
+100	900	bostad	bostad bostäder bostaden bostäderna bostads bostadens bostäders bostädernas

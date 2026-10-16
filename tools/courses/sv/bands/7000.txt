@@ -1,0 +1,100 @@
+1	6901	skälig	skälig skäligt skäliga
+2	6902	bekänna	bekänner bekänna bekände bekänt bekännare bekännande
+3	6903	attraktion	attraktion attraktionen attraktioner attraktionerna attraktionens
+4	6904	halsduk	halsduk halsdukar halsduken
+5	6905	omsätta	omsätter omsatte omsätta omsatt omsätts omsättas omsattes omsatta
+6	6906	strå	strå strået strån stråna stråt
+7	6907	dominans	dominans dominansen
+8	6908	tuberkulos	tuberkulos tbc tuberkulosen
+9	6909	eftertanke	eftertanke eftertanken eftertankar
+10	6910	attribut	attribut attributen attributet
+11	6911	mexikansk	mexikansk mexikanskt mexikanske
+12	6912	dessert	dessert desserten desserter desserterna
+13	6913	atom	atom atomer atomen atomerna atomens atomernas atoms atomers
+14	6914	grina	grina grinar grinade grinat grinande
+15	6915	klang	klang klangen klanger klangs
+16	6916	surfplatta	surfplatta surfplattor surfplattan
+17	6917	kapsel	kapsel kapslar kapseln kapslarna kapselns
+18	6918	plastpåse	plastpåsar plastpåse plastpåsen plastpåsarna
+19	6919	ananas	ananas ananasen
+20	6920	törstig	törstig törstiga törstigt törstigare
+21	6921	allergi	allergi allergier allergin allergierna
+22	6922	buller	buller bullret
+23	6923	lama	lama laman lamor lamas
+24	6924	notering	notering noteringar noteringen noteringarna
+25	6925	handskas	handskas handskades handskats
+26	6926	mellersta	mellersta
+27	6927	nötskal	nötskal
+28	6928	pi	pi
+29	6929	puh	puh
+30	6930	sexton	sexton
+31	6931	slumpmässigt	slumpmässigt
+32	6932	uppfriskande	uppfriskande
+33	6933	uppifrån	uppifrån
+34	6934	valborg	valborg
+35	6935	ypperligt	ypperligt
+36	6936	dansgolv	dansgolvet dansgolv
+37	6937	kvadrat	kvadrat kvadraten kvadrater kvadraterna
+38	6938	gryning	gryningen gryning gryningens
+39	6939	latta	latte latten
+40	6940	vårdpersonal	vårdpersonal vårdpersonalen
+41	6941	maximera	maximera maximerar maximeras maximerade maximerat
+42	6942	häkte	häktet häkte häkten häktena
+43	6943	stekpanna	stekpanna stekpannan stekpannor
+44	6944	rytm	rytm rytmen rytmer rytmerna
+45	6945	förlåtelse	förlåtelse förlåtelsen förlåtelsens
+46	6946	veranda	verandan veranda verandor
+47	6947	gruppvåldtäkt	gruppvåldtäkter gruppvåldtäkt gruppvåldtäkten
+48	6948	riklig	rikligt riklig rikliga rikligare
+49	6949	kola	kola kolan kolar kolor kolade kole kolen kolat
+50	6950	spårväg	spårväg spårvägen spårvägar spårvägens spårvägarna
+51	6951	märkbar	märkbart märkbar märkbara
+52	6952	barack	barack baracker barackerna baracken
+53	6953	brottning	brottning brottningen
+54	6954	kvantitet	kvantitet kvantiteter kvantiteten
+55	6955	rondell	rondellen rondell rondeller rondellerna
+56	6956	repetition	repetition repetitioner repetitionerna repetitionen repetitions
+57	6957	gangster	gangster gangsters gangstern gangstrar gangstrarna
+58	6958	ärta	ärtor ärta ärtan ärtorna
+59	6959	förskollärare	förskollärare förskolelärare förskolläraren
+60	6960	geting	getingar geting getingen getingarna
+61	6961	inräkna	inräknat inräknad inräknade inräknas
+62	6962	mordbrand	mordbrand mordbränder mordbranden mordbränderna
+63	6963	omval	omval omvalet
+64	6964	julkalender	julkalendern julkalender julkalendrar julkalendrarna
+65	6965	religionsfrihet	religionsfrihet religionsfriheten religionsfrihetens
+66	6966	promille	promille promillen
+67	6967	upplagd	upplagt upplagd upplagda
+68	6968	bataljon	bataljon bataljonen bataljoner bataljonens bataljonerna bataljons
+69	6969	spöka	spökar spöken spök spöka spökade spökat spökande
+70	6970	alp	alperna alp alpernas alper alps alpen
+71	6971	nationalekonom	nationalekonom nationalekonomer nationalekonomen nationalekonomerna
+72	6972	täppa	täppa täppt täpper täppan täppas täpp täpps täppte täppta täppts
+73	6973	tillskriva	tillskrivas tillskrivs tillskriver tillskriva tillskrev tillskrivits tillskrevs tillskrivit tillskrivna tillskriven
+74	6974	smärtfri	smärtfritt smärtfri smärtfria
+75	6975	container	container containrar containern containrarna containers
+76	6976	understryka	understryka understryker underströk understrukna understrykas understruket understryks underströks understrukit understruken
+77	6977	ås	ås åsen åsarna åsar åsens
+78	6978	solljus	solljus solljuset solljusets
+79	6979	delegation	delegation delegationen delegationer delegationens delegationerna
+80	6980	jaka	jake jakes jaka jakar jaken
+81	6981	fallskärm	fallskärm fallskärmar fallskärmen
+82	6982	sned	sned sne sneda
+83	6983	norrländska	norrländska norrländskan
+84	6984	journalistisk	journalistisk journalistiska journalistiskt
+85	6985	välförtjänt	välförtjänt välförtjänta
+86	6986	nordlig	nordliga nordligaste nordlig nordligare nordligt
+87	6987	nationalekonomi	nationalekonomi nationalekonomin nationalekonomins
+88	6988	förbinda	förbinder förbinda förbundit förbinds förbindas förbindande förbands
+89	6989	gitarrist	gitarrist gitarristen gitarrister gitarristerna
+90	6990	bandit	bandit banditer banditen banditerna bandits
+91	6991	exceptionell	exceptionellt exceptionell exceptionella
+92	6992	kvalitativ	kvalitativ kvalitativa kvalitativt
+93	6993	brottas	brottas brottades brottats brottens
+94	6994	färdigställa	färdigställa färdigställt färdigställd färdigställdes färdigställts färdigställas färdigställandet färdigställande färdigställde färdigställs
+95	6995	doktorand	doktorand doktorander doktoranden doktoranderna
+96	6996	naturvetenskaplig	naturvetenskapliga naturvetenskaplig naturvetenskapligt
+97	6997	subventionera	subventionera subventioneras subventionerat subventionerade subventionerad subventionerar
+98	6998	hårdvara	hårdvara hårdvaran hårdvaru
+99	6999	bostadshus	bostadshus bostadshuset bostadshusen
+100	7000	dubbelmoral	dubbelmoral dubbelmoralen

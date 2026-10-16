@@ -1,0 +1,100 @@
+1	9401	tankegång	tankegångar tankegång tankegångarna tankegången
+2	9402	konstapel	konstapeln konstapel konstaplar konstaplarna
+3	9403	skingra	skingra skingras skingrades skingrade skingrar skingrats skingrat
+4	9404	leopard	leopard leoparden leoparder leopards leoparderna
+5	9405	konservatism	konservatism konservatismen konservatismens
+6	9406	tärna	tärna tärnor tärnan tärnad tärnorna tärnar tärnat tärnade
+7	9407	invändig	invändigt invändig invändiga
+8	9408	tidslinje	tidslinje tidslinjen tidslinjer
+9	9409	mara	mara maran maror maras
+10	9410	övningsköra	övningsköra övningskörde övningskör övningskört
+11	9411	hyrbil	hyrbil hyrbilen hyrbilar
+12	9412	fullbordad	fullbordad fullbordat fullbordade
+13	9413	diplomati	diplomati diplomatin diplomatins
+14	9414	kuperad	kuperad kuperat kuperade
+15	9415	obligation	obligationer obligation obligationerna obligationen obligations
+16	9416	ungefärlig	ungefärlig ungefärliga ungefärligt
+17	9417	instifta	instiftat instiftades instiftade instifta instiftad instiftar instiftats instiftas instiftande instiftandet
+18	9418	utomeuropeisk	utomeuropeiska utomeuropeisk utomeuropeiskt
+19	9419	hyreshus	hyreshus hyreshuset hyreshusen
+20	9420	misstolka	misstolkas misstolkar misstolka misstolkade misstolkat misstolkats misstolkades
+21	9421	tjänstepension	tjänstepension tjänstepensionen tjänstepensioner
+22	9422	immigration	immigration immigrationen immigrations
+23	9423	alban	alban albaner albanerna albans
+24	9424	föräldralös	föräldralösa föräldralös föräldralöse föräldralöst
+25	9425	säkerhetstjänst	säkerhetstjänsten säkerhetstjänst säkerhetstjänster säkerhetstjänstens säkerhetstjänsterna
+26	9426	terrass	terrassen terrass terrasser terrasserna
+27	9427	snusa	snusa snusat snusar snusade snusen snusande
+28	9428	stomme	stommen stomme stommar stom
+29	9429	kustbevakning	kustbevakningen kustbevakningens kustbevakning
+30	9430	nystart	nystart nystarten nystarter
+31	9431	tjatig	tjatigt tjatig tjatiga
+32	9432	iranier	iranier iranierna iraniern
+33	9433	prissättning	prissättning prissättningen
+34	9434	addera	addera adderar adderas adderat adderade adderades
+35	9435	angränsande	angränsande
+36	9436	audition	audition
+37	9437	avd	avd
+38	9438	bedårande	bedårande
+39	9439	blocköverskridande	blocköverskridande
+40	9440	därvid	därvid
+41	9441	ey	ey
+42	9442	hyfs	hyfs
+43	9443	kvitt	kvitt
+44	9444	nada	nada
+45	9445	nedsättande	nedsättande
+46	9446	plusgrad	plusgrader
+47	9447	påhittad	påhittad
+48	9448	skolledare	skolledare
+49	9449	smack	smack
+50	9450	trendigt	trendigt
+51	9451	trettonde	trettonde
+52	9452	banal	banalt banala banal
+53	9453	kubansk	kubanska kubansk kubanskt kubanske
+54	9454	påkommen	påkommen påkomna påkommet
+55	9455	autentisk	autentisk autentiska autentiskt
+56	9456	lya	lya lyan lyor
+57	9457	grundutbildning	grundutbildning grundutbildningen
+58	9458	duglig	duglig dugligt dugliga
+59	9459	barnkonvention	barnkonventionen barnkonvention
+60	9460	hakkors	hakkors hakkorset
+61	9461	kontinuitet	kontinuitet kontinuiteten
+62	9462	förmyndare	förmyndare förmyndaren förmyndares förmyndarna
+63	9463	kapitalistisk	kapitalistiska kapitalistisk
+64	9464	övernatta	övernatta övernattar övernattade övernattat övernattande
+65	9465	manskap	manskap manskapet manskapets
+66	9466	fästing	fästingar fästing fästingarna fästingen
+67	9467	avundas	avundas avundades avundats
+68	9468	samhörighet	samhörighet samhörigheten
+69	9469	fraktur	fraktur frakturer frakturen
+70	9470	dopp	dopp doppet
+71	9471	opartiskhet	opartiskhet opartiskheten
+72	9472	glaciär	glaciären glaciärer glaciär glaciärerna glaciärens
+73	9473	reggae	reggae reggaen
+74	9474	uppsving	uppsving uppsvinget
+75	9475	begravningsplats	begravningsplats begravningsplatsen begravningsplatser begravningsplatserna
+76	9476	sammanträde	sammanträde sammanträdet sammanträden sammanträdena
+77	9477	vanka	vankas vankar vanka vankades vankade
+78	9478	insinuera	insinuera insinuerar insinuerade insinuerat
+79	9479	knivhuggen	knivhuggen knivhuggna knivhugget
+80	9480	utnämning	utnämningen utnämning utnämningar utnämningarna
+81	9481	kalifat	kalifatet kalifat kalifatets
+82	9482	spannmål	spannmål spannmålen spannmåls spannmålet
+83	9483	ursprungsbefolkning	ursprungsbefolkning ursprungsbefolkningen ursprungsbefolkningar ursprungsbefolkningens
+84	9484	guldmedalj	guldmedalj guldmedaljer guldmedaljen guldmedaljerna
+85	9485	studentkår	studentkår studentkåren studentkårer studentkårens studentkårs studentkårerna studentkårers
+86	9486	kröna	krönas krönt kröna kröntes kröner krönts krönte kröns krönta
+87	9487	lyrisk	lyrisk lyriska lyriskt
+88	9488	krigszon	krigszon krigszoner krigszonen
+89	9489	brännskada	brännskador brännskada brännskadad brännskadade brännskadan
+90	9490	välsigna	välsigna välsignade välsignar välsignat välsigne välsignas välsignats välsignades välsignande
+91	9491	rasifierad	rasifierade rasifierad
+92	9492	vänsterextrem	vänsterextrema vänsterextrem
+93	9493	brandbil	brandbil brandbilar brandbilen brandbilarna
+94	9494	realisera	realiseras realisera realiserade realiserar realiserat realiserades realiserats realiserad
+95	9495	karate	karate karaten
+96	9496	enhällig	enhälligt enhällig enhälliga
+97	9497	jättesvår	jättesvårt jättesvår
+98	9498	advokatbyrå	advokatbyrå advokatbyrån advokatbyråer advokatbyråerna
+99	9499	bukett	bukett buketten buketter buketterna
+100	9500	återlämna	återlämnas återlämna återlämnade återlämnar återlämnades återlämnandet återlämnad återlämnande återlämnats återlämnat

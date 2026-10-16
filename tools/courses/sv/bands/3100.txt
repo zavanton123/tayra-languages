@@ -1,0 +1,100 @@
+1	3001	otrevlig	otrevlig otrevliga otrevligt otrevligare otrevligaste
+2	3002	klubba	klubben klubba klubbar klubban klubbor klubborna klubbat klubbades klubbade klubbas
+3	3003	rutten	rutten ruttna ruttet ruttnar ruttnande ruttnat ruttnade
+4	3004	varsågod	varsågod varsågoda vassego
+5	3005	jeans	jeans jeansen
+6	3006	missförstå	missförstå missförstått missförstår missförstod missförstådd missförstådda missförstås missförståtts
+7	3007	förlänga	förlänga förlänger förlängt förlängd förlängde förlängs förlängas förläng förlängdes förlängts
+8	3008	engelsk	engelsk engelskt engelske
+9	3009	absurd	absurt absurd absurda
+10	3010	tillägga	tillägga tilläggas tillägger tillagd tillade tillagt tillagda tilläggen tilla tillagts
+11	3011	kopiera	kopiera kopierar kopierade kopierat kopieras kopierad kopierats kopierades
+12	3012	organ	organ organen organet organs organens organets
+13	3013	tält	tält tältet tälten tältets
+14	3014	ek	ek ekar eken eks ekarna ekens
+15	3015	förse	förse försedd förser försett försedda förses försåg försetts försågs försedde
+16	3016	experiment	experiment experimentet experimenten experiments experimentets
+17	3017	islamist	islamister islamist islamisterna islamisten islamisters islamisternas
+18	3018	motsatt	motsatt motsatta motsatte motsatts
+19	3019	lina	lina linan linor linas linorna
+20	3020	rekrytera	rekrytera rekryterar rekryterade rekryterare rekryteras rekryterat rekryterades rekryterad rekryterats rekryterande
+21	3021	skägg	skägg skägget skäggen
+22	3022	turnering	turneringen turnering turneringar turneringens turneringarna turnerings
+23	3023	kapacitet	kapacitet kapaciteten kapaciteter
+24	3024	server	server servrar servern servrarna servers serverns
+25	3025	omfattning	omfattning omfattningen omfattningar
+26	3026	årlig	årliga årlig årligt
+27	3027	lock	locket lock lockar locks lockarna locken lockets
+28	3028	succé	succé succén succéer succéerna
+29	3029	formell	formellt formell formella
+30	3030	journalistik	journalistik journalistiken journalistikens
+31	3031	leksak	leksaker leksak leksakerna leksaken leksaks
+32	3032	mo	mo mos mon moset mons moar
+33	3033	hemlös	hemlösa hemlös hemlöse hemlösas
+34	3034	spridning	spridning spridningen spridnings
+35	3035	värna	värna värnar värnas värnade värnat värnen värnande
+36	3036	hinder	hinder hindret hindren
+37	3037	olycklig	olyckligt olycklig olyckliga olycklige olyckligare
+38	3038	daglig	dagliga daglig dagligt
+39	3039	avseende	avseende avseenden avseendet afseende
+40	3040	skandal	skandal skandalen skandaler skandalerna
+41	3041	objektiv	objektiv objektivt objektiva objektivet objektiven objektivets
+42	3042	lady	lady ladyn
+43	3043	föregående	föregående föregåendes
+44	3044	vänja	vänja vänjer vant vande vänj vand vanten
+45	3045	böja	böja böjer böj böjd böjda böjde böjt böjs böjas böjdes
+46	3046	sallad	sallad salladen sallader sallads
+47	3047	pm	pm
+48	3048	pågående	pågående
+49	3049	sorry	sorry
+50	3050	förtryck	förtryck förtrycket förtrycks förtryckets
+51	3051	blott	blott blotta blottar blottade blottas blottat blottad blottades blottande
+52	3052	chips	chips chipsen chipset
+53	3053	riksdagsledamot	riksdagsledamot riksdagsledamöter riksdagsledamoten riksdagsledamöterna riksdagsledamöternas riksdagsledamöters
+54	3054	don	don dons donen
+55	3055	våldtäktsman	våldtäktsmän våldtäktsman våldtäktsmannen våldtäktsmännen våldtäktsmannens
+56	3056	värdera	värderar värdera värderas värderade värderad värderat värderades värderande värderats
+57	3057	kapitel	kapitel kapitlet kapitlen kapitlets
+58	3058	drama	drama dramat dramer draman dramats dramerna
+59	3059	para	para parad paraden parade parar paras parader parat pares parades
+60	3060	officer	officer officerare officerarna officeren officers officerarnas officerares officern
+61	3061	pjäs	pjäs pjäsen pjäser pjäserna pjäsens
+62	3062	pinne	pinne pinnar pinnen pinnarna
+63	3063	reportage	reportage reportaget reportagen
+64	3064	kontanter	kontanter kontanterna
+65	3065	kol	kol kolet kolen kolets
+66	3066	besvär	besvär besväret besvären
+67	3067	hushåll	hushåll hushållet hushållen hushållens hushållets hushålls
+68	3068	doft	doften doft dofter dofterna
+69	3069	målvakt	målvakt målvakten målvakter mv målvakterna målvaktens målvakts
+70	3070	fuktig	fuktigt fuktiga fuktig fuktigare fuktigaste
+71	3071	elektrisk	elektriska elektrisk elektriskt
+72	3072	galning	galning galningar galningarna galningen
+73	3073	rea	rea read rean ree rear reor rees reade reas reorna
+74	3074	skitsnack	skitsnack skitsnacket
+75	3075	intensiv	intensiv intensivt intensiva intensivare intensiven intensive intensivast intensivaste
+76	3076	omvärld	omvärlden omvärld omvärldens
+77	3077	valfri	valfri valfritt valfria
+78	3078	cirkel	cirkel cirkeln cirklar cirklarna cirkelns cirkels
+79	3079	moral	moral moralen moralens
+80	3080	fullständig	fullständig fullständiga fullständigare
+81	3081	skatteverk	skatteverket skatteverkets skatteverk
+82	3082	aggressiv	aggressiv aggressiva aggressivt aggressivare aggressive
+83	3083	utvisning	utvisning utvisningar utvisningen utvisningarna
+84	3084	universum	universum universums universumet
+85	3085	överdriven	överdrivet överdriven överdrivna
+86	3086	arkiv	arkiv arkivet arkiven arkivets arkivens
+87	3087	helikopter	helikopter helikoptrar helikoptern helikoptrarna helikopterns
+88	3088	avrätta	avrätta avrättas avrättade avrättades avrättad avrättar avrättats avrättat
+89	3089	konsument	konsumenter konsument konsumenten konsumenterna konsumenternas konsumentens konsumenters
+90	3090	debut	debut debuten debuter
+91	3091	propaganda	propaganda propagandan propagandans
+92	3092	tillföra	tillför tillföra tillförs tillfört tillförde tillföras tillförts tillfördes tillförd
+93	3093	undervisa	undervisa undervisar undervisade undervisat undervisas undervisades undervisande undervisad undervisats undervisare
+94	3094	pilot	pilot piloter piloten piloterna pilots pilotens piloternas
+95	3095	hjul	hjul hjulet hjulen hjulets hjulens hjuls
+96	3096	otäck	otäckt otäcka otäck otäckaste otäckare
+97	3097	emellertid	emellertid
+98	3098	förvisso	förvisso
+99	3099	yes	yes
+100	3100	drift	drift driften drifter drifterna drifters

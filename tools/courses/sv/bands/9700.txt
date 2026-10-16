@@ -1,0 +1,100 @@
+1	9601	vikariera	vikarierande vikariera vikarierar vikarierade vikarierat
+2	9602	profetia	profetia profetior profetian profetiorna profetians
+3	9603	högland	höglandet högländerna högland höglandets högländer
+4	9604	ängslig	ängslig ängsliga ängsligt
+5	9605	tsunami	tsunami tsunamin tsunamis tsunamier
+6	9606	dansband	dansband dansbandet dansbanden dansbands
+7	9607	gömställe	gömställe gömställen gömstället
+8	9608	ombudsman	ombudsman ombudsmän ombudsmannen
+9	9609	medborgargarde	medborgargarden medborgargarde medborgargardet
+10	9610	tupplur	tupplur tupplurar tuppluren
+11	9611	sammanslutning	sammanslutning sammanslutningar sammanslutningen
+12	9612	kontrollant	kontrollant kontrollanter kontrollanterna kontrollanten
+13	9613	stavelse	stavelser stavelse stavelsen stavelserna
+14	9614	resmål	resmål resmålen resmålet
+15	9615	folkbildning	folkbildning folkbildningen folkbildningens folkbildnings
+16	9616	taxichaufför	taxichaufför taxichauffören taxichaufförer
+17	9617	fräsa	fräsa fräser fräste fräsande frästa fräst fräsare
+18	9618	hyckla	hycklande hycklar hyckla hycklandet
+19	9619	stolle	stolle stollar stollen stollarna
+20	9620	mellanhand	mellanhand mellanhänder mellanhanden mellanhänderna
+21	9621	nor	nor noret nors noren norsen
+22	9622	tillsats	tillsatser tillsats tillsatsen tillsatserna
+23	9623	trappsteg	trappsteg trappstegen trappsteget
+24	9624	inbegripa	inbegriper inbegripa inbegrep inbegripet inbegripna inbegripande inbegrips inbegripen
+25	9625	bestiga	bestiga besteg bestigit bestiger bestigas
+26	9626	boplats	boplats boplatser boplatsen boplatserna
+27	9627	konstmuseum	konstmuseum konstmuseet konstmuseer konstmuseums konstmuseets
+28	9628	rost	rost rostar rosten
+29	9629	kastrera	kastrera kastrerade kastrerad kastreras kastrerar kastrerades kastrerat
+30	9630	reträtt	reträtt reträtten reträtter
+31	9631	oas	oas oasen oaser oaserna
+32	9632	klassificering	klassificering klassificeringen klassificeringar
+33	9633	händelseförlopp	händelseförloppet händelseförlopp
+34	9634	adjektiv	adjektiv adjektivet adjektiven
+35	9635	omhänderta	omhändertas omhänderta omhändertogs omhändertagits omhändertar omhändertog omhändertagit
+36	9636	omvandling	omvandling omvandlingen omvandlingar
+37	9637	laktos	laktos laktosen
+38	9638	antikropp	antikroppar antikropp antikropparna antikroppen
+39	9639	islamsk	islamska islamsk islamskt
+40	9640	inköpt	inköpt inköpta inköpte
+41	9641	rysning	rysningar rysning rysningarna
+42	9642	filmklipp	filmklipp filmklippet filmklippen
+43	9643	dekorerad	dekorerad dekorerade dekorerat
+44	9644	ihålig	ihåliga ihålig ihåligt
+45	9645	rövare	rövare rövaren rövarna
+46	9646	sömnlös	sömnlös sömnlösa
+47	9647	urgammal	urgamla urgammal urgammalt
+48	9648	kakel	kaklet kakel
+49	9649	tabbe	tabbe tabbar tabben
+50	9650	utpekad	utpekade utpekad utpekat
+51	9651	medelvärde	medelvärdet medelvärde medelvärden
+52	9652	smutskastning	smutskastning smutskastningen
+53	9653	blåögd	blåögd blåögda blåögt
+54	9654	högkonjunktur	högkonjunktur högkonjunkturen högkonjunkturer
+55	9655	anhöriginvandring	anhöriginvandring anhöriginvandringen
+56	9656	jajamän	jajamen jajamän
+57	9657	nationalstat	nationalstaten nationalstat nationalstatens nationalstater nationalstaterna
+58	9658	himmelrike	himmelriket himmelrike himmelrikets
+59	9659	inspirationskälla	inspirationskälla inspirationskällor inspirationskällan inspirationskällorna
+60	9660	borgerlighet	borgerligheten borgerlighet borgerlighetens
+61	9661	sjöjungfru	sjöjungfru sjöjungfrun sjöjungfrur
+62	9662	unken	unken unket unkna
+63	9663	fulländad	fulländad fulländade fulländat
+64	9664	fuskare	fuskare fuskarna fuskaren
+65	9665	gavel	gavel gaveln gavlar gavlarna
+66	9666	kontrovers	kontrovers kontroverser kontroversen kontroverserna
+67	9667	definitiv	definitiva definitiv definitive
+68	9668	ljummen	ljummen ljummet ljumna
+69	9669	byggbransch	byggbranschen byggbranschens
+70	9670	anno	anno
+71	9671	belgiska	belgiska
+72	9672	högskolepoäng	högskolepoäng
+73	9673	kry	kry
+74	9674	ohyggligt	ohyggligt
+75	9675	opinionsbildare	opinionsbildare
+76	9676	skotska	skotska
+77	9677	spårlöst	spårlöst
+78	9678	ändock	ändock
+79	9679	fullgöra	fullgöra fullgjort fullgör fullgjord fullgjorde fullgörande fullgöras fullgjorda
+80	9680	surrealistisk	surrealistiskt surrealistisk surrealistiska
+81	9681	långstrumpa	långstrump långstrumps
+82	9682	fyrkant	fyrkant fyrkanter fyrkanten fyrkanterna
+83	9683	nedslagen	nedslagen nerslagen nedslagna nedslaget nerslagna
+84	9684	tjugotal	tjugotal tjugotalet
+85	9685	femåring	femåring femåringar femåringen femårings
+86	9686	sysselsätta	sysselsätta sysselsätter sysselsatte sysselsätt sysselsattes
+87	9687	dill	dill dillen
+88	9688	tålmodig	tålmodigt tålmodig tålmodiga tålmodige
+89	9689	byggnation	byggnationen byggnation byggnationer byggnationerna
+90	9690	serb	serber serberna serb serben serbernas
+91	9691	hederskultur	hederskultur hederskulturen hederskulturer
+92	9692	armhävning	armhävningar armhävning armhävningarna
+93	9693	handflata	handflatan handflata handflatorna handflator
+94	9694	förpliktelse	förpliktelser förpliktelse förpliktelserna förpliktelsen
+95	9695	glashus	glashus glashuset
+96	9696	kalkon	kalkon kalkoner kalkonen kalkonerna
+97	9697	polisiär	polisiär polisiära polisiärt
+98	9698	modem	modem modemet
+99	9699	svalna	svalna svalnar svalnat svalnade
+100	9700	norrsken	norrsken norrskenet norrskenets

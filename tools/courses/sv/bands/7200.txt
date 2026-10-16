@@ -1,0 +1,100 @@
+1	7101	jovisst	jovisst
+2	7102	kundservice	kundservice
+3	7103	narkotikabrott	narkotikabrott
+4	7104	nordvästra	nordvästra
+5	7105	nordöstra	nordöstra
+6	7106	sanslöst	sanslöst
+7	7107	sedermera	sedermera
+8	7108	skjutvapen	skjutvapen
+9	7109	smärtstillande	smärtstillande
+10	7110	tveklöst	tveklöst
+11	7111	uti	uti
+12	7112	underjordisk	underjordiska underjordisk underjordiskt
+13	7113	kåre	kåren kårar kåre kårens kåres
+14	7114	uträtta	uträtta uträttat uträttar uträttade uträttas
+15	7115	marmor	marmor marmorn
+16	7116	demonstrant	demonstranter demonstranterna demonstrant demonstranternas demonstranten
+17	7117	nämnare	nämnare nämnaren nämnarna
+18	7118	rosling	rosling roslings
+19	7119	dödlighet	dödlighet dödligheten
+20	7120	vertikal	vertikalt vertikala vertikal
+21	7121	passionerad	passionerad passionerat passionerade
+22	7122	samtycka	samtycker samtycka samtyckt samtyckte samtyckande
+23	7123	homofob	homofob homofober homofoba homofoben
+24	7124	dildo	dildo dildos dildon
+25	7125	fritera	friterad friterade fritera friterat friterar friteras
+26	7126	lantbrukare	lantbrukare lantbrukarnas lantbrukaren lantbrukarna
+27	7127	spräcka	spräcka spräckt spräckte spräcker spräckta spräcktes spräck spräcks
+28	7128	måltavla	måltavla måltavlor måltavlan måltavlorna
+29	7129	fjärrkontroll	fjärrkontrollen fjärrkontroll fjärrkontroller
+30	7130	exklusiv	exklusiv exklusivare exklusivaste
+31	7131	alster	alster alsters alstren alstret
+32	7132	sändare	sändare sändaren sändarna sändarens sändar
+33	7133	homofobi	homofobi homofobin
+34	7134	baksäte	baksätet baksäte baksäten
+35	7135	cykelväg	cykelvägar cykelväg cykelvägen cykelvägarna
+36	7136	tankesmedja	tankesmedjan tankesmedja tankesmedjor tankesmedjans
+37	7137	komplement	komplement komplementet
+38	7138	vallokal	vallokalen vallokalerna vallokal vallokaler
+39	7139	slussa	slussen slussas slussar slussa slussades slussade
+40	7140	fyrkantig	fyrkantiga fyrkantig fyrkantigt
+41	7141	komponera	komponera komponerat komponerade komponerad komponerar komponerades komponerats komponerande komponeras komponerandet
+42	7142	omtalad	omtalade omtalad omtalat omtalades omtalats
+43	7143	vänsterpartist	vänsterpartist vänsterpartister vänsterpartisten vänsterpartisterna
+44	7144	avbilda	avbilda avbildad avbildas avbildar avbildade avbildat avbildades avbildats avbildande avbilden
+45	7145	hjälpmedel	hjälpmedel hjälpmedlet hjälpmedlen
+46	7146	intakt	intakt intakta
+47	7147	otrohet	otrohet otroheten
+48	7148	mobbare	mobbare mobbarna mobbaren
+49	7149	tass	tassarna tass tassar tassen
+50	7150	stängning	stängning stängningen
+51	7151	föräldraledighet	föräldraledighet föräldraledigheten
+52	7152	tjockis	tjockis tjockisar tjockisen tjockisarna
+53	7153	gnugga	gnugga gnuggar gnuggade gnuggat gnuggas gnuggad
+54	7154	roder	rodret roder rodren
+55	7155	comic	comic comics
+56	7156	busshållplats	busshållplatsen busshållplats busshållplatser busshållplatserna
+57	7157	exponering	exponering exponeringen exponeringar
+58	7158	övervinna	övervinna övervinner övervunnit övervann övervinnas övervinns övervunnen
+59	7159	pelare	pelare pelaren pelarna pelar pelarens
+60	7160	föröka	föröka förökar förökas förökat förökade
+61	7161	ogift	ogift ogifta ogifte
+62	7162	halvera	halvera halveras halverats halverat halverad halverades halverar halverade
+63	7163	hypotetisk	hypotetiskt hypotetisk hypotetiska
+64	7164	kondition	kondition kondis konditionen
+65	7165	departement	departement departementet departementen departementets
+66	7166	rata	rate ratar ratade rata rates ratat ratas ratad ratades ratats
+67	7167	jordnöt	jordnötter jordnöt jordnötterna
+68	7168	analytiker	analytiker analytikern analytikerna
+69	7169	upprop	upprop uppropet
+70	7170	galopp	galopp galoppen
+71	7171	lagstifta	lagstifta lagstiftande lagstiftad lagstiftar lagstiftade lagstiftat lagstiftas
+72	7172	förinta	förinta förintas förintade förintades förintar förintad förintats förintat förintande förintandet
+73	7173	lime	lime limes limen
+74	7174	dagsljus	dagsljus dagsljuset dagsljusets
+75	7175	förvåning	förvåning förvåningen
+76	7176	träningsvärk	träningsvärk träningsvärken
+77	7177	nationalitet	nationalitet nationaliteter nationaliteten nationaliteterna
+78	7178	oväder	oväder ovädret ovädren
+79	7179	trick	tricket tricken
+80	7180	avlång	avlånga avlång avlångt
+81	7181	holländska	holländska holländskan
+82	7182	diskmaskin	diskmaskin diskmaskinen diskmaskiner
+83	7183	hämma	hämmar hämma hämmande hämmas hämmad hämmade hämmat hämmades
+84	7184	nationalist	nationalist nationalister nationalisterna nationalisten nationalisternas
+85	7185	fördrag	fördraget fördrag fördragen fördragna fördragets
+86	7186	radhus	radhus radhusen radhuset
+87	7187	motbevisa	motbevisa motbevisar motbevisat motbevisade motbevisas motbevisad motbevisats motbevisades
+88	7188	rastlös	rastlös rastlösa rastlöst
+89	7189	högutbildad	högutbildade högutbildad
+90	7190	spaning	spaning spaningen spanings spaningar spaningarna
+91	7191	hundring	hundring hundringen hundringar
+92	7192	hatisk	hatisk hatiska hatiskt
+93	7193	gröda	grödor gröda grödorna grödan
+94	7194	solid	solid solida solitt
+95	7195	hjort	hjort hjorten hjortar hjortarna hjortens hjorts
+96	7196	afghanska	afghanska
+97	7197	arton	arton
+98	7198	attans	attans
+99	7199	espresso	espresso
+100	7200	fullmäktige	fullmäktige

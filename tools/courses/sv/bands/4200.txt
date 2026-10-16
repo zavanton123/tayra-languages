@@ -1,0 +1,100 @@
+1	4101	hona	honor hona honan honorna honans honors honornas
+2	4102	erövra	erövra erövrade erövrat erövrar erövrades erövras erövrats erövrad erövrande erövrandet
+3	4103	midsommar	midsommar midsommaren
+4	4104	koloni	koloni kolonier kolonin kolonierna kolonins kolonien koloniernas
+5	4105	avdrag	avdrag avdraget avdragen
+6	4106	folkgrupp	folkgrupp folkgrupper folkgruppen folkgrupperna folkgruppers
+7	4107	centimeter	centimeter centimeters centimetrar
+8	4108	tennis	tennis tennisen tennisens
+9	4109	ersättare	ersättare ersättaren ersättarna
+10	4110	tillhörighet	tillhörighet tillhörigheter tillhörigheten tillhörigheterna
+11	4111	korruption	korruption korruptionen korruptionens
+12	4112	benämna	benämns benämna benämner benämnas benämnd benämnt benämnde benämndes benämnda benämnts
+13	4113	telefonnummer	telefonnummer telefonnumret telefonnumren
+14	4114	spark	spark sparken sparkar sparks sparkarna
+15	4115	parfym	parfym parfymen parfymer parfymens parfymerna
+16	4116	dala	dala dale dalen dalar dalande dales dalade dalat dalas
+17	4117	stackare	stackare stackaren stackarna stackares
+18	4118	skinka	skinka skinkan skinkorna skinkor
+19	4119	special	special specials specialen
+20	4120	komplettera	komplettera kompletteras kompletterar kompletterande kompletterade komplettering kompletterades kompletterat kompletterad kompletterats
+21	4121	tomte	tomte tomtar tomten tomtarna tomtens tomtarnas
+22	4122	adhd	adhd
+23	4123	dåvarande	dåvarande
+24	4124	femton	femton
+25	4125	fristående	fristående
+26	4126	förhand	förhand
+27	4127	halvvägs	halvvägs
+28	4128	sannerligen	sannerligen
+29	4129	yttersta	yttersta
+30	4130	hörlur	hörlurar hörlurarna hörlur hörluren
+31	4131	uppdela	uppdelat uppdelad uppdelade uppdelas uppdelades
+32	4132	miljövänlig	miljövänligt miljövänliga miljövänlig miljövänligare miljövänligaste
+33	4133	uttag	uttagen uttag uttaget
+34	4134	pil	pil pilar pilen pilarna pils pilens
+35	4135	terror	terror terrorn terrorns
+36	4136	spekulera	spekulera spekulerar spekuleras spekulerade spekulerats spekulerat spekulerades spekulerande
+37	4137	tillverkare	tillverkare tillverkaren tillverkarna tillverkarens tillverkarnas tillverkares
+38	4138	förkylning	förkylning förkylningen förkylningar
+39	4139	fat	fat fatet fats faten
+40	4140	korrupt	korrupt korrupta korrupte
+41	4141	chansa	chansa chansen chansar chansade chansat
+42	4142	beredskap	beredskap beredskapen beredskaps
+43	4143	svettas	svettas svettades svettats
+44	4144	bakterie	bakterier bakterie bakterien bakterierna bakteriens bakteriernas bakteriers
+45	4145	nuläge	nuläget nuläge
+46	4146	väster	väster västerns
+47	4147	talman	talman talmannen talmän talmannens talmännen
+48	4148	facklig	fackliga fackligt facklig
+49	4149	semla	semlor semla semlan semlorna
+50	4150	oacceptabel	oacceptabelt oacceptabel oacceptabla
+51	4151	elefant	elefant elefanter elefanten elefanterna elefantens elefanternas
+52	4152	unna	unna unnar unt unnade unnat unn
+53	4153	sabba	sabba sabbar sabbat sabbade sabbaten sabbad sabbas sabbater
+54	4154	fossil	fossila fossil fossilt fossiler fossilen fossilet fossilerna
+55	4155	territorium	territorium territoriet territorier territorierna territoriets
+56	4156	inbördeskrig	inbördeskrig inbördeskriget inbördeskrigets inbördeskrigen
+57	4157	renovera	renovera renoverades renoverar renoveras renoverade renoverat renoverats renoverad
+58	4158	konsekvent	konsekvent konsekventa
+59	4159	snöa	snöar snöa snöat snöade
+60	4160	beundra	beundrar beundra beundrade beundrad beundrat beundras beundrande beundrades
+61	4161	utland	utlandet utland utlands
+62	4162	socialtjänst	socialtjänsten socialtjänst socialtjänstens socialtjänster
+63	4163	ärlighet	ärlighet ärlighetens ärligheten
+64	4164	mjuka	mjuka mjukar mjukas mjukade mjukat
+65	4165	ryttare	ryttare ryttaren ryttarna ryttarens ryttar ryttarnas ryttares ryttarinna
+66	4166	bajsa	bajsa bajsar bajsade bajsat
+67	4167	rusta	rusta rustar rustade rustas rustad rustat rustats rustades
+68	4168	valp	valp valpar valpen valparna
+69	4169	allsvensk	allsvenska allsvensk allsvenskans allsvenskt
+70	4170	klagomål	klagomål klagomålen klagomålet
+71	4171	omslag	omslaget omslag omslagen omslagets
+72	4172	regim	regimen regim regimens regimer regimerna
+73	4173	hörni	hörni hörrni
+74	4174	incident	incident incidenten incidenter incidenterna
+75	4175	staty	staty statyn statyer statyerna statyns
+76	4176	medeltid	medeltiden medeltid medeltidens medeltids
+77	4177	densamma	densamma densamme
+78	4178	fördelning	fördelning fördelningen fördelningar
+79	4179	operatör	operatörer operatör operatören operatörerna operatörernas operatörens operatörs
+80	4180	strålning	strålning strålningen strålningens strålnings
+81	4181	uppehåll	uppehåll uppehållet uppehålls uppehållen
+82	4182	bekostnad	bekostnad
+83	4183	hr	hr
+84	4184	miljontals	miljontals
+85	4185	omgående	omgående
+86	4186	uppför	uppför
+87	4187	uteslutande	uteslutande
+88	4188	överlag	överlag
+89	4189	omsättning	omsättning omsättningen
+90	4190	tajt	tight tajt tajta tajtare tajts
+91	4191	övertygelse	övertygelse övertygelser övertygelsen
+92	4192	pub	pub puben pubar pubarna pubens pubs
+93	4193	uttråkad	uttråkad uttråkade
+94	4194	avfärda	avfärda avfärdar avfärdas avfärdade avfärdat avfärdades avfärdats avfärdande avfärden avfärdad
+95	4195	podd	podden podd poddar poddarna
+96	4196	resenär	resenärer resenär resenärerna resenären resenärernas resenärens
+97	4197	systembolag	systembolaget systembolagets systembolag
+98	4198	öppning	öppning öppningen öppningar öppningarna öppnings
+99	4199	tortera	tortera torterade torterar torteras torterad torterades torterat torterats torterare
+100	4200	eurovision	eurovision eurovisionen eurovisions

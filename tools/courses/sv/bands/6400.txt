@@ -1,0 +1,100 @@
+1	6301	utkomma	utkom utkommer utkommit utkomna utkommen utkommande utkomma
+2	6302	bildning	bildning bildningen bildningens bildnings
+3	6303	sänkning	sänkning sänkningen sänkningar sänkningarna
+4	6304	ruskig	ruskigt ruskiga ruskig
+5	6305	pausa	pausa pausar pausade pausat pausen pause pausas pausad
+6	6306	inreda	inreda inredare inreder inrett inredd inredde inredda inreddes inretts inreds
+7	6307	rökare	rökare rökaren rökares rökarna
+8	6308	isländska	isländska isländskan
+9	6309	reparation	reparation reparationer reparationen reparationerna reparations
+10	6310	slätt	slätt slätten slätter slätterna slättens
+11	6311	chatta	chatta chatten chattade chattar chattat chatte
+12	6312	prototyp	prototyp prototypen prototyper prototyperna
+13	6313	poppa	poppar poppa poppade poppe poppat poppande
+14	6314	genomsyra	genomsyrar genomsyra genomsyras genomsyrat genomsyrade genomsyrad genomsyrades
+15	6315	marschera	marschera marscherar marscherade marscherande marscherat
+16	6316	biverkning	biverkningar biverkningarna biverkning biverkningen
+17	6317	nedför	nerför nedför
+18	6318	folkhälsa	folkhälsan folkhälsa folkhälsans folkhälso
+19	6319	angelägenhet	angelägenhet angelägenheter angelägenheterna angelägenheten
+20	6320	vibb	vibbar vibbarna vibb vibben
+21	6321	coca	coca
+22	6322	förrgår	förrgår
+23	6323	förtid	förtid
+24	6324	giltigt	giltigt
+25	6325	juste	juste
+26	6326	komvux	komvux
+27	6327	nutida	nutida
+28	6328	pin	pin
+29	6329	nasa	nasa nasas nasar nasen
+30	6330	tillämpning	tillämpning tillämpningar tillämpningen tillämpningarna
+31	6331	fingeravtryck	fingeravtryck fingeravtrycken fingeravtrycket
+32	6332	boxning	boxning boxningen boxningens boxnings
+33	6333	revidera	reviderad revidera reviderade reviderades reviderat revideras reviderar reviderats
+34	6334	galleria	gallerian galleria gallerior gallerians galleriorna
+35	6335	massaker	massakern massaker massakrer massakrerna
+36	6336	framträda	framträder framträda framträdde framträtt
+37	6337	omtänksam	omtänksam omtänksamt omtänksamma
+38	6338	grop	grop gropen gropar groparna
+39	6339	kungarike	kungariket kungarike kungarikena kungariken kungarikets konungarike
+40	6340	barnbok	barnböcker barnbok barnboken barnböckerna
+41	6341	svan	svan svanen svanar svanarna svanens
+42	6342	mataffär	mataffären mataffär mataffärer mataffärerna
+43	6343	ava	ava ave aven avan avas
+44	6344	tesked	tsk tesked teskedar
+45	6345	bästis	bästis bästisar bästisen
+46	6346	efterlängtad	efterlängtade efterlängtad efterlängtat
+47	6347	obehag	obehag obehaget
+48	6348	armbåge	armbågen armbåge armbågar armbågarna
+49	6349	vårdnad	vårdnad vårdnaden
+50	6350	rimma	rimmar rimma rimmade rimmad rimmat rimmande rimmen
+51	6351	hissa	hissen hissa hissas hissar hissade hissades hissad hissat
+52	6352	trapphus	trapphuset trapphus trapphusen
+53	6353	konspirationsteori	konspirationsteorier konspirationsteori konspirationsteorin konspirationsteorierna
+54	6354	flat	flat flata flator flatan
+55	6355	pant	pant pantern pants panter panten pantrarna panterns pantrar
+56	6356	marijuana	marijuana marijuanan
+57	6357	transperson	transpersoner transperson transpersoners transpersonen
+58	6358	skräckfilm	skräckfilm skräckfilmer skräckfilmen skräckfilmerna
+59	6359	tillskott	tillskott tillskottet tillskotten
+60	6360	närstående	närstående närståendes
+61	6361	disco	disco discot disko discon
+62	6362	vältränad	vältränad vältränade vältränat
+63	6363	praktikant	praktikant praktikanter praktikanten praktikanterna
+64	6364	nos	nosen nos nosar
+65	6365	frodas	frodas frodades frodats
+66	6366	krita	krita kritan kritor kritat kritorna kritar
+67	6367	förhållningssätt	förhållningssätt förhållningssättet
+68	6368	artificiell	artificiell artificiella artificiellt
+69	6369	domkyrka	domkyrkan domkyrka domkyrkans domkyrkas
+70	6370	bokmässa	bokmässan bokmässa bokmässans bokmässor
+71	6371	återkalla	återkalla återkallas återkallar återkallade återkallat återkallande återkallades återkallats återkallad återkallandet
+72	6372	immun	immun immuna immunt immune
+73	6373	snåla	snåla snålar snålade snålat snåle snålas
+74	6374	benägen	benägen benägna benäget
+75	6375	varsel	varsel varslen varslet
+76	6376	förteckning	förteckning förteckningen förteckningar förteckningarna
+77	6377	äganderätt	äganderätt äganderätten äganderättens äganderätter
+78	6378	reaktor	reaktorn reaktorer reaktor reaktorerna reaktorns
+79	6379	manifestation	manifestation manifestationer manifestationen manifestationerna
+80	6380	duell	duell duellen dueller duellerna
+81	6381	skift	skift skiftet skiften skiftets
+82	6382	polack	polacker polackerna polack polacken polackernas
+83	6383	överlåta	överlåter överlåta överlät överlåtit överlåtas överläts överlåtits överlåts överlåt överlåtandet
+84	6384	avlägga	avlägga avlagt avlade avlägger avlagd avlagda avlades avlägg avläggs avläggas
+85	6385	teve	teven teve teves
+86	6386	varuhus	varuhus varuhuset varuhusen varuhusets
+87	6387	civilingenjör	civilingenjör civilingenjörer civilingenjörs civilingenjören civilingenjörerna
+88	6388	fiktiv	fiktiva fiktiv fiktivt fiktive
+89	6389	påläst	påläst pålästa
+90	6390	alkoholist	alkoholist alkoholister alkoholisten
+91	6391	mick	mick micken mickar mickarna micks
+92	6392	garva	garva garvar garvade garvat garvare garvad
+93	6393	fackförbund	fackförbund fackförbundet fackförbunden fackförbunds fackförbundens fackförbundets
+94	6394	exponera	exponeras exponera exponerad exponerade exponerat exponerar exponerats exponerades
+95	6395	laddare	laddare laddaren
+96	6396	milo	milo milos milon
+97	6397	bokhandel	bokhandel bokhandeln bokhandlar bokhandelns boklådor bokhandlarna bokhandels bokhandlarnas
+98	6398	slockna	slocknade slocknar slockna slocknat slocknad
+99	6399	monarki	monarkin monarki monarkier monarkins
+100	6400	aria	ari aria arian arias arior

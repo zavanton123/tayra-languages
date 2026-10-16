@@ -1,0 +1,100 @@
+1	201	väg	väg vägen vägar vägarna vägs vägens vägarnas vägars
+2	202	jävla	jävla jäkla djävla jädra
+3	203	ganska	ganska
+4	204	lika	lika like likes likar liken likande likas likens
+5	205	älska	älskar älskade älska älskat älskad älskande älskas älskades älskandes älskats
+6	206	plats	plats platser platsen platserna platsens platsers
+7	207	runt	runt
+8	208	typ	typ typer typen typerna typens
+9	209	deras	deras
+10	210	fortfarande	fortfarande
+11	211	tre	tre
+12	212	fall	fall fallet fallen falls fallna fallens fallets fallne
+13	213	alltså	alltså asså allså
+14	214	kolla	kolla kollar kollade kollat kollas kollad kollen kollades kollande kolle
+15	215	leva	lever leva levande levde levt lev leve levern leverne levat
+16	216	enligt	enligt
+17	217	polis	polisen polis poliser polisens poliserna polisers polisernas
+18	218	ofta	ofta oftast oftare
+19	219	verka	verkar verkade verka verkat verken verkande verkas
+20	220	sida	sidan sida sidor sidorna side siden sidans sido sidors sidas
+21	221	skola	skolan skola skolor skolans skolorna skol skolas skolade skolad skolornas
+22	222	hjälpa	hjälpa hjälper hjälpte hjälpt hjälpen hjälpas hjälpande hjälps hjälpta hjälpare
+23	223	pengar	pengar penga
+24	224	ur	ur yr yrar yra uret urs yran yrade yrande uren
+25	225	hända	hänt hände hända händer händ
+26	226	vän	vänner vän vännen vänt vännerna väninna vänners väns väninnor väninnan
+27	227	stad	stan stad staden städer stadens städerna stans stads städernas städers
+28	228	faktiskt	faktiskt
+29	229	tidigt	tidigare tidigt tidigast
+30	230	nära	nära närmare närmaste närmast närmsta närmre närmst närt närande närde
+31	231	äta	äta äter ätit ät äts ätas eda ätande åts ätits
+32	232	enda	enda endas endes
+33	233	bland	bland
+34	234	samt	samt
+35	235	bil	bil bilen bilar bilarna bilens bils bilarnas bilars
+36	236	långt	långt längre längst
+37	237	namn	namn namnet namnen namns namnets
+38	238	månad	månader månad månaden mån månaders månaderna månen månads månadens måns
+39	239	svårt	svårt svårare svårast
+40	240	hoppas	hoppas hoppades hoppats hoppandes
+41	241	därför	därför
+42	242	hos	hos
+43	243	kvar	kvar
+44	244	dålig	dålig värsta dåliga värre sämsta sämre värst sämst värste dåligare
+45	245	betala	betala betalar betalt betalat betalade betalas betald betalda betalande betalades
+46	246	fast	fast fasta fastan fastande fastar fastare faste fastat fastade fasten
+47	247	eftersom	eftersom
+48	248	viss	vissa viss vissas visse
+49	249	lätt	lätt lättare lätta lättaste lättast lättad lättar lättade lättat lättas
+50	250	ord	ord ordet orden ordnar ordets ordens ords ordnarna ordnarnas
+51	251	lämna	lämna lämnar lämnade lämnat lämnas lämnades lämnad lämnats lämnande lemna
+52	252	gälla	gäller gälla gällde gällt gäll
+53	253	handla	handlar handla handlade handlat handlande handlas handle handlades handlandet handlanden
+54	254	lag	lag laget lagen lagar lagens lagets lagarna lags lagarnas lagars
+55	255	timme	timmar timme timmars timmen timma timmarna timmes timmarnas timmens
+56	256	fortsätta	fortsätta fortsätter fortsatt fortsätt fortsatte fortsatta fortsättas fortsattes fortsätte fortsätts
+57	257	nästa	nästa näst näste nästas nästen nästet
+58	258	film	film filmen filmer filmerna filmens films filmernas
+59	259	först	först
+60	260	låt	låt låtar låten låtarna låtens låtarnas låts
+61	261	tjej	tjejer tjej tjejen tjejerna tjejers tjejernas tjejs tjejens
+62	262	vanlig	vanligt vanliga vanlig vanligaste vanligare vanligast vanlige
+63	263	vänta	vänta väntar väntat väntade väntas väntande väntad väntades väntandes väntandet
+64	264	ung	unga ung yngre unge ungar ungarna ungen yngsta ungt ungas
+65	265	istället	istället
+66	266	lång	lång längre långa längsta längst långe långan längste långs
+67	267	kille	kille killar killen killarna killens killarnas killes killars
+68	268	kommun	kommun kommunen kommuner kommunerna kommunens kommuns kommunernas kommuners
+69	269	rolig	roligt rolig roliga roligare roligaste roligast rolige
+70	270	tala	talar tala talat talas talade talande talen talades talats tales
+71	271	nästan	nästan
+72	272	skicka	skicka skickar skickade skickat skickas skickades skickats skickad
+73	273	träffa	träffa träffar träffade träffat träffas träffades träffats träffad träffen träffande
+74	274	slå	slå slår slog slagit slogs slås slagen slående slagits slått
+75	275	både	både
+76	276	klart	klart
+77	277	per	per pers
+78	278	ställa	ställa ställer ställde ställt ställ ställs ställas ställdes ställd ställda
+79	279	bygga	bygga bygger byggt byggde bygg byggas byggdes byggs byggd bygget
+80	280	fin	fin fina finaste finare fine finast finas
+81	281	hjälp	hjälp hjälpen hjälps hjelp
+82	282	hemma	hemma
+83	283	söka	söker söka sök sökte sökt sökande sökandet sökes sökanden söks
+84	284	titta	titta tittar tittade tittat tittande tittandes tittas titten tittandet
+85	285	låg	låg lägre lågt låga lägsta lägst lågor lågorna lågan lågornas
+86	286	kul	kul
+87	287	ute	ute
+88	288	dö	dör dö dog dött döende doge dogo döendet
+89	289	klara	klara klarar klarade klarat klaras klarades klarats klare
+90	290	skapa	skapa skapar skapat skapade skapas skapades skapad skapats skapandet skapande
+91	291	snart	snart
+92	292	ännu	ännu
+93	293	må	mår må mått mån mådde månen måttet måtte måns mås
+94	294	ibland	ibland
+95	295	kväll	kväll kvällen kvällens kvällar kvällarna kvälls
+96	296	sista	sista siste
+97	297	tal	talet tal talets tals talen talens
+98	298	grund	grund grunden grundades grunder grundare grundade grundar grundat grunda grundad
+99	299	mamma	mamma mammas mamman mammor mammorna mammans mammors mammornas
+100	300	familj	familj familjen familjer familjens familjerna familjs familje familjers familjernas

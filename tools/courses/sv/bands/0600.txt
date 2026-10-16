@@ -1,0 +1,100 @@
+1	501	vänster	vänster vänstern vänstra vänsterns vänsters
+2	502	resultat	resultat resultatet resultaten
+3	503	medlem	medlemmar medlem medlemmarna medlemmen medlemmarnas medlemmars medlems
+4	504	hjärta	hjärta hjärtat hjärtan hjärtans hjärt hjärtats hjärtas hjerta järta hjärtana
+5	505	lärare	lärare läraren lärarna lärarnas lärarens lärares lärarinna lärar lärarinnan lärarinnor
+6	506	stämma	stämmer stämma stämde stämman stämt stämmor stäm stämd stämda stäms
+7	507	skjuta	skjuta skjuter sköt skjuts skjuten skjut sköts skjutit skjutas skjutna
+8	508	lista	lista listan listor listar listade listat listas listorna listen listad
+9	509	hata	hatar hata hatade hatat hatad hatas hatande
+10	510	stöd	stöd stödet stöds stöden
+11	511	inne	inne
+12	512	räcka	räcker räcka räckte räckt räcket räck räcke räcken räckena
+13	513	musik	musik musiken musikens musiks
+14	514	försvinna	försvinner försvann försvinna försvunnit försvunnen försvunna försvinn försvinnande försvunnet försvunne
+15	515	beslut	beslut beslutet besluten beslutna besluts beslutets
+16	516	perfekt	perfekt perfekta perfekte
+17	517	liksom	liksom lixom lix
+18	518	hårt	hårt hårdare hårdast
+19	519	hel	hel helare hele helaren
+20	520	framför	framför
+21	521	halv	halv halva halvt halvan halvor halvorna
+22	522	regel	regler reglerna regel regeln reglar reglarna regelns
+23	523	alternativ	alternativ alternativt alternativet alternativa alternativen alternative
+24	524	passa	passa passar passande passade passat passen passas passe passad passes
+25	525	missa	missade missat missa missar missas missad missen misse missades missats
+26	526	minska	minska minskar minskat minskade minskad minskas minskande minskades minskats
+27	527	hund	hund hunden hundar hundarna hundens hunds hundarnas hundars
+28	528	sommar	sommaren sommar somras sommarens somrarna somrar sommarn sommars
+29	529	tydlig	tydligt tydlig tydliga tydligare tydligast tydligaste
+30	530	extra	extra
+31	531	särskilt	särskilt
+32	532	totalt	totalt
+33	533	social	sociala social socialt sociale socialare
+34	534	förslag	förslag förslaget förslagen förslagna förslagets förslags
+35	535	kommentar	kommentarer kommentar kommentarerna kommentaren kommentars
+36	536	ensam	ensam ensamma ensamt ensamme ensammast ensammaste ensammare
+37	537	utbildning	utbildning utbildningen utbildningar utbildningarna utbildnings utbildningens utbildningarnas
+38	538	äga	äger äga ägs ägde ägt ägande ägda ägd ägor ägandet
+39	539	system	system systemet systemen systems systemets systemens
+40	540	stat	staten statens stat stater staterna stats staternas staters
+41	541	någonsin	någonsin
+42	542	ansvar	ansvar ansvaret ansvars
+43	543	ekonomisk	ekonomiska ekonomisk ekonomiskt ekonomiske
+44	544	tvinga	tvingas tvinga tvingar tvingade tvingades tvingats tvingad tvingat tvingande tvangs
+45	545	video	video videon videos videor videorna videons
+46	546	hinna	hinner hann hinna hunnit hinns hanns hinnan hinn hinnas hunnits
+47	547	varm	varmt varm varma varmare varmaste varmast varme
+48	548	stoppa	stoppa stoppar stoppade stoppas stoppat stoppad stoppades stoppats stoppen
+49	549	is	is isen isar isarna isens
+50	550	snacka	snacka snackar snackade snackat snackas snackades snackats snackande
+51	551	slippa	slipper slippa slapp sluppit slappa slappt slipp slappar slappare slappade
+52	552	elev	elever eleverna elev eleven elevernas elevers elevens elevs
+53	553	någonting	någonting nånting
+54	554	leta	letar leta letade letat letande letandet letas letandes
+55	555	räkna	räkna räknar räknat räknade räknades räknats räknad räknande räknandet räkne
+56	556	bryta	bryta bryter bröt brutit bryts bruten brutna brytas bröts bryt
+57	557	bjuda	bjuder bjuda bjöd bjudit bjuden bjud bjuds bjudna bjöds bjudas
+58	558	reda	reda red reder reds rett redas redde rede redd rer
+59	559	påverka	påverkar påverka påverkas påverkade påverkat påverkad påverkats påverkades påverkande
+60	560	ihåg	ihåg
+61	561	imorgon	imorgon
+62	562	vuxen	vuxna vuxen vuxet vuxne vuxnare vuxens
+63	563	helg	helgen helg helger helgerna helgens helgs
+64	564	bära	bära bar baren barer bart buren burit bärs bars bärande
+65	565	kung	kung kungen kungens kungar kungarna kungs kungarnas kungars
+66	566	program	program programmet programmen programmets programs programmens
+67	567	råd	råd rådet rådets råden råds rådd
+68	568	pass	pass passar passet passen passets
+69	569	politik	politik politiken politikerna politikens politikernas politikers politiks
+70	570	röd	röda röd rött röde rödare rödaste rödt rödes rödas
+71	571	hamna	hamnar hamnade hamna hamnat hamnen
+72	572	risk	risk risken risker riskerna risks
+73	573	hälsa	hälsa hälsar hälsade hälsan hälso hälsat hälsas hälsans hälsad hälsades
+74	574	kyrka	kyrkan kyrka kyrkans kyrkor kyrkorna kyrkornas kyrkas kyrk kyrko kyrkors
+75	575	information	information informationen informations informationer informationens informationerna
+76	576	kosta	kostar kosta kostade kostat kosten kostanden koste
+77	577	sjuk	sjuk sjuka sjukaste sjukan sjukare sjuke sjukas sjukast sjukes
+78	578	lägenhet	lägenhet lägenheten lägenheter lägenheterna lgh lägenhetens lägenhets lägenheternas
+79	579	kärlek	kärlek kärleken kärlekens kärleks kärlekar
+80	580	enkel	enkel enklare enkla enklaste enklast enkle
+81	581	styra	styr styra styrs styre styrde styrande styrt styras styret styrd
+82	582	trött	trött trötta tröttare tröttaste tröttast tröttande tröttar trötte tröttade tröttat
+83	583	rest	resten rester resterna rest rests
+84	584	oavsett	oavsett
+85	585	fara	for fara faran faror farit farorna fores fore farande fare
+86	586	nämna	nämna nämnde nämner nämns nämnt nämnda nämnas nämn nämndes nämnts
+87	587	testa	testa testat testar testade testas testats testades testad testen teste
+88	588	skaffa	skaffa skaffar skaffat skaffade skaffas skaffades
+89	589	gift	gift gifta gifte gifter giftet gifts giftas gifterna giftes giften
+90	590	igång	igång
+91	591	åh	åh
+92	592	tidning	tidningen tidning tidningar tidningarna tidningens tidningarnas tidnings tidningars
+93	593	jämföra	jämfört jämför jämföra jämföras jämförde jämförs jämförande jämförts jämfördes jämförd
+94	594	röst	röst röster rösterna rösten rösts röstens rösters
+95	595	nivå	nivå nivåer nivån nivåerna nivåns
+96	596	källa	källa källor källan källorna käll källans källornas källas
+97	597	vända	vända vänder vände vänd vänt vändas vänds vändes vändor vänts
+98	598	engelska	engelska engelskan engelskans
+99	599	slag	slags slag slaget slagen slagets
+100	600	borta	borta

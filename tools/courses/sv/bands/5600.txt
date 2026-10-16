@@ -1,0 +1,100 @@
+1	5501	dragon	dragon dragons dragoner dragonerna dragonen
+2	5502	löpare	löpare löparen löparna löparens
+3	5503	arbetstagare	arbetstagare arbetstagaren arbetstagarna arbetstagarens arbetstagares arbetstagarnas
+4	5504	bosätta	bosätta bosatte bosätter
+5	5505	modifiera	modifierad modifiera modifierade modifierat modifieras modifierar modifierats modifierades
+6	5506	stilig	stilig stiligt stiliga stiligare stilige stiligaste
+7	5507	skurk	skurken skurk skurkar skurkarna skurkarnas skurkens
+8	5508	självisk	självisk själviska själviskt
+9	5509	värk	värk värkar värken värkarna
+10	5510	kaplan	kaplan kaplans kaplanen
+11	5511	årstid	årstiden årstider årstid årstiderna årstidernas årstidens
+12	5512	genus	genus genuset
+13	5513	belägg	belägg beläggen beläggs belägget
+14	5514	reservera	reserverad reserverat reserverade reservera reserverar reserveras reserverats reserverades
+15	5515	planta	plantor planta plantan plantorna plantans plantas
+16	5516	förmå	förmår förmå förmådde förmått förmås förmåtts
+17	5517	rånare	rånare rånarna rånaren rånarnas rånarens
+18	5518	obefintlig	obefintlig obefintliga obefintligt
+19	5519	skalle	skalle skallar skallen skallarna skallens
+20	5520	förakt	förakt föraktet
+21	5521	närvara	närvara närvarade närvarar närvarat
+22	5522	digitalisering	digitalisering digitaliseringen digitaliseringens
+23	5523	handled	handleden handleder handlederna handled
+24	5524	notis	notis notiser notisen notiserna
+25	5525	hop	hop hopen hopens
+26	5526	amma	ams amma ammar ammade amman ammande ammas ammat ammor ammades
+27	5527	beakta	beakta beaktande beaktas beaktar beaktat beaktade beaktades beaktats
+28	5528	innerlig	innerligt innerlig innerliga innerligaste
+29	5529	talk	talk talks
+30	5530	nobel	nobel nobels noble nobelt nobla
+31	5531	biträdande	biträdande
+32	5532	ende	ende
+33	5533	inombords	inombords
+34	5534	heat	heat heatet heaten heats
+35	5535	ösa	ösa öser öste östa östs
+36	5536	larma	larma larmade larmar larmades larmat larmas larmad larmats larmen larmande
+37	5537	donation	donationer donation donationen donationerna donations
+38	5538	enkät	enkät enkäten enkäter enkäterna
+39	5539	livlig	livlig livligt livliga livligare livligaste
+40	5540	legal	legala legal legalt
+41	5541	image	image images imagen
+42	5542	skelett	skelett skelettet skeletten skelettets
+43	5543	flyktingbarn	flyktingbarn flyktingbarnen flyktingbarns
+44	5544	måttlig	måttligt måttlig måttliga
+45	5545	härska	härska härskar härskade härskande härskat härsket härsken
+46	5546	ale	ale ales alen
+47	5547	stroke	stroke strokes stroken
+48	5548	sittplats	sittplatser sittplats sittplatserna sittplatsen
+49	5549	tvättstuga	tvättstugan tvättstuga tvättstugor
+50	5550	sovjetisk	sovjetiska sovjetisk sovjetiskt sovjetiske
+51	5551	odling	odling odlingar odlingen odlingarna odlings odlingens
+52	5552	föregångare	föregångare föregångaren föregångarna föregångares föregångarens
+53	5553	prostitution	prostitution prostitutionen
+54	5554	regelbunden	regelbundna regelbunden
+55	5555	sax	sax saxen saxar saxarna saxarnas
+56	5556	undgå	undgå undgått undgår undgick undgås
+57	5557	frågetecken	frågetecken frågetecknet frågetecknen
+58	5558	sysselsatt	sysselsatt sysselsatta sysselsatte
+59	5559	konfrontera	konfrontera konfronterar konfronterade konfronteras konfronterades konfronterat konfronterad konfronterats konfronterande
+60	5560	frans	frans fransar fransen
+61	5561	kylig	kyligt kylig kyliga kyligare
+62	5562	duva	duvor duva duvan duvet duvorna dufva duv duvans
+63	5563	sill	sill sillen sillar
+64	5564	lie	lis lie liar lies liars lien
+65	5565	spä	spä spär späda späd späder spädde spätt späs spädas späds
+66	5566	comeback	comeback comebacken
+67	5567	försätta	försatt försätta försätter försattes försatte försätts försättas försatts försatta försätt
+68	5568	klinga	klingar kling klinga klingande klingan klingor klingade klinger klingat klingorna
+69	5569	ketchup	ketchup ketchupen
+70	5570	ballong	ballonger ballong ballongen ballongerna ballongens
+71	5571	vräka	vräka vräker vräkt vräkta vräkte vräkas vräks vräktes
+72	5572	prenumerera	prenumerera prenumererar prenumererade prenumererat prenumererad
+73	5573	hårig	håriga hårig hårigt hårigare hårige
+74	5574	kast	kast kastet kaster kasten
+75	5575	överstiga	överstiger överstiga översteg överstigande överstigit
+76	5576	citron	citron citroner citronen citronerna
+77	5577	plåster	plåster plåstret plåstren
+78	5578	strula	strular strula strulat strulade strulande
+79	5579	koncentration	koncentration koncentrationen koncentrationer koncentrations koncentrationerna
+80	5580	lind	lind linds linden lindar lindens lindarna
+81	5581	förväxla	förväxla förväxlas förväxlar förväxlat förväxlade förväxlad förväxlades förväxlats
+82	5582	markering	markering markeringar markeringen markeringarna
+83	5583	pär	pär pärs pärer pärsen
+84	5584	kvotering	kvotering kvoteringen
+85	5585	stövel	stövlar stövlarna stöveln stövel
+86	5586	ironisk	ironisk ironiska
+87	5587	medlemsstat	medlemsstater medlemsstaterna medlemsstat medlemsstaternas medlemsstaten medlemsstats medlemsstatens medlemsstaters
+88	5588	tillägna	tillägnad tillägnat tillägnas tillägnar tillägna tillägnade tillägnats tillägnades
+89	5589	tafsa	tafsa tafsar tafsade tafsande tafsen tafs tafsat tafsad
+90	5590	brunn	brunn brunnar brunnen brunnarna brunns brunnens brunna brunne
+91	5591	baseboll	baseball baseboll
+92	5592	peppa	peppa peppad peppande peppe peppade peppen peppes peppas
+93	5593	målare	målare målaren målarna målarens målarnas målares
+94	5594	väsentlig	väsentliga väsentlig väsentligaste
+95	5595	stift	stift stiftet stiften stifts stiftets
+96	5596	hare	hare haren harar hararna harens hares
+97	5597	kiosk	kiosk kiosken kiosker kioskerna
+98	5598	femtio	femtio femti
+99	5599	olämplig	olämplig olämpliga
+100	5600	parodi	parodi parodier parodin

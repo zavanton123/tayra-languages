@@ -1,0 +1,100 @@
+1	7701	sava	save sava saves saven
+2	7702	avråda	avråder avråda avråds avrådde avrått avrådes
+3	7703	antenn	antenn antenner antennen antennerna
+4	7704	trubbel	trubbel trubblet
+5	7705	konsistens	konsistens konsistensen
+6	7706	växthus	växthus växthuset växthusen
+7	7707	kub	kuben kub kuber kubens kuberna
+8	7708	mobilisera	mobilisera mobiliserar mobiliserade mobiliseras mobiliserat mobiliserades mobiliserats mobiliserad
+9	7709	vädja	vädjar vädjade vädja vädjat vädjande
+10	7710	kil	kil kilar kils kilen kilarna
+11	7711	stapla	stapla staplar staplade staples staplas staple staplat staplades
+12	7712	småstad	småstad småstäder småstaden småstäderna småstads småstadens
+13	7713	instinkt	instinkt instinkter instinkten instinkterna
+14	7714	ätt	ätten ätt ätter ättens ätterna ätts
+15	7715	alm	alm alms almar almen almarna
+16	7716	ämna	ämnar ämnade ämnen ämna ämnat ämnes
+17	7717	fullsatt	fullsatt fullsatta
+18	7718	sjuklig	sjukligt sjuklig sjukliga
+19	7719	lärling	lärling lärlingar lärlingen lärlings lärlingarna
+20	7720	ull	ull ullen ulls ullens
+21	7721	konsthall	konsthall konsthallen konsthallar konsthalls konsthallens
+22	7722	blus	blus blusen blusar
+23	7723	skoter	skoter skotern skotrar skotrarna
+24	7724	greja	greja grejade grejen grejar grejat
+25	7725	egg	egg eggs eggen eggar eggarna
+26	7726	könsstympning	könsstympning könsstympningen könsstympningar
+27	7727	finlandssvensk	finlandssvensk finlandssvenskar finlandssvenskarna finlandssvenskt finlandssvenskarnas finlandssvenske
+28	7728	bilaga	bilaga bilagan bilagor bilagorna
+29	7729	slinka	slinka slinker slunkit slink
+30	7730	ostörd	ostört ostörd ostörda
+31	7731	potatismos	potatismos potatismoset
+32	7732	magsjuka	magsjuka magsjuk magsjukan
+33	7733	snudd	snudd snuddar
+34	7734	binär	binära binär binärt
+35	7735	auktoritär	auktoritära auktoritär auktoritärt
+36	7736	åtkomst	åtkomst åtkomsten
+37	7737	halvtid	halvtid
+38	7738	korthet	korthet
+39	7739	lönt	lönt
+40	7740	nara	nar
+41	7741	påfrestande	påfrestande
+42	7742	terrorbrott	terrorbrott
+43	7743	ös	ös
+44	7744	förvirra	förvirrar förvirra förvirrade förvirrat förvirras
+45	7745	medioker	medioker mediokra mediokert
+46	7746	återanvända	återanvända återanvändas återanvänder återanvänds återanvänd återanvänt återanvände återanvändes återanvänts
+47	7747	eftersträva	eftersträvar eftersträva eftersträvas eftersträvade eftersträvat
+48	7748	uråldrig	uråldriga uråldrig uråldrigt
+49	7749	värdshus	värdshus värdshuset wärdshus värdshusets värdshusen
+50	7750	fik	fik fiket fiken
+51	7751	ljung	ljung ljungen ljungs
+52	7752	ortodox	ortodoxa ortodox ortodoxt ortodoxe
+53	7753	könsorgan	könsorgan könsorganen könsorganet
+54	7754	uppkomst	uppkomst uppkomsten
+55	7755	bedra	bedrar bedra bedragit bedragen bedrog bedragna bedragne bedras
+56	7756	padda	padda paddor paddan paddorna paddans
+57	7757	bestånd	bestånd beståndet beståndets bestånden
+58	7758	uppsåt	uppsåt uppsåtet
+59	7759	blåvit	blåvitt blåvita blåvit blåvitts
+60	7760	farkost	farkosten farkost farkoster farkosterna farkostens
+61	7761	flik	flik flikar fliken flikarna
+62	7762	centralbank	centralbanken centralbank centralbanker centralbankens centralbankerna
+63	7763	hjärntvättad	hjärntvättad hjärntvättade hjärntvättat
+64	7764	utvinna	utvinna utvinns utvinner utvinnas utvunnits utvann utvunnen utvunnet utvunna utvunnit
+65	7765	rampljus	rampljuset rampljus
+66	7766	slank	slank slanka slankare slankt
+67	7767	konstitution	konstitutionen konstitution konstitutioner konstitutionens konstitutions
+68	7768	scrolla	scrolla scrollar scrollade scrollat
+69	7769	tutta	tuttar tutta tutten tuttan tuttat tuttade
+70	7770	ekosystem	ekosystem ekosystemet ekosystemen ekosystemets
+71	7771	frestelse	frestelsen frestelse frestelser frestelserna
+72	7772	alpin	alpina alpint alpin alpine
+73	7773	jour	jour jouren jourer jours
+74	7774	förvränga	förvränger förvrängd förvränga förvrängt förvrängs förvrängde förvrängts förvrängas förvrängdes
+75	7775	utomjording	utomjordingar utomjording utomjordingarna utomjordingen utomjordingarnas
+76	7776	etablering	etablering etableringen etableringar
+77	7777	ättling	ättlingar ättling ättlingarna ättlingen
+78	7778	finalist	finalisterna finalist finalister finalisten
+79	7779	judendom	judendom judendomen judendomens
+80	7780	koppel	koppel kopplet kopplen
+81	7781	sabotera	sabotera saboterar saboterade saboterat saboteras saboterad saboterades
+82	7782	parentes	parentes parenteser parentesen parenteserna
+83	7783	samverka	samverkar samverka samverkande samverkade samverkat
+84	7784	lappa	lappa lappen lappar lappade lappat lappas lappad
+85	7785	stereotyp	stereotyper stereotypa stereotyp stereotypen stereotypt stereotyperna stereotype
+86	7786	skärpning	skärpning skärpningar skärpningen
+87	7787	viktoria	viktoria viktorias
+88	7788	paja	pajar pajade paja pajat pajen
+89	7789	tydlighet	tydlighet tydlighetens tydligheten tydlighets
+90	7790	fotspår	fotspår fotspåren
+91	7791	klöver	klöver klövern klöverns
+92	7792	almanacka	almanackan almanacka almanackor almanackorna
+93	7793	underminera	underminerar underminera undermineras underminerade underminerat underminerats underminerad
+94	7794	påträffa	påträffades påträffas påträffats påträffar påträffade påträffat påträffa
+95	7795	artig	artig artiga artigare
+96	7796	patriot	patriot patrioter patriots patrioterna patrioten
+97	7797	krönikör	krönikör krönikörer krönikören krönikörerna
+98	7798	besvära	besvärande besvära besväras besvärar besvärade besvärat besvärades besvärats besvären
+99	7799	förlovad	förlovade förlovad förlovat
+100	7800	mussla	musslor mussla musslan musslorna

@@ -1,0 +1,100 @@
+1	1601	flertal	flertal flertalet flertals
+2	1602	botten	botten bottnar bottnen bottnarna bottens
+3	1603	al	al als alen alar
+4	1604	jätte	jätte jättar jätten jättarna jette jättarnas jättens
+5	1605	landa	landar landa landade landat lande landande landas landes landad landen
+6	1606	jord	jord jordens jordar jords jordarna
+7	1607	reaktion	reaktion reaktioner reaktionen reaktionerna reaktions
+8	1608	flickvän	flickvän flickvännen flickvänner flickväns fv flickvännens
+9	1609	likna	liknar likna liknade liknas liknat likn liknats
+10	1610	förhoppningsvis	förhoppningsvis
+11	1611	ihjäl	ihjäl
+12	1612	noll	noll
+13	1613	nämligen	nämligen
+14	1614	ifrågasätta	ifrågasätter ifrågasätta ifrågasatt ifrågasättas ifrågasatte ifrågasättande ifrågasätts ifrågasätt ifrågasatts ifrågasattes
+15	1615	fred	fred freden freds fredens freder
+16	1616	konstatera	konstatera konstaterar konstaterade konstaterat konstaterande konstateras konstaterades konstaterats konstaterad konstaterandet
+17	1617	slåss	slåss slogs slagits
+18	1618	väga	väger väga vägen vägde vägt vägas vägande vägdes vägd vägs
+19	1619	lån	lån lånet lånen låns lånets
+20	1620	omgång	omgång omgången omgångar omgångarna omgångens
+21	1621	jude	judar jude judarna judarnas juden judinna judars judes
+22	1622	dejt	dejt date dejten dejter dejterna
+23	1623	invandring	invandring invandringen invandringens invandrings
+24	1624	mjölk	mjölk mjölken mjölkens
+25	1625	bibliotek	bibliotek biblioteket biblioteken bibliotekets bibliotekens biblioteks
+26	1626	danska	danska danskan
+27	1627	nation	nation nationer nationen nationens nations nationerna nationernas nationers
+28	1628	platt	platt platta plattan plattor plattorna plattare plattat platts platte plattar
+29	1629	pizza	pizza pizzan pizzor pizzorna pizzans
+30	1630	representera	representerar representera representerade representeras representerat representerad representerades representerande representerats
+31	1631	fastna	fastnade fastnat fastnar fastna
+32	1632	ond	onda ond onde ondo ondare ondas ondaste ondes ondast
+33	1633	närma	närmar närma närmade närmande närmanden närmat närmandet närmas
+34	1634	pol	polen pol polens polerna poler polers
+35	1635	tolka	tolka tolkar tolkas tolkade tolkat tolkades tolkats tolken tolkad tolkande
+36	1636	knapp	knappen knapp knappar knappa knapparna knappat knappade knappas knapps knappats
+37	1637	brand	brand branden bränder bränderna brands brandens
+38	1638	specifik	specifika specifikt specifik
+39	1639	unik	unik unikt unika
+40	1640	nazist	nazister nazisterna nazist nazisternas nazisten nazisters
+41	1641	godis	godis godiset godisar godisarna godisen
+42	1642	cm	cm
+43	1643	wow	wow
+44	1644	konflikt	konflikt konflikter konflikten konflikterna konfliktens
+45	1645	motor	motor motorn motorer motorerna motors motorns motorernas
+46	1646	eftermiddag	eftermiddag eftermiddagen eftermiddags eftermiddagarna eftermiddagens eftermiddagar
+47	1647	praktisk	praktiskt praktiska praktisk
+48	1648	dal	dalarna dalarnas dal dalen dalar dals dalens
+49	1649	raka	raka rakar rakade rakat raken rakad rakas rake rakan rakades
+50	1650	undantag	undantag undantaget undantagen undantagna
+51	1651	arena	arena arenan arenor arenorna arenans arenas
+52	1652	utsätta	utsätts utsatts utsätta utsattes utsätter utsättas utsätt utsatte utsattas utsättande
+53	1653	uttalande	uttalande uttalanden uttalandet uttalandena
+54	1654	franska	franska franskan franskans
+55	1655	back	back backar backen backarna backs backens backarnas
+56	1656	skrämma	skrämmer skrämma skrämde skäms skrämmas skrämd skräms skrämt skräm skrämda
+57	1657	not	not noter noterna noten
+58	1658	psykisk	psykisk psykiskt psykiska
+59	1659	hylla	hylla hyllan hyllar hyllade hyllas hyllorna hyllades hyllad hyllor hyllat
+60	1660	tradition	tradition traditioner traditionen traditionerna traditionens traditions
+61	1661	ägna	ägna ägnar ägnade ägnat ägnades ägnad ägnas ägnats
+62	1662	aktie	aktier aktie aktien aktierna aktiens aktiernas
+63	1663	uppmärksamma	uppmärksamma uppmärksammade uppmärksammas uppmärksammat uppmärksammar uppmärksammats uppmärksammades uppmärksammad uppmärksammande
+64	1664	kontrakt	kontrakt kontraktet kontrakten kontrakts kontraktets
+65	1665	rykte	rykte rykten ryktet ryktena
+66	1666	ah	ah
+67	1667	längs	längs
+68	1668	våran	våran
+69	1669	regn	regn regnet regnen regnets
+70	1670	bedöma	bedöma bedömer bedöms bedömas bedömdes bedömde bedömt bedömts bedömda bedöm
+71	1671	krossa	krossa krossade krossar krossat krossas krossad krossades krossats krossen krossande
+72	1672	uppfattning	uppfattning uppfattningen uppfattningar uppfattningarna
+73	1673	hjälte	hjälte hjältar hjälten hjältarna hjältarnas hjältinna hjältinnan hjältens hjältinnor hjältes
+74	1674	titt	titt tittar tittarna tittarnas titten
+75	1675	okänd	okänd okända okänt okände
+76	1676	engagera	engagera engagerad engagerade engagerar engagerat engageras engagerande engagerades engagerats
+77	1677	snubbe	snubbe snubben snubbar snubbarna snubbens snubbes
+78	1678	domare	domare domaren domarens domares domarna domarnas
+79	1679	finska	finska finskan finskor finskans finskorna
+80	1680	cykla	cykla cyklar cyklade cyklat cyklande cyklandet cyklandes cyklades
+81	1681	fälla	fälla fäller fällde fälld fälls fällan fällande fälldes fällas fällor
+82	1682	upprörd	upprörd upprörda upprört upprörde
+83	1683	klipp	klipp klippet klippen klipps
+84	1684	bas	bas basen baser basar baserna basaren basens basarer basarna basarerna
+85	1685	argument	argument argumentet argumenten arguments argumentets
+86	1686	stiga	stiger stiga stigit stigande stege stigen stegar stegen stegarna stegens
+87	1687	vild	vilda vild vilt vilde vildaste vildar vildare viltet vilden vildarna
+88	1688	banan	banan bananer bananen bananerna banans
+89	1689	dejta	dejta dejtar dejtat dejten dejtade dejtande dejtandet
+90	1690	kaka	kakor kaka kakan kakorna kak kakans kakas
+91	1691	efteråt	efteråt
+92	1692	japp	japp
+93	1693	längd	längd längden längder längderna
+94	1694	nervös	nervös nervösa nervöst nervösare
+95	1695	kyla	kylen kyla kylan kyl kyle kyler kyld kyls kylas kylt
+96	1696	process	processen process processer processerna processens
+97	1697	smärta	smärta smärtan smärtor smärtar smärtorna smärtans smärtade smärtande smärtat
+98	1698	salt	salt salta saltet salter saltade saltat saltad saltar saltas saltare
+99	1699	tunga	tunga tungan tungor tungorna tungans
+100	1700	allvarlig	allvarlig allvarliga allvarligaste allvarligare allvarligast

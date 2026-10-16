@@ -1,0 +1,100 @@
+1	7401	utförlig	utförlig utförliga utförligare
+2	7402	mobbing	mobbing mobbingen
+3	7403	kaviar	kaviar kaviaren
+4	7404	vela	vela velar vel velade velat velande
+5	7405	spiral	spiral spiralen spiraler spiralerna
+6	7406	offerkofta	offerkoftan offerkofta offerkoftor
+7	7407	ynklig	ynklig ynkliga ynkligt
+8	7408	nedladdning	nedladdning nedladdningen nedladdningar
+9	7409	stolpskott	stolpskott stolpskotten
+10	7410	ljudbok	ljudböcker ljudbok ljudboken ljudböckerna
+11	7411	yrkesgrupp	yrkesgrupper yrkesgrupp yrkesgruppen yrkesgrupperna
+12	7412	dyrbar	dyrbara dyrbar dyrbart dyrbaraste dyrbarare
+13	7413	dammsuga	dammsuga dammsugit dammsög dammsuger dammsug
+14	7414	helgdag	helgdag helgdagar helgdagarna helgdagen
+15	7415	överdos	överdos överdoser överdosen
+16	7416	folkmängd	folkmängd folkmängden
+17	7417	absorbera	absorbera absorberar absorberas absorberade absorberande absorberat absorberad absorberats absorberades
+18	7418	nationaldag	nationaldag nationaldagen nationaldagar
+19	7419	hingst	hingst hingsten hingstar hingstarna hingstens
+20	7420	vanilj	vanilj vaniljen
+21	7421	överskrida	överskrider överskrida överskred överskridit överskridande överskrids överskridas överskridits överskriden överskreds
+22	7422	fetma	fetma fetman
+23	7423	bekvämlighet	bekvämlighet bekvämligheter bekvämligheten bekvämligheterna
+24	7424	glans	glans glansen
+25	7425	migrän	migrän migränen
+26	7426	haffa	haffa haffar haffat haffad haffade haff
+27	7427	bygd	bygden bygd bygdens bygder bygderna bygde
+28	7428	vas	vas vasen vaser vaserna
+29	7429	feminin	feminina feminin feminint feminine
+30	7430	sändebud	sändebud sändebudet sändebuden
+31	7431	signifikant	signifikant signifikanta
+32	7432	bartender	bartendern bartender bartenders bartendrar
+33	7433	stadsteater	stadsteater stadsteatern stadsteaterns stadsteaters
+34	7434	kollision	kollision kollisionen kollisioner kollisionerna
+35	7435	stadskärna	stadskärnan stadskärna stadskärnor stadskärnorna stadskärnans
+36	7436	härleda	härledas härleda härleder härleds härlett härledda härledd härledde härletts
+37	7437	pick	pick picks pickar pickens picken
+38	7438	ofredande	ofredande ofredanden
+39	7439	udde	udden udde uddar uddens uddarna
+40	7440	flyktingmottagande	flyktingmottagande flyktingmottagandet
+41	7441	diplomatisk	diplomatisk diplomatiskt
+42	7442	avsäga	avsäger avsäga avsagt avsade frånsäger frånsagt
+43	7443	käfta	käften käfta käftar
+44	7444	sarkastisk	sarkastisk sarkastiska sarkastiskt
+45	7445	lurig	lurigt luriga lurig lurigare
+46	7446	generator	generator generatorer generatorn generatorerna generatorns
+47	7447	frälst	frälst frälsta frälste
+48	7448	mörkrädd	mörkrädd mörkrädda
+49	7449	väva	väver väva vov vävda väven vävt vävde vävd vävs vof
+50	7450	sofistikerad	sofistikerad sofistikerade sofistikerat
+51	7451	studiebesök	studiebesök studiebesöket
+52	7452	upprustning	upprustning upprustningen upprustningar
+53	7453	raljera	raljera raljerande raljerar raljerade
+54	7454	bakis	bakis
+55	7455	bortaplan	bortaplan
+56	7456	dito	dito
+57	7457	därutöver	därutöver
+58	7458	gnutta	gnutta
+59	7459	inpå	inpå
+60	7460	nedlåtande	nedlåtande
+61	7461	pax	pax
+62	7462	pedofili	pedofili
+63	7463	skapligt	skapligt
+64	7464	ukrainska	ukrainska
+65	7465	ordvits	ordvits ordvitsar ordvitsen
+66	7466	eländig	eländiga eländig eländigt
+67	7467	fastighetsägare	fastighetsägare fastighetsägaren fastighetsägarna
+68	7468	välskriven	välskriven välskrivet välskrivna
+69	7469	brottsoffer	brottsoffer brottsoffret brottsoffren brottsoffrets
+70	7470	rödvin	rödvin rödvinet rödviner
+71	7471	förgifta	förgifta förgiftad förgiftade förgiftar förgiftat förgiftas förgiftades förgiftats
+72	7472	kvinnosyn	kvinnosyn kvinnosynen
+73	7473	förstnämnd	förstnämnda förstnämnde
+74	7474	dynga	dynga dyngan
+75	7475	natta	natta natten nattar nattade nattat
+76	7476	bomull	bomull bomullen bomulls bomullens
+77	7477	bilbrand	bilbränder bilbränderna bilbrand
+78	7478	förbifart	förbifarten förbifart
+79	7479	äldrevård	äldrevården äldrevård
+80	7480	kulspruta	kulspruta kulsprutor ksp kulsprutan kulsprutorna
+81	7481	kossa	kossor kossan kossa kossorna
+82	7482	accent	accent accenter accenten accenterna
+83	7483	avgrund	avgrunden avgrund avgrundens avgrunder
+84	7484	perrong	perrongen perrong perronger perrongerna
+85	7485	fontän	fontän fontänen fontäner fontänerna
+86	7486	brunch	brunch brunchen
+87	7487	predikan	predikan predikningar predikningarna
+88	7488	månadslön	månadslön månadslöner månadslönen
+89	7489	legalisera	legalisera legaliserat legaliserar legaliserad legaliserade legaliseras legaliserades
+90	7490	homogen	homogen homogent homogena
+91	7491	tjur	tjur tjurar tjuren tjurarna tjurens
+92	7492	boskap	boskap boskapen boskaps
+93	7493	avgränsa	avgränsade avgränsat avgränsa avgränsad avgränsas avgränsar avgränsats avgränsande avgränsades
+94	7494	gotta	gotta gottar gotten gottade
+95	7495	tära	tär tärande tära tärde tärt tärd
+96	7496	folkbokförd	folkbokförd folkbokförda
+97	7497	spö	spö spön spöet spöt spöna
+98	7498	finlandssvenska	finlandssvenska finlandssvenskan
+99	7499	bugg	bugg buggar buggen buggarna
+100	7500	ordningsvakt	ordningsvakter ordningsvakterna ordningsvakt ordningsvakten

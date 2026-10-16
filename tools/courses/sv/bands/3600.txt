@@ -1,0 +1,100 @@
+1	3501	opinion	opinion opinionen opinions opinioner
+2	3502	vattenfall	vattenfall vattenfalls vattenfallet vattenfallen
+3	3503	cigarett	cigaretter cigarett cigaretten cigaretterna cigarrett
+4	3504	hedra	hedra hedrar hedrad hedrande hedrade hedras hedrades hedrat hedrats
+5	3505	bacon	bacon baconet baconen bacons
+6	3506	trång	trångt trång trånga trängre
+7	3507	anka	anka ankan ankor ankas ankorna ank anke
+8	3508	passion	passion passionen passioner passions passionens
+9	3509	blek	blek bleka blekt blekaste blekare bleker blekta blekte bleke bleket
+10	3510	orm	ormar orm ormen ormens ormarna ormarnas orms
+11	3511	pack	pack packet packs
+12	3512	brygga	brygga bryggan brygger bryggor bryggt bryggs brygge bryggorna brygg bryggde
+13	3513	chockad	chockad chockade chockat
+14	3514	generell	generella generell
+15	3515	stadig	stadigt stadig stadiga stadigare
+16	3516	explodera	exploderar explodera exploderade exploderat exploderande
+17	3517	lax	lax laxen laxar laxarna laxens
+18	3518	tvivel	tvivel tvivlet tvivlen
+19	3519	motivering	motivering motiveringen motiveringar
+20	3520	deprimerad	deprimerad deprimerade deprimerat
+21	3521	fuska	fuskar fuska fuskat fuskade fuskas fuskande
+22	3522	sörja	sörja sörjer sörjande sörjan sörjt sörjde sörj sörjas sörjd
+23	3523	metall	metall metaller metallen metallerna metallens metalls
+24	3524	bomba	bomba bombar bombade bomben bombat bombas bombad bombades bombats bombare
+25	3525	tillkomma	tillkommer tillkommit tillkom tillkomma tillkommande tillkomna tillkommen tillkomme
+26	3526	löjlig	löjlig löjliga löjligaste löjligare
+27	3527	nyttja	nyttja nyttjar nyttjas nyttjade nyttjande nyttjat nyttjades nyttjats nyttjad
+28	3528	gram	gram grams grammet
+29	3529	läsk	läsk läsken
+30	3530	pålitlig	pålitlig pålitliga pålitligt pålitligare pålitligaste pålitlige
+31	3531	jägare	jägare jägarna jägaren jägar jägarnas jägarens jägares
+32	3532	set	set setet sets seten
+33	3533	trovärdig	trovärdig trovärdigt trovärdiga trovärdigare
+34	3534	böna	bönor bönorna böna bönan bönar bönen bönade böne bönat
+35	3535	fläck	fläckar fläck fläcken fläckarna
+36	3536	förbättring	förbättring förbättringar förbättringen förbättringarna
+37	3537	ask	ask asken askar asks askarna askens
+38	3538	heder	heder hedern heders hederns
+39	3539	försäkringskassa	försäkringskassan försäkringskassans försäkringskassa
+40	3540	skruva	skruva skruvar skruvat skruvade skruvad skruvas skruven skruvades skruvats
+41	3541	kriminalitet	kriminalitet kriminaliteten
+42	3542	planering	planering planeringen planerings planeringar
+43	3543	konkurrent	konkurrenter konkurrent konkurrenterna konkurrenten konkurrenters konkurrenternas konkurrents
+44	3544	begravning	begravning begravningen begravningar begravnings begravningarna
+45	3545	förvara	förvaras förvara förvarar förvarade förvarades förvarat förvarats förvarad
+46	3546	svek	svek sveket sveken
+47	3547	framsteg	framsteg framstegen framsteget
+48	3548	aja	aja
+49	3549	existerande	existerande
+50	3550	fm	fm
+51	3551	mc	mc
+52	3552	na	na
+53	3553	underligt	underligt
+54	3554	gruva	gruvan gruva gruvor gruvorna gruv gruvar gruvans
+55	3555	insatt	insatt insatta insatts insatte insattes
+56	3556	migration	migration migrationen migrations migrationens migrationer
+57	3557	italiensk	italiensk italienskt italienske
+58	3558	kvitto	kvitto kvittot kvitton kvittona
+59	3559	rapportering	rapportering rapporteringen rapporteringar
+60	3560	shoppa	shoppa shoppar shoppat shoppade shoppare shoppande
+61	3561	splittra	splittra splittrat splittras splittrade splittrad splittrades splittrar splittrats splittrande
+62	3562	socken	socken sn socknen socknar socknens socknarna sockens
+63	3563	åtgärda	åtgärda åtgärdas åtgärdat åtgärden åtgärdar åtgärdade åtgärdats åtgärdades
+64	3564	fynd	fynd fyndet fynden
+65	3565	nedre	nedre nedersta
+66	3566	strategisk	strategiskt strategiska strategisk
+67	3567	filter	filter filtret filtren filters
+68	3568	elda	elda elden eldade eldar eldas eldat eldades eldare eldad eldaren
+69	3569	slappna	slappna slappnar slappnade slappnat
+70	3570	trafikverk	trafikverket trafikverkets trafikverk
+71	3571	förhör	förhör förhöret förhören förhörs
+72	3572	ingripa	ingripa ingripande ingrep ingriper ingripanden ingripandet ingripit
+73	3573	administrativ	administrativa administrativ administrativt administrative
+74	3574	trampa	trampa trampar trampade trampat trampad trampas trampades trampor tramporna trampats
+75	3575	förövare	förövare förövaren förövarna förövarens förövarnas
+76	3576	tillräcklig	tillräcklig tillräckliga
+77	3577	upplaga	upplaga upplagan upplagor upplagorna
+78	3578	skräck	skräck skräcken skräckens
+79	3579	återställa	återställa återställd återställas återställer återställ återställs återställt återställde återställande återställts
+80	3580	begränsning	begränsningar begränsning begränsningen begränsningarna
+81	3581	trakt	trakten trakterna trakter traktens trakt
+82	3582	bajs	bajs bajset
+83	3583	tempo	tempo tempot tempon
+84	3584	ändamål	ändamål ändamålet ändamålen
+85	3585	gratulera	gratulerar gratulera gratulerade gratulerat gratuleras
+86	3586	sysselsättning	sysselsättning sysselsättningen sysselsättningar sysselsättnings
+87	3587	faktura	faktura fakturan fakturor fakturorna
+88	3588	järn	järn järnet jern järnets järnen
+89	3589	uppfostra	uppfostra uppfostrar uppfostrad uppfostrade uppfostras uppfostrades uppfostrat uppfostrats uppfostrande
+90	3590	hurra	hurra hurrar hurrade
+91	3591	filt	filt filtar filten filtarna
+92	3592	manchester	manchester manchesters
+93	3593	framträdande	framträdande framträdanden framträdandet framträdandena
+94	3594	begripa	begriper begripa begrep begripit
+95	3595	missförstånd	missförstånd missförståndet missförstånden
+96	3596	kondom	kondom kondomer kondomen kondomerna
+97	3597	spärra	spärra spärrar spärren spärras spärrade spärrat spärrad spärrades spärrats
+98	3598	gumma	gumman gumma gummor gummorna gummans
+99	3599	arbetsliv	arbetslivet arbetsliv arbetslivets
+100	3600	skärgård	skärgård skärgården skärgårdens skärgårdar skärgårds

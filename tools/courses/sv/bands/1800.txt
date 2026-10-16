@@ -1,0 +1,100 @@
+1	1701	black	black blacks blacka blacken
+2	1702	professor	professor professorn professorer professorerna professorns professors
+3	1703	knä	knä knäna knät knän knäet
+4	1704	tjock	tjock tjocka tjockare tjockt tjockaste tjocke tjockast
+5	1705	rå	rå rånad råna rånar rånade råa rådde rått rånat rår
+6	1706	sverigedemokrat	sverigedemokraterna sverigedemokraternas sverigedemokrater sverigedemokrat sverigedemokraten
+7	1707	fiende	fiender fiende fienden fiendens fienderna fiendes fienders fiendernas
+8	1708	kritisk	kritisk kritiska kritiskt
+9	1709	upptäckt	upptäckt upptäckte upptäckten upptäckter upptäckta upptäckts upptäckterna
+10	1710	tisdag	tisdag tisdagen tisdags tisdagar tisdagens tisdagarna
+11	1711	europeiska	europeiska
+12	1712	ovanligt	ovanligt
+13	1713	samman	samman
+14	1714	tusentals	tusentals
+15	1715	utomlands	utomlands
+16	1716	najs	nice najs
+17	1717	flygplats	flygplatsen flygplats flygplatser flygplatserna flygplatsens
+18	1718	kod	kod koden koder koderna kodens
+19	1719	tima	time times tima timade timar timat
+20	1720	kassa	kassan kassa kassor kassorna kassans
+21	1721	status	status statusen statusar
+22	1722	felaktig	felaktigt felaktig felaktiga
+23	1723	tacksam	tacksam tacksamma tacksamt
+24	1724	karaktär	karaktär karaktärer karaktären karaktärerna karaktärs karaktärens karaktärernas
+25	1725	relevant	relevant relevanta
+26	1726	egenskap	egenskaper egenskap egenskapen egenskaperna
+27	1727	kniv	kniv kniven knivar knivarna knivarnas knivens
+28	1728	forum	forum forumet fora forumen forums forumets foran
+29	1729	vänlig	vänlig vänliga vänligt vänligare vänligaste vänlige vänligast
+30	1730	vardag	vardag vardagen vardagar vardags vardagarna vardagens
+31	1731	ära	ära äran äre ärade ärans äras ärad ärar ärat ären
+32	1732	akut	akut akuten akuta akutens
+33	1733	matt	matt mattan matta mattor matten mattorna mattas mattare mattades mattes
+34	1734	förskola	förskola förskolan förskolor förskolorna förskolans förskole förskolornas
+35	1735	matte	matte matten mattes mattar
+36	1736	onsdag	onsdag onsdags onsdagen onsdagar onsdagens onsdagarna
+37	1737	vetenskaplig	vetenskapliga vetenskaplig vetenskapligt
+38	1738	traditionell	traditionella traditionellt traditionell
+39	1739	ange	anges anger ange angav angiven angett angavs angivit angetts angivits
+40	1740	faktor	faktorer faktor faktorn faktorerna faktorernas
+41	1741	användare	användare användaren användarna användares användarens användarnas användar
+42	1742	våldta	våldta våldtagen våldtar våldtog våldtagit våldtas våldtogs våldtagits
+43	1743	tema	tema temat teman temana temata
+44	1744	utseende	utseende utseendet utseenden
+45	1745	deltagare	deltagare deltagarna deltagaren deltagarnas deltagarens deltagares
+46	1746	manlig	manliga manlig manligt manlige manligare manligaste
+47	1747	varav	varav hvaraf
+48	1748	fjärde	fjärde
+49	1749	gemensamt	gemensamt
+50	1750	uppenbarligen	uppenbarligen
+51	1751	låda	låda lådan lådor lådorna lådans lått låd
+52	1752	anklaga	anklagar anklaga anklagade anklagad anklagas anklagades anklagat anklagats anklagande
+53	1753	tillgänglig	tillgänglig tillgängliga tillgängligt
+54	1754	inslag	inslag inslaget inslagen inslagna
+55	1755	upprepa	upprepa upprepade upprepar upprepas upprepat upprepande upprepad upprepades upprepats upprepandet
+56	1756	stol	stol stolen stolar stolarna stolens
+57	1757	mästare	mästare mästaren mästarna mästarnas mästarens mästarinna mästares mästar mästarinnan
+58	1758	häftig	häftigt häftig häftiga häftigaste häftigare häftigast
+59	1759	värdelös	värdelös värdelösa värdelöst
+60	1760	observera	obs observera observerat observerade observeras observerar observerats observerades observerad observerande
+61	1761	pröva	pröva prövat prövas prövar prövade prövats prövad prövades prövande
+62	1762	skott	skott skotten skottet skotts
+63	1763	koppling	koppling kopplingen kopplingar kopplingarna
+64	1764	koka	koka kokar kokt kokande kokade kokat kokta kokas kokad kokats
+65	1765	ångra	ångrar ångra ångrade ångrat ångras
+66	1766	brun	brun bruna brunt brunare brune
+67	1767	identifiera	identifiera identifierar identifierade identifierat identifieras identifierats identifierad identifierades identifierande
+68	1768	rida	rida rider red rid ride ridit ridande riders ridas rids
+69	1769	torka	torka torkar torkade torkat torkan torkad tork torkas torken torkats
+70	1770	praktik	praktiken praktik praktiker
+71	1771	motsvarande	motsvarande
+72	1772	nja	nja
+73	1773	påse	påse påsen påsar påsarna pås
+74	1774	dollar	dollar dollarn dollars dollarna dollarns
+75	1775	game	game games gemene gem gemen gamet gemena gemener gems gemet
+76	1776	budskap	budskap budskapet budskapen budskapets
+77	1777	beskrivning	beskrivning beskrivningen beskrivningar beskrivningarna
+78	1778	medel	medel medlen medlet medels
+79	1779	lisa	lisa lise lisas lisen lisan
+80	1780	gnälla	gnäller gnälla gnäll gnällde gnällt gnället gnällande gnälls gnällandet gnällas
+81	1781	norska	norska norskan norskor norskorna
+82	1782	vettig	vettigt vettig vettiga vettigare vettigaste vettigast
+83	1783	kompetens	kompetens kompetensen kompetenser
+84	1784	definition	definition definitionen definitioner definitionerna definitions
+85	1785	naken	naken nakna naket nakne
+86	1786	jakt	jakt jakten jakter jaktens jakterna
+87	1787	stabil	stabil stabilt stabila stabilare stabilaste stabile
+88	1788	fett	fett fettet fetter fetterna
+89	1789	cup	cup cupen cups cupens cuper cuperna
+90	1790	märke	märke märket märken märkena märkes märkets
+91	1791	he	he hett her hes hesa hest
+92	1792	eld	eld elden eldar eldens eldarna
+93	1793	show	show showen shower shows showerna showens showers
+94	1794	röv	röv röven rövar rövarna
+95	1795	jämt	jämt jämnt
+96	1796	misstänka	misstänker misstänks misstänka misstänktes misstänkte misstänkts misstänkas misstänktas misstänk
+97	1797	ar	ar ars aren aret arens arets
+98	1798	humor	humor humorn humorns
+99	1799	avgift	avgift avgifter avgiften avgifterna avgiftens
+100	1800	korkad	korkad korkade korkat

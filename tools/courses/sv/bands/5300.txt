@@ -1,0 +1,100 @@
+1	5201	hyfsad	hyfsad hyfsade
+2	5202	upplösa	upplöst upplösa upplöses upplöstes upplösas upplösta upplösts upplöste upplöser upplösande
+3	5203	råvara	råvaror råvara råvaran råvarorna
+4	5204	ammunition	ammunition ammunitionen ammunitions
+5	5205	frost	frost frosten frosts
+6	5206	husvagn	husvagn husvagnen husvagnar husvagnarna husvagns
+7	5207	vattendrag	vattendrag vattendragen vattendraget vattendragets vattendragens
+8	5208	deltävling	deltävling deltävlingen deltävlingar deltävlingarna
+9	5209	omringa	omringad omringade omringat omringar omringa omringades omringas omringats omringande
+10	5210	underteckna	undertecknat underteckna undertecknar undertecknas undertecknade undertecknats undertecknades undertecknande undertecknare
+11	5211	förskott	förskott förskottet
+12	5212	ökänd	ökända ökänd ökänt ökände
+13	5213	friidrott	friidrott friidrotten friidrotts friidrottens
+14	5214	pund	pund pundet punds
+15	5215	oundviklig	oundvikligt oundvikliga oundviklig
+16	5216	senior	senior seniorer seniors seniorerna seniora
+17	5217	calla	calle callen calles callas calla
+18	5218	medelklass	medelklassen medelklass medelklassens
+19	5219	borra	borra borrar borrade borrat borras borren borrades borrad borre borrande
+20	5220	börda	börda bördan bördor bördorna
+21	5221	monopol	monopol monopolet monopolen monopolets
+22	5222	zoo	zoo zoot zoon zoos
+23	5223	alv	alf alv alver alverna alvernas alven
+24	5224	instans	instans instanser instansen instanserna
+25	5225	avslappnad	avslappnad avslappnat avslappnade
+26	5226	scout	scouterna scout scouter scouts scouternas scouten scouters
+27	5227	solsken	solsken solskenet solskens
+28	5228	tonår	tonåren tonårs tonår
+29	5229	dagstidning	dagstidningar dagstidning dagstidningarna dagstidningen dagstidningarnas
+30	5230	kreativitet	kreativitet kreativiteten
+31	5231	utbyggnad	utbyggnad utbyggnaden utbyggnader utbyggnaderna
+32	5232	laptop	laptop laptops laptopen
+33	5233	rullstol	rullstol rullstolen rullstolar rullstols
+34	5234	stimulera	stimulera stimulerar stimulerande stimuleras stimulerade stimulerad stimulerat
+35	5235	barnbördshus	bb
+36	5236	emellanåt	emellanåt
+37	5237	frustrerande	frustrerande
+38	5238	hart	hart
+39	5239	osannolikt	osannolikt
+40	5240	skandinaviska	skandinaviska
+41	5241	orimlig	orimliga orimlig
+42	5242	förfrågan	förfrågan förfrågningar
+43	5243	helgon	helgon helgons helgonet helgonen helgonens helgonets
+44	5244	bebyggelse	bebyggelse bebyggelsen bebyggelsens bebyggelser
+45	5245	etapp	etapp etappen etapper etapperna
+46	5246	afghan	afghaner afghan afghanerna afghanen afghanernas
+47	5247	kärnvapen	kärnvapen kärnvapnen
+48	5248	försvarare	försvarare försvararen försvararna
+49	5249	ställningstagande	ställningstagande ställningstaganden ställningstagandet
+50	5250	elektronik	elektronik elektroniken
+51	5251	est	est ester esterna esters estrar
+52	5252	mentor	mentor mentorer mentorn mentors
+53	5253	etablissemang	etablissemanget etablissemang etablissemangets
+54	5254	patent	patent patentet patenten
+55	5255	infektera	infekterade infekterat infekterad infektera infekterar infekteras infekterats infekterades
+56	5256	försörjning	försörjning försörjningen
+57	5257	puck	pucken puck puckar puckarna pucks
+58	5258	badhus	badhus badhuset badhusen
+59	5259	svimma	svimma svimmar svimmade svimmat avsvimmad avsvimmade
+60	5260	skörd	skörd skördar skörden skördarna skördens
+61	5261	reell	reella reell reellt
+62	5262	hygglig	hyggligt hygglig hyggliga
+63	5263	proposition	proposition propositionen propp propositioner proppar proppen propparna propositionerna
+64	5264	hemstad	hemstad hemstaden hemstäder hemstadens hemstads
+65	5265	abstrakt	abstrakt abstrakta
+66	5266	omtyckt	omtyckt omtyckta omtyckte
+67	5267	saft	saft saften safter
+68	5268	bredda	bredda bredden breddar breddas breddade breddats breddat breddad bredde breddades
+69	5269	herrgård	herrgård herrgården herrgårdar herrgårdens herrgårdarna herrgårds
+70	5270	tyngd	tyngd tyngden tyngder tyngderna
+71	5271	avtryck	avtryck avtrycket avtrycken
+72	5272	problematik	problematiken problematik
+73	5273	apelsin	apelsin apelsiner apelsinen apelsinerna
+74	5274	välgörenhet	välgörenhet välgörenhets välgörenheten välgörenheter
+75	5275	flygning	flygning flygningen flygningar flygningarna flygningens
+76	5276	sval	svalare sval svala svalt svalor svalan svalorna svalaste svalornas
+77	5277	öm	öm ömma ömt ömmar ömmande ömmade
+78	5278	förfall	förfall förfallet förfallna förfallen
+79	5279	underlig	underlig underliga underligaste underligare
+80	5280	virtuell	virtuella virtuell virtuellt
+81	5281	förekomst	förekomsten förekomst förekomster förekomsterna
+82	5282	främlingsfientlig	främlingsfientliga främlingsfientlig främlingsfientligt
+83	5283	rond	ronden rond ronder ronderna
+84	5284	nypa	nypa nyp nyper nöp nypor nypan nyps nypt
+85	5285	turism	turism turismen turismens
+86	5286	iranska	iranska iransk
+87	5287	hyresvärd	hyresvärd hyresvärden hyresvärdar hyresvärdens hyresvärdarna hyresvärdinna
+88	5288	katolik	katoliker katolik katolikerna katoliken katolikernas
+89	5289	utnämna	utnämnd utnämndes utnämnde utnämna utnämner utnämnts utnämnt utnämnda utnämns utnämnas
+90	5290	sjukskriva	sjukskriven sjukskriva sjukskrev sjukskriver sjukskrivit sjukskriv
+91	5291	brasa	brasa brasan brasor brasorna
+92	5292	koncern	koncernen koncern koncernens koncerner koncernerna
+93	5293	streama	streama streamar streamen streamade streamas streamat streamad
+94	5294	popularitet	popularitet populariteten
+95	5295	såga	såga sågade sågat sågas sågad sågades sågats sågande sågar sågen
+96	5296	intim	intimt intima intim intimare intime intimaste
+97	5297	legitim	legitima legitim legitimt
+98	5298	bricka	bricka brickor brickan brickorna
+99	5299	islamism	islamism islamismen islamismens
+100	5300	utgiven	utgiven utgivna utgivet

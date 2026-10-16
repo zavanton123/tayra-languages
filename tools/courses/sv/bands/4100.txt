@@ -1,0 +1,100 @@
+1	4001	blodig	blodig blodiga blodigt blodigaste blodigare blodige
+2	4002	disk	disk disken diskar diskarna
+3	4003	trakasseri	trakasserier trakasserierna trakasseri
+4	4004	förintelse	förintelsen förintelse förintelsens
+5	4005	suverän	suverän suveränt suveräna
+6	4006	republik	republiken republik republikens republiker republikerna
+7	4007	insekt	insekter insekt insekterna insekten insekternas insekts insektens insekters
+8	4008	utdrag	utdrag utdragen utdraget utdragna
+9	4009	debattartikel	debattartikel debattartiklar debattartikeln
+10	4010	separera	separera separerade separerar separerat separeras separerad separerades separerats
+11	4011	galleri	galleri galleriet gallerier gallerierna galleriets
+12	4012	adoptera	adoptera adopterade adopterad adopterat adopterar adopterades adopteras adopterats
+13	4013	skatta	skatta skattar skatte skatten skattade skattas skattad skattat skattades skattats
+14	4014	armband	armband armbandet armbanden
+15	4015	pirat	pirater pirat piraterna piraten piraternas piratens pirats
+16	4016	bluff	bluff bluffen bluffar bluffs
+17	4017	bod	boden bodens bod bodar bodarna
+18	4018	femma	femma femman femmor femmorna femmans
+19	4019	mosa	moses mose mosa mosade mosad mosar mosas mosat mosen
+20	4020	finansiering	finansiering finansieringen
+21	4021	horn	horn hornet hornen horns hornets
+22	4022	förpackning	förpackningen förpackning förpackningar förpackningarna förpacknings
+23	4023	läka	läka läker läkt läkande läkas läkte läk läkta läks läkandet
+24	4024	vaccin	vaccin vaccinet vacciner vaccinen vaccinerna
+25	4025	avsevärt	avsevärt
+26	4026	härmed	härmed
+27	4027	ovanstående	ovanstående
+28	4028	salu	salu
+29	4029	tina	tina tinar tinade tinas tine tinat
+30	4030	blyg	blyg blyga blygt blyge
+31	4031	elände	elände eländet
+32	4032	kiss	kiss kissar kissen kisset
+33	4033	slutföra	slutföra slutfört slutför slutförd slutförde slutfördes slutföras slutförandet slutförts slutförs
+34	4034	höjdpunkt	höjdpunkt höjdpunkter höjdpunkten höjdpunkterna
+35	4035	avlida	avlidit avlider avled avlida avlidnes avlidnas
+36	4036	spårvagn	spårvagn spårvagnen spårvagnar spårvagnarna spårvagns
+37	4037	metro	metro metron metros
+38	4038	kick	kick kickar kicken kicks kickarna
+39	4039	misshandla	misshandla misshandlar misshandlade misshandlas misshandlat misshandlades misshandlats misshandlande misshandlare
+40	4040	bädda	bäddar bädda bäddat bäddade bäddad bädden bäddas bäddning
+41	4041	tendera	tenderar tenderade tendera tenderat
+42	4042	svepa	svep sveper svepande svepa svepte svept sveps svepas sveptes svepet
+43	4043	raket	raket raketer raketen raketerna raketens
+44	4044	ryggsäck	ryggsäck ryggsäcken ryggsäckar ryggsäckarna
+45	4045	färja	färjan färja färjor färjorna färjans färje
+46	4046	bagage	bagaget bagage
+47	4047	mottagning	mottagning mottagningen mottagningar mottagningarna mottagnings
+48	4048	solig	soligt solig soliga soligaste soligare
+49	4049	promenera	promenera promenerar promenerade promenerat promenerande
+50	4050	innovation	innovation innovationer innovationen innovations innovationerna
+51	4051	korridor	korridoren korridor korridorerna korridorer
+52	4052	förolämpa	förolämpa förolämpar förolämpad förolämpande förolämpade förolämpat förolämpas
+53	4053	uppskattning	uppskattning uppskattningar uppskattningen uppskattningarna
+54	4054	tull	tullen tull tullar tullarna tullens tulls
+55	4055	upplägg	upplägg upplägget
+56	4056	stipendium	stipendium stipendiet stipendier stipendie stipendierna
+57	4057	högtalare	högtalare högtalarna högtalaren
+58	4058	övervakning	övervakning övervakningen övervaknings
+59	4059	utbrott	utbrott utbrottet utbrotten utbrottets
+60	4060	blinka	blinka blinkar blinkande blinkade blinkat
+61	4061	anspråk	anspråk anspråket anspråken
+62	4062	visning	visning visningar visningen visningarna
+63	4063	kost	kost kosten
+64	4064	ärva	ärvt ärva ärvde ärver ärvs ärvas ärvd ärvts ärvdes
+65	4065	administration	administration administrationen administrationens administrations administrationer
+66	4066	nöd	nöd nöden nödens
+67	4067	fotografera	fotografera fotograferade fotograferar fotograferad fotograferat fotograferades fotograferas fotograferats fotograferande fotograferandet
+68	4068	känslomässig	känslomässigt känslomässiga känslomässig
+69	4069	pärla	pärla pärlor pärlan pärlorna pärlans pärl
+70	4070	svettig	svettig svettiga svettigt svettigare
+71	4071	respons	respons responsen responser
+72	4072	handske	handskar handskarna handsken handske
+73	4073	utgivare	utgivare utgivaren utgivarna utgivarens
+74	4074	lake	lake lakes lakar laken laks
+75	4075	besatt	besatt besatta besatte
+76	4076	afrikanska	afrikanska
+77	4077	nämen	nämen
+78	4078	patetiskt	patetiskt
+79	4079	musikalisk	musikaliska musikalisk musikaliskt musikaliske
+80	4080	basket	basket basketen baskets
+81	4081	förbindelse	förbindelse förbindelser förbindelsen förbindelserna
+82	4082	tippa	tippa tippar tippade tippat tippen tippas tippe tippad tippades
+83	4083	tum	tummen tum tums tummens
+84	4084	pall	pallar pall pallen pallet pallarna
+85	4085	förlorare	förlorare förloraren förlorarna förlorarnas
+86	4086	dagbok	dagbok dagböcker dagboken dagböckerna
+87	4087	åskådare	åskådare åskådarna åskådaren åskådarnas åskådarens
+88	4088	överlevnad	överlevnad överlevnaden överlevnads
+89	4089	runka	runka runkar runkade runkat runkande runken
+90	4090	upplopp	upplopp upploppet upploppen
+91	4091	frekvens	frekvens frekvensen frekvenser frekvenserna
+92	4092	lukt	lukt lukten lukter lukterna
+93	4093	anlägga	anlägga anlagda anlagd anlades anlade anlagt anläggas anlägger anläggs anlagts
+94	4094	uppvisa	uppvisar uppvisa uppvisade uppvisat uppvisas uppvisande uppvisad uppvisades
+95	4095	arbetskraft	arbetskraft arbetskraften arbetskrafts arbetskraftens
+96	4096	kidnappa	kidnappad kidnappa kidnappade kidnappar kidnappat kidnappades kidnappats kidnappas
+97	4097	kontrast	kontrast kontrasten kontraster kontrasterna
+98	4098	jämställd	jämställda jämställd jämställt jämställde
+99	4099	utanförskap	utanförskap utanförskapet utanförskapets
+100	4100	applicera	applicera appliceras applicerar applicerat applicerade applicerad applicerats applicerades

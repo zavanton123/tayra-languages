@@ -1,0 +1,100 @@
+1	7901	reformera	reformera reformeras reformerade reformerad reformerat reformerats reformerar reformerades
+2	7902	langare	langare langarna langaren
+3	7903	transparens	transparens transparensen
+4	7904	fullmåne	fullmåne fullmånen fullmånens
+5	7905	kryssning	kryssning kryssningen kryssningar kryssnings
+6	7906	bygglov	bygglov bygglovet
+7	7907	välsignelse	välsignelse välsignelser välsignelsen
+8	7908	ohälsosam	ohälsosamt ohälsosamma ohälsosam
+9	7909	gruppledare	gruppledare gruppledaren gruppledarna
+10	7910	lagstadgad	lagstadgad lagstadgade lagstadgat
+11	7911	brevbärare	brevbäraren brevbärare brevbärarna brevbärarens
+12	7912	nedvärdera	nedvärderande nedvärdera nedvärderar nedvärderas nedvärderade nedvärderad nedvärderat
+13	7913	separation	separation separationen separationer
+14	7914	ducka	ducka duckar duckade duckat
+15	7915	konkurrenskraft	konkurrenskraft konkurrenskraften
+16	7916	nervsystem	nervsystemet nervsystem nervsystemets
+17	7917	dråp	dråp dråpet
+18	7918	mecka	mecka mocka meckar mockar meckat meckas
+19	7919	mytologi	mytologi mytologin mytologier mytologins
+20	7920	äventyra	äventyra äventyras äventyrar äventyrat äventyrade äventyrades äventyrande äventyren
+21	7921	hårdrock	hårdrock hårdrocken hårdrockens hårdrocks
+22	7922	luddig	luddigt luddiga luddig luddigare
+23	7923	inrikesminister	inrikesminister inrikesministern
+24	7924	utkasta	utkastad utkastade
+25	7925	nostalgisk	nostalgisk nostalgiska nostalgiskt
+26	7926	snarlik	snarlika snarlik snarlikt
+27	7927	fresta	fresta frestad frestas frestar frestade frestades frestat
+28	7928	gengäld	gengäld
+29	7929	jihad	jihad
+30	7930	kandidatexamen	kandidatexamen
+31	7931	omnejd	omnejd
+32	7932	oseriöst	oseriöst
+33	7933	dragning	dragning dragningen dragningar
+34	7934	vigsel	vigsel vigseln vigslar
+35	7935	sociologi	sociologi sociologin
+36	7936	metodik	metodik metodiken
+37	7937	bärbar	bärbara bärbar bärbart
+38	7938	köttfärs	köttfärs köttfärsen
+39	7939	rulltrappa	rulltrappan rulltrappa rulltrapporna rulltrappor
+40	7940	väckarklocka	väckarklocka väckarklockan väckarklockor
+41	7941	kavalleri	kavalleriet kavalleri kavalleriets
+42	7942	krångel	krångel krånglet
+43	7943	kirurgisk	kirurgiska kirurgiskt kirurgisk
+44	7944	manifest	manifest manifestet manifesta
+45	7945	kackerlacka	kackerlackor kackerlacka kackerlackan kackerlackorna
+46	7946	lam	lam lamt lame
+47	7947	oärlig	oärliga oärlig oärligt
+48	7948	svartmåla	svartmåla svartmålar svartmålning svartmålade svartmålad svartmålat svartmålas
+49	7949	tolerant	toleranta tolerant
+50	7950	obehörig	obehöriga obehörig obehörigt
+51	7951	kategorisera	kategoriseras kategorisera kategoriserar kategoriserade kategoriserad kategoriserats kategoriserat kategoriserades
+52	7952	premiera	premieras premiera premierar premiere premierades premierade
+53	7953	serietidning	serietidningar serietidning serietidningen serietidningarna serietidnings
+54	7954	weekend	weekend weekends weekenden
+55	7955	lirare	lirare liraren lirarna
+56	7956	beprövad	beprövad beprövade beprövat
+57	7957	populism	populism populismen populismens
+58	7958	kännetecken	kännetecken kännetecknet kännetecknen
+59	7959	dropp	dropp droppet droppen
+60	7960	otippad	otippat otippade otippad
+61	7961	lojal	lojal lojalt lojale
+62	7962	styrelseordförande	styrelseordförande styrelseordföranden
+63	7963	pröjsa	pröjsa pröjsar pröjsade pröjsat
+64	7964	flygel	flygeln flygel flyglar flyglarna flygelns
+65	7965	underkänd	underkänt underkänd underkända underkände
+66	7966	självinsikt	självinsikt självinsikten
+67	7967	administrera	administrera administreras administrerar administrerade administrerat administrerades administrerande administrerad administrerats
+68	7968	jätteviktig	jätteviktigt jätteviktig jätteviktiga
+69	7969	porslin	porslin porslinet porslins
+70	7970	skådespel	skådespel skådespelet
+71	7971	hierarki	hierarkin hierarki hierarkier
+72	7972	uppenbarelse	uppenbarelse uppenbarelser uppenbarelsen uppenbarelserna uppenbarelsens
+73	7973	landning	landning landningen landningar landningarna landnings
+74	7974	obskyr	obskyra obskyr obskyrt
+75	7975	blocka	blocka blockar blockat blockas
+76	7976	gnista	gnistan gnista gnistor gnistorna
+77	7977	koalition	koalition koalitionen koalitioner koalitionens
+78	7978	kanot	kanot kanoten kanoter kanoterna
+79	7979	hembränt	hb hembränt
+80	7980	ilsken	ilsken ilskna ilsket ilsknade ilsknar
+81	7981	peruk	peruk peruker peruken perukerna
+82	7982	guldgruva	guldgruva guldgruvan guldgruvor guldgruvorna
+83	7983	sevärd	sevärd sevärt sevärda
+84	7984	motionera	motionera motionerar motionerade motionerat
+85	7985	polisanmälan	polisanmälan polisanmälningar
+86	7986	minusgrad	minusgrader minusgraderna
+87	7987	försörjningsstöd	försörjningsstöd försörjningsstödet
+88	7988	packning	packning packningen packningar packningarna
+89	7989	mö	mö mör möra möre mön mörare mös
+90	7990	heterosexuell	heterosexuella heterosexuell heterosexuellt
+91	7991	privatägd	privatägda privatägd privatägt
+92	7992	grannskap	grannskapet grannskap grannskapets
+93	7993	språkrör	språkrör språkrören språkröret
+94	7994	hamster	hamster hamstern hamstrar hamstrarna
+95	7995	tik	tik tikar tiken tikarna
+96	7996	morfin	morfin morfinet
+97	7997	skymning	skymningen skymning skymningens
+98	7998	försiktighet	försiktighet försiktigheten
+99	7999	livslång	livslång livslångt livslånga
+100	8000	gro	gro gror grodd grott groddar gros grodde grodden groende

@@ -1,0 +1,100 @@
+1	4701	invandra	invandrade invandrar invandrat invandra invandrad invandrande
+2	4702	acceptabel	acceptabelt acceptabel acceptabla
+3	4703	färdas	färdas färdades färdats
+4	4704	ingrediens	ingredienser ingredienserna ingrediens ingrediensen
+5	4705	bang	bang bangar bangs
+6	4706	turk	turkarna turkar turk turken turks turkarnas turkens
+7	4707	effektivitet	effektivitet effektiviteten
+8	4708	hertig	hertigen hertig hertiginnan hertigens hertiginna hertigarna hertigar hertiginnans hertigarnas
+9	4709	betydelsefull	betydelsefulla betydelsefull betydelsefullt
+10	4710	defensiv	defensiv defensiva defensivt defensiven defensive
+11	4711	skilsmässa	skilsmässa skilsmässan skilsmässor
+12	4712	försvåra	försvårar försvåra försvårade försvårande försvårat försvåras försvårades försvårad försvårats
+13	4713	abonnemang	abonnemang abonnemanget abbonemang abonemang abonnemangen
+14	4714	hiv	hiv
+15	4715	likväl	likväl
+16	4716	självständigt	självständigt
+17	4717	tvärt	tvärt
+18	4718	överraskande	överraskande
+19	4719	slarvig	slarvigt slarvig slarviga
+20	4720	jämlikhet	jämlikhet jämlikheten jämlikhetens
+21	4721	ungdomsförbund	ungdomsförbund ungdomsförbundet ungdomsförbundets ungdomsförbunden ungdomsförbunds
+22	4722	elitserie	elitserien elitserie elitseriens
+23	4723	migrationspolitik	migrationspolitik migrationspolitiken
+24	4724	begravd	begravd begravda begravde begravt
+25	4725	godhet	godhet godheten godhetens godhets
+26	4726	änka	änka änkan änkor änkans änkorna änke änkas enka
+27	4727	grek	grekerna greker grek greken grekernas
+28	4728	styla	style styles stylat stylar styla stylade stajla
+29	4729	rövhål	rövhål rövhålet rövhålen
+30	4730	hemtjänst	hemtjänst hemtjänsten hemtjänstens
+31	4731	bortskämd	bortskämd bortskämda bortskämt
+32	4732	slagsmål	slagsmål slagsmålet slagsmålen
+33	4733	vidta	vidta vidtar vidtagit vidtas vidtog vidtagits vidtogs vidtagna vidtaga vidtagas
+34	4734	missnöje	missnöje missnöjet
+35	4735	sommartid	sommartid sommartiden sommartider
+36	4736	nybörjare	nybörjare nybörjaren nybörjar nybörjarna
+37	4737	konstruktiv	konstruktivt konstruktiv konstruktiva
+38	4738	korg	korg korgen korgar korgarna korgens
+39	4739	förfader	förfäder förfader förfäders förfäderna förfädernas förfadern
+40	4740	disciplin	disciplin disciplinen discipliner disciplinerna
+41	4741	lillasyster	lillasyster lillasysters lillasystern småsystrar
+42	4742	vers	vers versen verser verserna
+43	4743	anslag	anslag anslagen anslaget anslagna
+44	4744	förstånd	förstånd förståndet förståndets
+45	4745	invigning	invigningen invigning invigningar invignings
+46	4746	förminska	förminska förminskar förminskas förminskande förminskad förminskade förminskat förminskats förminskades
+47	4747	samtala	samtala samtalar samtalade samtalat samtalen samtalande
+48	4748	snopp	snopp snoppen snoppar
+49	4749	trösta	trösta tröstar tröstande tröstade tröstas tröstat trösten tröstad tröstare
+50	4750	tionde	tionde tiondet tionden
+51	4751	illustration	illustration illustrationer illustrationerna illustrationen illustrations
+52	4752	popcorn	popcorn popcornen
+53	4753	grafik	grafik grafiken grafikens
+54	4754	slang	slang slangen slangar slangarna slangens
+55	4755	högtid	högtid högtider högtiden högtiderna
+56	4756	chefredaktör	chefredaktör chefredaktören chefredaktörer chefredaktörerna
+57	4757	säck	säck säcken säckar säckarna
+58	4758	telefonsamtal	telefonsamtal telefonsamtalet telefonsamtalen
+59	4759	övertid	övertid övertiden
+60	4760	inkompetent	inkompetent inkompetenta inkompetente
+61	4761	ockupera	ockuperade ockuperat ockupera ockuperad ockuperar ockuperades ockuperas ockuperats ockuperande
+62	4762	hållplats	hållplats hållplatsen hållplatser hållplatserna
+63	4763	rosengård	rosengård rosengårds rosengården
+64	4764	tillgänglighet	tillgänglighet tillgängligheten
+65	4765	diabetes	diabetes diabetesen
+66	4766	utformning	utformning utformningen utformningar
+67	4767	äldreomsorg	äldreomsorgen äldreomsorg
+68	4768	musikal	musikal musikalen musikaler musikalerna musikalens
+69	4769	sushi	sushi sushin
+70	4770	bea	bea bean beans beas
+71	4771	kommunfullmäktige	kommunfullmäktige kommunfullmäktiges kommunalfullmäktige
+72	4772	terräng	terräng terrängen terränger terrängens
+73	4773	förutse	förutse förutsåg förutseende förutsett förutser förutses förutsågs förutsedda förutsetts
+74	4774	graviditet	graviditet graviditeten graviditeter graviditetens graviditets graviditeterna
+75	4775	häxa	häxan häxor häxa häxorna häxans häxornas häx
+76	4776	medmänniska	medmänniskor medmänniska medmänniskors
+77	4777	förjävlig	förjävligt förjävlig förjävliga
+78	4778	okunskap	okunskap okunskapen
+79	4779	grafisk	grafisk grafiska grafiskt
+80	4780	folkomröstning	folkomröstning folkomröstningen folkomröstningar folkomröstningarna
+81	4781	lakan	lakan lakanen lakanet
+82	4782	narkotika	narkotika narkotikan narkotikans
+83	4783	plagg	plagg plagget plaggen plaggets
+84	4784	evolution	evolution evolutionen evolutionens evolutions
+85	4785	briljant	briljant briljanta briljanter briljante
+86	4786	must	must musten
+87	4787	ocean	ocean oceanen oceans oceaner oceanens oceanerna oceanernas
+88	4788	kränkning	kränkningar kränkning kränkningen kränkningarna
+89	4789	div	div
+90	4790	förvirrande	förvirrande
+91	4791	hopplöst	hopplöst
+92	4792	massvis	massvis
+93	4793	nedåt	nedåt
+94	4794	någorlunda	någorlunda
+95	4795	bibehålla	bibehålla bibehållen bibehåller bibehållas bibehålls bibehållande bibehållet bibehållit bibehållna bibehöll
+96	4796	korrigera	korrigera korrigerar korrigerat korrigeras korrigerade korrigerad korrigerande korrigerades korrigerats
+97	4797	blues	blues bluesen bluesens
+98	4798	familjemedlem	familjemedlemmar familjemedlem familjemedlemmarna familjemedlemmen familjemedlemmars familjemedlems
+99	4799	sound	sound sounds soundet
+100	4800	försäkringsbolag	försäkringsbolag försäkringsbolaget försäkringsbolagen försäkringsbolagens försäkringsbolagets

@@ -1,0 +1,100 @@
+1	1101	dvs	dvs
+2	1102	jaha	jaha
+3	1103	vin	vin vinet viner vinerna vinets vins
+4	1104	militär	militär militära militären militärt militärer militärens militärerna militäre
+5	1105	varenda	varenda vartenda
+6	1106	stil	stil stilen stilar stilarna stilens stils
+7	1107	baserad	baserat baserad baserade
+8	1108	googla	google googla googlar googlade googles googlat googlande
+9	1109	sur	sur sura surt sure surar surat surare surade suran suror
+10	1110	befinna	befinner befann befinna befunnit befanns befunnits befinns befinnas befinnes
+11	1111	muslim	muslimer muslim muslimerna muslimers muslimernas muslims muslimen
+12	1112	allting	allting alltings alltinget
+13	1113	produkt	produkter produkt produkten produkterna produktens produkternas produkts produkters
+14	1114	total	total totala totale
+15	1115	populär	populär populära populärt populäraste populärare populärast populäre
+16	1116	härligt	härligt härligare
+17	1117	tusen	tusen tusende tusenden
+18	1118	måla	måla målar målade målat målas målad målen målande målades målats
+19	1119	frisk	frisk friska friskt friskare fresker friskaste fresk frisch frisks friskast
+20	1120	kontrollera	kontrollera kontrollerar kontrollerade kontrolleras kontrollerat kontrollerad kontrollerades kontrollerande kontrollerats
+21	1121	utgöra	utgör utgöra utgörs utgjorde utgjort utgjordes utgöras utgjorts utgöres utgörande
+22	1122	lukta	luktar lukta lukten luktade luktat luktande
+23	1123	nere	nere
+24	1124	november	november
+25	1125	nr	nr
+26	1126	snarare	snarare
+27	1127	södra	södra
+28	1128	jul	jul julen julas julens jular jularna julars
+29	1129	frukost	frukost frukosten frukostar
+30	1130	kamera	kameran kamera kameror kamerorna kamerans kamerornas kameras
+31	1131	semester	semester semestern semestrar semestrarna
+32	1132	frihet	frihet friheten friheter frihetens friheterna frihets
+33	1133	titel	titeln titel titlar titlarna titelns
+34	1134	ljud	ljud ljudet ljuden ljudets
+35	1135	rapportera	rapportera rapporterar rapporterade rapporterat rapporteras rapporterats rapporterades rapporterad rapporterande
+36	1136	härlig	härlig härliga härligaste härligare härlige
+37	1137	fördel	fördel fördelar fördelen fördelarna
+38	1138	lov	lov lovar lovet loven lof
+39	1139	leverera	leverera levererar levererade levererat levereras levererades levererad levererats
+40	1140	prov	prov provet prover proven proverna provets
+41	1141	tecken	tecken tecknet tecknen teckens
+42	1142	öppen	öppen öppnare öppnaren
+43	1143	extremt	extremt
+44	1144	januari	januari
+45	1145	sönder	sönder
+46	1146	rimlig	rimligt rimlig rimliga rimligare rimligaste rimligast
+47	1147	hotell	hotell hotellet hotellets hotellen hotells hotellens
+48	1148	kvinnlig	kvinnliga kvinnlig kvinnligt kvinnligare
+49	1149	moderat	moderaterna moderat moderater moderaternas moderata moderaten moderate
+50	1150	enskild	enskilda enskild enskilt enskilde enskildes enskildas enskilds
+51	1151	nordost	no nordost
+52	1152	avgöra	avgöra avgör avgörs avgjorde avgöras avgjordes avgjort avgjord avgjorts avgjorda
+53	1153	fönster	fönster fönstret fönstren fönstrena fönsterna fönstrens fönstrets
+54	1154	gård	gården gård gårdar gårdarna gårdens gårds gårdarnas gårdars
+55	1155	strid	strid strider striden strida stred striderna stridande stridit stridens strids
+56	1156	fånga	fånga fångar fångade fångat fångarna fånge fångas fångad fångades fångats
+57	1157	utnyttja	utnyttja utnyttjar utnyttjas utnyttjade utnyttjad utnyttjande utnyttjat utnyttjades utnyttjats utnyttjandet
+58	1158	misstag	misstag misstaget misstagen
+59	1159	ful	fula ful fult fulaste fulare fule fulast
+60	1160	överleva	överleva överlever överlevde överlevt överlevande överlev överlevandes
+61	1161	te	te ter tes ten teet tesen teser tens thé teer
+62	1162	allra	allra
+63	1163	givetvis	givetvis
+64	1164	mera	mera
+65	1165	sällan	sällan
+66	1166	såhär	såhär
+67	1167	app	app appen appar apparna apps appens
+68	1168	styrka	styrka styrkor styrkan styrkorna styrker styrkt styrkas styrke styrks styrkte
+69	1169	studera	studera studerar studerat studerade studerande studeras studerats studerades studerad studerandet
+70	1170	lund	lund lunds lunden lundar lundens
+71	1171	hälft	hälften hälft hälfter
+72	1172	väcka	väcka väcker väckte väckt väck väcks väcktes väckas väckts väckande
+73	1173	sända	sänder sända sänds sände sändes sändas sänd sänt sänts sändande
+74	1174	final	final finalen finaler finalerna finale finals finalens finala
+75	1175	natur	natur naturen naturens naturer naturs
+76	1176	kontakta	kontakta kontaktar kontaktade kontakten kontaktat kontaktad kontaktas kontaktades kontaktats
+77	1177	vinter	vintern vinter vintras vintrar vintrarna vinterns
+78	1178	införa	införa infördes införde införs införandet infört införas införande införts införd
+79	1179	medborgare	medborgare medborgarna medborgarnas medborgaren medborgares medborgar medborgarens
+80	1180	konstig	konstig konstiga konstigare konstigaste konstigast
+81	1181	allvarligt	allvarligt allvarligare allvarligast
+82	1182	konst	konst konsten konstens konster konsterna konsternas
+83	1183	låsa	låsa låst lås låser låsta låste låset låsas låsen låstes
+84	1184	my	my mys
+85	1185	sparka	sparka sparken sparkar sparkade sparkad sparkas sparkat sparkades sparkats sparkande
+86	1186	avtal	avtal avtalet avtalen avtalets avtals
+87	1187	dyr	dyra dyr dyrare dyraste dyrast dyre
+88	1188	medveten	medveten medvetet medvetna
+89	1189	trygg	trygg tryggt trygga tryggare tryggaste tryggad tryggast tryggade tryggar tryggat
+90	1190	hopp	hopp hoppet hoppets hopps hoppen
+91	1191	normal	normal normala normale normalen normalare
+92	1192	klassisk	klassiska klassisk klassiskt klassiske
+93	1193	region	region regionen regioner regionerna regionens regions regionernas regioners
+94	1194	utredning	utredning utredningen utredningar utredningarna utredningens utrednings
+95	1195	normalt	normalt
+96	1196	nä	nä
+97	1197	utifrån	utifrån
+98	1198	överens	överens
+99	1199	betydlig	betydligt betydlig betydliga
+100	1200	förmåga	förmåga förmågan förmågor förmågorna

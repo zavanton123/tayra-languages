@@ -1,0 +1,100 @@
+1	5101	lättnad	lättnad lättnaden lättnader lättnadens
+2	5102	skjutning	skjutningar skjutning skjutningen skjutningarna
+3	5103	riksförbund	riksförbund riksförbundet riksförbunds riksförbundets
+4	5104	bunt	bunt bunten buntar
+5	5105	snar	snar snara snaran snare snaror snaraste snarar
+6	5106	parkeringsplats	parkeringsplats parkeringsplatser parkeringsplatsen parkeringsplatserna
+7	5107	oönskad	oönskade oönskad oönskat
+8	5108	assistera	assisterande assistera assisterade assisterar assisterad assisterat assisteras
+9	5109	efterföljande	efterföljande
+10	5110	förhållandevis	förhållandevis
+11	5111	m.a.o.	mao
+12	5112	tröttsamt	tröttsamt
+13	5113	piska	piska piskar piskade piskan piskad piskas piskor piskat piskades piskande
+14	5114	bankkonto	bankkonto bankkonton bankkontot
+15	5115	samfund	samfund samfundet samfundets samfunden samfunds samfundens
+16	5116	bevittna	bevittna bevittnat bevittnade bevittnar bevittnades bevittnas bevittnad
+17	5117	diktator	diktator diktatorer diktatorn diktatorns diktatorerna
+18	5118	förtryckt	förtryckta förtryckt förtryckte
+19	5119	gardin	gardiner gardinerna gardin gardinen gardiners
+20	5120	milt	milt mildare
+21	5121	spänna	spänna spänner spänt spännet spänne spänns spännen spände spännas spändes
+22	5122	trakassera	trakassera trakasserar trakasserade trakasserad trakasserat trakasseras trakasserats trakasserande trakasserades
+23	5123	satellit	satellit satelliter satelliten satelliterna satellitens satelliternas
+24	5124	blank	blank blankt blankare
+25	5125	maträtt	maträtter maträtt maträtten maträtterna
+26	5126	innebandy	innebandy innebandyn innebandyns
+27	5127	barnvakt	barnvakt barnvakter barnvakten
+28	5128	vy	vy vyer vyn vyerna
+29	5129	kar	karen kar karet karens
+30	5130	privatperson	privatperson privatpersoners privatpersonen privatpersons privatpersonerna
+31	5131	företeelse	företeelse företeelser företeelsen företeelserna
+32	5132	frigöra	frigöra frigör frigörs frigjorde frigjord frigöras frigjort frigörande frigjordes frigjorts
+33	5133	fäste	fäste fästet fästen fästes fästena
+34	5134	stek	stek steken steks stekar stekarna
+35	5135	torp	torp torpet torpen torps torpets
+36	5136	förlossning	förlossning förlossningen förlossningar förlossnings
+37	5137	il	il ils ilar
+38	5138	dyster	dyster dystra dystert dystrare
+39	5139	pippi	pippi pippin pippis pippins
+40	5140	förtal	förtal förtalet
+41	5141	spöa	spöa spöar spöade spöat spöad
+42	5142	revolutionär	revolutionära revolutionär revolutionärer revolutionärt revolutionärerna revolutionären revolutionärernas
+43	5143	moped	moped mopeder mopeden mopederna
+44	5144	nicka	nicke nicka nickade nickar nickande nickat nickes nicken
+45	5145	segra	segrade segrande segra segrat segrar
+46	5146	sladd	sladd sladden sladdar sladdarna
+47	5147	bridge	bridge bridges
+48	5148	revisor	revisor revisorn revisorer revisorerna revisorns revisors
+49	5149	annonsera	annonsera annonserar annonserade annonseras annonserat annonserades annonserad annonserats
+50	5150	skytte	skytte skytten skyttet skyttens skyttes
+51	5151	kartong	kartong kartongen kartonger kartongerna
+52	5152	elbil	elbilar elbil elbilen elbilarna
+53	5153	födsel	födseln födsel födslar
+54	5154	krympa	krymper krympa krympt krympande krympte krymp krympta krympas
+55	5155	afton	afton aftonen aftonens aftnar
+56	5156	tiga	tiga tig teg tegs tigande tigs tegen tigit tigas tego
+57	5157	ambitiös	ambitiös ambitiösa ambitiöst ambitiöse
+58	5158	krim	krim krims
+59	5159	avliden	avlidna avlidne avliden
+60	5160	stock	stock stockar stocken stockarna stocks
+61	5161	förkorta	förkortad förkorta förkortas förkortat förkortar förkortade förkortades förkortats
+62	5162	känga	kängor känga kängorna kängan
+63	5163	kommendör	kommendör kommendören kommendörer
+64	5164	öppenhet	öppenhet öppenheten
+65	5165	diagram	diagram diagrammet diagrammen diagrams
+66	5166	maka	maka maken makan makar makas makor makans
+67	5167	katastrofal	katastrofalt katastrofala katastrofal
+68	5168	facit	facit
+69	5169	knepigt	knepigt
+70	5170	lyckligtvis	lyckligtvis
+71	5171	olämpligt	olämpligt
+72	5172	hink	hink hinkar hinken hinkarna
+73	5173	klistra	klistra klistrad klistrar klistrade klistrat klistras klistrades klistrats
+74	5174	skolverk	skolverket skolverkets skolverk
+75	5175	flexibel	flexibel flexibla flexibelt flexiblare flexible
+76	5176	beck	beck becks becket
+77	5177	grundlag	grundlagen grundlag grundlagarna grundlagar grundlagens
+78	5178	förvärva	förvärvade förvärvat förvärva förvärvades förvärvar förvärvats förvärvad förvärvas förvärvande förvärvare
+79	5179	trauma	trauma trauman traumat
+80	5180	saftig	saftig saftigt saftiga saftigare saftigaste
+81	5181	uppröra	upprörande upprör uppröra upprörs uppröras upprördes upprörts upprört upprörde
+82	5182	oklar	oklar oklara
+83	5183	förolämpning	förolämpning förolämpningar förolämpningen förolämpningarna
+84	5184	tillställning	tillställning tillställningar tillställningen tillställningarna
+85	5185	portion	portion portioner portionen portionerna
+86	5186	uttal	uttal uttalet uttalen
+87	5187	sked	sked skedar skeden skedarna
+88	5188	solnedgång	solnedgången solnedgång solnedgångar solnedgångarna
+89	5189	glob	globen glob globens glober
+90	5190	nål	nålar nål nålen nålarna nålens
+91	5191	homosexualitet	homosexualitet homosexualiteten homosexualitetens
+92	5192	giltig	giltig giltiga
+93	5193	utmärka	utmärker utmärkande utmärka utmärks utmärktes utmärkts utmärk utmärkas utmärkte
+94	5194	implementera	implementera implementeras implementerat implementerar implementerade implementerats implementerades implementerad
+95	5195	bryggeri	bryggeri bryggeriet bryggerier bryggerierna bryggeriets
+96	5196	meningsfull	meningsfullt meningsfull meningsfulla
+97	5197	organisk	organiska organisk organiskt
+98	5198	cross	cross crossen
+99	5199	duo	duo duon duons duos
+100	5200	sinnessjuk	sinnessjukt sinnessjuk sinnessjuka

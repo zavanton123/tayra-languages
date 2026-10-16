@@ -1,0 +1,100 @@
+1	3401	förenkla	förenkla förenklad förenklat förenklade förenklar förenklas förenklats förenklande förenklades
+2	3402	mössa	mössa mössan mössor mössorna mössans
+3	3403	ugn	ugnen ugn ugnar ugnarna ugnens
+4	3404	anklagelse	anklagelser anklagelserna anklagelse anklagelsen
+5	3405	kvalificerad	kvalificerad kvalificerade kvalificerat
+6	3406	tät	tät täta tätare täten tätaste tätar tätas tätade tätast tätad
+7	3407	reflektera	reflektera reflekterar reflekteras reflekterade reflekterande reflekterat reflekterades
+8	3408	lucka	luckan lucka luckor luckorna
+9	3409	blöda	blöder blöda blödde blödande
+10	3410	gyllene	gyllene gyllne
+11	3411	kåt	kåt kåta kåtor kåtare kåtan kåtaste
+12	3412	gala	galan gala gal gale gol galten galt galor gals galans
+13	3413	redigera	redigera redigerat redigerade redigerar redigerad redigerades redigeras redigerats
+14	3414	upprätta	upprätta upprättas upprättat upprättade upprättar upprättandet upprättades upprättats upprättad upprättande
+15	3415	presentation	presentation presentationen presentationer presentationerna
+16	3416	evenemang	evenemang evenemanget evenemangen evenemangets evenemangs
+17	3417	koran	koranen koran koranens koraner
+18	3418	avstänga	avstängd avstängt avstängde avstänga avstängdes avstängas avstängs
+19	3419	mista	miste mister mista mists
+20	3420	balansera	balansera balanserad balanserat balanserar balanserade balanseras balanserande balanserats
+21	3421	arbetsmiljö	arbetsmiljö arbetsmiljön arbetsmiljöer
+22	3422	seminarium	seminarium seminariet seminarier seminarie seminarierna seminariets
+23	3423	ansvara	ansvarar ansvara ansvarade ansvarat
+24	3424	vårda	vårda vårdas vården vårdar vårdat vårdade vårdats vårdades vårdad vårdande
+25	3425	bromsa	bromsa bromsar bromsen bromsas bromsade bromsat bromsande bromsades bromsats
+26	3426	trams	trams tramset
+27	3427	drunkna	drunkna drunknar drunknade drunknat drunknad drunknande
+28	3428	krascha	kraschade kraschar krascha kraschat kraschen kraschad kraschande
+29	3429	uppenbara	uppenbara uppenbarar uppenbarade uppenbarat uppenbaras uppenbarades uppenbarats uppenbarad
+30	3430	ambassad	ambassaden ambassad ambassader ambassadens ambassaderna
+31	3431	segla	segla seglade seglar seglat seglen seglats seglande seglas seglatsen seglades
+32	3432	klient	klient klienter klienten klienterna klientens klienters klients klienternas
+33	3433	råtta	råttor råtta råttan råttorna råttans råttornas
+34	3434	svårighet	svårigheter svårigheten svårighet svårigheterna
+35	3435	designa	designade designat designa designad designar designades designen designas designats
+36	3436	kongress	kongressen kongress kongressens kongresser kongresserna
+37	3437	gran	gran granen granar granarna granens grans
+38	3438	välkänd	välkända välkänt välkänd välkände
+39	3439	opera	opera operan operor operans operas operorna
+40	3440	noggrann	noggrant noggrann noggranna noggrannare noggran nogrann noggrannaste
+41	3441	pistol	pistol pistoler pistolen pistols pistolerna
+42	3442	dagsläge	dagsläget
+43	3443	dugg	dugg
+44	3444	nåja	nåja
+45	3445	såvida	såvida
+46	3446	tjena	tjena
+47	3447	tätt	tätt
+48	3448	årligen	årligen
+49	3449	flöde	flöde flödet flöden flödena
+50	3450	skal	skal skalet skalen skalets
+51	3451	anhängare	anhängare anhängarna anhängaren anhängares
+52	3452	bubbla	bubbla bubblor bubblar bubblorna bubble bubbles bubblande bubblade bubblat bubblans
+53	3453	tomat	tomater tomat tomaterna tomaten
+54	3454	bevaka	bevaka bevakar bevakade bevakas bevakad bevakat bevakades bevakande bevakare bevakats
+55	3455	slöseri	slöseri slöseriet
+56	3456	pedagogisk	pedagogisk pedagogiska pedagogiskt
+57	3457	återfinna	återfinns återfanns återfinna återfinner återfinnas återfunnits återfann återfunnen återfunnit återfinnes
+58	3458	arbetsdag	arbetsdag arbetsdagar arbetsdagen arbetsdagarna arbetsdagens
+59	3459	hobby	hobby hobbyn hobbys hobbyer
+60	3460	krydda	krydda kryddor kryddan kryddat kryddorna kryddar kryddad kryddade krydd kryddas
+61	3461	mobiltelefon	mobiltelefon mobiltelefoner mobiltelefonen mobiltelefonerna
+62	3462	trilla	trillar trilla trillade trillat trille
+63	3463	självklar	självklara självklar
+64	3464	borsta	borsta borstar borstat borstade borste borsten borstarna borstad borstas
+65	3465	fasad	fasaden fasad fasader fasaderna fasadens
+66	3466	prick	prick pricken prickar prickarna
+67	3467	ände	änden ände ändar ändarna
+68	3468	tå	tårna tå tån
+69	3469	tilltala	tilltalar tilltalade tilltala tilltalande tilltalas tilltalades tilltalad tilltalat
+70	3470	exemplar	exemplar exemplaret exemplaren
+71	3471	klappa	klappa klappar klappade klappat klappad klappen klappande klappan klapparna
+72	3472	ohälsa	ohälsa ohälsan
+73	3473	kind	kinden kind kinder kinderna kinds
+74	3474	döpa	döpa döper döptes döpte döpas döp döpts döps
+75	3475	proffs	proffs proffsen proffset
+76	3476	nagel	naglar naglarna nagel nageln
+77	3477	regissör	regissören regissör regissörer regissörerna regissörens regissörs
+78	3478	muta	muta mutor mutar mute mutade mutat mutad mutas mutorna mutan
+79	3479	spola	spola spolar spolade spolas spolen spole spolades spolat spolats spolarna
+80	3480	belöning	belöning belöningar belöningen belöningarna
+81	3481	meny	menyn meny menyer menyerna
+82	3482	japansk	japansk japanskt japanske
+83	3483	användbar	användbart användbar användbara
+84	3484	kommunistisk	kommunistiska kommunistisk kommunistiskt kommunistiske
+85	3485	garage	garage garaget garagen garagets
+86	3486	prägla	präglas präglat präglad präglade präglades prägla präglats präglar
+87	3487	uppror	uppror upproret upproren upprorets
+88	3488	slöja	slöja slöjan slöjor slöjans
+89	3489	kalender	kalendern kalender kalendrar kalendrarna kalenderns
+90	3490	novell	noveller novell novellen novellerna novellens
+91	3491	efterbliven	efterbliven efterblivna efterblivet
+92	3492	motta	motta mottagit mottog mottar mottaga mottagen mottages mottogs mottagna mottas
+93	3493	utgångspunkt	utgångspunkt utgångspunkten utgångspunkter utgångspunkterna
+94	3494	förfluten	förflutna förflutet förfluten förflutnas
+95	3495	idol	idol idoler idols idolerna idolen
+96	3496	socialistisk	socialistiska socialistisk socialistiskt
+97	3497	spana	spana spanar spanade spanat spanande
+98	3498	fucking	fucking
+99	3499	mentalt	mentalt
+100	3500	slutända	slutändan

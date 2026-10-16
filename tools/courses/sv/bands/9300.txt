@@ -1,0 +1,100 @@
+1	9201	konfrontation	konfrontation konfrontationer konfrontationen
+2	9202	överbelasta	överbelastad överbelastat överbelastade överbelasta överbelastas överbelastar
+3	9203	tiondel	tiondel tiondelar tiondels tiondelen
+4	9204	punga	punga pungen pungar
+5	9205	abborre	abborre abborren abborrar
+6	9206	opinionsundersökning	opinionsundersökningar opinionsundersökning opinionsundersökningarna opinionsundersökningen
+7	9207	tystna	tystnar tystnade tystna tystnat
+8	9208	ränteavdrag	ränteavdrag ränteavdraget ränteavdragen
+9	9209	fastighetsbolag	fastighetsbolag fastighetsbolaget fastighetsbolagen
+10	9210	skyddsrum	skyddsrum skyddsrummet skyddsrummen
+11	9211	pluton	pluton plutonen plutoner plutonerna plutonens plutons
+12	9212	oetisk	oetiskt oetisk oetiska
+13	9213	biblisk	bibliska biblisk bibliskt
+14	9214	grabba	grabbar grabben grabba grabbade
+15	9215	förstaplats	förstaplatsen förstaplats förstaplatser
+16	9216	samordnare	samordnare samordnaren
+17	9217	thailändsk	thailändsk thailändskt
+18	9218	respektlös	respektlös respektlösa
+19	9219	kontraproduktiv	kontraproduktivt kontraproduktiv kontraproduktiva
+20	9220	fanatisk	fanatiska fanatiskt fanatisk
+21	9221	summering	summering summeringen
+22	9222	omorganisation	omorganisation omorganisationen omorganisationer
+23	9223	lasarett	lasarett lasarettet lasaretts lasarettets
+24	9224	tillbyggnad	tillbyggnad tillbyggnader tillbyggnaden
+25	9225	talesman	talesman talesmannen talesmän
+26	9226	prestigefylld	prestigefyllda prestigefyllt prestigefylld
+27	9227	namnbyte	namnbyte namnbytet namnbyten
+28	9228	svammel	svammel svamlet
+29	9229	tåga	tåga tågade tågar tågen tågat
+30	9230	thailändska	thailändska thailändskor
+31	9231	småföretag	småföretag småföretagen
+32	9232	ansvarslös	ansvarslöst ansvarslösa ansvarslös
+33	9233	sluttning	sluttningen sluttning sluttningar sluttningarna
+34	9234	förväntansfull	förväntansfull förväntansfulla förväntansfullt
+35	9235	sonson	sonson sonsons sonsonen sonsöner
+36	9236	statsbudget	statsbudgeten statsbudget
+37	9237	chansning	chansning chansningar chansningen
+38	9238	angå	angår angick angå
+39	9239	evakuering	evakuering evakueringen evakueringar
+40	9240	alltjämt	alltjämt
+41	9241	banbrytande	banbrytande
+42	9242	endera	endera
+43	9243	medelst	medelst
+44	9244	nämnvärt	nämnvärt
+45	9245	syrianska	syrianska
+46	9246	upprättelse	upprättelse
+47	9247	ovärdig	ovärdigt ovärdig ovärdiga
+48	9248	böla	böla böle bölar bölade bölat böl
+49	9249	vårdnadshavare	vårdnadshavare vårdnadshavares vårdnadshavarna vårdnadshavaren
+50	9250	toppmöte	toppmötet toppmöte toppmöten
+51	9251	ordförråd	ordförråd ordförrådet
+52	9252	vattenflaska	vattenflaska vattenflaskor vattenflaskan vattenflaskorna
+53	9253	förstatliga	förstatliga förstatligas förstatligande förstatligandet förstatligades förstatligade förstatligad förstatliganden
+54	9254	stationär	stationära stationär stationärt
+55	9255	processor	processorer processorn processorerna processorns
+56	9256	tomhet	tomhet tomheten tomhetens
+57	9257	norrlänning	norrlänningar norrlänning norrlänningarna norrlänningen
+58	9258	hemsöka	hemsöka hemsöker hemsökt hemsökta hemsöks hemsökte hemsöktes hemsökas
+59	9259	primärvård	primärvården primärvård primärvårdens
+60	9260	skikt	skikt skiktet skikten
+61	9261	snusk	snusk snusket
+62	9262	avnjuta	avnjuta avnjuter avnjutas avnjutit avnjut avnjuts avnjöt
+63	9263	mätbar	mätbara mätbar mätbart
+64	9264	brigad	brigad brigaden brigader brigaderna brigadens
+65	9265	dagordning	dagordningen dagordning
+66	9266	neutralitet	neutralitet neutraliteten
+67	9267	memoar	memoarer memoar memoarerna
+68	9268	justitiedepartement	justitiedepartementet justitiedepartement justitiedepartementets
+69	9269	animation	animation animationer animationen animations animationerna
+70	9270	anhålla	anhölls anhållits anhålla anhöll anhåller anhållas anhållande anhållit anhåll anhålls
+71	9271	pudel	pudel pudlar pudelns pudeln pudlarna
+72	9272	beskåda	beskåda beskådas beskådar beskådade beskådande beskådat
+73	9273	fundament	fundament fundamentet fundamenten
+74	9274	fisa	fiser fisa fes fisen fisit
+75	9275	tandställning	tandställning tandställningen tandställningar
+76	9276	socionom	socionom socionomer socionomen
+77	9277	skolmat	skolmat skolmaten
+78	9278	superfin	superfin superfint superfina
+79	9279	generisk	generisk generiska generiskt
+80	9280	font	font fonter fonts fonten
+81	9281	markis	markis markisen markiser markisens
+82	9282	faktafel	faktafel faktafelen
+83	9283	ompröva	ompröva omprövas omprövar omprövat omprövade
+84	9284	frihandel	frihandel frihandeln
+85	9285	fascistisk	fascistiska fascistisk
+86	9286	fredagsmys	fredagsmys fredagsmyset
+87	9287	friktion	friktion friktionen friktioner
+88	9288	oljud	oljud oljudet
+89	9289	stygn	stygn stygnen stygnet
+90	9290	snut	snutar snut snutarna snutens
+91	9291	betygsätta	betygsätta betygsätter betygsatt betygsätts betygsatte betygsatta betygsätt betygsättas
+92	9292	arbetssätt	arbetssätt arbetssättet
+93	9293	legion	legion legionen legioner legionerna legionens legions
+94	9294	immigrant	immigranter immigrant immigranterna immigrants immigranten
+95	9295	nim	nam nim
+96	9296	koordinera	koordinera koordinerar koordinerade koordinerad koordinerat koordineras
+97	9297	konditori	konditori konditoriet kondis konditorier
+98	9298	tilltänkt	tilltänkta tilltänkt tilltänkte
+99	9299	utbrista	utbrister utbrast utbrista
+100	9300	efterlikna	efterlikna efterliknar efterliknas

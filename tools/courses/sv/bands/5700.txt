@@ -1,0 +1,100 @@
+1	5601	nyfödd	nyfödda nyfödd nyfött nyfödde
+2	5602	bitti	bitti
+3	5603	cp	cp
+4	5604	deprimerande	deprimerande
+5	5605	dominerande	dominerande
+6	5606	fejk	fejk
+7	5607	förödande	förödande
+8	5608	genomgående	genomgående
+9	5609	kontinuerligt	kontinuerligt
+10	5610	manuellt	manuellt
+11	5611	skrattretande	skrattretande
+12	5612	tillika	tillika
+13	5613	övergripande	övergripande
+14	5614	översta	översta
+15	5615	alfa	alfa alfas alfan
+16	5616	snickare	snickare snickaren snickarna snickar
+17	5617	gosse	gosse gossar gossen gossarna gossens
+18	5618	skattesänkning	skattesänkningar skattesänkning skattesänkningarna skattesänkningen
+19	5619	vits	vitsen vits vitsar vitsarna
+20	5620	ark	ark arken arkens arket arks
+21	5621	generaldirektör	generaldirektör generaldirektören generaldirektörer generaldirektörens
+22	5622	beteckna	betecknas betecknar beteckna betecknade betecknades betecknande betecknad betecknat betecknats
+23	5623	avskräcka	avskräckande avskräcka avskräckt avskräcker avskräckte avskräckta avskräckas avskräcks
+24	5624	sexism	sexism sexismen
+25	5625	skjutsa	skjutsa skjutsade skjutsar skjutsat skjutsen skjutsas skjutsad skjutsades
+26	5626	angelägen	angelägen angeläget angelägna
+27	5627	konspiration	konspiration konspirationen konspirationer konspirations konspirationerna
+28	5628	beskatta	beskattas beskatta beskattar beskattade beskattad beskattades beskattats beskattat
+29	5629	initiera	initierade initierat initiera initierad initierar initierades initieras initierats
+30	5630	kvartal	kvartalet kvartal kvartalen kvartals kvartalets
+31	5631	duk	duk dukar duken dukarna dukens
+32	5632	automatkarbin	ak automatkarbin automatkarbiner automatkarbinen
+33	5633	mack	mack macken mackar mackarna macks
+34	5634	punk	punk punken punkens punks
+35	5635	lokalisera	lokalisera lokaliserad lokaliserat lokaliserade lokaliseras lokaliserar lokaliserats lokaliserades
+36	5636	avancera	avancerade avancera avancerat avancerar avancerande
+37	5637	socialdemokrati	socialdemokratin socialdemokrati socialdemokratins
+38	5638	barnslig	barnslig barnsliga barnsligare
+39	5639	kredit	kredit krediter krediten krediterna
+40	5640	pump	pump pumpar pumpen pumparna pumps pumpsen pumpens
+41	5641	stabilitet	stabilitet stabiliteten stabilitets
+42	5642	polismyndighet	polismyndigheten polismyndighet polismyndighetens polismyndigheter polismyndigheterna
+43	5643	folklig	folklig folkliga folkligt
+44	5644	överfall	överfall överfallen överfallet överfallna överfalls
+45	5645	tackla	tackla tacklar tacklas tacklade tacklad tacklat tackle tacklades
+46	5646	marsch	marsch marschen marscher
+47	5647	spade	spade spaden spadar spades spadarna
+48	5648	belysning	belysning belysningen belysnings
+49	5649	stena	stena stenar stenad stenen stenas stenade stene stenades
+50	5650	ribba	ribban ribba ribbor ribb ribborna
+51	5651	nattklubb	nattklubb nattklubbar nattklubben nattklubbarna
+52	5652	pung	pung pungen pungar
+53	5653	lossna	lossnar lossnade lossna lossnat
+54	5654	taktisk	taktiska taktiskt taktisk
+55	5655	vikarie	vikarie vikarier vikarien vikarierna
+56	5656	sexa	sexa sexan sexor sexorna sexar sexes sexe
+57	5657	kartlägga	kartlägga kartlägger kartlagt kartläggas kartlade kartlagda kartlagd kartlagts kartlades kartlägg
+58	5658	förordning	förordning förordningar förordningen förordningarna
+59	5659	hyresrätt	hyresrätter hyresrätt hyresrätten hyresrätterna
+60	5660	episk	episkt episka episk
+61	5661	vistelse	vistelse vistelsen vistelser
+62	5662	nationalsång	nationalsången nationalsång nationalsånger
+63	5663	gradvis	gradvis gradvisa gradvist
+64	5664	putsa	putsa putsade putsat putsar putsad putsen putsas putsades putsats
+65	5665	världsmästare	världsmästare världsmästaren världsmästarna
+66	5666	pendel	pendeln pendel pendlar pendlarna pendelns
+67	5667	kommando	kommando kommandot kommandon kommandona
+68	5668	upphovsrätt	upphovsrätt upphovsrätten upphovsrättens
+69	5669	vändning	vändning vändningen vändningar vändningarna
+70	5670	ojämn	ojämn ojämna ojämnt ojämnare
+71	5671	meta	meta mete metar metade
+72	5672	otalig	otaliga otaligt otalig
+73	5673	förvärra	förvärras förvärra förvärrar förvärrats förvärrades förvärrade förvärrat förvärrad förvärrande
+74	5674	översvämning	översvämningar översvämning översvämningarna översvämningen
+75	5675	blåbär	blåbär blåbären blåbärs blåbäret
+76	5676	aids	aids
+77	5677	baklänges	baklänges
+78	5678	bitcoin	bitcoin
+79	5679	härnäst	härnäst
+80	5680	kvm	kvm
+81	5681	lex	lex
+82	5682	nonsens	nonsens
+83	5683	smärtsamt	smärtsamt
+84	5684	världsklass	världsklass
+85	5685	västvärlden	västvärlden
+86	5686	relativ	relativ relativa relative
+87	5687	insyn	insyn insynen
+88	5688	veterinär	veterinär veterinären veterinärer veterinärerna veterinärens veterinära
+89	5689	mixa	mixa mixen mixade mixat mixar mixad mixas mixades mixats
+90	5690	insändare	insändare insändaren
+91	5691	utväg	utväg utvägen utvägar
+92	5692	mapp	mapp mappen mappar mapparna
+93	5693	prisvärd	prisvärt prisvärd prisvärda
+94	5694	paranoid	paranoid paranoida
+95	5695	klapp	klapp klappar klapparna klappen
+96	5696	slarva	slarvar slarvat slarva slarvade slarvas
+97	5697	omkomma	omkom omkommit omkomna omkommer omkomma omkommen omkomne
+98	5698	geografi	geografi geografin
+99	5699	återta	återta återtar återtog återtagit återtas återtagande återtogs återtagits återtagandet återtaget
+100	5700	hipster	hipster hipsters hipstern

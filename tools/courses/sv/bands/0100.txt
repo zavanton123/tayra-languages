@@ -1,0 +1,100 @@
+1	1	vara	är vara varit vore va vare vart varor varan varorna
+2	2	det	det re red dä dets detet rett redde rer
+3	3	att	att å ån åar åns åarna
+4	4	och	och å ån åar åns åarna
+5	5	en	en ett enar förstas förstes enen etts
+6	6	i	i
+7	7	jag	jag mig jaget jags jagets jö
+8	8	på	på
+9	9	ha	har ha hade haft havet hav have has haven havs
+10	10	inte	inte int nt
+11	11	som	som
+12	12	för	för förs förens fören förarna förar förarnas
+13	13	med	med me meds medar meden medens medarna
+14	14	du	du dig re red rej rett redde rer
+15	15	av	av af afs
+16	16	om	om
+17	17	så	så sår sås såsen såret såren såser sådde sått sådd
+18	18	till	till til
+19	19	den	den then dens dän
+20	20	de	de dem di dis dien diset dins
+21	21	kunna	kan kunna kunde kunnat kunnande kunnandet kunne kunn
+22	22	vi	vi oss hvi
+23	23	ska	ska skulle skall skallen sku skolen skallens skole skolat skullen
+24	24	men	men mens mensen menen
+25	25	få	får få fick fått minst färre fången fås fåren fån
+26	26	man	man män mannen männen mans mannens mäns männens manar mannar
+27	27	var	var va vart vars varar hvar varen hvars hwar varet
+28	28	göra	gör göra gjort gjorde görs göras göran gjordes gjord gjorts
+29	29	komma	kommer kom komma kommit kommande kommen komme komer kommas kommo
+30	30	bli	blir bli blev blivit vart blivande bliva blitt bliv bliver
+31	31	någon	någon något några nån nåt någons ngt ngn någots någras
+32	32	mycket	mycket mer mest mesta mkt
+33	33	min	min mitt mina mitten miner minor mins minas minen minan
+34	34	han	han honom
+35	35	när	när
+36	36	se	se ser sett såg ses sågs setts sedd sågar sågen
+37	37	vad	vad va vader vaden hvad vadet vaderna vadar vaders vads
+38	38	bra	bra bättre bästa bäst bäste bästas
+39	39	nu	nu nuet nus nuets
+40	40	gå	går gå gick gått gången gående gås gångna gäss gåsen
+41	41	från	från frå
+42	42	här	här hären härar härens härarna härs
+43	43	ta	ta tar tog tag tagit tas taget togs tagen tagits
+44	44	vilja	vill ville vilja velat viljan viljor vilje viljans viljen
+45	45	bara	bara ba
+46	46	eller	eller lr elr
+47	47	då	då da
+48	48	hur	hur
+49	49	denna	detta denna dessa denne dessas dennas dettas
+50	50	alla	alla
+51	51	finnas	finns fanns finnas funnits finnes funnes
+52	52	sig	sig
+53	53	där	där der
+54	54	säga	säger säga sa sagt säg sägs sade sägas sas sagts
+55	55	lite	lite mindre minst litet
+56	56	annan	andra annat annan andras annans andre annats andrar
+57	57	ingen	ingen inget inga inge inger ingens ingav inges ingas ingivit
+58	58	år	år året åren års årets årens åhr
+59	59	sin	sin sina sitt sinande sinar sine sinat sinade
+60	60	ut	ut
+61	61	ni	ni er
+62	62	upp	upp opp oppen
+63	63	ju	ju
+64	64	din	din ditt dina ditten
+65	65	in	in
+66	66	tro	tror tro trodde trott tron troende tronen tros trotts trons
+67	67	stor	stor stora större stort största störst store störste stors storas
+68	68	sen	sen senare senaste sent senast sena senor senares senan senorna
+69	69	hon	hon henne ho hana hoar hons
+70	70	veta	vet veta visste vetat vete vetande vetet veten vetandets vetandes
+71	71	än	än
+72	72	dag	dag dagen dagar dags dagens dagarna dan dans dar dagars
+73	73	efter	efter
+74	74	över	över öfver öfwer
+75	75	känna	känner känns känna kände känt kändes känd kända kännas känn
+76	76	också	också oxå
+77	77	måste	måste måsta måsten måst moste måstena
+78	78	allt	allt allts alltet alltets
+79	79	även	även äfven
+80	80	under	under undret undrens unders
+81	81	vår	vår våra vårt våren våras vårens vårar vårarna
+82	82	väl	väl bättre bäst väll bästas
+83	83	ge	ge ger gav gett ges givet givit givande given gavs
+84	84	många	många mest mesta
+85	85	behöva	behöver behöva behövs behövde behövt behövas behövdes behövande behövts behövd
+86	86	vid	vid vitt vida vide vidas vidaste viden vidt hvitt
+87	87	vilken	vilket vilken vilka vilkas vilkens hvilken hvilka hvilket
+88	88	tänka	tänker tänka tänkte tänk tänkt tänkande tänkas tänkta tänkandet tänket
+89	89	ja	ja jas
+90	90	mot	mot mots motet moten
+91	91	ny	nya ny nytt nyare nye nyaste nyast nynas
+92	92	kanske	kanske
+93	93	hålla	håller hålla håll höll hållet hållit hålls hållas hölls hållt
+94	94	tid	tid tiden tider tiderna tids tidens tiders tidernas
+95	95	två	två andres tvår tvås
+96	96	varför	varför vf vrf hvarför
+97	97	själv	själv själva sj självt självet sjelf själf
+98	98	tycka	tycker tyckte tycka tycks tyckt tycke tyckas tyck tycktes tyckande
+99	99	hela	hela helen helande helan helade hele helad helar hels helas
+100	100	helt	helt

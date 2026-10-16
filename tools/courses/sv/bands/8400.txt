@@ -1,0 +1,100 @@
+1	8301	uppdaga	uppdagas uppdagades uppdagats uppdagade uppdagar uppdaga uppdagat
+2	8302	mejeri	mejeri mejeriet mejerier mejerierna mejeriets
+3	8303	desperation	desperation desperationen
+4	8304	vagga	vagga vaggan vaggar vaggade vaggande vaggor vaggas
+5	8305	nöta	nöta nöter nöten nött nötta nötte nötts nötas nöts
+6	8306	chokladboll	chokladbollar chokladboll chokladbollarna
+7	8307	baltiska	baltiska
+8	8308	barfota	barfota
+9	8309	cox	cox
+10	8310	nattetid	nattetid
+11	8311	stundtals	stundtals
+12	8312	tjänstefel	tjänstefel
+13	8313	tradera	tradera
+14	8314	våldsbejakande	våldsbejakande
+15	8315	skolval	skolvalet skolval
+16	8316	spellista	spellista spellistan spellistor
+17	8317	avfart	avfart avfarten avfarter avfarterna
+18	8318	röstning	röstning röstningen röstnings röstningar
+19	8319	butler	butler butlers butlern
+20	8320	statsvetenskap	statsvetenskap statsvetenskapen
+21	8321	pundare	pundare pundarna pundaren
+22	8322	rådhus	rådhuset rådhus rådhusets
+23	8323	skakig	skakig skakigt skakiga
+24	8324	mutant	mutant mutanter mutanterna mutanten mutants
+25	8325	antydan	antydan antydningar
+26	8326	bedövning	bedövning bedövningen
+27	8327	medvetenhet	medvetenhet medvetenheten
+28	8328	magnet	magnet magneter magneten magneterna magnetens
+29	8329	oansvarig	oansvarig oansvariga
+30	8330	fjortis	fjortisar fjortis
+31	8331	missil	missiler missil missilerna missilen
+32	8332	fysiker	fysiker fysikern fysikerna
+33	8333	ghetto	ghetto ghettot ghetton ghettona
+34	8334	besläktad	besläktade besläktad besläktat närmre närmst
+35	8335	bakverk	bakverk bakverket bakverken
+36	8336	huligan	huliganer huligan huliganerna huliganen
+37	8337	marxism	marxism marxismen marxismens
+38	8338	elektromagnetisk	elektromagnetiska elektromagnetisk elektromagnetiskt
+39	8339	restid	restid restiden restider restiderna
+40	8340	cylinder	cylinder cylindrar cylindern cylindrarna cylinderns
+41	8341	triumf	triumf triumfer triumfen triumfens
+42	8342	avlossa	avlossade avlossa avlossades avlossas avlossat avlossar avlossats
+43	8343	husse	husse huss hussar husses hussen
+44	8344	åtnjuta	åtnjuter åtnjuta åtnjöt åtnjutit åtnjutande
+45	8345	akvarium	akvarium akvariet akvarier akvariets akvarierna
+46	8346	tillsyn	tillsyn tillsynen tillsyner
+47	8347	elcykel	elcyklar elcykel elcykeln elcyklarna
+48	8348	kassörska	kassörskan kassörska kassörskorna kassörskor
+49	8349	förkärlek	förkärlek förkärleken
+50	8350	alliansparti	allianspartierna allianspartier alliansparti allianspartiernas allianspartiet
+51	8351	intellekt	intellekt intellektet
+52	8352	kyrklig	kyrkliga kyrklig kyrkligt
+53	8353	tågtrafik	tågtrafiken tågtrafik
+54	8354	bäver	bäver bävrar bävern bävrarna bäverns
+55	8355	svamla	svamlar svamla svamlade svamlande
+56	8356	kantarell	kantareller kantarell kantarellerna
+57	8357	förvandling	förvandling förvandlingen förvandlingar
+58	8358	lipa	lipa lipar lipade lipe lipat lipas lipen
+59	8359	paddla	paddla paddlar paddle paddlade paddlat paddlande
+60	8360	hojta	hojta hojtar hojtade
+61	8361	mist	mist mists
+62	8362	exil	exil exilen
+63	8363	horribel	horribelt horribla horribel horrible
+64	8364	gosa	gosa gosar gosen gosade gose
+65	8365	hoj	hoj hojen hojar hojarna
+66	8366	nagellack	nagellack nagellacket
+67	8367	visdom	visdom visdomen visdomens visdomar
+68	8368	furste	furste fursten furstar furstarna furstens furstinna furstes furstarnas furstars
+69	8369	jihadist	jihadister jihadist jihadisterna jihadisternas jihadisten
+70	8370	mygg	mygg myggen
+71	8371	republikansk	republikanska republikansk republikanskt republikanske
+72	8372	omodern	omodernt omodern omoderna
+73	8373	släp	släp släpet släps släpen
+74	8374	vinning	vinning vinnings vinningen vinningar
+75	8375	lagkamrat	lagkamrater lagkamrat lagkamraterna lagkamraten
+76	8376	motvillig	motvilligt motvillig motvilliga motvillige
+77	8377	utvilad	utvilad utvilade
+78	8378	kok	kok koks koket
+79	8379	obetald	obetalda obetald obetalt
+80	8380	krabba	krabba krabbor krabban krabborna krabbans
+81	8381	tös	tös tösen töser töserna
+82	8382	ikläda	iklädd ikläda ikläder iklädde iklätt
+83	8383	åkomma	åkomma åkommor åkomman
+84	8384	naturresurs	naturresurser naturresurserna naturresurs
+85	8385	riksväg	riksväg riksvägen riksvägar riksvägarna
+86	8386	krigföring	krigföring krigsföring krigföringen
+87	8387	fotgängare	fotgängare fotgängarna fotgängaren
+88	8388	restriktiv	restriktiv restriktiva restriktivt restriktivare
+89	8389	freda	freda fredad freden fredade frede fredat fredas
+90	8390	könsneutral	könsneutrala könsneutralt könsneutral
+91	8391	kvinnoförtryck	kvinnoförtryck kvinnoförtrycket
+92	8392	studietid	studietiden studietid
+93	8393	arbetssökande	arbetssökande
+94	8394	fasiken	fasiken
+95	8395	hetero	hetero
+96	8396	irakiska	irakiska
+97	8397	måhända	måhända
+98	8398	självförsörjande	självförsörjande
+99	8399	vårtermin	vårterminen
+100	8400	smugglare	smugglare smugglarna smugglaren smugglarnas

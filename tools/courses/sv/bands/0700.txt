@@ -1,0 +1,100 @@
+1	601	konstigt	konstigt
+2	602	uppgift	uppgifter uppgift uppgiften uppgifterna uppgiftens
+3	603	ingå	ingår ingå ingick ingående ingången ingått ingicks ingåtts ingångna ingås
+4	604	tips	tips tipset tipsen
+5	605	falla	faller föll falla fallit fallande fallen fallet fallna falle fallne
+6	606	förutom	förutom
+7	607	ungefär	ungefär
+8	608	förstöra	förstör förstöra förstört förstörd förstörde förstördes förstörda förstörs förstöras förstörts
+9	609	ren	ren rena renare renar renaste renarna renas rene renat renen
+10	610	flyga	flyga flyg flyger flög flyget flygande flugit flygen flygets flygs
+11	611	klass	klass klassen klasser klassens klasserna klassernas
+12	612	fundera	fundera funderar funderat funderade funderande
+13	613	hoppa	hoppa hoppar hoppade hoppat hoppades hoppats hoppande hoppe hoppare hoppen
+14	614	situation	situation situationen situationer situationerna situationens situations
+15	615	utveckla	utveckla utvecklas utvecklat utvecklats utvecklade utvecklar utvecklades utvecklad utvecklande utvecklandet
+16	616	ben	ben benen benet bena bene bens benens benets benes benan
+17	617	inlägg	inlägg inlägget inläggen inläggets inläggs
+18	618	beskriva	beskriver beskriva beskrivs beskrev beskrivas beskriv beskrivit beskrevs beskrivet beskrivna
+19	619	finna	finner finna fann funnit funnits finn finnar finne finnarna funnen
+20	620	by	by byn byar byarna byns bys byarnas byars
+21	621	telefon	telefon telefonen telefoner telefonerna telefonens
+22	622	erbjuda	erbjuda erbjuder erbjudande erbjöd erbjuds erbjudanden erbjudandet erbjudit erbjuden erbjudas
+23	623	vakna	vakna vaknade vaknar vaknat vaknande
+24	624	bero	beror bero berodde berott
+25	625	mark	mark marken marks marker markerna markens markers
+26	626	gräns	gränsen gränser gräns gränserna gränsers gränsens
+27	627	positiv	positivt positiva positiv positive positivare positivet
+28	628	trevlig	trevlig trevliga trevligare trevligaste trevlige trevligast
+29	629	ikväll	ikväll
+30	630	speciellt	speciellt
+31	631	krav	krav kraven kravet kravs
+32	632	intressera	intresserad intresserade intresserar intressera intresserat intresseras
+33	633	lokal	lokala lokal lokaler lokalt lokalen lokalerna lokale lokalens
+34	634	leka	leka leker lek lekte leken lekar lekt lekande lekarna leks
+35	635	tråkig	tråkigt tråkig tråkiga tråkigaste tråkigare tråkigast
+36	636	tom	tom tomt tomma tomten tomter toms tomtens tomterna tomme tommare
+37	637	läge	läget läge lägen lägena
+38	638	språk	språk språket språken språkets språkens språks
+39	639	hämta	hämta hämtar hämtade hämtat hämtad hämtas hämtades hämtats hämt
+40	640	synd	synd synder synden syndernas syndens synderna synders
+41	641	steg	steg steget stegen stegs stegens
+42	642	rik	rika rik riket rike rikt rikets rikaste rikare riks rikes
+43	643	tio	tio ti
+44	644	kasta	kasta kastar kastade kastas kastat kastades kastad kastats kasten kastande
+45	645	alldeles	alldeles
+46	646	gratis	gratis
+47	647	ont	ont
+48	648	sjukt	sjukt
+49	649	tappa	tappat tappar tappa tappade tappad tappas tappades tappats tappen
+50	650	driva	driva drev drivs drivit drive drivande driv driven drivas drivna
+51	651	peng	pengarna peng pengarnas pengen pengars
+52	652	våga	vågar våga vågade vågat vågen vågad våge
+53	653	läkare	läkare läkaren läkarna läkares läkarens läkar läkarnas
+54	654	förändra	förändras förändra förändrats förändrar förändrade förändrat förändrades förändrad förändrande
+55	655	far	far fars fadern faderns fäder farsen fäders fäderna fädernas farser
+56	656	tydligen	tydligen
+57	657	kaffe	kaffe kaffet kaffets caffe
+58	658	faktum	fakta faktum faktumet faktas
+59	659	internet	internet internets
+60	660	skatt	skatt skatter skatten skatterna skattens skatternas
+61	661	påstå	påstår påstå påstod påstående påståenden påstått påståendet påstås påstådda påstods
+62	662	chef	chef chefen chefer cheferna chefens chefs chefernas chefers
+63	663	diskutera	diskutera diskuterar diskuteras diskuterade diskuterat diskuterades diskuterats diskuterande diskuterad
+64	664	mm	mm
+65	665	p.g.a	pga
+66	666	skog	skogen skog skogar skogarna skogs skogens skogarnas skogars
+67	667	tjäna	tjänar tjäna tjänade tjänat tjänas tjänande tjänats
+68	668	klar	klar klarare klaraste klarast klare
+69	669	ålder	ålder åldern åldrar åldrarna ålderns ålders
+70	670	tacka	tacka tackar tackade tackat tackor tackorna tackas tackan tacken tackad
+71	671	dotter	dotter dottern döttrar dotters döttrarna dotterns döttrars döttrarnas
+72	672	ljus	ljus ljuset ljust ljusare ljusa ljusets ljusen ljusaste ljusan ljusast
+73	673	tjänst	tjänst tjänster tjänsten tjänsterna tjänste tjänstens
+74	674	djur	djur djuren djuret djurens djurs djurets
+75	675	säng	sängen säng sängar sängs sängarna sängens
+76	676	nöjd	nöjd nöjda nöjt nöjde nöjdare nöjdaste
+77	677	kläder	kläder kläderna klädernas
+78	678	län	län länet läns länets länen länsar länens
+79	679	rör	rör röret rören rö rörs rörets
+80	680	lycka	lycka lyckan lyckans lycko lycke lyckta lyck lyckorna
+81	681	brott	brott brottet brotten brotts brottets brottens
+82	682	jobbig	jobbigt jobbig jobbiga jobbigare jobbigaste jobbigast
+83	683	spännande	spännande
+84	684	tredje	tredje
+85	685	vann	vann
+86	686	hår	hår håret håren hårets
+87	687	länk	länkar länk länken länkarna länkens
+88	688	flicka	flickor flicka flickan flickorna flickans flickors flickas flickornas
+89	689	sprida	sprida sprider sprids spred sprid spridas spridit spridda spreds spritt
+90	690	rapport	rapport rapporten rapporter rapporterna rapportens rapports
+91	691	bror	bror bröderna bröder brors brodern brödernas broderns broders bröders
+92	692	döma	döma dömd döms dömer dömda dömdes dömas dömts dömde döm
+93	693	tillhöra	tillhör tillhörande tillhörde tillhöra tillhört tillhörandes
+94	694	hemsk	hemskt hemska hemsk hemskaste hemskare hemske
+95	695	ärlig	ärligt ärlig ärliga ärligare ärligaste ärlige
+96	696	knappt	knappt
+97	697	ned	ned
+98	698	tillräckligt	tillräckligt
+99	699	häst	häst hästar hästen hästarna hästens hästars hest hästarnas hästs inviten
+100	700	utveckling	utveckling utvecklingen utvecklings utvecklingar utvecklingens utvecklingarna

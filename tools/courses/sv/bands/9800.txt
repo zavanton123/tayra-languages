@@ -1,0 +1,100 @@
+1	9701	pilgrim	pilgrim pilgrimer pilgrimerna pilgrims pilgrimen pilgrimernas
+2	9702	morgonrock	morgonrock morgonrocken morgonrockar
+3	9703	lösgodis	lösgodis lösgodiset
+4	9704	marginalskatt	marginalskatt marginalskatter marginalskatten marginalskatterna
+5	9705	efterforskning	efterforskningar efterforskning efterforskningarna efterforskningen
+6	9706	dunder	dunder dundret
+7	9707	författarskap	författarskap författarskapet
+8	9708	okänslig	okänsligt okänslig okänsliga
+9	9709	strama	strama stramar stramas stramade stramat
+10	9710	rem	rem remmen remmar remmarna rems
+11	9711	islamisering	islamisering islamiseringen
+12	9712	framtagen	framtagen framtagna framtaget
+13	9713	distributör	distributörer distributör distributören distributörerna
+14	9714	bostadsbyggande	bostadsbyggandet bostadsbyggande
+15	9715	utrotningshotad	utrotningshotade utrotningshotad utrotningshotat
+16	9716	kryptering	kryptering krypteringen krypteringar
+17	9717	tick	ticket tick tickets ticks
+18	9718	mönstra	mönstrade mönstra mönstrat mönstrad mönstrar mönstren
+19	9719	raseri	raseri raseriet
+20	9720	skuldkänsla	skuldkänslor skuldkänslorna skuldkänsla skuldkänslan
+21	9721	amnesti	amnesti amnestin
+22	9722	utdela	utdela utdelar utdelades utdelat utdelad utdelats utdelande utdelandet
+23	9723	världsdel	världsdelar världsdel världsdelen världsdelarna
+24	9724	okritisk	okritiskt okritisk okritiska
+25	9725	piga	piga pigan pigor pigorna pige
+26	9726	skötsam	skötsamma skötsam skötsamt
+27	9727	rasta	rasta rastar rasten rastade rastas rastande rastad rastat
+28	9728	emoji	emojis emoji emojin emojier
+29	9729	laglydig	laglydiga laglydig laglydigt
+30	9730	rotation	rotation rotationen rotationer
+31	9731	säd	säd säden
+32	9732	efterfest	efterfest efterfesten efterfester
+33	9733	utstråla	utstrålar utstrålade utstråla utstrålande
+34	9734	steril	steril sterila sterilt
+35	9735	kryphål	kryphål kryphålet kryphålen
+36	9736	rödbeta	rödbetor rödbetorna rödbeta rödbetan
+37	9737	herde	herde herden herdar herdarna herdens
+38	9738	översyn	översyn översynen
+39	9739	debutalbum	debutalbum debutalbumet
+40	9740	kikare	kikare kikaren
+41	9741	flopp	flopp floppar floppen
+42	9742	uteliggare	uteliggare uteliggarna uteliggaren
+43	9743	pokal	pokalen pokal pokaler pokalerna
+44	9744	universitetssjukhus	universitetssjukhuset universitetssjukhus universitetssjukhusets
+45	9745	volleyboll	volleyboll volleybollen
+46	9746	nordpol	nordpolen nordpol nordpolens
+47	9747	lugg	lugg luggen
+48	9748	marginell	marginell marginella
+49	9749	ledarskribent	ledarskribent ledarskribenter ledarskribenten
+50	9750	arrogans	arrogans arrogansen
+51	9751	samordning	samordning samordningen
+52	9752	kratta	kratta krattat krattor krattar krattan krattade
+53	9753	påfyllning	påfyllning påfyllningen påfyllningar
+54	9754	kora	kora koras korad korades kore korade korats korat korar koren
+55	9755	automatisera	automatisera automatiseras automatiserade automatiserat automatiserar automatiserades automatiserats
+56	9756	servett	servetter servett servetterna servetten
+57	9757	ofreda	ofredade ofredad ofreda ofredat ofredar ofreden
+58	9758	rymdskepp	rymdskepp rymdskeppet rymdskeppen rymdskeppets
+59	9759	grupparbete	grupparbete grupparbeten grupparbetet
+60	9760	hebreiska	hebreiska hebreisk hebreiskt hebreiskan
+61	9761	rikspolischef	rikspolischef rikspolischefen rikspolischefens
+62	9762	väderprognos	väderprognos väderprognosen väderprognoser väderprognoserna
+63	9763	läsår	läsåret läsår
+64	9764	ätbar	ätbart ätbara ätbar
+65	9765	avskyvärt	avskyvärt
+66	9766	glest	glest
+67	9767	gymnasielärare	gymnasielärare
+68	9768	månne	månne
+69	9769	omväxlande	omväxlande
+70	9770	rattfylleri	rattfylleri
+71	9771	rödlök	rödlök
+72	9772	sinsemellan	sinsemellan
+73	9773	orealistisk	orealistisk orealistiska
+74	9774	återbetalning	återbetalning återbetalningen återbetalningar
+75	9775	oreda	oreda oredan
+76	9776	skyddsnät	skyddsnät skyddsnätet skyddsnäten
+77	9777	komplexitet	komplexitet komplexiteten
+78	9778	luftkonditionering	luftkonditionering luftkonditioneringen
+79	9779	giraff	giraff giraffen giraffer girafferna giraffens
+80	9780	geometri	geometri geometrin geometrier
+81	9781	tänkvärd	tänkvärt tänkvärda tänkvärd
+82	9782	diss	diss dissar dissen
+83	9783	missuppfattning	missuppfattning missuppfattningar missuppfattningen
+84	9784	visitkort	visitkort visitkortet visitkorten
+85	9785	försoning	försoning försoningen försoningens
+86	9786	transportmedel	transportmedel transportmedlet transportmedlen
+87	9787	ågren	ågren ågrens
+88	9788	humanistisk	humanistisk humanistiskt
+89	9789	löpsedel	löpsedlar löpsedlarna löpsedel löpsedeln
+90	9790	hundägare	hundägare hundägaren hundägarna hundägarnas
+91	9791	kartell	kartellen kartell karteller kartellerna kartellens
+92	9792	estetik	estetik estetiken estetikens
+93	9793	hugaligen	hua huga
+94	9794	glömska	glömska glömskan glömskans
+95	9795	telefoni	telefoni telefonin
+96	9796	genomlida	genomlida genomlidit genomled genomlider
+97	9797	tillfångata	tillfångatogs tillfångatog tillfångatas tillfångata tillfångatagits tillfångatar tillfångatagit tillfångatagandet tillfångatagande
+98	9798	partnerskap	partnerskap partnerskapet
+99	9799	styrelsemöte	styrelsemöte styrelsemötet styrelsemöten
+100	9800	skidskytte	skidskytte skidskyttet

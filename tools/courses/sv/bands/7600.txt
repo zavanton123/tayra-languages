@@ -1,0 +1,100 @@
+1	7501	riskabel	riskabelt riskabel riskabla riskablare
+2	7502	knuff	knuff knuffar knuffen
+3	7503	ärm	ärmarna ärmar ärmen ärm
+4	7504	altan	altan altanen altaner
+5	7505	underrättelsetjänst	underrättelsetjänst underrättelsetjänsten underrättelsetjänster underrättelsetjänstens underrättelsetjänsterna
+6	7506	kramp	kramp kramper krampen kramperna
+7	7507	fastslå	fastslå fastslår fastslog fastslagit fastslaget fastslås fastslagen fastslogs fastslagits fastslagna
+8	7508	flor	florens flor
+9	7509	tarm	tarmen tarmarna tarmar tarm tarmens
+10	7510	jojo	jojo jojos
+11	7511	katedral	katedralen katedral katedraler katedralens katedralerna
+12	7512	häl	häl hälarna hälen hälar
+13	7513	hembesök	hembesök hembesöket
+14	7514	landsförrädare	landsförrädare landsförrädarna landsförrädaren
+15	7515	lim	lim limmet
+16	7516	passning	passning passningar passningen passningarna
+17	7517	tandborste	tandborste tandborsten tandborstar tandborstarna
+18	7518	ämbete	ämbete ämbetet ämbeten ämbetets
+19	7519	massera	massera masserar masserade masserat
+20	7520	broms	broms bromsarna bromsar bromsen
+21	7521	ödmjukhet	ödmjukhet ödmjukheten
+22	7522	bosättning	bosättningar bosättning bosättningen bosättningarna
+23	7523	sabotage	sabotage sabotaget sabotagen
+24	7524	livmoder	livmodern livmoder livmoderns livmödrar
+25	7525	självsäker	självsäker självsäkra självsäkert
+26	7526	orörd	orörd orörda orört
+27	7527	posera	poserar posera poserade poserande poserat
+28	7528	syrier	syrier syrierna syriern
+29	7529	kriminalvård	kriminalvården kriminalvårdens kriminalvård
+30	7530	generalsekreterare	generalsekreterare generalsekreteraren generalsekreterarens
+31	7531	segling	segling seglingen seglingar seglingarna seglings
+32	7532	matsked	msk matsked matskedar
+33	7533	vidga	vidga vidgar vidgade vidgas vidgat vidgades vidgad vidgats vidgande
+34	7534	epitet	epitet epitetet epiteten
+35	7535	förankring	förankring förankringen
+36	7536	snappa	snappat snappa snappar snappade snapp snappas snappades snappats
+37	7537	utövare	utövare utövarna utövaren utövarens
+38	7538	ode	oden odens ode
+39	7539	svinga	svinga svingar svingade svingen svingande svingas svingat
+40	7540	fiol	fiol fiolen fioler fiolerna
+41	7541	presidentval	presidentvalet presidentval
+42	7542	ateljé	ateljé ateljén ateljéer ateljéerna
+43	7543	alert	alert alerta
+44	7544	simhall	simhall simhallen simhallar
+45	7545	svärmor	svärmor svärmors svärmodern svärmödrar
+46	7546	curry	curry curryn currys
+47	7547	ogiltig	ogiltig ogiltigt ogiltiga
+48	7548	harmlös	harmlöst harmlös harmlösa
+49	7549	gray	gray
+50	7550	hbt	hbt
+51	7551	ideologiskt	ideologiskt
+52	7552	ifatt	ifatt
+53	7553	sålunda	sålunda
+54	7554	vilseledande	vilseledande
+55	7555	åsido	åsido
+56	7556	överseende	överseende
+57	7557	förlegad	förlegat förlegade förlegad
+58	7558	behaga	behagar behaga behagade behagat
+59	7559	alg	alger alg algerna algen algers
+60	7560	befrielse	befrielse befrielsen befrielsens
+61	7561	mantel	mantel manteln mantlar
+62	7562	jättetrevlig	jättetrevligt jättetrevlig jättetrevliga
+63	7563	magnetisk	magnetiska magnetisk magnetiskt
+64	7564	asp	asp aspen aspar aspens asps
+65	7565	glänsa	glänsande glänsa glänser glänste gläns
+66	7566	författa	författat författad författade författa författande författar författandet författats författades författas
+67	7567	temporär	temporära temporär
+68	7568	fjant	fjant fjantar fjanten
+69	7569	turnera	turnera turnerat turnerade turnerar turnerande turnerandet
+70	7570	målskytt	målskytt målskyttar målskytten målskyttarna
+71	7571	sluka	slukar sluka slukade slukas slukat slukades slukad
+72	7572	realtid	realtid realtids
+73	7573	förgöra	förgöra förgöras förgör förgjort förgjorde förgörande förgörs
+74	7574	akustisk	akustiska akustisk akustiskt
+75	7575	sto	sto ston stoet stona
+76	7576	ratta	ratten ratta rattar rattat ratte rattade
+77	7577	picknick	picknick picknicken picknickar
+78	7578	pitt	pitt pitts pitten
+79	7579	ve	ve ves
+80	7580	prestanda	prestanda prestandan
+81	7581	parameter	parametrar parameter parametrarna parametern
+82	7582	flygbiljett	flygbiljett flygbiljetter flygbiljetten flygbiljetterna
+83	7583	tut	tut tutar
+84	7584	proffsig	proffsigt proffsig proffsiga proffsigare
+85	7585	klasskompis	klasskompisar klasskompis klasskompisarna
+86	7586	brandpost	bp brandpost brandposter
+87	7587	rus	rus ruset
+88	7588	erotisk	erotiska erotisk erotiskt
+89	7589	tapp	tappar tapp tappet tapparna tappen
+90	7590	domslut	domslut domslutet domsluten
+91	7591	utförligt	utförligt utförligare
+92	7592	rättsstat	rättsstat rättsstaten rättsstatens rättsstater
+93	7593	specialitet	specialitet specialiteter specialité specialiteten specialiteterna
+94	7594	gig	gig giget gigs
+95	7595	rasera	rasera raserar raseras raserat raserade raserades raserad raserats
+96	7596	gränsa	gränsar gränsande gränsen gränsade gränsa
+97	7597	låtskrivare	låtskrivare låtskrivaren låtskrivarna
+98	7598	måleri	måleri måleriet måleriets målerier
+99	7599	por	por porer porerna pors
+100	7600	kommissarie	kommissarie kommissarien kommissarier kommissarierna

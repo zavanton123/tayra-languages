@@ -1,0 +1,100 @@
+1	4801	efterrätt	efterrätt efterrätten efterrätter efterätt efterrätterna
+2	4802	arrangemang	arrangemang arrangemanget arrangemangen
+3	4803	rökning	rökning rökningen rökningens
+4	4804	hördu	hörru hörrö hördu
+5	4805	företräda	företräder företräda företrädde företräds företrätt företrädd företräddes företrädas företrädande företräden
+6	4806	slopa	slopa slopas slopade slopad slopar slope slopades slopat slopandet slopats
+7	4807	dvärg	dvärg dvärgar dvärgarna dvärgen dvärgarnas dvärgens
+8	4808	skåda	skådat skåda skådar skådats skådad skådade skådas
+9	4809	tjänstgöra	tjänstgjorde tjänstgöra tjänstgjort tjänstgör tjänstgörande
+10	4810	gräsmatta	gräsmattan gräsmatta gräsmattor gräsmattorna
+11	4811	bokstavlig	bokstavligt bokstavlig bokstavliga
+12	4812	förståelig	förståeligt förståelig förståeliga
+13	4813	ragga	ragga raggar raggade ragge raggat raggad raggning raggen
+14	4814	plåt	plåt plåtar plåtarna plåten
+15	4815	utskott	utskott utskottet utskotten utskottets utskotts utskottens
+16	4816	handikappad	handikappade handikappad handikappat handikappades
+17	4817	klädsel	klädsel klädseln
+18	4818	elegant	elegant eleganta elegantare elegantaste elegante
+19	4819	psykiatri	psykiatrin psykiatri psykiatrins
+20	4820	klack	klackar klacken klack klackarna
+21	4821	invändning	invändningar invändning invändningen invändningarna
+22	4822	längtan	längtan längtans
+23	4823	osäkerhet	osäkerhet osäkerheten osäkerheter
+24	4824	lera	lera leran leror lerans
+25	4825	drönare	drönare drönaren drönarna
+26	4826	syrisk	syriska syrisk syriskt syriske
+27	4827	svett	svett svetten svetta svettande
+28	4828	slutresultat	slutresultatet slutresultat
+29	4829	läktare	läktaren läktare läktarna
+30	4830	härja	härjar härjade härja härjat härjande härjas härjades härjats härjad
+31	4831	kompani	kompaniet kompani kompaniets kompanier kompanierna
+32	4832	minderårig	minderåriga minderårig minderårige
+33	4833	predika	predika predikar predikade predikat predikas predikande predikatet
+34	4834	bestämmelse	bestämmelser bestämmelserna bestämmelsen bestämmelse bestämmelsens
+35	4835	rebell	rebeller rebellerna rebell rebellen rebellernas
+36	4836	stadion	stadion stadier stadierna stadions
+37	4837	högskoleprov	högskoleprovet högskoleprov
+38	4838	detaljerad	detaljerad detaljerade detaljerat
+39	4839	brista	brast brista brister brustit bristen brusten
+40	4840	import	import importen importerna imports
+41	4841	nåd	nåd nåden nådens nåder nåds
+42	4842	kontant	kontant kontanta
+43	4843	uppbyggd	uppbyggt uppbyggd uppbyggda
+44	4844	etik	etik etiken etikens
+45	4845	reserv	reserv reserver reserven reserverna
+46	4846	löjtnant	löjtnant löjtnanten löjtnanter löjtnants löjtnantens löjtnanterna
+47	4847	streck	streck strecket strecken
+48	4848	besitta	besitter besitta besuttna besuttit
+49	4849	jämte	jämte jemte jämtar jämtarna
+50	4850	insamling	insamling insamlingen insamlingar insamlingarna
+51	4851	involvera	involverar involvera involverade involverat involverande involveras involverades
+52	4852	skörda	skörda skördar skördas skörden skördade skördat skördades skördats skörde skördad
+53	4853	enlighet	enlighet
+54	4854	hell	hell
+55	4855	neråt	neråt
+56	4856	sed	sed seder seden sederna sedernas
+57	4857	höjdare	höjdare höjdarna höjdaren höjdar
+58	4858	nutid	nutid nutiden nutidens
+59	4859	behärska	behärskar behärska behärskade behärskat behärskad behärskas
+60	4860	idrottare	idrottare idrottaren idrottarna
+61	4861	biologi	biologi biologin biologins
+62	4862	livsmedel	livsmedel livsmedels livs livsmedlet livsmedlen
+63	4863	matematisk	matematiska matematisk matematiskt
+64	4864	specialist	specialist specialister specialisterna specialisten specialists
+65	4865	skottlossning	skottlossning skottlossningar skottlossningen skottlossningarna
+66	4866	personnummer	personnummer personnumret personnumren
+67	4867	sedel	sedlar sedel sedlarna sedeln
+68	4868	delägare	delägare delägarna delägaren
+69	4869	toppa	toppa toppade toppat toppar toppad toppas toppades
+70	4870	ingrepp	ingrepp ingreppet ingreppen
+71	4871	utlova	utlovade utlovat utlovas utlovar utlova utlovades utlovats utlovad
+72	4872	krocka	krockade krockar krocka krockat krocken krockad
+73	4873	mobbning	mobbning mobbningen
+74	4874	kognitiv	kognitiv kognitiva kognitivt
+75	4875	skölja	skölja sköljer skölj sköljs sköljde sköljas sköljt sköljdes sköljts
+76	4876	statsråd	statsråd statsrådet statsråden statsrådets statsråds statsrådens
+77	4877	hane	hane hanen hanar hanarna hanens hanes hanarnas
+78	4878	skapelse	skapelse skapelsen skapelser skapelsens
+79	4879	pricka	pricka pricken prickar prickade prickat prickad prickas
+80	4880	sväva	svävar sväva svävande svävade svävat
+81	4881	mikrofon	mikrofon mikrofonen mikrofoner mikrofonerna mikrofonens
+82	4882	indikera	indikerar indikera indikerade indikeras indikerat
+83	4883	mirakel	mirakel miraklet mirakler miraklen
+84	4884	snubbla	snubblade snubblar snubbla snubblat snubblande
+85	4885	empati	empati empatin
+86	4886	parasit	parasiter parasit parasiten parasiterna parasitens
+87	4887	dämpa	dämpa dämpar dämpad dämpade dämpat dämpas dämpande dämpades dämpats
+88	4888	dofta	doftar doften dofta doftande doftade doftat
+89	4889	utlösa	utlösa utlöser utlöste utlösande utlöst utlöses utlöstes utlösas utlösts utlösta
+90	4890	biograf	biograf biografen biografer biograferna biografens
+91	4891	vinkla	vinkla vinklade vinklad vinklar vinklas vinklat
+92	4892	bevakning	bevakning bevakningen bevaknings
+93	4893	envis	envis envisa envist envise envisaste envisare
+94	4894	ståndpunkt	ståndpunkt ståndpunkter ståndpunkten ståndpunkterna
+95	4895	slaveri	slaveri slaveriet slaveriets
+96	4896	verkan	verkan verkningar verkningarna
+97	4897	derby	derby derbyt derbyn derbyna derbys
+98	4898	spis	spisen spis spisar spisarna
+99	4899	tvilling	tvillingar tvillingarna tvilling tvillingarnas tvillingen
+100	4900	kräkas	kräkas kräktes kräks kräkts

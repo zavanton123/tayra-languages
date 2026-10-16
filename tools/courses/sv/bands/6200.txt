@@ -1,0 +1,100 @@
+1	6101	fantisera	fantisera fantiserar fantiserat fantiserade
+2	6102	stygg	stygg stygga styggt stygge styggaste
+3	6103	rival	rival rivaler rivalen rivalerna rivals
+4	6104	återfå	återfå återfått återfår återfick återfås
+5	6105	fix	fix fixar fixt fixen
+6	6106	bedrift	bedrift bedrifter bedriften bedrifterna
+7	6107	konstighet	konstigheter konstighet konstigheterna
+8	6108	arvode	arvode arvoden arvodet
+9	6109	samordna	samordna samordnade samordnas samordnar samordnat samordnad samordnande samordnades
+10	6110	slö	slö slöa slött slöar slöare slöade slöande
+11	6111	nudel	nudlar nudlarna nudel
+12	6112	stjärt	stjärt stjärten stjärtar
+13	6113	kal	kal kala kale kalt
+14	6114	stressig	stressigt stressig stressiga stressigaste stressigare
+15	6115	förbundskapten	förbundskapten förbundskaptenen förbundskaptener
+16	6116	brytning	brytning brytningen brytningar
+17	6117	korn	korn kornet kornen korns
+18	6118	studsa	studsa studsar studsade studsande studsat studsen
+19	6119	sylt	sylt sylten
+20	6120	cirkulera	cirkulerar cirkulera cirkulerade cirkulerat cirkulerande
+21	6121	aktieägare	aktieägare aktieägarna aktieägaren aktieägarnas aktieägares
+22	6122	sensor	sensorer sensor sensorn sensorerna sensorns
+23	6123	fördubbla	fördubblats fördubbla fördubblas fördubblar fördubblades fördubblat fördubblade fördubblad
+24	6124	blodprov	blodprov blodprover blodprovet blodproverna blodproven
+25	6125	porto	porto portot portos
+26	6126	blåmärke	blåmärken blåmärke blåmärket blåmärkena
+27	6127	monter	monter montern montrar montrarna
+28	6128	nationalistisk	nationalistiska nationalistisk nationalistiskt
+29	6129	skivbolag	skivbolag skivbolaget skivbolagen skivbolagets skivbolagens
+30	6130	oförmåga	oförmåga oförmågan
+31	6131	utvärdering	utvärdering utvärderingen utvärderingar utvärderingarna
+32	6132	fiskare	fiskare fiskaren fiskarna fiskares fiskarens fiskarnas
+33	6133	felfri	felfri felfritt felfria
+34	6134	preliminär	preliminära preliminärt preliminär
+35	6135	viga	viga vig vigt viger vigdes vigd vigde vigas vigs vigda
+36	6136	kraftverk	kraftverk kraftverket kraftverken kraftverkets
+37	6137	uppta	upptar upptas uppta upptog upptogs upptag upptagit upptagits upptagande upptaga
+38	6138	skotta	skotta skottar skottarna skotte skottat skotten skottade skottas
+39	6139	hypotes	hypotes hypotesen hypoteser hypoteserna
+40	6140	uppoffring	uppoffringar uppoffring uppoffringen uppoffringarna
+41	6141	risig	risigt risig risiga
+42	6142	oviktig	oviktigt oviktig oviktiga
+43	6143	grind	grinden grind grindar grindarna
+44	6144	samiska	samiska samiskan
+45	6145	legitimera	legitimera legitimerar legitimerad legitimerade legitimeras legitimerat legge
+46	6146	härskare	härskare härskaren härskarna härskarens härskares
+47	6147	vulkan	vulkanen vulkan vulkaner vulkanerna vulkanens
+48	6148	boxare	boxare boxaren boxarna
+49	6149	talan	talan talans
+50	6150	klor	klor kloret
+51	6151	incitament	incitament incitamentet incitamenten
+52	6152	genomslag	genomslag genomslaget
+53	6153	attentat	attentat attentatet attentaten
+54	6154	rutt	rutt route rutter rutterna
+55	6155	pajas	pajas pajasar pajasen pajaser pajasarna
+56	6156	spekulation	spekulationer spekulation spekulationerna spekulationen
+57	6157	strejka	strejkar strejka strejkande strejken strejkade strejkat
+58	6158	skådis	skådis skådisar skådisen skådisarna
+59	6159	göteborgare	göteborgare göteborgarna göteborgaren göteborgarnas
+60	6160	pink	pink pinks
+61	6161	tall	tall tallar tallen tallarna tallens
+62	6162	arrogant	arrogant arroganta arrogante
+63	6163	kår	kåren kår kårens kårer kårerna
+64	6164	giftermål	giftermål giftermålet
+65	6165	instabil	instabil instabila instabilt
+66	6166	docent	docent docenten docenter docenterna
+67	6167	asfalt	asfalt asfalten
+68	6168	deppig	deppig deppigt deppiga deppigaste
+69	6169	koda	koda kodar koden kodade kodat kodas kodad kode kodande kodades
+70	6170	gedigen	gedigen gediget gedigna
+71	6171	zigenare	zigenare zigenarna zigenarnas zigenar zigenaren zigenerska
+72	6172	frånvarande	frånvarande
+73	6173	herrejävlar	herrejävlar
+74	6174	host	host
+75	6175	touch	touch
+76	6176	uppenbar	uppenbar
+77	6177	redogöra	redogöra redogör redogjorde redogjort redogörs
+78	6178	kansli	kansliet kansli kansliets kanslier
+79	6179	skåning	skåningar skåning skåningarna skåningen
+80	6180	upphovsman	upphovsman upphovsmannen upphovsmän upphovsmännen upphovsmannens upphovsmännens
+81	6181	dussin	dussin dussinet
+82	6182	översättare	översättare översättaren översättarna översättarens
+83	6183	ofrivillig	ofrivilligt ofrivillig ofrivilliga ofrivillige
+84	6184	isolering	isolering isoleringen isolerings
+85	6185	tidsperiod	tidsperiod tidsperioden tidsperioder tidsperioderna
+86	6186	behaglig	behaglig behagligt behagliga behagligare
+87	6187	vegansk	vegansk veganska veganskt
+88	6188	sköterska	sköterska sköterskan sköterskor sköterskorna
+89	6189	porta	porta portad porten portade portar portas porte portat portades portats
+90	6190	grundlig	grundligt grundlig grundliga grundligare
+91	6191	utspridd	utspridda utspridd utspritt
+92	6192	valfrihet	valfrihet valfriheten
+93	6193	uppehålla	uppehålla uppehåller uppehöll uppehållit uppehålls uppehållande uppehållas uppehölls uppehållen
+94	6194	solglasögon	solglasögon solglasögonen
+95	6195	utflykt	utflykt utflykter utflykten utflykterna
+96	6196	huvudman	huvudman huvudmän huvudmannen huvudmännen huvudmannens
+97	6197	exportera	exportera exporterar exporteras exporterade exporterat exporterades exporterats
+98	6198	kristall	kristallen kristaller kristall kristallerna kristallens
+99	6199	belasta	belastar belasta belastas belastade belastad belastat belastande
+100	6200	bark	bark barker barken barks barkar barkers

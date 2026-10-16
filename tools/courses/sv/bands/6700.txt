@@ -1,0 +1,100 @@
+1	6601	styrelseledamot	styrelseledamot styrelseledamöter styrelseledamöterna styrelseledamoten
+2	6602	skadegörelse	skadegörelse skadegörelsen
+3	6603	gynnsam	gynnsamt gynnsamma gynnsam gynnsammare
+4	6604	kaliber	kaliber kalibern kalibers kalibrar
+5	6605	frakta	frakta fraktas fraktar frakten fraktade fraktades fraktat fraktats
+6	6606	ögonkontakt	ögonkontakt ögonkontakten
+7	6607	höns	höns hönsen hönset
+8	6608	sympatisk	sympatisk sympatiska sympatiskt sympatiske
+9	6609	ensidig	ensidigt ensidig ensidiga
+10	6610	överklass	överklassen överklass överklassens
+11	6611	misstro	misstro misstror misstroende misstron misstrodde misstrodd misstroendet misstros misstrodda
+12	6612	njure	njure njurarna njurar njur njuren njurens njurarnas
+13	6613	tillförlitlig	tillförlitlig tillförlitliga tillförlitligt tillförlitligare
+14	6614	inkomstskatt	inkomstskatt inkomstskatten inkomstskatter
+15	6615	pulver	pulver pulvret
+16	6616	pyjamas	pyjamas pyjamasen pyjamasar pyjamaser
+17	6617	förbruka	förbrukar förbrukat förbrukas förbruka förbrukade förbrukats förbrukades förbrukare
+18	6618	dramatik	dramatik dramatiken
+19	6619	millimeter	millimeter millimeters millimetern millimetrar
+20	6620	ritual	ritualer ritual ritualen ritualerna rituals
+21	6621	totalitär	totalitära totalitär totalitärt
+22	6622	signalement	signalement signalementet signalementen
+23	6623	jätteglad	jätteglad jätteglada
+24	6624	babbla	babblar babbla babblade babblat babblande
+25	6625	flora	flora floran floras
+26	6626	härda	härda härdat härdar härdade härdad härden härdas härdats härdande
+27	6627	vattna	vattna vattnar vattnas vattnade vattnat vattnad vattnen vattnens
+28	6628	kompatibel	kompatibla kompatibel kompatibelt
+29	6629	partiprogram	partiprogram partiprogrammet
+30	6630	bäcken	bäcken bäckenet bäckens
+31	6631	procentenhet	procentenheter procentenhet procentenheters
+32	6632	alliera	allierade allierades allierat alliera allierar
+33	6633	töntigt	töntigt töntigare
+34	6634	krasch	krasch kraschen krascher krascherna
+35	6635	adel	adeln adel adelns adels
+36	6636	gnällig	gnällig gnälliga gnälligt gnälligare
+37	6637	tilltro	tilltro tilltron
+38	6638	tjat	tjat tjatet
+39	6639	paraply	paraply paraplyer paraplyet paraplyn paraplyerna
+40	6640	regnig	regnig regnigt regniga regnigaste
+41	6641	motsätta	motsätter motsätta motsatte
+42	6642	strul	strul strulet
+43	6643	välstånd	välstånd välståndet
+44	6644	ört	örter ört örterna örten
+45	6645	krut	krut krutet
+46	6646	otrygghet	otrygghet otryggheten
+47	6647	övertag	övertag övertaget
+48	6648	muffins	muffins muffinsen
+49	6649	stabilisera	stabilisera stabiliseras stabiliserar stabiliserats stabiliserat stabiliserad stabiliserade stabiliserande stabiliserades
+50	6650	ordval	ordval ordvalet ordvalen
+51	6651	inflytelserik	inflytelserika inflytelserik inflytelserikt inflytelserike
+52	6652	logistik	logistik logistiken
+53	6653	mittfältare	mittfältare mittfältaren mittfältarna
+54	6654	näthat	näthat näthatet
+55	6655	överkörd	överkörd överkörda överkört
+56	6656	förföljelse	förföljelse förföljelsen förföljelser förföljelserna
+57	6657	belägga	belagt belagd belägga beläggas belagts belägger belades belade beläggen beläggs
+58	6658	sammansatt	sammansatt sammansatta
+59	6659	egoistisk	egoistiska egoistisk egoistiskt
+60	6660	förgäves	förgäves
+61	6661	gara	gar
+62	6662	gisslan	gisslan
+63	6663	sydöstra	sydöstra
+64	6664	utefter	utefter
+65	6665	tillfällighet	tillfällighet tillfälligheter tillfälligheternas
+66	6666	tripp	tripp trippen trippar tripper tripps
+67	6667	olympisk	olympiska olympisk olympiskt olympiske
+68	6668	introduktion	introduktion introduktionen introduktioner introduktions
+69	6669	specificera	specificera specificeras specificerade specificerar specificerat specificerad specificerades
+70	6670	måne	måne månar månen månarna månens
+71	6671	skör	skör sköra skört skörare
+72	6672	kana	kane kana kanan kans kanade kanar
+73	6673	kurator	kurator kuratorer kuratorn
+74	6674	förakta	föraktar förakta föraktade föraktad föraktat föraktas
+75	6675	förlägga	förlagt förlagd förlägga förläggas förlagda förlades förlägger förläggs förlade förlagts
+76	6676	kompass	kompass kompassen kompasser
+77	6677	flinga	flingor flingorna flinga flingan
+78	6678	federation	federationen federation federationens federations federationer
+79	6679	beslag	beslag beslaget beslagen
+80	6680	patriarkal	patriarkala patriarkal patriarkalt
+81	6681	borttagen	borttagen borttagna borttaget
+82	6682	förvärv	förvärv förvärvet förvärven
+83	6683	utebli	uteblir uteblev uteblivit utebli uteblivande
+84	6684	medial	mediala medial medialt
+85	6685	kostnadsfri	kostnadsfritt kostnadsfria kostnadsfri
+86	6686	tröskel	tröskeln tröskel trösklar trösklarna
+87	6687	födelsedagspresent	födelsedagspresent födelsedagspresenten födelsedagspresenter
+88	6688	tupp	tuppen tupp tuppar tupparna tuppens
+89	6689	onormal	onormalt onormal onormala
+90	6690	beskylla	beskylla beskyller beskylls beskyllde beskylld beskyllas beskylldes beskyllt beskyllts beskyllda
+91	6691	brorson	brorson brorsonen brorsöner brorsons
+92	6692	kolumn	kolumn kolumnen kolumner kolumnerna
+93	6693	dona	done dona donat donar donen
+94	6694	onanera	onanera onanerar onanerade onanerat onanerande
+95	6695	prioritering	prioritering prioriteringen prioriteringarna
+96	6696	avsändare	avsändare avsändaren avsändarens avsändarna
+97	6697	syntetisk	syntetiska syntetiskt syntetisk
+98	6698	utelämna	utelämnar utelämna utelämnade utelämnas utelämnat utelämnad utelämnats utelämnande utelämnades
+99	6699	avliva	avliva avlivas avlivar avlivade avlivad avlivades avlivat avlivats
+100	6700	orkan	orkanen orkan orkaner orkanens orkanerna

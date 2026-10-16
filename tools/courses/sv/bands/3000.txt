@@ -1,0 +1,100 @@
+1	2901	klokt	klokt
+2	2902	minus	minus
+3	2903	norrut	norrut
+4	2904	tillämpa	tillämpas tillämpa tillämpar tillämpad tillämpade tillämpat tillämpats tillämpades tillämpandet
+5	2905	element	element elementen elementet elements elementens
+6	2906	termin	termin terminen terminer terminens terminerna termins
+7	2907	häck	häcken häck häckar häckens häckarna
+8	2908	grundskola	grundskolan grundskola grundskolor grundskolans grundskole grundskolorna
+9	2909	socialdemokratisk	socialdemokratiska socialdemokratisk socialdemokratiskt socialdemokratiske
+10	2910	tränga	tränga tränger trängas trängde trängs trängt trängd trängdes trängande trängda
+11	2911	muskel	muskler musklerna muskel muskeln muskelns musklernas
+12	2912	orange	orange orangea oranga oranget
+13	2913	anstränga	anstränga anstränger ansträngt ansträngande ansträngd ansträngde ansträngda ansträng
+14	2914	forma	forma formade formas formad formen formades formats formar formandet forme
+15	2915	såra	sårad såra sårade sårar sårat såren sårades sårande sårats såras
+16	2916	cola	cola colan
+17	2917	kval	kval kvalet kvalen kvalets
+18	2918	reporter	reporter reportern reportrar reportrarna reporterns reporters
+19	2919	psykolog	psykolog psykologer psykologen psykologerna psykologens
+20	2920	omöjlig	omöjlig omöjliga
+21	2921	akademi	akademin akademien akademi akademiens akademins akademier akademis akademierna
+22	2922	bollklubb	bk bollklubben bollklubb
+23	2923	kula	kula kulor kulan kulorna kulans kulas
+24	2924	arv	arv arvet arvs arf arven
+25	2925	slutspel	slutspel slutspelet slutspelets slutspelen
+26	2926	reform	reformer reform reformen reformerna reformens
+27	2927	stall	stallet stall stallen stallets stallarna stalls
+28	2928	akt	akt akter akten aktern akterna aktens
+29	2929	massiv	massiv massiva massivt massive massivet
+30	2930	bägge	bägge bägges
+31	2931	bulle	bullar bulle bullen bullarna bullens
+32	2932	yttra	yttra yttrar yttrande yttranden yttrade yttrat yttras yttrandet yttrats yttrades
+33	2933	dryck	dryck drycker drycken dryckerna dryckens
+34	2934	länsstyrelse	länsstyrelsen länsstyrelserna länsstyrelsens länsstyrelser länsstyrelse länsstyrelsernas
+35	2935	inbrott	inbrott inbrottet inbrotten inbrotts
+36	2936	kafé	café kafé kaféet kaféer kafét kaféerna
+37	2937	geni	geni genier geniet genierna genis
+38	2938	dramatisk	dramatiskt dramatiska dramatisk
+39	2939	dessvärre	dessvärre
+40	2940	efterfrågan	efterfrågan
+41	2941	gentemot	gentemot
+42	2942	småningom	småningom
+43	2943	strålande	strålande
+44	2944	vänligen	vänligen
+45	2945	utforma	utformade utformad utformat utforma utformas utformades utformar utformats utformandet utformande
+46	2946	apa	apa apor apan aporna apornas ape apans apar apas apors
+47	2947	nöt	nötter nöt nötterna nöten nöts
+48	2948	företagare	företagare företagarna företagaren företagarnas
+49	2949	väntan	väntan väntans
+50	2950	baksida	baksidan baksida baksidor baksidorna
+51	2951	last	last lasten laster lasterna lastens lasts
+52	2952	hemland	hemland hemlandet hemländer hemlands hemlandets hemländerna
+53	2953	programledare	programledare programledaren programledarna programledarens
+54	2954	plast	plast plasten plaster plasterna
+55	2955	konversation	konversation konversationen konversationer konversationerna konversations
+56	2956	inställa	inställd inställt inställa inställer inställde inställas inställdes inställ
+57	2957	reta	reta retar retas retat retade retad retades retande
+58	2958	ambulans	ambulans ambulansen ambulanser ambulanserna ambulansens
+59	2959	försörja	försörja försörjer försörjde försörjas försörjd försörjt försörjs försörjare
+60	2960	penna	penna pennan pennor pennorna penns pennans
+61	2961	semifinal	semifinal semi semifinalen semifinalerna semifinaler semifinalens
+62	2962	tveka	tveka tvekar tvekade tvekat tvekande
+63	2963	ekologisk	ekologiskt ekologisk ekologiska
+64	2964	recension	recension recensioner recensionen recensionerna
+65	2965	strumpa	strumpor strumporna strumpa strumpan strump
+66	2966	syskon	syskon syskonen syskonens syskonet syskons
+67	2967	soppa	soppa soppan soppor sopporna
+68	2968	finsk	finsk finskt finske
+69	2969	cyklist	cyklister cyklist cyklisterna cyklisten cyklisters cyklistens cyklisternas
+70	2970	stadsdel	stadsdel stadsdelen stadsdelar stadsdelarna stadsdelens stadsdelarnas
+71	2971	oliv	oliver olivers oliv oliverna oliven
+72	2972	argumentera	argumentera argumenterar argumenterade argumenterande argumenterat argumenteras
+73	2973	sällsynt	sällsynt sällsynta sällsyntare
+74	2974	förlag	förlag förlaget förlagets förlags förlagen förlagens
+75	2975	vision	vision visioner visionen visions visionerna
+76	2976	läkemedel	läkemedel läkemedlet läkemedlen läkemedels läkemedlets
+77	2977	anda	anda andan andans
+78	2978	kissa	kissa kissar kissade kissat kisse kissen kisses kissande kissandet
+79	2979	zon	zon zoner zonen zonerna zonens
+80	2980	stolthet	stolthet stoltheten
+81	2981	firma	firma firman firmor firmans firmorna
+82	2982	tjata	tjata tjatar tjatat tjatade tjatande tjatas
+83	2983	flyta	flyter flyta flöt flutit flötet flöte flyte flöten
+84	2984	grepp	grepp greppet greppen
+85	2985	plattform	plattform plattformar plattformen plattformarna plattformens plattforms
+86	2986	gas	gas gasen gaser gaserna gasens gass
+87	2987	tingsrätt	tingsrätten tingsrätt tingsrättens tingsrätts tingsrätter tingsrätterna
+88	2988	leverans	leverans leveransen leveranser leveranserna
+89	2989	vänskap	vänskap vänskapen vänskaper vänskaps vänskapens
+90	2990	producent	producent producenter producenten producenterna producentens producenternas
+91	2991	aj	aj
+92	2992	godnatt	godnatt
+93	2993	likaså	likaså
+94	2994	regelbundet	regelbundet
+95	2995	snett	snett
+96	2996	udda	udda
+97	2997	utomhus	utomhus
+98	2998	återkommande	återkommande
+99	2999	fortsättning	fortsättning fortsättningen forts fortsättningar
+100	3000	gitarr	gitarr gitarren gitarrer gitarrerna gitarrens

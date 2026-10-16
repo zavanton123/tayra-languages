@@ -1,0 +1,100 @@
+1	6801	töntig	töntig töntiga töntigaste töntigare
+2	6802	hämnas	hämnas hämnades hämnats
+3	6803	joker	joker jokern jokrar jokerns jokers jokrarna
+4	6804	julgran	julgran julgranen julgranar
+5	6805	kvala	kvala kvalar kvalade kvalat kvalen
+6	6806	vägledning	vägledning vägledningen vägledningar
+7	6807	bokföring	bokföring bokföringen bokförings
+8	6808	palestinier	palestinier palestinierna palestiniernas
+9	6809	rabattkod	rabattkoder rabattkod rabattkoden
+10	6810	immunförsvar	immunförsvar immunförsvaret immunförsvarets
+11	6811	koncentrationsläger	koncentrationsläger koncentrationslägren koncentrationslägret
+12	6812	skylta	skylta skyltat skylten skyltar skyltade skyltad skyltas
+13	6813	trådlös	trådlöst trådlösa trådlös
+14	6814	biografi	biografi biografier biografin biografierna
+15	6815	förgylla	förgyller förgylla förgyllt förgyllde förgylld förgylldes
+16	6816	exkludera	exkluderande exkluderar exkluderade exkludera exkluderas exkluderat exkluderad exkluderades exkluderats
+17	6817	sexistisk	sexistiska sexistiskt sexistisk
+18	6818	påtryckning	påtryckningar påtryckning påtryckningarna
+19	6819	lilja	lilja liljor liljan liljas liljorna
+20	6820	autograf	autograf autografer autografen
+21	6821	snoka	snokar snoka snoken snokade snokat snokande snoke
+22	6822	vallöfte	vallöften vallöfte vallöftet vallöftena
+23	6823	ikon	ikon ikonen ikoner ikonerna
+24	6824	fredagskväll	fredagskväll fredagskvällen fredagskvällar fredagskvällarna
+25	6825	bevisligen	bevisligen
+26	6826	fjärran	fjärran
+27	6827	förmodan	förmodan
+28	6828	hysteriskt	hysteriskt
+29	6829	jfr	jfr
+30	6830	madame	madame
+31	6831	papp	papp
+32	6832	poppis	poppis
+33	6833	rumänska	rumänska
+34	6834	sydvästra	sydvästra
+35	6835	svullna	svullna svullnaden svullnad svullnar svullnader svullnat svullnade
+36	6836	gränskontroll	gränskontroller gränskontrollerna gränskontroll gränskontrollen
+37	6837	alexi	alexis alexi
+38	6838	överlycklig	överlycklig överlyckliga
+39	6839	majestät	majestät majestäts majestätet
+40	6840	adjö	adjö ajöss ajö
+41	6841	landsväg	landsväg landsvägen landsvägar landsvägarna
+42	6842	kalv	kalv kalven kalvar kalvarna kalf kalvs
+43	6843	gymnastik	gymnastik gymnastiken gymnastikens
+44	6844	svåger	svåger svågern svågers svågrar svågerns
+45	6845	förkasta	förkasta förkastar förkastade förkastas förkastat förkastades förkastats förkastande förkastad förkastandet
+46	6846	ombyggnad	ombyggnad ombyggnaden ombyggnader
+47	6847	cider	cider cidern
+48	6848	maskerad	maskerad maskeraden maskerader
+49	6849	lakrits	lakrits lakritsen
+50	6850	koordinat	koordinater koordinaterna koordinat koordinaten
+51	6851	fana	fana fanan fanor fanorna fanans
+52	6852	skyhög	skyhöga skyhög skyhögt
+53	6853	avboka	avboka avbokade avbokar avbokat avbokad
+54	6854	välfärdsstat	välfärdsstaten välfärdsstat välfärdsstatens välfärdsstater
+55	6855	broschyr	broschyren broschyr broschyrer broschyrerna
+56	6856	monark	monarken monark monarker monarkens monarkerna monarks
+57	6857	vattenkraft	vattenkraft vattenkraften vattenkraftens
+58	6858	kroppsdel	kroppsdelar kroppsdel kroppsdelarna kroppsdelen
+59	6859	hemmafru	hemmafru hemmafruar hemmafrun hemmafruarna
+60	6860	spanjor	spanjorerna spanjorer spanjor spanjoren spanjorernas spanjorska spanjorskan
+61	6861	relevans	relevans relevansen
+62	6862	ointresserad	ointresserad ointresserade
+63	6863	dunka	dunka dunkar dunkade dunken dunkande dunkat
+64	6864	anhållen	anhållen anhållna anhållne
+65	6865	skogsbruk	skogsbruk skogsbruket skogsbrukets
+66	6866	molekyl	molekyler molekyl molekylerna molekylen molekylens molekylernas molekylers
+67	6867	ånger	ånger ångern
+68	6868	kanna	kanna kannan kann kannor kanns kannorna
+69	6869	förrädare	förrädare förrädaren förrädarna
+70	6870	flak	flak flaket flaken
+71	6871	gnagare	gnagare gnagaren gnagarna
+72	6872	digga	diggar digga diggade
+73	6873	affärsidé	affärsidé affärsidéer affärsidén
+74	6874	gruppering	grupperingar gruppering grupperingen grupperingarna
+75	6875	girighet	girighet girigheten girighetens
+76	6876	härma	härma härmar härmade härmas härmande härmat
+77	6877	radie	radie radien radier
+78	6878	polisstation	polisstation polisstationen polisstationer
+79	6879	soptunna	soptunnan soptunna soptunnor soptunnorna
+80	6880	optimistisk	optimistisk optimistiska optimistiskt
+81	6881	utebliven	utebliven uteblivna uteblivet
+82	6882	barnvagn	barnvagn barnvagnen barnvagnar
+83	6883	undertecknad	undertecknad undertecknade undertecknades
+84	6884	stråle	strålar stråle strålen strålarna strålens
+85	6885	kanel	kanel kanelen
+86	6886	somaliska	somaliska somalisk somaliskt
+87	6887	snigel	snigel sniglar snigeln sniglarna
+88	6888	nyliberal	nyliberala nyliberal nyliberaler nyliberalt nyliberalerna
+89	6889	lok	lok loket loken lokets
+90	6890	skoldag	skoldag skoldagen skoldagar skoldagarna
+91	6891	mätare	mätare mätaren mätarna
+92	6892	koreanska	koreanska koreanskan
+93	6893	bearbetning	bearbetning bearbetningen bearbetningar
+94	6894	uppfostran	uppfostran uppfostrans
+95	6895	ordspråk	ordspråk ordspråket ordspråken
+96	6896	gentleman	gentleman gentlemän gentlemannen gentlemans
+97	6897	amiral	amiral amiralen amiraler amiralens
+98	6898	övernaturlig	övernaturliga övernaturligt övernaturlig
+99	6899	dyrka	dyrka dyrkar dyrkade dyrkas dyrkad dyrkande dyrkades dyrkat
+100	6900	sanktion	sanktioner sanktionerna sanktion sanktionen

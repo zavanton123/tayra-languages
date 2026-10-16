@@ -1,0 +1,100 @@
+1	6701	bås	båset bås båsen
+2	6702	grinig	grinig griniga grinigt grinigare
+3	6703	distribuera	distribuera distribueras distribuerar distribuerade distribuerad distribuerat distribuerades distribuerats
+4	6704	papperskorg	papperskorgen papperskorg papperskorgar papperskorgarna
+5	6705	sjukskrivning	sjukskrivning sjukskrivningar sjukskrivningen sjukskrivningarna
+6	6706	likställa	likställa likställer likställas likställs likställt likställd likställde
+7	6707	läsvärd	läsvärd läsvärt läsvärda
+8	6708	nalle	nalle nallar nallen nalles nallarna
+9	6709	madrass	madrass madrassen madrasser madrasserna
+10	6710	mula	mulet mula mulen mule mulan mulor mular mulade mulnar
+11	6711	oslagbar	oslagbar oslagbart oslagbara
+12	6712	inkompetens	inkompetens inkompetensen
+13	6713	rollspel	rollspel rollspelet rollspelen
+14	6714	utomordentlig	utomordentligt utomordentlig utomordentliga
+15	6715	kastrull	kastrull kastrullen kastruller kastrullerna
+16	6716	paradox	paradox paradoxen paradoxer
+17	6717	fackförening	fackföreningar fackförening fackföreningarna fackföreningen fackföreningarnas fackföreningens fackförenings
+18	6718	påföljd	påföljd påföljden påföljder påföljderna
+19	6719	bly	bly blyet
+20	6720	gap	gap gapet gaps
+21	6721	gena	gene gena genar genen genade genat
+22	6722	tillbehör	tillbehör tillbehören tillbehöret
+23	6723	vävnad	vävnad vävnaden vävnader vävnaderna vävnads
+24	6724	flamma	flamman flammande flam flamma flammor flammar flammorna flammade flammans
+25	6725	overklig	overkligt overklig overkliga
+26	6726	bard	bard barden bards barder barderna
+27	6727	fusion	fusion fusionen fusioner fusions
+28	6728	cykelbana	cykelbanan cykelbana cykelbanor cykelbanorna
+29	6729	befara	befarar befarade befaras befarat befara befarad befarades
+30	6730	antisemitisk	antisemitiska antisemitiskt antisemitisk
+31	6731	rådjur	rådjur rådjuret rådjuren
+32	6732	ämnad	ämnade ämnad ämnat
+33	6733	distribution	distribution distributionen distributioner distributions
+34	6734	harmoni	harmoni harmonin harmonier harmonierna harmonins
+35	6735	blomstra	blomstra blomstrande blomstrar blomstrade blomstrat blomstren
+36	6736	förfarande	förfarande förfarandet förfaranden
+37	6737	latinsk	latinska latinsk latinskt
+38	6738	kungahus	kungahuset kungahus kungahusets kungahusen
+39	6739	impuls	impulser impuls impulsen impulserna
+40	6740	kuliss	kulisserna kuliss kulisser kulissen
+41	6741	övervåning	övervåningen övervåning övervåningens
+42	6742	russin	russin russinen russinet
+43	6743	välutbildad	välutbildade välutbildad välutbildat
+44	6744	hjärtlig	hjärtligt hjärtliga hjärtlig
+45	6745	uppståndelse	uppståndelse uppståndelsen uppståndelsens
+46	6746	behållare	behållare behållaren behållarna behållarens
+47	6747	restriktion	restriktioner restriktionerna restriktion restriktionen
+48	6748	redogörelse	redogörelse redogörelser redogörelsen redogörelserna
+49	6749	sammanhängande	sammanhängande
+50	6750	skitsamma	skitsamma
+51	6751	kräfta	kräftor kräfta kräftorna kräftan kräftans
+52	6752	deckare	deckare deckaren deckarna deckar
+53	6753	hytt	hytt hytten hytter hytterna
+54	6754	stup	stup stupet
+55	6755	expertis	expertis expertisen
+56	6756	efterträdare	efterträdare efterträdaren efterträdares
+57	6757	fotbollslag	fotbollslag fotbollslaget fotbollslagen
+58	6758	deadline	deadline deadlines deadlinen
+59	6759	utlopp	utlopp utloppet utloppen
+60	6760	skattehöjning	skattehöjningar skattehöjning skattehöjningen skattehöjningarna
+61	6761	fängelsestraff	fängelsestraff fängelsestraffet fängelsestraffen
+62	6762	ärkebiskop	ärkebiskopen ärkebiskop ärkebiskopens ärkebiskopar
+63	6763	valdeltagande	valdeltagandet valdeltagande
+64	6764	humoristisk	humoristiskt humoristisk humoristiska
+65	6765	talesperson	talesperson talespersoner talespersonen
+66	6766	framhäva	framhäva framhäver framhävs framhävde framhäv framhävas framhävt framhävande framhävdes
+67	6767	hybrid	hybrid hybrider hybriden hybrida hybriderna
+68	6768	massmedium	massmedia massmedier massmedias massmedierna
+69	6769	formulär	formulär formuläret formulären
+70	6770	nasse	nasse nassar nassarna nassen nasses
+71	6771	urin	urin urinen
+72	6772	splittring	splittring splittringen splittringar
+73	6773	förstora	förstora förstorar förstorade förstorad förstorat förstoras förstorats förstorades
+74	6774	avskum	avskum avskummet
+75	6775	godtycklig	godtyckligt godtyckliga godtycklig
+76	6776	funktionell	funktionella funktionell funktionellt
+77	6777	utsatthet	utsatthet utsattheten
+78	6778	generalisera	generalisera generaliserande generaliserar generaliserade generaliserat generaliseras generaliserad
+79	6779	redig	redig redigt rediga
+80	6780	beväpna	beväpnade beväpna beväpnar beväpnat beväpnas
+81	6781	nolltolerans	nolltolerans nolltoleransen
+82	6782	arbetskamrat	arbetskamrater arbetskamrat arbetskamraterna arbetskamraten
+83	6783	handledare	handledare handledaren handledarna
+84	6784	utskriven	utskriven utskrivet utskrivna
+85	6785	sevärdhet	sevärdheter sevärdheterna sevärdhet sevärdheten
+86	6786	spann	spann spänner spannet spannen
+87	6787	bov	boven bov bovarna bovar
+88	6788	ynka	ynka ynk
+89	6789	rim	rim rimmet rimmen
+90	6790	ovetande	ovetande ovetandes
+91	6791	fyr	fyr fyrarna fyrens fyren fyrar
+92	6792	komplikation	komplikationer komplikation komplikationerna komplikationen
+93	6793	bag	bag bagen bags bagar bagarna
+94	6794	pervers	perversa pervers perverst perverse
+95	6795	loppis	loppis loppisar loppisen
+96	6796	fanskap	fanskapet fanskap fanskapen
+97	6797	träningspass	träningspass träningspasset
+98	6798	mellanmål	mellanmål mellis mellanmålet
+99	6799	bamse	bamse bamses bamsen
+100	6800	regnbåge	regnbåge regnbågen regnbågar regnbågens

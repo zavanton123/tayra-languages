@@ -1,0 +1,100 @@
+1	2701	efternamn	efternamn efternamnet efternamnen
+2	2702	fransk	fransk franskt franske
+3	2703	målning	målning målningar målningen målningarna målningens
+4	2704	broder	broder bröderna bröder brodern brödernas broderns broders bröders
+5	2705	tavla	tavlan tavla tavlor tavlorna tavlans tavel
+6	2706	medföra	medför medföra medförde medfört medföras medförande
+7	2707	tokig	tokig tokigt tokiga tokigare tokigaste tokige
+8	2708	kap	kap kapet kapen
+9	2709	anhörig	anhöriga anhörig anhörigas anhörige anhörigs
+10	2710	uppgå	uppgick uppgår uppgå uppgången uppgått uppgående
+11	2711	rån	rån rånet rånen
+12	2712	kunglig	kungliga kungligt kunglig konglig kunglige
+13	2713	ingenstans	ingenstans
+14	2714	irriterande	irriterande
+15	2715	nuförtiden	nuförtiden
+16	2716	oklart	oklart
+17	2717	pr	pr
+18	2718	still	still
+19	2719	kamrat	kamrater kamrat kamraterna kamraten kamraters kamraternas kamrats
+20	2720	svälja	svälja sväljer svalt svalde svälj svalget svalg sväljs sväljas
+21	2721	stirra	stirrar stirra stirrade stirrat stirrande stirrandes
+22	2722	aspekt	aspekter aspekt aspekten aspekterna
+23	2723	misshandel	misshandel misshandeln
+24	2724	toa	toa toan orna ornas
+25	2725	snurra	snurrar snurra snurrade snurrat snurrande snurren snurre snurran snurror snurras
+26	2726	major	major majoren majors majorens majorn majorer
+27	2727	skepp	skepp skeppet skeppen skeppets skepps skeppens
+28	2728	våldsam	våldsamma våldsam våldsammare våldsammaste våldsamme
+29	2729	krets	kretsar krets kretsen kretsarna kretsens
+30	2730	otur	otur oturen oturs
+31	2731	däck	däck däcken däcket däckets däckens däcks
+32	2732	fp	fp fps
+33	2733	underlätta	underlätta underlättar underlättat underlättade underlättas underlättades underlättande underlättats
+34	2734	grand	grand grands grandet
+35	2735	blad	blad bladen bladet bladens bladets blads
+36	2736	rättegång	rättegång rättegången rättegångar rättegångarna rättegångens rättegångs
+37	2737	framställa	framställa framställs framställer framställt framställas framställd framställdes framställde framställts framställandet
+38	2738	inriktning	inriktning inriktningar inriktningen inriktningarna
+39	2739	vinkel	vinkel vinklar vinkeln vinklarna
+40	2740	överenskommelse	överenskommelse överenskommelsen överenskommelser överenskommelserna
+41	2741	avancerad	avancerade avancerad avancerat
+42	2742	glädja	glädjande glädja glädjas gläder gläds glädjer gladde gläd gladdes
+43	2743	huvudsak	huvudsak huvudsaken
+44	2744	komplex	komplex komplexa komplext komplexet komplexare komplexen
+45	2745	golf	golf golfen golfens
+46	2746	avundsjuk	avundsjuk avundsjuka avundsjukan avundsjukt
+47	2747	förmedla	förmedla förmedlar förmedlas förmedlade förmedlat förmedlades förmedlats förmedlande förmedlad
+48	2748	bakåt	bakåt
+49	2749	hyfsat	hyfsat
+50	2750	ombord	ombord
+51	2751	ordinarie	ordinarie
+52	2752	oväntat	oväntat
+53	2753	event	event events eventet eventen
+54	2754	sträva	strävar sträva strävan strävat strävade strävanden strävande strävandena strävandet strävare
+55	2755	installera	installera installerat installerade installerar installeras installerad installerades installerats
+56	2756	nöja	nöja nöjer nöjen nöjes nöj nöjt nöjde nöjas
+57	2757	ilska	ilska ilskan
+58	2758	feber	feber febern
+59	2759	åstadkomma	åstadkomma åstadkommit åstadkommer åstadkom åstadkommas åstadkoms åstadkommits åstadkommande åstadkommes åstadkommanden
+60	2760	moln	moln molnen molnet molnens molnets
+61	2761	pipa	piper pipa pip pepe pep peps pipor pipe pipet pipande
+62	2762	sändning	sändning sändningen sändningar sändningarna sändnings
+63	2763	torn	tornet torn tornen tornets torns tornar tornens
+64	2764	blond	blond blonda blont blonde blondare
+65	2765	häva	hovet häva hov hovar häver hävd hof hoven häv hovets
+66	2766	dialog	dialog dialogen dialoger dialogerna dialogens
+67	2767	spontan	spontant spontan spontana spontanare
+68	2768	gött	gött gôtt
+69	2769	ty	ty tyr tydde tytt
+70	2770	skjorta	skjorta skjortan skjortor skjortorna skjort
+71	2771	legend	legend legenden legender legends legenderna legendernas legendens
+72	2772	konkurs	konkurs kk konkursen konkurser
+73	2773	dominera	dominerar domineras dominerade dominera dominerat dominerad dominerades dominerats
+74	2774	kommunicera	kommunicera kommunicerar kommunicerade kommuniceras kommunicerat kommunicerande
+75	2775	medge	medge medger medgivande medges medgav medgett medgivit medgivanden medgavs medgivandet
+76	2776	svälta	svälter svälta svält svalt svältande svälten svultit svälte svulten svultna
+77	2777	knäcka	knäcka knäckt knäcker knäck knäckte knäcks knäckas knäcken knäcktes knäckta
+78	2778	tok	tok token tokar toka tokens tokarna
+79	2779	brutal	brutalt brutal brutala brutalare brutalaste brutale
+80	2780	fysik	fysik fysiken fysikens
+81	2781	huvudvärk	huvudvärk huvudvärken
+82	2782	extern	externa extern externt
+83	2783	isolera	isolerade isolera isolerad isolerat isolerar isoleras isolerande isolerats isolerades
+84	2784	heja	heja hejar hejade hejat
+85	2785	smäll	smäll smällen smällar smällarna smälls
+86	2786	drake	drake draken drakar drakarna drakens drakes drak drakarnas
+87	2787	bortom	bortom
+88	2788	enstaka	enstaka
+89	2789	huruvida	huruvida
+90	2790	inatt	inatt
+91	2791	mestadels	mestadels
+92	2792	smått	smått
+93	2793	synnerhet	synnerhet
+94	2794	tragiskt	tragiskt
+95	2795	jättefin	jättefin jättefint jättefina
+96	2796	skippa	skippa skippar skippade skippat skippas
+97	2797	kedja	kedja kedjan kedjor kedjorna kedjans kedjade kedje kedjas kedjad kedjar
+98	2798	bränsle	bränsle bränslen bränslet bränslets bränslena
+99	2799	brottslighet	brottslighet brottsligheten brottslighetens
+100	2800	bege	begav bege beger begett begivit begiven

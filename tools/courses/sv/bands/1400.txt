@@ -1,0 +1,100 @@
+1	1301	allmänhet	allmänheten allmänhet allmänhetens
+2	1302	förbannad	förbannad förbannat förbannade förbenade förbenat
+3	1303	välfärd	välfärden välfärd välfärdens välfärds
+4	1304	analys	analys analyser analysen analyserna analysens
+5	1305	förrän	förrän förrens förräns förrns förrn
+6	1306	fruktansvärd	fruktansvärt fruktansvärd fruktansvärda fruktansvärde
+7	1307	lögn	lögn lögner lögnen lögnerna lögnens
+8	1308	mörk	mörkt mörk mörkare mörkaste mörkast mörke
+9	1309	material	material materialet materialen materials materialets materialens
+10	1310	strand	stranden strand stränder stränderna strands strandens strändernas
+11	1311	ryska	ryska ryskan ryskor ryskorna
+12	1312	biljett	biljetter biljett biljetterna biljetten
+13	1313	låtsas	låtsas låtsades låtsats
+14	1314	simma	sam simma simmar sim sims simmade sams summit simmat simmande
+15	1315	stjäla	stjäla stjäl stal stulen stulit stulna stals stulet stulits stjäls
+16	1316	boll	bollen boll bollar bollarna bollens bolls
+17	1317	blogg	blogg bloggen bloggar bloggarna bloggens
+18	1318	skuld	skuld skulden skulder skulderna skuldens
+19	1319	pari	paris pari
+20	1320	uppdatera	uppdatera uppdaterad uppdaterade uppdaterat uppdaterar uppdateras uppdaterats uppdaterades
+21	1321	ägg	ägg äggen ägget äggets äggens
+22	1322	hallå	hallå
+23	1323	såsom	såsom
+24	1324	utgå	utgår utgå utgick utgången utgått utgående utgånget utgångna
+25	1325	patient	patienter patient patienten patienterna patientens patients patienternas patienters
+26	1326	förvånad	förvånad förvånade förvånat
+27	1327	bete	beter bete betedde betett betet betar beten betes betarna
+28	1328	farlig	farliga farlig farligare farligaste farligast farlige
+29	1329	städa	städa städar städat städade städad städas städats städades städande
+30	1330	verklig	verkliga verklig verkligt verklige verkligare
+31	1331	ägare	ägare ägaren ägarna ägarens ägarnas ägares ägar
+32	1332	tillverka	tillverka tillverkade tillverkas tillverkar tillverkad tillverkat tillverkades tillverkats tillverkande
+33	1333	mäta	mäta mätt mäter mätta mäts mätte mätas mät mättande mättar
+34	1334	fysisk	fysiska fysiskt fysisk
+35	1335	metod	metoder metod metoden metoderna metodens
+36	1336	islam	islam islams
+37	1337	singel	singel singlar singeln singlarna singlarnas
+38	1338	fart	fart farten farter
+39	1339	djup	djup djupa djupet djupare djupaste djupen djupast djupets
+40	1340	misstänkt	misstänkt misstänkta misstänkte
+41	1341	ort	ort orter orten orterna ortens orts
+42	1342	restaurang	restaurang restauranger restaurangen resturang restaurangerna restaurangens restaurangs restaurangernas
+43	1343	nyss	nyss
+44	1344	förekomma	förekommer förekomma förekommit förekom förekommen
+45	1345	soffa	soffan soffa soffor sofforna soff
+46	1346	förbereda	förbereda förbereder förberedd förberett förbered förberedde förberedande förbereds förberedas förbereddes
+47	1347	mil	mil milen mils
+48	1348	kontor	kontor kontoret kontoren kontors kontorets
+49	1349	test	test testet tester testar testerna testen tests testets
+50	1350	driver	driver drivers drivern
+51	1351	budget	budget budgeten budgetar budgetens budgetarna
+52	1352	tyska	tyska tyskan tyskans
+53	1353	träd	träd träden trädet trädens trädets trän träds
+54	1354	bro	bro bron brons broar bros broarna bronset
+55	1355	kram	kram kramar krama kramas kramade kramen kramat kramades krams kramande
+56	1356	gemensam	gemensam gemensamma gemensamme
+57	1357	skiva	skiva skivan skivor skivorna skivans skivad skivat skivade skivar skiv
+58	1358	partner	partner partners partnern partnerns partnerna
+59	1359	detsamma	detsamma dsm
+60	1360	besluta	beslutade beslutat beslutar beslöt besluta beslutades beslutande beslutas beslutad beslutats
+61	1361	tex	tex
+62	1362	speciell	speciell speciella specielle
+63	1363	ansvarig	ansvarig ansvariga ansvarige ansvarigt
+64	1364	rasist	rasister rasist rasisterna rasisten rasisternas
+65	1365	frysa	fryser frysa frysen frys frysta fryst frusen frös frusna frusit
+66	1366	oroa	oroa oroar oroande oroad oroade oroas oroat oroades
+67	1367	stopp	stopp stoppar stoppet stoppen
+68	1368	riva	river riva rev riv rivas riven revs rivit rivs rivna
+69	1369	betyg	betyg betyget betygen betygs
+70	1370	dölja	dölja döljer dolda dold dolt döljs dolde döljas dölj doldes
+71	1371	somna	somna somnade somnar somnat somn
+72	1372	boka	boka bokat bokade bokad bokar bokas bokades bokats bokare boke
+73	1373	medicin	medicin mediciner medicinen medicinerna medicinens
+74	1374	snö	snö snön snöns
+75	1375	falsk	falska falsk falskt falske
+76	1376	rasism	rasism rasismen rasismens
+77	1377	publik	publiken publik publika publikt publikens publiker
+78	1378	våldtäkt	våldtäkt våldtäkter våldtäkten våldtäkterna våldtäkts
+79	1379	os	os oset osen
+80	1380	rikta	riktar riktade rikta riktad riktas riktat riktades riktats
+81	1381	dansa	dansa dansar dansade dansen dansat dansande dansas dansades danse dansandet
+82	1382	förresten	förresten
+83	1383	relativt	relativt
+84	1384	utom	utom
+85	1385	statlig	statliga statlig statligt
+86	1386	typisk	typiskt typisk typiska typiske
+87	1387	karl	karl karln karlar karls karlarna karlen karlns
+88	1388	slita	sliter slita sliten slit slet slitna slitit slits slitet slitas
+89	1389	gymnasium	gymnasiet gymnasium gymnasie gymnasier gymnasiets gymnasiums gymnasierna
+90	1390	aktuell	aktuellt aktuella aktuell aktuellts aktuelle
+91	1391	djupt	djupt djupare djupast
+92	1392	ton	ton tonen toner tonerna tons tonernas
+93	1393	väska	väska väskan väskor väskorna väsk
+94	1394	ö	ön öarna öar öns öarnas
+95	1395	andel	andel andelen andelar andelarna
+96	1396	karta	karta kartan kartor kartorna charta kartans
+97	1397	nordisk	nordiska nordisk nordiskt nordiske
+98	1398	fågel	fågel fåglar fågeln fåglarna fåglarnas fågelns fåglars fågels
+99	1399	axel	axel axeln axlar axlarna axels axelns
+100	1400	topp	topp toppar topparna topps toppens

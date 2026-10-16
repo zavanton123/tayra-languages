@@ -1,0 +1,100 @@
+1	301	öka	ökar öka ökat ökad ökade ökande öknen öken ökas öknar
+2	302	mat	mat maten mats matens
+3	303	skit	skit skiten skitet skitar skitarna
+4	304	stark	stark starkt starka starkare starkaste starkast starke starkes starkas
+5	305	direkt	direkt direkta
+6	306	glömma	glöm glömt glömde glömma glömmer glöms glömmas glömd glömdes glömts
+7	307	företag	företag företaget företagen företagets företags företagens
+8	308	emot	emot
+9	309	ihop	ihop
+10	310	visst	visst
+11	311	gott	gott godare godast godt
+12	312	full	full fullt fulla fullaste fullare fullast fulle
+13	313	område	området områden område områdena områdets områdes områdenas områdens
+14	314	tillsammans	tillsammans tsm
+15	315	berätta	berätta berättar berättade berättat berättas berättande berättad berättades berättats berättandet
+16	316	lyssna	lyssna lyssnar lyssnade lyssnat lyssnande lyssnas lyssnandes
+17	317	leda	leder leda ledde led ledande lett leds leden ledet ledd
+18	318	kort	kort korta kortare kortet korten kortaste kortast kortas kortade kortat
+19	319	betyda	betyder betyda betydande betydde betytt betyde
+20	320	samhälle	samhälle samhället samhällen samhällets samhälls samhällena samhälles samhällens samhällenas
+21	321	heta	heter hette heta het hets hett hetaste hetare hetat hetsen
+22	322	massa	massa massor massan massorna massans massornas massas
+23	323	ringa	ringa ringer ring ringde ringt ringen ringar rang ringarna rings
+24	324	viktig	viktig viktiga viktigaste viktigare viktigast viktige
+25	325	flytta	flytta flyttade flyttar flyttat flyttas flytten flyttades flyttats flyttad flyttande
+26	326	samtidigt	samtidigt
+27	327	sälja	sälja säljer sålde sålt säljs sälj säljas såldes sålda såld
+28	328	öppna	öppna öppnar öppnade öppnat öppnas öppnades öppnande öppnats öppnad öppnandet
+29	329	dåligt	dåligt värre sämre värst sämst
+30	330	minut	minuter minut minuten minuters minuterna minuts minutrarna
+31	331	tanke	tanke tanken tankar tankarna tankens tankars tankarnas
+32	332	tills	tills tess
+33	333	be	be ber bad bett badet bed bettet baden bes bedja
+34	334	bok	bok boken böcker böckerna bokar bokens boks böckernas böckers
+35	335	krona	kr kronor krona kronan kronans kronorna kronors kron
+36	336	hennes	hennes
+37	337	okej	okej
+38	338	säkert	säkert
+39	339	tv	tv tvn
+40	340	svar	svar svaret svaren svars
+41	341	klocka	klockan kl klocka klockor klockorna klockans klock klockar klockat klockade
+42	342	kräva	kräver krävs kräva krävde krävdes krävande krävas krävt kräv krävts
+43	343	val	val valet valen vals valar valets valsar valsen valens valarna
+44	344	heller	heller hlr
+45	345	hus	hus huset husen husets husens husarer husar husaren husarerna
+46	346	annars	annars
+47	347	fungera	fungerar fungera fungerade fungerande fungerat
+48	348	exempel	exempel exemplet exemplen exemplets
+49	349	fatta	fattar fatta fattat fattade fattas fattades fattats fattad
+50	350	mål	mål målet målen målets måls målens
+51	351	par	par paret parets paren pars
+52	352	egentligen	egentligen igentligen
+53	353	grupp	grupp gruppen grupper grupperna gruppens gruppers grupps gruppernas
+54	354	dessutom	dessutom
+55	355	glad	glad glada glatt gladare glatta gladaste gladast glade gladan glador
+56	356	svara	svara svarar svarade svarat svaren svarande svaranden svaras svarandens svarandes
+57	357	rädd	rädd rädda räddar räddade räddat räddas räddad räddades räddare räddaren
+58	358	båda	båda bådar bådas båd bådade
+59	359	antal	antal antalet antalen
+60	360	lyckas	lyckas lyckades lyckats lyckad lyckat lyckade
+61	361	intressant	intressant intressanta intressantare intressantaste intressantast
+62	362	fyra	fyra fyran fyren fyrar fyror fyras fyrans fyrorna fyrade
+63	363	jo	jo
+64	364	trots	trots
+65	365	byta	byta byter bytte bytt byte byt bytas bytet byts byten
+66	366	sakna	saknar saknas sakna saknade saknat saknad saknades saknaden saknats saknande
+67	367	tyvärr	tyvärr tyvär
+68	368	plan	plan planen planer planet planeten planerna planeter plant planeterna planetens
+69	369	spel	spel spelet spelen spelets spels spelens
+70	370	resa	resa resan reser resor reste rest res resande resorna resans
+71	371	sova	sova sover sov sovit sovande sovandes sovas sovandet
+72	372	enkelt	enkelt
+73	373	tur	tur turen turer turerna turens
+74	374	fri	fri fria fritt friare frias friade friar friades friad fries
+75	375	sex	sex sexet
+76	376	släppa	släppa släpper släppte släppt släpptes släpp släpps släppas släppts släppet
+77	377	morgon	morgon morgonen morse morgonens morgnarna morgnar mornarna mornar morgons
+78	378	möjlig	möjligt möjliga möjlig möjligaste möjligast möjligas
+79	379	ifrån	ifrån
+80	380	endast	endast
+81	381	hej	hej
+82	382	nå	nå nått når nådde nås nådd nåddes nåtts
+83	383	vatten	vatten vattnet vattnets vattnen vattens vattnens
+84	384	regering	regeringen regering regeringens regeringar regerings regeringarna regeringars regeringarnas
+85	385	övrig	övrigt övriga övrig övrigas
+86	386	bakom	bakom
+87	387	vidare	vidare
+88	388	vinna	vinna vinner vunnit vinnande vinn vanns vinnas vunnen vinns vunnits
+89	389	bruka	brukar brukade bruka brukas brukat brukande brukats brukades brukandet brukad
+90	390	illa	illa värre sämre värst sämst
+91	391	varandra	varandra varann hvarandra
+92	392	fantastisk	fantastiskt fantastisk fantastiska fantastiske
+93	393	natt	natt natten nätter nätterna nattens natts nätters nätternas
+94	394	via	via
+95	395	förälder	föräldrar föräldrarna förälder föräldrars föräldrarnas föräldern förälders förälderns
+96	396	växa	växer växa växte växter växt växande vuxit väx växten växterna
+97	397	helvete	helvete helvetet helvetes pipan helsike fanders helskotta helvetets helveten pipsvängen
+98	398	undra	undrar undra undrade undrat undre undrande undrandes
+99	399	ske	sker ske skett skedde sken skedd skenet skeenden skeende skeendet
+100	400	säker	säker säkra säkrare säkrat säkrade säkraste säkrar säkrast säkrad säkras

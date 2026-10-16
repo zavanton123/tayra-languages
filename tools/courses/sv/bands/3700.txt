@@ -1,0 +1,100 @@
+1	3601	frisyr	frisyr frisyren frisyrer frilla frillan frisyrerna frillor frille
+2	3602	demokratiskt	demokratiskt
+3	3603	möjligtvis	möjligtvis
+4	3604	varifrån	varifrån
+5	3605	introducera	introducera introducerade introducerar introducerades introduceras introducerat introducerad introducerats
+6	3606	påve	påven påve påvens påvar påvarna
+7	3607	tank	tank tanken tankar tanks tankarna tankens tankars tankarnas
+8	3608	överföra	överföra överför överförs överföras överfördes överförts överfört överförd överförde överförda
+9	3609	allierad	allierade allierad
+10	3610	julklapp	julklapp julklappar julklapparna julklappen
+11	3611	bruttonationalprodukt	bnp bruttonationalprodukten bruttonationalprodukt
+12	3612	skida	skidor skid skidorna skida skidan
+13	3613	polska	polska polskor polskan
+14	3614	värdegrund	värdegrund värdegrunden värdegrunder
+15	3615	knacka	knackar knacka knackade knackat knackande
+16	3616	taggad	taggad taggade taggat
+17	3617	angel	angel angels
+18	3618	supa	supa sup söp supit supande supandet supen supar supe supas
+19	3619	intellektuell	intellektuella intellektuell intellektuellt intellektuelle intellektuellas
+20	3620	morgondag	morgondagens morgondagen morgondag
+21	3621	avvika	avvikande avviker avvika avvek avvikit avvik
+22	3622	hetta	hette hetta hettan hettar hettas hettade hettat
+23	3623	fäst	fäst fästa fäster fästs fästas fästen fästes
+24	3624	framsida	framsidan framsida framsidor framsidans
+25	3625	osynlig	osynliga osynlig osynligt osynlige
+26	3626	belysa	belysa belyser belysas belyst belyses belyste belysta belysts belysande belystes
+27	3627	bisarr	bisarrt bisarra bisarr
+28	3628	svaghet	svaghet svagheter svagheten svagheterna
+29	3629	svärd	svärd svärdet swärd svärden svärdets svärds
+30	3630	börs	börsen börs börserna börser börsens
+31	3631	tendens	tendens tendenser tendensen tendenserna
+32	3632	plikt	plikt plikten plikter plikterna
+33	3633	kanin	kanin kaniner kaninen kaninerna kaninens kanins
+34	3634	växel	växel växlar växeln växlarna
+35	3635	dumhet	dumheter dumhet dumheterna dumheten dumhetens
+36	3636	lila	lila lilas
+37	3637	köpare	köpare köparen köparna köparens köparnas
+38	3638	skribent	skribent skribenter skribenten skribenterna skribentens
+39	3639	smörja	smörja smörjer smörj smörjan smort smörjt smorde smörjas smord smörjde
+40	3640	ironi	ironi ironin ironier
+41	3641	hälsosam	hälsosamt hälsosam hälsosamma hälsosammare
+42	3642	utdelning	utdelning utdelningen utdelningar utdelningarna
+43	3643	karolinsk	karolinska karolinskas
+44	3644	förhoppning	förhoppningar förhoppning förhoppningen förhoppningarna förhoppnings
+45	3645	konkurrera	konkurrera konkurrerar konkurrerande konkurrerade konkurrerat konkurreras
+46	3646	saklig	saklig sakligt sakliga
+47	3647	krigare	krigare krigaren krigarna krigarens krigarnas krigares
+48	3648	pissa	pissa pissar pissade pissat pisse pissen
+49	3649	kabel	kabel kablar kabeln kablarna kabelns
+50	3650	hederlig	hederlig hederliga hederligt hederligare
+51	3651	minimal	minimal minimalt minimala
+52	3652	århundrade	århundraden århundradet århundrade århundradets århundradena århundrades århundradenas århundradens
+53	3653	störning	störningar störning störningen störningarna
+54	3654	katolsk	katolska katolsk katolskt katolske
+55	3655	here	here
+56	3656	ikapp	ikapp
+57	3657	onödan	onödan
+58	3658	resterande	resterande
+59	3659	sjutton	sjutton
+60	3660	sjätte	sjätte
+61	3661	snarast	snarast
+62	3662	åtal	åtal åtalet åtalen
+63	3663	dokumentera	dokumenterat dokumentera dokumenterade dokumenterad dokumenterar dokumenteras dokumenterats dokumenterades
+64	3664	moské	moské moskén moskéer moskéerna moskéns
+65	3665	grekiska	grekiska grekiskans grekiskan
+66	3666	marginal	marginal marginaler marginalen marginalerna
+67	3667	tunn	tunn tunt tunnare tunnaste tunnast tunne
+68	3668	tillverkning	tillverkning tillverkningen tillverknings tillverkningar
+69	3669	ideal	ideal idealet ideala idealen idealt ideals
+70	3670	realistisk	realistisk realistiska realistiskt
+71	3671	knep	knep knepet knepen
+72	3672	flitig	flitigt flitig flitiga flitigaste flitigare flitigast flitige
+73	3673	demokrat	demokraterna demokrater demokrat demokraternas demokraten
+74	3674	offensiv	offensiv offensiva offensivt offensiven offensive offensiver
+75	3675	dåre	dåre dårar dårarna dåren dåres dårarnas dårens dårars
+76	3676	barnbarn	barnbarn barnbarnen barnbarnet barnbarns barnbarnens
+77	3677	bet	bet betar bets beten betarna
+78	3678	befintlig	befintliga befintlig befintligt
+79	3679	trosa	trosor trosa trosorna trosan
+80	3680	paradis	paradiset paradis paradisets
+81	3681	rådgivare	rådgivare rådgivaren rådgivarna rådgivarens
+82	3682	tour	tour touren tours tourer tourens
+83	3683	kraftfull	kraftfull kraftfullt kraftfulla kraftfullare kraftfullaste kraftfulle
+84	3684	upphandling	upphandling upphandlingar upphandlingen upphandlingarna
+85	3685	blixt	blixten blixt blixtar blixtarna blixtens
+86	3686	arkitektur	arkitektur arkitekturen arkitekturens arkitekturer
+87	3687	viking	viking vikingarna vikings vikingar vikingarnas vikingen
+88	3688	bön	bön böner bönen bönerna bönens
+89	3689	utvald	utvalda utvald utvalt utvalde utvaldas
+90	3690	lejon	lejon lejonet lejonen lejonets lejons lejonens
+91	3691	fröken	fröken fröknarna fröknar frökens
+92	3692	existens	existens existensen existensens existenser
+93	3693	redaktör	redaktör redaktörer redaktören redaktörerna redaktörens
+94	3694	motsvarighet	motsvarighet motsvarigheten motsvarigheter motsvarigheterna
+95	3695	acetat	ac acetat
+96	3696	fight	fight fighter fighten fighters fightern fights fighterna
+97	3697	vegetarisk	vegetarisk vegetariskt vegetariska
+98	3698	torde	torde tör
+99	3699	tredjedel	tredjedel tredjedelar tredjedelen tredjedels tredjedelarna tredjedelars
+100	3700	magasin	magasin magasinet magasinen magasinets magasins

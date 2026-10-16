@@ -1,0 +1,100 @@
+1	2301	skratt	skratt skrattet skratten skrattets
+2	2302	trasig	trasig trasiga trasigt
+3	2303	fräsch	fräsch fräscht fräscha fräschare fräschas fräschaste
+4	2304	aktör	aktörer aktör aktörerna aktören aktörers aktörernas aktörens
+5	2305	krypa	krypa kryper kröp kryp krypande krupit krypandes krypen krypet
+6	2306	mogen	mogen mogna moget mognad mognar mognat mognare mogens mognade mognaden
+7	2307	relatera	relaterade relaterat relatera relaterar relaterad relateras relaterande
+8	2308	fastighet	fastigheter fastigheten fastighet fastighets fastigheterna fastighetens fastigheters
+9	2309	ökning	ökning ökningen ökningar ökningarna
+10	2310	spegel	spegeln speglar spegel speglarna spegelns speglarnas
+11	2311	utvisa	utvisas utvisa utvisad utvisade utvisar utvisades utvisats utvisat utvisande
+12	2312	rycka	rycka rycker ryck ryckte ryckt rycket rycks ryckas rycktes rycken
+13	2313	fantasi	fantasi fantasier fantasin fantasierna fantasins fantasien
+14	2314	kvart	kvart kvarten kvarts kvartar
+15	2315	avgå	avgå avgår avgick avgått avgående avgången avgångne
+16	2316	obehaglig	obehagligt obehaglig obehagliga obehagligaste obehagligare
+17	2317	åklagare	åklagaren åklagare åklagarens åklagarna åklagares
+18	2318	borgerlig	borgerliga borgerlig borgerligt
+19	2319	pasta	pasta pastor pastan pastorn pastorer pastorns pastorerna pastors
+20	2320	ramla	ramlar ramla ramlade ramlat
+21	2321	förbli	förblir förbli förblev förblivit förbliva förbliver
+22	2322	himmel	himmel himlen himmelen himlens himmelens himmeln himlarna himlar himlarnas himmels
+23	2323	smal	smal smala smalare smalt smalaste smalast smale
+24	2324	utbud	utbud utbudet
+25	2325	kass	kass kasst kasse kassar kassen kassarna
+26	2326	diverse	diverse
+27	2327	fi	fi
+28	2328	shit	shit
+29	2329	vafan	vafan
+30	2330	kö	kö köer köerna köns
+31	2331	tvåa	tvåa tvåan tvåor tvåorna tvåans
+32	2332	sektor	sektor sektorn sektorer sektorns sektorerna
+33	2333	pornografi	porr pornografi pornografin
+34	2334	hal	halt hal halter haltar hala hale halten haltande halta haltade
+35	2335	story	story storyn storys
+36	2336	medarbetare	medarbetare medarbetarna medarbetares medarbetaren medarbetarnas
+37	2337	äventyr	äventyr äventyret äventyren äventyrs äventyrets äventyrens
+38	2338	vandra	vandra vandrar vandrade vandrande vandrat vandrandes
+39	2339	separat	separat separata
+40	2340	juridisk	juridiska juridisk juridiskt juridiske
+41	2341	objekt	objekt objektet objekten objektets objekts objektens
+42	2342	dokumentär	dokumentär dokumentären dokumentärer dokumentära dokumentärerna dokumentärt
+43	2343	lapp	lapp lappen lappar lapparna lappens
+44	2344	arbetare	arbetare arbetarna arbetaren arbetarnas arbetares arbetarens
+45	2345	glida	glider glida gled glid glidit glidande glide
+46	2346	smör	smör smöret
+47	2347	kommunist	kommunister kommunist kommunisterna kommunisten kommunisternas
+48	2348	idrott	idrott idrotten idrotter idrottens idrotts idrotterna
+49	2349	plånbok	plånboken plånbok plånböcker plånböckerna
+50	2350	äpple	äpplen äpple äpplet äpplena äpplets
+51	2351	trä	trä trädde träet trätt tränas trär träs trän träets träns
+52	2352	löfte	löften löfte löftet löftena löftets
+53	2353	homosexuell	homosexuella homosexuell homosexuellt homosexuellas homosexuelle
+54	2354	undervisning	undervisning undervisningen undervisnings undervisningens
+55	2355	landsbygd	landsbygden landsbygd landsbygdens landsbygds
+56	2356	troligtvis	troligtvis
+57	2357	tvekan	tvekan
+58	2358	visserligen	visserligen
+59	2359	jämställdhet	jämställdhet jämställdheten jämställdhets jämställdhetens
+60	2360	skam	skam skammen skammens skams
+61	2361	trolig	troligt trolig troliga troligare troligaste troligast trolige
+62	2362	frid	frid friden fridens
+63	2363	regna	regnar regna regnade regnat regnande regnen
+64	2364	läsare	läsare läsaren läsarna läsarens läsarnas läsares läsar
+65	2365	arrangera	arrangerar arrangerade arrangera arrangeras arrangerat arrangerades arrangerad arrangerats arrangerande arrangerandet
+66	2366	arbetslös	arbetslösa arbetslös arbetslöse arbetslösas
+67	2367	försiktig	försiktig försiktiga försiktigare försiktige
+68	2368	port	port porten portarna portar ports portens
+69	2369	hastighet	hastighet hastigheten hastigheter hastigheterna hastighets hastighetens
+70	2370	kombinera	kombinera kombinerat kombineras kombinerad kombinerar kombinerade kombinerats kombinerades
+71	2371	halvår	halvår halvåret halvårs
+72	2372	uppmana	uppmanar uppmanade uppmana uppmanas uppmanat uppmanades uppmanad uppmanats uppmanande
+73	2373	vakt	vakter vakt vakterna vakten vaktens vakternas
+74	2374	batteri	batteri batterier batteriet batterierna batteriets
+75	2375	ignorera	ignorera ignorerar ignorerade ignoreras ignorerat ignorerad ignorerades ignorerats ignorerande
+76	2376	transport	transport transporter transporten transporterna transports
+77	2377	tröttna	tröttnat tröttnar tröttna tröttnade
+78	2378	mäktig	mäktig mäktiga mäktigt mäktigaste mäktigare mäktige mäktigast
+79	2379	läxa	läxa läxor läxan läxorna läxas läx
+80	2380	motsats	motsatsen motsats motsatser motsatserna motsatsernas
+81	2381	stuga	stugan stuga stugor stugorna stuvade stuva stuvad stuvar stug stugans
+82	2382	union	unionen union unionens unions unioner
+83	2383	institution	institutioner institutionen institution institutionerna institutionens institutions institutionernas institutioners
+84	2384	överraska	överraskad överraska överraskade överraskar överraskat överraskades överraskas överraskats
+85	2385	desperat	desperat desperata desperate
+86	2386	spänn	spänn
+87	2387	usch	usch
+88	2388	värdefull	värdefull värdefulla värdefullt värdefullaste värdefullare värdefulle
+89	2389	kulturell	kulturella kulturell kulturellt
+90	2390	jösses	jösses jisses
+91	2391	nackdel	nackdelar nackdelen nackdel nackdelarna
+92	2392	rumpa	rumpa rumpan rumpor rumporna
+93	2393	motion	motion motionen motioner motionerna motions motionens
+94	2394	kust	kusten kust kuster kusterna kustens
+95	2395	stress	stress stressen
+96	2396	varannan	varannan vartannat varannat
+97	2397	varv	varv varvet varven varf varvets varvs
+98	2398	bråk	bråk bråket bråken
+99	2399	spränga	spränga spränger sprängs sprängde sprängdes sprängt spräng sprängas sprängd sprängda
+100	2400	föreställning	föreställning föreställningen föreställningar föreställningarna föreställningens

@@ -1,0 +1,100 @@
+1	2001	flod	floden flod floder floderna flodens flodernas
+2	2002	liga	ligan liga ligor ligans ligorna ligornas
+3	2003	avbryta	avbryta avbryter avbröt avbryt avbruten avbröts avbryts avbrutna avbrytas avbrutit
+4	2004	socker	socker sockret
+5	2005	allihop	allihopa allihop alltihop alltihopa
+6	2006	general	general generalen generaler generalerna generals generalens generalernas
+7	2007	föreställa	föreställa föreställer föreställ föreställde föreställt föreställande föreställda föreställandes föreställd
+8	2008	länka	länkar länka länken länkade länkat länkad länkas länkats länkades länkande
+9	2009	posta	posta postat posten postar postade postades postas postad postats poste
+10	2010	rensa	rensa rensar rensat rensade rensas rensad rensades rensats
+11	2011	oberoende	oberoende oberoendet
+12	2012	eventuell	eventuella eventuell
+13	2013	flagga	flagga flaggan flaggor flagg flaggorna flaggar flaggans flaggade flaggat flaggas
+14	2014	fika	fika fikar fikat fikade fiken
+15	2015	lat	lat lata late later latar lataste latt latens latare laterna
+16	2016	bada	bada badar badade badat badande bade baden badad badas badandet
+17	2017	ting	ting tingen tinget tingens tings
+18	2018	handel	handel handeln handels handelns
+19	2019	teater	teater teatern teatrar theatre theater teaterns teatrarna teaters
+20	2020	mörker	mörkret mörker mörkrets
+21	2021	sexig	sexig sexigt sexiga sexigaste sexigare sexigast
+22	2022	inspirera	inspirerad inspirerade inspirerar inspirerat inspirera inspireras inspirerats inspirerades
+23	2023	sakta	sakta saktar saktade saktare saktat saktas
+24	2024	lust	lust lusten lustar lustens
+25	2025	hustru	hustru hustrun hustrus hustrur hustruns hustrurna
+26	2026	äktenskap	äktenskap äktenskapet äktenskapets äktenskapen äktenskaps
+27	2027	saga	saga sagan sagor sagorna sagans sagas sagornas
+28	2028	aktivitet	aktiviteter aktivitet aktiviteten aktiviteterna aktivitets
+29	2029	trist	trist trista tristaste tristare triste
+30	2030	linda	linda linde lindas linden lindar lindat lindade lindes lindad lindor
+31	2031	avgörande	avgörande avgörandet avgöranden
+32	2032	demokratisk	demokratiska demokratisk demokratiske
+33	2033	snack	snack snacket snacks snacksen
+34	2034	återkomma	återkommer återkom återkomma återkommit återkommen
+35	2035	roman	roman romanen romaner romans romanerna romanser romanens romansen romanserna
+36	2036	verktyg	verktyg verktygen verktyget verktygets
+37	2037	finansiera	finansiera finansieras finansierar finansierade finansierat finansierad finansierades finansierats
+38	2038	bebis	bebis bebisen bebisar bäbis bebisarna bebisens
+39	2039	överhuvudtaget	överhuvudtaget öht
+40	2040	presskonferens	pk presskonferens presskonferensen presskonferenser
+41	2041	kilometer	kilometer kilometers kilometerna kilometrarna kilometern kilometrar
+42	2042	förvirrad	förvirrad förvirrade förvirrat
+43	2043	em	em
+44	2044	genast	genast
+45	2045	bana	bana banor banorna bane banar banade banat banans banes banornas
+46	2046	bevara	bevara bevarade bevaras bevarar bevarande bevarat bevare bevarad bevarandet bevarats
+47	2047	flygplan	flygplan flygplanet flygplanen flygplanets flygplans flygplanens
+48	2048	förståelse	förståelse förståelsen
+49	2049	strategi	strategi strategin strategier strategierna
+50	2050	anställa	anställa anställer anställdes anställde anställs anställas anställt anställ anställts anställande
+51	2051	anmälan	anmälan anmälningar anmälningarna
+52	2052	frukt	frukt frukter frukten frukterna fruktens
+53	2053	skådespelare	skådespelare skådespelaren skådespelerska skådespelarna skådespelarnas skådespelar skådespelarens skådespelares
+54	2054	motiv	motiv motivet motiven motivets
+55	2055	from	from fromma fromme fromt
+56	2056	fordon	fordon fordonet fordonen fordonets fordons fordonens
+57	2057	inblandad	inblandade inblandad inblandat inblandades
+58	2058	kraftig	kraftig kraftiga kraftigare kraftigaste kraftigast kraftige
+59	2059	doktor	doktor doktorn doktorer doktorns doktorerna doktors
+60	2060	studio	studio studion studios studior studions studiorna
+61	2061	klicka	klicka klickar klickade klickat klickande klicken klickas
+62	2062	elak	elak elaka elakt elakaste elakare elake
+63	2063	professionell	professionell professionella professionellt professionelle
+64	2064	vetenskap	vetenskap vetenskapen vetenskapens vetenskaper vetenskaps vetenskaperna vetenskapernas
+65	2065	hänsyn	hänsyn hänsynen
+66	2066	stärka	stärka stärker stärkt stärkas stärkande stärks stärk stärkte stärktes stärkts
+67	2067	skala	skala skalan skalar skalor scala skalade skalen skalas skalat skalad
+68	2068	alltför	alltför
+69	2069	framöver	framöver
+70	2070	löjligt	löjligt
+71	2071	online	online
+72	2072	östra	östra
+73	2073	sund	sunt sund sunda sundet sundare sunde sunds sunden sundets sundaste
+74	2074	älskling	älskling älsklingen älsklingar älsklings älsklingens älsklingarna
+75	2075	jack	jack jacks jacket jackets
+76	2076	uppge	uppger uppges uppgav uppge uppgett uppgiven uppgivna uppgavs uppgivit uppgivet
+77	2077	fält	fält fältet fälten fältets
+78	2078	investera	investera investerar investerat investerade investeras investerad investerats investerades investerande
+79	2079	kyckling	kyckling kycklingen kycklingar kycklingarna kycklingens
+80	2080	ångest	ångest ångesten
+81	2081	förvåna	förvånande förvåna förvånar förvånas förvånade förvånat förvånades förvånats
+82	2082	extrem	extrema extrem extreme extremer extremare extremerna extremaste
+83	2083	rysk	rysk ryskt ryske
+84	2084	nöje	nöje nöjet nöjen nöjes nöjets nöjena
+85	2085	hållbar	hållbart hållbar hållbara hållbarare
+86	2086	skum	skumt skum skumma skummade skummar skummet skummare skummande skummat skummaste
+87	2087	skoja	skojar skoja skojade skojat
+88	2088	anonym	anonym anonyma anonymt anonyme
+89	2089	satsning	satsning satsningar satsningen satsningarna
+90	2090	center	center centern centerns centret centers centren centrar centrets
+91	2091	överväga	överväga överväger övervägande övervägt övervägde överväg överväganden övervägas övervägs övervägdes
+92	2092	bio	bio bion bios
+93	2093	runda	runda rundan rundor rundade rundar rundad rundat rundorna rundas rundans
+94	2094	signal	signal signaler signalen signalerna signalens signals
+95	2095	klänning	klänning klänningen klänningar klänningarna klänningens
+96	2096	försäljning	försäljning försäljningen försäljningar försäljnings försäljningarna
+97	2097	usel	usel usla uselt uslaste uslare
+98	2098	amerikan	amerikaner amerikan amerikanerna amerikanen amerikanernas amerikans amerikaners
+99	2099	ränta	ränta räntan räntor räntorna ränte
+100	2100	ko	ko kor kon korna kos koner koret kons konen konerna

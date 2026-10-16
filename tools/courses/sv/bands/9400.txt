@@ -1,0 +1,100 @@
+1	9301	snarka	snarkar snarkade snarka snarkande snarkat
+2	9302	dosa	dosan dosa dosor dosorna
+3	9303	emo	emo emos
+4	9304	svullen	svullen svullet
+5	9305	körsbär	körsbär körsbären körsbäret körsbärs
+6	9306	veterligen	veterligen veterligt
+7	9307	kusk	kusk kusken kuskar kuskarna kuskens
+8	9308	upphandla	upphandlare upphandla upphandlat upphandlar upphandlas upphandlade upphandlad upphandlades upphandlande
+9	9309	sona	sona sonat sonar sonen sonaten sone sonas sonater
+10	9310	tydliggöra	tydliggöra tydliggör tydliggörs tydliggjort tydliggjorde tydliggjordes
+11	9311	distrahera	distrahera distraherande distraherar distraheras distraherade distraherat
+12	9312	mittback	mittback mittbacken mittbackar mittbackarna
+13	9313	lågkonjunktur	lågkonjunktur lågkonjunkturen lågkonjunkturer
+14	9314	siren	siren sirener sirenen sirenerna sirens
+15	9315	förutsäga	förutsäga förutsäger förutsagt förutsade förutsägas förutsägande förutsades förutsägs
+16	9316	kardinal	kardinal kardinalen kardinaler kardinalerna kardinalens
+17	9317	rutinerad	rutinerad rutinerade rutinerat
+18	9318	jäst	jäst jästen
+19	9319	startskott	startskottet startskott
+20	9320	sjöstad	sjöstad sjöstaden sjöstads sjöstadens
+21	9321	utbygga	utbyggd utbyggt
+22	9322	papegoja	papegoja papegojor papegojan papegojorna papegoj
+23	9323	rada	rada radade raden rade radas radat
+24	9324	studs	studs studsar studsen
+25	9325	kvick	kvick kvicka kvicken qvick kvicke kvickare
+26	9326	injicera	injicera injicerar injiceras injicerade injicerat injicerats injicerades injicerad
+27	9327	orientera	orientera orienterade orienterad orienterat orienterar orienteras
+28	9328	förlöjliga	förlöjliga förlöjligade förlöjligar förlöjligande förlöjligad förlöjligas förlöjligat
+29	9329	uppförsbacke	uppförsbacke uppförsbacken uppförsbackar
+30	9330	gladeligen	gladeligen gladligen
+31	9331	halvtimma	halvtimma halvtimmen
+32	9332	tumma	tummen tumma tummar tummade tummas tummat
+33	9333	samsas	samsas samsades
+34	9334	speedway	speedway speedwayen
+35	9335	knopp	knopp knoppar knoppen knopparna
+36	9336	klarlägga	klarlagt klarlägga klarlagd klarläggande klarlagts klarläggas klarlägger
+37	9337	halshugga	halshöggs halshugga halshuggen halshugger halshuggas halshuggna halshögg halshuggit halshugg halshuggs
+38	9338	kanadensisk	kanadensisk kanadensiskt kanadensiske
+39	9339	heden	heden hedens
+40	9340	berättare	berättare berättaren berättarens berättarna
+41	9341	beröring	beröring beröringen
+42	9342	klot	klot klotet kloten klotets
+43	9343	bitvis	bitvis
+44	9344	curling	curling
+45	9345	demens	demens
+46	9346	långtgående	långtgående
+47	9347	meh	meh
+48	9348	sammanfattningsvis	sammanfattningsvis
+49	9349	stenkast	stenkast
+50	9350	tidvis	tidvis
+51	9351	tillväga	tillväga
+52	9352	triss	triss
+53	9353	uppfyllelse	uppfyllelse
+54	9354	byst	byst bysten byster
+55	9355	teologisk	teologiska teologiskt teologisk
+56	9356	revision	revision revisionen revisioner revisions
+57	9357	hult	hult hults hultet
+58	9358	diplom	diplom diplomet diplomen
+59	9359	diva	diva divan divas divor divanen divorna
+60	9360	dispens	dispens dispenser dispans dispensen
+61	9361	fyllning	fyllning fyllningen fyllningar fyllningarna
+62	9362	kompanjon	kompanjon kompanjoner kompanjonen kompanjonerna
+63	9363	åta	åta åtar åtog åtagit åtaga
+64	9364	underlägsen	underlägsna underlägsen underlägset
+65	9365	regeringsform	regeringsformen regeringsform regeringsformens
+66	9366	flöjt	flöjt flöjter flöjten
+67	9367	maxa	maxa maxat maxad maxade maxar
+68	9368	pianist	pianist pianisten pianister pianisterna
+69	9369	inhandla	inhandla inhandlat inhandlade inhandlad inhandlas inhandlades inhandlar
+70	9370	skitsnygg	skitsnygg skitsnyggt skitsnygga
+71	9371	kärra	kärra kärran kärror kärrorna
+72	9372	bult	bultar bult bulten bultarna
+73	9373	samhällstjänst	samhällstjänst samhällstjänster samhällstjänsten
+74	9374	arbetsmiljöverk	arbetsmiljöverket arbetsmiljöverkets
+75	9375	kungadöme	kungadömet kungadöme kungadömena kungadömen kungadömenas kungadömets
+76	9376	bifall	bifall bifallet
+77	9377	avskyvärd	avskyvärda avskyvärd
+78	9378	kollektion	kollektion kollektionen kollektioner kollektionerna
+79	9379	hospital	hospital hospitalet hospitals hospitalen
+80	9380	förorening	föroreningar förorening föroreningarna föroreningen
+81	9381	intolerans	intolerans intoleransen
+82	9382	legitimitet	legitimitet legitimiteten
+83	9383	barnbidrag	barnbidrag barnbidraget barnbidragen
+84	9384	nybyggd	nybyggd nybyggt
+85	9385	avsugning	avsugning avsugningar avsugningen
+86	9386	eka	eka ekar ekade ekan eket ekande eken eke ekat ekor
+87	9387	stavfel	stavfel stavfelet
+88	9388	sära	sära särar särade särat
+89	9389	dynamit	dynamit dynamiten
+90	9390	byråkrat	byråkrater byråkrat byråkraterna byråkraten
+91	9391	taxa	taxa taxan taxor
+92	9392	grubbla	grubbla grubblar grubblat grubblande grubblade
+93	9393	avancemang	avancemang avancemanget
+94	9394	folkrörelse	folkrörelse folkrörelser folkrörelsen folkrörelserna folkrörelsernas
+95	9395	vilseleda	vilseleda vilseleder vilseledd vilselett vilseledas vilseledde
+96	9396	adelsman	adelsmän adelsman adelsmännen adelsmannen
+97	9397	kvotera	kvotera kvoteras kvoterar kvoterad kvoterade
+98	9398	lukrativ	lukrativt lukrativ lukrativa
+99	9399	studentbostad	studentbostäder studentbostad studentbostäderna
+100	9400	ankomma	ankommer ankom ankommande ankomma ankommit ankomna

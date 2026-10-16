@@ -1,0 +1,100 @@
+1	1901	bedriva	bedriva bedriver bedrivs bedrivit bedrev bedrivas bedrivits bedrevs bedriven bedrivna
+2	1902	helig	heliga helige helig heligt heligaste heligas heliges heligare
+3	1903	oskyldig	oskyldiga oskyldig oskyldigt oskyldige oskyldigas
+4	1904	trivas	trivs trivas trivdes trivts
+5	1905	prioritera	prioritera prioriterar prioriteras prioriterat prioriterade prioriterad prioriterades prioriterats
+6	1906	so	so sos sons sor
+7	1907	mörka	mörka mörkar mörkat mörkade mörkas mörkande mörken mörke mörkades
+8	1908	stötta	stötta stöttar stöttat stötte stöttade stöttande stöttas stöttning stöttor stöttes
+9	1909	näsa	näsan näsa näsor näsorna näsans
+10	1910	pension	pension pensioner pensionen pensionerna pensions
+11	1911	trädgård	trädgården trädgård trädgårdar trädgårds trädgårdarna trädgårdens trädgårdarnas
+12	1912	present	present presenter presenten presenterna presents
+13	1913	väst	väst västar västen västs västarna
+14	1914	pressa	pressa pressade pressad pressen pressas pressat pressar pressades pressats pressande
+15	1915	konstnär	konstnär konstnärer konstnären konstnärerna konstnärens konstnärernas konstnärs konstnärers konstnärinna
+16	1916	arbetsplats	arbetsplats arbetsplatser arbetsplatsen arbetsplatserna arbetsplatsens
+17	1917	utreda	utreda utreder utredas utreds utrett utredde utredd utretts utredande utred
+18	1918	hall	hall hallen halls hallar hallarna hallens
+19	1919	torr	torra torr torrt torrare torraste torre
+20	1920	bransch	branschen bransch branscher branschens branscherna
+21	1921	festival	festival festivalen festivaler festivalens festivalerna festivals
+22	1922	statsminister	statsminister statsministern statsministerns stadsminister statsministrar statsministers
+23	1923	kategori	kategorin kategorier kategori kategorierna kategorien
+24	1924	slutsats	slutsatser slutsats slutsatsen slutsatserna
+25	1925	omfattande	omfattande
+26	1926	ana	ana anar ante anade anat anas anande ane anan anes
+27	1927	feminist	feminister feminist feministerna feministen feministernas feminists feministers
+28	1928	präst	präst prästen präster prästerna prästens prästernas prest prästers prästs
+29	1929	särskild	särskild särskilda särskilde
+30	1930	kampanj	kampanj kampanjen kampanjer kampanjerna kampanjens
+31	1931	förhindra	förhindra förhindrar förhindrade förhindras förhindrat förhindrad förhindrande förhindrats förhindrades
+32	1932	lager	lager lagret lagrar lagren lagrarna lagern lagers
+33	1933	feminism	feminism feminismen feminismens
+34	1934	käka	käka käkar käkat käkade käken käke käkarna
+35	1935	rektor	rektor rektorn rektorer rektors rektorerna rektorns
+36	1936	körkort	körkort körkortet körkorten körkorts
+37	1937	betrakta	betraktas betrakta betraktar betraktade betraktades betraktat betraktad betraktats betraktande betraktandet
+38	1938	våg	vågar våg vågor vågorna vågen vågens vågornas vågarna vågs
+39	1939	recept	recept receptet recepten
+40	1940	påpeka	påpeka påpekar påpekade påpekat påpekas påpekande påpekats påpekades påpekandet påpekanden
+41	1941	evig	evigt eviga evig evige
+42	1942	samling	samling samlingen samlingar samlingarna samlings samlingens
+43	1943	ursprung	ursprung ursprunget ursprungs ursprungets ursprungen
+44	1944	byxa	byxor byxorna byxan byxa byx
+45	1945	yrke	yrke yrken yrket yrkes yrkena yrkets
+46	1946	stämning	stämning stämningen stämningar stämningarna stämnings stämningens
+47	1947	hörn	hörn hörnet hörnen
+48	1948	miss	miss missar missen missarna
+49	1949	express	expressen expressens
+50	1950	henry	henry henrys
+51	1951	inflytande	inflytande inflytandet inflytanden
+52	1952	eventuellt	eventuellt
+53	1953	framtida	framtida
+54	1954	främsta	främsta
+55	1955	omedelbart	omedelbart
+56	1956	såväl	såväl
+57	1957	uppenbart	uppenbart
+58	1958	begränsad	begränsad begränsade begränsat
+59	1959	ström	ström strömmen strömmar strömma strömmade strömmande strömmarna ströms strömt strömmens
+60	1960	servera	servera serverar serveras serverade serverat serverad serverades serverats
+61	1961	grav	grav graven graf gravar gravt grafer gravarna graves grava gravad
+62	1962	avdelning	avdelning avdelningen avdelningar avdelningarna avdelningens avdelnings
+63	1963	civil	civila civil civilt civile civilas civilare
+64	1964	silver	silver silvret silvers silfver
+65	1965	varning	varning varningar varningen varningarna varningens varnings
+66	1966	lustig	lustigt lustig lustiga lustige lustigaste lustigare
+67	1967	nacka	nacken nacka nacke nackas nack nackar nackens
+68	1968	varna	varnar varna varnade varnat varnas varnad varnande varnades varnats
+69	1969	kopp	kopp koppar koppen kopparna kopparn kopparen kopps koppens
+70	1970	medicinsk	medicinska medicinsk medicinskt medicinske
+71	1971	skämta	skämta skämtar skämtade skämten skämtat skämtas skämtande skämtades
+72	1972	begränsa	begränsa begränsar begränsas begränsade begränsat begränsande begränsades begränsats
+73	1973	drottning	drottning drottningen drottningens drottningar drottningarna drottnings
+74	1974	logga	logga loggar loggan loggade loggat loggor logg loggen loggarna loggas
+75	1975	officiell	officiella officiell officielle
+76	1976	tillfällig	tillfälligt tillfälliga tillfällig tillfällige
+77	1977	näringsliv	näringsliv näringslivet näringslivs näringslivets
+78	1978	sno	sno snor snodde snott snodd snoret snoddas snodda snodden
+79	1979	sosse	sossarna sossar sosse sossarnas sossen
+80	1980	rättvis	rättvist rättvis rättvisare rättvise rättvisaste
+81	1981	symbol	symbol symboler symbolen symbolerna symbols
+82	1982	grundläggande	grundläggande
+83	1983	skrämmande	skrämmande
+84	1984	således	således
+85	1985	känslig	känslig känsliga känsligt känsligare känsligaste känslige känsligast
+86	1986	slott	slott slottet slottets slotten slotts
+87	1987	påbörja	påbörja påbörjade påbörjar påbörjat påbörjades påbörjas påbörjad påbörjats påbörjandet
+88	1988	skylt	skylt skylten skyltar skyltarna skyltens
+89	1989	ed	ed eden eds edet edens edets
+90	1990	initiativ	initiativ initiativet initiativs initiativen initiativets
+91	1991	trend	trenden trend trender trenderna trends
+92	1992	lämplig	lämpligt lämplig lämpliga lämpligare lämpligaste lämpligast
+93	1993	rock	rock rockar rocks rocken rockens rockarna
+94	1994	investering	investering investeringar investeringen investeringarna investerings investeringens
+95	1995	terrorist	terrorister terrorist terroristerna terroristen terroristernas terrorists terroristers terroristens
+96	1996	sömn	sömn sömnen sömns sömnens
+97	1997	registrera	registrera registrerade registrerad registrerat registreras registrerar registrerades registrerats regga
+98	1998	landsting	landsting landstinget landstingen landstings landstingets landstingens
+99	1999	gym	gymmet gym gymmen gyms gymmets
+100	2000	rot	rötter rot roten rötterna rötternas rotens

@@ -1,0 +1,100 @@
+1	1401	service	service servicen
+2	1402	långsam	långsamt långsam långsammare långsamma långsammaste långsammast
+3	1403	tända	tänder tända tände tänd tänt tänds tändes tändas tänts tändande
+4	1404	invandrare	invandrare invandrarna invandrarnas invandrares invandraren
+5	1405	riktning	riktning riktningen riktningar riktningarna
+6	1406	israel	israel israels israeler israelerna israelen israelernas
+7	1407	kök	köket kök köken köks kökets
+8	1408	soldat	soldater soldat soldaterna soldaten soldaternas soldatens soldaters soldats
+9	1409	anpassa	anpassa anpassar anpassade anpassad anpassat anpassas anpassats anpassades
+10	1410	årig	årig åriga årige årigt
+11	1411	perspektiv	perspektiv perspektivet perspektiven
+12	1412	hen	hen henens
+13	1413	söder	söder södern söders söderns sör
+14	1414	hundra	hundra
+15	1415	framgång	framgång framgångar framgången framgångarna framgångens
+16	1416	gubbe	gubben gubbe gubbar gubbarna gubbens gubb gubbes gubbarnas
+17	1417	gömma	gömma gömmer gömt gömde gömda gömd göm göms gömmas gömdes
+18	1418	reagera	reagerar reagera reagerade reagerat
+19	1419	dygn	dygnet dygn dygnets dygnen dygns
+20	1420	ovan	ovan ovana ovant ovanan ovanor
+21	1421	flykting	flyktingar flykting flyktingarna flyktingen flyktingars flyktingarnas flyktings
+22	1422	expert	expert experter experterna experten experternas expertens experts experters
+23	1423	onödig	onödigt onödiga onödig onödigaste
+24	1424	björn	björn björnen björnar björnarna björns björnens björnarnas
+25	1425	japan	japan japaner japanerna japans japanen japanernas
+26	1426	uttryck	uttryck uttrycket uttrycks uttrycken utryck uttryckets
+27	1427	avstånd	avstånd avståndet avstånden avstånds
+28	1428	socialdemokrat	socialdemokraterna socialdemokrater socialdemokraternas socialdemokrat socialdemokraten socialdemokraters
+29	1429	hat	hat hatet hatets hats
+30	1430	rubrik	rubriken rubrik rubriker rubrikerna rubrikens
+31	1431	nio	nio nios
+32	1432	passera	passerar passera passerat passerade passeras passerad passerats passerande passerades
+33	1433	hittills	hittills
+34	1434	troligen	troligen
+35	1435	centrum	centrum centret centrumet centra centrets centrat centrums centrumets centrumen
+36	1436	högskola	högskola högskolan högskolor högskolans högskolorna högskole högskolas högskolornas
+37	1437	uttrycka	uttrycka uttrycker uttryckt uttryckte uttryckas utrycka uttrycks uttrycken uttryckta uttrycktes
+38	1438	nödvändig	nödvändigt nödvändig nödvändiga nödvändigaste
+39	1439	kristna	kristna kristne kristnas kristnades kristnandet kristnade
+40	1440	stör	stör störs störar stören
+41	1441	nytta	nytta nyttan nytto
+42	1442	locka	locka lockar lockande lockade lockas lockat locke lockades lockad locken
+43	1443	vadå	vadå dårå
+44	1444	samarbeta	samarbeta samarbetar samarbetat samarbetade samarbeten samarbetande
+45	1445	invånare	invånare invånarna invånarnas invånaren invånares
+46	1446	konsekvens	konsekvenser konsekvenserna konsekvens konsekvensen konsekvensens
+47	1447	utsatt	utsatta utsatt utsatte
+48	1448	packa	packa packat packar packade packad packas packe packades packats packandet
+49	1449	umgås	umgås umgicks umgåtts
+50	1450	funktion	funktion funktioner funktionen funktionerna funktions funktionens
+51	1451	förlust	förlust förluster förlusten förlusterna
+52	1452	alkohol	alkohol alkoholen alkoholens alkoholer
+53	1453	teori	teori teorin teorier teorierna teorins
+54	1454	smak	smak smaken smaker smakerna smakens
+55	1455	standard	standard standarden standarder standards standarderna
+56	1456	uppmärksamhet	uppmärksamhet uppmärksamheten
+57	1457	jama	james jamen jama jamar jamande jame
+58	1458	osäker	osäker osäkra osäkert osäkrare osäkrad osäkrar osäkrade
+59	1459	majoritet	majoritet majoriteten majoriteter majoritetens majoritets
+60	1460	korrekt	korrekt korrekta korrektare
+61	1461	artist	artister artist artisten artisterna artists artisters artistens artisternas
+62	1462	antagligen	antagligen
+63	1463	därifrån	därifrån
+64	1464	framförallt	framförallt
+65	1465	jättebra	jättebra
+66	1466	global	global globalt globala globals
+67	1467	as	as asen aset asarna asar
+68	1468	utbilda	utbildade utbilda utbildad utbildar utbildas utbildat utbildades utbildats utbildande
+69	1469	sällskap	sällskap sällskapet sällskapets sällskaps sällskapen
+70	1470	dansk	dansk danskarna danskt danske danskar dansken danskarnas
+71	1471	detalj	detaljer detalj detaljerna detaljen
+72	1472	kommentera	kommentera kommenterar kommenterade kommenterat kommenterad kommenteras kommenterades kommenterande kommenterats
+73	1473	fet	fet feta fetare fetaste fete fetast
+74	1474	tråd	tråd tråden trådar trådarna trådens
+75	1475	åtgärd	åtgärder åtgärd åtgärderna åtgärden
+76	1476	tvätta	tvätta tvättar tvätten tvättade tvättat tvättas tvättad tvättats tvättades
+77	1477	skyldig	skyldig skyldiga skyldige skyldigt
+78	1478	innehåll	innehåll innehållet innehållets innehålls
+79	1479	kriminell	kriminella kriminell kriminellt kriminellas kriminelle
+80	1480	skydd	skydd skyddet skytt skyttar skytten skydds skyttarna skydden skyttens skytts
+81	1481	generation	generation generationer generationen generationens generations generationerna generationers generationernas
+82	1482	peka	pekar peka pekade pekat pekas pekats pek pekades pekande peke
+83	1483	uttala	uttala uttalar uttalade uttalat uttalas uttalad uttalades uttalats uttalen
+84	1484	märkt	märkt märkte märkta
+85	1485	tysk	tysk tyskarna tyskar tyskt tysken tyske tyskarnas
+86	1486	bröst	bröst bröstet brösten bröstens bröstets
+87	1487	delvis	delvis delvist
+88	1488	nyligen	nyligen
+89	1489	utav	utav
+90	1490	öra	öronen öron örat öra örats örona öronens
+91	1491	utländsk	utländska utländsk utländskt utländske
+92	1492	maskin	maskin maskinen maskiner maskinerna maskinens maskinernas maskins
+93	1493	golv	golvet golv golven golvets
+94	1494	störa	störa störande störd stört störde störda störas störs stördes störts
+95	1495	kuk	kuk kuken kukar kukarna kuks
+96	1496	förbättra	förbättra förbättras förbättrar förbättrade förbättrad förbättrat förbättrats förbättrades förbättrande
+97	1497	art	art arter arten arts arterna artens arternas arters
+98	1498	adress	adress adressen adresser adresserna
+99	1499	blod	blod blodet blodets blods
+100	1500	syfta	syftar syftade syfta syftat syften syftande syftas syftandes

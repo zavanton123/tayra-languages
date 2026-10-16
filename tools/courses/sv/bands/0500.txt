@@ -1,0 +1,100 @@
+1	401	miljon	miljoner miljon mille milj million miljonen miljonerna millar miljoners milles
+2	402	arbete	arbete arbetet arbeten arbets arbetets arbetena arbetes
+3	403	arbeta	arbetar arbeta arbetade arbetat arbetande arbetad arbetas arbetandes arbetades arbetats
+4	404	dela	dela delas delade delar delen delat delad delades delats dele
+5	405	sann	sant sanna sann sanne sannare sannes sannaste
+6	406	dess	dess dessen
+7	407	igenom	igenom
+8	408	utanför	utanför
+9	409	viktigt	viktigt
+10	410	parti	parti partiet partier partierna partiets partiers partis partiernas
+11	411	historia	historia historien historier historiens historian historierna historias historians
+12	412	bestämma	bestämmer bestämma bestämt bestämde bestämd bestäms bestämda bestäm bestämdes bestämmas
+13	413	politiker	politiker politikerna politikern politikernas politikers politikerns
+14	414	snabbt	snabbt snabbare snabbast
+15	415	dit	dit
+16	416	match	match matcher matchen matcherna matchens matchers matchs
+17	417	artikel	artikel artiklar artikeln artiklarna artikelns artiklarnas artikels
+18	418	ställe	stället ställe ställen ställena ställets
+19	419	dricka	dricka dricker drack druckit drick dricks drickande drickas drickan drickandet
+20	420	huvud	huvudet huvud huvet huvuden huvudena huvudets huve hufvud hövve
+21	421	lugn	lugnt lugn lugna lugnare lugnande lugnet lugnar lugnat lugnade lugnaste
+22	422	skön	skönt skön sköna skönare skönaste skönast sköns sköne
+23	423	skada	skada skador skadad skadade skadar skadat skadan skadas skadades skadorna
+24	424	innebära	innebär innebära innebar inneburit innebärande
+25	425	rösta	rösta röstar röstade röstat rösten röstades röstas röstande röstats röstandet
+26	426	välkommen	välkommen välkomna välkomnar välkomnande välkommet välkomnas välkomnade välkomnat välkomnades välkomnad
+27	427	gud	gud guds gudar gudarna guden gudinna gudinnan gudarnas gudars gudinnor
+28	428	pappa	pappa pappan pappas pappor pappans papporna pappors
+29	429	snälla	snälla
+30	430	lösa	lösa löser löst lös löste lösas löses lösen lösta löstes
+31	431	bry	bryr bry brydde brytt bryn brydd bryns brydda brynen
+32	432	minnas	minns minnas mindes minnes mints
+33	433	känsla	känsla känslor känslan känslorna känslo känslans känslornas känslors
+34	434	rum	rum rummet rummen rummets rums rummare rummens
+35	435	ändra	ändra ändrar ändras ändrat ändrade ändrats ändrades ändrad
+36	436	värd	värt värd värda värden värdar värdinna värdinnan värdarna värdens värdinnor
+37	437	otrolig	otroligt otrolig otroliga otrolige
+38	438	anse	anser anses ansåg ansågs anse anseende ansetts ansett ansedd ansedda
+39	439	ej	ej
+40	440	igår	igår
+41	441	inför	inför
+42	442	vacker	vacker vackert vackra vackraste vackrare vackrast vackre
+43	443	chans	chans chansen chanser chanserna
+44	444	absolut	absolut absoluta absolute
+45	445	spelare	spelare spelaren spelarna spelarnas spelarens spelares
+46	446	riktig	riktig riktiga riktige riktigare
+47	447	grej	grej grejer grejen grejerna grejor grejorna grejs
+48	448	form	form former formen formar formerna forms formens formarna
+49	449	medium	media medier medierna medium medias medie mediet mediernas mediers mediumet
+50	450	dum	dum dumt dumma dummaste dummare dummast dumme
+51	451	snygg	snygg snyggt snygga snyggare snyggaste snyggast snyggar snyggade snygge snyggat
+52	452	förra	förra förre förras
+53	453	förklara	förklara förklarar förklarade förklarat förklaras förklarades förklarande förklarats förklarad förklar
+54	454	pris	pris priset priser priserna prisen prisets
+55	455	ok	ok oket oken
+56	456	före	före föret
+57	457	förlora	förlorade förlorar förlora förlorat förlorad förloras förlorande förlorades förlorats
+58	458	funka	funkar funka funkade funkat funke funken
+59	459	början	början
+60	460	medan	medan
+61	461	starta	starta startade startar startat startades starten startas startats startad startande
+62	462	hänga	hänger hänga hängde häng hängt hängas hängande hängs hängdes hang
+63	463	öga	ögon ögonen ögat öga ögats ögonens ögons
+64	464	möta	möter möta mötte möts mött möttes möten mötas möt mötes
+65	465	kropp	kropp kroppen kroppar kroppens kropparna kropps kroppars kropparnas
+66	466	skillnad	skillnad skillnaden skillnader skillnaderna
+67	467	säsong	säsongen säsong säsonger säsongens säsongerna säsongs säsongernas säsongers
+68	468	roll	roll rollen roller rollerna rolls rollers rollens
+69	469	text	text texten texter texterna textens texts texternas
+70	470	fem	fem
+71	471	politisk	politiska politisk politiskt politiske
+72	472	fylla	fyller fylla fyllt fyllde fylld fyll fyllda fylls fyllan fyllas
+73	473	önska	önskar önska önskade önskat önskas önskad önskades
+74	474	hit	hit hits hiten hitsen hitten
+75	475	stanna	stanna stannar stannade stannat stannad stannas
+76	476	poäng	poäng poängen poänger poängs poängerna
+77	477	fint	fint finter finten
+78	478	fort	fort fortare fortet forts fortast forten fortets
+79	479	ca	ca
+80	480	anledning	anledning anledningen anledningar anledningarna
+81	481	inse	inser insåg inse insett inses inseende
+82	482	anta	antar anta antog antas antagen antaganden antogs antagande antagit antagandet
+83	483	kompis	kompis kompisar kompisen kompisarna kompisars kompisens kompisarnas
+84	484	son	son sonen söner sons sonens sönerna söners sönernas
+85	485	krig	krig kriget krigets krigen krigs krigens
+86	486	svart	svart svarta svarte svartas svartare svartaste svarts
+87	487	framtid	framtiden framtid framtidens framtids framtider
+88	488	möjlighet	möjlighet möjligheter möjligheten möjligheterna möjligheternas
+89	489	stänga	stänga stänger stängt stäng stängde stängd stängs stängda stängas stängdes
+90	490	idé	idé idéer idén idéerna idéen idéernas idéns
+91	491	serie	serien serie serier seriens series serierna seriernas
+92	492	haha	haha
+93	493	ingenting	ingenting
+94	494	kring	kring
+95	495	självklart	självklart
+96	496	fixa	fixa fixar fixat fixade fixas fixad fixare fixades fixats fixen
+97	497	höger	höger högre högern högra högerns
+98	498	springa	springa springer sprang spring sprungit springs springande springandes sprungen springan
+99	499	exakt	exakt exakta exaktare
+100	500	dator	dator data datorn datorer datan datorerna datorns datat dators datorernas

@@ -1,0 +1,100 @@
+1	3201	mystisk	mystiska mystisk mystiskt mystiske
+2	3202	tunnel	tunnel tunneln tunnlar tunnlarna tunnelns
+3	3203	varelse	varelser varelse varelsen varelserna varelsers varelsens varelsernas varelses
+4	3204	storstad	storstad storstäder storstäderna storstaden storstan storstadens storstads storstädernas
+5	3205	arbetstid	arbetstid arbetstider arbetstiden arbetstiderna arbetstidens
+6	3206	synpunkt	synpunkter synpunkt synpunkten synpunkterna
+7	3207	försämra	försämras försämra försämrad försämrar försämrade försämrats försämrat försämrades försämrande
+8	3208	obekväm	obekväm obekväma obekvämt
+9	3209	guide	guide guiden guider guides guiderna
+10	3210	vårdcentral	vårdcentralen vårdcentral vårdcentraler vårdcentralerna vårdcentralens
+11	3211	verkstad	verkstad verkstaden verkstäder verkstan verkstads verkstäderna verkstäders verkstadens
+12	3212	upplysa	upplysa upplyst upplysta upplys upplyser upplysande upplyste upplysas upplystes upplyses
+13	3213	road	road roade roat
+14	3214	intelligent	intelligent intelligenta intelligentare intelligentaste intelligente
+15	3215	brorsa	brorsan brorsa brorsans brorsas brorsor brorsorna
+16	3216	abort	abort aborter aborten aborterna
+17	3217	sky	sky skyn skyr skyarna skyar skytt skyttar skytten skys skytts
+18	3218	pumpa	pumpa pumpar pumpen pumpas pumpade pumpat pumpor pumpan pumpad pumpades
+19	3219	sekreterare	sekreterare sekreteraren sekreterarna sekreterarens sekreterares
+20	3220	valuta	valuta valutor valutan valutorna valutans
+21	3221	kudde	kudde kudden kuddar kuddarna
+22	3222	egentlig	egentliga egentlig egentligt egentlige
+23	3223	formulera	formulera formulerade formulerat formulerar formulerad formuleras formulerades formulerats
+24	3224	skina	skiner skin skinande skina skene
+25	3225	mode	mode modet modes modena moden modets
+26	3226	flytande	flytande flytandes
+27	3227	ambassadör	ambassadör ambassadören ambassadörer ambassadörerna ambassadörens
+28	3228	kids	kids kidsen
+29	3229	regera	regera regerar regerande regerade regerat regeras
+30	3230	illegal	illegala illegal illegalt
+31	3231	aha	aha
+32	3232	fascinerande	fascinerande
+33	3233	fasen	fasen
+34	3234	fullkomligt	fullkomligt
+35	3235	hp	hp
+36	3236	inomhus	inomhus
+37	3237	lagligt	lagligt
+38	3238	skälla	skälla skäller skällde skäll skällande skällt skällan
+39	3239	löna	lönar löna lönen löne lönade lönat lönande
+40	3240	akta	akta akten aktar aktade aktad akte aktat aktas
+41	3241	gärning	gärning gärningar gärningen gärningarna gärningens gärnings
+42	3242	ondska	ondska ondskan ondskans
+43	3243	underskatta	underskatta underskattade underskattar underskattat underskattad underskattas underskattades underskattats
+44	3244	box	box boxen boxar boxarna
+45	3245	indian	indian indianer indianerna indians indianernas indianen
+46	3246	webb	webb webben webbs webbar
+47	3247	nazism	nazism nazismen nazismens
+48	3248	maila	maila mailar mailade mailat
+49	3249	sektion	sektion sektionen sektioner sektionerna sektionens sektions
+50	3250	stål	stål stålet stålets ståls
+51	3251	uppfinna	uppfann uppfanns uppfinna uppfunnit uppfinner uppfunnits uppfunnen uppfinns uppfinnandet uppfinnande
+52	3252	centerparti	centerpartiet centerpartiets centerparti
+53	3253	mandat	mandat mandatet mandaten
+54	3254	förebygga	förebygga förebyggande förebygger förebyggas förebygg förebyggs
+55	3255	chock	chock chocken chocker
+56	3256	assistent	assistent assistenter assistenten assistenterna assistents assistentens
+57	3257	manuskript	manus manuskript manuskriptet manuskripten
+58	3258	instruktion	instruktioner instruktionerna instruktion instruktionen instruktions
+59	3259	tatuering	tatuering tatueringar tatueringen tatueringarna
+60	3260	klick	klick klickar klicket klicks klicken
+61	3261	skattebetalare	skattebetalare skattebetalarna skattebetalarnas skattebetalaren skattebetalares
+62	3262	nick	nick nickar nicks nicken
+63	3263	kapa	kapa kapade kapar kapat kapad kapas kapades kapats kapen
+64	3264	omdöme	omdöme omdömen omdömet omdömena
+65	3265	databas	databas databasen databaser databaserna
+66	3266	virus	virus viruset virusets virusen
+67	3267	teoretisk	teoretiska teoretisk teoretiskt
+68	3268	angripa	angriper angripa angrep angripna angripen angrips angripit angreps angripas angripet
+69	3269	faktisk	faktiska faktisk
+70	3270	bistånd	bistånd biståndet bistånds
+71	3271	fattigdom	fattigdom fattigdomen fattigdomens
+72	3272	krönika	krönika krönikor krönikan krönikorna krönikans
+73	3273	mottagare	mottagare mottagaren mottagarna mottagarens
+74	3274	smink	smink sminket
+75	3275	slant	slant slantar slanten slantarna
+76	3276	förnuft	förnuft förnuftet förnuftets
+77	3277	prognos	prognos prognoser prognosen prognoserna
+78	3278	inbjudan	inbjudan inbjudningar inbjudningarna
+79	3279	romantisk	romantisk romantiska romantiskt romantiske
+80	3280	motverka	motverka motverkar motverkas motverkande motverkade motverkat
+81	3281	hbtq	hbtq
+82	3282	garanti	garanti garantier garantin
+83	3283	aa	aa aaa aaaa
+84	3284	verksam	verksamma verksam verksamt verksamme
+85	3285	musiker	musiker musikern musikerna musikers musikernas
+86	3286	barndom	barndom barndomen barndoms barndomens
+87	3287	marknadsföring	marknadsföring marknadsföringen marknadsförings
+88	3288	kriterium	kriterier kriterierna kriterium kriteriet kriterie
+89	3289	plugg	plugg plugget pluggar pluggarna pluggen
+90	3290	tjuv	tjuvar tjuv tjuvarna tjuven tjuvarnas tjuvens tyv tjyv
+91	3291	läcka	läcka läckt läckte läckan läckor läckande läck läckorna läcktes läckts
+92	3292	utspela	utspelar utspelade utspelas utspela utspelat utspelades utspelad utspelats utspelen
+93	3293	tiger	tiger tigern tigrar tigers tigrarna tigerns
+94	3294	kyrkogård	kyrkogården kyrkogård kyrkogårdar kyrkogårdarna kyrkogårdens kyrkogårds
+95	3295	synlig	synlig synliga synligt synligare
+96	3296	klassa	klassas klassad klassade klassat klassar klassats klasse klassa klassades klassen
+97	3297	saab	saab saabs saaben saabar
+98	3298	mässa	mässan mässa mässor mäss mässans mässen mässar mässorna mässande mässade
+99	3299	lana	lane lana lanas lanes lanar lanade lanat
+100	3300	åtala	åtalas åtala åtalades åtalade åtalats åtalar åtalat åtalen

@@ -1,0 +1,100 @@
+1	5701	ruin	ruiner ruinerna ruin ruinen ruinens ruins
+2	5702	spädbarn	spädbarn spädbarnet spädbarns spädbarnets spädbarnen
+3	5703	spa	spa span spat spas spaet
+4	5704	återge	återger återge återges återgav återgivna återgiven återgett återgivet återgivande återgavs
+5	5705	censur	censur censuren censurens
+6	5706	obetydlig	obetydlig obetydliga obetydligt
+7	5707	kortsiktig	kortsiktiga kortsiktigt kortsiktig
+8	5708	tropisk	tropiska tropisk tropiskt
+9	5709	mordförsök	mordförsök mordförsöket mordförsöken
+10	5710	elektricitet	elektricitet elektriciteten elektricitetens
+11	5711	trollkarl	trollkarl trollkarlen trollkarlar trollkarlens trollkarlarna
+12	5712	räckvidd	räckvidd räckvidden
+13	5713	forward	forward forwards forwarden
+14	5714	romare	romarna romare romarnas romaren romares
+15	5715	barnfamilj	barnfamiljer barnfamilj barnfamiljerna barnfamiljen
+16	5716	filosof	filosofen filosof filosofer filosoferna filosofens filosofernas
+17	5717	tuta	tuta tutar tutan tutade tutande tutor tutat tutandet
+18	5718	självförsvar	självförsvar självförsvars självförsvaret
+19	5719	fucka	fucka fuckar fuckade fuckat fuckad
+20	5720	tapet	tapeten tapeter tapet tapeterna
+21	5721	gasa	gasa gasar gasade gasen gasas gasades gasat
+22	5722	indikation	indikation indikationer indikationen indikationerna
+23	5723	missbrukare	missbrukare missbrukarna missbrukaren
+24	5724	återinföra	återinföra återinför återinföras återinförande återinförs återinförd återinförandet återinfört återinfördes återinförts
+25	5725	årskurs	årskurs årskurser årskurserna årskursen
+26	5726	skildring	skildring skildringar skildringen skildringarna
+27	5727	otrygg	otrygga otrygg otryggt otryggare
+28	5728	intrång	intrång intrånget intrången
+29	5729	klura	klura klurat klurar klurade
+30	5730	modersmål	modersmål modersmålet modersmålets
+31	5731	jätterolig	jätteroligt jätterolig jätteroliga
+32	5732	kicka	kicka kickade kickad kickar kicken kickat kickas kickan kickades
+33	5733	bekosta	bekosta bekostar bekostas bekostat bekostade bekostad bekostades bekostats
+34	5734	jämförbar	jämförbara jämförbar jämförbart
+35	5735	shot	shot shots shottar
+36	5736	handlare	handlare handlaren handlarna handlarnas
+37	5737	anteckna	anteckna antecknar antecknat antecknade antecknas antecknades antecknad
+38	5738	episod	episod episoder episoden episoderna
+39	5739	bedrövlig	bedrövligt bedrövlig bedrövliga
+40	5740	publikation	publikationer publikation publikationen publikationerna
+41	5741	misstänksam	misstänksam misstänksamt misstänksamma
+42	5742	snål	snål snålt snålare snålaste snåle
+43	5743	införskaffa	införskaffa införskaffat införskaffade införskaffas införskaffades införskaffar införskaffad införskaffandet införskaffats införskaffande
+44	5744	redskap	redskap redskapet redskapen
+45	5745	ponny	ponny ponnyn ponnyer ponnyerna ponnys
+46	5746	äckel	äckel äcklet äcklen
+47	5747	indragen	indragen indraget indragna
+48	5748	utsökt	utsökt utsökta
+49	5749	ömsesidig	ömsesidigt ömsesidig ömsesidiga
+50	5750	ding	ding dinga dinge
+51	5751	väntetid	väntetid väntetider väntetiden väntetiderna
+52	5752	kaxig	kaxig kaxiga kaxigt kaxigare kaxige
+53	5753	fängslad	fängslad fängslade fängslat
+54	5754	lego	lego legot legos
+55	5755	allehanda	allehanda
+56	5756	dl	dl
+57	5757	därute	därute
+58	5758	farväl	farväl
+59	5759	football	football
+60	5760	inåt	inåt
+61	5761	nionde	nionde
+62	5762	rimligen	rimligen
+63	5763	statistiskt	statistiskt
+64	5764	kulturarv	kulturarv kulturarvet
+65	5765	stinka	stinker stinkande stinka stink
+66	5766	napp	napp nappar nappen napparna
+67	5767	källkritik	källkritik källkritiken källkritikens
+68	5768	tesla	tesla teslas teslan
+69	5769	arbetarklass	arbetarklassen arbetarklass arbetarklassens
+70	5770	klinisk	klinisk kliniska kliniskt
+71	5771	skriftlig	skriftliga skriftlig
+72	5772	brukare	brukare brukaren brukarna brukarens
+73	5773	borgare	borgare borgarna borgaren borgarnas
+74	5774	fasa	fasa fasar fasas fasor fasan fasaner fasade fasades fasat fasorna
+75	5775	slutlig	slutliga slutlig slutligt
+76	5776	arabisk	arabisk arabiskt arabiske
+77	5777	våldsbrott	våldsbrott våldsbrotten
+78	5778	bredband	bredband bredbandet bredbands
+79	5779	försäljare	försäljare försäljaren försäljarna försäljarnas
+80	5780	tillaga	tillaga tillagas tillagar tillagad tillagat tillagade tillagades tillagats
+81	5781	förtroendevald	förtroendevalda förtroendevald
+82	5782	sommarjobb	sommarjobb sommarjobbet
+83	5783	kartläggning	kartläggning kartläggningen kartläggningar
+84	5784	anpassning	anpassning anpassningar anpassningen anpassningarna
+85	5785	motstå	motstå motstående motstår motstod motstått
+86	5786	avkomma	avkomma avkommor avkomman avkommorna
+87	5787	regemente	regemente regementet regementen regementets regementena regementes regements
+88	5788	tu	tu tus
+89	5789	arrestera	arresterades arrestera arresteras arresterade arresterats arresterar arresterat
+90	5790	legendarisk	legendariska legendarisk legendariske legendariskt
+91	5791	skolgång	skolgång skolgången
+92	5792	lyxig	lyxigt lyxiga lyxig lyxigare lyxigaste
+93	5793	repa	repa repar repade repor repat repan repas repen repad reporna
+94	5794	organism	organismer organism organismen organismerna organismens organismers organisms
+95	5795	hjälpsam	hjälpsam hjälpsamma hjälpsamt
+96	5796	tatuera	tatuera tatuerade tatuerad tatuerat tatuerar tatueras
+97	5797	bostadsbrist	bostadsbristen bostadsbrist
+98	5798	plötslig	plötslig plötsliga
+99	5799	motto	motto mottot motton
+100	5800	gaffel	gaffel gaffeln gafflar gafflarna

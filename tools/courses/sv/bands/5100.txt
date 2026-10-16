@@ -1,0 +1,100 @@
+1	5001	eliminera	eliminera eliminerar elimineras eliminerade eliminerad eliminerat eliminerats eliminerades
+2	5002	förvånansvärd	förvånansvärt förvånansvärd
+3	5003	högerextrem	högerextrema högerextrem högerextremt
+4	5004	area	area arean areas areor
+5	5005	påtaglig	påtagligt påtaglig påtagliga påtagligare
+6	5006	attrahera	attrahera attraherad attraherar attraheras attraherade attraherat attraherande attraherades
+7	5007	näring	näring näringar näringen närings näringarna näringarnas
+8	5008	höjning	höjning höjningen höjningar höjningarna
+9	5009	retur	retur returen returer returerna
+10	5010	smita	smita smiter smit smitit smits smitare smite smitaren
+11	5011	jävlas	jävlas djävlas jävlades jävlats
+12	5012	stavning	stavning stavningen stavningar stavningarna stavnings
+13	5013	avskeda	avskeda avskedad avskedas avskedade avskedar avskedades avskedandet avskedande avskedats avskedat
+14	5014	prostituerad	prostituerade prostituerad prostituerat
+15	5015	funktionsnedsättning	funktionsnedsättning funktionsnedsättningar funktionsnedsättningen
+16	5016	årsskifte	årsskiftet årsskifte
+17	5017	grekisk	grekisk grekiskt grekiske
+18	5018	knarka	knarka knarkar knarkat knarkande knarkade
+19	5019	mal	mal malen malar mals malarna
+20	5020	omklädningsrum	omklädningsrum omklädningsrummet omklädningsrummen
+21	5021	befogenhet	befogenheter befogenhet befogenheten befogenheterna
+22	5022	mångkultur	mångkultur mångkulturen mångkulturens
+23	5023	chatt	chatt chatten chattar
+24	5024	förvalta	förvalta förvaltar förvaltas förvaltade förvaltat förvaltats förvaltad förvaltande förvaltades
+25	5025	gapa	gapa gapar gapade gapande gapat gapas gape
+26	5026	dike	diket dike diken dikena
+27	5027	prövning	prövning prövningar prövningen prövningarna prövningens
+28	5028	strunt	struntar strunt
+29	5029	projektledare	projektledare projektledaren
+30	5030	alarm	alarm alarmet alarmen alarms
+31	5031	droppa	droppa droppar droppade droppen droppande droppat droppas
+32	5032	rehabilitering	rehabilitering rehabiliteringen rehabiliterings
+33	5033	sårbar	sårbar sårbara sårbart
+34	5034	investerare	investerare investerarna investeraren investerarnas investerarens
+35	5035	ryggrad	ryggrad ryggraden ryggradens
+36	5036	handläggare	handläggare handläggaren handläggarna handläggarens
+37	5037	samtid	samtiden samtid samtidens samtids
+38	5038	syra	syra syran syror syren syrener syrad syrenerna syrorna syrade
+39	5039	jam	jamen jam jams
+40	5040	hyllning	hyllning hyllningar hyllningen hyllningarna hyllnings
+41	5041	allan	allan allans
+42	5042	skev	skev skeva skevt skevar
+43	5043	hawaiipizza	hawaii
+44	5044	runtom	runtom
+45	5045	soc	soc
+46	5046	à	à
+47	5047	språklig	språkliga språklig språkligt
+48	5048	bearbeta	bearbeta bearbetar bearbetade bearbetas bearbetat bearbetad bearbetats bearbetades
+49	5049	rama	rama ramar ramas ramat ramade rame
+50	5050	filosofisk	filosofiska filosofisk filosofiskt
+51	5051	nota	notan nota notor notas
+52	5052	auktoritet	auktoritet auktoriteter auktoriteten auktoriteterna
+53	5053	finansminister	finansminister finansministern finansministrar finansministerns
+54	5054	förnedra	förnedrande förnedra förnedrad förnedrade förnedrar förnedras förnedrat
+55	5055	avleda	avled avleda avleder avledande avleds avledas avlett avledde avledda
+56	5056	utrustad	utrustad utrustade utrustat
+57	5057	paragraf	paragraf paragrafen paragrafer paragraferna
+58	5058	tacksamhet	tacksamhet tacksamheten
+59	5059	sekt	sekt sekten sekter sektens sekterna
+60	5060	uppfinning	uppfinning uppfinningar uppfinningen uppfinningarna uppfinningarnas
+61	5061	konvention	konventionen konventioner konvention konventionerna konventionens
+62	5062	falk	falk falken falkar falkens falks falkarna
+63	5063	kundtjänst	kundtjänst kundtjänsten
+64	5064	etisk	etiska etisk
+65	5065	minimera	minimera minimerar minimeras minimerade minimerad
+66	5066	diamant	diamant diamanter diamanten diamanterna diamantens
+67	5067	utspel	utspel utspelet utspelen
+68	5068	begagnad	begagnad begagnade begagnat
+69	5069	ombud	ombud ombudet ombuden ombuds ombudens
+70	5070	självständighet	självständighet självständigheten
+71	5071	dränka	dränka dränkt dränker dränk dränks dränkte dränkta dränkas dränktes dränkts
+72	5072	jordgubbe	jordgubbar jordgubbe jordgubbarna jordgubbs jordgubben
+73	5073	solklar	solklart solklar solklara
+74	5074	page	page pages pagen pager
+75	5075	kulle	kulle kullen kullar kullarna kullens
+76	5076	säl	sälen säl sälar sälens sälarna sälarnas
+77	5077	försvaga	försvagas försvaga försvagade försvagat försvagad försvagar försvagats försvagades försvagande
+78	5078	klump	klump klumpar klumpen klumparna
+79	5079	repetera	repetera repeterar repeterade repeteras repeterat repeterande
+80	5080	kristdemokrat	kristdemokraterna kristdemokraternas kristdemokrater kristdemokrat kristdemokraten
+81	5081	fientlig	fientliga fientlig fientligt
+82	5082	hysa	hyser hysa hyste hyst hysen
+83	5083	avvakta	avvakta avvaktar avvaktande avvaktade avvaktat
+84	5084	hycklare	hycklare hycklaren hycklarna
+85	5085	läggning	läggning läggningar läggningen
+86	5086	fängsla	fängsla fängslande fängslades fängslas fängslade fängslar fängslats fängslandet fängslat
+87	5087	visum	visum visat visas visats visumet
+88	5088	greppa	greppa greppar greppat greppade greppen
+89	5089	pest	pest pesten pestens
+90	5090	evakuera	evakuera evakueras evakuerade evakuerats evakuerades evakuerad evakuerat evakuerar
+91	5091	mobba	mobba mobbar mobbade mobben mobbas mobbades mobbat mobbande
+92	5092	legitimation	legitimation legitimationen legitimationer
+93	5093	syndrom	syndrom syndromet
+94	5094	riksbank	riksbanken riksbankens riksbank riksbanks
+95	5095	tapper	tappra tappert tapper tappre tappraste
+96	5096	tvättmaskin	tvättmaskin tvättmaskinen tvättmaskiner tvättmaskinerna
+97	5097	flock	flock flocken flockar flockens flockarna
+98	5098	mall	mall mallar mallen mallarna
+99	5099	farm	farm farmen farmer farms farmers farmar farmarna
+100	5100	belastning	belastning belastningen belastningar

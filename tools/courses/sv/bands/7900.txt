@@ -1,0 +1,100 @@
+1	7801	stank	stank stanken
+2	7802	tång	tång tången tänger
+3	7803	kollidera	kolliderade kolliderar kolliderat kollidera kolliderande
+4	7804	bläck	bläck bläcket
+5	7805	empirisk	empiriska empirisk empiriskt
+6	7806	bakhuvud	bakhuvudet bakhuvud
+7	7807	safari	safari safarin safaris
+8	7808	publicitet	publicitet publiciteten
+9	7809	bärga	bärga bärgare bärgas bärgade bärgades bärgad bärgat bärgats bärgar bärg
+10	7810	daterad	daterad daterat daterade
+11	7811	distinkt	distinkt distinkta
+12	7812	holländare	holländare holländaren holländarna holländarnas
+13	7813	stycka	stycka styckade styckad styckar styckat styckas styckades styckats
+14	7814	offentlighet	offentligheten offentlighet offentlighetens offentlighets
+15	7815	ventil	ventil ventilen ventiler ventilerna
+16	7816	förhöja	förhöjd förhöjt förhöjer förhöja förhöjde förhöjs
+17	7817	valmöjlighet	valmöjligheter valmöjlighet valmöjligheten valmöjligheterna
+18	7818	obestämd	obestämd obestämt obestämda
+19	7819	sketch	sketch sketcher sketchen sketcherna
+20	7820	magnifik	magnifik magnifika magnifikt
+21	7821	regeringskansli	regeringskansliet regeringskansliets regeringskansli
+22	7822	hemmalag	hemmalaget hemmalag hemmalagets
+23	7823	skärmdump	skärmdump skärmdumpar skärmdumpen skärmdumparna
+24	7824	horisontell	horisontellt horisontella horisontell
+25	7825	ficklampa	ficklampa ficklampor ficklampan ficklamporna
+26	7826	administratör	administratör administratörer administratören administratörerna
+27	7827	barnäktenskap	barnäktenskap
+28	7828	livshotande	livshotande
+29	7829	nästkommande	nästkommande
+30	7830	rimligtvis	rimligtvis
+31	7831	adrenalin	adrenalin adrenalinet
+32	7832	strukturell	strukturell strukturellt
+33	7833	muntlig	muntliga muntlig
+34	7834	slagfält	slagfältet slagfält slagfälten slagfältets
+35	7835	ven	ven vener hven venerna venen vens
+36	7836	smida	smider smida smide smitt smid smidde smidd smids smiddes smidet
+37	7837	nedsätta	nedsatt nedsätta nedsätter nedsattes
+38	7838	undermålig	undermåliga undermålig undermåligt
+39	7839	enzym	enzym enzymer enzymet enzymerna enzymen
+40	7840	efterlysa	efterlyser efterlysa efterlyses efterlystes efterlyste efterlysts
+41	7841	portal	portalen portaler portalerna portalens
+42	7842	mikro	mikron mikro
+43	7843	refräng	refrängen refräng refränger refrängerna
+44	7844	bakslag	bakslag bakslaget
+45	7845	banta	banta bantar bantat bantade bantas bantad
+46	7846	tillkännage	tillkännager tillkännagav tillkännage tillkännagavs tillkännages tillkännagivit tillkännagivits tillkännagett
+47	7847	utbränd	utbränd utbrända utbränt
+48	7848	kassör	kassör kassören kassörer kassörerna kassörens
+49	7849	pik	pik pikar piken
+50	7850	labb	labb labbet labbar labben labbarna labbets
+51	7851	bassäng	bassängen bassäng bassänger bassängerna bassängens
+52	7852	kotte	kotte kottar kotten kottarna kott
+53	7853	småföretagare	småföretagare småföretagarna
+54	7854	kvittera	kvittera kvitterade kvitterar kvitterat
+55	7855	depå	depå depån depåer depåerna
+56	7856	lagändring	lagändring lagändringen lagändringar lagändringarna
+57	7857	fläta	fläta flätor flätade flätat flätar flätorna flätad flätas flätan
+58	7858	glögg	glögg glöggen
+59	7859	undkomma	undkomma undkom undkommer undkommit
+60	7860	slam	slam slammet slams
+61	7861	aluminium	aluminium aluminiumet
+62	7862	bröstvårta	bröstvårtor bröstvårtorna bröstvårtan bröstvårta
+63	7863	frånta	frånta fråntas fråntar fråntagen fråntogs fråntagna fråntagits fråntog fråntagit
+64	7864	presentkort	presentkort presentkortet
+65	7865	skolavslutning	skolavslutning skolavslutningen skolavslutningar
+66	7866	finka	finkan finka
+67	7867	dedikerad	dedikerad dedikerade dedikerat
+68	7868	överrepresenterad	överrepresenterade överrepresenterad överrepresenterat
+69	7869	gestalta	gestalta gestaltas gestaltar gestaltade gestaltad gestaltat gestalten gestaltades gestaltats gestaltande
+70	7870	självgod	självgod självgoda självgott självgode
+71	7871	jänkare	jänkare jänkarna jänkaren jänkarnas
+72	7872	rundtur	rundtur rundturen rundturer
+73	7873	bianco	bianca bianco
+74	7874	koma	koma koman
+75	7875	invandringspolitik	invandringspolitiken invandringspolitik
+76	7876	fog	fog fogar fogarna fogen
+77	7877	svordom	svordomar svordom svordomarna svordomen
+78	7878	tågstation	tågstationen tågstation tågstationer tågstationerna
+79	7879	aktivism	aktivism aktivismen
+80	7880	statisk	statisk statiskt statiska
+81	7881	landsman	landsmän landsman landsmannen landsmäns landsmännen landsmaninna
+82	7882	modul	modul modulen moduler modulerna modulens
+83	7883	huvuddel	huvuddelen huvuddel huvuddelar huvuddelarna
+84	7884	djärv	djärv djärva djärvt djärvare djerf djärve djärvaste
+85	7885	buga	bugar buga bugade bugande bugat
+86	7886	utlämna	utlämnad utlämnas utlämna utlämnade utlämnande utlämnar utlämnades utlämnandet utlämnat
+87	7887	dussintal	dussintals dussintal dussintalet
+88	7888	vattenyta	vattenytan vattenyta vattenytor
+89	7889	lasagne	lasagne lasagnen
+90	7890	flint	flint flinta flinten
+91	7891	konvent	konvent konventet konventets konventen
+92	7892	skolka	skolka skolkar skolkade skolkat skolkande
+93	7893	lågstadium	lågstadiet lågstadium lågstadie
+94	7894	turbo	turbo turbon turbos
+95	7895	särskilja	särskilja särskiljer särskiljande särskiljas särskiljs särskilde
+96	7896	samtalsämne	samtalsämne samtalsämnen samtalsämnet samtalsämnena
+97	7897	bagge	bagge baggen baggar bagges baggarna
+98	7898	medfödd	medfödda medfödd medfött
+99	7899	glöda	glödande glöder glöda glödde glöden
+100	7900	demografi	demografi demografin

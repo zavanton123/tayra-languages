@@ -1,0 +1,100 @@
+1	101	utan	utan
+2	102	fler	flera fler flesta flest fleras
+3	103	börja	börjar börja började börjat börje börjas börjades börjes börjande börjats
+4	104	del	del delar delen dels delarna delens delarnas delars
+5	105	rätt	rätt rätta rätten rättare rättar rätter rättade rätte rättas rättat
+6	106	aldrig	aldrig alldrig
+7	107	gång	gång gånger gången gångs gångerna gångar gångna gångarna gångers gånget
+8	108	fråga	fråga frågan frågor frågar frågade frågorna frågat frågande frågad frågas
+9	109	sluta	sluta slut slutet slutar slutade slutat sluten sluter slutna slöt
+10	110	böra	borde bör böra
+11	111	dom	dom domen domar domarna domarnas domens doms
+12	112	barn	barn barnen barnet barns barnens barnets barnes barna barne barnas
+13	113	skriva	skriva skriver skrev skrivit skriv skriven skrivet skrivs skrevs skrivna
+14	114	sedan	sedan sedanen sedans sedaner
+15	115	svenska	svenska svenskan svenskans svenskor svenskorna
+16	116	åt	åt
+17	117	första	första förste fössta
+18	118	folk	folk folket folkets folks folken folkens
+19	119	nog	nog
+20	120	sak	saker sak saken sakerna sakens sakernas sakers saks
+21	121	stå	står stå stod stått stående stog ståendes statt stånden stode
+22	122	använda	använda använder används användas använde använd använt användes använts användande
+23	123	hitta	hitta hittar hittade hittat hittades hittas hittats hittad hitte hitten
+24	124	alltid	alltid altid
+25	125	lägga	lägga lägger la lägg lagt lade läggs läggas lades las
+26	126	försöka	försöker försöka försök försökte försökt försöket försöken försöks försökts försökta
+27	127	förstå	förstår förstå förstås förstått förstod förstående förstådd
+28	128	liten	liten lilla små mindre minsta lille minst litet lilles minste
+29	129	människa	människor människa människan människorna människors människans människas människornas människo mänska
+30	130	läsa	läsa läs läser läst läste las läsas lass läses lästa
+31	131	tack	tack tacken tacket
+32	132	igen	igen
+33	133	just	just justa
+34	134	liv	liv livet livets livs lif liven
+35	135	person	personer person personen personerna persons personens personers personernas
+36	136	nej	nej nejet
+37	137	idag	idag
+38	138	sådan	sånt sån sådan sådana sådant såna
+39	139	sätt	sätt sättet sätts sätten
+40	140	kvinna	kvinnor kvinna kvinnan kvinnorna kvinnors kvinnans kvinnas kvinnornas kvinno kvinn
+41	141	fan	fan fans fansen bubblan farao faraos fansens faraoner faraonerna faraon
+42	142	gärna	gärna helst hellre
+43	143	länge	länge längre längst
+44	144	innan	innan
+45	145	ner	ner
+46	146	spela	spelar spela spelade spelat spelas spelades spelen spelande spelad spelats
+47	147	samma	samma samme
+48	148	vem	vem vilka vems vilkas hvem hvilka
+49	149	höra	hör höra hört hörde hörs höras hörd hördes hörda hörts
+50	150	land	landet land länder landets länderna lands länders ländernas landen
+51	151	köpa	köpa köper köpte köp köpt köpet köptes köps köpas köpts
+52	152	verkligen	verkligen
+53	153	visa	visar visa visade visat visas visades visats visor vise visad
+54	154	svensk	svensk svenskt svenskar svenskarna svensken svenskarnas svenske svenskars svenskens svenskaste
+55	155	hög	högre hög högt högsta höga högst högen högste högar höge
+56	156	åka	åka åker åkte åkt åk åke åkrar åkern åket åkande
+57	157	jobb	jobb jobbet jobben jobbets jobbs
+58	158	gammal	gamla gammal äldre gammalt äldsta gamle äldste äldst äldres gamlas
+59	159	fel	fel felet felen
+60	160	egen	egen egna eget egne egens
+61	161	genom	genom genomet
+62	162	hans	hans
+63	163	ligga	ligger ligga legat ligg liggande liggandes liggare ligget legaten liggaren
+64	164	låta	låter låta lät låtit läten läte låtom lätet låte låtas
+65	165	följa	följa följer följande följ följde följd följt följs följas följder
+66	166	köra	kör köra körde kört körs körd kören körda köras kördes
+67	167	jobba	jobbar jobba jobbat jobbade jobben jobbas jobbande
+68	168	hem	hem hemmet hemmen hemmets hems hemmens
+69	169	varje	varje hvarje
+70	170	riktigt	riktigt riktigare
+71	171	bort	bort
+72	172	mellan	mellan
+73	173	sitta	sitter sitta satt suttit sittande sittandes säten satts satta setat
+74	174	precis	precis precist precisa
+75	175	ens	ens änns
+76	176	dra	dra drar drog drag droger dragit dras drogs drogerna dragen
+77	177	prata	pratar prata pratade pratat pratas pratades pratats pratande pratandes
+78	178	ändå	ändå endå änna
+79	179	kalla	kallar kalla kallas kallade kallad kallat kalle kallades kallats kalles
+80	180	god	god goda bättre bästa go bäst gode goa godaste godare
+81	181	väldigt	väldigt
+82	182	vecka	vecka veckan veckor veckans veckorna veckors veckas vecko veckade veckad
+83	183	värld	världen världens värld världar världs världarna världarnas världars
+84	184	problem	problem problemet problemen problems problemets
+85	185	fram	fram
+86	186	redan	redan
+87	187	hand	hand händer handen händerna hands handens händernas händers
+88	188	gilla	gillar gillade gilla gillat gillas gills gillande gille gillet gilles
+89	189	dock	dock
+90	190	inom	inom
+91	191	bild	bild bilder bilden bilderna bildens bildernas bilds
+92	192	död	död döda döden dött dödar dödade döds dödas dödades dödat
+93	193	lära	lär lära lärt lärde lärande läran lärda lärandet läror lärd
+94	194	tillbaka	tillbaka tillbaks
+95	195	all	all alls alle
+96	196	mena	menar menade mena menas menat menad menades menande mene menen
+97	197	sätta	sätta sätter satt satte sättas sattes sätts satts satta sätten
+98	198	olika	olika
+99	199	välja	välja väljer valde valt väljare välj väljarna valda vald valdes
+100	200	bo	bor bo bodde boende bott bot boenden bon boendet boet

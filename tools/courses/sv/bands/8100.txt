@@ -1,0 +1,100 @@
+1	8001	basa	base basa basen basade bases basat
+2	8002	antirasist	antirasister antirasist antirasisterna
+3	8003	vänsterextremist	vänsterextremister vänsterextremist vänsterextremisterna
+4	8004	kupong	kuponger kupongen kupong kupongerna
+5	8005	obalans	obalans obalanser obalansen
+6	8006	volt	volt volter volts volten
+7	8007	cowboy	cowboys cowboy cowboyen
+8	8008	stinga	sting stinget stinger stang stings stungen stinga
+9	8009	buk	buken buk bukar bukens
+10	8010	skafferi	skafferiet skafferi skafferier
+11	8011	defekt	defekt defekter defekta defekten defekterna
+12	8012	bekännelse	bekännelse bekännelser bekännelsen
+13	8013	dunk	dunk dunkar dunken dunkarna
+14	8014	fullborda	fullborda fullbordat fullbordar fullbordade fullbordas fullbordades fullbordats fullbordandet fullbordande
+15	8015	evidens	evidens evidensen
+16	8016	äcklad	äcklad äcklade
+17	8017	bu	bu
+18	8018	desamma	desamma
+19	8019	direkten	direkten
+20	8020	elfte	elfte
+21	8021	entreprenörskap	entreprenörskap
+22	8022	forntida	forntida
+23	8023	häromdan	häromdan
+24	8024	kanadensiska	kanadensiska
+25	8025	konsensus	konsensus
+26	8026	miljöpåverkan	miljöpåverkan
+27	8027	motbjudande	motbjudande
+28	8028	mu	mu
+29	8029	ojdå	ojdå
+30	8030	tillvara	tillvara
+31	8031	varefter	varefter
+32	8032	kommunstyrelse	kommunstyrelsen kommunstyrelsens kommunstyrelse
+33	8033	nätt	nätt nätta
+34	8034	diktera	diktera dikterar dikterade dikteras dikterat dikterad dikterades
+35	8035	övervakningskamera	övervakningskameror övervakningskamera övervakningskamerorna övervakningskameran
+36	8036	överblick	överblick överblicken överblickar
+37	8037	entusiasm	entusiasm entusiasmen
+38	8038	mekaniker	mekaniker mekanikern mekanikerna
+39	8039	hjärndöd	hjärndöd hjärndöda hjärndött
+40	8040	miljardär	miljardär miljardärer miljardären miljardärerna
+41	8041	beröva	beröva berövas berövade berövar berövat berövad berövats berövades berövande
+42	8042	bössa	bössa bössan bössor bössorna
+43	8043	reservat	reservatet reservat reservaten reservatets
+44	8044	åldrande	åldrande åldrandet åldrandets
+45	8045	explosiv	explosiva explosiv explosivt explosive
+46	8046	förtvivlan	förtvivlan förtvivlans
+47	8047	bagare	bagare bagaren bagarens bagarna bagares
+48	8048	sparkonto	sparkonto sparkontot sparkonton
+49	8049	förvaring	förvaring förvaringen förvarings
+50	8050	hemvist	hemvist hemvisten
+51	8051	sympatisör	sympatisörer sympatisör sympatisörerna
+52	8052	betoning	betoning betoningen betoningar
+53	8053	jultomte	jultomten jultomte jultomtens jultomtar
+54	8054	materia	materia materian materiens materians
+55	8055	koldioxidutsläpp	koldioxidutsläpp koldioxidutsläppen
+56	8056	strupe	strupen strupe strupar
+57	8057	samhällelig	samhälleliga samhällelig samhälleligt
+58	8058	trädgårdsmästare	trädgårdsmästare trädgårdsmästaren trädgårdsmästarens trädgårdsmästarna
+59	8059	tjeckiska	tjeckiska tjeckiskan
+60	8060	revben	revben revbenen revbenet
+61	8061	heldag	heldag heldagar
+62	8062	undersida	undersidan undersida undersidor
+63	8063	dissa	dissa dissar dissade dissad dissat disse dissen
+64	8064	snabbis	snabbis snabbisar
+65	8065	klimatfråga	klimatfrågan klimatfrågor
+66	8066	vapenvila	vapenvila vapenvilan vapenvilor
+67	8067	sålla	sålla sållar sållas sållat sållade
+68	8068	sjöfart	sjöfart sjöfarten sjöfartens sjöfarts
+69	8069	sia	sia sie siar siade
+70	8070	föreskrift	föreskrifter föreskrifterna föreskrift föreskriften
+71	8071	subtil	subtila subtil subtilt subtilare
+72	8072	statsvetare	statsvetare statsvetaren statsvetarna
+73	8073	bägare	bägaren bägare bägarna
+74	8074	nyckelord	nyckelord nyckelordet nyckelorden
+75	8075	optisk	optiska optisk optiskt
+76	8076	joint	joint joints jointen
+77	8077	pappersarbete	pappersarbete pappersarbetet
+78	8078	kombo	kombo kombon kombos
+79	8079	lossa	lossa lossar lossas lossade lossat lossades losses lossen
+80	8080	obunden	obunden obundet obundna
+81	8081	bira	bira bir biran
+82	8082	halvö	halvön halvö halvöns halvöar halvöarna
+83	8083	rappa	rappa rappar rappade rappen rappande rappat rappe
+84	8084	rocka	rocka rockade rockar rockor rockad rocken rockande rockaden rockan
+85	8085	begriplig	begripligt begriplig begripliga
+86	8086	blända	bländande blända bländad bländar bländade bländas bländades bländning bländat
+87	8087	gummi	gummi gummit gummin
+88	8088	tärning	tärning tärningar tärningarna tärningen
+89	8089	vedervärdig	vedervärdigt vedervärdiga vedervärdig vedervärdige
+90	8090	randig	randiga randig randigt
+91	8091	anonymitet	anonymitet anonymiteten
+92	8092	utrusta	utrusta utrustade utrustas utrustats utrustat utrustades utrustar
+93	8093	kamel	kameler kamel kamelerna kamelen kamelens
+94	8094	trimma	trimma trimmad trimmat trimmade trimmar trimmas
+95	8095	arvinge	arvinge arvingar arvingarna arvingen
+96	8096	moderator	moderator moderatorer moderatorn moderatorerna moderators
+97	8097	odjur	odjuret odjur odjuren odjurets
+98	8098	andraplats	andraplats andraplatsen andraplatser
+99	8099	kvist	kvist kvistar qvist kvisten kvistarna
+100	8100	alfabetisk	alfabetisk alfabetiskt alfabetiska

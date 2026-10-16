@@ -1,0 +1,100 @@
+1	3101	peta	peta pete petar petade petat petad petas petes petades
+2	3102	skånska	skånska skånskan
+3	3103	försäkra	försäkra försäkrar försäkrad försäkrade försäkrat försäkrades försäkras
+4	3104	brittisk	brittisk brittiskt brittiske
+5	3105	övergå	övergår övergå övergick övergått övergången övergående
+6	3106	koncentrera	koncentrera koncentrerad koncentrerar koncentrerade koncentrerat koncentreras koncentrerades koncentrerats
+7	3107	intäkt	intäkter intäkterna intäkt intäkten
+8	3108	gårdag	gårdagens gårdagen gårdag
+9	3109	elit	elit eliten elitens eliter eliterna
+10	3110	omsorg	omsorg omsorgen omsorger
+11	3111	jon	jon joner jons jonerna jonen
+12	3112	potential	potential potentialen potentialer potentialerna
+13	3113	socialism	socialism socialismen socialismens
+14	3114	grädde	grädde grädden
+15	3115	instrument	instrument instrumentet instrumenten instruments instrumentets instrumentens
+16	3116	feg	feg fega fegt fegare fegaste fege
+17	3117	underlag	underlag underlaget underlagen
+18	3118	infrastruktur	infrastruktur infrastrukturen infrastrukturer
+19	3119	mask	mask masken masker maskar maskerna maskarna maskens masks
+20	3120	evighet	evighet evigheter evigheten evighetens evigheters evigheternas
+21	3121	grönsak	grönsaker grönsak grönsakerna grönsaks grönsaken
+22	3122	belöna	belönas belöna belönar belönad belönades belönade belönats belönat belönande
+23	3123	tandläkare	tandläkare tandläkaren tandläkarna tandläkarens tandläkar tandläkares
+24	3124	pannkaka	pannkakor pannkaka pannkakan pannkakorna pannkaks
+25	3125	register	register registret registren
+26	3126	försenad	försenad försenade försenat
+27	3127	slicka	slicka slickar slickade slickat slickad slickande slickas
+28	3128	trea	trea trean treor treorna treans
+29	3129	gemenskap	gemenskap gemenskapen gemenskaper gemenskaperna gemenskapens gemenskapernas
+30	3130	utgift	utgifter utgifterna utgift utgiften
+31	3131	piller	piller pillret pillren pillerna
+32	3132	varumärke	varumärke varumärket varumärken varumärkena varumärkets varumärkes
+33	3133	underhållning	underhållning underhållningen underhållnings
+34	3134	distrikt	distrikt distriktet distrikten distriktets distrikts distriktens
+35	3135	tjugo	tjugo tjugu
+36	3136	ball	ball balla ballt balle ballar ballen ballast ballare ballasten ballaste
+37	3137	konung	konung konungen konungens konungar konungs konungarnas konungars konungarna
+38	3138	förknippa	förknippas förknippar förknippad förknippat förknippade förknippa förknippats förknippades
+39	3139	bestående	bestående beståendes
+40	3140	minoritet	minoritet minoriteter minoriteten minoriteterna minoriteters minoriteternas minoritetens minoritets
+41	3141	vinge	vingar vingarna vinge vingen ving vings vingarnas vingars vingens
+42	3142	måltid	måltid måltider måltiden måltiderna måltidens
+43	3143	ris	ris riset risen
+44	3144	olle	olle olles ollar
+45	3145	bristande	bristande
+46	3146	böter	böter
+47	3147	huvudsakligen	huvudsakligen
+48	3148	häromdagen	häromdagen
+49	3149	söderut	söderut
+50	3150	ursprungligen	ursprungligen
+51	3151	entré	entré entrén entréer entréerna
+52	3152	bevilja	beviljas beviljade beviljat beviljades bevilja beviljats beviljad beviljar beviljande
+53	3153	utgång	utgång utgången utgångar utgångarna utgångs
+54	3154	skämma	skäms skämma skämmer skämdes skämde skäm skämd skämmes utskämd skämda
+55	3155	genomgå	genomgått genomgå genomgår genomgick genomgången genomgångna genomgånget
+56	3156	medlemskap	medlemskap medlemskapet
+57	3157	instämma	instämmer instämma instämmande instämde instämt
+58	3158	kommersiell	kommersiella kommersiell kommersiellt
+59	3159	migrant	migranter migranterna migrant migrants migranters migranternas migranten
+60	3160	systematisk	systematiskt systematiska systematisk
+61	3161	kemisk	kemiska kemisk kemiskt
+62	3162	genuin	genuint genuin genuina genuine
+63	3163	tillsluta	tillslut tillsluten tillslutna tillslutet tillsluta tillsluter tillsluts
+64	3164	geografisk	geografiska geografiskt geografisk
+65	3165	återgå	återgå återgår återgick återgått återgången återgående
+66	3166	lillebror	lillebror lillebrors
+67	3167	befria	befria befriande befriade befriad befriat befrias befriar befriare befriades befriats
+68	3168	passagerare	passagerare passagerarna passageraren passagerar passagerarnas passagerares passagerarens
+69	3169	licens	licens licensen licenser licenserna
+70	3170	anfalla	anfalla anföll anfaller anfölls anfallna anfallen anfallit anfallande anfallas anfalls
+71	3171	protestera	protesterar protestera protesterade protesterat protesterande
+72	3172	diktatur	diktatur diktaturer diktaturen diktaturens diktaturerna diktaturers
+73	3173	prestera	prestera presterar presterat presterade presterande
+74	3174	fåtal	fåtal fåtalet
+75	3175	bänk	bänken bänk bänkar bänkarna
+76	3176	skicklig	skicklig skickliga skickligt skickligaste skickligare skicklige skickligast
+77	3177	arab	araber arab araberna araben arabernas arabs
+78	3178	lösenord	lösenord lösenordet lösenorden
+79	3179	förlängning	förlängning förlängningen förlängningar
+80	3180	rak	rak rakare rakaste rake
+81	3181	ledarskap	ledarskap ledarskapet ledarskapets ledarskaps
+82	3182	ständig	ständiga ständig ständige
+83	3183	flykt	flykt flykten
+84	3184	stryka	stryka stryker strök strukit strykas ströks struken stryks strukits strukna
+85	3185	dialekt	dialekt dialekter dialekten dialekterna
+86	3186	tillägg	tillägg tillägget tilläggen tilläggs
+87	3187	avsedd	avsedd avsedda avsett
+88	3188	vass	vass vassa vassare vasst vassaste vassen vassar vassast vasse
+89	3189	gay	gay gayes
+90	3190	fas	fas faser faserna
+91	3191	uppväxt	uppväxt uppväxten uppväxta uppväxter
+92	3192	inuti	inuti
+93	3193	jaja	jaja
+94	3194	sammanlagt	sammanlagt
+95	3195	sträng	sträng stränga strängt strängare strängar strängen strängarna strängaste strängad stränge
+96	3196	turné	turné turnén turnéer turnéerna turnéns
+97	3197	jury	juryn jury juryns juryer jurys
+98	3198	slav	slavar slav slavarna slaven slaver slavarnas slaverna
+99	3199	anslutning	anslutning anslutningen anslutningar anslutningarna
+100	3200	svans	svans svansen svansar svansarna svansens

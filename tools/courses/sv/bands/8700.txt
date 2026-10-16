@@ -1,0 +1,100 @@
+1	8601	återfall	återfall återfallet återfallen
+2	8602	framfart	framfart framfarten
+3	8603	djupgående	djupgående
+4	8604	etiskt	etiskt
+5	8605	miga	meg
+6	8606	oansvarigt	oansvarigt
+7	8607	oense	oense
+8	8608	räckhåll	räckhåll
+9	8609	självmant	självmant
+10	8610	tolfte	tolfte
+11	8611	uns	uns
+12	8612	överhängande	överhängande
+13	8613	fotografering	fotografering fotograferingen fotograferingar
+14	8614	dipp	dipp dippar dippen
+15	8615	komet	komet kometen kometer kometens kometerna
+16	8616	simulera	simulera simulerar simulerade simulerad simulerat simuleras
+17	8617	snabbhet	snabbhet snabbheten
+18	8618	återhämtning	återhämtning återhämtningen
+19	8619	flygfält	flygfält flygfältet flygfälten
+20	8620	klistermärke	klistermärken klistermärke klistermärket klistermärkena
+21	8621	nyhetsbrev	nyhetsbrev nyhetsbrevet nyhetsbreven
+22	8622	författning	författning författningen författningar författningens författnings
+23	8623	mögel	mögel möglet
+24	8624	salig	salig saliga salige saligt
+25	8625	manöver	manöver manövrar manövern manövrer manövrarna
+26	8626	arbetsvecka	arbetsvecka arbetsveckan arbetsveckor
+27	8627	ål	ål ålar ålen ålens ålarna
+28	8628	kräm	kräm krämen krämer
+29	8629	apotekare	apotekare apotekaren apotekarens apotekarna
+30	8630	asteroid	asteroiden asteroid asteroider asteroiderna asteroids asteroidens
+31	8631	glödlampa	glödlampor glödlampa glödlampan glödlamporna
+32	8632	pytteliten	pytteliten pyttesmå pyttelitet pyttelilla
+33	8633	nötkött	nötkött nötköttet
+34	8634	sammanhållning	sammanhållning sammanhållningen
+35	8635	iakttagelse	iakttagelser iakttagelse iakttagelsen iakttagelserna
+36	8636	bestraffning	bestraffning bestraffningar bestraffningen
+37	8637	inbrottstjuv	inbrottstjuv inbrottstjuvar inbrottstjuven inbrottstjuvarna
+38	8638	mottaglig	mottaglig mottagliga mottagligt
+39	8639	isberg	isberg isberget isbergen isbergs
+40	8640	sjukpenning	sjukpenning sjukpenningen
+41	8641	handelsbank	handelsbanken handelsbankens
+42	8642	inkomstkälla	inkomstkälla inkomstkällor inkomstkällan inkomstkällorna
+43	8643	fruktan	fruktan fruktans
+44	8644	skymma	skymmer skymma skymd skymde skyms skymda skymmande skymdes
+45	8645	buddha	buddha buddhas buddhan buddhor
+46	8646	mango	mango mangos mangon
+47	8647	uppgradering	uppgradering uppgraderingar uppgraderingen uppgraderingarna
+48	8648	galant	galant galante galanta
+49	8649	vibrera	vibrerar vibrerande vibrera vibrerade
+50	8650	biogas	biogas biogasen
+51	8651	uppvakta	uppvakta uppvaktar uppvaktade uppvaktad uppvaktas uppvaktat uppvaktades uppvaktande
+52	8652	medvetslös	medvetslös medvetslösa medvetslöst
+53	8653	kravall	kravaller kravallerna kravall
+54	8654	luftrum	luftrum luftrummet
+55	8655	inkalla	inkallad inkallade inkallas inkallades inkalla inkallande inkallat inkallats
+56	8656	köpcenter	köpcentret köpcenter köpcentrets
+57	8657	skaft	skaft skaftet skaften
+58	8658	alkoholfri	alkoholfri alkoholfria alkoholfritt
+59	8659	engelskspråkig	engelskspråkiga engelskspråkig engelskspråkigt
+60	8660	obeskrivlig	obeskrivligt obeskrivlig obeskrivliga
+61	8661	diarré	diarré diarréer diarrén
+62	8662	chokladkaka	chokladkaka chokladkakor chokladkakan chokladkakorna
+63	8663	extraordinär	extraordinära extraordinärt extraordinär
+64	8664	obesegrad	obesegrade obesegrad obesegrat
+65	8665	kroppslig	kroppsliga kroppslig kroppsligt
+66	8666	kringgå	kringgå kringgår kringgående kringgås kringgick kringgått
+67	8667	meditation	meditation meditationen meditationer meditations
+68	8668	urholka	urholkar urholka urholkas urholkad urholkat urholkade urholkats
+69	8669	säkerhetspolis	säkerhetspolisen säkerhetspolisens säkerhetspolis säkerhetspoliser
+70	8670	imitera	imitera imiterar imiterade imiterat imiterad imiteras
+71	8671	ryta	ryter ryta röt rutet rytande ryt
+72	8672	skorsten	skorstenen skorsten skorstenar skorstenarna
+73	8673	tjeckisk	tjeckisk tjeckiskt tjeckiske
+74	8674	systerdotter	systerdotter systerdottern systerdotters systerdöttrar
+75	8675	socialbidrag	socialbidrag socialbidraget socialbidragen
+76	8676	tillfalla	tillfaller tillfalla tillföll tillfallit
+77	8677	nigger	nigger niggers
+78	8678	kuslig	kusligt kuslig kusliga
+79	8679	humanist	humanist humanisterna humanister humanisten humanisternas
+80	8680	inskränkning	inskränkningar inskränkning inskränkningen inskränkningarna
+81	8681	klantig	klantigt klantig klantiga
+82	8682	kampsport	kampsport kampsporter kampsporten
+83	8683	språng	språng språnget
+84	8684	mållös	mållös mållösa mållöst
+85	8685	snurrig	snurrig snurrigt snurriga
+86	8686	underrättelse	underrättelse underrättelser underrättelsen underrättelserna
+87	8687	älta	älta ältar ältande ältat ältas ältade
+88	8688	snorunge	snorungar snorunge snorungarna snorungen
+89	8689	akutmottagning	akutmottagning akutmottagningen akutmottagningar akutmottagningarna
+90	8690	vidareutveckla	vidareutveckling vidareutveckla vidareutvecklade vidareutvecklats vidareutvecklas vidareutvecklat vidareutvecklad vidareutvecklades vidareutvecklar
+91	8691	barbar	barbarer barbar barbarerna barbaren barbarernas
+92	8692	botanisk	botaniska botanisk botaniskt
+93	8693	osanning	osanning osanningar
+94	8694	åkare	åkare åkarna åkaren
+95	8695	antiken	antiken
+96	8696	drös	drös
+97	8697	egyptiska	egyptiska
+98	8698	främste	främste
+99	8699	gehör	gehör
+100	8700	jadu	jadu

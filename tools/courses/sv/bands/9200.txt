@@ -1,0 +1,100 @@
+1	9101	subjekt	subjekt subjektet subjektets subjekten
+2	9102	dunkel	dunkla dunkel dunkelt dunklet dunkels dunklare
+3	9103	springare	springare springaren springares springar
+4	9104	lömsk	lömska lömsk lömskt lömske lömskare
+5	9105	havre	havre havren
+6	9106	tredjeplats	tredjeplats tredjeplatsen tredjeplatser
+7	9107	vårdslös	vårdslöst vårdslös vårdslösa
+8	9108	marxistisk	marxistiska marxistisk marxistiskt
+9	9109	fascinera	fascineras fascinerar fascinerades fascinerats fascinera fascinerade fascinerat
+10	9110	tynga	tynger tynga tyngde tyngs tyngda tyngt tyngas tyngdes tyng
+11	9111	tomrum	tomrum tomrummet tomrummen
+12	9112	uran	uran uranet
+13	9113	odemokratisk	odemokratiska odemokratisk
+14	9114	ostbåge	ostbågar ostbåge ostbågarna
+15	9115	gruppera	gruppera grupperar grupperade grupperas grupperat grupperad grupperats
+16	9116	julmust	julmust julmusten
+17	9117	sedvanlig	sedvanliga sedvanligt sedvanlig
+18	9118	bestrida	bestrider bestrida bestred bestridit bestridas bestrids bestridande bestrid bestridits
+19	9119	mumla	mumlar mumla mumlade mumlande mumlat
+20	9120	bemanningsföretag	bemanningsföretag bemanningsföretaget bemanningsföretagen
+21	9121	utbildningsnivå	utbildningsnivå utbildningsnivån utbildningsnivåer
+22	9122	valberedning	valberedningen valberedningens valberedning
+23	9123	mäster	mäster mästers
+24	9124	stadsplanering	stadsplanering stadsplaneringen
+25	9125	projektor	projektor projektorn projektorer projektorerna
+26	9126	idrottsman	idrottsman idrottsmän idrottsmännen idrottsmannen
+27	9127	ansa	anses ansa ansar ansade
+28	9128	uppblåst	uppblåst uppblåsta
+29	9129	övergångsställe	övergångsställe övergångsställen övergångsstället
+30	9130	förklä	förklädd förklädda förklätt förklä förklär förklädde
+31	9131	anor	anor
+32	9132	barnsben	barnsben
+33	9133	följaktligen	följaktligen
+34	9134	natti	natti
+35	9135	schweiziska	schweiziska
+36	9136	småländska	småländska
+37	9137	tongivande	tongivande
+38	9138	tvärtemot	tvärtemot
+39	9139	utegångsförbud	utegångsförbud
+40	9140	pur	pure pur pura
+41	9141	självbild	självbild självbilden
+42	9142	lektor	lektor lektorer lektorn
+43	9143	adoption	adoption adoptioner adoptionen
+44	9144	företagsledare	företagsledare företagsledaren företagsledarna
+45	9145	pigment	pigment pigmentet pigmenten
+46	9146	bakfull	bakfull bakfulla
+47	9147	överkropp	överkropp överkroppen överkroppar
+48	9148	påskynda	påskynda påskyndar påskyndade påskyndas påskyndat påskyndad påskyndades påskyndats påskyndande
+49	9149	snöstorm	snöstorm snöstormen snöstormar
+50	9150	medfölja	medföljande medföljer medföljde medfölja
+51	9151	socialen	socialen socialens
+52	9152	närbild	närbild närbilder närbilden närbilderna
+53	9153	oförklarlig	oförklarligt oförklarliga oförklarlig
+54	9154	fördröjning	fördröjning fördröjningen fördröjningar
+55	9155	uthållighet	uthållighet uthålligheten
+56	9156	flina	flinar flina flinade flinande
+57	9157	populistisk	populistiska populistisk
+58	9158	evangelium	evangelium evangeliet evangelierna evangelier evangeliets evangeliernas
+59	9159	mad	mads maden
+60	9160	gorilla	gorilla gorillan gorillor gorillorna
+61	9161	syndabock	syndabock syndabockar syndabocken
+62	9162	invecklad	invecklat invecklade invecklad
+63	9163	materiel	materiel materielen
+64	9164	stuka	stuk stukade stukat stukad stuka stukning stukar
+65	9165	gry	gry grynet gryende gryr gryn grytt grydde grynen
+66	9166	insatsstyrka	insatsstyrkan insatsstyrka insatsstyrkor insatsstyrkorna
+67	9167	anekdot	anekdoter anekdot anekdoten anekdoterna
+68	9168	skandinavisk	skandinavisk skandinaviskt
+69	9169	kolkraft	kolkraft kolkraften
+70	9170	försova	försov försovit försova försover
+71	9171	kvalifikation	kvalifikationer kvalifikation kvalifikationerna kvalifikationen
+72	9172	infanteri	infanteriet infanteri infanteriets
+73	9173	manusförfattare	manusförfattare manusförfattaren manusförfattarna
+74	9174	kapitulera	kapitulera kapitulerade kapitulerar kapitulerat
+75	9175	muntra	muntra muntrar muntrade
+76	9176	skata	skata skatan skator skat skatorna skatans
+77	9177	badplats	badplats badplatser badplatsen
+78	9178	epidemi	epidemi epidemin epidemier
+79	9179	antidepressiv	antidepressiva antidepressiv antidepressivt
+80	9180	hijab	hijab hijaben
+81	9181	lava	lava lavan
+82	9182	optimism	optimism optimismen
+83	9183	röstberättigad	röstberättigade röstberättigad
+84	9184	tändare	tändare tändaren
+85	9185	maskulin	maskulina maskulin maskulint
+86	9186	obildad	obildade obildad obildat
+87	9187	väv	väv väven vävs vävar vävarna vävens
+88	9188	sugrör	sugrör sugröret sugrören
+89	9189	försiggå	försiggår försiggick försiggått försiggå
+90	9190	lagstiftare	lagstiftaren lagstiftare lagstiftarna lagstiftarens lagstiftarnas
+91	9191	matematiker	matematiker matematikern matematikerna
+92	9192	nyförvärv	nyförvärv nyförvärvet nyförvärven
+93	9193	rackare	rackare rackarna rackaren
+94	9194	förord	förord förordet
+95	9195	spetsig	spetsiga spetsig spetsigt spetsigare
+96	9196	tofs	tofs tofsar tofsen tofsarna
+97	9197	ljuda	ljuder ljöd ljuda ljudande ljudit ljuden
+98	9198	dricksvatten	dricksvatten dricksvattnet
+99	9199	kretsa	kretsar kretsade kretsa kretsen kretsat kretsande
+100	9200	projicera	projicera projicerar projicerade projiceras projicerad projicerat projicerades

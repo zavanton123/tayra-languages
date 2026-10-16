@@ -1,0 +1,100 @@
+1	4601	chili	chili chilin chilis
+2	4602	vegetarian	vegetarian vegetarianer vegetarianen vegetarianerna
+3	4603	kräk	kräk kräks kräket kräken
+4	4604	genomtänkt	genomtänkt genomtänkta
+5	4605	akademiker	akademiker akademikers akademikerna akademikern akademikernas
+6	4606	dödsstraff	dödsstraff dödsstraffet dödsstraffets
+7	4607	frakt	frakt frakten frakter
+8	4608	sommarlov	sommarlov sommarlovet sommarloven
+9	4609	trettio	trettio tretti
+10	4610	neger	neger negrer negern negrerna negress negrar
+11	4611	hästkraft	hk hästkrafter hästkraft hästkrafterna
+12	4612	undergång	undergång undergången undergångens
+13	4613	indisk	indisk indiskt indiske
+14	4614	gymnasieskola	gymnasieskola gymnasieskolan gymnasieskolor gymnasieskolorna gymnasieskolans
+15	4615	ekonom	ekonom ekonomer ekonomen ekonomerna ekonomernas
+16	4616	älv	älven älv älvar elf älvarna älvs älvens
+17	4617	omvandla	omvandla omvandlas omvandlar omvandlats omvandlade omvandlat omvandlades omvandlad
+18	4618	sponsor	sponsorer sponsor sponsorerna sponsorn sponsors
+19	4619	hyckleri	hyckleri hyckleriet
+20	4620	andetag	andetag andetaget andetagen
+21	4621	utlänning	utlänningar utlänning utlänningen utlänningarna utlänningars utlännings utlänningens
+22	4622	sovjet	sovjet sovjets sovjeterna sovjeter sovjeternas
+23	4623	lår	lår låren låret lårets lårens
+24	4624	hårddisk	hårddisk hårddisken hårddiskar hårddiskarna hårddiskens
+25	4625	privilegium	privilegier privilegium privilegiet privilegierna
+26	4626	deg	deg degen degar
+27	4627	moder	moder mödrar moderns moders mödrarna mödrars mödrarnas
+28	4628	avsaknad	avsaknad avsaknaden
+29	4629	väpnad	väpnade väpnad väpnat
+30	4630	förkortning	förkortning förkortningen förkortningar förkortningarna
+31	4631	associera	associerade associerar associeras associera associerad associerat associerats associerades
+32	4632	ankomst	ankomst ankomsten ankomster
+33	4633	huvudroll	huvudrollen huvudrollerna huvudroll huvudroller
+34	4634	inviga	invigdes invigs inviga inviger invigas invigde invigt invigts
+35	4635	vakta	vakta vaktar vakten vaktade vaktas vaktat vaktades vaktande
+36	4636	härstamma	härstammar härstamma härstammade härstammande
+37	4637	tjänare	tjänare tjenare tjänaren tjänarinna tjänarna tjänares tjänarens
+38	4638	ögonbryn	ögonbryn ögonbrynen ögonbrynet
+39	4639	höft	höften höft höfter höfterna
+40	4640	jungfru	jungfru jungfrun jungfrur jungfruns jungfrurna
+41	4641	nörd	nörd nördar nörden nördarna
+42	4642	expansion	expansion expansionen expansioner expansionerna expansions
+43	4643	framkomma	framkommer framkom framkommit framkomma
+44	4644	pedofil	pedofiler pedofil pedofilen pedofila pedofilerna
+45	4645	okunnig	okunnig okunniga okunnigt okunnige
+46	4646	imperium	imperiet imperium imperiets imperier imperie imperierna
+47	4647	gurka	gurka gurkan gurkor gurk gurkorna
+48	4648	jättestor	jättestor jättestort jättestora
+49	4649	friskola	friskolor friskola friskolorna friskolan friskolornas
+50	4650	traktor	traktorer traktor traktorn traktorerna traktorns
+51	4651	tröst	tröst trösten tröstens
+52	4652	enastående	enastående
+53	4653	ensamstående	ensamstående
+54	4654	hejsan	hejsan
+55	4655	individuellt	individuellt
+56	4656	västerut	västerut
+57	4657	irrelevant	irrelevant irrelevanta
+58	4658	likvärdig	likvärdig likvärdiga likvärdigt
+59	4659	bingo	bingo bingon
+60	4660	ofarlig	ofarligt ofarliga ofarlig ofarligare
+61	4661	minskning	minskning minskningen minskningar
+62	4662	moster	moster mosters mostrar mostern mostrarna
+63	4663	uppföljare	uppföljare uppföljaren uppföljarna
+64	4664	gåta	gåta gåtan gåtor gåt gåtorna gåtans
+65	4665	västkust	västkusten västkust västkustens
+66	4666	kuvert	kuvert kuvertet kuverten
+67	4667	tragedi	tragedi tragedin tragedier tragedierna tragedins
+68	4668	smet	smet smeten smetar
+69	4669	klimatförändring	klimatförändringar klimatförändringarna klimatförändringen klimatförändring klimatförändringarnas
+70	4670	tangentbord	tangentbord tangentbordet tangentborden
+71	4671	videoklipp	videoklipp videoklippet videoklippen
+72	4672	förkyld	förkyld förkylda
+73	4673	folkhögskola	folkhögskola folkhögskolan folkhögskolor folkhögskolas folkhögskolans folkis folkhögskolorna folkhögskolornas
+74	4674	civilisation	civilisation civilisationen civilisationer civilisationens civilisations civilisationerna civilisationernas civilisationers
+75	4675	stadga	stadgar stadga stadgarna stadgan stadgas stadgade stadgat stadgad stadganden stadgans
+76	4676	umgänge	umgänge umgänget umgängen
+77	4677	produktiv	produktiv produktiva produktivt produktivare produktive
+78	4678	flygvapen	flygvapnet flygvapen flygvapnets
+79	4679	fiber	fiber fibrer fibrerna fibern
+80	4680	utplåna	utplåna utplånar utplånas utplånade utplånades utplånad utplånat utplånats utplånandet utplånande
+81	4681	duka	duke duka dukat dukar duken dukade dukes dukater dukas dukats
+82	4682	palats	palatset palats palatsets palatsen
+83	4683	spilla	spiller spilla spillde spill spillt spilld spills spillts spillas spillda
+84	4684	befälhavare	befälhavare befälhavaren befälhavarna befälhavarens befälhavares
+85	4685	fundering	funderingar fundering
+86	4686	tillträde	tillträde tillträdet
+87	4687	prioritet	prioritet prioriteten prioriteter
+88	4688	burgare	burgare burgaren burgarna
+89	4689	rand	rand ränder randen ränderna rands
+90	4690	obegriplig	obegripligt obegriplig obegripliga
+91	4691	avslut	avslut avslutet avsluten
+92	4692	primär	primära primär
+93	4693	guvernör	guvernör guvernören guvernörer guvernörens guvernörerna guvernörs
+94	4694	välmående	välmående välmåendet
+95	4695	lucia	lucia lucian lucior lucias
+96	4696	flöda	flödar flöda flöden flödade flödande flödat
+97	4697	svida	svider svida svidande sved svid svidit
+98	4698	trailer	trailer trailern trailers trailrar
+99	4699	flit	flit flitens
+100	4700	iskall	iskall iskallt iskalla iskalle

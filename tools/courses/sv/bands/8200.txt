@@ -1,0 +1,100 @@
+1	8101	epok	epok epoker epoken epokerna epokens
+2	8102	orädd	orädd orätt orädda orätta orädde
+3	8103	västlig	västliga västlig västligaste västligt
+4	8104	spjut	spjut spjutet spjuten
+5	8105	livskvalitet	livskvalitet livskvaliteten
+6	8106	spetsa	spetsa spetsen spetsade spetsad spetsat spetsar spetsas spetsades
+7	8107	smörgåstårta	smörgåstårta smörgåstårtan
+8	8108	vicepresident	vicepresident vicepresidenten vicepresidenter vicepresidentens
+9	8109	räta	räta rätar rätas rätade rätan rätades rätat rätats
+10	8110	medhjälpare	medhjälpare medhjälparen medhjälparna
+11	8111	ansvarstagande	ansvarstagande
+12	8112	avis	avis
+13	8113	bakomliggande	bakomliggande
+14	8114	barbie	barbie
+15	8115	dessförinnan	dessförinnan
+16	8116	heltäckande	heltäckande
+17	8117	hut	hut
+18	8118	klarspråk	klarspråk
+19	8119	klimatpåverkan	klimatpåverkan
+20	8120	skriftligt	skriftligt
+21	8121	utantill	utantill
+22	8122	gravsten	gravsten gravstenar gravstenen gravstenarna
+23	8123	statskupp	statskupp statskuppen statskupper
+24	8124	melon	melon meloner melonen
+25	8125	bråkdel	bråkdel bråkdelen bråkdelar bråkdels
+26	8126	investeringssparkonto	isk investeringssparkonto
+27	8127	ojämlikhet	ojämlikhet ojämlikheten ojämlikheter
+28	8128	regent	regent regenter regenten regenterna regents regentens
+29	8129	sötnos	sötnos sötnosar sötnosen sötnosarna
+30	8130	rubin	rubin rubinen rubiner rubins
+31	8131	kallelse	kallelse kallelsen kallelser
+32	8132	uppsöka	uppsöka uppsöker uppsök uppsökande uppsökte uppsökt
+33	8133	influera	influerade influerad influerat influera influeras influerats influerar influerades
+34	8134	perfektion	perfektion perfektionen
+35	8135	bröstkorg	bröstkorgen bröstkorg bröstkorgens
+36	8136	gymma	gymma gymmar gymmat gymmade gymmen
+37	8137	rouge	rouge rouget rouges
+38	8138	granit	granit graniten graniter
+39	8139	uppsikt	uppsikt uppsikten
+40	8140	lufta	luften lufta luftas luftar luftade luftat
+41	8141	ogräs	ogräs ogräset ogräsen
+42	8142	haveri	haveri haveriet haverier
+43	8143	förvaltare	förvaltare förvaltaren förvaltarna förvaltarens
+44	8144	delaktighet	delaktighet delaktigheten
+45	8145	möblera	möblera möblerad möblerar möblerat möblerade
+46	8146	hasch	hasch haschet
+47	8147	fullmakt	fullmakt fullmakten fullmakter
+48	8148	mupp	mupparna muppar mupp muppen mupparnas
+49	8149	korrelation	korrelation korrelationen korrelationer
+50	8150	fåtölj	fåtölj fåtöljen fåtöljer fåtöljerna fotölj
+51	8151	örhänge	örhängen örhänge örhängena örhänget
+52	8152	däri	däri deri
+53	8153	storasyster	storasyster storasystern
+54	8154	kvarleva	kvarlevor kvarleva kvarlevorna kvarlevan
+55	8155	terminal	terminalen terminaler terminalerna terminalt terminala terminalens
+56	8156	bowling	bowling bowlingen bowlingens
+57	8157	frän	frän fränt fräna fränaste
+58	8158	astronaut	astronaut astronauter astronauten astronauterna astronauts
+59	8159	kortfilm	kortfilm kortfilmer kortfilmen kortfilmerna
+60	8160	ishall	ishall ishallen ishallar
+61	8161	sultan	sultan sultanen sultanens sultans sultaner
+62	8162	spionera	spionera spionerar spionerade spionerat spionerande
+63	8163	uppkopplad	uppkopplade uppkopplad uppkopplat
+64	8164	traumatisk	traumatiska traumatisk traumatiskt
+65	8165	revir	revir reviret reviren
+66	8166	tjuta	tjöt tjuter tjuta tjut tjutande
+67	8167	oavsiktlig	oavsiktligt oavsiktliga oavsiktlig
+68	8168	smutskasta	smutskasta smutskastar smutskastade smutskastat smutskastas smutskastad
+69	8169	köttfärssås	köttfärssås köttfärssåsen
+70	8170	cape	cape capen caper
+71	8171	undanhålla	undanhåller undanhålla undanhållit undanhöll undanhållande undanhålls undanhållas undanhållits
+72	8172	träningsmatch	träningsmatch träningsmatcher träningsmatchen träningsmatcherna
+73	8173	vante	vantar vantarna vante vanten
+74	8174	härskarteknik	härskarteknik härskartekniker härskartekniken
+75	8175	könsfördelning	könsfördelning könsfördelningen
+76	8176	bombning	bombningar bombningen bombningarna bombning
+77	8177	älskarinna	älskarinna älskarinnor älskarinnan älskarinnas
+78	8178	dagblad	dagblad dagbladets dagblads
+79	8179	storskalig	storskalig storskaliga storskaligt
+80	8180	bortgång	bortgång bortgångne bortgången
+81	8181	instruktör	instruktör instruktörer instruktören instruktörerna
+82	8182	uppsägning	uppsägning uppsägningar uppsägningen uppsägningarna
+83	8183	åberopa	åberopa åberopar åberopas åberopade åberopat åberopande åberopats åberopades
+84	8184	ticka	tickar tickande ticka tickade tickat ticke tickor
+85	8185	förorena	förorenade förorenat förorenad förorenar förorena förorenas förorenande förorenats
+86	8186	familjeliv	familjeliv familjelivet
+87	8187	larvig	larvigt larvig larviga
+88	8188	sammanfalla	sammanfaller sammanföll sammanfalla sammanfallande sammanfallit
+89	8189	bottenvåning	bottenvåningen bottenvåning bottenvåningarna
+90	8190	bondgård	bondgård bondgården bondgårdar bondgårdarna
+91	8191	kalkyl	kalkyl kalkyler kalkylen kalkylerna
+92	8192	strukturera	strukturera strukturerad strukturerat strukturerade strukturerar struktureras
+93	8193	oskyddad	oskyddat oskyddad oskyddade
+94	8194	knop	knop knopar knops knopen
+95	8195	uppkoppling	uppkoppling uppkopplingen uppkopplingar
+96	8196	däggdjur	däggdjur däggdjuren däggdjuret däggdjurs däggdjurens
+97	8197	bast	bast
+98	8198	eloge	eloge
+99	8199	finländska	finländska
+100	8200	omega	omega

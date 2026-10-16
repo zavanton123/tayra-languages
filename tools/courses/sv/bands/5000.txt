@@ -1,0 +1,100 @@
+1	4901	matsal	matsalen matsal matsalar matsalens
+2	4902	uggla	uggla ugglor ugglan ugglas ugglorna ugglans ugglornas
+3	4903	åtalad	åtalad åtalade åtalat
+4	4904	inrätta	inrätta inrättas inrättades inrättat inrättandet inrättade inrättande inrättar inrättats inrättad
+5	4905	höna	höna hönan hönor hönorna hönans
+6	4906	uppgörelse	uppgörelse uppgörelsen uppgörelser
+7	4907	ved	ved veden vedens
+8	4908	tub	tuben tub tuber tuberna tubs
+9	4909	brant	brant branta brantare branten branter brantaste branterna
+10	4910	fejka	fejkade fejka fejkar fejkad fejkat
+11	4911	äldreboende	äldreboende äldreboenden äldreboendet äldreboendena
+12	4912	betona	betonar betona betonade betonas betonat betonades betonad betonande
+13	4913	list	list lister lists listen listerna
+14	4914	apropå	apropå
+15	4915	inrikes	inrikes
+16	4916	medeltida	medeltida
+17	4917	pang	pang
+18	4918	självfallet	självfallet
+19	4919	styck	styck
+20	4920	tidsfråga	tidsfråga
+21	4921	utåt	utåt
+22	4922	association	association associationer associationen associations associationerna
+23	4923	utvärdera	utvärdera utvärderas utvärderar utvärderade utvärderat utvärderats utvärderades utvärderad
+24	4924	skans	skansen skans skansens schantz skantz skansar
+25	4925	clown	clown clowner clownen clownerna clowns
+26	4926	tolerera	tolerera tolererar tolereras tolererat tolererade tolererad tolererades tolererats
+27	4927	mejla	mejla mejlar mejlade mejlat mejlen
+28	4928	besvärlig	besvärligt besvärlig besvärliga besvärligare
+29	4929	reflektion	reflektion reflektioner reflektionen reflexion reflektionerna
+30	4930	berättigad	berättigad berättigade berättigat
+31	4931	gevär	gevär geväret gevären
+32	4932	arrangör	arrangör arrangörerna arrangörer arrangören arrangörens arrangörernas
+33	4933	sekulär	sekulära sekulär sekulärt
+34	4934	vardaglig	vardagliga vardagligt vardaglig
+35	4935	jeppe	jepp jeppe jeppes
+36	4936	döv	döv döva dövas döve dövar
+37	4937	påvisa	påvisa påvisar påvisas påvisade påvisat påvisats påvisad påvisades påvisande
+38	4938	samlag	samlag samlaget samlagen
+39	4939	ljuvlig	ljuvlig ljuvligt ljuvliga ljuvligaste ljuvligare
+40	4940	senat	senaten senat senatens senats
+41	4941	rättfärdiga	rättfärdiga rättfärdigar rättfärdigas rättfärdigat rättfärdigade rättfärdigande rättfärdige rättfärdigad rättfärdiges
+42	4942	svartvit	svartvit svartvitt svartvita
+43	4943	konvertera	konvertera konverterade konverterar konverterat konverteras konverterad konverterats konverterades
+44	4944	praxis	praxis praxisen
+45	4945	kännedom	kännedom kännedomen
+46	4946	kloster	kloster klostret klostrets klostren klosters
+47	4947	charm	charm charmen charms
+48	4948	pedagog	pedagog pedagoger pedagogerna pedagogen
+49	4949	inriktad	inriktad inriktade inriktat
+50	4950	expo	expo expos expon
+51	4951	vinka	vinka vinkar vinkade vinken vinkat vinkande vinkas
+52	4952	svit	svit sviten sviter sviterna
+53	4953	fjäril	fjärilar fjäril fjärilen fjärilarna fjärils fjärilens fjärilarnas
+54	4954	biff	biff biffen biffar biffarna
+55	4955	visuell	visuell visuella visuellt
+56	4956	tätort	tätort tätorten tätorter tätorterna tätortens tätorts
+57	4957	motsättning	motsättningar motsättning motsättningarna motsättningen
+58	4958	rikedom	rikedom rikedomar rikedomen rikedomarna rikedomens
+59	4959	ideologisk	ideologiska ideologisk
+60	4960	debattör	debattörer debattör debattören debattörerna
+61	4961	bal	bal balen baler balar balarna balens balerna
+62	4962	inredning	inredning inredningen inredningar inrednings inredningarna
+63	4963	krok	krok krokarna kroken krokar kroks
+64	4964	ofattbar	ofattbart ofattbar ofattbara
+65	4965	drastisk	drastiskt drastiska drastisk
+66	4966	vipa	vip vipan
+67	4967	riksdagsval	riksdagsvalet riksdagsval riksdagsvalen
+68	4968	uppgradera	uppgradera uppgraderad uppgraderade uppgraderar uppgraderat uppgraderas uppgraderats uppgraderades
+69	4969	hållbarhet	hållbarhet hållbarheten
+70	4970	avfall	avfall avfallet avfalls
+71	4971	diameter	diameter diametern diametrar
+72	4972	önskvärd	önskvärt önskvärd önskvärda
+73	4973	värdighet	värdighet värdigheten
+74	4974	styrning	styrning styrningen styrningar
+75	4975	affärsman	affärsman affärsmän affärsmannen affärsmännen
+76	4976	ekvation	ekvationen ekvation ekvationer ekvationerna ekvationens
+77	4977	beordra	beordrade beordrar beordrat beordrades beordra beordrad beordras beordrats
+78	4978	knipa	knipa kniper knip knipan knipor knipit
+79	4979	hantverkare	hantverkare hantverkarna hantverkaren hantverkares hantverkarnas
+80	4980	betong	betong betongen betongens
+81	4981	asiatiska	asiatiska
+82	4982	homo	homo
+83	4983	ramen	ramen
+84	4984	rasande	rasande
+85	4985	samverkan	samverkan
+86	4986	rättslig	rättsliga rättslig rättsligt
+87	4987	bus	bus buset
+88	4988	förvirring	förvirring förvirringen
+89	4989	stolpe	stolpe stolpen stolpar stolparna
+90	4990	konsumera	konsumera konsumerar konsumeras konsumerat konsumerade konsumerades
+91	4991	nedgång	nedgång nedgången nedgångar nedgångna nedgånget nergång nergången nedgångarna
+92	4992	radar	radar radarn radarns
+93	4993	strejk	strejk strejken strejker strejkerna
+94	4994	spansk	spansk spanskt spanske
+95	4995	lögnare	lögnare lögnaren lögnarna
+96	4996	kam	kam kammar kammen kammarna kams
+97	4997	cykling	cykling cyklingen
+98	4998	brottslig	brottsligt brottslig brottsliga
+99	4999	beröm	beröm berömmet
+100	5000	bikini	bikini bikinin bikinis

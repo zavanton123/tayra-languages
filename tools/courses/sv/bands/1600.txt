@@ -1,0 +1,100 @@
+1	1501	sjö	sjön sjö sjöar sjöarna sjöns sjöarnas sjös sjöars
+2	1502	kommunal	kommunala kommunal kommunalt kommunals kommunalare
+3	1503	info	info infon infos
+4	1504	kamp	kamp kampen kamper kampens kamperna kampar kamps
+5	1505	meddela	meddela meddelar meddelade meddelat meddelas meddelades meddelats meddelad
+6	1506	vinnare	vinnare vinnaren vinnarna vinnarens vinnar vinnarnas
+7	1507	skylla	skylla skyller skyll skyllde skyllt skylls skyllas skylldes
+8	1508	lo	los lo lon
+9	1509	sjunka	sjunker sjunka sjönk sjunkit sjunkande sjunk sjunken
+10	1510	make	make maken makes makar makarna makens makarnas makars
+11	1511	armé	armén armé arméer arméns arméerna armés
+12	1512	sugen	sugen sugna suget
+13	1513	berättelse	berättelse berättelser berättelsen berättelserna berättelsens berättelsernas
+14	1514	hindra	hindra hindrar hindrade hindrat hindras hindrande hindren hindrades hindrad hindrats
+15	1515	gäst	gäster gäst gästerna gästen gästernas gästers gästs gästens
+16	1516	sång	sång sången sånger sångerna sångens sångernas
+17	1517	ras	ras race raser rasen racet rasens raserna raset races racen
+18	1518	trafik	trafik trafiken trafikens
+19	1519	press	press pressen pressar pressens pressarna
+20	1520	ro	ro rosor ros ron rodd ror rosorna rodde rosen rosens
+21	1521	torsdag	torsdag torsdags torsdagen torsdagar torsdagens torsdagarna
+22	1522	äkta	äkta äktade äktat äktar äkt
+23	1523	nyfiken	nyfiken nyfikna nyfiket nyfikne
+24	1524	amerikansk	amerikansk amerikanskt amerikanske
+25	1525	domstol	domstol domstolen domstolar domstolarna domstolens domstols domstolarnas domstolars
+26	1526	äcklig	äckligt äckliga äcklig äckligaste äckligare
+27	1527	religiös	religiösa religiös religiöst religös religiöse
+28	1528	käft	käften käft käftar käftarna
+29	1529	beredd	beredd beredda berett beredde
+30	1530	variera	varierar varierande variera varierad varierat varierade varieras varierades
+31	1531	upptäcka	upptäcka upptäcker upptäckte upptäcktes upptäcks upptäck upptäckas upptäckts upptäckande upptäckandet
+32	1532	respektive	respektive resp
+33	1533	pojkvän	pojkvän pojkvännen pojkvänner pv pojkväns pojkvännens pojkvännerna
+34	1534	själ	själ själen själar själens själs själarna själars själarnas
+35	1535	förklaring	förklaring förklaringen förklaringar förklaringarna
+36	1536	allmänt	allmänt
+37	1537	desto	desto
+38	1538	åter	åter
+39	1539	återigen	återigen
+40	1540	sammanhang	sammanhang sammanhanget sammanhangen
+41	1541	förutsättning	förutsättningar förutsättningarna förutsättning förutsättningen
+42	1542	undersöka	undersöka undersöker undersökt undersökte undersökas undersök undersöktes undersöks undersökande undersökta
+43	1543	prins	prins prinsessan prinsessa prinsen prinsessor prinsar prinsens prinsessorna prinsarna prinsessans
+44	1544	lopp	lopp loppet loppen loppets
+45	1545	ordna	ordna ordnat ordnade ordnar ordnas ordnad ordnades ordnats ordnande ordnandet
+46	1546	översättning	översättning översättningar översättningen översättningarna öfversättning
+47	1547	flaska	flaska flaskor flaskan flaskorna flaskans
+48	1548	station	station stationen stationer stationerna stationens stations stationernas
+49	1549	råda	råder råda rådde rått råde råddes råden rådda råare råds
+50	1550	album	album albumet albumen albumets albums
+51	1551	bröd	bröd bröt brödet bröden brön brödets bröna
+52	1552	tävla	tävla tävlar tävlade tävlande tävlat tävlandet tävlas tävlandes tävlanden tävlades
+53	1553	rom	rom romer romska roms romerna romernas rommen romen romers
+54	1554	webbplats	webbplats webbplatsen webbplatser webbplatsens webbplatserna
+55	1555	kliva	kliva kliver klev kliv klivit klivet kleve kleven
+56	1556	beteende	beteende beteenden beteendet beteendena
+57	1557	lagom	lagom lagomt
+58	1558	notera	notera noterar noterat noterade noteras noterades noterad noterats
+59	1559	olycka	olycka olyckor olyckan olyckorna olyckans olycks
+60	1560	fy	fy
+61	1561	sms	sms
+62	1562	stycken	stycken
+63	1563	vind	vinden vind vindar vindarna vindens vindarnas vint vindor vinda vinde
+64	1564	mormor	mormor mormors mormodern mormödrar mormoderns
+65	1565	fattig	fattiga fattig fattigare fattigt fattigaste fattige fattigas fattigast fattiges
+66	1566	backa	backa backar backen backe backade backat backas backarna backades backes
+67	1567	storlek	storlek storleken storlekar storlekarna storleks
+68	1568	produktion	produktion produktionen produktioner produktions produktionerna produktionens
+69	1569	släkt	släkt släkten närmre släkter släktens släkts släkterna närmst
+70	1570	pinsam	pinsamt pinsam pinsamma pinsammaste pinsammare
+71	1571	sjukvård	sjukvård sjukvården sjukvårdens sjukvårds
+72	1572	attack	attack attacken attacker attackerna attacks attackens
+73	1573	kär	kär kärt käraste käre kärare
+74	1574	besviken	besviken besvikna besviket
+75	1575	variant	variant varianter varianten varianterna
+76	1576	lektion	lektion lektioner lektionen lektionerna
+77	1577	digital	digitala digital digitalt digitals digitale
+78	1578	inleda	inleds inledde inleder inleddes inleda inletts inlett inledas inled inledd
+79	1579	kritisera	kritiserar kritisera kritiserade kritiseras kritiserat kritiserad kritiserats kritiserades kritiserande
+80	1580	ställning	ställning ställningen ställningar ställningarna
+81	1581	existera	existerar existera existerade existerat
+82	1582	hemlig	hemliga hemlig hemligt hemlige hemligaste hemligare
+83	1583	längta	längtar längtat längta längtade längtande
+84	1584	återvända	återvända återvänder återvände återvänt återvändande återvänd
+85	1585	stackars	stackars
+86	1586	tvärtom	tvärtom
+87	1587	västra	västra
+88	1588	arbetsgivare	arbetsgivare arbetsgivaren arbetsgivarna arbetsgivarens arbetsgivares arbetsgivarnas arbetsgivar
+89	1589	glädje	glädje glädjen glädjens
+90	1590	tränare	tränare tränaren tränarna tränarens tränares
+91	1591	filma	filma filmen filmade filmar filmat filmad filmades filmas filmats filmandet
+92	1592	förtroende	förtroende förtroendet förtroenden
+93	1593	tröja	tröja tröjan tröjor tröjorna tröjans
+94	1594	enhet	enheter enhet enheten enheterna enhetens enhets enheternas enheters
+95	1595	andas	andas andades andes andens andats
+96	1596	hals	halsen hals halsar halsens halsarna
+97	1597	rädsla	rädsla rädslan rädslor rädslans rädslorna
+98	1598	inkludera	inkluderar inkludera inkluderade inkluderande inkluderas inkluderat inkluderad inkluderades inkluderats
+99	1599	mejl	mail mejl mejlet mejlen
+100	1600	bekant	bekant bekanta bekantar bekante bekantas bekantat bekants bekantade

@@ -1,0 +1,100 @@
+1	5301	hunger	hunger hungern hungerns
+2	5302	nykomling	nykomling nykomlingen nykomlingar nykomlingarna
+3	5303	obegränsad	obegränsat obegränsad obegränsade
+4	5304	hyresgäst	hyresgäster hyresgäst hyresgästen hyresgästerna hyresgästernas hyresgästens
+5	5305	italienare	italienare italienarna italienaren italienarnas
+6	5306	besparing	besparingar besparing besparingarna besparingen
+7	5307	automatisk	automatisk automatiska
+8	5308	snuskig	snuskiga snuskigt snuskig snuskigaste snuskigare
+9	5309	signalera	signalerar signalera signalerade signalerat signaleras
+10	5310	mottagningsbevis	mb
+11	5311	moraliskt	moraliskt
+12	5312	nix	nix
+13	5313	självaste	självaste
+14	5314	pendeltåg	pendeltåg pendeltåget pendeltågen
+15	5315	tandvård	tandvård tandvården tandvårdens tandvårds
+16	5316	antibiotika	antibiotika antibiotikan
+17	5317	bättra	bättra bättre bättrar bättrat bättrade bättras bättrats
+18	5318	föreligga	föreligger föreligga förelåg föreliggande förelegat
+19	5319	spegla	speglar spegla speglas speglade speglat speglades speglande speglad speglen
+20	5320	auktion	auktion auktionen auktioner auktionerna auktionens
+21	5321	bur	bur burar buren burarna burens burs buret
+22	5322	bom	bom bommen bommarna bommar
+23	5323	kvitta	kvittar kvitta kvittas kvitten kvittade kvittat
+24	5324	yoghurt	yoghurt yogurt yoghurten
+25	5325	lojalitet	lojalitet lojaliteten lojaliteter
+26	5326	pendla	pendla pendlar pendlade pendlat pendlande
+27	5327	lott	lott lotter lotterna lotten
+28	5328	håla	håla hålan hålor hålen håle hålorna
+29	5329	grus	grus gruset
+30	5330	inskränka	inskränka inskränkt inskränker inskränkta inskränkas inskränks inskränkte inskränkande inskränktes
+31	5331	valresultat	valresultatet valresultat valresultaten
+32	5332	motståndsrörelse	motståndsrörelsen motståndsrörelse motståndsrörelsens motståndsrörelser
+33	5333	markant	markant markanta
+34	5334	väsen	väsen väsendet väsens väsendena
+35	5335	bloggare	bloggare bloggaren bloggerska bloggarna
+36	5336	trottoar	trottoaren trottoar trottoarer trottoarerna
+37	5337	polisbil	polisbil polisbilar polisbilen polisbilarna
+38	5338	extremism	extremism extremismen
+39	5339	gudstjänst	gudstjänst gudstjänster gudstjänsten gudstjänsterna gudstjänstens
+40	5340	fullfölja	fullfölja fullföljer fullföljde fullföljt fullföljas fullföljs fullföljande fullföljdes fullföljd fullfölj
+41	5341	sank	sankt sank sanka
+42	5342	knarkare	knarkare knarkarna knarkaren
+43	5343	bostadsmarknad	bostadsmarknaden bostadsmarknad
+44	5344	psyke	psyket psyke psyken psykets
+45	5345	huvudperson	huvudpersonen huvudperson huvudpersonerna huvudpersoner huvudpersonens huvudpersonernas
+46	5346	anamma	anamma anammat anammar anammade anammas anammats anammades anammande
+47	5347	blodtryck	blodtryck blodtrycket
+48	5348	trav	trav traven travet travets
+49	5349	verifiera	verifiera verifierat verifierade verifieras verifierar verifierad verifierats verifierades
+50	5350	påkörd	påkörd påkörda påkört
+51	5351	varva	varva varvar varvat varvade varvas varven varvad varvades
+52	5352	småbarn	småbarn småbarnen småbarns
+53	5353	skamlig	skamligt skamliga skamlig
+54	5354	veteran	veteran veteraner veteranen veteranerna veterans veteranernas
+55	5355	sammanställa	sammanställt sammanställa sammanställer sammanställd sammanställde sammanställda sammanställdes sammanställts sammanställs sammanställ
+56	5356	trans	trans transen
+57	5357	önskemål	önskemål önskemålet önskemålen
+58	5358	asylboende	asylboende asylboenden asylboendet
+59	5359	session	session sessionen sessioner sessions sessionerna
+60	5360	köping	köping köpings köpingen
+61	5361	tillåtelse	tillåtelse tillåtelsen
+62	5362	synsätt	synsätt synsättet synsätten
+63	5363	fläsk	fläsk fläsket
+64	5364	abba	abba abbas
+65	5365	pedagogik	pedagogik pedagogiken pedagogikens
+66	5366	namnge	namnge namngivna namngiven namngav namngavs namnger namnges namngett namngetts namngivit
+67	5367	ledighet	ledighet ledigheten ledigheter
+68	5368	framkalla	framkalla framkallar framkallade framkallande framkallat framkallas framkallad framkallades framkallats framkallare
+69	5369	stupa	stupade stupar stupat stöpet stupa stöpa stupad stöpt stöp stöpta
+70	5370	psykopat	psykopat psykopater psykopaten psykopaterna
+71	5371	staket	staket staketet staketen
+72	5372	grace	grace graces gracerna
+73	5373	avbrott	avbrott avbrottet avbrotten
+74	5374	kemikalie	kemikalier kemikalierna kemikalie kemikalien
+75	5375	civiliserad	civiliserat civiliserade civiliserad
+76	5376	kontext	kontext kontexten kontexter
+77	5377	tvål	tvål tvålen tvålar tvålarna
+78	5378	blöja	blöjor blöja blöjan blöjorna
+79	5379	islamistisk	islamistiska islamistisk islamistiskt
+80	5380	nedlagd	nedlagd nedlagda nedlagt
+81	5381	bakifrån	bakifrån
+82	5382	bakre	bakre
+83	5383	fånigt	fånigt
+84	5384	hoppsan	hoppsan
+85	5385	oroväckande	oroväckande
+86	5386	pilla	pilla pillar pillade pillars pillat pille pillande
+87	5387	langa	langa lange langar langade langes langen langat langas
+88	5388	fräck	fräcka fräckt fräck fräckaste fräckare
+89	5389	missbruka	missbrukar missbruka missbrukat missbrukas missbrukade missbrukande missbrukats missbrukades
+90	5390	frågeställning	frågeställningen frågeställning frågeställningar frågeställningarna
+91	5391	sammanträffande	sammanträffande sammanträffanden sammanträffandet
+92	5392	sub	sub subs subben subbar
+93	5393	pyssla	pysslar pyssla pysslade pysslat
+94	5394	exotisk	exotiska exotiskt exotisk
+95	5395	tabu	tabu tabun tabut
+96	5396	sjöman	sjömän sjöman sjömannen sjömännen sjömans sjömännens sjömäns sjömannens
+97	5397	sminka	sminka sminkar sminkade sminkad sminkat sminkas
+98	5398	rörlig	rörliga rörlig rörligt rörligare
+99	5399	kattunge	kattungar kattunge kattungen kattungarna
+100	5400	datorspel	datorspel datorspelen datorspelet

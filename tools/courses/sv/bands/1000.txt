@@ -1,0 +1,100 @@
+1	901	gällande	gällande gällandes
+2	902	dröm	dröm drömmar drömmen drömmarna drömmars drömmarnas drömmens
+3	903	därefter	därefter
+4	904	numera	numera
+5	905	oj	oj
+6	906	toppen	toppen
+7	907	acceptera	acceptera accepterar accepterat accepterade accepteras accepterad accepterande accepterades accepterats accepterandet
+8	908	beställa	beställa beställde beställt beställer beställ beställd beställda beställas beställdes beställts
+9	909	ursäkt	ursäkt ursäkter ursäkten ursäkterna
+10	910	drabba	drabbas drabbade drabbar drabbats drabbades drabba drabbat drabbad
+11	911	forskning	forskning forskningen forsknings forskningar forskningens
+12	912	agera	agera agerar agerande agerat agerade agerandet ageranden
+13	913	lova	lova lovat lovade lovar lovande lovad loves lovas lovades lovats
+14	914	vägra	vägrar vägrade vägra vägrat vägrenen vägras vägren vägrades vägrenar vägrats
+15	915	version	version versionen versioner versionerna versions versionens
+16	916	färg	färg färger färgen färgerna färgens färgernas färgers färgs
+17	917	student	studenter student studenten studenterna studenternas students studenters studentens studentska
+18	918	besöka	besöka besökte besöker besökt besökta besöktes besökande besöks besökas besökts
+19	919	ledsen	ledsen ledsna lessen ledsnat ledsnade ledsnar ledsnare lessna ledset
+20	920	riksdag	riksdagen riksdag riksdagens riksdags riksdagar riksdagarna
+21	921	låna	låna lånar lånade lånat lånas lånad lånen lånades lånats låne
+22	922	suga	suger suga sug sög sugar sugit sugs suget sugas suge
+23	923	sänka	sänka sänker sänkt sänk sänkte sänks sänkas sänktes sänkts sänkan
+24	924	förhållande	förhållande förhållanden förhållandet förhållandena
+25	925	april	april aprils
+26	926	nuvarande	nuvarande
+27	927	rakt	rakt
+28	928	sju	sju
+29	929	sticka	sticker sticka stack stick stacken stuckit stickade sticket stickad sticks
+30	930	undvika	undvika undviker undvik undvikas undvek undvikit undvikande undviks undvikits undveks
+31	931	syfte	syfte syftet syften syftena
+32	932	villa	ville villa villor villan villas villorna villans villar villes villande
+33	933	förbjuda	förbjuda förbjudet förbjuder förbjudna förbjuden förbjud förbjudas förbjöd förbjudit förbjöds
+34	934	gråta	gråta gråter grät gråt gråtit gråtande gråten gråtandes
+35	935	duktig	duktig duktiga duktigt duktigare duktige duktigaste duktigast
+36	936	bevis	bevis beviset bevisen
+37	937	förtjäna	förtjänar förtjänade förtjäna förtjänat förtjänas förtjänad
+38	938	blanda	blanda blandar blandat blandade blandad blandas blandades blandats blandande blandare
+39	939	rad	rad rader raden raderna radens rads
+40	940	katt	katt katter katten katterna kattens katts katternas katters
+41	941	fest	fest festen fester festerna festens
+42	942	hård	hård hårda hårdare hårdaste hårdast hårde hårds
+43	943	plus	plus
+44	944	lördag	lördag lördags lördagen lördagar lördagens lör lördagarna
+45	945	fängelse	fängelse fängelset fängelser fängelserna fängelsets
+46	946	kritik	kritik kritiken kritikernas kritikens
+47	947	kurs	kurs kurser kursen kurserna kursens
+48	948	bär	bär bärs bären bäret bärsen bärens
+49	949	ledare	ledare ledaren ledarna ledarens ledares ledarnas
+50	950	genomföra	genomföra genomfördes genomför genomförde genomfört genomförs genomföras genomförd genomförts genomförandet
+51	951	van	van vana vanor vant vanan vans vane vanorna vanten vanans
+52	952	lycklig	lycklig lyckliga lyckligt lyckligare lyckligaste lyckligast lycklige
+53	953	rättighet	rättigheter rättighet rättigheterna rättigheten rättigheternas
+54	954	kraft	kraft krafter kraften krafterna krafts kraftens krafters krafternas
+55	955	miljö	miljö miljön miljöer miljöerna miljöns
+56	956	bidrag	bidrag bidraget bidragen bidrags bidragens bidragets
+57	957	behålla	behålla behåller behåll behöll behållit behållas behålls behölls behållits
+58	958	ledig	ledig lediga ledigt ledigare
+59	959	tävling	tävlingen tävling tävlingar tävlingarna tävlingens tävlings tävlingarnas
+60	960	fru	fru frun fruar frus fruns fruarna fruars
+61	961	befolkning	befolkningen befolkning befolkningens befolkningar befolknings befolkningarna
+62	962	augusti	augusti
+63	963	park	park parken parker parks parkerna parkens parkers
+64	964	rygg	ryggen rygg ryggar ryggarna ryggens
+65	965	föreslå	föreslår föreslog föreslå föreslagit föreslås föreslagna föreslagits föreslogs föreslagen föreslaget
+66	966	tillgång	tillgång tillgångar tillgången tillgångarna tillgångs
+67	967	mord	mord mordet morden mordets
+68	968	nationell	nationella nationell nationellt
+69	969	vit	vit vite vitt vitare viten vitaste vitet hvit vidt hvitt
+70	970	söndag	söndag söndagen söndagar söndags söndagens söndagarna
+71	971	linje	linje linjen linjer linjerna linjens linie linjers
+72	972	ordning	ordning ordningen ordningens ordningar ordnings
+73	973	åtta	åtta åttan åttor åttorna åttans
+74	974	smaka	smakar smaka smakade smaken smakat smakande
+75	975	koppla	koppla kopplat kopplade kopplar kopplas kopplad kopplades kopplats kopplen
+76	976	jävligt	jävligt jävligare
+77	977	blå	blå blått blåa blåare blåaste blåe
+78	978	skäl	skäl skälet skälen
+79	979	händelse	händelser händelse händelsen händelserna händelsernas händelsens
+80	980	bakgrund	bakgrund bakgrunden bakgrunder bakgrunds bakgrunderna
+81	981	antingen	antingen
+82	982	cirka	cirka
+83	983	förmodligen	förmodligen
+84	984	km	km
+85	985	naturligtvis	naturligtvis
+86	986	undan	undan
+87	987	personal	personal personalen personalens personals
+88	988	måndag	måndag måndagen mån måndags måndagar månen måns måndagens måna månens
+89	989	straff	straff straffet straffar straffen straffarna straffets
+90	990	besök	besök besöket besöks besöken
+91	991	snäll	snäll snällt snällare snällaste snälle snel snällast
+92	992	kön	kön könen könet köns könens könets
+93	993	love	love lovar loves loven
+94	994	sten	sten stenar stenen stenarna stenens stens stenarnas
+95	995	pågå	pågår pågått pågick pågå
+96	996	konto	konto kontot konton kontona kontots kontos
+97	997	syster	syster systrar systrarna systern systers systerns systrarnas systrars
+98	998	skilja	skiljer skilja skiljas skilde skild skiljs skildes skiljde skilt skilj
+99	999	hjärna	hjärnan hjärna hjärnor hjärnans hjärn hjärnorna hjärnas hjärne
+100	1000	bred	bred brett breda bredare bredd bredden bre breder brer bredaste

@@ -1,0 +1,100 @@
+1	6201	släkte	släkte släktet släkten släktena släktets släktens släktes
+2	6202	förverkliga	förverkliga förverkligas förverkligar förverkligade förverkligande förverkligades förverkligat förverkligats förverkligad
+3	6203	reflex	reflex reflexer reflexerna reflexen
+4	6204	sjukförsäkring	sjukförsäkring sjukförsäkringen sjukförsäkringar
+5	6205	fobi	fobi fobier fobin
+6	6206	speltid	speltid speltiden
+7	6207	åldersgräns	åldersgräns åldersgränsen åldersgränser åldersgränserna
+8	6208	bedragare	bedragare bedragaren bedragarna
+9	6209	finfin	finfint finfina finfin
+10	6210	bibliotekarie	bibliotekarie bibliotekarien bibliotekarier bibliotekarierna
+11	6211	nederlag	nederlag nederlaget nederlagen nederlagets
+12	6212	brödraskap	brödraskapet brödraskap brödraskapets
+13	6213	bolla	bollen bolla bollar bolle bollas bollade bollat
+14	6214	busschaufför	busschauffören busschaufför busschaufförer busschaufförerna
+15	6215	bäck	bäck bäckar bäckarna bäckens
+16	6216	kompromissa	kompromissa kompromissar kompromissen kompromissat kompromissade kompromissande kompromissas
+17	6217	likasinnad	likasinnade likasinnad
+18	6218	livvakt	livvakt livvakter livvakten livvakterna
+19	6219	skrot	skrot skroten skrotar skrotet
+20	6220	avslå	avslås avslog avslår avslå avslogs avslagit avslagits
+21	6221	behörighet	behörighet behörigheter behörigheten behörigheterna
+22	6222	bringa	bringa bringar bragd bragder bringas bringade bragden bragt bringat bringan
+23	6223	avlägsen	avlägsen avlägset avlägsnare
+24	6224	uppmärksam	uppmärksam uppmärksamt
+25	6225	hemmamatch	hemmamatcher hemmamatch hemmamatcherna hemmamatchen
+26	6226	hopplös	hopplös hopplösa
+27	6227	härkomst	härkomst härkomsten
+28	6228	föregå	föregå föregår föregick föregås föregicks föregåtts föregått
+29	6229	anstalt	anstalt anstalten anstalter anstalterna anstaltens anstalts
+30	6230	otillräcklig	otillräcklig otillräckligt otillräckliga
+31	6231	kortfattad	kortfattat kortfattad kortfattade
+32	6232	skruv	skruv skruvar skruvarna skruven skruf
+33	6233	kommentator	kommentator kommentatorer kommentatorerna kommentatorn
+34	6234	återförena	återförenas återförenade återförenades återförenats återförena återförenad återförenat återförenar återförenande
+35	6235	avstängning	avstängning avstängningen avstängningar avstängningarna
+36	6236	galler	galler gallret gallerna gallren gallernas gallern
+37	6237	tagg	tagg taggar taggarna taggen
+38	6238	instängd	instängd instängda instängt
+39	6239	skrivare	skrivare skrivaren skrivarna skrivares
+40	6240	uppföljning	uppföljning uppföljningen uppföljningar
+41	6241	knepig	knepig knepiga knepigare
+42	6242	iaktta	iaktta iakttar iakttas iakttog iakttagit iakttagits iakttogs iakttagen iakttagna iakttaga
+43	6243	jogga	jogga joggar jogg joggade joggat joggande
+44	6244	ologisk	ologiskt ologiska ologisk
+45	6245	blankett	blankett blanketten blanketter blanketterna
+46	6246	slakt	slakt slakten
+47	6247	pryda	pryder pryda pryd prydd pryds prydde prydda prytt pryddes pryde
+48	6248	linne	linne linnet linnen linnets
+49	6249	gammaldags	gammaldags
+50	6250	minimum	minimum
+51	6251	oavgjort	oavgjort
+52	6252	ork	ork
+53	6253	sisådär	sisådär
+54	6254	snuten	snuten
+55	6255	såvitt	såvitt
+56	6256	western	western
+57	6257	överväldigande	överväldigande
+58	6258	avsiktlig	avsiktligt avsiktlig avsiktliga
+59	6259	debutera	debuterade debutera debuterar debuterat debuterande
+60	6260	genial	genialt geniala genial geniale
+61	6261	klarhet	klarhet klarheten
+62	6262	planka	planka plankan plankor plankar plankorna plankade plankat
+63	6263	polsk	polsk polskt polske
+64	6264	överbefälhavare	öb överbefälhavare överbefälhavaren överbefälhavarens
+65	6265	lur	lur lurarna lurar luren
+66	6266	paprika	paprika paprikan paprikor paprikorna
+67	6267	trotsa	trotsar trotsa trotsade trotsat trotsande
+68	6268	kostsam	kostsamt kostsamma kostsam
+69	6269	nationalpark	nationalpark nationalparken nationalparker nationalparkerna nationalparkens nationalparks
+70	6270	kapell	kapellet kapell kapellets kapellen
+71	6271	netto	netto nettot nettos
+72	6272	hallon	hallon hallonen
+73	6273	delfin	delfiner delfin delfinen delfinerna delfinens
+74	6274	primitiv	primitiva primitiv primitivt primitive primitivare
+75	6275	ohållbar	ohållbart ohållbar ohållbara
+76	6276	ockupation	ockupation ockupationen ockupationer ockupationens ockupationerna
+77	6277	verkställa	verkställa verkställas verkställs verkställer verkställ verkställdes verkställd verkställt verkställts verkställde
+78	6278	slipa	slipa slipade slipad slipar slipat slipas slipats slipades slipen
+79	6279	morbror	morbror morbrors morbröder morbrodern
+80	6280	originell	originellt originella originell
+81	6281	produktivitet	produktivitet produktiviteten
+82	6282	segregation	segregation segregationen
+83	6283	spektakulär	spektakulärt spektakulära spektakulär
+84	6284	animerad	animerade animerad animerat
+85	6285	valsedel	valsedlar valsedel valsedeln valsedlarna
+86	6286	hantverk	hantverk hantverket hantverks hantverkets
+87	6287	dammsugare	dammsugare dammsugaren dammsugar
+88	6288	rask	rask raskt raska rasket raskar rasken raskens raskare
+89	6289	reception	receptionen reception receptions
+90	6290	fukt	fukt fukten
+91	6291	terapeut	terapeut terapeuten terapeuter terapeutens terapeuterna
+92	6292	frekvent	frekvent frekventa
+93	6293	intention	intentioner intention intentionen intentionerna intentions
+94	6294	superhjälte	superhjälte superhjältar superhjälten superhjältarna
+95	6295	nominering	nominering nomineringar nomineringen nomineringarna
+96	6296	maraton	maraton maratonet
+97	6297	slampa	slampa slampor slampan slamporna
+98	6298	jubla	jublar jubla jublade jublande jublat
+99	6299	tjafsa	tjafsa tjafsar tjafsat tjafsade tjafsande
+100	6300	oförskämd	oförskämt oförskämd oförskämda

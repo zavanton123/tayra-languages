@@ -1,0 +1,100 @@
+1	3901	inneha	innehar inneha innehas innehade innehaft innehades innehaven innehavande innehafts
+2	3902	håna	håna hånar hånade hånas hånad hånat hånades hånande hånats
+3	3903	sistnämnd	sistnämnda sistnämnde sistnämndes
+4	3904	förmiddag	förmiddag förmiddagen förmiddags förmiddan förmiddagarna förmiddagens förmiddagar
+5	3905	kunnig	kunnig kunniga kunnigare kunnigt
+6	3906	kommission	kommissionen kommissionens kommission kommissioner
+7	3907	säte	säte sätet sätena säten
+8	3908	prat	prat pratet prats
+9	3909	mandatperiod	mandatperioden mandatperiod mandatperioder mandatperioderna mandatperiodens
+10	3910	förekommande	förekommande
+11	3911	nödvändigtvis	nödvändigtvis
+12	3912	tämligen	tämligen
+13	3913	äsch	äsch
+14	3914	mottagande	mottagande mottagandet
+15	3915	efterfråga	efterfrågar efterfrågas efterfrågade efterfråga efterfrågad efterfrågat efterfrågades efterfrågats
+16	3916	marin	marine marinen marin marinens marint mariner mariners marins
+17	3917	vätska	vätska vätskan vätskor vätske vätskorna vätskans
+18	3918	utrikesminister	utrikesminister utrikesministern utrikesministrar utrikesministerns utrikesministrarna
+19	3919	odds	oddsen oddset
+20	3920	problematisk	problematiskt problematiska problematisk
+21	3921	apparat	apparat apparaten apparater apparaterna apparatens
+22	3922	inhemsk	inhemska inhemsk inhemskt
+23	3923	got	got goterna goter goternas
+24	3924	helga	helgen helga helge helgar helgat helgad helgade helgas helges
+25	3925	garde	garden gardens gardet garde gardena gardets
+26	3926	massinvandring	massinvandring massinvandringen
+27	3927	entreprenör	entreprenör entreprenörer entreprenören entreprenörerna
+28	3928	fjäll	fjällen fjäll fjället fjälls fjällens fjällets fjällar
+29	3929	nyår	nyår nyåret nyårs
+30	3930	lin	lin linser lins linserna linsen linet linsens
+31	3931	synonym	synonymt synonym synonymer synonyma synonymen
+32	3932	taco	tacos taco tacosen tacon
+33	3933	formel	formel formeln formler formlerna
+34	3934	innebörd	innebörd innebörden innebörder
+35	3935	patetisk	patetiska patetisk
+36	3936	vifta	vifta viftar viftade vift viftas viftat viftande viftandes
+37	3937	solo	solo solon solot solos
+38	3938	slakta	slakta slaktar slaktade slaktas slaktat slaktad slakten slaktades slaktats slaktande
+39	3939	benämning	benämning benämningen benämningar benämningarna
+40	3940	utfärda	utfärda utfärdat utfärdade utfärdar utfärdas utfärdad utfärdades utfärdats utfärdande utfärdandet
+41	3941	inledning	inledning inledningen inledningar
+42	3942	simpel	simpel simpelt simpla simple simplare simplaste
+43	3943	sponsra	sponsra sponsrar sponsrade sponsrat sponsrad sponsras sponsrades sponsrats
+44	3944	rekommendation	rekommendation rekommendationer rekommendationen rekommendationerna
+45	3945	ram	ram ramar ramarna rams ramens
+46	3946	beväpnad	beväpnade beväpnad beväpnat
+47	3947	tunna	tunna tunnor tunnan tunnorna tunnas tunnar tunnats tunne
+48	3948	uppvärmning	uppvärmning uppvärmningen
+49	3949	socialist	socialist socialister socialisterna socialisten socialisternas socialists
+50	3950	cash	cash cashen cashs
+51	3951	beta	beta betan betande betat betade betagen betor betar betas betagande
+52	3952	foster	foster fostret fostrets fosters fostren
+53	3953	klia	kliar klia kliade kliande kliad kliat kliandet klias
+54	3954	syd	syd syds
+55	3955	stånd	stånd ståndet ständerna ständer ständernas ständers ståndens ståndets stånden
+56	3956	puls	puls pulsen pulser pulsar pulserna pulsarer
+57	3957	stel	stel stelt stela stelare stele stelaste
+58	3958	kommitté	kommittén kommitté kommittéer kommitténs kommittéerna kommité kommittés
+59	3959	checka	checka checkar checkat checkade checken checkas
+60	3960	plantera	plantera planterade planterar planteras planterat planterades planterad planterats
+61	3961	charmig	charmig charmigt charmiga charmige charmigare charmigaste
+62	3962	livrädd	livrädd livrädda
+63	3963	vardera	vardera vartdera
+64	3964	ishockey	ishockey ishockeyn ishockeyns
+65	3965	huvudsaklig	huvudsakliga huvudsaklig huvudsakligt
+66	3966	frånvaro	frånvaro frånvaron
+67	3967	fusk	fusk fusket
+68	3968	avslag	avslag avslagen avslaget avslagna
+69	3969	därpå	därpå derpå
+70	3970	kvarstå	kvarstår kvarstå kvarstod kvarstående kvarstått
+71	3971	journal	journal journalen journaler journalerna journals
+72	3972	besättning	besättningen besättning besättningar besättningarna besättningens besättnings
+73	3973	poesi	poesi poesin poesins
+74	3974	hage	hagen hage hagar hagens hagarna
+75	3975	genetisk	genetiska genetisk
+76	3976	åra	åre åror åra årorna åran
+77	3977	tallrik	tallrik tallriken tallrikar tallrikarna
+78	3978	förtjust	förtjust förtjusta
+79	3979	försent	försent
+80	3980	godmorgon	godmorgon
+81	3981	indiska	indiska
+82	3982	inspirerande	inspirerande
+83	3983	itu	itu
+84	3984	javisst	javisst
+85	3985	längesen	längesen
+86	3986	säkerligen	säkerligen
+87	3987	vanligen	vanligen
+88	3988	löpning	löpning löpningen löpningar
+89	3989	alltmer	alltmer alltmera
+90	3990	kontroversiell	kontroversiella kontroversiellt kontroversiell kontroversielle
+91	3991	högljudd	högljudd högljudda högljutt
+92	3992	tidskrift	tidskrift tidskriften tidskrifter tidsskrift tidskrifterna tidskriftens tidskrifts
+93	3993	agna	agnes agne agna agnar agnas
+94	3994	klockren	klockrent klockren klockrena
+95	3995	komisk	komiskt komiska komisk
+96	3996	utforska	utforska utforskar utforskade utforskande utforskat utforskas utforskandet utforskad utforskats utforskades
+97	3997	möjliggöra	möjliggör möjliggöra möjliggjorde möjliggjort möjliggörs möjliggjordes möjliggjorts möjliggörande möjliggöras
+98	3998	roa	roa roar roande roe roade roat roas roades roes
+99	3999	omröstning	omröstning omröstningen omröstningar omröstningarna
+100	4000	testamente	testamentet testamente testamenten testamentets

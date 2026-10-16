@@ -1,0 +1,100 @@
+1	8901	aloe	aloe
+2	8902	brottsförebyggande	brottsförebyggande
+3	8903	bubbel	bubbel
+4	8904	invid	invid
+5	8905	kvällstid	kvällstid
+6	8906	macho	macho
+7	8907	sammantaget	sammantaget
+8	8908	temporärt	temporärt
+9	8909	uppsjö	uppsjö
+10	8910	övers	övers
+11	8911	läglig	lägligt lägligare läglig lägliga
+12	8912	underordnad	underordnad underordnade underordnat
+13	8913	sakkunnig	sakkunnig sakkunniga sakkunnige sakkunnigt
+14	8914	uttagning	uttagningen uttagning uttagningarna uttagningar
+15	8915	utmåla	utmåla utmålas utmålar utmålade utmålades utmålats utmålad utmålat
+16	8916	ballerina	ballerina ballerinor ballerinan ballerinas ballerinorna
+17	8917	kroppsspråk	kroppsspråk kroppsspråket
+18	8918	kassett	kassett kassetter kassetten kassetterna
+19	8919	outhärdlig	outhärdligt outhärdlig outhärdliga
+20	8920	utkämpa	utkämpa utkämpas utkämpades utkämpade utkämpar utkämpat utkämpats
+21	8921	gips	gips gipset
+22	8922	simmare	simmare simmarna simmaren simmerska
+23	8923	strö	strö strör strödde strödda strös strödd strött ströddes
+24	8924	järnrör	järnrör järnröret
+25	8925	nita	nita nite nitar nitade nitat nitad niten
+26	8926	nervositet	nervositet nervositeten
+27	8927	lindrig	lindrigare lindriga lindrig lindrigaste
+28	8928	porrfilm	porrfilm porrfilmer porrfilmen
+29	8929	oxe	oxen oxe oxar oxarna oxens
+30	8930	boots	boots bootsen
+31	8931	fundersam	fundersam fundersamma fundersamt
+32	8932	oändlighet	oändlighet oändligheten oändligheter
+33	8933	bralla	brallor brallorna brallan
+34	8934	återupprätta	återupprätta återupprättas återupprättade återupprättar återupprättat återupprättande återupprättad återupprättades återupprättats återupprättandet
+35	8935	boulevard	boulevard boulevarden boulevarder boulevarderna bulevarden
+36	8936	frispark	frispark frisparkar frisparken
+37	8937	partistyrelse	partistyrelsen partistyrelse partistyrelsens
+38	8938	frikänna	frikänd frikändes frikännande frikända frikänns frikännas frikände frikänna frikänner frikänts
+39	8939	tonfisk	tonfisk tonfisken tonfiskar
+40	8940	uppladdning	uppladdning uppladdningen uppladdningar
+41	8941	lunginflammation	lunginflammation lunginflammationen
+42	8942	filial	filial filialer filialen filialerna
+43	8943	sammanbrott	sammanbrott sammanbrottet
+44	8944	återförsäljare	återförsäljare återförsäljaren återförsäljarna
+45	8945	inflammation	inflammation inflammationer inflammationen
+46	8946	budbärare	budbärare budbäraren budbärarna budbärar
+47	8947	tunnelbanestation	tunnelbanestation tunnelbanestationen tunnelbanestationer tunnelbanestationerna
+48	8948	tomatsås	tomatsås tomatsåsen
+49	8949	förorda	förordar förordade förorda förordat förordas förordades
+50	8950	klippning	klippning klippningen klippningar
+51	8951	strömning	strömningar strömning strömningarna strömningen
+52	8952	smakprov	smakprov smakprover smakprovet
+53	8953	oförutsedd	oförutsedda oförutsett oförutsedd
+54	8954	lättkränkt	lättkränkta lättkränkt
+55	8955	väntrum	väntrummet väntrum
+56	8956	synliggöra	synliggöra synliggör synliggörs synliggöras synliggjorde
+57	8957	bortrest	bortrest bortresta
+58	8958	cent	cent cents
+59	8959	kofta	kofta koftor koftan
+60	8960	anarki	anarki anarkin
+61	8961	skepnad	skepnad skepnader skepnaden
+62	8962	humla	humlan humla humlor humlorna humlans
+63	8963	privatisering	privatisering privatiseringar privatiseringen privatiseringarna
+64	8964	inbjuda	inbjuder inbjöd inbjuda inbjöds inbjuds inbjudit inbjudits inbjudas
+65	8965	nödsituation	nödsituation nödsituationer
+66	8966	surra	surrar surra surrande surrat surrade
+67	8967	lexikon	lexikon lexikonet
+68	8968	knull	knull knullet
+69	8969	testosteron	testosteron testosteronet
+70	8970	inlärning	inlärning inlärningen
+71	8971	omväxling	omväxling omväxlings
+72	8972	teleskop	teleskop teleskopet teleskopen teleskopets
+73	8973	däcka	däckade däckad däckar däcka däckat däcken
+74	8974	försumma	försummat försummar försummade försumma försummad försummas försummats försummades försummande
+75	8975	swisha	swisha swishar swishade svischar svischa swishat
+76	8976	kvantitativ	kvantitativa kvantitativ kvantitativt
+77	8977	klo	klorna klo klos
+78	8978	kooperativ	kooperativ kooperativa kooperativt kooperativet kooperativen
+79	8979	fantom	fantomen fantom fantomens fantomer
+80	8980	storföretag	storföretag storföretagen storföretagens storföretaget
+81	8981	följdfråga	följdfrågor följdfråga följdfrågan följdfrågorna
+82	8982	självbiografi	självbiografi självbiografier självbiografin
+83	8983	areal	areal arealen arealer
+84	8984	smärtsam	smärtsam smärtsamma
+85	8985	ingefära	ingefära ingefäran
+86	8986	motorsport	motorsport motorsporten motorsportens
+87	8987	avla	avla avlade avlat avlar avlats avlad avlas avlades
+88	8988	thriller	thriller thrillern thrillers
+89	8989	träningsläger	träningsläger träningslägret
+90	8990	ljusår	ljusår ljusårs
+91	8991	bakelse	bakelser bakelse bakelsen bakelserna
+92	8992	sekelskifte	sekelskiftet sekelskiftets sekelskifte
+93	8993	hårstrå	hårstrån hårstrå hårstråna hårstrået
+94	8994	nördig	nördiga nördig nördigt nördigare
+95	8995	bordell	bordell bordeller bordellen bordellerna
+96	8996	terminologi	terminologi terminologin
+97	8997	välgjord	välgjord välgjort välgjorda
+98	8998	skattefinansierad	skattefinansierad skattefinansierade skattefinansierat
+99	8999	återstod	återstod återstoden
+100	9000	kila	kila kilar kilade kilen kile kilat

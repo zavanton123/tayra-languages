@@ -1,0 +1,100 @@
+1	6501	korsar	korsar
+2	6502	kurdiska	kurdiska
+3	6503	kvarvarande	kvarvarande
+4	6504	samtida	samtida
+5	6505	indela	indelad indelade indelat indelas indela indelades indelats indelar
+6	6506	kluven	kluven kluvna kluvet
+7	6507	åldras	åldras åldrats åldrades åldrade åldrad åldrat
+8	6508	stapel	stapeln stapel staplar staplarna
+9	6509	trigga	triggar trigga triggade triggas triggande triggat triggad triggades
+10	6510	storslagen	storslagna storslagen storslaget
+11	6511	alfabet	alfabetet alfabet alfabetets alfabeten
+12	6512	ädel	ädla ädel ädlare ädelt ädlaste ädle
+13	6513	router	router routern routrar routers routrarna
+14	6514	rovdjur	rovdjur rovdjuren rovdjuret rovdjurens
+15	6515	framhålla	framhåller framhålla framhöll framhålls framhållas framhållit framhölls framhållits
+16	6516	gloria	gloria glorian glorias glorior
+17	6517	kompromiss	kompromiss kompromisser kompromissen kompromisserna
+18	6518	fördelaktig	fördelaktigt fördelaktiga fördelaktig fördelaktigare fördelaktigaste
+19	6519	logotyp	logotyp logotypen logotyper
+20	6520	gamling	gamlingar gamling gamlingarna gamlingen
+21	6521	pepparkaka	pepparkakor pepparkaka pepparkakorna pepparkakan pepparkaks
+22	6522	artilleri	artilleri artilleriet artilleriets
+23	6523	fascinerad	fascinerad fascinerade fascinerat
+24	6524	smeka	smeker smeka smek smekte smekt smekande
+25	6525	universell	universella universell universellt universelle
+26	6526	pingvin	pingviner pingvin pingvinen pingvinerna pingvinens
+27	6527	hotfull	hotfullt hotfull hotfulla
+28	6528	chockera	chockerande chockera chockerade chockerar chockerat
+29	6529	trafikolycka	trafikolycka trafikolyckor trafikolyckan
+30	6530	sakfråga	sakfrågor sakfrågan sakfrågorna sakfråga
+31	6531	skiss	skisser skiss skisserna skissen skissernas
+32	6532	motgång	motgångar motgång motgångarna motgången
+33	6533	autonom	autonoma autonom autonomt
+34	6534	censurera	censurera censurerade censurerar censurerat censurerad censureras censurerats censurerades
+35	6535	mager	mager magra magert magrare magre magrar
+36	6536	piratparti	piratpartiet piratpartiets piratpartier
+37	6537	fila	fila files file filen filade filat filar filas
+38	6538	fotbollsmatch	fotbollsmatch fotbollsmatcher fotbollsmatchen fotbollsmatcherna
+39	6539	användningsområde	användningsområden användningsområde användningsområdet användningsområdena
+40	6540	kommentarsfält	kommentarsfältet kommentarsfält kommentarsfälten
+41	6541	omhändertagen	omhändertagen omhändertagna omhändertaget
+42	6542	bukt	bukt bukten bukter
+43	6543	avföring	avföring avföringen
+44	6544	människosyn	människosyn människosynen
+45	6545	blondin	blondin blondiner blondinen blondinerna
+46	6546	jävlig	jävlig jävliga jävligaste jäklig jävligare
+47	6547	tillförordnad	tf tillförordnad tillförordnade
+48	6548	manual	manual manualen manualer manualerna manualens
+49	6549	radioaktiv	radioaktivt radioaktiva radioaktiv
+50	6550	spam	spam spammet
+51	6551	lacka	lacken lacka lackar lackade lackat lacke lackad lackas
+52	6552	anal	anal analt anala anale
+53	6553	arbetstillfälle	arbetstillfällen arbetstillfällena arbetstillfälle
+54	6554	konventionell	konventionella konventionell konventionellt
+55	6555	lekplats	lekplats lekplatsen lekplatser lekplatserna
+56	6556	renodlad	renodlad renodlade renodlat
+57	6557	flyt	flyt flytet
+58	6558	cynisk	cynisk cyniskt cyniska
+59	6559	trötthet	trötthet tröttheten
+60	6560	girig	giriga girig girigt girige
+61	6561	missuppfatta	missuppfattat missuppfattar missuppfattade missuppfatta missuppfattas missuppfattad
+62	6562	tam	tam tama tamt tamas tamare tame
+63	6563	hån	hån hånet
+64	6564	kryssa	kryssa kryssar kryssade kryssat kryssen
+65	6565	matlåda	matlåda matlådor matlådan
+66	6566	konstgjord	konstgjord konstgjorda konstgjort
+67	6567	mesig	mesig mesiga mesigt mesigare
+68	6568	överflöd	överflöd överflödet överflödets
+69	6569	panda	panda pandor pandan pandas pandorna
+70	6570	linjär	linjär linjärt linjära
+71	6571	öppettid	öppettider öppettiderna öppettid
+72	6572	somalier	somalier somalierna somaliern
+73	6573	förvar	förvar förvaret
+74	6574	doppa	doppa doppar doppade doppat doppad doppas doppades doppats
+75	6575	köpcentrum	köpcentrum köpcentrumet köpcentra
+76	6576	däremellan	däremellan
+77	6577	fullo	fullo
+78	6578	hundratusentals	hundratusentals
+79	6579	längesedan	längesedan
+80	6580	missvisande	missvisande
+81	6581	nähä	nähä
+82	6582	osmakligt	osmakligt
+83	6583	primärt	primärt
+84	6584	rentav	rentav
+85	6585	röntgen	röntgen
+86	6586	tiotusentals	tiotusentals
+87	6587	ägo	ägo
+88	6588	överst	överst
+89	6589	valla	valla valle vallen vallar valles vallade vallas vallat vallan
+90	6590	delning	delning delningar delningen delningarna
+91	6591	andning	andning andningen andnings andningens
+92	6592	fristad	fristad fristaden fristads fristäder
+93	6593	självkänsla	självkänsla självkänslan
+94	6594	berika	berikar berika berikande berikade berikad berikas berikat berikats berikades
+95	6595	nedskärning	nedskärningar nedskärningarna nedskärning nedskärningen
+96	6596	läder	läder lädret
+97	6597	stifta	stifta stiftar stiftade stiftat stiftas stiftades stiftad stiftats stiftare stiften
+98	6598	romantik	romantik romantiken romantikens
+99	6599	dynamisk	dynamiska dynamisk dynamiskt dynamiske
+100	6600	arbetarrörelse	arbetarrörelsen arbetarrörelsens arbetarrörelse

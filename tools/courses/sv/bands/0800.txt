@@ -1,0 +1,100 @@
+1	701	buss	bussen buss bussar bussarna bussens bussarnas
+2	702	skydda	skydda skyddar skyddade skyddas skyddad skyddat skyddande skyddades skyddats skydden
+3	703	organisation	organisation organisationer organisationen organisationens organisationerna organisations organisationers organisationernas
+4	704	studie	studier studie studien studierna studies studiens studiernas
+5	705	utföra	utföra utför utfört utförs utförde utförd utförda utföras utfördes utförande
+6	706	lösning	lösning lösningar lösningen lösningarna lösningens lösnings
+7	707	ex	ex exet exets exen
+8	708	vita	vita vitas vitan vitor
+9	709	tåg	tåget tåg tågen tågets tågens
+10	710	le	le leende ler log lett les len leendet loge logen
+11	711	åsikt	åsikter åsikt åsikterna åsikten åsikts åsikters
+12	712	spara	spara sparar sparade sparat sparande sparas spar sparad sparandet sparades
+13	713	dam	damer dam damerna damen damernas dams damens damers
+14	714	iväg	iväg
+15	715	plötsligt	plötsligt
+16	716	planera	planerar planerat planera planerade planerad planeras planerades planerats planerande planerandet
+17	717	internationell	internationella internationellt internationell internationelle
+18	718	möte	möte mötet möten mötena mötes mötets
+19	719	dörr	dörren dörr dörrar dörrarna dörrens dörrars dörrarnas
+20	720	träna	träna tränar tränat tränade tränad tränas tränats tränades tränande
+21	721	projekt	projekt projektet projekten projektets projekts
+22	722	ytterligare	ytterligare ytterliggare
+23	723	stund	stund stunden stunder stunderna stunds stundens
+24	724	mobil	mobil mobilen mobiler mobila mobilt mobile mobilerna mobilens mobils
+25	725	tidig	tidigare tidig tidiga tidigaste tidigast
+26	726	trevligt	trevligt trevligare trevligast
+27	727	sanning	sanningen sanning sanningar sanningens sanningarna sannings
+28	728	privat	privat privata private
+29	729	främst	främst
+30	730	förbi	förbi
+31	731	nyheter	nyheter
+32	732	äntligen	äntligen
+33	733	samla	samla samlade samlar samlas samlat samlades samlats samlad samlande samlandet
+34	734	lön	lön löner lönen lönerna
+35	735	jävel	jävlar jävel jäklar jäveln jävlarna jäkel djävlar jädrar djävel järnspikar
+36	736	ena	ena enas enade ene enat enades enad enats enes enande
+37	737	idiot	idiot idioter idioten idioterna idiots idioternas idiotens
+38	738	ämne	ämnen ämnet ämne ämnena ämnets ämnes ämnens ämnenas
+39	739	orka	orkar orka orkade orkat orken
+40	740	meter	meter meters metern metrarna meterna
+41	741	vinst	vinst vinster vinsten vinsterna
+42	742	personlig	personliga personlig personligt personlige personligare
+43	743	mängd	mängd mängder mängden mängderna
+44	744	kontakt	kontakt kontakter kontakten kontakterna
+45	745	ungdom	ungdomar ungdom ungdomarna ungdomen ungdoms ungdomars ungdomens ungdomarnas
+46	746	däremot	däremot
+47	747	fredag	fredag fredags fredagen fredagar fre fredagens fredagarna
+48	748	syn	syn syns synen syner syne synerna synens
+49	749	tillfälle	tillfället tillfälle tillfällen tillfällena
+50	750	samtal	samtal samtalet samtalen samtals samtalets
+51	751	smart	smart smarta smartare smartaste smartast smarte
+52	752	makt	makt makten makter maktens makterna makts makters makternas
+53	753	ljuga	ljuger ljuga ljög ljugit ljug ljugande
+54	754	tillåta	tillåter tillåta tillåtet tillåts tillåtna tillåt tillät tillåtas tillåten tillåtit
+55	755	koll	koll kollar kollen
+56	756	nummer	nummer numret numren numrets
+57	757	skrika	skriker skrika skrek skrik skrikande skrikit skriket skriken skrikandes skriks
+58	758	tyst	tyst tysta tystas tystare tystar tystade tystades tystat tystaste tystad
+59	759	snabb	snabb snabba snabbare snabbaste snabbast snabbar snabbe snabbade snabbas
+60	760	era	era eras erans eror
+61	761	modern	modern moderna modernt modernare modernaste moderne modernas modernast
+62	762	intresse	intresse intressen intresset intressena
+63	763	omkring	omkring
+64	764	arg	arg arga argt argare arge argaste argast
+65	765	gräva	gräva grovt grov grova gräver grävt gräv grövre grävde grävande
+66	766	ansikte	ansiktet ansikte ansikten ansiktena ansiktets ansikts ansiktes
+67	767	kultur	kultur kulturen kulturer kulturens kulturerna kulturs kulturers
+68	768	dyka	dyker dök dyka dykt dyk dyke dyket dykande dykes dykte
+69	769	aning	aning aningen aningar aningens
+70	770	behandla	behandla behandlar behandlas behandlade behandlad behandlat behandlades behandlats behandlande
+71	771	galen	galet galen galna galnaste galnare galne
+72	772	ekonomi	ekonomi ekonomin eko ekot ekonomier ekon ekots ekonomins ekonomierna ekos
+73	773	underbar	underbar underbara underbaraste underbare underbarare
+74	774	röka	röka röker rök rökt röken rökte rökta rökande röks rökat
+75	775	post	post posten poster postens posts posterna posters postern
+76	776	pojke	pojkar pojke pojken pojkarna pojk pojkens pojkars pöjk pojkarnas pojkes
+77	777	uppdrag	uppdrag uppdraget uppdragen uppdragets uppdrags
+78	778	maj	maj majs majsen
+79	779	född	född födda födde fött födds
+80	780	därmed	därmed
+81	781	förr	förr
+82	782	universitet	universitet universitetet universitets universiteten universitetets universitetens
+83	783	höst	hösten höst höstas höstens höstarna höstar
+84	784	seriös	seriöst seriös seriösa seriösare serri
+85	785	fotboll	fotboll fotbolls fotbollen fotbollens fotbollar
+86	786	debatt	debatt debatten debatter debatterna debattens
+87	787	uppleva	upplever uppleva upplevt upplevde upplevs upplevas upplev upplevd upplevdes upplevts
+88	788	aktiv	aktiv aktivt aktiva aktivare aktive
+89	789	avsnitt	avsnitt avsnittet avsnitten avsnittets
+90	790	avsluta	avsluta avslutar avslutade avslutat avslutades avslutas avslutad avslutande avslutats avsluten
+91	791	bestå	består bestod bestå bestått bestånden
+92	792	procent	procent procents procenten proc
+93	793	märka	märker märks märka märkte märk märkas märken märktes märkts märkes
+94	794	liknande	liknande
+95	795	mening	meningen mening meningar meningarna meningens menings
+96	796	mars	mars mass
+97	797	verksamhet	verksamhet verksamheten verksamheter verksamheterna verksamhetens verksamhets
+98	798	sol	solen sol solens solar sols solarna
+99	799	bidra	bidrar bidra bidragit bidrog bidragande bidragen bidraga bidrager
+100	800	fly	fly flyr flytt flydde flyttar flyende flytten flydda flyn

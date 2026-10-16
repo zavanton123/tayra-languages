@@ -1,0 +1,100 @@
+1	1201	klä	klä klär klädd klädda klädde klätt kläs kläd kläddes kläde
+2	1202	oerhörd	oerhört oerhörd oerhörda
+3	1203	spendera	spendera spenderar spenderat spenderade spenderas spenderades spenderad spenderats spenderande
+4	1204	orolig	orolig oroliga oroligt oroligare
+5	1205	statistik	statistik statistiken statistikens
+6	1206	ledning	ledning ledningen ledningar ledningarna ledningens lednings
+7	1207	kött	kött köttet köttets
+8	1208	betydelse	betydelse betydelsen betydelser betydelserna
+9	1209	undersökning	undersökning undersökningar undersökningen undersökningarna undersöknings undersökningens
+10	1210	tung	tungt tung tyngre tyngsta tyngst tunge
+11	1211	teknik	teknik tekniken tekniker teknikerna teknikens teknikern teknikernas
+12	1212	placera	placera placerade placeras placerar placerad placerat placerades placerats
+13	1213	respekt	respekt respekten
+14	1214	tillstånd	tillstånd tillståndet tillstånden tillståndets tillstånds
+15	1215	ordentligt	ordentligt
+16	1216	sådär	sådär
+17	1217	utöver	utöver
+18	1218	meddelande	meddelande meddelanden meddelandet meddelandena meddelandets
+19	1219	knulla	knulla knullar knullade knullad knullat knullas knullande
+20	1220	seger	seger segern segrar segrarna segerns segers
+21	1221	klippa	klippa klipper klippt klippte klippan klippor klipporna klippas klippen klippans
+22	1222	ursäkta	ursäkta ursäktar ursäkten ursäktas ursäktande ursäktad ursäktade ursäktat
+23	1223	imponera	imponerande imponerad imponera imponerade imponerar imponeras imponerat imponerades imponerats
+24	1224	gripa	gripen greps gripa gripande grep griper grip grips gripits gripas
+25	1225	position	position positioner positionen positionerna positions
+26	1226	rörelse	rörelse rörelsen rörelser rörelsens rörelserna rörelses
+27	1227	mor	mor mors mödrar moderns moders mödrarna morerna mödrars moren morer
+28	1228	resurs	resurser resurs resurserna resursen
+29	1229	historisk	historiska historiskt historisk historiske
+30	1230	rulla	rullar rulla rulle rullade rullat rullande rullen rullas rull rullarna
+31	1231	bredvid	bredvid breve
+32	1232	fisk	fisk fiskar fisken fiskarna fiskars fiskarnas fiskens fisks
+33	1233	brev	brev brevet breven bref brevets brevens
+34	1234	orsak	orsak orsaken orsaker orsakerna
+35	1235	verk	verk verket verken verkets verkens verks
+36	1236	bord	bordet bord borden bords bordets bordens
+37	1237	mun	munnen mun munnar munnarna munnens muns
+38	1238	liberal	liberal liberala liberalerna liberaler liberalt liberalernas liberalen liberalare liberale liberals
+39	1239	finger	fingrarna finger fingrar fingret fingers fingrarnas
+40	1240	tak	taket tak taken takets
+41	1241	december	december
+42	1242	farligt	farligt
+43	1243	februari	februari
+44	1244	herregud	herregud
+45	1245	ifall	ifall
+46	1246	norra	norra
+47	1247	föredra	föredrar föredra föredrag föredrog föredragit föredragande föredraget föredragna föredras fördrar
+48	1248	allians	alliansen alliansens allians allianser allianserna
+49	1249	kvalitet	kvalitet kvalité kvaliteten kvalitén kvaliteter kvalitéer kvalitets kvaliteterna
+50	1250	lik	likt lik liket liks likare liken likens
+51	1251	drömma	drömmer drömma drömde drömt drömmen drömmande drömda
+52	1252	demokrati	demokrati demokratin demokratins demokratier demokratis demokratierna
+53	1253	skär	skär skära skar skurit skuren skärs skäras skurna skars skärt
+54	1254	åring	åring åringar åringen åringarna åringens årings åringars
+55	1255	grabb	grabbar grabben grabbarna grabb grabbens grabbarnas grabbars grabbs
+56	1256	scen	scen scenen scener scenerna scenens
+57	1257	begrepp	begreppet begrepp begreppen begreppets
+58	1258	kära	kära käre käranden kärande kärandens kärat käras
+59	1259	city	city citys
+60	1260	forskare	forskare forskarna forskaren forskares forskarnas forskarens
+61	1261	ersätta	ersätta ersätter ersättas ersätts ersatt ersatte ersatts ersattes ersätt ersatta
+62	1262	klimat	klimat klimatet klimatets klimaten
+63	1263	insats	insats insatser insatsen insatserna
+64	1264	blåsa	blåser blåsa blåst blåste blås blåsta blåsten blåsor blåsan blåstes
+65	1265	cykel	cykel cykeln cyklar cykler cyklarna cykelns cyckel cyklerna
+66	1266	begå	begår begå begått begick begås begåtts begicks begångna begånget begången
+67	1267	team	team teamet teams teamen teamets
+68	1268	herre	herre herrar herren herrens herrarna herrarnas herrans herres herran herrars
+69	1269	bekräfta	bekräftar bekräfta bekräftat bekräftade bekräftad bekräftas bekräftats bekräftades bekräftande
+70	1270	färdig	färdig färdigt färdiga
+71	1271	avtändning	at avtändning
+72	1272	favorit	favorit favoriter favoriten favoriterna
+73	1273	definitivt	definitivt
+74	1274	knappast	knappast
+75	1275	intervju	intervju intervjun intervjuer intervjuerna interjuv
+76	1276	paket	paket paketet paketen paketets
+77	1277	yta	yta ytan ytor yt ytorna ytans
+78	1278	tryck	tryck trycket trycks trycken
+79	1279	religion	religion religioner religionen religionerna religionens religions religionernas religioners
+80	1280	avslöja	avslöja avslöjar avslöjade avslöjas avslöjande avslöjat avslöjad avslöjades avslöjanden avslöjandet
+81	1281	reklam	reklam reklamen reklamer reklamerna reklamens
+82	1282	herr	herr herrar herrarna herrarnas herrn herrars herrns
+83	1283	papper	papper pappret papperet pappers pappren papperna papperen papperets papprets
+84	1284	rosa	rosa rose rosen roses rosas rosade rosar
+85	1285	riskera	riskerar riskera riskerade riskerat riskeras riskerades
+86	1286	blomma	blommor blomma blommorna blommar blomman blommande blommade blommat blommornas blommans
+87	1287	jaga	jaga jagar jagade jagas jagad jagat jagades jagande jagats jagandet
+88	1288	mysig	mysigt mysig mysiga mysigare mysigaste
+89	1289	hävda	hävdar hävda hävdade hävdat hävdas hävde hävdes hävdats hävdades hävdande
+90	1290	övertyga	övertygad övertyga övertygade övertygande övertygar övertygat övertygas övertygades övertygats
+91	1291	hål	hål hålet hålen håls hålets
+92	1292	eva	eva ev evans evan evas
+93	1293	producera	producera producerar produceras producerat producerade producerad producerats producerades producerande
+94	1294	karriär	karriär karriären karriärer karriärens karriärs karriärerna
+95	1295	id	id ide ts iden ns ids nas idet ides
+96	1296	vikt	vikt vikten vikter vikterna
+97	1297	sträcka	sträcker sträcka sträckan sträck sträckor sträckte sträckt sträckorna sträcks sträcket
+98	1298	angående	angående
+99	1299	start	start starten starter starterna starts starters startern
+100	1300	uppstå	uppstår uppstod uppstå uppstått uppstånden uppståndne uppstående uppståndna

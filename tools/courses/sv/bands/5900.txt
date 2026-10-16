@@ -1,0 +1,100 @@
+1	5801	återskapa	återskapa återskapar återskapas återskapade återskapat återskapande återskapats återskapad återskapades
+2	5802	filtrera	filtrera filtrerar filtreras filtrerade filtrerat filtrerad filtrerats
+3	5803	skitig	skitiga skitig skitigt skitigare skitigaste
+4	5804	spinna	spinn spinner spinna spinnande spunnit spinnet spinnen spunnen spinns spinne
+5	5805	tjafs	tjafs tjafset
+6	5806	manga	manga mangan mangas
+7	5807	baron	baron baronen baronessan baroner baronessa baronens barons baronerna
+8	5808	nationalism	nationalism nationalismen nationalismens
+9	5809	godta	godtar godta godtas godtog godtagit godtogs godtagen godtagits godtagande
+10	5810	proportion	proportioner proportion proportionerna proportionen
+11	5811	omställning	omställning omställningen omställningar omställningarna
+12	5812	inledande	inledande inledandet
+13	5813	hektar	hektar hektaren
+14	5814	tia	tia tian tior tias
+15	5815	wiki	wiki wikin wikier
+16	5816	assist	assist assistens assisten assists assister
+17	5817	lagförslag	lagförslag lagförslaget lagförslagen
+18	5818	intervall	intervaller intervall intervallet intervallerna intervallen
+19	5819	städning	städning städningen
+20	5820	förefalla	förefaller föreföll förefalla
+21	5821	polischef	polischef polischefen polischefer polischefens
+22	5822	avlopp	avlopp avloppet avloppen avlopps
+23	5823	förtrycka	förtryckande förtrycker förtrycka förtrycktas förtryckas förtrycks förtryckte förtryckts förtrycktes
+24	5824	kvalificera	kvalificera kvalificerar kvalificerade kvalificerat kvalificeras kvalificerande
+25	5825	pucko	pucko puckon puckot puckona
+26	5826	imam	imam imamer imamen imamerna imamens
+27	5827	influensa	influensa influensan influensor
+28	5828	centralstation	centralstationen centralstation
+29	5829	subjektiv	subjektiva subjektiv subjektivt
+30	5830	rund	rund rundare runder runde
+31	5831	rappare	rappare rapparen rapparna
+32	5832	triangel	triangeln triangel trianglar triangelns trianglarna
+33	5833	passage	passage passagen passager passagerna
+34	5834	världsrekord	världsrekord världsrekordet
+35	5835	avge	avger avge avgav avges avgett avgivna avgivit avgavs avgiven avgivande
+36	5836	destination	destination destinationer destinationen destinationerna destinations
+37	5837	körning	körning körningen körningar körningarna
+38	5838	prisa	prisa prisade prisad prisar prisas prisades prisat prisats prise prisen
+39	5839	hipp	hipp hippa hippt hippaste hippare
+40	5840	litterär	litterära litterär litterärt
+41	5841	ärr	ärr ärret ärren
+42	5842	sångerska	sångerska sångerskan sångerskor sångerskans sångerskorna
+43	5843	dinosaurie	dinosaurier dinosaurie dinosaurierna dinosaurien dinosauriernas
+44	5844	företagande	företagande företagandet företagandets
+45	5845	fjorton	fjorton
+46	5846	främre	främre
+47	5847	mar	mar
+48	5848	tretton	tretton
+49	5849	underliggande	underliggande
+50	5850	väsentligt	väsentligt
+51	5851	persiska	persiska persisk persiskt persiske
+52	5852	åsna	åsna åsnor åsnan åsne åsnorna
+53	5853	innovativ	innovativa innovativt innovativ innovative
+54	5854	praktisera	praktisera praktiserar praktiserande praktiserade praktiseras praktiserat praktiserats praktiserades praktiserad
+55	5855	högkvarter	högkvarter högkvarteret högkvarterets högkvarteren
+56	5856	bortglömd	bortglömd bortglömda bortglömt
+57	5857	återuppta	återuppta återupptas återupptar återupptog återupptogs återupptagit återupptagits återupptaget återupptagande återupptagna
+58	5858	örn	örn örnen örnar örnarna örnens örns
+59	5859	flight	flight flighter flighten flights
+60	5860	mången	mångas mångt mången flestas
+61	5861	åska	åska åskan åskar åskade åskans åsk
+62	5862	åtskillig	åtskilliga åtskillig åtskillige
+63	5863	utkant	utkanten utkanter utkant utkanterna
+64	5864	ordbok	ordbok ordboken ordböcker ordböckerna ordbokens
+65	5865	vilsen	vilsen vilsna vilset
+66	5866	laboratorium	laboratorium laboratoriet laboratorier laboratorierna laboratorie laboratoriets
+67	5867	inskriven	inskrivna inskriven inskrivet
+68	5868	verkställande	verkställande verkställandet
+69	5869	slips	slips slipsar slipsen slipsarna
+70	5870	fritidsgård	fritidsgårdar fritidsgård fritidsgården fritidsgårdarna
+71	5871	granat	granater granat granaten granaterna
+72	5872	orientering	orientering orienteringen orienterings
+73	5873	vandring	vandring vandringen vandringar vandrings vandringarna
+74	5874	nostalgi	nostalgi nostalgin
+75	5875	utbyta	utbytt utbyta utbytta utbyter utbytte utbyttes utbytas utbyts utbyten utbytts
+76	5876	befattning	befattning befattningar befattningen befattningarna
+77	5877	stab	stab staben staber stabens stabs staberna
+78	5878	fördjupa	fördjupa fördjupade fördjupad fördjupar fördjupat fördjupas fördjupande fördjupades fördjupats
+79	5879	deklarera	deklarera deklarerade deklarerat deklarerar deklareras deklarerad deklarerades
+80	5880	anfallare	anfallare anfallaren anfallarna
+81	5881	fjärdedel	fjärdedel fjärdedelar fjärdedels fjärdedelen
+82	5882	socialstyrelse	socialstyrelsen socialstyrelsens
+83	5883	fakultet	fakulteten fakultet fakulteter fakulteterna fakultetens fakultets fakulteternas
+84	5884	utrikespolitik	utrikespolitik utrikespolitiken
+85	5885	rar	rara rare rar rart raraste
+86	5886	hångla	hångla hånglade hånglar hånglat hånglande
+87	5887	repris	repris repriser reprisen repriserna
+88	5888	enhetlig	enhetlig enhetligt enhetliga
+89	5889	makalös	makalöst makalös makalösa
+90	5890	scanna	skanna scanna scannar scannade scannat scannas scannad
+91	5891	klasskamrat	klasskamrater klasskamrat klasskamraterna klasskamraten
+92	5892	ninja	ninja ninjas ninjor ninjan ninjorna
+93	5893	svenne	svenne svennar svennebanan svennen
+94	5894	spärr	spärr spärrar spärren spärrarna
+95	5895	webbläsare	webbläsare webbläsaren webbläsarna webbläsarens
+96	5896	omtanke	omtanke omtanken
+97	5897	emotionell	emotionell emotionella emotionellt
+98	5898	födelse	födelse födelsen födelser
+99	5899	avta	avtar avta avtagande avtog avtagit
+100	5900	fe	fe fes fen feer fé feerna fens

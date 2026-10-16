@@ -1,0 +1,100 @@
+1	3301	generera	genererar generera genererade genereras genererat genererad genererades genererats genererande
+2	3302	kärna	kärnan kärna kärnor kärnorna kärn kärnans
+3	3303	omvända	omvända omvänd omvänt omvänder omvände omvändas omvändes omvänts
+4	3304	dia	die dia dies dior diar dias dian diors diande diade
+5	3305	ebba	ebba ebbas ebbe ebbade ebbar ebbat
+6	3306	nord	nord nords
+7	3307	öst	öst östen östs
+8	3308	mus	mus möss musen mössen musens mössens musar
+9	3309	distans	distans distansen distanser distanserna
+10	3310	skeptisk	skeptisk skeptiska skeptiskt
+11	3311	kasino	casino kasino kasinot kasinon kasinots kasinona kasinos
+12	3312	arkitekt	arkitekt arkitekter arkitekten arkitekterna arkitektens arkitekternas arkitekters
+13	3313	pryl	prylar pryl prylarna prylen
+14	3314	hjälm	hjälm hjälmen hjälmar hjälmarna hjälmens
+15	3315	farbror	farbror farbrorn farbröder farbrors farbrodern farbröderna farbroderns
+16	3316	ordentlig	ordentlig ordentliga ordentligare
+17	3317	säljare	säljare säljaren säljarna säljarens säljarnas
+18	3318	variation	variation variationer variationen variationerna variations
+19	3319	genomsnittlig	genomsnittlig genomsnittliga genomsnittligt genomsnittlige
+20	3320	motorväg	motorvägen motorväg motorvägar motorvägarna motorvägs
+21	3321	hiss	hissen hiss hissar hissarna hissens
+22	3322	moms	moms momsen
+23	3323	hosta	hosta hostar hostade hostan hostat hostande hostas hosten
+24	3324	bekvämt	bekvämt bekvämare bekvämast
+25	3325	palm	palm palmer palms palmers palmen palmerna
+26	3326	holme	holm holmes holmen holme holmens holmar holmarna
+27	3327	premie	premier premie premien premierna premiers
+28	3328	fördom	fördomar fördom fördomarna fördomen
+29	3329	taktik	taktik taktiken taktiker taktikerna
+30	3330	stam	stam stammar stammen stammarna stammens stammarnas stams
+31	3331	tagga	tagga taggar taggen taggade taggat taggas
+32	3332	kriga	kriga krigar krigat krigade krigande krigen krigandet krigas
+33	3333	överdriva	överdriver överdriva överdrev överdriv överdrivit överdrivas överdrivs överdrivits
+34	3334	heltid	heltid heltids
+35	3335	svika	sviker svikit svika sviken svik svikande svikits
+36	3336	fader	fader faders fadern faderns fäder fäders fäderna fädernas
+37	3337	bosatt	bosatt bosatta bosatte
+38	3338	värdig	värdig värdigt värdiga värdigare
+39	3339	därtill	därtill dertill
+40	3340	underhåll	underhåll underhållet underhålls underhållen
+41	3341	idiotisk	idiotiskt idiotiska idiotisk
+42	3342	ryd	ryan ryd ry ryans rud ryds rya ryor
+43	3343	övervaka	övervaka övervakar övervakas övervakade övervakare övervakad övervakat övervakades övervakande övervakarna
+44	3344	coach	coach coachen coacher coacherna
+45	3345	neutral	neutral neutrala neutralt
+46	3346	innefatta	innefattar innefatta innefattade innefattas innefattande innefattat
+47	3347	fastställa	fastställa fastställt fastställd fastställer fastställde fastställdes fastställas fastställs fastställts fastställande
+48	3348	övertala	övertala övertalade övertalar övertalat övertalad övertalas övertalades övertalats övertalande
+49	3349	hamburgare	hamburgare hamburgaren hamburgarna
+50	3350	filosofi	filosofi filosofin filosofins filosofier
+51	3351	förväg	förväg
+52	3352	jättekul	jättekul
+53	3353	less	less
+54	3354	klassrum	klassrummet klassrum klassrummen
+55	3355	teknologi	teknologi teknologin teknologier teknologins
+56	3356	bekymmer	bekymmer bekymret bekymren
+57	3357	julafton	julafton julaftonen julaftons
+58	3358	europeisk	europeisk europeiskt europeiske
+59	3359	teckning	teckning teckningar teckningen teckningarna tecknings
+60	3360	förespråka	förespråkar förespråkade förespråkat förespråka förespråkas förespråkande förespråkades
+61	3361	retorik	retorik retoriken retorikens
+62	3362	same	same samer samerna samernas samers samen
+63	3363	nykter	nykter nyktra nyktert nyktrat nyktrar nyktrare
+64	3364	damm	damm dammen dammar dammet dammarna dammens
+65	3365	demonstration	demonstration demonstrationer demonstrationen demonstrationerna demonstrations
+66	3366	betalning	betalning betalningen betalningar betalningarna betalnings
+67	3367	prestation	prestation prestationer prestationen prestationerna prestations
+68	3368	tugga	tugga tuggar tuggade tuggat tuggor tuggan tuggande tuggas tuggad
+69	3369	älg	älg älgar älgen älgarna älgens elg älgarnas
+70	3370	pop	pop pops popen popens
+71	3371	moment	moment momentet moments momenten
+72	3372	jämna	jämna jämnar jämnade jämnas jämnades jämnat jämnats jämnad
+73	3373	kista	kista kistan kistor kistorna kistas kistans
+74	3374	skryta	skryta skryter skryt skröt skrutit
+75	3375	ambition	ambitioner ambition ambitionen ambitionerna ambitions
+76	3376	reducera	reducera reducerar reduceras reducerat reducerad reducerade reducerats reducerades reducerande
+77	3377	resonemang	resonemang resonemanget resonemangen
+78	3378	juridik	juridik juridiken juridikens
+79	3379	otrogen	otrogen otrogna otrogne otrognas
+80	3380	kock	kock kocken kockar kockarna kockens kockarnas kocks
+81	3381	debattera	debattera debatterar debatteras debatterade debatterat debatterats debatterades debatterad
+82	3382	ass	ass asset assets assen
+83	3383	fluga	flugor fluga flugan flugorna flugornas flug
+84	3384	operera	operera opereras opererade opererar opererat opererad opererades opererats opererande
+85	3385	kristendom	kristendomen kristendom kristendomens
+86	3386	terapi	terapi terapin terapier
+87	3387	stiftelse	stiftelsen stiftelse stiftelsens stiftelser stiftelserna stiftelses
+88	3388	asyl	asyl asylen
+89	3389	självförtroende	självförtroende självförtroendet
+90	3390	dumpa	dumpa dumpar dumpade dumpad dumpat dumpas dumpades dumpats dumpen
+91	3391	kemi	kemi kemin kemins kemis
+92	3392	integritet	integritet integriteten integritets
+93	3393	utslag	utslag utslagen utslaget
+94	3394	isär	isär
+95	3395	jordbruk	jordbruk jordbruket jordbrukets jordbruks jordbruken
+96	3396	uppsats	uppsats uppsatser uppsatsen uppsatserna
+97	3397	jämn	jämn jämnt jämnare jämnaste
+98	3398	påsk	påsk påsken påskens påska påskas
+99	3399	snus	snus snusar snuset snusen
+100	3400	diska	diska disken diskar diskat diskade diskare diskad diskas diskades

@@ -1,0 +1,100 @@
+1	8801	uppskattningsvis	uppskattningsvis
+2	8802	ör	ör
+3	8803	sparbank	sparbanken sparbank sparbanker sparbankerna sparbankernas sparbanks sparbankens
+4	8804	goding	goding godingar godingen godingarna
+5	8805	utgivning	utgivning utgivningen utgivningar
+6	8806	träffsäker	träffsäker träffsäkert träffsäkra
+7	8807	handfat	handfatet handfat handfaten
+8	8808	förbrukad	förbrukat förbrukad förbrukade
+9	8809	halo	halo halon halos
+10	8810	kork	kork korken korkar korkarna
+11	8811	nappa	nappa nappade nappar nappat nappe nappen
+12	8812	emigrera	emigrera emigrerade emigrerar emigrerat
+13	8813	besittning	besittning besittningar besittningen besittningarna
+14	8814	återvinning	återvinning återvinningen återvinnings
+15	8815	delegat	delegat delegater delegaterna delegaten
+16	8816	mobilnummer	mobilnummer mobilnumret
+17	8817	braka	brakar braka brakade brake brakat
+18	8818	örfil	örfil örfilar örfilen
+19	8819	musa	musa musan muserna muser
+20	8820	cocktail	cocktail cocktails cocktailen
+21	8821	isa	isa isen isande isas ise isar
+22	8822	skeppa	skeppa skeppas skeppar skeppades skeppade skeppen skeppat skeppats
+23	8823	sketen	sketna sketen sketet
+24	8824	hemort	hemort hemorten hemorter
+25	8825	överträdelse	överträdelser överträdelse överträdelsen
+26	8826	spaghetti	spaghetti spaghettin
+27	8827	profilera	profilera profilerat profilerade profilerad profilerar
+28	8828	beskyddare	beskyddare beskyddaren beskyddarinna beskyddarna
+29	8829	gagna	gagnar gagna gagnas gagnat gagnade gagnande
+30	8830	ankare	ankare ankaret
+31	8831	gaffeltruck	truck gaffeltruck gaffeltruckar
+32	8832	atombomb	atombomber atombomb atombomben atombomberna
+33	8833	flyktingläger	flyktingläger flyktinglägret flyktinglägren
+34	8834	fragment	fragment fragmenten fragmentet
+35	8835	svalka	svalka svalkar svalkande svalkan
+36	8836	spektakel	spektakel spektaklet
+37	8837	hemresa	hemresa hemresan hemresor
+38	8838	häpna	häpna häpnar häpnade häpnas
+39	8839	beige	beige beiga beigea
+40	8840	falukorv	falukorv falukorven
+41	8841	galla	galla gallan
+42	8842	kortvarig	kortvarig kortvarigt kortvariga
+43	8843	förräderi	förräderi förräderiet
+44	8844	ståtlig	ståtlig ståtliga ståtligt ståtligaste ståtligare ståtlige
+45	8845	mota	mota motar mote motade motas motat moten
+46	8846	kortspel	kortspel kortspelet
+47	8847	radioprogram	radioprogram radioprogrammet radioprogrammen
+48	8848	solsystem	solsystem solsystemet solsystemets
+49	8849	läromedel	läromedel läromedlet
+50	8850	kungafamilj	kungafamiljen kungafamilj kungafamiljens
+51	8851	centralbyrå	centralbyrån centralbyråns
+52	8852	asylrätt	asylrätten asylrätt
+53	8853	lönlös	lönlöst lönlösa lönlös
+54	8854	olivolja	olivolja olivoljan
+55	8855	tajmning	tajming tajmning
+56	8856	yngling	yngling ynglingar ynglingen ynglingarna
+57	8857	rapa	rape rapa rapar rapade rapat
+58	8858	förlamad	förlamad förlamade förlamat
+59	8859	marxist	marxist marxister marxisten marxisterna
+60	8860	hundralapp	hundralappar hundralapp hundralappen
+61	8861	näbb	näbbar näbben näbb näbbarna
+62	8862	salva	salva salvor salvan
+63	8863	trasa	trasa trasor trasan trasorna trasar trasas
+64	8864	dekorera	dekorera dekorerade dekorerat dekorerar dekoreras dekorerades dekorerats
+65	8865	snäv	snäv snävt snävare
+66	8866	husrannsakan	husrannsakan husrannsakningar
+67	8867	gräsklippare	gräsklippare gräsklipparen
+68	8868	realism	realism realismen realismens
+69	8869	vindruva	vindruvor vindruva vindruvorna vindruvan
+70	8870	erfara	erfara erfar erfarit erfor erfors
+71	8871	patrullera	patrullerar patrullera patrullerande patrullerade patrulleras patrullerat
+72	8872	blåsig	blåsigt blåsiga blåsig
+73	8873	provokation	provokation provokationer provokationen
+74	8874	styv	styv styva styvt styvare
+75	8875	strippa	strippa strippar strippor strippen stripp strippan strippade strippande
+76	8876	dykare	dykare dykaren dykarna
+77	8877	tystnadsplikt	tystnadsplikt tystnadsplikten
+78	8878	riksdaler	riksdaler rdr
+79	8879	gravitation	gravitation gravitationen gravitationens
+80	8880	onyttig	onyttigt onyttig onyttiga
+81	8881	bussresa	bussresa bussresor bussresan
+82	8882	löntagare	löntagare löntagarna löntagaren löntagarnas
+83	8883	pika	pike pika pikes pikade pikar piken
+84	8884	årgång	årgång årgången årgångar årgångarna årgångs
+85	8885	nisch	nisch nischer nischen nischerna
+86	8886	stunda	stundande stundar stunde stunden
+87	8887	säkerhetsråd	säkerhetsråd säkerhetsrådet säkerhetsrådets säkerhetsråds
+88	8888	otillåten	otillåten otillåtet otillåtna
+89	8889	okontrollerad	okontrollerad okontrollerat okontrollerade
+90	8890	svenskspråkig	svenskspråkiga svenskspråkig svenskspråkigt
+91	8891	revansch	revansch revanschen
+92	8892	strut	strut struts strutar strutsen strutsar struten strutsarna
+93	8893	äckla	äcklar äcklas äckla äcklande äcklades äcklade äcklen
+94	8894	uppvaknande	uppvaknande uppvaknandet uppvaknanden
+95	8895	utrikesdepartement	utrikesdepartementet utrikesdepartement utrikesdepartementets
+96	8896	klädesplagg	klädesplagg klädesplagget
+97	8897	amfetamin	amfetamin amfetaminet amfetaminer
+98	8898	direktsändning	direktsändning direktsändningen direktsändningar
+99	8899	lykta	lykta lyktor lyktan lyktorna lyktans
+100	8900	förnödenhet	förnödenheter förnödenheterna

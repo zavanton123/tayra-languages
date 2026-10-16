@@ -1,0 +1,100 @@
+1	2501	sinne	sinne sinnen sinnet sinnes sinnena sinnens sinnenas sinnets
+2	2502	revolution	revolution revolutionen revolutioner revolutionens revolutions revolutionerna
+3	2503	offra	offra offrar offrade offren offras offrat offrades offrats offrad offrandet
+4	2504	sorgligt	sorgligt sorgligare sorgligast
+5	2505	sand	sand sanden sands sandens
+6	2506	farfar	farfar farfars farfadern farfaderns
+7	2507	arbetslöshet	arbetslöshet arbetslösheten arbetslöshetens arbetslöshets
+8	2508	klämma	klämma klämmer kläm klämde klämt kläms klämdes klämmor klämd klämman
+9	2509	huvudstad	huvudstad huvudstaden huvudstäder huvudstadens huvudstäderna
+10	2510	därav	därav deraf
+11	2511	närvarande	närvarande
+12	2512	yttre	yttre
+13	2513	smidig	smidigt smidig smidigare smidiga smidigaste smidigast
+14	2514	judisk	judiska judisk judiskt judiske
+15	2515	personlighet	personlighet personligheter personligheten personligheterna personlighets personlighetens
+16	2516	förväntan	förväntningar förväntningarna förväntan
+17	2517	luta	luta lutar lutade lutande lutad lutat lutas lutan luten lute
+18	2518	robot	robotar robot roboten robotarna robots robotens robotarnas
+19	2519	melodifestival	melodifestivalen mello melodifestival melodifestivalens melodifestivaler
+20	2520	härad	hd härad härads härader häradet
+21	2521	annons	annons annonser annonsen annonserna
+22	2522	obligatorisk	obligatorisk obligatoriskt obligatoriska
+23	2523	ansöka	ansöka ansöker ansökte ansökt ansök ansökande
+24	2524	kanon	kanon kanoner kanonen kanonerna kanoners kanonernas kanonens
+25	2525	nyanländ	nyanlända nyanländ nyanlände
+26	2526	monster	monster monstret monsters monstren monstrets
+27	2527	neka	neka nekar nekas nekade nekad nekades nekat nekats nekande
+28	2528	utsträckning	utsträckning utsträckningen
+29	2529	kvarter	kvarter kvarteret kvarteren kvarterets kvarters kvarterens
+30	2530	svära	svär svära svor svurit svärje svärande svors svuren svurna svärs
+31	2531	morsa	morsan morsa morsans morsor morses morsas
+32	2532	förutsätta	förutsätter förutsatt förutsätta förutsatte förutsätts förutsätt förutsattes
+33	2533	integration	integration integrationen integrations
+34	2534	läpp	läppar läpparna läppen läpp läpparnas
+35	2535	skräp	skräp skräpet
+36	2536	matematik	matematik matematiken matematikens
+37	2537	släkting	släktingar släkting släktingen släktingarna släktingars släktings
+38	2538	försiktigt	försiktigt
+39	2539	garanterat	garanterat
+40	2540	hemifrån	hemifrån
+41	2541	härifrån	härifrån
+42	2542	ovanför	ovanför
+43	2543	sikta	sikta sikte siktet siktar siktade siktat sikten siktad siktats siktas
+44	2544	schema	schema schemat scheman
+45	2545	framgå	framgår framgick framgå framgått
+46	2546	släcka	släcka släcker släckt släck släckte släcks släcktes släckas släckta släckts
+47	2547	sopa	sopa sopor soporna sopar sopas sopat sopade sopan sopats sopades
+48	2548	ursprunglig	ursprungliga ursprunglig ursprungligt ursprunglige
+49	2549	glasögon	glasögon glasögonen
+50	2550	orättvis	orättvist orättvis
+51	2551	järnväg	järnvägen järnväg järnvägar järnvägens järnvägarna järnvägs jernväg järnvägars
+52	2552	mördare	mördare mördaren mördarna mördarens mördares mördarnas
+53	2553	gris	gris grisar grisen grisarna grisens grisarnas
+54	2554	önskan	önskan önskningar önskningarna
+55	2555	komplett	komplett kompletta
+56	2556	kopia	kopia kopior kopian kopiorna
+57	2557	färga	färgade färga färgat färgad färgar färgen färgas färgades färgats färgande
+58	2558	front	fronten front fronter fronterna frontens fronts
+59	2559	fritid	fritid fritiden fritids
+60	2560	litteratur	litteratur litteraturen litteraturens litteraturer
+61	2561	anläggning	anläggningen anläggning anläggningar anläggningarna anläggningens anläggnings
+62	2562	reglera	regleras reglera reglerar reglerad reglerade reglerat reglerades reglerande reglerats
+63	2563	symtom	symptom symtom symptomen symtomen symptomet symtomet symptomer
+64	2564	analysera	analysera analyserar analyserat analyseras analyserade analyserats analyserades analyserande analyserad
+65	2565	blunda	blunda blundar blundade blundat
+66	2566	dos	dos doser dosen doserna
+67	2567	party	party partyt partyn partys
+68	2568	likhet	likhet likheter likheten likheterna
+69	2569	sven	sven svens svennen
+70	2570	tabell	tabellen tabell tabeller tabellerna tabellens
+71	2571	brottsling	brottslingar brottsling brottslingarna brottslingen brottslingars brottslingens brottslingarnas
+72	2572	bekämpa	bekämpa bekämpar bekämpas bekämpade bekämpat bekämpande bekämpare bekämpades bekämpandet bekämpats
+73	2573	apotek	apotek apoteket apoteken apotekets apotekens apoteks
+74	2574	bibel	bibeln bibel bibelns biblar biblarna
+75	2575	anställning	anställning anställningar anställningen anställnings anställningarna
+76	2576	förhandling	förhandlingar förhandlingarna förhandling förhandlingen förhandlings
+77	2577	diagnos	diagnos diagnoser diagnosen diagnoserna
+78	2578	haka	hakan haka hakar hakat haken hake hakade hakor hakarna hakas
+79	2579	avsikt	avsikt avsikten avsikter avsikterna
+80	2580	begär	begär begäret begärs begärets begären
+81	2581	allsvenskan	allsvenskan
+82	2582	annanstans	annanstans
+83	2583	intill	intill
+84	2584	minsann	minsann
+85	2585	nedan	nedan
+86	2586	olagligt	olagligt
+87	2587	påverkan	påverkan
+88	2588	von	von
+89	2589	drink	drinkar drink drinken drinkarna drinks
+90	2590	medalj	medalj medaljer medaljen medaljerna medaljens
+91	2591	svin	svin svinen svinet
+92	2592	inspelning	inspelning inspelningen inspelningar inspelningarna inspelnings inspelningens
+93	2593	blöt	blöt blött blöta blöter blötare blötte blötaste
+94	2594	förort	förorten förorter förort förorterna förortens förorts förorternas
+95	2595	konkurrens	konkurrens konkurrensen
+96	2596	naiv	naiv naiva naivt naive
+97	2597	kränkt	kränkt kränkta kränkte
+98	2598	återstå	återstår återstående återstå
+99	2599	kändis	kändisar kändis kändisarna kändisen kändisars kändisarnas
+100	2600	ansökan	ansökan ansökningar ansökningarna

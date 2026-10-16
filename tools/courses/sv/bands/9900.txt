@@ -1,0 +1,100 @@
+1	9801	bojkott	bojkott bojkotter bojkotten
+2	9802	hemlagad	hemlagad hemlagat hemlagade
+3	9803	härlighet	härlighet härligheten härlighetens
+4	9804	pensionat	pensionat pensionatet
+5	9805	damfotboll	damfotboll damfotbollen damfotbollens damfotbolls
+6	9806	paviljong	paviljongen paviljong paviljonger paviljongerna
+7	9807	tänja	tänja tänjer tänjt tänjde tänjs tänjas
+8	9808	oanvänd	oanvända oanvänd oanvänt
+9	9809	växthusgas	växthusgaser växthusgas växthusgaserna
+10	9810	utgrävning	utgrävningar utgrävning utgrävningen utgrävningarna
+11	9811	messa	messa messar messade messat messe messen
+12	9812	lounge	lounge loungen lounger
+13	9813	farhåga	farhågor farhåga farhågorna farhågan
+14	9814	slutta	sluttande sluttar sluttade slutta
+15	9815	protestant	protestanter protestant protestanterna protestanternas
+16	9816	knöl	knölar knöl knölen knölarna
+17	9817	vikingatid	vikingatiden vikingatid vikingatidens
+18	9818	nikotin	nikotin nikotinet
+19	9819	inkopplad	inkopplad inkopplade inkopplat
+20	9820	mörkbrun	mörkbrun mörkbruna mörkbrunt
+21	9821	erövring	erövring erövringar erövringen
+22	9822	statskassa	statskassan statskassa
+23	9823	rigg	rigg riggar riggs riggen riggarna
+24	9824	våldsmonopol	våldsmonopol våldsmonopolet
+25	9825	pulsera	pulserande pulserar pulsera pulserade
+26	9826	dödshot	dödshot dödshoten
+27	9827	informell	informellt informell
+28	9828	presstöd	presstöd presstödet
+29	9829	batong	batong batongen batonger
+30	9830	biltrafik	biltrafik biltrafiken
+31	9831	begynnelse	begynnelse begynnelsen
+32	9832	snabbmat	snabbmat snabbmats snabbmaten
+33	9833	målsägande	målsägande målsäganden målsägandens målsägandes
+34	9834	applikation	applikationer applikation applikationen applikationerna
+35	9835	blodbad	blodbad blodbadet
+36	9836	stök	stök stöket
+37	9837	utrikespolitisk	utrikespolitiska utrikespolitiskt utrikespolitisk
+38	9838	herrlag	herrlaget herrlag herrlagets
+39	9839	skamlös	skamlöst skamlösa skamlös
+40	9840	elektron	elektroner elektronerna elektron elektronen elektronernas elektronens
+41	9841	vaccination	vaccination vaccinationer vaccinationen
+42	9842	oerfaren	oerfaren oerfarna oerfarne
+43	9843	skojare	skojare skojarna skojaren
+44	9844	törst	törst törsten
+45	9845	efterträda	efterträda efterträddes efterträder efterträdde efterträtt efterträds efterträtts efterträdande
+46	9846	naturkatastrof	naturkatastrofer naturkatastrof naturkatastrofen
+47	9847	vänlighet	vänlighet vänligheten
+48	9848	slöjd	slöjd slöjden
+49	9849	smeta	smeta smeten smetat smetade smetar smetas
+50	9850	propagera	propagerar propagera propagerade propagerat propageras propagerande
+51	9851	nybygge	nybygge nybyggen nybygget nybyggena
+52	9852	underkasta	underkasta underkastar underkastade underkastas underkastat underkastad
+53	9853	rodna	rodnar rodna rodnad rodnade rodnande rodnaden
+54	9854	förtryckare	förtryckare förtryckarna förtryckaren
+55	9855	konstellation	konstellationer konstellation konstellationen konstellationerna
+56	9856	tuva	tuva tuve tuvor tuvan
+57	9857	omloppsbana	omloppsbana omloppsbanan omloppsbanor
+58	9858	bong	bong bongen
+59	9859	pensionsålder	pensionsåldern pensionsålder
+60	9860	utbredning	utbredning utbredningen
+61	9861	inloggad	inloggad inloggade
+62	9862	fakturera	fakturera fakturerar fakturerade faktureras fakturerat
+63	9863	finansdepartement	finansdepartementet finansdepartementets finansdepartement
+64	9864	pronomen	pronomen pronomenet
+65	9865	exploatera	exploatera exploaterar exploateras exploaterade exploaterad exploaterande exploaterat exploaterats exploaterades
+66	9866	manlighet	manlighet manligheten
+67	9867	efterlysning	efterlysning efterlysningen efterlysningar
+68	9868	funktionshindrad	funktionshindrade funktionshindrad funktionshindrat
+69	9869	sportbil	sportbil sportbilar sportbilen sportbilarna
+70	9870	samhällsvetenskap	samhällsvetenskap samhällsvetenskapen samhällsvetenskaperna samhällsvetenskaper
+71	9871	inspela	inspelad
+72	9872	krigsbrott	krigsbrott
+73	9873	meningsmotståndare	meningsmotståndare
+74	9874	periodvis	periodvis
+75	9875	önsketänkande	önsketänkande
+76	9876	direktsänd	direktsänd direktsänt direktsända direktsänds direktsänder direktsändes direktsände
+77	9877	spray	spray sprej sprayen sprays
+78	9878	cement	cement cementen
+79	9879	omelett	omelett omeletten omeletter
+80	9880	fullkomlig	fullkomlig fullkomliga
+81	9881	sil	sil silar silen
+82	9882	magister	magister magistern magisterns magistrar
+83	9883	hösttermin	höstterminen hösttermin
+84	9884	fjällräv	fjällräven fjällräv
+85	9885	neurologisk	neurologiska neurologisk neurologiskt
+86	9886	handelsavtal	handelsavtal handelsavtalet handelsavtalen
+87	9887	förödelse	förödelse förödelsen förödelsens
+88	9888	skateboard	skateboard skateboards skateboarden
+89	9889	periodisk	periodiska periodisk periodiskt
+90	9890	proportionell	proportionellt proportionell proportionella
+91	9891	snöflinga	snöflingor snöflinga snöflingorna snöflingan
+92	9892	wc	wc wct
+93	9893	oavgjord	oavgjorda oavgjord
+94	9894	slutbetyg	slutbetyg slutbetyget
+95	9895	injektion	injektion injektioner injektionen injektionerna
+96	9896	överstelöjtnant	överstelöjtnant överstelöjtnanten överstelöjtnants
+97	9897	manshat	manshat manshatet
+98	9898	watt	watt watten
+99	9899	ackord	ackord ackordet ackorden
+100	9900	tecknare	tecknare tecknaren tecknarna tecknarens tecknares

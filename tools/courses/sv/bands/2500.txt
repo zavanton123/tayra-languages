@@ -1,0 +1,100 @@
+1	2401	bomb	bomber bomb bomben bomberna bombers bombs bombens
+2	2402	övre	övre öfre
+3	2403	mönster	mönster mönstret mönstren
+4	2404	miljöparti	miljöpartiet miljöpartiets miljöparti
+5	2405	framföra	framföra framförs framförde framfört framförts framföras framfördes framförande framförd framförandet
+6	2406	utesluta	utesluter utesluta uteslutas utesluten utesluts uteslutit uteslöt uteslöts uteslutits uteslut
+7	2407	morfar	morfar morfars morfadern
+8	2408	gula	gula gulan gulor gulas
+9	2409	get	get getter gets geten getterna getens
+10	2410	lysa	lyser lysa lyste lyset lys lyse lyst lysen lystes lyses
+11	2411	radera	radera raderade raderar raderat raderas raderad raderats raderades
+12	2412	skål	skål skålar skålen skålarna skålens
+13	2413	vänsterparti	vänsterpartiet vänsterpartiets vänsterparti vänsterpartier vänsterpartierna vänsterpartiernas
+14	2414	gåva	gåva gåvor gåvan gåvorna gåvans
+15	2415	intervjua	intervjua intervjuade intervjuar intervjuas intervjuad intervjuat intervjuades intervjuare intervjuats intervjuen
+16	2416	knyta	knyta knyter knuten knöt knyt knutet knytas knyts knutit knöts
+17	2417	stig	stig stigen stigar stigs stigarna stigens
+18	2418	framme	framme
+19	2419	sid	sid
+20	2420	ytterst	ytterst
+21	2421	attraktiv	attraktiv attraktiva attraktivt attraktivare
+22	2422	snitt	snitt snittet snittar snitten snittarna
+23	2423	bonus	bonus bonusar bonusen bonusarna
+24	2424	förbud	förbud förbudet förbuden förbudets
+25	2425	lansera	lanserades lanserar lanserade lansera lanseras lanserat lanserats lanserad
+26	2426	grilla	grilla grillat grillad grillen grillade grillar grillas grillades grille grillor
+27	2427	skänka	skänka skänker skänkt skänkte skänk skänks skänktes skänkta skänkts skänkas
+28	2428	förvandla	förvandlas förvandla förvandlats förvandlades förvandlar förvandlade förvandlat förvandlad
+29	2429	tyda	tyder tyda tydde tyd tydas tytt
+30	2430	vika	vika viker vek viken veka viket vikande veken vikas vekar
+31	2431	tillbringa	tillbringade tillbringa tillbringar tillbringat tillbringades tillbringas tillbragte
+32	2432	villig	villig villiga villigt villigare
+33	2433	ögonblick	ögonblick ögonblicket ögonblicken ögonblicks ögonblickets
+34	2434	hemlighet	hemlighet hemligheter hemligheten hemligheterna hemligheternas
+35	2435	avskaffa	avskaffa avskaffas avskaffades avskaffande avskaffade avskaffar avskaffat avskaffats avskaffad
+36	2436	spänning	spänning spänningen spänningar spänningarna spänningens spännings
+37	2437	arbetsmarknad	arbetsmarknaden arbetsmarknad arbetsmarknadens arbetsmarknads arbetsmarknader
+38	2438	anlända	anländer anlände anlänt anlända anländande anländ
+39	2439	pool	pool poolen pooler pools poolerna
+40	2440	tvivla	tvivlar tvivla tvivlade tvivlat tvivlande tvivlen
+41	2441	räkning	räkning räkningar räkningen räkningarna
+42	2442	lotta	lotta lottad lottade lottas lotte lotten lottar lottades lottats lottat
+43	2443	övning	övning övningar övningen övningarna övnings övningens
+44	2444	spy	spy spyr spydde spytt spys
+45	2445	smitta	smitta smittade smittar smittad smittan smittas smittat smittats smittades smittor
+46	2446	bi	bi bin bina bis biet binas biets bins
+47	2447	sväng	sväng svängarna svängen svängar
+48	2448	asylsökande	asylsökande asylsökanden asylsökandes
+49	2449	uppdatering	uppdatering uppdateringar uppdateringen uppdateringarna
+50	2450	akademisk	akademiska akademisk akademiskt
+51	2451	brittiska	brittiska brittiskan
+52	2452	inta	inta intar intag intog intagit intagen intogs intaget intas intagande
+53	2453	flotta	flottan flotta flottans flotten flotte flottor flottar flottorna flottarna
+54	2454	efterhand	efterhand
+55	2455	främmande	främmande
+56	2456	green	green greens greenen greener greenerna
+57	2457	skarp	skarpt skarp skarpa skarpare skarpaste skarpast
+58	2458	halvtimme	halvtimme halvtimmen halvtimmes
+59	2459	markera	markera markerar markerade markerad markerat markeras markerats markerades markerande
+60	2460	överge	överge överger övergivna övergav övergiven övergett övergivet övergivit övergavs överges
+61	2461	farsa	farsan farsa farsans farsor farsas
+62	2462	tveksam	tveksam tveksamt tveksamma
+63	2463	teckna	tecknade tecknad teckna tecknat tecknar tecknades tecknas tecknen tecknandet tecknande
+64	2464	upptagen	upptagen upptagna upptaget
+65	2465	överraskning	överraskning överraskningar överraskningen överraskningarna överrasknings
+66	2466	förmån	förmån förmåner förmånen förmånerna
+67	2467	ändring	ändring ändringar ändringen ändringarna
+68	2468	tumme	tummarna tummen tumme tummar tummens
+69	2469	ingenjör	ingenjör ingenjörer ingenjören ingenjörerna ingenjörs ingenjörers ingenjörens ingenjörernas ingeniör
+70	2470	feministisk	feministiska feministisk feministiskt
+71	2471	stava	stava stavas stavar stavat stavade staven stavades stavats stavad
+72	2472	decennium	decennier decennium decennierna decenniet decenniers decenniets decenniernas decenniums
+73	2473	fota	fota foten fotar fotade fotat fotad fotas fotades
+74	2474	fotograf	fotograf fotografen fotografer fotograferna fotografens fotografers fotografs fotografernas
+75	2475	landslag	landslaget landslag landslagets landslagen landslags
+76	2476	smyga	smyger smyga smyg smög smugit smygande smyge smygandes
+77	2477	pensionär	pensionärer pensionär pensionärerna pensionären pensionärernas pensionärers pensionärs
+78	2478	hänvisa	hänvisar hänvisa hänvisade hänvisas hänvisad hänvisat hänvisades hänvisande hänvisats
+79	2479	insikt	insikt insikten insikter insikterna
+80	2480	baby	baby babyn babies babys babyns
+81	2481	knäpp	knäpp knäppa knäppt knäpper knäppte knäppare knäppaste knäppta knäpps knäppas
+82	2482	kilo	kilo kilon kilos kilot kilona
+83	2483	försäkring	försäkring försäkringar försäkringen försäkrings försäkringarna
+84	2484	dubbel	dubbel dubbeln dubble
+85	2485	landskap	landskap landskapet landskapen landskapets landskaps landskapens
+86	2486	yttrandefrihet	yttrandefrihet yttrandefriheten yttrandefrihetens
+87	2487	seg	seg sega segt segare segar segaste sege segas
+88	2488	bl.a.	bla
+89	2489	tusan	tusan
+90	2490	besvara	besvara besvarar besvarade besvaras besvarat besvarad besvarades besvarats
+91	2491	dröja	dröjer dröja dröjde dröjt dröj dröjande
+92	2492	berömd	berömda berömd berömde berömt
+93	2493	tårta	tårta tårtan tårtor tårtorna
+94	2494	färsk	färsk färska färskt färskare färskaste
+95	2495	smälla	smäller small smälla smällen smällde smällt smällande smälls
+96	2496	närvaro	närvaro närvaron
+97	2497	schysst	schysst schyssta schyst sjysst sjyst schysstare
+98	2498	hud	hud huden hudens hudar huds
+99	2499	krog	krogen krog krogar krogarna krogens
+100	2500	skugga	skuggan skugga skuggor skuggorna skuggar skugge skuggornas skuggade skuggans skuggas

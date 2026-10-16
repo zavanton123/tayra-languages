@@ -1,0 +1,100 @@
+1	9001	indikator	indikator indikatorer indikatorn indikatorerna
+2	9002	avverka	avverkat avverkas avverka avverkar avverkade avverkades avverkats avverkad
+3	9003	landshövding	landshövding landshövdingen landshövdingens landshövdingar landshövdingarna
+4	9004	labyrint	labyrint labyrinten labyrinter labyrintens labyrinterna
+5	9005	smed	smed smeden smederna smeder smeds smedens
+6	9006	kemist	kemist kemisten kemister kemisterna
+7	9007	vax	vax vaxet vaxer
+8	9008	karantän	karantän karantänen
+9	9009	seren	serena serene seren
+10	9010	samarbetspartner	samarbetspartner samarbetspartners samarbetspartnern
+11	9011	likartad	likartade likartad likartat
+12	9012	oväsentlig	oväsentligt oväsentlig oväsentliga
+13	9013	flört	flirt flört flörtar flirten
+14	9014	banderoll	banderoller banderoll banderollen banderollerna
+15	9015	knaka	knakar knaka knakade knakande
+16	9016	ultraljud	ultraljud ultraljudet ultraljuds
+17	9017	höghus	höghus höghusen höghuset
+18	9018	vedertagen	vedertagen vedertagna vedertaget
+19	9019	petig	petig petiga petigt
+20	9020	snegla	sneglar snegla sneglade sneglat
+21	9021	befängd	befängt befängda befängd
+22	9022	översvämma	översvämmas översvämmade översvämmad översvämmat översvämma översvämmar översvämmades översvämmats översvämmande
+23	9023	ordlista	ordlista ordlistan ordlistor
+24	9024	asylinvandring	asylinvandringen asylinvandring
+25	9025	fiktion	fiktion fiktionen fiktioner
+26	9026	statschef	statschef statschefen statschefer statschefens
+27	9027	terrorattack	terrorattacker terrorattack terrorattacken terrorattackerna
+28	9028	dynamik	dynamik dynamiken
+29	9029	asylskäl	asylskäl
+30	9030	beundran	beundran
+31	9031	dramaten	dramaten
+32	9032	gudomligt	gudomligt
+33	9033	hittepå	hittepå
+34	9034	hå	hå
+35	9035	incest	incest
+36	9036	martini	martini
+37	9037	stillastående	stillastående
+38	9038	storgata	storgatan
+39	9039	ytligt	ytligt
+40	9040	inflöde	inflödet inflöde
+41	9041	ligist	ligister ligist ligisterna ligisten
+42	9042	slutsåld	slutsåld slutsålda slutsålt
+43	9043	spak	spakarna spak spaken spakar
+44	9044	motorsåg	motorsåg motorsågen motorsågar motorsågarna
+45	9045	grafikkort	grafikkort grafikkortet grafikkorten
+46	9046	pula	pul pula pular
+47	9047	synagoga	synagoga synagogan synagogor synagogorna synagogans
+48	9048	inträda	inträder inträdde inträda inträtt inträdande inträden inträdes
+49	9049	afterwork	aw afterwork
+50	9050	kyrkklocka	kyrkklockorna kyrkklockor kyrkklocka kyrkklockan
+51	9051	snäcka	snäckor snäcka snäckan snäckorna snäck snäckans
+52	9052	lagring	lagring lagringen lagrings
+53	9053	missionär	missionär missionären missionärer missionärerna
+54	9054	lillen	lillen lillens
+55	9055	förvaltningsrätt	förvaltningsrätten förvaltningsrätt förvaltningsrättens förvaltningsrätterna
+56	9056	försändelse	försändelsen försändelser försändelse försändelserna
+57	9057	arbetsgrupp	arbetsgrupp arbetsgruppen arbetsgrupper arbetsgruppens
+58	9058	hemskhet	hemskheter hemskheterna hemskhet
+59	9059	nobelpristagare	nobelpristagare nobelpristagaren nobelpristagarna
+60	9060	avskild	avskild avskilt avskilda
+61	9061	makeup	makeup makeupen
+62	9062	infart	infarten infart infarter infarterna
+63	9063	delge	delge delger delges delgav delgavs delgiven delgivits delgivit
+64	9064	telefonförsäljare	telefonförsäljare telefonförsäljarna
+65	9065	förläggare	förläggare förläggaren förläggarna
+66	9066	tillslag	tillslag tillslaget tillslagen
+67	9067	hedersvåld	hedersvåld hedersvåldet
+68	9068	tjejkompis	tjejkompisar tjejkompis
+69	9069	avdelningschef	avdelningschef avdelningschefen avdelningschefer avdelningscheferna
+70	9070	skitdålig	skitdåligt skitdålig skitdåliga
+71	9071	arresterad	arresterad arresterade arresterat
+72	9072	skolbarn	skolbarn skolbarnen
+73	9073	renässans	renässans renässansen renässansens
+74	9074	fimpa	fimpa fimpar fimpade fimpen fimpat
+75	9075	garant	garant garanten garanter garants
+76	9076	temperament	temperament temperamentet
+77	9077	lättillgänglig	lättillgänglig lättillgängligt lättillgängliga
+78	9078	seriemördare	seriemördare seriemördaren seriemördares
+79	9079	svetsa	svetsa svetsar svetsat svetsade svetsad svetsas svetsen svetsades
+80	9080	soptipp	soptipp soptippen soptippar
+81	9081	bankomat	bankomat bankomaten bankomater bankomaterna
+82	9082	spermie	spermier spermie spermierna spermien spermiernas
+83	9083	kulturhistorisk	kulturhistoriska kulturhistoriskt kulturhistorisk
+84	9084	banner	banner banners bannern
+85	9085	zebra	zebra zebror zebran zebrorna sebra
+86	9086	uppkörning	uppkörningen uppkörning
+87	9087	förlopp	förlopp förloppet
+88	9088	sportlov	sportlov sportlovet
+89	9089	sirap	sirap sirapen
+90	9090	förtjänt	förtjänt förtjänta
+91	9091	kladda	kladda kladdar kladdat kladdade
+92	9092	bybo	byborna bybor bybornas bybo
+93	9093	ensamrätt	ensamrätt ensamrätten
+94	9094	samhällskunskap	samhällskunskap samhällskunskapen
+95	9095	partisekreterare	partisekreterare partisekreteraren
+96	9096	reservdel	reservdelar reservdel reservdelarna reservdelen
+97	9097	obemärkt	obemärkt obemärkta
+98	9098	överhuvud	överhuvud överhuvudet överhuvuden
+99	9099	alibi	alibi alibin
+100	9100	runa	runor runa runorna runan runornas

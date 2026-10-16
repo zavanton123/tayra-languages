@@ -1,0 +1,100 @@
+1	6401	folkvald	folkvalda folkvald folkvalt folkvalde folkvaldas
+2	6402	simning	simning simningen
+3	6403	tillträda	tillträdde tillträder tillträda tillträtt tillträdande
+4	6404	rengöra	rengöra rengör rengöras rengjort rengjorde rengjord rengjorda rengjorts rengjordes rengörs
+5	6405	nämndeman	nämndemän nämndeman nämndemännen nämndemannen
+6	6406	missta	misstar missta misstog misstas misstagit misstogs misstagen
+7	6407	oförmögen	oförmögen oförmögna oförmöget
+8	6408	dokumentation	dokumentation dokumentationen dokumentationer
+9	6409	påtala	påtala påtalar påtalat påtalade påtal påtalas påtalats påtalades
+10	6410	yrka	yrkar yrkade yrka yrken yrkat yrkas yrkes
+11	6411	plundra	plundra plundrade plundrar plundrat plundrades plundras plundrats plundrad plundrande
+12	6412	korståg	korståg korstågen korståget korstågens
+13	6413	patrull	patrull patruller patrullen patrullerna patrullens
+14	6414	kid	kid
+15	6415	nordväst	nordväst
+16	6416	utomstående	utomstående
+17	6417	bilolycka	bilolycka bilolyckor bilolyckan
+18	6418	riksdagsman	riksdagsman riksdagsmän riksdagsmannen riksdagsmännen
+19	6419	vaktmästare	vaktmästare vaktmästaren vaktmästarna vaktmästarens
+20	6420	intyg	intyg intyget intygen
+21	6421	lantbruk	lantbruk lantbruket lantbrukets lantbruks
+22	6422	spektrum	spektrum spektrumet spektra spektrat spektret
+23	6423	skicklighet	skicklighet skickligheten skickligheter
+24	6424	blödning	blödning blödningar blödningen blödningarna
+25	6425	ag	ag agar ags agens agen
+26	6426	television	television televisionen televisions televisionens
+27	6427	skatteintäkt	skatteintäkter skatteintäkterna skatteintäkt
+28	6428	lyssnare	lyssnare lyssnarna lyssnaren lyssnarnas lyssnarens
+29	6429	rigga	riggat rigga riggade riggar riggad riggen riggades riggas
+30	6430	algoritm	algoritmer algoritm algoritmen algoritmerna
+31	6431	bekymra	bekymra bekymrar bekymrade bekymrande bekymrat bekymras bekymren
+32	6432	kolhydrat	kolhydrater kolhydraterna kolhydrat
+33	6433	bräda	bräda brädan brädor bräder brädorna brädade bräderna
+34	6434	interaktion	interaktion interaktioner interaktionen interaktionerna
+35	6435	blicka	blicka blicken blickar blickade blickat blickande
+36	6436	innehavare	innehavare innehavaren innehavarens innehavarna
+37	6437	skogsbrand	skogsbränder skogsbrand skogsbranden skogsbränderna
+38	6438	intala	intala intalar intalat intalade
+39	6439	utarbeta	utarbeta utarbetad utarbetade utarbetat utarbetandet utarbetats utarbetar utarbetades utarbetande utarbetas
+40	6440	storhet	storhet storheten storheter storheterna
+41	6441	bojkotta	bojkotta bojkottar bojkottade bojkotten bojkottat bojkottas bojkottades
+42	6442	nederbörd	nederbörd nederbörden
+43	6443	operativsystem	operativsystem operativsystemet operativsystemen operativsystemets
+44	6444	stång	stången stång stänger stängerna stångar
+45	6445	soja	soja sojan
+46	6446	medelstor	medelstora medelstor medelstort
+47	6447	afrikan	afrikaner afrikan afrikanerna afrikanen afrikanernas afrikaners
+48	6448	lindra	lindra lindrar lindras lindrande lindrade lindrat
+49	6449	blanka	blanka blankar blankas blankat blankade
+50	6450	fastland	fastlandet fastland fastlandets
+51	6451	förstasida	förstasidan förstasida förstasidor förstasidorna
+52	6452	senap	senap senapen senaps
+53	6453	ombe	ombedd ombads ombeds ombetts ombedes ombes
+54	6454	lansering	lanseringen lansering lanseringar
+55	6455	effektivisera	effektivisera effektiviserar effektiviseras effektiviserat effektiviserade
+56	6456	fostra	fostra fostrat fostrade fostras fostrar fostrad fostrades fostrats fostrande fostren
+57	6457	misär	misär misären
+58	6458	grammatik	grammatik grammatiken
+59	6459	tillvägagångssätt	tillvägagångssätt tillvägagångssättet tillvägagångssätten
+60	6460	identitetspolitik	identitetspolitik identitetspolitiken
+61	6461	skena	skenande skenar skena skene skenade skenor skenan skenat skenorna
+62	6462	lagkapten	lagkapten lagkaptenen lagkaptener
+63	6463	bål	bål bålen bålet bålens
+64	6464	ateist	ateist ateister ateisten ateisterna
+65	6465	påtvinga	påtvingad påtvingat påtvingade påtvinga påtvingas påtvingar påtvingats påtvingades påtvingande
+66	6466	fyrverkeri	fyrverkerier fyrverkeri fyrverkerierna fyrverkeriet
+67	6467	käk	käk käket
+68	6468	deltid	deltid deltids
+69	6469	nyval	nyval nyvalet
+70	6470	kvällsmat	kvällsmat kvällsmaten
+71	6471	läppstift	läppstift läppstiftet
+72	6472	flippa	flippar flippa flippade flippat flippen flippad
+73	6473	förnuftig	förnuftiga förnuftigt förnuftig förnuftigare
+74	6474	nedläggning	nedläggning nedläggningen nedläggningar nedläggningarna nerläggning
+75	6475	papperslös	papperslösa papperslös papperslöst
+76	6476	ovärderlig	ovärderlig ovärderliga ovärderligt
+77	6477	vrak	vrak vraket vraken vrakets
+78	6478	festlig	festligt festlig festliga festligare
+79	6479	galax	galaxen galax galaxer galaxens galaxerna
+80	6480	tumör	tumör tumörer tumören tumörerna tumörens
+81	6481	ljuv	ljuva ljuv ljuvt ljuvaste
+82	6482	sjua	sjuan sjua sjuor sjuans
+83	6483	riksdagsparti	riksdagsparti riksdagspartierna riksdagspartier riksdagspartiernas riksdagspartiet riksdagspartiers
+84	6484	kärnkraftverk	kärnkraftverk kärnkraftverket kärnkraftverken
+85	6485	avfyra	avfyra avfyrade avfyras avfyrar avfyrat avfyrades avfyrats avfyrad avfyrande
+86	6486	maskera	maskerade maskera maskerar maskerat maskeras
+87	6487	verb	verb verbet verben verbets verbs
+88	6488	vykort	vykort vykortet vykorten
+89	6489	gunga	gunga gungar gungan gungade gungande gungor gungorna
+90	6490	hull	hull hullet hulls
+91	6491	preparat	preparat preparatet preparaten
+92	6492	gruppspel	gruppspel gruppspelet
+93	6493	intyga	intyga intygar intygade intygande intygat intygas intygen
+94	6494	ensemble	ensemble ensemblen ensembler ensemblens ensemblerna
+95	6495	naturvetenskap	naturvetenskap naturvetenskapen naturvetenskaperna naturvetenskapens naturvetenskaper
+96	6496	genväg	genvägar genväg genvägen
+97	6497	konsol	konsol konsolen konsoler konsolerna konsolens
+98	6498	fatt	fatt
+99	6499	inneboende	inneboende
+100	6500	israeliska	israeliska

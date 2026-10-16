@@ -1,0 +1,100 @@
+1	8401	stake	stake stakes stakar staken stakars
+2	8402	stum	stum stumma stumt stumme
+3	8403	obeväpnad	obeväpnad obeväpnade obeväpnat
+4	8404	förträfflig	förträfflig förträffligt förträffliga
+5	8405	sparsam	sparsamt sparsam sparsamma
+6	8406	fenomenal	fenomenal fenomenalt fenomenala
+7	8407	stationera	stationerad stationerade stationera stationerades stationerat stationeras
+8	8408	polarisering	polarisering polariseringen
+9	8409	lottning	lottning lottningen
+10	8410	bräcka	bräcke bräcka bräck bräcker
+11	8411	föranleda	föranledde föranleder föranlett föranleda föranleddes föranledd föranledda
+12	8412	växellåda	växellåda växellådan växellådor växellådorna
+13	8413	kapitalist	kapitalister kapitalisterna kapitalist kapitalisten kapitalisternas
+14	8414	komposition	komposition kompositioner kompositionen kompositionerna
+15	8415	elegans	elegans elegansen
+16	8416	utropa	utropa utropade utropar utropat utropades utropas utropare utropats utropen
+17	8417	jordklot	jordklotet jordklot jordklotets
+18	8418	darra	darrar darrande darra darrade
+19	8419	krylla	kryllar kryllade krylla
+20	8420	tivoli	tivoli tivolit tivolin
+21	8421	nederländska	nederländska nederländskan
+22	8422	rollfigur	rollfigur rollfigurer rollfiguren rollfigurerna rollfigurernas rollfigurens
+23	8423	kokbok	kokbok kokböcker kokboken kokböckerna
+24	8424	enighet	enighet enigheten
+25	8425	kirurgi	kirurgi kirurgin
+26	8426	husera	huserar husera huserade huserat
+27	8427	vetja	vetja vettja
+28	8428	bris	bris brisen
+29	8429	oregelbunden	oregelbundna oregelbunden oregelbundet
+30	8430	straffbar	straffbart straffbar straffbara
+31	8431	invända	invända invänder invände invänt
+32	8432	fördröja	fördröja fördröjd fördröjer fördröjde fördröjt fördröjda fördröjs fördröjdes fördröjas fördröjts
+33	8433	viol	violer viol violen violerna
+34	8434	pionjär	pionjär pionjärer pionjärerna pionjären
+35	8435	dekoration	dekorationer dekoration dekorationerna dekorationen dekorations
+36	8436	blä	blä bläh
+37	8437	anföra	anföra anför anförde anförs anfört anfördes anföras anförts anförd
+38	8438	förkastlig	förkastligt förkastlig förkastliga
+39	8439	samkönad	samkönade samkönat samkönad
+40	8440	enhetschef	enhetschef enhetschefen
+41	8441	deportera	deportera deporteras deporterade deporterad deporterades deporterar deporterats
+42	8442	motsäga	motsäger motsäga motsägande motsägs motsagd motsade motsagt
+43	8443	massmord	massmord massmordet massmorden
+44	8444	pubertet	puberteten pubertet
+45	8445	likgiltig	likgiltig likgiltiga likgiltigt
+46	8446	istid	istiden istid istider istidens istiderna
+47	8447	bortamatch	bortamatch bortamatcher bortamatchen bortamatcherna
+48	8448	tangent	tangenter tangenterna tangent tangenten
+49	8449	montage	montage montaget
+50	8450	medborgerlig	medborgerliga medborgerlig medborgerligt
+51	8451	brus	brus bruset
+52	8452	ådra	ådra ådrorna ådrog ådror ådragit ådran ådrar
+53	8453	damlag	damlag damlaget damlagen
+54	8454	lathet	lathet latheten
+55	8455	tegel	tegel teglet
+56	8456	assyriska	assyriska assyrisk
+57	8457	fanatiker	fanatiker fanatikerna fanatikern
+58	8458	sammanlagd	sammanlagda sammanlagd
+59	8459	förrätt	förrätt förrätten förrätter förrätterna
+60	8460	basta	basta bastade bastar basten baste
+61	8461	skrov	skrovet skrov skrovets skroven
+62	8462	kommunpolitiker	kommunpolitiker kommunpolitikerna kommunpolitikern
+63	8463	kröka	kröka krök kröken krökt krökar kröker krökat krökte kröks krökade
+64	8464	rensning	rensning rensningen rensningar
+65	8465	trafikplats	trafikplats tpl trafikplatsen trafikplatser trafikplatserna
+66	8466	betvivla	betvivlar betvivla betvivlade betvivlas
+67	8467	förtränga	förträngt förtränga förtränger förträngda förträngde förträng förträngd
+68	8468	segelbåt	segelbåt segelbåtar segelbåten
+69	8469	spelregel	spelreglerna spelregler
+70	8470	krokodil	krokodil krokodiler krokodilen krokodilerna krokodilens
+71	8471	string	string strings stringens stringen
+72	8472	justering	justeringar justering justeringen justeringarna
+73	8473	plåta	plåta plåtar plåtade plåten plåtat plåtad plåtas
+74	8474	olovlig	olovlig olovligt olovliga
+75	8475	framkant	framkant framkanten
+76	8476	rapp	rapp rappar rappt rapparna rappen rappe rappet
+77	8477	riksantikvarieämbete	riksantikvarieämbetet raä riksantikvarieämbetets
+78	8478	kult	kult kulten kulter kultens
+79	8479	utlåtande	utlåtande utlåtanden utlåtandet utlåtandena
+80	8480	kontinuerlig	kontinuerlig kontinuerliga
+81	8481	vulgär	vulgärt vulgär vulgära
+82	8482	standardisera	standardiserade standardiserad standardiserat standardisera standardiseras
+83	8483	kalk	kalk kalken kalkar
+84	8484	floskel	floskler flosklerna floskel
+85	8485	foder	foder fodret
+86	8486	mutation	mutation mutationer mutationen mutationerna
+87	8487	snaps	snaps snapsen snapsar
+88	8488	naivitet	naivitet naiviteten
+89	8489	överskatta	överskattar överskattat överskatta överskattade överskattas
+90	8490	dygd	dygd dygder dygden dygderna dygdens
+91	8491	diffus	diffus diffusa diffust
+92	8492	mas	mas masarna masar masen
+93	8493	högerextremist	högerextremister högerextremist högerextremisten högerextremisterna
+94	8494	invigd	invigd invigde invigda invigt
+95	8495	artigt	artigt
+96	8496	beroendeframkallande	beroendeframkallande
+97	8497	brasilianska	brasilianska
+98	8498	kuriosa	kuriosa
+99	8499	nys	nys
+100	8500	uppmuntran	uppmuntran

@@ -1,0 +1,100 @@
+1	6001	sydväst	sydväst
+2	6002	vägnar	vägnar
+3	6003	redovisning	redovisning redovisningen redovisningar
+4	6004	vintertid	vintertid vintertiden
+5	6005	otänkbar	otänkbart otänkbara otänkbar
+6	6006	magkänsla	magkänsla magkänslan
+7	6007	lärorik	lärorikt lärorik lärorika
+8	6008	tolerans	tolerans toleransen toleransens toleranser
+9	6009	underverk	underverk underverket underverken
+10	6010	motarbeta	motarbetar motarbeta motarbetas motarbetade motarbetat motarbetad motarbetats motarbetades motarbetande
+11	6011	summera	summerar summera summeras summerade summerat summerades summerad
+12	6012	överflödig	överflödig överflödiga överflödigt
+13	6013	operativ	operativa operativ operativt operative
+14	6014	mineral	mineral mineraler mineralerna mineralet mineralen minerals
+15	6015	storma	storma stormade stormen stormar stormande stormat stormades stormas stormats
+16	6016	töras	törs tordes
+17	6017	våffla	våfflor våffla våfflorna våfflan våffel
+18	6018	påhitt	påhitt påhittet
+19	6019	jordbävning	jordbävning jordbävningar jordbävningen jordbävningarna
+20	6020	topplista	topplistan topplista topplistor topplistorna
+21	6021	tjusig	tjusigt tjusiga tjusig tjusigare tjusigaste
+22	6022	träsk	träsk träsket träsken träskets
+23	6023	kat	kat khat kats
+24	6024	argumentation	argumentation argumentationen argumentationer
+25	6025	gjuta	gjuten göte gjuta gjutna göt gjutet gjuter götar gjutas gjutit
+26	6026	rally	rally rallyt rallyn
+27	6027	skvaller	skvaller skvallret
+28	6028	lotteri	lotteri lotteriet lotterier lotterierna lotteriets
+29	6029	klassificera	klassificeras klassificera klassificerar klassificerad klassificerade klassificerat klassificerats klassificerades klassificerare
+30	6030	uppdelning	uppdelning uppdelningen uppdelningar
+31	6031	balett	balett baletten balettens baletter
+32	6032	liberalism	liberalism liberalismen liberalismens
+33	6033	dåd	dåd dådet dåden
+34	6034	deklaration	deklaration deklarationen deklarationer deklarationerna
+35	6035	övervikt	övervikt övervikten
+36	6036	kryss	kryss krysset kryssen
+37	6037	kompensation	kompensation kompensationen kompensationer
+38	6038	utmatta	utmattad utmattade utmattande utmattat
+39	6039	beslagta	beslagta beslagtogs beslagtog beslagtagna beslagtagen beslagtar beslagtagit beslagtas beslagtagits beslagtaget
+40	6040	vetenskapsman	vetenskapsmän vetenskapsman vetenskapsmannen vetenskapsmännen
+41	6041	sansa	sansad sansat sansade sansa
+42	6042	småsak	småsaker småsak småsakerna
+43	6043	förutspå	förutspå förutspår förutspådde förutspått förutspåtts förutspåddes förutspås förutspådd
+44	6044	synvinkel	synvinkel synvinklar synvinkeln
+45	6045	makthavare	makthavare makthavarna makthavaren makthavares makthavarnas
+46	6046	livslängd	livslängd livslängden
+47	6047	vampyr	vampyr vampyrer vampyrerna vampyren vampyrernas vampyrs vampyrens
+48	6048	världsbild	världsbild världsbilden världsbilder
+49	6049	häktad	häktad häktade häktat
+50	6050	ryktas	ryktas ryktades ryktats
+51	6051	förbaskad	förbaskat förbaskade förbaskad
+52	6052	rörigt	rörigt rörigare
+53	6053	sexliv	sexliv sexlivet
+54	6054	assistans	assistans assistansen
+55	6055	destruktiv	destruktiva destruktiv
+56	6056	skulptur	skulptur skulpturer skulpturen skulpturerna skulpturens
+57	6057	yxa	yxa yxor yxan yxorna
+58	6058	klen	klen klent klena klenare
+59	6059	opartisk	opartiska opartisk opartiskt
+60	6060	gest	gest gester gesten gesterna
+61	6061	bistå	bistå bistår bistod bistått bistås
+62	6062	bekymrad	bekymrad bekymrade bekymrat
+63	6063	handtag	handtag handtaget handtagen
+64	6064	kollaps	kollaps kollapsen kollapser
+65	6065	offentliggöra	offentliggöra offentliggör offentliggörs offentliggjordes offentliggjorde offentliggjort offentliggjorts offentliggöras offentliggörande offentliggjord
+66	6066	sommarstuga	sommarstuga sommarstugan sommarstugor sommarstugorna
+67	6067	polisman	polisman polismannen polismän polismännen polismans polismannens polismäns
+68	6068	bock	bock bockar bocken bockarna bockens bocks
+69	6069	försvarsminister	försvarsminister försvarsministern försvarsministerns försvarsministrar
+70	6070	bageri	bageri bageriet bagerier bagerierna bageriets
+71	6071	utstå	utstå utstående utstått utstår utstod
+72	6072	titan	titan titans titanerna titaner titanen titanernas
+73	6073	hastig	hastigt hastiga hastig hastigast hastigare
+74	6074	mentalitet	mentalitet mentaliteten
+75	6075	sekundär	sekundärt sekundära sekundär
+76	6076	applåd	applåder applåd applåderna
+77	6077	justitieminister	justitieminister justitieministern justitieministerns justitieministrar
+78	6078	vaccinera	vaccinera vaccinerade vaccinerad vaccineras vaccinerat vaccinerar vaccinerats vaccinerades
+79	6079	autism	autism
+80	6080	bravo	bravo
+81	6081	horse	horse
+82	6082	inledningsvis	inledningsvis
+83	6083	omkull	omkull
+84	6084	prima	prima
+85	6085	förnybar	förnybar förnybart förnybara
+86	6086	genomskinlig	genomskinlig genomskinligt genomskinliga
+87	6087	sammansättning	sammansättning sammansättningen sammansättningar sammansättningarna
+88	6088	fästning	fästning fästningen fästningar fästningens fästningarna fästnings
+89	6089	resväska	resväska resväskan resväskor resväskorna
+90	6090	skidåkning	skidåkning skidåkningen
+91	6091	köa	köa köar köade köande köat
+92	6092	kirurg	kirurg kirurger kirurgen kirurgerna kirurgens
+93	6093	hörna	hörna hörnan hörnor hörnorna
+94	6094	förutsägbar	förutsägbar förutsägbart förutsägbara
+95	6095	målsättning	målsättning målsättningen målsättningar målsättningarna
+96	6096	signa	signe signa signade signar signat signad signes
+97	6097	dotterbolag	dotterbolag dotterbolaget dotterbolagen
+98	6098	oseriös	oseriösa oseriös
+99	6099	precision	precision precisionen precisions
+100	6100	slyna	slyna slynor slynan

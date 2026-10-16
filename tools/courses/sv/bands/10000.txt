@@ -1,0 +1,100 @@
+1	9901	förringa	förringa förringar förringas förringande förringade förringat
+2	9902	formgivare	formgivare formgivaren formgivarna
+3	9903	schweizisk	schweizisk schweiziskt schweiziske
+4	9904	inflyttning	inflyttning inflyttningen
+5	9905	detektiv	detektiv detektiven detektiver detektiverna
+6	9906	folköl	folköl folkis
+7	9907	hybris	hybris hybrisen
+8	9908	lobba	lobba lobbar lobbade lobbat
+9	9909	könssjukdom	könssjukdomar könssjukdom könssjukdomarna
+10	9910	sträckning	sträckning sträckningen sträckningar
+11	9911	debattinlägg	debattinlägg debattinlägget
+12	9912	förfest	förfest förfesten förfester
+13	9913	lomma	lomma loma lommar
+14	9914	irländare	irländare irländarna irländaren irländarnas
+15	9915	auktorisera	auktoriserad auktoriserade auktoriserat auktorisera auktoriserar
+16	9916	lem	lem lemmar lemmarna lemmen
+17	9917	limma	limma limmar limmade limmat limmad limmas
+18	9918	hedning	hedningar hedningarna hedning hedningarnas hedningen
+19	9919	fjolla	fjollor fjolla fjollan fjollorna
+20	9920	jubel	jubel jublet
+21	9921	konserthus	konserthuset konserthus konserthusets
+22	9922	licensiera	licensierad licensierade licensierat licensiera licensierar licensieras licensierats
+23	9923	pålägg	pålägg pålägget påläggen påläggs
+24	9924	önskelista	önskelista önskelistan önskelistor
+25	9925	kvällstidning	kvällstidningar kvällstidning kvällstidningarna kvällstidningen kvällstidningarnas
+26	9926	certifikat	certifikat certifikatet certifikaten
+27	9927	dödsoffer	dödsoffer dödsoffren dödsoffret
+28	9928	övernattning	övernattning övernattningar övernattningen
+29	9929	fördomsfull	fördomsfull fördomsfulla fördomsfullt
+30	9930	bänka	bänken bänka bänkad bänkar bänkade bänkas
+31	9931	baguette	baguette baguetter baguetten baguetterna
+32	9932	förkrossad	förkrossad förkrossade
+33	9933	välbärgad	välbärgade välbärgad välbärgat
+34	9934	bostadsrättsförening	bostadsrättsföreningar bostadsrättsförening bostadsrättsföreningen bostadsrättsföreningens
+35	9935	teckenspråk	teckenspråk teckenspråket
+36	9936	tillkännagivande	tillkännagivande tillkännagivandet tillkännagivanden
+37	9937	huvudbyggnad	huvudbyggnaden huvudbyggnad huvudbyggnadens huvudbyggnader
+38	9938	multinationell	multinationella multinationellt multinationell
+39	9939	backspegel	backspegeln backspegel backspeglar backspeglarna
+40	9940	genomförbar	genomförbart genomförbar genomförbara
+41	9941	förtrolla	förtrollande förtrollade förtrollad förtrollar förtrollat förtrolla förtrollas
+42	9942	avbetalning	avbetalning avbetalningar avbetalningen avbetalningarna
+43	9943	friluftsliv	friluftsliv friluftslivet
+44	9944	blodsocker	blodsocker blodsockret
+45	9945	plågsam	plågsam plågsamma
+46	9946	motgift	motgift motgiftet
+47	9947	upphetsa	upphetsande upphetsade upphetsat
+48	9948	basilika	basilika basilikan
+49	9949	införliva	införliva införlivas införlivades införlivat införlivats införlivade införlivande införlivar införlivandet införlivad
+50	9950	lögnaktig	lögnaktiga lögnaktig lögnaktigt
+51	9951	bilförare	bilförare bilföraren bilförarna
+52	9952	skrivning	skrivning skrivningar skrivningen skrivningarna
+53	9953	etanol	etanol etanolen
+54	9954	mossa	mossa mossan mossor
+55	9955	energidryck	energidryck energidrycker energidrycken energidryckerna
+56	9956	antologi	antologi antologin antologier
+57	9957	german	german germaner germanerna germans
+58	9958	kur	kur kuren kurer kurar
+59	9959	klyva	klyva klyver klövar klöv klyvs klyvas klövarna klövs klyv klyvt
+60	9960	delikat	delikat delikata
+61	9961	utekväll	utekväll utekvällar utekvällen
+62	9962	onykter	onykter onyktra onyktert
+63	9963	joina	joina joinar joinat joinade
+64	9964	due	due
+65	9965	emu	emu
+66	9966	gängse	gängse
+67	9967	halleluja	halleluja
+68	9968	klartecken	klartecken
+69	9969	livsfara	livsfara
+70	9970	ludda	ludde
+71	9971	niqab	niqab
+72	9972	sexbrott	sexbrott
+73	9973	uppseendeväckande	uppseendeväckande
+74	9974	västern	västern
+75	9975	poetisk	poetisk poetiska
+76	9976	värja	värja värjan värjor värjer värjde
+77	9977	pensionssystem	pensionssystemet pensionssystem
+78	9978	färdtjänst	färdtjänst färdtjänsten
+79	9979	vinkling	vinkling vinklingar vinklingen
+80	9980	rustning	rustning rustningar rustningen rustningarna
+81	9981	städerska	städerska städerskan städerskor städerskorna
+82	9982	schampo	schampo schampot
+83	9983	tramsa	tramsa tramsar tramsade tramsande tramsat
+84	9984	ärftlig	ärftliga ärftlig
+85	9985	arbetsrätt	arbetsrätt arbetsrätten
+86	9986	navel	naveln navel
+87	9987	textil	textil textila textiler textilt textilen
+88	9988	anarkist	anarkister anarkist anarkisterna anarkisten
+89	9989	karakteristisk	karakteristiska karakteristisk karakteristiskt karaktäristisk
+90	9990	återförening	återförening återföreningen återföreningar
+91	9991	hetsig	hetsig hetsiga hetsigt hetsigare
+92	9992	tygla	tyglar tygla tyglas
+93	9993	sandal	sandaler sandal sandalerna sandals sandalen
+94	9994	brandlarm	brandlarmet brandlarm
+95	9995	dement	dementa dement
+96	9996	dementera	dementera dementerar dementerat dementerade dementeras dementerats
+97	9997	spelplan	spelplanen spelplan spelplaner
+98	9998	bankir	bankir bankirer bankiren bankirerna bankirens
+99	9999	mingla	mingla minglar minglat minglade
+100	10000	förjävla	förjävla förjäkla

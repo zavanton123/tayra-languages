@@ -1,0 +1,100 @@
+1	2601	främling	främlingar främling främlingen främlings främlingarna främlingars främlingens främlingarnas
+2	2602	bill	bill bills biller
+3	2603	besked	besked beskedet beskeden
+4	2604	tidpunkt	tidpunkt tidpunkten tidpunkter tidpunkterna
+5	2605	garderob	garderob garderoben garderober garderoberna garderobs
+6	2606	jurist	jurist jurister juristen juristerna juristernas
+7	2607	engagemang	engagemang engagemanget
+8	2608	tjänsteman	tjänstemän tjänsteman tjänstemännen tjänstemannen tjänstemännens tjänstemans
+9	2609	protest	protest protester protesterna protesten
+10	2610	myt	myt myten myter myterna mytens myternas
+11	2611	best	best bestar besten bestarna bestens
+12	2612	generös	generös generösa generöst generösare generösaste generöse
+13	2613	figur	figur figurer figuren figurerna figurens figurernas
+14	2614	ideologi	ideologi ideologier ideologin ideologierna ideologins ideologiernas
+15	2615	stycke	stycket stycke styckena styckets
+16	2616	dusch	dusch duschen duschar duscharna
+17	2617	kollektiv	kollektiv kollektivt kollektiva kollektivet kollektivets kollektiven
+18	2618	kinesiska	kinesiska kinesiskan
+19	2619	lida	lida lidit leds lid liden lede lide lidas ledo lidens
+20	2620	tystnad	tystnad tystnaden tystnadens tystnader
+21	2621	puss	puss pussar pussen
+22	2622	lidande	lidande lidandet lidanden lidandets lidandes
+23	2623	basera	baseras baserar baserat basera baserades baserade baserats
+24	2624	öde	öde ödet öden ödets
+25	2625	fond	fonder fond fonden fonderna fondens fonds fondernas
+26	2626	rabatt	rabatt rabatter rabatten rabatterna
+27	2627	belägen	beläget belägen belägna
+28	2628	arbetsförmedling	arbetsförmedlingen arbetsförmedlingens arbetsförmedling arbetsförmedlingar arbetsförmedlingarna
+29	2629	mardröm	mardröm mardrömmar mardrömmen mardrömmarna mardröms
+30	2630	meningslös	meningslöst meningslösa meningslös
+31	2631	läcker	läcker läckert läckra läckraste läckrare läckrast
+32	2632	pigg	pigg pigga piggare piggar pigge piggas piggs piggarna piggt
+33	2633	vistas	vistas vistats vistades
+34	2634	överlägsen	överlägset överlägsen överlägsna överlägsne
+35	2635	nånsin	nånsin
+36	2636	norm	normer norm normen normerna norms
+37	2637	macka	macka mackor mackan macke mackorna
+38	2638	dikt	dikt dikter dikten dikterna diktens
+39	2639	stöld	stöld stölder stölden stölderna
+40	2640	suck	suck suckar sucks sucken suckarnas
+41	2641	modig	modig modiga modigt modigare modigaste modige modigast
+42	2642	arabiska	arabiska arabiskan arabiskans
+43	2643	skönhet	skönhet skönheten skönheter skönhetens skönhets skönheterna
+44	2644	sovrum	sovrummet sovrum sovrummen sovrums
+45	2645	genomsnitt	genomsnitt genomsnittet genomsnitts
+46	2646	britt	britt britterna britter britternas britten britts brittens
+47	2647	talang	talang talanger talangen talangerna
+48	2648	parlament	parlamentet parlament parlamentets parlamenten parlaments
+49	2649	fördela	fördelas fördela fördelade fördelar fördelat fördelad fördelen fördelades fördelats fördelaren
+50	2650	gärningsman	gärningsmannen gm gärningsmän gärningsman gärningsmännen gärningsmannens gärningsmännens
+51	2651	blockera	blockera blockerar blockerade blockerat blockerad blockeras blockerats blockerades blockerande
+52	2652	japanska	japanska japanskan japanskans
+53	2653	integrera	integrera integreras integrerade integrerad integrerat integrerar integrerats integrerades integrerande
+54	2654	svänga	svänger svänga svängde svängt svängen svängda svängande svängd
+55	2655	etta	etta ettan ettor ettorna ettans
+56	2656	smutsig	smutsiga smutsig smutsigt smutsigare smutsigaste
+57	2657	norsk	norsk norskt norske norsken norskarna norskar
+58	2658	samvete	samvete samvetet samveten samvetets
+59	2659	regional	regional regionala regionalt
+60	2660	mångfald	mångfald mångfalden mångfaldens
+61	2661	spruta	spruta sprutar sprutor sprutade sprutan sprutas sprutat sprutorna sprutande sprutades
+62	2662	spricka	spricka spricker sprack sprickor sprucken sprickorna spruckit spruckna sprickan sprucket
+63	2663	fenomen	fenomen fenomenet fenomenen
+64	2664	festa	festa festar festen festade festat festande festandet festas
+65	2665	klättra	klättra klättrar klättrade klättrat klättrande
+66	2666	övergrepp	övergrepp övergreppen övergreppet
+67	2667	mur	muren mur murar murarna murens murs
+68	2668	vik	vik viken vikar viks vikens vikarna
+69	2669	bög	bög bögar bögarna bögen bögarnas bögs bögars
+70	2670	förhandla	förhandla förhandlar förhandlade förhandlat förhandlas förhandlats förhandlades förhandlande
+71	2671	besökare	besökare besökarna besökaren besökarnas besökarens besökar
+72	2672	bl	bl
+73	2673	emellan	emellan
+74	2674	frivilligt	frivilligt
+75	2675	lysande	lysande
+76	2676	sammanfattning	sammanfattning sammanfattningen sammanfattningar sammanfattningarna
+77	2677	cell	celler cell cellerna cellen cellens cells cellernas cellers
+78	2678	dödlig	dödligt dödliga dödlig dödligaste dödligare dödligas dödlige
+79	2679	placering	placering placeringar placeringen placeringarna
+80	2680	utöva	utöva utövar utövas utövande utövat utövade utövats utövades utövad
+81	2681	bud	bud budet buds buden budets
+82	2682	uppföra	uppföra uppförande uppfördes uppfört uppförde uppförd uppförandet uppföras uppförs uppförda
+83	2683	avstå	avstå avstår avstod avstått avstånden avstående
+84	2684	inspiration	inspiration inspirationen inspirationer inspirations
+85	2685	svamp	svamp svampar svampen svamparna svampens svamparnas
+86	2686	citera	citera citerar citerade citeras citerat citerad citerades citerats
+87	2687	potentiell	potentiella potentiell potentiellt
+88	2688	jaså	jaså jasså
+89	2689	individuell	individuella individuell
+90	2690	dagis	dagis dagiset
+91	2691	larm	larm larmet larmen
+92	2692	biologisk	biologiska biologisk biologiskt biologiske
+93	2693	balans	balans balansen balansens
+94	2694	tillsätta	tillsätta tillsatt tillsätter tillsätt tillsatta tillsätts tillsatte tillsättas tillsattes tillsatts
+95	2695	balkong	balkongen balkong balkonger balkongerna
+96	2696	slump	slump slumpen slumpar slumpens
+97	2697	livstid	livstid livstids livstiden livstider
+98	2698	bitter	bitter bittra bittert bittrare bittraste bittre
+99	2699	junior	junior juniorer juniorerna juniors juniora junioren
+100	2700	skärpa	skärpa skärpt skärper skärpta skärpas skärpan skärpte skärptes skärps skärpts

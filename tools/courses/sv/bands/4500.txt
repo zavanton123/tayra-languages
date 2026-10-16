@@ -1,0 +1,100 @@
+1	4401	målgrupp	målgrupp målgruppen målgrupper målgrupperna
+2	4402	årsmöte	årsmöte årsmötet årsmöten
+3	4403	intet	intet
+4	4404	inverkan	inverkan
+5	4405	nåväl	nåväl
+6	4406	rådande	rådande
+7	4407	synnerligen	synnerligen
+8	4408	öh	öh
+9	4409	buske	buskar buske buskarna busken
+10	4410	samtycke	samtycke samtycket
+11	4411	päron	päron päronen päronet
+12	4412	expandera	expandera expanderar expanderat expanderade expanderande expanderas expanderad
+13	4413	tortyr	tortyr tortyren
+14	4414	tobak	tobak tobaken tobaks tobakens
+15	4415	innerstad	innerstad innerstaden innerstan innerstadens innerstads innerstäderna innerstäder
+16	4416	illamående	illamående illamåendet
+17	4417	bysthållare	bh bhar bhn bysthållare
+18	4418	sala	sala salar
+19	4419	vetskap	vetskapen vetskap
+20	4420	satir	satir satiren satirer
+21	4421	mekanisk	mekaniska mekanisk mekaniskt
+22	4422	vitlök	vitlök vitlöken vitlökar
+23	4423	spänd	spänd spänt spända spände
+24	4424	variabel	variabler variabel variabeln variablerna variabla variable variabelt
+25	4425	stämpla	stämpla stämplar stämplade stämplat stämplad stämplas stämplats stämplades
+26	4426	peppar	peppar pepparn
+27	4427	klinik	kliniken klinik kliniker klinikerna klinikens
+28	4428	omedelbar	omedelbar omedelbara
+29	4429	smycke	smycken smycke smycket smyckena
+30	4430	ånga	ånge ånga ångan ångar ångorna ångor ångande ångade ångat ångad
+31	4431	föreläsare	föreläsare föreläsaren föreläsarna
+32	4432	nisse	nisse nissar nissen nisses nissarna
+33	4433	sexualitet	sexualitet sexualiteten sexualitetens sexualiteter
+34	4434	fascist	fascister fascist fascisterna fascisternas fascisten fascists
+35	4435	substans	substans substanser substansen substanserna
+36	4436	nazistisk	nazistiska nazistisk nazistiskt nazistiske
+37	4437	moralisk	moraliska moralisk
+38	4438	maffia	maffian maffia maffians
+39	4439	inträde	inträde inträdet inträden inträdes
+40	4440	spion	spioner spion spionen spionerna spionernas
+41	4441	finansiell	finansiella finansiellt finansiell
+42	4442	profet	profeten profet profeter profeterna profetens profeternas
+43	4443	panel	panel panelen paneler panelerna panels panelens
+44	4444	dansare	dansare dansarna dansaren dansös dansösen dansöser danserska dansöserna
+45	4445	hetsa	hetsa hetsar hetsade hetsat hetsen hetsas hetsande
+46	4446	smuts	smuts smutsen
+47	4447	kvadratmeter	kvadratmeter kvadratmetern
+48	4448	midnatt	midnatt midnatts
+49	4449	långvarig	långvarig långvariga långvarigt
+50	4450	marina	marina marinan marinas marinor
+51	4451	övergång	övergång övergången övergångar övergångarna övergångs
+52	4452	skadestånd	skadestånd skadeståndet skadestånden
+53	4453	fredlig	fredliga fredlig fredligt fredligare fredligaste
+54	4454	smeknamn	smeknamn smeknamnet smeknamnen
+55	4455	boss	boss bossen bossar bossarna
+56	4456	gryta	grytan gryta grytor grytorna grytans
+57	4457	sympati	sympati sympatier sympatierna sympatin
+58	4458	ack	ack
+59	4459	action	action
+60	4460	därigenom	därigenom
+61	4461	föga	föga
+62	4462	löpande	löpande
+63	4463	medelålders	medelålders
+64	4464	non	non
+65	4465	turkiska	turkiska
+66	4466	vilse	vilse
+67	4467	anmärkningsvärd	anmärkningsvärt anmärkningsvärd anmärkningsvärda
+68	4468	republikan	republikanerna republikaner republikan republikanernas republikanen
+69	4469	träda	träder träda träden trädde trätt träds
+70	4470	brandman	brandmän brandman brandmännen brandmannen brandmännens
+71	4471	mala	male mala malt maler malde malet malda malande mald malas
+72	4472	livsfarlig	livsfarligt livsfarlig livsfarliga
+73	4473	vegan	vegan veganer veganerna veganen
+74	4474	tiotal	tiotal tiotals tiotalet
+75	4475	krångla	krångla krånglar krånglade krånglat krånglande
+76	4476	återkomst	återkomst återkomsten återkomster
+77	4477	hämnd	hämnd hämnden hämndens
+78	4478	spöke	spöken spöke spöket spökena spökenas
+79	4479	öla	ölen öla
+80	4480	följare	följare följarna följaren
+81	4481	infektion	infektion infektioner infektionen infektionerna infektions
+82	4482	reparera	reparera reparerar repareras reparerade reparerad reparerat reparerats reparerades
+83	4483	shorts	shorts shortsen
+84	4484	programmering	programmering programmeringen programmerings
+85	4485	paj	paj pajen pajer pajerna
+86	4486	stockholmare	stockholmare stockholmarna stockholmaren stockholmarnas
+87	4487	mila	milan mila milans milas
+88	4488	oskuld	oskuld oskulden oskulder oskuldens oskulderna
+89	4489	lunga	lungorna lungor lunga lungan lungornas lungans
+90	4490	tittare	tittare tittarna tittaren tittarnas tittarens
+91	4491	färd	färd färden färder
+92	4492	begåvad	begåvade begåvad begåvat
+93	4493	keps	keps kepsen kepsar kepsarna
+94	4494	fascism	fascism fascismen fascismens
+95	4495	diesel	diesel dieseln diesels dieslar dieslarna
+96	4496	erfaren	erfaren erfarna erfarne erfaret
+97	4497	mästerskap	mästerskap mästerskapet mästerskapen mästerskaps mästerskapets
+98	4498	sats	sats satser satsen satserna satsens
+99	4499	upplösning	upplösning upplösningen upplösningar
+100	4500	inlåst	inlåst inlåsta

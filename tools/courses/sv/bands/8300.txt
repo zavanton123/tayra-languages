@@ -1,0 +1,100 @@
+1	8201	pollen	pollen
+2	8202	skvätt	skvätt
+3	8203	smickrande	smickrande
+4	8204	smärre	smärre
+5	8205	överordnad	överordnade överordnad överordnat
+6	8206	navigera	navigera navigerar navigerade navigerat
+7	8207	hörsel	hörsel hörseln
+8	8208	riskfylld	riskfyllt riskfyllda riskfylld
+9	8209	humanism	humanism humanismen humanismens
+10	8210	fnissa	fnissar fnissade fnissa fnissande fnissat
+11	8211	bitterhet	bitterhet bitterheten
+12	8212	värnpliktig	värnpliktiga värnpliktig värnpliktige
+13	8213	utanförskapsområde	utanförskapsområden utanförskapsområde utanförskapsområdena
+14	8214	karusell	karusell karusellen karuseller karusellerna
+15	8215	förankrad	förankrad förankrat förankrade
+16	8216	märkning	märkning märkningen märkningar
+17	8217	arkeolog	arkeolog arkeologer arkeologerna arkeologen
+18	8218	föredöme	föredöme föredömen
+19	8219	sarkasm	sarkasm sarkasmen sarkasmer
+20	8220	husbil	husbilen husbil husbilar
+21	8221	flyktingkris	flyktingkrisen flyktingkris
+22	8222	försämring	försämring försämringar försämringen
+23	8223	höginkomsttagare	höginkomsttagare höginkomsttagarna
+24	8224	urskilja	urskilja urskiljer urskiljas
+25	8225	skyskrapa	skyskrapor skyskrapa skyskrapan skyskraporna
+26	8226	återuppliva	återuppliva återupplivade återupplivas återupplivar återupplivades återupplivat återupplivande återupplivad återupplivats återupplivandet
+27	8227	vägleda	vägleda vägledande vägleder vägledde väglett vägledas vägledd vägleds
+28	8228	besatthet	besatthet besattheten
+29	8229	ufo	ufo ufon ufos
+30	8230	revy	revy revyn revyer revyns
+31	8231	förfalska	förfalskade förfalska förfalskat förfalskad förfalskar förfalskats förfalskas
+32	8232	kläcka	kläcks kläcker kläcka kläcktes kläckts kläckte kläckas kläckt kläckta kläck
+33	8233	välla	väller vällde välla vällt väll
+34	8234	finländare	finländare finländarna finländaren finländarnas
+35	8235	välbehövlig	välbehövligt välbehövlig välbehövliga
+36	8236	gränslös	gränslös gränslösa gränslöst
+37	8237	procentuell	procentuell procentuellt procentuella
+38	8238	intrig	intriger intrig intrigen intrigerna
+39	8239	årsjubileum	årsjubileum årsjubileet
+40	8240	hoppfull	hoppfull hoppfullt hoppfulla
+41	8241	desinformation	desinformation desinformationen
+42	8242	språkbruk	språkbruk språkbruket
+43	8243	bifoga	bifoga bifogar bifogade bifogas bifogat bifogad bifogades
+44	8244	outbildad	outbildade outbildad
+45	8245	rysa	ryser rysa rys rös ryste
+46	8246	anus	anus anuset
+47	8247	portugisiska	portugisiska portugisiskan
+48	8248	chassi	chassi chassit chassiet chassier
+49	8249	oavbruten	oavbrutet oavbruten oavbrutna
+50	8250	bekantskap	bekantskap bekantskaper bekantskapen
+51	8251	trummis	trummis trummisen trummisar trummisarna
+52	8252	residens	residens residenset
+53	8253	särskrivning	särskrivning särskrivningen särskrivningar
+54	8254	slinga	slingor slinga slingan slingorna slingans
+55	8255	folkmusik	folkmusik folkmusiken folkmusikens
+56	8256	hummer	hummer humrar hummern humrarna
+57	8257	spamma	spamma spammar spammat
+58	8258	fyllo	fyllon fyllo fyllot
+59	8259	företräde	företräde företräden
+60	8260	apartheid	apartheid apartheids
+61	8261	läsförståelse	läsförståelse läsförståelsen
+62	8262	tvivelaktig	tvivelaktiga tvivelaktig tvivelaktigt
+63	8263	privilegierad	privilegierade privilegierad privilegierat
+64	8264	barnhem	barnhem barnhemmet barnhemmen barnhemmets
+65	8265	åsyfta	åsyftas åsyftar åsyftade åsyftades åsyfta åsyftat
+66	8266	flummig	flummig flummigt flummiga
+67	8267	integrationspolitik	integrationspolitik integrationspolitiken
+68	8268	förhasta	förhastade förhastat förhasta förhastad
+69	8269	industriområde	industriområde industriområdet industriområden industriområdena
+70	8270	sammanslagning	sammanslagning sammanslagningen sammanslagningar
+71	8271	frige	frigiven frigavs friges friger frige frigivande frigav frigivits frigivandet frigetts
+72	8272	förenlig	förenligt förenlig förenliga
+73	8273	stadsbibliotek	stadsbiblioteket stadsbibliotek stadsbiblioteks stadsbibliotekets
+74	8274	narrativ	narrativ narrativet narrative narrativa
+75	8275	overall	overall overaller overallen overallerna
+76	8276	trumpet	trumpet trumpeter trumpeten trumpeterna trumpetens
+77	8277	trekant	trekant trekanten trekanter
+78	8278	medicinering	medicinering medicineringen
+79	8279	förnekelse	förnekelse förnekelsen förnekelsens
+80	8280	improvisera	improvisera improviserade improviserad improviserat improviserar improviserande
+81	8281	häkta	häktades häkta häktas häktade häktats häkten häktar häktat
+82	8282	bergsjö	bergsjön bergsjö
+83	8283	hack	hack hacket
+84	8284	fyndig	fyndigt fyndig fyndiga
+85	8285	certifiera	certifierad certifierade certifierat certifiera certifierats certifieras certifierades
+86	8286	profilbild	profilbild profilbilder profilbilden
+87	8287	trängselskatt	trängselskatt trängselskatten trängselskatter trängselskatterna
+88	8288	ödla	ödla ödlor ödlan ödlorna
+89	8289	modernisera	modernisera moderniseras moderniserad moderniserade moderniserats moderniserat moderniserades moderniserar
+90	8290	vissla	visslar vissla visslande visslade vissel visslare
+91	8291	partisk	partisk partiska partiskt
+92	8292	bärare	bärare bäraren bärarna bärarens
+93	8293	bunker	bunker bunkern bunkrar bunkrarna bunkers
+94	8294	fosterland	fosterland fosterlandet fosterlandets fosterlands
+95	8295	världshistoria	världshistorien världshistoriens världshistoria
+96	8296	blygsam	blygsam blygsamma blygsamt blygsammare
+97	8297	avtala	avtalat avtala avtalade avtalad avtalar avtalats avtalas avtalades avtalen
+98	8298	allsång	allsång allsången
+99	8299	lekman	lekman lekmän lekmans lekmännen lekmannen
+100	8300	glitter	glitter glittret

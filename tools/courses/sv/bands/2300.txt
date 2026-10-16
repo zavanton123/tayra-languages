@@ -1,0 +1,100 @@
+1	2201	examen	examen examina examens
+2	2202	ropa	ropar ropa ropade ropat ropas ropen rope ropades ropande ropandes
+3	2203	beräkna	beräknas beräkna beräknad beräknat beräknade beräknar beräknades beräknats beräknande
+4	2204	duscha	duscha duschen duschar duschat duschade duschad
+5	2205	mänsklighet	mänskligheten mänsklighetens mänsklighet
+6	2206	försvarsmakt	försvarsmakten försvarsmaktens försvarsmakt försvarsmakter
+7	2207	kant	kanten kant kanter kanterna kants
+8	2208	representant	representanter representant representanterna representanten representanternas
+9	2209	inträffa	inträffade inträffar inträffat inträffa inträffande inträffad
+10	2210	burk	burk burken burkar burkarna burks
+11	2211	skärm	skärmen skärm skärmar skärmarna skärmens
+12	2212	kika	kika kikar kikat kikade kike
+13	2213	identitet	identitet identiteter identiteten identitets identiteterna
+14	2214	bita	bita biter bitar bitit bitande bitas bite bits bites beto
+15	2215	definiera	definieras definiera definierar definierade definierat definierad definierats definierades definierande
+16	2216	humör	humör humöret
+17	2217	tåla	tål tåla tåls tålde tåler tålt tålas
+18	2218	skoj	skoj skojs
+19	2219	öva	öva övar övade övat öv övas öve öven övades övande
+20	2220	kaos	kaos kaoset
+21	2221	vaken	vaken vaket
+22	2222	föremål	föremål föremålet föremålen föremålets föremåls föremålens
+23	2223	sorg	sorg sorgen sorger sorgens sorgerna sorge
+24	2224	bedömning	bedömning bedömningen bedömningar bedömningarna
+25	2225	fil	fil filer filen filerna filar filens fils
+26	2226	kapital	kapital kapitalet kapitalets kapitalt
+27	2227	logisk	logiskt logiska logisk
+28	2228	hundratals	hundratals
+29	2229	medans	medans
+30	2230	sk	sk
+31	2231	slutligen	slutligen
+32	2232	omgivning	omgivning omgivningen omgivningarna omgivningar omgivningens omgivnings
+33	2233	tonåring	tonåringar tonåring tonåringen tonåringarna tonåringars tonårings tonåringens
+34	2234	permanent	permanent permanenta permanentat permanente permanentas permanentade
+35	2235	lena	lena lenas
+36	2236	real	real reala reals reale
+37	2237	utöka	utöka utökad utökade utökat utökas utökar utökats utökades utökande
+38	2238	strunta	struntar strunta struntade struntat
+39	2239	fartyg	fartyg fartyget fartygen fartygets fartygs fartygens
+40	2240	ruta	rutan ruta rutor rutorna rute rutans
+41	2241	kors	korset kors korsets korsen
+42	2242	trygghet	trygghet tryggheten trygghets
+43	2243	uppmuntra	uppmuntra uppmuntrar uppmuntras uppmuntrande uppmuntrade uppmuntrat uppmuntrad uppmuntrades uppmuntrats
+44	2244	rinna	rinner rinna rann rinnande runnit rinne rinn rinnandes
+45	2245	advokat	advokat advokater advokaten advokaterna advokatens advokats advokaters advokaternas
+46	2246	besegra	besegrade besegra besegrar besegrat besegrad besegrades besegras besegrats
+47	2247	storm	storm stormen stormar stormens stormarna storms stormarnas
+48	2248	läger	läger lägret lägren lägrets
+49	2249	uppträda	uppträda uppträder uppträdande uppträdde uppträtt uppträdanden uppträdandet uppträde uppträdda uppträdandena
+50	2250	ficka	fickan ficka fickor fickorna
+51	2251	ulv	ulf ulv ulven ulvar ulvarna
+52	2252	irritera	irriterad irriterar irriterade irritera irriterat irriteras
+53	2253	odla	odla odlar odlas odlade odlat odlad odlare odlats odlades odlande
+54	2254	gren	gren grenar grenen grenarna grens grenens
+55	2255	potatis	potatis potatisen potatisar potatisarna potatisens
+56	2256	förbund	förbundet förbund förbundets förbunden förbundna förbunds förbundens
+57	2257	hatt	hatt hatten hattar hattarna hattens hattarnas
+58	2258	intryck	intryck intrycket intrycken
+59	2259	koncept	koncept konceptet koncepten koncepterna
+60	2260	bokstav	bokstäver bokstaven bokstav bokstäverna bokstävernas bokstavs bokstavens
+61	2261	allas	allas
+62	2262	loss	loss
+63	2263	block	block blocket blocken blocks blockets blockens
+64	2264	förena	förenta förenade förena förenar förenas förenat förenad förenades förenats förenande
+65	2265	sprit	sprit spriten sprits spritens
+66	2266	dokument	dokument dokumentet dokumenten dokumentets dokumentens
+67	2267	referens	referens referenser referensen referenserna
+68	2268	slösa	slösa slösar slösat slösade slösas slösats slösande slösades
+69	2269	kommunikation	kommunikation kommunikationen kommunikationer kommunikations kommunikationerna
+70	2270	lagstiftning	lagstiftning lagstiftningen lagstiftningar lagstiftningens
+71	2271	upphöra	upphör upphöra upphörde upphört upphörande upphörandet upphörd
+72	2272	taxi	taxi taxin taxibilar taxis taxibilarna
+73	2273	spanska	spanska spanskan spanskans
+74	2274	församling	församling församlingen församlingar församlingens församlingarna församlings församlingarnas församlingars
+75	2275	ogilla	ogillar ogilla ogillade ogillande ogillas ogillades ogillat ogillad ogillandet
+76	2276	egendom	egendom egendomen egendomar egendomens egendomarna egendoms
+77	2277	hacka	hacka hackade hackar hackad hackat hackor hackas hackande hackats hacke
+78	2278	dubbla	dubbla dubblar dubblat dubblas dubblade dubblats dubblades dubble
+79	2279	fabrik	fabriken fabrik fabriker fabrikerna fabrikens fabriks fabrikers
+80	2280	tant	tant tanten tanter tanterna tantens
+81	2281	gynna	gynnar gynna gynnas gynnade gynnat gynnats gynnades gynnande gynnad
+82	2282	fack	facket fack facken fackets fackens
+83	2283	lyda	lyder lyda löd lydde lytt lyd lydande lytta lyde
+84	2284	uppfylla	uppfyller uppfylla uppfyllt uppfylls uppfylld uppfyllde uppfyllas uppfylldes uppfyllts uppfyllande
+85	2285	självmord	självmord självmordet självmorden självmords
+86	2286	likadan	likadana likadan
+87	2287	underhålla	underhållande underhålla underhåller underhöll underhållas underhålls underhållit underhölls underhållen underhållits
+88	2288	bemöta	bemöta bemötande bemöter bemött bemötas bemöts bemötandet bemötte bemöt bemötta
+89	2289	framstå	framstå framstår framstående framstod framstått
+90	2290	helhet	helhet helheten helheter
+91	2291	dagligen	dagligen
+92	2292	king	king
+93	2293	stilla	stilla stillar stille stillade stillat stillas stillad
+94	2294	minister	minister ministrar ministern ministrarna ministerns ministers ministrarnas ministrars
+95	2295	varg	varg vargar vargen vargarna vargens vargarnas vargs vargars
+96	2296	lampa	lampan lampor lampa lamporna lampans
+97	2297	support	support supportrar supporter supporten supportrarna supporters supportern supportrarnas supports
+98	2298	temperatur	temperatur temperaturen temperaturer temperaturerna
+99	2299	attityd	attityd attityder attityden attityderna
+100	2300	elva	elva elvan elvor

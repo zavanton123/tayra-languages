@@ -1,0 +1,100 @@
+1	1001	siffra	siffror siffrorna siffra siffran siffrornas siffer siffrors
+2	1002	underbart	underbart underbarare
+3	1003	varken	varken hvarken
+4	1004	omöjligt	omöjligt
+5	1005	redo	redo
+6	1006	samtliga	samtliga
+7	1007	strax	strax
+8	1008	höja	höja höjer höjs höj höjas höjt höjde höjdes höjts höjande
+9	1009	allmän	allmänna allmän allmännas allmännare allmänne
+10	1010	täcka	täcker täcka täckt täcket täcks täcke täckta täck täckte täcken
+11	1011	diskussion	diskussion diskussionen diskussioner diskussionerna diskussions diskussionens
+12	1012	skita	skiter skita sket skitit skitar skitat skitan
+13	1013	lunch	lunch lunchen luncher luncherna
+14	1014	ända	ända ändan ändar ändarna ändade änd ändor ändas ändat
+15	1015	teknisk	tekniska teknisk tekniskt tekniske
+16	1016	sko	skor skorna sko skon skodde skons skodda skos skornas skotts
+17	1017	våld	våld våldet vålds våldets
+18	1018	förening	föreningen förening föreningar föreningens föreningarna förenings föreningarnas föreningars
+19	1019	cool	coolt cool coola coolaste coolare coolast coole
+20	1020	publicera	publicera publicerade publicerad publicerat publicerades publiceras publicerar publicerats publicerande
+21	1021	sjukhus	sjukhus sjukhuset sjukhusen sjukhusets sjukhusens
+22	1022	räknas	räknas räknades räknats
+23	1023	nät	nätet nät näten nätets
+24	1024	spår	spår spåret spåren spårets spårs
+25	1025	bränna	bränna bränner brände bränt bränd bränn bränns brändes brännas brännande
+26	1026	himla	himla himlen himlar himlade himle
+27	1027	påminna	påminner påminna påminde påmind påminn påminns påminnas påmint påminda påminnande
+28	1028	vila	vila vilar vil vilade vilande vilat vilan vilas vile vilo
+29	1029	väder	väder vädret vädrets väders
+30	1030	negativ	negativa negativt negativ negative negativen negativet
+31	1031	naturlig	naturligt naturlig naturliga naturligare naturligaste naturlige
+32	1032	granne	granne grannar grannen grannarna grannens grannes grannarnas grannars
+33	1033	värme	värmen värme värmer värma värm värmde värms värmt värmande värmas
+34	1034	världsmästerskap	vm världsmästerskap världsmästerskapet världsmästerskapen
+35	1035	oktober	oktober okt oktobers
+36	1036	hyra	hyra hyr hyran hyrde hyrt hyror hyrs hyrorna hyres hyrd
+37	1037	förlåt	förlåt förlåter förlåten
+38	1038	rejäl	rejält rejäl rejäla rejälare
+39	1039	stödja	stödja stödjer stöder stött stödde stötte stödjande stöde stödda stödd
+40	1040	lita	lita litar litade litat litas
+41	1041	sport	sport sporten sporter sports sportens sporterna
+42	1042	dryg	drygt dryg dryga drygaste drygar drygade drygare
+43	1043	amerikanska	amerikanska amerikanskan amerikanskorna amerikanskor
+44	1044	försvara	försvara försvarar försvarade försvarat försvaras försvarande försvarades försvarad försvarats försvaren
+45	1045	ordförande	ordförande ordföranden ordförandens ordförandena ordförandes
+46	1046	relation	relation relationer relationen relationerna relations relationens
+47	1047	juni	juni junis
+48	1048	handling	handling handlingar handlingen handlingarna handlingens handlings handlingarnas handlingars
+49	1049	förändring	förändring förändringar förändringen förändringarna förändringens förändringarnas förändrings
+50	1050	utmärkt	utmärkt utmärkta utmärkte
+51	1051	hota	hotar hotade hota hotad hotat hotas hotades hotande hotats hoten
+52	1052	berg	berg berget bergen bergs bergets bergens
+53	1053	an	an
+54	1054	framåt	framåt
+55	1055	grattis	grattis
+56	1056	tuff	tufft tuff tuffa tuffare tuffaste tuffast tuffar tuffe tuffade
+57	1057	klaga	klagar klaga klagade klagat klagande klagas klagades klagandet klaganden
+58	1058	energi	energi energin energier energierna energins energis
+59	1059	författare	författare författaren författarna författarens författares författarnas författarinna
+60	1060	nyhet	nyhet nyheterna nyheten nyhets nyheters nyheternas nyhetens
+61	1061	hemsida	hemsida hemsidan hemsidor hemsidorna hemsidans
+62	1062	luft	luften luft luftens
+63	1063	försvar	försvar försvaret försvarets försvars försvaren
+64	1064	träning	träning träningen träningar träningarna tränings träningens
+65	1065	foto	foto foton fotot fotona fotoner fotonerna fotos fotonen
+66	1066	offer	offer offret offren offrets offrens offers
+67	1067	båt	båt båten båtar båtarna båtens båts båtarnas
+68	1068	vis	vis viset vist visare visar vise visaren visaste visarna vises
+69	1069	princip	princip principer principen principerna principens
+70	1070	lura	lura lurar lurade lurad luren luras lurat lure lurades lurats
+71	1071	svag	svag svaga svagt svagare svagaste svagast svage svagas
+72	1072	fokus	fokus fokuset fokusen
+73	1073	märklig	märkligt märklig märkliga märkligaste märkligare märklige märkligast
+74	1074	jorden	jorden
+75	1075	sist	sist
+76	1076	kanal	kanal kanaler kanalen kanalerna kanalens kanals kanalernas kanalers
+77	1077	mänsklig	mänskliga mänsklig mänskligt mänskligare
+78	1078	stjärna	stjärna stjärnor stjärnan stjärnorna stjärnornas stjärnans stjärn stjärne stjärnas stjärnors
+79	1079	misslyckas	misslyckas misslyckades misslyckats misslyckande misslyckade misslyckad misslyckanden misslyckat misslyckandet misslyckandena
+80	1080	brist	brist brister bristen bristerna
+81	1081	samarbete	samarbete samarbetet samarbeten samarbetena samarbetets samarbets
+82	1082	brinna	brinner brinna brann brinnande brunnit brunnen brinn brunna brunne
+83	1083	kollega	kollegor kollega kollegorna kolleger kollegan kollegas kollegors kollegerna kollegans kollegers
+84	1084	mage	magen mage magar magarna magens mages
+85	1085	njuta	njuta njut njuter njöt njutit
+86	1086	arm	arm armar armen armarna arms arma arme armens armarnas
+87	1087	effektiv	effektivt effektiv effektiva effektivare effektivaste effektivast effektive
+88	1088	president	president presidenten presidentens presidenter presidents presidenterna
+89	1089	vägg	väggen vägg väggarna väggar väggens väggarnas
+90	1090	sjukdom	sjukdom sjukdomar sjukdomen sjukdomarna sjukdomens sjukdoms sjukdomars sjukdomarnas
+91	1091	mörda	mörda mördade mördades mördad mördar mördat mördas mördats mördande
+92	1092	bevisa	bevisa bevisar bevisat bevisade bevisas bevisad bevisen bevisats bevisades
+93	1093	fokusera	fokusera fokuserar fokuserade fokuserad fokuserat fokuseras fokuserades
+94	1094	höjd	höjd höjden höjda höjder höjt höjde höjderna
+95	1095	radio	radio radion radios radions radioapparater radioapparaterna
+96	1096	orsaka	orsakar orsaka orsakat orsakade orsaken orsakas orsakad orsakats orsakades orsakande
+97	1097	glas	glas glaset glasen glasets
+98	1098	liva	live lives liva livat livar livade livad livas liven
+99	1099	plugga	plugga pluggar pluggat pluggade pluggandet pluggande pluggen pluggas
+100	1100	modell	modell modellen modeller modellerna modellens modells modellernas

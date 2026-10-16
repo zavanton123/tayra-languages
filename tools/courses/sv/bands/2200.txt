@@ -1,0 +1,100 @@
+1	2101	paus	paus pausen pauser pauserna
+2	2102	automatiskt	automatiskt
+3	2103	möjligen	möjligen
+4	2104	tunnelbana	tunnelbanan tunnelbana tunnelbanans tunnelbanor tunnelbane tunnelbanorna
+5	2105	bråka	bråka bråkar bråkade bråkat bråken bråkan bråkas bråkande
+6	2106	grå	grå grått gråa gråare
+7	2107	vrida	vrida vrede vrider vred vrid vriden vreden vridas vridna vridit
+8	2108	citat	citat citatet citaten
+9	2109	förneka	förnekar förneka förnekade förnekat förnekas förnekande förnekandet förnekats förnekades förnekad
+10	2110	volym	volym volymen volymer volymerna
+11	2111	straffa	straffas straffa straffad straffade straffar straffen straffades straffats straffat straffande
+12	2112	binda	binder binda bunden bundna bindande bundet bind binds bindor bundit
+13	2113	föreläsning	föreläsning föreläsningar föreläsningen föreläsningarna föreläsnings
+14	2114	duga	duger duga dög dug
+15	2115	utställning	utställning utställningen utställningar utställningarna utställningens utställnings
+16	2116	korv	korv korven korvar körv korvarna korvens
+17	2117	order	order ordern ordrar orders orderna orderns ordrarna
+18	2118	utrustning	utrustning utrustningen utrustningar utrustningens utrustnings
+19	2119	mod	mod modet mods moddar modden modets modsen moddarna
+20	2120	utse	utses utsedd utse utser utsågs utsett utsetts utsåg utsedde
+21	2121	avsky	avskyr avsky avskydde avskytt avskydd avskyn
+22	2122	takt	takt takten takter takterna takts
+23	2123	begära	begära begärt begärde begärs begärdes begärda begärd begärts begäras begären
+24	2124	kristen	kristen kristet kristne kristens
+25	2125	nyttig	nyttigt nyttig nyttiga nyttigare nyttigaste
+26	2126	tolv	tolv
+27	2127	vanligtvis	vanligtvis
+28	2128	rättvisa	rättvisa rättvisan rättvisans
+29	2129	ryss	ryssarna ryssen ryssar ryss ryssarnas ryssens ryssars
+30	2130	konstant	konstant konstanta konstanter konstanten konstanterna
+31	2131	urval	urval urvalet
+32	2132	hora	hora horor horan hororna horar horas hore horen
+33	2133	tolkning	tolkning tolkningar tolkningen tolkningarna
+34	2134	farmor	farmor farmors farmodern farmödrar
+35	2135	tår	tårar tår tårarna tårarnas tåren
+36	2136	term	termen termer term termerna terms
+37	2137	stressa	stressad stressa stressade stressar stressat stressen stressande stressas
+38	2138	omständighet	omständigheter omständigheterna omständighet omständigheten omständigheternas
+39	2139	intern	interna internt intern interner internerna internen interns
+40	2140	medverka	medverkar medverka medverkande medverkade medverkat
+41	2141	mata	mata matar maten matade matas mate matat matad matades mates
+42	2142	spåra	spåra spårar spårade spårat spåras spåren spårad spårare spårats spårades
+43	2143	smälta	smälter smälta smält smälte smalt smältande smälts smältas smältes smältan
+44	2144	jacka	jacka jackan jackor jackorna
+45	2145	struktur	struktur strukturer strukturen strukturerna strukturens
+46	2146	hälla	hälla häll häller hällde hällt hälls hällen hällar hälldes hällarna
+47	2147	förare	förare föraren förarens förares förarna förarnas
+48	2148	division	division divisionen divisioner divisionerna divisionens divisions
+49	2149	kapten	kapten kaptenen kaptener kaptens kaptenens kaptenerna
+50	2150	trappa	trappan trappa trappor trapporna trappen trappas trappar trappat trappades trappats
+51	2151	avse	avser avses avsåg avse avsett avsågs avsetts
+52	2152	granskning	granskning granskningen granskningar gransknings granskningarna
+53	2153	fiska	fiska fiske fiskar fisken fiskade fisket fiskat fiskas fiskande fiskades
+54	2154	borg	borg borgen borgarna borgs borgar borgarnas borgens borger borgerna
+55	2155	gul	gul gult gule gulare
+56	2156	generellt	generellt
+57	2157	likadant	likadant
+58	2158	officiellt	officiellt
+59	2159	vice	vice
+60	2160	katastrof	katastrof katastrofen katastrofer katastroferna katastrofens
+61	2161	utmana	utmana utmanar utmanande utmanade utmanas utmanad utmanat utmanades utmanats
+62	2162	panik	panik paniken
+63	2163	baka	baka bakat bakade bakar baken bakad bakas bake bakades bakats
+64	2164	partiledare	partiledare partiledaren partiledarna partiledarens partiledarnas partiledares
+65	2165	konkret	konkreta konkret konkretare
+66	2166	gullig	gulligt gullig gulliga gulligaste gulligare
+67	2167	kusin	kusin kusiner kusinen kusins kusinerna kusinens kusiners
+68	2168	ersättning	ersättning ersättningen ersättningar ersättningarna ersättnings
+69	2169	design	design designen designer designern designers designs designerna designerns
+70	2170	polare	polare polarna polaren polares polarens polers
+71	2171	troll	troll trollen trollet trolls trollens trollets
+72	2172	motsvara	motsvarar motsvara motsvarade motsvaras motsvarat motsvarades
+73	2173	lastbil	lastbil lastbilar lastbilen lastbilarna lastbils lastbilens
+74	2174	bröllop	bröllop bröllopet bröllops bröllopen
+75	2175	profil	profil profilen profiler profilerna
+76	2176	sambo	sambo sambon sambos sambons sambor samboende
+77	2177	house	house houses
+78	2178	garantera	garantera garanterar garanterad garanteras garanterade garanterades
+79	2179	beröra	berör berörs berörd beröra berörde berörande berört berördes beröras berörts
+80	2180	motivera	motivera motiverad motiverar motiverade motiverat motiveras motiverande motiverades motiverats
+81	2181	världskrig	världskriget världskrig världskrigets världskrigen
+82	2182	ansluta	ansluta ansluter anslöt anslutna ansluten anslutit anslut anslutande anslutet ansluts
+83	2183	klok	klok kloka klokare klokast kloke klokaste
+84	2184	sjuksköterska	sjuksköterska sjuksköterskor sjuksköterskan sjuksköterskorna sjuksköterskornas sjuksköterske sjuksköterskors sjuksköterskans
+85	2185	blind	blind blinda blint blinde blindas
+86	2186	rekord	rekord rekordet rekorden rekords
+87	2187	matcha	matchar matcha matchen matchande matchade matchat matchas matches matchades matchad
+88	2188	tipsa	tipsa tipsar tipsade tipsat tipsen tipsad tipsades
+89	2189	resultera	resulterade resulterar resulterat resultera resulterande
+90	2190	hugga	hugga hugger hugg högg hugget huggen huggit höggs huggas huggs
+91	2191	dubbelt	dubbelt
+92	2192	femte	femte
+93	2193	hehe	hehe
+94	2194	uppåt	uppåt
+95	2195	tillväxt	tillväxt tillväxten tillväxtens
+96	2196	nätverk	nätverk nätverket nätverken nätverkets nätverks nätverkens
+97	2197	kandidat	kandidat kandidater kandidaten kandidaterna kandidaternas kandidatens kandidats kandidaters
+98	2198	våning	våningen våningar våning våningarna våningens vånings våningars
+99	2199	komplicerad	komplicerat komplicerad komplicerade
+100	2200	stöta	stöter stöta stötande stöt stötar stöten stötte stöts stötarna stötas

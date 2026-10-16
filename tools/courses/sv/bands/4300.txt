@@ -1,0 +1,100 @@
+1	4201	whisky	whisky whiskyn whiskyns
+2	4202	genomgång	genomgång genomgången genomgångar genomgångarna
+3	4203	statistisk	statistiska statistisk
+4	4204	grill	grill grillen grillar griller grillarna grills
+5	4205	rota	rota roten rotade rotat rotar rotad rote rotas rotande rotens
+6	4206	årtionde	årtionden årtionde årtiondena årtiondet årtiondets
+7	4207	tweet	tweet tweets tweeten tweetar
+8	4208	ranka	rankas rankade rankad rankar ranka rankat rankades rankor rankats ranken
+9	4209	hovrätt	hovrätten hovrätt hovrättens hovrätts hovrätterna hovrätter
+10	4210	kebab	kebab kebaben
+11	4211	värva	värva värvade värvades värvat värvar värv värvas värvad värvet värvats
+12	4212	begrava	begrava begraven begravdes begravas begravs begravts begraver begrav begravde begravt
+13	4213	tillvaro	tillvaro tillvaron tillvarons
+14	4214	mjöl	mjöl mjölet
+15	4215	utfall	utfall utfallet utfallen
+16	4216	utvecklare	utvecklare utvecklarna utvecklaren utvecklarens utvecklarnas
+17	4217	förflytta	förflytta förflyttar förflyttas förflyttade förflyttades förflyttat förflyttad förflyttats
+18	4218	lasta	lasta lastade lastar lastas lastat lastad lasten lastades lastare lastats
+19	4219	komplimang	komplimang komplimanger komplimangen komplimangerna
+20	4220	förberedelse	förberedelser förberedelse förberedelserna förberedelsen
+21	4221	porträtt	porträtt porträttet porträtten
+22	4222	palla	pallar palla pallade pallas pallen palle pallat
+23	4223	knut	knut knuten knutar knutet knutarna knuts
+24	4224	privatliv	privatliv privatlivet privatlivets
+25	4225	husdjur	husdjur husdjuren husdjuret husdjurens husdjurs
+26	4226	magi	magi magin magins magier
+27	4227	säkerställa	säkerställa säkerställer säkerställd säkerställt säkerställde säkerställas säkerställ säkerställs säkerställande
+28	4228	inbjuden	inbjuden inbjudna inbjudet
+29	4229	förråd	förråd förrådet förråden förråds
+30	4230	bandy	bandy bandyn bandyns bandys
+31	4231	oväntad	oväntade oväntad
+32	4232	replik	replik repliker repliken replikerna
+33	4233	rättsväsen	rättsväsendet rättsväsende rättsväsendets rättsväsen
+34	4234	uppsatt	uppsatt uppsatta uppsattes uppsatte uppsatts
+35	4235	protokoll	protokollet protokoll protokollen protokollets
+36	4236	belopp	belopp beloppet beloppen
+37	4237	kapitalism	kapitalismen kapitalism kapitalismens
+38	4238	population	population populationen populationer populationerna populations populationens
+39	4239	begäran	begäran
+40	4240	fjol	fjol
+41	4241	ironiskt	ironiskt
+42	4242	lämpa	lämpad lämpade lämpar lämpat lämpa lämpas
+43	4243	kvarn	kvarn kvarnen kvarnar kvarnarna kvarnens kvarns qvarn
+44	4244	utrota	utrota utrotas utrotade utrotad utrotat utrotar utrotades utrotats utrotandet utrotande
+45	4245	haj	haj hajar hajen hajarna hajens
+46	4246	regelverk	regelverk regelverket regelverken
+47	4247	tillhandahålla	tillhandahåller tillhandahålla tillhandahålls tillhandahöll tillhandahållas tillhandahållit tillhandahållande tillhandahölls tillhandahållits tillhandahållen
+48	4248	räv	räv räven ref rävar rävarna rävens rävs
+49	4249	folkmord	folkmord folkmordet folkmorden
+50	4250	användarnamn	användarnamn användarnamnet användarnamnen
+51	4251	tänkbar	tänkbara tänkbar tänkbart
+52	4252	identisk	identiska identisk identiskt
+53	4253	förvaltning	förvaltning förvaltningen förvaltningens förvaltningar förvaltnings förvaltningarna
+54	4254	ess	ess essens essensen essen esset essenser
+55	4255	närliggande	närliggande näraliggande
+56	4256	somlig	somliga somligt somligas
+57	4257	trög	trög trögt tröga trögare
+58	4258	räddning	räddning räddningen räddningar räddnings
+59	4259	hållning	hållning hållningen hållningar
+60	4260	delaktig	delaktig delaktiga delaktigt
+61	4261	stekt	stekt stekta stekte
+62	4262	terrorism	terrorism terrorismen terrorismens
+63	4263	tablett	tabletter tablett tabletterna tabletten
+64	4264	förstärkning	förstärkning förstärkningar förstärkningen förstärkningarna
+65	4265	glo	glo glor glodde glott
+66	4266	kontinent	kontinenten kontinenter kontinent kontinentens kontinenterna kontinents
+67	4267	tindra	tinder tindra tindrande tindrar
+68	4268	solidaritet	solidaritet solidariteten solidaritets solidaritetens
+69	4269	gröt	gröt gröten
+70	4270	halvlek	halvlek halvleken halvlekens halvlekar halvlekarna halvleks
+71	4271	vitamin	vitamin vitaminer vitaminerna vitaminet
+72	4272	kines	kineser kineserna kines kinesen kinesernas
+73	4273	förälskad	förälskad förälskade förälskat
+74	4274	invänta	inväntar invänta inväntade inväntat inväntas
+75	4275	trolla	trolla trollar trollade trolle trollen trollat trollas trollande trolles
+76	4276	justera	justera justeras justerar justerat justerade justerad justerades justerats
+77	4277	krånglig	krångligt krångliga krånglig krångligare
+78	4278	grannland	grannländer grannländerna grannland grannlandet grannländers grannländernas
+79	4279	frisör	frisör frisören frisörer frisörerna frisörens
+80	4280	kvartsfinal	kvartsfinal kvartsfinalen kvartsfinaler kvartsfinalerna
+81	4281	inflation	inflation inflationen
+82	4282	skifta	skiftar skifta skiftande skifte skiftat skiftade skiftet skiftas skiften skiftets
+83	4283	kammare	kammaren kammare kamrarna kammarens kamrar kammarna
+84	4284	giftig	giftiga giftig giftigt giftigaste giftigare
+85	4285	cover	cover covers covern
+86	4286	gin	gina gin ginas ginen gins
+87	4287	skapare	skapare skaparen skaparna skaparens skapares
+88	4288	soft	soft softa softar softare
+89	4289	köttbulle	köttbullar köttbullarna köttbulle köttbullen
+90	4290	banka	banka banken bankar bankade bankat banke bankande bankas
+91	4291	parallell	parallella parallell paralleller parallellen parallellerna paralell
+92	4292	formulering	formulering formuleringar formuleringen formuleringarna
+93	4293	ensamhet	ensamhet ensamheten ensamhetens
+94	4294	anteckning	anteckningar anteckningarna anteckning anteckningen
+95	4295	inifrån	inifrån
+96	4296	våldsamt	våldsamt
+97	4297	ysta	ystad
+98	4298	årsåldern	årsåldern
+99	4299	salong	salongen salong salonger salongerna salongens salongs
+100	4300	aga	age aga ages agar agat agas agen

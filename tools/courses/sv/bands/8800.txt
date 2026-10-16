@@ -1,0 +1,100 @@
+1	8701	mysko	mysko
+2	8702	sans	sans
+3	8703	schizofreni	schizofreni
+4	8704	upphetsad	upphetsad
+5	8705	mörkhyad	mörkhyade mörkhyad
+6	8706	svindyr	svindyra svindyr svindyrt
+7	8707	busskort	busskort busskortet
+8	8708	alkis	alkis alkisar alkisen alkisarna
+9	8709	löneökning	löneökning löneökningar löneökningen löneökningarna
+10	8710	bergslag	bergslagen bergslagens bergslag bergslags
+11	8711	uppslag	uppslag uppslaget uppslagen uppslagna
+12	8712	gladiator	gladiator gladiatorerna gladiatorer gladiatorn gladiators
+13	8713	köpman	köpmän köpman köpmannen köpmännen köpmans köpmännens köpmannens
+14	8714	folkslag	folkslag folkslagen folkslaget folkslags
+15	8715	välbefinnande	välbefinnande välbefinnandet
+16	8716	mekanik	mekanik mekaniken mekanikens
+17	8717	risa	rise risa rises risen
+18	8718	enhörning	enhörning enhörningar enhörningen enhörningens enhörningarna
+19	8719	vädra	vädra vädrar vädrade vädras vädrat
+20	8720	matris	matris matriser matrisen matriserna
+21	8721	substantiv	substantiv substantivet substantiven
+22	8722	ramp	ramp rampen ramper ramperna
+23	8723	skräddare	skräddare skräddaren skräddarna
+24	8724	uppmäta	uppmätt uppmätts uppmättes uppmätte uppmäts uppmätas uppmäter
+25	8725	filmfestival	filmfestival filmfestivalen filmfestivaler filmfestivals
+26	8726	guldkorn	guldkorn guldkornen
+27	8727	extremhöger	extremhögern extremhöger extremhögerns
+28	8728	indier	indier indierna indiern
+29	8729	härröra	härrör härröra härrörde härrörande
+30	8730	accelerera	accelererar accelerera accelererande accelererade accelererat accelereras accelererad
+31	8731	enkelhet	enkelhet enkelhetens enkelheten
+32	8732	osannolik	osannolik osannolika
+33	8733	stafett	stafett stafetten stafetter stafetterna
+34	8734	slagträ	slagträ slagträn slagträt
+35	8735	motvind	motvind motvinden
+36	8736	olydnad	olydnad olydnaden
+37	8737	plöja	plöja plöjer plöjde plöjt plöjas plöjs
+38	8738	lus	löss lus lusen lössen
+39	8739	pusha	pusha pushar pushade pushat pushas
+40	8740	valdag	valdagen valdag valdagar
+41	8741	vattentät	vattentätt vattentät vattentäta
+42	8742	druva	druvor druvan druvorna druva druv druvornas
+43	8743	analfabet	analfabeter analfabet analfabeten
+44	8744	onani	onani onanin
+45	8745	gestalt	gestalt gestalter gestalten gestalterna
+46	8746	reguljär	reguljära reguljär reguljärt
+47	8747	minnesvärd	minnesvärd minnesvärda minnesvärt
+48	8748	ledsam	ledsamt ledsam ledsamma
+49	8749	vagt	vagt vagare
+50	8750	stråla	strålar stråla strålade strålen strålat strålas strål
+51	8751	toffel	tofflor toffel tofflorna toffeln
+52	8752	tänkare	tänkare tänkarna tänkaren tänkar
+53	8753	försena	försena försenas försenar försenade försenat försenats försenades
+54	8754	målskillnad	målskillnad målskillnaden
+55	8755	hord	horder hord horden horderna
+56	8756	avatar	avatar avatarer avataren
+57	8757	försprång	försprång försprånget
+58	8758	servitör	servitör servitören servitörer servitörerna
+59	8759	mura	muren mura murar murad murat murade murades muras murats
+60	8760	skidåkare	skidåkare skidåkaren skidåkarna
+61	8761	varsam	varsamt varsam varsamma
+62	8762	intensitet	intensitet intensiteten
+63	8763	beklaglig	beklagligt beklaglig beklagliga
+64	8764	puma	puma pumor puman pumas
+65	8765	medmänsklighet	medmänsklighet medmänskligheten
+66	8766	betänka	betänk betänker betänka betänkt
+67	8767	igelkott	igelkott igelkottar igelkotten igelkottens igelkottarna
+68	8768	fluffig	fluffiga fluffig fluffigt fluffigare
+69	8769	skådespeleri	skådespeleri skådespeleriet
+70	8770	högskoleutbildning	högskoleutbildning högskoleutbildningar högskoleutbildningen
+71	8771	nia	nia nior nie niorna nien nians nias niar
+72	8772	arbetarparti	arbetarparti arbetarpartiet arbetarpartiets arbetarpartier arbetarpartierna
+73	8773	valår	valår valåret
+74	8774	osa	osar osa ose osade osen
+75	8775	gärde	gärdet gärde gärden
+76	8776	steroid	steroider steroid steroiden
+77	8777	skitunge	skitunge skitungar skitungen skitungarna
+78	8778	campa	campa campar campen campade campat
+79	8779	utträde	utträde utträdet
+80	8780	anordning	anordning anordningar anordningen anordningarna
+81	8781	dalta	dalta daltande daltandet daltar daltas daltat
+82	8782	utmanare	utmanare utmanaren utmanarna
+83	8783	utmattning	utmattning utmattningen
+84	8784	maktlös	maktlös maktlösa maktlöst
+85	8785	pusselbit	pusselbit pusselbitar pusselbiten pusselbitarna
+86	8786	utfrågning	utfrågning utfrågningen utfrågningar utfrågningarna
+87	8787	valkampanj	valkampanj valkampanjen valkampanjer
+88	8788	kongressledamot	kongressledamot kongressledamoten kongressledamöter kongressledamöterna
+89	8789	aura	aura auran auror
+90	8790	häfte	häfte häften häftet häftena
+91	8791	handelshögskola	handelshögskolan handelshögskolor handelshögskolans handelshögskola
+92	8792	rederi	rederiet rederi rederier rederiets rederierna
+93	8793	klå	klår klå klådde
+94	8794	barriär	barriär barriärer barriären barriärerna barriärens
+95	8795	dur	dur
+96	8796	dyslexi	dyslexi
+97	8797	därinne	därinne
+98	8798	egenföretagare	egenföretagare
+99	8799	innersta	innersta
+100	8800	nedanstående	nedanstående

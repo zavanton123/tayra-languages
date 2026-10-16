@@ -1,0 +1,100 @@
+1	3801	sjunde	sjunde
+2	3802	latin	latin latinets latinet latins
+3	3803	förtydliga	förtydliga förtydligande förtydligar förtydligas förtydliganden förtydligat förtydligade förtydligandet förtydligades
+4	3804	kinesisk	kinesisk kinesiskt kinesiske
+5	3805	hammare	hammare hammar hammaren hamrar
+6	3806	kompensera	kompensera kompenserar kompenseras kompenserade kompenserad kompenserat kompenserades kompenserats kompenserande
+7	3807	transportera	transportera transporteras transporterar transporterade transporterades transporterats transporterat transporterad
+8	3808	avsätta	avsätta avsatt avsätter avsatta avsättas avsätts avsatte avsattes avsatts avsätt
+9	3809	avlägsna	avlägsna avlägsnas avlägsnar avlägsnade avlägsnades avlägsnats avlägsnande avlägsnat avlägsnad
+10	3810	fras	fraser fras frasen fraserna frasers
+11	3811	podcast	podcast podcasten podcasts podcaster
+12	3812	bedrägeri	bedrägeri bedrägerier bedrägeriet bedrägerierna
+13	3813	misshandlad	misshandlad misshandlade misshandlat
+14	3814	livsstil	livsstil livsstilen livsstilar livsstils
+15	3815	elektronisk	elektronisk elektroniska elektroniskt
+16	3816	frö	frön frö fröna fröet frös fröer fröerna
+17	3817	rast	rast rasten raster rasterna
+18	3818	kompetent	kompetent kompetenta kompetente
+19	3819	kommunism	kommunism kommunismen kommunismens
+20	3820	federal	federal federala federalt federales federale
+21	3821	diet	diet dieter dieten diets dieters
+22	3822	fotografi	fotografier fotografi fotografiet fotografierna fotografin fotografins fotografiets
+23	3823	djävul	djävulen djävulens djävul djävlarna djävlar
+24	3824	anknytning	anknytning anknytningar anknytningen
+25	3825	högstadium	högstadiet högstadium högstadie högstadiets
+26	3826	självklarhet	självklarhet självklarheter
+27	3827	stenhård	stenhårt stenhård stenhårda
+28	3828	spindel	spindlar spindel spindeln spindlarna spindelns
+29	3829	indirekt	indirekt indirekta
+30	3830	cirkus	cirkus cirkusen cirkusar cirkusens
+31	3831	beräkning	beräkningar beräkning beräkningen beräkningarna
+32	3832	surfa	surfa surfar surfade surfat surfande surfen surfandet
+33	3833	avkastning	avkastning avkastningen avkastningar
+34	3834	inbilla	inbillar inbilla inbillade inbillat inbillad
+35	3835	medelhav	medelhavet medelhavets medelhavs
+36	3836	strikt	strikt strikta striktare striktaste
+37	3837	lyx	lyx lyxen
+38	3838	grotta	grotta grottan grottor grottorna grottans
+39	3839	demonstrera	demonstrera demonstrerar demonstrerade demonstrerat demonstreras demonstrerande demonstrerades demonstrerats
+40	3840	protein	protein proteiner proteinet proteinerna proteinets proteiners proteins
+41	3841	mysa	mysa myser myst myste mysas mös
+42	3842	fördöma	fördömer fördöma fördömande fördömde fördömt fördömda fördömanden fördömas fördöms fördömd
+43	3843	laglig	lagliga laglig
+44	3844	skrivbord	skrivbord skrivbordet skrivbords skrivborden
+45	3845	research	research researchen
+46	3846	konsumtion	konsumtion konsumtionen konsumtions
+47	3847	bota	bota botas botar botad botade botat boten botande botades botats
+48	3848	aktivist	aktivister aktivist aktivisterna aktivisten aktivisternas
+49	3849	konstnärlig	konstnärliga konstnärlig konstnärligt konstnärlige
+50	3850	rep	rep repet reps repen repens
+51	3851	chaufför	chauffören chaufför chaufförer chaufförerna chaufförens
+52	3852	sorglig	sorgliga sorglig sorgligaste sorgligare sorgligast
+53	3853	allergisk	allergisk allergiska allergiskt
+54	3854	rödgrön	rödgröna rödgrön rödgrönas rödgrönt
+55	3855	äng	eng ängar äng ängen ängarna ängs ängens
+56	3856	missbruk	missbruk missbruket missbruks
+57	3857	självständig	självständig självständiga självständigare
+58	3858	förhålla	förhålla förhåller förhöll förhållit
+59	3859	päls	päls pälsen pälsar pälsens pälsarna pels
+60	3860	onekligen	onekligen
+61	3861	varandras	varandras
+62	3862	varpå	varpå
+63	3863	vasa	vasa
+64	3864	atmosfär	atmosfären atmosfär atmosfärens atmosfärer
+65	3865	psykologisk	psykologiska psykologisk psykologiskt
+66	3866	bälte	bälte bältet bälten bältena
+67	3867	rösträtt	rösträtt rösträtten rösträttens
+68	3868	handduk	handduk handdukar handduken handdukarna
+69	3869	leverantör	leverantör leverantörer leverantören leverantörerna leverantörens leverantörs
+70	3870	utmärkelse	utmärkelsen utmärkelse utmärkelser utmärkelserna
+71	3871	kyssa	kyssa kysser kyssas kysste kysst kyssen kysstes kyssande
+72	3872	värnplikt	värnplikt värnplikten värnpliktens
+73	3873	misstanke	misstanke misstankar misstankarna misstanken
+74	3874	droppe	droppe droppar droppen dropparna
+75	3875	tenta	tenta tentan tentor tentorna tenten
+76	3876	tillit	tillit tilliten tillitens
+77	3877	lagra	lagra lagras lagrad lagrade lagrat lagrats lagrar lagrades lagren
+78	3878	befäl	befäl befälet befälen befäls befälets
+79	3879	montera	montera monterade monteras monterad monterar monterat monterades monterats
+80	3880	uniform	uniform uniformer uniformen uniformerna uniforms uniformt
+81	3881	passiv	passiv passivt passiva passive
+82	3882	skrapa	skrapa skrapar skrapade skrapat skrapan skrapas skrapor skrapande skrapades skrapats
+83	3883	byrå	byrån byrå byråer byråns byråerna byråar
+84	3884	överklaga	överklaga överklagar överklagas överklagade överklagat överklagande överklagades överklagats överklagad
+85	3885	erhålla	erhålla erhållit erhöll erhåller erhålls erhållas erhölls erhålles erhållits erhållna
+86	3886	vansinne	vansinne vansinnet vansinnets
+87	3887	docka	docka dockor dockan dockorna dockans dockade dockad dockar dockornas dockas
+88	3888	norrman	norrmän norrman norrmännen norrmannen norrmännens
+89	3889	progressiv	progressiva progressiv progressivt progressive
+90	3890	trovärdighet	trovärdighet trovärdigheten
+91	3891	mustasch	much mustasch mustaschen mustascher mustach mouch mouche
+92	3892	signera	signerat signerad signerade signera signerar signeras signerades signerats
+93	3893	angrepp	angrepp angreppet angreppen
+94	3894	klyfta	klyftor klyftorna klyftan klyfta
+95	3895	påminnelse	påminnelse påminnelsen påminnelser
+96	3896	bostadsrätt	bostadsrätt bostadsrätter bostadsrätten bostadsrätterna bostadsrätts
+97	3897	juice	juice jos juicen juicer
+98	3898	rusa	rusar rusa rusade rusat rusande ruse
+99	3899	kritiker	kritiker kritikerna kritikern kritikers kritikernas
+100	3900	stadium	stadium stadiet stadier stadie stadierna stadiums

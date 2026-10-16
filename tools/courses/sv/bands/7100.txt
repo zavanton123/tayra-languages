@@ -1,0 +1,100 @@
+1	7001	genialisk	genialiskt genialisk genialiska genialiske
+2	7002	pixel	pixlar pixel pixlarna pixels pixeln
+3	7003	hysterisk	hysterisk hysteriska
+4	7004	berömma	berömma berömmer berömde berömt berömmande
+5	7005	vag	vag vaga vagare
+6	7006	fiasko	fiasko fiaskot fiaskon
+7	7007	vinyl	vinyl vinylen
+8	7008	tejp	tejp tape tejpen tapen
+9	7009	svärfar	svärfar svärfars svärfadern
+10	7010	prestige	prestige prestigen
+11	7011	guida	guida guidad guidar guidade guidas guidat
+12	7012	buffé	buffé buffén bufféer
+13	7013	larv	larv larver larverna larven
+14	7014	fortgå	fortgå fortgår fortgående fortgick fortgått
+15	7015	utkast	utkast utkastet utkasten
+16	7016	dagtid	dagtid
+17	7017	handikapp	handikapp
+18	7018	hemåt	hemåt
+19	7019	inbördes	inbördes
+20	7020	jadå	jadå
+21	7021	läggdags	läggdags
+22	7022	sharia	sharia
+23	7023	uppemot	uppemot
+24	7024	vari	vari
+25	7025	varvid	varvid
+26	7026	sprint	sprint sprinten sprintar
+27	7027	rubba	rubba rubbar rubbad rubbade rubbas rubbat rubbats rubbades
+28	7028	cigarr	cigarr cigarrer cigarren cigarrerna
+29	7029	vaka	vaka vakande vakar vakade vakans vakat vakanser vakan vakansen
+30	7030	hårfärg	hårfärg hårfärgen hårfärger
+31	7031	lokaltidning	lokaltidningen lokaltidning lokaltidningar lokaltidningarna
+32	7032	urusel	urusel uruselt urusla
+33	7033	vindkraftverk	vindkraftverk vindkraftverken vindkraftverket
+34	7034	fladdermus	fladdermöss fladdermus fladdermusen fladdermössen fladdermössens
+35	7035	årtal	årtal årtalet årtalen
+36	7036	inofficiell	inofficiellt inofficiella inofficiell
+37	7037	blatte	blatte blattar blattarna blatten
+38	7038	ägodel	ägodelar ägodel ägodelarna
+39	7039	kvickt	kvickt kvickare
+40	7040	klarna	klarna klarnar klarnat klarnade klarnas
+41	7041	räls	räls rälsen
+42	7042	käpp	käppar käpp käppen käpparna
+43	7043	ofantlig	ofantligt ofantliga ofantlig
+44	7044	plätt	plätt plättar plätten plättarna
+45	7045	möda	möda mödan mödor
+46	7046	krock	krockar krock krocken
+47	7047	sammankomst	sammankomst sammankomster sammankomsten sammankomsterna
+48	7048	suddig	suddig suddigt suddiga suddigare
+49	7049	bortkastad	bortkastad bortkastade bortkastat
+50	7050	astma	astma astman
+51	7051	återvinna	återvinna återvinner återvinnas återvinns återvunnen återvunnet återvunna återvinn återvunnit återvann
+52	7052	eftertraktad	eftertraktade eftertraktad eftertraktat
+53	7053	snygging	snygging snyggingar snyggingen snyggingarna
+54	7054	känslosam	känslosam känslosamt känslosamma
+55	7055	hjärtinfarkt	hjärtinfarkt hjärtinfarkter
+56	7056	nödvändighet	nödvändighet nödvändigheten nödvändigheter
+57	7057	barnprogram	barnprogram barnprogrammet barnprogrammen
+58	7058	interiör	interiör interiören interiörer interiört interiörerna interiöra
+59	7059	lumpen	lumpen lumpna
+60	7060	irländsk	irländsk irländskt irländske
+61	7061	kladdkaka	kladdkaka kladdkakan
+62	7062	underrätta	underrätta underrättad underrättade underrättas underrättats underrättat underrättar underrättades
+63	7063	dop	dop dopet dopets
+64	7064	värka	värker värkande värka värkte värken
+65	7065	utbre	utbredd utbreda utbreder
+66	7066	pussel	pussel pusslet pusslen
+67	7067	altare	altaret altare altarets altaren altarna
+68	7068	åtagande	åtaganden åtagande åtagandet åtagandena
+69	7069	pina	pina pine pines pinar pinad pinas pinan pinade
+70	7070	admin	admin admins
+71	7071	opålitlig	opålitliga opålitlig opålitligt
+72	7072	nunna	nunna nunnor nunnorna nunnan nunnornas
+73	7073	aptit	aptit aptiten appetit
+74	7074	räd	räds räder räd räden räderna
+75	7075	tusenlapp	tusenlappar tusenlapp tusenlappen
+76	7076	glesbygd	glesbygden glesbygd glesbygdens
+77	7077	villkorlig	villkorlig villkorligt villkorliga
+78	7078	kanelbulle	kanelbullar kanelbulle kanelbullens kanelbullarna kanelbullen
+79	7079	golfbana	golfbanan golfbana golfbanor golfbanorna
+80	7080	prenumerant	prenumeranter prenumerant prenumeranterna
+81	7081	anmärkning	anmärkningar anmärkning anmärkningen anmärkningarna
+82	7082	mygga	myggor mygga myggan myggorna myggen
+83	7083	skona	skona skonar skonas skonat skonade skonades skonad skonats
+84	7084	strömavbrott	strömavbrott strömavbrottet strömavbrotten
+85	7085	redigering	redigering redigeringen redigeringar
+86	7086	segrare	segrare segraren segrarna segrarens
+87	7087	sexualbrott	sexualbrott sexualbrotten
+88	7088	programvara	programvara programvaran programvaror
+89	7089	infinna	infinner infinna infann infunnit
+90	7090	stormakt	stormakt stormakten stormakterna stormakter stormakternas
+91	7091	arla	arla ärla
+92	7092	hemmagjord	hemmagjord hemmagjorda hemmagjort
+93	7093	ytterdörr	ytterdörren ytterdörr ytterdörrar ytterdörrarna
+94	7094	donna	donna donnan donnas donnor
+95	7095	insistera	insisterar insisterade insistera insisterat insisterande
+96	7096	ondskefull	ondskefulla ondskefullt ondskefull ondskefulle
+97	7097	hängiven	hängivna hängiven hängivet hängivne
+98	7098	förfalla	förfaller förfalla förfallit förföll förfallna förfallen förfallande förfallet
+99	7099	barnsligt	barnsligt
+100	7100	förfogande	förfogande

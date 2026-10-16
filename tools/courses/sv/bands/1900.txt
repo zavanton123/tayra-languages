@@ -1,0 +1,100 @@
+1	1801	grymt	grymt
+2	1802	inklusive	inklusive
+3	1803	kraftigt	kraftigt
+4	1804	glass	glass glassen glassar glassarna glace glassens
+5	1805	rita	rita ritade ritat ritar ritad ritas ritades riten rite ritats
+6	1806	inställning	inställning inställningen inställningar inställningarna
+7	1807	trupp	trupper trupp truppen trupperna truppernas truppens truppers
+8	1808	hockey	hockey hockeyn hockeys hockeyns
+9	1809	översätta	översatt översätta översätter översätt översatte översättas översätts översatts översattes
+10	1810	bruk	bruk bruket bruks brukets bruken
+11	1811	styrelse	styrelsen styrelse styrelser styrelsens styrelserna
+12	1812	rasistisk	rasistiska rasistiskt rasistisk
+13	1813	oro	oro oroar oron oros orons
+14	1814	uppnå	uppnå uppnått uppnår uppnås uppnådde uppnåtts uppnådda uppnåddes uppnådd
+15	1815	synas	synas syns synes syntes synts syntesen synteser synens
+16	1816	skaka	skaka skakar skakade skakat skakad skakande skakas skakades skak skakats
+17	1817	granska	granska granskar granskas granskat granskade granskande granskats granskad granskades granskare
+18	1818	vidrig	vidrigt vidriga vidrig vidrigaste vidrigare
+19	1819	summa	summa summan summor summorna
+20	1820	hamn	hamnar hamn hamnen hamnarna hamnens hamns
+21	1821	muslimsk	muslimska muslimsk muslimskt muslimske
+22	1822	konsert	konsert konserter konserten konserterna konsertens
+23	1823	skämmas	skäms skämmas skämdes skämmes skämts
+24	1824	godkänd	godkänt godkänd godkända godkände
+25	1825	upplevelse	upplevelse upplevelser upplevelsen upplevelserna
+26	1826	ost	ost osten ostar ostarna ostens
+27	1827	hungrig	hungrig hungriga hungrigare hungrigt
+28	1828	operation	operation operationen operationer operations operationerna operationens
+29	1829	läsning	läsning läsningen läsningar
+30	1830	billigt	billigt
+31	1831	fullständigt	fullständigt
+32	1832	noga	noga
+33	1833	bak	bak bakar baken baket baks
+34	1834	choklad	choklad chokladen
+35	1835	utmaning	utmaning utmaningar utmaningen utmaningarna
+36	1836	godkänna	godkänt godkänner godkänna godkännande godkännas godkändes godkänns godkände godkänts godkännandet
+37	1837	or	or oren orena orent ors
+38	1838	sannolik	sannolikt sannolika sannolik sannolikare
+39	1839	inkomst	inkomst inkomster inkomsten inkomsterna
+40	1840	nyckel	nyckeln nyckel nycklar nycklarna nyckelns
+41	1841	tand	tänderna tänder tand tanden tändernas tandens
+42	1842	museum	museum museet museer museets museerna museums museernas musei museers
+43	1843	part	part parter parterna parten parts partens parternas parters
+44	1844	datum	datum datumet datumen datas
+45	1845	gräs	gräs gräset gräsen gräsets
+46	1846	magisk	magiska magiskt magisk magiske
+47	1847	behandling	behandling behandlingen behandlingar behandlingarna behandlings behandlingens
+48	1848	vittna	vittnen vittnar vittna vittne vittnat vittnet vittnade vittnena vittnens vittnes
+49	1849	etablera	etablerade etablera etablerat etablerad etablerar etablerades etableras etablerats etablerandet etablerande
+50	1850	värdering	värderingar värdering värderingen värderingarna
+51	1851	bonde	bönder bonde bönderna bonden bonne böndernas bondens bönders bondes
+52	1852	parkera	parkera parkering parkeringen parkerade parkerar parkerad parkerat parkeringar parkerings parkeras
+53	1853	jämförelse	jämförelse jämförelser jämförelsen jämförelserna
+54	1854	kombination	kombination kombinationen kombinationer kombinationerna kombinations
+55	1855	attackera	attackera attackerade attackerar attackerad attackerades attackerat attackeras attackerats attackerande
+56	1856	rymma	rymden rymmer rymma ryms rymde rymd rymt rymmen rymmas rymdens
+57	1857	sikt	sikt siktar sikten
+58	1858	premiär	premiär premiären premiärer premiärerna
+59	1859	omfatta	omfattar omfattas omfatta omfattade omfattades omfattat omfattats omfattad
+60	1860	gravid	gravid gravida
+61	1861	blick	blick blicken blickar blickarna
+62	1862	dr	dr
+63	1863	inre	inre
+64	1864	lider	lider
+65	1865	ständigt	ständigt
+66	1866	super	super
+67	1867	sexuell	sexuella sexuell
+68	1868	villkor	villkor villkoren villkoret villkors
+69	1869	framgångsrik	framgångsrika framgångsrik framgångsrikt framgångsrike framgångsrikaste framgångsrikare
+70	1870	motstånd	motstånd motståndet motståndets motstånds
+71	1871	födelsedag	födelsedag födelsedagen födelsedagar födelsedags födelsedagarna
+72	1872	organisera	organiserade organisera organiserad organiserat organiserar organiseras organiserades organiserats organiserande organiserandet
+73	1873	industri	industri industrin industrier industrins industrierna industriens industris industriers industrien industriernas
+74	1874	agenda	agenda agendan agendor
+75	1875	läskig	läskigt läskig läskiga läskigare läskigaste läskigast
+76	1876	utrymme	utrymme utrymmet utrymmen utrymmena
+77	1877	brud	brudar brud bruden brudarna brudens bruds brudarnas
+78	1878	grym	grym grymma grymmaste grymmare grymme grymmast
+79	1879	kris	kris krisen kriser kriserna krisens
+80	1880	uppfatta	uppfattas uppfattar uppfattat uppfattade uppfatta uppfattades uppfattats uppfattad
+81	1881	syssla	sysslar syssla sysslade sysslor sysslat sysslorna sysslan
+82	1882	olja	olja oljan oljor olje oljad oljans oljorna oljar oljat oljade
+83	1883	promenad	promenad promenader promenaden promenaderna
+84	1884	toalett	toaletten toalett toaletter toaletterna
+85	1885	användning	användning användningen användningar användningarna
+86	1886	fitta	fitta fittan fittor fitt fittorna fittans
+87	1887	motståndare	motståndare motståndaren motståndarna motståndarens motståndarnas motståndares
+88	1888	torg	torg torget torgen torgets torgs
+89	1889	vd	vd vdn vds
+90	1890	ledamot	ledamöter ledamot ledamöterna ledamoten ledamöternas ledamöters ledamotens
+91	1891	respektera	respekterar respektera respekterade respekteras respekterad respekterat respekterades respekterats respekterande
+92	1892	cancer	cancer cancern cancerns
+93	1893	informera	informera informerade informerar informerad informerat informeras informerats informerades informerande
+94	1894	satan	satan satans
+95	1895	vagn	vagnen vagn vagnar vagnarna vagnens
+96	1896	dyrt	dyrt
+97	1897	norr	norr
+98	1898	personligen	personligen
+99	1899	tja	tja
+100	1900	ärende	ärenden ärende ärendet ärendena ärendets

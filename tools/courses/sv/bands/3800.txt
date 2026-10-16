@@ -1,0 +1,100 @@
+1	3701	senator	senator senatorer senatorn senators senatorerna senatorns
+2	3702	hemmaplan	hemmaplan hemmaplanen
+3	3703	hantering	hantering hanteringen
+4	3704	syrra	syrran syrra syrrans syrras syrror syrrorna
+5	3705	ingång	ingång ingången ingångar ingångarna ingångna ingångs ingånget
+6	3706	ubåt	ubåt ubåtar ubåten ubåtarna ubåtens ubåts ubåtarnas
+7	3707	våt	våt våta vått våtare våtaste
+8	3708	bokstavligen	bokstavligen
+9	3709	nedanför	nedanför
+10	3710	sistone	sistone
+11	3711	gissning	gissning gissningar gissningen
+12	3712	sångare	sångare sångaren sångarna sångarens
+13	3713	tempel	templet tempel templen templets
+14	3714	taskig	taskig taskigt taskiga
+15	3715	kärnkraft	kärnkraft kärnkraften kärnkraftens kärnkrafts
+16	3716	greve	greve greven grevinnan grevens grevinna grev grevar grevinnans grefve grevarna
+17	3717	brevlåda	brevlådan brevlåda brevlådor brevlådorna
+18	3718	spotta	spotta spottar spottade spottat spottas spottad spottande spotten
+19	3719	riddare	riddare riddaren riddarna riddar riddarens riddares riddarnas
+20	3720	förband	förband förbandet förbanden förbandets förbands förbandens
+21	3721	tiggeri	tiggeri tiggeriet
+22	3722	spelning	spelning spelningar spelningen spelningarna
+23	3723	redaktion	redaktionen redaktion redaktioner redaktionerna redaktionens
+24	3724	human	human humant humana humanare humane
+25	3725	lönsam	lönsamt lönsam lönsamma lönsammare lönsammaste
+26	3726	genre	genre genren genrer genrens genrerna genres
+27	3727	trogen	trogen trogna troget trogne trognaste trognas
+28	3728	direktör	direktör direktören direktörer direktörerna direktörens direktörs direktörn
+29	3729	mild	milda mild mildare milde mildaste
+30	3730	möbel	möbler möblerna möbel möbeln
+31	3731	sortera	sortera sorterar sorteras sorterade sorterat sorterad sorterades sorterats
+32	3732	delstat	delstaten delstater delstat delstaterna delstatens delstats delstaternas
+33	3733	mysterium	mysterium mysteriet mysterier mysterierna mysterie
+34	3734	släpa	släpa släpar släpade släpat släpas släpande släpades släpats släpad släpandes
+35	3735	dödsfall	dödsfall dödsfallet dödsfallen
+36	3736	överste	överste översten överstar överstens överstarna överstes
+37	3737	missnöjd	missnöjd missnöjda missnöjt
+38	3738	konstruera	konstruerade konstruera konstruerat konstruerad konstrueras konstruerar konstruerats konstruerades
+39	3739	arsle	arslet arsle arslen arsel
+40	3740	blogga	blogga bloggat bloggen bloggar bloggade bloggande
+41	3741	nolla	nolla nollor nollan nollade nollorna nollad nollar nolle nollas
+42	3742	väktare	väktare väktarna väktaren väktarens väktarnas väktares
+43	3743	näve	näven näve nävar nävarna
+44	3744	ideell	ideella ideell ideellt
+45	3745	skick	skick skicket
+46	3746	borgmästare	borgmästare borgmästaren borgmästarens borgmästarna borgmästar borgmästares
+47	3747	lira	lira lirar lirade lirat lire liran
+48	3748	resonera	resonerar resonera resonerat resonerade resonerande resoneras
+49	3749	vardagsrum	vardagsrummet vardagsrum vardagsrums
+50	3750	skynda	skynda skyndar skyndade skyndat skyndas
+51	3751	varsin	varsin varsitt varsina
+52	3752	intelligens	intelligens intelligensen intelligenser intelligensens
+53	3753	cigg	cigg ciggen
+54	3754	lesbisk	lesbisk lesbiska lesbiskt
+55	3755	groda	grodor groda grodan grodorna grod grodans
+56	3756	gods	gods godset godsen godsets
+57	3757	invasion	invasion invasionen invasioner invasions invasionerna invasionens
+58	3758	invadera	invadera invaderade invaderar invaderat invaderande invaderas invaderades invaderad invaderats
+59	3759	maximal	maximal maximalt maximala
+60	3760	tvätt	tvätt tvättar tvätten
+61	3761	avvisa	avvisa avvisas avvisade avvisar avvisande avvisad avvisat avvisades avvisats avvisandet
+62	3762	långsiktig	långsiktiga långsiktig
+63	3763	beställning	beställning beställningar beställningen beställningarna
+64	3764	amen	amen
+65	3765	innanför	innanför
+66	3766	besvikelse	besvikelse besvikelsen besvikelser
+67	3767	uppriktig	uppriktigt uppriktig uppriktiga
+68	3768	konsult	konsult konsulter konsulten konsulterna
+69	3769	uppehållstillstånd	uppehållstillstånd uppehållstillståndet uppehållstillstånden
+70	3770	kalas	kalas kalaset
+71	3771	regi	regi regis regin
+72	3772	skärp	skärp skärps skärpet
+73	3773	dylik	dylikt dylika dylik
+74	3774	omge	omgiven omger omges omge omgav omgavs omgetts omgett
+75	3775	förlåta	förlåta förlåtande förlåtit förlåter förlät förlåten förlåtas
+76	3776	handboll	handboll handbollen handbolls handbollens
+77	3777	provins	provinser provinsen provins provinserna provinsens
+78	3778	kurva	kurvan kurva kurvor kurvorna kurvans
+79	3779	löv	löv löven löf lövet lövens
+80	3780	kylskåp	kylskåpet kylskåp kylskåpen
+81	3781	förundersökning	fu förundersökning förundersökningen förundersökningar förundersökningarna
+82	3782	sal	sal salen salar salarna sals salens
+83	3783	merit	meriter merit meriten meriterna
+84	3784	komiker	komiker komikern komikerna komikers
+85	3785	direktiv	direktiv direktivet direktiven direktivets
+86	3786	illustrera	illustrerar illustrera illustrerad illustrerat illustreras illustrerade illustrerades illustrerande
+87	3787	plåga	plåga plågas plågar plågade plågad plågor plågat plågades plågats plågan
+88	3788	smula	smula smulor smular smulan smulorna smulas smulade
+89	3789	överlämna	överlämna överlämnar överlämnade överlämnas överlämnat överlämnades överlämnandet överlämnad överlämnande överlämnats
+90	3790	piano	piano pianot pianon pianots
+91	3791	forska	forska forskar forskat forskade forskande forskas forskats
+92	3792	europé	europe européer européerna europé européernas europén européen
+93	3793	korsning	korsningen korsning korsningar korsningarna
+94	3794	öre	öre ören öres öret örena
+95	3795	morot	morötter morot moroten morötterna morots
+96	3796	växla	växla växlar växlande växlade växlat växlad växlas växlades
+97	3797	bråttom	bråttom
+98	3798	dennes	dennes
+99	3799	långsiktigt	långsiktigt
+100	3800	sej	sej

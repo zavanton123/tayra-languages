@@ -1,0 +1,100 @@
+1	7201	mittemot	mittemot
+2	7202	omedvetet	omedvetet
+3	7203	opassande	opassande
+4	7204	respektlöst	respektlöst
+5	7205	ungerska	ungerska
+6	7206	bevisning	bevisning bevisningen
+7	7207	överdrift	överdrift överdrifter
+8	7208	rättssäkerhet	rättssäkerhet rättssäkerheten
+9	7209	kronofogde	kronofogden kronofogde kronofogdens
+10	7210	martyr	martyr martyrer martyren martyrerna martyrernas martyrs
+11	7211	lärosäte	lärosäten lärosäte lärosätet lärosätena lärosätets
+12	7212	onaturlig	onaturligt onaturliga onaturlig
+13	7213	bokhylla	bokhyllan bokhylla bokhyllor bokhyllorna
+14	7214	tillgodose	tillgodose tillgodoses tillgodoser tillgodosett tillgodosåg
+15	7215	arbetsvillkor	arbetsvillkor arbetsvillkoren
+16	7216	matchning	matchning matchningar matchningen
+17	7217	hype	hype hyper hypen hypar
+18	7218	beslutsfattare	beslutsfattare beslutsfattarna beslutsfattaren
+19	7219	kandidera	kandidera kandiderar kandiderade kandiderat
+20	7220	klurig	klurigt kluriga klurig klurigare
+21	7221	påhopp	påhopp påhoppen påhoppet
+22	7222	jackpot	jackpot jackpoten
+23	7223	hejda	hejda hejdas hejdade hejdar hejdades hejdat hejdats
+24	7224	arbetsgivaravgift	arbetsgivaravgifter arbetsgivaravgiften arbetsgivaravgift arbetsgivaravgifterna
+25	7225	applådera	applådera applåderar applåderade applåderas applåderat
+26	7226	metafor	metafor metaforer metaforen metaforerna
+27	7227	befogad	befogad befogat befogade
+28	7228	lingon	lingon lingonen
+29	7229	nedräkning	nedräkningen nedräkning
+30	7230	susa	susen susar susa susade suse susande
+31	7231	landskamp	landskamp landskamper landskampen landskamperna
+32	7232	koffein	koffein koffeinet
+33	7233	skånsk	skånsk skånskt skånske
+34	7234	översikt	översikt översikten översikter
+35	7235	näs	näs näset näsets
+36	7236	inlägga	inlagd inlägga
+37	7237	olikhet	olikheter olikhet olikheterna olikheten
+38	7238	överskattad	överskattat överskattad överskattade
+39	7239	procedur	procedur proceduren procedurer procedurerna
+40	7240	serva	servar serva serve serven servade servas servad servat servats
+41	7241	matbutik	matbutik matbutiker matbutiken matbutikerna
+42	7242	zooma	zooma zoomar zoomade zoomen
+43	7243	gnaga	gnaget gnager gnaga gnagt gnagde gnagande gnag
+44	7244	kåk	kåken kåk kåkar kåkarna
+45	7245	medlemsland	medlemsländer medlemsländerna medlemsland medlemsländernas
+46	7246	flyktingpolitik	flyktingpolitik flyktingpolitiken
+47	7247	kräsen	kräsen kräsna
+48	7248	namnsdag	namnsdag namnsdagar namnsdagen
+49	7249	bocka	bocka bockar bocken bockas bockat bockade
+50	7250	vokal	vokal vokaler vokalen vokalerna vokala vokalt
+51	7251	korp	korpen korp korpar korparna korpens korps
+52	7252	recensera	recenserar recensera recenserade recenserat recenserad recenserades recenseras recenserats
+53	7253	ekorre	ekorrar ekorre ekorren kurre ekorrarna ekorrens
+54	7254	omväg	omväg omvägar omvägen
+55	7255	glöd	glöd glöden
+56	7256	slät	släta slät slätar slätare slätas slätade
+57	7257	spelbolag	spelbolag spelbolagen spelbolaget spelbolagens
+58	7258	psykos	psykos psykoser psykosen psykoserna
+59	7259	hemvärn	hemvärnet hemvärnets hemvärn hemvärns
+60	7260	rave	raven rave ravens
+61	7261	prägel	prägel präglar prägeln
+62	7262	omfamna	omfamna omfamnar omfamnade omfamnat omfamnas omfamnad omfamnande
+63	7263	damma	damma dammen dammar damme dammat dammade dammas
+64	7264	uppbyggnad	uppbyggnad uppbyggnaden
+65	7265	fis	fis fisar fisen
+66	7266	lönsamhet	lönsamhet lönsamheten
+67	7267	näck	use näck
+68	7268	eskalera	eskalerat eskalerande eskalerar eskalera eskalerade
+69	7269	uppvisning	uppvisning uppvisningen uppvisningar
+70	7270	vederbörande	vederbörande vederbörandes
+71	7271	lärjunge	lärjungar lärjunge lärjungarna lärjungen lärjungarnas lärjungars
+72	7272	kvot	kvoten kvot kvoter kvoterna
+73	7273	sköldpadda	sköldpaddor sköldpadda sköldpaddan sköldpaddorna sköldpaddans
+74	7274	haverera	havererade havererat havererar haverera havererad havererande
+75	7275	julbord	julbord julbordet julborden
+76	7276	utpressning	utpressning utpressningen utpressningar
+77	7277	midja	midjan midja
+78	7278	myndig	myndig myndiga myndigt
+79	7279	automat	automat automaten automater automaterna
+80	7280	överensstämma	överensstämmer överensstämma överensstämmande överensstämde
+81	7281	värdesätta	värdesätter värdesätta värdesätts värdesatte värdesatt
+82	7282	rättelse	rättelse rättelser rättelsen
+83	7283	barr	barr barren barret barrar barrens barrs
+84	7284	rättssystem	rättssystemet rättssystem rättssystemets
+85	7285	bokning	bokning bokningen bokningar bokningarna
+86	7286	avveckling	avveckling avvecklingen
+87	7287	följeslagare	följeslagare följeslagaren följeslagarna följeslagares
+88	7288	asiat	asiater asiat asiaterna asiaten
+89	7289	stängsel	stängsel stängslet stängslen
+90	7290	mem	meme mem memen mems memer
+91	7291	förskräcklig	förskräckligt förskräcklig förskräckliga förskräcklige
+92	7292	preferens	preferenser preferens preferenserna preferensen
+93	7293	beträffande	beträffande
+94	7294	genetiskt	genetiskt
+95	7295	höhö	höhö
+96	7296	irländska	irländska
+97	7297	omgivande	omgivande
+98	7298	särklass	särklass
+99	7299	såja	såja
+100	7300	try	try

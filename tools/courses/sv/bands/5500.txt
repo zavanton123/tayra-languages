@@ -1,0 +1,100 @@
+1	5401	tyg	tyg tyget tyger tygerna tygets
+2	5402	läroplan	läroplanen läroplan läroplaner läroplanerna
+3	5403	stav	stav stavar stavarna staven staf stavens
+4	5404	mötesplats	mötesplats mötesplatsen mötesplatser mötesplatserna
+5	5405	mäklare	mäklare mäklaren mäklarna mäklarnas mäklarens
+6	5406	engelsman	engelsmännen engelsmän engelsman engelsmannen engelsmännens
+7	5407	aska	aska askan asken askar aske askes
+8	5408	kväva	kväva kvävs kväver kvävas kvävande kvävd kvävdes kvävde kvävt kvävts
+9	5409	tuggummi	tuggummi tuggummin tuggummit
+10	5410	signatur	signatur signaturen signaturer signaturerna
+11	5411	publicering	publicering publiceringen publiceringar publiceringarna
+12	5412	koldioxid	koldioxid koldioxiden
+13	5413	stadshus	stadshuset stadshus stadshusets
+14	5414	materiell	materiella materiell materiellt
+15	5415	kaj	kaj kajen kajer kajerna kajs
+16	5416	kommunalråd	kommunalråd kommunalrådet kommunalråden
+17	5417	skrota	skrota skrotas skrotade skroten skrotades skrotar skrotat skrotad skrotats
+18	5418	kalsong	kalsonger kalsongerna kalsong
+19	5419	laddning	laddning laddningen laddningar laddningarna
+20	5420	ledtråd	ledtråd ledtrådar ledtråden ledtrådarna
+21	5421	ratt	ratten ratt rattar rattarna rattens
+22	5422	dilemma	dilemma dilemmat dilemman
+23	5423	ultimat	ultimata ultimat
+24	5424	singla	single singles singla singlar singlade singlat
+25	5425	tona	tona tone tonade tonar tonen tonat tonas tonande tones tonats
+26	5426	chilla	chilla chillar chillade chillat
+27	5427	känneteckna	kännetecknas kännetecknar kännetecknande kännetecknades kännetecknade känneteckna kännetecknad kännetecknat kännetecknats kännetecknen
+28	5428	envisas	envisas envisades
+29	5429	vittnesmål	vittnesmål vittnesmålen vittnesmålet
+30	5430	baja	bajen baja
+31	5431	smörgås	smörgås smörgåsar smörgåsen smörgåsarna
+32	5432	otydlig	otydligt otydlig otydliga otydligare
+33	5433	halsband	halsband halsbandet halsbanden
+34	5434	inblandning	inblandning inblandningen inblandningar
+35	5435	nyansera	nyanserad nyanserade nyansera nyanserat nyanserar nyanseras
+36	5436	utvidga	utvidga utvidgade utvidgas utvidgar utvidgad utvidgat utvidgades utvidgats utvidgande
+37	5437	båge	båge bågen bågar bågarna bågens
+38	5438	handbok	handbok handboken handböcker handböckerna
+39	5439	cannabis	cannabis cannabisen
+40	5440	hanne	hannes hanne hannar hannen hannarna hannens
+41	5441	schack	schack schacket
+42	5442	expedition	expedition expeditionen expeditioner expeditionens expeditionerna expeditions
+43	5443	lärdom	lärdom lärdomar lärdomen lärdomarna
+44	5444	musikvideo	musikvideo musikvideon musikvideos musikvideor musikvideorna
+45	5445	avsked	avsked avskedet
+46	5446	förtjänst	förtjänst förtjänster förtjänsten förtjänsterna
+47	5447	sluss	slussen slussar sluss slussarna slussens
+48	5448	olik	olikt olik
+49	5449	symbolisera	symboliserar symbolisera symboliserade symboliseras symboliserat
+50	5450	malm	malm malmen malmer malms malmens
+51	5451	veva	veva vevar vevade veven vevan vevat vevas
+52	5452	oförändrad	oförändrad oförändrat oförändrade
+53	5453	hotellrum	hotellrum hotellrummet hotellrummen
+54	5454	pizzeria	pizzeria pizzerian pizzerior pizzeriorna
+55	5455	mångkulturell	mångkulturella mångkulturellt mångkulturell
+56	5456	country	country
+57	5457	handfull	handfull
+58	5458	medverkan	medverkan
+59	5459	ock	ock
+60	5460	tvärs	tvärs
+61	5461	åttonde	åttonde
+62	5462	fånig	fånig fåniga fånigaste fånigare
+63	5463	faster	faster fastrar fasters fastern fastrarna
+64	5464	gästa	gästar gästade gästas gästades gästa gästande gästat gästen gästats
+65	5465	upphäva	upphäva upphävs upphäver upphävt upphävande upphävas upphävde upphävd upphävdes upphävts
+66	5466	klumpig	klumpig klumpigt klumpiga klumpigare
+67	5467	beteckning	beteckning beteckningen beteckningar beteckningarna
+68	5468	hormon	hormoner hormon hormonerna hormonet
+69	5469	mästerverk	mästerverk mästerverket mästerverken
+70	5470	sperma	sperma sperman
+71	5471	stämpel	stämpel stämplar stämpeln stämplarna
+72	5472	extremist	extremister extremist extremisterna extremisten
+73	5473	naturreservat	naturreservat naturreservatet naturreservaten naturreservatets
+74	5474	patriarkat	patriarkatet patriarkat patriarkatets
+75	5475	efterlyst	efterlyst efterlysta efterlyste
+76	5476	sortiment	sortiment sortimentet
+77	5477	orkester	orkester orkestern orkestrar orkesterns orkestrarna
+78	5478	undersköterska	undersköterska undersköterskor usk undersköterskan
+79	5479	mobbad	mobbad mobbade mobbat
+80	5480	lack	lack lacket lacker lacks
+81	5481	miljöpartist	miljöpartister miljöpartist miljöpartisten miljöpartisterna
+82	5482	avrättning	avrättning avrättningar avrättningen avrättningarna
+83	5483	skede	skede skedet skeden skedena
+84	5484	kavaj	kavaj kavajen kavajer kavajerna
+85	5485	key	key keys
+86	5486	underskott	underskott underskottet
+87	5487	personbil	personbil personbilar personbilen personbilarna
+88	5488	mission	mission missionen missions missioner missionens
+89	5489	vindkraft	vindkraft vindkraften vindkraftens
+90	5490	mjukvara	mjukvara mjukvaran mjukvaru mjukvaror
+91	5491	matlagning	matlagning matlagningen matlagnings
+92	5492	kex	kex kexen kexet
+93	5493	enig	eniga enig enigt
+94	5494	ceremoni	ceremoni ceremonin ceremonier ceremonierna ceremonien
+95	5495	bilist	bilister bilist bilisterna bilisten
+96	5496	skattemedel	skattemedel skattemedlen
+97	5497	diskriminera	diskriminerande diskriminerar diskrimineras diskriminera diskriminerad diskriminerade diskriminerat diskriminerades diskriminerats
+98	5498	rotera	roterande roterar rotera roterade roteras roterat roterad
+99	5499	fröjd	fröjd fröjder fröjden
+100	5500	lada	lada ladan ladorna lador
