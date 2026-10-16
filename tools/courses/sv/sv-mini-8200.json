@@ -1,0 +1,211 @@
+{
+  "id": "sv-mini-8200",
+  "rankUpTo": 8200,
+  "level": "C2",
+  "title": "Förebyggande och motståndskraft",
+  "description": "Ten standalone texts, from diaries and reportages to columns and a review, about how people, homes, farms, workplaces and societies prepare for hard times and recover from them.",
+  "topic": "Prevention and resilience",
+  "names": [
+    "Aino",
+    "Ainos",
+    "Lena",
+    "Lenas",
+    "Holm",
+    "Vänern",
+    "Karin",
+    "Ali",
+    "Sofia",
+    "Elias",
+    "Amira",
+    "Amiras",
+    "Haddad",
+    "Mellansverige",
+    "Stockholm",
+    "Polen",
+    "England",
+    "Tyskland",
+    "Sverige",
+    "Europa",
+    "Ingrid",
+    "Wallin",
+    "Gustav",
+    "III",
+    "Istanbul",
+    "Sara",
+    "Saras",
+    "Jonas",
+    "Nynäshamn",
+    "Per",
+    "juli"
+  ],
+  "lessons": [
+    {
+      "title": "Tre dagar utan ström",
+      "summary": "A diary of a winter storm that cuts the power, and of a Finnish neighbour who knows what to do.",
+      "newWords": [
+        "ticka",
+        "bottenvåning",
+        "vante",
+        "uppkoppling",
+        "uppkopplad",
+        "fåtölj",
+        "finländska",
+        "lufta",
+        "oskyddad",
+        "däri"
+      ],
+      "text": "Lördag den 14 januari\n\nStormen kom i går kväll, precis som det hade varnats för på radion. Strax efter midnatt gick strömmen, och sedan dess är hela kvarteret mörkt. Jag skriver det här för hand vid bordet i köket, med en ficklampa bredvid mig. Det är ovanligt tyst. Det enda som hörs är den gamla klockan i hallen som tickar. Jag har aldrig märkt hur högt den tickar förrän nu, när kylskåpet och elementen har tystnat.\n\nVi bor på bottenvåningen i ett hus från 1950-talet. Bottenvåningen är alltid den kallaste delen av huset, och redan i morse var det bara 15 grader inne. Jag tog på mig ullstrumpor, en tjock tröja och till sist också ett par vantar. Det är märkligt att sitta inomhus med vantar, men med tunna vantar kan jag ändå hålla i pennan.\n\nMobilen fungerar fortfarande, men uppkopplingen är svag. Jag har vant mig vid att alltid vara uppkopplad, och det känns ovant att inte kunna läsa nyheterna. Utan uppkoppling krymper världen. Den består plötsligt bara av vår lägenhet, trappan och grannarna.\n\nSöndag den 15 januari\n\nI natt sov jag i fåtöljen i vardagsrummet, under tre filtar. Fåtöljen är gammal och sliten, men den är djup, och man kan dra upp benen under sig.\n\nI morse knackade vår granne Aino på. Hon är finländska och har bott i huset i trettio år. Hon hade med sig en termos med kaffe och en rad goda råd. ”Där jag växte upp lärde man sig det här som barn”, sa hon. Hennes mamma, också hon finländska, hade alltid vatten, ljus och konserver i skafferiet, för säkerhets skull.\n\nAinos första råd var att lufta. Det låter konstigt att öppna fönstren när huset blir kallt, men hon förklarade att man ska lufta kort och ordentligt, några minuter i taget. Då försvinner fukten innan väggarna hinner kylas ner, och torr luft känns varmare än fuktig. Vi luftade i fem minuter, och efteråt kändes rummen faktiskt bättre.\n\nHennes andra råd gällde rören i källaren. De är oskyddade, sa hon, och oskyddade rör kan frysa sönder om kylan håller i sig. Vi lindade in dem med gamla handdukar och tidningar. ”Däri ligger hela hemligheten”, sa Aino. ”Man gör små saker i tid, innan de blir stora problem.”\n\nMåndag den 16 januari\n\nStrömmen kom tillbaka vid lunch. Det första jag gjorde var att se om uppkopplingen fungerade igen. När mobilen äntligen var uppkopplad, läste jag nyheterna i en hel timme. Sedan skrev jag en lista: vatten, batterier, en radio, ljus och ett extra par vantar. Jag tror att Aino har rätt. Beredskap är inget dramatiskt, och däri ligger dess styrka. Klockan i hallen tickar som vanligt, men nu hörs den knappt.\n\nFrågor:\nVarför är det så tyst i lägenheten på lördagen?\nStrömmen har gått, och kylskåpet och elementen har tystnat, så det enda som hörs är klockan som tickar.\nVarför är det kallt i lägenheten?\nFamiljen bor på bottenvåningen, som är den kallaste delen av huset.\nVar sov skribenten natten till söndag?\nSkribenten sov i fåtöljen i vardagsrummet, under tre filtar.\nHur ska man lufta när det är kallt, enligt Aino?\nMan ska lufta kort och ordentligt, några minuter i taget.\nVarför lindade de in rören i källaren?\nRören är oskyddade och kan frysa sönder om kylan håller i sig.\nVad skrev skribenten på listan?\nSkribenten skrev vatten, batterier, en radio, ljus och ett extra par vantar."
+    },
+    {
+      "title": "Gården som tål torka",
+      "summary": "A reportage about a farmer who makes her small farm better at standing drought.",
+      "newWords": [
+        "västlig",
+        "bondgård",
+        "klimatpåverkan",
+        "storskalig",
+        "ogräs",
+        "förorena",
+        "bast",
+        "däggdjur",
+        "revir",
+        "korrelation"
+      ],
+      "text": "Lena Holm driver en bondgård några mil öster om Vänern. Gården har funnits i släkten sedan 1800-talet, och Lena är den femte generationen som brukar jorden. När jag besöker henne en morgon i maj blåser en kall, västlig vind över fälten. ”Västliga vindar betyder oftast regn här”, säger hon. ”Men de senaste somrarna har det inte alltid stämt.”\n\nTorkan 2018 blev en vändpunkt för henne. Den sommaren regnade det nästan inte alls, och gräset till korna tog slut redan i juli. Sedan dess har Lena arbetat för att göra gården mer motståndskraftig. Hon talar gärna om klimatpåverkan, men på två sätt: hur klimatet påverkar gården, och hur gården påverkar klimatet. ”Man kan inte bara se klimatpåverkan som något som drabbar oss”, säger hon. ”Vi bidrar själva.”\n\nDen storskaliga produktion som präglar mycket av dagens jordbruk har hon valt bort. En storskalig gård kan vara effektiv, menar hon, men den blir sårbar när allt hänger på en enda gröda. Hennes bondgård är liten och varierad: några kor, en flock får, potatis, havre och ett stort grönsaksland.\n\nI grönsakslandet växer en hel del ogräs. Lena har slutat bekämpa ogräset med kemiska medel. Medlen förorenade bäcken som rinner genom gården, och hon vill inte förorena det vatten som grannarna dricker. I stället rensar hon för hand, och vissa sorters ogräs låter hon växa. ”De håller fukten kvar i jorden”, förklarar hon.\n\nTomatplantorna binder hon upp med bast, ett mjukt material av fibrer från växter. Bast skadar inte stjälkarna, och när säsongen är slut bryts det ner i jorden. ”Plast hade varit billigare”, säger Lena, ”men bast lämnar inget skräp efter sig.”\n\nLängs fälten har hon sparat häckar och små dungar av björk. Där trivs fåglar och insekter, men också däggdjur som rådjur, harar och fladdermöss. Varje däggdjur har sitt revir, och många av dem har sina revir just i kanten mellan skogen och fältet. Räven försvarar sitt revir mot andra rävar, men den håller också nere antalet möss, som annars skulle äta av säden. Djuren gör alltså en del av det förebyggande arbetet åt henne.\n\nTillsammans med en forskare från universitetet har Lena gått igenom sina egna siffror från tio år. De har hittat en tydlig korrelation mellan antalet häckar på ett fält och hur väl fältet klarar en torr sommar. ”En korrelation är inte ett bevis”, säger hon snabbt. ”Men den stämmer med det jag ser med egna ögon.”\n\nNär jag åker därifrån har den västliga vinden lagt sig. Lena står kvar vid grinden och tittar på himlen. Hon hoppas på regn, men hon har slutat räkna med det.\n\nFrågor:\nVad betyder västliga vindar oftast vid Lenas gård?\nVästliga vindar betyder oftast regn.\nPå vilka två sätt talar Lena om klimatpåverkan?\nHon talar om hur klimatet påverkar gården och hur gården påverkar klimatet.\nVarför har Lena valt bort storskalig produktion?\nEn storskalig gård blir sårbar när allt hänger på en enda gröda.\nVarför slutade hon använda kemiska medel mot ogräs?\nMedlen förorenade bäcken, och hon vill inte förorena grannarnas vatten.\nVarför binder hon upp tomaterna med bast?\nBast skadar inte stjälkarna och bryts ner i jorden.\nVilken korrelation har Lena och forskaren hittat?\nDe har hittat en korrelation mellan antalet häckar och hur väl fältet klarar torka."
+    },
+    {
+      "title": "Ett bättre möte",
+      "summary": "A safety representative tells how her office changed its meetings after a survey on the work environment.",
+      "newWords": [
+        "delaktighet",
+        "härskarteknik",
+        "könsfördelning",
+        "ansvarstagande",
+        "strukturera",
+        "skriftligt",
+        "klarspråk",
+        "medhjälpare",
+        "hut",
+        "eloge"
+      ],
+      "text": "När jag blev skyddsombud på vårt kontor för tre år sedan trodde jag att uppdraget mest handlade om bra stolar och brandövningar. Jag hade fel. Det mesta av det förebyggande arbetet handlar om hur vi behandlar varandra.\n\nVarje höst gör vi en enkät om arbetsmiljön. Förra året visade den att många kände liten delaktighet. De visste inte varför beslut fattades, och de upplevde att deras åsikter inte spelade någon roll. Delaktighet är ingen lyx. Människor som får vara med och påverka sitt arbete blir mer sällan sjuka av stress.\n\nEnkäten visade också något obekvämt. Flera kollegor skrev att de hade utsatts för härskartekniker på möten. En härskarteknik är ett sätt att trycka ner någon utan att det syns tydligt: man avbryter, man låtsas inte höra, eller man ger någon annan äran för en idé. Vi talade också om könsfördelningen i ledningsgruppen, där det satt fem män och en kvinna. Könsfördelningen förklarar inte allt, men den gjorde det lättare att förstå varför vissa röster hördes mindre än andra.\n\nVår chef, Karin, tog resultatet på stort allvar. Hon försvarade sig inte, utan sa bara: ”Det här är mitt ansvar.” Hennes ansvarstagande imponerade på mig, och det smittade av sig. När en chef visar ett sådant ansvarstagande blir det svårare för andra att skylla ifrån sig.\n\nKarin bad mig strukturera våra möten på ett nytt sätt. Jag fick två medhjälpare, Ali och Sofia, och tillsammans skrev vi några enkla regler. Nu skickas dagordningen ut dagen innan, och alla kan lämna sina synpunkter skriftligt i förväg. Den som har svårt att ta ordet kan alltså göra sig hörd ändå. Vi strukturerar också själva samtalet: alla får säga något innan någon får tala en andra gång. Mina medhjälpare turas om att hålla tiden.\n\nVi började även arbeta med klarspråk. Klarspråk betyder att man skriver så att läsaren förstår texten första gången hon läser den. Våra protokoll hade varit fulla av långa ord och halva meningar. Nu skrivs de på klarspråk, och vem som helst kan se vad som har bestämts och av vem.\n\nEn kollega tyckte först att allt detta var onödigt och fortsatte att avbryta på mötena. Min mormor skulle ha sagt att han behövde lära sig hut. Karin valde ett lugnare sätt. Hon pratade med honom i enrum och bad honom sedan svara skriftligt på enkätens frågor. Kanske lärde han sig lite hut ändå, för numera väntar han på sin tur.\n\nI år var resultatet av enkäten mycket bättre. Jag vill ge en eloge till Karin, men också till mina medhjälpare och till alla kollegor som vågade skriva vad de tyckte. En sådan eloge förtjänar de.\n\nFrågor:\nVad trodde skribenten att uppdraget som skyddsombud handlade om?\nSkribenten trodde att det mest handlade om bra stolar och brandövningar.\nVad är en härskarteknik?\nEn härskarteknik är ett sätt att trycka ner någon utan att det syns tydligt.\nHur såg könsfördelningen ut i ledningsgruppen?\nDär satt fem män och en kvinna.\nHur visade Karin ansvarstagande?\nHon försvarade sig inte, utan sa att det var hennes ansvar.\nHur kan den som har svårt att ta ordet göra sig hörd nu?\nDen personen kan lämna sina synpunkter skriftligt i förväg.\nVad betyder klarspråk?\nKlarspråk betyder att man skriver så att läsaren förstår texten första gången."
+    },
+    {
+      "title": "Ett tryck över bröstkorgen",
+      "summary": "A man of sixty changes his habits after a warning from his doctor and starts going to the gym with his grandson.",
+      "newWords": [
+        "bröstkorg",
+        "livskvalitet",
+        "smörgåstårta",
+        "köttfärssås",
+        "omega",
+        "melon",
+        "gymma",
+        "larvig",
+        "mupp",
+        "perfektion"
+      ],
+      "text": "Förra våren kände jag ett tryck över bröstkorgen när jag gick uppför backen till jobbet. Det gick över efter några minuter, och jag tänkte inte mer på det. Men när samma tryck kom tillbaka en vecka senare, ringde jag vårdcentralen.\n\nLäkaren undersökte mig noga. Hjärtat var friskt, men blodtrycket var för högt och jag vägde betydligt mer än för tio år sedan. ”Det här är ingen katastrof”, sa hon. ”Men det är en varning.” Sedan sa hon något som jag fortfarande tänker på: ”Det handlar inte bara om att leva länge. Det handlar om livskvalitet. Du vill väl kunna gå i skogen med barnbarnen när du är 75?”\n\nJag var 60 år och hade aldrig tänkt på min kropp som något man måste ta hand om. Den hade alltid bara fungerat. Nu satte jag mig ner och gick igenom mina vanor, en i taget.\n\nMaten var det första. Jag älskar smörgåstårta, och på vårt kontor finns det smörgåstårta på varje födelsedag. Jag bestämde mig för att ta en liten bit i stället för två stora. Hemma lagade jag köttfärssås nästan varje vecka. Nu blandar jag köttfärssåsen med linser och mycket grönsaker, och ingen i familjen har klagat. Två gånger i veckan äter vi fisk, som lax och sill, för att få i oss omega-3. Läkaren hade förklarat att omega-3 är ett slags fett som är bra för hjärtat. Till efterrätt blir det oftare frukt, och på sommaren äter vi melon. En kall melon en varm kväll är svår att slå.\n\nDet andra var rörelsen. Mitt barnbarn Elias, som är 19, erbjöd sig att ta med mig till gymmet där han brukar gymma. Jag hade aldrig gymmat i hela mitt liv. Första gången kände jag mig larvig i mina nya träningskläder, bland alla unga människor med stora muskler. Jag visste inte hur maskinerna fungerade, och jag satte mig på en av dem åt fel håll. ”Jag ser ut som en mupp”, sa jag till Elias. Han skrattade, men vänligt. ”Alla är muppar första gången”, sa han. ”Det är ingen som tittar.”\n\nDet sista var kanske det svåraste: att sluta kräva perfektion av mig själv. Förr tänkte jag att om jag inte kunde göra något perfekt, kunde jag lika gärna låta bli. Nu vet jag att perfektion inte är målet. En promenad är bättre än ingen promenad, och en liten bit tårta är bättre än två stora.\n\nEtt år senare är blodtrycket normalt. Jag gymmar två gånger i veckan, ibland med Elias. Jag tycker inte längre att det är larvigt. Trycket över bröstkorgen har aldrig kommit tillbaka.\n\nFrågor:\nVarför ringde berättaren vårdcentralen?\nHan ringde eftersom trycket över bröstkorgen kom tillbaka en vecka senare.\nVad sa läkaren om livskvalitet?\nHon sa att det inte bara handlar om att leva länge, utan om livskvalitet.\nHur ändrade han sin köttfärssås?\nHan blandar köttfärssåsen med linser och mycket grönsaker.\nVarför äter familjen fisk två gånger i veckan?\nDe vill få i sig omega-3, som är bra för hjärtat.\nHur kände han sig första gången han gymmade?\nHan kände sig larvig och sa att han såg ut som en mupp.\nVad var det svåraste för honom?\nDet svåraste var att sluta kräva perfektion av sig själv."
+    },
+    {
+      "title": "Fältassistenten",
+      "summary": "A profile of a youth worker who meets teenagers where they are, in the ice rink and the bowling hall.",
+      "newWords": [
+        "uppsöka",
+        "uppsikt",
+        "ishall",
+        "bowling",
+        "hasch",
+        "influera",
+        "storasyster",
+        "orädd",
+        "utantill",
+        "kortfilm"
+      ],
+      "text": "Klockan är sju en fredagskväll i november, och Amira Haddad har just börjat sitt arbetspass. Hon är fältassistent i en mellanstor stad i Mellansverige. Hennes arbete går ut på att uppsöka unga människor där de befinner sig, i stället för att vänta på att de ska komma till henne. ”Ungdomar ringer sällan till kommunen när de har problem”, säger hon. ”Därför måste vi uppsöka dem.”\n\nHennes första stopp är ishallen. Där tränar ett av stadens hockeylag, och på läktaren sitter ett gäng tonåringar och fryser. Amira känner de flesta av dem. Hon frågar hur det går i skolan och om någon har fått jobb till sommaren. I ishallen är det varmt i hjärtat men kallt om fötterna, säger hon och skrattar.\n\nDet andra stoppet är bowlinghallen. Bowling är populärt bland stadens unga, kanske för att det är billigt och för att man kan prata medan man spelar. Amira spelar ofta en serie bowling med dem. ”Det är lättare att prata när man har något att göra med händerna”, förklarar hon.\n\nFältassistenter håller inte uppsikt över ungdomarna på det sätt som polisen gör. De är inte där för att övervaka eller straffa. Men de håller uppsikt i en vidare mening: de ser vem som saknas, vem som verkar ledsen och vem som har fått nya, äldre vänner. Det är ofta så det börjar, säger Amira. En fjortonåring som plötsligt umgås med mycket äldre personer kan bli erbjuden hasch. De flesta säger nej, men den som känner sig ensam är lättare att påverka. Amira har sett hur hasch har förstört livet för flera unga, och hon vet att det förebyggande arbetet måste börja långt innan någon har provat.\n\n”Man kan inte influera ungdomar genom att föreläsa för dem”, säger hon. ”Det är vännerna som influerar dem mest, och därför måste man vara en del av deras vardag.” Hon beskriver sin roll som en slags storasyster. En storasyster säger inte vad man ska göra hela tiden, men hon finns där och märker när något är fel.\n\nSjälv var Amira en orädd tjej i tonåren, berättar hon. Hon var orädd på fel sätt: hon testade gränser och tog risker. Det var en fältassistent som till slut fick henne att börja tänka annorlunda. Hon minns fortfarande vad han sa till henne, ord för ord, nästan utantill: ”Du är inte ditt sämsta beslut.”\n\nFörra året gjorde Amira en kortfilm tillsammans med ett tjugotal ungdomar. Kortfilmen handlar om en kille som får välja mellan två grupper av vänner. Ungdomarna skrev manuset själva och lärde sig sina repliker utantill. Kortfilmen visas nu i stadens skolor.\n\nStrax före midnatt avslutar Amira sitt pass. Hon har inte löst några stora problem i kväll, men hon har pratat med fyrtio unga människor. ”Det är det som är jobbet”, säger hon.\n\nFrågor:\nVad går Amiras arbete ut på?\nHennes arbete går ut på att uppsöka unga människor där de befinner sig.\nVarför spelar hon bowling med ungdomarna?\nDet är lättare att prata när man har något att göra med händerna.\nPå vilket sätt håller fältassistenter uppsikt över ungdomarna?\nDe ser vem som saknas, vem som verkar ledsen och vem som har fått nya, äldre vänner.\nVem influerar ungdomar mest, enligt Amira?\nDet är vännerna som influerar dem mest.\nHur beskriver Amira sin roll?\nHon beskriver sin roll som en slags storasyster.\nVad handlar kortfilmen om?\nDen handlar om en kille som får välja mellan två grupper av vänner."
+    },
+    {
+      "title": "Beredskapsåren",
+      "summary": "A short essay on how Sweden prepared during the Second World War and what remains of that time.",
+      "newWords": [
+        "epok",
+        "dessförinnan",
+        "bombning",
+        "dagblad",
+        "undanhålla",
+        "åberopa",
+        "heltäckande",
+        "granit",
+        "kvarleva",
+        "bakomliggande"
+      ],
+      "text": "Åren mellan 1939 och 1945 kallas i Sverige ofta för beredskapsåren. Det var en epok av ransonering, mörklagda fönster och män som skickades till gränsen. Sverige deltog inte i kriget, men landet levde i ständig väntan på att det kunde komma. För många som var barn då blev epoken ett minne för livet.\n\nFörberedelserna hade börjat några år dessförinnan. Redan i mitten av 1930-talet såg man i Stockholm att läget i Europa blev allt mörkare. Försvaret byggdes ut, och man började samla lager av spannmål och bränsle. När kriget väl bröt ut hösten 1939 var landet alltså inte helt oförberett, även om mycket fortfarande saknades.\n\nDet som skrämde många mest var bombningarna. Svenskarna läste om bombningar av städer i Polen, England och Tyskland, och man visste att en bombning av en svensk stad inte var omöjlig. I flera städer byggdes skyddsrum, och skolbarn fick öva på att gå ner i källaren när sirenerna ljöd. Några bomber föll faktiskt över Sverige under kriget, bland annat över Stockholm 1944, även om skadorna blev små.\n\nNyheterna kom framför allt genom radion och landets stora dagblad. Men allt som hände fick inte stå i tidningen. Regeringen ville inte reta de krigförande länderna, och den bad därför landets dagblad att undanhålla vissa uppgifter. Ett dagblad som ändå skrev något som ansågs farligt kunde bli beslagtaget. Regeringen åberopade landets säkerhet. Att undanhålla information från medborgarna var ett allvarligt ingrepp i en demokrati, och historiker diskuterar fortfarande om det var nödvändigt. Den som åberopar säkerheten har ofta lätt att få som den vill.\n\nIdén bakom försvaret var att det skulle vara heltäckande. Det räckte inte med soldater. Hela samhället skulle bidra: bönderna med mat, fabrikerna med varor, kvinnorna med frivilligt arbete och skolorna med beredskap. Denna heltäckande tanke kallas i dag totalförsvar, och den har fått ny betydelse under de senaste åren.\n\nLängs kusterna kan man fortfarande se spår av tiden. Små värn av betong ligger utspridda i skogen och på klipporna. Vid kusten byggdes en del av dem direkt in i berget, där graniten skyddade mot både bomber och väder. Graniten har stått emot alla år, och värnen ser nästan ut som när de byggdes. De är en kvarleva från en tid som många gärna glömmer. Andra kvarlevor finns i människors hem: gamla ransoneringskort, brev från gränsen, en hjälm på vinden.\n\nVarför blev Sverige skonat? De bakomliggande orsakerna är många och omdiskuterade: geografin, handeln med de krigförande länderna, försvaret och en stor portion tur. Att förstå de bakomliggande orsakerna är inte bara historia. Det hjälper oss att tänka klart om hur ett samhälle kan förbereda sig i dag.\n\nFrågor:\nVad var beredskapsåren för slags epok?\nDet var en epok av ransonering, mörklagda fönster och män som skickades till gränsen.\nNär hade förberedelserna börjat?\nDe hade börjat några år dessförinnan, i mitten av 1930-talet.\nVarför ombads landets dagblad att undanhålla vissa uppgifter?\nRegeringen ville inte reta de krigförande länderna och åberopade landets säkerhet.\nVad betydde det att försvaret skulle vara heltäckande?\nDet betydde att hela samhället skulle bidra, inte bara soldaterna.\nVarför ser värnen vid kusten nästan ut som när de byggdes?\nDe byggdes in i berget, och graniten har stått emot alla år.\nVilka är några av de bakomliggande orsakerna till att Sverige blev skonat?\nGeografin, handeln, försvaret och en stor portion tur."
+    },
+    {
+      "title": "Tronens bräcklighet",
+      "summary": "A review of a history book about why some states survive coups and others do not.",
+      "newWords": [
+        "statskupp",
+        "regent",
+        "sultan",
+        "älskarinna",
+        "spjut",
+        "spionera",
+        "smutskasta",
+        "ojämlikhet",
+        "sammanfalla",
+        "vicepresident"
+      ],
+      "text": "Varför faller vissa stater för en statskupp, medan andra står emot? Det är frågan som historikern Ingrid Wallin ställer i sin nya bok, och hon besvarar den med både bredd och klarhet. Boken är på drygt 300 sidor, men den läses lättare än man tror.\n\nWallin börjar i Sverige. År 1772 genomförde den unge Gustav III en statskupp och tog makten från riksdagen. Kuppen gick snabbt och utan blod. Wallin visar att den lyckades just för att så många redan var trötta på det gamla styret. En regent som har folket med sig behöver sällan vapen, skriver hon. En regent som saknar stöd hjälps inte ens av den största armén.\n\nBokens andra del handlar om det osmanska riket. Där kunde en sultan ena dagen vara världens mäktigaste man och nästa dag vara avsatt av sina egna soldater. Wallin beskriver palatset i Istanbul som en värld för sig, där varje sultan levde omgiven av vakter med spjut och svärd. Men spjuten skyddade inte mot hoten inifrån. Vid hovet spionerade alla på alla. Tjänare spionerade för ministrar, och ministrarna spionerade på varandra.\n\nEtt av bokens mest intressanta kapitel handlar om hovens kvinnor. Vid många europeiska hov hade kungens älskarinna stort inflytande. En älskarinna kunde bli en viktig rådgivare, men hon blev också ett lätt mål. Hennes fiender kunde smutskasta henne för att i själva verket angripa kungen. Wallin visar hur rykten och smutskastning ofta föregick en kupp: först förlorade härskaren sitt rykte, sedan sin makt.\n\nI bokens sista del kommer Wallin till vår egen tid. Hennes viktigaste slutsats är att stora kriser ofta sammanfaller med kupper. När en ekonomisk kris sammanfaller med växande ojämlikhet blir ett samhälle sårbart. Ojämlikhet i sig leder inte till kupper, betonar hon, men den gör att färre människor känner att de har något att försvara.\n\nHon jämför också länder där makten skiftar under ordnade former. I en republik med starka institutioner tar vicepresidenten över om presidenten dör eller avgår, och alla vet i förväg hur det ska gå till. Att ingen behöver undra vem som bestämmer i morgon är enligt Wallin en form av motståndskraft i sig. Där reglerna är oklara kan däremot en vicepresident, en general eller en minister lockas att ta makten själv.\n\nBoken har sina svagheter. Ibland hoppar Wallin för snabbt mellan sekler, och vissa kapitel hade tjänat på att vara kortare. Men hennes grundtanke är övertygande: en stat skyddas mindre av murar och vakter än av människors förtroende. Det är en tanke som är värd att minnas också i lugna tider.\n\nFrågor:\nVilken fråga ställer Ingrid Wallin i sin bok?\nHon frågar varför vissa stater faller för en statskupp medan andra står emot.\nVarför lyckades statskuppen 1772, enligt Wallin?\nDen lyckades för att så många redan var trötta på det gamla styret.\nVarför skyddade spjuten inte sultanen mot alla hot?\nHoten kom inifrån, eftersom alla vid hovet spionerade på alla.\nVarför kunde fiender smutskasta kungens älskarinna?\nDe ville i själva verket angripa kungen.\nVad händer när en ekonomisk kris sammanfaller med växande ojämlikhet?\nDå blir ett samhälle sårbart.\nVad gör vicepresidenten i en republik med starka institutioner?\nVicepresidenten tar över om presidenten dör eller avgår."
+    },
+    {
+      "title": "Bufferten",
+      "summary": "A couple who built up savings over the years manage calmly when one of them loses his job.",
+      "newWords": [
+        "familjeliv",
+        "möblera",
+        "kalkyl",
+        "investeringssparkonto",
+        "förvaltare",
+        "bråkdel",
+        "uppsägning",
+        "oavsiktlig",
+        "fullmakt"
+      ],
+      "text": "När Sara och Jonas flyttade ihop för tolv år sedan hade de nästan inga pengar. De möblerade sin första lägenhet med saker från loppmarknader och gamla möbler från släktingar. Det var ett enkelt familjeliv, men Sara minns det som lyckligt. Hon minns också hur orolig hon var varje gång tvättmaskinen lät konstigt.\n\nDet var därför hon började göra en kalkyl. Varje månad satte hon sig vid bordet i köket och räknade på vad de tjänade och vad de gjorde av med. Kalkylen var inte avancerad, bara två kolumner i ett anteckningsblock. Men den visade att de kunde spara en liten summa varje månad, om de var noga.\n\nPengarna satte de in på ett investeringssparkonto på banken. Ett investeringssparkonto är ett vanligt sätt för svenskar att spara i fonder och aktier, och det är enkelt att öppna. De valde en bred fond med låga avgifter. Fondens förvaltare var ingen kändis, och Sara läste aldrig hans namn. Hon ville bara att förvaltaren skulle sköta pengarna lugnt och inte ta onödiga risker. Det de satte in varje månad var en bråkdel av lönen, men med åren växte summan.\n\nNär barnen kom blev familjelivet dyrare. De flyttade till ett radhus och möblerade om när det behövdes. Ändå fortsatte de att spara. Sara gjorde om sin kalkyl varje år, och varje år fanns det något kvar att sätta in på deras investeringssparkonto.\n\nI våras fick Jonas en uppsägning. Företaget där han hade arbetat i nio år skulle flytta sin verksamhet utomlands, och hela hans avdelning försvann. Uppsägningen kom som en chock, men inte som en katastrof. Jonas fick ersättning medan han sökte nytt jobb, och de hade sin buffert. Den räckte för att betala lånet och maten i över ett år, om det skulle behövas.\n\nDen enda oron gällde ett misstag. Under de första veckorna var Jonas så upprörd att han oavsiktligt betalade samma räkning två gånger. Det var ett oavsiktligt misstag, och banken hjälpte dem att få tillbaka pengarna. Efter det bestämde de att Sara skulle sköta alla betalningar ett tag. Jonas skrev en fullmakt så att hon kunde ringa till banken och myndigheterna i hans namn. Fullmakten gav honom tid att tänka på annat.\n\nFyra månader senare fick Jonas ett nytt jobb. Lönen var lite lägre, men arbetet var roligare. Bufferten hade krympt, men den fanns kvar. Samma kväll satte sig Sara vid bordet i köket och gjorde en ny kalkyl. Den här gången kunde de bara spara en bråkdel av vad de sparade förut, men de började spara igen.\n\nFrågor:\nHur möblerade Sara och Jonas sin första lägenhet?\nDe möblerade den med saker från loppmarknader och gamla möbler från släktingar.\nVad visade Saras kalkyl?\nKalkylen visade att de kunde spara en liten summa varje månad.\nVad ville Sara att fondens förvaltare skulle göra?\nHon ville att förvaltaren skulle sköta pengarna lugnt och inte ta onödiga risker.\nVarför fick Jonas en uppsägning?\nFöretaget skulle flytta sin verksamhet utomlands, och hans avdelning försvann.\nVilket oavsiktligt misstag gjorde Jonas?\nHan betalade samma räkning två gånger.\nVarför skrev Jonas en fullmakt?\nHan skrev en fullmakt så att Sara kunde ringa till banken och myndigheterna i hans namn."
+    },
+    {
+      "title": "Mormors örhängen",
+      "summary": "A woman remembers her grandmother after her death and finds comfort in the old things she left behind.",
+      "newWords": [
+        "bortgång",
+        "kallelse",
+        "sötnos",
+        "rouge",
+        "örhänge",
+        "rubin",
+        "cape",
+        "tjuta",
+        "gravsten",
+        "traumatisk"
+      ],
+      "text": "Min mormor Ingrid dog i mars, 91 år gammal. Hennes bortgång kom inte som en överraskning, och ändå var jag inte beredd. Man är nog aldrig beredd. Under veckorna efter hennes bortgång gick jag omkring med en känsla av att något saknades i allt jag gjorde.\n\nMormor var sjuksköterska i över fyrtio år. Hon sa ofta att vården var hennes kallelse, och hon menade det. Hon kunde inte förklara sin kallelse med ord, men alla som träffade henne förstod den. Även när hon var gammal och själv behövde hjälp, frågade hon personalen på boendet hur de mådde.\n\nNär jag var liten kallade hon mig alltid för sötnos. ”Kom hit, sötnos”, sa hon, och så fick jag sitta i hennes knä och lyssna på berättelser. Jag var fortfarande hennes sötnos när jag var trettio och hade egna barn.\n\nHon var noga med sitt utseende. Varje morgon satte hon på sig lite rouge på kinderna, även de dagar då hon inte skulle träffa någon. ”Rouge är för mig själv”, sa hon. Hon bar också alltid samma örhängen, två små guldörhängen med en röd sten i varje. Stenarna var rubiner, och örhängena hade hon fått av morfar när de förlovade sig 1955. I femtio år såg jag henne nästan aldrig utan dem.\n\nEfter begravningen fick jag örhängena. Jag håller dem ibland mot ljuset och tittar på hur de röda stenarna glöder. En rubin är inte särskilt stor, men den är en av de hårdaste stenar som finns. Det passar mormor, tänker jag.\n\nJag fick också hennes gamla cape, en mörkblå cape av ull som hon hade på sig på hösten. Capen luktar fortfarande svagt av hennes parfym.\n\nMin yngsta son, som är fem, förstod inte först att mormor var borta. När han förstod, tjöt han hela kvällen. Han tjöt så att grannarna säkert hörde det, och jag satt med honom tills han somnade. Jag var orolig att det skulle bli en traumatisk upplevelse för honom. Men en psykolog som jag pratade med förklarade att sorg inte är traumatisk i sig. Barn behöver få gråta och få svar på sina frågor, och de behöver vuxna som stannar kvar.\n\nI somras sattes en gravsten upp på kyrkogården. Gravstenen är grå och enkel, med mormors och morfars namn. Vi åker dit ibland, min son och jag. Han lägger en sten på gravstenen och berättar för mormor vad han har gjort. Jag har på mig örhängena, och jag tänker att sorgen inte försvinner, men att man lär sig att bära den.\n\nFrågor:\nVarför var skribenten inte beredd på mormors bortgång?\nMan är nog aldrig beredd, även när det inte kommer som en överraskning.\nVad sa mormor om vården?\nHon sa att vården var hennes kallelse.\nVarför satte mormor på sig rouge varje morgon?\nHon sa att rouge var för henne själv.\nVad hade mormor fått av morfar när de förlovade sig?\nHon hade fått två små guldörhängen med en rubin i varje.\nVad gjorde sonen när han förstod att mormor var borta?\nHan tjöt hela kvällen.\nVad gör sonen vid gravstenen?\nHan lägger en sten på gravstenen och berättar för mormor vad han har gjort."
+    },
+    {
+      "title": "En dag på sjön",
+      "summary": "A sailing course where the instructor teaches beginners to prepare for an engine failure at sea.",
+      "newWords": [
+        "terminal",
+        "instruktör",
+        "knop",
+        "haveri",
+        "astronaut",
+        "träningsmatch",
+        "räta",
+        "spetsa",
+        "frän"
+      ],
+      "text": "Kursen började en lördag i juni vid den gamla färjeterminalen i Nynäshamn. Terminalen används inte längre för färjor, men en segelklubb hyr en del av byggnaden. Sex vuxna nybörjare satt på bänkarna i den kalla terminalen och väntade. Ingen av dem hade seglat förut.\n\nInstruktören hette Per och hade seglat i över trettio år. Han var lugn och talade långsamt. ”Den här kursen handlar inte om att segla fort”, sa instruktören. ”Den handlar om vad ni gör när något går fel.”\n\nFörst lärde de sig några knopar. Per visade hur man gör en pålstek, den knop som varje seglare måste kunna. Han visade knopen långsamt tre gånger, och sedan fick deltagarna öva tills de kunde göra den med slutna ögon. ”En knop som ni måste tänka på hjälper er inte när det blåser”, sa han. Han förklarade också att ordet knop används för båtens fart. En knop är en sjömil i timmen.\n\nEfter lunch gick de ut på sjön. Båten gick för motor ut ur hamnen, och Per bad dem att hela tiden tänka på vad de skulle göra vid ett haveri. ”Vad gör ni om motorn stannar just nu?” frågade han. Ett haveri till sjöss är sällan farligt om man har tänkt igenom det i förväg, förklarade han. Det farliga är när man inte har någon plan.\n\nSedan stängde han av motorn, med flit. Det blev plötsligt tyst. ”Spetsa öronen”, sa Per. Deltagarna spetsade öronen, men det enda de hörde var vinden och vågorna. Från motorrummet kom en frän lukt av diesel. Den fräna lukten fick en av kvinnorna att må lite illa, och Per bad henne titta på horisonten.\n\nNu skulle de öva på att hantera haveriet. De hissade seglen, kontrollerade var de var på kartan och ringde ett övningssamtal till klubben. Per kallade det en träningsmatch. ”Ingen fotbollsspelare går in i en final utan att ha spelat en träningsmatch”, sa han. ”Det här är er träningsmatch.”\n\nHan berättade också om astronauter. En astronaut tränar i flera år på saker som nästan aldrig händer. Varje astronaut har övat på varje tänkbart fel så många gånger att handlingarna sitter i kroppen. ”Ni ska inte till rymden”, sa Per, ”men tanken är densamma.”\n\nNär de var tillbaka i hamnen satt deltagarna böjda och trötta. Per bad dem räta på ryggen och andas djupt. De rätade på sig och tittade ut över vattnet. Ingen av dem var expert ännu, men alla visste vad de skulle göra om motorn stannade.\n\nFrågor:\nVar började kursen?\nKursen började vid den gamla färjeterminalen i Nynäshamn.\nVad handlade kursen om, enligt instruktören?\nDen handlade om vad man gör när något går fel.\nVad betyder knop när man talar om fart?\nEn knop är en sjömil i timmen.\nNär är ett haveri till sjöss farligt, enligt Per?\nDet är farligt när man inte har någon plan.\nVarför kallade Per övningen en träningsmatch?\nIngen fotbollsspelare går in i en final utan att ha spelat en träningsmatch först.\nVad bad Per deltagarna göra när de var tillbaka i hamnen?\nHan bad dem räta på ryggen och andas djupt."
+    }
+  ]
+}

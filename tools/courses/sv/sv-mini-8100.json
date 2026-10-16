@@ -1,0 +1,207 @@
+{
+  "id": "sv-mini-8100",
+  "rankUpTo": 8100,
+  "level": "C2",
+  "title": "Människokroppen",
+  "description": "Ten standalone texts about the human body, from the heart's own electricity and the voice to disgust, the eye and the water we are made of, told as stories, columns, reports and short essays.",
+  "topic": "The human body",
+  "names": [
+    "Sara",
+    "Volvo",
+    "Göteborg",
+    "Lena Berg",
+    "Johan Lind",
+    "Amira Haddad",
+    "Sverige",
+    "Mesopotamien",
+    "Gilgamesj",
+    "Leila",
+    "Leilas",
+    "Stockholm",
+    "Karin",
+    "Indien",
+    "Maria",
+    "Marias",
+    "Uppsala",
+    "Lundin",
+    "Blekinge",
+    "Peter",
+    "Peters",
+    "Lisa",
+    "Elin",
+    "Elins",
+    "Prag",
+    "Ida",
+    "Idas",
+    "Fatima"
+  ],
+  "lessons": [
+    {
+      "title": "Hjärtats dunk",
+      "summary": "A car mechanic hears an extra beat in his heart, learns from a doctor how the heart's own electrical system works, and is told that nothing is wrong.",
+      "newWords": [
+        "dunk",
+        "volt",
+        "mekaniker",
+        "defekt",
+        "häromdan",
+        "direkten",
+        "ojdå",
+        "utrusta",
+        "lossa",
+        "hjärndöd"
+      ],
+      "text": "Jag har varit mekaniker i trettio år. Jag har lyssnat på fler motorer än jag kan räkna, och jag hör på direkten när något är fel: ett ljud som kommer lite för sent, en ton som inte hör hemma där. En mekaniker lär sig att lita på örat.\n\nHäromdan låg jag i sängen och lyssnade på mitt eget hjärta. Det var tyst i huset, och jag hörde hjärtats dunk i bröstet, jämn och lugn, slag efter slag. Plötsligt kom dunken för tidigt, och efter det blev det en kort paus. Jag kände igen mönstret på direkten. Hade det varit en motor, skulle jag ha sagt att något gick i fel takt.\n\nNästa morgon ringde jag vårdcentralen. Läkaren, en ung kvinna som hette Sara, lyssnade på hjärtat och mätte dess elektriska signaler. Signalerna syntes som en kurva på en skärm. Hon tittade på kurvan och sa: ”Ojdå, här ser man det.” Jag blev rädd, men hon log. ”Ojdå betyder inte att det är farligt”, sa hon. ”Det betyder bara att jag hittade det jag letade efter.”\n\nSedan förklarade hon hur hjärtat fungerar, och det lät nästan som min verkstad. Hjärtat har ett eget elektriskt system. Varje cell i hjärtat har en liten spänning, ungefär 0,1 volt. Det är inte mycket; ett vanligt batteri i en ficklampa har en och en halv volt. Men när de små spänningarna går genom hjärtat i rätt ordning drar muskeln ihop sig, och vi hör hjärtats dunk.\n\n”Hjärtat sköter sig självt”, sa Sara. ”Det behöver inte ens hjärnan för att slå. Hos en människa som är hjärndöd kan hjärtat fortsätta att slå, om en maskin hjälper lungorna att andas. Därför kan organ från en hjärndöd människa rädda liv.” Hjärndöd betyder alltså att hjärnan har slutat att fungera för alltid, men att motorn i bröstet kan gå ändå.\n\nMitt extra slag kunde bero på en liten defekt i det elektriska systemet, eller på ingenting alls. För att veta mer skulle jag utrustas med en apparat som mätte hjärtat under ett helt dygn. Dagen därpå utrustade en sköterska mig med sladdar på bröstet och en liten låda i bältet. Jag jobbade som vanligt. När jag skulle lossa ett hjul på en gammal Volvo fick jag tänka på sladdarna, och medan jag lossade skruvarna kände jag mig själv som en bil på service.\n\nEfter en vecka ringde Sara. Hon hade gått igenom alla siffror. ”Det finns ingen defekt”, sa hon. ”Du har extra slag, som de flesta människor har. De är ofarliga.” Hon sa att kaffe och stress kan ge fler extra slag, och att jag skulle höra av mig på direkten om jag blev yr.\n\nNu ligger jag ibland och lyssnar på dunken i bröstet igen. När dunken kommer för tidigt, tänker jag inte på fel längre. Jag tänker att även den bästa motorn har sitt eget ljud.\n\nFrågor:\nVad hörde mekanikern häromdan när han låg i sängen?\nHan hörde att hjärtats dunk kom för tidigt, och sedan en kort paus.\nVarför sa läkaren ”ojdå”?\nHon sa ”ojdå” eftersom hon hittade det hon letade efter på kurvan.\nHur stor spänning har en cell i hjärtat?\nEn cell i hjärtat har en spänning på ungefär 0,1 volt.\nVarför kan hjärtat slå hos en människa som är hjärndöd?\nHjärtat har ett eget elektriskt system och behöver inte hjärnan för att slå.\nVad utrustade sköterskan mekanikern med under ett dygn?\nHon utrustade honom med sladdar på bröstet och en liten låda i bältet.\nVad sa läkaren när hon hade gått igenom siffrorna?\nHon sa att det inte fanns någon defekt och att hans extra slag var ofarliga."
+    },
+    {
+      "title": "Kan hjärnan avslöja hur vi röstar?",
+      "summary": "A newspaper report from a panel debate where a brain researcher and a political scientist explain what brain studies can and cannot say about political views.",
+      "newWords": [
+        "moderator",
+        "statsvetare",
+        "vänsterextremist",
+        "sympatisör",
+        "antirasist",
+        "obunden",
+        "konsensus",
+        "evidens",
+        "sia",
+        "diktera"
+      ],
+      "text": "I lördags samlades omkring 200 personer i en stor sal i Göteborg för att lyssna på ett samtal om hjärnan och politiken. Frågan var enkel att ställa men svår att besvara: kan forskare se på en bild av hjärnan hur en människa röstar?\n\nModerator var journalisten Lena Berg. Hon hade två gäster: Johan Lind, som forskar om hjärnan, och statsvetaren Amira Haddad. Som moderator började Lena Berg med att be dem förklara vad forskningen faktiskt har visat.\n\nJohan Lind berättade om studier där man har jämfört hjärnan hos människor med olika åsikter. Vissa studier har funnit små skillnader, till exempel i de delar av hjärnan som har med rädsla att göra. ”Men evidensen är svag”, sa han. ”Studierna är små, och när andra forskare har gjort om dem har de ofta inte fått samma resultat. Med så svag evidens kan ingen sia om hur en enskild människa kommer att rösta.”\n\nAmira Haddad höll med. Som statsvetare studerar hon hur människor formar sina åsikter, och hon menade att uppväxt, utbildning och vänner betyder mycket mer än hjärnans form. ”Generna och hjärnan dikterar inte vad vi tycker”, sa hon. ”De kan påverka hur vi reagerar när vi känner oss hotade, men de dikterar inte om vi röstar till höger eller till vänster.”\n\nModeratorn frågade sedan om de extrema rörelserna. Har en vänsterextremist och en högerextremist något gemensamt? Statsvetaren svarade att forskningen visar vissa likheter: en stark känsla av att världen är orättvis och en vilja att se motståndaren som en fiende. Men hon betonade att de flesta sympatisörer till en rörelse aldrig använder våld. ”En sympatisör kan dela en del av rörelsens mål utan att gilla dess metoder. Det är viktigt att hålla isär sympatisörer och vänsterextremister som är beredda att använda våld.”\n\nEn kvinna i publiken undrade om man kunde hitta något gemensamt hos antirasister. Johan Lind svarade att antirasister finns i många partier och att det inte finns någon särskild del av hjärnan för det. ”Att vara antirasist handlar om värderingar, och värderingar lär vi oss.”\n\nEn annan fråga gällde väljare som är politiskt obundna, alltså inte knutna till något parti. Amira Haddad berättade att de obundna väljarna har blivit fler i Sverige och att en obunden väljare ofta bestämmer sig sent.\n\nMot slutet frågade moderatorn om det fanns någon konsensus bland forskarna. Båda gästerna log. ”Konsensus är ett starkt ord”, sa Johan Lind. ”Men de flesta skulle hålla med om en sak: hjärnan påverkar hur vi tänker, men den dikterar inte våra åsikter.” Amira Haddad lade till att det också finns konsensus om att man ska vara försiktig med rubriker som lovar att forskarna kan sia om politik med hjälp av en bild av hjärnan.\n\nFrågor:\nVem var moderator för samtalet?\nJournalisten Lena Berg var moderator.\nVarför kan forskarna inte sia om hur en människa röstar?\nEvidensen är svag, eftersom studierna är små och resultaten ofta inte går att upprepa.\nVad betyder mer än hjärnans form, enligt statsvetaren?\nEnligt statsvetaren betyder uppväxt, utbildning och vänner mycket mer.\nVad sa statsvetaren om sympatisörer?\nHon sa att de flesta sympatisörer till en rörelse aldrig använder våld.\nVad är en obunden väljare?\nEn obunden väljare är inte knuten till något parti och bestämmer sig ofta sent.\nVilken konsensus finns bland forskarna?\nDe flesta håller med om att hjärnan påverkar hur vi tänker men inte dikterar våra åsikter."
+    },
+    {
+      "title": "Miljardärerna och åldrandet",
+      "summary": "A columnist reflects on billionaires who spend fortunes trying to stop ageing, compares it with an ancient dream, and settles for simpler habits.",
+      "newWords": [
+        "miljardär",
+        "åldrande",
+        "materia",
+        "arvinge",
+        "sparkonto",
+        "entreprenörskap",
+        "samhällelig",
+        "forntida",
+        "tillvara",
+        "fullborda"
+      ],
+      "text": "Det finns en ny sorts miljardär. Förr köpte de rika fotbollslag och stora båtar. I dag lägger många av dem pengar på forskning om åldrandet. En amerikansk miljardär tar dussintals tabletter varje dag, mäter allt som går att mäta i sin kropp och berättar gärna om resultaten på nätet. En annan miljardär har gett stora summor till företag som vill bromsa åldrandet i våra celler.\n\nDrömmen är inte ny. Redan forntida kungar letade efter ett sätt att leva för evigt. I en forntida berättelse från Mesopotamien söker kungen Gilgamesj en växt som ska ge evigt liv. Han hittar den, men förlorar den igen, och till slut förstår han att han måste dö som alla andra. Den forntida berättelsen är över 3 000 år gammal, men den känns förvånansvärt modern.\n\nVad vet forskarna då om åldrandet? En del är lätt att förklara. Med åren blir våra celler sämre på att laga sig själva. Hjärnans grå materia minskar långsamt redan från 30-årsåldern. Den grå materian är den del av hjärnan där nervcellernas kroppar finns, medan den vita materian består av de trådar som binder ihop dem. Att materian förändras betyder inte att vi blir dumma; hjärnan kan länge kompensera för det den förlorar.\n\nDet mesta vi vet om ett friskt åldrande är dessutom ganska tråkigt: rör på dig, ät grönsaker, sov ordentligt, träffa vänner och rök inte. Det behövs ingen miljardär för det.\n\nJag beundrar entreprenörskap. Det är entreprenörskap som har gett oss nya mediciner, mobiltelefoner och elbilar. Men jag undrar om entreprenörskapet verkligen kan fullborda den gamla drömmen. Och om det lyckas, vem får då leva längre? Det är en samhällelig fråga, inte bara en medicinsk. Om bara de rikaste kan köpa tio extra år, blir klyftan mellan rika och fattiga ännu större. En så stor samhällelig förändring borde vi diskutera öppet innan den sker.\n\nDet finns också en mer vardaglig sida av saken. En miljardär som lever till 130 får vänta länge med att lämna över sin förmögenhet. Hans arvinge kan själv vara 90 år när arvet till slut kommer. Jag tror inte att någon arvinge drömmer om det.\n\nSjälv har jag inga miljarder. Jag har ett sparkonto med några tusenlappar, och de pengarna ska räcka till en ny cykel när den gamla går sönder. Mitt sparkonto kommer inte att fullborda någon dröm om evigt liv. Men jag försöker ta tillvara det jag har: kroppen jag har fått, dagarna som kommer och människorna omkring mig. Att ta tillvara tiden är kanske det enda som verkligen hjälper mot åldrandet, och det kostar ingenting.\n\nFrågor:\nVad lägger många miljardärer pengar på i dag?\nDe lägger pengar på forskning om åldrandet.\nVad söker kungen i den forntida berättelsen?\nHan söker en växt som ska ge evigt liv.\nVad händer med hjärnans grå materia när vi blir äldre?\nDen grå materian minskar långsamt redan från 30-årsåldern.\nVarför är åldrandet en samhällelig fråga, enligt skribenten?\nOm bara de rikaste kan köpa extra år, blir klyftan mellan rika och fattiga större.\nVad ska pengarna på skribentens sparkonto räcka till?\nDe ska räcka till en ny cykel.\nVad försöker skribenten ta tillvara?\nSkribenten försöker ta tillvara kroppen, dagarna och människorna omkring sig."
+    },
+    {
+      "title": "Rösten",
+      "summary": "A young rapper loses her voice before a competition, learns from a singing teacher how the throat and breathing work, and wins second place.",
+      "newWords": [
+        "rappa",
+        "strupe",
+        "betoning",
+        "rocka",
+        "andraplats",
+        "entusiasm",
+        "heldag",
+        "kombo",
+        "dissa",
+        "snabbis"
+      ],
+      "text": "Leila var 19 år och hade rappat sedan hon var tolv. Hennes pappa rockade i ett band på 1990-talet, och i lägenheten fanns fortfarande hans gamla gitarr. ”Jag rockade, du rappar”, brukade han säga. ”Det är samma sak, bara snabbare.”\n\nI april skulle Leila vara med i en stor tävling i Stockholm. Två veckor innan blev hon hes. Varje gång hon försökte rappa kändes det som om någon höll om hennes strupe. Hon blev rädd att rösten inte skulle hålla.\n\nHennes pappa ringde en gammal vän, Karin, som var lärare i sång. Karin bad Leila komma på en heldag. ”En heldag låter mycket”, sa Leila. ”Kan vi inte ta en snabbis på en timme?” Karin skrattade. ”En snabbis hjälper inte. Rösten är en muskel, och muskler tränar man inte på en timme.”\n\nUnder dagen förklarade Karin hur rösten fungerar. Luften kommer från lungorna och går upp genom strupen. I strupen sitter stämbanden, två små veck som vibrerar när luften passerar. ”Du pressar fram orden med strupen”, sa Karin. ”Du ska i stället låta dem komma med luften. Andas med magen, inte med axlarna.”\n\nSedan arbetade de med betoning. Leila hade alltid lagt betoningen på varje ord, som om alla ord var lika viktiga. ”Välj ut några ord i varje rad”, sa Karin. ”Lägg betoningen på dem, och låt resten flyta. Då behöver strupen inte arbeta så hårt, och lyssnaren hör vad som är viktigt.”\n\nTill slut gav Karin henne en kombo av övningar: först fem minuter med långsam andning, sedan fem minuter då hon rappade texten viskande, sedan hela texten med full röst. Leila gjorde samma kombo varje morgon i två veckor, med en entusiasm hon inte hade känt på länge.\n\nTävlingen var en duell, där två rappare möts och dissar varandra i rim. Leila hade bestämt sig för att inte dissa någon på ett elakt sätt. När hennes motståndare dissade henne för att hon var ny, svarade hon med ett rim om att hon åtminstone visste hur man andas. Publiken skrattade, och hennes röst höll hela vägen.\n\nLeila kom på andraplats. Hon var lite besviken i fem minuter, men sedan kände hon bara entusiasm. En andraplats i hennes första stora tävling var mer än hon hade vågat hoppas på. Hennes pappa kramade henne och sa: ”Jag rockade i tio år och kom aldrig på någon plats alls.”\n\nFrågor:\nVad gjorde Leilas pappa på 1990-talet?\nHan rockade i ett band.\nVarför ville Leila ta en snabbis i stället för en heldag?\nHon tyckte att en heldag lät mycket.\nVar sitter stämbanden?\nStämbanden sitter i strupen.\nHur skulle Leila använda betoningen?\nHon skulle lägga betoningen på några ord i varje rad och låta resten flyta.\nVilken kombo av övningar gjorde Leila varje morgon?\nHon andades långsamt, rappade texten viskande och sedan med full röst.\nHur gick det för Leila i tävlingen?\nHon kom på andraplats, och hennes röst höll hela vägen."
+    },
+    {
+      "title": "Varför blir vi äcklade?",
+      "summary": "A short essay on disgust: what happens in the body when we find mould in the pantry, why disgust protects us, and what experiments have shown.",
+      "newWords": [
+        "äcklad",
+        "motbjudande",
+        "vedervärdig",
+        "skafferi",
+        "förvaring",
+        "gummi",
+        "bägare",
+        "desamma",
+        "nyckelord",
+        "tärning"
+      ],
+      "text": "Alla har varit med om det. Man öppnar skafferiet efter en lång semester och ser en påse bröd som har blivit grön. Ett paket ost som man en gång skar i tärningar har blivit mjukt och luktar surt. Tärningarna, som en gång var gula, har fått små gröna prickar. Man blir äcklad på en sekund, långt innan man har hunnit tänka.\n\nVad händer i kroppen när vi blir äcklade? Näsan rynkas, överläppen dras upp och ibland drar sig strupen ihop. Hjärtat slår ofta långsammare, och man kan bli illamående. Det är en reaktion som är äldre än språket. Forskare har visat att ansiktsuttrycken är desamma i hela världen: en bonde i Indien och en lärare i Sverige gör samma min när de känner en motbjudande lukt. Även reaktionerna inne i kroppen är desamma, oavsett var man har vuxit upp.\n\nÄckel har en uppgift. Det skyddar oss mot det som kan göra oss sjuka. Ruttet kött, mögel, avföring och kroppsvätskor är motbjudande för nästan alla människor, och det är just sådant som kan bära bakterier och virus. Nyckelordet är smitta. Den som blev äcklad av ruttet kött åt det inte, och levde längre.\n\nSamtidigt lär vi oss en del av vårt äckel. Små barn stoppar gärna allt i munnen, och det är föräldrarna som lär dem vad som är vedervärdigt. Därför skiljer sig maten åt: en rätt som är vedervärdig i ett land kan vara en fin delikatess i ett annat. Surströmming är ett svenskt exempel. Många utlänningar tycker att lukten är vedervärdig, medan andra ser fram emot den varje höst.\n\nEn amerikansk forskare gjorde ett känt försök. Han hällde äppeljuice i en ny, ren bägare och bad människor dricka. Sedan hällde han samma juice i en bägare som var gjord för urinprov. Juicen var densamma och bägarna var lika rena, men nästan ingen ville dricka ur den andra bägaren. Ett annat nyckelord är alltså idéer: vi blir äcklade av det som påminner om något äckligt, även när vi vet att det är ofarligt.\n\nHur ska man då göra med skafferiet? Svaret är tråkigt men effektivt. Tänk på förvaringen. Torra varor ska stå i burkar med lock, och bröd har en kortare förvaring än man tror. Rätt förvaring gör att man slipper många obehagliga överraskningar. När man ändå måste städa bort något grönt, kan man ta på sig handskar av gummi. Gummit skyddar huden, och det blir lättare att göra det som måste göras.\n\nKanske är det bra att vi blir äcklade. Äcklet är kroppens sätt att säga: rör inte det där.\n\nFrågor:\nVad kan man hitta i skafferiet efter en lång semester?\nMan kan hitta bröd som har blivit grönt och ost som luktar surt.\nVad händer i ansiktet när vi blir äcklade?\nNäsan rynkas och överläppen dras upp, och ansiktsuttrycken är desamma i hela världen.\nVarför är ruttet kött motbjudande för de flesta?\nDet kan bära bakterier och virus som gör oss sjuka.\nVad visade försöket med de två bägarna?\nNästan ingen ville dricka juice ur en bägare som var gjord för urinprov.\nVilka är de två nyckelorden i texten?\nDe två nyckelorden är smitta och idéer.\nVarför kan man ta på sig handskar av gummi?\nGummit skyddar huden när man städar bort något äckligt."
+    },
+    {
+      "title": "Revbenet",
+      "summary": "A park gardener loses her balance while trimming a hedge, breaks a rib, follows her doctor's instructions through a frustrating spring and returns to work.",
+      "newWords": [
+        "trädgårdsmästare",
+        "trimma",
+        "kvist",
+        "revben",
+        "undersida",
+        "föreskrift",
+        "pappersarbete",
+        "förtvivlan",
+        "basa",
+        "obalans"
+      ],
+      "text": "Maria hade arbetat som trädgårdsmästare i Uppsala i tjugo år. De senaste fem åren hade hon basat över stadsparken. Hon basade över åtta trädgårdsmästare, planerade vårens blommor och skrev under alla fakturor. Hon tyckte om att basa, men allra mest tyckte hon om arbetet med händerna.\n\nEn morgon i maj skulle hon trimma häcken vid parkens entré. Det var egentligen ett jobb för de yngre, men hon ville trimma den själv. Hon ställde stegen i gräset och klättrade upp. Medan hon trimmade de översta grenarna, sjönk stegens ena ben ner i den mjuka marken. Maria kom i obalans. Hon försökte ta tag i en kvist, men kvisten gick av, och hon föll.\n\nHon landade på sidan, mot kanten av en bänk. Det gjorde så ont att hon inte kunde andas. På akuten tog man en röntgenbild. Ett revben var brutet, och ett annat hade en spricka. ”Ett brutet revben läker av sig självt”, sa läkaren. ”Men det tar sex veckor, och det kommer att göra ont.”\n\nLäkaren gav henne en lista med föreskrifter. Den första föreskriften var att andas djupt flera gånger i timmen, trots smärtan, så att lungorna inte fick en infektion. Den andra var att inte lyfta något tungt. Den tredje föreskriften var den svåraste: att vila.\n\nSedan kom pappersarbetet. Maria fick fylla i papper för sjukskrivningen, ett papper till försäkringen och ett för olyckan på jobbet. Hon hade alltid tyckt att pappersarbete var det tråkigaste med att basa, och nu satt hon hemma med mer pappersarbete än någonsin.\n\nDe första veckorna kände hon något som liknade förtvivlan. Det var vår, parken blommade, och hon kunde inte ens bära en vattenkanna. Förtvivlan kom oftast på kvällarna, när hon tänkte på allt som skulle göras.\n\nMen hon hittade ett sätt att arbeta ändå. Varje dag gick hon långsamt genom parken och tittade på växterna. Hon vände försiktigt på bladen och studerade deras undersida. På bladens undersida sitter ofta de små insekter som kan förstöra en hel rabatt. Hon skrev ner allt hon såg och skickade listor till de andra trädgårdsmästarna.\n\nEfter sju veckor kom hon tillbaka till jobbet. Revbenet hade läkt, och obalansen i kroppen var borta. Den första dagen tittade hon på häcken vid entrén. Den var perfekt trimmad. ”Det var vi som trimmade den”, sa en av de unga trädgårdsmästarna. ”Från marken.”\n\nFrågor:\nVad gjorde Maria i stadsparken?\nHon basade över åtta trädgårdsmästare och planerade vårens blommor.\nVarför kom Maria i obalans?\nStegens ena ben sjönk ner i den mjuka marken.\nVad hände med kvisten som hon tog tag i?\nKvisten gick av, och hon föll.\nVilken föreskrift var den svåraste?\nDen svåraste föreskriften var att vila.\nVarför studerade Maria bladens undersida?\nPå bladens undersida sitter ofta små insekter som kan förstöra en rabatt.\nHur hade de unga trädgårdsmästarna trimmat häcken?\nDe hade trimmat den från marken."
+    },
+    {
+      "title": "Getingen på halvön",
+      "summary": "A family on holiday in a nature reserve on a peninsula sees their daughter stung by a wasp, gets help from a Czech nurse and learns how skin reacts to a sting.",
+      "newWords": [
+        "stinga",
+        "odjur",
+        "randig",
+        "halvö",
+        "reservat",
+        "hemvist",
+        "tjeckiska",
+        "varefter",
+        "bira"
+      ],
+      "text": "Familjen Lundin hyrde en stuga på en halvö i Blekinge varje sommar. Halvön var smal och lång, och nästan hela den var ett reservat. I reservatet fick man inte plocka blommor eller köra bil, och därför var det tyst där på ett sätt som Peter och Lisa Lundin sällan upplevde hemma i stan. Deras dotter Elin var sju år och älskade halvön mer än något annat ställe.\n\nEn varm eftermiddag åt familjen lunch på en filt vid stranden. Peter drack en bira, Lisa en kopp kaffe och Elin en saft. Efter en stund kom den första getingen. Sedan kom en till. De surrade kring Peters bira. ”Getingar älskar söt bira”, sa Lisa. ”De vill ha sockret.”\n\nElin tittade på den randiga getingen på sin mugg. Hon ville jaga bort den med handen. Getingen stang henne i armen. Elin skrek. Det lilla randiga odjuret flög iväg, varefter hon började gråta. ”Ett odjur!” ropade hon. ”Det är inget odjur”, sa Peter. ”Det är en geting som försvarar sig.”\n\nPå filten bredvid satt en familj som talade tjeckiska. Mamman i den familjen kom fram. På en blandning av engelska och svenska berättade hon att hon var sjuksköterska i Prag. Hon tittade på armen och frågade om Elin hade blivit stungen förut. ”En gång”, sa Lisa. ”Då blev det bara rött.”\n\nSjuksköterskan förklarade att en geting stinger med en gadd på bakkroppen. Giftet får huden att svälla och bli röd, eftersom kroppens försvar skickar blod och vätska till stället. För de flesta är det bara obehagligt, men en del människor är allergiska och kan få svårt att andas. Elin andades lugnt, och det röda stället var lika stort som en tumme. ”Kyla och vila”, sa sjuksköterskan, varefter hon log mot Elin och gick tillbaka till sin filt.\n\nPeter hämtade is från kylväskan, och Elin höll den mot armen. Medan hon satt där frågade hon var getingarna bodde. Lisa pekade mot en gammal ek vid stigen. Under en gren hängde ett grått bo. ”Där har de sin hemvist”, sa hon. ”Reservatet är deras hemvist lika mycket som vår.”\n\nSenare samma dag gick familjen förbi den tjeckiska familjen och tackade. Elin sa tack på tjeckiska, ett ord som hon hade lärt sig av sjuksköterskans son, och alla skrattade. Det var det första ordet på tjeckiska hon kunde.\n\nNästa dag ställde Peter sin bira i skuggan, långt bort från filten. Ingen geting stack någon mer den sommaren.\n\nFrågor:\nVarför var det tyst på halvön?\nNästan hela halvön var ett reservat, där man inte fick köra bil.\nVarför surrade getingarna kring Peters bira?\nGetingar älskar söt bira, eftersom de vill ha sockret.\nVad hände när Elin ville jaga bort getingen?\nGetingen stang henne i armen.\nVem hjälpte familjen?\nEn sjuksköterska från Prag som talade tjeckiska hjälpte dem.\nVarför blir huden röd när en geting stinger?\nKroppens försvar skickar blod och vätska till stället.\nVar hade getingarna sin hemvist?\nDe hade sin hemvist i ett bo under en gren på en gammal ek."
+    },
+    {
+      "title": "Ögat är ingen kamera",
+      "summary": "An essay on how the eye and brain see: an eye test with letters out of alphabetical order, glare at night, optical illusions and the difference between the eye and a surveillance camera.",
+      "newWords": [
+        "optisk",
+        "blända",
+        "subtil",
+        "övervakningskamera",
+        "anonymitet",
+        "överblick",
+        "begriplig",
+        "alfabetisk",
+        "kanadensiska",
+        "sålla"
+      ],
+      "text": "Det är lätt att tro att ögat fungerar som en kamera. Ljuset går in genom pupillen, linsen samlar det, och längst bak i ögat bildas en bild. Så långt stämmer jämförelsen. Men den bild vi upplever skapas inte i ögat. Den skapas i hjärnan, och det är där skillnaden mellan ögat och en kamera blir begriplig.\n\nTänk på en övervakningskamera i en tunnelbanestation. Den spelar in allt den ser, varje sekund, utan att välja. Ögat gör inte så. Hjärnan sållar hela tiden bland det ögat skickar. Den sållar bort det som är oviktigt och lyfter fram det som rör sig, det som är nytt och det som liknar ett ansikte. En övervakningskamera ger en fullständig överblick över stationen, men människan som går där ser bara en liten del av den. Ögat ger ingen sådan överblick, och det behöver inte heller någon överblick för att vi ska hitta rätt.\n\nDet märks när man går till optikern och läser på en tavla med bokstäver. Bokstäverna står inte i alfabetisk ordning. Om de stod i alfabetisk ordning skulle hjärnan gissa nästa bokstav, och provet skulle inte mäta synen utan minnet. Därför blandas de, så att varje bokstav måste ses på riktigt.\n\nAtt hjärnan gissar syns också i optiska illusioner. En optisk illusion kan få två linjer som är exakt lika långa att se olika långa ut. Ögat gör inget fel; det är hjärnan som tolkar bilden utifrån vad den har lärt sig om världen. En grupp kanadensiska forskare har visat att människor ofta missar stora förändringar i en bild, om förändringen sker medan de blinkar. De kanadensiska studierna visar hur subtil gränsen är mellan att se och att tro att man ser.\n\nÖgat har också svagheter som en kamera saknar. När en bil med starka lampor kommer emot en på natten, kan man bli bländad i flera sekunder. Pupillen hinner inte bli mindre, och synen försvinner för ett ögonblick. Därför ska man inte titta rakt in i ljuset när man blir bländad, utan mot vägens kant.\n\nÄndå är ögat på många sätt överlägset. Det kan se subtila skillnader i färg och uppfatta en subtil rörelse i ögonvrån. Det klarar både stjärnljus och sol.\n\nTill sist en skillnad som gäller oss alla. En övervakningskamera kopplad till en dator kan känna igen ansikten och följa en människa genom en hel stad. Då hotas vår anonymitet på ett nytt sätt. Ett mänskligt öga glömmer de flesta ansikten det ser, och det är just därför vi kan röra oss i staden med en viss anonymitet. När man vet hur hjärnan sållar, blir det begripligt att två människor kan minnas samma händelse så olika. Ögat är ingen kamera, och kanske ska vi vara glada för det.\n\nFrågor:\nVar skapas den bild vi upplever?\nDen skapas i hjärnan, inte i ögat.\nVad gör hjärnan med det ögat skickar?\nHjärnan sållar bort det som är oviktigt och lyfter fram det som rör sig eller är nytt.\nVarför står bokstäverna inte i alfabetisk ordning hos optikern?\nAnnars skulle hjärnan gissa nästa bokstav, och provet skulle mäta minnet.\nVad har de kanadensiska forskarna visat?\nDe har visat att människor ofta missar stora förändringar som sker medan de blinkar.\nVad ska man göra om man blir bländad på natten?\nMan ska titta mot vägens kant i stället för rakt in i ljuset.\nHur kan en övervakningskamera hota vår anonymitet?\nKopplad till en dator kan den känna igen ansikten och följa en människa genom staden."
+    },
+    {
+      "title": "En bekännelse från bageriet",
+      "summary": "A baker confesses in a December column that his belly has grown like Santa's, starts training with a gym voucher and finds a truce with his body over Christmas.",
+      "newWords": [
+        "bekännelse",
+        "bagare",
+        "buk",
+        "jultomte",
+        "kupong",
+        "explosiv",
+        "nätt",
+        "vapenvila",
+        "beröva",
+        "bössa"
+      ],
+      "text": "Jag har en bekännelse att göra. Jag är bagare, och jag har ätit för många av mina egna lussekatter. Det är ingen stor bekännelse, men det har tagit mig flera år att göra den.\n\nEn bagare börjar arbetet klockan fyra på morgonen. Man smakar på degen, man smakar på bullarna, och till slut har man smakat på allt. Under tjugo år har min buk vuxit långsamt men säkert. I december förra året stod jag bakom disken med en röd mössa på huvudet, och ett barn frågade sin mamma om jag var jultomten. Hennes mamma blev generad, men jag skrattade. Med den buken var jag ju lik jultomten.\n\nPå disken i bageriet står varje december en bössa där kunderna kan lägga pengar till barn som behöver hjälp. Det var min dotter Ida som satte upp bössan för många år sedan. Förra julen lade Ida också något i min hand: en kupong till ett gym. ”Tio gånger med en personlig tränare”, stod det på kupongen. Jag förstod vinken.\n\nTränaren hette Fatima. Hon var nätt och kort, och jag trodde inte att hon kunde lära mig något om styrka. Det trodde jag fel. Hennes armar var nätta, men när hon lyfte skivstången var hon starkare än jag. Hon förklarade att musklerna har olika slags fibrer. Vissa fibrer är uthålliga, andra är explosiva. ”De explosiva fibrerna använder du när du hoppar eller lyfter något snabbt”, sa hon. ”De försvinner först när man blir äldre, så dem ska vi träna.” Under tio veckor gjorde vi korta, explosiva övningar: hopp, lyft och snabba steg.\n\nDet jag uppskattade mest var att Fatima aldrig talade om att beröva mig något. Hon ville inte beröva en bagare hans lussekatter. ”Om man berövar sig allt man tycker om, ger man upp efter en månad”, sa hon. ”Ät en bulle. Men inte tio.”\n\nMin buk är fortfarande inte platt. Men jag kan bära säckar med mjöl upp för trappan utan att bli andfådd, och min rygg gör inte längre ont på morgonen.\n\nI år har jag slutit en sorts vapenvila med min kropp. Det är ingen fred, för vi är inte alltid överens, men det är en vapenvila. Kroppen får sin träning tre gånger i veckan, och jag får mina lussekatter på lördagar. Vapenvilan har hållit i ett år.\n\nBössan står på disken igen. I år lägger jag själv i en hundralapp varje vecka, som tack för kupongen jag fick av min dotter.\n\nFrågor:\nVilken bekännelse gör skribenten?\nHan bekänner att han som bagare har ätit för många av sina egna lussekatter.\nVarför frågade ett barn om bagaren var jultomten?\nHan hade en röd mössa på huvudet och en stor buk.\nVad stod det på kupongen från Ida?\nDet stod tio gånger med en personlig tränare.\nVilka fibrer i musklerna försvinner först när man blir äldre?\nDe explosiva fibrerna försvinner först.\nVarför ville Fatima inte beröva honom hans lussekatter?\nHon menade att den som berövar sig allt han tycker om ger upp efter en månad.\nVad innebär vapenvilan med kroppen?\nKroppen får träning tre gånger i veckan, och han får lussekatter på lördagar."
+    },
+    {
+      "title": "Vatten i kroppen",
+      "summary": "A columnist writes about how the body needs water in a heatwave, corrects the myth about camels, and praises a town council that put drinking fountains in the streets.",
+      "newWords": [
+        "kamel",
+        "sjöfart",
+        "cowboy",
+        "klimatfråga",
+        "koldioxidutsläpp",
+        "miljöpåverkan",
+        "kommunstyrelse",
+        "elfte"
+      ],
+      "text": "I somras hade vi elva dagar i rad med över 30 grader i min stad. På den elfte dagen satt jag på en parkbänk och tänkte på vatten. Inte på havet eller sjöarna, utan på vattnet i min egen kropp.\n\nUngefär 60 procent av en vuxen människas kropp består av vatten. Vi förlorar vatten hela tiden: när vi andas, när vi svettas och när vi går på toaletten. En varm dag kan en vuxen förlora flera liter. Om vi inte dricker, blir blodet tjockare, hjärtat får arbeta hårdare och huvudet börjar värka. Äldre människor känner ofta inte törst lika tydligt, och därför är värmen farligast för dem.\n\nMånga tror att kamelen har vatten i sin puckel. Det stämmer inte. Kamelens puckel består av fett. Kamelen klarar sig länge utan vatten av andra skäl: den svettas mycket lite, och dess blod tål att kroppen torkar ut mer än vårt. När en törstig kamel väl hittar vatten, kan den dricka 100 liter på några minuter. Ingen människa klarar det.\n\nI gamla filmer rider en cowboy genom öknen i dagar utan att dricka. Det är en fin bild, men den är inte sann. En riktig cowboy hade en flaska med vatten vid sadeln, och han visste var nästa brunn fanns. Även inom sjöfarten har vatten alltid varit en fråga om liv och död. När fartygen seglade över haven tog de med sig stora fat med vatten, och när vattnet tog slut på en lång resa, blev besättningen sjuk. I sjöfartens historia finns många sådana berättelser.\n\nI dag är vattnet också en klimatfråga. Somrarna blir varmare, och då behöver fler människor dricka mer. Samtidigt köper vi vatten på plastflaskor, som transporteras med lastbil över hela landet. Flaskvattnet har en tydlig miljöpåverkan: plasten ska tillverkas, och transporterna ger koldioxidutsläpp. Kranvattnet i Sverige är nästan alltid lika gott, och dess miljöpåverkan är mycket mindre.\n\nDärför blev jag glad när jag läste att kommunstyrelsen i min stad hade fattat ett beslut. Kommunstyrelsen ville sätta upp 20 dricksfontäner i parker och på torg. Det är en liten sak som kan minska både törst och koldioxidutsläpp. Den som har en flaska kan fylla den gratis, och den som har glömt sin kan dricka direkt.\n\nVattnet är kanske inte den största klimatfrågan, men det är den som känns närmast kroppen. Nästa gång det är varmt för elfte dagen i rad, tänker jag gå till en fontän, fylla min flaska och tacka kommunstyrelsen.\n\nFrågor:\nHur stor del av en vuxen människas kropp består av vatten?\nUngefär 60 procent av kroppen består av vatten.\nVad finns i kamelens puckel?\nKamelens puckel består av fett, inte av vatten.\nVad hade en riktig cowboy vid sadeln?\nEn riktig cowboy hade en flaska med vatten vid sadeln.\nVad hände inom sjöfarten när vattnet tog slut?\nBesättningen blev sjuk när vattnet tog slut på en lång resa.\nVarför har flaskvatten en tydlig miljöpåverkan?\nPlasten ska tillverkas, och transporterna ger koldioxidutsläpp.\nVad beslutade kommunstyrelsen?\nKommunstyrelsen beslutade att sätta upp 20 dricksfontäner i parker och på torg."
+    }
+  ]
+}

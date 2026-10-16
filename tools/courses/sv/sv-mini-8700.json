@@ -1,0 +1,213 @@
+{
+  "id": "sv-mini-8700",
+  "rankUpTo": 8700,
+  "level": "C2",
+  "title": "Reklam och kommunikation",
+  "description": "Ten standalone stories and columns about advertising and communication in Sweden, from a café newsletter and a pharmacy campaign to a neighbourhood chat group and plain-language letters from the municipality.",
+  "topic": "Advertising and communication",
+  "names": [
+    "Uppsala",
+    "Jonas",
+    "Jonas'",
+    "Västerås",
+    "Karin",
+    "Karins",
+    "Ola",
+    "Olas",
+    "Örebro",
+    "Stockholm",
+    "Sara",
+    "Saras",
+    "Sverige",
+    "Petra",
+    "Petras",
+    "Hanna",
+    "Hannas",
+    "Halland",
+    "Nils",
+    "Malmö",
+    "Amir",
+    "Amirs",
+    "Bo",
+    "Bos",
+    "Ingrid",
+    "Ingrids",
+    "Linköping",
+    "Leila",
+    "Leilas",
+    "Alva",
+    "Alvas",
+    "Dalarna",
+    "Erik",
+    "Eriks",
+    "Norrland",
+    "Försäkringskassan",
+    "Europa"
+  ],
+  "lessons": [
+    {
+      "title": "Det tolfte nyhetsbrevet",
+      "summary": "A café owner in Uppsala writes her twelfth monthly newsletter, with a photo shoot of a chocolate cake and stickers for her readers.",
+      "newWords": [
+        "nyhetsbrev",
+        "tolfte",
+        "drös",
+        "chokladkaka",
+        "mango",
+        "alkoholfri",
+        "fotografering",
+        "galant",
+        "klistermärke",
+        "jadu"
+      ],
+      "text": "Varje månad skickar jag ett nyhetsbrev till kunderna på mitt lilla kafé i Uppsala. I dag skriver jag det tolfte nyhetsbrevet, och det betyder att jag har hållit på i ett helt år. När jag började trodde jag att ingen skulle läsa det. Nu har jag en hel drös läsare, fler än jag någonsin vågade hoppas på, och varje vecka kommer det några till.\n\nEtt nyhetsbrev är en enkel form av reklam, men det känns inte som reklam när jag skriver det. Det känns mer som ett brev till en vän. Jag berättar vad som händer i köket, vilka kakor som är nya och vem i personalen som har fyllt år. Folk svarar ofta och berättar om sina egna favoriter. Det är kommunikation åt båda hållen, och det är just det jag tycker bäst om.\n\nDet tolfte numret handlar om sommarens meny. Huvudpersonen är en chokladkaka med mango. Kakan är mörk och tung, och mangon ger den en frisk, nästan solig smak. Bredvid chokladkakan vill jag visa vår nya alkoholfria dryck, en blandning av mango, citron och is. Vi har sålt alkoholfria drycker länge, men den här är den första som kunderna frågar efter med namn.\n\nPå förmiddagen har vi fotografering. Min kollega Jonas står för bilderna. Han ställer chokladkakan vid fönstret, där ljuset är mjukt, och flyttar glaset några centimeter åt gången. Fotograferingen tar nästan två timmar, och jag blir otålig. Men Jonas klarar uppgiften galant, som han alltid gör. När jag ser bilderna förstår jag varför fotograferingen tog så lång tid: kakan ser ut att glänsa i solen.\n\nSedan kommer klistermärkena. I varje nyhetsbrev finns en kod, och den som visar koden i kassan får ett klistermärke med kaféets logga. Barnen samlar klistermärken på sina vattenflaskor, och de vuxna sätter dem på datorn. Den här gången har jag beställt en drös nya klistermärken med en liten mango på. Jag hoppas att de tar slut lika fort som de förra.\n\nPå kvällen läser jag igenom texten en sista gång. Då ringer min mamma, som läser varje nyhetsbrev trots att hon bor långt bort.\n\n”Är det klart nu?” frågar hon.\n\n”Jadu, nästan”, svarar jag. ”Jag kan inte bestämma mig för rubriken.”\n\n”Skriv något om chokladkakan”, säger hon. ”Det är den alla vill läsa om.”\n\nJag skriver: ”Sommarens chokladkaka har kommit.” Sedan skickar jag brevet. Jadu, tänker jag, ett år har gått fort. Nästa morgon står de första kunderna i dörren med koden på mobilen. Alla vill ha ett klistermärke och en bit chokladkaka, och de flesta tar ett glas av den alkoholfria drycken också. Det tolfte numret klarade sig galant.\n\nFrågor:\nHur länge har kaféägaren skickat sitt nyhetsbrev?\nHon har skickat det i ett helt år, eftersom hon nu skriver det tolfte nyhetsbrevet.\nVarför tycker hon om att skriva nyhetsbrevet?\nDet känns som ett brev till en vän, och kunderna svarar och berättar om sina egna favoriter.\nVad handlar det tolfte numret om?\nDet handlar om sommarens meny, framför allt en chokladkaka med mango och en ny alkoholfri dryck.\nVarför tar fotograferingen så lång tid?\nJonas flyttar glaset några centimeter åt gången för att få bilderna perfekta.\nHur får kunderna ett klistermärke?\nDe visar koden från nyhetsbrevet i kassan."
+    },
+    {
+      "title": "Krämen på apoteket",
+      "summary": "A pharmacist helps a young copywriter write an honest advertisement for a hand cream and learns how strict the rules are.",
+      "newWords": [
+        "apotekare",
+        "kräm",
+        "osanning",
+        "inskränkning",
+        "oansvarigt",
+        "diarré",
+        "mottaglig",
+        "etiskt",
+        "överhängande"
+      ],
+      "text": "Karin har arbetat som apotekare i Västerås i tjugo år. I höstas fick hon ett ovanligt uppdrag. Apoteket hade tagit fram en egen kräm för torr hud, och ledningen ville göra reklam för den. Karin skulle hjälpa en reklambyrå med texterna, eftersom en apotekare vet vad en kräm kan och inte kan göra.\n\nDet första mötet var trevligt men lite förvirrande. Den unga textförfattaren Ola hade redan ett förslag: ”Krämen som botar allt.” Karin skakade på huvudet. ”Det är en osanning”, sa hon. ”En kräm kan lindra torr hud. Den botar ingenting annat.” Ola såg besviken ut, men han förstod. Han hade aldrig arbetat med apoteksvaror förut och visste inte att en osanning i en annons kan få allvarliga följder.\n\nKarin förklarade att reklam för apoteksvaror omfattas av en rad inskränkningar. Man får inte lova mer än produkten kan hålla, och man får inte skrämma folk. Den viktigaste inskränkningen gäller läkemedel, där reglerna är strängast av alla. Man får till exempel aldrig skriva som om en fara vore överhängande när den inte är det. ”Om vi säger att din hud är i fara, skrämmer vi människor”, sa hon. ”Och det vore oansvarigt. Den som har ont litar på det vi säger.”\n\nOla frågade om de kunde nämna fler produkter i samma kampanj, till exempel medel mot diarré, som apoteket sålde mycket av på sommaren när folk reste utomlands. Karin tvekade. Diarré är inget farligt i de flesta fall, men för små barn och äldre kan det bli allvarligt. Att göra en glad och skämtsam annons om diarré tyckte hon var att handla oansvarigt. Hon föreslog i stället en enkel lista med råd: drick mycket vatten, och kontakta vården om diarrén inte går över efter några dagar.\n\nSedan talade de om vem kampanjen skulle vända sig till. Ola hade läst att människor är som mest mottagliga för reklam om hudvård i november, när luften blir torr och kall. Karin höll med. Men hon visste också att vissa kunder är mer mottagliga än andra: den som är orolig köper gärna för mycket. ”Vi ska hjälpa folk att välja rätt, inte att köpa mer”, sa hon. ”Annars kan vi inte försvara kampanjen etiskt.”\n\nOla skrev ett nytt förslag: ”Mjuk hud hela vintern. Fråga oss om råd.” Karin läste det två gånger och log. Texten var sann, den lovade inga mirakel, och den gick att försvara etiskt.\n\nJust när de skulle avsluta mötet ringde chefen. Hon ville att kampanjen skulle starta redan veckan därpå, eftersom det fanns en överhängande risk att ett annat apotek skulle hinna före med en liknande kräm. Ola suckade, men Karin skrattade. ”Då vet vi åtminstone att kunderna kommer att vara mottagliga”, sa hon.\n\nFrågor:\nVarför skulle Karin hjälpa reklambyrån?\nHon är apotekare och vet vad en kräm kan och inte kan göra.\nVad var fel med Olas första förslag?\nDet var en osanning, eftersom krämen bara kan lindra torr hud och inte bota allt.\nVilka inskränkningar gäller för reklam om apoteksvaror?\nMan får inte lova mer än produkten kan hålla, och man får inte skrämma folk.\nVarför ville Karin inte göra en skämtsam annons om diarré?\nHon tyckte att det var oansvarigt, eftersom diarré kan bli allvarligt för små barn och äldre.\nVarför ville chefen starta kampanjen tidigt?\nDet fanns en överhängande risk att ett annat apotek skulle hinna före med en liknande kräm."
+    },
+    {
+      "title": "Skärmarna i köpcentret",
+      "summary": "A sign fitter replaces old light-bulb signs with screens in a shopping centre and asks for calmer films and bigger print.",
+      "newWords": [
+        "flygfält",
+        "glödlampa",
+        "köpcenter",
+        "uppgradering",
+        "skymma",
+        "snurrig",
+        "vibrera",
+        "pytteliten",
+        "skaft",
+        "luftrum"
+      ],
+      "text": "I tjugo år har jag satt upp skyltar åt ett företag som säljer reklamplats. Mina första skyltar satt på ett litet flygfält utanför Örebro. Det var stora lådor med glödlampor bakom en tunn skiva av plast. Varje vinter gick några glödlampor sönder, och då fick jag klättra upp med en stege och en kartong nya lampor. På flygfältet blåste det alltid, och jag minns hur kallt det var i händerna.\n\nNu arbetar jag mest i ett köpcenter i södra Stockholm. Köpcentret har tre våningar, fyrtio butiker och en lång rad skärmar där reklamen byts var tionde sekund. Den här veckan ska vi göra en stor uppgradering. De sista gamla skyltarna med glödlampor ska bort, och nya skärmar ska upp. Uppgraderingen sparar el, och ägarna kan byta budskap från en dator i stället för att skicka ut mig.\n\nFörsta dagen upptäcker jag ett problem. En av de nya skärmarna hänger bakom en pelare. Pelaren skymmer halva bilden, så att man bara ser en kvinna med ett öga och halva ordet ”REA”. Jag mäter och ritar. Om vi flyttar skärmen en meter åt vänster skymmer pelaren ingenting, och alla som kommer in genom entrén ser hela bilden.\n\nAndra dagen testar vi programmet. Skärmen visar en film med snurrande färger och blinkande pilar. Efter en minut blir jag snurrig. Jag säger det till Sara, som har gjort filmen. ”Om jag blir snurrig efter en minut, blir kunderna det också”, säger jag. Hon skrattar och lovar att göra filmen lugnare.\n\nSara visar också köpcentrets nya tjänst. När en kund som har köpcentrets app går förbi en skärm, vibrerar mobilen i fickan och ett erbjudande dyker upp. Jag tycker inte om när min telefon vibrerar utan att jag har bett om det, och jag säger det rakt ut. Sara förklarar att kunderna själva måste välja att telefonen ska vibrera. Det låter rimligare.\n\nSedan läser jag texten längst ner på varje erbjudande. Den är pytteliten. Man behöver nästan glasögon för att läsa den, även om man har bra syn. Sara förklarar att den pyttelilla texten innehåller villkoren. Jag tycker att villkoren förtjänar större bokstäver, och den här gången håller hon med.\n\nÄgarna har fler planer. Nästa år vill de visa reklam med drönare ovanför parkeringen. Men köpcentret ligger nära ett flygfält, och drönare får inte flyga i flygfältets luftrum utan tillstånd. Luftrummet runt ett flygfält är strängt kontrollerat, och jag tror inte att de får något tillstånd.\n\nTredje dagen ska de gamla skyltarna ner. Jag har en skruvmejsel med extra långt skaft som jag bara använder till just den här sortens skyltar. Skaftet är slitet efter alla år. Jag tar loss glödlamporna en efter en och lägger dem i en kartong. En enda glödlampa tar jag med mig hem. Den får ligga i en låda som ett minne av uppgraderingen och av alla vintrar på flygfältet.\n\nFrågor:\nVar satt mannens första skyltar?\nDe satt på ett litet flygfält utanför Örebro.\nVad ska hända vid uppgraderingen i köpcentret?\nDe gamla skyltarna med glödlampor ska bort, och nya skärmar ska upp.\nVilket problem upptäcker han första dagen?\nEn pelare skymmer halva bilden på en av skärmarna.\nVarför blir han snurrig?\nFilmen på skärmen har snurrande färger och blinkande pilar.\nVarför kan ägarna inte använda drönare över parkeringen?\nKöpcentret ligger nära ett flygfält, och drönare får inte flyga i dess luftrum utan tillstånd."
+    },
+    {
+      "title": "Kometen och vår fruktan",
+      "summary": "A science journalist reflects on a faint comet, on the old fear of comets since antiquity, and on why scientists and humanists need each other.",
+      "newWords": [
+        "komet",
+        "isberg",
+        "fruktan",
+        "antiken",
+        "kuslig",
+        "barbar",
+        "asteroid",
+        "språng",
+        "extraordinär",
+        "humanist"
+      ],
+      "text": "I våras syntes en komet på himlen över Sverige. Den var svag, och man behövde komma bort från stadens ljus för att se den. Ändå skrev tidningarna om den varje dag, och på sociala medier delade folk bilder av en ljus fläck med en lång, blek svans. Jag arbetar som journalist och skriver om vetenskap, och jag har sällan fått så många frågor från läsare.\n\nDe flesta frågorna handlade om fara. Kunde kometen träffa jorden? Var den farlig för oss? Jag svarade att kometen var mycket långt borta och att den inte var något hot. En komet är, förenklat, ett smutsigt isberg som färdas runt solen. När den kommer nära solen värms isen upp, och då bildas svansen. Bilden av ett isberg i rymden brukar lugna folk. Ett isberg är något man kan föreställa sig, och det har inga avsikter.\n\nFruktan för kometer är gammal. Under antiken trodde många att en komet var ett tecken från gudarna, och ofta ett kusligt tecken. Den kunde betyda krig, sjukdom eller en kungs död. Författare under antiken beskrev hur folk gick ut på natten och stirrade upp mot det kusliga ljuset. Grekerna kallade alla som inte talade grekiska för barbarer, men i sin fruktan för himlens tecken var greker och så kallade barbarer ganska lika. Ordet barbar säger ofta mer om den som använder det än om den det gäller.\n\nI dag oroar sig fler för asteroider än för kometer. En asteroid är en klippa av sten eller metall, och vissa asteroider passerar ganska nära jorden. Forskare följer dem noga och kan räkna ut deras banor många år framåt. När jag skriver om asteroider försöker jag vara ärlig utan att skrämma. Risken att en stor asteroid träffar jorden under vår livstid är mycket liten.\n\nDet som slår mig är vilket språng vi har tagit. Från antikens kusliga tecken till dagens noggranna beräkningar är steget enormt. Det är ett extraordinärt språng, och det har tagit mer än två tusen år. Ändå finns den gamla fruktan kvar någonstans i oss, och den vaknar varje gång en ny komet syns på himlen.\n\nMin vän Petra är humanist. Hon forskar i grekisk litteratur och läser texter från antiken på originalspråket. När vi diskuterar kometen säger hon att humanister och naturvetare behöver varandra. ”Ni förklarar vad kometen är”, säger hon. ”Vi förklarar varför människor blir rädda.” Jag tror att hon har rätt. Som journalist behöver jag båda delarna: fakta om asteroider och kometer, och förståelse för människors fruktan.\n\nDet var en extraordinär vår. En svag komet fick tusentals människor att stanna och titta upp. Kanske är det den bästa sortens kommunikation: när något får oss att se upp från mobilen och undra.\n\nFrågor:\nVarför fick journalisten så många frågor i våras?\nEn komet syntes på himlen, och många läsare var oroliga för att den var farlig.\nHur förklarar journalisten vad en komet är?\nHan säger att en komet är ett smutsigt isberg som färdas runt solen.\nVad trodde människor under antiken om kometer?\nDe trodde att en komet var ett kusligt tecken från gudarna, som kunde betyda krig eller sjukdom.\nVad är skillnaden mellan en komet och en asteroid?\nEn komet är mest is, medan en asteroid är en klippa av sten eller metall.\nVarför behöver humanister och naturvetare varandra, enligt Petra?\nNaturvetarna förklarar vad kometen är, och humanisterna förklarar varför människor blir rädda."
+    },
+    {
+      "title": "Biogasen i byn",
+      "summary": "A communications officer at an energy company listens to a divided village before a biogas plant is built and wins the villagers back.",
+      "newWords": [
+        "biogas",
+        "oense",
+        "skorsten",
+        "djupgående",
+        "iakttagelse",
+        "sammanhållning",
+        "tillfalla",
+        "gehör",
+        "inkomstkälla",
+        "vidareutveckla"
+      ],
+      "text": "Hanna arbetar med kommunikation på ett litet energibolag i Halland. I somras fick hon ansvar för ett svårt projekt. Bolaget ville bygga en anläggning för biogas utanför en by med 400 invånare. Biogas tillverkas av avfall från jordbruk och kök, och den kan användas som bränsle i bussar och bilar.\n\nRedan första veckan märkte Hanna att byborna var oense. Några tyckte att biogas var en bra idé för klimatet. Andra var oroliga för lukt och trafik. Många var rädda för en hög skorsten som skulle synas från hela dalen. På ett möte i byns samlingslokal blev stämningen spänd. Grannar som brukade hjälpa varandra satt plötsligt i olika delar av salen, och de som var oense talade inte längre med varandra.\n\nHanna förstod att en vanlig broschyr inte skulle räcka. Hon ville ha djupgående samtal, inte bara information. Hon bjöd in tio personer i taget till kaffe och lät dem tala till punkt. Varje kväll skrev hon ner sina iakttagelser. En iakttagelse var att folk inte var emot biogas i sig. De var rädda att byns sammanhållning skulle gå förlorad. En annan iakttagelse var att ingen hade frågat dem vad de själva ville ha.\n\nHanna tog med sig sina iakttagelser till ledningen och föreslog tre ändringar. Skorstenen skulle bli lägre och målas grön, så att den smälte in bland träden. Lastbilarna skulle köra en annan väg, utanför byn. Och en del av vinsten skulle tillfalla byn. Pengarna som tillföll byn skulle gå till skolan och samlingslokalen.\n\nTill Hannas förvåning fick förslagen gehör. Ledningen hade först tyckt att de var för dyra, men efter de djupgående samtalen förstod de att det skulle kosta mer att bygga mot byns vilja. Även byborna gav Hanna gehör när hon kom tillbaka med de nya planerna. De såg att hon hade lyssnat.\n\nNågra bönder såg dessutom en ny inkomstkälla. De kunde sälja avfall från sina djur till anläggningen. För en ung bonde, Nils, blev det en viktig inkomstkälla ett år när mjölkpriset var lågt. ”Det är inte mycket”, sa han, ”men en extra inkomstkälla gör skillnad för en liten gård.”\n\nNu ska bolaget vidareutveckla idén. De vill vidareutveckla anläggningen så att den också kan ta emot matrester från skolor i hela kommunen. Hanna ska fortsätta med samtalen. Hon har lärt sig att god kommunikation inte handlar om att övertyga, utan om att lyssna först och tala sedan.\n\nPå det senaste mötet satt grannarna tillsammans igen. De var fortfarande oense om en del saker, till exempel om skorstenens färg, men sammanhållningen var tillbaka.\n\nFrågor:\nVarför var byborna oense om biogasen?\nNågra tyckte att den var bra för klimatet, medan andra var oroliga för lukt, trafik och en hög skorsten.\nVad gjorde Hanna i stället för att dela ut en broschyr?\nHon bjöd in tio personer i taget till djupgående samtal och lät dem tala till punkt.\nVilken viktig iakttagelse gjorde hon?\nHon såg att folk var rädda att byns sammanhållning skulle gå förlorad.\nVad skulle de pengar som tillföll byn användas till?\nDe skulle gå till skolan och samlingslokalen.\nVarför blev anläggningen en inkomstkälla för Nils?\nHan kunde sälja avfall från sina djur till anläggningen när mjölkpriset var lågt."
+    },
+    {
+      "title": "Klubbens kanaler",
+      "summary": "The volunteer who runs a martial arts club's social media films its unbeaten star, warns children not to copy moves at home and calmly reports an injury.",
+      "newWords": [
+        "kampsport",
+        "obesegrad",
+        "snabbhet",
+        "manöver",
+        "imitera",
+        "ryta",
+        "kroppslig",
+        "meditation",
+        "medvetslös",
+        "akutmottagning",
+        "återhämtning"
+      ],
+      "text": "Jag sköter kommunikationen för en liten klubb för kampsport i Malmö. Varje vecka lägger jag ut bilder, korta filmer och nyheter på klubbens kanaler. Vi har mest unga medlemmar, och många av dem kom till kampsporten efter att ha sett våra filmer på nätet.\n\nKlubbens stjärna heter Amir. Han är 22 år och har varit obesegrad i sin viktklass i tre år. Att vara obesegrad så länge är ovanligt, och folk vill gärna se honom tävla. Det som imponerar mest är hans snabbhet. I mina filmer spelar jag ofta upp en enda manöver långsamt, så att man ser hur den går till. Sedan visar jag samma manöver i vanlig takt, och först då syns hans snabbhet.\n\nProblemet är att barnen vill imitera allt de ser. Efter en film om en ny manöver kom flera föräldrar fram och berättade att barnen hade försökt imitera den på det hårda golvet i vardagsrummet. Därför skriver jag numera under varje film: ”Testa inte hemma. Träna med en tränare.” Vår tränare Bo kan ryta högt när någon gör något farligt på mattan, och barnen lyssnar när han ryter. Men hemma finns ingen som ryter.\n\nKampsport handlar inte bara om kroppslig styrka. Varje träning slutar med tio minuters meditation. Barnen ligger på rygg och andas, och Bo talar lugnt och lågt. Meditationen är en del av klubbens idé: kampsport ska ge både kroppslig och mental balans. När jag lade ut en film om vår meditation fick den fler visningar än någon tävling.\n\nI våras hände något som jag var tvungen att informera om. En pojke föll illa på träningen och slog i huvudet. Han var inte medvetslös, men han var yr, och Bo körde honom till akutmottagningen. Där undersökte läkarna honom, och han fick åka hem samma kväll. Ryktet spred sig ändå snabbt. Någon skrev att pojken hade varit medvetslös i flera minuter, vilket inte var sant.\n\nJag skrev ett kort och lugnt inlägg. Jag berättade vad som hade hänt, att pojken mådde bra och att han hade åkt till akutmottagningen för säkerhets skull. Jag skrev också om vikten av återhämtning efter en skada. Pojken skulle vila i två veckor innan han fick träna igen. Föräldrarna tackade för att vi var öppna och inte försökte dölja något.\n\nAmir hjälpte till. Han spelade in en film där han berättade om sin egen återhämtning efter en skada för några år sedan. ”Snabbhet är ingenting värd om man inte tar hand om kroppen”, sa han i filmen. Den blev klubbens mest delade någonsin. Nu är pojken tillbaka på mattan, och Amir är fortfarande obesegrad.\n\nFrågor:\nVad är det som imponerar mest hos Amir?\nDet är hans snabbhet, som syns när man ser en manöver i vanlig takt.\nVarför skriver berättaren ”Testa inte hemma” under filmerna?\nBarnen vill imitera allt de ser, och hemma finns ingen tränare som ryter när det blir farligt.\nHur slutar varje träning?\nVarje träning slutar med tio minuters meditation.\nVad hände med pojken som slog i huvudet?\nHan var yr men inte medvetslös, och tränaren körde honom till akutmottagningen.\nVad handlade Amirs film om?\nDen handlade om hans egen återhämtning efter en skada."
+    },
+    {
+      "title": "Chattgruppen i villaområdet",
+      "summary": "The administrator of a neighbourhood chat group keeps rumours about a burglar in check until the police report that the clumsy thief has turned himself in.",
+      "newWords": [
+        "inbrottstjuv",
+        "framfart",
+        "mållös",
+        "säkerhetspolis",
+        "bestraffning",
+        "underrättelse",
+        "räckhåll",
+        "älta",
+        "klantig",
+        "självmant"
+      ],
+      "text": "Ingrid är administratör för en chattgrupp i ett villaområde i Linköping. Gruppen har 300 medlemmar. Oftast handlar inläggen om borttappade katter, loppisar och snö som behöver skottas. Men en vecka i november handlade nästan allt om en inbrottstjuv.\n\nDet började med att en familj kom hem från en resa och upptäckte att någon hade varit i deras garage. En cykel och några verktyg var borta. Familjen skrev om det i gruppen, och inom en timme hade inlägget hundra kommentarer. Folk skrev om tjuvens framfart i området, trots att ingen visste om det var en eller flera inbrottstjuvar. Någon påstod att det var det tionde inbrottet på en månad. Andra skrev att tjuvens framfart måste stoppas med alla medel.\n\nIngrid läste kommentarerna och blev nästan mållös. En man föreslog att man skulle kontakta säkerhetspolisen. Ingrid förklarade vänligt att en säkerhetspolis arbetar med hot mot hela landet, inte med stulna cyklar, och att det var den vanliga polisen som skulle ha en anmälan. En kvinna skrev att inbrottstjuven borde få en hård bestraffning inför alla grannar. Ingrid svarade att bestraffning är domstolens sak, inte en chattgrupps.\n\nNästa dag kom en underrättelse från polisen. I underrättelsen stod att polisen hade fått tre anmälningar om inbrott i garage i området under hösten, inte tio. Polisen gav också enkla råd: lås garaget, och lämna aldrig nycklar inom räckhåll för främlingar, till exempel under en blomkruka vid dörren. Ingrid delade underrättelsen och skrev att det var den bästa information gruppen hade fått på länge.\n\nMen många fortsatte att älta saken. De ältade varje ljud på natten och varje okänd bil på gatan. Ingrid förstod att folk var rädda, men hon visste också att ältandet gjorde rädslan större. Hon skrev en vänlig påminnelse: dela fakta, inte rykten.\n\nEfter en vecka kom en ny underrättelse. Inbrottstjuven var en ung man från en grannstad, och han hade varit ganska klantig. Han hade tappat sitt busskort i det första garaget, med namn och bild. Den klantiga tjuven hade sedan gått till polisen självmant och berättat allt. Han hade också självmant lämnat tillbaka cykeln.\n\nIngrid skrev ett sista inlägg om saken. Hon tackade alla som hade delat fakta och påminde om att förvara nycklar utom räckhåll. Hon bad också dem som hade spridit rykten att självmant ta bort sina inlägg. Flera gjorde det. Några veckor senare kom snön, och gruppen handlade åter om skottning och borttappade katter. Ingrid var glad för det.\n\nFrågor:\nVad hände familjen som kom hem från en resa?\nNågon hade varit i deras garage och tagit en cykel och några verktyg.\nVarför blev Ingrid nästan mållös?\nHon läste hundra kommentarer om tjuvens framfart, och många av dem byggde på rykten.\nVarför skulle man inte kontakta säkerhetspolisen?\nEn säkerhetspolis arbetar med hot mot hela landet, inte med stulna cyklar.\nVilka råd gav polisen i sin underrättelse?\nMan skulle låsa garaget och aldrig lämna nycklar inom räckhåll för främlingar.\nVarför kallas tjuven klantig?\nHan hade tappat sitt busskort med namn och bild i det första garaget."
+    },
+    {
+      "title": "En arbetsvecka på byrån",
+      "summary": "In a diary of one working week, a copywriter adapts a Czech glassmaker's campaign for Sweden and refuses to bend the rules.",
+      "newWords": [
+        "arbetsvecka",
+        "tjeckisk",
+        "engelskspråkig",
+        "dipp",
+        "simulera",
+        "kringgå",
+        "urholka",
+        "uppvakta",
+        "salig",
+        "obeskrivlig"
+      ],
+      "text": "Måndag\n\nEn ny arbetsvecka börjar på reklambyrån. Den här arbetsveckan ska jag ägna åt en enda kund: en tjeckisk tillverkare av glas som vill börja sälja i Sverige. Företaget har funnits i 150 år och är känt i hela Europa, men nästan ingen här har hört talas om det. Min uppgift är att skriva texterna till den första kampanjen. Jag läser om företagets historia hela förmiddagen och dricker för mycket kaffe.\n\nTisdag\n\nI dag har vi möte med kunden på video. Mötet hålls på engelska, eftersom ingen av oss kan kundens språk. Den tjeckiske direktören är vänlig och noggrann. Företaget har redan gjort en engelskspråkig broschyr, och han vill att vi bara översätter den. Jag förklarar att en engelskspråkig text sällan fungerar direkt på svenska. Svenska läsare vill ha korta meningar och färre stora ord. Direktören lyssnar, antecknar och nickar.\n\nOnsdag\n\nVår analytiker visar siffror. Försäljningen av glas i Sverige hade en dipp förra året, men nu ökar den igen. Dippen berodde enligt henne på höga elpriser, när folk köpte mindre till hemmet. Hon har också simulerat kampanjen i ett program. Programmet simulerar hur många som ser en annons och hur många som sedan klickar. Jag litar inte helt på sådana siffror, men det är spännande att se en simulerad framtid, och de visar att vi borde börja före jul.\n\nTorsdag\n\nEtt svårt samtal. Kunden vill att vi ska kringgå reglerna för hur man får använda ordet ”handgjord”. En del av glasen görs nämligen i maskin. Jag säger nej. Om vi kringgår reglerna nu, urholkar vi förtroendet för varumärket på sikt. Förtroende urholkas långsamt, men det byggs upp ännu långsammare. Direktören tänker en stund och håller sedan med. Vi skriver ”handgjord” bara om de glas som faktiskt är det, och för de andra skriver vi om formen och färgen.\n\nFredag\n\nI dag fyller min kollega Leila femtio år, och vi uppvaktar henne på morgonen med tårta och blommor. Hon har själv uppvaktat oss alla på våra födelsedagar i tio år, så nu är det hennes tur. Hon ser salig ut när vi sjunger, och hon tar två bitar tårta. Efter lunch kommer ett mejl från den tjeckiske direktören. Han har läst mina texter och skriver att de är obeskrivligt bra. Det är ett stort ord för några rader om glas, men glädjen är obeskrivlig. Jag går hem salig efter en lång arbetsvecka och tänker inte på jobbet förrän på måndag.\n\nFrågor:\nVem är kunden den här arbetsveckan?\nKunden är en tjeckisk tillverkare av glas som vill börja sälja i Sverige.\nVarför kan byrån inte bara översätta den engelskspråkiga broschyren?\nEn engelskspråkig text fungerar sällan direkt på svenska, eftersom svenska läsare vill ha korta meningar.\nVad berodde dippen i försäljningen på?\nDen berodde på höga elpriser, när folk köpte mindre till hemmet.\nVarför vill berättaren inte kringgå reglerna?\nOm de kringgår reglerna urholkar de förtroendet för varumärket på sikt.\nHur uppvaktar kollegorna Leila?\nDe uppvaktar henne med tårta och blommor och sjunger för henne."
+    },
+    {
+      "title": "Fem annonser",
+      "summary": "An aunt helps her eleven-year-old niece with homework about five advertisements, from beef burgers to a poster for the botanical garden.",
+      "newWords": [
+        "systerdotter",
+        "nötkött",
+        "uns",
+        "snorunge",
+        "åkare",
+        "botanisk",
+        "ål"
+      ],
+      "text": "Min systerdotter Alva går i femte klass. Förra veckan fick hon en läxa i svenska: hon skulle samla fem annonser och förklara hur de försöker övertyga läsaren. Hon ringde mig, eftersom jag har arbetat med reklam i många år. ”Kan du hjälpa mig?” frågade hon. Klart att jag kunde. Det är inte varje dag ens systerdotter ber om hjälp med något man faktiskt kan.\n\nVi började vid köksbordet med en hög tidningar. Den första annonsen gällde hamburgare. ”Hundra procent svenskt nötkött”, stod det med stora bokstäver. Alva undrade varför de skrev nötkött och inte bara kött. Jag förklarade att nötkött låter mer exakt och därför mer pålitligt. Ordet svenskt ska få läsaren att tänka på gröna hagar och nöjda kor.\n\nDen andra annonsen gällde en dryck för barn. ”Inte ett uns socker”, stod det. Alva visste inte vad ett uns var. Jag berättade att uns är en gammal enhet för vikt, och att uttrycket inte ett uns betyder inte det minsta. Sedan läste vi vad drycken innehöll. Det fanns mycket riktigt inte ett uns socker, men däremot konstgjort sötningsmedel. Alva skrev noga ner det i sitt block.\n\nDen tredje var en film på nätet. En pojke gnäller i en affär tills föräldrarna köper ett stort paket godis. ”Han är en riktig snorunge”, sa Alva. Jag skrattade, för hon hade rätt. Filmen visade en snorunge som fick som han ville. Vi pratade om vad filmen lär de barn som ser den. Alva tyckte att den lär dem att gnälla. Kanske var tanken att föräldrarna skulle känna igen sin egen snorunge och le.\n\nDen fjärde annonsen gällde ett långt skidlopp i Dalarna. På bilden åkte hundratals åkare i spåret, och texten lovade att alla åkare som kommer i mål får en medalj. Alva tyckte att den var ärlig, eftersom det faktiskt stämmer. ”Den här ljuger inte”, sa hon.\n\nDen femte hittade vi på en affisch vid busshållplatsen. Den botaniska trädgården hade en ny utställning om växter från regnskogen. Affischen visade en enda röd blomma mot en svart bakgrund, och nästan ingen text. Alva tyckte att det var den bästa annonsen. ”Man blir nyfiken”, sa hon. Vi bestämde oss för att besöka den botaniska trädgården på lördagen.\n\nTill sist pratade vi om säljare som talar mycket utan att säga något. Min mamma brukade kalla dem hala som ålar. Alva visste inte att en ål är en fisk, lång och smal och nästan omöjlig att hålla i handen. När hon förstod skrattade hon. En hal ål är svår att få grepp om, och det är en säljare som aldrig svarar rakt på en fråga också.\n\nFrågor:\nVad skulle Alva göra i sin läxa?\nHon skulle samla fem annonser och förklara hur de försöker övertyga läsaren.\nVarför skrev annonsen nötkött och inte bara kött?\nNötkött låter mer exakt och därför mer pålitligt.\nVad betyder uttrycket inte ett uns?\nDet betyder inte det minsta.\nVarför kallade Alva pojken i filmen en snorunge?\nHan gnällde i affären tills föräldrarna köpte godis.\nVarför tyckte Alva bäst om affischen för den botaniska trädgården?\nDen visade bara en röd blomma och nästan ingen text, så man blev nyfiken."
+    },
+    {
+      "title": "Klarspråk i kommunen",
+      "summary": "A municipal communications officer in Norrland rewrites official letters in plain Swedish and tries to stop new letters from slipping back into old bureaucratic language.",
+      "newWords": [
+        "socialbidrag",
+        "författning",
+        "sjukpenning",
+        "inkalla",
+        "mögel",
+        "kravall",
+        "återfall"
+      ],
+      "text": "Erik arbetar med kommunikation på en kommun i Norrland. Hans viktigaste uppgift är varken reklam eller pressmeddelanden. Det är att skriva om kommunens brev så att vanliga människor förstår dem. Kommunen tar emot tusentals frågor varje år från invånare som inte har förstått vad ett brev betyder, och varje sådan fråga kostar tid för både invånaren och personalen.\n\nHan började med breven om socialbidrag. I lagen heter det ekonomiskt bistånd, men de flesta säger socialbidrag, och Erik bestämde sig för att använda båda orden. De gamla breven om socialbidrag var långa och fulla av hänvisningar till lagar och paragrafer. En enda mening kunde ha 60 ord. Erik strök allt som inte var nödvändigt och skrev en mening för varje sak som mottagaren behövde veta.\n\nHänvisningarna till lagen fick stå kvar längst ner, i en ruta för den som vill läsa mer. Där stod ordet författning. Inom juridiken betyder en författning en lag eller en förordning, men många läsare tänker bara på landets grundlag eller på en person som skriver böcker. Erik lade därför till en förklaring: ”En författning är en regel som staten har beslutat.”\n\nNästa brev gällde sjukpenning. Många invånare trodde att det var kommunen som betalade ut sjukpenning. Men sjukpenning betalas av Försäkringskassan, inte av kommunen. Erik skrev det i första meningen, med stora bokstäver, och lade till att den som inte har rätt till sjukpenning i vissa fall kan söka socialbidrag.\n\nSedan kom breven där invånare inkallades till möten. ”Ni inkallas härmed till sammanträde”, stod det. Erik påpekade att ordet inkalla får många att tänka på det militära, där unga män förr inkallades till tjänst. Han skrev i stället: ”Välkommen till ett möte.” Antalet som kom till mötena ökade.\n\nEtt annat brev gick till hyresgäster i kommunens bostäder. Där stod det om ”fuktskador med påväxt av organismer”. Erik skrev ”mögel”. Alla vet vad mögel är, och den som ser mögel i badrummet vet då genast vad brevet handlar om och vad man ska göra.\n\nIbland måste han skriva snabbt. Förra vintern blev det kravaller i centrum efter en hockeymatch. Några fönster krossades, och kommunen behövde informera om avstängda gator. Erik skrev korta meddelanden: vad som hade hänt, vilka gator som var stängda och när de skulle öppnas igen. Efter kravallerna fick han beröm för att informationen var tydlig och lugn.\n\nDet svåraste är att undvika återfall. Efter några månader börjar nya brev åter bli långa och krångliga. Erik kallar det ett återfall i gammal kanslisvenska. Varje gång han ser ett sådant återfall tar han en kopp kaffe med den som har skrivit brevet, och sedan skriver de om det tillsammans.\n\nFrågor:\nVad är Eriks viktigaste uppgift?\nHans viktigaste uppgift är att skriva om kommunens brev så att vanliga människor förstår dem.\nVad gjorde Erik med de långa breven om socialbidrag?\nHan strök allt som inte var nödvändigt och skrev en mening för varje sak.\nVem betalar ut sjukpenning?\nSjukpenning betalas av Försäkringskassan, inte av kommunen.\nVarför ville Erik inte använda ordet inkalla?\nOrdet får många att tänka på det militära, där unga män förr inkallades till tjänst.\nVad menar Erik med ett återfall?\nHan menar att nya brev åter blir långa och krångliga, som i gammal kanslisvenska."
+    }
+  ]
+}
