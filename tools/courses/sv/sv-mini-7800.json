@@ -1,0 +1,201 @@
+{
+  "id": "sv-mini-7800",
+  "rankUpTo": 7800,
+  "level": "C1",
+  "title": "Stat och medborgare",
+  "description": "Ten standalone texts about Swedish public life: government websites, the central bank, the monarchy, minorities, religious freedom, a court case, a water crisis, the right of public access, a mussel farm and public art.",
+  "topic": "State and citizens",
+  "names": [
+    "Riksbanken",
+    "Sverige",
+    "Sveriges",
+    "Bernadotte",
+    "Jean",
+    "Baptiste",
+    "Carl",
+    "Gustaf",
+    "XVI",
+    "Sofia",
+    "Sofias",
+    "Lindqvist",
+    "Uppsala",
+    "Vasa",
+    "Finland",
+    "Finlands",
+    "Västerås",
+    "Småland",
+    "Norrbotten",
+    "Maja",
+    "Majas",
+    "Berg",
+    "Orust",
+    "Theo",
+    "Theos"
+  ],
+  "lessons": [
+    {
+      "title": "Sju flikar och en bilaga",
+      "summary": "A columnist describes how a government website confused her when she tried to report her daughter's move, and asks for more clarity.",
+      "newWords": [
+        "krönikör",
+        "scrolla",
+        "flik",
+        "bilaga",
+        "åtkomst",
+        "förvirra",
+        "tydlighet",
+        "binär",
+        "besvära",
+        "artig"
+      ],
+      "text": "Som krönikör får jag många mejl från läsare. Ofta handlar de om små saker i vardagen som besvärar dem. Den här veckan tänkte jag i stället skriva om något som besvärar mig själv, nämligen myndigheternas webbplatser.\n\nI måndags skulle jag anmäla att min dotter hade flyttat hemifrån. Det borde vara enkelt, tänkte jag. Jag loggade in och kom till en sida med sju flikar. Varje flik hade ett namn som lät nästan likadant som de andra: ”Mina uppgifter”, ”Mina ärenden” och ”Mina handlingar”. Jag klickade på den första fliken och började scrolla. Jag scrollade länge, men hittade ingenting om flytt. Sedan öppnade jag nästa flik och scrollade igen.\n\nEfter en halvtimme hittade jag rätt formulär. Där stod det att jag måste skicka med en bilaga, ett intyg från min dotters hyresvärd. Jag fotograferade intyget med mobilen, men systemet ville inte ta emot bilagan. ”Fel format”, stod det med röda bokstäver.\n\nTill slut ringde jag till myndighetens kundtjänst. Kvinnan som svarade var mycket artig. Hon lyssnade lugnt och förklarade sedan att jag inte hade åtkomst till min dotters uppgifter, eftersom min dotter är vuxen. Antingen måste hon själv ge mig åtkomst, eller så måste hon göra anmälan själv. Det var förstås rimligt. Men varför stod det ingenstans på sidan?\n\nDet är inte tekniken som förvirrar mig. Det som förvirrar mig är språket och ordningen. Datorer tänker binärt, med ettor och nollor, ja eller nej. Men människors liv är sällan binära. Min dotter har flyttat, men en del av hennes saker står kvar i hennes gamla rum. Formuläret hade bara två rutor, ”bor kvar” och ”har flyttat”, och ingen av dem stämde riktigt.\n\nJag tror inte att någon på myndigheten vill förvirra medborgarna. Tvärtom. Men tydlighet är svårare än man tror. Tydlighet betyder att man tänker på den som läser, inte på den som skriver. En sida med sju flikar är kanske logisk för den som har byggt den, men inte för en trött mamma en måndag på kvällen.\n\nPå kvällen gjorde min dotter anmälan själv. Det tog henne fem minuter, i mobilen, och hon behövde knappt scrolla alls. Hon var artig nog att inte skratta åt mig.\n\nMitt förslag till myndigheterna är därför enkelt: färre flikar, mer tydlighet och en artig röst i telefonen för oss som ändå går vilse.\n\nFrågor:\nVad ville krönikören anmäla?\nHon ville anmäla att hennes dotter hade flyttat hemifrån.\nVad hände när hon skickade bilagan?\nSystemet ville inte ta emot bilagan, och det stod ”Fel format” med röda bokstäver.\nVarför hade krönikören inte åtkomst till dotterns uppgifter?\nHon hade inte åtkomst eftersom dottern är vuxen och själv måste ge henne åtkomst.\nVarför passade formuläret inte för dotterns liv?\nFormuläret var binärt och hade bara två rutor, men dottern hade flyttat och ändå kvar en del saker hemma.\nVad betyder tydlighet enligt krönikören?\nTydlighet betyder att man tänker på den som läser, inte på den som skriver."
+    },
+    {
+      "title": "Varför har vi en centralbank?",
+      "summary": "A short explanatory text on what a central bank does, why it raised interest rates in 2022, and the debate about its independence.",
+      "newWords": [
+        "centralbank",
+        "korthet",
+        "eftersträva",
+        "konsistens",
+        "skärpning",
+        "underminera",
+        "auktoritär",
+        "lönt",
+        "trubbel",
+        "snudd"
+      ],
+      "text": "De flesta människor tänker sällan på landets centralbank. Ändå påverkar den nästan allt vi köper och allt vi lånar. I Sverige heter centralbanken Riksbanken, och den är en av de äldsta i världen.\n\nI korthet har en centralbank två uppgifter. Den ska hålla priserna stabila, och den ska se till att betalningarna i samhället fungerar. Riksbanken eftersträvar en inflation på 2 procent om året. Man kan fråga sig varför den inte eftersträvar noll. Svaret är att en liten, jämn ökning av priserna är lättare för ekonomin att leva med än priser som ibland stiger och ibland sjunker.\n\nDet viktigaste verktyget är räntan. När priserna stiger för snabbt höjer centralbanken räntan, så att det blir dyrare att låna och folk köper mindre. Hösten 2022 var inflationen i Sverige snudd på 10 procent. Många hushåll hamnade i trubbel, eftersom maten, elen och hyran blev dyrare samtidigt. Riksbanken svarade med en skärpning av sin politik och höjde räntan flera gånger. Skärpningen var tung för den som hade stora lån, men efter ett par år var inflationen snudd på tillbaka vid målet.\n\nEn centralbank behöver också något som inte syns i några siffror: förtroende. Förtroende bygger på konsistens. Om banken säger en sak i dag och gör något helt annat i morgon, slutar folk att tro på den. Därför förklarar Riksbanken noga varför den gör som den gör, och den försöker visa samma konsistens år efter år.\n\nI Sverige är centralbanken självständig. Det betyder att regeringen inte får bestämma räntan. Tanken är att politiker gärna vill sänka räntan före ett val, även när det skulle skada ekonomin på lång sikt. Om de fick bestämma, skulle det kunna underminera bankens förtroende. I auktoritära stater är det ofta så: ledaren styr centralbanken, och när ekonomin hamnar i trubbel kan han trycka nya pengar. I flera auktoritära länder har det lett till att pengarna nästan har förlorat sitt värde.\n\nMen det finns också kritik. Några menar att det inte är demokratiskt att så viktiga beslut fattas av personer som ingen har röstat på. Andra svarar att riksdagen ju har skrivit lagen och kan ändra den. Frågan är alltså inte om demokratin har makt över banken, utan hur nära den makten ska vara.\n\nÄr det lönt att ha en självständig centralbank? De flesta ekonomer svarar ja, så länge banken är öppen med vad den gör. Ett förtroende som har tagit hundra år att bygga kan man underminera på en enda vecka, och det är sällan lönt att ta den risken.\n\nFrågor:\nVilka två uppgifter har en centralbank, i korthet?\nDen ska hålla priserna stabila och se till att betalningarna i samhället fungerar.\nVilken inflation eftersträvar Riksbanken?\nRiksbanken eftersträvar en inflation på 2 procent om året.\nVarför hamnade många hushåll i trubbel hösten 2022?\nInflationen var snudd på 10 procent, och maten, elen och hyran blev dyrare samtidigt.\nVarför är konsistens viktig för en centralbank?\nFörtroende bygger på konsistens, och utan den slutar folk att tro på banken.\nVad kan hända i auktoritära stater?\nLedaren styr centralbanken och kan trycka nya pengar, så att pengarna förlorar sitt värde."
+    },
+    {
+      "title": "Kungen som inte bestämmer",
+      "summary": "An essay on the Swedish monarchy under the constitution: the royal family's origin, its place in the spotlight and the debate about keeping it.",
+      "newWords": [
+        "konstitution",
+        "ätt",
+        "ättling",
+        "uråldrig",
+        "uppkomst",
+        "parentes",
+        "patriot",
+        "rampljus",
+        "förlovad",
+        "ämna"
+      ],
+      "text": "Sverige är ett av få länder i världen som har både en kung och en demokrati. Hur går det ihop? Svaret finns i landets konstitution, det vill säga grundlagarna, som bestämmer hur makten fördelas.\n\nMonarkin är en uråldrig institution. Ingen vet säkert när det svenska riket fick sin första kung, och forskarna diskuterar fortfarande rikets uppkomst. Om rikets uppkomst vet man alltså ganska lite. Det man vet är att kungarna länge hade stor makt. De förde krig och bestämde lagar.\n\nDen nuvarande kungafamiljen tillhör ätten Bernadotte. Ätten kom till Sverige 1810, när en fransk general valdes att bli Sveriges nästa kung. Han hette Jean Baptiste Bernadotte och kunde inte ett ord svenska. Kung Carl XVI Gustaf är hans ättling i sjätte led, och hela familjen är ättlingar till denne fransman. Det är en ganska märklig historia för en ätt som i dag ses som så svensk.\n\nDen viktigaste förändringen kom 1974, när en ny konstitution började gälla. Där står det att all offentlig makt utgår från folket. Kungen är fortfarande statschef, men han har ingen politisk makt. Han öppnar riksdagen varje höst, tar emot andra länders ledare och reser runt i landet. Han skriver inte under några lagar. Inom parentes kan man nämna att kungen av tradition inte heller röstar i val. Man kan alltså säga att kungen står inom parentes i politiken: han finns där, men texten går att läsa utan honom.\n\nÄndå står kungafamiljen ständigt i rampljuset. När en prins eller prinsessa blir förlovad fyller nyheten tidningarna i veckor. Förlovade par från kungahuset fotograferas överallt, och bröllopet visas i tv för miljoner tittare. Rampljuset är en del av jobbet, men det är inte alltid lätt att leva i det.\n\nMånga svenskar tycker om kungahuset. En del kallar sig patrioter och menar att en kung är en levande länk till historien, något som förenar människor från alla partier. Andra är lika stora patrioter men vill ha en republik, med en vald president. De menar att ingen människa ska få en plats i staten bara för att hon är född i en viss ätt.\n\nDebatten har pågått länge, men den har sällan blivit het. Inget av de stora partierna ämnar i dag ändra konstitutionen för att avskaffa monarkin, och undersökningar visar att de flesta vill behålla den. Kanske beror det på att kungen just inte bestämmer. En kung utan makt är svår att vara rädd för, och för många är monarkin i dag mer en uråldrig tradition än en politisk fråga. Om någon regering någon gång ämnar ändra på det, blir det en lång process, eftersom grundlagar inte kan ändras snabbt.\n\nFrågor:\nVar finns svaret på hur Sverige kan ha både kung och demokrati?\nSvaret finns i landets konstitution, det vill säga grundlagarna.\nVilken ätt tillhör den nuvarande kungafamiljen?\nDen tillhör ätten Bernadotte, som kom till Sverige 1810.\nVad ändrades med den nya konstitutionen 1974?\nKungen fick ingen politisk makt, och all offentlig makt utgår från folket.\nVarför står kungafamiljen ofta i rampljuset?\nTidningarna skriver om familjen, till exempel när en prins eller prinsessa blir förlovad.\nVad tycker de patrioter som vill ha en republik?\nDe menar att ingen ska få en plats i staten bara för att hon är född i en viss ätt.\nVarför kan konstitutionen inte ändras snabbt?\nGrundlagar kan inte ändras snabbt, så det blir en lång process."
+    },
+    {
+      "title": "Svenska med en annan melodi",
+      "summary": "A profile of a Finland-Swedish teacher in Uppsala who talks about stereotypes, her grandmother's footsteps and the Finnish calendar on her wall.",
+      "newWords": [
+        "finlandssvensk",
+        "blåvit",
+        "stereotyp",
+        "förvränga",
+        "fotspår",
+        "almanacka",
+        "instinkt",
+        "slinka",
+        "medioker"
+      ],
+      "text": "Sofia Lindqvist är 38 år och lärare i svenska på en gymnasieskola i Uppsala. Hon är född och uppvuxen i Vasa, på Finlands västkust, och hon är finlandssvensk. Det betyder att hon är finsk medborgare men har svenska som modersmål. I Finland är svenska ett av två officiella språk, och ungefär fem procent av befolkningen är finlandssvenskar.\n\n”Många här tror att jag är finska och har lärt mig svenska som vuxen”, säger hon och skrattar. ”Men svenska är mitt första språk. Jag talar det bara med en annan melodi.”\n\nNär Sofia kom till Sverige för femton år sedan mötte hon flera stereotyper. En stereotyp var att alla från Finland är tysta och dricker mycket kaffe. En annan stereotyp var att finlandssvenskar är rika och bor i stora hus vid havet. ”Stereotyper är inte alltid elaka”, säger hon. ”Men de förvränger bilden av människor. Jag är varken tyst eller rik.”\n\nIbland förvränger också filmer och tv-program hur finlandssvenskar pratar. Skådespelare gör rösten långsam och lite komisk. Det har gjort att Sofia, i början, kände sig osäker. På sin första arbetsplats sa en kollega att hennes svenska var ”lite medioker”. Kollegan menade nog inget illa, men Sofia blev ledsen. ”Jag hade skrivit böcker på svenska, och så fick jag höra att min svenska var medioker!”\n\nHennes första instinkt var att byta melodi och låta mer som en stockholmare. Men hon ändrade sig. ”Min instinkt säger nu att jag ska vara den jag är. Eleverna tycker dessutom att det är roligt.” Ibland slinker det in finlandssvenska ord när hon undervisar. Ett sådant ord är ”kiva”, som betyder trevlig. När ett ord slinker in brukar eleverna fråga vad det betyder, och då blir det en liten lektion om språket.\n\nSofia går på sätt och vis i sin mormors fotspår. Mormodern flyttade till Sverige på 1960-talet och arbetade på en fabrik i Västerås. Hon reste hem till Vasa varje sommar och berättade om sitt nya liv i Sverige. ”Jag följer hennes fotspår, fast jag åkte hit med tåg och inte med båt”, säger Sofia.\n\nPå väggen i köket hänger en finsk almanacka. Sofia köper en ny almanacka varje år, eftersom den finska almanackan har namnsdagar på både finska och svenska. Den 6 december, Finlands självständighetsdag, tänder hon två ljus i fönstret och sätter fram en liten blåvit flagga. Den blåvita flaggan och ljusen är en tradition från barndomen.\n\n”Jag har två länder”, säger hon. ”Det ena är gult och blått, det andra är blåvitt. Jag behöver inte välja.”\n\nFrågor:\nVad betyder det att Sofia är finlandssvensk?\nDet betyder att hon är finsk medborgare men har svenska som modersmål.\nVilka stereotyper mötte hon i Sverige?\nHon mötte stereotypen att alla från Finland är tysta och att finlandssvenskar är rika.\nVarför blev Sofia ledsen på sin första arbetsplats?\nEn kollega sa att hennes svenska var medioker, fast hon hade skrivit böcker på svenska.\nVad gör Sofia nu i stället för att följa sin första instinkt?\nHon är den hon är och behåller sin melodi.\nVarför köper hon en finsk almanacka varje år?\nDen finska almanackan har namnsdagar på både finska och svenska.\nVad gör hon den 6 december?\nHon tänder två ljus i fönstret och sätter fram en liten blåvit flagga."
+    },
+    {
+      "title": "De öppna dörrarnas dag",
+      "summary": "A report on a day in a small town where Christian, Orthodox, Muslim and Jewish communities open their doors together.",
+      "newWords": [
+        "judendom",
+        "ortodox",
+        "småstad",
+        "samverka",
+        "vädja",
+        "fullsatt",
+        "etablering",
+        "sjuklig",
+        "alm",
+        "värdshus"
+      ],
+      "text": "I Sverige råder religionsfrihet. Det står i grundlagen att alla har rätt att tro på vad de vill, eller inte tro på något alls. Men en lag säger inte så mycket om hur grannar faktiskt ser på varandra. Det ville man ändra på i en liten småstad i Småland, där olika församlingar en lördag i maj öppnade sina dörrar för alla som var nyfikna.\n\nIdén kom från kommunen, men den hade inte fungerat om inte församlingarna hade valt att samverka. Svenska kyrkan, en ortodox församling, en moské och en liten judisk förening hade samverkat i nästan ett år för att planera dagen. ”I en småstad känner alla varandra, men man vet ändå inte alltid vad grannen tror på”, sa kommunens samordnare.\n\nDagen började på torget, under en stor, gammal alm. Almen har stått där i över 200 år, och den är stadens äldsta träd. Där höll prästen i Svenska kyrkan ett kort tal. Hon vädjade till alla att ställa frågor, även dumma. ”Den som vågar fråga lär sig mer än den som tror att den redan vet”, sa hon.\n\nDen ortodoxa kyrkan låg bara ett par gator bort. Församlingen kom till staden på 1990-talet, när flera familjer flydde hit från ett krig i sitt hemland. Etableringen var inte lätt. Det tog tolv år att samla pengar till en egen kyrka. I dag är den ortodoxa kyrkan full av ikoner och ljus, och kören sjöng för besökarna.\n\nDen judiska föreningen hade ingen egen byggnad. I stället berättade de om judendom i biblioteket. En äldre man förklarade vad sabbaten betyder och varför många judar äter särskild mat. Han talade också om rädsla. ”Rädslan för det okända kan bli nästan sjuklig”, sa han. ”Den sjukliga rädslan försvinner oftast när man träffas.” Många av besökarna hade aldrig hört någon berätta om judendom förut.\n\nVid lunch samlades alla på stadens gamla värdshus. Värdshuset hade ordnat en buffé med mat från flera kök, och salen var fullsatt redan klockan tolv. Moskén bjöd på te, och den ortodoxa församlingen hade bakat bröd. Eftersom det var fullsatt inne, satt många ute i solen under almen med sina tallrikar.\n\nPå eftermiddagen var också moskén fullsatt. En ung kvinna visade hur bönen går till och svarade på frågor i över en timme. Till sist vädjade imamen, precis som prästen, till alla att komma tillbaka även en vanlig dag.\n\nNär dagen var slut sa samordnaren att den hade blivit större än någon vågat hoppas. Församlingarna har redan bestämt att samverka igen nästa år, och värdshuset har lovat att ta fram fler stolar.\n\nFrågor:\nVad står det i grundlagen om religion?\nDet står att alla har rätt att tro på vad de vill, eller inte tro på något alls.\nVilka församlingar samverkade för att planera dagen?\nSvenska kyrkan, en ortodox församling, en moské och en liten judisk förening samverkade.\nVad vädjade prästen till besökarna?\nHon vädjade till alla att ställa frågor, även dumma.\nVarför var den ortodoxa församlingens etablering svår?\nDet tog tolv år att samla pengar till en egen kyrka.\nVad sa mannen i den judiska föreningen om rädsla?\nHan sa att rädslan för det okända kan bli nästan sjuklig, men att den oftast försvinner när man träffas.\nVarför satt många ute under almen vid lunch?\nVärdshuset var fullsatt inne redan klockan tolv."
+    },
+    {
+      "title": "Domen efter sabotaget",
+      "summary": "A court report: a man who damaged mobile antennas is convicted of sabotage but not of a terrorist crime, because the court finds no such intent.",
+      "newWords": [
+        "antenn",
+        "sabotera",
+        "terrorbrott",
+        "uppsåt",
+        "hjärntvättad",
+        "påträffa",
+        "bedra",
+        "farkost",
+        "jour"
+      ],
+      "text": "I går kom tingsrättens dom mot den 34-årige man som i vintras saboterade fem antenner för mobiltelefoni i Norrbotten. Mannen dömdes för sabotage till fängelse i två år. Han dömdes däremot inte för terrorbrott, som åklagaren hade krävt.\n\nHändelserna började i januari. En natt slutade mobilnätet att fungera i tre byar. Teknikern som hade jour på teleföretaget körde ut i snön och hittade en antenn som någon hade skurit sönder. Under de följande veckorna saboterade någon ytterligare fyra antenner. Varje gång fick teknikerna som hade jour åka ut mitt i natten för att laga dem. Under tiden kunde flera hundra hushåll varken ringa eller nå larmnumret 112.\n\nPolisen började då övervaka antennerna med en drönare, en liten obemannad farkost med kamera. En natt i mars syntes en man på bilden vid en antenn utanför en av byarna. Farkosten följde honom till en bil, och kort därefter påträffades mannen av en polispatrull. I bilen påträffade poliserna också verktyg och en karta där alla fem platserna var markerade.\n\nUnder rättegången berättade mannen att han trodde att antennerna gjorde människor sjuka. Han hade sett hundratals filmer på nätet om saken. Hans försvarare menade att mannen var hjärntvättad av personer som tjänar pengar på att sprida falska rädslor. ”Han har blivit bedragen”, sa försvararen. ”De som gör filmerna bedrar sina tittare, och min klient är en av dem.”\n\nÅklagaren ville att mannen skulle dömas för terrorbrott. För att det ska vara terrorbrott räcker det dock inte att skadan är stor. Den som gör brottet måste också ha ett särskilt uppsåt, till exempel att skrämma befolkningen eller tvinga staten att göra något. Det var just denna fråga om uppsåt som avgjorde målet.\n\nTingsrätten kom fram till att mannen hade haft uppsåt att sabotera antennerna, men inte uppsåt att skrämma befolkningen. Han ville tvärtom skydda människor, även om han hade fel. Därför var det inte terrorbrott. Rätten skrev samtidigt att det inte spelar någon roll om man är hjärntvättad eller inte. Den som saboterar något som samhället behöver, som ett mobilnät, har ändå ett ansvar för vad han gör.\n\nEn av byborna som satt i rättssalen sa efteråt att hon var lättad. ”Min mamma är gammal och bor ensam. Nätterna utan telefon var de värsta i hela vintern.”\n\nBåde åklagaren och försvararen har tre veckor på sig att överklaga domen.\n\nFrågor:\nVad dömdes mannen för?\nHan dömdes för sabotage till fängelse i två år, men inte för terrorbrott.\nVad gjorde teknikern som hade jour den första natten?\nHan körde ut i snön och hittade en antenn som någon hade skurit sönder.\nHur påträffades mannen?\nEn drönare, en liten obemannad farkost, följde honom till en bil, och sedan påträffades han av en polispatrull.\nVad menade försvararen?\nFörsvararen menade att mannen var hjärntvättad och hade blivit bedragen av dem som gör filmerna.\nVarför var det inte terrorbrott enligt tingsrätten?\nMannen hade inte uppsåt att skrämma befolkningen, bara att sabotera antennerna."
+    },
+    {
+      "title": "En vecka utan kranvatten",
+      "summary": "Diary entries by a municipal employee during a week when the town's tap water made people ill and the municipality organised help.",
+      "newWords": [
+        "magsjuka",
+        "mobilisera",
+        "påfrestande",
+        "avråda",
+        "stapla",
+        "ös",
+        "potatismos",
+        "fik",
+        "paja",
+        "greja"
+      ],
+      "text": "Måndag\nI dag ringde vårdcentralen till kommunen redan klockan åtta. Under helgen hade över hundra personer fått magsjuka, och de flesta bodde i samma del av stan. Vår chef misstänkte genast kranvattnet. På eftermiddagen kom de första proverna, och de visade bakterier. Vi skickade ut ett meddelande till alla invånare. Kommunen avråder från att dricka kranvattnet utan att koka det först. Vi avråder också från att borsta tänderna i okokt vatten.\n\nTisdag\nNu har ännu fler fått magsjuka. Kommunen har mobiliserat all personal som kan hjälpa till, och även frivilliga från civilförsvaret är på plats. Att mobilisera så många människor på en dag är inte lätt, men alla ställer upp. I sporthallen har vi öppnat en plats där folk kan hämta rent vatten. I eftermiddags kom en lastbil med tusen dunkar. Vi staplade dem längs väggen, och till slut var högen högre än jag.\n\nOnsdag\nFull ös i sporthallen från morgon till kväll! Folk kom med barnvagnar, cyklar och kärror för att hämta vatten. De frivilliga bar dunkar åt de äldre, och vi fick stapla nya dunkar flera gånger om dagen. Samtidigt pajade en av pumparna på vattenverket, så att vattnet blev ännu sämre. Teknikerna sa bara: ”Det grejar vi.” Och på kvällen hade de grejat den.\n\nTorsdag\nSkolorna har inte kunnat laga mat med kranvattnet. I stället har köken kokat stora kastruller vatten och lagat enkel mat. I dag blev det korv och potatismos i alla skolor. En lärare berättade att barnen tyckte att potatismoset var det bästa med hela veckan. Efter jobbet gick jag förbi stadens lilla fik. Fiket bjöd alla frivilliga på gratis kaffe och bullar, och ägaren hade satt upp en skylt: ”Tack för att ni hjälper till!”\n\nFredag\nI dag kom de nya proverna, och vattnet är rent igen. Felet var en gammal ledning som hade pajat under en storm. Nu är den lagad. Vi slutade avråda från att dricka kranvattnet klockan tre, och jag hörde folk jubla i sporthallen. Antalet nya fall av magsjuka har också börjat gå ner.\n\nDet har varit en påfrestande vecka. Jag har sovit dåligt, druckit för mycket kaffe och ätit för många bullar på fiket. Efter en veckas ös längtar jag efter tystnad. Men det påfrestande har också visat något fint. När kommunen mobiliserade, mobiliserade hela stan med oss. Ingen klagade på kön, och alla hjälpte grannen. Nästa vecka ska jag sova. Och kanske äta potatismos.\n\nFrågor:\nVarför misstänkte chefen kranvattnet?\nÖver hundra personer hade fått magsjuka, och de flesta bodde i samma del av stan.\nVad avrådde kommunen från?\nKommunen avrådde från att dricka kranvattnet och borsta tänderna utan att koka vattnet först.\nVad gjorde de med dunkarna i sporthallen?\nDe staplade dunkarna längs väggen.\nVad hände med pumpen på onsdagen?\nPumpen pajade, men teknikerna grejade den samma kväll.\nVad bjöd fiket de frivilliga på?\nFiket bjöd på gratis kaffe och bullar.\nVarför tyckte skribenten att den påfrestande veckan också hade visat något fint?\nHela stan hjälpte till, ingen klagade och alla hjälpte grannen."
+    },
+    {
+      "title": "Inte störa, inte förstöra",
+      "summary": "An informative text on the Swedish right of public access: what everyone may do in nature and what they must take care not to do.",
+      "newWords": [
+        "ljung",
+        "ostörd",
+        "padda",
+        "koppel",
+        "skoter",
+        "alpin",
+        "frestelse",
+        "klöver",
+        "egg"
+      ],
+      "text": "I Sverige får alla röra sig fritt i naturen, även på mark som någon annan äger. Den rätten kallas allemansrätten. Den är ingen vanlig lag, men den nämns i grundlagen, och den bygger på gamla seder. Allemansrätten ger stor frihet, men också ett ansvar. Man brukar sammanfatta den med orden: inte störa, inte förstöra.\n\nDu får gå, cykla och rida nästan överallt, och du får tälta en natt eller två på samma plats. Du får sitta på en kulle full av ljung och äta din mat. I augusti blommar ljungen, och då blir hela kullen lila. Du får också plocka bär, svamp och de flesta blommor. Men du får inte gå för nära någons hus. Den som bor i huset har rätt att vara ostörd, och om du ser människor i en trädgård har du gått för långt.\n\nDjuren har också rätt att vara ostörda. Under våren och sommaren föds många ungar i skogen. Därför ska hundar hållas i koppel från den 1 mars till den 20 augusti. Även en snäll hund kan skrämma en fågel från boet. Många hundägare har hunden i koppel hela året, för säkerhets skull. På våren vandrar också tusentals paddor till sjöar och dammar för att lägga ägg. Paddorna går ofta över vägar, och på flera platser stänger kommunen vägen några kvällar för att paddorna ska kunna gå ostörda.\n\nBönderna har sina rättigheter. Du får inte gå över en åker där det växer något, till exempel ett fält med klöver eller säd. Klövern kan se ut som en vanlig äng, men för bonden är den foder till korna. Den som går genom klövern förstör en del av hans arbete.\n\nEn särskild frestelse för många är att göra upp eld. En lägereld är mysig, men under torra somrar är det ofta förbjudet. Frestelsen kan också vara att ta grenar från levande träd. Även om din kniv har en vass egg, får du inte skära av grenar eller bark från ett levande träd. Använd döda grenar som ligger på marken. Yxans egg hör inte hemma i en levande skog.\n\nI fjällen gäller samma regler, men naturen är där mer känslig. Den alpina naturen växer långsamt, och ett spår i marken kan synas i många år. På vintern åker många skoter i fjällen. Med skoter får man bara köra när marken är täckt av snö, och i många alpina områden får man bara köra skoter på särskilda leder.\n\nAllemansrätten är en stor gåva. Den bygger på förtroende mellan dem som äger marken och alla oss andra. Så länge vi låter människor och djur vara ostörda, kan vi fortsätta att njuta av den.\n\nFrågor:\nHur brukar man sammanfatta allemansrätten?\nMan brukar sammanfatta den med orden: inte störa, inte förstöra.\nVarför ska hundar hållas i koppel på våren och sommaren?\nMånga ungar föds i skogen, och djuren har rätt att vara ostörda.\nVarför stänger kommunen ibland vägar på våren?\nKommunen stänger vägar för att paddorna ska kunna gå ostörda till sjöarna.\nVarför får man inte gå genom ett fält med klöver?\nKlövern är foder till bondens kor, och den som går genom den förstör en del av hans arbete.\nVad gäller för skoter i fjällen?\nMan får bara köra skoter när marken är täckt av snö, och i många alpina områden bara på särskilda leder."
+    },
+    {
+      "title": "Musslorna i fjorden",
+      "summary": "A profile of a mussel farmer on the west coast who works with the authorities to keep the fjord healthy and trains an apprentice.",
+      "newWords": [
+        "ekosystem",
+        "bestånd",
+        "mussla",
+        "utvinna",
+        "återanvända",
+        "växthus",
+        "lärling",
+        "halvtid"
+      ],
+      "text": "Maja Berg är 46 år och odlar musslor på Orust, på västkusten. Varje morgon kör hon ut med sin lilla båt till de långa linorna i fjorden, där tusentals musslor växer. ”Folk tror att jag bara säljer mat”, säger hon. ”Men jag arbetar lika mycket med vattnet som med musslorna.”\n\nEn mussla äter genom att filtrera vatten. En enda mussla kan rena flera liter vatten i timmen, och den tar då upp små alger och näring. När det kommer för mycket näring från jordbruket till havet, växer det för mycket alger, och då blir det brist på syre. Musslorna hjälper därför hela ekosystemet i fjorden. ”Fjorden är ett ekosystem där allt hänger ihop”, säger Maja. ”Om musslorna mår bra, mår fisken bättre också.”\n\nDet vilda beståndet av musslor längs kusten har minskat de senaste åren. Forskarna vet inte helt varför, men varmare vatten och fler fiender är två förklaringar. Länsstyrelsen följer beståndet noga, och Maja skickar varje månad in prover från sina linor. ”Staten behöver veta hur det står till med havet, och jag är ute på vattnet varje dag. Då är det naturligt att vi hjälps åt.”\n\nDet är inte bara musslorna som säljs. Ur skalen kan man utvinna kalk, och av musslor som är för små för restauranger kan man utvinna protein till djurfoder. En del av skalen krossas och blir gödsel. Den gödseln köper en odlare i närheten, som har ett stort växthus med tomater. ”Tomaterna i hans växthus växer på mina skal”, säger Maja och ler.\n\nMaja försöker också återanvända så mycket som möjligt. Gamla linor tvättas och används igen, och trasiga nät lagas. Hon har räknat ut att hon kan återanvända nästan all utrustning i minst tio år. ”Det är billigare, men framför allt är det bättre för havet.”\n\nSedan i höstas har hon en lärling, Theo, som är 19 år och går ett yrkesprogram på gymnasiet. Theo arbetar halvtid i båten och studerar halvtid i skolan. Han lär sig knyta linor, läsa vädret och sköta båten. Kommunen betalar en del av hans lön, eftersom den vill att fler unga ska lära sig yrket. ”En bra lärling är värd sin vikt i guld”, säger Maja.\n\nNär vi kör tillbaka mot hamnen frågar jag Theo om han vill bli odlare själv. Han nickar. ”Men först vill jag lära mig allt hon kan”, säger han.\n\nFrågor:\nHur äter en mussla?\nEn mussla äter genom att filtrera vatten och ta upp små alger och näring.\nVarför är musslorna viktiga för ekosystemet i fjorden?\nDe renar vattnet, så att det inte växer för mycket alger och blir brist på syre.\nVad kan man utvinna ur musslor och skal?\nUr skalen kan man utvinna kalk, och ur små musslor protein till djurfoder.\nVem köper gödseln av krossade skal?\nEn odlare i närheten som har ett stort växthus med tomater.\nHur arbetar lärlingen Theo?\nTheo arbetar halvtid i båten och studerar halvtid i skolan."
+    },
+    {
+      "title": "Tre förslag till torget",
+      "summary": "A report from the art hall where three finalists show their proposals for a public artwork on the new town square, and residents vote.",
+      "newWords": [
+        "konsthall",
+        "kub",
+        "finalist",
+        "utomjording",
+        "slank",
+        "ull",
+        "blus",
+        "lappa",
+        "kil"
+      ],
+      "text": "När en kommun bygger något nytt, ska en del av pengarna ofta gå till konst. Det är en gammal tradition i Sverige: konsten ska inte bara finnas på museer, utan också där vanliga människor går förbi varje dag. I vår stad byggs nu ett nytt torg, och kommunen har bjudit in konstnärer att lämna förslag till ett konstverk där.\n\nÖver 60 konstnärer skickade in förslag. En jury valde ut tre finalister, och i helgen visades finalisternas förslag i stadens konsthall. Invånarna fick sedan rösta på det förslag de tyckte bäst om. Juryn bestämmer till sist, men den har lovat att lyssna på rösterna.\n\nDen första finalisten hade gjort en stor kub av glas, tre meter hög. Inne i kuben ska det finnas lampor som byter färg efter vädret. Kuben blir blå när det regnar och gul när solen skiner. Många besökare i konsthallen tyckte om idén, men några undrade om glaset skulle klara stenar och snö.\n\nDen andra finalisten hade valt sten. Hans förslag var en hög och slank kil av granit, som står på sin spets och pekar mot himlen. Kilen är så slank att den nästan ser ut att sväva. ”Den är vacker”, sa en äldre man, ”men den ser ut som något som en utomjording har glömt kvar.” Flera andra höll med. Ett barn frågade till och med om utomjordingen skulle komma tillbaka och hämta kilen. Konstnären tog det med ro. ”Om folk pratar om verket, har det redan gjort sitt jobb”, sa han.\n\nDen tredje finalisten var en textilkonstnär. Hennes förslag var ett stort konstverk av tyg och ull, som ska hänga under ett glastak på torget. Hon vill att stadens invånare ska skänka gamla kläder, en blus, en skjorta eller en tröja. Sedan ska hon lappa ihop dem till en enda stor bild av staden. Ullen kommer från får som betar strax utanför stan. ”Varje blus har en historia”, sa hon. ”När jag lappar ihop dem, blir alla historierna en.” Flera besökare lovade på plats att skänka en blus eller en gammal tröja av ull.\n\nPå söndagskvällen räknades rösterna. Textilkonstnären fick flest röster, kilen kom tvåa och kuben trea. Juryn har ännu inte bestämt sig, men i konsthallen var stämningen tydlig. ”Det är vårt torg”, sa en kvinna. ”Då vill jag att min mormors blus ska hänga där.”\n\nFrågor:\nVarför ska en del av pengarna till ett nytt torg gå till konst?\nKonsten ska finnas där vanliga människor går förbi varje dag, inte bara på museer.\nVar visades finalisternas förslag?\nFinalisternas förslag visades i stadens konsthall.\nVad händer med lamporna i kuben?\nDe byter färg efter vädret, så att kuben blir blå när det regnar och gul när solen skiner.\nVad sa den äldre mannen om kilen?\nHan sa att den var vacker men såg ut som något som en utomjording hade glömt kvar.\nHur vill textilkonstnären göra sitt konstverk?\nHon vill lappa ihop gamla kläder, till exempel en blus eller en tröja, och använda ull från får utanför stan."
+    }
+  ]
+}
