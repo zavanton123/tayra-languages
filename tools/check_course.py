@@ -455,6 +455,8 @@ def check(path, brief=False):
             text = re.sub(r"\d+-tall(?:et|ets)?\b", " ", text)
         if code == "sv":
             text = re.sub(r"\d+-tal(?:et|ets|s)?\b", " ", text)
+            # Swedish joins an ending to an abbreviation with a colon (tv:n, cd:n): it counts as the abbreviation.
+            text = re.sub(r"(?<=[^\W\d_]):[^\W\d_]+", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr"):
