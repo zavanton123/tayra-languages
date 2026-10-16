@@ -27,7 +27,7 @@ import sys
 from contextlib import redirect_stdout
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from check_course import check  # noqa: E402
+from check_course import check, load_list  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "course-packs")
@@ -71,6 +71,7 @@ def main():
     if args.only:
         wanted = set(args.only.split(","))
         paths = [p for p in paths if os.path.basename(p)[:-5] in wanted]
+    words = load_list(args.language)[1]
     courses = []
     failed = []
     for path in paths:
@@ -96,7 +97,7 @@ def main():
                     "id": f"{source['id']}-{i:02}",
                     "title": lesson["title"],
                     "summary": lesson.get("summary", ""),
-                    "newWords": lesson.get("newWords", []),
+                    "newWords": [shown(word, words) for word in lesson.get("newWords", [])],
                     "text": lesson["text"].strip(),
                 }
                 for i, lesson in enumerate(source["lessons"], start=1)
@@ -112,6 +113,15 @@ def main():
           f"{os.path.getsize(out + '.gzip') / 1e6:.1f} MB compressed, {os.path.getsize(out) / 1e6:.1f} MB unpacked"
           + (f"; failing: {', '.join(failed)}" if failed else ""))
     return 1 if failed and not args.force else 0
+
+
+def shown(word, words):
+    """A new word as the reader sees it: a list headword joined with an underscore (om_liggen) is
+    a separable verb or compound wordfreq split, so it shows as its form in the list (omliggende)."""
+    if "_" not in word:
+        return word
+    forms = words.get(word, (None, None, []))[2]
+    return forms[0] if forms else word.replace("_", "")
 
 
 def write_pack(path, language, courses):
