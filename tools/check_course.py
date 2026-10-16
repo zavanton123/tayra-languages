@@ -108,6 +108,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return italian_tokens(text, ranks, names, verbs, heads)
     if code == "nl":
         return dutch_tokens(text)
+    if code == "da":
+        return danish_tokens(text, ranks)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -130,6 +132,22 @@ def dutch_tokens(text):
             out.append(clitic)
             continue
         out.extend(part for part in word.split("-") if part)
+    return out
+
+
+# A Danish word joined by a hyphen stays whole when the list has it whole (e-mail, id-kort, p-plads);
+# otherwise its parts count apart.
+DANISH_WORD = re.compile(r"[^\W\d_]+(?:['’-][^\W\d_]+)*", re.UNICODE)
+
+
+def danish_tokens(text, ranks):
+    out = []
+    for match in DANISH_WORD.finditer(text):
+        word = match.group(0)
+        if "-" in word and word.lower() not in ranks:
+            out.extend(part for part in word.split("-") if part)
+        else:
+            out.append(word)
     return out
 
 
