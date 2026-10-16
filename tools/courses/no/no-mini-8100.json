@@ -1,0 +1,201 @@
+{
+  "id": "no-mini-8100",
+  "rankUpTo": 8100,
+  "level": "C2",
+  "title": "Menneskekroppen",
+  "description": "Ten standalone texts about the human body: dizziness in the pool, digestion at Christmas, a TV debate on men's health, a father's medical journal, breathing at a folk high school, a warehouse worker's back, jet lag in Kyoto, a brain researcher, DNA evidence and the immune system of a football team.",
+  "topic": "The human body",
+  "names": [
+    "Ingrid",
+    "Berg",
+    "Liv",
+    "NRK",
+    "Arne",
+    "Holm",
+    "Kari",
+    "H",
+    "S",
+    "Tenzin",
+    "Norge",
+    "Marit",
+    "Eide",
+    "Marits",
+    "Trondheim",
+    "Oslo",
+    "Kyoto",
+    "Japan",
+    "Europa",
+    "Nora",
+    "Lie",
+    "London",
+    "Østlandet"
+  ],
+  "lessons": [
+    {
+      "title": "Svimmel i svømmehallen",
+      "summary": "A woman who swims twice a week suddenly feels dizzy in the pool, learns about the inner ear from her doctor and returns to swimming.",
+      "newWords": [
+        "svømmehall",
+        "havfrue",
+        "svimmel",
+        "fortvilet",
+        "harmløs",
+        "dagligdags",
+        "forhøre",
+        "betennelse",
+        "egenandel",
+        "forvarsel"
+      ],
+      "text": "Ingrid Berg har svømt i den samme svømmehallen hver tirsdag og torsdag i over tjue år. Hun liker lukten av vannet, lyden av små bølger mot kanten og den rolige rytmen i armene. Barnebarnet hennes sier at hun svømmer som en havfrue. Ingrid ler av det, for en havfrue har hale og ikke vonde skuldre, men hun blir likevel glad hver gang hun hører det.\n\nEn torsdag i februar skjedde det noe nytt. Midt i den tredje lengden ble hun plutselig svimmel. Det var som om hele svømmehallen begynte å snurre sakte rundt henne, og taket og vannet byttet plass. Hun holdt seg fast i kanten til det gikk over. Etterpå satt hun lenge på en benk i garderoben, kvalm og fortvilet. Hun hadde aldri vært svimmel på den måten før.\n\nFørst tenkte hun at det var harmløst. Mange blir litt svimle når de reiser seg for fort, eller når de har spist for lite. Det er dagligdags, og som regel er det harmløst. Men det Ingrid hadde opplevd, var ikke dagligdags. Det var som om gulvet hadde forsvunnet.\n\nHun forhørte seg først hos venninnen sin, Liv, som er sykepleier. Liv lyttet og stilte noen spørsmål. «Har du vært forkjølet nylig?» spurte hun. Ingrid tenkte seg om. Jo, hun hadde hatt en kraftig forkjølelse to uker tidligere. «Da bør du gå til legen,» sa Liv. «Det høres ikke farlig ut, men det bør undersøkes.» Ingrid forhørte seg også hos en nabo som hadde hatt noe lignende, og han sa det samme.\n\nFastlegen forklarte at balansen vår sitter dypt inne i øret. I det indre øret finnes små kanaler med væske, og når vi beveger hodet, forteller væsken hjernen hvordan kroppen står. Etter en forkjølelse kan det komme en betennelse i nerven som går fra øret til hjernen. Da får hjernen feil beskjed, og verden begynner å snurre. En slik betennelse er sjelden farlig, sa legen, og den går som regel over av seg selv i løpet av noen uker.\n\nFør hun gikk, betalte Ingrid egenandelen i resepsjonen. Egenandelen er den delen av regningen som pasienten selv må betale; resten dekker staten. Hun syntes egenandelen var en rimelig pris for å slippe å gå rundt og være fortvilet.\n\nLegen ga henne også et råd: Lær deg å kjenne forvarselet. Mange som har hatt en slik betennelse, merker et lite forvarsel før verden begynner å snurre, for eksempel en svak lyd i øret eller et trykk i hodet. Når forvarselet kommer, skal man stoppe og se på et fast punkt.\n\nTre uker senere var Ingrid tilbake i svømmehallen. Hun svømte langsommere enn før og holdt seg nær kanten. En gang kjente hun et lite forvarsel i det venstre øret. Hun stoppet og så på klokka på veggen til det var borte. Det varte bare noen sekunder.\n\nNå svømmer hun igjen to ganger i uka. Hun er ikke lenger fortvilet, og barnebarnet sier fortsatt at hun er en havfrue.\n\nSpørsmål:\nHvor ofte svømmer Ingrid?\nHun svømmer i den samme svømmehallen hver tirsdag og torsdag.\nHva skjedde en torsdag i februar?\nHun ble plutselig svimmel midt i den tredje lengden.\nHvem forhørte hun seg hos først?\nHun forhørte seg hos venninnen sin, Liv, som er sykepleier.\nHvorfor ble Ingrid svimmel?\nEtter en forkjølelse hadde hun fått en betennelse i nerven som går fra øret til hjernen.\nHva er en egenandel?\nDet er den delen av regningen som pasienten selv må betale.\nHva skal Ingrid gjøre når hun kjenner et forvarsel?\nHun skal stoppe og se på et fast punkt til det går over."
+    },
+    {
+      "title": "Kroppen som kjøkken",
+      "summary": "A food writer follows the Christmas dinner through the body: saliva, sugar, energy, the gut's bacteria and his daughter's gluten-free baking.",
+      "newWords": [
+        "sikle",
+        "omdanne",
+        "majones",
+        "forbruke",
+        "julebrus",
+        "svingning",
+        "hoveddel",
+        "metan",
+        "glutenfri",
+        "griner"
+      ],
+      "text": "Det begynner før maten er i munnen. Når jeg står ved ovnen og steker ribbe på julaften, sitter hunden vår ved føttene mine og sikler, og jeg må innrømme at jeg nesten sikler selv. Spyttet er kroppens første kokk. Det gjør maten myk og begynner å bryte den ned allerede før vi svelger. Å sikle er altså ikke bare uhøflig; det er kroppen som gjør seg klar.\n\nJeg har skrevet om mat i mange år, men først i år begynte jeg å lese om hva som skjer etter at maten er spist. Det viste seg å være en lang og ganske vakker reise. Kroppen omdanner alt vi spiser. Brød, poteter og søt drikke blir omdannet til sukker i blodet, og sukkeret blir omdannet til energi i cellene. Fett, også fettet i majonesen på rekene, blir brutt ned og enten lagret eller brent. En skje majones gir mer energi enn et helt eple.\n\nKroppen forbruker energi hele tiden, også når vi sover. Hjernen alene forbruker omtrent 20 prosent av energien vi får i oss, selv om den bare veier halvannen kilo. Musklene forbruker mer når vi beveger oss, og mindre når vi ligger på sofaen etter middagen.\n\nJulebrusen fortjener et eget avsnitt. Ingen norsk jul er komplett uten den, og barna mine teller dagene til julebrusen kommer i butikkene. Men en halv liter julebrus inneholder mye sukker, og sukkeret går raskt over i blodet. Det gir en svingning: først en topp, så et fall. Mange merker slike svingninger ved at de blir trøtte en time senere. Jeg merker dem selv, særlig når jeg har drukket julebrus til frokost, noe jeg ikke anbefaler.\n\nDen lengste delen av reisa skjer i tarmen. Hoveddelen av næringen blir tatt opp der, og der lever milliarder av bakterier som gjør en stor del av jobben. Bakteriene spiser det vi selv ikke kan bryte ned, og noen av dem lager gass. En av gassene heter metan. Metan er den samme gassen som kyr slipper ut, og som er et problem for klimaet. Hos mennesker er mengden liten, og hos noen lager bakteriene nesten ikke metan i det hele tatt.\n\nDatteren min tåler ikke gluten, et stoff i hvete, så hos oss er alle julekakene glutenfrie. Glutenfritt brød var tidligere tørt og kjedelig. Hun griner fortsatt på nesen når jeg minner henne om det første glutenfrie brødet jeg bakte. Nå har oppskriftene blitt bedre, og i år spiste hele familien glutenfrie kaker uten å merke forskjell. For henne er glutenfri mat ikke en trend, men en nødvendighet.\n\nJeg tenker annerledes på maten i jula nå. Når familien sitter rundt bordet, er det ikke bare vi som spiser; bakteriene våre spiser også. Hoveddelen av arbeidet gjør kroppen i stillhet, mens vi snakker og ler. Og hunden? Han sikler fortsatt. Han griner ikke på nesen av noe som helst.\n\nSpørsmål:\nHvorfor er det ikke bare uhøflig å sikle?\nFordi spyttet gjør maten myk og begynner å bryte den ned, så kroppen gjør seg klar.\nHva omdanner kroppen brød og poteter til?\nKroppen omdanner dem til sukker i blodet og så til energi i cellene.\nHvor mye energi forbruker hjernen?\nHjernen forbruker omtrent 20 prosent av energien vi får i oss.\nHvilken svingning gir julebrusen?\nSukkeret gir først en topp og så et fall, og mange blir trøtte en time senere.\nHva er metan?\nMetan er en gass som noen bakterier i tarmen lager, den samme gassen som kyr slipper ut.\nHvorfor er julekakene glutenfrie?\nFordi datteren ikke tåler gluten."
+    },
+    {
+      "title": "Et ordskifte om menns helse",
+      "summary": "A review of a TV debate between a doctor and an author about masculinity, gender roles and why men see doctors too late.",
+      "newWords": [
+        "ordskifte",
+        "seertall",
+        "maskulinitet",
+        "kjønnsrolle",
+        "usann",
+        "stråmann",
+        "ønsketenkning",
+        "reaksjonær",
+        "realisme",
+        "dertil"
+      ],
+      "text": "Torsdag kveld sendte NRK et ordskifte om menn og helse. Seertallene var høye: ifølge kanalen fulgte over 400 000 mennesker debatten, og det er mye for et program om helse på en vanlig hverdag. Seertallet sier kanskje noe om at temaet treffer mange.\n\nUtgangspunktet var enkelt. Norske menn lever kortere enn norske kvinner, de går sjeldnere til legen, og de venter lenger før de forteller om smerter. Dertil tar de oftere sjanser i trafikken og på jobben. Spørsmålet var hvorfor.\n\nDen ene deltakeren, en lege, mente at mye av svaret ligger i maskulinitet. Mange gutter lærer tidlig at en ekte mann ikke klager. De gamle kjønnsrollene sier at mannen skal være sterk, tåle smerte og løse problemene sine alene. «Det er ikke kroppen som er svakere,» sa hun. «Det er kjønnsrollene som gjør at menn kommer for sent.»\n\nDen andre deltakeren, en forfatter, var uenig. Han syntes legen tegnet et bilde av menn som var usant. «Ingen sier lenger at menn ikke kan gråte,» sa han. «Du kjemper mot en stråmann.» En stråmann er en svak og forenklet versjon av motpartens syn, som man lager for å kunne slå den ned. Legen svarte at hun ikke snakket om hva folk sier, men om hva de gjør. Tallene, sa hun, er ikke en stråmann.\n\nSenere i ordskiftet ble tonen skarpere. Forfatteren kalte det ønsketenkning å tro at menn vil gå oftere til legen bare fordi man snakker om maskulinitet på TV. Legen mente at det var en reaksjonær holdning å si at ingenting kan endres. «Å kalle meg reaksjonær er også en stråmann,» sa forfatteren, og for første gang lo begge to.\n\nMot slutten kom de faktisk nærmere hverandre. Begge var enige om at realisme er bedre enn store ord. Realisme betyr her å se på hva som faktisk hjelper: korte ventetider, fastleger som spør direkte, og arbeidsplasser som gir fri når man skal til legen. Dertil kommer noe så enkelt som at venner spør hverandre hvordan det egentlig går. Legen la til at det var ønsketenkning å tro at én kampanje kunne løse alt. Forfatteren innrømmet at det ville være usant å påstå at kjønnsroller ikke betyr noe.\n\nDet beste ved ordskiftet var at ingen av dem lot seg redusere til en rolle. De snakket om maskulinitet uten å være fiender av menn, og om kjønnsroller uten å late som om kroppen ikke betyr noe. Det var et ordskifte preget av realisme snarere enn store ord. Om seertallene holder seg neste uke, når temaet er søvn, får vi se.\n\nSpørsmål:\nHva handlet ordskiftet om?\nDet handlet om menn og helse, og om hvorfor menn går sjeldnere til legen.\nHva mente legen om kjønnsrollene?\nHun mente at de gamle kjønnsrollene gjør at menn venter for lenge før de går til legen.\nHva er en stråmann i en debatt?\nEn stråmann er en svak og forenklet versjon av motpartens syn, som man lager for å kunne slå den ned.\nHva kalte forfatteren ønsketenkning?\nHan kalte det ønsketenkning å tro at menn vil gå oftere til legen bare fordi man snakker om maskulinitet på TV.\nHva betyr realisme i denne debatten?\nRealisme betyr å se på hva som faktisk hjelper, som korte ventetider og fastleger som spør direkte."
+    },
+    {
+      "title": "Farens journal",
+      "summary": "After her father's death, a daughter settles his affairs and asks the hospital for his old medical journal to learn about his heart.",
+      "newWords": [
+        "gjenlevende",
+        "nettbank",
+        "kreditor",
+        "tilfalle",
+        "anmode",
+        "byråkrat",
+        "utlevering",
+        "påbud",
+        "gymnas",
+        "håndskrift",
+        "initial"
+      ],
+      "text": "Da Arne Holm døde i fjor høst, 86 år gammel, var datteren Kari den eneste gjenlevende i familien. Moren hadde gått bort mange år før, og Kari hadde ingen søsken. Som gjenlevende fikk hun ansvaret for alt det praktiske.\n\nDet meste gikk greit. Hun logget seg inn i farens nettbank med den fullmakten hun hadde fått mens han levde, og betalte de siste regningene. Farens nettbank var ryddig, slik han selv hadde vært. Det var ikke mange kreditorer: en tannlege, en elektriker og en bokhandel der han hadde handlet på konto i førti år. Da alle kreditorene hadde fått sitt, var det litt penger igjen, og etter loven tilfalt de henne. Huset tilfalt henne også.\n\nMen det var noe annet Kari tenkte på. Faren hadde hatt et svakt hjerte hele livet, og ingen i familien visste helt hvorfor. Kari hadde selv begynt å kjenne at hjertet slo ujevnt, og fastlegen spurte om det fantes sykdom i hjertet hos noen i familien. Hun ville vite mer. Derfor bestemte hun seg for å anmode sykehuset om utlevering av farens journal.\n\nHun skrev et kort brev der hun anmodet om å få se journalen. Svaret kom etter tre uker, fra en byråkrat i arkivet. Han var høflig, men nøyaktig. Etter loven kan gjenlevende få se en avdød pasients journal når det finnes gode grunner, skrev han, og det er et påbud at hver sak skal vurderes for seg. Kari måtte derfor anmode på nytt og forklare hvorfor hun trengte opplysningene. Hun gjorde det, og byråkraten svarte raskt denne gangen. Utleveringen ble godkjent.\n\nEn dag lå en tykk konvolutt i postkassa. Det var ikke ark fra en skriver, som hun hadde ventet, men kopier av gamle ark. De første sidene var fra 1955, da faren gikk på gymnaset. Gymnaset var det man den gangen kalte skolen som i dag heter videregående. Etter en lang periode med feber hadde en lege undersøkt ham og skrevet med blyant, i en liten og skrå håndskrift, at gutten hadde «en lyd på hjertet». Under stod legens initialer: H.S.\n\nKari satt lenge med arket. Håndskriften var vanskelig å lese, men hun fikk hjelp av en eldre nabo som hadde arbeidet på sykehus i mange år. Senere i journalen dukket de samme initialene opp igjen og igjen, og Kari skjønte at H.S. hadde fulgt faren i over tjue år. Hver kontroll var skrevet med den samme håndskriften, helt til en ny lege overtok på 1970-tallet.\n\nFastlegen leste kopiene og forklarte at feberen faren hadde hatt på gymnaset, sannsynligvis hadde skadet hjertet. Det var altså ikke noe hun kunne ha arvet. Kari kjente seg lettet. Hennes eget hjerte hadde en annen og harmløs forklaring.\n\nPåbudet om at hver sak skulle vurderes, hadde forsinket henne noen uker, men hun var ikke sint. Det er jo nettopp slike påbud som beskytter det vi forteller legen.\n\nSpørsmål:\nHvorfor fikk Kari ansvaret for det praktiske?\nHun var den eneste gjenlevende i familien.\nHva tilfalt Kari da kreditorene hadde fått sitt?\nPengene som var igjen, og huset tilfalt henne.\nHvorfor ville hun ha farens journal?\nHun hadde selv kjent at hjertet slo ujevnt og ville vite om det fantes sykdom i hjertet i familien.\nHva svarte byråkraten i arkivet?\nHan skrev at det er et påbud at hver sak skal vurderes for seg, og at hun måtte forklare hvorfor.\nHva stod under legens notat fra gymnaset?\nUnder notatet stod legens initialer, H.S.\nHva fant fastlegen ut?\nHan fant ut at feberen på gymnaset sannsynligvis hadde skadet farens hjerte, og at det ikke var arvelig."
+    },
+    {
+      "title": "Dagbok fra folkehøyskolen",
+      "summary": "A diary entry from a folk high school student: breathing lessons at dawn with a Buddhist teacher, tap dancing and folk music.",
+      "newWords": [
+        "folkehøyskole",
+        "otte",
+        "sørside",
+        "buddhist",
+        "viske",
+        "fjas",
+        "steppe",
+        "folkemusikk",
+        "beundring"
+      ],
+      "text": "Tirsdag 14. oktober\n\nNå har jeg gått på folkehøyskole i seks uker, og jeg har begynt å legge merke til kroppen min på en ny måte. Linja mi heter «Kropp og bevegelse». Hjemme satt jeg mest foran en skjerm; her på folkehøyskolen bruker jeg kroppen fra morgen til kveld.\n\nDagen begynner i otta. Otte er et gammelt ord for den tidlige morgenen, før sola er helt oppe, og læreren vår bruker det med vilje. «Vi møtes i otta,» sier hun, og da mener hun klokka seks. Vi samles i et stort rom på sørsida av skolen. Der kommer det første lyset inn gjennom vinduene, og fra sørsida ser vi fjorden ligge helt blank.\n\nLæreren heter Tenzin. Hun er buddhist og har bodd i Norge i tjue år. Hun lærer oss å puste. Det høres enkelt ut, men det er det ikke. De fleste av oss puster med brystet, raskt og høyt. Tenzin vil at vi skal puste med magen, sakte, slik at magen hever seg før brystet. Hun sier at hun ikke underviser i religion, men at hun har lært mye om pust av å være buddhist. Mens vi sitter med lukkede øyne, går hun rundt og visker korte beskjeder: «Slipp skuldrene.» «Pust ut lenger enn du puster inn.» Hun visker så lavt at bare den hun står ved, hører det.\n\nOm ettermiddagen er tonen en annen. Da har vi dans, og der er det mye fjas. Denne uka har vi lært å steppe. Å steppe er å danse slik at skoene slår rytmen mot gulvet. Vi er elendige. Gutten ved siden av meg stepper som om han prøver å drepe en edderkopp, og jeg ler så mye at jeg mister takten. Læreren lar oss holde på med fjaset en stund før hun ber oss bli stille og lytte etter rytmen.\n\nPå fredager har vi folkemusikk. En gammel musiker fra bygda kommer med fiolinen sin og spiller, og vi prøver å danse til musikken. Folkemusikken har en helt annen puls enn musikken jeg hører på hjemme. Takten er ujevn, og kroppen må lytte i stedet for å telle. Etter en time med folkemusikk er jeg like svett som etter en lang tur i skogen.\n\nJeg kjenner stor beundring for musikeren. Han er over 70, men han spiller i en hel time uten pause og stepper med foten i takt. Etterpå sa jeg til ham at jeg følte beundring for ham. Han ble flau og sa at det bare var trening.\n\nI kveld, før jeg skrev dette, satt jeg på trappa på sørsida og pustet slik Tenzin har lært oss. Inn med magen, ut lenger. Jeg kan nesten høre at hun visker det. I morgen møtes vi igjen i otta.\n\nSpørsmål:\nHva heter linja hun går på?\nLinja heter «Kropp og bevegelse».\nHva betyr det å møtes i otta?\nDet betyr å møtes tidlig om morgenen, før sola er helt oppe.\nHvordan vil Tenzin at elevene skal puste?\nHun vil at de skal puste sakte med magen og puste ut lenger enn de puster inn.\nHva gjør Tenzin mens elevene sitter med lukkede øyne?\nHun går rundt og visker korte beskjeder.\nHva er å steppe?\nÅ steppe er å danse slik at skoene slår rytmen mot gulvet.\nHvorfor føler hun beundring for musikeren?\nFordi han er over 70, men spiller en hel time uten pause."
+    },
+    {
+      "title": "Ryggen på lageret",
+      "summary": "A warehouse worker with back pain gets paid further training at a vocational school with her union's help and starts advising other workplaces.",
+      "newWords": [
+        "varehus",
+        "landsbasis",
+        "bestyrer",
+        "inntjening",
+        "fagbevegelse",
+        "arbeiderbevegelse",
+        "lønnet",
+        "etterutdanning",
+        "fagskole",
+        "oppdragsgiver"
+      ],
+      "text": "Marit Eide har jobbet på lageret til et stort varehus i Trondheim i nesten tjue år. Hun løfter esker, kjører små maskiner og pakker varer som skal ut i butikkene. Kroppen hennes har fulgt med på alt. Først var det knærne, så skuldrene, og det siste året har det vært ryggen.\n\nHun er ikke alene. På landsbasis er smerter i rygg og nakke en av de vanligste grunnene til at folk er borte fra jobben. Tallene på landsbasis har vært ganske stabile i mange år, og de er høyest i yrker der man løfter mye eller står stille lenge.\n\nEn dag tok hun det opp med bestyreren på lageret. Bestyreren, en rolig mann på hennes egen alder, hadde selv hatt vondt i ryggen. Han hørte på henne og lovet å se på arbeidsdagen hennes. Men han sa også det han alltid sa: at varehuset måtte tenke på inntjening, og at inntjeningen hadde vært dårlig siden flere begynte å handle på nettet.\n\nMarit gikk til fagforeningen. Hun har vært med i fagbevegelsen hele sitt voksne liv, slik faren hennes var før henne. Hun liker å minne kollegene på hva arbeiderbevegelsen har kjempet fram. Åtte timers arbeidsdag, ferie og lønn under sykdom kom ikke av seg selv. Arbeiderbevegelsen i Norge vokste fram rundt 1900, da mange arbeidet tolv timer om dagen i fabrikker der kroppen ble slitt ut lenge før de var femti. Uten arbeiderbevegelsen ville også lageret hennes ha sett annerledes ut.\n\nFagforeningen hjalp henne å be om en bedre ordning, og resultatet ble et kompromiss. Bestyreren gikk med på at Marit kunne ta etterutdanning, og at den skulle være lønnet. En lønnet etterutdanning betyr at hun får lønn mens hun studerer to dager i uka. Hun begynte på en fagskole som utdanner folk innen helse og sikkerhet på arbeidsplassen. Fagskolen ligger tjue minutter unna, og de fleste av de andre studentene er voksne som henne.\n\nPå fagskolen lærte hun hvordan kroppen tåler tunge løft, hvorfor det er bedre å løfte med beina enn med ryggen, og hvordan en arbeidsplass kan bygges slik at færre blir skadet. Det var den beste formen for etterutdanning hun noen gang hadde tatt.\n\nI dag har Marit en ny rolle. Hun jobber fortsatt på lageret halve uka, men resten av tiden tar hun oppdrag for andre bedrifter. Hennes første oppdragsgiver var et bakeri som ville ha råd om hvordan de ansatte kunne stå bedre ved disken. Den neste oppdragsgiveren var en barnehage, der de voksne satt på små stoler hele dagen. Hver oppdragsgiver har sine egne problemer, men kroppen er den samme overalt.\n\nRyggen hennes er bedre nå. Marit sier at det ikke var den nye kunnskapen alene som hjalp; det var også å bli tatt på alvor. Hun tenker ofte at fagbevegelsen fortsatt har en jobb å gjøre, selv om det ikke lenger handler om tolv timers dager.\n\nSpørsmål:\nHvor jobber Marit?\nHun jobber på lageret til et stort varehus i Trondheim.\nHva viser tallene på landsbasis?\nDe viser at smerter i rygg og nakke er en av de vanligste grunnene til at folk er borte fra jobben.\nHva sa bestyreren alltid?\nHan sa at varehuset måtte tenke på inntjening.\nHva har arbeiderbevegelsen kjempet fram?\nDen har kjempet fram åtte timers arbeidsdag, ferie og lønn under sykdom.\nHva betyr det at Marit får lønnet etterutdanning?\nDet betyr at Marit får lønn mens hun studerer på fagskolen.\nHvem var Marits første oppdragsgiver?\nEt bakeri som ville ha råd om hvordan de ansatte kunne stå bedre ved disken."
+    },
+    {
+      "title": "Kroppen kommer for sent fram",
+      "summary": "A traveller flies to Kyoto, feels the effects of the long flight and the time difference, and visits a World Heritage temple while his body catches up.",
+      "newWords": [
+        "reisetid",
+        "luftfart",
+        "uvirkelig",
+        "verdensarv",
+        "landemerke",
+        "skue",
+        "arkitektonisk",
+        "nybygg",
+        "verneverdig",
+        "miljømessig"
+      ],
+      "text": "Det tok meg 22 timer å komme fra Oslo til Kyoto. Reisetida var lang: to fly, en lang ventetid på en flyplass i Europa og en time med tog til slutt. Men reisetid er ikke bare et tall på en billett. Den setter seg i kroppen.\n\nFør reisa leste jeg litt om hva luftfart gjør med kroppen. Høyt oppe i lufta, 10 000 meter over bakken, er lufta i flyet tørr, og trykket er lavere enn på bakken. Beina blir tykke når man sitter stille lenge, og derfor ble vi bedt om å reise oss og gå litt. Moderne luftfart har gjort verden liten, men kroppen har ikke fulgt med. Den indre klokka vår, som styrer når vi blir trøtte og sultne, flytter seg bare omtrent én time per døgn.\n\nJapan ligger sju timer foran Norge. Den første natta i Kyoto var jeg lys våken klokka tre, og klokka tre om ettermiddagen sovnet jeg på en benk. Alt føltes uvirkelig. Lyset var feil, maten kom til feil tid, og jeg hørte min egen stemme som om den kom fra et annet rom. Denne uvirkelige følelsen er vanlig etter lange reiser østover, fordi kroppen sier natt mens øynene ser dag.\n\nRådet jeg hadde fått, var å gå ut i dagslyset så tidlig som mulig. Og Kyoto har mye å gå ut til. Byen har 17 steder som står på lista over verdensarv. Verdensarv er steder som er så viktige for menneskeheten at hele verden har ansvar for å ta vare på dem. Jeg gikk til et gammelt tempel i tre, et landemerke som har stått der i flere hundre år. Tempelet står til skue for tusenvis av turister hver dag, men tidlig om morgenen var det nesten tomt.\n\nDet arkitektoniske er det jeg husker best. Taket bøyde seg ut over veggene som sidene på en båt, og hele bygningen var satt sammen nesten uten spiker. Arkitektonisk var det enkelt og samtidig utrolig presist. Noen kvartaler unna stod et nybygg i glass og betong, et nytt hotell. Det nye hotellet var sikkert praktisk, men ingen hadde stilt det til skue på noen liste. Det gamle tempelet er verneverdig; det nye er det ikke, i hvert fall ikke ennå. Kanskje blir også dagens nybygg verneverdige om tre hundre år, og kanskje blir de landemerker for en ny tid.\n\nPå den fjerde dagen våknet jeg klokka sju, sulten til riktig tid og ikke lenger trøtt. Verden var ikke lenger uvirkelig. Kroppen hadde endelig kommet fram.\n\nJeg har tenkt mye på reisa etterpå. Miljømessig er en flytur til Japan kostbar; den slipper ut like mye som det en bil slipper ut på mange måneder. Jeg kommer ikke til å fly så langt ofte, nettopp fordi det er så dårlig miljømessig. Men jeg er glad for at jeg fikk se et landemerke som har stått der lenger enn noen av oss husker, selv om kroppen min trengte tre dager på å komme etter.\n\nSpørsmål:\nHvor lang var reisetida fra Oslo til Kyoto?\nReisetida var 22 timer.\nHva gjør luftfart med kroppen?\nLufta er tørr, trykket er lavere, og beina blir tykke når man sitter stille lenge.\nHvorfor føltes alt uvirkelig de første dagene?\nFordi kroppen sa natt mens øynene så dag.\nHva er verdensarv?\nDet er steder som er så viktige for menneskeheten at hele verden har ansvar for å ta vare på dem.\nHva husker fortelleren best fra tempelet?\nHan husker det arkitektoniske best: taket som bøyde seg ut, og at bygningen var satt sammen nesten uten spiker.\nHvorfor vil han ikke fly så langt ofte?\nFordi en så lang flytur er dårlig miljømessig."
+    },
+    {
+      "title": "Hjernens kart",
+      "summary": "A profile of a young brain researcher who studies how the brain knows where the body is, from her master's thesis to a large research project.",
+      "newWords": [
+        "stipendiat",
+        "masteroppgave",
+        "forskningsprosjekt",
+        "forskningsråd",
+        "lokalisering",
+        "anekdote",
+        "maskinvare",
+        "avansere",
+        "ettertanke"
+      ],
+      "text": "Nora Lie er stipendiat ved universitetet i Trondheim. En stipendiat er en ung forsker som får lønn i tre eller fire år for å skrive en doktorgrad. Nora studerer hvordan hjernen finner fram, og hvordan den til enhver tid vet hvor kroppen er i rommet.\n\nDet hele begynte med masteroppgaven hennes. I masteroppgaven undersøkte hun hvordan mus lærer seg veien gjennom en liten bane med mange svinger. Hun ble så opptatt av spørsmålet at hun søkte om å fortsette som stipendiat. Nå er hun en del av et større forskningsprosjekt med tolv forskere fra fire land. Forskningsprosjektet får penger fra forskningsrådet, det statlige organet som deler ut midler til norsk forskning. Uten støtte fra forskningsrådet ville prosjektet ikke ha eksistert.\n\nProsjektet handler om lokalisering, og ordet betyr her to ting. For det første gjelder det hvordan hjernen lokaliserer kroppen: hvordan den vet hvor vi står, og hvilken vei vi ser. For det andre gjelder det lokaliseringen av oppgaver i selve hjernen: hvilke celler som gjør hva, og hvor de sitter. Lokalisering i begge betydninger er et av de store temaene i moderne forskning på hjernen.\n\nNår Nora forklarer dette for folk utenfor faget, liker hun å fortelle en anekdote. Den handler om sjåfører av taxi i London, som må lære seg tusenvis av gater i hodet. Forskere fant ut at en bestemt del av hjernen deres var større enn hos andre. «Anekdoten er sann,» sier hun, «men en anekdote er ikke et bevis i seg selv. Den er bare en god historie som får folk til å lytte.»\n\nArbeidsdagen hennes er mindre romantisk. Laboratoriet er fullt av maskinvare: datamaskiner, skjermer og små instrumenter som registrerer signaler fra enkelte celler. Maskinvaren er dyr og må passes på hele tiden. Hvis maskinvaren svikter midt i et forsøk, må hun begynne på nytt. Mye av tida går også med til å skrive programmer som kan tolke signalene.\n\nNora håper å avansere i forskningen. Hun vet at veien er lang. Etter doktorgraden må de fleste jobbe i flere år på korte kontrakter før de kan avansere til en fast stilling, og mange gir opp underveis. «Det er ikke nok å være flink,» sier hun. «Man må også tåle å vente.»\n\nHun har likevel ingen planer om å slutte. Etter en lang dag i laboratoriet går hun hjem langs elva, og hun sier at turen gir henne tid til ettertanke. På slike turer tenker hun ofte på at hjernen hennes gjør nettopp det hun forsker på. Den vet hvor hun er, hvilken vei hun går, og hvor hun skal svinge, uten at hun selv tenker over det. Etter litt ettertanke synes hun det er det mest fantastiske av alt.\n\nSpørsmål:\nHva er en stipendiat?\nEn stipendiat er en ung forsker som får lønn i noen år for å skrive en doktorgrad.\nHva undersøkte Nora i masteroppgaven sin?\nHun undersøkte hvordan mus lærer seg veien gjennom en bane med mange svinger.\nHvem gir penger til forskningsprosjektet?\nForskningsrådet, det statlige organet som deler ut midler til norsk forskning, gir penger til prosjektet.\nHvilke to betydninger har lokalisering i prosjektet?\nDet gjelder både hvordan hjernen lokaliserer kroppen, og hvor ulike oppgaver sitter i selve hjernen.\nHvorfor er en anekdote ikke et bevis?\nFordi den bare er en god historie som får folk til å lytte.\nNår får Nora tid til ettertanke?\nHun får tid til ettertanke når hun går hjem langs elva etter en lang dag."
+    },
+    {
+      "title": "Kroppen som vitne",
+      "summary": "A calm report on how a cork with traces of saliva, analysed again with modern DNA methods, cleared a man wrongly convicted of a kidnapping.",
+      "newWords": [
+        "kidnapping",
+        "konfiskere",
+        "kork",
+        "skandaløs",
+        "analytiker",
+        "riksadvokat",
+        "etterspill"
+      ],
+      "text": "Kroppen etterlater spor overalt. Hver gang vi tar på en dør, drikker av en flaske eller børster håret, legger vi igjen små deler av oss selv. I slike spor finnes DNA, og det er nesten like personlig som et fingeravtrykk. Denne saken viser hvor mye det kan bety.\n\nVåren 1991 ble en forretningsmann i en liten by på Østlandet utsatt for en kidnapping. To menn tok ham med seg fra parkeringsplassen utenfor kontoret og holdt ham innelåst i en hytte i to døgn. Familien betalte, og han ble satt fri uten skader. Kidnappingen var en av de mest omtalte sakene det året.\n\nPolitiet lette gjennom hytta og konfiskerte alt som kunne være et spor: et teppe, noen sigaretter og en tom flaske med korken på. Korken ble lagt i en liten pose og merket. Teknikken den gangen var for enkel til at man kunne lese mye ut av så små spor, og korken ble liggende i et arkiv.\n\nEn lokal mann ble likevel dømt for kidnappingen. Ingen kunne si hvor han hadde vært den dagen, og ett vitne mente å ha sett bilen hans i nærheten. Han sa hele tiden at han var uskyldig, og han satt flere år i fengsel.\n\n24 år senere tok en ung analytiker ved et laboratorium saken opp igjen som en del av en gjennomgang av gamle bevis. Hun fant den konfiskerte korken i arkivet. Med moderne metoder kunne hun nå finne DNA fra spyttet som hadde tørket inn på korken for så mange år siden. Analytikeren sammenlignet resultatet med et register. Det var ikke DNA fra den dømte mannen. Det tilhørte en annen mann, som allerede var straffet for andre forbrytelser.\n\nSaken gikk videre til riksadvokaten, landets øverste leder av påtalemyndigheten. Riksadvokaten gikk gjennom den gamle dommen og la fram de nye bevisene for retten. Kort tid senere ble mannen frikjent.\n\nSaken fikk et langt etterspill. Mange aviser kalte det skandaløst at et menneske hadde sittet i fengsel på så svake bevis. Den frikjente mannen selv brukte et annet ord. Han sa at det var skandaløst, ja, men at han mest av alt var glad for at noen hadde tatt vare på en liten kork. Han fikk erstatning fra staten. Som et etterspill av saken ba riksadvokaten også om at flere gamle saker skulle gjennomgås på samme måte.\n\nAnalytikeren sier i dag at hun tenker på saken hver gang hun åpner en pose med gamle bevis. «Kroppen lyver ikke,» sier hun. «Men vi må ha tålmodighet til å lytte, og vi må ta vare på det den etterlater.»\n\nSpørsmål:\nHva skjedde våren 1991?\nEn forretningsmann ble utsatt for en kidnapping og holdt innelåst i en hytte i to døgn.\nHva konfiskerte politiet i hytta?\nPolitiet konfiskerte et teppe, noen sigaretter og en tom flaske med korken på.\nHva fant analytikeren på korken?\nHun fant DNA fra spytt, og det tilhørte ikke den dømte mannen.\nHvem gikk gjennom den gamle dommen?\nRiksadvokaten gikk gjennom dommen og la fram de nye bevisene.\nHva var etterspillet av saken?\nMange kalte saken skandaløs, mannen fikk erstatning, og flere gamle saker skulle gjennomgås."
+    },
+    {
+      "title": "Når laget blir sykt",
+      "summary": "A team doctor explains why athletes fall ill near the end of the season, how the immune system works like a team, and where new viruses come from.",
+      "newWords": [
+        "sesongslutt",
+        "tet",
+        "omkamp",
+        "utpreget",
+        "konvoi",
+        "slu",
+        "flaggermus",
+        "mink",
+        "farm",
+        "verdensomspennende"
+      ],
+      "text": "Våren er en sårbar tid for idrettsutøvere. Mot sesongslutt er kroppen sliten etter mange måneder med trening og kamper, og mange blir syke akkurat når det betyr mest. Jeg er lege for et fotballag for kvinner, og jeg ser det samme hvert år før sesongslutt.\n\nI år lå laget vårt i tet i serien med tre kamper igjen. Å ligge i tet betyr å ligge først, og jentene hadde ligget i tet siden sommeren. To dager før en viktig kamp hadde ni spillere feber. Kampen ble utsatt, og forbundet bestemte at den skulle spilles som en omkamp en uke senere. Til omkampen var de fleste friske igjen.\n\nHvorfor blir de som trener mest, syke? Hard trening er bra for kroppen, men rett etter en tøff økt er forsvaret mot sykdom svekket i noen timer. Hvis man trener hardt hver dag og sover for lite, får kroppen ikke tid til å hente seg inn.\n\nJeg pleier å si til spillerne at forsvaret vårt mot sykdom er et utpreget samarbeid, akkurat som på et lag. Ingen celle klarer jobben alene. Når et virus kommer inn i kroppen, sender kroppen ut et signal, og de hvite cellene i blodet beveger seg mot stedet som en konvoi. Konvoien består av mange slags celler med ulike oppgaver: noen spiser viruset, andre lager stoffer som merker det, og andre husker det til neste gang. Når konvoien kommer fram, blir stedet rødt, varmt og hovent. Det er det vi kaller en betennelse, og den er et tegn på at forsvaret virker.\n\nViruset er derimot slu. Det kan ikke leve av seg selv, så det går inn i cellene våre og bruker dem til å lage kopier av seg selv. Noen virus er så slue at de endrer seg litt hver vinter, slik at kroppen ikke kjenner dem igjen. Derfor kan man få influensa flere ganger.\n\nMange nye virus kommer fra dyr. Flaggermus bærer på et stort antall virus uten å bli syke selv; forskere tror at flaggermusa har et utpreget sterkt forsvar. Under den store epidemien for noen år siden ble viruset også funnet hos mink. På farmene i flere land i Europa ble alle dyrene avlivet. På én farm kunne det være tusenvis av mink tett sammen, og der kunne viruset spre seg raskt. Epidemien ble verdensomspennende i løpet av noen uker, og det viste hvor tett hele verden henger sammen. I dag finnes det et verdensomspennende samarbeid mellom laboratorier som følger med på nye virus.\n\nLaget vårt vant omkampen og ligger fortsatt i tet. Før sesongslutt har jeg gitt spillerne tre enkle råd: sov åtte timer, spis ordentlig, og vask hendene. Det høres lite ut, men det er ofte nok.\n\nSpørsmål:\nHvorfor blir mange idrettsutøvere syke mot sesongslutt?\nKroppen er sliten etter mange måneder med trening og kamper, og forsvaret er svekket etter tøffe økter.\nHva betyr det å ligge i tet?\nDet betyr å ligge først i serien.\nHvorfor ble det spilt en omkamp?\nFordi ni spillere hadde feber, og kampen ble utsatt.\nHvordan beveger de hvite cellene seg mot et virus?\nDe beveger seg mot stedet som en konvoi.\nHvorfor er viruset slu?\nDet går inn i cellene og bruker dem til å lage kopier av seg selv, og noen virus endrer seg hver vinter.\nHvilke råd har legen gitt spillerne før sesongslutt?\nLegen har bedt dem sove åtte timer, spise ordentlig og vaske hendene."
+    }
+  ]
+}
