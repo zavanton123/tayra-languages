@@ -1,0 +1,215 @@
+{
+  "id": "sv-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Tal och tänkande",
+  "description": "Stories, columns, a review and an interview about numbers and reasoning: card odds, a small business, election promises, a school experiment, an X-ray, a farm, an admiral's charts, an interpreter, housework and the mathematics of revenge.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Karin",
+    "Karins",
+    "Lena",
+    "Mattias",
+    "Olle",
+    "Olles",
+    "Sara Lind",
+    "Sara",
+    "Saras",
+    "Örebro",
+    "Berlin",
+    "Sverige",
+    "Lund",
+    "Jonas Ek",
+    "Jonas",
+    "Elin",
+    "Hanna Sund",
+    "Hanna",
+    "Uppsala",
+    "Ingrid",
+    "Gustav Holm",
+    "Gustav",
+    "Gustavs",
+    "Holm",
+    "Maria Sjöberg",
+    "Sjöberg",
+    "Sjöbergs",
+    "Johan Falk",
+    "Falk",
+    "Falks",
+    "Karlskrona",
+    "Ioana Lindqvist",
+    "Ioana",
+    "Rumänien",
+    "Malmö",
+    "Danmark",
+    "Korea",
+    "Samir"
+  ],
+  "lessons": [
+    {
+      "title": "Jokern på fredagskvällen",
+      "summary": "On a December Friday evening a maths teacher shows his family how the chance of drawing the joker grows with every card.",
+      "newWords": [
+        "fredagskväll",
+        "joker",
+        "svåger",
+        "cider",
+        "lakrits",
+        "kanel",
+        "töntig",
+        "hysteriskt",
+        "digga",
+        "julgran"
+      ],
+      "text": "Det var en fredagskväll i december, och Karin hade bjudit hem sin syster Lena och sin svåger Mattias. Julgranen stod redan klädd i hörnet av vardagsrummet, och hela rummet luktade skog. På bordet fanns en skål med salt lakrits, ett fat med bullar som doftade kanel och en flaska kall cider till var och en. Karins son Olle, som var tolv år, hade bestämt att kvällen skulle ägnas åt ett spel med kort.\n\n”Vi lägger jokern i leken”, sa Olle. ”Sedan drar vi ett kort var, varvet runt. Den som drar jokern har vunnit och får den sista bullen.”\n\nMattias undervisar i matematik på ett gymnasium, och han kan sällan låta bli att räkna. ”Då finns det 53 kort i leken”, sa han. ”Chansen att jokern kommer i första draget är alltså en på 53. Det är knappt två procent.”\n\n”Du är så töntig”, sa Olle och skrattade. ”Man räknar inte när man spelar.”\n\n”Jo, det är just då man ska räkna”, svarade Mattias. ”Titta nu. Varje gång någon drar ett vanligt kort, blir det ett kort mindre kvar, men jokern finns fortfarande bland dem. När bara tio kort återstår, är chansen en på tio. Ju färre kort som är kvar, desto större är chansen för den som drar.”\n\nLena himlade med ögonen. ”Det är fredagskväll, inte en lektion”, sa hon och tog en bit lakrits. Men Karin tyckte att det var intressant. Hon hade aldrig tänkt på att varje kort som drogs ändrade chansen för alla andra.\n\nDe spelade i nästan en timme. Kort efter kort hamnade på bordet, och ingen fick jokern. Efter 40 kort fanns det 13 kvar, och Mattias förklarade att chansen nu var en på 13 för den som drog härnäst. Det var Olles tur. Han blundade, drog ett kort och vände på det. Det var jokern.\n\nHela familjen skrattade hysteriskt. Olle hoppade upp från stolen och dansade runt julgranen med kortet i handen, och Lena skrattade så hysteriskt att hon nästan spillde ut sin cider.\n\n”Där ser du”, sa Olle till Mattias. ”Jag räknade inte, och jag vann ändå.”\n\n”Ja”, sa Mattias och log. ”Men om du hade räknat, hade du vetat att din chans aldrig hade varit större än just då.”\n\nOlle åt den sista bullen med kanel och funderade en stund. ”Okej”, sa han till slut. ”Jag diggar faktiskt det där med att räkna. Du är kanske inte så töntig ändå.”\n\n”Bra”, sa Mattias. ”Då spelar vi en gång till, och den här gången räknar du.”\n\n”Det diggar jag”, sa Olle och blandade korten.\n\nFrågor:\nVad fanns på bordet den här fredagskvällen?\nDet fanns salt lakrits, bullar som doftade kanel och kall cider.\nVem är Mattias?\nMattias är Karins svåger, och han undervisar i matematik.\nHur stor var chansen att jokern kom i första draget?\nChansen var en på 53, alltså knappt två procent.\nVarför blev chansen större under spelets gång?\nEftersom det blev ett kort mindre kvar varje gång någon drog ett vanligt kort.\nVem drog jokern, och vad gjorde han sedan?\nOlle drog jokern, och sedan dansade han runt julgranen.\nVad sa Olle om att räkna på slutet?\nHan sa att han diggar det och att Mattias kanske inte är så töntig ändå."
+    },
+    {
+      "title": "Hus av papp",
+      "summary": "A young woman works out the numbers behind her idea of selling cardboard playhouses, and the business takes off.",
+      "newWords": [
+        "affärsidé",
+        "papp",
+        "bokföring",
+        "rabattkod",
+        "broschyr",
+        "skyhög",
+        "avboka",
+        "optimistisk",
+        "överlycklig",
+        "poppis"
+      ],
+      "text": "Sara Lind var 26 år och bodde i Örebro. Under flera år hade hon burit på en affärsidé: hon ville tillverka små hus av papp som barn kan leka i. Den papp hon ville använda skulle vara tjock och stark, och husen skulle gå att vika ihop när de inte användes. Hennes vänner tyckte att idén var bra, men Sara visste att en affärsidé inte är värd mycket om siffrorna inte går ihop.\n\nDärför satte hon sig en kväll med papper och penna. Ett hus krävde fyra stora skivor papp, och varje skiva kostade 30 kronor. Till det kom färg, lim och en låda att skicka huset i. Allt som allt kostade materialet ungefär 200 kronor per hus. Om hon tog 600 kronor för ett hus, skulle hon tjäna 400 kronor, åtminstone på papperet.\n\nMen det visade sig snart att frakten var skyhög. Att skicka ett stort paket med posten kostade nästan 250 kronor, och plötsligt var vinsten bara hälften så stor. Sara var ändå optimistisk. Hon kom på att hon kunde vika husen platta, så att paketen blev mindre. Då sjönk frakten till 90 kronor. Det som först hade sett skyhögt ut var plötsligt rimligt.\n\nSara visste också att bokföring är en viktig del av varje företag. Hon lärde sig att föra in varje inköp och varje försäljning, och hon sparade alla kvitton i en pärm. Bokföringen tog tid, men den visade henne precis vart pengarna tog vägen.\n\nFör att hitta sina första kunder tryckte hon en broschyr med bilder på husen. Hon lämnade broschyren på bibliotek och förskolor, och längst ner i varje broschyr fanns en rabattkod. Den som skrev in rabattkoden på hennes hemsida fick 15 procent rabatt. Genom att räkna hur många som använde rabattkoden kunde Sara se vilka ställen som gav flest kunder.\n\nSamtidigt hade hon bokat en resa till Berlin med en vän. När beställningarna började komma, insåg hon att hon inte skulle hinna packa alla paket. Hon ringde sin vän och förklarade läget, och sedan avbokade hon resan. ”Det är tråkigt att avboka”, sa hon, ”men jag kan resa i vår i stället.”\n\nEfter tre månader var husen av papp kända i hela stan. ”Alla på förskolan pratar om dem”, sa en mamma till Sara. ”Dina hus är verkligen poppis.” Hennes dotter höll med: ”Jag har det mest poppis huset i hela min klass!”\n\nSara gick igenom bokföringen och såg att hon hade sålt 120 hus. När hon hade dragit av alla kostnader, hade hon ett överskott på 30 000 kronor. Hon var överlycklig. Hon ringde sin mamma och berättade, och mamman blev nästan lika överlycklig som hon.\n\n”Jag var optimistisk från början”, sa Sara, ”men jag är glad att jag räknade först.”\n\nFrågor:\nVad var Saras affärsidé?\nHon ville tillverka små hus av papp som barn kan leka i.\nHur mycket kostade materialet till ett hus?\nMaterialet kostade ungefär 200 kronor per hus.\nHur gjorde Sara för att frakten inte skulle bli så skyhög?\nHon vek husen platta, så att paketen blev mindre och frakten sjönk till 90 kronor.\nVarför fanns det en rabattkod i varje broschyr?\nSå att Sara kunde räkna hur många som använde koden och se vilka ställen som gav flest kunder.\nVarför avbokade Sara resan till Berlin?\nHon skulle inte hinna packa alla paket när beställningarna började komma.\nHur mycket tjänade hon på de första tre månaderna?\nHon hade ett överskott på 30 000 kronor, och hon var överlycklig."
+    },
+    {
+      "title": "Vad kostar ett vallöfte?",
+      "summary": "A retired civics teacher argues in a column that voters should ask what every election promise costs and who pays.",
+      "newWords": [
+        "vallöfte",
+        "välfärdsstat",
+        "nyliberal",
+        "sanktion",
+        "påtryckning",
+        "gruppering",
+        "förkasta",
+        "exkludera",
+        "relevans"
+      ],
+      "text": "Inför varje val fylls tidningarna av vallöften. Ett parti lovar lägre skatt, ett annat lovar fler lärare, ett tredje lovar både och. Som pensionerad lärare i samhällskunskap har jag lärt mig att ställa en enkel fråga till varje vallöfte: vad kostar det, och vem ska betala?\n\nTa ett exempel. Ett parti lovar att anställa 10 000 nya sjuksköterskor. Det låter bra. Men om varje sjuksköterska kostar 600 000 kronor om året, med lön och avgifter, blir notan sex miljarder kronor per år. Det är inte nödvändigtvis för mycket, men det är en siffra som väljaren har rätt att få veta. Ett vallöfte utan siffror är som ett recept utan mängder.\n\nFrågan om pengar leder snart till frågan om vad staten ska göra. Den svenska välfärdsstaten bygger på att alla betalar skatt och att alla får vård, skola och omsorg. Den som försvarar välfärdsstaten menar att den är både rättvis och effektiv. En nyliberal debattör ser saken på ett annat sätt. Han eller hon menar att staten tar för stor del av människors pengar och att marknaden ofta kan göra jobbet bättre och billigare. Jag delar inte alltid den nyliberala synen, men jag tycker att argumenten förtjänar att tas på allvar. Båda sidor har nämligen siffror att visa upp, och båda sidor väljer gärna de siffror som passar dem.\n\nDet är här räknandet får sin relevans. En siffra har ingen relevans i sig själv, utan den måste jämföras med något. Sex miljarder kronor är mycket pengar för en familj, men det är bara en liten del av statens budget. Den som inte jämför riskerar att antingen förkasta ett bra förslag eller godta ett dåligt. Jag har sett politiker förkasta idéer bara för att de kom från fel parti, och det gör mig alltid lite ledsen.\n\nMan bör också fråga vem som räknas med. Ibland exkluderar en beräkning vissa grupper, till exempel pensionärer eller studenter, för att resultatet ska se bättre ut. Att exkludera en grupp är inte alltid fel, men det måste sägas öppet, så att läsaren förstår vad siffran visar.\n\nVad händer då om ett parti bryter sitt vallöfte? I Sverige finns ingen formell sanktion. Den enda sanktionen är att väljarna kan rösta på någon annan nästa gång. Det låter svagt, men det är i själva verket en kraftfull påtryckning. Partierna känner också påtryckningar från andra håll: från fackförbund, från företag och från olika grupperingar inom det egna partiet. En gruppering vill spara, en annan gruppering vill satsa, och vallöftet blir ofta en kompromiss mellan dem.\n\nMitt råd till dig som väljare är därför enkelt. Ta fram en penna när du läser ett vallöfte. Fråga vad det kostar, vem som betalar och vad pengarna annars skulle ha använts till. Då blir valet inte lättare, men det blir klokare.\n\nFrågor:\nVilken fråga ställer skribenten till varje vallöfte?\nSkribenten frågar vad vallöftet kostar och vem som ska betala.\nHur mycket skulle 10 000 nya sjuksköterskor kosta?\nDe skulle kosta sex miljarder kronor per år.\nVad bygger den svenska välfärdsstaten på?\nDen bygger på att alla betalar skatt och att alla får vård, skola och omsorg.\nHur ser en nyliberal debattör på staten?\nEn nyliberal debattör menar att staten tar för stor del av människors pengar och att marknaden ofta kan göra jobbet bättre.\nVarför måste en siffra jämföras med något?\nEftersom en siffra inte har någon relevans i sig själv, och den som inte jämför kan förkasta ett bra förslag.\nVilken sanktion finns om ett parti bryter sitt vallöfte?\nDen enda sanktionen är att väljarna kan rösta på någon annan nästa gång."
+    },
+    {
+      "title": "Klassen som kvalade",
+      "summary": "A school class that has qualified for a science final measures how fast colour spreads in warm and cold water.",
+      "newWords": [
+        "kvala",
+        "skoldag",
+        "radie",
+        "trådlös",
+        "mätare",
+        "ointresserad",
+        "molekyl",
+        "härma",
+        "bearbetning",
+        "vägledning"
+      ],
+      "text": "Det var en vanlig skoldag på en skola i Lund, men för klass 8B var den inte helt vanlig. Klassen hade nämligen kvalat till finalen i en tävling i naturvetenskap, och nu hade eleverna två veckor på sig att göra klart sitt projekt. Bara sex klasser i hela landet hade kvalat, och läraren Jonas Ek var mycket stolt.\n\nProjektet handlade om en enkel fråga: sprider sig färg snabbare i varmt vatten än i kallt? Eleverna droppade en droppe blå färg i mitten av en stor, platt skål med vatten. Sedan mätte de radien på den blå cirkeln varje minut. Radien är avståndet från mitten av cirkeln till kanten. I kallt vatten växte radien långsamt, och i varmt vatten växte den mycket snabbare.\n\nFör att veta exakt hur varmt vattnet var använde de små trådlösa mätare. Varje mätare skickade temperaturen till en dator utan någon sladd. ”Det fina med en trådlös mätare är att vi inte behöver röra vattnet”, förklarade Jonas.\n\nAlla i klassen var inte lika glada. Elin satt längst bak och såg ointresserad ut. ”Varför spelar det någon roll hur fort färg sprider sig?” frågade hon. Jonas tog frågan på allvar. ”Det handlar om molekyler”, sa han. ”Allt vatten består av små molekyler som hela tiden rör sig. Ju varmare vattnet är, desto snabbare rör sig molekylerna, och desto snabbare knuffar de färgen åt sidan.”\n\nFör att visa det bad han eleverna ställa sig upp och härma molekylerna. De som var kallt vatten gick långsamt runt i klassrummet, och de som var varmt vatten sprang. Elin skrattade och började också härma en molekyl. Plötsligt såg hon inte längre ointresserad ut.\n\nNästa steg var bearbetningen av alla siffror. Klassen hade mätt radien över hundra gånger, och nu skulle siffrorna föras in i datorn och ritas som kurvor. Bearbetning av data tar tid, och det är lätt att göra fel. Jonas gav dem vägledning: ”Kontrollera varje siffra två gånger, och ta bort de mätningar där mätaren visade något konstigt.” Med hans vägledning blev kurvorna tydliga. I vatten som var 40 grader växte radien tre gånger så fort som i vatten som var 10 grader.\n\nElin var den som till slut höll i presentationen för klassen. ”Vi har visat att molekylerna rör sig snabbare när det är varmt”, sa hon. ”Och vi har räknat på det.” Efter den skoldagen var det ingen i klassen som var ointresserad av finalen.\n\nFrågor:\nVarför var det inte en helt vanlig skoldag för klass 8B?\nKlassen hade kvalat till finalen i en tävling i naturvetenskap.\nVad mätte eleverna varje minut?\nDe mätte radien på den blå cirkeln i vattnet.\nVad är det fina med en trådlös mätare?\nMan behöver inte röra vattnet, eftersom mätaren skickar temperaturen utan sladd.\nVarför sprider sig färgen snabbare i varmt vatten?\nEftersom molekylerna rör sig snabbare när vattnet är varmt.\nHur fick Jonas Elin att bli intresserad?\nHan bad eleverna härma molekylerna, och Elin skrattade och gjorde som de andra.\nVilken vägledning gav Jonas under bearbetningen?\nHan sa att de skulle kontrollera varje siffra två gånger och ta bort konstiga mätningar."
+    },
+    {
+      "title": "Den svullna foten",
+      "summary": "A gymnastics coach twists her foot at a fancy-dress party, and a doctor explains the X-ray, the swelling and how long healing takes.",
+      "newWords": [
+        "maskerad",
+        "gymnastik",
+        "svullna",
+        "stråle",
+        "kroppsdel",
+        "förmodan",
+        "immunförsvar",
+        "gnagare",
+        "dunka",
+        "lilja"
+      ],
+      "text": "Hanna Sund arbetade som tränare i gymnastik för barn i Uppsala. En lördag i februari gick hon på en maskerad hos en väninna. Hon var utklädd till clown med stora röda skor, och just skorna blev hennes olycka. Mitt i en dans snubblade hon och vek foten under sig.\n\nFörst trodde hon att det inte var något allvarligt. Men efter en halvtimme hade foten börjat svullna, och efter en timme hade den svullnat så mycket att skon inte gick att ta av. Väninnan körde henne från maskeraden till akuten.\n\nPå sjukhuset ville läkaren ta en bild av foten med röntgen. Hanna var lite orolig för strålarna. ”Är det farligt?” frågade hon. Läkaren förklarade lugnt att strålarna vid röntgen av en fot är mycket svaga. ”Strålarna riktas bara mot den kroppsdel som ska undersökas”, sa hon. ”En fot är en liten kroppsdel, och du får inte mer än vad du får från naturen under ett par dagar.”\n\nBilderna visade att foten mot förmodan inte var bruten. Hanna hade varit säker på att den var bruten, men läkaren sa att det var en vanlig stukning. ”Mot all förmodan har du haft tur”, sa hon och log.\n\nHanna ville förstå varför foten hade svullnat så mycket. ”När en kroppsdel skadas, skickar immunförsvaret blod och vätska dit för att laga skadan”, förklarade läkaren. ”Svullnaden är alltså ett tecken på att immunförsvaret arbetar.” Hanna frågade om hon borde ta tabletter mot svullnaden. Läkaren berättade att forskare hade studerat frågan, först på gnagare som möss och råttor och sedan på människor. ”Försöken på gnagare visade att lite svullnad hjälper foten att läka”, sa hon. ”Men för mycket svullnad gör ont och gör foten stel. Därför ska du lägga foten högt och hålla den kall.”\n\nPå natten låg Hanna i sängen och kände hur det dunkade i foten, i takt med hjärtat. Hon räknade slagen och kom fram till 70 i minuten. Hon kom ihåg vad läkaren hade sagt och lade foten på en kudde. Efter en stund slutade det att dunka så hårt, och hon somnade.\n\nDagen efter kom några av barnen från gymnastiken på besök med en bukett liljor. ”Vi saknar dig”, sa de. Liljorna stod på bordet i köket och doftade hela veckan.\n\nLäkaren hade sagt att en stukning tar fyra till åtta veckor att läka. Efter sex veckor kunde Hanna gå tillbaka till gymnastiken, precis i mitten av den tiden. Hon har inte gått på någon maskerad sedan dess, men nästa gång tänker hon välja mindre skor.\n\nFrågor:\nHur skadade Hanna foten?\nHon snubblade i sina stora skor mitt i en dans på en maskerad.\nVarför var Hanna orolig på sjukhuset?\nHon var orolig för strålarna från röntgen.\nVad visade bilderna?\nBilderna visade att foten mot förmodan inte var bruten.\nVarför svullnar en kroppsdel som skadas?\nEftersom immunförsvaret skickar blod och vätska dit för att laga skadan.\nVad hade forskarna sett i försöken på gnagare?\nDe hade sett att lite svullnad hjälper foten att läka, men att för mycket svullnad gör ont.\nVad fick Hanna av barnen från gymnastiken?\nHon fick en bukett liljor."
+    },
+    {
+      "title": "Gården vid landsvägen",
+      "summary": "A reporter visits a farm in south-west Sweden where the farmers count calves, trees, kilowatts and slugs.",
+      "newWords": [
+        "sydvästra",
+        "landsväg",
+        "kanna",
+        "kalv",
+        "skogsbruk",
+        "flak",
+        "vattenkraft",
+        "fjärran",
+        "lok",
+        "snigel"
+      ],
+      "text": "Gården ligger vid en smal landsväg i sydvästra Sverige, en halvtimme från havet. Här har Ingrid och Gustav Holm bott i 30 år. När jag kommer dit en morgon i maj står Ingrid vid stallet med en kanna mjölk i varje hand. ”Kalvarna vill ha frukost”, säger hon och skrattar.\n\nGården har 40 kor, och varje vår föds ungefär 35 kalvar. En kalv dricker omkring åtta liter mjölk om dagen de första veckorna. Ingrid häller mjölken från kannan i små hinkar, och kalvarna dricker så fort att det skummar. ”Med 35 kalvar blir det nästan 300 liter om dagen”, säger hon. ”Man lär sig att räkna på en gård.”\n\nKorna ger inte tillräckligt att leva på, enligt Gustav. En stor del av inkomsten kommer från skogsbruk. Familjen äger 120 hektar skog, och varje år fäller de träd på en liten del av den. ”I skogsbruk tänker man i långa perioder”, förklarar han. ”Ett träd som jag planterar i dag kan inte fällas förrän om 70 år. Det är mina barnbarn som får pengarna.” För varje träd som fälls planterar de tre nya, eftersom inte alla små träd överlever.\n\nVi kliver upp i Gustavs gamla lastbil. På flaket ligger ved som ska till en granne. Vi kör längs landsvägen, förbi åkrar och små sjöar, och Gustav berättar att han har kört samma landsväg nästan varje dag i hela sitt liv. Efter en stund stannar vi vid en bäck. Där står ett litet rött hus av tegel.\n\n”Det här är vår egen vattenkraft”, säger Gustav stolt. Huset byggdes på 1920-talet, och inne i det snurrar ett hjul som drivs av vattnet i bäcken. Vattenkraften ger el till gården och till tio andra hus i byn. ”Vattnet är gratis”, säger han, ”men maskinen måste skötas. Om man räknar på det, har den betalat sig många gånger om.”\n\nMedan vi lastar av veden från flaket hör vi ett tåg i fjärran. Spåret går över slätten, och långt borta i fjärran syns ett rött lok som drar en lång rad vagnar. ”Förr stannade loket här och hämtade mjölken från gårdarna”, säger Gustav. ”Nu kör det bara förbi.”\n\nPå eftermiddagen visar Ingrid sin trädgård. Hon odlar mycket sallad, men sniglarna äter mer av den än familjen. En kväll i fjol gick hon ut med en lampa och räknade dem. ”Jag hittade 312 sniglar på en enda kväll”, säger hon. ”Om varje snigel äter ett blad, förstår du varför det inte blir mycket sallad kvar.” I år har hon satt upp ett lågt staket av koppar runt landet, och det verkar hjälpa.\n\nInnan jag åker dricker vi kaffe ur en stor kanna i köket. Ingrid och Gustav har räknat på det mesta, men på en sak har de aldrig räknat: hur många timmar de har arbetat. ”Det vill vi inte veta”, säger Ingrid och ler.\n\nFrågor:\nVar ligger gården?\nGården ligger vid en smal landsväg i sydvästra Sverige.\nHur mycket mjölk dricker kalvarna varje dag?\nDe dricker nästan 300 liter om dagen, ungefär åtta liter per kalv.\nVarför tänker man i långa perioder i skogsbruk?\nEftersom ett träd som planteras i dag inte kan fällas förrän om 70 år.\nVad ger gårdens egen vattenkraft?\nDen ger el till gården och till tio andra hus i byn.\nVad hörde de i fjärran när de lastade av flaket?\nDe hörde ett tåg och såg ett rött lok som drog en lång rad vagnar.\nHur många sniglar hittade Ingrid på en kväll?\nHon hittade 312 sniglar på en enda kväll."
+    },
+    {
+      "title": "Amiralen som räknade",
+      "summary": "A review of a biography of an eighteenth-century admiral who charted the archipelago with careful arithmetic.",
+      "newWords": [
+        "biografi",
+        "amiral",
+        "koordinat",
+        "majestät",
+        "monark",
+        "gentleman",
+        "fana",
+        "ikon",
+        "autograf",
+        "adjö"
+      ],
+      "text": "Det är inte ofta som en biografi om en amiral från 1700-talet blir en av årets mest lästa böcker. Men historikern Maria Sjöberg har lyckats. Hennes nya biografi om amiral Johan Falk handlar mindre om krig och mer om något som få väntar sig: matematik.\n\nJohan Falk föddes 1712 i Karlskrona som son till en fattig snickare. Redan som barn räknade han allt han såg: båtarna i hamnen, stjärnorna på himlen, stegen till skolan. Sjöberg beskriver hur en präst upptäckte hans talang och lärde honom att räkna med vinklar och avstånd. Som 15-åring gick Falk till sjöss, och 40 år senare var han amiral i den svenska flottan.\n\nBokens bästa kapitel handlar om hur man hittade rätt på havet. På den tiden var det svårt att veta var ett fartyg befann sig. För att bestämma en plats behöver man två koordinater: hur långt norrut man är och hur långt österut. Den första koordinaten kunde man räkna ut med hjälp av solen. Den andra krävde en mycket exakt klocka, och sådana fanns knappt. Falk löste problemet genom att mäta vinkeln mellan månen och stjärnorna och räkna i flera timmar varje natt. Han bestämde koordinater för hundratals öar i skärgården, och hans kartor användes i nästan hundra år. Sjöberg förklarar matematiken så tydligt att även en läsare utan intresse för siffror hänger med.\n\nFalk hade också en relation till makten. Han skrev ofta brev till kungen, och Sjöberg citerar flera av dem. Breven börjar alltid med ”Ers Majestät”, och tonen är artig men bestämd. När monarken ville skicka flottan ut i en storm, svarade Falk att han hellre förlorade sin tjänst än sina män. Monarken lyssnade, och flottan stannade i hamnen. Några år senare blev Falk inbjuden till slottet, där han fick tacka hans majestät personligen.\n\nEn engelsk kapten som träffade Falk skrev i sin dagbok att svensken var ”en sann gentleman”. Falk behandlade sina sjömän med respekt, och han lät aldrig någon bära fanan framför honom när han gick i land. Fanan var till för fartyget, menade han, inte för honom. I dag är han något av en ikon i den svenska flottan, och hans porträtt hänger på skolor för officerare.\n\nBoken har ändå sina svagheter. Sjöberg är så förtjust i sin gentleman att hans fel nästan försvinner. Vi får veta lite om hans hårda straff mot sjömän som somnade på vakten, och ingenting om hur hans familj hade det när han var borta i åratal. En biografi blir starkare när den visar hela människan, inte bara en ikon.\n\nDet mest rörande avsnittet kommer i slutet. Sjöberg berättar att hon i en gammal bokhandel hittade en bok i matematik med Falks autograf på första sidan. Autografen var skriven med darrande hand, året innan han dog. Hans sista brev till hustrun slutar med orden: ”Adjö, min kära. Räkna stjärnorna åt mig.” Det är svårt att säga adjö till en sådan bok utan att bli berörd.\n\nBetyg: fyra av fem.\n\nFrågor:\nVad handlar Sjöbergs biografi mest om?\nDen handlar mindre om krig och mer om matematik.\nHur många koordinater behöver man för att bestämma en plats?\nMan behöver två koordinater: hur långt norrut och hur långt österut man är.\nHur började breven till kungen?\nBreven började alltid med ”Ers Majestät”.\nVad svarade Falk när monarken ville skicka ut flottan i en storm?\nHan svarade att han hellre förlorade sin tjänst än sina män.\nVilken svaghet har boken?\nSjöberg är så förtjust i sin gentleman att hans fel nästan försvinner.\nVad hittade Sjöberg i en gammal bokhandel?\nHon hittade en bok i matematik med Falks autograf på första sidan."
+    },
+    {
+      "title": "Tolken på polisstationen",
+      "summary": "An interview with an interpreter of Romanian who explains why numbers are the hardest part of her work.",
+      "newWords": [
+        "polisstation",
+        "ombyggnad",
+        "rumänska",
+        "gränskontroll",
+        "somaliska",
+        "koreanska",
+        "palestinier",
+        "spanjor",
+        "anhållen",
+        "snoka"
+      ],
+      "text": "Ioana Lindqvist är 44 år och arbetar som tolk i rumänska. Hon kom till Sverige från Rumänien när hon var tio år, och i dag tolkar hon ofta på polisstationen i Malmö. Vi träffas i ett litet, tillfälligt rum, eftersom polisstationen är under ombyggnad.\n\nHur ser en vanlig dag ut för dig?\n\n”Det finns ingen vanlig dag. Ibland ringer polisen klockan sex på morgonen och berättar att någon har stoppats i en gränskontroll vid bron till Danmark. Om personen bara talar rumänska, åker jag dit. Andra dagar sitter jag här på polisstationen och tolkar i förhör. Ombyggnaden av huset ska vara klar i höst, och då får vi äntligen riktiga rum för tolkning.”\n\nVad är det svåraste med att tolka?\n\n”Siffror, faktiskt. Folk tror att det är de svåra orden, men det är siffrorna som är farligast. Om någon säger att han kom till Sverige den 17 och jag säger den 7, kan det få stora följder. Därför skriver jag alltid ner varje siffra: datum, tider, belopp och adresser. Sedan läser jag upp dem igen för att kontrollera. Det tar några sekunder extra, men på tjugo år har jag aldrig gjort fel på en siffra.”\n\nVilka språk behövs mest på polisstationen?\n\n”Det varierar. Vi är ett tiotal tolkar som delar på arbetet. En kollega tolkar somaliska, och somaliska är ett av de språk som behövs oftast i Malmö. En annan kollega tolkar koreanska, vilket behövs mer sällan. Hon får kanske två samtal om året, oftast när en turist från Korea har blivit av med sitt pass. Ytterligare en kollega, Samir, är palestinier och tolkar arabiska. Han har hjälpt många palestinier som har kommit hit under de senaste åren.”\n\nHur gör du när du inte förstår?\n\n”Då säger jag det. En tolk får aldrig gissa. En gång kom en grupp spanjorer som hade blivit av med sina väskor på stationen. Jag talar inte spanska, men rumänska och spanska liknar varandra, så jag förstod en hel del. Ändå sa jag till polisen att vi behövde en riktig tolk i spanska. Spanjorerna fick vänta en halvtimme, men det var bättre än att jag gissade.”\n\nHänder det att du tolkar för någon som är anhållen?\n\n”Ja, ganska ofta. Den som är anhållen har rätt att förstå vad som händer, och det är mitt ansvar. Jag står inte på polisens sida, och jag står inte på någon annans sida heller. Jag ska bara se till att alla förstår varandra.”\n\nFår du veta hur fallen slutar?\n\n”Sällan, och det är som det ska vara. En tolk ska inte snoka i andras liv. Ibland vore det lätt att snoka lite och läsa vad som hände sedan, men jag gör det aldrig. Det jag hör i ett förhör stannar hos mig.”\n\nVad tycker du bäst om i ditt arbete?\n\n”När ett förhör är klart och alla har förstått varandra. Då vet jag att jag har gjort skillnad.”\n\nFrågor:\nVarför träffas de i ett tillfälligt rum?\nEftersom polisstationen är under ombyggnad.\nNär ringer polisen till Ioana tidigt på morgonen?\nNär någon som bara talar rumänska har stoppats i en gränskontroll vid bron till Danmark.\nVarför är siffror det svåraste för en tolk?\nEftersom ett fel på en siffra, till exempel ett datum, kan få stora följder.\nVilka språk tolkar hennes kollegor?\nEn kollega tolkar somaliska, en tolkar koreanska och Samir, som är palestinier, tolkar arabiska.\nVad gjorde hon när gruppen spanjorer kom?\nHon förstod en hel del, men hon sa ändå att de behövde en riktig tolk i spanska.\nVarför vill Ioana inte snoka i fallen?\nEftersom det hon hör i ett förhör ska stanna hos henne."
+    },
+    {
+      "title": "Uppfostran förr och nu",
+      "summary": "A father compares his grandmother's 1950s with today, using statistics about housework and his own home.",
+      "newWords": [
+        "hemmafru",
+        "barnvagn",
+        "ordspråk",
+        "uppfostran",
+        "soptunna",
+        "förgylla",
+        "sexistisk",
+        "dyrka",
+        "skylta"
+      ],
+      "text": "När min farmor var ung, på 1950-talet, var hon hemmafru. Det var hon inte ensam om. På den tiden var ungefär hälften av alla gifta kvinnor i Sverige hemmafruar. I dag är andelen nästan noll. Jag tänker ofta på den siffran när jag går med barnvagnen genom parken en tisdag förmiddag, omgiven av andra pappor med barnvagnar.\n\nFarmor brukade citera ett gammalt ordspråk: ”Barn gör inte som man säger, utan som man gör.” Hon menade att uppfostran inte handlar om regler utan om exempel. Jag tror att hon hade rätt, och ordspråket får mig att se på mig själv med nya ögon. Om min son ser att det alltid är mamma som lagar maten och pappa som ställer ut soptunnan, lär han sig något om vem som gör vad, vad vi än säger till honom.\n\nFör en tid sedan läste jag en undersökning om arbetet i hemmet. Den visade att kvinnor i Sverige fortfarande gör mer av det än män, men att skillnaden har blivit mindre. Männen tar oftare hand om sådant som görs en gång i veckan, som att ställa ut soptunnan, medan kvinnorna oftare gör det som görs varje dag. Siffrorna fick mig att räkna på mitt eget hem. Jag upptäckte att jag var stolt över att jag tog ut soptunnan varje torsdag, medan min fru lagade mat sju dagar i veckan. Det var ingen jämn fördelning, och nu lagar jag mat varannan dag.\n\nDet är lätt att förgylla det förflutna. Många talar om 1950-talet som en tid när familjen åt middag tillsammans och barnen var lugna. Men när jag frågade farmor, ville hon inte förgylla någonting. Hon berättade att hon ofta kände sig ensam och att hon hade velat arbeta som lärare. Reklamen på den tiden var dessutom ofta sexistisk. Den visade glada kvinnor som nästan dyrkade sina nya dammsugare, som om en maskin kunde vara meningen med livet. I dag skulle sådan sexistisk reklam få hård kritik.\n\nSamtidigt ska vi inte tro att allt är bra nu. Många föräldrar skyltar i dag med sina barn på nätet. De visar upp födelsedagar, betyg och resultat i sporten, och ibland undrar jag om det handlar om barnen eller om föräldrarna. Att skylta med sitt barn är också en sorts uppfostran: barnet lär sig att livet är något man visar upp för andra.\n\nSmå barn dyrkar sina föräldrar. Min son är två år, och han vill göra allt som jag gör. När jag sopar, sopar han. När jag sjunger, sjunger han. Det är ett stort ansvar, och farmors ordspråk har aldrig känts mer sant än nu.\n\nFrågor:\nVad gjorde skribentens farmor på 1950-talet?\nHon var hemmafru, som ungefär hälften av alla gifta kvinnor på den tiden.\nVad betyder farmors ordspråk?\nDet betyder att uppfostran handlar om exempel och inte om regler.\nVad upptäckte skribenten när han räknade på sitt eget hem?\nHan tog ut soptunnan en gång i veckan, medan hans fru lagade mat sju dagar i veckan.\nVarför ville farmor inte förgylla det förflutna?\nHon hade ofta känt sig ensam och hade velat arbeta som lärare.\nHur var reklamen på 1950-talet?\nDen var ofta sexistisk och visade kvinnor som nästan dyrkade sina dammsugare.\nVad lär sig ett barn när föräldrarna skyltar med det på nätet?\nBarnet lär sig att livet är något man visar upp för andra."
+    },
+    {
+      "title": "Hämndens matematik",
+      "summary": "A column on a famous computer tournament showing that a strategy which forgives beats greed and endless revenge.",
+      "newWords": [
+        "hämnas",
+        "förrädare",
+        "övernaturlig",
+        "girighet",
+        "bevisligen",
+        "ånger",
+        "koncentrationsläger"
+      ],
+      "text": "Vi har alla sett filmen. En hjälte blir sviken av en vän, en förrädare som säljer honom för pengar. Hjälten får övernaturliga krafter, och resten av filmen handlar om hur han hämnas. Det är spännande att titta på, men i verkligheten följer hämnd andra regler. Det har till och med forskare räknat på.\n\nKring 1980 bjöd en amerikansk forskare in experter från hela världen till en tävling. Varje deltagare skulle skriva ett program som spelade ett enkelt spel mot de andra programmen, 200 omgångar i rad. I varje omgång kunde ett program välja att samarbeta eller att svika. Om båda samarbetade, fick båda tre poäng. Om det ena programmet svek medan det andra samarbetade, fick förrädaren fem poäng och den andra noll. Om båda svek, fick båda bara en poäng.\n\nMånga av programmen byggde på girighet. De svek så ofta som möjligt för att ta de fem poängen. På kort sikt lönade sig girigheten, men på lång sikt förlorade de. De andra programmen slutade nämligen att lita på dem, och snart fick de giriga programmen bara en poäng per omgång. Girighet ger alltså mest i början och minst i slutet.\n\nDet program som vann var det enklaste av alla. Det samarbetade i första omgången och gjorde sedan alltid som motståndaren hade gjort i omgången innan. Om motståndaren svek, hämnades programmet en gång. Men om motståndaren började samarbeta igen, förlät programmet direkt. Det hämnades alltså, men bara lite, och det glömde snabbt. Samma enkla program vann även när tävlingen gjordes om med fler deltagare. Det fungerar bevisligen.\n\nEtt program känner ingen ånger. Det gör däremot människor. Den som hämnas känner ofta ånger efteråt, och ångern kan vara tyngre att bära än den skada man först fick. I filmen behöver hjälten med övernaturliga krafter aldrig tänka på det. I verkligheten finns inga övernaturliga krafter som tar bort följderna av det vi gör.\n\nJag tänker på en man som en gång besökte min skola. Han hade överlevt ett koncentrationsläger som ung, och han hade förlorat större delen av sin familj där. En elev frågade honom om han ville hämnas. Han svarade lugnt att han hade valt något annat: att berätta. I 50 år reste han runt och berättade om koncentrationslägret för elever i skolan, så att det aldrig skulle hända igen. Han sa att hat skulle ha gjort honom till en fånge en gång till.\n\nMatematiken och mannens erfarenhet säger samma sak, fast på olika sätt. Den som aldrig förlåter förlorar i längden. Det är bevisligen klokare att ge en ny chans än att hämnas om och om igen. Ingen förrädare blir bättre av att man hämnas, men ett samarbete kan alltid börja om.\n\nFrågor:\nVad handlar filmen om i början av texten?\nDen handlar om en hjälte som får övernaturliga krafter och hämnas på en förrädare.\nHur många poäng fick förrädaren i spelet?\nFörrädaren fick fem poäng om den andra samarbetade.\nVarför förlorade de program som byggde på girighet?\nEftersom de andra programmen slutade lita på dem, och då fick de bara en poäng per omgång.\nHur spelade det program som vann?\nDet samarbetade först och gjorde sedan som motståndaren, och det förlät direkt.\nVad känner många människor efter att de har hämnats?\nDe känner ofta ånger, och ångern kan vara tyngre än den första skadan.\nVad valde mannen som hade överlevt ett koncentrationsläger?\nHan valde att berätta i stället för att hämnas."
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "sv-mini-6600",
+  "rankUpTo": 6600,
+  "level": "C1",
+  "title": "Från jord till bord",
+  "description": "Stories, columns, interviews and reports about food on its way from the farm to the table: a sheep farmer, a gingerbread baker, a farm shop online, a factory canteen, a zoo kitchen, an inherited farm, fallout in the forest, a Kurdish restaurant and an urban farm.",
+  "topic": "Farm to table",
+  "names": [
+    "Jämtland",
+    "Lena Berg",
+    "Lena",
+    "Lenas",
+    "Sixten",
+    "Stina",
+    "Östersund",
+    "Maria Ek",
+    "Maria",
+    "Marias",
+    "Uppsala",
+    "Jonas Lind",
+    "Jonas",
+    "Sara Holm",
+    "Sara",
+    "Saras",
+    "Norrköping",
+    "Köpenhamn",
+    "Köpenhamns",
+    "Mette",
+    "Eva Nilsson",
+    "Eva Nilssons",
+    "Eva",
+    "Evas",
+    "Skåne",
+    "Malmö",
+    "Per",
+    "Tjernobyl",
+    "Ukraina",
+    "Sverige",
+    "Gävleborg",
+    "Västernorrland",
+    "Uppland",
+    "Nasrin",
+    "Nasrin Ahmadi",
+    "Nasrins",
+    "Stockholm",
+    "Kristianstad",
+    "Johan Persson",
+    "Johan",
+    "Amir",
+    "Norrland"
+  ],
+  "lessons": [
+    {
+      "title": "Fåren och rovdjuren",
+      "summary": "A sheep farmer in Jämtland protects her flock from predators with an old herding dog and a barn that has become a safe haven.",
+      "newWords": [
+        "valla",
+        "tam",
+        "rovdjur",
+        "mager",
+        "smeka",
+        "hotfull",
+        "åldras",
+        "gamling",
+        "fristad",
+        "trötthet"
+      ],
+      "text": "Lena Berg har fött upp får i Jämtland i över 20 år. Varje morgon klockan 6 går hon ut i hagen med sin hund Sixten för att valla fåren. Sixten är en gamling nu, nästan 13 år gammal, och Lena ser att han har börjat åldras. Han springer långsammare än förr, och efter en lång dag syns tröttheten i hans ögon. Ändå vallar han fåren lika noga som när han var ung, och fåren lyder honom utan att tveka.\n\nDet största hotet mot gården är rovdjuren. I skogarna runt byn finns både varg och björn, och de senaste åren har rovdjuren kommit allt närmare husen. En natt i fjol vaknade Lena av att fåren skrek. När hon sprang ut låg två lamm döda vid staketet. Sedan dess känns mörkret hotfullt på ett nytt sätt, och varje ljud från skogen låter som en varning.\n\n”Jag är inte arg på vargen”, säger hon. ”Han gör bara det som ett rovdjur måste göra för att överleva. Men jag måste skydda mina djur.”\n\nHon har byggt ett högre staket med el, och på nätterna sover fåren i ladan. Ladan har blivit en fristad för dem, en plats dit inget rovdjur når. Det kostar mer arbete och mer pengar, men Lena tycker att det är värt det. Hennes granne, som också har får, kallar ladan för ”fårens fristad”, och nu använder hela byn det namnet.\n\nFåren är inte vilda. De är tama, och flera av dem kommer springande när Lena ropar. Hon smeker dem över huvudet och pratar lugnt med dem. Särskilt en tacka som heter Stina älskar att bli smekt. Efter vintern var Stina mager, eftersom hon hade fått tvillingar och gett dem all sin mjölk. Lena gav henne extra mat, och i dag är hon inte längre mager. Ett tamt djur är lättare att ta hand om, säger Lena, eftersom det inte blir rädd när man rör vid det.\n\nPå hösten säljer Lena köttet till två restauranger i Östersund. Kockarna vill veta hur djuren har levt, och Lena berättar gärna. ”Mina får har gått ute hela sommaren och ätit gräs”, säger hon. ”Det smakar man.”\n\nSixten kommer inte att kunna valla fåren många år till. Därför har Lena köpt en ung hund som ska lära sig av gamlingen. På kvällen, när arbetet är klart, ligger de båda hundarna vid spisen. Lenas trötthet är stor, men det är en god trötthet.\n\nFrågor:\nVad gör Lena varje morgon klockan 6?\nHon går ut i hagen med hunden Sixten för att valla fåren.\nHur märker Lena att Sixten åldras?\nHan springer långsammare, och efter en lång dag syns tröttheten i hans ögon.\nVarför känns mörkret hotfullt för Lena?\nEftersom rovdjur dödade två lamm vid staketet en natt i fjol.\nVarför kallas ladan för fårens fristad?\nDär sover fåren på nätterna, och dit når inget rovdjur.\nVarför var tackan Stina mager efter vintern?\nHon hade fått tvillingar och gett dem all sin mjölk.\nVarför har Lena köpt en ung hund?\nSixten är en gamling och kommer inte att kunna valla fåren många år till."
+    },
+    {
+      "title": "Stort eller litet jordbruk?",
+      "summary": "A column weighs large conventional farming against small specialised farms and argues for a compromise.",
+      "newWords": [
+        "konventionell",
+        "renodlad",
+        "kompromiss",
+        "fördelaktig",
+        "överflöd",
+        "girig",
+        "cynisk",
+        "nedskärning",
+        "arbetstillfälle",
+        "sakfråga"
+      ],
+      "text": "Krönika: Maten mellan två läger\n\nDet är lätt att tala om mat som om det bara fanns två sorters bönder: den goda småbrukaren och den giriga storbonden. Men den bilden är för enkel, och den hjälper ingen.\n\nLåt oss börja med det konventionella jordbruket. Med konventionellt jordbruk menar man det vanliga sättet att odla, med konstgödsel, kemiska medel mot skadedjur och stora maskiner. Det har gett oss något som våra farföräldrar knappt kunde drömma om: ett överflöd av billig mat. I dag kan vi köpa bröd, mjölk och kött i vilken butik som helst, nästan när som helst. Det överflödet är inte självklart, och den som minns fattigare tider vet att det är värt mycket.\n\nÄndå har överflödet ett pris. Stora gårdar med en enda gröda tar mycket av jordens kraft, och djur i stora stallar får sällan gå ute. Många gårdar har dessutom blivit renodlade, vilket betyder att de bara gör en enda sak, till exempel mjölk eller spannmål. En renodlad gård kan vara effektiv, men den blir också sårbar. Om priset på mjölk faller, har bonden inget annat att leva av.\n\nKritiker säger ibland att storbönderna är giriga och bara tänker på pengar. Jag tycker att det är en cynisk bild. De flesta bönder jag har träffat älskar sina djur och sin jord. Om de har vuxit, beror det oftast på att det har varit fördelaktigt för dem, eller till och med nödvändigt, eftersom priserna har pressats ner år efter år. Det är inte girigt att vilja överleva. Lika cyniskt är det när någon säger att ekologisk mat bara är för rika människor.\n\nDen mindre gården har sina egna fördelar. Den skapar ofta fler arbetstillfällen per hektar, och varje nytt arbetstillfälle på landsbygden betyder att en familj kan bo kvar i byn. När staten gör nedskärningar i skolor och vård, blir varje jobb på landet ännu viktigare. Flera kommuner har sett hur nedskärningar och färre jobb får unga att flytta.\n\nKanske borde vi sluta se detta som en strid och i stället se det som en sakfråga. En sakfråga är något man kan lösa med kunskap, inte med känslor. Vilka metoder ger bra mat, rimliga priser och en frisk jord på lång sikt? Svaret är troligen en kompromiss: stora gårdar som lär sig av de små, och små gårdar som samarbetar för att bli starkare. En sådan kompromiss är inte svag. Den är tvärtom det mest fördelaktiga för både bönder och konsumenter.\n\nFrågor:\nVad menar man med konventionellt jordbruk?\nMan menar det vanliga sättet att odla, med konstgödsel, kemiska medel och stora maskiner.\nVad har det konventionella jordbruket gett oss?\nDet har gett oss ett överflöd av billig mat.\nVarför kan en renodlad gård bli sårbar?\nOm priset på det enda den producerar faller, har bonden inget annat att leva av.\nVarför tycker skribenten att bilden av giriga storbönder är cynisk?\nEftersom de flesta bönder älskar sina djur och har vuxit för att det har varit fördelaktigt eller nödvändigt.\nVarför är arbetstillfällen på landet viktiga?\nVarje arbetstillfälle betyder att en familj kan bo kvar i byn, särskilt när staten gör nedskärningar.\nVilken lösning föreslår skribenten?\nSkribenten föreslår en kompromiss där stora och små gårdar lär sig av varandra och samarbetar."
+    },
+    {
+      "title": "Domkyrkan av pepparkaka",
+      "summary": "A baker in Uppsala builds a large gingerbread cathedral every December, from the first sketch to the tower on top.",
+      "newWords": [
+        "pepparkaka",
+        "skiss",
+        "fila",
+        "doppa",
+        "stapel",
+        "storslagen",
+        "överst",
+        "alfabet",
+        "fascinerad",
+        "romantik"
+      ],
+      "text": "Varje år i början av december bygger bagaren Maria Ek en domkyrka av pepparkaka i fönstret till sitt bageri i Uppsala. Det har hon gjort i 15 år, och i dag kommer folk från hela stan för att se den.\n\nArbetet börjar redan i oktober med en skiss. Maria sitter vid köksbordet med en penna och ritar kyrkan från alla håll. Hon gör flera skisser innan hon blir nöjd, och den sista skissen sätter hon upp på väggen i bageriet. Sedan bakar hon de stora plattorna av pepparkaka. Degen gör hon själv av mjöl, smör, socker och kryddor, ungefär som hennes mormor gjorde.\n\nNär plattorna har svalnat skär hon ut väggar, tak och fönster. Kanterna blir aldrig helt raka, så Maria filar dem med en liten fil tills de passar exakt. ”Det tar tid att fila”, säger hon, ”men om man inte filar kanterna, faller väggarna.” Sedan smälter hon socker i en kastrull. Hon doppar varje kant i det varma sockret och trycker ihop delarna. Sockret stelnar på några sekunder, så hon måste doppa och trycka snabbt. Det har hänt att hon har bränt fingrarna.\n\nI bageriet står det staplar av plattor överallt. En stapel är för väggarna, en annan för taket och en tredje för de två tornen. Maria håller noga reda på varje stapel, för en enda bit på fel plats kan förstöra hela bygget.\n\nTornen sätter hon på sist. Överst på varje torn sitter ett litet kors av socker. Det är den svåraste delen, och Maria stänger bageriet en hel kväll för att få lugn och ro. När hon är klar är kyrkan nästan en meter hög. Den är storslagen, med fönster av rött godis som lyser när solen går ner.\n\nFör barnen bakar Maria också små pepparkakor som bokstäver. Hela alfabetet ligger i en korg vid kassan, och barnen får leta efter sina namn. Många barn kan alfabetet utantill innan de börjar skolan, men de tycker ändå att det är roligt att hitta sina bokstäver.\n\nBarnen står ofta länge vid fönstret. De är fascinerade av de små detaljerna, och Maria är lika fascinerad av deras ansikten. ”För mig är det julens romantik”, säger hon. ”Det handlar inte om att kyrkan är storslagen. Det handlar om doften av pepparkaka och barnen som pekar.” Den romantiken vill hon aldrig vara utan.\n\nFrågor:\nVad bygger Maria Ek varje december?\nHon bygger en domkyrka av pepparkaka i fönstret till sitt bageri.\nHur börjar arbetet i oktober?\nDet börjar med en skiss som Maria ritar vid köksbordet.\nVarför filar hon kanterna?\nKanterna blir aldrig helt raka, och om man inte filar dem faller väggarna.\nHur sätter hon ihop delarna?\nHon doppar varje kant i varmt socker och trycker ihop delarna snabbt.\nVad sitter överst på tornen?\nÖverst på varje torn sitter ett litet kors av socker.\nVad är julens romantik för Maria?\nDet är doften av pepparkaka och barnen som pekar på kyrkan i fönstret."
+    },
+    {
+      "title": "Gårdsbutiken på nätet",
+      "summary": "A young farmer writes about building a website for the family's farm shop, with a new logo, spam in the comments and a misleading map.",
+      "newWords": [
+        "router",
+        "spam",
+        "logotyp",
+        "kommentarsfält",
+        "manual",
+        "öppettid",
+        "delning",
+        "missvisande",
+        "censurera",
+        "kryssa"
+      ],
+      "text": "Det här skrev Jonas Lind på sin blogg efter sitt första år med gårdsbutiken.\n\nI mars förra året bestämde mina föräldrar och jag att gårdsbutiken skulle få en egen hemsida. Vi säljer potatis, ägg, honung och kött från våra egna djur, och kunderna hade länge frågat var de kunde läsa om oss. Jag trodde att det skulle ta en vecka. Det tog tre månader.\n\nDet första problemet var nätet. På gården var uppkopplingen så dålig att sidorna knappt laddades. Jag köpte en ny router och satte den i butiken, men signalen nådde ändå inte fram till kontoret. Till slut läste jag hela manualen, vilket jag aldrig gör. Enligt manualen skulle routern stå högt och fritt, inte bakom en hylla med burkar. Jag flyttade den, och plötsligt fungerade allt. Sedan dess läser jag alltid manualen först.\n\nSedan behövde vi en logotyp. Min syster ritade en ko och en potatis, och vi skrattade länge åt den. Den andra logotypen var bättre: en enkel röd lada med gårdens namn under. I dag finns logotypen på våra påsar, på skylten vid vägen och på hemsidan.\n\nPå hemsidan skrev vi in våra öppettider. Det lät enkelt, men öppettiderna ändras med årstiderna. På sommaren har vi öppet varje dag, på vintern bara på lördagar. En gång glömde jag att ändra öppettiderna, och en familj körde 40 kilometer till en stängd butik. Efter det lade jag en påminnelse i telefonen.\n\nVi öppnade också ett kommentarsfält där kunderna kunde skriva vad de tyckte. De flesta kommentarerna var vänliga, men snart fylldes kommentarsfältet av spam: reklam för klockor, pengar och konstiga sidor. Jag fick ta bort spam varje kväll. Till slut lade jag till en ruta som man måste kryssa i för att visa att man är en människa. Man kryssar i rutan, och sedan kan man skriva. Det stoppade det mesta.\n\nEn kund skrev en arg kommentar om att våra ägg var för dyra. Min pappa ville ta bort den, men jag sa nej. Jag vill inte censurera kunder som tycker annorlunda. Om vi censurerar kritik, litar ingen på de goda kommentarerna heller. I stället svarade jag och förklarade vad det kostar att ha höns som går ute.\n\nDet största misstaget var kartan. Den visade vägen till en grannes gård i stället för vår, och den missvisande kartan skickade folk fel i flera veckor. Nu har vi en ny karta som inte är missvisande.\n\nDet som har hjälpt oss mest är delningar. När en kund delar en bild på våra jordgubbar, ser hundratals människor den. Varje delning är gratis reklam, och i somras ledde en enda delning till att vi sålde slut på två dagar.\n\nFrågor:\nVarför fungerade inte routern först?\nDen stod bakom en hylla med burkar i stället för högt och fritt, som manualen sa.\nHur ser gårdsbutikens logotyp ut i dag?\nDen är en enkel röd lada med gårdens namn under.\nVad hände när Jonas glömde att ändra öppettiderna?\nEn familj körde 40 kilometer till en stängd butik.\nHur stoppade Jonas det mesta av spammet i kommentarsfältet?\nHan lade till en ruta som man måste kryssa i innan man kan skriva.\nVarför ville Jonas inte censurera den arga kommentaren?\nOm de censurerar kritik, litar ingen på de goda kommentarerna heller.\nVarför är delningar viktiga för butiken?\nVarje delning är gratis reklam, och en enda delning ledde till att de sålde slut."
+    },
+    {
+      "title": "Matlådan och arbetarrörelsen",
+      "summary": "An interview with the acting head of a factory canteen in Norrköping about the history of the lunch box, setbacks and new vegetarian food.",
+      "newWords": [
+        "matlåda",
+        "arbetarrörelse",
+        "tillförordnad",
+        "framhålla",
+        "stifta",
+        "motgång",
+        "flyt",
+        "självkänsla",
+        "hån",
+        "mesig"
+      ],
+      "text": "Intervju: Sara Holm, tillförordnad chef för matsalen på en fabrik i Norrköping.\n\nSara Holm har arbetat i fabrikens kök i tolv år. I våras blev hon tillförordnad chef, eftersom den förra chefen gick i pension och ingen ny hade anställts. ”Tillförordnad låter som att man bara håller platsen varm”, säger hon och skrattar. ”Men jag tar jobbet på fullt allvar.”\n\nVarför har fabriken en egen matsal?\n\n– Det hänger ihop med stadens historia. Norrköping var en stad med många fabriker, och här var arbetarrörelsen stark. Arbetarrörelsen kämpade inte bara för högre löner och kortare dagar, utan också för rätten att äta i lugn och ro. Förr åt arbetarna sin matlåda stående vid maskinerna. Jag vill gärna framhålla att det inte var självklart att få en riktig paus.\n\nHar matlådan försvunnit?\n\n– Nej, långt ifrån. Många tar fortfarande med sig en matlåda hemifrån, och det är helt i sin ordning. Vi har mikrovågsugnar för den som vill värma sin matlåda. Men de som äter här får en varm måltid för ett lågt pris. Det vill jag framhålla, för det är en del av arbetarrörelsens arv.\n\nDu har infört vegetarisk mat. Hur togs det emot?\n\n– Inte så bra i början. När jag började servera bönor och linser mötte jag mycket hån. Några kallade maten mesig och sa att en riktig arbetare behöver kött. Hånet var ganska hårt, och en tid påverkade det min självkänsla. Jag tvivlade på om jag kunde laga mat över huvud taget.\n\nHur kom du över den motgången?\n\n– Jag lärde mig att en motgång inte är ett nederlag. Jag ändrade recepten. Den första grytan var faktiskt lite mesig, med för lite smak. Nu använder vi mer kryddor och rostade grönsaker. Efter ett par månader fick vi flyt, och i dag tar hälften av gästerna den gröna rätten. När köket har flyt märks det på stämningen i hela matsalen.\n\nHar ditt arbete förändrats som chef?\n\n– Ja, nu har jag stiftat bekantskap med budgetar och scheman. Att stifta bekantskap med något betyder att man lär känna det för första gången, och jag har lärt känna en hel del pappersarbete. Men jag har också stiftat bekantskap med fler av arbetarna, eftersom jag går runt bland borden varje dag.\n\nVad betyder jobbet för dig?\n\n– Det har gett mig en bättre självkänsla. Jag vet att god mat gör skillnad för människor som arbetar hårt.\n\nFrågor:\nVarför blev Sara tillförordnad chef?\nDen förra chefen gick i pension, och ingen ny chef hade anställts.\nVad kämpade arbetarrörelsen för, enligt Sara?\nDen kämpade för högre löner, kortare dagar och rätten att äta i lugn och ro.\nHur åt arbetarna sin matlåda förr?\nDe åt den stående vid maskinerna.\nVilket hån mötte Sara när hon började servera vegetarisk mat?\nNågra kallade maten mesig och sa att en riktig arbetare behöver kött.\nHur kom hon över motgången?\nHon ändrade recepten och använde mer kryddor och rostade grönsaker.\nVad betyder det att stifta bekantskap med något?\nDet betyder att man lär känna det för första gången."
+    },
+    {
+      "title": "Köket på zoo",
+      "summary": "A report from the kitchen of Copenhagen Zoo, where keepers prepare bamboo for the pandas and fish for the penguins.",
+      "newWords": [
+        "panda",
+        "pingvin",
+        "konstgjord",
+        "förvar",
+        "tiotusentals",
+        "hundratusentals",
+        "kvarvarande",
+        "avföring",
+        "röntgen",
+        "lekplats"
+      ],
+      "text": "Reportage: En dag i köket på Köpenhamns zoo\n\nKlockan 7 på morgonen, långt innan de första besökarna kommer, är det redan full fart i djurparkens kök. Här lagas mat till hundratals djur, och varje art har sin egen lista. Lejonen ska ha kött, aporna frukt och grönsaker, och pandorna nästan bara bambu.\n\n– Pandorna är de mest krävande, säger Mette, som har arbetat i köket i nio år. En vuxen panda äter mellan 20 och 40 kilo bambu om dagen. Den sover mycket, eftersom bambu ger så lite energi.\n\nBambun kommer med lastbil flera gånger i veckan och läggs i förvar i ett kallt rum bakom köket. Där håller den sig färsk i några dagar. Varje morgon hämtar Mette det som ska användas och kontrollerar det kvarvarande lagret. Om det kvarvarande lagret är för litet, ringer hon leverantören direkt. En panda som inte får mat blir snabbt stressad.\n\nPingvinerna äter fisk, främst sill. Fisken ligger i förvar i en stor frys, och kvällen innan tinas den långsamt. Under ett år går tiotusentals fiskar åt bara till pingvinerna. Skötarna matar pingvinerna för hand, så att de kan se att varje pingvin äter. Tiotusentals fiskar om året är mycket, men det behövs. Pingvinerna bor vid en konstgjord klippa med en konstgjord strand, och vattnet hålls kallt året runt.\n\nAtt kontrollera maten handlar inte bara om det som kommer in i djuren, utan också om det som kommer ut. Skötarna tittar varje dag på djurens avföring. Om avföringen ändras, kan det betyda att djuret är sjukt eller att maten inte passar. Det är ingen trevlig uppgift, men den är viktig.\n\nOm ett djur verkar sjukt får det komma till djurparkens veterinär. Veterinären har en egen röntgen, och ibland använder hon röntgen på en pingvin som har svalt något den inte borde. Förra året visade röntgen att en pingvin hade fått en liten sten i magen. Stenen kom ut av sig själv, och pingvinen mår bra i dag.\n\nDjurparken har hundratusentals besökare varje år. Många av dem är familjer med små barn, och efter besöket hos pandorna springer barnen ofta till lekplatsen. Lekplatsen ligger bredvid pingvinernas strand, så att föräldrarna kan titta på pingvinerna medan barnen leker. Vid lekplatsen finns också en skylt som berättar vad djuren äter.\n\n– Hundratusentals människor ser djuren, säger Mette. Men nästan ingen ser oss. Det gör ingenting. Vi vet att djuren mår bra.\n\nFrågor:\nVad äter pandorna?\nPandorna äter nästan bara bambu, mellan 20 och 40 kilo om dagen.\nVar förvaras bambun?\nDen läggs i förvar i ett kallt rum bakom köket.\nVarför kontrollerar Mette det kvarvarande lagret varje morgon?\nOm det kvarvarande lagret är för litet måste hon ringa leverantören, eftersom en panda utan mat blir stressad.\nHur mycket fisk går åt till pingvinerna?\nUnder ett år går tiotusentals fiskar åt bara till pingvinerna.\nHur bor pingvinerna?\nDe bor vid en konstgjord klippa med en konstgjord strand och kallt vatten.\nVarför tittar skötarna på djurens avföring?\nEn ändrad avföring kan betyda att djuret är sjukt eller att maten inte passar.\nVad visade röntgen förra året?\nRöntgen visade att en pingvin hade fått en liten sten i magen."
+    },
+    {
+      "title": "Morfars gård",
+      "summary": "In diary entries, a woman who has inherited her grandfather's farm in Skåne restores his old things and decides whether to keep the farm.",
+      "newWords": [
+        "ägo",
+        "kluven",
+        "läder",
+        "lacka",
+        "ädel",
+        "samtida",
+        "däremellan",
+        "berika",
+        "nähä"
+      ],
+      "text": "Ur Eva Nilssons dagbok\n\nLördag den 3 maj\n\nI dag körde jag ner till morfars gård i Skåne för första gången sedan begravningen. Gården har varit i familjens ägo sedan 1890-talet, och nu är den i min ägo. Det känns konstigt att skriva det. Det var länge sedan jag var här så länge som en hel helg. Senast var jag tolv år och hjälpte morfar att plocka äpplen.\n\nJag är kluven. En del av mig vill sälja gården och åka hem till lägenheten i Malmö. En annan del vill stanna och odla som morfar gjorde. Jag har varit kluven i flera veckor, och jag vet inte hur länge till jag kan vänta med att bestämma mig.\n\nSöndag den 4 maj\n\nI ladan hittade jag morfars gamla seldon av läder. Lädret var torrt och sprucket. Det var länge sedan någon hade använt det, men det gick att rädda. Jag tvättade seldonen och smorde in lädret med fett, och nu är det mjukt igen. Det luktar som när jag var liten.\n\nI köket står det stora bordet som morfar gjorde av ek. Ek är ett ädelt träslag, säger min granne Per, och ädla träslag håller i hundratals år om man sköter dem. Jag ska slipa bordet och sedan lacka det. Per lånar ut sina verktyg och visar hur man ska lacka för att det inte ska bli bubblor.\n\nOnsdag den 7 maj\n\nPer kom förbi i dag. Han är morfars samtida, de föddes samma år och gick i samma skola. Han berättade om hur gården såg ut när de var unga. Då fanns det kor, grisar och hästar, och däremellan odlade de potatis och vete. Jag frågade om han tyckte att jag skulle sälja.\n\n– Det tänker jag inte svara på, sa han. Det är ditt beslut.\n\n– Nähä? Du vill inte hjälpa mig alltså? sa jag och skrattade.\n\n– Jo, men inte med det. Har du ätit något i dag?\n\n– Nej, inte än.\n\n– Nähä. Då följer du med hem till oss på middag.\n\nFredag den 9 maj\n\nBordet är lackat nu, och det glänser i solen. Jag har lackat det två gånger, med en dag däremellan, precis som Per sa.\n\nJag har tänkt mycket den här veckan. Jag kan arbeta på distans tre dagar i veckan, och däremellan kan jag vara här. Gården skulle berika mitt liv, och kanske kan jag berika gården också, med nya idéer. Morfars samtida i byn har tagit emot mig som om jag alltid hade bott här. Det berikar mig redan.\n\nJag är inte längre kluven. Gården stannar i familjens ägo.\n\nFrågor:\nHur länge har gården varit i familjens ägo?\nDen har varit i familjens ägo sedan 1890-talet.\nVarför är Eva kluven?\nEn del av henne vill sälja gården, och en annan del vill stanna och odla.\nNär var Eva senast på gården en hel helg?\nDet var länge sedan. Senast var hon tolv år och hjälpte morfar att plocka äpplen.\nVad gjorde Eva med morfars seldon av läder?\nHon tvättade dem och smorde in lädret med fett, så att det blev mjukt igen.\nVarför håller bordet så länge?\nDet är gjort av ek, som är ett ädelt träslag.\nVem är Per?\nHan är Evas granne och morfars samtida, och de gick i samma skola.\nVad bestämmer Eva till slut?\nHon bestämmer att gården ska stanna i familjens ägo."
+    },
+    {
+      "title": "Svampen och molnet",
+      "summary": "A short report explains how the fallout from Chernobyl in 1986 reached Swedish forests and food, and why it still matters.",
+      "newWords": [
+        "radioaktiv",
+        "indela",
+        "primärt",
+        "linjär",
+        "rentav",
+        "chockera",
+        "fullo",
+        "missuppfatta"
+      ],
+      "text": "Fakta: Varför mäter man fortfarande svamp och vilt?\n\nI april 1986 skedde en olycka i kärnkraftverket i Tjernobyl, i det som i dag är Ukraina. Ett moln av radioaktiva ämnen steg upp och fördes med vinden norrut. Över delar av Sverige regnade det just de dagarna, och regnet förde ner de radioaktiva ämnena på marken. Det var primärt Gävleborg, Västernorrland och delar av Uppland som drabbades.\n\nNyheten chockerade många svenskar. Det chockerande var inte bara att olyckan hade skett, utan att den påverkade skogen och maten så långt bort. Bönder fick hålla korna inne, och jägare fick veta att köttet från älg och rådjur kunde vara radioaktivt. För samerna var det ännu svårare. Deras renar äter lavar, som tar upp mycket av de radioaktiva ämnena, och flera tusen renar fick slaktas och kastas.\n\nMyndigheterna indelade landet i områden efter hur mycket nedfall de hade fått. I varje område mättes mjölk, kött, fisk och svamp. Indelningen gjorde det lättare att ge råd: i ett område kunde man äta som vanligt, i ett annat borde man vara försiktig. Även i dag finns det kartor som är indelade på liknande sätt.\n\nMan kan lätt missuppfatta hur strålningen minskar. Många tror att den minskar lika mycket varje år, men minskningen är inte linjär. Efter ungefär 30 år finns hälften kvar av det viktigaste ämnet, efter 60 år en fjärdedel, och så vidare. Om man tänker sig en linjär minskning, missuppfattar man alltså riskerna. Dessutom stannar ämnena olika länge i olika delar av skogen, så det är inte enkelt att förstå till fullo.\n\nI dag är det primärt svamp, vilt och fisk från vissa sjöar som kan innehålla för höga halter. Det är inte farligt att äta en portion svamp då och då, men den som äter mycket vilt varje vecka bör ta reda på var det kommer ifrån. Vissa svampar tar upp mer än andra, och några bör man rentav undvika i de mest drabbade områdena.\n\nForskarna menar att vi ännu inte till fullo förstår alla följder för naturen. Därför fortsätter mätningarna, år efter år. Det kan låta överdrivet nästan 40 år senare, men olyckan visar att maten på vårt bord hänger ihop med händelser långt bort, rentav i ett annat land.\n\nFrågor:\nVad hände i Tjernobyl i april 1986?\nDet skedde en olycka i kärnkraftverket, och ett moln av radioaktiva ämnen fördes norrut.\nVilka delar av Sverige drabbades primärt?\nDet var primärt Gävleborg, Västernorrland och delar av Uppland.\nVarför var olyckan svår för samerna?\nDeras renar äter lavar som tar upp mycket radioaktiva ämnen, och flera tusen renar fick kastas.\nHur indelade myndigheterna landet?\nDe indelade landet i områden efter hur mycket nedfall varje område hade fått.\nVarför är minskningen av strålningen inte linjär?\nEfter 30 år finns hälften kvar, efter 60 år en fjärdedel, så den minskar inte lika mycket varje år.\nVilken mat kan i dag innehålla för höga halter?\nDet är primärt svamp, vilt och fisk från vissa sjöar."
+    },
+    {
+      "title": "Restaurangen i köpcentrumet",
+      "summary": "A profile of a Kurdish woman who runs a small restaurant in a shopping centre outside Stockholm, where guests should feel looked after.",
+      "newWords": [
+        "köpcentrum",
+        "kurdiska",
+        "somalier",
+        "människosyn",
+        "fotbollsmatch",
+        "omhändertagen",
+        "osmakligt",
+        "trigga",
+        "blondin"
+      ],
+      "text": "Porträtt: Nasrin och hennes kök\n\nMitt i ett stort köpcentrum söder om Stockholm, mellan en skoaffär och en butik för telefoner, ligger en liten restaurang med åtta bord. Den drivs av Nasrin Ahmadi, som kom till Sverige som flykting för 25 år sedan. Hemma pratar familjen kurdiska, och på menyn står rätternas namn både på kurdiska och på svenska.\n\n– Ett köpcentrum är inget självklart ställe för en restaurang som vår, säger Nasrin. Folk har bråttom, de vill ha något snabbt. Men jag vill att de ska sätta sig ner och känna sig omhändertagna.\n\nAtt gästerna ska känna sig omhändertagna är viktigt för henne. Hon minns sina första år i Sverige, när hon själv sällan kände sig omhändertagen. Därför hälsar hon på varje gäst och frågar hur de mår. Brödet bakar hon själv varje morgon, och grytorna kokar långsamt med kryddor som hon köper av en somalier i samma köpcentrum.\n\n– Han är en av många somalier som har butiker här, säger hon. Vi hjälper varandra. Han säljer mina bröd, och jag köper hans kryddor.\n\nGästerna är lika olika som besökarna i köpcentrumet. Pensionärer kommer till lunch, studenter på kvällen. En av de trognaste gästerna är en liten blondin på sju år, dotter till en kvinna som arbetar i skoaffären. Blondinen kommer varje fredag och vill alltid ha samma rätt: ris med kyckling och yoghurt.\n\nNär det är en stor fotbollsmatch sätter Nasrin på tv:n i hörnet. Då blir restaurangen full. Under förra sommarens fotbollsmatcher satt kurder, somalier och svenskar sida vid sida och hejade på samma lag.\n\nAlla har inte varit vänliga. En gång skrev någon något osmakligt om invandrare på restaurangens dörr. Nasrin tvättade bort det samma kväll.\n\n– Det var osmakligt, men jag lät det inte trigga mig, säger hon. Människor som skriver sådant vill trigga en reaktion. Jag vill inte ge dem den.\n\nHennes människosyn är enkel: alla har rätt att bli väl bemötta. Den människosynen har hon fått av sin mamma, som alltid hade en extra tallrik på bordet.\n\n– Mat är ett sätt att visa respekt, säger Nasrin. Om du lagar mat åt någon, säger du att den personen är viktig.\n\nFrågor:\nVar ligger Nasrins restaurang?\nDen ligger mitt i ett stort köpcentrum söder om Stockholm.\nVilket språk pratar familjen hemma?\nFamiljen pratar kurdiska hemma.\nVarför vill Nasrin att gästerna ska känna sig omhändertagna?\nHon minns sina första år i Sverige, när hon själv sällan kände sig omhändertagen.\nVem är restaurangens lilla blondin?\nHon är en flicka på sju år, dotter till en kvinna som arbetar i skoaffären.\nVad händer när det är en stor fotbollsmatch?\nNasrin sätter på tv:n, och restaurangen blir full.\nHur reagerade Nasrin på det som stod på dörren?\nHon tyckte att det var osmakligt, men hon tvättade bort det och lät det inte trigga henne.\nVilken människosyn har Nasrin?\nHon tycker att alla har rätt att bli väl bemötta."
+    },
+    {
+      "title": "Odlingen på det gamla fältet",
+      "summary": "A report from an urban farm on a former artillery field, where autonomous robots weed the vegetables and sensors listen to the soil.",
+      "newWords": [
+        "artilleri",
+        "autonom",
+        "dynamisk",
+        "användningsområde",
+        "universell",
+        "bukt",
+        "gloria",
+        "andning",
+        "trafikolycka"
+      ],
+      "text": "Reportage: Robotarna på artillerifältet\n\nUtanför Kristianstad ligger ett stort fält där armén förr övade med artilleri. I över hundra år hördes kanonerna här, och marken var stängd för allmänheten. När artilleriet flyttade på 1990-talet blev fältet tomt. I dag växer här morötter, lök och sallad, och det är robotar som gör en stor del av arbetet.\n\nOdlingen drivs av Johan Persson och hans kollega Amir. De har tio små robotar som rör sig mellan raderna. Robotarna är autonoma, vilket betyder att de arbetar på egen hand, utan att någon styr dem. En autonom robot ser skillnad på en morot och ett ogräs med hjälp av en kamera, och den drar upp ogräset utan kemiska medel.\n\n– Ogräset var vårt största problem, säger Johan. Vi försökte i flera år att få bukt med det för hand. Det var först när robotarna kom som vi fick bukt med problemet.\n\nUnder jorden sitter sensorer som mäter vatten och värme. Johan säger att de lyssnar på jordens andning. Jorden andas nämligen, på sitt sätt: små djur och bakterier tar upp luft och släpper ut gaser. När andningen är stark mår jorden bra. När andningen blir svag, vet Johan att något är fel.\n\nSystemet är dynamiskt. Det ändrar hur mycket vatten varje rad får, beroende på väder och jord. En dynamisk odling slösar mindre vatten än en där allt får samma mängd.\n\nRobotarna har också andra användningsområden. På vintern, när det inte växer något, används de för att transportera lådor i lagret. Johan tror att användningsområdena kommer att bli fler.\n\nAmir är mer försiktig. Han ser inte robotarna som en universell lösning.\n\n– Ingen maskin är universell, säger han. En robot som fungerar här kanske inte fungerar på en gård i Norrland. Och robotarna ska inte få någon gloria. De har sina fel, de också.\n\nJohan håller med om att tekniken inte ska få en gloria. Han nämner traktorerna som exempel. Varje år sker det trafikolyckor när stora traktorer kör på smala vägar mellan fälten. Om autonoma traktorer kunde köra på natten, när vägarna är tomma, skulle det kanske bli färre trafikolyckor. Men det kräver nya lagar, och de kommer inte i morgon.\n\nDet gamla artillerifältet har fått ett nytt liv. Där kanonerna en gång stod, köper nu familjer grönsaker på lördagarna.\n\nFrågor:\nVad användes fältet till förr?\nArmén övade med artilleri där i över hundra år.\nVad betyder det att robotarna är autonoma?\nDet betyder att de arbetar på egen hand, utan att någon styr dem.\nHur fick Johan bukt med ogräset?\nHan fick bukt med det först när robotarna kom och drog upp ogräset.\nVad menar Johan med jordens andning?\nSmå djur och bakterier i jorden tar upp luft och släpper ut gaser, och en stark andning betyder att jorden mår bra.\nVarför ser Amir inte robotarna som en universell lösning?\nEn robot som fungerar på fältet kanske inte fungerar på en gård i Norrland, och robotarna har sina fel.\nHur skulle autonoma traktorer kunna leda till färre trafikolyckor?\nDe skulle kunna köra på natten, när vägarna är tomma."
+    }
+  ]
+}

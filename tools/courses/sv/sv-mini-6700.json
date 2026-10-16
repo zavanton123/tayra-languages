@@ -1,0 +1,227 @@
+{
+  "id": "sv-mini-6700",
+  "rankUpTo": 6700,
+  "level": "C1",
+  "title": "Språk och kulturer i Norden",
+  "description": "Columns, reviews, diaries, letters, profiles, an essay and interviews about the languages and cultures of the Nordic countries: compound words, Danish-Swedish crime drama, the Finnish sauna, the Faroe Islands, an Icelandic farm, Sami, Faroese language technology and a Norwegian footballer in Sweden.",
+  "topic": "Languages and cultures of the Nordic countries",
+  "names": [
+    "Norden",
+    "Kalmar",
+    "Sverige",
+    "Danmark",
+    "Norge",
+    "Finland",
+    "Island",
+    "Skåne",
+    "Bornholm",
+    "Sara Lind",
+    "Sara",
+    "Saras",
+    "Mads Holm",
+    "Mads",
+    "Mörkt vatten",
+    "Tammerfors",
+    "Aino",
+    "Ainos",
+    "Uppsala",
+    "Färöarna",
+    "Tórshavn",
+    "Köpenhamn",
+    "Lisa",
+    "Jonas",
+    "Mette",
+    "Mettes",
+    "Oskar",
+    "Oskars",
+    "Karin",
+    "Karins",
+    "Malmö",
+    "Akureyri",
+    "Gudrun Jónsdóttir",
+    "Gudrun",
+    "Gudruns",
+    "Europa",
+    "Europas",
+    "Ryssland",
+    "Lund",
+    "Elle Sara Kuhmunen",
+    "Elle Sara",
+    "Jokkmokk",
+    "Jónas Petersen",
+    "Jónas",
+    "Ingrid Solberg",
+    "Ingrid",
+    "Bergen",
+    "Göteborg"
+  ],
+  "lessons": [
+    {
+      "title": "Språkspalten: de långa orden",
+      "summary": "A language columnist answers a teacher's letter about Swedish compound words, where they come from and how to use them.",
+      "newWords": [
+        "kolumn",
+        "avsändare",
+        "sammansatt",
+        "ordval",
+        "belägga",
+        "utelämna",
+        "onormal",
+        "tillförlitlig",
+        "förgäves",
+        "introduktion"
+      ],
+      "text": "Varje vecka svarar jag på läsarnas frågor i den här kolumnen. Den här veckan kom ett brev som jag tror att många känner igen sig i. Avsändaren är en lärare i Kalmar som undervisar vuxna invandrare i svenska. Hon skriver:\n\n”Mina elever frågar ofta varför svenskan har så långa ord. De letar förgäves efter ord som sjukhusparkering i sina ordböcker och blir till sist trötta. Är det onormalt att ett språk fungerar så här?”\n\nTack för en bra fråga! Svaret är nej, det är inte alls onormalt. Ord som består av två eller flera delar kallas sammansatta ord, och de finns i alla nordiska språk. Danskan, norskan och isländskan bildar nya ord på samma sätt som svenskan. I engelskan skriver man ofta delarna var för sig, men i Norden skriver vi ihop dem. Därför är det ofta förgäves att leta efter ett långt ord i ordboken. Man får i stället leta efter delarna.\n\nEtt sammansatt ord är lättare att förstå än det ser ut. Den sista delen säger vad saken är, och den första delen säger vilken sorts sak det är. En sommarstuga är en stuga, inte en sommar. Den som förstår den regeln kan läsa nästan alla sammansatta ord, även sådana som aldrig har stått i en ordbok.\n\nMånga läsare undrar också hur gamla de här orden är. Många av dem kan forskarna belägga redan i medeltida texter. Att ett ord är belagt betyder att forskarna har hittat det i en skriven källa. Ett ord kan förstås ha funnits i folks tal länge innan det blev belagt i skrift. Gamla källor är dessutom inte alltid tillförlitliga, eftersom skrivarna ofta kopierade varandra och gjorde fel. De mest tillförlitliga uppgifterna finns i dag i de stora digitala ordböckerna.\n\nIbland gör vi orden kortare i stället för längre. Vi säger mobil när vi menar mobiltelefon. Den andra delen har vi helt enkelt utelämnat, eftersom alla ändå förstår. Att utelämna en del av ett ord är lika normalt som att bilda ett nytt.\n\nAvsändaren frågar till sist vad hon kan göra för sina elever. Mitt råd är en kort introduktion redan under de första veckorna. När eleverna har fått en tydlig introduktion till hur orden byggs, blir de långa orden plötsligt en hjälp och inte ett hinder.\n\nOch en sista tanke om ordval. Ett sammansatt ord är kort och exakt, men ett alltför långt ord kan göra en text tung. Ett gott ordval handlar om att hitta balansen. Skriv gärna till kolumnen igen, om ni har fler frågor!\n\nFrågor:\nVem är avsändaren av brevet?\nAvsändaren är en lärare i Kalmar som undervisar vuxna invandrare i svenska.\nVarför letar eleverna förgäves i sina ordböcker?\nEftersom många långa sammansatta ord inte står i ordboken; man får i stället leta efter delarna.\nÄr det onormalt att ett språk har så långa ord?\nNej, det är inte onormalt, och sammansatta ord finns i alla nordiska språk.\nVad betyder det att ett ord är belagt?\nDet betyder att forskarna har hittat ordet i en skriven källa.\nVarför är gamla källor inte alltid tillförlitliga?\nEftersom skrivarna ofta kopierade varandra och gjorde fel.\nVad ger skribenten för råd till läraren?\nSkribenten ger rådet att eleverna ska få en kort introduktion till hur orden byggs redan under de första veckorna."
+    },
+    {
+      "title": "Recension: Mörkt vatten",
+      "summary": "A review of a Danish-Swedish crime series in which two police officers learn to understand each other's language.",
+      "newWords": [
+        "dramatik",
+        "förlägga",
+        "kaliber",
+        "signalement",
+        "sydöstra",
+        "utefter",
+        "gisslan",
+        "misstro",
+        "tilltro"
+      ],
+      "text": "Den nordiska kriminalserien har i många år varit en av våra mest kända exportvaror. Den nya serien Mörkt vatten är ett samarbete mellan dansk och svensk tv, och den håller hög kaliber redan från första avsnittet. Skådespelarna är av samma kaliber som i de stora serierna från förr, och manuset är skrivet med stor omsorg.\n\nHandlingen är förlagd till sydöstra Skåne och till den danska ön Bornholm. Att serien är förlagd just dit är ett klokt val. Landskapet är vackert och lite ödsligt, och kameran följer ofta polisernas bil när den kör utefter kusten i dimma. De långa bilderna utefter havet ger serien ett lugn som man sällan ser i tv.\n\nHuvudpersonerna är den svenska polisen Sara Lind och hennes danska kollega Mads Holm. Sara talar svenska och Mads talar danska, och ingen av dem byter språk. I början präglas samarbetet av misstro. Sara misstror Mads eftersom han pratar fort och skrattar mycket, och Mads tycker att Sara är stel. Deras misstro mot varandra bygger till stor del på att de inte riktigt förstår varandras språk.\n\nDet tydligaste exemplet kommer i det andra avsnittet. Ett danskt vittne ger ett signalement av en man som har setts nära hamnen. Vittnet säger att mannen var rolig. På danska betyder det lugn, men Sara uppfattar det som att mannen var lustig. Hon letar därför efter fel person i flera dagar. När misstaget upptäcks, skrattar alla på polisstationen, men för tittaren är scenen också en liten lektion i grannspråk. Ett signalement är bara så bra som den som lyssnar på det.\n\nSerien bygger inte sin dramatik på våld. Dramatiken finns i stället i samtalen, i det som inte blir sagt och i det som blir fel översatt. I det sista avsnittet tas en fiskare som gisslan på en båt, men även då handlar spänningen mest om ord. Mads måste tala med mannen som håller fiskaren som gisslan, och Sara måste lita på att han säger rätt saker. Ingen kommer till skada, och fiskaren går lugnt i land.\n\nDet är här som serien är som bäst. Långsamt växer deras tilltro till varandra, och tittaren får följa hur den byggs upp, ett ord i taget. Till slut har Sara större tilltro till Mads än till sina svenska kollegor.\n\nMörkt vatten är en serie av hög kaliber och en varm berättelse om två språk som är nästan lika.\n\nFrågor:\nVar är handlingen förlagd?\nHandlingen är förlagd till sydöstra Skåne och till den danska ön Bornholm.\nVarför präglas samarbetet av misstro i början?\nEftersom Sara och Mads inte riktigt förstår varandras språk.\nVad går fel med signalementet?\nVittnet säger att mannen var rolig, som betyder lugn på danska, men Sara tror att han var lustig.\nVar finns seriens dramatik enligt recensionen?\nDramatiken finns i samtalen och i det som blir fel översatt, inte i våld.\nVad händer med fiskaren som tas som gisslan?\nIngen kommer till skada, och fiskaren går lugnt i land.\nHur förändras relationen mellan Sara och Mads?\nDeras tilltro till varandra växer långsamt."
+    },
+    {
+      "title": "Bastun som ritual",
+      "summary": "A Swedish columnist describes the Finnish sauna, Finnish silence and why the usual image of the Finns is one-sided.",
+      "newWords": [
+        "ritual",
+        "härda",
+        "ögonkontakt",
+        "sympatisk",
+        "babbla",
+        "tröskel",
+        "ensidig",
+        "måne",
+        "krut",
+        "tillfällighet"
+      ],
+      "text": "Förra vintern bodde jag en månad hos min väninna Aino utanför Tammerfors. Aino är finsk, men hon talar en vacker svenska, och hon hade lovat att visa mig ”det riktiga Finland”. Det riktiga Finland visade sig ligga i en liten träbastu vid en sjö.\n\nI Sverige är bastun något man gör efter gymmet. I Finland är den en ritual. Det är ingen tillfällighet att det finns ungefär 3 miljoner bastur i ett land med 5,5 miljoner invånare. Ritualen ser ut ungefär likadant i varje familj: man tänder elden i god tid, man tvättar sig, man sitter tyst i värmen och sedan går man ut i kylan. Aino lade mycket krut på varje detalj. Hon bar in ved, hon hämtade vatten och hon kontrollerade värmen flera gånger, innan hon var nöjd. Hon lade lika mycket krut på bastun som andra lägger på en fest.\n\nRedan vid tröskeln märkte jag skillnaden. När jag steg över tröskeln till bastun började jag genast prata, som svenskar gör när de är nervösa. Aino log och sa: ”Här inne behöver du inte babbla.” Hon menade det inte elakt. I bastun är tystnaden inte obekväm. Den är en del av ritualen. Det är heller ingen tillfällighet att sauna är det finska ord som hela världen känner.\n\nVi svenskar har ofta en ensidig bild av finnarna. Vi säger att de är tysta, att de undviker ögonkontakt och att de är svåra att lära känna. Den bilden är inte fel, men den är ensidig. Det stämmer att många finnar inte söker ögonkontakt med främlingar på bussen. Men den som har suttit i en bastu med en finsk familj vet att tystnaden kan vara varm. Man behöver inte babbla för att visa att man tycker om någon.\n\nEfter bastun sprang vi ut i snön. Månen stod högt över sjön, och isen lyste vit i månens ljus. Aino rullade sig i snön och skrattade. Hon sa att kylan härdar kroppen. Hennes mormor hade badat i en vak varje morgon till 90 års ålder, och hela familjen trodde att det var det som hade härdat henne. Jag är inte säker på att det är sant, men jag kände mig mer levande än på länge.\n\nDen sista kvällen satt vi länge på bryggan och tittade på månen. Vi sa nästan ingenting, och ändå var det ett av de bästa samtal jag har haft. Aino är den mest sympatiska människa jag känner. Hon är sympatisk på ett lugnt sätt, utan många ord.\n\nNu är jag hemma i Uppsala igen. Jag pratar fortfarande mycket, men jag har lärt mig att ibland vara tyst.\n\nFrågor:\nVar bodde skribenten förra vintern?\nSkribenten bodde en månad hos sin väninna Aino utanför Tammerfors.\nVarför kallar skribenten bastun en ritual i Finland?\nEftersom den ser ut ungefär likadant i varje familj och har fasta steg.\nVad sa Aino när skribenten började prata vid tröskeln?\nAino sa att skribenten inte behövde babbla där inne.\nVarför tycker skribenten att svenskarnas bild av finnarna är ensidig?\nEftersom tystnaden kan vara varm, och man behöver inte babbla för att visa att man tycker om någon.\nVad trodde familjen hade härdat Ainos mormor?\nDe trodde att det var de kalla baden i en vak varje morgon.\nHur beskriver skribenten Aino?\nHon är den mest sympatiska människa skribenten känner, sympatisk på ett lugnt sätt."
+    },
+    {
+      "title": "Dagbok från Färöarna",
+      "summary": "A traveller's diary from a stormy week on the Faroe Islands, where a cancelled ferry teaches him about island life and language.",
+      "newWords": [
+        "orkan",
+        "paraply",
+        "kompass",
+        "tripp",
+        "frakta",
+        "logistik",
+        "förbruka",
+        "utebli",
+        "regnig",
+        "millimeter"
+      ],
+      "text": "Måndag. I dag kom jag till Tórshavn efter två dagar på färjan från Danmark. Min plan är en kort tripp på en vecka: jag vill vandra, lyssna på färöiska och skriva om språket för min tidning. Vädret är regnigt, men det säger alla att det alltid är på Färöarna. Jag köpte ett paraply i hamnen. Kvinnan i kassan skrattade och sa på danska att ett paraply inte hjälper här, eftersom regnet kommer från sidan.\n\nTisdag. Ännu en regnig dag. Jag vandrade upp på ett berg utanför staden med karta och kompass. Dimman kom fort, och efter en timme såg jag knappt mina egna fötter. Utan kompassen hade jag inte hittat ner. Mitt nya paraply gick sönder redan efter tio minuter. Kvinnan i kassan hade rätt.\n\nOnsdag. Radion varnar för en orkan. Det är inte ovanligt med storm här på hösten, men en riktig orkan kommer bara några gånger på tio år. Under natten ska det falla 50 millimeter regn och vinden ska bli mycket stark. Alla båtar ligger kvar i hamnen.\n\nTorsdag. Orkanen kom i natt. Huset skakade, och jag sov nästan ingenting. På morgonen hade det fallit mer än 60 millimeter regn. Färjan till den lilla ön där jag skulle intervjua en lärare uteblev. Även flyget uteblev, och affärerna var stängda.\n\nJag frågade ägaren av mitt hotell hur man klarar livet på en ö där båtarna kan utebli i flera dagar. Han förklarade att allt handlar om logistik. Nästan all mat måste fraktas till öarna med båt. När båtarna inte går, får man klara sig med det man har. Därför har varje familj stora förråd. Han sa att man måste tänka på hur mycket man förbrukar av allt, från mjölk till bensin. Den som förbrukar sitt förråd för fort, har problem när nästa orkan kommer.\n\nFredag. Vinden har lugnat sig. Båtarna går igen, och i hamnen fraktar man ut lådor med mat, post och reservdelar till öarna. Jag förstår nu varför folk här talar om logistik som andra talar om väder.\n\nLördag. Till sist fick jag träffa läraren. Hon berättade att färöiskan nästan försvann under den danska tiden, men att den i dag talas av alla på öarna. Hennes elever lär sig danska också, men färöiskan är deras eget språk. Min korta tripp blev annorlunda än jag hade tänkt mig, men jag fick med mig mer än jag hade väntat.\n\nFrågor:\nHur länge skulle trippen vara?\nTrippen skulle vara en vecka.\nVarför hjälper inte ett paraply på Färöarna?\nEftersom regnet kommer från sidan, och paraplyet gick dessutom sönder.\nHur hittade skribenten ner från berget i dimman?\nSkribenten hittade ner med hjälp av sin kompass.\nHur mycket regn föll under orkanen?\nDet föll mer än 60 millimeter regn.\nVad uteblev på torsdagen?\nFärjan till den lilla ön och flyget uteblev.\nVarför talar folk på öarna så mycket om logistik?\nEftersom nästan all mat måste fraktas till öarna med båt, och man måste tänka på hur mycket man förbrukar."
+    },
+    {
+      "title": "Födelsedag i Köpenhamn",
+      "summary": "An aunt from Sweden travels to Copenhagen for her nephew's seventh birthday and learns some new Danish along the way.",
+      "newWords": [
+        "brorson",
+        "födelsedagspresent",
+        "jätteglad",
+        "muffins",
+        "pyjamas",
+        "gnällig",
+        "tjat",
+        "strul",
+        "kana",
+        "flinga"
+      ],
+      "text": "Hej Lisa!\n\nNu sitter jag på tåget hem från Köpenhamn och vill berätta om helgen. Du vet att min bror Jonas bor där med sin danska fru Mette och deras son Oskar. Min brorson fyllde sju år i lördags, och jag hade lovat att komma.\n\nResan började med strul. Tåget från Malmö var inställt, och jag fick vänta en timme på perrongen. Sedan blev det mer strul, eftersom jag hade glömt födelsedagspresenten hemma i köket. Jag fick köpa en ny födelsedagspresent på stationen i Köpenhamn: en pyjamas med rymdraketer, som jag visste att min brorson skulle tycka om.\n\nJonas hade varnat mig. Oskar hade varit gnällig hela veckan, och det berodde mest på att han inte kunde vänta. Han hade tjatat om sin födelsedag i flera dagar. Allt tjat handlade om samma sak: vilken present han skulle få. Mette sa på danska att hon var trött på allt tjat, men att det var normalt för en pojke på sju år. Hon pratar danska med Oskar, och Jonas pratar svenska. Oskar svarar på det språk han känner för.\n\nPå lördagsmorgonen var min brorson inte alls gnällig. Han var jätteglad. Han öppnade födelsedagspresenten direkt och tog på sig sin nya pyjamas över kläderna. Sedan bakade vi muffins tillsammans. Oskar lärde mig att muffins heter muffins även på danska, men att en kaka heter kage. Han var mycket stolt över att få lära sin faster något.\n\nEfter frukosten började det snöa. Stora vita flingor föll över staden. Oskar stod vid fönstret och räknade flingorna, tills han tröttnade och ville gå ut. Vi tog en pulka och gick till parken. Där fanns en liten backe, och vi kanade ner för den om och om igen. Oskar kanade fortare än jag, och han skrek av glädje varje gång. På danska heter det att kælke, sa han, men han tyckte att det svenska ordet kana var roligare.\n\nPå kvällen kom Mettes föräldrar. Vi åt middag och de sista muffinsen, och sedan sjöng vi både den svenska och den danska födelsedagssången. Oskar somnade i sin nya pyjamas i soffan, jätteglad och mycket trött.\n\nJag har lovat att komma tillbaka till påsk. Då ska jag inte glömma någon present!\n\nKram, Karin\n\nFrågor:\nVem fyllde år?\nKarins brorson Oskar fyllde sju år.\nVilket strul blev det under resan?\nTåget från Malmö var inställt, och Karin hade glömt födelsedagspresenten hemma.\nVad köpte hon i stället?\nHon köpte en pyjamas med rymdraketer på stationen i Köpenhamn.\nVarför hade Oskar varit gnällig hela veckan?\nEftersom han inte kunde vänta på sin födelsedag.\nVad gjorde de efter frukosten?\nDe gick till parken och kanade ner för en liten backe i snön.\nHur var Oskar på kvällen?\nHan var jätteglad och mycket trött och somnade i sin nya pyjamas."
+    },
+    {
+      "title": "Hönsen på Island",
+      "summary": "A profile of an Icelandic farmer who keeps the island's old breed of hens and grows herbs from the local flora.",
+      "newWords": [
+        "höns",
+        "tupp",
+        "ört",
+        "vattna",
+        "flora",
+        "dona",
+        "pulver",
+        "avliva",
+        "skör",
+        "beslag"
+      ],
+      "text": "På en liten gård utanför Akureyri, på norra Island, bor Gudrun Jónsdóttir med sina höns. Hon har 40 höns och en stor, stolt tupp, och alla tillhör den gamla isländska rasen. Rasen kom till ön med de första bönderna för mer än tusen år sedan.\n\nUnder 1900-talet var rasen nära att försvinna. Bönderna ville ha höns som lade fler ägg, och de köpte nya raser från utlandet. Många av de gamla hönsen avlivades, eftersom de ansågs vara för små. På 1970-talet fanns det bara några hundra kvar. I dag finns det några tusen, men rasens framtid är fortfarande skör. En enda sjukdom skulle kunna förstöra mycket, och därför arbetar Gudrun med andra bönder för att hålla rasen frisk.\n\nGudrun går upp tidigt varje morgon. Tuppen väcker henne långt innan det blir ljust. ”Han är min klocka”, säger hon och skrattar. Sedan donar hon i hönshuset en stund. Hon ger hönsen vatten, samlar äggen och tittar efter att alla mår bra. Hon tycker om att dona med sina djur, och hon säger att hon aldrig blir trött på det.\n\nBakom huset har hon en trädgård med örter. Island har en rik flora trots det kalla klimatet, och flera av hennes örter växer vilt på ön. Hon har studerat den isländska floran i många år. På sommaren vattnar hon örterna varje kväll, men på hösten vattnar hon dem nästan aldrig, eftersom regnet räcker. När örterna har torkat, maler hon dem till ett fint pulver. Pulvret säljer hon på marknaden i staden, och det används både i mat och i te.\n\nHönsen har lagt beslag på en stor del av trädgården. De går fritt mellan örterna, och tuppen har lagt beslag på den bästa platsen i solen. Gudrun låter dem göra som de vill. ”De gör ingen skada”, säger hon. ”De äter mest insekter.”\n\nGudrun berättar också om språket. På isländska har många ord för djur och växter funnits sedan sagornas tid. Islänningarna tycker om att skapa nya ord av gamla rötter i stället för att låna utländska ord. Hon säger att språket, liksom hönsrasen, är något som man måste vara rädd om. Båda är starka, men båda är också sköra.\n\nFrågor:\nHur många höns har Gudrun?\nHon har 40 höns och en tupp.\nVarför avlivades många av de gamla hönsen under 1900-talet?\nEftersom de ansågs vara för små, och bönderna ville ha höns som lade fler ägg.\nVarför är rasens framtid fortfarande skör?\nEftersom det finns få djur, och en enda sjukdom skulle kunna förstöra mycket.\nVad gör Gudrun när hon donar i hönshuset?\nHon ger hönsen vatten, samlar äggen och tittar efter att alla mår bra.\nVad gör hon med örterna när de har torkat?\nHon maler dem till ett fint pulver som hon säljer på marknaden.\nVad har tuppen lagt beslag på?\nTuppen har lagt beslag på den bästa platsen i solen."
+    },
+    {
+      "title": "Språk och makt i Norden",
+      "summary": "A short essay on how language and social class have been linked in the history of the Nordic countries.",
+      "newWords": [
+        "adel",
+        "överklass",
+        "inflytelserik",
+        "förakta",
+        "välstånd",
+        "federation",
+        "alliera",
+        "totalitär",
+        "patriarkal",
+        "förvärv"
+      ],
+      "text": "Språk har alltid handlat om mer än ord. I de nordiska ländernas historia har det språk man talade ofta visat vilken plats man hade i samhället.\n\nUnder 1700-talet talade den svenska adeln gärna franska. Franskan var Europas finaste språk, och för adeln var den ett tecken på bildning. Även kungen talade franska vid hovet. Vanliga människor förstod inte vad adeln sa, och det var delvis meningen. För den som inte var född i adeln var en god franska ett värdefullt förvärv. Språket skilde överklassen från folket.\n\nI Finland såg det ut på ett liknande sätt, men med svenska i stället för franska. Under flera hundra år var svenska språket för överklassen, för staten och för universitetet. Finskan var böndernas språk, och en del av överklassen föraktade det öppet. När Ryssland tog Finland från Sverige 1809, var landet ett viktigt förvärv för den ryska kejsaren. Men under den ryska tiden växte en rörelse som ville ge finskan samma värde som svenskan. Flera inflytelserika författare och forskare var själva svensktalande, men de valde att skriva på finska. De ville visa att ingen längre skulle förakta folkets språk.\n\nI Norge var det danska som var överklassens språk efter fyrahundra år av dansk makt. En inflytelserik forskare reste runt i landet och samlade ord från de norska bygderna. Ur hans arbete växte det som i dag heter nynorska. Därför har Norge fortfarande två skriftspråk.\n\nUnder 1800-talet drömde många studenter om en nordisk federation. De ville att de nordiska länderna skulle alliera sig och bli ett land. Studenterna från Uppsala, Lund och Köpenhamn allierade sig i stora möten och sjöng om att Norden var ett folk. Någon federation blev det aldrig, men tanken om ett nära samarbete levde vidare.\n\nUnder 1900-talet drabbades Europa av totalitära stater, där makten förbjöd minoriteternas språk. Danmark och Norge var ockuperade under andra världskriget, men efter kriget blev inget av de nordiska länderna en totalitär stat. Under andra halvan av seklet växte ett stort välstånd. Med välståndet kom skolor för alla, och språket var inte längre ett tecken på klass.\n\nTill sist bör det sägas att denna historia länge har berättats på ett patriarkalt sätt. Den har handlat om kungar, präster och män i makt. Men det var ofta kvinnorna som förde språket vidare, när de sjöng för sina barn. I ett patriarkalt samhälle syntes deras arbete sällan, men utan dem hade många språk dött ut.\n\nFrågor:\nVarför talade den svenska adeln franska?\nEftersom franskan var Europas finaste språk och ett tecken på bildning.\nVilket språk talade överklassen i Finland?\nÖverklassen i Finland talade svenska.\nVarför valde inflytelserika svensktalande författare att skriva på finska?\nDe ville visa att ingen längre skulle förakta folkets språk.\nVad drömde studenterna om på 1800-talet?\nDe drömde om en nordisk federation, där länderna skulle alliera sig och bli ett land.\nVad kom med välståndet under 1900-talet?\nMed välståndet kom skolor för alla.\nVarför kallar skribenten historien patriarkal?\nEftersom den har handlat om kungar, präster och män i makt, medan kvinnornas arbete sällan syntes."
+    },
+    {
+      "title": "Samtal med en lärare i samiska",
+      "summary": "An interview with a teacher of Sami about the history of the language, vandalised signs, online hate and hope for the future.",
+      "newWords": [
+        "skadegörelse",
+        "näthat",
+        "förföljelse",
+        "beskylla",
+        "medial",
+        "partiprogram",
+        "kurator",
+        "otrygghet",
+        "borttagen",
+        "motsätta"
+      ],
+      "text": "Elle Sara Kuhmunen undervisar i samiska på en skola i Jokkmokk. Vi träffar henne en kall morgon i mars, när solen just har kommit tillbaka efter vintern.\n\nHur länge har du arbetat som lärare?\n”I snart 20 år. När jag började hade jag fyra elever. I dag har jag mer än 30, och fler vuxna vill också lära sig.”\n\nVarför har så många samer förlorat språket?\n”Det har en lång historia. På 1600-talet förföljdes den samiska religionen, och förföljelsen var hård. Under förföljelsen brändes många av de heliga trummorna. Senare, under 1900-talet, fick många barn inte tala samiska i skolan. Min farmor fick straff om hon pratade sitt eget språk. Därför lärde hon aldrig sina barn samiska. Förr beskylldes samiska barn för att vara lata, när de inte förstod lärarens svenska. Ingen ska beskylla de unga i dag för att de inte kan språket. Det var inte deras fel.”\n\nDet har varit mycket skadegörelse på skyltar med samiska namn. Varför?\n”Ja, varje år blir skyltar förstörda. På några skyltar har de samiska namnen blivit målade över, och på andra är de helt borttagna. Kommunen sätter upp nya, men det är dyrt. Skadegörelsen skapar otrygghet, särskilt hos barnen. De undrar varför någon vill ta bort deras språk. När ett namn är borttaget, känns det som om man själv är borttagen.”\n\nDu har själv drabbats av näthat.\n”Efter att jag var med i tv för två år sedan, fick jag mycket medial uppmärksamhet. Det var mest positivt, men jag fick också näthat. Människor som jag aldrig har träffat skrev att jag ville splittra landet och att samiskan var värdelös. Det var jobbigt. Jag pratade med skolans kurator, och hon hjälpte mig att förstå att näthatet inte handlade om mig.”\n\nAnvänder du kuratorn även för eleverna?\n”Ja. Vår kurator är mycket viktig. När eleverna känner otrygghet, kan de alltid prata med kuratorn.”\n\nVad gör politikerna?\n”Fler partier skriver i dag om samiskan i sitt partiprogram. Det är bra, men ett partiprogram är bara ord. Förr fanns det de som motsatte sig skyltar på samiska. I dag är det nästan ingen som öppet motsätter sig dem, och det är ett tecken på att något har förändrats.”\n\nHur ser du på framtiden?\n”Med hopp. Den mediala bilden av samerna är bättre än förr, och barnen är stolta. Språket lever, och det växer.”\n\nFrågor:\nHur många elever har Elle Sara i dag?\nHon har mer än 30 elever.\nVarför lärde hennes farmor aldrig sina barn samiska?\nEftersom hon fick straff när hon pratade samiska i skolan.\nVad har hänt med skyltarna?\nDet har varit skadegörelse: några samiska namn har målats över, och andra är helt borttagna.\nVad gjorde hon när hon fick näthat?\nHon pratade med skolans kurator, som hjälpte henne att förstå att näthatet inte handlade om henne.\nVad skriver fler partier om i dag?\nDe skriver om samiskan i sitt partiprogram.\nHur ser hon på framtiden?\nHon ser på framtiden med hopp, eftersom språket lever och barnen är stolta."
+    },
+    {
+      "title": "En röst för färöiskan",
+      "summary": "A board member of a small foundation explains how they built a free app that reads Faroese aloud with a synthetic voice.",
+      "newWords": [
+        "syntetisk",
+        "kompatibel",
+        "stabilisera",
+        "krasch",
+        "prioritering",
+        "kostnadsfri",
+        "styrelseledamot",
+        "specificera",
+        "procentenhet"
+      ],
+      "text": "Färöiskan talas av ungefär 70 000 människor. För ett så litet språk har det länge varit svårt att få plats i den nya tekniken. Mobiltelefoner och datorer kan tala engelska, svenska och danska, men för färöiskan fanns det länge ingen röst alls. Det ville en liten stiftelse i Tórshavn ändra på.\n\nJónas Petersen är styrelseledamot i stiftelsen. Han har arbetat med datorer i 30 år och berättar gärna om projektet.\n\n”Vi ville bygga en syntetisk röst som kan läsa upp färöisk text”, säger han. ”En syntetisk röst är en röst som en dator skapar. Den låter nästan som en människa, men det är ingen människa som talar.”\n\nArbetet tog fyra år. Först spelade man in en skådespelerska som läste tusentals meningar. Sedan lärde man datorn hur färöiska ord uttalas. Det svåraste var att specificera alla regler för uttalet, eftersom färöiskan inte uttalas som den skrivs. ”Vi fick specificera varje undantag för sig”, säger Jónas. ”Det var ett långt och noggrant arbete.”\n\nSom styrelseledamot har Jónas också ansvar för pengarna, och då handlar det om prioritering. ”Vi hade inte råd att göra allt på en gång. Vår första prioritering var de människor som har svårt att läsa: äldre med dålig syn och barn med läs- och skrivsvårigheter. Därför valde vi att göra appen kostnadsfri. Den ska vara kostnadsfri för alla, för alltid.”\n\nNär appen kom ut för två år sedan, blev det problem. Den var inte kompatibel med äldre telefoner, och många användare fick en krasch så fort de öppnade den. ”Det var en tung period”, säger Jónas. ”Varje krasch betydde en besviken användare.” Teamet arbetade i flera månader för att stabilisera appen. I dag är den stabiliserad, och den är kompatibel med nästan alla telefoner som används på öarna.\n\nResultaten är tydliga. Enligt stiftelsens egna siffror har andelen färöiska skolbarn som använder en uppläsande app ökat med 15 procentenheter på ett år. Bland äldre har andelen ökat med 8 procentenheter. ”Det låter kanske inte så mycket”, säger Jónas, ”men för oss är varje procentenhet en människa som kan läsa på sitt eget språk.”\n\nNästa steg är att göra den syntetiska rösten ännu mer naturlig. ”Rösten ska låta som en färing och inte som en maskin”, säger Jónas och skrattar.\n\nFrågor:\nVad är en syntetisk röst?\nEn syntetisk röst är en röst som en dator skapar.\nVarför var det svårt att specificera reglerna för uttalet?\nEftersom färöiskan inte uttalas som den skrivs, och varje undantag måste specificeras för sig.\nVilken var stiftelsens första prioritering?\nDen första prioriteringen var människor som har svårt att läsa, som äldre med dålig syn och barn med läs- och skrivsvårigheter.\nVilka problem fick appen i början?\nDen var inte kompatibel med äldre telefoner, och många användare fick en krasch.\nHur mycket ökade andelen skolbarn som använder en uppläsande app?\nDen ökade med 15 procentenheter på ett år."
+    },
+    {
+      "title": "Mittfältaren från Bergen",
+      "summary": "An interview with a Norwegian footballer in Sweden about language, culture, injury and life in a new country.",
+      "newWords": [
+        "mittfältare",
+        "olympisk",
+        "njure",
+        "bäcken",
+        "inkomstskatt",
+        "överkörd",
+        "gynnsam",
+        "övertag",
+        "egoistisk"
+      ],
+      "text": "Ingrid Solberg är 28 år och kommer från Bergen. Sedan tre år spelar hon fotboll i ett lag i Göteborg, där hon är en av lagets bästa mittfältare. Hon har spelat i landslaget och var med när Norge deltog i de olympiska spelen. Vi träffar henne på ett kafé nära träningsplanen.\n\nHur var det att flytta till Sverige?\n”Språket var inget problem. Norska och svenska är så lika att jag förstod nästan allt redan första dagen. Men kulturen var annorlunda. På de första mötena med laget kände jag mig ofta överkörd. Inte för att svenskarna var otrevliga, utan för att de pratade så länge innan de bestämde något. I Norge säger vi vad vi tycker och går vidare. Här skulle alla vara överens först. Jag kände mig överkörd av alla ord.”\n\nOch nu?\n”Nu förstår jag det bättre. Svenskarna vill att alla ska känna sig delaktiga. Det är faktiskt bra för ett lag.”\n\nVad är en bra mittfältare enligt dig?\n”En mittfältare måste se hela planen. Hon får aldrig vara egoistisk. En egoistisk mittfältare vill göra allt själv, men min uppgift är att få andra att spela bra. När vi har bollen och övertaget, ska jag hitta rätt spelare. Ibland får vi övertaget för att vi pratar mer på planen än motståndarna. Där hjälper det att kunna säga saker kort, på norska.”\n\nFörra året var du skadad länge.\n”Ja, i en match kolliderade jag med en motståndare och föll mycket illa. Jag fick en spricka i bäckenet. Läkarna kontrollerade också mina njurar, eftersom jag hade fått en hård smäll i ryggen. Som tur var mådde njurarna bra, men bäckenet tog fem månader att läka. Den första olympiska drömmen fick vänta.”\n\nVarför valde du Sverige?\n”Förhållandena är gynnsamma här. Damfotbollen har fler åskådare och bättre ekonomi än för några år sedan. Det är också gynnsamt att bo nära Norge, så att min familj kan komma på matcherna.”\n\nÄr det skillnad i ekonomin?\n”Lönerna är ungefär lika, men inkomstskatten är lite olika. Jag lär mig fortfarande hur inkomstskatten fungerar i Sverige. Jag har en svensk vän som hjälper mig med papperen varje vår.”\n\nVad är ditt nästa mål?\n”Att komma tillbaka till landslaget och kanske få spela i de olympiska spelen en gång till.”\n\nFrågor:\nVar spelar Ingrid fotboll i dag?\nHon spelar i ett lag i Göteborg, där hon är en av lagets bästa mittfältare.\nVarför kände hon sig överkörd på de första mötena?\nEftersom svenskarna pratade länge innan de bestämde något, och alla skulle vara överens först.\nVarför får en mittfältare aldrig vara egoistisk?\nEftersom hennes uppgift är att få andra att spela bra, inte att göra allt själv.\nVilken skada fick hon förra året?\nHon fick en spricka i bäckenet, och läkarna kontrollerade också hennes njurar.\nVarför tycker hon att förhållandena i Sverige är gynnsamma?\nEftersom damfotbollen har fler åskådare och bättre ekonomi, och hon bor nära sin familj i Norge.\nVem hjälper henne med inkomstskatten?\nEn svensk vän hjälper henne med papperen varje vår."
+    }
+  ]
+}

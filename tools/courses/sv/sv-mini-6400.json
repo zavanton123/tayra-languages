@@ -1,0 +1,209 @@
+{
+  "id": "sv-mini-6400",
+  "rankUpTo": 6400,
+  "level": "C1",
+  "title": "Teater, cirkus och scen",
+  "description": "Reviews, interviews, columns and reports from the stage: a circus on the plain, a new opera, a set designer, a children's play, the modern audience, theatre funding, an engineer turned actor, a family drama, the book fair stage and a detective play in a shopping centre.",
+  "topic": "Theatre, circus and stage",
+  "names": [
+    "Lund",
+    "Skåne",
+    "Stella",
+    "Jonas Berg",
+    "Jonas",
+    "Lina",
+    "Linas",
+    "Sara",
+    "Göteborg",
+    "Europa",
+    "Peter Sand",
+    "Karin Ek",
+    "Karin",
+    "Stockholm",
+    "Sverige",
+    "Lars Holm",
+    "Lars",
+    "Dalarna",
+    "Gunnar",
+    "Gunnars",
+    "Anders Lindqvist",
+    "Helga Jónsdóttir",
+    "Helga",
+    "Helgas",
+    "Tomasz Nowak",
+    "Tomasz",
+    "Polen",
+    "Malmö",
+    "Alex Strand",
+    "Alex Strands",
+    "Alex",
+    "Norden",
+    "Nordens",
+    "Uppsala",
+    "Island"
+  ],
+  "lessons": [
+    {
+      "title": "Cirkusen på slätten",
+      "summary": "A report from a travelling circus on the Scania plain: the tent goes up, the acrobats train, the children meet the horses and the circus parades through the village.",
+      "newWords": [
+        "slätt",
+        "hissa",
+        "vältränad",
+        "krita",
+        "armbåge",
+        "nos",
+        "garva",
+        "marschera",
+        "frodas",
+        "efterlängtad"
+      ],
+      "text": "Det är tidig morgon på den skånska slätten utanför Lund. Dimman ligger fortfarande kvar över åkrarna när de första lastbilarna kör in på fältet. Cirkus Stella har kommit tillbaka, och för många familjer i trakten är besöket efterlängtat. Cirkusen kommer bara vartannat år, och biljetterna till den första föreställningen tog slut på en vecka.\n\nRedan klockan 7 börjar arbetet. Ett tiotal män och kvinnor lägger ut den stora tältduken på marken, och med hjälp av rep och en motor hissas den långsamt upp. Det tar nästan tre timmar innan tältet står. ”Vi har hissat det här tältet hundratals gånger”, säger Jonas Berg, som har arbetat på cirkusen i 15 år. ”Men det känns lika speciellt varje gång. Här ute på slätten syns det på flera kilometers avstånd, som ett rött och vitt fyrtorn mitt i allt det gröna.”\n\nInne i tältet tränar artisterna. Två systrar, Lina och Sara, hänger högt uppe under taket. De är vältränade som de bästa idrottarna, och det måste de vara: en enda svag sekund kan få allvarliga följder. ”En vältränad kropp är vårt viktigaste verktyg”, säger Sara. Innan de klättrar upp gnider de in händerna i vit krita. Kritan gör att händerna inte blir svettiga och att greppet sitter. ”Utan krita skulle jag aldrig våga”, säger Lina. Hennes ena armbåge är inlindad. Hon slog den mot en stång för en vecka sedan, men hon tänker uppträda ändå. ”En armbåge läker. Det här är mitt liv.”\n\nBakom tältet står djuren: fyra hästar och en gammal åsna. Hästarna sticker fram nosen över staketet när barnen från byn kommer för att titta. En liten pojke får klappa en häst på nosen, och han garvar så mycket att han nästan ramlar baklänges. Hans pappa garvar också, kanske mest åt sonen.\n\nPå eftermiddagen marscherar hela cirkusen genom byns huvudgata, med trummor, trumpeter och clowner. Folk står längs vägen och vinkar. Att marschera genom orten är en gammal tradition, berättar Jonas. Förr var det det enda sättet att tala om att cirkusen hade kommit.\n\nMånga trodde att cirkusen skulle dö ut när tv och internet tog över kvällarna. Men på landsbygden frodas den fortfarande. Kanske beror det på att en cirkus är något man upplever tillsammans, nära och på riktigt. Där det sällan händer något frodas också längtan efter det som är lite större än vardagen.\n\nKlockan 19 är tältet fullt. Ljuset dämpas, musiken börjar, och den efterlängtade kvällen kan äntligen börja.\n\nFrågor:\nVar står cirkusen?\nCirkusen står på den skånska slätten utanför Lund.\nHur kommer tältet upp?\nTältduken hissas upp med hjälp av rep och en motor, och det tar nästan tre timmar.\nVarför använder systrarna krita?\nDe gnider in händerna i krita så att händerna inte blir svettiga och greppet sitter.\nVad har hänt med Linas armbåge?\nHon slog armbågen mot en stång för en vecka sedan, men hon tänker uppträda ändå.\nVarför marscherar cirkusen genom byn?\nDet är en gammal tradition. Förr var det det enda sättet att tala om att cirkusen hade kommit.\nVarför frodas cirkusen fortfarande på landsbygden, enligt texten?\nKanske för att en cirkus är något man upplever tillsammans, nära och på riktigt."
+    },
+    {
+      "title": "Recension: Kungens sista aria",
+      "summary": "A review of a new Swedish opera set in an invented kingdom, with a duel between two princes, a massacre told through darkness and an old king's farewell aria.",
+      "newWords": [
+        "aria",
+        "fiktiv",
+        "kungarike",
+        "monarki",
+        "duell",
+        "domkyrka",
+        "massaker",
+        "slockna",
+        "framträda",
+        "pausa"
+      ],
+      "text": "Det har gått nästan tio år sedan en helt ny svensk opera hade premiär i Göteborg. I lördags var väntan över. ”Kungens sista aria” utspelar sig i ett fiktivt kungarike någonstans i norra Europa på 1600-talet. Landet är fiktivt, men frågan som operan ställer är högst verklig: vad händer med en monarki när kungen har förlorat folkets förtroende?\n\nHandlingen är lätt att följa. Den gamle kungen är sjuk, och hans två söner strider om makten. Första akten slutar med en duell mellan bröderna i slottets trädgård. Duellen är skickligt gjord. Svärden glänser i ljuset, och orkestern spelar snabbare för varje slag, tills man nästan håller andan. Ingen av bröderna dör, men från den stunden är kungariket delat i två läger.\n\nEfter första akten pausas föreställningen i 25 minuter, och många i publiken diskuterade redan i pausen vem av bröderna som hade rätt.\n\nAndra akten utspelar sig i landets domkyrka, där folket har samlats för att be om fred. Här kommer operans mörkaste scen. Soldater tränger in i domkyrkan, och det som följer är en massaker på oskyldiga människor. Regissören visar ingenting blodigt. I stället slocknar ljusen i kyrkan ett efter ett, och till slut står bara en ensam kvinna kvar i mörkret och sjunger. Det är ett modigt val. En massaker som berättas genom tystnad och mörker blir starkare, inte svagare.\n\nOperan har flera vackra arior, men den som alla kommer att minnas är kungens sista aria i tredje akten. Den gamle kungen inser att monarkin har blivit något folket fruktar, och han bestämmer sig för att lämna makten frivilligt. Sångaren Peter Sand framträder i rollen med en värme som gör den svåra figuren mänsklig. Mitt i arian pausar han i flera sekunder, och det blir så tyst i salongen att man hör någon andas. När han sjunger den sista tonen slocknar ljuset på scenen, och först efter en lång stund börjar applåderna.\n\nDet enda som inte riktigt övertygar är slutet, där kungariket plötsligt blir en lycklig plats igen. Det går lite för fort. Men det är en liten invändning. Det är sällan man ser en ny opera som tar historien, makten och människorna på så stort allvar.\n\nPeter Sand har framträtt på scener i hela Europa, men han har nog aldrig varit bättre än här. Gå och lyssna på honom.\n\nFrågor:\nVar utspelar sig operan?\nDen utspelar sig i ett fiktivt kungarike i norra Europa på 1600-talet.\nHur slutar första akten?\nDen slutar med en duell mellan kungens två söner i slottets trädgård.\nHur visar regissören massakern i domkyrkan?\nHan visar ingenting blodigt. I stället slocknar ljusen ett efter ett, och en ensam kvinna sjunger i mörkret.\nVad inser kungen i sin sista aria?\nHan inser att monarkin har blivit något folket fruktar, och han lämnar makten frivilligt.\nVad gör Peter Sand mitt i arian?\nHan pausar i flera sekunder, och det blir helt tyst i salongen.\nVad tycker recensenten inte om?\nSlutet övertygar inte riktigt, eftersom kungariket blir en lycklig plats för fort."
+    },
+    {
+      "title": "Rummen där pjäserna lever",
+      "summary": "An interview with a set designer who builds a staircase and a small flat on stage, from the first model to the list of props and the bread she buys before every show.",
+      "newWords": [
+        "trapphus",
+        "prototyp",
+        "inreda",
+        "varuhus",
+        "artificiell",
+        "grop",
+        "reparation",
+        "förteckning",
+        "tesked",
+        "mataffär"
+      ],
+      "text": "Karin Ek har byggt rummen på stadsteaterns scen i över 20 år. Just nu arbetar hon med en pjäs som utspelar sig i ett gammalt hyreshus i Stockholm. Vi träffar henne i verkstaden, där det luktar färg och nysågat trä.\n\nHur ser scenen ut i den nya pjäsen?\n”Hela pjäsen utspelar sig i ett trapphus och i en liten lägenhet på tredje våningen. Publiken ska känna att de står i trapphuset själva, med de kalla stenväggarna och ljudet av dörrar som slår igen. Ett trapphus är en plats där grannar möts utan att egentligen vilja det, och det är precis vad pjäsen handlar om.”\n\nHur börjar du ett sådant arbete?\n”Jag bygger alltid en prototyp först, en liten modell av scenen i skala ett till 25. Prototypen står på mitt bord i flera veckor. Regissören och skådespelarna kommer och tittar, och vi flyttar trappor och väggar med fingrarna tills allt fungerar. Det är mycket billigare att ändra en prototyp av papp än en vägg av trä.”\n\nHur inreder du lägenheten?\n”Jag inreder den som om en riktig människa bodde där. Huvudpersonen är en äldre kvinna som har bott i lägenheten i 50 år. Därför har jag letat möbler på loppisar i flera månader. Några saker har jag köpt på ett varuhus, men bara sådant som såg gammalt ut. Ett nytt bord från ett varuhus syns direkt, även från sista raden.”\n\nAllt kan väl inte vara äkta på en scen?\n”Nej, mycket är artificiellt. Blommorna i fönstret är artificiella, och solljuset som faller in genom gardinerna kommer från en lampa. Men publiken ska aldrig tänka på att det är artificiellt. Det är det som är konsten.”\n\nFinns det några tekniska överraskningar för publiken?\n”Mitt i trapphuset har vi byggt en grop i golvet. När en granne faller i pjäsens andra akt försvinner han ner i gropen. Det ser farligt ut, men gropen är mjuk och säker. Efter varje föreställning kontrollerar vi den, och vi har redan fått göra en liten reparation av golvet runt den. Reparationer hör till vardagen här.”\n\nHur håller du ordning på alla saker?\n”Vi har en förteckning över varje föremål på scenen, över 300 saker. I förteckningen står allt, ända ner till en tesked. En tesked låter kanske oviktig, men den gamla kvinnan rör om i sitt te i nästan varje scen. Om den saknas blir skådespelaren förvirrad.”\n\nAnvänder ni riktig mat?\n”Ja. Före varje föreställning går en av våra assistenter till mataffären på hörnet och köper färskt bröd. Personalen i mataffären vet vid det här laget vad det är till. Bröd av plast fungerar inte när någon ska äta det på scenen.”\n\nFrågor:\nVar utspelar sig den nya pjäsen?\nDen utspelar sig i ett trapphus och i en liten lägenhet i ett gammalt hyreshus i Stockholm.\nVarför bygger Karin en prototyp först?\nDet är mycket billigare att ändra en prototyp av papp än en vägg av trä.\nHur inreder hon lägenheten?\nHon inreder den som om en riktig människa bodde där, med gamla möbler från loppisar.\nVad är artificiellt på scenen?\nBlommorna i fönstret och solljuset, som kommer från en lampa.\nVad händer i gropen i golvet?\nEn granne faller och försvinner ner i gropen, som är mjuk och säker.\nVarför står en tesked i förteckningen?\nDen gamla kvinnan rör om i sitt te i nästan varje scen."
+    },
+    {
+      "title": "Svanen och grodan",
+      "summary": "A children's theatre actor writes about the first week of a play based on a rhyming picture book about a swan and her best friend, a frog.",
+      "newWords": [
+        "förrgår",
+        "barnbok",
+        "rimma",
+        "svan",
+        "bästis",
+        "omtänksam",
+        "ruskig",
+        "nedför",
+        "juste",
+        "bokhandel"
+      ],
+      "text": "Måndag kväll.\n\nI förrgår hade vi premiär på vår nya barnföreställning, och jag har inte hunnit skriva förrän nu. Föreställningen bygger på en barnbok som nästan alla svenska förskolebarn känner till: ”Svanen och grodan”. Jag har läst den barnboken för mina egna barn så många gånger att jag kan den utantill, så när jag fick rollen kändes det nästan som att komma hem.\n\nDet speciella med boken är att hela texten rimmar. ”Svanen sa till grodan: kom, vi flyger bort till sjön där vattnet är så skönt”, och så vidare. Regissören ville att texten skulle rimma även på scenen. I början var det svårt. När varannan rad rimmar är det lätt att det låter som en lek med ord och inte som människor som talar. Men efter några veckor kändes det naturligt att allt rimmade, och nu tycker jag att det är det roligaste med pjäsen.\n\nJag spelar svanen. Hon är stor och vit och lite stolt, men hon är också omtänksam. Hennes bästis är en liten groda som är rädd för nästan allt. Grodan är rädd för mörkret, för stora fiskar och för stormar. Svanen är den som alltid är omtänksam och tar hand om sin bästis, och det är det barnen tycker mest om.\n\nMitten av pjäsen är lite ruskig. Det blir storm på sjön, ljuset blir blått, och en ruskig räv smyger runt stranden. Jag var orolig för att de minsta barnen skulle bli rädda. I förrgår höll en flicka på första raden för ögonen, men hon tittade mellan fingrarna hela tiden. Efteråt sa hon att det var ”lagom ruskigt”.\n\nSedan kommer min favoritscen. Svanen och grodan springer nedför en brant backe för att komma undan räven, och jag springer faktiskt nedför trappan i salongen, mitt bland publiken. Barnen skriker av förtjusning. Till slut visar det sig att räven inte alls är farlig. Han är ganska juste, bara lite ensam, och han vill också vara med och leka. Att räven är juste är bokens viktigaste poäng: den man är rädd för kan bli en vän.\n\nEfter föreställningen hörde jag flera barn fråga sina föräldrar om de kunde köpa boken. Bokhandeln bredvid teatern har redan beställt nya exemplar, berättade min kollega. Det gör mig glad. En pjäs tar slut efter en timme, men en barnbok från bokhandeln kan man läsa hundra gånger.\n\nFrågor:\nNär hade föreställningen premiär?\nDen hade premiär i förrgår.\nVad är speciellt med texten i barnboken?\nHela texten rimmar.\nVem är svanens bästis?\nHennes bästis är en liten groda som är rädd för nästan allt.\nVarför är mitten av pjäsen ruskig?\nDet blir storm på sjön, ljuset blir blått och en ruskig räv smyger runt stranden.\nVad händer i författarens favoritscen?\nSvanen och grodan springer nedför en brant backe, och hon springer nedför trappan i salongen bland publiken.\nVarför har bokhandeln beställt nya exemplar?\nMånga barn vill köpa boken efter föreställningen."
+    },
+    {
+      "title": "Lägg undan telefonen",
+      "summary": "A light column about how today's audience behaves at the theatre: phones, chargers, smokers in the interval, people who leave early, and why it is worth it anyway.",
+      "newWords": [
+        "nutida",
+        "chatta",
+        "poppa",
+        "laddare",
+        "skräckfilm",
+        "vibb",
+        "obehag",
+        "rökare",
+        "förtid",
+        "snåla"
+      ],
+      "text": "I fredags gick jag på teater för första gången på länge. Pjäsen var ett nutida drama om en familj som inte längre pratar med varandra, och den var bra. Men det jag minns bäst från kvällen är tyvärr inte pjäsen, utan publiken.\n\nMannen bredvid mig chattade med någon under hela första akten. Han höll telefonen lågt, i knät, som om det skulle göra skärmen osynlig. Det gjorde den inte. Varje gång ett nytt meddelande poppade upp lyste hans ansikte blått i mörkret. Jag försökte titta på scenen, men ögat drogs hela tiden till det lilla ljuset. Det är märkligt hur mycket starkare en skärm är än en hel scen full av levande människor.\n\nI pausen stod han i garderoben och frågade personalen om någon hade en laddare. Det hade de faktiskt. Teatern har numera en låda med laddare för publiken, berättade en vänlig kvinna. Jag vet inte om det är omtänksamt eller ett tecken på att vi har gett upp.\n\nUte på trappan stod rökarna i en tät grupp. Rökare är för övrigt de enda som fortfarande pratar med främlingar i pausen. Jag ställde mig bredvid dem en stund, inte för att röka, utan för att det var den enda plats där någon diskuterade pjäsen.\n\nJag förstår att det är svårt att sitta still i två timmar. Hemma ser vi på film när vi vill. Om en skräckfilm blir för obehaglig pausar vi den, poppar lite popcorn och kommer tillbaka när vi orkar. Men teatern pausar inte för någons skull. Det är just det som är poängen. I en skräckfilm kan man alltid trycka på stopp. På teatern måste man stanna kvar i obehaget, och det är därför det berör. Ett visst obehag hör till upplevelsen.\n\nEfter pausen var flera stolar tomma. Några hade gått hem i förtid. Det händer, och det är inget brott. Men den som går i förtid missar ofta det bästa, eftersom en pjäs sällan visar vad den vill förrän i sista akten.\n\nJag hör ibland folk säga att biljetterna är för dyra, och att de hellre snålar på teater än på resor. Det förstår jag också. Men jag tror inte att man ska snåla på det som får en att känna sig levande.\n\nFör trots allt var det något särskilt den kvällen. När ljuset slocknade och skådespelarna kom in kände jag de där goda vibbarna som bara uppstår när många människor tittar åt samma håll. Sådana vibbar finns inte på en skärm. Så lägg undan telefonen. Den finns kvar efteråt.\n\nFrågor:\nVad handlade pjäsen om?\nDen var ett nutida drama om en familj som inte längre pratar med varandra.\nVad gjorde mannen bredvid skribenten?\nHan chattade med någon under hela första akten.\nVad frågade mannen om i pausen?\nHan frågade personalen om någon hade en laddare.\nVarför ställde sig skribenten bland rökarna?\nDet var den enda plats där någon diskuterade pjäsen.\nVad är skillnaden mellan en skräckfilm hemma och teater, enligt skribenten?\nEn skräckfilm kan man pausa, men på teatern måste man stanna kvar i obehaget.\nVad händer med den som går hem i förtid?\nDen missar ofta det bästa, eftersom en pjäs sällan visar vad den vill förrän i sista akten."
+    },
+    {
+      "title": "Teatern är en fråga om folkhälsa",
+      "summary": "An opinion piece by a theatre director whose town plans to cut the theatre's grant; she argues that culture is about education and public health, and weighs the politicians' side too.",
+      "newWords": [
+        "sänkning",
+        "varsel",
+        "fackförbund",
+        "angelägenhet",
+        "bildning",
+        "folkhälsa",
+        "tillskott",
+        "förhållningssätt",
+        "genomsyra",
+        "benägen"
+      ],
+      "text": "Debatt. Kommunen vill spara tre miljoner kronor på kulturen nästa år, och den största delen ska tas från stadsteatern. För oss betyder en sådan sänkning av bidraget att en av våra tre scener måste stänga. I förra veckan fick sju av våra anställda varsel om uppsägning. Deras fackförbund har protesterat, och jag förstår dem. Men det här är inte bara en fråga för teatern och fackförbundet. Det är en angelägenhet för alla som bor i staden.\n\nJag vill vara rättvis mot politikerna. Kommunen har ont om pengar, äldreomsorgen behöver mer personal och skolorna har stora behov. Ingen politiker är benägen att skära ner på vården för att rädda en teater, och det skulle inte jag heller vara. När pengarna inte räcker måste någon få mindre. Det är lätt att tro att kulturen är det enklaste att ta bort, eftersom ingen dör av att en scen stänger.\n\nMen jag menar att det är ett kortsiktigt förhållningssätt. Teatern är inte en lyx för de få. Den är en del av vår gemensamma bildning, på samma sätt som biblioteket och skolan. Bildning handlar inte bara om att veta saker, utan om att förstå andra människor. Varje vecka spelar vi för skolklasser som annars aldrig skulle sätta sin fot på en teater. För många av dem är det första gången de ser en berättelse växa fram framför sig, levande.\n\nDet finns också forskning som visar att kultur påverkar folkhälsan. Människor som regelbundet går på konserter, teater och utställningar känner sig mindre ensamma och mår bättre, särskilt när de blir äldre. Folkhälsa handlar alltså inte bara om motion och mat, utan också om sammanhang. En kväll i salongen bland andra människor kan vara ett större tillskott till en äldre persons hälsa än man tror.\n\nJag föreslår därför ett annat förhållningssätt. Låt oss se kulturen som en investering i stället för en kostnad. Den sänkning som kommunen planerar sparar pengar i år, men den kan kosta mer om tio år. Ett litet tillskott till teatern nu kan betyda färre ensamma människor och en starkare stad längre fram.\n\nJag önskar att den tanken fick genomsyra hela budgeten, inte bara kulturens del. Om omtanke om folkhälsan genomsyrar politiken, blir kulturen inte det första man stryker. Då blir den en självklar del av det goda livet.\n\nTill sist: kulturen är en gemensam angelägenhet, och vi är benägna att ta det vi har för givet. Det är först när scenen är mörk som vi märker vad vi har förlorat. Låt det inte gå så långt.\n\nFrågor:\nVad betyder kommunens sänkning av bidraget för teatern?\nEn av teaterns tre scener måste stänga, och sju anställda har fått varsel om uppsägning.\nVilken förståelse visar skribenten för politikerna?\nKommunen har ont om pengar, och ingen politiker är benägen att skära ner på vården för att rädda en teater.\nVarför kallar skribenten nedskärningen ett kortsiktigt förhållningssätt?\nTeatern är en del av vår gemensamma bildning, och nedskärningen kan kosta mer om tio år.\nHur påverkar kultur folkhälsan, enligt skribenten?\nMänniskor som går på teater och konserter känner sig mindre ensamma och mår bättre.\nVad önskar skribenten att budgeten skulle genomsyras av?\nHon önskar att omtanke om folkhälsan skulle genomsyra hela budgeten."
+    },
+    {
+      "title": "Från reaktorn till scenen",
+      "summary": "A profile of a nuclear engineer who studied drama in the evenings and became an actor at fifty, and who still prepares his roles like an engineer.",
+      "newWords": [
+        "civilingenjör",
+        "reaktor",
+        "skift",
+        "komvux",
+        "avlägga",
+        "påläst",
+        "revidera",
+        "tillämpning",
+        "exponera",
+        "immun"
+      ],
+      "text": "I nästan 25 år arbetade Lars Holm som civilingenjör på ett kärnkraftverk vid kusten. Han ansvarade för säkerheten kring en av verkets reaktorer, och han arbetade skift, ofta på natten. I dag står han på scen fem kvällar i veckan. ”Folk tror att det är ett enormt hopp”, säger han och ler. ”Men en reaktor och en teater har mer gemensamt än man tror.”\n\nIntresset för teater började tidigt. Som tonåring spelade Lars i skolans pjäser, men hans föräldrar tyckte att han skulle välja något säkert. Han läste till civilingenjör och avlade sin examen 1992. Sedan dess hade han ett tryggt jobb, men längtan efter scenen försvann aldrig.\n\nNär han var 45 år såg han en annons om en kvällskurs i drama på komvux. ”Jag tänkte att det var för sent, men jag gick dit ändå.” Kursen på komvux blev starten på något nytt. Efter ett år sökte han till teaterhögskolan och kom in på andra försöket. Han avlade sina prov på dagarna och arbetade sitt skift på reaktorn på nätterna. ”Det var en tung tid. Men jag har aldrig varit så glad.”\n\nI dag är Lars känd bland kollegerna för att alltid vara påläst. Inför varje roll läser han allt han kan om tiden och miljön som pjäsen utspelar sig i. Inför rollen som läkare på 1800-talet läste han medicinska böcker från den tiden. ”Jag vill vara lika påläst som när jag kontrollerade en reaktor. Annars känner jag mig osäker.”\n\nHan ser sitt nya yrke som en tillämpning av det gamla. En ingenjör lär sig att lösa problem steg för steg, och samma metod fungerar när han bygger en rollfigur. Han skriver ner vad figuren vill, vad som hindrar honom och vad som förändras. Under repetitionerna reviderar han sina anteckningar varje kväll. ”Regissören reviderar manuset, och jag reviderar min bild av människan jag spelar. Det är ett ständigt arbete.”\n\nDet svåraste har varit något annat. På kärnkraftverket satt han i ett kontrollrum, och ingen såg honom. På scenen är han exponerad för hundratals ögon. ”Att vara så exponerad var skrämmande i början. Jag var nervös inför varje föreställning.” Har han vant sig nu? ”Ingen skådespelare är immun mot nervositet, och det ska man inte heller vara. Men jag har lärt mig att nervositeten går över efter de första replikerna.” Han skrattar. ”Mot strålning var jag skyddad. Mot publiken är jag inte immun.”\n\nFrågor:\nVad arbetade Lars Holm med tidigare?\nHan arbetade som civilingenjör på ett kärnkraftverk och ansvarade för säkerheten kring en reaktor.\nNär avlade han sin examen?\nHan avlade sin examen som civilingenjör 1992.\nVar började hans nya väg mot scenen?\nDen började med en kvällskurs i drama på komvux när han var 45 år.\nVarför är Lars alltid påläst inför en roll?\nHan vill vara lika påläst som när han kontrollerade en reaktor, annars känner han sig osäker.\nHur är skådespeleriet en tillämpning av hans gamla yrke?\nHan löser problem steg för steg och reviderar sina anteckningar om rollfiguren varje kväll.\nVad har varit svårast för honom?\nAtt vara exponerad för hundratals ögon på scenen. Ingen skådespelare är immun mot nervositet."
+    },
+    {
+      "title": "Recension: Huset vid sjön",
+      "summary": "A review of a family drama in which three siblings argue over their alcoholic father's summer house, a document he signs and later takes back, and their younger brother's care.",
+      "newWords": [
+        "alkoholist",
+        "närstående",
+        "äganderätt",
+        "överlåta",
+        "återkalla",
+        "pant",
+        "vårdnad",
+        "biverkning",
+        "flat"
+      ],
+      "text": "Det finns pjäser som man skrattar åt och sedan glömmer. ”Huset vid sjön” på stadsteaterns lilla scen är inte en sådan pjäs. Den handlar om en familj i Dalarna och om ett gammalt sommarhus, och den lämnar ingen i salongen oberörd.\n\nPappan, Gunnar, är alkoholist. Han har druckit i 30 år, och hans tre barn har vuxit upp med en pappa som ibland var varm och rolig och ibland inte gick att lita på. Pjäsen visar med stor ömhet hur det är att vara närstående till en alkoholist. De närstående skyddar, ljuger och hoppas, år efter år. Ingen av dem talar öppet om det, och just den tystnaden är pjäsens verkliga motståndare.\n\nHandlingen kretsar kring huset vid sjön. Äganderätten till huset har alltid varit Gunnars, men i första akten bestämmer han sig för att överlåta huset till sin äldsta dotter. Han skriver under papperet en kväll när han är nykter och glad. Dottern blir rörd, men de andra syskonen känner sig orättvist behandlade. Varför ska bara hon få huset?\n\nI andra akten ångrar sig Gunnar. Han vill återkalla gåvan, och han hävdar att han inte förstod vad han skrev under. Det visar sig dessutom att han flera år tidigare har lämnat huset som pant för ett lån som han aldrig betalat tillbaka. Huset är alltså fortfarande bankens pant. Vad betyder då äganderätten, och vad är det egentligen han har överlåtit? Frågan är juridisk, men pjäsen gör den djupt mänsklig.\n\nDen starkaste tråden handlar om den yngste sonen, som bara är 14 år. Hans mamma är död, och nu måste syskonen bestämma vem som ska ha vårdnaden om honom. I en enkel scen vid köksbordet diskuterar de vårdnaden medan pojken sitter och lyssnar i rummet bredvid. Han säger nästan ingenting under hela pjäsen, men hans ansikte säger allt.\n\nGunnar spelas av Anders Lindqvist, som gör en lysande insats. Han visar också det som sällan syns på en scen: kroppens trötthet. Gunnar tar mediciner mot sin oro, och biverkningarna gör honom långsam och glömsk. En biverkning som gör honom ostadig på benen leder till slut till att han faller och skadar sig i sista akten.\n\nNär dottern i slutet frågar sin pappa varför han återkallade gåvan, blir han alldeles flat. Han har inget svar. Han sitter bara där, flat och tyst, och i den stunden förstår vi att han inte heller har förstått sig själv.\n\nFrågor:\nVad handlar pjäsen om?\nDen handlar om en familj i Dalarna, deras pappa som är alkoholist och ett gammalt sommarhus.\nHur visar pjäsen livet som närstående?\nDe närstående skyddar, ljuger och hoppas, men ingen talar öppet om det.\nVad gör Gunnar i första och andra akten?\nI första akten överlåter han huset till sin dotter, och i andra akten vill han återkalla gåvan.\nVarför är äganderätten till huset oklar?\nGunnar har tidigare lämnat huset som pant för ett lån som han aldrig betalat tillbaka.\nVad diskuterar syskonen vid köksbordet?\nDe diskuterar vem som ska ha vårdnaden om den yngste brodern.\nHur reagerar Gunnar när dottern frågar varför han ändrade sig?\nHan blir alldeles flat och har inget svar."
+    },
+    {
+      "title": "På bokmässans scen",
+      "summary": "A report from a stage at the Gothenburg book fair, where an Icelandic novelist, a Polish author living in Malmö and a young writer of a novel about conspiracy theories meet the audience.",
+      "newWords": [
+        "bokmässa",
+        "utkomma",
+        "isländska",
+        "polack",
+        "konspirationsteori",
+        "transperson",
+        "manifestation"
+      ],
+      "text": "Varje höst förvandlas mässhallen i Göteborg till Nordens största litterära scen. Bokmässan lockar tiotusentals besökare under fyra dagar, och på de många scenerna framträder författare från hela världen. I år var det fullt redan klockan 10 på fredagsmorgonen, när tre författare möttes på den stora scenen för att tala om sina nya romaner.\n\nFörst ut var en författare från Island, Helga Jónsdóttir. Hennes roman utkom på isländska för två år sedan och har nu kommit ut på svenska. Den handlar om en fiskarfamilj på en ö där vintern varar i sju månader. Helga berättade att hon tänker på isländska men drömmer på engelska. ”Isländska är ett litet språk, men det har ett långt minne”, sa hon. Publiken fick höra några rader på isländska, och det blev alldeles tyst i salen.\n\nSedan kom Tomasz Nowak, en polack som har bott i Malmö i 20 år. Han skriver på svenska, och hans nya bok utkommer i Polen nästa vår. Den handlar om en ung polack som kommer till Sverige för att arbeta på byggen på 1990-talet. ”Jag skriver om det jag själv har sett”, sa Tomasz. ”Som polack i Sverige var jag länge osynlig. Med boken vill jag göra de osynliga synliga.”\n\nDen tredje gästen var den yngsta, Alex Strand, som är 26 år. Alex debuterade i våras med en roman om en tonåring som fastnar i en konspirationsteori på internet. Huvudpersonen tror till slut att nästan allt i nyheterna är lögn. ”En konspirationsteori ger enkla svar på svåra frågor”, sa Alex. ”Därför är den så lockande när man känner sig ensam.” Alex berättade också öppet att hen är transperson, och att det var viktigt att själv få bestämma hur det skulle berättas. ”Jag vill inte bara vara en transperson som skriver. Jag vill vara en författare som skriver om det som berör oss alla.”\n\nEfter samtalet bildades långa köer framför signeringsbordet. En äldre besökare som jag talade med sa att bokmässan för henne är en manifestation av något större. ”Här samlas människor med olika språk och bakgrund för att lyssna på varandra. Det är en manifestation av att orden fortfarande betyder något.”\n\nDet är svårt att inte hålla med. Bokmässan är en plats för handel, med förlag som säljer och köper rättigheter. Men framför allt är den en scen där litteraturen får en röst och ett ansikte.\n\nFrågor:\nVar hålls bokmässan?\nDen hålls i mässhallen i Göteborg varje höst.\nNär utkom Helgas roman på isländska?\nDen utkom på isländska för två år sedan.\nVem är Tomasz Nowak?\nHan är en polack som har bott i Malmö i 20 år och skriver på svenska.\nVad handlar Alex Strands roman om?\nDen handlar om en tonåring som fastnar i en konspirationsteori på internet.\nVad berättade Alex om sig själv?\nAlex berättade att hen är transperson och vill vara en författare som skriver om det som berör alla.\nVarför kallar den äldre besökaren bokmässan en manifestation?\nDär samlas människor med olika språk och bakgrund för att lyssna på varandra."
+    },
+    {
+      "title": "Mordet på discot",
+      "summary": "An intern at a youth theatre writes about a week of performing a detective play in a shopping centre, from a broken microphone to the fingerprint that solves the case.",
+      "newWords": [
+        "praktikant",
+        "galleria",
+        "disco",
+        "boxning",
+        "fingeravtryck",
+        "mick"
+      ],
+      "text": "Fredag, sista dagen.\n\nJag har varit praktikant på en ungdomsteater i Uppsala i tre veckor. Det var meningen att jag skulle lära mig hur en teater fungerar bakom scenen, men den här veckan fick jag också prova på något helt annat. Teatern spelade nämligen en kriminalpjäs mitt i en galleria, och som praktikant fick jag hjälpa till med allt.\n\nIdén var att föra ut teatern dit människorna redan finns. På lördagar går tusentals personer genom gallerian, och de flesta av dem går aldrig på teater. Vi byggde en enkel scen framför fontänen på bottenvåningen och spelade tre gånger om dagen. Folk som var på väg för att handla stannade, ställde ner sina påsar och blev kvar.\n\nPjäsen är enkel och rolig. Den utspelar sig på ett disco på 1970-talet. Mitt under en danskväll försvinner den dyraste skivan från discot, och någon blir anklagad. Den som misstänks mest är vakten på discot, en tidigare tränare i boxning som är stor och arg men egentligen mycket snäll. Alla tror att det är han, eftersom han kan boxning och ser farlig ut. Men det visar sig att han är oskyldig.\n\nDen unga detektiven hittar till slut ett fingeravtryck på ett glas bakom baren. Fingeravtrycket tillhör ägaren till discot, som har gömt skivan för att få pengar från försäkringen. Det var min uppgift att förbereda glaset före varje föreställning. Jag målade ett tydligt fingeravtryck med lite svart färg, så att publiken kunde se det på avstånd. Barnen på första raden pekade och ropade när detektiven höll upp glaset.\n\nDet svåraste var ljudet. I en galleria är det mycket buller, så alla skådespelare hade en liten mick fäst vid kinden. På onsdagen slutade en mick att fungera mitt i en scen. Skådespelaren fortsatte att prata, men ingen hörde honom. Jag sprang fram med en vanlig mick på sladd och gav den till honom bakom en kuliss. Han tog den utan att tveka och spelade vidare, och publiken märkte nästan ingenting.\n\nEfteråt sa regissören att jag hade räddat föreställningen. Det var nog lite överdrivet, men jag blev glad ändå. Nu har praktiken tagit slut, och jag vet att jag vill arbeta med teater. Helst bakom scenen, där man kan rädda saker utan att någon ser det.\n\nFrågor:\nVar spelade teatern sin kriminalpjäs?\nDen spelade pjäsen mitt i en galleria i Uppsala, framför fontänen.\nVarför spelade de i en galleria?\nDe ville föra ut teatern dit människorna redan finns, eftersom de flesta som går där aldrig går på teater.\nVarför misstänker alla vakten på discot?\nHan är en tidigare tränare i boxning och ser farlig ut.\nHur löser detektiven fallet?\nDetektiven hittar ett fingeravtryck på ett glas bakom baren, och det tillhör ägaren till discot.\nVad hände på onsdagen?\nEn mick slutade fungera mitt i en scen, och praktikanten gav skådespelaren en vanlig mick på sladd."
+    }
+  ]
+}

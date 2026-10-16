@@ -1,0 +1,212 @@
+{
+  "id": "sv-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Ingenjörskonst",
+  "description": "Reports, interviews, profiles and columns about engineers at work: a bridge to the mainland, nuclear power, a games console, an old wreck, radiation treatment, a court case, fireworks, satellites, irrigation and a school swing.",
+  "topic": "Engineering",
+  "names": [
+    "Norrö",
+    "Sverige",
+    "Sveriges",
+    "Sara Lind",
+    "Sara",
+    "Saras",
+    "Malmö",
+    "Gotland",
+    "Östersjön",
+    "Johan Ek",
+    "Johan",
+    "Johans",
+    "Linköping",
+    "Västerås",
+    "Lina Holm",
+    "Lina",
+    "Linas",
+    "Göteborg",
+    "Maria Sandberg",
+    "Maria",
+    "Marias",
+    "Kiruna",
+    "Andromeda",
+    "Dalarna",
+    "Emma Nordin",
+    "Emma",
+    "Emmas",
+    "Skåne",
+    "Kenya",
+    "Örebro",
+    "Kent",
+    "Ali"
+  ],
+  "lessons": [
+    {
+      "title": "Bron till fastlandet",
+      "summary": "A report explains, step by step, how engineers plan a bridge from an island to the mainland and what the politicians and residents think of it.",
+      "newWords": [
+        "fastland",
+        "folkvald",
+        "nordväst",
+        "nederbörd",
+        "tillvägagångssätt",
+        "utarbeta",
+        "skatteintäkt",
+        "påtala",
+        "medelstor",
+        "skena"
+      ],
+      "text": "I över hundra år har de 4 000 invånarna på Norrö varit beroende av färjan. Den går två gånger i timmen, och när det blåser hårt från nordväst blir den ofta inställd. Då kommer ingen till jobbet på fastlandet, och ingen från fastlandet kommer ut till ön. Nu har kommunens folkvalda politiker bestämt att Norrö ska få en bro. Här förklarar vi hur ett sådant projekt går till, steg för steg.\n\nDet första steget är att utarbeta en plan. En grupp ingenjörer har under två år utarbetat flera förslag på var bron ska gå, hur lång den ska vara och vilket material som passar bäst. Till slut valde de en bro av betong och stål, 900 meter lång, som går från öns östra udde till fastlandet.\n\nIngenjörerna måste också räkna med vädret. Området får mycket nederbörd, särskilt på hösten, och vinden från nordväst kan bli mycket stark. All nederbörd som faller på bron måste ledas bort, annars kan vatten tränga in i betongen och frysa på vintern. Bron måste dessutom tåla de hårdaste stormarna från nordväst utan att röra sig för mycket.\n\nNästa fråga är vilket tillvägagångssätt man ska välja när man bygger över öppet vatten. Det finns två vanliga tillvägagångssätt. Antingen bygger man brons delar på plats, eller så gjuter man dem på land och fraktar ut dem med båt. Ingenjörerna valde det andra tillvägagångssättet, eftersom det går snabbare och är säkrare för arbetarna.\n\nSedan kommer pengarna. Norrö är en medelstor kommun, och en bro kostar mer än kommunen kan betala själv. Projektet beräknas kosta 1,2 miljarder kronor. Kommunens skatteintäkter räcker inte, så staten betalar halva kostnaden. De folkvalda hoppas att bron ska locka fler familjer till ön och därmed ge större skatteintäkter i framtiden. För en medelstor kommun är det ändå en stor satsning.\n\nAlla är inte nöjda. Flera invånare har påtalat att färjan är en del av öns själ, och att bron kommer att föra med sig mer trafik. Andra har påtalat en annan risk: att kostnaderna skenar. Det har hänt förr i andra kommuner, och en budget som skenar kan tvinga kommunen att spara på skolor och äldrevård. Ingenjörerna svarar att de har räknat med marginaler, förutsatt att priset på stål inte stiger kraftigt.\n\nOm allt går enligt planen kan den första bilen köra över bron år 2031. Då tar resan till fastlandet fem minuter i stället för 40, och färjan blir ett minne.\n\nFrågor:\nVarför blir färjan ofta inställd?\nDen blir ofta inställd när det blåser hårt från nordväst.\nVad gjorde ingenjörerna under de två första åren?\nDe utarbetade flera förslag på var bron ska gå, hur lång den ska vara och vilket material som passar bäst.\nVarför måste nederbörden ledas bort?\nAnnars kan vatten tränga in i betongen och frysa på vintern.\nVilket tillvägagångssätt valde ingenjörerna?\nDe valde att gjuta delarna på land och frakta ut dem med båt, eftersom det går snabbare och är säkrare.\nVarför betalar staten halva kostnaden?\nEftersom Norrö är en medelstor kommun och kommunens skatteintäkter inte räcker.\nVilka risker har invånarna påtalat?\nDe har påtalat att trafiken kommer att öka och att kostnaderna kan skena."
+    },
+    {
+      "title": "Kärnkraften och förnuftet",
+      "summary": "A columnist weighs the arguments for and against nuclear power and asks for a calmer, more sensible debate.",
+      "newWords": [
+        "kärnkraftverk",
+        "nedläggning",
+        "riksdagsparti",
+        "riksdagsman",
+        "nyval",
+        "bojkotta",
+        "yrka",
+        "tillträda",
+        "intala",
+        "korståg",
+        "förnuftig"
+      ],
+      "text": "När jag var barn på 1980-talet fanns det en enkel sanning i mitt hem: kärnkraft var farligt. Min mamma hade en gul skylt på cykeln med texten ”Kärnkraft? Nej tack”, och hon deltog i något som liknade ett korståg mot allt som hade med strålning att göra. I dag är frågan inte lika enkel, och jag vill försöka väga de två sidorna mot varandra.\n\nSverige har länge fått ungefär en tredjedel av sin el från kärnkraftverk. Under de senaste decennierna har flera reaktorer ändå stängts, och varje nedläggning har föregåtts av långa och heta debatter. Flera riksdagspartier har bytt åsikt under åren, och det säger något om hur svår frågan är. För ett riksdagsparti är det riskabelt att byta åsikt, eftersom väljarna minns vad partiet sa förut.\n\nFör några år sedan intervjuade jag en riksdagsman som just hade tillträtt sin plats i riksdagen. När han var ung hade han yrkat på en snabb nedläggning av alla kärnkraftverk. Nu yrkade hans parti i stället på att nya reaktorer skulle byggas. ”Jag har inte bytt värderingar”, sa han. ”Men världen har förändrats. Klimatet är det största hotet nu.” Han tillträdde alltså med en annan åsikt än den han hade haft i sin ungdom, och han skämdes inte för det.\n\nArgumenten för kärnkraft är tydliga. Ett kärnkraftverk släpper inte ut koldioxid, och det ger el även när det inte blåser. Argumenten emot är lika tydliga. Avfallet är farligt i tusentals år, och ett nytt kärnkraftverk tar lång tid att bygga och kostar mycket pengar.\n\nDet som oroar mig är tonen. Båda sidor tycks intala sig att svaret är enkelt. Kärnkraftens vänner intalar sig att avfallet är ett löst problem, och motståndarna intalar sig att sol och vind räcker hela vintern. När en statlig utredning bjöd in till samtal förra året valde några grupper att bojkotta mötena, eftersom de ansåg att svaret redan var bestämt. Men att bojkotta ett samtal har sällan gjort någon klokare.\n\nFrågan har ibland varit så het att en regering till och med har fallit på den. Ett nyval löser dock inte de tekniska problemen; efter ett nyval finns samma reaktorer och samma avfall kvar. Det vi behöver är ett förnuftigt samtal, där ingenjörer och forskare får förklara vad som faktiskt är möjligt.\n\nDet mest förnuftiga är kanske att erkänna att båda sidor har rätt i något. Min mamma har kvar sin gula skylt i garaget. Hon säger att hon fortfarande är emot kärnkraft, men att hon i dag lyssnar på argumenten innan hon svarar. Det är en bra början. Vi behöver inget nytt korståg, varken för eller emot, utan fler människor som lyssnar.\n\nFrågor:\nVad hade skribentens mamma på sin cykel?\nHon hade en gul skylt med texten ”Kärnkraft? Nej tack”.\nHur stor del av Sveriges el har kommit från kärnkraftverk?\nUngefär en tredjedel av elen har kommit från kärnkraftverk.\nHur hade riksdagsmannen ändrat sin åsikt?\nSom ung yrkade han på nedläggning av alla kärnkraftverk, men när han tillträdde ville hans parti bygga nya reaktorer.\nVad intalar sig de två sidorna?\nKärnkraftens vänner intalar sig att avfallet är ett löst problem, och motståndarna intalar sig att sol och vind räcker.\nVarför bojkottade några grupper mötena?\nDe ansåg att svaret redan var bestämt.\nVad tycker skribenten att vi behöver?\nEtt förnuftigt samtal där ingenjörer och forskare får förklara vad som är möjligt."
+    },
+    {
+      "title": "Koden bakom konsolen",
+      "summary": "An interview with a software engineer who wrote parts of the operating system for a games console and now works part-time.",
+      "newWords": [
+        "algoritm",
+        "operativsystem",
+        "konsol",
+        "lansering",
+        "effektivisera",
+        "interaktion",
+        "genväg",
+        "papperslös",
+        "blanka",
+        "flippa",
+        "deltid"
+      ],
+      "text": "Sara Lind är 41 år och programmerare. I tio år arbetade hon med operativsystemet till en av världens mest sålda spelkonsoler. Vi träffade henne på företagets kontor i Malmö.\n\nVad gör egentligen ett operativsystem?\n”Operativsystemet är det program som styr allt annat. När du slår på en konsol är det operativsystemet som startar spelen, sparar dem och ser till att handkontrollen fungerar. Spelaren märker det nästan aldrig, och så ska det vara.”\n\nVad var din uppgift?\n”Jag skulle effektivisera koden, så att spelen laddades snabbare. Det låter enkelt, men det handlar om att hitta bättre algoritmer. En algoritm är ett slags recept: en lista med steg som datorn följer. En bra algoritm gör samma arbete med färre steg. Vi lyckades effektivisera laddningen så att den tog hälften så lång tid.”\n\nVad är svårast med att bygga en konsol?\n”Interaktionen mellan programmen och maskinen. Varje del måste fungera med alla andra delar, och en liten ändring på ett ställe kan ge fel på ett helt annat. Vi testade interaktionen mellan spel, skärm och nätverk i månader.”\n\nFanns det några genvägar?\nSara skrattar. ”Nej. I programmering finns det inga genvägar, eller rättare sagt: en genväg i dag blir nästan alltid en omväg i morgon.”\n\nHur var det inför lanseringen?\n”Stressigt. Några investerare blankade företagets aktie veckorna före lanseringen, eftersom de trodde att konsolen skulle bli försenad. När lanseringen gick bra steg aktien, och de som hade blankat den förlorade mycket pengar. Men vi ingenjörer märkte mest av själva trycket. En natt, tre dagar före lanseringen, slutade konsolen plötsligt att starta. Jag höll på att flippa ur. Vi hittade felet klockan fyra på morgonen.”\n\nFlippade du ur?\n”Nästan. Men jag gick ut och promenerade i tio minuter, och sedan kunde jag tänka klart igen.”\n\nHur ser din arbetsdag ut i dag?\n”Jag arbetar deltid här, 30 timmar i veckan, och undervisar på högskolan resten av tiden. Att arbeta deltid var det bästa beslutet jag har fattat. Kontoret är dessutom helt papperslöst. Alla ritningar och anteckningar finns i datorn, och ett papperslöst kontor passar mig, eftersom jag ändå aldrig hittade mina papper.”\n\nFrågor:\nVad arbetade Sara med i tio år?\nHon arbetade med operativsystemet till en spelkonsol.\nVad är en algoritm, enligt Sara?\nEn algoritm är ett slags recept, en lista med steg som datorn följer.\nVad var svårast med att bygga konsolen?\nInteraktionen mellan programmen och maskinen var svårast.\nVarför blankade några investerare aktien?\nDe trodde att konsolen skulle bli försenad.\nVad gjorde Sara när hon höll på att flippa ur?\nHon gick ut och promenerade i tio minuter.\nHur arbetar Sara i dag?\nHon arbetar deltid på företaget och undervisar på högskolan resten av tiden."
+    },
+    {
+      "title": "Vraket i viken",
+      "summary": "A report follows marine engineers and divers who document an old merchant ship lying on the sea bed.",
+      "newWords": [
+        "vrak",
+        "plundra",
+        "rigga",
+        "bräda",
+        "stång",
+        "simning",
+        "fatt",
+        "skicklighet",
+        "ovärderlig"
+      ],
+      "text": "På 30 meters djup utanför Gotland ligger ett vrak som har legat där sedan 1700-talet. Vraket är ett handelsfartyg, och tack vare det kalla och salta vattnet i Östersjön är det nästan helt bevarat. Förra sommaren fick en grupp ingenjörer och dykare uppdraget att undersöka det.\n\nArbetet började på ytan. Ingenjörerna riggade en kran på ett stort fartyg, och de riggade också lampor och kameror som kunde sänkas ner till botten. Det tog en hel vecka att rigga all utrustning, eftersom allt måste tåla vind och höga vågor.\n\nSedan började dykarna sitt arbete. Att dyka på stort djup har inte mycket med vanlig simning att göra. Det krävs träning, lugn och stor skicklighet. Den som är duktig på simning i en bassäng klarar sig inte nödvändigtvis på 30 meter, där det är mörkt och kallt. Dykarnas skicklighet var avgörande för hela projektet.\n\nUnder de första dagarna mätte dykarna skeppet noggrant. Skrovet är byggt av tjocka brädor av ek, och de flesta brädorna sitter fortfarande på plats. Masten har fallit, men flera stänger av järn ligger kvar på däck. En av stängerna var nästan tre meter lång. Med hjälp av mätningarna kunde ingenjörerna göra en exakt modell av fartyget i datorn.\n\nTyvärr har vraket plundrats. På 1970-talet tog dykare med sig föremål från skeppet, långt innan det blev förbjudet. Den som plundrar ett vrak förstör mer än den tar, eftersom föremålens plats säger lika mycket som föremålen själva. Ändå fanns det en hel del kvar. Dykarna fick fatt i en liten låda av trä, och inne i den låg flera mynt. Senare fick de också fatt i en kompass.\n\nFynden är ovärderliga för forskarna. Mynten visar ungefär när skeppet sjönk, och kompassen visar hur sjömännen hittade rätt på havet. Lika ovärderlig är den digitala modellen, som gör att vem som helst kan ”besöka” vraket på museets hemsida.\n\nVraket ska ligga kvar på botten. Det är säkrast för träet, och ingenjörerna tycker att det hör hemma där. Men tack vare deras skicklighet kan vi nu se det, utan att någon behöver dyka.\n\nFrågor:\nVar ligger vraket?\nDet ligger på 30 meters djup utanför Gotland.\nVad riggade ingenjörerna?\nDe riggade en kran, lampor och kameror på ett stort fartyg.\nVarför räcker det inte att vara bra på simning?\nPå 30 meters djup är det mörkt och kallt, och det krävs träning, lugn och stor skicklighet.\nVad är skrovet byggt av?\nDet är byggt av tjocka brädor av ek.\nVad hände med vraket på 1970-talet?\nDet plundrades av dykare som tog med sig föremål.\nVad fick dykarna fatt i?\nDe fick fatt i en låda av trä med mynt och en kompass."
+    },
+    {
+      "title": "Maskinen som siktar",
+      "summary": "A profile of a hospital physicist who makes sure the radiation machines that treat tumours are safe and precise.",
+      "newWords": [
+        "tumör",
+        "blödning",
+        "preparat",
+        "lindra",
+        "dokumentation",
+        "intyg",
+        "intyga",
+        "spektrum",
+        "rengöra",
+        "oförmögen"
+      ],
+      "text": "Klockan sex varje morgon, långt innan den första patienten kommer, är Johan Ek på plats på sjukhuset i Linköping. Han är ingenjör och fysiker, och hans uppgift är att se till att sjukhusets strålningsmaskiner fungerar exakt som de ska.\n\nMaskinerna används för att behandla cancer. En tumör kan ofta inte opereras bort, och då kan strålning förstöra tumörens celler. Svårigheten är att träffa tumören utan att skada den friska vävnaden runt omkring. ”Vi talar om millimeter”, säger Johan. ”Om strålen hamnar fel kan patienten få en blödning eller andra skador.”\n\nDet första han gör varje morgon är att kontrollera strålningen. Strålningen har ett brett spektrum av energier, och maskinen måste ge exakt rätt del av det spektrumet. Johan mäter, jämför med gårdagens värden och skriver ner resultaten. Dokumentationen är lika viktig som själva mätningen. Utan noggrann dokumentation kan ingen i efterhand se att maskinen var säker.\n\nVarje år kommer en kontrollant från en myndighet. Hon går igenom all dokumentation, gör egna mätningar och skriver sedan ett intyg. Intyget visar att maskinen uppfyller alla krav. ”Hon kan bara intyga det hon själv har sett”, säger Johan. ”Därför måste allt finnas på papper.” När kontrollanten intygar att allt är i ordning kan arbetet fortsätta. ”Utan intyg får vi inte behandla en enda patient.”\n\nEfter morgonens mätningar rengörs maskinens bord. Personalen rengör det mellan varje patient, eftersom många patienter har ett svagt immunförsvar.\n\nIbland kommer en patient som är oförmögen att ligga still, kanske på grund av smärta eller oro. Då kan läkaren ge ett lugnande preparat. Ett annat preparat kan lindra illamåendet som många får efter behandlingen. ”Vi kan inte alltid bota”, säger Johan. ”Men vi kan nästan alltid lindra. Ingen ska behöva ha ont i onödan.”\n\nJohans eget arbete har ett brett spektrum av uppgifter: han mäter, programmerar, utbildar sjuksköterskor och lagar fel. Han träffar sällan patienterna, men han tänker ofta på dem. ”En gång kom en kvinna fram till mig i korridoren och tackade. Hon var frisk efter fem års kamp. Hon visste inte vad jag gjorde, bara att jag hade hjälpt till.”\n\nFrågor:\nVad är Johans uppgift på sjukhuset?\nHan ser till att strålningsmaskinerna fungerar exakt som de ska.\nVarför måste strålen träffa rätt?\nOm den hamnar fel kan patienten få en blödning eller andra skador.\nVarför är dokumentationen så viktig?\nUtan noggrann dokumentation kan ingen i efterhand se att maskinen var säker.\nVad gör kontrollanten från myndigheten?\nHon går igenom dokumentationen, mäter själv och skriver ett intyg.\nVad gör läkaren om en patient är oförmögen att ligga still?\nLäkaren kan ge ett lugnande preparat.\nVad säger Johan om att bota och lindra?\nHan säger att de inte alltid kan bota, men nästan alltid lindra."
+    },
+    {
+      "title": "Experten i rättssalen",
+      "summary": "An engineer writes about being asked to explain a car's brakes as an outside expert in a court case after a car accident.",
+      "newWords": [
+        "nämndeman",
+        "bilolycka",
+        "utomstående",
+        "påtvinga",
+        "missta",
+        "innehavare",
+        "ombe",
+        "inneboende",
+        "bekymra"
+      ],
+      "text": "Förra hösten blev jag ombedd att vittna i tingsrätten. Jag har arbetat med bromsar i bilar i över 20 år, men jag hade aldrig stått i en rättssal. Här berättar jag hur det gick till.\n\nBakgrunden var en bilolycka på en landsväg utanför Västerås. En bil hade inte stannat vid ett rödljus och kört in i en annan bil. Ingen dog, men två personer skadades. Föraren sa att bromsarna hade slutat fungera. Tre dagar före bilolyckan hade bilen varit på service hos en liten verkstad, och nu ville föraren att verkstadens innehavare skulle betala för skadorna.\n\nRätten behövde en utomstående expert, någon som inte hade något med varken föraren eller verkstaden att göra. Jag blev ombedd att undersöka bilen och sedan förklara vad jag hade hittat. Som utomstående hade jag ingen anledning att ta någons parti, och det var precis därför rätten ville ha mig.\n\nUndersökningen tog två veckor. Jag hittade att ett rör i bromssystemet hade spruckit. Frågan var varför. Hade verkstaden gjort fel, eller hade röret en inneboende svaghet? Efter många tester kom jag fram till att metallen hade en inneboende brist från fabriken. Röret hade alltså varit svagt från början, och verkstaden kunde inte ha sett det.\n\nI rättssalen satt en domare och tre nämndemän. En nämndeman är en vanlig medborgare som dömer tillsammans med domaren. Det som bekymrade mig mest var att nämndemännen inte var tekniker. Hur skulle jag förklara metallens struktur för människor som aldrig hade sett ett bromsrör? Det bekymrade mig hela natten innan.\n\nJag bestämde mig för att tala enkelt och använda bilder. En av nämndemännen frågade: ”Kan du ha misstagit dig?” Det var en bra fråga. Jag svarade att det alltid är möjligt att missta sig, men att tre olika tester hade gett samma resultat.\n\nAdvokaten för föraren försökte få mig att säga att verkstaden borde ha upptäckt felet. Men min uppgift var inte att påtvinga rätten en åsikt. Jag skulle förklara tekniken, och rätten skulle döma. En expert som påtvingar domstolen sina egna slutsatser gör inte sitt jobb.\n\nNågra veckor senare kom domen. Rätten kom fram till att innehavaren av verkstaden inte bar något ansvar. I stället fick biltillverkaren betala. Jag kände mig lättad, inte för domens skull, utan för att jag hade lyckats göra mig förstådd.\n\nFrågor:\nVarför blev ingenjören ombedd att vittna?\nRätten behövde en utomstående expert som kunde förklara bilens bromsar.\nVad hände vid bilolyckan?\nEn bil stannade inte vid ett rödljus och körde in i en annan bil.\nVad hittade ingenjören i bromssystemet?\nIngenjören hittade ett rör med en inneboende brist från fabriken.\nVad bekymrade ingenjören mest?\nDet bekymrade ingenjören att nämndemännen inte var tekniker.\nVad svarade ingenjören när en nämndeman frågade om han kunde ha misstagit sig?\nIngenjören svarade att det alltid är möjligt att missta sig, men att tre tester hade gett samma resultat.\nVem fick betala till slut?\nBiltillverkaren fick betala, och innehavaren av verkstaden bar inget ansvar."
+    },
+    {
+      "title": "Himlen som scen",
+      "summary": "A profile of an engineer who designs the city's big fireworks display and times every rocket to live music.",
+      "newWords": [
+        "fyrverkeri",
+        "avfyra",
+        "festlig",
+        "bål",
+        "ljuv",
+        "ensemble",
+        "lyssnare",
+        "maskera",
+        "vykort"
+      ],
+      "text": "När Lina Holm var sju år köpte hon ett vykort i en kiosk i Göteborg. Det föreställde ett fyrverkeri över hamnen, med röda och gröna ljus som speglades i vattnet. Vykortet sitter fortfarande på väggen i hennes kontor. I dag är det hon som planerar stadens stora fyrverkeri varje sommar.\n\nLina är ingenjör, och hennes arbete har mer med matematik än med magi att göra. Varje raket måste avfyras på rätt sekund, från rätt plats och i rätt vinkel. Under en kväll avfyras över 3 000 raketer, och alla styrs av en dator. ”Om en enda raket avfyras för tidigt, märker publiken det direkt”, säger hon.\n\nDet speciella med årets fyrverkeri är att det följer levande musik. En ensemble på tolv musiker spelar på en scen vid vattnet, och varje raket är kopplad till en ton eller en takt. Ensemblen och datorn måste vara helt synkroniserade. Musiken sänds också i radio, så att lyssnare i hela landet kan följa med. ”Vi tänker på lyssnarna också. De ser inget, men de ska höra publikens jubel på rätt ställe.”\n\nEtt problem är ljudet från raketerna. Smällarna kan maskera musiken, särskilt de lugna och ljuva partierna. Därför har Lina valt tystare raketer till de ljuvaste melodierna och sparat de stora smällarna till slutet. Hon maskerar också rören som raketerna skjuts från, så att scenen ser vacker ut även i dagsljus.\n\nSäkerheten tar mest tid. Inga människor får vara nära rören, och Lina samarbetar med räddningstjänsten. Samma regler gäller för andra eldar i staden. På vårens stora fest tänds ett bål i parken, och bålet måste ligga långt från både hus och träd. ”Ett bål är också ett slags fyrverkeri”, säger Lina. ”Det är gammalt, men tanken är densamma: ljus i mörkret.”\n\nNär kvällen kommer är stämningen festlig. Folk sitter på filtar längs kajen, barn äter glass och ensemblen stämmer sina instrument. Klockan 22.30 avfyras den första raketen. Under tjugo minuter är himlen full av färger, och när den sista smällen har tystnat applåderar tusentals människor.\n\nFör Lina är det ändå något annat som gör kvällen festlig. ”Jag ser alltid efter ett barn i publiken som tittar upp med öppen mun. Det var jag en gång, med mitt vykort.”\n\nFrågor:\nVad köpte Lina när hon var sju år?\nHon köpte ett vykort med ett fyrverkeri över hamnen.\nHur många raketer avfyras under kvällen?\nÖver 3 000 raketer avfyras, och alla styrs av en dator.\nVad gör ensemblen?\nEnsemblen spelar levande musik, och varje raket är kopplad till en ton eller en takt.\nVarför tänker Lina på lyssnarna?\nMusiken sänds i radio, och lyssnarna ska höra publikens jubel på rätt ställe.\nHur gör Lina för att smällarna inte ska maskera musiken?\nHon har valt tystare raketer till de ljuvaste melodierna och sparat de stora smällarna till slutet.\nVad måste man tänka på med ett bål?\nBålet måste ligga långt från både hus och träd."
+    },
+    {
+      "title": "Ögat i rymden",
+      "summary": "An interview with a satellite engineer who builds instruments that spot forest fires from space.",
+      "newWords": [
+        "galax",
+        "storhet",
+        "blicka",
+        "ateist",
+        "identitetspolitik",
+        "läppstift",
+        "skogsbrand",
+        "patrull",
+        "television",
+        "förstasida"
+      ],
+      "text": "Maria Sandberg bygger instrument till satelliter i Kiruna. Hennes senaste satellit kan upptäcka en skogsbrand när den bara är några meter stor. Vi ringde henne en kväll efter jobbet.\n\nHur började ditt intresse för rymden?\n”När jag var nio år såg jag en raket skjutas upp på television. Jag minns att jag satt helt stilla framför skärmen. Efter det ville jag bara blicka upp mot himlen. Min pappa köpte ett litet teleskop, och en vinternatt såg vi en annan galax, Andromeda. Att ljuset från en galax så långt borta kunde nå mitt öga var obegripligt.”\n\nVad gör din satellit?\n”Den mäter temperatur på marken. Temperatur är en fysikalisk storhet, precis som tid och längd, och satelliten mäter den storheten flera gånger i timmen över hela Sverige. Om en punkt i skogen plötsligt blir mycket varm skickar satelliten ett larm.”\n\nVarför behövs den?\n”Sommaren 2018 hade Sverige flera stora skogsbränder. Då skickades patruller ut i flygplan för att leta efter nya bränder, men en patrull kan inte vara överallt. En satellit ser allt på en gång. Förra sommaren upptäckte den en skogsbrand i Dalarna innan någon människa hade sett röken.”\n\nDet blev en stor nyhet.\n”Ja, bilden från satelliten hamnade på förstasidan i flera tidningar och visades på television. Det var konstigt att se mitt arbete på en förstasida, men det gjorde mig stolt.”\n\nDu är en av få kvinnor i branschen. Hur är det?\n”Bättre i dag än förr. På min första arbetsdag bar jag rött läppstift, och en kollega frågade om jag var den nya sekreteraren. I dag skrattar vi åt det. Jag bär fortfarande läppstift. Men jag vill inte att mitt kön ska bli en fråga om identitetspolitik. Jag vill bli bedömd efter mina instrument, inte efter något annat. Identitetspolitik kan vara viktig, men på jobbet vill jag bara vara ingenjör.”\n\nBlir man religiös av att titta ut i rymden?\n”Inte jag. Jag är ateist och har alltid varit det. Men även en ateist kan känna vördnad. När jag blickar ut mot stjärnorna känner jag mig väldigt liten, och det tycker jag om.”\n\nHur blickar du framåt?\n”Jag tänker mest på nästa satellit. Den ska kunna se ännu mindre bränder.”\n\nFrågor:\nVad kan Marias senaste satellit upptäcka?\nDen kan upptäcka en skogsbrand när den bara är några meter stor.\nHur började hennes intresse för rymden?\nHon såg en raket skjutas upp på television när hon var nio år.\nVilken storhet mäter satelliten?\nDen mäter temperatur, som är en fysikalisk storhet.\nVarför räcker det inte med patruller i flygplan?\nEn patrull kan inte vara överallt, men en satellit ser allt på en gång.\nVad hände på hennes första arbetsdag?\nHon bar rött läppstift, och en kollega frågade om hon var den nya sekreteraren.\nVad känner Maria när hon blickar ut mot stjärnorna?\nHon känner sig väldigt liten, och det tycker hon om."
+    },
+    {
+      "title": "Vatten till fälten",
+      "summary": "A profile of an agricultural engineer from Skåne who brings water-saving irrigation to small farms in Kenya.",
+      "newWords": [
+        "lantbruk",
+        "kolhydrat",
+        "soja",
+        "afrikan",
+        "senap",
+        "misär",
+        "käk",
+        "kvällsmat",
+        "israeliska",
+        "hull"
+      ],
+      "text": "Emma Nordin växte upp på en gård i Skåne. Hennes pappa odlade vete och senap, och på hösten luktade hela gården av de gula senapsfröna. Vid kvällsmaten pratade familjen nästan alltid om vädret. ”Pappa kallade maten för käk”, minns Emma. ”Han ropade att vi skulle komma in och äta käk, och sedan började han prata om regn.”\n\nI dag är Emma ingenjör inom lantbruk, och hon arbetar i Kenya. Där hjälper hon små gårdar att använda vattnet bättre. Många afrikaner lever av lantbruk, och för dem är vatten en fråga om liv och död. När regnet uteblir kan en familj snabbt hamna i misär.\n\nEmmas viktigaste verktyg är droppbevattning. Systemet utvecklades av israeliska ingenjörer på 1960-talet. I stället för att spruta vatten över hela fältet leder man vattnet i tunna slangar, droppe för droppe, direkt till varje planta. De israeliska ingenjörerna ville spara vatten i ett torrt land, och i dag används deras idé över hela världen.\n\nEmma har också hjälpt bönderna att odla soja. ”Majs ger mycket kolhydrater, men människor behöver också protein”, förklarar hon. ”Soja ger protein, och den gör dessutom jorden rikare.” Familjerna kan äta en del av sojan själva och sälja resten. Kolhydrater från majs och protein från soja ger en bättre kost.\n\nDjuren har också fått det bättre. Förr var korna magra efter den torra perioden. Nu när det finns foder hela året har de bättre hull, och en ko med gott hull ger mer mjölk.\n\nEmma vill inte framställa sig själv som en räddare. ”Det är bönderna som gör jobbet. De är afrikaner som har odlat i generationer och vet mycket mer om sin jord än jag. Jag kommer bara med en teknik.” Hon har sett familjer ta sig ur misär, men hon påpekar att det tar tid och att inget system fungerar utan människorna som använder det.\n\nNär hon är hemma i Skåne på julen äter hon kvällsmat med sin pappa igen. Han frågar alltid om regnet i Kenya. ”Vi har samma samtal som när jag var barn”, säger hon och ler. ”Det handlar fortfarande om vatten.”\n\nFrågor:\nVad odlade Emmas pappa?\nHan odlade vete och senap.\nVad kallade pappan maten?\nHan kallade maten för käk.\nVarför är vatten så viktigt för familjerna i Kenya?\nMånga afrikaner lever av lantbruk, och när regnet uteblir kan en familj hamna i misär.\nVem utvecklade droppbevattningen?\nDen utvecklades av israeliska ingenjörer på 1960-talet.\nVarför odlar bönderna soja?\nMajs ger kolhydrater, men soja ger protein och gör jorden rikare.\nVarför har korna fått bättre hull?\nNu finns det foder hela året."
+    },
+    {
+      "title": "Teknik i sjuan",
+      "summary": "A technology teacher writes about how her year-seven class designed and built a swing for the schoolyard with the caretaker's help.",
+      "newWords": [
+        "grammatik",
+        "verb",
+        "sjua",
+        "gunga",
+        "vaktmästare",
+        "fostra",
+        "naturvetenskap",
+        "lagkapten",
+        "gruppspel"
+      ],
+      "text": "Jag undervisar i teknik och naturvetenskap på en skola i Örebro. I våras fick min klass i sjuan en uppgift som de fortfarande pratar om: att bygga en ny gunga till skolgården.\n\nDen gamla gungan hade gått sönder, och skolan hade inte råd att köpa en ny. Vaktmästaren, Kent, föreslog att eleverna skulle bygga den själva. Han lovade att hjälpa till med verktyg och säkerhet. Utan en vaktmästare som Kent hade projektet aldrig blivit av.\n\nJag brukar säga till mina elever att teknik har en egen grammatik. Precis som ett språk har teknik regler för hur delarna får sättas ihop. Och som i varje språk är verben viktigast. I teknik är verben bära, lyfta, vrida och hålla. En gunga ska bära ett barn, svänga fram och tillbaka och hålla i många år. När eleverna förstod verben blev grammatiken lättare.\n\nKlassen delades in i fyra grupper. Varje grupp ritade en egen gunga och räknade på hur mycket vikt den skulle klara. Vi gjorde det som ett gruppspel, som i fotboll: grupperna presenterade sina ritningar, och efter gruppspelet gick de två bästa förslagen vidare till final. En av eleverna, Ali, är lagkapten i skolans fotbollslag, och han ledde sin grupp på samma sätt som han leder laget: lugnt och med respekt för alla. Det var roligt att se en lagkapten ta ansvar även i klassrummet.\n\nVinnarna hade ritat en gunga av trä med två stolpar av stål. Kent visade hur man borrar, mäter och kontrollerar varje skruv. Han lät eleverna göra jobbet, men han stod alltid bredvid.\n\nVarför lägger jag så mycket tid på något som inte finns i provet? Därför att skolan inte bara ska undervisa. Den ska också fostra. Naturvetenskap handlar om att förstå världen, men teknik handlar om att förändra den, och det kräver samarbete, tålamod och ansvar. Det är sådant vi vill fostra hos unga människor.\n\nI maj invigdes gungan. Hela sjuan stod runt den när den första eleven satte sig och gungade högt. Kent stod en bit bort och log. Den kvällen skickade en förälder ett mejl: ”Min dotter har pratat om grammatik och verb hela middagen. Vad har ni gjort med henne?”\n\nFrågor:\nVad skulle klassen i sjuan bygga?\nDe skulle bygga en ny gunga till skolgården.\nHur hjälpte vaktmästaren till?\nHan hjälpte till med verktyg och säkerhet och visade hur man borrar och mäter.\nVilka verb är viktigast i teknik, enligt läraren?\nBära, lyfta, vrida och hålla är de viktigaste verben.\nHur fungerade gruppspelet?\nGrupperna presenterade sina ritningar, och de två bästa förslagen gick vidare till final.\nHur ledde Ali sin grupp?\nHan ledde den som han leder fotbollslaget, lugnt och med respekt för alla.\nVarför tycker läraren att projektet är viktigt?\nHon tycker att skolan inte bara ska undervisa, utan också fostra samarbete, tålamod och ansvar."
+    }
+  ]
+}

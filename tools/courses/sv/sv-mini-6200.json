@@ -1,0 +1,222 @@
+{
+  "id": "sv-mini-6200",
+  "rankUpTo": 6200,
+  "level": "C1",
+  "title": "Naturens resurser",
+  "description": "Profiles, reports, a column and a diary about Sweden's natural resources: pine forest, iron ore and reindeer pasture, hydropower, coastal fishing, wild berries, barley, Icelandic geothermal heat, drinking water, a recovered lake and the old copper mine in Falun.",
+  "topic": "Natural resources",
+  "names": [
+    "Värmland",
+    "Sverige",
+    "Sveriges",
+    "Skogsstyrelsen",
+    "Norrbotten",
+    "Jämtland",
+    "Maria Lind",
+    "Marias",
+    "Maria",
+    "Henrik Sandberg",
+    "Henrik",
+    "Bohuslän",
+    "Elsa",
+    "Elsas",
+    "Ludde",
+    "Lena Persson",
+    "Lena",
+    "Lenas",
+    "Östergötland",
+    "Linköping",
+    "Asien",
+    "Norden",
+    "Ulla Berglund",
+    "Ulla",
+    "Mikael",
+    "Sigrid",
+    "Island",
+    "Reykjavik",
+    "Göteborg",
+    "Stockholm",
+    "Skåne",
+    "Sofia",
+    "Småland",
+    "Jönköping",
+    "Tomas Nyberg",
+    "Tomas",
+    "Dalarna",
+    "Finland",
+    "Östersjön",
+    "Europa",
+    "Falun",
+    "Sara",
+    "Johan",
+    "Europas"
+  ],
+  "lessons": [
+    {
+      "title": "Tallarna på berget",
+      "summary": "A forest owner in Värmland checks her pine forest, finds damaged bark and decides not to clear-cut.",
+      "newWords": [
+        "tall",
+        "bark",
+        "kal",
+        "risig",
+        "grundlig",
+        "utspridd",
+        "stjärt",
+        "hypotes",
+        "tidsperiod"
+      ],
+      "text": "Jag äger en skog i Värmland. Det var min farfar som planterade den på 1950-talet, och nästan alla träd är tallar. En tall kan bli flera hundra år gammal, men i en skog som min fälls de flesta tallar när de är omkring 80 år. Skogen är en av Sveriges viktigaste resurser, och för mig är den både ett arbete och en plats där jag känner mig hemma.\n\nVarje vår går jag igenom skogen på ett grundligt sätt. En grundlig genomgång tar flera veckor, eftersom jag vill se varje del av marken med egna ögon. Jag börjar alltid med barken. Barken är tallens skydd mot kyla, insekter och svamp. När barken är hel och tjock mår trädet oftast bra. Om barken har lossnat i stora bitar, eller om det finns små hål i den, kan det betyda att insekter har tagit sig in.\n\nFörra våren hittade jag sådana hål på ett 20-tal tallar. De stod inte tillsammans, utan var utspridda över hela berget. Det gjorde mig orolig. Om de skadade träden hade stått på ett och samma ställe, hade jag kunnat förklara dem med ett enda angrepp. Nu var de utspridda, och det passade inte med någon enkel förklaring.\n\nJag ringde till en expert på Skogsstyrelsen. Hon kom ut till berget, tittade länge på barken och lade fram en hypotes. Enligt hennes hypotes hade den torra sommaren två år tidigare gjort träden svaga, och svaga träd angrips lättare av insekter. Att skadorna var utspridda talade för hypotesen: torkan hade drabbat hela berget, inte bara ett hörn av det. För att pröva sin hypotes jämförde hon mina tallar med bilder från en tidigare tidsperiod, då somrarna var blötare. Under den tidsperioden hade nästan inga träd skadats.\n\nDet enklaste vore att fälla allt och lämna marken kal. Många skogsägare gör så, eftersom det lönar sig på kort sikt. Men jag tycker inte om kala berg. När marken är kal försvinner fåglarna, och regnet tar med sig jorden ner i bäckarna. I stället fällde jag bara de skadade träden och lät de friska stå kvar.\n\nMin granne tycker att min skog ser risig ut. Jag låter grenar och döda träd ligga kvar på marken, och det ser inte särskilt prydligt ut. Men en risig skog är full av liv. I de döda stammarna bor insekter, och insekterna är mat för fåglarna. En morgon i maj såg jag en hackspett på en gammal tall. Den stödde sig mot barken med sin styva stjärt medan den letade efter mat. Utan stjärten hade den inte kunnat sitta så stilla.\n\nDen fågeln påminner mig om varför jag gör som jag gör. Skogen ska ge virke, men den ska också finnas kvar åt dem som kommer efter mig.\n\nFrågor:\nVilka träd växer i skogen?\nNästan alla träd i skogen är tallar som hennes farfar planterade.\nVarför börjar hon alltid med barken?\nBarken är tallens skydd, och hål i barken kan betyda att insekter har tagit sig in.\nVarför blev hon orolig förra våren?\nHon hittade hål i barken på tallar som var utspridda över hela berget.\nVilken hypotes hade experten?\nEnligt hennes hypotes hade den torra sommaren gjort träden svaga, så att insekter lättare angrep dem.\nVarför vill hon inte lämna marken kal?\nNär marken är kal försvinner fåglarna, och regnet tar med sig jorden.\nHur använder hackspetten sin stjärt?\nDen stöder sig mot barken med sin styva stjärt."
+    },
+    {
+      "title": "Malmen under renbetet",
+      "summary": "A column weighs the jobs a new iron mine in Norrbotten would bring against what the Sami reindeer herders would lose.",
+      "newWords": [
+        "brytning",
+        "aktieägare",
+        "uppoffring",
+        "samiska",
+        "talan",
+        "incitament",
+        "spekulation",
+        "uppenbar",
+        "exportera",
+        "belasta"
+      ],
+      "text": "I en liten kommun i Norrbotten har ett gruvbolag hittat järnmalm under ett stort område med skog och våtmark. Bolaget vill starta brytning om några år. Frågan har delat kommunen i två läger, och den här texten är ett försök att väga dem mot varandra.\n\nFörst fördelarna. Sverige exporterar det mesta av den järnmalm som bryts i landet. Exporten ger pengar till staten och arbete i norr, och ju mer vi exporterar, desto viktigare blir gruvorna för hela landet. Den nya gruvan skulle ge omkring 400 jobb. För en kommun där de unga flyttar söderut är fördelen uppenbar. Kommunen har dessutom ett starkt incitament att säga ja: fler invånare betyder mer skatt, och mer skatt betyder bättre skolor och vård. Bolagets aktieägare har också sitt incitament. Aktieägarna vill se vinst, och priset på järnmalm är högt just nu.\n\nSedan nackdelarna. Området används i dag som bete för renar. De samer som lever av renarna flyttar dem mellan olika platser under året, och gruvan skulle ligga mitt på en av deras viktigaste leder. En gruva belastar inte bara marken där den ligger. Vägar, buller och damm belastar också ett mycket större område omkring den. Renarna undviker sådana platser, och då måste samerna leta efter bete någon annanstans.\n\nFör samerna handlar frågan om mer än pengar. I byn talar många av de äldre samiska, och barnen lär sig samiska i skolan. Språket hänger ihop med renarna, eftersom många av orden handlar om snö, bete och djur. Om renarna försvinner från byn, är rädslan att också språket blir svagare. Samebyn har därför anlitat en advokat som för deras talan i domstolen. Det är inte första gången som samerna har fått föra sin talan mot ett gruvbolag, och det blir förmodligen inte den sista.\n\nKring gruvan har det funnits många spekulationer. Någon har sagt att jobben mest kommer att gå till folk som flyger in från söder. Någon annan har sagt att priset på järnmalm snart kommer att falla, så att gruvan stänger efter tio år. Sådana spekulationer hjälper ingen. Det vi behöver är fakta om hur länge malmen räcker och hur mycket mark som faktiskt påverkas.\n\nEn sak är ändå uppenbar: någon måste göra en uppoffring. Antingen avstår kommunen från jobben, eller så avstår samerna från en del av sitt bete. Den viktigaste frågan är inte om det blir en uppoffring, utan vem som ska bära den, och om den som gör uppoffringen får något tillbaka.\n\nFrågor:\nVad vill gruvbolaget göra?\nBolaget vill starta brytning av järnmalm om några år.\nVarför har kommunen ett incitament att säga ja?\nFler invånare betyder mer skatt, och mer skatt betyder bättre skolor och vård.\nHur belastar en gruva området omkring den?\nVägar, buller och damm belastar ett mycket större område än själva gruvan.\nVarför hänger samiska ihop med renarna?\nMånga ord på samiska handlar om snö, bete och djur.\nVem för samebyns talan i domstolen?\nEn advokat som samebyn har anlitat för deras talan.\nVilken uppoffring talar texten om?\nAntingen avstår kommunen från jobben, eller så avstår samerna från en del av sitt bete."
+    },
+    {
+      "title": "Kraftverket vid älven",
+      "summary": "A profile of an engineer who looks after the sensors and software of an old hydroelectric power station in Jämtland.",
+      "newWords": [
+        "kraftverk",
+        "sensor",
+        "koda",
+        "cirkulera",
+        "felfri",
+        "uppta",
+        "oförmåga",
+        "instabil",
+        "fördubbla",
+        "attentat"
+      ],
+      "text": "Maria Lind är 34 år och arbetar som ingenjör på ett kraftverk vid en älv i Jämtland. Kraftverket byggdes på 1950-talet, när Sverige behövde mer el till industrin. I dag ger det fortfarande el, men det mesta av tekniken inuti har bytts ut.\n\n”I grunden fungerar ett kraftverk enkelt”, förklarar hon. Vattnet samlas bakom en damm. När man öppnar luckorna, rinner vattnet ner genom en tunnel och får ett stort hjul att snurra. Hjulet driver en generator, och generatorn ger el.\n\nDet som har förändrats är hur kraftverket övervakas. I dag sitter det hundratals sensorer i dammen, i tunnlarna och i maskinerna. En sensor mäter vattnets nivå, en annan mäter hur mycket maskinerna skakar, en tredje mäter värmen i generatorn. Marias uppgift är att se till att sensorerna skickar rätt data. Hon kodar också de program som läser data från sensorerna och larmar när något avviker. ”Jag har kodat sedan jag var tolv”, säger hon. ”Men att koda för ett kraftverk är något annat än att koda ett spel. Här får ingenting gå fel.”\n\nI generatorn cirkulerar olja och vatten som kyler maskinen. Om oljan slutar cirkulera blir generatorn för varm på några minuter. Därför finns det alltid två system, så att det ena kan ta över om det andra går sönder. ”Ingen teknik är felfri”, säger Maria. ”Målet är inte att bygga något felfritt, utan något som klarar av fel.”\n\nArbetet upptar större delen av hennes vecka, och ibland även nätterna. Det beror på att elnätet har förändrats. Allt fler vindkraftverk byggs i landet, och vindkraften har en känd svaghet: dess oförmåga att ge el när det inte blåser. När vinden plötsligt minskar kan elnätet bli instabilt. Ett instabilt nät kan i värsta fall leda till att strömmen går i stora delar av landet. Vattenkraften kan då snabbt öka sin produktion, eftersom vattnet redan finns bakom dammen. Det är vattnets styrka och vindens oförmåga som gör att de passar så bra ihop.\n\nEnligt flera prognoser kommer behovet av el att fördubblas fram till 2045. Om behovet fördubblas, räcker inte de kraftverk som finns i dag. Maria tror ändå inte att det byggs många nya dammar. Det mesta av den vattenkraft som går att bygga är redan byggd, och en ny damm upptar stora ytor mark som annars hade varit skog.\n\nKraftverket är också en plats som måste skyddas. Det finns staket, kameror och vakter, och få besökare släpps in. Ett attentat mot ett stort kraftverk skulle kunna lämna en hel region utan el. ”Risken för ett attentat är liten”, säger Maria, ”men den är inte noll, och därför måste vi vara förberedda.”\n\nNär vi går ut ur hallen säger hon att hon trivs. ”Älven har gett el i 70 år. Jag vill att den ska göra det i 70 år till.”\n\nFrågor:\nHur fungerar ett kraftverk i grunden?\nVattnet rinner genom en tunnel och får ett hjul att snurra, och hjulet driver en generator som ger el.\nVad gör Maria med sensorerna?\nHon ser till att sensorerna skickar rätt data, och hon kodar programmen som läser data från dem.\nVarför måste oljan cirkulera i generatorn?\nOm oljan slutar cirkulera blir generatorn för varm på några minuter.\nVilken svaghet har vindkraften?\nVindkraften har en oförmåga att ge el när det inte blåser, och då kan elnätet bli instabilt.\nVarför byggs det inte många nya dammar?\nDet mesta av vattenkraften är redan byggd, och en ny damm upptar stora ytor mark.\nHur skyddas kraftverket mot ett attentat?\nDet finns staket, kameror och vakter, och få besökare släpps in."
+    },
+    {
+      "title": "Strejken i hamnen",
+      "summary": "A fisherman on the west coast organises a week-long strike of small boats, and the small-scale fishing near the coast gets its own share.",
+      "newWords": [
+        "fiskare",
+        "oviktig",
+        "dussin",
+        "strejka",
+        "samordna",
+        "frånvarande",
+        "legitimera",
+        "porta",
+        "rutt"
+      ],
+      "text": "Henrik Sandberg är fiskare i en liten hamn i Bohuslän. Hans far var fiskare, och hans farfar var också fiskare. Henrik har en liten båt, och oftast är han ute på havet i två eller tre dagar i taget. Han fiskar torsk, sill och räkor.\n\nUnder de senaste åren har det blivit svårare. Det finns mindre fisk i havet, och stora båtar fiskar långt ute, där fisken samlas. Varje år bestämmer myndigheterna hur mycket fisk som får tas upp ur havet. De små fiskarna menar att reglerna gynnar de stora båtarna, och att det lilla fisket längs kusten behandlas som om det vore oviktigt. ”Vi får höra att vi är oviktiga, eftersom vi tar upp så lite fisk”, säger Henrik. ”Men utan oss dör hamnarna längs kusten.”\n\nI våras bestämde sig ett dussin fiskare i hamnen för att strejka. I en vecka skulle de inte gå ut med sina båtar, och de skulle inte sälja någon fisk. Det var inte lätt att samordna strejken, eftersom fiskarna bor utspridda längs kusten och sällan träffas. Henrik tog på sig att samordna den. Han ringde runt, skrev till de andra och ordnade ett möte i hamnens gamla magasin. Till slut var det mer än ett dussin båtar som strejkade, nästan 20 stycken.\n\nUnder veckan var båtarna frånvarande från havet, men fiskarna var inte frånvarande från samtalet i samhället. Tidningen skrev om dem varje dag, och folk kom ner till hamnen för att prata. Många visste inte hur svårt det hade blivit för de små fiskarna.\n\nEn dag kom kustbevakningen till hamnen för en vanlig kontroll. Fiskarna fick legitimera sig och visa sina papper. ”Vi har inget att dölja”, sa Henrik medan han legitimerade sig. ”Vi strejkar, men vi bryter inte mot några regler.” Kustbevakningen förklarade att den som fiskar i ett skyddat område kan portas från fisket i flera år. En fiskare som blir portad förlorar hela sin inkomst. Ingen av fiskarna i hamnen hade blivit portad, och ingen ville heller bli det.\n\nNär strejken var över gick Henrik ut igen. Han tog samma rutt som alltid: ut förbi fyren, norrut längs öarna och sedan ut mot djupet. Det är samma rutt som hans far tog, och han kan den utan att titta på kartan. Den första dagen fick han mer torsk än han hade väntat sig.\n\nEn månad senare bjöd myndigheten in fiskarna till ett möte. I höstas beslutades det att en del av fisket närmast kusten ska vara reserverad för små båtar. Henrik tror inte att alla problem är lösta, men han tycker att strejken var värd det. ”Nu vet folk att vi finns”, säger han.\n\nFrågor:\nVad fiskar Henrik?\nHan fiskar torsk, sill och räkor.\nVarför tycker de små fiskarna att reglerna är orättvisa?\nDe menar att reglerna gynnar de stora båtarna och att det lilla fisket behandlas som oviktigt.\nHur många fiskare strejkade?\nFörst var det ett dussin fiskare, men till slut strejkade nästan 20 båtar.\nVarför var det svårt att samordna strejken?\nFiskarna bor utspridda längs kusten och träffas sällan.\nVad hände när kustbevakningen kom?\nFiskarna fick legitimera sig och visa sina papper.\nVilken rutt tar Henrik när han går ut?\nHan tar samma rutt som sin far, förbi fyren, norrut längs öarna och ut mot djupet."
+    },
+    {
+      "title": "Blåbär och sylt",
+      "summary": "A diary entry: after a stressful week, a father takes his daughter and their dog on a blueberry-picking trip and comes home to make jam.",
+      "newWords": [
+        "stressig",
+        "deppig",
+        "utflykt",
+        "studsa",
+        "grind",
+        "behaglig",
+        "solglasögon",
+        "stygg",
+        "blåmärke",
+        "slö",
+        "sylt"
+      ],
+      "text": "Lördag den 14 augusti\n\nDet har varit en stressig vecka på jobbet. Jag har suttit i möten från morgon till kväll, och i torsdags kände jag mig både trött och deppig. När jag är deppig vill jag helst ligga på soffan, men jag vet att det inte hjälper. Därför bestämde min dotter Elsa och jag att vi skulle göra en utflykt till skogen i dag och plocka blåbär.\n\nVi åkte tidigt. De sista kilometrarna var vägen bara grus, och bilen studsade över varje sten. Elsa skrattade varje gång bilen studsade, och vår hund Ludde stod i baksätet och skällde. Vid en gammal grind parkerade vi. Bakom grinden låg en hage, och bakom hagen började skogen. Vi stängde grinden noga efter oss, eftersom det gick kor i hagen.\n\nI Sverige får alla plocka bär i skogen, även på mark som någon annan äger. Den rätten gäller så länge man inte skadar naturen eller stör dem som bor i närheten. Bären är en av skogens resurser som alla får dela på, och jag tycker att det är något av det finaste vi har.\n\nSkogen var full av blåbär. ”Pappa, här finns hur mycket som helst!” ropade Elsa. Solen sken mellan träden, och det var behagligt varmt, kanske 20 grader. Jag hade glömt mina solglasögon i bilen, men under träden behövde jag dem inte. Elsa hade sina solglasögon på huvudet hela dagen, mest för att hon tycker att de är snygga.\n\nLudde var stygg. Han sprang iväg efter en fågel, och när han kom tillbaka åt han bär direkt ur Elsas hink. ”Du är en stygg hund”, sa Elsa, men hon kunde inte låta bli att skratta. Själv ramlade jag över en sten och fick ett stort blåmärke på knät. I kväll är blåmärket blått och gult, men det gör nästan inte ont.\n\nEfter tre timmar hade vi fyra liter bär. Vi satte oss på en sten och drack kaffe och saft. Det var en behaglig känsla att inte ha någon tid att passa. Jag kände mig nästan slö, men på ett bra sätt. Under veckan har jag inte haft tid att vara slö en enda minut.\n\nI kväll har vi kokat sylt av hälften av bären. Hela huset luktar sylt, och vi har fyllt sex burkar. Resten av bären har vi frusit, så att vi kan baka paj i vinter. Elsa har redan frågat om vi kan göra en ny utflykt nästa helg, och jag sa ja. Jag är inte deppig längre. Nästa vecka får gärna vara stressig, för nu har jag sex burkar sylt och ett blåmärke som påminner mig om en bra dag.\n\nFrågor:\nVarför ville Elsas pappa göra en utflykt?\nHan hade haft en stressig vecka och kände sig trött och deppig.\nVad hände med bilen på grusvägen?\nBilen studsade över varje sten, och Elsa skrattade.\nVarför stängde de grinden noga?\nDet gick kor i hagen bakom grinden.\nVarför sa Elsa att Ludde var stygg?\nLudde åt bär direkt ur hennes hink.\nHur fick pappan ett blåmärke?\nHan ramlade över en sten och fick ett stort blåmärke på knät.\nVad gjorde de med bären på kvällen?\nDe kokade sylt av hälften och frös resten."
+    },
+    {
+      "title": "Kornet från slätten",
+      "summary": "A profile of a farmer in Östergötland whose barley ends up in vegan noodles and who sells seeds of old barley varieties by post.",
+      "newWords": [
+        "korn",
+        "vegansk",
+        "nudel",
+        "gedigen",
+        "konstighet",
+        "skotta",
+        "uppehålla",
+        "porto",
+        "valfrihet"
+      ],
+      "text": "Lena Persson driver en gård på slätten i Östergötland. På hennes åkrar växer framför allt korn. Korn är en av de äldsta grödorna i Norden, och i tusentals år har det gett människor bröd, gröt och öl. I dag går det mesta av Lenas korn till djurfoder, men en allt större del säljs som mat till människor.\n\nDet beror på att allt fler äter veganskt, eller åtminstone äter mindre kött. Veganska produkter behöver protein och fibrer, och korn innehåller båda. Ett litet företag i Linköping köper Lenas korn och gör nudlar av det. Nudlarna är veganska, och de säljs i butiker i hela landet. ”När jag var barn trodde jag att nudlar bara kom från Asien”, säger Lena. ”Nu görs de av korn från min åker.”\n\nLena har gedigen kunskap om jord. Hon har studerat jordbruk i fyra år och har arbetat på gården i snart 25 år. En gedigen kunskap behövs, eftersom jorden aldrig beter sig likadant två år i rad. ”Jorden har sina små konstigheter”, säger hon. ”Ett hörn av åkern ger alltid mer än resten, och ingen har kunnat förklara varför. Jag har lärt mig att leva med sådana konstigheter.”\n\nUnder skörden i augusti arbetar hon från tidig morgon till sen kväll. Kornet förs in i ett stort förråd, och ibland måste hon skotta kornet för hand i hörnen där maskinerna inte når. På vintern skottar hon i stället snö på gården. Då uppehåller hon sig mest i verkstaden, där hon lagar maskinerna inför våren. ”Jag ska inte uppehålla dig länge”, säger hon och torkar händerna på byxorna, ”men det här måste du se.” Hon visar några påsar med frön från gamla sorter av korn.\n\nLena säljer frön av de gamla sorterna till människor som odlar i sina trädgårdar. Hon skickar dem med posten, men portot har blivit så dyrt att det ibland kostar mer än själva fröna. ”Jag har höjt priset lite för att täcka portot”, säger hon. ”De flesta kunder förstår det.”\n\nHon tycker att valfrihet är viktigt, både för bonden och för den som köper mat. ”Alla ska ha valfrihet. Den som vill äta kött ska kunna göra det, och den som vill äta veganskt ska kunna köpa bra mat från Sverige.” För henne är frågan om korn eller kött inte oviktig, men den är inte heller ett krig. ”Jorden räcker till båda, om vi använder den klokt.”\n\nFrågor:\nVad växer på Lenas åkrar?\nPå hennes åkrar växer framför allt korn.\nVad gör företaget i Linköping med kornet?\nFöretaget gör veganska nudlar av kornet.\nVilken konstighet har Lenas jord?\nEtt hörn av åkern ger alltid mer än resten, och ingen har kunnat förklara varför.\nNär måste hon skotta kornet för hand?\nHon måste skotta kornet för hand i hörnen där maskinerna inte når.\nVarför har hon höjt priset på fröna?\nPortot har blivit så dyrt att det ibland kostar mer än fröna.\nVad menar Lena med valfrihet?\nDen som vill äta kött ska kunna göra det, och den som vill äta veganskt ska kunna köpa bra mat från Sverige."
+    },
+    {
+      "title": "Värmen under Island",
+      "summary": "A geologist from Gothenburg and a colleague from Skåne study a volcano in Iceland and see how the island heats its homes with water from the ground.",
+      "newWords": [
+        "vulkan",
+        "göteborgare",
+        "docent",
+        "skåning",
+        "översättare",
+        "asfalt",
+        "isolering",
+        "kristall",
+        "ofrivillig",
+        "redogöra"
+      ],
+      "text": "Ulla Berglund är docent i geologi vid universitetet i Göteborg. Hon är född och uppvuxen i Göteborg, och hon säger själv att hon är en typisk göteborgare: hon pratar mycket och skrattar ofta. I somras reste hon till Island för att studera en vulkan som hade haft ett utbrott året innan.\n\nMed sig hade hon en kollega, Mikael, som är skåning. Skåningen och göteborgaren hade aldrig arbetat ihop tidigare, men de kom snabbt överens. ”En skåning och en göteborgare har mer gemensamt än man tror”, säger Ulla. ”Vi tycker båda att Stockholm ligger lite för långt bort.” Ingen av dem talar isländska, och därför hade de med sig en översättare, Sigrid, som hade bott i Sverige i tio år. Översättaren hjälpte dem att tala med bönderna som bodde närmast vulkanen.\n\nIsland är ett land som lever med sina vulkaner. Under ön finns stora mängder värme, och invånarna använder värmen för att få el och värma sina hus. Nästan alla hus i Reykjavik värms med varmt vatten från marken. Vattnet färdas långt i rör innan det når staden. Rören har en tjock isolering, så att vattnet bara förlorar ett par grader på vägen. Utan isolering skulle vattnet vara kallt när det kom fram. Under asfalten på flera gator ligger också rör med varmt vatten. På vintern smälter snön direkt på asfalten, och gatorna blir aldrig hala.\n\nUppe vid vulkanen samlade Ulla och Mikael stenar. I många av stenarna fanns små kristaller som hade bildats när den heta lavan svalnade. Kristallerna berättar en del av vulkanens historia. Stora kristaller bildas när lavan svalnar långsamt, och små kristaller bildas när den svalnar snabbt. Genom att mäta kristallerna kan man alltså förstå vad som hände under utbrottet.\n\nMot slutet av resan fick de en ofrivillig paus. Det började komma rök ur vulkanen igen, och vägen dit stängdes i tre dagar. De ofrivilliga dagarna i Reykjavik blev ändå nyttiga. Ulla och Mikael satt på ett café, gick igenom sina prover och skrev ner det de hade sett. ”Ibland är en ofrivillig paus det bästa som kan hända en forskare”, säger Ulla.\n\nTillbaka i Göteborg skrev hon en rapport där hon redogör för resultaten. Hon redogör för hur vulkanen har förändrats och vad kristallerna berättar om utbrottet. I november redogjorde hon också för resultaten på en konferens i Stockholm, och Mikael kom upp från Skåne för att lyssna.\n\nFrågor:\nVem är Ulla Berglund?\nHon är docent i geologi och en typisk göteborgare.\nVarför hade de med sig en översättare?\nIngen av dem talar isländska, och översättaren hjälpte dem att tala med bönderna.\nVarför har rören en tjock isolering?\nIsoleringen gör att vattnet bara förlorar ett par grader på vägen till staden.\nVarför blir gatorna i Reykjavik aldrig hala?\nUnder asfalten ligger rör med varmt vatten, så att snön smälter direkt.\nVad berättar kristallerna?\nStora kristaller visar att lavan svalnade långsamt, och små kristaller att den svalnade snabbt.\nVad gjorde de under den ofrivilliga pausen?\nDe satt på ett café, gick igenom sina prover och skrev ner det de hade sett."
+    },
+    {
+      "title": "Vattnet i kranen",
+      "summary": "A nurse notices many patients with stomach pain, the municipality finds bacteria in a well, and an evaluation explains what went wrong.",
+      "newWords": [
+        "sköterska",
+        "blodprov",
+        "kansli",
+        "huvudman",
+        "klor",
+        "preliminär",
+        "genomslag",
+        "utvärdering",
+        "arvode"
+      ],
+      "text": "Sofia arbetar som sköterska på en vårdcentral i en liten kommun i Småland. En vecka i september kom ovanligt många patienter med ont i magen. Det var både barn och vuxna, och nästan alla bodde i samma del av samhället. Sofia och de andra sköterskorna började misstänka att det var något med vattnet.\n\nLäkaren bad Sofia att ta blodprov på flera av patienterna, och blodproven skickades till ett laboratorium i Jönköping. Samtidigt ringde Sofia till kommunens kansli. På kansliet tog man hennes oro på allvar. Kommunen är huvudman för vattnet, vilket betyder att det är kommunen som ansvarar för att vattnet i kranarna är rent. Som huvudman måste kommunen agera direkt när det finns en risk.\n\nSamma dag gick kommunen ut med ett råd: alla i den delen av samhället skulle koka sitt vatten innan de drack det. Dessutom tillsattes klor i vattnet. Klor dödar de flesta bakterier, men det ger vattnet en smak som många inte tycker om. ”Det smakar simhall”, sa en pappa till Sofia. Hon förklarade att det bara gällde en kort tid, och att lite klor i vattnet var bättre än att bli sjuk.\n\nEfter tre dagar kom de första preliminära svaren. Enligt de preliminära resultaten fanns det bakterier i vattnet från en av kommunens brunnar, och blodproven visade samma bakterier. Brunnen stängdes, och vattnet togs i stället från en annan brunn. En vecka senare var de preliminära svaren bekräftade.\n\nNyheten fick stort genomslag. Tidningen skrev om den varje dag, och den kom även med i radio. Genomslaget gjorde att många blev oroliga, och Sofia fick svara på frågor i telefon i flera dagar. ”Det var jobbigt”, säger hon, ”men det var bra att folk visste vad som hände.”\n\nKommunen anlitade en konsult för att göra en utvärdering. Konsulten fick ett arvode på 200 000 kronor, och en del invånare tyckte att arvodet var för högt. Men utvärderingen var grundlig. Den visade att ett rör nära brunnen hade gått sönder under en period med mycket regn, så att vatten från en åker hade runnit in. Enligt utvärderingen hade ingen kunnat veta om skadan i förväg, men kommunen borde ha kontrollerat brunnen oftare.\n\nI dag kontrolleras vattnet varje vecka. Klor behövs inte längre, och vattnet smakar som vanligt igen. Sofia tycker att det viktigaste är att alla blev friska. ”Vatten är den resurs vi tar mest för given”, säger hon. ”Vi tänker på den först när den inte fungerar.”\n\nFrågor:\nVad märkte Sofia på vårdcentralen?\nOvanligt många patienter från samma del av samhället kom med ont i magen.\nVarför ringde hon till kommunens kansli?\nKommunen är huvudman för vattnet och ansvarar för att det är rent.\nVarför tillsattes klor i vattnet?\nKlor dödar de flesta bakterier.\nVad visade de preliminära svaren?\nDet fanns bakterier i vattnet från en av kommunens brunnar, och blodproven visade samma bakterier.\nVarför tyckte en del invånare att utvärderingen var dyr?\nKonsulten fick ett arvode på 200 000 kronor.\nVad kom utvärderingen fram till?\nEtt rör nära brunnen hade gått sönder, så att vatten från en åker hade runnit in."
+    },
+    {
+      "title": "Förbundskaptenen vid sjön",
+      "summary": "A profile of the national team coach in sport fishing, a former boxer, at a lake in Dalarna that has recovered its fish.",
+      "newWords": [
+        "förbundskapten",
+        "boxare",
+        "arrogant",
+        "återfå",
+        "fix",
+        "bedrift",
+        "rival",
+        "fantisera",
+        "touch"
+      ],
+      "text": "Tomas Nyberg är förbundskapten för Sveriges landslag i sportfiske. Som förbundskapten väljer han vilka som får tävla för Sverige, och han leder laget på tävlingar runt om i Europa. Vi träffar honom en tidig morgon vid en sjö i Dalarna, där laget tränar inför nästa mästerskap.\n\nDet är inte många som vet att Tomas var boxare innan han började fiska. I tio år tävlade han i boxning, och han var en av de bästa i Sverige i sin klass. ”Som ung boxare var jag ganska arrogant”, säger han. ”Jag trodde att jag var bättre än alla andra, och jag lyssnade inte på någon. En arrogant boxare lär sig ingenting, och till slut förlorade jag mot en som var mycket mer ödmjuk än jag.”\n\nEfter sin sista match var han skadad i axeln. Det tog ett år innan han återfick full rörlighet i armen. Under det året började han fiska med sin morbror. ”Jag behövde något lugnt. I boxning handlar allt om att reagera snabbt. I fiske handlar allt om att vänta.”\n\nSnart blev fisket en fix idé för honom. Han läste allt om sjöar, väder och fiskarnas vanor. ”Min fru sa att det var en fix idé, och hon hade rätt. Jag tänkte inte på något annat.”\n\nFör Tomas är sportfiske mer än en hobby. Han ser det som ett sätt att förstå hur naturen fungerar. I sjön där laget tränar hade fisken nästan försvunnit för 40 år sedan, eftersom vattnet hade blivit surt av utsläpp från industrin. Sedan dess har man arbetat länge med att göra vattnet mindre surt, och fisken har återfått sin plats i sjön. ”Att en sjö kan återfå sitt liv på några decennier är en bedrift, och den tillhör alla som har arbetat med sjön”, säger han.\n\nLandslagets största rival är Finland. Rivalerna från andra sidan Östersjön har vunnit många mästerskap, och de har ofta slagit Sverige med bara några få poäng. Tomas har stor respekt för dem. ”En bra rival gör dig bättre. Utan finnarna hade vi inte tränat så hårt.”\n\nDet största ögonblicket i hans tid som förbundskapten kom för två år sedan, när Sverige vann guld i EM. ”Det var lagets bedrift, inte min”, säger han. ”Men jag måste erkänna att jag hade fantiserat om det i många år. Som barn fantiserade jag om att vinna i boxning. Som vuxen fantiserade jag om att vinna i fiske, och det gick i uppfyllelse.”\n\nTomas har ett eget sätt att leda. Varje fiskare i laget får själv välja sitt bete, och han tycker om när de ger sitt fiske en personlig touch. ”Alla har sin egen touch. Den ena fiskar långsamt, den andra snabbt. Mitt jobb är att låta var och en göra det den är bäst på.”\n\nNär vi lämnar honom står han still vid sjön med spöet i handen och väntar. Han verkar ha all tid i världen.\n\nFrågor:\nVad gör Tomas som förbundskapten?\nHan väljer vilka som får tävla för Sverige och leder laget på tävlingar.\nHur var Tomas som ung boxare?\nHan var ganska arrogant och lyssnade inte på någon.\nHur började han fiska?\nMedan han väntade på att återfå rörligheten i armen fiskade han med sin morbror.\nVilken bedrift talar han om när det gäller sjön?\nSjön har återfått sin fisk efter att vattnet hade blivit surt av utsläpp.\nVarför har han respekt för Finland?\nFinland är en bra rival som har vunnit många mästerskap och gör Sverige bättre.\nVad menar han med en personlig touch?\nVarje fiskare har sitt eget sätt att fiska, och han låter var och en göra det den är bäst på."
+    },
+    {
+      "title": "Bröllop i gruvan",
+      "summary": "A couple get married 60 metres underground in the old copper mine in Falun, where a guide tells the history of the copper.",
+      "newWords": [
+        "viga",
+        "giftermål",
+        "skådis",
+        "kår",
+        "pajas",
+        "härskare",
+        "monter",
+        "nationalistisk",
+        "upphovsman",
+        "skivbolag"
+      ],
+      "text": "I Falun finns en av världens mest kända gruvor. I över tusen år bröts koppar i berget, och under 1600-talet kom en stor del av Europas koppar härifrån. Gruvan stängdes 1992, men i dag är den ett museum som tar emot många besökare varje år. Den kan också användas till något som få känner till: man kan gifta sig 60 meter under jorden.\n\nEn lördag i juni vigdes Sara och Johan i gruvan. De hade bestämt sig för att vigas där redan första gången de besökte Falun. ”Vi ville ha ett giftermål som ingen glömmer”, säger Sara. Prästen som vigde dem fick ta på sig hjälm, precis som gästerna. Det var kallt, bara några grader, och vatten droppade från taket. Men alla var glada, och giftermålet blev precis så som paret hade tänkt sig.\n\nInnan de vigdes gick gästerna en tur genom gruvan med en guide. Guiden är en skådis från Falun som arbetar i gruvan på sommaren. Han är klädd som en arbetare från 1600-talet, och han berättar historien som om han själv hade varit med. Gruvans guider är en liten kår av människor som älskar platsen, och de flesta i kåren har arbetat där i många år. Skådisen spelade pajas för barnen som var med. Han gjorde roliga miner och låtsades att han hade gått vilse. Barnen skrattade åt pajasen, och de vuxna lärde sig ändå mycket.\n\nGuiden berättade att kopparen var viktig för landets härskare. På 1600-talet var Sverige en stormakt, och kungarna behövde pengar till sina krig. En stor del av pengarna kom från gruvan i Falun. En härskare som hade kontroll över kopparen hade också kontroll över en stor del av landets rikedom. I en monter i museet ligger stora plåtar av koppar som användes som pengar. I montern bredvid ligger verktyg som arbetarna i gruvan använde.\n\nUnder 1800-talet fick gruvan en ny roll. Då växte det fram en nationalistisk syn på historien, och många ville visa upp Sveriges stora tid. Gruvan blev en symbol för landets styrka. Guiden förklarade att den nationalistiska bilden inte berättade hela sanningen. Arbetet i gruvan var farligt, och många arbetare dog unga.\n\nEfter vigseln sjöng en vän till Johan en sång om berget. Vännen är upphovsman till sången, och han har skrivit både texten och musiken. Ett litet skivbolag i Dalarna gav ut sången förra året. Skivbolaget är inte stort, men det har gett ut musik av många artister från trakten. Som upphovsman får vännen lite pengar varje gång sången spelas på radio. ”Det är inte mycket”, säger han, ”men det räcker till en tårta på ett bröllop.”\n\nFrågor:\nVar vigdes Sara och Johan?\nDe vigdes 60 meter under jorden i den gamla gruvan i Falun.\nVarför ville de gifta sig i gruvan?\nDe ville ha ett giftermål som ingen glömmer.\nVem var guiden?\nGuiden var en skådis från Falun som spelade pajas för barnen.\nVarför var kopparen viktig för landets härskare?\nKungarna behövde pengar till sina krig, och mycket av pengarna kom från gruvan.\nVad kan man se i museets montrar?\nI en monter ligger plåtar av koppar som användes som pengar, och i en annan ligger gamla verktyg.\nVem sjöng efter vigseln?\nEn vän till Johan, som är upphovsman till sången, sjöng en sång om berget."
+    }
+  ]
+}
