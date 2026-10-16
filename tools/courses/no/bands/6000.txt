@@ -1,0 +1,100 @@
+1	5901	tilføye	tilføye tilføyd tilføyer tilføyde tilføyes tilføyet tilføy
+2	5902	allmennhet	allmennheten allmennhet
+3	5903	sveve	svever svevende sveve svevde svevet svev svevd
+4	5904	dokk	dokk dokka dokker dokken dokkene
+5	5905	herske	herske hersket hersk herskende
+6	5906	barnehjem	barnehjem barnehjemmet barnehjemmene
+7	5907	tiende	tiende tienden tiender
+8	5908	flo	flo floer floa floen
+9	5909	innbille	innbiller innbille innbilt innbilte
+10	5910	utmerkelse	utmerkelser utmerkelse utmerkelsen utmerkelsene
+11	5911	hjelpemiddel	hjelpemidler hjelpemiddel hjelpemidlene hjelpemiddelet hjelpemidlet
+12	5912	psykotisk	psykotiske psykotisk
+13	5913	ekko	ekko ekkoet ekkoer ekkoene
+14	5914	spesialisere	spesialiserer spesialisere spesialiserte spesialiseres
+15	5915	kategorisere	kategorisert kategoriseres kategorisere kategoriserer kategoriserte
+16	5916	granat	granater granat granaten granatene
+17	5917	betydningsfull	betydningsfulle betydningsfull betydningsfullt
+18	5918	armbånd	armbånd armbåndet armbåndene
+19	5919	befolkningsvekst	befolkningsvekst befolkningsveksten
+20	5920	rensing	rensing rensingen
+21	5921	modifisere	modifisert modifisere modifiserte modifiseres modifiserer modifiserende
+22	5922	morfar	morfar morfaren
+23	5923	frossen	frossen frosne frosset frossent
+24	5924	hvelv	hvelvet hvelv hvelvene
+25	5925	moped	moped mopeder mopeden mopedene
+26	5926	avsky	avsky avskyr avskydde avskydd avskyen
+27	5927	paradoks	paradoks paradokset paradokser paradoksene
+28	5928	bibliotekar	bibliotekar bibliotekarer bibliotekaren bibliotekarene
+29	5929	husmor	husmor husmødre husmoren husmødrene husmora
+30	5930	betraktet	betraktet
+31	5931	middelaldrende	middelaldrende
+32	5932	mvh	mvh
+33	5933	skinnende	skinnende
+34	5934	urovekkende	urovekkende
+35	5935	utifra	utifra
+36	5936	åpenlyst	åpenlyst
+37	5937	årrekke	årrekke
+38	5938	eldreomsorg	eldreomsorg eldreomsorgen
+39	5939	månedlig	månedlig månedlige
+40	5940	konsernsjef	konsernsjef konsernsjefen konsernsjefer
+41	5941	pole	polet pola
+42	5942	millionær	millionær millionærer millionæren millionærene
+43	5943	husleie	husleie husleien husleia husleier husleiene
+44	5944	torpedo	torpedo torpedoer torpedoen torpedoene
+45	5945	inndeling	inndeling inndelingen inndelinger inndelingene
+46	5946	halvere	halvert halveres halvere halverer halverte
+47	5947	drittunge	drittunge drittunger drittungene drittungen
+48	5948	arbeidstilsyn	arbeidstilsynet arbeidstilsyn
+49	5949	saksbehandler	saksbehandler saksbehandlere saksbehandleren saksbehandlerne
+50	5950	lokalsamfunn	lokalsamfunnet lokalsamfunn lokalsamfunnene
+51	5951	sting	sting stingene stinget stinga
+52	5952	vulkan	vulkan vulkanen vulkaner vulkanene
+53	5953	pyramide	pyramiden pyramidene pyramide pyramider
+54	5954	hudfarge	hudfarge hudfargen hudfarger
+55	5955	pressemelding	pressemelding pressemeldingen pressemeldinger
+56	5956	skage	skagen skage
+57	5957	snuble	snuble snublet snubler snublende snubla
+58	5958	karantene	karantene karantenen karantener
+59	5959	flerkulturell	flerkulturelle flerkulturell flerkulturelt
+60	5960	dyster	dystre dyster dystert dystrere dystreste
+61	5961	tidsalder	tidsalder tidsalderen tidsaldre tidsaldere
+62	5962	legalisere	legalisere legalisert legaliserte legaliserer legaliseres legaliser
+63	5963	stup	stup stupet stupa stupene stupaen
+64	5964	hviske	hvisker hvisket hviske hviskende hviskes hvisk
+65	5965	saftig	saftig saftige saftigere
+66	5966	fotballforbund	fotballforbund fotballforbundet fotballforbundene
+67	5967	kompass	kompass kompasset kompassene
+68	5968	låtskriver	låtskriver låtskrivere låtskriveren låtskriverne
+69	5969	landsforening	landsforening landsforeningen landsforeninger
+70	5970	ernæring	ernæring ernæringen
+71	5971	antakelse	antagelse antakelser antakelse antakelsen antakelsene
+72	5972	skjerf	skjerf skjerfet skjerfene
+73	5973	optimistisk	optimistisk optimistiske
+74	5974	ungarsk	ungarske ungarsk
+75	5975	skyhøy	skyhøye skyhøy skyhøyt
+76	5976	urørt	urørt urørte
+77	5977	gravlegge	gravlagt gravlegge gravla gravlegges gravlagte gravlegger
+78	5978	allergi	allergi allergier allergien allergiene
+79	5979	feminin	feminine feminin feminint
+80	5980	eksponering	eksponering eksponeringen eksponeringer
+81	5981	bråke	bråker bråke bråkte
+82	5982	tilpasning	tilpasning tilpasninger tilpasningen tilpasningene
+83	5983	trass	trass trassen
+84	5984	karakteristisk	karakteristiske karakteristisk
+85	5985	blakk	blakk blakke blakket
+86	5986	søm	søm sømmene sømmer sømmen
+87	5987	vippe	vippe vippen vipper vippet vipp vippes vippene vippa
+88	5988	verft	verftet verft verftene
+89	5989	ribbe	ribbe ribben ribbet ribba ribber ribbene ribbena ribbenene ribb ribbing
+90	5990	kjøpmann	kjøpmann kjøpmenn kjøpmannen kjøpmennene
+91	5991	koma	koma komaen
+92	5992	spesial	spesial spesiale spesialer
+93	5993	tarm	tarmen tarm tarmene tarmer
+94	5994	rang	rang rangen
+95	5995	parasitt	parasitter parasitten parasitt parasittene
+96	5996	estetikk	estetikk estetikken
+97	5997	frita	fritatt fritar frita fritas fritok
+98	5998	antakeligvis	antakeligvis
+99	5999	favør	favør
+100	6000	forebygging	forebygging

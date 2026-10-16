@@ -1,0 +1,100 @@
+1	1701	ri	red ri rir rider riding ridende ridning ridd raider ria
+2	1702	fiske	fiske fisket fisker fiskere fiskerne fiskes fiskeren fiska
+3	1703	bibliotek	biblioteket bibliotek biblioteker bibliotekene biblioteka
+4	1704	skudd	skudd skuddet skuddene skottene skott skotten skotter skottet skuten skutene
+5	1705	storm	storm stormen stormer stormene
+6	1706	signal	signal signaler signalet signalene
+7	1707	gravid	gravid gravide
+8	1708	tja	tja tjaa
+9	1709	sakte	sakte saktere sakt
+10	1710	regulere	regulert regulere regulerer reguleres regulerte regulerende reguler
+11	1711	or	or ora oren
+12	1712	diverse	diverse
+13	1713	dypt	dypt
+14	1714	fjerde	fjerde
+15	1715	istedenfor	istedenfor
+16	1716	nåværende	nåværende
+17	1717	likhet	likhet likheter likheten likhetene
+18	1718	ordning	ordningen ordning ordninger ordningene ordninga
+19	1719	kontakte	kontakte kontaktet kontakter kontaktes kontakta
+20	1720	viking	viking vikingene vikinger vikingen
+21	1721	museum	museum museet museer museene musea
+22	1722	filme	filmet filme filmer filmes filma
+23	1723	kilometer	kilometer kilometerne kilometeren
+24	1724	imponere	imponert imponere imponerte imponerer imponeres imponer
+25	1725	reklame	reklame reklamen reklamer reklamene
+26	1726	innvandrer	innvandrere innvandrer innvandrerne innvandreren
+27	1727	verdenskrig	verdenskrig verdenskrigen verdenskrigene verdenskriger
+28	1728	eksamen	eksamen eksamener eksamenen eksamenene
+29	1729	potensiell	potensielle potensielt potensiell
+30	1730	eventyr	eventyr eventyret eventyrene
+31	1731	planet	planet planeten planeter planetene
+32	1732	operere	opererer operere operert opererte opereres operer opererende
+33	1733	puste	puste pusten pust puster pustet pustende pustes
+34	1734	kors	kors korset korsene
+35	1735	amerikaner	amerikanere amerikanerne amerikaner amerikaneren
+36	1736	liga	ligaen liga ligaer ligaene
+37	1737	ran	ran rana ranet ranene
+38	1738	smake	smake smakte smaker smakt smakes
+39	1739	ide	ide ida iden ider
+40	1740	nyttig	nyttig nyttige nyttigere nyttigste
+41	1741	kulturell	kulturelle kulturell kulturelt
+42	1742	muslim	muslimer muslim muslimene muslimen
+43	1743	gjemme	gjemme gjemmer gjemt gjemte gjemmes gjem
+44	1744	utsikt	utsikt utsikten utsikter utsiktene utsikta
+45	1745	døgn	døgnet døgn døgnene
+46	1746	angre	angrer angre angret angrende angra
+47	1747	informere	informert informere informerer informerte informer informeres informerende
+48	1748	kjøretøy	kjøretøy kjøretøyet kjøretøyer kjøretøyene
+49	1749	tilbringe	tilbringe tilbrakte tilbringer tilbrakt tilbragte tilbragt tilbring tilbringes
+50	1750	ovenfor	ovenfor
+51	1751	kinesisk	kinesiske kinesisk
+52	1752	lunsj	lunsj lunsjen lunsjer lunsjene
+53	1753	risikere	risikerer risikere risikerte risikert risiker risikeres
+54	1754	vekke	vekker vekke vekket vakte vekkes vekte vektet vektes vektede vekka
+55	1755	tann	tennene tenner tann tenna tannen tanna tenneren
+56	1756	album	album albumet albumene albumer
+57	1757	uvanlig	uvanlig uvanlige
+58	1758	hvile	hvile hviler hvil hvilte hvilt hvilende hvilen kvile
+59	1759	ask	asker ask asken
+60	1760	eve	eva ev ever eve
+61	1761	verk	verk verket verker verkene verka
+62	1762	avgifte	avgifter avgift avgiften avgiftene avgifta
+63	1763	pupp	pupper puppene puppen pupp
+64	1764	signere	signert signerte signere signerer signer signeres
+65	1765	skam	skam skammen
+66	1766	øy	øya øy øyene øyen øyer
+67	1767	synke	synker sank synke sunket synkende synk sunkne
+68	1768	tyde	tyder tyde tydet tydd tydde tydes
+69	1769	kjapp	kjapt kjapp kjappe kjappere kjappeste kjappest
+70	1770	sau	sau sauer saus sauene sausen sauen sauser sausene
+71	1771	stamme	stammer stamme stammen stammet stammene stamm stammende stammes
+72	1772	nøye	nøye nøyer nøyere nøyde nøyd nøy
+73	1773	klikk	klikk klikker klikket klikka klikken klikkene
+74	1774	allikevel	allikevel
+75	1775	fy	fy
+76	1776	overalt	overalt
+77	1777	varmt	varmt
+78	1778	forårsake	forårsaket forårsaker forårsake forårsakes forårsaka forårsakede
+79	1779	salt	salt saltet salte salter saltes salta saltene saltede saltere
+80	1780	kritisere	kritisere kritiserer kritisert kritiserte kritiseres kritiser
+81	1781	bevisst	bevisst bevisste
+82	1782	app	appen apper appene
+83	1783	spesifikk	spesifikke spesifikt spesifikk
+84	1784	tysker	tyskerne tyskere tyskeren tysker
+85	1785	sjel	sjel sjelen sjeler sjela sjelene
+86	1786	droppe	droppe droppet dropper dropp droppa droppes droppen
+87	1787	krise	krise krisen kriser krisa krisene
+88	1788	favoritt	favoritt favoritter favoritten favorittene
+89	1789	hat	hat hatet hata
+90	1790	definitiv	definitivt definitiv
+91	1791	kjip	kjipt kjipe kjip kjipeste kjipere
+92	1792	stråle	strålende stråler stråle strålen strålene strålte stråles strålt strålet
+93	1793	rad	rad rader raden radene rada
+94	1794	humor	humor humoren
+95	1795	stabil	stabil stabilt stabile
+96	1796	bro	broen bro broer broene broa
+97	1797	kreft	kreft kreften
+98	1798	konklusjon	konklusjon konklusjonen konklusjoner konklusjonene
+99	1799	kandidat	kandidater kandidat kandidatene kandidaten
+100	1800	oppgitt	oppgitt oppgitte

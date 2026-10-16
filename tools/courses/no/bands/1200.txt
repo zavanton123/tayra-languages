@@ -1,0 +1,100 @@
+1	1101	variere	varierer varierende variere variert varierte varier varieres
+2	1102	straffe	straffe straffes straffet straffen straffer straffa straffene straffede straffende
+3	1103	nydelig	nydelig nydelige nydeligste nydeligere
+4	1104	professor	professor professoren professorer professorene
+5	1105	respekt	respekt respekten
+6	1106	ro	ro ros roen ror roret rodde roa rodd roende
+7	1107	desember	desember
+8	1108	herregud	herregud
+9	1109	relevant	relevant relevante
+10	1110	bringe	bringe bringer brakte brakt bring bringes bragt bragte bringen bringa
+11	1111	fot	foten fot føttene føtter fotene
+12	1112	jævlig	jævlig jævlige jævligste jævligere
+13	1113	ordentlig	ordentlig ordentlige
+14	1114	begynnelse	begynnelsen begynnelse begynnelser
+15	1115	helg	helg helga helgene helger
+16	1116	skremme	skremmende skremme skremt skremmer skremte skremmes skrem
+17	1117	danne	danne dannet danner dannelse dannes dannelsen dann danning dannede danna
+18	1118	statsminister	statsminister statsministeren statsministre statsministere statsministrene
+19	1119	dobbel	dobbelt dobbel doble doblet dobbelte dobler dobles dobla
+20	1120	slag	slag slaget slagene
+21	1121	tett	tett tette tettere tettet tettest tetter tettes tetteste
+22	1122	fred	fred freden
+23	1123	fikse	fikse fikser fikset fiks fikses fiksa fiksert fiksere fikserte fikserer
+24	1124	såkalt	såkalte såkalt
+25	1125	praktisk	praktisk praktiske
+26	1126	dato	dato datoen datoer datoene
+27	1127	militær	militære militær militæret militært
+28	1128	karakter	karakter karakterer karakterene karakteren
+29	1129	klokken	klokken
+30	1130	lignende	lignende
+31	1131	nede	nede
+32	1132	oktober	oktober
+33	1133	savne	savner savne savn savna savnes
+34	1134	rik	rik rikeste rikere rikt rikest
+35	1135	hest	hest hester hesten hestene
+36	1136	nyte	nyte nyter nyt nytt nøt nytes naut nøyt
+37	1137	inngå	inngår inngått inngå inngikk inngående inngås inngåelse inngåelsen
+38	1138	rolig	rolig rolige roligere roligste
+39	1139	arrangere	arrangert arrangeres arrangerer arrangere arrangerte arranger
+40	1140	utvide	utvidet utvide utvider utvides utvidede utvida utvidete utvid utvidende
+41	1141	ansvarlig	ansvarlig ansvarlige
+42	1142	syn	syn synet syne syner synene synte
+43	1143	bar	bar baren bart barer bara barene barten baret barter bartene
+44	1144	tjener	tjener tjenere tjeneren tjenerne
+45	1145	unntak	unntak unntaket unntakene
+46	1146	aktivitet	aktivitet aktiviteter aktiviteten aktivitetene
+47	1147	sparke	sparket sparke sparken sparker spark sparkes sparka sparkene sparkende
+48	1148	reaksjon	reaksjon reaksjoner reaksjonen reaksjonene
+49	1149	prosess	prosessen prosess prosesser prosessene
+50	1150	nærme	nærmer nærme nærmet nærma
+51	1151	bekymre	bekymret bekymre bekymrer bekymra bekymrede
+52	1152	hundre	hundre
+53	1153	ni	ni
+54	1154	bygning	bygningen bygninger bygning bygningene bygninga
+55	1155	våkne	våkne våknet våkner våkna våkn våknende
+56	1156	tidspunkt	tidspunkt tidspunktet tidspunkter tidspunktene
+57	1157	offisiell	offisielle offisielt offisiell
+58	1158	krysse	krysset krysser krysse kryss krysses kryssende kryssene kryssa krysseren kryssere
+59	1159	søster	søster søsteren søstre søstrene søstera søstra søstrer
+60	1160	kjøtt	kjøtt kjøttet
+61	1161	drift	drift driften drifter drifta driftene
+62	1162	dagblad	dagbladet dagblad
+63	1163	ytre	ytre ytrer ytret ytres
+64	1164	idiot	idiot idioter idioten idiotene
+65	1165	tanker	tanker tankeren tankere tankerne
+66	1166	hensyn	hensyn hensynet hensynene
+67	1167	kurs	kurs kursen kurset kursene kurser
+68	1168	altfor	altfor
+69	1169	idag	idag
+70	1170	klokka	klokka
+71	1171	vegg	veggen veggene vegg vegger
+72	1172	vestlig	vestlige vestlig vestligste
+73	1173	rase	raser rase rasende rasen ras raste rasene rast raset rasa
+74	1174	jord	jord jorda jorder
+75	1175	uttale	uttale uttalt uttalte uttaler uttales uttalen uttalene uttal
+76	1176	virksomhet	virksomhet virksomheten virksomheter virksomhetene
+77	1177	stil	stil stilen stiler stilene
+78	1178	gidde	gidder gadd gidde giddet gidd
+79	1179	religion	religion religioner religionen religionene
+80	1180	gave	gave gaver gaven gavene
+81	1181	teori	teori teorien teorier teoriene
+82	1182	innse	innser innse innså innsett
+83	1183	kontor	kontor kontoret kontorer kontorene
+84	1184	årlig	årlig årlige
+85	1185	ferie	ferie ferien ferier feriene
+86	1186	kaffe	kaffe kaffen
+87	1187	akseptere	akseptere aksepterer akseptert aksepterte aksepteres aksepter aksepterende
+88	1188	gul	gule gul gult gula gulere
+89	1189	bortse	bortsett
+90	1190	status	status statusen statuser
+91	1191	falsk	falske falsk falskt
+92	1192	vilje	vilje viljen viljer
+93	1193	seksuell	seksuell seksuelle seksuelt
+94	1194	tilstand	tilstand tilstander tilstanden tilstandene
+95	1195	inntekt	inntekter inntekt inntektene inntekten
+96	1196	nytte	nytte nytt nytter nytten nyttes nyttet nytta
+97	1197	planlegge	planlegger planlegge planla planlegges planlegg planleggere planleggerne planleggeren
+98	1198	frivillig	frivillig frivillige
+99	1199	stykke	stykke stykker stykket stykkene stykkes
+100	1200	religiøs	religiøse religiøs religiøst

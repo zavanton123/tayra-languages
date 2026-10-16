@@ -1,0 +1,100 @@
+1	2801	klatre	klatre klatret klatrer klatrere klatrerne klatreren klatrende klatres klatra
+2	2802	peiling	peiling peilinger peilingen
+3	2803	dytte	dytte dyttet dytter dytt dytta dyttes dytten
+4	2804	betingelse	betingelser betingelsene betingelse betingelsen
+5	2805	seksjon	seksjon seksjonen seksjoner seksjonene
+6	2806	formue	formue formuen formuer formuene
+7	2807	skinne	skinner skinne skinte skinnene skinnen skinnes skint skinna
+8	2808	dels	dels
+9	2809	hæ	hæ
+10	2810	isteden	isteden
+11	2811	pål	pål
+12	2812	tilnærming	tilnærming tilnærmingen tilnærminger tilnærmingene
+13	2813	verdig	verdig verdige verdiget verdigere
+14	2814	lastebil	lastebil lastebiler lastebilen lastebilene
+15	2815	tilhøre	tilhørte tilhøre tilhørt
+16	2816	framstå	fremstå framstår framstå framsto framstående framstod framstått
+17	2817	fornybar	fornybar fornybare fornybart
+18	2818	ferdighet	ferdigheter ferdighetene ferdighet ferdigheten
+19	2819	justisminister	justisminister justisministeren justisministre
+20	2820	regelmessig	regelmessig regelmessige
+21	2821	hytta	hytta hytt
+22	2822	gange	gange gikk ganger gangen ganget ganga gakk gangere gangeren
+23	2823	kvele	kvele kvalt kveles kveler kvalte kvelende kvelt kvelte kvel
+24	2824	betjene	betjent betjene betjenter betjener betjenes betjente betjenten betjentene betjen
+25	2825	stang	stang stenger stanga stangen stengene
+26	2826	psykologisk	psykologisk psykologiske
+27	2827	sperre	sperret sperre sperrer sperres sperren sperrene sperr sperra sperrede
+28	2828	påføre	påført påføre påfører påførte påføres påfør
+29	2829	bøye	bøye bøyer bøyd bøyde bøyes bøyen bøyet bøyene bøy bøya
+30	2830	innsette	innsatt innsatte innsette innsettes innsetter innsettende
+31	2831	ubrukelig	ubrukelig ubrukelige
+32	2832	bestemor	bestemor bestemoren bestemora bestemødre bestemødrene
+33	2833	myte	myte myter myten mytene
+34	2834	omsetning	omsetning omsetningen omsetninger
+35	2835	statsbudsjett	statsbudsjettet statsbudsjett statsbudsjettene
+36	2836	moderat	moderat moderate
+37	2837	tilnærme	tilnærmet tilnærme tilnærma tilnærmer tilnærmede
+38	2838	mus	mus musa musen musene
+39	2839	lyn	lyn lynet lynene
+40	2840	pynte	pynte pynt pyntet pynter pynten pyntes pynta pyntede
+41	2841	tilstede	tilstede
+42	2842	intelligens	intelligens intelligensen intelligenser
+43	2843	slitsom	slitsomt slitsom slitsomme
+44	2844	teoretisk	teoretisk teoretiske
+45	2845	fredelig	fredelig fredelige fredeligere fredeligste
+46	2846	urettferdig	urettferdig urettferdige
+47	2847	robot	roboter robot robotene roboten
+48	2848	åpenhet	åpenhet åpenheten
+49	2849	annonsere	annonsert annonserte annonsere annonser annonserer annonseres
+50	2850	hore	hore horer hora horene horen hores horte
+51	2851	innstille	innstilt innstiller innstilte innstille innstilles innstill
+52	2852	metall	metall metaller metallet metallene
+53	2853	mynt	mynt mynter myntene mynten
+54	2854	brus	brus brusen bruset
+55	2855	smelte	smeltet smelter smelte smelt smeltende smeltes smeltede smelta smelten
+56	2856	notere	notert noterte notere noterer noter noteres
+57	2857	human	human humant humane
+58	2858	sprekke	sprekker sprakk sprekke sprekk sprekken sprekkene sprukket sprukne
+59	2859	torg	torget torg torvet torv torva torven torgene
+60	2860	pølse	pølse pølser pølsene pølsa pølsen
+61	2861	minus	minus minuset
+62	2862	make	make maken maker
+63	2863	forsterke	forsterket forsterke forsterkes forsterkede forsterkende forsterka forsterk
+64	2864	hjemland	hjemlandet hjemland hjemlandene
+65	2865	oppgradere	oppgradere oppgradert oppgraderes oppgraderte oppgraderer oppgrader
+66	2866	gunstig	gunstig gunstige gunstigere gunstigste gunstigst
+67	2867	svikte	sviktet svikter sviktende svikte svikta
+68	2868	høyreside	høyresiden høyresida høyreside
+69	2869	forene	forente forene forent forener forenes forenet forenede foren forenende
+70	2870	intens	intens intenst intense
+71	2871	nakke	nakken nakke nakker nakkene
+72	2872	sag	sagene saga sagen sag sagaen sager sagaene sagaer
+73	2873	underlagt	underlagt underlagte
+74	2874	føde	føde fødes føder føden fødte fødende fød fødtes føda
+75	2875	nominere	nominert nominerte nominere nominerer nomineres
+76	2876	misbruke	misbruke misbruker misbrukt misbrukere misbrukes misbrukte misbrukerne misbrukeren misbrukende
+77	2877	eh	eh
+78	2878	henholdsvis	henholdsvis
+79	2879	årevis	årevis
+80	2880	påvise	påvist påvise påviste påvises påviser
+81	2881	bronse	bronse bronsen bronser
+82	2882	provosere	provosert provosere provoserer provoserte provoseres
+83	2883	tind	tinder tind tindene tinden
+84	2884	blomst	blomstene blomst blomsten
+85	2885	latter	latter latteren
+86	2886	kjennskap	kjennskap kjennskapen kjennskapet
+87	2887	anvende	anvendt anvendes anvende anvender anvendte anvend
+88	2888	høgskole	høgskolen høgskole høgskoler høgskolene
+89	2889	mottaker	mottaker mottakere mottakeren mottakerne
+90	2890	grunnskole	grunnskolen grunnskole grunnskoler grunnskolene
+91	2891	tårn	tårnet tårn tårnene tårna
+92	2892	lund	lund lunder lunden lundene
+93	2893	sluttspill	sluttspillet sluttspill sluttspillene
+94	2894	lam	lam lammet lamme lammelse lammelser lammende lammene lammer lammes lamming
+95	2895	svi	svi svir svidd sviende svidde svei sved svis
+96	2896	sammensatt	sammensatt sammensatte
+97	2897	tåre	tårer tårene tåre tåren
+98	2898	finsk	finske finsk
+99	2899	bokstavelig	bokstavelig bokstavelige
+100	2900	konkurrent	konkurrenter konkurrent konkurrentene konkurrenten

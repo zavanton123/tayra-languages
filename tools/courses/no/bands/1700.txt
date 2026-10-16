@@ -1,0 +1,100 @@
+1	1601	baby	baby babyen babyer babyene
+2	1602	blod	blod blodet
+3	1603	truet	truet truede truete
+4	1604	original	originale original originalen originalt originalene originaler
+5	1605	satse	satse satset satses satsa satsende
+6	1606	begå	begått begå begår begikk begås begåtte
+7	1607	kommentere	kommentere kommenterer kommenterte kommentert kommenter kommenteres kommenterende
+8	1608	ekstremt	ekstremt
+9	1609	latterlig	latterlig latterlige latterligste
+10	1610	aktør	aktører aktør aktørene aktøren
+11	1611	tørr	tørr tørre tørt tørrere tørreste tørres tørrest tørrede
+12	1612	gass	gass gassen gasser gassene
+13	1613	røre	rørt røre rører rørende rørte røret rørene røres røren røra
+14	1614	adresse	adresse adressen adresser adressa adressene
+15	1615	kombinere	kombinert kombinere kombinerer kombineres kombinerte kombiner
+16	1616	tilfeldig	tilfeldig tilfeldige
+17	1617	plage	plager plaget plage plages plagene plagen plaga plagede plagde plag
+18	1618	tirsdag	tirsdag tirsdager tirsdagen tirsdagene
+19	1619	spiss	spissen spiss spisse spisser spissene spisset spisst spissere spissede spisses
+20	1620	anklage	anklaget anklager anklagene anklage anklagen anklages anklagede anklageren anklagende anklagd
+21	1621	overgang	overgang overgangen overganger overgangene
+22	1622	bransje	bransjen bransje bransjer bransjene
+23	1623	lovlig	lovlig lovlige
+24	1624	mage	magen mage mager magre magert magene mave magrere magra
+25	1625	onsdag	onsdag onsdagen onsdager onsdagene
+26	1626	utdanne	utdannet utdanne utdanner utdannede utdannes utdanna utdannete utdannende
+27	1627	avgjørende	avgjørende
+28	1628	folkens	folkens
+29	1629	info	info infoen
+30	1630	utfordre	utfordre utfordrer utfordrende utfordret utfordreren utfordres utfordrere utfordrerne utfordra
+31	1631	foreta	foretatt foreta foretar foretok foretas foretakende foretatte
+32	1632	produsent	produsent produsenter produsenten produsentene
+33	1633	unik	unik unike unikt
+34	1634	åpning	åpning åpningen åpninger åpningene åpninga
+35	1635	direktør	direktør direktøren direktører direktørene
+36	1636	fett	fett fettet fettete
+37	1637	initiativ	initiativ initiativet initiativer initiativene
+38	1638	juridisk	juridisk juridiske
+39	1639	avvise	avvist avviser avvise avviste avvises avvisende avvis aviser avist avise
+40	1640	knut	knut knuter knuten knutene
+41	1641	fryktelig	fryktelig fryktelige frykteligste
+42	1642	lengde	lengde lengden lengder lengdene lengda
+43	1643	vitenskapelig	vitenskapelig vitenskapelige
+44	1644	skrike	skriker skrike skrik skrek skrikende skreket skriket skrikene skreik
+45	1645	laste	laste lastet laster lastes lasta lastede
+46	1646	blande	blande blander bland blandes blanda
+47	1647	element	elementer element elementene elementet
+48	1648	papir	papir papiret papirer papirene
+49	1649	godta	godtar godta godtatt godtok godtas godtatte
+50	1650	opplysning	opplysninger opplysningene opplysning opplysningen
+51	1651	unødvendig	unødvendig unødvendige
+52	1652	lansere	lansert lanserte lanserer lanseres lansere lanser
+53	1653	opprettholde	opprettholde opprettholdt opprettholder opprettholdes oppretthold
+54	1654	kombinasjon	kombinasjon kombinasjonen kombinasjoner kombinasjonene
+55	1655	date	date dater daten datet datene deit
+56	1656	utgift	utgifter utgiftene utgift utgiften
+57	1657	glipp	glipp
+58	1658	odd	odd
+59	1659	prest	prest presten prester prestene
+60	1660	lidelse	lidelser lidelse lidelsen lidelsene
+61	1661	bærer	bærer bærere bæreren bærerne
+62	1662	identifisere	identifisere identifisert identifiserer identifiserte identifiseres identifiserende identifiser
+63	1663	individuell	individuelle individuelt individuell
+64	1664	etablere	etablere etablerte etablerer etableres etabler etablerere
+65	1665	tabell	tabellen tabell tabeller tabellene
+66	1666	rykke	rykket rykke rykker rykk rykka rykkes rykkete
+67	1667	funn	funn funnet funnene funna
+68	1668	sone	sone sonen soner sonet sona sonene sont sones sonte
+69	1669	sikt	sikt sikter sikten sikta siktene
+70	1670	plate	plate plater plata platen platene
+71	1671	uttalelse	uttalelse uttalelser uttalelsen uttalelsene
+72	1672	definisjon	definisjon definisjonen definisjoner definisjonene
+73	1673	tillatelse	tillatelse tillatelsen tillatelser tillatelsene
+74	1674	danse	danse danset danser dansere dansende danserne dansa danseren danses
+75	1675	fiende	fiender fienden fiende fiendene
+76	1676	artig	artig artige artigere artigste
+77	1677	mo	mo moe moen moa mott moene moer moet
+78	1678	søknad	søknad søknaden søknader søknadene
+79	1679	suge	suger suge sugd sug sugde suget suges sugende suga
+80	1680	forbedre	forbedre forbedret forbedrer forbedres forbedrede forbedrende forbedrete forbedra
+81	1681	kriminell	kriminelle kriminell kriminelt
+82	1682	mannlig	mannlige mannlig
+83	1683	menneskelig	menneskelig menneskelige
+84	1684	straks	straks strakser
+85	1685	gjennomgå	gjennomgå gjennomgående gjennomgått gjennomgår gjennomgikk gjennomgås gjennomgåtte
+86	1686	inni	inni
+87	1687	motivasjon	motivasjon motivasjonen motivasjoner motivasjonene
+88	1688	prioritere	prioritere prioriterer prioritert prioriteres prioriterte prioriter
+89	1689	hende	hende hender hendte hendt hendes hendende
+90	1690	munn	munnen munn munner munnene
+91	1691	orke	orker orket orke orka
+92	1692	utgi	utgitt utgir utgi utga utgis utgav utgitte
+93	1693	tolke	tolke tolket tolker tolkes tolk tolken tolka tolkende tolkene tolkere
+94	1694	behøve	behøver behøves behøve behøvde behøvd
+95	1695	skjære	skjære skjær skåret skjærer skar skjæres skjært skjæret skjæra skjærende
+96	1696	flagg	flagg flagget flaggene
+97	1697	premie	premier premie premien premiene
+98	1698	evig	evig evige
+99	1699	samarbeide	samarbeide samarbeidet samarbeider samarbeidende samarbeides samarbeida
+100	1700	finansiere	finansiere finansiert finansieres finansierer finansierte finansier

@@ -1,0 +1,100 @@
+1	7501	blondine	blondine blondiner blondinen blondinene
+2	7502	barnetrygd	barnetrygd barnetrygden
+3	7503	snor	snor snoren snora snorer snorene
+4	7504	hissig	hissig hissige hissigere
+5	7505	tilslutte	tilsluttet tilslutte tilsluttede tilslutter tilsluttes
+6	7506	gaffel	gaffel gaffelen gafler gaflene
+7	7507	villmark	villmarken villmark villmarka
+8	7508	krydre	krydret krydre krydrer krydrede krydres krydrete
+9	7509	bestride	bestrider bestride bestridt bestrides bestred
+10	7510	svinekjøtt	svinekjøtt svinekjøttet
+11	7511	klimautslipp	klimautslipp klimautslippene
+12	7512	varaordfører	varaordfører varaordføreren varaordførere
+13	7513	grunneier	grunneier grunneiere grunneierne grunneieren
+14	7514	ekspansjon	ekspansjon ekspansjonen ekspansjoner
+15	7515	nemnd	nemnda nemnd nemnder nemnden nemndene nemd
+16	7516	talentfull	talentfulle talentfull talentfullt
+17	7517	konsum	konsum konsumet
+18	7518	dødsårsak	dødsårsaken dødsårsak dødsårsaker dødsårsakene
+19	7519	tilbyder	tilbydere tilbyder tilbyderne tilbyderen
+20	7520	storhet	storhet storheter storheten
+21	7521	misunnelse	misunnelse misunnelsen
+22	7522	flyreise	flyreiser flyreise flyreisen flyreisene
+23	7523	skolebarn	skolebarn skolebarna
+24	7524	slør	slør sløret slørete
+25	7525	giftermål	giftemål giftermål giftermålet
+26	7526	terrier	terrier terriere terrieren
+27	7527	omvisning	omvisning omvisninger omvisningen omvisningene
+28	7528	omslag	omslaget omslag omslagene
+29	7529	vestkyst	vestkysten vestkyst
+30	7530	materie	materie materien
+31	7531	bris	bris brisen brisne
+32	7532	kulturhistorie	kulturhistorie kulturhistorien
+33	7533	oljepenger	oljepenger oljepengene
+34	7534	trøkk	trøkk trøkket
+35	7535	tvist	tvist tvister tvisten tvistene
+36	7536	egge	egge eggende egges
+37	7537	punktere	punktert punkterte punktere punkterer punkter punkteres
+38	7538	alfabet	alfabetet alfabet alfabeter alfabetene
+39	7539	analytisk	analytisk analytiske
+40	7540	forkle	forkledd forkle forkledde forkler forkleet forklær
+41	7541	hol	hol hola holen holet
+42	7542	assosiere	assosieres assosiere assosierer assosierte
+43	7543	egoisme	egoisme egoismen
+44	7544	vannkraftverk	vannkraftverk vannkraftverkene vannkraftverket
+45	7545	dyd	dyd dyder dyden dydene
+46	7546	rutte	rutte rutt
+47	7547	samfunnshus	samfunnshus samfunnshuset
+48	7548	sirkulasjon	sirkulasjon sirkulasjonen
+49	7549	understøtte	understøtte understøtter understøttes understøttet
+50	7550	leggetid	leggetid leggetiden
+51	7551	beger	begeret beger begre begrene
+52	7552	reim	rem reim remmer reimer reimen reima remmen remen reimene remmene
+53	7553	dekar	dekar
+54	7554	fengende	fengende
+55	7555	frå	frå
+56	7556	nedsettende	nedsettende
+57	7557	tilreisende	tilreisende
+58	7558	vista	vista
+59	7559	israeler	israelere israelerne israeler israeleren
+60	7560	identifisering	identifisering identifiseringen
+61	7561	latterliggjøre	latterliggjort latterliggjøre latterliggjør latterliggjorde latterliggjøres
+62	7562	bakgård	bakgården bakgård bakgårder bakgårdene
+63	7563	herredømme	herredømme herredømmet herredømmer
+64	7564	havarere	havarerte havarert havarerer havarere
+65	7565	fylkesordfører	fylkesordfører fylkesordføreren fylkesordførere
+66	7566	tupp	tuppen tupper tupp tuppene tuppa
+67	7567	rastløs	rastløs rastløse rastløst
+68	7568	subjekt	subjekt subjektet subjekter subjektene
+69	7569	kommunesammenslåing	kommunesammenslåing kommunesammenslåingen kommunesammenslåinger kommunesammenslåingene
+70	7570	iherdig	iherdig iherdige
+71	7571	statsleder	statsleder statsledere statslederne statslederen
+72	7572	begavet	begavet begavede begavete
+73	7573	videospill	videospill videospillet videospillene
+74	7574	behage	behag behage behager behaget
+75	7575	sonde	sonden sonde sonder sondene
+76	7576	pedagog	pedagoger pedagog pedagogen pedagogene
+77	7577	ringvirkning	ringvirkninger ringvirkningene ringvirkning
+78	7578	resette	resett resette resetter
+79	7579	skur	skur skuret skurene skurer
+80	7580	østmark	østmarka østmark
+81	7581	oppreisning	oppreisning oppreisningen
+82	7582	flyge	flygende flydde flyge flyg fløyet
+83	7583	uvenn	uvenner uvenn uvennene
+84	7584	nordside	nordsiden nordsida nordside
+85	7585	takhøyde	takhøyde takhøyden
+86	7586	kvise	kviser kvise kvisene
+87	7587	automatisering	automatisering automatiseringen
+88	7588	borgerskap	borgerskapet borgerskap
+89	7589	retting	retting rettinger
+90	7590	felleskjøp	felleskjøpet felleskjøp
+91	7591	flagge	flagge flagger flagges
+92	7592	rådgivning	rådgivning rådgivningen
+93	7593	luftrom	luftrom luftrommet
+94	7594	tverrfaglig	tverrfaglig tverrfaglige
+95	7595	diaré	diaré diare diareen
+96	7596	statsmann	statsmann statsmenn statsmannen
+97	7597	kontrovers	kontroverser kontrovers kontroversen kontroversene
+98	7598	hedensk	hedenske hedensk
+99	7599	minnesmerke	minnesmerke minnesmerket minnesmerker minnesmerkene
+100	7600	selvangivelse	selvangivelsen selvangivelse selvangivelser selvangivelsene

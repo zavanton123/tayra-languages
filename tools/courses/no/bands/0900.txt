@@ -1,0 +1,100 @@
+1	801	produksjon	produksjon produksjonen produksjoner produksjonene
+2	802	spare	spare sparer spar spart sparte spares
+3	803	tap	tap tapet tapene tapetet tapeter tapeten tapetene tapa
+4	804	hoppe	hoppe hopp hopper hoppet hoppa hoppende hoppene hoppere hopperne hopperen
+5	805	fremtid	fremtiden fremtid fremtida fremtider
+6	806	avhengig	avhengig avhengige
+7	807	åtte	åtte
+8	808	fjell	fjell fjellet fjellene fjells fjella
+9	809	melding	melding meldinger meldingen meldingene meldinga
+10	810	rettighet	rettigheter rettighetene rettighet rettigheten
+11	811	tjene	tjene tjente tjent tjen tjenes tjenende
+12	812	pakke	pakke pakker pakken pakket pakkene pakka pakk pakkes pakkede
+13	813	lønn	lønn lønner lønna lønnen lønnene
+14	814	avslutte	avsluttet avslutte avslutter avsluttes avsluttende avslutt avslutta avsluttede
+15	815	sammenheng	sammenheng sammenhenger sammenhengen sammenhengene
+16	816	marked	markedet marked markeder markedene
+17	817	prate	prate prat prater pratet praten prata prates pratende
+18	818	klage	klager klage klaget klagen klag klagde klagene klages klagende klagd
+19	819	dukke	dukker dukket dukke dukken dukkene dukka dokke dokka dokker dokken
+20	820	felt	felt feltet feltene felter felten felta
+21	821	snu	snu snur snus snudde snudd snusen
+22	822	mangle	manglende mangler manglet mangle mangla manglede
+23	823	kutte	kutte kutt kuttet kutter kuttes kuttene kutta kutteren kuttere kutterne
+24	824	pappa	pappa pappaen pappaer pappaene
+25	825	skatt	skatt skatten skatter skattene
+26	826	begrep	begrepet begrep begreper begrepene
+27	827	samtale	samtale samtalen samtaler samtalene samtalte samtal
+28	828	oppdatere	oppdatert oppdatere oppdaterte oppdateres oppdaterer oppdater
+29	829	forsker	forskere forsker forskerne forskeren
+30	830	orden	orden ordenen ordener ordenene
+31	831	stund	stund stunder stunden stundene stunda
+32	832	praksis	praksis praksisen praksiser praksisene
+33	833	forsvar	forsvaret forsvar forsvarene
+34	834	fest	fest festen fester festene festere
+35	835	sol	solen sol sola soler solene
+36	836	trening	trening treningen treninger treninga treningene
+37	837	generelt	generelt
+38	838	selve	selve
+39	839	nettside	nettsider nettside nettsiden nettsidene nettsida
+40	840	lede	ledet lede led ledes leda ledede leden ledene ledete
+41	841	innhold	innhold innholdet
+42	842	nærhet	nærheten nærhet
+43	843	universitet	universitetet universitet universiteter universitetene
+44	844	strøm	strøm strømmen strømmer strømmene
+45	845	tore	tør tore tørre tora turt turte toraen torde tort tørres
+46	846	ansette	ansatt ansette ansett ansetter ansettes
+47	847	gjeng	gjeng gjengen gjenger gjengene
+48	848	vest	vest vesten vester vestene
+49	849	vekt	vekt vekten vekter vekta vektere vektene vekterne vekteren
+50	850	skjule	skjule skjult skjulte skjuler skjul skjules skjulet
+51	851	spre	spre sprer spredt spredd spres spredte spredde
+52	852	motstand	motstand motstander motstandere motstanden motstanderen motstanderne motstandene
+53	853	betydelig	betydelig betydelige betydeligste
+54	854	drøm	drøm drømmer drømmen drømmene drømmere drømmeren drømmerne
+55	855	smart	smart smarte smartere smarteste smartest
+56	856	annerledes	annerledes
+57	857	august	august
+58	858	jævla	jævla
+59	859	handling	handling handlinger handlingen handlingene handlinga
+60	860	ukjent	ukjent ukjente
+61	861	tiltak	tiltak tiltakene tiltaket tiltaka
+62	862	mobil	mobilen mobil mobile mobiler mobilt mobilene
+63	863	data	data dataene dataen dataer
+64	864	merkelig	merkelig merkelige merkeligste merkeligere
+65	865	evne	evne evner evnen evnene evnet evna
+66	866	sykdom	sykdom sykdommer sykdommen sykdommene
+67	867	ring	ring ringer ringen ringene ringere ringeste ringeren
+68	868	åpenbare	åpenbart åpenbare åpenbar åpenbarte åpenbarer åpenbares
+69	869	svak	svak svake svakt svakere svakeste svakest
+70	870	ski	ski skien skiene skia skier
+71	871	spesiell	spesiell spesielle
+72	872	omtale	omtale omtalt omtaler omtales omtalte omtalen omtalene
+73	873	sju	sju syv
+74	874	tysk	tyske tysk tysken
+75	875	tydelig	tydelig tydelige tydeligere tydeligst tydeligste
+76	876	utgangspunkt	utgangspunktet utgangspunkt utgangspunkter utgangspunktene
+77	877	derimot	derimot
+78	878	felles	felles
+79	879	mengde	mengder mengde mengden mengdene
+80	880	teknologi	teknologi teknologien teknologier teknologiene
+81	881	overleve	overleve overlevde overlevd overlevende overlever overleveren
+82	882	diskusjon	diskusjon diskusjonen diskusjoner diskusjonene
+83	883	beskjed	beskjed beskjeden beskjedne beskjeder beskjedent beskjedene
+84	884	olje	olje oljen olja oljer oljet oljene oljete oljes
+85	885	stenge	stengt stenge stenger stengte stenges steng
+86	886	representere	representerer representert representere representerte representeres representer representerende
+87	887	jul	jul julen jula juler
+88	888	presse	presse pressen presset presser presses pressede pressa pressende pressene
+89	889	beklage	beklager beklage beklaget beklages beklagde beklagende
+90	890	drite	driter drit drite driten dreit dritet dritte dret
+91	891	stand	stand standen stander stendene
+92	892	fremst	fremst fremste
+93	893	offer	offer ofre offeret ofrene ofret ofrer ofres ofra
+94	894	fjor	fjor
+95	895	januar	januar
+96	896	tilsvarende	tilsvarende
+97	897	snill	snill snille snilt snillere snilleste
+98	898	kritikk	kritikk kritikken kritikker kritikkene
+99	899	blå	blå blått blåe blåere blåeste
+100	900	tvil	tvil tvilen

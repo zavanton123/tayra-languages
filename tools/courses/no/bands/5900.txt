@@ -1,0 +1,100 @@
+1	5801	arveavgift	arveavgift arveavgiften
+2	5802	pater	pater pateren
+3	5803	kryptere	kryptert krypterte kryptere krypterer krypter krypteres
+4	5804	jernbanestasjon	jernbanestasjon jernbanestasjonen jernbanestasjoner jernbanestasjonene
+5	5805	måke	måke måker måkene måken måket måka måkte måk
+6	5806	verneplikt	verneplikt verneplikten
+7	5807	velferdsstat	velferdsstaten velferdsstat velferdsstater velferdsstatene
+8	5808	åpenbaring	åpenbaring åpenbaringen åpenbaringer åpenbaringene
+9	5809	thai	thai thaier thaiene
+10	5810	container	containere container containeren containerne
+11	5811	enebolig	enebolig eneboliger eneboligen eneboligene
+12	5812	ombygging	ombygging ombyggingen ombygginger ombygginga
+13	5813	motgang	motgang motgangen motganger
+14	5814	istid	istid istiden istidene istider istida
+15	5815	verifisere	verifisere verifisert verifiseres verifiserte verifiserer verifiser
+16	5816	nordvest	nordvest nordvesten
+17	5817	frase	fraser frasen frase frasa frasene
+18	5818	entre	entre entrer entret entré entra entreen
+19	5819	ettertraktet	ettertraktet ettertraktede ettertraktete
+20	5820	lama	lama lamaer lamaen lamaene
+21	5821	orkester	orkester orkesteret orkestre orkestret orkestrene
+22	5822	underordnet	underordnet underordnede underordnete
+23	5823	forræderi	forræderi forræderiet
+24	5824	arbeidsforhold	arbeidsforhold arbeidsforholdene arbeidsforholdet
+25	5825	tyngde	tyngde tyngden
+26	5826	signalisere	signaliserer signalisere signaliserte signalisert
+27	5827	utvendig	utvendig utvendige
+28	5828	beslektet	beslektet beslektede beslektete
+29	5829	pedofil	pedofil pedofile pedofilt
+30	5830	landevei	landevei landeveien landeveier landeveiene
+31	5831	forenkling	forenkling forenklinger forenklingene forenklingen
+32	5832	terapeut	terapeut terapeuten terapeuter terapeutene
+33	5833	jagerfly	jagerfly jagerflyene jagerflyet
+34	5834	sertifikat	sertifikat sertifikatet sertifikater sertifikatene
+35	5835	mangelfull	mangelfull mangelfulle mangelfullt
+36	5836	julebord	julebord julebordet
+37	5837	gevær	gevær geværet geværer geværene
+38	5838	uhyre	uhyre uhyret uhyrer uhyrene
+39	5839	miks	miks mikser miksen mikset mikseren miksere
+40	5840	automatisere	automatisert automatisere automatiserte automatiseres automatiserer automatiser
+41	5841	rulleblad	rulleblad rullebladet
+42	5842	vidunderlig	vidunderlig vidunderlige vidunderligste
+43	5843	vanne	vanne vanning vatne vannet vannes vanner vanningen vanna
+44	5844	hacke	hacket hacke hackes hackede hacka
+45	5845	bly	bly blyet
+46	5846	skute	skuta skute skuten skutene skuter
+47	5847	fotballklubb	fotballklubber fotballklubb fotballklubben fotballklubbene
+48	5848	arvelig	arvelig arvelige
+49	5849	hovedvei	hovedveien hovedvei hovedveiene hovedveier
+50	5850	kommandant	kommandant kommandanten kommandantene kommandanter
+51	5851	medlemsland	medlemslandene medlemsland medlemslandet
+52	5852	meningsmåling	meningsmålinger meningsmålingene meningsmåling meningsmålingen
+53	5853	shoppe	shoppe shoppet shoppa
+54	5854	avbilde	avbildet avbilde avbildede avbildes avbilder avbildete
+55	5855	flestepart	flesteparten
+56	5856	heltid	heltid
+57	5857	intelligent	intelligente
+58	5858	kvadratmeter	kvadratmeter
+59	5859	ly	ly
+60	5860	nyttårsaften	nyttårsaften
+61	5861	prosentpoeng	prosentpoeng
+62	5862	skjerp	skjerp
+63	5863	storfe	storfe
+64	5864	etterspurt	etterspurt etterspurte
+65	5865	videreutvikling	videreutvikling videreutviklingen
+66	5866	avlive	avlive avlivet avlives avliver
+67	5867	kusine	kusine kusinen kusiner kusina kusinene
+68	5868	avsløring	avsløringene avsløringer avsløring avsløringen
+69	5869	cupfinale	cupfinalen cupfinale cupfinaler cupfinalene
+70	5870	byutvikling	byutvikling byutviklingen
+71	5871	delegasjon	delegasjon delegasjonen delegasjoner delegasjonene
+72	5872	nordpol	nordpolen nordpol
+73	5873	spørsmålstegn	spørsmålstegn spørsmålstegnet
+74	5874	nazisme	nazisme nazismen
+75	5875	fastland	fastlandet fastland
+76	5876	solbrille	solbriller solbrillene
+77	5877	seriemester	seriemester seriemestere seriemesteren seriemestre seriemestrene
+78	5878	guri	guri gyrid gyri
+79	5879	bakeri	bakeri bakeriet bakerier bakeriene
+80	5880	julegave	julegave julegaver julegavene julegaven
+81	5881	menig	menig menige
+82	5882	titan	titan titanene titanen titaner
+83	5883	norrøn	norrøne norrøn
+84	5884	terning	terninger terning terningen terningene
+85	5885	uendret	uendret uendrede
+86	5886	pokal	pokal pokalen pokaler pokalene
+87	5887	lun	lun lune lunt luner
+88	5888	flis	flisa fliser flis flisene flisen
+89	5889	sammenlikning	sammenlikning sammenlikningen sammenlikninger
+90	5890	samsvare	samsvarer samsvarte samsvare samsvarende
+91	5891	gjeninnføre	gjeninnføre gjeninnført gjeninnfører gjeninnførte gjeninnføres gjeninnfør
+92	5892	forsvarsminister	forsvarsminister forsvarsministeren forsvarsministre
+93	5893	skulptur	skulptur skulpturer skulpturen skulpturene
+94	5894	bærekraft	bærekraft bærekraften
+95	5895	skrue	skrue skruer skruen skruene skrues
+96	5896	sanksjonere	sanksjoner sanksjonert sanksjonere sanksjoneres sanksjonerte sanksjonerer
+97	5897	verdensrom	verdensrommet verdensrom
+98	5898	supplement	supplement supplementer
+99	5899	innvending	innvendinger innvending innvendingene innvendingen
+100	5900	igangsette	igangsatt igangsatte igangsette igangsettes igangsetter

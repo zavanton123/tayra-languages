@@ -1,0 +1,100 @@
+1	3901	luksus	luksus luksusen
+2	3902	skøyte	skøyter skøyte skøytene skøyta skøytet skøyten
+3	3903	doktor	doktor doktoren doktorer doktorene
+4	3904	dødsstraff	dødsstraff dødsstraffen dødsstraffer
+5	3905	sensur	sensur sensuren
+6	3906	urolig	urolig urolige
+7	3907	nerve	nerver nervene nerve nerven
+8	3908	gren	grener gren grein grenene grenen grena grenet
+9	3909	edru	edru edrue
+10	3910	piano	piano pianoet pianoer pianoene
+11	3911	påmelding	påmelding påmeldingen påmeldinger
+12	3912	disiplin	disiplin disipliner disiplinen disiplinene
+13	3913	pedagogisk	pedagogisk pedagogiske
+14	3914	revisjon	revisjon revisjonen revisjoner revisjonene
+15	3915	lovgivning	lovgivning lovgivningen lovgivninger
+16	3916	apotek	apotek apoteket apoteker apotekene apotekeren apotekere
+17	3917	fagfolk	fagfolk fagfolkene
+18	3918	formulere	formulert formulere formulerte formulerer formuleres
+19	3919	objektiv	objektiv objektive objektivt objektivet objektiver objektivene
+20	3920	kiste	kiste kisten kista kister kistene
+21	3921	nevneverdig	nevneverdig nevneverdige
+22	3922	frue	frue fruen fruer frua fruene
+23	3923	slikke	slikke slikker slikket slikk slikka
+24	3924	tidsrom	tidsrommet tidsrom tidsrommene
+25	3925	hockey	hockey hockeyen
+26	3926	kid	kid
+27	3927	resterende	resterende
+28	3928	sammenhengende	sammenhengende
+29	3929	vestover	vestover
+30	3930	vestre	vestre
+31	3931	innvirkning	innvirkning innvirkningen innvirkninger
+32	3932	formann	formann formannen formenn formennene
+33	3933	pressekonferanse	pressekonferanse pressekonferansen pressekonferanser pressekonferansene
+34	3934	manipulere	manipulere manipulert manipulerer manipulerende manipulerte manipuleres
+35	3935	ideal	idealer ideal idealet idealene ideale
+36	3936	gledelig	gledelig gledelige
+37	3937	stall	stallen stall staller stallene
+38	3938	skive	skiver skive skivene skiva skiven skivet
+39	3939	jazz	jazz jazzen
+40	3940	skapning	skapning skapninger skapningen skapningene
+41	3941	hensiktsmessig	hensiktsmessig hensiktsmessige
+42	3942	ydmyk	ydmyk ydmyke ydmykende ydmyket ydmykt ydmyker ydmykes
+43	3943	kostyme	kostyme kostymer kostymet kostymene
+44	3944	sparebank	sparebank sparebanken sparebanker sparebankene
+45	3945	erobre	erobret erobre erobrer erobreren erobrere erobrede erobres erobrerne erobrende
+46	3946	pensum	pensum pensumet pensa
+47	3947	dust	dust duster dusten dustene
+48	3948	matvare	matvarer matvarene matvare matvaren
+49	3949	bensinstasjon	bensinstasjon bensinstasjonen bensinstasjoner bensinstasjonene
+50	3950	suveren	suverent suveren suverene
+51	3951	passiv	passiv passivt
+52	3952	argumentasjon	argumentasjon argumentasjonen argumentasjoner
+53	3953	gjennomslag	gjennomslag gjennomslaget
+54	3954	rødgrønn	rødgrønne rødgrønn
+55	3955	desidert	desidert desiderte
+56	3956	forlovet	forlovet forlovede forloveden forloveder
+57	3957	kokain	kokain kokainen
+58	3958	kommentator	kommentator kommentatorer kommentatorene kommentatoren
+59	3959	diktere	diktere dikter dikteren dikterer diktert dikterte dikterne dikteres
+60	3960	punktum	punktum punktumet
+61	3961	fordom	fordommer fordommene fordom fordommen
+62	3962	likne	likner liknet likne liknes likna liknede
+63	3963	overvåking	overvåking overvåkingen
+64	3964	sørlig	sørlige sørlig sørligste sørligere
+65	3965	angivelig	angivelig angivelige
+66	3966	åpningstid	åpningstider åpningstid åpningstidene åpningstiden
+67	3967	eiendel	eiendeler eiendelene eiendel eiendelen
+68	3968	bøtte	bøtte bøtter bøtta bøttene bøtten
+69	3969	gjennomtenke	gjennomtenkt gjennomtenkte
+70	3970	elefant	elefanter elefanten elefant elefantene
+71	3971	terrorangrep	terrorangrep terrorangrepet terrorangrepene
+72	3972	bravo	bravo
+73	3973	dæven	dæven
+74	3974	fantasy	fantasy
+75	3975	overens	overens
+76	3976	legendarisk	legendariske legendarisk
+77	3977	stripe	striper stripe stripene stripen stripa
+78	3978	komisk	komisk komiske
+79	3979	gli	glir gli glei
+80	3980	biskop	biskop biskopen biskoper biskopene
+81	3981	kloster	kloster klosteret klostre klostrene klostret
+82	3982	gjennomføring	gjennomføring gjennomføringen gjennomføringer gjennomføringa
+83	3983	tåke	tåke tåken tåka tåker tåkene
+84	3984	spesialisert	spesialisert spesialiserte
+85	3985	utbetale	utbetalt utbetales utbetale utbetalte utbetaler
+86	3986	øyeblikkelig	øyeblikkelig øyeblikkelige
+87	3987	resolusjon	resolusjon resolusjonen resolusjoner resolusjonene
+88	3988	gruve	gruvene gruve gruver gruven gruva
+89	3989	boble	boble bobler boblen bobla boblene boblende boblet
+90	3990	sverge	sverger sverget sverge svor svoren svorne svoret sverges
+91	3991	lønning	lønninger lønning lønningene lønningen
+92	3992	majoritet	majoriteten majoritet majoriteter
+93	3993	stevne	stevnet stevne stevner stevnene stevn stevnen
+94	3994	rotte	rotter rotte rotta rotten rottene rottet rott
+95	3995	realisere	realisere realisert realiseres realiserte realiserer
+96	3996	gjenspeile	gjenspeiler gjenspeiles gjenspeile gjenspeilet gjenspeilte gjenspeilt
+97	3997	innkjøp	innkjøp innkjøpet innkjøpene
+98	3998	avkastning	avkastning avkastningen avkastninger avkastningene
+99	3999	operativ	operative operativ operativt
+100	4000	avskaffe	avskaffe avskaffet avskaffes avskaffer

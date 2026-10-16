@@ -1,0 +1,100 @@
+1	7001	avvikling	avvikling avviklingen
+2	7002	aleine	aleine
+3	7003	atten	atten
+4	7004	giv	giv
+5	7005	mayday	mayday
+6	7006	påmeldt	påmeldt
+7	7007	utad	utad
+8	7008	wc	wc
+9	7009	delaktig	delaktig delaktige
+10	7010	siktelse	siktelsen siktelse siktelser siktelsene
+11	7011	teologi	teologi teologien teologier
+12	7012	garn	garn garnet garnene
+13	7013	piske	pisket piske piskes pisker piskede piska
+14	7014	skamløs	skamløse skamløs skamløst
+15	7015	redigering	redigering redigeringen redigeringer
+16	7016	kvist	kvist kvister kvisten kvistene
+17	7017	distrahere	distrahere distrahert distraherende distraherer distraherte distraheres
+18	7018	husarbeid	husarbeid husarbeidet
+19	7019	drikkevann	drikkevann drikkevannet
+20	7020	løv	løv løvet løvene lauv løva
+21	7021	trollmann	trollmannen trollmann trollmenn trollmennene
+22	7022	stedsnavn	stedsnavn stedsnavnet stedsnavnene
+23	7023	karbohydrat	karbohydrater karbohydrat karbohydratene
+24	7024	umenneskelig	umenneskelig umenneskelige
+25	7025	gransking	gransking granskingen granskinger
+26	7026	bøte	bøte bøtes
+27	7027	kunstgress	kunstgress kunstgresset
+28	7028	livnære	livnærer livnære livnærte livnært
+29	7029	krigsfange	krigsfanger krigsfange krigsfangene krigsfangen
+30	7030	avlede	avledet avlede avleder avledede avledes avledende avled avledete
+31	7031	ydmykhet	ydmykhet ydmykheten
+32	7032	nervesystem	nervesystemet nervesystem nervesystemer
+33	7033	innvandre	innvandret innvandrede innvandre innvandrende
+34	7034	bølle	bøller bølle bøllene bølla bøllen bøll
+35	7035	påberope	påberoper påberope påberopte påberopt påberopes
+36	7036	korstog	korstog korstogene korstoget
+37	7037	resepsjon	resepsjonen resepsjon resepsjoner
+38	7038	komet	kometen komet kometer kometene
+39	7039	blinke	blinke blinkende blinket blinker
+40	7040	hul	huleste hul hult
+41	7041	ukomfortabel	ukomfortabel ukomfortabelt ukomfortable
+42	7042	fremføring	fremføring fremføringen fremføringer fremføringene
+43	7043	skjerme	skjerme skjermer skjermes
+44	7044	underlag	underlaget underlag
+45	7045	rally	rally rallyet
+46	7046	selvfølelse	selvfølelse selvfølelsen
+47	7047	duke	duket duka
+48	7048	koding	koding kodingen
+49	7049	enzym	enzymer enzym enzymet enzymene
+50	7050	nasjonalist	nasjonalister nasjonalist nasjonalistene nasjonalisten
+51	7051	toppfotball	toppfotball toppfotballen
+52	7052	lidenskapelig	lidenskapelig lidenskapelige
+53	7053	trett	trett trette trettende trettet tretter
+54	7054	berømmelse	berømmelse berømmelsen
+55	7055	lodd	lodd loddet loddene lodder lodda
+56	7056	spann	spann spannet spannene
+57	7057	prosentandel	prosentandel prosentandelen
+58	7058	jubel	jubel jubelen
+59	7059	lønnsomhet	lønnsomhet lønnsomheten
+60	7060	frisyre	frisyren frisyre frisyrer frisyrene
+61	7061	dønne	dønn dønna dønnes
+62	7062	deportere	deportert deportere deporteres deporterte deporterer
+63	7063	skau	skauen skau
+64	7064	motorisere	motorisert motoriserte
+65	7065	utrette	utrettet utrette utretter
+66	7066	bachelorgrad	bachelorgrad bachelorgraden bachelorgrader
+67	7067	fundere	fundert fundere funderer funderte
+68	7068	urettferdighet	urettferdighet urettferdigheten urettferdigheter urettferdighetene
+69	7069	krige	krige kriget krigende
+70	7070	røkte	røkt røkte røkter
+71	7071	afrikaner	afrikanere afrikaner afrikanerne afrikaneren
+72	7072	lindre	lindre lindrer lindrende lindret lindres
+73	7073	navigere	navigere navigerer navigerte navigert naviger
+74	7074	kro	kro kroa kroen kroer kroene
+75	7075	ondskapsfull	ondskapsfulle ondskapsfull ondskapsfullt
+76	7076	meningsfull	meningsfullt meningsfull meningsfulle
+77	7077	restaurering	restaurering restaureringen restaureringer
+78	7078	stønad	stønad stønader stønaden stønadene
+79	7079	diagnostisere	diagnostisert diagnostisere diagnostiseres diagnostiserte diagnostiserer
+80	7080	pattedyr	pattedyr pattedyrene pattedyret
+81	7081	elektriker	elektriker elektrikere elektrikeren elektrikerne
+82	7082	etterligne	etterligne etterligner etterlignet etterlikne etterlignes
+83	7083	skjermbilde	skjermbilde skjermbilder skjermbildet skjermbildene
+84	7084	oppmuntring	oppmuntring oppmuntringen oppmuntringer
+85	7085	vikingtid	vikingtiden vikingtid vikingtida
+86	7086	gjespe	gjesp gjespet gjesper gjespe
+87	7087	oppdikt	oppdiktet oppdiktede
+88	7088	ledighet	ledighet ledigheten
+89	7089	anderledes	anderledes
+90	7090	fedme	fedme
+91	7091	holden	holdent
+92	7092	innebandy	innebandy
+93	7093	innenlands	innenlands
+94	7094	innvandrerbakgrunn	innvandrerbakgrunn
+95	7095	lex	lex
+96	7096	niks	niks
+97	7097	utav	utav
+98	7098	uting	uting
+99	7099	rollemodell	rollemodeller rollemodell rollemodellen rollemodellene
+100	7100	ærend	ærend ærender ærendet

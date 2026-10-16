@@ -1,0 +1,100 @@
+1	4001	prosedyre	prosedyre prosedyren prosedyrer prosedyrene
+2	4002	middelalder	middelalderen middelalder middelaldrene
+3	4003	oppfølger	oppfølgeren oppfølger oppfølgere oppfølgerne
+4	4004	kontrast	kontrast kontraster kontrasten kontrastene
+5	4005	veileder	veileder veilederen veiledere veilederne
+6	4006	undertøy	undertøy undertøyet
+7	4007	generalsekretær	generalsekretær generalsekretæren generalsekretærer
+8	4008	ødeleggelse	ødeleggelse ødeleggelsen ødeleggelser ødeleggelsene
+9	4009	kundeservice	kundeservice kundeservicen
+10	4010	ukentlig	ukentlig ukentlige
+11	4011	utdatert	utdatert utdaterte
+12	4012	bivirkning	bivirkninger bivirkningene bivirkning bivirkningen
+13	4013	oppslag	oppslag oppslaget oppslagene
+14	4014	spinne	spinner spinn spinne spunnet spant spinnere spinnet spinnes spinneren spinnende
+15	4015	reparasjon	reparasjon reparasjoner reparasjonen reparasjonene
+16	4016	forespørsel	forespørsel forespørsler forespørselen forespørslene
+17	4017	atter	atter
+18	4018	bekostning	bekostning
+19	4019	femti	femti
+20	4020	inspirerende	inspirerende
+21	4021	ka	ka
+22	4022	offshore	offshore
+23	4023	skiskyting	skiskyting
+24	4024	produktiv	produktiv produktivt produktive
+25	4025	klassekamp	klassekampen klassekamp
+26	4026	hovedkvarter	hovedkvarter hovedkvarteret hovedkvarterene
+27	4027	lagring	lagring lagringen
+28	4028	målrettet	målrettet målrettede
+29	4029	proff	proff proffe proffene proffen proffer proft proffere
+30	4030	avhør	avhør avhøret avhørene
+31	4031	prioritet	prioritet prioriteter prioritetene prioriteten
+32	4032	reporter	reporter reportere reporteren reporterne
+33	4033	romersk	romerske romersk
+34	4034	sivilisasjon	sivilisasjon sivilisasjonen sivilisasjoner sivilisasjonene
+35	4035	skjev	skjevt skjev skjeve skeiv skeive skeivt skjevere
+36	4036	frisør	frisør frisøren frisører frisørene
+37	4037	installasjon	installasjon installasjoner installasjonen installasjonene
+38	4038	panel	panelet panel paneler panelene
+39	4039	skuespill	skuespill skuespillet skuespillene
+40	4040	veteran	veteran veteraner veteranene veteranen
+41	4041	omdømme	omdømme omdømmet
+42	4042	helsepersonell	helsepersonell helsepersonellet
+43	4043	lærling	lærling lærlinger lærlingen lærlingene
+44	4044	tilgjengelighet	tilgjengelighet tilgjengeligheten
+45	4045	stad	stad steder staden stedene
+46	4046	brud	brud bruden bruder brudene
+47	4047	bompenger	bompenger bompengene
+48	4048	belastning	belastning belastningen belastninger belastningene
+49	4049	naboland	naboland nabolandene nabolandet nabolanda
+50	4050	delstat	delstaten delstater delstat delstatene
+51	4051	føderal	føderale føderal føderalt
+52	4052	tomat	tomater tomat tomatene tomaten
+53	4053	prostituert	prostituerte prostituert
+54	4054	folkevalgt	folkevalgte folkevalgt
+55	4055	erklæring	erklæringen erklæring erklæringer erklæringene erklæringa
+56	4056	sten	sten stenen stener stenene
+57	4057	operatør	operatør operatører operatøren operatørene
+58	4058	aluminium	aluminium aluminiumet
+59	4059	skjelve	skjelver skjelve skjelvet skjelvende skalv skjelv skjelvene
+60	4060	pepper	pepper pepperen
+61	4061	ratt	rattet ratt ratta
+62	4062	dessert	dessert desserten desserter dessertene
+63	4063	lokalisere	lokalisert lokalisere lokaliseres lokaliserte lokaliserer lokaliser
+64	4064	rovdyr	rovdyr rovdyrene rovdyret rovdyra
+65	4065	fylkesmann	fylkesmannen fylkesmann fylkesmenn fylkesmennene
+66	4066	skytevåpen	skytevåpen skytevåpenet skytevåpnene
+67	4067	enestående	enestående
+68	4068	femten	femten
+69	4069	fristende	fristende
+70	4070	huff	huff
+71	4071	innad	innad
+72	4072	opprørt	opprørt
+73	4073	senator	senator senatorer senatoren senatorene
+74	4074	lesning	lesning lesningen lesninger
+75	4075	utrede	utrede utredet utredes utreder utrederne utredere utreda
+76	4076	utdele	utdelt utdeles utdele utdeler utdelte
+77	4077	utlevere	utlevert utlevere utleveres utleverer utleverte utleverende
+78	4078	amatør	amatører amatør amatørene amatøren
+79	4079	arving	arving arvinger arvingen arvingene
+80	4080	elektrisitet	elektrisitet elektrisiteten
+81	4081	svær	svære svær
+82	4082	garderobe	garderoben garderobe garderober garderobene
+83	4083	vanskelighet	vanskeligheter vanskelighetene vanskeligheten vanskelighet
+84	4084	boss	boss bosser bosset bossen bossene
+85	4085	tilstedeværelse	tilstedeværelse tilstedeværelsen
+86	4086	burger	burger burgere burgeren burgerne
+87	4087	pub	pub puben puber pubene
+88	4088	spå	spå spår spådd spådde spås
+89	4089	sosialist	sosialistene sosialister sosialist sosialisten
+90	4090	trønder	trønder trøndere trønderne trønderen
+91	4091	folkelig	folkelig folkelige
+92	4092	mekanisme	mekanismer mekanisme mekanismen mekanismene
+93	4093	tvilling	tvillinger tvillingene tvilling tvillingen
+94	4094	fjes	fjeset fjes fjesene
+95	4095	legevakt	legevakt legevakten legevakta legevakter legevaktene
+96	4096	gardin	gardiner gardinene gardinen gardin gardina
+97	4097	arrogant	arrogant arrogante
+98	4098	kulturhus	kulturhus kulturhuset
+99	4099	atomvåpen	atomvåpen atomvåpnene atomvåpenet
+100	4100	ålreit	ålreit ålreite

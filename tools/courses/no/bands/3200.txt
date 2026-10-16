@@ -1,0 +1,100 @@
+1	3101	skandale	skandale skandalen skandaler skandalene
+2	3102	pikk	pikk pikken pikker
+3	3103	bolle	boller bolle bollen bollene bolla bollinger boll
+4	3104	brille	briller brillene brille
+5	3105	lovverk	lovverket lovverk
+6	3106	indisk	indisk indiske
+7	3107	sund	sunde sund sundet sundt sundene sunda
+8	3108	forståelig	forståelig forståelige
+9	3109	toalett	toalett toalettet toaletter toalettene
+10	3110	tilgi	tilgi tilgitt tilgir tilgivende tilga tilgis tilgav
+11	3111	penis	penis penisen peniser penisene
+12	3112	utforme	utformet utforme utformes utformer utformede utforma
+13	3113	kronisk	kronisk kroniske
+14	3114	allianse	alliansen allianse allianser alliansene
+15	3115	brite	britene briter briten brite
+16	3116	logikk	logikk logikken
+17	3117	visjon	visjon visjoner visjonen visjonene
+18	3118	gjerde	gjerde gjerdet gjerder gjerdene gjerdes
+19	3119	au	au aua
+20	3120	uavgjort	uavgjort uavgjorte
+21	3121	iverksette	iverksatt iverksette iverksetter iverksettes iverksatte iverksett
+22	3122	mellomrom	mellomrom mellomrommet mellomrommene
+23	3123	laks	laks laksen lakser
+24	3124	akutt	akutt akutte akutten
+25	3125	netto	netto nettoen
+26	3126	bitter	bitter bitre bittert bitreste bitrere
+27	3127	statsborger	statsborger statsborgere statsborgeren statsborgerne
+28	3128	oppsummering	oppsummering oppsummeringen oppsummeringer
+29	3129	lønnsom	lønnsomt lønnsom lønnsomme
+30	3130	behagelig	behagelig behagelige behageligere
+31	3131	benk	benken benk benker benkene
+32	3132	hevn	hevn hevnen hevner hevneren hevnere hevnerne
+33	3133	overtid	overtid overtiden
+34	3134	hvorav	hvorav
+35	3135	leif	leif
+36	3136	obs	obs
+37	3137	således	således
+38	3138	visstnok	visstnok
+39	3139	kjøpesenter	kjøpesenter kjøpesenteret kjøpesentre kjøpesentrene kjøpesentra kjøpesentret
+40	3140	helikopter	helikopter helikoptre helikopteret helikoptrene helikoptret
+41	3141	oppdra	oppdra oppdratt oppdrar oppdro oppdras oppdragende oppdradd oppdrog
+42	3142	motorvei	motorvei motorveien motorveier motorveiene
+43	3143	riste	riste rister ristet rist ristede risten ristes rista ristene ristende
+44	3144	moden	moden modne modent modnet modner modnere
+45	3145	euro	euro euroen euroene
+46	3146	råde	råder råde rådende rådet rådde rådes rådene rådd
+47	3147	giftig	giftig giftige giftigste giftigere
+48	3148	kongress	kongressen kongress kongresser kongressene
+49	3149	diesel	diesel dieselen
+50	3150	nedbør	nedbør nedbøren
+51	3151	kanon	kanon kanoner kanonene kanonen
+52	3152	stipend	stipend stipendet stipender stipendene stipendier stipendium
+53	3153	tragedie	tragedie tragedien tragedier tragediene
+54	3154	innland	innlandet innland
+55	3155	vesen	vesen vesener vesenet vesenene
+56	3156	trine	trine trines
+57	3157	pumpe	pumpe pumper pumpet pump pumpes pumpa pumpen pumpene pumpende
+58	3158	usikkerhet	usikkerhet usikkerheten usikkerheter usikkerhetene
+59	3159	stortingsvalg	stortingsvalg stortingsvalget stortingsvalgene
+60	3160	begrave	begravet begravd begrave begravde begraves begraver begravede begrav
+61	3161	parkeringsplass	parkeringsplass parkeringsplassen parkeringsplasser parkeringsplassene
+62	3162	party	party partyet
+63	3163	israelsk	israelske israelsk
+64	3164	spy	spy spyr spydde spydd spyet
+65	3165	kosthold	kosthold kostholdet
+66	3166	notat	notater notat notatet notatene
+67	3167	begrunne	begrunnet begrunnes begrunne begrunner begrunnede begrunna
+68	3168	materiell	materiell materielle materielt materiellet
+69	3169	bratt	bratt bratte brattere bratteste bratten brattest
+70	3170	gran	gran grana granen graner
+71	3171	oppmerksom	oppmerksom oppmerksomme oppmerksomt
+72	3172	antakelig	antakelig
+73	3173	iallfall	iallfall
+74	3174	jada	jada
+75	3175	liknende	liknende
+76	3176	insistere	insisterer insisterte insistere insistert insisterende insister
+77	3177	taktikk	taktikk taktikken taktikker taktikkene
+78	3178	tidsskrift	tidsskrift tidsskriftet tidsskrifter tidsskriftene
+79	3179	tyveri	tyveri tyveriet tyverier tyveriene tjuveri
+80	3180	feminisme	feminisme feminismen
+81	3181	forsvarlig	forsvarlig forsvarlige
+82	3182	skyting	skyting skytingen skytinger skytinga skytingene
+83	3183	konsulent	konsulent konsulenter konsulenten konsulentene
+84	3184	utbytte	utbytte utbyttet utbytter utbyttene utbyttere utbyttende
+85	3185	idrettslag	idrettslag idrettslaget idrettslagene
+86	3186	cola	cola colaen
+87	3187	meksikansk	meksikanske meksikansk
+88	3188	godteri	godteri godteriet godterier godteriene
+89	3189	novelle	noveller novelle novellen novellene
+90	3190	tulling	tulling tullinger tullingene tullingen
+91	3191	syrisk	syriske syrisk
+92	3192	utelukke	utelukket utelukke utelukker utelukkes
+93	3193	jeger	jegere jeger jegeren jegerne
+94	3194	støv	støv støvet støvete
+95	3195	bestefar	bestefar bestefaren bestefedre bestefedrene
+96	3196	sprit	sprit spriten
+97	3197	heftig	heftig heftige heftigste heftigere
+98	3198	drukne	drukner drukne druknet druknede drukna druknes
+99	3199	parallell	parallelt parallell parallelle paralleller parallellen parallellene
+100	3200	takt	takt takter takten taktene takta

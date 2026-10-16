@@ -1,0 +1,100 @@
+1	8401	fyrtårn	fyrtårn fyrtårnet
+2	8402	raus	raus rause raust
+3	8403	simulering	simulering simuleringer simuleringen simuleringene
+4	8404	sjøforsvar	sjøforsvaret sjøforsvar
+5	8405	arbeidsløshet	arbeidsløshet arbeidsløsheten
+6	8406	fordra	fordra fordrar
+7	8407	byggeplass	byggeplass byggeplassen byggeplasser byggeplassene
+8	8408	naivitet	naivitet naiviteten
+9	8409	faenskap	faenskap faenskapet faenskapen
+10	8410	speaker	speaker speakeren
+11	8411	adkomst	adkomst adkomsten
+12	8412	uærlig	uærlig uærlige
+13	8413	rørledning	rørledningen rørledning rørledninger rørledningene
+14	8414	ferskvann	ferskvann ferskvannet
+15	8415	sirkulere	sirkulerer sirkulere sirkulert sirkulerende sirkulerte sirkuleres
+16	8416	løslatelse	løslatelse løslatelsen løslatelser
+17	8417	kampfly	kampfly kampflyene kampflyet
+18	8418	avskrekke	avskrekkende avskrekke avskrekket avskrekker
+19	8419	fremvekst	fremveksten fremvekst
+20	8420	avskjedige	avskjediget avskjedige avskjediges avskjediger
+21	8421	meieri	meieri meieriet meieriene meierier
+22	8422	kryptovaluta	kryptovaluta krypto kryptovalutaen kryptovalutaer kryptovalutaene
+23	8423	solenergi	solenergi solenergien
+24	8424	ulydighet	ulydighet ulydigheten
+25	8425	organisatorisk	organisatorisk organisatoriske
+26	8426	dansegulv	dansegulvet dansegulv
+27	8427	selvmordstanke	selvmordstanker selvmordstankene
+28	8428	bortenfor	bortenfor
+29	8429	endog	endog
+30	8430	mellomting	mellomting
+31	8431	sågar	sågar
+32	8432	ypperst	ypperste
+33	8433	treningsleir	treningsleir treningsleiren treningsleirer
+34	8434	historielag	historielag historielaget
+35	8435	pledd	pledd pleddet pleddene
+36	8436	væremåte	væremåte væremåten væremåter
+37	8437	karpe	karpe karper karpen
+38	8438	plasma	plasma plasmaet
+39	8439	utspring	utspring utspringet
+40	8440	krangling	krangling kranglingen
+41	8441	utydelig	utydelig utydelige
+42	8442	servering	servering serveringen
+43	8443	agurk	agurk agurker agurken agurkene
+44	8444	venstreparti	venstreparti venstrepartiene venstrepartier venstrepartiet
+45	8445	bombefly	bombefly bombeflyene bombeflyet
+46	8446	utkomme	utkom utkommer utkommet utkomme utkomne
+47	8447	skjelle	skjelle skjelte skjelt skjeller skjellende
+48	8448	vugge	vugge vuggen vogge vugger vugget vuggende vugga
+49	8449	stør	støren stør
+50	8450	hacker	hackere hackeren hackerne
+51	8451	oppvaskmaskin	oppvaskmaskinen oppvaskmaskin oppvaskmaskiner
+52	8452	kjøttdeig	kjøttdeig kjøttdeigen
+53	8453	forbrenne	forbrenne forbrenner forbrent forbrennes forbrente
+54	8454	overrekke	overrakt overrekke overrakte overrekker overrekkes
+55	8455	sluttrapport	sluttrapport sluttrapporten
+56	8456	beleiring	beleiringen beleiring beleiringer
+57	8457	nøytralitet	nøytralitet nøytraliteten
+58	8458	pannekake	pannekaker pannekake pannekakene pannekaken pannekaka
+59	8459	makrell	makrell makrellen makreller
+60	8460	rakke	rakke rakket
+61	8461	emballasje	emballasje emballasjen
+62	8462	omtanke	omtanke omtanken
+63	8463	prosentvis	prosentvis prosentvise
+64	8464	klor	klor kloret
+65	8465	islamistisk	islamistiske islamistisk
+66	8466	radiokanal	radiokanal radiokanaler radiokanalen radiokanalene
+67	8467	diktsamling	diktsamling diktsamlingen diktsamlinger diktsamlinga diktsamlingene
+68	8468	nevrologisk	nevrologisk nevrologiske
+69	8469	provisjon	provisjon provisjonen provisjoner provisjonene
+70	8470	heterofil	heterofile heterofil heterofilt
+71	8471	renovere	renovert renovere renoverte renoveres renoverer
+72	8472	kronologisk	kronologisk kronologiske
+73	8473	plastisk	plastisk plastiske
+74	8474	seleksjon	seleksjon seleksjonen
+75	8475	kvadrat	kvadrat kvadratet kvadrater kvadratene
+76	8476	underkaste	underkaste underkaster underkastet underkastes
+77	8477	innbefatte	innbefatter innbefattet innbefatte
+78	8478	tenking	tenking tenkingen tenkinga
+79	8479	høstferie	høstferien høstferie
+80	8480	fysiologisk	fysiologiske fysiologisk
+81	8481	serbisk	serbiske serbisk
+82	8482	tilbygg	tilbygg tilbygget tilbyggene
+83	8483	komfort	komfort komforten
+84	8484	pai	pai paien paier
+85	8485	overenskomst	overenskomst overenskomsten overenskomster overenskomstene
+86	8486	buk	buken buk buker
+87	8487	livsviktig	livsviktig livsviktige
+88	8488	spillerom	spillerom spillerommet
+89	8489	hendelsesforløp	hendelsesforløpet hendelsesforløp
+90	8490	piksel	pixel piksler piksel pikslene
+91	8491	spagetti	spagetti spagettien
+92	8492	oliven	oliven olivener olivenene
+93	8493	omlegging	omlegging omleggingen omlegginger
+94	8494	elektron	elektroner elektronene elektronet elektron
+95	8495	spisskompetanse	spisskompetanse spisskompetansen
+96	8496	udødelig	udødelige udødelig
+97	8497	desentralisere	desentralisert desentraliserte desentralisere
+98	8498	ebbe	ebba ebbe ebbet ebber
+99	8499	oppsetning	oppsetningen oppsetning oppsetninger oppsetningene
+100	8500	fotavtrykk	fotavtrykk fotavtrykket fotavtrykkene

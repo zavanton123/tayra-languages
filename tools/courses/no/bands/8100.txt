@@ -1,0 +1,100 @@
+1	8001	omdanne	omdannet omdannes omdanne omdanner omdannede
+2	8002	powerpoint	powerpoint powerpointen
+3	8003	uvirkelig	uvirkelig uvirkelige
+4	8004	egenandel	egenandel egenandelen egenandeler
+5	8005	stråmann	stråmenn stråmann
+6	8006	kjønnsrolle	kjønnsroller kjønnsrollene kjønnsrolle
+7	8007	byråkrat	byråkrater byråkrat byråkratene byråkraten
+8	8008	otte	otta otter otte otten
+9	8009	kork	kork korken korker korkene
+10	8010	miljømessig	miljømessige miljømessig
+11	8011	buddhist	buddhister buddhist buddhistene buddhisten
+12	8012	arbeiderbevegelse	arbeiderbevegelsen arbeiderbevegelse
+13	8013	verdensarv	verdensarven verdensarv
+14	8014	viske	viske visket visker viskes visk
+15	8015	seertall	seertall seertallene seertallet
+16	8016	forhøre	forhøre forhørt forhørte forhøres
+17	8017	etterspill	etterspill etterspillet
+18	8018	maskinvare	maskinvare maskinvaren
+19	8019	svingning	svingninger svingningene svingning svingningen
+20	8020	kidnapping	kidnapping kidnappingen kidnappinger kidnappingene
+21	8021	dagligdags	dagligdagse dagligdags
+22	8022	slu	slu slue
+23	8023	landemerke	landemerker landemerke landemerkene landemerket
+24	8024	riksadvokat	riksadvokaten riksadvokat
+25	8025	julebrus	julebrus julebrusen
+26	8026	avansere	avansere avanserte avanserer avanser
+27	8027	gymnas	gymnaset gymnas gymnasium gymnasiet
+28	8028	svømmehall	svømmehallen svømmehall svømmehaller
+29	8029	skandaløs	skandaløst skandaløse skandaløs
+30	8030	varehus	varehus varehuset varehusene
+31	8031	svimmel	svimmel svimlende svimle
+32	8032	analytiker	analytiker analytikere analytikerne analytikeren
+33	8033	nettbank	nettbank nettbanken nettbanker
+34	8034	usann	usant usanne usann
+35	8035	reisetid	reisetid reisetiden reisetider reisetida
+36	8036	omkamp	omkamp omkamper omkampen
+37	8037	forvarsel	forvarsel forvarsler forvarselet forvarslet
+38	8038	forbruke	forbruke forbrukes forbrukt forbrukte
+39	8039	bestyrer	bestyrer bestyreren bestyrere
+40	8040	realisme	realisme realismen
+41	8041	inntjening	inntjening inntjeningen
+42	8042	oppdragsgiver	oppdragsgiver oppdragsgivere oppdragsgiveren oppdragsgiverne
+43	8043	kreditor	kreditorer kreditorene kreditor kreditoren
+44	8044	mink	mink minken
+45	8045	utlevering	utlevering utleveringen utleveringer
+46	8046	flaggermus	flaggermus flaggermusen flaggermusene flaggermusa
+47	8047	konfiskere	konfiskert konfiskerte konfiskere konfiskeres konfiskerer
+48	8048	majones	majones majonesen
+49	8049	sørside	sørsiden sørsida sørside
+50	8050	påbud	påbud påbudet påbudene
+51	8051	fjas	fjas fjaset
+52	8052	ordskifte	ordskiftet ordskifte
+53	8053	farm	farmen farmene
+54	8054	konvoi	konvoi konvoien konvoier konvoiene
+55	8055	havfrue	havfrue havfruen havfruer havfruene
+56	8056	maskulinitet	maskulinitet maskuliniteten
+57	8057	dertil	dertil
+58	8058	ettertanke	ettertanke
+59	8059	etterutdanning	etterutdanning
+60	8060	fortvilet	fortvilet
+61	8061	gjenlevende	gjenlevende
+62	8062	griner	griner
+63	8063	ikveld	ikveld
+64	8064	landsbasis	landsbasis
+65	8065	lønnet	lønnet
+66	8066	metan	metan
+67	8067	nikab	nikab
+68	8068	sesongslutt	sesongslutt
+69	8069	tet	tet
+70	8070	verdensomspennende	verdensomspennende
+71	8071	ønsketenkning	ønsketenkning
+72	8072	harmløs	harmløst harmløse harmløs
+73	8073	anmode	anmodet anmoder anmode anmodes
+74	8074	forskningsprosjekt	forskningsprosjekt forskningsprosjekter forskningsprosjektet forskningsprosjektene
+75	8075	beundring	beundring beundringen
+76	8076	folkemusikk	folkemusikk folkemusikken
+77	8077	håndskrift	håndskrift håndskriften håndskriftene håndskrifter håndskriftet
+78	8078	masteroppgave	masteroppgave masteroppgaven masteroppgaver
+79	8079	stipendiat	stipendiat stipendiater stipendiatene
+80	8080	folkehøyskole	folkehøyskole folkehøyskolen folkehøyskoler folkehøyskolene
+81	8081	fagbevegelse	fagbevegelsen fagbevegelse
+82	8082	sikle	sikler sikle siklende
+83	8083	skue	skue skuer skuet sku
+84	8084	nybygg	nybygg nybyggene
+85	8085	anekdote	anekdoter anekdote anekdotene anekdoten
+86	8086	arkitektonisk	arkitektoniske arkitektonisk
+87	8087	tilfalle	tilfaller tilfalle tilfalt
+88	8088	initial	initialer initialene initial initialen initialt
+89	8089	hoveddel	hoveddelen hoveddeler hoveddel hoveddelene
+90	8090	betennelse	betennelse betennelsen betennelser
+91	8091	fise	fist fise fes feis fiste fiser
+92	8092	steppe	steppe stepper steppet steppene stepp steppen
+93	8093	lokalisering	lokalisering lokaliseringen lokaliseringer
+94	8094	glutenfri	glutenfritt glutenfri glutenfrie
+95	8095	reaksjonær	reaksjonære reaksjonær reaksjonært
+96	8096	utpreget	utpreget utpregede utpregete
+97	8097	verneverdig	verneverdig verneverdige
+98	8098	fagskole	fagskole fagskolen fagskoler fagskolene
+99	8099	luftfart	luftfart luftfarten
+100	8100	forskningsråd	forskningsråd forskningsrådet forskningsrådene

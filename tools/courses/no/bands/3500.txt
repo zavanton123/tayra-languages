@@ -1,0 +1,100 @@
+1	3401	dempe	dempe demper dempet dempes dempende dempede dempere demperen demperne demp
+2	3402	ambassade	ambassaden ambassade ambassader ambassadene
+3	3403	svelge	svelge svelget svelger svelg svelges svelgen
+4	3404	trakassering	trakassering trakasseringen trakasseringer
+5	3405	datere	datert dateres daterer datere daterte dater
+6	3406	mislykket	mislykket mislykkede mislykkete
+7	3407	feilaktig	feilaktig feilaktige
+8	3408	springe	spring springe springen sprunget springende
+9	3409	linke	linker linke linket linkes linka linkede
+10	3410	hval	hvaler hval hvalen hvalene
+11	3411	heis	heis heisen heiser heisene heiset
+12	3412	insekt	insekter insekt insektene insektet
+13	3413	innvendig	innvendig innvendige
+14	3414	bø	bø bøen
+15	3415	russ	russ russen
+16	3416	innvilge	innvilget innvilges innvilge innvilger innvilgede
+17	3417	tilhørighet	tilhørighet tilhørigheten tilhørigheter
+18	3418	forske	forsket forske forskes forsk forska
+19	3419	grafikk	grafikk grafikken
+20	3420	register	register registeret registre registret registrene
+21	3421	betraktning	betraktning betraktninger betraktningen betraktningene
+22	3422	innspilling	innspillingen innspilling innspillinger innspillingene innspillinga
+23	3423	hue	huet hue hua huer huene
+24	3424	utallig	utallige utallig
+25	3425	biologi	biologi biologien
+26	3426	stempel	stemplet stempler stempel stempelet stemplene stempla
+27	3427	green	green greenen greener
+28	3428	stafett	stafett stafetten stafetter stafettene
+29	3429	tenkning	tenkning tenkningen
+30	3430	flåte	flåten flåte flåter flåtene
+31	3431	fordømme	fordømte fordømt fordømmer fordømme fordømmende fordømmes
+32	3432	hand	hand hender hendene handa handen henda
+33	3433	forbilde	forbilde forbilder forbildet forbildene
+34	3434	fru	fru
+35	3435	glimrende	glimrende
+36	3436	nærliggende	nærliggende
+37	3437	anker	anker ankeret ankret ankre ankere ankrer ankrene
+38	3438	vrake	vraket vrake vrak vrakes vrakene vraker vraka vrakede
+39	3439	rabatt	rabatt rabatter rabatten rabattene
+40	3440	minoritet	minoriteter minoritet minoriteten minoritetene
+41	3441	utspille	utspill utspiller utspilt utspilte utspillet utspille utspilles utspillene
+42	3442	spredning	spredning spredningen
+43	3443	bevissthet	bevissthet bevisstheten
+44	3444	katolsk	katolske katolsk
+45	3445	klikke	klikke klikker klikket klikka klikkende
+46	3446	bur	bur buret burene bura
+47	3447	ridder	ridder riddere ridderne ridderen
+48	3448	ankomst	ankomst ankomsten ankomster ankomstene
+49	3449	evakuere	evakuert evakuere evakueres evakuerte evakuerer evakuer
+50	3450	overordnet	overordnede overordnet overordnete
+51	3451	tingrett	tingrett tingretten tingrettene tingretter
+52	3452	politifolk	politifolk politifolkene politifolka
+53	3453	bål	bål bålet bålene
+54	3454	undertrykke	undertrykke undertrykte undertrykt undertrykkende undertrykker undertrykket undertrykkes undertrykk undertrykkere undertrykkerne
+55	3455	verne	verne verner vernet vernes vernede verna
+56	3456	jern	jern jernet jernene
+57	3457	hyppig	hyppig hyppige hyppigere hyppigst hyppigste
+58	3458	bind	bind bindet bindene binda
+59	3459	arbeidstid	arbeidstid arbeidstiden arbeidstider arbeidstida arbeidstidene
+60	3460	eksemplar	eksemplarer eksemplar eksemplaret eksemplarene
+61	3461	henrette	henrettet henrette henrettes henretter henrettede henretta
+62	3462	kontanter	kontanter kontantene
+63	3463	kobling	kobling koblingen koblinger koblingene kopling
+64	3464	stilig	stilig stilige stiligere stiligste
+65	3465	barbere	barbere barberer barbert barber barberte barbereren barberen barberes barberere barbererne
+66	3466	pinne	pinne pinnen pinner pinnene
+67	3467	hustru	hustru hustruer hustruen hustruene
+68	3468	bacon	bacon baconet
+69	3469	derav	derav
+70	3470	herunder	herunder
+71	3471	innendørs	innendørs
+72	3472	innover	innover
+73	3473	oppvokst	oppvokst
+74	3474	oppå	oppå
+75	3475	tilfeldigvis	tilfeldigvis
+76	3476	flekk	flekker flekken flekk flekkene
+77	3477	pålegg	pålegg pålegget påleggene
+78	3478	hint	hint hintet hintene
+79	3479	sympati	sympati sympatier sympatien
+80	3480	usynlig	usynlig usynlige
+81	3481	avslag	avslag avslaget avslagene
+82	3482	undertegne	undertegnet undertegnede undertegne undertegner undertegnes undertegna
+83	3483	premiere	premiere premieren premiert premierer premierte premierene
+84	3484	rein	rein reine reint reina reinen reiner reinere reinene
+85	3485	økonom	økonomer økonom økonomen økonomene
+86	3486	utløp	utløp utløpet utløpene
+87	3487	forberedelse	forberedelser forberedelsene forberedelse forberedelsen
+88	3488	magi	magi magien
+89	3489	bagasje	bagasje bagasjen
+90	3490	bekjenne	bekjente bekjenner bekjenne bekjennende bekjenn
+91	3491	mindreårig	mindreårige mindreårig
+92	3492	følsom	følsom følsomme følsomt
+93	3493	rasjonell	rasjonelle rasjonelt rasjonell
+94	3494	sogn	sogn sognet sognene sogna
+95	3495	arrangør	arrangør arrangørene arrangøren arrangører
+96	3496	fuktig	fuktig fuktige fuktigere fuktigste
+97	3497	svikt	svikter svikt svikten
+98	3498	innbrudd	innbrudd innbruddet innbruddene
+99	3499	valp	valper valp valpen valpene
+100	3500	permisjon	permisjon perm permisjonen permen permer permisjoner permene

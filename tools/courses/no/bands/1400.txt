@@ -1,0 +1,100 @@
+1	1301	bevege	beveger bevege beveget bevegde beveg beveges bevegende bevegd
+2	1302	bjørn	bjørn bjørnen bjørner bjørnene
+3	1303	sikte	siktet sikte siktede sikter siktes sikta siktene
+4	1304	boks	boks boksen bokser boksene boksere bokseren bokserne
+5	1305	blåse	blåser blåse blåst blåste blås blåses blåsere blåserne blåsen blåsten
+6	1306	sko	sko skoene skoen skoa skor skodd skodde skodda skodder skoddene
+7	1307	konsert	konsert konserten konserter konsertene
+8	1308	nabo	naboen naboer naboene nabo
+9	1309	male	male malt maler malte mal maleren malere males malene malen
+10	1310	danske	danske danskene dansker dansken
+11	1311	gård	gården gård gårder gårdene gard
+12	1312	el	el elene
+13	1313	ane	aner ante ant ane aning anes anene anen anten anter
+14	1314	overfor	overfor
+15	1315	sannsynligvis	sannsynligvis
+16	1316	servere	servert servere server serverer serveres serveren serverte serverne
+17	1317	avstand	avstand avstanden avstander avstandene
+18	1318	erstatte	erstatte erstattet erstatter erstattes erstatta erstatt erstatteren erstattere erstatterne
+19	1319	anlegg	anlegget anlegg anleggene
+20	1320	vind	vind vinden vinder vindene vinde
+21	1321	kjeft	kjeft kjeften kjefter
+22	1322	funksjon	funksjon funksjonen funksjoner funksjonene
+23	1323	avgjørelse	avgjørelse avgjørelsen avgjørelser avgjørelsene
+24	1324	rimelig	rimelig rimelige rimeligere rimeligste rimeligst
+25	1325	kjedelig	kjedelig kjedelige kjedeligste kjedeligere
+26	1326	sannsynlig	sannsynlig sannsynlige
+27	1327	tåle	tåler tåle tålte tålt tål tåles
+28	1328	mørk	mørkt mørk mørkere mørkeste mørkest
+29	1329	mørke	mørke mørket
+30	1330	konto	konto kontoen kontoer kontoene konti kontiene
+31	1331	vesentlig	vesentlig vesentlige vesentligste
+32	1332	nav	nav navet nava navene
+33	1333	generell	generell generelle
+34	1334	kompetanse	kompetanse kompetansen kompetanser
+35	1335	ulykke	ulykken ulykke ulykker ulykkene ulykka
+36	1336	vitne	vitner vitne vitnet vitnene
+37	1337	profil	profil profilen profiler profilene
+38	1338	firma	firmaet firma firmaer firmaene
+39	1339	materiale	materiale materialet materialer materialene material
+40	1340	planlagt	planlagt planlagte
+41	1341	begrenset	begrenset begrensede begrensete
+42	1342	plante	planter plante plantet plantene planten plant plantes planta plantede
+43	1343	vill	vill vilt villeste villere viltet
+44	1344	motsatt	motsatt motsatte
+45	1345	flyplass	flyplassen flyplass flyplasser flyplassene
+46	1346	tillit	tillit tilliten
+47	1347	taper	taper tapere taperne taperen
+48	1348	omgang	omgang omgangen omganger omgangene
+49	1349	overta	overta overtok overtar overtatt overtas overtatte
+50	1350	skru	skru skrudd skrur skrudde skrus
+51	1351	aktuell	aktuelle aktuelt aktuell
+52	1352	profesjonell	profesjonell profesjonelle profesjonelt
+53	1353	statlig	statlige statlig
+54	1354	dyp	dyp dypere dype dypeste dypet dypest dypene
+55	1355	snø	snø snøen snør snødde sne snødd sneen
+56	1356	stanse	stanset stanse stans stanser stanses stansen stansa
+57	1357	dom	dom dommen domenet domene domener dommene domenene domen
+58	1358	hensikt	hensikt hensikten hensikter hensiktene
+59	1359	alvor	alvor alvoret
+60	1360	rapportere	rapportere rapporterer rapportert rapporterte rapporter rapporteres
+61	1361	lytte	lytte lytter lyttet lytt lyttere lytterne lytteren lytting lyttende lyttes
+62	1362	nylig	nylig nylige nyligste
+63	1363	klassisk	klassisk klassiske
+64	1364	ben	ben bena benet benene
+65	1365	avsløre	avslørt avsløre avslører avslørte avslørende avsløres avslør
+66	1366	hull	hull hullet hullene huller hullete
+67	1367	nødt	nødt
+68	1368	vedkommende	vedkommende
+69	1369	verken	verken
+70	1370	finger	fingrene fingeren finger fingre fingrer fingra
+71	1371	passere	passer passerer passere passert passerte passerende passeres passeren
+72	1372	kar	karen kar karer karene kara karet
+73	1373	øre	øre ørene ører øret øra øren øres ørt
+74	1374	halvpart	halvparten halvpart halvpartene
+75	1375	fokusere	fokusere fokuserer fokusert fokuserte fokuser fokuseres
+76	1376	partner	partner partneren partnere partnerne
+77	1377	gråte	gråte gråter gråt grått gråtende gråten gret
+78	1378	kostnad	kostnader kostnadene kostnad kostnaden
+79	1379	oppfatte	oppfattet oppfatter oppfattes oppfatte oppfatta oppfattede
+80	1380	innebære	innebærer innebære innebar innebåret innebær
+81	1381	anledning	anledning anledninger anledningen anledningene
+82	1382	fullføre	fullført fullføre fullførte fullfører fullføres fullfør fullførende
+83	1383	utdannelse	utdannelse utdannelsen utdannelser utdannelsene
+84	1384	oppfordre	oppfordrer oppfordret oppfordre oppfordres oppfordra
+85	1385	brudd	brudd bruddet bruddene brott
+86	1386	utøver	utøvere utøver utøverne utøveren
+87	1387	dit	dit
+88	1388	omfattende	omfattende
+89	1389	næringsliv	næringsliv næringslivet
+90	1390	omfatte	omfatter omfattet omfatte omfattes omfatta omfattede
+91	1391	matt	matt matte matter matten matta mattene mattet mattere
+92	1392	sur	sur sure surt sura surere sureste
+93	1393	umiddelbar	umiddelbart umiddelbar umiddelbare
+94	1394	foretrekke	foretrekker foretrekke foretrukket foretrukne foretrakk foretrekkes
+95	1395	nettsted	nettsted nettstedet nettsteder nettstedene
+96	1396	smerte	smerte smerter smerten smertene smertet
+97	1397	låse	låst låse låser lås låste låses låsen låsene
+98	1398	nasjon	nasjon nasjoner nasjonen nasjonene
+99	1399	eie	eide eie eies eia eiet ått
+100	1400	flykte	flykte flyktet flykter flykt flyktende flykta flyktede

@@ -1,0 +1,100 @@
+1	6101	trafikkulykke	trafikkulykker trafikkulykke trafikkulykken
+2	6102	revolver	revolver revolvere revolveren revolverne
+3	6103	superhelt	superhelt superhelter superhelten superheltene
+4	6104	sollys	sollys sollyset
+5	6105	diameter	diameter diameteren diametre diametere
+6	6106	beseire	beseire beseirer beseires beseirede
+7	6107	straffesak	straffesaker straffesak straffesaken straffesakene
+8	6108	briste	brast brister brist briste bristende bristen bristet
+9	6109	påkrevd	påkrevd påkrevde
+10	6110	opplag	opplag opplaget opplagene
+11	6111	postkort	postkort postkortet postkortene
+12	6112	statssekretær	statssekretær statssekretæren statssekretærer statssekretærene
+13	6113	autorisert	autorisert autoriserte
+14	6114	riksvei	riksvei riksveien riksveier riksveiene
+15	6115	trøye	trøye trøya trøyer trøyen trøyene
+16	6116	bryting	bryting brytingen
+17	6117	tilfreds	tilfreds tilfredse
+18	6118	parodi	parodi parodier parodien
+19	6119	bløt	bløt bløte bløtt bløtere bløter
+20	6120	helligdag	helligdager helligdag helligdagene helligdagen
+21	6121	anmodning	anmodning anmodningen anmodninger anmodningene
+22	6122	koalisjon	koalisjon koalisjonen koalisjoner
+23	6123	fridag	fridag fridager fridagene fridagen
+24	6124	bukk	bukk bukken bukker bukkene
+25	6125	parade	parade paraden parader paradene
+26	6126	overdose	overdose overdoser overdosen
+27	6127	plyndre	plyndret plyndre plyndrer plyndrere plyndres plyndra plyndrerne plyndrede
+28	6128	sivilisert	sivilisert siviliserte
+29	6129	generator	generator generatorer generatoren generatorene
+30	6130	arbeiderklasse	arbeiderklassen arbeiderklasse
+31	6131	oppholdstillatelse	oppholdstillatelse oppholdstillatelsen oppholdstillatelser
+32	6132	pigg	pigg pigger piggene pigge piggen piggere
+33	6133	utmatte	utmattet utmattende utmattede utmatte
+34	6134	pung	pungen pung punger
+35	6135	forgjeves	forgjeves
+36	6136	humaniora	humaniora
+37	6137	informatikk	informatikk
+38	6138	lekre	lekre
+39	6139	omlag	omlag
+40	6140	sos	sos
+41	6141	såvel	såvel
+42	6142	watt	watt
+43	6143	åttende	åttende
+44	6144	somalisk	somalisk somaliske
+45	6145	veddemål	veddemål veddemålet veddemålene
+46	6146	tallerken	tallerken tallerkener tallerkenen tallerkenene
+47	6147	innfri	innfri innfridd innfridde innfrir innfris
+48	6148	utkant	utkanten utkant utkantene utkanter
+49	6149	oppbygging	oppbygging oppbyggingen oppbygginga
+50	6150	statsadvokat	statsadvokaten statsadvokat statsadvokater statsadvokatene
+51	6151	vibrasjon	vibrasjoner vibrasjon vibrasjonene vibrasjonen
+52	6152	kran	kran kranen krana kraner kranene
+53	6153	kronprins	kronprins kronprinsen
+54	6154	lånekasse	lånekassen lånekasse
+55	6155	innrette	innrette innrettet innretter innrettes innretta innrettede
+56	6156	kollaps	kollaps kollapser kollapsen
+57	6157	brenning	brenning brenningen brenningene brenninger
+58	6158	ventil	ventiler ventilen ventil ventilene
+59	6159	håndbok	håndbok håndboken håndbøker håndboka handbok håndbøkene
+60	6160	lydspor	lydspor lydsporet lydsporene
+61	6161	risikabel	risikabelt risikable risikabel
+62	6162	spyd	spyd spydet spydene
+63	6163	dinosaur	dinosaurer dinosaur dinosaurene dinosauren dinosaurus
+64	6164	bredbånd	bredbånd bredbåndet
+65	6165	salve	salve salver salven salvet salva salvede salvene
+66	6166	integrasjon	integrasjon integrasjonen integrasjoner
+67	6167	kobber	kobber kobberet
+68	6168	kongefamilie	kongefamilien kongefamilie kongefamilier kongefamiliene
+69	6169	moral	moralen moraler
+70	6170	bevegelig	bevegelig bevegelige
+71	6171	fordypning	fordypning fordypninger fordypningen fordypningene
+72	6172	steroid	steroider steroidet steroidene
+73	6173	evangelium	evangeliet evangelium evangeliene evangelier
+74	6174	digitalisere	digitalisert digitaliserte digitalisere digitaliseres digitaliserer
+75	6175	lettelse	lettelse lettelser lettelsen lettelsene
+76	6176	søyle	søyler søylene søylen søyle
+77	6177	aksjemarked	aksjemarkedet aksjemarkeder aksjemarkedene aksjemarked
+78	6178	politibil	politibil politibilen politibiler politibilene
+79	6179	lektor	lektor lektorer lektoren lektorene
+80	6180	språkråd	språkrådet språkråd
+81	6181	korrespondanse	korrespondanse korrespondansen korrespondanser
+82	6182	estetisk	estetisk estetiske
+83	6183	hake	haka hake haken haker hakene
+84	6184	fremgangsmåte	fremgangsmåte fremgangsmåten fremgangsmåter fremgangsmåtene
+85	6185	albue	albuen albue albuene albuer albu albuet
+86	6186	sanke	sank sanke sanket sanker sankere sanka sankes
+87	6187	avsender	avsender avsenderen avsendere avsenderne
+88	6188	anstendig	anstendig anstendige
+89	6189	forlik	forlik forliket
+90	6190	ryggrad	ryggraden ryggrad
+91	6191	blogge	blogge blogget
+92	6192	justering	justeringer justering justeringen justeringene
+93	6193	plastpose	plastposer plastpose plastposen plastposene
+94	6194	låve	låven låve låver låvene
+95	6195	beundre	beundret beundre beundrende beundres beundrede
+96	6196	underbygge	underbygger underbygge underbygget underbygges underbygd underbygde
+97	6197	barnefamilie	barnefamilier barnefamilie barnefamiliene
+98	6198	fallskjerm	fallskjerm fallskjermen fallskjermer fallskjermene
+99	6199	utslått	utslått utslåtte utslåtter
+100	6200	betryggende	betryggende

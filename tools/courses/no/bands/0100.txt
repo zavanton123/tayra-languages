@@ -1,0 +1,100 @@
+1	1	være	er var være vært vær været værende væren værer væra
+2	2	i	i
+3	3	og	og
+4	4	det	det dets
+5	5	en	en et ett én ei
+6	6	å	å
+7	7	ha	har hadde ha hatt hatten hatter hattene ha'kke
+8	8	på	på paa
+9	9	som	som
+10	10	til	til
+11	11	av	av a
+12	12	for	for fora foret
+13	13	jeg	jeg meg jeget
+14	14	ikke	ikke ikker
+15	15	med	med
+16	16	at	at
+17	17	du	du deg
+18	18	de	de dem
+19	19	bli	ble blir bli blitt blei vart bleier blev blivende bleien
+20	20	vi	vi oss
+21	21	om	om
+22	22	den	den dens dét
+23	23	kunne	kan kunne kunnet kanen
+24	24	denne	dette denne disse datt detter dett disses disser dettes disset
+25	25	så	så såret sår såre sårt sårede sårer sårene sådd sårende
+26	26	fra	fra
+27	27	få	få får fikk fått færre færreste færrest fås fekk fåes
+28	28	men	men mein mena
+29	29	han	han ham hammen
+30	30	gjøre	gjør gjøre gjort gjorde gjøres gjøra gjordet gjorte
+31	31	skulle	skal skulle sku skuer skulde skuet skullet
+32	32	seg	seg
+33	33	ville	vil ville villet villes
+34	34	se	se ser sett sees ses settet seende settene setta setten
+35	35	noe	noe
+36	36	noen	noen
+37	37	annen	andre annet annen andres anna
+38	38	ta	ta tar tatt tok tas
+39	39	bare	bare
+40	40	også	også
+41	41	god	god godt gode bedre beste best goder bedret godene besta
+42	42	komme	kommer kom komme kommet kommende komma kommen kommaet kommaer komne
+43	43	ut	ut
+44	44	nå	nå nådd nu nådde nås nuet nået
+45	45	da	da
+46	46	gå	går gå gikk gått gående gås gjess gåsa gjessene gåsen
+47	47	hva	hva
+48	48	måtte	må måtte måttet
+49	49	etter	etter efter
+50	50	mange	flere mange fleste flest fler
+51	51	eller	eller
+52	52	si	si sier sa sagt sies sien sagte
+53	53	alle	alle alles
+54	54	når	når
+55	55	her	her
+56	56	mye	mye mest meget meste mere
+57	57	år	år årene året årets års åra årer åå åren
+58	58	sin	sin sine sitt
+59	59	min	min mitt mine mi mina miner minene minen minet
+60	60	stor	store stor større stort største størst
+61	61	man	man manerer maner mana manen
+62	62	mer	mer
+63	63	opp	opp
+64	64	bruke	bruke bruker bruk brukt brukes brukte bruken brukere brukeren brukerne
+65	65	over	over
+66	66	norsk	norsk norske norskt norsken norska norskere norskeste norskes
+67	67	litt	litt
+68	68	hun	hun henne hunerne hunere huneren huner
+69	69	dag	dag dager dagen dagens dagene dd
+70	70	ved	ved veden
+71	71	gi	gi gir gitt ga gav gis gira gitte giret gies
+72	72	inn	inn
+73	73	enn	enn
+74	74	bra	bra bedre beste best bedret besta bedrer bedratt bedra bedres
+75	75	din	din ditt dine di
+76	76	der	der
+77	77	hvor	hvor
+78	78	tro	tror tro trodde trodd troen troende tros troa
+79	79	liten	mindre liten lite minst små lille minste smått lita vesle
+80	80	igjen	igjen
+81	81	all	alt all alteret alter altere altet alten altra altrene altre
+82	82	ny	nye ny nytt nyere nyeste nya nyest nyen nyes
+83	83	mot	mot motet mota motene
+84	84	selv	selv sjøl selvet sjølve
+85	85	gang	gang ganger gangen gangene gangere gangeren
+86	86	finne	finne finner funnet fant finn finnene finnen finna funne fann
+87	87	to	to toen
+88	88	hvis	hvis
+89	89	tid	tid tiden tide tider tida tidene tids
+90	90	før	før
+91	91	helt	helt helter helten heltene
+92	92	vite	vet vite visst visste veit vit vitende vites
+93	93	slik	slik slike slikt
+94	94	like	like liker lik likte likt liket likere likene lika
+95	95	vel	vel
+96	96	ingen	ingen intet inga
+97	97	jo	jo joen joer joene
+98	98	hvordan	hvordan
+99	99	uten	uten
+100	100	folk	folk folket folkene folka folkets

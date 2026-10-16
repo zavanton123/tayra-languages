@@ -1,0 +1,100 @@
+1	4701	akademiker	akademikere akademikerne akademiker akademikeren
+2	4702	redning	redning redningen redninger
+3	4703	mirakel	mirakler mirakel mirakelet miraklet miraklene
+4	4704	kollapse	kollapset kollapse kollapser kollapsede kollapsa
+5	4705	mindretall	mindretall mindretallet
+6	4706	primitiv	primitive primitiv primitivt
+7	4707	duft	dufter duften duft duftene
+8	4708	imens	imens
+9	4709	kleint	kleint
+10	4710	nedlate	nedlatende
+11	4711	nordøst	nordøst
+12	4712	næringsdrivende	næringsdrivende
+13	4713	titalls	titalls
+14	4714	velstående	velstående
+15	4715	viten	viten
+16	4716	æsj	æsj
+17	4717	sjarm	sjarm sjarmen
+18	4718	fagfelt	fagfelt fagfeltet fagfeltene fagfelter
+19	4719	slaveri	slaveri slaveriet
+20	4720	matlaging	matlaging matlagingen
+21	4721	google	googlet googler googles googla
+22	4722	logg	logg loggen loggene
+23	4723	åker	åker åkeren åkrene åkre åkrer åkere
+24	4724	uføre	uføre uføret
+25	4725	tjukk	tjukk tjukke tjukkere tjukt tjukkeste tjukken tjukka
+26	4726	spektakulær	spektakulære spektakulært spektakulær
+27	4727	konvensjonell	konvensjonelle konvensjonell konvensjonelt
+28	4728	henrettelse	henrettelser henrettelse henrettelsen henrettelsene
+29	4729	programmering	programmering programmeringen
+30	4730	greker	grekere grekerne greker grekeren
+31	4731	vike	vike viker vek veik veike vikende veket veikt
+32	4732	gymnastikk	gym gymnastikk
+33	4733	nyhetsbrev	nyhetsbrev nyhetsbrevet
+34	4734	doping	doping dopingen
+35	4735	sådan	sådan sådant sådanne
+36	4736	representativ	representative representativt representativ
+37	4737	elite	eliten eliter elitene
+38	4738	damp	damp dampen damper damperen
+39	4739	bikkje	bikkja bikkjene bikkje bikkjer
+40	4740	snuse	snuse snuser snuste snust
+41	4741	vampyr	vampyrer vampyr vampyren vampyrene
+42	4742	inntak	inntak inntaket inntakene
+43	4743	håndverker	håndverkere håndverker håndverkerne håndverkeren
+44	4744	restriksjon	restriksjoner restriksjonene restriksjon restriksjonen
+45	4745	assosiasjon	assosiasjoner assosiasjon assosiasjonen assosiasjonene
+46	4746	psykopat	psykopat psykopater psykopaten psykopatene
+47	4747	arbeidsoppgave	arbeidsoppgaver arbeidsoppgavene arbeidsoppgave arbeidsoppgaven
+48	4748	frigjøring	frigjøringen frigjøring frigjøringa
+49	4749	overhode	overhode overhodene overhoder
+50	4750	gjedde	gjedde gjedda gjedder gjeddene
+51	4751	nordnorsk	nordnorsk nordnorske
+52	4752	hybrid	hybrid hybrider hybriden hybridene hybride
+53	4753	porto	porto portoen
+54	4754	markant	markant markante
+55	4755	våpenhvile	våpenhvile våpenhvilen
+56	4756	utkikk	utkikk utkikken
+57	4757	bearbeide	bearbeidet bearbeide bearbeider bearbeidede bearbeides
+58	4758	kurv	kurven kurv kurver kurvene korg kurva
+59	4759	hjort	hjort hjorten hjorter hjortene
+60	4760	sensitiv	sensitive sensitiv sensitivt
+61	4761	palme	palmer palme palmen palmene palmes
+62	4762	følelsesmessig	følelsesmessig følelsesmessige
+63	4763	veiledning	veiledning veiledningen veiledninger veiledningene
+64	4764	ur	ur urene uret ura
+65	4765	karakterisere	karakterisert karakteriseres karakteriserer karakterisere karakteriserte
+66	4766	spade	spade spader spaden
+67	4767	prostitusjon	prostitusjon prostitusjonen
+68	4768	majestet	majestet majesteten majesteter
+69	4769	anslag	anslag anslaget anslagene
+70	4770	diplomatisk	diplomatisk diplomatiske
+71	4771	kødd	kødder kødd
+72	4772	utbetaling	utbetaling utbetalinger utbetalingene utbetalingen
+73	4773	monarki	monarkiet monarki monarkier monarkiene
+74	4774	utdeling	utdeling utdelingen utdelinger utdelingene utdelinga
+75	4775	aids	aids
+76	4776	bakfra	bakfra
+77	4777	bakre	bakre
+78	4778	forvei	forveien
+79	4779	fraværende	fraværende
+80	4780	herved	herved
+81	4781	slettes	slettes
+82	4782	østover	østover
+83	4783	ubetydelig	ubetydelig ubetydelige
+84	4784	prise	priset prise priser prises priste prisede
+85	4785	traktor	traktor traktoren traktorer traktorene
+86	4786	auksjon	auksjon auksjonen auksjoner auksjonene
+87	4787	flom	flom flommer flommen flommene
+88	4788	traume	traumer traume traumet traumene
+89	4789	sige	sig sigende siger sige siget segen
+90	4790	fremskritt	fremskritt fremskrittene fremskrittet
+91	4791	fotgjenger	fotgjengere fotgjenger fotgjengerne fotgjengeren
+92	4792	primær	primære primær
+93	4793	universell	universell universelle universelt
+94	4794	bergenser	bergensere bergenser bergenserne bergenseren
+95	4795	ritual	ritualer ritual ritualet ritualene
+96	4796	signatur	signatur signaturen signaturer signaturene
+97	4797	påta	påta påtar påtatt påtok påtatte
+98	4798	avgrense	avgrenset avgrense avgrensede avgrenses avgrenser avgrensa avgrensende avgrensete avgrens
+99	4799	toppscorer	toppscorer toppscorere toppscoreren
+100	4800	fleksibel	fleksibel fleksible fleksibelt

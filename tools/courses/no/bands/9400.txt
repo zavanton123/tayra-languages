@@ -1,0 +1,100 @@
+1	9301	aggregat	aggregat aggregatet aggregater aggregatene
+2	9302	overlegenhet	overlegenhet overlegenheten
+3	9303	innsamle	innsamlet innsamlede innsamle
+4	9304	gangvei	gangvei gangveien gangveier gangveg gangveiene
+5	9305	tafatt	tafatt tafatte
+6	9306	stri	stri strie strir
+7	9307	skifer	skifer skiferen
+8	9308	håndfast	håndfast håndfaste
+9	9309	sikkerhetstiltak	sikkerhetstiltak sikkerhetstiltakene
+10	9310	sprike	spriker sprikende spriket sprikte sprike
+11	9311	bedrag	bedrag bedraget
+12	9312	verdslig	verdslige verdslig
+13	9313	blåmerke	blåmerker blåmerke blåmerket blåmerkene
+14	9314	befaling	befaling befalinger befalingen
+15	9315	skiforbund	skiforbundet skiforbund
+16	9316	adlyde	adlyde adlød adlyder adlydt adlydes adlyd
+17	9317	mugg	mugg muggen mugne muggent
+18	9318	gresskar	gresskar gresskaret gresskarene
+19	9319	blodsukker	blodsukker blodsukkeret
+20	9320	byggherre	byggherre byggherren byggherrer byggherrene
+21	9321	årti	årtier årtiene
+22	9322	adskillig	adskillig adskillige
+23	9323	stilk	stilk stilken stilker stilkene
+24	9324	representantskap	representantskapet representantskap
+25	9325	oppdeling	oppdeling oppdelingen oppdelinger
+26	9326	ion	ion ioner iona ionene
+27	9327	besvime	besvimte besvimer besvime besvimt
+28	9328	bursdagsgave	bursdagsgave bursdagsgaven bursdagsgaver
+29	9329	brennstoff	brennstoff brennstoffet brennstoffer
+30	9330	klokkeslett	klokkeslett klokkeslettet klokkeslettene
+31	9331	turistattraksjon	turistattraksjoner turistattraksjon turistattraksjonene turistattraksjonen
+32	9332	overkommelig	overkommelig overkommelige
+33	9333	oppvåkning	oppvåkning oppvåkningen oppvåkninger
+34	9334	stjålen	stjålne stjålen
+35	9335	arbeidserfaring	arbeidserfaring
+36	9336	bortgang	bortgang
+37	9337	cicero	cicero
+38	9338	fattern	fattern
+39	9339	funksjonsevne	funksjonsevne
+40	9340	hyler	hyler
+41	9341	kullkraft	kullkraft
+42	9342	kveldstid	kveldstid
+43	9343	landsomfattende	landsomfattende
+44	9344	livstruende	livstruende
+45	9345	pentagon	pentagon
+46	9346	selvskading	selvskading
+47	9347	sinke	sinke
+48	9348	størstepart	størsteparten
+49	9349	timing	timingen
+50	9350	tonnevis	tonnevis
+51	9351	òg	òg
+52	9352	befrukte	befruktet befruktede befrukte befruktes befrukter
+53	9353	ettersøke	ettersøkt ettersøkte ettersøk ettersøker ettersøke
+54	9354	stearinlys	stearinlys stearinlyset stearinlysene
+55	9355	koking	koking kokingen
+56	9356	påbudt	påbudt påbudte
+57	9357	sot	sot sotet sota soten sotete
+58	9358	initiativtaker	initiativtaker initiativtakerne initiativtakere initiativtakeren
+59	9359	nyvinning	nyvinninger nyvinning nyvinningene nyvinningen
+60	9360	farse	farse farsen farser
+61	9361	parykk	parykk parykker parykken parykkene
+62	9362	morfin	morfin morfinen
+63	9363	psykedelisk	psykedeliske psykedelisk
+64	9364	slåssing	slåssing slåssingen
+65	9365	bisarr	bisarre bisarr bisart
+66	9366	yr	yr yrende yre yret
+67	9367	blokade	blokaden blokade blokader blokadene
+68	9368	ulogisk	ulogisk ulogiske
+69	9369	skjønnlitterær	skjønnlitterære skjønnlitterær skjønnlitterært
+70	9370	stativ	stativ stativet stativene stativer
+71	9371	ørepropp	ørepropper øreproppene øreproppen ørepropp
+72	9372	forvandling	forvandling forvandlingen forvandlinger
+73	9373	rift	rift rifter riften riftene
+74	9374	serber	serbere serberne serber serberen
+75	9375	manøver	manøver manøveren manøvre manøvrer manøvrene
+76	9376	tematisk	tematisk tematiske
+77	9377	ustabilitet	ustabilitet ustabiliteten
+78	9378	krampe	kramper krampe krampene krampa
+79	9379	jurymedlem	jurymedlemmer jurymedlem jurymedlemmene jurymedlemmet
+80	9380	legat	legat legatet legater legatene
+81	9381	nøkkelord	nøkkelord nøkkelordet nøkkelordene
+82	9382	levedyktig	levedyktig levedyktige
+83	9383	luftforurensning	luftforurensning luftforurensningen luftforurensninger
+84	9384	hingst	hingst hingsten hingster hingstene
+85	9385	avdelingsleder	avdelingsleder avdelingslederen avdelingsledere avdelingslederne
+86	9386	uløst	uløste uløst
+87	9387	utspekulert	utspekulert utspekulerte
+88	9388	oppsi	oppsagt oppsagte
+89	9389	rampelys	rampelyset rampelys
+90	9390	maskert	maskerte maskert
+91	9391	tilsvar	tilsvar tilsvaret
+92	9392	høyne	høyne høyner høynet høynes
+93	9393	dyppe	dyppet dyppe dypper dypp dyppes
+94	9394	snøstorm	snøstorm snøstormen snøstormer
+95	9395	fagforbund	fagforbundet fagforbund fagforbundene
+96	9396	astronomi	astronomi astronomien
+97	9397	imitere	imitere imiterer imitert imiterte
+98	9398	vanskelighetsgrad	vanskelighetsgrad vanskelighetsgraden vanskelighetsgrader
+99	9399	forgude	forguder forgudet
+100	9400	rynke	rynker rynke rynkene rynka rynkede

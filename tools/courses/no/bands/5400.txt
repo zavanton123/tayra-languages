@@ -1,0 +1,100 @@
+1	5301	naturfag	naturfag naturfagene
+2	5302	impuls	impulser impuls impulsene impulsen
+3	5303	essay	essay essayet essayene essayer
+4	5304	ferdigstille	ferdigstilt ferdigstille ferdigstilte ferdigstilles ferdigstiller
+5	5305	skrekk	skrekk skrekken
+6	5306	kjerring	kjerringa kjerring kjerringer kjerringene kjerringen
+7	5307	hovedrolle	hovedrollen hovedrolle hovedrollene hovedroller
+8	5308	reaktor	reaktoren reaktor reaktorer reaktorene
+9	5309	toppserie	toppserien toppserie
+10	5310	grøt	grøt grøten graut
+11	5311	toppe	toppet toppe toppa toppes toppede
+12	5312	europeer	europeere europeerne europeer europeeren
+13	5313	regnskog	regnskogen regnskog regnskogene regnskoger
+14	5314	misunnelig	misunnelig misunnelige
+15	5315	kjempefin	kjempefint kjempefin kjempefine
+16	5316	upopulær	upopulært upopulær upopulære
+17	5317	romer	romerne romere romer romeren
+18	5318	kasino	kasino kasinoet kasinoer kasinoene
+19	5319	instruktør	instruktør instruktører instruktøren instruktørene
+20	5320	fundamental	fundamentale fundamentalt fundamental
+21	5321	stabel	stabelen stabel stabler
+22	5322	diett	diett dietten dietter
+23	5323	avslappet	avslappet avslappede
+24	5324	sanksjon	sanksjoner sanksjonene sanksjon sanksjonen
+25	5325	aldeles	aldeles
+26	5326	forvirrende	forvirrende
+27	5327	framme	framme
+28	5328	gjenbruk	gjenbruk
+29	5329	nedi	nedi
+30	5330	tilfredsstillende	tilfredsstillende
+31	5331	dømmekraft	dømmekraft dømmekraften
+32	5332	utbredelse	utbredelse utbredelsen
+33	5333	essensiell	essensielt essensielle essensiell
+34	5334	treningssenter	treningssenter treningssenteret treningssentre
+35	5335	nasjonaldag	nasjonaldag nasjonaldagen nasjonaldager
+36	5336	ekskludere	ekskludert ekskludere ekskluderer ekskluderes ekskluderte ekskluderende
+37	5337	digitalisering	digitalisering digitaliseringen
+38	5338	fotballag	fotballag fotballaget fotballagene
+39	5339	medikament	medikamenter medikamentet medikamentene medikament
+40	5340	trille	trille triller trill trillet trilles trillende
+41	5341	spedbarn	spedbarn spedbarnet spedbarna
+42	5342	strak	strake strak
+43	5343	tyr	tyr tyren tyrer
+44	5344	skrape	skrape skraper skrap skrapet skrapt skrapte skrapes skrapa
+45	5345	søndagsåpen	søndagsåpne søndagsåpent søndagsåpen
+46	5346	fasilitet	fasiliteter fasilitetene fasilitet fasiliteten
+47	5347	presisere	presisere presiserer presisert presiserte presiseres
+48	5348	sekretariat	sekretariat sekretariatet sekretariater sekretariatene
+49	5349	styremøte	styremøte styremøtet styremøter styremøtene
+50	5350	verdensrekord	verdensrekord verdensrekorden verdensrekorder
+51	5351	beretning	beretning beretninger beretningen beretningene
+52	5352	barnebok	barnebøker barnebok barnebøkene barneboka barneboken
+53	5353	marsj	marsj marsjen marsjer marsjene
+54	5354	fornekte	fornekter fornekte fornektet fornektere fornekt fornektes
+55	5355	forbrukslån	forbrukslån forbrukslånet forbrukslånene
+56	5356	drosje	drosje drosjer drosjen drosjene drosja
+57	5357	leting	leting letingen
+58	5358	møteplass	møteplass møteplassen møteplasser
+59	5359	innretning	innretning innretningen innretninger innretningene
+60	5360	sjømann	sjømann sjømenn sjømennene sjømannen
+61	5361	scenario	scenario scenarioet scenarioer scenarioene
+62	5362	avta	avtar avta avtatt avtok avtakende
+63	5363	presisjon	presisjon presisjonen
+64	5364	fredspris	fredspris fredsprisen
+65	5365	hjemløs	hjemløse hjemløs
+66	5366	operativsystem	operativsystem operativsystemet operativsystemer operativsystemene
+67	5367	mobilitet	mobilitet mobiliteten
+68	5368	kvart	kvart kvarten kvarte kvartet
+69	5369	hiphop	hiphop hiphopen
+70	5370	ferdes	ferdes ferdedes
+71	5371	leveranse	leveranse leveranser leveransen leveransene
+72	5372	nyanse	nyanser nyansene nyanse nyansen
+73	5373	revolusjonær	revolusjonære revolusjonær revolusjonært
+74	5374	popkorn	popcorn popkorn
+75	5375	innblanding	innblanding innblandingen
+76	5376	reversere	reversere reversert reverseres reverserer reverserte
+77	5377	springer	springer springeren springere
+78	5378	slepe	slep slept slepe slepte sleper slepes slepet slepende
+79	5379	kvikk	kvikk kvikke kvikt kvikkere
+80	5380	guddommelig	guddommelig guddommelige
+81	5381	modus	modus modusen modi moduser modusene modiene
+82	5382	ugyldig	ugyldig ugyldige
+83	5383	arrestasjon	arrestasjoner arrestasjonen arrestasjon arrestasjonene
+84	5384	flybillett	flybilletter flybillett flybilletten flybillettene
+85	5385	skildre	skildrer skildret skildre skildres skildra
+86	5386	underskudd	underskudd underskuddet
+87	5387	kongehus	kongehuset kongehus kongehusene
+88	5388	bidragsyter	bidragsyter bidragsytere bidragsyterne bidragsyteren
+89	5389	irritasjon	irritasjon irritasjonen irritasjoner
+90	5390	kraftproduksjon	kraftproduksjon kraftproduksjonen
+91	5391	papp	papp pappen
+92	5392	skribent	skribent skribenter skribenten skribentene
+93	5393	bolt	bolt bolter boltene bolten
+94	5394	body	body
+95	5395	forsåvidt	forsåvidt
+96	5396	grine	grine
+97	5397	helvetes	helvetes
+98	5398	smertestillende	smertestillende
+99	5399	øde	øde
+100	5400	matproduksjon	matproduksjon matproduksjonen

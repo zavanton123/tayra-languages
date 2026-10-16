@@ -1,0 +1,100 @@
+1	6201	drita	drita
+2	6202	lettvinn	lettvint
+3	6203	maje	maja
+4	6204	påvente	påvente
+5	6205	stadighet	stadighet
+6	6206	årsverk	årsverk
+7	6207	journalistisk	journalistisk journalistiske
+8	6208	tyrker	tyrkere tyrkerne tyrker tyrkeren
+9	6209	innlevering	innlevering innleveringer innleveringen
+10	6210	klump	klump klumpen klumper klumpene
+11	6211	hovedoppgave	hovedoppgave hovedoppgaven hovedoppgaver hovedoppgavene
+12	6212	energisk	energisk energiske
+13	6213	fødselsdag	fødselsdag fødselsdagen fødselsdager
+14	6214	botanisk	botanisk botaniske
+15	6215	kantine	kantina kantine kantinen kantiner kantinene
+16	6216	handelshøyskole	handelshøyskolen handelshøyskole handelshøyskoler
+17	6217	praktfull	praktfulle praktfull praktfullt
+18	6218	kompatibel	kompatible kompatibel kompatibelt
+19	6219	trippel	trippel triple trippelt trippelen
+20	6220	underskrift	underskrift underskrifter underskriftene underskriften
+21	6221	blødning	blødninger blødning blødningen blødningene
+22	6222	mottakelse	mottakelse mottakelsen mottagelse mottakelser
+23	6223	mangfoldig	mangfoldig mangfoldige
+24	6224	rammeverk	rammeverk rammeverket rammeverkene
+25	6225	portefølje	portefølje porteføljen porteføljer porteføljene
+26	6226	sportsklubb	sportsklubben sportsklubb sportsklubber
+27	6227	standardisere	standardisert standardiserte standardisere standardiseres
+28	6228	hjelpeløs	hjelpeløs hjelpeløse hjelpeløst
+29	6229	alen	alen alna alner
+30	6230	barriere	barriere barrieren barrierer barrierene
+31	6231	hjemby	hjembyen hjemby hjembyer
+32	6232	frodig	frodig frodige frodigere frodigste
+33	6233	nikke	nikker nikk nikke nikket nikka nikken
+34	6234	spørreundersøkelse	spørreundersøkelse spørreundersøkelser spørreundersøkelsen spørreundersøkelsene
+35	6235	storme	stormet storme stormende stormer
+36	6236	drapsmann	drapsmannen drapsmenn drapsmann drapsmennene
+37	6237	anholde	anholdt anholde anholder anholdte
+38	6238	servitør	servitør servitører servitøren servitørene
+39	6239	utvisning	utvisning utvisningen utvisninger utvisningene
+40	6240	skjellsord	skjellsord skjellsordene skjellsordet
+41	6241	landslagstrener	landslagstrener landslagstreneren landslagstrenere
+42	6242	harpe	harper harpe harpen harpa
+43	6243	camping	camping campingen
+44	6244	attraksjon	attraksjoner attraksjon attraksjonen attraksjonene
+45	6245	opplære	opplært opplærte opplæres opplærer opplære
+46	6246	avskjære	avskåret avskjære avskar avskjær avskjærer avskjæres
+47	6247	opprop	opprop oppropet
+48	6248	trailer	traileren trailere trailerne
+49	6249	politibetjent	politibetjent politibetjenter politibetjenten politibetjentene
+50	6250	hjelpsom	hjelpsom hjelpsomme hjelpsomt
+51	6251	menneskehandel	menneskehandel menneskehandelen
+52	6252	rapp	rappe rapp rappen rappet rappa
+53	6253	skriving	skriving skrivingen
+54	6254	greve	greve greven grever grevene greves
+55	6255	respektløs	respektløst respektløse respektløs
+56	6256	hovedtrener	hovedtrener hovedtreneren hovedtrenere hovedtrenerne
+57	6257	redegjøre	redegjøre redegjør redegjort redegjorde redegjøres
+58	6258	sei	sei seien
+59	6259	alpin	alpin alpint
+60	6260	spytt	spytt spyttet
+61	6261	personopplysning	personopplysninger personopplysningene personopplysning
+62	6262	oppkjøp	oppkjøp oppkjøpet oppkjøpene
+63	6263	legitimasjon	legitimasjon legitimasjonen
+64	6264	lovfeste	lovfestet lovfeste lovfestede
+65	6265	mygg	mygg myggen myggene
+66	6266	restaurere	restaurert restaurere restaurerte restaurerer restaureres
+67	6267	tålmodig	tålmodig tålmodige
+68	6268	vegetasjon	vegetasjon vegetasjonen
+69	6269	rødvin	rødvin rødvinen rødviner rødvinene
+70	6270	skaft	skaftet skaft skaftene
+71	6271	påfunn	påfunn påfunnet påfunnene
+72	6272	naturressurs	naturressurser naturressursene naturressurs naturressursen
+73	6273	fåtall	fåtall fåtallet
+74	6274	forakt	forakt forakten
+75	6275	avreise	avreise avreisen
+76	6276	fremlegge	fremlagt fremlegge fremlegger fremlegges fremla fremlegg fremlagte
+77	6277	jerv	jerv jerven jerver
+78	6278	byggverk	byggverk byggverket byggverkene
+79	6279	dritings	dritings
+80	6280	forleden	forleden
+81	6281	hiver	hiver
+82	6282	innenriks	innenriks
+83	6283	sjuende	sjuende
+84	6284	tretten	tretten
+85	6285	kirurgisk	kirurgisk kirurgiske
+86	6286	administrator	administrator administratorer administratoren administratorene
+87	6287	plateselskap	plateselskapet plateselskap plateselskapene plateselskaper
+88	6288	glitre	glitrende glitrer glitre glitret
+89	6289	hæl	hæler hælene hælen hæl
+90	6290	aldersgruppe	aldersgruppen aldersgrupper aldersgruppe aldersgruppene aldersgruppa
+91	6291	skåre	skårer skåre skåret skåren skåra skårne
+92	6292	symbolisere	symboliserer symbolisere symboliserte symbolisert symboliseres
+93	6293	vital	vitale vital vitalt
+94	6294	sørvest	sørvest sørvesten
+95	6295	runke	runke runker runket runk runka ronke
+96	6296	supplere	supplert supplere supplerende supplerer supplerte suppleres
+97	6297	rådyr	rådyr rådyre rådyret rådyrt rådyrene rådyra
+98	6298	kurdisk	kurdiske kurdisk
+99	6299	samband	samband sambandet sambandene
+100	6300	trådløs	trådløse trådløs trådløst

@@ -1,0 +1,100 @@
+1	2501	berge	berge berger berget berges berga
+2	2502	utøve	utøve utøvende utøvd utøves utøvet utøvde
+3	2503	etisk	etiske etisk
+4	2504	kaos	kaos kaoset
+5	2505	rettssak	rettssaken rettssak rettssaker rettssakene
+6	2506	fattigdom	fattigdom fattigdommen
+7	2507	mandat	mandat mandater mandatet mandatene
+8	2508	resultere	resulterte resulterer resultere resultert resulterende resulter
+9	2509	kne	knærne kne kneet knær knea knes
+10	2510	støy	støy støyen
+11	2511	skeptisk	skeptisk skeptiske
+12	2512	voldelig	voldelige voldelig
+13	2513	logo	logo logoen logoer logoene
+14	2514	fascinere	fascinerende fascinert fascinerer fascinerte fascinere fascineres
+15	2515	fitte	fitte fitta fitter fittene fitten
+16	2516	database	databasen database databaser databasene
+17	2517	gjeldende	gjeldende
+18	2518	dal	dalen dal daler dalene daleren dalerne
+19	2519	opprør	opprør opprøret opprørene
+20	2520	våken	våken våkent vaken
+21	2521	bit	bit biten bitene
+22	2522	stifte	stiftet stifte stifter stift stifterne stiften stiftes stifta stiftene stifteren
+23	2523	jødisk	jødiske jødisk
+24	2524	tenåring	tenåring tenåringer tenåringen tenåringene
+25	2525	økologisk	økologisk økologiske
+26	2526	moralsk	moralske moralsk
+27	2527	konsentrere	konsentrere konsentrert konsentrerer konsentrerte konsentrer konsentreres
+28	2528	verdifull	verdifulle verdifull verdifullt
+29	2529	personlighet	personlighet personligheter personligheten personlighetene
+30	2530	landbruk	landbruk landbruket
+31	2531	uklar	uklart uklar uklare
+32	2532	håndball	håndball handball håndballen
+33	2533	legende	legenden legende legender legendene
+34	2534	brygge	brygge brygga bryggen brygger brygget brygg bryggene brygges bryggeren bryggere
+35	2535	blandet	blandet blandede blandete
+36	2536	brukernavn	brukernavn brukernavnet brukernavnene
+37	2537	dokumentasjon	dokumentasjon dokumentasjonen dokumentasjoner
+38	2538	kommunisere	kommunisere kommuniserer kommunisert kommuniserte kommuniseres kommuniser kommuniserende
+39	2539	oppdager	oppdager oppdagere oppdageren oppdagerne
+40	2540	jernbane	jernbane jernbanen jernbaner jernbanene
+41	2541	ekstern	eksterne ekstern eksternt
+42	2542	retorikk	retorikk retorikken
+43	2543	kjeller	kjelleren kjeller kjellere kjellerne
+44	2544	snike	snike sniker snek sneket snikende snik sneik snikere sniken
+45	2545	omhandle	omhandler omhandlet omhandle omhandles omhandlende omhandlede
+46	2546	omstendighet	omstendigheter omstendighetene omstendighet omstendigheten
+47	2547	inngang	inngangen inngang innganger inngangene
+48	2548	kristendom	kristendommen kristendom
+49	2549	cirka	cirka
+50	2550	mobbing	mobbing mobbingen
+51	2551	lekke	lekker lekket lekkert lekke lakk lakken lekk lekne lekreste lekkede
+52	2552	mør	møre mørt mør møreste mørere
+53	2553	drittsekk	drittsekk drittsekker drittsekkene drittsekken
+54	2554	kapital	kapital kapitalen
+55	2555	offiser	offiser offiserer offiserene offiseren
+56	2556	medarbeider	medarbeidere medarbeider medarbeiderne medarbeideren
+57	2557	bud	bud budet budene buda
+58	2558	deltager	deltagere deltagerne deltager deltageren
+59	2559	glimt	glimt glimtet glimtene
+60	2560	smal	smalt smale smal smalere smaleste smala smalest
+61	2561	skala	skala skalaen skalaer skalaene
+62	2562	underholdning	underholdning underholdningen
+63	2563	kriminalitet	kriminalitet kriminaliteten
+64	2564	vert	vert verten vertene verter
+65	2565	rektor	rektor rektoren rektorer rektorene
+66	2566	angi	angir angitt angi angis anga angitte angav
+67	2567	skjønnhet	skjønnhet skjønnheten skjønnheter skjønnhetene
+68	2568	barndom	barndom barndommen
+69	2569	arabisk	arabisk arabiske
+70	2570	kabel	kabel kabler kabelen kablene
+71	2571	mistanke	mistanke mistanken mistanker mistankene
+72	2572	fond	fond fondet fondene fonda fonden
+73	2573	kongelig	kongelige kongelig
+74	2574	helsevesen	helsevesenet helsevesen
+75	2575	lukte	lukter lukte luktet lukta luktende luktes
+76	2576	parkere	parkere parkert parkerte parker parkerer parkeres
+77	2577	sovne	sovnet sovner sovne sovna
+78	2578	pålegge	pålagt pålegge pålegger pålegges påla pålagte
+79	2579	slem	slemme slem slemt slemmere slemmeste
+80	2580	høydepunkt	høydepunkt høydepunktet høydepunkter høydepunktene
+81	2581	omgivelse	omgivelser omgivelsene omgivelse omgivelsen
+82	2582	tåpelig	tåpelig tåpelige
+83	2583	innslag	innslag innslaget innslagene
+84	2584	kos	kos kosen
+85	2585	forkant	forkant forkanten
+86	2586	jury	juryen jury juryer juryene
+87	2587	trøste	trøst trøste trøster trøstende trøstet trøsten trøstes
+88	2588	klokke	klokke klokker klokkene klokkeren klokk klokket klokkere
+89	2589	presis	presis presist presise
+90	2590	idet	idet
+91	2591	jøss	jøss
+92	2592	texas	texas
+93	2593	tragisk	tragisk tragiske
+94	2594	observasjon	observasjoner observasjon observasjonene observasjonen
+95	2595	fossil	fossil fossile fossiler fossilt fossilene fossilet
+96	2596	stue	stua stue stuen stuer stu stuet stuerent stuene stuerene stueren
+97	2597	same	same samene samer samenes samen
+98	2598	sprenge	sprengt sprenge sprengte sprenger spreng sprenges
+99	2599	bredde	bredde bredden bredder breddene
+100	2600	golf	golf golfen golfer golfere golferne

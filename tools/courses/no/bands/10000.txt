@@ -1,0 +1,100 @@
+1	9901	skattebetaler	skattebetalerne skattebetalere skattebetaler skattebetaleren
+2	9902	privatisere	privatisert privatisere privatiserte privatiseres
+3	9903	oppvarmet	oppvarmet oppvarmede oppvarma
+4	9904	pøbel	pøbel pøbler pøblene pøbelen
+5	9905	uferdig	uferdig uferdige
+6	9906	vannverk	vannverk vannverket vannverkene
+7	9907	arkeologi	arkeologi arkeologien
+8	9908	syrlig	syrlig syrlige
+9	9909	badstue	badstue badstu badstua badstuen badstuer
+10	9910	samferdselsdepartement	samferdselsdepartementet samferdselsdepartement
+11	9911	bøk	bøk bøker bøkene bøken
+12	9912	stasjonsvogn	stasjonsvogn stasjonsvogner stasjonsvognen stasjonsvogna
+13	9913	konsument	konsumenter konsumentene konsument konsumenten
+14	9914	gratulasjon	gratulasjoner gratulasjon gratulasjonene
+15	9915	hjemlengsel	hjemlengsel hjemlengselen
+16	9916	mandarin	mandarin mandariner
+17	9917	løpsk	løpsk løpske
+18	9918	hovedbygning	hovedbygningen hovedbygning
+19	9919	gåtur	gåtur gåturer gåturen
+20	9920	solist	solist solister solisten solistene
+21	9921	gnage	gnage gnag gnagende gnagd gnagde gnaget
+22	9922	ellevill	elleville ellevill ellevilt
+23	9923	sennep	sennep sennepen
+24	9924	statseid	statseide statseid
+25	9925	bolighus	bolighus bolighuset bolighusene
+26	9926	bombardere	bombardert bombardere bombarderer bombarderte bombarderes
+27	9927	maile	mailer maile mailet
+28	9928	osp	asp osp
+29	9929	padde	padder padde padden padda paddene
+30	9930	uutholdelig	uutholdelig uutholdelige
+31	9931	avsetning	avsetninger avsetning avsetningene avsetningen
+32	9932	kystlinje	kystlinje kystlinjen kystlinja kystlinjer
+33	9933	skotte	skottene skotte skotten skotter skottet skott skuten skutene skuter
+34	9934	medlemsstat	medlemsstatene medlemsstater medlemsstat medlemsstaten
+35	9935	lønnsøkning	lønnsøkning lønnsøkninger lønnsøkningen
+36	9936	razzia	razzia razziaen razziaer
+37	9937	morselskap	morselskapet morselskap
+38	9938	toppkarakter	toppkarakter toppkarakterer
+39	9939	amt	amt amtet amtene amter
+40	9940	felttog	felttoget felttog felttogene
+41	9941	nummerere	nummerert nummererte nummereres nummerere
+42	9942	bakdør	bakdør bakdøren bakdører bakdørene bakdøra
+43	9943	galopp	galopp galopper
+44	9944	benåde	benådet benåde benådes benåder
+45	9945	mottakelig	mottakelig mottakelige
+46	9946	kjos	kjos kjosen
+47	9947	modellering	modellering modelleringen modelleringer
+48	9948	innsigelse	innsigelser innsigelse innsigelsen innsigelsene
+49	9949	improvisasjon	improvisasjon improvisasjoner improvisasjonen
+50	9950	gerilja	geriljaen gerilja geriljaer
+51	9951	blære	blære blæren blærer blæra blærene
+52	9952	resultatliste	resultatliste resultatlista resultatlisten resultatlistene resultatlister
+53	9953	presidentkandidat	presidentkandidat presidentkandidaten presidentkandidatene presidentkandidater
+54	9954	flaggskip	flaggskip flaggskipet flaggskipene
+55	9955	sakprosa	sakprosa sakprosaen
+56	9956	pytt	pytt pytten pytter
+57	9957	grunnvann	grunnvann grunnvannet
+58	9958	notorisk	notorisk notoriske
+59	9959	tungvint	tungvint tungvinte
+60	9960	mani	mani manien manier
+61	9961	venteliste	venteliste ventelisten ventelistene ventelister ventelista
+62	9962	primus	primus primusen primuser
+63	9963	underlegen	underlegne underlegen underlegent
+64	9964	industriområde	industriområde industriområdet industriområder industriområdene
+65	9965	isbit	isbiter isbitene isbit
+66	9966	splid	splid spliden
+67	9967	svamp	svamp svamper svampen svampene
+68	9968	merkenavn	merkenavn merkenavnet merkenavnene
+69	9969	studietur	studietur studieturer studieturen
+70	9970	avlytte	avlytte avlyttet avlyttes avlytter
+71	9971	nedtegne	nedtegnet nedtegner nedtegne nedtegnes nedtegnede
+72	9972	langstrakt	langstrakte langstrakt
+73	9973	sivilbefolkning	sivilbefolkningen sivilbefolkning
+74	9974	bevilling	bevilling bevillingen bevillinger bevillingene
+75	9975	renovering	renovering renoveringen renoveringer
+76	9976	sikkerhetsvakt	sikkerhetsvakt sikkerhetsvakter sikkerhetsvaktene sikkerhetsvakten
+77	9977	utskiftning	utskiftninger utskiftning utskiftningen
+78	9978	fantom	fantomet fantom fantomer fantomene
+79	9979	fordype	fordypet fordype fordyper fordypende
+80	9980	oversvømt	oversvømt oversvømte
+81	9981	grasrot	grasrota grasrot
+82	9982	snøre	snøre snøret snører snørt snøres snørene
+83	9983	kvantitet	kvantitet kvantiteten kvantiteter
+84	9984	avlaste	avlaste avlaster avlastet avlastes
+85	9985	skrelle	skrelle skreller skrell skrellet skrelles skrelt skrelte
+86	9986	uthus	uthus uthuset uthusene
+87	9987	eros	eros
+88	9988	forbløffende	forbløffende
+89	9989	hektar	hektar
+90	9990	nedenfra	nedenfra
+91	9991	omme	omme
+92	9992	ovenpå	ovenpå
+93	9993	pors	pors
+94	9994	rekreasjon	rekreasjon
+95	9995	sputnik	sputnik
+96	9996	supermann	supermann
+97	9997	tillitsverv	tillitsverv
+98	9998	trav	trav
+99	9999	tusenfryd	tusenfryd
+100	10000	merknad	merknader merknad

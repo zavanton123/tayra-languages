@@ -1,0 +1,100 @@
+1	6001	hysj	hysj
+2	6002	judas	judas
+3	6003	ovenfra	ovenfra
+4	6004	tilbakestående	tilbakestående
+5	6005	tune	tunet
+6	6006	vantro	vantro
+7	6007	inkompetent	inkompetente inkompetent
+8	6008	kjærlig	kjærlig kjærlige
+9	6009	sykefravær	sykefravær sykefraværet
+10	6010	kaotisk	kaotisk kaotiske
+11	6011	arktisk	arktiske arktisk
+12	6012	nærområde	nærområdet nærområdene nærområder nærområde
+13	6013	disponere	disponerer disponert disponere disponerte disponeres disponerende
+14	6014	tabu	tabu tabuet
+15	6015	tolerere	tolerere tolererer tolerert tolereres tolerer tolererte
+16	6016	cape	cape capen caper
+17	6017	skipper	skipper skipperen skippere skipperne
+18	6018	arkeologisk	arkeologiske arkeologisk
+19	6019	sekvens	sekvens sekvensen sekvenser sekvensene
+20	6020	tekstil	tekstiler tekstil tekstilene tekstile tekstilet
+21	6021	iris	iris irisen iriser
+22	6022	helium	helium heliumet
+23	6023	vinke	vinket vinke vink vinker vinkende
+24	6024	beskatning	beskatning beskatningen
+25	6025	raseri	raseri raseriet
+26	6026	antisemittisme	antisemittisme antisemittismen
+27	6027	gjenforening	gjenforening gjenforeningen gjenforeninger
+28	6028	taus	tause taus taust
+29	6029	forfremme	forfremmet forfremmes forfremme forfremmer
+30	6030	fjøs	fjøs fjøset fjøsene
+31	6031	wiki	wiki wikien wikier
+32	6032	nødhjelp	nødhjelp nødhjelpen
+33	6033	harmoni	harmoni harmonien harmonier harmoniene
+34	6034	slitasje	slitasje slitasjen
+35	6035	direktorat	direktoratet direktorat direktorater direktoratene
+36	6036	kystvakt	kystvakten kystvakt kystvakta
+37	6037	bosetting	bosetting bosettingen bosettinger bosettingene bosettinga
+38	6038	referat	referat referater referatet referatene
+39	6039	motto	motto mottoet
+40	6040	motsi	motsier motsi motsagt motsa motsies
+41	6041	solnedgang	solnedgang solnedgangen solnedganger solnedgangene
+42	6042	segment	segmentet segment segmenter segmentene
+43	6043	slagmark	slagmarken slagmark slagmarker slagmarkene slagmarka
+44	6044	navigasjon	navigasjon navigasjonen
+45	6045	vandring	vandring vandringen vandringer vandringene
+46	6046	etterretningstjeneste	etterretningstjenesten etterretningstjeneste etterretningstjenester etterretningstjenestene
+47	6047	hederlig	hederlig hederlige
+48	6048	svigerfar	svigerfar svigerfaren
+49	6049	retorisk	retorisk retoriske
+50	6050	klandre	klandre klandret klandres
+51	6051	forkorte	forkortet forkorte forkortede forkortes forkorter forkorta forkortete
+52	6052	ubetinget	ubetinget ubetingede
+53	6053	massakre	massakren massakre massakrer massakrene
+54	6054	uunngåelig	uunngåelig uunngåelige
+55	6055	svoger	svoger svogeren svogere svogerne
+56	6056	drivkraft	drivkraft drivkraften drivkreftene drivkrefter
+57	6057	ekspertise	ekspertise ekspertisen
+58	6058	flittig	flittig flittige flittigste
+59	6059	vinmonopol	vinmonopolet vinmonopol
+60	6060	fjernsyn	fjernsyn fjernsynet
+61	6061	dagsorden	dagsorden dagsordenen dagsordener
+62	6062	orm	orm ormen ormer ormene
+63	6063	skyss	skyss skyssen
+64	6064	sidelinje	sidelinjen sidelinja sidelinje sidelinjene
+65	6065	erverve	ervervet erverve erverv ervervede erverves erverver erververen
+66	6066	stum	stum stumme stumt
+67	6067	tillitsvalgt	tillitsvalgte tillitsvalgt
+68	6068	intakt	intakt intakte
+69	6069	portal	portalen portaler portalene
+70	6070	hersketeknikk	hersketeknikker hersketeknikk hersketeknikkene
+71	6071	trofé	trofeer trofeet trofé troféet troféer trofe trofeene troféene
+72	6072	anger	anger angeren
+73	6073	kommunevalg	kommunevalg kommunevalget kommunevalgene
+74	6074	varebil	varebil varebiler varebilen varebilene
+75	6075	pus	pus pusen puser pusene
+76	6076	dyrevelferd	dyrevelferd dyrevelferden
+77	6077	fremgå	fremgår fremgikk fremgå
+78	6078	heder	heder hederen
+79	6079	overnatting	overnatting overnattinger overnattingen
+80	6080	harddisk	harddisk harddisken harddisker harddiskene
+81	6081	bånn	bånn
+82	6082	demens	demens
+83	6083	derved	derved
+84	6084	førti	førti
+85	6085	uti	uti
+86	6086	beryktet	beryktede beryktet beryktete
+87	6087	legitimere	legitimerer legitimere legitimert legitimerte legitimeres
+88	6088	uforsvarlig	uforsvarlig uforsvarlige
+89	6089	forkynne	forkynne forkynner forkynte forkynt forkynnere forkynneren forkynnes forkynnende forkynn
+90	6090	hygge	hygge hygget hygger hyggen hygg
+91	6091	vanntett	vanntett vanntette
+92	6092	fotballbane	fotballbanen fotballbane fotballbaner fotballbanene
+93	6093	timeplan	timeplanen timeplan timeplaner timeplanene
+94	6094	fristelse	fristelsen fristelser fristelse fristelsene
+95	6095	gylden	gylden gyldne gyldent
+96	6096	begeistring	begeistring begeistringen
+97	6097	henlegge	henlagt henlegges henla henlegge henlegger henlagte
+98	6098	stappe	stappe stappet stapper stappa
+99	6099	pådra	pådro pådratt pådrar pådra
+100	6100	åp	aap åp åpene åpet

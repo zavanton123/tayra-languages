@@ -1,0 +1,100 @@
+1	201	kjent	kjent kjente
+2	202	skole	skole skolen skoler skolene skoles
+3	203	feil	feil feilen feilene
+4	204	hjelpe	hjelpe hjelper hjalp hjulpet hjelpes hjelpere hjelpende hjelperne hjelperen
+5	205	starte	startet starte starter start starten starta startes startende startere starteren
+6	206	lang	lang lengre lange lengste lengst langes langen langet langa
+7	207	menneske	mennesker menneske menneskene mennesket menneska
+8	208	by	byen by byer byene byr bød bøy bys bydd budt
+9	209	arbeid	arbeid arbeidet arbeider arbeide arbeidere arbeiderne arbeidene arbeidende arbeideren arbeides
+10	210	langt	langt lenger lengst
+11	211	ofte	ofte oftest oftere
+12	212	problem	problemer problem problemet problemene problema
+13	213	politi	politiet politi
+14	214	virkelig	virkelig virkelige
+15	215	plass	plass plassen plasser plassene
+16	216	heller	heller hellere helleren
+17	217	hvem	hvem
+18	218	navn	navn navnet navnene navna
+19	219	øke	økt øke øker økte økende økes øk øket øktene økter
+20	220	faktisk	faktisk faktiske
+21	221	uke	uke uker uken uka ukene
+22	222	bil	bil bilen biler bilene
+23	223	fortsatt	fortsatt
+24	224	først	først
+25	225	slutt	slutt slutten slutter
+26	226	leve	lever leve levende levde levd lev leveren leven levet levra
+27	227	vanskelig	vanskelig vanskeligere vanskelige vanskeligste vanskeligst
+28	228	slå	slå slått slo slår slås slående slåtten slåes slåtter slåttene
+29	229	egentlig	egentlig egentlige
+30	230	ute	ute
+31	231	bygge	bygge bygget bygger bygd bygg bygges bygda bygde bygder bygdene
+32	232	kalle	kaller kalt kalle kalles kalte kall kalla kallet kaltes kallen
+33	233	lett	lett lettere lette lettet letter letteste lettest letta lettes
+34	234	jobbe	jobbe jobbet jobber jobba jobbes jobbende
+35	235	dra	dra drar dro dratt dras drog dradd dragende
+36	236	venn	venner venn vennene vennen
+37	237	kommune	kommune kommunen kommuner kommunene
+38	238	skjønne	skjønner skjønne skjønt skjønte skjønn skjønneste skjønnet skjønnere skjønnes
+39	239	time	timer time timen timene timet tima
+40	240	kjenne	kjenner kjenne kjente kjennes kjenn kjentes kjennere kjenneren kjenna kjennerne
+41	241	bety	betyr bety betydde betydd betød
+42	242	derfor	derfor
+43	243	eneste	eneste
+44	244	kamp	kamp kampen kamper kampene
+45	245	sen	senere sent sen senest seneste sene sein sener senen sena
+46	246	side	side sider sidene sida sideren
+47	247	hvilken	hvilken hvilke hvilket
+48	248	åpne	åpne åpnet åpner åpnes åpna åpnede åpnere åpneren åpn
+49	249	huske	husker husk huske husket huskes huska husken huskene
+50	250	område	området områder område områdene områda
+51	251	kveld	kveld kvelden kvelder kveldene kvelds
+52	252	ord	ord ordet ordene orda
+53	253	neste	neste nestes nestene nestet
+54	254	lov	lov lover loven lovene
+55	255	nesten	nesten
+56	256	spørsmål	spørsmål spørsmålet spørsmålene spørsmåla
+57	257	håpe	håper håpe håpet håpte håpt håpa
+58	258	forstå	forstår forstå forstått forsto forstod forstås forståes forstående
+59	259	kun	kun
+60	260	be	be ber ba bad bedt badet bes badene bada bede
+61	261	familie	familien familie familier familiene
+62	262	gutt	gutter gutt gutta gutten guttene guttenes gutters
+63	263	støtte	støtte støtter støttet støtt støtten støttes støttende støttede støtta støttene
+64	264	nær	nær nærmere nærmest nærmeste nært nære nærer nærere næret nærende
+65	265	stemme	stemmer stemme stemte stemmen stemt stemmene stem stemmes stemma stemmere
+66	266	eksempel	eksempel eksempler eksempelet eksemplene eksemplet
+67	267	søke	søker søke søk søkte søkt søkere søkes søket søkeren søkerne
+68	268	tall	tallet tall tallene talla
+69	269	gjelde	gjelder gjaldt gjelde gjelda gjeldt gjelds gjeldet
+70	270	virke	virker virke virket virka virkende virk virkes
+71	271	stille	stille stiller stilt stilte stilles still stillere stillet stilla stilleste
+72	272	bok	bok bøker boken boka bøkene bokens boker
+73	273	sterk	sterkt sterk sterke sterkere sterkeste sterkest
+74	274	mål	mål målet målene måla
+75	275	selge	selge selger solgt solgte selges selgere selgeren selg selgerne selgende
+76	276	spørre	spør spørre spurte spurt spurten spurter spørrende spurtet spurterne spurtene
+77	277	allerede	allerede
+78	278	full	full fullt fulle fullere fullest fulleste
+79	279	pris	pris prisen priser prisene
+80	280	bo	bor bo bodde bodd boende boret bora boet boa boen
+81	281	sikkert	sikkert
+82	282	betale	betale betalt betaler betalte betal betales betalende betaleren betalere
+83	283	krone	kroner kr krone kronen kronet krona kronene kron krones kronede
+84	284	hjem	hjem hjemmet hjemmene
+85	285	drepe	drept drepe drap dreper drepte drapet drapene drep drepes drepende
+86	286	altså	altså
+87	287	ganske	ganske
+88	288	videre	videre
+89	289	vente	venter vente ventet vent venta ventes ventende ventede
+90	290	spise	spise spiser spiste spist spis spises spisende
+91	291	vanlig	vanlig vanlige vanligste vanligere vanligst
+92	292	kort	kort korte kortere kortet kortene korteste kortest korta korter kortes
+93	293	drive	driver drive drevet drev drives driv drivende drevne dreiv drivere
+94	294	sjekke	sjekke sjekk sjekket sjekker sjekkes sjekka sjekken sjekkene
+95	295	hjelp	hjelp hjelpen hjelpa
+96	296	film	film filmen filmer filmene
+97	297	forhold	forhold forholdet forholdene forholda
+98	298	regjering	regjeringen regjering regjeringa regjeringer regjeringene
+99	299	begge	begge
+100	300	svært	svært

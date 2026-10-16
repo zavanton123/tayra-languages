@@ -1,0 +1,100 @@
+1	8501	omskrive	omskrevet omskrive omskriver omskrives omskrev
+2	8502	hippie	hippie hippier hippiene hippien
+3	8503	sjenerøs	sjenerøs sjenerøse sjenerøst
+4	8504	sosiolog	sosiolog sosiologer sosiologen sosiologene
+5	8505	sediment	sedimenter sedimentene sediment sedimentet
+6	8506	perfeksjon	perfeksjon perfeksjonen
+7	8507	pragmatisk	pragmatisk pragmatiske
+8	8508	kål	kål kålen
+9	8509	manøvrere	manøvrere manøvrer manøvrerte manøvrerer manøvrert manøvreres
+10	8510	romvesen	romvesener romvesen romvesenene romvesenet
+11	8511	avskyelig	avskyelig avskyelige
+12	8512	vannstand	vannstanden vannstand
+13	8513	uteligger	uteligger uteliggere uteliggeren uteliggerne
+14	8514	bagasjerom	bagasjerommet bagasjerom
+15	8515	klistre	klistret klistre klistrer klistra
+16	8516	fagkunnskap	fagkunnskap fagkunnskaper
+17	8517	avkall	avkall
+18	8518	bakpå	bakpå
+19	8519	dengang	dengang
+20	8520	derifra	derifra
+21	8521	futsal	futsal
+22	8522	innlysende	innlysende
+23	8523	tights	tights
+24	8524	verneutstyr	verneutstyr
+25	8525	øverstkommanderende	øverstkommanderende
+26	8526	styresmakt	styresmaktene styresmakter styresmakten
+27	8527	oppbygning	oppbygning oppbygningen
+28	8528	styrmann	styrmann styrmannen styrmenn
+29	8529	halsbånd	halsbånd halsbåndet halsband halsbåndene
+30	8530	kommunistparti	kommunistpartiet kommunistparti kommunistpartier kommunistpartiene
+31	8531	krater	krateret krater kratrene kratre
+32	8532	bølgelengde	bølgelengde bølgelengder bølgelengden bølgelengdene
+33	8533	gips	gips gipsen
+34	8534	gravplass	gravplass gravplassen gravplasser gravplassene
+35	8535	solcelle	solceller solcelle solcellene solcellen
+36	8536	tivoli	tivoli tivoliet tivolier
+37	8537	fotografering	fotografering fotograferingen
+38	8538	hjernedød	hjernedød hjernedøde hjernedødt
+39	8539	tilkobling	tilkobling tilkoblinger tilkoblingen tilkoblingene
+40	8540	lyspære	lyspære lyspærer lyspæren lyspærene lyspæra
+41	8541	tyrann	tyrann tyranner tyrannen tyrannene
+42	8542	hvitvasking	hvitvasking hvitvaskingen
+43	8543	eddik	eddik eddiken
+44	8544	velvilje	velvilje velviljen
+45	8545	infrarød	infrarød infrarødt infrarøde
+46	8546	spire	spire spirer spirende spiren spirene spira spirt
+47	8547	overblikk	overblikk overblikket
+48	8548	forræder	forræder forrædere forræderen forræderne
+49	8549	regelrett	regelrett regelrette
+50	8550	treig	treig treige treigt treigere
+51	8551	stemmeberettiget	stemmeberettigede stemmeberettiget stemmeberettigete
+52	8552	asteroide	asteroiden asteroide asteroider asteroidene
+53	8553	kappløp	kappløp kappløpet kappløpene
+54	8554	resirkulering	resirkulering resirkuleringen
+55	8555	blusse	blusset bluss blusser blusse blussene
+56	8556	privilegere	privilegert privilegerte
+57	8557	årsmelding	årsmelding årsmeldinger
+58	8558	forrest	forrest forreste
+59	8559	skyldfølelse	skyldfølelse skyldfølelsen skyldfølelser
+60	8560	uttrykkelig	uttrykkelig uttrykkelige
+61	8561	hodeskalle	hodeskallen hodeskalle hodeskaller hodeskallene
+62	8562	nattevakt	nattevakt nattevakten nattevakter nattevaktene
+63	8563	canadisk	canadiske canadisk
+64	8564	distributør	distributør distributører distributøren distributørene
+65	8565	fellestrekk	fellestrekk fellestrekkene fellestrekket
+66	8566	grenseland	grenseland grenselandet
+67	8567	østlending	østlendinger østlendingen østlendingene østlending
+68	8568	krokodille	krokodiller krokodille krokodillen krokodillene
+69	8569	konsumere	konsumere konsumerer konsumert konsumeres konsumerte
+70	8570	forvrenge	forvrengt forvrengte forvrenge forvrenger forvrenges
+71	8571	dobbeltmoral	dobbeltmoral dobbeltmoralen
+72	8572	tidsfrist	tidsfristen tidsfrist tidsfrister
+73	8573	nakenhet	nakenhet nakenheten
+74	8574	bemerkning	bemerkninger bemerkning bemerkningen bemerkningene
+75	8575	forgiftning	forgiftning forgiftninger forgiftningen
+76	8576	kodenavn	kodenavn kodenavnet kodenavnene
+77	8577	utrykk	utrykk utrykket
+78	8578	multinasjonal	multinasjonale multinasjonalt multinasjonal
+79	8579	biolog	biolog biologer biologen biologene
+80	8580	anarki	anarki anarkiet
+81	8581	urbefolkning	urbefolkningen urbefolkning urbefolkninger
+82	8582	orgel	orgel orgelet orgler orglet
+83	8583	knipse	knipse knipser knipset
+84	8584	smakebit	smakebit smakebiter
+85	8585	tegnspråk	tegnspråk tegnspråket
+86	8586	sovepose	sovepose soveposen soveposer soveposene
+87	8587	manisk	manisk maniske
+88	8588	triviell	trivielle trivielt triviell
+89	8589	førstedame	førstedame førstedamen førstedamer førstedamene
+90	8590	bekjempelse	bekjempelse bekjempelsen
+91	8591	moderere	modererer moderere moderert modererte modererende modereres moderer
+92	8592	firkant	firkant firkanten firkanter firkantene
+93	8593	dopapir	dopapir dopapiret
+94	8594	matbutikk	matbutikk matbutikker matbutikken matbutikkene
+95	8595	sve	sveen svea sve
+96	8596	basestasjon	basestasjoner basestasjon basestasjonen basestasjonene
+97	8597	klynge	klynger klynge klyngen klynget klyngene klynga
+98	8598	safari	safari safarien safarier
+99	8599	oljefelt	oljefelt oljefeltene oljefeltet oljefelter
+100	8600	tordenvær	tordenvær tordenværet

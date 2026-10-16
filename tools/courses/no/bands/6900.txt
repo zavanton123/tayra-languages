@@ -1,0 +1,100 @@
+1	6801	sabotere	sabotere sabotert saboterer saboterte
+2	6802	tiltro	tiltro tiltroen tiltrodd tiltrodde
+3	6803	talsperson	talsperson talspersoner talspersonene talspersonen
+4	6804	transportmiddel	transportmiddel transportmidler transportmiddelet transportmidlene transportmidlet
+5	6805	profeti	profeti profetier profetien profetiene
+6	6806	rustfri	rustfritt rustfrie rustfri
+7	6807	fotspor	fotspor fotsporene
+8	6808	sladder	sladder sladrer sladderen
+9	6809	oppsett	oppsett oppsettet
+10	6810	forskjellsbehandling	forskjellsbehandling forskjellsbehandlingen
+11	6811	legning	legning legningen legninger
+12	6812	sæd	sæd sæden
+13	6813	sikkerhetsråd	sikkerhetsråd sikkerhetsrådet
+14	6814	underjordisk	underjordiske underjordisk
+15	6815	utebli	uteblir uteble uteblitt utebli
+16	6816	trafikant	trafikanter trafikantene trafikanten trafikant
+17	6817	arkivere	arkivert arkivere arkiverte arkiveres arkiverer arkiver
+18	6818	gjenvelge	gjenvalgt gjenvelges gjenvalgte gjenvelge
+19	6819	knippe	knippe knippet
+20	6820	universitetssykehus	universitetssykehus universitetssykehuset universitetssykehusene
+21	6821	uttelling	uttelling uttellingen
+22	6822	stuss	stusser stusset stusse stuss stussen
+23	6823	begi	begir begi bega begitt begav
+24	6824	krystall	krystall krystaller krystallene krystallen krystallet
+25	6825	generøs	generøs generøse generøst
+26	6826	ikon	ikon ikoner ikonet ikonene
+27	6827	metafor	metafor metaforer metaforen metaforene
+28	6828	blåbær	blåbær blåbærene
+29	6829	bamse	bamse bamsen bamser bamsene
+30	6830	sammenfalle	sammenfaller sammenfallende sammenfalt sammenfalle
+31	6831	mige	mig megen
+32	6832	entusiastisk	entusiastisk entusiastiske
+33	6833	opinion	opinion opinionen
+34	6834	paprika	paprika paprikaen paprikaer
+35	6835	poengsum	poengsum poengsummen poengsummene poengsummer
+36	6836	syte	syte syter
+37	6837	frimerke	frimerker frimerke frimerkene frimerket
+38	6838	forkjølelse	forkjølelse forkjølelsen forkjølelser
+39	6839	intensitet	intensitet intensiteten
+40	6840	oppsette	oppsatt oppsatte oppsettende oppsette
+41	6841	falk	falk falken falker falkene
+42	6842	forkjemper	forkjemper forkjempere forkjemperne forkjemperen
+43	6843	kartverk	kartverket kartverk
+44	6844	optisk	optisk optiske
+45	6845	overtak	overtaket overtak
+46	6846	hovde	hovden hovde
+47	6847	syltetøy	syltetøy syltetøyet
+48	6848	parlamentarisk	parlamentarisk parlamentariske
+49	6849	bibelsk	bibelske bibelsk
+50	6850	rekkverk	rekkverk rekkverket rekkverkene
+51	6851	arkeolog	arkeologer arkeolog arkeologene arkeologen
+52	6852	hane	hanen hane haner hanene
+53	6853	stormakt	stormaktene stormakt stormakter stormakten
+54	6854	avl	avl avler avlen avlere
+55	6855	rehabilitere	rehabilitert rehabilitere rehabiliteres rehabiliterer rehabiliterte rehabiliterende
+56	6856	assisterende	assisterende
+57	6857	kronikkere	kronikker
+58	6858	nøtteskall	nøtteskall
+59	6859	utenforstående	utenforstående
+60	6860	snyte	snytt snyte snyter snøt
+61	6861	adel	adelen adel
+62	6862	hypotetisk	hypotetisk hypotetiske
+63	6863	minimere	minimere minimerer minimeres minimert
+64	6864	ukeblad	ukeblad ukeblader ukebladet ukebladene
+65	6865	kroppsbygning	kroppsbygning kroppsbygningen
+66	6866	flå	flå flådd flådde flår
+67	6867	boikotte	boikotte boikottet boikotter
+68	6868	strukturell	strukturelle strukturell strukturelt
+69	6869	forord	forord forordet
+70	6870	torden	torden tordenen
+71	6871	utrope	utropt utrope utropte utroper utropes utroperen
+72	6872	zombie	zombie zombier zombiene zombien
+73	6873	grådighet	grådighet grådigheten
+74	6874	kreativitet	kreativitet kreativiteten
+75	6875	motvillig	motvillig motvillige
+76	6876	tollvesen	tollvesenet tollvesen
+77	6877	indikator	indikator indikatorer indikatoren indikatorene
+78	6878	veilede	veilede veiledende veiledet veiledes
+79	6879	svangerskap	svangerskap svangerskapet
+80	6880	vegan	vegan veganer veganere
+81	6881	vedtekt	vedtekter vedtektene vedtekt vedtekten
+82	6882	levning	levningene levninger levning levningen
+83	6883	pisk	pisk pisken pisker
+84	6884	forutsi	forutsi forutsagt forutsier forutsa forutsies
+85	6885	fraksjon	fraksjoner fraksjon fraksjonene fraksjonen
+86	6886	fiksjon	fiksjon fiksjonen fiksjoner
+87	6887	privatskole	privatskoler privatskole privatskolen privatskolene
+88	6888	oppsyn	oppsyn oppsynet
+89	6889	dusin	dusin dusinet
+90	6890	meditasjon	meditasjon meditasjoner meditasjonen
+91	6891	ramle	ramler ramlet ramle ramla
+92	6892	hatefull	hatefulle hatefull hatefullt
+93	6893	heise	heist heise heises heiste heiser
+94	6894	surr	surr surret surrete
+95	6895	urfolk	urfolk urfolket urfolkene
+96	6896	støpe	støpt støpte støpe støpes støper støp
+97	6897	innrede	innredet innrede innreder innredes innredede
+98	6898	tvungen	tvungen tvungent
+99	6899	fille	filler fille filla fillene
+100	6900	utdødd	utdødd utdødde

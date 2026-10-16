@@ -1,0 +1,100 @@
+1	5701	plagsom	plagsomt plagsom plagsomme
+2	5702	julenisse	julenissen julenisse julenisser julenissene
+3	5703	erme	ermene ermet ermer erme erma
+4	5704	rotere	rotere roterer roter rotert roterte roteres
+5	5705	frafall	frafall frafallet
+6	5706	leiesoldat	leiesoldater leiesoldat leiesoldatene leiesoldaten
+7	5707	bataljon	bataljon bataljonen bataljoner bataljonene
+8	5708	kartlegging	kartlegging kartleggingen kartlegginger
+9	5709	snekker	snekker snekkere snekkeren snekkerne
+10	5710	splittelse	splittelse splittelsen splittelser splittelsene
+11	5711	assistanse	assistanse assistansen
+12	5712	medfødt	medfødt medfødte
+13	5713	radioaktiv	radioaktivt radioaktive radioaktiv
+14	5714	oljeindustri	oljeindustrien oljeindustri
+15	5715	herlighet	herlighet herligheten herligheter herlighetene
+16	5716	folkehelse	folkehelse folkehelsen folkehelsa
+17	5717	rikelig	rikelig rikelige
+18	5718	fabelaktig	fabelaktig fabelaktige
+19	5719	gjennomsiktig	gjennomsiktig gjennomsiktige
+20	5720	brasiliansk	brasilianske brasiliansk
+21	5721	sosialdemokratisk	sosialdemokratiske sosialdemokratisk
+22	5722	dagtid	dagtid
+23	5723	knull	knull
+24	5724	livstid	livstid
+25	5725	selvforsvar	selvforsvar
+26	5726	menneskeliv	menneskeliv menneskelivet
+27	5727	suite	suite suiten suiter suitene
+28	5728	bau	bauer bauen
+29	5729	rollespill	rollespill rollespillet rollespillene
+30	5730	kapell	kapellet kapell kapeller kapellene
+31	5731	interesseorganisasjon	interesseorganisasjoner interesseorganisasjon interesseorganisasjonen interesseorganisasjonene
+32	5732	vestside	vestsiden vestsida vestside
+33	5733	kløft	kløfta kløft kløften kløfter kløftene
+34	5734	trosse	trosser trosset trosse trossene trossa trossen
+35	5735	havbunn	havbunnen havbunn
+36	5736	aske	aske asken aska
+37	5737	duge	duger duge dugde
+38	5738	elendighet	elendighet elendigheten
+39	5739	avverge	avverge avverget avverges avverger
+40	5740	influensa	influensa influensaen
+41	5741	årstid	årstiden årstider årstidene årstid årstida
+42	5742	bestandig	bestandig bestandige
+43	5743	lemme	lem lemmer lemmene lemmen lemmet
+44	5744	dominans	dominans dominansen
+45	5745	snodig	snodig snodige
+46	5746	vending	vending vendinger vendingen vendingene
+47	5747	uhørt	uhørt uhørte
+48	5748	bekk	bekk bekker bekkene
+49	5749	landsmann	landsmenn landsmann landsmannen landsmennene
+50	5750	australsk	australske australsk
+51	5751	rullebane	rullebane rullebanen rullebaner rullebanene
+52	5752	slåsskamp	slåsskamp slåsskamper slåsskampen slåsskampene
+53	5753	sjømat	sjømat sjømaten
+54	5754	refleks	refleks reflekser refleksen refleksene
+55	5755	effektivisere	effektivisere effektivisert effektiviserer effektiviseres effektiviserte
+56	5756	vaktmester	vaktmesteren vaktmester vaktmestere vaktmesterne vaktmestre vaktmestrene
+57	5757	uhøflig	uhøflig uhøflige
+58	5758	skrivebord	skrivebordet skrivebord skrivebordene
+59	5759	ete	ete åt ette etes ett etende åta
+60	5760	kortvarig	kortvarig kortvarige
+61	5761	valgresultat	valgresultatet valgresultat valgresultatene valgresultater
+62	5762	hygiene	hygiene hygienen
+63	5763	appellere	appellere appellerer appellerte appellerende appellert appelleres
+64	5764	replikk	replikk replikker replikkene replikken
+65	5765	gjenskape	gjenskape gjenskapt gjenskaper gjenskapte gjenskapes gjenskap
+66	5766	sjalusi	sjalusi sjalusien
+67	5767	vilkårlig	vilkårlig vilkårlige
+68	5768	blid	blid blide blidt blidere
+69	5769	nappe	napp nappe nappet napper nappa nappes
+70	5770	dam	dam dammer dammene
+71	5771	vertskap	vertskap vertskapet
+72	5772	føye	føye føyer føyde føyd føyes føyet
+73	5773	konsentrasjonsleir	konsentrasjonsleir konsentrasjonsleirer konsentrasjonsleirene konsentrasjonsleiren
+74	5774	autonom	autonome autonom autonomt
+75	5775	eksplisitt	eksplisitt eksplisitte
+76	5776	uviktig	uviktig uviktige
+77	5777	stødig	stødig stødige stødigere stødigste
+78	5778	alliere	allierte alliere allierer allier
+79	5779	japaner	japanerne japanere japaneren japaner
+80	5780	koordinat	koordinater koordinatene koordinat koordinaten
+81	5781	henvende	henvender henvende henvendte henvendt henvend
+82	5782	atom	atom atomer atomene atomet
+83	5783	utvinning	utvinning utvinningen
+84	5784	tavle	tavle tavlen tavla tavler tavlene
+85	5785	straffelov	straffeloven straffelov
+86	5786	homofili	homofili
+87	5787	sentralbyrå	sentralbyrå
+88	5788	studiekompetanse	studiekompetanse
+89	5789	etterfølger	etterfølger etterfølgere etterfølgeren etterfølgerne
+90	5790	dramatikk	dramatikk dramatikken
+91	5791	kjeve	kjeven kjeve kjevene kjever
+92	5792	tørst	tørst tørste tørster tørsten tørstet
+93	5793	overfladisk	overfladisk overfladiske overflatisk
+94	5794	amfetamin	amfetamin amfetaminer amfetaminen
+95	5795	pulver	pulver pulveret
+96	5796	iskald	iskald iskaldt iskalde
+97	5797	kjennelse	kjennelse kjennelsen kjennelser kjennelsene
+98	5798	applikasjon	applikasjoner applikasjon applikasjonen applikasjonene
+99	5799	irakisk	irakiske irakisk
+100	5800	hovedårsak	hovedårsaken hovedårsakene hovedårsak hovedårsaker

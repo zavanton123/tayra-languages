@@ -1,0 +1,100 @@
+1	6901	krympe	krymper krympe krympet krympende krymp krympede krympes
+2	6902	implementering	implementering implementeringen implementeringer
+3	6903	destruktiv	destruktive destruktiv destruktivt
+4	6904	fortrenge	fortrengt fortrenge fortrenger fortrengte fortrenges
+5	6905	konsoll	konsollen konsoll konsoller konsollene
+6	6906	minneverdig	minneverdig minneverdige
+7	6907	eskalere	eskalere eskalerer eskalerte eskalert eskalerende eskaleres
+8	6908	biltrafikk	biltrafikk biltrafikken
+9	6909	øyenbryn	øyenbryn øyenbrynene øyenbrynet øyenbryna
+10	6910	gjenoppbygge	gjenoppbygge gjenoppbygd gjenoppbygget gjenoppbygges gjenoppbygger gjenoppbygde
+11	6911	back	backer backen backene
+12	6912	forarbeid	forarbeid forarbeidene forarbeidet forarbeider
+13	6913	siffer	siffer sifre sifrene sifferet
+14	6914	knivstikke	knivstukket knivstikke knivstakk knivstikker
+15	6915	fotfeste	fotfeste fotfestet
+16	6916	lass	lasset lass
+17	6917	knep	knep knepet knepene
+18	6918	konstatere	konstatert konstatere konstaterer konstaterte konstateres
+19	6919	utbedre	utbedre utbedret utbedres
+20	6920	lerret	lerret lerretet lerreter lerretene
+21	6921	tilskrive	tilskrives tilskrevet tilskrive tilskriver tilskrev
+22	6922	foresette	foresatte foresatt
+23	6923	omverden	omverdenen omverden
+24	6924	homoseksuell	homoseksuelle homoseksuell homoseksuelt
+25	6925	gærning	gærninger gærningene gærning gærningen
+26	6926	fullverdig	fullverdig fullverdige
+27	6927	derre	derre
+28	6928	frittstående	frittstående
+29	6929	godeste	godeste
+30	6930	grev	grev
+31	6931	halvannet	halvannet
+32	6932	landsdekkende	landsdekkende
+33	6933	maksimum	maksimum
+34	6934	milevis	milevis
+35	6935	tran	tran
+36	6936	trendy	trendy
+37	6937	uheldigvis	uheldigvis
+38	6938	knallhard	knallhardt knallhard knallharde
+39	6939	gullsmed	gullsmed gullsmeder gullsmeden gullsmedene
+40	6940	flette	flettet fletter flette flettes flett flettene flettede fletta fletten
+41	6941	overtro	overtro overtroen
+42	6942	brannstasjon	brannstasjon brannstasjonen brannstasjoner brannstasjonene
+43	6943	lin	lin linet
+44	6944	anliggende	anliggende anliggender anliggendet
+45	6945	maktposisjon	maktposisjoner maktposisjon maktposisjonen maktposisjonene
+46	6946	afghansk	afghanske afghansk
+47	6947	tut	tut tuter tuten tutet tuta
+48	6948	selektiv	selektiv selektive selektivt
+49	6949	utgiver	utgiver utgivere utgiveren utgiverne
+50	6950	helseproblem	helseproblemer helseproblem helseproblemene
+51	6951	pådriver	pådriver pådrivere pådriveren pådriverne
+52	6952	lokallag	lokallag lokallagene lokallaget
+53	6953	østside	østsiden østsida østside
+54	6954	valgfri	valgfritt valgfri valgfrie
+55	6955	evaluere	evaluere evaluert evaluerer evalueres evaluerte evaluer
+56	6956	treverk	treverk treverket
+57	6957	brorskap	brorskap brorskapet
+58	6958	dyreliv	dyreliv dyrelivet
+59	6959	rekkehus	rekkehus rekkehusene rekkehuset
+60	6960	appelsin	appelsin appelsiner appelsinen appelsinene
+61	6961	klubbe	klubben klubbe klubber klubbene klubba klubbet
+62	6962	kjønnsnøytral	kjønnsnøytral kjønnsnøytrale kjønnsnøytralt
+63	6963	patruljere	patruljerer patruljere patruljerte patruljer patruljert patruljerende patruljeres
+64	6964	idrettsforbund	idrettsforbund idrettsforbundet
+65	6965	livmor	livmoren livmor livmora
+66	6966	bortskjemt	bortskjemt bortskjemte
+67	6967	rikshospital	rikshospitalet rikshospital
+68	6968	utsending	utsending utsendinger utsendingene utsendingen
+69	6969	feilslått	feilslått feilslåtte
+70	6970	pilegrim	pilegrimer pilegrim pilegrimene pilegrimen
+71	6971	stemple	stemple stemples
+72	6972	treningsøkt	treningsøkt treningsøkter treningsøkten
+73	6973	fordrive	fordrevet fordrive fordrevne fordrev fordriver fordrives
+74	6974	madrass	madrassen madrass madrasser madrassene
+75	6975	oppreist	oppreist oppreiste
+76	6976	regissere	regissert regissere regisserte regisserer regisseres
+77	6977	flått	flått flåtten flåttene
+78	6978	svindle	svindlet svindle svindla svindles
+79	6979	oljeproduksjon	oljeproduksjon oljeproduksjonen
+80	6980	boksing	boksing boksingen
+81	6981	eksil	eksil eksilet
+82	6982	utstøte	utstøtt utstøtte utstøter utstøtes utstøte
+83	6983	uvant	uvant uvante
+84	6984	fordelaktig	fordelaktig fordelaktige
+85	6985	poetisk	poetisk poetiske
+86	6986	skit	skiten skit
+87	6987	kansler	kansler kansleren kanslere
+88	6988	elde	elden elder elde eld eldet elda
+89	6989	defekt	defekt defekter defekte defekten defektene
+90	6990	lufte	lufte luftet luftes
+91	6991	myndig	myndig myndige
+92	6992	teologisk	teologiske teologisk
+93	6993	forstad	forstedene forstaden forstad forsteder
+94	6994	arbeidsvilkår	arbeidsvilkår arbeidsvilkårene
+95	6995	syndebukk	syndebukk syndebukker syndebukken syndebukkene
+96	6996	tyne	tyne tyn tyner tynes
+97	6997	nasjonalsang	nasjonalsangen nasjonalsang nasjonalsanger nasjonalsangene
+98	6998	dure	dur duren durer dure duret
+99	6999	likesinnet	likesinnede likesinnet
+100	7000	attentat	attentatet attentat attentater attentatene

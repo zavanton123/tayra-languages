@@ -1,0 +1,100 @@
+1	2601	vogn	vogn vogner vognene vognen vogna
+2	2602	mobiltelefon	mobiltelefoner mobiltelefon mobiltelefonen mobiltelefonene
+3	2603	berøre	berørt berører berørte berøre berøres berør berørende
+4	2604	sjakk	sjakk sjakken
+5	2605	etterforskning	etterforskning etterforskningen etterforskninger etterforskningene etterforskninga
+6	2606	respons	respons responsen responser responsene
+7	2607	fartøy	fartøy fartøyet fartøyer fartøyene
+8	2608	basis	basis basisen
+9	2609	tilrettelegge	tilrettelagt tilrettelegge tilrettelegges tilrettelegger tilrettelagte tilrettela tilrettelegg
+10	2610	frigjøre	frigjøre frigjort frigjør frigjøres frigjorde frigjorte frigjørende
+11	2611	antyde	antyder antydet antyde antydes antydende
+12	2612	blokk	blokk blokker blokken blokka blokkene
+13	2613	vie	viet vie vier vidda viddene vidder vies vidd vidde vidden
+14	2614	eliteserie	eliteserien eliteserie
+15	2615	kamerat	kamerat kamerater kameratene kameraten
+16	2616	rus	rus ruset rusen rusa ruser rusede
+17	2617	kunstig	kunstig kunstige
+18	2618	potet	poteter potet potetene poteten
+19	2619	magasin	magasinet magasin magasiner magasinene
+20	2620	herfra	herfra
+21	2621	snitt	snitt
+22	2622	søren	søren
+23	2623	tilhørende	tilhørende
+24	2624	vell	vell
+25	2625	afrikansk	afrikanske afrikansk
+26	2626	vedlikehold	vedlikehold vedlikeholdet
+27	2627	forbruk	forbruk forbruket
+28	2628	forstyrre	forstyrret forstyrre forstyrrende forstyrrer forstyrres forstyrrede forstyrr forstyrra
+29	2629	svakhet	svakhet svakheter svakheten svakhetene
+30	2630	introdusere	introdusert introdusere introduserte introduserer introduseres introduser
+31	2631	ivrig	ivrig ivrige ivrigste ivrigst ivrigere
+32	2632	bom	bom bommer bommen bommene
+33	2633	muskel	muskler musklene muskel muskelen
+34	2634	avdekke	avdekket avdekke avdekker avdekkes avdekt avdekte avdekkende avdekkede avdekka
+35	2635	instrument	instrumenter instrument instrumentet instrumentene
+36	2636	realitet	realiteten realitet realitetene realiteter
+37	2637	annonse	annonsen annonse annonser annonsene
+38	2638	partere	parter partert partere parterte
+39	2639	frata	fratatt frata fratas fratar fratok
+40	2640	sans	sans sansen sansene sanser
+41	2641	jurist	jurister jurist juristene juristen
+42	2642	reparere	reparere reparert repareres reparerer reparerte reparer
+43	2643	forme	formet forme former formes formede formende formere formerer forma formerte
+44	2644	sorg	sorg sorgen sorger sorgene
+45	2645	slott	slottet slott slottene
+46	2646	tilsi	tilsier tilsi tilsa tilsagt
+47	2647	foss	foss fossen fosser fossene
+48	2648	elektronisk	elektronisk elektroniske
+49	2649	administrativ	administrative administrativ administrativt
+50	2650	lisens	lisens lisensen lisenser lisensene
+51	2651	mislike	misliker mislike mislikte mislikt
+52	2652	opprinnelse	opprinnelse opprinnelsen opprinnelser
+53	2653	tante	tante tanten tanter tanta tantene
+54	2654	etterspørsel	etterspørselen etterspørsel etterspørsler
+55	2655	ensom	ensom ensomme ensomt
+56	2656	grunnlov	grunnloven grunnlov grunnlover
+57	2657	enighet	enighet enigheten
+58	2658	link	linken linkene
+59	2659	stryke	stryke stryk stryker strøket strykes strykere strøkent strøken strykene stryken
+60	2660	bakover	bakover
+61	2661	desto	desto
+62	2662	nedenfor	nedenfor
+63	2663	nedre	nedre
+64	2664	neida	neida
+65	2665	særdeles	særdeles
+66	2666	skadelig	skadelig skadelige
+67	2667	forside	forsiden forside forsidene forsider forsida
+68	2668	feminist	feminist feminister feministene feministen
+69	2669	gris	gris griser grisen grisene
+70	2670	journalistikk	journalistikk journalistikken
+71	2671	vanvittig	vanvittig vanvittige
+72	2672	rekkefølge	rekkefølge rekkefølgen rekkefølger
+73	2673	naiv	naiv naive naivt
+74	2674	geografisk	geografisk geografiske
+75	2675	gitar	gitar gitaren gitarer gitarene
+76	2676	obligatorisk	obligatorisk obligatoriske
+77	2677	kopp	kopp kopper koppen koppene
+78	2678	uendelig	uendelig uendelige
+79	2679	sjokk	sjokk sjokket sjokka
+80	2680	helge	helge helges
+81	2681	protest	protest protester protestene protesten
+82	2682	konkludere	konkluderte konkluderer konkludere konkludert konkluderes konkluderende konkluder
+83	2683	alliert	allierte alliert
+84	2684	filosofi	filosofi filosofien filosofier
+85	2685	strategisk	strategisk strategiske
+86	2686	oppsummere	oppsummert oppsummerer oppsummere oppsummeres oppsummerte oppsummerende
+87	2687	biter	biter
+88	2688	hu	hu
+89	2689	jevnlig	jevnlig
+90	2690	mc	mc
+91	2691	vaksine	vaksiner vaksine vaksinen vaksinene
+92	2692	absurd	absurd absurde
+93	2693	skrift	skrift skrifter skriften skriftene skriftet skrifta
+94	2694	programvare	programvare programvaren programvarer
+95	2695	liter	liter literen
+96	2696	avslutning	avslutning avslutningen avslutninger avslutninga avslutningene
+97	2697	stål	stål stålet
+98	2698	innstilling	innstilling innstillinger innstillingen innstillingene instilling
+99	2699	flukt	flukt flukten flukter
+100	2700	islamsk	islamske islamsk

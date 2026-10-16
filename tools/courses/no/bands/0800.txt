@@ -1,0 +1,100 @@
+1	701	dø	dø døde dødd døende dødes dødde dødende
+2	702	besøk	besøk besøket besøkene
+3	703	sørge	sørge sørger sørget sørg sørgende sørga sørges
+4	704	forrige	forrige
+5	705	km	km
+6	706	omtrent	omtrent
+7	707	vm	vm
+8	708	linje	linje linjer linjen linjene linja
+9	709	tips	tips tipset tipsene tipsen tipsa
+10	710	hår	hår håret hårete hårene håra
+11	711	kjærlighet	kjærlighet kjærligheten kjærligheter kjærlighetene
+12	712	slite	sliter slite slitt slet slit sleit slites slitte slitet slitere
+13	713	naturlig	naturlig naturlige naturligste naturligere
+14	714	oppdage	oppdaget oppdage oppdaga oppdages oppdag oppdagede
+15	715	behandling	behandling behandlingen behandlinger behandlingene behandlinga
+16	716	sykehus	sykehus sykehuset sykehusene
+17	717	datter	datter datteren døtre døtrene dattera
+18	718	flink	flink flinke flinkere flinkeste flinkest flinkt
+19	719	pen	pent pen pene penere peneste penest
+20	720	forteller	forteller fortelleren fortellere fortellerne
+21	721	besøke	besøke besøkte besøkt besøker besøkende besøkes besøkere besøkerne besøkeren
+22	722	viss	viss visse visst
+23	723	fortjene	fortjener fortjent fortjente fortjene fortjenes
+24	724	skip	skip skipet skipene skipa
+25	725	studie	studier studie studiene studien
+26	726	ledelse	ledelse ledelsen ledelsene ledelser
+27	727	engang	engang
+28	728	tredje	tredje
+29	729	president	president presidenten presidenter presidentene
+30	730	salg	salg salget salgs salgene
+31	731	knytte	knyttet knytte knytter knyttes knytt knytta knyttede
+32	732	retning	retning retninger retningen retningene retninga
+33	733	motta	mottatt mottar motta mottok mottas mottatte mottakende
+34	734	beskytte	beskytte beskyttet beskytter beskyttes beskytt beskyttende beskyttede beskyttere beskytteren beskytta
+35	735	kraft	kraft krefter kraften kreftene krafta
+36	736	sjelden	sjelden sjeldent sjeldne sjeldnere sjeldneste
+37	737	gøy	gøy gøyere gøye gøyeste
+38	738	kunde	kunder kunde kundene kunden
+39	739	handel	handler handel handelen handlene handlere handleren
+40	740	utvikle	utvikle utvikler utviklere utvikles utviklerne utvikla utvikleren utviklende
+41	741	love	love lovet lover lovende lovte lovt lovede lova lovde lovd
+42	742	brenne	brenne brenner brent brant brente brennende brenn brennes brenneren brennere
+43	743	miljø	miljø miljøet miljøer miljøene
+44	744	versjon	versjon versjonen versjoner versjonene
+45	745	halv	halv halve halvt
+46	746	hvite	hvite hviten
+47	747	dessuten	dessuten
+48	748	takke	takke takket takker takken takka takkes takkete
+49	749	tilgjengelig	tilgjengelig tilgjengelige
+50	750	populær	populære populært populær
+51	751	fordel	fordel fordeler fordelen fordelene fordeleren
+52	752	øst	øst aust
+53	753	vold	vold volden
+54	754	bryte	bryte brutt brøt brytes brøyt brutte bryt braut brytende
+55	755	bane	banen bane baner banene ban banet bana bant banes bante
+56	756	årsak	årsaken årsak årsaker årsakene
+57	757	interessere	interessert interesserte interesserer interessere interesser
+58	758	ekte	ekte ektet ekt ekter
+59	759	fysisk	fysisk fysiske
+60	760	meter	meter meteren meterne
+61	761	kommentar	kommentar kommentarer kommentaren kommentarene
+62	762	aller	aller
+63	763	april	april
+64	764	mars	mars
+65	765	september	september
+66	766	ringe	ringe ringte ringer ringt ringes ringere ringet ringende ringeren ringa
+67	767	rapport	rapporten rapport rapporter rapportene
+68	768	produkt	produkter produkt produktet produktene
+69	769	svenske	svenske svenskene svensker svensken
+70	770	energi	energi energien energier energiene
+71	771	skaffe	skaffe skaffet skaffer skaff skaffes skaffa
+72	772	buss	bussen buss busser bussene
+73	773	søt	søt søte søtt søta søteste søtere søtet søtest
+74	774	fornøyd	fornøyd fornøyde
+75	775	ærlig	ærlig ærlige ærligere ærligste
+76	776	farge	farge farger fargen farget fargene fargede farges fargete farga farg
+77	777	kunnskap	kunnskap kunnskapen kunnskaper kunnskapene
+78	778	grunnlag	grunnlag grunnlaget grunnlagene
+79	779	ettersom	ettersom
+80	780	no	no
+81	781	nyheter	nyheter
+82	782	betydning	betydning betydningen betydninger betydninga betydningene
+83	783	dritt	dritt dritten drittet dritter
+84	784	tilbud	tilbud tilbudet tilbudene
+85	785	inneholde	inneholder inneholdt inneholde inneholdende
+86	786	hvit	hvit hvitt hvitere kvit hviteste
+87	787	nummer	nummer nummeret numre numrene
+88	788	foreslå	foreslår foreslått foreslo foreslå foreslåtte foreslås
+89	789	utgjøre	utgjør utgjøre utgjorde utgjort utgjøres
+90	790	kraftig	kraftig kraftige kraftigere kraftigste kraftigst
+91	791	konkurranse	konkurranse konkurransen konkurranser konkurransene konk
+92	792	hater	hater haterne hatere
+93	793	diskutere	diskutere diskuterer diskutert diskuteres diskuterte diskuter
+94	794	utviklet	utviklet utviklede utviklete
+95	795	beholde	beholde behold beholder beholdt beholdere beholderen beholdes beholderne beholdte
+96	796	moderne	moderne
+97	797	fange	fange fanget fanger fangene fang fangen fanges fangede fanga fangeren
+98	798	innbygger	innbyggere innbyggerne innbygger innbyggeren
+99	799	kvalitet	kvalitet kvaliteten kvaliteter kvalitetene
+100	800	modell	modell modellen modeller modellene

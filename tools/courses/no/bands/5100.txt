@@ -1,0 +1,100 @@
+1	5001	mannfolk	mannfolk mannfolka mannfolkene mannfolket
+2	5002	folkehøgskole	folkehøgskole folkehøgskolen folkehøgskoler folkehøgskolene
+3	5003	most	most moster mosten
+4	5004	lillesøster	lillesøster lillesøsteren lillesøstera lillesøstra
+5	5005	kjæledyr	kjæledyr kjæledyret kjæledyrene
+6	5006	brystholder	bh brystholder
+7	5007	nyfødt	nyfødte nyfødt
+8	5008	klinge	klinger klang klinge klangen klingende kling klingen klanger klingene
+9	5009	adskille	adskilt adskilte adskiller adskille atskille adskilles
+10	5010	astma	astma astmaen
+11	5011	konkurransedyktig	konkurransedyktig konkurransedyktige
+12	5012	robust	robuste robust
+13	5013	samleie	samleie samleiet samleier
+14	5014	diskriminere	diskriminere diskriminerende diskriminert diskriminerer diskrimineres diskriminerte
+15	5015	overkjøre	overkjørt overkjøre overkjører overkjørte overkjøres
+16	5016	redegjørelse	redegjørelse redegjørelsen redegjørelser redegjørelsene
+17	5017	hovedperson	hovedpersonen hovedpersonene hovedperson hovedpersoner
+18	5018	kur	kur kuren kurer kureren kurene kurerene
+19	5019	urealistisk	urealistisk urealistiske
+20	5020	komedie	komedie komedien komedier komediene
+21	5021	formasjon	formasjon formasjonen formasjoner formasjonene
+22	5022	pils	pils pilsen
+23	5023	fanden	fanden
+24	5024	splitter	splitter
+25	5025	forsikringsselskap	forsikringsselskapet forsikringsselskap forsikringsselskaper forsikringsselskapene
+26	5026	busk	busker busk busken buskene
+27	5027	urt	urter urt urtene urten
+28	5028	overlevelse	overlevelse overlevelsen
+29	5029	farfar	farfar farfaren
+30	5030	kurve	kurven kurve kurver kurvene kurvede kurva
+31	5031	smertefull	smertefull smertefullt smertefulle
+32	5032	rullestol	rullestol rullestolen rullestoler
+33	5033	levering	levering leveringen leveringer leveringene
+34	5034	nasjonalisme	nasjonalisme nasjonalismen
+35	5035	vanske	vansker vanskene
+36	5036	kvittering	kvittering kvitteringer kvitteringen kvitteringene
+37	5037	husholdning	husholdninger husholdning husholdningen husholdningene
+38	5038	misjon	misjon misjonen misjoner misjonene
+39	5039	framgang	framgang framgangen framganger
+40	5040	helbrede	helbrede helbredet helbredende helbreder helbred helbredes helbredere helbrederen
+41	5041	koordinere	koordinere koordinert koordinerte koordinerer koordinerende koordineres
+42	5042	loft	loftet loft loftene
+43	5043	vev	vev vevet vever veven vevene vevere veverne
+44	5044	erfare	erfarer erfart erfare erfarte erfares
+45	5045	fuktighet	fuktighet fuktigheten
+46	5046	salme	salme salmer salmen salmene
+47	5047	undergang	undergang undergangen underganger
+48	5048	asylmottak	asylmottak asylmottaket asylmottakene
+49	5049	monopol	monopol monopolet monopoler monopolene
+50	5050	smugle	smuglet smugle smuglere smugler smuglerne smugles smugleren
+51	5051	husdyr	husdyr husdyrene husdyra husdyret
+52	5052	organisme	organismer organisme organismen organismene
+53	5053	quisling	quisling quislinger
+54	5054	hogge	hugge hogg hogge hogd hogget hogde hogger hogges hogga
+55	5055	fangst	fangst fangsten fangstene fangster
+56	5056	velsignelse	velsignelse velsignelser velsignelsen velsignelsene
+57	5057	støt	støt støtet støtene
+58	5058	samsvar	samsvar samsvaret
+59	5059	romantikk	romantikk romantikken
+60	5060	katastrofal	katastrofale katastrofalt katastrofal
+61	5061	eksperimentere	eksperimentere eksperimenter eksperimenterte eksperimenterer eksperimentert eksperimenterende eksperimenteres
+62	5062	pakt	pakt pakten pakter
+63	5063	postkasse	postkassen postkasse postkassa postkasser postkassene
+64	5064	nakenbilde	nakenbilder nakenbilde nakenbildene nakenbildet
+65	5065	torsk	torsk torsken
+66	5066	tønne	tønne tønner tønnene tønna tønnen
+67	5067	samfunnsfag	samfunnsfag samfunnsfagene
+68	5068	ål	ål ålen åler ålene
+69	5069	hjemmekamp	hjemmekamper hjemmekamp hjemmekampen hjemmekampene
+70	5070	tommel	tommel tommelen tomler tomlene
+71	5071	skjelett	skjelett skjelettet skjeletter skjelettene
+72	5072	bl	bl
+73	5073	fancy	fancy
+74	5074	morgenblad	morgenbladet
+75	5075	overstått	overstått
+76	5076	prevensjon	prevensjon
+77	5077	boligmarked	boligmarkedet boligmarked
+78	5078	sutter	sutre sutrete sutrer sutra sutret sutrende
+79	5079	antikk	antikke antikken antikk antikt
+80	5080	rytme	rytme rytmen rytmer rytmene
+81	5081	banne	banne bannet bann banna bant bante
+82	5082	oppdragelse	oppdragelse oppdragelsen
+83	5083	drink	drinker drinken drinkene
+84	5084	moms	moms momsen
+85	5085	usedvanlig	usedvanlig usedvanlige
+86	5086	oppussing	oppussing oppussingen oppussinga
+87	5087	romme	rommer romme rommet rommes romma
+88	5088	høyreekstrem	høyreekstreme høyreekstrem høyreekstremt
+89	5089	utnyttelse	utnyttelse utnyttelsen
+90	5090	underskrive	underskrevet underskrive underskrev underskriver underskrives underskrevne underskrivere underskriverne
+91	5091	avling	avlinger avling avlingene avlingen avlinga
+92	5092	sammenlignbar	sammenlignbare sammenlignbar sammenlignbart sammenliknbar
+93	5093	sole	sole sola solt solte soler solet
+94	5094	ukrainsk	ukrainske ukrainsk
+95	5095	kollisjon	kollisjon kollisjonen kollisjoner kollisjonene
+96	5096	jungel	jungelen jungel jungler junglene
+97	5097	fryd	fryd fryder fryden
+98	5098	folketall	folketallet folketall
+99	5099	oppføring	oppføring oppføringen oppføringer oppføringene
+100	5100	høytid	høytid høytider høytiden høytidene høytida

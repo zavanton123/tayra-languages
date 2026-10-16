@@ -1,0 +1,100 @@
+1	8301	tanks	tanks tanksene tanksen tankser
+2	8302	virkelighetsoppfatning	virkelighetsoppfatning virkelighetsoppfatninger virkelighetsoppfatningen
+3	8303	utjevne	utjevne utjevner utjevnet utjevnes utjevnende
+4	8304	sylinder	sylinder sylinderen sylindere sylindre sylindrene sylinderne sylindrer
+5	8305	livssituasjon	livssituasjon livssituasjonen livssituasjoner
+6	8306	blunke	blunk blunke blunket blunker blunka
+7	8307	steinerskole	steinerskolen steinerskoler steinerskolene steinerskole
+8	8308	spilleregel	spillereglene spilleregler
+9	8309	gaffeltruck	truck trucken gaffeltruck gaffeltrucker
+10	8310	vade	vader vad vade vadere vadet
+11	8311	antidepressiv	antidepressiva antidepressive antidepressiver antidepressiv
+12	8312	liberalisme	liberalisme liberalismen
+13	8313	stasjonær	stasjonære stasjonær stasjonært
+14	8314	bedriten	bedritne bedriten bedritent
+15	8315	uren	uren urent urene
+16	8316	isbre	isbreer isbreen isbre isbreene
+17	8317	oppstilling	oppstilling oppstillingen oppstillinger oppstillingene
+18	8318	seig	seig seige seigt seigere
+19	8319	utryddelse	utryddelse utryddelsen utryddelser
+20	8320	nedlegge	nedlegge nedlegges nedla nedlegger nedlegg
+21	8321	monark	monark monarken monarker monarkene
+22	8322	kalkulere	kalkulert kalkulere kalkulerte kalkulerer kalkulerende kalkuleres
+23	8323	skolegård	skolegården skolegård skolegårder skolegårdene
+24	8324	insentiv	insentiver insentiv insentivene insentivet
+25	8325	grammatisk	grammatisk grammatiske
+26	8326	mangeårig	mangeårige mangeårig
+27	8327	strømforbruk	strømforbruket strømforbruk
+28	8328	tilbakeslag	tilbakeslag tilbakeslaget tilbakeslagene
+29	8329	gjenoppstå	gjenoppstår gjenoppstå gjenoppstått gjenoppsto gjenoppstod gjenoppståtte
+30	8330	vitnesbyrd	vitnesbyrd vitnesbyrdet vitnesbyrdene
+31	8331	tilbakekalle	tilbakekalle tilbakekall tilbakekalt tilbakekalles tilbakekaller tilbakekalte tilbakekallet
+32	8332	dagligtale	dagligtale dagligtalen
+33	8333	arte	arte artet
+34	8334	dildo	dildo dildoer dildoen
+35	8335	kjernekraftverk	kjernekraftverk kjernekraftverket kjernekraftverkene
+36	8336	fortolkning	fortolkning fortolkninger fortolkningen fortolkningene
+37	8337	fjellside	fjellsiden fjellsidene fjellsider fjellside fjellsida
+38	8338	kråke	kråke kråker kråkene kråka kråken
+39	8339	klønet	klønete klønet
+40	8340	renhet	renhet renheten
+41	8341	rekvirere	rekvirert rekvirere rekvirerte rekvirerer rekvireres
+42	8342	abba	abba
+43	8343	fremre	fremre
+44	8344	inngripen	inngripen
+45	8345	kjønnslemlestelse	kjønnslemlestelse
+46	8346	lungekreft	lungekreft
+47	8347	ryktes	ryktes
+48	8348	siemens	siemens
+49	8349	unektelig	unektelig
+50	8350	vietnamesisk	vietnamesisk vietnamesiske
+51	8351	gjengjeldelse	gjengjeldelse gjengjeldelser gjengjeldelsen
+52	8352	baug	baugen baug bauger
+53	8353	iscenesette	iscenesatt iscenesatte iscenesette iscenesetter
+54	8354	selvbilde	selvbilde selvbildet selvbilder
+55	8355	undersått	undersåtter undersåttene undersått
+56	8356	sentrere	sentrert sentrer sentrere sentrerer sentrerte sentreres
+57	8357	gong	gong gongen gonger
+58	8358	veve	vevd veve vevde veves vevet vever vevere veverne
+59	8359	kommissær	kommissær kommissæren kommissærer kommissærene
+60	8360	ereksjon	ereksjon ereksjonen ereksjoner
+61	8361	stemor	stemor stemoren stemora stemødre
+62	8362	pianist	pianist pianisten pianister pianistene
+63	8363	avbrudd	avbrudd avbruddet
+64	8364	gjenåpne	gjenåpnet gjenåpne gjenåpner gjenåpnes
+65	8365	glød	glød gløden gløder
+66	8366	lagringsplass	lagringsplass lagringsplassen lagringsplasser
+67	8367	klesplagg	klesplagg klesplagget klesplaggene
+68	8368	prospekt	prospekt prospektet prospekter prospektene
+69	8369	adjektiv	adjektiv adjektiver adjektivet adjektivene
+70	8370	vedvare	vedvarer vedvare vedvarte vedvart
+71	8371	oppblåst	oppblåst oppblåste
+72	8372	svigermor	svigermor svigermoren svigermødre svigermora
+73	8373	forfalskning	forfalskning forfalskninger forfalskningen forfalskningene
+74	8374	akselerasjon	akselerasjon akselerasjonen akselerasjoner
+75	8375	bjørk	bjørk bjørka bjørken bjørkene bjørker
+76	8376	skår	skår skåret skårene skåra
+77	8377	unyansert	unyansert unyanserte
+78	8378	lovløs	lovløse lovløs lovløst
+79	8379	erkjennelse	erkjennelse erkjennelsen erkjennelser
+80	8380	flyvåpen	flyvåpenet flyvåpen
+81	8381	jordisk	jordiske jordisk
+82	8382	hjertestans	hjertestans hjertestansen
+83	8383	ordforråd	ordforråd ordforrådet
+84	8384	ekstremist	ekstremister ekstremist ekstremistene ekstremisten
+85	8385	prosjektledelse	prosjektledelse prosjektledelsen
+86	8386	familieliv	familieliv familielivet
+87	8387	synkronisere	synkronisert synkronisere synkroniserte synkroniserer synkroniseres synkroniser
+88	8388	styresett	styresett styresettet
+89	8389	omveltning	omveltninger omveltning omveltningen omveltningene
+90	8390	røver	røvere røver røverne røveren
+91	8391	åre	åre årene åra årer åren
+92	8392	bever	bever beveren bevere beverne
+93	8393	kjetting	kjetting kjettinger kjettingen kjettingene
+94	8394	storsamfunn	storsamfunnet storsamfunn
+95	8395	vinterferie	vinterferien vinterferie
+96	8396	spirituell	spirituelle spirituell spirituelt
+97	8397	vakthold	vakthold vaktholdet
+98	8398	venstreorientert	venstreorienterte venstreorientert
+99	8399	byggeprosjekt	byggeprosjekter byggeprosjekt byggeprosjektet byggeprosjektene
+100	8400	unntakstilstand	unntakstilstand unntakstilstanden unntakstilstander

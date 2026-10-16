@@ -1,0 +1,100 @@
+1	6601	lotte	lotte lottene lotter lotten
+2	6602	silke	silke silken
+3	6603	kapsel	kapsel kapsler kapselen kapslene
+4	6604	signering	signering signeringen signeringer signeringene
+5	6605	kjøretur	kjøretur kjøreturen kjøreturer
+6	6606	optimisme	optimisme optimismen
+7	6607	ledetråd	ledetråd ledetråder ledetråden ledetrådene
+8	6608	overlappe	overlapper overlappende overlapp overlappe overlappet
+9	6609	krenkelse	krenkelse krenkelser krenkelsen krenkelsene
+10	6610	leiebil	leiebil leiebilen leiebiler leiebilene
+11	6611	tropisk	tropiske tropisk
+12	6612	skattelette	skattelette skatteletter skatteletten skattelettene
+13	6613	teleskop	teleskop teleskopet teleskoper teleskopene
+14	6614	diagram	diagram diagrammet diagrammer diagrammene
+15	6615	bevilgning	bevilgninger bevilgning bevilgningene bevilgningen
+16	6616	endeløs	endeløse endeløs endeløst
+17	6617	rasere	rasert raser rasere raserte raserer raseres
+18	6618	illustratør	illustratører illustratør illustratøren illustratørene
+19	6619	spiral	spiral spiralen spiraler spiralene
+20	6620	kortfilm	kortfilm kortfilmen kortfilmer kortfilmene
+21	6621	trappe	trappe trappet trappes
+22	6622	humanistisk	humanistiske humanistisk
+23	6623	videreføring	videreføring videreføringen videreføringer
+24	6624	fagbrev	fagbrev fagbrevet
+25	6625	regjeringsparti	regjeringspartiene regjeringsparti regjeringspartiet regjeringspartier
+26	6626	utålmodig	utålmodig utålmodige
+27	6627	innleie	innleie innleid innleide
+28	6628	jogge	jogge jogger jogget joggere jogga jogg
+29	6629	dyne	dyna dynen dyne dyner dynene
+30	6630	omvei	omvei omveier omveien
+31	6631	tiltenke	tiltenkt tiltenkte
+32	6632	punk	punk punken
+33	6633	mentor	mentor mentorer mentoren mentorene
+34	6634	stasjonere	stasjonert stasjonerte stasjonere stasjoneres stasjoner
+35	6635	utelatt	utelatt utelatte
+36	6636	forkjøle	forkjølet forkjøla forkjølt
+37	6637	biografi	biografi biografien biografier biografiene
+38	6638	amen	amen
+39	6639	ifjor	ifjor
+40	6640	medvirkende	medvirkende
+41	6641	niende	niende
+42	6642	riksrevisjon	riksrevisjonen
+43	6643	skitt	skitt
+44	6644	søken	søken
+45	6645	økokrim	økokrim
+46	6646	varamedlem	varamedlem varamedlemmer
+47	6647	udugelig	udugelig udugelige
+48	6648	gjenganger	gjenganger gjengangere gjengangerne gjengangeren
+49	6649	sekt	sekt sekten sekter sektene
+50	6650	intervensjon	intervensjon intervensjonen intervensjoner intervensjonene
+51	6651	utbygge	utbygd utbyggerne utbygger utbygde utbygges utbygge utbygg
+52	6652	ugle	ugler ugle ugla uglen uglene
+53	6653	feministisk	feministisk feministiske
+54	6654	storslått	storslått storslåtte
+55	6655	mandel	mandel mandler mandlene mandelen
+56	6656	vanvidd	vanvidd vanviddet
+57	6657	niese	niese niesen nieser niesa niesene
+58	6658	kloakk	kloakk kloakken kloakker
+59	6659	magnetisk	magnetisk magnetiske
+60	6660	isbjørn	isbjørn isbjørnen isbjørner isbjørnene
+61	6661	folde	folder fold foldet folde folden foldes foldene foldede folda foldete
+62	6662	telefonsamtale	telefonsamtaler telefonsamtale telefonsamtalen telefonsamtalene
+63	6663	abonnere	abonnere abonnerer abonnerte abonner abonnert
+64	6664	kontant	kontant kontante
+65	6665	pubertet	puberteten pubertet
+66	6666	martyr	martyr martyrer martyrene martyren
+67	6667	nybegynner	nybegynnere nybegynner nybegynneren nybegynnerne
+68	6668	maktkamp	maktkamp maktkampen maktkamper maktkampene
+69	6669	forbannelse	forbannelse forbannelsen forbannelser forbannelsene
+70	6670	suksessfull	suksessfulle suksessfull suksessfullt
+71	6671	immigrant	immigranter immigrant immigrantene immigranten
+72	6672	folkeskikk	folkeskikk folkeskikken
+73	6673	nattklubb	nattklubb nattklubber nattklubben nattklubbene
+74	6674	ert	erter ert ertene erten erta
+75	6675	helsevern	helsevern helsevernet
+76	6676	forbryter	forbrytere forbryter forbryteren forbryterne
+77	6677	manual	manual manualen manualer manualene
+78	6678	hank	hank hanker hanken hanka
+79	6679	forsvarsdepartement	forsvarsdepartementet forsvarsdepartement
+80	6680	sus	sus susen suset susete
+81	6681	målvakt	målvakt målvakten målvakter målvaktene
+82	6682	hybel	hybel hybler hybelen hyblene
+83	6683	målforskjell	målforskjell målforskjellen
+84	6684	belgisk	belgiske belgisk
+85	6685	amfi	amfi amfiet
+86	6686	nominasjon	nominasjonen nominasjoner nominasjon nominasjonene
+87	6687	elling	elling ellingen
+88	6688	bikini	bikini bikinien bikinier
+89	6689	berike	berike beriket beriker berikende berikes
+90	6690	familiegjenforening	familiegjenforening familiegjenforeninger
+91	6691	sigøyner	sigøynere sigøyner sigøynerne sigøyneren
+92	6692	fjernkontroll	fjernkontrollen fjernkontroll fjernkontroller fjernkontrollene
+93	6693	entydig	entydig entydige
+94	6694	usmakelig	usmakelig usmakelige
+95	6695	sild	sild silda silden
+96	6696	lykt	lykt lykter lyktene lykten lykta
+97	6697	eksperimentell	eksperimentell eksperimentelle eksperimentelt
+98	6698	fortrinn	fortrinn fortrinnene fortrinnet
+99	6699	hensynsløs	hensynsløs hensynsløse hensynsløst
+100	6700	hedde	hedda hedder hedde

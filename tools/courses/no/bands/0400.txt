@@ -1,0 +1,100 @@
+1	301	uansett	uansett
+2	302	valg	valg valget valgene valga
+3	303	leder	leder ledere lederen lederne
+4	304	slippe	slipper slippe slapp sluppet slappe slipp slippes slapper slappet slapt
+5	305	mulighet	mulighet muligheter muligheten mulighetene
+6	306	reise	reise reiser reiste reist reisen reisende reis reisene reises reisa
+7	307	skape	skape skaper skapt skapte skapet skap skapes skaperen skapene skapende
+8	308	riktig	riktig riktige riktigere riktigste
+9	309	enda	enda
+10	310	bak	bak baker baken bakeren bakere baka bakerne
+11	311	tillegg	tillegg tillegget tilleggene
+12	312	faen	faen
+13	313	unge	unge ungene unger ungen unga
+14	314	måned	måneder måned mm måneden månedene
+15	315	mat	mat maten
+16	316	tv	tv
+17	317	gruppe	gruppe grupper gruppen gruppene gruppa
+18	318	elske	elsker elske elsket elskede elsk elskere elskende elskeren elska elskes
+19	319	fire	fire fir firer fires fireren firere fira firte firt firet
+20	320	enig	enig enige
+21	321	bort	bort
+22	322	ca.	ca
+23	323	million	millioner million millionene millionen
+24	324	historie	historie historien historier historiene historia
+25	325	vinne	vinne vinner vunnet vinneren vinnere vinn vinnerne vinnes vinnende vinna
+26	326	løp	løpet løp løpene
+27	327	forskjellig	forskjellige forskjellig forskjelligste
+28	328	ingenting	ingenting
+29	329	per	per
+30	330	lure	lurer lurt lure lurte lur lura lureste lurere lures lurest
+31	331	fortsette	fortsette fortsetter fortsatte fortsett fortsettes fortsettende
+32	332	resultat	resultater resultat resultatet resultatene resultata
+33	333	sikker	sikker sikre sikret sikrer sikrere sikreste sikres sikrede sikrest sikra
+34	334	høyre	høyre høyrer høyra
+35	335	dersom	dersom
+36	336	form	form former formen formene formere formerer forma formerte formert formeres
+37	337	fort	fort fortere fortet fortest fortene fortatt forter
+38	338	snart	snart snarere snarest
+39	339	passe	passer passe pass passet passende passa passene passes passeren
+40	340	glad	glad glade gladere gladeste gladest
+41	341	politisk	politisk politiske
+42	342	hennes	hennes
+43	343	spesielt	spesielt
+44	344	lei	lei leie leier leid leide leit leies leia leien leieren
+45	345	lav	lavere lav lavt lave laveste lavest lava laver lavaen lågen
+46	346	parti	partiet parti partier partiene partiets partia
+47	347	samtidig	samtidig samtidige
+48	348	spill	spill spillet spillene spell spilla spella
+49	349	redd	redd redde reddet redder reddes redda reddere reddende reddede
+50	350	selskap	selskapet selskap selskaper selskapene
+51	351	skade	skade skadet skader skaden skadd skadene skadde skadede skada skades
+52	352	trekke	trekke trekker trekk trakk trukket trekkes trekket trekkene trekkende trekken
+53	353	fem	fem
+54	354	morgen	morgen morgenen morges morgener morgenene
+55	355	miste	mistet mister miste mista mist mistes mistede
+56	356	endre	endret endre endrer endres endrede endra endrende endrete
+57	357	natt	natt natten natta netter nettene
+58	358	særlig	særlig særlige
+59	359	poeng	poeng poenget poengene poenger
+60	360	utenfor	utenfor utafor
+61	361	dele	dele delt deler delte deles
+62	362	dame	damer dame dama damene damen
+63	363	flott	flott flotte flotteste flottere flottest flotter
+64	364	minutt	minutter minutt minuttene minuttet
+65	365	utrolig	utrolig utrolige utroligste
+66	366	sesong	sesongen sesong sesonger sesongene
+67	367	nettopp	nettopp
+68	368	flytte	flytte flyttet flytter flyttes flytt flytta flyttende flyttede
+69	369	svar	svar svaret svarene svara
+70	370	grad	grad grader graden gradene
+71	371	ende	ender endte ende enden endt end endene ending endelser endinger
+72	372	offentlig	offentlige offentlig
+73	373	hus	hus huset husene husa
+74	374	vann	vann vannet vatn vannene vanna
+75	375	type	type typen typer typene typ
+76	376	tur	tur turen turer turene
+77	377	dermed	dermed
+78	378	medlem	medlemmer medlem medlemmene medlemmet
+79	379	rekke	rekke rekker rakk rekken rukket rekka rekkene rakte rekk rakt
+80	380	krig	krig krigen kriger krigere krigens krigene krigerne krigeren
+81	381	politikk	politikk politikken politikker
+82	382	glemme	glemt glemme glemte glemmer glem glemmes glømte glømme
+83	383	artikkel	artikkel artikkelen artikler artiklene
+84	384	hjemme	hjemme heime heimer
+85	385	styre	styre styret styrer styrt styr styrte styres styrtet styrende styrter
+86	386	stoppe	stoppe stoppet stopper stopp stoppes stoppa stoppen stoppere stoppene stoppede
+87	387	kreve	krever kreve kreves krevende krevde krevd krev krevet
+88	388	vant	vant vante vantene vanter vantet
+89	389	nevne	nevnt nevnte nevne nevner nevnes nevn nevneren nevnere
+90	390	øye	øyne øynene øya øye øyet øyene øyer øyner øynet øynes
+91	391	hverandre	hverandre
+92	392	samt	samt
+93	393	ulik	ulike ulik ulikt
+94	394	medium	medier media mediene medium mediet
+95	395	ødelegge	ødelegge ødelagt ødelegger ødela ødeleggende ødelagte ødelegg ødelegges ødeleggeren
+96	396	antall	antall antallet antallene
+97	397	fri	fri fritt frie friere frir fridde fridd frieste fris
+98	398	fortelle	fortelle fortalte fortalt fortell fortelles fortellende
+99	399	regne	regnet regner regnes regne regn regna
+100	400	ellers	ellers

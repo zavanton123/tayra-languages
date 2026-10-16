@@ -1,0 +1,100 @@
+1	4101	hiv	hiv hiva
+2	4102	henvisning	henvisning henvisninger henvisningen henvisningene
+3	4103	terminal	terminal terminalen terminaler terminalene terminale
+4	4104	sær	sært sær sære særeste særere
+5	4105	konsern	konsernet konsern konserner konsernene
+6	4106	debutere	debuterte debuterer debutere debutert debuterende debuter
+7	4107	fjær	fjær fjæra fjærene fjæren fjærer
+8	4108	kjennetegn	kjennetegn kjennetegnet kjennetegnene
+9	4109	bestilling	bestilling bestillinger bestillingen bestillingene
+10	4110	tastatur	tastatur tastaturet tastaturer tastaturene
+11	4111	lom	lom lommen lommer lommene
+12	4112	ape	aper apene ape apen apa apt apes
+13	4113	feie	feie feide fei feid feier feiden feider feiet feies feieren
+14	4114	ektepar	ekteparet ektepar ekteparene
+15	4115	snitte	snittet snitter snitte snittene
+16	4116	kanin	kanin kaniner kaninen kaninene
+17	4117	avvik	avvik avviket avvikene
+18	4118	implementere	implementere implementert implementerer implementeres implementerte
+19	4119	kunngjøre	kunngjort kunngjorde kunngjøre kunngjør kunngjøres kunngjorte
+20	4120	symbolsk	symbolsk symbolske
+21	4121	andreplass	andreplass andreplassen annenplass andreplasser
+22	4122	stell	stella stell stellet
+23	4123	pute	pute puter puta putene puten
+24	4124	asfalt	asfalt asfalten
+25	4125	pule	pule pult puler pulten pul pulte pulter pultene pules
+26	4126	oppfinnelse	oppfinnelse oppfinnelsen oppfinnelser oppfinnelsene
+27	4127	kondom	kondomer kondom kondomet kondomene
+28	4128	klan	klanen klan klaner klanene
+29	4129	skytte	skytter skyttere skytteren skytterne skytten skytte
+30	4130	nevø	nevø nevøen nevøer nevøene
+31	4131	admiral	admiral admiralen admiraler admiralene
+32	4132	langsomt	langsomt
+33	4133	mari	mari
+34	4134	selvfølge	selvfølge
+35	4135	formidling	formidling formidlingen
+36	4136	forekomst	forekomst forekomsten forekomster forekomstene
+37	4137	anke	anke anket anken ankes anka ankene ankende
+38	4138	fane	fana fane fanen faner fanene
+39	4139	konvensjon	konvensjonen konvensjoner konvensjon konvensjonene
+40	4140	protokoll	protokollen protokoll protokoller protokollene
+41	4141	tilfredsstille	tilfredsstille tilfredsstiller tilfredsstilt tilfredsstilte tilfredsstilles
+42	4142	dusje	dusje dusjet dusjer
+43	4143	høne	høne høna høns høner hønene hønsene hønen
+44	4144	solo	solo soloen soloer soli soloene
+45	4145	geografi	geografi geografien
+46	4146	oppfinne	oppfunnet oppfant oppfinne oppfinnes
+47	4147	livredd	livredd livredde
+48	4148	høflig	høflig høflige høfligere
+49	4149	forurensning	forurensning forurensningen forurensninger forurensningene
+50	4150	sammenlagt	sammenlagt sammenlagte
+51	4151	hukommelse	hukommelse hukommelsen
+52	4152	aksept	aksept aksepten aksepter
+53	4153	hop	hop hoper hopen hopene
+54	4154	indikasjon	indikasjon indikasjoner indikasjonen indikasjonene
+55	4155	klode	kloden klode kloder
+56	4156	relativ	relativ relative
+57	4157	ørken	ørkenen ørken ørkener ørkenene
+58	4158	organisering	organisering organiseringen organiseringer organiseringa
+59	4159	arbeidsdag	arbeidsdag arbeidsdagen arbeidsdager arbeidsdagene
+60	4160	sjenert	sjenert sjenerte
+61	4161	drone	droner drone dronen dronene
+62	4162	blink	blink blinker blinken blinkene
+63	4163	hovedkontor	hovedkontor hovedkontoret hovedkontorene hovedkontorer
+64	4164	uff	uff uffa
+65	4165	nysgjerrighet	nysgjerrighet nysgjerrigheten
+66	4166	skitne	skitne skitnet skitner
+67	4167	provins	provinsen provins provinsene provinser
+68	4168	svin	svin svina svinet svinene
+69	4169	taktisk	taktisk taktiske
+70	4170	indeks	indeks indeksen indekser indeksene
+71	4171	vers	vers verset versa versene
+72	4172	republikk	republikken republikk republikker republikkene
+73	4173	tilegne	tilegne tilegnet tilegner tilegnes tilegnede
+74	4174	psykiatrisk	psykiatrisk psykiatriske
+75	4175	melodi	melodi melodier melodien melodiene
+76	4176	irsk	irsk irske
+77	4177	registrering	registrering registreringer registreringen registreringene
+78	4178	semester	semester semesteret semestre semestrene
+79	4179	basketball	basketball basketballen
+80	4180	elegant	elegant elegante
+81	4181	publikasjon	publikasjoner publikasjon publikasjonen publikasjonene
+82	4182	oppmøte	oppmøte oppmøtet
+83	4183	ironi	ironi ironien
+84	4184	att	att
+85	4185	hinsides	hinsides
+86	4186	hverandres	hverandres
+87	4187	kjempebra	kjempebra
+88	4188	skuffende	skuffende
+89	4189	lederskap	lederskap lederskapet
+90	4190	beliggenhet	beliggenhet beliggenheten beliggenheter
+91	4191	overgi	overgi overga overgitt overgir overgav overgis
+92	4192	styremedlem	styremedlem styremedlemmer styremedlemmene styremedlemmet
+93	4193	fortau	fortauet fortau fortauene fortauer
+94	4194	tove	tove tova toven toves tover
+95	4195	sovjet	sovjet sovjeterne sovjeter sovjetere sovjetene
+96	4196	klemme	klemme klemt klemmer klemte klemmes klemma
+97	4197	huse	huse huset huser huses hust husa
+98	4198	tie	tie tier tia tiet tiere tieren tidde tidd tierne
+99	4199	tromme	trommer tromme trommene trommen tromma trommet
+100	4200	utestenge	utestengt utestenge utestengte utestenges utestenger

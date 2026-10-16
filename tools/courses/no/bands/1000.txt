@@ -1,0 +1,100 @@
+1	901	bekrefte	bekreftet bekrefter bekrefte bekreftes bekreftede bekreft bekreftende bekrefta
+2	902	sikkerhet	sikkerhet sikkerheten
+3	903	fremover	fremover framover
+4	904	rike	rike riket riker rikene rikes rika
+5	905	møtes	møtes møttes
+6	906	trist	trist triste tristeste tristere
+7	907	oppføre	oppfører oppføre oppført oppførte oppføres oppfør
+8	908	lyd	lyd lyden lyder lydene
+9	909	innføre	innført innføre innførte innføres innfører innfør
+10	910	hendelse	hendelser hendelsen hendelse hendelsene
+11	911	helvete	helvete helvetet
+12	912	punkt	punkt punktet punkter punktene
+13	913	innsats	innsats innsatsen innsatser innsatsene
+14	914	bord	bord bordet bordene border borden borda
+15	915	bevis	bevis beviser bevisene beviset
+16	916	skifte	skifte skiftet skifter skift skiftes skiftende skifta skiftene
+17	917	uttrykk	uttrykk uttrykket uttrykkene
+18	918	enhver	enhver ethvert
+19	919	inntil	inntil
+20	920	rødt	rødt
+21	921	foregå	foregår foregikk foregå foregående foregått
+22	922	kone	kone kona koner konen kones konene
+23	923	øvrig	øvrig øvrige
+24	924	teknisk	teknisk tekniske
+25	925	trene	trene trent trente trenes tren trenet trenede
+26	926	øyeblikk	øyeblikk øyeblikket øyeblikkene
+27	927	hevde	hevder hevde hevdes hevd hevda
+28	928	tog	toget tog togene toga togaen
+29	929	oppmerksomhet	oppmerksomhet oppmerksomheten
+30	930	løfte	løfte løftet løfter løft løftes løftene løfta løfteren løftede løftere
+31	931	håp	håp håpet håpa håpene
+32	932	russisk	russiske russisk
+33	933	hav	havet hav havs havene hava
+34	934	hotell	hotell hotellet hoteller hotellene
+35	935	trener	trener trenere treneren trenerne trenert trenerer trenerte
+36	936	negativ	negative negativt negativ negativer negativene negativet
+37	937	bein	beina bein beinet beinene beint
+38	938	oversikt	oversikt oversikten oversikter oversiktene
+39	939	ramme	rammet rammer ramme rammene rammes ram rammen rammede ramma rammende
+40	940	konsekvens	konsekvenser konsekvensene konsekvens konsekvensen
+41	941	heldigvis	heldigvis
+42	942	liksom	liksom
+43	943	oppe	oppe
+44	944	relativt	relativt
+45	945	utover	utover
+46	946	flyktning	flyktninger flyktning flyktningene flyktningen
+47	947	posisjon	posisjon posisjoner posisjonen posisjonene
+48	948	luft	luft luften lufta lufter
+49	949	effektiv	effektiv effektivt effektive effektivere
+50	950	tøff	tøff tøft tøffe tøffere tøffeste tøffer tøffest tøffet
+51	951	bakke	bakken bakke bakkene bakker bakk bakka bakket bakkes
+52	952	herre	herre herrer herren herrene
+53	953	ball	ballen ball baller ballene ballet balla
+54	954	ansikt	ansiktet ansikt ansikter ansiktene
+55	955	leilighet	leilighet leiligheten leiligheter leilighetene leiligheta
+56	956	bestille	bestille bestilt bestilte bestiller bestill bestilles
+57	957	avdeling	avdeling avdelingen avdelinger avdelingene avdelinga
+58	958	sammenligne	sammenlignet sammenligne sammenligner sammenlignes sammenlign sammenlignende sammenligna
+59	959	tilgang	tilgang tilgangen tilganger tilgangene
+60	960	journalist	journalister journalist journalisten journalistene
+61	961	undersøkelse	undersøkelse undersøkelser undersøkelsen undersøkelsene
+62	962	episode	episode episoden episoder episodene
+63	963	tvinge	tvunget tvinge tvinger tvinges tvungne tving tvingende
+64	964	brann	brann brannen branner brannene
+65	965	vinter	vinter vinteren vintre vintrene vintrer vintere
+66	966	tillate	tillater tillatt tillate tillot tillates tillat tillatte
+67	967	lørdag	lørdag lørdagen lørdager lørdagene
+68	968	tegn	tegn tegnet tegner tegnene tegneren tegnere tegna tegnerne
+69	969	juni	juni
+70	970	normalt	normalt
+71	971	pr	pr
+72	972	spor	spor sporet sporene spora
+73	973	kald	kaldt kalde kald kaldere kaldeste kaldest
+74	974	oppnå	oppnå oppnådd oppnår oppnådde oppnås
+75	975	uavhengig	uavhengig uavhengige
+76	976	bred	bredt bred brede bredere bredeste bredest
+77	977	enorm	enorme enorm enormt
+78	978	streng	strengt strenge streng strengere strenger strengeste strengen strengene strengest
+79	979	registrere	registrert registrere registrerte registrer registrerer registreres
+80	980	soldat	soldater soldatene soldat soldaten
+81	981	internett	internett internettet
+82	982	frykt	frykt frykter frykten
+83	983	forandre	forandre forandret forandrer forandres forandra forandrede
+84	984	pasient	pasienter pasienten pasient pasientene
+85	985	opprette	opprettet opprette opprettes oppretter opprett oppretta opprettede
+86	986	dommer	dommer dommeren dommere dommerne
+87	987	kritisk	kritisk kritiske
+88	988	fisk	fisk fisken fisker fiskere fiskene fiskerne fiskeren
+89	989	utvalg	utvalg utvalget utvalgene
+90	990	psykisk	psykisk psykiske
+91	991	konge	konge kongen konger kongene
+92	992	ennå	ennå
+93	993	etterpå	etterpå
+94	994	forbi	forbi
+95	995	seng	senga seng sengen sengs senger sengene
+96	996	kule	kule kul kuler kuleste kula kulere kulen kulene kuling kulest
+97	997	tradisjonell	tradisjonelle tradisjonell tradisjonelt
+98	998	deilig	deilig deilige deiligste deiligere
+99	999	scene	scenen scene scener sene scenene sener senen sena senene
+100	1000	studere	studere studerer studert studerte studer studeres studerende

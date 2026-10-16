@@ -1,0 +1,100 @@
+1	7901	ukorrekt	ukorrekt ukorrekte
+2	7902	proporsjonal	proporsjonalt proporsjonal proporsjonale
+3	7903	rotasjon	rotasjon rotasjonen rotasjoner rotasjonene
+4	7904	fusjonere	fusjonerte fusjonert fusjonere fusjonerer fusjoneres fusjoner fusjonerende
+5	7905	julestemning	julestemning julestemningen
+6	7906	ufullstendig	ufullstendig ufullstendige
+7	7907	bussjåfør	bussjåføren bussjåfør bussjåfører bussjåførene
+8	7908	brettspill	brettspill brettspillet brettspillene
+9	7909	ordspill	ordspill ordspillet ordspillene
+10	7910	søle	søle søla søler sølt sølen sølte søles
+11	7911	grensesnitt	grensesnitt grensesnittet grensesnittene
+12	7912	inntektskilde	inntektskilde inntektskilder inntektskilden inntektskildene
+13	7913	globalisering	globalisering globaliseringen
+14	7914	umoralsk	umoralsk umoralske
+15	7915	klubbhus	klubbhus klubbhuset
+16	7916	spøke	spøke spøkte spøkt spøkende
+17	7917	neve	neve neven nevene
+18	7918	barnløs	barnløse barnløs barnløst
+19	7919	sykelig	sykelig sykelige
+20	7920	taushet	taushet tausheten
+21	7921	spesialisering	spesialisering spesialiseringen spesialiseringer
+22	7922	salto	salto saltoer
+23	7923	undring	undring undringen
+24	7924	lavmål	lavmål lavmålet
+25	7925	kupong	kupong kupongen kuponger kupongene
+26	7926	uvesentlig	uvesentlig uvesentlige
+27	7927	reservat	reservatet reservat reservater reservatene
+28	7928	telegram	telegram telegrammet telegrammer telegrammene
+29	7929	fjelltopp	fjelltopper fjelltopp fjelltoppen fjelltoppene
+30	7930	tøye	tøye tøyer tøyd tøyes tøyde
+31	7931	speile	speiler speilet speile speiles speilende speilte
+32	7932	innbyggertall	innbyggertall innbyggertallet
+33	7933	lydig	lydig lydige
+34	7934	funksjonalitet	funksjonalitet funksjonaliteten
+35	7935	drille	drill drillen driller drillet drille drilles
+36	7936	næringsstoff	næringsstoffer næringsstoffene næringsstoffet næringsstoff
+37	7937	usosial	usosial usosialt usosiale
+38	7938	oppringt	oppringt oppringte
+39	7939	hinte	hinter hinte hintes
+40	7940	akustisk	akustisk akustiske
+41	7941	småby	småby småbyer småbyen småbyene
+42	7942	parat	parat parate
+43	7943	elementær	elementær elementære elementært
+44	7944	plantasje	plantasjen plantasjer plantasje plantasjene
+45	7945	amin	amina amin aminer
+46	7946	brukervennlighet	brukervennlighet brukervennligheten
+47	7947	ranking	rankingen rankinger
+48	7948	underverk	underverker underverk underverkene underverket
+49	7949	infiltrere	infiltrere infiltrert infiltrerer infiltrerte
+50	7950	jødedom	jødedommen jødedom
+51	7951	mørketall	mørketall mørketallene
+52	7952	fremmedkriger	fremmedkrigere fremmedkrigerne fremmedkriger
+53	7953	nasjonalbibliotek	nasjonalbiblioteket nasjonalbibliotek
+54	7954	fenrik	fenrik fenriken
+55	7955	bartender	bartender bartendere bartenderen bartenderne
+56	7956	modernisering	modernisering moderniseringen moderniseringer
+57	7957	heit	heite heit heiteste heitere
+58	7958	inder	indere inderne inder inderen
+59	7959	personskade	personskader personskade
+60	7960	overfylt	overfylt overfylte
+61	7961	turnus	turnus turnusen
+62	7962	norskfødt	norskfødte norskfødt
+63	7963	støvsuger	støvsuger støvsugeren støvsugere
+64	7964	uforutsett	uforutsette uforutsett
+65	7965	dispensasjon	dispensasjon dispensasjoner dispensasjonen
+66	7966	barnevakt	barnevakt barnevakten barnevakter barnevaktene
+67	7967	forsinke	forsinke forsinker forsinka forsinkes forsinkende forsink
+68	7968	pågripelse	pågripelse pågripelsen pågripelser pågripelsene
+69	7969	agn	agn agnet agnene
+70	7970	menneskeverd	menneskeverd menneskeverdet
+71	7971	aktor	aktor aktorene aktoren
+72	7972	krukke	krukke krukker krukken krukkene krukka
+73	7973	oppfinner	oppfinner oppfinneren oppfinnere oppfinnerne
+74	7974	fortapt	fortapt fortapte
+75	7975	trylle	trylle tryllet tryller trylling tryll trylles
+76	7976	provokasjon	provokasjon provokasjoner provokasjonen provokasjonene
+77	7977	drittlei	drittlei
+78	7978	finansavis	finansavisen
+79	7979	forover	forover
+80	7980	hist	hist
+81	7981	innelåst	innelåst
+82	7982	overhånd	overhånd
+83	7983	pott	pott
+84	7984	revolusjonerende	revolusjonerende
+85	7985	seksten	seksten
+86	7986	snev	snev
+87	7987	uekte	uekte
+88	7988	kromosom	kromosomer kromosom kromosomene kromosomet
+89	7989	solkrem	solkrem solkremen solkremer
+90	7990	lungebetennelse	lungebetennelse lungebetennelsen
+91	7991	tokt	tokt toktene
+92	7992	ungdomstid	ungdomstiden ungdomstid ungdomstida
+93	7993	kikkert	kikkert kikkerten kikkerter kikkertene
+94	7994	regnskapsfører	regnskapsfører regnskapsførere regnskapsføreren
+95	7995	sørstat	sørstatene sørstater sørstat
+96	7996	troskap	troskap troskapen
+97	7997	oppklaring	oppklaring oppklaringen
+98	7998	transperson	transpersoner transperson
+99	7999	uteliv	uteliv utelivet
+100	8000	seriekamp	seriekamp seriekamper seriekampene seriekampen

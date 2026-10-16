@@ -1,0 +1,100 @@
+1	3701	forsyne	forsyne forsynt forsyner forsynte forsyn forsynes forsynet
+2	3702	kommunistisk	kommunistiske kommunistisk
+3	3703	frø	frø frøene frøet
+4	3704	nedsatt	nedsatt nedsatte
+5	3705	terskel	terskel terskelen terskler tersklene
+6	3706	arkitektur	arkitektur arkitekturen arkitekturer
+7	3707	bistå	bistår bistå bistått bisto bistod
+8	3708	beredskap	beredskap beredskapen
+9	3709	klinikk	klinikken klinikk klinikker klinikkene
+10	3710	velte	veltet velte velter velt velta velten veltede veltes
+11	3711	saksøke	saksøkt saksøke saksøker saksøkte saksøkerne saksøkes saksøkeren saksøkere
+12	3712	bakterie	bakterier bakteriene bakterien bakterie
+13	3713	skikk	skikk skikker skikken skikkene
+14	3714	egenhånd	egenhånd
+15	3715	hm	hm
+16	3716	jf.	jf
+17	3717	mentalt	mentalt
+18	3718	nor	nora
+19	3719	tipping	tipping
+20	3720	utenlands	utenlands
+21	3721	utfor	utfor
+22	3722	fetter	fetter fetteren fettere fetterne
+23	3723	misfornøyd	misfornøyd misfornøyde
+24	3724	transaksjon	transaksjoner transaksjonen transaksjon transaksjonene
+25	3725	usannsynlig	usannsynlig usannsynlige
+26	3726	quiz	quiz quizen quizer
+27	3727	etterretning	etterretning etterretningen etterretninger
+28	3728	ark	ark arket arken arkene arker arka
+29	3729	utdrag	utdrag utdraget utdragene
+30	3730	dimensjon	dimensjoner dimensjon dimensjonen dimensjonene
+31	3731	hurtig	hurtig hurtigere hurtige hurtigst hurtigste
+32	3732	overgå	overgår overgå overgått overgikk overgås
+33	3733	formel	formel formelen formler formlene
+34	3734	sommerfugl	sommerfugler sommerfugl sommerfuglene sommerfuglen
+35	3735	industriell	industrielle industriell industrielt
+36	3736	infeksjon	infeksjoner infeksjon infeksjonen infeksjonene
+37	3737	satire	satire satiren
+38	3738	ubåt	ubåt ubåten ubåter ubåtene
+39	3739	overvekt	overvekt overvekten
+40	3740	orientere	orientert orienterte orientere orienterer orienteres orienter orienterende
+41	3741	lunge	lungene lunger lunge lungen lunga
+42	3742	plakat	plakater plakaten plakat plakatene
+43	3743	bye	byen bye byer byene bya
+44	3744	pels	pels pelsen pelser pelsene
+45	3745	besitte	besatt besitter besitte besittes
+46	3746	frustrasjon	frustrasjon frustrasjonen frustrasjoner frustrasjonene
+47	3747	generere	generere genererer generert genereres genererte generer
+48	3748	ytring	ytringer ytring ytringen ytringene
+49	3749	standpunkt	standpunkt standpunkter standpunktet standpunktene
+50	3750	opprykk	opprykk opprykket
+51	3751	premiss	premisser premissene premiss premisset
+52	3752	brannvesen	brannvesenet brannvesen
+53	3753	skoleår	skoleåret skoleår skoleårene
+54	3754	biff	biff biffen biffene biffer
+55	3755	nåde	nåde nåden
+56	3756	løve	løven løve løver løvene løva
+57	3757	fremskrittsparti	fremskrittspartiet fremskrittsparti
+58	3758	straffbar	straffbart straffbare straffbar
+59	3759	skitten	skittent skitten skitneste skitnere
+60	3760	identisk	identisk identiske
+61	3761	val	val valen valer
+62	3762	bedrive	bedriver bedrive bedrevet bedrev bedrives
+63	3763	vedlikeholde	vedlikeholde vedlikeholdt vedlikeholder vedlikeholdes vedlikeholdte
+64	3764	tesla	tesla teslaen
+65	3765	titte	titte tittet titter titta tittes tittere titterne tittende
+66	3766	aktivere	aktivert aktivere aktiverer aktiveres aktiver aktiverte aktiverende
+67	3767	troverdighet	troverdighet troverdigheten
+68	3768	leketøy	leketøy leketøyet leketøyene
+69	3769	kvarter	kvarter kvarteret kvarterer kvarterene
+70	3770	gulrot	gulrot gulrøtter gulrøttene gulroten gulrota
+71	3771	landskamp	landskamper landskamp landskampen landskampene
+72	3772	eksistens	eksistens eksistensen eksistenser
+73	3773	gjennombrudd	gjennombrudd gjennombruddet gjennombruddene
+74	3774	tortur	tortur torturen torturer
+75	3775	eksklusiv	eksklusivt eksklusiv eksklusive
+76	3776	utpeke	utpekt utpekte utpeke utpeker utpekes
+77	3777	bake	bake bakt bakte bakes
+78	3778	kupp	kupp kuppet kuppene
+79	3779	opplagt	opplagt opplagte
+80	3780	alltids	alltids
+81	3781	deprimert	deprimert
+82	3782	dominerende	dominerende
+83	3783	førstnevnt	førstnevnte
+84	3784	gps	gps
+85	3785	koran	koranen
+86	3786	oransje	oransje
+87	3787	pokker	pokker
+88	3788	søndre	søndre
+89	3789	heroin	heroin heroinen
+90	3790	åsted	åstedet åsted åsteder åstedene
+91	3791	ørn	ørn ørnen ørner ørna ørnene
+92	3792	rettslig	rettslig rettslige
+93	3793	dump	dumpet dumpe dumper dump dumpa dumpes dumpen dumpere dumperen
+94	3794	formiddag	formiddag formiddagen formiddager
+95	3795	etterlyse	etterlyst etterlyser etterlyste etterlyses etterlyse
+96	3796	strikke	strikke strikker strikken strikk strikket strikkede strikka strikkes strikkene
+97	3797	transportere	transportere transportert transporteres transporterer transporterte transporter
+98	3798	etablering	etableringen etablering etableringer etableringa etableringene
+99	3799	redskap	redskap redskaper redskapet redskapene redskapen
+100	3800	eiendomsskatt	eiendomsskatt eiendomsskatten

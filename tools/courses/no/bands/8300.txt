@@ -1,0 +1,100 @@
+1	8201	slavehandel	slavehandelen slavehandel
+2	8202	farao	farao faraoen faraoene faraoer
+3	8203	gjengivelse	gjengivelse gjengivelsen gjengivelser
+4	8204	veinett	veinettet veinett
+5	8205	bergart	bergarter bergartene bergart bergarten
+6	8206	diplomati	diplomati diplomatiet
+7	8207	knokkel	knokler knoklene knokkelen knokkel
+8	8208	purke	purken purka purke purker purkene
+9	8209	kommandere	kommanderende kommandere kommandert kommanderte kommanderer kommanderes kommander
+10	8210	historiebok	historiebøkene historiebøker historiebok historieboka historieboken
+11	8211	forsegle	forseglet forsegle forseglede forsegler forsegles
+12	8212	utflukt	utflukt utflukter utflukten utfluktene
+13	8213	smarttelefon	smarttelefoner smarttelefon smarttelefonen
+14	8214	vannføring	vannføring vannføringen vannføringer vannføringa
+15	8215	kanel	kanel kanelen
+16	8216	urettmessig	urettmessig urettmessige
+17	8217	ryggsekk	ryggsekk ryggsekken ryggsekker ryggsekkene
+18	8218	smug	smug smuget smugene
+19	8219	funksjonær	funksjonærer funksjonær funksjonærene funksjonæren
+20	8220	utilstrekkelig	utilstrekkelig utilstrekkelige
+21	8221	delegere	delegert delegere delegerte delegerer delegeres deleger
+22	8222	skissere	skisserer skissert skisserte skisser skissere skisseres
+23	8223	overforbruk	overforbruk overforbruket
+24	8224	treningsstudio	treningsstudio treningsstudioet treningsstudioer
+25	8225	søkemotor	søkemotorer søkemotor søkemotoren søkemotorene
+26	8226	generalisere	generalisere generalisert generaliserer generaliserende generaliserte generaliseres
+27	8227	respondere	responderer respondere responderte respondert
+28	8228	fraråde	fraråder frarådet fraråde frarådes
+29	8229	leserinnlegg	leserinnlegg leserinnlegget
+30	8230	riksantikvar	riksantikvaren riksantikvar
+31	8231	søkeord	søkeord søkeordet
+32	8232	sement	sement sementen
+33	8233	sykkelfelt	sykkelfelt sykkelfeltet
+34	8234	strømpris	strømpriser strømprisene strømprisen strømpris
+35	8235	støl	støl stølen støle støler stølene
+36	8236	optimist	optimist optimister optimisten optimistene
+37	8237	kise	kisa kise
+38	8238	mølle	mølle mølla møllen møllene
+39	8239	berolige	berolige beroliget beroliger
+40	8240	øyekontakt	øyekontakt øyekontakten
+41	8241	ikle	ikle ikledd ikler
+42	8242	fagmiljø	fagmiljøer fagmiljøet fagmiljø fagmiljøene
+43	8243	atlas	atlas atlaset atlaser
+44	8244	sagn	sagn sagnet sagnene sagna
+45	8245	bis	bis
+46	8246	jamen	jamen
+47	8247	nøkkeltall	nøkkeltall
+48	8248	seksti	seksti
+49	8249	selvkritikk	selvkritikk
+50	8250	sjå	sjå
+51	8251	snowboard	snowboard
+52	8252	størstedel	størstedelen
+53	8253	uformelt	uformelt
+54	8254	vådeskudd	vådeskudd
+55	8255	forsprang	forsprang forspranget
+56	8256	foreldet	foreldet foreldede foreldete
+57	8257	ydmykelse	ydmykelse ydmykelsen ydmykelser ydmykelsene
+58	8258	vissen	visne visner visnet visnes vissent vissen
+59	8259	påkjenning	påkjenning påkjenninger påkjenningen påkjenningene
+60	8260	bomstasjon	bomstasjoner bomstasjon bomstasjonen bomstasjonene
+61	8261	reglement	reglementet reglement
+62	8262	nøktern	nøktern nøkternt nøkterne
+63	8263	rage	rager raga raget
+64	8264	halo	halo haloen
+65	8265	tilståelse	tilståelse tilståelsen tilståelser tilståelsene
+66	8266	nyutdannet	nyutdannede nyutdannet
+67	8267	galle	galle gallen
+68	8268	foredragsholder	foredragsholder foredragsholdere foredragsholderne
+69	8269	deig	deigen deig
+70	8270	seilas	seilas seilasen seilaser seilasene
+71	8271	fyldig	fyldig fyldige fyldigere
+72	8272	konstitusjonell	konstitusjonell konstitusjonelle konstitusjonelt
+73	8273	fratre	fratre fratrådte fratrer fratrådt fratres
+74	8274	dragon	dragon dragonene dragoner
+75	8275	tøyle	tøyler tøylene tøyle tøylet tøyles
+76	8276	havbruk	havbruk havbruket
+77	8277	utbrent	utbrent utbrente
+78	8278	ussel	usle ussel usselt usleste
+79	8279	slurk	slurk slurken
+80	8280	opphengt	opphengt opphengte
+81	8281	forsendelse	forsendelse forsendelsen forsendelser forsendelsene
+82	8282	seriegull	seriegull seriegullet
+83	8283	utøvelse	utøvelse utøvelsen
+84	8284	målstrek	målstreken målstrek
+85	8285	sikkerhetstjeneste	sikkerhetstjeneste sikkerhetstjenesten sikkerhetstjenester sikkerhetstjenestene
+86	8286	domenenavn	domenenavn domenenavnet domenenavnene
+87	8287	nøytralisere	nøytralisere nøytralisert nøytraliserer nøytraliseres nøytraliserte
+88	8288	kvikksølv	kvikksølv kvikksølvet
+89	8289	masseinnvandring	masseinnvandring masseinnvandringen
+90	8290	interkommunal	interkommunale interkommunalt interkommunal
+91	8291	injeksjon	injeksjon injeksjoner injeksjonen injeksjonene
+92	8292	sluse	sluser slusene sluse slusen sluset sluses slusa
+93	8293	overensstemmelse	overensstemmelse overensstemmelsen
+94	8294	kødde	kødda kødde køddete køddet
+95	8295	skapelse	skapelsen skapelse skapelser
+96	8296	kretsløp	kretsløp kretsløpet kretsløpene
+97	8297	spanjol	spanjoler spanjolen spanjol
+98	8298	horde	horder horde hordene horden
+99	8299	merking	merking merkingen merkinger
+100	8300	overdrivelse	overdrivelse overdrivelser overdrivelsene

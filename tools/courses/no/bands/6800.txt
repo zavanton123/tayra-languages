@@ -1,0 +1,100 @@
+1	6701	alkoholiker	alkoholiker alkoholikere alkoholikerne alkoholikeren
+2	6702	artilleri	artilleri artilleriet
+3	6703	scooter	scooter skuter scooteren scootere scooterne
+4	6704	uformell	uformelle uformell
+5	6705	forbigå	forbigått forbigående forbigå forbigår forbigås
+6	6706	inspektør	inspektør inspektøren inspektører inspektørene
+7	6707	brennevin	brennevin brennevinet
+8	6708	temperament	temperament temperamentet
+9	6709	automat	automat automaten automatene automater
+10	6710	varetekt	varetekt varetekten
+11	6711	sinnssyk	sinnssykt sinnssyk sinnssyke
+12	6712	kamel	kameler kamel kamelen kamelene
+13	6713	utestengelse	utestengelse utestengelsen utestengelser
+14	6714	innbytter	innbytter innbyttere innbytteren
+15	6715	motorvogn	motorvogn motorvogner motorvognen motorvognene
+16	6716	dirigere	dirigert dirigere dirigerer dirigerte dirigeres
+17	6717	amok	amok
+18	6718	antageligvis	antageligvis
+19	6719	hands	hands
+20	6720	pedofili	pedofili
+21	6721	spanjolene	spanjolene
+22	6722	villede	villedende villede villedet villeder
+23	6723	penny	penny pence
+24	6724	satsning	satsning satsningen satsninger
+25	6725	hvete	hvete hveten
+26	6726	samvær	samvær samværet
+27	6727	ordtak	ordtak ordtaket ordtakene
+28	6728	konvolutt	konvolutt konvolutten konvolutter konvoluttene
+29	6729	bevaring	bevaring bevaringen
+30	6730	paraply	paraply paraplyen paraplyer paraplyene
+31	6731	tilstå	tilsto tilstått tilstå tilstår tilstod tilstås
+32	6732	uetisk	uetisk uetiske
+33	6733	ubestemt	ubestemt ubestemte
+34	6734	sesjon	sesjon sesjonen sesjoner sesjonene
+35	6735	bing	bing bingen binger
+36	6736	seiling	seiling seilingen seilinger
+37	6737	regjeringskvartal	regjeringskvartalet regjeringskvartal
+38	6738	repetere	repetere repeterende repeterer repetert repeteres repeter repeterte
+39	6739	bosetning	bosetning bosetninger bosetningen bosetningene
+40	6740	sløv	sløv sløve sløvt sløver sløvet sløvende sløvere sløves
+41	6741	innebygd	innebygd innebygde
+42	6742	rim	rim rimet rimene rima
+43	6743	stable	stable stablet stabler stables
+44	6744	velvære	velvære velværet
+45	6745	blyant	blyant blyanter blyanten blyantene
+46	6746	netthandel	netthandel netthandelen
+47	6747	kristelig	kristelig kristelige
+48	6748	ubalanse	ubalanse ubalansen ubalanser
+49	6749	minke	minker minke minket minkende
+50	6750	ødegård	ødegård ødegården ødegårder
+51	6751	luftfuktighet	luftfuktighet luftfuktigheten
+52	6752	stride	stridende stride strides stred strider
+53	6753	revisor	revisor revisorer revisoren revisorene
+54	6754	eskorte	eskorte eskorter eskorten
+55	6755	helsesektor	helsesektoren helsesektor
+56	6756	aksjefond	aksjefond aksjefondet
+57	6757	inndra	inndratt inndra inndras inndro inndratte inndradd inndrar
+58	6758	blott	blottet blotte blott
+59	6759	planke	planken planker planke plankene
+60	6760	friluftsliv	friluftsliv friluftslivet
+61	6761	sofistikert	sofistikert sofistikerte
+62	6762	sexliv	sexliv sexlivet
+63	6763	hevne	hevne hevnet hevner hevnes hevnende hevneren hevnere hevnerne
+64	6764	frakk	frakk frakken frakker frakkene
+65	6765	ultralyd	ultralyd ultralyden
+66	6766	gry	gry gryende gryr grydde
+67	6767	rådmann	rådmann rådmannen rådmenn rådmennene
+68	6768	potetgull	potetgull potetgullet
+69	6769	fylkesvei	fylkesvei fylkesveier fylkesveg fylkesveien fylkesveiene
+70	6770	korridor	korridor korridoren korridorer korridorene
+71	6771	akvarium	akvariet akvarium akvarier
+72	6772	ligning	ligningen ligning ligninger ligningene
+73	6773	fiskeri	fiskeri fiskeriene fiskerier fiskeriet
+74	6774	vittig	vittig vittige
+75	6775	uhyggelig	uhyggelig uhyggelige
+76	6776	embete	embetet embete embeter embetene
+77	6777	rigg	riggen rigg rigger riggene
+78	6778	strø	strødd strø strør strødde strøs
+79	6779	apartheid	apartheid
+80	6780	banebrytende	banebrytende
+81	6781	beroligende	beroligende
+82	6782	dess	dess
+83	6783	hårreisende	hårreisende
+84	6784	mit	mit
+85	6785	palmeolje	palmeolje
+86	6786	unnagjort	unnagjort
+87	6787	velfungerende	velfungerende
+88	6788	rørlegger	rørlegger rørleggere rørleggeren rørleggerne
+89	6789	flora	flora floraen
+90	6790	mellomstor	mellomstore mellomstor mellomstort
+91	6791	skjenke	skjenket skjenke skjenker skjenkes
+92	6792	alias	alias aliaset aliaser aliasene
+93	6793	observatør	observatør observatører observatørene observatøren
+94	6794	kurant	kurant kurante
+95	6795	varg	varg vargen varger
+96	6796	ombestemme	ombestemte ombestemme ombestemmer ombestemt
+97	6797	bankkort	bankkort bankkortet
+98	6798	tariffavtale	tariffavtale tariffavtaler tariffavtalen tariffavtalene
+99	6799	animasjon	animasjon animasjoner animasjonen animasjonene
+100	6800	ugift	ugift ugifte

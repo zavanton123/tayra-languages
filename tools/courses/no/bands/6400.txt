@@ -1,0 +1,100 @@
+1	6301	selvinnsikt	selvinnsikt selvinnsikten
+2	6302	loke	loke lok lokes loket lokene loka loker
+3	6303	sørgelig	sørgelig sørgelige
+4	6304	konfrontasjon	konfrontasjon konfrontasjoner konfrontasjonen konfrontasjonene
+5	6305	gjensyn	gjensyn gjensynet
+6	6306	tufte	tufte tuftet tufter tuftene tuftes tufta tuften
+7	6307	dagsrevy	dagsrevyen dagsrevy
+8	6308	sosiologi	sosiologi sosiologien
+9	6309	baron	baron baronen baronene baroner
+10	6310	frispark	frispark frisparket
+11	6311	fartsgrense	fartsgrensen fartsgrense fartsgrenser fartsgrensene fartsgrensa
+12	6312	revy	revyen revy revyer revyene
+13	6313	milliardær	milliardærer milliardær milliardæren milliardærene
+14	6314	ulykkelig	ulykkelig ulykkelige
+15	6315	egyptisk	egyptiske egyptisk
+16	6316	sekundær	sekundær sekundære sekundært
+17	6317	yoghurt	yoghurt yoghurten
+18	6318	galakse	galaksen galakse galakser galaksene
+19	6319	larve	larver larvene larve larven
+20	6320	arbeidsgiveravgift	arbeidsgiveravgift arbeidsgiveravgiften
+21	6321	juletre	juletre juletreet juletrær juletrærne
+22	6322	bortføre	bortført bortførte bortføre bortfører bortføres
+23	6323	smed	smed smeden smeder smedene
+24	6324	estimat	estimat estimater estimatet estimatene
+25	6325	kardinal	kardinal kardinalen kardinalene kardinaler
+26	6326	blekk	blekk blekka
+27	6327	patron	patroner patron patronen patronene
+28	6328	rapportering	rapportering rapporteringen
+29	6329	utgå	utgått utgå
+30	6330	vertikal	vertikal vertikalt vertikale
+31	6331	broder	broder brødrene brødre broderen
+32	6332	golfbane	golfbane golfbanen golfbaner golfbanene
+33	6333	asylpolitikk	asylpolitikk asylpolitikken
+34	6334	nudel	nudler nudlene nudel
+35	6335	rangering	rangering rangeringen rangeringer rangeringene
+36	6336	rettmessig	rettmessig rettmessige
+37	6337	poengtere	poengterer poengtere poengterte poengtert poengteres
+38	6338	ressursbruk	ressursbruk ressursbruken
+39	6339	fornærmelse	fornærmelse fornærmelser fornærmelsen fornærmelsene
+40	6340	utkjempe	utkjempet utkjempe utkjempes utkjemper
+41	6341	veterinær	veterinær veterinæren veterinærer veterinærene veterinære
+42	6342	muliggjøre	muliggjør muliggjøre muliggjort muliggjorde muliggjøres muliggjørende
+43	6343	chill	chill
+44	6344	då	då
+45	6345	førstemann	førstemann
+46	6346	gladelig	gladelig
+47	6347	knall	knall
+48	6348	koffein	koffein
+49	6349	nyskapende	nyskapende
+50	6350	prima	prima
+51	6351	kline	kliner kline klint klinte klinten klina
+52	6352	snarvei	snarvei snarveier snarveien snarveiene
+53	6353	myse	mysen myse myser myst mys mysa myste
+54	6354	essens	essensen essens essenser
+55	6355	forankre	forankret forankre forankrede forankres forankra forankrer
+56	6356	latinsk	latinske latinsk
+57	6357	motbevise	motbevise motbevist motbeviser motbeviste motbevis motbevises
+58	6358	forfalske	forfalske forfalsket forfalskede forfalskes
+59	6359	avløse	avløst avløser avløse avløste avløses avløs avløseren avløsere
+60	6360	kjefte	kjefte kjeftet kjefta
+61	6361	sameting	sametinget sameting sametingene
+62	6362	diskret	diskret diskrete
+63	6363	håndheve	håndheve håndhevet håndheves
+64	6364	stigning	stigning stigningen stigninger stigningene
+65	6365	immunforsvar	immunforsvar immunforsvaret
+66	6366	privatisering	privatisering privatiseringen privatiseringer
+67	6367	kakao	kakao kakaoen
+68	6368	nedtur	nedtur nedturer nedturen nedturene
+69	6369	diplom	diplom diplomer diplomet diploma diplomene
+70	6370	kassett	kassett kassetten kassetter kassettene
+71	6371	førstevalg	førstevalg førstevalget førstevalgene
+72	6372	veivalg	veivalg veivalget
+73	6373	genuin	genuint genuin genuine
+74	6374	årgang	årgang årganger årgangen årgangene
+75	6375	fylkesting	fylkestinget fylkesting fylkestingene
+76	6376	skrå	skrått skrå skrår
+77	6377	marina	marina marinaen marinaer
+78	6378	misjonær	misjonærer misjonær misjonærene misjonæren
+79	6379	stunt	stunt stuntet stuntene
+80	6380	tilbehør	tilbehør tilbehøret
+81	6381	innehaver	innehaver innehaveren innehavere innehaverne
+82	6382	autoritær	autoritære autoritær autoritært
+83	6383	akke	akk akke
+84	6384	sentralbank	sentralbanken sentralbank sentralbanker sentralbankene
+85	6385	tredjeplass	tredjeplass tredjeplassen tredjeplasser
+86	6386	utførelse	utførelse utførelsen utførelser
+87	6387	delegat	delegater delegatene delegat delegaten
+88	6388	rederi	rederiet rederier rederi rederiene
+89	6389	gudinne	gudinne gudinnen gudinner gudinnene gudinna
+90	6390	forkastelig	forkastelig forkastelige
+91	6391	statisk	statisk statiske
+92	6392	fortrolig	fortrolig fortrolige
+93	6393	motpart	motparten motpart motparter motpartene
+94	6394	fagområde	fagområder fagområde fagområdet fagområdene
+95	6395	kåring	kåring kåringen kåringer kåringene
+96	6396	bankkonto	bankkonto bankkontoen bankkontoer bankkonti bankkontoene
+97	6397	overstige	overstiger overstige oversteg oversteget overstiges
+98	6398	havre	havre havren
+99	6399	videreutvikle	videreutviklet videreutvikle videreutvikles videreutvikler videreutviklede
+100	6400	religionsfrihet	religionsfrihet religionsfriheten

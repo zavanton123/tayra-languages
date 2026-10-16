@@ -1,0 +1,100 @@
+1	7601	arbeidsmiljø	arbeidsmiljø arbeidsmiljøet arbeidsmiljøer
+2	7602	slam	slam slammet
+3	7603	vals	vals valse valser valset valsen valsene valsede
+4	7604	utskrive	utskrevet utskrives utskrive utskrev
+5	7605	skråning	skråningen skråning skråninger skråningene skråninga
+6	7606	lukrativ	lukrative lukrativ lukrativt
+7	7607	snøscooter	snøscooter snøscootere snøskuter snøscooteren
+8	7608	hovedgrunn	hovedgrunnen hovedgrunnene hovedgrunn hovedgrunner
+9	7609	dagligvarebutikk	dagligvarebutikker dagligvarebutikk dagligvarebutikken dagligvarebutikkene
+10	7610	valgfrihet	valgfrihet valgfriheten
+11	7611	utpressing	utpressing utpressingen
+12	7612	hemmeligholde	hemmelighold hemmeligholdt hemmeligholde hemmeligholdes hemmeligholdte hemmeligholder
+13	7613	gryn	gryn grynet grynene
+14	7614	dynamitt	dynamitt dynamitten
+15	7615	forsoning	forsoning forsoningen
+16	7616	kroppsvekt	kroppsvekt kroppsvekten
+17	7617	romanse	romanse romansen romanser
+18	7618	loppe	lopper loppa loppe loppene loppen
+19	7619	titusen	titusener titusen
+20	7620	parameter	parameter parametre parametere parametrene parameteren parameterne
+21	7621	læreplan	læreplanen læreplaner læreplanene læreplan
+22	7622	grøsse	grøsser grøss grøssere grøsse grøsset grøsseren grøsserne
+23	7623	formodentlig	formodentlig
+24	7624	od	od
+25	7625	personangrep	personangrep
+26	7626	tilstedeværende	tilstedeværende
+27	7627	verdensklasse	verdensklasse
+28	7628	ving	ving
+29	7629	nisje	nisje nisjer nisjen nisjene
+30	7630	turbin	turbiner turbinene turbinen turbin
+31	7631	samordne	samordna samordne samordnet samordner samordnes samordnede samordnende
+32	7632	modifikasjon	modifikasjoner modifikasjon modifikasjonene modifikasjonen
+33	7633	kajakk	kajakk kajakker kajakken kajakkene
+34	7634	eiendomsmegler	eiendomsmegler eiendomsmeglere eiendomsmegleren eiendomsmeglerne
+35	7635	avfeie	avfeid avfeie avfeies avfeide avfeier avfeiet
+36	7636	erkebiskop	erkebiskopen erkebiskop erkebiskoper erkebiskopene
+37	7637	obligasjon	obligasjoner obligasjonene obligasjon obligasjonen
+38	7638	fascistisk	fascistiske fascistisk
+39	7639	akselerere	akselererer akselerere akselerert akselererende akselererte akselerer akselereres
+40	7640	tyngdekraft	tyngdekraften tyngdekraft
+41	7641	kroppsdel	kroppsdeler kroppsdel kroppsdelene kroppsdelen
+42	7642	tredel	tredel tredeler tredelen
+43	7643	trampe	trampe trampet tramp tramper trampes trampende trampa
+44	7644	juledag	juledag juledagen juledagene
+45	7645	pornografi	pornografi pornografien
+46	7646	bebo	bebodd bebodde bebor bebos bebo
+47	7647	kjernefysisk	kjernefysisk kjernefysiske
+48	7648	sersjant	sersjant sersjanten sersjanter sersjantene
+49	7649	boliglån	boliglån boliglånet
+50	7650	næringsrik	næringsrik næringsrike næringsrikt
+51	7651	feig	feig feigt feigeste
+52	7652	luftforsvar	luftforsvaret luftforsvar
+53	7653	fortvilelse	fortvilelse fortvilelsen
+54	7654	rekrutt	rekrutt rekruttene rekrutter rekrutten
+55	7655	huke	huk huke huket huker huka huken
+56	7656	bekjentskap	bekjentskap bekjentskaper bekjentskapet
+57	7657	deaktivere	deaktivert deaktivere deaktiver deaktiveres deaktiverer deaktiverte
+58	7658	omorganisering	omorganisering omorganiseringen omorganiseringer omorganiseringa
+59	7659	bjelle	bjeller bjelle bjella bjellene bjellen
+60	7660	midtstopper	midtstopper midtstoppere midtstopperen midtstopperne
+61	7661	enhetlig	enhetlig enhetlige
+62	7662	distansere	distansere distansert distanser distanserte distanserer
+63	7663	sesongstart	sesongstart sesongstarten
+64	7664	seriemesterskap	seriemesterskap seriemesterskapet seriemesterskapene
+65	7665	kjempestor	kjempestore kjempestor kjempestort
+66	7666	tornado	tornado tornadoen tornadoer tornadoene
+67	7667	kneble	kneble kneblet knebler knebles
+68	7668	depositum	depositum depositumet
+69	7669	reir	reir reiret reirene
+70	7670	medhjelper	medhjelper medhjelpere medhjelperen medhjelperne
+71	7671	naturvitenskap	naturvitenskap naturvitenskapen naturvitenskapene
+72	7672	salig	salig salige
+73	7673	rollefigur	rollefigur rollefiguren rollefigurene rollefigurer
+74	7674	hovedtema	hovedtema hovedtemaet hovedtemaer hovedtemaene
+75	7675	predikant	predikant predikanten predikanter predikantene
+76	7676	mesterliga	mesterligaen mesterliga
+77	7677	spådom	spådom spådommer spådommen spådommene
+78	7678	klype	klype klyper klypa kløp klypen kløpet klypene klyp
+79	7679	tykkelse	tykkelse tykkelsen tykkelser
+80	7680	lotteri	lotteri lotteriet lotterier
+81	7681	epidemi	epidemi epidemien epidemier epidemiene
+82	7682	anatomi	anatomi anatomien
+83	7683	uegnet	uegnet uegnede
+84	7684	duk	duk duken duker dukene
+85	7685	fruktbarhet	fruktbarhet fruktbarheten
+86	7686	fatal	fatale fatal fatalt
+87	7687	skurre	skurrer skurre skurrende skurres
+88	7688	gruvedrift	gruvedrift gruvedriften gruvedrifta
+89	7689	spionasje	spionasje spionasjen
+90	7690	bestige	bestige besteget besteg bestiger bestiges
+91	7691	tilbakefall	tilbakefall tilbakefallet
+92	7692	generisk	generisk generiske
+93	7693	simulere	simulere simulerer simulert simulerte simuleres
+94	7694	basket	basket
+95	7695	fortrinnsvis	fortrinnsvis
+96	7696	garde	garde
+97	7697	hvorpå	hvorpå
+98	7698	midtre	midtre
+99	7699	mode	mode
+100	7700	mos	mos

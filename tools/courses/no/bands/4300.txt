@@ -1,0 +1,100 @@
+1	4201	rehabilitering	rehabilitering rehabiliteringen rehabiliteringer
+2	4202	fortjeneste	fortjeneste fortjenesten fortjenester fortjenestene
+3	4203	avfyre	avfyrt avfyrte avfyre avfyres avfyrer
+4	4204	forsterker	forsterker forsterkere forsterkeren forsterkerne
+5	4205	lærebok	lærebøker lærebok læreboken lærebøkene læreboka
+6	4206	hekte	hekta hekte hektet hektene hekter hektes
+7	4207	laboratorium	laboratorium laboratoriet laboratorier laboratoriene
+8	4208	avvike	avviker avvikende avvike avvikere avvek avveket avvikes
+9	4209	konsekvent	konsekvent konsekvente
+10	4210	munk	munken munk munker munkene
+11	4211	familiemedlem	familiemedlemmer familiemedlem familiemedlemmene familiemedlemmet
+12	4212	utested	utesteder utested utestedet utestedene
+13	4213	sult	sult sultene
+14	4214	doktorgrad	doktorgrad doktorgraden doktorgrader doktorgradene
+15	4215	hyllest	hyllest hyllesten hyllester hyllestene
+16	4216	gjenkjenne	gjenkjenne gjenkjenner gjenkjent gjenkjente gjenkjennes gjenkjennende
+17	4217	livskvalitet	livskvalitet livskvaliteten
+18	4218	forvandle	forvandlet forvandle forvandler forvandles forvandlede
+19	4219	lengte	lengter lengtet lengte lengt lengtende lengten lengta
+20	4220	parkering	parkering parkeringen
+21	4221	kjeks	kjeks kjeksen kjeksene
+22	4222	utroskap	utroskap utroskapen
+23	4223	korrupt	korrupt korrupte
+24	4224	helle	helle helles hellende hellen hellet hella hellene helte
+25	4225	politidistrikt	politidistrikt politidistriktet politidistrikter politidistriktene
+26	4226	illusjon	illusjon illusjonen illusjoner illusjonene
+27	4227	etnisitet	etnisitet etnisiteter etnisiteten
+28	4228	iblant	iblant
+29	4229	oppsiktsvekkende	oppsiktsvekkende
+30	4230	à	à
+31	4231	tømmer	tømmer tømmeret
+32	4232	avsette	avsatt avsette avsatte avsettes avsetter avsett
+33	4233	hemme	hemmer hem hemmet hemme hemmende hemmes hemma hemmede
+34	4234	elektronikk	elektronikk elektronikken
+35	4235	forelske	forelsker forelske forelska
+36	4236	fremheve	fremheve fremhevet fremhever fremheves framheve fremhev
+37	4237	etterkommer	etterkommere etterkommer etterkommerne etterkommeren
+38	4238	frede	fredet fredete freda fredede frede fredes freder
+39	4239	egoistisk	egoistisk egoistiske
+40	4240	usunn	usunt usunn usunne
+41	4241	spekulasjon	spekulasjoner spekulasjon spekulasjonene spekulasjonen
+42	4242	evolusjon	evolusjon evolusjonen
+43	4243	utveksling	utveksling utvekslingen utvekslinger utvekslingene
+44	4244	hann	hann hannen hanner hannene
+45	4245	kompani	kompani kompaniet kompanier kompaniene
+46	4246	tyv	tyver tyven tyv tyvene tjuv
+47	4247	halvår	halvår halvåret
+48	4248	mysterium	mysterium mysteriet mysterier mysteriene
+49	4249	høylytt	høylytt høylytte
+50	4250	hijab	hijab hijaben
+51	4251	testamente	testamentet testamente testamenter testamentene
+52	4252	musikkvideo	musikkvideo musikkvideoen musikkvideoer musikkvideoene
+53	4253	spesifisere	spesifisert spesifisere spesifiserte spesifiserer spesifiseres spesifiser
+54	4254	pirat	pirat pirater piratene piraten
+55	4255	drøfte	drøfte drøftes drøftet drøfter drøft drøfta
+56	4256	hjerteinfarkt	hjerteinfarkt hjerteinfarktet
+57	4257	tappe	tappet tapper tappe tappert tapre tappes tapreste tappa
+58	4258	eske	esker eske esken eskene eska
+59	4259	blodig	blodig blodige blodigste blodigere
+60	4260	minske	minske minsker minsket minsk minskes minskende
+61	4261	klovn	klovn klovner klovnen klovnene
+62	4262	begivenhet	begivenheter begivenhet begivenhetene begivenheten
+63	4263	utleie	utleie utleier utleieren utleid utleiere utleide
+64	4264	fyre	fyre fyrte fyrt fyrer fyres
+65	4265	flørte	flørte flørter flørt flørtet flørtende flørten flørtete
+66	4266	strømme	strømme strømmet strømmer strømmende strømmes
+67	4267	overvåkning	overvåkning overvåkningen
+68	4268	krigføring	krigføring krigføringen
+69	4269	representasjon	representasjon representasjonen representasjoner representasjonene
+70	4270	bre	breen bredt bre brer bredd bredden bredte breer breene bredder
+71	4271	paranoid	paranoid paranoide
+72	4272	tillegge	tillagt tillegge tillegges tillegger tilla tillagte
+73	4273	godkjenning	godkjenning godkjenningen godkjenninger
+74	4274	holt	holt holter holtet holten holta
+75	4275	frustrerende	frustrerende
+76	4276	herr	herr
+77	4277	wifi	wifi
+78	4278	verdenscup	verdenscupen verdenscup
+79	4279	booke	book booket booker booke bookes
+80	4280	lønne	lønne lønnede lønte lønnes
+81	4281	psykiater	psykiater psykiateren psykiatere psykiaterne
+82	4282	katalog	katalog katalogen kataloger katalogene
+83	4283	gruppering	grupperinger gruppering grupperingene grupperingen
+84	4284	hefte	hefte heftet hefter heftene
+85	4285	ønskelig	ønskelig ønskelige
+86	4286	fornavn	fornavn fornavnet fornavnene
+87	4287	arab	arabere arab araberne araber araberen
+88	4288	veksle	veksler veksle vekslet vekslende veksles veksla
+89	4289	sulte	sulter sulte sultet sultende sulta
+90	4290	forbannet	forbannet forbannede
+91	4291	fiber	fiber fibre fibrene fiberen fibrer fibere
+92	4292	instruksjon	instruksjoner instruksjonene instruksjon instruksjonen
+93	4293	kongerike	kongeriket kongerike kongeriker kongerikene
+94	4294	parlament	parlamentet parlament parlamentene parlamenter
+95	4295	tiger	tiger tigre tigeren tigrene tigere tigerne
+96	4296	sertifisere	sertifisert sertifiserte sertifiserer sertifiseres sertifisere
+97	4297	festning	festning festningen festninger festningene
+98	4298	konfrontere	konfrontert konfrontere konfronterte konfronterer konfronterende konfronteres
+99	4299	løping	løping løpingen løpinga
+100	4300	åssen	åssen koss kossen

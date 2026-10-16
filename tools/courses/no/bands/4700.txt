@@ -1,0 +1,100 @@
+1	4601	kappe	kappe kappen kapper kappa kappene
+2	4602	berettige	berettiget berettigede berettiger berettige
+3	4603	sigarett	sigaretter sigarett sigaretten sigarettene
+4	4604	geologisk	geologiske geologisk
+5	4605	forsterkning	forsterkninger forsterkning forsterkningene forsterkningen
+6	4606	uoffisiell	uoffisielt uoffisielle uoffisiell
+7	4607	personale	personalet personale
+8	4608	arbeidsmiljølov	arbeidsmiljøloven arbeidsmiljølov
+9	4609	nyttår	nyttår nyttåret
+10	4610	byrde	byrde byrden byrder byrdene
+11	4611	realfag	realfag realfagene
+12	4612	synonym	synonymt synonym synonymer synonyme
+13	4613	utenfra	utenfra utenifra
+14	4614	anbud	anbud anbudet anbudene
+15	4615	mormor	mormor mormoren mormora
+16	4616	lansering	lansering lanseringen lanseringer lanseringa
+17	4617	oppsigelse	oppsigelse oppsigelsen oppsigelser oppsigelsene
+18	4618	abonnement	abonnement abonnementet abonnementer abonnementene
+19	4619	svømming	svømming svømmingen
+20	4620	sponsor	sponsorer sponsor sponsorene sponsoren
+21	4621	forstyrrelse	forstyrrelser forstyrrelse forstyrrelsen forstyrrelsene
+22	4622	axel	axel
+23	4623	jaha	jaha
+24	4624	isolasjon	isolasjon isolasjonen
+25	4625	promille	promille promillen
+26	4626	pastor	pastor pastoren pastorer pastorene
+27	4627	aldersgrense	aldersgrense aldersgrensen aldersgrenser aldersgrensene aldersgrensa
+28	4628	tildeling	tildeling tildelingen tildelinger tildelingene
+29	4629	markedsføre	markedsføre markedsført markedsfører markedsføres markedsførte markedsførere
+30	4630	granske	granske gransket gransker granskes granskerne granskere granskende granskeren
+31	4631	patrulje	patrulje patruljen patruljer patruljene
+32	4632	oppdagelse	oppdagelse oppdagelsen oppdagelser oppdagelsene
+33	4633	tobakk	tobakk tobakken
+34	4634	undervurdere	undervurdert undervurderer undervurdere undervurderte undervurder undervurderes
+35	4635	storebror	storebror storebroren storebrødre storebrødrene
+36	4636	dekorere	dekorert dekorerte dekorere dekorerer dekoreres dekorer
+37	4637	diamant	diamanter diamant diamanten diamantene
+38	4638	gründer	gründer gründere gründerne gründeren
+39	4639	jarl	jarl jarlen jarler jarlene
+40	4640	horisont	horisonten horisont horisonter horisontene
+41	4641	motbydelig	motbydelig motbydelige
+42	4642	øks	øks økser øksa øksen øksene
+43	4643	mineral	mineraler mineral mineralene mineralet
+44	4644	vås	vås våset
+45	4645	spandere	spandere spanderer spandert spanderte spander
+46	4646	koloni	kolonien koloni koloniene kolonier
+47	4647	motvirke	motvirke motvirker motvirket motvirkes motvirkende
+48	4648	serierunde	serierunde serierunder serierunden serierundene
+49	4649	rasmus	rasmus rasmusen
+50	4650	farvann	farvann farvannet farvannene
+51	4651	bedring	bedring bedringen bedringer
+52	4652	ærlighet	ærlighet ærligheten
+53	4653	kompromiss	kompromiss kompromisser kompromisset kompromissene
+54	4654	fasit	fasit fasiten
+55	4655	avstå	avstå avstår avsto avstått avstod
+56	4656	friidrett	friidrett friidretten
+57	4657	lampe	lampen lampe lamper lampene lampa
+58	4658	tretti	tretti tredve
+59	4659	sel	sel selen selene seler
+60	4660	trofast	trofast trofaste
+61	4661	kinn	kinnet kinn kinnene kinna kinner
+62	4662	sensurere	sensurert sensurere sensurerte sensurerer sensureres
+63	4663	palestinsk	palestinske palestinsk
+64	4664	klø	klør klø klødde klødd kløende
+65	4665	republikaner	republikanerne republikanere republikaner republikaneren
+66	4666	filosofisk	filosofisk filosofiske
+67	4667	rettsvesen	rettsvesenet rettsvesen
+68	4668	simpel	simple simpelt simpel simplere simpleste
+69	4669	skammelig	skammelig skammelige
+70	4670	sprang	sprang spranget sprangene
+71	4671	juice	juice juicen juicer
+72	4672	direktiv	direktiv direktivet direktiver direktivene
+73	4673	unnslippe	unnslippe unnslapp unnslipper unnsluppet
+74	4674	ambisiøs	ambisiøs ambisiøse ambisiøst
+75	4675	kollektivtrafikk	kollektivtrafikk kollektivtrafikken
+76	4676	humoristisk	humoristisk humoristiske
+77	4677	produktivitet	produktivitet produktiviteten
+78	4678	edel	edle edel edelt edleste edlere
+79	4679	samarbeidspartner	samarbeidspartnere samarbeidspartner samarbeidspartnerne samarbeidspartneren
+80	4680	oppnevne	oppnevnt oppnevnte oppnevnes oppnevne oppnevner
+81	4681	bemerke	bemerket bemerker bemerke bemerkes bemerk
+82	4682	omfavne	omfavne omfavner omfavnet omfavn omfavnes
+83	4683	trekant	trekant trekanten trekanter trekantene
+84	4684	nederlandsk	nederlandske nederlandsk
+85	4685	utenrikspolitikk	utenrikspolitikk utenrikspolitikken
+86	4686	grue	grue gruer grua gruet gruen grues
+87	4687	lidenskap	lidenskap lidenskapen lidenskaper lidenskapene
+88	4688	overvektig	overvektige overvektig
+89	4689	særegen	særegne særegen særegent
+90	4690	pussig	pussig pussige
+91	4691	promotere	promotere promoterer promotert promoterte promoteres promoter
+92	4692	dugnad	dugnad dugnaden dugnader dugnadene
+93	4693	rekruttering	rekruttering rekrutteringen
+94	4694	litterær	litterære litterær litterært
+95	4695	vokalist	vokalist vokalisten vokalister vokalistene
+96	4696	ruin	ruiner ruinene ruin ruinen
+97	4697	matematisk	matematisk matematiske
+98	4698	korps	korps korpset korpsene
+99	4699	borgermester	borgermester borgermesteren borgermestere borgermestre borgermestrene
+100	4700	nedrykk	nedrykk nedrykket

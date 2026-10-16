@@ -1,0 +1,100 @@
+1	4301	utslette	utslettet utslette utslett utsletter utslettes utslettene
+2	4302	megler	megler meglere megleren meglerne
+3	4303	eksportere	eksportere eksportert eksporteres eksporterer eksporterte eksporter
+4	4304	aktivist	aktivister aktivist aktivistene aktivisten
+5	4305	kommandør	kommandør kommandøren kommandører kommandørene
+6	4306	forfader	forfedre forfedrene forfader forfaderen
+7	4307	forsyning	forsyninger forsyning forsyningene forsyningen
+8	4308	solidaritet	solidaritet solidariteten
+9	4309	utslitt	utslitt utslitte
+10	4310	kukk	kuk kukk kukken kukker
+11	4311	regjere	regjere regjerende regjerte regjerer regjert regjeres
+12	4312	nærvær	nærvær nærværet
+13	4313	eksakt	eksakt eksakte
+14	4314	vannkraft	vannkraft vannkraften vasskraft
+15	4315	betegne	betegnes betegner betegnet betegne betegnende
+16	4316	visepresident	visepresident visepresidenten visepresidenter
+17	4317	legitim	legitimt legitime legitim
+18	4318	kiwi	kiwi kiwier kiwien
+19	4319	utenkelig	utenkelig utenkelige
+20	4320	kvartfinale	kvartfinale kvartfinalen kvartfinalene kvartfinaler
+21	4321	klein	klein kleine kleinere kleineste
+22	4322	maling	maling malingen malinger malinga
+23	4323	stimulere	stimulere stimulerer stimulerende stimulert stimuleres stimulerte
+24	4324	antrekk	antrekk antrekket antrekkene
+25	4325	utøy	utøya utøy
+26	4326	nøtt	nøtter nøttene nøtt nøtta nøtten
+27	4327	viktighet	viktigheten viktighet
+28	4328	seremoni	seremonien seremoni seremonier seremoniene
+29	4329	mikrofon	mikrofonen mikrofon mikrofoner mikrofonene
+30	4330	anlegge	anlagt anlegge anla anlegges anlagte anlegger
+31	4331	banner	banner banneret bannere bannerne
+32	4332	røpe	røpe røper røpet røpte røpes
+33	4333	nase	nasa nasen naser nase
+34	4334	apropos	apropos
+35	4335	fremragende	fremragende
+36	4336	hjemmefra	hjemmefra
+37	4337	lp	lp
+38	4338	overveldende	overveldende
+39	4339	selveste	selveste
+40	4340	su	su
+41	4341	sørøst	sørøst
+42	4342	tilsende	tilsendt
+43	4343	vedrørende	vedrørende
+44	4344	forkaste	forkastet forkaste forkaster forkastes forkastede forkast
+45	4345	sponse	sponset sponser sponse sponsede sponses sponsa
+46	4346	utdype	utdype utdypende utdypet utdyper utdyp utdypes
+47	4347	sirkus	sirkus sirkuset sirkusene
+48	4348	statue	statuen statue statuer statuene
+49	4349	grunnlegger	grunnlegger grunnleggeren grunnleggerne grunnleggere
+50	4350	markering	markering markeringen markeringer markeringene markeringa
+51	4351	opprettelse	opprettelsen opprettelse opprettelser
+52	4352	sysselsetting	sysselsetting sysselsettingen
+53	4353	løytnant	løytnant løytnanten løytnanter løytnantene
+54	4354	kure	kurt kure
+55	4355	verb	verb verbet verbene
+56	4356	lyde	lyde lød lyder lydende lydt
+57	4357	bombing	bombingen bombing bombingene bombinger bombinga
+58	4358	debattere	debattere debattert debatterer debatter debatteres debatterte
+59	4359	omringe	omringet omringe omringer omringes omring omringede
+60	4360	rettferdiggjøre	rettferdiggjøre rettferdiggjør rettferdiggjort rettferdiggjøres rettferdiggjorde
+61	4361	østlig	østlig østlige østligste
+62	4362	konvertere	konvertere konvertert konverterer konverterte konverteres konverter
+63	4363	mors	mors morset morsa
+64	4364	terrasse	terrasse terrassen terrasser terrassene
+65	4365	kvote	kvote kvoter kvoten kvotene
+66	4366	blø	blør blø blødende blødde blødd
+67	4367	progressiv	progressiv progressivt
+68	4368	tigger	tiggere tigger tiggerne tiggeren
+69	4369	gape	gap gapet gape gapende gaper gapte gapene
+70	4370	pest	pesten pest pesta pester
+71	4371	stirre	stirrer stirre stirret stirrende stirr stirra
+72	4372	revidere	revidert reviderte revidere revideres reviderer
+73	4373	sommerferie	sommerferien sommerferie sommerferier sommerferiene
+74	4374	undertrykkelse	undertrykkelse undertrykkelsen
+75	4375	rifle	rifle rifler riflen rifla riflene riflede
+76	4376	krem	krem kremen kremer kremene
+77	4377	støttespiller	støttespillere støttespiller støttespillerne støttespilleren
+78	4378	reportasje	reportasje reportasjer reportasjen reportasjene
+79	4379	ingrediens	ingredienser ingrediensene ingrediens ingrediensen
+80	4380	fremføre	fremført fremføre framføre fremførte fremfører fremføres framføres fremfør
+81	4381	deltagelse	deltagelse deltagelsen deltagelser
+82	4382	alfa	alfa alfaen
+83	4383	jordskjelv	jordskjelv jordskjelvet jordskjelvene
+84	4384	overnatte	overnatte overnattet overnatter overnattende overnatt
+85	4385	folkemord	folkemord folkemordet folkemordene
+86	4386	integritet	integritet integriteten
+87	4387	byrå	byrået byrå byråer byråene
+88	4388	ventetid	ventetid ventetiden ventetider ventetida
+89	4389	uansvarlig	uansvarlig uansvarlige
+90	4390	due	due duer duene duen dua duet dues
+91	4391	seksualitet	seksualitet seksualiteten
+92	4392	bag	bag bagen bager bagene
+93	4393	moské	moskeen moské moskeer moske moskeene moskéen moskéer
+94	4394	avskjed	avskjed avskjeden avskjeder
+95	4395	forfølgelse	forfølgelse forfølgelsen forfølgelser forfølgelsene
+96	4396	jordbær	jordbær jordbærene jordbæra jordbæret
+97	4397	brutalt	brutalt
+98	4398	følgelig	følgelig
+99	4399	terningkast	terningkast
+100	4400	hjertelig	hjertelig hjertelige hjerteligste

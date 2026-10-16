@@ -1,0 +1,100 @@
+1	9701	veiviser	veiviser veiviseren veivisere
+2	9702	fangeleir	fangeleir fangeleiren fangeleirene fangeleirer
+3	9703	brumme	brumm brum brummer brummende brumme
+4	9704	legekontor	legekontoret legekontor legekontorer legekontorene
+5	9705	pilar	pilar pilarer pilarene pilaren
+6	9706	sakke	sakke sakk sakker sakket sakka
+7	9707	tradisjonsrik	tradisjonsrike tradisjonsrik tradisjonsrikt
+8	9708	inklusiv	inklusiv inklusivt
+9	9709	postadresse	postadresse postadressen postadresser postadressene
+10	9710	kraftselskap	kraftselskap kraftselskaper kraftselskapene kraftselskapet
+11	9711	omforme	omforme omformet omformer omformes omformere omformeren
+12	9712	værmelding	værmeldingen værmelding værmeldinger værmeldinga værmeldingene
+13	9713	smågodt	smågodt smågodtet
+14	9714	utlede	utlede utledet utledes utleder
+15	9715	kjøkkensjef	kjøkkensjef kjøkkensjefen kjøkkensjefer
+16	9716	skuddveksling	skuddveksling skuddvekslingen skuddvekslinger
+17	9717	stjerneskudd	stjerneskudd stjerneskuddet
+18	9718	evangelisk	evangelisk evangeliske
+19	9719	bløff	bløff bløffen bløffer
+20	9720	fornektelse	fornektelse fornektelsen fornektelser
+21	9721	uføretrygd	uføretrygd uføretrygden
+22	9722	karamell	karamell karameller karamellen karamellene
+23	9723	leite	leite leiter leita leitet leitte leit
+24	9724	rutinemessig	rutinemessig rutinemessige
+25	9725	fyrstikk	fyrstikker fyrstikk fyrstikkene fyrstikken
+26	9726	fantasere	fantasere fantaserer fantaserte fantasert
+27	9727	abdisere	abdisere abdiserte abdisert abdiserer
+28	9728	strømforsyning	strømforsyning strømforsyningen strømforsyninger
+29	9729	lagune	lagunen lagune laguner lagunene
+30	9730	gruvearbeider	gruvearbeidere gruvearbeiderne gruvearbeider gruvearbeideren
+31	9731	kalsium	kalsium kalsiumet
+32	9732	dykking	dykking dykkingen
+33	9733	autonomi	autonomi autonomien
+34	9734	vegansk	vegansk veganske
+35	9735	tjern	tjern tjernet tjernene
+36	9736	detonere	detonerte detonert detonere detonerer detoneres
+37	9737	forhør	forhør forhørene forhøret
+38	9738	flytrafikk	flytrafikken flytrafikk
+39	9739	fyllekjøring	fyllekjøring fyllekjøringen
+40	9740	godbit	godbit godbiter godbiten godbitene
+41	9741	domfelle	domfelte domfelt domfelle
+42	9742	ekorn	ekorn ekornet ekornene
+43	9743	filmstjerne	filmstjerne filmstjerner filmstjernen filmstjernene filmstjerna
+44	9744	rime	rimer rime rimte rimet rima
+45	9745	hogst	hogst hogsten
+46	9746	puré	pure puré
+47	9747	bekjennelse	bekjennelse bekjennelser bekjennelsen
+48	9748	dogme	dogmer dogme dogmene dogmet dogma
+49	9749	kongepokal	kongepokal kongepokalen kongepokaler kongepokalene
+50	9750	jordsmonn	jordsmonn jordsmonnet
+51	9751	kolonisering	kolonisering koloniseringen
+52	9752	halvbror	halvbror halvbroren halvbrødre
+53	9753	sjøfugl	sjøfugl sjøfugler sjøfuglene
+54	9754	kvinnegruppe	kvinnegruppa kvinnegruppe kvinnegruppen kvinnegrupper
+55	9755	tyggis	tyggis tyggisen
+56	9756	størrelsesorden	størrelsesorden størrelsesordenen
+57	9757	utholde	utholdende utholde utholdt utholder
+58	9758	seksualisere	seksualisert seksualiserte seksualiserer seksualisere
+59	9759	jer	jer jeres
+60	9760	ruge	ruger ruge ruget ruges rugende
+61	9761	munter	munter muntert muntrere
+62	9762	kvantum	kvanta kvantum kvantumet
+63	9763	analogi	analogi analogien analogier analogiene
+64	9764	torn	torner torn tornene tornen
+65	9765	byggebransje	byggebransjen
+66	9766	forbausende	forbausende
+67	9767	høytstående	høytstående
+68	9768	nordpå	nordpå
+69	9769	opium	opium
+70	9770	roterende	roterende
+71	9771	sinus	sinus
+72	9772	spesialpedagogikk	spesialpedagogikk
+73	9773	stormskritt	stormskritt
+74	9774	særs	særs
+75	9775	trondheimsvei	trondheimsveien
+76	9776	veum	veum
+77	9777	kring	kring kringen
+78	9778	befolkningsutvikling	befolkningsutvikling befolkningsutviklingen
+79	9779	fellesnevner	fellesnevneren fellesnevner
+80	9780	felg	felgen felger felgene felg
+81	9781	medstudent	medstudenter medstudent medstudentene medstudenten
+82	9782	beleire	beleiret beleirede beleire beleirer
+83	9783	granitt	granitt granitten granitter
+84	9784	kvern	kvern kverner kverna kvernen kvernene
+85	9785	sugerør	sugerør sugerøret sugerørene
+86	9786	sommerleir	sommerleir sommerleiren sommerleirer
+87	9787	uproblematisk	uproblematisk uproblematiske
+88	9788	trompet	trompet trompeter trompeten trompetene trompeteren
+89	9789	gårdbruker	gårdbruker gårdbrukere gårdbrukerne gårdbrukeren
+90	9790	sanitet	sanitet saniteten
+91	9791	surrealistisk	surrealistisk surrealistiske
+92	9792	stappfull	stappfull stappfullt stappfulle
+93	9793	trilogi	trilogien trilogi
+94	9794	antisemittisk	antisemittiske antisemittisk
+95	9795	fosse	fosse fosser fosset fossa fosses fossende
+96	9796	forfatte	forfattet forfatte
+97	9797	implikasjon	implikasjoner implikasjonene implikasjonen implikasjon
+98	9798	fotografisk	fotografisk fotografiske
+99	9799	tegnefilm	tegnefilm tegnefilmer tegnefilmen tegnefilmene
+100	9800	subsidiere	subsidiert subsidiere subsidierte subsidierer subsidieres

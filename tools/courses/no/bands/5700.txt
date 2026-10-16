@@ -1,0 +1,100 @@
+1	5601	bemerkelsesverdig	bemerkelsesverdig bemerkelsesverdige
+2	5602	profitt	profitt profitten
+3	5603	kulturarv	kulturarv kulturarven
+4	5604	likeverdig	likeverdige likeverdig
+5	5605	gjenvalg	gjenvalg gjenvalget
+6	5606	orkan	orkan orkanen orkaner orkanene
+7	5607	årstall	årstall årstallet årstallene
+8	5608	islandsk	islandsk islandske
+9	5609	uvitenhet	uvitenhet uvitenheten
+10	5610	oppkjøring	oppkjøring oppkjøringen oppkjøringa
+11	5611	glans	glans glansen
+12	5612	komponist	komponist komponister komponisten komponistene
+13	5613	betalingsmur	betalingsmur betalingsmuren betalingsmurer
+14	5614	mafia	mafia mafiaen
+15	5615	mais	mais maisen
+16	5616	miljøparti	miljøpartiet miljøparti
+17	5617	tuberkulose	tuberkulose tb tuberkulosen
+18	5618	vitenskapsmann	vitenskapsmann vitenskapsmenn vitenskapsmannen vitenskapsmennene
+19	5619	kansellere	kansellert kansellere kansellerte kansellerer kanselleres kanseller
+20	5620	utsøkt	utsøkt utsøkte
+21	5621	ride	red ride rider ridende ridd raider rei rid rides reier
+22	5622	begripe	begrepet begriper begripe
+23	5623	flytur	flytur flyturen flyturer flyturene
+24	5624	utstrekning	utstrekning utstrekningen
+25	5625	fleksibilitet	fleksibilitet fleksibiliteten
+26	5626	bryggeri	bryggeri bryggeriet bryggerier bryggeriene
+27	5627	feige	feige feiger feiget feiga
+28	5628	baksete	baksetet baksete bakseter baksetene
+29	5629	infisere	infisert infiserte infisere infiserer infiseres
+30	5630	bekken	bekken bekkenet
+31	5631	triumf	triumf triumfer triumfen triumfene
+32	5632	velsigne	velsignet velsigne velsigner velsignede velsignes velsign velsigna
+33	5633	ballett	ballett balletten balletter ballettene
+34	5634	frigi	frigitt frigi frigir frigis frigitte friga
+35	5635	kollidere	kolliderte kolliderer kollidere kollidert kolliderende
+36	5636	kjele	kjele kjelen kjeler kjelene
+37	5637	ubehag	ubehag ubehaget
+38	5638	traktat	traktaten traktater traktat traktatene
+39	5639	forveksle	forveksles forvekslet forveksle forveksler
+40	5640	formannskap	formannskapet formannskap formannskapene
+41	5641	skurk	skurk skurker skurken skurkene
+42	5642	påtalemyndighet	påtalemyndigheten påtalemyndighet påtalemyndighetene påtalemyndigheter
+43	5643	skinke	skinke skinka skinken skinkene skinker
+44	5644	hov	hoven hov hover hovent hovet høver hovene høvene
+45	5645	motstå	motstå motstår motstående motstått motsto motstod
+46	5646	reservere	reservere reserverte reserverer reserver reserveres
+47	5647	akter	akter
+48	5648	beseiret	beseiret
+49	5649	faens	faens
+50	5650	norrønt	norrønt
+51	5651	oppsikt	oppsikt
+52	5652	tyve	tyve
+53	5653	verdensbasis	verdensbasis
+54	5654	anfall	anfall anfallene anfallet
+55	5655	salong	salongen salong salonger salongene
+56	5656	sykkelvei	sykkelvei sykkelveier sykkelveien sykkelveiene
+57	5657	varsom	varsom varsomt varsomme
+58	5658	børste	børste børster børst børsten børstet børstene børstes børsta
+59	5659	utilgjengelig	utilgjengelig utilgjengelige
+60	5660	varighet	varighet varigheten
+61	5661	oppta	opptar oppta opptok opptas
+62	5662	jus	jus jusen
+63	5663	ferdsel	ferdsel ferdselen
+64	5664	eter	eter eteren etere
+65	5665	skrog	skroget skrog skrogene
+66	5666	abonnent	abonnenter abonnentene abonnenten abonnent
+67	5667	tipse	tipse tipser tipset tipseren tipsere tipsa
+68	5668	innlemme	innlemmet innlemme innlemmes innlemmer
+69	5669	opptøyer	opptøyer opptøyene
+70	5670	intim	intime intimt intim
+71	5671	klepp	klepp kleppen
+72	5672	trossamfunn	trossamfunn trossamfunnet trossamfunnene
+73	5673	sushi	sushi sushien
+74	5674	forbrenning	forbrenning forbrenningen forbrenninger
+75	5675	nøle	nøle nøler nølte nøl nølende nølt
+76	5676	vaffel	vafler vaffel vaflene vaffelen
+77	5677	motsette	motsetter motsette motsett
+78	5678	filtrere	filtrere filtrerer filtrert filtreres filtrerte filtrer
+79	5679	farmor	farmor farmoren farmora
+80	5680	målestokk	målestokk målestokken målestokker
+81	5681	hamre	hamre hamret hamres hamrer hamra hamrende
+82	5682	absorbere	absorbere absorberer absorbert absorberes absorberende absorberte absorbering absorber
+83	5683	innblande	innblandet innblandede innblanda
+84	5684	medvirke	medvirket medvirker medvirke
+85	5685	pant	pant panter pantet panten panteren panta pantere pantene
+86	5686	medvirkning	medvirkning medvirkningen
+87	5687	ankel	ankelen anklene ankel ankler
+88	5688	innsamling	innsamling innsamlingen innsamlinger innsamlingene
+89	5689	reiseliv	reiseliv reiselivet
+90	5690	gruppespill	gruppespill gruppespillet
+91	5691	prosessor	prosessor prosessorer prosessoren prosessorene
+92	5692	vokal	vokal vokaler vokalen vokale vokalene vokalt
+93	5693	hagle	hagle hagler hagla haglet haglen haglene
+94	5694	nettbrett	nettbrett nettbrettet
+95	5695	ishockey	ishockey ishockeyen
+96	5696	utrygg	utrygg utrygge utrygt
+97	5697	beite	beite beiter beitet beit beitende beitene beites beita
+98	5698	skisse	skisser skisse skissen skissene
+99	5699	polakk	polakker polakkene polakk polakken
+100	5700	forutsigbar	forutsigbar forutsigbart forutsigbare

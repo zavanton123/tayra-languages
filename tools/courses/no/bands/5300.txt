@@ -1,0 +1,100 @@
+1	5201	valgkrets	valgkrets valgkretser valgkretsen valgkretsene
+2	5202	hindring	hindringer hindring hindringen hindringene
+3	5203	ergo	ergo
+4	5204	oppdrett	oppdrett
+5	5205	påfyll	påfyll
+6	5206	sannelig	sannelig
+7	5207	statsvitenskap	statsvitenskap
+8	5208	uvitende	uvitende
+9	5209	linn	linn linnes linna linne
+10	5210	kiosk	kiosk kiosken kiosker kioskene
+11	5211	demonstrant	demonstranter demonstrantene demonstrant
+12	5212	kjemikalie	kjemikalier kjemikaliene kjemikalie
+13	5213	duell	duell duellen dueller duellene
+14	5214	innskudd	innskudd innskuddet innskuddene
+15	5215	spesifikasjon	spesifikasjoner spesifikasjonene spesifikasjon spesifikasjonen
+16	5216	empirisk	empirisk empiriske
+17	5217	merkevare	merkevare merkevaren merkevarer merkevarene
+18	5218	uttak	uttak uttaket uttakene
+19	5219	gjenvinne	gjenvinne gjenvunnet gjenvinner gjenvinnes gjenvant gjenvunne
+20	5220	bosted	bosted bostedet bosteder bostedene
+21	5221	tjenestemann	tjenestemenn tjenestemann tjenestemennene tjenestemannen
+22	5222	diktatur	diktatur diktaturet diktaturer diktaturene
+23	5223	pine	pine pint pina pinte piner pinen
+24	5224	frost	frost frosten
+25	5225	gæren	gærne gærent gæren gærn
+26	5226	overlevere	overlevert overlevere overleverte overleveres overleverer
+27	5227	portrett	portrett portretter portrettet portrettene
+28	5228	deprimere	deprimerende deprimerte
+29	5229	merkbar	merkbart merkbar merkbare
+30	5230	oppbevaring	oppbevaring oppbevaringen
+31	5231	påbegynne	påbegynt påbegynte påbegynnes påbegynne påbegynner
+32	5232	toleranse	toleranse toleransen toleranser toleransene
+33	5233	heim	heim heimen heimer
+34	5234	arbeidsledighet	arbeidsledighet arbeidsledigheten
+35	5235	helsetjeneste	helsetjenester helsetjenesten helsetjeneste helsetjenestene
+36	5236	utsolgt	utsolgt utsolgte
+37	5237	problematikk	problematikken problematikk
+38	5238	forelegge	forelegg forelegget forelagt forelegges forelegge forelegger foreleggene forela
+39	5239	badekar	badekaret badekar badekarene
+40	5240	kreditt	kreditt kreditten kreditter
+41	5241	sondre	sondre sondra
+42	5242	hurtigrute	hurtigruten hurtigruta hurtigrute hurtigrutene
+43	5243	hai	hai haier haien haiene
+44	5244	tetthet	tetthet tettheten tettheter
+45	5245	kvalifisering	kvalifisering kvalifiseringen kvalifiseringer kvalifiseringene kvalifiseringa
+46	5246	torp	torp torpa torpet
+47	5247	tøv	tøv tøvete tøvet
+48	5248	gjødsel	gjødsel gjødselen gjødsler gjødsla
+49	5249	kunngjøring	kunngjøring kunngjøringen kunngjøringer kunngjøringene
+50	5250	velstand	velstand velstanden
+51	5251	lærerutdanning	lærerutdanning lærerutdanningen lærerutdanningene lærerutdanninga
+52	5252	byråkrati	byråkrati byråkratiet
+53	5253	traumatisk	traumatisk traumatiske
+54	5254	privilegium	privilegier privilegium privilegiet privilegiene
+55	5255	speide	speidere speider speiderne speide speideren speidet
+56	5256	langsom	langsom langsommere langsomme langsomste
+57	5257	signe	signe signes signa
+58	5258	teig	teigen teig teiger teigene
+59	5259	patent	patent patenter patentet patentene
+60	5260	innvie	innviet innvie innvies innvidde innvier innvidd innviede
+61	5261	bore	bore borer boret bora borede
+62	5262	donasjon	donasjoner donasjon donasjonene donasjonen
+63	5263	konsesjon	konsesjon konsesjoner konsesjonen konsesjonene
+64	5264	datatilsyn	datatilsynet
+65	5265	førsteamanuensis	førsteamanuensis
+66	5266	provoserende	provoserende
+67	5267	erotisk	erotisk erotiske
+68	5268	urett	urett uretten urette
+69	5269	kebab	kebab kebaben
+70	5270	landegrense	landegrensene landegrenser landegrense landegrensen
+71	5271	forsette	forsatt forsette forsatte
+72	5272	bevilge	bevilget bevilger bevilge bevilges bevilgende bevilgede
+73	5273	turisme	turisme turismen
+74	5274	demon	demoner demon demonen demonene
+75	5275	juble	juble jubler jublet jublende
+76	5276	håndfull	håndfull handfull håndfuller
+77	5277	kommunisme	kommunismen kommunisme
+78	5278	gavekort	gavekort gavekortene gavekortet
+79	5279	hvitløk	hvitløk hvitløken
+80	5280	forflytte	forflytte forflyttet forflytter forflyttes
+81	5281	beskyldning	beskyldninger beskyldningene beskyldning beskyldningen
+82	5282	fotballkamp	fotballkamp fotballkamper fotballkampen fotballkampene
+83	5283	aggresjon	aggresjon aggresjonen aggresjoner
+84	5284	defensiv	defensivt defensiv defensiven
+85	5285	marginal	marginalt marginal marginale
+86	5286	unormal	unormalt unormal unormale
+87	5287	prinsipiell	prinsipielt prinsipiell prinsipielle
+88	5288	balkong	balkong balkongen balkonger balkongene
+89	5289	visdom	visdom visdommen
+90	5290	rate	rate rater raten ratene
+91	5291	håndtak	håndtak håndtaket håndtakene handtak
+92	5292	eksponere	eksponert eksponere eksponeres eksponerte eksponerer
+93	5293	skalle	skallen skalle skallede skaller skallene
+94	5294	monster	monstre monsteret monstrene monstret
+95	5295	neger	neger negre negere negrene negeren negrer
+96	5296	bomull	bomull bomullen
+97	5297	katolikk	katolikker katolikk katolikkene katolikken
+98	5298	mishandle	mishandlet mishandle mishandler mishandlede mishandles
+99	5299	yrkesfag	yrkesfag yrkesfagene
+100	5300	snever	snever snevre snevert snevrere snevrer snevret snevres snevreste

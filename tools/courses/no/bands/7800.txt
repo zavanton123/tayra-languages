@@ -1,0 +1,100 @@
+1	7701	påmelde	påmeldte
+2	7702	schizofreni	schizofreni
+3	7703	styrkeløft	styrkeløft
+4	7704	vakuum	vakuum vakuumet
+5	7705	delfin	delfiner delfin delfinen delfinene
+6	7706	senior	seniorer seniorene senioren
+7	7707	retrett	retrett retretten retretter
+8	7708	leksjon	leksjon leksjoner leksjonen leksjonene
+9	7709	brannmann	brannmann brannmenn brannmannen brannmennene
+10	7710	sommertid	sommertid sommertiden
+11	7711	marxistisk	marxistisk marxistiske
+12	7712	skadedyr	skadedyr skadedyrene skadedyret
+13	7713	olivenolje	olivenolje olivenoljen
+14	7714	roing	roing roingen
+15	7715	utmerke	utmerker utmerke utmerka
+16	7716	gaupe	gaupe gaup gauper gaupa gaupen gaupene
+17	7717	vrangforestilling	vrangforestillinger vrangforestilling vrangforestillingen vrangforestillingene
+18	7718	bannlyse	bannlyst bannlyste bannlyse bannlyses bannlyser bannlys
+19	7719	underliv	underlivet underliv
+20	7720	binær	binære binært binær
+21	7721	bragd	bragd bragder bragden bragdene
+22	7722	evolusjonær	evolusjonære evolusjonær evolusjonært
+23	7723	fukte	fukt fukten fuktet fukte fukter fuktes
+24	7724	persisk	persiske persisk
+25	7725	psykose	psykose psykoser psykosen
+26	7726	anskaffelse	anskaffelse anskaffelser anskaffelsen anskaffelsene
+27	7727	ukontrollert	ukontrollert ukontrollerte
+28	7728	instinkt	instinkt instinkter instinktene instinktet
+29	7729	skvadron	skvadron skvadronen skvadroner skvadronene
+30	7730	blodåre	blodårene blodårer blodåre blodåren
+31	7731	reinsdyr	reinsdyr reinsdyrene reinsdyret reinsdyra
+32	7732	vegre	vegrer vegret vegre
+33	7733	embetsmann	embetsmenn embetsmann embetsmennene embetsmannen
+34	7734	evje	evje evjen evja
+35	7735	kulturlandskap	kulturlandskap kulturlandskapet kulturlandskapene
+36	7736	politiarbeid	politiarbeid politiarbeidet
+37	7737	republikansk	republikanske republikansk
+38	7738	bringebær	bringebær bringebærene
+39	7739	innkomme	innkommende innkomne innkom innkommet
+40	7740	utregning	utregning utregninger utregningen utregningene
+41	7741	kabinett	kabinettet kabinett kabinetter kabinettene
+42	7742	brette	brette brettet brettes bretter brettede bretta
+43	7743	ufortjent	ufortjent ufortjente
+44	7744	folkerett	folkeretten folkerett
+45	7745	sakkyndig	sakkyndige sakkyndig
+46	7746	drapsforsøk	drapsforsøk drapsforsøket drapsforsøkene
+47	7747	lovpålagt	lovpålagt lovpålagte
+48	7748	sosialdemokrat	sosialdemokrater sosialdemokratene sosialdemokrat sosialdemokraten
+49	7749	brøkdel	brøkdel brøkdelen brøkdeler
+50	7750	kryptering	kryptering krypteringen
+51	7751	skule	skule skuler skul skulte skult skules
+52	7752	spillestil	spillestil spillestilen
+53	7753	manager	manageren managere managerne
+54	7754	synsing	synsing synsingen synsinger
+55	7755	skjermet	skjermet skjermede
+56	7756	passasje	passasje passasjen passasjene
+57	7757	markedsandel	markedsandel markedsandeler markedsandelen markedsandelene
+58	7758	ubevæpnet	ubevæpnet ubevæpnede ubevæpnete
+59	7759	brigade	brigade brigaden brigader brigadene brigaderer brigaderen
+60	7760	korreksjon	korreksjon korreksjoner korreksjonen korreksjonene
+61	7761	bule	bul buler bule bulen bulende
+62	7762	manne	manne manna mannes mannet
+63	7763	rush	rush rushet
+64	7764	tilførsel	tilførsel tilførselen tilførsler
+65	7765	transportplan	transportplan transportplanen
+66	7766	resonnement	resonnementet resonnement resonnementer
+67	7767	klekke	klekket klekkes klekker klekke klekt klekken
+68	7768	campingvogn	campingvogn campingvogna campingvogner campingvognen campingvognene
+69	7769	stupe	stupte stupe stupt stupende
+70	7770	smittsom	smittsom smittsomme smittsomt
+71	7771	avsporing	avsporing avsporinger avsporingen
+72	7772	rubin	rubin rubiner rubinen
+73	7773	klamre	klamrer klamre klamret
+74	7774	kraftfull	kraftfull kraftfulle kraftfullt
+75	7775	møll	møll mølla møllen møllene
+76	7776	utkonkurrere	utkonkurrert utkonkurrere utkonkurrerer utkonkurrerte
+77	7777	budstikke	budstikke budstikka
+78	7778	forbipasserende	forbipasserende
+79	7779	forestående	forestående
+80	7780	franskmenn	franskmenn
+81	7781	frifot	frifot
+82	7782	horst	horst
+83	7783	iboende	iboende
+84	7784	samlivsbrudd	samlivsbrudd
+85	7785	såfremt	såfremt
+86	7786	tilflukt	tilflukt
+87	7787	vektløfting	vektløfting
+88	7788	vitterlig	vitterlig
+89	7789	filmskaper	filmskaper filmskapere filmskaperen filmskaperne
+90	7790	vendepunkt	vendepunkt vendepunktet vendepunktene vendepunkter
+91	7791	reprodusere	reprodusere reproduserer reprodusert reproduseres reproduserte reproduserende
+92	7792	riking	rikinger riking rikingene rikingen
+93	7793	regnestykke	regnestykket regnestykke regnestykker regnestykkene
+94	7794	sosialhjelp	sosialhjelp sosialhjelpen
+95	7795	arroganse	arroganse arrogansen
+96	7796	målsetting	målsetting målsettingen målsettinger målsettingene
+97	7797	innførsel	innførsel innførselen innførsler
+98	7798	etterkrigstid	etterkrigstiden etterkrigstida etterkrigstid
+99	7799	følgesvenn	følgesvenn følgesvenner følgesvennen følgesvennene
+100	7800	ufo	ufo ufoer ufoen ufoene

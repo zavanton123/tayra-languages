@@ -1,0 +1,100 @@
+1	9601	kruse	kruse kruses kruser
+2	9602	antistoff	antistoffer antistoff antistoffene antistoffet
+3	9603	skarpskytter	skarpskytter skarpskyttere skarpskytteren skarpskytterne
+4	9604	utnytting	utnytting utnyttingen
+5	9605	spillefilm	spillefilm spillefilmer spillefilmen spillefilmene
+6	9606	fanatisk	fanatisk fanatiske
+7	9607	allsang	allsang allsangen allsanger
+8	9608	besettelse	besettelse besettelsen besettelser
+9	9609	dokumentarfilm	dokumentarfilm dokumentarfilmen dokumentarfilmer dokumentarfilmene
+10	9610	unnfange	unnfanget unnfange unnfanges
+11	9611	krage	krage kragen krager kragene
+12	9612	kjemiker	kjemiker kjemikeren kjemikere kjemikerne
+13	9613	stivne	stivnet stivner stivne stivnede
+14	9614	langrennsløper	langrennsløpere langrennsløper langrennsløperen langrennsløperne
+15	9615	overlykkelig	overlykkelig overlykkelige
+16	9616	fucke	fucka fucker fucke fucket
+17	9617	markedsplass	markedsplass markedsplassen markedsplasser markedsplassene
+18	9618	ratifisere	ratifisert ratifisere ratifiserte ratifiseres ratifiserer
+19	9619	lønnsnivå	lønnsnivå lønnsnivået lønnsnivåer
+20	9620	kolonisere	kolonisert kolonisere koloniserte koloniserer
+21	9621	årslønn	årslønn årslønnen årslønner
+22	9622	høykommissær	høykommissær høykommissæren
+23	9623	oppfostre	oppfostret oppfostre oppfostrer oppfostres
+24	9624	revers	revers reversen
+25	9625	uverdig	uverdig uverdige
+26	9626	sarkasme	sarkasme sarkasmen sarkasmer
+27	9627	ubrukt	ubrukt ubrukte
+28	9628	hanse	hansa hanse hansaen
+29	9629	verdigrunnlag	verdigrunnlag verdigrunnlaget
+30	9630	hyrde	hyrde hyrder hyrden hyrdene
+31	9631	alvorlighetsgrad	alvorlighetsgrad alvorlighetsgraden
+32	9632	overlevering	overlevering overleveringen overleveringer
+33	9633	lisensiere	lisensiert lisensierte lisensiere lisensierer
+34	9634	hallusinasjon	hallusinasjoner hallusinasjon hallusinasjonene
+35	9635	energiforbruk	energiforbruk energiforbruket
+36	9636	rusfri	rusfri rusfrie rusfritt
+37	9637	gjengjelde	gjengjelde gjengjeldt gjengjelder gjengjeldte gjengjeldes
+38	9638	eksperimentering	eksperimentering eksperimenteringen
+39	9639	trigge	trigge trigget trigges
+40	9640	sensasjonell	sensasjonelt sensasjonelle sensasjonell
+41	9641	flyktningleir	flyktningleir flyktningleirer flyktningleiren flyktningleirene
+42	9642	håndlaget	håndlaget håndlagede
+43	9643	eksistensiell	eksistensiell eksistensielle eksistensielt
+44	9644	sentimental	sentimental sentimentale sentimentalt
+45	9645	fiskeriminister	fiskeriminister fiskeriministeren
+46	9646	hvitvin	hvitvin hvitviner hvitvinen
+47	9647	anstendighet	anstendighet
+48	9648	blasfemi	blasfemi
+49	9649	borge	borge
+50	9650	frysning	frysninger
+51	9651	hjemover	hjemover
+52	9652	knallbra	knallbra
+53	9653	kubikkmeter	kubikkmeter
+54	9654	likedan	likedan
+55	9655	puck	pucken
+56	9656	tilstøtende	tilstøtende
+57	9657	vanilje	vanilje
+58	9658	løsepenger	løsepenger løsepengene
+59	9659	jar	jar jaren
+60	9660	selvforsynt	selvforsynt selvforsynte
+61	9661	krum	krum krumme krummet krummer krumt krummes
+62	9662	rekonstruere	rekonstruere rekonstruert rekonstruerte rekonstruerer rekonstrueres
+63	9663	jaguar	jaguar jaguaren jaguarer
+64	9664	kolle	kollen kolle koller kollene kolla
+65	9665	svigerinne	svigerinne svigerinnen svigerinna svigerinner
+66	9666	gjennomførbar	gjennomførbart gjennomførbare gjennomførbar
+67	9667	utbryte	utbrøt utbryter utbryterne utbrytere utbryte utbryteren
+68	9668	nedbetale	nedbetalt nedbetale nedbetales nedbetalte nedbetaler
+69	9669	misse	misset misser misse
+70	9670	avspark	avspark avsparket
+71	9671	marmor	marmor marmoren
+72	9672	ork	ork orkene
+73	9673	solrik	solrik solrike solrikt
+74	9674	blende	blendet blende blenda blendes
+75	9675	bruse	bruse bruser brusende brust bruste
+76	9676	mottager	mottager mottagere mottageren mottagerne
+77	9677	gjære	gjære gjæret gjærer gjæres gjærede gjæra
+78	9678	kval	kval kvaler kvalen kvalene
+79	9679	konsulat	konsulatet konsulat konsulater
+80	9680	demme	demme demmes demmet demmer demt
+81	9681	huge	huge hug hugen
+82	9682	beklagelig	beklagelig beklagelige
+83	9683	stoppested	stoppested stoppesteder stoppestedet stoppestedene
+84	9684	brystkasse	brystkassen brystkassa brystkasse
+85	9685	ubetalt	ubetalt ubetalte
+86	9686	morse	morse morses morset morsa
+87	9687	overdra	overdratt overdra overdrar overdro overdras overdradd
+88	9688	overgivelse	overgivelse overgivelsen
+89	9689	naust	naust naustet naustene nausta
+90	9690	rapper	rapperen rappere rapperne
+91	9691	svale	svale sval svalene svaler svalt svalen svalende svalere
+92	9692	harding	harding hardingen hardinger
+93	9693	tilbakeblikk	tilbakeblikk tilbakeblikkene
+94	9694	tinn	tinn tinnet
+95	9695	kraftstasjon	kraftstasjonen kraftstasjon kraftstasjoner kraftstasjonene
+96	9696	omdiskutert	omdiskutert omdiskuterte
+97	9697	marginalisere	marginalisert marginaliserte marginalisere
+98	9698	motorsport	motorsport motorsporten
+99	9699	kanne	kanne kanner kannen kannene kanna
+100	9700	grenseverdi	grenseverdien grenseverdier grenseverdiene grenseverdi

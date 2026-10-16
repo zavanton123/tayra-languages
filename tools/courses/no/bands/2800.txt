@@ -1,0 +1,100 @@
+1	2701	flokk	flokk flokken flokker flokkene
+2	2702	meny	meny menyen menyer menyene
+3	2703	gen	gen gener genene genet gena
+4	2704	regulering	regulering reguleringer reguleringen reguleringene reguleringa
+5	2705	gresk	gresk greske
+6	2706	utlending	utlendinger utlending utlendingene utlendingen
+7	2707	flyt	flyt flyter flyten
+8	2708	utvise	utvist utvise utviser utviste utvises utvis
+9	2709	forsikring	forsikring forsikringen forsikringer forsikringene
+10	2710	etappe	etappe etappen etapper etappene
+11	2711	menighet	menigheten menighet menigheter menighetene
+12	2712	etterfølge	etterfulgt etterfølgende etterfølge etterfølges etterfulgte
+13	2713	prege	preget preger preges prege pregede prega
+14	2714	utsagn	utsagn utsagnet utsagnene
+15	2715	ironisk	ironisk ironiske
+16	2716	mellomtid	mellomtiden mellomtida mellomtid mellomtider
+17	2717	utstyre	utstyrt utstyre utstyres utstyrte utstyrer
+18	2718	fornuft	fornuft fornuften
+19	2719	stramme	stramme stram stramt strammet strammes strammer strammere stramma
+20	2720	vinge	vinger vingene vingen vinge vinga
+21	2721	gods	godset gods godsene
+22	2722	sammenligning	sammenligning sammenligninger sammenligningen sammenligningene
+23	2723	panikk	panikk panikken
+24	2724	statsborgerskap	statsborgerskap statsborgerskapet
+25	2725	fritid	fritiden fritid fritida
+26	2726	ivareta	ivareta ivaretatt ivaretar ivaretas ivaretok
+27	2727	minimum	minimum minima
+28	2728	logge	logge logger logget logges logga
+29	2729	pinlig	pinlig pinlige pinligste
+30	2730	maleri	maleriet maleri malerier maleriene
+31	2731	poste	poste postet posta postes
+32	2732	drakt	drakt drakter drakten drakta draktene
+33	2733	modig	modig modige modigste modigere
+34	2734	flytende	flytende
+35	2735	påfølgende	påfølgende
+36	2736	fantasi	fantasi fantasien fantasier fantasiene
+37	2737	problematisk	problematisk problematiske
+38	2738	ubehagelig	ubehagelig ubehagelige
+39	2739	vegvesen	vegvesen vegvesenet
+40	2740	kriterium	kriterier kriteriene kriteriet kriterium kriteria
+41	2741	beslutte	besluttet beslutter beslutte besluttes besluttende besluttede
+42	2742	innspill	innspill innspillet innspillene
+43	2743	pusse	pusse pusset pusser puss pusses pussa pussen pussede
+44	2744	flaks	flaks flaksen
+45	2745	pund	pund pundet pundene
+46	2746	etikk	etikk etikken
+47	2747	mental	mental mentale
+48	2748	nestleder	nestleder nestlederen nestledere nestlederne
+49	2749	stiftelse	stiftelsen stiftelse stiftelser stiftelsene
+50	2750	forbeholde	forbehold forbeholdt forbeholder forbeholdes forbeholdet forbeholdene forbeholde
+51	2751	selvtillit	selvtillit selvtilliten
+52	2752	byråd	byrådet byråd byråden byråder byrådene
+53	2753	forfølge	forfulgt forfølge forfølger forfulgte forfølges forfølgere forfølgerne forfølgeren forfølgende
+54	2754	objekt	objekter objekt objektet objektene
+55	2755	slektning	slektninger slektning slektningene slektningen
+56	2756	trøbbel	trøbbel trøblet trøbbelet
+57	2757	knulle	knulle knullet knuller knulla knulles
+58	2758	gram	gram grammet
+59	2759	sirkel	sirkel sirkler sirkelen sirklene
+60	2760	vandre	vandrer vandre vandret vandrende vandrere vandrerne vandreren vandra
+61	2761	stemmerett	stemmerett stemmeretten
+62	2762	lekse	lekser leksene leksa lekse leksen
+63	2763	forutsette	forutsetter forutsatt forutsatte forutsettes forutsette forutsett
+64	2764	opera	opera operaen operaer operaene
+65	2765	nabolag	nabolaget nabolag nabolagene
+66	2766	svindel	svindel svindler svindlere svindelen svindleren svindlerne svindlene
+67	2767	understreke	understreke understreker understreket understrekes understrek understrekte
+68	2768	utfall	utfallet utfall utfallene
+69	2769	ambassadør	ambassadør ambassadøren ambassadører ambassadørene
+70	2770	barneskole	barneskolen barneskole barneskoler barneskolene
+71	2771	garanti	garanti garantier garantien garantiene
+72	2772	arild	arild
+73	2773	borti	borti
+74	2774	igang	igang
+75	2775	tilpasset	tilpasset
+76	2776	tvert	tvert
+77	2777	utendørs	utendørs
+78	2778	forbrytelse	forbrytelser forbrytelse forbrytelsen forbrytelsene
+79	2779	mareritt	mareritt marerittet marerittene
+80	2780	børs	børs børsen børser børsene
+81	2781	spørres	spørs spørres
+82	2782	komfortabel	komfortabel komfortabelt komfortable
+83	2783	teppe	teppet teppe tepper teppene
+84	2784	dokumentar	dokumentar dokumentaren dokumentarer dokumentarene
+85	2785	skylde	skylde skylder skyldte skyldt
+86	2786	sitere	siterer sitere sitert siterte siteres siter
+87	2787	svømme	svømme svømmer svømte svømmere svømt svøm svømmende svømmerne svømmeren svømmes
+88	2788	glatt	glatt glatte glattere glattet glatter glatteste glattes
+89	2789	underholde	underholdende underholde underholdt underholder underhold underholdene underholdere underholdes underholdet
+90	2790	akademisk	akademisk akademiske
+91	2791	nederst	nederst nederste
+92	2792	oppvekst	oppvekst oppveksten
+93	2793	hale	halen hale halt halte haler halter haltende haltet halene halta
+94	2794	valgkamp	valgkampen valgkamp valgkamper valgkampene
+95	2795	deltakelse	deltakelse deltakelsen deltakelser
+96	2796	konstruksjon	konstruksjon konstruksjoner konstruksjonen konstruksjonene
+97	2797	trygghet	trygghet tryggheten
+98	2798	avhenge	avhenger avhenge avhang
+99	2799	omvendt	omvendt omvendte
+100	2800	lommebok	lommeboka lommebok lommeboken lommebøker lommebøkene

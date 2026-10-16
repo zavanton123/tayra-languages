@@ -1,0 +1,100 @@
+1	3201	rense	rense renset rens renser renses rensende rensede rensa
+2	3202	pike	pike piken piker pikene pika
+3	3203	gevinst	gevinst gevinsten gevinster gevinstene
+4	3204	sy	sy sydd syr sydde sys syes
+5	3205	beboer	beboere beboerne beboer beboeren
+6	3206	alminnelig	alminnelig alminnelige
+7	3207	beregning	beregninger beregning beregningen beregningene
+8	3208	kommunist	kommunister kommunistene kommunist kommunisten
+9	3209	måltid	måltid måltider måltidet måltidene
+10	3210	åndelig	åndelige åndelig
+11	3211	avvikle	avviklet avvikles avvikle avvikler avvikla avviklede
+12	3212	odds	odds oddsen oddsene
+13	3213	jævel	jævel jævler jævlene jævelen
+14	3214	tøy	tøyen tøy tøyet tøyer
+15	3215	korn	korn kornet kornete kornene
+16	3216	taco	taco tacoen
+17	3217	myrde	myrdet myrde myrder myrdes myrdede myrda myrdete
+18	3218	kåt	kåt kåte kåtere kåteste kåta kåter
+19	3219	utforske	utforske utforsker utforsket utforskende utforsk utforskes utforskeren utforskere utforskerne utforskede
+20	3220	puls	puls pulsen pulser pulsene
+21	3221	krangel	krangel krangler krangelen kranglene
+22	3222	rådhus	rådhuset rådhus
+23	3223	utarbeide	utarbeidet utarbeide utarbeider utarbeides utarbeidede utarbeida utarbeidd
+24	3224	opphøre	opphører opphør opphøre opphørte opphørt opphøret
+25	3225	die	die diet di dies dia dier diende
+26	3226	digg	digg
+27	3227	pst	pst
+28	3228	sjarmerende	sjarmerende
+29	3229	smell	smell smeller smellen smellet smellene
+30	3230	utrydde	utryddet utrydde utrydder utryddes utrydda utryddede
+31	3231	kam	kam kammeret kammer kammen kamre kamrene kammene
+32	3232	autoritet	autoritet autoriteter autoriteten autoritetene
+33	3233	import	import importen importer
+34	3234	ryke	ryker ryke røk rykende røket ryk røker røken
+35	3235	jakke	jakke jakken jakker jakka jakkene
+36	3236	filter	filter filteret filtre filtrene filtret
+37	3237	ansettelse	ansettelse ansettelser ansettelsen ansettelsene
+38	3238	frelse	frelse frelser frelst frelseren frelsen frelste frelses frels frelsende frelsere
+39	3239	akademi	akademia akademi akademiet akademier akademiene
+40	3240	velkjent	velkjent velkjente
+41	3241	hobby	hobby hobbyer hobbyen hobbyene
+42	3242	skinn	skinn skinnet skinnene skinna
+43	3243	innsjø	innsjøen innsjø innsjøer innsjøene
+44	3244	uventet	uventet uventede uventete
+45	3245	smør	smør smøret
+46	3246	stokke	stokke stokk stokken stokker stokkene stokka stokket stokkes
+47	3247	manus	manus manuset manusene
+48	3248	utslag	utslag utslaget utslagene
+49	3249	rettferdighet	rettferdighet rettferdigheten
+50	3250	offensiv	offensiv offensive offensivt offensiven offensiver
+51	3251	norm	normer norm normen normene
+52	3252	tennis	tennis tennisen
+53	3253	frekvens	frekvens frekvensen frekvenser frekvensene
+54	3254	flamme	flamme flammer flammene flammen flammende flammet flam
+55	3255	mekanisk	mekanisk mekaniske
+56	3256	døpe	døpt døpte døpe døperen døpes døper døp
+57	3257	avlyse	avlyst avlyse avlyste avlyses avlyser
+58	3258	propaganda	propaganda propagandaen
+59	3259	rane	raner rant rane rana ranet ranerne raneren ranere rante ranes
+60	3260	illustrasjon	illustrasjon illustrasjoner illustrasjonene illustrasjonen
+61	3261	bevæpnet	bevæpnet bevæpnede bevæpnete
+62	3262	omsorg	omsorg omsorgen
+63	3263	treg	treg tregt trege tregere tregeste treger
+64	3264	halvveis	halvveis
+65	3265	indirekte	indirekte
+66	3266	sjalu	sjalu
+67	3267	tråkke	tråkket tråkke tråkker tråkk tråkka tråkkes
+68	3268	inngrep	inngrep inngrepet inngrepene
+69	3269	akseptabel	akseptabelt akseptabel akseptable
+70	3270	redaksjon	redaksjonen redaksjon redaksjoner redaksjonene
+71	3271	teknologisk	teknologiske teknologisk
+72	3272	homo	homo homoer homoen
+73	3273	utvidelse	utvidelse utvidelsen utvidelser utvidelsene
+74	3274	sammenslåing	sammenslåing sammenslåingen sammenslåinger sammenslåingene sammenslåinga
+75	3275	inneha	innehar inneha innehas innehatt innehadde
+76	3276	væpne	væpnet væpnede væpna væpner væpnete væpne væpnere væpneren
+77	3277	panne	pannen panna panne panner pannene
+78	3278	opptreden	opptreden opptredener opptredenen opptredenene
+79	3279	anerkjennelse	anerkjennelse anerkjennelsen anerkjennelser
+80	3280	ense	ens enste ense enset enser
+81	3281	kronikk	kronikk kronikken kronikkene
+82	3282	fastsette	fastsatt fastsatte fastsette fastsetter fastsettes fastsett
+83	3283	terror	terror terroren
+84	3284	krasje	krasjet krasjer krasje krasj krasjen krasja
+85	3285	bomme	bommet bomme bommer bomma
+86	3286	samboer	samboer samboeren samboere
+87	3287	separat	separat separate
+88	3288	potte	potter potten potte potta pottene
+89	3289	konsentrasjon	konsentrasjon konsentrasjonen konsentrasjoner konsentrasjonene
+90	3290	tvilsom	tvilsomt tvilsom tvilsomme
+91	3291	tannlege	tannlegen tannlege tannleger tannlegene
+92	3292	fremstilling	fremstilling fremstillingen framstilling fremstillinger fremstillingene
+93	3293	fordeling	fordeling fordelingen fordelinger fordelingene fordelinga
+94	3294	feiring	feiring feiringen feiringer feiringene feiringa
+95	3295	rasistisk	rasistiske rasistisk
+96	3296	krim	krim krimmen
+97	3297	skall	skallet skall skalla skallene skallete
+98	3298	invadere	invadert invadere invaderte invaderer invaderende invaderes invader
+99	3299	utgang	utgangen utgang utganger utgangene
+100	3300	kunstnerisk	kunstnerisk kunstneriske

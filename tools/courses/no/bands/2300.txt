@@ -1,0 +1,100 @@
+1	2201	skritt	skritt skrittet skrittene
+2	2202	fæl	fælt fæl fæle
+3	2203	trapp	trappen trappa trapper trapp trappene
+4	2204	fase	fase fasen faser fas fasene faset fases
+5	2205	frykte	frykte fryktet frykter fryktede fryktes frykta
+6	2206	sitat	sitat sitater sitatet sitatene
+7	2207	bot	bot bøter boten bøtene bota
+8	2208	berømt	berømte berømt
+9	2209	begrunnelse	begrunnelse begrunnelsen begrunnelser begrunnelsene
+10	2210	hate	hate hatet hata hatede hates
+11	2211	eksisterende	eksisterende
+12	2212	nyhetene	nyhetene
+13	2213	jevne	jevne jevn jevnere jevnet jevner jevnes jevning jevneste jamne gjevn
+14	2214	fortelling	fortelling fortellingen fortellinger fortellingene fortellinga
+15	2215	variasjon	variasjon variasjoner variasjonen variasjonene
+16	2216	russer	russerne russere russeren russer
+17	2217	ytringsfrihet	ytringsfrihet ytringsfriheten
+18	2218	teater	teater teateret teatret teatre teatrene
+19	2219	desperat	desperat desperate
+20	2220	titt	titt titten
+21	2221	relasjon	relasjoner relasjon relasjonen relasjonene
+22	2222	rå	rå rått råeste rår råe råere råa råen rærne
+23	2223	gradvis	gradvis gradvise gradvist
+24	2224	domstol	domstolen domstol domstolene domstoler
+25	2225	skjorte	skjorte skjorter skjorta skjorten skjortene
+26	2226	stadium	stadium stadiet stadier stadiene
+27	2227	utvalgt	utvalgte utvalgt
+28	2228	adferd	atferd adferd adferden atferder
+29	2229	pisse	piss pisse pisser pisset pissa piste pist pisten
+30	2230	los	los losen loser losene
+31	2231	borgerlig	borgerlige borgerlig
+32	2232	innta	innta inntatt inntok inntar inntas inntatte
+33	2233	infrastruktur	infrastruktur infrastrukturen infrastrukturer
+34	2234	oppover	oppover
+35	2235	æ	æ
+36	2236	overflate	overflaten overflate overflater overflatene overflata
+37	2237	kull	kull kullet kullene
+38	2238	røyke	røyke røyka røykt røyket røykte røykes røykende
+39	2239	kjemisk	kjemiske kjemisk
+40	2240	kollektiv	kollektivt kollektiv kollektive kollektivet kollektiver
+41	2241	nazist	nazistene nazister nazist nazisten
+42	2242	spøk	spøk spøker spøken spøkene
+43	2243	prestasjon	prestasjoner prestasjon prestasjonene prestasjonen
+44	2244	opposisjon	opposisjonen opposisjon
+45	2245	blank	blankt blanke blank blanka blankere
+46	2246	referanse	referanse referanser referansen referansene
+47	2247	rune	rune runer runene runa runen runet
+48	2248	slave	slaver slave slavene slaven slavere slaverne
+49	2249	rør	rør røret rørene røra rørete
+50	2250	fil	fil filer filen filene fila
+51	2251	terrorist	terrorister terrorist terroristene terroristen
+52	2252	stede	stede stedt stedes stedte
+53	2253	landskap	landskap landskapet landskaper landskapene
+54	2254	sinne	sinne sinnet
+55	2255	håpløs	håpløst håpløs håpløse
+56	2256	tempo	tempo tempoet tempi
+57	2257	innsikt	innsikt innsikten innsikter innsiktene
+58	2258	teit	teit teite teiteste teitere
+59	2259	italiensk	italienske italiensk
+60	2260	hen	hen hens
+61	2261	flau	flau flaut flaue flaueste flauere
+62	2262	bensin	bensin bensinen
+63	2263	rettferdig	rettferdig rettferdige
+64	2264	sjokolade	sjokolade sjokoladen sjokolader sjokoladene
+65	2265	uskyldig	uskyldige uskyldig
+66	2266	spent	spent spente
+67	2267	foredrag	foredrag foredraget foredragene
+68	2268	gyldig	gyldig gyldige
+69	2269	fødsel	fødsel fødselen fødsler fødslene
+70	2270	sving	sving svinger svingen svingene
+71	2271	house	house
+72	2272	underveis	underveis
+73	2273	utbygging	utbygging utbyggingen utbygginger utbygginga utbyggingene
+74	2274	samtykke	samtykke samtykker samtykket samtykkende
+75	2275	forstand	forstand forstanden
+76	2276	arkiv	arkiv arkivet arkiver arkivene
+77	2277	hilsen	hilsen hilsener hilsenen
+78	2278	overskrift	overskriften overskrift overskrifter overskriftene overskrifta
+79	2279	port	porten port porter portene
+80	2280	porno	porno pornoen
+81	2281	fremstille	fremstilt fremstille fremstilles fremstiller framstille fremstilte fremstill
+82	2282	utløse	utløst utløste utløse utløser utløsende utløses utløseren utløsere utløserne utløs
+83	2283	skulder	skuldrene skuldre skulderen skulder skuldra skuldrer
+84	2284	hall	hall hallen haller hallene
+85	2285	ass	ass assen asser
+86	2286	bråk	bråk bråket bråkete
+87	2287	frist	frist frister fristen fristene
+88	2288	passord	passord passordet passordene
+89	2289	asylsøker	asylsøkere asylsøker asylsøkerne asylsøkeren
+90	2290	fravær	fravær fraværet
+91	2291	rote	rotet rotete rote roter rota rotes rotenden
+92	2292	bønn	bønn bønner bønnen bønnene bønna
+93	2293	gress	gress gresset gras
+94	2294	arv	arv arven
+95	2295	pensjon	pensjon pensjonen pensjoner pensjonene
+96	2296	bistand	bistand bistanden
+97	2297	lukke	lukke lukker lukk lukkes lukka lukkeren
+98	2298	landsby	landsbyen landsby landsbyer landsbyene
+99	2299	rumpe	rumpa rumpe rumper rumpen rumpene
+100	2300	helhet	helhet helheten helheter

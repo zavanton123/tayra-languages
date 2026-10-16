@@ -1,0 +1,100 @@
+1	3301	utstede	utstedt utstede utsteder utstedes utstedte utstedere utsted utstederen utstederne utstedende
+2	3302	kokk	kokk kokker kokken kokkene
+3	3303	midnatt	midnatt
+4	3304	utro	utro
+5	3305	prioritering	prioritering prioriteringer prioriteringene prioriteringen
+6	3306	kontinent	kontinentet kontinent kontinenter kontinentene
+7	3307	keeper	keeper keeperen keepere keeperne
+8	3308	detaljert	detaljert detaljerte
+9	3309	løslate	løslatt løslate løslates løslot løslatte løslater løslat
+10	3310	overse	overse oversett overser overså overses oversees
+11	3311	dale	dale daler dalende daleren dalerne
+12	3312	omgi	omgitt omgir omgi omga omgis omgivende omgav
+13	3313	muntlig	muntlig muntlige
+14	3314	tang	tangen tang tanga tenger
+15	3315	bakside	baksiden bakside baksida baksider baksidene
+16	3316	invitasjon	invitasjon invitasjonen invitasjoner invitasjonene
+17	3317	oppgradering	oppgradering oppgraderinger oppgraderingen oppgraderingene
+18	3318	finans	finans finanser finansene
+19	3319	belte	belte beltet belter beltene
+20	3320	kraftverk	kraftverk kraftverket kraftverkene
+21	3321	nervøs	nervøs nervøse nervøst
+22	3322	re	re rer
+23	3323	minimal	minimal minimalt minimale
+24	3324	svette	svette svett svetter svetten svettet svetta svettende
+25	3325	ferge	ferge fergen ferje ferga ferger fergene
+26	3326	oljefond	oljefondet oljefond
+27	3327	eksplosjon	eksplosjon eksplosjonen eksplosjoner eksplosjonene
+28	3328	barnebarn	barnebarn barnebarnet barnebarna
+29	3329	stråling	stråling strålingen
+30	3330	tyrkisk	tyrkiske tyrkisk
+31	3331	orientering	orientering orienteringen orienteringer
+32	3332	fryser	fryser fryseren frysere fryserne
+33	3333	maraton	maraton maratonen maratonet
+34	3334	prestere	presterer prestere presterte prestert
+35	3335	forelesning	forelesninger forelesning forelesningen forelesningene
+36	3336	lår	lårene lår låret låra
+37	3337	skamme	skamme skammer skammet
+38	3338	rite	rita riten
+39	3339	fagforening	fagforening fagforeninger fagforeningen fagforeningene fagforeninga
+40	3340	utredning	utredning utredninger utredningen utredningene
+41	3341	vett	vettet vett
+42	3342	innlede	innledet innleder innlede innledes innledere
+43	3343	forbedring	forbedring forbedringer forbedringene forbedringen
+44	3344	kostbar	kostbart kostbar kostbare
+45	3345	hjel	hjel
+46	3346	hurre	hurra
+47	3347	syvende	syvende
+48	3348	regnskap	regnskap regnskapet regnskapene regnskaper
+49	3349	agenda	agenda agendaen agendaer
+50	3350	genser	genser genseren gensere genserne
+51	3351	rangere	rangert ranger rangerer rangere rangerte rangeres
+52	3352	pave	paven pave pavens paver pavene
+53	3353	fakultet	fakultet fakultetet fakultetene fakulteter
+54	3354	forpliktelse	forpliktelser forpliktelse forpliktelsene forpliktelsen
+55	3355	sammenlikne	sammenliknet sammenlikne sammenliknes sammenlikner sammenliknende sammenlikn sammenlikna
+56	3356	skjerpe	skjerpe skjerpet skjerpende skjerpede skjerpes skjerpa
+57	3357	frekk	frekk frekke frekt frekkeste frekkere
+58	3358	arbeidskraft	arbeidskraft arbeidskraften arbeidskrafta
+59	3359	brå	brått brå bråe
+60	3360	planlegging	planlegging planleggingen
+61	3361	skjegg	skjegg skjegget skjeggete
+62	3362	foster	foster fosteret fostre fostret fostrene fostrer fostres
+63	3363	ustabil	ustabil ustabile ustabilt
+64	3364	praktisere	praktiserer praktisere praktiseres praktisert praktiserende praktiserte
+65	3365	løype	løypa løype løyper løypene løypen
+66	3366	trivelig	trivelig trivelige triveligere
+67	3367	iransk	iranske iransk
+68	3368	ska	ska skar skadd skadde
+69	3369	eksperiment	eksperiment eksperimentet eksperimenter eksperimentene
+70	3370	kalender	kalender kalenderen kalendere kalendre kalenderne kalendrene
+71	3371	garasje	garasjen garasje garasjer garasjene
+72	3372	legemiddel	legemidler legemiddel legemiddelet legemidlene legemidlet
+73	3373	avgi	avgi avgitt avgir avga avgitte avgis avgav
+74	3374	seminar	seminar seminarer seminaret seminarene
+75	3375	integrering	integrering integreringen
+76	3376	tidvis	tidvis tidvise
+77	3377	stillhet	stillhet stillheten
+78	3378	protestere	protesterer protestere protesterte protester protestert protesterende protesteres
+79	3379	utforming	utforming utformingen utforminger utforminga utformingene
+80	3380	sjanger	sjangeren sjanger sjangre sjangere genre sjangrene sjangrer sjangerne
+81	3381	oppfordring	oppfordring oppfordringer oppfordringen oppfordringene
+82	3382	uro	uro uroen uroer uroa
+83	3383	gjengjeld	gjengjeld
+84	3384	middels	middels
+85	3385	satan	satan
+86	3386	sjette	sjette
+87	3387	nød	nød nøden
+88	3388	personvern	personvern personvernet
+89	3389	tippeliga	tippeligaen tippeliga
+90	3390	privatliv	privatliv privatlivet
+91	3391	høyskole	høyskole høyskolen høyskoler høyskolene
+92	3392	streik	streik streiken streiker streikene
+93	3393	stolthet	stolthet stoltheten
+94	3394	kafé	kafé kafeen kafe kafeer kaféen kaféer kafeene kaféene
+95	3395	galleri	galleriet galleri gallerier galleriene galleria
+96	3396	rust	rust rustet ruste rusten rustning ruster rustne rustninger rusta rustningen
+97	3397	forlenge	forlenge forlenget forlenger forlenges forlengede forleng forlenga
+98	3398	årsmøte	årsmøte årsmøtet årsmøtene årsmøter
+99	3399	bilist	bilister bilistene bilist bilisten
+100	3400	horn	horn hornet hornene horna

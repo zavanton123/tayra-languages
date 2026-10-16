@@ -1,0 +1,100 @@
+1	3601	kognitiv	kognitiv kognitive kognitivt
+2	3602	kulde	kulde kulden kulda
+3	3603	feber	feber feberen
+4	3604	overkant	overkant overkanten
+5	3605	hodepine	hodepine hodepinen hodepiner hodepinene
+6	3606	kidnappe	kidnappet kidnappe kidnapper kidnapperne kidnappere kidnappede kidnapperen kidnappa kidnappes
+7	3607	fastslå	fastslå fastslår fastslått fastslo fastslås
+8	3608	væske	væske væsken væsker væskene væskende væska
+9	3609	kommisjon	kommisjonen kommisjon kommisjoner kommisjonene
+10	3610	tabbe	tabbe tabber tabben tabbet tabbene
+11	3611	klasserom	klasserommet klasserom klasserommene
+12	3612	brutal	brutale brutal
+13	3613	indianer	indianere indianerne indianer indianeren
+14	3614	slukke	slukket slukke slukker slukt slukkes slukte slokke slukk
+15	3615	messe	messen messe messer messa messene mess messet messende
+16	3616	abc	abc
+17	3617	iallefall	iallefall
+18	3618	ihjel	ihjel
+19	3619	nordre	nordre
+20	3620	syd	syd
+21	3621	turn	turn
+22	3622	leppe	leppene lepper leppe leppa leppen
+23	3623	hjemmebane	hjemmebane hjemmebanen
+24	3624	grafisk	grafisk grafiske
+25	3625	løsne	løsne løsnet løsner løsnes løsna
+26	3626	rytter	ryttere rytter rytterne rytteren
+27	3627	sending	sendingen sendinger sendingene sendinga
+28	3628	urban	urban urbane urbant
+29	3629	skjold	skjold skjoldet skjoldene skjolden
+30	3630	duo	duoen duo duoer
+31	3631	hive	hive hev heiv hivd
+32	3632	urimelig	urimelig urimelige
+33	3633	ordbok	ordbok ordboken ordbøker ordboka ordbøkene
+34	3634	stinke	stinker stinket stinkende stink stinke
+35	3635	oppheve	opphevet oppheve oppheves opphever oppheva opphev opphevd
+36	3636	fløte	fløte fløyte fløt fløyten fløten fløyter fløyta fløtt fløytene fløtet
+37	3637	tilfeldighet	tilfeldighet tilfeldigheter tilfeldighetene tilfeldigheten
+38	3638	hjelm	hjelm hjelmen hjelmer hjelmene
+39	3639	hilde	hilde hild hildes
+40	3640	pensjonist	pensjonist pensjonister pensjonistene pensjonisten
+41	3641	likestille	likestilt likestilte likestilles likestille likestiller
+42	3642	adoptere	adoptert adoptere adopterte adopterer adopteres adopter
+43	3643	gebyr	gebyr gebyrer gebyret gebyrene
+44	3644	innkalle	innkalt innkalte innkalle innkaller innkalles
+45	3645	belønning	belønning belønninger belønningen belønningene
+46	3646	tilsette	tilsatt tilsett tilsette tilsettes tilsetter tilsatte
+47	3647	enslig	enslige enslig
+48	3648	intellektuell	intellektuelle intellektuell intellektuelt
+49	3649	sprøyte	sprøyte sprøyter sprøytet sprøyt sprøyten sprøytes sprøytene sprøyta
+50	3650	bachelor	bachelor bacheloren
+51	3651	visuell	visuelle visuell visuelt
+52	3652	oppmuntre	oppmuntre oppmuntrer oppmuntret oppmuntrende oppmuntres
+53	3653	betrakte	betrakte betraktes betrakter betrakteren betrakt betraktere
+54	3654	søsken	søsken søsknene
+55	3655	vedde	vedder vedde veddet vedd
+56	3656	dykke	dykkere dykke dykk dykker dykket dykkerne dykkeren dykkene dykkende
+57	3657	forsinkelse	forsinkelser forsinkelse forsinkelsen forsinkelsene
+58	3658	hammer	hammer hammeren hammere hammar hamrer hammaren hammerne
+59	3659	carte	carter carte
+60	3660	sekretær	sekretær sekretæren sekretærer sekretærene
+61	3661	yte	yte yter yt ytes ytt ytet ytte yta
+62	3662	etterforske	etterforske etterforsket etterforskes etterforska
+63	3663	dedikere	dedikert dedikerte dedikere dedikerer dedikeres
+64	3664	anslå	anslått anslår anslås anslå anslo anslåtte
+65	3665	foretak	foretak foretaket foretakene
+66	3666	volvo	volvo volvoen volvoer
+67	3667	kompetent	kompetente kompetent
+68	3668	emosjonell	emosjonell emosjonelle emosjonelt
+69	3669	hestekraft	hk hestekrefter hestekreftene hestekraft
+70	3670	benekte	benekte benekter benektet benektes
+71	3671	ai	ai
+72	3672	farvel	farvel
+73	3673	fortissimo	ff
+74	3674	imellom	imellom
+75	3675	innpå	innpå
+76	3676	pågående	pågående
+77	3677	såvidt	såvidt
+78	3678	va	va
+79	3679	belyse	belyse belyst belyser belyses belyste belys
+80	3680	enkeltperson	enkeltpersoner enkeltperson enkeltpersonen enkeltpersonene
+81	3681	regissør	regissør regissøren regissører regissørene
+82	3682	ar	ar ara arene aret
+83	3683	motorsykkel	motorsykkel motorsykler motorsykkelen motorsyklene
+84	3684	lunde	lunde lunder lunden lundene
+85	3685	note	note noter notene noten
+86	3686	elg	elg elgen elger elgene
+87	3687	privatperson	privatpersoner privatperson privatpersonen
+88	3688	skål	skål skåler skåla skålen skålene
+89	3689	frikjenne	frikjent frikjente frikjenne frikjennes frikjenner
+90	3690	nordlig	nordlige nordlig nordligste nordligere
+91	3691	pensjonere	pensjonert pensjonerte pensjonere pensjonerer pensjoneres pensjoner
+92	3692	eksplodere	eksploderte eksploderer eksplodere eksplodert eksploderende
+93	3693	edderkopp	edderkopper edderkopp edderkoppen edderkoppene
+94	3694	distanse	distanse distansen distanser distansene
+95	3695	bakerst	bakerst bakerste
+96	3696	trone	tronen trone tron troner trones tronet trona tronene
+97	3697	tilskudd	tilskudd tilskuddet tilskuddene
+98	3698	kineser	kineserne kinesere kineser kineseren
+99	3699	nedlagt	nedlagt nedlagte
+100	3700	pålitelig	pålitelig pålitelige

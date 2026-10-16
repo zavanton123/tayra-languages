@@ -1,0 +1,100 @@
+1	8701	øygard	øygard
+2	8702	naturskjønn	naturskjønne naturskjønt naturskjønn
+3	8703	iskrem	iskrem iskremen
+4	8704	effektivisering	effektivisering effektiviseringen
+5	8705	grums	grums grumset
+6	8706	sveising	sveising sveisingen
+7	8707	styreformann	styreformann styreformannen styreformenn
+8	8708	statsstøtte	statsstøtte statsstøtten
+9	8709	smakløs	smakløst smakløs smakløse
+10	8710	utbedring	utbedring utbedringer utbedringene utbedringen
+11	8711	bobil	bobilen bobil bobiler bobilene
+12	8712	fengsling	fengsling fengslingen fengslinger
+13	8713	pseudonym	pseudonym pseudonymet pseudonymer pseudonyme pseudonymene
+14	8714	brødskive	brødskiver brødskive brødskiva brødskivene brødskiven
+15	8715	paradoksal	paradoksalt paradoksale paradoksal
+16	8716	bunke	bunke bunken bunkene
+17	8717	dyrebar	dyrebare dyrebar dyrebart dyrebareste
+18	8718	sjørøver	sjørøvere sjørøver sjørøverne sjørøveren
+19	8719	delikat	delikat delikate
+20	8720	snylte	snylter snyltere snylte snylterne
+21	8721	skate	skate skater skatere skatet
+22	8722	landsforbund	landsforbund landsforbundet
+23	8723	yacht	yacht yachten yachter
+24	8724	fysiker	fysiker fysikere fysikeren fysikerne
+25	8725	karusell	karusell karusellen karuseller karusellene
+26	8726	monolog	monolog monologen monologer monologene
+27	8727	puma	puma pumaen pumaer
+28	8728	dis	dis disen
+29	8729	betent	betent betente
+30	8730	snurre	snurre snurrer snurret snurra snurrende snurres
+31	8731	skitur	skitur skiturer skituren skiturene
+32	8732	reservasjon	reservasjon reservasjoner reservasjonen reservasjonene
+33	8733	ætte	ætt ætten ætter ætta ættene
+34	8734	brukergrensesnitt	brukergrensesnitt brukergrensesnittet
+35	8735	dyrepark	dyreparken dyrepark dyreparker
+36	8736	klistremerke	klistremerker klistremerke klistremerkene klistremerket
+37	8737	øm	øm ømme ømt ømmere
+38	8738	fortvile	fortvilte fortvil fortvilt fortviler fortvile fortvilende
+39	8739	knipe	knipe kniper knip knipa kneip knepet
+40	8740	undergruppe	undergrupper undergruppe undergruppene undergruppen
+41	8741	kuppel	kuppelen kuppel kupler kuplene
+42	8742	skanse	skansen skanse skansene skanser
+43	8743	kvinnefotball	kvinnefotball kvinnefotballen
+44	8744	medisinering	medisinering medisineringen
+45	8745	støtteapparat	støtteapparat støtteapparatet
+46	8746	vrang	vrang vrange vrangen vranga
+47	8747	rabiat	rabiate rabiat
+48	8748	oppdretter	oppdrettere oppdretter oppdretterne oppdretteren
+49	8749	trevirke	trevirke trevirket
+50	8750	oversvømmelse	oversvømmelse oversvømmelser oversvømmelsen oversvømmelsene
+51	8751	fragment	fragmenter fragment fragmentene fragmentet
+52	8752	geometri	geometri geometrien geometrier
+53	8753	mistillit	mistillit mistilliten
+54	8754	gest	gest gester gesten gestene
+55	8755	konsul	konsul konsulen konsuler konsulene
+56	8756	sidestille	sidestiller sidestilt sidestilles sidestille sidestilte
+57	8757	hauk	hauk hauken hauker haukene høk
+58	8758	gild	gilde gildet gildt gildene
+59	8759	dille	dill dilla dille diller dillen dillet
+60	8760	joggesko	joggesko joggeskoene
+61	8761	farmasøytisk	farmasøytiske farmasøytisk
+62	8762	fascist	fascistene fascister fascisten
+63	8763	slynge	slynger slynge slynget slynges slyngen slyngete slyngende slynga
+64	8764	biodrivstoff	biodrivstoff biodrivstoffet
+65	8765	oppkast	oppkast oppkastet
+66	8766	cocktail	cocktail cocktailer cocktailen
+67	8767	ventilasjon	ventilasjon ventilasjonen
+68	8768	lederstilling	lederstillinger lederstilling lederstillingen lederstillingene
+69	8769	krans	krans kranser kransen kransene
+70	8770	startskudd	startskuddet startskudd
+71	8771	terminologi	terminologi terminologien
+72	8772	hovedinngang	hovedinngangen hovedinngang hovedinnganger
+73	8773	hykler	hykler hyklere hyklerne
+74	8774	bueskytter	bueskyttere bueskytter bueskytterne bueskytteren
+75	8775	veto	veto vetoet
+76	8776	oberstløytnant	oberstløytnant oberstløytnanten
+77	8777	markedsverdi	markedsverdi markedsverdien markedsverdier
+78	8778	sleip	sleipe sleip sleipt
+79	8779	gjeste	gjestet gjester gjeste gjestende
+80	8780	fjerdeplass	fjerdeplass fjerdeplassen fjerdeplasser
+81	8781	algebra	algebra algebraen
+82	8782	girkasse	girkasse girkassen girkassa girkasser
+83	8783	dernest	dernest
+84	8784	helsedirektorat	helsedirektoratet
+85	8785	jøsses	jøsses
+86	8786	kappgang	kappgang
+87	8787	lissom	lissom
+88	8788	nedstemt	nedstemt
+89	8789	sankt	sankt
+90	8790	sumo	sumo
+91	8791	ymse	ymse
+92	8792	årsjubileum	årsjubileum
+93	8793	anonymitet	anonymitet anonymiteten
+94	8794	vernepliktig	vernepliktige vernepliktig
+95	8795	verdensbilde	verdensbilde verdensbildet verdensbilder
+96	8796	lyseblå	lyseblå lyseblått
+97	8797	sprengning	sprengning sprengningen sprengninger sprengningene
+98	8798	modenhet	modenhet modenheten
+99	8799	tilintetgjøre	tilintetgjøre tilintetgjort tilintetgjøres tilintetgjorde tilintetgjør tilintetgjørende
+100	8800	tungtvann	tungtvann tungtvannet

@@ -1,0 +1,100 @@
+1	101	vår	vår våre vårt våren våres våra vårer
+2	102	dere	dere
+3	103	burde	bør burde børa
+4	104	siden	siden sia
+5	105	klar	klarer klart klar klare klarte klarere klara klarert klareste klarerte
+6	106	nok	nok
+7	107	hele	hele hel helene helte heil heler hela heles helende helet
+8	108	lage	laget lage lag lager lagene lagde lagd lages lagret lagre
+9	109	første	første
+10	110	kanskje	kanskje
+11	111	mann	menn mann mannen mennene mand menna
+12	112	rett	rett rette retten rettet retter rettes rettere rettene retta rettede
+13	113	del	del deler delen delene
+14	114	vise	viser vise vis viste vist vises visa viset visere visene
+15	115	stå	står stå sto stod stått stående
+16	116	under	under undere underet undrene
+17	117	samme	samme
+18	118	sammen	sammen
+19	119	skje	skjer skjedde skje skjedd skei skjeer skjeen skjeene skjea
+20	120	holde	holde holder holdt hold holdes holdte holdet holderen holdere holderne
+21	121	tenke	tenke tenker tenk tenkt tenkte tenkes tenkere tenkende tenkerne tenkeren
+22	122	høre	høre hører høres hørt hør hørte hørtes hørende
+23	123	prøve	prøver prøve prøvde prøv prøvd prøven prøvene prøves prøva prøvende
+24	124	ja	ja jaa jaer
+25	125	aldri	aldri
+26	126	mene	mener mente ment mene menes menter
+27	127	legge	legge legger lagt legg legges leggene leggen lagte legga leggende
+28	128	hver	hver hvert
+29	129	mellom	mellom mellem
+30	130	sette	sette satt setter satte settes setting settingen settinger settene settere
+31	131	snakke	snakker snakke snakk snakket snakkes snakka snakkende
+32	132	spille	spiller spille spillere spilte spilt spillerne spilles spilleren spillende spelte
+33	133	veldig	veldig veldige
+34	134	barn	barn barna barnet barns barnas barnets barnene
+35	135	trenge	trenger trengte trenge trengt trengende treng
+36	136	egen	egen egne eget egnet egner egnede egent egna egn egnete
+37	137	høy	høy høyere høyt høye høyeste høyest høyer høyet høg høi
+38	138	kjøpe	kjøpe kjøper kjøpt kjøp kjøpte kjøpes kjøpet kjøpere kjøperen kjøperne
+39	139	sist	siste sist
+40	140	ønske	ønsker ønske ønsket ønskes ønsk ønskede ønskene ønska ønskte ønskete
+41	141	ting	ting tingene tingen tinget tinga
+42	142	viktig	viktig viktigste viktige viktigere viktigst
+43	143	hvorfor	hvorfor kvifor korfor
+44	144	land	land landet landets landene landa
+45	145	sted	sted stedet steder stedene
+46	146	skrive	skriver skrevet skrive skrev skriv skrives skrivende skreiv skrivere skriveren
+47	147	rundt	rundt
+48	148	tre	tre trær treet trærne trådte trer tres trådt tredd tredde
+49	149	la	la lar lot latt ladd ladde laer
+50	150	liv	livet liv livene livs liva
+51	151	jobb	jobb jobben jobber jobbene
+52	152	fordi	fordi
+53	153	hans	hans
+54	154	nei	nei
+55	155	følge	følge følger følgende følg fulgte fulgt følges følgere følgene følget
+56	156	begynne	begynner begynte begynne begynt begynn begynnende begynnere begynnes
+57	157	tidlig	tidligere tidlig tidlige tidligst tidligste
+58	158	vei	vei veien veier veg veiene
+59	159	ned	ned
+60	160	gammel	gamle gammel eldre gammelt eldste gammal eldst gammalt
+61	161	frem	frem fram
+62	162	lese	lese les lest leser leste leses lesere leserne leseren lester
+63	163	kvinne	kvinner kvinne kvinnen kvinnene kvinna
+64	164	finnes	finnes fantes fins fans fansen funnes fansene
+65	165	lenge	lenge lenger lengst leng
+66	166	verden	verden verdens verd verdenen verdener verdenene
+67	167	grei	greit greier greia grei greie greide greiene greid greien greiere
+68	168	gjennom	gjennom gjennem
+69	169	sak	saken sak saker sakene saka
+70	170	dårlig	dårlig verre verste dårlige dårligere verst dårligste dårligst
+71	171	alltid	alltid
+72	172	tilbake	tilbake
+73	173	fin	fint fin fine fineste finere finest
+74	174	møte	møte møter møtte møtt møtet møt møtene møtende
+75	175	jente	jenter jente jenta jentene jenten
+76	176	blant	blant
+77	177	både	både
+78	178	synes	synes syns syntes
+79	179	ligge	ligger lå ligge liggende ligget ligg lågen låg liggi ligga
+80	180	gjerne	gjerne helst
+81	181	sitte	sitter sitte satt sitt sittende sittet sitti sitten
+82	182	bilde	bilder bilde bildet bildene bilda
+83	183	føle	føler føle føles følte følt føltes føl følere følende følerne
+84	184	person	personer person personen personene
+85	185	grunn	grunn grunnen grunner grunnene grunne grunt grunnere grunna grunneste grunnes
+86	186	enkel	enkelt enkelte enklere enkel enkle enkleste enklest
+87	187	sånn	sånn sånt sånne
+88	188	hos	hos
+89	189	velge	velge valgt velger valgte velgere velg velgerne velges velgeren
+90	190	kjøre	kjøre kjører kjørte kjør kjørt kjøres kjørende kjøret kjørere kjørerne
+91	191	død	død døde døden dødt dødes daud dødende daude
+92	192	mens	mens mensen
+93	193	lære	lære lærer lært lærere lærte læreren lær lærerne læres læren
+94	194	akkurat	akkurat
+95	195	sende	sende sendt sender sendte send sendes senderen sendere senderne
+96	196	måte	måte måten måter måtene måt måtet
+97	197	mulig	mulig mulige
+98	198	deres	deres
+99	199	takk	takk
+100	200	penger	penger pengene

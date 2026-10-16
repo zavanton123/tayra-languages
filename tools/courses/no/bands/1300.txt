@@ -1,0 +1,100 @@
+1	1201	utgave	utgave utgaven utgaver utgavene
+2	1202	sykkel	sykkel sykkelen sykler syklene
+3	1203	tradisjon	tradisjon tradisjoner tradisjonen tradisjonene
+4	1204	ulovlig	ulovlig ulovlige
+5	1205	herlig	herlig herlige herligste herligere
+6	1206	gjest	gjester gjest gjestene gjesten
+7	1207	innrømme	innrømme innrømmer innrømmet innrøm innrømte innrømmes innrømt
+8	1208	ytterligere	ytterligere
+9	1209	fransk	fransk franske fransken
+10	1210	synge	synger synge sunget syngende syng synges
+11	1211	barnehage	barnehage barnehager barnehagen barnehagene barnehave
+12	1212	fart	fart farten farta farter
+13	1213	test	test testen tester testene testere testerne
+14	1214	singel	singel single singler singelen singlene singlen singlet
+15	1215	middag	middag middagen middager middagene
+16	1216	tråd	tråd tråden tråder trådene
+17	1217	undersøke	undersøke undersøker undersøkt undersøkte undersøkes undersøk undersøkende
+18	1218	forsiktig	forsiktig forsiktige forsiktigere
+19	1219	region	regionen region regioner regionene
+20	1220	park	park parken parker parkene
+21	1221	middel	midler midlene middel middelet midlere midlet
+22	1222	kvinnelig	kvinnelige kvinnelig
+23	1223	egg	egg eggene egget eggen egger egga
+24	1224	kle	kle kler kledd kledde klede kles kledet
+25	1225	kanal	kanaler kanal kanalen kanalene
+26	1226	sekund	sekunder sekund sekundet sekundene sekunda
+27	1227	prinsipp	prinsippet prinsipper prinsipp prinsippene
+28	1228	motsetning	motsetning motsetninger motsetningene motsetningen
+29	1229	automatisk	automatisk automatiske
+30	1230	teste	teste testet tester testes testa testede testere testerne
+31	1231	neppe	neppe
+32	1232	operasjon	operasjon operasjoner operasjonen operasjonene
+33	1233	jøde	jøder jødene jøde jøden
+34	1234	moro	moro moroa
+35	1235	stygg	stygge stygt stygg styggeste styggere styggest
+36	1236	jakt	jakt jakten jakter jakta jaktene
+37	1237	tull	tull tullete tullet
+38	1238	unnskylde	unnskyld unnskylde unnskylder unnskyldt unnskyldte unnskyldes unnskyldende
+39	1239	nøyaktig	nøyaktig nøyaktige nøyaktigere
+40	1240	kart	kart kartet kartene karter karten karta
+41	1241	formål	formål formålet formålene
+42	1242	kontrakt	kontrakt kontrakten kontrakter kontraktene
+43	1243	global	global globale globalt
+44	1244	telle	telle talt telt tell teltet telles telte talte teltene tellende
+45	1245	svensk	svensk svensken
+46	1246	trussel	trussel trusler trusselen truslene
+47	1247	null	null nuller nullen nullet nulla nullene
+48	1248	fylke	fylke fylker fylket fylkene fylkes
+49	1249	klima	klima klimaet klimaer
+50	1250	forresten	forresten
+51	1251	noensinne	noensinne
+52	1252	forferdelig	forferdelig forferdelige forferdeligste
+53	1253	representant	representanter representant representantene representanten
+54	1254	utstyr	utstyr utstyret
+55	1255	vindu	vinduet vindu vinduer vinduene
+56	1256	finale	finalen finale finaler finalene
+57	1257	organisere	organisert organisere organiserte organiserer organiseres organiser organiserende
+58	1258	engasjere	engasjert engasjerte engasjere engasjerer engasjerende engasjer engasjeres
+59	1259	sunn	sunt sunn sunnere sunne sunneste
+60	1260	feire	feire feirer feiret feires feira feir feirede feirende
+61	1261	forberede	forberedt forberede forbereder forbered forberedte forberedende forberedes
+62	1262	angripe	angripe angriper angrepet angriperen angripes angripende angriperne angripere angrip angrepne
+63	1263	cup	cup cupen cuper cupene
+64	1264	bevegelse	bevegelse bevegelsen bevegelser bevegelsene
+65	1265	advokat	advokat advokater advokaten advokatene
+66	1266	hær	hæren hær hærer hærene
+67	1267	mandag	mandag mandager mandagen mandagene
+68	1268	bonde	bønder bonde bøndene bonden
+69	1269	maskin	maskin maskinen maskiner maskinene maskina
+70	1270	kaptein	kaptein kapteinen kapteiner kapteinene
+71	1271	dog	dog
+72	1272	grunnleggende	grunnleggende
+73	1273	stige	stig stiger stige stigende steget stigen steig stigene
+74	1274	virkelighet	virkeligheten virkelighet virkeligheter virkeligheta virkelighetene
+75	1275	ekteskap	ekteskap ekteskapet ekteskapene ekteskaper
+76	1276	normal	normal normale normalen normaler normalene
+77	1277	kåre	kåret kåre kår kåres kaare kårer kåra kårene
+78	1278	reagere	reagerer reagere reagerte reagert reageres reager
+79	1279	statistikk	statistikk statistikken statistikker statistikkene
+80	1280	vaske	vaske vasker vask vasket vasken vaskes vaska vaskere vaskede vaskene
+81	1281	konflikt	konflikt konflikten konflikter konfliktene
+82	1282	pleier	pleier pleierne pleiere pleieren
+83	1283	eksistere	eksisterer eksistert eksistere eksisterte eksister
+84	1284	motor	motor motoren motorer motorene
+85	1285	rute	ruter rute ruten ruta rutene ruteren rutere rutes
+86	1286	bære	bære bær båret bæres bærende bærene bært bæret bæra
+87	1287	hit	hit hiten hitene hiter
+88	1288	utnytte	utnytte utnyttet utnytter utnyttes utnytt utnytta utnyttede utnyttende
+89	1289	trykke	trykke trykker trykket trykt trykte trykkes trykkende trykkeren trykkere trykkede
+90	1290	score	scoret score scorer scores scora scorede scoren scorende scor
+91	1291	lykkes	lykkes lyktes
+92	1292	ordne	ordne ordnet ordner ordnes ordnede ordna
+93	1293	økning	økning økningen økninger øking økningene økninga
+94	1294	haha	haha
+95	1295	trygt	trygt
+96	1296	vekst	vekst veksten vekster vekstene
+97	1297	anse	anses anser anse ansett anså ansees
+98	1298	forståelse	forståelse forståelsen forståelser
+99	1299	arm	armen arm armer armene arme arma armet
+100	1300	elv	elva elven elv elver elvene

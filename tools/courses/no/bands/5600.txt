@@ -1,0 +1,100 @@
+1	5501	forbrukerråd	forbrukerrådet forbrukerråd
+2	5502	nødvendighet	nødvendighet nødvendigheten nødvendigheter nødvendighetene
+3	5503	mishandling	mishandling mishandlingen
+4	5504	råtten	råttent råtten
+5	5505	mentalitet	mentalitet mentaliteten
+6	5506	omgå	omgå omgående omgikk omgår omgått omgåes omgikkes
+7	5507	skeie	skeid skeie skeide skeiet
+8	5508	målgruppe	målgruppen målgruppe målgrupper målgruppa målgruppene
+9	5509	sperregrense	sperregrensen sperregrensa sperregrense
+10	5510	migrant	migranter migrantene
+11	5511	tenår	tenårene tenåra tenår
+12	5512	håndballspiller	håndballspillere håndballspiller håndballspilleren håndballspillerne
+13	5513	skiløper	skiløper skiløpere skiløperen skiløperne
+14	5514	redsel	redsel redselen redsler redslene
+15	5515	ledsage	ledsager ledsaget ledsagere ledsages ledsage ledsageren ledsagende ledsagerne
+16	5516	dammen	dammen
+17	5517	innbyrdes	innbyrdes
+18	5518	likeså	likeså
+19	5519	never	never
+20	5520	vedvarende	vedvarende
+21	5521	krøll	krøller krøllete krøll krøllet krølle krøllene krølla krølles
+22	5522	spektrum	spektrum spektrumet spektret spektre spektra
+23	5523	kaliber	kaliber kaliberet kalibre kalibrer
+24	5524	krutt	krutt kruttet
+25	5525	lineær	lineær lineære lineært
+26	5526	gryte	gryta gryte gryter gryten grytene
+27	5527	preferanse	preferanser preferanse preferansene preferansen
+28	5528	visum	visum visumet visa
+29	5529	avføring	avføring avføringen
+30	5530	uvær	uvær uværet
+31	5531	sta	sta staere stae
+32	5532	fornøyelse	fornøyelse fornøyelser fornøyelsen
+33	5533	font	font fontene fontenen fonten fonter fontener fontenene
+34	5534	lenket	lenket lenkede
+35	5535	godhet	godhet godheten
+36	5536	selvstendighet	selvstendighet selvstendigheten
+37	5537	bæsj	bæsj bæsjer bæsjen
+38	5538	iføre	iført ifører iføre iførte
+39	5539	komplikasjon	komplikasjoner komplikasjon komplikasjonene komplikasjonen
+40	5540	episk	episke episk
+41	5541	trasé	trasé traseen traséen traseer trase traséer traseene
+42	5542	uviss	uvisst uviss uvisse
+43	5543	reprise	reprise repriser reprisen reprisene
+44	5544	rettssikkerhet	rettssikkerhet rettssikkerheten
+45	5545	finansdepartement	finansdepartementet finansdepartement
+46	5546	utfylle	utfyllende utfyller utfylt utfylle utfylte utfylles
+47	5547	relevans	relevans relevansen
+48	5548	forlengelse	forlengelse forlengelsen forlengelser
+49	5549	musikal	musikal musikalen musikaler musikalene
+50	5550	utenriksdepartement	utenriksdepartementet utenriksdepartement
+51	5551	avkom	avkom avkommet avkommene
+52	5552	fascisme	fascisme fascismen
+53	5553	medfølelse	medfølelse medfølelsen
+54	5554	forverre	forverret forverre forverres forverrer forverrede forverrende
+55	5555	engstelig	engstelig engstelige
+56	5556	rak	rake raker rak raket raka rakt
+57	5557	fregatt	fregatten fregatt fregatter fregattene
+58	5558	hunn	hunn hunnen hunner hunnene
+59	5559	taushetsplikt	taushetsplikt taushetsplikten
+60	5560	forkortelse	forkortelse forkortelser forkortelsen forkortelsene
+61	5561	nasjonalitet	nasjonalitet nasjonaliteter nasjonaliteten nasjonalitetene
+62	5562	livlig	livlig livlige livligere livligste
+63	5563	kirkelig	kirkelig kirkelige
+64	5564	besette	besatt besatte besette besettes besetter besettende
+65	5565	ak	ak aken
+66	5566	kjennetegne	kjennetegnes kjennetegner kjennetegne kjennetegnende kjennetegnet
+67	5567	kjøl	kjøl kjøler kjølen kjøleren
+68	5568	suse	suser suse suste susende sust
+69	5569	hysterisk	hysterisk hysteriske
+70	5570	svik	svik sviket
+71	5571	oppklare	oppklare oppklart oppklarte oppklarende oppklarer oppklares
+72	5572	genetikk	genetikk genetikken
+73	5573	utveksle	utveksle utvekslet utveksler utveksles
+74	5574	mobilisere	mobilisere mobilisert mobiliserer mobiliserte mobiliseres
+75	5575	sysselsette	sysselsatte sysselsatt sysselsetter sysselsette sysselsettes
+76	5576	imorgen	imorgen
+77	5577	inklusive	inklusive
+78	5578	marihuana	marihuana
+79	5579	raja	raja
+80	5580	evakuering	evakuering evakueringen
+81	5581	folkeopplysning	folkeopplysningen folkeopplysning
+82	5582	bevæpning	bevæpning bevæpningen
+83	5583	skoledag	skoledag skoledagen skoledager skoledagene
+84	5584	innledning	innledning innledningen innledninger
+85	5585	avhøre	avhørt avhøre avhøres avhørte avhører
+86	5586	legeme	legeme legemet legemer legemene
+87	5587	pioner	pioner pionerer pionerene pioneren
+88	5588	tilrettelegging	tilrettelegging tilretteleggingen
+89	5589	fradrag	fradrag fradraget
+90	5590	migrasjon	migrasjon migrasjonen migrasjoner
+91	5591	stolpe	stolpe stolper stolpen stolpene
+92	5592	rasshøl	rasshøl rasshølet rasshøla
+93	5593	omsette	omsettes omsetter omsatte omsatt omsette omsett
+94	5594	palestiner	palestinere palestinerne palestiner palestineren
+95	5595	kirurg	kirurg kirurgen kirurger kirurgene
+96	5596	telling	telling tellingen tellinga tellinger tellingene
+97	5597	whisky	whisky whiskyen whiskyer whiskyene
+98	5598	nettleser	nettleseren nettleser nettlesere nettleserne
+99	5599	tilkalle	tilkalt tilkalle tilkalte tilkaller tilkalles tilkall
+100	5600	arbeidsgruppe	arbeidsgruppe arbeidsgruppen arbeidsgrupper arbeidsgruppa arbeidsgruppene

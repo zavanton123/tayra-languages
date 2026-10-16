@@ -1,0 +1,100 @@
+1	7801	eksentrisk	eksentrisk eksentriske
+2	7802	kattunge	kattunge kattunger kattungen kattungene
+3	7803	renessanse	renessansen renessanse
+4	7804	propell	propellen propell propeller propellene
+5	7805	fjelltur	fjelltur fjellturer fjellturen
+6	7806	nykommer	nykommer nykommeren nykommere nykommerne
+7	7807	substantiv	substantiv substantivet substantiver substantivene
+8	7808	utforskning	utforskning utforsking utforskningen utforskninger
+9	7809	grevinne	grevinne grevinnen grevinner
+10	7810	klimagass	klimagasser klimagass klimagassen klimagassene
+11	7811	forhåpning	forhåpninger forhåpning forhåpningene
+12	7812	snau	snaut snau snaue
+13	7813	ubegripelig	ubegripelig ubegripelige
+14	7814	smålig	smålig smålige
+15	7815	appetitt	appetitt appetitten
+16	7816	steinalder	steinalderen steinalder
+17	7817	infanteri	infanteri infanteriet
+18	7818	hverdagslig	hverdagslige hverdagslig
+19	7819	interaktiv	interaktiv interaktive interaktivt
+20	7820	datid	datidens datiden
+21	7821	pelle	pelle pelles
+22	7822	hjemsøke	hjemsøkt hjemsøkte hjemsøke hjemsøker hjemsøkes
+23	7823	overskride	overskrider overskredet overskride overskred overskrides overskridende
+24	7824	kalkun	kalkun kalkuner kalkunen kalkunene
+25	7825	dun	dun dunet duna
+26	7826	forskudd	forskudd forskuddet
+27	7827	gjenføde	gjenfødt gjenfødes gjenfødte
+28	7828	studieplass	studieplasser studieplass studieplassen
+29	7829	merkelapp	merkelapper merkelappen merkelapp merkelappene
+30	7830	fornyelse	fornyelse fornyelsen fornyelser
+31	7831	adelsmann	adelsmenn adelsmann adelsmennene adelsmannen
+32	7832	sil	sil silen
+33	7833	ungdomstrinn	ungdomstrinnet ungdomstrinn
+34	7834	skilpadde	skilpadder skilpadde skilpadden skilpaddene skilpadda
+35	7835	utruste	utrustet utruste utrustede utrustes utruster
+36	7836	tenkelig	tenkelige tenkelig
+37	7837	østerriksk	østerrikske østerriksk
+38	7838	målsetning	målsetning målsetninger målsetningen målsetningene
+39	7839	maksimere	maksimere maksimerer maksimer maksimeres maksimert maksimerte
+40	7840	uerfaren	uerfarne uerfaren
+41	7841	utstille	utstilt utstillere utstilte utstiller utstilles utstille
+42	7842	grop	grop gropen groper gropa gropene
+43	7843	videreformidle	videreformidle videreformidlet videreformidler videreformidles
+44	7844	kullkraftverk	kullkraftverk kullkraftverket kullkraftverkene
+45	7845	knutepunkt	knutepunkt knutepunkter knutepunktet knutepunktene
+46	7846	homogen	homogen homogene homogent
+47	7847	forstørre	forstørret forstørre forstørrede forstørrer forstørres forstørrende forstørr
+48	7848	overflod	overflod overfloden
+49	7849	konsistens	konsistens konsistensen
+50	7850	svinne	svinn svinner svant svinne svinnet svunne svinnende svunnet
+51	7851	fremmedfrykt	fremmedfrykt fremmedfrykten
+52	7852	svømmebasseng	svømmebasseng svømmebassenget svømmebassenger svømmebassengene
+53	7853	hundretusen	hundretusener hundretusen
+54	7854	kulturliv	kulturliv kulturlivet
+55	7855	veibane	veibanen veibane
+56	7856	alge	alger algene alge algen
+57	7857	pendler	pendler pendlere pendlerne
+58	7858	dynasti	dynastiet dynasti dynastier dynastiene
+59	7859	jurisdiksjon	jurisdiksjon jurisdiksjoner jurisdiksjonen jurisdiksjonene
+60	7860	vaier	wire vaier wiren vaieren vaiere vaierne wirer
+61	7861	forhøye	forhøyet forhøyede forhøye forhøyde forhøyer forhøyes
+62	7862	lørdagskveld	lørdagskveld lørdagskvelden lørdagskveldene lørdagskvelder
+63	7863	naturvitenskapelig	naturvitenskapelige naturvitenskapelig
+64	7864	avtrykk	avtrykk avtrykket avtrykkene
+65	7865	kapitalistisk	kapitalistiske kapitalistisk
+66	7866	halshugge	halshugget halshugd halshugger halshugge halshugges halshugde halshogge
+67	7867	burka	burka burkaen
+68	7868	autisme	autisme
+69	7869	bortebane	bortebane
+70	7870	forsøpling	forsøpling
+71	7871	innenfra	innenfra
+72	7872	istand	istand
+73	7873	samfunnsansvar	samfunnsansvar
+74	7874	stimuli	stimuli
+75	7875	ukas	ukas
+76	7876	kildekode	kildekode kildekoden
+77	7877	repertoar	repertoar repertoaret
+78	7878	fordømmelse	fordømmelse fordømmelsen fordømmelser
+79	7879	kortspill	kortspill kortspillet kortspillene
+80	7880	motargument	motargumenter motargument motargumentet motargumentene
+81	7881	tenåringsjente	tenåringsjenter tenåringsjente tenåringsjenta
+82	7882	ortodoks	ortodokse ortodoks ortodokst
+83	7883	stedfortreder	stedfortreder stedfortredere stedfortrederen
+84	7884	jordmor	jordmor jordmødre jordmoren jordmødrene jordmora
+85	7885	nobelpris	nobelprisen nobelpris nobelpriser nobelprisene
+86	7886	sporing	sporing sporingen
+87	7887	støtteordning	støtteordninger støtteordning støtteordningene støtteordningen
+88	7888	sprinte	sprinter sprintere sprinteren sprinte sprinterne sprintet
+89	7889	urolighet	urolighetene uroligheter urolighet
+90	7890	idømme	idømt idømmes idømme idømte idømmer
+91	7891	gorilla	gorilla gorillaer gorillaen gorillaene
+92	7892	bjelke	bjelke bjelker bjelken bjelkene
+93	7893	luthersk	lutherske luthersk
+94	7894	betvile	betviler betvile betviles betvilte betvilt
+95	7895	giver	giver givere giveren giverne
+96	7896	sandwich	sandwich sandwicher sandwichen sandwichene
+97	7897	håndhilse	håndhilse håndhilser håndhilste håndhilst
+98	7898	hjemsted	hjemsted hjemstedet hjemsteder
+99	7899	omskjæring	omskjæring omskjæringen omskjæringer
+100	7900	trolldom	trolldom trolldommen trolldommer

@@ -1,0 +1,100 @@
+1	4501	diabetes	diabetes diabetesen
+2	4502	rygge	rygge rygget rygger rygges
+3	4503	fargerik	fargerike fargerik fargerikt
+4	4504	spion	spion spioner spionen spionene
+5	4505	skotske	skotske skotsk
+6	4506	partileder	partileder partiledere partilederen partilederne
+7	4507	grus	grus grusen gruset
+8	4508	pedagogikk	pedagogikk pedagogikken
+9	4509	skjell	skjell skjellene skjellet skjellete
+10	4510	kjølig	kjølig kjølige kjøligere kjøligste
+11	4511	undergrave	undergrave undergraver undergravd undergravende undergravde undergraves undergravet
+12	4512	hertug	hertugen hertug hertuginne hertuginnen hertugene hertuger hertuginner
+13	4513	unnlate	unnlater unnlot unnlate unnlatt unnlates
+14	4514	forvirring	forvirring forvirringen forvirringer
+15	4515	stridsvogn	stridsvogner stridsvogn stridsvognene stridsvognen
+16	4516	tankegang	tankegang tankegangen
+17	4517	flytting	flytting flyttingen flyttinger flyttinga
+18	4518	ab	ab
+19	4519	blaffen	blaffen
+20	4520	bortimot	bortimot
+21	4521	manuelt	manuelt
+22	4522	omsider	omsider
+23	4523	orde	orde
+24	4524	påfallende	påfallende
+25	4525	respektive	respektive
+26	4526	tel	tel
+27	4527	underliggende	underliggende
+28	4528	filosof	filosof filosofer filosofen filosofene
+29	4529	vitnemål	vitnemål vitnemålet vitnemålene
+30	4530	linse	linser linse linsen linsene linsa
+31	4531	ekspedisjon	ekspedisjonen ekspedisjon ekspedisjoner ekspedisjonene
+32	4532	truse	truser truse trusa trusen trusene
+33	4533	banan	banan bananer bananen bananene
+34	4534	blodprøve	blodprøve blodprøver blodprøvene blodprøven
+35	4535	bokmål	bokmål bokmålet
+36	4536	navngi	navngitt navngi navngitte navngir navnga navngis
+37	4537	besetning	besetningen besetning besetninger besetningene besetninga
+38	4538	omegn	omegn omegnen
+39	4539	ryddig	ryddig ryddige ryddigere
+40	4540	aksjeselskap	aksjeselskap aksjeselskaper aksjeselskapet aksjeselskapene
+41	4541	veske	veske vesken vesker veska veskene
+42	4542	stas	stas stasen
+43	4543	champagne	champagne champagnen sjampanje
+44	4544	forurense	forurenser forurenset forurensende forurense forurensede forurenses forurensa forurens forurensete
+45	4545	omstridt	omstridt omstridte
+46	4546	tilværelse	tilværelsen tilværelse
+47	4547	belegge	belegg belagt bela belegget belagte belegge belegges belegger beleggene
+48	4548	imperium	imperiet imperium imperier imperiene imperia
+49	4549	mobbe	mobbet mobbe mobba mobbes
+50	4550	slips	slips slipset slipsene
+51	4551	bass	bass bassen basser bassene
+52	4552	nazi	nazi naziene nazier
+53	4553	klargjøre	klargjøre klargjør klargjort klargjøres klargjorde klargjorte klargjørende
+54	4554	fusjon	fusjon fusjonen fusjoner
+55	4555	ruse	ruse rustet ruste rustning rusa rusen ruster ruser rustninger rustningen
+56	4556	folkeparti	folkeparti folkepartiet
+57	4557	personbil	personbiler personbil personbilen personbilene
+58	4558	applaus	applaus applausen
+59	4559	sosialisme	sosialisme sosialismen
+60	4560	høring	høring høringen høringer høringene høringa
+61	4561	djevel	djevelen djevel djevler djevlene
+62	4562	ståsted	ståsted ståsteder ståstedet
+63	4563	krydder	krydder krydderet krydderne kryddere
+64	4564	margin	margin marginer marginene marginen
+65	4565	tålmodighet	tålmodighet tålmodigheten
+66	4566	fundament	fundamentet fundament fundamenter fundamentene
+67	4567	overbevisning	overbevisning overbevisninger overbevisningen overbevisningene
+68	4568	abstrakt	abstrakt abstrakte abstrakter
+69	4569	gissel	gissel gisler gislene gisselet
+70	4570	pasning	pasning pasninger pasningen pasningene
+71	4571	barnslig	barnslig barnslige
+72	4572	røyking	røyking røykingen røykinga
+73	4573	påminnelse	påminnelse påminnelsen påminnelser
+74	4574	lilla	lilla
+75	4575	overs	overs
+76	4576	tilslutt	tilslutt
+77	4577	upassende	upassende
+78	4578	østre	østre
+79	4579	profilere	profilerte profilert profilere profilerer profiler profileres
+80	4580	velferd	velferd velferden
+81	4581	konstruktiv	konstruktiv konstruktivt konstruktive
+82	4582	maritim	maritime maritim maritimt
+83	4583	aften	aften aftenen aftener
+84	4584	gudstjeneste	gudstjeneste gudstjenesten gudstjenester gudstjenestene
+85	4585	kritiker	kritikere kritikerne kritiker kritikeren
+86	4586	popularitet	popularitet populariteten
+87	4587	ire	irene iren irer ire
+88	4588	useriøs	useriøst useriøse useriøs
+89	4589	mose	mose moser mosen moste mosene
+90	4590	uforståelig	uforståelig uforståelige
+91	4591	senat	senatet senat
+92	4592	mastergrad	mastergrad mastergraden mastergrader
+93	4593	oljepris	oljeprisen oljepris oljeprisene oljepriser
+94	4594	prognose	prognose prognoser prognosene prognosen
+95	4595	bunad	bunad bunaden bunader bunadene
+96	4596	ripe	rip riper ripe ripa ripene ripen ripet
+97	4597	gni	gni gnir gnidd gned gnis gnidde
+98	4598	bingo	bingo bingoen
+99	4599	påkjøre	påkjørt påkjørte
+100	4600	arbeidsmarked	arbeidsmarkedet arbeidsmarked arbeidsmarkeder

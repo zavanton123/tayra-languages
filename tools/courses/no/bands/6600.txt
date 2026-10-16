@@ -1,0 +1,100 @@
+1	6501	karbon	karbon karbonet
+2	6502	bed	bed bedet beda bedene
+3	6503	trivsel	trivsel trivselen
+4	6504	likegyldig	likegyldig likegyldige
+5	6505	landområde	landområder landområde landområdene landområdet
+6	6506	huseier	huseier huseiere huseieren huseierne
+7	6507	skjør	skjøre skjør skjørere
+8	6508	rigge	rigget rigge rigger rigges rigga
+9	6509	utdanningsinstitusjon	utdanningsinstitusjoner utdanningsinstitusjon utdanningsinstitusjonene utdanningsinstitusjonen
+10	6510	onanere	onanere onanerer onanerte onanert
+11	6511	utlån	utlån utlånet
+12	6512	kanadisk	kanadiske kanadisk
+13	6513	kongedømme	kongedømmet kongedømme kongedømmer kongedømmene
+14	6514	formidabel	formidabel formidable formidabelt
+15	6515	slagsmål	slagsmål slagsmålet
+16	6516	bemanne	bemannet bemanne bemannede bemanner bemannes
+17	6517	skreddersydd	skreddersydd skreddersydde
+18	6518	aksent	aksent aksenter aksenten accent aksentene
+19	6519	analog	analoge analog analogt analoger
+20	6520	flørting	flørting flørtingen
+21	6521	imøtekomme	imøtekommende imøtekomme imøtekommer imøtekommet imøtekom imøtekommes
+22	6522	verve	verve verver vervede verves ververen
+23	6523	prototype	prototype prototypen prototyper prototypene
+24	6524	purk	purken purk purker purkene
+25	6525	overnaturlig	overnaturlige overnaturlig
+26	6526	anstrenge	anstrengt anstrenge anstrengte anstrenger
+27	6527	fremsette	fremsatt fremsatte fremsette fremsettes fremsetter
+28	6528	vene	vene vener venene venen
+29	6529	søskenbarn	søskenbarn søskenbarnet søskenbarna
+30	6530	bunker	bunker bunkeren bunkere bunkerne
+31	6531	snapp	snapper snappet snapp snappe snappes
+32	6532	midtbanespiller	midtbanespiller midtbanespilleren midtbanespillere midtbanespillerne
+33	6533	nøyaktighet	nøyaktighet nøyaktigheten
+34	6534	forgifte	forgiftet forgifte forgifter forgiftede forgifta forgiftes
+35	6535	forfalle	forfalt forfaller forfalle forfalte forfallende
+36	6536	konspirasjonsteori	konspirasjonsteorier konspirasjonsteori konspirasjonsteoriene konspirasjonsteorien
+37	6537	resirkulere	resirkulert resirkulere resirkulerer resirkuleres resirkulerte resirkuler
+38	6538	inspeksjon	inspeksjon inspeksjonen inspeksjoner inspeksjonene
+39	6539	ufin	ufint ufin ufine
+40	6540	ladning	ladning ladningen ladninger ladningene
+41	6541	fingeravtrykk	fingeravtrykk fingeravtrykket fingeravtrykkene
+42	6542	komposisjon	komposisjon komposisjoner komposisjonen komposisjonene
+43	6543	valgdeltakelse	valgdeltakelsen valgdeltakelse valgdeltagelse
+44	6544	brystkreft	brystkreft
+45	6545	derpå	derpå
+46	6546	forfriskende	forfriskende
+47	6547	hjerneslag	hjerneslag
+48	6548	kjempegøy	kjempegøy
+49	6549	knop	knop
+50	6550	likeverd	likeverd
+51	6551	motstridende	motstridende
+52	6552	pers	pers
+53	6553	tildels	tildels
+54	6554	vita	vita
+55	6555	western	western
+56	6556	urin	urin urinen
+57	6557	småbarn	småbarn småbarna
+58	6558	opptur	opptur oppturer oppturen
+59	6559	forenkle	forenkle forenkler forenkles forenkla forenklende
+60	6560	assistere	assistert assistere assisterer assisterte assister
+61	6561	godkjennelse	godkjennelse godkjennelsen
+62	6562	lokalpolitiker	lokalpolitiker lokalpolitikere lokalpolitikerne lokalpolitikeren
+63	6563	hærverk	hærverk hærverket
+64	6564	hodetelefon	hodetelefoner hodetelefonene hodetelefonen hodetelefon
+65	6565	fronte	fronte frontet
+66	6566	ubevisst	ubevisst ubevisste
+67	6567	regiment	regiment regimentet regimenter regimentene
+68	6568	teaterstykke	teaterstykke teaterstykket teaterstykker teaterstykkene
+69	6569	kulturminister	kulturminister kulturministeren
+70	6570	begjær	begjær begjæret
+71	6571	studietid	studietiden studietid studietida
+72	6572	husarrest	husarrest husarresten
+73	6573	lokalitet	lokaliteter lokalitet lokaliteten lokalitetene
+74	6574	kavaleri	kavaleriet kavaleri
+75	6575	pære	pærer pære pæra pærene pæren
+76	6576	skred	skred skredet skredene
+77	6577	revurdere	revurdere revurderer revurdert revurderes revurderte
+78	6578	udyr	udyret udyr udyrene
+79	6579	tablett	tabletter tablettene tablett tabletten
+80	6580	oljeselskap	oljeselskap oljeselskaper oljeselskapene oljeselskapet
+81	6581	fylling	fyllingen fylling fyllinger fyllinga fyllingene
+82	6582	fyrste	fyrste fyrsten fyrster fyrstene fyrstinne fyrstinnen
+83	6583	detektiv	detektiv detektiven detektiver detektivene
+84	6584	svulst	svulst svulster svulsten svulstene
+85	6585	bod	boden bod boder bodene
+86	6586	tidsperiode	tidsperiode tidsperioden tidsperioder tidsperiodene
+87	6587	toppleder	toppledere toppleder topplederne topplederen
+88	6588	tam	tam tamme tamt
+89	6589	landsbygd	landsbygda landsbygden landsbygd
+90	6590	testament	testamentet testament testamenter testamentene
+91	6591	vodka	vodka vodkaen
+92	6592	intervall	intervaller intervall intervallet intervallene
+93	6593	klatring	klatring klatringen klatringa klatringer
+94	6594	apostel	apostelen apostlene apostler apostel
+95	6595	utviklingshemmet	utviklingshemmede utviklingshemmet
+96	6596	kjøle	kjøle kjøles kjøler kjølt kjølende kjølte kjøleren
+97	6597	bærbar	bærbare bærbar bærbart
+98	6598	handlingsplan	handlingsplan handlingsplanen handlingsplaner
+99	6599	disippel	disipler disiplene disippel disippelen
+100	6600	fremkomme	fremkommer fremkom fremkommet fremkomme

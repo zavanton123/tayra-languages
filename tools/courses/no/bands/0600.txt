@@ -1,0 +1,100 @@
+1	501	ren	ren rent rene renere reneste
+2	502	grense	grensen grenser grense grensene grensa grenset grensende
+3	503	kontroll	kontroll kontrollen kontroller kontrollene kontrolleren
+4	504	program	programmet program programmer programmene programma
+5	505	serie	serien serie serier seriene
+6	506	økonomisk	økonomisk økonomiske
+7	507	bidra	bidra bidrar bidratt bidro bidrog bidradd bidragende
+8	508	direkte	direkte
+9	509	slags	slags
+10	510	følelse	følelser følelse følelsen følelsene
+11	511	positiv	positivt positiv positive positiver
+12	512	mening	mening meninger meningen meningene meninga
+13	513	bytte	bytte byttet bytter bytt byttes bytta byttene
+14	514	ungdom	ungdom ungdommer ungdommen ungdommene
+15	515	tekst	tekst teksten tekster tekstene teksta
+16	516	personlig	personlig personlige
+17	517	prosjekt	prosjektet prosjekt prosjekter prosjektene
+18	518	samfunn	samfunnet samfunn samfunnene
+19	519	an	an
+20	520	innenfor	innenfor innafor
+21	521	vurdere	vurdere vurderer vurdert vurderte vurderes vurder vurderende
+22	522	lege	lege legen leger legene leg leges leget lega
+23	523	henge	henger henge hengt hang hengende heng henges hengte hengeren henga
+24	524	klubb	klubben klubb klubber klubbene
+25	525	dum	dumt dum dumme dummeste dummere dummet dummer dumma
+26	526	svart	svart svarte svarteste svartere
+27	527	voksen	voksne voksen voksent
+28	528	dessverre	dessverre
+29	529	seks	seks
+30	530	privat	private privat privaten
+31	531	løsning	løsning løsninger løsningen løsningene løsninga løysing
+32	532	interessant	interessant interessante
+33	533	hånd	hånd hender hendene hånden hånda henda
+34	534	organisasjon	organisasjoner organisasjon organisasjonen organisasjonene
+35	535	vokse	vokser vokste vokse vokst voksende voks voksene vokset voksa
+36	536	forslag	forslag forslaget forslagene forslaga
+37	537	midt	midt midten
+38	538	delta	delta deltok deltar deltatt deltakende deltaet deltaer deltas deltaene
+39	539	skille	skiller skille skilt skilte skiltet skillet skiltene skilter skill skiltes
+40	540	debatt	debatten debatt debatter debattene
+41	541	engelsk	engelsk engelske engelsken
+42	542	gate	gate gata gaten gatene gater
+43	543	nasjonal	nasjonale nasjonal nasjonalt
+44	544	imot	imot
+45	545	venstre	venstre
+46	546	nivå	nivå nivået nivåer nivåene
+47	547	rolle	rolle rollen roller rollene rolla
+48	548	amerikansk	amerikanske amerikansk
+49	549	melde	melde melder meldt meldte meld meldes
+50	550	post	post posten poster postene postere postert posteren
+51	551	kirke	kirken kirke kirkens kirka kirker kirkene kirkes
+52	552	stadig	stadig stadige
+53	553	gud	gud gudene guder guden
+54	554	treffe	treffe treffer traff truffet treff treffes treffende treffet treffene treffere
+55	555	mai	mai maier
+56	556	selvsagt	selvsagt selvsagte sjølsagt
+57	557	ekstra	ekstra
+58	558	tross	tross
+59	559	sang	sang sangen sanger sangene sangeren sangere sangerne
+60	560	tusen	tusen tusener
+61	561	tak	tak taket takene taka
+62	562	forvente	forventer forventet forvente forventes forvent forventede forventa
+63	563	gjennomføre	gjennomført gjennomføre gjennomførte gjennomfører gjennomføres gjennomfør
+64	564	ung	ung yngre yngste ungt yngst
+65	565	interesse	interesse interesser interessen interessene
+66	566	endring	endringer endring endringen endringene endringa
+67	567	deretter	deretter
+68	568	gratis	gratis
+69	569	spennende	spennende
+70	570	makt	makt makten makter makta maktene
+71	571	skikkelig	skikkelig skikkelige
+72	572	ille	ille verre verste verst
+73	573	stilling	stilling stillinger stillingen stillingene stillinga
+74	574	kropp	kroppen kropp kropper kroppene
+75	575	perfekt	perfekt perfekte
+76	576	politiker	politikere politiker politikerne politikeren
+77	577	hyggelig	hyggelig hyggelige hyggeligere hyggeligste
+78	578	benytte	benyttet benytte benyttes benytter benytt benyttede benytta
+79	579	avis	aviser avisen avis avisa avisene
+80	580	tanke	tanke tanken tankene tanket tankes tanka
+81	581	endelig	endelig endelige
+82	582	språk	språk språket språkene språka
+83	583	minne	minner minne minnet minnes minnene minn mint minte minna mintes
+84	584	hund	hund hunden hunder hundene
+85	585	forskning	forskning forskningen forskninga
+86	586	absolutt	absolutt absolutte absolutter
+87	587	tale	tale talt taler talen talte tal talere talende tales talene
+88	588	tom	tom tomt tomme tomten tommer tomter tomta tomtene tommen tommere
+89	589	angrep	angrep angrepet angrepene
+90	590	alvorlig	alvorlig alvorlige alvorligste alvorligere
+91	591	nordmann	nordmenn nordmann nordmannen nordmennene
+92	592	styrke	styrke styrker styrken styrket styrkene styrkes styrk styrkende styrka styrkede
+93	593	galt	galt
+94	594	sør	sør
+95	595	våpen	våpen våpenet våpnene våpna
+96	596	video	video videoen videoer videoene
+97	597	tape	tapt tapte tape tapende tapen
+98	598	bakgrunn	bakgrunn bakgrunnen bakgrunner bakgrunnene
+99	599	alternativ	alternativ alternative alternativer alternativet alternativt alternativene alternativa
+100	600	student	studenter student studentene studenten

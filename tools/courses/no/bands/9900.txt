@@ -1,0 +1,100 @@
+1	9801	omdirigere	omdirigert omdirigere omdirigerer omdirigeres omdirigerte
+2	9802	møterom	møterom møterommet
+3	9803	syndig	syndig syndige
+4	9804	skanning	skanning skanningen skanninger
+5	9805	sale	sale saler salet
+6	9806	sendetid	sendetid sendetiden
+7	9807	sendebud	sendebud sendebudet sendebudene
+8	9808	regionråd	regionråd regionrådet
+9	9809	machete	machete macheter macheten
+10	9810	fjære	fjære fjæra fjærene fjærende fjæren fjærer
+11	9811	kjemme	kjem kjemmet kjemme
+12	9812	alenemor	alenemor alenemødre alenemoren
+13	9813	knute	knute knuter knuten knutene
+14	9814	sensasjon	sensasjon sensasjonen sensasjoner
+15	9815	gigant	giganten gigant gigantene giganter
+16	9816	tampong	tamponger tampong tampongen
+17	9817	forrett	forrett forretten forretter forrettene
+18	9818	skyts	skyts skytset
+19	9819	gravstein	gravstein gravsteinen gravsteiner gravsteinene
+20	9820	afghaner	afghanere afghanerne afghaner afghaneren
+21	9821	naturreservat	naturreservat naturreservatet naturreservater naturreservatene
+22	9822	dong	dong dongen
+23	9823	bygningslov	bygningsloven bygningslov
+24	9824	ubeskyttet	ubeskyttet ubeskyttede
+25	9825	askeladd	askeladden askeladd
+26	9826	sentralisering	sentralisering sentraliseringen
+27	9827	parre	parre parret parrer parres
+28	9828	motspiller	motspiller motspilleren motspillere motspillerne
+29	9829	lempe	lempe lempet lemper lempa lemp
+30	9830	båndbredde	båndbredde båndbredden
+31	9831	hovedstyre	hovedstyret hovedstyre
+32	9832	pressestøtte	pressestøtte pressestøtten
+33	9833	kosttilskudd	kosttilskudd kosttilskuddet kosttilskuddene
+34	9834	fiendtlighet	fiendtlighet fiendtligheten fiendtlighetene fiendtligheter
+35	9835	gjenbruke	gjenbruke gjenbrukes gjenbrukt gjenbruker gjenbrukte
+36	9836	gitter	gitter gitteret gitre gitrene
+37	9837	smyge	smyger smyge smaug smøg smygende
+38	9838	oter	oter otra oteren otere
+39	9839	iraker	irakere irakerne irakeren iraker
+40	9840	sykepleie	sykepleie sykepleien sjukepleier
+41	9841	prost	prost prosten proster prostene
+42	9842	tilholdssted	tilholdssted tilholdsstedet tilholdssteder
+43	9843	voksenopplæring	voksenopplæring voksenopplæringen
+44	9844	harm	harme harmen
+45	9845	bilateral	bilaterale bilateral bilateralt
+46	9846	overvære	overvære overvar overvært overværer overvær
+47	9847	lufttrykk	lufttrykk lufttrykket
+48	9848	romferge	romfergen romferge romferger romferga romfergene romferja
+49	9849	sjappe	sjappa sjappe sjapper sjappene
+50	9850	dagpenger	dagpenger dagpengene
+51	9851	selvmordsforsøk	selvmordsforsøk selvmordsforsøket
+52	9852	luftvei	luftveiene luftveier luftveien luftvei
+53	9853	ungdomsorganisasjon	ungdomsorganisasjoner ungdomsorganisasjon ungdomsorganisasjonen ungdomsorganisasjonene
+54	9854	kåpe	kåpe kåpen kåper kåpa kåpene
+55	9855	turbulens	turbulens turbulensen
+56	9856	holdbarhet	holdbarhet holdbarheten
+57	9857	gotisk	gotiske gotisk
+58	9858	spraye	sprayet spraye sprayer sprayes
+59	9859	kjønnsforskjell	kjønnsforskjeller kjønnsforskjellene kjønnsforskjellen kjønnsforskjell
+60	9860	kjeltring	kjeltringer kjeltring kjeltringene kjeltringen
+61	9861	kirkesamfunn	kirkesamfunn kirkesamfunnene kirkesamfunnet
+62	9862	blindvei	blindvei blindveier blindveien
+63	9863	korrespondere	korresponderer korresponderte korresponderende korrespondere korrespondert
+64	9864	volde	volder volde voldt voldte voldes
+65	9865	greine	greiner greina grein
+66	9866	blom	blom
+67	9867	dikte	dikte
+68	9868	forhåpentlig	forhåpentlig
+69	9869	hamlet	hamlet
+70	9870	hudpleie	hudpleie
+71	9871	joner	joner
+72	9872	meslinger	meslinger
+73	9873	nasjonalmuse	nasjonalmuseet
+74	9874	pur	pur
+75	9875	styrketrening	styrketrening
+76	9876	talerør	talerør
+77	9877	rettshjelp	rettshjelp rettshjelpen
+78	9878	skyttergrav	skyttergravene skyttergraver skyttergraven skyttergrav
+79	9879	forlegger	forlegger forleggeren forleggere forleggerne
+80	9880	rettspraksis	rettspraksis rettspraksisen
+81	9881	stø	stø støen
+82	9882	utmattelse	utmattelse utmattelsen
+83	9883	velvillig	velvillig velvillige
+84	9884	sir	sirene sirener sirenene sirenen
+85	9885	sjimpanse	sjimpanser sjimpanse sjimpansen sjimpansene
+86	9886	samferdselsminister	samferdselsminister samferdselsministeren
+87	9887	banal	banalt banale
+88	9888	bulgarsk	bulgarsk bulgarske
+89	9889	keiserinne	keiserinne keiserinnen
+90	9890	gravlund	gravlund gravlunden gravlunder gravlundene
+91	9891	korrelasjon	korrelasjon korrelasjonen korrelasjoner
+92	9892	avgrensing	avgrensning avgrensing avgrensingen
+93	9893	gudfar	gudfaren gudfar gudfedre
+94	9894	jamføre	jamfør jamført
+95	9895	matavfall	matavfall matavfallet
+96	9896	sperring	sperring sperringer sperringene sperringen
+97	9897	sårbarhet	sårbarhet sårbarheten sårbarheter
+98	9898	prestegård	prestegården prestegård prestegard
+99	9899	forringe	forringet forringer forringe forringes
+100	9900	blekksprut	blekksprut blekkspruter blekkspruten blekksprutene

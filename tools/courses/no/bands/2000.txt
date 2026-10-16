@@ -1,0 +1,100 @@
+1	1901	arbeidsliv	arbeidslivet arbeidsliv
+2	1902	ihvertfall	ihvertfall
+3	1903	imponerende	imponerende
+4	1904	nødvendigvis	nødvendigvis
+5	1905	sukker	sukker sukkeret
+6	1906	blikk	blikk blikket blikkene
+7	1907	forening	foreningen forening foreninger foreningene foreninga
+8	1908	tørke	tørke tørker tørket tørk tørkede tørken tørkes tørka tørkende
+9	1909	synlig	synlig synlige synligere
+10	1910	fersk	fersk ferske ferskt fersket ferskeste ferskere ferska fersker
+11	1911	tilhenger	tilhengere tilhenger tilhengerne tilhengeren
+12	1912	engasjement	engasjement engasjementet engasjementer engasjementene
+13	1913	advare	advarer advarte advart advare advares advarende
+14	1914	nøkkel	nøkkelen nøkkel nøklene nøkler
+15	1915	irritere	irritert irriterer irritere irriterte
+16	1916	opptak	opptak opptaket opptakene
+17	1917	hjørne	hjørnet hjørne hjørner hjørnene
+18	1918	hals	halsen hals halser halsene
+19	1919	respektere	respektere respekterer respektert respekterte respekter respekteres
+20	1920	vakt	vakt vakter vaktene vakten vakta
+21	1921	voldta	voldtatt voldta voldtar voldtok voldtatte voldtas
+22	1922	hastighet	hastighet hastigheten hastigheter hastighetene
+23	1923	forandring	forandring forandringer forandringen forandringene
+24	1924	variant	varianter variant varianten variantene
+25	1925	bånd	bånd båndet båndene
+26	1926	ledig	ledig ledige
+27	1927	tenne	tenner tenne tent tente tennes tenn tentes tenneren
+28	1928	verktøy	verktøy verktøyet verktøyene verktøyer
+29	1929	slenge	slenge slenger slengen sleng slengt slengte slenges slengere
+30	1930	kunstner	kunstnere kunstner kunstneren kunstnerne
+31	1931	ekstrem	ekstrem ekstreme ekstremer
+32	1932	oppførsel	oppførsel oppførselen
+33	1933	seile	seile seiler seilte seil seilt segl seilet seilene seglet seilere
+34	1934	knuse	knuse knuser knuste knusende knuses knus knuseren
+35	1935	konservativ	konservative konservativ konservativt
+36	1936	distrikt	distriktene distriktet distrikt distrikter
+37	1937	datamaskin	datamaskiner datamaskinen datamaskin datamaskinene datamaskina
+38	1938	spenning	spenning spenningen spenninger spenningene spenninga
+39	1939	knapp	knappen knapp knappe knapper knappene knappest knappet knappere
+40	1940	derfra	derfra
+41	1941	hallo	hallo
+42	1942	hitle	hitler
+43	1943	kvitt	kvitt
+44	1944	gjenstand	gjenstander gjenstand gjenstandene gjenstanden
+45	1945	oppgjør	oppgjør oppgjøret oppgjørene
+46	1946	forventning	forventninger forventningene forventning forventningen
+47	1947	vitenskap	vitenskap vitenskapen vitenskaper vitenskapene videnskap
+48	1948	oppdatering	oppdatering oppdateringer oppdateringen oppdateringene
+49	1949	kampanje	kampanje kampanjen kampanjer kampanjene
+50	1950	opplæring	opplæring opplæringen opplæringa
+51	1951	il	il ila iler ilene ilen
+52	1952	organ	organ organer organet organene organa
+53	1953	statsråd	statsråd statsråden statsråder statsrådene statsrådet
+54	1954	plast	plast plasten plaster plasteret plastrene
+55	1955	roman	roman romanen romaner romanene
+56	1956	dronning	dronning dronningen dronninger dronninga dronningene
+57	1957	feste	festet feste fester festes festa festende festere
+58	1958	utmerket	utmerket utmerkede utmerkete
+59	1959	øve	øve øver øvd øvde øv øvet øves øvede
+60	1960	rømme	rømme rømmer rømt rømte rømmen rømma rømmes rømmet røm
+61	1961	tropp	troppen tropper tropp troppene
+62	1962	tonn	tonn tonnene
+63	1963	ledende	ledende
+64	1964	sexy	sexy
+65	1965	tolv	tolv
+66	1966	figur	figur figurer figuren figurene
+67	1967	ignorere	ignorere ignorert ignorerer ignorerte ignorer ignoreres
+68	1968	studio	studio studioet studioer studioene
+69	1969	innflytelse	innflytelse innflytelsen innflytelser
+70	1970	banke	banke banket banken bankene banka bankes bankende
+71	1971	dikt	dikt diktet diktene dikta
+72	1972	eventuell	eventuelle eventuell
+73	1973	gjeld	gjeld gjelden gjelda gjeldene
+74	1974	smile	smiler smile smilte smilende smilt
+75	1975	sykepleier	sykepleier sykepleiere sykepleieren sykepleierne
+76	1976	dekning	dekning dekningen dekninger
+77	1977	beregne	beregnet beregne beregnes beregner beregn beregnede beregnende beregna
+78	1978	melk	melk melken melka melker
+79	1979	søppel	søppel søpla søppelet søplet søppelen
+80	1980	forestilling	forestillingen forestilling forestillinger forestillingene forestillinga
+81	1981	gjette	gjett gjette gjetter gjettet gjetta
+82	1982	demokratisk	demokratiske demokratisk
+83	1983	grå	grå grått gråe gråere
+84	1984	identitet	identitet identiteten identiteter identitetene
+85	1985	hvertfall	hvertfall
+86	1986	vgs	vgs
+87	1987	selvstendig	selvstendig selvstendige
+88	1988	frakte	fraktet frakt frakte fraktes frakter frakten frakta
+89	1989	kø	kø køen køer køene
+90	1990	hylle	hylle hyllet hyller hylla hyllene hylles hyllen hyll hyllede
+91	1991	motiv	motiv motivet motiver motivene
+92	1992	departement	departementet departementene departement departementer
+93	1993	bølge	bølger bølgen bølge bølgene bølgende bølgete bølget bølgede
+94	1994	hovedstad	hovedstaden hovedstad hovedsteder hovedstedene
+95	1995	flaske	flaske flasker flasken flaskene flaska flasket
+96	1996	jevnt	jevnt jamt
+97	1997	forum	forum forumet forumene forumer fora
+98	1998	festival	festivalen festival festivaler festivalene
+99	1999	inspirasjon	inspirasjon inspirasjonen inspirasjoner inspirasjonene
+100	2000	japansk	japansk japanske

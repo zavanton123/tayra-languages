@@ -1,0 +1,100 @@
+1	2401	aker	aker akre akeren
+2	2402	nyhet	nyheten nyhet
+3	2403	varsle	varsle varslet varsling varsles varslingen varslingene varslinger varsla
+4	2404	konkurs	konkurs konkursen konkurser konk konkursene
+5	2405	kilo	kilo kiloene kiloen kiloet
+6	2406	klem	klem klemmer klemmen klemmene
+7	2407	tilknytte	tilknyttet tilknyttede tilknyttes tilknytta tilknytte tilknytt
+8	2408	regi	regi regien
+9	2409	idiotisk	idiotisk idiotiske
+10	2410	elleve	elleve
+11	2411	femte	femte
+12	2412	måling	måling målinger målingene målingen
+13	2413	tykk	tykk tykke tykkere tykt tykkeste tykkest
+14	2414	fysikk	fysikk fysikken
+15	2415	blanding	blanding blandingen blandinger blandingene
+16	2416	amme	am amme ammet ammer ammende ammen amma ammes
+17	2417	symptom	symptomer symptomene symptom symptomet
+18	2418	reform	reform reformen reformer reformene
+19	2419	areal	areal arealet arealer arealene
+20	2420	semifinale	semifinalen semifinale semifinalene semifinaler
+21	2421	ild	ild ilden ilder ildere ilderen
+22	2422	advarsel	advarsel advarsler advarselen advarslene
+23	2423	alarm	alarm alarmen alarmer alarmene
+24	2424	kjerne	kjernen kjerne kjerner kjernene kjernet kinne kjerna
+25	2425	regime	regimet regime regimer regimene
+26	2426	marine	marine marinen mariner marinene
+27	2427	humør	humør humøret
+28	2428	tilsvare	tilsvarer tilsvare tilsvarte tilsvart
+29	2429	nøytral	nøytral nøytrale nøytralt
+30	2430	tine	tine tina tiner tines
+31	2431	anbefaling	anbefalinger anbefaling anbefalingen anbefalingene
+32	2432	mord	mord mordet mordene
+33	2433	forestille	forestille forestiller forestilt forestilte forestill
+34	2434	villa	villa villaen villaer villaene
+35	2435	skygge	skyggen skygge skygger skyggene skygget
+36	2436	hell	hell hellet hella hellene
+37	2437	knekke	knekke knekken knekk knakk knekt knekker knekket knekkes knekten knekte
+38	2438	forekomme	forekommer forekomme forekommet forekom forekommende
+39	2439	sannsynlighet	sannsynlighet sannsynligheten sannsynligheter sannsynlighetene
+40	2440	presentasjon	presentasjon presentasjoner presentasjonen presentasjonene
+41	2441	romantisk	romantisk romantiske
+42	2442	avansert	avansert avanserte
+43	2443	krenke	krenket krenkende krenke krenker krenka krenkes krenkede
+44	2444	nedgang	nedgang nedgangen nedganger
+45	2445	lokke	lokket lokke lokk lokker lokkes lokkene lokkende lokka lokken
+46	2446	trøtt	trøtt trøtte trøttende trøttere
+47	2447	fellesskap	fellesskap fellesskapet fellesskapene
+48	2448	utbredt	utbredt utbredte
+49	2449	katastrofe	katastrofe katastrofer katastrofen katastrofene
+50	2450	skryte	skryte skryt skryter skrøt skrytt skrytende skrytet skrøyt
+51	2451	isolere	isolert isolerte isolere isolerer isoleres isolerende isoler
+52	2452	hundrevis	hundrevis
+53	2453	hverken	hverken
+54	2454	hvorvidt	hvorvidt
+55	2455	jammen	jammen
+56	2456	ombord	ombord
+57	2457	riktignok	riktignok
+58	2458	utelukkende	utelukkende
+59	2459	installere	installert installere installerte installerer installeres installer
+60	2460	ettertid	ettertid ettertiden ettertida
+61	2461	innføring	innføring innføringen innføringa innføringer
+62	2462	celle	celler cellene celle cellen cella selle seller
+63	2463	bekymring	bekymring bekymringer bekymringen bekymringene
+64	2464	sand	sand sanden sandene
+65	2465	oppvarming	oppvarming oppvarmingen oppvarminga
+66	2466	angst	angst angsten
+67	2467	skriftlig	skriftlig skriftlige
+68	2468	påvirkning	påvirkning påvirkningen påvirkninger påvirkningene
+69	2469	hjul	hjul hjulene hjulet hjula
+70	2470	innvandring	innvandring innvandringen innvandringer innvandringa
+71	2471	verksted	verksted verkstedet verksteder verkstedene
+72	2472	sal	salen sal saler salene sala sadel salet
+73	2473	vennskap	vennskap vennskapet vennskapene
+74	2474	ulempe	ulemper ulempe ulempen ulempene
+75	2475	høyesterett	høyesterett høyesteretten
+76	2476	tulle	tuller tulle tulla
+77	2477	kjendis	kjendis kjendiser kjendisene kjendisen
+78	2478	retningslinje	retningslinjer retningslinjene retningslinje retningslinjen
+79	2479	guide	guide guiden guider guides guidet guidede guidene guida guid
+80	2480	innside	innsiden innside innsida innsider innsidere
+81	2481	kvalm	kvalm kvalme kvalmt kvalmen kvalmeste
+82	2482	tegne	tegne tegnet tegner tegnes tegnede tegneren tegnere tegna tegnerne
+83	2483	balanse	balanse balansen balanser
+84	2484	hevdet	hevdet
+85	2485	ho	ho
+86	2486	siv	siv
+87	2487	sekk	sekken sekk sekker sekkene
+88	2488	klimaendring	klimaendringer klimaendringene klimaendring klimaendringen
+89	2489	undervise	undervise underviser undervist underviste undervises undervisere undervis
+90	2490	logisk	logisk logiske
+91	2491	kjøleskap	kjøleskapet kjøleskap
+92	2492	mette	mette mett mettet mettende metter mettes mettede metta metten
+93	2493	pilot	pilot piloten piloter pilotene
+94	2494	attraktiv	attraktiv attraktivt attraktive
+95	2495	bite	bite bitt bet beit bittet bitende bittene
+96	2496	sårbar	sårbare sårbar sårbart
+97	2497	statistisk	statistisk statistiske
+98	2498	rutine	rutiner rutine rutinene rutinen
+99	2499	feile	feiler feilet feile feilte feilt
+100	2500	valuta	valuta valutaen valutaer valutaene

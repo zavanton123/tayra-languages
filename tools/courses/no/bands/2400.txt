@@ -1,0 +1,100 @@
+1	2301	dialog	dialog dialogen dialoger dialogene
+2	2302	redaktør	redaktør redaktøren redaktører redaktørene
+3	2303	medalje	medaljer medalje medaljen medaljene
+4	2304	irriterende	irriterende
+5	2305	overhodet	overhodet
+6	2306	øvre	øvre
+7	2307	turnering	turneringen turnering turneringer turneringene turneringa
+8	2308	ungdomsskole	ungdomsskolen ungdomsskole ungdomsskoler ungdomsskolene
+9	2309	diskriminering	diskriminering diskrimineringen
+10	2310	bærekraftig	bærekraftig bærekraftige
+11	2311	virus	virus viruset virusene
+12	2312	slekt	slekt slekten slekta slekter slektene
+13	2313	overvåke	overvåke overvåket overvåker overvåkes overvåk overvåkede overvåkende overvåkere overvåkte overvåkerne
+14	2314	leir	leir leiren leirene leirer leira leiret leirete
+15	2315	gro	gro gror grodd grodde
+16	2316	plattform	plattform plattformen plattformer plattformene
+17	2317	onde	onde onder onda ondet ondene
+18	2318	bekjempe	bekjempe bekjemper bekjempes bekjempet bekjemp
+19	2319	komité	komiteen komité komite komiteer komitéen komiteene komitéer komitéene
+20	2320	demonstrasjon	demonstrasjoner demonstrasjon demonstrasjonen demonstrasjonene
+21	2321	sinn	sinn sinna sinnet sinnene
+22	2322	struktur	struktur strukturer strukturen strukturene
+23	2323	fotballspiller	fotballspiller fotballspillere fotballspilleren fotballspillerne
+24	2324	adgang	adgang adgangen
+25	2325	ordinær	ordinære ordinær ordinært
+26	2326	rente	renter rente renten rentene renta rentes
+27	2327	taxi	taxi taxien taxier taxiene
+28	2328	regional	regionale regional regionalt
+29	2329	bygging	bygging byggingen bygginga
+30	2330	elbil	elbil elbiler elbilen elbilene
+31	2331	dyrke	dyrke dyrket dyrker dyrkes dyrka dyrkede dyrk dyrkere dyrkerne
+32	2332	forby	forby forbyr forbød forbys
+33	2333	hakke	hakk hakket hakke hakker hakka hakkete hakkede hakkes hakkende hakkene
+34	2334	langsiktig	langsiktig langsiktige
+35	2335	konferanse	konferanse konferansen konferanser konferansene
+36	2336	overskudd	overskudd overskuddet overskuddene
+37	2337	adam	adam
+38	2338	fa	fa
+39	2339	mestepart	mesteparten
+40	2340	oi	oi
+41	2341	blokkere	blokkere blokkerer blokkert blokker blokkerte blokkeres blokkerende
+42	2342	vik	viken vik vika viker vikene
+43	2343	ektemann	ektemann ektemannen ektemenn ektemennene
+44	2344	justere	justere justert justeres justerer juster justerte
+45	2345	skyldig	skyldig skyldige
+46	2346	smitte	smittet smitte smitter smitten smittede smittes smittende smitt smitta
+47	2347	kjøring	kjøring kjøringen kjøringa kjøringer kjøringene
+48	2348	kylling	kylling kyllingen kyllinger kyllingene
+49	2349	ås	ås åsen åsene åser æsene æser
+50	2350	vellykket	vellykket vellykkede vellykkete
+51	2351	hytte	hytte hytter hytten hyttene
+52	2352	returnere	returnere returnerer returnert returnerte returneres returner returnerende
+53	2353	måne	månen måne måner månene mån månes
+54	2354	formidle	formidle formidler formidlet formidles formidlere formidlende formidleren formidla
+55	2355	bonus	bonus bonuser bonusen bonusene
+56	2356	kopi	kopi kopier kopien kopiene
+57	2357	tryne	trynet tryne tryner trynene
+58	2358	oppsøke	oppsøke oppsøker oppsøkte oppsøkt oppsøk oppsøkende oppsøkes
+59	2359	førerkort	førerkort førerkortet førerkortene
+60	2360	krangle	krangle krangler kranglet kranglete krangla kranglende
+61	2361	miljøvennlig	miljøvennlig miljøvennlige
+62	2362	ku	ku kyr kua kuer kyrne kuene kuen
+63	2363	virkning	virkning virkningen virkninger virkningene
+64	2364	takknemlig	takknemlig takknemlige takknemmelig
+65	2365	fjord	fjorden fjorder fjord fjordene
+66	2366	meningsløs	meningsløst meningsløs meningsløse
+67	2367	røyker	røyker røykere røykerne røykeren
+68	2368	avholde	avholdt avholdes avholde avholder avholdende avholdte avhold
+69	2369	sprø	sprøtt sprø sprøe sprøeste sprøere
+70	2370	sjokkere	sjokkert sjokkerende sjokkerte sjokkere sjokkerer
+71	2371	misforstå	misforstått misforstår misforstå misforsto misforstod misforstås misforståtte
+72	2372	problemstilling	problemstillingen problemstillinger problemstilling problemstillingene problemstillinga
+73	2373	arve	arve arvet arver arves arva arvede
+74	2374	mur	muren mur murene murer murere mureren murerne
+75	2375	offentlighet	offentligheten offentlighet
+76	2376	format	format formatet formater formatene
+77	2377	grønnsak	grønnsaker grønnsakene grønnsak grønnsaken
+78	2378	forhånd	forhånd
+79	2379	geir	geir
+80	2380	hittil	hittil
+81	2381	tilsynelatende	tilsynelatende
+82	2382	trinn	trinn trinnet trinnene trinne
+83	2383	trang	trang trangt trange trangen trangere trangeste
+84	2384	kor	kor koret korene kora
+85	2385	menneskerettighet	menneskerettigheter menneskerettighetene menneskerettighet
+86	2386	argumentere	argumentere argumenterer argumenter argumenterte argumentert argumenteres argumenterende
+87	2387	reflektere	reflektere reflekterer reflektert reflekterte reflekteres reflekterende reflekter
+88	2388	våt	våt våte vått våtere våteste
+89	2389	dominere	dominerer dominert dominere dominerte domineres
+90	2390	dødsfall	dødsfall dødsfallet dødsfallene
+91	2391	litteratur	litteratur litteraturen
+92	2392	kasse	kasse kassa kassen kasser kassene
+93	2393	samvittighet	samvittighet samvittigheten
+94	2394	lee	lee lea leer leet leende
+95	2395	leverandør	leverandør leverandører leverandøren leverandørene
+96	2396	felle	felle feller fella fellen fell felte fellene
+97	2397	diagnose	diagnose diagnosen diagnoser diagnosene
+98	2398	steke	stekt steke steike stek stekte steker stekes steken stekende steiker
+99	2399	bursdag	bursdag bursdagen bursdager bursdagene
+100	2400	kompleks	komplekse kompleks komplekst komplekset komplekser kompleksene

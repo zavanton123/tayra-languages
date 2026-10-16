@@ -1,0 +1,100 @@
+1	3001	forbinde	forbinder forbundet forbindes forbinde forbandt forbundne
+2	3002	sminke	sminke sminken sminket sminker sminka sminkede sminkes
+3	3003	fastlege	fastlegen fastlege fastleger fastlegene
+4	3004	patetisk	patetisk patetiske
+5	3005	eik	eiker eik ek eika eiken eikene
+6	3006	kommando	kommandoen kommando kommandoer kommandoene
+7	3007	ambulanse	ambulanse ambulansen ambulanser ambulansene
+8	3008	halvdel	halvdel halvdelen halvdeler halvdelene
+9	3009	bestemmelse	bestemmelser bestemmelsen bestemmelse bestemmelsene
+10	3010	keiser	keiseren keiser keisere keiserne
+11	3011	debut	debut debuten debuter
+12	3012	begravelse	begravelse begravelsen begravelser begravelsene
+13	3013	synspunkt	synspunkter synspunkt synspunktene synspunktet
+14	3014	slange	slanger slange slangen slang slangene slanges
+15	3015	innerst	innerst innerste
+16	3016	borettslag	borettslag borettslaget borettslagene
+17	3017	henvise	henviser henvise henvist henviste henvises henvis
+18	3018	omfang	omfang omfanget
+19	3019	drivstoff	drivstoff drivstoffet drivstoffer
+20	3020	styring	styring styringen styringa
+21	3021	forplikte	forpliktet forpliktende forplikter forplikte forpliktede forplikta
+22	3022	innimellom	innimellom
+23	3023	innsyn	innsyn
+24	3024	maks	maks
+25	3025	massevis	massevis
+26	3026	sørover	sørover
+27	3027	temmelig	temmelig
+28	3028	polsk	polske polsk
+29	3029	arkitekt	arkitekt arkitekter arkitekten arkitektene
+30	3030	klient	klient klienter klienten klientene
+31	3031	eple	epler eple eplet eplene
+32	3032	lufthavn	lufthavn lufthavnen lufthavner lufthavnene lufthavna
+33	3033	fryse	fryse frosset frøs fryst frosne frys fryses fryste frysen frøys
+34	3034	slakte	slaktet slakt slakte slakter slaktes slakteren slaktere slakta slaktede slakterne
+35	3035	part	partene parten
+36	3036	forvaltning	forvaltning forvaltningen
+37	3037	løk	løk løken løkene løker
+38	3038	analysere	analysere analyserer analysert analyser analyserte analyseres analyserende analysering
+39	3039	retur	retur returen returer
+40	3040	utnevne	utnevnt utnevne utnevnte utnevner utnevnes utnevn
+41	3041	eierskap	eierskap eierskapet
+42	3042	lind	linda lind linden linder
+43	3043	importere	importert importere importerte importerer importeres importer
+44	3044	aspekt	aspekter aspekt aspektet aspektene
+45	3045	personell	personell personellet
+46	3046	allmenn	allmenn allment allmenne alment almen
+47	3047	verv	verv vervet vervene verven
+48	3048	maksimal	maksimal maksimalt maksimale
+49	3049	vern	vern vernet verna
+50	3050	montere	montert montere monteres monterte monterer monter monteren
+51	3051	sti	stien sti stier stiene
+52	3052	uniform	uniform uniformer uniformen uniformene uniformt uniforme
+53	3053	kopiere	kopiere kopiert kopier kopierer kopierte kopieres
+54	3054	abort	abort aborter aborten abortene
+55	3055	assistent	assistent assistenter assistenten assistentene
+56	3056	mesterskap	mesterskap mesterskapet mesterskapene
+57	3057	gjennomgang	gjennomgang gjennomgangen gjennomganger
+58	3058	langvarig	langvarig langvarige
+59	3059	vane	vane vaner vanene vanen
+60	3060	styreleder	styreleder styrelederen styreledere
+61	3061	rekruttere	rekruttere rekruttert rekrutterer rekrutter rekrutterte rekrutteres
+62	3062	omkomme	omkom omkommet omkomne omkommer omkomme
+63	3063	tømme	tømme tømt tømte tømmes tøm tømmene
+64	3064	forvalte	forvalte forvalter forvaltes forvaltet forvaltere forvalteren forvaltede forvalterne
+65	3065	balansere	balansert balansere balanserer balanserte balanseres balanserende balanser
+66	3066	kommunestyre	kommunestyret kommunestyre kommunestyrene kommunestyrer
+67	3067	indikere	indikerer indikere indikerte indikert indikeres
+68	3068	stave	staver staven stav stave staves stavet stava
+69	3069	svinge	svinge svinger svingte svingende svingt svinges svinget svang
+70	3070	kredittkort	kredittkort kredittkortet kredittkortene
+71	3071	gjerningsmann	gjerningsmannen gjerningsmann gjerningsmenn gjerningsmennene
+72	3072	volum	volum volumet volumer volumene
+73	3073	forsikre	forsikre forsikret forsikrer forsikres forsikrede
+74	3074	oppfølging	oppfølging oppfølgingen
+75	3075	avgang	avgang avganger avgangen avgangene
+76	3076	musiker	musikere musiker musikerne musikeren
+77	3077	stortingsrepresentant	stortingsrepresentanter stortingsrepresentant stortingsrepresentantene stortingsrepresentanten
+78	3078	fornærme	fornærmet fornærmede fornærme fornærmende fornærmer fornærma
+79	3079	forebygge	forebygge forebyggende forebygger forebygges forebygget
+80	3080	engel	engel engler engelen englene
+81	3081	frøken	frøken frøkna frøkner frøknene frøkenen
+82	3082	spekter	spekter spekteret spektret spektre spektra
+83	3083	sykehjem	sykehjem sykehjemmet sykehjemmene sjukeheim sjukehjem
+84	3084	pipe	piper pipe pipa pep pip pipen pipene pepet pipende
+85	3085	nes	nesa nes neset næs nesene
+86	3086	menneskehet	menneskeheten menneskehet
+87	3087	borg	borg borgen borgene borga
+88	3088	beskylde	beskyldt beskylder beskylde beskyldte beskyldes beskyld
+89	3089	ufattelig	ufattelig ufattelige
+90	3090	nynorsk	nynorsk nynorsken nynorske
+91	3091	uhell	uhell uhellet uhellene
+92	3092	overføring	overføring overføringer overføringen overføringene overføringa
+93	3093	forenklet	forenklet forenklede
+94	3094	virkemiddel	virkemidler virkemiddel virkemidlene virkemiddelet virkemidlet
+95	3095	rekkevidde	rekkevidde rekkevidden
+96	3096	hule	hole hule hulen huler hulene hula hulet
+97	3097	grunnlegge	grunnlagt grunnla grunnlegge grunnlegges
+98	3098	lime	lime lim lima limt limet limes limer limte limen
+99	3099	verdsette	verdsatt verdsetter verdsette verdsettes verdsatte verdsett
+100	3100	foruten	foruten

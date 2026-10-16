@@ -1,0 +1,100 @@
+1	8901	nybygger	nybyggerne nybyggere nybygger nybyggeren
+2	8902	soya	soya soyaen
+3	8903	hjernevaske	hjernevasket hjernevaske hjernevasker hjernevaskede hjernevaskes hjernevaska
+4	8904	snøskred	snøskred snøskredet
+5	8905	sagbruk	sagbruk sagbruket sagbrukene
+6	8906	diffus	diffus diffuse diffust
+7	8907	bitterhet	bitterhet bitterheten
+8	8908	søl	søl sølet soll
+9	8909	kulturråd	kulturråd kulturrådet
+10	8910	elsykkel	elsykkel elsykler
+11	8911	motvilje	motvilje motviljen
+12	8912	avskrive	avskrevet avskrive avskrives avskrev
+13	8913	avdrag	avdrag avdragene avdraget
+14	8914	inspirasjonskilde	inspirasjonskilde inspirasjonskilder inspirasjonskilden inspirasjonskildene
+15	8915	utdanningsprogram	utdanningsprogram utdanningsprogrammet utdanningsprogrammer utdanningsprogrammene
+16	8916	pedal	pedal pedalene pedaler pedalen
+17	8917	prisnivå	prisnivå prisnivået prisnivåer
+18	8918	nødetat	nødetatene nødetater
+19	8919	kompleksitet	kompleksitet kompleksiteten
+20	8920	drikking	drikking drikkingen
+21	8921	kontinuitet	kontinuitet kontinuiteten
+22	8922	strebe	streber strebe strebet strebende strebere
+23	8923	eskortere	eskortert eskortere eskorterte eskorterer eskorteres
+24	8924	fredsavtale	fredsavtale fredsavtalen fredsavtaler
+25	8925	dørvakt	dørvakt dørvakten dørvakter dørvaktene dørvakta
+26	8926	byråkratisk	byråkratisk byråkratiske
+27	8927	marxisme	marxisme marxismen
+28	8928	sverte	sverte svertet sverter svert
+29	8929	ineffektiv	ineffektiv ineffektive ineffektivt
+30	8930	reisemål	reisemål reisemålet reisemålene
+31	8931	vanke	vanker vanket vanke
+32	8932	symbolikk	symbolikk symbolikken
+33	8933	datasystem	datasystem datasystemer datasystemet datasystemene
+34	8934	mure	murt muren mure murte murene murer muret mures mura murere
+35	8935	differanse	differansen differanse differansene differanser
+36	8936	mynte	myntet mynte mynter myntene mynten
+37	8937	posere	posere poserer poserte poser posert poserende
+38	8938	manusforfatter	manusforfatter manusforfattere manusforfatteren manusforfatterne
+39	8939	hykleri	hykleri hykleriet
+40	8940	kroppslig	kroppslig kroppslige
+41	8941	fornemme	fornemme fornem fornemmer fornemt fornemmet
+42	8942	immunitet	immunitet immuniteten
+43	8943	gjeter	gjeter gjetere gjeteren gjeterne
+44	8944	konstituere	konstituert konstituerte konstituerer konstituere konstitueres
+45	8945	meteorologisk	meteorologisk meteorologiske
+46	8946	pinnekjøtt	pinnekjøtt pinnekjøttet
+47	8947	solsystem	solsystemet solsystem solsystemer
+48	8948	hydraulisk	hydraulisk hydrauliske
+49	8949	grunnmur	grunnmuren grunnmur grunnmurer grunnmurene
+50	8950	fremskynde	fremskynde fremskyndet fremskynder fremskyndes
+51	8951	injisere	injisert injisere injiseres injiserer injiserte
+52	8952	nagle	nagler nagle naglet naglene naglen nagles
+53	8953	førstefødt	førstefødte førstefødt
+54	8954	madam	madam madammen
+55	8955	beklagelse	beklagelse beklagelsen beklagelser
+56	8956	prøvetid	prøvetid prøvetiden
+57	8957	raide	raidet raide raidene
+58	8958	markør	markør markører markøren markørene
+59	8959	oval	ovale oval ovalt ovalen
+60	8960	respektabel	respektabel respektable respektabelt
+61	8961	ungdomsbok	ungdomsbøker ungdomsbok ungdomsbøkene ungdomsboka ungdomsboken
+62	8962	enkeltsak	enkeltsaker enkeltsak enkeltsakene
+63	8963	slavisk	slavisk slaviske
+64	8964	fornøyelsespark	fornøyelsespark fornøyelsesparker fornøyelsesparken fornøyelsesparkene
+65	8965	konjakk	konjakk konjakken
+66	8966	fadder	fadder faddere fadderne fadderen
+67	8967	transformasjon	transformasjon transformasjonen transformasjoner transformasjonene
+68	8968	bitte	bitte
+69	8969	jævli	jævli
+70	8970	jøye	jøye
+71	8971	miljøvern	miljøvern
+72	8972	sidestykke	sidestykke
+73	8973	stuper	stuper
+74	8974	sykkeltur	sykkeltur sykkelturer sykkelturen
+75	8975	sykepenger	sykepenger sykepengene
+76	8976	magefølelse	magefølelsen magefølelse
+77	8977	ufyselig	ufyselig ufyselige
+78	8978	lystig	lystig lystige lystigere
+79	8979	lokasjon	lokasjon lokasjonen lokasjoner lokasjonene
+80	8980	kvalitativ	kvalitative kvalitativ kvalitativt
+81	8981	massemedium	massemedia massemedier massemediene massemedium
+82	8982	sno	sno snoen snodde snodd snos
+83	8983	påtvinge	påtvunget påtvinge påtvinger påtvinges påtvungne påtvungen påtvang
+84	8984	kloss	kloss klosser klossene klossen
+85	8985	brudgom	brudgommen brudgom
+86	8986	kapitulere	kapitulerte kapitulere kapitulerer kapitulert
+87	8987	tane	tana tanen
+88	8988	pronomen	pronomen pronomenet pronomenene pronomener
+89	8989	tilnavn	tilnavnet tilnavn tilnavnene
+90	8990	butt	butt butte
+91	8991	gjær	gjær gjæren
+92	8992	preke	preke preker prekte
+93	8993	statsoverhode	statsoverhode statsoverhoder statsoverhodet statsoverhodene
+94	8994	tviholde	tviholder tviholde tviholdt
+95	8995	lakselus	lakselus lakselusen
+96	8996	intuitiv	intuitivt intuitiv intuitive
+97	8997	emigrere	emigrerte emigrere emigrert emigrerer
+98	8998	tsar	tsar tsaren tsarene tsarer
+99	8999	romslig	romslig romslige romsligere
+100	9000	redningsaksjon	redningsaksjon redningsaksjonen redningsaksjoner

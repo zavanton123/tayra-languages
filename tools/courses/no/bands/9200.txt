@@ -1,0 +1,100 @@
+1	9101	vingård	vingård vingården vingårder vingårdene
+2	9102	overskyet	overskyet overskyede
+3	9103	prakt	prakt prakten
+4	9104	førstegangstjeneste	førstegangstjeneste førstegangstjenesten
+5	9105	garnison	garnisonen garnison garnisoner garnisonene
+6	9106	fastlegge	fastlagt fastlagte fastlegge fastlegger fastlegges
+7	9107	skulke	skulker skulke skulket
+8	9108	hangarskip	hangarskip hangarskipet hangarskipene
+9	9109	prosessere	prosessert prosessere prosesser prosesserer prosesseres prosesserte
+10	9110	førstehjelp	førstehjelp førstehjelper
+11	9111	letthet	letthet lettheten
+12	9112	jordklode	jordkloden jordklode jordkloder
+13	9113	avsi	avsagt avsa avsi avsies avsier
+14	9114	vederlag	vederlag vederlaget
+15	9115	selvstyre	selvstyre selvstyret
+16	9116	trykkeri	trykkeriet trykkeri trykkerier trykkeriene
+17	9117	kompetansesenter	kompetansesenter kompetansesenteret kompetansesentre kompetansesentra
+18	9118	mystikk	mystikk mystikken
+19	9119	naturopplevelse	naturopplevelser naturopplevelse naturopplevelsen
+20	9120	reklamasjon	reklamasjon reklamasjonen
+21	9121	sløsing	sløsing sløsingen
+22	9122	næringsminister	næringsminister næringsministeren
+23	9123	ansiennitet	ansiennitet ansienniteten
+24	9124	umoden	umoden umodne umodent
+25	9125	uregelmessig	uregelmessig uregelmessige
+26	9126	avisartikkel	avisartikler avisartikkel avisartikkelen avisartiklene
+27	9127	stevnemøte	stevnemøte stevnemøter stevnemøtet
+28	9128	inntrenger	inntrengere inntrengerne inntrenger inntrengeren
+29	9129	skjede	skjede skjeden skjeder
+30	9130	germansk	germanske germansk
+31	9131	storhetstid	storhetstid storhetstiden
+32	9132	akkord	akkord akkorder akkordene akkorden
+33	9133	tredimensjonal	tredimensjonale tredimensjonal tredimensjonalt
+34	9134	kvantitativ	kvantitativ kvantitative kvantitativt
+35	9135	ponni	ponni ponnier ponniene ponnien
+36	9136	samhandling	samhandling samhandlingen samhandlinger
+37	9137	tilbøyelig	tilbøyelig tilbøyelige
+38	9138	hårfarge	hårfarge hårfargen hårfarger
+39	9139	doktrine	doktrine doktriner doktrinen doktrinene
+40	9140	reindrift	reindrift reindriften reindrifta
+41	9141	nostalgi	nostalgi nostalgien
+42	9142	dvale	dvale dvalen
+43	9143	proviant	proviant provianten
+44	9144	skadevirkning	skadevirkninger skadevirkningene skadevirkning skadevirkningen
+45	9145	konsultere	konsultere konsultert konsulterer konsulteres konsulterte konsulterende
+46	9146	hungersnød	hungersnød hungersnøden
+47	9147	honorar	honorar honoraret honorarer honorarene
+48	9148	forakte	foraktet forakter forakte foraktede
+49	9149	kresen	kresen kresne kresent
+50	9150	fordøye	fordøye fordøyd fordøyer fordøyes
+51	9151	amputere	amputere amputert amputerte amputeres
+52	9152	motvekt	motvekt motvekten motvekter
+53	9153	uklok	uklokt uklok ukloke
+54	9154	skipsfart	skipsfart skipsfarten
+55	9155	underverden	underverdenen underverden
+56	9156	vokabular	vokabular vokabularet vokabularer
+57	9157	tomrom	tomrom tomrommet tomrommene
+58	9158	frasi	frasi frasier frasagt
+59	9159	innleggelse	innleggelse innleggelser innleggelsen
+60	9160	turbulent	turbulent turbulente
+61	9161	togstasjon	togstasjonen togstasjon togstasjoner togstasjonene
+62	9162	karismatisk	karismatiske karismatisk
+63	9163	banditt	banditter bandittene banditt banditten
+64	9164	matrise	matrisen matrise matriser matrisene
+65	9165	likevekt	likevekt likevekten
+66	9166	spenstig	spenstig spenstige
+67	9167	jule	jule jult
+68	9168	synsvinkel	synsvinkel synsvinkler synsvinkelen
+69	9169	samfunnsvitenskapelig	samfunnsvitenskapelig samfunnsvitenskapelige
+70	9170	boblebad	boblebad boblebadet
+71	9171	alfabetisk	alfabetisk alfabetiske
+72	9172	skranke	skranken skranke skranker skrankene
+73	9173	tikke	tikker tikkende tikka tikke tikket tikken
+74	9174	opprydding	opprydning opprydding oppryddingen
+75	9175	mhm	mhm
+76	9176	norskekysten	norskekysten
+77	9177	overveiende	overveiende
+78	9178	støyende	støyende
+79	9179	kveg	kveg kveget
+80	9180	utgraving	utgraving utgravinger utgravingen utgravning utgravingene
+81	9181	upresis	upresist upresis upresise
+82	9182	håndvåpen	håndvåpen håndvåpenet
+83	9183	sykemelding	sykemelding sykemeldinger sykemeldingen sykemeldingene
+84	9184	sultan	sultan sultanen sultanene sultaner
+85	9185	forelskelse	forelskelse forelskelsen forelskelser
+86	9186	lydighet	lydighet lydigheten
+87	9187	sandstrand	sandstrand sandstrender sandstrendene sandstranden sandstranda
+88	9188	lillegutt	lillegutt lillegutten
+89	9189	scenarium	scenarier scenariet scenariene
+90	9190	hyttetur	hyttetur hytteturen hytteturer
+91	9191	likhetstrekk	likhetstrekk likhetstrekkene
+92	9192	inntog	inntog inntoget
+93	9193	firkantet	firkantet firkantede firkantete
+94	9194	pensjonsalder	pensjonsalder pensjonsalderen
+95	9195	fakkel	fakler fakkel fakkelen faklene
+96	9196	annonsør	annonsører annonsørene annonsør annonsøren
+97	9197	hjemkomst	hjemkomst hjemkomsten
+98	9198	værforhold	værforhold værforholdene
+99	9199	forsiktighet	forsiktighet forsiktigheten
+100	9200	hamster	hamster hamstre hamstrer hamsteren hamstere hamstret

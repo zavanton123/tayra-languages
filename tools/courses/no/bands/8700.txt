@@ -1,0 +1,100 @@
+1	8601	karikatur	karikatur karikaturer karikaturene karikaturen
+2	8602	gruble	gruble grublet grubler grublende
+3	8603	temme	temme temmet temmes tem temmer temte
+4	8604	enkeltstående	enkeltstående
+5	8605	førstkommende	førstkommende
+6	8606	grobunn	grobunn
+7	8607	hindi	hindi
+8	8608	innledningsvis	innledningsvis
+9	8609	klin	klin
+10	8610	narko	narko
+11	8611	nyland	nyland
+12	8612	stykk	stykk
+13	8613	flyvning	flyvninger flyvning flyvningen flyvningene
+14	8614	skolearbeid	skolearbeid skolearbeidet
+15	8615	fredagskveld	fredagskveld fredagskvelden fredagskveldene fredagskvelder
+16	8616	melke	melke melket melken melkes melka melker
+17	8617	sele	sele selen selene seler
+18	8618	forsvinning	forsvinning forsvinningen forsvinninger forsvinningene
+19	8619	frilans	frilanser frilans frilansere frilanserne
+20	8620	alderdom	alderdom alderdommen
+21	8621	utilsiktet	utilsiktet utilsiktede
+22	8622	aminosyre	aminosyrer aminosyre aminosyrene aminosyren
+23	8623	revolusjonere	revolusjonere revolusjonerte revolusjonert revolusjonerer revolusjoner
+24	8624	forankring	forankring forankringen forankringer
+25	8625	kalk	kalk kalken
+26	8626	kontantstøtte	kontantstøtten kontantstøtte
+27	8627	sarkastisk	sarkastisk sarkastiske
+28	8628	grenseløs	grenseløs grenseløst grenseløse
+29	8629	ombygd	ombygd ombygget ombygde
+30	8630	forskyve	forskjøvet forskyve forskyves forskyver forskjøv
+31	8631	rettssal	rettssalen rettssal rettssaler rettssalene
+32	8632	holdbar	holdbart holdbar holdbare
+33	8633	proporsjonere	proporsjoner proporsjonert
+34	8634	datering	datering dateringen dateringer dateringene
+35	8635	selvopptatt	selvopptatt selvopptatte
+36	8636	vielse	vielsen vielse vielser
+37	8637	tankskip	tankskip tankskipet tankskipene
+38	8638	insulin	insulin insulinet
+39	8639	kjærlighetsliv	kjærlighetslivet kjærlighetsliv
+40	8640	verdensdel	verdensdeler verdensdel verdensdelen verdensdelene
+41	8641	pøse	pøse pøser pøs pøst pøste
+42	8642	feriepenger	feriepenger feriepengene
+43	8643	informativ	informativ informativt informative
+44	8644	yrkesgruppe	yrkesgrupper yrkesgruppe yrkesgruppen yrkesgruppene
+45	8645	livbåt	livbåt livbåten livbåtene livbåter
+46	8646	strømbrudd	strømbrudd strømbruddet strømbruddene
+47	8647	anarkist	anarkister anarkist anarkistene anarkisten
+48	8648	medlemstall	medlemstall medlemstallet medlemstallene
+49	8649	kringkaste	kringkastet kringkaste kringkaster kringkasteren kringkastere kringkasterne kringkastes
+50	8650	peanøtt	peanøtter peanøtt peanøttene
+51	8651	vinkle	vinklet vinkle vinkler vinkles vinklede
+52	8652	salsa	salsa salsaen
+53	8653	ukedag	ukedagene ukedag ukedager ukedagen
+54	8654	plott	plottet plott plottene
+55	8655	korsfeste	korsfestet korsfeste korsfestede korsfester korsfestes korsfest
+56	8656	forholdsregel	forholdsregler forholdsregel forholdsreglene
+57	8657	forfatning	forfatning forfatningen forfatninger
+58	8658	presidentskap	presidentskapet presidentskap
+59	8659	gullmedalje	gullmedalje gullmedaljer gullmedaljen gullmedaljene
+60	8660	norgesmesterskap	norgesmesterskapet norgesmesterskap norgesmesterskapene
+61	8661	prøvelse	prøvelser prøvelse prøvelsene prøvelsen
+62	8662	oljenæring	oljenæringen oljenæring oljenæringa
+63	8663	gjerningsperson	gjerningspersonen gjerningspersoner gjerningsperson gjerningspersonene
+64	8664	mistenksom	mistenksom mistenksomme mistenksomt
+65	8665	kadett	kadett kadetter kadettene kadetten
+66	8666	differensiere	differensiert differensiere differensierte differensieres differensierer differensierende
+67	8667	folketrygd	folketrygden folketrygd
+68	8668	likestillingslov	likestillingsloven likestillingslov
+69	8669	årtusen	årtusener årtusen årtusenet årtusenene
+70	8670	utenrikspolitisk	utenrikspolitiske utenrikspolitisk
+71	8671	skogbrann	skogbrann skogbranner skogbrannen skogbrannene
+72	8672	skytebane	skytebane skytebanen skytebaner
+73	8673	forbikjøring	forbikjøring forbikjøringer forbikjøringen
+74	8674	fosterhjem	fosterhjem fosterhjemmet fosterhjemmene
+75	8675	podkast	podkast podkasten podkaster
+76	8676	stigmatisering	stigmatisering stigmatiseringen
+77	8677	unnsetning	unnsetning unnsetningen
+78	8678	sammenslutning	sammenslutning sammenslutningen sammenslutninger
+79	8679	smi	smi smidd smidde smir smis
+80	8680	nigger	nigger niggere
+81	8681	dobling	dobling doblingen doblinger
+82	8682	barnevogn	barnevogn barnevogner barnevogna barnevognen barnevognene
+83	8683	tilbakebetale	tilbakebetalt tilbakebetale tilbakebetales tilbakebetaler tilbakebetalte
+84	8684	storslagen	storslagne storslagen storslagent
+85	8685	statsmakt	statsmakt statsmakten statsmaktene statsmakter statsmakta
+86	8686	helligdom	helligdommen helligdom helligdommer helligdommene
+87	8687	bestselger	bestselger bestselgere bestselgeren bestselgerne
+88	8688	hovedvekt	hovedvekt hovedvekten
+89	8689	milepæl	milepæl milepæler milepælen milepælene
+90	8690	digge	digge digget digga
+91	8691	karneval	karneval karnevalet
+92	8692	kosmisk	kosmisk kosmiske
+93	8693	samfunnsvitenskap	samfunnsvitenskap samfunnsvitenskapene samfunnsvitenskapen
+94	8694	aldrende	aldrende
+95	8695	fastboende	fastboende
+96	8696	fnugg	fnugg
+97	8697	glødende	glødende
+98	8698	innmeldt	innmeldt
+99	8699	pes	pes
+100	8700	vinterstid	vinterstid

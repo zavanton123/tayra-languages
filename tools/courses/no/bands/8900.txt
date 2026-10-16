@@ -1,0 +1,100 @@
+1	8801	levebrød	levebrød levebrødet
+2	8802	montering	montering monteringen
+3	8803	drivhus	drivhus drivhuset drivhusene
+4	8804	forkjærlighet	forkjærlighet forkjærligheten
+5	8805	geometrisk	geometriske geometrisk
+6	8806	håne	hånet håne håner hånes hånte hånende
+7	8807	vannforsyning	vannforsyning vannforsyningen vannforsyninger
+8	8808	naturkatastrofe	naturkatastrofer naturkatastrofe naturkatastrofene naturkatastrofen
+9	8809	øse	øse øser øs øste øsende øsa øsen
+10	8810	uskyld	uskyld uskylden
+11	8811	sketsj	sketsj sketsjen sketsjer sketsjene
+12	8812	rosin	rosiner rosin rosina rosinen rosinene
+13	8813	mail	mailen mailene
+14	8814	testikkel	testiklene testikler testikkel testikkelen
+15	8815	dommedag	dommedag dommedagen
+16	8816	klassekamerat	klassekamerater klassekamerat klassekameratene klassekameraten
+17	8817	implisere	impliserer impliserte implisert implisere impliseres
+18	8818	langtur	langtur langturer
+19	8819	papirarbeid	papirarbeid papirarbeidet
+20	8820	pløye	pløye pløyd pløyde pløyer pløyes
+21	8821	bakvei	bakveien bakvei
+22	8822	avkrefte	avkreftet avkrefte avkrefter avkreftes
+23	8823	rakne	rakner rakne raknet raknes
+24	8824	bispedømme	bispedømme bispedømmet bispedømmer bispedømmene
+25	8825	isfjell	isfjell isfjellet isfjellene
+26	8826	pulje	pulje puljen puljer
+27	8827	separasjon	separasjon separasjonen separasjoner
+28	8828	overpriset	overpriset overprisede
+29	8829	upraktisk	upraktisk upraktiske
+30	8830	komprimere	komprimert komprimere komprimerte komprimerer komprimeres
+31	8831	lugar	lugar lugarer lugarene lugaren
+32	8832	idrettskrets	idrettskrets idrettskretser idrettskretsen idrettskretsene
+33	8833	konsistent	konsistent konsistente
+34	8834	samfunnsdebatt	samfunnsdebatten samfunnsdebatt
+35	8835	budbringer	budbringer budbringeren budbringere budbringerne
+36	8836	målbar	målbare målbar målbart
+37	8837	kartong	kartong kartongen kartonger kartongene
+38	8838	vinning	vinning vinningen vinninger vinninga
+39	8839	brystvorte	brystvortene brystvorter brystvorte brystvorten
+40	8840	unndra	unndra unndrar unndratt unndro
+41	8841	restriktiv	restriktiv restriktive restriktivt
+42	8842	pryde	prydet pryd pryder pryde prydes
+43	8843	tallrik	tallrike tallrik tallrikt
+44	8844	barbar	barbarer barbar barbarene barbaren
+45	8845	profesjon	profesjon profesjonen profesjoner profesjonene
+46	8846	forflytning	forflytning forflytninger forflytningen forflytningene
+47	8847	voldtektsmann	voldtektsmann voldtektsmenn voldtektsmannen voldtektsmennene
+48	8848	tematikk	tematikk tematikken tematikker
+49	8849	rompe	rompa rompe rompen
+50	8850	ugjerning	ugjerningen ugjerninger ugjerningene ugjerning
+51	8851	talerstol	talerstolen talerstol
+52	8852	flygning	flygninger flygning flygningen flygningene
+53	8853	allmektig	allmektige allmektig
+54	8854	vertshus	vertshus vertshuset
+55	8855	beskyte	beskutt beskjøt beskyte beskytes beskyter beskyt
+56	8856	kalkulator	kalkulator kalkulatoren kalkulatorer kalkulatorene
+57	8857	flyktig	flyktig flyktige
+58	8858	annullere	annullert annullere annullerte annulleres annullerer
+59	8859	oppsluke	oppslukt oppsluke oppslukte oppsluker
+60	8860	vennlighet	vennlighet vennligheten
+61	8861	sable	sabla sablet
+62	8862	geologi	geologi geologien
+63	8863	slede	slede sleden sleder sledene
+64	8864	uforholdsmessig	uforholdsmessig uforholdsmessige
+65	8865	levekår	levekår levekårene
+66	8866	uberørt	uberørt uberørte
+67	8867	iraner	iranere iranerne iraner iraneren
+68	8868	forlovelse	forlovelsen forlovelse forlovelser
+69	8869	kakerlakk	kakerlakker kakerlakk kakerlakkene kakerlakken
+70	8870	squash	squash squashen
+71	8871	pakistaner	pakistanere pakistanerne pakistaner pakistaneren
+72	8872	konvertering	konvertering konverteringen konverteringer
+73	8873	feilfri	feilfri feilfritt feilfrie
+74	8874	rebell	rebell rebeller rebellene rebellen
+75	8875	upålitelig	upålitelig upålitelige
+76	8876	rype	rype ryper rypene rypa
+77	8877	gjenoppbygging	gjenoppbygging gjenoppbyggingen
+78	8878	blinklys	blinklys blinklyset blinklysene
+79	8879	uautorisert	uautorisert uautoriserte
+80	8880	utskrift	utskrift utskrifter utskriften utskriftene
+81	8881	eldorado	eldorado
+82	8882	elektro	elektro
+83	8883	ferde	ferde
+84	8884	hån	hån
+85	8885	kokos	kokos
+86	8886	lsd	lsd
+87	8887	militant	militante
+88	8888	satans	satans
+89	8889	åtti	åtti
+90	8890	øh	øh
+91	8891	preparat	preparater preparat preparatet preparatene
+92	8892	handelsmann	handelsmenn handelsmann handelsmannen handelsmennene
+93	8893	omvende	omvende omvender omvendte omvend omvendes
+94	8894	tiltrekning	tiltrekning tiltrekningen tiltrekninger
+95	8895	gårdsplass	gårdsplassen gårdsplass gårdsplasser
+96	8896	innrømmelse	innrømmelse innrømmelser innrømmelsen innrømmelsene
+97	8897	mobilisering	mobilisering mobiliseringen
+98	8898	legemiddelindustri	legemiddelindustrien legemiddelindustri
+99	8899	ildsjel	ildsjel ildsjeler ildsjelen ildsjelene
+100	8900	steril	steril sterile sterilt

@@ -1,0 +1,100 @@
+1	7301	bemanning	bemanning bemanningen
+2	7302	håndledd	håndleddet håndledd håndleddene
+3	7303	husstand	husstander husstand husstanden husstandene
+4	7304	kræsje	kræsjet kræsje kræsjer kræsj kræsja
+5	7305	rettsstat	rettsstaten rettsstat rettsstater
+6	7306	rikke	rikke rikket rikka rikkes rikker
+7	7307	tosk	tosk tosken toskene tosker
+8	7308	sentralisere	sentralisert sentraliserte sentralisere sentraliserende sentraliseres
+9	7309	voll	voll vollen vollene voller
+10	7310	ilegge	ilagt ilegges ilegge ila ilegger
+11	7311	fødselsdato	fødselsdato fødselsdatoen fødselsdatoer
+12	7312	stortingsmelding	stortingsmelding stortingsmeldingen stortingsmeldinger stortingsmeldingene
+13	7313	demografisk	demografiske demografisk
+14	7314	foreldreløs	foreldreløse foreldreløs foreldreløst
+15	7315	idrettsanlegg	idrettsanlegg idrettsanlegget idrettsanleggene
+16	7316	utligne	utlignet utligne utligner utlignes
+17	7317	radikalisering	radikalisering radikaliseringen
+18	7318	kassere	kasserer kassert kasserte kassereren kassere kasseres kasser kasserere kassererne
+19	7319	seilbåt	seilbåt seilbåter seilbåten seilbåtene
+20	7320	brennpunkt	brennpunkt
+21	7321	gru	gru
+22	7322	kon	kon
+23	7323	nach	nach
+24	7324	oljebransje	oljebransjen
+25	7325	ovennevnt	ovennevnte
+26	7326	dynamikk	dynamikk dynamikken
+27	7327	skildring	skildring skildringer skildringen skildringene
+28	7328	bedrageri	bedrageri bedrageriet bedragerier bedrageriene
+29	7329	høytidelig	høytidelig høytidelige
+30	7330	demning	demningen demning demninger demningene
+31	7331	beundrer	beundrer beundrere beundreren
+32	7332	lagkamerat	lagkamerat lagkamerater lagkameratene lagkameraten
+33	7333	ramse	ramse ramses ramser ramset
+34	7334	sink	sink sinket sinken
+35	7335	fjerdedel	fjerdedel fjerdedeler fjerdedelen
+36	7336	udemokratisk	udemokratisk udemokratiske
+37	7337	reproduksjon	reproduksjon reproduksjoner reproduksjonen
+38	7338	redaksjonell	redaksjonelle redaksjonelt redaksjonell
+39	7339	vaskemaskin	vaskemaskin vaskemaskinen vaskemaskiner vaskemaskina vaskemaskinene
+40	7340	keramikk	keramikk keramikken
+41	7341	sommerjobb	sommerjobb sommerjobber sommerjobben
+42	7342	middelmådig	middelmådig middelmådige
+43	7343	laptop	laptop laptopen laptoper
+44	7344	mytologi	mytologi mytologien mytologier
+45	7345	gartner	gartner gartnere gartneren gartnerne
+46	7346	irrasjonell	irrasjonell irrasjonelle irrasjonelt
+47	7347	hedning	hedninger hedningene hedning hedningen
+48	7348	forløp	forløp forløpet
+49	7349	antydning	antydning antydninger antydningen antydningene
+50	7350	tille	tiller tille
+51	7351	gjenopplive	gjenopplive gjenopplivet gjenoppliver gjenopplives gjenopplivede
+52	7352	innesperret	innesperret innesperrede
+53	7353	stene	stene stena stener stenet
+54	7354	identifikasjon	identifikasjon identifikasjonen identifikasjoner
+55	7355	båttur	båttur båtturen båtturer
+56	7356	granskning	granskning granskningen granskninger
+57	7357	omløp	omløp omløpet
+58	7358	julekalender	julekalender julekalenderen julekalendere julekalenderne
+59	7359	fiolin	fiolin fiolinen fioliner fiolinene
+60	7360	mekke	mekka mekke mekk mekket
+61	7361	kvinnfolk	kvinnfolk kvinnfolket kvinnfolkene kvinnfolka
+62	7362	kurder	kurdere kurderne kurder kurderen
+63	7363	soloppgang	soloppgang soloppgangen soloppganger
+64	7364	hørsel	hørsel hørselen
+65	7365	allsidig	allsidig allsidige
+66	7366	klassifisering	klassifisering klassifiseringen klassifiseringer
+67	7367	sporadisk	sporadisk sporadiske
+68	7368	dagligvare	dagligvare dagligvarer dagligvarene
+69	7369	sjekkliste	sjekkliste sjekklisten sjekklister
+70	7370	skoleelev	skoleelever skoleelev skoleelevene
+71	7371	manuskript	manuskriptet manuskript manuskripter manuskriptene
+72	7372	radius	radius radiusen radien radier
+73	7373	grotesk	grotesk groteske
+74	7374	veranda	verandaen veranda verandaer
+75	7375	kleppe	kleppe kleppa
+76	7376	gnager	gnager gnagere gnagerne gnageren
+77	7377	rep	rep repet reip repene
+78	7378	brunost	brunost brunosten
+79	7379	migrene	migrene migrenen migrener
+80	7380	prestisje	prestisje prestisjen
+81	7381	møtested	møtested møtestedet møtesteder møtestedene
+82	7382	helsemessig	helsemessige helsemessig
+83	7383	strå	strå strået stråene
+84	7384	tilberede	tilberedt tilberede tilberedes tilbereder tilberedte tilbered
+85	7385	forsett	forsett forsetter forsettet
+86	7386	adressere	adressert adressere adresser adresserte adresserer adresseres
+87	7387	førsteinntrykk	førsteinntrykk førsteinntrykket
+88	7388	heimevern	heimevernet heimevern
+89	7389	russetid	russetiden russetida russetid
+90	7390	fôr	fôr fôret
+91	7391	førsteklasses	førsteklasses
+92	7392	likeledes	likeledes
+93	7393	sporty	sporty
+94	7394	brake	braker brak braket brakende
+95	7395	tilbe	tilbe tilber tilbedt tilba tilbad tilbes
+96	7396	levealder	levealder levealderen
+97	7397	snegle	snegler sneglen sneglene snegle snegl
+98	7398	etikett	etiketten etikett etiketter etikettene
+99	7399	mekaniker	mekaniker mekanikere mekanikeren mekanikerne
+100	7400	forurensing	forurensing forurensingen forurensinger

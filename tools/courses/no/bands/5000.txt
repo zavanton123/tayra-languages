@@ -1,0 +1,100 @@
+1	4901	tribune	tribunen tribune tribunene tribuner
+2	4902	nordlys	nordlys nordlyset
+3	4903	beslaglegge	beslaglagt beslaglegge beslagla beslaglegges beslaglegger beslaglagte
+4	4904	spytte	spytter spytte spyttet spytta spyttes
+5	4905	subjektiv	subjektivt subjektive subjektiv
+6	4906	ess	ess esset essa esser essene
+7	4907	møkk	møkk møkka
+8	4908	pakistansk	pakistanske pakistansk
+9	4909	verdiløs	verdiløs verdiløse verdiløst
+10	4910	ørret	ørret aure ørreten ørretene
+11	4911	årsdag	årsdagen årsdag årsdager
+12	4912	spilletid	spilletid spilletiden spilletider
+13	4913	skylle	skylle skylt skyller skyll skylles skylte skyllet skylla
+14	4914	taste	taste tast taster tasten tastet tasta tastene tastes
+15	4915	grammatikk	grammatikk grammatikken grammatikker
+16	4916	beslag	beslag beslaget beslagene
+17	4917	hets	hets hetser hetsen
+18	4918	chili	chili chilien chilier
+19	4919	bedømme	bedømme bedømt bedømmer bedømmes bedømte bedøm
+20	4920	maur	maur maurene mauren
+21	4921	hydrogen	hydrogen hydrogenet
+22	4922	råvare	råvarer råvarene råvare råvaren
+23	4923	himmelsk	himmelske himmelsk
+24	4924	algoritme	algoritmer algoritme algoritmen algoritmene
+25	4925	skype	skype skypet skyper
+26	4926	drifte	drifte driftes driftet
+27	4927	fullmakt	fullmakt fullmakter fullmakten fullmaktene
+28	4928	blomstre	blomstret blomstre blomstrende blomstrer
+29	4929	justisdepartement	justisdepartementet justisdepartement
+30	4930	innvandringspolitikk	innvandringspolitikk innvandringspolitikken
+31	4931	mang	mangt mang
+32	4932	midtbane	midtbanen midtbane
+33	4933	pasta	pasta pastaen
+34	4934	okse	okse okser oksen oksene
+35	4935	partikkel	partikler partiklene partikkel partikkelen
+36	4936	leksikon	leksikon leksikonet leksika
+37	4937	arrest	arrest arresten arrester
+38	4938	eksplosiv	eksplosiver eksplosiv eksplosive eksplosivt eksplosivene
+39	4939	sokkel	sokkel sokkelen sokler soklene
+40	4940	graf	graf grafen grafer grafene
+41	4941	kapre	kapret kapre kaprer kaprerne kapreren kaprere kaprede kapres
+42	4942	vektlegge	vektlegge vektlegger vektlagt vektlegges vektla
+43	4943	innhente	innhente innhentet innhenter innhentes innhent innhentede
+44	4944	negl	neglene negler negl neglen
+45	4945	finanskrise	finanskrisen finanskrise finanskrisa finanskriser
+46	4946	ukritisk	ukritisk ukritiske
+47	4947	demokrat	demokratene demokrater demokrat demokraten
+48	4948	røst	røst røster røsten røstene røstet
+49	4949	ondskap	ondskap ondskapen
+50	4950	ufarlig	ufarlig ufarlige
+51	4951	overflødig	overflødig overflødige
+52	4952	ensomhet	ensomhet ensomheten
+53	4953	helhetlig	helhetlig helhetlige
+54	4954	tilgivelse	tilgivelse tilgivelsen
+55	4955	unødig	unødig unødige
+56	4956	aha	aha
+57	4957	brexit	brexit
+58	4958	forut	forut
+59	4959	kikk	kikk
+60	4960	splittet	splittet
+61	4961	truende	truende
+62	4962	utpå	utpå
+63	4963	mistenkelig	mistenkelig mistenkelige
+64	4964	reklamere	reklamere reklamerer reklamer reklamert reklamerte reklameres
+65	4965	fjerning	fjerning fjerningen
+66	4966	graviditet	graviditet graviditeten graviditeter graviditetene
+67	4967	kontre	kontra kontre kontret kontrer kontr
+68	4968	høyttaler	høyttalere høyttaler høyttaleren høyttalerne
+69	4969	hauge	hauge hauges
+70	4970	plagg	plagg plagget plaggene
+71	4971	skatte	skatte skatter skattet skattes skattede
+72	4972	islamist	islamister islamist islamistene islamisten
+73	4973	empati	empati empatien
+74	4974	uriktig	uriktig uriktige
+75	4975	lovforslag	lovforslag lovforslaget lovforslagene
+76	4976	sage	saga sage saget sagaen sager sagde sagaene sagd sagaer
+77	4977	anvendelse	anvendelse anvendelser anvendelsen anvendelsene
+78	4978	poesi	poesi poesien
+79	4979	forretningsmann	forretningsmann forretningsmenn forretningsmannen forretningsmennene
+80	4980	diktator	diktator diktatoren diktatorer diktatorene
+81	4981	prosjektleder	prosjektleder prosjektledere prosjektlederen
+82	4982	usaklig	usaklig usaklige
+83	4983	koreansk	koreansk koreanske
+84	4984	akt	akt akten akte aktene aktes
+85	4985	haste	haster hastet
+86	4986	porsjon	porsjoner porsjon porsjonen porsjonene
+87	4987	destinasjon	destinasjoner destinasjon destinasjonen destinasjonene
+88	4988	slagord	slagordet slagord slagordene
+89	4989	historiker	historikere historiker historikeren historikerne
+90	4990	koffert	kofferten koffert kofferter koffertene
+91	4991	surfe	surfe surfer surfet surfere surferen surferne
+92	4992	høvding	høvding høvdingen høvdinger høvdingene
+93	4993	unaturlig	unaturlig unaturlige
+94	4994	økosystem	økosystemet økosystemer økosystem økosystemene
+95	4995	overgriper	overgripere overgriper overgriperen overgriperne
+96	4996	spalte	spalte spalten spalter spaltene spaltet spalting spaltes spaltning spalt
+97	4997	kile	kile kil kiler kilen kilt kilte kilene kilten kiles kilende
+98	4998	landsdel	landsdelen landsdel landsdeler landsdelene
+99	4999	poet	poeten poet poeter poetene
+100	5000	ballong	ballonger ballong ballongen ballongene

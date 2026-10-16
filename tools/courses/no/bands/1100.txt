@@ -1,0 +1,100 @@
+1	1001	historisk	historisk historiske
+2	1002	metode	metode metoder metoden metodene
+3	1003	utfordring	utfordringer utfordring utfordringen utfordringene utfordringa
+4	1004	standard	standard standarden standarder standardene
+5	1005	stoff	stoff stoffer stoffet stoffene
+6	1006	øl	øl ølet ølen ølene
+7	1007	rive	rive revet river rev riv reven rives rever revne revner
+8	1008	funke	funker funket funke funka funken
+9	1009	forsvare	forsvare forsvarer forsvarte forsvart forsvares forsvarere forsvareren forsvarerne forsvarende
+10	1010	innom	innom
+11	1011	juli	juli
+12	1012	videregående	videregående
+13	1013	fag	fag faget fagene
+14	1014	trykk	trykk trykket trykken trykkene
+15	1015	høyde	høyde høyden høyder høydene høgde
+16	1016	sannhet	sannheten sannhet sannheter sannhetene
+17	1017	forfatter	forfatter forfatteren forfattere forfatterne
+18	1018	stasjon	stasjon stasjonen stasjoner stasjonene
+19	1019	vedta	vedtatt vedtok vedta vedtas vedtar vedtatte
+20	1020	søndag	søndag søndager søndagen søndagene
+21	1021	tittel	tittelen tittel titler titlene
+22	1022	intervju	intervju intervjuet intervjuer intervjuene intervjueren intervjuere intervjuerne
+23	1023	natur	natur naturen naturer
+24	1024	stolt	stolt stolte stolteste stoltere
+25	1025	presentere	presentere presentert presenterer presenterte presenteres presenter
+26	1026	frisk	frisk friske friskt friskere frisker frisket friskeste friskes
+27	1027	oppdrag	oppdrag oppdraget oppdragene
+28	1028	kunst	kunst kunsten kunster kunstene
+29	1029	ressurs	ressurser ressursene ressurs ressursen
+30	1030	rygg	ryggen rygg rygger ryggene
+31	1031	stein	stein steiner steinen steinene steine steinet steines steina
+32	1032	faktum	fakta faktum faktaene faktumet
+33	1033	trafikk	trafikk trafikken
+34	1034	fredag	fredag fredagen fredager fredagene
+35	1035	hage	hagen hage hager haga hagene hages
+36	1036	ole	ole ola olen olene
+37	1037	november	november
+38	1038	etablert	etablert etablerte
+39	1039	generasjon	generasjon generasjoner generasjonen generasjonene
+40	1040	hindre	hindre hindrer hindret hindres hindra hindrende
+41	1041	fullstendig	fullstendig fullstendige
+42	1042	åring	åring åringen åringer åringene
+43	1043	eiendom	eiendom eiendommen eiendommer eiendommene
+44	1044	utenlandsk	utenlandske utenlandsk
+45	1045	utland	utlandet utland
+46	1046	fremme	fremme fremmer fremmet fremmes fremmende fremma
+47	1047	heldig	heldig heldige heldigere heldigste
+48	1048	stjele	stjålet stjele stjeler stjal stjeles stjel
+49	1049	press	press presset pressa pressene
+50	1050	godkjenne	godkjent godkjente godkjenne godkjenner godkjennes godkjenn
+51	1051	gjenta	gjenta gjentatte gjentar gjentatt gjentas gjentok gjentakende
+52	1052	involvere	involvert involverte involverer involvere involveres involver
+53	1053	kjønn	kjønn kjønnene kjønnet kjønnede kjønna
+54	1054	størrelse	størrelse størrelsen størrelser størrelsene
+55	1055	milliard	milliarder milliard milliardene milliarden
+56	1056	definere	definert definerer definere defineres definerte definer definerende
+57	1057	invitere	invitert inviterer invitere inviterte inviteres inviter inviterende
+58	1058	skog	skogen skog skoger skogene
+59	1059	trolig	trolig trolige truleg
+60	1060	etterhvert	etterhvert
+61	1061	avgjøre	avgjøre avgjør avgjort avgjøres avgjorde
+62	1062	frihet	frihet friheten friheter frihetene fridom
+63	1063	kong	kong kongen konger kongene
+64	1064	usikker	usikker usikkert usikre
+65	1065	enhet	enheter enhet enheten enhetene
+66	1066	team	team teamet teamene
+67	1067	sport	sport sporten sportene
+68	1068	kult	kult kulten kulter
+69	1069	europeisk	europeiske europeisk
+70	1070	kristne	kristne kristnes kristnet
+71	1071	typisk	typisk typiske
+72	1072	plassere	plassert plassere plasserer plasseres plasserte plasser
+73	1073	art	art arter arten artene
+74	1074	publisere	publisert publisere publiserer publiserte publiseres publiser
+75	1075	brev	brev brevet brevene brever breva
+76	1076	opprinnelig	opprinnelig opprinnelige
+77	1077	gratulere	gratulerer gratulere gratulerte gratulert gratuleres
+78	1078	designe	design designet designer designe designere designeren designen designerne designene designes
+79	1079	medisin	medisin medisiner medisinen medisinene medisinere medisinert medisineres medisinerne
+80	1080	radio	radio radioen radioer radioene
+81	1081	daglig	daglig daglige
+82	1082	risiko	risiko risikoen risikoer risikoene
+83	1083	februar	februar
+84	1084	igjennom	igjennom
+85	1085	langs	langs
+86	1086	vanligvis	vanligvis
+87	1087	flertall	flertall flertallet
+88	1088	digital	digital digitale digitalt
+89	1089	kontrollere	kontrollere kontrollert kontrollerte kontrollerer kontrolleres kontrollerende kontroller kontrolleren
+90	1090	måle	måle målt måler måles målte målere måleren målerne
+91	1091	opplevelse	opplevelse opplevelser opplevelsen opplevelsene
+92	1092	oppstå	oppstår oppstå oppstått oppsto oppstod oppståtte oppstående
+93	1093	havne	havnet havner havne havna havnes
+94	1094	stjerne	stjerne stjerner stjernen stjernene stjerna
+95	1095	blogg	blogg bloggen blogger bloggere bloggeren bloggerne bloggene
+96	1096	smak	smak smaker smaken smakene
+97	1097	overraske	overrasket overraske overrasker overraska overrask overraskes overraskede
+98	1098	tung	tungt tung tyngre tyngste tyngst
+99	1099	late	late later lat lot latt latet latest latere lateste lates
+100	1100	andel	andel andelen andeler andelene

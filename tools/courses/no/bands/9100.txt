@@ -1,0 +1,100 @@
+1	9001	omtrentlig	omtrentlig omtrentlige
+2	9002	befruktning	befruktning befruktningen
+3	9003	rituell	rituell rituelle rituelt
+4	9004	årbok	årbok årboka årboken årbøker årbøkene
+5	9005	flire	flirer flire flirte flirende
+6	9006	nominell	nominell nominelle nominelt
+7	9007	messing	messing messingen
+8	9008	tilbakegang	tilbakegang tilbakegangen
+9	9009	avvæpne	avvæpne avvæpnet avvæpnende avvæpnes avvæpner
+10	9010	ugunstig	ugunstig ugunstige
+11	9011	nordøstlig	nordøstlig nordøstlige
+12	9012	vararepresentant	vararepresentanter vararepresentant
+13	9013	bable	babler bable bablet
+14	9014	underklasse	underklasse underklassen underklasser
+15	9015	sigar	sigarer sigar sigaren sigarene
+16	9016	sammenkomst	sammenkomster sammenkomst sammenkomsten sammenkomstene
+17	9017	protestant	protestanter protestantene protestant protestanten
+18	9018	kulturhistorisk	kulturhistorisk kulturhistoriske
+19	9019	kulturforskjell	kulturforskjeller kulturforskjellene
+20	9020	utvandring	utvandring utvandringen utvandringer
+21	9021	felling	felling fellingen
+22	9022	barsk	barske barsk barskt barskere barskeste
+23	9023	undergrunn	undergrunnen undergrunn
+24	9024	samarbeidsvillig	samarbeidsvillig samarbeidsvillige
+25	9025	assimilering	assimilering assimileringen
+26	9026	diskvalifisere	diskvalifisert diskvalifisere diskvalifiserende diskvalifiserer diskvalifiseres diskvalifiserte
+27	9027	hjemmebrent	hjemmebrent hb hjemmebrenten
+28	9028	kjenning	kjenning kjenninger kjenningen
+29	9029	dekor	dekor dekoren dekorer
+30	9030	avspilling	avspilling avspillinger avspillingen
+31	9031	filippinsk	filippinske filippinsk
+32	9032	filmfestival	filmfestivalen filmfestival filmfestivaler filmfestivalene
+33	9033	intrige	intriger intrige intrigene intrigen
+34	9034	midtpunkt	midtpunkt midtpunktet
+35	9035	kokebok	kokebok kokeboken kokebøker kokeboka kokebøkene
+36	9036	mistro	mistro mistroen mistrodd mistror mistrodde
+37	9037	polere	polert polere polerte polerer poleres poler
+38	9038	sogneprest	sogneprest sognepresten sogneprestene
+39	9039	forsone	forsone forsonet forsonende forsones forsont forsonte
+40	9040	meningsfylt	meningsfylt meningsfylte
+41	9041	script	script skript scriptet scriptene skriptene
+42	9042	nasjonalforsamling	nasjonalforsamlingen nasjonalforsamling nasjonalforsamlinga nasjonalforsamlinger nasjonalforsamlingene
+43	9043	datasett	datasett datasettet datasettene
+44	9044	fragmentere	fragmentert fragmenterte fragmenter fragmentere fragmenteres fragmenterer
+45	9045	avtrekker	avtrekkeren avtrekker avtrekkere
+46	9046	karosseri	karosseri karosseriet karosserier karosseriene
+47	9047	rytmisk	rytmisk rytmiske
+48	9048	profilbilde	profilbilde profilbildet
+49	9049	overstyre	overstyre overstyrer overstyres overstyrte overstyr
+50	9050	subsidie	subsidier subsidiene subsidie
+51	9051	pakning	pakning pakninger pakningen pakningene
+52	9052	løyve	løyve løyvet løyver
+53	9053	gamling	gamlinger gamlingene gamlingen gamling
+54	9054	utnevnelse	utnevnelsen utnevnelse utnevnelser utnevnelsene
+55	9055	tekstmelding	tekstmeldinger tekstmelding tekstmeldingen tekstmeldingene
+56	9056	hengivenhet	hengivenhet hengivenheten
+57	9057	passering	passering passeringer passeringen passeringene
+58	9058	intuisjon	intuisjon intuisjonen intuisjoner
+59	9059	malm	malm malmen malmer
+60	9060	krystallklar	krystallklart krystallklar krystallklare
+61	9061	skjemme	skjemme skjemmer skjemmet skjemmende skjem
+62	9062	spisested	spisesteder spisested spisestedet spisestedene
+63	9063	havområde	havområder havområdene havområdet havområde
+64	9064	medeier	medeier medeiere medeierne medeieren
+65	9065	nautisk	nautiske nautisk
+66	9066	overvurdere	overvurdert overvurderer overvurdere overvurderte overvurderes
+67	9067	protestantisk	protestantiske protestantisk
+68	9068	nattverd	nattverden nattverd
+69	9069	frembringe	frembringe frembringer frambringe frembrakt frembrakte frembragt frembringes frembragte
+70	9070	gruppeleder	gruppeleder gruppeledere gruppelederen gruppelederne
+71	9071	tolerant	tolerant tolerante
+72	9072	visshet	visshet vissheten
+73	9073	sikkerhetspolitikk	sikkerhetspolitikk sikkerhetspolitikken
+74	9074	bærtur	bærtur
+75	9075	forte	forte
+76	9076	grinete	grinete
+77	9077	innkjøpt	innkjøpt
+78	9078	kvinnedag	kvinnedagen
+79	9079	medregnet	medregnet
+80	9080	nestkommanderende	nestkommanderende
+81	9081	oppunder	oppunder
+82	9082	småpenger	småpenger
+83	9083	sytten	sytten
+84	9084	sørpå	sørpå
+85	9085	vips	vips
+86	9086	geolog	geologer geolog geologene geologen
+87	9087	seriemorder	seriemorder seriemorderen seriemordere seriemorderne
+88	9088	nedfelle	nedfelt nedfelte nedfeller
+89	9089	barbarisk	barbariske barbarisk
+90	9090	politisjef	politisjef politisjefen politisjefer
+91	9091	underrette	underrettet underrette underretter underrettes underretten
+92	9092	håndjern	håndjern håndjernene
+93	9093	tilbakeføre	tilbakeført tilbakeføres tilbakeføre tilbakefører tilbakeførte
+94	9094	gjøremål	gjøremål gjøremålene
+95	9095	sporvei	sporveien sporveier sporvei sporveiene
+96	9096	sertifisering	sertifisering sertifiseringer sertifiseringen
+97	9097	uinteressant	uinteressant uinteressante
+98	9098	frokostblanding	frokostblanding frokostblandingen frokostblandinger
+99	9099	børsnotere	børsnoterte børsnotert børsnoteres børsnotere
+100	9100	pare	pare parer pares

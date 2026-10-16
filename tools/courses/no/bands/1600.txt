@@ -1,0 +1,100 @@
+1	1501	lukt	lukter lukten lukt lukta luktene
+2	1502	steg	steg steget stegene
+3	1503	suksess	suksess suksessen suksesser suksessene
+4	1504	unnskyldning	unnskyldning unnskyldninger unnskyldningen unnskyldningene
+5	1505	sint	sint sinte sintere sinteste
+6	1506	rope	roper rope ropte rop ropt ropet ropene ropa ropende
+7	1507	lykkelig	lykkelig lykkelige lykkeligere lykkeligste lykkeligst
+8	1508	påstand	påstand påstander påstanden påstandene
+9	1509	vin	vin viner vinen vinene
+10	1510	publikum	publikum publikummet publikumet
+11	1511	straff	straff straffen straffer straffene
+12	1512	dokumentere	dokumentert dokumentere dokumenter dokumenterte dokumenterer dokumenteres
+13	1513	do	do doen doa doer doene
+14	1514	nemlig	nemlig
+15	1515	omkring	omkring
+16	1516	utenom	utenom
+17	1517	transport	transport transporten transporter transportene
+18	1518	låne	låne låner lånt lånte lånes lånerne lånere
+19	1519	general	general generalen generaler generalene
+20	1520	mase	master mas maser mase mast masten maset mastene maste masteren
+21	1521	uenig	uenig uenige
+22	1522	kapasitet	kapasitet kapasiteten kapasiteter kapasitetene
+23	1523	holdning	holdninger holdning holdningen holdningene holdninga
+24	1524	skyldes	skyldes skyldtes
+25	1525	temperatur	temperatur temperaturen temperaturer temperaturene
+26	1526	mester	mester mestre mestrer mesteren mestere mestret mesterne mestrene mestres mestra
+27	1527	kjøkken	kjøkkenet kjøkken kjøkkener kjøkkenene
+28	1528	katt	katt katten katter kattene
+29	1529	kompis	kompis kompisen kompiser kompisene
+30	1530	landslag	landslaget landslag landslagene
+31	1531	arbeidsgiver	arbeidsgiver arbeidsgivere arbeidsgiveren arbeidsgiverne
+32	1532	arbeiderparti	arbeiderpartiet arbeiderparti arbeiderpartier arbeiderpartiene
+33	1533	bevise	bevise bevist beviser beviste bevises
+34	1534	idrett	idrett idretten idretter idrettene
+35	1535	himmel	himmelen himmel himler himlen himlene
+36	1536	savnet	savnet savnede
+37	1537	ligne	ligner lignet ligne lignede lignes ligna lign
+38	1538	kvalifisere	kvalifisert kvalifiserte kvalifisere kvalifiserer kvalifiserende kvalifiseres
+39	1539	pc	pc
+40	1540	anerkjenne	anerkjent anerkjente anerkjenne anerkjenner anerkjennes anerkjenn
+41	1541	overbevise	overbevist overbevise overbevisende overbeviste overbeviser overbevises overbevis
+42	1542	blad	blad bladet blader bladene
+43	1543	hellige	hellige hellig helligste helliges helliget helliger helligere
+44	1544	lide	lider lide led lidd lid lidende lidt
+45	1545	dyktig	dyktig dyktige dyktigste dyktigere
+46	1546	ordfører	ordfører ordføreren ordførere ordførerne
+47	1547	oversette	oversatt oversette oversetter oversett oversettes oversatte oversettere oversetteren oversetterne
+48	1548	påstå	påstår påstå påstått påståtte påsto påstod påstås
+49	1549	foreløpig	foreløpig foreløpige
+50	1550	vende	vende vender vendt vendte vend vendes venderne
+51	1551	helgen	helgen helgener helgenen helgenene
+52	1552	mistenke	mistenker mistenkte mistenkt mistenke mistenkes
+53	1553	gal	gal gale gol galer gala galten galte galere galeste
+54	1554	billett	billetter billett billettene billetten
+55	1555	inntrykk	inntrykk inntrykket inntrykkene
+56	1556	samling	samling samlingen samlinger samlingene samlinga
+57	1557	syklist	syklister syklist syklistene syklisten
+58	1558	havn	havner havn havnen havna havnene
+59	1559	preg	preget preg prega
+60	1560	bryter	bryter bryteren brytere bryterne
+61	1561	supe	super supre sup supe
+62	1562	setning	setning setningen setninger setningene setninga
+63	1563	etnisk	etnisk etniske
+64	1564	opplyse	opplyst opplyse opplyser opplyste opplysende opplyses opplys
+65	1565	argument	argument argumenter argumentet argumentene
+66	1566	kamera	kamera kameraet kameraer kameraene
+67	1567	jens	jens
+68	1568	max	max
+69	1569	youtube	youtube
+70	1570	markere	markere markert markerer markerte markeres marker
+71	1571	varsel	varsel varslet varsler varselet varslere varslene varsleren varslerne varsla
+72	1572	inspirere	inspirert inspirere inspirerte inspirerer inspireres inspirer
+73	1573	bunn	bunnen bunn bunner bunnene
+74	1574	indre	indre inst
+75	1575	nettverk	nettverk nettverket nettverkene
+76	1576	dollar	dollar dollaren dollarene
+77	1577	røyk	røyk røyken røk røker røken
+78	1578	britisk	britiske britisk
+79	1579	lenke	lenker lenke lenken lenkene lenka lenkes
+80	1580	senter	senter senteret sentre sentrene sentret sentra sentere senterne
+81	1581	institusjon	institusjoner institusjon institusjonen institusjonene
+82	1582	ekspert	ekspert eksperter ekspertene eksperten
+83	1583	bidrag	bidrag bidraget bidragene
+84	1584	faktor	faktorer faktor faktorene faktoren
+85	1585	fatte	fatter fatte fatt fattet fattes fattede fatta
+86	1586	øverst	øverste øverst
+87	1587	henhold	henhold
+88	1588	jepp	jepp
+89	1589	fremmed	fremmede fremmed
+90	1590	overføre	overført overføre overføres overfører overførte overfør
+91	1591	stresse	stress stresset stressa stresse stresser stressede
+92	1592	egenskap	egenskaper egenskap egenskapene egenskapen
+93	1593	ettermiddag	ettermiddag ettermiddagen ettermiddager ettermiddagene
+94	1594	fordele	fordelt fordeles fordele fordeler fordelte fordeleren
+95	1595	kjekk	kjekt kjekk kjekke kjekkeste kjekkere kjekkest
+96	1596	budsjett	budsjett budsjettet budsjetter budsjettene
+97	1597	takle	takle takler taklet takles takla
+98	1598	skuespiller	skuespiller skuespillere skuespillerne skuespilleren
+99	1599	sivil	sivile sivil sivilt
+100	1600	påpeke	påpeker påpeke påpekt påpekte påpekes påpek

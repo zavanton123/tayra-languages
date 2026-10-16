@@ -1,0 +1,100 @@
+1	9201	kennel	kennel kennelen
+2	9202	landlig	landlige landlig
+3	9203	spellemann	spellemann spillemann spellemenn
+4	9204	merverdiavgift	merverdiavgift merverdiavgiften
+5	9205	initiere	initiert initierer initierte initiere initieres
+6	9206	parentes	parentes parentesen parenteser parentesene
+7	9207	lydbilde	lydbildet lydbilde lydbilder
+8	9208	mosebok	mosebok mosebøkene
+9	9209	dekan	dekan dekanen dekaner dekanene
+10	9210	datasenter	datasenter datasentre datasenteret datasentrene
+11	9211	bestikk	bestikk bestikket
+12	9212	cockpit	cockpit cockpiten
+13	9213	helbredelse	helbredelse helbredelsen helbredelser
+14	9214	kastrere	kastrert kastrere kastrerte kastreres kastrerer
+15	9215	løsrive	løsrive løsrevet løsrev løsriver løsrives
+16	9216	balsam	balsam balsamen
+17	9217	lading	lading ladingen
+18	9218	enkeltmenneske	enkeltmennesker enkeltmennesket enkeltmenneske
+19	9219	eventyrer	eventyrer eventyrere eventyreren eventyrerne
+20	9220	aktivum	aktiva aktivum aktiver aktivaene
+21	9221	reguleringsplan	reguleringsplan reguleringsplanen reguleringsplaner reguleringsplanene
+22	9222	gjenreise	gjenreise gjenreist gjenreiste gjenreises gjenreiser
+23	9223	overmanne	overmannet overmanne overmanner overmannes
+24	9224	implisitt	implisitt implisitte
+25	9225	ose	oser ose
+26	9226	slektskap	slektskap slektskapet
+27	9227	transe	transe transer transen transene
+28	9228	leopard	leopard leoparden leoparder leopardene
+29	9229	radiostasjon	radiostasjon radiostasjoner radiostasjonen radiostasjonene
+30	9230	opphisset	opphisset opphissede
+31	9231	påkalle	påkalle påkaller påkalte påkalt påkalles
+32	9232	brannalarm	brannalarmen brannalarm brannalarmer
+33	9233	snarlig	snarlig snarlige
+34	9234	selvrespekt	selvrespekt selvrespekten
+35	9235	nikotin	nikotin nikotinen
+36	9236	konsultasjon	konsultasjon konsultasjoner konsultasjonen konsultasjonene
+37	9237	synagoge	synagogen synagoge synagoger synagogene
+38	9238	kjernekraft	kjernekraft kjernekraften
+39	9239	gjestfrihet	gjestfrihet gjestfriheten
+40	9240	gårdsbruk	gårdsbruk gårdsbrukene gårdsbruket
+41	9241	mekanikk	mekanikk mekanikken
+42	9242	festing	festing festingen festinger
+43	9243	motangrep	motangrep motangrepet
+44	9244	membran	membran membranen membraner membranene
+45	9245	fisketur	fisketur fisketurer fisketuren fisketurene
+46	9246	node	noder nodene noden
+47	9247	mellommann	mellommann mellommenn mellommannen mellommennene
+48	9248	svovel	svovel svovelet svovelen
+49	9249	unnvike	unnvikende unnvike unnviker unnvek
+50	9250	rumener	rumenere rumenerne rumener rumeneren
+51	9251	fysioterapeut	fysioterapeut fysioterapeuter fysioterapeuten
+52	9252	eksos	eksos eksosen
+53	9253	kjøttbolle	kjøttboller kjøttbollene
+54	9254	statskupp	statskupp statskuppet
+55	9255	tidevann	tidevannet tidevann
+56	9256	konfidensiell	konfidensielt konfidensiell konfidensielle
+57	9257	innspilt	innspilt
+58	9258	kvadratkilometer	kvadratkilometer
+59	9259	pondus	pondus
+60	9260	riksdekkende	riksdekkende
+61	9261	trutt	trutt
+62	9262	uforandret	uforandret
+63	9263	befolkningsgruppe	befolkningsgrupper befolkningsgruppe befolkningsgruppen befolkningsgruppene
+64	9264	mosjon	mosjon mosjonen
+65	9265	ugress	ugress ugresset
+66	9266	besøksforbud	besøksforbud besøksforbudet
+67	9267	sammensvergelse	sammensvergelse sammensvergelsen sammensvergelser
+68	9268	urinprøve	urinprøve urinprøver urinprøven
+69	9269	adelig	adelige adelig
+70	9270	heroisk	heroisk heroiske
+71	9271	luksuriøs	luksuriøse luksuriøs luksuriøst
+72	9272	teolog	teologer teolog teologen teologene
+73	9273	immun	immune immun immunt
+74	9274	bøtelegge	bøtelagt bøtelegge bøtelegges bøtelegger bøtela
+75	9275	julesang	julesanger julesang julesangene julesangen
+76	9276	plomme	plommer plomme plommen plommene plomma
+77	9277	klausul	klausul klausulen klausulene
+78	9278	nærmiljø	nærmiljøet nærmiljø
+79	9279	sjikt	sjikt sjiktet sjiktene
+80	9280	kjærlighetssorg	kjærlighetssorg kjærlighetssorgen
+81	9281	subtil	subtil subtile subtilt
+82	9282	atskillig	atskillig atskillige
+83	9283	militærtjeneste	militærtjeneste militærtjenesten
+84	9284	informant	informanter informantene informanten
+85	9285	opprøre	opprørte opprørende opprøre
+86	9286	supermarked	supermarked supermarkeder supermarkedet supermarkedene
+87	9287	oppslagsverk	oppslagsverk oppslagsverket oppslagsverkene
+88	9288	knyte	knyter knyte knyt knytes
+89	9289	studieretning	studieretninger studieretning studieretningen studieretningene
+90	9290	avkjørsel	avkjørsel avkjørselen avkjørsler avkjørslene
+91	9291	matematiker	matematikere matematiker matematikeren matematikerne
+92	9292	ekvivalent	ekvivalent ekvivalenter ekvivalente ekvivalenten
+93	9293	akevitt	akevitt akevitten
+94	9294	vestkant	vestkanten vestkant
+95	9295	kølle	kølle køller kølla køllen køllene
+96	9296	unggutt	unggutten unggutter unggutt ungguttene
+97	9297	strømning	strømninger strømningene strømning strømningen
+98	9298	kamuflere	kamuflert kamuflere kamuflerer kamuflerte kamufleres
+99	9299	idealistisk	idealistisk idealistiske
+100	9300	muskulatur	muskulatur muskulaturen

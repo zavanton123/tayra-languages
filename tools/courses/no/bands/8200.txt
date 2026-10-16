@@ -1,0 +1,100 @@
+1	8101	oppfattelse	oppfattelse oppfattelsen oppfattelser
+2	8102	ansvarsområde	ansvarsområde ansvarsområder ansvarsområdet ansvarsområdene
+3	8103	ultimatum	ultimatum ultimatumet
+4	8104	utdanningsnivå	utdanningsnivå utdanningsnivået
+5	8105	ondsinn	ondsinnet ondsinnede ondsinnete
+6	8106	matpakke	matpakke matpakken matpakka matpakker matpakkene
+7	8107	demo	demoen demoer demoene
+8	8108	labyrint	labyrint labyrinten labyrinter labyrintene
+9	8109	ligacup	ligacupen ligacup
+10	8110	tilbaketrekking	tilbaketrekning tilbaketrekking tilbaketrekkingen
+11	8111	dagligliv	dagliglivet dagligliv
+12	8112	forråde	forrådt forrådte forråde forråder
+13	8113	utenpå	utenpå utapå
+14	8114	framdrift	fremdrift framdrift framdriften
+15	8115	maskineri	maskineriet maskineri
+16	8116	holdeplass	holdeplass holdeplassen holdeplasser holdeplassene
+17	8117	overklasse	overklassen overklasse overklassene
+18	8118	målscorer	målscorere målscorer målscoreren målscorerne
+19	8119	svigersønn	svigersønn svigersønnen svigersønner
+20	8120	folkebibliotek	folkebibliotek folkebiblioteket folkebibliotekene folkebiblioteker
+21	8121	moment	momenter momentet momentene
+22	8122	vaksinasjon	vaksinasjon vaksinasjoner vaksinasjonen
+23	8123	fersken	fersken ferskener
+24	8124	favn	favner favn favnet favnen
+25	8125	uvurderlig	uvurderlig uvurderlige
+26	8126	tiltre	tiltrådte tiltre tiltrer tiltrådt
+27	8127	kvoteflyktning	kvoteflyktninger kvoteflyktningene
+28	8128	begjæring	begjæring begjæringen begjæringer begjæringene
+29	8129	domkirke	domkirke domkirken domkirka
+30	8130	fenge	feng fenger fenge fenget
+31	8131	gjenkjennelig	gjenkjennelig gjenkjennelige
+32	8132	filial	filial filialer filialen filialene
+33	8133	nazistisk	nazistiske nazistisk
+34	8134	erobring	erobring erobringen erobringer erobringene
+35	8135	ørliten	ørliten ørlite ørsmå ørlille
+36	8136	gradert	gradert graderte
+37	8137	totalitær	totalitære totalitær totalitært
+38	8138	spilleliste	spilleliste spillelister spillelisten spillelista spillelistene
+39	8139	polar	polar polare polart
+40	8140	adle	adler adlet adl adle
+41	8141	personnummer	personnummer personnummeret personnumre
+42	8142	østeuropeisk	østeuropeiske østeuropeisk
+43	8143	favorisere	favoriserer favorisere favoriserte favorisert favoriseres
+44	8144	cover	coveret covere coverne
+45	8145	inspisere	inspisere inspisert inspiserer inspiserte inspiseres inspiser
+46	8146	deppe	deppa deppe depper
+47	8147	enkeltindivid	enkeltindivider enkeltindividet enkeltindivid enkeltindividene
+48	8148	opsjon	opsjon opsjoner opsjonen opsjonene
+49	8149	hektisk	hektisk hektiske
+50	8150	oldefar	oldefar oldefaren
+51	8151	makte	maktet makte makter makta
+52	8152	skattefradrag	skattefradrag skattefradraget
+53	8153	dekorativ	dekorative dekorativ dekorativt
+54	8154	stadfeste	stadfestet stadfeste stadfester stadfestes
+55	8155	sjal	sjal sjalet
+56	8156	pingvin	pingviner pingvinene pingvin pingvinen
+57	8157	fauna	fauna faunaen
+58	8158	spray	spray sprayen sprayer
+59	8159	todelt	todelt todelte
+60	8160	villsvin	villsvin villsvinet villsvinene
+61	8161	smugling	smugling smuglingen
+62	8162	modul	modulen modul modulene
+63	8163	ubeskrivelig	ubeskrivelig ubeskrivelige
+64	8164	fullmektig	fullmektig fullmektigen fullmektiger
+65	8165	periodisk	periodisk periodiske
+66	8166	amor	amor
+67	8167	avsted	avsted
+68	8168	hast	hast
+69	8169	især	især
+70	8170	kulturdepartement	kulturdepartementet
+71	8171	volleyball	volleyball
+72	8172	demontere	demontere demontert demonteres demonterte demonterer demonter
+73	8173	fremkalle	fremkalle fremkalt fremkalte fremkalles fremkall fremkallende
+74	8174	ensemble	ensemble ensemblet ensembler ensemblene
+75	8175	innredning	innredning innredningen innredninger
+76	8176	krigsforbrytelse	krigsforbrytelser krigsforbrytelse krigsforbrytelsene
+77	8177	kol	kol kola
+78	8178	atelier	atelier atelieret atelierer
+79	8179	tilkoble	tilkoblet tilkobles tilkoblede tilkoble
+80	8180	lydopptak	lydopptak lydopptaket lydopptakene
+81	8181	porselen	porselen porselenet
+82	8182	saksbehandling	saksbehandling saksbehandlingen
+83	8183	adopsjon	adopsjon adopsjonen adopsjoner
+84	8184	fiskebåt	fiskebåt fiskebåter fiskebåten fiskebåtene
+85	8185	norgesmester	norgesmester norgesmestere norgesmesteren norgesmestre norgesmesterne
+86	8186	saltvann	saltvann saltvannet
+87	8187	smekk	smekk smekker smekre
+88	8188	overvelde	overveldet overvelde overveldes overvelder
+89	8189	tilbakevise	tilbakevist tilbakeviser tilbakevise tilbakevises tilbakeviste
+90	8190	bestikkelse	bestikkelser bestikkelse bestikkelsene bestikkelsen
+91	8191	ave	ave ava avet
+92	8192	attest	attest attester attesten attestene
+93	8193	demografi	demografi demografien
+94	8194	fjols	fjols fjolsene
+95	8195	årsskifte	årsskiftet årsskifte
+96	8196	adrenalin	adrenalin adrenalinet
+97	8197	bordell	bordell bordeller bordellet bordellene
+98	8198	posisjonere	posisjonere posisjonert posisjonerer posisjonerte posisjoneres
+99	8199	termisk	termisk termiske
+100	8200	utsende	utsendt utsendte utsende utsender utsendes

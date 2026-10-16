@@ -1,0 +1,100 @@
+1	5101	hanske	hansker hanske hanskene hansken
+2	5102	suspendere	suspendert suspendere suspenderte suspenderes suspenderer
+3	5103	formulering	formulering formuleringer formuleringen formuleringene formuleringa
+4	5104	sammenstøt	sammenstøt sammenstøtet sammenstøtene
+5	5105	kollektivtransport	kollektivtransport kollektivtransporten
+6	5106	mobb	mobber mobb mobbere mobben mobberne mobberen
+7	5107	grøft	grøfta grøft grøfter grøften grøftene
+8	5108	ekstremisme	ekstremisme ekstremismen
+9	5109	forsamling	forsamlingen forsamling forsamlinger forsamlingene forsamlinga
+10	5110	iver	iver ivrer iveren
+11	5111	partnerskap	partnerskap partnerskapet
+12	5112	ledning	ledninger ledning ledningen ledningene
+13	5113	marin	marin marint
+14	5114	hofte	hoftene hofta hoften hofte hofter
+15	5115	avle	avlet avle avla
+16	5116	utstrakt	utstrakt utstrakte
+17	5117	lærdom	lærdom lærdommen lærdommer lærdommene
+18	5118	uflaks	uflaks uflaksen
+19	5119	hare	hare haren harer harene
+20	5120	skattepenger	skattepenger skattepengene
+21	5121	belaste	belastende belastet belaster belastes belastede belaste belast
+22	5122	nyre	nyre nyrene nyrer nyren
+23	5123	ful	fult ful fule
+24	5124	seddel	sedler sedlene seddelen seddel
+25	5125	egenkapital	egenkapital egenkapitalen
+26	5126	kunstverk	kunstverk kunstverket kunstverkene kunstverker
+27	5127	lovendring	lovendring lovendringer lovendringen lovendringene
+28	5128	terrorisme	terrorisme terrorismen
+29	5129	tispe	tispe tisper tispa tispene tispen
+30	5130	franskmann	franskmennene franskmannen franskmann
+31	5131	vikar	vikar vikarer vikaren vikarene
+32	5132	samhold	samhold samholdet
+33	5133	hormon	hormoner hormon hormonene hormonet
+34	5134	tygge	tygge tygg tygger tygget tygd tygde tygges
+35	5135	avlegge	avlegge avlagt avlegges avlagte
+36	5136	laser	laser lasere laseren laserne
+37	5137	logistikk	logistikk logistikken
+38	5138	plen	plenen plen plener plenene
+39	5139	trakassere	trakassert trakassere trakasserer trakasserte trakasserende trakasseres
+40	5140	befri	befriende befridd befri befridde befrir befris
+41	5141	esel	esel esler eselet eslet eslene
+42	5142	hasj	hasj hasjen
+43	5143	anno	anno
+44	5144	baseball	baseball
+45	5145	heretter	heretter
+46	5146	lotto	lotto
+47	5147	reservert	reservert
+48	5148	sek	sek
+49	5149	kortsiktig	kortsiktig kortsiktige
+50	5150	virtuell	virtuelle virtuell virtuelt
+51	5151	skrivefeil	skrivefeil skrivefeilen skrivefeilene
+52	5152	sprute	spruter sprute sprut sprutet spruten spruta sprutende sprutes
+53	5153	vaksinere	vaksinert vaksiner vaksinere vaksinerte vaksineres vaksinerer
+54	5154	syklus	syklus syklusen sykluser syklusene
+55	5155	innovativ	innovative innovativ innovativt
+56	5156	torturere	torturert torturere torturerer torturerte tortureres torturer
+57	5157	dataspill	dataspill dataspillet dataspillene
+58	5158	møller	møller mølleren møllere
+59	5159	engelskmann	engelskmennene engelskmenn engelskmannen engelskmann
+60	5160	overvinne	overvinne overvunnet overvinner overvant overvinnes
+61	5161	sammenbrudd	sammenbrudd sammenbruddet
+62	5162	middelklasse	middelklassen middelklasse
+63	5163	syntetisk	syntetisk syntetiske
+64	5164	audi	audi audien audier
+65	5165	gjenoppta	gjenoppta gjenopptatt gjenopptar gjenopptas gjenopptok
+66	5166	omstilling	omstilling omstillingen omstillinger
+67	5167	valle	valle valler
+68	5168	håndverk	håndverk håndverket håndverkene
+69	5169	armé	armé armeen armeer arme arméen arméer armeene arma arméene armet
+70	5170	aftenblad	aftenblad aftenbladet
+71	5171	lekkasje	lekkasje lekkasjer lekkasjen lekkasjene
+72	5172	nåtid	nåtid nåtiden nåtida
+73	5173	introduksjon	introduksjon introduksjonen introduksjoner introduksjonene
+74	5174	nerd	nerd nerder nerden nerdene
+75	5175	fiasko	fiasko fiaskoen fiaskoer fiaskoene
+76	5176	spiker	spiker spikeren spikret spikre spikrer spikrene spikere spikerne
+77	5177	faktura	faktura fakturaen fakturaer fakturaene
+78	5178	datterselskap	datterselskap datterselskaper datterselskapet datterselskapene
+79	5179	arbeidsledig	arbeidsledige arbeidsledig
+80	5180	millimeter	millimeter mm millimeteren
+81	5181	støvel	støvler støvlene støvelen støvel
+82	5182	telefonnummer	telefonnummer telefonnummeret telefonnumre telefonnumrene
+83	5183	boikott	boikott boikotten boikotter
+84	5184	overholde	overholde overholdt overholder overholdes overhold
+85	5185	entreprenør	entreprenør entreprenører entreprenøren entreprenørene
+86	5186	hamburger	hamburger hamburgere hamburgeren hamburgerne
+87	5187	spontan	spontan spontant spontane
+88	5188	kolonne	kolonne kolonnen kolonner kolonnene
+89	5189	utkast	utkast utkastet utkastene
+90	5190	hekk	hekk hekker hekken hekkene
+91	5191	ubegrenset	ubegrenset ubegrensede
+92	5192	motarbeide	motarbeide motarbeidet motarbeider motarbeides
+93	5193	føring	føringer føring føringen føringene
+94	5194	akse	aksen akse akser aksene
+95	5195	folkeslag	folkeslag folkeslagene folkeslaget
+96	5196	entusiasme	entusiasme entusiasmen
+97	5197	uaktuell	uaktuelt uaktuell uaktuelle
+98	5198	samspill	samspill samspillet
+99	5199	spesialitet	spesialitet spesialiteter spesialiteten spesialitetene
+100	5200	morsmål	morsmål morsmålet

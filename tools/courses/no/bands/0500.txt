@@ -1,0 +1,100 @@
+1	401	innen	innen
+2	402	likevel	likevel
+3	403	hard	hardt hard harde hardere hardest hardeste
+4	404	rask	raskt raskere rask raske raskeste raskest rasket rasker raska
+5	405	hode	hodet hode hoder hodene hoved
+6	406	lokal	lokale lokalt lokal lokaler lokalene lokalet lokalen
+7	407	handle	handler handle handlet handles handla handlende handlere handleren
+8	408	fly	fly flyet flyr fløy flyene fløyet fløyen flydd flys fløyer
+9	409	hei	hei heia heier heiene heien
+10	410	sosial	sosiale sosial sosialt sosialen
+11	411	par	par paret para parene
+12	412	dyr	dyr dyrt dyrene dyrere dyre dyret dyreste dyra dyrest
+13	413	regel	regel regler reglene regelen
+14	414	ferdig	ferdig ferdige
+15	415	het	heter het hete hett hette hetende heten hetta hetten heteste
+16	416	fotball	fotball fotballen fotballer
+17	417	fall	fall fallet falla fallene
+18	418	internasjonal	internasjonale internasjonal internasjonalt internasjonalen
+19	419	løpe	løpet løpe løper løpende løpere løpt løperen løperne løpes løpte
+20	420	sønn	sønn sønnen sønner sønnene
+21	421	vare	vare varer varene varte varen vara vart vares varende vartet
+22	422	forelder	foreldre foreldrene forelder forelderen foreldra
+23	423	plan	plan planer planen planene
+24	424	fast	fast faste faster fasten fastere fastet fastende
+25	425	slutte	slutte sluttet slutter slutta slutninger slutning slutningen sluttes slutningene sluttede
+26	426	føre	føre ført førte føres førende føret
+27	427	merke	merke merker merket merk merkes merkene merkede merka merkete
+28	428	kaste	kaste kastet kaster kast kastes kasta kastene kasteren kasten kastere
+29	429	rom	rom rommet rommene rommen romen romma
+30	430	oppleve	opplevd opplever oppleve opplevde oppleves opplev opplevdes
+31	431	rest	resten rester restene rest
+32	432	musikk	musikk musikken musikker
+33	433	fantastisk	fantastisk fantastiske
+34	434	selvfølgelig	selvfølgelig selvfølgelige
+35	435	sommer	sommer sommeren somre somrene somrer sommere sommerne
+36	436	nord	nord
+37	437	basere	basert baserer baserte basere baseres baser
+38	438	løse	løse løs løst løser løses løste løsere
+39	439	far	far faren fars fedre fedrene fara faret
+40	440	fungere	fungerer fungere fungerte fungerende fungert funger
+41	441	le	le ledd lo ler leddene leddet loen leende ledde ledda
+42	442	hente	hente hentet henter hentes hent henta
+43	443	situasjon	situasjonen situasjon situasjoner situasjonene
+44	444	bry	bryr bry brydde brydd bryet
+45	445	ansvar	ansvar ansvaret
+46	446	drikke	drikke drikker drikk drakk drukket drikken drikkes drikkene drikkende drikka
+47	447	system	system systemet systemer systemene systema
+48	448	rar	rart rar rare rareste rarere
+49	449	sann	sant sann sanne sanner sanna sannes sannere sanneste
+50	450	butikk	butikken butikk butikker butikkene
+51	451	kultur	kultur kulturen kulturer kulturene
+52	452	unna	unna
+53	453	morsom	morsomt morsom morsomme morsommere morsomste morsomst
+54	454	forsøke	forsøker forsøke forsøkt forsøkte forsøkes
+55	455	svare	svare svarer svarte svarende svares svareren
+56	456	forskjell	forskjell forskjellen forskjeller forskjellene
+57	457	falle	falt faller falle fallende falne fallen fallene
+58	458	ok	ok
+59	459	ti	ti
+60	460	via	via
+61	461	informasjon	informasjon informasjonen informasjoner informasjonene
+62	462	krav	krav kravene kravet krava
+63	463	alene	alene
+64	464	inne	inne
+65	465	avtale	avtale avtalen avtaler avtalt avtalte avtalene avtal avtales
+66	466	glede	glede gleder gleden gledet gleda gledes gledene
+67	467	samle	samlet samle samler samles samlede samlende samla samlere samleren samlerne
+68	468	utvikling	utvikling utviklingen utviklinga utviklinger utviklingene
+69	469	mor	mor moren mødre mora morens mødrene
+70	470	periode	periode perioden perioder periodene
+71	471	fjerne	fjerne fjernet fjern fjerner fjernes fjernt fjerna fjerneste fjernere fjernede
+72	472	foran	foran
+73	473	stat	staten stat stater statene
+74	474	gift	gift giftet gifte gifter giften gifta giftes giftene
+75	475	dør	dør døra døren dørene dører
+76	476	total	totalt totale total totalen
+77	477	lys	lys lyset lyse lyser lysere lysene lysende lyste lyseste lyses
+78	478	nett	nett nettet nette nettene netta
+79	479	født	født fødte
+80	480	tjeneste	tjeneste tjenester tjenesten tjenestene
+81	481	kontakt	kontakt kontakter kontakten kontaktene
+82	482	is	is isen isene iser
+83	483	syk	syk sykt syke sjuk sykeste sjuke sykere syken
+84	484	lyst	lyst lysten lyster lystene lystne lystre lystrer lystret lystent
+85	485	slett	slett slette slettet sletter sletta sletten slettene slettede
+86	486	råd	råd rådet rådene råda
+87	487	redusere	redusere redusert reduserer reduseres reduserte reduser reduserende
+88	488	åpen	åpen åpent åpnere
+89	489	sjanse	sjansen sjanse sjanser sjansene sjans
+90	490	klasse	klasse klassen klasser klassene klassa klasses klasset
+91	491	levere	levere levert leverer leverte leveres
+92	492	kjæreste	kjæreste kjæresten kjærester kjærestene
+93	493	inkludere	inkludert inkluderer inkludere inkluderende inkluderte inkluderes inkluder
+94	494	liste	listen liste lista lister listene listet list listes listede
+95	495	forklare	forklare forklarer forklart forklarte forklar forklares forklarende
+96	496	tilfelle	tilfeller tilfelle tilfellet tilfellene
+97	497	anbefale	anbefaler anbefale anbefales anbefalt anbefalte anbefal
+98	498	masse	masse massene masser massen
+99	499	dekke	dekker dekket dekke dekk dekkes dekkende dekkene dekt dekka dekte
+100	500	topp	toppen topp topper topps toppene

@@ -1,0 +1,100 @@
+1	1401	true	truer true trur trua tru trues trudde trudd
+2	1402	sort	sort sorte sortere sortert sorterer sorten sorter sorteres sorterte sortene
+3	1403	divisjon	divisjon divisjoner divisjonen divisjonene
+4	1404	karriere	karriere karrieren karrierer karrierene
+5	1405	arbeidsplass	arbeidsplasser arbeidsplass arbeidsplassen arbeidsplassene
+6	1406	strand	strand stranden stranda strender strendene strander
+7	1407	tilhører	tilhører tilhørere tilhørerne tilhøreren
+8	1408	show	show showet showene
+9	1409	fattig	fattige fattig fattigste fattigere
+10	1410	dans	dans danser dansen dansere danserne danseren dansene
+11	1411	forøvrig	forøvrig
+12	1412	grunnet	grunnet
+13	1413	jorden	jorden
+14	1414	muligens	muligens
+15	1415	pluss	pluss
+16	1416	tydeligvis	tydeligvis
+17	1417	industri	industri industrien industrier industriene
+18	1418	bombe	bombe bomber bombet bomben bombene bomba bomb bombes bombere bombede
+19	1419	band	bandet band bandene banda
+20	1420	skuffe	skuffet skuffe skuffer skuffen skuffa skuff skuffene skuffede
+21	1421	midlertidig	midlertidig midlertidige
+22	1422	beskrivelse	beskrivelse beskrivelsen beskrivelser beskrivelsene
+23	1423	øvelse	øvelse øvelser øvelsen øvelsene øving
+24	1424	tynne	tynne tynn tynt tynnere tynnet tynneste tynner tynnes tynnest tynna
+25	1425	konkret	konkret konkrete
+26	1426	hverdag	hverdagen hverdag hverdager hverdagene
+27	1427	plukke	plukke plukket plukker plukk plukkes plukka plukkere
+28	1428	strekke	strekker strekke strekk strakk strukket strakte strekkes strekket strekte strekt
+29	1429	trenges	trengs trengtes trenges
+30	1430	eks	eks eksen ekser eksene
+31	1431	glass	glass glasset glassene
+32	1432	lyve	lyve lyver løy løyet lyger lyge ljuger ljuge lyv
+33	1433	arrestere	arrestert arrestere arresterte arresterer arresteres arrester
+34	1434	forklaring	forklaring forklaringen forklaringer forklaringene forklaringa
+35	1435	løgn	løgn løgner løgnene løgnen løgnere løgneren
+36	1436	grep	grep grepet grepene grepa
+37	1437	fremfor	fremfor framfor
+38	1438	håndtere	håndtere håndterer håndtert håndteres håndterte handtere håndter handterer handtert
+39	1439	knapt	knapt
+40	1440	detalj	detaljer detaljene detalj detaljen
+41	1441	låt	låter låt låta låtene låten
+42	1442	flat	flat flate flatt flater flaten flatere flatene flatet flata flates
+43	1443	sum	summen sum summer summere summene summerer summert summeres summerte summet
+44	1444	utslipp	utslipp utslippene utslippet
+45	1445	fugl	fugl fugler fuglene fuglen
+46	1446	garantere	garantert garanterer garantere garanterte garanteres garanter
+47	1447	hemmelig	hemmelig hemmelige hemmeligste
+48	1448	dram	drammen dram drammer
+49	1449	kode	kode koden koder kodene kodet koda kodes kodede kodende kodete
+50	1450	klippe	klippe klippet klipp klipper klippene klippen klippes klipt klipte klipperen
+51	1451	skjerm	skjermen skjerm skjermer skjermene
+52	1452	villig	villig villige
+53	1453	forbud	forbud forbudet forbudene
+54	1454	alkohol	alkohol alkoholen alkoholer
+55	1455	medisinsk	medisinsk medisinske
+56	1456	brun	brun brune brunt brunet brunere brunes
+57	1457	arrangement	arrangement arrangementer arrangementet arrangementene
+58	1458	te	te teen ter tes teer tedde tedd
+59	1459	peke	peker peke pekte pekt pek pekes pekende pekere pekeren peket
+60	1460	vid	vidt vid vide vida vider videste vides videt videst
+61	1461	analyse	analyse analysen analyser analysene
+62	1462	befinne	befinner befant befinne befunnet
+63	1463	demokrati	demokrati demokratiet demokratier demokratiene
+64	1464	ferd	ferd ferden ferder ferdene ferda
+65	1465	mark	mark marka marker marken markene
+66	1466	vennlig	vennlig vennligst vennlige vennligere vennligste
+67	1467	vurdering	vurdering vurderinger vurderingen vurderingene
+68	1468	aksje	aksjer aksjene aksje aksjen
+69	1469	koble	koble koblet kobler kobles koplet kople koblede kobla kobl
+70	1470	deltaker	deltakere deltakerne deltaker deltakeren
+71	1471	kysse	kysten kysse kyss kysser kysset kyst kyster kystene kyssa kyssene
+72	1472	delvis	delvis delvise
+73	1473	utseende	utseende utseendet utseender
+74	1474	pause	pause pausen pauser pausene
+75	1475	medføre	medfører medføre medførte medført medfør
+76	1476	lån	lån lånet lånene låna
+77	1477	tippe	tipper tippe tipp tippet tippen tippes tippa
+78	1478	hovedsak	hovedsak hovedsaken hovedsaker hovedsakene
+79	1479	eventuelt	eventuelt
+80	1480	harry	harry
+81	1481	ifra	ifra
+82	1482	såpass	såpass
+83	1483	nordisk	nordiske nordisk
+84	1484	forbudt	forbudt forbudte
+85	1485	hjerne	hjernen hjerne hjerner hjernene
+86	1486	sjø	sjøen sjø sjøs sjøer sjøene
+87	1487	restaurant	restaurant restauranten restauranter restaurantene
+88	1488	ulv	ulv ulven ulver ulvene
+89	1489	ære	ære æren æra æret æres ærer æraen ær ærede ærende
+90	1490	rykte	rykte rykter ryktene ryktet
+91	1491	rydde	rydde ryddet rydder ryddes rydd rydda
+92	1492	tiår	tiår tiårene tiåret tiåra
+93	1493	kategori	kategorien kategori kategorier kategoriene
+94	1494	dreie	dreier dreide dreie drei dreid dreies dreiet dreiende
+95	1495	kose	kose koser koster kost kosten kosete kosa kostene
+96	1496	kollega	kollega kolleger kollegaer kollegaene kollegaen kollegene
+97	1497	torsdag	torsdag torsdager torsdagen torsdagene
+98	1498	vits	vits vitsen vitser vitsene
+99	1499	overgrep	overgrep overgrepene overgrepet
+100	1500	opphold	opphold oppholdet oppholdene

@@ -1,0 +1,100 @@
+1	7101	hyle	hyle hylte hylende hylt
+2	7102	vennegjeng	vennegjengen vennegjeng vennegjenger
+3	7103	tøys	tøys tøysete tøyset
+4	7104	intensiv	intensiv intensivt intensive
+5	7105	forfatterskap	forfatterskap forfatterskapet forfatterskapene
+6	7106	elektromagnetisk	elektromagnetisk elektromagnetiske
+7	7107	flyger	flyger flygere flygeren flygerne
+8	7108	dyktighet	dyktighet dyktigheten
+9	7109	lærerik	lærerikt lærerik lærerike
+10	7110	kano	kano kanoer kanoen kanoene
+11	7111	tredjepart	tredjepart tredjeparter tredjeparten
+12	7112	ekspandere	ekspandere ekspanderende ekspanderer ekspandert ekspanderte
+13	7113	zoome	zoom zoome zoomer zoomet zoomen
+14	7114	patriot	patriot patrioter patriotene patrioten
+15	7115	utenomjordisk	utenomjordiske utenomjordisk
+16	7116	helseminister	helseminister helseministeren
+17	7117	lærd	lærde lærd
+18	7118	søknadsfrist	søknadsfrist søknadsfristen
+19	7119	nebb	nebb nebbet nebbene nebbete nebba
+20	7120	rengjøre	rengjøre rengjør rengjort rengjøres rengjorde
+21	7121	komponere	komponert komponere komponerte komponerer komponeres
+22	7122	språkbruk	språkbruk språkbruken
+23	7123	line	lina linene
+24	7124	tekste	tekstet tekste tekster teksta
+25	7125	honnør	honnør honnøren
+26	7126	forvise	forvist forviste forvise forviser forvises
+27	7127	høflighet	høflighet høfligheten
+28	7128	gjenforene	gjenforent gjenforenes gjenforene gjenforente gjenforenet gjenforener
+29	7129	streame	streame streamet streames
+30	7130	samtid	samtid samtiden samtida
+31	7131	skum	skum skummet
+32	7132	makk	makker makkeren makk makkere makken makkerne
+33	7133	grusomhet	grusomheter grusomhet grusomhetene grusomheten
+34	7134	ransake	ransake ransaket ransaker ransakes ransak
+35	7135	rumensk	rumenske rumensk
+36	7136	dødelighet	dødelighet dødeligheten
+37	7137	frosk	frosk frosker frosken froskene
+38	7138	suksessrik	suksessrike suksessrik suksessrikt
+39	7139	tilslutning	tilslutning tilslutningen tilslutninger
+40	7140	statskirke	statskirken statskirke statskirka
+41	7141	innskrenke	innskrenket innskrenke innskrenker innskrenkende innskrenkes innskrenkede
+42	7142	synliggjøre	synliggjør synliggjøre synliggjort synliggjøres synliggjorde
+43	7143	påskudd	påskudd påskuddet
+44	7144	hummer	hummer hummere hummeren hummerne
+45	7145	avløp	avløp avløpet avløpene
+46	7146	hierarki	hierarki hierarkiet hierarkier hierarkiene
+47	7147	moder	moder mødre moderen mødrene
+48	7148	blokkering	blokkering blokkeringen blokkeringer
+49	7149	maskingevær	maskingevær maskingeværet maskingeværer maskingeværene
+50	7150	legitimitet	legitimitet legitimiteten
+51	7151	skrekkelig	skrekkelig skrekkelige
+52	7152	østkyst	østkysten østkyst
+53	7153	gullalder	gullalder gullalderen
+54	7154	presidentvalg	presidentvalget presidentvalg
+55	7155	fagperson	fagpersoner fagperson fagpersonene
+56	7156	testosteron	testosteron testosteronet
+57	7157	rusmisbruk	rusmisbruk rusmisbrukere rusmisbruker rusmisbruket rusmisbrukerne
+58	7158	fritak	fritak fritaket
+59	7159	eierandel	eierandel eierandeler eierandelen eierandelene
+60	7160	jackpot	jackpot jackpoten
+61	7161	vogntog	vogntog vogntoget vogntogene
+62	7162	sivilingeniør	sivilingeniør sivilingeniører sivilingeniøren
+63	7163	misunne	misunner misunne misunte misunt misunnet
+64	7164	straffespark	straffespark straffesparket
+65	7165	bande	banden bande bander
+66	7166	mutasjon	mutasjoner mutasjon mutasjonen mutasjonene
+67	7167	friksjon	friksjon friksjonen friksjoner
+68	7168	næringsvirksomhet	næringsvirksomhet næringsvirksomheten næringsvirksomheter
+69	7169	svane	svane svanen svaner svante svanene svan svanes
+70	7170	føderasjon	føderasjonen føderasjon
+71	7171	kampsport	kampsport kampsporter kampsporten
+72	7172	legion	legion legioner legionen legionene
+73	7173	molekyl	molekyler molekyl molekylene molekylet
+74	7174	muffins	muffins muffinsene muffinsen
+75	7175	avvente	avvente avventer avventende avventet avvent
+76	7176	fulltid	fulltid
+77	7177	malaria	malaria
+78	7178	rådighet	rådighet
+79	7179	røntgen	røntgen
+80	7180	tamp	tampen
+81	7181	vase	vase vaser vasen vasene vaset
+82	7182	entusiast	entusiaster entusiast entusiastene entusiasten
+83	7183	livvakt	livvakter livvakt livvakten livvaktene
+84	7184	halvøy	halvøya halvøy halvøyen halvøyer
+85	7185	ukultur	ukultur ukulturen
+86	7186	geni	geni genier geniet geniene
+87	7187	populistisk	populistisk populistiske
+88	7188	klarhet	klarhet klarheten
+89	7189	røff	røff røft røffe røffere
+90	7190	samfunnsøkonomi	samfunnsøkonomi samfunnsøkonomien
+91	7191	dyrking	dyrking dyrkingen
+92	7192	sitron	sitron sitroner sitronen sitronene
+93	7193	toppmøte	toppmøte toppmøtet toppmøter
+94	7194	skuespillerinne	skuespillerinne skuespillerinnen skuespillerinner skuespillerinnene
+95	7195	takling	taklinger takling taklingen taklingene
+96	7196	kolesterol	kolesterol kolesterolet
+97	7197	spiselig	spiselig spiselige
+98	7198	eldgammel	eldgamle eldgammel eldgammelt
+99	7199	liberalist	liberalister liberalistene liberalist liberalisten
+100	7200	trakt	trakter traktene trakt trakten trakterer traktert traktere trakterte trakteren

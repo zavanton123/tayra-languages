@@ -1,0 +1,100 @@
+1	5401	politimester	politimester politimesteren politimestre politimestere politimestrene
+2	5402	hyre	hyret hyre hyrer hyrte hyrt hyra hyres hyren
+3	5403	søkelys	søkelys søkelyset
+4	5404	assosiert	assosiert assosierte
+5	5405	ufrivillig	ufrivillig ufrivillige
+6	5406	drue	druer druene drue druen
+7	5407	alv	alv alver alvene alven
+8	5408	narkoman	narkoman narkomane
+9	5409	forgjenger	forgjengeren forgjenger forgjengere forgjengerne
+10	5410	separere	separert separere separerte separeres separerer separer
+11	5411	bevisstløs	bevisstløs bevisstløse bevisstløst
+12	5412	foreleser	foreleser forelesere foreleserne foreleseren
+13	5413	døv	døve døv døves døvt
+14	5414	bokhandel	bokhandel bokhandelen bokhandler bokhandlere bokhandlerne bokhandleren bokhandlene
+15	5415	forundre	forundret forundrer forundre forundres
+16	5416	katte	katta katte katten katter kattene
+17	5417	meddele	meddele meddelt meddelte meddeler meddeles
+18	5418	trygd	trygd trygden trygda trygder
+19	5419	adresseavis	adresseavisen adresseavisa
+20	5420	utvei	utvei utveier utveien
+21	5421	sveitsisk	sveitsiske sveitsisk
+22	5422	justis	justis justisen
+23	5423	italiener	italienere italiener italienerne italieneren
+24	5424	sløyfe	sløyfe sløyfer sløyfen sløyfa sløyfet sløyfes sløyfene
+25	5425	ryste	rystet rystende ryster ryste rystes
+26	5426	mare	maren mara mare
+27	5427	stabilisere	stabilisere stabilisert stabiliserer stabiliseres stabiliserte stabiliserende
+28	5428	severdighet	severdigheter severdighetene severdighet severdigheten
+29	5429	strupe	strupen strupe struper strupene
+30	5430	dristig	dristig dristige dristigere dristigste
+31	5431	fortsettelse	fortsettelsen fortsettelse
+32	5432	manifest	manifest manifestet manifester manifeste
+33	5433	filmregissør	filmregissør filmregissøren filmregissører
+34	5434	scoring	scoringer scoringen scoringa scoringene
+35	5435	utholdenhet	utholdenhet utholdenheten
+36	5436	borgerlønn	borgerlønn borgerlønnen
+37	5437	livssyn	livssyn livssynet
+38	5438	trå	trå trår trått trådde trådd trådte trådt
+39	5439	bruksområde	bruksområder bruksområde bruksområdet bruksområdene
+40	5440	estimere	estimert estimerte estimere estimerer estimeres
+41	5441	autentisk	autentiske autentisk
+42	5442	kjølvann	kjølvannet kjølvann
+43	5443	gåte	gåte gåter gåten gåtene gåta
+44	5444	fiktiv	fiktive fiktiv fiktivt
+45	5445	psyke	psyken psyke psyk psyket
+46	5446	bilulykke	bilulykke bilulykker bilulykken
+47	5447	nytelse	nytelse nytelsen nytelser
+48	5448	shorts	shorts shortsen shortsene shortser
+49	5449	spenne	spenner spenne spente spennes spennen
+50	5450	yoga	yoga yogaen
+51	5451	skrekkfilm	skrekkfilm skrekkfilmer skrekkfilmen skrekkfilmene
+52	5452	avhandling	avhandlingen avhandling avhandlinger avhandlinga avhandlingene
+53	5453	missil	missiler missil missilet missilene
+54	5454	spot	spot spott spotter spotten
+55	5455	baklengs	baklengs
+56	5456	fortløpende	fortløpende
+57	5457	givende	givende
+58	5458	halvannen	halvannen
+59	5459	innledende	innledende
+60	5460	omgås	omgås
+61	5461	bebyggelse	bebyggelse bebyggelsen
+62	5462	lyng	lyng lyngen
+63	5463	oppstyr	oppstyr oppstyret
+64	5464	konfirmasjon	konfirmasjon konfirmasjonen konfirmasjoner
+65	5465	chips	chips chipsen chipsene
+66	5466	honning	honning honningen
+67	5467	trekning	trekningen trekning trekninger trekningene
+68	5468	solskinn	solskinn solskinnet
+69	5469	diger	digre diger digert
+70	5470	varde	varden vard varde varder vardene vardet
+71	5471	rettssystem	rettssystemet rettssystem rettssystemer
+72	5472	strømpe	strømper strømpene strømpe strømpen strømpa
+73	5473	løkke	løkka løkke løkken løkker løkkene
+74	5474	kapitalisme	kapitalisme kapitalismen
+75	5475	popp	popper poppe popp poppes poppen
+76	5476	hjemmel	hjemmel hjemler hjemmelen
+77	5477	kirurgi	kirurgi kirurgien
+78	5478	tekniker	tekniker teknikere teknikerne teknikeren
+79	5479	ujevn	ujevn ujevne ujevnt
+80	5480	vag	vagt vage vag vagere
+81	5481	heie	heie heiet heier
+82	5482	hovedmål	hovedmålet hovedmål hovedmålene
+83	5483	vindkraft	vindkraft vindkraften
+84	5484	vinkling	vinklingen vinkling vinklinger vinklingene
+85	5485	manuell	manuell manuelle
+86	5486	skikkelse	skikkelse skikkelser skikkelsen skikkelsene
+87	5487	hovedregel	hovedregel hovedregelen hovedreglene
+88	5488	elskerinne	elskerinne elskerinnen elskerinner elskerinnene elskerinna
+89	5489	prikk	prikk prikken prikkene
+90	5490	unne	unner unn unne unnet unt unte
+91	5491	gummi	gummi gummien
+92	5492	substans	substans substanser substansen substansene
+93	5493	grotte	grotten grotte grotter grottene grotta
+94	5494	tjenestegjøre	tjenestegjorde tjenestegjøre tjenestegjort tjenestegjør tjenestegjørende
+95	5495	folkemengde	folkemengden folkemengde folkemengder folkemengdene
+96	5496	kvalifikasjon	kvalifikasjoner kvalifikasjon kvalifikasjonene kvalifikasjonen
+97	5497	sprette	spretter spratt sprette sprett spretten sprettet spretne sprettende sprettes
+98	5498	fengsle	fengsle fengslende fengsles fengslet fengslede fengsler fengsla
+99	5499	samfunnsmessig	samfunnsmessige samfunnsmessig
+100	5500	dverg	dverger dverg dvergene dvergen

@@ -1,0 +1,100 @@
+1	2101	tone	tone tonen toner tonene tonet
+2	2102	sulten	sulten sultne sultent
+3	2103	spore	spore spores sporer sporet sporene sporter sporte sporen spora
+4	2104	kapittel	kapittel kapitler kapittelet kapitlene kapitlet
+5	2105	rasist	rasist rasister rasistene rasisten
+6	2106	lene	lene lena len lener lente lent lenes lenet
+7	2107	erstatning	erstatning erstatninger erstatningen erstatningene
+8	2108	bokstav	bokstaver bokstav bokstavene bokstaven
+9	2109	ankomme	ankom ankommer ankommet ankomme ankomne ankommende
+10	2110	batteri	batteri batterier batteriet batteriene
+11	2111	putte	putter putte puttet putt putta puttes putten
+12	2112	grande	grande
+13	2113	hehe	hehe
+14	2114	joda	joda
+15	2115	primært	primært
+16	2116	grusom	grusomt grusomme grusom grusomste
+17	2117	onkel	onkel onkelen onkler onklene
+18	2118	etterlate	etterlot etterlater etterlatt etterlate etterlatte etterlates etterlat
+19	2119	tilstrekkelig	tilstrekkelig tilstrekkelige
+20	2120	forbanne	forbanna forbanner forbanne
+21	2121	rasisme	rasisme rasismen
+22	2122	politimann	politimann politimannen politimenn politimennene
+23	2123	ytterst	ytterst ytterste
+24	2124	oppfylle	oppfyller oppfylt oppfylle oppfylte oppfylles oppfyll
+25	2125	dokument	dokument dokumenter dokumentene dokumentet
+26	2126	tilpasse	tilpasse tilpasses tilpasser tilpassede tilpass tilpassa
+27	2127	sofa	sofaen sofa sofaer sofaene
+28	2128	radikal	radikale radikal radikalt radikaler radikalere radikalerne radikalene
+29	2129	eid	eid eidet eider
+30	2130	tendens	tendens tendenser tendensen tendensene
+31	2131	biologisk	biologiske biologisk
+32	2132	permanent	permanent permanente permanenten
+33	2133	erklære	erklært erklærte erklære erklærer erklæres
+34	2134	våge	våger våge våget våg vågen våga vågde
+35	2135	forhandle	forhandle forhandler forhandlet forhandlere forhandleren forhandles forhandlerne
+36	2136	forbund	forbundet forbund forbundene
+37	2137	dusj	dusj dusjen dusjer dusjene
+38	2138	dramatisk	dramatisk dramatiske
+39	2139	betaling	betaling betalingen betalinger betalingene betalinga
+40	2140	gulv	gulvet gulv gulvene golv
+41	2141	samisk	samisk samiske
+42	2142	tolkning	tolkning tolkninger tolkningen tolkningene
+43	2143	hjemmeside	hjemmeside hjemmesider hjemmesiden hjemmesidene hjemmesida heimeside
+44	2144	svekke	svekket svekke svekker svekkes svekkede svekkende svekka
+45	2145	kommentarfelt	kommentarfeltet kommentarfelt kommentarfeltene kommentarfelter
+46	2146	ost	ost osten oster ostene
+47	2147	jage	jage jaget jag jager jagere jageren jagd jagerne jagde jages
+48	2148	psykolog	psykolog psykologer psykologen psykologene
+49	2149	angående	angående
+50	2150	eksempelvis	eksempelvis
+51	2151	forhåpentligvis	forhåpentligvis
+52	2152	oppi	oppi
+53	2153	ræva	ræva
+54	2154	strøk	strøk strøket strøkene
+55	2155	rekord	rekord rekorden rekorder rekordene
+56	2156	ingeniør	ingeniør ingeniører ingeniørene ingeniøren
+57	2157	konstant	konstant konstante konstanten konstanter konstantene
+58	2158	integrere	integrert integrere integrerte integreres integrerer integrerende integrer
+59	2159	sølv	sølv sølvet
+60	2160	ed	ed eden eder eders edene
+61	2161	tiltrekke	tiltrukket tiltrekker tiltrekke tiltrekkende tiltrekkes tiltrakk tiltrekk
+62	2162	gjennomsnitt	gjennomsnitt gjennomsnittet gjennomsnittene
+63	2163	nysgjerrig	nysgjerrig nysgjerrige
+64	2164	søvn	søvn søvnen søvne
+65	2165	fet	feit fet fete fetere feitere feteste fetende feiteste fetet feitt
+66	2166	klok	klok klokt kloke klokere klokeste klokest
+67	2167	århundre	århundre århundrer århundret århundrene
+68	2168	sete	sete seter setet setene seteren setrene setrer seta
+69	2169	administrasjon	administrasjon administrasjonen administrasjoner administrasjonene
+70	2170	beløp	beløp beløpet beløpene
+71	2171	anonym	anonym anonyme anonymt
+72	2172	knust	knust knuste
+73	2173	dialekt	dialekt dialekten dialekter dialektene
+74	2174	agent	agent agenter agenten agentene
+75	2175	massiv	massiv massive massivt massivet
+76	2176	oppskrift	oppskriften oppskrift oppskrifter oppskriftene
+77	2177	brød	brød brødet brødene
+78	2178	lade	lade lader ladet lad laderen lades lada ladede ladete ladere
+79	2179	brekke	brekke brukket brakk brakke brakt brekker brakka brakker brakkene brekk
+80	2180	fotograf	fotograf fotografer fotografen fotografene
+81	2181	regelverk	regelverk regelverket regelverkene
+82	2182	venninne	venninne venninner venninnen venninnene venninna
+83	2183	sliten	sliten slitne slitent
+84	2184	sms	sms
+85	2185	bie	bi bier bie biene bien bia
+86	2186	bryllup	bryllup bryllupet brylluper bryllupene
+87	2187	vilkår	vilkår vilkårene vilkåret
+88	2188	potensial	potensiale potensialet potensial potensialer potensialene
+89	2189	mangfold	mangfold mangfoldet
+90	2190	trives	trives trivdes trivs
+91	2191	roe	roe roer roet roere roede roerne roes roa roeren roende
+92	2192	hemmelighet	hemmelighet hemmeligheter hemmeligheten hemmelighetene
+93	2193	lande	lande landet lander landa landende
+94	2194	rådgiver	rådgiver rådgivere rådgiveren rådgiverne
+95	2195	nettavis	nettavisen nettaviser nettavis nettavisene nettavisa
+96	2196	referere	refererer referert referere refererte refereres referer refererende
+97	2197	mønster	mønster mønsteret mønstre mønstret mønstrene mønstrer mønstrede
+98	2198	prins	prins prinsen prinser prinsene
+99	2199	kommersiell	kommersielle kommersiell kommersielt
+100	2200	gripe	gripe griper grip grepet greip gripende gripes

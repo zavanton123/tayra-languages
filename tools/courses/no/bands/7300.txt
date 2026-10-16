@@ -1,0 +1,100 @@
+1	7201	advokatfirma	advokatfirmaet advokatfirma advokatfirmaer advokatfirmaene
+2	7202	veldedig	veldedige veldedig
+3	7203	kunnskapsbasert	kunnskapsbasert kunnskapsbaserte
+4	7204	morgendag	morgendagen morgendag
+5	7205	skjønnlitteratur	skjønnlitteratur skjønnlitteraturen
+6	7206	brosjyre	brosjyre brosjyren brosjyrer brosjyrene
+7	7207	gjenvinning	gjenvinning gjenvinningen
+8	7208	førsteplass	førsteplass førsteplassen førsteplasser
+9	7209	metodikk	metodikk metodikken
+10	7210	epoke	epoke epoken epoker epokene
+11	7211	uteksaminere	uteksaminert uteksaminerte uteksamineres uteksaminerer
+12	7212	populisme	populisme populismen
+13	7213	reformasjon	reformasjonen reformasjon
+14	7214	pengebruk	pengebruk pengebruken
+15	7215	krigsskip	krigsskip krigsskipet krigsskipene
+16	7216	arbeidsløs	arbeidsløse arbeidsløs
+17	7217	kosmetikk	kosmetikk kosmetikken
+18	7218	murstein	murstein mursteiner mursteinene mursteinen
+19	7219	skatteinntekt	skatteinntektene skatteinntekter skatteinntekt
+20	7220	herde	herdet herd herder herde herdes herdede herda herdete
+21	7221	mesterverk	mesterverk mesterverket mesterverkene mesterverker
+22	7222	generalisering	generalisering generaliseringer generaliseringen
+23	7223	postkontor	postkontoret postkontor postkontorer postkontorene
+24	7224	strukturere	strukturert strukturerte strukturere strukturer strukturerer
+25	7225	boligområde	boligområde boligområder boligområdet boligområdene
+26	7226	etiopisk	etiopiske etiopisk
+27	7227	nådeløs	nådeløst nådeløs nådeløse
+28	7228	konsensus	konsensus konsensusen
+29	7229	inventar	inventar inventaret
+30	7230	flanke	flanke flanken flankene flanker
+31	7231	sentralstyre	sentralstyret sentralstyre
+32	7232	stripper	stripper strippere stripperne stripperen
+33	7233	folketelling	folketellingen folketellinger folketelling folketellingene folketellinga
+34	7234	manipulasjon	manipulasjon manipulasjonen manipulasjoner
+35	7235	journal	journalen journaler journalene
+36	7236	verdenskjent	verdenskjent verdenskjente
+37	7237	oppstandelse	oppstandelse oppstandelsen
+38	7238	overtakelse	overtakelse overtakelsen overtagelse overtakelser
+39	7239	desperasjon	desperasjon desperasjonen
+40	7240	sabotasje	sabotasje sabotasjen
+41	7241	rise	rise rist riser risen risten ristene
+42	7242	humle	humle humler humla humlen humlene
+43	7243	term	term termer termen termene
+44	7244	surre	surrer surre surres surrende surra
+45	7245	gagne	gagner gagne gagnet
+46	7246	kry	kryr kry krydde
+47	7247	innflytelsesrik	innflytelsesrike innflytelsesrik innflytelsesrikt
+48	7248	presedens	presedens presedensen presedenser
+49	7249	spasertur	spasertur spaserturer spaserturen spaserturene
+50	7250	kjørefelt	kjørefelt kjørefeltet kjørefeltene
+51	7251	horisontal	horisontale horisontal horisontalt horisontalen
+52	7252	betatt	betatt
+53	7253	halleluja	halleluja
+54	7254	karate	karate
+55	7255	mestring	mestring
+56	7256	rådgivende	rådgivende
+57	7257	utgående	utgående
+58	7258	vestbredd	vestbredden
+59	7259	fedreland	fedrelandet fedreland
+60	7260	binding	binding bindinger bindingen bindingene
+61	7261	uforutsigbar	uforutsigbar uforutsigbare uforutsigbart
+62	7262	kjøling	kjøling kjølingen
+63	7263	marokkansk	marokkansk marokkanske
+64	7264	homse	homse homser homsene homsen
+65	7265	idioti	idioti idiotien
+66	7266	nitrogen	nitrogen nitrogenet
+67	7267	begjære	begjære begjært begjærer begjærte begjæres
+68	7268	klisjé	klisjé klisjeer klisje klisjeene klisjeen klisjéer
+69	7269	tagge	tagger tagge taggeren
+70	7270	bombeangrep	bombeangrep bombeangrepet bombeangrepene
+71	7271	romskip	romskip romskipet romskipene
+72	7272	bevitne	bevitne bevitnet bevitner bevitnes
+73	7273	omkrets	omkrets omkretsen
+74	7274	veidekke	veidekke veidekket
+75	7275	ordlyd	ordlyden ordlyd
+76	7276	kosmetisk	kosmetiske kosmetisk
+77	7277	tsjekkisk	tsjekkisk tsjekkiske
+78	7278	sparing	sparing sparingen
+79	7279	formuesskatt	formuesskatten formuesskatt
+80	7280	gruppere	gruppert gruppere grupper grupperer grupperes grupperte
+81	7281	anstrengelse	anstrengelser anstrengelse anstrengelsene anstrengelsen
+82	7282	velfortjent	velfortjent velfortjente
+83	7283	utelate	utelate utelater utelot utelates utelat
+84	7284	handlingsrom	handlingsrom handlingsrommet
+85	7285	losse	loss losse losset losses losser
+86	7286	bortekamp	bortekamp bortekampen bortekamper bortekampene
+87	7287	hipp	hipp hippe hippeste
+88	7288	progresjon	progresjon progresjonen
+89	7289	dirigent	dirigent dirigenten dirigenter dirigentene
+90	7290	interaksjon	interaksjon interaksjoner interaksjonen interaksjonene
+91	7291	uaktsom	uaktsomt uaktsom uaktsomme
+92	7292	gjengs	gjengs gjengse
+93	7293	skjevhet	skjevheter skjevhet skjevheten
+94	7294	signifikant	signifikant signifikante
+95	7295	portugisisk	portugisisk portugisiske
+96	7296	tannbørste	tannbørste tannbørsten tannbørster tannbørstene
+97	7297	improvisere	improvisere improvisert improviserte improviserer improviserende improviser improviseres
+98	7298	sfære	sfære sfæren sfærer sfærene
+99	7299	loddrett	loddrett loddrette
+100	7300	gjørme	gjørme gjørma gjørmen

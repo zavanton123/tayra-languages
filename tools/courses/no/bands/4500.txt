@@ -1,0 +1,100 @@
+1	4401	radar	radar radaren radarer radarene
+2	4402	spekulere	spekulere spekulert spekulerer spekuleres spekulerte
+3	4403	karma	karma karmaen
+4	4404	bortkastet	bortkastet bortkastede
+5	4405	drastisk	drastisk drastiske
+6	4406	olympisk	olympiske olympisk
+7	4407	ekstraordinær	ekstraordinær ekstraordinære ekstraordinært
+8	4408	distribuere	distribuert distribuere distribueres distribuerer distribuerte
+9	4409	skuffelse	skuffelse skuffelsen skuffelser skuffelsene
+10	4410	bakhode	bakhodet bakhode
+11	4411	brønn	brønn brønnen brønner brønnene
+12	4412	evaluering	evaluering evalueringen evalueringer evalueringene
+13	4413	paragraf	paragraf paragrafen paragrafene
+14	4414	lue	lue lua luer luen luene
+15	4415	reserve	reserve reserver reserven reservene
+16	4416	forutse	forutse forutsett forutså forutser forutseende forutses
+17	4417	anelse	anelse anelser anelsen
+18	4418	kompensasjon	kompensasjon kompensasjonen kompensasjoner
+19	4419	bestand	bestanden bestander bestand bestandene bestandet
+20	4420	vifte	vifte vifter vifta viften viftet viftene viftende
+21	4421	distribusjon	distribusjon distribusjonen distribusjoner distribusjonene
+22	4422	nyansere	nyansert nyansere nyanserte nyanserer
+23	4423	morder	morderen mordere morder morderne
+24	4424	publisering	publisering publiseringen publiseringer
+25	4425	tatovering	tatovering tatoveringer tatoveringen tatoveringene
+26	4426	spøkelse	spøkelser spøkelse spøkelset spøkelsene
+27	4427	kjønnsorgan	kjønnsorganer kjønnsorgan kjønnsorganene kjønnsorganet
+28	4428	annenhver	annenhver annethvert
+29	4429	brukbar	brukbar brukbart brukbare
+30	4430	skjørt	skjørt skjørtet skjørtene skjørter
+31	4431	dass	dass dassen dasser
+32	4432	jorde	jordet jorde jordene jordes jordede jorder
+33	4433	festlig	festlig festlige festligere
+34	4434	oppløse	oppløst oppløses oppløse oppløste oppløser oppløs
+35	4435	verdighet	verdighet verdigheten
+36	4436	overdreven	overdreven overdrevent overdrevne
+37	4437	forsørge	forsørge forsørger forsørget forsørgere forsørgeren forsørges
+38	4438	donere	donere donert donerte donerer doneres doner
+39	4439	komiker	komikere komiker komikeren komikerne
+40	4440	fasade	fasaden fasade fasader fasadene
+41	4441	stabilitet	stabilitet stabiliteten
+42	4442	språklig	språklig språklige
+43	4443	kynisk	kynisk kyniske
+44	4444	perle	perler perle perlen perlene perla perlende
+45	4445	misnøye	misnøye misnøyen
+46	4446	satellitt	satellitt satellitter satellitten satellittene
+47	4447	verdensmester	verdensmester verdensmesteren verdensmestere verdensmestre verdensmesterne verdensmestrene
+48	4448	evighet	evighet evigheten evigheter
+49	4449	nasjonalpark	nasjonalpark nasjonalparken nasjonalparker nasjonalparkene
+50	4450	sikring	sikring sikringen sikringer sikringene sikringa
+51	4451	programmere	programmert programmere programmerer programmerere programmer programmeres programmerte programmereren programmererne
+52	4452	sportslig	sportslig sportslige sportsligere
+53	4453	skolegang	skolegang skolegangen
+54	4454	bridge	bridge bridgen
+55	4455	hypotese	hypotese hypotesen hypoteser hypotesene
+56	4456	inderlig	inderlig inderlige inderligste
+57	4457	kalori	kalorier kalori kaloriene
+58	4458	talsmann	talsmann talsmenn talsmannen talsmennene
+59	4459	dagsavis	dagsavisen dagsavis dagsaviser dagsavisene dagsavisa
+60	4460	bekjent	bekjent
+61	4461	deltid	deltid
+62	4462	gjenværende	gjenværende
+63	4463	igår	igår
+64	4464	noenlunde	noenlunde
+65	4465	kurere	kurere kurerer kurert kureres kurer kureren kurerte kurerene
+66	4466	kallenavn	kallenavn kallenavnet kallenavnene
+67	4467	aksjonær	aksjonærene aksjonærer aksjonær aksjonæren
+68	4468	rusmiddel	rusmidler rusmiddel rusmidlene rusmiddelet
+69	4469	tettsted	tettsteder tettsted tettstedet tettstedene
+70	4470	idrettsutøver	idrettsutøvere idrettsutøver idrettsutøverne idrettsutøveren
+71	4471	herje	herjet herjer herje herja herjede herjes herjende
+72	4472	gyllen	gylne gyllen gyllent
+73	4473	omgjøre	omgjort omgjøre omgjøres omgjør omgjorde omgjorte
+74	4474	effektivitet	effektivitet effektiviteten
+75	4475	begeistre	begeistret begeistrede begeistre begeistra begeistrer
+76	4476	generalforsamling	generalforsamling generalforsamlingen generalforsamlinger generalforsamlingene
+77	4477	besteforelder	besteforeldre besteforeldrene besteforelder
+78	4478	geit	geit geiter geita geitene geiten
+79	4479	nål	nål nåler nålen nålene nåla
+80	4480	eliminere	eliminere eliminert eliminerer elimineres eliminerte eliminer
+81	4481	instans	instanser instans instansene instansen
+82	4482	sammendrag	sammendrag sammendraget
+83	4483	image	image imaget imagen imager
+84	4484	ty	ty tys
+85	4485	fis	fis fiser fisen
+86	4486	innfødt	innfødte innfødt
+87	4487	varemerke	varemerke varemerket varemerker varemerkene
+88	4488	arr	arr arrene arret arra
+89	4489	mappe	mappe mappen mapper mappene mappa
+90	4490	fe	fe feet feer feen feene fea
+91	4491	antenne	antenne antenner antennen antennene antennes antent antenna antente
+92	4492	uakseptabel	uakseptabelt uakseptabel uakseptable
+93	4493	paradis	paradis paradiset
+94	4494	dåp	dåp dåpen
+95	4495	dråpe	dråpe dråper dråpen dråpene
+96	4496	vassdrag	vassdrag vassdraget vassdragene
+97	4497	historikk	historikk historikken
+98	4498	saks	saks saksen sakser sakserne saksere saksa saksene
+99	4499	landing	landing landingen landinger landingene
+100	4500	gamleby	gamlebyen gamleby

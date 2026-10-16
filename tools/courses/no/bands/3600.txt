@@ -1,0 +1,100 @@
+1	3501	betegnelse	betegnelsen betegnelse betegnelser betegnelsene
+2	3502	kontekst	kontekst konteksten kontekster
+3	3503	folkeavstemning	folkeavstemning folkeavstemningen folkeavstemninger folkeavstemningene folkeavstemninga
+4	3504	dagbok	dagbok dagbøker dagboken dagboka dagbøkene
+5	3505	rikdom	rikdom rikdommen rikdommer rikdommene
+6	3506	overtale	overtale overtalt overtalte overtaler overtales overtalende
+7	3507	gjenopprette	gjenopprette gjenopprettet gjenoppretter gjenopprettes gjenopprett gjenopprettede
+8	3508	kontroversiell	kontroversielle kontroversiell kontroversielt
+9	3509	oppbevare	oppbevares oppbevare oppbevarer oppbevart oppbevarte oppbevar
+10	3510	satsing	satsing satsingen satsinger satsingene
+11	3511	besvare	besvare besvart besvarer besvarte besvares besvar
+12	3512	guvernør	guvernør guvernøren guvernører guvernørene
+13	3513	finansiering	finansiering finansieringen
+14	3514	digger	digger diggere
+15	3515	soverom	soverom soverommet soverommene
+16	3516	gjensidig	gjensidig gjensidige
+17	3517	hjemmelaget	hjemmelaget hjemmelagd hjemmelagede
+18	3518	okkupasjon	okkupasjon okkupasjonen okkupasjoner
+19	3519	basseng	bassenget basseng bassenger bassengene
+20	3520	lesing	lesing lesingen lesinga
+21	3521	utvilsomt	utvilsomt
+22	3522	kjemi	kjemi kjemien
+23	3523	krok	kroken krok kroker krokene
+24	3524	oberst	oberst obersten oberster oberstene
+25	3525	slank	slanke slank slankere slanket slanker slankende slankt
+26	3526	korrigere	korrigere korrigert korrigerer korrigerte korrigeres korriger korrigerende
+27	3527	mottak	mottak mottaket mottakene
+28	3528	etat	etaten etater etat etatene
+29	3529	redigere	redigert redigere redigerte redigerer redigeres rediger
+30	3530	jakte	jakte jaktet jakter jaktes jakta jaktende
+31	3531	programleder	programleder programledere programlederen programlederne
+32	3532	sensor	sensorer sensor sensoren sensorene
+33	3533	eksport	eksport eksporten eksporter
+34	3534	underlig	underlig underlige underligste
+35	3535	salat	salat salaten salater salatene
+36	3536	erfaren	erfarne erfaren erfarent
+37	3537	betong	betong betongen
+38	3538	skjema	skjema skjemaet skjemaer skjemaene
+39	3539	mel	mel melet melen melete mjøl
+40	3540	utgivelse	utgivelsen utgivelser utgivelse utgivelsene
+41	3541	spenn	spenn spennet spenna spennene
+42	3542	skyve	skyve skyver skjøvet skyv skjøv skyves skyvet
+43	3543	grille	grille grillet grill grillen griller grilla grilles grillede grillene
+44	3544	tisse	tisse tiss tissen tisser tisset tissa
+45	3545	etterforsker	etterforsker etterforskere etterforskerne etterforskeren
+46	3546	jomfru	jomfru jomfruen jomfruer jomfruene jomfrua
+47	3547	nederlag	nederlag nederlaget nederlagene
+48	3548	lojal	lojale lojal lojalt
+49	3549	fornye	fornyet fornye fornyer fornyes fornyede fornyende forny fornya
+50	3550	levetid	levetid levetiden levetida levetider
+51	3551	pil	pil piler pilen pilene pila
+52	3552	avfall	avfall avfallet
+53	3553	flyselskap	flyselskaper flyselskapet flyselskap flyselskapene
+54	3554	støte	støtende støte støter støtt støtes
+55	3555	mate	mate mater mata matet mates materen
+56	3556	hoff	hoff hoffet hoffa hoffene
+57	3557	okkupere	okkupert okkuperte okkupere okkuperer okkuperes okkuperende
+58	3558	vitamin	vitamin vitaminer vitaminene vitaminet
+59	3559	dress	dress dresser dressen dressene
+60	3560	mislykkes	mislyktes mislykkes
+61	3561	opprører	opprørerne opprørere opprører opprøreren
+62	3562	drage	drake drage dragen drager draget dragene drog
+63	3563	skilsmisse	skilsmisse skilsmissen skilsmisser
+64	3564	mote	mote moten moter motene
+65	3565	betraktelig	betraktelig betraktelige
+66	3566	syre	syre syrere syrer syren syrerne syra syrene syreren
+67	3567	komponent	komponenter komponent komponentene komponenten
+68	3568	troverdig	troverdig troverdige
+69	3569	bue	bue buen buer buede buene boge
+70	3570	bestevenn	bestevenner bestevenn bestevennen bestevennene
+71	3571	livsstil	livsstil livsstilen livsstiler
+72	3572	misbruk	misbruk misbruket
+73	3573	seer	seere seerne seer seeren
+74	3574	overdrive	overdrevet overdrive overdriver overdrev overdriv overdrives
+75	3575	lillebror	lillebror lillebroren lillebrødre
+76	3576	visning	visning visninger visningen visningene
+77	3577	tempel	tempelet tempel templet templer templene
+78	3578	deriblant	deriblant
+79	3579	javel	javel
+80	3580	julaften	julaften
+81	3581	avslå	avslått avslo avslå avslår avslås avslåtte
+82	3582	suppe	suppe suppen suppa supper
+83	3583	avdød	avdøde avdød
+84	3584	bystyre	bystyret bystyre bystyrer
+85	3585	bekreftelse	bekreftelse bekreftelsen bekreftelser bekreftelsene
+86	3586	kikke	kikke kikket kikker kike kikkere kikka kikkeren
+87	3587	gjengi	gjengitt gjengir gjengi gjengis gjengitte
+88	3588	smykke	smykker smykke smykket smykkene
+89	3589	sykling	sykling syklingen
+90	3590	lesbisk	lesbisk lesbiske
+91	3591	offentliggjøre	offentliggjort offentliggjøre offentliggjøres offentliggjør offentliggjorde offentliggjorte
+92	3592	ammunisjon	ammunisjon ammunisjonen
+93	3593	lake	lake laken lakenet laker lakener
+94	3594	klassiker	klassiker klassikere klassikeren klassikerne
+95	3595	belønne	belønnet belønne belønner belønnes belønn belønte belønnede belønt
+96	3596	håndtering	håndtering håndteringen
+97	3597	lovbrudd	lovbrudd lovbruddet lovbruddene
+98	3598	leire	leire leiren leira
+99	3599	protein	protein proteiner proteinet proteinene
+100	3600	nisse	nissen nisse nisser nissene

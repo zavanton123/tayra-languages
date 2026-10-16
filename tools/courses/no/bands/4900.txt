@@ -1,0 +1,100 @@
+1	4801	kompliment	kompliment komplimenter komplimentet komplimentene komplimenten
+2	4802	slim	slim slimet slimete
+3	4803	opparbeide	opparbeidet opparbeide opparbeider opparbeidede opparbeides
+4	4804	antibiotikum	antibiotika antibiotikum antibiotikumet
+5	4805	såpe	såpe såpen såper såpa såpene såpet
+6	4806	juss	juss jussen
+7	4807	sovjetisk	sovjetiske sovjetisk
+8	4808	lagmannsrett	lagmannsretten lagmannsrett lagmannsrettene
+9	4809	kulturminne	kulturminner kulturminne kulturminnene kulturminnet
+10	4810	uavhengighet	uavhengighet uavhengigheten
+11	4811	turné	turné turneen turne turnéen turnéer
+12	4812	inntreffe	inntreffer inntraff inntreffe inntruffet inntrufne
+13	4813	stelle	stelle stelt steller stelte stelles
+14	4814	snute	snuten snute snuta snuter snutene
+15	4815	rap	rap rapa rapet
+16	4816	fruktbar	fruktbare fruktbar fruktbart
+17	4817	rival	rival rivaler rivalen rivalene
+18	4818	reke	reker reka reke rekene rekende reken
+19	4819	comeback	comeback comebacket
+20	4820	psykiatri	psykiatri psykiatrien
+21	4821	centimeter	centimeter centimeterne
+22	4822	rundkjøring	rundkjøring rundkjøringen rundkjøringer rundkjøringa rundkjøringene
+23	4823	motstandsbevegelse	motstandsbevegelsen motstandsbevegelse motstandsbevegelser
+24	4824	leietaker	leietaker leietakere leietakerne leietakeren
+25	4825	avstemning	avstemning avstemningen avstemninger avstemningene
+26	4826	konspirasjon	konspirasjon konspirasjonen konspirasjoner konspirasjonene
+27	4827	verdiskapning	verdiskapning verdiskaping verdiskapningen
+28	4828	bille	bille biller billen billene
+29	4829	sløse	sløse sløser sløst sløste sløses sløs
+30	4830	disposisjon	disposisjon disposisjoner disposisjonen disposisjonene
+31	4831	marsjere	marsjere marsjerte marsjerer marsjert marsjer marsjerende
+32	4832	aurora	aurora
+33	4833	daværende	daværende
+34	4834	innblikk	innblikk
+35	4835	kongo	kongo
+36	4836	misvisende	misvisende
+37	4837	nam	nam
+38	4838	oppegående	oppegående
+39	4839	solid	solide
+40	4840	storting	storting
+41	4841	sukk	sukk
+42	4842	utenriks	utenriks
+43	4843	juks	juks jukset juksa
+44	4844	palass	palasset palass palasser palassene
+45	4845	aksel	aksel aksler akselen akslene aksla
+46	4846	irrelevant	irrelevant irrelevante
+47	4847	venne	venne venna vennet vennes
+48	4848	forføre	forføre forført forfører forførende forførte forføreren forfør forføres forførere
+49	4849	klo	klør kloa klørne klo kloen
+50	4850	lokalbefolkning	lokalbefolkningen lokalbefolkning lokalbefolkninga
+51	4851	myr	myra myr myrer myrene myren
+52	4852	betinge	betinget betingede betinger betinge
+53	4853	forfall	forfall forfallet
+54	4854	smul	smule smuler smulene
+55	4855	teskje	ts teskje teskjeer
+56	4856	blodtrykk	blodtrykk blodtrykket
+57	4857	diplomat	diplomater diplomat diplomaten diplomatene
+58	4858	søksmål	søksmål søksmålet søksmålene
+59	4859	skli	sklir skli skled sklidd sklei skle
+60	4860	juling	juling julingen
+61	4861	sekulær	sekulære sekulær sekulært
+62	4862	splitte	splitte splitt splittes splittende splitta splittede splitten
+63	4863	streve	strever streve strevet strevde strev strevd strevende
+64	4864	holme	holmen holmer holme holmene
+65	4865	skepsis	skepsis skepsisen
+66	4866	underkant	underkant underkanten
+67	4867	optimal	optimalt optimale
+68	4868	eksotisk	eksotisk eksotiske
+69	4869	råtne	råtne råtner råtnende råtnet
+70	4870	kapp	kapp kappet kappa kappene
+71	4871	beherske	beherske behersker behersket beherskede beherskes
+72	4872	bybane	bybanen bybane bybaner
+73	4873	interiør	interiør interiøret interiører interiørene
+74	4874	tredjedel	tredjedel tredjedeler tredjedelen
+75	4875	henvendelse	henvendelser henvendelse henvendelsen henvendelsene
+76	4876	høste	høste høstet høstes høster
+77	4877	illegal	illegale illegalt
+78	4878	saft	saft saften saftene safter safta
+79	4879	lokalavis	lokalavisa lokalavisen lokalaviser lokalavis lokalavisene
+80	4880	resept	resept resepter resepten reseptene
+81	4881	befale	befal befalet befalte befaler befalt befale befales
+82	4882	funksjonell	funksjonell funksjonelle funksjonelt
+83	4883	ensidig	ensidig ensidige
+84	4884	ypperlig	ypperlig ypperlige
+85	4885	håndkle	håndkle håndklær håndkleet håndklærne
+86	4886	jubileum	jubileum jubileet jubileer
+87	4887	folkegruppe	folkegrupper folkegruppe folkegruppen folkegruppene
+88	4888	krabbe	krabbe krabber krabben krabbet krabbene krabba krabbende
+89	4889	instruks	instrukser instruks instruksen instruksene
+90	4890	blek	blek bleke bleket blekt blekere bleker blekes blekede bleka
+91	4891	enstemmig	enstemmig enstemmige
+92	4892	cruise	cruise cruiset cruisene
+93	4893	fyrverkeri	fyrverkeri fyrverkeriet fyrverkerier
+94	4894	livsfarlig	livsfarlig livsfarlige
+95	4895	oppgang	oppgang oppgangen oppganger oppgangene
+96	4896	politistasjon	politistasjon politistasjonen politistasjoner politistasjonene
+97	4897	populasjon	populasjonen populasjon populasjoner populasjonene
+98	4898	takknemlighet	takknemlighet takknemligheten
+99	4899	al	ala
+100	4900	dynamisk	dynamisk dynamiske

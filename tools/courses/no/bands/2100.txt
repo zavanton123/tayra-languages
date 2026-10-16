@@ -1,0 +1,100 @@
+1	2001	individ	individer individ individet individene
+2	2002	anmeldelse	anmeldelser anmeldelse anmeldelsen anmeldelsene
+3	2003	opptre	opptrer opptre opptrådt opptrådte opptredende
+4	2004	symbol	symbol symboler symbolet symbolene
+5	2005	budskap	budskap budskapet budskapene budskaper
+6	2006	tilbakemelding	tilbakemelding tilbakemeldinger tilbakemeldingen tilbakemeldingene
+7	2007	artist	artister artist artisten artistene
+8	2008	sektor	sektor sektoren sektorer sektorene
+9	2009	naturligvis	naturligvis
+10	2010	nedover	nedover
+11	2011	tusenvis	tusenvis
+12	2012	unntatt	unntatt
+13	2013	kreativ	kreative kreativ kreativt
+14	2014	frokost	frokost frokosten frokoster
+15	2015	ordre	ordre ordren ordrer ordrene ordret
+16	2016	renne	renner rant renne renn rennende rennet rennes rennene renna rennen
+17	2017	slåss	slåss sloss
+18	2018	aksjon	aksjon aksjonen aksjoner aksjonene
+19	2019	tilknytning	tilknytning tilknytningen tilknytninger tilknytningene
+20	2020	bosette	bosatt bosette bosatte bosettere bosetter bosetterne bosettes
+21	2021	investere	investere investert investerer investerte investeres invester
+22	2022	bukse	bukser buksa buksene bukse buksen
+23	2023	lapp	lappen lapp lapper lappene
+24	2024	systematisk	systematisk systematiske
+25	2025	barnevern	barnevernet barnevern
+26	2026	mil	mil mila milene milen
+27	2027	fenomen	fenomenet fenomen fenomener fenomenene
+28	2028	vedtak	vedtak vedtaket vedtakene
+29	2029	matematikk	matematikk matematikken
+30	2030	etasje	etasje etasjer etasjen etasjene
+31	2031	nese	nesen nesa nese neser nesene
+32	2032	antagelig	antagelig
+33	2033	istedet	istedet
+34	2034	rosa	rosa
+35	2035	korrekt	korrekt korrekte
+36	2036	stemning	stemning stemningen stemninger stemninga stemningene
+37	2037	forutsetning	forutsetninger forutsetning forutsetningene forutsetningen
+38	2038	bryst	brystet bryst brystene bryster
+39	2039	kino	kino kinoen kinoer kinoene
+40	2040	frukt	frukt frukten frukter fruktene frukta
+41	2041	hilse	hilse hilser hils hilste hilst hilses
+42	2042	strekning	strekningen strekninger strekning strekningene strekninga
+43	2043	reell	reell reelle reelt
+44	2044	borger	borgere borger borgerne borgeren
+45	2045	talent	talent talenter talentet talentene
+46	2046	overraskelse	overraskelse overraskelser overraskelsen overraskelsene
+47	2047	liberal	liberale liberal liberalt
+48	2048	turist	turister turist turistene turisten
+49	2049	ånd	ånd ånder ånden åndene
+50	2050	komplett	komplett komplette komplettere komplettert kompletterer kompletteres kompletterte kompletterende
+51	2051	sjåfør	sjåføren sjåfør sjåfører sjåførene
+52	2052	passasjer	passasjerer passasjer passasjerene passasjeren
+53	2053	opplegg	opplegg opplegget oppleggene
+54	2054	tvang	tvang tvangen
+55	2055	tegning	tegning tegninger tegningene tegningen tegninga
+56	2056	more	more mora moret morer
+57	2057	prinsesse	prinsesse prinsessen prinsesser prinsessa prinsessene
+58	2058	forhandling	forhandlinger forhandlingene forhandling forhandlingen
+59	2059	bibel	bibelen bibel bibler biblene
+60	2060	næring	næring næringen næringer næringa næringene
+61	2061	bru	bru brua bruer bruene bruen
+62	2062	minister	minister ministeren ministre ministrene ministere ministerne ministrer
+63	2063	uheldig	uheldig uheldige uheldigste
+64	2064	voldtekt	voldtekt voldtekten voldtekter voldtektene
+65	2065	depresjon	depresjon depresjonen depresjoner depresjonene
+66	2066	kjede	kjeder kjede kjeden kjedet kjedene kjed kjeda
+67	2067	magisk	magisk magiske
+68	2068	foto	foto fotoet fotoene fotoer
+69	2069	teknikk	teknikk teknikker teknikken teknikkene
+70	2070	konkurrere	konkurrere konkurrerer konkurrerende konkurrerte konkurrert konkurreres konkurrer
+71	2071	skarp	skarp skarpe skarpt skarpere skarpeste skarpest
+72	2072	dansk	dansk dansken danskere
+73	2073	grundig	grundig grundige grundigere grundigste
+74	2074	teller	teller telleren tellere tellerne
+75	2075	yrke	yrke yrker yrket yrkene yrkes
+76	2076	mannskap	mannskapet mannskap mannskaper mannskapene
+77	2077	formell	formelt formell formelle
+78	2078	smil	smil smilet smilene
+79	2079	rede	red rede redet reder redere rederne rederen reda redene reden
+80	2080	mort	morten mort morter mortere
+81	2081	innovasjon	innovasjon innovasjoner innovasjonen innovasjonene
+82	2082	markedsføring	markedsføring markedsføringen
+83	2083	bydel	bydel bydelen bydeler bydelene
+84	2084	fabrikk	fabrikken fabrikk fabrikker fabrikkene
+85	2085	myk	myk myke mykt mykere mykeste myket mjuk myken mykes myker
+86	2086	drama	drama dramaet dramaer dramaene
+87	2087	nest	nest
+88	2088	nokså	nokså
+89	2089	tvers	tvers
+90	2090	muslimsk	muslimske muslimsk
+91	2091	base	base basen baser basene
+92	2092	fortid	fortid fortiden fortida
+93	2093	pizza	pizza pizzaen pizzaer pizzaene
+94	2094	narkotika	narkotika narkotikaen
+95	2095	bla	bla blar bladde bladd
+96	2096	læring	læring læringen
+97	2097	studium	studiet studier studium studiene studia
+98	2098	plassering	plassering plasseringen plasseringer plasseringene plasseringa
+99	2099	oversettelse	oversettelse oversettelsen oversettelser oversettelsene
+100	2100	pleie	pleide pleie pleid pleiet pleien pleies plei pleiende

@@ -1,0 +1,100 @@
+1	9401	streike	streike streikende streiket streika
+2	9402	statskasse	statskassen statskassa statskasse
+3	9403	vulgær	vulgært vulgære vulgær
+4	9404	gasskraftverk	gasskraftverk gasskraftverkene gasskraftverket
+5	9405	kapabel	kapabel kapable kapabelt
+6	9406	stabssjef	stabssjef stabssjefen stabssjefer
+7	9407	fagarbeid	fagarbeidere fagarbeider fagarbeid
+8	9408	framskritt	framskritt framskrittene framskrittet
+9	9409	forskningsinstitutt	forskningsinstitutt forskningsinstitutter forskningsinstituttet forskningsinstituttene
+10	9410	tilkjenne	tilkjent tilkjente tilkjenne tilkjennes tilkjenner
+11	9411	duse	dus duse dusere duser
+12	9412	idrettshall	idrettshall idrettshaller idrettshallen
+13	9413	klut	klut kluter kluten klutene
+14	9414	reservedel	reservedeler reservedel reservedelene
+15	9415	energiproduksjon	energiproduksjon energiproduksjonen
+16	9416	avkjøle	avkjølt avkjøles avkjøle avkjølende avkjøler avkjølte
+17	9417	trafikkert	trafikkerte trafikkert
+18	9418	nærbilde	nærbilde nærbilder nærbildene nærbildet
+19	9419	asiat	asiater asiat asiatene asiaten
+20	9420	bestikke	bestikke bestukket bestakk bestikker bestikkes
+21	9421	pensjonsfond	pensjonsfond pensjonsfondet
+22	9422	fullkommen	fullkommen fullkomment
+23	9423	rengjøring	rengjøring rengjøringen
+24	9424	årsrapport	årsrapporten årsrapport årsrapporter
+25	9425	fullbyrde	fullbyrdet fullbyrde fullbyrdes fullbyrder fullbyrdede
+26	9426	mediedekning	mediedekning mediedekningen
+27	9427	rye	ryen ryer
+28	9428	høyteknologisk	høyteknologisk høyteknologiske
+29	9429	energiminister	energiminister energiministeren
+30	9430	småbruk	småbruk småbruket småbrukene
+31	9431	avblåse	avblåst avblåse avblåste avblåser avblås avblåses
+32	9432	politistyrke	politistyrke politistyrken politistyrker politistyrkene
+33	9433	valgdag	valgdagen valgdag
+34	9434	dings	dingser dings dingsen dingsene
+35	9435	sirkulær	sirkulær sirkulære sirkulært
+36	9436	notis	notis notiser notisen
+37	9437	verbal	verbale verbalt
+38	9438	terrorhandling	terrorhandlinger terrorhandling terrorhandlingene terrorhandlingen
+39	9439	flyging	flyging flygingen flyginger flygingene
+40	9440	fritidsaktivitet	fritidsaktiviteter fritidsaktivitet fritidsaktivitetene
+41	9441	hjerneskade	hjerneskade hjerneskader hjerneskaden
+42	9442	imperialisme	imperialisme imperialismen
+43	9443	anslagsvis	anslagsvis
+44	9444	beredt	beredt
+45	9445	ciao	ciao
+46	9446	gleppe	glapp
+47	9447	hjerteskjærende	hjerteskjærende
+48	9448	hor	hor
+49	9449	jevnaldrende	jevnaldrende
+50	9450	kvik	kvik
+51	9451	less	less
+52	9452	losji	losji
+53	9453	pisspreik	pisspreik
+54	9454	tankevekkende	tankevekkende
+55	9455	toms	toms
+56	9456	hjemlig	hjemlige hjemlig
+57	9457	beleilig	beleilig beleilige
+58	9458	leveår	leveår leveårene leveåret
+59	9459	sjefredaktør	sjefredaktør sjefredaktøren sjefredaktører
+60	9460	dugg	dugg dogg duggen
+61	9461	lærested	læresteder lærested lærestedene lærestedet
+62	9462	bopel	bopel bopelen
+63	9463	nifs	nifs nifse nifst
+64	9464	motorsag	motorsag motorsager motorsaga motorsagen
+65	9465	sump	sump sumpen sumpene sumper
+66	9466	næringskjede	næringskjeden næringskjede næringskjedene næringskjeder
+67	9467	gunst	gunst gunsten
+68	9468	selvbiografisk	selvbiografisk selvbiografiske
+69	9469	sivilforsvar	sivilforsvaret sivilforsvar
+70	9470	autograf	autograf autografer autografen autografene
+71	9471	anrope	anrop anropet anropt anroper anropte anrope anropene anropes
+72	9472	livsglede	livsglede livsgleden
+73	9473	skjærgård	skjærgården skjærgård
+74	9474	hinne	hinna hinne hinnen hinner hinnene
+75	9475	bagatell	bagatell bagateller bagatellen
+76	9476	optikk	optikk optikken
+77	9477	pugge	pugge pugget pugger pugg
+78	9478	dage	dage daga daget
+79	9479	regent	regent regenten regenter
+80	9480	berte	berte berta berter
+81	9481	krisesituasjon	krisesituasjoner krisesituasjon krisesituasjonen
+82	9482	skillelinje	skillelinjer skillelinjene skillelinje skillelinjen
+83	9483	sosionom	sosionom sosionomer sosionomen
+84	9484	dunker	dunker dunkeren
+85	9485	utskille	utskilt utskilles utskiller utskille utskilte
+86	9486	ordrett	ordrett ordrette
+87	9487	lyrikk	lyrikk lyrikken
+88	9488	spyle	spyle spylt spyler spyl spylte spyles
+89	9489	slakting	slakting slaktingen
+90	9490	plugge	plugger plugge plugget plugges
+91	9491	benevne	benevnt benevnes benevne benevner
+92	9492	understell	understellet understell
+93	9493	fordampe	fordamper fordampe fordampet fordampes
+94	9494	marg	margen marg margene marger
+95	9495	brutalitet	brutalitet brutaliteten
+96	9496	mobilnett	mobilnett mobilnettet
+97	9497	campingplass	campingplass campingplassen campingplasser
+98	9498	ballade	ballade ballader balladen balladene
+99	9499	hindu	hindu hinduer hinduene
+100	9500	nittitall	nittitallet nittitall

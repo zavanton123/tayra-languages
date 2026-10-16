@@ -1,0 +1,100 @@
+1	601	prosent	prosent prosenter prosenten prosentene
+2	602	aktiv	aktiv aktivt aktive
+3	603	samarbeid	samarbeid samarbeidet samarbeider samarbeida samarbeidene
+4	604	verdi	verdi verdier verdien verdiene
+5	605	høst	høsten høst høster
+6	606	kilde	kilder kilde kilden kildene kjelde
+7	607	sex	sex sexen
+8	608	utdanning	utdanning utdanningen utdanninger utdanningene utdanninga
+9	609	leke	leke leker lek leken lekte lekene lekt leka lekende lekter
+10	610	beskrive	beskriver beskrevet beskrive beskrives beskrev beskriv beskrivende beskrevne
+11	611	eier	eier eiere eieren eierne
+12	612	fylle	fylle fyller fylt fyll fylte fylla fylles fyllet
+13	613	kjempe	kjempe kjempet kjemper kjemp kjempen kjempene kjempende kjempes kjempa kjempere
+14	614	befolkning	befolkningen befolkning befolkninga befolkninger befolkningene
+15	615	vond	vondt ond vonde vond ondt verste verst vondere ondeste vondeste
+16	616	erfaring	erfaring erfaringer erfaringen erfaringene erfaringa
+17	617	plutselig	plutselig plutselige
+18	618	elev	elever elevene elev eleven
+19	619	opptatt	opptatt opptatte
+20	620	behov	behov behovet behovene
+21	621	billig	billig billigere billige billigste billigst billiger
+22	622	sentrum	sentrum sentre sentrene sentret sentra sentrumet
+23	623	skyte	skutt skyte skyter skjøt skytes skyt skøyt skaut skyterne skytere
+24	624	bestå	består bestående bestå besto bestod bestått bestås beståtte
+25	625	ansatte	ansatte
+26	626	borte	borte
+27	627	ifølge	ifølge
+28	628	farlig	farlig farlige farligere farligste farligst
+29	629	vakker	vakre vakkert vakker vakreste vakrere vakrest
+30	630	mamma	mamma mammaen mammaer mammaene
+31	631	produsere	produsert produsere produserer produseres produserte produserende produser
+32	632	helse	helse helsen helsa
+33	633	grave	grave grovt grov graver grove grav graven gravd gravde graves
+34	634	innlegge	innlegg innlegget innlagt innleggene innlagte innlegges innlegge innla
+35	635	informasjonsteknologi	it informasjonsteknologi informasjonsteknologien
+36	636	unngå	unngå unngår unngått unngikk unngås unngåes
+37	637	hjerte	hjertet hjerte hjerter hjertene hjerta
+38	638	forlate	forlot forlate forlatt forlater forlatte forlat forlates
+39	639	bank	bank banker banken bankene
+40	640	telefon	telefon telefonen telefoner telefonene
+41	641	forsvinne	forsvinner forsvant forsvinne forsvunnet forsvunne forsvinnende forsvinn
+42	642	verdt	verdt verd
+43	643	sove	sove sover sov sovet sovende
+44	644	fare	fare faren farer farene farende
+45	645	lykke	lykke lykken lykka
+46	646	kjær	kjære kjær kjært kjærest kjæres kjærere
+47	647	bestemme	bestemmer bestemme bestemte bestemmes bestem bestemmende
+48	648	sjef	sjef sjefen sjefer sjefene
+49	649	utsette	utsatt utsette utsatte utsetter utsettes utsett utsettende
+50	650	forbindelse	forbindelse forbindelser forbindelsen forbindelsene
+51	651	skyld	skyld skylden skylder skylda
+52	652	bolig	bolig boliger boligen boligene
+53	653	mangel	mangler mangel mangelen manglene
+54	654	sentral	sentrale sentralt sentral sentralen sentraler sentralene
+55	655	varme	varme varm varmen varmere varmer varmeste varmet varmes varmest varma
+56	656	båt	båt båten båter båtene båd
+57	657	velkommen	velkommen velkomne velkomment
+58	658	ene	ene
+59	659	bror	bror brødrene broren brødre
+60	660	fyr	fyr fyren fyrer fyret fyrene fyra
+61	661	bedrift	bedrifter bedrift bedriften bedriftene
+62	662	behandle	behandlet behandle behandler behandles behandlere behandla behandleren behandlede behandlerne behandlende
+63	663	utføre	utført utføre utfører utføres utførte utfør utførende
+64	664	fremdeles	fremdeles
+65	665	stikke	stikke stikk stikker stakk stukket stikkende stikket stikkes stikka stikkene
+66	666	runde	runde runder runden rund rundene rundet rundere runda rundes
+67	667	fører	fører føreren førere førerne
+68	668	koste	koster koste kostet kost kosta kosten kostene
+69	669	effekt	effekt effekten effekter effektene
+70	670	trygg	trygg trygge tryggere tryggeste tryggest trygger trygget trygges
+71	671	påvirke	påvirke påvirket påvirker påvirkes påvirka påvirkede påvirkende påvirkere
+72	672	fokus	fokus fokuset fokuser
+73	673	alder	alder alderen aldre aldr aldere aldrer aldret aldra
+74	674	idé	idé ideer ideen idéer ideene idéen idéene
+75	675	grønn	grønne grønn grønt grønnere grønneste
+76	676	rød	røde rød rødere rødeste rødde rødes
+77	677	enten	enten
+78	678	imidlertid	imidlertid
+79	679	nr.	nr
+80	680	nekte	nekter nektet nekte nektes nekta nekt
+81	681	tilby	tilbyr tilby tilbudt tilbød tilbys tilbydde tilbydd tilbudte tilbøy
+82	682	forsøk	forsøk forsøket forsøkene forsøka
+83	683	seriøs	seriøst seriøs seriøse
+84	684	myndighet	myndigheter myndighetene myndighet myndigheten
+85	685	gull	gull gullet gulla gullene
+86	686	dømme	dømt dømme dømmer dømmes dømte dømmende døm
+87	687	oppgave	oppgave oppgaver oppgaven oppgavene oppgava
+88	688	fengsel	fengsel fengslet fengselet fengsler fengslene fengsla
+89	689	vekk	vekk
+90	690	nødvendig	nødvendig nødvendige nødvendigste
+91	691	lete	leter lete let lette lettet letes letter letende letta lettes
+92	692	anta	antar antatt anta antas antok antatte
+93	693	klær	klær klærne
+94	694	økonomi	økonomi økonomien økonomier økonomiene
+95	695	stole	stole stoler stol stolte stolen stolene stoles
+96	696	bestemt	bestemt bestemte
+97	697	umulig	umulig umulige
+98	698	tema	tema temaet temaer temaene
+99	699	seier	seier seieren seire seirende seiere seirer seiret seirene seierne seir
+100	700	synd	synd synder syndere synden synderen syndene synderne

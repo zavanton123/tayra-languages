@@ -1,0 +1,100 @@
+1	6401	guttunge	guttungen guttunge guttunger
+2	6402	katedral	katedralen katedral katedraler katedralene
+3	6403	helsesøster	helsesøster helsesøstre helsesøsteren
+4	6404	lokomotiv	lokomotiv lokomotivet lokomotiver lokomotivene
+5	6405	frifinne	frifunnet frifant frifinnes frifinne
+6	6406	veldedighet	veldedighet veldedigheten veldedigheter
+7	6407	anskaffe	anskaffe anskaffet anskaffer anskaffes anskaffede
+8	6408	oppvask	oppvasken oppvask oppvasker
+9	6409	brutto	brutto
+10	6410	fjorten	fjorten
+11	6411	simpelthen	simpelthen
+12	6412	skikket	skikket
+13	6413	prikke	prikker prikke prikkete prikket prikkende
+14	6414	sympatisk	sympatisk sympatiske
+15	6415	morra	morra morran
+16	6416	ravn	ravn ravnen ravner ravnene
+17	6417	verge	verge verger vergen verget vergene
+18	6418	parfyme	parfyme parfymen parfymer
+19	6419	forvaring	forvaring forvaringen
+20	6420	snacks	snacks snacksen snaks
+21	6421	peis	peisen peis peiser
+22	6422	monument	monument monumenter monumentet monumentene
+23	6423	energikilde	energikilder energikilde energikilden energikildene
+24	6424	skanne	skanne skanner skannet skannere skann skanneren skannede skannes skanna skannerne
+25	6425	fangenskap	fangenskap fangenskapet
+26	6426	allergisk	allergisk allergiske
+27	6427	hotellrom	hotellrom hotellrommet hotellrommene
+28	6428	brensel	brensel brensler brenselet
+29	6429	innpass	innpass innpasset
+30	6430	cruiseskip	cruiseskip cruiseskipet cruiseskipene
+31	6431	sprengstoff	sprengstoff sprengstoffet sprengstoffer
+32	6432	ateist	ateist ateister ateisten ateistene
+33	6433	opphavsrett	opphavsrett opphavsretten
+34	6434	menneskeskapt	menneskeskapte menneskeskapt
+35	6435	grådig	grådige grådig
+36	6436	sluke	sluker sluk sluke sluket sluken slukes slukte
+37	6437	lensmann	lensmann lensmannen lensmenn lensmennene
+38	6438	dagslys	dagslys dagslyset
+39	6439	kjempegod	kjempegod kjempegodt kjempegode
+40	6440	plastikk	plastikk plastikken
+41	6441	utvinne	utvinne utvinnes utvunnet utvinner utvant
+42	6442	astronaut	astronaut astronauter astronautene astronauten
+43	6443	gubbe	gubben gubbe gubber gubbene
+44	6444	trio	trio trioen trioer
+45	6445	stab	staben staber
+46	6446	avveie	avveie avveier avveid avveies
+47	6447	dekorasjon	dekorasjoner dekorasjon dekorasjonene dekorasjonen
+48	6448	treningskamp	treningskamp treningskamper treningskampene treningskampen
+49	6449	autorisasjon	autorisasjon autorisasjonen autorisasjoner
+50	6450	overtredelse	overtredelse overtredelser overtredelsen overtredelsene
+51	6451	kompakt	kompakt kompakte
+52	6452	vagina	vagina vaginaer vaginaen
+53	6453	pallium	ia ier iet
+54	6454	trøndersk	trøndersk trønderske
+55	6455	skøy	skøyen skøy
+56	6456	utviklingsland	utviklingsland utviklingslandene
+57	6457	høl	høl hølen hølet høler
+58	6458	jukse	jukse jukser jukset juksa jukses juksere
+59	6459	opphøye	opphøyd opphøyet opphøyde opphøye opphøyer opphøyes opphøyede
+60	6460	puslespill	puslespill puslespillet
+61	6461	karakteristikk	karakteristikker karakteristikk karakteristikkene karakteristikken
+62	6462	uran	uran uranet
+63	6463	spasere	spasere spaserer spaserte spasert spaser spaserende
+64	6464	lus	lus lusen lusa lusene lusne
+65	6465	storstilt	storstilt storstilte storstilet
+66	6466	kalv	kalv kalven kalver kalvene
+67	6467	samfunnsøkonomisk	samfunnsøkonomisk samfunnsøkonomiske
+68	6468	eiendomsrett	eiendomsrett eiendomsretten
+69	6469	fengselsstraff	fengselsstraff fengselsstraffer fengselsstraffen
+70	6470	suverenitet	suverenitet suvereniteten
+71	6471	gnist	gnist gnisten gnister gnistene
+72	6472	sveis	sveis sveisen sveiser sveisere sveiseren sveiserne sveisene
+73	6473	småting	småting småtingene
+74	6474	nonne	nonne nonner nonnene nonnen nonna
+75	6475	harmonisk	harmonisk harmoniske
+76	6476	nasjonalistisk	nasjonalistiske nasjonalistisk
+77	6477	forordning	forordning forordningen forordninger forordningene
+78	6478	kube	kuben kube kuber kuba kubene
+79	6479	bark	bark barken barker
+80	6480	cowboy	cowboy cowboyer cowboyen cowboyene
+81	6481	innmari	innmari
+82	6482	lunn	lunner
+83	6483	martini	martini
+84	6484	mikkel	mikkel
+85	6485	sjæl	sjæl
+86	6486	skolestart	skolestart
+87	6487	sykemeldt	sykemeldt
+88	6488	tidkrevende	tidkrevende
+89	6489	kritikkverdig	kritikkverdig kritikkverdige
+90	6490	skriftspråk	skriftspråk skriftspråket
+91	6491	appell	appell appellen appeller
+92	6492	anføre	anført anfører anførte anføres anføre anføreren anførere
+93	6493	lydbok	lydbok lydbøker lydboken lydbøkene
+94	6494	vegetarianer	vegetarianer vegetarianere
+95	6495	soleklar	soleklart soleklar soleklare
+96	6496	sengetøy	sengetøy sengetøyet
+97	6497	furu	furu furua furuer furuene furuen
+98	6498	tigge	tigge tagg tigget taggene taggen tiggende
+99	6499	avklaring	avklaring avklaringer avklaringen
+100	6500	pall	pallen pall paller pallene
