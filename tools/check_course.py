@@ -424,6 +424,9 @@ def check(path, brief=False):
         for name in long_names:
             whole_names += text.count(name)
             text = text.replace(name, " ")
+        # Danish writes decades and number endings after an apostrophe (1960'erne, 3'eren): a number.
+        if code == "da":
+            text = re.sub(r"\d+['’][^\W\d_]+", " ", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr"):

@@ -174,5 +174,5 @@ Things to know about the Danish list and the checker:
   spell that one out to teach it (*syv dage*). A number word already within the course's range
   (*to* 80, *tre* 175, *ti* 512) may be spelled out where Danish prose would (*to dage
   senere*), which reads better in the longer texts of the higher bands. Times as *klokken 7* or *klokken 7.30*; dates as
-  *5. maj*. The checker splits hyphenated words: *e-mail* becomes *e* + *mail*, so write *mail*
+  *5. maj*; decades as *1960'erne*, which counts as a number. The checker splits hyphenated words: *e-mail* becomes *e* + *mail*, so write *mail*
   or *besked*.
