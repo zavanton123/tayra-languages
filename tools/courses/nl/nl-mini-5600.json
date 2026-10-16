@@ -1,0 +1,204 @@
+{
+  "id": "nl-mini-5600",
+  "rankUpTo": 5600,
+  "level": "C1",
+  "title": "Journalistiek en media",
+  "description": "Reports, columns, interviews, reviews and profiles from the world of journalism and media: a windmill restoration, fake news, a foreign correspondent, a vet clinic, a cruise, an exhibition, a weekly paper, a talk show, a threatened local reporter and a neighbourhood podcast.",
+  "topic": "Journalism and media",
+  "names": [
+    "Schiedam",
+    "Jansen",
+    "Zaandam",
+    "Piet de Boer",
+    "Marieke Smit",
+    "Afrika",
+    "Midden-Oosten",
+    "Utrecht",
+    "Arnhem",
+    "Sanne Mulder",
+    "Sanne",
+    "Ellen Vos",
+    "Portugal",
+    "Spanje",
+    "Lissabon",
+    "Nederlanders",
+    "Nederland",
+    "Nederlandse",
+    "Den Haag",
+    "Azië",
+    "Thailand",
+    "Europese",
+    "Lotte de Jong",
+    "Johan Bakker",
+    "Mark Peters",
+    "Hilversum",
+    "Gent"
+  ],
+  "lessons": [
+    {
+      "title": "De molen aan de dijk",
+      "summary": "A regional reporter writes about the city's plan to restore an old windmill and the doubts some villagers have.",
+      "newWords": [
+        "restaureren",
+        "windmolen",
+        "eeuwenoud",
+        "monumentaal",
+        "betonnen",
+        "klei",
+        "aldaar",
+        "stadsbestuur",
+        "aanbesteding",
+        "netto"
+      ],
+      "text": "Wie langs de dijk bij ons dorp fietst, ziet hem al van ver staan: de eeuwenoude windmolen die al bijna 300 jaar boven het land uitkijkt. Sinds vorig jaar draait de molen niet meer. Het hout was rot, en de vrijwilligers vonden het te gevaarlijk om nog naar boven te gaan. Nu wil het stadsbestuur de molen laten restaureren. Onze verslaggever ging erheen en sprak met de mensen die erbij betrokken zijn.\n\nDe windmolen werd in 1740 gebouwd door een timmerman uit Schiedam, die aldaar al twee molens had neergezet. Hij koos een plek waar de grond uit natte klei bestaat. Dat is altijd een probleem geweest. Klei is zwaar en zacht tegelijk: in een droge zomer krimpt hij, in een natte winter zet hij uit. Daardoor is de molen in de loop van de eeuwen een beetje scheef gaan staan. In 1965 kreeg hij daarom een betonnen voet. Die betonnen voet hield het gebouw lange tijd recht, maar volgens deskundigen moet ook die nu worden vervangen.\n\nHet stadsbestuur heeft voor het werk een aanbesteding gehouden. Bij een aanbesteding mogen verschillende bedrijven een plan en een prijs indienen; daarna kiest het stadsbestuur het beste aanbod. Vier bedrijven hebben zich gemeld. Wethouder Jansen legt uit waarom de gemeente voor deze route kiest. “Het gaat om geld van de burgers,” zegt hij. “Dan moet je laten zien dat je eerlijk kiest. Een aanbesteding maakt dat zichtbaar.”\n\nDe kosten zijn hoog. Het restaureren van de molen kost ongeveer 900.000 euro. Een deel daarvan komt van de provincie en van een fonds voor monumenten. Netto betaalt de gemeente zelf ongeveer 350.000 euro. Dat netto bedrag vindt de wethouder verantwoord. “Dit is een monumentaal gebouw. Als we het laten vallen, krijgen we het nooit meer terug.”\n\nNiet iedereen is het met hem eens. In het café van het dorp hoort onze verslaggever ook andere geluiden. “Ik vind het een prachtige molen,” zegt een vrouw van in de zeventig, “maar de bibliotheek is vorig jaar gesloten en de bus rijdt nog maar één keer per uur. Waarom is er wel geld voor een molen?” Het is een vraag die vaak wordt gesteld bij monumentale gebouwen: wat is het verleden ons waard, als het heden ook geld vraagt?\n\nMolenaar Piet de Boer, die al dertig jaar als vrijwilliger in de molen werkt, begrijpt die twijfel. Toch is hij blij met het besluit. Hij neemt ons mee naar binnen en wijst op de eeuwenoude balken. “Deze balken zijn met de hand gemaakt,” zegt hij. Wie een molen laat restaureren, bewaart volgens hem niet alleen een gebouw, maar ook het werk van alle mensen die er ooit hebben gestaan.\n\nAls alles volgens plan verloopt, begint het werk in het voorjaar. Eerst komt er een nieuwe betonnen voet, daarna wordt het hout vervangen. Het bedrijf dat de aanbesteding heeft gewonnen, restaureert op dit moment een molen in Zaandam; aldaar is het werk bijna klaar. Over twee jaar moet ook onze windmolen weer draaien.\n\nVragen:\nWaarom draait de windmolen sinds vorig jaar niet meer?\nHet hout was rot, en de vrijwilligers vonden het te gevaarlijk.\nWaarom is de molen scheef gaan staan?\nDe grond bestaat uit klei, en klei krimpt in de zomer en zet uit in de winter.\nWat is een aanbesteding?\nBij een aanbesteding dienen verschillende bedrijven een plan en een prijs in, en kiest het stadsbestuur het beste aanbod.\nHoeveel betaalt de gemeente netto?\nNetto betaalt de gemeente ongeveer 350.000 euro.\nWaarom twijfelt de vrouw in het café?\nZe vraagt zich af waarom er wel geld is voor een molen, terwijl de bibliotheek gesloten is."
+    },
+    {
+      "title": "Is het wel waar?",
+      "summary": "A columnist reflects on a made-up news story that fooled her neighbour, and on how journalists check their facts.",
+      "newWords": [
+        "fictief",
+        "verwarrend",
+        "zoekresultaat",
+        "ondermijnen",
+        "onderbouw",
+        "schaden",
+        "essentie",
+        "uitermate",
+        "hetzij",
+        "zogenoemd"
+      ],
+      "text": "Vorige week liet mijn buurman me een bericht op zijn telefoon zien. Hij was er uitermate boos over. Volgens het artikel wilde de gemeente alle bomen in onze straat weghalen, om ruimte te maken voor auto's. Het zag er echt uit: een foto van onze straat, een duidelijke kop en een citaat van een wethouder. Er was alleen één probleem. Die wethouder bestond niet. Het hele verhaal was fictief.\n\nHet was een voorbeeld van zogenoemd nepnieuws: een fictief verhaal dat eruitziet als een echt nieuwsbericht. Zulke berichten zijn niet nieuw, maar ze verspreiden zich tegenwoordig veel sneller dan vroeger. Mijn buurman had het bericht al aan twaalf mensen doorgestuurd voordat hij het aan mij liet zien.\n\nIk wilde weten waar het vandaan kwam, dus ik zocht de naam van de wethouder op. Dat leverde honderden zoekresultaten op. Het eerste zoekresultaat was een andere site die precies hetzelfde verhaal vertelde. Het tweede ook. Pas bij het tiende zoekresultaat vond ik de website van de gemeente, waar niets over bomen stond. Dat vond ik verwarrend, en ik begrijp goed dat anderen het ook verwarrend vinden. Als tien sites hetzelfde zeggen, lijkt het al snel waar.\n\nIk belde een vriendin die al twintig jaar als journalist bij een krant werkt. Zij legde uit hoe haar redactie werkt. “Elke bewering moet je onderbouwen,” zei ze, “hetzij met een document, hetzij met een bron die je zelf hebt gesproken. Als ik iets niet kan onderbouwen, schrijf ik het niet op. Dat is de essentie van ons vak.”\n\nDaar zit volgens haar ook het gevaar van verhalen zoals dat van mijn buurman. Ze schaden niet alleen de mensen over wie ze gaan. Ze ondermijnen ook het vertrouwen in echte journalisten. Wie een paar keer een fictief bericht heeft geloofd, gaat ook aan goed onderbouwde artikelen twijfelen. “En wie alles wantrouwt,” zei mijn vriendin, “gelooft uiteindelijk alleen nog wat hij al dacht.”\n\nToch wil ik niet te somber zijn. Internet heeft ook veel goeds gebracht. Iedereen kan nu zelf documenten opzoeken, en veel kranten laten zien op welke bronnen hun artikelen gebaseerd zijn. Het probleem is dus niet dat er te veel informatie is, maar dat we te weinig tijd nemen om haar te controleren.\n\nMijn buurman heeft inmiddels een nieuw bericht naar de twaalf mensen gestuurd, met de uitleg dat het verhaal niet klopte. Hij vond dat uitermate vervelend, maar hij heeft er iets van geleerd. Voortaan kijkt hij eerst wie een bericht heeft geschreven, voordat hij het doorstuurt. Dat lijkt me de essentie van de les: niet alles wantrouwen, maar wel eerst kijken.\n\nVragen:\nWaarom was de buurman boos?\nVolgens een bericht wilde de gemeente alle bomen in de straat weghalen.\nWat is zogenoemd nepnieuws?\nHet is een fictief verhaal dat eruitziet als een echt nieuwsbericht.\nWaarom vond de schrijver de zoekresultaten verwarrend?\nDe eerste zoekresultaten waren andere sites die hetzelfde verhaal vertelden.\nHoe onderbouwt de vriendin een bewering?\nZe onderbouwt hem hetzij met een document, hetzij met een bron die ze zelf heeft gesproken.\nWaarom zijn zulke verhalen gevaarlijk?\nZe schaden mensen en ze ondermijnen het vertrouwen in echte journalisten."
+    },
+    {
+      "title": "Dertig jaar in het buitenland",
+      "summary": "An interview with a retired foreign correspondent about reporting on a coup and what such work demands.",
+      "newWords": [
+        "coup",
+        "heerser",
+        "kazerne",
+        "offensief",
+        "inlichtingendienst",
+        "ontploffing",
+        "bevolkingsgroep",
+        "vergen",
+        "laf",
+        "wanhoop"
+      ],
+      "text": "Marieke Smit werkte dertig jaar als correspondent in Afrika en het Midden-Oosten. Ze schreef voor kranten en sprak voor de radio. Vorige maand verscheen haar boek over die jaren. Wij spraken met haar in haar huis in Utrecht.\n\nU hebt veel meegemaakt. Welk moment is u het meest bijgebleven?\n\n“Mijn eerste coup. Ik woonde nog maar een half jaar in het land. Op een ochtend werd ik wakker en was de radio stil. Een collega belde: het leger had de macht genomen. De oude heerser had het land al die nacht verlaten. Hij had er meer dan twintig jaar geregeerd, en in één nacht was het voorbij. Ik herinner me vooral de stilte op straat. Niemand wist wat er ging gebeuren.”\n\nWat deed u toen?\n\n“Ik ging naar de grote kazerne aan de rand van de stad, want daar was de coup begonnen. Voor de kazerne stonden honderden mensen te wachten. Sommigen waren blij dat de oude heerser weg was, anderen waren bang. Ik heb die dag vooral geluisterd. Dat is volgens mij het belangrijkste in dit vak.”\n\nWas het gevaarlijk?\n\n“Soms wel. Een paar weken later begon het leger een offensief tegen een groep in het noorden. Dat offensief duurde drie maanden. Vanuit mijn hotel hoorde ik op een avond in de verte een ontploffing. Na zo'n ontploffing weet je dat je voorzichtig moet zijn. Ook wist ik dat de inlichtingendienst buitenlandse journalisten volgde. Mijn telefoon werd waarschijnlijk afgeluisterd. Daarom sprak ik mijn bronnen nooit op dezelfde plek.”\n\nWat vergt dit werk van een journalist?\n\n“Het vergt geduld, vooral. En kennis van het land. In dat land woonden verschillende bevolkingsgroepen, met hun eigen taal en hun eigen geschiedenis. Elke bevolkingsgroep zag de coup op een andere manier. Als je dat niet begrijpt, schrijf je een verhaal dat te eenvoudig is. Het vergt ook dat je eerlijk bent over wat je niet weet.”\n\nBent u weleens weggegaan omdat het te gevaarlijk werd?\n\n“Ja, twee keer. Collega's vroegen me later of ik dat niet laf vond. Ik vind het niet laf. Een journalist die gewond raakt, kan niets meer vertellen. Laf zou zijn: doen alsof je er was, terwijl je het niet hebt gezien.”\n\nHoe kijkt u terug op die jaren?\n\n“Met dankbaarheid, maar ook met verdriet. Ik heb veel wanhoop gezien: moeders die hun kinderen zochten, mannen die alles kwijt waren. Toch zag ik naast die wanhoop ook veel hoop. Mensen bleven elkaar helpen, ook als ze zelf bijna niets hadden. Dat wilde ik in mijn boek laten zien.”\n\nVragen:\nWat gebeurde er op de ochtend van haar eerste coup?\nDe radio was stil, het leger had de macht genomen en de oude heerser had het land verlaten.\nWaarom ging Marieke Smit naar de kazerne?\nDaar was de coup begonnen.\nWaarom sprak ze haar bronnen nooit op dezelfde plek?\nZe wist dat de inlichtingendienst buitenlandse journalisten volgde.\nWat vergt het werk van een correspondent volgens haar?\nHet vergt geduld, kennis van het land en eerlijkheid over wat je niet weet.\nWaarom vindt ze het niet laf om weg te gaan?\nEen journalist die gewond raakt, kan niets meer vertellen."
+    },
+    {
+      "title": "Een dag bij de dierenarts",
+      "summary": "A science reporter spends a day at a vet clinic, where a falcon, a peacock and a dog are treated and a forensic vet explains her work.",
+      "newWords": [
+        "dierenarts",
+        "vacht",
+        "ontsteking",
+        "litteken",
+        "laser",
+        "valk",
+        "pauw",
+        "forensisch",
+        "bevinding"
+      ],
+      "text": "Voor de wetenschapspagina van onze krant liep ik een dag mee in een grote kliniek voor dieren aan de rand van Arnhem. Er werken zes dierenartsen. Ze behandelen niet alleen honden en katten, maar ook vogels uit dierentuinen en parken.\n\nDe eerste patiënt van de dag is een valk. De vogel hoort bij een man die met roofvogels optreedt op markten en feesten. De valk heeft al een week last van zijn linkerpoot. Dierenarts Sanne Mulder bekijkt de poot voorzichtig. “Hier zit een ontsteking,” zegt ze. “Dat zien we vaker bij vogels die lang op dezelfde stok zitten.” Ze behandelt de ontsteking met een laser. De laser geeft licht met veel energie, zonder dat het pijn doet. Het licht helpt het lichaam om sneller te genezen. De valk blijft opvallend rustig.\n\nDaarna komt er een pauw binnen uit een park in de buurt. De pauw heeft een paar mooie veren verloren, en de beheerder van het park maakt zich zorgen. Sanne Mulder onderzoekt het dier, maar vindt niets ernstigs. “Een pauw verliest elk jaar na de zomer zijn lange veren,” legt ze uit. “Dat is gewoon. Ze groeien vanzelf terug.” De beheerder is opgelucht.\n\nAan het eind van de ochtend zie ik een hond met een dikke, bruine vacht. Op zijn rug zit een lang litteken, waar geen haar meer groeit. Het litteken komt van een operatie twee jaar geleden. De eigenaar vraagt of de vacht daar nog terugkomt. “Waarschijnlijk niet,” zegt de dierenarts, “maar het litteken doet hem geen pijn. Hij merkt er niets van.”\n\n's Middags spreek ik met een collega van Sanne: Ellen Vos, een forensisch dierenarts. Haar werk is anders. Als de politie vermoedt dat een dier slecht is behandeld, onderzoekt zij het dier. Ze kijkt naar wonden, naar de vacht, naar het gewicht en naar oude littekens. “Forensisch onderzoek betekent dat mijn werk voor de rechter moet kunnen gelden,” zegt ze. “Ik schrijf al mijn bevindingen precies op. Ik geef geen mening, alleen feiten.” Een bevinding moet je volgens haar altijd kunnen laten zien: met een foto, een meting of een test.\n\nIs dat werk niet zwaar? Ellen Vos denkt even na. “Soms wel. Maar dankzij mijn bevindingen kunnen dieren soms een beter huis krijgen. Daar doe ik het voor.”\n\nAan het eind van de dag mag de valk weer naar huis. De ontsteking is al iets minder dik. Volgende week komt hij terug voor een tweede behandeling met de laser.\n\nVragen:\nWaarom komt de valk naar de dierenarts?\nHij heeft een ontsteking aan zijn linkerpoot.\nHoe behandelt de dierenarts de ontsteking?\nZe behandelt de ontsteking met een laser.\nWaarom hoeft de beheerder van het park zich geen zorgen te maken over de pauw?\nEen pauw verliest elk jaar na de zomer zijn lange veren, en ze groeien vanzelf terug.\nWaar komt het litteken van de hond vandaan?\nHet komt van een operatie twee jaar geleden.\nWat doet een forensisch dierenarts?\nZe onderzoekt dieren die mogelijk slecht zijn behandeld, en schrijft al haar bevindingen precies op."
+    },
+    {
+      "title": "Een week op zee",
+      "summary": "A travel journalist reviews a cruise along the coast of Portugal and Spain and weighs its pleasures against its costs.",
+      "newWords": [
+        "cruise",
+        "baai",
+        "kaap",
+        "luchtvaartmaatschappij",
+        "zitplaats",
+        "zomervakantie",
+        "slipper",
+        "muts",
+        "disco",
+        "swingen"
+      ],
+      "text": "Steeds meer Nederlanders boeken voor hun zomervakantie een cruise. Is dat een goed idee? Onze reisjournalist ging een week mee op een schip langs de kust van Portugal en Spanje, en schreef op wat hem opviel.\n\nDe reis begint niet op zee, maar in de lucht. Om bij het schip in Lissabon te komen, vlieg je met een luchtvaartmaatschappij die de reis samen met de rederij aanbiedt. Mijn zitplaats lag achterin, naast het toilet, en er was weinig ruimte voor mijn benen. Dat is jammer, want de reis is niet goedkoop. Wie meer betaalt, krijgt bij deze luchtvaartmaatschappij een betere zitplaats. Ik raad dat aan.\n\nHet schip zelf is enorm: er zijn meer dan 2000 passagiers aan boord. Overdag lopen de meeste mensen rond in korte broeken en op slippers. Op het zwembaddek hoor je de hele dag het geluid van slippers op de natte vloer. 's Avonds is er veel te doen. Er is een theater, er zijn drie restaurants en er is een disco. In de disco draait een band swingende muziek uit de jaren zestig, en tot mijn verbazing swingen vooral de oudere gasten tot laat in de nacht.\n\nHet mooiste deel van de reis is de natuur. Op de derde dag varen we langs een kaap in het zuiden van Portugal. Het waait er hard, en het is kouder dan je zou denken. Een vrouw naast mij had een wollen muts meegenomen; ik had spijt dat ik geen muts bij me had. Toch bleef ik buiten staan. De kaap met zijn hoge rotsen en de vuurtoren is indrukwekkend. Een dag later liggen we stil in een rustige baai in Spanje. Het water in de baai is helder en groen, en wie wil, kan er zwemmen.\n\nEr is ook een andere kant. Een groot schip als dit gebruikt veel brandstof, en in de havens waar het aanmeert, lopen op één dag duizenden toeristen door de straten. Bewoners klagen daarover. In een van de steden zag ik een spandoek met de tekst “Wij zijn geen pretpark.” Wie een cruise boekt, moet daar ook over nadenken.\n\nIs een cruise dus iets voor uw zomervakantie? Dat hangt ervan af wat u zoekt. Wie graag veel ziet zonder steeds zijn koffer te pakken, zal genieten. Wie rust en ruimte zoekt, kan beter een week in een klein dorp aan een baai doorbrengen. En vergeet in elk geval uw muts niet.\n\nVragen:\nWat vond de journalist van zijn zitplaats in het vliegtuig?\nZijn zitplaats lag achterin, naast het toilet, en er was weinig ruimte voor zijn benen.\nWat dragen de meeste passagiers overdag?\nZe lopen rond in korte broeken en op slippers.\nWie swingen er tot laat in de disco?\nVooral de oudere gasten swingen tot laat in de nacht.\nWaarom had de journalist spijt bij de kaap?\nHet was koud, en hij had geen muts bij zich.\nWaarom klagen de bewoners van de havensteden?\nOp één dag lopen er duizenden toeristen door hun straten."
+    },
+    {
+      "title": "Stilte en verandering",
+      "summary": "An arts critic reviews a museum exhibition that sets old Buddhist statues beside the work of a promising young artist.",
+      "newWords": [
+        "expo",
+        "tentoonstellen",
+        "boeddhistisch",
+        "aards",
+        "glorie",
+        "openbaring",
+        "wieg",
+        "brunette",
+        "veelbelovend",
+        "transformeren"
+      ],
+      "text": "Het museum in Den Haag heeft een opvallende keuze gemaakt. In de nieuwe expo hangen en staan twee heel verschillende soorten kunst naast elkaar: eeuwenoude boeddhistische beelden uit Azië en het werk van een jonge Nederlandse kunstenaar, Lotte de Jong. Kan dat samengaan? Na mijn bezoek denk ik van wel.\n\nDe eerste zalen zijn gewijd aan de boeddhistische kunst. Het museum mag de beelden een halfjaar tentoonstellen dankzij een museum in Thailand. Het zijn vooral stille, zittende figuren, met halfgesloten ogen. Volgens het boeddhistische denken moet een mens zich losmaken van aardse zaken: geld, bezit, roem. De beelden laten dat goed zien. Ze zijn eenvoudig, en toch kijk je er lang naar.\n\nDat staat in scherp contrast met de tweede zaal. Daar hangen schilderijen uit de tijd waarin Europese vorsten de glorie van hun land wilden tonen. Op één groot doek zit een brunette in een rode jurk, omringd door goud en zijde. De glorie van haar familie straalt van het doek af. Het museum heeft deze werken met opzet naast de boeddhistische beelden gehangen: aardse rijkdom tegenover innerlijke rust.\n\nDe echte openbaring van deze expo is echter het werk van Lotte de Jong. Zij is pas 29, en critici noemen haar al jaren veelbelovend. Ze gebruikt oude voorwerpen en weet die te transformeren tot iets nieuws. Het mooiste voorbeeld is een houten wieg uit de negentiende eeuw. De kunstenaar heeft de wieg niet gerestaureerd, maar langzaam gevuld met klei en stenen, zodat je er niet meer in kunt kijken. Het is een vreemd, maar ontroerend beeld. Een wieg, zegt ze in de catalogus, is het begin van een leven; door de wieg te transformeren, wil ze laten zien hoe snel tijd voorbijgaat.\n\nOok de brunette uit de tweede zaal komt bij haar terug. Lotte de Jong heeft het schilderij nagemaakt, maar zonder goud en zonder zijde. Haar brunette zit alleen in een lege kamer. Het effect is sterk: zonder alle aardse rijkdom wordt de vrouw plotseling een gewoon mens.\n\nNiet alles in deze expo is geslaagd. De teksten bij de boeddhistische beelden zijn kort, en wie weinig van het boeddhisme weet, mist veel. Ook is het in de zalen erg druk.\n\nToch is dit een tentoonstelling die je moet zien. Het museum laat zien dat je oude en nieuwe kunst samen kunt tentoonstellen, zonder dat het een rommeltje wordt. En wie Lotte de Jong nog niet kende, zal begrijpen waarom zij zo veelbelovend wordt genoemd. Voor mij was haar werk een openbaring.\n\nVragen:\nWelke twee soorten kunst staan in de expo naast elkaar?\nEeuwenoude boeddhistische beelden uit Azië en het werk van een jonge kunstenaar.\nWat laten de boeddhistische beelden zien?\nZe laten zien dat een mens zich los moet maken van aardse zaken.\nWat zie je op het grote doek in de tweede zaal?\nEen brunette in een rode jurk, omringd door goud en zijde.\nWat heeft Lotte de Jong met de oude wieg gedaan?\nZe heeft de wieg gevuld met klei en stenen, zodat je er niet meer in kunt kijken.\nWat vond de schrijver minder goed aan de expo?\nDe teksten bij de beelden zijn kort, en het is erg druk in de zalen."
+    },
+    {
+      "title": "Veertig jaar weekblad",
+      "summary": "A profile of an 88-year-old man who compiled a regional weekly for forty years, from the telegraph to the computer.",
+      "newWords": [
+        "telegraaf",
+        "weekblad",
+        "samenstellen",
+        "dadelijk",
+        "ditmaal",
+        "overgroot",
+        "verdienste",
+        "nota",
+        "schrift",
+        "holocaust"
+      ],
+      "text": "Johan Bakker is 88 jaar, en zijn huiskamer ligt vol oude kranten. Veertig jaar lang heeft hij het weekblad van zijn stad samengesteld. Elke donderdag lag het in de brievenbus van bijna elk huis. In deze serie spreken we met mensen die de geschiedenis van de media hebben meegemaakt. Ditmaal is Johan Bakker aan de beurt.\n\n“Ga zitten,” zegt hij. “Ik zet dadelijk koffie. Eerst wil ik je iets laten zien.” Hij pakt een oud schrift van de tafel. Op de eerste bladzijde staat een datum uit 1958. “Dit is mijn eerste schrift. Daarin schreef ik alles op wat ik hoorde. Een journalist zonder schrift is als een timmerman zonder hamer.”\n\nToen hij begon, was er geen internet en had niet iedereen een telefoon. Groot nieuws uit het buitenland kwam binnen via de telegraaf. “Bij de grote krant in de stad stond een telegraaf,” vertelt hij. “Als er iets belangrijks gebeurde, kwam er een kort bericht binnen. Wij kregen die berichten een dag later. Maar voor een weekblad maakte dat niet uit. Het overgrote deel van ons nieuws kwam toch uit de stad zelf.”\n\nHoe ging het samenstellen van het weekblad in zijn werk? “Op maandag haalde ik de verhalen op: bij de gemeente, bij de sportclubs, bij de kerken. Op dinsdag schreef ik. Op woensdag moest ik alles samenstellen: welk verhaal komt voorop, welke foto past erbij, wat moet er nog uit. Dat was het mooiste deel van het werk.” Elke maand kwam de nota van de drukker. “Die nota was altijd hoger dan ik had gehoopt,” lacht hij.\n\nWaar is hij het meest trots op? Hij denkt lang na. Dan pakt hij een nummer uit 1985. “Dit. In onze stad woonden voor de oorlog veel joodse families. Het overgrote deel van hen is in de holocaust vermoord. Ik heb toen een serie geschreven met de laatste mensen die het hadden overleefd. Tien weken lang, elke week één verhaal.” Hij is even stil. “Veel lezers wisten niet wat er in hun eigen straat was gebeurd. Over de holocaust werd in onze stad weinig gesproken.”\n\nVolgens zijn oud-collega's was dat zijn grootste verdienste: hij luisterde naar mensen die anders niet gehoord werden. Johan Bakker zelf spreekt liever niet over verdienste. “Ik heb gewoon opgeschreven wat mensen me vertelden. Dat is het vak.”\n\nHet weekblad bestaat nog steeds, maar verschijnt nu vooral online. Leest hij het nog? “Elke week,” zegt hij. “Op de computer, met een vergrootglas.” Dan staat hij op. “Zo. Nu zet ik dadelijk die koffie.”\n\nVragen:\nWie is ditmaal aan de beurt in de serie?\nDitmaal is Johan Bakker aan de beurt.\nHoe lang heeft Johan Bakker het weekblad samengesteld?\nHij heeft het weekblad veertig jaar lang samengesteld.\nWaarvoor gebruikte hij zijn schrift?\nHij schreef daarin alles op wat hij hoorde.\nHoe kwam groot nieuws uit het buitenland vroeger binnen?\nHet kwam binnen via de telegraaf.\nWat deed hij op woensdag?\nOp woensdag stelde hij het weekblad samen.\nWat was volgens zijn oud-collega's zijn grootste verdienste?\nHij luisterde naar mensen die anders niet gehoord werden, zoals de mensen die de holocaust hadden overleefd."
+    },
+    {
+      "title": "Achter de schermen",
+      "summary": "A reporter spends an evening behind the scenes of a live television talk show, from the guard at the door to the evaluation afterwards.",
+      "newWords": [
+        "vip",
+        "beveiliger",
+        "bediening",
+        "gadget",
+        "controller",
+        "hybride",
+        "evaluatie",
+        "trakteren",
+        "taalgebruik",
+        "zoveelste"
+      ],
+      "text": "Elke avond om tien uur kijken bijna een miljoen mensen naar de talkshow van presentator Mark Peters. Maar wat gebeurt er achter de schermen? Ik mocht een avond meekijken in de studio in Hilversum.\n\nOm vijf uur sta ik bij de ingang. Een beveiliger controleert mijn naam op een lijst. “Vanavond komen er twee bekende gasten,” legt hij uit, “dus we zijn extra voorzichtig.” Voor de gasten is er een aparte ruimte, die iedereen hier de vip-kamer noemt. Elke vip krijgt daar koffie en iets te eten, en een beveiliger houdt de deur in de gaten.\n\nIn de studio is het druk. Er staan vijf camera's, en voor de bediening van al die camera's zijn drie mensen nodig. De regisseur zit in een kleine kamer vol schermen. Zij beslist welk beeld de kijkers zien. “De bediening moet perfect zijn,” zegt ze. “Een programma als dit is live. Als er iets misgaat, ziet heel Nederland het.”\n\nEen vast onderdeel van de show is het stuk over techniek. Vanavond laat een journalist drie nieuwe gadgets zien. Het eerste gadget is een kleine camera voor op de fiets. Het tweede is een nieuwe controller voor computerspelletjes, die je met je ogen kunt besturen. De presentator probeert de controller zelf, maar verliest het spel binnen een minuut. Het publiek lacht. Het laatste onderdeel gaat over een hybride auto, die zowel op benzine als op stroom rijdt. Volgens de journalist is een hybride auto een goede keuze voor wie nog niet helemaal elektrisch wil rijden.\n\nNa de techniek komen de twee bekende gasten. Het gesprek gaat over politiek en wordt soms fel. Een van de gasten gebruikt een paar grove woorden. In de regiekamer kijkt de regisseur bezorgd. “Op taalgebruik letten we goed,” zegt ze later. “Veel jonge kijkers kijken mee. We willen een open gesprek, maar wel met respect.”\n\nOm elf uur is de uitzending voorbij. Iedereen is moe, maar het werk is nog niet af. In een kleine kamer houdt het team een korte evaluatie. Wat ging goed, wat kan beter? Het taalgebruik van de gast komt ter sprake, en ook een camera die even het verkeerde beeld liet zien. De evaluatie duurt een kwartier. “Dit is onze zoveelste uitzending,” zegt de regisseur, “maar elke avond leren we weer iets.”\n\nDan komt Mark Peters binnen met twee grote dozen. Hij is vandaag jarig en wil iedereen trakteren. “Ik trakteer op appeltaart,” roept hij. Voor de zoveelste keer die avond wordt er gelachen.\n\nVragen:\nWat doet de beveiliger bij de ingang?\nHij controleert de namen op een lijst en houdt de deur van de vip-kamer in de gaten.\nHoeveel mensen zijn er nodig voor de bediening van de camera's?\nEr zijn drie mensen nodig voor de bediening van de camera's.\nWat is bijzonder aan de nieuwe controller?\nJe kunt hem met je ogen besturen.\nWaarom let het programma op het taalgebruik?\nEr kijken veel jonge kijkers mee.\nWaarom komt Mark Peters met twee dozen binnen?\nHij is jarig en wil iedereen trakteren op appeltaart."
+    },
+    {
+      "title": "Een journalist in het dorp",
+      "summary": "A local reporter writes about the threatening messages she received after an article on a new parking garage, and why she went to the police.",
+      "newWords": [
+        "parkeergarage",
+        "voetganger",
+        "intimidatie",
+        "fanatiek",
+        "aandringen",
+        "tegenslag",
+        "loos",
+        "discreet",
+        "taboe"
+      ],
+      "text": "Ik werk al acht jaar als verslaggever voor een lokale nieuwssite. Meestal schrijf ik over rustige onderwerpen: een nieuwe school, een feest in de wijk, de uitslagen van de voetbalclub. Vorig jaar schreef ik over een plan van de gemeente om onder het marktplein een parkeergarage te bouwen. Ik had niet gedacht dat dat zoveel boosheid zou opleveren.\n\nIn mijn artikel liet ik beide kanten aan het woord. De winkeliers wilden de parkeergarage graag, omdat hun klanten dan makkelijker konden parkeren. Andere bewoners waren tegen. Zij vreesden dat er meer verkeer in het centrum zou komen, en dat de voetganger het daar moeilijker zou krijgen. Een moeder vertelde dat ze haar kinderen niet meer alleen naar school durfde te laten lopen. “Elke voetganger is hier al in gevaar,” zei ze.\n\nEen paar dagen later kreeg ik de eerste berichten. Sommige mensen vonden mijn artikel te positief over de parkeergarage, anderen vonden het juist te negatief. Een kleine groep was zeer fanatiek. Ze stuurden me elke dag berichten, soms midden in de nacht. Eén man schreef dat hij wist waar ik woonde. Toen begreep ik dat dit geen kritiek meer was, maar intimidatie.\n\nLange tijd was het een taboe om daarover te praten. Veel journalisten dachten dat het bij het werk hoorde, en dat je sterk moest zijn. Ook ik zei eerst tegen niemand iets. Maar mijn hoofdredacteur merkte dat ik stiller was dan anders. Toen ik het hem vertelde, bleef hij aandringen: ik moest naar de politie. Ik twijfelde, want ik wilde geen drukte. Maar hij bleef aandringen, en uiteindelijk ging ik.\n\nDe politie behandelde mijn zaak heel discreet. Een agent kwam op een rustig moment langs en vroeg me alle berichten te bewaren. Mijn naam kwam niet in het nieuws. Dat discreet handelen vond ik prettig. Volgens de agent waren de meeste dreigementen loos: mensen die op hun telefoon boos zijn, doen in het echt meestal niets. Maar ook een loos dreigement is intimidatie, zei hij, en daarom moest ik het melden.\n\nHet was een tegenslag, dat moet ik eerlijk zeggen. Een paar weken lang durfde ik niet over de parkeergarage te schrijven. Toch heb ik me door die tegenslag niet laten stoppen. Ik schrijf weer over de plannen, en de fanatieke groep is inmiddels stil. Ik vertel mijn verhaal nu, omdat ik vind dat intimidatie van journalisten geen taboe meer mag zijn. Wie zwijgt, laat de bedreigers winnen.\n\nVragen:\nWaarover schreef de verslaggever vorig jaar?\nZe schreef over een plan om onder het marktplein een parkeergarage te bouwen.\nWaarom waren sommige bewoners tegen de parkeergarage?\nZe vreesden meer verkeer, en dat de voetganger het moeilijker zou krijgen.\nWanneer begreep ze dat het intimidatie was?\nToen een man schreef dat hij wist waar ze woonde.\nWaarom ging ze naar de politie?\nHaar hoofdredacteur bleef erop aandringen.\nWat zei de agent over de dreigementen?\nDe meeste dreigementen waren loos, maar ook een loos dreigement is intimidatie."
+    },
+    {
+      "title": "De winkels van onze straat",
+      "summary": "A local podcast maker describes how she records episodes about the shops in her street, from the butcher to the bookshop.",
+      "newWords": [
+        "episode",
+        "slager",
+        "boekhandel",
+        "mais",
+        "verwarming",
+        "groetjes",
+        "compagnie"
+      ],
+      "text": "Twee jaar geleden ben ik begonnen met een podcast over de winkels in mijn straat in Gent. Elke maand maak ik een nieuwe episode van ongeveer een halfuur. Ik ben geen journalist van beroep; ik werk overdag op een kantoor. Maar ik vond dat de verhalen van de winkeliers bewaard moesten worden.\n\nDe eerste episode ging over de slager op de hoek. Hij heeft de winkel van zijn vader overgenomen, en zijn vader had hem weer van zijn grootvader. In de episode vertelt de slager hoe het vak is veranderd. Vroeger kwamen zijn klanten elke dag, nu komen ze één keer per week. Toch blijft hij optimistisch. “Mensen willen weer weten waar hun vlees vandaan komt,” zegt hij. “Een goede slager kan dat vertellen.”\n\nIn een andere episode bezocht ik een boer die elke zaterdag op de markt staat. Hij verkoopt groenten, en in de zomer vooral verse mais. Hij legde uit dat zijn mais anders smaakt dan die uit de supermarkt, omdat hij hem pas op de ochtend van de markt plukt. Na de opname kreeg ik een zak mais mee naar huis. Hij had gelijk: zo'n zoete mais had ik nog nooit gegeten.\n\nDe populairste episode tot nu toe gaat over de kleine boekhandel in onze straat. De eigenares heeft het niet makkelijk. Vorige winter was de verwarming kapot, en een nieuwe verwarming kostte meer dan ze in een maand verdiende. Toch hield ze de boekhandel open, met een dikke trui aan. Ze vertelde ook dat er soms een kleine compagnie toneelspelers in haar winkel optreedt. De compagnie speelt dan tussen de boeken, voor twintig mensen op klapstoeltjes. In de episode is een stukje van zo'n voorstelling te horen.\n\nNa die episode kreeg ik veel berichten van luisteraars. Iemand bood aan om de verwarming van de boekhandel gratis te laten nakijken. Een ander wilde de compagnie uitnodigen voor een feest in de wijk. De meeste berichten waren kort, en ze eindigden bijna allemaal met “groetjes”. Een oudere luisteraar schreef zelfs: “Veel groetjes aan de slager, ik kocht daar dertig jaar geleden al mijn worst.” Ik heb het bericht aan de slager voorgelezen. Hij moest er erg om lachen.\n\nWat heb ik in deze twee jaar geleerd? Dat je geen grote omroep nodig hebt om verhalen te vertellen. Een microfoon, een beetje tijd en nieuwsgierigheid zijn genoeg. En dat achter elke winkel een mens zit met een verhaal dat het vertellen waard is.\n\nVragen:\nHoe vaak maakt de schrijver een nieuwe episode?\nZe maakt elke maand een nieuwe episode.\nWat vertelt de slager in de eerste episode?\nHij vertelt hoe het vak is veranderd, en dat mensen weer willen weten waar hun vlees vandaan komt.\nWaarom smaakt de mais van de boer anders?\nHij plukt de mais pas op de ochtend van de markt.\nWat was er vorige winter mis in de boekhandel?\nDe verwarming was kapot.\nHoe eindigden de meeste berichten van de luisteraars?\nZe eindigden bijna allemaal met “groetjes”."
+    }
+  ]
+}
