@@ -1,0 +1,228 @@
+{
+  "id": "da-mini-5600",
+  "rankUpTo": 5600,
+  "level": "C1",
+  "title": "Journalistik og medier",
+  "description": "Stories, reports, an interview and a review from the world of Danish news media: local politics, investigative work, science, culture, sport, weather and economics.",
+  "topic": "Journalism and media",
+  "names": [
+    "Mette",
+    "Mettes",
+    "Holm",
+    "Vejle",
+    "Lone",
+    "Berg",
+    "Jonas",
+    "Krogh",
+    "København",
+    "Sara",
+    "Saras",
+    "Lind",
+    "Danmark",
+    "Ida",
+    "Idas",
+    "Bach",
+    "Jylland",
+    "Peter",
+    "Holt",
+    "Anders",
+    "Juul",
+    "Sjælland",
+    "Sjællands",
+    "Bornholm",
+    "Østersøen",
+    "Maja",
+    "Majas",
+    "Friis",
+    "Sofie",
+    "Shirin",
+    "Rahimi",
+    "Teheran",
+    "Aarhus",
+    "Iran",
+    "Kasper",
+    "Lund",
+    "Skagen",
+    "Ribe",
+    "Line",
+    "Dahl",
+    "Erik",
+    "Eriks",
+    "Bonde",
+    "Inger",
+    "Ingers",
+    "Hanne",
+    "Birk",
+    "EU"
+  ],
+  "lessons": [
+    {
+      "title": "Cykelløbet og byrådet",
+      "summary": "A local reporter requests access to documents after the council's staff cancel the town's bike race, and a councillor's proposal saves it.",
+      "newWords": [
+        "byrådsmedlem",
+        "udspil",
+        "paragraf",
+        "indgive",
+        "udløbe",
+        "spolere",
+        "annullere",
+        "cykelløb",
+        "begære",
+        "beføjelse"
+      ],
+      "text": "Mette Holm er journalist på lokalavisen i Vejle. Hun skriver mest om kommunen, og hun følger byrådets møder hver anden uge. I foråret fik hun en historie, som mange læsere fulgte med i. Den handlede om et cykelløb.\n\nHvert år i juni holder en cykelklub i byen et cykelløb gennem centrum. Løbet er populært: flere tusind mennesker står langs gaderne, og børnene får fri fra skole for at se med. Men i år fik klubben et brev fra kommunen. Tilladelsen var annulleret, stod der, fordi ruten ikke længere var sikker på grund af et vejarbejde. Klubben var chokeret. Formanden sagde til Mette, at beslutningen ville spolere et helt års arbejde.\n\nMette ville vide, hvem der havde besluttet at annullere tilladelsen, og hvorfor. Hun ringede til kommunen, men fik ikke noget klart svar. Derfor besluttede hun at begære aktindsigt. Det betyder, at en journalist eller en borger kan begære at se de papirer, som en myndighed har brugt, da den traf en beslutning. Der står i en paragraf i loven, at myndigheden som regel skal svare inden for syv arbejdsdage.\n\nImens tog et byrådsmedlem sagen op. Hun hedder Lone Berg, og hun har selv kørt løbet mange gange. »Det kan ikke være rigtigt, at en enkelt afdeling kan annullere et cykelløb, som hele byen glæder sig til,« sagde hun til avisen. Hun kom med et udspil: Klubben og kommunen skulle sammen finde en ny rute uden om vejarbejdet. Udspillet fik hurtigt støtte fra flere partier.\n\nEfter seks dage fik Mette papirerne. Det viste sig, at en afdeling i kommunen havde annulleret tilladelsen, uden at politikerne vidste noget om det. Spørgsmålet var nu, om afdelingen havde den beføjelse. Ifølge en paragraf i kommunens regler har afdelingen beføjelse til at give tilladelser, men det er byrådet, der skal beslutte, når en stor begivenhed bliver aflyst. Afdelingen var altså gået ud over sine beføjelser.\n\nCykelklubben besluttede at indgive en klage. Fristen for at indgive en klage udløber fire uger efter, at man har fået svaret, så klubben havde god tid. Men det blev ikke nødvendigt. Ved næste møde i byrådet blev byrådsmedlemmets udspil vedtaget, og klubben fik en ny tilladelse med den nye rute.\n\nMette skrev en lang artikel om sagen. Hun forklarede, hvordan aktindsigt fungerer, og hvorfor det er vigtigt, at journalister kan begære at se myndighedernes papirer. Mange læsere skrev til hende og takkede. I juni var vejret fint, og cykelløbet blev ikke spoleret. Byrådsmedlemmet kørte selv med.\n\nSpørgsmål:\nHvad handlede Mettes historie om?\nDen handlede om et cykelløb, som kommunen havde annulleret.\nHvorfor ville klubbens formand ikke acceptere beslutningen?\nHan sagde, at den ville spolere et helt års arbejde.\nHvad gjorde Mette, da hun ikke fik et klart svar fra kommunen?\nHun besluttede at begære aktindsigt, så hun kunne se kommunens papirer.\nHvad var byrådsmedlemmets udspil?\nKlubben og kommunen skulle sammen finde en ny rute uden om vejarbejdet.\nHvad viste papirerne?\nDe viste, at afdelingen var gået ud over sine beføjelser, fordi det var byrådet, der skulle beslutte.\nHvornår udløber fristen for at indgive en klage?\nDen udløber fire uger efter, at man har fået svaret."
+    },
+    {
+      "title": "Brevet fra en læser",
+      "summary": "An investigative journalist follows a reader's letter, gathers evidence of an investment fraud and helps the police stop it.",
+      "newWords": [
+        "opsparing",
+        "millionær",
+        "sive",
+        "værdiløs",
+        "snuse",
+        "bedrageri",
+        "hæderlig",
+        "bevismateriale",
+        "identifikation",
+        "indsende",
+        "afværge"
+      ],
+      "text": "Jonas Krogh arbejder på en stor avis i København. Han er en af tre journalister i avisens gruppe for undersøgende journalistik. Det betyder, at han ikke skriver korte nyheder hver dag. I stedet bruger han ofte flere måneder på én sag.\n\nMange af sagerne begynder med et brev. Avisens læsere kan indsende tips, og hver uge læser Jonas de breve og mails, som folk har indsendt. En mandag i marts fandt han et brev fra en mand på 78 år. Manden skrev, at han havde mistet hele sin opsparing. En venlig mand havde ringet til ham og sagt, at han var millionær og ville hjælpe almindelige mennesker med at tjene penge. Manden havde købt aktier i et firma for hele sin opsparing. Nu var aktierne værdiløse, og millionæren svarede ikke længere sin telefon.\n\nJonas begyndte at snuse rundt. Han fandt hurtigt flere personer, som havde fået det samme opkald. De fortalte alle, at manden virkede hæderlig. Han talte roligt, han kendte navne på kendte firmaer, og han sendte pæne papirer med posten. Mange havde betalt med deres opsparing, og alle havde fået aktier, der var værdiløse.\n\nDet er ikke nok at have en mistanke, når man vil skrive om bedrageri. Journalisten skal have bevismateriale. Jonas samlede kontrakter, mails og kontoudtog fra elleve personer. Han fandt også ud af, at firmaet ikke fandtes, og at millionæren brugte et falsk navn. Det sværeste var identifikationen af manden. Til sidst lykkedes det: to af ofrene genkendte ham på et billede, og hans identifikation blev bekræftet af et gammelt firmaregister.\n\nUnder arbejdet var Jonas meget forsigtig. Oplysningerne måtte ikke sive ud, før artiklen var klar. Hvis noget sivede ud, kunne manden nå at forsvinde, og så ville bevismaterialet måske aldrig blive brugt. Derfor talte Jonas kun med sin redaktør om sagen.\n\nFør artiklen blev trykt, ringede Jonas til manden og fortalte, hvad han havde fundet. Det er hæderlig journalistik: Den, man skriver om, skal have mulighed for at svare. Manden lagde på uden at sige noget.\n\nArtiklen kom i avisen en lørdag. Samme dag gav Jonas sit bevismateriale til politiet, som allerede havde fået flere anmeldelser om bedrageri. Ugen efter blev manden anholdt. Politiet sagde senere, at artiklen havde været med til at afværge, at endnu flere mistede deres penge. Mindst tyve personer havde fået et opkald i de dage, og de nåede at afværge tabet. Den gamle mand, der havde indsendt det første brev, fik ikke sin opsparing tilbage, men han var glad for, at andre blev advaret.\n\nSpørgsmål:\nHvordan begyndte sagen?\nDen begyndte med et brev, som en mand på 78 år havde indsendt til avisen.\nHvad havde manden mistet?\nHan havde mistet hele sin opsparing, fordi han havde købt aktier, der var værdiløse.\nHvad fandt Jonas, da han begyndte at snuse rundt?\nHan fandt flere personer, som havde fået det samme opkald, og som syntes, at manden virkede hæderlig.\nHvilket bevismateriale samlede Jonas?\nHan samlede kontrakter, mails og kontoudtog fra elleve personer.\nHvorfor måtte oplysningerne ikke sive ud?\nManden kunne nå at forsvinde, og så ville bevismaterialet måske aldrig blive brugt.\nHvad sagde politiet om artiklen?\nDe sagde, at den havde været med til at afværge, at endnu flere mistede deres penge."
+    },
+    {
+      "title": "En reaktor i en container",
+      "summary": "A science radio host visits engineers with a compact reactor, a critical researcher and an energy company, and gives each side time.",
+      "newWords": [
+        "kompakt",
+        "udtænke",
+        "bippe",
+        "opgradering",
+        "stabilisere",
+        "specifikation",
+        "impuls",
+        "reaktor",
+        "barriere"
+      ],
+      "text": "Sara Lind laver et ugentligt radioprogram om videnskab. Hendes opgave er at forklare svære emner, så almindelige lyttere kan følge med. I denne uge handler programmet om atomkraft, et emne, som mange danskere har stærke meninger om.\n\nSara besøger først et lille firma, hvor en gruppe ingeniører har udtænkt en ny type reaktor. Den er kompakt: Hele reaktoren kan stå i en container, og den skal bygges på en fabrik i stedet for der, hvor den skal bruges. Ingeniørerne har udtænkt den, så den kan levere varme og strøm til en mindre by. Sara får lov at se nogle af tegningerne, men ikke alle specifikationer. »Nogle specifikationer er hemmelige, indtil patentet er på plads,« forklarer en af ingeniørerne.\n\nI laboratoriet står der mange maskiner, og de bipper hele tiden. Sara spørger, hvad det betyder. Ingeniøren forklarer, at maskinerne bipper, når en måling er færdig. Sensorer sender små elektriske impulser til en computer, som registrerer temperatur og tryk. Hvis temperaturen stiger, skal systemet selv stabilisere den. »Det vigtigste i en reaktor er, at man kan stabilisere den hurtigt og sikkert,« siger han.\n\nBagefter taler Sara med en forsker, som er mere kritisk. Hun siger, at en kompakt reaktor stadig laver affald, som skal opbevares i mange tusind år. Hun mener også, at der er store barrierer, før sådan en reaktor kan bruges i Danmark. Den første barriere er politisk: Siden 1985 har det været besluttet, at Danmark ikke skal have atomkraft. Den anden barriere er økonomisk, for det koster mange penge at godkende en ny reaktor.\n\nTil sidst besøger Sara et energiselskab. Her fortæller en direktør, at elnettet har brug for en stor opgradering, fordi danskerne bruger mere strøm til biler og varmepumper. Han mener, at en opgradering af nettet er vigtigere end diskussionen om atomkraft. »Uanset hvor strømmen kommer fra, skal den kunne sendes rundt i landet,« siger han.\n\nNår Sara klipper programmet, prøver hun at give alle tre stemmer lige meget tid. Hun vil ikke fortælle lytterne, hvad de skal mene. Hun vil give dem en impuls til selv at tænke videre. I slutningen af programmet kan man høre maskinerne bippe i laboratoriet, og Sara siger: »Sådan lyder fremtiden måske. Det må I selv tænke over.«\n\nSpørgsmål:\nHvad handler Saras program om i denne uge?\nDet handler om atomkraft og en ny type reaktor.\nHvad har ingeniørerne udtænkt?\nDe har udtænkt en kompakt reaktor, som kan stå i en container og bygges på en fabrik.\nHvorfor bipper maskinerne i laboratoriet?\nDe bipper, når en måling er færdig.\nHvilke barrierer nævner forskeren?\nHun nævner en politisk barriere og en økonomisk barriere.\nHvorfor mener direktøren, at elnettet har brug for en opgradering?\nDanskerne bruger mere strøm til biler og varmepumper, og strømmen skal kunne sendes rundt i landet.\nHvad vil Sara give lytterne?\nHun vil give dem en impuls til selv at tænke videre."
+    },
+    {
+      "title": "Gangene under klostret",
+      "summary": "A TV reporter visits an excavation where archaeologists have found underground corridors and a stone with a falcon.",
+      "newWords": [
+        "inderside",
+        "labyrint",
+        "falk",
+        "underjordisk",
+        "korridor",
+        "berette",
+        "prædiken",
+        "monument",
+        "kristelig",
+        "udgravning",
+        "tilegne"
+      ],
+      "text": "Ida Bach er reporter på en regional tv-station i Jylland. En morgen i september kører hun og en fotograf ud til en lille by, hvor der ligger ruinerne af et gammelt kloster. Her er en gruppe arkæologer i gang med en udgravning, og de har fundet noget, som ingen havde ventet.\n\nLederen af udgravningen hedder Peter Holt. Han tager imod Ida ved et stort hul i jorden og begynder at berette om fundet. »For to uger siden fandt vi en trappe,« beretter han. »Den fører ned til en række underjordiske gange.« Ida og fotografen får hjelme på og går ned ad trappen. Under jorden er der koldt og fugtigt. Gangene er smalle, og de går i mange retninger. »Det er næsten en labyrint,« siger Ida. Peter nikker. »Ja, man kan let fare vild i den labyrint. Vi har tegnet et kort over hver eneste korridor.«\n\nPeter fortæller, at munkene brugte de underjordiske gange som lager. Her opbevarede de mad, vin og vigtige papirer. En korridor fører hen under kirken, og en anden korridor fører ud mod det gamle køkken. Det var sikkert praktisk om vinteren, når der lå sne.\n\nI en af gangene viser Peter dem en flad sten. På stenens forside er der ingenting, men da arkæologerne vendte den, så de noget på indersiden. På indersiden er der hugget en falk med spredte vinger. »Falken var et tegn på magt og frihed,« forklarer Peter. »Måske var stenen en gave fra en adelig familie, som gik på jagt med falke.«\n\nIda spørger, hvad fundet fortæller om livet i klostret. Peter svarer, at det kristelige liv var meget mere end bøn og prædiken. Munkene holdt hver søndag en prædiken for byens folk, men de drev også et stort landbrug og handlede med byerne omkring dem. Det kristelige og det praktiske hang tæt sammen.\n\nBagefter går Ida op på byens torv, hvor der står et monument. Monumentet er en høj sten, og på den står der, at den er tilegnet munkene, som byggede klostret. Det blev rejst for hundrede år siden. En ældre kvinde fortæller Ida, at hun har gået forbi monumentet hele sit liv uden at tænke over det. »Nu ved jeg, hvorfor det er tilegnet munkene,« siger hun. »De har bygget mere, end vi kunne se.«\n\nOm aftenen sender stationen Idas indslag. Det slutter med billeder af falken og af den lange korridor under kirken. Udgravningen fortsætter til næste sommer.\n\nSpørgsmål:\nHvad har arkæologerne fundet ved udgravningen?\nDe har fundet en trappe, der fører ned til en række underjordiske gange.\nHvorfor siger Ida, at gangene er en labyrint?\nGangene er smalle, og de går i mange retninger.\nHvad brugte munkene gangene til?\nDe brugte dem som lager for mad, vin og vigtige papirer.\nHvad er der hugget på stenens inderside?\nDer er hugget en falk med spredte vinger.\nHvad fortæller fundet om det kristelige liv i klostret?\nDet var mere end bøn og prædiken, for munkene drev også landbrug og handlede.\nHvem er monumentet på torvet tilegnet?\nDet er tilegnet munkene, som byggede klostret."
+    },
+    {
+      "title": "Vejrværten på isen",
+      "summary": "A TV weatherman reports on heavy rain, then skates on a frozen marsh, catches a cold and forecasts the thaw.",
+      "newWords": [
+        "skøjte",
+        "sløv",
+        "forkølet",
+        "østkyst",
+        "sump",
+        "nedbør",
+        "muffin",
+        "kakao",
+        "dryppe"
+      ],
+      "text": "Anders Juul er meteorolog og vejrvært på tv. Hver aften står han foran et stort kort over Danmark og fortæller, hvordan vejret bliver i morgen. Mange tror, at han bare læser op, men det meste af dagen bruger han på at studere data og skrive sin tekst.\n\nI begyndelsen af januar var der meget nedbør. Det regnede i flere dage, især på Sjællands østkyst og på Bornholm. Anders forklarede seerne, at nedbøren kom fra et lavtryk over Østersøen. »På østkysten kan der falde over 40 millimeter i løbet af et døgn,« sagde han. Folk lagde sandsække foran deres døre, og i nogle haver stod vandet højt.\n\nSå skiftede vejret. Et højtryk kom ind fra øst, og temperaturen faldt til minus ti grader om natten. Nu var der ingen nedbør, men en klar, kold luft. Søer, damme og sumpe frøs til. Redaktionen bad Anders om at lave et indslag uden for studiet, og han tog ud til en stor sump nord for byen. Normalt kan man ikke gå der, fordi jorden er blød og våd. Men nu var sumpen dækket af tyk is, og hundredvis af mennesker løb på skøjter.\n\nAnders fik lånt et par skøjter af en dreng. Han havde ikke stået på skøjter i tyve år, og han faldt to gange foran kameraet. Seerne syntes, det var sjovt, og han grinede selv. Ved kanten af isen solgte en spejdergruppe varm kakao og hjemmebagte muffins. Anders købte en kop kakao og en muffin med chokolade og fortalte i kameraet, at isen var tyk nok, men at man altid skal spørge kommunen, før man går ud på den.\n\nDagen efter var han forkølet. Han havde ondt i halsen, og han følte sig sløv og træt. Han havde lyst til at blive hjemme, men der var ingen andre, der kunne præsentere vejret den aften. Han drak te med honning, og en kollega bagte muffins til ham. »Jeg er lidt sløv i dag,« sagde han til seerne. »Så I må bære over med mig.« Han forklarede, at frosten ville slutte i weekenden.\n\nHan fik ret. Om søndagen steg temperaturen, og vandet begyndte at dryppe fra tagene. Isen på sumpen blev tynd, og kommunen satte skilte op. Det dryppede fra træerne, og om mandagen var der igen nedbør, denne gang som almindelig regn. Anders var ikke længere forkølet, og han glædede sig til næste vinter, hvor han ville øve sig på skøjter.\n\nSpørgsmål:\nHvor faldt der mest nedbør i begyndelsen af januar?\nDer faldt mest på Sjællands østkyst og på Bornholm.\nHvorfor kunne folk gå på sumpen?\nSumpen var dækket af tyk is, fordi temperaturen var faldet til minus ti grader.\nHvad skete der, da Anders lånte et par skøjter?\nHan faldt to gange foran kameraet, og han grinede selv.\nHvad købte Anders af spejdergruppen?\nHan købte en kop kakao og en muffin med chokolade.\nHvordan havde Anders det dagen efter?\nHan var forkølet, og han følte sig sløv og træt.\nHvad skete der, da temperaturen steg?\nVandet begyndte at dryppe fra tagene, og isen på sumpen blev tynd."
+    },
+    {
+      "title": "Når hovedet får et slag",
+      "summary": "A sports journalist writes about concussions in youth sport, talking to a young karate fighter, a coach, a doctor and a commentator.",
+      "newWords": [
+        "forebyggelse",
+        "belaste",
+        "legat",
+        "karate",
+        "hjernerystelse",
+        "kommentator",
+        "uduelig",
+        "ungdomsuddannelse",
+        "spilletid"
+      ],
+      "text": "Sportsjournalisten Maja Friis har i flere måneder arbejdet på en artikel om hjernerystelser i ungdomssporten. Idéen fik hun en søndag, hvor hun så en fodboldkamp i tv. En ung spiller faldt og slog hovedet, men han spillede videre. Bagefter sagde kommentatoren, at spilleren havde været uduelig i anden halvleg. Maja tænkte, at kommentatoren måske ikke vidste, hvad der var sket.\n\nDen første, Maja interviewer, er Sofie på 17 år. Sofie dyrker karate og er en af de bedste i landet i sin klasse. Hun træner seks gange om ugen og går samtidig på en ungdomsuddannelse. Det kan kun lade sig gøre, fordi hun har fået et legat fra en fond, der støtter unge talenter. Legatet betaler for hendes træning og rejser, så hun ikke behøver at have et arbejde ved siden af sin ungdomsuddannelse.\n\nSidste år fik Sofie en hjernerystelse til en konkurrence. Hun fik et spark mod hovedet og havde ondt i flere uger. »Det værste var, at jeg ikke kunne læse,« fortæller hun. »Lys og lyd belastede mig, og jeg kunne ikke tåle at se på en skærm.« Hun var væk fra karate i tre måneder. I dag bruger hun hjelm til træning, og hun mener, at klubberne skal gøre mere for forebyggelse.\n\nMaja taler også med en fodboldtræner for et hold med drenge på 15 og 16 år. Han fortæller, at mange unge spillere skjuler, at de har slået hovedet, fordi de er bange for at miste deres spilletid. »Spilletid er det vigtigste for dem,« siger han. »Hvis de bliver taget ud, tror de, at de aldrig kommer ind igen.« Derfor har klubben lavet en regel: En spiller, der har slået hovedet, skal altid forlade banen og tjekkes. Det koster måske spilletid i én kamp, men det beskytter spilleren.\n\nEn læge, som Maja interviewer, forklarer, at forebyggelse handler om tre ting: regler, udstyr og viden. Træningen må ikke belaste en spiller, der stadig har symptomer. »Hjernen skal have ro, før man begynder igen,« siger lægen.\n\nTil sidst ringer Maja til kommentatoren fra fodboldkampen. Han havde ikke set, at spilleren slog hovedet. »Jeg skulle ikke have kaldt ham uduelig,« siger han. »Han var tydeligvis ikke rask.« Kommentatoren lover at være mere forsigtig med sine ord i fremtiden. Majas artikel kommer i avisen om lørdagen, og den bliver delt af mange klubber.\n\nSpørgsmål:\nHvordan fik Maja idéen til artiklen?\nHun så en fodboldkamp, hvor en kommentator kaldte en spiller uduelig, selvom han havde slået hovedet.\nHvordan kan Sofie både dyrke karate og gå på en ungdomsuddannelse?\nHun har fået et legat fra en fond, der betaler for hendes træning og rejser.\nHvad skete der, da Sofie fik en hjernerystelse?\nHun havde ondt i flere uger, og lys og lyd belastede hende.\nHvorfor skjuler unge spillere, at de har slået hovedet?\nDe er bange for at miste deres spilletid.\nHvad handler forebyggelse om ifølge lægen?\nDen handler om regler, udstyr og viden.\nHvad siger kommentatoren, da Maja ringer til ham?\nHan siger, at han ikke skulle have kaldt spilleren uduelig."
+    },
+    {
+      "title": "At sige tingene ligeud",
+      "summary": "An interview with an Iranian journalist in Aarhus about censorship at home and freedom of speech in Denmark.",
+      "newWords": [
+        "ergo",
+        "befaling",
+        "uforskammet",
+        "iransk",
+        "tolerere",
+        "ligeud",
+        "fortolke",
+        "ytringsfrihed",
+        "foragt",
+        "araber",
+        "ironi"
+      ],
+      "text": "Shirin Rahimi er 46 år og iransk journalist. Hun arbejdede i mange år for en avis i Teheran, men i 2015 flyttede hun til Aarhus med sin mand og deres to børn. I dag skriver hun for et dansk netmedie og holder foredrag om ytringsfrihed. Vi har mødt hende til en samtale om hendes arbejde.\n\nHvordan var det at være journalist i Iran?\n\n»Det var et spændende arbejde, men også et svært arbejde. Vi fik ofte en befaling fra myndighederne om, hvad vi ikke måtte skrive om. En befaling kom sjældent på papir. Den kom som et opkald til redaktøren. Hvis man ikke fulgte befalingen, kunne avisen blive lukket.«\n\nHvordan skrev I så om de vanskelige emner?\n\n»Vi lærte at bruge ironi. Vi skrev ikke ligeud, at en minister havde gjort noget forkert. I stedet skrev vi med ironi, og læserne vidste, hvordan de skulle fortolke teksten. Læserne var meget dygtige til at fortolke. Men myndighederne kunne også fortolke, og nogle gange gik det galt. En af mine kolleger blev kaldt uforskammet af en minister og mistede sit arbejde.«\n\nHvad var det første, der overraskede dig i Danmark?\n\n»At man kan sige tingene ligeud. Her kan en journalist skrive, at statsministeren tager fejl, og ingen ringer til redaktøren bagefter. Det er ytringsfrihed i praksis. Jeg skrev engang en hård kritik af en dansk politiker, og jeg ventede på, at der ville ske noget. Der skete ingenting. Politikeren svarede bare i en artikel.«\n\nEr der noget ved den danske debat, der er svært for dig?\n\n»Ja. Ytringsfrihed betyder, at man også skal tolerere meninger, som man selv synes er forkerte, og som man måske føler foragt for. Jeg har modtaget mails fra folk, der skriver med tydelig foragt om indvandrere. Det er ubehageligt, men jeg skal tolerere det, så længe de ikke truer nogen. Jeg vil selv have frihed til at skrive, ergo må andre også have den. Man kan ikke tolerere kun de meninger, man kan lide.«\n\nHvad misforstår danskerne oftest om dig?\n\n»Mange tror, at alle fra Iran er arabere. Men iranere er ikke arabere, og vi taler persisk, ikke arabisk. Jeg forklarer det gerne. Danskerne er ikke uforskammede, når de spørger. De er bare nysgerrige, og det er godt.«\n\nHvad vil du sige til unge danske journalister?\n\n»At ytringsfrihed ikke er noget, man får én gang for alle. Den skal bruges, hvis den skal leve. Hvis journalister holder op med at stille kritiske spørgsmål, bliver friheden svagere. Ergo er det jeres opgave at bruge den hver dag.«\n\nSpørgsmål:\nHvorfor er Shirin interessant at tale med om ytringsfrihed?\nHun er iransk journalist og har arbejdet både i Iran og i Danmark.\nHvordan kom en befaling fra myndighederne i Iran?\nDen kom sjældent på papir, men som et opkald til redaktøren.\nHvorfor brugte journalisterne ironi?\nDe kunne ikke skrive ligeud, så de skrev med ironi, og læserne vidste, hvordan de skulle fortolke teksten.\nHvorfor skal Shirin tolerere mails, som hun ikke kan lide?\nYtringsfrihed betyder, at man også skal tolerere meninger, som man føler foragt for.\nHvad misforstår mange danskere om folk fra Iran?\nDe tror, at alle fra Iran er arabere, men iranere taler persisk, ikke arabisk."
+    },
+    {
+      "title": "Anmeldelse: En krimi i Skagen",
+      "summary": "A newspaper critic reviews a new Danish crime series about a stolen painting, praising its style and faulting its villain.",
+      "newWords": [
+        "rødhåret",
+        "galskab",
+        "harmoni",
+        "ækel",
+        "krimi",
+        "bas",
+        "reference",
+        "sofistikeret",
+        "metafor",
+        "vås"
+      ],
+      "text": "Hver fredag har avisens kultursektion en anmeldelse af en ny tv-serie. I denne uge skriver anmelderen Kasper Lund om en dansk krimi i otte afsnit. Her er hans anmeldelse.\n\nDanmark har lavet krimier til tv i mange år, og mange af dem er blevet set i hele verden. Derfor er forventningerne store, hver gang en ny krimi får premiere. Den nye serie lever op til de fleste af dem.\n\nHistorien foregår i Skagen om vinteren. Fra byens museum bliver der stjålet et berømt maleri, og politiet sender en ung efterforsker fra København. Hun er rødhåret, hun taler hurtigt, og hun har ingen tålmodighed med de lokale. Hendes røde hår lyser op i de grå billeder, og det er sikkert ikke tilfældigt: Den rødhårede efterforsker er den eneste farve i en kold verden.\n\nSerien er sofistikeret. Den forklarer ikke alt for seeren, men stoler på, at vi selv kan følge med. Havet og tågen bliver brugt som en metafor for det, som personerne ikke vil sige til hinanden. Det er en enkel metafor, men den virker, fordi den aldrig bliver for tydelig. Serien har også mange referencer til ældre danske krimier og til malerne, der boede i Skagen for over hundrede år siden. Man behøver ikke at forstå hver reference for at nyde serien, men de giver den en ekstra dybde.\n\nMusikken fortjener også ros. Den består mest af en dyb bas og nogle få stille toner på klaver. Når efterforskeren er alene, er der en smuk harmoni mellem billeder og musik. Når hun møder tyven, forsvinder den harmoni, og der er kun en dyb bas tilbage. Det er enkelt og meget effektivt.\n\nSerien har dog også svagheder. Tyven er en ækel person, der taler om kunst med en slags galskab. Han vil eje maleriet for enhver pris, og hans galskab er interessant i de første afsnit. Men i de sidste afsnit bliver han for ækel og for meget som en figur fra en tegneserie. Nogle af hans replikker er det rene vås, som ingen virkelig person ville sige. Det er synd, for resten af serien er så sofistikeret.\n\nAlt i alt er det en god krimi, som jeg vil anbefale. Den rødhårede efterforsker er en person, man gerne vil se mere til, og jeg håber, der kommer en sæson mere. Fem stjerner ud af seks.\n\nSpørgsmål:\nHvad handler den nye krimi om?\nDen handler om et berømt maleri, der bliver stjålet fra et museum i Skagen.\nHvordan ser efterforskeren ud?\nHun er rødhåret, og hendes røde hår lyser op i de grå billeder.\nHvad bruger serien havet og tågen som en metafor for?\nDe er en metafor for det, som personerne ikke vil sige til hinanden.\nHvordan lyder musikken i serien?\nDen består mest af en dyb bas og nogle få stille toner på klaver.\nHvad kritiserer anmelderen?\nTyven bliver for ækel i de sidste afsnit, og nogle af hans replikker er det rene vås.\nHvor mange stjerner giver Kasper serien?\nHan giver den fem stjerner ud af seks."
+    },
+    {
+      "title": "Præsten og roserne",
+      "summary": "A local paper profiles a retired priest who tends his late mother-in-law's rose garden in a narrow lane in Ribe.",
+      "newWords": [
+        "indtræde",
+        "allermest",
+        "svigermor",
+        "spædbarn",
+        "tilfælles",
+        "knop",
+        "kondolere",
+        "smøge",
+        "opsluge",
+        "embede"
+      ],
+      "text": "Lokalavisen i Ribe har en fast side hver lørdag, der hedder »Folk i byen«. Her skriver journalisten Line Dahl om almindelige mennesker med en historie. I denne uge har hun besøgt Erik Bonde, som er 84 år og tidligere præst.\n\nErik bor i et lille gult hus i en smøge tæt på domkirken. Smøgen er så smal, at to personer knap kan gå ved siden af hinanden, og der kommer ingen biler. Alligevel stopper mange turister i smøgen, for bag Eriks lave hegn ligger byens smukkeste have med roser.\n\nErik indtrådte i sit embede som præst i 1968, og han havde det samme embede i over 40 år. I den tid døbte han mere end tusind børn. »Det var det, jeg holdt allermest af ved mit arbejde,« fortæller han. »At holde et spædbarn i armene og se forældrenes ansigter.« Flere af de spædbørn, han døbte, har i dag selv børn og børnebørn, og nogle af dem kommer stadig forbi og hilser på ham.\n\nHaven var oprindeligt hans svigermors. Hun plantede de første roser i 1950, og da hun blev for gammel til at passe dem, overtog Erik og hans kone huset. Hans svigermor lærte ham alt, hvad hun vidste. »Min svigermor og jeg var ikke enige om meget,« siger han og smiler. »Men vi havde roserne tilfælles.« Det havde han også med sin kone, Inger. De to havde meget tilfælles, men haven var det, de delte allermest.\n\nInger døde for to år siden. Da Line siger, at hun kondolerer, nikker Erik roligt. »Tak. Mange har kondoleret, og det har varmet. Men haven hjælper mig mest.« Efter Ingers død blev han helt opslugt af arbejdet i haven. Han er der hver dag fra morgen til aften. »Når man er opslugt af noget, glemmer man at være ked af det,« siger han.\n\nNu er det maj, og på rosenbuskene sidder der hundredvis af små grønne knopper. Erik viser Line, hvordan man ser, om en knop er sund. »Den skal være fast og tør,« forklarer han. »Hvis knoppen er blød, er der noget galt.« Han er lidt bekymret for vejret. Hvis der indtræder frost igen om natten, kan knopperne tage skade. Men vejrudsigten lover varme dage.\n\nOm et par uger springer knopperne ud, og så åbner Erik sin have for alle, der går forbi i smøgen. Han sætter en stol ved lågen og fortæller om hver rose. Det har han gjort hvert år, og han har ikke tænkt sig at stoppe.\n\nSpørgsmål:\nHvor bor Erik?\nHan bor i et lille gult hus i en smøge tæt på domkirken.\nHvad holdt Erik allermest af ved sit embede?\nHan holdt allermest af at holde et spædbarn i armene og se forældrenes ansigter.\nHvem plantede de første roser i haven?\nDet gjorde hans svigermor i 1950.\nHvad havde Erik og hans svigermor tilfælles?\nDe havde roserne tilfælles.\nHvorfor er Erik blevet opslugt af haven?\nEfter hans kone døde, hjælper arbejdet i haven ham, så han glemmer at være ked af det.\nHvordan ser man, om en knop er sund?\nDen skal være fast og tør. Hvis knoppen er blød, er der noget galt."
+    },
+    {
+      "title": "Tallene bag en reform",
+      "summary": "A newly transferred economics reporter explains how the finance ministry's dynamic calculations of a tax reform rest on assumptions.",
+      "newWords": [
+        "forordning",
+        "dynamisk",
+        "finansministerium",
+        "foreligge",
+        "undertiden",
+        "antagelse",
+        "underordnet",
+        "forflytte"
+      ],
+      "text": "Hanne Birk er journalist på en stor avis. I otte år skrev hun om sport, men for et år siden blev hun forflyttet til avisens afdeling for økonomi. Hun havde selv bedt om at blive forflyttet, fordi hun ville lære noget nyt. Det første halve år var svært. Hun skulle lære et helt nyt sprog med ord som budget, prognose og beskæftigelse.\n\nEn tirsdag i oktober kommer regeringen med et udspil om lavere skat. Ifølge Finansministeriet vil reformen skabe 10.000 nye arbejdspladser. Hanne skal skrive om sagen til næste dags avis, og hun begynder med at spørge sig selv: Hvordan kan man vide det, før det er sket?\n\nSvaret ligger i Finansministeriets beregninger. Hanne ringer til en økonom, som forklarer det for hende. Som i de fleste lande har det danske finansministerium en model af hele økonomien, som det bruger, når det regner på en reform. En simpel beregning ser kun på, hvad reformen koster. En dynamisk beregning tager også med, at folk ændrer adfærd. Hvis skatten bliver lavere, vil nogle måske arbejde lidt mere. Den dynamiske effekt er altså de ekstra arbejdspladser, som reformen kan skabe, forudsat at folk faktisk reagerer, som modellen siger.\n\n»Det hele bygger på antagelser,« siger økonomen. »Den vigtigste antagelse er, hvor meget folk reagerer på en lavere skat. Hvis den antagelse er for optimistisk, bliver tallene for høje.« Hun fortæller, at forskerne undertiden er uenige om netop det. Undertiden er de antagelser, man vælger, vigtigere end selve modellen.\n\nHanne ringer også til Finansministeriet. En medarbejder forklarer, at ministeriets model er blevet brugt i mange år, og at den bliver kontrolleret af uafhængige økonomer. Der findes også en forordning fra EU, der kræver, at et uafhængigt organ kan vurdere de prognoser, som et lands budget bygger på. »Vores tal er ikke gætteri,« siger han. »Men alle tal om fremtiden er usikre.«\n\nOm eftermiddagen foreligger der også en kritik fra et af oppositionens partier. Partiet mener, at Finansministeriet ikke har set på, hvad reformen betyder for folk med lave indkomster. Hanne beslutter at nævne kritikken, men hun vil vente med at skrive mere om den, til der foreligger et konkret forslag fra partiet.\n\nDa hun skriver artiklen, tænker hun på sine læsere. For mange af dem er det underordnet, hvordan en model fungerer. De vil vide, om de får flere penge, og om der kommer flere job. Men hun synes ikke, at forklaringen er underordnet. Derfor skriver hun en kort boks ved siden af artiklen, hvor hun forklarer, hvad en dynamisk beregning er, og hvilken antagelse den bygger på.\n\nNæste morgen får hun en mail fra sin gamle chef på sportsredaktionen. »Godt skrevet,« står der. »Jeg forstod det hele.« Hanne smiler. Hun er glad for, at hun blev forflyttet.\n\nSpørgsmål:\nHvorfor blev Hanne forflyttet til avisens afdeling for økonomi?\nHun havde selv bedt om det, fordi hun ville lære noget nyt.\nHvad er forskellen på en simpel og en dynamisk beregning?\nEn simpel beregning ser kun på, hvad reformen koster. En dynamisk beregning tager også med, at folk ændrer adfærd.\nHvad er den vigtigste antagelse ifølge økonomen?\nDet er, hvor meget folk reagerer på en lavere skat.\nHvad kræver forordningen fra EU?\nDen kræver, at et uafhængigt organ kan vurdere de prognoser, som et lands budget bygger på.\nHvorfor venter Hanne med at skrive mere om partiets kritik?\nHun vil vente, til der foreligger et konkret forslag fra partiet.\nHvorfor skriver Hanne en boks ved siden af artiklen?\nHun synes ikke, at forklaringen er underordnet, og hun vil forklare, hvad en dynamisk beregning er."
+    }
+  ]
+}

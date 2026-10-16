@@ -1,0 +1,234 @@
+{
+  "id": "da-mini-5100",
+  "rankUpTo": 5100,
+  "level": "C1",
+  "title": "Historie",
+  "description": "Ten standalone texts from Danish history: emigrants' letters, farm life, Vikings, cholera, football in 1992, old cinemas, a chapel, the 1933 reform, bikes and cars, and a duel that never happened.",
+  "topic": "History",
+  "names": [
+    "Amerika",
+    "Nakskov",
+    "Niels",
+    "Hansen",
+    "Lolland",
+    "England",
+    "New York",
+    "Nebraska",
+    "Danmark",
+    "Europa",
+    "Mette",
+    "Holm",
+    "Frilandsmuseet",
+    "København",
+    "Vikingeskibsmuseet",
+    "Roskilde",
+    "Vesteuropa",
+    "Rusland",
+    "Grønland",
+    "Konstantinopel",
+    "Norden",
+    "Nørrebro",
+    "Vesterbro",
+    "Østerbro",
+    "EM",
+    "Jens",
+    "Kristensen",
+    "Aarhus",
+    "Jugoslavien",
+    "Richard Møller Nielsen",
+    "Michael Laudrup",
+    "Brian Laudrup",
+    "Laudrup",
+    "Peter Schmeichel",
+    "Schmeichel",
+    "Sverige",
+    "Frankrig",
+    "Holland",
+    "Tyskland",
+    "Göteborg",
+    "John Jensen",
+    "Kim Vilfort",
+    "Odense",
+    "Petersen",
+    "King Kong",
+    "Arne",
+    "Kildeby",
+    "Rom",
+    "Thorvald",
+    "Staunings",
+    "Kanslergade",
+    "Anden Verdenskrig",
+    "Carl",
+    "Berg"
+  ],
+  "lessons": [
+    {
+      "title": "Udvandrerne, der drog vestpå",
+      "summary": "Letters from a young man from Lolland who emigrated to a farm in Nebraska in 1882 show how loyalty to the old country faded over generations.",
+      "newWords": [
+        "vestpå",
+        "fædreland",
+        "nuvel",
+        "lokalavis",
+        "hænde",
+        "flytning",
+        "farm",
+        "fraværende",
+        "troskab",
+        "varig"
+      ],
+      "text": "Mellem 1850 og 1930 forlod omkring 300.000 danskere deres fædreland. De fleste drog vestpå, over havet til Amerika, hvor der var jord at få for den, der ville arbejde hårdt. For en historiker er den store rejse vestpå et godt eksempel på, hvordan en stor bevægelse består af mange små beslutninger, som blev truffet ved almindelige køkkenborde.\n\nNogle af de bedste kilder til denne historie er breve. I et arkiv i Nakskov ligger en kasse med breve fra Niels Hansen, en ung mand fra Lolland, som rejste vestpå i 1882. Hans første brev blev trykt i lokalavisen, og det er ikke svært at forstå hvorfor. »Nuvel,« begynder han, »nu er jeg kommet frem, og jeg kan fortælle jer, at alt, hvad der er hændt mig på rejsen, er gået godt.«\n\nFlytningen var lang og dyr. Først gik turen med skib til England, derefter over havet til New York og videre med tog til Nebraska. Dér arbejdede Niels i tre år på en andens farm, indtil han havde sparet penge nok til at købe sin egen. I brevene beskriver han sin farm med stolthed: tyve køer, en stor mark og et hus, han selv har bygget.\n\nMen brevene viser også det, som lokalavisen ikke trykte. Niels skriver om, at han er ensom, og om sin far, der nu er fraværende i hans liv, og som han ved, at han aldrig vil se igen. »Nuvel,« skriver han et andet sted, »sådan er det, når man selv har valgt at rejse.« Hans mor var ikke fraværende på samme måde. Hun skrev til ham hver måned i over tyve år og sendte ham lokalavisen fra Lolland.\n\nEt spørgsmål, som historikere ofte stiller, er, om udvandrernes troskab mod det gamle land var varig. For Niels var den. Han talte dansk derhjemme, han læste hver eneste lokalavis, moren sendte, og han fulgte med i alt, hvad der hændte i Danmark. Samtidig følte han troskab mod sit nye land, som havde givet ham en farm og en fremtid. Hans børn derimod talte engelsk, og for dem var Danmark et fædreland, de kun kendte fra fortællinger.\n\nDet er måske den mest varige følge af flytningen over havet: at troskaben langsomt flytter sig fra den ene generation til den næste. Det, der hændte i Niels' familie, hændte i tusinder af andre familier.\n\nSpørgsmål:\nHvor mange danskere forlod deres fædreland mellem 1850 og 1930?\nOmkring 300.000 danskere forlod Danmark, og de fleste drog vestpå til Amerika.\nHvorfor blev Niels' første brev trykt i lokalavisen?\nDet fortalte, at alt, hvad der var hændt ham på rejsen, var gået godt, og det var spændende for folk derhjemme at læse.\nHvordan foregik flytningen fra Lolland til Nebraska?\nHan rejste med skib til England, over havet til New York og videre med tog til Nebraska.\nHvordan fik Niels sin egen farm?\nHan arbejdede i tre år på en andens farm, indtil han havde sparet penge nok.\nVar Niels' troskab mod Danmark varig?\nJa. Han talte dansk derhjemme og læste lokalavisen, men han følte også troskab mod sit nye land.\nHvad var Danmark for Niels' børn?\nFor dem var Danmark et fædreland, som de kun kendte fra fortællinger."
+    },
+    {
+      "title": "En vinterdag på gården",
+      "summary": "A museum guide explains how a farm family lived on a winter day around 1850.",
+      "newWords": [
+        "høne",
+        "høns",
+        "due",
+        "dyne",
+        "hue",
+        "rengøring",
+        "hoveddør",
+        "stank",
+        "pibe",
+        "fridag",
+        "dovne"
+      ],
+      "text": "Mette Holm har i femten år vist skoleklasser rundt på Frilandsmuseet nord for København. Her står gamle huse fra hele landet, og hver vinter fortæller hun, hvordan en almindelig dag på en gård så ud omkring 1850. Vi har talt med hende om arbejdet.\n\n»Børnene tror, at livet på landet var roligt,« siger hun. »Men dagen begyndte klokken fem, og den sluttede først, når det var mørkt. Konen stod op først. Hun tændte ilden, og så gik hun ud til hønsene. Hver høne havde sin plads, og hun kendte dem alle. Høns var vigtige, fordi de gav æg hele året, og fordi man kunne sælge æggene på markedet.«\n\nPå taget af laden havde mange gårde også et lille hus til duer. »En due var god mad,« forklarer Mette Holm. »Men duerne var også en slags pynt. Folk var stolte af deres duer, ligesom vi i dag er stolte af en flot bil.«\n\nMette Holm viser børnene en seng i et af husene. Den er kort og smal, og ovenpå ligger en tyk dyne. »Dynen var fyldt med fjer fra gårdens høns og ænder,« siger hun. »En god dyne var dyr, og den gik i arv fra mor til datter. Om vinteren var det så koldt i huset, at man sov med hue på. Både børn og voksne havde en hue af uld, også inde.«\n\nRengøring var en helt anden sag end i dag. Gulvet var af ler, og hver lørdag blev det strøet med hvidt sand. »Rengøringen var hård, men den var nødvendig,« siger hun. »Lige uden for hoveddøren lå gødningen fra køerne, og om sommeren var stanken stærk. Den stank, som børnene i dag ville finde forfærdelig, lagde folk dengang knap mærke til.« Hoveddøren blev kun brugt, når der kom gæster eller præsten. Til daglig gik familien ind ad bagdøren.\n\nOm aftenen sad manden ved bordet og røg pibe. »Piben var hans eneste luksus,« siger Mette Holm. »Han fyldte piben med billig tobak og sad stille en halv time, før han gik i seng.«\n\nHvad med fritid? »En fridag i vores forstand fandtes ikke,« svarer hun. »Om søndagen gik man i kirke, og ved de store højtider holdt man fri. Ellers var der ingen fridage. Ingen kunne tillade sig at dovne den. En karl, der dovner, får ingen løn, sagde man.«\n\nNår børnene går hjem, spørger Mette Holm dem altid, om de kunne have levet sådan. »De fleste siger nej,« siger hun og smiler. »Men de husker dynen, duerne og stanken. Og så har de lært noget.«\n\nSpørgsmål:\nHvornår begyndte en almindelig dag på gården omkring 1850?\nDagen begyndte klokken fem, og konen stod op først.\nHvorfor var høns vigtige?\nDe gav æg hele året, og man kunne sælge æggene på markedet.\nHvad var dynen fyldt med?\nDen var fyldt med fjer fra gårdens høns og ænder.\nHvorfor sov man med hue på om vinteren?\nDet var så koldt i huset, at både børn og voksne sov med hue.\nHvornår blev hoveddøren brugt?\nDen blev kun brugt, når der kom gæster eller præsten.\nHavde folk fridage dengang?\nNej, kun om søndagen og ved de store højtider holdt de fri. Ingen kunne tillade sig at dovne den."
+    },
+    {
+      "title": "På udflugt til vikingerne",
+      "summary": "A teacher describes a class trip to the Viking Ship Museum and the myths it corrected.",
+      "newWords": [
+        "udflugt",
+        "hærge",
+        "forveksle",
+        "varieret",
+        "omverden",
+        "kompas",
+        "terning",
+        "ørering",
+        "svans"
+      ],
+      "text": "I sidste uge tog jeg min 6. klasse med på udflugt til Vikingeskibsmuseet i Roskilde. Det er en udflugt, jeg har lavet mange gange, men hver gang lærer jeg selv noget nyt. Denne gang lærte jeg mest af mine elevers spørgsmål.\n\nI bussen spurgte jeg klassen, hvad de vidste om vikingerne. Svarene kom hurtigt: vikingerne var store, vilde mænd med horn på hjelmen, og de hærgede andre lande. Det sidste er ikke forkert. I år 793 hærgede vikinger et kloster på en ø ud for England, og i de næste to hundrede år hærgede de kyster i det meste af Vesteuropa. Men hornene er en myte. Ingen har fundet en hjelm med horn fra vikingetiden. Billedet stammer fra 1800-tallet, og det er let at forveksle det med virkeligheden, fordi vi har set det så tit.\n\nPå museet fik eleverne en anden og mere varieret historie at høre. Guiden fortalte, at de fleste vikinger var bønder, som passede deres dyr og marker. Deres liv var mere varieret, end man tror: de var også håndværkere, købmænd og fiskere. Vikingerne havde nemlig tæt kontakt med omverdenen. De sejlede til Rusland, til Grønland og helt til Konstantinopel, og fra omverdenen kom der sølv, silke og nye idéer tilbage til Norden.\n\nHvordan fandt de vej over havet? Vikingerne havde ikke noget kompas, sådan som vi kender det. Et kompas med en nål, der peger mod nord, kom først til Europa senere. I stedet brugte de solen, stjernerne, fuglene og bølgerne. Nogle forskere mener, at de havde en slags kompas af træ, som brugte solens skygge, men det er der ikke fuld enighed om.\n\nDet, eleverne kunne lide mest, var de små ting fra gravene. Bag en glasrude lå en håndfuld terninger af ben. De lignede vores terninger næsten helt, og eleverne var meget overraskede over, at vikingerne spillede med terninger ligesom de selv. Ved siden af lå en ørering af sølv. Guiden forklarede, at det sjældent er muligt at vide, om en ørering har tilhørt en mand eller en kvinde.\n\nTil sidst så vi skibene. Guiden fortalte, at nogle vikingeskibe havde et dyrehoved forrest og en hale bagerst, så skibet lignede en drage med en lang svans. En elev spurgte, om dragens svans var der for at skræmme fjenderne. »Måske,« svarede guiden, »men måske var den bare smuk.«\n\nI bussen hjem talte vi om, hvordan man let kan forveksle myter og fakta. Jeg tror, at eleverne kom hjem med et mere varieret billede af vikingerne, end de havde om morgenen. Og det er netop formålet med en god udflugt.\n\nSpørgsmål:\nHvor tog klassen hen på udflugt?\nDe tog på udflugt til Vikingeskibsmuseet i Roskilde.\nHvad skete der i år 793?\nVikinger hærgede et kloster på en ø ud for England.\nHvorfor tror mange, at vikingerne havde horn på hjelmen?\nBilledet stammer fra 1800-tallet, og vi har set det så tit, at det er let at forveksle det med virkeligheden.\nHvordan var vikingernes liv, ifølge guiden?\nDet var mere varieret, end man tror. De fleste var bønder, men de var også håndværkere, købmænd og fiskere, og de havde tæt kontakt med omverdenen.\nHvordan fandt vikingerne vej uden kompas?\nDe brugte solen, stjernerne, fuglene og bølgerne.\nHvad lå der bag glasruden?\nDer lå en håndfuld terninger af ben, og ved siden af lå en ørering af sølv."
+    },
+    {
+      "title": "Byen, der lærte af koleraen",
+      "summary": "An account of the cholera epidemic of 1853 in Copenhagen and how the city changed afterwards.",
+      "newWords": [
+        "tidsrum",
+        "spredning",
+        "skraldespand",
+        "bassin",
+        "sekundær",
+        "fremgangsmåde",
+        "registrering",
+        "efterspørge",
+        "recept",
+        "forstad"
+      ],
+      "text": "Sommeren 1853 ramte en epidemi af kolera København. I tidsrummet fra juni til oktober døde næsten 5.000 mennesker, omkring hver 30. indbygger i byen. I dag ved vi, at sygdommen spredes med vand, der er forurenet. Dengang vidste man det ikke, og det er netop derfor, at historien om 1853 er så interessant. Den viser, hvordan en by lærer af en katastrofe, trin for trin.\n\nDet første trin var at forstå spredningen. København lå dengang inden for voldene, og over 130.000 mennesker boede tæt sammen i smalle gader. Der fandtes ingen skraldespand i gårdene. Affald og spildevand blev smidt i rendestenen, og drikkevandet kom fra søerne uden for byen gennem rør af træ. Vandet stod i store bassiner, før det blev ført ind til byens brønde. Når det regnede, løb snavset fra gaderne direkte ned i vandet.\n\nLægerne var uenige om årsagen. Nogle mente, at sygdommen kom fra den dårlige luft, og at vandet kun havde en sekundær betydning. Andre mente, at der var noget i vandet, som smittede. Det, der til sidst gjorde forskellen, var en ny fremgangsmåde: registrering. Lægerne begyndte at skrive hvert tilfælde ned med navn, adresse og dato. Ved hjælp af denne registrering kunne man se, at spredningen fulgte bestemte gader og bestemte brønde. Fremgangsmåden var enkel, men den var ny.\n\nImens var der stor uro i byen. Folk efterspurgte alt, hvad der kunne hjælpe. På apotekerne var visse dråber og pulvere så efterspurgte, at de blev udsolgt. Lægerne skrev mange recepter, men en recept på medicin kunne ikke redde nogen, så længe ingen vidste, hvad der var galt. En recept var mest en trøst.\n\nDet andet trin kom efter epidemien. Byen indså, at for mange mennesker boede for tæt. Lægerne byggede selv nye, lyse boliger for arbejdere uden for voldene, og i de følgende år voksede de nye forstæder frem: Nørrebro, Vesterbro og Østerbro. En forstad var ikke længere et sted for de få, men et sted, hvor almindelige familier kunne få luft og lys.\n\nDet tredje trin tog længere tid. Byen fik et nyt vandværk, kloakker og en fast ordning for affald. Mange år senere fik hver gård sin skraldespand, og det lyder måske ikke af meget. Men en skraldespand og et rent bassin har reddet flere liv end mange recepter.\n\nNår man ser tilbage, er det mest bemærkelsesværdige ikke, hvor mange der døde, men hvor hurtigt byen ændrede sig. På et kort tidsrum blev en tæt, beskidt by til en by med forstæder, rent vand og en ny måde at tænke sundhed på.\n\nSpørgsmål:\nHvor mange mennesker døde i København i 1853?\nI tidsrummet fra juni til oktober døde næsten 5.000 mennesker.\nHvor kom byens drikkevand fra?\nDet kom fra søerne uden for byen og stod i store bassiner, før det blev ført ind til brøndene.\nHvad var lægerne uenige om?\nNogle mente, at sygdommen kom fra luften, og at vandet havde en sekundær betydning. Andre mente, at der var noget i vandet.\nHvilken ny fremgangsmåde hjalp lægerne?\nDe brugte registrering. De skrev hvert tilfælde ned med navn, adresse og dato.\nHvorfor kunne en recept ikke redde nogen?\nFordi ingen vidste, hvad der var galt. En recept var mest en trøst.\nHvad skete der med byen efter epidemien?\nDer voksede nye forstæder frem, og byen fik vandværk, kloakker og senere en skraldespand i hver gård."
+    },
+    {
+      "title": "Sommeren 1992",
+      "summary": "A fan who watched in a pub in Aarhus recalls Denmark's surprise win at the 1992 European Championship.",
+      "newWords": [
+        "slutspil",
+        "frist",
+        "cheftræner",
+        "afbud",
+        "pub",
+        "frites",
+        "aflevering",
+        "anspændt",
+        "storartet",
+        "førsteplads",
+        "barnlig"
+      ],
+      "text": "Sommeren 1992 er en af de få sportsbegivenheder, som næsten alle danske over en vis alder husker. Danmark vandt EM i fodbold, selv om holdet slet ikke skulle have været med. Vi har talt med Jens Kristensen, der var 16 år dengang og så kampene på en pub i Aarhus.\n\nHvordan kom Danmark med i slutspillet?\n\n»Danmark var blevet nummer to i sin gruppe efter Jugoslavien, så vi var ikke med. Men på grund af krigen i Jugoslavien blev landet udelukket, og kun omkring ti dage før slutspillet fik Danmark pladsen. Det var en meget kort frist. Spillerne var på ferie, og landsholdets cheftræner, Richard Møller Nielsen, havde ingen tid til at forberede noget. Med så kort en frist var der ingen, der regnede med noget.«\n\nVar alle de bedste spillere med?\n\n»Nej. Michael Laudrup, vores største stjerne, havde allerede givet afbud til landsholdet, fordi han var uenig med sin cheftræner. Hans afbud var en stor skuffelse. Men hans bror, Brian Laudrup, var med, og Peter Schmeichel stod i målet.«\n\nHvordan var stemningen på pubben?\n\n»I starten var den rolig. Den første kamp mod England endte 0–0, og så tabte vi til Sverige. Men da vi slog Frankrig, blev pubben fyldt hver aften. Vi sad tæt, vi spiste pommes frites og drak sodavand, og vi råbte, hver gang der kom en god aflevering. Jeg husker en aflevering fra Brian Laudrup, som fik hele pubben til at rejse sig.«\n\nSemifinalen mod Holland blev afgjort på straffespark. Hvordan føltes det?\n\n»Det var den mest anspændte aften i mit liv. Ingen sagde noget. Min far sad ved siden af mig, og han var så anspændt, at han ikke rørte sine pommes frites. Da Schmeichel reddede et straffespark, og vi til sidst vandt, var det, som om hele byen sukkede af lettelse.«\n\nOg så finalen mod Tyskland i Göteborg?\n\n»Tyskland var verdensmester, så vi forventede ikke at vinde. Men John Jensen scorede først, og Kim Vilfort scorede til 2–0. Det var en storartet kamp, og holdet spillede storartet fodbold. Da dommeren fløjtede af, og førstepladsen var vores, løb folk ud på gaderne og dansede.«\n\nHvad betyder sommeren 1992 for dig i dag?\n\n»Jeg er voksen nu, men når jeg tænker på det, føler jeg en næsten barnlig glæde. Det var en barnlig, ren lykke, som man sjældent oplever som voksen. Førstepladsen var en overraskelse for alle, og måske er det derfor, vi husker den så godt.«\n\nSpørgsmål:\nHvorfor kom Danmark med i slutspillet?\nJugoslavien blev udelukket på grund af krigen, og Danmark fik pladsen omkring ti dage før slutspillet.\nHvorfor var fristen et problem?\nSpillerne var på ferie, og holdets cheftræner havde ingen tid til at forberede holdet.\nHvem havde givet afbud til landsholdet?\nMichael Laudrup havde givet afbud, fordi han var uenig med holdets cheftræner.\nHvad spiste Jens og hans far på pubben?\nDe spiste pommes frites og drak sodavand.\nHvordan var stemningen under semifinalen?\nDet var en meget anspændt aften. Jens' far var så anspændt, at han ikke rørte sine pommes frites.\nHvad føler Jens i dag, når han tænker på sommeren 1992?\nHan føler en næsten barnlig glæde over førstepladsen."
+    },
+    {
+      "title": "Søndag i biografen",
+      "summary": "A man remembers Sunday children's films in an Odense cinema around 1965 and how projection worked.",
+      "newWords": [
+        "popcorn",
+        "spole",
+        "linse",
+        "gorilla",
+        "skræk",
+        "ondskabsfuld",
+        "plat",
+        "skildpadde",
+        "astronaut",
+        "overnaturlig"
+      ],
+      "text": "Da jeg var dreng, omkring 1965, viste biografen i Odense film for børn hver søndag klokken 13. For en krone fik man en film og en lille pose popcorn. Når jeg i dag sidder i en moderne biograf med en enorm spand popcorn, tænker jeg ofte på, hvor meget biografen har forandret sig, og hvor lidt min glæde ved den har.\n\nDengang kom filmene i store, flade dåser. Hver film bestod af flere spoler, og en spole kunne vare omkring tyve minutter. Oppe i det lille rum bag salen stod Arne Petersen og passede to store maskiner, der viste filmen. Når den ene spole var ved at være færdig, startede han den næste i den anden maskine, så publikum ikke opdagede skiftet. Lyset fra en stærk lampe gik gennem filmen og en linse, som kastede billedet op på lærredet. Hvis linsen var snavset, blev billedet sløret, og så råbte vi alle sammen, indtil Arne Petersen havde gjort linsen ren. Efter forestillingen skulle han spole hver eneste film tilbage, før den blev sendt videre til næste by.\n\nDen film, jeg husker bedst, var King Kong, en gammel amerikansk film fra 1933 om en kæmpestor gorilla. Gorillaen bliver fanget på en ø og bragt til New York, hvor den klatrer op ad et af byens højeste huse. Jeg sad stiv af skræk. Men jeg husker også, at jeg til sidst havde ondt af gorillaen. Den var ikke ondskabsfuld. Den var bare et dyr, der var langt hjemmefra.\n\nAndre film var mere platte. Der var en japansk film om en enorm skildpadde, der kunne flyve. Skildpadden var tydeligvis lavet af pap, og de voksne syntes, at filmen var plat. Vi børn var ligeglade. For os var den flyvende skildpadde lige så rigtig som enhver anden helt.\n\nVi så også film om astronauter, der rejste til fjerne planeter. Det var i de år, hvor de første rigtige astronauter kom ud i rummet, så de film føltes næsten som nyheder. Ofte mødte astronauterne et overnaturligt væsen eller en ondskabsfuld videnskabsmand, der ville styre verden. Det overnaturlige og det moderne gik hånd i hånd, og ingen af os så noget mærkeligt i det.\n\nHvad har så ændret sig? Filmene er bedre lavet, og billedet kommer fra en computer i stedet for en spole. Men skrækken, glæden og lugten af popcorn er den samme. Mit barnebarn på otte år sad forleden lige så stiv af skræk som jeg selv for næsten 60 år siden.\n\nSpørgsmål:\nHvad fik man for en krone i biografen om søndagen?\nMan fik en film og en lille pose popcorn.\nHvordan fungerede det med spolerne?\nHver film bestod af flere spoler. Når den ene spole var ved at være færdig, startede Arne Petersen den næste i den anden maskine.\nHvad skete der, hvis linsen var snavset?\nSå blev billedet sløret, og børnene råbte, indtil Arne Petersen havde gjort linsen ren.\nHvorfor havde fortælleren ondt af gorillaen i King Kong?\nGorillaen var ikke ondskabsfuld. Den var bare et dyr, der var langt hjemmefra.\nHvad syntes de voksne om filmen med skildpadden?\nDe syntes, at den var plat, fordi skildpadden tydeligvis var lavet af pap.\nHvad mødte astronauterne ofte i filmene?\nDe mødte et overnaturligt væsen eller en ondskabsfuld videnskabsmand."
+    },
+    {
+      "title": "Gåturen til kapellet",
+      "summary": "A review of a guided walk to an old pilgrim chapel by a spring and the story of how it survived.",
+      "newWords": [
+        "gåtur",
+        "kapel",
+        "åbenbaring",
+        "kardinal",
+        "katalog",
+        "undtage",
+        "sprække",
+        "frede",
+        "donation"
+      ],
+      "text": "Hver søndag i sommerhalvåret arrangerer den lokale historiske forening en gåtur fra kirken i Kildeby til det lille kapel ved skovens kant. Gåturen tager en time, og undervejs fortæller en frivillig om kapellets lange historie. Jeg gik med i sidste uge, og det var en usædvanlig god oplevelse.\n\nHistorien begynder omkring 1450. Ifølge en gammel beretning fik en ung pige, som passede får ved en kilde i skoven, en åbenbaring. Hun så en kvinde i hvidt, som sagde, at vandet i kilden kunne gøre syge raske. Pigens åbenbaring blev hurtigt kendt i hele egnen, og snart kom der folk langvejs fra for at drikke af vandet. Omkring 1480 blev der bygget et kapel ved kilden, så de rejsende havde et sted at bede.\n\nI de år var Danmark katolsk, og kirken i Rom havde stor magt. I 1503 rejste en kardinal, sendt af paven, rundt i Norden. Ifølge kataloget fra kapellets lille udstilling skal kardinalen have besøgt kapellet og velsignet kilden. Det er ikke sikkert, at det er sandt, men historien om kardinalen fortælles stadig på hver gåtur.\n\nEfter reformationen i 1536 blev det forbudt at rejse til hellige kilder, og mange kapeller blev revet ned. Dette kapel blev undtaget, måske fordi det lå så langt fra byen, at ingen tænkte på det. Men det blev ikke vedligeholdt. I flere hundrede år stod det tomt, og der kom dybe sprækker i murene. Vand trængte ind gennem sprækkerne, og taget faldt til sidst sammen.\n\nI 1920 blev kapellet fredet. At en bygning er fredet, betyder, at den ikke må rives ned eller ændres uden tilladelse. Men en fredet bygning bliver ikke repareret af sig selv. Det skete først for ti år siden, da en stor donation fra en fond gjorde det muligt at lægge nyt tag og reparere sprækkerne. Mange beboere i Kildeby gav også en lille donation. Kun alteret blev undtaget fra arbejdet, fordi man ville bevare det, som det var.\n\nI dag står kapellet hvidt og rent ved skovens kant, og kilden løber stadig. Udstillingen er lille, men det trykte katalog er grundigt og smukt, og det kan købes for 50 kroner. For dem, der vil forstå, hvordan en lokal tro, en kardinal fra Rom og en moderne fond hænger sammen, er gåturen til kapellet stærkt at anbefale.\n\nSpørgsmål:\nHvor går gåturen hen?\nDen går fra kirken i Kildeby til det lille kapel ved skovens kant.\nHvad så pigen i sin åbenbaring?\nHun så en kvinde i hvidt, som sagde, at vandet i kilden kunne gøre syge raske.\nHvad fortæller kataloget om kardinalen?\nIfølge kataloget skal kardinalen have besøgt kapellet i 1503 og velsignet kilden.\nHvorfor blev kapellet ikke revet ned efter reformationen?\nDet blev undtaget, måske fordi det lå så langt fra byen, at ingen tænkte på det.\nHvad betyder det, at en bygning er fredet?\nDet betyder, at den ikke må rives ned eller ændres uden tilladelse.\nHvordan blev kapellet repareret?\nEn stor donation fra en fond gjorde det muligt at lægge nyt tag og reparere sprækkerne."
+    },
+    {
+      "title": "Ret eller nåde?",
+      "summary": "An essay on the Danish social reform of 1933 and two ways historians judge it.",
+      "newWords": [
+        "dagpenge",
+        "sammenbrud",
+        "alkoholiker",
+        "ideal",
+        "kompensere",
+        "human",
+        "ordinær",
+        "revidere",
+        "tilføjelse"
+      ],
+      "text": "Når danskere i dag taler om velfærd, tænker de fleste på hospitaler, pension og dagpenge som noget selvfølgeligt. Men tanken om, at hjælp fra staten er en ret og ikke en nåde, er ikke ret gammel. Den tog for alvor form i 1933, midt i en dyb økonomisk krise. Denne tekst ser på, hvordan det skete, og på to måder at forstå det på.\n\nKrisen begyndte med et sammenbrud på børsen i New York i 1929. Sammenbruddet spredte sig til hele verden, og i Danmark mistede tusinder af arbejdere deres arbejde. I vinteren 1932–33 var arbejdsløsheden større end nogensinde. I januar 1933 mødtes regeringen og et af de store partier i oppositionen i statsminister Thorvald Staunings lejlighed i Kanslergade. Her indgik de et forlig, som blandt andet førte til en stor social reform.\n\nFør reformen var hjælpen til de fattige ofte ydmygende. Den, der fik hjælp fra kommunen, kunne miste sin stemmeret. Desuden skelnede man skarpt mellem dem, man mente fortjente hjælp, og dem, man mente selv var skyld i deres situation, for eksempel en alkoholiker eller en, der ikke ville arbejde. En alkoholiker kunne blive sendt på en anstalt mod sin vilje.\n\nIdealet bag reformen var enkelt: hjælpen skulle være en rettighed, som man havde krav på, såfremt man opfyldte bestemte betingelser. Den, der var medlem af en arbejdsløshedskasse, kunne få dagpenge, forudsat at man stod til rådighed for arbejde. Disse dagpenge skulle kompensere for en del af den løn, man havde mistet, men ikke for det hele, så det stadig kunne betale sig at arbejde.\n\nHvordan skal man vurdere reformen? Nogle historikere ser den som et humant gennembrud. For dem er det afgørende, at den ordinære arbejder ikke længere skulle skamme sig over at bede om hjælp. Et humant samfund, siger de, kompenserer for de skader, som en krise skaber, uden at ydmyge nogen.\n\nAndre er mere forsigtige. De peger på, at reformen stadig skelnede mellem grupper, og at en alkoholiker fortsat kunne behandles hårdt. For dem var reformen ikke et brud med fortiden, men en ordinær, praktisk løsning, som i de følgende år blev revideret mange gange. Hver gang loven blev revideret, kom der en ny tilføjelse, og mange af disse tilføjelser gjorde systemet mere retfærdigt.\n\nBegge synspunkter har noget for sig. Reformen var ikke perfekt, men dens ideal har overlevet hvert sammenbrud og hver krise siden. Det er måske den bedste målestok for en lov: ikke om den var perfekt, men om dens ideal kunne holde.\n\nSpørgsmål:\nHvordan begyndte krisen?\nDen begyndte med et sammenbrud på børsen i New York i 1929, som spredte sig til hele verden.\nHvor blev forliget indgået?\nDet blev indgået i statsminister Thorvald Staunings lejlighed i Kanslergade i januar 1933.\nHvordan blev en alkoholiker behandlet før reformen?\nMan mente, at han selv var skyld i sin situation, og han kunne blive sendt på en anstalt mod sin vilje.\nHvad var idealet bag reformen?\nHjælpen skulle være en rettighed, som man havde krav på, såfremt man opfyldte bestemte betingelser.\nHvad skulle dagpenge kompensere for?\nDe skulle kompensere for en del af den løn, man havde mistet, men ikke for det hele.\nHvordan ser de mere forsigtige historikere på reformen?\nDe ser den som en ordinær, praktisk løsning, som blev revideret mange gange, og hver gang kom der en ny tilføjelse."
+    },
+    {
+      "title": "Cyklen og bilen",
+      "summary": "How the balance between bicycles and cars in Denmark shifted from gravel roads to hybrid cars.",
+      "newWords": [
+        "cykling",
+        "grus",
+        "bilist",
+        "anlægge",
+        "kolonne",
+        "syntetisk",
+        "antenne",
+        "sensor",
+        "hybrid",
+        "konventionel"
+      ],
+      "text": "Danmark er kendt som et land, hvor man cykler. Men forholdet mellem cyklen og bilen har ændret sig mange gange gennem de sidste 130 år, og den historie viser, hvordan teknik, økonomi og politik påvirker hinanden.\n\nOmkring 1890 blev cykling en folkebevægelse. Cyklen var billig, og den gav almindelige mennesker en frihed, de aldrig havde haft. Vejene var dengang af grus, og om foråret var gruset ofte så blødt, at man måtte trække cyklen. Alligevel var cykling for mange den eneste måde at komme hurtigt frem på.\n\nDe første biler kom kort efter år 1900. I begyndelsen var en bilist en rig mand med tid og penge, og mange så skævt til ham. Bilerne skræmte heste, og støvet fra gruset lagde sig over markerne. Med tiden blev vejene asfalteret, og bilisten blev en almindelig skikkelse i landskabet.\n\nEfter Anden Verdenskrig voksede antallet af biler hurtigt. Fra omkring 1960 begyndte staten at anlægge motorveje, og kommunerne anlagde store veje gennem byerne. Om søndagen kørte lange kolonner af biler mod strandene, og i en kolonne kunne man holde stille i en time. Mange troede, at cyklen var ved at forsvinde.\n\nSå kom oliekrisen i 1973. Benzinen blev dyr, og i en periode var det forbudt at køre bil om søndagen. Folk gik og cyklede midt på de tomme veje. Krisen fik mange politikere til at tænke anderledes, og i de følgende årtier blev der anlagt cykelstier i hele landet.\n\nSamtidig ændrede bilen sig indefra. Under krigen havde man lært at lave syntetisk gummi, og i dag er de fleste dæk lavet af syntetisk materiale. Engang havde hver bil en lang antenne til radioen. I dag sidder antennen skjult i taget, og bilen har en sensor bag hver kofanger. En sensor hjælper bilisten med at parkere, og en anden sensor kan bremse, hvis et barn løber ud på vejen.\n\nOmkring år 2000 kom de første hybrider, altså biler, som både har en motor, der kører på el, og en konventionel motor, der kører på benzin. En hybrid bruger mindre benzin end en konventionel bil, men den er ikke helt fri for forurening. I dag vælger flere og flere en elbil i stedet.\n\nHvem har så vundet kampen om vejen? Måske ingen. En bilist i dag kører ofte på cykel i weekenden, og cykling er blevet en sport for mange, der også ejer en bil. Historien viser, at det sjældent er det ene eller det andet, men en balance, der hele tiden flytter sig.\n\nSpørgsmål:\nHvorfor blev cykling populær omkring 1890?\nCyklen var billig, og den gav almindelige mennesker en ny frihed.\nHvordan var vejene dengang?\nDe var af grus, og om foråret var gruset ofte så blødt, at man måtte trække cyklen.\nHvem var de første bilister?\nEn bilist var i begyndelsen en rig mand med tid og penge.\nHvad skete der om søndagen efter 1960?\nLange kolonner af biler kørte mod strandene.\nHvad betød oliekrisen i 1973 for cyklen?\nDen fik politikerne til at tænke anderledes, og der blev anlagt cykelstier i hele landet.\nHvad er forskellen på en hybrid og en konventionel bil?\nEn hybrid har både en motor til el og en konventionel motor til benzin, og den bruger mindre benzin."
+    },
+    {
+      "title": "Duellen, der aldrig fandt sted",
+      "summary": "A police file from 1874 about a planned duel shows how disputes over honour moved from the woods to the courts.",
+      "newWords": [
+        "duel",
+        "revolver",
+        "politichef",
+        "instruks",
+        "beslaglægge",
+        "forhøre",
+        "selvforsvar",
+        "sagsøger",
+        "terrorisme"
+      ],
+      "text": "I politiets gamle arkiv i Odense ligger en tynd mappe fra 1874. Den handler om en duel, der aldrig fandt sted, og den viser tydeligt, hvordan synet på ære og vold ændrede sig i 1800-tallet.\n\nEn duel var en kamp mellem to mænd, som skulle afgøre en strid om ære. Hvis en mand følte sig fornærmet, kunne han udfordre den anden, og så mødtes de tidligt om morgenen med hver sit våben. Dueller havde i lang tid været forbudt i Danmark, men forbuddet blev ikke altid overholdt, især ikke blandt officerer.\n\nI 1874 kom to unge officerer i Odense op at skændes ved et middagsselskab. Den ene, løjtnant Carl Berg, mente, at den anden havde fornærmet hans søster. Han krævede en duel, og de aftalte at mødes i en skov uden for byen med hver sin revolver. Men en tjener havde hørt samtalen, og han gik til politiet.\n\nByens politichef handlede hurtigt. Han lod begge mænd hente, og han gav sine betjente en klar instruks: de skulle beslaglægge alle våben i de to officerers boliger. Samme aften blev to revolvere beslaglagt, og dagen efter forhørte politichefen begge mænd og tjeneren. I mappen ligger referatet. Da Carl Berg blev forhørt, sagde han, at han kun ville forsvare sin families ære. Politichefen svarede, at en duel aldrig kan være selvforsvar. Selvforsvar er at beskytte sig mod et angreb, der sker lige nu, ikke at mødes i en skov efter aftale.\n\nSagen endte ikke i skoven, men i retten. Carl Berg anlagde sag mod den anden officer for at have fornærmet hans søster, og han blev dermed sagsøger i stedet for at kæmpe. Som sagsøger skulle han bevise, hvad der var blevet sagt, og retten gav ham til sidst delvist medhold. Den anden officer måtte betale en bøde og give en offentlig undskyldning.\n\nSagen er lille, men den er typisk. I løbet af 1800-tallet blev striden om ære flyttet fra skoven til retssalen, og våben blev noget, som staten og ikke den enkelte borger skulle styre.\n\nDen udvikling er fortsat. I årene efter 1970 blev Europa ramt af terrorisme, og truslen fra terrorisme fik politiet i mange lande til at ændre deres træning. I dag har danske betjente en fast instruks om, hvornår de må bruge deres våben, og hver gang det sker, bliver sagen undersøgt bagefter. Det er en lang vej fra en revolver i en mørk skov til en tyk instruks på et kontor, men tanken bag er den samme som i 1874: vold må ikke være en privat sag.\n\nSpørgsmål:\nHvad var en duel?\nDet var en kamp mellem to mænd, som skulle afgøre en strid om ære.\nHvordan fik politiet at vide, at der skulle være en duel?\nEn tjener havde hørt samtalen, og han gik til politiet.\nHvilken instruks gav politichefen sine betjente?\nDe skulle beslaglægge alle våben i de to officerers boliger.\nHvorfor kunne en duel ikke være selvforsvar, ifølge politichefen?\nSelvforsvar er at beskytte sig mod et angreb, der sker lige nu, ikke at mødes i en skov efter aftale.\nHvordan endte sagen?\nCarl Berg blev sagsøger i retten, og den anden officer måtte betale en bøde og give en offentlig undskyldning.\nHvad fik truslen fra terrorisme politiet til at gøre?\nDen fik politiet i mange lande til at ændre deres træning."
+    }
+  ]
+}
