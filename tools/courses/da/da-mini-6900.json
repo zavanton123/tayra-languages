@@ -1,0 +1,212 @@
+{
+  "id": "da-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Tal og tænkning",
+  "description": "Ten standalone stories and texts about everyday reasoning with numbers: in school, history, science, business, the garden, a party, health, sport, town planning and language.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Hanne",
+    "Holm",
+    "Hannes",
+    "Odense",
+    "Sydfyn",
+    "Peter",
+    "Mette",
+    "Jonas",
+    "Vejle",
+    "København",
+    "Jylland",
+    "Bent",
+    "Bents",
+    "Aalborg",
+    "Sofie",
+    "Sofies",
+    "Erik",
+    "Eriks",
+    "Lise",
+    "Lone",
+    "Berg",
+    "Randers",
+    "Mads",
+    "Rasmus",
+    "Hejlsby",
+    "Aarhus",
+    "Horsens",
+    "Layla",
+    "Laylas",
+    "Danmark",
+    "Bagdad",
+    "Vesterhavet"
+  ],
+  "lessons": [
+    {
+      "title": "Matematik på friskolen",
+      "summary": "A maths teacher at a small free school explains her principled way of teaching arithmetic.",
+      "newWords": [
+        "friskole",
+        "privatskole",
+        "principiel",
+        "tastatur",
+        "forstander",
+        "diktere",
+        "klassekammerat",
+        "korrigere",
+        "ujævn",
+        "udholdenhed"
+      ],
+      "text": "Hanne Holm har undervist i matematik i over tyve år. De første ti år arbejdede hun på en privatskole i Odense, men i dag er hun lærer på en lille friskole på Sydfyn. Forskellen på de to skoler er mindre, end mange tror. Både en friskole og en privatskole er uafhængige af kommunen, og forældrene betaler selv en del af udgifterne. Men på den friskole, hvor Hanne arbejder nu, går der kun 120 elever, og alle kender hinanden.\n\nHanne har en principiel holdning til matematik, som hun aldrig har lagt skjul på: Børn skal først lære at regne i hovedet og på papir, og først derefter må de bruge en computer. »Det er ikke, fordi jeg er imod teknik,« siger hun. »Men hvis man kun trykker på et tastatur, ser man ikke, hvorfor tallene bliver, som de bliver. Et tastatur giver svaret, men ikke forståelsen.«\n\nSkolens forstander, Peter, var i begyndelsen skeptisk. Han syntes, at en moderne friskole skulle følge med tiden. Men efter et år kunne forstanderen se, at Hannes elever klarede sig bedre end før, og i dag støtter han hendes principielle linje.\n\nHver mandag begynder Hanne timen på samme måde. Hun dikterer ti opgaver, og eleverne skriver dem ned i deres hæfter. Hun dikterer langsomt, så alle kan følge med: »37 gange 4. 100 minus 48.« Bagefter regner eleverne i stilhed. Derefter bytter hver elev hæfte med en klassekammerat, og de korrigerer hinandens svar. Hanne mener, at man lærer meget af at korrigere en andens arbejde, fordi man skal kunne forklare, hvor fejlen sidder. Det er også lettere at tage imod kritik, når det er en klassekammerat og ikke læreren, der finder fejlen.\n\nResultaterne er ujævne. Nogle uger får næsten alle ti rigtige, andre uger går det skidt. Hanne siger, at det er helt normalt, at en kurve er ujævn. Det vigtige er retningen over et helt år, ikke den enkelte uge. Hun fører en lille tabel over klassens resultater og viser den til eleverne en gang om måneden. Så kan de selv se, at kurven går op, selv om den er ujævn undervejs.\n\nDet, Hanne sætter allermest pris på, er udholdenhed. »Matematik er ikke et talent, som man enten har eller ikke har,« siger hun. »Det handler om udholdenhed. Man prøver, man fejler, og man prøver igen.« Hun fortæller om en dreng, der i fjerde klasse græd over sine opgaver. Han havde ikke megen tålmodighed, men han havde udholdenhed, og i dag læser han til ingeniør.\n\nNår forældre spørger, hvad de kan gøre derhjemme, giver Hanne altid det samme råd: Lad barnet regne på ting fra hverdagen. Hvad koster tre liter mælk? Hvor lang tid tager turen til bedstemor? På den måde bliver tallene en del af livet og ikke kun noget, der står i en bog.\n\nSpørgsmål:\nHvor har Hanne arbejdet som lærer?\nHun arbejdede først ti år på en privatskole i Odense, og nu er hun lærer på en lille friskole på Sydfyn.\nHvad er Hannes principielle holdning til matematik?\nHun mener, at børn først skal lære at regne i hovedet og på papir, før de må bruge en computer og et tastatur.\nHvordan reagerede skolens forstander i begyndelsen?\nForstanderen var skeptisk, men efter et år kunne han se, at eleverne klarede sig bedre.\nHvordan begynder Hanne timen hver mandag?\nHun dikterer ti opgaver, og bagefter korrigerer hver elev en klassekammerats svar.\nHvorfor er Hanne ikke bekymret, når resultaterne er ujævne?\nFordi det vigtige er retningen over et helt år og ikke den enkelte uge.\nHvad sætter Hanne allermest pris på?\nHun sætter mest pris på udholdenhed, fordi man lærer matematik ved at prøve, fejle og prøve igen."
+    },
+    {
+      "title": "Kan tallene passe?",
+      "summary": "A historian checks the numbers in an old Danish legend about a besieged town and asks what a legend is really for.",
+      "newWords": [
+        "sagn",
+        "milits",
+        "regent",
+        "bønfalde",
+        "øverstbefalende",
+        "overgivelse",
+        "vanære",
+        "sabotere",
+        "gemmested",
+        "fortvivlelse"
+      ],
+      "text": "Da jeg var barn, læste min bedstefar gamle danske sagn højt for mig. Mit yndlingssagn handlede om en lille by ved kysten, som en fremmed hær omringede en hel vinter. Ifølge sagnet bestod hæren af ti tusind soldater, mens byen kun havde en milits på hundrede mænd: bønder, smede og fiskere, der aldrig havde holdt et sværd før. Alligevel holdt militsen byen i tre måneder.\n\nI dag er jeg historiker, og jeg holder stadig af sagnet. Men jeg har lært at stille et enkelt spørgsmål, når jeg læser sådan en fortælling: Kan tallene passe?\n\nLad os regne efter. En soldat spiser mindst et kilo mad om dagen. Ti tusind soldater spiser altså ti ton mad om dagen, og på tre måneder bliver det til omkring ni hundrede ton. Det er mere, end hele egnen kunne producere på et år. En hær af den størrelse ville være sultet længe før byen. Derfor er det sandsynligt, at hæren i virkeligheden talte nogle få hundrede mand. Tallet er vokset, hver gang historien blev fortalt videre, sådan som tal har for vane at gøre i et sagn.\n\nSagnet fortæller også, at borgerne sendte bud til landets regent og bønfaldt ham om hjælp. Regenten svarede aldrig. Hærens øverstbefalende var sikker på, at byen snart ville give op, og han krævede byens overgivelse. Men borgmesteren nægtede. En overgivelse ville vanære byen, sagde han, og han ville hellere dø end leve med den vanære. Om natten sneg en ung fisker sig ud og saboterede fjendens bro over åen, så hæren ikke kunne få nye forsyninger. Byens korn lå i et gemmested under kirkens gulv, og ingen fremmed fandt nogensinde det gemmested. Til sidst trak den øverstbefalende sine soldater hjem.\n\nHvor meget af dette er sandt? Det ved vi ikke. Måske fandtes fiskeren, måske ikke. Men selv om tallene ikke passer, er sagnet ikke uden værdi. Et sagn er ikke et regnskab. Det fortæller, hvordan folk huskede en svær tid: deres fortvivlelse, da regenten ikke svarede, deres stolthed over, at de ikke overgav sig, og deres håb om, at én modig person kunne sabotere en hel hærs planer.\n\nJeg tror, at tallene og fortællingen hver har deres plads. Tallene hjælper os med at forstå, hvad der faktisk kunne ske. Fortællingen hjælper os med at forstå, hvordan det føltes. Fortvivlelse kan man ikke måle i ton, men den er lige så virkelig for det.\n\nSpørgsmål:\nHvad handlede forfatterens yndlingssagn om?\nDet handlede om en lille by, hvor en milits på hundrede mænd forsvarede sig mod en hær på ti tusind soldater.\nHvorfor tror forfatteren ikke på tallet ti tusind?\nFordi ti tusind soldater ville spise omkring ni hundrede ton mad på tre måneder, og det kunne egnen ikke producere.\nHvad gjorde borgerne, da de havde brug for hjælp?\nDe bønfaldt landets regent om hjælp, men han svarede aldrig.\nHvorfor ville borgmesteren ikke acceptere en overgivelse?\nHan mente, at en overgivelse ville vanære byen.\nHvad gjorde den unge fisker?\nHan saboterede fjendens bro, så hæren ikke kunne få nye forsyninger.\nHvad kan et sagn fortælle os, selv om tallene ikke passer?\nDet kan fortælle, hvordan folk huskede en svær tid, for eksempel deres fortvivlelse og deres stolthed."
+    },
+    {
+      "title": "Store tal i en lille slurk",
+      "summary": "A columnist drinking a glass of water reflects on numbers too big to imagine: molecules, the air, the tides and the age of the Earth.",
+      "newWords": [
+        "kande",
+        "slurk",
+        "molekyle",
+        "kvælstof",
+        "tidevand",
+        "analog",
+        "kakerlak",
+        "asteroide",
+        "uddø",
+        "flora",
+        "tomrum"
+      ],
+      "text": "Forleden stod jeg i køkkenet og hældte vand op af en kande. Jeg tog en slurk og kom til at tænke på noget, min fysiklærer engang sagde: Der er flere molekyler i en eneste slurk vand, end der er slurke vand i alle verdens have. Det lyder umuligt, men det passer. En slurk vejer omkring 20 gram, og den rummer så mange molekyler, at tallet har 24 cifre. Begge tal er så store, at de næsten ikke giver mening, men det første er omkring ti gange større end det andet.\n\nDet er her, vores fantasi slipper op. Vi kan godt forestille os ti æbler eller hundrede mennesker, men et tal med 24 cifre er bare et ord. Alligevel kan vi regne med det. Matematikken går videre, hvor fantasien må give op.\n\nLuften omkring kanden er et andet eksempel. Vi kalder den luft, men næsten fire femtedele af den er kvælstof. Vi trækker kvælstof ind og ånder det ud igen hele livet, uden at kroppen bruger det til noget. Ilten, som vi lever af, udgør kun en femtedel. Og vandet i min kande har sikkert engang ligget i havet, hvor tidevandet har løftet det op og ned to gange i døgnet, trukket af månen. Tidevand er i virkeligheden en af de mest præcise ting, vi kender: man kan beregne det mange år frem.\n\nPå væggen hænger et gammelt analogt ur. Jeg kan godt lide et analogt ur, fordi man kan se tiden gå rundt. Lad os forestille os, at hele jordens historie var ét døgn på det ur. Så kom de første kakerlakker til omkring klokken 22.30. Kakerlakker har altså levet her i over 300 millioner år. Klokken 23.39 ramte en asteroide jorden, og dinosaurerne uddøde. En asteroide på nogle få kilometer var nok til at få hele grupper af dyr til at uddø. Bagefter voksede en ny flora frem, og den flora ligner på mange måder den, vi kender i dag. Mennesket kom først til i de sidste seks sekunder før midnat.\n\nTil sidst er der det, som fylder mest af alt: tomrummet. Et atom består næsten kun af tomrum, og mellem stjernerne er der mere tomrum, end vi kan forestille os. Selv min slurk vand er, set helt tæt på, mest tomrum.\n\nJeg satte kanden tilbage på bordet. Vandet smagte præcis som før. Men det er en god øvelse en gang imellem at tænke på, hvor store tal der gemmer sig i de mest almindelige ting.\n\nSpørgsmål:\nHvad sagde forfatterens fysiklærer om en slurk vand?\nHan sagde, at der er flere molekyler i en slurk vand, end der er slurke vand i alle verdens have.\nHvor meget af luften er kvælstof?\nNæsten fire femtedele af luften er kvælstof.\nHvad får tidevandet til at bevæge sig?\nTidevandet bliver trukket af månen og løfter vandet op og ned to gange i døgnet.\nHvorfor kan forfatteren godt lide et analogt ur?\nFordi man kan se tiden gå rundt på et analogt ur.\nHvad skete der klokken 23.39 på jordens døgn?\nEn asteroide ramte jorden, og dinosaurerne uddøde. Bagefter voksede en ny flora frem.\nHvad består et atom næsten kun af?\nEt atom består næsten kun af tomrum."
+    },
+    {
+      "title": "To kompagnoner og en sparekasse",
+      "summary": "Two partners who buy and sell used furniture explain how they haggle, borrow and count every krone.",
+      "newWords": [
+        "kompagnon",
+        "opkøb",
+        "prutte",
+        "à",
+        "sparekasse",
+        "bevilge",
+        "forvalte",
+        "fusion",
+        "distribuere",
+        "regi"
+      ],
+      "text": "Mette og Jonas har været kompagnoner i otte år. De driver en lille forretning med brugte møbler i Vejle, og deres forretning bygger på én simpel regel: Man tjener sine penge, når man køber, ikke når man sælger.\n\nDet lyder mærkeligt, men Mette forklarer det sådan: »Hvis vi betaler for meget for en kommode, kan vi aldrig få pengene hjem igen. Kunderne vil kun betale det, kommoden er værd. Derfor skal vi være skarpe på vores opkøb.« Et opkøb kan være en enkelt stol fra en annonce eller et helt hus fuld af møbler efter et dødsfald. Til de store opkøb tager begge kompagnoner af sted, for fire øjne ser mere end to.\n\nJonas er den, der prutter om prisen. Han prutter venligt, men bestemt. Sidste måned købte han seks spisestole à 200 kroner. Sælgeren ville først have 350 kroner stykket, men Jonas regnede højt for ham: Stolene skulle have nyt betræk, og det koster 100 kroner pr. stol. Til sidst blev de enige om seks stole à 200 kroner, og begge parter var tilfredse. Nu står stolene i butikken til 600 kroner stykket.\n\nFor fem år siden ville kompagnonerne købe en større bil. De gik ned i den lokale sparekasse, som havde kendt Mette, siden hun var barn. Sparekassen bevilgede et lån på 150.000 kroner, og det var ikke svært. »De kendte os, og de kunne se, at vi passede på pengene,« siger Mette. Det er Mette, der forvalter firmaets økonomi. Hun forvalter den meget nøje og skriver hver eneste udgift ned.\n\nTo år senere indgik sparekassen en fusion med en stor bank fra København. Efter fusionen var alt anderledes. Når kompagnonerne ville låne penge, skulle de udfylde lange skemaer, og svaret kom fra et kontor langt væk. Banken bevilgede til sidst lånet, men det tog seks uger. »Fusioner kan sikkert give god mening på papiret,« siger Jonas. »Men vi savner at tale med nogen, der kender os.«\n\nI dag sælger Mette og Jonas ikke kun fra butikken. De distribuerer også møbler til tre andre butikker i Jylland, og de har fået plads på et stort marked, som holdes i kommunens regi hver sommer. At distribuere møbler kræver plads og en god bil, så den nye bil er blevet brugt meget. Markedet i kommunens regi giver dem nye kunder hvert år.\n\nNår man spørger dem, hvad hemmeligheden er, svarer de i kor: »Regn efter, før du køber.«\n\nSpørgsmål:\nHvad er kompagnonernes simple regel?\nDeres regel er, at man tjener sine penge, når man køber, og ikke når man sælger.\nHvordan prutter Jonas om prisen?\nHan prutter venligt, men bestemt, og han regner højt for sælgeren.\nHvad kostede spisestolene, og hvad koster de nu?\nJonas købte seks stole à 200 kroner, og nu koster de 600 kroner stykket.\nHvem forvalter firmaets økonomi?\nDet er Mette, der forvalter økonomien, og hun skriver hver udgift ned.\nHvad ændrede sig efter sparekassens fusion med banken?\nKompagnonerne skulle udfylde lange skemaer, og det tog seks uger, før lånet blev bevilget.\nHvor distribuerer de møbler hen?\nDe distribuerer møbler til tre andre butikker i Jylland og sælger på et marked i kommunens regi."
+    },
+    {
+      "title": "Bents haveregnskab",
+      "summary": "A retired man keeps careful numbers on his vegetable garden and learns from them in a summer of drought.",
+      "newWords": [
+        "omhu",
+        "rad",
+        "kål",
+        "bagpå",
+        "spæde",
+        "ukrudt",
+        "tørke",
+        "udslag",
+        "sprød",
+        "rådden"
+      ],
+      "text": "Bent er 71 år og har en køkkenhave bag sit hus uden for Aalborg. Han har altid holdt af tal, og da han gik på pension efter et langt liv som revisor, begyndte han at føre regnskab over haven. Han skriver alt ned med stor omhu: hvornår han sår, hvor meget det regner, og hvor mange kilo han høster. Den samme omhu, som han engang brugte på andres regnskaber, bruger han nu på sine gulerødder.\n\nHaven er delt op i ti rader. I de tre første rader dyrker han kål, fordi kål tåler det danske klima godt. Resten af raderne bruger han til gulerødder, kartofler og bønner. Hvert forår læser han, hvad der står bagpå frøposerne. Bagpå står der, hvor dybt frøene skal sås, og hvor stor afstand der skal være mellem planterne. Bent følger rådene på bagsiden nøje, men han skriver også sine egne erfaringer ned ved siden af.\n\nI maj er planterne små og spæde. De spæde blade tåler hverken frost eller snegle, så Bent går en tur gennem haven hver morgen. Samtidig luger han ukrudt. Han har regnet ud, at han bruger omkring 20 minutter om dagen på ukrudt. Det lyder af meget, men hvis man lader ukrudtet vokse, tager det vand og lys fra de spæde planter.\n\nSidste sommer kom der en lang tørke. I hele juni faldt der kun 8 millimeter regn, mens der normalt falder over 50. Tørken gav tydeligt udslag i Bents tal. Kålen blev mindre, og gulerødderne var tynde. Men tallene viste også noget andet: De rader, som Bent havde vandet om aftenen, klarede tørken langt bedre end dem, han havde vandet om morgenen. Om aftenen fordamper vandet nemlig langsommere. Det gav et udslag på næsten 30 procent i høsten.\n\nI august kom regnen endelig, og så kom der for meget af den på én gang. Jorden blev våd og tung, og en kartoffel i våd jord kan blive rådden på få dage. Bent fandt mange kartofler, der var blevet bløde, og et enkelt kålhoved var blevet råddent indefra. Han skar det væk og smed det i komposten, for et råddent kålhoved kan ødelægge de andre, hvis det får lov at ligge. Resten af kålen var til gengæld sprød og sød. En sprød, frisk kål fra sin egen have er noget af det bedste, Bent ved.\n\nOm vinteren sidder han med sine bøger og sammenligner årene. Han har opdaget, at tørken ikke kun var et uheld. Somrene er blevet tørrere i de år, han har ført regnskab. Derfor har han besluttet at samle regnvand i tønder fra næste år.\n\nSpørgsmål:\nHvad skriver Bent ned med stor omhu?\nHan skriver ned, hvornår han sår, hvor meget det regner, og hvor mange kilo han høster.\nHvorfor dyrker han kål i de tre første rader?\nFordi kål tåler det danske klima godt.\nHvad står der bagpå frøposerne?\nBagpå står der, hvor dybt frøene skal sås, og hvor stor afstand der skal være mellem planterne.\nHvorfor er det vigtigt at fjerne ukrudt?\nFordi ukrudtet tager vand og lys fra de spæde planter.\nHvordan gav tørken udslag i Bents tal?\nKålen blev mindre, og gulerødderne var tynde, men de rader, han vandede om aftenen, klarede sig bedre.\nHvad skete der, da regnen kom i august?\nMange kartofler blev bløde, og et kålhoved blev råddent, men resten af kålen var sprød og sød."
+    },
+    {
+      "title": "Festen i palæet",
+      "summary": "Sofie plans her parents' anniversary party in an old mansion and works out how much food, wine and china she needs.",
+      "newWords": [
+        "palæ",
+        "telefonsamtale",
+        "hovedindgang",
+        "beklageligvis",
+        "uvedkommende",
+        "porcelæn",
+        "drikkevare",
+        "hvidvin",
+        "oliven",
+        "forkorte"
+      ],
+      "text": "Sofies forældre har været gift i 40 år, og hun har lovet at arrangere festen. Hun har lejet et gammelt palæ i Odense, som en købmand byggede i 1800-tallet. Palæet har høje lofter, store vinduer og en sal med plads til 60 gæster. Sofie har inviteret 52.\n\nEn onsdag aften havde hun en lang telefonsamtale med den kvinde, der passer palæet. Under telefonsamtalen fik Sofie to beskeder. Den første var, at palæets hovedindgang beklageligvis er lukket på grund af en reparation. Gæsterne må gå ind ad en dør ved siden af haven. Den anden var, at palæet også er et lille museum om dagen. Derfor er der nogle rum på første sal, som er lukkede for uvedkommende. »Der hænger et skilt, hvor der står: Adgang forbudt for uvedkommende,« sagde kvinden. »Men det gælder ikke salen og haven.«\n\nEfter telefonsamtalen satte Sofie sig ved bordet med en blok papir. Hun ville regne det hele ud, så hun ikke købte for meget eller for lidt.\n\nFørst porcelænet. Palæet lejer porcelæn ud, og Sofie skal bruge en tallerken til forret, en til hovedret og en til kage til hver gæst. 52 gæster gange tre tallerkener giver 156 tallerkener. Hun lagde ti til, i tilfælde af at noget gik i stykker. Gammelt porcelæn er smukt, men det går let i stykker.\n\nSå drikkevarerne. Her bruger Sofie en enkel regel, som hun har lært af sin far: en halv flaske vin pr. voksen gæst og lige så meget vand. Der kommer 44 voksne og 8 børn. Det giver 22 flasker vin. Da festen holdes i juni, vil hun servere hvidvin til forretten og rødvin til hovedretten. Hun bestilte 10 flasker hvidvin og 12 flasker rødvin. De andre drikkevarer, som saft til børnene og kaffe til sidst, regnede hun ud på samme måde.\n\nTil velkomsten vil hun servere et glas hvidvin og små skåle med oliven. Sofie regnede med cirka 50 gram oliven pr. gæst. Det bliver lidt over to og et halvt kilo oliven.\n\nTil sidst så hun på programmet. Seks personer havde meldt sig til at holde tale. Hvis hver tale varer ti minutter, bliver det en time med taler alene. Sofie ringede rundt og bad dem om at forkorte deres taler til fem minutter. »Det er bedre at forkorte talerne end at forkorte festen,« sagde hun. Alle var enige.\n\nSpørgsmål:\nHvor skal festen holdes?\nFesten skal holdes i et gammelt palæ i Odense, som en købmand byggede i 1800-tallet.\nHvad fik Sofie at vide under telefonsamtalen?\nHun fik at vide, at hovedindgangen beklageligvis er lukket, og at nogle rum er lukkede for uvedkommende.\nHvor mange tallerkener skal hun leje?\nHun skal bruge 156 tallerkener af porcelæn og lagde ti ekstra til.\nHvilken regel bruger Sofie til drikkevarerne?\nHun regner med en halv flaske vin pr. voksen gæst og lige så meget vand.\nHvad vil hun servere til velkomsten?\nHun vil servere et glas hvidvin og små skåle med oliven.\nHvorfor bad hun talerne om at forkorte deres taler?\nFordi seks taler på ti minutter ville tage en hel time."
+    },
+    {
+      "title": "Erik og de forlagte nøgler",
+      "summary": "A grandfather afraid of losing his memory learns from a calm doctor what the numbers really say.",
+      "newWords": [
+        "forlægge",
+        "alderdom",
+        "hukommelsestab",
+        "arvelig",
+        "tænkelig",
+        "sympatisk",
+        "flygtig",
+        "snorke",
+        "utilpas",
+        "respons"
+      ],
+      "text": "Erik er 74 år. En morgen i efteråret kunne han ikke finde sine nøgler. Han ledte i køkkenet, i stuen og i bilen. Til sidst fandt han dem i køleskabet ved siden af smørret. Det var tredje gang den måned, at han forlagde noget. Først havde han forlagt sine briller, så sin telefon, og nu nøglerne.\n\nErik blev bange. Hans mor havde fået et alvorligt hukommelsestab i sin alderdom, og han huskede, hvor svært det havde været for hele familien. Han havde altid tænkt, at han selv ville få det samme. Var hukommelsestab mon arveligt? Han havde læst, at det kunne være arveligt, men han vidste ikke, hvor meget.\n\nHans datter, Lise, foreslog, at han gik til lægen. Lægen var en ung kvinde, som Erik straks syntes var sympatisk. Hun lyttede til ham uden at afbryde, og hun tog sig god tid. Bagefter forklarede hun ham nogle tal.\n\n»Det er tænkeligt, at din risiko er en smule højere end gennemsnittet, fordi din mor var syg,« sagde hun. »Men for de fleste er det ikke stærkt arveligt. Langt de fleste mennesker, hvis forældre fik hukommelsestab, får det aldrig selv.« Hun tilføjede, at alle forlægger ting. »Hukommelsen om, hvor man lagde sine nøgler, er meget flygtig. Hjernen gemmer den kun et øjeblik, fordi den ikke regner den for vigtig. En flygtig hukommelse af den slags er helt normal, også når man er ung.«\n\nSå stillede lægen et spørgsmål, som Erik ikke havde ventet: »Hvordan sover du?« Erik indrømmede, at hans kone sagde, at han snorkede meget. Han vågnede tit om natten og følte sig utilpas om morgenen. Lægen forklarede, at folk, der snorker kraftigt, nogle gange holder op med at trække vejret i korte øjeblikke. Det giver dårlig søvn, og dårlig søvn kan godt ligne hukommelsestab. Hvis man føler sig utilpas og træt hver morgen, er det tænkeligt, at søvnen er problemet.\n\nErik tog en test hos lægen, og to uger senere kom svaret. Hans hukommelse var normal for hans alder. Lægen sendte ham videre til en undersøgelse af hans søvn. Eriks første respons var lettelse. Hans anden respons var lidt pinlig: »Så havde min kone ret,« sagde han.\n\nI dag sover han med en lille maskine, og han snorker ikke længere. Han føler sig ikke utilpas om morgenen, og han har kun forlagt sine nøgler én gang siden. Nu hænger de på en krog ved døren.\n\nSpørgsmål:\nHvor fandt Erik sine nøgler?\nHan fandt dem i køleskabet ved siden af smørret.\nHvorfor blev Erik bange?\nFordi hans mor havde fået et alvorligt hukommelsestab i sin alderdom, og han troede, at det var arveligt.\nHvad syntes Erik om lægen?\nHan syntes, at hun var sympatisk, fordi hun lyttede og tog sig god tid.\nHvad sagde lægen om hukommelsen af, hvor man lægger sine nøgler?\nHun sagde, at den er meget flygtig, og at det er helt normalt at forlægge ting.\nHvorfor spurgte lægen, hvordan Erik sov?\nFordi folk, der snorker kraftigt, kan sove dårligt, og dårlig søvn kan ligne hukommelsestab.\nHvad var Eriks første respons på svaret?\nHans første respons var lettelse."
+    },
+    {
+      "title": "Tallene bag bordtennisbordet",
+      "summary": "An interview with a table tennis coach who uses simple statistics, but reminds her players why they started playing.",
+      "newWords": [
+        "bordtennis",
+        "sportslig",
+        "afvige",
+        "respektløs",
+        "gråd",
+        "mase",
+        "drivkraft",
+        "morskab",
+        "ophøje",
+        "ubetinget"
+      ],
+      "text": "Lone Berg har trænet unge spillere i bordtennis i Randers i femten år. Hun er kendt for at bruge tal i sin træning. Vi har talt med hende om statistik, nederlag og glæden ved spillet.\n\nHvorfor bruger du så mange tal i din træning?\n\n»Fordi vores følelse ofte snyder os. En spiller kommer ud fra en kamp og siger: Jeg tabte, fordi min serv var dårlig. Men når vi ser på tallene, afviger de tit fra hans følelse. Måske vandt han faktisk de fleste point på sin serv, men tabte dem i de lange dueller. Når tallene afviger fra det, spilleren tror, ved vi, hvad vi skal træne.«\n\nHvordan samler I tallene?\n\n»En af de andre spillere sidder ved bordet med en blok papir og sætter streger. Hver gang et point bliver vundet eller tabt, skriver han, hvordan det skete. Det er ikke avanceret. Men efter ti kampe kan man se et mønster.«\n\nKan du give et eksempel?\n\n»Vi havde en dreng, Mads, som var meget talentfuld. Han tabte en vigtig kamp mod en ældre spiller, der var ret respektløs. Den ældre spiller grinede, når Mads missede, og råbte, når han selv vandt et point. Det var respektløst, og jeg talte bagefter med hans træner om det. Mads gik fra bordet i gråd. Gråden var ikke kun over nederlaget. Han syntes, at han havde spillet dårligt hele kampen. Men tallene viste, at han havde vundet flere point end modstanderen i fire af de fem sæt. Han tabte bare de vigtigste point til sidst.«\n\nHvordan reagerede han?\n\n»Det hjalp ham. Næste år vandt han den samme turnering. Hallen var så fuld, at folk masede sig ind ad døren for at se finalen. Der var ikke plads til flere, men de masede alligevel.«\n\nEr det ikke farligt at gøre det hele til tal?\n\n»Jo, hvis man glemmer, hvorfor man spiller. Sportslige mål er gode, men de må ikke blive den eneste drivkraft. For de fleste børn begyndte det hele som morskab. De spillede bordtennis i kælderen med en far eller en bror for morskabens skyld. Den glæde er den stærkeste drivkraft, der findes. Jeg vil aldrig ophøje sejren til det vigtigste i klubben. Hvis man ophøjer sejren, mister mange børn lysten.«\n\nHvad betyder forældrene?\n\n»Rigtig meget. De bedste forældre giver deres børn ubetinget støtte. Ubetinget betyder, at støtten ikke afhænger af resultatet. De klapper lige meget, uanset om barnet vinder eller taber. Den sportslige udvikling kommer af sig selv, når barnet føler sig trygt.«\n\nSpørgsmål:\nHvorfor bruger Lone tal i sin træning?\nFordi spillernes følelse ofte snyder dem, og tallene tit afviger fra det, spilleren tror.\nHvordan opførte Mads' modstander sig?\nHan var respektløs. Han grinede, når Mads missede, og råbte, når han selv vandt.\nHvad viste tallene efter kampen?\nDe viste, at Mads havde vundet flere point end modstanderen i fire af de fem sæt.\nHvad skete der ved finalen næste år?\nHallen var så fuld, at folk masede sig ind ad døren, og Mads vandt turneringen.\nHvad mener Lone er den stærkeste drivkraft?\nHun mener, at glæden og morskaben ved spillet er den stærkeste drivkraft.\nHvad betyder ubetinget støtte?\nDet betyder, at støtten ikke afhænger af resultatet."
+    },
+    {
+      "title": "En by i tal",
+      "summary": "A municipal employee writes a report about a small fjord town and finds that the numbers tell a more hopeful story than he expected.",
+      "newWords": [
+        "udarbejdelse",
+        "pendle",
+        "lokation",
+        "udsyn",
+        "posthus",
+        "diskotek",
+        "attraktion",
+        "havfrue",
+        "inklusion"
+      ],
+      "text": "Rasmus arbejder på kommunens kontor for planlægning. I foråret fik han ansvaret for udarbejdelsen af en rapport om Hejlsby, en lille by ved fjorden med 2.400 indbyggere. Kommunen ville vide, om byen havde en fremtid. Udarbejdelsen skulle tage tre måneder, og Rasmus begyndte, som han altid gør: med tallene.\n\nDe første tal var ikke opmuntrende. I 1980 havde byen haft 3.100 indbyggere. Byens posthus lukkede i 2009, og i dag er det gamle posthus en café. Byens diskotek, hvor flere generationer havde danset lørdag aften, lukkede for ti år siden. Mange mente, at Hejlsby var en by på vej ned.\n\nMen så fandt Rasmus et andet tal. Hver morgen kører omkring 900 mennesker fra Hejlsby til arbejde i Aarhus eller Horsens. De pendler en time hver vej, og alligevel vælger de at blive boende. Antallet af folk, der pendler, er steget med en tredjedel på femten år. Rasmus undrede sig: Hvorfor vil så mange pendle så langt?\n\nHan tog ud til byen og talte med folk. Svaret var næsten altid det samme: byens lokation. Hejlsby ligger på en bakke ved fjorden, og fra næsten alle huse er der udsyn over vandet. »Jeg pendler gerne en time for at have det udsyn hver morgen,« sagde en kvinde. Husene er også billigere end i Aarhus. Som lokation er byen ideel for familier, der vil have plads og natur, men stadig arbejde i en større by.\n\nByen har desuden en lille attraktion. Ved havnen sidder en havfrue af bronze på en sten. Sagnet siger, at en havfrue engang reddede en fisker fra byen, og statuen blev sat op i 1950'erne. Hver sommer kommer turister for at se havfruen. Det er ikke en stor attraktion, men den giver liv på havnen.\n\nRasmus lagde også mærke til noget andet. Det gamle diskotek var blevet til et hus for foreninger, hvor nye borgere kunne møde de gamle. Byen gjorde meget ud af inklusion: Nye familier fik besøg af en nabo, og der var fællesspisning en gang om måneden. Den inklusion betød, at folk, der flyttede til, også blev.\n\nI sin rapport skrev Rasmus, at byen ikke var på vej ned, men på vej et andet sted hen. Den var ikke længere en by, hvor folk både boede og arbejdede. Den var blevet en by, hvor folk boede, fordi de ville.\n\nSpørgsmål:\nHvad skulle Rasmus lave i foråret?\nHan fik ansvaret for udarbejdelsen af en rapport om Hejlsby.\nHvad var der sket med byens posthus og diskotek?\nPosthuset lukkede i 2009 og er nu en café, og diskoteket lukkede for ti år siden.\nHvor mange mennesker pendler fra byen hver morgen?\nOmkring 900 mennesker pendler til Aarhus eller Horsens.\nHvorfor vil folk gerne bo i Hejlsby?\nPå grund af byens lokation ved fjorden, udsynet over vandet og de billigere huse.\nHvad er byens lille attraktion?\nDet er en havfrue af bronze, der sidder på en sten ved havnen.\nHvordan arbejdede byen med inklusion?\nNye familier fik besøg af en nabo, og der var fællesspisning en gang om måneden."
+    },
+    {
+      "title": "Halvtreds er to og en halv gange tyve",
+      "summary": "An Iraqi woman who runs a nail salon in Aarhus explains how she finally understood the Danish way of counting.",
+      "newWords": [
+        "irakisk",
+        "neglelak",
+        "halvtreds",
+        "vokal",
+        "feminin",
+        "forstille",
+        "mishandle",
+        "rav"
+      ],
+      "text": "Layla kom til Danmark fra Bagdad for tolv år siden. I dag har hun sin egen lille salon i Aarhus, hvor hun lægger neglelak og laver negle. Hun er irakisk, men hun taler dansk hver dag med sine kunder. Det, der var sværest, fortæller hun, var ikke grammatikken. Det var tallene.\n\n»På arabisk tæller man ret logisk,« siger hun. »Men på dansk siger man halvtreds, og hvad betyder det? Der står ikke fem, og der står ikke ti.« I de første år lærte hun bare tallene udenad, ligesom man lærer ord. En flaske neglelak kostede halvtreds kroner, og hun vidste, at halvtreds betød 50. Men hun forstod ikke hvorfor.\n\nEn dag forklarede en ældre kunde hende det. I gamle dage talte danskerne i tyvere. Halvtreds er en kort form af et længere ord, der betyder »halvtredje gange tyve«, og halvtredje betyder to og en halv. To og en halv gange tyve er 50. På samme måde betyder tres tre gange tyve. »Pludselig gav det mening,« siger Layla. »Det var ikke mærkeligt. Det var bare matematik fra en anden tid.«\n\nHun har også kæmpet med de danske vokaler. Dansk har mange flere vokaler end arabisk, og nogle vokaler lyder næsten ens for en, der ikke er født her. Layla siger, at danskerne mishandler deres vokaler, fordi de sluger halvdelen af dem. Hun siger det med et smil. Men hun indrømmer, at hendes egne vokaler også ofte blev mishandlet i begyndelsen.\n\nDer er ting, som er lettere på dansk. På arabisk har tallene både en feminin og en maskulin form, og formen afhænger af det ord, der kommer efter. Det er en regel, som børn lærer i skolen, men selv voksne kan tage fejl. På dansk er der ingen feminin form af tallene. »Det er en gave,« siger Layla.\n\nHun har én regel for at lære sprog: Man må aldrig forstille sig. Når hun ikke forstod en kunde i begyndelsen, sagde hun det. Hun forstillede sig ikke, og kunderne var glade for at hjælpe. Hvis man forstiller sig, lærer man ingenting.\n\nPå hylden i salonen ligger et lille stykke rav. Det fik hun af den ældre kunde, der forklarede hende ordet halvtreds. Kunden havde selv fundet det på stranden ved Vesterhavet. Rav er gammel harpiks fra træer, og det stykke er måske 40 millioner år gammelt. Når Layla ser på sit stykke rav, tænker hun på, at tal kan være mærkelige, men at de altid har en historie.\n\nSpørgsmål:\nHvor kommer Layla fra, og hvad laver hun?\nHun er irakisk og kom fra Bagdad. I dag lægger hun neglelak og laver negle i sin salon i Aarhus.\nHvad betyder halvtreds?\nHalvtreds betyder to og en halv gange tyve, altså 50.\nHvad siger Layla om de danske vokaler?\nHun siger med et smil, at danskerne mishandler deres vokaler, fordi de sluger halvdelen af dem.\nHvad er lettere på dansk end på arabisk?\nPå dansk har tallene ingen feminin form, sådan som de har på arabisk.\nHvad er Laylas regel for at lære sprog?\nHendes regel er, at man aldrig må forstille sig, men skal sige det, når man ikke forstår.\nHvor kommer stykket rav fra?\nHun fik det af en ældre kunde, som havde fundet det på stranden ved Vesterhavet."
+    }
+  ]
+}

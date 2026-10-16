@@ -1,0 +1,213 @@
+{
+  "id": "da-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Ingeniørkunst",
+  "description": "Ten standalone stories, reviews and essays about engineers at work: ships, water, rockets, forts, buildings, zoos, repairs and museums.",
+  "topic": "Engineering",
+  "names": [
+    "Svendborg",
+    "Ærø",
+    "Ærøskøbing",
+    "Hanne",
+    "København",
+    "EU",
+    "Bornholm",
+    "Mikkel",
+    "Oliver",
+    "Vejle",
+    "Jonas",
+    "Murat",
+    "Juliana",
+    "Costa",
+    "São",
+    "Paulo",
+    "Aarhus",
+    "Brasilien",
+    "Danmark",
+    "Sofie",
+    "Sofies",
+    "Lene",
+    "Lenes",
+    "Europa",
+    "Fyn",
+    "Henrik",
+    "Birthe",
+    "Poul",
+    "Pouls",
+    "Ida",
+    "Danmarks",
+    "Helsingør",
+    "Øresund"
+  ],
+  "lessons": [
+    {
+      "title": "Færgen fra værftet",
+      "summary": "An engineer at a small shipyard tells how the team finished a new electric ferry on time after an inspection found faults.",
+      "newWords": [
+        "værft",
+        "sædvanligvis",
+        "udbetaling",
+        "skrap",
+        "inspektion",
+        "kassere",
+        "udsættelse",
+        "uafbrudt",
+        "overarbejde",
+        "hast",
+        "prægtig"
+      ],
+      "text": "Jeg har arbejdet som ingeniør på et lille værft i Svendborg i snart tolv år. Sædvanligvis bygger vi fiskerbåde og mindre arbejdsskibe, men sidste år fik værftet den største ordre i sin historie: en ny færge til Ærø. Færgen skulle sejle på strøm fra store batterier, og den skulle være klar til sommer. Rederiet havde gjort det klart, at den sidste udbetaling først ville komme, når færgen lå ved kajen i Ærøskøbing.\n\nVores projektleder, Hanne, er kendt for at være skrap. Hun er ikke sur, men hun tager ikke imod undskyldninger, og hun læser hver eneste tegning igennem, før den bliver sendt videre. »Et skib er ikke et sted, hvor man kan gætte,« siger hun sædvanligvis, når nogen klager over hendes mange spørgsmål. Hun er skrap, fordi hun ved, at hundredvis af mennesker skal sejle med det, vi bygger.\n\nI februar kom der en inspektion fra de myndigheder, der kontrollerer, at skibe bliver bygget efter reglerne. Under inspektionen fandt de fejl i stålet i bunden af skroget. Det var ikke farligt endnu, men det kunne blive det med tiden. Vi måtte kassere fire store plader af stål, og to af dem havde allerede kostet os en uges arbejde. Det var tungt at se dem blive kasseret og kørt væk på en lastbil.\n\nHanne samlede os alle sammen. »Vi kan bede om en udsættelse,« sagde hun, »men en udsættelse betyder, at øen står uden ny færge hele sommeren. Og så bliver den sidste udbetaling også udsat.« Ingen af os ønskede en udsættelse. Vi besluttede i stedet at arbejde i hold, så der blev arbejdet uafbrudt, dag og nat, i seks uger. Maskinerne stod aldrig stille, og lyset i hallen var tændt uafbrudt.\n\nDet betød meget overarbejde. Nogle kolleger tog overarbejdet med et smil, fordi pengene var gode. Andre savnede deres familier. Selv kom jeg hjem, når mine børn var gået i seng, og tog af sted igen, før de var vågnet. Men arbejdet foregik ikke i hast på den dårlige måde. Hanne sørgede for, at vi aldrig sprang en kontrol over, selv om tiden var knap. »Hast og omhu kan godt gå hånd i hånd,« sagde hun, »hvis man ved, hvad man laver.«\n\nI maj kom inspektionen igen, og denne gang fandt de ingen fejl. To uger senere blev færgen sat i vandet, og jeg har aldrig set et mere prægtigt skib. Færgen var hvid og blå og lå roligt i havnen, mens folk fra hele byen stod på kajen og klappede. Den første juni sejlede den prægtige færge til Ærø, og et par dage senere kom den sidste udbetaling. Hanne gav kage til hele værftet, og for en gangs skyld sagde hun ikke noget skrapt.\n\nSpørgsmål:\nHvad bygger værftet sædvanligvis?\nSædvanligvis bygger værftet fiskerbåde og mindre arbejdsskibe.\nHvad fandt man under inspektionen i februar?\nMan fandt fejl i stålet i bunden af skroget, og fire plader af stål måtte kasseres.\nHvorfor ønskede ingen en udsættelse?\nFordi øen så ville stå uden ny færge hele sommeren, og fordi den sidste udbetaling også ville blive udsat.\nHvordan blev de færdige til tiden?\nDe arbejdede i hold, så der blev arbejdet uafbrudt dag og nat i seks uger, og der var meget overarbejde.\nHvad mente Hanne om hast?\nHun mente, at hast og omhu godt kan gå hånd i hånd, hvis man ved, hvad man laver."
+    },
+    {
+      "title": "Det, vi skyller ud",
+      "summary": "A short informative text explains what happens to the water from our toilets and why cleaning it matters.",
+      "newWords": [
+        "husholdning",
+        "afføring",
+        "hygiejne",
+        "gæng",
+        "separere",
+        "udlede",
+        "bestand",
+        "direktiv",
+        "opsamling",
+        "indspil"
+      ],
+      "text": "De fleste af os tænker ikke over, hvad der sker, når vi trækker ud i toilettet. Vandet forsvinder, og dermed er sagen ude af verden. Men for de ingeniører, der arbejder med kloakker og anlæg til at rense vand, begynder arbejdet netop dér.\n\nEn almindelig husholdning bruger mere vand, end man skulle tro. Vand fra toilettet, fra badet, fra opvasken og fra vaskemaskinen løber ud i det samme rør. I det vand er der afføring, papir, fedt, sæbe og rester af mad. Når vandet fra tusindvis af husholdninger mødes i kloakken, bliver det til en flod, som skal renses, før den må komme ud i naturen igen.\n\nDet har ikke altid været sådan. I 1800-tallet var hygiejnen i de danske byer dårlig. Afføring fra husene løb ofte ud i de samme kanaler og brønde, som folk hentede vand fra, og i 1853 døde tusindvis af mennesker i København af en sygdom, som spredte sig gennem det beskidte vand. Først da forstod man for alvor, at god hygiejne ikke kun er et spørgsmål om at vaske hænder, men også om rør, pumper og rent vand.\n\nDen gængse opfattelse er, at et anlæg til at rense vand blot er et stort filter. Det er ikke helt rigtigt. Først fjernes de store ting med en rist, og sand og grus synker til bunds. Derefter får bakterier lov at spise det meste af det, der er tilbage. Til sidst skal man separere det rene vand fra det slam, bakterierne efterlader. Når man har separeret de to dele, kan slammet bruges på markerne eller laves om til gas, og vandet kan udledes i havet eller i en fjord.\n\nHvad der må udledes, er nøje fastsat, og de gængse regler er blevet strengere med årene. I 1970'erne udledte mange byer deres vand næsten uden at rense det. Bestanden af fisk i flere fjorde faldt, og om sommeren var vandet grønt og lugtede grimt. I 1991 vedtog det, der i dag hedder EU, et direktiv, som krævede, at alle større byer skulle rense deres vand. Siden er bestanden af fisk mange steder vokset igen, og et nyt direktiv stiller endnu strengere krav.\n\nDen største opgave i dag er regnen. Når det regner meget på kort tid, kan kloakken ikke følge med, og så løber beskidt vand ud i naturen. Derfor bygger mange kommuner store bassiner til opsamling af vand under kraftig regn. Opsamlingen giver anlægget tid til at rense vandet bagefter, i stedet for at det løber direkte ud.\n\nFlere kommuner beder nu borgerne om indspil, før de bygger et nyt bassin. Det er en god idé. Et indspil fra dem, der bor ved siden af, kan gøre et bassin til en park med græs og træer, når det ikke regner. Og så tænker vi måske lidt mere over, hvad vi skyller ud.\n\nSpørgsmål:\nHvad er der i vandet fra en almindelig husholdning?\nDer er afføring, papir, fedt, sæbe og rester af mad.\nHvorfor var hygiejnen et problem i 1800-tallet?\nFordi afføring fra husene løb ud i det samme vand, som folk hentede vand fra.\nHvad sker der til sidst i anlægget?\nMan separerer det rene vand fra slammet, og vandet kan udledes i havet eller i en fjord.\nHvad skete der efter direktivet fra 1991?\nMange byer begyndte at rense deres vand, og bestanden af fisk voksede igen mange steder.\nHvorfor bygger kommunerne bassiner?\nDe bygger bassiner til opsamling af vand under kraftig regn, så kloakken kan følge med."
+    },
+    {
+      "title": "Raketten ved Bornholm",
+      "summary": "An engineer in an amateur rocket club tells how her intuition saved a launch that was meant to measure cosmic radiation.",
+      "newWords": [
+        "arrangør",
+        "energisk",
+        "kosmisk",
+        "titan",
+        "volt",
+        "adrenalin",
+        "intuition",
+        "eftertanke",
+        "hovsa",
+        "affyring"
+      ],
+      "text": "For fem år siden meldte jeg mig ind i en klub af frivillige, der bygger raketter i fritiden. De fleste af os er ingeniører, men der er også en tømrer, en lærer og to studerende. I sommer skulle vi sende vores hidtil største raket op fra en platform i havet syd for Bornholm.\n\nDagens arrangør var Mikkel, en energisk mand på 60, der havde sørget for alt fra tilladelser til madpakker. Han løb rundt på båden fra klokken fem om morgenen, og hans energiske stemme kunne høres over hele dækket. Uden en arrangør som Mikkel var raketten aldrig kommet ud af værkstedet.\n\nRaketten skulle ikke ud i rummet, men den skulle højt nok op til at måle kosmisk stråling. Den kosmiske stråling består af små partikler, som kommer langt ude fra rummet og hele tiden rammer jorden. Vi ville måle, hvor meget stråling der er i forskellige højder. Instrumentet sad i rakettens spids, i en lille kasse af titan. Titan er både let og meget stærkt, og derfor bruges titan ofte i fly og raketter. Instrumentet fik strøm fra et batteri på 12 volt, og vi havde kontrolleret mange gange, at der var 12 volt på ledningen.\n\nDa der var en time til affyringen, kunne jeg mærke adrenalinet i kroppen. Mine hænder rystede lidt, og mit hjerte bankede. Det er det samme hver gang: adrenalin gør én skarp, men også urolig. Alt så ud til at være i orden, men min intuition sagde mig, at noget ikke var, som det skulle være. Jeg kunne ikke forklare det. Det var bare en følelse.\n\nJeg gik hen til Mikkel. »Kan vi vente ti minutter?« spurgte jeg. Han så på mig og tænkte sig om. »Er det din intuition igen, Lene?« spurgte han. Jeg nikkede. Efter lidt eftertanke sagde han ja. Han vidste, at en udsat affyring er bedre end en mislykket.\n\nSammen med Oliver, en af de studerende, åbnede jeg lugen til instrumentet. Jeg rørte forsigtigt ved ledningen fra batteriet, og den gled lige ud. »Hovsa,« sagde Oliver stille. Den sad kun løst fast. Under affyringen ville den med sikkerhed være faldet ud, og vi ville ikke have målt noget som helst. Vi satte den ordentligt fast og målte igen: 12 volt.\n\nEn halv time senere talte Mikkel ned fra ti, og raketten steg mod himlen med et brøl. Instrumentet sendte målinger hjem i fire minutter, indtil raketten faldt ned i havet med sin faldskærm. Om aftenen sagde Mikkel, at han efter nogen eftertanke ville skrive en ny regel ind i vores liste: Hvis nogen har en dårlig fornemmelse, venter vi. Oliver tilføjede, at reglen burde hedde »hovsa-reglen«.\n\nSpørgsmål:\nHvem var dagens arrangør, og hvordan var han?\nDet var Mikkel, en energisk mand på 60, der havde sørget for alt.\nHvad skulle raketten måle?\nDen skulle måle kosmisk stråling i forskellige højder.\nHvorfor sad instrumentet i en kasse af titan?\nFordi titan er både let og meget stærkt.\nHvad sagde Lenes intuition før affyringen?\nLenes intuition sagde, at noget ikke var, som det skulle være.\nHvad fandt de, da de åbnede lugen?\nDe fandt ud af, at ledningen fra batteriet kun sad løst fast."
+    },
+    {
+      "title": "Fortet i havet",
+      "summary": "A review of a documentary about an old sea fort that was built to defend Copenhagen but never had to fight.",
+      "newWords": [
+        "dokumentarfilm",
+        "omstridt",
+        "hidtidig",
+        "animere",
+        "kommandant",
+        "artilleri",
+        "udkæmpe",
+        "fordrive",
+        "censur",
+        "videreføre"
+      ],
+      "text": "Det er ikke hver dag, at en dokumentarfilm om beton og kanoner får publikum til at blive siddende, til rulleteksterne er slut. Men det gør »Fortet i havet«, en ny dansk dokumentarfilm om et af de forter, der blev bygget i vandet ud for København for godt 100 år siden.\n\nFilmen begynder med baggrunden. I slutningen af 1800-tallet frygtede mange politikere, at hovedstaden kunne blive angrebet fra havet. Derfor besluttede man at bygge en række forter rundt om byen, både på land og i vandet. Planen var stærkt omstridt. Nogle mente, at det var spild af penge, fordi et lille land alligevel ikke kunne forsvare sig mod en stormagt. Andre mente, at uden nye forter ville byen være helt uden beskyttelse. Filmen viser fint, hvor omstridt sagen var, uden at tage parti.\n\nDet mest interessante er dog selve byggeriet. Ingeniørerne skulle bygge en ø, hvor der før kun var vand. De sænkede store kasser ned på havbunden og fyldte dem med sten og beton. De hidtidige film om forterne har mest handlet om soldaterne. Den hidtidige viden om selve byggeriet har været lille, men instruktøren har fundet nye tegninger i et arkiv. Ud fra dem har hun ladet animere hele processen. De animerede scener viser, lag for lag, hvordan øen vokser op af havet, og man forstår pludselig, hvor stor en opgave det var. Det er sjældent, at animerede tegninger gør så meget for en historie.\n\nBagefter følger vi livet på fortet gennem den første kommandants dagbog. Kommandanten skrev om vind og is, om de tunge kanoner og om de mange øvelser med artilleriet. Fortets artilleri kunne skyde flere kilometer ud over vandet, men det blev aldrig brugt i krig. Der blev aldrig udkæmpet et eneste slag ved fortet. De slag, der blev udkæmpet i Europa, foregik langt væk. I stedet handlede hverdagen om at fordrive tiden. Soldaterne fordrev de lange vinteraftener med kort, sang og breve hjem.\n\nUnder Første Verdenskrig var der soldater på fortet hele tiden, og deres breve blev sendt gennem censur. Soldaterne måtte ikke skrive, hvor de var, eller hvor mange de var. Filmen viser et brev, hvor censuren har fjernet halvdelen af linjerne, så kun »kære mor« og »din søn« er tilbage. Det er en lille scene, men den siger mere om krigen end mange store ord.\n\nFilmens svage side er slutningen, som er lidt for lang. Til gengæld får vi at vide, at en gruppe frivillige i dag vil videreføre arbejdet med at passe på fortet, så det ikke falder i havet. Man håber, de får penge nok til at videreføre det. »Fortet i havet« er en rolig og klog dokumentarfilm, der gør beton til noget, man føler noget for.\n\nSpørgsmål:\nHvorfor var planen om forterne omstridt?\nNogle mente, at forterne var spild af penge, mens andre mente, at byen ellers ville være uden beskyttelse.\nHvordan viser filmen byggeriet?\nInstruktøren har ladet animere processen ud fra nye tegninger, så man ser øen vokse op af havet.\nHvad skrev kommandanten om i sin dagbog?\nHan skrev om vind og is, om kanonerne og om øvelserne med artilleriet.\nHvordan fordrev soldaterne tiden?\nDe fordrev de lange aftener med kort, sang og breve hjem.\nHvad vil de frivillige videreføre?\nDe vil videreføre arbejdet med at passe på fortet."
+    },
+    {
+      "title": "Ingeniøren og magten",
+      "summary": "An essay weighs whether an engineer can be neutral when building for a dictator.",
+      "newWords": [
+        "diktator",
+        "ideologisk",
+        "stilart",
+        "kendetegne",
+        "iscenesætte",
+        "problemstilling",
+        "mordforsøg",
+        "modsætte",
+        "fritage",
+        "bedrage"
+      ],
+      "text": "Er en bro bare en bro? Mange ingeniører vil svare ja. En bro skal kunne bære sin egen vægt og trafikken, og den skal stå i mindst 100 år. Om den bliver betalt af et demokrati eller af en diktator, ændrer ikke på beregningerne. Alligevel er sagen ikke helt så enkel, og det er den problemstilling, jeg vil se nærmere på her.\n\nI det 20. århundrede elskede flere diktatorer store byggerier. De byggede brede veje, enorme stadioner og bygninger med hundredvis af søjler. Byggerierne skulle ikke kun bruges; de skulle også ses. Det var en ideologisk opgave lige så meget som en teknisk. En diktator ville vise, at hans system var stærkt, moderne og evigt, og byggerierne skulle fortælle den ideologiske historie for ham.\n\nDet kan man se på deres stilart. Den stilart, som mange af regimerne valgte, var kendetegnet ved store, symmetriske facader, tunge sten og en skala, der fik det enkelte menneske til at føle sig lille. Det kendetegnende var netop, at bygningen var større end mennesket. Man kan sige, at magten blev iscenesat i beton. Store parader blev iscenesat foran bygningerne, og ingeniørerne beregnede, hvor mange tusinde mennesker pladsen kunne rumme.\n\nEt eksempel viser, hvor tæt teknik og magt kan komme på hinanden. Efter et mordforsøg på en diktator i 1930'erne fik en gruppe ingeniører til opgave at bygge et sikkert tog til ham, med vinduer, der kunne tåle skud. Ingen af dem havde noget med mordforsøget at gøre, og togets konstruktion var i sig selv neutral. Men toget gjorde det lettere for en diktator at blive ved magten.\n\nKunne ingeniørerne have sagt nej? Nogle gjorde. Enkelte modsatte sig ordrer, og de betalte ofte en høj pris. Det er let for os at kræve, at alle skulle have gjort det samme, når vi selv sidder i sikkerhed. At modsætte sig en diktator kræver et mod, de færreste af os har prøvet at have brug for.\n\nPå den anden side er man ikke fritaget for ansvar, blot fordi man kun regner. Det er fristende at tro, at teknikken fritager os for at tage stilling. Men det er netop dér, man kan bedrage sig selv. Man siger til sig selv, at man bare bygger en bro, og glemmer, hvem der skal gå over den, og hvem der ikke må. En ingeniør kan bedrage sin egen samvittighed med tal, lige så vel som en politiker kan bedrage andre med ord.\n\nMit svar er derfor et forsigtigt nej. En bro er en bro, men den, der bygger den, er også et menneske. Det betyder ikke, at alle ingeniører skal være helte. Det betyder, at de skal stille de samme spørgsmål som alle andre: Hvem tjener det her, og hvad er det med til at gøre muligt?\n\nSpørgsmål:\nHvilken problemstilling handler teksten om?\nDen handler om, hvorvidt en ingeniør kan være neutral, når han bygger for en diktator.\nHvad var den stilart, mange regimer valgte, kendetegnet ved?\nDen var kendetegnet ved store, symmetriske facader, tunge sten og en meget stor skala.\nHvad skete der efter mordforsøget på diktatoren?\nEn gruppe ingeniører fik til opgave at bygge et sikkert tog til ham.\nHvorfor er det svært at modsætte sig en diktator?\nFordi det kræver stort mod, og man ofte betaler en høj pris.\nHvordan kan en ingeniør bedrage sig selv?\nHan kan sige til sig selv, at han bare bygger en bro, og glemme, hvem der skal bruge den."
+    },
+    {
+      "title": "Søm på byggepladsen",
+      "summary": "A young site engineer solves a problem with punctured tyres while a new department store is built next to a petrol station.",
+      "newWords": [
+        "byggeplads",
+        "varehus",
+        "tankstation",
+        "boring",
+        "ugevis",
+        "tyrker",
+        "kasket",
+        "punktere",
+        "trille",
+        "oprydning",
+        "sennep"
+      ],
+      "text": "Jonas var 26 år og nyuddannet ingeniør, da han fik sit første job som leder af en byggeplads. Firmaet skulle bygge et stort varehus uden for Vejle, lige ved siden af en tankstation og motorvejen. Varehuset skulle være på to etager og have plads til både møbler, tøj og en café.\n\nFør byggeriet kunne begynde, skulle man vide, hvordan jorden under varehuset var. Derfor blev der lavet en række boringer. Ved en boring borer man et dybt hul i jorden og tager prøver op, så man kan se, hvad der er længere nede. Boringerne viste, at jorden var blød ler i flere meters dybde. Det betød, at varehuset ikke kunne stå direkte på jorden. Der skulle først slås lange pæle af beton ned, som varehuset kunne hvile på.\n\nSå begyndte det at regne. Det regnede i ugevis, og byggepladsen blev til et hav af mudder. Arbejdet med pælene gik langsomt, og Jonas brugte ugevis på at lave nye planer. Hver morgen kørte han ind på byggepladsen med en klump i maven.\n\nJonas' bedste hjælp var Murat, der førte den store kran. Murat er tyrker og kom til Danmark som dreng, og han havde arbejdet på byggepladser i 30 år. Han gik altid med en rød kasket, også når det regnede. »Kasketten holder regnen væk fra brillerne,« sagde han. Når Jonas var i tvivl, så han efter den røde kasket.\n\nEn dag punkterede en lastbil på vej ind på pladsen. Dagen efter punkterede to mere. Jonas forstod ikke, hvad der skete. Murat tog ham med hen til indkørslen og pegede på jorden. Overalt lå der søm og små stykker metal. De var faldet af, når man trillede materialer rundt i trillebøre, og regnen havde skyllet dem hen mod indkørslen. »Det har jeg set før,« sagde Murat og smilede. »Det er ikke regnen. Det er oprydningen.«\n\nJonas indførte en ny regel: Hver dag klokken 14 stoppede alt arbejde i 15 minutter til oprydning. Alle samlede søm, plastik og affald op, også Jonas selv. Nogle brokkede sig i starten, men efter en uge var der ikke flere lastbiler, der punkterede.\n\nOm fredagen gik Jonas og Murat ofte over til tankstationen og købte pølser med sennep. Murat tog altid dobbelt sennep. »Sennep og en god oprydning,« sagde han, »det er hemmeligheden bag ethvert byggeri.«\n\nEt år senere åbnede varehuset. Jonas stod ved indgangen og så folk trille af sted med fyldte vogne. Det var svært at tro, at stedet engang havde været et hav af mudder.\n\nSpørgsmål:\nHvad skulle firmaet bygge, og hvor?\nFirmaet skulle bygge et varehus uden for Vejle, ved siden af en tankstation og motorvejen.\nHvad viste boringerne?\nBoringerne viste, at jorden var blød ler i flere meters dybde.\nHvem var Murat?\nMurat var en tyrker, der førte kranen, og han gik altid med en rød kasket.\nHvorfor punkterede lastbilerne?\nDe punkterede, fordi der lå søm og små stykker metal ved indkørslen.\nHvordan løste Jonas problemet?\nHan indførte 15 minutters oprydning hver dag klokken 14."
+    },
+    {
+      "title": "Fra São Paulo til Aarhus",
+      "summary": "A profile of a Brazilian engineer in Denmark who has just been re-elected to lead a network for women in engineering.",
+      "newWords": [
+        "brasiliansk",
+        "husmor",
+        "akademiker",
+        "opholdstilladelse",
+        "stræber",
+        "ulige",
+        "fyrre",
+        "hverv",
+        "genvalg"
+      ],
+      "text": "Når Juliana Costa taler om broer, lyser hendes ansigt op. Den 49-årige brasilianske ingeniør har i ti år arbejdet med at beregne broer og tunneler for et rådgivende firma i Aarhus. I sidste uge blev hun genvalgt som formand for et landsdækkende netværk for kvinder i tekniske fag.\n\nJuliana voksede op i São Paulo som den yngste af fire søskende. Hendes far var mekaniker, og hendes mor var husmor. »Min mor var husmor hele sit liv, men hun var den klogeste person i vores hus,« siger hun. »Hun regnede alt ud i hovedet, fra husleje til madbudget. Jeg tror, jeg har mine tal fra hende.« Juliana blev den første akademiker i familien. Hendes forældre forstod ikke helt, hvad en akademiker lavede, men de var stolte.\n\nSom 32-årig flyttede hun til Danmark sammen med sin danske mand. Det første halve år var svært. Hun måtte vente i flere måneder på sin opholdstilladelse, og indtil hun fik den, kunne hun ikke arbejde. »Jeg tjekkede posten hver dag. Da brevet med opholdstilladelsen endelig kom, græd jeg,« fortæller hun.\n\nPå sin første arbejdsplads blev hun hurtigt kaldt en stræber. Hun kom tidligt, gik sent og stillede mange spørgsmål. »I Brasilien er det normalt at vise, at man vil noget. Her betød ordet stræber noget negativt, og det forstod jeg først senere,« siger hun og griner. »Jeg var ikke en stræber. Jeg var bare bange for at blive set som en, der ikke kunne sit fag.«\n\nDet var også dengang, hun lagde mærke til, hvor ulige fordelingen var. På hendes afdeling var der fyrre ingeniører, og kun fem af dem var kvinder. I hele landet er omkring en tredjedel af de nye ingeniørstuderende i dag kvinder, men på de tekniske fag, hvor man regner på broer og maskiner, er tallet stadig lavt. »Det er ulige, men det er ikke nogens skyld alene,« siger hun. »Mange piger får aldrig at vide, at de kunne blive gode til det.«\n\nDerfor sagde hun ja, da netværket for fire år siden bad hende tage hvervet som formand. Hvervet er ulønnet og tager mange aftener. Hun besøger gymnasier, holder foredrag og hjælper unge kvinder med at finde en mentor. Ved genvalget i sidste uge stemte næsten alle for hende. »Et genvalg er rart, men det vigtigste er, at flere kommer med,« siger hun.\n\nOm fyrre år håber hun, at der ikke længere er brug for netværket. »Så har vi gjort vores arbejde,« siger hun. »Og så vil jeg gerne sidde på en bro, jeg selv har beregnet, og fiske.«\n\nSpørgsmål:\nHvad arbejder Juliana med?\nHun er brasiliansk ingeniør og beregner broer og tunneler for et firma i Aarhus.\nHvad siger hun om sin mor, der var husmor?\nHun siger, at hendes mor var den klogeste person i huset og regnede alt ud i hovedet.\nHvorfor var det første halve år i Danmark svært?\nHun måtte vente i flere måneder på sin opholdstilladelse og kunne ikke arbejde imens.\nHvorfor blev hun kaldt en stræber?\nFordi hun kom tidligt, gik sent og stillede mange spørgsmål.\nHvad laver hun i sit hverv som formand?\nHun besøger gymnasier, holder foredrag og hjælper unge kvinder med at finde en mentor."
+    },
+    {
+      "title": "Et nyt hjem til pandaen",
+      "summary": "An engineer who designs zoo enclosures plans new homes for reindeer, camels, llamas and a panda.",
+      "newWords": [
+        "rensdyr",
+        "myg",
+        "kamel",
+        "lama",
+        "krølle",
+        "panda",
+        "bedøvelse",
+        "mistænksom",
+        "overreagere",
+        "kosttilskud"
+      ],
+      "text": "Sofie er ingeniør, men hun bygger hverken broer eller veje. Hun tegner hjem til dyr i en zoologisk have på Fyn. »Det er det sværeste, jeg har prøvet,« siger hun. »En bro klager ikke, hvis den ikke kan lide sin nye plads. Det gør dyrene.«\n\nI år har hun haft tre store opgaver. Den første var et nyt område til havens rensdyr. Rensdyr kommer fra de kolde egne i nord, og de har det svært i en varm dansk sommer. Sofie tegnede derfor et område med skygge, en lille sø med koldt vand og et rum, hvor rensdyrene kan gå ind i køligere luft. Søen gav dog et nyt problem: myg. Vand, der står stille, er et paradis for myg, og myggene plagede både dyr og gæster. Sofies løsning var en lille pumpe, der hele tiden holder vandet i bevægelse. Myg lægger nemlig helst deres æg i vand, der står stille.\n\nDen anden opgave var en stald til en kamel og tre lamaer, som skal bo sammen. Det lyder mærkeligt, men en kamel og en lama er faktisk i familie med hinanden. Kamelen har brug for meget plads og tør jord under fødderne, mens lamaerne har brug for et sted at søge ly for regnen. Lamaerne har tykke krøller, som bliver tunge og våde i det danske vejr, og hvis krøllerne ikke tørrer, kan dyrene blive syge. Sofie byggede et tag med åbne sider, så luften kan komme igennem, og kamelen fik en stor sandet plads for sig selv.\n\nDen tredje og sværeste opgave var et nyt hus til en panda. Pandaen skulle flyttes fra sit gamle hus til det nye, og det skulle ske under bedøvelse. En dyrlæge gav pandaen bedøvelsen tidligt om morgenen, og mens den sov, blev den kørt over i sit nye hjem.\n\nDa pandaen vågnede, var den mistænksom. Den gemte sig bag en sten og ville ikke komme frem i to dage. Den rørte heller ikke sin mad. Sofie blev bekymret og ville ændre huset med det samme. Men dyrepasseren, Henrik, bad hende om ikke at overreagere. »Alle dyr er mistænksomme over for et nyt sted,« sagde han. »Hvis vi overreagerer og laver alt om, bliver den bare mere urolig.«\n\nHenrik gav pandaen bambus med lidt kosttilskud, så den fik de stoffer, den manglede, selv om den spiste mindre. Han blandede kosttilskud ind i maden, så pandaen ikke opdagede det. »Kosttilskud er ikke medicin,« forklarede han, »men det hjælper, når et dyr er stresset.« På den tredje dag kom pandaen frem og spiste langsomt et helt bundt bambus. Sofie stod uden for glasset og smilede. Huset virkede.\n\nSpørgsmål:\nHvorfor har rensdyr det svært om sommeren i Danmark?\nFordi de kommer fra de kolde egne i nord og ikke kan lide varmen.\nHvordan løste Sofie problemet med myg?\nHun satte en pumpe i søen, så vandet hele tiden er i bevægelse.\nHvorfor kan lamaernes krøller give problemer?\nKrøllerne bliver tunge og våde i regnvejr, og hvis de ikke tørrer, kan dyrene blive syge.\nHvordan blev pandaen flyttet?\nDen fik bedøvelse og blev kørt over i sit nye hus, mens den sov.\nHvad sagde Henrik, da Sofie ville ændre huset?\nHan bad hende om ikke at overreagere, fordi alle dyr er mistænksomme over for et nyt sted."
+    },
+    {
+      "title": "Lørdag på reparationscaféen",
+      "summary": "A retired engineer spends a Saturday repairing things for his neighbours at a repair café.",
+      "newWords": [
+        "værtinde",
+        "dug",
+        "indvolde",
+        "synsk",
+        "grød",
+        "kit",
+        "sengetøj",
+        "trygle"
+      ],
+      "text": "Den første lørdag i hver måned er jeg frivillig på en reparationscafé i vores lokale forsamlingshus. Jeg var elektroingeniør i 40 år, og nu bruger jeg min viden på at reparere naboernes ting, så de ikke ender på lossepladsen.\n\nCaféens værtinde hedder Birthe. Hun var lærer, før hun gik på pension, og hun har styr på det hele. Hun laver kaffe, tager imod folk ved døren og skriver ned, hvad de har med. Det første, Birthe gør om morgenen, er at lægge en gammel dug på hvert bord. »Duge kan vaskes. Borde kan ikke,« siger hun, og hun har ret. Sidst på dagen er dugene fulde af olie og pletter.\n\nDen første gæst var en ældre dame med en elektrisk gryde. Hun havde kogt grød i den hver morgen i 20 år, men nu ville den ikke længere blive varm. Jeg skruede bunden af og kiggede ind i grydens indvolde. Det er altid det mest spændende øjeblik. En maskines indvolde fortæller, hvordan den er blevet brugt, og hvem der har lavet den. »Kan du se, hvad der er galt?« spurgte hun. »Jeg er ikke synsk,« svarede jeg, »men giv mig ti minutter.« Det var en lille ledning, der var brændt over. Efter en halv time kunne hun gå hjem og koge grød igen.\n\nDerefter kom en ung mand med en gammel vinduesramme fra sit hus. Kittet, der holder glasset fast, var tørt og faldt af i små stykker. Han havde aldrig arbejdet med kit før. Jeg viste ham, hvordan man fjerner det gamle kit med en kniv og trykker nyt kit på plads med fingrene. »Det er jo slet ikke svært,« sagde han bagefter. Det er det sjældent, når man først har set det.\n\nVed middagstid kom en kvinde med en symaskine. Hun syede sit eget sengetøj, men maskinen sprang sting over, så sømmene i sengetøjet gik op. Her var jeg ikke selv nogen ekspert, men Birthe var. Hun stillede maskinen rigtigt på et par minutter. Man behøver ikke være synsk for at se, at Birthe kan mere, end hun giver sig ud for.\n\nDen sidste gæst var en dreng på syv år, der kom med sin far og et legetøjstog, der ikke ville køre. Faren sagde, at det var for sent, og at vi var ved at pakke sammen. Men drengen begyndte at trygle. »Vær nu sød, bare fem minutter,« tryglede han. Hvem kan sige nej, når et barn trygler på den måde? Jeg skiftede batterierne og rensede et lille hjul, og toget kørte igen. Drengen klappede, og Birthe gav ham den sidste bolle.\n\nSpørgsmål:\nHvad gør værtinden Birthe om morgenen?\nHun lægger en gammel dug på hvert bord.\nHvad var der galt med den ældre dames gryde?\nEn lille ledning i grydens indvolde var brændt over, så den ikke blev varm og ikke kunne koge grød.\nHvad svarede fortælleren, da damen spurgte, hvad der var galt?\nHan svarede, at han ikke var synsk, men at hun skulle give ham ti minutter.\nHvad lærte den unge mand?\nHan lærte at fjerne det gamle kit og trykke nyt kit på plads.\nHvorfor fik drengen sit tog repareret?\nFordi han tryglede om fem minutter mere, og fortælleren ikke kunne sige nej."
+    },
+    {
+      "title": "Morfar og damptoget",
+      "summary": "A grandfather and his granddaughter visit a technology museum, where he meets the kind of steam locomotive he once worked on.",
+      "newWords": [
+        "kølle",
+        "regnbue",
+        "refleksion",
+        "nervesystem",
+        "yndling",
+        "futte",
+        "genforening",
+        "udenad",
+        "boghandel"
+      ],
+      "text": "En søndag i oktober tog Poul sit barnebarn Ida med på Danmarks Tekniske Museum i Helsingør. Ida var ti år, og Poul havde i sin ungdom arbejdet ved jernbanen. Han havde glædet sig i ugevis.\n\nDen første sal hed »Fra kølle til computer«. Allerforrest lå en kølle af træ, som var flere tusinde år gammel. »Det var et af menneskets første redskaber,« læste Ida højt. Poul forklarede, at en kølle egentlig er en simpel maskine. Den gør armen længere, så slaget bliver stærkere. »Al teknik begynder med at gøre noget lidt lettere for mennesket,« sagde han. Ida så længe på køllen og sagde, at den lignede en helt almindelig gren.\n\nI næste sal stod et stykke glas med tre kanter i en lysstråle. På væggen bag glasset var der en lille regnbue. Ida ville vide, hvordan glasset kunne lave en regnbue. Poul forklarede, at hvidt lys i virkeligheden består af mange farver, og at glasset bøjer farverne forskelligt, så de skilles ad. Den samme ting sker, når solen skinner gennem regndråber, og der kommer en regnbue på himlen. Ved siden af hang et spejl, hvor man kunne se lysets refleksion. »Refleksion betyder, at lyset bliver kastet tilbage,« sagde Poul. Ida legede længe med lysets refleksion i spejlet.\n\nSå kom de til en gammel telefoncentral. En skærm forklarede, at telefonnettet var byens nervesystem. Ligesom kroppens nervesystem sender signaler fra hjernen ud til hænder og fødder, sendte ledningerne beskeder fra hus til hus. Ida syntes, det var en god måde at forklare det på.\n\nI det sidste rum stod de gamle tog. Midt i rummet stod et stort, sort damplokomotiv, præcis som det, Poul havde arbejdet på som ung. Den slags lokomotiv havde altid været Pouls yndling. Han lagde hånden på det kolde metal og var stille et øjeblik. »Det er som en genforening med en gammel ven,« sagde han. Han fortalte, hvordan toget futtede ud fra stationen om morgenen, med røg og damp og en lyd, man kunne høre over hele byen. Ida prøvede at efterligne lyden. Hun futtede rundt om lokomotivet, og Poul grinede.\n\nPoul kunne stadig alle togets dele udenad. Han nævnte dem en efter en, og Ida prøvede at lære nogle af dem udenad. Hun fik fire med, før hun gav op.\n\nEfter museet gik de ind i en lille boghandel på gågaden. Ida fandt en bog om damptog med mange billeder, og Poul købte den til hende. »Det her bliver min nye yndling,« sagde hun. Damen i boghandelen pakkede bogen ind i papir, og de gik ud i det kolde efterår, hvor solen var på vej ned over Øresund.\n\nSpørgsmål:\nHvad lå allerforrest i den første sal?\nDer lå en kølle af træ, som var flere tusinde år gammel.\nHvordan kan glasset lave en regnbue?\nHvidt lys består af mange farver, og glasset bøjer farverne forskelligt, så de skilles ad.\nHvorfor kaldte man telefonnettet byens nervesystem?\nFordi ledningerne sendte beskeder fra hus til hus, ligesom kroppens nervesystem sender signaler.\nHvorfor talte Poul om en genforening?\nFordi lokomotivet lignede det, han havde arbejdet på som ung, og det var som at møde en gammel ven.\nHvad købte Poul til Ida i boghandelen?\nHan købte en bog om damptog med mange billeder."
+    }
+  ]
+}
