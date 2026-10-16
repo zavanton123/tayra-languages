@@ -1,0 +1,203 @@
+{
+  "id": "no-mini-5200",
+  "rankUpTo": 5200,
+  "level": "C1",
+  "title": "Kjøkkenets vitenskap",
+  "description": "Ten texts on the science behind everyday cooking: heat, sauces, preserving, flour, appetite, seaweed, school cooking, the grill, a modern restaurant and an old folk tale.",
+  "topic": "The science of cooking",
+  "names": [
+    "Napoleon",
+    "Nicolas Appert",
+    "Appert",
+    "Peter Durand",
+    "Durand",
+    "Louis Pasteur",
+    "Pasteur",
+    "Frankrike",
+    "London",
+    "Kristin Aas",
+    "Kristin",
+    "Norge",
+    "Valdres",
+    "Ingrid Solberg",
+    "Ingrid",
+    "Siri Nilsen",
+    "Siri",
+    "Vesterålen",
+    "Oslo",
+    "Daniel",
+    "Thomas",
+    "Ella",
+    "Mike",
+    "USA",
+    "Leila Haddad",
+    "Leila",
+    "Haddad",
+    "Trondheim",
+    "Bodø"
+  ],
+  "lessons": [
+    {
+      "title": "Hvorfor spruter oljen?",
+      "summary": "A short explainer on why hot oil spatters when we fry, and how gloves, boots, a laser and dry food make frying safer.",
+      "newWords": [
+        "sprute",
+        "sammenstøt",
+        "hanske",
+        "millimeter",
+        "laser",
+        "ledning",
+        "støvel",
+        "befri",
+        "uflaks"
+      ],
+      "text": "Alle som har stekt fisk i en varm panne, kjenner det: Oljen spruter, og små, brennende dråper lander på hånden. Mange tror at det er uflaks, eller at oljen selv er problemet. Men det er verken uflaks eller oljen. Det er vannet.\n\nOlje kan bli mye varmere enn vann. Mens vann koker ved 100 grader, kan olje i en panne fort nå 180 grader. Når et stykke fisk legges i den varme oljen, møter vannet i fisken en temperatur som er langt over det vann tåler. Vannet blir til damp på et øyeblikk, og dampen tar mye større plass enn vannet gjorde. Den presser seg ut gjennom oljen og river med seg små dråper. Det er disse dråpene som spruter.\n\nFor å forstå hvorfor dette skjer så raskt, må vi tenke på hva varme egentlig er. Varme er bevegelse. I en varm panne beveger de minste delene av stoffet seg svært fort, og de støter hele tiden mot hverandre. Hvert sammenstøt gir litt av farten videre. Millioner av slike sammenstøt fører varmen fra metallet inn i oljen og derfra inn i maten. Jo varmere pannen er, desto kraftigere blir sammenstøtene, og desto raskere blir vannet til damp.\n\nHvordan kan vi så unngå at det spruter? Det første rådet er enkelt: Tørk maten godt før du legger den i pannen. Et lag med vann på bare én millimeter er nok til å få oljen til å sprute over hele kjøkkenet. Selv noen få millimeter is på frossen fisk gir mye damp. Det andre rådet er å legge maten forsiktig i pannen, bort fra deg selv, slik at dråpene ikke treffer deg.\n\nMange kokker bruker dessuten tynne hansker når de steker. En hanske stopper ikke alle dråper, men den beskytter huden mot de verste. På store kjøkken går de ansatte også i støvler, fordi gulvet fort blir glatt av olje og vann. En god støvel hindrer at man sklir med en varm panne i hånden.\n\nFor dem som vil vite nøyaktig hvor varm oljen er, finnes det små apparater med laser. Du peker laseren mot oljen, og på en skjerm ser du temperaturen. Slik kan du vente til oljen er varm nok, uten å la den bli for varm. Pass også på at ingen ledning henger nær pannen. En ledning som får varm olje på seg, kan bli ødelagt.\n\nNår man først har forstått hva som skjer, er det befriende. Vi kan befri oss fra frykten for den varme pannen, fordi vi vet hva vi skal gjøre. Det er ikke uflaks når oljen spruter. Det er fysikk, og fysikk kan vi lære.\n\nSpørsmål:\nHva er det som får oljen til å sprute?\nDet er vannet i maten som blir til damp og presser seg ut gjennom oljen.\nHva skjer når pannen blir varmere?\nSammenstøtene mellom de minste delene av stoffet blir kraftigere, og vannet blir raskere til damp.\nHvor mye vann skal til for å få oljen til å sprute?\nEt lag med vann på bare én millimeter er nok.\nHvorfor bruker mange kokker hansker og støvler?\nEn hanske beskytter huden mot dråpene, og en god støvel hindrer at man sklir på et glatt gulv.\nHva kan man bruke en laser til på kjøkkenet?\nMan kan peke laseren mot oljen og se hvor varm den er.\nHvorfor er det befriende å forstå dette?\nFordi vi kan befri oss fra frykten og vet at det ikke er uflaks, men fysikk."
+    },
+    {
+      "title": "Sausen som skilte seg",
+      "summary": "A home cook tells how her first hollandaise failed, what an emulsion is, and how a typo in the recipe was to blame.",
+      "newWords": [
+        "fiasko",
+        "suspendere",
+        "motarbeide",
+        "samspill",
+        "sammenbrudd",
+        "spontan",
+        "skrivefeil",
+        "formulering",
+        "gjenoppta"
+      ],
+      "text": "Min første hollandaise var en fiasko. Jeg hadde lest oppskriften nøye og kjøpt smør, egg og en sitron. I en halvtime sto jeg ved komfyren og pisket. Så, helt plutselig, skilte sausen seg. I stedet for en blank, gul saus hadde jeg en gryte med fett som fløt oppå noe som lignet stekte egg. Gjestene spiste fisken uten saus, og jeg var flau hele kvelden.\n\nEtterpå ville jeg forstå hva som hadde skjedd. Jeg leste meg opp, og jeg fant ut at hollandaise er det kjemikere kaller en emulsjon. Det betyr at små dråper fett er suspendert i vann. Fett og vann vil egentlig ikke blandes. Hvis du heller olje i et glass vann, legger oljen seg øverst. I en emulsjon er fettet derimot delt i så små dråper at de holder seg suspendert i væsken. Det som holder dem der, er et stoff i eggeplommen som liker både fett og vann. Det legger seg rundt hver dråpe og motarbeider at dråpene finner hverandre igjen. Melk er for øvrig også en emulsjon, og det samme er majones.\n\nEn god saus er altså et samspill mellom fett, vann, egg og varme. Når samspillet fungerer, blir sausen tykk og blank. Når det svikter, får vi et sammenbrudd. Et slikt sammenbrudd kan ha flere årsaker. For mye varme får eggene til å bli faste, og da kan de ikke lenger holde på fettet. For mye smør på en gang gir for mange dråper i forhold til eggene. Da skjer bruddet spontant: Dråpene slår seg sammen helt av seg selv, og sausen skiller seg på noen sekunder. Et spontant sammenbrudd er ikke tilfeldig; det er kjemien som sier ifra.\n\nOg så var det skrivefeilen. Da jeg leste oppskriften igjen, så jeg at det sto 500 gram smør til 2 eggeplommer. Det riktige var 250 gram. Det var en skrivefeil i boka, og den hadde gjort fiaskoen nesten sikker. Jeg skrev til forlaget, og de svarte vennlig at skrivefeilen skulle rettes. Jeg ba dem også se på formuleringen «pisk kraftig over sterk varme». Den formuleringen var nemlig like farlig som tallet, for sterk varme motarbeider akkurat det man vil oppnå. En bedre formulering ville være «pisk jevnt over svak varme».\n\nNeste helg gjenopptok jeg forsøket. Denne gangen brukte jeg 250 gram smør og satte gryta over et bad med varmt vann, slik at sausen aldri ble for varm. Jeg tilsatte smøret litt etter litt. Én gang begynte sausen å skille seg likevel. Da tok jeg gryta bort fra varmen, la til en skje kaldt vann og gjenopptok piskingen. Etter et minutt var sausen blank igjen.\n\nForskjellen mellom fiasko og suksess var ikke magi, men kjemi. Jeg er fortsatt glad i å lage mat, men jeg er ikke lenger en spontan kokk. Nå leser jeg oppskriften to ganger, og jeg ser etter skrivefeil før jeg begynner.\n\nSpørsmål:\nHva skjedde med den første hollandaisen?\nDen var en fiasko: Sausen skilte seg, og fettet fløt oppå.\nHva er en emulsjon?\nDet er små dråper fett som er suspendert i vann.\nHva gjør stoffet i eggeplommen?\nDet legger seg rundt hver dråpe og motarbeider at dråpene finner hverandre igjen.\nHvorfor kan det bli et sammenbrudd i sausen?\nFor mye varme eller for mye smør på en gang kan føre til at dråpene spontant slår seg sammen.\nHvilken skrivefeil var det i oppskriften?\nDet sto 500 gram smør i stedet for 250 gram.\nHva gjorde fortelleren da sausen begynte å skille seg den andre gangen?\nFortelleren tok gryta bort fra varmen, la til en skje kaldt vann og gjenopptok piskingen."
+    },
+    {
+      "title": "En armé marsjerer på magen",
+      "summary": "A short history of how a Frenchman and an Englishman found ways to keep food in glass and tin, and how another Frenchman later explained why it worked.",
+      "newWords": [
+        "armé",
+        "franskmann",
+        "engelskmann",
+        "anno",
+        "innovativ",
+        "lekkasje",
+        "overvinne",
+        "introduksjon",
+        "vaksinere"
+      ],
+      "text": "Det sies at Napoleon en gang skal ha sagt at en armé marsjerer på magen. Om han virkelig sa det, vet vi ikke, men tanken er riktig. En armé som ikke får mat, kan ikke kjempe. Anno 1800 var dette et stort problem. Soldatene var lenge borte hjemmefra, og mat som kjøtt, fisk og grønnsaker holdt seg bare noen dager. Den franske staten lovet derfor en stor premie til den som fant en innovativ måte å holde maten frisk på.\n\nPremien gikk til en franskmann ved navn Nicolas Appert. Han var kokk, og han hadde i mange år prøvd seg fram på sitt eget kjøkken. Metoden hans var enkel: Han la maten i flasker av glass, lukket dem godt og kokte dem i vann. Maten holdt seg i flere måneder, forutsatt at flasken var helt tett. Anno 1810 fikk Appert premien, og samme år ga han ut en bok om metoden sin.\n\nGlass har imidlertid en svakhet: Det knuser lett, særlig på en lang reise. Også det året fikk en engelskmann, Peter Durand, rett til en innovativ idé. Han foreslo å bruke bokser av blikk i stedet for glass. Engelskmannen solgte ideen videre, og snart åpnet den første fabrikken i London. Boksene ble sendt til den britiske marinen og til folk som reiste langt.\n\nMen det var ikke lett å lage en god boks. Det største problemet var lekkasje. Selv en liten lekkasje slapp inn luft, og da råtnet maten. En boks med lekkasje kunne til og med gjøre folk syke. Det tok mange år å overvinne dette problemet. Først da fabrikkene lærte å lukke boksene helt tett, kunne folk stole på dem. Det var også et annet problem som måtte overvinnes: Ingen hadde laget et redskap til å åpne boksene med. I mange år brukte soldatene kniv eller hammer.\n\nDet merkelige er at verken franskmannen eller engelskmannen visste hvorfor metoden virket. Svaret kom først 50 år senere, fra en annen franskmann, Louis Pasteur. Han viste at det er bittesmå levende organismer, som bakterier, som får maten til å råtne. Kokingen dreper dem, og den tette boksen hindrer at nye kommer inn. Idet boksen åpnes, kan bakteriene igjen komme til, og derfor må maten spises raskt.\n\nPasteur er i dag også kjent for noe annet. Han arbeidet med sykdommer, og i 1885 vaksinerte han en gutt som var blitt bitt av en syk hund. Gutten overlevde. Siden den gang er millioner av mennesker blitt vaksinert mot farlige sykdommer, og tanken bak er den samme som i boksen: Vi må forstå de små organismene for å beskytte oss mot dem.\n\nIntroduksjonen av mat på boks forandret hverdagen. Etter introduksjonen i butikkene kunne vanlige familier kjøpe fisk og frukt hele året. Det som begynte som mat til en armé, ble mat til alle.\n\nSpørsmål:\nHvorfor trengte Frankrike en ny måte å holde maten frisk på?\nFordi en armé som ikke får mat, ikke kan kjempe, og maten holdt seg bare noen dager.\nHva gjorde franskmannen Nicolas Appert?\nHan la maten i flasker av glass, lukket dem godt og kokte dem i vann.\nHva var den innovative ideen til engelskmannen Peter Durand?\nHan foreslo å bruke bokser av blikk i stedet for glass.\nHvorfor var lekkasje et stort problem?\nEn lekkasje slapp inn luft, og da råtnet maten.\nHva viste Louis Pasteur?\nHan viste at bittesmå levende organismer, som bakterier, får maten til å råtne.\nHva gjorde Pasteur i 1885?\nHan vaksinerte en gutt som var blitt bitt av en syk hund."
+    },
+    {
+      "title": "Mølleren i dalen",
+      "summary": "A profile of a miller who grinds old grain varieties between stones and explains why her flour tastes different.",
+      "newWords": [
+        "møller",
+        "håndverk",
+        "esel",
+        "avle",
+        "syklus",
+        "spesialitet",
+        "nerd",
+        "lotto",
+        "kortsiktig"
+      ],
+      "text": "Kristin Aas er 46 år og møller. Det er ikke mange i Norge som kan si det i dag. For hundre år siden fantes det en møller i nesten hver bygd, men de fleste møllene ble lagt ned da store fabrikker overtok. Kristin driver en liten mølle ved elva i Valdres, og hun maler mel på den gamle måten: mellom to store steiner.\n\n«Folk tror at det å være møller er noe fra et museum», sier hun og ler. «Men dette er et levende håndverk. Et håndverk må brukes for å holde seg i live.»\n\nHistorien om mølla er lang. Mange steder i verden ble steinene i gamle dager drevet av dyr. Et esel gikk i ring dag etter dag og fikk steinen til å gå rundt. Her i dalen hadde de ikke noe esel; her var det elva som gjorde jobben. Kristin viser oss hjulet som vannet fortsatt driver.\n\nDet som gjør melet hennes annerledes, er kornet. I moderne landbruk har man i mange år avlet fram sorter som gir store avlinger og som passer for store maskiner. Kristin bruker derimot gamle sorter som bønder i området avlet fram for flere hundre år siden. De gir mindre korn, men mer smak.\n\n«Kornet har sin egen syklus», forklarer hun. «Det blir sådd om våren, vokser om sommeren og høstes om høsten. Så maler jeg det om vinteren. Den samme syklusen gjentar seg hvert år, og jeg følger den.»\n\nSteinene gjør også en forskjell. I en stor fabrikk skilles kornets ytre skall og den delen som skal bli en ny plante, ofte fra resten, og man sitter igjen med hvitt mel. Mellom steiner blir hele kornet malt sammen. Da får melet med seg fiber, vitaminer og fett, og det får en mørkere farge og en rikere smak. Det betyr også at melet ikke holder seg like lenge, så Kristin maler lite om gangen.\n\nHennes spesialitet er et grovt mel av en gammel sort som nesten var borte. Bakere fra hele landet bestiller denne spesialiteten, og noen kjører flere timer for å hente den selv.\n\n«Jeg er nok en nerd», innrømmer hun. «Jeg kan snakke om korn i timevis. Men det er ikke farlig å være en nerd. Det er nerder som tar vare på kunnskapen.»\n\nLivet som møller er likevel ikke enkelt. Været bestemmer mye. Et år med mye regn kan ødelegge avlingen, og et år med tørke kan gi lite korn. «Noen år føles det nesten som lotto», sier Kristin. «Men det er ikke lotto. Jeg vet hva jeg gjør, selv om jeg ikke bestemmer over været.»\n\nHun mener at mye av matproduksjonen i dag er for kortsiktig. «Man tenker på hva som gir mest penger i år, ikke om tjue år. Det er kortsiktig å la gamle sorter forsvinne. Når de først er borte, får vi dem ikke tilbake.»\n\nSpørsmål:\nHvordan maler Kristin Aas mel?\nHun maler mel på den gamle måten, mellom to store steiner.\nHva drev steinene mange steder i verden i gamle dager?\nEt esel gikk i ring og fikk steinen til å gå rundt.\nHva slags korn bruker Kristin?\nHun bruker gamle sorter som bønder i området avlet fram for flere hundre år siden.\nHvordan beskriver hun syklusen til kornet?\nKornet blir sådd om våren, vokser om sommeren og høstes om høsten, og så maler hun det om vinteren.\nHvorfor blir melet hennes mørkere og rikere på smak?\nFordi hele kornet blir malt sammen, med fiber, vitaminer og fett.\nHvorfor mener Kristin at mye av matproduksjonen er kortsiktig?\nFordi man tenker på hva som gir mest penger i år, og lar gamle sorter forsvinne."
+    },
+    {
+      "title": "Hvorfor blir vi mette?",
+      "summary": "An interview with a nutrition researcher about the hormones that tell us we are full, why chewing slowly helps, and why she dislikes extreme diets.",
+      "newWords": [
+        "hormon",
+        "tygge",
+        "akse",
+        "kolonne",
+        "nyre",
+        "belaste",
+        "føring",
+        "ubegrenset",
+        "ekstremisme",
+        "uaktuell"
+      ],
+      "text": "Ingrid Solberg forsker på kosthold og helse. Hun har i mange år studert hva som skjer i kroppen når vi spiser, og hvorfor vi noen ganger spiser mer enn vi trenger.\n\nHva er det egentlig som får oss til å føle oss mette?\n\n– Det er et samspill mellom magen og hjernen. Når maten kommer ned i magen og videre, sender kroppen ut flere hormoner. Et hormon er et slags budskap som blodet bærer rundt i kroppen. Noen hormoner forteller hjernen at nå har vi fått nok. Problemet er at disse hormonene trenger tid. Det tar ofte 15 til 20 minutter før signalet når fram.\n\nHun tar fram en graf og legger den på bordet.\n\n– Se her. Langs den nederste aksen ser du minuttene etter at måltidet begynte. Langs aksen på venstre side ser du hvor mye av ett av disse hormonene som finnes i blodet. Kurven stiger sakte. Hvis du spiser veldig fort, er du ferdig lenge før kurven når toppen.\n\nBetyr det at vi bør spise saktere?\n\n– Ja, og den enkleste måten er å tygge. Når du tygger maten godt, tar måltidet lengre tid, og hormonene rekker å gjøre jobben sin. I et forsøk ba vi én gruppe tygge hver munnfull mange ganger, mens en annen gruppe spiste som vanlig.\n\nHun viser oss en tabell.\n\n– I den første kolonnen står det hvor mange ganger de tygget. I den andre kolonnen står det hvor mye de spiste. De som tygget mest, spiste minst, og de var like mette etterpå.\n\nMange spiser nå mye protein for å bli mette. Er det lurt?\n\n– Protein metter godt, men alt med måte. Når kroppen bryter ned protein, må nyrene skille ut det som blir til overs. Store mengder protein over lang tid kan belaste nyrene, særlig hos folk som allerede har svake nyrer. Det samme gjelder salt. For mye salt belaster både nyrene og hjertet.\n\nHva bør vi da gå etter?\n\n– Myndighetene gir oss noen føringer: mye grønnsaker, frukt og grovt brød, fisk et par ganger i uka og lite sukker. Disse føringene er ikke perfekte, men de bygger på mye forskning. Det er ingen mat vi kan spise i ubegrensede mengder, heller ikke de sunne. Selv sunn mat blir usunn når mengden er ubegrenset.\n\nDu har kritisert debatten om kosthold. Hvorfor?\n\n– Fordi den ofte blir ekstrem. Noen mener at sukker er gift, andre at kjøtt er gift. Når kosthold blir en slags religion, får vi en form for ekstremisme. Den ekstremismen gjør folk redde for maten sin, og det er ikke sunt. For meg er det uaktuelt å forby noe som helst. Det er også uaktuelt å love folk at én enkelt matvare kan løse alle problemer. Jeg ønsker bare at folk skal spise variert, tygge godt og ta seg tid.\n\nSpørsmål:\nHva er et hormon, ifølge Ingrid Solberg?\nEt hormon er et slags budskap som blodet bærer rundt i kroppen.\nHva viser de to aksene på grafen?\nDen nederste aksen viser minuttene etter at måltidet begynte, og aksen på venstre side viser hvor mye av hormonet som finnes i blodet.\nHvorfor hjelper det å tygge maten godt?\nMåltidet tar lengre tid, og hormonene rekker å gi beskjed til hjernen.\nHva viste tabellen med de to kolonnene?\nDe som tygget mest, spiste minst, og de var like mette etterpå.\nHvordan kan mye protein og salt belaste kroppen?\nStore mengder kan belaste nyrene over tid, og salt belaster også hjertet.\nHvorfor mener Ingrid at debatten om kosthold kan bli en form for ekstremisme?\nFordi kosthold blir en slags religion som gjør folk redde for maten sin."
+    },
+    {
+      "title": "Grønnsaker fra havet",
+      "summary": "A report on a former oil engineer who lost her job and built a small company that grows seaweed for restaurants.",
+      "newWords": [
+        "arbeidsledig",
+        "omstilling",
+        "entreprenør",
+        "marin",
+        "egenkapital",
+        "partnerskap",
+        "logistikk",
+        "faktura",
+        "overholde",
+        "datterselskap"
+      ],
+      "text": "For ti år siden var Siri Nilsen ingeniør i oljebransjen. Så falt oljeprisen, og firmaet hennes måtte kutte. En mandag fikk hun beskjed om at hun ikke lenger hadde jobb. Plutselig var hun arbeidsledig, 41 år gammel og med to barn.\n\n«Det var tungt å være arbeidsledig», forteller hun. «Men jeg var ikke alene. Hele regionen var midt i en stor omstilling. Mange måtte tenke nytt, og jeg var en av dem.»\n\nOmstillingen ble starten på et nytt liv. I dag er Siri entreprenør. Hun dyrker tang i havet utenfor Vesterålen og selger den til restauranter over hele landet. Hun hadde aldri sett for seg at hun skulle bli entreprenør, men hun hadde alltid vært interessert i havet.\n\nTang er en marin plante, eller mer nøyaktig en alge, som vokser i saltvann. Den trenger verken jord, vann fra springen eller gjødsel. Den lever av lys og av det som finnes i sjøen. «Det er et marint råstoff vi har mer enn nok av i Norge», sier Siri. «Likevel har vi nesten ikke brukt det.»\n\nHvorfor vil restaurantene ha tang? Svaret ligger i smaken. Tang inneholder stoffer som gir den femte grunnsmaken, den som verken er søt, sur, salt eller bitter, men fyldig og rund. Kokker bruker den i supper, i smør og sammen med fisk. Tang inneholder også mye jod, et stoff kroppen trenger i små mengder.\n\nÅ starte firma var ikke billig. Siri brukte alle sparepengene sine som egenkapital. «Banken ville ikke låne meg noe før jeg kunne vise til egenkapital», sier hun. «Jeg satset alt.» Hun inngikk også et partnerskap med et lokalt oppdrettsanlegg for laks. Tangen vokser ved siden av laksen og tar opp noe av det som ellers ville forurenset sjøen. Partnerskapet er bra for begge parter, og for naturen.\n\nDen største utfordringen viste seg å være logistikk. Fersk tang holder seg bare noen dager, og restaurantene ligger langt unna. «Logistikk høres kjedelig ut», sier Siri og smiler, «men det er alt. Tangen må plukkes, pakkes og sendes samme dag, ellers er den ikke fersk når den kommer fram.»\n\nHun husker godt den første fakturaen. Den gikk til en restaurant i Oslo, og hun har den fortsatt hengende på veggen. «Det var bare en liten faktura, men for meg betydde den alt.»\n\nMat fra havet må følge strenge regler. Fordi tang inneholder mye jod, må Siri overholde grenser for hvor mye jod produktene kan ha. Hun tester hver levering. «Vi må overholde reglene hver gang, ikke bare når noen kommer på kontroll.»\n\nI fjor ble firmaet så stort at hun opprettet et datterselskap som bare lager tørket tang til butikker. Datterselskapet har allerede fem ansatte. Flere av dem var, som Siri en gang, arbeidsledige da de begynte.\n\nSpørsmål:\nHva skjedde med Siri Nilsen for ti år siden?\nOljeprisen falt, og hun ble arbeidsledig.\nHva gjør Siri i dag?\nHun er entreprenør og dyrker tang i havet utenfor Vesterålen.\nHvorfor vil restaurantene ha tang?\nTang gir en fyldig og rund smak som kokker bruker i supper, i smør og sammen med fisk.\nHva slags partnerskap inngikk Siri?\nHun inngikk et partnerskap med et lokalt oppdrettsanlegg for laks.\nHvorfor er logistikk så viktig for firmaet?\nFersk tang holder seg bare noen dager, så den må plukkes, pakkes og sendes samme dag.\nHvilke regler må Siri overholde?\nHun må overholde grenser for hvor mye jod produktene kan ha."
+    },
+    {
+      "title": "Vikar på skolekjøkkenet",
+      "summary": "A substitute teacher's diary about a day of bread baking with a class whose pupils speak many languages.",
+      "newWords": [
+        "vikar",
+        "iver",
+        "entusiasme",
+        "utkast",
+        "morsmål",
+        "dataspill",
+        "virtuell",
+        "skattepenger",
+        "lovendring"
+      ],
+      "text": "Tirsdag kveld\n\nI dag var jeg vikar i mat og helse for første gang. Jeg har vært vikar i norsk og matte mange ganger, men aldri på skolekjøkkenet. Den vanlige læreren er syk resten av uka, så jeg skal være der i tre dager til.\n\nKlassen hadde 24 elever i niende trinn. Planen var å bake brød, og læreren hadde lagt igjen en lapp: «La dem forstå hvorfor brødet hever seg.» Det var en god plan, men jeg var litt nervøs. Jeg visste ikke hvor mye iver jeg kunne vente meg av femten år gamle elever klokka åtte om morgenen.\n\nJeg tok feil. De gikk løs på oppgaven med en iver jeg sjelden har sett. Først forklarte jeg det viktigste: Gjær er bittesmå levende organismer. Når de får varmt vann og litt sukker, begynner de å spise, og de lager en gass. Gassen danner små bobler i deigen. Melet inneholder et protein som lager et slags nettverk når vi elter. Dette nettverket holder på boblene, og derfor hever deigen seg. Hvis vannet er for varmt, dør gjæren. Hvis det er for kaldt, arbeider den sakte.\n\nElevene skulle først skrive et utkast til en oppskrift, med egne ord. Etter at brødet var ferdig, skulle de rette utkastet og skrive det på nytt.\n\nDet beste skjedde mens deigen hevet seg. Jeg spurte om noen hadde en egen type brød hjemme. Nesten alle rakte opp hånda. I klassen snakkes det minst ni morsmål, og elevene fortalte om brød fra mange land. En gutt viste oss hvordan bestemoren hans baker flatt brød i en panne. En jente skrev ordet for «brød» på tavla på sitt morsmål, og snart sto det ni ulike ord der. Entusiasmen var så stor at jeg nesten glemte å se på klokka.\n\nEn annen gutt, Daniel, sa at han lager mat hver dag, men bare i et dataspill. «I spillet er jeg verdens beste kokk», sa han. Jeg spurte om brødet i spillet lukter godt. Han lo. Det virtuelle kjøkkenet har mange fordeler, sa han: Ingenting brenner seg, og man trenger aldri å vaske opp. Men et virtuelt brød kan man ikke spise. Da det første brødet kom ut av ovnen, var Daniel den første som ville smake. Kanskje dataspillet får litt konkurranse nå.\n\nI lunsjen snakket lærerne om skolemat. Politikerne diskuterer en lovendring som skal gi alle elever gratis lunsj hver dag, betalt med skattepenger. Noen lærere mener at skattepenger brukes bedre på flere lærere. Andre mener at en slik lovendring vil gi alle barn et sunt måltid, også de som ikke får det hjemme. Men etter i dag vet jeg at elever som lager maten selv, spiser den med stor entusiasme.\n\nI morgen skal vi lage suppe. Jeg gleder meg.\n\nSpørsmål:\nHvorfor var fortelleren vikar på skolekjøkkenet?\nDen vanlige læreren i mat og helse var syk resten av uka.\nHvorfor hever deigen seg?\nGjæren lager en gass som danner bobler, og nettverket i melet holder på boblene.\nHva skulle elevene gjøre med utkastet til oppskriften?\nDe skulle skrive det med egne ord og så rette det etter at brødet var ferdig.\nHva skjedde da elevene snakket om brød hjemmefra?\nDe fortalte om brød fra mange land, og ordet for «brød» ble skrevet på ni ulike morsmål på tavla.\nHva sa Daniel om dataspillet sitt?\nHan sa at han er verdens beste kokk i spillet, og at det virtuelle kjøkkenet har fordeler, men at man ikke kan spise et virtuelt brød.\nHva diskuterte lærerne i lunsjen?\nDe diskuterte en lovendring som kan gi alle elever gratis lunsj, betalt med skattepenger."
+    },
+    {
+      "title": "Hamburgere på plenen",
+      "summary": "A father learns from his American neighbour why a burger should not be pressed flat, while grandfather watches and a hare visits the hedge.",
+      "newWords": [
+        "plen",
+        "hekk",
+        "hamburger",
+        "hofte",
+        "utstrakt",
+        "baseball",
+        "torturere",
+        "heretter",
+        "hare"
+      ],
+      "text": "Det var den første varme lørdagen i juni, og Thomas hadde satt grillen midt på plenen. Datteren hans, Ella, hadde båret ut stoler og et bord. Langs kanten av plenen sto en høy, grønn hekk som skjermet hagen mot veien. Thomas hadde kjøpt kjøtt og brød, og han skulle lage hamburgere.\n\nBestefaren til Ella satt allerede i en stol ved hekken. Han hadde nettopp fått en ny hofte og kunne ikke stå lenge. «Den nye hofta er bedre enn den gamle», sa han, «men jeg tar det rolig i dag.» Han satt med beina utstrakt foran seg og så fornøyd ut.\n\nOver hekken kom naboen, Mike. Han var fra USA, men hadde bodd i Norge i tjue år. Thomas hadde invitert ham, fordi Mike visste mye om grilling. «I USA spiser vi hamburgere når vi ser på baseball», sa Mike. «På en god kamp kan du kjenne lukten fra grillene i hele byen.» Han savnet baseball, sa han, men han savnet nok hamburgerne enda mer.\n\nThomas la de første burgerne på grillen. Etter et par minutter tok han spaden og presset dem hardt ned mot risten. Det freste, og fett og saft rant ned i kullet.\n\n«Stopp!» sa Mike. «Ikke torturer dem!»\n\nThomas så forvirret på ham. «Jeg torturerer dem ikke. Jeg gjør dem ferdige raskere.»\n\nMike forklarte. Når man presser en burger, presser man ut saften. Det er saften som gjør kjøttet godt. I tillegg skjer det noe viktig på overflaten av kjøttet. Når overflaten blir varm nok, rundt 140 grader, begynner protein og sukker i kjøttet å reagere med hverandre. Det gir den brune fargen og hundrevis av nye smaker. Men denne reaksjonen skjer bare når overflaten er tørr. Så lenge det er vann der, blir temperaturen ikke høyere enn 100 grader. Derfor skal kjøttet være tørt, grillen være varm, og spaden ligge i ro.\n\n«Heretter skal du snu dem én gang og ellers la dem være i fred», sa Mike.\n\n«Heretter gjør jeg som du sier», svarte Thomas.\n\nDe neste burgerne ble perfekte, brune utenpå og saftige inni. Ella bar en tallerken med utstrakt arm bort til bestefaren. Han smakte og nikket. «Dette er en ordentlig hamburger», sa han.\n\nDa det ble kveld, satt de alle fire på plenen. Plutselig kom en hare ut fra hekken. Den satte seg på gresset og så på dem. Ella holdt pusten. Haren var brun og hadde lange ører, og den var ikke det minste redd. Etter en stund hoppet den rolig tilbake inn i hekken.\n\n«Den haren kommer hver kveld», sa bestefaren. «Den vet nok at det er mat her.»\n\nSpørsmål:\nHvor satte Thomas grillen?\nHan satte grillen midt på plenen, med en høy hekk langs kanten.\nHvorfor satt bestefaren i en stol?\nHan hadde nettopp fått en ny hofte og kunne ikke stå lenge.\nHva fortalte Mike om hamburgere og baseball?\nI USA spiser de hamburgere når de ser på baseball.\nHvorfor ba Mike Thomas om ikke å torturere burgerne?\nNår man presser en burger, presser man ut saften som gjør kjøttet godt.\nHva skjer på overflaten av kjøttet når den blir varm nok?\nProtein og sukker reagerer med hverandre og gir brun farge og mange nye smaker.\nHva kom ut fra hekken om kvelden?\nEn brun hare kom ut fra hekken og satte seg på gresset."
+    },
+    {
+      "title": "Gammel mat i ny tid",
+      "summary": "A restaurant review of a place in Trondheim that cooks old Norwegian dishes with modern science, and of the chef who once faced a boycott.",
+      "newWords": [
+        "reservert",
+        "telefonnummer",
+        "kollektivtransport",
+        "forsamling",
+        "nåtid",
+        "kunstverk",
+        "boikott",
+        "trakassere",
+        "middelklasse"
+      ],
+      "text": "Det er ikke lett å få bord hos Leila Haddad. Restauranten hennes i Trondheim har bare 30 plasser, og fredag og lørdag er alle bord reservert flere uker fram i tid. Man kan heller ikke bestille på nettet. Restauranten har bare et telefonnummer, og det er Leila selv eller en av kokkene som tar telefonen. «Når noen ringer, vil jeg snakke med dem», sier hun. Telefonnummeret står på en liten lapp på døra, og ellers ingen steder.\n\nRestauranten ligger et stykke fra sentrum, men det er enkelt å komme dit med kollektivtransport. Bussen stopper rett utenfor, og jeg anbefaler alle å ta kollektivtransport. Man vil gjerne ha et glass vin til denne maten.\n\nRommet er enkelt. Det står ett langt bord i midten, og alle gjestene sitter sammen. Det føles mindre som en restaurant og mer som en forsamling. Ved mitt bord satt et eldre par, to studenter og en familie fra Bodø. Etter den første retten snakket hele forsamlingen sammen som gamle venner.\n\nIdeen bak menyen er det Leila kaller «fortid i nåtid». Hun tar gamle norske retter og lager dem med det vi i dag vet om kjemi og fysikk. Torsken, for eksempel, blir ikke kokt i vann, men lagt i et bad som holder nøyaktig 50 grader i en halv time. Da blir fisken fast, men aldri tørr. «Bestemoren min kokte torsk til den falt fra hverandre», sier Leila. «Hun hadde rett i smaken, men ikke i tiden. Jeg vil ta det beste fra fortiden og gjøre det i nåtid.»\n\nHver rett ser ut som et lite kunstverk. Desserten, en kald krem av multer med sprø havre på toppen, var så vakker at jeg nesten ikke ville spise den. Men et kunstverk på en tallerken har bare verdi hvis det smaker godt, og det gjorde det.\n\nLeila har ikke alltid hatt det lett. Da hun åpnet for fem år siden, kostet menyen nesten 2000 kroner. Noen mente at hun bare lagde mat for de rike, og på nettet ble det oppfordret til boikott. Boikotten varte ikke lenge, men den var ubehagelig. Leila forteller at hun ble trakassert i kommentarer på nettet, og at noen av de ansatte også ble trakassert når de var ute i byen. «Det var en tung tid», sier hun. «Men jeg lyttet også til kritikken.»\n\nI dag tilbyr hun en enklere meny tre dager i uka til under halve prisen. «Jeg vokste opp i middelklassen», sier hun. «Familien min hadde ikke råd til dyre restauranter. Jeg vil at vanlige familier fra middelklassen også skal kunne komme hit.»\n\nDenne anmeldelsen bygger på et besøk en tirsdag, med den enkle menyen. Den var verken mindre kreativ eller mindre god enn den dyre. Også den kvelden var nesten alle bord reservert, så ring i god tid.\n\nSpørsmål:\nHvordan bestiller man bord hos Leila Haddad?\nMan må ringe restaurantens telefonnummer, for man kan ikke bestille på nettet.\nHvorfor anbefaler anmelderen å ta kollektivtransport?\nDet er enkelt fordi bussen stopper rett utenfor, og man vil gjerne ha et glass vin til maten.\nHvorfor føles restauranten som en forsamling?\nAlle gjestene sitter sammen ved ett langt bord og snakker sammen.\nHva mener Leila med «fortid i nåtid»?\nHun lager gamle norske retter med det vi i dag vet om kjemi og fysikk.\nHva skjedde da restauranten åpnet?\nNoen mente at hun bare lagde mat for de rike, det ble oppfordret til boikott, og hun ble trakassert på nettet.\nHvorfor tilbyr Leila en enklere meny?\nHun vokste opp i middelklassen og vil at vanlige familier også skal kunne komme."
+    },
+    {
+      "title": "Suppe på en spiker",
+      "summary": "A column about the old folk tale of the nail soup: what science says about the nail, and what the tale really teaches.",
+      "newWords": [
+        "spiker",
+        "avlegge",
+        "ful",
+        "grøft",
+        "folkeslag",
+        "syntetisk",
+        "seddel",
+        "samhold",
+        "lærdom"
+      ],
+      "text": "Da jeg var liten, hang det en seddel på kjøleskapet til bestemor. Den var skrevet for hånd, og øverst sto det: «Suppe på en spiker». Under sto det poteter, gulrøtter, løk, litt kjøtt, salt og vann. En spiker sto det ikke noe om. Bestemor lo da jeg spurte om det. «Det er spikeren som er hemmeligheten», sa hun. Så fortalte hun meg eventyret.\n\nEn kald høstkveld kom en fattig vandrer til en gammel kone. Han hadde avlagt besøk på mange gårder den dagen, men ingen hadde gitt ham mat. Han var sulten og spurte kona om mat. Hun sa at hun ikke hadde noe å gi ham. Da tok vandreren fram en spiker fra lomma. «Da lager jeg suppe på denne spikeren», sa han, «hvis jeg kan få låne en gryte.» Kona ble nysgjerrig og satte en gryte med vann på ovnen.\n\nMens vannet kokte, smakte vandreren på det. «God suppe», sa han, «men den ville bli enda bedre med litt mel.» Kona fant litt mel. Så trengte suppen noen poteter, så litt kjøtt, og til slutt noen urter, som vandreren selv plukket i grøfta ved veien. Til slutt satt de to og spiste en stor, varm suppe. Kona trodde at det var spikeren som hadde gjort den så god, og vandreren lot henne tro det. Han var ful, men ikke slem.\n\nMange folkeslag har en slik fortelling. I noen land er det en stein i stedet for en spiker, i andre en øks. At så mange folkeslag forteller det samme eventyret, sier kanskje noe om hvor vanlig det har vært å være sulten.\n\nHva sier så vitenskapen om spikeren? En spiker av jern kan gi litt jern til vannet, særlig hvis den er rusten, men mengden er svært liten, og den gir ingen god smak. Det som gjør suppen god, er det samme som i bestemors seddel: grønnsaker som gir sødme, kjøtt som gir fylde, salt som løfter smaken, og tid. Når suppen koker lenge, går smaken fra grønnsakene og kjøttet over i vannet.\n\nI dag trenger vi ingen ful vandrer for å få suppe. Vi kan kjøpe den ferdig i en pose. Noen av disse suppene får mye av smaken sin fra syntetiske stoffer som er laget i en fabrikk. Et syntetisk stoff kan etterligne smaken av kjøtt, men det kan ikke gi oss det eventyret egentlig handler om.\n\nFor lærdommen i fortellingen handler ikke om kjemi. Den handler om samhold. Kona hadde mat hele tiden, men hun trodde at hun ikke hadde nok til å dele. Da hun først begynte å dele, ble det nok til begge. Den lærdommen tror jeg bestemor ville gi meg. Samhold er ikke noe vi har eller ikke har; det er noe vi lager, litt etter litt, som en suppe.\n\nSpørsmål:\nHva sto det på seddelen på kjøleskapet til bestemor?\nDet sto «Suppe på en spiker», og under sto det poteter, gulrøtter, løk, litt kjøtt, salt og vann.\nHva hadde vandreren gjort den dagen før han kom til kona?\nHan hadde avlagt besøk på mange gårder, men ingen hadde gitt ham mat.\nHvor plukket vandreren urtene?\nHan plukket dem i grøfta ved veien.\nHva gir spikeren til suppen, ifølge vitenskapen?\nDen kan gi litt jern til vannet, men mengden er svært liten, og den gir ingen god smak.\nHva skiller noen ferdige supper fra bestemors suppe?\nNoen ferdige supper får mye av smaken sin fra syntetiske stoffer laget i en fabrikk.\nHva er lærdommen i fortellingen, ifølge forfatteren?\nLærdommen handler om samhold: Når vi begynner å dele, blir det nok til alle."
+    }
+  ]
+}
