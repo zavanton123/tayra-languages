@@ -1,0 +1,222 @@
+{
+  "id": "sv-mini-5200",
+  "rankUpTo": 5200,
+  "level": "C1",
+  "title": "Kökets vetenskap",
+  "description": "Essays, interviews, profiles and reviews that explain the chemistry and physics behind everyday cooking, from roasting and brewing to baking bread.",
+  "topic": "The science of cooking",
+  "names": [
+    "Karin",
+    "Karins",
+    "Lind",
+    "Karin Lind",
+    "Värmland",
+    "Sara",
+    "Saras",
+    "Jonas",
+    "Ek",
+    "Östersund",
+    "Petra",
+    "Petras",
+    "Ljung",
+    "Restaurang Ljung",
+    "Malmö",
+    "Nora",
+    "Noras",
+    "Ali",
+    "Nora Ali",
+    "Nora Alis",
+    "Örebro",
+    "Lina",
+    "Linas",
+    "Maja",
+    "Majas",
+    "Holm",
+    "Lina Holm",
+    "Maja Holm",
+    "Amartya Sen",
+    "Amartya",
+    "Brasilien",
+    "Brasiliens",
+    "Sydafrika",
+    "Sydafrikas",
+    "Europa",
+    "Leo",
+    "Leos",
+    "Alva",
+    "Alvas",
+    "Hanna",
+    "Hannas",
+    "Umeå",
+    "Ingrid",
+    "Ingrids",
+    "Livsmedelsverket",
+    "Göran",
+    "Görans",
+    "Wik",
+    "Göran Wik"
+  ],
+  "lessons": [
+    {
+      "title": "Varför krymper steken?",
+      "summary": "A food column explains why a roast shrinks in the oven and how to keep it juicy.",
+      "newWords": [
+        "stek",
+        "krympa",
+        "saftig",
+        "portion",
+        "förhållandevis",
+        "organisk",
+        "frigöra",
+        "sked",
+        "blank",
+        "milt"
+      ],
+      "text": "En läsare har skrivit till oss med en fråga som många som lagar mat hemma känner igen. Hon köpte en stek på nästan två kilo till middagen på söndagen, men när den kom ut ur ugnen var den betydligt mindre, och hon undrade vart resten hade tagit vägen. Svaret finns i köttets kemi, och det är förhållandevis enkelt att förstå.\n\nKött består till största delen av vatten, som hålls på plats av långa trådar av protein i musklerna. När steken värms upp börjar dessa proteiner att dra ihop sig. De krymper ungefär som en tröja som har tvättats i för varmt vatten, och i och med att de drar ihop sig pressar de ut vätska. Det är alltså inte fettet som försvinner först, utan vattnet. Redan vid 60 grader frigörs en stor del av saften, och ju varmare köttet blir, desto mer vätska frigör det.\n\nDen som vill ha en saftig stek bör därför tänka på två saker: temperaturen och tiden. En hög värme ger en snabb och kraftig reaktion, så att köttet krymper mycket och blir torrt i kanterna. En låg värme gör att proteinerna drar ihop sig långsamt och jämnt. Milt sagt är skillnaden stor: en stek som har fått stå länge i en sval ugn kan förlora hälften så mycket vätska som en som har stekts hårt.\n\nMånga tror att man kan stänga in saften genom att steka köttet först i en het panna. Det stämmer tyvärr inte. Den bruna, blanka ytan ger mycket smak, eftersom socker och protein reagerar med varandra. Det är organisk kemi i sin enklaste form, och organisk kemi är just läran om de ämnen som allt levande består av. Men den bruna ytan hindrar inte vätskan från att lämna köttet. Steken krymper lika mycket ändå.\n\nEtt annat gott råd är att låta steken vila innan man skär den. Medan den vilar sprids saften i köttet igen, och mindre av den rinner ut på bordet. Den saft som ändå rinner ut kan man samla med en sked och hälla i såsen. Under tiden kan man också ösa steken med en sked smält smör, så att ytan blir blank och fin. Krydda gärna milt, så att köttets egen smak får komma fram.\n\nTill sist en praktisk sak: räkna med att en portion blir mindre än man tror. Förutsatt att man vill ge varje gäst en portion på 150 gram, bör man köpa omkring 200 gram rått kött per person. Då räcker det, även om köttet krymper.\n\nFrågor:\nVad undrade läsaren?\nHon undrade varför hennes stek hade blivit så mycket mindre i ugnen.\nVarför krymper en stek när den värms upp?\nProteinerna i musklerna drar ihop sig och pressar ut vätska.\nHur får man en saftig stek?\nMan låter den stå länge i en förhållandevis låg värme, så att proteinerna drar ihop sig långsamt.\nStänger man in saften genom att steka köttet först?\nNej, den bruna ytan ger smak, men steken krymper lika mycket ändå.\nVad kan man göra med den saft som rinner ut?\nMan kan samla den med en sked och hälla den i såsen.\nHur mycket rått kött bör man köpa per person?\nOmkring 200 gram, förutsatt att varje portion ska vara 150 gram."
+    },
+    {
+      "title": "Jägaren som tänker på smaken",
+      "summary": "A profile of a hunter and sports shooter who explains why a calm, quick shot gives better meat.",
+      "newWords": [
+        "skjutning",
+        "skytte",
+        "torp",
+        "känga",
+        "stock",
+        "hink",
+        "solnedgång",
+        "il",
+        "beck",
+        "vy"
+      ],
+      "text": "Karin Lind bor i ett gammalt torp vid en sjö i Värmland. Torpet byggdes på 1800-talet av grova stockar, och varje sommar stryker hon den gamla båten med beck, precis som hennes morfar gjorde. Beck är ett svart ämne som skyddar trä mot vatten, och det luktar starkt i flera veckor. Från trappan har hon en vy över hela sjön, och på hösten går solnedgången ner bakom skogen på andra sidan vattnet. ”Den här vyn är skälet till att jag aldrig flyttar”, säger hon.\n\nKarin är jägare, men hon har också tävlat i skytte i över tjugo år. Hon tror att skyttet har gjort henne till en bättre jägare. ”I skytte lär man sig att vara lugn och att bara skjuta när man är säker”, förklarar hon. ”Det är samma sak i skogen. Vid en bra skjutning träffar man rätt med ett enda skott, så att djuret inte hinner bli stressat.”\n\nDet handlar inte bara om etik, utan också om kemi. När ett djur lever lagrar det energi i musklerna i form av socker. Efter döden blir det sockret till en syra, och syran gör köttet mjukt, ger det en fin färg och hjälper det att hålla sig länge. Om djuret däremot har varit stressat före skjutningen, har det redan använt mycket av sitt socker. Då bildas för lite syra, och köttet blir mörkt, segt och kan bli dåligt fortare.\n\n”Därför jagar jag inte med hundar som jagar djuret länge”, säger Karin. ”Ju lugnare djuret är, desto bättre blir köttet. Det har jag sett med egna ögon.”\n\nEn dag i oktober följer vi med henne ut. Hon tar på sig sina tunga kängor, och vi går genom skogen i flera timmar. En kall il kommer från sjön, och sedan en till. Karin säger att man måste ha vinden mot sig, så att djuren inte känner lukten av människor. Hennes kängor är gamla men torra, och hon har smort dem med fett, så att de klarar både blöt mark och regn.\n\nNär en älg till slut har fällts, arbetar hon snabbt. Hon hämtar vatten i en hink från sjön och tvättar händerna och kniven. Köttet ska sedan hänga i kylan i ungefär en vecka, och under den tiden blir det mjukare. I dag hänger det i en bod bakom torpet, byggd av samma slags stockar som huset.\n\nPå kvällen sitter vi på trappan medan solnedgången färgar sjön röd. Karin har lagat en gryta av förra årets kött. Den smakar milt och lite sött. ”Det är den här smaken jag jagar för”, säger hon och tittar ut över vattnet. En ny il drar förbi, och hon drar jackan tätare om sig.\n\nFrågor:\nVar bor Karin Lind?\nHon bor i ett gammalt torp av stockar vid en sjö i Värmland.\nVad har skyttet lärt henne?\nDet har lärt henne att vara lugn och bara skjuta när hon är säker.\nVarför blir köttet sämre om djuret är stressat före skjutningen?\nDjuret har redan använt mycket av sitt socker, så det bildas för lite syra, och köttet blir mörkt och segt.\nVad gör Karin med vattnet i hinken?\nHon tvättar händerna och kniven.\nVad stryker Karin båten med varje sommar?\nHon stryker den med beck, precis som hennes morfar gjorde.\nVad ser man från trappan på hösten?\nMan ser solnedgången bakom skogen och en vy över hela sjön."
+    },
+    {
+      "title": "Duon bakom det lilla bryggeriet",
+      "summary": "An interview with a brother and sister who run a small brewery and control the temperature of every batch.",
+      "newWords": [
+        "bryggeri",
+        "duo",
+        "kar",
+        "förvärva",
+        "revisor",
+        "bankkonto",
+        "annonsera",
+        "implementera",
+        "flexibel",
+        "diagram"
+      ],
+      "text": "För fem år sedan förvärvade syskonen Sara och Jonas Ek en gammal lokal utanför Östersund. I dag är den ett litet bryggeri som gör öl till restauranger i hela regionen. Vi träffade duon en morgon när det luktade varmt korn i hela huset.\n\nHur kom ni på idén att starta ett bryggeri?\nSara: Vi började brygga hemma i köket när vi studerade. Jonas läste kemi och jag läste ekonomi, så vi var en ganska bra duo från början. Han förstod processen, och jag förstod siffrorna.\n\nKan ni förklara vad som händer när man gör öl?\nJonas: Det är egentligen enkelt. Först lägger man malt i ett stort kar med varmt vatten. Värmen frigör sockret i kornet, och efter en timme har man en söt vätska. Den kokas och kyls ner, och sedan tillsätter man jäst. Jästen är levande organismer som äter sockret och omvandlar det till alkohol och koldioxid. Det är koldioxiden som ger ölet dess bubblor.\n\nVad är svårast?\nJonas: Temperaturen. Om det blir för varmt i karet, bildar jästen smaker som vi inte vill ha. Därför har vi implementerat ett system som mäter temperaturen i varje kar fyra gånger i timmen. Datorn ritar ett diagram, och om kurvan i diagrammet går för högt får vi ett meddelande i telefonen. Innan vi implementerade systemet sov vi knappt de nätter då ölet stod i karen.\n\nHur gick det första året?\nSara: Ärligt talat var det tufft. Vi hade ett gemensamt bankkonto, och i december fanns det nästan ingenting kvar på det. Vår revisor satte sig ner med oss och gick igenom alla kostnader. Revisorn sa att vi måste sluta köpa ny utrustning och i stället sälja det vi redan gjorde. Det var det bästa rådet vi har fått.\n\nHur når ni ut till kunderna?\nSara: Vi annonserar aldrig i tidningar, eftersom det är för dyrt för ett så litet bryggeri. I stället annonserar vi varje nytt öl på sociala medier, och restaurangerna beställer direkt av oss. I dag har vi pengar på kontot, och revisorn är nöjd.\n\nVad är fördelen med att vara små?\nJonas: Vi kan vara flexibla. Ett stort bryggeri kan inte ändra ett recept på en vecka, men vi kan det. Om en restaurang vill ha ett öl som passar till en viss rätt, kan vi göra det. Den som är flexibel kan prova saker som de stora inte vågar.\n\nVad vill ni göra nu?\nSara: Vi har förvärvat huset bredvid, så vi kan bygga två nya kar. Men vi ska fortsätta att vara ett litet bryggeri. Det är det vi är bra på.\n\nFrågor:\nVad förvärvade syskonen för fem år sedan?\nDe förvärvade en gammal lokal utanför Östersund, som i dag är deras bryggeri.\nVarför var Sara och Jonas en bra duo från början?\nJonas förstod processen, eftersom han läste kemi, och Sara förstod siffrorna, eftersom hon läste ekonomi.\nVad händer med sockret när man har tillsatt jäst?\nJästen äter sockret och omvandlar det till alkohol och koldioxid.\nVilket system har de implementerat?\nEtt system som mäter temperaturen i varje kar och ritar ett diagram.\nVad sa revisorn när det fanns nästan ingenting kvar på bankkontot?\nRevisorn sa att de måste sluta köpa ny utrustning och sälja det de redan gjorde.\nVar annonserar de sina nya öl?\nDe annonserar dem på sociala medier, aldrig i tidningar."
+    },
+    {
+      "title": "Grädden som blev smör",
+      "summary": "A columnist's dinner party nearly fails when the whipped cream turns to butter, and she learns why.",
+      "newWords": [
+        "piska",
+        "tillställning",
+        "efterföljande",
+        "afton",
+        "barnvakt",
+        "katastrofal",
+        "lyckligtvis",
+        "facit",
+        "lättnad",
+        "nicka"
+      ],
+      "text": "I lördags hade jag en liten tillställning hemma. Sex vänner skulle komma på middag, och för första gången på länge hade vi ordnat en barnvakt. Barnvakten, en flicka från huset bredvid, kom klockan sex, och barnen var glada. Allt var klart för en lugn afton.\n\nTill efterrätt hade jag bakat en tårta med jordgubbar. Det enda som återstod var att piska grädden. Jag hällde grädden i en skål och började piska, medan jag pratade med gästerna. Köket var varmt, eftersom ugnen hade stått på hela eftermiddagen, och grädden hade stått framme på bänken i en timme. Jag piskade och piskade, men grädden blev inte fast. Plötsligt blev den gul och full av klumpar, och en vit vätska samlades i botten av skålen. Jag hade gjort smör.\n\nDet kändes katastrofalt. Tårtan stod färdig, gästerna väntade, och jag hade ingen mer grädde. Lyckligtvis satt min vän Petra i köket. Hon har studerat kemi och arbetar med livsmedel. Hon tittade i skålen och nickade lugnt. ”Det här går att rädda”, sa hon. Hon gick till grannen och lånade en ny förpackning grädde. Den här gången ställde hon skålen i kylskåpet i tio minuter först. När hon sedan piskade den kalla grädden, blev den fast och fin på bara några minuter. Min lättnad var enorm.\n\nUnder den efterföljande kvällen förklarade Petra vad som hade hänt. Grädde består av små droppar fett i vatten, och varje droppe har en tunn hinna runt sig. När man piskar, går en del av hinnorna sönder, och fettet håller fast luften i små bubblor. Det är därför grädden blir fast. Men fettet måste vara kallt. Om det är varmt, blir det mjukt, och dropparna börjar hålla ihop med varandra i stället för med luften. Till slut bildar de klumpar, och då har man smör. ”Du gjorde inget fel”, sa hon. ”Du piskade bara varm grädde för länge.”\n\nJag har tänkt mycket på den kvällen under de efterföljande dagarna. Det som kändes katastrofalt i stunden var egentligen en liten lektion i kemi. Facit är enkelt: kall grädde, en kall skål och lite tålamod. Jag har skrivit facit på en lapp på kylskåpet, och nästa gång jag ska piska grädde ska jag läsa den först.\n\nLyckligtvis blev resten av aftonen fin. Tårtan tog slut, barnvakten gick hem vid tolv, och smöret åt vi på bröd till frukost dagen efter. Det var mycket gott.\n\nFrågor:\nVem passade barnen under tillställningen?\nEn barnvakt, en flicka från huset bredvid, passade barnen.\nVarför blev grädden smör?\nKöket och grädden var för varma, och grädden piskades för länge.\nVad gjorde Petra när hon tittade i skålen?\nHon nickade lugnt och sa att det gick att rädda.\nHur blir grädde fast när man piskar den?\nFettet håller fast luften i små bubblor, men bara om fettet är kallt.\nVad är facit enligt skribenten?\nFacit är kall grädde, en kall skål och lite tålamod.\nHur kände sig skribenten när grädden till slut blev fast?\nHon kände en enorm lättnad."
+    },
+    {
+      "title": "Recension: kemi på tallriken",
+      "summary": "A restaurant review weighs a chef's science-based menu against its dark room and long evening.",
+      "newWords": [
+        "revolutionär",
+        "ambitiös",
+        "maträtt",
+        "uttal",
+        "glob",
+        "dyster",
+        "gardin",
+        "förolämpning",
+        "olämpligt"
+      ],
+      "text": "Restaurang Ljung i Malmö har fått mycket uppmärksamhet sedan den öppnade i våras. Kocken Nora Ali beskriver sitt kök som revolutionärt. Hon använder kemins och fysikens regler för att göra något nytt av vanliga råvaror, och hennes meny har tolv små maträtter. Jag åt där en tisdag i mars, och jag är fortfarande inte säker på vad jag tycker.\n\nLåt mig börja med lokalen. Den är dyster. Väggarna är mörka, och tunga gardiner hänger för alla fönster, så att inget ljus kommer in från gatan. När jag frågade varför gardinerna var stängda, svarade servitören att gästerna ska tänka på maten och inget annat. Det är en idé man kan förstå, men en så dyster lokal gör inte en lång kväll lättare. Dessutom spelades musiken olämpligt högt.\n\nMaten är en annan sak. Den första maträtten var en liten glob av rödbetor, inte större än ett öga. Tekniken är känd sedan länge: man blandar saften med ett ämne från alger och låter den droppa ner i ett bad med ett salt. Runt varje droppe bildas då en tunn hinna, och resultatet blir en liten glob som spricker i munnen. Det är vackert och roligt, och smaken är ren och stark. Nästa rätt var en glob av gurka med dill, och den var lika god.\n\nProblemet är att namnen på rätterna är svåra. Många är på franska eller japanska, och servitören rättade mitt uttal flera gånger. Det kändes onödigt. En gäst ska inte behöva oroa sig för sitt uttal för att få äta. Det är en sak att vara ambitiös, en annan att få gästen att känna sig dum.\n\nNora Ali är utan tvekan ambitiös, och det är en av restaurangens styrkor. Hennes kök är verkligen revolutionärt i vissa delar. Men inte allt fungerar. En rätt av fisk var för kall, och vi fick vänta olämpligt länge på den sista rätten. När min vän bad om salt, sa servitören att kocken ser det som en förolämpning. Jag förstår att en kock vill att maten ska ätas som hon har tänkt sig, men en fråga om salt borde inte uppfattas som en förolämpning.\n\nSka man gå dit? Ja, om man är nyfiken på vad kemi kan göra med smaker, och om man har gott om tid. Nej, om man vill ha en lugn och ljus middag. Själv skulle jag gärna gå tillbaka, men bara om gardinerna var öppna.\n\nFrågor:\nHur beskriver Nora Ali sitt kök?\nHon beskriver det som revolutionärt.\nVarför är lokalen dyster?\nVäggarna är mörka, och tunga gardiner hänger för alla fönster.\nHur gör man en liten glob av saft?\nMan blandar saften med ett ämne från alger och låter den droppa ner i ett bad med ett salt, så att en tunn hinna bildas.\nVarför var skribenten irriterad på servitören?\nServitören rättade skribentens uttal flera gånger.\nVad hände när vännen bad om salt?\nServitören sa att kocken ser det som en förolämpning.\nVem rekommenderar skribenten restaurangen till?\nTill den som är nyfiken på kemi och har gott om tid, men inte till den som vill ha en lugn och ljus middag."
+    },
+    {
+      "title": "Köket där alla får vara med",
+      "summary": "A profile of two married chefs who teach teenagers the science of cooking and chose openness after online harassment.",
+      "newWords": [
+        "öppenhet",
+        "homosexualitet",
+        "maka",
+        "förtal",
+        "trakassera",
+        "uppröra",
+        "tiga",
+        "meningsfull",
+        "trauma"
+      ],
+      "text": "I ett gammalt skolkök i Örebro står femton tonåringar och skär lök. Flera av dem gråter. ”Vem kan förklara varför?” frågar Lina Holm. En flicka räcker upp handen och svarar att löken släpper ut något som svider i ögonen. ”Precis”, säger Lina. ”När kniven skär sönder cellerna i löken, bildas en gas. Gasen når ögonen, och ögonen försöker skölja bort den med tårar.” Hon visar att en kall lök och en vass kniv gör det lättare, eftersom färre celler går sönder och gasen sprids långsammare.\n\nLina driver kursen tillsammans med sin maka, Maja Holm. De är båda kockar, och de har varit gifta i tio år. För tre år sedan startade de en kurs i matlagning för ungdomar, där varje lektion handlar om vad som händer i maten, inte bara om recept. ”Vi vill att de ska förstå varför, inte bara hur”, säger Maja. ”Då kan de laga mat hela livet.”\n\nParet blev kända i hela landet efter en intervju i tv. Där talade de med stor öppenhet om sitt äktenskap och om att växa upp i en liten stad. Maja berättade att hon länge hade dolt sin homosexualitet, eftersom hon var rädd för vad andra skulle tycka. Intervjun fick många fina kommentarer, men också andra. Under flera månader var det några personer som trakasserade paret på nätet. Någon spred dessutom förtal om deras restaurang och påstod att köket var smutsigt, vilket inte var sant.\n\n”Det var en tung tid”, säger Lina. ”Att bli trakasserad varje dag tar mycket kraft. För Maja blev det nästan ett trauma.” Maja nickar. Hon gick i terapi i ett år för att bearbeta det trauma som hatet hade väckt. ”Det upprör mig fortfarande när jag tänker på det”, säger hon. ”Men det som upprör mig mest är att så många unga får höra samma saker.”\n\nDe funderade på att tiga, att sluta tala om sitt liv och bara arbeta. Men de valde öppenhet. ”Om vi skulle tiga, skulle de som spred förtalet få bestämma”, säger Maja. ”Vi ville visa att det går att leva som man är.” De anmälde förtalet till polisen, och nu har det blivit tyst på nätet.\n\nI dag är det kursen som tar den mesta tiden. Flera av eleverna har berättat för dem om sin egen homosexualitet, och de säger att det har betytt mycket att träffa vuxna som inte döljer något. ”Det är det mest meningsfulla jag har gjort”, säger Lina. ”Att laga mat är meningsfullt i sig, men att se en ung människa våga vara sig själv är ännu mer meningsfullt.”\n\nFrågor:\nVarför gråter eleverna när de skär lök?\nNär kniven skär sönder cellerna i löken bildas en gas, och ögonen försöker skölja bort den med tårar.\nVem driver kursen tillsammans med Lina?\nHennes maka, Maja Holm.\nVad talade paret om i intervjun?\nDe talade med stor öppenhet om sitt äktenskap, och Maja berättade om sin homosexualitet.\nVilket förtal spreds om deras restaurang?\nNågon påstod att köket var smutsigt, vilket inte var sant.\nVarför valde de att inte tiga?\nDe ville inte att de som spred förtalet skulle få bestämma, och de ville visa att det går att leva som man är.\nVad säger Lina om kursen?\nHon säger att den är det mest meningsfulla hon har gjort."
+    },
+    {
+      "title": "Brödet, vetenskapen och makten",
+      "summary": "An essay weighs whether science or politics matters more in keeping people fed.",
+      "newWords": [
+        "diktator",
+        "förtryckt",
+        "grundlag",
+        "samfund",
+        "satellit",
+        "segra",
+        "företeelse",
+        "snar"
+      ],
+      "text": "Bröd ser ut som den enklaste maten i världen: mjöl, vatten, salt och lite tid. Men bakom varje bröd finns både kemi och politik. När man blandar mjöl med vatten och arbetar degen, binder proteinerna i mjölet ihop sig till ett nät. Nätet håller kvar gasen som bildas i degen, och därför kan brödet växa. Det är en vacker liten process. Ändå är det inte kemin som har gjort brödet så viktigt i historien, utan makten.\n\nUnder lång tid var bröd den mat som de flesta människor levde på. När priset på bröd steg, blev folket hungrigt och argt, och i många länder ledde det till uppror. Varje diktator har förstått det. En förtryckt befolkning kan tåla mycket, men sällan hunger. Därför har många diktatorer sett till att brödet är billigt, även när de har tagit allt annat ifrån människorna. Ett förtryckt folk som har mat i magen gör sällan uppror.\n\nMan kan fråga sig om det är vetenskapen eller politiken som avgör om människor får äta sig mätta. Å ena sidan har vetenskapen gjort enorma framsteg. Under 1800-talet bildades vetenskapliga samfund i hela Europa som samlade forskare kring frågan om hur jorden skulle ge mer. Ett sådant samfund kunde dela kunskap mellan länder på ett sätt som en ensam bonde aldrig kunde. I dag kan en satellit i rymden följa hur vetet växer på fälten. Bilderna från en satellit visar tidigt om ett område drabbas av torka, och då kan hjälpen bli snar, i stället för att komma för sent. Det är ett av vetenskapens stora framsteg att svält i många fall kan förutses.\n\nÅ andra sidan visar historien att svält sällan är en naturlig företeelse. Ekonomen Amartya Sen har visat att stor svält nästan aldrig har inträffat i länder med demokrati och fri press. Där kan folket protestera, och regeringen måste lyssna. Svält är alltså en företeelse som har lika mycket med makt att göra som med regn och torka. I och med att det finns tillräckligt med mat i världen i dag, handlar hunger oftast om vem som har tillgång till den.\n\nVissa länder har tagit konsekvenserna av detta. I Brasilien och Sydafrika står rätten till mat i landets grundlag. En grundlag kan inte ge någon bröd på bordet, men den kan ge människor rätt att kräva det av staten.\n\nMin slutsats är att båda sidor behövs. Vetenskapen ger oss bättre vete och snabbare varningar, och politiken avgör om kunskapen når fram. I det långa loppet tror jag att kunskapen och friheten tillsammans kommer att segra över hungern. Men de segrar bara tillsammans, aldrig var för sig. Och förhoppningsvis inom en snar framtid.\n\nFrågor:\nVarför kan ett bröd växa?\nProteinerna i mjölet binder ihop sig till ett nät som håller kvar gasen i degen.\nVarför har många diktatorer sett till att brödet är billigt?\nEtt förtryckt folk som har mat i magen gör sällan uppror.\nVad gjorde de vetenskapliga samfunden under 1800-talet?\nDe samlade forskare kring frågan om hur jorden skulle ge mer och delade kunskap mellan länder.\nHur kan en satellit hjälpa mot svält?\nBilderna från en satellit visar tidigt om ett område drabbas av torka, så att hjälpen kan bli snar.\nVad har Amartya Sen visat?\nHan har visat att stor svält nästan aldrig har inträffat i länder med demokrati och fri press.\nVad står i Brasiliens och Sydafrikas grundlag?\nDär står rätten till mat."
+    },
+    {
+      "title": "Två solugnar på parkeringsplatsen",
+      "summary": "A mother writes about a Saturday when her children build two solar ovens from boxes and learn how the sun's energy cooks food.",
+      "newWords": [
+        "elbil",
+        "moped",
+        "parkeringsplats",
+        "sladd",
+        "kartong",
+        "klistra",
+        "innebandy",
+        "spöa",
+        "nål"
+      ],
+      "text": "Det här är en lördag som jag vill komma ihåg, så jag skriver ner den.\n\nPå förmiddagen spelade min son Leo, som är elva år, en match i innebandy. Hans lag förlorade med 2–7, och han var på dåligt humör hela vägen hem. ”Nästa gång ska vi spöa dem”, sa han i bilen. Hans syster Alva, som är nio, sa att han inte kunde spöa någon, inte ens henne. Det blev tyst i bilen resten av vägen.\n\nVi har en elbil, och när vi kom hem ställde jag den på vår parkeringsplats och satte i sladden för att ladda den. Leo såg på sladden och frågade var energin egentligen kommer ifrån. Jag svarade att den kommer från elnätet, och att en del av den elen har sin början i solen. ”Kan man laga mat direkt med solen, då?” frågade han. Det kan man, och så började eftermiddagens projekt.\n\nVi hämtade två gamla kartonger i förrådet, en till varje barn, eftersom de genast ville tävla. I varje kartong skar vi ett lock som gick att fälla upp. Barnen fick klistra blankt papper av metall på locket och svart papper i botten av kartongen. Alva klistrade noggrant, Leo snabbt. Över öppningen satte vi plast, så att den varma luften skulle stanna inne.\n\nMedan vi arbetade förklarade jag hur det fungerar. Det blanka papperet av metall speglar solens ljus ner i kartongen. Det svarta papperet tar emot ljuset och blir varmt, och plasten hindrar värmen från att försvinna. Det är samma sak som händer i en bil som står i solen en dag på sommaren. Ju mer ljus som kommer in, desto varmare blir det.\n\nVi ställde de två kartongerna på parkeringsplatsen bredvid elbilen, där solen låg på hela eftermiddagen. I var och en lade vi en bit choklad och några bitar äpple. Grannens son kom förbi på sin moped och stannade för att titta. Han är femton och har haft sin moped i ett år. Han stod länge och tittade, innan han körde vidare på mopeden.\n\nEfter en timme hade chokladen smält i båda kartongerna. För att se om äpplet var mjukt, stack Alva en nål i en bit. Nålen gick lätt in i hennes äpple, men inte riktigt lika lätt i Leos. Alva hade vunnit. Leo tog det bättre än på förmiddagen. ”Nu har du i alla fall spöat mig i något annat än innebandy”, sa han och skrattade.\n\nFrågor:\nVad sa Leo efter matchen i innebandy?\nHan sa att hans lag skulle spöa det andra laget nästa gång.\nVarför satte mamman i sladden?\nFör att ladda elbilen på parkeringsplatsen.\nVad fick barnen klistra i kartongerna?\nDe fick klistra blankt papper av metall på locket och svart papper i botten.\nVarför blir det varmt i kartongen?\nPapperet av metall speglar ljuset ner i kartongen, det svarta papperet blir varmt och plasten håller kvar värmen.\nVem kom förbi på en moped?\nGrannens son, som är femton år.\nHur visste de att Alvas äpple var mjukast?\nAlva stack en nål i en bit, och nålen gick lättast in i hennes äpple."
+    },
+    {
+      "title": "Barnmorskan svarar: maten under graviditeten",
+      "summary": "A midwife answers a pregnant reader's letter about which foods carry unwanted bacteria and why heat makes them safe.",
+      "newWords": [
+        "förlossning",
+        "födsel",
+        "privatperson",
+        "giltig",
+        "riksförbund",
+        "oönskad",
+        "assistera",
+        "bevittna"
+      ],
+      "text": "Hej! Jag är gravid i femte månaden och väntar mitt första barn. Jag läser mycket på nätet om vad man får äta, men råden säger emot varandra. Min mamma säger att hon åt allt när hon väntade mig. Vad gäller egentligen? Och vad är det som gör viss mat farlig? Jag är ju bara en privatperson och vet inte vem jag ska lita på. Jag är också lite orolig inför förlossningen. Hälsningar, Hanna i Umeå\n\nKära Hanna! Först vill jag säga att din fråga är mycket vanlig. Jag har arbetat som barnmorska i 25 år och har assisterat vid fler än tusen förlossningar. Nästan alla blivande mammor jag träffar ställer samma fråga som du.\n\nDet är sant att din mammas generation fick andra råd. Men kunskapen har vuxit sedan dess, och många gamla råd är inte längre giltiga. Därför är det klokt att utgå från de råd som är giltiga i dag, och som Livsmedelsverket ger ut. Ett riksförbund för föräldrar har också gjort en bra lista som du kan få hos din barnmorska. Ett sådant riksförbund samlar kunskap från hela landet, så att du som privatperson slipper leta på egen hand.\n\nVarför är viss mat farlig? Det handlar oftast om oönskade bakterier. De flesta bakterier i maten är ofarliga, men några få kan göra en gravid kvinna sjuk och i värsta fall skada barnet. En sådan bakterie kan växa även i kylskåpet, vilket gör den farligare än andra. Den finns ibland i gravad och rökt fisk, i ost av mjölk som inte har värmts upp och i färdiga kalla rätter som har stått länge.\n\nDet goda är att värme tar död på dessa oönskade bakterier. När maten hettas upp till minst 70 grader i mitten, går bakteriernas proteiner sönder, och de kan inte längre leva. Det betyder att du gärna kan äta lax, så länge den är ordentligt stekt eller kokt. Rökt fisk kan du också äta, förutsatt att du hettar upp den först. Tvätta grönsakerna noga, och ät helst mat som är lagad samma dag.\n\nDu skriver också att du är orolig inför förlossningen. Det är helt normalt. Jag har bevittnat många förlossningar, och jag har aldrig bevittnat två som var lika. En födsel är alltid speciell, både för föräldrarna och för oss som arbetar med det. Efter födseln får du dessutom äta nästan allt igen, och de flesta råd blir enklare.\n\nLycka till med resten av graviditeten! Hälsningar, Ingrid, barnmorska\n\nFrågor:\nVarför skriver Hanna till barnmorskan?\nHon läser mycket om vad man får äta, men råden säger emot varandra, och som privatperson vet hon inte vem hon ska lita på.\nHur många förlossningar har Ingrid assisterat vid?\nHon har assisterat vid fler än tusen förlossningar.\nVarför ska Hanna inte följa sin mammas råd?\nKunskapen har vuxit, och många gamla råd är inte längre giltiga.\nVad är det som gör viss mat farlig?\nOönskade bakterier, som kan göra en gravid kvinna sjuk och skada barnet.\nHur kan man ta död på bakterierna?\nMan kan hetta upp maten till minst 70 grader i mitten.\nVad säger Ingrid om en födsel?\nHon säger att en födsel alltid är speciell, både för föräldrarna och för dem som arbetar med det."
+    },
+    {
+      "title": "Kommendören och det sura brödet",
+      "summary": "A profile of a retired naval commander who bakes slow sourdough bread for his bridge evenings and explains why time gives taste.",
+      "newWords": [
+        "kommendör",
+        "bridge",
+        "förkorta",
+        "fäste",
+        "spänna",
+        "utmärka",
+        "sinnessjuk",
+        "bunt"
+      ],
+      "text": "Göran Wik var kommendör i flottan i många år. Som kommendör hade han ansvar för ett fartyg och över hundra personer, och han säger själv att han har ordning i blodet. I dag är han 74 år och pensionär, men ordningen finns kvar. Den syns tydligast i köket, där han bakar bröd varje onsdag.\n\nPå torsdagarna spelar Göran bridge med tre gamla vänner. De har spelat bridge tillsammans i över trettio år, och varje gång tar Göran med sig ett bröd. ”Det är egentligen därför de vill spela med mig”, säger han och ler. En av vännerna brukar säga att brödet är sinnessjukt gott. Det är inget ord Göran själv skulle använda, men han tar det som beröm.\n\nHans bröd bakas med sur deg, och det tar tid. På tisdag kväll blandar han mjöl och vatten med lite av den gamla degen, som han har sparat i en burk i kylskåpet. Den gamla degen är full av levande bakterier och jäst. Under natten äter de av sockret i mjölet. Jästen bildar gas, så att degen växer, och bakterierna bildar syra, som ger brödet dess sura smak. ”Det är syran som utmärker ett sådant bröd”, förklarar Göran. ”Och det är tiden som ger syran.”\n\nKan man inte förkorta tiden? Jo, det kan man. Om man tillsätter mer jäst eller ställer degen varmt, går det fortare. Men då hinner bakterierna inte bilda lika mycket syra, och brödet får mindre smak. ”Man kan förkorta allt i livet”, säger Göran, ”men inte utan att förlora något.”\n\nDet svåraste är att forma brödet. Göran lägger degen på ett bord med bara lite mjöl. Sedan drar han den mot sig med båda händerna, om och om igen, för att spänna ytan. En väl spänd yta gör att brödet håller formen och växer uppåt i ugnen i stället för att flyta ut. Men för att kunna spänna ytan måste degen ha fäste mot bordet. Om det ligger för mycket mjöl på bordet, glider degen bara runt och får inget fäste. ”Det tog mig ett år att förstå det”, säger han.\n\nPå bänken ligger en bunt papper. Det är hans anteckningar från tio år vid ugnen: mängder, temperaturer och resultat, skrivna för hand. Han letar i bunten och visar en sida från det första året. ”Ett katastrofalt bröd”, står det. Det som utmärker Göran som bagare är inte talang, säger han, utan just dessa anteckningar. Han har lärt sig något av varje bröd.\n\nPå torsdagen sätter sig de fyra vännerna vid bordet. Göran skär upp brödet, och alla tar en bit innan de börjar spela bridge. ”Sinnessjukt gott”, säger vännen igen. Göran nickar och delar ut korten.\n\nFrågor:\nVad gjorde Göran Wik innan han blev pensionär?\nHan var kommendör i flottan och hade ansvar för ett fartyg.\nVad gör Göran på torsdagarna?\nHan spelar bridge med tre gamla vänner och tar med sig ett bröd.\nVad är det som utmärker ett bröd av sur deg?\nSyran, som bakterierna bildar under lång tid, utmärker ett sådant bröd.\nVad händer om man förkortar tiden?\nBakterierna hinner inte bilda lika mycket syra, och brödet får mindre smak.\nVarför måste degen ha fäste mot bordet?\nAnnars glider den runt, och då kan man inte spänna ytan.\nVad finns i bunten med papper?\nGörans anteckningar från tio år vid ugnen, med mängder, temperaturer och resultat."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "sv-mini-5300",
+  "rankUpTo": 5300,
+  "level": "C1",
+  "title": "Landskap",
+  "description": "Ten standalone texts about Swedish landscapes: frost in a valley, a caravan trip, a manor, a pilgrim route, a heath, a painter, a mountain village, a frozen lake, an accessible trail and drone mapping.",
+  "topic": "Landscapes",
+  "names": [
+    "Ingrid",
+    "Ingrids",
+    "Ingrid Holm",
+    "Jämtland",
+    "Jonas",
+    "Höga kusten",
+    "Gävle",
+    "Hudiksvall",
+    "Härnösand",
+    "Skuleberget",
+    "Yngern",
+    "Sörmland",
+    "Ekenäs",
+    "Karin Lund",
+    "Karin",
+    "Maria",
+    "Marias",
+    "Maria Ek",
+    "Västergötland",
+    "Tartu",
+    "Östersjön",
+    "Sverige",
+    "Elsa",
+    "Elsas",
+    "Elsa Nord",
+    "Göteborg",
+    "Tjörn",
+    "Norge",
+    "Danmark",
+    "Härjedalen",
+    "Stockholm",
+    "Elin",
+    "Elin Strand",
+    "Sara",
+    "Saras",
+    "Sara Berg",
+    "Ahmad",
+    "Afghanistan",
+    "Shirin",
+    "Shirins",
+    "Teheran",
+    "Johan",
+    "Johans",
+    "Johan Lind",
+    "England"
+  ],
+  "lessons": [
+    {
+      "title": "Frosten i dalen",
+      "summary": "A vegetable grower in a Jämtland valley explains how frost forms and how she protects her harvest.",
+      "newWords": [
+        "frost",
+        "skörd",
+        "sval",
+        "solsken",
+        "vattendrag",
+        "alv",
+        "råvara",
+        "nypa",
+        "borra",
+        "oundviklig"
+      ],
+      "text": "Den som odlar i en dal lär sig snart att frosten inte drabbar alla platser lika. Ingrid Holm driver en liten gård i en dal i Jämtland, där en bäck och flera mindre vattendrag rinner ner mot en sjö. Hon odlar potatis, morötter och kål, och hennes grönsaker är en viktig råvara för två restauranger i trakten. För henne är frosten den största risken under hela säsongen.\n\nProcessen är i grunden enkel. En klar natt utan moln förlorar marken sin värme upp mot himlen. Luften närmast marken blir kall, och eftersom kall luft är tyngre än varm luft, rinner den nedför sluttningarna, ungefär som vatten. Den samlas i dalens lägsta delar, ofta längs vattendragen. Där kan det bli flera grader kallare än uppe på höjderna, och där kommer frosten först.\n\n”Många tror att det är kallast högst upp”, säger Ingrid. ”Men en sval natt i augusti kan det vara frost nere vid bäcken, medan det är fem grader varmt vid huset.”\n\nÄven jorden spelar roll. Överst ligger matjorden, och under den ligger alven, ett lager av sand, lera eller grus. I Ingrids dal består alven mest av sand, som släpper igenom vattnet snabbt. En torr jord blir kallare om natten än en fuktig, eftersom den fuktiga jorden lagrar mer värme från dagen. Därför vattnar Ingrid sina fält en sval eftermiddag när hon väntar sig frost.\n\nFör att alltid ha vatten nog lät hon förra året borra en brunn. De fick borra nästan 70 meter ner innan de hittade vatten. Nu kan hon också skydda plantorna på ett annat sätt: förutsatt att hon börjar vattna innan temperaturen går under noll, bildas ett tunt lager is på bladen. När vattnet fryser, avger det värme, och plantan under isen klarar sig.\n\nEfter en frostnatt kommer ofta en dag med klart solsken. Det låter vackert, men för växterna kan solsken direkt efter frosten vara det värsta. Om bladen tinar för snabbt, skadas de mer än om de tinar långsamt i skuggan.\n\nIngrid läser väderprognosen varje kväll, men hon tar den med en nypa salt. Prognosen gäller hela regionen, inte hennes dal. ”Den lovar ofta tre grader”, säger hon, ”men vid bäcken blir det minus två.” Därför litar hon mer på sina egna mätningar än på prognosen.\n\nEn viss förlust är oundviklig. Någon gång varje höst kommer frosten, och den går inte att stoppa. Men i och med att Ingrid nu känner sitt landskap så väl, blir den oundvikliga förlusten mindre. I fjol klarade hon nästan hela skörden, och skörden av potatis var den bästa på tio år. Restaurangerna fick sin råvara ända fram till jul.\n\nFrågor:\nVarför kommer frosten först längs vattendragen i dalen?\nKall luft är tyngre än varm luft, så den rinner nedför sluttningarna och samlas i dalens lägsta delar.\nVad är alven?\nAlven är ett lager av sand, lera eller grus som ligger under matjorden.\nVarför lät Ingrid borra en brunn?\nHon ville alltid ha vatten nog för att vattna sina fält.\nVarför kan solsken direkt efter frosten skada växterna?\nBladen tinar för snabbt, och då skadas de mer än om de tinar långsamt.\nVarför tar Ingrid väderprognosen med en nypa salt?\nPrognosen gäller hela regionen, inte hennes dal.\nHur gick det med skörden i fjol?\nHon klarade nästan hela skörden, och skörden av potatis var den bästa på tio år."
+    },
+    {
+      "title": "Med husvagn längs Höga kusten",
+      "summary": "A woman keeps a diary of a five-day caravan trip with her husband along the High Coast.",
+      "newWords": [
+        "husvagn",
+        "etapp",
+        "avslappnad",
+        "emellanåt",
+        "saft",
+        "apelsin",
+        "brasa",
+        "hemstad"
+      ],
+      "text": "Måndag\nI dag började vår resa med husvagn längs Höga kusten. Jag och min man Jonas har lånat husvagnen av hans föräldrar, och vi har delat in resan i fem korta etapper. Vi vill inte köra mer än tre timmar om dagen. Den första etappen gick från vår hemstad Gävle norrut till Hudiksvall. Det kändes konstigt att lämna hemstaden en vanlig måndag, när alla andra åkte till jobbet.\n\nTisdag\nDen andra etappen var den vackraste hittills. Strax norr om Härnösand börjar landskapet förändras. Berg reser sig rakt upp ur havet, och mellan dem ligger djupa vikar med mörkt vatten. Jonas förklarade att landet här fortfarande stiger efter den senaste istiden, nästan en centimeter om året. Stränder som en gång låg vid havet ligger nu högt uppe i skogen. Jag hade svårt att tro det tills vi såg de runda stenarna mitt bland träden.\n\nOnsdag\nVi stannade på en camping vid en vik och gjorde ingenting alls. Jag har inte känt mig så avslappnad på flera år. Hemma tänker jag hela tiden på jobbet, men här finns bara havet, vinden och fåglarna. Emellanåt kom en båt förbi, och emellanåt hörde vi barn som badade längre bort. Annars var det tyst. Till lunch drack vi kall saft och åt apelsiner på trappan till husvagnen. Saften hade Jonas mamma gjort av bär från sin trädgård.\n\nTorsdag\nDen fjärde etappen var den svåraste. Vägen upp mot Skuleberget var smal och brant, och det är inte lätt att köra med en husvagn efter bilen. Jonas var allt annat än avslappnad. Men utsikten från toppen var värd besväret: skogar, öar och vatten så långt vi kunde se. På kvällen gjorde vi en brasa på stranden. Vi satt vid brasan tills det blev mörkt, vilket i juni betyder nästan midnatt.\n\nFredag\nDen sista etappen tog oss tillbaka söderut. Jag tänkte på hur lite man behöver för att må bra: en husvagn, en brasa, en apelsin och någon att prata med. Emellanåt måste man lämna sin hemstad för att se den med nya ögon. När vi körde in i Gävle på kvällen, kändes staden både bekant och ny.\n\nFrågor:\nI hur många etapper delade de in resan?\nDe delade in resan i fem korta etapper.\nVarför ligger det runda stenar mitt i skogen vid Höga kusten?\nLandet stiger fortfarande efter istiden, så stränder som en gång låg vid havet ligger nu högt uppe i skogen.\nVad gjorde de på onsdagen?\nDe stannade på en camping vid en vik och gjorde ingenting alls.\nVad åt och drack de till lunch?\nDe drack kall saft och åt apelsiner på trappan till husvagnen.\nVarför var den fjärde etappen den svåraste?\nVägen var smal och brant, och det är inte lätt att köra med en husvagn efter bilen.\nVad gjorde de på kvällen efter besöket på Skuleberget?\nDe gjorde en brasa på stranden och satt vid brasan tills det blev mörkt."
+    },
+    {
+      "title": "Herrgården som fick liv igen",
+      "summary": "A foundation rescues an old manor in Sörmland, and the village debates new housing on its fields.",
+      "newWords": [
+        "herrgård",
+        "avtryck",
+        "förfall",
+        "välgörenhet",
+        "underteckna",
+        "börda",
+        "hyresvärd",
+        "omtyckt",
+        "intim",
+        "utbyggnad",
+        "bebyggelse"
+      ],
+      "text": "På en udde i sjön Yngern i Sörmland ligger herrgården Ekenäs. Huset byggdes på 1700-talet, och i nästan 200 år ägde familjen på herrgården gårdarna, skogen och åkrarna runt sjön. Den som går genom trakten i dag ser fortfarande herrgårdens avtryck i landskapet. De långa alléerna, stenmurarna mellan fälten och de små röda husen längs vägen finns där för att herrgården en gång behövde dem.\n\nUnder 1900-talet gick det sämre. Familjen sålde mark, jordbruket gav allt mindre pengar, och till slut stod huset tomt. I femtio år fick förfallet fortsätta. Taket läckte, fönstren gick sönder och parken växte igen. Förfallet syntes på långt håll från sjön.\n\nÅr 2015 köpte en stiftelse herrgården. Stiftelsen lever på välgörenhet: privatpersoner och företag ger pengar, och varje krona går till att rädda gamla byggnader. Utan välgörenhet hade huset troligen rivits. Den dag då stiftelsens ordförande, Karin Lund, undertecknade kontraktet, kom halva byn för att titta. ”Jag minns att handen skakade när jag undertecknade”, säger hon. ”Det var en stor börda att ta på sig. Men bördan blev lättare när jag såg hur många som ville hjälpa till.”\n\nI dag är stiftelsen hyresvärd för sex lägenheter i herrgårdens två flyglar. Som hyresvärd håller stiftelsen hyrorna låga, förutsatt att hyresgästerna hjälper till i parken några helger om året. Det har gjort herrgården omtyckt i trakten. Förr var huset en plats som folk från byn sällan besökte. Nu är det en av de mest omtyckta platserna i kommunen.\n\nParken är inte stor, men den är intim. Smala gångar leder mellan höga häckar och gamla träd ner till en liten brygga. Den intima stämningen gör att många par väljer att gifta sig där på sommaren.\n\nJust nu diskuteras en utbyggnad av byn. Kommunen vill tillåta ny bebyggelse på åkrarna norr om herrgården, ungefär 40 hus. De som är för planen menar att byn behöver fler invånare och att utbyggnaden skulle ge skolan fler elever. De som är emot menar att den nya bebyggelsen skulle bryta det gamla landskapet, där alléerna och fälten hänger ihop med huset. Karin Lund vill inte stoppa utbyggnaden helt. ”Byn måste kunna växa”, säger hon. ”Men husen bör placeras så att man fortfarande ser herrgårdens avtryck i landskapet.”\n\nFrågor:\nVar syns herrgårdens avtryck i landskapet?\nDet syns i de långa alléerna, stenmurarna mellan fälten och de små röda husen längs vägen.\nHur såg huset ut efter femtio år av förfall?\nTaket läckte, fönstren var sönder och parken hade växt igen.\nHur får stiftelsen sina pengar?\nStiftelsen lever på välgörenhet från privatpersoner och företag.\nVarför håller stiftelsen hyrorna låga?\nHyresgästerna hjälper i gengäld till i parken några helger om året.\nVarför vill många gifta sig i parken?\nParken är intim, med smala gångar mellan höga häckar ner till en liten brygga.\nVad tycker Karin Lund om den planerade utbyggnaden?\nHon tycker att byn måste kunna växa, men att husen bör placeras så att herrgårdens avtryck syns."
+    },
+    {
+      "title": "I helgonets fotspår",
+      "summary": "An interview with a woman who leads walks along an old pilgrim route to a saint's spring.",
+      "newWords": [
+        "helgon",
+        "senior",
+        "tonår",
+        "est",
+        "katolik",
+        "mentor",
+        "öm",
+        "svimma",
+        "förekomst",
+        "hart"
+      ],
+      "text": "Maria Ek leder vandringar längs en gammal pilgrimsled i Västergötland. Leden är ungefär 100 kilometer lång och slutar vid en källa som enligt legenden tillhör ett helgon. Vi träffade henne vid ledens början en morgon i maj.\n\nVilka är det som går med dig?\n”Alla möjliga. Många är seniorer som har gått i pension och äntligen har tid. Men i år har jag också en grupp ungdomar i tonåren, och förra veckan gick en est med oss, en kvinna från Tartu som skriver en bok om pilgrimsleder runt Östersjön. Hon berättade att esterna har en liknande tradition, fast den är mindre känd.”\n\nÄr det mest katoliker som går?\n”Nej, det tror många, men det stämmer inte. Under medeltiden var nästan alla i Sverige katoliker, och då var det självklart att vandra till ett helgon för att be om hjälp. I dag är några av deltagarna katoliker, men de flesta är inte religiösa alls. De vill vara ute i naturen och tänka i lugn och ro.”\n\nHur kom du själv in på det här?\n”När jag var i tonåren mådde jag dåligt. En lärare på skolan blev min mentor. Hon tog med mig ut i skogen varje helg och lärde mig att läsa landskapet: var stigen går och varför bönderna byggde sina gårdar just där. Utan min mentor hade jag aldrig börjat med det här. Nu försöker jag själv vara en mentor för de unga som går med.”\n\nVad är det svåraste på vägen?\n”Fötterna. Efter två dagar har nästan alla ömma fötter, och de som har nya skor får det värst. Jag säger alltid att man ska gå in skorna hemma först. Värmen kan också vara ett problem. Förra sommaren svimmade en man i gruppen en varm eftermiddag, eftersom han inte hade druckit tillräckligt. Han satt i skuggan en stund, fick vatten och mådde snart bättre, men det var en påminnelse. Ingen ska behöva svimma på en vandring.”\n\nVad får man se längs leden?\n”Mycket. Leden går genom ängar som har slagits för hand i hundratals år. Där är förekomsten av sällsynta växter, till exempel orkidéer, mycket större än i det moderna jordbrukslandskapet. Förekomsten av orkidéer visar faktiskt hur gammal en äng är. Längre norrut går leden genom en tät skog där det förr var hart när omöjligt att hitta fram utan guide. I dag är stigen markerad, men det är fortfarande hart när omöjligt att komma igenom utan att bli våt om fötterna.”\n\nVad betyder källan för dig?\n”Den är en plats där man stannar. Seniorerna, ungdomarna och esten från Tartu sitter där tillsammans och vilar sina ömma fötter. Ingen frågar vad den andra tror på. Det är det jag tycker bäst om.”\n\nFrågor:\nVar slutar pilgrimsleden?\nDen slutar vid en källa som enligt legenden tillhör ett helgon.\nVilka går med på Marias vandringar?\nMånga seniorer, en grupp ungdomar i tonåren och förra veckan en est från Tartu.\nVarför vandrade människor till helgon under medeltiden?\nNästan alla var katoliker, och de vandrade till ett helgon för att be om hjälp.\nHur hjälpte Marias mentor henne när hon var i tonåren?\nHon tog med Maria ut i skogen varje helg och lärde henne att läsa landskapet.\nVarför svimmade mannen förra sommaren?\nDet var varmt, och han hade inte druckit tillräckligt.\nVad visar förekomsten av orkidéer?\nDen visar hur gammal en äng är."
+    },
+    {
+      "title": "Fältet som soldaterna räddade",
+      "summary": "A report on how an army training field became a nature reserve after a long dispute.",
+      "newWords": [
+        "ammunition",
+        "försvarare",
+        "kärnvapen",
+        "proposition",
+        "upplösa",
+        "omringa",
+        "förfrågan",
+        "legitim",
+        "ställningstagande",
+        "instans"
+      ],
+      "text": "I nästan hundra år var det öppna fältet söder om staden ett militärt område. Här övade regementet med skarp ammunition, och allmänheten fick bara gå in på helger, när ingen sköt. Det låter som ett hot mot naturen, men i dag vet vi att det ofta var tvärtom. Eftersom ingen fick bygga, odla eller plantera skog där, förblev fältet öppet, medan landskapet runt omkring förändrades helt.\n\nUnder det kalla kriget förberedde sig landets försvarare på ett krig där även kärnvapen kunde användas. Landets försvarare övade på fältet nästan varje dag. Kvar finns i dag ett litet hus av betong, byggt på 1960-talet för att skydda soldaterna mot kärnvapen. När kriget var över och hotet minskade, ville riksdagen spara pengar på försvaret. Regeringen lade fram en proposition om att lägga ner flera regementen, och riksdagen röstade för propositionen. År 2000 upplöstes regementet, och fältet stod plötsligt utan användning.\n\nI dag är fältet omringat av bostadsområden och vägar. På alla sidor omringas det av hus, och det är därför det är så värdefullt: det är det sista stora öppna fältet i hela regionen. Men just därför ville många använda det. Kommunen fick snart en förfrågan från ett företag som ville bygga ett stort köpcentrum på marken. Nästan samtidigt kom en annan förfrågan, från en förening som arbetar för att skydda naturen. Föreningen ville att fältet skulle bli naturreservat.\n\nBåda sidor hade legitima intressen. Företaget ville skapa jobb i en kommun där många saknade arbete, och det är ett legitimt mål. Föreningen ville skydda växter och fåglar som inte längre finns någon annanstans i trakten. Kommunens ställningstagande kom efter ett år: fältet skulle bli naturreservat. Det var ett tydligt ställningstagande för naturen.\n\nFöretaget överklagade beslutet. Fallet prövades i flera instanser. Först prövades det av länsstyrelsen och sedan av domstolen, som gick på samma linje. Till slut tog den högsta instansen inte upp fallet, och beslutet stod fast.\n\nInnan någon kunde gå fritt på fältet, måste marken undersökas. I och med att det hade skjutits där i hundra år, fanns det gammal ammunition kvar i marken. Specialister gick över fältet meter för meter, och under tre år hittade de över tusen föremål. Först därefter kunde området öppnas för allmänheten.\n\nI dag är fältet omtyckt av både familjer och forskare. På våren blommar det, och man kan höra fåglar som har försvunnit från resten av landskapet. Huset av betong står kvar. Det påminner om att det var soldaterna, inte de som älskar naturen, som räddade fältet.\n\nFrågor:\nVarför förblev fältet öppet under hundra år?\nDet var ett militärt område, och ingen fick bygga, odla eller plantera skog där.\nVad finns kvar på fältet från det kalla kriget?\nEtt litet hus av betong som skulle skydda soldaterna mot kärnvapen.\nVarför upplöstes regementet?\nRiksdagen ville spara pengar på försvaret och röstade för regeringens proposition.\nVilka två förfrågningar fick kommunen?\nEtt företag ville bygga ett köpcentrum, och en förening ville göra fältet till naturreservat.\nHur gick det när företaget överklagade?\nFallet prövades i flera instanser, och beslutet stod fast.\nVarför måste marken undersökas innan området öppnades?\nDet fanns gammal ammunition kvar i marken efter hundra år av övningar."
+    },
+    {
+      "title": "Ljuset över klipporna",
+      "summary": "An interview with a landscape painter on the west coast about light, creativity and sudden fame.",
+      "newWords": [
+        "utnämna",
+        "dagstidning",
+        "abstrakt",
+        "stimulera",
+        "kreativitet",
+        "skandinaviska",
+        "osannolikt",
+        "frustrerande",
+        "popularitet",
+        "underlig"
+      ],
+      "text": "Elsa Nord har målat landskap i över trettio år. I våras utnämndes hon till årets konstnär av en av landets största dagstidningar, och hennes utställning i Göteborg har haft fler besökare än någon annan på museet i år. Vi träffade henne i hennes ateljé på Tjörn, med utsikt över släta, rosa klippor och havet.\n\nDina första målningar var nästan helt abstrakta. Nu är de mer realistiska. Varför?\n”När jag var ung tyckte jag att abstrakt konst var den enda moderna konsten. Jag målade färger och former, inte platser. Men ju äldre jag blev, desto mer ville jag förstå just de här klipporna. Nu ligger mina bilder någonstans mittemellan. På avstånd ser man klippor och hav, men på nära håll är bilderna nästan abstrakta.”\n\nVad är det som stimulerar din kreativitet?\n”Ljuset. Det skandinaviska ljuset är speciellt, särskilt på sommaren, när solen knappt går ner. En morgon kan ljuset vara osannolikt klart, och en timme senare är allt grått och mjukt. Det stimulerar mig att hela tiden börja om. Många tror att kreativitet kommer inifrån, men för mig kommer den utifrån, från landskapet.”\n\nDu har ställt ut i alla de skandinaviska länderna. Ser landskapen olika ut?\n”Ja, mycket. Fjällen i Norge är dramatiska, och kusten i Danmark är platt och öppen. Här på västkusten har vi något mitt emellan: låga klippor som går rakt ner i havet. När kvällssolen träffar dem blir de osannolikt rosa, nästan som om någon hade målat dem.”\n\nÄr det svårt att måla utomhus?\n”Det är ofta frustrerande. Ljuset förändras snabbare än jag hinner måla, och vinden blåser omkull staffliet. Det mest frustrerande är när jag äntligen har hittat rätt färg och molnen kommer. Men jag har lärt mig att leva med det. Kanske är det just det som gör bilderna levande.”\n\nHur känns det att plötsligt få så stor popularitet?\n”Underligt. Jag har gjort samma sak i trettio år, och nu vill alla ha mina tavlor. Det är en underlig känsla. Populariteten kom när tidningen utnämnde mig, och jag vet att den kan försvinna lika snabbt som den kom. Jag försöker att inte tänka för mycket på det.”\n\nVad gör du när du inte målar?\n”Jag går längs klipporna och tittar. Varje morgon läser jag två dagstidningar på papper, med kaffe och havet utanför fönstret. Sedan går jag ut och börjar om.”\n\nFrågor:\nVarför har så många människor hört talas om Elsa Nord i år?\nEn av landets största dagstidningar utnämnde henne till årets konstnär.\nHur har hennes målningar förändrats?\nFörr var de nästan helt abstrakta, men nu är de mer realistiska.\nVad stimulerar Elsas kreativitet?\nDet skandinaviska ljuset, som förändras hela tiden, stimulerar hennes kreativitet.\nVarför är det frustrerande att måla utomhus?\nLjuset förändras snabbare än hon hinner måla, och vinden blåser omkull staffliet.\nHur känns det för henne att få så stor popularitet?\nDet känns underligt, eftersom hon har gjort samma sak i trettio år."
+    },
+    {
+      "title": "Byn och turisterna",
+      "summary": "A columnist from a mountain village weighs what tourism has given her village and what it has cost.",
+      "newWords": [
+        "turism",
+        "försörjning",
+        "medelklass",
+        "koncern",
+        "monopol",
+        "problematik",
+        "orimlig",
+        "reell",
+        "främlingsfientlig",
+        "etablissemang"
+      ],
+      "text": "Varje vinter kommer tusentals turister till fjällbyn i Härjedalen där jag växte upp. De kommer för snön, för tystnaden och för de breda, vita vidderna ovanför trädgränsen. Turismen har gett byn mycket, men den har också skapat problem. Frågan är om fördelarna väger tyngre än nackdelarna.\n\nÅ ena sidan är turismen i dag byns viktigaste försörjning. När den sista industrin stängde på 1980-talet, försvann de flesta jobben. Utan liftarna, hotellen och restaurangerna hade många familjer tvingats flytta. För min bror, som arbetar som skidlärare, är turismen hela hans försörjning.\n\nUnder stora delar av 1900-talet var fjällsemestern något för medelklassen i städerna. Familjer från Stockholm och Göteborg åkte upp med tåg en vecka varje vinter och bodde i enkla stugor. Nu har medelklassen fått sällskap av turister från hela världen, och byn har förändrats.\n\nÅ andra sidan har turismen blivit en industri. De flesta hotell och alla liftar i dalen ägs i dag av en enda koncern med huvudkontor i Stockholm. Koncernen har i praktiken monopol på skidåkningen här. Ett monopol är inte alltid dåligt, eftersom koncernen har investerat mycket, men det gör byn beroende av beslut som fattas långt bort.\n\nProblematiken syns tydligast när det gäller bostäder. Många hus köps som fritidshus och står tomma elva månader om året. Priserna har blivit orimliga för unga som vill bo kvar. Det är orimligt att en sjuksköterska inte har råd att bo i den by där hon arbetar. Det här är ingen teoretisk risk utan en reell förändring: min skolklass hade 22 elever, och i dag har hela skolan 9 barn.\n\nNär jag skriver om detta, får jag emellanåt höra att jag är främlingsfientlig, att jag inte vill ha främlingar i byn. Det stämmer inte. Jag är glad över varje besökare. Min kritik gäller inte människorna utan systemet. Att kalla den som oroar sig för bostäderna främlingsfientlig gör det svårare att diskutera den reella problematiken.\n\nDet politiska etablissemanget i Stockholm talar gärna om att hela landet ska leva. Men få i etablissemanget har sett hur en by förändras när husen står tomma större delen av året.\n\nLösningen är inte att stoppa turismen. Byn behöver den. Men förutsatt att kommunen bygger lägenheter för dem som bor och arbetar här året runt, kan turismen och byn leva sida vid sida.\n\nFrågor:\nVarför är turismen så viktig för byn?\nDen är byns viktigaste försörjning sedan den sista industrin stängde.\nVilka åkte till fjällen under 1900-talet?\nDet var mest medelklassen i städerna, till exempel familjer från Stockholm och Göteborg.\nVarför kan koncernens monopol vara ett problem?\nDet gör byn beroende av beslut som fattas långt bort.\nVilken reell förändring har skribenten sett i skolan?\nHennes skolklass hade 22 elever, och i dag har hela skolan bara 9 barn.\nVarför är det fel att kalla skribenten främlingsfientlig?\nHon är glad över varje besökare, och hennes kritik gäller systemet, inte människorna."
+    },
+    {
+      "title": "Vinter på isen",
+      "summary": "A young runner trains on a frozen lake while the pool is closed and watches the ice being made safe for a race.",
+      "newWords": [
+        "friidrott",
+        "badhus",
+        "deltävling",
+        "tyngd",
+        "rond",
+        "ökänd",
+        "scout",
+        "såga",
+        "bredda",
+        "puck"
+      ],
+      "text": "Elin Strand är 17 år och tävlar i friidrott. På sommaren springer hon 800 meter på banan, men på vintern måste hon träna på andra sätt. Vanligtvis simmar hon i stadens badhus två gånger i veckan. I år är badhuset stängt för renovering, och därför har hon hittat en ny plats för sin träning: isen på sjön.\n\nSjön ligger strax utanför staden, omringad av skog. Varje vinter plogar kommunen en lång bana på isen, och i februari arrangeras där en deltävling i en stor serie för skridskoåkare. Banan är tolv kilometer lång, och Elin åker den varje dag för att träna sin kondition. Hennes tränare i friidrott tycker att det är ett bra sätt att träna utan att belasta knäna.\n\nInnan någon får gå ut på isen, måste den vara säker. Isen måste vara minst tio centimeter tjock för att bära en människas tyngd, och betydligt tjockare för att bära en bils tyngd. Varje morgon går två män från den lokala klubben en rond längs hela banan. Under ronden borrar de små hål i isen och mäter hur tjock den är. Om isen är för tunn någonstans, stänger de banan.\n\nSjön är tyvärr ökänd i trakten. Den är ökänd för den svaga isen nära ån, där strömmande vatten håller isen tunn hela vintern. Därför är det området avspärrat med rött band.\n\nEn lördag i januari får Elin se hur man räddar någon som har gått igenom isen. En grupp scouter har en övning på sjön. Med en stor såg sågar ledaren upp ett hål i isen, en så kallad vak. Hon sågar långsamt, eftersom isen är tjock. Sedan går varje scout ner i det kalla vattnet, i en särskild dräkt, och tar sig upp på isen igen utan hjälp. Elin tittar på när scouterna övar och bestämmer sig för att alltid ha med sig rätt utrustning.\n\nVeckan före deltävlingen breddar kommunen banan, eftersom det kommer tusentals åkare. De breddar den från fem till femton meter. Närmast stranden spelar barn hockey med en puck och två snöhögar som mål. Pucken glider långt ut på isen, och en pappa får åka efter den.\n\nElin är inte med i deltävlingen, men på tävlingsdagen står hon vid målet och hejar på åkarna. När badhuset öppnar igen i mars, vet hon inte om hon vill gå tillbaka. Isen har blivit hennes favorit.\n\nFrågor:\nVarför tränar Elin inte i badhuset i år?\nBadhuset är stängt för renovering.\nHur tjock måste isen vara för att bära en människas tyngd?\nDen måste vara minst tio centimeter tjock.\nVad gör männen från klubben under sin rond varje morgon?\nDe borrar små hål i isen och mäter hur tjock den är.\nVarför är sjön ökänd i trakten?\nDen är ökänd för den svaga isen nära ån, där strömmande vatten håller isen tunn.\nVad övar scouterna på?\nDe övar på att ta sig upp på isen igen efter att ha gått igenom den.\nVarför breddar kommunen banan före deltävlingen?\nDet kommer tusentals åkare till tävlingen."
+    },
+    {
+      "title": "En stig för alla",
+      "summary": "A woman in a wheelchair visits a new accessible trail built by an Afghan carpenter and an Iranian landscape architect.",
+      "newWords": [
+        "rullstol",
+        "infektera",
+        "sjukskriva",
+        "afghan",
+        "iranska",
+        "hygglig",
+        "zoo",
+        "bricka"
+      ],
+      "text": "Sara Berg har suttit i rullstol sedan en olycka för tio år sedan. Hon älskar naturen, men det mesta av den är svårt att nå i rullstol. Stigar är ofta smala och fulla av stenar och rötter. I våras opererades hon i ryggen, och efteråt blev såret infekterat. Läkaren förklarade att ett infekterat sår kan ta lång tid att läka. Sara fick medicin och blev sjukskriven i två månader. Under tiden hon var sjukskriven, satt hon mest inne och längtade ut.\n\nEn dag läser hon om en ny stig vid sjön utanför staden. Stigen är byggd för att fungera för alla. Den är bred, har en jämn yta av fint grus och går nästan helt utan backar. Där det ändå lutar, är lutningen hygglig, så att man kan ta sig upp i rullstol utan hjälp.\n\nStigen har byggts av ett lag från kommunen. Två av snickarna i laget är afghaner. En av dem, Ahmad, kom till Sverige som 16-åring och har arbetat som snickare i tio år. Han har byggt de långa bryggorna av trä över den blöta marken vid sjön. ”I Afghanistan växte jag upp bland berg”, säger han. ”Här är allt platt och blött. Det var nytt för en afghan som jag.”\n\nStigen ritades av en landskapsarkitekt som heter Shirin. Hon är iranska och växte upp nära bergen utanför Teheran. Hon jämför ofta de svenska skogarna med de iranska bergen, där vatten är sällsynt och varje träd är viktigt. Shirin ville inte att stigen skulle göra naturen till ett zoo, där man bara tittar på djuren bakom ett staket. ”Ett zoo visar naturen på avstånd”, säger hon. ”Här ska man vara mitt i den.”\n\nEn lördag i september åker Sara dit. Hon rullar hela vägen runt sjön, nästan tre kilometer, utan att behöva hjälp en enda gång. Hon ser fåglar på vattnet och känner doften av skog. Det är första gången på flera år som hon är ensam i naturen.\n\nVid stigens slut finns ett litet kafé. Sara köper kaffe och en bulle, och en hygglig ung man bär ut brickan till ett bord vid vattnet. Hon sitter länge med brickan framför sig och tittar ut över sjön.\n\nFrågor:\nVarför var Sara sjukskriven i två månader?\nEfter operationen i ryggen blev såret infekterat.\nVarför är den nya stigen lätt att ta sig fram på i rullstol?\nDen är bred, har en jämn yta av fint grus och går nästan helt utan backar.\nVad har Ahmad byggt?\nHan har byggt de långa bryggorna av trä över den blöta marken vid sjön.\nVad jämför Shirin de svenska skogarna med?\nHon jämför dem med de iranska bergen, där vatten är sällsynt.\nVarför ville Shirin inte att stigen skulle bli som ett zoo?\nEtt zoo visar naturen på avstånd, men på stigen ska man vara mitt i den.\nVad gör Sara vid kaféet?\nHon sitter länge med kaffe och en bulle på en bricka och tittar ut över sjön."
+    },
+    {
+      "title": "Landskapet från ovan",
+      "summary": "A drone photographer explains how he maps landscapes from the air and builds virtual models of them.",
+      "newWords": [
+        "flygning",
+        "elektronik",
+        "pund",
+        "förskott",
+        "patent",
+        "laptop",
+        "virtuell",
+        "streama"
+      ],
+      "text": "Johan Lind är fotograf, men han står sällan på marken när han arbetar. Han använder en drönare, en liten flygande kamera, och gör bilder som visar landskapet ovanifrån. Från marken ser en myr ut som en platt, brun yta. Från luften ser man ett mönster av små sjöar och smala ryggar av torv, nästan som ett tryck på ett tyg.\n\nVarje flygning börjar på marken. Först kontrollerar Johan vädret, eftersom drönaren inte klarar starka vindar eller regn. Sedan kontrollerar han att han får flyga på platsen. Nära flygplatser och militära områden är det förbjudet. En flygning kan inte vara längre än ungefär 30 minuter, eftersom batteriet tar slut. På en vanlig arbetsdag gör han därför sex eller sju flygningar.\n\nDrönaren är full av känslig elektronik. I kyla tar batterierna slut snabbare, och fukt kan förstöra elektroniken. På vintern förvarar Johan därför batterierna i jackan tills han ska använda dem.\n\nKameran köpte han av ett litet företag i England. Den kostade 4000 pund, och han fick betala halva summan i förskott, innan kameran ens var byggd. ”Det kändes riskabelt att betala så mycket i förskott”, säger han. ”Men företaget har ett patent på en lins som ingen annan har.” Patentet gör att kameran kan ta skarpa bilder även när det är ganska mörkt. 4000 pund var mycket pengar för en ensam fotograf, men kameran har redan betalat sig.\n\nEfter varje flygning sätter sig Johan i bilen med sin laptop och går igenom bilderna. På sin laptop kan han se direkt om något behöver göras om. Han tar ofta tusentals bilder av samma område, från olika höjder och vinklar.\n\nMed hjälp av bilderna bygger ett datorprogram en virtuell modell av landskapet. I den virtuella modellen kan man röra sig fritt, flyga över trädtopparna eller stanna vid en sjö. Johan har gjort en sådan modell av en nationalpark i fjällen. Den används av skolor och av människor som inte själva kan ta sig dit.\n\nIbland streamar han en flygning direkt på nätet, så att en skolklass kan följa den. Eleverna sitter i klassrummet och ser hur fjällen glider förbi under drönaren. ”Det bästa är när de ber mig flyga lägre”, säger han. ”Då vet jag att de verkligen tittar.” Förutsatt att vädret är bra, streamar han en flygning i månaden.\n\nFrågor:\nHur ser en myr ut från luften?\nMan ser ett mönster av små sjöar och smala ryggar av torv.\nVarför kan en flygning inte vara längre än ungefär 30 minuter?\nBatteriet tar slut.\nHur skyddar Johan elektroniken i kyla?\nHan förvarar batterierna i jackan tills han ska använda dem.\nVarför betalade han halva summan i förskott?\nFöretaget har ett patent på en lins som ingen annan har, och kameran var inte byggd än.\nVad gör han med sin laptop efter varje flygning?\nHan går igenom bilderna och ser om något behöver göras om.\nVem använder den virtuella modellen av nationalparken?\nDen används av skolor och av människor som inte själva kan ta sig dit."
+    }
+  ]
+}
