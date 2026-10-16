@@ -157,6 +157,8 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Read the text of {0} photos; check them for misread words." to "Распознан текст {0} фото — проверьте, нет ли ошибок.|Распознан текст {0} фото — проверьте, нет ли ошибок.|Распознан текст {0} фото — проверьте, нет ли ошибок.",
     "Photos of pages (JPG, PNG, HEIC) are read as text in the book's language; several photos make one text." to "Фото страниц (JPG, PNG, HEIC) распознаются как текст на языке книги; несколько фото дают один текст.",
     "Take photo" to "Сфотографировать",
+    "Drop the files to read their text." to "Отпустите файлы, чтобы прочитать их текст.",
+    "Or drop files here." to "Или перетащите файлы сюда.",
     "Download text recognition?" to "Загрузить распознавание текста?",
     "Reading {0} from photos needs its recognition model ({1}). It is downloaded once and kept on this device." to "Для распознавания текста на {0} языке с фото нужна модель ({1}). Она загружается один раз и хранится на этом устройстве.",
     "Reading {0} from photos needs a recognition model, which Google Play downloads once." to "Для распознавания текста на {0} языке с фото нужна модель, которую один раз загрузит Google Play.",

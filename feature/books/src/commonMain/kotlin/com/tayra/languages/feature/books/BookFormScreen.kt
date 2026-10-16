@@ -41,6 +41,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -52,6 +53,7 @@ import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.formatSize
+import com.tayra.languages.core.ui.files.acceptsDroppedFiles
 import com.tayra.languages.core.ui.files.rememberCameraCapture
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -66,6 +68,7 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import io.github.vinceglb.filekit.PlatformFile
 import io.github.vinceglb.filekit.dialogs.FileKitMode
 import io.github.vinceglb.filekit.dialogs.FileKitType
 import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
@@ -94,12 +97,16 @@ fun BookFormScreen(
     CollectEvents(viewModel.events) { if (it is BookFormEvent.Saved) onSaved(it.bookId, it.isNew) }
     var source by remember { mutableStateOf(ContentSource.PASTE) }
     val scope = rememberCoroutineScope()
-    val filePicker = rememberFilePickerLauncher(type = FileKitType.File(FileTextExtractor.pickerExtensions), mode = FileKitMode.Multiple()) { files ->
-        if (!files.isNullOrEmpty()) scope.launch {
+    // Picked or dropped, files are read the same way.
+    val importFiles: (List<PlatformFile>) -> Unit = { files ->
+        if (files.isNotEmpty()) scope.launch {
             viewModel.importFiles(files.map { it.name to it.readBytes() })
             // The imported text is shown where it can be checked and edited.
             source = ContentSource.PASTE
         }
+    }
+    val filePicker = rememberFilePickerLauncher(type = FileKitType.File(FileTextExtractor.pickerExtensions), mode = FileKitMode.Multiple()) { files ->
+        files?.let(importFiles)
     }
     val camera = rememberCameraCapture { name, bytes ->
         viewModel.importPhotos(listOf(name to bytes))
@@ -134,14 +141,14 @@ fun BookFormScreen(
             state.ocrOffer?.let { OcrDownloadDialog(it, onDownload = viewModel::downloadRecognition, onCancel = viewModel::cancelPhotos) }
             when {
                 wide -> Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
-                    BookContentCard(state, source, onSource = { source = it }, onChooseFile = { filePicker.launch() }, camera, viewModel, Modifier.weight(1.65f))
+                    BookContentCard(state, source, onSource = { source = it }, onChooseFile = { filePicker.launch() }, importFiles, camera, viewModel, Modifier.weight(1.65f))
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
                         DetailsCard(state, viewModel)
                         PageSetupCard(state, viewModel)
                     }
                 }
                 else -> {
-                    BookContentCard(state, source, onSource = { source = it }, onChooseFile = { filePicker.launch() }, camera, viewModel)
+                    BookContentCard(state, source, onSource = { source = it }, onChooseFile = { filePicker.launch() }, importFiles, camera, viewModel)
                     DetailsCard(state, viewModel)
                     PageSetupCard(state, viewModel)
                 }
@@ -157,6 +164,7 @@ private fun BookContentCard(
     source: ContentSource,
     onSource: (ContentSource) -> Unit,
     onChooseFile: () -> Unit,
+    onDropFiles: (List<PlatformFile>) -> Unit,
     onTakePhoto: (() -> Unit)?,
     viewModel: BookFormViewModel,
     modifier: Modifier = Modifier,
@@ -204,7 +212,7 @@ private fun BookContentCard(
                     Text(trPlural(words, "{0} word", "{0} words"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
-            ContentSource.FILE -> FileDrop(state, formats, onChooseFile, onTakePhoto)
+            ContentSource.FILE -> FileDrop(state, formats, onChooseFile, onDropFiles, onTakePhoto)
         }
     }
 }
@@ -235,11 +243,15 @@ private fun SourceToggle(selected: ContentSource, onSelect: (ContentSource) -> U
 }
 
 @Composable
-private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -> Unit, onTakePhoto: (() -> Unit)?) {
+private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -> Unit, onDropFiles: (List<PlatformFile>) -> Unit, onTakePhoto: (() -> Unit)?) {
+    // Files dragged in from the desktop are read like picked ones; the area lights up meanwhile.
+    var dropping by remember { mutableStateOf(false) }
+    val colors = MaterialTheme.colorScheme
     Column(
         Modifier.fillMaxWidth().height(400.dp).clip(RoundedCornerShape(12.dp))
-            .background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(12.dp))
+            .background(if (dropping) colors.primary.copy(alpha = 0.06f) else colors.surfaceContainerLow)
+            .border(if (dropping) 2.dp else 1.dp, if (dropping) colors.primary else colors.outlineVariant, RoundedCornerShape(12.dp))
+            .acceptsDroppedFiles(enabled = !state.busy, onHover = { dropping = it }, onFiles = onDropFiles)
             .clickable(enabled = !state.busy, onClick = onChooseFile)
             .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -247,14 +259,23 @@ private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -
     ) {
         Icon(AppIcons.UploadFile, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(48.dp))
         Spacer(Modifier.height(14.dp))
-        Text(tr("Choose a file to read its text"), style = MaterialTheme.typography.titleMedium)
-        Text(tr("{0} — the text appears under Paste text, ready to check.", formats), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text(if (dropping) tr("Drop the files to read their text.") else tr("Choose a file to read its text"), style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center)
+        Text(
+            tr("{0} — the text appears under Paste text, ready to check.", formats),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            textAlign = TextAlign.Center,
+        )
         if (FileTextExtractor.readsPhotos) {
             Text(
                 tr("Photos of pages (JPG, PNG, HEIC) are read as text in the book's language; several photos make one text."),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
             )
+        }
+        if (acceptsDroppedFiles) {
+            Text(tr("Or drop files here."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
         }
         Spacer(Modifier.height(16.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
