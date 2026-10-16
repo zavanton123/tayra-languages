@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Greek)
+el-mini-0100	100	A1	Home and family	Στο σπίτι και στην οικογένεια
+el-mini-0200	200	A1	Everyday life	Η καθημερινότητα
+el-mini-0300	300	A1	Food and shopping	Φαγητό και ψώνια
+el-mini-0400	400	A2	In the city	Στην πόλη
+el-mini-0500	500	A2	School and work	Σχολείο και δουλειά
+el-mini-0600	600	A2	Free time and hobbies	Ελεύθερος χρόνος και χόμπι
+el-mini-0700	700	A2	Health and the body	Η υγεία και το σώμα
+el-mini-0800	800	A2	Travel and holidays	Ταξίδια και διακοπές
+el-mini-0900	900	A2	Nature and the seasons	Η φύση και οι εποχές
+el-mini-1000	1000	A2	Celebrations and friends	Γιορτές και φίλοι
+el-mini-1100	1100	B1	Living and housing	Το σπίτι μας
+el-mini-1200	1200	B1	Memories	Αναμνήσεις
+el-mini-1300	1300	B1	Jobs and training	Δουλειά και σπουδές
+el-mini-1400	1400	B1	Cycling and getting around	Με το ποδήλατο και στον δρόμο
+el-mini-1500	1500	B1	Money and shopping	Χρήματα και ψώνια
+el-mini-1600	1600	B1	Experiencing culture	Πολιτιστικές εμπειρίες
+el-mini-1700	1700	B1	Sport and exercise	Αθλητισμός και γυμναστική
+el-mini-1800	1800	B1	The environment in daily life	Το περιβάλλον στην καθημερινότητα
+el-mini-1900	1900	B1	Letters, messages and media	Γράμματα, μηνύματα και μέσα ενημέρωσης
+el-mini-2000	2000	B1	Neighbourhood	Η γειτονιά
+el-mini-2100	2100	B2	Cooking and food	Μαγειρική
+el-mini-2200	2200	B2	Body and mind	Σώμα και ψυχή
+el-mini-2300	2300	B2	The world of work	Ο κόσμος της δουλειάς
+el-mini-2400	2400	B2	Science and technology	Επιστήμη και τεχνολογία
+el-mini-2500	2500	B2	History you can touch	Ιστορία που αγγίζεις
+el-mini-2600	2600	B2	Travelling in Greece	Ταξίδια στην Ελλάδα
+el-mini-2700	2700	B2	Generations	Γενιές
+el-mini-2800	2800	B2	Music	Μουσική
+el-mini-2900	2900	B2	Society and living together	Κοινωνία και συμβίωση
+el-mini-3000	3000	B2	Small columns	Μικρά χρονογραφήματα
+el-mini-3100	3100	B2	Home and decoration	Η διακόσμηση του σπιτιού
+el-mini-3200	3200	B2	Fashion and clothes	Μόδα και ρούχα
+el-mini-3300	3300	B2	The great outdoors	Στη φύση
+el-mini-3400	3400	B2	Traditional crafts	Παλιές τέχνες
+el-mini-3500	3500	B2	Technology and society	Τεχνολογία και κοινωνία
+el-mini-3600	3600	B2	The islands and the coast	Νησιά και ακτές
+el-mini-3700	3700	B2	Books and language	Βιβλία και γλώσσα
+el-mini-3800	3800	B2	Everyday economics	Η οικονομία της καθημερινότητας
+el-mini-3900	3900	B2	Country life	Η ζωή στο χωριό
+el-mini-4000	4000	B2	City life columns	Χρονογραφήματα για την πόλη
+el-mini-4100	4100	C1	Coffee and the good life	Ο καφές και η καλή ζωή
+el-mini-4200	4200	C1	Architecture and design	Αρχιτεκτονική και σχέδιο
+el-mini-4300	4300	C1	Climate and energy	Κλίμα και ενέργεια
+el-mini-4400	4400	C1	Everyday law and rights	Δίκαιο και δικαιώματα στην καθημερινότητα
+el-mini-4500	4500	C1	Film and television	Κινηματογράφος και τηλεόραση
+el-mini-4600	4600	C1	Research and discovery	Έρευνα και ανακαλύψεις
+el-mini-4700	4700	C1	Living between countries	Μια ζωή ανάμεσα σε δύο χώρες
+el-mini-4800	4800	C1	The mind in daily life	Η ψυχολογία της καθημερινότητας
+el-mini-4900	4900	C1	Sport and society	Αθλητισμός και κοινωνία
+el-mini-5000	5000	C1	Short essays	Σύντομα δοκίμια
+el-mini-5100	5100	C1	History	Ιστορία
+el-mini-5200	5200	C1	The science of cooking	Η επιστήμη της κουζίνας
+el-mini-5300	5300	C1	Landscapes	Τοπία
+el-mini-5400	5400	C1	Caring for others	Φροντίδα για τους άλλους
+el-mini-5500	5500	C1	Visual arts	Εικαστικές τέχνες
+el-mini-5600	5600	C1	Journalism and media	Δημοσιογραφία και μέσα ενημέρωσης
+el-mini-5700	5700	C1	Transport and mobility	Μεταφορές και μετακίνηση
+el-mini-5800	5800	C1	The Greek language	Η ελληνική γλώσσα
+el-mini-5900	5900	C1	Starting a business	Ανοίγοντας τη δική σου επιχείρηση
+el-mini-6000	6000	C1	Memoirs	Απομνημονεύματα
+el-mini-6100	6100	C1	The universe and the stars	Το σύμπαν και τα αστέρια
+el-mini-6200	6200	C1	Natural resources	Οι φυσικοί πόροι
+el-mini-6300	6300	C1	Food and health	Διατροφή και υγεία
+el-mini-6400	6400	C1	Theatre, circus and stage	Θέατρο, τσίρκο και σκηνή
+el-mini-6500	6500	C1	Engineering	Η τέχνη του μηχανικού
+el-mini-6600	6600	C1	Farm to table	Από το χωράφι στο τραπέζι
+el-mini-6700	6700	C1	Languages and cultures of the Mediterranean	Γλώσσες και πολιτισμοί της Μεσογείου
+el-mini-6800	6800	C1	Literature in Greek	Ελληνική λογοτεχνία
+el-mini-6900	6900	C1	Numbers and reasoning	Αριθμοί και σκέψη
+el-mini-7000	7000	C1	Travel columns	Ταξιδιωτικά χρονογραφήματα
+el-mini-7100	7100	C1	Public health	Δημόσια υγεία
+el-mini-7200	7200	C1	Everyday philosophy	Φιλοσοφία της καθημερινότητας
+el-mini-7300	7300	C1	Festivals and faith	Γιορτές και πίστη
+el-mini-7400	7400	C1	Animal behaviour	Η συμπεριφορά των ζώων
+el-mini-7500	7500	C1	Work and the labour market	Εργασία και αγορά εργασίας
+el-mini-7600	7600	C1	Cities of the world	Πόλεις του κόσμου
+el-mini-7700	7700	C1	Inventions and inventors	Εφευρέσεις και εφευρέτες
+el-mini-7800	7800	C1	State and citizens	Κράτος και πολίτες
+el-mini-7900	7900	C1	Mountains and winter	Βουνό και χειμώνας
+el-mini-8000	8000	C1	Family columns	Χρονογραφήματα για την οικογένεια
+el-mini-8100	8100	C2	The human body	Το ανθρώπινο σώμα
+el-mini-8200	8200	C2	Prevention and resilience	Πρόληψη και ανθεκτικότητα
+el-mini-8300	8300	C2	Design and craft	Σχέδιο και χειροτεχνία
+el-mini-8400	8400	C2	Emotions and relationships	Συναισθήματα και σχέσεις
+el-mini-8500	8500	C2	World history	Παγκόσμια ιστορία
+el-mini-8600	8600	C2	The forest	Το δάσος
+el-mini-8700	8700	C2	Advertising and communication	Διαφήμιση και επικοινωνία
+el-mini-8800	8800	C2	Greek cuisine	Η ελληνική κουζίνα
+el-mini-8900	8900	C2	Classical music	Κλασική μουσική
+el-mini-9000	9000	C2	Essays on time	Δοκίμια για τον χρόνο
+el-mini-9100	9100	C2	Chemistry and materials	Χημεία και υλικά
+el-mini-9200	9200	C2	Maps and finding the way	Χάρτες και δρόμοι
+el-mini-9300	9300	C2	Folk tales and legends	Παραμύθια και θρύλοι
+el-mini-9400	9400	C2	Rare professions	Σπάνια επαγγέλματα
+el-mini-9500	9500	C2	Urban planning	Πολεοδομία
+el-mini-9600	9600	C2	Everyday physics	Η φυσική της καθημερινότητας
+el-mini-9700	9700	C2	Gardens and botany	Κήποι και βοτανική
+el-mini-9800	9800	C2	Folk art and customs	Λαϊκή τέχνη και έθιμα
+el-mini-9900	9900	C2	Ethics and living together	Ηθική και συμβίωση
+el-mini-10000	10000	C2	Learning and language	Μάθηση και γλώσσα
