@@ -1,0 +1,226 @@
+{
+  "id": "da-mini-8100",
+  "rankUpTo": 8100,
+  "level": "C2",
+  "title": "Menneskekroppen",
+  "description": "Ten texts about the human body: its defences, digestion, running, skin and hair, voice, stress, sleep, recovery after an accident and how doctors came to understand it.",
+  "topic": "The human body",
+  "names": [
+    "Edward Jenner",
+    "Jenner",
+    "Odense",
+    "Frankrig",
+    "Jan",
+    "Jans",
+    "Ida",
+    "Idas",
+    "Kina",
+    "Peder",
+    "Peders",
+    "Holm",
+    "Sumatra",
+    "Java",
+    "København",
+    "Nyhavn",
+    "James Lind",
+    "Galen",
+    "Galens",
+    "Rom",
+    "Leonardo da Vinci",
+    "Andreas Vesalius",
+    "Vesalius",
+    "Vesalius'",
+    "Padova",
+    "Hanne",
+    "Hannes",
+    "Lund",
+    "Aalborg",
+    "Nordjylland",
+    "Sønderjylland",
+    "Lan",
+    "Lans",
+    "Vietnam",
+    "Pavel",
+    "Pavels",
+    "Prag",
+    "Danmark",
+    "Mikkel",
+    "Mikkels",
+    "Inger",
+    "Ingers",
+    "Vejle",
+    "Anton",
+    "Antons",
+    "Sofie",
+    "Sofies",
+    "USA",
+    "Washington"
+  ],
+  "lessons": [
+    {
+      "title": "Kroppens politi",
+      "summary": "An explanatory text compares the body's defences to a police force that patrols, spies and searches, and tells how Edward Jenner's observation led to vaccines.",
+      "newWords": [
+        "patruljere",
+        "spionage",
+        "ransage",
+        "politiinspektør",
+        "sabotage",
+        "steril",
+        "kompromittere",
+        "indgribe",
+        "forbavse",
+        "iagttagelse"
+      ],
+      "text": "Når man skal forklare et barn, hvordan kroppen forsvarer sig mod sygdom, er det fristende at tale om politiet. Billedet er ikke helt forkert. Hele døgnet patruljerer de hvide blodlegemer i blodet og i kroppens væv, ligesom betjente, der patruljerer gaderne i en stor by. De fleste dage sker der ingenting. Men når en bakterie trænger ind gennem et sår i huden, bliver der slået alarm.\n\nKroppen er nemlig ikke steril. Vi bærer på milliarder af bakterier, især i tarmen, og de fleste af dem gør os ingen skade; mange af dem hjælper os endda med at fordøje maden. Helt sterile omgivelser findes kun på en operationsstue, og selv dér må lægerne arbejde hårdt for at holde dem sterile. Kroppens forsvar skal derfor kunne skelne mellem venner og fjender, og det er en forbavsende svær opgave.\n\nNogle af forsvarets celler arbejder som spioner. De samler små stykker af de fremmede bakterier op og bringer dem til de steder i kroppen, hvor forsvaret samles. Man kan kalde det kroppens spionage: Oplysninger om fjenden bliver indsamlet og sendt videre, så forsvaret ved, hvem det skal lede efter. Uden denne spionage ville kroppen kæmpe i blinde.\n\nAndre celler ransager kroppens væv. De ransager hver krog, som når en politiinspektør sender sine folk ud for at ransage et hus. Finder de en celle, hvor et virus har sat sig fast, dræber de den, før virusset når at sprede sig.\n\nEt virus driver nemlig en slags sabotage. Det kan ikke formere sig på egen hånd, så det trænger ind i vores celler og tvinger dem til at bygge nye virus. Den sabotage kan gå stærkt, og derfor må forsvaret reagere hurtigt.\n\nHos de fleste mennesker fungerer systemet godt. Men hvis forsvaret er kompromitteret, for eksempel efter en behandling for kræft, kan en almindelig forkølelse blive farlig. Patienter med et kompromitteret forsvar må derfor passe ekstra godt på sig selv om vinteren. Nogle gange er der brug for lægernes indgriben, og behandlingen kan være indgribende: stærk medicin og lange ophold på hospitalet.\n\nDet mest forbavsende er måske, at forsvaret husker. Har det mødt en fjende én gang, genkender det den næste gang. Den iagttagelse gjorde den engelske læge Edward Jenner allerede i 1796. Han lagde mærke til, at piger, der malkede køer og var blevet smittet af en mild sygdom fra dyrene, ikke fik de farlige kopper. Hans iagttagelse blev begyndelsen på vaccinerne.\n\nBilledet af politiet halter selvfølgelig, som alle billeder gør. Ingen politiinspektør sidder og styrer det hele. Forsvaret organiserer sig selv, og det er måske det mest forbavsende af alt.\n\nSpørgsmål:\nHvad gør de hvide blodlegemer hele døgnet?\nDe patruljerer i blodet og i kroppens væv, ligesom betjente, der patruljerer gaderne.\nHvorfor er kroppen ikke steril?\nFordi vi bærer på milliarder af bakterier, især i tarmen.\nHvad mener teksten med kroppens spionage?\nNogle celler samler oplysninger om fjenden og sender dem videre, så forsvaret ved, hvem det skal lede efter.\nHvorfor kan man kalde et virus for sabotage?\nFordi det trænger ind i vores celler og tvinger dem til at bygge nye virus.\nHvornår kan en almindelig forkølelse blive farlig?\nNår forsvaret er kompromitteret, for eksempel efter en behandling for kræft.\nHvilken iagttagelse gjorde Edward Jenner?\nHan så, at piger, der var blevet smittet af en mild sygdom fra køerne, ikke fik de farlige kopper."
+    },
+    {
+      "title": "Efter julefrokosten",
+      "summary": "A narrator arrives at the family's Christmas lunch famished, eats far too much and reflects on how the stomach and the brain talk to each other.",
+      "newWords": [
+        "julefrokost",
+        "hundesulten",
+        "brie",
+        "udbringe",
+        "artig",
+        "lagkage",
+        "skumfidus",
+        "talje",
+        "overvægtig",
+        "mavefornemmelse"
+      ],
+      "text": "Hvert år i december holder min familie julefrokost hos min mormor i Odense. Og hvert år lover jeg mig selv, at jeg denne gang vil spise med måde. Jeg har endnu aldrig holdt det løfte.\n\nI år kom jeg hundesulten, fordi jeg havde sprunget morgenmaden over. Det var en fejl. Når man er hundesulten, spiser man hurtigt, og maven når ikke at sige fra, før det er for sent. Hjernen får nemlig først besked om, at maven er fyldt, efter cirka tyve minutter. Den, der spiser hurtigt, kan altså nå at spise langt mere, end kroppen har brug for.\n\nBordet var fyldt med sild, æg, frikadeller og varm leverpostej, og til sidst kom der ost: en stor, blød brie, som min onkel havde købt i Frankrig. Min mormor udbragte en skål for familien, og bagefter udbragte min onkel en skål for mormor. Vi skålede, spiste og skålede igen. Briens bløde, fede smag passede perfekt til det mørke brød.\n\nBørnene var forbavsende artige. De sad stille ved bordet og ventede på desserten, for de vidste, hvad der kom: lagkage med skumfiduser. Min kusine havde bagt en lagkage med tre lag, og ovenpå havde hun lagt små lyserøde skumfiduser. Da lagkagen kom på bordet, glemte børnene alt om at være artige.\n\nJeg tog også et stykke, selv om jeg ikke var sulten længere. Bagefter måtte jeg løsne bæltet, fordi bukserne strammede om taljen. Det var ikke første gang i december. Lægerne siger, at fedt omkring taljen er mere usundt end fedt andre steder, og at omkring halvdelen af alle voksne danskere er overvægtige. Jeg er ikke overvægtig, men jeg ved godt, at det kan komme snigende, hvis man ikke passer på.\n\nDagen efter tænkte jeg over ordet mavefornemmelse. Vi taler om en mavefornemmelse, når vi har en følelse, som vi ikke kan forklare med fornuften. Udtrykket er mere præcist, end man skulle tro. Maven og tarmen er fyldt med nerver, og de sender hele tiden beskeder til hjernen. Nogle forskere kalder ligefrem maven for kroppens anden hjerne. Når vi er nervøse, mærker vi det i maven, og når maven har det dårligt, påvirker det vores humør.\n\nEfter julefrokosten havde jeg en meget konkret mavefornemmelse, og den sagde ganske tydeligt, at jeg skulle gå en lang tur. Det gjorde jeg. Næste år vil jeg spise morgenmad, før jeg tager til julefrokost.\n\nSpørgsmål:\nHvorfor kom fortælleren hundesulten til julefrokosten?\nFordi fortælleren havde sprunget morgenmaden over.\nHvorfor kan man spise for meget, når man spiser hurtigt?\nFordi hjernen først efter cirka tyve minutter får besked om, at maven er fyldt.\nHvem udbragte en skål ved bordet?\nFørst mormoren og bagefter onklen.\nHvad ventede børnene på?\nDe ventede på lagkage med lyserøde skumfiduser.\nHvad siger lægerne om fedt omkring taljen?\nDe siger, at det er mere usundt end fedt andre steder.\nHvorfor er ordet mavefornemmelse mere præcist, end man skulle tro?\nFordi maven og tarmen er fyldt med nerver, der hele tiden sender beskeder til hjernen."
+    },
+    {
+      "title": "Mennesket er en langdistanceløber",
+      "summary": "A text explains why humans lose a sprint to a leopard but are built for long distances, and Jan tells how he finished his first marathon.",
+      "newWords": [
+        "leopard",
+        "accelerere",
+        "rådyr",
+        "lyne",
+        "kapløb",
+        "nytteløs",
+        "udstå",
+        "udmatte",
+        "ræs",
+        "målstreg"
+      ],
+      "text": "Over en kort strækning er mennesket et langsomt dyr. En leopard kan accelerere fra at stå stille til over 50 kilometer i timen på få sekunder, og selv et rådyr er lynende hurtigt, når det flygter fra en hund. Et kapløb over hundrede meter mod en leopard eller et rådyr ville være nytteløst for selv den hurtigste løber i verden.\n\nOver lange afstande ser det imidlertid helt anderledes ud. Mennesket har nogle egenskaber, som få dyr har. Vi sveder over hele kroppen, så vi kan komme af med varmen, mens vi løber. Vi har lange ben, en stærk ryg og en krop, der er bygget til at udstå mange timers arbejde. En leopard kan ikke holde farten længe; den hurtige spurt udmatter den, og den må stoppe for at køle af. Nogle forskere mener derfor, at vores forfædre jagede ved simpelthen at løbe efter et dyr i timevis, indtil jagten havde været så udmattende for dyret, at det ikke kunne løbe længere.\n\nDen evne lever videre i dag, hvor tusinder af almindelige mennesker hvert år løber et maraton. Jan på 52 år er en af dem. Han løb sit første maraton sidste år, og han fortæller gerne om det.\n\n»De første tyve kilometer var nemme,« siger han. »Jeg havde trænet i et halvt år, og jeg vidste, at det ikke var et ræs mod de andre. Det var et ræs mod mig selv. Men efter 30 kilometer begyndte det at gøre ondt. Kroppen havde brugt sit sukker, og benene føltes tunge som sten. Løbere kalder det at ramme muren.«\n\nHan overvejede at stoppe. Det føltes nytteløst at fortsætte, når han alligevel ikke kunne løbe hurtigt længere. »Men så tænkte jeg på min datter, som stod og ventede ved målstregen. Jeg besluttede at udstå smerten, en kilometer ad gangen.«\n\nPå de sidste kilometer begyndte det at regne, og det lynede over byen. Jan løb videre. Da han kunne se målstregen, fandt han kræfter, som han ikke vidste, at han havde, og han accelererede på de sidste hundrede meter.\n\n»Løbet var det mest udmattende, jeg har prøvet, og jeg var fuldstændig udmattet, da jeg krydsede målstregen,« siger han. »Men jeg har aldrig været så glad. Og næste år løber jeg igen.«\n\nSpørgsmål:\nHvorfor ville et kapløb over hundrede meter mod en leopard være nytteløst?\nFordi en leopard kan accelerere til over 50 kilometer i timen på få sekunder.\nHvilke egenskaber gør mennesket godt til at løbe langt?\nVi sveder over hele kroppen, har lange ben og en krop, der kan udstå mange timers arbejde.\nHvordan jagede vores forfædre måske?\nDe løb efter et dyr i timevis, indtil jagten var så udmattende for dyret, at det ikke kunne løbe længere.\nHvad mente Jan med, at det var et ræs mod ham selv?\nHan ville ikke slå de andre løbere; han ville selv gennemføre løbet.\nHvad hjalp Jan med at fortsætte efter 30 kilometer?\nHan tænkte på sin datter, som ventede ved målstregen.\nHvad gjorde Jan, da han kunne se målstregen?\nHan fandt nye kræfter og accelererede på de sidste hundrede meter."
+    },
+    {
+      "title": "Skæl på den sorte trøje",
+      "summary": "A parent's column: teenage Ida finds dandruff, a pharmacist recommends a mild shampoo, and a trip to the launderette leads to a talk about beauty.",
+      "newWords": [
+        "brunette",
+        "skæl",
+        "surmule",
+        "shampoo",
+        "varsom",
+        "tandpasta",
+        "genbruge",
+        "vaskeri",
+        "æstetik",
+        "subjektiv"
+      ],
+      "text": "Min datter Ida er 15 år og brunette, og hendes lange, mørke hår er hendes stolthed. Derfor var det en lille katastrofe, da hun en morgen i januar opdagede hvide skæl på skuldrene af sin sorte trøje. Hun surmulede hele morgenen, og hun surmulede stadig, da hun kom hjem fra skole.\n\n»Alle kan se det,« sagde hun. »Mørkt hår og skæl er det værste.«\n\nJeg kunne godt forstå hende. En brunette kan ikke skjule skæl lige så let som en, der er lyshåret. Men jeg kunne også se, at hun selv var en del af problemet. Hun vaskede håret hver morgen med en stærk shampoo, og bagefter tørrede hun det med den varmeste luft, hun kunne få. Huden på hovedet var simpelthen blevet for tør.\n\nSkæl er i øvrigt ikke et tegn på dårlig hygiejne. Huden fornyer sig hele tiden, og små stykker død hud falder af over hele kroppen, også på hovedet. Hos nogle mennesker går det bare hurtigere end hos andre, og vinterens tørre luft gør det værre.\n\nVi gik på apoteket, og damen bag disken var meget varsom med sine råd til en surmulende teenager. Hun anbefalede en mild shampoo mod skæl og sagde, at Ida skulle være varsom med den varme luft. »Og vask kun håret hver anden dag,« sagde hun.\n\nPå vejen hjem tænkte jeg over, hvor mange flasker og tuber vi bruger i et almindeligt hjem: shampoo, sæbe, creme og tandpasta. Vi kan genbruge noget af plastikken, men vi kunne også bare bruge mindre. En tandlæge har engang fortalt mig, at en lille klat tandpasta er nok. Resten ryger alligevel ud i vasken. Det, man ikke bruger, behøver man hverken at købe eller at genbruge.\n\nSamme uge gik vores vaskemaskine i stykker, og Ida og jeg måtte bære tøjet ned til vaskeriet på hjørnet. Mens maskinerne kørte, talte vi om skønhed. Hun fortalte, at hendes veninder brugte mange penge på cremer, fordi de havde set dem på nettet. Jeg sagde, at æstetik er subjektiv: Det, som én synes er smukt, synes en anden er kedeligt. Men jeg forstod godt, at det ikke hjælper meget, når man er 15. Kroppens æstetik er måske subjektiv, men de andres blikke er meget virkelige.\n\nEfter tre uger med den milde shampoo var skællene væk. Ida surmulede ikke længere, og da vi igen stod i vaskeriet, sagde hun, at hun nok ville prøve at være lidt mere varsom med sit hår fremover.\n\nSpørgsmål:\nHvad opdagede Ida en morgen i januar?\nHun opdagede hvide skæl på skuldrene af sin sorte trøje.\nHvorfor var problemet værre for Ida, fordi hun er brunette?\nFordi en brunette ikke kan skjule skæl lige så let som en, der er lyshåret.\nHvorfor var huden på Idas hoved blevet for tør?\nFordi hun vaskede håret hver morgen med en stærk shampoo og tørrede det med varm luft.\nHvad sagde damen på apoteket?\nHun anbefalede en mild shampoo og sagde, at Ida kun skulle vaske håret hver anden dag.\nHvorfor måtte Ida og fortælleren gå til vaskeriet?\nFordi vaskemaskinen var gået i stykker.\nHvad mener fortælleren med, at æstetik er subjektiv?\nAt det, som én synes er smukt, kan en anden synes er kedeligt."
+    },
+    {
+      "title": "Sygdommen på havet",
+      "summary": "A young ship's doctor on a Danish voyage to China in the 1700s fights scurvy, helps steer the ship into shelter by torchlight, and sees fresh fruit cure the sailors.",
+      "newWords": [
+        "sørøver",
+        "kviksølv",
+        "mytteri",
+        "stræde",
+        "nordøstlig",
+        "læ",
+        "navigere",
+        "fakkel",
+        "kusk",
+        "herberg"
+      ],
+      "text": "I 1700-tallet sejlede danske skibe hele vejen til Kina for at hente te, silke og porcelæn. Rejsen tog et halvt år hver vej, og den største fare var hverken storme eller sørøvere. Det var en sygdom, som ramte sømændene, når de havde været længe på havet uden frisk mad.\n\nLad os forestille os en ung læge, Peder Holm, på et af de store skibe. Efter tre måneder på havet blev de første sømænd syge. De blev trætte og svage, deres mund blødte, og gamle sår, som for længst var helet, gik op igen. Nogle mistede tænderne. Peder vidste ikke, hvad sygdommen skyldtes. Han gav dem det, som lægerne dengang gav mod mange sygdomme: kviksølv. I dag ved vi, at kviksølv er giftigt, og at det kun gjorde de syge mere syge.\n\nKaptajnen var bekymret. Når mange af mændene var syge, var der for få til at sejle skibet. Og når mændene var sultne og vrede, kunne de finde på at gøre mytteri. Et mytteri på åbent hav var enhver kaptajns største frygt. Han glemte heller ikke sørøverne. I det smalle stræde mellem Sumatra og Java lå sørøvere på lur efter skibe med syge og svage folk om bord.\n\nEn nat, mens de nærmede sig strædet, blæste en hård nordøstlig vind op. Kaptajnen ville søge læ bag en lille ø, men det var svært at navigere i mørket. Peder holdt en fakkel tæt ved kortet, mens styrmanden fandt vejen. I lyset fra faklen kunne han se, hvor tynde og blege mændene var blevet. Ved daggry lå skibet i læ, og den nordøstlige vind blev svagere.\n\nPå Java købte kaptajnen frisk frugt af de lokale. Allerede efter en uge fik de syge farve i kinderne, og deres mund holdt op med at bløde. Peder skrev det ned i sin bog, men han forstod ikke hvorfor. I dag ved vi, at sygdommen skyldes mangel på et vitamin, som findes i frisk frugt, og at frugten derfor kan helbrede den. En skotsk læge, James Lind, havde faktisk vist det allerede i 1747, men det tog mange år, før skibene fulgte hans råd.\n\nDa skibet endelig kom hjem til København, var flere af sømændene stadig svage. En kusk kørte dem fra havnen til et herberg i Nyhavn, hvor de kunne hvile sig. Kusken hjalp dem ned fra vognen, og værten på herberget gav dem varm suppe og en seng. Peder sad hos dem den første aften. Han havde mistet tre mand på rejsen, men resten var i live.\n\nSpørgsmål:\nHvad var den største fare på rejsen til Kina?\nDet var en sygdom, som ramte sømændene, når de længe havde været uden frisk mad.\nHvad gav Peder de syge, og hvorfor var det en dårlig idé?\nHan gav dem kviksølv, som er giftigt og gjorde dem mere syge.\nHvorfor var kaptajnen bange for mytteri?\nFordi sultne og vrede mænd kunne finde på at gøre mytteri på åbent hav.\nHvorfor var det svært at navigere den nat?\nFordi det var mørkt, og der blæste en hård nordøstlig vind.\nHvad gjorde Peder, mens styrmanden fandt vejen?\nHan holdt en fakkel tæt ved kortet.\nHvad skete der med sømændene i København?\nEn kusk kørte dem til et herberg i Nyhavn, hvor de fik suppe og en seng."
+    },
+    {
+      "title": "Anatomiens frembrud",
+      "summary": "How the artists and doctors of the Renaissance, from Leonardo da Vinci to Vesalius, looked inside the human body for themselves and set aside Galen's old teaching.",
+      "newWords": [
+        "granit",
+        "forkaste",
+        "renæssance",
+        "frembrud",
+        "fotografisk",
+        "beklæde",
+        "søgelys",
+        "belyse",
+        "formulering",
+        "afrunde"
+      ],
+      "text": "I middelalderen vidste lægerne forbavsende lidt om, hvordan kroppen så ud indvendigt. De læste den græske læge Galen, som havde levet i Rom i det andet århundrede, og hans ord var nærmest hugget i granit. Ingen turde forkaste hans lære. Problemet var, at Galen aldrig havde åbnet et menneske. Han havde studeret aber og grise, og meget af det, han skrev om mennesket, var forkert.\n\nMed renæssancen kom en ny tid. Ordet betyder genfødsel, og renæssancens kunstnere og forskere ville ikke bare læse de gamle bøger; de ville se med deres egne øjne. Man kan kalde perioden en ny tids frembrud, et frembrud lige så langsomt og tydeligt som dagens frembrud efter en lang nat.\n\nLeonardo da Vinci åbnede selv døde kroppe, ofte om natten i lyset fra en fakkel, og han tegnede muskler, knogler og blodårer med næsten fotografisk præcision. Hans tegninger viser, hvordan skelettet er beklædt med muskler, og hvordan musklerne igen er beklædt med fedt og hud. Men tegningerne blev liggende i hans notesbøger, og først flere hundrede år senere fik verden dem at se.\n\nDet store skridt kom i 1543. Det år udgav Andreas Vesalius, en ung læge i Padova, en stor bog om menneskets krop. Vesalius havde selv åbnet mange døde kroppe, og hans tegnere arbejdede med en nøjagtighed, der også var næsten fotografisk. For første gang kom selve kroppen i søgelyset, ikke de gamle bøger. Bogen belyste kroppens indre, som ingen bog havde gjort før.\n\nVesalius var dog varsom med sine formuleringer. Han skrev sjældent, at Galen tog fejl. I stedet skrev han, at det, man kunne se på bordet foran sig, var anderledes. Den forsigtige formulering skulle beskytte ham mod vrede kolleger, der stadig stolede på Galen. Alligevel forkastede han punkt for punkt mange af de gamle påstande. Galen havde for eksempel skrevet, at underkæben består af to knogler, sådan som den gør hos mange dyr. Vesalius viste, at den hos mennesket kun består af én.\n\nDet skal også nævnes, at kunsten og lægevidenskaben lærte af hinanden. Renæssancens kunstnere elskede kroppens afrundede former, og de studerede musklerne for at kunne vise dem i marmor og granit. Lægerne lærte til gengæld at tegne af kunstnerne.\n\nFor at afrunde historien: Vesalius blev ikke altid takket for sit arbejde. Men hans bog satte kroppen i søgelyset, og siden da belyser forskningen flere og flere af kroppens hemmeligheder.\n\nSpørgsmål:\nHvorfor var meget af det, Galen skrev om mennesket, forkert?\nFordi han aldrig havde åbnet et menneske, men kun studeret aber og grise.\nHvad ville renæssancens kunstnere og forskere?\nDe ville ikke bare læse de gamle bøger, men se med deres egne øjne.\nHvad viser Leonardo da Vincis tegninger?\nDe viser, hvordan skelettet er beklædt med muskler, og musklerne med fedt og hud.\nHvorfor var Vesalius varsom med sine formuleringer?\nHan ville beskytte sig mod vrede kolleger, der stadig stolede på Galen.\nHvilken påstand fra Galen forkastede Vesalius?\nHan viste, at underkæben hos mennesket kun består af én knogle og ikke af to.\nHvorfor studerede kunstnerne musklerne?\nFor at kunne vise kroppens afrundede former i marmor og granit."
+    },
+    {
+      "title": "Stemmen fortæller",
+      "summary": "A profile of Hanne, a singing teacher in Aalborg, on how the voice is made, what it reveals, and the singers from Vietnam and the Czech Republic in her choir.",
+      "newWords": [
+        "røst",
+        "dialekt",
+        "vietnamesisk",
+        "tjekkisk",
+        "livshistorie",
+        "akkord",
+        "karneval",
+        "superstjerne",
+        "gunst"
+      ],
+      "text": "Hanne Lund er 61 år og sanglærer i Aalborg. Hun har undervist i over tredive år, og hun siger, at stemmen er det mest personlige, vi har.\n\n»Når du hører en røst i telefonen, ved du med det samme, om det er din mor eller din bror,« siger hun. »Det skyldes, at ingen stemmer er ens. Lyden skabes i halsen, hvor to små folder svinger, når luften fra lungerne passerer dem. Men det, der giver røsten sin farve, er resten af kroppen: halsen, munden, næsen, ja, hele brystet.«\n\nStemmen fortæller også, hvor vi kommer fra. Hanne kan som regel høre på få sekunder, om en elev taler med en dialekt fra Nordjylland eller fra Sønderjylland. »En dialekt sidder ikke kun i ordene,« siger hun. »Den sidder i hele måden at bruge munden og tungen på. Det er derfor, den er så svær at lægge fra sig.«\n\nHanne leder et kor, hvor mange af medlemmerne er født i andre lande. En af dem er Lan, som kom til Danmark fra Vietnam som barn. »Vietnamesisk er et sprog, hvor tonen er en del af ordet,« forklarer Hanne. »På vietnamesisk kan det samme ord betyde noget helt andet, hvis stemmen går op eller ned. Lan hører derfor toner meget præcist.«\n\nEn anden er Pavel, som er vokset op med tjekkisk musik og sang i et kor i Prag, før han flyttede til Aalborg for at arbejde. Han taler dansk med en tydelig tjekkisk accent, men når han synger, kan man ikke høre den.\n\n»Hver stemme bærer en livshistorie,« siger Hanne. »Lans livshistorie og Pavels livshistorie kan man faktisk høre, hvis man lytter godt efter. Det er det smukke ved et kor.«\n\nDet bedste øjeblik ved en prøve er for Hanne, når en akkord falder på plads. »Hver stemme synger sin egen tone, og pludselig klinger akkorden som én lyd. Så kan jeg mærke det i hele kroppen.«\n\nHvert år i maj holder Aalborg karneval, og koret synger på en scene midt i byen. Ved karnevalet er der tusinder af mennesker i farverigt tøj, og ingen af korets medlemmer er en superstjerne. Mange af Hannes unge elever drømmer ellers om at blive superstjerner. De ser talentshows i fjernsynet, hvor sangere kæmper om publikums gunst. »Publikums gunst er flygtig,« siger Hanne. »Men en stemme, man har passet på, kan man glæde sig over hele livet.«\n\nSpørgsmål:\nHvorfor kan man straks genkende en røst i telefonen?\nFordi ingen stemmer er ens.\nHvad giver røsten sin farve?\nResten af kroppen: halsen, munden, næsen og hele brystet.\nHvorfor er en dialekt svær at lægge fra sig?\nFordi den sidder i hele måden at bruge munden og tungen på, ikke kun i ordene.\nHvorfor hører Lan toner meget præcist?\nFordi hun taler vietnamesisk, hvor tonen er en del af ordet.\nHvad er det bedste øjeblik ved en prøve for Hanne?\nNår en akkord falder på plads, og alle stemmerne klinger som én lyd.\nHvad siger Hanne om publikums gunst?\nHun siger, at den er flygtig, men at en stemme, man har passet på, kan glæde en hele livet."
+    },
+    {
+      "title": "Kroppen sagde fra",
+      "summary": "Mikkel, co-owner of a small firm, ignores the signs of stress until his body forces him to delegate, switch off in the evening and start training.",
+      "newWords": [
+        "medejer",
+        "arbejdsdag",
+        "mødelokale",
+        "overskue",
+        "chikanere",
+        "desperation",
+        "blindgyde",
+        "delegere",
+        "bredbånd",
+        "fitnesscenter"
+      ],
+      "text": "For tre år siden blev jeg medejer af et lille firma, der laver hjemmesider. Vi var fire, da vi begyndte, og vi er nu femten. Jeg var stolt af at være medejer, men jeg havde ikke forstået, hvad det ville gøre ved min krop.\n\nMine arbejdsdage blev længere og længere. En typisk arbejdsdag begyndte klokken 7 med mails og sluttede sent om aftenen med flere mails. Imellem sad jeg i mødelokalet. Vi havde kun ét mødelokale, og jeg sad der så meget, at mine kolleger kaldte det mit kontor. Jeg kunne ikke længere overskue mine opgaver, og når man ikke kan overskue noget, arbejder man bare mere.\n\nSidste efterår havde vi desuden en vanskelig kunde. Han begyndte at chikanere vores yngste medarbejdere med vrede beskeder, også om natten. Jeg ville beskytte dem, så jeg bad ham skrive til mig i stedet. Fra da af chikanerede han mig. Jeg sov dårligt, og når jeg vågnede klokken 4, tænkte jeg straks på hans næste besked.\n\nKroppen sagde fra, længe før jeg selv gjorde det. Mit hjerte bankede hurtigt, selv når jeg sad stille. Jeg fik ondt i maven og i nakken, og jeg glemte ting, som jeg altid havde kunnet huske. En dag i mødelokalet kunne jeg ikke huske navnet på en kollega, jeg havde arbejdet sammen med i to år. Det var dér, desperationen kom. I min desperation ringede jeg til min læge samme eftermiddag.\n\nLægen forklarede, at kroppen reagerer på stress, som om vi er i fare. Den gør sig klar til at kæmpe eller flygte, og det er nyttigt i nogle minutter. Men når det varer i måneder, slider det på hjertet, maven og hukommelsen. »Du er kørt ind i en blindgyde,« sagde hun. »Og man kommer ikke ud af en blindgyde ved at køre hurtigere.«\n\nHun gav mig tre råd. For det første skulle jeg lære at delegere. Jeg havde altid troet, at det gik hurtigst, hvis jeg gjorde tingene selv, men i et firma med femten mennesker er det umuligt. For det andet skulle jeg slukke for internettet om aftenen. Vi har hurtigt bredbånd derhjemme, og det har gjort det alt for let at arbejde i sofaen. Nu slukker jeg for vores bredbånd klokken 21. For det tredje skulle jeg bevæge mig.\n\nI dag går jeg i fitnesscenter tre gange om ugen, og jeg har lært at delegere de fleste møder. Den vanskelige kunde er gået til et andet firma. Når jeg kommer hjem fra fitnesscentret, er jeg træt på den gode måde, og jeg sover igen om natten.\n\nSpørgsmål:\nHvad skete der med Mikkels arbejdsdage, efter at han blev medejer?\nDe blev længere og længere, fra klokken 7 om morgenen til sent om aftenen.\nHvorfor kaldte kollegerne mødelokalet for Mikkels kontor?\nFordi han sad der så meget.\nHvad gjorde den vanskelige kunde?\nHan chikanerede først de yngste medarbejdere og siden Mikkel med vrede beskeder.\nHvordan sagde Mikkels krop fra?\nHjertet bankede hurtigt, han fik ondt i maven og nakken, og han glemte ting.\nHvad mente lægen med, at Mikkel var kørt ind i en blindgyde?\nAt han ikke kunne komme ud af problemet ved at arbejde endnu mere.\nHvilke tre råd gav lægen ham?\nHan skulle lære at delegere, slukke for internettet om aftenen og bevæge sig."
+    },
+    {
+      "title": "Et brev om en brækket hofte",
+      "summary": "In a letter to the newspaper, Inger describes being hit by a car, the slow handling of her case by the municipality, and why she still believes in the welfare state.",
+      "newWords": [
+        "påkøre",
+        "retsforfølge",
+        "eksistentiel",
+        "sagsbehandle",
+        "konvolut",
+        "tjenestemand",
+        "beskatte",
+        "velfærdsstat",
+        "forringe"
+      ],
+      "text": "Kære redaktion\n\nEn morgen i marts blev jeg påkørt af en bil, mens jeg cyklede til mit arbejde i Vejle. Bilisten havde kigget på sin telefon og så mig ikke. Jeg husker kun lyden, og så lå jeg på asfalten. Min venstre hofte var brækket.\n\nBilisten blev senere retsforfulgt og fik en bøde og en betinget dom. Jeg er glad for, at han blev retsforfulgt, men jeg har ikke brug for hævn. Han skrev et brev til mig og undskyldte, og jeg tror på, at han mente det.\n\nJeg skriver heller ikke for at klage over lægerne. De opererede mig samme dag, og sygeplejerskerne var dygtige og venlige. Jeg skriver, fordi tiden efter hospitalet har lært mig noget om kroppen og om samfundet.\n\nAt blive påkørt er en eksistentiel oplevelse. Jeg er 58 år og har altid været rask. Pludselig kunne jeg ikke gå på toilettet alene. Man opdager, at kroppen ikke er noget, man har, men noget, man er. Den eksistentielle angst kom om natten, når jeg lå vågen og tænkte på, om jeg nogensinde ville cykle igen.\n\nLægerne sagde, at genoptræningen var afgørende. Men først skulle kommunen sagsbehandle min sag, og det tog tid. Hver uge ventede jeg på en konvolut med kommunens logo. Da konvolutten endelig kom, var der gået syv uger. Jeg forstår godt, at en kommune sagsbehandler tusinder af sager, og at de ansatte har travlt. Men for en hofte er syv uger lang tid.\n\nMin mand har været tjenestemand i staten hele sit liv, og han siger altid, at systemet er bedre end sit rygte. Det tror jeg også. Da træningen først kom i gang, var den fremragende. Min fysioterapeut var tålmodig og streng på samme tid, og efter fire måneder cyklede jeg igen.\n\nVi lader os beskatte hårdere end de fleste folk i verden, og det gør vi, fordi vi tror på velfærdsstaten. Jeg betaler gerne min skat. Men når vi beskattes så hårdt, må vi også kunne forvente, at hjælpen kommer, når vi har brug for den. Men jeg er bange for, at velfærdsstaten langsomt bliver forringet, ikke med store beslutninger, men med lange ventetider. Hvis tilbuddene forringes uge for uge, opdager vi det først, når vi selv ligger på asfalten.\n\nTil politikerne vil jeg sige: Vi har betalt for et system, der virker. Lad være med at forringe det.\n\nMed venlig hilsen\nInger Holm, Vejle\n\nSpørgsmål:\nHvordan blev Inger påkørt?\nEn bilist kiggede på sin telefon og så hende ikke, mens hun cyklede.\nHvad skete der med bilisten?\nHan blev retsforfulgt og fik en bøde og en betinget dom.\nHvorfor kalder Inger ulykken en eksistentiel oplevelse?\nFordi hun opdagede, at kroppen ikke er noget, man har, men noget, man er.\nHvorfor måtte Inger vente på sin genoptræning?\nFordi kommunen først skulle sagsbehandle hendes sag, og konvolutten kom først efter syv uger.\nHvad siger Ingers mand om systemet?\nHan har været tjenestemand hele sit liv og siger, at systemet er bedre end sit rygte.\nHvad er Inger bange for?\nHun er bange for, at velfærdsstaten langsomt bliver forringet med lange ventetider."
+    },
+    {
+      "title": "Den lange nat",
+      "summary": "Journalist Anton flies home after covering a presidential election, cannot sleep, and learns from his wife Sofie how the body's inner clock works.",
+      "newWords": [
+        "præsidentvalg",
+        "turbulens",
+        "klimaanlæg",
+        "sløre",
+        "nationalbank",
+        "optælling",
+        "kuld"
+      ],
+      "text": "Anton er journalist, og han havde været i Washington i to uger for at dække det amerikanske præsidentvalg. Valgnatten var lang. Optællingen af stemmerne trak ud, og først klokken 6 om morgenen var det klart, hvem der havde vundet præsidentvalget. Anton skrev sin sidste artikel, pakkede sin kuffert og tog direkte til lufthavnen.\n\nPå flyet ville han sove, men det lykkedes ikke. Over havet ramte de turbulens, og flyet rystede i næsten en time. Ved siden af ham sad et lille barn, som græd, hver gang turbulensen blev værre. Klimaanlægget blæste kold, tør luft ned over sæderne, og Antons hals blev tør. På hotellet havde der også været et klimaanlæg, som larmede hele natten.\n\nDa han landede i København, havde han været vågen i over et døgn. Trætheden slørede hans blik, når han prøvede at læse skiltene i lufthavnen, og ordene flød sammen. Han tog toget hjem, og alt omkring ham var sløret, som om han så verden gennem en våd rude.\n\nDerhjemme ventede hans kone Sofie. Hun er økonom og arbejder i nationalbanken, og hun var selv netop kommet hjem fra et langt møde. I nationalbanken havde de diskuteret, hvad det nye præsidentvalg ville betyde for renten. Hun kunne se på ham, at han var helt færdig.\n\n»Du skal ikke sove nu,« sagde hun. »Så vågner du klokken 2 i nat. Prøv at holde dig vågen til i aften.«\n\nSofie forklarede, at kroppen har et indre ur, som styrer, hvornår vi bliver trætte. Uret følger dagslyset. Når man flyver over mange tidszoner, er uret stadig indstillet på det land, man kom fra. Det tager cirka en dag for hver times forskel, før kroppen har vænnet sig til den nye tid. Dagslys om morgenen hjælper uret med at stille sig om.\n\nFor at holde sig vågen gik Anton ud i køkkenet, hvor deres kat lå i en kasse med sit kuld. Den havde fået fem killinger, mens han var væk. Han satte sig på gulvet og så på kuldet i en time. Det var det bedste, han havde oplevet i to uger.\n\nKlokken 22 gik han i seng. Han tænkte på den lange optælling i Washington, og så faldt han i søvn uden at tælle et eneste får.\n\nSpørgsmål:\nHvorfor havde Anton været i Washington?\nHan skulle dække det amerikanske præsidentvalg som journalist.\nHvorfor kunne han ikke sove på flyet?\nFordi flyet ramte turbulens, et barn græd, og klimaanlægget blæste kold, tør luft.\nHvad skete der med Antons blik i lufthavnen?\nTrætheden slørede hans blik, og ordene på skiltene flød sammen.\nHvad havde de diskuteret i nationalbanken?\nDe havde diskuteret, hvad præsidentvalget ville betyde for renten.\nHvorfor sagde Sofie, at Anton ikke skulle sove med det samme?\nFordi han så ville vågne midt om natten; han skulle holde sig vågen til om aftenen.\nHvad fandt Anton i køkkenet?\nHan fandt katten med sit kuld på fem killinger."
+    }
+  ]
+}
