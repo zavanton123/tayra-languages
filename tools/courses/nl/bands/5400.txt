@@ -1,0 +1,100 @@
+1	5301	erfgenaam	erfgenaam erfgenamen erfgename
+2	5302	kwartaal	kwartaal kwartalen
+3	5303	afhalen	afhalen afgehaald afhaal afhaalt afhaalde
+4	5304	opzeggen	opzeggen opgezegd opzegt opzeg opzegde
+5	5305	turnen	turn turnen geturnd turnde
+6	5306	donna	donna donna's
+7	5307	zelfgemaakt	zelfgemaakte zelfgemaakt
+8	5308	akker	akkers akker
+9	5309	peiling	peiling peilingen
+10	5310	peil	peil peilen gepeild peilt peilde peilden
+11	5311	klaarkomen	klaarkomen klaarkomt klaargekomen klaarkwam klaarkom
+12	5312	herhaaldelijk	herhaaldelijk herhaaldelijke
+13	5313	flikker	flikker flikkers
+14	5314	kalf	kalf kalveren kalfjes kalfje
+15	5315	jatten	gejat jatten jat jatte gejatte
+16	5316	ketel	ketel ketels keteltje
+17	5317	beginsel	beginselen beginsel
+18	5318	deugd	deugd deugden
+19	5319	ontroerend	ontroerend ontroerende
+20	5320	treffer	treffer treffers
+21	5321	soes	soest soes soezen
+22	5322	hemd	hemd hemden hemdje hempje
+23	5323	achterste	achterste
+24	5324	cast	cast
+25	5325	chi	chi
+26	5326	euh	euh
+27	5327	gevangenschap	gevangenschap
+28	5328	navolging	navolging
+29	5329	publiciteit	publiciteit
+30	5330	yes	yes
+31	5331	weefsel	weefsel weefsels
+32	5332	leerzaam	leerzaam leerzame leerzamer
+33	5333	filmfestival	filmfestival filmfestivals
+34	5334	domeinnaam	domeinnaam domeinnamen
+35	5335	koppeling	koppeling koppelingen
+36	5336	schuin	schuin schuine schuiner
+37	5337	louter	louter loutere
+38	5338	klank	klank klanken
+39	5339	observatie	observatie observaties
+40	5340	onterecht	onterecht onterechte
+41	5341	ruïne	ruïnes ruïne
+42	5342	maritiem	maritiem maritieme
+43	5343	knokken	knokke knokken geknokt knokte knokt knok knokten
+44	5344	schaken	schaken schaak geschaakt schaakt schaakte
+45	5345	wielrennen	wielrennen wielren
+46	5346	hype	hype hypes
+47	5347	hint	hint hints
+48	5348	raap	raap rapen rape raapt raapte geraapt raapten
+49	5349	nagaan	nagaan nagegaan naga nagaat naging
+50	5350	heil	heil heils
+51	5351	spijker	spijkers spijker spijkertjes spijkertje
+52	5352	overgeven	overgeven overgegeven overgeeft overgaf overgaven
+53	5353	verbeelding	verbeelding verbeeldingen
+54	5354	verschijning	verschijning verschijningen
+55	5355	log	log loggen logs logge logger gelogd loggers logde
+56	5356	hotelkamer	hotelkamer hotelkamers
+57	5357	vreedzaam	vreedzame vreedzaam vreedzamer
+58	5358	schroef	schroef schroeven geschroefd schroefje schroeft schroefde geschroefde
+59	5359	delegatie	delegatie delegaties
+60	5360	doormaken	doorgemaakt doormaakt doormaken doormaakte doormaak doormaakten doorgemaakte
+61	5361	envelop	envelop enveloppe enveloppen envelopje enveloppes
+62	5362	loser	loser losers
+63	5363	accommodatie	accommodatie accommodaties
+64	5364	wijten	wijten wijt wete
+65	5365	wrijven	wrijven wrijf wrijft wreef gewreven wreven
+66	5366	bekeren	bekeerd bekeren bekeerde bekeert bekeerden bekeer
+67	5367	vonk	vonk vonken vonkje vonkjes vonkt vonkende
+68	5368	mekaar	mekaar mekaars
+69	5369	ever	ever evers evertje
+70	5370	smid	smeden smid gesmeed smeedde smeedt smeed smeedden
+71	5371	dog	dog doggen
+72	5372	zondagavond	zondagavond zondagavonden
+73	5373	bijstaan	bijgestaan bijstaan bijstaat bijstond bijstonden
+74	5374	misverstand	misverstand misverstanden misverstandje
+75	5375	razend	razend razende
+76	5376	abstract	abstract abstracte abstracts abstracter abstracten
+77	5377	tournee	tournee tournees tournée
+78	5378	besmetting	besmetting besmettingen
+79	5379	geding	geding gedingen
+80	5380	marge	marge marges
+81	5381	slachten	slachten slacht slachtte geslachte slachtten
+82	5382	filiaal	filiaal filialen
+83	5383	gangster	gangsters gangster
+84	5384	uitvoerig	uitvoerig uitvoerige uitvoeriger
+85	5385	uitdagen	uitdagen uitgedaagd uitdaagt uitdaagde uitdaag uitdaagden uitgedaagde
+86	5386	fontein	fontein fonteinen fonteintje
+87	5387	bewering	bewering beweringen
+88	5388	ode	ode odes oden
+89	5389	overvloed	overvloed overvloede overvloeds
+90	5390	bitch	bitch bitches
+91	5391	animatie	animatie animaties
+92	5392	plattegrond	plattegrond plattegronden
+93	5393	schending	schending schendingen
+94	5394	fauna	fauna
+95	5395	gelijkheid	gelijkheid
+96	5396	modder	modder
+97	5397	noordwesten	noordwesten
+98	5398	ontevreden	ontevreden
+99	5399	volstrekt	volstrekt
+100	5400	voorts	voorts

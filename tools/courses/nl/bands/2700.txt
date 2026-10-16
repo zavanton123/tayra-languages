@@ -1,0 +1,100 @@
+1	2601	hartelijk	hartelijk hartelijke hartelijker
+2	2602	lezing	lezing lezingen
+3	2603	anderhalf	anderhalf anderhalve
+4	2604	luitenant	luitenant luitenants luitenanten
+5	2605	advertentie	advertentie advertenties
+6	2606	nauw	nauw nauwe nauwer nauwere nauwste nauwst
+7	2607	koppelen	gekoppeld koppelen koppelt koppelde koppelden
+8	2608	aanzetten	aanzetten aanzet aangezet aanzette aangezette
+9	2609	decennium	decennia decennium
+10	2610	wortel	wortels wortel geworteld wortelen worteltjes worteltje wortelt
+11	2611	cent	cent centen centjes centje
+12	2612	nieuwsgierig	nieuwsgierig nieuwsgierige nieuwschierig nieuwsgieriger nieuwsgierigen
+13	2613	voorbereiden	voorbereiden voorbereidt voorbereidende voorbereidend voorbereide voorbereidde voorbereidden
+14	2614	bedienen	bedienen bediende bediend bedienden bedient bedien bediendes bedienend
+15	2615	hoogleraar	hoogleraar hoogleraren
+16	2616	omvatten	omvat omvatten omvattende omvatte omvattend
+17	2617	parkeren	parkeren geparkeerd parkeer geparkeerde parkeert parkeerde parkeerden
+18	2618	koppel	koppel koppels koppeltje
+19	2619	oprecht	oprecht oprechte oprechter
+20	2620	essentieel	essentieel essentiële essentieels
+21	2621	design	design designs
+22	2622	kennelijk	kennelijk kennelijke
+23	2623	kwart	kwart kwartje kwartjes kwarten
+24	2624	doek	doek doeken doekjes doekje doeke
+25	2625	uitsluitend	uitsluitend uitsluitende
+26	2626	chef	chef chefs cheffin
+27	2627	huishouden	huishoudens huishouden huishoud huisgehouden huishield
+28	2628	check	check checks
+29	2629	ingewikkeld	ingewikkeld ingewikkelde ingewikkelder ingewikkelds ingewikkeldere ingewikkeldste
+30	2630	ongeval	ongeval ongevallen
+31	2631	tiet	tieten tiet tietje
+32	2632	vrijwillig	vrijwillig vrijwillige
+33	2633	kampioenschap	kampioenschap kampioenschappen
+34	2634	daarover	daarover
+35	2635	desoxyribonucleïnezuur	dna
+36	2636	gezondheidszorg	gezondheidszorg
+37	2637	hi	hi
+38	2638	racisme	racisme
+39	2639	schande	schande
+40	2640	tenslotte	tenslotte
+41	2641	welzijn	welzijn
+42	2642	machtig	machtige machtig machtigste machtiger machtigere
+43	2643	buurman	buurman buurvrouw buurvrouwen buurvrouwtje buurmannen
+44	2644	uitnodiging	uitnodiging uitnodigingen
+45	2645	noot	noten noot nootje
+46	2646	sigaret	sigaretten sigaret sigaretje
+47	2647	doelwit	doelwit doelwitten
+48	2648	eva	eva eva's
+49	2649	romantisch	romantische romantisch romantischer
+50	2650	petitie	petitie petities
+51	2651	haten	haten gehaat hate haatte hatende haatten hatend
+52	2652	senator	senator senatoren senators
+53	2653	afleiden	afgeleid afleiden afleidt afleid afleidend afleidde afleidende
+54	2654	batterij	batterij batterijen batterijtje
+55	2655	zweer	zweer zweren gezworen zwoer zweert zwoeren zwerende zweertjes zweerde
+56	2656	hoofdstuk	hoofdstuk hoofdstukken hoofdstukje
+57	2657	steven	steven stevens
+58	2658	verkiezen	verkozen verkiezen verkiest verkoos verkies verkozenen verkoren verkozene
+59	2659	piloot	piloot piloten
+60	2660	erkenning	erkenning erkenningen
+61	2661	toeval	toeval toevallen toevalt
+62	2662	plassen	plassen plas plast geplast plasje plasjes plaste plassende plasten
+63	2663	elektriciteit	elektriciteit electriciteit
+64	2664	stok	stok stokje stokken stek stokjes stekken stokt stekje stokte stokke
+65	2665	traag	traag trage trager tragere traagste
+66	2666	plakken	plakken plak geplakt plakt plakje plakte geplakte plakten plakkende
+67	2667	geraken	geraken geraakt geraakte geraak geraakten
+68	2668	aankoop	aankoop aankopen aangekocht aangekochte aankocht aankoopt
+69	2669	veroveren	veroveren veroverd veroverde verovert veroverden verover
+70	2670	staal	staal stalen staaltje
+71	2671	gigantisch	gigantische gigantisch
+72	2672	veren	veren veer vert veertje veder vere veert geveerd veerde verend
+73	2673	grondgebied	grondgebied grondgebieden
+74	2674	kopie	kopie kopieën kopij copie kopietje kopies
+75	2675	aanpassen	aanpassen aanpast aanpaste aanpas aanpasten aanpassend
+76	2676	deken	deken dekens dekentje dekentjes
+77	2677	fruit	fruit fruiten
+78	2678	vleugel	vleugels vleugel vleugeltjes vlegel vleugelen vleugeltje vlegels
+79	2679	circa	circa
+80	2680	gezag	gezag
+81	2681	vanmiddag	vanmiddag
+82	2682	verbod	verbod
+83	2683	vijftien	vijftien
+84	2684	bril	bril brillen brilletje
+85	2685	privaat	private privaat
+86	2686	lip	lippen lip lipje lipjes
+87	2687	bond	bond bonden
+88	2688	brandstof	brandstof brandstoffen
+89	2689	schatting	schatting schattingen
+90	2690	afronden	afgerond afronden afrondende afrond afrondde afrondt
+91	2691	tak	tak takken takje
+92	2692	opvolger	opvolger opvolgers opvolgster
+93	2693	verbaasd	verbaasd verbaasde
+94	2694	aanvaarden	aanvaarden aanvaard aanvaardt aanvaarde aanvaardde aanvaardden
+95	2695	presentator	presentator presentatrice presentatoren presentatrices presentators
+96	2696	demonstratie	demonstratie demonstraties
+97	2697	knippen	knippen knip geknipt knipt knipte knipten
+98	2698	invullen	invullen ingevuld invult ingevulde invulde invul invulden
+99	2699	noodzaak	noodzaak genoodzaakt noodzaakte noodzaakt noodzaken noodzaakten
+100	2700	server	server servers

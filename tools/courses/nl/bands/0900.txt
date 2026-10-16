@@ -1,0 +1,100 @@
+1	801	klant	klanten klant klantje klante
+2	802	verklaren	verklaard verklaren verklaart verklaarde verklaar verklaarden verklarende verklarend
+3	803	klinken	klinkt klinken klonk klink klinkende klonken geklonken klinkend
+4	804	haag	haag hagen haagje
+5	805	plezier	plezier pleziertje pleziertjes
+6	806	burger	burgers burger burgertje
+7	807	opdracht	opdracht opdrachten opdrachtjes
+8	808	zingen	zingen zingt gezongen zong zing zongen zingend
+9	809	betrokken	betrokken
+10	810	wereldkampioenschap	wk wereldkampioenschap wereldkampioenschappen
+11	811	samenwerking	samenwerking samenwerkingen
+12	812	lucht	lucht luchten luchtje lugt gelucht luchtte
+13	813	economie	economie economieën
+14	814	vreemd	vreemd vreemde vreemden vreemdste vreemds vreemder vreemdere
+15	815	tel	telt tel tellen geteld telde tellend telden getelde telle
+16	816	deelnemer	deelnemers deelnemer deelneemsters deelneemster
+17	817	serieus	serieus serieuze serieuzer serieuzere srs
+18	818	financieel	financiële financieel financiele
+19	819	voet	voet voeten voetje
+20	820	type	type typen types typ typt getypt typetje typte typje typend
+21	821	product	producten product produkt
+22	822	gast	gasten gast gastje
+23	823	bestuur	bestuur besturen bestuurd bestuurt bestuurde bestuurden bestieren besturende besturend
+24	824	daarvan	daarvan
+25	825	populair	populair populaire populairste populairder populairst populairdere
+26	826	bijdrage	bijdrage bijdragen bijgedragen bijdraagt bijdrages bijdroeg bijdroegen bijdragende bijdraag
+27	827	volk	volk volkeren volken volks volkje volkse volke
+28	828	locatie	locatie locaties
+29	829	mailen	mail mailen mailtje gemaild mailtjes mailt mailde mailden maile
+30	830	brits	britse brits britsen
+31	831	baby	baby baby's baby'tje babytje
+32	832	ziek	ziek zieke zieken zieker ziekjes ziekste zieks
+33	833	gat	gaten gat gaatje gaatjes gatje
+34	834	historisch	historische historisch historischen
+35	835	kilometer	kilometer kilometers kilometertje
+36	836	huwelijk	huwelijk huwelijken huwelijke
+37	837	macht	macht machten machte
+38	838	fantastisch	fantastisch fantastische fantastischer
+39	839	gedachte	gedachten gedachte gedachtes
+40	840	gedurende	gedurende
+41	841	controle	controle controles
+42	842	vakantie	vakantie vakanties vacantie
+43	843	tip	tips tip tippen getipt tipje tipte tipt tippe
+44	844	stelen	gestolen stelen stal steel stalen steelt stallen gestald stalletje steelde
+45	845	netwerk	netwerk netwerken netwerkt
+46	846	kamp	kamp kampen kempen kampt kampte kampten kampje kampe
+47	847	stand	stand standen standje stands standjes
+48	848	geslacht	geslacht geslachten geslachts
+49	849	beschrijven	beschreven beschrijft beschrijven beschreef beschrijf beschrijvende beschrijvend
+50	850	mening	mening meningen
+51	851	app	app apps appje
+52	852	museum	museum musea museums
+53	853	lijden	lijden leden leed lijdt lede leder leeds lijdend lijd ledere
+54	854	behalve	behalve
+55	855	eraan	eraan
+56	856	haat	haat
+57	857	economisch	economische economisch economischer
+58	858	uitgebreid	uitgebreid uitgebreide uitgebreider uitgebreidere uitgebreidste
+59	859	behandelen	behandeld behandelen behandelt behandelde behandel behandelden behandelend behandelende
+60	860	waarheid	waarheid waarheden
+61	861	waard	waard weerd waardin
+62	862	zak	zak zakken zakje zakt gezakt zakte zakten zakske
+63	863	geluk	geluk gelukte gelukje gelukt gelukken
+64	864	spoor	spoor sporen spoort spoorde spore spoortje spoorden
+65	865	procent	procent procenten
+66	866	festival	festival festivals
+67	867	koffie	koffie koffies koffietje
+68	868	advocaat	advocaat advocaten advocate advocaatje
+69	869	super	super supers
+70	870	moeite	moeite
+71	871	burgemeester	burgemeester burgemeesters
+72	872	model	model modellen modelletje
+73	873	afstand	afstand afstanden afstandje
+74	874	last	last lasten laste gelast
+75	875	beweging	beweging bewegingen
+76	876	vlak	vlak vlakke vlakken vlakker vlakt vlakjes vlakkere gevlakt vlakje
+77	877	betreffen	betreft betrof betreffen betreffend betroffen
+78	878	bestellen	bestellen besteld bestel bestelde bestelt bestelden
+79	879	vieren	vieren gevierd viert vierden
+80	880	favoriet	favoriete favoriet favorieten favorietje
+81	881	woning	woning woningen woninkjes
+82	882	herinneren	herinneren herinnert herinner herinnerde herinnerd herinnerden herinnerend
+83	883	veiligheid	veiligheid veiligheden
+84	884	tevens	tevens
+85	885	niveau	niveau niveaus niveautje
+86	886	verbinden	verbonden verbinden verbindt verbond verbind verbindend
+87	887	mond	mond monde mont mondje monden mondt mondde mondjes
+88	888	terecht	terecht terechte
+89	889	duizend	duizenden duizend duist duizen
+90	890	zus	zus zusje zussen
+91	891	gebruiker	gebruikers gebruiker gebruikster
+92	892	positie	positie posities
+93	893	rivier	rivier rivieren riviertje
+94	894	bevolking	bevolking bevolkingen
+95	895	camera	camera camera's cameraatje
+96	896	erbij	erbij
+97	897	mezelf	mezelf
+98	898	vervangen	vervangen vervangt verving vervang vervangend vervingen
+99	899	slim	slim slimme slimmer slimste slimmere slims slimst slimmen
+100	900	vis	vis vissen gevist visje vist visch viste visten visse vissend

@@ -1,0 +1,100 @@
+1	3501	gedreven	gedreven
+2	3502	ijzeren	ijzeren
+3	3503	jazz	jazz
+4	3504	nabijgelegen	nabijgelegen
+5	3505	simpelweg	simpelweg
+6	3506	voorop	voorop
+7	3507	zevende	zevende
+8	3508	beheerder	beheerder beheerders
+9	3509	persoonlijkheid	persoonlijkheid persoonlijkheden
+10	3510	verdommen	verdomme verdommen verdomde
+11	3511	overgaan	overgegaan overgaan overgaat overging overgingen overgaand overga
+12	3512	luik	luik luiken luikje loke luikjes
+13	3513	onnodig	onnodig onnodige
+14	3514	waardeloos	waardeloos waardeloze
+15	3515	angel	angel angels angelen
+16	3516	kostuum	kostuum kostuums
+17	3517	concentratie	concentratie concentraties
+18	3518	dialoog	dialoog dialogen
+19	3519	redacteur	redacteur redacteuren redacteurs redactrice
+20	3520	bijwerken	bijgewerkt bijwerken bijgewerkte bijwerkt bijwerk
+21	3521	ademen	ademen ademt ademde ademende ademend geademd ademden
+22	3522	heilig	heilig heiligste heiliger heiligs heiligers
+23	3523	kleurrijk	kleurrijke kleurrijk kleurrijker kleurrijkste
+24	3524	fenomeen	fenomeen fenomenen
+25	3525	circuit	circuit circuits
+26	3526	tabel	tabel tabellen
+27	3527	uitzonderlijk	uitzonderlijk uitzonderlijke uitzonderlijks
+28	3528	ruw	ruwe ruw ruwer ruwere
+29	3529	zoom	zoom zomen zoomt gezoomd zoomde
+30	3530	objectief	objectief objectieve objectieven objectiever
+31	3531	briljant	briljant briljante briljanten briljantste
+32	3532	mand	mand mandje manden mandjes
+33	3533	lam	lam lammers lamme lammetje lammetjes lammeren lammert lams
+34	3534	overtreding	overtreding overtredingen
+35	3535	chat	chat chats
+36	3536	vreugde	vreugde vreugd vreugden
+37	3537	straling	straling stralingen
+38	3538	beloning	beloning beloningen
+39	3539	toeschouwer	toeschouwers toeschouwer
+40	3540	weggaan	weggaan weggegaan weggaat wegging wegga weggingen
+41	3541	community	community community's
+42	3542	dagboek	dagboek dagboeken dagboekje
+43	3543	verwarring	verwarring verwarringen
+44	3544	ogenblik	ogenblik ogenblikken oogenblik ogenblikje
+45	3545	vel	vel vellen geveld velden velletje velt velletjes velde velle gevelde
+46	3546	danseres	dansers danseres danser danseressen danseresje
+47	3547	fair	fair faire fairs
+48	3548	naderen	nadert naderen naderde naderden naderend genaderd nadere
+49	3549	smart	smart smarten
+50	3550	vest	vest vesten veste vestje gevest
+51	3551	dekking	dekking dekkingen
+52	3552	vaag	vaag vage vager vaags vaagjes
+53	3553	hip	hip hippe hipste hipper
+54	3554	ongelukkig	ongelukkig ongelukkige ongelukkiger ongelukkigste
+55	3555	omtrent	omtrent hieromtrent daaromtrent waaromtrent
+56	3556	bevrijding	bevrijding
+57	3557	bridge	bridge
+58	3558	duurzaamheid	duurzaamheid
+59	3559	liga	liga
+60	3560	mega	mega
+61	3561	oftewel	oftewel
+62	3562	senaat	senaat
+63	3563	grootschalig	grootschalige grootschalig grootschaliger
+64	3564	part	part parten
+65	3565	ballon	ballonnen ballon ballons ballonnetje ballonnetjes
+66	3566	musical	musical musicals
+67	3567	touw	touw touwen touwtje
+68	3568	symptoom	symptomen symptoom
+69	3569	royal	royal royals
+70	3570	protocol	protocol protocollen protocols
+71	3571	weghalen	weghalen weggehaald weghaalt weghaalde weghaalden
+72	3572	huishoudelijk	huishoudelijke huishoudelijk
+73	3573	achtig	achtige achtig
+74	3574	aanbeveling	aanbevelingen aanbeveling
+75	3575	rapporteren	rapporteren gerapporteerd rapporteert rapporteerde rapporteer rapporteerden gerapporteerde
+76	3576	sterkte	sterkte sterktes sterkten
+77	3577	helm	helm helmen helmpje
+78	3578	matig	matig matige
+79	3579	mysterieus	mysterieuze mysterieus mysterieuzer
+80	3580	therapie	therapie therapieën
+81	3581	infectie	infectie infecties
+82	3582	verkennen	verkennen verkend verkent verken verkenden verkende verkennend verkennende
+83	3583	talrijk	talrijke talrijk talrijker talrijkste
+84	3584	monnik	monniken monnik
+85	3585	haai	haai haaien
+86	3586	aandoening	aandoening aandoeningen
+87	3587	bijkomen	bijkomende bijkomen bijkomend bijgekomen bijkomt bijkwam bijkom bijkwamen
+88	3588	jongeman	jongeman jongemannen
+89	3589	hoofdkantoor	hoofdkantoor hoofdkantoren
+90	3590	hoofdredacteur	hoofdredacteur hoofdredacteuren hoofdredactrice
+91	3591	bo	bo bo's
+92	3592	rente	rente rentes renten gerent
+93	3593	commando	commando commando's
+94	3594	concurrent	concurrent concurrenten concurrente concurrentes
+95	3595	pil	pillen pil pilletje
+96	3596	maag	maag magen maagje
+97	3597	criticus	critici criticus
+98	3598	wal	wal wallen
+99	3599	schooljaar	schooljaar schooljaren
+100	3600	intens	intens intense intenser intensere

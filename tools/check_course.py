@@ -46,8 +46,8 @@ def fold(code, word):
     # The German list folds ß to ss in most of its forms, so both spellings are compared folded.
     if code == "de":
         return word.replace("ß", "ss")
-    # The French list writes the straight apostrophe; texts may use the curly one.
-    if code in ("fr", "it"):
+    # The French, Italian and Dutch lists write the straight apostrophe; texts may use the curly one.
+    if code in ("fr", "it", "nl"):
         return word.replace("’", "'")
     # Russian texts for learners write ё where it belongs, while the list holds both spellings of most words.
     if code == "ru":
@@ -103,9 +103,30 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return russian_tokens(text)
     if code == "it":
         return italian_tokens(text, ranks, names, verbs, heads)
+    if code == "nl":
+        return dutch_tokens(text)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
+    return out
+
+
+# Dutch writes some short words with an apostrophe in front: 's ochtends (des), 't (het), 'n (een),
+# 'k (ik), 'm (hem). They count as the words they stand for; an apostrophe inside a word (auto's,
+# zo'n, m'n) keeps the word whole, as the list has it.
+DUTCH_WORD = re.compile(r"(?<![^\W\d_])['’](?:s|t|n|k|m)(?![^\W\d_])|[^\W\d_]+(?:['’][^\W\d_]+)*", re.UNICODE)
+DUTCH_CLITICS = {"'s": "des", "'t": "het", "'n": "een", "'k": "ik", "'m": "hem"}
+
+
+def dutch_tokens(text):
+    out = []
+    for match in DUTCH_WORD.finditer(text):
+        word = match.group(0).replace("’", "'")
+        clitic = DUTCH_CLITICS.get(word.lower())
+        if clitic:
+            out.append(clitic)
+            continue
+        out.extend(part for part in word.split("-") if part)
     return out
 
 

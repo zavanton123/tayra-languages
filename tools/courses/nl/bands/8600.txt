@@ -1,0 +1,100 @@
+1	8501	euthanasie	euthanasie
+2	8502	gaandeweg	gaandeweg
+3	8503	hoezeer	hoezeer
+4	8504	inmenging	inmenging
+5	8505	kolonisatie	kolonisatie
+6	8506	noodlot	noodlot
+7	8507	nor	nor
+8	8508	onafgebroken	onafgebroken
+9	8509	onkost	onkosten
+10	8510	risken	risk
+11	8511	socialisme	socialisme
+12	8512	stereo	stereo
+13	8513	tin	tin
+14	8514	tuberculose	tuberculose
+15	8515	varkensvlees	varkensvlees
+16	8516	vergetelheid	vergetelheid
+17	8517	verzendkosten	verzendkosten
+18	8518	volslagen	volslagen
+19	8519	woningmarkt	woningmarkt
+20	8520	zoekfunctie	zoekfunctie
+21	8521	auteursrecht	auteursrecht auteursrechten
+22	8522	openingstijd	openingstijden openingstijd
+23	8523	halveren	gehalveerd halveren halveer halveerde halveert gehalveerde
+24	8524	gemeenteraadslid	gemeenteraadslid gemeenteraadsleden
+25	8525	onofficieel	onofficiële onofficieel
+26	8526	display	display displays
+27	8527	pitchen	pitch pitchen pitchte
+28	8528	verheffen	verheffen verheft verhief verheffend verhef verhieven
+29	8529	druipen	druipt droop druipen druipend druipende dropen
+30	8530	vulling	vulling vullingen
+31	8531	tegengaan	tegengaan tegengegaan tegengaat
+32	8532	pogen	gepoogd pogen poogt poogde poogden poog
+33	8533	eindresultaat	eindresultaat eindresultaten
+34	8534	verkoudheid	verkoudheid verkoudheden
+35	8535	hiel	hielen hiel hielt
+36	8536	gesp	gesp gespen
+37	8537	busstation	busstation busstations
+38	8538	huisstijl	huisstijl huisstijlen
+39	8539	veldslag	veldslag veldslagen
+40	8540	onwettig	onwettig onwettige
+41	8541	puls	pulse puls pulsen gepulste
+42	8542	grauw	grauwe grauw graauw
+43	8543	voorwoord	voorwoord voorwoorden
+44	8544	fabel	fabel fabels fabeltje fabeltjes fabelen
+45	8545	certificeren	gecertificeerd gecertificeerde certificeren certificerende
+46	8546	besturing	besturing besturingen
+47	8547	kleurig	kleurige kleurig kleuriger
+48	8548	drukkerij	drukkerij drukkerijen
+49	8549	opiniestuk	opiniestuk opiniestukken
+50	8550	blowen	blow blowen blowt blowde geblowd blowende
+51	8551	wegwerken	wegwerken weggewerkt wegwerkt wegwerk wegwerkte
+52	8552	brommer	brommer brommers brommertje
+53	8553	actieplan	actieplan actieplannen
+54	8554	ongenoegen	ongenoegen ongenoegens
+55	8555	opdringen	opgedrongen opdringen opdringt opdrong opdringende opdrongen
+56	8556	uitrol	uitgerold uitrol uitrollen uitrolt
+57	8557	deelneming	deelneming deelnemingen
+58	8558	twijfelachtig	twijfelachtig twijfelachtige
+59	8559	coupé	coupé coupés
+60	8560	geïrriteerd	geïrriteerd geïrriteerde
+61	8561	avontuurlijk	avontuurlijk avontuurlijke avontuurlijker
+62	8562	kanselier	kanselier kanseliers
+63	8563	muziekfestival	muziekfestival muziekfestivals
+64	8564	mafkees	mafkees mafkezen
+65	8565	verspelen	verspeeld verspelen verspeelde verspeelt verspeel verspeelden
+66	8566	dis	dis dissen dist gedist disse
+67	8567	onverminderd	onverminderd onverminderde
+68	8568	refrein	refrein refreinen
+69	8569	smullen	smullen gesmuld smul smult smulde
+70	8570	glanzen	glanzend glanzen glanst glansde
+71	8571	blootleggen	blootgelegd blootleggen blootlegt blootgelegde blootlegde blootlegden
+72	8572	voortreffelijk	voortreffelijk voortreffelijke
+73	8573	keerpunt	keerpunt keerpunten
+74	8574	processie	processie processies
+75	8575	veeleisend	veeleisende veeleisend veeleisender
+76	8576	zorgverzekering	zorgverzekering zorgverzekeringen
+77	8577	aantreden	aantreden aangetreden aantrad aantreedt aantraden
+78	8578	marmer	marmer marmers
+79	8579	verdenken	verdenkt verdenk verdenken verdachten
+80	8580	perken	perken perk perkje
+81	8581	limousine	limousine limo limousines
+82	8582	jonker	jonker jonkers
+83	8583	inzitten	inzitten inzit ingezeten inzat inzaten
+84	8584	morren	mor mort morren morden
+85	8585	automatiseren	geautomatiseerd geautomatiseerde automatiseren
+86	8586	doordeweeks	doordeweeks doordeweekse
+87	8587	overheidsinstantie	overheidsinstanties overheidsinstantie
+88	8588	torpedo	torpedo torpedo's
+89	8589	slachting	slachting slachtingen
+90	8590	bondgenootschap	bondgenootschap bondgenootschappen
+91	8591	uitlokken	uitgelokt uitlokken uitlokt uitlokte uitlokkende
+92	8592	speld	speld speldje speldjes spelden gespelde speldde speldt
+93	8593	berijden	berijden bereden berijdt bereed berijd
+94	8594	knaap	knaap knapen knaapje knaapjes
+95	8595	sappig	sappig sappige sappiger sappigste
+96	8596	bevolken	bevolkt bevolkte bevolken bevolkten
+97	8597	reflex	reflex reflexen
+98	8598	stopcontact	stopcontact stopcontacten
+99	8599	wip	wip wippen wipt wipte gewipt wipje
+100	8600	wafel	wafels wafel wafeltjes wafeltje

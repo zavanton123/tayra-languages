@@ -1,0 +1,100 @@
+1	5001	achttien	achttien
+2	5002	branche	branche
+3	5003	buit	buit
+4	5004	country	country
+5	5005	geestelijk	geestelijk
+6	5006	gezelligheid	gezelligheid
+7	5007	metal	metal
+8	5008	ondergang	ondergang
+9	5009	oneens	oneens
+10	5010	opmars	opmars
+11	5011	thans	thans
+12	5012	volkswagen	volkswagen
+13	5013	pasen	pasen paas
+14	5014	helling	helling hellingen
+15	5015	handleiding	handleiding handleidingen
+16	5016	innen	innen int inde geïnd inne inden
+17	5017	waanzinnig	waanzinnig waanzinnige waanzinnigen waanzinnigste
+18	5018	aftrekken	aftrekken aftrek afgetrokken aftrekt aftrok
+19	5019	vicepresident	vicepresident vp vicepresidenten
+20	5020	piep	piep piepen gepiept piept piepende piepend piepjes piepje piepte piepten
+21	5021	pannenkoek	pannenkoeken pannenkoek pannekoek
+22	5022	haas	haas hazen haasje
+23	5023	omloop	omloop omlopen
+24	5024	manifest	manifest manifeste manifesten
+25	5025	overblijfsel	overblijfselen overblijfsel overblijfsels
+26	5026	hopeloos	hopeloos hopeloze
+27	5027	voortkomen	voortgekomen voortkomen voortkomt voortkomend voortkwam voortkwamen
+28	5028	middenvelder	middenvelder middenvelders
+29	5029	doorzoeken	doorzoeken doorzocht doorzochten doorzoekt doorzoek
+30	5030	transformatie	transformatie transformaties
+31	5031	voorbehouden	voorbehouden voorbehoud
+32	5032	mislukken	mislukken mislukte mislukten
+33	5033	cocktail	cocktail cocktails cocktailtje
+34	5034	uitwisselen	uitwisselen uitgewisseld uitwisselt uitwisselden uitwisselde
+35	5035	granaat	granaat granaten
+36	5036	sergeant	sergeant sergeanten sergeants
+37	5037	uitstappen	uitstappen uitstap uitgestapt uitstapt uitstapte uitstapten
+38	5038	heffing	heffing heffingen
+39	5039	kermis	kermis kermissen
+40	5040	krabben	krabben krab krabt krabbe krabde gekrabd krabbetje
+41	5041	depressief	depressief depressieve depressiever
+42	5042	ironisch	ironisch ironische
+43	5043	smakelijk	smakelijk smakelijke smakelijker smakelijkste
+44	5044	parcours	parcours parcoursen
+45	5045	vooroordeel	vooroordelen vooroordeel
+46	5046	tragedie	tragedie tragedies
+47	5047	uitgangspunt	uitgangspunt uitgangspunten
+48	5048	zwemmer	zwemmers zwemmer zwemster zwemsters
+49	5049	stijve	stijve stijven
+50	5050	stier	stier stieren stiertje
+51	5051	verpleeghuis	verpleeghuis verpleeghuizen
+52	5052	bemachtigen	bemachtigen bemachtigd bemachtigt bemachtigde bemachtig bemachtigden
+53	5053	merkwaardig	merkwaardig merkwaardige merkwaardigste merkwaardigs merkwaardiger
+54	5054	salade	salade salades
+55	5055	oosters	oosterse oosters
+56	5056	stip	stip stippen stipje
+57	5057	distributie	distributie distributies
+58	5058	omgeven	omgeven omgeeft omgaf omgeef
+59	5059	weerhouden	weerhouden weerhoudt weerhield weerhoud weerhielden
+60	5060	begeleider	begeleider begeleiders begeleidster begeleidsters
+61	5061	vervuilen	vervuild vervuilde vervuilen vervuilt vervuilend
+62	5062	sneuvelen	gesneuveld sneuvelen sneuvelt sneuvelde gesneuvelde sneuvelden
+63	5063	uitsterven	uitsterven uitstervende uitstervend uitsterft uitstierven uitstierf
+64	5064	buitenkant	buitenkant buitenkanten
+65	5065	ontwaken	ontwaken ontwaakt ontwaakte ontwaak ontwaakten ontwakende ontwakend
+66	5066	formatie	formatie formaties
+67	5067	overtreffen	overtreffen overtroffen overtreft overtrof overtref
+68	5068	stoep	stoep stoepen stoepje stoepjes
+69	5069	trollen	trollen trol troll
+70	5070	alleenstaande	alleenstaande alleenstaanden
+71	5071	keeper	keeper keepers
+72	5072	inzending	inzending inzendingen
+73	5073	droogte	droogte droogtes
+74	5074	notaris	notaris notarissen
+75	5075	charmant	charmante charmant charmantste charmanter
+76	5076	flits	flits flitsen flitsende flitsend geflitst flitst flitste
+77	5077	ado	ado
+78	5078	integendeel	integendeel
+79	5079	mentaliteit	mentaliteit
+80	5080	munitie	munitie
+81	5081	negende	negende
+82	5082	parlementsverkiezing	parlementsverkiezingen
+83	5083	strafrecht	strafrecht
+84	5084	tien_duizend	tienduizenden
+85	5085	vrijlating	vrijlating
+86	5086	zogeheten	zogeheten
+87	5087	woonwijk	woonwijk woonwijken
+88	5088	diersoort	diersoorten diersoort
+89	5089	bestuurslid	bestuurslid bestuursleden
+90	5090	eiwit	eiwitten eiwit
+91	5091	galerie	galerie galeries galerieën
+92	5092	flippen	flip flippen flipt flipte geflipt geflipte
+93	5093	boef	boeven boef boefje
+94	5094	bloedbad	bloedbad bloedbaden
+95	5095	verwaarlozen	verwaarloosd verwaarloosde verwaarlozen verwaarloost verwaarloos verwaarloosden
+96	5096	hoesten	hoesten hoest gehoest hoestte hoestend hoestje hoestende
+97	5097	obstakel	obstakels obstakel
+98	5098	ontdoen	ontdoen ontdaan ontdoet ontdeed ontdoe ontdeden ontdane
+99	5099	wijden	wijden wijde wijdt wijdde wijdden wiede
+100	5100	uitpakken	uitpakken uitgepakt uitpakt uitpakte uitpak uitpakten

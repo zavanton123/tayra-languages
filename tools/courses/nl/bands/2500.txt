@@ -1,0 +1,100 @@
+1	2401	diploma	diploma diploma's
+2	2402	wethouder	wethouder wethouders
+3	2403	dijk	dijk dijken dijkje
+4	2404	adviseren	adviseert adviseren adviseer geadviseerd adviseerde adviserende adviserend adviseerden geadviseerde
+5	2405	gemeenteraad	gemeenteraad gemeenteraden
+6	2406	smartphone	smartphone smartphones
+7	2407	master	master masters
+8	2408	wijziging	wijziging wijzigingen
+9	2409	koe	koeien koe koetje
+10	2410	pa	pa pa's
+11	2411	burgerlijk	burgerlijke burgerlijk
+12	2412	onthullen	onthuld onthullen onthult onthulde onthullende onthullend onthulden onthul
+13	2413	vrachtwagen	vrachtwagen vrachtwagens
+14	2414	stam	stam stammen stamt stamde stammend stamden stammetjes
+15	2415	twijfelen	twijfelen twijfelt twijfelde getwijfeld twijfelden twijfelende twijfelend
+16	2416	doorbrengen	doorbrengen doorgebracht doorbracht doorbrengt doorbrachten doorbreng
+17	2417	heersen	heerst heersende heersen heerste heers heersten geheerst heersend
+18	2418	binnenkomen	binnenkomen binnenkomt binnengekomen binnenkwam binnenkwamen binnenkom binnenkomende binnenkomend
+19	2419	erkennen	erkennen erkent erkende erken erkenden
+20	2420	wetgeving	wetgeving wetgevingen
+21	2421	uitschakelen	uitgeschakeld uitschakelen uitschakelt uitschakelde uitgeschakelde uitschakel uitschakelden
+22	2422	hol	hol holle holt holden holst hollen holen holletje holler holde
+23	2423	opkomst	opkomst opkomsten
+24	2424	administratief	administratieve administratief
+25	2425	professional	professional professionals
+26	2426	zelfde	zelfde
+27	2427	leerkracht	leerkracht leerkrachten
+28	2428	onderling	onderling onderlinge
+29	2429	voeden	voeden gevoed voedt voedde voed voedden voedende gevoede voedend
+30	2430	bek	bek bekken bekkens bekt gebekt bekke
+31	2431	hersenen	hersenen hersens harses hersentjes
+32	2432	dekken	gedekt dekken dek dekt dekte dekkend dekje dekten
+33	2433	haak	haak haken haaks haakjes haakt haakte gehaakt haakje haakse hake
+34	2434	installeren	geïnstalleerd installeren installeerde installeert installeer installeerden
+35	2435	kap	kap kappen gekapt kapt kapje kapte kapten kappe
+36	2436	jury	jury jury's
+37	2437	runnen	run runnen gerund runt runde runden gerunde
+38	2438	mini	mini mini's
+39	2439	streep	streep strepen streepje gestreepte gestreept streept streepte
+40	2440	kondigen	kondigde kondigt kondigen kondigden kondig
+41	2441	klus	klus klussen klusje klust geklust klussende kluste
+42	2442	industrieel	industriële industrieel industriëlen
+43	2443	maaltijd	maaltijd maaltijden
+44	2444	weergeven	weergegeven weergeven weergeeft weergaven weergaf weergegevens
+45	2445	biologisch	biologische biologisch
+46	2446	heftig	heftig heftige heftiger heftigs heftigste
+47	2447	ui	ui uien uitje uitjes
+48	2448	engel	engel engelen engeltje
+49	2449	belanden	beland belanden belandt belandde belandden belande
+50	2450	geur	geur geuren geurtje geurende geurt geurend
+51	2451	beledigen	beledigd beledigen beledigend beledig beledigde beledigt beledigden
+52	2452	realiteit	realiteit realiteiten
+53	2453	lening	lening leningen
+54	2454	respecteren	respecteren gerespecteerd respecteert respecteer respecteerden respecterende respecteerde respecterend
+55	2455	arriveren	gearriveerd arriveerde arriveert arriveren arriveerden arriveer arriverende
+56	2456	ophouden	ophouden opgehouden ophoudt ophield ophielden ophoud
+57	2457	sessie	sessie sessies
+58	2458	diezelfde	diezelfde datzelfde
+59	2459	fonds	fonds fondsen
+60	2460	elite	elite elites
+61	2461	terugkomen	terugkomen terugkomt teruggekomen terugkwam terugkwamen terugkom terugkomend terugkomende
+62	2462	passagier	passagiers passagier
+63	2463	massa	massa massa's
+64	2464	opleiden	opgeleid opgeleide opleiden opleidt oto opleidde opleid
+65	2465	commissaris	commissaris commissarissen
+66	2466	pan	pan pannen pannetje
+67	2467	kids	kids
+68	2468	rock	rock
+69	2469	voorbereid	voorbereid
+70	2470	wifi	wifi
+71	2471	wiskunde	wiskunde
+72	2472	toelaten	toegelaten toelaten toelaat toeliet toelieten
+73	2473	opmerkelijk	opmerkelijk opmerkelijke opmerkelijker opmerkelijkste opmerkelijks
+74	2474	fel	fel felle feller felste fellere felst fels
+75	2475	passeren	passeren gepasseerd passeert passeerde passeerden passerende passeer gepasseerde passerend
+76	2476	gezelschap	gezelschap gezelschappen
+77	2477	resolutie	resolutie resoluties
+78	2478	gewapend	gewapende gewapend
+79	2479	paspoort	paspoort paspoorten
+80	2480	uitzicht	uitzicht uitzichten
+81	2481	duivel	duivel duivels duivelse duvel duiveltje duiveltjes
+82	2482	gedeeltelijk	gedeeltelijk gedeeltelijke
+83	2483	amateur	amateur amateurs amatrice amateurtje
+84	2484	bloot	blote bloot blootje bloten
+85	2485	scheiden	scheiden scheidt scheidde scheidden schei scheid scheidend
+86	2486	doorheen	doorheen erdoorheen daardoorheen hierdoorheen waardoorheen
+87	2487	functioneren	functioneren functioneert functionerende functioneerde functionerend functioneer gefunctioneerd functioneerden
+88	2488	vervullen	vervullen vervult vervuld vervulde vervul vervulden vervullend
+89	2489	scheiding	scheiding scheidingen
+90	2490	opruimen	opruimen opgeruimd opruimt opruim opgeruimde opruimde
+91	2491	lieverd	lieverd lieverdje lieverds lieverdjes
+92	2492	brons	brons bronzen bronze bronst
+93	2493	bestrijden	bestrijden bestreden bestrijdt bestrijd bestreed bestrijdende
+94	2494	pesten	pesten pest gepest pestte gepeste peste pestende
+95	2495	moskee	moskee moskeeën
+96	2496	tunnel	tunnel tunnels tunneltje
+97	2497	vervoeren	vervoeren vervoerd vervoerde vervoert vervoerden
+98	2498	doelstelling	doelstellingen doelstelling
+99	2499	chemisch	chemische chemisch
+100	2500	plotseling	plotseling plotselinge

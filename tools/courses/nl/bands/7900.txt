@@ -1,0 +1,100 @@
+1	7801	oester	oesters oester
+2	7802	bukken	bukken buk bukt bukte bokken bokt
+3	7803	bemiddeling	bemiddeling bemiddelingen
+4	7804	tienduizend	tienduizend tienduizendste
+5	7805	evenredig	evenredig evenredige
+6	7806	aantoonbaar	aantoonbaar aantoonbare
+7	7807	vibrator	vibrator vibrators vibo
+8	7808	masseren	masseren masseer gemasseerd masseert masseerde
+9	7809	penning	penning penningen
+10	7810	atheïst	atheïst atheïsten
+11	7811	parlementariër	parlementariërs parlementariër
+12	7812	concentratiekamp	concentratiekampen concentratiekamp
+13	7813	baanbrekend	baanbrekende baanbrekend
+14	7814	onzinnig	onzinnig onzinnige onzinnigs
+15	7815	wereldtitel	wereldtitel wereldtitels
+16	7816	inzittende	inzittenden inzittende
+17	7817	incasseren	incasseren geïncasseerd incasseert incasseerde incasseerden
+18	7818	beffen	beffen bef beft gebeft befte
+19	7819	bandlid	bandleden bandlid
+20	7820	intrigeren	intrigerend intrigerende geïntrigeerd intrigeert intrigeerde intrigeren
+21	7821	voorloper	voorloper voorlopers
+22	7822	optellen	opgeteld optellen optelt optel opgetelde
+23	7823	verblijfsvergunning	verblijfsvergunning verblijfsvergunningen
+24	7824	uitdrukkelijk	uitdrukkelijk uitdrukkelijke
+25	7825	verontschuldiging	verontschuldigingen verontschuldiging
+26	7826	loket	loket loketten
+27	7827	striptekenaar	striptekenaar striptekenaars
+28	7828	verleggen	verleggen verlegd verlegt verlegde verleg verlegden
+29	7829	maandenlang	maandenlang maandenlange
+30	7830	alto	alto
+31	7831	berouw	berouw
+32	7832	carbon	carbon
+33	7833	dynamiek	dynamiek
+34	7834	ehm	ehm
+35	7835	heemstede	heemstede
+36	7836	kerstavond	kerstavond
+37	7837	kwik	kwik
+38	7838	techno	techno
+39	7839	uit_voeren	uitgevoerde
+40	7840	uitschot	uitschot
+41	7841	verduren	verduren
+42	7842	verschoven	verschoven
+43	7843	verstappen	verstappen
+44	7844	voluit	voluit
+45	7845	zenuwstelsel	zenuwstelsel
+46	7846	zowaar	zowaar
+47	7847	ivoor	ivoor ivoren
+48	7848	imitatie	imitatie imitaties
+49	7849	curry	curry curry's
+50	7850	moto	moto moto's
+51	7851	input	input inputs
+52	7852	waarschijnlijkheid	waarschijnlijkheid waarschijnlijkheden
+53	7853	lama	lama lama's
+54	7854	hysterisch	hysterisch hysterische
+55	7855	voorrecht	voorrecht voorrechten
+56	7856	router	router routers
+57	7857	landbouwgrond	landbouwgrond landbouwgronden
+58	7858	ontsnapping	ontsnapping ontsnappingen
+59	7859	instabiel	instabiel instabiele instabieler
+60	7860	riskant	riskant riskante riskanter
+61	7861	invaller	invaller invallers
+62	7862	bevelhebber	bevelhebber bevelhebbers
+63	7863	frontaal	frontale frontaal
+64	7864	metgezel	metgezel metgezellen
+65	7865	detecteren	detecteren gedetecteerd detecteert detecteerde gedetecteerde detecteer detecteerden
+66	7866	overgeleverd	overgeleverd overgeleverde
+67	7867	violet	violet violette violets
+68	7868	komeet	komeet kometen
+69	7869	oefenwedstrijd	oefenwedstrijd oefenwedstrijden
+70	7870	hullen	gehuld hul hullen hult hulle gehulde
+71	7871	uitlating	uitlatingen uitlating
+72	7872	sirene	sirene sirenes sirenen
+73	7873	koptelefoon	koptelefoon koptelefoons
+74	7874	inlopen	inloop inlopen ingelopen inloopt inliep inliepen
+75	7875	verpletteren	verpletterd verpletteren verpletterend verplettert verpletterde verpletterden
+76	7876	hergebruiken	hergebruikt hergebruiken hergebruikte
+77	7877	wereldreis	wereldreis wereldreizen
+78	7878	natuursteen	natuursteen natuurstenen
+79	7879	rouge	rouge rouges
+80	7880	noodgeval	noodgevallen noodgeval
+81	7881	voltrekken	voltrokken voltrekken voltrok voltrekt
+82	7882	machtigen	machtige machtigen gemachtigd gemachtigden machtigt machtigde
+83	7883	verloving	verloving verlovingen
+84	7884	nakomeling	nakomelingen nakomeling
+85	7885	shuttle	shuttle shuttles
+86	7886	eigentijds	eigentijdse eigentijds eigentijdser
+87	7887	productieproces	productieproces productieprocessen
+88	7888	aad	aad aden
+89	7889	bok	bok bokken bokje bokt
+90	7890	tor	tor torren
+91	7891	nerveus	nerveus nerveuze nerveuzer
+92	7892	uitbuiten	uitbuiten uitgebuit uitgebuite uitbuitende uitbuit uitbuitte
+93	7893	vastberaden	vastberaden vastberadener
+94	7894	oprollen	opgerold oprollen opgerolde oprolt oprolde
+95	7895	bezwijken	bezweken bezwijken bezwijkt bezweek bezwijk
+96	7896	vergemakkelijken	vergemakkelijken vergemakkelijkt vergemakkelijkte
+97	7897	uitweg	uitweg uitwegen
+98	7898	flank	flank flanken
+99	7899	gênant	gênant gênante genant gênantste
+100	7900	bijzonderheid	bijzonderheden bijzonderheid

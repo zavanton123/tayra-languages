@@ -1,0 +1,100 @@
+1	6401	liefhebben	liefhebben liefhebbende liefheeft liefgehad liefheb liefhad liefhebt liefhebbend liefhadden
+2	6402	opdagen	opdagen opdaagt opdaagde opgedaagd opdaagden
+3	6403	onttrekken	onttrekken onttrokken onttrekt onttrok onttrek
+4	6404	drietal	drietal drietallen
+5	6405	zwijn	zwijn zwijnen zwijntje
+6	6406	gratie	gratie gratiën
+7	6407	opgelucht	opgelucht opgeluchte
+8	6408	bedrijventerrein	bedrijventerrein bedrijventerreinen
+9	6409	oplichter	oplichter oplichters oplichtster
+10	6410	afstandsbediening	afstandsbediening afstandsbedieningen
+11	6411	doodgaan	doodgaan doodgegaan doodgaat doodging doodga
+12	6412	koraal	koraal kralen koralen kraal
+13	6413	rijstrook	rijstroken rijstrook
+14	6414	paviljoen	paviljoen paviljoens paviljoenen
+15	6415	terugdraaien	terugdraaien teruggedraaid terugdraait
+16	6416	ouderdom	ouderdom ouderdoms
+17	6417	weigering	weigering weigeringen
+18	6418	ontsteken	ontstoken ontsteken ontsteekt ontstak ontsteek ontstaken
+19	6419	privéleven	privéleven privélevens
+20	6420	voordracht	voordracht voordrachten
+21	6421	webpagina	webpagina webpagina's
+22	6422	fascistisch	fascistische fascistisch
+23	6423	algoritme	algoritme algoritmes algoritmen
+24	6424	kroonprins	kroonprins kroonprinses kroonprinsen
+25	6425	western	western westerns
+26	6426	vega	vega vega's
+27	6427	entiteit	entiteit entiteiten
+28	6428	instappen	instappen instap ingestapt instapt instapte instapten
+29	6429	blootstelling	blootstelling blootstellingen
+30	6430	superieur	superieur superieuren
+31	6431	cynisch	cynisch cynische cynischer
+32	6432	loer	loer loeren loert loerde loerend loerden loerende
+33	6433	verklappen	verklappen verklapt verklap verklapte
+34	6434	proppen	proppen prop gepropt propt propje propte
+35	6435	paddenstoel	paddenstoelen paddestoelen paddenstoel paddestoel
+36	6436	telling	telling tellingen
+37	6437	telefoongesprek	telefoongesprek telefoongesprekken
+38	6438	volleybal	volleybal volleyballen gevolleybald
+39	6439	toebehoren	toebehoren toebehoort toebehoorde toebehoord toebehoorden toebehorende toebehorend
+40	6440	bewustwording	bewustwording
+41	6441	blanco	blanco
+42	6442	coca	coca
+43	6443	dinsdagavond	dinsdagavond
+44	6444	eerstvolgend	eerstvolgende
+45	6445	empathie	empathie
+46	6446	helderheid	helderheid
+47	6447	hoogstwaarschijnlijk	hoogstwaarschijnlijk
+48	6448	hygiëne	hygiëne
+49	6449	ineen	ineen
+50	6450	karma	karma
+51	6451	memory	memory
+52	6452	millimeter	millimeter
+53	6453	negentiende	negentiende
+54	6454	nochtans	nochtans
+55	6455	popcorn	popcorn
+56	6456	rijksmuseum	rijksmuseum
+57	6457	soevereiniteit	soevereiniteit
+58	6458	voor_stellen	voorgestelde
+59	6459	voortbestaan	voortbestaan
+60	6460	voortzetting	voortzetting
+61	6461	xi	xi
+62	6462	zaterdagochtend	zaterdagochtend
+63	6463	kei	kei keien
+64	6464	roofdier	roofdieren roofdier
+65	6465	wandelaar	wandelaars wandelaar
+66	6466	abonnee	abonnees abonnee
+67	6467	veronderstelling	veronderstelling veronderstellingen vooronderstelling
+68	6468	vergiftigen	vergiftigd vergiftigen vergiftigde vergiftigt vergiftig vergiftige vergiftigden
+69	6469	uitbetalen	uitbetaald uitbetalen uitbetaalde uitbetaalt
+70	6470	dieptepunt	dieptepunt dieptepunten
+71	6471	ontmantelen	ontmanteld ontmantelen ontmantelt ontmantelde ontmantelden
+72	6472	krater	krater kraters
+73	6473	ademhaling	ademhaling ademhalingen
+74	6474	overweldigen	overweldigend overweldigd overweldigen overweldigt overweldigde
+75	6475	specificatie	specificaties specificatie
+76	6476	fluisteren	fluisteren fluistert fluisterde gefluisterd fluister fluisterend fluisterende fluisterden gefluisterde
+77	6477	kill	kill kills
+78	6478	depot	depot depots
+79	6479	toetje	toetje toetjes
+80	6480	pakhuis	pakhuis pakhuizen
+81	6481	samenvoegen	samengevoegd samenvoegen samengevoegde samenvoegt samenvoegde
+82	6482	soft	soft softe softer
+83	6483	spreiden	spreiden gespreid spreid spreidt gespreide spreidde spreidden
+84	6484	schuldgevoel	schuldgevoel schuldgevoelens
+85	6485	consequent	consequent consequente
+86	6486	mantel	mantel mantels
+87	6487	puppy	puppy puppy's
+88	6488	vork	vork vorken vorkje vorkjes
+89	6489	vezel	vezels vezel
+90	6490	printer	printer printers
+91	6491	bloeding	bloedingen bloeding
+92	6492	pushen	push pushen pusht gepusht pushte
+93	6493	sigaar	sigaar sigaren sigaartje
+94	6494	fee	fee feeën feetje feetjes
+95	6495	wan	wan wanne wanden
+96	6496	vizier	vizier vizieren
+97	6497	kauwgom	kauwgom kauwgompje
+98	6498	klauwen	klauwen klauw klauwtjes geklauwd
+99	6499	pupil	pupillen pupil
+100	6500	radiostation	radiostation radiostations

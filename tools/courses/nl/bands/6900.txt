@@ -1,0 +1,100 @@
+1	6801	werkvloer	werkvloer
+2	6802	zuidoosten	zuidoosten
+3	6803	sportclub	sportclub sportclubs
+4	6804	hormoon	hormonen hormoon
+5	6805	pretpark	pretpark pretparken
+6	6806	kenner	kenner kenners
+7	6807	vliegticket	vliegticket vliegtickets
+8	6808	vermengen	vermengd vermengen vermengt vermengde vermeng vermengden
+9	6809	belazeren	belazerd belazeren belazert
+10	6810	uitrekenen	uitgerekend uitrekenen uitrekent
+11	6811	ensemble	ensemble ensembles
+12	6812	ader	aderen aders ader adertjes adertje
+13	6813	cliché	cliché clichés
+14	6814	sprinter	sprinter sprinters
+15	6815	handmatig	handmatig handmatige
+16	6816	terugblik	terugblik terugblikken teruggeblikt terugblikt terugblikkend
+17	6817	trofee	trofee trofeeën
+18	6818	uitlekken	uitgelekt uitlekken uitgelekte uitlekt uitlekte
+19	6819	abel	abel abels abele
+20	6820	aflossen	aflossen afgelost aflost aflos
+21	6821	vakantiehuis	vakantiehuis vakantiehuisje vakantiehuizen
+22	6822	kraaien	kraaien kraai kraait kraaide kraaiende
+23	6823	tsaar	tsaar tsaren tsarina
+24	6824	misstand	misstanden misstand
+25	6825	hulpdienst	hulpdiensten hulpdienst
+26	6826	rijschool	rijschool rijscholen
+27	6827	werkwoord	werkwoord werkwoorden
+28	6828	dop	dop doppen dopje
+29	6829	hetero	hetero hetero's
+30	6830	diepgaand	diepgaand diepgaande diepgaander diepgaandere
+31	6831	attent	attent attente attenter
+32	6832	rage	rage rages
+33	6833	opstijgen	opstijgen opgestegen opstijgt opsteeg opstijgend opstegen
+34	6834	waarmaken	waarmaken waargemaakt waarmaakt waarmaakte
+35	6835	tractor	tractor tractoren tractors
+36	6836	stabiliseren	stabiliseren gestabiliseerd stabiliseert stabiliseerde gestabiliseerde stabiliserend
+37	6837	jaargang	jaargang jaargangen
+38	6838	patrouille	patrouille patrouilles
+39	6839	havenstad	havenstad havenstadje havensteden
+40	6840	spray	spray sprays
+41	6841	problematiek	problematiek problematieken
+42	6842	hijsen	hijsen gehesen hijst hese hesen heest hijs
+43	6843	burg	burg burgen
+44	6844	verzachten	verzachten verzacht verzachtend verzachtte
+45	6845	pionier	pionier pioniers
+46	6846	seminar	seminar seminars
+47	6847	oprit	oprit opritten
+48	6848	voetbalbond	voetbalbond voetbalbonden
+49	6849	ergernis	ergernis ergernissen
+50	6850	handboei	handboeien handboei
+51	6851	verbranding	verbranding verbrandingen
+52	6852	transitie	transitie transities
+53	6853	opgraven	opgegraven opgraven opgroef opgraaft
+54	6854	synoniem	synoniem synoniemen
+55	6855	kennismaking	kennismaking kennismakingen
+56	6856	veelzijdig	veelzijdige veelzijdig veelzijdiger veelzijdigste
+57	6857	sollicitatie	sollicitatie sollicitaties
+58	6858	overledene	overledene overledenen
+59	6859	racist	racisten racist
+60	6860	vurig	vurige vurig vuriger vurigste
+61	6861	mollig	mollige mollig
+62	6862	competentie	competentie competenties
+63	6863	pensioenfonds	pensioenfondsen pensioenfonds
+64	6864	algeheel	algehele algeheel
+65	6865	blinken	blinken blinkt blink blonk blinkende blinkend blonken
+66	6866	rector	rector rectoren
+67	6867	veilen	geveild veilen veil veilt veils geveilde veilde
+68	6868	achterhoofd	achterhoofd
+69	6869	afbraak	afbraak
+70	6870	asbest	asbest
+71	6871	dertiende	dertiende
+72	6872	desnoods	desnoods
+73	6873	drang	drang
+74	6874	ee	ee
+75	6875	heroïne	heroïne
+76	6876	hm	hm
+77	6877	ironie	ironie
+78	6878	kris	kris
+79	6879	lingerie	lingerie
+80	6880	luchtvaart	luchtvaart
+81	6881	mest	mest
+82	6882	psychiatrie	psychiatrie
+83	6883	repertoire	repertoire
+84	6884	verheven	verheven
+85	6885	vooravond	vooravond
+86	6886	corporatie	corporaties corporatie
+87	6887	miljonair	miljonair miljonairs
+88	6888	binnenplaats	binnenplaats binnenplaatsen
+89	6889	roker	rokers roker rokertje
+90	6890	tekenfilm	tekenfilms tekenfilm tekenfilmpjes tekenfilmpje
+91	6891	spektakel	spektakel spektakels spectakel
+92	6892	joch	jochie joch
+93	6893	tanken	tanken getankt tankt tankte tanke
+94	6894	draagbaar	draagbare draagbaar
+95	6895	vroegtijdig	vroegtijdig vroegtijdige
+96	6896	ecosysteem	ecosysteem ecosystemen
+97	6897	hypothese	hypothese hypotheses hypothesen
+98	6898	tango	tango tango's
+99	6899	butler	butler butlers
+100	6900	sorteren	sorteren gesorteerd sorteer sorteert sorteerde sorteerden

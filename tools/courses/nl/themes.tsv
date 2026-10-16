@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Dutch)
+nl-mini-0100	100	A1	Home and family	Thuis en in het gezin
+nl-mini-0200	200	A1	Everyday life	Het dagelijks leven
+nl-mini-0300	300	A1	Food and shopping	Eten en boodschappen doen
+nl-mini-0400	400	A2	In the city	In de stad
+nl-mini-0500	500	A2	School and work	School en werk
+nl-mini-0600	600	A2	Free time and hobbies	Vrije tijd en hobby's
+nl-mini-0700	700	A2	Health and the body	Gezondheid en het lichaam
+nl-mini-0800	800	A2	Travel and holidays	Reizen en vakantie
+nl-mini-0900	900	A2	Nature and the seasons	De natuur en de seizoenen
+nl-mini-1000	1000	A2	Celebrations and friends	Feesten en vrienden
+nl-mini-1100	1100	B1	Living and housing	Wonen
+nl-mini-1200	1200	B1	Memories	Herinneringen
+nl-mini-1300	1300	B1	Jobs and training	Beroepen en opleidingen
+nl-mini-1400	1400	B1	Cycling and getting around	Fietsen en onderweg
+nl-mini-1500	1500	B1	Money and shopping	Geld en winkelen
+nl-mini-1600	1600	B1	Experiencing culture	Cultuur beleven
+nl-mini-1700	1700	B1	Sport and exercise	Sport en beweging
+nl-mini-1800	1800	B1	The environment in daily life	Het milieu in het dagelijks leven
+nl-mini-1900	1900	B1	Letters, messages and media	Brieven, berichten en media
+nl-mini-2000	2000	B1	Neighbourhood	De buurt
+nl-mini-2100	2100	B2	Cooking and food	Koken en eten
+nl-mini-2200	2200	B2	Body and mind	Lichaam en geest
+nl-mini-2300	2300	B2	The world of work	De wereld van het werk
+nl-mini-2400	2400	B2	Science and technology	Wetenschap en techniek
+nl-mini-2500	2500	B2	History you can touch	Geschiedenis om aan te raken
+nl-mini-2600	2600	B2	Travelling in the Dutch-speaking world	Reizen door Nederland en Vlaanderen
+nl-mini-2700	2700	B2	Generations	Generaties
+nl-mini-2800	2800	B2	Music	Muziek
+nl-mini-2900	2900	B2	Society and living together	Samenleven
+nl-mini-3000	3000	B2	Small columns	Korte columns
+nl-mini-3100	3100	B2	Home and decoration	Het huis inrichten
+nl-mini-3200	3200	B2	Fashion and clothes	Mode en kleding
+nl-mini-3300	3300	B2	The great outdoors	Buiten in de natuur
+nl-mini-3400	3400	B2	Traditional crafts	Oude ambachten
+nl-mini-3500	3500	B2	Technology and society	Techniek en samenleving
+nl-mini-3600	3600	B2	Water, dikes and the coast	Water, dijken en de kust
+nl-mini-3700	3700	B2	Books and language	Boeken en taal
+nl-mini-3800	3800	B2	Everyday economics	Economie van alledag
+nl-mini-3900	3900	B2	Country life	Het leven op het platteland
+nl-mini-4000	4000	B2	City life columns	Columns over de stad
+nl-mini-4100	4100	C1	Body and mind	Lichaam en geest
+nl-mini-4200	4200	C1	Architecture and heritage	Architectuur en erfgoed
+nl-mini-4300	4300	C1	Climate and energy	Klimaat en energie
+nl-mini-4400	4400	C1	Everyday law and rights	Recht en rechten van alledag
+nl-mini-4500	4500	C1	Film and television	Film en televisie
+nl-mini-4600	4600	C1	Research and discovery	Onderzoek en ontdekking
+nl-mini-4700	4700	C1	Living between countries	Leven tussen landen
+nl-mini-4800	4800	C1	The mind in daily life	De geest in het dagelijks leven
+nl-mini-4900	4900	C1	Sport and society	Sport en samenleving
+nl-mini-5000	5000	C1	Short essays	Korte essays
+nl-mini-5100	5100	C1	History	Geschiedenis
+nl-mini-5200	5200	C1	The science of cooking	De wetenschap van het koken
+nl-mini-5300	5300	C1	Landscapes	Landschappen
+nl-mini-5400	5400	C1	Caring for others	Zorgen voor elkaar
+nl-mini-5500	5500	C1	Visual arts	Beeldende kunst
+nl-mini-5600	5600	C1	Journalism and media	Journalistiek en media
+nl-mini-5700	5700	C1	Transport and mobility	Vervoer en mobiliteit
+nl-mini-5800	5800	C1	The Dutch language	De Nederlandse taal
+nl-mini-5900	5900	C1	Starting a business	Een eigen bedrijf beginnen
+nl-mini-6000	6000	C1	Memoirs	Herinneringen opgeschreven
+nl-mini-6100	6100	C1	The universe and the stars	Het heelal en de sterren
+nl-mini-6200	6200	C1	Natural resources	Grondstoffen en bodemschatten
+nl-mini-6300	6300	C1	Food and health	Voeding en gezondheid
+nl-mini-6400	6400	C1	Theatre, circus and stage	Theater, circus en podium
+nl-mini-6500	6500	C1	Engineering	Techniek en bouwkunde
+nl-mini-6600	6600	C1	Farm to table	Van boer tot bord
+nl-mini-6700	6700	C1	Languages and cultures of the Dutch-speaking world	Talen en culturen van het Nederlandse taalgebied
+nl-mini-6800	6800	C1	Literature in Dutch	Nederlandstalige literatuur
+nl-mini-6900	6900	C1	Numbers and reasoning	Getallen en redeneren
+nl-mini-7000	7000	C1	Travel columns	Reiscolumns
+nl-mini-7100	7100	C1	Public health	Volksgezondheid
+nl-mini-7200	7200	C1	Everyday philosophy	Filosofie van alledag
+nl-mini-7300	7300	C1	Festivals and faith	Feesten en geloof
+nl-mini-7400	7400	C1	Animal behaviour	Het gedrag van dieren
+nl-mini-7500	7500	C1	Work and the labour market	Werk en de arbeidsmarkt
+nl-mini-7600	7600	C1	Cities of the world	Steden van de wereld
+nl-mini-7700	7700	C1	Inventions and inventors	Uitvindingen en uitvinders
+nl-mini-7800	7800	C1	State and citizens	Staat en burger
+nl-mini-7900	7900	C1	Skating and winter	Schaatsen en de winter
+nl-mini-8000	8000	C1	Family columns	Columns over het gezin
+nl-mini-8100	8100	C2	The human body	Het menselijk lichaam
+nl-mini-8200	8200	C2	Prevention and resilience	Preventie en veerkracht
+nl-mini-8300	8300	C2	Design and craft	Vormgeving en vakmanschap
+nl-mini-8400	8400	C2	Emotions and relationships	Emoties en relaties
+nl-mini-8500	8500	C2	World history	Wereldgeschiedenis
+nl-mini-8600	8600	C2	The forest	Het bos
+nl-mini-8700	8700	C2	Advertising and communication	Reclame en communicatie
+nl-mini-8800	8800	C2	Food culture in the Low Countries	Eetcultuur in de Lage Landen
+nl-mini-8900	8900	C2	Classical music	Klassieke muziek
+nl-mini-9000	9000	C2	Essays on time	Essays over de tijd
+nl-mini-9100	9100	C2	Chemistry and materials	Scheikunde en materialen
+nl-mini-9200	9200	C2	Maps and finding the way	Kaarten en de weg vinden
+nl-mini-9300	9300	C2	Tales and legends	Sagen en legenden
+nl-mini-9400	9400	C2	Rare professions	Zeldzame beroepen
+nl-mini-9500	9500	C2	Urban planning	Ruimtelijke ordening
+nl-mini-9600	9600	C2	Everyday physics	Natuurkunde van alledag
+nl-mini-9700	9700	C2	Gardens and botany	Tuinen en plantkunde
+nl-mini-9800	9800	C2	Folk art and customs	Volkskunst en gebruiken
+nl-mini-9900	9900	C2	Ethics and living together	Ethiek en samenleven
+nl-mini-10000	10000	C2	Learning and language	Leren en taal

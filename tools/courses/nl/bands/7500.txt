@@ -1,0 +1,100 @@
+1	7401	opsteken	opsteken opgestoken opsteekt opstak opsteek opstaken opstekende
+2	7402	joker	joker jokers
+3	7403	gedragscode	gedragscode gedragscodes
+4	7404	oeuvre	oeuvre oeuvres
+5	7405	vleug	vleugje vleug vleugjes
+6	7406	toeslaan	toeslaan toegeslagen toeslaat toesloeg toesloegen
+7	7407	host	host hosts
+8	7408	samenhangend	samenhangende samenhangend
+9	7409	grootheid	grootheid grootheden
+10	7410	koploper	koploper koplopers
+11	7411	uitspelen	uitgespeeld uitspelen uitgespeelde uitspeelt uitspeelde uitspelende
+12	7412	sluier	sluier sluiers
+13	7413	janken	janken jank jankt jankende janke jankend gejankt jankte
+14	7414	toezeggen	toegezegd toegezegde toezeggen toezegt toezegde
+15	7415	amuseren	amuseren geamuseerd amuseer amuseert amuseerde amuseerden
+16	7416	emigreren	emigreren geëmigreerd emigreerde emigreerden emigreert geëmigreerde emigreer
+17	7417	kriebelen	kriebels kriebelen kriebelt kriebel kriebelde
+18	7418	urgent	urgent urgente urgenter
+19	7419	figuurlijk	figuurlijk figuurlijke
+20	7420	target	target targets
+21	7421	klaver	klaver klavertje klavers
+22	7422	brouwen	gebrouwen brouwen brouwt brouw brouwde brouwden gebrouwd
+23	7423	moestuin	moestuin moestuinen moestuintje moestuintjes
+24	7424	ideologisch	ideologische ideologisch
+25	7425	spiraal	spiraal spiralen spiraaltje
+26	7426	allergie	allergie allergieën
+27	7427	episch	episch epische
+28	7428	redenering	redenering redeneringen
+29	7429	barbie	barbie barbies
+30	7430	attentie	attentie attenties
+31	7431	reep	reep repen reepje
+32	7432	hoofdsponsor	hoofdsponsor hoofdsponsors hoofdsponsoren
+33	7433	standplaats	standplaats standplaatsen
+34	7434	sekte	sekte sekten sektes
+35	7435	stapelen	stapelen gestapeld stapelt stapelden stapelde stapele
+36	7436	harnas	harnas harnassen
+37	7437	presidentskandidaat	presidentskandidaat presidentskandidaten
+38	7438	beladen	beladen
+39	7439	consensus	consensus
+40	7440	dries	dries
+41	7441	elfde	elfde
+42	7442	haram	haram
+43	7443	idem	idem
+44	7444	jade	jade
+45	7445	kb	kb
+46	7446	ombudsman	ombudsman
+47	7447	oostkust	oostkust
+48	7448	overblijft	overblijft
+49	7449	pracht	pracht
+50	7450	scheepvaart	scheepvaart
+51	7451	slowen	slow
+52	7452	steevast	steevast
+53	7453	yuri	yuri
+54	7454	zeggenschap	zeggenschap
+55	7455	zeventiende	zeventiende
+56	7456	zonneschijn	zonneschijn
+57	7457	kakkerlak	kakkerlakken kakkerlak
+58	7458	uitleveren	uitgeleverd uitleveren uitlevert uitleverde
+59	7459	herenigen	herenigd herenigen herenigt herenigde
+60	7460	onwijs	onwijs onwijze
+61	7461	verontschuldigen	verontschuldigen verontschuldigt verontschuldigde verontschuldigd verontschuldig verontschuldigend verontschuldigden verontschuldigende
+62	7462	vindplaats	vindplaats vindplaatsen
+63	7463	schoonzus	schoonzus schoonzusje schoonzussen
+64	7464	schikken	schikken schikt schik schikte schikten
+65	7465	verteren	verteren verteerd verteert verteerde verterende verterend verteer
+66	7466	dempen	gedempt dempen dempt dempende dempte dempend demp
+67	7467	kinderachtig	kinderachtig kinderachtige
+68	7468	onredelijk	onredelijk onredelijke
+69	7469	schouwburg	schouwburg schouwburgen
+70	7470	spoorloos	spoorloos spoorloze
+71	7471	verzorger	verzorger verzorgers
+72	7472	ongeduldig	ongeduldig ongeduldige ongeduldiger
+73	7473	gap	gap gappen
+74	7474	herbouwen	herbouwen herbouwd herbouw herbouwde herbouwt herbouwden
+75	7475	rad	rad raderen radertje
+76	7476	voetspoor	voetsporen voetspoor
+77	7477	pervers	perverse pervers
+78	7478	kerstdag	kerstdag kerstdagen
+79	7479	zwerven	zwerven zwerft zwervende zwierf zwierven zwervend zwerf gezworven
+80	7480	pub	pub pubs
+81	7481	elimineren	elimineren geëlimineerd elimineert elimineer elimineerde
+82	7482	elementair	elementaire elementair
+83	7483	noodsituatie	noodsituatie noodsituaties
+84	7484	redder	redder redders
+85	7485	speculatie	speculatie speculaties
+86	7486	boekhouding	boekhouding boekhoudingen
+87	7487	voortbrengen	voortgebracht voortbrengen voortbrengt voortbracht voortbrachten voortgebrachte
+88	7488	wildernis	wildernis wildernissen
+89	7489	transporteren	transporteren getransporteerd transporteert transporteerde transporteerden
+90	7490	rif	rif riffen reven
+91	7491	middenklasse	middenklasse middenklassen
+92	7492	eetbaar	eetbaar eetbare eetbaars
+93	7493	taco	taco taco's
+94	7494	harig	harige harig
+95	7495	volksvertegenwoordiger	volksvertegenwoordigers volksvertegenwoordiger
+96	7496	omtrek	omtrek omtrekken omtrekkende omtrokken
+97	7497	serum	serum sera serums
+98	7498	fokker	fokker fokkers
+99	7499	mok	mok mokken mokt mokkend
+100	7500	stock	stock stocks

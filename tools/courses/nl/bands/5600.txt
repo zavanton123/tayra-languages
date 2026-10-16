@@ -1,0 +1,100 @@
+1	5501	hybride	hybride hybriden hybrides
+2	5502	onderbouw	onderbouw onderbouwd onderbouwen onderbouwde onderbouwt
+3	5503	gadget	gadgets gadget
+4	5504	slipper	slippers slipper slippertje slippertjes
+5	5505	inlichtingendienst	inlichtingendienst inlichtingendiensten
+6	5506	litteken	littekens litteken
+7	5507	luchtvaartmaatschappij	luchtvaartmaatschappij luchtvaartmaatschappijen
+8	5508	verwarrend	verwarrend verwarrende verwarrender
+9	5509	kazerne	kazerne kazernes
+10	5510	zomervakantie	zomervakantie zomervakanties
+11	5511	fictief	fictieve fictief
+12	5512	forensisch	forensisch forensische
+13	5513	monumentaal	monumentale monumentaal
+14	5514	veelbelovend	veelbelovend veelbelovende
+15	5515	coup	coup coups
+16	5516	voetganger	voetgangers voetganger
+17	5517	transformeren	transformeren getransformeerd transformeert transformeerde transformeer getransformeerde transformerende transformeerden transformerend
+18	5518	blood	blood blo
+19	5519	schrift	schrift schriften schriftje
+20	5520	samenstellen	samenstellen samenstel samenstelde samenstelt samenstelden
+21	5521	restaureren	gerestaureerd gerestaureerde restaureren restaureert restaureerde
+22	5522	aldaar	aldaar
+23	5523	betonnen	betonnen
+24	5524	ditmaal	ditmaal
+25	5525	glorie	glorie
+26	5526	groetjes	groetjes
+27	5527	hetzij	hetzij
+28	5528	holocaust	holocaust
+29	5529	klei	klei
+30	5530	netto	netto
+31	5531	sperma	sperma
+32	5532	taalgebruik	taalgebruik
+33	5533	talk	talk
+34	5534	telegraaf	telegraaf
+35	5535	uitermate	uitermate
+36	5536	verwarming	verwarming
+37	5537	wanhoop	wanhoop
+38	5538	zoveelste	zoveelste
+39	5539	ondermijnen	ondermijnen ondermijnt ondermijnd ondermijnende ondermijnde ondermijn ondermijnend ondermijnden
+40	5540	vacht	vacht vachten
+41	5541	dadelijk	dadelijk dalijk
+42	5542	baai	baai baaien
+43	5543	parkeergarage	parkeergarage parkeergarages
+44	5544	schaden	schaden geschaad schaadt schaad schaadde
+45	5545	controller	controller controllers
+46	5546	mais	mais maïs
+47	5547	disco	disco disco's
+48	5548	discreet	discreet discrete discreter
+49	5549	zogenoemd	zogenoemde zogenoemd
+50	5550	aards	aardse aards aarts aardser
+51	5551	intimidatie	intimidatie intimidaties
+52	5552	heerser	heerser heersers heerseres
+53	5553	brunette	brunette brunettes brunet
+54	5554	nota	nota nota's
+55	5555	tegenslag	tegenslag tegenslagen
+56	5556	windmolen	windmolens windmolen
+57	5557	aandringen	aandringen aangedrongen aandrong aandringt aandrongen
+58	5558	kaap	kaap gekaapt kapen kaapt kaapte gekaapte kaapten
+59	5559	taboe	taboe taboes
+60	5560	slager	slager slagers
+61	5561	cruise	cruise cruises
+62	5562	valk	valk valken
+63	5563	swingen	swing swingen swingend swingende swingt
+64	5564	muts	muts mutsen mutsje mutsjes
+65	5565	pauw	pauw pauwen
+66	5566	verdienste	verdienste verdiensten
+67	5567	beveiliger	beveiligers beveiliger
+68	5568	vip	vip vips
+69	5569	essentie	essentie essenties
+70	5570	bevinding	bevindingen bevinding
+71	5571	eeuwenoud	eeuwenoude eeuwenoud
+72	5572	bediening	bediening bedieningen
+73	5573	offensief	offensief offensieve offensieven
+74	5574	ontsteking	ontsteking ontstekingen
+75	5575	trakteren	trakteren trakteer trakteert getrakteerd trakteerde trakteerden
+76	5576	episode	episode episodes episoden
+77	5577	tentoonstellen	tentoongesteld tentoonstellen tentoongestelde tentoonstelt tentoonstelde
+78	5578	laf	laffe laf laffer
+79	5579	compagnie	compagnie compagnies compagnieën comps
+80	5580	zitplaats	zitplaatsen zitplaats
+81	5581	weekblad	weekblad weekbladen
+82	5582	bevolkingsgroep	bevolkingsgroepen bevolkingsgroep
+83	5583	baker	baker bakers
+84	5584	boeing	boeing boeings
+85	5585	wieg	wieg wiegen wiegje wiegt gewiegd wiegende wiegde wiegend
+86	5586	vergen	vergt vergen vergde verg verge gevergd vergden
+87	5587	fanatiek	fanatiek fanatieke fanatieker fanatiekste
+88	5588	evaluatie	evaluatie evaluaties
+89	5589	laser	laser lasers
+90	5590	aanbesteding	aanbesteding aanbestedingen
+91	5591	boekhandel	boekhandel boekhandels
+92	5592	openbaring	openbaring openbaringen
+93	5593	loos	loos loze loost lozer
+94	5594	zoekresultaat	zoekresultaten zoekresultaat
+95	5595	overgroot	overgrote overgroot
+96	5596	expo	expo expo's
+97	5597	stadsbestuur	stadsbestuur stadsbesturen
+98	5598	dierenarts	dierenarts dierenartsen
+99	5599	ontploffing	ontploffing ontploffingen
+100	5600	boeddhistisch	boeddhistische boeddhistisch

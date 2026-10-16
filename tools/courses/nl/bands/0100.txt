@@ -1,0 +1,100 @@
+1	1	de	de den der des dennen deser
+2	2	zijn	is zijn was ben waren bent geweest z'n wees wezen
+3	3	van	van hiervan vans
+4	4	het	het
+5	5	een	een één ene eén eentje eene enen ener eentjes
+6	6	en	en én ende enne enneh
+7	7	in	in hierin
+8	8	op	op hierop
+9	9	ik	ik ikke ikje ick kga iks ikken
+10	10	dat	dat da's des dattie datte deser
+11	11	hebben	heeft hebben heb had hebt hadden gehad hebbe hadde hebbend
+12	12	voor	voor hiervoor vóór voren voors vore
+13	13	je	je
+14	14	te	te
+15	15	met	met hiermee
+16	16	niet	niet note nie nietjes nietje noten nieten
+17	17	die	die dien dieje diejen
+18	18	worden	wordt worden werd werden geworden word wierden worde werdt wierde
+19	19	deze	dit deze dezen dezer dese dees dezes
+20	20	als	als as assen asch asje
+21	21	kunnen	kan kunnen kunt kon kun konden gekund kannen kunne konde
+22	22	er	er
+23	23	om	om erom hierom
+24	24	maar	maar
+25	25	aan	aan waaraan hieraan
+26	26	hij	hij hy hijs hij's
+27	27	ook	ook
+28	28	ze	ze
+29	29	door	door hierdoor erdoor doortje doren
+30	30	gaan	gaan gaat ga ging gegaan gingen gegane gaand ginge
+31	31	uit	uit waaruit daaruit hieruit uyt
+32	32	naar	naar ernaar nare waarnaar hiernaar daarnaar naer naars naarste naarder
+33	33	bij	bij by hierbij bijen bijtje
+34	34	dan	dan dans dansje
+35	35	we	we
+36	36	wat	wat wadde
+37	37	over	over hierover
+38	38	of	of
+39	39	goed	goed beter goede beste best betere goeie goederen goeds beters
+40	40	zullen	zou zal zullen zouden zult zul zoude zulle zoudt zalt
+41	41	nog	nog
+42	42	moeten	moet moeten moest moesten gemoeten moete gemoet moeste
+43	43	ons	ons onze onzen onsen onsje
+44	44	komen	komt komen kwam kom kwamen gekomen komend kommen kome kommetje
+45	45	maken	maken maakt gemaakt maak maakte maakten make gemaakte makend
+46	46	doen	doen doet doe gedaan deed deden dede doeners doener deedt
+47	47	willen	wil willen wilt wilde wilden wou gewild wouden wille wils
+48	48	mijn	mijn m'n mijnen gemijnd mijntje mijnden
+49	49	zien	zien zie gezien ziet zag zagen zaag ziens gezaagd zaagt
+50	50	meer	meer meren meertje mere meert meerde meerten meerden gemeerd
+51	51	zo	zo zoo zootje
+52	52	nu	nu nou
+53	53	geen	geen gene géén genen geens gener
+54	54	al	al
+55	55	wel	wel welt welle wellen welden
+56	56	veel	veel meest vele meeste velen meesten méér veler
+57	57	tot	tot hiertoe waartoe
+58	58	u	u
+59	59	jaar	jaar jaren jaars jaartje jare
+60	60	haar	haar haren haartje haer heur haarde
+61	61	staan	staat staan stond staten sta stonden gestaan staand staatje stonde
+62	62	vinden	vinden vind vindt vond gevonden vonden vondt vinde
+63	63	zeggen	zeggen zegt zei zeg gezegd zeiden zegge zegde zegden zeide
+64	64	me	me
+65	65	mens	mensen mens mensch mensje
+66	66	ander	andere ander anderen
+67	67	hoe	hoe
+68	68	na	na hierna erna naaste nadere naasten naders
+69	69	waar	waar ware waars
+70	70	heel	heel hele heels heler helers
+71	71	weten	weet weten wist wisten geweten weetje wetend weetjes wiste wete
+72	72	geven	geven geeft gaf geef gegeven gaven gave gevend geve gaves
+73	73	groot	grote groot grootste groter grotere groots grootse grootst groten grootser
+74	74	nieuw	nieuwe nieuw nieuwste nieuwere nieuwer nieuwen nij nieuwst
+75	75	zich	zich
+76	76	krijgen	krijgen krijgt kreeg krijg gekregen kregen krijge
+77	77	dag	dag dagen dagje daag daagt dage daags daagde gedaagd daagden
+78	78	hier	hier
+79	79	tegen	tegen waartegen ertegen hiertegen daartegen tegens
+80	80	laten	laten laat liet lieten gelaten latend latende
+81	81	dus	dus
+82	82	onder	onder hieronder eronder
+83	83	vragen	vragen vraag vroeg vraagt gevraagd vroegen vraagje vragend vragende vrage
+84	84	mij	mij my
+85	85	echt	echt echte egt echts echtste
+86	86	houden	houden hou houdt gehouden houd hield hielden houdend houdende houw
+87	87	alleen	alleen allene
+88	88	denken	denk denken dacht denkt gedacht dachten denkend denke denkenden
+89	89	zitten	zit zitten zat zaten gezeten zittende zittend zitje zitjes zatte
+90	90	hun	hun hunnen
+91	91	twee	twee tweeën tweetje tweeden
+92	92	weer	weer weert weren were geweerd weertje weder weerden weerde werend
+93	93	leven	leven leeft levens leef levende leefde levend geleefd leefden leve
+94	94	nemen	nemen neem neemt nam genomen namen name neme nemend
+95	95	tijd	tijd tijden tijdje tijde tijds
+96	96	jij	jij
+97	97	man	man mannen mannetje mannetjes mans manneke manneken
+98	98	eerste	eerste eersten
+99	99	wij	wij onz
+100	100	eens	eens es essen esch

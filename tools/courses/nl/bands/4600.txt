@@ -1,0 +1,100 @@
+1	4501	teruggeven	teruggegeven teruggeven teruggave teruggeeft teruggaf teruggaven
+2	4502	armband	armband armbanden armbandje
+3	4503	illusie	illusie illusies
+4	4504	nominatie	nominaties nominatie
+5	4505	kloof	kloof kloven gekloofd
+6	4506	achtertuin	achtertuin achtertuinen
+7	4507	kleuter	kleuters kleuter kleutertje
+8	4508	boulevard	boulevard boulevards
+9	4509	sultan	sultan sultans
+10	4510	geschil	geschillen geschil
+11	4511	demon	demonen demon demons daemon
+12	4512	hok	hok hokje hokjes hokken hokt
+13	4513	inspectie	inspectie inspecties
+14	4514	provider	provider providers
+15	4515	chic	chique chic sjiek sjieke chiquer chicste chics chiquere
+16	4516	atmosfeer	atmosfeer atmosferen
+17	4517	hardlopen	hardlopen hardloop hardgelopen hardlopend hardlopende hardloopt
+18	4518	kleintje	kleintje kleintjes
+19	4519	schaars	schaars schaarse schaarste schaarser
+20	4520	cake	cake cakes cakeje
+21	4521	kalm	kalm kalme kalmer kalmere
+22	4522	opladen	opladen opgeladen oplaadt oplaad
+23	4523	keurig	keurig keurige
+24	4524	tragisch	tragisch tragische tragischer
+25	4525	po	po pootje po's
+26	4526	informeel	informele informeel informeler
+27	4527	certificaat	certificaat certificaten
+28	4528	webwinkel	webwinkel webwinkels
+29	4529	timing	timing timings
+30	4530	doorstaan	doorstaan doorstond doorstaat doorstonden
+31	4531	lood	lood loden loodje looi looien gelooid
+32	4532	sticker	stickers sticker stickertje stickertjes
+33	4533	juweel	juwelen juweel juweeltje
+34	4534	hert	hert herten hertje
+35	4535	werkplaats	werkplaats werkplaatsen
+36	4536	rijp	rijp rijpe rijpere rijper
+37	4537	verhinderen	verhinderen verhinderd verhindert verhinderde verhinderden verhinder
+38	4538	uitdagend	uitdagende uitdagend uitdagender uitdagends
+39	4539	gelijkspel	gelijkspel gelijkgespeeld gelijkspelen gelijkspelletje
+40	4540	opdragen	opgedragen opdragen opdroeg opdraagt opdroegen
+41	4541	trailer	trailer trailers
+42	4542	verlenging	verlenging verlengingen
+43	4543	abc	abc
+44	4544	achterzijde	achterzijde
+45	4545	aluminium	aluminium
+46	4546	educatie	educatie
+47	4547	geneeskunde	geneeskunde
+48	4548	huisvesting	huisvesting
+49	4549	ov	ov
+50	4550	stront	stront
+51	4551	uh	uh
+52	4552	inleveren	inleveren ingeleverd inlevert inleverde inlever ingeleverde
+53	4553	teleurstellen	teleurstellen teleurstellend teleurstellende teleurstelt teleurstelde
+54	4554	benutten	benutten benut benutte
+55	4555	gehoor	gehoor gehore
+56	4556	atlas	atlas atlassen
+57	4557	gordijn	gordijnen gordijn gordijntje
+58	4558	politieman	politieman politiemensen politiemannen politievrouw politievrouwen
+59	4559	beat	beat beats
+60	4560	parfum	parfum parfums
+61	4561	reus	reus reuzen reuzin
+62	4562	autonoom	autonome autonoom autonomen
+63	4563	contrast	contrast contrasten
+64	4564	weglopen	weglopen weggelopen wegloopt wegliep wegloop wegliepen weglopende
+65	4565	middeleeuws	middeleeuwse middeleeuws
+66	4566	accountant	accountant accountants
+67	4567	carnaval	carnaval carnavals
+68	4568	opduiken	opgedoken opduiken opduikt opdook opdoken opduikende
+69	4569	educatief	educatieve educatief
+70	4570	blogger	blogger bloggers
+71	4571	vergaan	vergaan vergaat vergaande verging vergane verga vergaand verdergaande vergingen verdergaand
+72	4572	achtervolgen	achtervolgd achtervolgen achtervolgt achtervolgden achtervolgde achtervolgende achtervolg achtervolgend
+73	4573	kaak	kaak kaken kaakjes
+74	4574	gijzelaar	gijzelaars gijzelaar
+75	4575	ongelijk	ongelijk ongelijke
+76	4576	weblog	weblog weblogs
+77	4577	geiten	geiten geit geitje
+78	4578	blaken	blake blaak blakend blakende blaakt
+79	4579	plunderen	geplunderd plunderen plunderden plunderende plunderde plundert plunder plunderend geplunderde
+80	4580	vooruitzicht	vooruitzicht vooruitzichten
+81	4581	verschaffen	verschaffen verschaft verschafte verschaften verschaf
+82	4582	aandeelhouder	aandeelhouders aandeelhouder
+83	4583	toonaangevend	toonaangevende toonaangevend
+84	4584	rang	rang rangen
+85	4585	geavanceerd	geavanceerde geavanceerd geavanceerder geavanceerdere
+86	4586	motto	motto motto's
+87	4587	verzwakken	verzwakt verzwakte verzwakken verzwakten verzwakkende
+88	4588	mechanisch	mechanische mechanisch
+89	4589	berucht	beruchte berucht beruchtste
+90	4590	interpreteren	interpreteren geïnterpreteerd interpreteert interpreteer interpreteerde interpreteerden
+91	4591	overeenkomen	overeenkomen overeengekomen overeenkwamen overeenkwam overeenkomend
+92	4592	diplomatiek	diplomatieke diplomatiek
+93	4593	lobby	lobby lobby's
+94	4594	prooi	prooi prooien
+95	4595	ut	ut uten
+96	4596	koorts	koorts koortsen
+97	4597	geschrift	geschriften geschrift geschrifte
+98	4598	paralympisch	paralympische paralympisch
+99	4599	mouw	mouwen mouw
+100	4600	dakloze	daklozen dakloze

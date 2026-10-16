@@ -1,0 +1,100 @@
+1	5701	voetbalwedstrijd	voetbalwedstrijd voetbalwedstrijden
+2	5702	mug	muggen mug
+3	5703	verdomd	verdomd verdomde
+4	5704	aansprakelijk	aansprakelijk aansprakelijke
+5	5705	waardigheid	waardigheid waardigheden
+6	5706	symposium	symposium symposia
+7	5707	vlieger	vlieger vliegers
+8	5708	vrijstaand	vrijstaande vrijstaand
+9	5709	snack	snack snacks
+10	5710	neersteken	neergestoken neersteken neerstak neersteekt
+11	5711	mier	mieren mier miertje
+12	5712	voetbalclub	voetbalclub voetbalclubs
+13	5713	controversieel	controversiële controversieel controversiëler
+14	5714	montage	montage montages
+15	5715	belichten	belicht belichten belichtte belichte belichtten
+16	5716	uitroeien	uitgeroeid uitroeien uitroeit uitroeide
+17	5717	werkeloos	werkloos werkeloos werkeloze
+18	5718	feminist	feminist feministen feministe feministes
+19	5719	trekker	trekker trekkers
+20	5720	dilemma	dilemma dilemma's
+21	5721	tussendoor	tussendoor ertussendoor
+22	5722	module	module modules modulen moduul
+23	5723	moedigen	moedigen moedigde moedigt moedigden
+24	5724	aanbreken	aangebroken aanbreken aanbreekt aanbrak
+25	5725	onbetrouwbaar	onbetrouwbaar onbetrouwbare onbetrouwbaarder
+26	5726	melodie	melodie melodieën melodietje
+27	5727	repetitie	repetitie repetities
+28	5728	rechterhand	rechterhand rechterhanden
+29	5729	rationeel	rationeel rationele rationeler
+30	5730	meesteres	meesteres meesteressen
+31	5731	ranglijst	ranglijst ranglijsten
+32	5732	dwaas	dwaas dwaze dwazen dwazer
+33	5733	omsingelen	omsingeld omsingelen omsingelde omsingelt omsingelden
+34	5734	ondertiteling	ondertiteling ondertitelingen
+35	5735	verwerking	verwerking verwerkingen
+36	5736	emiraat	emiraten emiraat
+37	5737	martelaar	martelaar martelaren martelaars
+38	5738	samenzwering	samenzwering samenzweringen
+39	5739	omvangrijk	omvangrijke omvangrijk omvangrijker omvangrijkste omvangrijkere
+40	5740	beroerd	beroerd beroerde beroerder beroerdste
+41	5741	afrekenen	afrekenen afgerekend afrekent afreken afrekende
+42	5742	kudde	kudde kuddes kudden
+43	5743	bingo	bingo
+44	5744	cocaïne	cocaïne
+45	5745	dwang	dwang
+46	5746	nieuwsgierigheid	nieuwsgierigheid
+47	5747	sec	sec
+48	5748	slogan	slogan
+49	5749	twintigste	twintigste
+50	5750	var	var
+51	5751	voorzijde	voorzijde
+52	5752	injectie	injectie injecties
+53	5753	onderbreking	onderbreking onderbrekingen
+54	5754	rechtvaardig	rechtvaardig rechtvaardige rechtvaardiger
+55	5755	unaniem	unaniem unanieme
+56	5756	wade	wade waden waad waadt waadde wadend
+57	5757	autochtoon	autochtone autochtonen autochtoon
+58	5758	regisseren	geregisseerd regisseren geregisseerde regisseert regisseerde regisseer
+59	5759	doorzetten	doorzetten doorgezet doorzet doorzette
+60	5760	balie	balie balies
+61	5761	wereldrecord	wereldrecord wereldrecords
+62	5762	recentelijk	recentelijk recentelijke
+63	5763	gevangennemen	gevangengenomen gevangennemen gevangenname gevangennamen
+64	5764	uittrekken	uittrekken uitgetrokken uittrekt uittrok uittrek uittrokken
+65	5765	canon	canon canons
+66	5766	toveren	toveren tovert tover getoverd toverde toverden
+67	5767	gematigde	gematigde gematigden
+68	5768	gecompliceerd	gecompliceerd gecompliceerde gecompliceerder
+69	5769	voortzetten	voortzetten voortzet voortzette
+70	5770	krullen	krullen krul krullend gekruld krult krulde krulle
+71	5771	golfbaan	golfbaan golfbanen
+72	5772	allergisch	allergisch allergische
+73	5773	correspondent	correspondent correspondenten correspondente
+74	5774	weide	weide weiden weides geweid weid weidt weidde
+75	5775	samenkomen	samenkomen samengekomen samenkomt samenkwamen samenkwam
+76	5776	getalenteerd	getalenteerde getalenteerd
+77	5777	gijzelen	gegijzeld gijzelen gijzelt gegijzelde gijzel gijzelde gijzelden
+78	5778	astronaut	astronaut astronauten astronaute astronautje
+79	5779	polo	polo polo's
+80	5780	zwerver	zwerver zwervers zwerfster zwervertje
+81	5781	sterrenbeeld	sterrenbeeld sterrenbeelden
+82	5782	geschieden	geschied geschiedt geschiedde geschieden geschiede geschiedden
+83	5783	zending	zending zendingen
+84	5784	klep	klep kleppen klepje kleppe klepjes
+85	5785	botsen	botsen botsten gebotst botste botsende botst bots
+86	5786	bachelor	bachelor bachelors
+87	5787	observeren	observeren geobserveerd observeert observeer observeerde observeerden geobserveerde observerend observerende
+88	5788	teller	teller tellers
+89	5789	gozer	gozer gozers
+90	5790	filmmaker	filmmaker filmmakers
+91	5791	escort	escort escorts
+92	5792	quiz	quiz quizzen kwis
+93	5793	smokkelen	smokkelen gesmokkeld smokkel smokkelt smokkelde gesmokkelde smokkelden
+94	5794	rouwen	rouwen rouwt rouwende rouwe rouwden rouwde gerouwd rouwend
+95	5795	belegger	beleggers belegger
+96	5796	move	move moves
+97	5797	heerschappij	heerschappij heerschappijen
+98	5798	ontlenen	ontleend ontleent ontlenen ontleende ontleenden ontleen
+99	5799	aartsbisschop	aartsbisschop aartsbisschoppen
+100	5800	verleiding	verleiding verleidingen

@@ -1,0 +1,100 @@
+1	2801	long	long longen
+2	2802	prof	prof profs proffen
+3	2803	afbreken	afgebroken afbreken afbreekt afbrak afbraken afbrekende
+4	2804	garage	garage garages
+5	2805	regisseur	regisseur regisseurs regisseuse
+6	2806	gemeen	gemeen gemene gemeens gemener gemeenste
+7	2807	tik	tik tikken tikt getikt tikje tikte tikkende getikte tikkend tikten
+8	2808	herfst	herfst herfsten
+9	2809	spin	spin spinnen spint gesponnen spins spinnende spinnetje spon spinde spinne
+10	2810	stemming	stemming stemmingen
+11	2811	verstaan	verstaan verstaat versta verstond verstonden verstane
+12	2812	uitroepen	uitgeroepen uitroepen uitriep uitroep uitroept uitriepen
+13	2813	aanleg	aanleg
+14	2814	gedoe	gedoe
+15	2815	veelal	veelal
+16	2816	veertig	veertig
+17	2817	voorheen	voorheen
+18	2818	draak	draak draken draakje
+19	2819	vergunning	vergunning vergunningen
+20	2820	verstoppen	verstopt verstoppen verstopte verstop verstopten
+21	2821	budget	budget budgetten budgets
+22	2822	betaling	betaling betalingen
+23	2823	feestdag	feestdagen feestdag
+24	2824	werpen	werpen geworpen werpt wierp werp wierpen werpe
+25	2825	marathon	marathon marathons
+26	2826	installatie	installatie installaties
+27	2827	bereiden	bereiden bereidt bereidde bereidden bereide
+28	2828	ketting	ketting kettingen kettinkje
+29	2829	gil	gil gillen gilde gillend gilt gilden gegild gildes gille gilletje
+30	2830	inzien	inzien inzage inziet ingezien inziens inzag inzagen inzie
+31	2831	buigen	buigen gebogen buigt buig bogen buigend buigende
+32	2832	oogst	oogst oogsten geoogst oogstte oest oogstten
+33	2833	jee	jeetje jee
+34	2834	uitzoeken	uitzoeken uitgezocht uitzoekt uitzocht uitzoek
+35	2835	toekennen	toegekend toekennen toegekende toekent toekende
+36	2836	vergeven	vergeven vergeef vergeeft vergaf vergevend vergevende
+37	2837	plicht	plicht plichten
+38	2838	robot	robot robots robotten robotje
+39	2839	radicaal	radicale radicaal radicalen radicaler radicalere radicaalste
+40	2840	individu	individuen individu
+41	2841	uitgever	uitgever uitgevers
+42	2842	keel	keel kelen keeltje
+43	2843	tag	tag tags
+44	2844	lab	lab labs
+45	2845	inrichten	ingericht inrichten inricht inrichtende inrichtte
+46	2846	varken	varkens varken varkentje zeug zeugen verken zoog
+47	2847	bakker	bakker bakkers bakkertje
+48	2848	isoleren	geïsoleerd isoleren geïsoleerde isoleert isoleer isolerend isoleerde isoleerden
+49	2849	hedendaags	hedendaagse hedendaags
+50	2850	provinciaal	provinciale provinciaal provincialen provinciaals
+51	2851	verwijzing	verwijzing verwijzingen
+52	2852	rijbewijs	rijbewijs rijbewijzen
+53	2853	afschaffen	afgeschaft afschaffen afschafte afschaft
+54	2854	uitzetten	uitgezet uitzetten uitzet uitgezette uitzette
+55	2855	verbrand	verbrand verbrande
+56	2856	tong	tong tongen tonge tongetje getongd
+57	2857	chip	chip chips chipje chipjes
+58	2858	geacht	geacht geachte
+59	2859	familielid	familieleden familielid
+60	2860	tocht	tocht tochten tochtje togt
+61	2861	onafhankelijkheid	onafhankelijkheid
+62	2862	sectie	sectie secties
+63	2863	overbrengen	overgebracht overbrengen overbrengt overgebrachte overbracht overbrachten
+64	2864	vos	vos vossen vosje vosch vosse
+65	2865	gitaar	gitaar gitaren
+66	2866	bende	bende bendes benden
+67	2867	afvragen	afvragen afgevraagd afvraagt afvroeg afvraag afvroegen afvragend
+68	2868	koper	koper kopers
+69	2869	burgeroorlog	burgeroorlog burgeroorlogen
+70	2870	teen	teen tenen teentjes teentje
+71	2871	verplichting	verplichting verplichtingen
+72	2872	nest	nest nesten nestje
+73	2873	fries	friese fries friezen
+74	2874	massage	massage massages
+75	2875	prioriteit	prioriteit prioriteiten prio
+76	2876	handhaven	handhaven gehandhaafd handhaaft handhaafde gehandhaafde handhaaf handhaafden
+77	2877	arbeider	arbeiders arbeider arbeidster arbeidsters
+78	2878	personage	personages personage
+79	2879	sub	sub subs
+80	2880	lading	lading ladingen
+81	2881	loslaten	loslaten losgelaten loslaat losliet loslieten
+82	2882	poten	poten poot pootje gepoot pote
+83	2883	vruchten	vruchten vrucht vruchtjes vruchtje
+84	2884	schop	schop schoppen geschopt schopt schopte schopten schopje schoppende
+85	2885	bemoeien	bemoeien bemoei bemoeit bemoeide bemoeid bemoeiden
+86	2886	au	au
+87	2887	down	down
+88	2888	marketing	marketing
+89	2889	uitkomt	uitkomt
+90	2890	verlichting	verlichting
+91	2891	belgen	belgen belg belge bolg
+92	2892	overgang	overgang overgangen
+93	2893	scène	scène scènes
+94	2894	overdragen	overgedragen overdragen overdraagt overdroeg overdroegen
+95	2895	allereerst	allereerste allereerst
+96	2896	handtekening	handtekening handtekeningen
+97	2897	ophangen	opgehangen ophangen ophangt ophing ophang ophingen
+98	2898	kou	kou koude
+99	2899	verdediger	verdediger verdedigers verdedigster
+100	2900	voetballer	voetballer voetballers voetbalster voetbalsters voetballertje

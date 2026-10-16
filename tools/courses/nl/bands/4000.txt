@@ -1,0 +1,100 @@
+1	3901	pol	pol poll pollen polle polletje
+2	3902	evolutie	evolutie evoluties
+3	3903	applaus	applaus applausje
+4	3904	griep	griep griepje
+5	3905	opstarten	opgestart opstarten opstart opstartte opgestarte opstartten opstartende
+6	3906	prikken	prikken prik prikt geprikt prikje prikte prikkie prikkende prikten prikjes
+7	3907	vergezellen	vergezeld vergezelde vergezellen vergezelt vergezelden vergezel
+8	3908	renoveren	gerenoveerd renoveren gerenoveerde renoveert renoveerde renoveerden
+9	3909	wreed	wreed wrede wreedste wreder
+10	3910	gevangenisstraf	gevangenisstraf gevangenisstraffen
+11	3911	spectaculair	spectaculaire spectaculair spectaculairste spectaculairs spectaculairder
+12	3912	ontploffen	ontploft ontploffen ontplofte ontploften ontplof
+13	3913	mythe	mythe mythen mythes
+14	3914	nauwkeurig	nauwkeurig nauwkeurige nauwkeuriger nauwkeurigere nauwkeurigste
+15	3915	knallen	knallen knal knalt knalde knallende geknald knallend knalden
+16	3916	hoofdkwartier	hoofdkwartier hoofdkwartieren
+17	3917	gereedschap	gereedschap gereedschappen
+18	3918	koloniaal	koloniale koloniaal kolonialen
+19	3919	menu	menu menu's
+20	3920	stout	stoute stout stoutste stouts stouten
+21	3921	lint	lint lintje linten
+22	3922	renner	renners renner
+23	3923	rechtvaardigen	gerechtvaardigd rechtvaardigen rechtvaardigt rechtvaardige rechtvaardigde rechtvaardigden
+24	3924	verlof	verlof verloofd verloven verlooft verloofden
+25	3925	wetboek	wetboek wetboeken
+26	3926	diagnose	diagnose diagnoses diagnosen
+27	3927	terugvinden	terugvinden teruggevonden terugvindt terugvond terugvonden terugvind
+28	3928	mulder	mulder mulders
+29	3929	discipline	discipline disciplines
+30	3930	verdrijven	verdreven verdrijven verdrijft verdreef verdrijf
+31	3931	herdenken	herdenken herdacht herdenkt herdenk herdachten
+32	3932	aller	aller
+33	3933	bewind	bewind
+34	3934	bijstand	bijstand
+35	3935	gerechtigheid	gerechtigheid
+36	3936	gespannen	gespannen
+37	3937	morgenochtend	morgenochtend
+38	3938	naarmate	naarmate
+39	3939	uitgestorven	uitgestorven
+40	3940	vee	vee
+41	3941	vuurwerk	vuurwerk
+42	3942	vv	vv
+43	3943	bestemmen	bestemd bestemde bestemmen bestemt
+44	3944	afstuderen	afgestudeerd afstuderen afstudeerde afstudeer afstudeert afstudeerden
+45	3945	spa	spa spade spades spaden spa's spader
+46	3946	zonsondergang	zonsondergang zonsondergangen
+47	3947	boon	bonen boon boontje
+48	3948	verraden	verraden verraadt verraadde verried verraadden
+49	3949	uitbrengen	uitbrengen uitbrengt uitbracht uitbrachten uitbreng
+50	3950	bezienswaardigheid	bezienswaardigheden bezienswaardigheid
+51	3951	verheugen	verheug verheugen verheugd verheugt verheugde verheugend verheugden
+52	3952	mal	mal malle mals malden mallen malse malser
+53	3953	vermeend	vermeende vermeend
+54	3954	testament	testament testamenten
+55	3955	fietser	fietsers fietser fietsster
+56	3956	uiteenlopend	uiteenlopende uiteenlopend
+57	3957	kletsen	kletsen klets kletst gekletst kletsten kletste kletsend kletsende
+58	3958	districtscommissaris	dc districtscommissaris
+59	3959	baren	baart baren barend baar baarde bare gebaard baarden barende gebaarde
+60	3960	tijger	tijger tijgers tijgerin tijgertje
+61	3961	formulier	formulier formulieren
+62	3962	bestuurlijk	bestuurlijke bestuurlijk
+63	3963	vitamine	vitamine vitaminen vitamines
+64	3964	eeuws	eeuwse eeuws
+65	3965	antiek	antieke antiek
+66	3966	aanvulling	aanvulling aanvullingen
+67	3967	consequentie	consequenties consequentie
+68	3968	verhuizing	verhuizing verhuizingen
+69	3969	inbraak	inbraak inbraken
+70	3970	anaal	anaal anale
+71	3971	schild	schild schilden schildje schildjes
+72	3972	rok	rok rokje rokken
+73	3973	markeren	gemarkeerd markeren markeert gemarkeerde markeer markeerde markeerden
+74	3974	verbannen	verbannen verbanden verbande verbant verban
+75	3975	jeans	jeans
+76	3976	living	living
+77	3977	omstreden	omstreden
+78	3978	overlast	overlast
+79	3979	terrorisme	terrorisme
+80	3980	verantwoording	verantwoording
+81	3981	zeventig	zeventig
+82	3982	toeren	toeren toer toert toerde toertje toerden getoerd
+83	3983	minimum	minimum minima
+84	3984	doelgroep	doelgroep doelgroepen
+85	3985	bevriezen	bevroren bevriezen bevriest bevries bevroor
+86	3986	riem	riem riemen riempje riemke
+87	3987	frame	frame frames
+88	3988	aanklager	aanklager aanklagers aanklaagster
+89	3989	haan	haan hanen haantje
+90	3990	vrijen	vrijen vrije vreet vrijt vrijde vree gevreeën vrijende vrijend
+91	3991	roeien	roeien roei roeit geroeid roeide roeiden roeiend
+92	3992	vanzelfsprekend	vanzelfsprekend vanzelfsprekende vanzelfsprekends
+93	3993	hals	hals halzen
+94	3994	werker	werkers werker werkster werksters
+95	3995	rondleiding	rondleiding rondleidingen
+96	3996	stapel	stapel stapels stapeltje
+97	3997	wand	wand wanden
+98	3998	migratie	migratie migraties
+99	3999	tinten	tinten getinte tintje getint tint tinte
+100	4000	homoseksueel	homoseksuele homoseksueel homoseksuelen

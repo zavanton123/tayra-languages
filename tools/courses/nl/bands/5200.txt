@@ -1,0 +1,100 @@
+1	5101	berichtgeving	berichtgeving berichtgevingen
+2	5102	knuffelen	knuffelen knuffelt geknuffeld knuffelde knuffelend
+3	5103	bokser	bokser boxer boksers boxers
+4	5104	ontwijken	ontwijken ontwijkt ontwijk ontweken ontwijkend ontweek
+5	5105	blootstellen	blootgesteld blootstellen blootstelt blootstelde
+6	5106	interventie	interventie interventies
+7	5107	plaatsing	plaatsing plaatsingen
+8	5108	achterblijven	achtergebleven achterblijven achterblijft achterbleven achterbleef achterblijvende achterblijvend
+9	5109	zinvol	zinvol zinvolle zinvoller zinvols
+10	5110	present	present presents presentje presentjes presenter presente
+11	5111	pier	pier pieren piere
+12	5112	hervatten	hervat hervatten hervatte
+13	5113	kerkhof	kerkhof kerkhoven
+14	5114	offeren	offeren geofferd offert offerde offerden geofferde
+15	5115	struik	struiken struik struikje
+16	5116	hoorzitting	hoorzitting hoorzittingen
+17	5117	onvoorstelbaar	onvoorstelbaar onvoorstelbare
+18	5118	leidinggevende	leidinggevende leidinggevenden
+19	5119	overschrijden	overschreden overschrijden overschrijdt overschreed overschrijd overschrijdend overschrijdende
+20	5120	porsche	porsche porsches
+21	5121	landing	landing landingen
+22	5122	tamelijk	tamelijk tamelijke
+23	5123	diplomaat	diplomaat diplomaten
+24	5124	vergoeden	vergoed vergoeden vergoedt vergoedde
+25	5125	bes	bes bessen bessie besjes besje
+26	5126	vergissing	vergissing vergissingen
+27	5127	dal	dal dalletje
+28	5128	schuilplaats	schuilplaats schuilplaatsen
+29	5129	secundair	secundaire secundair
+30	5130	prostituee	prostituees prostituee
+31	5131	staatsgreep	staatsgreep staatsgrepen
+32	5132	bladzijde	bladzijde bladzijden bladzijdes bladzij
+33	5133	eik	eik eiken
+34	5134	musicus	musici musicus
+35	5135	dwerg	dwerg dwergen dwergje
+36	5136	toelichting	toelichting toelichtingen
+37	5137	afgelast	afgelast
+38	5138	caesar	caesar
+39	5139	douane	douane
+40	5140	kortom	kortom
+41	5141	poker	poker
+42	5142	spoed	spoed
+43	5143	vooralsnog	vooralsnog
+44	5144	zozeer	zozeer
+45	5145	predikant	predikant predikanten
+46	5146	marinier	mariniers marinier
+47	5147	faillissement	faillissement faillissementen
+48	5148	zeis	zeist zeis zeisen
+49	5149	woonachtig	woonachtig woonachtige
+50	5150	moeizaam	moeizaam moeizame moeizamer
+51	5151	zooi	zooi zooitje zootje
+52	5152	kleinschalig	kleinschalige kleinschalig kleinschaliger kleinschaligere
+53	5153	klootzak	klootzak klootzakken
+54	5154	materie	materie materies
+55	5155	kathedraal	kathedraal kathedralen kathedrale
+56	5156	kerstboom	kerstboom kerstbomen
+57	5157	sjaal	sjaal sjaals sjaaltje sjalen
+58	5158	vloeibaar	vloeibare vloeibaar vloeibaarder
+59	5159	flikken	flikken geflikt flikt flik flikte
+60	5160	productief	productief productieve productiever productiefste productievere
+61	5161	treurig	treurig treurige treurigste treuriger
+62	5162	boksen	boksen boks bokst bokste gebokst boksende
+63	5163	ongezond	ongezond ongezonde ongezonder ongezonds
+64	5164	wantrouwen	wantrouwen wantrouwt wantrouwend gewantrouwd wantrouw wantrouwde wantrouwden wantrouwende
+65	5165	ethisch	ethische ethisch
+66	5166	rechercheur	rechercheur rechercheurs
+67	5167	legen	legend legen geleegd lege ledigen leegt leegde
+68	5168	schorsing	schorsing schorsingen
+69	5169	jam	jam jams
+70	5170	verliezer	verliezer verliezers
+71	5171	scout	scout scouts
+72	5172	rijder	rijders rijder rijdster rijdsters
+73	5173	leugenaar	leugenaar leugenaars
+74	5174	biografie	biografie biografieën
+75	5175	opsturen	opsturen opgestuurd opstuurt opstuurde opstuur opgestuurde
+76	5176	graan	graan granen graantje
+77	5177	strijdkracht	strijdkrachten strijdkracht
+78	5178	teef	teef reu teven teefje reuen reutje
+79	5179	stopzetten	stopgezet stopzetten stopzet stopgezette stopzette
+80	5180	chirurg	chirurg chirurgen
+81	5181	thriller	thriller thrillers
+82	5182	ongebruikelijk	ongebruikelijk ongebruikelijke
+83	5183	compilatie	compilatie compilaties
+84	5184	krankzinnig	krankzinnig krankzinnige krankzinnigen krankzinniger
+85	5185	uitbraak	uitbraak uitbraken uitgebraakt
+86	5186	magnetisch	magnetische magnetisch
+87	5187	cilinder	cilinder cilinders cylinder
+88	5188	genootschap	genootschap genootschappen
+89	5189	drastisch	drastisch drastische drastischer
+90	5190	versnelling	versnelling versnellingen
+91	5191	limiet	limiet limieten
+92	5192	tegel	tegels tegel tegeltje
+93	5193	aankleden	aankleden aangekleed aankleed aankleedt aankleedde
+94	5194	gekwalificeerd	gekwalificeerd gekwalificeerde
+95	5195	misdadig	misdadigers misdadig misdadiger misdadige
+96	5196	lat	lat latten latje
+97	5197	mengsel	mengsel mengsels
+98	5198	rendement	rendement rendementen
+99	5199	volwaardig	volwaardige volwaardig
+100	5200	waterval	waterval watervallen watervalletje

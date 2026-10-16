@@ -1,0 +1,100 @@
+1	1101	donderdag	donderdag donderdagen donderdags
+2	1102	boot	boot boten bootjes bootje bote geboot
+3	1103	overtuigen	overtuigd overtuigen overtuigend overtuigde overtuigt overtuig overtuigender overtuigden
+4	1104	donker	donker donkere donkerder donkerste donkers donkerdere donkerst
+5	1105	commissie	commissie commissies
+6	1106	duurzaam	duurzame duurzaam duurzamer duurzamere duurzaamste
+7	1107	verslag	verslag verslagen verslagje
+8	1108	uitspraak	uitspraak uitspraken
+9	1109	san	san san's
+10	1110	islam	islam
+11	1111	ondertussen	ondertussen
+12	1112	onderweg	onderweg
+13	1113	beslissing	beslissing beslissingen
+14	1114	goud	goud gouwe
+15	1115	hoofdstad	hoofdstad hoofdsteden
+16	1116	tuin	tuin tuinen tuintje tuint
+17	1117	stroom	stroom stromen stroomt stromend stroomde stroomden stroompje gestroomd
+18	1118	nr	nr nrs
+19	1119	vogel	vogels vogel vogeltje vogelen
+20	1120	menselijk	menselijke menselijk menselijker menselijks menschelijke menschelijk
+21	1121	ernstig	ernstig ernstige ernstiger ernstigs ernstigste ernstigere
+22	1122	overnemen	overgenomen overnemen overname overneemt overnam overnames overnamen overneem
+23	1123	gemakkelijk	gemakkelijk gemakkelijker gemakkelijke gemakkelijkste gemakkelijkst gemakkelijkere
+24	1124	operatiekamer	ok operatiekamer operatiekamers ok's
+25	1125	beloven	beloofd beloofde belooft beloven beloof beloofden belovend belovende
+26	1126	ontslag	ontslag ontslagen
+27	1127	zogenaamd	zogenaamde zogenaamd
+28	1128	betrekking	betrekking betrekkingen
+29	1129	rekening	rekening rekeningen
+30	1130	vlag	vlag vlaggen vlaggetje gevlagd
+31	1131	flink	flink flinke flinker
+32	1132	miljard	miljard miljarden
+33	1133	stijl	stijl stijlen
+34	1134	plaatsvinden	plaatsvinden plaatsgevonden plaatsvindt plaatsvond plaatsvonden plaatsvind plaatsvindende
+35	1135	toestemming	toestemming toestemmingen
+36	1136	momenteel	momenteel momentele
+37	1137	beroep	beroep beroepen beroept beriep beriepen
+38	1138	erin	erin
+39	1139	gegevens	gegevens
+40	1140	trouwens	trouwens
+41	1141	landelijk	landelijke landelijk
+42	1142	materiaal	materiaal materialen
+43	1143	dak	dak daken dakje dakjes
+44	1144	zulk	zulke zulk zulks
+45	1145	voordeel	voordeel voordelen voordele voordeeltje voordeeltjes
+46	1146	getuigen	getuigen getuige getuigt getuigde getuigd getuig getuigden getuigend
+47	1147	computer	computer computers computertje
+48	1148	afkomstig	afkomstig afkomstige
+49	1149	kandidaat	kandidaat kandidaten kandidate kandidates
+50	1150	vrijwilliger	vrijwilligers vrijwilliger vrijwilligster vrijwilligsters
+51	1151	ervaren	ervaren ervaart ervaar ervoer ervaarde ervoeren ervarener ervaarden
+52	1152	premier	premier premiers
+53	1153	initiatief	initiatief initiatieven
+54	1154	lied	lied liedje liederen
+55	1155	koken	koken kook gekookt kookt kokend kookte kokende kookten koke
+56	1156	bloem	bloemen bloem blom bloemetje bloempje
+57	1157	hallo	hallo
+58	1158	westen	westen
+59	1159	zodra	zodra
+60	1160	werkelijk	werkelijk werkelijke
+61	1161	fan	fans fan
+62	1162	kat	kat katten kater katje katjes katers katertje katte
+63	1163	traditioneel	traditionele traditioneel traditioneler traditionelere
+64	1164	bedrag	bedrag bedraagt bedragen bedroeg bedroegen bedrage bedragje bedraag
+65	1165	werknemer	werknemers werknemer werkneemster werkneemsters
+66	1166	vertaling	vertaling vertalingen
+67	1167	succesvol	succesvol succesvolle succesvoller succesvolste succesvollere
+68	1168	college	college colleges
+69	1169	verklaring	verklaring verklaringen
+70	1170	treffen	getroffen treffen treft trof troffen tref treffend treffende
+71	1171	verspreiden	verspreid verspreiden verspreidt verspreidde verspreide verspreidden
+72	1172	glas	glas glazen glaasje glaze
+73	1173	rapport	rapport rapporten rapportje
+74	1174	verdelen	verdeeld verdelen verdeelt verdeelde verdeel verdeelden
+75	1175	kunstenaar	kunstenaar kunstenaars kunstenares kunstenaressen
+76	1176	vrouwelijk	vrouwelijke vrouwelijk vrouwelijker vrouwelijks
+77	1177	excuus	excuses excuus
+78	1178	dichtbij	dichtbij dichterbij dichtstbij
+79	1179	daardoor	daardoor
+80	1180	gouden	gouden
+81	1181	zolang	zolang
+82	1182	discussie	discussie discussies
+83	1183	verblijf	verblijf verblijven verbleef verblijft verbleven verblijvend
+84	1184	vermelden	vermeld vermelden vermeldt vermeldde vermelde vermeldden
+85	1185	training	training trainingen trainings
+86	1186	code	code codes
+87	1187	accepteren	accepteren geaccepteerd accepteer accepteert accepteerde accepteerden accepterende
+88	1188	behouden	behouden behoud behoudt behield behielden behoudend behoudende behoudender
+89	1189	drukken	drukken drukte gedrukt drukt drukke drukten drukkend drukkende
+90	1190	toegevoegd	toegevoegd toegevoegde
+91	1191	straf	straf straffen gestraft straffe straft strafte strafste straffer gestrafte straffere
+92	1192	omstandigheid	omstandigheden omstandigheid
+93	1193	bier	bier biertje bieren
+94	1194	eenheid	eenheid eenheden
+95	1195	wennen	gewend wennen wen wenden went wende wendt wendde wend wendden
+96	1196	vullen	vullen gevuld vul gevulde vult vulde vulden vullend
+97	1197	beschouwen	beschouwd beschouwen beschouwt beschouw beschouwde beschouwden beschouwend
+98	1198	olympisch	olympische olympisch
+99	1199	woensdag	woensdag woensdagen woensdags
+100	1200	album	album albums

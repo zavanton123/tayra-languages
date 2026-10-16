@@ -1,0 +1,100 @@
+1	8801	dominantie	dominantie
+2	8802	driemaal	driemaal
+3	8803	dronte	dronten
+4	8804	honderdduizend	honderdduizend
+5	8805	hypocrisie	hypocrisie
+6	8806	djihaad	jihad
+7	8807	laster	laster
+8	8808	maestro	maestro
+9	8809	marjolein	marjolein
+10	8810	neder	neder
+11	8811	penningmeester	penningmeester
+12	8812	pip	pip
+13	8813	salsa	salsa
+14	8814	teneinde	teneinde
+15	8815	theologie	theologie
+16	8816	uhm	uhm
+17	8817	verwonderlijk	verwonderlijk
+18	8818	vliegramp	vliegramp
+19	8819	projectontwikkelaar	projectontwikkelaar projectontwikkelaars
+20	8820	merel	merel merels
+21	8821	meevallen	meevallen meevalt meeviel meegevallen
+22	8822	bestormen	bestormen bestormden bestormd bestormt bestormde bestorm
+23	8823	overschrijven	overschrijven overgeschreven overschreven overschrijft overschreef
+24	8824	betoveren	betoverd betoverde betoveren betovert betover
+25	8825	stuurman	stuurman stuurlui stuurlieden
+26	8826	stiefmoeder	stiefmoeder stiefmoeders
+27	8827	levensgevaarlijk	levensgevaarlijk levensgevaarlijke
+28	8828	lomp	lomp lompe lompen lomper
+29	8829	gevoeligheid	gevoeligheid gevoeligheden
+30	8830	hydraulisch	hydraulische hydraulisch
+31	8831	handgemaakt	handgemaakte handgemaakt
+32	8832	handlanger	handlangers handlanger
+33	8833	tegenspraak	tegenspraak tegenspraken
+34	8834	legitimatiebewijs	legitimatiebewijs legitimatie legitimatiebewijzen
+35	8835	biefstuk	biefstuk biefstukken biefstukje
+36	8836	extremist	extremisten extremist
+37	8837	revue	revue revues
+38	8838	lyceum	lyceum lycea
+39	8839	razen	raast razen raasde raas raasden raze geraasd
+40	8840	inspelen	inspelen ingespeeld inspeelt ingespeelde inspeelde inspelend
+41	8841	grijns	grijns grijnzen grijnst grijnzend grijnsde
+42	8842	sterfgeval	sterfgevallen sterfgeval
+43	8843	embryo	embryo embryo's
+44	8844	wad	wad wadden
+45	8845	groothandel	groothandel groothandels
+46	8846	bewolkt	bewolkt bewolkte
+47	8847	overnachting	overnachting overnachtingen
+48	8848	serveerster	serveerster kelner serveersters kelners serveerder
+49	8849	paprika	paprika paprika's
+50	8850	bottom	bottom bottoms
+51	8851	imiteren	imiteren imiteert imiteerde geïmiteerd imiteerden geïmiteerde
+52	8852	vrijspraak	vrijspraak vrijspraken
+53	8853	sussen	sussen sus gesust sust suste
+54	8854	bedrijfspand	bedrijfspand bedrijfspanden
+55	8855	raadsvergadering	raadsvergadering raadsvergaderingen
+56	8856	quad	quad quads
+57	8857	verdoving	verdoving verdovingen
+58	8858	onsterfelijk	onsterfelijk onsterfelijke
+59	8859	egel	egel egels egeltje
+60	8860	surveillance	surveillance surveillances
+61	8861	psychopaat	psychopaat psychopaten psychopate
+62	8862	smoes	smoes smoesje smoezen
+63	8863	hoofdgebouw	hoofdgebouw hoofdgebouwen
+64	8864	demografisch	demografische demografisch
+65	8865	rilling	rillingen rilling
+66	8866	voorbestemmen	voorbestemd voorbestemde
+67	8867	advocatenkantoor	advocatenkantoor advocatenkantoren
+68	8868	hippie	hippie hippies
+69	8869	giraf	giraffe giraf giraffen girafje
+70	8870	gis	gis gissen gisten gegist gegiste giste gistende
+71	8871	afsluiter	afsluiter afsluiters
+72	8872	kleermaker	kleermaker kleermakers kleermaakster
+73	8873	doorkomen	doorkomen doorgekomen doorkomt doorkwam doorkom doorkwamen
+74	8874	overzetten	overzetten overgezet overzet overzette
+75	8875	cappuccino	cappuccino cappuccino's
+76	8876	motel	motel motels
+77	8877	idool	idool idolen
+78	8878	stift	stift stiften
+79	8879	mutant	mutant mutanten
+80	8880	rijles	rijlessen rijles
+81	8881	geus	geus geuze geuzen
+82	8882	piercen	pierce piercen gepiercet
+83	8883	borstel	borstel borstels borsteltje
+84	8884	vechter	vechter vechters vechtster
+85	8885	metamorfose	metamorfose metamorfoses metamorfosen
+86	8886	corona	corona corona's
+87	8887	onbemand	onbemande onbemand
+88	8888	aanranding	aanranding aanrandingen
+89	8889	dekmantel	dekmantel
+90	8890	elektrotechniek	elektrotechniek
+91	8891	energiebesparing	energiebesparing
+92	8892	erosie	erosie
+93	8893	gedachtegoed	gedachtegoed
+94	8894	getogen	getogen
+95	8895	grammatica	grammatica
+96	8896	haarzelf	haarzelf
+97	8897	inspraak	inspraak
+98	8898	intrede	intrede
+99	8899	lava	lava
+100	8900	leefstijl	leefstijl

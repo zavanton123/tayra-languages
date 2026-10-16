@@ -1,0 +1,100 @@
+1	8401	geboorteland	geboorteland
+2	8402	geruim	geruime
+3	8403	gezeur	gezeur
+4	8404	hebzucht	hebzucht
+5	8405	levensonderhoud	levensonderhoud
+6	8406	martini	martini
+7	8407	naderhand	naderhand
+8	8408	noodgedwongen	noodgedwongen
+9	8409	normaliter	normaliter
+10	8410	onervaren	onervaren
+11	8411	overspel	overspel
+12	8412	pact	pact
+13	8413	recycling	recycling
+14	8414	teweeg	teweeg
+15	8415	uitgelezen	uitgelezen
+16	8416	voorover	voorover
+17	8417	wegdek	wegdek
+18	8418	wrong	wrong
+19	8419	voetbalveld	voetbalveld voetbalvelden
+20	8420	staatsburger	staatsburger staatsburgers
+21	8421	enzym	enzymen enzym
+22	8422	wals	wals walsen walst gewalst walste gewalste
+23	8423	ontcijferen	ontcijferen ontcijferd ontcijferde ontcijfert
+24	8424	knutselen	knutselen knutsel geknutseld knutselt knutselde
+25	8425	bouwjaar	bouwjaar bouwjaren
+26	8426	trompet	trompet trompetten trompette
+27	8427	sloep	sloep sloepen sloepje
+28	8428	nationalist	nationalisten nationalist
+29	8429	beangstigen	beangstigend beangstigende beangstigt beangstigd beangstigde beangstigen
+30	8430	wettig	wettige wettig
+31	8431	pils	pils pilsje pilsen
+32	8432	jurisdictie	jurisdictie jurisdicties
+33	8433	shift	shift shifts shiften
+34	8434	behaard	behaarde behaard
+35	8435	brasserie	brasserie brasseries
+36	8436	substantie	substantie substanties
+37	8437	jennen	jen jennen jenne jent
+38	8438	dutje	dutje dutjes
+39	8439	hamster	hamster hamsters
+40	8440	ion	ion ionen
+41	8441	correspondentie	correspondentie correspondenties
+42	8442	overste	overste oversten
+43	8443	stalker	stalker stalkers
+44	8444	afschermen	afgeschermd afschermen afgeschermde afschermt afschermde
+45	8445	sieren	siert sieren gesierd sierde sierden
+46	8446	patat	patat patatje patatten
+47	8447	aangrijpend	aangrijpende aangrijpend
+48	8448	kosteloos	kosteloos kosteloze kostenloos
+49	8449	foutmelding	foutmelding foutmeldingen
+50	8450	reanimeren	reanimeren gereanimeerd
+51	8451	zelfverzekerd	zelfverzekerd zelfverzekerde zelfverzekerder
+52	8452	proteïne	proteïne proteïnen proteïnes
+53	8453	pandemie	pandemie pandemieën
+54	8454	verkiezingsprogramma	verkiezingsprogramma verkiezingsprogramma's
+55	8455	schorpioen	schorpioen schorpioenen
+56	8456	colonne	colonne colonnes
+57	8457	proefpersoon	proefpersonen proefpersoon
+58	8458	kortstondig	kortstondige kortstondig
+59	8459	kwal	kwal kwallen
+60	8460	barbaars	barbaarse barbaars
+61	8461	bewandelen	bewandelen bewandeld bewandelt bewandel bewandelde
+62	8462	ananas	ananas ananassen
+63	8463	improvisatie	improvisatie improvisaties
+64	8464	kubus	kubus kubussen
+65	8465	afdekken	afgedekt afdekken afdekt afgedekte afdek
+66	8466	schoonzoon	schoonzoon schoonzonen schoonzoons
+67	8467	aansprakelijkheid	aansprakelijkheid aansprakelijkheden
+68	8468	veter	veters veter
+69	8469	sfeervol	sfeervolle sfeervol
+70	8470	bederven	bedorven bederven bederf bederft bedierf
+71	8471	prijsuitreiking	prijsuitreiking prijsuitreikingen
+72	8472	shampoo	shampoo shampoos
+73	8473	stimulans	stimulans stimulansen stimulantia
+74	8474	zot	zot zotte zotten zotste zotter
+75	8475	vastlopen	vastgelopen vastlopen vastloopt vastliep vastliepen
+76	8476	achtereenvolgend	achtereenvolgende achtereenvolgend
+77	8477	lantaarn	lantaarn lantaarns lantaarntje
+78	8478	meelopen	meelopen meegelopen meeloopt meeloop meeliep meelopende meeliepen
+79	8479	cactus	cactus cactussen
+80	8480	integer	integer integere
+81	8481	cabaretier	cabaretier cabaretiers cabaretière
+82	8482	kleuterschool	kleuterschool kleuterscholen
+83	8483	lekkage	lekkage lekkages
+84	8484	voorzorg	voorzorg voorzorgen
+85	8485	sportvereniging	sportvereniging sportverenigingen
+86	8486	verrukkelijk	verrukkelijk verrukkelijke
+87	8487	vroom	vrome vroom vromen vromer
+88	8488	bovennatuurlijk	bovennatuurlijke bovennatuurlijk bovennatuurlijks
+89	8489	ambtelijk	ambtelijke ambtelijk
+90	8490	parameter	parameters parameter
+91	8491	verdraaien	verdraaien verdraait verdraaide verdraai
+92	8492	tekortkoming	tekortkomingen tekortkoming
+93	8493	bezem	bezem bezems
+94	8494	bumper	bumper bumpers
+95	8495	inruilen	ingeruild inruilen inruilde inruilt
+96	8496	aantocht	aantocht
+97	8497	bet	bet
+98	8498	bovenal	bovenal
+99	8499	citadel	citadel
+100	8500	daarnet	daarnet

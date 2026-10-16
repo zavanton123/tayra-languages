@@ -1,0 +1,100 @@
+1	4601	afhandelen	afgehandeld afhandelen afhandelt afgehandelde afhandelde
+2	4602	visserij	visserij visserijen
+3	4603	woest	woest woeste woester
+4	4604	heks	heks heksen heksje
+5	4605	fictie	fictie ficties
+6	4606	solliciteren	solliciteren solliciteer gesolliciteerd solliciteert solliciteerde solliciteerden
+7	4607	civiel	civiele civiel
+8	4608	zombie	zombie zombies
+9	4609	volkslied	volkslied volksliederen volksliedje volksliedjes
+10	4610	opinie	opinie opinies
+11	4611	uitputten	uitgeput uitputtend uitputten uitputtende uitput
+12	4612	raadsel	raadsel raadsels raadseltje raadselen raadseltjes
+13	4613	afgelegen	afgelegen
+14	4614	alvorens	alvorens
+15	4615	ikzelf	ikzelf
+16	4616	jazeker	jazeker
+17	4617	magie	magie
+18	4618	natuurkunde	natuurkunde
+19	4619	snoep	snoep
+20	4620	solidariteit	solidariteit
+21	4621	uitstel	uitstel
+22	4622	uzelf	uzelf
+23	4623	vasteland	vasteland
+24	4624	vastgoed	vastgoed
+25	4625	waanzin	waanzin
+26	4626	dictatuur	dictatuur dictaturen
+27	4627	onbeperkt	onbeperkt onbeperkte
+28	4628	allerbest	allerbeste allerbest allerbesten
+29	4629	clown	clown clowns clowntje
+30	4630	voorschrift	voorschriften voorschrift
+31	4631	kanon	kanon kanonnen kanons
+32	4632	juf	juf juffen juffie
+33	4633	hop	hop hoppen hoppe hopt gehopt hopje
+34	4634	onvermijdelijk	onvermijdelijk onvermijdelijke
+35	4635	leverancier	leverancier leveranciers
+36	4636	sprint	sprint sprinten sprintje sprints sprintte gesprint
+37	4637	benodigd	benodigde benodigd
+38	4638	uitwisseling	uitwisseling uitwisselingen
+39	4639	inkoop	inkoop inkopen ingekocht inkoopt inkocht
+40	4640	politiebureau	politiebureau politiebureaus
+41	4641	genereren	genereren gegenereerd genereert genereerde gegenereerde genereer genereerden
+42	4642	oneindig	oneindig oneindige
+43	4643	systematisch	systematisch systematische
+44	4644	bloei	bloei bloeit bloeien bloeide bloeiend bloeiden gebloeid
+45	4645	ruimtelijk	ruimtelijke ruimtelijk ruimtelijker
+46	4646	lidstaat	lidstaten lidstaat
+47	4647	nakomen	nakomen nagekomen nakomt nakwam nakwamen
+48	4648	bruikbaar	bruikbaar bruikbare bruikbaars bruikbaarder
+49	4649	pistool	pistool pistolen pistooltje
+50	4650	stikken	stikken gestikt stik stikt stikte stikten stikke
+51	4651	alias	alias aliassen
+52	4652	soepel	soepel soepele soepeler soepeltjes soepelere
+53	4653	compensatie	compensatie compensaties
+54	4654	gunst	gunste gunst gunsten
+55	4655	letsel	letsel letsels
+56	4656	loper	loper lopers
+57	4657	radar	radar radars
+58	4658	emmer	emmer emmers emmertje
+59	4659	ontkomen	ontkomen ontkomt ontkwam ontkom ontkwamen
+60	4660	walvis	walvis walvissen
+61	4661	terroristisch	terroristische terroristisch
+62	4662	ongemak	ongemak ongemakken
+63	4663	evacueren	geëvacueerd evacueren evacueerden evacueerde evacueert
+64	4664	zuiveren	zuiveren zuivere gezuiverd zuivert gezuiverde zuiverend zuiverde zuiverende
+65	4665	evenwicht	evenwicht evenwichten
+66	4666	genade	genade genaden
+67	4667	bundelen	bundelen gebundeld bundelt gebundelde bundelden bundelde
+68	4668	goor	gore goor goorste goors
+69	4669	strijken	strijken strijk strijkt gestreken streken
+70	4670	onveilig	onveilig onveilige onveiliger onveiligste
+71	4671	kapitaal	kapitaal kapitale kapitalen
+72	4672	theoretisch	theoretisch theoretische
+73	4673	verbaal	verbaal verbale verbalen
+74	4674	vrijgezel	vrijgezel vrijgezellen vrijgezelle
+75	4675	analist	analist analisten
+76	4676	assortiment	assortiment sortiment
+77	4677	dialect	dialect dialecten dialekt
+78	4678	preek	preek preken preekt gepreekt preekte
+79	4679	associëren	geassocieerd associëren associeert geassocieerde associeer associeerde associeerden
+80	4680	ontvanger	ontvanger ontvangers
+81	4681	alsook	alsook
+82	4682	eerlijkheid	eerlijkheid
+83	4683	gps	gps
+84	4684	halt	halt
+85	4685	mi	mi
+86	4686	overkant	overkant
+87	4687	voorlichting	voorlichting
+88	4688	etappe	etappe etappes etappen
+89	4689	kam	kam kammen gekamd kamt kammetje kamde
+90	4690	vuist	vuist vuisten vuistje
+91	4691	accu	accu accu's
+92	4692	baksteen	baksteen bakstenen
+93	4693	hacker	hackers hacker
+94	4694	doop	doop dope dopen doopte doopt doopten
+95	4695	afwezig	afwezig afwezige afwezigen
+96	4696	puinhoop	puinhoop puinhopen
+97	4697	spectrum	spectrum spectra
+98	4698	getuigenis	getuigenis getuigenissen
+99	4699	uithalen	uithalen uitgehaald uithaalt uithaal uithaalde uithaalden
+100	4700	postcode	postcode postcodes

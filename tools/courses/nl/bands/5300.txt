@@ -1,0 +1,100 @@
+1	5201	beogen	beoogde beoogd beoogt beogen beogende beoogden
+2	5202	afschaffing	afschaffing
+3	5203	ballingschap	ballingschap
+4	5204	buitenwereld	buitenwereld
+5	5205	dikwijls	dikwijls
+6	5206	drinkwater	drinkwater
+7	5207	genot	genot
+8	5208	inflatie	inflatie
+9	5209	morgenavond	morgenavond
+10	5210	speed	speed
+11	5211	wei	wei
+12	5212	onvergetelijk	onvergetelijke onvergetelijk
+13	5213	apotheek	apotheek apotheken
+14	5214	bui	bui buien buitje buitjes
+15	5215	motorfiets	motorfiets motorfietsen
+16	5216	routine	routine routines
+17	5217	huiselijk	huiselijk huiselijke huiselijker
+18	5218	handschrift	handschrift handschriften
+19	5219	wenkbrauw	wenkbrauwen wenkbrauw
+20	5220	stick	stick sticks
+21	5221	waterschap	waterschap waterschappen
+22	5222	experimenteren	experimenteren geëxperimenteerd experimenteert experimenteerde experimenteerden experimenteer
+23	5223	resterend	resterende resterend
+24	5224	catalogus	catalogus catalogi catalogussen
+25	5225	bijl	bijl bijlen bijltje
+26	5226	vijandig	vijandige vijandig vijandiger
+27	5227	strook	strook stroken strookt stroke strookje strookte strookten
+28	5228	felicitatie	felicitaties felicitatie
+29	5229	passief	passief passieve
+30	5230	indelen	ingedeeld indelen ingedeelde indeelt
+31	5231	spoken	spoken spook spookt spookte spookje spoke spookten
+32	5232	step	step steps
+33	5233	aankijken	aankijken aankijkt aangekeken aankeek aankijk aankeken
+34	5234	verpakking	verpakking verpakkingen
+35	5235	consumptie	consumptie consumpties
+36	5236	diesel	diesel diesels
+37	5237	identificatie	identificatie identificaties
+38	5238	acuut	acute acuut
+39	5239	onthulling	onthulling onthullingen
+40	5240	kerncentrale	kerncentrale kerncentrales
+41	5241	kerkelijk	kerkelijke kerkelijk
+42	5242	nieuwsbericht	nieuwsbericht nieuwsberichten
+43	5243	optimistisch	optimistisch optimistische optimistischer
+44	5244	zaterdagavond	zaterdagavond zaterdagavonden
+45	5245	fietspad	fietspad fietspaden
+46	5246	worm	worm wormen wurm wormpjes wormpje
+47	5247	inbouwen	ingebouwd ingebouwde inbouwen inbouwt
+48	5248	postzegel	postzegels postzegel
+49	5249	bloeden	bloeden bloedt bloedend bloedende bloedde bloeit bloeien bloede gebloed bloeide
+50	5250	rechterlijk	rechterlijke rechterlijk
+51	5251	strik	strik strikken strikte strikje gestrikt
+52	5252	drager	drager dragers draagster draagsters
+53	5253	indirect	indirect indirecte
+54	5254	toneelstuk	toneelstuk toneelstukken toneelstukje toneelstukjes
+55	5255	knooppunt	knooppunt knooppunten
+56	5256	vuurwapen	vuurwapen vuurwapens
+57	5257	initiatiefnemer	initiatiefnemers initiatiefnemer
+58	5258	formuleren	formuleren geformuleerd geformuleerde formuleert formuleerde formuleer formuleerden
+59	5259	toekomen	toekomt toekomen toegekomen toekwam toekwamen toekom
+60	5260	overhalen	overhalen overgehaald overhaalde overhaalt overhaal overhaald overhaalden
+61	5261	binnenkant	binnenkant binnenkanten
+62	5262	ladder	ladder ladders
+63	5263	afkorting	afkorting afkortingen
+64	5264	tattoo	tattoo tattoos
+65	5265	econoom	econoom economen
+66	5266	demonstrant	demonstranten demonstrant
+67	5267	venster	venster vensters venstertje venstertjes
+68	5268	sensor	sensoren sensor sensors
+69	5269	presidentsverkiezing	presidentsverkiezingen presidentsverkiezing
+70	5270	bedrog	bedrog
+71	5271	daglicht	daglicht
+72	5272	eenzaamheid	eenzaamheid
+73	5273	eenzelfde	eenzelfde
+74	5274	ondergoed	ondergoed
+75	5275	tegendeel	tegendeel
+76	5276	verzorging	verzorging
+77	5277	óf	óf
+78	5278	elektronica	elektronica electronica
+79	5279	verkondigen	verkondigen verkondigd verkondigde verkondigt verkondig verkondigden
+80	5280	bikini	bikini bikini's
+81	5281	socialist	socialisten socialist socialiste
+82	5282	zwaan	zwaan zwanen zwaantje zwaantjes
+83	5283	bewoond	bewoond bewoonde
+84	5284	promoveren	gepromoveerd promoveren promoveerde promoveert gepromoveerde promoveerden promoveer
+85	5285	royaal	royale royaal
+86	5286	viool	viool violen viooltjes viooltje
+87	5287	geloofwaardig	geloofwaardig geloofwaardige geloofwaardiger
+88	5288	stempel	stempel stempels stempeltjes
+89	5289	broederschap	broederschap broederschappen
+90	5290	brouwerij	brouwerij brouwerijen
+91	5291	etage	etage etages
+92	5292	woordenboek	woordenboek woordenboeken
+93	5293	snor	snor snorren snorretje snort snorrende snorre
+94	5294	onderwijzer	onderwijzer onderwijzers onderwijzeres onderwijzeressen
+95	5295	racen	racen geracet racet racete raceten racende
+96	5296	doorgang	doorgang doorgangen
+97	5297	beklimmen	beklimmen beklommen beklimt beklom beklim
+98	5298	manschap	manschappen manschap
+99	5299	coördineren	coördineren gecoördineerd gecoördineerde coördineert coördinerend coördineerde coördineer coördineerden
+100	5300	woerd	woerden woerd

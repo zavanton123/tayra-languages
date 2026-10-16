@@ -1,0 +1,100 @@
+1	9001	puberteit	puberteit
+2	9002	rechtdoor	rechtdoor
+3	9003	solide	solide
+4	9004	staatsblad	staatsblad
+5	9005	vijftiende	vijftiende
+6	9006	voorgrond	voorgrond
+7	9007	vrijdagmiddag	vrijdagmiddag
+8	9008	vrijdagochtend	vrijdagochtend
+9	9009	zakgeld	zakgeld
+10	9010	bandiet	bandieten bandiet
+11	9011	parachute	parachute parachutes
+12	9012	uitvoerder	uitvoerder uitvoerders
+13	9013	kwast	kwast kwasten kwastje
+14	9014	bloedvat	bloedvaten bloedvat
+15	9015	schots	schots schotse
+16	9016	zijlijn	zijlijn zijlijnen
+17	9017	vangst	vangst vangsten
+18	9018	bommenwerper	bommenwerpers bommenwerper
+19	9019	fascist	fascisten fascist
+20	9020	bemiddelen	bemiddelen bemiddelt bemiddeld bemiddelde bemiddelende bemiddel
+21	9021	speelveld	speelveld speelvelden speelveldje
+22	9022	antropoloog	antropoloog antropologen
+23	9023	bijenkorf	bijenkorf bijenkorven
+24	9024	zweep	zweep zwepen zweepje zweepjes zweept
+25	9025	beschermer	beschermer beschermers beschermster
+26	9026	rank	rank ranken ranke ranks rankt gerankt
+27	9027	adelen	adele adelt
+28	9028	excellentie	excellentie excellenties
+29	9029	receptioniste	receptioniste receptionist receptionistes
+30	9030	boswachter	boswachter boswachters
+31	9031	kampvuur	kampvuur kampvuren kampvuurtje
+32	9032	stereotype	stereotype stereotypen stereotypes
+33	9033	rekenkamer	rekenkamer rekenkamers
+34	9034	nieuweling	nieuwelingen nieuweling
+35	9035	defensief	defensieve defensief
+36	9036	sculptuur	sculptuur sculpturen
+37	9037	oldtimer	oldtimer oldtimers
+38	9038	plechtigheid	plechtigheid plechtigheden
+39	9039	uitstralen	uitstralen uitstraalt uitstraalde uitgestraald uitstralende uitgestraalde uitstralend uitstraalden
+40	9040	circuleren	circuleren circuleert circulerende circuleerde gecirculeerd circuleerden circulerend
+41	9041	anekdote	anekdotes anekdote anekdoten
+42	9042	romance	romance romances
+43	9043	toegangspoort	toegangspoort toegangspoorten
+44	9044	industrieterrein	industrieterrein industrieterreinen
+45	9045	crematorium	crematorium crematoria
+46	9046	badpak	badpak badpakken
+47	9047	golfen	golfen golft golfe gegolft
+48	9048	kruistocht	kruistocht kruistochten
+49	9049	rondkijken	rondkijken rondgekeken rondkijk rondkijkt rondkeek
+50	9050	vaandel	vaandel vaandels
+51	9051	omkeren	omkeren omkeert omkeer omkeerde
+52	9052	marien	mariene marien
+53	9053	planner	planner planners
+54	9054	beul	beul beulen
+55	9055	manga	manga manga's
+56	9056	migraine	migraine migraines
+57	9057	initiaal	initialen initiaal initiale
+58	9058	bouwmateriaal	bouwmaterialen bouwmateriaal
+59	9059	stembureau	stembureau stembureaus
+60	9060	ruimtestation	ruimtestation ruimtestations
+61	9061	kinderboerderij	kinderboerderij kinderboerderijen
+62	9062	ondenkbaar	ondenkbaar ondenkbare
+63	9063	bedroefd	bedroefd bedroefde
+64	9064	uitwijken	uitwijken uitgeweken uitwijk uitweek uitwijkt
+65	9065	mascara	mascara mascara's
+66	9066	bijles	bijles bijlessen
+67	9067	zogezegd	zogezegd zogezegde
+68	9068	schilderachtig	schilderachtige schilderachtig
+69	9069	vrijgezellenfeest	vrijgezellenfeest vrijgezellenfeestje vrijgezellenfeesten
+70	9070	gers	gers gerst
+71	9071	zool	zool zolen
+72	9072	overtollig	overtollige overtollig
+73	9073	doolhof	doolhof doolhoven
+74	9074	arrestatiebevel	arrestatiebevel arrestatiebevelen
+75	9075	bazaar	bazaar bazaars
+76	9076	vermakelijk	vermakelijk vermakelijke vermakelijker
+77	9077	stelselmatig	stelselmatig stelselmatige
+78	9078	medestander	medestanders medestander
+79	9079	onderhandelaar	onderhandelaar onderhandelaars
+80	9080	beletten	beletten belet belette
+81	9081	probleemloos	probleemloos probleemloze
+82	9082	badminton	badminton
+83	9083	beroeps	beroeps
+84	9084	broccoli	broccoli
+85	9085	chalet	chalet
+86	9086	firewall	firewall
+87	9087	geschut	geschut
+88	9088	immer	immer
+89	9089	jasmijn	jasmijn
+90	9090	jus	jus
+91	9091	luchtdruk	luchtdruk
+92	9092	overmacht	overmacht
+93	9093	penthouse	penthouse
+94	9094	plasma	plasma
+95	9095	sociologie	sociologie
+96	9096	telecommunicatie	telecommunicatie
+97	9097	thuiskomst	thuiskomst
+98	9098	verlossing	verlossing
+99	9099	verveling	verveling
+100	9100	oksel	oksels oksel

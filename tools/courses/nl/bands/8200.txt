@@ -1,0 +1,100 @@
+1	8101	analytisch	analytische analytisch
+2	8102	verankeren	verankerd verankeren verankerde verankert veranker
+3	8103	eb	eb ebbe
+4	8104	these	these thesis thesen
+5	8105	gorilla	gorilla gorilla's
+6	8106	juffrouw	juffrouw juffrouwen
+7	8107	afwijzing	afwijzing afwijzingen
+8	8108	vaartuig	vaartuig vaartuigen
+9	8109	kerkdienst	kerkdiensten kerkdienst
+10	8110	voelbaar	voelbaar voelbare
+11	8111	kramp	kramp krampen
+12	8112	wankelen	wankelen wankel wankelt wankele wankelde wankelend
+13	8113	skaten	skaten skate skates
+14	8114	toesturen	toegestuurd toesturen toestuurt toestuurde
+15	8115	bootsen	boots bootsen bootst bootste
+16	8116	knul	knul knulletje knullen
+17	8117	consul	consul consuls
+18	8118	afstammeling	afstammelingen afstammeling
+19	8119	uitbesteden	uitbesteden uitbesteed
+20	8120	nachtdienst	nachtdienst nachtdiensten
+21	8121	meetellen	meetelt meegeteld meetellen meetelde
+22	8122	tegengestelde	tegengestelde tegengestelden
+23	8123	afro	afro
+24	8124	archipel	archipel
+25	8125	authenticiteit	authenticiteit
+26	8126	dakloos	dakloos
+27	8127	doorzettingsvermogen	doorzettingsvermogen
+28	8128	eruitziet	eruitziet
+29	8129	ger	ger
+30	8130	godzijdank	godzijdank
+31	8131	grondwater	grondwater
+32	8132	jihadist	jihadisten
+33	8133	ju	ju
+34	8134	maandagochtend	maandagochtend
+35	8135	openbaarheid	openbaarheid
+36	8136	opheldering	opheldering
+37	8137	pasgeboren	pasgeboren
+38	8138	ruis	ruis
+39	8139	stikstof	stikstof
+40	8140	tuinbouw	tuinbouw
+41	8141	uitbuiting	uitbuiting
+42	8142	vacuüm	vacuüm
+43	8143	vermoeidheid	vermoeidheid
+44	8144	verpleging	verpleging
+45	8145	voorin	voorin
+46	8146	weldra	weldra
+47	8147	zeewater	zeewater
+48	8148	pijnstiller	pijnstillers pijnstiller
+49	8149	statisch	statische statisch
+50	8150	beëdigen	beëdigd beëdigde beëdigen
+51	8151	abrupt	abrupt abrupte
+52	8152	inzetbaar	inzetbaar inzetbare
+53	8153	voorschot	voorschot voorschotten voorschotje
+54	8154	mango	mango mango's
+55	8155	verzending	verzending verzendingen
+56	8156	bordeel	bordeel bordelen
+57	8157	medemens	medemens medemensen
+58	8158	knol	knol knollen knolletjes
+59	8159	wolkenkrabber	wolkenkrabber wolkenkrabbers
+60	8160	woonruimte	woonruimte woonruimtes woonruimten
+61	8161	aandrijving	aandrijving aandrijvingen
+62	8162	hagedis	hagedis hagedissen hagedisjes
+63	8163	traumatisch	traumatische traumatisch
+64	8164	moedertaal	moedertaal moedertalen
+65	8165	verbijsterd	verbijsterd verbijsterde
+66	8166	ongesteld	ongesteld ongestelde
+67	8167	franchise	franchise franchises
+68	8168	kwalificeren	kwalificeren kwalificeert kwalificeerde kwalificeerden kwalificerende
+69	8169	openstaan	openstaan openstaat openstond openstaand openstonden
+70	8170	vervagen	vervagen vervaagt vervaagd vervaagde vervaagden vervagende vervaag
+71	8171	saldo	saldo saldi
+72	8172	stadscentrum	stadscentrum stadscentra
+73	8173	herenhuis	herenhuis herenhuizen
+74	8174	kosmisch	kosmische kosmisch
+75	8175	profetie	profetie profetieën
+76	8176	mediteren	mediteren mediteert mediteer gemediteerd mediteerde mediterende mediterend
+77	8177	terminaal	terminale terminaal
+78	8178	uitlenen	uitgeleend uitlenen uitleen uitleent uitgeleende uitleende
+79	8179	verslavend	verslavend verslavender
+80	8180	schitteren	schitteren schittert schitterde schitter schitterden
+81	8181	dikte	dikte diktes
+82	8182	zuipen	zuipen zoop zuipt gezopen zuip zuipende
+83	8183	rondhangen	rondhangen rondhangt rondgehangen rondhing rondhingen
+84	8184	hotspot	hotspot hotspots
+85	8185	sanitair	sanitair sanitaire
+86	8186	onderwijsinstelling	onderwijsinstellingen onderwijsinstelling
+87	8187	voorbijgaan	voorbijgaan voorbijgaat voorbijgegaan voorbijgaand voorbijging voorbijgingen
+88	8188	verslechteren	verslechterd verslechteren verslechtert verslechterde verslechterden
+89	8189	ontgaan	ontgaan ontgaat ontging
+90	8190	valuta	valuta valuta's
+91	8191	zeehond	zeehonden zeehond zeehondje
+92	8192	speeldag	speeldag speeldagen
+93	8193	bouwvakker	bouwvakkers bouwvakker
+94	8194	nap	nap napjes
+95	8195	gamer	gamers gamer
+96	8196	sterken	sterken gesterkt sterke sterkt sterkten
+97	8197	hitlijst	hitlijsten hitlijst
+98	8198	gretig	gretig gretige gretiger
+99	8199	autopsie	autopsie autopsies
+100	8200	moordzaak	moordzaak moordzaken

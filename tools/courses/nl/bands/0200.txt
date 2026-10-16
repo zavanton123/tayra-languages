@@ -1,0 +1,100 @@
+1	101	blijven	blijven blijft blijf bleef gebleven bleven blijvende blijvend blijve blijvends
+2	102	alle	alle allen
+3	103	toch	toch tog
+4	104	daar	daar
+5	105	mee	mee hiermee
+6	106	volgen	volgende volgen volgt volg gevolgd volgde volgend volgden volge volgends
+7	107	kijken	kijk kijken kijkt keek gekeken kijkje keken kijkend kijkende kieken
+8	108	zij	zij zijden zijdes
+9	109	zoals	zoals zooals
+10	110	mogen	mag mogen mocht mochten moge gemogen moogt mochte
+11	111	vrouw	vrouw vrouwen vrouwtje vrouwtjes vrouwke vrouws
+12	112	iets	iets
+13	113	omdat	omdat
+14	114	toen	toen
+15	115	werken	werken werkt werkte gewerkt werkten werkend werke
+16	116	lang	lang lange langer langere langste langst langen
+17	117	hem	hem
+18	118	jullie	jullie
+19	119	tijdens	tijdens
+20	120	kind	kinderen kind kindje kinder kinders
+21	121	gebruiken	gebruikt gebruiken gebruikte gebruikten gebruike gebruikend
+22	122	tussen	tussen ertussen daartussen tusschen hiertussen waartussen
+23	123	gewoon	gewoon gewone gwn gewoner gewoonste gewoons
+24	124	altijd	altijd
+25	125	ja	ja jae jaha ja's
+26	126	wie	wie
+27	127	net	net netjes nette netten netter netje nets nettere netste
+28	128	mooi	mooi mooie mooiste mooier moois mooiere mooist mooiers
+29	129	waarom	waarom erom hierom wrm
+30	130	horen	horen hoor hoort gehoord hoorde hoorden horens gehoorde horend hore
+31	131	keer	keer keren keert keerde keertje gekeerd keerden kere keers
+32	132	uur	uur uren uurtje uurs uurke
+33	133	liggen	ligt liggen gelegen lag lagen lig liggend
+34	134	even	even eventjes ff effe effen evens
+35	135	alles	alles
+36	136	via	via
+37	137	oud	oude oud ouder oudere oudste ouderen ouwe oudsten oudst ouds
+38	138	af	af eraf daaraf hieraf waaraf
+39	139	terug	terug
+40	140	zonder	zonder
+41	141	land	land landen geland landt lands landje landde lande landden lant
+42	142	weg	weg wegen weegt woog weeg gewogen wege wogen weggetje weegs
+43	143	beginnen	beginnen begon begint begonnen beginnend beginne begonne
+44	144	snel	snel sneller snelle snelste snellere snelst snels snelsten
+45	145	zoeken	zoek zoeken zoekt gezocht zocht zochten gezochte zoekend zoeke
+46	146	weinig	minder weinig min minste minst weinige mindere weinigen minderen minne
+47	147	steeds	steeds
+48	148	foto	foto foto's fotootje
+49	149	verschil	verschillende verschil verschillen verschillend verschilt verschilde verschilden verschild verschille
+50	150	zorgen	zorgen zorg zorgt zorgde gezorgd zorgden zorge zorgend
+51	151	eigen	eigen eigenste eigens eigener
+52	152	dood	dood doden gedood dode doodde doodt doods doodden dooie gedode
+53	153	iemand	iemand iemands
+54	154	iedereen	iedereen iedereens
+55	155	klein	kleine klein kleiner kleinere kleinste kleins kleinst kleinsten kleiners
+56	156	huis	huis huizen huisje huize huist huizes huisde huisden
+57	157	vallen	valt vallen val viel gevallen vielen valse vals valle vallend
+58	158	brengen	brengen brengt gebracht bracht breng brachten brengend
+59	159	elk	elke elk
+60	160	erg	erg erger ergste erge ergere ergst ergs errug ergers ergen
+61	161	binnen	binnen waarbinnen daarbinnen hierbinnen erbinnen
+62	162	graag	graag liever liefst liefste lievere grage liefsten
+63	163	werk	werk werkje
+64	164	spelen	spelen speelt gespeeld speelde speel speelden gespeelde spelend spele
+65	165	uw	uw uwen
+66	166	naam	naam namen name
+67	167	lopen	lopen loopt loop liep gelopen liepen lopende lopend loopje lope
+68	168	week	week weken weekje weeks weke geweekt weekt wekend weker geweekte
+69	169	lijken	lijkt lijken leek lijk leken lijkende lijkend geleken lijke leker
+70	170	leuk	leuk leuke leukste leuker leuks leukst leukere leukers
+71	171	nooit	nooit
+72	172	laatst	laatste laatst lest
+73	173	zetten	zetten zet gezet zette gezette zetje zett zettend
+74	174	stad	stad steden stadje stede stade steed staden staad
+75	175	vriend	vrienden vriend vriendin vriendje vriendinnen vriendjes vriendinnetje vriends vrind
+76	176	drie	drie drieën drietjes drij drietje
+77	177	aantal	aantal aantallen
+78	178	zelf	zelf zelven zelluf
+79	179	helpen	helpen helpt help geholpen hielp hielpen helpende helpe helpend hellup
+80	180	plaats	plaats plaatse plaatsje
+81	181	samen	samen
+82	182	nodig	nodig nodige noodig noodige
+83	183	toe	toe waartoe hiertoe
+84	184	elkaar	elkaar elkaars
+85	185	belangrijk	belangrijk belangrijke belangrijkste belangrijker belangrijks belangrijkere belangrijkst belangrijkers
+86	186	deel	deel deeltjes deeltje
+87	187	lezen	lezen lees gelezen las leest lassen lazen lasse gelast lezend
+88	188	vanaf	vanaf ervanaf
+89	189	want	want wanten wantje
+90	190	stellen	stellen stel stelt gesteld stelde stelletje stelden stelten stelle stellend
+91	191	misschien	misschien miss mischien mss
+92	192	zeker	zeker zekere zekers zekerder zekerste
+93	193	allemaal	allemaal
+94	194	probleem	probleem problemen probleempje
+95	195	enkel	enkele enkel enkelen enkels enkeltje enkeltjes
+96	196	hoog	hoge hoog hoger hoogste hogere hoogst hogers hoogs
+97	197	rond	rond ronde rondje ronden rondjes rondes rondt rondde ronder daarrond
+98	198	volgens	volgens
+99	199	eten	eten eet at gegeten etentje aten ate etentjes etend ete
+100	200	vaak	vaak vaker vaakst

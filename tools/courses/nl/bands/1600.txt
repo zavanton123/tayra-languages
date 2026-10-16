@@ -1,0 +1,100 @@
+1	1501	professor	professor professoren professors
+2	1502	daarop	daarop hierop
+3	1503	behulp	behulp
+4	1504	term	term termen
+5	1505	stadion	stadion stadions
+6	1506	kont	kont kontje konten
+7	1507	uitzenden	uitgezonden uitzenden uitzendt uitzond uitzend uitzonden uitzendende
+8	1508	geregeld	geregeld geregelde
+9	1509	timen	time getimed timen getimede
+10	1510	ploeg	ploeg ploegen ploegje geploegd ploegt ploegde
+11	1511	betekenis	betekenis betekenissen beteekenis
+12	1512	zwanger	zwanger zwangere zwangeren
+13	1513	gevecht	gevecht gevechten
+14	1514	karakter	karakter karakters
+15	1515	bibliotheek	bibliotheek bibliotheken bieb
+16	1516	ontsnappen	ontsnappen ontsnapt ontsnapte ontsnapten ontsnap ontsnappende
+17	1517	wild	wild wilders wilder wildste wilds wildere
+18	1518	date	date dates
+19	1519	kwestie	kwestie kwesties
+20	1520	zetel	zetels zetel zeteltje
+21	1521	status	status statussen
+22	1522	kader	kader kaders kadertje
+23	1523	sfeer	sfeer sferen sfeertje
+24	1524	gent	gent genten
+25	1525	deelnemen	deelnemen deelgenomen deelnam deelnamen deelneemt deelnemend deelneem
+26	1526	manager	manager managers
+27	1527	ineens	ineens
+28	1528	overigens	overigens
+29	1529	verboden	verboden
+30	1530	oor	oren oor oortjes oortje
+31	1531	race	race races
+32	1532	aanvraag	aanvraag aanvragen aangevraagd aangevraagde aanvraagt aanvroeg aanvroegen
+33	1533	vijand	vijand vijanden vijands
+34	1534	docent	docent docenten docente
+35	1535	profiel	profiel profielen profieltje
+36	1536	recept	recept recepten receptjes receptje
+37	1537	mevrouw	mevrouw mevrouwtje mevrouwen
+38	1538	nadenken	nadenken nagedacht nadenkt nadenk nadacht nadenkend nadachten nadenkende
+39	1539	neus	neus neuzen neusje neust neuze geneusd
+40	1540	klagen	klagen klaagt klaagde geklaagd klaag klaagden klagende klagend klage kloeg
+41	1541	winst	winst winsten
+42	1542	terrein	terrein terreinen
+43	1543	hof	hof hoven hofje hofke
+44	1544	onderstaand	onderstaande onderstaand
+45	1545	kanaal	kanaal kanalen kanaaltje
+46	1546	girl	girl girls
+47	1547	overig	overige overig
+48	1548	handel	handel handels handeltje
+49	1549	begraven	begraven begraaft begroef begroeven begraaf
+50	1550	aanleiding	aanleiding aanleidingen
+51	1551	theorie	theorie theorieën
+52	1552	opmerking	opmerking opmerkingen
+53	1553	praktijk	praktijk praktijken
+54	1554	vrolijk	vrolijk vrolijke vrolijker vrolijkste vrolijks vrolijkere vroolijk
+55	1555	industrie	industrie industrieën
+56	1556	appartement	appartement appartementen appartementje
+57	1557	tevreden	tevreden tevree tevredener
+58	1558	teveel	teveel
+59	1559	uiteraard	uiteraard
+60	1560	spannend	spannend spannende spannender spannendste spannends
+61	1561	opbouwen	opgebouwd opbouwen opbouw opgebouwde opbouwende opbouwt opbouwend opbouwde opbouwden
+62	1562	vermoeden	vermoeden vermoed vermoedt vermoedde vermoedens vermoedden vermoede vermoedend vermoedende
+63	1563	verdedigen	verdedigen verdedigt verdedigd verdedigde verdedig verdedigend verdedigden
+64	1564	reeks	reeks reeksen
+65	1565	tegenstander	tegenstander tegenstanders
+66	1566	verwachting	verwachting verwachtingen
+67	1567	geschikt	geschikt geschikte geschikter geschiktere geschikts geschiktste geschiktst
+68	1568	opening	opening openingen
+69	1569	begrip	begrip begrippen
+70	1570	milieu	milieu milieus
+71	1571	voort	voort vort
+72	1572	concept	concept concepten
+73	1573	voorlopig	voorlopig voorlopige
+74	1574	dreigen	dreigt dreigde dreigen dreigende dreigden dreigend gedreigd dreig dreigender
+75	1575	apparaat	apparaten apparaat apparaatje apparaatjes
+76	1576	relatief	relatief relatieve
+77	1577	uitmaken	uitmaken uitmaakt uitgemaakt uitmaakte uitmaakten uitmakend uitmaak uitmakende
+78	1578	etten	et etten etje ette
+79	1579	studio	studio studio's
+80	1580	specifiek	specifieke specifiek specifieker specifieks specifiekere
+81	1581	hectare	ha hectare hectaren hectares
+82	1582	nat	nat natte natter natste nats nattere natje
+83	1583	daarin	daarin
+84	1584	erover	erover
+85	1585	rondom	rondom
+86	1586	vooruit	vooruit
+87	1587	meemaken	meegemaakt meemaken meemaakt meemaakte meemaak meemaakten
+88	1588	big	big biggen biggetje
+89	1589	alsjeblieft	alsjeblieft asjeblieft
+90	1590	ophalen	ophalen opgehaald ophaalt ophaal ophaalde opgehaalde ophaalden
+91	1591	scoren	scoren scoorde scoort gescoord scoorden scoor scorende scorend gescoorde
+92	1592	maximaal	maximaal maximale
+93	1593	acteur	acteur actrice acteurs actrices
+94	1594	gisterenavond	gisteravond gisterenavond
+95	1595	behalen	behalen behaald behaalde behaalt behaalden behaal
+96	1596	instantie	instantie instanties
+97	1597	haven	haven havens haventje haventjes
+98	1598	cd	cd cd's
+99	1599	gezamenlijk	gezamenlijke gezamenlijk
+100	1600	schreeuwen	schreeuwen schreeuwt schreeuwde schreeuw schreeuwend schreeuwden geschreeuwd

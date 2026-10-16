@@ -1,0 +1,100 @@
+1	701	lokaal	lokale lokaal lokalen lokaaltje
+2	702	interessant	interessant interessante interessanter interessants interessantste interessantere interessantst
+3	703	live	live lives
+4	704	ruimte	ruimte ruimtes ruimten
+5	705	rustig	rustig rustige rustiger rustigere rustigste
+6	706	militair	militaire militairen militair
+7	707	bos	bos bosch bossen bosje bosse bost boske bosten
+8	708	wapen	wapen wapens wapenen wapent
+9	709	maat	maat mate maten maatje maatjes maats
+10	710	dagelijks	dagelijks dagelijkse
+11	711	grens	grens grenzen grenst grenzend grenzende grensde grenze grensden
+12	712	eindelijk	eindelijk eindelijke
+13	713	bovendien	bovendien
+14	714	ergens	ergens
+15	715	on	on
+16	716	mogelijkheid	mogelijkheid mogelijkheden
+17	717	trouwen	trouwen trouw trouwde trouwe trouwt trouwden trouwste getrouwden trouwer
+18	718	brief	brief brieven briefje briefjes
+19	719	aarde	aarde aard aert aarden geaard aardes aardt
+20	720	hoogte	hoogte hoogtes hoogten
+21	721	gooien	gooien gooi gegooid gooit gooide gooiden gegooide gooie
+22	722	schat	schat schatje schatten geschat schatte
+23	723	bepalen	bepalen bepaalde bepaalt bepaal bepalend bepaalden
+24	724	tegenwoordig	tegenwoordig tegenwoordige
+25	725	schip	schip schepen schepenen scheepje scheepte scheept scheepten
+26	726	oplossing	oplossing oplossingen
+27	727	start	start starts
+28	728	bergen	bergen berg borg borgen geborgen berge geborgd bergt borgt bergje
+29	729	schrijver	schrijver schrijvers schrijfster schrijfsters schrijvertje
+30	730	wakker	wakker wakkere
+31	731	warm	warm warme warmer warmste warmere warms warmst warmers
+32	732	bus	bus bussen busje buste bust bustes busse
+33	733	daarnaast	daarnaast
+34	734	ondanks	ondanks
+35	735	overleden	overleden
+36	736	merk	merk merken merkt merkte gemerkt merkten merck merke merkje merkjes
+37	737	noordoost	no noordoost
+38	738	beschikbaar	beschikbaar beschikbare
+39	739	zondag	zondag zondagen zondags zondagse
+40	740	letten	let letten gelet lette lettend
+41	741	verwijderen	verwijderd verwijderen verwijder verwijdert verwijderde verwijderden
+42	742	breken	breken gebroken brak breekt breek braken braak brakke brake brekend
+43	743	zomer	zomer zomers zomerse
+44	744	verkiezing	verkiezingen verkiezing
+45	745	vrijdag	vrijdag vrijdagen vrijdags vrijdagse
+46	746	blog	blog blogs blogje blogjes
+47	747	markt	markt markten marktje
+48	748	hotel	hotel hotels hotelletje
+49	749	lijn	lijn lijnen lijntje lijnden gelijnd lijnt
+50	750	onderwerp	onderwerp onderwerpen onderworpen onderwerpt onderwierp onderwierpen
+51	751	gelden	geldt gold gelden golden geldend gegolden golde gelde
+52	752	eeuw	eeuw eeuwen
+53	753	acht	acht achtsten achtjes
+54	754	ie	ie
+55	755	medewerker	medewerkers medewerker medewerkster medewerksters
+56	756	vliegen	vliegen vliegt vlieg vloog gevlogen vlogen vliegend vliegje
+57	757	cultuur	cultuur culturen kultuur
+58	758	zeven	zeven zeef gezeefd zevenen gezeefde zeeft zeuven
+59	759	helft	helft helften
+60	760	voetbal	voetbal voetballen gevoetbald voetbalde voetbalt voetballend voetbalden
+61	761	energie	energie energieën
+62	762	sorry	sorry
+63	763	waarde	waarde waarden waardes
+64	764	test	test testen getest tests testte geteste testten testje teste
+65	765	functie	functie functies
+66	766	dik	dikke dik dikker dikkere dikste diks dikst dikkers
+67	767	bevinden	bevindt bevinden bevonden bevond bevind bevindend
+68	768	gezin	gezin gezinnen gezinnetje
+69	769	wijk	wijk wijken wijkt geweken wijkje wyck wijkende weke weekt
+70	770	rij	rij rijen rijtje rijtjes rijt rije
+71	771	post	post posten gepost posts postte poste postje geposte postten
+72	772	fiets	fiets fietsen fietst fietste gefietst fietsend fietsten fietsje fietsjes fietse
+73	773	optreden	optreden optredens opgetreden optreedt optrad optraden optreed optredend optrede
+74	774	stil	stil stille stilletjes stiller stillen stilste gestild stillere stilt
+75	775	ontmoeten	ontmoet ontmoeten ontmoette ontmoetten ontmoete
+76	776	boos	boos boze boost bozer bozen
+77	777	winnaar	winnaar winnaars winnares winnaressen
+78	778	vroeger	vroeger vroegah vroegâh
+79	779	dankzij	dankzij
+80	780	west	west
+81	781	eisen	eisen eist eis eiste geëist eisten eisende eise geëiste eisden
+82	782	dienen	dienen dient diende gediend dienden dienend diene dien gediende
+83	783	groeien	groeien groeit groeide gegroeid groeiend groeiden gegroeide
+84	784	starten	gestart starten startte startten startende gestarte startend starte
+85	785	tweet	tweets tweet tweetje
+86	786	kennis	kennis kennissen kennisje
+87	787	radio	radio radio's
+88	788	lachen	lachen lach lacht gelachen lachte lachend lachten lachje lachtte lache
+89	789	kunst	kunst kunsten kunstje kunstjes konst
+90	790	meid	meid meiden meiske meisie
+91	791	muur	muur muren moer muurtje moeren muurtjes moertje moere moertjes
+92	792	park	park parken parkje
+93	793	invloed	invloed invloeden
+94	794	diep	diep diepe dieper diepste diepere diepst diepers
+95	795	collega	collega's collega collegae collegaatje
+96	796	positief	positieve positief positiever positiefs positieven positievere
+97	797	trein	trein treinen treintje
+98	798	zon	zon zonnetje zonne zonnen zonden
+99	799	boom	boom bomen boompje boomen booms
+100	800	schuld	schuld schulden

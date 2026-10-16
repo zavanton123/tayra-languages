@@ -1,0 +1,100 @@
+1	4101	terreur	terreur
+2	4102	tevoorschijn	tevoorschijn
+3	4103	wars	wars
+4	4104	zowat	zowat
+5	4105	salon	salon salons
+6	4106	microfoon	microfoon microfoons microfoontje microfoontjes
+7	4107	intiem	intieme intiem intiemer intiemste intiemere intiems
+8	4108	protesteren	protesteren protesteerde protesteert protesteerden geprotesteerd protesterende protesteer
+9	4109	ingenieur	ingenieur ingenieurs
+10	4110	fusie	fusie fusies
+11	4111	hoofdrol	hoofdrol hoofdrollen
+12	4112	defect	defect defecte defecten
+13	4113	dictator	dictator dictators
+14	4114	frustratie	frustratie frustraties
+15	4115	referentie	referentie referenties
+16	4116	uitrusting	uitrusting uitrustingen
+17	4117	vernieuwing	vernieuwing vernieuwingen
+18	4118	ingrediënt	ingrediënten ingrediënt
+19	4119	uitgang	uitgang uitgangen
+20	4120	mengen	mengen mengt meng mengde mengden menge
+21	4121	ijzer	ijzer ijzers
+22	4122	close	close closer closest closes
+23	4123	ego	ego ego's
+24	4124	voorouder	voorouders voorouder voorouderen
+25	4125	inheemse	inheemse inheemsen
+26	4126	functioneel	functioneel functionele functioneler
+27	4127	tiende	tiende tienden
+28	4128	doorvoeren	doorgevoerd doorvoeren doorvoer doorvoert doorvoerde
+29	4129	onderschatten	onderschat onderschatten onderschatte
+30	4130	chatten	chatten gechat chatte
+31	4131	demonstreren	demonstreren gedemonstreerd demonstreerden demonstreert demonstreerde demonstreer
+32	4132	oppikken	opgepikt oppikken oppikt oppikte oppikten
+33	4133	schaatsen	schaatsen schaats geschaatst schaatst schaatste schaatsende schaatsten
+34	4134	betreden	betreden betreedt betrad betraden betreed
+35	4135	rolstoel	rolstoel rolstoelen
+36	4136	overbodig	overbodig overbodige
+37	4137	handelaar	handelaar handelaren handelaars
+38	4138	gering	geringe gering geringste geringer geringere
+39	4139	bedriegen	bedriegen bedrogen bedriegt bedroog bedrieg bedriegende
+40	4140	orkaan	orkaan orkanen
+41	4141	vervanger	vervanger vervangers
+42	4142	vrijkomen	vrijkomt vrijgekomen vrijkomen vrijkwam vrijkomende vrijkom vrijkwamen
+43	4143	absurd	absurd absurde absurder absurds
+44	4144	stadhuis	stadhuis stadhuizen
+45	4145	wereldkampioen	wereldkampioen wereldkampioene wereldkampioenen
+46	4146	uitdrukken	uitgedrukt uitdrukken uitdrukt uitdrukte uitgedrukte uitdruk uitdrukten
+47	4147	buitenlander	buitenlanders buitenlander
+48	4148	gewest	gewest gewesten
+49	4149	kopiëren	kopiëren gekopieerd kopieer kopieert gekopieerde kopieerde kopieerden
+50	4150	ongemakkelijk	ongemakkelijk ongemakkelijke ongemakkelijker
+51	4151	overstappen	overstappen overgestapt overstapt overstapte overstapten
+52	4152	uitvinden	uitgevonden uitvinden uitvond uitvindt uitvonden
+53	4153	premie	premie premies
+54	4154	vlot	vlot vlotte vlotter vlotten vlottere vlotters
+55	4155	afspelen	afspelen afgespeeld afspeelde afspeel afspeelden afgespeelde
+56	4156	vernemen	vernomen vernam vernemen verneemt verneem vernamen
+57	4157	plaag	plaag plagen geplaagd plaagt plage geplaagde plaagde plaagden plagend
+58	4158	balk	balk balken balkje balkjes balkt
+59	4159	voorkant	voorkant voorkanten
+60	4160	balkon	balkon balkons balkonnetje
+61	4161	parlementair	parlementaire parlementair parlementairen
+62	4162	vorming	vorming vormingen
+63	4163	inhalen	inhalen ingehaald inhaalt inhaal inhaalde inhaalden
+64	4164	onderst	onderste onderst
+65	4165	opblazen	opgeblazen opblazen opblaas opbliezen opblaast opblies
+66	4166	cyclus	cyclus cycli cyclussen
+67	4167	verdubbelen	verdubbeld verdubbelen verdubbelt verdubbelde verdubbel verdubbelden
+68	4168	doeleinde	doeleinden doeleinde
+69	4169	belastingdienst	belastingdienst belastingdiensten
+70	4170	omschrijving	omschrijving omschrijvingen
+71	4171	comfortabel	comfortabel comfortabele comfortabeler comfortabelere
+72	4172	telefonisch	telefonisch telefonische
+73	4173	dosis	dosis doses dosissen
+74	4174	achterin	achterin
+75	4175	billen	billen
+76	4176	christendom	christendom
+77	4177	eerbetoon	eerbetoon
+78	4178	middeleeuwen	middeleeuwen
+79	4179	zestien	zestien
+80	4180	smeren	smeren smeer gesmeerd smeert smeerde gesmeerde smeerden smerende
+81	4181	nabestaande	nabestaanden nabestaande
+82	4182	verticaal	verticale verticaal verticalen
+83	4183	vernederen	vernederd vernederen vernederend vernederende vernedert vernederde verneder vernederden
+84	4184	bijnaam	bijnaam bijnamen
+85	4185	neiging	neiging neigingen
+86	4186	standbeeld	standbeeld standbeelden standbeeldje
+87	4187	kapper	kapper kappers kapster kappertje kapsters
+88	4188	affaire	affaire affaires
+89	4189	reet	reet reetje reten
+90	4190	bont	bont bonte bontje bontes bonter
+91	4191	grondstof	grondstoffen grondstof
+92	4192	ontwikkelaar	ontwikkelaar ontwikkelaars
+93	4193	beroemdheid	beroemdheden beroemdheid
+94	4194	ongekend	ongekende ongekend
+95	4195	kweken	kweken gekweekt kweek kweekt gekweekte kweekte kweekten
+96	4196	vulkaan	vulkaan vulkanen
+97	4197	meubel	meubels meubelen meubel
+98	4198	afwijkend	afwijkende afwijkend afwijkends
+99	4199	karakteristiek	karakteristieke karakteristiek karakteristieken
+100	4200	doodstraf	doodstraf doodstraffen

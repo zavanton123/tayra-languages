@@ -1,0 +1,100 @@
+1	8901	nietwaar	nietwaar
+2	8902	ondersteboven	ondersteboven
+3	8903	ongedierte	ongedierte
+4	8904	overmorgen	overmorgen
+5	8905	ramadan	ramadan
+6	8906	schoonvader	schoonvader
+7	8907	vandalisme	vandalisme
+8	8908	vegan	vegan
+9	8909	vredesnaam	vredesnaam
+10	8910	winterstop	winterstop
+11	8911	wout	wout
+12	8912	wrok	wrok
+13	8913	gisterenmiddag	gistermiddag gisterenmiddag
+14	8914	golfclub	golfclub golfclubs
+15	8915	onnatuurlijk	onnatuurlijk onnatuurlijke
+16	8916	witwassen	witwassen witgewassen witwas
+17	8917	doelgericht	doelgericht doelgerichte doelgerichter
+18	8918	aftrap	aftrap aftrappen
+19	8919	institutioneel	institutionele institutioneel
+20	8920	halo	halo halo's
+21	8921	diskwalificeren	gediskwalificeerd diskwalificeren diskwalificeert
+22	8922	biecht	biecht biechten biechtte gebiecht
+23	8923	griffier	griffier griffiers
+24	8924	steenkool	steenkool steenkolen
+25	8925	wachtkamer	wachtkamer wachtkamers
+26	8926	oprukken	oprukken oprukkende opgerukt oprukt oprukten oprukte oprukkend
+27	8927	ordenen	geordend ordenen ordent orden
+28	8928	deugdelijk	deugdelijk deugdelijke
+29	8929	implantaat	implantaat implantaten
+30	8930	bekering	bekering bekeringen
+31	8931	verrijzen	verrijzen verrezen verrijst verrees
+32	8932	gamen	gamen gamet
+33	8933	doortrekken	doortrekken doorgetrokken doortrokken doortrekt doortrok doortrek
+34	8934	fysiotherapeut	fysiotherapeut fysiotherapeuten fysiotherapeute
+35	8935	manege	manege maneges
+36	8936	reptiel	reptielen reptiel
+37	8937	verhullen	verhullen verhuld verhullende verhult verhulde verhullend
+38	8938	dampen	dampen damp dampend
+39	8939	ooievaar	ooievaar ooievaars
+40	8940	brandpunt	brandpunt brandpunten
+41	8941	pedaal	pedaal pedalen
+42	8942	piepklein	piepkleine piepklein
+43	8943	zwaluw	zwaluw zwaluwen
+44	8944	oppositiepartij	oppositiepartijen oppositiepartij
+45	8945	vaderlands	vaderlands vaderlandse
+46	8946	portfolio	portfolio portfolio's
+47	8947	gemaskerd	gemaskerde gemaskerd
+48	8948	steenberg	steenbergen steenberg
+49	8949	kantoorruimte	kantoorruimte kantoorruimten kantoorruimtes
+50	8950	gluren	gluren gluurt gluur gluurde glurende
+51	8951	grondrecht	grondrechten grondrecht
+52	8952	vijfjarig	vijfjarige vijfjarig vijfjarigen
+53	8953	rijkelijk	rijkelijk rijkelijke
+54	8954	drukwerk	drukwerk drukwerken
+55	8955	verontwaardigen	verontwaardigd verontwaardigde verontwaardigt
+56	8956	rommelen	rommelen rommelt rommelde gerommeld rommelende rommelend
+57	8957	tentamen	tentamen tentamens
+58	8958	sinaasappel	sinaasappel sinaasappels sinaasappelen
+59	8959	huwelijksreis	huwelijksreis huwelijksreizen
+60	8960	uitdragen	uitdragen uitgedragen uitdraagt uitdroeg
+61	8961	boeket	boeket boeketten boeketje
+62	8962	typerend	typerend typerende
+63	8963	corpus	corpus corpora
+64	8964	topclub	topclub topclubs
+65	8965	wekenlang	wekenlang wekenlange
+66	8966	hees	hees hese heest
+67	8967	telefoneren	telefoneren telefoneert getelefoneerd telefoneerde telefoneer
+68	8968	seksleven	seksleven sexleven
+69	8969	dreigement	dreigementen dreigement
+70	8970	ordinair	ordinaire ordinair
+71	8971	komma	komma komma's
+72	8972	improviseren	improviseren geïmproviseerd improviseert improviseerde improviserende improviserend improviseerden improviseer
+73	8973	zamelen	zamelen zamelt zamelde zamelden
+74	8974	fouilleren	fouilleren gefouilleerd
+75	8975	heimelijk	heimelijk heimelijke
+76	8976	fuseren	fuseren gefuseerd fuseerde fuseerden fuseert gefuseerde fuserende
+77	8977	geestig	geestig geestige
+78	8978	zegevieren	zegevieren zegeviert zegevierde gezegevierd zegevierend zegevierden
+79	8979	omrekenen	omgerekend omrekenen omrekent
+80	8980	vervoerder	vervoerder vervoerders
+81	8981	ijsberen	ijsberen ijsbeer
+82	8982	werktuig	werktuigen werktuig
+83	8983	bekrachtigen	bekrachtigd bekrachtigen bekrachtigt bekrachtigde
+84	8984	aar	aar aartje aren
+85	8985	rendabel	rendabel rendabele rendabeler
+86	8986	dynamo	dynamo dynamo's
+87	8987	kortsluiting	kortsluiting kortsluitingen
+88	8988	achttiende	achttiende
+89	8989	afhangt	afhangt
+90	8990	azijn	azijn
+91	8991	bovenzijde	bovenzijde
+92	8992	cavalerie	cavalerie
+93	8993	driehonderd	driehonderd
+94	8994	elektra	elektra
+95	8995	fysiotherapie	fysiotherapie
+96	8996	havermout	havermout
+97	8997	hoogstens	hoogstens
+98	8998	houvast	houvast
+99	8999	legio	legio
+100	9000	liberalisme	liberalisme

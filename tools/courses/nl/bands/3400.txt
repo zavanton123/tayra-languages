@@ -1,0 +1,100 @@
+1	3301	lef	lef
+2	3302	meent	meent
+3	3303	wraak	wraak
+4	3304	zestig	zestig
+5	3305	helikopter	helikopter helikopters
+6	3306	kwijtraken	kwijtgeraakt kwijtraken kwijtraakt kwijtraakte kwijtraakten kwijtraak
+7	3307	dapper	dapper dappere dapperste dapperder dappersten
+8	3308	voltooid	voltooid voltooide
+9	3309	doodschieten	doodgeschoten doodschieten doodschoot doodschiet doodschoten
+10	3310	zwangerschap	zwangerschap zwangerschappen
+11	3311	gsm	gsm gsm's
+12	3312	bewonderen	bewonderen bewonder bewonderd bewonderde bewondert bewonderend bewonderden
+13	3313	innovatief	innovatieve innovatief innovatiever
+14	3314	level	level levels
+15	3315	raadslid	raadslid raadsleden
+16	3316	index	index indices indexen
+17	3317	plots	plots plotse
+18	3318	bundel	bundel bundels bundeltje bundeltjes
+19	3319	activeren	geactiveerd activeren activeert activeer geactiveerde activeerde activerend activerende
+20	3320	opvoeden	opgevoed opvoeden opvoedt opvoed opvoedde opvoedende opvoedden opvoedend
+21	3321	herhaling	herhaling herhalingen
+22	3322	lust	lust lusten lustte
+23	3323	goal	goals goal goaltje
+24	3324	keuren	keuren keurt keur keurde gekeurd keurden keure gekeurde
+25	3325	verbreken	verbroken verbreken verbreekt verbrak verbreek verbraken
+26	3326	onjuist	onjuist onjuiste
+27	3327	oversteken	oversteken oversteek overgestoken overstak oversteekt overstaken overstekend
+28	3328	chronisch	chronische chronisch
+29	3329	column	column columns
+30	3330	intensief	intensieve intensief intensiever intensievere
+31	3331	werkdag	werkdag werkdagen
+32	3332	divisie	divisie divisies
+33	3333	kelder	kelder kelders
+34	3334	gerelateerd	gerelateerd gerelateerde
+35	3335	solo	solo solo's soli
+36	3336	fragment	fragment fragmenten fragmentje
+37	3337	samenstelling	samenstelling samenstellingen
+38	3338	worstelen	worstelen worstelt worstel worstelde geworsteld worstelden worstelend worstelende
+39	3339	scheren	scheren geschoren scheer scheert schoor schoren scheerde schore scheerden
+40	3340	casino	casino casino's
+41	3341	moedig	moedig moedige moediger moedigste
+42	3342	insect	insecten insect insekt
+43	3343	terechtkomen	terechtgekomen terechtkomen terechtkomt terechtkwam terechtkwamen
+44	3344	oever	oever oevers
+45	3345	rap	rap rappers raps rappe
+46	3346	ridder	ridder ridders
+47	3347	ram	ram rammen geramd ramde ramt ooi ooien ramden
+48	3348	federatie	federatie fed federaties
+49	3349	gebruikmaken	gebruikmaken gebruikgemaakt gebruikmaakt gebruikmakend gebruikmaakte gebruikmaakten
+50	3350	gids	gids gidsen gidsje gidst gidste
+51	3351	wijsheid	wijsheid wijsheden
+52	3352	verlichten	verlichten verlicht verlichte verlichtte verlichtend verlichtende verlichtten verlichter
+53	3353	toespraak	toespraak toespraken toespraakje
+54	3354	verspillen	verspillen verspild verspilt verspil verspilde verspillend
+55	3355	misdrijf	misdrijf misdrijven
+56	3356	enthousiasme	enthousiasme
+57	3357	have	have
+58	3358	verwerven	verworven verwerven verwierf verwerft verwierven verwerf
+59	3359	verzenden	verzonden verzenden verzend verzendt verzond verzendende
+60	3360	beoordeling	beoordeling beoordelingen
+61	3361	strafbaar	strafbaar strafbare strafbaars
+62	3362	topper	toppers topper toppertje toppertjes
+63	3363	bezitting	bezittingen bezitting
+64	3364	bescheiden	bescheiden bescheidener bescheid
+65	3365	criterium	criteria criterium criteriums
+66	3366	racistisch	racistische racistisch
+67	3367	look	look looks
+68	3368	sluiting	sluiting sluitingen
+69	3369	claimen	claim claimen claimt geclaimd claimde geclaimde claimden
+70	3370	uitvallen	uitgevallen uitvallen uitval uitvalt uitviel uitvielen uitvallende
+71	3371	versterking	versterking versterkingen
+72	3372	motivatie	motivatie motivaties
+73	3373	opletten	opletten opgelet oplet oplettend oplette
+74	3374	pre	pre pré prae
+75	3375	afmaken	afmaken afgemaakt afmaakte afmaakt afmaak afmaakten
+76	3376	verkrachting	verkrachting verkrachtingen
+77	3377	guy	guy guys
+78	3378	verbouwen	verbouwen verbouwd verbouw verbouwde verbouwt verbouwden
+79	3379	illustratie	illustraties illustratie
+80	3380	spoedig	spoedig spoedige
+81	3381	waarnemen	waarnemend waargenomen waarnemen waarneemt waarnam waarneem waarnamen
+82	3382	verward	verward verwarde verwarder
+83	3383	hanteren	hanteert hanteren gehanteerd hanteerde hanteer hanteerden
+84	3384	camping	camping campings
+85	3385	belonen	beloond belonen beloont beloon beloonde beloonden belonend
+86	3386	kostbaar	kostbare kostbaar kostbaarste kostbaarder kostbaars
+87	3387	gebed	gebed gebeden gebedje gebeds
+88	3388	balen	balen bale baal baalt baalde balend gebaald
+89	3389	reserve	reserve reserves reserven
+90	3390	verpleegkundige	verpleegkundige verpleegkundigen
+91	3391	uniform	uniform uniformen uniforme uniforms
+92	3392	bevriend	bevriend bevriende
+93	3393	pompen	pompen pomp gepompt pompt pompje pompe pompte pompten pompende pompend
+94	3394	uploaden	uploaden upload geüpload geupload uploads uploadde uploadt geuploade
+95	3395	volhouden	volhouden volgehouden volhoudt volhoud volhield volhou volhielden volhoudend
+96	3396	minderheid	minderheid minderheden
+97	3397	toestaan	toestaan toestaat toestond toestonden
+98	3398	onderhandelen	onderhandelen onderhandeld onderhandelt onderhandelde onderhandel onderhandelden
+99	3399	bondgenoot	bondgenoten bondgenoot bondgenote
+100	3400	bovenst	bovenste

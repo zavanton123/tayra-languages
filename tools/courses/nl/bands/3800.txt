@@ -1,0 +1,100 @@
+1	3701	psycholoog	psycholoog psychologen psychologe
+2	3702	dief	dieven dief dievegge diefje
+3	3703	genre	genre genres
+4	3704	aanschaf	aangeschaft aanschaf aanschaffen aanschaft aangeschafte aanschafte aanschaften
+5	3705	overwinnen	overwinnen overwonnen overwint overwon overwin overwinnende
+6	3706	veelvuldig	veelvuldig veelvuldige veelvuldiger
+7	3707	inrichting	inrichting inrichtingen
+8	3708	hulpmiddel	hulpmiddelen hulpmiddel
+9	3709	afsluiting	afsluiting afsluitingen
+10	3710	behoeven	behoeve behoeft behoeven behoefde behoefden behoef
+11	3711	kist	kist kisten kistje
+12	3712	kenteken	kenteken kentekens kentekenen
+13	3713	sovjet	sovjet sovjets
+14	3714	beschuldiging	beschuldigingen beschuldiging
+15	3715	toneel	toneel tonele tooneel toneeltje tonelen
+16	3716	psychologisch	psychologische psychologisch
+17	3717	majoor	majoor majoors
+18	3718	diamant	diamant diamanten diamantjes diamantje
+19	3719	firma	firma firma's
+20	3720	satelliet	satelliet satellieten
+21	3721	tape	tape tapes
+22	3722	volgorde	volgorde volgordes
+23	3723	schuilen	schuilt schuilen schuil schuilde schuilden geschuild schuilend schole schoolt
+24	3724	verwijten	verwijten verwijt verweten verweet verwijtend
+25	3725	mishandelen	mishandeld mishandelde mishandelen mishandelt mishandelden mishandelende
+26	3726	benzine	benzine
+27	3727	dertien	dertien
+28	3728	huh	huh
+29	3729	pech	pech
+30	3730	tevoren	tevoren
+31	3731	atelier	atelier ateliers
+32	3732	eend	eend eenden eendje eendjes
+33	3733	hilarisch	hilarisch hilarische
+34	3734	container	container containers
+35	3735	storing	storing storingen
+36	3736	blessure	blessure blessures
+37	3737	kit	kit kitten kittens kits kitt gekit
+38	3738	kraken	kraken gekraakt kraak kraakt kraakte krakende gekraakte krakend krake kraakten
+39	3739	verzetten	verzetten verzette
+40	3740	surfen	surfen surf surft gesurft surfte
+41	3741	kooi	kooi kooien kooitje gekooide gekooid kooitjes kouw
+42	3742	oven	oven ovens oventje
+43	3743	strikt	strikt strikte striktere strikter striktste
+44	3744	wissen	wissen wis gewist wist wisse wisten wiste
+45	3745	pink	pink pinken pinkt
+46	3746	première	première premières
+47	3747	ecologisch	ecologische ecologisch
+48	3748	onzekerheid	onzekerheid onzekerheden
+49	3749	faculteit	faculteit faculteiten
+50	3750	verhoging	verhoging verhogingen
+51	3751	zakenman	zakenman zakenvrouw zakenlui zakenlieden zakenmannen zakenvrouwen
+52	3752	motiveren	gemotiveerd motiveren motiverend motiveert motiveerde motiverende motiveer motiveerden gemotiveerder
+53	3753	versnellen	versnellen versneld versnelde versnelt versnel versnellende versnelden versnellend
+54	3754	khan	khan khans
+55	3755	bijbehorend	bijbehorende bijbehorend
+56	3756	gepaard	gepaard gepaarde
+57	3757	outfit	outfit outfits outfitje
+58	3758	gewijd	gewijd gewijde
+59	3759	jaap	jaap japen
+60	3760	eindeloos	eindeloos eindeloze
+61	3761	daaropvolgend	daaropvolgende daaropvolgend
+62	3762	verstrekken	verstrekken verstrekt verstrekte verstrekkende verstrek verstrekkend verstrekten
+63	3763	beroven	beroofd beroven berooft beroofde beroofden beroof
+64	3764	bisschop	bisschop bisschoppen bisschops
+65	3765	aangedaan	aangedaan aangedane
+66	3766	bagage	bagage
+67	3767	bravo	bravo
+68	3768	finish	finish
+69	3769	mensenrechten	mensenrechten
+70	3770	nadien	nadien
+71	3771	volksgezondheid	volksgezondheid
+72	3772	wedden	wedden wed wedde gewed wedje wedt
+73	3773	jubileum	jubileum jubilea jubileums
+74	3774	mentaal	mentale mentaal
+75	3775	onrecht	onrechte onrecht
+76	3776	zinloos	zinloos zinloze zinlozer
+77	3777	vertragen	vertragen vertraagd vertraagde vertraagt vertraag vertraagden vertragende vertragend
+78	3778	schetsen	schetsen schets schetst geschetst schetste geschetste schetsten
+79	3779	attractie	attractie attracties
+80	3780	uitdelen	uitdelen uitgedeeld uitdeelde uitdeelt uitdeelden uitgedeelde
+81	3781	eenmalig	eenmalig eenmalige eenmaligs
+82	3782	kolonie	kolonie koloniën kolonies
+83	3783	douchen	douchen gedoucht douch doucht douchte doest
+84	3784	vegen	vegen veeg geveegd veegt veegde vege veger veegden vegers
+85	3785	laarzen	laarzen laars gelaarsde laarsje
+86	3786	verwonding	verwondingen verwonding
+87	3787	paradijs	paradijs paradijsje paradijzen
+88	3788	woonkamer	woonkamer woonkamers
+89	3789	vrijdagavond	vrijdagavond vrijdagavonden
+90	3790	uitkiezen	uitgekozen uitkiezen uitkiest uitkoos uitkies uitkozen
+91	3791	aanvoer	aangevoerd aanvoer aanvoeren aanvoert aangevoerde aanvoerde aanvoerden aanvoerende
+92	3792	stichten	stichten gesticht stichtte sticht stichtten gestichten stichtend
+93	3793	irritant	irritant irritante irritanter irri irritantste
+94	3794	nucleair	nucleaire nucleair
+95	3795	slank	slank slanke slanker slankere
+96	3796	onderbreken	onderbroken onderbreken onderbreekt onderbrak onderbreek onderbraken onderbrekende
+97	3797	hoofdpijn	hoofdpijn hoofdpijnen
+98	3798	gebaar	gebaar gebaren gebaard gebaarde gebaart
+99	3799	sieraad	sieraden sieraad
+100	3800	echtpaar	echtpaar echtparen

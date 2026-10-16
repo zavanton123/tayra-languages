@@ -1,0 +1,100 @@
+1	3101	nut	nut nuts nutter nutte
+2	3102	beveiligen	beveiligd beveiligde beveiligen beveiligt beveilig
+3	3103	bonus	bonus bonussen boni
+4	3104	eenzaam	eenzame eenzaam eenzamer eenzamen eenzaamste
+5	3105	overdag	overdag overdags
+6	3106	hap	hapje hap happen hapt hapte gehapt happend
+7	3107	hoed	hoed hoeden hoedje hoedt hoedde gehoed
+8	3108	fit	fit fitter fitte fits fitste fitters
+9	3109	database	database databases
+10	3110	apparatuur	apparatuur
+11	3111	hekel	hekel
+12	3112	inzake	inzake
+13	3113	mijzelf	mijzelf
+14	3114	zesde	zesde
+15	3115	zuidoost	zuidoost
+16	3116	bekendmaken	bekendgemaakt bekendmaken bekendmaakte bekendmaakt bekendmaakten
+17	3117	ontwerper	ontwerper ontwerpers
+18	3118	rellen	rellen rel relletje rellende
+19	3119	politieagent	politieagent politieagenten politieagente
+20	3120	opslaan	opgeslagen opslaan opslaat opsloeg opsloegen
+21	3121	webcam	webcam webcams
+22	3122	song	song songs
+23	3123	concentreren	concentreren geconcentreerd concentreert concentreerde concentreer concentreerden geconcentreerder
+24	3124	vlekken	vlekken vlek vlekjes vlekje gevlekte gevlekt vlekt
+25	3125	spits	spits spitsen spitse gespitst spitst spitste spitser
+26	3126	brein	brein breinen
+27	3127	neutraal	neutraal neutrale neutraler neutralere
+28	3128	bezitten	bezitten bezat bezeten bezaten bezittend
+29	3129	kaal	kale kaal kaler
+30	3130	vlam	vlam vlammen vlammend vlammetje vlamt vlammetjes vlamde
+31	3131	serveren	serveren geserveerd serveert serveer serveerde serveerden geserveerde
+32	3132	formeel	formele formeel formeler formelere
+33	3133	kring	kring kringen kringetje
+34	3134	toeristisch	toeristische toeristisch
+35	3135	doof	doof dove doven dover gedoofd dooft doofde doofden gedoofde
+36	3136	terugtrekken	terugtrekken teruggetrokken terugtrekt terugtrokken terugtrok terugtrekkende terugtrekkend terugtrek
+37	3137	videoclip	videoclip videoclips
+38	3138	verbranden	verbranden verbrandt verbrande verbrandde verbrandden
+39	3139	omgekeerd	omgekeerd omgekeerde
+40	3140	migrant	migranten migrant
+41	3141	grot	grot grotten grotje
+42	3142	inhuren	ingehuurd inhuren inhuur inhuurt inhuurde inhuurden
+43	3143	virtueel	virtuele virtueel
+44	3144	oppositie	oppositie opposities
+45	3145	benadering	benadering benaderingen
+46	3146	kwetsen	kwetsen gekwetst kwetst kwetsend kwetsende kwets kwetste
+47	3147	aangifte	aangifte aangiften aangiftes
+48	3148	verlengd	verlengd verlengde
+49	3149	achteraf	achteraf
+50	3150	desondanks	desondanks
+51	3151	diens	diens
+52	3152	doorgaans	doorgaans
+53	3153	eredivisie	eredivisie
+54	3154	neerslag	neerslag
+55	3155	oprichting	oprichting
+56	3156	porno	porno
+57	3157	research	research
+58	3158	verderop	verderop
+59	3159	verspreiding	verspreiding
+60	3160	fotograferen	fotograferen gefotografeerd fotografeerde fotografeert fotografeer gefotografeerde fotografeerden
+61	3161	uitsluiten	uitgesloten uitsluiten uitsluit uitsloot uitsloten
+62	3162	terras	terras terrassen terrasje terrasjes
+63	3163	olifant	olifant olifanten olifantje
+64	3164	lesbisch	lesbische lesbisch
+65	3165	tegenhouden	tegenhouden tegengehouden tegenhoudt tegenhield tegenhoud tegenhielden
+66	3166	buis	buis buizen buisje gebuisd buist
+67	3167	nationaliteit	nationaliteit nationaliteiten
+68	3168	trio	trio triootje trio's
+69	3169	plank	plank planken plankje
+70	3170	raket	raket raketten raketje raketjes
+71	3171	scenario	scenario scenario's
+72	3172	voorgaan	voorgaande voorgaan voorgegaan voorgaand voorgaat voorgingen voorging voorgaanden
+73	3173	zodanig	zodanig zodanige
+74	3174	piano	piano piano's
+75	3175	tool	tools tool tooltje
+76	3176	gunstig	gunstig gunstige gunstiger gunstigste gunstigere gunstigst
+77	3177	liefhebber	liefhebbers liefhebber liefhebster
+78	3178	noteren	genoteerd noteer noteren noteert noteerde genoteerde noteerden
+79	3179	tja	tja tsja
+80	3180	dirk	dirk dirkje dirken
+81	3181	regeling	regeling regelingen
+82	3182	primair	primaire primair
+83	3183	etnisch	etnische etnisch
+84	3184	besmetten	besmet besmette besmetten
+85	3185	feestelijk	feestelijke feestelijk feestelijker feestelijks
+86	3186	legaal	legaal legale
+87	3187	maandelijks	maandelijkse maandelijks
+88	3188	zonnepaneel	zonnepanelen zonnepaneel
+89	3189	vereisen	vereist vereisen vereisten
+90	3190	plukken	plukken geplukt pluk plukt plukte plukje plukjes plukten geplukte
+91	3191	foundation	foundation foundations
+92	3192	cruciaal	cruciaal cruciale
+93	3193	huisdier	huisdier huisdieren huisdiertje
+94	3194	fraude	fraude fraudes
+95	3195	uiten	uiten geuit uitte uitten geuite uitend uitde
+96	3196	kamerlid	kamerlid kamerleden
+97	3197	heleboel	heleboel
+98	3198	invoering	invoering
+99	3199	klote	klote
+100	3200	neergeschoten	neergeschoten

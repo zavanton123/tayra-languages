@@ -1,0 +1,100 @@
+1	1801	huid	huid huiden huidje
+2	1802	uitnodigen	uitgenodigd uitnodigen uitnodigt uitnodigde uitnodigend uitgenodigde uitnodigende uitnodigden uitnodig
+3	1803	herhalen	herhalen herhaald herhaal herhaalde herhaalt herhalende herhaalden herhalend
+4	1804	zelfstandig	zelfstandig zelfstandige zelfstandiger
+5	1805	aanwezigheid	aanwezigheid
+6	1806	goedemorgen	goedemorgen
+7	1807	namens	namens
+8	1808	privé	privé
+9	1809	waarna	waarna
+10	1810	uitspreken	uitgesproken uitspreken uitspraken uitspreekt uitsprak uitspreek uitgesprokener
+11	1811	misdaad	misdaad misdaden
+12	1812	kijker	kijkers kijker
+13	1813	idioot	idioot idioten idiote
+14	1814	plein	plein pleinen pleintje pleintjes
+15	1815	sleutel	sleutel sleutels sleuteltje
+16	1816	job	job jobs jobke
+17	1817	conclusie	conclusie conclusies
+18	1818	aanbod	aanbod aanboden
+19	1819	religieus	religieuze religieus
+20	1820	kilogram	kilo kilogram kilogrammen
+21	1821	deelname	deelname deelnames
+22	1822	instituut	instituut instituten
+23	1823	commentaar	commentaar commentaren
+24	1824	aanmelden	aanmelden aangemeld aanmeldt aanmeld aanmeldde aangemelde aanmeldden
+25	1825	hemel	hemel hemelse hemels hemelen hemeltje
+26	1826	boerderij	boerderij boerderijen boerderijtje
+27	1827	gevoelig	gevoelig gevoelige gevoeliger gevoeligste gevoeligst gevoeligere
+28	1828	stimuleren	stimuleren gestimuleerd stimuleert stimulerende stimuleerde stimulerend stimuleer stimuleerden gestimuleerde
+29	1829	inspiratie	inspiratie inspiraties
+30	1830	blind	blind blinde blinden blinder blinders blinds
+31	1831	medaille	medaille medailles
+32	1832	sindsdien	sindsdien
+33	1833	wetenschapper	wetenschappers wetenschapper wetenschapster
+34	1834	chauffeur	chauffeur chauffeurs chauffeuse
+35	1835	vergroten	vergroten vergroot vergrote vergrootte vergrootten
+36	1836	lenen	lenen geleend leent leende leen leenden lene leenen leentje
+37	1837	uitvoering	uitvoering uitvoeringen
+38	1838	podium	podium podia podiums
+39	1839	instellen	ingesteld instellen instelt instelde
+40	1840	do	do do's
+41	1841	betrouwbaar	betrouwbare betrouwbaar betrouwbaarder betrouwbaarste betrouwbaardere
+42	1842	officier	officier officieren officiers
+43	1843	ijs	ijs ijsje ijsjes
+44	1844	dader	dader daders
+45	1845	zwembad	zwembad zwembaden zwembadje
+46	1846	constant	constant constante constanten constanter
+47	1847	visie	visie visies
+48	1848	klap	klap klappen klapt klapte geklapt klapten klappende klappe klapjes
+49	1849	werkelijkheid	werkelijkheid werkelijkheden
+50	1850	aspect	aspecten aspect
+51	1851	cursus	cursus cursussen cursusje
+52	1852	zaal	zaal zalen zaaltje zaaltjes
+53	1853	afnemen	afgenomen afnemen afname afneemt afnam afnemend afnamen afneem
+54	1854	bezorgen	bezorgen bezorgt bezorgde bezorg bezorgden
+55	1855	intern	interne intern internen interns
+56	1856	kim	kim kimmen
+57	1857	evenals	evenals
+58	1858	justitie	justitie
+59	1859	onlangs	onlangs
+60	1860	ideaal	ideale ideaal idealen
+61	1861	medicijn	medicijnen medicijn
+62	1862	toernooi	toernooi toernooien toernooitje
+63	1863	ontmoeting	ontmoeting ontmoetingen
+64	1864	voorstelling	voorstelling voorstellingen
+65	1865	uiterst	uiterst uiterste uitersten
+66	1866	effectief	effectief effectieve effectiever effectievere effectiefste effectiefst effectieven
+67	1867	belofte	belofte beloften beloftes
+68	1868	toegestaan	toegestaan toegestane
+69	1869	uiterlijk	uiterlijk uiterlijke
+70	1870	mol	mol molen molens mollen molde gemold molt molentje molle molletje
+71	1871	cup	cup cups
+72	1872	illegaal	illegaal illegale illegalen illegaals
+73	1873	borst	borst borsten
+74	1874	schrik	schrik schrikken schrok geschrokken schrikt schrokken schrikte
+75	1875	toegankelijk	toegankelijk toegankelijke toegankelijker
+76	1876	doos	doos dozen doosje doosjes
+77	1877	logo	logo logo's
+78	1878	vuil	vuil vuile vuiltje vuiler vuilste
+79	1879	emotie	emoties emotie
+80	1880	kip	kip kippen kippetje kipje
+81	1881	menen	meen menen meende gemeend meenden mene meenen
+82	1882	pand	pand panden pandje
+83	1883	afscheid	afscheid
+84	1884	benieuwd	benieuwd
+85	1885	qua	qua
+86	1886	congres	congres congressen
+87	1887	sms	sms sms'en sms'je smsje sms't sms'te
+88	1888	stom	stom stomme stoms stomste stommen stommer
+89	1889	achterlaten	achtergelaten achterlaten achterlaat achterliet achterlatend achterlieten
+90	1890	leeuw	leeuw leeuwen leeuwin leeuwinnen leeuwtje leeuwtjes
+91	1891	schelen	schelen scheelt scheelde scheel schele gescheeld
+92	1892	volwassene	volwassenen volwassene
+93	1893	handelen	handelen handelt gehandeld handelde handelden handelend
+94	1894	overleg	overleg overleggen overlegd overlegt overlegde overlegden overgelegd
+95	1895	joods	joodse joods
+96	1896	voorwerp	voorwerpen voorwerp
+97	1897	beperking	beperking beperkingen
+98	1898	uitzien	uitzien uitziet uitziende uitzag uitzie uitgezien uitzagen uitziend uitgezaagd
+99	1899	zender	zender zenders zendertje zendertjes
+100	1900	klimaat	klimaat klimaten

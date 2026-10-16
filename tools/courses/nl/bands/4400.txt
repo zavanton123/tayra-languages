@@ -1,0 +1,100 @@
+1	4301	yoga	yoga
+2	4302	waarneming	waarnemingen waarneming
+3	4303	handicap	handicap handicaps
+4	4304	ondervragen	ondervraagd ondervragen ondervraagden ondervraagde ondervraagt ondervroeg ondervroegen
+5	4305	bevalling	bevalling bevallingen
+6	4306	borrel	borrel borrels borreltje
+7	4307	rauw	rauwe rauw rauwer rauwere rauws
+8	4308	overstroming	overstromingen overstroming
+9	4309	pols	pols polsen gepolst polst polste
+10	4310	horizon	horizon horizons horizonten
+11	4311	misleiden	misleiden misleid misleidend misleidende misleidt misleide misleidde
+12	4312	opstelling	opstelling opstellingen
+13	4313	rommel	rommel rommeltje rommeltjes
+14	4314	levering	levering leveringen
+15	4315	filter	filter filters filtertje
+16	4316	geneesmiddel	geneesmiddel geneesmiddelen
+17	4317	kraan	kraan kranen kraantje
+18	4318	voorganger	voorganger voorgangers voorgangster voorgangsters
+19	4319	kil	killer kil kille killers killen
+20	4320	parade	parade parades
+21	4321	executie	executie executies
+22	4322	ep	ep ep's
+23	4323	overdracht	overdracht overdrachten
+24	4324	cola	cola colaatje cola's
+25	4325	poetsen	poetsen poets gepoetst poetst poetste gepoetste
+26	4326	donatie	donatie donaties
+27	4327	inkt	inkt inkten
+28	4328	verschuldigd	verschuldigd verschuldigde
+29	4329	eindstand	eindstand eindstanden
+30	4330	schiereiland	schiereiland schiereilanden schiereilandje
+31	4331	geografisch	geografische geografisch
+32	4332	parlementslid	parlementslid parlementsleden
+33	4333	motie	motie moties
+34	4334	kar	kar karretje karren
+35	4335	psychiatrisch	psychiatrische psychiatrisch
+36	4336	hecht	hecht hechte hechter hechtere
+37	4337	gift	gift giften gifts
+38	4338	stroming	stroming stromingen
+39	4339	afbeelden	afgebeeld afbeelden afgebeelde afbeeldt
+40	4340	achteraan	achteraan erachteraan
+41	4341	alert	alert alerte alerter alerts
+42	4342	loopbaan	loopbaan loopbanen
+43	4343	veiling	veiling veilingen
+44	4344	universitair	universitaire universitair
+45	4345	intelligentie	intelligentie intelligenties
+46	4346	uitreiken	uitgereikt uitreiken uitgereikte uitreikt uitreikte
+47	4347	fossiel	fossiele fossiel fossielen
+48	4348	selfie	selfies selfie
+49	4349	overslaan	overslaan overgeslagen overslaat oversla oversloeg overslaande oversloegen
+50	4350	inloggen	inloggen ingelogd inlog inlogt inlogde
+51	4351	importeren	importeren geïmporteerd geïmporteerde importeert importeerde importeer importeerden
+52	4352	luchtmacht	luchtmacht luchtmachten
+53	4353	vorst	vorst vorsten vorstin vorstinnen
+54	4354	directie	directie directies
+55	4355	aftreden	aftreden afgetreden aftrad aftreedt aftredend
+56	4356	arrest	arrest arresten
+57	4357	vereiste	vereiste vereisten
+58	4358	breuk	breuk breuken breukje
+59	4359	gulden	gulden guldens
+60	4360	althans	althans
+61	4361	bedrijfsleven	bedrijfsleven
+62	4362	doei	doei
+63	4363	evenveel	evenveel
+64	4364	feedback	feedback
+65	4365	jegens	jegens
+66	4366	klantenservice	klantenservice
+67	4367	merendeel	merendeel
+68	4368	must	must
+69	4369	nagenoeg	nagenoeg
+70	4370	psychologie	psychologie
+71	4371	welvaart	welvaart
+72	4372	eenzijdig	eenzijdig eenzijdige
+73	4373	bitter	bittere bitter bitters bitterder bitterste
+74	4374	verhoor	verhoor verhoren verhoord verhoorde verhoort
+75	4375	gruwelijk	gruwelijke gruwelijk gruwelijkste gruwelijker gruwelijks
+76	4376	zoekmachine	zoekmachine zoekmachines
+77	4377	koesteren	koesteren koester koestert gekoesterde gekoesterd koesterde koesterden
+78	4378	hut	hut hutten hutje
+79	4379	makelaar	makelaar makelaars
+80	4380	uitlaten	uitlaten uitgelaten uitlaat uitliet uitlieten
+81	4381	verwant	verwante verwant verwanten
+82	4382	schenden	geschonden schenden schendt schond schend schonden
+83	4383	dynamisch	dynamische dynamisch dynamischer
+84	4384	aanstellen	aangesteld aanstellen aangestelde aanstelde aanstelt
+85	4385	manipuleren	manipuleren gemanipuleerd manipuleert gemanipuleerde manipuleerde manipulerende manipulerend manipuleerden
+86	4386	inleiding	inleiding inleidingen
+87	4387	gate	gate gates
+88	4388	bondscoach	bondscoach bondscoaches
+89	4389	veroordeling	veroordeling veroordelingen
+90	4390	confrontatie	confrontatie confrontaties
+91	4391	agentschap	agentschap agentschappen
+92	4392	ambitieus	ambitieuze ambitieus ambitieuzer ambitieuzere
+93	4393	werkplek	werkplek werkplekken
+94	4394	sportschool	sportschool sportscholen
+95	4395	annuleren	geannuleerd annuleren annuleert annuleerde annuleer annuleerden
+96	4396	mineraal	mineralen mineraal minerale
+97	4397	dealer	dealer dealers
+98	4398	peer	peer peren peertje pere peert
+99	4399	meeting	meeting meetings
+100	4400	ceremonie	ceremonie ceremonies ceremoniën ceremonieën

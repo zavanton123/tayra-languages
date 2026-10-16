@@ -1,0 +1,100 @@
+1	3001	onderhandeling	onderhandelingen onderhandeling
+2	3002	bocht	bocht bochten bochtje bochtjes
+3	3003	verzekering	verzekering verzekeringen
+4	3004	helen	helen hele heelt helende geheeld helend heelde geheelde
+5	3005	repareren	repareren gerepareerd repareert repareer repareerde repareerden
+6	3006	vooruitgang	vooruitgang vooruitgangen
+7	3007	dumpen	gedumpt dumpen dump dumpt dumpte gedumpte dumpten
+8	3008	verstoren	verstoord verstoren verstoort verstoorde verstorend verstoorden verstoor
+9	3009	staart	staart staartje staarten staartjes
+10	3010	ban	ban bannen banden bant banne geband bande gebanned gebannen bans
+11	3011	bewaker	bewakers bewaker
+12	3012	chili	chili
+13	3013	interim	interim
+14	3014	li	li
+15	3015	ongeacht	ongeacht
+16	3016	laken	lake laken lakens laak lakentje laakt
+17	3017	schaduw	schaduw schaduwen geschaduwd schaduwde
+18	3018	uitkering	uitkering uitkeringen
+19	3019	voortgezet	voortgezet voortgezette
+20	3020	staf	staf staven staaf staafje gestaafd staaft
+21	3021	centimeter	centimeter centimeters
+22	3022	agressief	agressief agressieve agressiever aggressief agressievere
+23	3023	supporter	supporters supporter
+24	3024	duiden	duiden duidt geduid duid duidde duidend duidden duide
+25	3025	vervelen	vervelen verveeld verveel verveelt verveelde verveelden
+26	3026	omkomen	omgekomen omkwamen omkomen omkomt
+27	3027	respectievelijk	respectievelijk respectievelijke
+28	3028	willekeurig	willekeurige willekeurig
+29	3029	versieren	versieren versierd versierde versier versiert versierden
+30	3030	bon	bon bonnen bonnetje bons bonzen bonsde bonst bonzend bonzende
+31	3031	tram	tram trams
+32	3032	registratie	registratie registraties
+33	3033	aanklacht	aanklacht aanklachten
+34	3034	betrekken	betrekken betrok betrekt betrek
+35	3035	paal	paal palen paaltje paaltjes pale gepaald paalt paalde
+36	3036	zuur	zuur zure zuren zuurder zuurtjes zuurtje
+37	3037	licentie	licentie licenties
+38	3038	aardbeving	aardbeving aardbevingen
+39	3039	keten	keten ketens keet ketenen geketend keetje geketende ketent
+40	3040	berekenen	berekend berekenen bereken berekende berekent berekenend berekenden
+41	3041	winkelcentrum	winkelcentrum winkelcentra winkelcentrums
+42	3042	dateren	dateert gedateerd dateren gedateerde daterend daterende dateerde dateerden
+43	3043	spreker	sprekers spreker spreekster
+44	3044	zielig	zielig zielige zieligste zieligs zieliger
+45	3045	staatssecretaris	staatssecretaris staatssecretarissen
+46	3046	tof	tof toffe tofste toffer tofs
+47	3047	intrekken	ingetrokken intrekken intrek intrekt introk introkken
+48	3048	bekendheid	bekendheid bekendheden
+49	3049	conferentie	conferentie conferenties
+50	3050	draad	draad draden draadje
+51	3051	verlengen	verlengen verlengde verlengt verleng verlengden verlengend
+52	3052	bod	bod boden
+53	3053	aandoen	aandoen aandoet aandeed aandoende aandeden aandoe aandoend
+54	3054	constructie	constructie constructies
+55	3055	depressie	depressie depressies
+56	3056	inspanning	inspanningen inspanning
+57	3057	adem	adem asem
+58	3058	zoenen	zoenen zoen gezoend zoent zoende zoenende zoenden zoenend zoentje
+59	3059	daven	dave daaf
+60	3060	pond	pond ponden pondje
+61	3061	producent	producent producenten
+62	3062	hobby	hobby hobby's
+63	3063	hevig	hevige hevig heviger hevigste hevigst hevigere
+64	3064	arbeidsmarkt	arbeidsmarkt
+65	3065	diversiteit	diversiteit
+66	3066	evenen	event
+67	3067	metalen	metalen
+68	3068	nadruk	nadruk
+69	3069	ongetwijfeld	ongetwijfeld
+70	3070	tegemoet	tegemoet
+71	3071	toerisme	toerisme
+72	3072	zilveren	zilveren
+73	3073	kabel	kabel kabels kabeltje
+74	3074	intelligent	intelligent intelligente intelligenter intelligentste intelligentere
+75	3075	wolk	wolken wolk wolkje wolkjes
+76	3076	remmen	remmen rem remt geremd remmende remde remmend remden
+77	3077	verhuren	verhuurd verhuur verhuren verhuurt verhuurde verhuurden
+78	3078	gemak	gemak gemakken gemakje
+79	3079	aanzien	aanzien aanziet aanzag aanzagen aanziende
+80	3080	opereren	opereren geopereerd opereert opereerde opererend opereerden geopereerde opereer
+81	3081	achterhalen	achterhalen achterhaald achterhaalde achterhaalt achterhaal achterhaalden
+82	3082	kwartier	kwartier kwartiertje kwartieren kwartiers
+83	3083	arrestatie	arrestatie arrestaties
+84	3084	aanmaken	aangemaakt aanmaken aanmaak aanmaakt aangemaakte aanmaakte
+85	3085	referendum	referendum referenda
+86	3086	stoot	stoot stoten stootte gestoten stootje stootten stotend stiet
+87	3087	zaad	zaden zaad zaadje
+88	3088	aanpassing	aanpassingen aanpassing
+89	3089	kardinaal	kardinaal kardinalen kardinale
+90	3090	vlinder	vlinders vlinder vlindertje vlindertjes
+91	3091	zwaaien	zwaaien zwaait zwaai zwaaide gezwaaid zwaaiende zwaaiend zwaaiden
+92	3092	rebel	rebellen rebel
+93	3093	verdrietig	verdrietig verdrietige verdrietigste verdrietiger
+94	3094	trui	trui truien truitje
+95	3095	nagel	nagels nagel
+96	3096	scheuren	scheuren scheur scheurt gescheurd gescheurde scheurde scheurtje scheurden scheurende scheurend
+97	3097	aanvang	aanvang aanvangen aangevangen aanvangt aanving
+98	3098	schadelijk	schadelijk schadelijke schadelijker
+99	3099	speelgoed	speelgoed speelgoedje speelgoedjes
+100	3100	ouderwets	ouderwetse ouderwets ouderwetser

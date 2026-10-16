@@ -1,0 +1,100 @@
+1	4801	tol	tol tollen tolde tolt tollende
+2	4802	teruggaan	teruggaan teruggaat teruggegaan terugging teruggingen teruggaand
+3	4803	caravan	caravan caravans
+4	4804	vraagstuk	vraagstukken vraagstuk
+5	4805	polder	polder polders
+6	4806	pony	pony pony's
+7	4807	deelstaat	deelstaat deelstaten
+8	4808	gerechtshof	gerechtshof gerechtshoven
+9	4809	domineren	gedomineerd domineren domineert domineerde domineerden dominerende dominerend
+10	4810	vlug	vlug vlugger vlugge
+11	4811	voorpagina	voorpagina voorpagina's
+12	4812	orgel	orgel orgels orgeltje
+13	4813	gelijktijdig	gelijktijdig gelijktijdige
+14	4814	bruto	bruto
+15	4815	exploitatie	exploitatie
+16	4816	handhaving	handhaving
+17	4817	middernacht	middernacht
+18	4818	mobiliteit	mobiliteit
+19	4819	omstreeks	omstreeks
+20	4820	opdat	opdat
+21	4821	rechtspraak	rechtspraak
+22	4822	fungeren	fungeren fungeert fungeerde fungeerden gefungeerd fungerend fungeer
+23	4823	kroeg	kroeg kroegen kroegje
+24	4824	rail	rails rail
+25	4825	wee	wee weeën weetje weetjes
+26	4826	bekronen	bekroond bekroonde bekroont bekronen bekroonden
+27	4827	knijpen	knijpen knijp knijpt kneep geknepen kneepjes knepen kneepje
+28	4828	rotonde	rotonde rotondes
+29	4829	mentor	mentor mentoren mentors
+30	4830	participatie	participatie participaties
+31	4831	reparatie	reparatie reparaties
+32	4832	aanduiden	aangeduid aanduiden aanduidt aangeduide aanduidde aanduid
+33	4833	doorn	doorn doornen doorns
+34	4834	madonna	madonna madonna's
+35	4835	magazijn	magazijn magazijnen
+36	4836	piramide	piramide piramides piramiden
+37	4837	impuls	impuls impulsen
+38	4838	bloggen	bloggen blogt geblogd blogde
+39	4839	mijlpaal	mijlpaal mijlpalen
+40	4840	botsing	botsing botsingen
+41	4841	nier	nieren nier
+42	4842	zucht	zucht zuchten zuchtje zuchtend zuchtte gezucht
+43	4843	vervolging	vervolging vervolgingen
+44	4844	akte	akte acte akten aktes acten
+45	4845	schijnbaar	schijnbaar schijnbare
+46	4846	invloedrijk	invloedrijke invloedrijkste invloedrijk invloedrijker
+47	4847	nederzetting	nederzettingen nederzetting
+48	4848	clan	clan clans
+49	4849	zalm	zalm zalmen
+50	4850	beschieten	beschoten beschieten beschiet beschoot
+51	4851	rotzooi	rotzooi rotzooien
+52	4852	ritme	ritme ritmes ritmen
+53	4853	gehoorzamen	gehoorzamen gehoorzaam gehoorzaamt gehoorzame gehoorzaamde gehoorzaamd gehoorzaamden
+54	4854	zweven	zweven zweeft zwevend zweef zweefde zweefden gezweefd
+55	4855	vergissen	vergist vergis vergissen vergiste vergisten
+56	4856	overweging	overweging overwegingen
+57	4857	opstappen	opstappen opstap opstapt opgestapt opstapje opgestapte opstapte
+58	4858	heup	heupen heup
+59	4859	body	body body's
+60	4860	associatie	associatie associaties
+61	4861	bombarderen	bombarderen gebombardeerd bombardeerde bombardeert bombardeerden bombardeer gebombardeerde
+62	4862	rugzak	rugzak rugzakken rugzakje
+63	4863	gen	gen genen
+64	4864	authentiek	authentieke authentiek authentieker authentieks
+65	4865	opknappen	opgeknapt opknappen opknapt opgeknapte opknap opknapte
+66	4866	welterusten	welterusten truste
+67	4867	bloeddruk	bloeddruk
+68	4868	daten	daten
+69	4869	integriteit	integriteit
+70	4870	lof	lof
+71	4871	ondergrondse	ondergrondse
+72	4872	songfestival	songfestival
+73	4873	stank	stank
+74	4874	wiet	wiet
+75	4875	poos	poosje poos
+76	4876	afwerken	afgewerkt afwerken afwerkt afwerkte afwerkten
+77	4877	receptie	receptie recepties
+78	4878	worst	worst worsten worstje
+79	4879	sound	sound sounds
+80	4880	passage	passage passages
+81	4881	kennismaken	kennismaken kennisgemaakt kennismaakt kennismaakte kennismaakten
+82	4882	doorsturen	doorgestuurd doorsturen doorstuurt doorstuurde doorstuur
+83	4883	beleggen	beleggen belegd belegde belegt belegden
+84	4884	kapel	kapel kapellen kapelletje kapelletjes
+85	4885	horst	horst horsten
+86	4886	organisch	organische organisch
+87	4887	herzien	herzien herziene herzie herziet herzag
+88	4888	prestigieus	prestigieuze prestigieus
+89	4889	achtervolging	achtervolging achtervolgingen
+90	4890	gloednieuw	gloednieuwe gloednieuw
+91	4891	zenuw	zenuwen zenuw
+92	4892	groepering	groeperingen groepering
+93	4893	preventief	preventieve preventief
+94	4894	sportpark	sportpark sportparken
+95	4895	misselijk	misselijk misselijke
+96	4896	ontnemen	ontnomen ontnemen ontneemt ontnam ontneem ontnamen
+97	4897	onroerend	onroerend onroerende
+98	4898	compact	compact compacte compacter compactere
+99	4899	schelden	schelden schelde schold scheld scheldt gescholden scheldend scholden scheldende
+100	4900	hypocriet	hypocriet hypocriete hypocrieten

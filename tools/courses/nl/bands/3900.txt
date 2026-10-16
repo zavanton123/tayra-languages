@@ -1,0 +1,100 @@
+1	3801	explosief	explosieven explosief explosieve
+2	3802	hechten	hechten gehecht hechte hechtte hechtten gehechte hechtende
+3	3803	dominee	dominee dominees
+4	3804	vrouwe	vrouwe vrouwen
+5	3805	twitteren	twitteren twittert twitterde getwitterd
+6	3806	tarief	tarief tarieven
+7	3807	drogen	drogen gedroogde gedroogd droogt droogde droogden drogende
+8	3808	geleidelijk	geleidelijk geleidelijke geleidelijker
+9	3809	fundamenteel	fundamentele fundamenteel fundamenteler fundamenteels
+10	3810	concluderen	concludeert concludeerde concluderen geconcludeerd concludeerden concludeer concluderend
+11	3811	afzien	afgezien afzien afziet afzagen afzag
+12	3812	afdrukken	afdrukken afdruk afgedrukt afdrukt afgedrukte afdrukte
+13	3813	pin	pin pinnen pint pins pintje pinten gepind pinde pinnetje
+14	3814	winkelen	winkelen gewinkeld winkelt winkelend
+15	3815	daartoe	daartoe waartoe hiertoe
+16	3816	baard	baard baarden baardje
+17	3817	verkeren	verkeert verkeren verkeerde verkerende verkeerden verkerend
+18	3818	afzonderlijk	afzonderlijke afzonderlijk
+19	3819	vonnis	vonnis vonnissen gevonnist
+20	3820	visum	visa visum visums
+21	3821	tandarts	tandarts tandartsen
+22	3822	trip	trip tripje trips tripjes
+23	3823	sukkel	sukkel sukkels sukkeltje
+24	3824	achtste	achtste
+25	3825	titelen	getiteld
+26	3826	hockey	hockey
+27	3827	lawaai	lawaai
+28	3828	omwille	omwille
+29	3829	opvoeding	opvoeding
+30	3830	porto	porto
+31	3831	uiteen	uiteen
+32	3832	progressief	progressieve progressief progressieven progressiever
+33	3833	opdoen	opdoen opgedaan opgedane opdeed opdoet opdoe opdeden
+34	3834	schokkend	schokkend schokkende schokkends schokkender schokkendste
+35	3835	gestoord	gestoord gestoorde
+36	3836	godsdienst	godsdienst godsdiensten
+37	3837	introductie	introductie introducties
+38	3838	inspecteur	inspecteur inspecteurs inspectrice
+39	3839	ham	ham hammen
+40	3840	continent	continent continenten
+41	3841	profeet	profeet profeten profetes
+42	3842	oppassen	oppassen oppas opgepast oppast oppassende
+43	3843	vervaardigen	vervaardigd vervaardigen vervaardigde vervaardigt vervaardigden
+44	3844	wederzijds	wederzijds wederzijdse
+45	3845	meegaan	meegaan meegaat meeging meegegaan meegaand meega meegingen meegaande
+46	3846	neerzetten	neergezet neerzetten neerzet neerzette neergezette
+47	3847	minderjarige	minderjarige minderjarigen
+48	3848	doneren	doneren gedoneerd doneert doneer doneerde gedoneerde doneerden
+49	3849	geschenk	geschenk geschenken geschenkje geschenke
+50	3850	dierbaar	dierbare dierbaar dierbaren dierbaarste dierbaarder
+51	3851	verwerpen	verworpen verwerpt verwerpen verwierp verwerp verwierpen verworpenen
+52	3852	boren	boren boor geboord boort boorde bore boorden boortje borende boortjes
+53	3853	druppel	druppel druppels druppeltje
+54	3854	financiering	financiering financieringen
+55	3855	dierentuin	dierentuin dierentuinen
+56	3856	smerig	smerig smerige smerigste smeriger smerigs
+57	3857	accent	accent accenten accentje
+58	3858	stinken	stinkt stinken stink stinkend stonk stonken
+59	3859	wetsvoorstel	wetsvoorstel wetsvoorstellen
+60	3860	parel	parel parels pareltje
+61	3861	afleveren	afgeleverd afleveren aflevert afleverde aflever afgeleverde afleverden
+62	3862	champagne	champagne champagnes
+63	3863	verantwoorden	verantwoord verantwoorden verantwoorde verantwoordt verantwoordde
+64	3864	optimaal	optimaal optimale
+65	3865	echo	echo echo's
+66	3866	clip	clip clips clipje
+67	3867	transfer	transfer transfers
+68	3868	zijkant	zijkant zijkanten
+69	3869	doelman	doelman doelmannen doelvrouw
+70	3870	drop	drop droppen gedropt drup dropt dropte dropje dropjes droppie dropten
+71	3871	imago	imago imago's
+72	3872	erven	erven erf geërfd erft erfde erve erfden
+73	3873	circus	circus circussen
+74	3874	register	register registers
+75	3875	aanmerking	aanmerking aanmerkingen
+76	3876	programmeren	programmeren geprogrammeerd programmeer programmeert programmeerde programmeerden
+77	3877	anno	anno
+78	3878	corruptie	corruptie
+79	3879	kerstmis	kerstmis
+80	3880	playstationen	playstation
+81	3881	vaderland	vaderland
+82	3882	weliswaar	weliswaar
+83	3883	werkgelegenheid	werkgelegenheid
+84	3884	zegen	zegen
+85	3885	doctor	doctor doctors doctoren
+86	3886	gemeentehuis	gemeentehuis gemeentehuizen
+87	3887	heide	heide hei heidenen heiden
+88	3888	vochtig	vochtig vochtige vochtiger vochtigere
+89	3889	scholier	scholieren scholier scholiere
+90	3890	vloot	vloot vloten
+91	3891	made	made maden
+92	3892	bekleden	bekleed bekleden bekleedde bekleedt beklede bekleedden
+93	3893	portemonnee	portemonnee portemonnees portemonnaie
+94	3894	spannen	spannen span spant spande spanten spanden
+95	3895	kalender	kalender kalenders
+96	3896	lancering	lancering lanceringen
+97	3897	printen	print printen geprint geprinte printte
+98	3898	staren	staren staar staarde starend starende staarden stare gestaard
+99	3899	bepaling	bepalingen bepaling
+100	3900	enquête	enquête enquêtes

@@ -1,0 +1,100 @@
+1	3201	overeenstemming	overeenstemming
+2	3202	populariteit	populariteit
+3	3203	volkomen	volkomen
+4	3204	warmte	warmte
+5	3205	fabrikant	fabrikant fabrikanten
+6	3206	poes	poes poesje poezen
+7	3207	genezen	genezen geneest genas genezende genees genezend genazen
+8	3208	werven	werven werf werft geworven werve wervende wierf wierven
+9	3209	pet	pet petje petten pets petter
+10	3210	suggereren	suggereert suggereren gesuggereerd suggereerde suggereer suggereerden gesuggereerde suggererend
+11	3211	bevoegdheid	bevoegdheden bevoegdheid
+12	3212	fraai	fraaie fraai fraaiste fraaier fraais fraaiere
+13	3213	zuigen	zuigen zuigt gezogen zuig zoog zogen zuigende gezoogd zuigend zoogt
+14	3214	vernielen	vernield vernielen vernielde vernielt vernielden
+15	3215	glad	glad gladde gladder gladdere
+16	3216	verwelkomen	verwelkomen verwelkomt verwelkomd verwelkomde verwelkomden verwelkom verwelkomend
+17	3217	herkenbaar	herkenbaar herkenbare herkenbaarder herkenbaars
+18	3218	duim	duim duimen duimpje duimt
+19	3219	jager	jager jagers jaagster jagertje
+20	3220	inval	inval invallen ingevallen invalt invallend inviel
+21	3221	shop	shop shops
+22	3222	verdeling	verdeling verdelingen
+23	3223	gastheer	gastheer gastvrouw gastheren gastvrouwen
+24	3224	oostelijk	oostelijke oostelijk oostelijker oostelijkste
+25	3225	uitkomst	uitkomst uitkomsten
+26	3226	indeling	indeling indelingen
+27	3227	revolutionair	revolutionaire revolutionair revolutionairen revolutionairs
+28	3228	balans	balans balansen
+29	3229	paars	paars paarse
+30	3230	keihard	keihard keiharde
+31	3231	telefoonnummer	telefoonnummer telefoonnummers
+32	3232	geweer	geweer geweren geweertje
+33	3233	rijst	rijst rijs
+34	3234	lens	lens lenzen lenze
+35	3235	webshop	webshop webshops
+36	3236	aardappel	aardappelen aardappel aardappels
+37	3237	delta	delta delta's
+38	3238	bevestiging	bevestiging bevestigingen
+39	3239	voeding	voeding voedingen
+40	3240	aankomst	aankomst aankomsten
+41	3241	weerstand	weerstand weerstanden
+42	3242	huisarts	huisarts huisartsen
+43	3243	atleet	atleten atleet atlete
+44	3244	opmerken	opgemerkt opmerken opmerkt opmerkte opmerkten opmerk opgemerkte
+45	3245	dwars	dwars dwarse
+46	3246	lokken	lokken lokt lok lokte gelokt lokten lokje lokkende
+47	3247	rapper	rapper rappers
+48	3248	stiekem	stiekem stiekeme
+49	3249	verwennen	verwennen verwend verwende verwent verwen
+50	3250	achterkant	achterkant achterkanten
+51	3251	levenslang	levenslang levenslange
+52	3252	mededeling	mededeling mededelingen
+53	3253	heffen	heffen heft hef geheven hief hieven heften
+54	3254	reserveren	gereserveerd reserveren reserveer reserveert reserveerde reserveerden
+55	3255	garantie	garantie garanties
+56	3256	strip	strip strips stripje
+57	3257	opvallen	opgevallen opvallen opviel opvielen
+58	3258	nader	nader nadere naders
+59	3259	gewelddadig	gewelddadige gewelddadig gewelddadiger gewelddadigste
+60	3260	ontslaan	ontslaan ontslagen ontsloeg ontslaat ontsla ontsloegen
+61	3261	koor	koor koren koorden kore koortje koorde koordje
+62	3262	persbericht	persbericht persberichten
+63	3263	opmaken	opmaken opgemaakt opmaak opmaakt opmaakte opmaakten
+64	3264	braaf	brave braaf braafste braven braver braafjes
+65	3265	achteruit	achteruit
+66	3266	alstublieft	alstublieft
+67	3267	creativiteit	creativiteit
+68	3268	overdreven	overdreven
+69	3269	deskundige	deskundigen deskundige
+70	3270	efficiënt	efficiënt efficiënter efficiënte efficiëntere efficiëntste efficiëntst
+71	3271	zitting	zitting zittingen
+72	3272	parkeerplaats	parkeerplaats parkeerplaatsen
+73	3273	continu	continu continue
+74	3274	item	item items
+75	3275	aanrader	aanrader aanraders
+76	3276	mishandeling	mishandeling mishandelingen
+77	3277	intellectueel	intellectuele intellectueel intellectuelen
+78	3278	arena	arena arena's
+79	3279	landgoed	landgoed landgoederen
+80	3280	kliniek	kliniek klinieken
+81	3281	lichamelijk	lichamelijke lichamelijk
+82	3282	resulteren	resulteerde resulteert resulteren geresulteerd resulterend resulteerden
+83	3283	fantasie	fantasie fantasieën fantasietjes fantasietje
+84	3284	compliment	compliment complimenten complimentje
+85	3285	port	port porten
+86	3286	goedkeuring	goedkeuring goedkeuringen
+87	3287	toename	toename toenamen
+88	3288	rat	rat ratten ratje ratte
+89	3289	misbruiken	misbruikt misbruiken misbruikte misbruikten misbruikende
+90	3290	hacken	gehackt hacken hack hacks hackt hackte gehackte
+91	3291	fors	fors forse forser forst forsere
+92	3292	maas	maas mazen
+93	3293	uitgeverij	uitgeverij uitgeverijen
+94	3294	scheidsrechter	scheidsrechter scheidsrechters scheids
+95	3295	regime	regime regimes
+96	3296	belasten	belast belasten belastend belaste belastte
+97	3297	bovenaan	bovenaan
+98	3298	enigszins	enigszins
+99	3299	halverwege	halverwege
+100	3300	huiswerk	huiswerk

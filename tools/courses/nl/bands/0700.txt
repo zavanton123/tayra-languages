@@ -1,0 +1,100 @@
+1	601	gesprek	gesprek gesprekken gesprekje
+2	602	omgeving	omgeving omgevingen
+3	603	aanval	aanval aanvallen aangevallen aanviel aanvalt aanvielen aanvallende aanvallend aanvallender
+4	604	melden	melden meldt gemeld meld meldde meldden gemelde melde
+5	605	welkom	welkom welkome welkoms
+6	606	draaien	draaien draait draai gedraaid draaide draaiden draaiend
+7	607	makkelijk	makkelijk makkelijker makkelijke makkelijkste makkelijkst makkelijkere makkelijks
+8	608	ontwikkelen	ontwikkeld ontwikkelen ontwikkelde ontwikkelt ontwikkel ontwikkelden ontwikkelend
+9	609	bed	bed bedden bedje
+10	610	hond	hond honden hondje hondjes
+11	611	kracht	kracht krachten kraft
+12	612	vanavond	vanavond vnv
+13	613	openen	geopend openen opende opent openden openende openend
+14	614	dame	dames dame dametje
+15	615	relatie	relatie relaties
+16	616	verdwijnen	verdwenen verdwijnen verdween verdwijnt verdwijn verdwijnend
+17	617	daarmee	daarmee
+18	618	sterven	stierf sterven gestorven sterft stierven sterf stervend
+19	619	kloppen	klopt kloppen klopte klop geklopt kloppend kloppende klopten klopje geklopte
+20	620	passen	past passen passende passend pass paste gepast gepaste pasten passe
+21	621	inderdaad	inderdaad idd
+22	622	besluit	besluit besloot besluiten
+23	623	universiteit	universiteit universiteiten uni
+24	624	leger	leger legers legertje legere
+25	625	verschijnen	verschenen verscheen verschijnen verschijnt verschijnende verschijn verschijnend
+26	626	pagina	pagina pagina's
+27	627	waarop	waarop hierop
+28	628	speler	spelers speler speelsters speelster spelertje
+29	629	divers	diverse divers diverser
+30	630	hoewel	hoewel
+31	631	waarmee	waarmee
+32	632	hangen	hangt hangen hing hang hingen gehangen hangende hangend hinge gehangenen
+33	633	publiek	publiek publieke publieks publieken
+34	634	jongen	jongen jongetje jonguh
+35	635	voorbij	voorbij voorbije
+36	636	roepen	roepen roept riep roep geroepen riepen roepende roepend
+37	637	band	band banden bands bandje
+38	638	voorstellen	voorstellen voorstel voorgesteld voorstelt voorstelde voorstelden voorstellend
+39	639	jezelf	jezelf
+40	640	jongens	jongens
+41	641	brand	brand branden brandt brandend gebrand brandde brandje brandden brande
+42	642	lukken	lukt gelukt lukken lukte luk lukke lukten
+43	643	ervaring	ervaring ervaringen
+44	644	ziekenhuis	ziekenhuis ziekenhuizen
+45	645	serie	serie series
+46	646	titel	titel titels
+47	647	erop	erop hierop
+48	648	ontdekken	ontdekt ontdekken ontdekte ontdek ontdekten
+49	649	rust	rust rusten ruste rustte rustende rustend rustten
+50	650	verkeerd	verkeerd verkeerde verkeerds
+51	651	deur	deur deuren deurs deurtje
+52	652	snappen	snap snapt snappen snapte gesnapt snapten
+53	653	geboren	geboren
+54	654	helaas	helaas
+55	655	waaronder	waaronder
+56	656	verlaten	verlaten verlaat verliet verlieten verlate
+57	657	trots	trots trotse trotser trotste trotst
+58	658	vermoorden	vermoord vermoorden vermoorde vermoordde vermoordt vermoordden
+59	659	openbaar	openbaar openbare
+60	660	versie	versie versies
+61	661	kerk	kerk kerken kerkje kerke kerkjes voorlichtingsdienst
+62	662	student	studenten student studente studentje
+63	663	regering	regering regeringen regeering
+64	664	winkel	winkel winkels winkeltje
+65	665	arm	arm arme armen armste armer arms armere armpje
+66	666	hopen	hopen hoopt hoopte hope gehoopt hoopten hopend gehoopte
+67	667	strijd	strijd strijden gestreden strijdt streden streed strijde strijdende strijdend
+68	668	rijk	rijk rijke rijken rijker rijkste rijks rijkere rijkers rijksten rijkt
+69	669	inmiddels	inmiddels
+70	670	bevatten	bevat bevatten bevatte bevattend
+71	671	overheid	overheid overheden overheids
+72	672	periode	periode periodes perioden
+73	673	systeem	systeem systemen systema
+74	674	slachtoffer	slachtoffer slachtoffers slachtoffertje
+75	675	pijn	pijn pijnen pijntje
+76	676	vlucht	vlucht vluchten vluchtte gevlucht vluchtten gevluchte vluchtend vluchte vluchtje
+77	677	schieten	schiet schieten geschoten schoot schoten schietend
+78	678	situatie	situatie situaties
+79	679	eerlijk	eerlijk eerlijke eerlijker eerlijkste eerlijks eerlijkere
+80	680	ontwerp	ontwerp ontworpen ontwerpen ontwierp ontwerpt ontwierpen ontwerpend
+81	681	prima	prima priem priemende priemen
+82	682	richting	richting richtingen
+83	683	meestal	meestal
+84	684	reageren	reageren reageert reageerde gereageerd reageer reageerden reagerend reagerende
+85	685	dromen	dromen droom droomt droomde gedroomd droomden gedroomde drome dromend dromende
+86	686	meerdere	meerdere meerderen meerder
+87	687	schreef	schreef schreven
+88	688	zaterdag	zaterdag zaterdagen zaterdags zaterdagse
+89	689	gezicht	gezicht gezichten gezichtje gezichtjes gezichts
+90	690	heet	heet hete heetste heter heetst hetere
+91	691	vechten	vechten vocht vecht gevochten vochten vechtend vechte
+92	692	uitvoeren	uitgevoerd uitvoeren uitvoert uitvoerend uitvoerende uitvoer uitvoerde uitvoerden
+93	693	vroeg	vroeg vroege vroegere vroegste vroegst
+94	694	gisteren	gisteren gister
+95	695	sport	sport sporten gesport sportte sportten
+96	696	perfect	perfect perfecte perfecter
+97	697	zee	zee zeeën zeetje
+98	698	moord	moord moorden moordend moordt gemoord moordden moordde
+99	699	seks	seks sex
+100	700	activiteit	activiteiten activiteit

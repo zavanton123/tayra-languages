@@ -1,0 +1,100 @@
+1	9201	ongestraft	ongestraft
+2	9202	overheersing	overheersing
+3	9203	rijksoverheid	rijksoverheid
+4	9204	speeltijd	speeltijd
+5	9205	vakantiegeld	vakantiegeld
+6	9206	vanille	vanille
+7	9207	werkdruk	werkdruk
+8	9208	wilskracht	wilskracht
+9	9209	wodka	wodka
+10	9210	woensdagochtend	woensdagochtend
+11	9211	berm	berm bermen
+12	9212	almachtig	almachtige allemachtig almachtig
+13	9213	verstikken	verstikt verstikken verstikkende verstikkend verstikte
+14	9214	onverantwoord	onverantwoord onverantwoorde
+15	9215	onbeschoft	onbeschoft onbeschofte
+16	9216	afkondigen	afgekondigd afkondigen afkondigde afgekondigde
+17	9217	bepleiten	bepleit bepleiten bepleitte bepleitten bepleite
+18	9218	vertolken	vertolkt vertolken vertolkte
+19	9219	toezegging	toezegging toezeggingen
+20	9220	extremistisch	extremistische extremistisch
+21	9221	verworden	verworden verwordt verwerd
+22	9222	opdelen	opgedeeld opdelen opdeelt
+23	9223	walgen	walg walgen walgt walgde walgend
+24	9224	immaterieel	immateriële immaterieel
+25	9225	kustgebied	kustgebieden kustgebied
+26	9226	behuizing	behuizing behuizingen
+27	9227	recessie	recessie recessies
+28	9228	spetteren	spetterende spetterend spetteren spettert spetterde
+29	9229	marginaal	marginale marginaal marginalen
+30	9230	bekendstaan	bekendstaat bekendstaan bekendstond bekendstaande
+31	9231	klaarblijkelijk	klaarblijkelijk klaarblijkelijke
+32	9232	snuffelen	snuffelen snuffel snuffelt gesnuffeld snuffelde snuffelend
+33	9233	territoriaal	territoriale territoriaal
+34	9234	samengaan	samengaan samengaat samengegaan samenging samengingen
+35	9235	voorruit	voorruit voorruiten
+36	9236	bèta	bèta bèta's
+37	9237	voetstap	voetstappen voetstap
+38	9238	windturbine	windturbines windturbine
+39	9239	zonnebloem	zonnebloem zonnebloemen
+40	9240	dagenlang	dagenlang dagenlange
+41	9241	hoedanigheid	hoedanigheid hoedanigheden
+42	9242	remedie	remedie remedies
+43	9243	enkelvoudig	enkelvoudige enkelvoudig
+44	9244	sportevenement	sportevenementen sportevenement
+45	9245	finishen	finishte finishen gefinisht finisht finishten
+46	9246	vervormen	vervormd vervormen vervormde vervormt
+47	9247	topscorer	topscorer topscorers
+48	9248	muziekstijl	muziekstijl muziekstijlen
+49	9249	slijten	slijten slijt sleet gesleten sleten
+50	9250	discotheek	discotheek discotheken
+51	9251	hanger	hanger hangers hangertje
+52	9252	motorkap	motorkap motorkappen
+53	9253	hoogwaardig	hoogwaardige hoogwaardig hoogwaardiger
+54	9254	dichtheid	dichtheid dichtheden
+55	9255	voicemail	voicemail voicemails
+56	9256	zonnestraal	zonnestralen zonnestraal zonnestraaltje zonnestraaltjes
+57	9257	sterrenstelsel	sterrenstelsel sterrenstelsels
+58	9258	vakantiepark	vakantiepark vakantieparken
+59	9259	aflossing	aflossing aflossingen
+60	9260	etniciteit	etniciteit etniciteiten
+61	9261	bungalow	bungalow bungalows
+62	9262	buitenspel	buitenspel buitenspelen
+63	9263	naaktfoto	naaktfoto's naaktfoto
+64	9264	flatgebouw	flatgebouw flatgebouwen
+65	9265	meteoriet	meteoriet meteorieten
+66	9266	terroriseren	terroriseren geterroriseerd terroriseert terroriseerde terroriseerden
+67	9267	rijksmonument	rijksmonument rijksmonumenten
+68	9268	meloen	meloen meloenen
+69	9269	archiveren	gearchiveerd archiveren gearchiveerde archiveer archiveert
+70	9270	flitser	flitser flitsers
+71	9271	judoka	judoka judoka's
+72	9272	waas	waas wase
+73	9273	onverklaarbaar	onverklaarbare onverklaarbaar
+74	9274	bedenker	bedenker bedenkers
+75	9275	verrekken	verrekte verrek verrekken verrekt
+76	9276	uitzetting	uitzetting uitzettingen
+77	9277	wenselijk	wenselijk wenselijke
+78	9278	schoolgebouw	schoolgebouw schoolgebouwen
+79	9279	smokkelaar	smokkelaars smokkelaar
+80	9280	terughoudend	terughoudend terughoudende terughoudender
+81	9281	drievoudig	drievoudige drievoudig
+82	9282	constatering	constatering constateringen
+83	9283	gal	gal gallen
+84	9284	keizerlijk	keizerlijke keizerlijk
+85	9285	aandenken	aandenken aandenkens
+86	9286	inkomstenbelasting	inkomstenbelasting inkomstenbelastingen
+87	9287	binnenlopen	binnenlopen binnenloopt binnengelopen binnenliep binnenloop binnenliepen
+88	9288	sensationeel	sensationele sensationeel
+89	9289	overzien	overzien overziet overzag overziend overzie
+90	9290	boezem	boezem boezems
+91	9291	samenbrengen	samengebracht samenbrengen samenbrengt samenbracht
+92	9292	bemannen	bemand bemande bemannen bemant bemanden beman
+93	9293	snowboarden	snowboarden snowboard
+94	9294	waddeneiland	waddeneilanden waddeneiland
+95	9295	aanblik	aanblik
+96	9296	aanvaarding	aanvaarding
+97	9297	artillerie	artillerie
+98	9298	basta	basta
+99	9299	bewoning	bewoning
+100	9300	commodore	commodore

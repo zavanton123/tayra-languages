@@ -1,0 +1,100 @@
+1	9501	symfonie	symfonie symfonieën
+2	9502	stern	stern sterns sternen
+3	9503	chanteren	chanteren gechanteerd chanteert chanteerde
+4	9504	inblazen	ingeblazen inblazen inblies inblaast
+5	9505	ontvankelijk	ontvankelijk ontvankelijke ontvankelijker
+6	9506	vertolking	vertolking vertolkingen
+7	9507	goudvis	goudvis goudvissen
+8	9508	pieper	pieper piepers
+9	9509	aankan	aankan
+10	9510	antisemitisme	antisemitisme
+11	9511	beroepsbevolking	beroepsbevolking
+12	9512	bouwkunde	bouwkunde
+13	9513	bubbels	bubbels
+14	9514	eindbestemming	eindbestemming
+15	9515	gelovig	gelovig
+16	9516	gemis	gemis
+17	9517	inheems	inheems
+18	9518	karaoke	karaoke
+19	9519	konings	konings
+20	9520	koophandel	koophandel
+21	9521	kosmos	kosmos
+22	9522	krijgsraad	krijgsraad
+23	9523	linnen	linnen
+24	9524	mayo	mayo
+25	9525	minus	minus
+26	9526	moerdijk	moerdijk
+27	9527	nageslacht	nageslacht
+28	9528	onderbouwing	onderbouwing
+29	9529	ontwikkeling_samenwerking	ontwikkelingssamenwerking
+30	9530	ouderschap	ouderschap
+31	9531	petto	petto
+32	9532	polarisatie	polarisatie
+33	9533	precisie	precisie
+34	9534	tikkeltje	tikkeltje
+35	9535	topklasse	topklasse
+36	9536	tropen	tropen
+37	9537	vanbinnen	vanbinnen
+38	9538	vierdaagse	vierdaagse
+39	9539	vriendenkring	vriendenkring
+40	9540	weerzien	weerzien
+41	9541	dimmen	dimmen dim gedimd dimt
+42	9542	estafette	estafette estafettes
+43	9543	consulent	consulent consulenten
+44	9544	brunch	brunch brunchen
+45	9545	parkeerterrein	parkeerterrein parkeerterreinen
+46	9546	institutie	instituties institutie
+47	9547	stads	stads stadse
+48	9548	imposant	imposante imposant imposanter
+49	9549	onderstrepen	onderstreept onderstrepen onderstreepte onderstreepten onderstreep
+50	9550	halfbroer	halfbroer halfzus halfzussen halfbroers halfzuster halfzusje halfbroertje
+51	9551	oprotten	oprotten oprot
+52	9552	afzender	afzender afzenders
+53	9553	promenade	promenade promenades
+54	9554	rimpel	rimpels rimpel rimpeltje
+55	9555	opstandeling	opstandelingen opstandeling
+56	9556	cycloon	cycloon cyclonen
+57	9557	combo	combo combo's
+58	9558	inzameling	inzameling inzamelingen
+59	9559	googelen	googelen googlen gegoogeld googelt googelde googel
+60	9560	levenscyclus	levenscyclus levenscycli
+61	9561	ranch	ranch ranches
+62	9562	lease	lease leases
+63	9563	donkerblauw	donkerblauw donkerblauwe
+64	9564	bewijsmateriaal	bewijsmateriaal bewijsmaterialen
+65	9565	behang	behang behangetje
+66	9566	harp	harp harpen
+67	9567	ontmoetingsplaats	ontmoetingsplaats ontmoetingsplaatsen
+68	9568	voetafdruk	voetafdruk voetafdrukken
+69	9569	kozijn	kozijnen kozijn
+70	9570	soa	soa soa's
+71	9571	bioloog	bioloog biologen biologe
+72	9572	krans	krans kransen kransje
+73	9573	alfabetisch	alfabetische alfabetisch
+74	9574	legaliseren	legaliseren gelegaliseerd gelegaliseerde legaliseert legaliseer legaliseerde
+75	9575	strelen	strelen streelt streel streelde gestreeld strelend
+76	9576	brullen	brullen brult brullende brul brulde brullend gebruld brulden
+77	9577	beroepsvereniging	beroepsvereniging beroepsverenigingen
+78	9578	houdbaar	houdbaar houdbare
+79	9579	tuinieren	tuinieren tuinier tuiniers getuinierd tuiniert
+80	9580	veelgebruikt	veelgebruikte veelgebruikt
+81	9581	persbureau	persbureau persbureaus
+82	9582	stedenbouwkundig	stedenbouwkundige stedenbouwkundig stedenbouwkundigen
+83	9583	cruiseschip	cruiseschip cruiseschepen
+84	9584	uitstrekken	uitgestrekt uitstrekken uitstrekte uitstrekten uitstrekkend uitstrekkende
+85	9585	koolhydraat	koolhydraten koolhydraat
+86	9586	lhbt	lhbt lhbt's
+87	9587	oerwoud	oerwoud oerwouden
+88	9588	aanmerkelijk	aanmerkelijk aanmerkelijke
+89	9589	redeneren	redeneren redeneert redeneerde geredeneerd redeneer redenerend
+90	9590	verwonderen	verwonderd verwonderen verwondert verwonder verwonderde
+91	9591	promovendus	promovendus promovendi promovenda
+92	9592	atoombom	atoombom atoombommen
+93	9593	racer	racer racers
+94	9594	herroepen	herroepen herroept herriep herroep
+95	9595	gehucht	gehucht gehuchten gehuchtje
+96	9596	onbetaalbaar	onbetaalbaar onbetaalbare
+97	9597	botanisch	botanische botanisch
+98	9598	stigma	stigma stigmata stigma's
+99	9599	zalf	zalf gezalfd zalven zalfje zalvende zalft zalfde
+100	9600	verzieken	verziekt verzieken verziekte

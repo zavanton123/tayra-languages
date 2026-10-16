@@ -1,0 +1,100 @@
+1	6101	mensenleven	mensenlevens mensenleven
+2	6102	riool	riool riolen
+3	6103	toedoen	toedoen toegedaan toedoet
+4	6104	terugbetalen	terugbetalen terugbetaald terugbetaalt terugbetaalde
+5	6105	overschot	overschot overschotten
+6	6106	poule	poule poules
+7	6107	gamma	gamma gamma's
+8	6108	rein	rein reine reinste reiner reins reinen
+9	6109	waarnemer	waarnemer waarnemers
+10	6110	roof	roof geroofd roven rove roofden rooft geroofde roofde
+11	6111	somber	somber sombere somberder somberste
+12	6112	selectief	selectieve selectief selectiever
+13	6113	gereformeerd	gereformeerde gereformeerd
+14	6114	mislukking	mislukking mislukkingen
+15	6115	huurwoning	huurwoningen huurwoning
+16	6116	stream	stream streams
+17	6117	pal	pal palletje
+18	6118	omslag	omslag omslagen
+19	6119	verrijken	verrijken verrijkt verrijkte verrijkende verrijkend verrijkten verrijk
+20	6120	oorbel	oorbellen oorbel
+21	6121	schap	schappen schap
+22	6122	vouwen	vouwen gevouwen vouw vouwt vouwde
+23	6123	modem	modem modems
+24	6124	volgeling	volgelingen volgeling
+25	6125	publiekelijk	publiekelijk publiekelijke
+26	6126	ouderlijk	ouderlijk ouderlijke
+27	6127	privilege	privileges privilege
+28	6128	namiddag	namiddag namiddags namiddagen
+29	6129	napoleon	napoleon napoleons
+30	6130	aardgas	aardgas
+31	6131	acceptatie	acceptatie
+32	6132	boosheid	boosheid
+33	6133	borstvoeding	borstvoeding
+34	6134	evenwel	evenwel
+35	6135	franco	franco
+36	6136	hiv	hiv
+37	6137	meermaals	meermaals
+38	6138	nabijheid	nabijheid
+39	6139	proficiat	proficiat
+40	6140	recreatie	recreatie
+41	6141	scala	scala
+42	6142	seksualiteit	seksualiteit
+43	6143	urine	urine
+44	6144	vrijuit	vrijuit
+45	6145	wol	wol
+46	6146	vraagteken	vraagtekens vraagteken
+47	6147	linie	linie linies
+48	6148	ijskoud	ijskoud ijskoude
+49	6149	vink	vink vinkje vinken vinkt vinke
+50	6150	knikken	knik knikken knikt knikte knikje knikkende geknikt knikkend knikten
+51	6151	ondeugend	ondeugend ondeugende
+52	6152	kwartet	kwartet kwartetten
+53	6153	bakkerij	bakkerij bakkerijen
+54	6154	volt	volt volts
+55	6155	ondergeschikt	ondergeschikt ondergeschikte ondergeschikten
+56	6156	jaloezie	jaloezie jaloezieën
+57	6157	bestraffen	bestraft bestraffen bestraf bestrafte bestraffend
+58	6158	friet	friet frieten frites frietje
+59	6159	poel	poel poelen poeltje poeltjes
+60	6160	zadel	zadel zadels
+61	6161	wegleggen	weggelegd wegleggen weglegt
+62	6162	bit	bit bitte bitje bitten
+63	6163	bug	bug bugs
+64	6164	snoepje	snoepjes snoepje snoepie
+65	6165	haasten	haasten gehaast haastte haastten
+66	6166	uiteinde	uiteinde uiteinden uiteindes
+67	6167	voorronde	voorronde voorrondes voorronden
+68	6168	uitsteken	uitsteken uitsteekt uitgestoken uitstak uitstaken
+69	6169	conventie	conventie conventies
+70	6170	dracht	drachten dracht
+71	6171	overgave	overgave overgaven
+72	6172	marteling	marteling martelingen
+73	6173	beschouwing	beschouwing beschouwingen
+74	6174	filosofisch	filosofische filosofisch
+75	6175	cowboy	cowboy cowboys
+76	6176	portaal	portaal portalen
+77	6177	onderdrukt	onderdrukt onderdrukte
+78	6178	patent	patent patenten patents
+79	6179	binnenvallen	binnenvallen binnenvielen binnengevallen binnenviel binnenvalt binnenvallende
+80	6180	begroeten	begroet begroeten begroette begroetten
+81	6181	matras	matras matrassen
+82	6182	brochure	brochure brochures
+83	6183	functionaris	functionarissen functionaris
+84	6184	ka	ka kaatje
+85	6185	onenigheid	onenigheid onenigheden
+86	6186	ledemaat	ledematen ledemaat
+87	6187	fik	fik fikkie fikken fikt
+88	6188	cinema	cinema cinema's
+89	6189	verplaatsing	verplaatsing verplaatsingen
+90	6190	mast	mast masten
+91	6191	prototype	prototype prototypes prototypen
+92	6192	ontruimen	ontruimd ontruimen ontruimt ontruim ontruimde ontruimden
+93	6193	missionaris	missionaris missionarissen
+94	6194	joelen	joel joelen joelende joelt
+95	6195	tweehonderd	tweehonderd tweehonderdste
+96	6196	handvol	handvol handjevol handenvol
+97	6197	afdwingen	afgedwongen afdwingen afdwingt afdwong
+98	6198	schuim	schuim schuimpje
+99	6199	camper	camper campers
+100	6200	humanitair	humanitaire humanitair

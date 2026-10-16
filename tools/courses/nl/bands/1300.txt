@@ -1,0 +1,100 @@
+1	1201	auteur	auteur auteurs
+2	1202	vliegtuig	vliegtuig vliegtuigen vliegtuigje
+3	1203	vreselijk	vreselijk vreselijke vreselijks vreselijkste
+4	1204	overwinning	overwinning overwinningen
+5	1205	voegen	voegen voeg voegt voegde gevoegd voegden voege
+6	1206	langzaam	langzaam langzamer langzame langzamere langzaamste
+7	1207	zuiden	zuiden
+8	1208	geest	geest geesten geestes
+9	1209	kenmerken	kenmerken gekenmerkt kenmerk kenmerkend kenmerkende kenmerkt kenmerkte kenmerkten gekenmerkte
+10	1210	bewust	bewust bewuste bewuster
+11	1211	tegenover	tegenover daartegenover hiertegenover ertegenover waartegenover
+12	1212	inclusief	inclusief inclusieve
+13	1213	maatschappij	maatschappij maatschappijen
+14	1214	origineel	originele origineel originelen origineels origineelste origineler originelers
+15	1215	herinnering	herinneringen herinnering
+16	1216	wonden	gewond wonden wond wonde wondje
+17	1217	dansen	dansen danst gedanst danste dansend dansten danse dans gedanste dansje
+18	1218	categorie	categorie categorieën
+19	1219	held	held helden heldin heldinnen
+20	1220	feliciteren	gefeliciteerd feliciteren feliciteert feliciteer feliciteerde feliciteerden
+21	1221	klacht	klacht klachten
+22	1222	sint	sint sinten
+23	1223	neer	neer
+24	1224	noorden	noorden
+25	1225	reeds	reeds
+26	1226	totdat	totdat
+27	1227	vervoer	vervoer
+28	1228	baas	baas bazen baasje baasjes bazin bazinnetje
+29	1229	produceren	geproduceerd produceren produceert geproduceerde produceerde produceer produceerden producerende producerend
+30	1230	troep	troepen troep
+31	1231	realiseren	realiseren gerealiseerd realiseerde realiseert realiseer realiseerden gerealiseerde realiserend
+32	1232	bewaren	bewaard bewaren bewaar bewaarde bewaart beware bewaarden
+33	1233	ondersteunen	ondersteunen ondersteund ondersteunt ondersteunde ondersteun ondersteunend ondersteunden
+34	1234	seconde	seconden seconde secondes
+35	1235	meenemen	meegenomen meenemen meeneemt meenamen meenam meeneem meenemend
+36	1236	inspireren	geïnspireerd inspireren inspirerende inspirerend inspireert inspireerde inspireer inspireerden inspirerender
+37	1237	negatief	negatieve negatief negatieven negatiefs negatiever
+38	1238	wijn	wijn wijnen wijntje
+39	1239	ondernemer	ondernemers ondernemer
+40	1240	doorgaan	doorgaan doorgaat doorgaande doorgegaan doorging doorgaand doorga doorgingen
+41	1241	samenleving	samenleving samenlevingen
+42	1242	detail	details detail
+43	1243	huur	huur huren gehuurd huurt huurde gehuurde huurden
+44	1244	loof	love lovende loof lovend looft loven loofde loofden geloofd
+45	1245	productie	productie producties produktie
+46	1246	blauwe	blauwe blauwen
+47	1247	storm	storm stormen stormt stormde storme stormden gestormd
+48	1248	onen	one oon
+49	1249	workshop	workshop workshops
+50	1250	bloed	bloed bloeit bloeien bloede bloeide bloeiend bloeiden gebloeid
+51	1251	vandaan	vandaan waarvandaan daarvandaan hiervandaan ervandaan
+52	1252	geweld	geweld
+53	1253	mede	mede
+54	1254	wereldwijd	wereldwijd wereldwijde
+55	1255	campagne	campagne campagnes
+56	1256	studeren	studeren studeerde gestudeerd studeert studeer studeerden studerend studerenden
+57	1257	negeren	negeren negeert genegeerd negeer neger negeerde negers negerin negeerden negerinnen
+58	1258	behandeling	behandeling behandelingen
+59	1259	twijfel	twijfel twijfels
+60	1260	brood	brood broodje broodjes broden brode
+61	1261	opzet	opzet opgezet opzetten opzette opzetje
+62	1262	buitenlands	buitenlandse buitenlands
+63	1263	verhuizen	verhuizen verhuisd verhuisde verhuist verhuisden verhuis
+64	1264	oranje	oranje oranjes
+65	1265	contract	contract contracten contractje
+66	1266	collectie	collectie collecties
+67	1267	neef	neef nicht nichtje neefje neven nichten
+68	1268	pro	pro pro's
+69	1269	verlopen	verlopen verloop verloopt verliep verliepen verlopend
+70	1270	bar	bar barst bars barsten barre borsten barstte gebarsten barstende barretje
+71	1271	kwaliteit	kwaliteit kwaliteiten
+72	1272	golf	golf golven golvend golft gegolfd golfde golfjes golfje
+73	1273	generatie	generatie generaties
+74	1274	papier	papier papieren papiertje papiertjes
+75	1275	meneer	meneer mijnheer meneertje meneren mijnheertje
+76	1276	kritiek	kritiek kritieke kritieken critiek
+77	1277	vrede	vrede vree vredes vreden vreed
+78	1278	bescherming	bescherming beschermingen
+79	1279	vlees	vlees vleesch
+80	1280	kleding	kleding kleeding
+81	1281	bezit	bezit
+82	1282	binnenkort	binnenkort
+83	1283	nogal	nogal
+84	1284	vrijwel	vrijwel
+85	1285	tas	tas tassen tasje
+86	1286	verjaardag	verjaardag verjaardagen
+87	1287	bewegen	bewegen beweegt bewogen beweeg bewoog bewegend
+88	1288	klassiek	klassieke klassiek klassieker klassiekers klassiekere
+89	1289	waarschuwen	waarschuwt gewaarschuwd waarschuwen waarschuwde waarschuw waarschuwden waarschuwende waarschuwend gewaarschuwde
+90	1290	ei	eieren ei eitjes eitje eike
+91	1291	alternatief	alternatief alternatieve alternatieven
+92	1292	overeenkomst	overeenkomst overeenkomsten
+93	1293	oprichten	opgericht oprichten oprichtte opricht oprichtten
+94	1294	negen	negen negens negenen
+95	1295	pers	pers persen perse geperst perzen perst geperste perste persten
+96	1296	gelegenheid	gelegenheid gelegenheden
+97	1297	buitenland	buitenland buitenlanden
+98	1298	kapot	kapot kapotte
+99	1299	aldus	aldus
+100	1300	cultureel	culturele cultureel

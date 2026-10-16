@@ -1,0 +1,100 @@
+1	9601	oprapen	oprapen opgeraapt opraapt opraapte
+2	9602	rangschikken	gerangschikt rangschikken rangschikt rangschik rangschikte
+3	9603	levenloos	levenloos levenloze
+4	9604	bies	bies biezen
+5	9605	ijzersterk	ijzersterk ijzersterke
+6	9606	uitvechten	uitvechten uitgevochten uitvocht uitvecht
+7	9607	bestelen	bestolen bestelen besteelt
+8	9608	servet	servet servetten servetje
+9	9609	opslagplaats	opslagplaats opslagplaatsen
+10	9610	simkaart	simkaart simkaarten
+11	9611	grieven	grieven grief gegriefd grieve grievend
+12	9612	surprise	surprise surprises
+13	9613	boekhouden	boekhouden boekhoud boekhoudt
+14	9614	onheil	onheil onheils onheilen
+15	9615	eigenaardig	eigenaardig eigenaardige eigenaardigs
+16	9616	misleiding	misleiding misleidingen
+17	9617	vrachtwagenchauffeur	vrachtwagenchauffeur vrachtwagenchauffeurs
+18	9618	karikatuur	karikatuur karikaturen
+19	9619	arbeidsvoorwaarde	arbeidsvoorwaarden
+20	9620	bouillon	bouillon
+21	9621	codex	codex
+22	9622	dermate	dermate
+23	9623	diplomatie	diplomatie
+24	9624	geografie	geografie
+25	9625	kalmte	kalmte
+26	9626	leukemie	leukemie
+27	9627	magister	magister
+28	9628	naargelang	naargelang
+29	9629	ongeloof	ongeloof
+30	9630	ongeslagen	ongeslagen
+31	9631	onvermogen	onvermogen
+32	9632	opperste	opperste
+33	9633	persoonsgegevens	persoonsgegevens
+34	9634	persvrijheid	persvrijheid
+35	9635	prikkeldraad	prikkeldraad
+36	9636	regeerperiode	regeerperiode
+37	9637	schizofrenie	schizofrenie
+38	9638	smeris	smeris
+39	9639	uitwerpsel	uitwerpselen
+40	9640	vanouds	vanouds
+41	9641	vochtigheid	vochtigheid
+42	9642	windenergie	windenergie
+43	9643	zulte	zulte
+44	9644	relschopper	relschoppers relschopper
+45	9645	soera	soera soera's
+46	9646	verduistering	verduistering verduisteringen
+47	9647	misplaatst	misplaatste misplaatst
+48	9648	stormachtig	stormachtige stormachtig
+49	9649	wegrijden	wegrijden weggereden wegrijdt wegreed wegreden
+50	9650	synode	synode synodes synoden
+51	9651	ontsporen	ontspoorde ontspoord ontsporen ontspoort ontspoorden ontsporende
+52	9652	spit	spit spitten gespit spitte
+53	9653	kersvers	kersverse kersvers
+54	9654	smeerlap	smeerlap smeerlappen
+55	9655	grillig	grillig grillige grilliger
+56	9656	oplevering	oplevering opleveringen
+57	9657	cartoonist	cartoonist cartoonisten
+58	9658	internetpagina	internetpagina internetpagina's
+59	9659	doorboren	doorboord doorboren doorboorde doorboort doorboorden doorborende
+60	9660	piercing	piercing piercings
+61	9661	skigebied	skigebied skigebieden
+62	9662	paranormaal	paranormale paranormaal
+63	9663	vergulden	vergulde verguld vergulden
+64	9664	beproeving	beproevingen beproeving
+65	9665	verschrikking	verschrikkingen verschrikking
+66	9666	songtekst	songteksten songtekst
+67	9667	accountmanager	accountmanager accountmanagers
+68	9668	burgerrecht	burgerrechten burgerrecht
+69	9669	opengaan	opengaan opengaat opengegaan openging opengingen
+70	9670	mint	mint mints
+71	9671	knus	knus knusse knusser knust
+72	9672	limiteren	gelimiteerde gelimiteerd limiteren limiteert
+73	9673	proportie	proporties proportie
+74	9674	weersverwachting	weersverwachting weersverwachtingen
+75	9675	bruisen	bruisend bruist bruisen bruis bruiste
+76	9676	eigenwaarde	eigenwaarde eigenwaarden
+77	9677	monetair	monetaire monetair
+78	9678	sedan	sedan sedans
+79	9679	snurken	snurken snurk snurkt snurkende snurkte snurkend
+80	9680	voorgevel	voorgevel voorgevels
+81	9681	dor	dor dorre dors
+82	9682	afbetalen	afbetalen afbetaald afbetaalt afbetaalde
+83	9683	harmonieus	harmonieus harmonieuze
+84	9684	markering	markering markeringen
+85	9685	lagune	lagune lagunes
+86	9686	classificatie	classificatie classificaties
+87	9687	zoekopdracht	zoekopdracht zoekopdrachten
+88	9688	aanvaardbaar	aanvaardbaar aanvaardbare
+89	9689	koplamp	koplampen koplamp
+90	9690	afkeuren	afkeuren afkeurt afkeur afkeurend afkeurde afkeurden
+91	9691	aak	aken aak
+92	9692	gouw	gouw goo gouwen
+93	9693	esthetisch	esthetische esthetisch
+94	9694	facet	facetten facet
+95	9695	cello	cello cello's
+96	9696	flag	flag flags
+97	9697	moleculair	moleculaire moleculair
+98	9698	verhuurder	verhuurder verhuurders
+99	9699	afhangen	afhangen afhing afhangende afhangend afgehangen
+100	9700	importeur	importeur importeurs

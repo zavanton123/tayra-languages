@@ -1,0 +1,100 @@
+1	5601	indicatie	indicatie indicaties
+2	5602	vaccin	vaccin vaccins
+3	5603	elegant	elegant elegante eleganter elegantere elegantste
+4	5604	schil	schil schillen schilde schilt schilden geschild schilletje geschilde
+5	5605	asfalt	asfalt
+6	5606	atletiek	atletiek
+7	5607	deputeren	gedeputeerde
+8	5608	gloria	gloria
+9	5609	hiphop	hiphop
+10	5610	hulde	hulde
+11	5611	joh	joh
+12	5612	maandagavond	maandagavond
+13	5613	op_komen	opkomende
+14	5614	puin	puin
+15	5615	si	si
+16	5616	sushi	sushi
+17	5617	vermindering	vermindering
+18	5618	portie	portie porties
+19	5619	kinderboek	kinderboeken kinderboek
+20	5620	zuil	zuilen zuil zuiltjes zuiltje
+21	5621	verdenking	verdenking verdenkingen
+22	5622	verstandelijk	verstandelijke verstandelijk
+23	5623	uitreiking	uitreiking uitreikingen
+24	5624	moeras	moeras moerassen
+25	5625	string	string strings stringetje
+26	5626	spijtig	spijtig spijtige
+27	5627	tussentijd	tussentijd tussentijden
+28	5628	profielfoto	profielfoto profielfoto's
+29	5629	buurland	buurlanden buurland
+30	5630	vleermuis	vleermuizen vleermuis
+31	5631	gedoopt	gedoopt gedoopte
+32	5632	bespelen	bespelen bespeelt bespeeld bespeelde bespeel bespeelden
+33	5633	opgewekt	opgewekt opgewekte opgewekter
+34	5634	afleiding	afleiding afleidingen
+35	5635	client	client clienten clients
+36	5636	vakgebied	vakgebied vakgebieden
+37	5637	glasvezel	glasvezel glasvezels
+38	5638	dynastie	dynastie dynastieën
+39	5639	eervol	eervol eervolle
+40	5640	wachttijd	wachttijd wachttijden
+41	5641	voorwaardelijk	voorwaardelijke voorwaardelijk
+42	5642	rechtszaal	rechtszaal rechtzaal rechtszalen
+43	5643	overheersen	overheerst overheersen overheersende overheerste overheersend overheersten
+44	5644	laar	laren laar laarder
+45	5645	perron	perron perrons
+46	5646	onmisbaar	onmisbaar onmisbare
+47	5647	tezamen	tezamen tesamen
+48	5648	relaxed	relaxed relaxte relaxt relaxter
+49	5649	onderliggend	onderliggende onderliggend
+50	5650	compromis	compromis compromissen
+51	5651	concern	concern concerns
+52	5652	monarchie	monarchie monarchieën
+53	5653	automobilist	automobilisten automobilist
+54	5654	globaal	globale globaal
+55	5655	mom	mom mommen
+56	5656	aanwinst	aanwinst aanwinsten
+57	5657	verdwijning	verdwijning verdwijningen
+58	5658	spreuk	spreuk spreuken
+59	5659	treinstation	treinstation treinstations
+60	5660	paraplu	paraplu paraplu's parapluutje
+61	5661	spoorweg	spoorwegen spoorweg
+62	5662	wegwezen	wegwezen weggeweest
+63	5663	marketen	market marketen
+64	5664	expliciet	expliciet expliciete explicieter
+65	5665	terugkijken	terugkijken terugkijk terugkijkend teruggekeken terugkijkt terugkeek
+66	5666	hoogland	hoogland hooglanden
+67	5667	regenwoud	regenwoud regenwouden
+68	5668	ongepast	ongepast ongepaste
+69	5669	ontvluchten	ontvluchten ontvlucht ontvluchtten ontvluchtte ontvluchte
+70	5670	afspeelt	afspeelt
+71	5671	andermans	andermans
+72	5672	datgene	datgene
+73	5673	dementie	dementie
+74	5674	goedemiddag	goedemiddag
+75	5675	horror	horror
+76	5676	medio	medio
+77	5677	och	och
+78	5678	trans	trans
+79	5679	uitstraling	uitstraling
+80	5680	bijwerking	bijwerkingen bijwerking
+81	5681	programmeur	programmeur programmeurs
+82	5682	technicus	technicus technici
+83	5683	ondergrond	ondergrond ondergronden
+84	5684	whisky	whisky whisky's
+85	5685	verwarmen	verwarmen verwarmd verwarmde verwarmt verwarm verwarmende verwarmend
+86	5686	complicatie	complicaties complicatie
+87	5687	intimideren	intimideren geïntimideerd intimiderend intimiderende intimideert intimideerde
+88	5688	tweedehands	tweedehands tweedehandse
+89	5689	afluisteren	afluisteren afgeluisterd afluisterde afluistert afgeluisterde afluister
+90	5690	vegetariër	vegetariër vegetariërs
+91	5691	speeltuin	speeltuin speeltuinen speeltuintje
+92	5692	huidskleur	huidskleur huidskleuren
+93	5693	parochie	parochie parochies
+94	5694	sol	sol sollen gesold solt solde
+95	5695	bestempelen	bestempeld bestempelen bestempelt bestempelde bestempelden
+96	5696	hervormen	hervormde hervormen hervormd hervormden hervormt
+97	5697	verlossen	verlost verlossen verlos verlossende verloste verlossend
+98	5698	canvas	canvas canvassen
+99	5699	anker	anker ankers
+100	5700	staatshoofd	staatshoofd staatshoofden

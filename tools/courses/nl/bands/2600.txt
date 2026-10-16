@@ -1,0 +1,100 @@
+1	2501	redactie	redactie redacties
+2	2502	pauze	pauze pauzes
+3	2503	correct	correct correcte correcter
+4	2504	aanbrengen	aangebracht aanbrengen aangebrachte aanbrengt aanbracht aanbreng aanbrachten
+5	2505	begeleiden	begeleid begeleiden begeleidt begeleidde begeleide begeleidend begeleidden
+6	2506	inkomst	inkomsten inkomst
+7	2507	muzikant	muzikanten muzikant muzikante
+8	2508	chocolade	chocolade chocola
+9	2509	omvang	omvang
+10	2510	waarover	waarover
+11	2511	are	are ares aren
+12	2512	verbazen	verbaast verbazen verbazend verbaas verbaasde verbazende verbaasden
+13	2513	jaloers	jaloers jaloerse
+14	2514	grootte	grootte groottes grootten
+15	2515	strak	strak strakke strakker strakkere strakste strakjes
+16	2516	basisschool	basisschool basisscholen
+17	2517	gemeentelijk	gemeentelijke gemeentelijk
+18	2518	innovatie	innovatie innovaties
+19	2519	lamp	lamp lampen lampje
+20	2520	mix	mix mixen gemixt mixt gemixte mixte mixten
+21	2521	onvoldoende	onvoldoende onvoldoendes
+22	2522	verbieden	verbieden verbiedt verbood verbied
+23	2523	vierkant	vierkante vierkant vierkanten vierkantje vierkanter
+24	2524	kruipen	kruipen kruipt kruip gekropen kroop kruipend kropen
+25	2525	perspectief	perspectief perspectieven
+26	2526	wc	wc wc's
+27	2527	geheugen	geheugen geheugens
+28	2528	investering	investeringen investering
+29	2529	vervallen	vervallen verval vervalt verviel vervielen vervallende
+30	2530	nep	nep neppe nepper neppers
+31	2531	moraal	morele moraal moreel moralen moreels
+32	2532	zeilen	zeilen zeil gezeild zeilde zeilt zeilden zeilend zeilende zeiltje
+33	2533	ondergaan	ondergaan ondergaat onderging ondergingen onderga ondergegaan
+34	2534	westelijk	westelijke westelijk westelijker westelijkste
+35	2535	duo	duo duo's
+36	2536	oefening	oefening oefeningen
+37	2537	box	box boxen boxje
+38	2538	jacht	jacht jachten
+39	2539	aanhanger	aanhangers aanhanger
+40	2540	onbekend	onbekend onbekends onbekendere
+41	2541	gemengd	gemengd gemengde
+42	2542	infrastructuur	infrastructuur infrastructuren
+43	2543	poster	poster posters
+44	2544	afkomst	afkomst afkomsten
+45	2545	oorsprong	oorsprong oorsprongen
+46	2546	appel	appel appels appeltje appèl appelen
+47	2547	binnenstad	binnenstad binnensteden
+48	2548	amper	amper
+49	2549	daaraan	daaraan
+50	2550	elders	elders
+51	2551	jawel	jawel
+52	2552	voortaan	voortaan
+53	2553	diner	diner diners dinertje dineetje
+54	2554	zout	zout zoute zouten gezouten zouter zoutje
+55	2555	verpesten	verpest verpesten verpeste verpestte
+56	2556	doorgeven	doorgeven doorgegeven doorgeeft doorgaf doorgaven doorgeef doorgave
+57	2557	gevangene	gevangene gevangenen
+58	2558	danken	danken dankt dankte danke gedankt dankten
+59	2559	collectief	collectieve collectief collectieven
+60	2560	bestelling	bestelling bestellingen
+61	2561	communiceren	communiceren communiceert gecommuniceerd communiceer communiceerden communiceerde communicerende
+62	2562	boel	boel boele boeltje boelen
+63	2563	verrichten	verricht verrichten verrichtte verrichte verrichtten
+64	2564	diegene	diegene diegenen
+65	2565	beest	beest beesten beestje beessie
+66	2566	wekken	wekken gewekt wekt wekte wek wekten gewekte wekkend
+67	2567	slaapkamer	slaapkamer slaapkamers
+68	2568	rechtszaak	rechtszaak rechtszaken rechtzaak
+69	2569	bereikbaar	bereikbaar bereikbare
+70	2570	slepen	slepen sleep gesleept sleepte sleept sleepten slepend
+71	2571	benaderen	benaderd benaderen benaderde benadert benader benaderden
+72	2572	grootvader	grootvader grootmoeder grootmoeders grootvaders
+73	2573	koffer	koffer koffers koffertje
+74	2574	broeder	broeders broeder broederen
+75	2575	afwijzen	afgewezen afwijzen afwijst afwees afwijzend afwezen afwijs
+76	2576	explosie	explosie explosies
+77	2577	order	order orders
+78	2578	kolonel	kolonel kolonels
+79	2579	specialiseren	gespecialiseerd specialiseren specialiseert specialiseerde specialiseer specialiseerden
+80	2580	nood	nood noden node noodt
+81	2581	score	score scores
+82	2582	put	put putten putte putje putjes geput
+83	2583	hal	hal hallen halden
+84	2584	variëren	variëren varieert gevarieerd variërend varieerden variërende varieerde gevarieerder varieer
+85	2585	gaaf	gaaf gave gaafste gavere gaver gaafs gavers gaven gaves
+86	2586	gok	gok gokken gokje gegokt gokt gokte gokten
+87	2587	betreffende	betreffende
+88	2588	destijds	destijds
+89	2589	eh	eh
+90	2590	onszelf	onszelf
+91	2591	kok	kok koks kokkin kokken
+92	2592	coalitie	coalitie coalities
+93	2593	opgroeien	opgegroeid opgroeien opgroeide opgroeit opgroeiden opgegroeide opgroeiend
+94	2594	langdurig	langdurige langdurig langduriger
+95	2595	verkrachten	verkracht verkrachten verkrachtte verkrachte verkrachtende verkrachtten
+96	2596	woonplaats	woonplaats woonplaatsen
+97	2597	special	special specials specialer
+98	2598	grondwet	grondwet grondwetten
+99	2599	context	context contexten
+100	2600	slang	slang slangen slangetje

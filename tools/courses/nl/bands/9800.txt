@@ -1,0 +1,100 @@
+1	9701	stang	stang stangen stange steng
+2	9702	overheidsdienst	overheidsdiensten overheidsdienst
+3	9703	laatstgenoemde	laatstgenoemde laatstgenoemden
+4	9704	jojo	jojo jojo's
+5	9705	medaillon	medaillon medaillons
+6	9706	vergaderzaal	vergaderzaal vergaderzalen
+7	9707	bemoeienis	bemoeienis bemoeienissen
+8	9708	bemiddelaar	bemiddelaar bemiddelaars
+9	9709	ongevoelig	ongevoelig ongevoelige ongevoeliger
+10	9710	schans	schans schansen
+11	9711	wachtrij	wachtrij wachtrijen
+12	9712	hoogstaand	hoogstaande hoogstaand
+13	9713	heropenen	heropend heropenen heropende heropent
+14	9714	miep	miep miepen
+15	9715	korst	korst korsten korstje
+16	9716	lantaarnpaal	lantaarnpaal lantaarnpalen
+17	9717	uurwerk	uurwerk uurwerken
+18	9718	twintiger	twintiger twintigers
+19	9719	kwel	kwel gekweld kwellen kwelt kwellende kwelde kwellend
+20	9720	kalenderjaar	kalenderjaar kj kalenderjaren
+21	9721	dichtbevolkt	dichtbevolkte dichtbevolkt dichtstbevolkte
+22	9722	oase	oase oases oasen
+23	9723	principieel	principieel principiële
+24	9724	sanering	sanering saneringen
+25	9725	bedevaart	bedevaart bedevaarten
+26	9726	buitensporig	buitensporig buitensporige
+27	9727	strippen	strippen gestript stript gestripte strippende
+28	9728	anderszins	anderszins
+29	9729	beige	beige
+30	9730	betoger	betogers
+31	9731	bil	bil
+32	9732	burgemeesterschap	burgemeesterschap
+33	9733	demo	demo's
+34	9734	doorstart	doorstart
+35	9735	duizelig	duizelig
+36	9736	dwangarbeid	dwangarbeid
+37	9737	emigratie	emigratie
+38	9738	halal	halal
+39	9739	infanterie	infanterie
+40	9740	ingewanden	ingewanden
+41	9741	linksaf	linksaf
+42	9742	meel	meel
+43	9743	nada	nada
+44	9744	optiek	optiek
+45	9745	psyche	psyche
+46	9746	schilderkunst	schilderkunst
+47	9747	tegenzin	tegenzin
+48	9748	veeleer	veeleer
+49	9749	verreweg	verreweg
+50	9750	verschiet	verschiet
+51	9751	vijfduizend	vijfduizend
+52	9752	voorliefde	voorliefde
+53	9753	vergiftiging	vergiftiging vergiftigingen
+54	9754	cursist	cursisten cursist
+55	9755	attractiepark	attractiepark attractieparken
+56	9756	ether	ether ethers
+57	9757	ballerina	ballerina ballerina's
+58	9758	kalkoen	kalkoen kalkoenen
+59	9759	censureren	gecensureerd censureert censureren gecensureerde censureerde
+60	9760	hardloper	hardlopers hardloper hardloopster
+61	9761	ets	ets etsen geëtst geëtste
+62	9762	fiche	fiche fiches
+63	9763	gevechtsvliegtuig	gevechtsvliegtuigen gevechtsvliegtuig
+64	9764	hendel	hendel hendels hendeltje
+65	9765	wemelen	wemelt wemel wemelde wemelen
+66	9766	fenomenaal	fenomenaal fenomenale
+67	9767	toonbank	toonbank toonbanken
+68	9768	braden	braden gebraden braad braadt
+69	9769	biljoen	biljoen biljoenen
+70	9770	gazelle	gazelle gazellen
+71	9771	adjudant	adjudant adjudanten
+72	9772	jaartal	jaartal jaartallen
+73	9773	bijhorend	bijhorende bijhorend
+74	9774	believen	believe believen belief belieft
+75	9775	ombrengen	omgebracht ombrengen ombracht ombrengt omgebrachte
+76	9776	libel	libelle libellen libel
+77	9777	riek	riekt riek rieke rieken riekende riekje rookt geroken roke
+78	9778	machtiging	machtiging machtigingen
+79	9779	berk	berk berken
+80	9780	hartig	hartig hartige
+81	9781	collaborateur	collaborateur collaborateurs
+82	9782	pikant	pikante pikant
+83	9783	onderschrijven	onderschrijven onderschrijft onderschreven onderschrijf onderschreef
+84	9784	koker	koker kokers kokertje
+85	9785	boeking	boeking boekingen
+86	9786	nalatigheid	nalatigheid nalatigheden
+87	9787	marechaussee	marechaussee marechaussees
+88	9788	triatlon	triatlon triatlons
+89	9789	weerwolf	weerwolf weerwolven weerwolfje
+90	9790	medicinaal	medicinale medicinaal
+91	9791	trigger	trigger triggers
+92	9792	voorspoedig	voorspoedig voorspoedige
+93	9793	afstellen	afgesteld afstellen afstel
+94	9794	voortduren	voortduren voortduurt voortduurde voortgeduurd
+95	9795	bedrijfsleider	bedrijfsleider bedrijfsleiders
+96	9796	inspannen	inspannen ingespannen inspannend inspant inspande
+97	9797	theologisch	theologische theologisch
+98	9798	fix	fix fixes
+99	9799	dancing	dancing dancings
+100	9800	ondankbaar	ondankbaar ondankbare

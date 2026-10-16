@@ -1,0 +1,100 @@
+1	3401	hbo	hbo
+2	3402	horeca	horeca
+3	3403	neen	neen
+4	3404	weduwe	weduwe weduwnaar weduwen weduwnaars weduwes
+5	3405	betrappen	betrapt betrappen betrapte betrap betrapten
+6	3406	cartoon	cartoon cartoons
+7	3407	begraafplaats	begraafplaats begraafplaatsen
+8	3408	tal	tal tallen
+9	3409	inpakken	inpakken ingepakt ingepakte inpak inpakt inpakte
+10	3410	prominent	prominente prominent prominenten prominenter prominentere prominentste
+11	3411	rondlopen	rondlopen rondloopt rondliep rondgelopen rondloop rondliepen rondlopende rondlopend
+12	3412	hervorming	hervorming hervormingen
+13	3413	sok	sokken sok sokje
+14	3414	volume	volume volumes
+15	3415	bizar	bizarre bizar bizarste
+16	3416	vermelding	vermelding vermeldingen
+17	3417	vertraging	vertraging vertragingen
+18	3418	interactief	interactieve interactief
+19	3419	ne	ne nen
+20	3420	checken	checken gecheckt checkt checkte checkten
+21	3421	aangaan	aangaan aangaat aangegaan aanging aangingen aangegane aanga
+22	3422	pijl	pijl pijlen pijltje pijltjes
+23	3423	zuiver	zuiver zuivere zuiverste zuiverder
+24	3424	departement	departement departementen
+25	3425	meewerken	meewerken meegewerkt meewerkt meewerkend meewerkte meewerkende meewerkten meewerk
+26	3426	historie	historie historiën
+27	3427	uiting	uiting uitingen
+28	3428	grondig	grondig grondige grondiger
+29	3429	veroordelen	veroordelen veroordeelt veroordeel veroordeelden veroordelend
+30	3430	campus	campus campussen
+31	3431	producer	producer producers
+32	3432	vervanging	vervanging vervangingen
+33	3433	allang	allang
+34	3434	bijeen	bijeen
+35	3435	dé	dé
+36	3436	hartstikke	hartstikke
+37	3437	her	her
+38	3438	hitte	hitte
+39	3439	leiderschap	leiderschap
+40	3440	visueel	visuele visueel
+41	3441	os	os ossen
+42	3442	richtlijn	richtlijn richtlijnen
+43	3443	aanklagen	aangeklaagd aanklagen aanklaagt aanklaagde aanklaagden
+44	3444	tablet	tablet tablets tabletten tabletje
+45	3445	gram	gram grammer grammen grammetje
+46	3446	analyseren	analyseren geanalyseerd analyseert analyseerde analyseer analyseerden geanalyseerde
+47	3447	retweeten	geretweet retweeten retweet retweets retweette
+48	3448	interesseren	interesseert interesseren interesseerde interesseer interesseerden
+49	3449	betaalbaar	betaalbare betaalbaar betaalbaarder
+50	3450	wanhopig	wanhopig wanhopige wanhopiger wanhopigen
+51	3451	verbouwing	verbouwing verbouwingen
+52	3452	wachtwoord	wachtwoord wachtwoorden
+53	3453	gieten	gegoten gieten goot giet goten gote gootjes
+54	3454	slikken	slikken slik slikt geslikt slikte slikten slikke slikkende
+55	3455	ontdekking	ontdekking ontdekkingen
+56	3456	frequentie	frequentie frequenties
+57	3457	legende	legende legendes legenden
+58	3458	heus	heus heuse
+59	3459	academisch	academische academisch
+60	3460	duif	duiven duif duifje doffer duifjes
+61	3461	koelkast	koelkast koelkasten koelkastje
+62	3462	oppervlak	oppervlak oppervlakken
+63	3463	overtuiging	overtuiging overtuigingen
+64	3464	poëzie	poëzie poezie
+65	3465	schaap	schaap schapen schaapje
+66	3466	soortgelijk	soortgelijke soortgelijk soortgelijks
+67	3467	definiëren	gedefinieerd definiëren definieert gedefinieerde definieer definieerde
+68	3468	uitkijken	uitkijken uitgekeken uitkijk uitkijkt uitkeek uitkijkend uitkeken
+69	3469	ambassade	ambassade ambassades
+70	3470	academie	academie akademie academies
+71	3471	smelten	smelten smelt gesmolten smeltende smolt smolten smeltend
+72	3472	voorstander	voorstander voorstanders
+73	3473	realistisch	realistisch realistische realistischer realistischere
+74	3474	giftig	giftige giftig giftigste giftiger
+75	3475	voordoen	voordoen voordoet voorgedaan voordeed voordeden voordoend voordoende
+76	3476	corrupt	corrupte corrupt corrupter
+77	3477	gans	gans ganse ganzen ganser gansje gansch gansen
+78	3478	thuiskomen	thuiskomen thuiskomt thuiskwam thuisgekomen thuiskom thuiskwamen
+79	3479	opvolgen	opgevolgd opvolgen opvolgt opvolgde opvolgend opvolgden opvolg
+80	3480	strijder	strijders strijder strijdster
+81	3481	diepte	diepte diepten dieptes
+82	3482	communistisch	communistische communistisch
+83	3483	bemanning	bemanning bemanningen
+84	3484	moeilijkheid	moeilijkheden moeilijkheid
+85	3485	afgeven	afgegeven afgeven afgeeft afgaf afgeef afgaven
+86	3486	bekennen	bekennen bekent beken bekenden bekennende
+87	3487	applicatie	applicatie applicaties
+88	3488	tweeten	tweeten getweet tweette tweetten
+89	3489	fatsoenlijk	fatsoenlijke fatsoenlijk fatsoenlijks fatsoenlijker
+90	3490	zwaard	zwaard zwaarden
+91	3491	agrarisch	agrarische agrarisch
+92	3492	filosofie	filosofie filosofieën
+93	3493	universeel	universele universeel
+94	3494	dramatisch	dramatisch dramatische dramatischer
+95	3495	alhoewel	alhoewel
+96	3496	anderzijds	anderzijds
+97	3497	audio	audio
+98	3498	beleg	beleg
+99	3499	brandweer	brandweer
+100	3500	duidelijkheid	duidelijkheid

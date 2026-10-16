@@ -1,0 +1,100 @@
+1	5801	dos	dos dossen
+2	5802	klasgenoot	klasgenoten klasgenoot klasgenootje
+3	5803	pater	pater paters
+4	5804	blokkade	blokkade blokkades
+5	5805	geduldig	geduldig geduldige geduldiger
+6	5806	populatie	populatie populaties
+7	5807	volbrengen	volbracht volbrengen volbrengt volbrachten volbrachte volbreng
+8	5808	overplaatsen	overgeplaatst overplaatsen overgeplaatste overplaats
+9	5809	spandoek	spandoek spandoeken
+10	5810	spoorlijn	spoorlijn spoorlijnen spoorlijntje
+11	5811	automaat	automaat automaten automaatje
+12	5812	lepel	lepel lepels lepeltje
+13	5813	biodiversiteit	biodiversiteit
+14	5814	daaronder	daaronder
+15	5815	duisternis	duisternis
+16	5816	ethiek	ethiek
+17	5817	hechtenis	hechtenis
+18	5818	jonassen	jonas
+19	5819	onderdrukking	onderdrukking
+20	5820	ontspanning	ontspanning
+21	5821	opluchting	opluchting
+22	5822	rechtvaardigheid	rechtvaardigheid
+23	5823	toewijding	toewijding
+24	5824	um	um
+25	5825	verdorie	verdorie
+26	5826	verscheidenheid	verscheidenheid
+27	5827	vormgeving	vormgeving
+28	5828	republikein	republikeinen republikein
+29	5829	duiker	duiker duikers duikertje
+30	5830	bewerkstelligen	bewerkstelligen bewerkstelligd bewerkstelligt bewerkstelligde
+31	5831	scheef	scheef scheve schever
+32	5832	terugsturen	teruggestuurd terugsturen terugstuurt terugstuurde
+33	5833	gala	gala gala's
+34	5834	besmettelijk	besmettelijk besmettelijke besmettelijker
+35	5835	vitaal	vitale vitaal vitaler
+36	5836	stichter	stichter stichters
+37	5837	aanbieder	aanbieder aanbieders
+38	5838	meedelen	meegedeeld meedelen mededelen medegedeeld meedeelt meedeelde mededeelde
+39	5839	hartslag	hartslag hartslagen
+40	5840	bankrekening	bankrekening bankrekeningen
+41	5841	zegel	zegel zegels zegeltjes
+42	5842	nalatenschap	nalatenschap nalatenschappen
+43	5843	oudheid	oudheid oudheden
+44	5844	bitcoin	bitcoin bitcoins
+45	5845	schoorsteen	schoorsteen schoorstenen
+46	5846	tolk	tolk tolken tolke
+47	5847	opbrengen	opbrengen opgebracht opbrengt opbracht opgebrachte opbrachten opbrengende
+48	5848	antibioticum	antibiotica antibioticum
+49	5849	filteren	filteren gefilterd filtert gefilterde filterde
+50	5850	geplaatste	geplaatste geplaatsten
+51	5851	ark	ark arken
+52	5852	fiat	fiat fiats
+53	5853	drempel	drempel drempels
+54	5854	vagina	vagina vagina's
+55	5855	loterij	loterij loterijen
+56	5856	zonsopgang	zonsopgang zonsopgangen
+57	5857	discrimineren	gediscrimineerd discrimineren discriminerende discriminerend discrimineert discrimineer discrimineerde gediscrimineerde
+58	5858	voordragen	voorgedragen voordragen voordraagt voordroeg voordroegen
+59	5859	gelijkaardig	gelijkaardige gelijkaardig gelijkaardigs
+60	5860	intact	intact intacte
+61	5861	nachtelijk	nachtelijke nachtelijk
+62	5862	spelling	spelling spellingen
+63	5863	ontlopen	ontlopen ontloopt ontliep ontloop ontliepen
+64	5864	gangbaar	gangbare gangbaar gangbaarder
+65	5865	verslaving	verslaving verslavingen
+66	5866	onderscheppen	onderschept onderscheppen onderschepte onderschepten
+67	5867	majesteit	majesteit majesteits majesteiten
+68	5868	citroen	citroen citroenen citroentje
+69	5869	ambacht	ambacht ambachten
+70	5870	vordering	vorderingen vordering
+71	5871	drum	drums drum
+72	5872	jurylid	juryleden jurylid
+73	5873	raven	raven rave ravens raves
+74	5874	belemmeren	belemmeren belemmerd belemmert belemmerde belemmerden belemmerend
+75	5875	tevergeefs	tevergeefs tevergeefse
+76	5876	vernieling	vernieling vernielingen
+77	5877	mandaat	mandaat mandaten
+78	5878	bewapenen	bewapend bewapende bewapenen bewapent bewapen
+79	5879	kleindochter	kleindochter kleindochters
+80	5880	evangelie	evangelie evangeliën evangelies
+81	5881	lijm	lijm lijmen gelijmd lijmt gelijmde lijmde
+82	5882	krokodil	krokodil krokodillen
+83	5883	para	para para's
+84	5884	afwisselend	afwisselend afwisselende afwisselender
+85	5885	afdoen	afgedaan afdoen afdoende afdoet afdoend afdeed afdeden
+86	5886	voltooien	voltooien voltooi voltooide voltooit voltooiden
+87	5887	werkgroep	werkgroep werkgroepen
+88	5888	plantage	plantage plantages
+89	5889	afstemmen	afgestemd afstemmen afgestemde afstemt
+90	5890	afvuren	afgevuurd afvuren afvuurt afgevuurde afvuurde afvuurden
+91	5891	ruig	ruige ruig ruiger ruigere ruigste
+92	5892	doorsnee	doorsnee doorsneden
+93	5893	bewaking	bewaking
+94	5894	borstkanker	borstkanker
+95	5895	derhalve	derhalve
+96	5896	documentatie	documentatie
+97	5897	expres	expres
+98	5898	langzamerhand	langzamerhand
+99	5899	maffia	maffia
+100	5900	medeleven	medeleven

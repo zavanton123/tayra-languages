@@ -1,0 +1,100 @@
+1	2201	gerust	gerust geruster
+2	2202	vermijden	vermijden vermeden vermijd vermijdt vermeed vermijdend
+3	2203	elftal	elftal elftallen
+4	2204	waarschuwing	waarschuwing waarschuwingen
+5	2205	aanhouden	aangehouden aanhouden aanhoudt aanhoudend aanhield aanhielden aanhoud
+6	2206	mes	mes messen mesje
+7	2207	kaas	kaas kazen kaasje
+8	2208	durf	durf
+9	2209	vandaar	vandaar
+10	2210	vannacht	vannacht
+11	2211	zand	zand
+12	2212	beperken	beperken beperkte beperk beperkten beperkende beperkend
+13	2213	specialist	specialist specialisten specialiste
+14	2214	vies	vies vieze viezer vieste
+15	2215	kerst	kerst kersten
+16	2216	uitgave	uitgave uitgaven uitgaves
+17	2217	uitbreiding	uitbreiding uitbreidingen
+18	2218	blazen	blazen blaast blaas geblazen blies blaze bliezen blaasjes blaasje blazend
+19	2219	onthouden	onthouden onthoud onthoudt onthou onthield onthielden
+20	2220	zijde	zijde zijden zijdes
+21	2221	ingrijpen	ingrijpen ingrijpende ingreep ingrijpend ingrepen ingegrepen ingrijpt ingrijpender
+22	2222	vertegenwoordiger	vertegenwoordiger vertegenwoordigers vertegenwoordigster
+23	2223	rob	rob robben
+24	2224	omschrijven	omschreven omschrijven omschrijft omschreef omschrijf omgeschreven
+25	2225	schamen	schaam schamen schaamt schaamde schaamden geschaamd
+26	2226	tante	tante tantes
+27	2227	avontuur	avontuur avonturen avontuurtje
+28	2228	sloop	gesloopt sloop slopen sloopt gesloopte sloopte slopend slope sloopten
+29	2229	glimlach	glimlach glimlachen glimlachte glimlacht glimlachend glimlachje glimlachende glimlachten geglimlacht
+30	2230	introduceren	geïntroduceerd introduceert introduceerde introduceren introduceer introduceerden
+31	2231	beslissen	beslissen besliste beslis beslissend beslisten
+32	2232	extern	externe extern externen
+33	2233	tropisch	tropische tropisch
+34	2234	portret	portret portretten portretje portretjes
+35	2235	dringend	dringend dringende dringender
+36	2236	werking	werking werkingen
+37	2237	schoonheid	schoonheid schoonheden
+38	2238	storen	store stoort storen stoor stoorde storend stoorden
+39	2239	defensie	defensie
+40	2240	gescheiden	gescheiden
+41	2241	vijfde	vijfde
+42	2242	spiegel	spiegel spiegels spiegeltje
+43	2243	geestelijke	geestelijke geestelijken
+44	2244	oscar	oscar oscars
+45	2245	moordenaar	moordenaar moordenaars moordenares
+46	2246	uitgaan	uitgaan uitgaat uitgegaan uitging uitgaand uitgingen uitga
+47	2247	schuiven	schuiven geschoven schuif schuift schoof schoven schuifje schuivend
+48	2248	voorraad	voorraad voorraden voorraadje
+49	2249	schouder	schouders schouder
+50	2250	lijf	lijf lijve lijven lijfje lijft lijfjes lijfde
+51	2251	gewonde	gewonden gewonde
+52	2252	metro	metro metro's
+53	2253	subsidie	subsidie subsidies
+54	2254	definitie	definitie definities
+55	2255	beëindigen	beëindigen beëindigd beëindigt beëindigde beëindig beëindigden
+56	2256	secretaris	secretaris secretaresse secretaresses secretarissen secretaressen
+57	2257	procedure	procedure procedures
+58	2258	rus	russen rus russin
+59	2259	roos	roos rozen roosje
+60	2260	hakken	hakken hak gehakt hakt hakte hakje gehakte hakten
+61	2261	federaal	federale federaal
+62	2262	cover	cover covers
+63	2263	sponsor	sponsor sponsoren gesponsord sponsors gesponsorde sponsort sponsorde sponsorden
+64	2264	groeten	groeten groet gegroet groette groete groetten groetje
+65	2265	verstand	verstand verstande
+66	2266	dvd	dvd dvd's
+67	2267	bijbel	bijbel bijbels
+68	2268	aantrekken	aangetrokken aantrekken aantrekt aantrok aantrek aantrokken
+69	2269	dringen	dringen dringt drong drongen gedrongen dring
+70	2270	bedekken	bedekt bedekken bedekte bedek bedekten bedekkend
+71	2271	zelfmoord	zelfmoord zelfmoorden
+72	2272	lek	lek lekken lekt lekke gelekt lekkere lekte lekkers lekkend lekten
+73	2273	toerist	toeristen toerist toeriste
+74	2274	snelweg	snelweg snelwegen
+75	2275	kern	kern kernen
+76	2276	voorziening	voorzieningen voorziening
+77	2277	alcohol	alcohol alcoholen alkohol
+78	2278	taxi	taxi taxi's
+79	2279	beker	beker bekers bekertje
+80	2280	air	air airs
+81	2281	verenigen	verenigde verenigen verenigt verenig verenigden verenigende
+82	2282	statistiek	statistieken statistiek
+83	2283	gaande	gaande
+84	2284	gauw	gauw
+85	2285	joe	joe
+86	2286	terugkeer	terugkeer
+87	2287	zilver	zilver
+88	2288	toren	toren torens torentje
+89	2289	schitterend	schitterend schitterende schitterendste
+90	2290	beslag	beslag beslagen
+91	2291	hoorn	hoorn hoorns hoorntje hoorntjes hoornen
+92	2292	daadwerkelijk	daadwerkelijk daadwerkelijke
+93	2293	reiziger	reizigers reiziger
+94	2294	oprichter	oprichter oprichters
+95	2295	drama	drama drama's
+96	2296	priester	priester priesters priesteres priesteressen
+97	2297	overval	overval overvallen overvalt overviel overvielen
+98	2298	fris	frisse fris frisser frist frisch frisje frissere
+99	2299	duel	duel duels
+100	2300	verf	verf verven geverfd geverfde verve verwen verft verfde verfje verfden

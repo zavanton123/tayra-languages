@@ -1,0 +1,100 @@
+1	8001	naoorlogs	naoorlogse naoorlogs
+2	8002	drijfveer	drijfveren drijfveer
+3	8003	omtoveren	omgetoverd omtoveren omtoverde omtovert
+4	8004	overbelasten	overbelast overbelaste overbelasten
+5	8005	plusser	plussers plusser
+6	8006	barbaar	barbaren barbaar
+7	8007	ontkenning	ontkenning ontkenningen
+8	8008	zoogdier	zoogdieren zoogdier
+9	8009	inlichten	ingelicht inlichten inlicht inlichtte
+10	8010	bekostigen	bekostigen bekostigd bekostigde bekostigt
+11	8011	mediterraan	mediterrane mediterraan
+12	8012	sweater	sweater sweaters
+13	8013	complexiteit	complexiteit complexiteiten
+14	8014	beschadiging	beschadiging beschadigingen
+15	8015	prikkel	prikkels prikkel
+16	8016	dwalen	dwalen dwaalt dwaal dwaalde dwalende dwalend dwaalden gedwaald
+17	8017	mees	mees mezen
+18	8018	afbranden	afgebrand afbranden afbrandde afbrandt afbrandden
+19	8019	panne	panne pannes
+20	8020	projecteren	projecteren geprojecteerd projecteert geprojecteerde projecteerde projecteer projecteerden
+21	8021	uitkleden	uitkleden uitgekleed uitgeklede uitkleedt uitkleed uitkleedde
+22	8022	verdringen	verdrongen verdringen verdringt verdrong
+23	8023	bebouwing	bebouwing bebouwingen
+24	8024	rondrijden	rondrijden rondrijdt rondgereden rondreed rondreden
+25	8025	overmatig	overmatig overmatige
+26	8026	molecuul	moleculen molecuul molecule
+27	8027	aanwenden	aangewend aanwenden aanwendt aangewende aanwendde
+28	8028	rinkelen	rinkelen rinkelt rinkel rinkelende rinkelde
+29	8029	buitengebied	buitengebied buitengebieden
+30	8030	uitzendbureau	uitzendbureau uitzendbureaus
+31	8031	afslaan	afgeslagen afslaan afslaat afsloeg afslaand afsloegen
+32	8032	worp	worp worpen
+33	8033	molenaar	molenaar molenaars
+34	8034	overzichtelijk	overzichtelijk overzichtelijker overzichtelijke
+35	8035	motorrijder	motorrijders motorrijder
+36	8036	dip	dip dipje dippen dips gedipt
+37	8037	omdopen	omgedoopt omdopen omgedoopte
+38	8038	verzuimen	verzuim verzuimd verzuimt verzuimde verzuimen verzuimden
+39	8039	ademhalen	ademhalen ademhaalt
+40	8040	opsporing	opsporing opsporingen
+41	8041	terugzien	terugzien teruggezien terugziet terugzie terugzag
+42	8042	tjonge	tjonge sjonge
+43	8043	schatkist	schatkist schatkisten
+44	8044	verblinden	verblind verblinden verblindend verblindt verblindende verblinde verblindde
+45	8045	doorwerken	doorwerken doorgewerkt doorwerkt doorwerkte
+46	8046	sporadisch	sporadisch sporadische
+47	8047	hoofdweg	hoofdweg hoofdwegen
+48	8048	goochelaar	goochelaar goochelaars
+49	8049	autonomie	autonomie
+50	8050	avondklok	avondklok
+51	8051	boe	boe
+52	8052	driekwart	driekwart
+53	8053	energieverbruik	energieverbruik
+54	8054	kustwacht	kustwacht
+55	8055	loep	loep
+56	8056	minachting	minachting
+57	8057	nachtrust	nachtrust
+58	8058	onderwereld	onderwereld
+59	8059	roet	roet
+60	8060	titanium	titanium
+61	8061	tweeduizend	tweeduizend
+62	8062	waterland	waterland
+63	8063	winning	winning
+64	8064	zeespiegel	zeespiegel
+65	8065	onwetend	onwetend onwetende
+66	8066	kaag	koog kaag kagen
+67	8067	verstellen	versteld verstellen verstel verstelt verstelde
+68	8068	keyboard	keyboard keyboards
+69	8069	bebouwen	bebouwde bebouwd bebouwen
+70	8070	kandidatuur	kandidatuur kandidaturen
+71	8071	bevechten	bevechten bevochten bevecht bevocht
+72	8072	zzp'er	zzp'ers zzp'er
+73	8073	bout	bout bouten boutje boute boutjes
+74	8074	privébericht	pb privébericht privéberichten
+75	8075	ongemerkt	ongemerkt ongemerkte
+76	8076	wereldbeeld	wereldbeeld wereldbeelden
+77	8077	uitlachen	uitlachen uitgelachen uitlacht uitlachte uitlachten
+78	8078	spelregel	spelregels spelregel
+79	8079	protestant	protestanten protestant
+80	8080	simulatie	simulatie simulaties
+81	8081	lozen	lozen geloosd loze loost loosde loosden
+82	8082	lineair	lineaire lineair
+83	8083	ambachtelijk	ambachtelijke ambachtelijk
+84	8084	lader	lader laders
+85	8085	boodschapper	boodschapper boodschappers
+86	8086	masturberen	masturberen masturbeert masturbeer gemasturbeerd masturbeerde masturberende masturberend
+87	8087	pronken	pronken pronk pronkt pronkte pronkten
+88	8088	kookplaat	kookplaat kookplaten
+89	8089	verdergaan	verdergaan verdergaat verdergegaan verderging verdergaand
+90	8090	delicaat	delicate delicaat
+91	8091	overstromen	overstroomd overstroomde overstromen overstroomt overstroomden overstromende
+92	8092	stembus	stembus stembussen
+93	8093	belastinggeld	belastinggeld belastinggelden
+94	8094	overwerken	overwerken overwerk overwerkt overwerkte overgewerkt
+95	8095	sarren	sar sart sarren sarde
+96	8096	neushoorn	neushoorn neushoorns
+97	8097	zakdoek	zakdoek zakdoekje zakdoeken
+98	8098	achterdeur	achterdeur achterdeurtje achterdeuren
+99	8099	imperium	imperium imperia imperiums
+100	8100	pluim	pluim pluimen pluimpje pluimpjes

@@ -1,0 +1,100 @@
+1	2301	luxe	luxe luxere luxer
+2	2302	zoektocht	zoektocht zoektochten
+3	2303	bestemming	bestemming bestemmingen
+4	2304	kleden	gekleed kleden kleed kleedje kleedt kleedjes kleedde kleedden klederen
+5	2305	promotie	promotie promoties
+6	2306	ontvoeren	ontvoerd ontvoerde ontvoeren ontvoert ontvoer ontvoerden
+7	2307	monster	monster monsters monstertje
+8	2308	patroon	patroon patronen patroons
+9	2309	aap	aap apen aapje aapjes apie aapt
+10	2310	munt	munt munten gemunt muntjes muntje munte muntte
+11	2311	ah	ah ah's
+12	2312	impact	impact impacts
+13	2313	schoonmaken	schoonmaken schoongemaakt schoonmaak schoonmaakt schoongemaakte schoonmaakte
+14	2314	bijten	bijten beet bijt gebeten bijtende beten bijtend bete bijtje
+15	2315	onzeker	onzeker onzekere onzekerder
+16	2316	stabiel	stabiel stabiele stabieler stabielere stabielste
+17	2317	dun	dun dunne dunner dunnere dunste dunst duns
+18	2318	toegeven	toegeven toegegeven toegeeft toegaf toegaven toegevend toegeef
+19	2319	ad	ad
+20	2320	business	business
+21	2321	ellende	ellende
+22	2322	haast	haast
+23	2323	intussen	intussen
+24	2324	melk	melk
+25	2325	ofwel	ofwel
+26	2326	zojuist	zojuist
+27	2327	consument	consumenten consument
+28	2328	zekerheid	zekerheid zekerheden zekerheidje
+29	2329	onderscheiden	onderscheiden onderscheidt onderscheidend onderscheidde onderscheidden
+30	2330	binnenlands	binnenlandse binnenlands
+31	2331	architect	architect architecten architecte
+32	2332	vent	vent ventje venten vente
+33	2333	beer	beer beren beertje beertjes
+34	2334	nazi	nazi nazi's
+35	2335	examen	examen examens
+36	2336	gemeenschappelijk	gemeenschappelijke gemeenschappelijk gemeenschappelijks
+37	2337	vasthouden	vasthouden vastgehouden vasthoudt vasthoudend vasthield vasthoud vasthielden
+38	2338	transport	transport transporten
+39	2339	formule	formule formules
+40	2340	bevorderen	bevorderen bevorderd bevordert bevorderde bevorder bevorderden bevorderend
+41	2341	argument	argument argumenten
+42	2342	aankondigen	aangekondigd aangekondigde aankondigen aankondigde aankondigt aankondigden
+43	2343	selecteren	geselecteerd selecteren geselecteerde selecteert selecteerde selecteer selecteerden
+44	2344	dankbaar	dankbaar dankbare dankbaarder
+45	2345	du	du dou
+46	2346	aanwijzen	aangewezen aanwijzen aanwijst aanwees aanwezen aanwijs aanwijzend
+47	2347	douche	douche does douches doest
+48	2348	opvang	opvang opvangen opgevangen opvangt opving opvingen
+49	2349	ticket	ticket tickets ticketten ticketje
+50	2350	verdediging	verdediging verdedigingen
+51	2351	bas	bas basten bassen basse baste
+52	2352	ambassadeur	ambassadeur ambassadeurs ambassadrice
+53	2353	beoordelen	beoordelen beoordeeld beoordeel beoordeelt beoordeelde beoordeelden beoordelend
+54	2354	omroep	omroep omroepen omgeroepen
+55	2355	experiment	experiment experimenten experimentje
+56	2356	liberaal	liberale liberaal liberalen liberaler liberales
+57	2357	hetgeen	hetgeen hetgene
+58	2358	front	front fronten frontje
+59	2359	verrassend	verrassend verrassende verrassender verrassends
+60	2360	belangstelling	belangstelling belangstellingen
+61	2361	tegenkomen	tegenkomen tegengekomen tegenkomt tegenkwam tegenkom tegenkwamen
+62	2362	senior	senior senioren seniors seniores
+63	2363	misbruik	misbruik
+64	2364	verdriet	verdriet
+65	2365	zelden	zelden
+66	2366	verhouding	verhouding verhoudingen
+67	2367	streven	streven streeft gestreefd streef streefde streefden strevend strevende
+68	2368	taart	taart taarten taartje
+69	2369	ondertekenen	ondertekend ondertekenen ondertekende onderteken ondertekent ondertekenden
+70	2370	pen	pen pennen pennetje pende pennetjes
+71	2371	vriendschap	vriendschap vriendschappen
+72	2372	goedkeuren	goedgekeurd goedkeuren goedgekeurde goedkeurt goedkeurde goedkeurende goedkeur goedkeurend goedkeurden
+73	2373	ingaan	ingaan ingegaan ingaat inging inga ingingen ingaand
+74	2374	verkrijgbaar	verkrijgbaar verkrijgbare
+75	2375	gras	gras grassen
+76	2376	eed	ede eed eden
+77	2377	likken	likken lik lekken likt lekt gelekt gelikt lakken lekte likje
+78	2378	protest	protest protesten
+79	2379	like	like likes
+80	2380	vacature	vacatures vacature
+81	2381	schattig	schattig schattige schattigste schattiger
+82	2382	gerucht	geruchten gerucht
+83	2383	falen	falen gefaald faalt faalde faal faalden falend
+84	2384	klimmen	klimmen klim klimt klom geklommen klommen klimmetje klimmend klimmetjes
+85	2385	verlagen	verlagen verlaagd verlaagt verlaagde verlaag verlagende verlaagden verlagend
+86	2386	getal	getal getallen getale
+87	2387	eeuwig	eeuwig eeuwige
+88	2388	kunstwerk	kunstwerk kunstwerken kunstwerkje kunstwerkjes
+89	2389	knie	knie knieën knietjes knietje
+90	2390	geliefde	geliefde geliefden
+91	2391	waardevol	waardevolle waardevol waardevols waardevoller waardevolste waardevollere
+92	2392	geduld	geduld
+93	2393	vlakbij	vlakbij
+94	2394	volop	volop
+95	2395	profiteren	profiteren profiteer profiteert geprofiteerd profiteerde profiteerden profiterende profiterend
+96	2396	armoede	armoede armoe
+97	2397	soep	soep sop soepje soepen soppen soeps sopje sopt
+98	2398	stoer	stoere stoer stoerder stoerste stoers stoerdere
+99	2399	strategie	strategie strategieën
+100	2400	verstandig	verstandig verstandige verstandiger verstandigste verstandigs verstandigst

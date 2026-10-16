@@ -1,0 +1,100 @@
+1	6201	omzeilen	omzeilen omzeild omzeilt omzeil omzeilde omzeilden
+2	6202	verspilling	verspilling verspillingen
+3	6203	ongelijkheid	ongelijkheid ongelijkheden
+4	6204	opeisen	opeisen opgeëist opeist opeiste opeisten
+5	6205	volstaan	volstaat volstaan volstond volstonden
+6	6206	brigade	brigade brigades
+7	6207	onbewust	onbewust onbewuste
+8	6208	parasiet	parasieten parasiet
+9	6209	kanen	kane kanen
+10	6210	sympathie	sympathie sympathieën
+11	6211	afwachting	afwachting
+12	6212	dankbaarheid	dankbaarheid
+13	6213	diabetes	diabetes
+14	6214	geloofwaardigheid	geloofwaardigheid
+15	6215	gelul	gelul
+16	6216	manilla	manilla
+17	6217	melkweg	melkweg
+18	6218	ondergronds	ondergronds
+19	6219	opvalt	opvalt
+20	6220	rouw	rouw
+21	6221	utopia	utopia
+22	6222	vintage	vintage
+23	6223	wereldberoemd	wereldberoemde wereldberoemd
+24	6224	zorgverlener	zorgverleners zorgverlener
+25	6225	dragon	dragon dragons
+26	6226	opwarmen	opwarmen opgewarmd opwarmt opgewarmde opwarm opwarmde opwarmende
+27	6227	grootouder	grootouders grootouder
+28	6228	journaal	journaal journaals journalen
+29	6229	stoffelijk	stoffelijke stoffelijk
+30	6230	morsen	morse mors morsen morst gemorst gemorste morste
+31	6231	intensiteit	intensiteit intensiteiten
+32	6232	gitarist	gitarist gitaristen
+33	6233	antenne	antenne antennes antennen
+34	6234	weekeinde	weekeinde weekeinden
+35	6235	curator	curator curatoren
+36	6236	kloten	kloten kloot gekloot
+37	6237	boterham	boterham boterhammen
+38	6238	bijlage	bijlage bijlagen bijlages
+39	6239	koerier	koerier koeriers koerierster
+40	6240	tankstation	tankstation tankstations
+41	6241	warenhuis	warenhuis warenhuizen
+42	6242	eeuwenlang	eeuwenlang eeuwenlange
+43	6243	buitenaards	buitenaardse buitenaards buitenaardsen
+44	6244	leverbaar	leverbaar leverbare
+45	6245	tolerantie	tolerantie toleranties
+46	6246	kalmeren	kalmeren kalmeert kalmerend kalmerende gekalmeerd kalmeer kalmeerde kalmere
+47	6247	onbereikbaar	onbereikbaar onbereikbare
+48	6248	onbegrijpelijk	onbegrijpelijk onbegrijpelijke
+49	6249	bezorgdheid	bezorgdheid bezorgdheden
+50	6250	statuut	statuten statuut
+51	6251	afkoelen	afkoelen afgekoeld afkoelt afgekoelde afkoelde afkoelende afkoelend
+52	6252	reinigen	reinigen gereinigd reinigt reinig reinigende reinigend reinigde gereinigde
+53	6253	afgekeurd	afgekeurd afgekeurde
+54	6254	befaamd	befaamde befaamd
+55	6255	onrustig	onrustig onrustige onrustiger
+56	6256	denker	denkers denker
+57	6257	kwaadaardig	kwaadaardige kwaadaardig kwaadaardiger
+58	6258	hoofdstraat	hoofdstraat hoofdstraten
+59	6259	dirigent	dirigent dirigenten
+60	6260	stadsdeel	stadsdeel stadsdelen
+61	6261	vennootschap	vennootschap vennootschappen
+62	6262	katoen	katoen katoenen
+63	6263	sporthal	sporthal sporthallen
+64	6264	stampen	stampen stamp stamper gestampt stampende stampt stampers stampte stampten stampertje
+65	6265	representatief	representatief representatieve
+66	6266	edele	edele edelen
+67	6267	vaas	vaas vazen vaasje
+68	6268	thuisland	thuisland thuislanden
+69	6269	modus	modus modi
+70	6270	comeback	comeback comebacks
+71	6271	verschuilen	verscholen verschuilen verschuilt verschuil verschool verschuilde
+72	6272	overdosis	overdosis overdoses
+73	6273	neerstorten	neergestort neerstorten neerstortte neergestorte neerstort neerstortende neerstortten neerstortend
+74	6274	zweten	zweten zwetend zwetende gezweet zweette
+75	6275	tumor	tumor tumoren tumors
+76	6276	conversatie	conversatie conversaties
+77	6277	koets	koets koetsen koetsje
+78	6278	uitschrijven	uitgeschreven uitschrijven uitschreef uitschrijft uitschrijf
+79	6279	steiger	steigers steiger
+80	6280	wijngaard	wijngaard wijngaarden
+81	6281	inschatten	inschatten ingeschat inschat ingeschatte inschatte
+82	6282	spenderen	spenderen spendeerde gespendeerd spendeert spendeer spendeerden
+83	6283	dusdanig	dusdanig dusdanige
+84	6284	rubber	rubber rubbers rubbertje
+85	6285	achterop	achterop
+86	6286	arrogantie	arrogantie
+87	6287	cannabis	cannabis
+88	6288	chemie	chemie
+89	6289	halfjaar	halfjaar
+90	6290	hooggerechtshof	hooggerechtshof
+91	6291	ij	ij
+92	6292	inbegrip	inbegrip
+93	6293	opvolging	opvolging
+94	6294	ronduit	ronduit
+95	6295	rum	rum
+96	6296	sarcasme	sarcasme
+97	6297	vanwaar	vanwaar
+98	6298	zoal	zoal
+99	6299	verleidelijk	verleidelijk verleidelijke verleidelijker
+100	6300	aanhalen	aangehaald aanhalen aanhaalt aangehaalde aanhaalde

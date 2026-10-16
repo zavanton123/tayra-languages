@@ -1,0 +1,100 @@
+1	9301	gehoorzaamheid	gehoorzaamheid
+2	9302	geluidsoverlast	geluidsoverlast
+3	9303	halfweg	halfweg
+4	9304	kindermishandeling	kindermishandeling
+5	9305	kopgroep	kopgroep
+6	9306	lieden	lieden
+7	9307	nero	nero
+8	9308	op_splitsen	opgesplitst
+9	9309	oplichting	oplichting
+10	9310	paranoia	paranoia
+11	9311	profijt	profijt
+12	9312	sigma	sigma
+13	9313	stroomopwaarts	stroomopwaarts
+14	9314	totstandkoming	totstandkoming
+15	9315	vloed	vloed
+16	9316	voogdij	voogdij
+17	9317	zeebodem	zeebodem
+18	9318	toevluchtsoord	toevluchtsoord toevluchtsoorden
+19	9319	verslinden	verslinden verslonden verslindt verslond verslindende verslind
+20	9320	onopgelost	onopgeloste onopgelost
+21	9321	toenadering	toenadering toenaderingen
+22	9322	versleutelen	versleutelde versleuteld versleutelen versleutelt
+23	9323	flard	flarden flard
+24	9324	tuinman	tuinman tuinmannen tuinlieden tuinvrouw
+25	9325	interland	interland interlands
+26	9326	eigendomsrecht	eigendomsrechten eigendomsrecht
+27	9327	rijbaan	rijbaan rijbanen
+28	9328	ziekelijk	ziekelijk ziekelijke
+29	9329	desbetreffend	desbetreffende desbetreffend
+30	9330	benauwd	benauwd benauwde
+31	9331	bespotten	bespot bespotten bespotte
+32	9332	afrekening	afrekening afrekeningen
+33	9333	gedaante	gedaante gedaanten gedaantes
+34	9334	luxueus	luxueuze luxueus luxueuzer luxueuzere
+35	9335	indicator	indicator indicatoren indicators
+36	9336	eigenhandig	eigenhandig eigenhandige
+37	9337	watje	watje watjes
+38	9338	bassist	bassist bassisten
+39	9339	sandaal	sandalen sandaal
+40	9340	octrooi	octrooi octrooien
+41	9341	landstitel	landstitel landstitels
+42	9342	gebarentaal	gebarentaal gebarentalen
+43	9343	flamingo	flamingo flamingo's
+44	9344	freak	freak freaks
+45	9345	bassin	bassin bassins
+46	9346	herkansing	herkansing herkansingen
+47	9347	clausule	clausule clausules
+48	9348	aula	aula aula's
+49	9349	overschatten	overschat overschatten overschatte
+50	9350	bekerwinnaar	bekerwinnaar bekerwinnaars
+51	9351	veehouderij	veehouderij veehouderijen
+52	9352	misvatting	misvatting misvattingen
+53	9353	verneuken	verneukt verneuken verneuk verneukte
+54	9354	snijder	snijders snijder
+55	9355	zeilboot	zeilboot zeilboten zeilbootje
+56	9356	weerleggen	weerleggen weerlegd weerlegt weerlegde weerleg
+57	9357	wijsmaken	wijsmaken wijsgemaakt wijsmaakt
+58	9358	cosmetisch	cosmetische cosmetisch
+59	9359	wandelpad	wandelpad wandelpaden
+60	9360	homohuwelijk	homohuwelijk homohuwelijken
+61	9361	sensueel	sensuele sensueel sensueler
+62	9362	hoofdstedelijk	hoofdstedelijk hoofdstedelijke
+63	9363	levensjaar	levensjaar levensjaren
+64	9364	variëteit	variëteit variëteiten
+65	9365	cafetaria	cafetaria cafetaria's
+66	9366	energieleverancier	energieleverancier energieleveranciers
+67	9367	horrorfilm	horrorfilm horrorfilms
+68	9368	heiligdom	heiligdom heiligdommen
+69	9369	nestelen	nestelen nestelt genesteld nestelde nestel nestelden nestelende
+70	9370	marktaandeel	marktaandeel marktaandelen
+71	9371	bezorger	bezorger bezorgers
+72	9372	speerpunt	speerpunten speerpunt
+73	9373	vereenvoudigen	vereenvoudigd vereenvoudigen vereenvoudigde vereenvoudigt vereenvoudig
+74	9374	haperen	hapert haperen haperende haperde haperend
+75	9375	impulsief	impulsief impulsieve impulsiever
+76	9376	bedrukken	bedrukt bedrukken bedrukte
+77	9377	intrinsiek	intrinsieke intrinsiek
+78	9378	vrachtschip	vrachtschip vrachtschepen
+79	9379	concours	concours concoursen
+80	9380	bestek	bestek bestekken
+81	9381	spreekuur	spreekuur spreekuren
+82	9382	macho	macho macho's
+83	9383	fakkel	fakkel fakkels
+84	9384	ophanging	ophanging ophangingen
+85	9385	stroomgebied	stroomgebied stroomgebieden
+86	9386	adrenaline	adrenaline
+87	9387	automatisering	automatisering
+88	9388	bekrompen	bekrompen
+89	9389	bijgevolg	bijgevolg
+90	9390	biomassa	biomassa
+91	9391	daadkracht	daadkracht
+92	9392	doping	doping
+93	9393	eigenaresse	eigenaresse
+94	9394	hijzelf	hijzelf
+95	9395	hui	hui
+96	9396	ijshockey	ijshockey
+97	9397	isolement	isolement
+98	9398	kalk	kalk
+99	9399	kunstgras	kunstgras
+100	9400	longkanker	longkanker

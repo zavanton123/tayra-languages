@@ -1,0 +1,100 @@
+1	6701	adequaat	adequate adequaat
+2	6702	afschieten	afschieten afgeschoten afschiet afschoot afschoten
+3	6703	altaar	altaar altaren altaartje
+4	6704	deksel	deksel deksels dekseltje dekselse
+5	6705	doorzichtig	doorzichtig doorzichtige doorzichtiger
+6	6706	browser	browser browsers
+7	6707	garnaal	garnalen garnaal
+8	6708	wending	wending wendingen
+9	6709	oppervlakkig	oppervlakkig oppervlakkige oppervlakkiger
+10	6710	lus	lus lis lussen lusje
+11	6711	holte	holten holte holtes
+12	6712	schelp	schelpen schelp
+13	6713	toedienen	toegediend toedienen toedient toegediende toediende
+14	6714	afgrond	afgrond afgronden
+15	6715	multicultureel	multiculturele multicultureel multiculti peri
+16	6716	lies	lies liezen
+17	6717	oplage	oplage oplages
+18	6718	humoristisch	humoristische humoristisch
+19	6719	mutatie	mutatie mutaties
+20	6720	geheimzinnig	geheimzinnige geheimzinnig geheimzinnigs
+21	6721	postkantoor	postkantoor postkantoren
+22	6722	gebrekkig	gebrekkige gebrekkig
+23	6723	meeuw	meeuwen meeuw
+24	6724	superheld	superheld superhelden superheldin
+25	6725	verkorten	verkort verkorte verkorten verkortte
+26	6726	implementatie	implementatie implementaties
+27	6727	landhuis	landhuis landhuizen landhuisje
+28	6728	levenswijze	levenswijze levenswijzen
+29	6729	wiki	wiki wiki's
+30	6730	gym	gym gymmen gyms
+31	6731	wever	wever wevers weefster
+32	6732	beginner	beginners beginner
+33	6733	onderduiken	ondergedoken onderduiken onderduik onderdook onderduikt
+34	6734	krijgsmacht	krijgsmacht krijgsmachten
+35	6735	weerstaan	weerstaan weerstond weerstaat weerstonden weersta
+36	6736	jeugdig	jeugdige jeugdigen jeugdig jeugdiger
+37	6737	rijmen	rijmen rijmt rijm rijmpjes rijmpje rijmende rijmde rijmend
+38	6738	roc	roc roc's
+39	6739	vijandelijk	vijandelijke vijandelijk
+40	6740	wagon	wagon wagons
+41	6741	horde	horde horden hordes
+42	6742	bits	bits bitse
+43	6743	oriëntatie	oriëntatie oriëntaties
+44	6744	kabouter	kabouter kabouters kaboutertje
+45	6745	zwakte	zwakte zwaktes zwakten
+46	6746	bloedig	bloedige bloedig bloedigste bloediger
+47	6747	onderdaan	onderdanen onderdaan
+48	6748	bever	bever bevers beverse
+49	6749	gelieven	gelieve gelieven geliefden
+50	6750	cheque	cheque cheques
+51	6751	bult	bult bulten bultje
+52	6752	weerspiegelen	weerspiegelt weerspiegelen weerspiegeld weerspiegelde weerspiegelden
+53	6753	belastingbetaler	belastingbetaler belastingbetalers
+54	6754	brandweerman	brandweerman brandweermannen brandweerlieden brandweerlui brandweervrouw
+55	6755	dart	darts dart
+56	6756	luidspreker	luidsprekers luidspreker
+57	6757	multinational	multinational multinationals
+58	6758	geleiden	geleide geleiden geleidt geleidend geleid geleidde
+59	6759	kuif	kuifje kuif
+60	6760	traceren	traceren getraceerd traceert traceer traceerde
+61	6761	abnormaal	abnormaal abnormale abnormaals
+62	6762	strafschop	strafschop strafschoppen
+63	6763	afwijken	afwijken afwijkt afgeweken afweek afweken
+64	6764	schoonmoeder	schoonmoeder schoonmoeders
+65	6765	gerenommeerd	gerenommeerde gerenommeerd
+66	6766	onthaal	onthaald onthaal onthalen onthaalt onthaalde
+67	6767	concurreren	concurreren concurrerend concurreert geconcurreerd concurreerden concurreerde
+68	6768	onderkomen	onderkomen onderkomens
+69	6769	watt	watt watts
+70	6770	pedagogisch	pedagogische pedagogisch
+71	6771	vingerafdruk	vingerafdrukken vingerafdruk
+72	6772	faciliteren	faciliteren faciliteert gefaciliteerd faciliterende faciliteer faciliteerde
+73	6773	respectvol	respectvol respectvolle respectvoller
+74	6774	vuilnisbak	vuilnisbak vuilnisbakken vuilbak vuilbakken
+75	6775	bedelen	bedelen bedel bedeelden bedels bedeeld bedelt bedeltjes bedeelde gebedeld bedelende
+76	6776	synthetisch	synthetische synthetisch
+77	6777	meedogenloos	meedogenloos meedogenloze
+78	6778	personeelslid	personeelsleden personeelslid
+79	6779	ruit	ruit ruitje
+80	6780	achterhoek	achterhoek
+81	6781	alom	alom
+82	6782	bijzijn	bijzijn
+83	6783	ebola	ebola
+84	6784	geboortestad	geboortestad
+85	6785	geneigd	geneigd
+86	6786	gewoonweg	gewoonweg
+87	6787	hardop	hardop
+88	6788	hemzelf	hemzelf
+89	6789	honderd_duizend	honderdduizenden
+90	6790	inbreng	inbreng
+91	6791	loo	loo
+92	6792	most	most
+93	6793	nationalisme	nationalisme
+94	6794	navigatie	navigatie
+95	6795	noodtoestand	noodtoestand
+96	6796	omega	omega
+97	6797	ongedeerd	ongedeerd
+98	6798	tegenstand	tegenstand
+99	6799	verbruik	verbruik
+100	6800	voordien	voordien

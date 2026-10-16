@@ -1,0 +1,100 @@
+1	7601	krukken	krukken kruk krukje krukjes
+2	7602	wiskundige	wiskundige wiskundigen
+3	7603	slok	slok slokje slokken slokt slokte
+4	7604	aandachtig	aandachtig aandachtige aandachtiger
+5	7605	rits	rits ritsen ritste geritst ritst
+6	7606	teer	teer tere teren teert geteerd teerde
+7	7607	eendracht	eendracht eendragt
+8	7608	hindernis	hindernissen hindernis
+9	7609	achteruitgang	achteruitgang
+10	7610	beeldvorming	beeldvorming
+11	7611	binnenst	binnenste
+12	7612	dierenwelzijn	dierenwelzijn
+13	7613	eenvoud	eenvoud
+14	7614	kernenergie	kernenergie
+15	7615	kindertijd	kindertijd
+16	7616	mosterd	mosterd
+17	7617	mu	mu
+18	7618	nagedachtenis	nagedachtenis
+19	7619	rechtsstaat	rechtsstaat
+20	7620	sense	sense
+21	7621	slagroom	slagroom
+22	7622	spionage	spionage
+23	7623	terugkomst	terugkomst
+24	7624	toevlucht	toevlucht
+25	7625	ventilatie	ventilatie
+26	7626	verlegenheid	verlegenheid
+27	7627	verzoening	verzoening
+28	7628	volksrepubliek	volksrepubliek
+29	7629	waterstof	waterstof
+30	7630	merkel	merkel merkels
+31	7631	bevredigen	bevredigen bevredigend bevredigd bevredigt bevredigde bevredig
+32	7632	splitsing	splitsing splitsingen
+33	7633	conventioneel	conventionele conventioneel
+34	7634	knaagdier	knaagdieren knaagdier
+35	7635	kraam	kraam kramen kraampje
+36	7636	ontzeggen	ontzeggen ontzegd ontzegt ontzeg ontzegde
+37	7637	stoet	stoet stoeten
+38	7638	bewusteloos	bewusteloos bewusteloze
+39	7639	vervoersmiddel	vervoermiddel vervoersmiddel vervoermiddelen vervoersmiddelen
+40	7640	vermenigvuldigen	vermenigvuldigen vermenigvuldigd vermenigvuldigt vermenigvuldig vermenigvuldigde vermenigvuldigden
+41	7641	contra	contra contra's
+42	7642	debatteren	debatteren gedebatteerd debatteer debatteert debatteerde debatteerden
+43	7643	plateau	plateau plateaus
+44	7644	stadspark	stadspark stadsparken
+45	7645	gezant	gezant gezanten
+46	7646	reflecteren	reflecteert reflecteren reflecterende gereflecteerd reflecterend reflecteerde gereflecteerde reflecteerden
+47	7647	humaan	humane humaan humaner humanere
+48	7648	cobra	cobra cobra's
+49	7649	hernieuwen	hernieuwde hernieuwd hernieuwen hernieuwt
+50	7650	fanfare	fanfare fanfares
+51	7651	iconisch	iconische iconisch
+52	7652	terugdringen	terugdringen teruggedrongen
+53	7653	lekkernij	lekkernijen lekkernij
+54	7654	overkoepelen	overkoepelende overkoepelend overkoepelt overkoepeld overkoepelde
+55	7655	spons	spons sponzen sponsjes sponsje sponsen
+56	7656	binding	binding bindingen
+57	7657	bouwmeester	bouwmeester bouwmeesters
+58	7658	enteren	enter enteren geënterd
+59	7659	telescoop	telescoop telescopen
+60	7660	kenbaar	kenbaar kenbare
+61	7661	alinea	alinea alinea's
+62	7662	verongelukken	verongelukt verongelukte verongelukken verongelukten
+63	7663	mengeling	mengeling mengelingen
+64	7664	coöperatie	coöperatie coöperaties
+65	7665	onmenselijk	onmenselijk onmenselijke
+66	7666	strafzaak	strafzaak strafzaken
+67	7667	ingeven	ingegeven ingeven ingeeft ingaf
+68	7668	rondreizen	rondreizen rondreis rondreizende rondgereisd rondreizend rondreist rondreisde
+69	7669	voorzitterschap	voorzitterschap voorzitterschappen
+70	7670	navraag	navraag navragen nagevraagd
+71	7671	ontmoedigen	ontmoedigen ontmoedigd ontmoedigend ontmoedigt ontmoedigde ontmoedigende
+72	7672	vliet	vliet vlieten vloten
+73	7673	machinegeweer	machinegeweren machinegeweer
+74	7674	beving	beving bevingen
+75	7675	bamboe	bamboe bamboes
+76	7676	filmregisseur	filmregisseur filmregisseurs
+77	7677	evacuatie	evacuatie evacuaties
+78	7678	zwaargewond	zwaargewond zwaargewonden zwaargewonde
+79	7679	schooltijd	schooltijd schooltijden
+80	7680	singel	singel singels cingel
+81	7681	verdoven	verdoofd verdovende verdoven verdooft verdovend verdoofde
+82	7682	levensmiddel	levensmiddelen levensmiddel
+83	7683	rijksdienst	rijksdienst rijksdiensten
+84	7684	kookboek	kookboek kookboeken
+85	7685	accuraat	accurate accuraat accurater
+86	7686	bestseller	bestseller bestsellers
+87	7687	weven	geweven weven weeft weef weve weefde weefden
+88	7688	taai	taai taaie taaier taaiere
+89	7689	verergeren	verergeren verergerd verergert verergerde
+90	7690	straatbeeld	straatbeeld straatbeelden
+91	7691	milieuvriendelijk	milieuvriendelijk milieuvriendelijke milieuvriendelijker
+92	7692	gender	gender genders
+93	7693	lucifer	lucifer lucifers
+94	7694	minimumloon	minimumloon minimumlonen
+95	7695	lotus	lotus lotussen
+96	7696	residentie	residentie residenties
+97	7697	samenleven	samenleven samenleeft samengeleefd samenleefde samenleefden
+98	7698	ventilator	ventilator ventilatoren ventilators
+99	7699	orgasme	orgasme orgasmes orgasmen
+100	7700	teamgenoot	teamgenoten teamgenoot teamgenote

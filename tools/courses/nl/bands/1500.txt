@@ -1,0 +1,100 @@
+1	1401	leraar	leraar leraren lerares leraars leraressen leeraar
+2	1402	thee	thee tee tees theeën theetje
+3	1403	debat	debat debatten
+4	1404	recent	recente recent recentste recentere recenter
+5	1405	nauwelijks	nauwelijks
+6	1406	shirt	shirt shirts shirtje
+7	1407	interesse	interesse interesses interessen
+8	1408	regionaal	regionale regionaal
+9	1409	puur	puur pure puurs puurste puurder
+10	1410	liegen	liegen liegt gelogen lieg loog loge liegende loges liege logen
+11	1411	tijdschrift	tijdschrift tijdschriften
+12	1412	melding	melding meldingen
+13	1413	ton	ton tonnen tonnetje tonnetjes
+14	1414	zwak	zwak zwakke zwakker zwakste zwakkeren zwakkere zwakjes zwaksten zwakst
+15	1415	selectie	selectie selecties
+16	1416	route	route routes routen
+17	1417	homo	homo homo's homines
+18	1418	schilderen	schilderen schilder geschilderd schilders schilderde schildert geschilderde schilderden schilderes schilderend
+19	1419	besef	besef beseffen beseft besefte beseften beseffend beseffende
+20	1420	cel	cel cellen celletje
+21	1421	oma	oma oma's omaatje
+22	1422	zwemmen	zwemmen zwem zwemt gezwommen zwom zwemmend zwommen zwemmende
+23	1423	klik	klik klikken klikt klikte geklikt kliks klikjes klikkend klikkende klikten
+24	1424	klas	klas klassen klasje klaske
+25	1425	beroemd	beroemde beroemd beroemdste beroemder beroemdere
+26	1426	republiek	republiek republieken
+27	1427	lul	lul lullen lult lulletje geluld lulde lulle
+28	1428	communicatie	communicatie communicaties
+29	1429	wagen	wagen wagens waag gewaagd waagt gewaagde waagde wagentje waagden wage
+30	1430	gedeelte	gedeelte gedeelten gedeeltes
+31	1431	omhoog	omhoog
+32	1432	tenzij	tenzij
+33	1433	verkeer	verkeer
+34	1434	voedsel	voedsel
+35	1435	wellicht	wellicht
+36	1436	echtgenoot	echtgenoot echtgenote echtgenoten echtgenotes
+37	1437	ongelooflijk	ongelooflijk ongelofelijk ongelooflijke
+38	1438	opzicht	opzichte opzicht opzichten
+39	1439	onmogelijk	onmogelijk onmogelijke onmogelijks
+40	1440	drank	drank drankje drankjes dranken
+41	1441	besteden	besteden besteed besteedt besteedde besteedden bestede
+42	1442	talent	talent talenten talentje
+43	1443	coach	coach coaches coachen gecoacht coacht coachte coachende coachend
+44	1444	huilen	huilen huilt huil huilde huilend gehuild huilden huile
+45	1445	document	documenten document
+46	1446	beheer	beheer beheren beheerd beheert beheerde beheerden beherende beherend
+47	1447	trainen	trainen getraind train traint trainde trainden
+48	1448	ring	ring ringen ringetje ringetjes
+49	1449	belachelijk	belachelijk belachelijke belachelijks belachelijker
+50	1450	platform	platform platforms platformen
+51	1451	koninklijk	koninklijke koninklijk koninklijken
+52	1452	olie	olie oliën geolied olij
+53	1453	aanslag	aanslag aanslagen
+54	1454	bruin	bruin bruine bruins bruinen bruiner bruintje bruintjes gebruind bruinere
+55	1455	zeeland	zeeland zeelands zeelanden
+56	1456	alweer	alweer
+57	1457	onzin	onzin
+58	1458	twintig	twintig
+59	1459	spul	spullen spul spulletje
+60	1460	handig	handig handige handiger handigste handigst
+61	1461	vierde	vierde vierden
+62	1462	crimineel	criminelen crimineel criminele crimineels crimineeltjes
+63	1463	beantwoorden	beantwoorden beantwoord beantwoordt beantwoordde beantwoorde beantwoordden
+64	1464	wetenschappelijk	wetenschappelijk wetenschappelijke wetenschappelijker
+65	1465	gemiddelde	gemiddelde gemiddelden gemiddeldes
+66	1466	knap	knap knappe knapper knapste knappere
+67	1467	wetenschap	wetenschap wetenschappen
+68	1468	elektrisch	elektrische elektrisch electrische electrisch
+69	1469	blik	blik blikken blikjes blikje blikt blikte
+70	1470	rennen	rennen ren rent rende renden gerend rennend rennende renne
+71	1471	ma	ma maatje maatjes ma's
+72	1472	omgaan	omgaan omgaat omgegaan omging omga omgingen omgaande
+73	1473	onmiddellijk	onmiddellijk onmiddellijke onmiddelijk
+74	1474	vriendelijk	vriendelijk vriendelijke vriendelijker vriendelijkste vriendelijkere
+75	1475	bereid	bereid bereide
+76	1476	sector	sector sectoren sectors
+77	1477	enthousiast	enthousiast enthousiaste enthousiaster enthousiasten
+78	1478	ontzettend	ontzettend ontzettende
+79	1479	prestatie	prestaties prestatie
+80	1480	voornamelijk	voornamelijk voornamelijke
+81	1481	tenminste	tenminste
+82	1482	optie	optie opties
+83	1483	jas	jas jasje jassen gejast
+84	1484	ontbijt	ontbijt ontbijten ontbijtje ontbeten ontbeet
+85	1485	verantwoordelijkheid	verantwoordelijkheid verantwoordelijkheden
+86	1486	commercieel	commerciële commercieel commerciele commerciëler
+87	1487	technologie	technologie technologieën
+88	1488	presentatie	presentatie presentaties
+89	1489	dalen	dalen gedaald daalt dale daalde dalende dalend daal daalden gedaalde
+90	1490	vrees	vrees vrezen vreest vreesde gevreesd vreesden gevreesde vreze vrezend vrezende
+91	1491	trainer	trainer trainers trainster
+92	1492	schuldig	schuldig schuldige schuldigen
+93	1493	zanger	zanger zangeres zangers zangeressen zangeresje
+94	1494	individueel	individuele individueel
+95	1495	kwaad	kwaad kwade kwader kwaden kwaads kwaadste kwaaier
+96	1496	bevel	bevel bevelen beveelt bevolen beveel beval bevalen
+97	1497	cadeau	cadeau cadeautje cadeaus kado
+98	1498	kussen	kussen kus kussens kusje kos kuste gekust kusten kussentje kussentjes
+99	1499	keuken	keuken keukens keukentje
+100	1500	tour	tour tours tourtje

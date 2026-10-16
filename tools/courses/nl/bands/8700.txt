@@ -1,0 +1,100 @@
+1	8601	deprimeren	deprimerend deprimerende gedeprimeerd
+2	8602	academicus	academici academicus academica
+3	8603	biseksueel	biseksuele biseksueel biseksuelen
+4	8604	tasten	tasten taste tastte tastten getast tastend
+5	8605	ratio	ratio ratio's
+6	8606	autoverzekering	autoverzekering autoverzekeringen
+7	8607	omslaan	omgeslagen omslaan omslaat omsloeg
+8	8608	verstevigen	verstevigen verstevigd verstevigde verstevigt verstevig verstevigende
+9	8609	plooien	plooien plooi geplooid geplooide plooit plooide plooitjes
+10	8610	uitvaardigen	uitgevaardigd uitvaardigen uitgevaardigde uitvaardigt uitvaardigde
+11	8611	onopvallend	onopvallend onopvallende
+12	8612	roekeloos	roekeloos roekeloze roekelozer
+13	8613	bouwplaats	bouwplaats bouwplaatsen
+14	8614	actiegroep	actiegroep actiegroepen
+15	8615	roestvrijstalen	rvs roestvrijstalen
+16	8616	partnerschap	partnerschap partnerschappen
+17	8617	allesbehalve	allesbehalve
+18	8618	buikpijn	buikpijn
+19	8619	coupe	coupe
+20	8620	geldigheid	geldigheid
+21	8621	ietsje	ietsje
+22	8622	kinderbijslag	kinderbijslag
+23	8623	luchtvervuiling	luchtvervuiling
+24	8624	nacompetitie	nacompetitie
+25	8625	nimmer	nimmer
+26	8626	onderzijde	onderzijde
+27	8627	showroom	showroom
+28	8628	siemens	siemens
+29	8629	terugtrekking	terugtrekking
+30	8630	vergelding	vergelding
+31	8631	volkspartij	volkspartij
+32	8632	voortplanting	voortplanting
+33	8633	werving	werving
+34	8634	wijsbegeerte	wijsbegeerte
+35	8635	excellent	excellent excellente
+36	8636	verduidelijken	verduidelijken verduidelijkt verduidelijkte verduidelijk
+37	8637	meerwaarde	meerwaarde meerwaarden
+38	8638	diva	diva diva's
+39	8639	organisatorisch	organisatorische organisatorisch
+40	8640	nadoen	nadoen nagedaan nadoet nadeed nadeden
+41	8641	prikkelen	geprikkeld prikkelende prikkelen prikkelend prikkelt prikkelde
+42	8642	piemel	piemel piemels piemeltje
+43	8643	lelie	lelie lelies lelietje leliën
+44	8644	klaarstaan	klaarstaan klaarstaat klaarstond klaarsta klaarstonden
+45	8645	barman	barman barvrouw barmannen
+46	8646	mountainbike	mountainbike mountainbikes
+47	8647	remise	remise remises
+48	8648	calorie	calorieën calorie
+49	8649	bestemmingsplan	bestemmingsplan bestemmingsplannen
+50	8650	afkorten	afgekort afkorten
+51	8651	aanspannen	aangespannen aanspannen aanspande aanspant
+52	8652	zeiken	zeiken zeke zeikt gezeken zeek zeken
+53	8653	opsluiting	opsluiting opsluitingen
+54	8654	opvragen	opvragen opgevraagd opvraagt opgevraagde opvroeg
+55	8655	kavel	kavels kavel
+56	8656	inktvis	inktvis inktvissen
+57	8657	herschrijven	herschrijven herschreven herschrijft herschrijf
+58	8658	mare	mare maren mares maartje
+59	8659	edelsteen	edelstenen edelsteen
+60	8660	paradox	paradox paradoxen
+61	8661	genadeloos	genadeloos genadeloze
+62	8662	polis	polis polissen
+63	8663	pinguïn	pinguïns pinguïn
+64	8664	complottheorie	complottheorieën complottheorie
+65	8665	mijnwerker	mijnwerkers mijnwerker
+66	8666	mythisch	mythische mythisch
+67	8667	gelijkvloers	gelijkvloers gelijkvloerse
+68	8668	panter	panter panther panters
+69	8669	thuishoren	thuishoort thuishoren thuishoorde thuishoorden
+70	8670	afwisseling	afwisseling afwisselingen
+71	8671	projectie	projectie projecties
+72	8672	werkstuk	werkstuk werkstukken
+73	8673	otter	otter otters
+74	8674	plechtig	plechtig plechtige
+75	8675	foutief	foutieve foutief
+76	8676	straatnaam	straatnaam straatnamen
+77	8677	keramiek	keramiek keramieken
+78	8678	splijten	gespleten splijten splijt spleten splijtende
+79	8679	koningshuis	koningshuis koningshuizen
+80	8680	afdaling	afdaling afdalingen
+81	8681	huiseigenaar	huiseigenaren huiseigenaar huiseigenaars
+82	8682	organist	organist organisten
+83	8683	wachter	wachter wachters
+84	8684	klif	klif kliffen
+85	8685	freelancer	freelancer freelancers
+86	8686	ongezien	ongezien ongeziene
+87	8687	golflengte	golflengte golflengtes golflengten
+88	8688	voorschieten	voorschoten voorschieten voorgeschoten voorschoot
+89	8689	zwakken	zwakken zwakke zwakt zwakten
+90	8690	jachthaven	jachthaven jachthavens
+91	8691	kantoorgebouw	kantoorgebouw kantoorgebouwen
+92	8692	hoorbaar	hoorbaar hoorbare
+93	8693	achterom	achterom
+94	8694	achterwege	achterwege
+95	8695	ale	ale
+96	8696	astrologie	astrologie
+97	8697	cement	cement
+98	8698	deo	deo
+99	8699	eerstejaars	eerstejaars
+100	8700	handelsblad	handelsblad

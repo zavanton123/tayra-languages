@@ -1,0 +1,100 @@
+1	1701	boord	boord boorden boordje geboorde
+2	1702	conflict	conflict conflicten
+3	1703	wandelen	wandelen wandel gewandeld wandelt wandelde wandelend wandelden
+4	1704	snijden	snijden gesneden snij snijdt snijd sneed snede sneden snijdende snijdend
+5	1705	vergelijking	vergelijking vergelijkingen
+6	1706	uitzondering	uitzondering uitzonderingen
+7	1707	blok	blok blokken blokje geblokt geblokte blokt blokte
+8	1708	jood	joden jood jode joodje
+9	1709	aangepast	aangepast aangepaste
+10	1710	dokter	dokter dokters doktoren doktertje
+11	1711	geïnteresseerd	geïnteresseerd geïnteresseerden geïnteresseerde
+12	1712	piet	piet pieten pietje
+13	1713	katholiek	katholieke katholiek katholieken
+14	1714	meerderheid	meerderheid meerderheden
+15	1715	fase	fase fasen fases phase
+16	1716	chinezen	chinees chinezen chineze
+17	1717	oceaan	oceaan oceanen
+18	1718	graaf	graaf graven gravin grave gegraven groeve groef groeven graaft graver
+19	1719	pop	pop poppen poppetje popje poppe popt popke
+20	1720	verplaatsen	verplaatsen verplaatst verplaatste verplaats verplaatsten
+21	1721	kleren	kleren kleertjes
+22	1722	zichtbaar	zichtbaar zichtbare zichtbaarder
+23	1723	vak	vak vakken vakje
+24	1724	bezorgd	bezorgd bezorgde bezorgder
+25	1725	luid	luidt luid luidde luiden luider luide luidden luidste luidere
+26	1726	methode	methode methoden methodes
+27	1727	veroordeeld	veroordeeld veroordeelde veroordeelden
+28	1728	voldoen	voldoen voldoet voldaan voldeed voldoe voldeden voldane voldoend
+29	1729	lot	lot loten geloot loot lotje lootje lootte
+30	1730	symbool	symbool symbolen
+31	1731	plus	plus plussen plusje
+32	1732	democratie	democratie democratieën demokratie
+33	1733	letter	letters letter letteren
+34	1734	spanning	spanning spanningen
+35	1735	prettig	prettig prettige prettiger prettigst prettigste
+36	1736	forum	forum forums fora
+37	1737	typisch	typisch typische
+38	1738	enig	enig enigste eenig enigst
+39	1739	carrière	carrière carriere carrières
+40	1740	tentoonstelling	tentoonstelling tentoonstellingen
+41	1741	wow	wow wauw
+42	1742	poort	poort poorten poortje poortjes
+43	1743	hit	hit hits hitje hitten
+44	1744	verwerken	verwerkt verwerken verwerkte verwerk verwerkten
+45	1745	allebei	allebei
+46	1746	info	info
+47	1747	minstens	minstens
+48	1748	aandeel	aandelen aandeel
+49	1749	wettelijk	wettelijke wettelijk
+50	1750	toevallig	toevallig toevallige
+51	1751	theater	theater theaters theatertje
+52	1752	verdieping	verdieping verdiepingen
+53	1753	beleven	beleven beleefd beleef beleefde beleeft beleefden beleefder belevend
+54	1754	beweren	beweert beweren beweerde beweerd beweerden beweer bewerend
+55	1755	analyse	analyse analyses analysen
+56	1756	verlenen	verleend verlenen verleent verleende verleen verleenden
+57	1757	wisselen	wisselen wissel gewisseld wisselend wisselt wissels wisselden wisselde gewisselde
+58	1758	toepassen	toegepast toepassen toepast toepaste toepasten toepas
+59	1759	belasting	belasting belastingen
+60	1760	grijs	grijs grijze grijzer grijzen
+61	1761	graf	graf graven grave gegraven groeve groef groeven graaft gegroefd gravende
+62	1762	pik	pik pikken pikt gepikt pikte pikkie pikten pikke pikje
+63	1763	kabinet	kabinet kabinetten
+64	1764	agenda	agenda agenda's
+65	1765	eigendom	eigendom eigendommen
+66	1766	star	star stars starre starren
+67	1767	schaal	schaal schalen schaaltje schaalt geschaald
+68	1768	expert	expert experts experten
+69	1769	ziel	ziel zielen ziele zieltjes zieltje
+70	1770	verkrijgen	verkregen verkrijgen verkrijgt verkreeg verkrijg
+71	1771	high	high
+72	1772	nogmaals	nogmaals
+73	1773	tiental	tientallen tiental
+74	1774	plaatselijk	plaatselijke plaatselijk
+75	1775	investeren	investeren geïnvesteerd investeert investeer investeerde investeerden
+76	1776	opleveren	opleveren opgeleverd oplevert opleverde opgeleverde opleverden
+77	1777	buur	buren buur buurtje
+78	1778	fysiek	fysieke fysiek fysieks
+79	1779	boy	boy boys
+80	1780	nabij	nabij nabije
+81	1781	geslaagd	geslaagd geslaagde
+82	1782	roken	roken rookt gerookt rookte rokend rookten roke rooken
+83	1783	loon	loon lonen loont lone lonend loontje loonde geloond
+84	1784	variant	variant varianten
+85	1785	pensioen	pensioen pensioenen pensioentje
+86	1786	gedicht	gedichten gedicht gedichtje
+87	1787	zone	zone zones zonen
+88	1788	virus	virus virussen virusje
+89	1789	oppakken	opgepakt oppakken oppakt oppakte oppakten oppak
+90	1790	redelijk	redelijk redelijke redelijker
+91	1791	christelijk	christelijke christelijk christelijken
+92	1792	verzinnen	verzinnen verzonnen verzint verzin verzon
+93	1793	terugkeren	terugkeren teruggekeerd terugkeerde terugkeert terugkerend terugkeerden
+94	1794	assistent	assistent assistenten assistente
+95	1795	café	café cafés cafeetje
+96	1796	voorbereiding	voorbereiding voorbereidingen
+97	1797	verzet	verzet verzetje
+98	1798	hoer	hoer hoeren hoertje hoertjes
+99	1799	ambtenaar	ambtenaren ambtenaar
+100	1800	schilderij	schilderij schilderijen schilderijtjes schilderijtje

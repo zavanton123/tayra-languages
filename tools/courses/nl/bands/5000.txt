@@ -1,0 +1,100 @@
+1	4901	pret	pret pretje
+2	4902	lesbienne	lesbiennes lesbienne
+3	4903	peloton	peloton pelotons
+4	4904	riskeren	riskeren riskeert riskeer riskeerde riskeerden geriskeerd
+5	4905	beschaafd	beschaafd beschaafde beschaafder beschaafdere
+6	4906	vereren	vereerd vereren vereerde vereert vereerden vereer
+7	4907	compenseren	compenseren gecompenseerd compenseert compenseer compenserende compenseerde compenseerden
+8	4908	uitproberen	uitproberen uitgeprobeerd uitprobeert uitprobeerde
+9	4909	dimensie	dimensie dimensies
+10	4910	kapsel	kapsel kapsels
+11	4911	kick	kick kicks
+12	4912	flora	flora flora's
+13	4913	wegnemen	wegnemen weggenomen wegneemt wegnam
+14	4914	exotisch	exotische exotisch exotischer
+15	4915	brouwer	brouwer brouwers
+16	4916	voorhoofd	voorhoofd voorhoofden
+17	4917	opvoeren	opgevoerd opvoeren opvoert opgevoerde opvoerde opvoerden opvoer
+18	4918	bevordering	bevordering bevorderingen
+19	4919	druif	druiven druif druifje
+20	4920	alien	alien aliens
+21	4921	meting	metingen meting
+22	4922	woud	woud wouden
+23	4923	tuig	tuig tuigen tuigje tuigt getuigd
+24	4924	factuur	factuur facturen factuurtje
+25	4925	zorgverzekeraar	zorgverzekeraars zorgverzekeraar
+26	4926	samenwerkingsverband	samenwerkingsverband samenwerkingsverbanden
+27	4927	corrigeren	corrigeren gecorrigeerd corrigeert corrigeer corrigerende gecorrigeerde corrigeerde corrigerend corrigeerden
+28	4928	boycot	boycot boycotten geboycot boycots
+29	4929	communist	communisten communist communiste
+30	4930	component	componenten component
+31	4931	bouwwerk	bouwwerk bouwwerken
+32	4932	bh	bh beha bh's
+33	4933	stagiair	stagiair stagiaire stagiaires stagiairs
+34	4934	amber	amber
+35	4935	fulltime	fulltime
+36	4936	grip	grip
+37	4937	inhoudt	inhoudt
+38	4938	inlichtingen	inlichtingen
+39	4939	mits	mits
+40	4940	nrc	nrc
+41	4941	overeind	overeind
+42	4942	tegenovergestelde	tegenovergestelde
+43	4943	alledaags	alledaagse alledaags
+44	4944	shoppen	shoppen shopt geshopt shoppe
+45	4945	symbolisch	symbolische symbolisch
+46	4946	informatief	informatieve informatief
+47	4947	vernoemen	vernoemd vernoemen vernoemde vernoemt vernoemden
+48	4948	onwaarschijnlijk	onwaarschijnlijk onwaarschijnlijke onwaarschijnlijker
+49	4949	verwoorden	verwoord verwoorden verwoordt verwoordde verwoorde
+50	4950	acteren	acteren geacteerd acteert acteer acteerde acterende acteerden acterend
+51	4951	portefeuille	portefeuille portefeuilles
+52	4952	belediging	belediging beledigingen
+53	4953	columnist	columnist columniste columnisten
+54	4954	intentie	intentie intenties
+55	4955	afpakken	afgepakt afpakken afpakt afpakte
+56	4956	fokken	fokken fok gefokt fokke fokt fokte gefokte fokten fokje
+57	4957	meebrengen	meebrengen meebrengt meegebracht meebracht meegebrachte meebrachten
+58	4958	basketbal	basketbal basketballen
+59	4959	benoeming	benoeming benoemingen
+60	4960	poep	poep poepen gepoept poept poepje poepte poepende poepten
+61	4961	rover	rover rovers
+62	4962	gracht	gracht grachten graft grachtje
+63	4963	aanraking	aanraking aanrakingen
+64	4964	reëel	reële reëel reëler
+65	4965	schandalig	schandalig schandalige
+66	4966	televisieprogramma	televisieprogramma televisieprogramma's
+67	4967	vegetarisch	vegetarisch vegetarische
+68	4968	vastzitten	vastzitten vastzit vastzat vastgezeten vastzaten vastzittende vastzittend
+69	4969	medicatie	medicatie medicaties
+70	4970	transactie	transactie transacties
+71	4971	paneel	paneel panelen paneeltje paneeltjes
+72	4972	vloek	vloek vloeken vloekt gevloekt vloekte vloekend vloekende
+73	4973	puzzel	puzzel puzzels puzzeltje
+74	4974	baron	baron barones baronnen
+75	4975	identiek	identiek identieke
+76	4976	omarmen	omarmen omarmd omarmt omarm omarmde omarmden
+77	4977	herder	herder herders herderin herdertjes herderinnetje
+78	4978	loods	loods loodsen loodst geloodst loodste
+79	4979	nuchter	nuchter nuchtere nuchterder
+80	4980	schimmel	schimmel schimmels
+81	4981	waaien	waait waaien waaide gewaaid woei waai waaiden waaiende
+82	4982	waarborgen	waarborgen gewaarborgd waarborg waarborgt gewaarborgde
+83	4983	bekentenis	bekentenis bekentenissen
+84	4984	linde	linden linde lindes
+85	4985	marina	marina marina's
+86	4986	trillen	trillen trilt tril trilde trillend trilden getrild
+87	4987	nalaten	nagelaten nalaten nalaat naliet nalieten
+88	4988	auditie	auditie audities
+89	4989	discussiëren	discussiëren gediscussieerd discussieerden discussieer discussieert discussieerde
+90	4990	riet	riet rietje rieten rietjes
+91	4991	overtreden	overtreden overtreedt overtrad overtraden overtreed
+92	4992	tapijt	tapijt tapijten tapijtje
+93	4993	aanduiding	aanduiding aanduidingen
+94	4994	parodie	parodie parodieën
+95	4995	rib	ribben rib ribbetjes
+96	4996	hartaanval	hartaanval hartaanvallen
+97	4997	kantine	kantine kantines
+98	4998	spotten	spotten gespot spottend spotte spott
+99	4999	afgaan	afgaan afgaat afgegaan afging afgaand afga afgingen
+100	5000	lap	lap lappen lapje lapt gelapt lapte lappie lapten

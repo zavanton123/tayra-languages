@@ -1,0 +1,100 @@
+1	7901	doorrijden	doorrijden doorgereden doorreed doorrijdt doorreden
+2	7902	kijkcijfer	kijkcijfers kijkcijfer
+3	7903	pissen	pissen pist pisten gepist pissende
+4	7904	onaangenaam	onaangenaam onaangename onaangenamer onaangenaams
+5	7905	bekwaam	bekwaam bekwame bekwamer bekwaamste
+6	7906	meegeven	meegeven meegegeven meegeeft meegaf
+7	7907	hoofdprijs	hoofdprijs hoofdprijzen
+8	7908	farmaceutisch	farmaceutische farmaceutisch
+9	7909	verteller	verteller vertellers vertelster
+10	7910	wintersport	wintersport wintersporten
+11	7911	obsessie	obsessie obsessies
+12	7912	behartigen	behartigen behartigt behartigd behartigde
+13	7913	ongeloofwaardig	ongeloofwaardig ongeloofwaardige ongeloofwaardiger
+14	7914	coderen	gecodeerd coderen gecodeerde codeert codeer
+15	7915	fat	fat fats
+16	7916	afzetting	afzetting afzettingen
+17	7917	collage	collage collages
+18	7918	stropdas	stropdas stropdassen
+19	7919	sekse	sekse seksen gesekst sekst
+20	7920	klassement	klassement klassementen
+21	7921	opeenvolgend	opeenvolgende opeenvolgend
+22	7922	verminken	verminkt verminkte verminken verminkten
+23	7923	ogenschijnlijk	ogenschijnlijk ogenschijnlijke
+24	7924	aantrekkingskracht	aantrekkingskracht
+25	7925	afvalwater	afvalwater
+26	7926	alsmaar	alsmaar
+27	7927	arbitrage	arbitrage
+28	7928	archeologie	archeologie
+29	7929	branding	branding
+30	7930	doodslag	doodslag
+31	7931	heimwee	heimwee
+32	7932	karate	karate
+33	7933	kristal	kristal
+34	7934	luchtruim	luchtruim
+35	7935	luchtvochtigheid	luchtvochtigheid
+36	7936	naleving	naleving
+37	7937	obesitas	obesitas
+38	7938	onschuld	onschuld
+39	7939	retro	retro
+40	7940	schijt	schijt
+41	7941	trouwdag	trouwdag
+42	7942	uitzonderen	uitgezonderd
+43	7943	voorhanden	voorhanden
+44	7944	papegaai	papegaai papegaaien
+45	7945	slinger	slinger slingers
+46	7946	kous	kousen kous
+47	7947	primeur	primeur primeurs primeurtje
+48	7948	publieksprijs	publieksprijs publieksprijzen
+49	7949	octopus	octopus octopussen
+50	7950	clubhuis	clubhuis clubhuizen
+51	7951	gemeenteraadsverkiezing	gemeenteraadsverkiezingen gemeenteraadsverkiezing
+52	7952	struikelen	struikelen struikelt struikelde struikel gestruikeld struikelend struikelden struikelende
+53	7953	aankunnen	aankunnen aankon aankunt aankonden aangekund
+54	7954	enclave	enclave enclaves
+55	7955	afwisselen	afgewisseld afwisselen afwisselt afwisselde afwisselden
+56	7956	uithangen	uithangen uithangt uitgehangen uithing
+57	7957	denkbeeld	denkbeelden denkbeeld
+58	7958	omstander	omstanders omstander
+59	7959	aansturen	aangestuurd aansturen aanstuurt aanstuurde aangestuurde
+60	7960	alliëren	geallieerden geallieerd
+61	7961	snoeien	snoeien snoei gesnoeid snoeit gesnoeide
+62	7962	verdwalen	verdwalen verdwaalde verdwaalt verdwaal verdwaalden
+63	7963	intuïtie	intuïtie intuïties
+64	7964	korporaal	korporaal korporaals
+65	7965	sober	sober sobere soberder
+66	7966	luchtweg	luchtwegen luchtweg
+67	7967	dominicaan	dominicaanse dominicanen dominicaan
+68	7968	bestelwagen	bestelwagen bestelwagens
+69	7969	infrarood	infrarood infrarode
+70	7970	concessie	concessies concessie
+71	7971	zorginstelling	zorginstelling zorginstellingen
+72	7972	adembenemend	adembenemende adembenemend
+73	7973	mede-oprichter	medeoprichter medeoprichters
+74	7974	vocaal	vocale vocaal vocalen peri
+75	7975	arbeidsrecht	arbeidsrecht arbeidsrechten
+76	7976	kernwapen	kernwapens kernwapen
+77	7977	fascineren	gefascineerd fascineert fascineren fascineerde fascineerden
+78	7978	afslachten	afgeslacht afslachten afslacht afgeslachte
+79	7979	poëtisch	poëtisch poëtische poëtischer
+80	7980	doodsoorzaak	doodsoorzaak doodsoorzaken
+81	7981	zegening	zegeningen zegening
+82	7982	rijksweg	rijksweg rijkswegen
+83	7983	schurk	schurk schurken schurkt
+84	7984	hongerig	hongerig hongerige hongeriger
+85	7985	ploeggenoot	ploeggenoot ploeggenoten ploeggenote
+86	7986	meningsverschil	meningsverschillen meningsverschil
+87	7987	orchidee	orchideeën orchidee
+88	7988	honkbal	honkbal honkballen
+89	7989	constitutioneel	constitutionele constitutioneel
+90	7990	bloederig	bloederige bloederig
+91	7991	behoeden	behoeden behoed behoedt behoedde behoede
+92	7992	ruggengraat	ruggengraat ruggegraat
+93	7993	hoofdpersonage	hoofdpersonage hoofdpersonages
+94	7994	debiel	debiel deb debielen debiele
+95	7995	familienaam	familienaam familienamen
+96	7996	baarmoeder	baarmoeder baarmoeders
+97	7997	keurmerk	keurmerk keurmerken
+98	7998	onopgemerkt	onopgemerkt onopgemerkte
+99	7999	bedwingen	bedwingen bedwongen bedwingt bedwong bedwing
+100	8000	hittegolf	hittegolf hittegolven

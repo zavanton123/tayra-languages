@@ -1,0 +1,100 @@
+1	201	anders	anders
+2	202	verder	verder verders
+3	203	wanneer	wanneer wnr
+4	204	jou	jou
+5	205	kennen	kent ken kennen kende gekend kenden kennende kenne
+6	206	niets	niets
+7	207	per	per
+8	208	vandaag	vandaag
+9	209	leren	leren geleerd leer leert leerde geleerde leerden geleerden lederen lerend
+10	210	wereld	wereld werelds werelden wereldje wereldse wereldser
+11	211	jong	jonge jong jongeren jongste jongere jonger jongs jonkies jonkie jongsten
+12	212	bekend	bekend bekende bekendste bekenden bekender bekendere bekendst bekends
+13	213	natuurlijk	natuurlijk natuurlijke natuurlijker natuurlijks natuurlijkste
+14	214	noemen	genoemd noemen noemt noemde noem genoemde noemden
+15	215	eerst	eerst
+16	216	zelfs	zelfs
+17	217	plaatsen	plaatsen geplaatst plaatste plaatst plaatsten plaatse
+18	218	proberen	proberen probeert probeer probeerde geprobeerd probeerden proberend probeeren
+19	219	achter	achter erachter achteren daarachter hierachter waarachter
+20	220	paar	paar paren paarden paartje paart paarde pare parende
+21	221	nee	nee
+22	222	welk	welke welk
+23	223	meisje	meisje meisjes meissie meiske meisie
+24	224	halen	halen gehaald haalt haal haalde haalden hale gehaalde
+25	225	spreken	spreken gesproken spreekt sprake sprak spreek spraken sprekende sprekend spreke
+26	226	hand	hand handen handje
+27	227	helemaal	helemaal heelemaal
+28	228	bestaan	bestaat bestaan bestond bestonden bestaand besta
+29	229	maand	maanden maand maandje maandjes maands
+30	230	film	film films filmpje filmkes filmke
+31	231	voelen	voel voelen voelt voelde gevoeld voelden voelend voelende
+32	232	geld	geld gelde gelds
+33	233	vooral	vooral
+34	234	website	website websites
+35	235	boek	boek boeken boekje geboekt boekt boekte boekjes boekten boeke boekend
+36	236	vorm	vorm vormen vormt gevormd vormde vormden vormend
+37	237	gebeuren	gebeurt gebeuren gebeurd gebeurde gebeurden gebeur gebeure
+38	238	zaak	zaken zaak zake zaakje zakes zaaks
+39	239	onderzoek	onderzoek onderzoeken onderzocht onderzoekt onderzochten onderzochte onderzoekje onderzoekjes onderzoekend
+40	240	vertellen	vertellen vertelt vertelde verteld vertel vertelden vertellende vertellend vertelle
+41	241	ding	dingen ding dongen dingetje dong dinge dingt donge dongs
+42	242	groep	groep groepen groepje groeps
+43	243	familie	familie families
+44	244	sinds	sinds
+45	245	zo'n	zo'n
+46	246	dezelfde	dezelfde hetzelfde dezelfden dezelve hetzelve
+47	247	manier	manier manieren maniertjes
+48	248	moment	moment momenten momentje
+49	249	vrij	vrij vrije vrijer vrijers vrijere vrijster vrijsters
+50	250	bijna	bijna
+51	251	ten	ten
+52	252	school	school scholen geschoolde geschoold schooltje schoolde schole schoolt
+53	253	mogelijk	mogelijk mogelijke mogelijks
+54	254	laat	laat late latere laatsten laatje laats laters
+55	255	schrijven	geschreven schrijven schrijf schrijft schreven schrijvend schrijve schreve geschrevene
+56	256	auto	auto auto's autootje
+57	257	nieuws	nieuws
+58	258	verhaal	verhaal verhalen verhaaltje verhaaltjes verhaalt verhaald verhalend verhaalde verhale verhaalden
+59	259	jouw	jouw jouwen
+60	260	online	online
+61	261	januari	januari jan
+62	262	eind	einde eind end eindje einden
+63	263	kiezen	kiezen gekozen kies koos kiest kiezers kozen kiezer gekozene kieze
+64	264	soort	soort soorten
+65	265	kopen	kopen koop gekocht koopt kocht kochten koopje koopjes kopende kope
+66	266	buiten	buiten daarbuiten erbuiten hierbuiten buitens buitte waarbuiten
+67	267	tweede	tweede tweedes
+68	268	gebied	gebied gebieden geboden gebiedt gebiedende gebood gebiedje
+69	269	water	water wateren waters watertje watert
+70	270	winnen	gewonnen winnen won wint win wonnen winnend winne wont wonne
+71	271	politie	politie
+72	272	lid	lid leden lee leen leentje
+73	273	wachten	wachten wacht gewacht wachtte wachtend wachtten wachte
+74	274	artikel	artikel artikelen artikels artikeltje
+75	275	sturen	sturen stuur gestuurd stuurt stuurde stuurden sturend sture stuurtje
+76	276	vast	vast vaste vasten vaster vastere gevast vastte
+77	277	maart	maart maarten mrt maartje
+78	278	geleden	geleden gelee
+79	279	partij	partij partijen partijtje partijtjes
+80	280	september	september sep
+81	281	betalen	betalen betaald betaalt betaalde betaal betaalden betalende betalend
+82	282	klaar	klaar klare
+83	283	slecht	slecht slechte slechter slechtste slechtere slechten slechtst geslecht
+84	284	ter	ter
+85	285	verliezen	verloren verliezen verlies verloor verliest verliezende verliezend
+86	286	woord	woord woorden woordje woords
+87	287	enige	enige enigen eenige
+88	288	open	open opener opens openers
+89	289	recht	recht rechter rechten gerecht gerechten rechte rechters gerechtje gerechte rechtere
+90	290	hoop	hoop hoopje
+91	291	idee	idee ideeën ideeen ideetje
+92	292	gebruik	gebruik gebruiks
+93	293	echter	echter
+94	294	men	men
+95	295	wonen	wonen woont woon woonde woonden gewoond wonende wonend wone
+96	296	later	later latere laters
+97	297	stoppen	stoppen stop stopt gestopt stopte stopten stoppend
+98	298	beetje	beetje beetjes
+99	299	genoeg	genoeg
+100	300	kort	kort korte korter kortere kortste kortst korts

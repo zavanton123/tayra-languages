@@ -1,0 +1,100 @@
+1	6901	schooldag	schooldag schooldagen
+2	6902	beoefenen	beoefenen beoefend beoefent beoefende beoefen beoefenden
+3	6903	amazone	amazone amazones amazonen
+4	6904	angstaanjagend	angstaanjagend angstaanjagende angstaanjagender
+5	6905	verrotten	verrot verrotte verrotten
+6	6906	amendement	amendement amendementen
+7	6907	hardnekkig	hardnekkige hardnekkig hardnekkiger hardnekkigste
+8	6908	gieren	gieren gier gierende giert gierend gierde giere
+9	6909	sneaker	sneakers sneaker
+10	6910	parket	parket parketten
+11	6911	hoogheid	hoogheid hoogheden
+12	6912	contactpersoon	contactpersoon contactpersonen
+13	6913	troosten	troosten getroost troostend troostte
+14	6914	capsule	capsule capsules
+15	6915	instinct	instinct instincten
+16	6916	ellendig	ellendige ellendig ellendiger
+17	6917	kaliber	kaliber kalibers
+18	6918	opschieten	opschieten opgeschoten opschiet opschoot
+19	6919	periodiek	periodiek periodieke periodieken
+20	6920	tijdig	tijdig tijdige
+21	6921	dot	dot dotje dotjes
+22	6922	vredig	vredig vredige vrediger
+23	6923	schout	schouten schout
+24	6924	aanmerken	aangemerkt aanmerken aangemerkte aanmerkte aanmerkt
+25	6925	congreslid	congreslid congresleden
+26	6926	synagoge	synagoge synagogen synagoges
+27	6927	kantelen	kantelen gekanteld kantelt kantel gekantelde kantelde kantelende
+28	6928	muurschildering	muurschilderingen muurschildering
+29	6929	keep	keep keeps kepen
+30	6930	dozijn	dozijn dozijnen
+31	6931	fractievoorzitter	fractievoorzitter fractievoorzitters
+32	6932	eender	eender eendere
+33	6933	verschuiven	verschuiven verschuift verschoof verschuif verschuivende
+34	6934	ongerust	ongerust ongeruste
+35	6935	zuidwest	zuidwest zw
+36	6936	hongersnood	hongersnood hongersnoden
+37	6937	illustrator	illustrator illustratoren illustratrice illustrators
+38	6938	exploiteren	exploiteren exploiteert geëxploiteerd exploiteerde geëxploiteerde exploiteerden
+39	6939	expertise	expertise expertises
+40	6940	ondiep	ondiep ondiepe ondieper ondiepere
+41	6941	vertegenwoordiging	vertegenwoordiging vertegenwoordigingen
+42	6942	mik	mik mikken mikt mikte gemikt mikke mikten
+43	6943	tam	tam tamme tams tammer
+44	6944	presidentieel	presidentiële presidentieel
+45	6945	solidair	solidair solidaire
+46	6946	grill	grill gril grills
+47	6947	naleven	nageleefd naleven naleeft naleefde
+48	6948	refereren	refereert refereren refereerde gerefereerd refereer refererend refereerden
+49	6949	nastreven	nastreven nastreeft nagestreefd nagestreefde nastreefde nastreefden nastreef
+50	6950	overheerlijk	overheerlijke overheerlijk
+51	6951	eenhoorn	eenhoorn eenhoorns
+52	6952	speelfilm	speelfilm speelfilms
+53	6953	doeltreffend	doeltreffend doeltreffende doeltreffender
+54	6954	uitbouw	uitbouw uitgebouwd uitbouwen
+55	6955	berusten	berust berusten berustte berustend berustten
+56	6956	skelet	skelet skeletten
+57	6957	kameel	kameel kamelen
+58	6958	farm	farm farms
+59	6959	weglaten	weggelaten weglaten weglaat wegliet
+60	6960	poseren	poseren poseert poseerde geposeerd poseer poseerden poserend
+61	6961	insturen	insturen ingestuurd instuurt ingestuurde instuurde
+62	6962	adjunct	adjunct
+63	6963	bureaucratie	bureaucratie
+64	6964	fatsoen	fatsoen
+65	6965	kristallen	kristallen
+66	6966	linkerkant	linkerkant
+67	6967	morgenvroeg	morgenvroeg
+68	6968	nasleep	nasleep
+69	6969	onwetendheid	onwetendheid
+70	6970	programmering	programmering
+71	6971	respondent	respondenten
+72	6972	rubberen	rubberen
+73	6973	stemrecht	stemrecht
+74	6974	undercover	undercover
+75	6975	westkust	westkust
+76	6976	coke	coke cokes
+77	6977	ranking	ranking rankings
+78	6978	speculeren	speculeren gespeculeerd speculeert speculeer speculeerden speculeerde
+79	6979	openbaren	openbaren openbare geopenbaard openbaart openbaarde geopenbaarde openbaarden
+80	6980	uitvinder	uitvinder uitvinders
+81	6981	deugen	deugt deugen deug deugde deugden
+82	6982	toekenning	toekenning toekenningen
+83	6983	decoratief	decoratieve decoratief
+84	6984	inchecken	inchecken ingecheckt incheck incheckt incheckte
+85	6985	bataljon	bataljon bataljons
+86	6986	lichaamsdeel	lichaamsdelen lichaamsdeel
+87	6987	voorman	voorman voormannen voorlieden
+88	6988	adverteren	adverteren adverteert adverteer geadverteerd adverteerde adverteerden
+89	6989	punk	punk punks
+90	6990	bushalte	bushalte bushaltes
+91	6991	weeshuis	weeshuis weeshuizen
+92	6992	aandrijven	aangedreven aandrijven aandrijft aandrijf aandreef
+93	6993	dok	dok dokken dokt
+94	6994	seculier	seculiere seculier seculieren
+95	6995	egoïstisch	egoïstische egoïstisch
+96	6996	maaien	maaien gemaaid maai maait gemaaide maaide
+97	6997	verbruiken	verbruikt verbruiken verbruikte verbruikten
+98	6998	plaatsvervangend	plaatsvervangend plaatsvervangende
+99	6999	pension	pension pensions
+100	7000	weegschaal	weegschaal waagschaal weegschalen

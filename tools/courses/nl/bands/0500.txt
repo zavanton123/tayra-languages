@@ -1,0 +1,100 @@
+1	401	gratis	gratis
+2	402	laag	laag lage lager lagere laagste lagen laagje laagst laagjes lagers
+3	403	bellen	bellen bel gebeld belt belde belle belletje belden bellend
+4	404	pakken	pakken pak pakt gepakt pakte pakje pakjes pakten pakkend pakkende
+5	405	slapen	slapen slaap geslapen slaapt sliep sliepen slapend slaapje slaapjes
+6	406	bedanken	bedankt bedanken bedank bedankte bedankten
+7	407	december	december dec
+8	408	wedstrijd	wedstrijd wedstrijden wedstrijdje
+9	409	kant	kant kanten gekant kantjes kantje kante kantte
+10	410	publiceren	gepubliceerd publiceerde publiceren publiceert gepubliceerde publiceerden publiceer
+11	411	beide	beide beiden beider beid beidde gebeid
+12	412	algemeen	algemeen algemene algemener algemenere
+13	413	morgen	morgen morgens mogge mogguh
+14	414	top	top topje toppen tops topjes getopt
+15	415	organisatie	organisatie organisaties
+16	416	bekijken	bekijk bekijken bekeken bekijkt bekeek
+17	417	wit	witte wit witt witten witter witje wits witste gewit wittere
+18	418	zoveel	zoveel zovelen zovele zooveel
+19	419	kleur	kleur kleuren gekleurde gekleurd kleurtje kleurt kleurtjes kleurde gekleurden kleurden
+20	420	bieden	bieden biedt bood bied geboden boden bode boodt bodes biedend
+21	421	reis	reis reizen reist reisde gereisd rees reisden reisje reizende gerezen
+22	422	avond	avond avonds avonden avondje
+23	423	afgelopen	afgelopen
+24	424	kamer	kamer kamers kamertje
+25	425	bereiken	bereiken bereikt bereik bereikte bereikten
+26	426	kosten	kosten kost koste kostte gekost kostten kostje kostend
+27	427	oorlog	oorlog oorlogen oorlogs oorlogje
+28	428	los	los lossen losse lost losser gelost loste losjes losten lossere
+29	429	mei	mei
+30	430	ouders	ouders
+31	431	nationaal	nationale nationaal nationalen
+32	432	rood	rode rood rooie rooien roder rooi gerooid roods gerooide
+33	433	bericht	bericht berichten berichtje berichtte berichtten berichte
+34	434	verwachten	verwacht verwachten verwachte verwachtte verwachtten verwachtend
+35	435	langs	langs waarlangs erlangs hierlangs daarlangs
+36	436	bezig	bezig bezige
+37	437	rol	rol rollen rolt rolde gerold rolletje rolletjes rolden rollend rolle
+38	438	antwoord	antwoord antwoorden antwoordde antwoordt geantwoord antwoordden antwoorde
+39	439	hulp	hulp hulpje hulpen
+40	440	project	project projecten projectje projectjes
+41	441	slaan	slaan slaat geslagen sloeg sla sloegen slaatje slaand
+42	442	hart	hart harte harten hartje
+43	443	nadat	nadat
+44	444	bijvoorbeeld	bijvoorbeeld bvb
+45	445	kaart	kaart kaarten kaartje kaartjes kaartte gekaart
+46	446	genieten	genieten geniet genoten genoot genietend geniete
+47	447	direct	direct directe directer directere
+48	448	actie	actie acties aktie
+49	449	tonen	toont tonen toon getoond toonde toonden tone getoonde toontje toonen
+50	450	noord	noord
+51	451	dochter	dochter dochters dochtertje dochteren
+52	452	opnemen	opgenomen opnemen opname opnames opnamen opneemt opnam opneem opnemend
+53	453	gelukkig	gelukkig gelukkige gelukkiger gelukkigste gelukkigen gelukkigst gelukkigere
+54	454	bedoelen	bedoeld bedoel bedoelde bedoelt bedoelen bedoelden bedoelende
+55	455	sociaal	sociale sociaal socialer socialen sociaals
+56	456	verenigd	verenigde verenigd
+57	457	god	god gods goden godin godinnen
+58	458	licht	licht lichte lichten lichter lichtjes lichtere lichtte lichtje gelicht lichtend
+59	459	medium	media medium mediums
+60	460	officieel	officiële officieel officiele
+61	461	doel	doel doelen doelt doelde gedoeld doelend doele
+62	462	speciaal	speciale speciaal speciaals specialer
+63	463	internationaal	internationale internationaal internationaler internationalen
+64	464	volledig	volledig volledige vollediger
+65	465	contact	contact contacten kontakt kontakten
+66	466	lichaam	lichaam lichamen lichaampje
+67	467	orde	orde orden ordes
+68	468	voorkomen	voorkomen voorkomt voorkomende voorkom voorkomend voorgekomen voorkwamen voorkwam vóórkomen voorkómen
+69	469	veilig	veilig veilige veiliger veiligste veiligere veiligst
+70	470	euro	euro euro's eurie
+71	471	totaal	totaal totale totalen
+72	472	fijn	fijn fijne fijner fijnste fijnere fijntjes fijns fijnst
+73	473	feit	feit feiten feite feitje feitjes
+74	474	zwaar	zwaar zware zwaarder zwaarste zwaardere zwaarst zwaars
+75	475	februari	februari feb
+76	476	koning	koning koningin koningen koninginnen
+77	477	regel	regels regel regelen regelt regelde regeltjes regelden regeltje regelend
+78	478	dienst	dienst diensten dienste
+79	479	vanwege	vanwege
+80	480	waardoor	waardoor
+81	481	provincie	provincie provincies provinciën
+82	482	heer	heer heren here heertje heir
+83	483	minister	minister ministers
+84	484	waarschijnlijk	waarschijnlijk waarschijnlijke waarschijnlijker ws wss wsl wrs waarschijnlijkst waarschijnlijkste
+85	485	juli	juli jul
+86	486	verdienen	verdienen verdient verdiend verdiende verdien verdienden verdienende
+87	487	voordat	voordat
+88	488	nacht	nacht nachts nachten nachtje
+89	489	ontvangen	ontvangen ontvangt ontvang ontving ontvingen ontvangend
+90	490	half	half halve halfje halven halfjes
+91	491	uiteindelijk	uiteindelijk uiteindelijke
+92	492	gevolg	gevolg gevolgen gevolge
+93	493	resultaat	resultaten resultaat
+94	494	spel	spel spellen spelletje gespeld speeltje speeltjes spelt spelden spelde gespelde
+95	495	geschiedenis	geschiedenis geschiedenissen
+96	496	persoonlijk	persoonlijke persoonlijk persoonlijks persoonlijker persoonlijkere
+97	497	midden	midden middens
+98	498	juni	juni jun
+99	499	aandacht	aandacht aandagt
+100	500	vervolgens	vervolgens

@@ -1,0 +1,100 @@
+1	9801	inkorten	ingekort inkorten ingekorte
+2	9802	leegstaand	leegstaande leegstaand
+3	9803	binair	binaire binair
+4	9804	hulpbron	hulpbronnen hulpbron
+5	9805	python	python pythons
+6	9806	rollenspel	rollenspel rollenspellen rollenspelen
+7	9807	cavia	cavia cavia's
+8	9808	reconstrueren	reconstrueren gereconstrueerd reconstrueert gereconstrueerde reconstrueerde reconstrueerden
+9	9809	doemen	gedoemd gedoemde doemt doemde doemen
+10	9810	actor	actoren actor
+11	9811	fietsenstalling	fietsenstalling fietsenstallingen
+12	9812	bezitter	bezitter bezitters
+13	9813	energiebron	energiebron energiebronnen
+14	9814	schandelijk	schandelijk schandelijke
+15	9815	beeldhouwer	beeldhouwer beeldhouwers beeldhouwster
+16	9816	kuur	kuur kuren kuurtje
+17	9817	toereikend	toereikend toereikende
+18	9818	windstoot	windstoten windstoot
+19	9819	recensent	recensent recensenten
+20	9820	halleluja	halleluja hallelujah
+21	9821	verovering	verovering veroveringen
+22	9822	zwaargewicht	zwaargewicht zwaargewichten
+23	9823	ferm	ferme ferm
+24	9824	bedelaar	bedelaars bedelaar
+25	9825	villen	ville vil gevild villen vilde gevilde
+26	9826	wegkomen	wegkomen wegkomt weggekomen wegkwam wegkwamen
+27	9827	herleiden	herleiden herleid herleidt herleidde
+28	9828	abonneren	abonneren abonneer geabonneerd
+29	9829	bergachtig	bergachtige bergachtig
+30	9830	kroniek	kroniek kronieken
+31	9831	luipaard	luipaard luipaarden
+32	9832	vormig	vormige vormig
+33	9833	origine	origine origines
+34	9834	voorschotelen	voorgeschoteld voorschotelen voorschotelt voorschotelde
+35	9835	oproer	oproer oproeren
+36	9836	doctrine	doctrine doctrines
+37	9837	gevangenzetten	gevangengezet gevangenzetten
+38	9838	kart	kart karts
+39	9839	snackbar	snackbar snackbars
+40	9840	toelage	toelage toelagen toelages
+41	9841	voortuin	voortuin voortuinen voortuintje
+42	9842	vervalsing	vervalsing vervalsingen
+43	9843	evolutionair	evolutionaire evolutionair
+44	9844	zuidwestelijk	zuidwestelijke zuidwestelijk
+45	9845	veroorzaker	veroorzaker veroorzakers
+46	9846	achterbank	achterbank
+47	9847	ambtstermijn	ambtstermijn
+48	9848	anatomie	anatomie
+49	9849	anonimiteit	anonimiteit
+50	9850	arbeiderspartij	arbeiderspartij
+51	9851	bibi	bibi
+52	9852	binnenshuis	binnenshuis
+53	9853	binnenvaart	binnenvaart
+54	9854	correctheid	correctheid
+55	9855	dinsdagochtend	dinsdagochtend
+56	9856	flexibiliteit	flexibiliteit
+57	9857	geenszins	geenszins
+58	9858	gekkenhuis	gekkenhuis
+59	9859	grind	grind
+60	9860	kaneel	kaneel
+61	9861	kinderbescherming	kinderbescherming
+62	9862	minderjarig	minderjarig
+63	9863	muide	muiden
+64	9864	parkinson	parkinson
+65	9865	percussie	percussie
+66	9866	populisme	populisme
+67	9867	rechtsaf	rechtsaf
+68	9868	retoriek	retoriek
+69	9869	rijksuniversiteit	rijksuniversiteit
+70	9870	sup	sup
+71	9871	ultimatum	ultimatum
+72	9872	vergiffenis	vergiffenis
+73	9873	verkering	verkering
+74	9874	verkouden	verkouden
+75	9875	voorspoed	voorspoed
+76	9876	wegverkeer	wegverkeer
+77	9877	scootmobiel	scootmobiel scootmobielen
+78	9878	aspirant	aspirant aspiranten
+79	9879	kikken	kik kikken
+80	9880	omhelzen	omhelzen omhelst omhelsde omhels omhelsd omhelsden omhelzende
+81	9881	gloeien	gloeien gloeiend gloei gloeit gloeide
+82	9882	dagvaarding	dagvaarding dagvaardingen
+83	9883	slachthuis	slachthuis slachthuizen
+84	9884	liquidatie	liquidatie liquidaties
+85	9885	speelplaats	speelplaats speelplaatsen
+86	9886	perceptie	perceptie percepties
+87	9887	tombe	tombe tombes tomben
+88	9888	borduren	borduren geborduurd geborduurde borduurt borduurde borduur
+89	9889	briefing	briefing briefings
+90	9890	yen	yen yens
+91	9891	hinderlijk	hinderlijk hinderlijke
+92	9892	overgrootvader	overgrootvader overgrootmoeder
+93	9893	avonturier	avonturier avonturiers avonturierster
+94	9894	manifesteren	manifesteren manifesteert manifesteerde gemanifesteerd manifesteerden
+95	9895	kieslijst	kieslijst kieslijsten
+96	9896	terbeschikkingstelling	tbs terbeschikkingstelling
+97	9897	pamflet	pamflet pamfletten
+98	9898	opdraaien	opdraaien opgedraaid opdraait opdraaide
+99	9899	regulering	regulering reguleringen
+100	9900	verwekken	verwekt verwekken verwekte verwekten

@@ -1,0 +1,100 @@
+1	901	modern	moderne modern moderner modernste modernere modernen moderns
+2	902	aanbieden	aangeboden aanbieden aanbiedt aanbood aanbied aanboden
+3	903	proces	proces processen
+4	904	gezond	gezond gezonde gezonder gezondere gezondste gezonds
+5	905	veroorzaken	veroorzaakt veroorzaken veroorzaakte veroorzaakten veroorzaak veroorzakend
+6	906	digitaal	digitale digitaal
+7	907	verantwoordelijk	verantwoordelijk verantwoordelijke verantwoordelijken verantwoordelijker
+8	908	namelijk	namelijk nml namelijke
+9	909	doordat	doordat
+10	910	kantoor	kantoor kantoren kantoortje comptoir
+11	911	mobiel	mobiele mobiel mobieltje mobieler mobielen
+12	912	krant	krant kranten courant krantje courante krantjes
+13	913	hè	hè he
+14	914	eenvoudig	eenvoudig eenvoudige eenvoudiger eenvoudigste eenvoudigere eenvoudigst eenvoudigs
+15	915	grappig	grappig grappige grappigste grappiger grappigs grappigst
+16	916	gang	gang gangen gangetje gangetjes
+17	917	weekend	weekend weekendje weekenden weekends
+18	918	risico	risico risico's
+19	919	verleden	verleden verledens
+20	920	kwijt	kwijt
+21	921	generaal	generaal generaals generale
+22	922	controleren	controleren gecontroleerd controleer controleert gecontroleerde controleerde controlerende controleerden controlerend
+23	923	ochtend	ochtend ochtends ochtenden ochtendje
+24	924	inzet	inzet inzetten inzette
+25	925	show	show shows showtje
+26	926	baseren	gebaseerd baseert baseren baseer baseerde baseerden baserend
+27	927	leerling	leerlingen leerling leerlinge
+28	928	mama	mama mamma mama's mamma's
+29	929	oké	oke oké
+30	930	verzamelen	verzamelen verzameld verzamelde verzamelt verzamel verzamelden verzamelend verzamelende
+31	931	overzicht	overzicht overzichten overzichtje
+32	932	benen	benen been bene beenderen beentje beenders
+33	933	absoluut	absoluut absolute
+34	934	bedenken	bedacht bedenken bedenk bedenkt bedachten bedachte bedenkend
+35	935	blijkbaar	blijkbaar
+36	936	jeugd	jeugd
+37	937	respect	respect
+38	938	verbeteren	verbeteren verbeterd verbeterde verbetert verbeter verbeterden verbeterende verbeterend
+39	939	regelmatig	regelmatig regelmatige regelmatiger
+40	940	opleiding	opleiding opleidingen
+41	941	datum	datum data datums data's
+42	942	neuken	neuken geneukt neuk neukt neukte neukende neuke neukend neukten
+43	943	plaat	plaat plaatje plaatjes platen
+44	944	jaarlijks	jaarlijks jaarlijkse
+45	945	schoen	schoenen schoen schoentje
+46	946	medisch	medische medisch
+47	947	interview	interview interviews interviewtje
+48	948	afspraak	afspraak afspraken afspraakje afspraakjes
+49	949	agent	agenten agent agente agentes
+50	950	maandag	maandag maandagen maandags
+51	951	toegang	toegang toegangen
+52	952	soldaat	soldaten soldaat soldaatjes soldaatje soldate
+53	953	oosten	oosten
+54	954	schade	schade
+55	955	vuur	vuur vuren vuurtje vuurt vuurde vuurden gevuurd vurend
+56	956	gevaarlijk	gevaarlijk gevaarlijke gevaarlijker gevaarlijkste gevaarlijks gevaarlijkst gevaarlijkere
+57	957	verband	verband verbanden verbandje
+58	958	lastig	lastig lastige lastiger lastigste lastigst lastigere
+59	959	leider	leider leiders
+60	960	bevestigen	bevestigd bevestigen bevestigt bevestigde bevestig bevestigden bevestigend
+61	961	politicus	politici politicus politica
+62	962	verandering	verandering veranderingen
+63	963	directeur	directeur directeuren directrice directeurs
+64	964	evenement	evenement evenementen
+65	965	cijfer	cijfers cijfer cijfertje
+66	966	ziekte	ziekte ziekten ziektes
+67	967	daarvoor	daarvoor hiervoor
+68	968	boodschap	boodschap boodschappen boodschapjes boodschapje
+69	969	voorzien	voorzien voorziet voorzag voorzie voorziene voorzagen
+70	970	honderd	honderd honderden honderdsten
+71	971	geheim	geheim geheime geheimen geheimpje geheimpjes geheimer
+72	972	straks	straks strakjes
+73	973	daarbij	daarbij
+74	974	hoi	hoi
+75	975	nergens	nergens
+76	976	wegens	wegens
+77	977	zomaar	zomaar
+78	978	vrijheid	vrijheid vrijheden
+79	979	uitleg	uitleg uitleggen uitgelegd uitlegt uitlegde uitlegden
+80	980	steen	steen stenen steentje steenen
+81	981	el	el ellen
+82	982	overleven	overleven overleefd overlevenden overleefde overleeft overlevende overleef overleefden overlevend
+83	983	eigenaar	eigenaar eigenaren eigenaars eigenares
+84	984	arts	arts artsen
+85	985	advies	advies adviezen
+86	986	schoon	schoon schone schoner schoonste schonere schonen schoone geschoond schoons schoonen
+87	987	bal	bal ballen balletje bals gebalde balle balt gebald balde
+88	988	degene	degene degenen
+89	989	ster	sterren ster sterretjes sterretje
+90	990	taak	taak taken take
+91	991	aankomen	aangekomen aankomen aankomt aankomende aankwam aankwamen aankomend aankom
+92	992	eindigen	eindigt eindigde eindigen geëindigd eindig eindigden eindigend eindige geëindigde
+93	993	partner	partner partners
+94	994	herstellen	herstellen herstel hersteld herstelt herstelde herstellend herstelden
+95	995	groene	groene groenen
+96	996	oplossen	oplossen opgelost oplost opgeloste oploste oplossend oplos oplosten oplossende
+97	997	station	station stations stationnetje
+98	998	veld	veld velden velde veldje velds
+99	999	compleet	compleet complete kompleet completer completere compleetste
+100	1000	afbeelding	afbeelding afbeeldingen

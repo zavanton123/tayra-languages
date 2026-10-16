@@ -1,0 +1,100 @@
+1	6301	aanbouw	aanbouw aangebouwd aangebouwde aanbouwen
+2	6302	doordringen	doordringen doorgedrongen doordringt doordrongen doordrong doordringend
+3	6303	stijlvol	stijlvol stijlvolle stijlvoller
+4	6304	loting	loting lotingen
+5	6305	barbecue	barbecue barbecues
+6	6306	kunststof	kunststof kunststoffen
+7	6307	instemmen	ingestemd instemmen instemt instemde instemmend instemden
+8	6308	achtbaan	achtbaan achtbanen
+9	6309	optisch	optische optisch
+10	6310	tepel	tepels tepel
+11	6311	symboliseren	symboliseert symboliseren gesymboliseerd symboliseerde symboliseerden
+12	6312	peper	peper pepers pepertje
+13	6313	assisteren	assisteren geassisteerd assisteert assisteerde assisteer assisterende geassisteerde assisteerden
+14	6314	sympathiek	sympathiek sympathieke sympathieker
+15	6315	accessoire	accessoires accessoire
+16	6316	beslaan	beslaat beslaan besloeg besloegen beslagen
+17	6317	onbepaald	onbepaalde onbepaald
+18	6318	verontrustend	verontrustend verontrustende verontrustender
+19	6319	koppig	koppig koppige
+20	6320	verzamelaar	verzamelaar verzamelaars
+21	6321	loyaliteit	loyaliteit loyaliteiten
+22	6322	binnenhalen	binnenhalen binnengehaald binnenhaalt binnenhaalde binnenhaalden
+23	6323	voorspelbaar	voorspelbaar voorspelbare voorspelbaarder
+24	6324	afkomen	afkomen afkomt afgekomen afkwamen afkwam afkom
+25	6325	behulpzaam	behulpzaam behulpzame
+26	6326	achterlijk	achterlijk achterlijken
+27	6327	restant	restanten restant
+28	6328	processor	processor processors processoren
+29	6329	loyaal	loyaal loyale loyaler
+30	6330	vlakte	vlakte vlakten vlaktes
+31	6331	inspiratiebron	inspiratiebron inspiratiebronnen
+32	6332	pi	pi pi's
+33	6333	nobel	nobel nobele nobels nobelste
+34	6334	richter	richter richters richteren
+35	6335	kleven	kleven kleef kleeft kleve kleefde klevende gekleefd kleefden klevend
+36	6336	internetverbinding	internetverbinding internetverbindingen
+37	6337	aas	aas azen aast aes aasde aasden
+38	6338	verwisselen	verwisselen verwisseld verwisselde verwisselt verwissel verwisselden
+39	6339	aangelegenheid	aangelegenheden aangelegenheid
+40	6340	koer	koerden koert koer koeren
+41	6341	hoofdklasse	hoofdklasse hoofdklassen
+42	6342	spijkerbroek	spijkerbroek spijkerbroeken spijkerbroekje
+43	6343	onhandig	onhandig onhandige onhandiger
+44	6344	mijden	mijden mijdt gemeden mijd meed meden
+45	6345	verblijfplaats	verblijfplaats verblijfplaatsen
+46	6346	kin	kin kinnen
+47	6347	gastvrij	gastvrij gastvrije gastvrijer
+48	6348	konvooi	konvooi konvooien convooi
+49	6349	autorijden	autorijden autorijdt
+50	6350	blussen	blussen geblust blus blust bluste
+51	6351	schepper	schepper scheppers
+52	6352	fundament	fundament fundamenten
+53	6353	talkshow	talkshow talkshows
+54	6354	smurfen	smurfen smurf
+55	6355	tap	tap tappen getapt tapt tapte tapten
+56	6356	vorderen	vordert vorderen vorderde vorderden vorder vorderende vordere
+57	6357	poeder	poeder poeders
+58	6358	tweetal	tweetal tweetallen
+59	6359	veiligheidsdienst	veiligheidsdienst veiligheidsdiensten
+60	6360	slingeren	slingeren geslingerd slingert slingerde slingerende slingerend slingerden
+61	6361	samenwonen	samenwonen samenwoont samenwoonde samenwonend samengewoond samenwoon samenwonende samenwoonden samenwonenden
+62	6362	handbal	handbal handballen gehandbald
+63	6363	ros	ros rosse rossen rost rosten roste
+64	6364	nerd	nerd nerds
+65	6365	rapportage	rapportages rapportage
+66	6366	avondeten	avondeten
+67	6367	bah	bah
+68	6368	catering	catering
+69	6369	evenmin	evenmin
+70	6370	godsnaam	godsnaam
+71	6371	goedenavond	goedenavond
+72	6372	homepage	homepage
+73	6373	janet	janet
+74	6374	middenin	middenin
+75	6375	middenveld	middenveld
+76	6376	negentien	negentien
+77	6377	onvrede	onvrede
+78	6378	rechterkant	rechterkant
+79	6379	telefonie	telefonie
+80	6380	teleur	teleur
+81	6381	voortgang	voortgang
+82	6382	vuilnis	vuilnis
+83	6383	wederopbouw	wederopbouw
+84	6384	woningbouw	woningbouw
+85	6385	erfelijk	erfelijke erfelijk
+86	6386	tussentijds	tussentijdse tussentijds
+87	6387	epidemie	epidemie epidemieën
+88	6388	komedie	komedie komedies
+89	6389	bezichtigen	bezichtigen bezichtigd
+90	6390	overspoelen	overspoeld overspoelen overspoelt overspoelde overspoelden
+91	6391	omkleden	omkleden omgekleed omkleed omklede
+92	6392	babbelen	babbelen babbel babbeltje babbels gebabbeld babbelt babbelde babbelden babbelende
+93	6393	potlood	potlood potloden potloodjes
+94	6394	onacceptabel	onacceptabel onacceptabele
+95	6395	decreet	decreet decreten
+96	6396	afslag	afslag afslagen
+97	6397	jumbo	jumbo jumbo's
+98	6398	zuivering	zuivering zuiveringen
+99	6399	komisch	komische komisch
+100	6400	inslag	inslag inslagen

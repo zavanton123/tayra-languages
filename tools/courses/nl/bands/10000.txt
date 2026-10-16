@@ -1,0 +1,100 @@
+1	9901	verstrikken	verstrikt verstrikken
+2	9902	waarlijk	waarlijk waarlijke
+3	9903	whiskey	whiskey whiskeys
+4	9904	chill	chill chiller chille chillers
+5	9905	natuurkundige	natuurkundige natuurkundigen
+6	9906	sollicitatiegesprek	sollicitatiegesprek sollicitatiegesprekken
+7	9907	vector	vector vectoren
+8	9908	optimaliseren	optimaliseren geoptimaliseerd optimaliseert
+9	9909	meekijken	meekijken meekijkt meegekeken meekeek
+10	9910	doorzien	doorzien doorziet doorzagen doorgezaagd doorzie doorzag doorgezaagde
+11	9911	ongehuwd	ongehuwd ongehuwde ongehuwden
+12	9912	miniatuur	miniatuur miniaturen
+13	9913	gastarbeider	gastarbeiders gastarbeider
+14	9914	glutenvrij	glutenvrij glutenvrije
+15	9915	injecteren	geïnjecteerd injecteren injecteert injecteerde injecteer
+16	9916	classificeren	geclassificeerd classificeren geclassificeerde classificeert classificeerde
+17	9917	ontsluiten	ontsluiten ontsloten ontsluit ontsloot
+18	9918	maatstaf	maatstaf maatstaven
+19	9919	rendier	rendieren rendier
+20	9920	boerka	boerka boerka's
+21	9921	boomstam	boomstammen boomstam boomstammetjes
+22	9922	leermeester	leermeester leermeesters
+23	9923	verdunnen	verdun verdund verdunde verdunnen verdunt
+24	9924	occasion	occasion occasions
+25	9925	mobilisatie	mobilisatie mobilisaties
+26	9926	tinderen	tinder tinderen
+27	9927	onmiskenbaar	onmiskenbaar onmiskenbare
+28	9928	hertrouwen	hertrouwd hertrouwde hertrouwen hertrouwt
+29	9929	lichtgewicht	lichtgewicht lichtgewichten
+30	9930	winkelketen	winkelketen winkelketens
+31	9931	winderig	winderig winderige
+32	9932	exposeren	exposeert exposeren geëxposeerd exposeerde geëxposeerde exposeerden
+33	9933	heidens	heidense heidens
+34	9934	marketeer	marketeer marketeers
+35	9935	teamlid	teamleden teamlid
+36	9936	vervloekt	vervloekt vervloekte
+37	9937	afstoten	afstoten afgestoten afstotend afstoot afstotende afstootte
+38	9938	rijzen	rijzen rijzende rijs gerezen reest rezen
+39	9939	deren	deer deren deert dere deerde
+40	9940	onstabiel	onstabiel onstabiele onstabieler
+41	9941	afgeleide	afgeleide afgeleiden
+42	9942	roofvogel	roofvogels roofvogel
+43	9943	ziekenfonds	ziekenfonds ziekenfondsen
+44	9944	krijgsgevangene	krijgsgevangenen krijgsgevangene krijgsgevangen
+45	9945	brownie	brownie brownies
+46	9946	muziekschool	muziekschool muziekscholen
+47	9947	verduisteren	verduisterd verduisteren verduisterde verduistert verduisterend
+48	9948	afremmen	afremmen afgeremd afremt afremde
+49	9949	tegenwerken	tegenwerken tegengewerkt tegenwerkt tegenwerkende tegenwerkte
+50	9950	provoceren	provoceren provocerend provoceert geprovoceerd provoceerde
+51	9951	naad	naad naden naadje
+52	9952	amandel	amandelen amandel
+53	9953	redactioneel	redactionele redactioneel
+54	9954	versnellingsbak	versnellingsbak versnellingsbakken
+55	9955	jaarverslag	jaarverslag jaarverslagen
+56	9956	inperken	ingeperkt inperken inperkt
+57	9957	herindeling	herindeling herindelingen
+58	9958	astronoom	astronomen astronoom
+59	9959	flashback	flashback flashbacks
+60	9960	constitutie	constitutie constituties
+61	9961	alimentatie	alimentatie
+62	9962	alleszins	alleszins
+63	9963	alwaar	alwaar
+64	9964	cassatie	cassatie
+65	9965	dageraad	dageraad
+66	9966	fosfor	fosfor
+67	9967	geheimhouding	geheimhouding
+68	9968	gelijkmaker	gelijkmaker
+69	9969	gemenebest	gemenebest
+70	9970	lila	lila
+71	9971	maling	maling
+72	9972	onderbuik	onderbuik
+73	9973	ontbossing	ontbossing
+74	9974	ontevredenheid	ontevredenheid
+75	9975	oogcontact	oogcontact
+76	9976	overuur	overuren
+77	9977	rechtvaardiging	rechtvaardiging
+78	9978	reikwijdte	reikwijdte
+79	9979	rondweg	rondweg
+80	9980	serge	serge
+81	9981	spinazie	spinazie
+82	9982	veertiende	veertiende
+83	9983	voorlaatst	voorlaatste
+84	9984	voortouw	voortouw
+85	9985	zonet	zonet
+86	9986	vaccineren	vaccineren gevaccineerd vaccineert
+87	9987	dienstverlener	dienstverlener dienstverleners
+88	9988	snuit	snuit snuiten snuitje snoot
+89	9989	justitieel	justitiële justitieel
+90	9990	urn	urn urnen urne urntje
+91	9991	stroop	stroop stropen stroopte gestroopt stroopt
+92	9992	wilg	wilgen wilg
+93	9993	collier	collier colliers
+94	9994	donk	donk donken
+95	9995	schoolplein	schoolplein schoolpleinen
+96	9996	belegering	belegering belegeringen
+97	9997	kandidatenlijst	kandidatenlijst kandidatenlijsten
+98	9998	melken	melken gemolken melkt molk
+99	9999	moordaanslag	moordaanslag moordaanslagen
+100	10000	vierjarig	vierjarige vierjarig

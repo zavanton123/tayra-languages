@@ -1,0 +1,100 @@
+1	4001	persconferentie	persconferentie persconferenties
+2	4002	orkest	orkest orkesten orkestje
+3	4003	spiritueel	spirituele spiritueel
+4	4004	truck	truck trucks
+5	4005	map	map mappen mapje
+6	4006	voorlezen	voorlezen voorgelezen voorleest voorlas voorlees voorlazen
+7	4007	ongewoon	ongewoon ongewone ongewoons
+8	4008	hulpverlener	hulpverleners hulpverlener hulpverleenster
+9	4009	openlijk	openlijk openlijke openlijker
+10	4010	baat	baat baten gebaat bate baeten baatte
+11	4011	vertaler	vertaler vertalers vertaalster
+12	4012	mild	milde mild milder mildere mildste
+13	4013	toenmalig	toenmalige toenmalig
+14	4014	korps	korps corps korpsen corpora
+15	4015	harmonie	harmonie harmonieën
+16	4016	huisvrouw	huisvrouw huisman huisvrouwen huisvrouwtje
+17	4017	saus	saus sauzen sausje sausen
+18	4018	kunstmatig	kunstmatige kunstmatig
+19	4019	tweeling	tweeling tweelingen
+20	4020	gif	gif gifs giffen gifje
+21	4021	citeren	citeren geciteerd citeer citeert citeerde geciteerde citeerden
+22	4022	begrijpelijk	begrijpelijk begrijpelijke begrijpelijker
+23	4023	toewijzen	toegewezen toewijzen toewijst toewees
+24	4024	zeuren	zeuren zeur zeurt zeurende gezeurd zeurde zeurend
+25	4025	offer	offer offers
+26	4026	pap	pap paps pappen papje papt
+27	4027	skiën	skiën ski ski's geskied skiet
+28	4028	klaarmaken	klaarmaken klaargemaakt klaarmaakt klaarmaak klaarmaakte klaarmaakten klaargemaakte
+29	4029	berekening	berekening berekeningen
+30	4030	klimaatverandering	klimaatverandering klimaatsverandering klimaatveranderingen
+31	4031	alliantie	alliantie allianties
+32	4032	flexibel	flexibel flexibele flexibeler flexibelere
+33	4033	archeologisch	archeologische archeologisch
+34	4034	list	list listen
+35	4035	scan	scan scans
+36	4036	vergoeding	vergoeding vergoedingen
+37	4037	genetisch	genetische genetisch
+38	4038	spoel	spoel spoelen spoelt gespoeld spoelde spoelden spoeltje
+39	4039	regelgeving	regelgeving regelgevingen
+40	4040	verpleegster	verpleegster verpleegsters verpleger verplegers
+41	4041	citaat	citaat citaten
+42	4042	verschijnsel	verschijnsel verschijnselen
+43	4043	andersom	andersom
+44	4044	boter	boter
+45	4045	gebonden	gebonden
+46	4046	immigratie	immigratie
+47	4047	opgewonden	opgewonden
+48	4048	opzij	opzij
+49	4049	überhaupt	überhaupt
+50	4050	scooter	scooter scooters
+51	4051	executeren	geëxecuteerd executeren executeert executeerde geëxecuteerde executeerden
+52	4052	kikker	kikker kikkers kikkertje kikkertjes
+53	4053	immigrant	immigranten immigrant immigrante
+54	4054	naald	naald naalden naaldje
+55	4055	erfenis	erfenis erfenissen
+56	4056	aanbevelen	aanbevolen aanbevelen aanbeveelt aanbeveel aanbeval
+57	4057	zorgvuldig	zorgvuldig zorgvuldige zorgvuldiger
+58	4058	fascinerend	fascinerend fascinerende fascinerender
+59	4059	jungle	jungle jungles
+60	4060	conditie	conditie condities
+61	4061	ontvoering	ontvoering ontvoeringen
+62	4062	suite	suite suites
+63	4063	opgaan	opgaan opgegaan opgaat opging opgingen opgaand opga
+64	4064	schutter	schutter schutters
+65	4065	ruiter	ruiter ruiters
+66	4066	redding	redding reddingen
+67	4067	omdraaien	omdraaien omgedraaid omdraait omdraaide omdraai omdraaiden
+68	4068	halte	halte haltes halten
+69	4069	hoes	hoes hoesje hoezen
+70	4070	reiken	reikt reiken reikte reik reikten reikend gereikt reikende
+71	4071	zaaien	zaaien zaait gezaaid zaai zaaide zaaiden zaaiende
+72	4072	mop	mop moppen moppie mopje mops moppies
+73	4073	universum	universum universums universa
+74	4074	aantasten	aangetast aantasten aantast aangetaste aantastte
+75	4075	begroting	begroting begrotingen
+76	4076	asielzoeker	asielzoekers asielzoeker
+77	4077	rubriek	rubriek rubrieken
+78	4078	woedend	woedend woedende
+79	4079	truc	trucs truc trucje truuk truken
+80	4080	sein	sein seine seintje seinen seinde seint geseind
+81	4081	organisator	organisator organisatoren organisators
+82	4082	plafond	plafond plafonds plafon
+83	4083	renault	renault renaults
+84	4084	legendarisch	legendarische legendarisch
+85	4085	hoeverre	hoeverre hoever
+86	4086	bacterie	bacteriën bacterie
+87	4087	vernietiging	vernietiging vernietigingen
+88	4088	aanraken	aanraken aangeraakt aanraakt aanraak aanraakte aanraakten
+89	4089	optrekken	opgetrokken optrekken optrekt optrok optrekje optrokken optrek optrekkende optrekkend
+90	4090	drone	drone drones
+91	4091	neerleggen	neergelegd neerleggen neerlegt neerlegde neergelegde neerlegden neerleg
+92	4092	binnenland	binnenland binnenlanden
+93	4093	begeven	begeven begaf begeeft begaven begeef
+94	4094	beton	beton
+95	4095	ernst	ernst
+96	4096	preventie	preventie
+97	4097	regie	regie
+98	4098	room	room
+99	4099	stabiliteit	stabiliteit
+100	4100	tech	tech

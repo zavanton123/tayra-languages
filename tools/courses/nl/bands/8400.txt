@@ -1,0 +1,100 @@
+1	8301	handtas	handtas handtassen handtasje
+2	8302	chipkaart	chipkaart chipkaarten
+3	8303	espresso	espresso espresso's
+4	8304	volmacht	volmacht volmachten
+5	8305	meerijden	meerijden meegereden meerijdt meereed meerijd
+6	8306	buitensluiten	buitengesloten buitensluiten buitensluit
+7	8307	leuze	leuzen leuze leus
+8	8308	snellen	snellen snelt snelde snelle gesneld snelden
+9	8309	pleister	pleister pleisters
+10	8310	voorzet	voorzet voorzetten voorgezet voorzetje voorzette
+11	8311	extreemrechts	extreemrechtse extreemrechts
+12	8312	schijnwerper	schijnwerpers schijnwerper
+13	8313	inspecteren	inspecteren geïnspecteerd inspecteert inspecteerde inspecteer inspecteerden
+14	8314	bovengenoemd	bovengenoemde bovengenoemd
+15	8315	halfrond	halfrond halfronde
+16	8316	audiovisueel	audiovisuele audiovisueel
+17	8317	tros	tros trossen trost trosje trosjes
+18	8318	onvoorspelbaar	onvoorspelbaar onvoorspelbare onvoorspelbaarder
+19	8319	debuteren	debuteerde debuteert debuteren debuterend debuteerden gedebuteerd
+20	8320	aangeboren	aangeboren
+21	8321	borgtocht	borgtocht
+22	8322	buitenst	buitenste
+23	8323	chocolademelk	chocolademelk
+24	8324	deskundig	deskundig
+25	8325	domino	domino
+26	8326	erotiek	erotiek
+27	8327	gekte	gekte
+28	8328	maatwerk	maatwerk
+29	8329	malaria	malaria
+30	8330	mas	mas
+31	8331	optimisme	optimisme
+32	8332	papierwerk	papierwerk
+33	8333	rundvlees	rundvlees
+34	8334	stilaan	stilaan
+35	8335	terzijde	terzijde
+36	8336	uranium	uranium
+37	8337	vakmanschap	vakmanschap
+38	8338	veerkracht	veerkracht
+39	8339	verslaggeving	verslaggeving
+40	8340	vruchtbaarheid	vruchtbaarheid
+41	8341	verjaardagsfeest	verjaardagsfeestje verjaardagsfeest
+42	8342	invalshoek	invalshoek invalshoeken
+43	8343	plundering	plundering plunderingen
+44	8344	appartementencomplex	appartementencomplex appartementencomplexen
+45	8345	gymnasium	gymnasium gymnasia
+46	8346	doorsnijden	doorsnijden doorgesneden doorsnijdt doorsneed doorsneden
+47	8347	omweg	omweg omwegen omweggetje
+48	8348	deinzen	deinze deinst deinzen deinsde deins deinsden
+49	8349	flop	flop flops geflopt floppen flopte flopt
+50	8350	beamen	beamen beam beaamt beaamde beaam beaamd
+51	8351	grafsteen	grafsteen grafstenen
+52	8352	ufo	ufo ufo's
+53	8353	grazen	grazen grazende graast graasden grazend graas graasde
+54	8354	thermisch	thermische thermisch
+55	8355	rommelig	rommelig rommelige rommeliger
+56	8356	vrachtauto	vrachtauto vrachtauto's
+57	8357	opsomming	opsomming opsommingen
+58	8358	cabaret	cabaret cabarets
+59	8359	winstgevend	winstgevende winstgevend winstgevender
+60	8360	voorstad	voorstad voorsteden voorstadje
+61	8361	verdraaid	verdraaid verdraaide
+62	8362	kiesdistrict	kiesdistrict kiesdistricten
+63	8363	knuppel	knuppel knuppels
+64	8364	vuurgevecht	vuurgevecht vuurgevechten
+65	8365	openhartig	openhartig openhartige
+66	8366	uitverkoop	uitverkoop uitverkopen
+67	8367	mobiliseren	mobiliseren gemobiliseerd mobiliseert gemobiliseerde mobiliseerde mobiliseer
+68	8368	vaal	vale vaals vaal valer valere
+69	8369	asperge	asperges asperge
+70	8370	reductie	reductie reducties
+71	8371	barak	barakken barak
+72	8372	moor	moor morin moren moortje
+73	8373	ontvoerder	ontvoerders ontvoerder
+74	8374	vandaal	vandalen vandaal
+75	8375	teamleider	teamleider teamleiders
+76	8376	rijpen	rijpen gerijpt rijpt rijpe rijpende rijpte rijpend
+77	8377	meedenken	meedenken meedenkt meegedacht meedenkende
+78	8378	rekruteren	rekruteren gerekruteerd rekruteerde rekruteert rekruteerden
+79	8379	autoritair	autoritaire autoritair
+80	8380	spreekwoord	spreekwoord spreekwoorden
+81	8381	tiran	tiran tirannen
+82	8382	verkiesbaar	verkiesbaar verkiesbare
+83	8383	hulpeloos	hulpeloos hulpeloze
+84	8384	betwist	betwist betwiste
+85	8385	cassette	cassette cassettes
+86	8386	doorslaggevend	doorslaggevend doorslaggevende
+87	8387	flauwvallen	flauwgevallen flauwvallen flauwvalt flauwviel
+88	8388	territorium	territorium territoria
+89	8389	nadelig	nadelig nadelige
+90	8390	wandelroute	wandelroute wandelroutes
+91	8391	vluchtig	vluchtig vluchtige
+92	8392	subjectief	subjectief subjectieve
+93	8393	fotoshoot	fotoshoot fotoshoots
+94	8394	ravijn	ravijn ravijnen
+95	8395	herstarten	herstart herstarten herstartte
+96	8396	ovaal	ovale ovaal ovalen
+97	8397	kapsalon	kapsalon kapsalons
+98	8398	kunde	kunde konde
+99	8399	buitenlucht	buitenlucht
+100	8400	cognac	cognac

@@ -1,0 +1,100 @@
+1	301	leiden	leiden leidt leidde geleid leidden leid leidend leide
+2	302	praten	praten praat gepraat praatte praatje praatjes praatten pratend prate
+3	303	video	video video's videootje
+4	304	thuis	thuis tehuis tehuizen
+5	305	bedrijf	bedrijf bedrijven bedreven bedrijfje bedrijfs bedrijft bedreef
+6	306	persoon	persoon personen persoons persoontje
+7	307	soms	soms
+8	308	ieder	ieder iedere ieders iederen
+9	309	links	links link linkse linker linke linkje linkser linksere
+10	310	moeder	moeder moeders gemoederen moedertje
+11	311	niks	niks nix
+12	312	stem	stem stemmen gestemd stemt stemde stemden stemmetje stemme
+13	313	plan	plan plannen gepland plant geplande plande plannetje plantje planden
+14	314	veranderen	veranderen veranderd verandert veranderde verander veranderden veranderend verandere
+15	315	stuk	stuk stukje stukken stuks stukkie stukke stukske stukkies
+16	316	juist	juist juiste juister
+17	317	dragen	dragen draagt gedragen draag droeg droegen gedraagt gedraag gedroeg gedroegen
+18	318	gemeente	gemeente gemeenten gemeentes
+19	319	betekenen	betekent betekenen betekende betekend beteken betekenden betekenend
+20	320	hen	hen hennen hennetje
+21	321	vier	vier viertjes
+22	322	terwijl	terwijl
+23	323	eigenlijk	eigenlijk eigenlijke eig eigenlijks
+24	324	vader	vader vaders vaar vadertje vaderen
+25	325	kans	kans kansen kansje kansjes
+26	326	pas	pas pasje
+27	327	lekker	lekker lekkere lekkerste lekkers lekkerder lekkerst lekkertje lekkerdere
+28	328	informatie	informatie informaties
+29	329	waarin	waarin
+30	330	boven	boven hierboven daarboven erboven waarboven
+31	331	prijs	prijs prijzen geprezen prijst prees prijsje geprijsd prezen geprijsde prijze
+32	332	april	april apr
+33	333	eerder	eerder eerdere
+34	334	geval	geval gevallen gevalletje gevalle
+35	335	vanuit	vanuit
+36	336	minuut	minuten minuut minuutje
+37	337	vol	vol volle voller volste vollere vols volder
+38	338	mis	mis missen gemist mist miste misten missende mistte misse missend
+39	339	duidelijk	duidelijk duidelijke duidelijker duidelijkste duidelijkere duidelijkst
+40	340	regio	regio regio's regionen
+41	341	moeilijk	moeilijk moeilijke moeilijker moeilijkste moeilijkst moeilijkere moeilijks
+42	342	zeer	zeer zere zeerste
+43	343	politiek	politiek politieke politiekers politieker
+44	344	ooit	ooit
+45	345	zuid	zuid
+46	346	oktober	oktober okt october
+47	347	zoon	zoon zonen zoontje zoons
+48	348	delen	delen gedeeld deelt gedeelde deelde deelden dele deelen delend
+49	349	leggen	leggen legt leg gelegd legde legden lei leien gelegde legge
+50	350	begin	begin beginne beginnetje
+51	351	rijden	rijden rijdt reed gereden rijd rede rijdend ree reeën redes
+52	352	zodat	zodat zoodat
+53	353	duur	duurt duur duren duurde dure duurder durende geduurd duurste duurdere
+54	354	sluiten	gesloten sluiten sluit sloot sloten sluitend sluitende slootje
+55	355	vijf	vijf vijven vijfje vijfjes vijfden
+56	356	oog	ogen oog oogje oogt ogend oogde oogen oge
+57	357	daarom	daarom erom hierom
+58	358	team	team teams
+59	359	ongeveer	ongeveer
+60	360	bezoek	bezoek bezoeken bezocht bezoekt bezoekje bezochte bezochten bezoekend
+61	361	reden	reden redenen gereed rede ree reeën gerede redes redens reedt
+62	362	sterk	sterk sterke sterker sterkste sterkere sterkst sterksten flinterdunne sterkers sterks
+63	363	hoeven	hoeft hoef hoeven hoefde hoeve hoefden gehoeven hoeves hoefjes
+64	364	miljoen	miljoen miljoenen millioen miljoentje millioenen
+65	365	trekken	trekken trekt trek trok getrokken trokken trekjes trekje trekkend trekke
+66	366	sommige	sommige sommigen
+67	367	niemand	niemand niemands
+68	368	november	november nov
+69	369	naast	naast hiernaast ernaast naaste naasten waarnaast
+70	370	stap	stap stappen stapt stapte stapje gestapt stapten stappend stappende
+71	371	nummer	nummer nummers nummertje
+72	372	druk	druk drukke drukker drukste drukst drukkers drukkere
+73	373	gelijk	gelijk gelijke gelijken gelijkend gelijkt gelijker geleek gelijkere geleken
+74	374	vergeten	vergeten vergeet vergat vergaten vergetend
+75	375	bouwen	bouwen bouw gebouwd bouwt bouwde bouwden bouwend bouwe
+76	376	plek	plek plekken plekje plekke plekjes plekkie
+77	377	zwart	zwarte zwart zwarten zwarts zwartste zwarter
+78	378	opnieuw	opnieuw
+79	379	hoofd	hoofd hoofden hoofdje hoofde
+80	380	ver	ver verdere vers verre verse verzen verste verst versje verser
+81	381	geweldig	geweldig geweldige geweldigste geweldigs geweldiger
+82	382	punt	punt punten puntje
+83	383	verkopen	verkopen verkocht verkoop verkoopt verkochte verkochten verkopend
+84	384	muziek	muziek muziekje muziekjes
+85	385	begrijpen	begrijpen begrijp begrepen begrijpt begreep begrijpend begrijpe
+86	386	televisie	tv televisie tv's televisies teevee
+87	387	slechts	slechts
+88	388	waarbij	waarbij
+89	389	hard	hard harde harder hardst hardere hardste harden gehard hards hardt
+90	390	beeld	beeld beelden beeldende beeldend beeldje beeldjes beeldt beeldde beeldden beelde
+91	391	zowel	zowel zoowel
+92	392	daarna	daarna
+93	393	prachtig	prachtig prachtige prachtigste prachtigs prachtiger
+94	394	precies	precies precieze preciezer prc preciezere
+95	395	raken	raken raakte geraakt raakt raak raakten rake rakende rakend raaks
+96	396	dank	dank dankje
+97	397	vorig	vorige vorig vorigen
+98	398	blij	blij blije blijde blijer blijd blei blijden blijste
+99	399	gevoel	gevoel gevoelens gevoelen gevoelt gevoelde gevoeld
+100	400	programma	programma programma's programmaatje

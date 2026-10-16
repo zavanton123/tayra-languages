@@ -1,0 +1,100 @@
+1	7301	vampier	vampier vampiers
+2	7302	gepensioneerde	gepensioneerde gepensioneerden
+3	7303	gul	gulle gul
+4	7304	frequent	frequent frequente frequenter frequentere
+5	7305	badplaats	badplaats badplaatsen
+6	7306	reservoir	reservoir reservoirs
+7	7307	achten	achten achtte achtten achte
+8	7308	escorte	escorte escortes
+9	7309	robuust	robuust robuuste robuuster robuustere
+10	7310	proefschrift	proefschrift proefschriften
+11	7311	oord	oord oorden
+12	7312	evalueren	geëvalueerd evalueren evalueert evalueer evalueerde
+13	7313	dienstregeling	dienstregeling dienstregelingen
+14	7314	alt	alt alten
+15	7315	opbergen	opgeborgen opbergen opbergt opberg opborg
+16	7316	recyclen	recyclen gerecycled recycle recyclet
+17	7317	uitstaan	uitstaan uitstaande uitstaat uitstaand uitstond uitgestaan
+18	7318	hernieuwbaar	hernieuwbare hernieuwbaar
+19	7319	zondagmiddag	zondagmiddag zondagmiddagen
+20	7320	volmaakt	volmaakt volmaakte volmaakter
+21	7321	eergisteren	eergisteren eergister
+22	7322	duet	duet duetten
+23	7323	heerlijkheid	heerlijkheid heerlijkheden
+24	7324	obligatie	obligaties obligatie
+25	7325	grondlegger	grondlegger grondleggers
+26	7326	millennium	millennium millennia
+27	7327	regiment	regiment regimenten
+28	7328	onweer	onweer onweren onweert onweders onweerde
+29	7329	oriënteren	georiënteerd oriënteren oriënterend oriënteert oriënterende oriënteerde
+30	7330	thuisblijven	thuisblijven thuisgebleven thuisblijft thuisblijvende
+31	7331	legitiem	legitieme legitiem
+32	7332	pornofilm	pornofilms pornofilm
+33	7333	deporteren	gedeporteerd deporteren gedeporteerde gedeporteerden
+34	7334	kartel	kartel kartels cartel
+35	7335	lover	lover lovers lovertjes looveren
+36	7336	krat	krat kratten kratje
+37	7337	magneet	magneet magneten magneetjes magneetje
+38	7338	huiskamer	huiskamer huiskamers
+39	7339	schort	schort schorten schortje schortte
+40	7340	aanvoelen	aanvoelen aanvoelt aanvoelde aangevoeld aanvoelden aanvoelend aanvoelende aanvoel
+41	7341	abdij	abdij abdijen
+42	7342	pion	pion pionnen
+43	7343	uitwijzen	uitgewezen uitwijzen uitwijst uitwees
+44	7344	versiering	versiering versieringen
+45	7345	buitenstaander	buitenstaanders buitenstaander
+46	7346	pijler	pijlers pijler
+47	7347	beklimming	beklimming beklimmingen
+48	7348	tenue	tenue tenues
+49	7349	teisteren	geteisterd teisteren teistert teisterden teisterde
+50	7350	ondertekening	ondertekening ondertekeningen
+51	7351	betuigen	betuigen betuigt betuigde betuigd betuigden betuig
+52	7352	koopman	koopman kooplieden kooplui koopvrouw koopmannen
+53	7353	klomp	klomp klompen klompjes klompje
+54	7354	vermommen	vermomd vermomde vermommen vermomt
+55	7355	mystiek	mystieke mystiek
+56	7356	ooggetuige	ooggetuige ooggetuigen
+57	7357	por	por porren porde
+58	7358	korfbal	korfbal korfballen gekorfbald
+59	7359	lettertype	lettertype lettertypen lettertypes
+60	7360	toelichten	toegelicht toelichten toelicht toelichtte toelichtende
+61	7361	hiërarchie	hiërarchie hiërarchieën
+62	7362	vulkanisch	vulkanische vulkanisch
+63	7363	wetgever	wetgever wetgevers
+64	7364	personenauto	personenauto personenauto's
+65	7365	besluitvorming	besluitvorming
+66	7366	drug	drug
+67	7367	hinder	hinder
+68	7368	omstreek	omstreken
+69	7369	spaghetti	spaghetti
+70	7370	toetsing	toetsing
+71	7371	trilogie	trilogie
+72	7372	korten	korten korte gekort kortte
+73	7373	pis	pis pies
+74	7374	werkervaring	werkervaring werkervaringen
+75	7375	strike	strike strikes
+76	7376	zintuig	zintuigen zintuig
+77	7377	verwezenlijken	verwezenlijken verwezenlijkt verwezenlijkte verwezenlijk
+78	7378	functionaliteit	functionaliteit functionaliteiten
+79	7379	legioen	legioen legioenen
+80	7380	decaan	decaan decanen
+81	7381	ontruiming	ontruiming ontruimingen
+82	7382	schepping	schepping scheppingen
+83	7383	kever	kever kevers kevertje
+84	7384	gebit	gebit gebitten
+85	7385	rechtmatig	rechtmatige rechtmatig
+86	7386	actualiteit	actualiteit actualiteiten
+87	7387	affiche	affiche affiches
+88	7388	zonnestelsel	zonnestelsel zonnestelsels
+89	7389	smijten	gesmeten smijten smijt smeet smeten
+90	7390	meekrijgen	meegekregen meekrijgen meekrijgt meekreeg meekregen
+91	7391	bezuinigen	bezuinigen bezuinigd bezuinigt bezuinig bezuinigde
+92	7392	brandstichting	brandstichting brandstichtingen
+93	7393	tribunaal	tribunaal tribunalen
+94	7394	reactor	reactor reactoren reactors
+95	7395	cluster	cluster clusters
+96	7396	satirisch	satirische satirisch
+97	7397	waterdicht	waterdicht waterdichte
+98	7398	puber	puber pubers
+99	7399	woningcorporatie	woningcorporaties woningcorporatie
+100	7400	vrijblijvend	vrijblijvend vrijblijvende

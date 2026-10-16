@@ -1,0 +1,100 @@
+1	4401	enzovoort	enzovoort enzovoorts
+2	4402	vloeistof	vloeistof vloeistoffen
+3	4403	variatie	variatie variaties
+4	4404	componist	componist componisten componiste
+5	4405	monteren	gemonteerd monteren gemonteerde monteer monteerde monteert monteerden montere
+6	4406	onderbrengen	ondergebracht onderbrengen onderbrengt onderbracht ondergebrachte
+7	4407	afwezigheid	afwezigheid afwezigheden
+8	4408	operationeel	operationeel operationele
+9	4409	roddelen	roddels roddelen roddel roddelt geroddeld roddelde roddelende
+10	4410	hertog	hertog hertogin hertogen hertoginnen
+11	4411	benaming	benaming benamingen
+12	4412	verzekeraar	verzekeraars verzekeraar
+13	4413	toevoeging	toevoeging toevoegingen
+14	4414	innerlijk	innerlijke innerlijk
+15	4415	jurist	jurist juristen juriste
+16	4416	voorspelling	voorspelling voorspellingen
+17	4417	hamburger	hamburger hamburgers
+18	4418	reportage	reportage reportages
+19	4419	creatie	creatie creaties
+20	4420	faciliteit	faciliteiten faciliteit
+21	4421	adel	adel
+22	4422	agressie	agressie
+23	4423	cash	cash
+24	4424	criminaliteit	criminaliteit
+25	4425	noordoosten	noordoosten
+26	4426	onderdak	onderdak
+27	4427	propaganda	propaganda
+28	4428	slavernij	slavernij
+29	4429	troost	troost
+30	4430	vooraan	vooraan
+31	4431	voorgoed	voorgoed
+32	4432	zodoende	zodoende
+33	4433	zweet	zweet
+34	4434	rooster	rooster roosters
+35	4435	som	som sommen somt somde sommetje
+36	4436	filosoof	filosoof filosofen filosofe
+37	4437	alfa	alfa alfa's
+38	4438	hamer	hamer hamers hamertje hamertjes
+39	4439	democraat	democraten democraat democrate
+40	4440	condoom	condooms condoom
+41	4441	frustreren	gefrustreerd frustrerend frustrerende frustreert frustreren frustreerde
+42	4442	gehandicapte	gehandicapten gehandicapte
+43	4443	kleinkind	kleinkinderen kleinkind
+44	4444	driehoek	driehoek driehoeken driehoekje
+45	4445	investeerder	investeerders investeerder
+46	4446	menigte	menigte menigten menigtes
+47	4447	logeren	logeren logeerde logeert gelogeerd logeer logeerden
+48	4448	weggooien	weggegooid weggooien weggooit weggegooide weggooi weggooide
+49	4449	schildpad	schildpad schildpadden schildpadje
+50	4450	garen	garen gaar gare garens gegaard gaarden gaarde gaarder
+51	4451	teleurstelling	teleurstelling teleurstellingen
+52	4452	image	image images
+53	4453	glijden	glijden glijdt gleed glijd glij gegleden glijdende gleden glijdend
+54	4454	entree	entree entrees
+55	4455	icoon	icoon iconen icoontje
+56	4456	monteur	monteur monteurs
+57	4457	vooraanstaand	vooraanstaande vooraanstaand
+58	4458	aanmoedigen	aanmoedigen aangemoedigd aanmoedigt aanmoedigde aanmoedigend aanmoedigden aanmoedigende
+59	4459	pasta	pasta paste pasta's
+60	4460	verbazingwekkend	verbazingwekkend verbazingwekkende
+61	4461	historicus	historicus historici
+62	4462	vreemdeling	vreemdeling vreemdelingen vreemdelinge
+63	4463	herberg	herberg herbergt herbergen herbergde geherbergd
+64	4464	dolfijn	dolfijnen dolfijn dolfijntje
+65	4465	connectie	connecties connectie
+66	4466	klem	klem klemmen geklemd klemt klemde klemmetjes klemmetje
+67	4467	pit	pit pitten pitje pits pitte
+68	4468	achterstand	achterstand achterstanden
+69	4469	zeep	zeep zeepjes zeepje zepen
+70	4470	koen	koen koene koens
+71	4471	inhoudelijk	inhoudelijk inhoudelijke inhoudelijks
+72	4472	naïef	naïef naïeve
+73	4473	stilstaan	stilstaan stilgestaan stilstaand stilstaat stilstond stilsta stilstonden
+74	4474	enerzijds	enerzijds
+75	4475	hulpverlening	hulpverlening
+76	4476	logica	logica
+77	4477	breedte	breedte breedtes breedten
+78	4478	verdiepen	verdiepen verdiept verdiep verdiepte verdiepende verdiepten
+79	4479	laboratorium	laboratorium laboratoria
+80	4480	raadplegen	geraadpleegd raadplegen raadpleeg geraadpleegde raadpleegde raadpleegt raadpleegden raadplegend
+81	4481	tekenaar	tekenaar tekenaars tekenares
+82	4482	kamperen	kamperen kampeer gekampeerd kampeert kampeerden kampeerde
+83	4483	shot	shot shots shotje
+84	4484	banaan	banaan bananen banaantje
+85	4485	aangrenzend	aangrenzende aangrenzend
+86	4486	bijwonen	bijwonen bijgewoond bijwoonde bijwoont bijwoonden bijgewoonde
+87	4487	viering	viering vieringen
+88	4488	trauma	trauma trauma's
+89	4489	nutteloos	nutteloos nutteloze
+90	4490	fataal	fatale fataal
+91	4491	piraat	piraten piraat piraatje
+92	4492	kleinzoon	kleinzoon kleinzonen kleinzoons
+93	4493	oneerlijk	oneerlijk oneerlijke
+94	4494	slap	slap slappe slapjes slapper
+95	4495	vijver	vijver vijvers vijvertje
+96	4496	subtiel	subtiel subtiele subtieler subtielere subtielste
+97	4497	strekken	strekt strekken gestrekt strek strekte strekten strekkend
+98	4498	mailadres	mailadres mailadressen
+99	4499	prefectuur	prefectuur prefecturen
+100	4500	beauty	beauty beauty's

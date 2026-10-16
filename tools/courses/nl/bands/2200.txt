@@ -1,0 +1,100 @@
+1	2101	duwen	duwen duwt geduwd duw duwde duwtje douwen duwden duwende duwend
+2	2102	dodelijk	dodelijk dodelijke dodelijkste dodelijker
+3	2103	marine	marine marines
+4	2104	aantrekkelijk	aantrekkelijk aantrekkelijke aantrekkelijker aantrekkelijkste aantrekkelijkst aantrekkelijks aantrekkelijkere
+5	2105	onbekende	onbekende onbekenden
+6	2106	streek	streek streken
+7	2107	adviseur	adviseur adviseurs adviseuse
+8	2108	vernietigd	vernietigd vernietigde
+9	2109	exact	exact exacte exacter
+10	2110	verwoesten	verwoest verwoesten verwoeste verwoestte verwoestten verwoestend
+11	2111	aantreffen	aangetroffen aantreffen aantreft aantrof aantroffen aantref
+12	2112	tiener	tieners tiener
+13	2113	combineren	combineren gecombineerd combineert combineer combineerde combineerden
+14	2114	opsluiten	opgesloten opsluiten opsluit opsloten opsloot
+15	2115	vloer	vloer vloeren gevloerd vloertje vloerde vloert
+16	2116	das	das dassen dasje
+17	2117	bevallen	bevallen bevalt beviel beval bevielen
+18	2118	deels	deels
+19	2119	immers	immers
+20	2120	vijftig	vijftig
+21	2121	documentaire	documentaire documentaires docu
+22	2122	ruiken	ruikt ruiken ruik rookt geroken ruikend roke
+23	2123	nuttig	nuttig nuttige nuttigs nuttiger nuttigste
+24	2124	toets	toets toetsen getoetst toetst toetste toetsje
+25	2125	drijven	drijven dreef drijft dreven drijvend drijf
+26	2126	kwetsbaar	kwetsbaar kwetsbare kwetsbaarder kwetsbaren kwetsbaarste kwetsbaarst
+27	2127	record	record records
+28	2128	tent	tent tenten tentje
+29	2129	massaal	massaal massale massaler
+30	2130	overkomen	overkomen overkomt overkwam overgekomen overkwamen overkom overkomende
+31	2131	zeldzaam	zeldzaam zeldzame zeldzamer zeldzaamste zeldzaams zeldzamere
+32	2132	kapitein	kapitein kapiteins kapiteinen
+33	2133	eventueel	eventuele eventueel
+34	2134	incident	incident incidenten incidentje incidentjes
+35	2135	geboorte	geboorte geboortes geboorten
+36	2136	christen	christenen christen christin christene
+37	2137	beurs	beurs beurzen beurse beurze
+38	2138	voortdurend	voortdurend voortdurende
+39	2139	schenken	schenken geschonken schenk schenkt schonk schonken schenke
+40	2140	nek	nek nekken nekt genekt nekje nekte
+41	2141	voornaam	voornaamste voornaam voornamen voorname voornamer
+42	2142	luchthaven	luchthaven luchthavens
+43	2143	supermarkt	supermarkt supermarkten
+44	2144	ras	ras rassen rast rasse rasch
+45	2145	bewerken	bewerkt bewerken bewerkte bewerk bewerkten
+46	2146	ramp	ramp rampen ramps
+47	2147	zoet	zoet zoete zoetje zoeter zoets zoetere zoetste
+48	2148	exclusief	exclusieve exclusief exclusiever exclusievere exclusiefs
+49	2149	terrorist	terroristen terrorist
+50	2150	salaris	salaris salarissen
+51	2151	bevrijden	bevrijd bevrijden bevrijdt bevrijdde bevrijdend bevrijde bevrijdden
+52	2152	passie	passie passies
+53	2153	nomineren	genomineerd genomineerden genomineerde nomineren nomineer nomineert nomineerde nomineerden
+54	2154	gebruikelijk	gebruikelijke gebruikelijk gebruikelijker
+55	2155	vertonen	vertonen vertoont vertoond vertoonde vertoon vertoonden
+56	2156	houding	houding houdingen
+57	2157	lelijk	lelijk lelijke lelijkste lelijker lelijks
+58	2158	voorspellen	voorspellen voorspeld voorspelt voorspel voorspelde voorspelden voorspellend voorspelen
+59	2159	noodzakelijk	noodzakelijk noodzakelijke noodzakelijker
+60	2160	onderneming	onderneming ondernemingen
+61	2161	green	green greens grenen
+62	2162	permanent	permanente permanent permanenten
+63	2163	erfgoed	erfgoed erfgoederen
+64	2164	gouverneur	gouverneur gouverneurs goeverneur
+65	2165	voorzichtig	voorzichtig voorzichtige voorzichtiger
+66	2166	alvast	alvast
+67	2167	landbouw	landbouw
+68	2168	paniek	paniek
+69	2169	stress	stress
+70	2170	verborgen	verborgen
+71	2171	wiens	wiens
+72	2172	onverwacht	onverwachte onverwacht onverwachts onverwachtse
+73	2173	vernietigen	vernietigen vernietigt vernietigden vernietigend vernietigde vernietig
+74	2174	signaal	signaal signalen
+75	2175	mode	mode modes
+76	2176	tank	tank tanks tankje
+77	2177	identificeren	identificeren geïdentificeerd geïdentificeerde identificeert identificeerde identificeerden identificeer identificerende
+78	2178	del	del dellen dels
+79	2179	zonde	zonde zonden zondes
+80	2180	verbergen	verbergen verbergt verberg verborg verborgene
+81	2181	invoeren	ingevoerd invoeren invoer invoert invoerde invoerden
+82	2182	tempel	tempel tempels tempeltje
+83	2183	bezwaar	bezwaar bezwaren bezwaard bezwarend bezwaarde bezwaart
+84	2184	zenden	zenden zendt zond gezonden zonden zend
+85	2185	aanbieding	aanbieding aanbiedingen
+86	2186	elektronisch	elektronische elektronisch
+87	2187	oplopen	opgelopen oplopen oploopt opliep oplopende oplopend opliepen oploop
+88	2188	noordelijk	noordelijke noordelijk noordelijker noordelijkste
+89	2189	bodem	bodem bodems bodempje
+90	2190	geldig	geldig geldige
+91	2191	knop	knop knoppen knopje
+92	2192	standpunt	standpunt standpunten
+93	2193	web	web webben
+94	2194	straal	straal stralen straalt stralende stralend straalde straaltje gestraald straalden stralender
+95	2195	lift	lift liften gelift liftend liftte liftende
+96	2196	regulier	reguliere regulier regulieren
+97	2197	dossier	dossier dossiers
+98	2198	stelling	stelling stellingen
+99	2199	verzameling	verzameling verzamelingen
+100	2200	moed	moed moede

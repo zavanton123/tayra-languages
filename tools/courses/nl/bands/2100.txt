@@ -1,0 +1,100 @@
+1	2001	hel	hel heller helse helle hellend hellen hels hellende helden helt
+2	2002	rechtstreeks	rechtstreeks rechtstreekse
+3	2003	garanderen	garanderen gegarandeerd garandeert garandeer garandeerde garandeerden
+4	2004	bot	bot botten botste botst bots botje botte botter botters gebot
+5	2005	saai	saai saaie saaier saaiste saais saaiere
+6	2006	sparen	sparen gespaard spaar spaart spare spaarde spaarden gespaarde spares
+7	2007	verdacht	verdacht verdachten verdachts
+8	2008	zwijgen	zwijgen zwijg zwijgt zweeg gezwegen zwijgende zwijgend zwegen
+9	2009	roman	roman romans
+10	2010	ingang	ingang ingangen
+11	2011	zicht	zicht zichten
+12	2012	stevig	stevig stevige steviger stevigere stevigste
+13	2013	content	content contente
+14	2014	uitgebracht	uitgebracht uitgebrachte
+15	2015	koers	koers koersen koerst gekoerst koerste koersten
+16	2016	boeiend	boeiende boeiend boeien boeit geboeid boei boeide boeiender geboeide boeiends
+17	2017	dertig	dertig
+18	2018	heden	heden
+19	2019	jarig	jarig
+20	2020	telkens	telkens
+21	2021	object	object objecten
+22	2022	middelbaar	middelbare middelbaar
+23	2023	lanceren	gelanceerd lanceren lanceerde lanceert lanceerden lanceer
+24	2024	samenvatting	samenvatting samenvattingen
+25	2025	minimaal	minimaal minimale
+26	2026	domein	domein domeinen
+27	2027	bol	bol bolt bolle bollen bolletje bolletjes bols bolleke boller gebold
+28	2028	doelpunt	doelpunt doelpunten doelpuntje
+29	2029	wijzigen	gewijzigd wijzigen wijzigt wijzig wijzigde wijzigden
+30	2030	inzicht	inzicht inzichten
+31	2031	muzikaal	muzikale muzikaal
+32	2032	factor	factoren factor
+33	2033	mars	mars marsen
+34	2034	ruil	ruil ruilen geruild ruilde ruilt ruilden geruilde
+35	2035	afspreken	afgesproken afspreken afspraken afspreekt afspreek afsprak
+36	2036	dj	dj dj's
+37	2037	wonder	wonder wonderen wondere wondertje
+38	2038	cliënt	cliënt cliënten cliënte
+39	2039	volger	volgers volger
+40	2040	lente	lente lentes
+41	2041	uitkomen	uitkomen uitgekomen uitkwam uitkwamen uitkom uitkomend
+42	2042	storten	storten stort stortte gestort stortten gestorte storte
+43	2043	opa	opa opa's opaatje
+44	2044	boete	boete boetes boeten boet boette geboet
+45	2045	aanzienlijk	aanzienlijk aanzienlijke aanzienlijker aanzienlijkste aanzienlijken
+46	2046	triest	triest trieste triester
+47	2047	vermoedelijk	vermoedelijk vermoedelijke
+48	2048	blond	blonde blond blonder blonden
+49	2049	toenemen	toegenomen toenemen toeneemt toenemend toenam toenamen
+50	2050	afloop	afloop aflopen afloopt afliep aflopend afliepen
+51	2051	paleis	paleis paleizen paleisje
+52	2052	aanwijzing	aanwijzingen aanwijzing
+53	2053	archief	archief archieven
+54	2054	beslist	beslist
+55	2055	grotendeels	grotendeels
+56	2056	house	house
+57	2057	tuurlijk	tuurlijk
+58	2058	vanochtend	vanochtend
+59	2059	wederom	wederom
+60	2060	tekort	tekort tekorten
+61	2061	verlangen	verlangen verlangt verlang verlangens verlangde verlangd verlangend verlangden verlangende
+62	2062	werkzaamheid	werkzaamheden werkzaamheid
+63	2063	praktisch	praktisch praktische praktischer
+64	2064	bom	bom bommen bommetje bommetjes
+65	2065	oom	oom ome ooms oompje
+66	2066	plat	plat platte platter platjes platters platten platje plattere plats
+67	2067	eigenschap	eigenschappen eigenschap
+68	2068	grijpen	grijpen grijpt gegrepen grijp grepen grijpend
+69	2069	beschuldigen	beschuldigd beschuldigen beschuldigde beschuldigt beschuldigden beschuldig beschuldigende beschuldigend beschuldige
+70	2070	bestand	bestand bestanden bestandje
+71	2071	bedreiging	bedreiging bedreigingen
+72	2072	hot	hot hotter hotte hotste hots
+73	2073	tranen	tranen traan traantje tranende trane
+74	2074	buik	buik buikje buiken buikjes
+75	2075	toekomstig	toekomstige toekomstig
+76	2076	westers	westerse westers
+77	2077	wolf	wolf wolven wolvin wolfje
+78	2078	omzet	omzet omgezet omzetten omzette
+79	2079	vernieuwen	vernieuwd vernieuwde vernieuwende vernieuwen vernieuwend vernieuwt vernieuw vernieuwends vernieuwden
+80	2080	zakelijk	zakelijk zakelijke zakelijker
+81	2081	lol	lol lolletje
+82	2082	instrument	instrument instrumenten
+83	2083	jarenlang	jarenlang jarenlange
+84	2084	sneeuw	sneeuw snee sneetje snede sneden snedes sneeën
+85	2085	ondersteuning	ondersteuning ondersteuningen
+86	2086	planeet	planeet planeten planeetje
+87	2087	norm	normen norm
+88	2088	jagen	jagen jaagt gejaagd joeg jaag joegen jaagden jaagde jagend
+89	2089	kogel	kogels kogel kogeltje
+90	2090	ach	ach
+91	2091	drugs	drugs
+92	2092	rook	rook
+93	2093	software	software
+94	2094	toezicht	toezicht
+95	2095	delven	delft dolf delven delf gedolven dolven delfde
+96	2096	hoogtepunt	hoogtepunt hoogtepunten
+97	2097	blanke	blanke blanken
+98	2098	wereldoorlog	wereldoorlog wereldoorlogen
+99	2099	identiteit	identiteit identiteiten
+100	2100	schot	schot schotse schoten schotten schotje

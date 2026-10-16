@@ -1,0 +1,100 @@
+1	3601	interpretatie	interpretatie interpretaties
+2	3602	gevel	gevel gevels
+3	3603	knuffel	knuffel knuffels knuffeltje
+4	3604	materieel	materieel materiële
+5	3605	daling	daling dalingen
+6	3606	betoog	betoog betoogt betogen betoogde betoogd betoogden betogende
+7	3607	hypotheek	hypotheek hypotheken
+8	3608	onrust	onrust onrusten
+9	3609	natuurgebied	natuurgebied natuurgebieden natuurgebiedje
+10	3610	socialistisch	socialistische socialistisch
+11	3611	regenen	regenen regende geregend
+12	3612	bezighouden	bezighouden bezighoudt beziggehouden bezighielden bezighield bezighoud
+13	3613	grafisch	grafisch grafische
+14	3614	godverdomme	godverdomme godver gvd
+15	3615	speech	speech speeches speechen speecht
+16	3616	renovatie	renovatie renovaties
+17	3617	recensie	recensie recensies
+18	3618	beschaving	beschaving beschavingen
+19	3619	aanstaande	aanstaande
+20	3620	haha	haha
+21	3621	ligging	ligging
+22	3622	omlaag	omlaag
+23	3623	tachtig	tachtig
+24	3624	werkloosheid	werkloosheid
+25	3625	zelfvertrouwen	zelfvertrouwen
+26	3626	expositie	expositie exposities
+27	3627	ultiem	ultieme ultiem
+28	3628	administratie	administratie administraties
+29	3629	tomaat	tomaten tomaat tomaatje
+30	3630	til	til tillen tilt getild tilde tilden getilde tille
+31	3631	failliet	failliet failliete
+32	3632	klooster	klooster kloosters
+33	3633	kaars	kaarsen kaars kaarsje
+34	3634	gedetailleerd	gedetailleerde gedetailleerd gedetailleerder gedetailleerdere
+35	3635	ritueel	ritueel rituelen rituele
+36	3636	ongewenst	ongewenste ongewenst ongewensten
+37	3637	aanloop	aanloop aanlopen aangelopen aanloopt aanliep aanloopje aanliepen
+38	3638	overblijven	overgebleven overblijven overbleef overblijvende overbleven overblijf overblijvend
+39	3639	dreiging	dreiging dreigingen
+40	3640	schakel	schakel schakels
+41	3641	dieet	dieet diëten
+42	3642	maximum	maximum maxima
+43	3643	bruid	bruid bruiden bruidje
+44	3644	verslaafd	verslaafd verslaafde verslaafden
+45	3645	roer	roer roeren geroerd roerend roert roerde roerden
+46	3646	aanvullen	aangevuld aanvullend aanvullen aanvult aanvulde aanvulden
+47	3647	levendig	levendige levendig levendiger levendigste
+48	3648	naaien	naaien genaaid naait naai naaide naaiden naaiend
+49	3649	opera	opera opera's
+50	3650	flauw	flauw flauwe flauwste flauwtjes
+51	3651	najaar	najaar najaars
+52	3652	schaffen	schaffen schaft schaf schafte schaften
+53	3653	uitdrukking	uitdrukking uitdrukkingen
+54	3654	gelovige	gelovigen gelovige
+55	3655	interviewen	interviewen geïnterviewd interviewde interviewt interviewden
+56	3656	expeditie	expeditie expedities
+57	3657	wijf	wijf wijven wijfje wijfjes wijffie
+58	3658	kwalificatie	kwalificatie kwalificaties
+59	3659	sprookje	sprookje sprookjes
+60	3660	inschrijving	inschrijving inschrijvingen
+61	3661	medelijden	medelijden meelij
+62	3662	interactie	interactie interacties
+63	3663	rijkdom	rijkdom rijkdommen
+64	3664	schrappen	schrappen geschrapt schrap schrapt schrapte geschrapte schrapten
+65	3665	rukken	rukken ruk gerukt rukt rukte rukten rukker rukkers rukje gerukte
+66	3666	terugbrengen	teruggebracht terugbrengen terugbrengt terugbracht teruggebrachte terugbrachten
+67	3667	veronderstellen	verondersteld veronderstelde veronderstellen veronderstelt veronderstel veronderstelden
+68	3668	schedel	schedel schedels
+69	3669	bijhouden	bijhouden bijgehouden bijhoudt bijhield bijhoud bijhielden
+70	3670	afvoer	afgevoerd afvoer afvoeren afvoert afgevoerde afvoerende afvoerde afvoerden
+71	3671	zege	zege zeges
+72	3672	psychisch	psychische psychisch
+73	3673	aanvaller	aanvaller aanvallers
+74	3674	afwachten	afwachten afwachtend afgewacht afwachtende afwacht afwachtte
+75	3675	ezel	ezel ezels ezeltje ezelin
+76	3676	lidmaatschap	lidmaatschap lidmaatschappen
+77	3677	artistiek	artistieke artistiek
+78	3678	activist	activist activisten activiste
+79	3679	stadium	stadium stadia stadiums
+80	3680	uitstoot	uitstoot uitgestoten uitstoten uitstootte
+81	3681	afschuwelijk	afschuwelijk afschuwelijke afschuwelijkste
+82	3682	verdrinken	verdronken verdrinken verdrinkt verdronk verdrink verdrinkende
+83	3683	alsmede	alsmede
+84	3684	herkomst	herkomst
+85	3685	metaal	metaal
+86	3686	nieuwbouw	nieuwbouw
+87	3687	om_liggen	omliggende
+88	3688	platteland	platteland
+89	3689	veertien	veertien
+90	3690	zuurstof	zuurstof
+91	3691	vloeien	vloeit vloeien vloeiend vloeiende vloeide vloei gevloeid vloeiden vloeitjes vloeiender
+92	3692	duin	duinen duin
+93	3693	doorbreken	doorbreken doorbroken doorgebroken doorbreekt doorbrak doorbraken doorbreek doorbrekende
+94	3694	duister	duistere duister duisters duisterder duisterste
+95	3695	mam	mam mams mammen mamsie
+96	3696	stelsel	stelsel stelsels
+97	3697	structureel	structurele structureel
+98	3698	schorsen	geschorst schorsen schors schorst schorste
+99	3699	woordvoerder	woordvoerder woordvoerders woordvoerster
+100	3700	uk	uk ukkie

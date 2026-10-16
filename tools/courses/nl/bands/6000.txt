@@ -1,0 +1,100 @@
+1	5901	omver	omver
+2	5902	openheid	openheid
+3	5903	romantiek	romantiek
+4	5904	roots	roots
+5	5905	ruiten	ruiten
+6	5906	scholing	scholing
+7	5907	stoom	stoom
+8	5908	vooraleer	vooraleer
+9	5909	voorste	voorste
+10	5910	zeventien	zeventien
+11	5911	vergaderen	vergaderen vergadert vergaderd vergader vergaderde vergaderden
+12	5912	tactisch	tactische tactisch taktisch
+13	5913	aarzelen	aarzel aarzelen aarzelde aarzelt aarzelend geaarzeld aarzelende aarzelden
+14	5914	gelijknamig	gelijknamige gelijknamig
+15	5915	uitwerking	uitwerking uitwerkingen
+16	5916	uitbarsting	uitbarsting uitbarstingen
+17	5917	kleedkamer	kleedkamer kleedkamers
+18	5918	decor	decor decors
+19	5919	afrit	afrit afritten
+20	5920	stoornis	stoornis stoornissen
+21	5921	kachel	kachel kachels kacheltje
+22	5922	gletsjer	gletsjers gletsjer
+23	5923	onthoofden	onthoofd onthoofden onthoofde onthoofdt onthoofdde
+24	5924	gehuwd	gehuwd gehuwde gehuwden
+25	5925	stunt	stunt stunts stuntje
+26	5926	opperen	geopperd opper opperde oppert opperen opperden
+27	5927	adoptie	adoptie adopties
+28	5928	stekker	stekker stekkers
+29	5929	kotsen	kotsen kots kotst gekotst kotste kotsende kotsend
+30	5930	aanrichten	aangericht aanrichten aanricht aanrichtte aanrichtten
+31	5931	haalbaar	haalbaar haalbare haalbaarder
+32	5932	handboek	handboek handboeken handboekje
+33	5933	besparing	besparing besparingen
+34	5934	verte	verte verten
+35	5935	arrangement	arrangement arrangementen
+36	5936	notitie	notities notitie
+37	5937	opgraving	opgravingen opgraving
+38	5938	verordening	verordening verordeningen
+39	5939	zonnebril	zonnebril zonnebrillen
+40	5940	vaccinatie	vaccinatie vaccinaties
+41	5941	signaleren	gesignaleerd signaleren signaleert signaleer signaleerde signaleerden
+42	5942	tafereel	taferelen tafereel tafereeltje
+43	5943	overmaken	overmaken overgemaakt overmaakt overmaakte overmaak
+44	5944	achterlijke	achterlijke achterlijken
+45	5945	verbintenis	verbintenis verbintenissen
+46	5946	joint	joint jointje joints jointjes
+47	5947	bezigheid	bezigheden bezigheid
+48	5948	onvoorwaardelijk	onvoorwaardelijk onvoorwaardelijke
+49	5949	weiland	weiland weilanden
+50	5950	overlopen	overlopen overgelopen overloop overloopt overliep overliepen overlopend
+51	5951	slordig	slordig slordige slordiger
+52	5952	gestaag	gestaag gestage
+53	5953	neerhalen	neerhalen neergehaald neerhaalt neerhaalde neergehaalde neerhaalden
+54	5954	kade	kade kaai kades kaden kadetje
+55	5955	vervroegen	vervroegd vervroegde vervroegen
+56	5956	kameraad	kameraad kameraden kameraadjes kameraadje
+57	5957	verstoring	verstoring verstoringen
+58	5958	orthodox	orthodoxe orthodox
+59	5959	koepel	koepel koepels koepeltje
+60	5960	ballet	ballet balletje balletten
+61	5961	uitsluiting	uitsluiting uitsluitingen
+62	5962	werkloze	werkloze werklozen
+63	5963	realisatie	realisatie realisaties
+64	5964	knappen	knappen knappe knapt knapte geknapt knapten
+65	5965	verstrijken	verstreken verstrijkt verstrijken verstreek
+66	5966	fucking	fucking fokking fakking
+67	5967	verluiden	verluidt verluid
+68	5968	afzeggen	afzeggen afgezegd afzegt afzegde afgezegde
+69	5969	forceren	forceren geforceerd forceer forceerde forceert forcerend forceerden
+70	5970	vrijmaken	vrijmaken vrijgemaakt vrijmaakt vrijmaakte
+71	5971	flow	flow flows
+72	5972	kolom	kolom kolommen
+73	5973	stoken	stoken stoke gestookt stook stookt stookte stookten
+74	5974	aan_houden	aanhoudende
+75	5975	autisme	autisme
+76	5976	comfort	comfort
+77	5977	homoseksualiteit	homoseksualiteit
+78	5978	hu	hu
+79	5979	overgewicht	overgewicht
+80	5980	pardon	pardon
+81	5981	roem	roem
+82	5982	scheikunde	scheikunde
+83	5983	toegankelijkheid	toegankelijkheid
+84	5984	versleten	versleten
+85	5985	voorrang	voorrang
+86	5986	zonlicht	zonlicht
+87	5987	inbreker	inbreker inbrekers
+88	5988	klinisch	klinische klinisch
+89	5989	brievenbus	brievenbus brievenbussen
+90	5990	inzenden	ingezonden inzenden
+91	5991	exporteren	exporteren geëxporteerd exporteert exporterende exporteerde geëxporteerde exporteerden
+92	5992	beugel	beugel beugels
+93	5993	herziening	herziening herzieningen
+94	5994	verpakken	verpakt verpakken verpakte verpak
+95	5995	haard	haard haarden
+96	5996	editor	editor editors
+97	5997	voorleggen	voorgelegd voorleggen voorlegde voorlegt voorgelegde voorlegden
+98	5998	nationalistisch	nationalistische nationalistisch
+99	5999	switch	switch switches
+100	6000	base	base basen

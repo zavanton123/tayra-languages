@@ -1,0 +1,100 @@
+1	8201	mus	mus mussen musje musch
+2	8202	specialisatie	specialisatie specialisaties
+3	8203	betoging	betoging betogingen
+4	8204	blade	blade blades
+5	8205	machthebber	machthebbers machthebber
+6	8206	keuring	keuring keuringen
+7	8207	begeren	begeerde begeert begeren begeerd begeer begeerden
+8	8208	studiebeurs	studiebeurs studiebeurzen
+9	8209	arrondissement	arrondissement arrondissementen
+10	8210	kraag	kraag kragen kraagje
+11	8211	kloon	kloon klonen gekloond gekloonde kloontje kloont
+12	8212	replica	replica replica's
+13	8213	rijtuig	rijtuig rijtuigen
+14	8214	kreet	kreet kreten
+15	8215	aanvaring	aanvaring aanvaringen
+16	8216	afschrikken	afschrikken afgeschrikt afschrikt afschrikkende
+17	8217	stalken	stalken stalkt gestalkt stalk stalkte
+18	8218	vluchtelingenkamp	vluchtelingenkamp vluchtelingenkampen
+19	8219	sandwich	sandwich sandwiches
+20	8220	schakelaar	schakelaar schakelaars
+21	8221	treuren	getreurd treuren treur treurt treurende treurde treurend treurden
+22	8222	mascotte	mascotte mascottes
+23	8223	snuiven	snuiven snuift gesnoven snuif snoof snuivende snuivend
+24	8224	med	med meds
+25	8225	magnetron	magnetron magnetrons
+26	8226	apartheid	apartheid
+27	8227	benodigdheid	benodigdheden
+28	8228	bewaring	bewaring
+29	8229	commotie	commotie
+30	8230	coördinaten	coördinaten
+31	8231	crime	crime
+32	8232	helium	helium
+33	8233	koolstof	koolstof
+34	8234	krom	krom
+35	8235	levensduur	levensduur
+36	8236	luchtkwaliteit	luchtkwaliteit
+37	8237	messias	messias
+38	8238	meubilair	meubilair
+39	8239	nes	nes
+40	8240	topless	topless
+41	8241	verdeeldheid	verdeeldheid
+42	8242	voorkoming	voorkoming
+43	8243	opstandig	opstandige opstandig
+44	8244	reservering	reservering reserveringen
+45	8245	nachtclub	nachtclub nachtclubs
+46	8246	lullig	lullig lullige
+47	8247	onaanvaardbaar	onaanvaardbaar onaanvaardbare
+48	8248	hospitaal	hospitaal hospitalen
+49	8249	farao	farao farao's
+50	8250	suf	suf suffe suffer
+51	8251	tegenaanval	tegenaanval tegenaanvallen
+52	8252	monopolie	monopolie monopolies
+53	8253	afweten	afweten afweet afwist afwisten
+54	8254	overvaller	overvallers overvaller
+55	8255	pinda	pinda's pinda
+56	8256	spat	spat spatten spatte spatje gespat
+57	8257	overzees	overzeese overzees
+58	8258	trial	trial trials
+59	8259	participeren	participeren participeert participerende participeerden participeerde geparticipeerd participeer
+60	8260	beven	beef beven beeft beefde bevend bevende beefden beve
+61	8261	teelt	teelt teelten
+62	8262	huisnummer	huisnummer huisnummers
+63	8263	voortijdig	voortijdig voortijdige
+64	8264	militant	militanten militante militant
+65	8265	mislopen	mislopen misgelopen misloopt misliep misliepen
+66	8266	afblazen	afgeblazen afblazen afblies afblaast
+67	8267	berging	berging bergingen
+68	8268	gezang	gezang gezangen
+69	8269	terughalen	terughalen teruggehaald terughaalde terughaalt
+70	8270	indringer	indringer indringers
+71	8271	repeteren	repeteren gerepeteerd repeteert repeteerde repeterend repeteerden
+72	8272	mortuarium	mortuarium mortuaria
+73	8273	ringweg	ringweg ringwegen
+74	8274	belanghebbende	belanghebbenden belanghebbende
+75	8275	merknaam	merknaam merknamen
+76	8276	meeslepen	meeslepen meeslepend meeslepende meegesleept meesleept meesleepte
+77	8277	kamergenoot	kamergenoot kamergenoten kamergenote
+78	8278	kinderfeest	kinderfeestje kinderfeestjes kinderfeest
+79	8279	velg	velgen velg
+80	8280	buurtbewoner	buurtbewoners buurtbewoner
+81	8281	databank	databank databanken
+82	8282	prullenbak	prullenbak prullenbakken
+83	8283	pixel	pixel pixels
+84	8284	noemer	noemer noemers
+85	8285	immuun	immuun immune
+86	8286	gedenkteken	gedenkteken gedenktekens
+87	8287	verfijnd	verfijnd verfijnde verfijnder verfijndere
+88	8288	neigen	neigt neigen neig neigde neige neigden neigend
+89	8289	bedenking	bedenkingen bedenking
+90	8290	tendens	tendens tendensen tendenzen
+91	8291	pruimen	pruimen pruim pruimpje
+92	8292	uitdoen	uitgedaan uitdoen uitdoet uitdoe uitdeed
+93	8293	fier	fier fiere fiers
+94	8294	eg	eg eggen egge egt
+95	8295	zinnig	zinnige zinnig zinnigs zinniger
+96	8296	uitpraten	uitpraten uitgepraat uitpraat
+97	8297	neerschieten	neerschieten neerschiet neerschoot neerschoten
+98	8298	aanhouding	aanhouding aanhoudingen
+99	8299	sluipen	sluipt sluipen geslopen sluipend sluip sloopt slope
+100	8300	bedrijfsnaam	bedrijfsnaam bedrijfsnamen

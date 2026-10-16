@@ -1,0 +1,100 @@
+1	7001	dienaar	dienaar dienaren dienaars dienares dienaressen
+2	7002	warmen	warmen warme warmt warmde
+3	7003	console	console consoles
+4	7004	bouwkundig	bouwkundig bouwkundige
+5	7005	marcheren	marcheren marcheerde marcheert marcheerden marcheer gemarcheerd marcherende marcherend
+6	7006	toepasselijk	toepasselijk toepasselijke toepasselijker
+7	7007	overhouden	overhouden overgehouden overhoudt overhield overhoud overhielden
+8	7008	vreten	vreten vreet gevreten vraten vrat vretende
+9	7009	invulling	invulling invullingen
+10	7010	verhandelen	verhandelen verhandeld verhandelde verhandelt verhandelden
+11	7011	impressie	impressie impressies
+12	7012	kompas	kompas kompassen
+13	7013	dineren	dineren gedineerd dineert dineerde dineer dineerden
+14	7014	gel	gel gels gelletjes
+15	7015	mantelzorger	mantelzorgers mantelzorger
+16	7016	cookie	cookie cookies
+17	7017	elleboog	elleboog ellebogen
+18	7018	wezenlijk	wezenlijk wezenlijke wezenlijks
+19	7019	geboorteplaats	geboorteplaats geboorteplaatsen
+20	7020	lauw	lauw lauwe lauwers lauweren lauwer
+21	7021	metafoor	metafoor metaforen
+22	7022	mieke	mieke miekes
+23	7023	rechthoekig	rechthoekige rechthoekig
+24	7024	instructeur	instructeur instructeurs instructrice
+25	7025	binnendringen	binnendringen binnengedrongen binnendringt binnendrong binnendrongen binnendringende
+26	7026	memo	memo memo's
+27	7027	scheet	scheet scheten scheetje scheetjes
+28	7028	schut	schut schutte schutten
+29	7029	echtscheiding	echtscheiding echtscheidingen
+30	7030	pompoen	pompoen pompoenen
+31	7031	projectleider	projectleider projectleiders
+32	7032	mossel	mosselen mossel mossels mosseltjes mosseltje
+33	7033	prediken	gepredikt prediken predikte predikt predikten predik
+34	7034	frisdrank	frisdrank frisdranken frisdrankje
+35	7035	openstellen	opengesteld openstellen openstelt opengestelde openstelde
+36	7036	picknick	picknick picknicks
+37	7037	wonderlijk	wonderlijke wonderlijk wonderlijks wonderlijkste wonderlijker
+38	7038	verifiëren	verifiëren geverifieerd geverifieerde verifieert verifieer
+39	7039	terugval	terugval terugvallen teruggevallen terugvalt terugviel
+40	7040	chemicalie	chemicaliën
+41	7041	conform	conform
+42	7042	dienstplicht	dienstplicht
+43	7043	dusver	dusver
+44	7044	gebroeders	gebroeders
+45	7045	her_inrichting	herinrichting
+46	7046	informatica	informatica
+47	7047	instemming	instemming
+48	7048	koperen	koperen
+49	7049	plot	plot
+50	7050	rechtop	rechtop
+51	7051	regenval	regenval
+52	7052	verontwaardiging	verontwaardiging
+53	7053	woensdag_middag	woensdagmiddag
+54	7054	schacht	schacht schachten
+55	7055	beschamend	beschamend beschamende
+56	7056	soap	soap soaps
+57	7057	boa	boa boa's
+58	7058	cameraman	cameraman cameramannen
+59	7059	textiel	textiel textiele
+60	7060	schaatser	schaatser schaatsers schaatsster
+61	7061	geboortedatum	geboortedatum geboortedata
+62	7062	verkenning	verkenning verkenningen
+63	7063	bosbrand	bosbranden bosbrand
+64	7064	crashen	crashen crasht gecrasht crashte gecrashte crashten
+65	7065	verscheuren	verscheurd verscheurde verscheuren verscheurt verscheurden verscheurend
+66	7066	belemmering	belemmeringen belemmering
+67	7067	situeren	gesitueerd situeren situeert situeerde gesitueerden
+68	7068	leefomgeving	leefomgeving leefomgevingen
+69	7069	prognose	prognose prognoses
+70	7070	aaien	aaien aai aait geaaid aaide
+71	7071	taxichauffeur	taxichauffeur taxichauffeurs
+72	7072	meehelpen	meehelpen meegeholpen meehelpt meehielp meehielpen
+73	7073	ongewijzigd	ongewijzigd ongewijzigde
+74	7074	opvatten	opgevat opvatten opvat opvatte opgevatte
+75	7075	razendsnel	razendsnel razendsnelle
+76	7076	woeden	woedt woedde woeden woedden gewoed
+77	7077	plastisch	plastische plastisch
+78	7078	ondertitel	ondertitel ondertitels
+79	7079	krijger	krijger krijgers krijgertje
+80	7080	offerte	offerte offertes
+81	7081	kerstman	kerstman kerstmannen
+82	7082	circulaire	circulaire circulaires
+83	7083	tsunami	tsunami tsunami's
+84	7084	klinker	klinkers klinker
+85	7085	schoolmeisje	schoolmeisje schoolmeisjes
+86	7086	isolatie	isolatie isolaties
+87	7087	meditatie	meditatie meditaties
+88	7088	voogd	voogd voogden voogdes
+89	7089	brandwond	brandwonden brandwond brandwonde
+90	7090	barrière	barrière barrières
+91	7091	drift	drift driften
+92	7092	rund	rund runderen
+93	7093	apostel	apostelen apostel apostels
+94	7094	mak	mak makker makkers makke maks
+95	7095	afscheiding	afscheiding afscheidingen
+96	7096	plezierig	plezierig plezierige plezieriger
+97	7097	achterliggend	achterliggende achterliggend
+98	7098	toezichthouder	toezichthouder toezichthouders
+99	7099	wekker	wekker wekkers wekkertje
+100	7100	verbreden	verbreden verbreed verbreedt verbrede verbreedde verbredende verbredend

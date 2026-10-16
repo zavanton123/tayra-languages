@@ -1,0 +1,100 @@
+1	6601	intelligentiequotiënt	iq
+2	6602	opwarming	opwarming
+3	6603	overeenkomt	overeenkomt
+4	6604	overweg	overweg
+5	6605	popmuziek	popmuziek
+6	6606	presidentschap	presidentschap
+7	6607	quarantaine	quarantaine
+8	6608	terugweg	terugweg
+9	6609	thuisbasis	thuisbasis
+10	6610	twaalfde	twaalfde
+11	6611	yoghurt	yoghurt
+12	6612	zondagochtend	zondagochtend
+13	6613	zwaartekracht	zwaartekracht
+14	6614	meesterwerk	meesterwerk meesterwerken
+15	6615	verschuiving	verschuiving verschuivingen
+16	6616	perceel	perceel percelen
+17	6617	spek	spek spekken spekt gespekt
+18	6618	plug	plug pluggen plugt
+19	6619	wasmachine	wasmachine wasmachines
+20	6620	sas	sas sassen
+21	6621	speelronde	speelronde speelrondes
+22	6622	gebak	gebak gebakje gebakjes
+23	6623	schouwen	schouwen schouw geschouwd
+24	6624	televisiezender	televisiezender televisiezenders
+25	6625	overhemd	overhemd overhemden
+26	6626	pelgrim	pelgrims pelgrim
+27	6627	tolereren	tolereren getolereerd tolereert tolereer tolereerde tolereerden
+28	6628	kuil	kuil kuilen kuiltjes kuiltje
+29	6629	bezien	bezien bezie beziet bezag
+30	6630	nadrukkelijk	nadrukkelijk nadrukkelijker nadrukkelijke
+31	6631	tralie	tralies tralie
+32	6632	karton	karton kartonnen kartons kartonnetje
+33	6633	vreemdgaan	vreemdgaan vreemdgegaan vreemdgaat vreemdgaande vreemdging
+34	6634	militie	militie milities
+35	6635	ergeren	ergeren ergert geërgerd ergerde erger ergerden geërgerde ergere
+36	6636	inbreken	ingebroken inbreken inbraken inbrak inbreekt
+37	6637	banner	banner banners
+38	6638	paper	paper papers
+39	6639	bezetter	bezetters bezetter
+40	6640	roest	roest roesten geroest roestende geroeste
+41	6641	inbrengen	ingebracht inbrengen ingebrachte inbrengt inbracht
+42	6642	loodgieter	loodgieter loodgieters
+43	6643	irritatie	irritatie irritaties
+44	6644	reconstructie	reconstructie reconstructies
+45	6645	delict	delict delicten
+46	6646	genie	genie genieën
+47	6647	feministisch	feministische feministisch
+48	6648	donateur	donateurs donateur
+49	6649	kuiper	kuipers kuiper
+50	6650	toeslag	toeslagen toeslag
+51	6651	reservaat	reservaat reservaten
+52	6652	cabine	cabine cabines
+53	6653	kers	kers kersen kersje
+54	6654	generator	generator generatoren generators
+55	6655	boekhouder	boekhouder boekhouders boekhoudster
+56	6656	vastzetten	vastgezet vastzetten vastzet
+57	6657	corner	corner corners
+58	6658	psalm	psalm psalmen
+59	6659	dino	dino dino's
+60	6660	pyjama	pyjama pyjama's
+61	6661	schotel	schotel schotels schoteltje
+62	6662	genezing	genezing genezingen
+63	6663	sleuren	sleuren sleur gesleurd sleurt sleurde sleurden
+64	6664	matroos	matroos matrozen
+65	6665	nieuwsblad	nieuwsblad nieuwsbladen
+66	6666	zwager	zwager zwagers
+67	6667	rups	rups rupsen rupsje rupsjes
+68	6668	afgestudeerde	afgestudeerde afgestudeerden
+69	6669	opheffing	opheffing opheffingen
+70	6670	leefbaar	leefbaar leefbare leefbaarder
+71	6671	terugkrijgen	terugkrijgen terugkrijgt teruggekregen terugkreeg terugkrijg terugkregen
+72	6672	patriot	patriotten patriot patriots patriotse
+73	6673	korrel	korrel korrels korreltje korreltjes
+74	6674	pedofiel	pedofielen pedofiel pedofiele pedo
+75	6675	belegeren	belegerd belegerde belegeren belegerden belegert
+76	6676	gezegde	gezegde gezegden gezegdes
+77	6677	bliksem	bliksem bliksems
+78	6678	buitenwijk	buitenwijk buitenwijken
+79	6679	mos	mos mossen mosje
+80	6680	energiek	energiek energieke energieker
+81	6681	eekhoorn	eekhoorn eekhoorns eekhoorntjes eekhoorntje
+82	6682	donderdagavond	donderdagavond donderdagavonden
+83	6683	achterban	achterban
+84	6684	basisonderwijs	basisonderwijs
+85	6685	chirurgie	chirurgie
+86	6686	desalniettemin	desalniettemin
+87	6687	emancipatie	emancipatie
+88	6688	fa	fa
+89	6689	giro	giro
+90	6690	indertijd	indertijd
+91	6691	inwendige	inwendige
+92	6692	noordpool	noordpool
+93	6693	op_richten	opgerichte
+94	6694	overhoop	overhoop
+95	6695	parttime	parttime
+96	6696	perfectie	perfectie
+97	6697	recherche	recherche
+98	6698	stilstand	stilstand
+99	6699	wassenaar	wassenaar
+100	6700	zaterdagmiddag	zaterdagmiddag

@@ -1,0 +1,100 @@
+1	6001	beuken	beuken beuk beukt gebeukt beukte beukten beukende
+2	6002	betreuren	betreurt betreuren betreur betreurde betreurd betreurden
+3	6003	sauna	sauna sauna's
+4	6004	slagveld	slagveld slagvelden
+5	6005	overdekken	overdekte overdekt overdekken
+6	6006	decoratie	decoratie decoraties
+7	6007	contant	contant contante
+8	6008	import	import importen
+9	6009	weggeven	weggeven weggegeven weggeeft weggeef weggaf weggaven
+10	6010	twist	twist twisten getwist twistende
+11	6011	retour	retour retourtje retouren
+12	6012	turbo	turbo turbo's
+13	6013	vriendschappelijk	vriendschappelijke vriendschappelijk
+14	6014	bankier	bankier bankiers
+15	6015	draadloos	draadloze draadloos
+16	6016	gelijkwaardig	gelijkwaardige gelijkwaardig
+17	6017	vatbaar	vatbaar vatbare vatbaarder
+18	6018	scannen	scannen gescand scant gescande scande
+19	6019	wier	wier wieren
+20	6020	wegsturen	weggestuurd wegsturen weggestuurde wegstuurde wegstuurt
+21	6021	akoestisch	akoestische akoestisch
+22	6022	aanstelling	aanstelling aanstellingen
+23	6023	manuscript	manuscript manuscripten
+24	6024	tovenaar	tovenaar tovenaars tovenares
+25	6025	veroorloven	veroorloven veroorloofd veroorlooft veroorloofde
+26	6026	dessert	dessert desserts desserten
+27	6027	samenhang	samenhang samenhangen samenhing samenhingen
+28	6028	etiket	etiket etiketten etiketje
+29	6029	marktplaats	marktplaats marktplaatsen
+30	6030	besturingssysteem	besturingssysteem besturingssystemen
+31	6031	zeeman	zeeman zeelieden zeelui zeemannen
+32	6032	houder	houder houders houdster
+33	6033	variabele	variabele variabelen
+34	6034	vervuiling	vervuiling vervuilingen
+35	6035	gemeentebestuur	gemeentebestuur gemeentebesturen
+36	6036	hinderen	gehinderd hinderen hindert hinderde hinderden
+37	6037	bekendmaking	bekendmaking bekendmakingen
+38	6038	vastbinden	vastgebonden vastbinden vastbindt
+39	6039	segment	segment segmenten
+40	6040	timmerman	timmerman timmerlieden timmermannen timmerlui
+41	6041	brink	brink brinken
+42	6042	opwindend	opwindend opwindende opwindender opwindendste opwindends
+43	6043	afwassen	afwassen afwas afgewassen afwast
+44	6044	misgaan	misgaat misgegaan misgaan misging
+45	6045	verjagen	verjaagd verjagen verjaagt verjoeg verjaagde verjoegen
+46	6046	imam	imam imams
+47	6047	dar	dar darren
+48	6048	winkelier	winkeliers winkelier winkelierster
+49	6049	hein	hein heine heinen heintje
+50	6050	overnachten	overnachten overnacht overnachtte overnachtten
+51	6051	gedenken	gedachten gedenken gedenk gedenkt
+52	6052	luchtaanval	luchtaanval luchtaanvallen
+53	6053	schaamteloos	schaamteloos schaamteloze
+54	6054	mondeling	mondelinge mondeling
+55	6055	celstraf	celstraf celstraffen
+56	6056	massief	massief massieve massiever massieven
+57	6057	angstig	angstig angstige angstiger
+58	6058	problematisch	problematisch problematische problematischer
+59	6059	amen	amen
+60	6060	bewondering	bewondering
+61	6061	coma	coma
+62	6062	gastvrijheid	gastvrijheid
+63	6063	opwinding	opwinding
+64	6064	oudsher	oudsher
+65	6065	tabak	tabak
+66	6066	vandoor	vandoor
+67	6067	weersomstandigheid	weersomstandigheden
+68	6068	charme	charme charmes
+69	6069	evolueren	evolueren geëvolueerd evolueert evolueerde evolueerden geëvolueerde evoluerende evoluerend
+70	6070	woensdagavond	woensdagavond woensdagavonden
+71	6071	vrijspreken	vrijgesproken vrijspreken vrijsprak vrijspreekt vrijspraken
+72	6072	primitief	primitieve primitief primitiever primitievere primitiefste
+73	6073	beleving	beleving belevingen
+74	6074	krassen	krassen kras gekrast krasje krast krasse kraste krassende krassend
+75	6075	implementeren	implementeren geïmplementeerd implementeert implementeerde geïmplementeerde implementeer
+76	6076	reguleren	reguleren gereguleerd reguleert gereguleerde regulerende regulerend
+77	6077	manifestatie	manifestatie manifestaties
+78	6078	toebrengen	toegebracht toebrengen toebrengt toebracht toebrachten
+79	6079	tang	tang tangen tangetje
+80	6080	aftellen	aftellen aftelt afgeteld aftel
+81	6081	tegoed	tegoed tegoeden
+82	6082	onnozel	onnozel onnozele
+83	6083	experimenteel	experimentele experimenteel experimenteler
+84	6084	lier	lier lieren
+85	6085	leunen	leunen leunt leunde leun leunend geleund leunden leune leunende
+86	6086	bowlen	bowl bowlen gebowld
+87	6087	inventaris	inventaris inventarissen
+88	6088	vergaren	vergaren vergaard vergaarde vergaart vergaarden vergaar
+89	6089	rivaal	rivaal rivalen rivale
+90	6090	analoog	analoge analoog
+91	6091	onrechtmatig	onrechtmatige onrechtmatig
+92	6092	verplichten	verplichten verplichte verplichtte verplichtten verplichtend
+93	6093	bekomen	bekomen bekwame bekwamen bekomt bekwam bekom bekwaamde bekwaamd bekwaamt
+94	6094	stewardess	stewardess steward stewards stewardessen
+95	6095	verzwijgen	verzwijgen verzwegen verzwijgt verzweeg verzwijg
+96	6096	stijf	stijf stijver stijfjes stijvere
+97	6097	telen	telen geteeld tele geteelde teel teelde teelden
+98	6098	copyright	copyright copyrights
+99	6099	kreeft	kreeft kreeften kreeftje
+100	6100	krap	krap krappe krapper krapjes

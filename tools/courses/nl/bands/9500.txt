@@ -1,0 +1,100 @@
+1	9401	mantelzorg	mantelzorg
+2	9402	mayonaise	mayonaise
+3	9403	moi	moi
+4	9404	neon	neon
+5	9405	nostalgie	nostalgie
+6	9406	oer	oer
+7	9407	realisme	realisme
+8	9408	spiritualiteit	spiritualiteit
+9	9409	strot	strot
+10	9410	superieure	superieure
+11	9411	tarwe	tarwe
+12	9412	tevredenheid	tevredenheid
+13	9413	topsport	topsport
+14	9414	voorbaat	voorbaat
+15	9415	welnee	welnee
+16	9416	balanceren	balanceren gebalanceerd balanceert gebalanceerde balanceerde balancerend balanceer
+17	9417	configuratie	configuratie configuraties
+18	9418	scriptie	scriptie scripties
+19	9419	bekommeren	bekommeren bekommert bekommerde bekommerd bekommerden
+20	9420	gros	gros grossen
+21	9421	fiks	fikse fiks
+22	9422	hovenier	hovenier hoveniers
+23	9423	wurgen	wurgen gewurgd wurgt wurgde wurg gewurgde
+24	9424	arsenaal	arsenaal arsenalen
+25	9425	massamoord	massamoord massamoorden
+26	9426	sjeik	sjeik sjeiks
+27	9427	afhakken	afgehakt afhakken afgehakte afhak afhakt afhakte
+28	9428	inplannen	ingepland inplannen inplant ingeplande
+29	9429	broekzak	broekzak broekzakken
+30	9430	denkbeeldig	denkbeeldige denkbeeldig
+31	9431	hindoe	hindoes hindoe
+32	9432	locomotief	locomotief locomotieven locomotiefje
+33	9433	gymzaal	gymzaal gymzalen
+34	9434	vaststelling	vaststelling vaststellingen
+35	9435	bedankje	bedankje bedankjes
+36	9436	ijstijd	ijstijd ijstijden
+37	9437	heroveren	heroveren heroverd herovert heroverde heroverden
+38	9438	richel	richel richels
+39	9439	koele	koelen gekoeld koele koelt koelde koelende
+40	9440	ongeoorloofd	ongeoorloofde ongeoorloofd
+41	9441	overvloedig	overvloedige overvloedig
+42	9442	verkeerslicht	verkeerslichten verkeerslicht
+43	9443	vergrijpen	vergrijp vergrijpen vergrijpt vergrepen vergreep
+44	9444	deurwaarder	deurwaarder deurwaarders
+45	9445	fietsroute	fietsroute fietsroutes
+46	9446	jeugdopleiding	jeugdopleiding jeugdopleidingen
+47	9447	ongebruikt	ongebruikt ongebruikte
+48	9448	hechting	hechtingen hechting
+49	9449	miljardair	miljardair miljardairs
+50	9450	foutloos	foutloos foutloze
+51	9451	gapen	gapen gapende gaap gapend gaapt gaapte
+52	9452	consult	consult consulten
+53	9453	lachwekkend	lachwekkend lachwekkende
+54	9454	consistent	consistent consistente consistenter
+55	9455	allerbelangrijkst	allerbelangrijkste allerbelangrijkst
+56	9456	gedijen	gedijen gedijt gedijde gedijden
+57	9457	desktop	desktop desktops
+58	9458	incidenteel	incidenteel incidentele
+59	9459	opjagen	opgejaagd opjagen opgejaagde opjaagt opjoeg
+60	9460	grasland	grasland graslanden
+61	9461	tegenpartij	tegenpartij tegenpartijen
+62	9462	vliegbasis	vliegbasis vliegbases
+63	9463	glimp	glimp glimpen
+64	9464	prompt	prompt prompte
+65	9465	afhaken	afhaken afgehaakt afhaakt afhaakte afhaakten
+66	9466	psychose	psychose psychoses psychosen
+67	9467	degraderen	degraderen degradeert degradeerde
+68	9468	ballast	ballast geballast
+69	9469	lippenstift	lippenstift lippenstiften
+70	9470	waterman	waterman watermannen
+71	9471	gewricht	gewrichten gewricht
+72	9472	knettergek	knettergek knetter knettergekke
+73	9473	dorpshuis	dorpshuis dorpshuizen
+74	9474	veiligheidsmaatregel	veiligheidsmaatregelen veiligheidsmaatregel
+75	9475	onlosmakelijk	onlosmakelijk onlosmakelijke
+76	9476	voorzichtigheid	voorzichtigheid voorzicht
+77	9477	verschonen	verschonen verschoond verschoont verschoon verschoonde
+78	9478	detailhandel	detailhandel detailhandels
+79	9479	kroes	kroes kroeze kroezen
+80	9480	karwei	karwei karweitje karweitjes karweien
+81	9481	denktank	denktank denktanks
+82	9482	prijsvraag	prijsvraag prijsvragen
+83	9483	inleggen	inleg ingelegd inleggen inlegt
+84	9484	knielen	knielen knielde knielt geknield kniel knielend knielden
+85	9485	elitair	elitaire elitair
+86	9486	onverhard	onverharde onverhard
+87	9487	energiebedrijf	energiebedrijf energiebedrijven
+88	9488	hartstochtelijk	hartstochtelijk hartstochtelijke
+89	9489	vibe	vibe vibes
+90	9490	optioneel	optioneel optionele
+91	9491	kneus	gekneusd gekneusde kneus kneuzen kneusje kneusde
+92	9492	geneeskundige	geneeskundige geneeskundigen
+93	9493	buffer	buffer buffers
+94	9494	zeemeermin	zeemeermin zeemeerminnen
+95	9495	beknopt	beknopte beknopt
+96	9496	bromfiets	bromfiets bromfietsen
+97	9497	punch	punch pons ponsen geponst
+98	9498	seriemoordenaar	seriemoordenaar seriemoordenaars
+99	9499	haastig	haastig haastige
+100	9500	weerzinwekkend	weerzinwekkend weerzinwekkende

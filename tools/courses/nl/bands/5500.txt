@@ -1,0 +1,100 @@
+1	5401	zuidwesten	zuidwesten
+2	5402	transparant	transparant transparante transparanter
+3	5403	songwriter	songwriter songwriters
+4	5404	zuinig	zuinig zuiniger zuinige zuinigere zuinigste
+5	5405	hoofdpersoon	hoofdpersoon hoofdpersonen
+6	5406	overlaten	overlaten overgelaten overlaat overliet overlieten overlatend
+7	5407	verwarren	verwarren verwart verwarde verwar verwarden
+8	5408	regenboog	regenboog regenbogen
+9	5409	mechanisme	mechanisme mechanismen mechanismes
+10	5410	reflectie	reflectie reflecties
+11	5411	nieuwkomer	nieuwkomers nieuwkomer
+12	5412	slip	slip slipje slippen slips slipt slipte geslipt
+13	5413	steil	steile steil steiler steilste steilere
+14	5414	bunker	bunker bunkers
+15	5415	bomaanslag	bomaanslag bomaanslagen
+16	5416	mondiaal	mondiale mondiaal
+17	5417	restauratie	restauratie restauraties
+18	5418	uil	uil uilen uiltje
+19	5419	bruut	brute bruut bruten
+20	5420	coureur	coureur coureurs
+21	5421	slak	slak slakken slakjes slakje
+22	5422	splitsen	splitsen gesplitst splitst splits splitste splitsten splitsende
+23	5423	zang	zang zangen
+24	5424	onderscheiding	onderscheiding onderscheidingen
+25	5425	inbreuk	inbreuk inbreuken
+26	5426	ar	ar arren
+27	5427	organisme	organismen organisme organismes
+28	5428	eikel	eikel eikels eikeltje
+29	5429	wielrenner	wielrenner wielrenners wielrenster wielrensters
+30	5430	tatoeage	tatoeage tatoeages
+31	5431	allerlaatst	allerlaatste allerlaatst
+32	5432	creditcard	creditcard creditcards
+33	5433	bovenkant	bovenkant bovenkanten
+34	5434	alp	alpen alp
+35	5435	reünie	reünie reünies
+36	5436	voorval	voorval voorvallen voorgevallen voorvalt voorviel
+37	5437	onderdrukken	onderdrukken onderdruk onderdrukte onderdrukten onderdrukkend
+38	5438	verouderd	verouderde verouderd
+39	5439	griet	griet grietje grieten
+40	5440	pseudoniem	pseudoniem pseudoniemen
+41	5441	aannemer	aannemer aannemers
+42	5442	opsporen	opsporen opgespoord opspoort opspoorde opgespoorde
+43	5443	onderuit	onderuit eronderuit
+44	5444	archeoloog	archeoloog archeologen archeologe
+45	5445	heelal	heelal heelallen
+46	5446	els	els elzen elsje
+47	5447	emo	emo emo's
+48	5448	werkwijze	werkwijze werkwijzen
+49	5449	aanbidden	aanbidden aanbid aanbidt aanbeden aanbaden aanbad aanbiddende
+50	5450	metrostation	metrostation metrostations
+51	5451	resort	resort resorts
+52	5452	deadline	deadline deadlines
+53	5453	statistisch	statistische statistisch
+54	5454	reduceren	gereduceerd reduceren reduceert reduceerde reducerend reduceer
+55	5455	achterna	achterna
+56	5456	beschikbaarheid	beschikbaarheid
+57	5457	beu	beu
+58	5458	hooguit	hooguit
+59	5459	niettemin	niettemin
+60	5460	prostitutie	prostitutie
+61	5461	sedert	sedert
+62	5462	uitverkocht	uitverkocht
+63	5463	vaarwel	vaarwel
+64	5464	verlegen	verlegen
+65	5465	beluisteren	beluisteren beluisterd beluister beluisterde beluistert
+66	5466	toekijken	toekijken toekijkt toekeek toekeken toegekeken toekijkende toekijkend toekijk
+67	5467	abortus	abortus abortussen
+68	5468	specialiteit	specialiteit specialiteiten
+69	5469	therapeut	therapeut therapeuten therapeute
+70	5470	brutaal	brutale brutaal brutaler brutaalste
+71	5471	mot	mot motten motte motje
+72	5472	commentator	commentator commentatoren
+73	5473	krijt	krijt krijtje
+74	5474	samenvatten	samengevat samenvatten samenvat samenvattend samenvatte
+75	5475	detective	detective detectives
+76	5476	uitwedstrijd	uitwedstrijd uitwedstrijden
+77	5477	romeo	romeo romeo's
+78	5478	luisteraar	luisteraars luisteraar
+79	5479	kwartfinale	kwartfinale kwartfinales
+80	5480	krediet	krediet kredieten
+81	5481	onbelangrijk	onbelangrijk onbelangrijke
+82	5482	levensstijl	levensstijl levensstijlen
+83	5483	vruchtbaar	vruchtbare vruchtbaar vruchtbaarder vruchtbaarste
+84	5484	minnaar	minnaar minnares minnaars minnaressen
+85	5485	lesgeven	lesgeven lesgegeven lesgeeft lesgaf lesgeef
+86	5486	statement	statement statements
+87	5487	aanrijden	aangereden aanrijden aanreed aanrijdt
+88	5488	ra	ra ra's
+89	5489	uitlopen	uitgelopen uitlopen uitloopt uitloop uitliep uitlopend uitlopende uitliepen
+90	5490	huppen	hup huppen
+91	5491	meespelen	meespelen meespeelt meegespeeld meespeelde meespeelden meespeel meespelende
+92	5492	betwijfelen	betwijfel betwijfelen betwijfelt betwijfeld betwijfelde betwijfelden
+93	5493	compositie	compositie composities
+94	5494	liefdevol	liefdevol liefdevolle
+95	5495	pat	pat patten patje
+96	5496	landgenoot	landgenoten landgenoot
+97	5497	verhelpen	verholpen verhelpen verhelpt verhelp verhielp
+98	5498	onderwijzen	onderwezen onderwijzen onderwijst onderwees onderwijzend
+99	5499	verwonden	verwond verwonden verwondde verwondt verwonde verwondden
+100	5500	gelijkenis	gelijkenis gelijkenissen

@@ -1,0 +1,100 @@
+1	9101	aansporen	aangespoord aansporen aanspoort aanspoorde aanspoorden
+2	9102	begaafd	begaafd begaafde begaafden begaafdste
+3	9103	stro	stro strootjes strootje
+4	9104	nauwgezet	nauwgezet nauwgezette
+5	9105	talentenjacht	talentenjacht talentenjachten
+6	9106	verdoen	verdoen verdoe verdaan verdoet
+7	9107	handelsmerk	handelsmerk handelsmerken
+8	9108	tekstschrijver	tekstschrijver tekstschrijvers
+9	9109	voetbalvereniging	voetbalvereniging voetbalverenigingen
+10	9110	herleven	herleven herleeft herleefde herleef herleefden
+11	9111	apache	apache apaches apachen
+12	9112	communicatiemiddel	communicatiemiddelen communicatiemiddel
+13	9113	vlaag	vlaag vlagen
+14	9114	heli	heli heli's
+15	9115	decennialang	decennialang decennialange
+16	9116	bevoorrading	bevoorrading bevoorradingen
+17	9117	bemanningslid	bemanningsleden bemanningslid
+18	9118	zigeuner	zigeuners zigeuner zigeunerin
+19	9119	dij	dijen dij dijt
+20	9120	bijpraten	bijpraten bijgepraat bijpraat
+21	9121	telegram	telegram telegrammen
+22	9122	wimper	wimpers wimper
+23	9123	bobo	bobo bobo's
+24	9124	ecstasy	xtc ecstasy
+25	9125	stripverhaal	stripverhaal stripverhalen
+26	9126	fosfaat	fosfaat fosfaten
+27	9127	onbruikbaar	onbruikbaar onbruikbare
+28	9128	kruik	kruik kruiken kruikje
+29	9129	nieuwtje	nieuwtjes nieuwtje
+30	9130	incompetent	incompetent incompetente
+31	9131	grondwettelijk	grondwettelijk grondwettelijke
+32	9132	gezinslid	gezinsleden gezinslid
+33	9133	slee	slee sleeën slede sleden sledes sleetje sleet
+34	9134	verzilveren	verzilveren verzilverd verzilverde verzilver verzilvert
+35	9135	oorlogsmisdaad	oorlogsmisdaden oorlogsmisdaad
+36	9136	optimist	optimist optimisten
+37	9137	request	request requests
+38	9138	folie	folie folies foelie
+39	9139	vastmaken	vastgemaakt vastmaken vastmaakt vastgemaakte
+40	9140	grensgebied	grensgebied grensgebieden
+41	9141	bijbrengen	bijbrengen bijgebracht bijbrengt bijbracht
+42	9142	curve	curve curves curven
+43	9143	tandenborstel	tandenborstel tandenborstels
+44	9144	ongevraagd	ongevraagd ongevraagde
+45	9145	wisseling	wisseling wisselingen
+46	9146	couplet	couplet coupletten
+47	9147	ontketenen	ontketenen ontketende ontketend ontketent ontketen ontketenden
+48	9148	gewas	gewas gewassen
+49	9149	stuwen	stuwen stuw stuwt stuwende gestuwd stuwde stuwend gestouwd stoe stuwden
+50	9150	temmen	temmen tem getemd getemde temt temme temde
+51	9151	moeiteloos	moeiteloos moeiteloze
+52	9152	chirurgisch	chirurgische chirurgisch
+53	9153	vijfhonderd	vijfhonderd vijfhonderdste
+54	9154	climax	climax climaxen
+55	9155	donkerbruin	donkerbruin donkerbruine
+56	9156	pornoster	pornoster pornosterren
+57	9157	versterker	versterker versterkers
+58	9158	manoeuvre	manoeuvre manoeuvres
+59	9159	ondragelijk	ondraaglijk ondragelijk ondragelijke
+60	9160	helper	helper helpers
+61	9161	startup	startup startups
+62	9162	sonde	sonde sondes
+63	9163	komiek	komiek komieken
+64	9164	naamwoord	naamwoord naamwoorden
+65	9165	kostschool	kostschool kostscholen
+66	9166	deportatie	deportatie deportaties
+67	9167	aanmoediging	aanmoediging aanmoedigingen
+68	9168	instaan	instaan instaat ingestaan instond instonden
+69	9169	betrekkelijk	betrekkelijk betrekkelijke
+70	9170	uitkeren	uitgekeerd uitkeren uitgekeerde uitkeert
+71	9171	kiem	kiem kiemen kiemt gekiemde
+72	9172	luchtig	luchtig luchtige luchtiger luchtigs
+73	9173	tweetalig	tweetalig tweetalige
+74	9174	festiviteit	festiviteiten festiviteit
+75	9175	gestalte	gestalte gestalten
+76	9176	saboteren	saboteren gesaboteerd saboteert saboteerde saboteer saboteerden gesaboteerde
+77	9177	stafchef	stafchef stafchefs
+78	9178	passant	passant passanten
+79	9179	viertal	viertal viertallen
+80	9180	waakzaam	waakzaam waakzame
+81	9181	tennisser	tennisser tennisster tennissers tennissters
+82	9182	pigment	pigment pigmenten
+83	9183	splinter	splinter splinters
+84	9184	zorgeloos	zorgeloos zorgeloze
+85	9185	legging	legging leggings
+86	9186	vechtpartij	vechtpartij vechtpartijen vechtpartijtje
+87	9187	timmer	timmer timmers
+88	9188	verweven	verweven verweeft
+89	9189	burgerschap	burgerschap
+90	9190	carré	carré
+91	9191	deeg	deeg
+92	9192	dito	dito
+93	9193	eindronde	eindronde
+94	9194	hartstilstand	hartstilstand
+95	9195	herkenning	herkenning
+96	9196	immuunsysteem	immuunsysteem
+97	9197	intrekking	intrekking
+98	9198	malware	malware
+99	9199	namaak	namaak
+100	9200	noodhulp	noodhulp

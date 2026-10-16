@@ -1,0 +1,100 @@
+1	1901	toestel	toestel toestellen toestelletje
+2	1902	pijpen	pijpen pijp gepijpt pijpt pepe peep pijpje pijpte pijpende
+3	1903	kanker	kanker kk kankers
+4	1904	klok	klok klokken klokje klokjes klokt klokke klokte geklokt
+5	1905	voorkeur	voorkeur voorkeuren
+6	1906	onschuldig	onschuldig onschuldige onschuldigs onschuldiger
+7	1907	streng	streng strenge strengere strenger strengen strengste strengst
+8	1908	beveiliging	beveiliging beveiligingen
+9	1909	waarderen	waarderen gewaardeerd waardeer waardeert waardeerde waardeerden waarderend
+10	1910	scheppen	scheppen geschapen schapen schept schep schiep schepje geschept scheppend schepte
+11	1911	kruis	kruis kruisen kruisje gekruist kruist kruizen kruiste kruisten kruisende kruisend
+12	1912	tegenstelling	tegenstelling tegenstellingen
+13	1913	beschikken	beschikt beschikken beschikten beschikte beschik beschikkend
+14	1914	vastleggen	vastgelegd vastleggen vastgelegde vastlegt vastlegde vastlegden
+15	1915	actueel	actuele actueel actueler
+16	1916	exemplaar	exemplaar exemplaren
+17	1917	humor	humor
+18	1918	noch	noch
+19	1919	privacy	privacy
+20	1920	vergelijkbaar	vergelijkbaar vergelijkbare vergelijkbaars
+21	1921	democratisch	democratische democratisch democratischer demokratische
+22	1922	opstand	opstand opstanden
+23	1923	informeren	informeren geïnformeerd informeert informeer informeerde informeerden informerende
+24	1924	beschadigen	beschadigd beschadigen beschadigde beschadigt beschadig beschadigden beschadigend beschadigende
+25	1925	rit	rit ritje ritten gerit
+26	1926	structuur	structuur structuren
+27	1927	innemen	ingenomen innemen inname inneemt innam innamen innemend inneem innames
+28	1928	laptop	laptop laptops laptopje
+29	1929	emotioneel	emotionele emotioneel emotioneler
+30	1930	tekening	tekeningen tekening tekeningetje
+31	1931	fotograaf	fotograaf fotografen fotografe
+32	1932	heuvel	heuvel heuvels heuveltje heuvelen
+33	1933	bezetten	bezet bezette bezetten
+34	1934	reclame	reclame reclames
+35	1935	magazine	magazine magazines
+36	1936	pakket	pakket pakketje pakketten
+37	1937	vermogen	vermogen vermogens vermogend vermag vermogenden vermocht
+38	1938	anoniem	anoniem anonieme anoniemen anoniempje
+39	1939	beschrijving	beschrijving beschrijvingen
+40	1940	religie	religie religies
+41	1941	filmen	filmen gefilmd filmt filmde filmden gefilmde filme filmende
+42	1942	inschrijven	ingeschreven inschrijven inschreef inschrijft inschreven ingeschrevenen inschrijf
+43	1943	dwingen	dwingen dwong dwingt dwongen dwingend dwing dwingender
+44	1944	zwellen	zwolle gezwollen zwelt zwellen zwol zwel zwollen zwellende
+45	1945	verminderen	verminderen verminderde verminderd vermindert verminder verminderden verminderende
+46	1946	trend	trend trends
+47	1947	deal	deal deals dealtje dealtjes
+48	1948	elf	elf elfen elfjes elfje elven elvin elfder elve
+49	1949	vliegveld	vliegveld vliegvelden vliegveldje
+50	1950	onderzoeker	onderzoekers onderzoeker onderzoekster
+51	1951	automatisch	automatisch automatische
+52	1952	inkomen	inkomen inkomens inkom inkomend ingekomen inkomt inkwam inkwamen
+53	1953	go	go go's
+54	1954	gedwongen	gedwongen
+55	1955	roze	roze
+56	1956	tegelijk	tegelijk
+57	1957	indrukwekkend	indrukwekkend indrukwekkende indrukwekkender indrukwekkendste
+58	1958	vervelend	vervelend vervelende vervelender vervelends vervelendste
+59	1959	particulier	particuliere particulier particulieren
+60	1960	villa	villa villa's
+61	1961	opzoeken	opzoeken opzoek opgezocht opzoekt opzocht opzochten
+62	1962	autoriteit	autoriteiten autoriteit
+63	1963	ontkennen	ontkennen ontkent ontkende ontkend ontken ontkenden ontkennend
+64	1964	verzekeren	verzekeren verzekerd verzekerde verzekert verzeker verzekerden
+65	1965	stilte	stilte stiltes
+66	1966	slaaf	slaven slaaf slavin slaafje slavinnen slaafjes
+67	1967	kasteel	kasteel kastelen kasteeltje
+68	1968	pijnlijk	pijnlijk pijnlijke pijnlijker pijnlijkste
+69	1969	junior	junior junioren juniors juniores
+70	1970	ophef	opgeheven ophef opheffen opheft ophief
+71	1971	revolutie	revolutie revoluties
+72	1972	focus	focus focussen gefocust focust focuste focusten gefocuste
+73	1973	zuidelijk	zuidelijke zuidelijk zuidelijker zuidelijkste
+74	1974	eng	eng enge enger engste engs engere engen engers engst
+75	1975	fabriek	fabriek fabrieken fabriekje fabriekjes
+76	1976	blokkeren	geblokkeerd blokkeren blokkeert blokkeerde blokkeer blokkeerden blokkerend
+77	1977	jurk	jurk jurken jurkje jurkjes
+78	1978	naakt	naakt naakte naakten nakie
+79	1979	opstaan	opstaan opgestaan opstaat opstond opsta opstonden opstaand
+80	1980	zuster	zuster zusters zustertje
+81	1981	daad	daden daad
+82	1982	plastic	plastic plastics
+83	1983	werkzaam	werkzaam werkzame
+84	1984	literatuur	literatuur litteratuur
+85	1985	alsnog	alsnog
+86	1986	komst	komst
+87	1987	opeens	opeens
+88	1988	vanmorgen	vanmorgen
+89	1989	party	party party's
+90	1990	file	file files
+91	1991	lezer	lezers lezer
+92	1992	gewicht	gewicht gewichten gewichtje
+93	1993	besparen	besparen bespaar bespaard bespaart bespaarde bespaarden
+94	1994	beïnvloeden	beïnvloed beïnvloeden beïnvloedt beïnvloedde beïnvloedden beïnvloede
+95	1995	hoezo	hoezo hz
+96	1996	indienen	ingediend indienen indiende ingediende indient indienden
+97	1997	dam	dam dammen damme
+98	1998	toestand	toestand toestanden
+99	1999	verbetering	verbetering verbeteringen
+100	2000	competitie	competitie competities

@@ -1,0 +1,100 @@
+1	4701	airco	airco airco's
+2	4702	parallel	parallel parallelle parallellen parallels
+3	4703	schietpartij	schietpartij schietpartijen
+4	4704	graafschap	graafschap graafschappen
+5	4705	vertrouwelijk	vertrouwelijk vertrouwelijke
+6	4706	aanraden	aanraden aangeraden aanraadt aanraadde aanraad
+7	4707	schaar	schaar scharen schare geschaard schaart schaarde schaartje schaarden
+8	4708	aanspraak	aanspraak aanspraken
+9	4709	veteraan	veteranen veteraan
+10	4710	verkleden	verkleed verkleden verklede verkleedt verkleedde verkleedden
+11	4711	syndroom	syndroom syndromen
+12	4712	kruispunt	kruispunt kruispunten
+13	4713	optocht	optocht optochten
+14	4714	arrogant	arrogant arrogante arroganter
+15	4715	proost	proost proosten geproost
+16	4716	afmeting	afmetingen afmeting
+17	4717	bejaarde	bejaarde bejaarden
+18	4718	horizontaal	horizontale horizontaal
+19	4719	onderkant	onderkant onderkanten
+20	4720	lo	lo lo's
+21	4721	opzettelijk	opzettelijk opzettelijke
+22	4722	genocide	genocide genocides
+23	4723	tactiek	tactiek tactieken taktiek
+24	4724	aankondiging	aankondiging aankondigingen
+25	4725	aantekening	aantekeningen aantekening
+26	4726	ambt	ambt ambten
+27	4727	kwalijk	kwalijk kwalijke kwalijker
+28	4728	aardbei	aardbeien aardbei
+29	4729	uitvinding	uitvinding uitvindingen
+30	4730	rekken	rekken rek rekt gerekt rekje rekte
+31	4731	page	page pages
+32	4732	turner	turner turners
+33	4733	technologisch	technologische technologisch
+34	4734	overhandigen	overhandigd overhandigen overhandigt overhandigde overhandigden overhandig
+35	4735	droevig	droevig droevige droevigste droeviger
+36	4736	aids	aids
+37	4737	dichtstbijzijnd	dichtstbijzijnde
+38	4738	doch	doch
+39	4739	donder	donder
+40	4740	meningsuiting	meningsuiting
+41	4741	negentig	negentig
+42	4742	transparantie	transparantie
+43	4743	veiligheidsraad	veiligheidsraad
+44	4744	verbazing	verbazing
+45	4745	verraad	verraad
+46	4746	vrijwilligerswerk	vrijwilligerswerk
+47	4747	yo	yo
+48	4748	tijdlijn	tijdlijn tijdlijnen
+49	4749	integraal	integraal integrale integralen
+50	4750	verkleinen	verkleinen verkleind verkleint verkleinde verklein
+51	4751	schadevergoeding	schadevergoeding schadevergoedingen
+52	4752	ontbinden	ontbonden ontbinden ontbindt ontbindende ontbond ontbindend ontbind
+53	4753	inslaan	ingeslagen inslaan inslaat insloeg insloegen inslaande
+54	4754	essay	essay essays
+55	4755	ombouw	omgebouwd ombouw ombouwen omgebouwde ombouwde
+56	4756	constateren	geconstateerd constateren constateert constateerde constateer constateerden geconstateerde
+57	4757	voornemen	voorgenomen voornemen voornemens voornamen voorname voornam voorneemt
+58	4758	monitor	monitor monitoren monitors gemonitord monitort
+59	4759	piek	piek pieken piekt piekte gepiekt pieke piekten
+60	4760	grondslag	grondslag grondslagen
+61	4761	hoofddoek	hoofddoek hoofddoekje hoofddoeken
+62	4762	otto	otto otto's
+63	4763	crash	crash crashes
+64	4764	performance	performance performances
+65	4765	podcast	podcast podcasts
+66	4766	peuter	peuter peuters
+67	4767	pittig	pittige pittig pittiger pittigs
+68	4768	inschakelen	ingeschakeld inschakelen inschakelt ingeschakelde inschakelde inschakel
+69	4769	admiraal	admiraal admiraals
+70	4770	alfabet	alfabet alfabetten
+71	4771	nakijken	nakijken nagekeken nakijkt nakijk nakeek
+72	4772	opschrijven	opgeschreven opschrijven opschrijft opschreef opschrijf opschreven
+73	4773	stemmer	stemmers stemmer
+74	4774	handdoek	handdoek handdoeken handdoekjes handdoekje
+75	4775	folder	folders folder foldertje
+76	4776	bombardement	bombardementen bombardement
+77	4777	aanvoerder	aanvoerder aanvoerders aanvoerster
+78	4778	overdrijven	overdrijven overdrijf overdrijft overdreef
+79	4779	palm	palm palmen palmt palmde
+80	4780	galerij	galerij galerijen gallerij
+81	4781	complot	complot complotten komplot
+82	4782	bespreking	bespreking besprekingen
+83	4783	weergave	weergave weergaven weergaves
+84	4784	correctie	correctie correcties
+85	4785	adopteren	adopteren geadopteerd adopteert adopteerde adopteer adopteerden
+86	4786	starter	starters starter
+87	4787	overduidelijk	overduidelijk overduidelijke
+88	4788	asiel	asiel asielen asiels
+89	4789	bekritiseren	bekritiseerd bekritiseerde bekritiseren bekritiseert bekritiseerden bekritiseer
+90	4790	geniaal	geniaal geniale geniaals geniaalste
+91	4791	ideologie	ideologie ideologieën
+92	4792	toegewijd	toegewijd toegewijde
+93	4793	grafiek	grafiek grafieken grafiekje grafiekjes
+94	4794	voordeur	voordeur voordeuren
+95	4795	diameter	diameter diameters
+96	4796	aanmelding	aanmeldingen aanmelding
+97	4797	zegenen	gezegend zegene zegenen zegent zegende zegenend zegenende
+98	4798	thuiswedstrijd	thuiswedstrijd thuiswedstrijden
+99	4799	darm	darm darmen
+100	4800	verrader	verraders verrader

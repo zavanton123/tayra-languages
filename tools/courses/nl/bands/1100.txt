@@ -1,0 +1,100 @@
+1	1001	verzoek	verzoek verzocht verzoeken verzoekt verzoekjes verzochten verzoekje verzoekende
+2	1002	informatietechnologie	it informatietechnologie
+3	1003	eruit	eruit waaruit daaruit hieruit
+4	1004	breed	breed brede breder bredere breedste breedst
+5	1005	vereniging	vereniging verenigingen
+6	1006	koud	koud koude kouder koudste koudere koudst kouds
+7	1007	treden	treden treedt trad trade getreden traden treed trede tredend
+8	1008	achtergrond	achtergrond achtergronden
+9	1009	springen	springen sprong spring springt gesprongen sprongen springer springend sprongetje springers
+10	1010	technisch	technische technisch technischer
+11	1011	prins	prins prinses prinsen prinsessen prinsesje prinsje prinsjes
+12	1012	aangezien	aangezien
+13	1013	beleid	beleid
+14	1014	besloten	besloten
+15	1015	stichting	stichting stichtingen
+16	1016	tafel	tafel tafels tafeltje tafelen
+17	1017	game	game games
+18	1018	vestigen	gevestigd vestigen gevestigde vestigde vestigt vestigden vestig
+19	1019	aardig	aardig aardige aardiger aardigste aardigs
+20	1020	gevaar	gevaar gevaren
+21	1021	grap	grap grapje grappen grapt grapte grapten gegrapt grappend
+22	1022	frank	frank franken franke franks
+23	1023	tijdelijk	tijdelijk tijdelijke tijdelijks
+24	1024	strand	strand stranden gestrand gestrande strandje strandde strandt strandden
+25	1025	onafhankelijk	onafhankelijke onafhankelijk onafhankelijker onafhankelijken
+26	1026	bespreken	bespreken besproken bespreekt bespreek bespraken besprak
+27	1027	voorzitter	voorzitter voorzitters voorzitster
+28	1028	geel	gele geel geels geler
+29	1029	zover	zover zoover
+30	1030	inhoud	inhoud inhouden ingehouden inhield inhielden
+31	1031	stof	stof stoffen stofje stoft
+32	1032	houten	houten hout houtje houte houtte
+33	1033	dergelijk	dergelijke dergelijk dergelijks dergelijken
+34	1034	gedrag	gedrag
+35	1035	gezondheid	gezondheid
+36	1036	meet	meet gemeten meten mat mate matje maten matter mats matten
+37	1037	gezellig	gezellig gezellige gezelliger gezelligste gezel gezellen gezelligs gezellin
+38	1038	rug	rug ruggen ruggetje
+39	1039	paard	paard paarden paardje
+40	1040	uniek	unieke uniek unieks unieker
+41	1041	moslim	moslims moslim moslima moslima's moslimse
+42	1042	verdachte	verdachte verdachten
+43	1043	afdeling	afdeling afdelingen afdeeling
+44	1044	goedkoop	goedkoop goedkope goedkoper goedkoopste goedkopere goedkoopst goedkoops
+45	1045	hoek	hoek hoeken hoekje hoekie
+46	1046	patiënt	patiënten patiënt patienten patiënte patiëntje
+47	1047	brug	brug bruggen bruggetje brugje
+48	1048	ex	ex exen
+49	1049	maatregel	maatregelen maatregel maatregels
+50	1050	dom	dom domme domste dommer doms dommere dommen domst
+51	1051	afsluiten	afgesloten afsluiten afsluitende afsluit afsloot afsluitend afsloten
+52	1052	restaurant	restaurant restaurants restaurantje restaurantjes
+53	1053	raar	raar rare raars raarste raarder
+54	1054	oorspronkelijk	oorspronkelijk oorspronkelijke
+55	1055	gevangenis	gevangenis gevangenissen
+56	1056	wind	wind gewonden winden windt windje wonde winde
+57	1057	bleek	bleek bleke bleker bleekjes
+58	1058	finale	finale finales
+59	1059	allerlei	allerlei
+60	1060	boeren	boeren boer bouwer bouwers boerin boertje boere boert boerinnen boerke
+61	1061	indruk	indruk indrukken ingedrukt indrukt indrukte
+62	1062	dollar	dollar dollars
+63	1063	beperkt	beperkt beperkte beperkter beperktere
+64	1064	angst	angst angsten
+65	1065	leiding	leiding leidingen
+66	1066	bezoeker	bezoekers bezoeker bezoekster
+67	1067	ongeluk	ongeluk ongelukken ongelukje
+68	1068	aanpak	aanpak aanpakken aangepakt aanpakt aanpakte aanpakten
+69	1069	weigeren	weigerde weigeren weigert geweigerd weiger weigerden geweigerde weigerend
+70	1070	motor	motor motoren motors motortje
+71	1071	stijgen	stijgen steeg gestegen stijgt stijgende stegen stijgend steegje stijg stege
+72	1072	geil	geile geil geilste geiler geils
+73	1073	geluid	geluid geluiden geluidje
+74	1074	vergelijken	vergelijken vergeleken vergelijk vergelijkt vergeleek vergelijkende vergelijkend vergelijke
+75	1075	account	account accounts
+76	1076	aannemen	aangenomen aannemen aanneemt aannam aanname aannames aannamen aanneem aannemend
+77	1077	aflevering	aflevering afleveringen
+78	1078	jammer	jammer jammere jammers
+79	1079	eer	eer ere eren geëerd eert eerde eerden eeren
+80	1080	bureau	bureau bureaus buro bureautje
+81	1081	natuur	natuur naturen
+82	1082	journalist	journalist journalisten journaliste journalistje
+83	1083	koninkrijk	koninkrijk koninkrijken koninkrijkje koninkrijkjes
+84	1084	bak	bak bakken gebakken bakje bakt bakkie bakte bakke bakten bakkies
+85	1085	oost	oost
+86	1086	dubbel	dubbele dubbel dubbels
+87	1087	oproep	oproep opgeroepen oproepen oproept opriep opriepen oproepje
+88	1088	pool	polen poolse pool pools
+89	1089	bewoner	bewoners bewoner bewoonster bewoonsters
+90	1090	simpel	simpel simpele simpeler simpelste simpels simpelere
+91	1091	hé	hé he hee
+92	1092	effect	effect effecten
+93	1093	behoren	behoren behoort behoorde behoorden behorend behoor behoord behooren
+94	1094	leeg	leeg lege legers ledig legere
+95	1095	studie	studie studies studiën
+96	1096	trap	trap trappen getrapt trapt trapte trapje trapten trappe trappend trappetje
+97	1097	creëren	creëren gecreëerd creëert creëer creëerde gecreëerde creëerden creërend
+98	1098	overlijden	overleed overlijden overlijdt overlijdens overlijd
+99	1099	groen	groen groener groentjes groenste groentje groenere groens
+100	1100	slot	slot slotte sloten slotje

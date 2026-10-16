@@ -1,0 +1,100 @@
+1	501	heen	heen daarheen hierheen erheen waarheen
+2	502	rechts	recht rechts rechtse rechtser rechtsen rechtste
+3	503	richten	gericht richten richt richtte gerichte richtten gerichter richte richtend
+4	504	buurt	buurt buurten buurtje
+5	505	telefoon	telefoon telefoons telefoontje telefoontjes
+6	506	reactie	reactie reacties reaktie
+7	507	centraal	centraal centrale centrales centraler centralen
+8	508	blijken	blijkt blijken gebleken bleken blijk bleke gebleekt gebleekte bleekt blijkend
+9	509	zes	zes zessen zesje
+10	510	onderwijs	onderwijs
+11	511	heerlijk	heerlijk heerlijke heerlijkste heerlijks heerlijker heerlijkers
+12	512	gek	gek gekke gekken gekker gekste geks gekkere
+13	513	onderdeel	onderdeel onderdelen onderdeeltje
+14	514	augustus	augustus aug
+15	515	site	site sites
+16	516	zin	zin zinnen zinnetje gezind zonne zint zonnen zins gezinde zinde
+17	517	dicht	dicht dichter dichte dichters dichten dichtst dichtste dichteres dichts dichtte
+18	518	ontwikkeling	ontwikkeling ontwikkelingen
+19	519	broer	broer broers broertje
+20	520	middel	middel middelen gemiddeld middels middeltje middele
+21	521	leeftijd	leeftijd leeftijden
+22	522	luisteren	luisteren luister luistert geluisterd luisterde luisterden luisterend luster
+23	523	gebouw	gebouw gebouwen gebouwtje
+24	524	bewijs	bewijs bewijzen bewezen bewijst bewees bewijzend
+25	525	wet	wet wetten wetje
+26	526	normaal	normaal normale normaalste normaler normaals normalen
+27	527	ervan	ervan
+28	528	meteen	meteen
+29	529	lief	lieve lief liefje liefste liefs liefst lieven liefie lievers liefke
+30	530	redden	redden red gered redt redde reddende geredde reddend geredden
+31	531	rest	rest resten restje restte
+32	532	liefde	liefde liefdes
+33	533	voorbeeld	voorbeeld voorbeelden voorbeeldje
+34	534	tien	tien tienen tientje tientjes
+35	535	dorp	dorp dorpen dorpje
+36	536	beschermen	beschermen beschermd beschermt beschermde bescherm beschermend beschermden bescherme
+37	537	ontstaan	ontstaan ontstond ontstaat ontstonden ontstane
+38	538	wijze	wijze wijzen wijst wijs gewezen wijzer wijzers wijzend weze wijsje
+39	539	la	la laden geladen laad lade laadt laadde laatje laadden la's
+40	540	fout	fout fouten foute foutje fouts
+41	541	toekomst	toekomst toekomsten
+42	542	teken	teken tekenen getekend tekens tekende tekent tekenden getekende tekenend teeken
+43	543	actief	actief actieve actiever actievere aktief actiefste actieven actiefst
+44	544	inwoner	inwoners inwoner inwoonster
+45	545	huidig	huidige huidig
+46	546	bron	bron bronnen born
+47	547	organiseren	georganiseerd organiseren organiseert organiseerde organiseerden organiseer organiserend
+48	548	grond	grond gronden gronde gegronde gegrond gronds
+49	549	vertrouwen	vertrouwen vertrouwde vertrouw vertrouwd vertrouwt vertrouwden vertrouwend vertrouwende vertrouwds
+50	550	leveren	leveren levert geleverd leverde lever leverden geleverde levers
+51	551	eiland	eiland eilanden eilandje
+52	552	seizoen	seizoen seizoenen
+53	553	club	club clubs clubje cluppie
+54	554	tekst	tekst teksten tekstje
+55	555	kop	kop kopje koppen kopjes koppie kopte kopt kopten koppies koppe
+56	556	bijzonder	bijzonder bijzondere bijzonders bijzonderste bijzonderder
+57	557	centrum	centrum centra centrums
+58	558	geloven	geloven gelooft geloofde geloofd geloofden gelovend gelove
+59	559	president	president presidenten presidente
+60	560	jarige	jarige jarigen
+61	561	enorm	enorm enorme
+62	562	bang	bang bange banger bangs bangst bangers
+63	563	straat	straat straten straatje
+64	564	lijst	lijst lijstje lijsten
+65	565	engels	engels engelse engelsen engelsch
+66	566	feest	feest feestje feesten gefeest feestende feestend feessie feeste
+67	567	raad	raad raden raadt rade raadde geraden ried raadden
+68	568	derde	derde derden
+69	569	vertrek	vertrek vertrekken vertrokken vertrekt vertrok vertrekkend
+70	570	geheel	geheel gehele gehelen
+71	571	succes	succes successen succesje succesjes
+72	572	steken	steken steek steekt gestoken stak staken staakt gestaakt staak steekje
+73	573	internet	internet
+74	574	oh	oh
+75	575	zichzelf	zichzelf
+76	576	voormalig	voormalige voormalig
+77	577	steun	steun steunen steunt gesteund steunde steunden gesteunde steuntje steunend steunende
+78	578	dier	dieren dier diertje diere
+79	579	meter	meter meters metertje
+80	580	keuze	keuze keuzes keus keuzen
+81	581	wens	wens wensen wenst gewenst gewenste wenste wensten wenschen wensch
+82	582	extra	extra extra's extraatje extraatjes
+83	583	basis	basis bases basissen
+84	584	baan	baan banen baantje bane baant baande gebaand baanden
+85	585	drinken	drinken dronken drink gedronken drinkt dronk drinks drinkend drinke dronke
+86	586	geloof	geloof geloofs
+87	587	alsof	alsof
+88	588	overal	overal
+89	589	waarvan	waarvan
+90	590	voeren	voeren voert gevoerd voer voerde voerden voeder
+91	591	les	les lessen lesje leste lesse lest gelest
+92	592	aanwezig	aanwezig aanwezige aanwezigen
+93	593	slag	slag slagen slaagde slaagt slaag slaagden slagje
+94	594	belang	belang belangen
+95	595	taal	taal talen tale taaltje
+96	596	hoeveel	hoeveel hoevelen hvl
+97	597	ruim	ruim ruime ruimen geruimd ruimere ruimt ruimer ruimde ruimste ruimden
+98	598	ervoor	ervoor
+99	599	bank	bank banken bankje
+100	600	bepaald	bepaald bepaalde
