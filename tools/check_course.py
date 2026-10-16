@@ -86,6 +86,9 @@ def load_list(code):
                 continue
             word, _, forms = line.rstrip("\n").partition("\t")
             key = fold(code, word.lower())
+            if key not in words:
+                print(f"warning: {extra}: '{word}' is not a headword of the list; its forms are ignored", file=sys.stderr)
+                continue
             rank, headword, known = words[key]
             added = [fold(code, form) for form in forms.split()]
             words[key] = (rank, headword, known + [f for f in added if f not in known])
