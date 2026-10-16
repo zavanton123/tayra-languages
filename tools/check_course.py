@@ -57,6 +57,9 @@ def fold(code, word):
         return word.replace("ё", "е")
     # A Greek word stressed on the third syllable from the end takes a second accent before an enclitic
     # pronoun (όνομά μου, τηλέφωνό της): the word is the one with the first accent only.
+    # Each part of a hyphenated pair keeps its own accent (άνω-κάτω, σιγά-σιγά).
+    if code == "el" and "-" in word:
+        return "-".join(fold(code, part) for part in word.split("-"))
     if code == "el" and sum(1 for c in word if c in GREEK_ACCENTED) > 1:
         last = max(i for i, c in enumerate(word) if c in GREEK_ACCENTED)
         return word[:last] + GREEK_ACCENTED[word[last]] + word[last + 1:]
