@@ -475,7 +475,7 @@ def check(path, brief=False):
             # ό,τι ("whatever") is one word written with a comma.
             text = re.sub(r"([Όό]),τι", r"\1τι", text)
             # An ordinal written with digits (19ος, 19ου, 3η) is a number.
-            text = re.sub(r"(?<=\d)(?:ος|ης|ου|ων|ους|οι|ες|ο|η|α)(?![^\W\d_])", "", text)
+            text = re.sub(r"(?<=\d)(?:ος|ός|ης|ής|ου|ού|ων|ών|ους|ούς|οι|οί|ες|ές|ο|ό|η|ή|α|ά)(?![^\W\d_])", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr"):
