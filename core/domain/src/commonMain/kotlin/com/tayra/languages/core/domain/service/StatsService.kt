@@ -8,6 +8,7 @@ import com.tayra.languages.core.domain.stats.LearningStatsRepository
 import com.tayra.languages.core.domain.stats.ChartPoint
 import com.tayra.languages.core.domain.stats.LanguageReadCounts
 import com.tayra.languages.core.domain.stats.ReadingStats
+import com.tayra.languages.core.domain.stats.StudyActivity
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
@@ -70,7 +71,14 @@ class StatsService(
         )
     }
 
-    suspend fun streak(): Int = ReadingStats.streak(wordsRead.dailyCounts().mapTo(HashSet()) { it.date }, today())
+    /** The study in the language with [languageId], named [languageName] as the words-read records name it. */
+    suspend fun studyActivity(languageId: Long, languageName: String): StudyActivity {
+        val activity = learning.activity(languageId)
+        val read = ReadingStats.byLanguage(wordsRead.dailyCounts())[languageName].orEmpty()
+        return StudyActivity.of(read, activity.reviews, activity.termsSaved, today())
+    }
+
+    suspend fun streak(): Int =ReadingStats.streak(wordsRead.dailyCounts().mapTo(HashSet()) { it.date }, today())
 
     private companion object {
         const val SAVED_WEEKS = 12
