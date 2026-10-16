@@ -151,6 +151,10 @@ def danish_tokens(text, ranks):
     return out
 
 
+GREEK_ELIDED = {"σ": "σε", "τ": "το", "μ": "με", "απ": "από", "γι": "για", "ν": "να", "θ": "θα"}
+GREEK_ELISION = re.compile(r"(?<![^\W\d_])(σ|τ|μ|απ|γι|ν|θ)['’](?=\s*[^\W\d_])", re.IGNORECASE)
+
+
 ORDINAL_ENDINGS = {"e", "er", "re", "ère", "es", "ers", "res", "ème", "èmes", "nd", "nde", "nds", "ndes"}
 FRENCH_WORD = re.compile(r"[^\W\d_]+(?:['’-][^\W\d_]+)*", re.UNICODE)
 
@@ -428,7 +432,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el") else []
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
     if code == "sr":
@@ -457,6 +461,9 @@ def check(path, brief=False):
             text = re.sub(r"\d+-tal(?:et|ets|s)?\b", " ", text)
             # Swedish joins an ending to an abbreviation with a colon (tv:n, cd:n): it counts as the abbreviation.
             text = re.sub(r"(?<=[^\W\d_]):[^\W\d_]+", "", text)
+        # Greek elides a short word before a vowel (σ' αγαπώ, τ' όνομα, απ' το): it counts as the word it stands for.
+        if code == "el":
+            text = GREEK_ELISION.sub(lambda m: GREEK_ELIDED[m.group(1).lower()] + " ", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr"):
