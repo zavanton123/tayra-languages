@@ -1,2 +1,3 @@
 # Common forms the Dutch frequency list misses; check_course.py counts them as forms of the word.
 # headword<TAB>forms
+blijken	bleek

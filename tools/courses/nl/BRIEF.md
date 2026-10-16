@@ -81,7 +81,7 @@ story; a lesson never needs another lesson to make sense.
   Vragen:
   Wat wil Lisa?
   Lisa wil een kat.
-  Waar gaat Lisa naartoe?
+  Wat doet Lisa dan?
   Ze gaat naar het asiel.
   ```
 
