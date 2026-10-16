@@ -168,5 +168,7 @@ Things to know about the Dutch list and the checker:
   *website*, *app*, *team*, *film*) are taught like any word; skip only English words that are not
   Dutch (*the*, *you*, *my*, *sorry* as English).
 - Write numbers as digits (*7 uur*, *3 kinderen*), except a number word that is in your band: spell
-  that one out to teach it (*zeven dagen*). Times as *om 7 uur* or *om 7.30 uur*; dates as *5 mei*.
+  that one out to teach it (*zeven dagen*). A number word already within the course's range
+  (*twee* 91, *drie* 176, *tien* 534) may be spelled out where Dutch prose would (*twee dagen
+  later*), which reads better in the longer texts of the higher bands. Times as *om 7 uur* or *om 7.30 uur*; dates as *5 mei*.
   The checker splits hyphenated words: *e-mail* becomes *e* + *mail*, so write *mail* or *bericht*.

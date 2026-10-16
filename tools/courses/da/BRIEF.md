@@ -170,6 +170,8 @@ Things to know about the Danish list and the checker:
   own (*computer*, *app*, *weekend*, *film*) are taught like any word; skip only English words
   that are not Danish.
 - Write numbers as digits (*7 timer*, *3 børn*), except a number word that is in your band:
-  spell that one out to teach it (*syv dage*). Times as *klokken 7* or *klokken 7.30*; dates as
+  spell that one out to teach it (*syv dage*). A number word already within the course's range
+  (*to* 80, *tre* 175, *ti* 512) may be spelled out where Danish prose would (*to dage
+  senere*), which reads better in the longer texts of the higher bands. Times as *klokken 7* or *klokken 7.30*; dates as
   *5. maj*. The checker splits hyphenated words: *e-mail* becomes *e* + *mail*, so write *mail*
   or *besked*.
