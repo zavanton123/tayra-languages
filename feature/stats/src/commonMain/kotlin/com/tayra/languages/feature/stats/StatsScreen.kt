@@ -5,7 +5,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -52,6 +51,9 @@ import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.stats.ChartPoint
 import com.tayra.languages.core.domain.stats.LanguageOverview
+import com.tayra.languages.core.domain.stats.heatLevel
+import com.tayra.languages.core.ui.components.ActivityHeatmapCard
+import com.tayra.languages.core.ui.components.shortDate
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
@@ -196,79 +198,34 @@ private fun OverviewTiles(o: LanguageOverview) {
     }
 }
 
-/** Each recent day as a square, darker the more words were read on it: a column per week from Monday, as many weeks as fit, up to a year. */
+/** The recent days, darker the more words were read on them. */
 @Composable
 private fun ActivityCard(o: LanguageOverview) {
-    val empty = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.06f)
-    // The weeks shown depend on the width, which the card's subtitle needs, so the whole card is measured first.
-    BoxWithConstraints(Modifier.fillMaxWidth()) {
-        val gap = 4.dp
-        // The card's padding takes 20 on each side.
-        val inner = maxWidth - 40.dp
-        val weeks = ((inner + gap) / (MIN_CELL + gap)).toInt().coerceIn(8, MAX_WEEKS)
-        val cell: Dp = ((inner - gap * (weeks - 1)) / weeks).coerceAtMost(MAX_CELL)
-        val thisMonday = o.today.minus(o.today.dayOfWeek.ordinal, DateTimeUnit.DAY)
-        val start = thisMonday.minus((weeks - 1) * 7, DateTimeUnit.DAY)
-        val days = o.readingDays.filterKeys { it >= start && it <= o.today }
-        val maxWords = days.values.maxOrNull() ?: 0
-        ContentCard(
-            tr("Reading activity"),
-            trPlural(days.size, "{1} day with reading since {2}", "{1} days with reading since {2}", formatCount(days.size), shortDate(start, o.today)),
-            icon = AppIcons.BarChart,
-        ) {
-            Row(Modifier.testTag("heatmap"), horizontalArrangement = Arrangement.spacedBy(gap)) {
-                repeat(weeks) { week ->
-                    Column(verticalArrangement = Arrangement.spacedBy(gap)) {
-                        repeat(7) { weekday ->
-                            val date = start.plus(week * 7 + weekday, DateTimeUnit.DAY)
-                            val words = days[date] ?: 0
-                            val color = when {
-                                date > o.today -> Color.Transparent
-                                words == 0 -> empty
-                                else -> GREEN.copy(alpha = shade(level(words, maxWords)))
-                            }
-                            Box(Modifier.size(cell).clip(RoundedCornerShape(3.dp)).background(color))
-                        }
-                    }
-                }
-            }
-            Spacer(Modifier.height(12.dp))
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text(tr("Fewer words"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                Box(Modifier.size(12.dp).clip(RoundedCornerShape(3.dp)).background(empty))
-                (1..4).forEach { Box(Modifier.size(12.dp).clip(RoundedCornerShape(3.dp)).background(GREEN.copy(alpha = shade(it)))) }
-                Text(tr("More words"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-        }
-    }
+    // Only the days shown are compared, so a busy day long ago does not make the recent ones look quiet.
+    fun shown(start: LocalDate) = o.readingDays.filterKeys { it in start..o.today }
+    ActivityHeatmapCard(
+        title = tr("Reading activity"),
+        subtitle = { start ->
+            val days = shown(start).size
+            trPlural(days, "{1} day with reading since {2}", "{1} days with reading since {2}", formatCount(days), start.shortDate(o.today))
+        },
+        today = o.today,
+        levels = { start ->
+            val days = shown(start)
+            val max = days.values.maxOrNull() ?: 0
+            days.mapValues { heatLevel(it.value, max) }
+        },
+        fewer = tr("Fewer words"),
+        more = tr("More words"),
+    )
 }
-
-private const val MAX_WEEKS = 53
-private val MIN_CELL = 14.dp
-private val MAX_CELL = 22.dp
-
-/** 1 to 4: which quarter of the busiest day's words [words] reach. */
-private fun level(words: Int, max: Int): Int = if (max <= 0) 0 else kotlin.math.ceil(4.0 * words / max).toInt().coerceIn(1, 4)
-
-private fun shade(level: Int): Float = 0.25f + 0.75f * level / 4f
-
-private val monthKeys = listOf("Jan {0}", "Feb {0}", "Mar {0}", "Apr {0}", "May {0}", "Jun {0}", "Jul {0}", "Aug {0}", "Sep {0}", "Oct {0}", "Nov {0}", "Dec {0}")
-
-/** "Oct 7", or as the interface language writes a short date. */
-private fun shortDate(date: LocalDate): String = tr(monthKeys[date.month.ordinal], date.day)
-
-private val monthYearKeys = listOf("Jan {0}, {1}", "Feb {0}, {1}", "Mar {0}, {1}", "Apr {0}, {1}", "May {0}, {1}", "Jun {0}, {1}", "Jul {0}, {1}", "Aug {0}, {1}", "Sep {0}, {1}", "Oct {0}, {1}", "Nov {0}, {1}", "Dec {0}, {1}")
-
-/** A short date, with the year when it is not [today]'s. */
-private fun shortDate(date: LocalDate, today: LocalDate): String =
-    if (date.year == today.year) shortDate(date) else tr(monthYearKeys[date.month.ordinal], date.day, date.year)
 
 @Composable
 private fun WordsPerDayCard(o: LanguageOverview, modifier: Modifier) {
     val first = o.today.minus(29, DateTimeUnit.DAY)
     val values = (0 until 30).map { o.readingDays[first.plus(it, DateTimeUnit.DAY)] ?: 0 }
     ContentCard(tr("Words read per day"), tr("The last 30 days: {0} words", formatCount(values.sum())), icon = AppIcons.MenuBook, modifier = modifier) {
-        BarChart(values, BLUE, shortDate(first), shortDate(o.today), Modifier.testTag("words-per-day"))
+        BarChart(values, BLUE, first.shortDate(), o.today.shortDate(), Modifier.testTag("words-per-day"))
     }
 }
 
@@ -276,7 +233,7 @@ private fun WordsPerDayCard(o: LanguageOverview, modifier: Modifier) {
 private fun SavedPerWeekCard(o: LanguageOverview, modifier: Modifier) {
     val firstWeekEnd = o.today.minus((o.savedByWeek.size - 1) * 7, DateTimeUnit.DAY)
     ContentCard(tr("New words saved per week"), tr("The last 12 weeks: {0} words", formatCount(o.savedByWeek.sum())), icon = AppIcons.Abc, modifier = modifier) {
-        BarChart(o.savedByWeek, ORANGE, shortDate(firstWeekEnd.minus(6, DateTimeUnit.DAY)), shortDate(o.today), Modifier.testTag("saved-per-week"))
+        BarChart(o.savedByWeek, ORANGE, firstWeekEnd.minus(6, DateTimeUnit.DAY).shortDate(), o.today.shortDate(), Modifier.testTag("saved-per-week"))
     }
 }
 
@@ -357,7 +314,7 @@ private fun FlashcardsCard(o: LanguageOverview, modifier: Modifier) {
         icon = AppIcons.DoneAll,
         modifier = modifier,
     ) {
-        BarChart(values, PURPLE, shortDate(first), shortDate(o.today), Modifier.testTag("reviews-per-day"))
+        BarChart(values, PURPLE, first.shortDate(), o.today.shortDate(), Modifier.testTag("reviews-per-day"))
     }
 }
 

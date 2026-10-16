@@ -2,6 +2,7 @@ package com.tayra.languages.core.ui.components
 
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.i18n.tr
+import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import kotlin.time.Clock
@@ -34,3 +35,13 @@ fun Instant.formatDate(timeZone: TimeZone = TimeZone.currentSystemDefault()): St
     val dt = toLocalDateTime(timeZone)
     return "${dt.year}-${dt.month.ordinal.plus(1).toString().padStart(2, '0')}-${dt.day.toString().padStart(2, '0')}"
 }
+
+private val monthKeys = listOf("Jan {0}", "Feb {0}", "Mar {0}", "Apr {0}", "May {0}", "Jun {0}", "Jul {0}", "Aug {0}", "Sep {0}", "Oct {0}", "Nov {0}", "Dec {0}")
+
+/** "Oct 7", or as the interface language writes a short date. */
+fun LocalDate.shortDate(): String = tr(monthKeys[month.ordinal], day)
+
+private val monthYearKeys = listOf("Jan {0}, {1}", "Feb {0}, {1}", "Mar {0}, {1}", "Apr {0}, {1}", "May {0}, {1}", "Jun {0}, {1}", "Jul {0}, {1}", "Aug {0}, {1}", "Sep {0}, {1}", "Oct {0}, {1}", "Nov {0}, {1}", "Dec {0}, {1}")
+
+/** A short date, with the year when it is not [today]'s. */
+fun LocalDate.shortDate(today: LocalDate): String = if (year == today.year) shortDate() else tr(monthYearKeys[month.ordinal], day, year)
