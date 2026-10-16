@@ -1,0 +1,208 @@
+{
+  "id": "sv-mini-0300",
+  "rankUpTo": 300,
+  "level": "A1",
+  "title": "Mat och att handla",
+  "description": "Ten short stories about going to the shop, eating out, school food, saving money, a first job, a team dinner, a film night, a birthday, finding a shop in a new town and selling cakes.",
+  "topic": "Food and shopping",
+  "names": [
+    "Emma",
+    "ICA",
+    "Coop",
+    "Oskar",
+    "Sara",
+    "Ali",
+    "Bella Italia",
+    "Liam",
+    "Noah",
+    "Lund",
+    "Sverige",
+    "Maja",
+    "Jonas",
+    "Lena",
+    "Elin",
+    "Elins",
+    "Karin",
+    "Ella",
+    "Leo",
+    "Berg",
+    "Greta",
+    "Gretas",
+    "Lars",
+    "Sofia",
+    "Lisa",
+    "Umeå",
+    "Alva",
+    "Hugo"
+  ],
+  "lessons": [
+    {
+      "title": "Emma handlar",
+      "summary": "Emma walks to the shop near her home, finds no coffee left and drives to a bigger shop far away.",
+      "newWords": [
+        "handla",
+        "nära",
+        "långt",
+        "väg",
+        "hemma",
+        "först",
+        "bil",
+        "kvar",
+        "ur",
+        "ställa"
+      ],
+      "text": "I dag vill Emma handla. Hon är hemma och tänker först. Vad behöver hon? Hon behöver mjölk och kaffe.\n\nDet finns en liten ICA nära Emma. Det finns också en stor Coop. Den ligger långt bort.\n\nEmma har en bil. Men ICA ligger nära, så hon tar inte bilen. Först går hon till ICA. Hon går på en liten väg. Det är inte långt.\n\nPå ICA tar Emma först mjölk. Sedan vill hon ta kaffe. Men det finns inget kaffe kvar! Hon frågar en man.\n”Nej, vi har inget kaffe kvar i dag”, säger mannen.\n\nEmma går hem igen och ställer in mjölken. Sedan tar hon bilen. Det är långt till Coop, så nu kör hon. Hon kör på den stora vägen.\n\nPå Coop finns det mycket kaffe kvar. Emma köper kaffe och åker hem.\n\nHemma ställer hon bilen vid vägen. Hon tar kaffet ur bilen. Nu har Emma allt hon behöver.\n\nFrågor:\nVad vill Emma göra i dag?\nEmma vill handla.\nVar ligger ICA?\nICA ligger nära Emma.\nVar ligger Coop?\nCoop ligger långt bort.\nFinns det kaffe kvar på ICA?\nNej, det finns inget kaffe kvar på ICA.\nHur åker Emma till Coop?\nHon tar bilen, för det är långt.\nVad tar Emma ur bilen?\nHon tar kaffet ur bilen."
+    },
+    {
+      "title": "Middag ute",
+      "summary": "Three friends eat out in the evening, pay per person, and Sara pays for Oskar.",
+      "newWords": [
+        "ute",
+        "vän",
+        "träffa",
+        "kväll",
+        "äta",
+        "tre",
+        "per",
+        "betala",
+        "pengar",
+        "både"
+      ],
+      "text": "I kväll träffar Oskar sina vänner Sara och Ali. De är tre vänner. De vill äta ute.\n\nOskar träffar Sara och Ali i stan. De går till Bella Italia. De sitter ute.\n\nOskar äter pizza. Sara äter pasta. Ali äter både pizza och pasta! De äter och pratar länge. Det är en bra kväll.\n\nSedan vill de betala.\n”Det blir 360 för alla tre”, säger en man. ”Det är 120 per person.”\n\nSara betalar 120. Ali betalar 120. Men Oskar har inga pengar med sig!\n\n”Jag kan betala för dig i kväll”, säger Sara. Hon betalar både för sig själv och för Oskar.\n”Tack, Sara!” säger Oskar. ”Du är en bra vän. Jag betalar tillbaka sen.”\n\nFrågor:\nVem träffar Oskar i kväll?\nOskar träffar sina vänner Sara och Ali.\nVar sitter de tre vännerna?\nDe sitter ute.\nVad äter Ali?\nAli äter både pizza och pasta.\nHur mycket blir det per person?\nDet blir 120 per person.\nHar Oskar pengar med sig?\nNej, Oskar har inga pengar med sig.\nVem betalar för Oskar?\nSara betalar för Oskar."
+    },
+    {
+      "title": "Maten i skolan",
+      "summary": "Liam and his friend Noah eat at school, where the municipality pays, and they like different food.",
+      "newWords": [
+        "skola",
+        "kommun",
+        "ung",
+        "vanlig",
+        "enligt",
+        "ibland",
+        "ofta",
+        "därför",
+        "eftersom",
+        "lika"
+      ],
+      "text": "Liam är 9 år. Han går i skolan i Lund. I skolan äter alla barn varje dag.\n\nI Sverige betalar barnen inte för maten i skolan. Det gör kommunen. Kommunen betalar för alla barn i skolan.\n\nDe yngre barnen äter först. De äldre barnen äter sedan. Liam är en av de yngre barnen. Därför äter han först.\n\nI dag är en vanlig dag. Det finns fisk. Liam äter ofta fisk i skolan. Ibland finns det pasta. Ibland finns det något annat.\n\nLiam sitter med sin vän Noah. Noah är lika gammal som Liam. Noah tycker inte om fisk. Han äter inte mycket i dag, eftersom det är fisk.\n\n”Enligt mig är pasta bäst”, säger Noah.\n”Enligt mig är fisk och pasta lika bra”, säger Liam.\n\nLiam äter mycket i dag, eftersom han tycker om allt. Det är en vanlig dag i skolan.\n\nFrågor:\nHur gammal är Liam?\nLiam är 9 år.\nVem betalar för maten i skolan?\nKommunen betalar för alla barn i skolan.\nÄter Liam ofta pasta?\nNej, men ibland finns det pasta.\nVarför äter Liam först?\nLiam är en av de yngre barnen. Därför äter han först.\nVad är bäst enligt Noah?\nEnligt Noah är pasta bäst."
+    },
+    {
+      "title": "Sista dagen i månaden",
+      "summary": "At the end of the month Maja has little money left and buys pasta on a three-for-two offer instead of coffee.",
+      "newWords": [
+        "gälla",
+        "viss",
+        "låg",
+        "nästan",
+        "sista",
+        "månad",
+        "istället",
+        "snart",
+        "nästa",
+        "kolla"
+      ],
+      "text": "Det är den sista dagen i månaden. Maja har nästan inga pengar kvar. Hon får nya pengar snart, men först nästa månad.\n\nMaja kollar vad hon har hemma. Hon har nästan inget. Hon måste handla.\n\nPå ICA står det: ”Köp 3, betala för 2.” Det gäller bara vissa saker. Och det gäller bara i dag, den sista dagen i månaden.\n\nMaja kollar vilka saker det gäller. Det gäller pasta. Den har ett lågt pris i dag. Men kaffet har inte ett lågt pris.\n\nMaja vill ha kaffe. Men hon köper inget kaffe i dag. Istället köper hon pasta. Hon tar tre och betalar bara för två.\n\nNu har Maja pasta för nästan hela månaden. Snart är det nästa månad. Då kan hon köpa mer.\n\nFrågor:\nVilken dag är det?\nDet är den sista dagen i månaden.\nHar Maja mycket pengar kvar?\nNej, hon har nästan inga pengar kvar.\nVad gäller i dag på ICA?\n”Köp 3, betala för 2” gäller vissa saker i dag.\nKöper Maja kaffe?\nNej, hon köper pasta istället.\nNär får Maja nya pengar?\nHon får nya pengar snart, nästa månad."
+    },
+    {
+      "title": "Jonas söker jobb",
+      "summary": "Jonas applies for a job at a supermarket, waits for an answer and manages his first four hours well.",
+      "newWords": [
+        "söka",
+        "kille",
+        "skicka",
+        "namn",
+        "hoppas",
+        "vänta",
+        "svårt",
+        "lätt",
+        "klara",
+        "timme"
+      ],
+      "text": "Jonas är en kille på 17 år. Han vill ha ett jobb. Han söker jobb på ICA nära sitt hem.\n\nDet är inte lätt att få ett jobb. Många unga killar och tjejer söker jobb på ICA.\n\nJonas skriver sitt namn. Sedan skriver han lite om sig själv. Han skickar det till ICA. Nu måste han vänta.\n\nJonas väntar en dag. Han väntar två dagar. Han hoppas på ett ja. Det är svårt att vänta.\n\nEfter två dagar skriver en kvinna från ICA till Jonas. Kvinnans namn är Lena.\n”Hej Jonas! Kan du jobba 4 timmar på ICA i kväll?”\n”Ja!” skriver Jonas.\n\nDen första timmen är det svårt för Jonas. Han vet inte var allt ligger. Men Lena visar honom. Sedan blir det lätt.\n\nEfter 4 timmar säger Lena: ”Du klarar jobbet bra, Jonas.”\n”Tack!” säger Jonas. Han hoppas att han får jobba där igen. Han tror att han klarar det.\n\nFrågor:\nVad söker Jonas?\nJonas söker jobb på ICA.\nVad skickar Jonas till ICA?\nHan skickar sitt namn och lite om sig själv.\nVad gör Jonas sedan?\nHan väntar och hoppas på ett ja.\nVad är kvinnans namn?\nKvinnans namn är Lena.\nHur många timmar jobbar Jonas?\nHan jobbar 4 timmar.\nKlarar Jonas jobbet?\nJa, Jonas klarar jobbet bra."
+    },
+    {
+      "title": "Laget äter pizza",
+      "summary": "Elin's girls' football team beats another team and goes out for pizza together.",
+      "newWords": [
+        "lag",
+        "slå",
+        "tjej",
+        "rolig",
+        "kul",
+        "hända",
+        "verka",
+        "fortfarande",
+        "alltså",
+        "fall"
+      ],
+      "text": "Elin är 12 år. Hon spelar fotboll i ett lag. Det är ett lag med bara tjejer. I dag spelar Elins lag mot ett annat lag.\n\nDet andra laget verkar bra. Tjejerna där verkar stora. Men Elins lag spelar bra i dag. De slår det andra laget med 3–1. Det andra laget spelar i alla fall bra. Elins lag är alltså bäst i dag.\n\n”Vi slår dem!” säger en tjej. ”Vad händer nu?”\n”Nu går vi och äter pizza”, säger Elin. ”Det är kul!”\n\nLaget går och äter pizza. Tjejerna pratar fortfarande om spelet. De pratar och pratar.\n\n”Vi slår alltså ett stort lag i dag”, säger Elin.\n”Ja, det är roligt”, säger en annan tjej.\n\nVissa tjejer vill gå hem. Men de stannar i alla fall. Det är kul att äta med laget. Det är en rolig dag.\n\nFrågor:\nVem spelar Elin med?\nElin spelar med ett lag med bara tjejer.\nHur verkar det andra laget?\nDet andra laget verkar bra.\nVad händer i dag?\nElins lag slår det andra laget med 3–1.\nVad gör laget sedan?\nLaget går och äter pizza.\nVad pratar tjejerna fortfarande om?\nDe pratar fortfarande om spelet.\nÄr det kul?\nJa, det är kul att äta med laget."
+    },
+    {
+      "title": "Film och pizza",
+      "summary": "Karin and her two children watch a funny film with pizza and sweets, and Leo eats too much.",
+      "newWords": [
+        "familj",
+        "mamma",
+        "film",
+        "titta",
+        "deras",
+        "älska",
+        "typ",
+        "enda",
+        "må",
+        "klart"
+      ],
+      "text": "I kväll vill familjen Berg titta på film. Familjen är mamma Karin och två barn, Ella och Leo. Deras pappa jobbar i kväll.\n\n”Vilken typ av film vill ni se?” frågar mamma.\n”En rolig film!” säger Ella.\n”Ja, klart!” säger Leo. Han älskar roliga filmer.\n\n”Vill ni ha pizza?” frågar mamma.\n”Ja, klart!” säger barnen.\n\nMamma köper pizza och godis. Barnen älskar pizza. Hela familjen sitter och tittar på filmen. De äter pizza.\n\nEfter pizzan äter Leo mycket godis. Sedan mår han inte bra.\n”Hur mår du, Leo?” frågar mamma.\n”Inte så bra”, säger Leo.\n\nLeo tittar inte på filmen nu. Men snart mår han bra igen.\n\nElla vill se en film till.\n”Nej”, säger mamma. ”Det är vår enda film i kväll.”\n”Okej”, säger Ella.\n\nBarnen tycker att det är en bra kväll. De älskar att titta på film med sin mamma.\n\nFrågor:\nVad vill familjen göra i kväll?\nFamiljen vill titta på film.\nVem är i familjen?\nFamiljen är mamma Karin och två barn, Ella och Leo.\nVilken typ av film vill barnen se?\nDe vill se en rolig film.\nHur mår Leo efter godiset?\nLeo mår inte bra.\nFår Ella se en film till?\nNej, det är deras enda film i kväll."
+    },
+    {
+      "title": "Greta är 90 år",
+      "summary": "The whole family meets at Greta's home for her 90th birthday, with coffee, a speech and a song.",
+      "newWords": [
+        "tal",
+        "ord",
+        "hos",
+        "ännu",
+        "lång",
+        "leva",
+        "tala",
+        "bland",
+        "samt",
+        "låt"
+      ],
+      "text": "I dag är Greta 90 år. Hela familjen är hos Greta. Bland dem finns Gretas barn och deras barn.\n\nGreta är gammal, men hon kör ännu bil. Hon handlar ännu själv varje vecka.\n\nHos Greta finns det kaffe samt kakor.\n\nSedan håller Lars ett tal. Lars är ett av Gretas barn. Han talar länge. Talet tar lång tid.\n\nI talet säger Lars många bra ord. ”Mamma, du lever ett långt och bra liv”, säger han. ”Vi älskar dig.”\n\nBland barnen finns Sofia. Hon är 6 år. Sofia spelar en låt för Greta. Det är Gretas bästa låt.\n\nSedan talar Greta. Hon säger bara några få ord: ”Tack, alla! Jag lever ett bra liv. Jag har en fin familj.”\n\nDet är en lång dag för Greta. Men det är en bra dag.\n\nFrågor:\nHur gammal är Greta i dag?\nGreta är 90 år i dag.\nVar är familjen?\nHela familjen är hos Greta.\nVad finns det hos Greta?\nDet finns kaffe samt kakor.\nVem håller ett tal?\nLars håller ett tal. Talet tar lång tid.\nÄr det en lång dag för Greta?\nJa, det är en lång dag för Greta.\nVad gör Sofia?\nSofia spelar en låt för Greta.\nVad säger Greta?\nHon säger bara några få ord."
+    },
+    {
+      "title": "Lisa är ny i stan",
+      "summary": "Lisa is new in town, cannot find a shop, and a police officer helps her find the way.",
+      "newWords": [
+        "polis",
+        "hjälpa",
+        "hjälp",
+        "tidigt",
+        "dålig",
+        "faktiskt",
+        "fast",
+        "grund",
+        "fortsätta",
+        "stad"
+      ],
+      "text": "Lisa är ny i stan. Hon kommer från Umeå. Stan är stor, och Lisa är dålig på att hitta.\n\nI dag vill hon handla tidigt. Hon går ut tidigt. Det finns en ICA nära, men den har problem i dag. På grund av det kan Lisa inte handla där.\n\nLisa går och går. Hon hittar inte en annan ICA. Det blir bara värre.\n\nDå ser hon en polis. ”Hej! Kan du hjälpa mig?” frågar hon. ”Jag vill handla. Var finns det en ICA?”\n\nPolisen har mycket att göra, fast han har tid för Lisa.\n”Ja, klart jag kan hjälpa dig”, säger polisen. ”Fortsätt på den här vägen. Där ser du en ICA. Det är faktiskt inte långt.”\n\nLisa fortsätter på vägen. Det är faktiskt nära. ”Tack för hjälpen!” säger hon.\n\nNu kan Lisa handla. Hon är trött, fast glad. Hon tycker om den nya stan.\n\nFrågor:\nVar kommer Lisa från?\nLisa kommer från Umeå.\nVarför kan Lisa inte handla på ICA nära henne?\nPå grund av ett problem kan hon inte handla där.\nVem frågar Lisa om hjälp?\nHon frågar en polis om hjälp.\nVad säger polisen?\nPolisen säger: ”Fortsätt på den här vägen.”\nÄr det långt?\nNej, det är faktiskt nära."
+    },
+    {
+      "title": "Alva och Hugo säljer kakor",
+      "summary": "Two children build a small stand by the road, sell cakes all day and go home with the money.",
+      "newWords": [
+        "bygga",
+        "skapa",
+        "sida",
+        "plats",
+        "runt",
+        "ganska",
+        "lämna",
+        "fin"
+      ],
+      "text": "Alva och Hugo bor på landet. De vill skapa en egen liten affär. Där kan folk köpa kakor.\n\nFörst söker de en bra plats. De tittar runt. Vid vägen finns det en fin plats. Det bor många människor runt platsen.\n\nSedan bygger de affären. Det är ganska svårt att bygga, men de klarar det. Hugo bygger ett litet bord. Alva gör en bild med orden ”Fina kakor!”\n\nDeras mamma hjälper dem med kakorna. Alva och Hugo ställer dem på bordet.\n\nEn kvinna från andra sidan vägen kommer och köper två kakor. Sedan kommer en man i bil. Ganska många människor kommer.\n\nAlva och Hugo lämnar inte platsen hela dagen. På kvällen har de inga kakor kvar. De lämnar platsen och går hem med mycket pengar.\n\n”Det är kul att skapa en egen affär”, säger Alva.\n”Ja, och att bygga den”, säger Hugo.\n\nFrågor:\nVad vill Alva och Hugo skapa?\nDe vill skapa en egen liten affär.\nVar finns den fina platsen?\nDen fina platsen finns vid vägen.\nVem kommer från andra sidan vägen?\nEn kvinna från andra sidan vägen kommer.\nVad bygger Hugo?\nHugo bygger ett litet bord.\nNär lämnar de platsen?\nDe lämnar platsen på kvällen."
+    }
+  ]
+}
