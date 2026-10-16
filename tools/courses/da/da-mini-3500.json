@@ -1,0 +1,215 @@
+{
+  "id": "da-mini-3500",
+  "rankUpTo": 3500,
+  "level": "B2",
+  "title": "Teknologi og samfund",
+  "description": "Ten standalone stories, diary entries, letters and columns about how technology changes everyday life in Danish society.",
+  "topic": "Technology and society",
+  "names": [
+    "Birthe",
+    "Birthes",
+    "Line",
+    "Lines",
+    "Aarhus",
+    "Jonas",
+    "Amira",
+    "Amiras",
+    "Erik",
+    "Eriks",
+    "Susanne",
+    "Niels",
+    "Vestjylland",
+    "Mikkel",
+    "Mikkels",
+    "Ali",
+    "Fyn",
+    "Sofie",
+    "Sofies",
+    "Canada",
+    "Odense",
+    "Freja",
+    "Frejas",
+    "Maja",
+    "Majas",
+    "Torben",
+    "Poul",
+    "Pouls",
+    "Oscar",
+    "Oscars",
+    "København",
+    "London",
+    "Kim",
+    "Kims",
+    "Karen",
+    "Karens",
+    "Danmark"
+  ],
+  "lessons": [
+    {
+      "title": "Kroen ved fjorden",
+      "summary": "An innkeeper's daughter builds a website for her mother's old inn by the fjord, and more guests come.",
+      "newWords": [
+        "kro",
+        "fjord",
+        "website",
+        "menu",
+        "salat",
+        "kontant",
+        "moms",
+        "mexicansk",
+        "indkomst",
+        "sidstnævnte"
+      ],
+      "text": "Birthe havde drevet den gamle kro ved fjorden i næsten tyve år. Kroen lå for enden af en smal vej, og fra vinduerne kunne gæsterne se ud over det blanke, stille vand. Om sommeren var der fuldt hus hver aften. Om vinteren var kroen derimod ofte næsten tom, og indkomsten var så lille, at Birthe nogle måneder knap kunne betale sine regninger.\n\nEn weekend i januar kom hendes datter, Line, hjem på besøg. Line arbejdede med computere i Aarhus, og hun så straks problemet. »Mor, kroen findes jo ikke på nettet,« sagde hun. »Når folk søger efter et sted at spise ved fjorden, finder de alle de andre steder, men aldrig dit.« Hun foreslog to ting: et website og en ny ret på menuen. Birthe syntes, at det sidstnævnte lød sjovt, men hun var i tvivl om det første.\n\nBirthe havde aldrig haft brug for et website. Hendes gæster havde altid fundet vej til kroen, fordi de havde hørt om den fra venner. Line mente imidlertid, at tiderne havde ændret sig. Så snart de havde spist, åbnede hun sin computer og begyndte at bygge et website til kroen.\n\nFørst tog hun billeder. Hun fotograferede den gamle stue med de lave lofter, udsigten over fjorden i det klare lys om morgenen og maden på de hvide tallerkener. Derefter skrev hun menuen ind. Kroens menu var kort: en suppe, to slags fisk, en steg og en stor salat med kylling. Den nye ret blev en mexicansk salat med bønner, ost og stærk chili, som de unge gæster nok ville kunne lide.\n\nTil sidst ville Line gøre det muligt at betale på forhånd. Birthe var vant til, at gæsterne betalte kontant, og hun gemte sedlerne i en gammel kasse i køkkenet. »Næsten ingen betaler kontant længere,« sagde Line. På det nye website kunne gæsterne bestille bord og betale med kort, og prisen blev vist både med og uden moms. Så kunne de firmaer, der holdt møder på kroen, nemt se, hvor meget moms de havde betalt.\n\nEt par uger senere var websitet klar. I begyndelsen skete der ikke meget. Men jo flere gæster der skrev pæne ord om kroen på nettet, desto flere nye gæster kom der. Den mexicanske salat blev hurtigt den mest bestilte ret på hele menuen.\n\nDa foråret kom, så Birthe på sine regnskaber. Hun kunne se to ting: Indkomsten var steget, og der lå næsten ingen sedler i kassen. Det sidstnævnte gjorde hende lidt trist, men det første gjorde hende meget glad.\n\nSpørgsmål:\nHvorfor var vinteren svær for Birthe?\nOm vinteren var kroen ofte næsten tom, og indkomsten var meget lille.\nHvad mente Line om kroen og nettet?\nHun mente, at kroen ikke fandtes på nettet, og at folk derfor ikke kunne finde den.\nHvilken ny ret kom der på menuen?\nDer kom en mexicansk salat med bønner, ost og stærk chili på menuen.\nHvordan betalte gæsterne før, og hvordan betaler de nu?\nFør betalte de kontant, men nu betaler de fleste med kort på kroens website.\nHvad viste regnskaberne om foråret?\nDe viste, at indkomsten var steget, og at der næsten ingen sedler lå i kassen."
+    },
+    {
+      "title": "Billedet fra borgerkrigen",
+      "summary": "A newspaper editor receives a striking photo from a civil war and, with a colleague's help, finds that it was made with artificial intelligence.",
+      "newWords": [
+        "redaktør",
+        "intelligens",
+        "borgerkrig",
+        "oprører",
+        "manipulere",
+        "citere",
+        "neutral",
+        "eksemplar",
+        "anmodning",
+        "beskylde"
+      ],
+      "text": "Hver morgen klokken 7 sad Jonas ved sit skrivebord på avisen. Han var redaktør for avisens sider om udlandet, og det var hans job at vælge, hvilke historier fra resten af verden læserne skulle se. I flere måneder havde der været borgerkrig i et land langt mod øst, og næsten hver dag kom der nye nyheder om kampene mellem hæren og oprørerne.\n\nDenne morgen lå der en mail fra en ukendt fotograf. I mailen var der et billede og en kort anmodning: »Jeg vil gerne have, at jeres avis bringer dette billede.« Billedet var stærkt. Det viste en gruppe oprørere foran en brændende skole. Fotografen beskyldte i sin mail oprørerne for selv at have sat ild til skolen.\n\nJonas så længe på billedet. Noget var forkert. Lyset faldt underligt på ansigterne, og en af mændene havde seks fingre på den ene hånd. Han kaldte på sin kollega, Amira, som var ekspert i billeder.\n\n»Jeg tror, at billedet er lavet med kunstig intelligens,« sagde Amira efter et par minutter. »Det er blevet meget nemt. Man skriver nogle få ord, og så laver programmet et billede, der ligner et rigtigt foto.« Hun forklarede, at nogen sikkert prøvede at manipulere avisens læsere. Hvis avisen bragte billedet, ville tusindvis af mennesker tro, at oprørerne havde brændt skolen. Ifølge Amira prøver begge sider i en borgerkrig at manipulere med billeder og ord, og kunstig intelligens gør det lettere end nogensinde.\n\nJonas svarede ikke på fotografens anmodning. I stedet skrev han en artikel om selve billedet. Han ville være neutral, fordi en avis ikke skal tage parti i en borgerkrig. Han beskyldte hverken hæren eller oprørerne for at have lavet billedet. Han skrev kun, hvad Amira havde fundet, og han citerede hende flere steder i artiklen: »Man skal altid se to gange på et billede, før man deler det.« Senere samme dag citerede to andre aviser artiklen.\n\nNæste morgen blev avisen trykt i over 50.000 eksemplarer. Jonas tog et eksemplar med hjem til sin far, der havde læst avisen hver dag hele sit voksne liv. Faderen læste artiklen to gange. »Før i tiden kunne man tro på et billede,« sagde han stille. »Det kan man ikke længere,« svarede Jonas. »Derfor er det vigtigere end nogensinde, at der er nogen, som tjekker det. En avis skal være neutral, men den skal ikke være naiv.«\n\nSpørgsmål:\nHvad var Jonas' arbejde på avisen?\nHan var redaktør for avisens sider om udlandet.\nHvad viste billedet i mailen?\nDet viste en gruppe oprørere foran en brændende skole.\nHvorfor troede Amira, at billedet var falsk?\nLyset faldt underligt, og en af mændene havde seks fingre, så hun troede, at billedet var lavet med kunstig intelligens.\nHvorfor ville Jonas være neutral i artiklen?\nHan ville være neutral, fordi en avis ikke skal tage parti i en borgerkrig.\nHvad sagde Jonas' far, da han havde læst artiklen?\nHan sagde, at man før i tiden kunne tro på et billede."
+    },
+    {
+      "title": "Appen i lommen",
+      "summary": "An old man with a bad cough gets a medicine app from his daughter, and it soon becomes part of his morning routine.",
+      "newWords": [
+        "hoste",
+        "bivirkning",
+        "svække",
+        "hyppig",
+        "rækkefølge",
+        "opløse",
+        "frakke",
+        "bænk",
+        "lind",
+        "rutine"
+      ],
+      "text": "Erik var 81 år og havde boet alene, siden hans kone døde. Hver morgen fulgte han den samme rutine. Han tog sin lange grå frakke på, gik ned til parken og satte sig på den samme bænk under den store gamle lind. Der sad han en halv time, så på fuglene og lyttede til vinden i lindens blade, før han gik hjem og drak kaffe.\n\nMen i november begyndte han at hoste. Først var det kun lidt om morgenen, men snart blev hosten mere hyppig, og om natten hostede han så meget, at han ikke kunne sove. Hans datter, Susanne, fik ham til at gå til lægen. Lægen lyttede til hans lunger og gav ham to slags medicin: nogle små hvide piller og en pille, der skulle opløses i et glas vand.\n\n»Rækkefølgen er vigtig,« sagde lægen. »Først de hvide piller, og en time senere den anden. Ellers virker de ikke ordentligt.« Hun fortalte også om mulige bivirkninger. De hvide piller kunne gøre ham træt, og hvis han tog for mange, kunne de svække hans mave.\n\nErik var bange for at glemme det hele. Susanne installerede derfor en app på hans mobil. Appen gav lyd fra sig, så snart han skulle tage sin medicin, og den viste med store bogstaver, hvad han skulle tage, og i hvilken rækkefølge. Hvis han mærkede en bivirkning, kunne han trykke på en knap og skrive det ind, så lægen kunne se det.\n\nDe første dage var Erik irriteret på den lille telefon, der hele tiden gav lyd fra sig. Men efter en uge var appen blevet en del af hans rutine. Klokken 8 tog han de hvide piller. Klokken 9 kom han den anden pille i et glas vand og så den opløse sig, mens han drak sin kaffe. Derefter tog han frakken på og gik ned til bænken.\n\nJo længere tid der gik, desto mindre hostede han. Hosten var ikke længere så hyppig, og om natten sov han igen godt. Den eneste bivirkning, han mærkede, var, at han blev lidt træt om eftermiddagen. Sygdommen havde svækket ham, men nu blev han stærkere for hver dag.\n\nEn kold morgen i december sad han igen på bænken under linden i sin varme frakke. Telefonen gav lyd fra sig i lommen. Erik smilede. Han havde allerede taget sine piller.\n\nSpørgsmål:\nHvad var Eriks rutine hver morgen?\nHan tog sin frakke på, gik ned til parken og satte sig på bænken under linden.\nHvorfor gik Erik til lægen?\nHan hostede så meget, at han ikke kunne sove om natten.\nHvorfor var rækkefølgen vigtig?\nMedicinen virkede ikke ordentligt, hvis han ikke tog den i den rigtige rækkefølge.\nHvordan hjalp appen Erik?\nDen gav lyd fra sig, så snart han skulle tage medicin, og viste, hvad han skulle tage, og i hvilken rækkefølge.\nHvilken bivirkning mærkede Erik?\nHan blev lidt træt om eftermiddagen."
+    },
+    {
+      "title": "Traktoren, der kører selv",
+      "summary": "A farmer in West Jutland buys a self-driving tractor, and his sceptical father comes to see it.",
+      "newWords": [
+        "landmand",
+        "slagte",
+        "kørsel",
+        "rat",
+        "bredde",
+        "jævne",
+        "opdele",
+        "sved",
+        "flue",
+        "barsk"
+      ],
+      "text": "Niels var landmand ligesom sin far og sin farfar. Gården lå i Vestjylland, hvor vinden er barsk, og hvor vintrene kan være lange og barske. Som dreng havde Niels hjulpet sin far i marken fra tidlig morgen til sen aften. Han huskede de varme dage om sommeren, hvor sveden løb ned ad ryggen, og fluerne fløj omkring hovedet på ham, mens han sad bag rattet i den gamle traktor. Han huskede også, at hans far hvert år før jul slagtede en gris, som familien spiste af hele vinteren.\n\nNu var det Niels, der ejede gården, og meget var anderledes. Han slagtede ikke længere selv. Og i foråret havde han købt en ny traktor, der kunne køre af sig selv.\n\nDen første morgen stod han længe og så på maskinen. Traktoren havde stadig et rat, men han behøvede ikke at røre det. Først målte han markens længde og bredde med en app på sin mobil. Derefter opdelte han marken i lange, lige striber, hver på samme bredde som maskinen. Han opdelte den så omhyggeligt, at ingen stribe var bredere end de andre. Så trykkede han på en knap, og traktoren begyndte sin kørsel over marken, stribe for stribe.\n\nNiels sad i traktoren med hænderne i skødet. Rattet drejede, uden at han rørte det. Kørslen var helt jævn, og striberne blev mere lige, end han nogensinde selv havde kunnet lave dem. Traktoren vidste præcis, hvor den havde været, så den hverken sprang et stykke over eller kørte to gange samme sted. Det sparede både brændstof og tid.\n\nOm aftenen ringede han til sin far, som nu boede i et lille hus i byen. Den gamle mand var ikke begejstret. »En landmand skal mærke jorden,« sagde han. »Han skal mærke sveden og vinden.« Niels forstod ham godt. Men han fortalte også, at han nu havde tid til at hente sine børn fra skole og spise aftensmad med dem, i stedet for at sidde på marken til klokken 10 om aftenen.\n\nNæste dag kom faderen ud på gården. Han satte sig ved siden af sin søn og så rattet dreje helt af sig selv. Han sagde ikke meget. Men da de kom tilbage til gården, sagde han: »Jorden er stadig jævn og god. Og fluerne er her stadig.« Så smilede han.\n\nSpørgsmål:\nHvordan er vejret i Vestjylland?\nVinden er barsk, og vintrene kan være lange og barske.\nHvad huskede Niels fra sin barndom?\nHan huskede sveden, fluerne og at han sad bag rattet i den gamle traktor.\nHvordan forberedte Niels traktorens kørsel?\nHan målte markens længde og bredde og opdelte marken i lange, lige striber.\nHvad var godt ved den nye traktor?\nKørslen var jævn, striberne blev lige, og den sparede både brændstof og tid.\nHvorfor var Niels glad for at have mere tid?\nHan kunne hente sine børn fra skole og spise aftensmad med dem."
+    },
+    {
+      "title": "Dagbog fra messen",
+      "summary": "In a diary entry, a young entrepreneur describes his first day at a big technology fair.",
+      "newWords": [
+        "messe",
+        "innovation",
+        "raket",
+        "dimension",
+        "tingest",
+        "iværksætter",
+        "kompetence",
+        "højdepunkt",
+        "konkurrere",
+        "variant"
+      ],
+      "text": "Fredag den 14. marts\n\nI dag var jeg for første gang på en stor messe som iværksætter. Jeg havde glædet mig i flere uger, men jeg havde også været nervøs. Min lille virksomhed består kun af mig og min ven Ali, og vi har kun ét produkt: et program, der viser huse og ting i tre dimensioner, så man kan gå rundt i dem med et par særlige briller på.\n\nHallen var enorm. Der var over 300 stande, og alle konkurrerede om gæsternes opmærksomhed. Nogle virksomheder havde store skærme og høj musik, andre gav gratis kaffe og kage. Vores stand var et lille hvidt bord helt nede i hjørnet, og jeg var bange for, at ingen ville finde os.\n\nOm morgenen kom der kun få mennesker forbi. En ældre mand tog brillerne op og vendte dem i hånden. »Hvad er det for en tingest?« spurgte han. Jeg forklarede, hvad den lille tingest kunne. Han sagde tak og gik videre.\n\nOmkring klokken 12 kom dagens højdepunkt. En klasse fra en skole kom forbi, og deres lærer spurgte, om eleverne måtte prøve. Ali foreslog, at de skulle tegne en raket. Eleverne tegnede selv raketten på min computer. Den havde kun to dimensioner på skærmen, men da de tog brillerne på, stod raketten pludselig foran dem i tre dimensioner, og de kunne gå rundt om den. Børnene råbte af glæde.\n\nSå snart de var gået, kom der flere mennesker hen til vores bord. Det var, som om hele messen pludselig havde fået øje på os. En kvinde fra en stor virksomhed spurgte, om vi kunne lave en variant af programmet til hospitaler, så lægerne kunne se kroppen i tre dimensioner. Det kan vi ikke endnu, men hun gav mig sit kort og sagde, at hun ledte efter folk med vores kompetencer.\n\nDet slog mig i dag, hvor mange virksomheder der taler om innovation. Ordet stod på næsten alle skilte i hallen. Men for mig handler innovation ikke om store ord. Det handler om at lave noget, som folk kan bruge. Vi kan ikke konkurrere med de store firmaer på penge eller musik, men vi kan godt konkurrere på idéer.\n\nI aften er jeg træt, men glad. Det er hårdt at være iværksætter, og der er mange dage, hvor intet lykkes. Men en dag som i dag på messen gør det hele værd. Jo mere jeg tænker over dagen, desto mere sikker er jeg på, at vi skal udvikle den nye variant. Vi mangler stadig nogle kompetencer, især når det gælder kroppen og medicin, så måske skal vi finde en tredje person. Men dagens højdepunkt var ikke kvindens kort. Det var de glade børn og deres lille raket.\n\nMikkel\n\nSpørgsmål:\nHvem består Mikkels virksomhed af?\nDen består kun af Mikkel og hans ven Ali.\nHvad kan deres program?\nDet viser huse og ting i tre dimensioner, så man kan gå rundt i dem med særlige briller.\nHvad var dagens højdepunkt?\nDagens højdepunkt var, da eleverne tegnede en raket og så den i tre dimensioner.\nHvad spurgte kvinden fra den store virksomhed om?\nHun spurgte, om de kunne lave en variant af programmet til hospitaler.\nHvad betyder innovation for Mikkel?\nFor Mikkel handler innovation om at lave noget, som folk kan bruge."
+    },
+    {
+      "title": "Auktionen fra paladset",
+      "summary": "An old count sells things from his palace in an online auction before handing the palace over to a foundation.",
+      "newWords": [
+        "auktion",
+        "palads",
+        "greve",
+        "smykker",
+        "overdrage",
+        "efterlyse",
+        "beskadige",
+        "shop",
+        "svend"
+      ],
+      "text": "I et gammelt palads på Fyn havde den samme familie boet i over 300 år. Den sidste greve var en venlig mand på 78 år. Han havde ikke selv børn, og han havde besluttet at overdrage paladset til en fond, som ville åbne det for alle. Før han overdrog det, ville han dog sælge en del af de mange ting, der stod i de mørke stuer og på loftet.\n\nTidligere ville sådan et salg være foregået i en stor sal med en mand og en hammer. Men greven og hans hjælper, en ung kvinde ved navn Sofie, valgte at holde auktionen på nettet. På den måde kunne folk fra hele verden byde. Sofie tog billeder af stole, malerier, gamle bøger og en kasse fuld af smykker: ringe, halskæder og et armbånd med blå sten.\n\nHun lagde billederne af smykkerne på paladsets website og efterlyste oplysninger om dem. Var der nogen, der vidste, hvem der havde lavet dem? Hun efterlyste også frivillige, der kunne hjælpe med at pakke de mange ting. Tre dage senere havde tyve mennesker meldt sig.\n\nDa Sofie gennemgik smykkerne, så hun, at nogle af dem var beskadigede. En halskæde var gået i stykker, og en af ringene manglede en sten. Hun tog dem med til en guldsmed i byen. I butikken arbejdede en ung svend, der netop var blevet færdig med sin uddannelse. Svenden reparerede de beskadigede smykker med stor omhu, og bagefter så de næsten ud som nye.\n\nAuktionen varede en uge. Hver aften sad greven ved sin computer og fulgte med. Han var vokset op med breve og telefoner med ledning, men nu lærte han at bruge internettet og se buddene stige. Armbåndet med de blå sten blev solgt til en kvinde i Canada, og et af malerierne gik til et museum i Odense.\n\nDa auktionen var slut, havde den givet mere end 2 millioner kroner. Greven overdrog pengene til fonden sammen med paladset. Fonden brugte en del af pengene til at reparere de vinduer, som vejret havde beskadiget, og resten til at åbne en lille shop ved indgangen. I shoppen kan turister i dag købe bøger, kort og kopier af de gamle smykker. Kopierne bliver lavet af den unge svend.\n\nSpørgsmål:\nHvorfor ville greven sælge ting fra paladset?\nHan ville overdrage paladset til en fond, og før det ville han sælge en del af tingene.\nHvorfor blev auktionen holdt på nettet?\nSå kunne folk fra hele verden byde.\nHvad efterlyste Sofie på paladsets website?\nHun efterlyste oplysninger om smykkerne og frivillige, der kunne hjælpe med at pakke.\nHvad gjorde svenden ved smykkerne?\nHan reparerede de beskadigede smykker, så de næsten så ud som nye.\nHvad blev pengene brugt til?\nDe blev brugt til at reparere vinduerne og til at åbne en lille shop ved indgangen."
+    },
+    {
+      "title": "Brev fra efterskolen",
+      "summary": "In a mail to her grandmother, a girl at a boarding school describes life without her phone during the week.",
+      "newWords": [
+        "efterskole",
+        "begrænsning",
+        "modstå",
+        "drøfte",
+        "åndelig",
+        "tennis",
+        "målmand",
+        "rap",
+        "påtage",
+        "inderst"
+      ],
+      "text": "Kære mormor\n\nNu har jeg gået på efterskolen i en måned, og du bad mig om at skrive, hvordan det går. Jeg skriver til dig fra skolens computer, fordi min mobil ligger i en kasse på kontoret. Det er nemlig den vigtigste regel på efterskolen: Når vi kommer søndag aften, afleverer vi vores mobiler, og vi får dem først igen fredag eftermiddag.\n\nJeg må indrømme, at jeg var vred i starten. Jeg syntes, at det var en dum begrænsning, og den første aften kunne jeg næsten ikke sove. Jeg tænkte hele tiden på, hvad mine venner derhjemme skrev til hinanden, og hvad jeg gik glip af. Nogle af os talte om at snige os ind på kontoret og hente telefonerne. Det var svært at modstå, men vi modstod lysten.\n\nEfter et par dage skete der noget. Om aftenen begyndte vi at lave andre ting. Nogle spillede tennis på skolens bane, indtil det blev mørkt. Andre spillede fodbold, og jeg har påtaget mig at være målmand på pigernes hold, selvom jeg aldrig har stået på mål før. Ingen andre ville påtage sig det. Jeg er ikke nogen god målmand endnu, men jeg bliver bedre for hver uge. Min veninde Maja skriver rap, og en aften optrådte hun med sin rap for hele skolen. Alle klappede.\n\nI sidste uge drøftede vi reglen med vores lærer, Torben. Han forklarede, at skolen ikke vil straffe os. Begrænsningen er der, fordi skolen mener, at vi har brug for ro, både i kroppen og i hovedet. Han talte om vores åndelige sundhed, og at den bliver svækket, hvis vi aldrig slukker for skærmen. Vi drøftede det i lang tid, og nogle af eleverne var stadig uenige. Men de fleste af os indrømmede, at vi sover bedre nu.\n\nDet sværeste er stadig fredag eftermiddag. Så snart vi får telefonerne igen, sidder alle med bøjede hoveder i skolegården, og det bliver helt stille. Men inderst inde tror jeg, at mange af os glæder os til søndag, hvor vi afleverer dem igen. Det havde jeg aldrig troet, at jeg ville skrive.\n\nDu sagde engang, at det åndelige liv har brug for stilhed. Det forstod jeg ikke dengang. Nu forstår jeg det lidt bedre, og inderst inde ved jeg godt, at du havde ret. Kan du lære mig at spille tennis, når jeg kommer hjem til jul?\n\nMange kærlige hilsner\nFreja\n\nSpørgsmål:\nHvorfor skriver Freja fra skolens computer?\nHendes mobil ligger i en kasse på kontoret, fordi eleverne afleverer mobilerne søndag aften.\nHvad syntes Freja om reglen i starten?\nHun syntes, at det var en dum begrænsning, og hun var vred.\nHvad laver eleverne om aftenen nu?\nDe spiller tennis og fodbold, og Maja skriver og optræder med rap.\nHvorfor har skolen begrænsningen ifølge Torben?\nSkolen mener, at eleverne har brug for ro, både i kroppen og i hovedet.\nHvad tror Freja inderst inde?\nHun tror, at mange af eleverne glæder sig til søndag, hvor de afleverer telefonerne igen."
+    },
+    {
+      "title": "Briller på museet",
+      "summary": "A grandfather takes his grandson to a museum about the German occupation, where special glasses show the past.",
+      "newWords": [
+        "besættelse",
+        "sprængstof",
+        "kujon",
+        "regere",
+        "idømme",
+        "brite",
+        "englænder",
+        "knald",
+        "instruktion",
+        "indikere"
+      ],
+      "text": "En lørdag i oktober tog Poul sit barnebarn, Oscar, med på et museum om besættelsen. Poul var født i 1941, midt under besættelsen, og hans far havde været med i modstandsbevægelsen. Oscar var tolv år og interesserede sig mere for computerspil end for historie, så Poul havde lovet ham, at museet havde noget særligt.\n\nDet særlige var et par briller. Når man tog dem på, stod man pludselig midt i København i 1944. Man kunne se de gamle busser, folk på cykler og tyske soldater på gaderne. En rolig stemme fortalte, hvordan landet blev regeret under besættelsen. I de første år fik den danske regering lov til at regere videre, men i 1943 gik regeringen af, og tyskerne overtog magten.\n\nDerefter fulgte man en lille gruppe unge mennesker fra modstandsbevægelsen. De fik våben og sprængstof fra briterne, som kastede det ned fra fly om natten. Sammen med sprængstoffet kom der en ung brite, som skulle lære dem at bruge det. Han gav dem korte, klare instruktioner. Mange danskere lyttede også hver aften til radioen fra London, hvor englænderne sendte nyheder på dansk. For mange var englændernes stemmer i radioen et tegn på håb.\n\nGruppen skulle ødelægge en jernbane, så tyskerne ikke kunne bruge den. Man så dem læse instruktionerne i lyset fra en lille lampe og forsigtigt lægge sprængstoffet under skinnerne. Så lød der et højt knald, og Oscar sprang et skridt tilbage, selvom han godt vidste, at det ikke var virkeligt. Han kunne stadig høre knaldet, da han tog brillerne af.\n\nBagefter så de på resten af udstillingen. På en væg hang et brev fra en ung mand, som var blevet taget af tyskerne og idømt fem års fængsel. Han skrev til sin mor, at han hellere ville sidde i fængsel end være en kujon. En skærm ved siden af viste, at mange af de unge blev idømt lange straffe. Tallene på skærmen indikerede også, at modstandsbevægelsen var lille i starten. Andre tal indikerede, at den først voksede for alvor i de sidste to år af krigen.\n\nPå vej ud spurgte Oscar: »Var din far bange?« Poul tænkte sig om. »Ja, det tror jeg. Men han var ikke en kujon. Man kan godt være bange og alligevel gøre det rigtige.« I bussen hjem sagde Oscar, at brillerne var næsten som et computerspil. »Men det her var en rigtig historie,« sagde han.\n\nSpørgsmål:\nHvornår var Poul født?\nHan var født i 1941, midt under besættelsen.\nHvad skete der med den danske regering i 1943?\nRegeringen gik af, og tyskerne overtog magten.\nHvor fik gruppen sprængstof fra?\nDe fik sprængstof fra briterne, som kastede det ned fra fly om natten.\nHvorfor sprang Oscar et skridt tilbage?\nDer lød et højt knald i brillerne, da gruppen ødelagde jernbanen.\nHvad sagde Poul om at være bange?\nHan sagde, at man godt kan være bange og alligevel gøre det rigtige."
+    },
+    {
+      "title": "Robotterne og dåserne",
+      "summary": "In a newspaper column, the writer meets an old classmate who lost his factory job to robots and reflects on what is fair.",
+      "newWords": [
+        "arbejdsløs",
+        "realistisk",
+        "elite",
+        "uretfærdig",
+        "gene",
+        "henholde",
+        "dåse",
+        "støde",
+        "bilde",
+        "regional"
+      ],
+      "text": "Forleden stødte jeg på min gamle ven fra skolen, Kim, foran supermarkedet. Vi havde ikke set hinanden i mange år, og vi stod længe og snakkede i den kolde vind. Kim har i 25 år arbejdet på fabrikken uden for byen, hvor man laver dåser til tomater, bønner og sodavand. Eller rettere: Han havde arbejdet der. For et halvt år siden blev han arbejdsløs.\n\nFabrikken har nemlig købt robotter. De arbejder døgnet rundt, de bliver aldrig syge, og de holder aldrig ferie. Hvor der før stod tyve mennesker ved båndet, står der nu tre, som holder øje med maskinerne. Der bliver lavet flere dåser end nogensinde, og fabrikken tjener flere penge end før.\n\n»Jeg forstår det godt,« sagde Kim. »Men det føles uretfærdigt. Jeg har givet dem 25 år af mit liv.« Han fortalte, at direktøren altid henholder sig til tallene, når nogen spørger. Og politikerne henholder sig til, at der kommer nye job et andet sted.\n\nJeg har tænkt meget på samtalen siden. Det er let for os, der sidder ved en computer hele dagen, at bilde os ind, at teknologien kun gør livet bedre. Men den rammer ikke alle på samme måde. De nye job inden for teknologi ligger ofte i de store byer, hvor en lille elite af veluddannede folk tjener godt. Den regionale fabrik, der før gav arbejde til en hel landsby, giver nu kun arbejde til få.\n\nEr det så uretfærdigt? Jeg ved det ikke helt. Man må være realistisk: Ingen kan standse robotterne, og ingen ønsker sig tilbage til tiden, hvor mennesker skulle løfte tunge kasser hele dagen. De gamle maskiner larmede, og støjen var til stor gene for naboerne. Robotterne er derimod ikke til gene for nogen. Men det er heller ikke realistisk at tro, at en mand på 58 år bare kan begynde forfra som ekspert i computere.\n\nJeg støder tit på den tanke, at markedet selv ordner det hele. Det tror jeg ikke på. Det, Kim har brug for, er ikke flotte ord fra eliten i hovedstaden, men regionale løsninger: kurser i nærheden, hjælp til at finde et nyt job og arbejdsgivere, der ikke kun ser på alder. Vi må ikke bilde os ind, at det kun rammer de andre.\n\nKim fortalte til sidst, at han er begyndt på et kursus, hvor han lærer at reparere robotter. »Det er faktisk lidt sjovt,« sagde han og smilede. »Jeg skal passe på de maskiner, der tog mit job.« Jeg håber, at han snart får et nyt arbejde. Og jeg håber, at vi andre husker, at bag hver ny robot står der et menneske, som skal videre med sit liv.\n\nSpørgsmål:\nHvem stødte skribenten på foran supermarkedet?\nSkribenten stødte på sin gamle ven fra skolen, Kim.\nHvorfor blev Kim arbejdsløs?\nFabrikken købte robotter, som nu laver dåserne.\nHvad sagde Kim om at miste sit job?\nHan sagde, at han godt forstod det, men at det føltes uretfærdigt.\nHvad mener skribenten, at Kim har brug for?\nHan har brug for regionale løsninger som kurser i nærheden og hjælp til at finde et nyt job.\nHvad lærer Kim på sit kursus?\nHan lærer at reparere robotter."
+    },
+    {
+      "title": "Den lille biograf",
+      "summary": "The owner of a small town cinema holds a weekend film festival to bring people back from their screens at home.",
+      "newWords": [
+        "dværg",
+        "syne",
+        "homoseksuel",
+        "cowboy",
+        "sydpå",
+        "afvikle",
+        "kunstnerisk"
+      ],
+      "text": "Karen havde drevet den lille biograf i byen i 15 år. Udefra syner den ikke af meget: en smal hvid bygning med et gammelt skilt og plads til 80 mennesker. Men indenfor er der røde stole, tykke tæpper og en duft af slik, som har siddet i væggene i årtier.\n\nDe senere år var det imidlertid gået dårligt. De fleste mennesker så film på deres computer eller på fjernsynet derhjemme. Med et enkelt tryk kunne man vælge mellem tusindvis af film fra sofaen, og det var svært for en lille biograf at konkurrere med det. Om sommeren, når mange familier tog sydpå på ferie, kunne der gå flere aftener, hvor der kun sad tre eller fire gæster i salen.\n\nKaren fik en idé. Hun ville afvikle en lille festival for film over en weekend, hvor folk kunne se film, som man ikke kan finde på nettet, og tale om dem bagefter. Hun valgte filmene for deres kunstneriske værdi og ikke for at tjene penge. Fredag aften viste hun en gammel amerikansk film om en ensom cowboy, der rider gennem ørkenen. Lørdag morgen var der en dansk film for børn om en lille dværg, som bor i en skov og hjælper dyrene. Og søndag aften viste hun en ny dansk film om to mænd, der var et homoseksuelt par i en tid, hvor de måtte skjule deres kærlighed. Filmen havde fået flere priser for sin kunstneriske kvalitet.\n\nFestivalen blev afviklet uden problemer, og den blev en større succes, end Karen havde turdet håbe. Fredag kom flere ældre mænd med store hatte på, ligesom filmens cowboy. Lørdag var salen fuld af børn, og nogle af dem var klædt ud som dværge med røde huer.\n\nSøndag aften var der ikke en eneste tom stol. Efter filmen rejste to ældre mænd fra byen sig op. De havde selv været et homoseksuelt par i over 40 år, og de fortalte stille, hvordan samfundet havde forandret sig, siden de var unge. Ingen i salen sagde noget, mens de talte, og bagefter klappede alle længe.\n\nDa de sidste gæster var gået, satte Karen sig på en af de røde stole. Hun tænkte på de mange familier, der rejser sydpå hver sommer, og på alle dem, der sidder alene foran en skærm om aftenen. En lille biograf syner måske ikke af meget, tænkte hun. Men den kan samle mennesker i et mørkt rum, hvor de ser og lytter sammen.\n\nSpørgsmål:\nHvordan ser biografen ud udefra?\nUdefra syner den ikke af meget. Det er en smal hvid bygning med plads til 80 mennesker.\nHvorfor var det gået dårligt for biografen?\nDe fleste så film derhjemme, og om sommeren tog mange familier sydpå på ferie.\nHvilke film viste Karen på festivalen?\nHun viste en gammel film om en cowboy, en film for børn om en dværg og en ny dansk film om et homoseksuelt par.\nHvorfor valgte Karen netop de film?\nHun valgte dem for deres kunstneriske værdi, og fordi man ikke kan finde dem på nettet.\nHvad skete der efter filmen søndag aften?\nTo ældre mænd fortalte, hvordan samfundet havde forandret sig, siden de var unge."
+    }
+  ]
+}
