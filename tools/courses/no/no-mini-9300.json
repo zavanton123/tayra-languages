@@ -1,0 +1,216 @@
+{
+  "id": "no-mini-9300",
+  "rankUpTo": 9300,
+  "level": "C2",
+  "title": "Folkeeventyr og sagn",
+  "description": "Ten standalone texts on folk tales and legends: recorded storytellers, the fiddler at the waterfall, wind sold in knots, a troll outwitted, a healing spring, the golem of Prague, the Christmas nisse, modern urban legends, a fairy-tale hero meeting bureaucracy, and a mathematician reading folk tales.",
+  "topic": "Folk tales and legends",
+  "names": [
+    "Halvor",
+    "Bakke",
+    "Bakkes",
+    "Valdres",
+    "Eivind",
+    "Eivinds",
+    "Ingrid",
+    "Nord-Norge",
+    "Peder",
+    "Peders",
+    "Blåfjellet",
+    "Vestlandet",
+    "Olav",
+    "Olavs",
+    "Olavskilden",
+    "sankthans",
+    "Praha",
+    "Europa",
+    "Gud",
+    "Oslo",
+    "Hedmark",
+    "Østfold",
+    "Norge",
+    "Askeladden",
+    "Stortinget",
+    "Statens vegvesen",
+    "Bergen",
+    "Sigrid",
+    "Lunde",
+    "Lundes",
+    "Tyskland",
+    "Romania",
+    "Bucuresti",
+    "Karpatene"
+  ],
+  "lessons": [
+    {
+      "title": "Stemmene på båndet",
+      "summary": "An archivist describes the tape recordings a teacher made of folk tales told by old farmers in the countryside, and how a national radio station broadcast them.",
+      "newWords": [
+        "informant",
+        "landlig",
+        "gårdsbruk",
+        "innspilt",
+        "konfidensiell",
+        "lydbilde",
+        "uforandret",
+        "radiostasjon",
+        "riksdekkende",
+        "oppslagsverk"
+      ],
+      "text": "I kjelleren på arkivet der jeg arbeider, står det hyller med gamle lydbånd. På de fleste av dem er det innspilt eventyr og sagn, fortalt av vanlige folk i landlige strøk mellom 1950 og 1975. Den som samlet dem, var en lærer som het Halvor Bakke. Han reiste fra bygd til bygd med en tung opptaker i bilen og en blokk i lommen.\n\nBakke kalte de menneskene han snakket med, for informanter. Det er et tørt ord, men han brukte det med respekt. En informant var for ham en som visste noe som ellers ville gå tapt. De fleste informantene hans var eldre bønder. De bodde på små gårdsbruk langt fra veien, og mange av dem hadde aldri vært i en by. Han satt ved kjøkkenbordet deres i timevis og lyttet. Når de hadde fortalt ferdig, spurte han om han kunne ta det opp.\n\nNoen sa nei. En gammel kone på et gårdsbruk i Valdres ville bare fortelle hvis hun fikk løfte om at navnet hennes skulle holdes konfidensielt. Hun var redd for at naboene skulle le av henne, fordi hun trodde på de underjordiske. Bakke holdt løftet. I blokka hans står hun bare som «informant nr. 41», og den konfidensielle listen over navnene er fortsatt låst inne.\n\nNår jeg spiller av båndene i dag, er det lydbildet som slår meg først. Det er ikke bare stemmen som er innspilt. Jeg hører en klokke som tikker, en hund som bjeffer ute på tunet, en kaffekjele som koker over. Lydbildet fra et landlig kjøkken for 70 år siden er nesten uforandret fra bånd til bånd: stillhet, en stol som skraper mot gulvet, og så en stemme som begynner: «Det var en gang ...»\n\nI 1962 fikk en riksdekkende radiostasjon høre om samlingen. Radiostasjonen laget en serie der et utvalg av opptakene ble sendt hver søndag kveld. For første gang kunne folk over hele landet høre de samme eventyrene, fortalt på dialekt. Programmet ble en stor suksess. Mange lyttere skrev brev til radiostasjonen og fortalte at bestemoren deres hadde fortalt det samme eventyret, bare litt annerledes.\n\nDet er nettopp dette som gjør båndene verdifulle. I de store oppslagsverkene står eventyrene skrevet ned i én fast form, som om de alltid hadde vært uforandret. Men et oppslagsverk viser bare én versjon. På båndene hører vi at hver informant fortalte på sin egen måte. Eventyret var ikke en tekst. Det var noe man gjorde, ved et bord, en kveld, for noen som lyttet.\n\nSpørsmål:\nHva er innspilt på de fleste båndene i arkivet?\nDet er innspilt eventyr og sagn, fortalt av vanlige folk i landlige strøk.\nHvem var informantene til Halvor Bakke?\nDe fleste var eldre bønder som bodde på små gårdsbruk langt fra veien.\nHvorfor ville én informant at navnet hennes skulle holdes konfidensielt?\nHun var redd for at naboene skulle le av henne, fordi hun trodde på de underjordiske.\nHva hører forfatteren i lydbildet på båndene?\nForfatteren hører en klokke som tikker, en hund som bjeffer og en kaffekjele som koker over.\nHva gjorde den riksdekkende radiostasjonen i 1962?\nDen laget en serie der et utvalg av opptakene ble sendt hver søndag kveld.\nHvorfor viser et oppslagsverk bare en del av sannheten?\nEt oppslagsverk viser bare én versjon, mens hver informant fortalte på sin egen måte."
+    },
+    {
+      "title": "Spellemannen ved fossen",
+      "summary": "A legend about a heartbroken young man who calls on the spirit of the waterfall and becomes a famous folk fiddler.",
+      "newWords": [
+        "spellemann",
+        "unggutt",
+        "kjærlighetssorg",
+        "påkalle",
+        "overmanne",
+        "transe",
+        "løsrive",
+        "node",
+        "festing",
+        "opphisset"
+      ],
+      "text": "I mange bygder i Norge fortelles det sagn om spellemenn som lærte å spille av et vesen i fossen. Et av dem handler om en unggutt som het Eivind.\n\nEivind bodde på en liten gård innerst i dalen. Han var atten år og spilte fiolin, men ikke særlig godt. Den våren giftet Ingrid, jenta han var glad i, seg med en annen. Eivind fikk kjærlighetssorg. Han sov dårlig, spiste lite og satt mest alene på låven med fiolinen. Han tenkte at hvis han bare kunne spille vakkert nok, ville kjærlighetssorgen slippe taket.\n\nBestefaren hans fortalte ham da det gamle sagnet. I fossen ovenfor gården bodde fossegrimen, et vesen som kunne lære hvem som helst å spille. Men man måtte påkalle ham på riktig måte. En torsdagskveld måtte man gå til fossen med et stykke fett kjøtt, sette seg på en stein og spille tre ganger. Var kjøttet for magert, lærte man bare å stemme fiolinen.\n\nUnggutten gjorde som bestefaren sa. Han tok med seg et stort stykke kjøtt, satte seg ved fossen og påkalte vesenet med de tre slåttene han kunne. Lenge hørte han bare vannet. Så kjente han at noen tok tak i hånden hans og førte buen. Musikken som kom ut av fiolinen, var vill og vakker. Den overmannet ham fullstendig. Han spilte i transe, uten å vite hvor lenge, og han klarte ikke å løsrive seg fra fiolinen før månen var gått ned. Fingrene hans blødde, men han hadde lært alt.\n\nEivind hadde aldri kunnet lese noder, og han trengte ingen noder etterpå heller. Musikken satt i fingrene. Om høsten ble han bedt om å spille i et bryllup. Festingen varte i tre dager. Da Eivind begynte å spille, ble folk så opphisset at de ikke kunne sitte stille. Gamle menn som ikke hadde danset på tjue år, reiste seg fra benkene. Noen sa at de som danset, kom i transe, akkurat som Eivind selv. Først da han klarte å løsrive seg fra slåtten, ble det stille i stua.\n\nIfølge sagnet ble Eivind en av distriktets mest kjente spellemenn. Han spilte i bryllup og på festing i mange år, og folk sa at han kunne få hvem som helst til å glemme en kjærlighetssorg. Selv giftet han seg senere med en jente fra nabobygda. Men hver torsdagskveld gikk han opp til fossen og la et stykke kjøtt på steinen.\n\nI dag finnes slåttene hans skrevet ned som noder, og unge spellemenn lærer dem fortsatt. Om vesenet i fossen hjalp ham, kan ingen vite. Men sagnet forteller noe sant om musikk: at den beste musikken kan overmanne både den som spiller, og den som lytter.\n\nSpørsmål:\nHvorfor fikk Eivind kjærlighetssorg?\nIngrid, jenta han var glad i, giftet seg med en annen.\nHvordan måtte man påkalle fossegrimen?\nMan måtte gå til fossen en torsdagskveld med et stykke fett kjøtt og spille tre ganger.\nHva skjedde da Eivind spilte ved fossen?\nMusikken overmannet ham, og han spilte i transe uten å kunne løsrive seg fra fiolinen.\nTrengte Eivind noder etterpå?\nNei, han trengte ingen noder, for musikken satt i fingrene.\nHva skjedde med folk i bryllupet da Eivind spilte?\nDe ble så opphisset at de ikke kunne sitte stille, og gamle menn reiste seg og danset.\nHva gjorde Eivind hver torsdagskveld?\nHan gikk opp til fossen og la et stykke kjøtt på steinen."
+    },
+    {
+      "title": "Vinden i tre knuter",
+      "summary": "A coastal legend: a young fisherman rows to an old woman who sells wind tied in three knots, uses two of them and never opens the third.",
+      "newWords": [
+        "fisketur",
+        "atskillig",
+        "trutt",
+        "strømning",
+        "unnvike",
+        "tidevann",
+        "kamuflere",
+        "mellommann",
+        "knyte",
+        "snarlig"
+      ],
+      "text": "Langs kysten av Nord-Norge fortelles det et gammelt sagn om vind som kunne kjøpes. Det stammer fra tiden da fiskerne seilte og rodde, og da en fisketur var helt avhengig av været.\n\nEn vinter for lenge siden lå det atskillige båter i en liten havn og ventet. Fisken hadde kommet til bankene langt ute, men det var helt vindstille. Uten vind kom ingen ut. En ung fisker som het Peder, hadde lånt penger til båten sin, og han kunne ikke vente lenger. Han hadde hørt at det på en øy lenger ute bodde en gammel kone som solgte vind.\n\nPeder rodde ut alene. Han rodde trutt i fire timer, og han måtte kjempe mot strømningene mellom holmene. Han kjente farvannet godt og visste hvordan han kunne unnvike de verste strømningene ved å holde seg nær land. Han hadde også regnet ut tidevannet, for ved lavvann var sundet til øya for grunt.\n\nDen gamle kona så ut som alle andre gamle koner. Folk sa at hun kamuflerte kunsten sin bak et vanlig liv: hun hadde sauer, hun reparerte garn, og hun gikk i kirken hver søndag. Men alle visste at hun var en slags mellommann mellom menneskene og kreftene i havet og lufta. Ingen andre kunne snakke med vinden, men hun kunne.\n\nPeder ga henne pengene han hadde igjen. Da tok hun fram et tau og begynte å knyte. «Jeg knyter tre knuter,» sa hun, «og hver knute har sin vind. Den første gir en jevn bris. Den andre gir sterk vind. Men den tredje knuten må du aldri løse opp. Den gir storm.» Hun lovet ham snarlig vind, og hun ba ham reise straks.\n\nPeder rodde like trutt tilbake, og nå var tidevannet og strømningene med ham. Neste morgen gikk han ut i båten og løste den første knuten. Med en gang kom det en jevn bris. Han seilte ut til bankene, der han fikk atskillig fisk. Det ble den beste fisketuren han noen gang hadde hatt. Da han skulle hjem, løste han den andre knuten, og den sterke vinden førte ham trygt inn til havnen før noen andre hadde kommet seg ut.\n\nDen tredje knuten løste han aldri. Ifølge sagnet hang tauet på veggen i huset hans resten av livet, og barna hans lærte at noen knuter ikke skal løses. Mange forskere mener i dag at slike sagn handler om noe helt praktisk. En fisker som kjente tidevannet og strømningene, kunne forutsi været bedre enn andre. Kanskje var det denne kunnskapen kona solgte, og tauet var bare en måte å gi den videre på.\n\nSpørsmål:\nHvorfor lå båtene i havnen og ventet?\nDet var helt vindstille, og uten vind kom ingen ut til bankene.\nHvordan unnvek Peder de verste strømningene?\nHan holdt seg nær land, for han kjente farvannet godt.\nHvorfor sa folk at kona kamuflerte kunsten sin?\nHun levde et vanlig liv med sauer, garn og kirkegang, men hun var en mellommann mellom menneskene og kreftene i havet.\nHva gjorde kona med tauet?\nHun begynte å knyte tre knuter i det, og hver knute hadde sin vind.\nHva lovet kona Peder?\nHun lovet ham snarlig vind.\nHva gjorde Peder med den tredje knuten?\nHan løste den aldri, og tauet hang på veggen resten av livet hans."
+    },
+    {
+      "title": "Gutten og trollet i Blåfjellet",
+      "summary": "A folk tale: a troll steals the king's silver cutlery, beats three noble knights with its club, and is outwitted by a poor wandering adventurer.",
+      "newWords": [
+        "bestikk",
+        "svovel",
+        "adelig",
+        "heroisk",
+        "muskulatur",
+        "kølle",
+        "eventyrer",
+        "ose",
+        "luksuriøs",
+        "motangrep"
+      ],
+      "text": "Det var en gang en konge som hadde det fineste bestikket i hele landet. Det var laget av rent sølv, og hver kniv, gaffel og skje hadde kongens merke. En høstnatt forsvant hele bestikket fra slottet. Ved porten fant vaktene spor etter store føtter, og det luktet svovel i gangene. Alle skjønte at et troll hadde vært der.\n\nKongen lovet prinsessen og halve kongeriket til den som kunne hente bestikket tilbake. Først red tre adelige riddere ut. De var unge, sterke og godt bevæpnet, og de var sikre på at et heroisk angrep ville gjøre det av med trollet. Men trollet i Blåfjellet hadde en muskulatur som ikke noe menneske kunne måle seg med, og i hånden bar det en kølle så stor som et tre. Med ett slag slo det de adelige ridderne ned i dalen. De kom hjem med bulker i hjelmene og ville ikke snakke om det.\n\nSå kom en fattig gutt til slottet. Han kalte seg en eventyrer, for han hadde reist rundt i verden uten mål, bare for å se hva som skjedde. Han hadde verken sverd eller hest, bare en sekk med en ost. Vaktene lo av ham, men kongen lot ham prøve.\n\nEventyreren gikk til Blåfjellet og banket på. «Her oser det av svovel,» sa han høyt, «så her må det bo et troll.» Trollet åpnet døra. Inne var det en luksuriøs hall med gull på veggene, tepper på gulvet og kongens bestikk lagt pent fram på et langt bord. Trollet løftet kølla og ville slå.\n\n«Vent litt,» sa eventyreren. «Er du virkelig så sterk som folk sier? Jeg kan presse vann ut av en stein.» Han tok osten ut av sekken, og fordi det var mørkt i hallen, trodde trollet at det var en stein. Gutten klemte osten så væsken rant. Trollet ble redd. Hvis en så liten gutt kunne gjøre dette, hva kunne han ikke gjøre med et troll?\n\nNå ville trollet vise sin egen styrke. Det slo kølla mot fjellveggen så hardt at hele hallen ristet. Men gutten hadde sett at trollet var tregt i hodet, og han gjorde et motangrep med ord i stedet for med våpen. Det var ikke heroisk, men det var klokt. «Jeg vedder på at du ikke tør gå ut og se på soloppgangen,» sa han. Trollet var for stolt til å si nei. Det gikk ut i det første lyset, og der ble det til stein.\n\nGutten bar bestikket hjem i sekken. Han giftet seg med prinsessen, men han ble aldri helt glad i det luksuriøse livet på slottet. Han likte bedre å reise. Trollet står fortsatt som en stor stein på toppen av Blåfjellet, med noe som ligner en kølle i hånden.\n\nSpørsmål:\nHva forsvant fra kongens slott?\nHele sølvbestikket forsvant, og det luktet svovel i gangene.\nHvorfor klarte ikke de adelige ridderne å vinne over trollet?\nTrollet hadde en enorm muskulatur og en stor kølle, og det slo dem ned i dalen.\nHvorfor kalte gutten seg en eventyrer?\nHan hadde reist rundt i verden uten mål, bare for å se hva som skjedde.\nHvordan var hallen inne i fjellet?\nDen var luksuriøs, med gull på veggene, tepper på gulvet og kongens bestikk på bordet.\nHva slags motangrep gjorde gutten?\nHan gjorde et motangrep med ord og fikk trollet til å gå ut i soloppgangen.\nHva sa eventyreren da han banket på?\nHan sa at det oser av svovel, så der må det bo et troll."
+    },
+    {
+      "title": "Kilden ved kirken",
+      "summary": "A country doctor reflects on the legend of a healing spring while treating an old farmer's back pain with exercise and physiotherapy.",
+      "newWords": [
+        "helbredelse",
+        "konsultasjon",
+        "urinprøve",
+        "immun",
+        "subtil",
+        "ugress",
+        "balsam",
+        "fysioterapeut",
+        "mosjon",
+        "nikotin"
+      ],
+      "text": "Jeg har vært fastlege i en liten kommune på Vestlandet i snart tjue år. Ved den gamle steinkirken nede ved fjorden ligger en kilde som folk i bygda kaller Olavskilden. Ifølge sagnet slo kong Olav staven sin i bakken der, og vannet sprang fram. I hundrevis av år kom syke mennesker langveisfra for å drikke av vannet. Mange håpet på helbredelse, og noen fortalte at de var blitt helt friske.\n\nSagnet lever fortsatt, og det dukker opp på kontoret mitt oftere enn man skulle tro. For en tid siden kom en eldre bonde til konsultasjon. Han hadde vondt i ryggen og hadde i et halvt år drukket et glass kildevann hver morgen. Under konsultasjonen fortalte han at bestefaren hans hadde blitt frisk på den måten. Jeg tok en urinprøve og noen blodprøver, og urinprøven viste at han hadde for høyt blodsukker. Vannet hadde ikke skadet ham, men det hadde ikke hjulpet heller.\n\nDet gamle sagnet sa også at den som drakk av kilden natt til sankthans, ble immun mot pest og feber resten av året. Vi vet i dag at ingen blir immun på den måten. Men folk som drakk rent kildevann i stedet for vann fra skitne brønner, ble faktisk sjeldnere syke. Kanskje er det et subtilt stykke kunnskap gjemt i sagnet. Det subtile ligger ikke i miraklet, men i det praktiske rådet om å drikke rent vann.\n\nDet samme gjelder de gamle rådene om planter. Rundt kirken vokser det fortsatt planter som vi i dag kaller ugress. Før i tiden kokte folk balsam av dem og smurte den på sår og vonde ledd. En slik balsam inneholdt ofte stoffer som faktisk dempet betennelse. Det vi kaller ugress, var for våre oldeforeldre et apotek.\n\nBonden fikk en henvisning til en fysioterapeut. Fysioterapeuten ga ham øvelser og ba ham om daglig mosjon: en halvtimes tur hver dag, gjerne opp bakken til kirken. Jeg ba ham også om å slutte med snusen. Nikotin gjør at blodet sirkulerer dårligere, og det hjelper ikke på en vond rygg.\n\nEt halvt år senere kom han tilbake til en ny konsultasjon. Han hadde gått mye, han hadde kuttet ned på nikotin, og ryggen var mye bedre. «Det var nok kilden likevel,» sa han og smilte. «Jeg går jo dit hver dag.» Jeg lot ham få det siste ordet. For på en måte hadde han rett. Det var mosjon som hjalp ham, men det var kilden som fikk ham ut av huset. Kanskje var det slik det alltid hadde vært: helbredelse kommer sjelden fra vannet alene, men ofte fra veien dit.\n\nSpørsmål:\nHva sier sagnet om Olavskilden?\nIfølge sagnet slo kong Olav staven sin i bakken, og vannet sprang fram.\nHva viste urinprøven?\nUrinprøven viste at bonden hadde for høyt blodsukker.\nHvorfor ble folk som drakk av kilden, sjeldnere syke?\nDe drakk rent kildevann i stedet for vann fra skitne brønner.\nHva brukte folk planter som vi kaller ugress, til før i tiden?\nDe kokte balsam av dem og smurte den på sår og vonde ledd.\nHva ba fysioterapeuten bonden om?\nFysioterapeuten ga ham øvelser og ba ham om daglig mosjon.\nHvorfor ba legen bonden slutte med snusen?\nNikotin gjør at blodet sirkulerer dårligere, og det hjelper ikke på en vond rygg."
+    },
+    {
+      "title": "Leirmannen i Praha",
+      "summary": "On a study trip, a student hears a theologian tell the legend of the golem in Prague's old synagogue and explain what it means.",
+      "newWords": [
+        "synagoge",
+        "teolog",
+        "befolkningsgruppe",
+        "sammensvergelse",
+        "mosebok",
+        "implisitt",
+        "parentes",
+        "enkeltmenneske",
+        "idealistisk",
+        "initiere"
+      ],
+      "text": "Forrige vår var jeg på studietur i Praha sammen med en gruppe norske studenter. En av dagene besøkte vi den gamle synagogen i den jødiske bydelen. Synagogen er over sju hundre år gammel og en av de eldste i Europa som fortsatt er i bruk. Guiden vår var en teolog som hadde skrevet en bok om jødiske sagn. Hun stilte seg ved trappen opp til loftet og fortalte oss sagnet om golemen.\n\nPå 1500-tallet, fortalte teologen, levde det en klok rabbiner i Praha. Den jødiske befolkningsgruppen i byen var liten, og den levde under stadig press. En dag fikk rabbineren vite om en sammensvergelse. Noen planla å anklage menigheten for en forbrytelse den ikke hadde begått, slik at byen skulle vende seg mot jødene. For å beskytte menigheten formet rabbineren en mann av leire fra elvebredden. Han skrev et hellig ord på pannen hans, og leirmannen ble levende. Golemen var sterk og trofast, og han avslørte sammensvergelsen før den kunne gjøre skade.\n\nTeologen forklarte at sagnet bygger på de første kapitlene i Mosebøkene. I Første Mosebok blir det første mennesket formet av jord, og Gud blåser liv i det. «Rabbineren gjør det samme som Gud,» sa hun, «bare i det små. Og det er nettopp her faren ligger.» Det står ikke direkte i sagnet, men det er implisitt: Et menneske som prøver å skape liv, tar på seg et ansvar det ikke kan bære.\n\nFor i sagnet vokser golemen. Han blir sterkere for hver dag, og han forstår ikke forskjellen på godt og ondt. Til slutt må rabbineren fjerne ordet fra pannen hans, og golemen blir til leire igjen. Restene skal ifølge sagnet ligge på loftet i den samme synagogen som vi sto i. Her la teologen til en liten opplysning i parentes, som hun sa: Loftet er stengt for besøkende, og ingen har funnet noe der.\n\nEn av studentene spurte hva sagnet betyr i dag. Teologen tenkte seg om. Hun mente at golemen viser hvordan et enkeltmenneske kan bli fristet til å løse en stor fare alene. Rabbineren var idealistisk. Han ville initiere noe godt, og han gjorde det av kjærlighet til menigheten sin. Men det han hadde initiert, kunne han ikke styre. Det implisitte budskapet er at selv et idealistisk prosjekt må ha grenser.\n\nDa vi gikk ut av synagogen, tenkte jeg på hvor gammel denne fortellingen er, og hvor ny den samtidig føles. Hver gang mennesker lager noe som er sterkere enn dem selv, får sagnet om golemen ny mening. Det handler ikke bare om én befolkningsgruppe i én by. Det handler om ethvert enkeltmenneske som vil beskytte dem det er glad i.\n\nSpørsmål:\nHvem var guiden i synagogen?\nGuiden var en teolog som hadde skrevet en bok om jødiske sagn.\nHvorfor formet rabbineren golemen?\nHan ville beskytte menigheten mot en sammensvergelse.\nHvordan henger sagnet sammen med Mosebøkene?\nI Første Mosebok blir det første mennesket formet av jord, og rabbineren gjør det samme i det små.\nHva sa teologen i parentes om loftet?\nHun sa at loftet er stengt for besøkende, og at ingen har funnet noe der.\nHva er det implisitte budskapet i sagnet, ifølge teologen?\nSelv et idealistisk prosjekt må ha grenser.\nHvorfor sier forfatteren at sagnet ikke bare handler om én befolkningsgruppe?\nDet handler om ethvert enkeltmenneske som vil beskytte dem det er glad i."
+    },
+    {
+      "title": "Grøten til nissen",
+      "summary": "A family from Oslo spends Christmas Eve on the grandparents' farm, where the grandmother tells the legend of the farm's nisse and the porridge.",
+      "newWords": [
+        "vestkant",
+        "kjøttbolle",
+        "akevitt",
+        "brannalarm",
+        "julesang",
+        "lading",
+        "slektskap",
+        "selvrespekt",
+        "gjestfrihet",
+        "plomme"
+      ],
+      "text": "Hver jul reiser vi fra leiligheten vår på vestkanten i Oslo til mormor og morfar, som har et lite gårdsbruk i Hedmark. Barna våre gleder seg i flere uker. På vestkanten har vi verken låve eller fjøs, og barna synes gården er et eventyr i seg selv.\n\nPå julaften er det mormor som bestemmer. Hun lager kjøttboller etter sin egen mors oppskrift, med mye pepper og litt ingefær. Mens kjøttbollene steker, setter morfar akevitt på bordet til de voksne og saft til barna. Mormor tar bare et lite glass akevitt. I år ble det så mye røyk fra stekepanna at brannalarmen gikk. Barna hoppet av skrekk, morfar viftet med et håndkle under brannalarmen, og mormor bare lo. «Det skjer hvert år,» sa hun. «Det hører julen til.»\n\nEtter middagen samles alle i stua. Vi synger julesanger rundt treet, de gamle julesangene som mormor lærte av sin mor. Telefonene ligger til lading på kjøkkenet, for på julaften vil mormor ikke se en skjerm. Når den siste julesangen er sunget, forteller hun alltid sagnet om nissen på gården.\n\nIfølge sagnet var nissen i slekt med den første bonden på gården. Han var en slags forfar, og det var dette slektskapet som gjorde at han passet så godt på dyrene og huset. Men slektskapet ga ham også krav. Han ville bli behandlet med respekt, og på julaften skulle han ha en bolle grøt med en stor klump smør i midten.\n\nEn jul, forteller mormor, var det en gutt på gården som ville erte nissen. Han tok smøret fra toppen av grøten og gjemte det nederst i bollen. Da nissen fant grøten uten smør, ble han sint. Han hadde selvrespekt, og han tålte ikke å bli behandlet som en tigger. Men så fant han smøret i bunnen av bollen. Da skjønte han at det bare var en spøk, og han ble glad igjen. En nisse med selvrespekt kan nemlig også tilgi.\n\nBarna spør alltid om nissen fortsatt finnes. Mormor svarer at det er gjestfrihet som holder ham på gården. «Så lenge vi gir grøt og viser gjestfrihet,» sier hun, «så blir han.» Hun forteller at gjestfrihet var noe av det viktigste på en gård i gamle dager. Den som kom, fikk mat, enten det var en vandrer, en nabo eller en nisse.\n\nFør vi legger oss, går barna med morfar ut på låven. De har med en bolle grøt med smør og en skål med tørkede plommer, som mormor mener at nissen også liker. Neste morgen er bollen tom, og plommene er borte. Barna er sikre på at det var nissen. Morfar smiler, men sier ingenting.\n\nSpørsmål:\nHvor bor familien til vanlig?\nDe bor i en leilighet på vestkanten i Oslo.\nHvorfor gikk brannalarmen på julaften?\nDet ble så mye røyk fra stekepanna da kjøttbollene stekte, at brannalarmen gikk.\nHvorfor ligger telefonene til lading på kjøkkenet?\nMormor vil ikke se en skjerm på julaften.\nHvilket slektskap hadde nissen med gården, ifølge sagnet?\nHan var i slekt med den første bonden på gården, en slags forfar.\nHvorfor ble nissen sint?\nHan hadde selvrespekt og tålte ikke å bli behandlet som en tigger.\nHva tar barna med ut på låven?\nDe tar med en bolle grøt med smør og en skål med tørkede plommer."
+    },
+    {
+      "title": "Leoparden i skogen",
+      "summary": "A report on modern legends: a rumoured leopard in a small town turns out to be a large neutered cat, and stories about data centres and nuclear power spread the same way.",
+      "newWords": [
+        "nærmiljø",
+        "supermarked",
+        "leopard",
+        "kennel",
+        "kastrere",
+        "datasenter",
+        "cockpit",
+        "kjernekraft",
+        "mekanikk",
+        "eksos"
+      ],
+      "text": "Forskere som studerer folkeminner, sier at sagn ikke bare hører fortiden til. Hver tid lager sine egne. I gamle dager handlet de om troll og underjordiske. I dag handler de om flyreiser, maskiner og ville dyr som har rømt. Slike fortellinger kalles vandrehistorier, fordi de vandrer fra sted til sted og fra munn til munn.\n\nEt godt eksempel er historien om leoparden i en liten kommune i Østfold. En høstkveld for noen år siden la en kvinne ut et innlegg i en nettgruppe for nærmiljøet. Hun skrev at hun hadde sett et stort dyr med flekker ved skogkanten bak supermarkedet. I løpet av to dager hadde over tusen mennesker delt innlegget. Noen mente at leoparden hadde rømt fra et privat dyrehold. Andre var sikre på at den kom fra en kennel som lå et stykke unna, selv om kennelen bare drev med hunder. Eieren av kennelen måtte til slutt skrive i lokalavisen at han aldri hadde hatt noen leopard.\n\nSnart kom flere vitner. En mann hadde hørt rare lyder om natten. En bonde mente at en sau var borte. Foran supermarkedet sto folk og diskuterte om barna kunne gå alene til skolen. Ingen kom til skade, men nærmiljøet var i uro i nesten en uke.\n\nSvaret kom fra en veterinær. Hun hadde lenge behandlet en uvanlig stor huskatt i området, en kastrert katt med gule og svarte flekker. Kastrerte hannkatter kan bli svært store og rolige, og i skumringen kan de se mye større ut enn de er. Leoparden var trolig denne katten.\n\nSlike historier følger et fast mønster, akkurat som de gamle sagnene. Det finnes vandrehistorier om et datasenter inne i et fjell, der lyset aldri slukkes og arbeiderne hører stemmer i maskinene. Det finnes historier om piloter som så noe merkelig fra cockpiten, og om et anlegg for kjernekraft som skal ha blitt bygget i hemmelighet. Ingen av dem kan bevises, men de fortelles likevel, igjen og igjen.\n\nHvorfor lager vi slike fortellinger? Forskerne mener at sagnene hjelper oss å forstå det vi ikke helt forstår. Før var det naturen som var fremmed. I dag er det teknikken. Få av oss vet hvordan mekanikken i et fly virker, hva som skjer inne i et datasenter, eller hvordan kjernekraft blir til strøm. Selv den enkle mekanikken i en bil er et mysterium for mange, og fortellinger om farlig eksos og forgiftet luft får lett fart. Mye av det farlige i eksos kan man verken se eller lukte, og det usynlige skaper fortellinger. Da fyller vi tomrommet med historier, slik folk før fylte skogen med troll.\n\nLeoparden i Østfold ble aldri funnet, for den fantes ikke. Men historien om den fortelles fortsatt i nærmiljøet.\n\nSpørsmål:\nHva er en vandrehistorie?\nDet er en fortelling som vandrer fra sted til sted og fra munn til munn.\nHva skrev kvinnen i nettgruppen for nærmiljøet?\nHun skrev at hun hadde sett et stort dyr med flekker ved skogkanten bak supermarkedet.\nHvorfor måtte eieren av kennelen skrive i lokalavisen?\nFolk trodde at leoparden kom fra kennelen hans, men han hadde aldri hatt noen leopard.\nHva var trolig leoparden?\nDet var trolig en stor, kastrert katt med gule og svarte flekker.\nHvilke andre vandrehistorier nevnes i teksten?\nDet nevnes historier om et datasenter i et fjell, om piloter som så noe fra cockpiten, og om hemmelig kjernekraft.\nHvorfor lager vi slike fortellinger i dag, ifølge forskerne?\nVi forstår ikke helt teknikken rundt oss, og da fyller vi tomrommet med historier."
+    },
+    {
+      "title": "Askeladden og byråkratiet",
+      "summary": "A light newspaper column imagines what modern taxes, zoning plans, fines and contract law would do to the fairy-tale hero who wins the princess and half the kingdom.",
+      "newWords": [
+        "kvadratkilometer",
+        "statskupp",
+        "merverdiavgift",
+        "aktivum",
+        "reguleringsplan",
+        "avkjørsel",
+        "bøtelegge",
+        "besøksforbud",
+        "klausul",
+        "militærtjeneste"
+      ],
+      "text": "Forleden leste jeg eventyret om Askeladden og prinsessen for barnebarnet mitt. Askeladden vinner prinsessen og halve kongeriket, som vanlig. Men denne gangen begynte jeg å lure på hvordan det ville gått hvis Askeladden levde i dag. Jeg er redd det ville blitt et langt mindre lykkelig eventyr.\n\nFor det første: halve kongeriket. Norge er på drøyt 385 000 kvadratkilometer. Halvparten er over 190 000 kvadratkilometer med fjell, skog og myr. Å gi bort så mye land til en ung mann uten utdannelse ville neppe gått gjennom i Stortinget. Noen ville sikkert kalle det et statskupp. Og et statskupp er ikke noe man feirer med bryllup i ti dager.\n\nFor det andre: skatten. Når kongen gir bort land, er det en gave. Men når Askeladden selger ost, skinn eller gull fra sin halvdel, må han betale merverdiavgift. Jeg ser ham for meg ved kjøkkenbordet med regnskapet, mens han prøver å forstå hvor mye merverdiavgift han skylder for sølv fra et troll. Gullet fra trollets hule ville neppe blitt regnet som et vanlig aktivum. Revisoren ville sikkert spurt om et slikt aktivum var lovlig ervervet.\n\nFor det tredje: byggingen. Askeladden vil bygge et slott. Men tomten ligger i et område der kommunens reguleringsplan bare tillater landbruk. Han søker om dispensasjon. Han venter i to år. Reguleringsplanen blir endret, men nå kreves det en ny avkjørsel fra riksveien, og avkjørselen må godkjennes av Statens vegvesen.\n\nFor det fjerde: trollet. I eventyret blir trollet til stein eller mister hodet. I dag ville Askeladden blitt bøtelagt for å ha skadet et sjeldent vesen. Å bli bøtelagt for sitt mot er ikke noe eventyr. Trollet ville dessuten fått besøksforbud mot prinsessen, og Askeladden ville kanskje fått besøksforbud mot trollet, siden han hadde lurt det med en ost.\n\nFor det femte: prinsessen. Ifølge kongens avtale med helten skal hun gifte seg med den som vinner. Men en slik klausul ville aldri holdt i retten. Prinsessen ville sagt at hun selv bestemmer hvem hun gifter seg med, og hun ville hatt rett. Kanskje ville hun heller tatt militærtjeneste og blitt offiser. Etter militærtjenesten kunne hun selv dra ut og fange troll.\n\nNår jeg tenker over det, er det kanskje godt at eventyrene ikke foregår i dag. I eventyret får Askeladden prinsessen uten skjema, slottet uten reguleringsplan og gullet uten merverdiavgift. Det er derfor vi er så glad i eventyrene. De viser en verden der gode handlinger blir belønnet med en gang. Barnebarnet mitt sovnet før slutten. Jeg leste resten for meg selv, og eventyret endte lykkelig, slik det alltid har gjort.\n\nSpørsmål:\nHva begynte forfatteren å lure på?\nForfatteren begynte å lure på hvordan det ville gått hvis Askeladden levde i dag.\nHvorfor ville noen kalle gaven av halve kongeriket et statskupp?\nDet er over 190 000 kvadratkilometer, og det ville neppe gått gjennom i Stortinget.\nHva må Askeladden betale når han selger varer fra sin halvdel?\nHan må betale merverdiavgift.\nHvilke problemer får Askeladden med reguleringsplanen?\nReguleringsplanen tillater bare landbruk, og etter endringen kreves det en ny avkjørsel fra riksveien.\nHvorfor ville klausulen om prinsessen ikke holdt i retten?\nPrinsessen bestemmer selv hvem hun gifter seg med.\nHva kunne prinsessen gjøre etter militærtjenesten?\nHun kunne selv dra ut og fange troll."
+    },
+    {
+      "title": "Matematikeren som leste eventyr",
+      "summary": "A profile of a mathematician who found shared structures in Norwegian and Romanian folk tales and won over her sceptical dean.",
+      "newWords": [
+        "matematiker",
+        "ekvivalent",
+        "rumener",
+        "sjikt",
+        "membran",
+        "opprøre",
+        "dekan",
+        "pondus",
+        "studieretning",
+        "gjenreise"
+      ],
+      "text": "Ved universitetet i Bergen arbeidet det i mange år en matematiker som het Sigrid Lunde. Hun forsket på nettverk og mønstre, men på fritiden leste hun folkeeventyr. Etter hvert begynte hun å se noe i eventyrene som andre ikke hadde lagt merke til. De samme mønstrene kom igjen og igjen, nesten som i en ligning.\n\nLunde la merke til at mange eventyr fra helt ulike land var ekvivalente. Personene hadde andre navn, og landskapet var et annet, men handlingen var den samme. Den yngste broren som vinner der de eldre taper, finnes i Norge, i Tyskland og i Romania. For en matematiker er to ting ekvivalente når de har samme struktur, selv om de ser ulike ut. Hun begynte å tegne eventyrene som figurer på papir, med punkter og linjer, og da så hun at mange av dem hadde nøyaktig samme form.\n\nArbeidet fikk et stort løft da hun møtte en kollega fra Bucuresti. Han var rumener og hadde vokst opp med bestemorens eventyr i en landsby i Karpatene. Rumeneren kjente hundrevis av eventyr fra hjemlandet sitt, og sammen sammenlignet de dem med de norske. De fant mer enn førti eventyr som hadde ekvivalente strukturer. Rumeneren sa ofte at eventyrene hans og de norske var som søsken som hadde vokst opp i hver sin by.\n\nLunde beskrev eventyrene som bygget i sjikt. Det nederste sjiktet er handlingen, som er felles for mange folk. Over det ligger et sjikt med lokale detaljer: trollet i Norge, dragen i Romania. Det øverste sjiktet er fortellerens egen stemme. Mellom eventyrets verden og vår egen er det ifølge henne bare en tynn membran. Barn går gjennom den membranen uten problemer. Voksne må lære det på nytt.\n\nIkke alle likte arbeidet hennes. Noen litteraturforskere var opprørte. De mente at det var opprørende å gjøre levende fortellinger om til tall og streker. Dekanen ved fakultetet var også skeptisk i begynnelsen. Men Lunde hadde pondus. Hun var rolig, presis og godt forberedt, og da hun la fram resultatene for dekanen, var det vanskelig å si henne imot. Hennes pondus gjorde at selv de mest skeptiske kollegene hørte etter.\n\nTil slutt sto dekanen selv bak et nytt emne der studenter fra flere studieretninger møttes. Matematikere, litteraturstudenter og historikere satt i samme rom og leste eventyr sammen. For mange av dem var det første gang de arbeidet sammen med studenter fra en annen studieretning enn sin egen. Lunde sa at hun ville gjenreise respekten for eventyrene som kunnskap, ikke bare som underholdning for barn. Mange mener at hun langt på vei klarte å gjenreise den.\n\nSpørsmål:\nHva gjorde Sigrid Lunde på fritiden?\nHun leste folkeeventyr.\nNår er to ting ekvivalente for en matematiker?\nTo ting er ekvivalente når de har samme struktur, selv om de ser ulike ut.\nHvem var kollegaen fra Bucuresti?\nHan var rumener og hadde vokst opp med bestemorens eventyr i en landsby.\nHvilke sjikt beskrev Lunde i eventyrene?\nDet nederste sjiktet er handlingen, så kommer et sjikt med lokale detaljer, og øverst er fortellerens stemme.\nHvorfor hørte de skeptiske kollegene etter?\nLunde hadde pondus, og hun var rolig, presis og godt forberedt.\nHvem møttes i det nye emnet?\nStudenter fra flere studieretninger møttes: matematikere, litteraturstudenter og historikere."
+    }
+  ]
+}
