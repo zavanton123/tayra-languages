@@ -23,9 +23,9 @@ object AnkiCollectionSql {
         val seconds = millis / 1000
         // The note type and decks keep their ids from one export to the next, so Anki updates
         // them on import instead of adding copies; notes are found again by their guid.
-        val modelId = stableId(collection.noteType.name)
+        val modelId = collection.noteType.id
         val deckNames = collection.notes.map { it.deck }.distinct()
-        val deckIds = deckNames.associateWith { stableId(it) }
+        val deckIds = deckNames.associateWith { stableAnkiId(it) }
         val statements = SCHEMA.toMutableList()
         statements += "INSERT INTO col VALUES (1, $seconds, $millis, $millis, $SCHEMA_VERSION, 0, 0, 0, ${sql(conf(modelId))}, ${sql(models(collection.noteType, modelId, deckIds.values.firstOrNull() ?: 1, seconds))}, ${sql(decks(deckIds, seconds))}, ${sql(DECK_CONF)}, '{}')"
         // Note and card ids are the creation time in milliseconds, as Anki makes them; each gets its own.
@@ -48,8 +48,6 @@ object AnkiCollectionSql {
         buildJsonObject { media.forEachIndexed { i, file -> put(i.toString(), file.name) } }.toString()
 
     /** An id drawn from [name], in the range of Anki's millisecond ids. */
-    private fun stableId(name: String): Long = 1_600_000_000_000L + Sha1.hex(name.encodeToByteArray()).take(8).toLong(16) % 100_000_000_000L
-
     private fun sql(text: String): String = "'" + text.replace("\u0000", "").replace("'", "''") + "'"
 
     private fun conf(modelId: Long): String = buildJsonObject {

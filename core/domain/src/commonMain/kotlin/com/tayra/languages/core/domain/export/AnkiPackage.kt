@@ -9,7 +9,16 @@ data class AnkiNote(val guid: String, val deck: String, val fields: List<String>
 class AnkiMedia(val name: String, val bytes: ByteArray)
 
 /** A cloze note type: field names, the card's templates and its styling. */
-data class AnkiNoteType(val name: String, val fields: List<String>, val front: String, val back: String, val css: String)
+data class AnkiNoteType(val name: String, val fields: List<String>, val front: String, val back: String, val css: String) {
+    /**
+     * The id an .apkg gives the note type, the same in every export, so that Anki keeps one note
+     * type for Tayra's cards rather than adding another each time.
+     */
+    val id: Long get() = stableAnkiId(name)
+}
+
+/** An id made from [name], the same in every export: of a note type or a deck. */
+internal fun stableAnkiId(name: String): Long = 1_600_000_000_000L + Sha1.hex(name.encodeToByteArray()).take(8).toLong(16) % 100_000_000_000L
 
 data class AnkiCollection(val noteType: AnkiNoteType, val notes: List<AnkiNote>, val media: List<AnkiMedia>)
 

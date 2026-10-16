@@ -252,18 +252,31 @@ class AnkiExportTest {
         assertEquals("da39a3ee5e6b4b0d3255bfef95601890afd80709", Sha1.hex(ByteArray(0)))
     }
 
-    /** AnkiConnect as Anki answers: it has no Tayra note type yet, and already has the second card. */
-    private class FakeAnkiConnect {
+    /** A note type in the fake Anki: its id, fields, card templates and styling. */
+    private class FakeModel(val id: Long, val fields: List<String>, val front: String, val back: String, val css: String)
+
+    /**
+     * AnkiConnect as Anki answers: with no Tayra note type unless [models] are given, and the second
+     * card already in it.
+     */
+    private class FakeAnkiConnect(val models: Map<String, FakeModel> = mapOf("Basic" to FakeModel(1, listOf("Front", "Back"), "{{Front}}", "{{Back}}", ""))) {
         val calls = mutableListOf<Pair<String, kotlinx.serialization.json.JsonObject?>>()
         val client = io.ktor.client.HttpClient(io.ktor.client.engine.mock.MockEngine { request ->
             val body = kotlinx.serialization.json.Json.parseToJsonElement((request.body as io.ktor.http.content.TextContent).text).jsonObject
             val action = body["action"]!!.jsonPrimitive.content
             val params = body["params"] as? kotlinx.serialization.json.JsonObject
             calls += action to params
+            val model = params?.get("modelName")?.jsonPrimitive?.content?.let { models[it] }
+            val quote = { text: String -> kotlinx.serialization.json.JsonPrimitive(text).toString() }
             val result = when (action) {
                 "version" -> "6"
-                "modelNames" -> """["Basic"]"""
-                "canAddNotesWithErrorDetail" -> """[{"canAdd": true}, {"canAdd": false, "error": "cannot create note because it is a duplicate"}]"""
+                "modelNamesAndIds" -> models.entries.joinToString(", ", "{", "}") { (name, m) -> "${quote(name)}: ${m.id}" }
+                "modelFieldNames" -> model!!.fields.joinToString(", ", "[", "]") { quote(it) }
+                "modelTemplates" -> "{\"Cloze\": {\"Front\": ${quote(model!!.front)}, \"Back\": ${quote(model.back)}}}"
+                "modelStyling" -> "{\"css\": ${quote(model!!.css)}}"
+                "canAddNotesWithErrorDetail" -> List(params!!["notes"]!!.jsonArray.size) { i ->
+                    if (i == 0) """{"canAdd": true}""" else """{"canAdd": false, "error": "cannot create note because it is a duplicate"}"""
+                }.joinToString(", ", "[", "]")
                 "addNotes" -> "[1700000000000]"
                 else -> "null"
             }
@@ -285,7 +298,7 @@ class AnkiExportTest {
         val sent = env.service.send(listOf(hesitou, lobo), connection)!!
         assertEquals(1, sent.added)
         assertEquals(1, sent.duplicates)
-        assertEquals(listOf("version", "modelNames", "createModel", "createDeck", "canAddNotesWithErrorDetail", "storeMediaFile", "addNotes"), anki.calls.map { it.first })
+        assertEquals(listOf("version", "modelNamesAndIds", "createModel", "createDeck", "canAddNotesWithErrorDetail", "storeMediaFile", "addNotes"), anki.calls.map { it.first })
         val model = anki.calls.first { it.first == "createModel" }.second!!
         assertEquals("Tayra Languages", model["modelName"]!!.jsonPrimitive.content)
         assertEquals(AnkiExportService.FIELDS.size, model["inOrderFields"]!!.jsonArray.size)
@@ -297,6 +310,39 @@ class AnkiExportTest {
 
         // Both are in Anki now, the duplicate too, so neither is sent again.
         assertEquals(null, env.service.send(listOf(hesitou, lobo), connection))
+    }
+
+    /**
+     * An Anki that has an old "Tayra Languages" a former version made, and the note type an export
+     * brought, renamed "Tayra Languages++" for the name was taken: cards are sent to the export's,
+     * and Tayra's note types get the current design, but not one that lacks a field, nor another's.
+     */
+    @Test
+    fun cardsSentGoToTheExportsNoteTypeInTheCurrentDesign() = runBlocking<Unit> {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val lobo = env.terms.save(Term(languageId = language, text = "lobo", textLc = "lobo", status = TermStatus.NEW_2, translation = "wolf", sentence = "O lobo dorme."))
+        val type = AnkiExportService.noteType()
+        val fields = AnkiExportService.FIELDS
+        val anki = FakeAnkiConnect(
+            mapOf(
+                "Tayra Languages" to FakeModel(1790997078931, fields, "<div class=\"dc-card\">old</div>", "old back", ".dc-card {}"),
+                "Tayra Languages++" to FakeModel(type.id, fields, type.front, type.back, type.css),
+                "Tayra Languages+" to FakeModel(1790997420144, fields.dropLast(1), "old", "old", "old"),
+                "Tayra Languages Old" to FakeModel(5, fields, "mine", "mine", "mine"),
+            ),
+        )
+        env.service.send(listOf(lobo), com.tayra.languages.core.data.export.AnkiConnectClient(anki.client))
+
+        assertEquals(null, anki.calls.firstOrNull { it.first == "createModel" })
+        val note = anki.calls.first { it.first == "addNotes" }.second!!["notes"]!!.jsonArray.single().jsonObject
+        assertEquals("Tayra Languages++", note["modelName"]!!.jsonPrimitive.content)
+        val restyled = anki.calls.filter { it.first == "updateModelTemplates" || it.first == "updateModelStyling" }
+            .map { it.first to it.second!!["model"]!!.jsonObject["name"]!!.jsonPrimitive.content }
+        assertEquals(listOf("updateModelTemplates" to "Tayra Languages", "updateModelStyling" to "Tayra Languages"), restyled)
+        val templates = anki.calls.first { it.first == "updateModelTemplates" }.second!!["model"]!!.jsonObject["templates"]!!.jsonObject["Cloze"]!!.jsonObject
+        assertEquals(type.front, templates["Front"]!!.jsonPrimitive.content)
+        assertEquals(type.back, templates["Back"]!!.jsonPrimitive.content)
     }
 
     @Test
