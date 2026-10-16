@@ -1,0 +1,239 @@
+{
+  "id": "sv-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Kemi och material",
+  "description": "Ten standalone texts about chemistry and materials in everyday Swedish life: a village smithy, a school lab, beeswax candles, old electronics, a chemist's career, a crime novel, a flooded museum store, a wooden high-rise, a lab afterwork and a patented stain remover that runs into the law.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Dalarna",
+    "Olle",
+    "Olles",
+    "Berg",
+    "Bergs",
+    "Sara",
+    "Saras",
+    "Lind",
+    "Linds",
+    "Uppsala",
+    "Elias",
+    "Moa",
+    "Moas",
+    "Östersund",
+    "Maja",
+    "Majas",
+    "Viktor",
+    "Viktors",
+    "Karin",
+    "Karins",
+    "Sverige",
+    "Sveriges",
+    "Lejla",
+    "Lejlas",
+    "Hasanović",
+    "Jugoslavien",
+    "Bosnien",
+    "Småland",
+    "Stockholm",
+    "Konserthuset",
+    "Helena",
+    "Kvist",
+    "Kvists",
+    "Ylva",
+    "Ylvas",
+    "Sund",
+    "Linköping",
+    "Gävle",
+    "Annika",
+    "Annikas",
+    "Holm",
+    "Peter",
+    "Peters",
+    "Lund",
+    "Kongo",
+    "Skellefteå",
+    "Göran",
+    "Görans",
+    "Nyberg",
+    "Nybergs",
+    "Malmö",
+    "Ida",
+    "Idas",
+    "Nora",
+    "Noras",
+    "Mats",
+    "Hanna",
+    "Hannas",
+    "Ek",
+    "Jonas",
+    "Lindqvist",
+    "Umeå",
+    "Örnsköldsvik",
+    "Härnösand",
+    "Europa",
+    "EU"
+  ],
+  "lessons": [
+    {
+      "title": "Smeden i den avskilda byn",
+      "summary": "A reporter visits a village smith who makes spare parts, welds machines and forges a new mount for the church bell.",
+      "newWords": [
+        "smed",
+        "svetsa",
+        "avskild",
+        "bybo",
+        "kyrkklocka",
+        "knaka",
+        "spak",
+        "reservdel",
+        "renässans"
+      ],
+      "text": "Smedjan ligger i en avskild by i norra Dalarna, där vägen tar slut vid en sjö och skogen tar vid på alla sidor. Byn är så avskild att bussen bara kommer två gånger om dagen, och på vintern ibland inte alls. Ändå har smeden Olle Berg aldrig saknat arbete.\n\nDen tunga trädörren knakar när jag öppnar den, och golvet knakar under mina fötter. Inne i smedjan är luften varm och luktar rök och metall. Olle står vid elden med en bit järn i tången. Med vänster hand drar han i en lång spak av trä. Varje gång han drar i spaken blåser det luft in i elden, och kolen lyser vitare.\n\n”Elden behöver syre”, förklarar han. ”Ju mer luft, desto varmare blir kolen. Vid ungefär 1200 grader blir järnet så mjukt att man kan forma det.”\n\nOlle är smed i fjärde generationen. Hans farfars far var också smed, och han gjorde spikar, yxor och redskap åt byborna. I dag ser arbetet annorlunda ut. Byborna kommer fortfarande till honom, men nu oftast med en trasig traktor eller en gammal gräsklippare. Till gamla maskiner är det svårt att få tag på reservdelar, och därför tillverkar Olle reservdelarna själv. Ibland svetsar han ihop en bruten del i stället för att göra en ny.\n\n”Att smida och att svetsa är två olika saker”, säger han. ”När jag smider värmer jag järnet och formar det med hammaren. När jag svetsar smälter jag ihop två bitar metall med hjälp av elektricitet. Båda behövs i en by som den här.”\n\nÅrets ovanligaste uppdrag kom från kyrkan. Kyrkklockan, som är gjord av brons, hade lossnat från sitt fäste av järn. Brons är en blandning av koppar och en annan metall, och den här kyrkklockan göts redan på 1700-talet. En så gammal metall går inte att svetsa hur som helst, eftersom den lätt kan spricka. Därför gjorde Olle i stället ett helt nytt fäste av järn. När kyrkklockan ringde igen på julafton stod nästan alla bybor utanför kyrkan och lyssnade.\n\nOlle tror att hantverket just nu upplever en renässans. Unga människor från städerna hör av sig och vill gå kurs hos honom. ”Folk vill göra något med händerna”, säger han och drar i spaken igen. ”Det är en sorts renässans för det gamla, och den tänker jag ta vara på.”\n\nFrågor:\nVar ligger smedjan?\nSmedjan ligger i en avskild by i norra Dalarna, där vägen tar slut vid en sjö.\nVarför drar Olle i spaken?\nNär han drar i spaken blåser det luft in i elden, och elden behöver syre för att kolen ska bli varmare.\nVarför tillverkar Olle reservdelar själv?\nDet är svårt att få tag på reservdelar till gamla maskiner, så Olle gör dem själv.\nVad är skillnaden mellan att smida och att svetsa?\nNär han smider formar han varmt järn med hammaren, och när han svetsar smälter han ihop två bitar metall med elektricitet.\nVarför svetsade Olle inte kyrkklockan?\nKyrkklockan är gjord av gammal brons som lätt kan spricka, så han gjorde i stället ett nytt fäste av järn.\nVad menar Olle med en renässans för hantverket?\nHan menar att unga människor från städerna åter vill lära sig hantverket och göra något med händerna."
+    },
+    {
+      "title": "Rödkål som indikator",
+      "summary": "A chemist who became a teacher lets her pupils test acids and bases with red-cabbage juice and write their own glossary.",
+      "newWords": [
+        "indikator",
+        "kemist",
+        "skolbarn",
+        "petig",
+        "ordlista",
+        "snegla",
+        "lättillgänglig",
+        "likartad",
+        "samhällskunskap"
+      ],
+      "text": "Sara Lind är kemist. I tolv år arbetade hon på ett laboratorium i Uppsala, där hon analyserade prover åt läkemedelsindustrin. För tre år sedan bytte hon yrke och blev lärare. Nu undervisar hon skolbarn i årskurs sju, och hon har märkt att en kemist kan lära sig mycket av tolvåringar.\n\nEn tisdag i mars ställer hon en stor kastrull på bänken längst fram i klassrummet. I kastrullen finns en mörkt lila vätska. ”Det här är saft från kokt rödkål”, säger hon. ”I dag ska den vara vår indikator.”\n\nHon skriver ordet på tavlan och förklarar. En indikator är ett ämne som byter färg beroende på om en lösning är sur eller basisk. På laboratoriet använde hon dyra indikatorer, men rödkål fungerar nästan lika bra. Dessutom är den lättillgänglig: den finns i varje mataffär och kostar bara några kronor. ”En bra indikator behöver inte vara dyr”, säger hon. ”Den måste bara vara lättillgänglig och pålitlig.”\n\nSkolbarnen arbetar två och två. Varje par får sex små glas, lite rödkålssaft och sex vätskor att testa: citronsaft, vinäger, vatten, mjölk, en lösning av bakpulver och lite tvål. Vissa elever sneglar på grannens glas för att se vem som får de vackraste färgerna. Andra sneglar på klockan, för de vet att det snart är rast.\n\nElias är den mest petiga eleven i klassen. Han mäter varje droppe med en sked och skriver upp allt i sitt block. ”Måste du vara så petig?” frågar hans kompis Moa. ”Ja”, svarar Elias. ”En kemist måste vara petig, annars kan man inte lita på resultatet.” Sara ler. Det är precis det hon själv brukar säga.\n\nResultaten blir tydliga. I citronsaften och vinägern blir saften röd. Färgerna är likartade, och Sara frågar varför. Moa räcker upp handen: ”Båda är sura.” I bakpulvret blir saften blågrön och i tvålen nästan gul, eftersom de är basiska. I vattnet förblir den lila.\n\nTill sist skriver klassen en gemensam ordlista på tavlan: syra, bas, neutral, lösning och indikator. Bredvid varje ord står en kort förklaring med elevernas egna ord. Sara fotograferar ordlistan och lovar att lägga ut den på skolans webbsida.\n\nSedan ringer det in, och skolbarnen går vidare till samhällskunskap. Läraren i samhällskunskap frågar vad de har gjort på kemin. Elias förklarar noggrant, och han glömmer inte ett enda ord ur ordlistan.\n\nFrågor:\nVad gjorde Sara Lind innan hon blev lärare?\nHon arbetade som kemist på ett laboratorium i Uppsala i tolv år.\nVad är en indikator?\nEn indikator är ett ämne som byter färg beroende på om en lösning är sur eller basisk.\nVarför använder Sara rödkål som indikator?\nRödkål fungerar nästan lika bra som dyra indikatorer, och den är lättillgänglig och billig.\nVarför är Elias så petig?\nHan menar att en kemist måste vara petig, annars kan man inte lita på resultatet.\nVarför blir färgerna i citronsaften och vinägern likartade?\nFärgerna blir likartade eftersom både citronsaft och vinäger är sura.\nVad skriver klassen på tavlan till sist?\nKlassen skriver en gemensam ordlista med orden syra, bas, neutral, lösning och indikator."
+    },
+    {
+      "title": "Vax och snö på sportlovet",
+      "summary": "On the winter break a mother and her two children melt beeswax, make candles in seashells and learn why wax is used in make-up.",
+      "newWords": [
+        "vax",
+        "sportlov",
+        "lillen",
+        "kladda",
+        "gudomligt",
+        "pula",
+        "snäcka",
+        "makeup",
+        "sirap"
+      ],
+      "text": "Det första sportlovet efter flytten till Östersund blev inte som familjen hade tänkt sig. Det var så kallt att liftarna i backen stod still, och Maja, som är elva år, satt mest inne och läste. Hennes lillebror Viktor, som alla i familjen kallar lillen, var ute i trädgården och pulade i snön. Han kunde pula i timmar med en röd spade och var aldrig ledsen över kylan.\n\nPå onsdagen kom mamma Karin hem med en påse från en biodlare i grannbyn. I påsen låg tre gula block av vax. ”I dag gör vi ljus”, sa hon. ”Det här är vax som bina själva har tillverkat.”\n\nMaja ville genast veta vad vax egentligen är. Mamma, som undervisar i kemi på gymnasiet, förklarade att vax består av långa molekyler som är fettlika. Vid rumstemperatur är vaxet fast, men när man värmer det till drygt 60 grader smälter det. Man får aldrig värma vax direkt på plattan, sa hon, utan alltid i en burk som står i en kastrull med varmt vatten.\n\nSnart började vaxet smälta. Först blev det mjukt, sedan trögt som sirap, och till slut flöt det lätt i burken. Hela köket doftade gudomligt av honung. ”Det luktar gudomligt”, sa Maja. ”Det luktar som pannkakor med sirap.”\n\nSom formar använde de snäckor som barnen hade samlat på stranden i somras. Mamma satte en bit veke i varje snäcka, och Maja hällde försiktigt i det flytande vaxet. Lillen kom in med röda kinder och ville också vara med. Han fick hälla i den minsta snäckan, men han kladdade med vaxet över hela bordet. ”Det gör ingenting”, sa mamma. ”Vax som kladdar går att skrapa bort när det har stelnat.”\n\nMedan ljusen svalnade berättade mamma att vax också finns i många saker som man inte tänker på. Det finns i skokräm, i läppbalsam och i makeup. I till exempel mascara gör vaxet att färgen sitter kvar på fransarna. Maja, som har börjat intressera sig för makeup, blev förvånad. ”Så när jag använder makeup har jag lite bin i ansiktet?” frågade hon. Mamma skrattade. ”Ja, på ett sätt.”\n\nPå kvällen tände de ljusen i snäckorna på bordet. Lillen hade kladdat lite på sitt ljus, men det brann lika fint som de andra. Ute föll snön igen, och Maja tänkte att det kanske ändå var ett ganska bra sportlov.\n\nFrågor:\nVad gjorde lillen ute i trädgården?\nLillen pulade i snön med en röd spade, och han kunde pula i timmar.\nVarför ska man inte värma vax direkt på plattan?\nMan ska värma vaxet i en burk som står i en kastrull med varmt vatten, så att det smälter försiktigt.\nHur luktade det i köket när vaxet smälte?\nDet doftade gudomligt av honung, och Maja tyckte att det luktade som pannkakor med sirap.\nVad använde familjen som formar till ljusen?\nDe använde snäckor som barnen hade samlat på stranden i somras.\nVarför finns det vax i makeup?\nI till exempel mascara gör vaxet att färgen sitter kvar på fransarna.\nHur gick det när lillen hällde i vaxet?\nHan kladdade med vaxet över hela bordet, men hans ljus brann lika fint som de andra."
+    },
+    {
+      "title": "Guldet i lådan",
+      "summary": "A columnist clears out a drawer of old phones and a graphics card and reflects on the metals that leave our homes unnoticed.",
+      "newWords": [
+        "grafikkort",
+        "soptipp",
+        "lagring",
+        "försändelse",
+        "telefonförsäljare",
+        "oväsentlig",
+        "obemärkt",
+        "bankomat",
+        "inflöde"
+      ],
+      "text": "En kväll i november ringde en telefonförsäljare. Han var vänlig och talade snabbt, och han erbjöd mig en ny mobil till ett pris som han kallade ”nästan gratis”. Jag sa nej tack, som man gör. Men när samtalet var slut gick jag ut i hallen och öppnade den låda som jag sällan öppnar.\n\nDär låg de: fyra gamla mobiler, två laddare, en trasig surfplatta och ett grafikkort som min son plockade ur sin dator för flera år sedan. Grafikkortet var tungt för sin storlek och täckt av damm. Jag vände på det i handen och undrade vad det egentligen är gjort av.\n\nSvaret är förvånande. Ett grafikkort, liksom en mobil, innehåller små mängder guld, silver, koppar och en rad mer sällsynta metaller. I varje enskild apparat är mängden oväsentlig, bara några tiondels gram. Men i Sverige finns miljontals gamla mobiler i lådor, och tillsammans är det som verkar oväsentligt plötsligt värt mycket pengar. Ännu viktigare är att metallerna har grävts upp ur jorden en gång, ofta under svåra förhållanden.\n\nVarje år köper vi nya apparater. Inflödet av elektronik till våra hem är stort och jämnt, medan utflödet nästan inte märks. Ett stort inflöde och ett osynligt utflöde: så ser det ut i de flesta hem. De gamla sakerna försvinner obemärkt, antingen ner i en låda eller ut till soptippen. Jag tror att det är just därför vi bryr oss så lite: det som sker obemärkt väcker inga känslor.\n\nTänk dig att du tar ut en sedel ur en bankomat och sedan slänger den i soporna. Ingen skulle göra det. Ändå slänger vi små mängder guld på soptippen varje dag, utan att tänka på det. Skillnaden är bara att sedeln från bankomaten ser ut som pengar, och mobilen gör det inte.\n\nDet finns också en annan anledning till att lådorna är fulla. Många av oss är rädda för vad som finns kvar i apparaterna. En gammal mobil är inte bara metall och plast, utan också lagring av bilder, meddelanden och minnen. Den lagringen vill man inte lämna till vem som helst. Därför sparar vi hellre mobilen än att lämna in den.\n\nDagen efter samtalet raderade jag allt innehåll i mobilerna. Några veckor senare kom en försändelse med posten: ett kuvert från ett företag som samlar in gammal elektronik. Jag lade grafikkortet och mobilerna i kuvertet och skickade tillbaka försändelsen. Det kostade ingenting.\n\nLådan i hallen är nu nästan tom. Nästa gång en telefonförsäljare ringer ska jag fråga honom vart min gamla mobil tar vägen när jag köper en ny.\n\nFrågor:\nVad erbjöd telefonförsäljaren skribenten?\nHan erbjöd en ny mobil till ett pris som han kallade nästan gratis.\nVad fanns i lådan i hallen?\nDet fanns fyra gamla mobiler, två laddare, en trasig surfplatta och ett grafikkort.\nHur ser inflödet av elektronik ut i våra hem?\nInflödet av elektronik är stort och jämnt, medan utflödet nästan inte märks.\nVarför bryr vi oss så lite om elektroniken vi slänger, enligt skribenten?\nDe gamla sakerna försvinner obemärkt till en låda eller till soptippen, och det väcker inga känslor.\nVad vill skribenten visa med exemplet om bankomaten?\nIngen skulle slänga en sedel från en bankomat, men vi slänger guld på soptippen utan att tänka på det.\nVarför sparar många människor sina gamla mobiler?\nEn mobil är också lagring av bilder och minnen, och den lagringen vill man inte lämna till vem som helst."
+    },
+    {
+      "title": "Kemisten som lyssnade på bubblor",
+      "summary": "A profile of a chemist who came to Sweden as a refugee child, studied how ultrasound drives chemical reactions and received the Nobel Prize.",
+      "newWords": [
+        "nobelpristagare",
+        "asylinvandring",
+        "asylskäl",
+        "förläggare",
+        "beundran",
+        "ultraljud",
+        "dynamik",
+        "befängd",
+        "statschef",
+        "överhuvud"
+      ],
+      "text": "När Lejla Hasanović var nio år gammal kom hon till Sverige med sina föräldrar, sin lillebror och sin farfar. Det var i början av 1990-talet, under den stora asylinvandringen från det forna Jugoslavien. Familjen hade flytt från kriget i Bosnien, och deras asylskäl prövades under ett långt och oroligt år i en förläggning i Småland. Lejla minns framför allt väntan. ”Vi visste att våra asylskäl var starka”, säger hon, ”men man vet aldrig säkert förrän beslutet kommer.”\n\nFamiljen fick stanna. Farfadern, som var familjens överhuvud, bestämde att barnen skulle lära sig svenska fortare än någon annan i skolan. Som familjens överhuvud tog han också på sig att läsa högt för dem varje kväll, ur svenska barnböcker som han själv knappt förstod. I dag talar Lejla om honom med djup beundran.\n\nDen asylinvandring som Sverige tog emot på 1990-talet diskuteras fortfarande. Lejla vill helst inte tala politik. Hon säger bara att hon är ett av många barn från den tiden som har fått ett gott liv här.\n\nKemin upptäckte hon på gymnasiet. Senare, som forskare i Uppsala, började hon intressera sig för ultraljud, alltså ljud med så hög frekvens att det mänskliga örat inte kan höra det. När ultraljud skickas genom en vätska bildas mycket små bubblor som växer och sedan plötsligt faller ihop. I det ögonblicket blir det för en kort stund oerhört varmt inne i bubblan, och där kan kemiska reaktioner ske som annars kräver stora mängder energi.\n\nLejla ville förstå bubblornas dynamik: hur de föds, växer och dör, och varför vissa bubblor driver reaktioner bättre än andra. Många kolleger tyckte i början att idén var befängd. ”En äldre professor sa rakt ut att det var en befängd tanke att man skulle kunna styra kemi med ljud”, berättar hon och skrattar. Men hon fortsatte, och efter femton år kunde hennes forskargrupp beskriva bubblornas dynamik så noga att industrin kunde tillverka vissa läkemedel med mycket mindre energi än förut.\n\nI december i fjol blev hon nobelpristagare i kemi. Hon tog emot priset i Konserthuset i Stockholm ur händerna på kungen, som är Sveriges statschef. ”När statschefen räckte mig medaljen tänkte jag på min farfar”, säger hon. ”Han dog för många år sedan, men det var han som lärde mig att läsa.”\n\nSom nobelpristagare får hon nu många förfrågningar. En förläggare i Stockholm har bett henne skriva en bok om sitt liv. Hon har sagt ja, men på ett villkor: att boken också handlar om farfadern. Förläggaren gick genast med på det.\n\nFrågor:\nVarför kom Lejla Hasanović till Sverige?\nFamiljen kom under asylinvandringen i början av 1990-talet, eftersom de hade flytt från kriget i Bosnien.\nVem var familjens överhuvud?\nFarfadern var familjens överhuvud, och han läste högt för barnen varje kväll.\nHur talar Lejla om sin farfar i dag?\nHon talar om honom med djup beundran, eftersom det var han som lärde henne att läsa.\nVad händer när ultraljud skickas genom en vätska?\nDet bildas små bubblor som växer och faller ihop, och inne i dem blir det för en kort stund mycket varmt.\nVad tyckte kollegerna om Lejlas idé i början?\nMånga tyckte att idén var befängd, och en professor sa att det var en befängd tanke att styra kemi med ljud.\nVad har en förläggare bett henne om?\nEn förläggare har bett henne skriva en bok om sitt liv, och den ska också handla om farfadern."
+    },
+    {
+      "title": "Recension: Spåren i glaset",
+      "summary": "A newspaper review of a crime novel whose heroine is a forensic chemist, praising its real chemistry and its calm tone.",
+      "newWords": [
+        "fiktion",
+        "seriemördare",
+        "alibi",
+        "tillslag",
+        "ligist",
+        "labyrint",
+        "hemskhet",
+        "förlopp",
+        "hittepå"
+      ],
+      "text": "Det kommer ut fler kriminalromaner i Sverige än någonsin, och de flesta liknar varandra. Därför blir man glad när en bok tar genren på allvar och ändå gör något nytt. ”Spåren i glaset” av Helena Kvist är en sådan bok.\n\nHuvudpersonen heter Ylva Sund. Hon är inte polis utan kemist på ett laboratorium i Linköping, där hon analyserar spår som polisen hittar: fibrer, färg, damm och glas. Ylva tycker om sitt arbete eftersom det är lugnt. Hon behöver aldrig springa efter någon. Hennes vapen är mikroskopet.\n\nBoken börjar med att tre inbrott sker i tre olika villor under samma vecka. Den som väntar sig en seriemördare blir besviken. I många svenska kriminalromaner finns det en seriemördare, men i Kvists bok dör ingen. Det som händer är brott mot saker, inte mot människor, och läsaren slipper alla de hemskheter som fyller så många andra böcker i genren. Jag saknar inte en enda av dessa hemskheter.\n\nPolisen misstänker först ett gäng unga ligister från en förort, som tidigare har ställt till med bråk i centrum. Men ligisterna har ett alibi: de var på en fotbollsmatch, och det finns bilder som visar det. Ett alibi som bygger på bilder är svårt att rubba. I stället riktas misstankarna mot en äldre man, och hans alibi verkar först lika säkert.\n\nHär blir boken verkligen intressant. Ylva hittar små glasbitar i mannens jacka och jämför dem med glaset från ett krossat fönster i en av villorna. Kvist beskriver hela förloppet i labbet steg för steg: hur glaset tvättas, hur det mäts och hur man kan se om två bitar kommer från samma fönster. Förloppet tar tre dagar i boken, och det är spännande trots att det bara sker i ett rum med vita väggar.\n\nIntrigen är en labyrint, men en labyrint med tydliga skyltar. Läsaren går aldrig vilse. Varje gång en väg tar slut förklarar Kvist varför, och man börjar om tillsammans med Ylva.\n\nBokens höjdpunkt är polisens tillslag mot en lagerlokal i hamnen. Tillslaget beskrivs kort, utan blod och utan skott, eftersom Ylva inte är där. Hon får bara ett sms: ”Du hade rätt.”\n\nNaturligtvis är allt detta fiktion. Personerna är hittepå, och Linköping i boken liknar bara delvis den riktiga staden. Men kemin är inte hittepå. Kvist har själv arbetat i ett laboratorium, och det märks. Det är sällan som fiktion lär läsaren så mycket om verkligheten.\n\nFrågor:\nVad arbetar Ylva Sund med?\nYlva Sund är kemist och analyserar spår som polisen hittar, till exempel glas och damm.\nVarför blir den som väntar sig en seriemördare besviken?\nDet finns ingen seriemördare i boken, och ingen dör, eftersom brotten bara gäller saker.\nVarför kan ligisterna inte vara skyldiga?\nLigisterna har ett alibi: de var på en fotbollsmatch, och det finns bilder som visar det.\nVilket förlopp beskriver Kvist steg för steg?\nHon beskriver förloppet i labbet, när Ylva jämför glasbitar från jackan med glaset från fönstret.\nHur beskriver recensenten intrigen?\nIntrigen är en labyrint, men en labyrint med tydliga skyltar, så att läsaren aldrig går vilse.\nVad i boken är hittepå och vad är det inte?\nPersonerna är hittepå, men kemin är det inte, eftersom författaren själv har arbetat i ett laboratorium."
+    },
+    {
+      "title": "Vattnet i källaren",
+      "summary": "After a storm floods a museum's basement store, a conservator's working group dries the objects and puts the mouldy ones in quarantine.",
+      "newWords": [
+        "översvämma",
+        "karantän",
+        "arbetsgrupp",
+        "avdelningschef",
+        "stillastående",
+        "runa",
+        "kulturhistorisk",
+        "synagoga",
+        "missionär"
+      ],
+      "text": "Natten till den 14 augusti föll det mer regn över Gävle än det brukar falla på en hel månad. Gatorna översvämmades, och på morgonen stod vattnet en halv meter högt i länsmuseets källare. Där, i det stora magasinet, förvarades tusentals föremål som inte visades i utställningarna.\n\nAnnika Holm är konservator på museet. Hennes uppgift är att vårda föremål så att de håller i hundratals år till. När hon kom ner i källaren klockan sju luktade det jord och fukt. Vattnet var stillastående och grått. ”Stillastående vatten är det värsta”, förklarade hon senare. ”Det är fullt av bakterier, och i värmen kan mögel börja växa på bara två dygn.”\n\nMuseets avdelningschef, Peter Lund, samlade personalen redan samma förmiddag. Han bildade en arbetsgrupp på åtta personer med Annika som ledare. Arbetsgruppen hade en enkel regel: först pappret och tyget, sedan träet, sist metallen och stenen. Papper och tyg tål minst fukt, medan metall och sten kan vänta några dagar.\n\nBland de föremål som räddades först fanns en runstav från 1600-talet, en träkalender där varje dag är markerad med en runa. Runorna är snidade i träet, och varje runa står för en veckodag. Annika lät runstaven torka långsamt i ett svalt rum, eftersom trä som torkar för fort kan spricka.\n\nEn annan kulturhistorisk skatt var en samling textilier från en synagoga som funnits i staden i början av 1900-talet. När synagogan stängdes skänktes tygerna till museet. Arbetsgruppen lade dem i frysen, som man gör med blöta böcker och tyger. Kylan stoppar möglet, och sedan kan man torka föremålen i lugn och ro.\n\nMest bekymmer gav en låda med föremål som en missionär hade fört hem från Kongo på 1920-talet. Missionären hade skrivit små lappar till varje föremål, och lapparna hade blivit blöta. På några av dem hade möglet redan börjat växa. Dessa föremål sattes i karantän: ett eget rum med låg luftfuktighet där inget annat fick förvaras. Karantänen varade i sex veckor, för att möglet inte skulle sprida sig till resten av samlingarna.\n\nI november var arbetet nästan klart. Av mer än 3000 föremål hade bara 20 förstörts. Avdelningschefen tackade arbetsgruppen vid ett litet möte och sa att museets kulturhistoriska samlingar aldrig hade varit i så goda händer. Nu ska magasinet flyttas upp till andra våningen, så att det aldrig mer kan översvämmas.\n\nFrågor:\nVad hände med museets källare i augusti?\nEfter ett kraftigt regn översvämmades källaren, och vattnet stod en halv meter högt i magasinet.\nVarför var det stillastående vattnet farligt?\nStillastående vatten är fullt av bakterier, och mögel kan börja växa på bara två dygn.\nVilken regel hade arbetsgruppen?\nArbetsgruppen tog först hand om papper och tyg, sedan trä och sist metall och sten.\nVad är en runstav?\nEn runstav är en träkalender där varje dag är markerad med en runa.\nVarför sattes missionärens föremål i karantän?\nMöglet hade börjat växa på missionärens lappar, och det fick inte sprida sig till resten av samlingarna.\nVarför ska magasinet flyttas?\nMagasinet ska flyttas upp till andra våningen, så att det aldrig mer kan översvämmas."
+    },
+    {
+      "title": "Ett höghus av trä",
+      "summary": "A report follows the wood for a new timber high-rise from the forest to the town's main street, where the county governor opens the building.",
+      "newWords": [
+        "avverka",
+        "motorsåg",
+        "höghus",
+        "landshövding",
+        "banderoll",
+        "storgata",
+        "infart",
+        "garant",
+        "zebra"
+      ],
+      "text": "I skogen väster om Skellefteå står Göran Nyberg och lyssnar på tystnaden. Här, på hans mark, avverkades för två år sedan de granar som nu bär upp stadens nya höghus. ”Min farfar avverkade skog med motorsåg”, berättar han. ”Han kunde gå ut med motorsågen klockan sex på morgonen och komma hem först när det blev mörkt. I dag gör maskinerna det mesta.”\n\nVarje gran som avverkas här ersätts med nya plantor, och om 70 år är skogen lika tät som förut. Det är just därför trä kallas ett förnybart material. Men Göran vill inte göra det för enkelt. ”Att ett hus är byggt av trä är ingen garant för att det är bra för klimatet”, säger han. ”Den enda garant som finns är att man planterar ny skog och sköter den.”\n\nFrån skogen gick stammarna till ett sågverk och sedan till en fabrik, där träet limmades ihop i stora skivor. Skivorna är så starka att de kan ersätta betong i väggar och golv. De väger dessutom bara en femtedel så mycket, vilket gör att bygget går fortare och kräver färre transporter.\n\nHöghuset ligger mitt på stadens storgata. Det har 20 våningar med lägenheter, kontor och ett bibliotek längst ner. Från storgatan ser huset ut som vilket modernt hus som helst, men inne i trapphuset doftar det skog. Väggarna har inte målats, så att alla ska kunna se träet.\n\nBygget har inte varit enkelt för grannarna. Under två år var infarten till parkeringen bakom huset stängd, och lastbilar körde in och ut genom en tillfällig infart från en sidogata. Nu är den gamla infarten öppen igen, och utanför den har kommunen målat ett nytt övergångsställe. De vita och svarta ränderna är så breda och tydliga att barnen i området säger att det ser ut som en zebra. ”Vi går över zebran”, säger de, när de ska till skolan.\n\nEn lördag i maj invigdes huset. Över entrén hängde en stor banderoll med texten ”Välkommen hem”, och längs storgatan satt mindre banderoller på varje lyktstolpe. Länets landshövding klippte bandet. I sitt tal sa landshövdingen att huset visar vad norra Sverige kan bidra med: skog, kunskap och tålamod.\n\nGöran Nyberg stod längst bak i publiken. Han hade aldrig varit inne i ett höghus av trä förut. ”Det är konstigt”, sa han efteråt. ”Jag har gått bland de här träden i 40 år. Nu kan jag åka hiss upp genom dem.”\n\nFrågor:\nVad gjorde Görans farfar i skogen?\nGörans farfar avverkade skog med motorsåg från tidigt på morgonen tills det blev mörkt.\nVarför är ett hus av trä ingen garant för att det är bra för klimatet?\nDet är bara bra för klimatet om man planterar ny skog och sköter den.\nVar ligger det nya höghuset?\nHöghuset ligger mitt på stadens storgata och har 20 våningar.\nVad hände med infarten under bygget?\nInfarten till parkeringen var stängd i två år, och lastbilarna använde en tillfällig infart från en sidogata.\nVarför säger barnen att övergångsstället ser ut som en zebra?\nDe vita och svarta ränderna är breda och tydliga, precis som ränderna på en zebra.\nVem invigde huset, och vad stod det på banderollen?\nLänets landshövding invigde huset, och på banderollen stod det ”Välkommen hem”."
+    },
+    {
+      "title": "Afterwork med laboratoriet",
+      "summary": "At a Friday afterwork a paint-lab chemist explains the chemistry of a martini while her friend, who has her driving test the next day, sticks to soft drinks.",
+      "newWords": [
+        "afterwork",
+        "martini",
+        "tjejkompis",
+        "flört",
+        "fimpa",
+        "slutsåld",
+        "temperament",
+        "ytligt",
+        "uppkörning"
+      ],
+      "text": "Varje månad har laboratoriet på färgfabriken i Malmö afterwork. Den här fredagen i oktober tog Ida med sig sin tjejkompis Nora, som hon har känt sedan gymnasiet. Nora arbetar som sjuksköterska och visste nästan ingenting om kemi. Men hon tyckte om att gå på afterwork, och hon hade hört att Idas kolleger var trevliga.\n\nBaren låg på en bakgata nära kanalen. När de kom dit var det redan fullt. Idas chef, Mats, stod vid bardisken och vinkade. Han är känd för sitt temperament: han kan bli arg på en sekund och glad igen på nästa. Ida brukar säga att hans temperament är som en kemisk reaktion som går åt båda hållen.\n\nNora skulle ha sin uppkörning klockan nio dagen efter, och därför ville hon inte dricka alkohol. Hon frågade efter en alkoholfri öl, men den var slutsåld. Även den alkoholfria cidern var slutsåld. ”Allt som är gott blir alltid slutsålt först”, sa bartendern och blandade i stället en dryck av lime, ingefära och vatten med kolsyra.\n\nIda beställde en martini. Mats lutade sig fram och frågade om hon ville ha den skakad eller rörd. ”Rörd”, sa Ida. Sedan förklarade hon för Nora varför. Ytligt sett är en martini en mycket enkel drink: gin, lite vermouth och is. Men när man skakar den smälter mer av isen, så att drinken blir kallare men också mer utspädd. Små luftbubblor gör dessutom att den blir grumlig. När man rör den förblir den klar. ”Det är ren kemi”, sa Ida. ”Temperatur, vatten och luft.”\n\nEn ung man vid bordet bredvid hade länge tittat på Nora. Han kom fram, log och frågade om hon också var kemist. Nora skrattade och sa nej. Det blev en liten flört, inget mer. Ida såg på sin tjejkompis med ett leende. Hon visste att Nora tyckte om en oskyldig flört, men att hon inte ville bli sen hem.\n\nSenare gick Mats ut för att röka. Ida och Nora följde med för att få lite frisk luft. Mats fimpade cigaretten mot väggen och kastade fimpen i en askkopp. ”Det här var den sista”, sa han. ”På måndag ska jag fimpa för gott.” Ida hade hört det förut, men hon sa ingenting.\n\nKlockan tio tog Nora cykeln hem. Dagen efter ringde hon till Ida: hon hade klarat uppkörningen på första försöket. ”Det var bartenderns drink utan alkohol som gjorde det”, sa Ida. Nora hade bara lärt känna Idas kolleger ytligt, men hon lovade att komma med på nästa afterwork också.\n\nFrågor:\nVem tog Ida med sig till afterwork?\nIda tog med sig sin tjejkompis Nora, som hon har känt sedan gymnasiet.\nHur är Mats temperament?\nMats har ett temperament som gör att han kan bli arg på en sekund och glad igen på nästa.\nVarför drack Nora inte alkohol?\nNora skulle ha sin uppkörning klockan nio dagen efter.\nVarför ville Ida ha sin martini rörd och inte skakad?\nNär man skakar en martini blir den mer utspädd och grumlig, men när man rör den förblir den klar.\nVad sa Mats när han hade fimpat cigaretten?\nHan sa att det var den sista och att han skulle fimpa för gott på måndag.\nHur gick det för Nora dagen efter?\nNora klarade uppkörningen på första försöket."
+    },
+    {
+      "title": "Fläckborttagningen och lagen",
+      "summary": "Two chemists patent a new stain remover, run into the rules on hydrogen peroxide, lose in the administrative court and find a weaker formula with a new partner.",
+      "newWords": [
+        "förvaltningsrätt",
+        "delge",
+        "ensamrätt",
+        "terrorattack",
+        "partisekreterare",
+        "vedertagen",
+        "samarbetspartner",
+        "banner",
+        "inträda"
+      ],
+      "text": "Hanna Ek och Jonas Lindqvist träffades när de läste kemi i Umeå. För fem år sedan startade de ett litet företag i ett gammalt garage i Örnsköldsvik. Deras idé var enkel: ett medel mot fläckar som fungerar i kallt vatten, så att man kan tvätta vid låg temperatur och spara energi.\n\nMedlet bygger på väteperoxid, ett ämne som länge har använts för att bleka och rengöra. Att använda väteperoxid mot fläckar är alltså en vedertagen metod. Det nya var en tillsats som gör att ämnet verkar redan vid 20 grader. Hanna och Jonas sökte patent på sin uppfinning och fick det. Ett patent ger ensamrätt i 20 år, vilket betyder att ingen annan får tillverka eller sälja samma produkt under den tiden. Utan den ensamrätten hade företaget aldrig kunnat låna pengar av banken.\n\nProblemet kom från ett oväntat håll. Väteperoxid i hög koncentration kan användas för att tillverka sprängämnen. Efter flera terrorattacker i Europa beslutade EU därför att privatpersoner inte får köpa väteperoxid som är starkare än 12 procent. Reglerna kom till för att göra en ny terrorattack svårare, och få människor ifrågasätter dem. Men Hanna och Jonas medel innehöll 15 procent.\n\nEn dag i april fick företaget ett brev från myndigheten. Beslutet delgavs genom rekommenderat brev, och det var tydligt: produkten fick inte säljas i butik. ”När ett beslut delges får man en tid att överklaga”, förklarar Jonas. ”Vi överklagade samma vecka.”\n\nFörvaltningsrätten i Härnösand prövade fallet under sommaren. I oktober kom domen. Förvaltningsrätten gav myndigheten rätt: reglerna gäller alla, också små företag med goda avsikter.\n\nFallet fick en del uppmärksamhet. I en radiodebatt tog en partisekreterare upp företaget som ett exempel på regler som drabbar små företag. En annan partisekreterare svarade att säkerheten måste gå först och att reglerna är vedertagna i hela Europa. Båda hade, på sitt sätt, en poäng.\n\nHanna och Jonas valde att inte vänta på politiken. De arbetade hela vintern med en svagare formel. Till slut hittade de en lösning på 11 procent som fungerade nästan lika bra. Nu fick de också en samarbetspartner: en stor kedja av livsmedelsbutiker. Kedjan inträdde som delägare i företaget och lovade att sälja medlet i alla sina butiker. Ett nytt läge hade inträtt.\n\nI dag syns produkten på en banner högst upp på kedjans webbsida. Hanna ler när hon ser bannern. ”Utan vår samarbetspartner hade vi kanske gett upp”, säger hon.\n\nFrågor:\nVad var nytt med Hanna och Jonas medel mot fläckar?\nMedlet hade en tillsats som gör att väteperoxid verkar redan i kallt vatten vid 20 grader.\nVad ger ett patent?\nEtt patent ger ensamrätt i 20 år, så att ingen annan får tillverka eller sälja samma produkt.\nVarför finns det regler om väteperoxid?\nEfter flera terrorattacker i Europa beslutade EU att privatpersoner inte får köpa stark väteperoxid, eftersom den kan användas för att tillverka sprängämnen.\nHur delgavs myndighetens beslut?\nBeslutet delgavs genom ett rekommenderat brev.\nVad kom förvaltningsrätten fram till?\nFörvaltningsrätten gav myndigheten rätt, eftersom reglerna gäller alla företag.\nVad gjorde den nya samarbetspartnern?\nKedjan inträdde som delägare och lovade att sälja medlet i alla sina butiker."
+    }
+  ]
+}

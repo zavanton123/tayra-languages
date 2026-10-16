@@ -1,0 +1,219 @@
+{
+  "id": "sv-mini-9400",
+  "rankUpTo": 9400,
+  "level": "C2",
+  "title": "Sällsynta yrken",
+  "description": "Ten stories about people in rare trades: a place-name researcher, a coachman, a castle guide, a piano tuner, a groundskeeper, a blaster, a cherry grower, a hospital clown, a plain-language expert and a calligrapher.",
+  "topic": "Rare professions",
+  "names": [
+    "Lena",
+    "Sjöberg",
+    "Uppsala",
+    "Småland",
+    "Ekhult",
+    "Sverige",
+    "Hjo",
+    "Vättern",
+    "Johan",
+    "Johans",
+    "Jönköping",
+    "Maria",
+    "Sjögren",
+    "Kristina",
+    "Kristinas",
+    "Gustav",
+    "Adolf",
+    "Karl",
+    "Linköping",
+    "Europa",
+    "Rom",
+    "Decio",
+    "Azzolino",
+    "Peterskyrkan",
+    "Erik",
+    "Strand",
+    "Eriks",
+    "Malmö",
+    "Skövde",
+    "Sara",
+    "Nilsson",
+    "Anders",
+    "Wikström",
+    "Sundsvall",
+    "Österlen",
+    "Hanna",
+    "Pia",
+    "Pias",
+    "Sofia",
+    "Ahl",
+    "Sofias",
+    "Elsa",
+    "Karin",
+    "Lundqvist",
+    "Lund",
+    "juli"
+  ],
+  "lessons": [
+    {
+      "title": "Namnen i landskapet",
+      "summary": "A place-name researcher explains to a farmer in Småland what the old words hult and heden say about his farm.",
+      "newWords": [
+        "hult",
+        "heden",
+        "berättare",
+        "veterligen",
+        "klarlägga",
+        "tidvis",
+        "bitvis",
+        "sammanfattningsvis",
+        "tillväga"
+      ],
+      "text": "Lena Sjöberg forskar om ortnamn. Det finns bara ett litet antal sådana forskare i Sverige, och de flesta av dem arbetar, liksom hon, på ett arkiv i Uppsala. Lena undersöker varför byar, sjöar och gårdar heter som de heter. Många tror att det är ett torrt arbete. Själv menar hon att varje namn är en liten berättelse, och att hon bara är en berättare som försöker återge den så troget som möjligt.\n\nEn vårdag får hon ett brev från en man i Småland. Han bor på en gård som heter Ekhult, och han vill veta vad namnet betyder. Lena börjar sitt svar med att förklara ordet hult. Ett hult är ett gammalt ord för en liten skog, oftast en lund av lövträd nära en by. I dag använder nästan ingen ordet hult i vardagen, men i södra Sverige lever det kvar i hundratals namn. Ekhult betyder alltså helt enkelt hultet med ekarna.\n\nMannen skriver tillbaka och frågar hur hon går tillväga när ett namn är svårare än så. Lena svarar att hon nästan alltid går tillväga på samma sätt. Först letar hon efter de äldsta skrivna formerna av namnet i gamla domböcker, skattelängder och kartor. Sedan jämför hon dem med hur människorna på orten uttalar namnet i dag. Till sist försöker hon klarlägga hur naturen på platsen en gång har sett ut. Sällan kan allt klarläggas helt, men ofta kommer hon nära.\n\nMannen har nämligen ännu en fråga. Bakom gården ligger en öppen mark med ljung och enar, som byborna bara kallar heden. Han undrar om det finns något samband mellan heden och hultet. Lena tar fram en karta från 1700-talet. Där kan man se att heden tidvis användes som bete för fåren och tidvis låg helt öde. Kartan visar också att hultet bitvis var nerhugget redan då, eftersom bönderna behövde ved och virke. Bitvis kan man alltså läsa gårdens historia direkt i landskapet: hultet med sina ekar i norr och heden med sin ljung i söder.\n\nVeterligen har ingen tidigare skrivit om gårdens namn, och det gläder Lena. Veterligen finns det inte heller några äldre kartor än den från 1700-talet, så längre bakåt än så kan hon inte komma. Det får räcka.\n\nI sitt sista brev ger hon mannen en kort sammanfattning, så som en god berättare gör i slutet av en historia. Sammanfattningsvis, skriver hon, berättar namnen om en by där människor har levt av skogen och av heden i minst 500 år. Ekarna i hultet gav virke och ved, och hedens ljung gav bete åt djuren. Mannen svarar att han ska rama in brevet och hänga det i köket. Lena ler när hon läser det. Någon gång ska hon kanske själv åka dit och gå över heden, ända fram till hultet.\n\nFrågor:\nVad arbetar Lena Sjöberg med?\nHon forskar om ortnamn och undersöker varför byar, sjöar och gårdar heter som de heter.\nVad betyder ordet hult?\nEtt hult är ett gammalt ord för en liten skog, oftast en lund av lövträd nära en by.\nHur går Lena tillväga när ett namn är svårt?\nHon letar efter de äldsta skrivna formerna, jämför dem med hur folk uttalar namnet och försöker klarlägga hur naturen har sett ut.\nVad visar kartan från 1700-talet om heden och hultet?\nDen visar att heden tidvis var bete och tidvis låg öde, och att hultet bitvis var nerhugget.\nVad skriver Lena sammanfattningsvis i sitt sista brev?\nHon skriver att namnen berättar om en by där människor har levt av skogen och av heden i minst 500 år."
+    },
+    {
+      "title": "Kusken i sjöstaden",
+      "summary": "A coachman in Hjo drives tourists through the little lake town in his horse-drawn cart and reads the weather from the sky.",
+      "newWords": [
+        "kusk",
+        "kärra",
+        "ankomma",
+        "sjöstad",
+        "förutsäga",
+        "uppförsbacke",
+        "gladeligen",
+        "taxa"
+      ],
+      "text": "Hjo är en liten sjöstad vid Vättern med gamla trähus, en hamn och en park som sluttar ner mot vattnet. Här arbetar Johan som kusk. Han har två hästar och en gammal kärra med plats för sex personer, och varje sommar kör han turister genom staden. Det finns inte många kuskar kvar i Sverige, men i en sjöstad som Hjo passar yrket fortfarande in.\n\nDagen börjar tidigt. Klockan sex går Johan till stallet, ger hästarna hö och vatten och borstar dem noga. Sedan smörjer han kärrans hjul och kontrollerar att allt sitter som det ska. En kusk måste kunna lite om allt: om hästar, om hjul och läder och om vädret. Johan säger ofta att han kan förutsäga vädret bättre än radion. Han tittar på molnen över Vättern, känner på vinden och lyssnar på fåglarna. I dag förutsäger han sol fram till eftermiddagen och regn efter klockan fyra.\n\nKlockan tio ska en buss med pensionärer från Jönköping ankomma till hamnen. Bussen ankommer en kvart för sent, men det gör ingenting. Johan väntar vid kärran med hatten i handen. Han hjälper de äldre upp, en i taget, och berättar om taxan. En tur genom staden kostar 150 kronor per person, och barn åker gratis. Taxan har varit densamma i flera år, och de flesta betalar den gladeligen.\n\nTuren går först längs vattnet och sedan upp mot de gamla villorna på höjden. Dit leder en lång uppförsbacke. I uppförsbacken får hästarna arbeta hårt, och Johan låter dem gå i sin egen takt. ”I en uppförsbacke ska man aldrig stressa en häst”, säger han till passagerarna. En äldre dam frågar om hon ska kliva av för att göra det lättare för djuren. Johan skrattar och svarar att hästarna gladeligen drar henne, bara de får ta det lugnt.\n\nUppe på höjden stannar kärran. Därifrån ser man ut över hela sjöstaden, hamnen och den blanka sjön. Johan berättar att hans farfar också var kusk. Farfadern körde post och varor till gårdarna runt staden, långt innan det fanns bilar i trakten. I dag är kärran inte längre nödvändig för någon, men turisterna älskar den, och Johan älskar att köra den.\n\nKlockan fyra, precis som Johan har förutsagt, börjar det regna. Då har den sista gruppen redan klivit av. Han kör hem till stallet, tar av hästarna selarna och ger dem havre. Sedan sätter han sig en stund i stalldörren och lyssnar på regnet. I morgon ska en ny buss ankomma till hamnen klockan tio.\n\nFrågor:\nVar arbetar Johan som kusk?\nHan arbetar i Hjo, en liten sjöstad vid Vättern.\nHur förutsäger Johan vädret?\nHan tittar på molnen över sjön, känner på vinden och lyssnar på fåglarna.\nVad är taxan för en tur med kärran?\nEn tur kostar 150 kronor per person, och barn åker gratis.\nVarför låter Johan hästarna gå långsamt i uppförsbacken?\nHan menar att man aldrig ska stressa en häst i en uppförsbacke.\nVad gjorde Johans farfar?\nHan var också kusk och körde post och varor till gårdarna runt staden."
+    },
+    {
+      "title": "Guiden på slottet",
+      "summary": "A castle guide in Uppsala tells visitors about Queen Christina, the constitution of 1634 and the nobles beheaded in 1600.",
+      "newWords": [
+        "adelsman",
+        "kungadöme",
+        "halshugga",
+        "byst",
+        "regeringsform",
+        "avskyvärd",
+        "sona",
+        "samsas",
+        "kardinal",
+        "teologisk"
+      ],
+      "text": "Varje dag leder Maria Sjögren grupper av besökare genom salarna på Uppsala slott. Yrket kallas slottsguide, och det finns bara en handfull människor i landet som har det som sitt heltidsarbete. Maria har studerat historia i många år, och hennes visningar är kända för att vara både noggranna och lätta att följa.\n\nVisningen börjar i en stor sal med en vit byst på en hög sockel. Bysten föreställer drottning Kristina. ”Hon blev drottning när hon bara var sex år gammal”, berättar Maria. ”Hennes far, kung Gustav Adolf, hade dött i kriget, och ett barn kunde inte styra ett kungadöme.” Därför, förklarar hon, skrev rikets ledande män en ny regeringsform år 1634. Regeringsformen bestämde hur riket skulle styras av fem höga ämbetsmän tills drottningen blev vuxen. Det var första gången som Sverige fick en sådan skriven regeringsform.\n\nMaria pekar sedan på ett mörkt porträtt av en adelsman i rustning. ”Kungen och adeln samsades inte alltid”, säger hon. ”Långt innan Kristina föddes hade de svårt att samsas om vem som egentligen skulle ha makten.” Hon berättar om år 1600, när hertig Karl, Kristinas farfar, lät halshugga fem adelsmän i Linköping. De halshöggs på torget inför en stor publik. Många samtida tyckte att det var en avskyvärd handling, och även i dag beskriver historiker avrättningarna som avskyvärda. Karl själv menade att adelsmännen hade svikit riket och måste sona sitt brott med livet. Om de verkligen hade något att sona är historikerna fortfarande oense om.\n\nI nästa sal handlar det återigen om Kristina. Hon var en ovanligt lärd drottning som läste filosofi och förde långa teologiska samtal med präster och lärda män från hela Europa. De teologiska frågorna blev allt viktigare för henne, och till slut bestämde hon sig för att bli katolik. Det gick inte att förena med att vara drottning i ett protestantiskt kungadöme. År 1654, i just den här salen, lämnade hon ifrån sig kronan.\n\nKristina flyttade sedan till Rom. Där blev en kardinal vid namn Decio Azzolino hennes närmaste vän och rådgivare. Kardinalen hjälpte henne med pengar och med politik, och hon litade på honom mer än på någon annan. När hon dog år 1689 begravdes hon i Peterskyrkan, och kardinalen ärvde det mesta av det hon ägde.\n\nVisningen slutar framför bysten igen. Maria låter besökarna betrakta drottningens ansikte en stund. ”Hon gav bort ett helt kungadöme för sin tro”, säger hon. ”Det är det inte många som har gjort.”\n\nFrågor:\nVem föreställer bysten i den första salen?\nBysten föreställer drottning Kristina.\nVarför skrevs en ny regeringsform år 1634?\nKristina var bara ett barn och kunde inte styra kungadömet själv.\nVad hände i Linköping år 1600?\nHertig Karl lät halshugga fem adelsmän, och många tyckte att det var en avskyvärd handling.\nVilka samtal förde Kristina med lärda män?\nHon förde långa teologiska samtal med präster och lärda män från hela Europa.\nVem blev hennes närmaste vän i Rom?\nEn kardinal som hette Decio Azzolino blev hennes närmaste vän och rådgivare."
+    },
+    {
+      "title": "Tonen i den tomma salen",
+      "summary": "A piano tuner prepares the grand piano in a concert hall in Malmö before a famous singer's concert.",
+      "newWords": [
+        "pianist",
+        "flöjt",
+        "diva",
+        "eka",
+        "tumma",
+        "kollektion",
+        "sära",
+        "bifall"
+      ],
+      "text": "Erik Strand stämmer pianon. Det är ett yrke som bara ett par hundra personer i Sverige har, och de flesta har lärt sig det av en äldre mästare. Erik har hållit på i trettio år. Han säger att han hör om en ton är det minsta lilla för låg, och det är ingen överdrift.\n\nEn tisdag i mars ringer konserthuset i Malmö. Samma kväll ska en berömd sångerska ge en konsert, och flygeln på scenen låter fel. Erik tar sin väska med verktyg och åker dit direkt.\n\nSalen är tom när han kommer. Varje steg han tar ekar mellan väggarna, och när han slår an den första tonen ekar den länge i det stora rummet. Han lyssnar noga. Flera strängar har sjunkit sedan förra veckan, troligen på grund av den torra luften.\n\nArbetet går långsamt. Erik slår an en ton, lyssnar, vrider lite med nyckeln och slår an den igen. För att höra en enda sträng i taget särar han på de andra med en liten kil av filt. Han särar, stämmer, flyttar kilen och särar igen, sträng efter sträng. Det finns över 200 strängar i en flygel, så arbetet tar flera timmar.\n\nVid tvåtiden kommer pianisten. Hon är ung men erfaren och vill gärna prata medan Erik arbetar. Hon berättar att sångerskan är en riktig diva, men en vänlig sådan. ”Hon är en diva på scenen och en snäll människa bakom den”, säger pianisten. Sångerskan själv ska komma senare, direkt från en provning hos en designer. Hon bär nämligen alltid kläder ur en svensk designers senaste kollektion, och i kväll är det en ny kollektion som ska visas för första gången.\n\nSedan kommer en musiker som ska spela flöjt i två av sångerna. Hon tar fram sin flöjt och spelar en lång ton. Erik jämför tonen från flöjten med flygelns. De ligger nästan exakt lika. ”Nästan räcker inte”, säger Erik och fortsätter. Han tummar aldrig på noggrannheten, inte ens när tiden är knapp. ”Om jag tummar på en enda ton, hör publiken det”, förklarar han för pianisten. Flöjten och flygeln måste stämma helt överens.\n\nKlockan sex är han klar. Pianisten spelar några ackord, och musikern spelar med på sin flöjt. Allt låter rent.\n\nErik stannar och lyssnar på konserten från en plats längst bak. Efter den sista sången får sångerskan och pianisten ett långt och varmt bifall. Publiken ställer sig upp. Ingen i salen tänker på att en liten del av bifallet egentligen tillhör en man på sista raden. Erik vet det, och det räcker för honom. När han går ut genom den tomma foajén ekar hans steg igen.\n\nFrågor:\nVad arbetar Erik med?\nHan stämmer pianon, ett yrke som bara ett par hundra personer i Sverige har.\nVarför ekar Eriks steg i salen?\nSalen är stor och tom när han kommer.\nVarför särar Erik på strängarna med en kil av filt?\nHan vill höra en enda sträng i taget.\nVad säger pianisten om sångerskan?\nHon säger att sångerskan är en diva på scenen men en snäll människa bakom den.\nVarför tummar Erik aldrig på noggrannheten?\nHan menar att publiken hör det om han tummar på en enda ton.\nHur tar publiken emot konserten?\nSångerskan och pianisten får ett långt och varmt bifall, och publiken ställer sig upp."
+    },
+    {
+      "title": "Banmästarens år",
+      "summary": "A groundskeeper at a new sports ground near Skövde prepares curling ice, a football pitch, a speedway track and a boule court through the year.",
+      "newWords": [
+        "curling",
+        "speedway",
+        "mittback",
+        "startskott",
+        "studs",
+        "maxa",
+        "klot",
+        "nybyggd",
+        "dispens",
+        "kvotera"
+      ],
+      "text": "På en nybyggd anläggning för idrott utanför Skövde arbetar Sara Nilsson som banmästare. Hon ansvarar för en ishall, en fotbollsplan, en bana av grus för speedway och en liten plan där pensionärer spelar boule. Allt är nybyggt och modernt, men Sara säger att det mesta i hennes arbete fortfarande sker för hand. Det finns inte många banmästare i landet, och ännu färre som sköter så många olika sporter.\n\nPå vintern handlar allt om isen. Curling kräver en helt annan is än ishockey. Innan klubben får spela curling går Sara över isen med en kanna och sprutar fina droppar vatten över ytan. Dropparna fryser till små knottror, och på dem glider stenarna lätt. ”Utan dropparna står stenarna nästan still”, förklarar hon. Det tar en timme, och det måste göras före varje match i curling.\n\nTiden i hallen räcker inte till alla. Därför kvoteras istiderna mellan klubbarna för ishockey, konståkning och curling. Det är kommunen som kvoterar, men det är Sara som får höra klagomålen. Alla vill maxa sina timmar. Hockeyn vill maxa träningen inför serien, och curlingen vill maxa antalet matcher. Sara lyssnar, nickar och följer kvoterna.\n\nI april går startskottet för säsongen i fotboll. För Sara är startskottet ett slags examen, eftersom gräset då ska vara grönt och jämnt efter vintern. Lagets mittback, en lång man på trettio år, kommer alltid fram till henne efter första träningen. Han vill prata om bollens studs. ”Studsen är för hög vid ena målet”, säger mittbacken. Sara mäter, vattnar och klipper, och efter en vecka är studsen jämn över hela planen. Mittbacken är nöjd.\n\nPå sommaren kommer speedwayen. Motorcyklarna låter mycket, och därför får speedway bara köras vissa kvällar. För att klubben ska kunna köra en extra tävling en tisdag måste kommunen ge dispens från reglerna om buller. Sara skriver ansökan själv, och i år får klubben dispens för två kvällar. Före varje tävling vattnar hon banan, så att det inte dammar för mycket.\n\nLugnast är det på planen för boule. Där kastar ett gäng pensionärer sina klot varje förmiddag. Ett av deras klot har fått ett litet hack, men ägaren vägrar att byta ut det. ”Det här klotet har jag haft i tjugo år”, säger han. Sara krattar gruset åt dem en gång i veckan, och de bjuder henne på kaffe.\n\nEn kväll i augusti står Sara vid banan för speedway och ser ut över anläggningen. Om några veckor ska isen läggas igen. Hon säger att hon inte skulle vilja byta yrke med någon.\n\nFrågor:\nVad ansvarar Sara för som banmästare?\nHon ansvarar för en ishall, en fotbollsplan, en bana för speedway och en plan för boule.\nVarför sprutar Sara vatten över isen innan man spelar curling?\nDropparna fryser till små knottror, och på dem glider stenarna lätt.\nVarför kvoteras istiderna i hallen?\nTiden räcker inte till alla klubbar, och alla vill maxa sina timmar.\nVad vill mittbacken prata om efter första träningen?\nHan vill prata om bollens studs, som är för hög vid ena målet.\nVarför behöver klubben för speedway dispens?\nMotorcyklarna låter mycket, och därför får de bara köra vissa kvällar utan dispens."
+    },
+    {
+      "title": "Sprängmästaren",
+      "summary": "A blasting foreman leads the work on a road tunnel near Sundsvall, warns the neighbours with sirens and secures the rock with bolts.",
+      "newWords": [
+        "dynamit",
+        "stenkast",
+        "siren",
+        "orientera",
+        "långtgående",
+        "utbygga",
+        "förorening",
+        "injicera",
+        "bult",
+        "åta"
+      ],
+      "text": "Anders Wikström har arbetat med sprängning i tjugo år. Hans yrke kallas sprängmästare, och det kräver både lång utbildning, certifikat och ett mycket lugnt temperament. Just nu leder han arbetet med en tunnel genom ett berg norr om Sundsvall. Vägen där ska bli utbyggd till fyra filer. När vägen är utbyggd ska de tunga bilarna slippa köra genom de små byarna.\n\nFöretaget som Anders arbetar för åtog sig uppdraget förra våren. Det var inget lätt uppdrag att åta sig. Tunneln ligger bara ett stenkast från ett bostadsområde, och de närmaste husen står ett stenkast från tunnelns öppning. Därför ställer kommunen långtgående krav på säkerheten. De långtgående kraven gäller både skakningar, buller och damm.\n\nInnan arbetet började bjöd Anders in de boende till ett möte för att orientera dem om planen. Han orienterade dem om tiderna för sprängningarna, om hur sirenen låter och om vad de skulle göra om något kändes fel. Många hade frågor. En kvinna undrade om han fortfarande använder dynamit. Anders förklarade att riktig dynamit nästan aldrig används längre. I dag laddar man berget med säkrare medel, som pumpas in i hålen. ”Men vi gamla säger fortfarande dynamit”, sa han, och folk skrattade.\n\nEn vanlig dag går till så här. Först borrar en maskin ett sextiotal hål i berget. Sedan laddar Anders och hans kollegor hålen. Tio minuter före sprängningen ljuder sirenen över området. Sirenen ljuder igen en minut innan, och när allt är över hörs en sista, lång signal. Mellan sirenerna är det helt tyst på arbetsplatsen.\n\nEfter varje sprängning måste berget säkras. Arbetarna borrar in långa bultar av stål i taket och väggarna. Bultarna håller ihop berget, så att inga stenar lossnar och faller ner. Varje bult kontrolleras noga. Där berget har sprickor injicerar man cement under högt tryck. Cementen som injiceras fyller sprickorna och hindrar vatten från att rinna in i tunneln.\n\nAnders tänker också mycket på miljön. Rester från sprängningarna kan ge föroreningar i vattnet, både i marken och i bäcken nedanför berget. Därför tar man prover på vattnet varje vecka, och hittills har inga föroreningar hittats. Om man skulle hitta en förorening, måste arbetet stoppas.\n\nNär Anders går in i tunneln på morgonen, i ljuset från sin lampa, måste han orientera sig bland maskiner och slangar. Han tycker om den stunden. Det är tyst, det luktar sten, och han vet att de snart har kommit en bit längre in i berget.\n\nFrågor:\nVarför byggs tunneln norr om Sundsvall?\nVägen ska bli utbyggd till fyra filer, så att de tunga bilarna slipper köra genom byarna.\nVarför ställer kommunen långtgående krav på säkerheten?\nTunneln ligger bara ett stenkast från ett bostadsområde.\nAnvänder Anders fortfarande dynamit?\nNej, riktig dynamit används nästan aldrig längre, men de gamla säger fortfarande dynamit.\nHur säkrar arbetarna berget efter en sprängning?\nDe borrar in bultar av stål och injicerar cement i sprickorna.\nVarför tar man prover på vattnet varje vecka?\nRester från sprängningarna kan ge föroreningar i vattnet."
+    },
+    {
+      "title": "Körsbären på Österlen",
+      "summary": "Two business partners grow cherries in Skåne, guard the buds against frost and bake cherry buns for their farm café.",
+      "newWords": [
+        "körsbär",
+        "knopp",
+        "fyllning",
+        "jäst",
+        "inhandla",
+        "lukrativ",
+        "lågkonjunktur",
+        "kompanjon",
+        "rada"
+      ],
+      "text": "På en gård på Österlen odlar Hanna och hennes kompanjon Pia körsbär. Det finns bara ett fåtal yrkesodlare av körsbär i Sverige, eftersom träden är känsliga och bären är svåra att plocka. Hanna och Pia träffades på en utbildning i trädgårdsodling för femton år sedan och blev kompanjoner nästan direkt.\n\nÅret börjar på allvar i april, när träden får knoppar. Knopparna är det viktigaste på hela gården. Om en natt blir för kall när knopparna har öppnat sig, kan hela skörden frysa bort. Därför sover Hanna tidvis i en liten stuga vid odlingen under de kalla nätterna, med en termometer vid sängen. Om temperaturen sjunker under noll, sätter hon igång en anläggning som sprutar vatten över träden. Vattnet fryser till is runt knopparna och skyddar dem mot den värsta kylan.\n\nI juli mognar körsbären. Då kommer plockarna, och under tre veckor plockas bär från morgon till kväll. De bästa körsbären säljs färska. De andra blir sylt och saft, och en del används i gårdens kafé.\n\nKaféet är Pias ansvar. Hennes mest kända bulle har en fyllning av körsbär. Degen gör hon med jäst, mjöl, mjölk och smör. Jästen inhandlar hon hos en bagare i grannbyn, eftersom hon tycker att den är bättre än den man kan inhandla i vanliga butiker. Fyllningen kokar hon av körsbär, socker och lite vanilj. ”Fyllningen får inte bli för lös”, säger Pia, ”för då rinner den ut i ugnen.”\n\nEkonomiskt är odlingen inte särskilt lukrativ. Körsbär är helt enkelt ingen lukrativ gröda i ett land med så kort sommar. Det som gör att gården går runt är kaféet. Men för två år sedan kom en lågkonjunktur, och då kom det färre turister. Under lågkonjunkturen fick Hanna och Pia tänka om. De började sälja sylt och frysta bullar på nätet, och det gick bättre än de hade väntat sig.\n\nEn eftermiddag i augusti står Pia i gårdsbutiken och ska rada upp burkar med sylt på hyllorna. Hon vill rada dem i tre rader: mörka körsbär längst ner, ljusa i mitten och blandade överst. När hon har radat upp alla burkarna kommer Hanna in med en korg körsbär från de sista träden. De två kompanjonerna sätter sig vid ett bord och delar på en bulle. De är trötta men nöjda. Om åtta månader kommer knopparna igen.\n\nFrågor:\nVad odlar Hanna och hennes kompanjon Pia?\nDe odlar körsbär på en gård på Österlen.\nVarför är knopparna så viktiga?\nOm en natt blir för kall när knopparna har öppnat sig, kan hela skörden frysa bort.\nVar inhandlar Pia jästen till sina bullar?\nHon inhandlar jästen hos en bagare i grannbyn.\nVarför är odlingen inte särskilt lukrativ?\nKörsbär är ingen lukrativ gröda i ett land med så kort sommar.\nVad gjorde Hanna och Pia under lågkonjunkturen?\nDe började sälja sylt och frysta bullar på nätet."
+    },
+    {
+      "title": "Clownen med papegojan",
+      "summary": "A hospital clown with a cloth parrot helps children through blood tests and visits old people with dementia.",
+      "newWords": [
+        "demens",
+        "beröring",
+        "snarka",
+        "svullen",
+        "hospital",
+        "distrahera",
+        "förlöjliga",
+        "papegoja",
+        "dosa",
+        "intolerans"
+      ],
+      "text": "Sofia Ahl arbetar som sjukhusclown. Hon har en röd näsa, en gul hatt och en papegoja av tyg som sitter på hennes axel. Papegojan kan inte tala, men Sofia talar för den med en hög och gäll röst. Det finns bara ett trettiotal sjukhusclowner i Sverige, och alla har gått en särskild utbildning.\n\nBarnsjukhuset där hon arbetar ligger i en gammal byggnad av rött tegel. För mer än hundra år sedan var huset ett hospital. Ett hospital var det som man då kallade ett sjukhus för psykiskt sjuka. I dag är det bara en skylt vid entrén som berättar att byggnaden en gång har varit ett hospital.\n\nKlockan nio går Sofia in till Elsa, som är sju år. Elsa har ett svullet knä efter ett fall från en klätterställning, och nu ska en sköterska ta ett blodprov. Elsa är rädd. Sofia sätter sig vid sängen och tar fram en liten dosa av plåt. I dosan ligger en enda blå knapp. ”Papegojan vill gömma knappen”, säger Sofia. ”Kan du hitta den?” Medan Elsa letar efter knappen tar sköterskan provet. Att distrahera ett barn på det sättet är en stor del av Sofias arbete. Hon distraherar, men hon lurar aldrig. Efteråt får Elsa behålla dosan.\n\nI nästa rum ligger en pojke med ett svullet öga och en intolerans mot mjölk. Han är ledsen eftersom han inte får äta samma glass som de andra barnen. Sofia förklarar att papegojan också har en intolerans, mot ost. Pojken skrattar. Sedan låtsas han sova och börjar snarka högt. Sofia snarkar ännu högre, och papegojan snarkar högst av alla.\n\nEn regel är viktigare än alla andra: en sjukhusclown får aldrig förlöjliga ett barn. Om någon ska vara löjlig, är det clownen själv. Sofia snubblar över sina egna skor och tappar hatten, men hon skulle aldrig förlöjliga någon annan.\n\nPå eftermiddagen åker Sofia till ett boende för äldre med demens. Där arbetar hon på ett annat sätt. Hon talar lugnt och sjunger gamla visor. Många av de gamla har svårt att minnas namn, men sångerna från barndomen finns kvar trots deras demens. Beröring betyder mycket här. En hand på en arm eller en försiktig beröring på en axel kan säga mer än ord. En gammal man sitter och snarkar i sin stol, men när Sofia sjunger en visa om sommaren vaknar han och sjunger med.\n\nNär dagen är slut tar Sofia av sig den röda näsan och lägger papegojan i väskan.\n\nFrågor:\nVad har Sofia på axeln när hon arbetar?\nHon har en papegoja av tyg på axeln.\nVad var den gamla byggnaden för hundra år sedan?\nHuset var ett hospital, ett sjukhus för psykiskt sjuka.\nHur distraherar Sofia Elsa under blodprovet?\nHon låter Elsa leta efter en blå knapp i en liten dosa av plåt.\nVilken regel är viktigast för en sjukhusclown?\nEn sjukhusclown får aldrig förlöjliga ett barn.\nVarför betyder beröring så mycket på boendet för äldre med demens?\nEn hand på en arm eller en försiktig beröring kan säga mer än ord."
+    },
+    {
+      "title": "Breven som ingen förstod",
+      "summary": "A plain-language expert at a government agency rewrites confusing letters about child benefit and community service.",
+      "newWords": [
+        "byråkrat",
+        "tydliggöra",
+        "vilseleda",
+        "barnbidrag",
+        "upphandla",
+        "revision",
+        "legitimitet",
+        "samhällstjänst"
+      ],
+      "text": "Karin Lundqvist kallar sig själv byråkrat, och hon säger det utan att skämmas. ”En bra byråkrat ser till att lagarna fungerar för vanliga människor”, brukar hon säga. Karin är språkkonsult och arbetar med klarspråk på en stor statlig myndighet. Hennes uppgift är att skriva om myndighetens brev så att alla kan förstå dem. I hela landet finns det bara några hundra personer som har just det yrket.\n\nFörra året gjorde myndigheten en intern revision. Revisionen visade att många brev om barnbidrag var svåra att förstå. Föräldrar ringde och undrade om de skulle få pengar eller betala tillbaka. Ett av breven innehöll en mening på 64 ord. Efter revisionen fick Karin i uppdrag att skriva om alla brev om barnbidrag.\n\nHon börjar alltid med att fråga sig vad mottagaren behöver veta först. Svaret är nästan alltid detsamma: hur mycket pengar det handlar om och när de kommer. Därför flyttar hon den informationen till brevets första rad. Sedan försöker hon tydliggöra resten, mening för mening. Hon delar långa meningar, byter ut svåra ord och skriver ”du” i stället för ”den sökande”. Ofta räcker det med små ändringar för att tydliggöra ett helt brev.\n\nKarin är noga med att ett brev aldrig får vilseleda. Ett brev kan vilseleda även om varje ord är sant, till exempel om det viktigaste står längst ner. Hon minns ett gammalt brev som sa att barnbidraget ”upphör i enlighet med gällande regler”. Den meningen vilseledde många föräldrar, som trodde att de hade gjort något fel. I själva verket betydde den bara att barnet hade fyllt 16 år.\n\nI år ska myndigheten upphandla ett nytt datasystem för sina brev. När man ska upphandla något, skriver man först ett underlag där man beskriver vad man behöver. Karin har läst underlaget och lagt till ett krav: systemet ska göra det lätt att skriva korta meningar.\n\nIbland lånar andra myndigheter in henne. Just nu hjälper hon till med brev till personer som har dömts till samhällstjänst. Samhällstjänst betyder att man arbetar utan lön, till exempel i en förening, i stället för att sitta i fängelse. Den som har dömts till samhällstjänst måste veta exakt var och när arbetet ska börja.\n\nFör Karin handlar klarspråk om mer än språk. Det handlar om myndigheternas legitimitet. ”Om människor inte förstår vad staten vill, förlorar staten sin legitimitet”, säger hon. Därför tycker hon att hennes arbete är viktigt, även om det sällan syns.\n\nFrågor:\nVad arbetar Karin med?\nHon är språkkonsult och skriver om myndighetens brev så att alla kan förstå dem.\nVad visade revisionen?\nDen visade att många brev om barnbidrag var svåra att förstå.\nHur försöker Karin tydliggöra ett brev?\nHon flyttar det viktigaste först, delar långa meningar och byter ut svåra ord.\nHur kan ett brev vilseleda även om varje ord är sant?\nDet kan vilseleda om det viktigaste står längst ner.\nVad betyder samhällstjänst?\nDet betyder att man arbetar utan lön i stället för att sitta i fängelse."
+    },
+    {
+      "title": "Bokstäver för hand",
+      "summary": "A calligrapher looks back on how she began writing diplomas by hand in her student room in Lund and made it her trade.",
+      "newWords": [
+        "uppfyllelse",
+        "diplom",
+        "avancemang",
+        "folkrörelse",
+        "studentbostad",
+        "underlägsen",
+        "grubbla",
+        "stavfel",
+        "rutinerad"
+      ],
+      "text": "Jag är kalligraf. Det betyder att jag skriver vackra bokstäver för hand, med penna och bläck, och att människor betalar mig för det. Vi är inte många i Sverige som lever på det här. Ofta får jag frågan hur det började, och svaret är alltid detsamma: i en liten studentbostad i Lund.\n\nJag läste ekonomi och bodde i en studentbostad med ett rum, ett kokskåp och ett fönster mot en parkering. En kväll hittade jag en gammal bok om skrivkonst på en loppis. Jag köpte den för tio kronor och började öva samma kväll. Snart satt jag varje kväll vid mitt lilla bord i min studentbostad och skrev bokstäver, rad efter rad.\n\nMitt första uppdrag kom från en folkrörelse. Det var en förening inom nykterhetsrörelsen, en av de gamla folkrörelserna som har betytt mycket för Sverige. De skulle dela ut diplom till medlemmar som hade varit med i femtio år, och de ville ha diplomen skrivna för hand. Jag skrev tolv diplom. Det tog mig tre veckor.\n\nJag grubblade mycket under de veckorna. Jag grubblade över varje bokstav och varje namn, och mest av allt grubblade jag över stavfel. Ett stavfel på ett diplom går inte att sudda bort; då måste man börja om från början. Jag gjorde två stavfel och fick skriva om två diplom. Efter det lärde jag mig att alltid skriva namnen med blyerts först.\n\nPå den tiden kände jag mig underlägsen de äldre kalligraferna. De var rutinerade och skrev snabbt och säkert, medan jag var långsam och osäker. Men en av dem, en rutinerad kvinna i Malmö, sa till mig att hon också hade känt sig underlägsen när hon började. ”Det går över”, sa hon. ”Det enda som hjälper är att skriva varje dag.”\n\nEfter examen fick jag ett arbete på en bank. Där fanns goda möjligheter till avancemang, och min chef talade ofta om mitt framtida avancemang. Men jag längtade hela tiden hem till mitt bläck. Efter två år sa jag upp mig och började arbeta som kalligraf på heltid.\n\nI dag skriver jag diplom åt skolor, föreningar och folkrörelser i hela landet, och ibland en inbjudan till ett bröllop. Att få leva på det jag älskar är för mig en drömmens uppfyllelse. Och den drömmens uppfyllelse började med en bok för tio kronor och ett litet bord i en studentbostad.\n\nFrågor:\nVar började berättaren skriva bokstäver för hand?\nHon började i en liten studentbostad i Lund.\nVem gav henne hennes första uppdrag?\nEn förening inom nykterhetsrörelsen, en av de gamla folkrörelserna, gav henne uppdraget.\nVarför grubblade hon så mycket över stavfel?\nEtt stavfel på ett diplom går inte att sudda bort, så då måste man börja om.\nVarför kände hon sig underlägsen de äldre kalligraferna?\nDe var rutinerade och skrev snabbt och säkert, medan hon var långsam och osäker.\nVarför slutade hon på banken trots möjligheterna till avancemang?\nHon längtade hela tiden efter sitt bläck och ville arbeta som kalligraf."
+    }
+  ]
+}

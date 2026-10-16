@@ -1,0 +1,222 @@
+{
+  "id": "sv-mini-9200",
+  "rankUpTo": 9200,
+  "level": "C2",
+  "title": "Kartor och vägval",
+  "description": "Ten stories and columns about maps and finding the way: an old book of maps, an orienteering race, a snowstorm in the mountains, city planning, a treasure hunt, a famous epidemic map, a map hidden in a lighter, a warehouse route, a map of the ground and a map to a birthplace.",
+  "topic": "Maps and finding the way",
+  "names": [
+    "Uppsala",
+    "Grönland",
+    "Afrika",
+    "Alperna",
+    "Europa",
+    "Jonas Berg",
+    "Jonas",
+    "Växjö",
+    "Sara",
+    "Maria",
+    "Lars",
+    "Jämtland",
+    "Bertil",
+    "Ella",
+    "Gunnar",
+    "Elin",
+    "Lund",
+    "Karin Ek",
+    "London",
+    "John Snow",
+    "Snow",
+    "Oskar",
+    "Armémuseum",
+    "Stockholm",
+    "Helena",
+    "Norge",
+    "Sverige",
+    "Amira",
+    "Amiras",
+    "Syrien",
+    "Aleppo",
+    "Jönköping",
+    "Västergötland",
+    "Skövde",
+    "Dalarna",
+    "Lin Karlsson",
+    "Lin",
+    "Lins",
+    "Karlsson",
+    "Sydkorea",
+    "Korea",
+    "Småland",
+    "Göran"
+  ],
+  "lessons": [
+    {
+      "title": "Den gamla kartboken",
+      "summary": "The writer buys an old book of maps at a flea market and reflects on its foreword, its colours, its blank spaces and why no flat map can show the earth correctly.",
+      "newWords": [
+        "förord",
+        "anekdot",
+        "fascinera",
+        "pigment",
+        "tomrum",
+        "dunkel",
+        "projicera",
+        "matematiker",
+        "schweiziska"
+      ],
+      "text": "Förra hösten hittade jag en gammal bok med kartor på en loppis i Uppsala. Den var tung, ryggen var sliten och sidorna luktade källare. Jag betalade femtio kronor för den, och jag har sällan gjort en bättre affär.\n\nKartorna fascinerade mig redan i affären. De trycktes för mer än hundra år sedan, och färgerna har bleknat på ett vackert sätt. Haven är ljust blå, skogarna gröna och bergen bruna. Förr blandade man färgerna av pigment från jord, stenar och växter, och sådana pigment åldras på ett annat sätt än moderna färger. Kanske är det därför gamla kartor fascinerar så många: de bär spår av både tiden och handen.\n\nBoken börjar med ett förord. I förordet förklarar utgivaren att kartorna bygger på de bästa källor som fanns. Han berättar också en anekdot om en kollega som reste upp i fjällen för att mäta ett berg och kom hem med tre olika höjder. Anekdoten är rolig, men den säger något viktigt: kartor görs av människor, och människor tar fel.\n\nEn annan sak i förordet har jag tänkt mycket på. Utgivaren skriver att ingen platt karta kan visa jorden helt rätt. Jorden är rund, och när man projicerar den runda ytan på ett platt papper måste något dras ut eller tryckas ihop. En matematiker kan välja vad som ska bli fel, men inte att ingenting blir fel. Därför ser Grönland så enormt ut på många kartor, trots att det är mycket mindre än Afrika. Det är inte någon som har slarvat; det är matematiken som kräver sitt pris. Varje sätt att projicera jorden är ett val, och varje matematiker som har arbetat med kartor vet det.\n\nLängst bak i boken finns kartor över Alperna. De är gjorda efter schweiziska förlagor, och de schweiziska kartorna var redan då berömda för sina skuggade berg. Man ser nästan hur branta sluttningarna är.\n\nMen det som fascinerar mig mest är de dunkla delarna. På kartan över Afrika finns stora tomrum, områden där det bara står ”okänt”. Där bodde naturligtvis människor; de hade levt där i tusentals år. Tomrummet visar bara vad kartornas skapare i Europa inte visste. Det dunkla låg i deras kunskap, inte i landet. Varje gång jag öppnar boken stannar jag vid de där tomrummen och tänker på vad våra egna kartor kanske inte visar, och på vad som fortfarande är dunkelt för oss.\n\nFrågor:\nVar hittade skribenten boken med kartor?\nSkribenten hittade boken på en loppis i Uppsala och betalade femtio kronor för den.\nVad gjordes färgerna av förr?\nFörr gjordes färgerna av pigment från jord, stenar och växter.\nVilken anekdot berättar utgivaren i förordet?\nHan berättar om en kollega som mätte ett berg i fjällen och kom hem med tre olika höjder.\nVarför kan ingen platt karta visa jorden helt rätt?\nJorden är rund, och när man projicerar den på ett platt papper måste något dras ut eller tryckas ihop.\nVad visar tomrummen på kartan över Afrika?\nTomrummen visar vad kartornas skapare i Europa inte visste, inte att ingen bodde där."
+    },
+    {
+      "title": "Kontroll nummer sju",
+      "summary": "Jonas runs an orienteering race, avoids a treacherous wet meadow, gets lost near one control, sprains his ankle and still finishes third again.",
+      "newWords": [
+        "idrottsman",
+        "uthållighet",
+        "tredjeplats",
+        "sedvanlig",
+        "lömsk",
+        "mad",
+        "kretsa",
+        "mumla",
+        "spetsig",
+        "stuka",
+        "flina"
+      ],
+      "text": "Jonas Berg har sprungit orientering sedan han var tio år. Han är ingen stor idrottsman, säger han själv, men han har uthållighet, och i orientering räcker uthållighet långt. Förra hösten kom han på tredjeplats i klubbens stora lopp, och i år ville han göra minst lika bra ifrån sig.\n\nLoppet började på sedvanligt sätt. Löparna samlades vid en skola utanför Växjö, fick sina nummer och lyssnade på den sedvanliga genomgången om regler och tider. Sedan gick de en och en till starten, där de fick kartan i handen och inte en sekund tidigare.\n\nJonas såg genast att banan var lömsk. Mellan kontroll tre och fyra låg en stor mad, alltså en blöt och sank äng, som ritas med blå streck på kartan. Det var frestande att springa rakt över maden. Men Jonas visste att en mad kan vara lömsk: marken ser fast ut, men under gräset står vattnet högt. Han valde därför att springa runt maden, längs en stig.\n\nVid kontroll sju gick det sämre. Kontrollen skulle ligga vid en stor sten, men det fanns stenar överallt, höga och spetsiga och täckta av mossa. Jonas kretsade runt i skogen i flera minuter. Han kretsade åt ena hållet och sedan åt det andra. ”Var är du nu?” mumlade han. Han mumlade samma ord om och om igen, som om kontrollen skulle svara.\n\nTill slut stannade han, tog fram kompassen och läste kartan i lugn och ro. Han hade sprungit för långt österut. Han gick tillbaka till stigen, räknade sina steg och hittade stenen på mindre än en minut.\n\nPå väg därifrån trampade han snett på en spetsig sten och stukade foten. Det gjorde ont, men foten bar. Han hade stukat den förut och visste att han kunde fortsätta, bara han tog det försiktigt. Nu var det uthålligheten som fick bära honom de sista tre kilometerna.\n\nVid målet stod hans syster Sara och flinade. ”Du ser ut som om du har simmat hit”, sa hon. Hon flinade ännu bredare när hon såg hans smutsiga ben. Men sedan kom resultatet på tavlan: Jonas hade kommit på tredjeplats igen. ”Det är inte alltid de snabbaste idrottsmännen som vinner i skogen”, sa Sara. ”Det är de som läser kartan bäst.”\n\nFrågor:\nVad har Jonas, enligt honom själv?\nHan säger att han inte är någon stor idrottsman, men att han har uthållighet.\nVarför sprang Jonas inte rakt över maden?\nEn mad kan vara lömsk, eftersom marken ser fast ut men vattnet står högt under gräset.\nVad hände vid kontroll sju?\nJonas kretsade runt i skogen i flera minuter, eftersom han hade sprungit för långt österut.\nHur stukade Jonas foten?\nHan trampade snett på en spetsig sten på väg från kontrollen.\nVilken plats kom Jonas på?\nHan kom på tredjeplats igen, precis som förra hösten."
+    },
+    {
+      "title": "Snöstormen i fjällen",
+      "summary": "Maria and her father are caught in a snowstorm on a ski trip, follow the map and compass to an emergency hut, wait out the night and ski on at dawn.",
+      "newWords": [
+        "medfölja",
+        "snöstorm",
+        "ljuda",
+        "tynga",
+        "överkropp",
+        "vårdslös",
+        "följaktligen",
+        "påskynda",
+        "dricksvatten",
+        "optimism",
+        "gry"
+      ],
+      "text": "I mars åkte Maria och hennes pappa Lars skidor i fjällen i Jämtland. De hade bokat en stuga för natten, och med bokningen följde en karta. Den medföljande kartan var gammal men tydlig: leden var markerad med röda kryss, och stugan låg vid en liten sjö.\n\nMorgonen var klar och stilla. Men vid lunch ändrades vädret. Molnen kom snabbt från väster, vinden ökade, och efter en halvtimme var de mitt i en snöstorm. Vinden ljöd som ett tåg genom dalen, och snön slog dem i ansiktet.\n\nLars stannade och tog fram kartan. Ryggsäcken tyngde på axlarna, och kylan trängde in genom jackan över överkroppen. ”Vi kan inte fortsätta så här”, sa han. ”Det vore vårdslöst. Vi ser inte leden, och följaktligen vet vi inte vart vi är på väg.” Maria nickade. Hon visste att det är vårdslöst att gissa i en snöstorm, eftersom man lätt går i cirklar.\n\nEnligt den medföljande kartan låg en liten nödstuga en halv kilometer bort, vid nästa kryss. Lars tog ut riktningen med kompassen, och de gick långsamt, kryss för kryss. De försökte inte påskynda något. Att påskynda stegen i dåligt väder är det farligaste man kan göra, hade Lars lärt sig, och följaktligen räknade han varje steg.\n\nEfter en halvtimme såg de stugan. Den var liten och kall, men den hade fyra väggar och ett tak. De tände ett ljus, satte på sig torra tröjor över överkroppen och lade sig under filtarna. Vattnet i flaskorna var nästan slut, så de smälte snö i en kastrull. ”Snö blir dricksvatten om man smälter den”, sa Lars, ”men det tar tid och det kräver tålamod.” De fick till slut två fulla flaskor med dricksvatten.\n\nHela natten ljöd vinden runt stugan. Oron tyngde Lars, men Maria tappade aldrig sin optimism. ”I morgon är det sol, det känner jag”, sa hon. Lars skrattade. ”Din optimism värmer bättre än filtarna.”\n\nMot morgonen blev det tyst. När dagen grydde var himlen ljust rosa, och fjällen låg vita och stilla. I den gryende dagen syntes de röda kryssen igen, ett efter ett. Maria och Lars drack sitt dricksvatten, packade ryggsäckarna och åkte de sista kilometerna till stugan vid sjön.\n\nFrågor:\nVad följde med bokningen?\nMed bokningen följde en karta där leden var markerad med röda kryss.\nVarför ville Lars inte fortsätta i snöstormen?\nDet vore vårdslöst, eftersom de inte såg leden och följaktligen inte visste vart de var på väg.\nHur hittade de till nödstugan?\nLars tog ut riktningen med kompassen, och de gick långsamt kryss för kryss utan att påskynda stegen.\nHur fick de dricksvatten?\nDe smälte snö i en kastrull.\nVad hände när dagen grydde?\nHimlen blev ljust rosa, de röda kryssen syntes igen och de kunde åka vidare."
+    },
+    {
+      "title": "Kartan i stadshuset",
+      "summary": "A local columnist looks at the city's new planning map and weighs the debate about a school crossing, delays, democracy and who gets the blame.",
+      "newWords": [
+        "stadsplanering",
+        "invecklad",
+        "övergångsställe",
+        "fördröjning",
+        "marxistisk",
+        "populistisk",
+        "odemokratisk",
+        "röstberättigad",
+        "syndabock",
+        "lagstiftare",
+        "valberedning"
+      ],
+      "text": "I vår stad hänger det just nu en stor karta i stadshusets entré. Den visar hur kommunen vill att centrum ska se ut om tjugo år: nya hus, nya cykelbanor och en park där det i dag är en parkering. Jag har stått framför kartan flera gånger, och varje gång har jag tänkt på hur invecklad stadsplanering är.\n\nStadsplanering handlar inte bara om hus och gator. Den handlar om hur vi rör oss, var barnen leker och hur långt de äldre orkar gå. Ett enda övergångsställe kan ändra vardagen för en hel stadsdel. Vid skolan i mitt kvarter har föräldrarna i flera år bett om ett övergångsställe över den breda gatan. På kartan finns det nu, en liten vit randig ruta. Men det kommer att dröja innan det målas på riktigt. Enligt kommunen beror fördröjningen på att planen måste godkännas i flera steg, och varje steg ger en ny fördröjning.\n\nMin granne Bertil, som har en marxistisk syn på det mesta, säger att kartan framför allt visar vem som har makten. ”Titta var de dyra husen hamnar”, säger han. Jag delar inte hans marxistiska analys, men han har en poäng: en karta är aldrig bara en bild. Den är också ett beslut.\n\nI debatten har det också hörts röster som jag tycker är populistiska. En politiker kallar hela planen odemokratisk, eftersom den har tagits fram av tjänstemän. Det är en populistisk förenkling, och populistiska förenklingar gör sällan en stad bättre. Planen har visats på möten, alla röstberättigade invånare har kunnat lämna synpunkter, och till slut beslutar de politiker som vi röstberättigade själva har valt. En plan som har gått den vägen är inte odemokratisk. Så ser demokrati ut: långsam, noggrann och ibland lite tråkig.\n\nDet är också lätt att göra tjänstemännen till syndabockar för varje fördröjning. Men en syndabock löser inga problem. Ofta ligger orsaken högre upp. Lagarna om byggande är många och invecklade, och det är lagstiftaren i riksdagen som har skrivit dem. Vill vi ha snabbare beslut får vi tala med lagstiftaren, inte skälla på den som följer lagen.\n\nSjälv sitter jag i valberedningen i vår förening för boende i kvarteret. Valberedningen letar just nu efter en ny ordförande, och vi söker någon som orkar driva frågan om övergångsstället vidare. Det är ingen stor uppgift på kartan. Men för barnen vid skolan är den stor.\n\nFrågor:\nVad visar kartan i stadshuset?\nDen visar hur kommunen vill att centrum ska se ut om tjugo år.\nVad har föräldrarna vid skolan bett om?\nDe har bett om ett övergångsställe över den breda gatan.\nVad säger grannen Bertil om kartan?\nHan har en marxistisk syn och säger att kartan visar vem som har makten.\nVarför tycker skribenten inte att planen är odemokratisk?\nAlla röstberättigade har kunnat lämna synpunkter, och politiker som de röstberättigade har valt fattar beslutet.\nVad gör skribenten i valberedningen?\nValberedningen letar efter en ny ordförande som kan driva frågan om övergångsstället."
+    },
+    {
+      "title": "Skattkartan på julafton",
+      "summary": "On Christmas Eve Ella oversleeps, then follows her grandfather's treasure map through the garden, loses a piece to a magpie and finds Christmas drinks and snacks.",
+      "newWords": [
+        "försova",
+        "tofs",
+        "rackare",
+        "skata",
+        "muntra",
+        "uppblåst",
+        "julmust",
+        "ostbåge",
+        "sugrör",
+        "natti"
+      ],
+      "text": "På julaftons morgon försov sig Ella. Hon var sex år, och hon hade legat vaken länge på kvällen och tänkt på tomten. När hon till slut kom ner i köket var klockan nästan tio. ”Har jag försovit mig?” frågade hon. ”Lite grann”, sa morfar Gunnar. ”Men det gör ingenting. Jag har gjort något till dig.”\n\nHan gav henne ett papper. Det var en karta över trädgården, ritad med blyerts och färgpennor. Där fanns huset, garaget, det stora trädet och ett rött kryss bakom boden. ”Det är en skattkarta”, sa morfar. ”Följ pilarna, så hittar du skatten.”\n\nElla satte på sig overallen och mössan med den röda tofsen. Tofsen hoppade när hon sprang. Först gick hon till garaget, sedan till det stora trädet. Där satt en svart och vit fågel på en gren och tittade på henne. ”Det är en skata”, sa morfar. ”Skator tycker om saker som glänser.”\n\nElla lade kartan på marken för att knyta skon. Då flög skatan ner, tog ett hörn av papperet i näbben och flög upp på taket. ”Din lilla rackare!” ropade morfar. Ella började gråta. Nu var kartan trasig, och krysset bakom boden var borta.\n\nMorfar satte sig på huk och muntrade upp henne. ”Vi behöver inte krysset”, sa han. ”Vi vet ju att pilarna går mot boden. Och skatan är ingen tjuv, hon är bara en rackare som vill ha något fint till sitt bo.” Det muntrade upp Ella, och hon skrattade lite.\n\nBakom boden hittade hon en gammal låda. På locket satt två uppblåsta ballonger, en röd och en grön. De uppblåsta ballongerna vajade i vinden. I lådan låg en flaska julmust, en påse ostbågar och ett randigt sugrör. ”Julmust och ostbågar!” ropade Ella. Hon drack julmust genom sugröret direkt ur flaskan, och morfar fick de första ostbågarna.\n\nPå kvällen, när klapparna var öppnade, låg Ella i sängen med kartan på täcket. Det saknades ett hörn, men den var ändå hennes finaste julklapp. Morfar släckte lampan. ”Natti, natti”, sa han. ”Natti, morfar”, svarade Ella. ”Glöm inte att rita en ny karta till nästa jul.”\n\nFrågor:\nVarför försov sig Ella på julafton?\nHon hade legat vaken länge på kvällen och tänkt på tomten.\nVad gav morfar Gunnar henne?\nHan gav henne en skattkarta över trädgården.\nVad gjorde skatan?\nSkatan tog ett hörn av kartan i näbben och flög upp på taket.\nHur muntrade morfar upp Ella?\nHan sa att de inte behövde krysset, eftersom pilarna gick mot boden.\nVad låg i lådan bakom boden?\nI lådan låg en flaska julmust, en påse ostbågar och ett sugrör."
+    },
+    {
+      "title": "Kartan som räddade liv",
+      "summary": "A university lecturer shows how a doctor in London in 1854 mapped the deaths in an epidemic and proved that the water, not the air, spread the disease.",
+      "newWords": [
+        "lektor",
+        "projektor",
+        "epidemi",
+        "oförklarlig",
+        "tongivande",
+        "evangelium",
+        "bestrida",
+        "gruppera",
+        "närbild",
+        "försiggå"
+      ],
+      "text": "Elin läser medicin i Lund. En tisdag i november hade hennes grupp en föreläsning med lektor Karin Ek, som forskar om sjukdomarnas historia. Lektorn tände projektorn, och på väggen syntes en gammal svartvit karta över några kvarter i London.\n\n”Det här är en av de viktigaste kartorna i medicinens historia”, sa lektorn. ”Den ritades 1854, under en epidemi av kolera. På tio dagar dog mer än 500 människor i de här kvarteren.”\n\nHon förklarade att sjukdomen var oförklarlig för de flesta på den tiden. Människor blev sjuka på morgonen och dog på kvällen. De tongivande läkarna i London trodde att sådana sjukdomar spreds genom dålig luft från smuts och avfall. Den idén var så tongivande att den nästan var ett evangelium. Ingen ifrågasatte ett evangelium, och ingen ifrågasatte luften.\n\nEn läkare, John Snow, bestred den förklaringen. Han hade länge bestridit att luften var orsaken, och han trodde i stället att smittan fanns i vattnet. För att visa det gick han från hus till hus och skrev upp var de döda hade bott. Sedan grupperade han dödsfallen på en karta. Varje död blev ett litet svart streck vid sitt hus.\n\nLektor Ek bytte bild i projektorn. Nu visades en närbild av en gata. På närbilden såg man att strecken var grupperade runt en enda punkt: en pump där människorna i kvarteret hämtade sitt vatten. ”Det som försiggick i den här gatan syntes inte med blotta ögat”, sa hon. ”Men på kartan syntes det plötsligt. Det som försiggick under jorden, i vattnet, blev en bild.”\n\nSnow fick myndigheterna att ta bort handtaget på pumpen, och epidemin ebbade ut. Det dröjde ändå flera år innan hans idéer fick genomslag. Många bestred hans resultat länge.\n\nEfter föreläsningen stannade Elin kvar och tittade på närbilden en sista gång. ”Varför är kartan så viktig för oss i dag?” frågade hon. ”För att den lär oss att se mönster”, svarade lektorn. ”En epidemi är aldrig oförklarlig, om man vet var man ska titta.”\n\nFrågor:\nVem höll föreläsningen?\nLektor Karin Ek, som forskar om sjukdomarnas historia, höll föreläsningen.\nVad trodde de tongivande läkarna i London?\nDe trodde att sjukdomen spreds genom dålig luft från smuts och avfall.\nHur arbetade John Snow?\nHan skrev upp var de döda hade bott och grupperade dödsfallen på en karta.\nVad visade närbilden i projektorn?\nNärbilden visade att strecken var grupperade runt en pump där människorna hämtade vatten.\nVad lär oss kartan i dag, enligt lektorn?\nDen lär oss att se mönster, så att en epidemi inte är oförklarlig."
+    },
+    {
+      "title": "Kartan i tändaren",
+      "summary": "Oskar and his mother see a museum's new acquisition: a cloth map hidden in a lighter, which helped a Norwegian soldier find his way to Sweden in 1940.",
+      "newWords": [
+        "nyförvärv",
+        "materiel",
+        "tändare",
+        "väv",
+        "infanteri",
+        "kapitulera",
+        "förklä",
+        "utegångsförbud",
+        "insatsstyrka"
+      ],
+      "text": "En lördag i februari gick Oskar, tolv år, på Armémuseum i Stockholm med sin mamma Helena. Museet hade fått ett nyförvärv, och det stod om det i tidningen. Oskar ville se det med egna ögon.\n\nFörst gick de genom salarna med äldre materiel: kanoner, tält, uniformer och gamla cyklar som soldaterna en gång använde. Arméns materiel var tung och klumpig förr, tyckte Oskar. Sedan kom de till en liten monter i ett hörn. Där låg nyförvärvet: en vanlig tändare av metall, och bredvid den en karta, inte större än en näsduk.\n\nEn guide berättade att kartan hade legat gömd inuti tändaren. Den var tryckt på en tunn väv, inte på papper. ”En karta av väv går inte sönder när den blir blöt”, förklarade hon, ”och den prasslar inte i fickan. Den kan vikas så liten att den får plats i en tändare.”\n\nTändaren hade tillhört en ung norsk man som tjänstgjorde i infanteriet våren 1940. När de norska styrkorna i södra Norge kapitulerade, ville han inte bli fånge. Hans officerare hade kapitulerat, men han tänkte inte ge upp. Han förklädde sig till bonde, med gamla kläder och en hink i handen. Förklädd på det sättet gick han österut genom skogarna, mot Sverige. I städerna rådde utegångsförbud på natten, så han gick på dagarna och sov i lador när det blev mörkt. I skogen fanns inget utegångsförbud, men där fanns inte heller några skyltar. Kartan i tändaren blev hans enda vägvisare.\n\n”Kom han fram?” frågade Oskar. ”Ja”, sa guiden. ”Efter elva dagar gick han över gränsen. Han bodde sedan i Sverige resten av livet, och hans barnbarn har nu gett tändaren till museet.” Hon tillade att nyförvärvet är en del av en ny utställning om skandinavisk historia under kriget. Den skandinaviska historien från de åren handlar om grannländer som valde olika vägar.\n\nOskar frågade om soldater fortfarande använder kartor. Guiden nickade. ”Även i dag lär sig varje insatsstyrka att läsa karta och kompass. En insatsstyrka har förstås moderna verktyg, men tekniken kan sluta fungera. Papper och väv behöver inga batterier.”\n\nPå vägen hem satt Oskar tyst länge på tunnelbanan. Sedan sa han: ”Jag vill också ha en karta i en tändare. Fast utan tändaren.”\n\nFrågor:\nVad var museets nyförvärv?\nNyförvärvet var en tändare med en liten karta gömd inuti.\nVarför var kartan tryckt på väv?\nEn karta av väv går inte sönder när den blir blöt, och den kan vikas mycket liten.\nVem hade tändaren tillhört?\nDen hade tillhört en ung norsk man som tjänstgjorde i infanteriet våren 1940.\nHur tog sig mannen till Sverige?\nHan förklädde sig till bonde och gick genom skogarna med kartan som vägvisare.\nVad lär sig en insatsstyrka även i dag?\nEn insatsstyrka lär sig att läsa karta och kompass, eftersom tekniken kan sluta fungera."
+    },
+    {
+      "title": "Vägen genom lagret",
+      "summary": "Amira, an engineer new to Sweden, starts a warehouse job through a staffing agency, learns the building with a map and shows the company head a shorter route.",
+      "newWords": [
+        "bemanningsföretag",
+        "kvalifikation",
+        "utbildningsnivå",
+        "socialen",
+        "självbild",
+        "obildad",
+        "hijab",
+        "maskulin",
+        "subjekt",
+        "företagsledare"
+      ],
+      "text": "Amira kom till Sverige från Syrien för två år sedan. Hemma i Aleppo var hon ingenjör, men i Sverige var det svårt att få ett arbete som passade hennes kvalifikationer. Hennes utbildningsnivå var hög, men hennes svenska var ännu inte tillräckligt bra. Under det första året fick hon hjälp av socialen med hyran. Hon var tacksam för hjälpen, men hon ville inte vara beroende av socialen längre än nödvändigt.\n\nDen perioden var svår för hennes självbild. Hon hade alltid sett sig själv som en kunnig och självständig människa. Nu kände hon sig ibland obildad, bara för att hon inte hittade orden. ”Jag är inte obildad”, sa hon till sig själv. ”Jag har bara inte lärt mig språket än.”\n\nI augusti fick hon ett jobb genom ett bemanningsföretag. Bemanningsföretaget skickade henne till ett stort lager utanför Jönköping, där man packar varor till butiker i hela landet. Första dagen fick hon en karta över lagret. Det var nästan som en karta över en liten stad: gångar med nummer, hyllor med bokstäver och gula linjer på golvet där truckarna körde.\n\nArbetsplatsen var ganska maskulin. De flesta som arbetade där var män, och tonen var rak. Amira var den enda som bar hijab. Någon frågade en gång om hennes hijab var varm i lagret, och hon svarade att den var varmare än en mössa. Sedan frågade ingen mer. Den maskulina tonen var inte otrevlig, bara ovan för henne.\n\nPå kvällarna studerade hon svenska. Läraren talade om ordföljd: i en vanlig mening kommer subjektet först och verbet sedan. Men om meningen börjar med något annat, till exempel ”i dag”, kommer verbet före subjektet. Amira tyckte att det var som kartan i lagret: varje sak har sin plats.\n\nEfter några veckor såg hon att plockarna gick onödigt långt. Gångarna var numrerade i en ordning som inte följde vägen genom lagret. Hon ritade en ny väg på kartan och räknade ut att varje plockare skulle spara nästan en kilometer om dagen.\n\nI oktober kom företagsledaren på besök. Arbetsledaren visade honom Amiras karta. Företagsledaren studerade den länge och frågade vad hon hade för kvalifikationer. ”Jag är ingenjör”, sa hon. ”Det syns”, sa han. Två månader senare var Amira inte längre anställd av bemanningsföretaget, utan av lagret självt, och hennes självbild var hel igen.\n\nFrågor:\nVarför var det svårt för Amira att få ett arbete i Sverige?\nHennes utbildningsnivå var hög, men hennes svenska var ännu inte tillräckligt bra.\nHur fick hon jobbet på lagret?\nHon fick jobbet genom ett bemanningsföretag.\nVad lärde sig Amira om subjektet på kvällskursen?\nSubjektet kommer först i en vanlig mening, men efter verbet om meningen börjar med något annat.\nVad upptäckte hon på kartan över lagret?\nHon upptäckte att plockarna gick onödigt långt och ritade en kortare väg.\nVad hände efter att företagsledaren hade besökt lagret?\nAmira blev anställd av lagret självt, och hennes självbild var hel igen."
+    },
+    {
+      "title": "Kartan under fötterna",
+      "summary": "The writer visits the family farm in Västergötland, buys a map of the ground and bedrock out of curiosity and learns about clay, oats, uranium and old lava.",
+      "newWords": [
+        "anor",
+        "havre",
+        "badplats",
+        "pur",
+        "uran",
+        "kolkraft",
+        "lava",
+        "tvärtemot"
+      ],
+      "text": "Min släkt har en gård på slätten i Västergötland. Gården har anor från 1600-talet, och i köket hänger en tavla med namnen på alla som har bott där. Min bror driver gården i dag. Han odlar mest havre, precis som vår farfar gjorde.\n\nI somras köpte jag en karta i en bokhandel i Skövde, av pur nyfikenhet. Det var ingen vanlig karta med vägar och byar, utan en karta som visar vad som finns under marken. Den var full av färger: gult för sand, blått för lera, rött för gammalt berg. Jag hade aldrig sett min egen hembygd på det sättet.\n\nKvällen efter bredde jag ut kartan på köksbordet, och min bror kom och tittade. ”Där är vår gård”, sa han och pekade på en stor blå yta. ”Lera. Det är därför havre växer så bra här.” Han förklarade att havre tål en blöt och tung jord bättre än många andra grödor. Gårdens långa anor beror alltså inte bara på flitiga människor. De beror också på leran.\n\nSedan pekade han på en liten gul fläck vid sjön. ”Och där är badplatsen.” Det var vår gamla badplats, där vi lärde oss simma som barn. Gult betyder sand, och plötsligt förstod jag varför botten vid badplatsen alltid var så mjuk under fötterna.\n\nLängre bort på kartan, vid ett berg, fanns ett svart band. Enligt texten på kartans baksida var det en mörk sten som innehåller lite uran. På 1960-talet bröt man uran i närheten. Sverige ville ha eget bränsle till kärnkraft och slippa bli beroende av andra länder. Tvärtemot vad många tror har Sverige aldrig haft mycket kolkraft. Andra länder byggde kolkraft, medan Sverige satsade på vatten och senare på uran. Gruvan lades ner efter några år, men det svarta bandet finns kvar på kartan.\n\nDet som fascinerade mig mest var ändå baksidan. Där fanns en liten karta över hela Sverige, och i Dalarna fanns en röd fläck. Där finns berg som en gång var lava. För mer än en miljard år sedan rann het lava över landskapet, där det i dag växer gran och tall. Tvärtemot vad man kan tro var Sverige alltså inte alltid ett lugnt land av skog och sjöar.\n\nJag har hängt kartan på väggen hemma. Varje gång jag ser den tänker jag på att marken under oss har sin egen historia, med längre anor än någon släkt. Min bror tycker att jag har blivit lite konstig. Men av pur vänlighet säger han det inte högt.\n\nFrågor:\nHur gamla är gårdens anor?\nGården har anor från 1600-talet.\nVarför köpte skribenten kartan?\nSkribenten köpte kartan av pur nyfikenhet.\nVarför växer havre bra på gården?\nGården ligger på lera, och havre tål en blöt och tung jord bättre än många andra grödor.\nVarför är botten vid den gamla badplatsen så mjuk?\nPå kartan är badplatsen gul, och gult betyder sand.\nVarför bröt man uran på 1960-talet?\nSverige ville ha eget bränsle till kärnkraft och slippa bli beroende av andra länder.\nVad visar den röda fläcken på kartan?\nDen visar berg i Dalarna som en gång var het lava."
+    },
+    {
+      "title": "Kartan över Korea",
+      "summary": "Lin, a screenwriter adopted as a baby from Korea, visits her father in Småland, plays chess with him and plans with a map her first trip to her birthplace.",
+      "newWords": [
+        "adoption",
+        "barnsben",
+        "småländska",
+        "manusförfattare",
+        "mäster",
+        "ansa",
+        "gorilla",
+        "springare"
+      ],
+      "text": "Lin Karlsson är 31 år och manusförfattare i Stockholm. Hon föddes i Sydkorea och kom till Sverige som baby, genom en adoption. Hon växte upp på en gård i Småland, och från barnsben har hon talat småländska med sin pappa. I Stockholm talar hon vanlig rikssvenska, men så fort hon kliver av tåget i Växjö börjar hon tala småländska igen.\n\nHennes pappa Göran är snickare. De äldre i byn kallar honom fortfarande mäster Karlsson, som man förr sa om en hantverkare med egen verkstad. Lin brukar kalla honom mäster på skämt, och han låtsas bli arg varje gång.\n\nI maj åkte Lin hem för att be om hjälp. Hon skrev på ett nytt manus om en ung kvinna som söker sin födelsestad, och hon hade bestämt sig för att själv resa till Korea för första gången. Som manusförfattare visste hon att en berättelse behöver detaljer, och de detaljerna fanns kanske i pappas gamla papper.\n\nNär hon kom fram stod Göran i trädgården och ansade häcken. ”Jag måste ansa den innan midsommar”, sa han, ”annars växer den in i grinden.” Lin hjälpte honom att ansa den sista biten, och sedan gick de in.\n\nGöran hämtade en mapp med papper från adoptionen. Där låg en karta över en stad i Korea, med en blå cirkel runt ett hus. ”Där bodde du dina första månader”, sa han. ”Jag ritade cirkeln när vi hämtade dig.” Lin bredde ut kartan på bordet och följde gatorna med fingret.\n\nI mappen låg också ett foto av en liten gorilla av tyg. Lin skrattade. Gorillan hade följt med henne från Korea, och den satt fortfarande på en hylla i hennes gamla rum.\n\nPå kvällen spelade de schack, som de hade gjort ända sedan Lin var liten. Lin hade lärt sig spelet redan från barnsben. Göran flyttade sin springare. ”En springare går aldrig rakt”, sa han, ”men den kommer alltid fram. Det är som med dig.” Lin flyttade sin egen springare och vann partiet. Sedan bokade hon flygbiljetten.\n\nFrågor:\nVad arbetar Lin med?\nLin är manusförfattare i Stockholm.\nHur kom Lin till Sverige?\nHon kom till Sverige som baby genom en adoption.\nVarför kallar de äldre i byn Göran för mäster?\nFörr kallade man en hantverkare med egen verkstad för mäster, och Göran är snickare.\nVad visade kartan i mappen?\nDen visade en stad i Korea, med en blå cirkel runt huset där Lin bodde sina första månader.\nVad sa Göran om springaren?\nHan sa att en springare aldrig går rakt men alltid kommer fram."
+    }
+  ]
+}
