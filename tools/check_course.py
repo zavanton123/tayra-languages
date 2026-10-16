@@ -108,7 +108,7 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return italian_tokens(text, ranks, names, verbs, heads)
     if code == "nl":
         return dutch_tokens(text)
-    if code in ("da", "no"):
+    if code in ("da", "no", "sv"):
         return danish_tokens(text, ranks)
     out = []
     for match in WORD.finditer(text):
@@ -135,7 +135,7 @@ def dutch_tokens(text):
     return out
 
 
-# A Danish or Norwegian word joined by a hyphen stays whole when the list has it whole (e-mail, id-kort, p-plads);
+# A Danish, Norwegian or Swedish word joined by a hyphen stays whole when the list has it whole (e-mail, id-kort, p-plads);
 # otherwise its parts count apart.
 DANISH_WORD = re.compile(r"[^\W\d_]+(?:['’-][^\W\d_]+)*", re.UNICODE)
 
@@ -428,7 +428,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv") else []
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
     if code == "sr":
@@ -440,7 +440,7 @@ def check(path, brief=False):
         text = lesson["text"]
         whole_names = 0
         for name in long_names:
-            if code in ("da", "nl", "no"):
+            if code in ("da", "nl", "no", "sv"):
                 # The genitive of a name of several words goes with it (Maja Holms, Jan de Vries').
                 pattern = re.compile(re.escape(name) + r"(?:['’]s|s|['’])?(?![^\W\d_])")
                 whole_names += len(pattern.findall(text))
@@ -448,11 +448,13 @@ def check(path, brief=False):
                 continue
             whole_names += text.count(name)
             text = text.replace(name, " ")
-        # A decade or number ending joined to the digits is a number (Danish 1960'erne, Norwegian 1960-tallet).
+        # A decade or number ending joined to the digits is a number (Danish 1960'erne, Norwegian 1960-tallet, Swedish 1960-talet).
         if code in ("da", "no"):
             text = re.sub(r"\d+['’][^\W\d_]+", " ", text)
         if code == "no":
             text = re.sub(r"\d+-tall(?:et|ets)?\b", " ", text)
+        if code == "sv":
+            text = re.sub(r"\d+-tal(?:et|ets|s)?\b", " ", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr"):
