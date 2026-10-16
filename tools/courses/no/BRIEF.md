@@ -176,6 +176,6 @@ Things to know about the Norwegian list and the checker:
 - Write numbers as digits (*7 timer*, *3 barn*), except a number word that is in your band:
   spell that one out to teach it (*sju dager*). A number word already within the course's range
   (*to*, *tre*, *ti*) may be spelled out where Norwegian prose would. Times as *klokka 7* or
-  *klokka 7.30*; dates as *17. mai*; decades as *1960-tallet*. The checker splits a hyphenated
+  *klokka 7.30* (*klokka* ranks 1170: before that, write around it: *fra 9 til 16*, *om morgenen*); dates as *17. mai*; decades as *1960-tallet*. The checker splits a hyphenated
   word into its parts unless the list has it whole; *e-post* is not in the list, so write
   *melding* or *post*.
