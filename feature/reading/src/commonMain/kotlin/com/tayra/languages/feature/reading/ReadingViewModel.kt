@@ -81,6 +81,8 @@ data class ReadingUiState(
     val book: Book? = null,
     /** Set when the text is a course lesson, which is shown as part of its course rather than as a book. */
     val lesson: LessonReading? = null,
+    /** Set when the text is a news article, which is shown as part of the news rather than as a book. */
+    val news: Boolean = false,
     val language: Language? = null,
     val pageNumber: Int = 1,
     val pageCount: Int = 1,
@@ -145,6 +147,7 @@ class ReadingViewModel(
     private val wordTranslations: WordTranslationService,
     private val sentenceAudio: SentenceAudio,
     private val lessonOf: suspend (Long) -> LessonReading? = { null },
+    private val isNews: suspend (Long) -> Boolean = { false },
     private val wordReadings: WordReadings? = null,
     /** Changes the script a Chinese language is read in, rewriting its saved words. */
     private val chineseScripts: ChineseScriptService? = null,
@@ -193,7 +196,7 @@ class ReadingViewModel(
                 _state.update { it.copy(loading = false, error = tr("Book not found")) }
                 return@launch
             }
-            _state.update { it.copy(lesson = lessonOf(bookId)) }
+            _state.update { it.copy(lesson = lessonOf(bookId), news = isNews(bookId)) }
             val page = initialPage ?: readingService.currentPageNumber(book)
             load(page, trackOpen = true)
         }

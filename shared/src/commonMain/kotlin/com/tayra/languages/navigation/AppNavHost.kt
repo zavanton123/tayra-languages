@@ -6,6 +6,7 @@ import com.tayra.languages.feature.courses.coursesGraph
 import com.tayra.languages.feature.flashcards.flashcardsGraph
 import com.tayra.languages.feature.frequency.frequencyGraph
 import com.tayra.languages.feature.home.homeGraph
+import com.tayra.languages.feature.news.newsGraph
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.consumeWindowInsets
 import androidx.compose.foundation.layout.padding
@@ -77,6 +78,7 @@ fun AppNavHost(openCourses: Int = 0) {
     ) { padding ->
         NavHost(navController = navController, startDestination = Route.Home, modifier = Modifier.padding(padding).consumeWindowInsets(padding)) {
             homeGraph(navController)
+            newsGraph(navController)
             booksGraph(navController)
             coursesGraph(navController)
             languagesGraph(navController)
@@ -99,6 +101,7 @@ private fun sectionOf(destination: NavDestination): NavSection = when {
         destination.hasRoute<Route.EditCourse>() || destination.hasRoute<Route.NewLesson>() || destination.hasRoute<Route.EditLesson>() -> NavSection.COURSES
     destination.hasRoute<Route.Books>() || destination.hasRoute<Route.NewBook>() || destination.hasRoute<Route.FindBooks>() || destination.hasRoute<Route.EditBook>() ||
         destination.hasRoute<Route.Bookmarks>() || destination.hasRoute<Route.EditPage>() -> NavSection.BOOKS
+    destination.hasRoute<Route.News>() -> NavSection.NEWS
     destination.hasRoute<Route.Flashcards>() || destination.hasRoute<Route.BrowseFlashcards>() -> NavSection.FLASHCARDS
     destination.hasRoute<Route.Terms>() || destination.hasRoute<Route.EditTerm>() || destination.hasRoute<Route.EditTermByText>() ||
         destination.hasRoute<Route.NewTerm>() || destination.hasRoute<Route.Examples>() -> NavSection.TERMS

@@ -1,6 +1,7 @@
 package com.tayra.languages.feature.reading
 
 import com.tayra.languages.core.domain.courses.CourseService
+import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.practice.ExerciseKind
 import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.feature.reading.practice.PracticeScreen
@@ -15,7 +16,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val readingModule = module {
-    viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading, wordReadings = getOrNull(), chineseScripts = getOrNull()) }
+    viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading, isNews = get<BookRepository>().let { books -> { id: Long -> books.newsUrl(id) != null } }, wordReadings = getOrNull(), chineseScripts = getOrNull()) }
     viewModel { (source: PracticeSource, kinds: Set<ExerciseKind>) -> PracticeViewModel(source, kinds, get(), get(), get(), get(), get(), get(), get()) }
 }
 
@@ -29,6 +30,8 @@ fun NavGraphBuilder.readingGraph(navController: NavController) {
             onHome = { navController.navigate(Route.Books) { popUpTo<Route.Courses>() } },
             // Back to the course the lesson was opened from, or to the course itself when the lesson was opened straight from the course list.
             onCourse = { courseId -> if (!navController.popBackStack(Route.Course(courseId), inclusive = false)) navController.navigate(Route.Course(courseId)) { popUpTo<Route.Courses>() } },
+            // Back to the news the article was opened from.
+            onNews = { if (!navController.popBackStack(Route.News, inclusive = false)) navController.navigate(Route.News) },
         )
     }
     composable<Route.Practice> { entry ->

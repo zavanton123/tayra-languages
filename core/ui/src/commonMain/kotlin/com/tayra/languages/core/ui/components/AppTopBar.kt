@@ -47,7 +47,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 
 /** The main navigation areas, used to highlight the active tab; [label] is English, shown through `tr`. */
-enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOOKS("Books"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), SETTINGS("Settings") }
+enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOOKS("Books"), NEWS("News"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), SETTINGS("Settings") }
 
 /** How many flashcards wait today, shown beside the Flashcards tab; provided at the root of the app. */
 val LocalFlashcardsDue = compositionLocalOf { 0 }
@@ -62,6 +62,7 @@ private val menuGroups = listOf(
     MenuGroup(NavSection.HOME, listOf(MenuEntry("Home", Route.Home)), direct = true),
     MenuGroup(NavSection.COURSES, listOf(MenuEntry("Courses", Route.Courses)), direct = true),
     MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Books), MenuEntry("Create new book", Route.NewBook), MenuEntry("Find free books", Route.FindBooks), MenuEntry("Book archive", Route.ArchivedBooks))),
+    MenuGroup(NavSection.NEWS, listOf(MenuEntry("News", Route.News)), direct = true),
     MenuGroup(NavSection.FLASHCARDS, listOf(MenuEntry("Review flashcards", Route.Flashcards), MenuEntry("Browse flashcards", Route.BrowseFlashcards()), MenuEntry("Flashcard settings", Route.FlashcardSettings))),
     MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()), MenuEntry("Word frequency", Route.WordFrequency), MenuEntry("Statistics", Route.Stats))),
     MenuGroup(
@@ -88,7 +89,7 @@ const val APP_NAME = "Tayra Languages"
 
 /**
  * The application bar with the choice of the language being learned and the main menu (Home, Courses,
- * Books, Flashcards, Vocabulary, Settings), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
+ * Books, News, Flashcards, Vocabulary, Settings), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
  *
  * Wide windows always show the logo with the app's name, which leads to the home screen. [title] names the
  * screen only in the compact bar on phones, so screens show their own heading on wide windows

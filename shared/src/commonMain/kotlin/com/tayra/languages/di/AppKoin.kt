@@ -3,6 +3,7 @@ package com.tayra.languages.di
 import com.tayra.languages.feature.courses.coursesModule
 import com.tayra.languages.feature.frequency.frequencyModule
 import com.tayra.languages.feature.home.homeModule
+import com.tayra.languages.feature.news.newsModule
 import com.tayra.languages.feature.flashcards.flashcardsModule
 import com.tayra.languages.bootstrap.AppBootstrapViewModel
 import com.tayra.languages.core.data.di.dataModule
@@ -25,7 +26,7 @@ private val appModule = module {
 }
 
 /** Feature modules wired into the app. */
-private val featureModules: List<Module> = listOf(booksModule, coursesModule, frequencyModule, homeModule, languagesModule, termsModule, flashcardsModule, readingModule, settingsModule, statsModule)
+private val featureModules: List<Module> = listOf(booksModule, coursesModule, frequencyModule, homeModule, newsModule, languagesModule, termsModule, flashcardsModule, readingModule, settingsModule, statsModule)
 
 /**
  * Starts dependency injection. [platformModules] supply platform objects such as the

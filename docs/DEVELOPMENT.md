@@ -414,6 +414,21 @@ for the whole text. An added book's source URI is its page in the library, and i
 Gutenberg sends no CORS headers. The idea and the API details come from the Learning with Texts fork
 (HugoFara/learning-with-texts, public domain).
 
+## News
+
+News (`Route.News`, feature/news) lists the latest articles of the language's feeds in `NewsSources`
+(core/domain `news/`), which `tools/news/generate_news_sources.py` writes from `tools/news/feeds.json`;
+`tools/news/notes.md` records how the feeds were checked (a plain request answers, items from the last
+month, three article pages with their text) and the ones that failed. `FeedNewsReader` (core/data
+`news/`) reads RSS 2.0, RDF and Atom, with RFC 822 and ISO dates and the feeds' categories as topics,
+and takes an article's text from the feed when the source carries it whole (`textInFeed`, from
+`extraction: feed`; RÚV and Radio Sweden's easy news show their text only to a browser) or from its
+page through `ArticleText`: the paragraphs under the element holding most of their text, or the
+schema.org `articleBody` when that is longer; it falls back to the feed's text. `articleUrl` mends the
+links that miss: UN News's `/feed/view` (406) and BBC Chinese's simplified feed linking to `/trad`. An
+article opened becomes a book linked in `news_articles` (migration 22), which `listBooks` leaves out
+as it does `course_lessons`; the reader then shows News in the bar and leads back to it.
+
 ## Word frequency lists
 
 The Word frequency screen (feature/frequency) shows the most common words of the language being

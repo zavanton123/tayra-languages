@@ -177,10 +177,12 @@ fun ReadingScreen(
     onHome: () -> Unit,
     /** Leaves a lesson for its course, given the course's id. */
     onCourse: (String) -> Unit = { onHome() },
+    /** Leaves a news article for the news. */
+    onNews: () -> Unit = { onHome() },
     viewModel: ReadingViewModel = koinViewModel(key = "reading-$bookId") { parametersOf(bookId, initialPage) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
-    val leave: () -> Unit = { state.lesson?.let { onCourse(it.course.id) } ?: onHome() }
+    val leave: () -> Unit = { state.lesson?.let { onCourse(it.course.id) } ?: if (state.news) onNews() else onHome() }
     val clipboard = LocalClipboardManager.current
     val uriHandler = LocalUriHandler.current
     val theme = TayraTheme.current
@@ -334,7 +336,11 @@ fun ReadingScreen(
                 state.settings.focusMode -> FocusBar(state, viewModel, onMenu = { scope.launch { drawerState.open() } })
                 compact -> ReadingHeader(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = leave)
                 else -> {
-                    AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = if (state.lesson == null) NavSection.BOOKS else NavSection.COURSES)
+                    AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = when {
+                        state.lesson != null -> NavSection.COURSES
+                        state.news -> NavSection.NEWS
+                        else -> NavSection.BOOKS
+                    })
                     ReaderToolbar(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = leave, onCourses = { onNavigate(Route.Courses) })
                 }
             }
@@ -427,8 +433,8 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
         Column(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = 8.dp, vertical = 4.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = tr("Menu")) }
-                if (state.lesson == null) IconButton(onClick = onHome) { Icon(Icons.Default.Home, contentDescription = tr("Home")) }
-                else IconButton(onClick = onHome) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back to course")) }
+                if (state.lesson == null && !state.news) IconButton(onClick = onHome) { Icon(Icons.Default.Home, contentDescription = tr("Home")) }
+                else IconButton(onClick = onHome) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = if (state.news) tr("Back to news") else tr("Back to course")) }
                 Text(
                     state.book?.title.orEmpty(),
                     Modifier.weight(1f),
@@ -454,7 +460,9 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
             val separator: @Composable () -> Unit = {
                 Text("/", style = MaterialTheme.typography.bodyLarge, color = colors.outline, modifier = Modifier.padding(horizontal = 8.dp))
             }
-            if (lesson == null) {
+            if (state.news) {
+                Crumb(tr("News"), onHome) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp).size(20.dp)) }
+            } else if (lesson == null) {
                 Crumb(tr("Books"), onHome) { Icon(Icons.Default.Home, contentDescription = tr("Home"), tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp)) }
             } else {
                 Crumb(tr("Courses"), onCourses) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp).size(20.dp)) }
@@ -929,15 +937,37 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         val practice: @Composable (Modifier) -> Unit = { modifier -> if (practisable && state.pageCount > 1) PracticeButton(tr("Practice this page"), modifier, onPractice) }
         val practiceAll: @Composable (Modifier) -> Unit = { modifier ->
             if (last && bookWords > 0) {
-                PracticeButton(if (state.lesson == null) tr("Practice the book's words") else tr("Practice the lesson's words"), modifier.testTag("practice-all")) { choosingKinds = true }
+                PracticeButton(
+                    when {
+                        state.lesson != null -> tr("Practice the lesson's words")
+                        state.news -> tr("Practice the article's words")
+                        else -> tr("Practice the book's words")
+                    },
+                    modifier.testTag("practice-all"),
+                ) { choosingKinds = true }
             }
         }
         val next: @Composable (Modifier) -> Unit = { modifier ->
-            if (last) PrimaryFooterButton(if (state.lesson == null) tr("Finish book") else tr("Finish lesson"), modifier, viewModel::finishBook) else PrimaryFooterButton(tr("Next page"), modifier) { viewModel.markPageRead(false, 1) }
+            if (last) PrimaryFooterButton(
+                when {
+                    state.lesson != null -> tr("Finish lesson")
+                    state.news -> tr("Finish article")
+                    else -> tr("Finish book")
+                },
+                modifier,
+                viewModel::finishBook,
+            ) else PrimaryFooterButton(tr("Next page"), modifier) { viewModel.markPageRead(false, 1) }
         }
         Layout(
             content = {
-                BackToLibrary(if (state.lesson == null) tr("Back to library") else tr("Back to course"), onHome)
+                BackToLibrary(
+                    when {
+                        state.lesson != null -> tr("Back to course")
+                        state.news -> tr("Back to news")
+                        else -> tr("Back to library")
+                    },
+                    onHome,
+                )
                 practice(Modifier)
                 practiceAll(Modifier)
                 markRemaining(Modifier)

@@ -46,6 +46,16 @@ everything you learn stays on your own device.
 - **A home page** with the words added today, your day streak and a year of study as a
   heatmap, and one tap back into your course, your book or your flashcards.
 
+## News
+
+- **The latest news in your language** from about 210 feeds in 68 languages, checked to work: public
+  broadcasters and international services (BBC, DW, RFI, RFE/RL, RFA, Yle, NRK, SVT and others), and
+  easy-language news where it exists (8 Sidor, Yle selkouutiset, News in Levels, RFI's Journal en
+  français facile, Nachrichten in Leichter Sprache...).
+- Each article is marked easy, medium or hard by the share of its words you know, and opens in the
+  reader as a text of its own, kept with the news rather than among your books.
+- Filter by source, difficulty, topic, date, easy language, and articles not read yet, or search.
+
 ## Translation, online or offline
 
 Sentence translations and suggested meanings come from the engine you pick on the

@@ -17,6 +17,10 @@ sealed interface Route {
     @Serializable
     data object NewBook : Route
 
+    /** The latest news in the language being learned, from news sites' feeds. */
+    @Serializable
+    data object News : Route
+
     /** Free books from online libraries, for the language being learned. */
     @Serializable
     data object FindBooks : Route
