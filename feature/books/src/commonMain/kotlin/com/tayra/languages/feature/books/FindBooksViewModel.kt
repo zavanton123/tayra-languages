@@ -11,6 +11,7 @@ import com.tayra.languages.core.domain.books.discover.TextCoverage
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.components.CoverageCheck
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.state.UiEvents
 import kotlinx.coroutines.CancellationException
@@ -23,14 +24,6 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-
-/** What is known of how hard a found book is. */
-sealed interface CoverageCheck {
-    data object NotChecked : CoverageCheck
-    data object Checking : CoverageCheck
-    data class Checked(val coverage: TextCoverage) : CoverageCheck
-    data class Failed(val message: String) : CoverageCheck
-}
 
 data class FoundBookItem(
     val book: FoundBook,

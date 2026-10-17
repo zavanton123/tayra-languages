@@ -24,6 +24,7 @@ import com.tayra.languages.core.domain.books.discover.Difficulty
 import com.tayra.languages.core.domain.books.discover.FoundBook
 import com.tayra.languages.core.domain.books.discover.TextCoverage
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.CoverageCheck
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme

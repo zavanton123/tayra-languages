@@ -49,6 +49,9 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.books.discover.BookSource
 import com.tayra.languages.core.domain.books.discover.Difficulty
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.CoverageLine
+import com.tayra.languages.core.ui.components.DifficultyFilter
+import com.tayra.languages.core.ui.components.color
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -161,17 +164,7 @@ private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact
             }
         }
         SearchBox(state.query, actions.onQuery, Modifier.fillMaxWidth(), placeholder = tr("Search titles and authors"))
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            (listOf<Difficulty?>(null) + Difficulty.entries).forEach { difficulty ->
-                FilterChip(
-                    selected = state.difficulty == difficulty,
-                    onClick = { actions.onDifficulty(difficulty) },
-                    label = { Text(difficulty?.label ?: tr("All levels")) },
-                    leadingIcon = difficulty?.let { { Box(Modifier.size(10.dp).clip(RoundedCornerShape(5.dp)).background(it.color)) } },
-                    modifier = Modifier.testTag("difficulty-${difficulty?.name ?: "ALL"}"),
-                )
-            }
-        }
+        DifficultyFilter(state.difficulty, actions.onDifficulty)
     }
 }
 
@@ -194,7 +187,7 @@ private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compac
             val byline = listOfNotNull(book.authors.joinToString(", ").takeIf { it.isNotEmpty() }, book.level).joinToString(" · ")
             if (byline.isNotEmpty()) Text(byline, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             if (book.description.isNotEmpty()) Text(book.description, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            DifficultyLine(item, actions)
+            CoverageLine(item.difficulty, item.check, tag = book.id, onCheck = if (book.source.judgedOnSight) null else ({ actions.onCheck(item) }))
             item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
             if (compact) {
                 Spacer(Modifier.height(4.dp))
@@ -203,43 +196,6 @@ private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compac
         }
         if (!compact) BookAction(item, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = 160.dp))
     }
-}
-
-@Composable
-private fun DifficultyLine(item: FoundBookItem, actions: FindBooksActions) {
-    val colors = MaterialTheme.colorScheme
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-        item.difficulty?.let { DifficultyTag(it) }
-        when (val check = item.check) {
-            CoverageCheck.Checking -> {
-                CircularProgressIndicator(Modifier.size(14.dp), strokeWidth = 2.dp)
-                Text(tr("Checking the words…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            }
-            is CoverageCheck.Checked -> Text(
-                tr("You know {0}% of the words", check.coverage.percent),
-                style = MaterialTheme.typography.bodyMedium,
-                color = colors.onSurfaceVariant,
-                modifier = Modifier.testTag("coverage-${item.book.id}"),
-            )
-            is CoverageCheck.Failed -> Text(check.message, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            CoverageCheck.NotChecked -> if (!item.book.source.judgedOnSight) {
-                TextButton(onClick = { actions.onCheck(item) }, contentPadding = PaddingValues(horizontal = 8.dp), modifier = Modifier.height(32.dp).testTag("check-${item.book.id}")) {
-                    Text(tr("Check the words"))
-                }
-            }
-        }
-    }
-}
-
-@Composable
-private fun DifficultyTag(difficulty: Difficulty) {
-    Text(
-        difficulty.label,
-        Modifier.clip(RoundedCornerShape(50)).background(difficulty.color.copy(alpha = 0.14f)).padding(horizontal = 10.dp, vertical = 3.dp),
-        style = MaterialTheme.typography.labelLarge,
-        color = difficulty.color,
-        fontWeight = FontWeight.SemiBold,
-    )
 }
 
 @Composable
@@ -322,18 +278,4 @@ private val BookSource.libraryName: String
         BookSource.GUTENBERG -> "Project Gutenberg"
         BookSource.WIKISOURCE -> "Wikisource"
         BookSource.GDL -> "Global Digital Library"
-    }
-
-private val Difficulty.label: String
-    get() = when (this) {
-        Difficulty.EASY -> tr("Easy")
-        Difficulty.MEDIUM -> tr("Medium")
-        Difficulty.HARD -> tr("Hard")
-    }
-
-private val Difficulty.color: Color
-    get() = when (this) {
-        Difficulty.EASY -> Color(0xFF2E9D57)
-        Difficulty.MEDIUM -> Color(0xFFE08A1E)
-        Difficulty.HARD -> Color(0xFFD64545)
     }
