@@ -267,6 +267,7 @@ private fun SourceNote(source: BookSource) {
             BookSource.LITTERATURBANKEN -> tr("Swedish classics from Litteraturbanken, free to share under CC0, most in the spelling of their time. Without a search, the most read.")
             BookSource.BEN_YEHUDA -> tr("Hebrew works in the public domain from Project Ben-Yehuda, without vowel points. Without a search, its fables, then its stories.")
             BookSource.ADL -> tr("Older Danish literature from the Royal Danish Library's Arkiv for Dansk Litteratur, free to share non-commercially, in the spelling of its time. Without a search, H. C. Andersen's works.")
+            BookSource.GANJOOR -> tr("Classical Persian poems and stories from Ganjoor, each one text, without short vowel marks. Without a search, the stories of Saadi's Golestan.")
         },
         Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp),
         style = MaterialTheme.typography.bodySmall,

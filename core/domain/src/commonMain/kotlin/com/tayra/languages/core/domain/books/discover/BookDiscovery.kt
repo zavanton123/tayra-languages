@@ -40,6 +40,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** Arkiv for Dansk Litteratur's older Danish literature, at the Royal Danish Library. */
     ADL("Arkiv for Dansk Litteratur", "ADL", judgedOnSight = false, tag = "adl", host = "tekster.kb.dk", languages = setOf("da")),
+
+    /** Ganjoor's classical Persian poems and stories. */
+    GANJOOR("Ganjoor", "Ganjoor", judgedOnSight = true, tag = "ganjoor", host = "ganjoor.net", languages = setOf("fa")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages
