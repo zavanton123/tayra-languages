@@ -113,9 +113,11 @@ class FeedNewsReader(private val client: HttpClient) : NewsFeedReader {
         private fun item(fields: Map<String, String>, source: NewsSource): NewsArticle? {
             val url = (fields["link"] ?: fields["guid"]?.takeIf { it.startsWith("http") })?.trim()?.let { articleUrl(it, source) } ?: return null
             val title = fields["title"]?.let(::plain)?.takeIf { it.isNotEmpty() } ?: return null
-            val full = (fields["content:encoded"] ?: fields["content"])?.let(::plain)
-            val summary = (fields["description"] ?: fields["summary"])?.let(::plain).orEmpty()
+            val full = (fields["content:encoded"] ?: fields["content"])?.let(::plain)?.let(::withoutPostNotice)
+            val summary = (fields["description"] ?: fields["summary"])?.let(::plain)?.let(::withoutPostNotice).orEmpty()
             val body = listOfNotNull(full, summary).filter { it.isNotEmpty() }.maxByOrNull(ArticleText::letters)
+            // Some editions carry the odd article of their English one.
+            if (source.languageCode != "en" && inLatinLetters(title) && looksEnglish("$title ${body.orEmpty().take(ENGLISH_SAMPLE)}")) return null
             return NewsArticle(
                 source = source,
                 url = url,
@@ -127,6 +129,40 @@ class FeedNewsReader(private val client: HttpClient) : NewsFeedReader {
         }
 
         private const val SUMMARY_CHARACTERS = 400
+        private const val ENGLISH_SAMPLE = 1_000
+
+        /** Words common in English and in no language written with the same letters ("in", "is" and "was" are Dutch and German too). */
+        private val ENGLISH_WORDS = setOf("the", "and", "that", "with", "which", "this", "are", "were", "have", "has", "from", "they", "their", "it’s", "it's", "how", "what")
+
+        /**
+         * Whether a text is in English, by the share of its letters in words only English uses;
+         * letters rather than words, as Chinese and Japanese run a sentence together as one "word".
+         */
+        internal fun looksEnglish(text: String): Boolean {
+            val words = text.lowercase().split(Regex("[^\\p{L}’']+")).filter { it.isNotEmpty() }
+            if (words.size < MIN_WORDS_TO_JUDGE) return false
+            val letters = words.sumOf { it.length }
+            return words.filter { it in ENGLISH_WORDS }.sumOf { it.length } * 100 >= letters * ENGLISH_SHARE
+        }
+
+        private const val MIN_WORDS_TO_JUDGE = 6
+
+        /** In English some 10% of the letters are in these words; in other languages next to none. */
+        private const val ENGLISH_SHARE = 4
+
+        /** Whether most of a text's letters are Latin ones, as an English title's are, whatever names a Thai or Mongolian one quotes. */
+        private fun inLatinLetters(text: String): Boolean {
+            val letters = text.filter { it.isLetter() }
+            return letters.count { it.code < LATIN_END } * 2 > letters.length
+        }
+
+        /** Where the Latin alphabets end, the extended ones included. */
+        private const val LATIN_END = 0x250
+
+        /** WordPress's "The post … appeared first on …", in English whatever the site's language, which is no part of the article. */
+        private val POST_NOTICE = Regex("""\s*The post .{1,300}? appeared first on [^\n]*""")
+
+        private fun withoutPostNotice(text: String): String = POST_NOTICE.replace(text, "").trim()
 
         /**
          * The address to read an article at, where a feed's own does not lead to it: UN News links

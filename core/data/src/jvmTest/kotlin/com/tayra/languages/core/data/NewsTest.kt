@@ -35,6 +35,7 @@ import kotlinx.coroutines.test.runTest
 import java.io.File
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
 import kotlin.test.assertNull
 import kotlin.test.assertTrue
 import kotlin.time.Instant
@@ -75,6 +76,30 @@ class NewsTest {
         assertEquals(listOf("Política", "Brasil", "Eleições"), FeedNewsReader.parse(rss, source).single().topics)
         val atom = """<feed><entry><title>A</title><link href="https://news.example/a"/><category term="sport" label="Desporto"/><category term="futebol"/></entry></feed>"""
         assertEquals(listOf("Desporto", "futebol"), FeedNewsReader.parse(atom, source).single().topics)
+    }
+
+    @Test
+    fun anEnglishArticleInAFeedOfAnotherLanguageIsLeftOut() {
+        val atom = """<feed><entry><title>O que acontece no seu cérebro quando você não consegue parar de rir?</title><link href="https://news.example/riso"/>
+            <content type="html">&lt;p&gt;Você se lembra da última vez em que estava rindo e simplesmente não conseguia parar?&lt;/p&gt;</content></entry>
+            <entry><title>Is it better to vaccinate against COVID and flu together, or separately?</title><link href="https://news.example/flu"/>
+            <content type="html">&lt;p&gt;As autumn sets in and temperatures fall across the northern hemisphere, vaccination campaigns are getting underway, and many people wonder whether they can have both.&lt;/p&gt;</content></entry></feed>"""
+        assertEquals(listOf("https://news.example/riso"), FeedNewsReader.parse(atom, source).map { it.url })
+        assertEquals(2, FeedNewsReader.parse(atom, source.copy(languageCode = "en")).size, "an English feed keeps them")
+        // Words English shares with Dutch, German and the Nordic languages count for nothing.
+        assertFalse(FeedNewsReader.looksEnglish("Het is in de stad was een man met een hond, en hij is voor de deur in het huis."))
+        assertFalse(FeedNewsReader.looksEnglish("Det er for sent, sa han, og gikk for å finne en annen vei hjem."))
+        // A Chinese sentence runs together; a few English names in it do not make it English.
+        assertFalse(FeedNewsReader.looksEnglish("前進倫敦書展：讓世界看見南亞 今年的 The London Book Fair 有許多南亞出版社參加。在倫敦書展上，南亞的出版社與作家們展示了他們的作品，讓世界看見南亞的文學與文化。他們說，翻譯是讓更多讀者認識南亞文學的關鍵，而書展正是與各國出版社見面的最好機會。"))
+        // WordPress's English notice is no part of a Mongolian article.
+        val wordpress = """<rss><channel><item><title>Таны хөрөнгө - Таны боломж</title><link>https://news.example/mn</link>
+            <description><![CDATA[<p>The post <a href="https://news.example/mn">Таны хөрөнгө - Таны боломж</a> appeared first on <a href="https://news.example">Eguur.MN</a>.</p>]]></description></item></channel></rss>"""
+        val mongolian = FeedNewsReader.parse(wordpress, source.copy(languageCode = "mn")).single()
+        assertEquals("", mongolian.summary)
+        // A Mongolian title quoting an English name is still Mongolian.
+        val named = """<rss><channel><item><title>“The MongolZ” бүрэлдэхүүндээ өөрчлөлт хийж, хоёр тоглогчийг сэлгээнд шилжүүллээ</title><link>https://news.example/mz</link>
+            <description>The team and the players have changed, with the new roster from the start of the season.</description></item></channel></rss>"""
+        assertEquals(1, FeedNewsReader.parse(named, source.copy(languageCode = "mn")).size)
     }
 
     @Test

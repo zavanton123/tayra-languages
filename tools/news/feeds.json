@@ -840,6 +840,16 @@
         "newestItem": "2026-10-17",
         "articleWords": 2563,
         "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
+      },
+      {
+        "name": "The Conversation",
+        "feedUrl": "https://theconversation.com/global/articles.atom",
+        "homepage": "https://theconversation.com/global",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 912,
+        "notes": "Explanatory articles by academics for a general audience; CC BY-ND 4.0; full text in the Atom feed"
       }
     ]
   },
@@ -1080,6 +1090,16 @@
         "newestItem": "2026-10-13",
         "articleWords": 648,
         "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
+      },
+      {
+        "name": "The Conversation",
+        "feedUrl": "https://theconversation.com/fr/articles.atom",
+        "homepage": "https://theconversation.com/fr",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 1276,
+        "notes": "Explanatory articles by academics for a general audience; CC BY-ND 4.0; full text in the Atom feed"
       }
     ]
   },
@@ -1435,6 +1455,16 @@
         "newestItem": "2025-09-30",
         "articleWords": 1189,
         "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
+      },
+      {
+        "name": "The Conversation",
+        "feedUrl": "https://theconversation.com/id/articles.atom",
+        "homepage": "https://theconversation.com/id",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 984,
+        "notes": "Explanatory articles by academics for a general audience; CC BY-ND 4.0; full text in the Atom feed"
       }
     ]
   },
@@ -1864,6 +1894,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 1585,
         "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
+      },
+      {
+        "name": "The Conversation",
+        "feedUrl": "https://theconversation.com/br/articles.atom",
+        "homepage": "https://theconversation.com/br",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 1106,
+        "notes": "Explanatory articles by academics for a general audience; CC BY-ND 4.0; full text in the Atom feed"
       }
     ]
   },
@@ -2169,6 +2209,16 @@
         "newestItem": "2026-10-17",
         "articleWords": 2661,
         "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
+      },
+      {
+        "name": "The Conversation",
+        "feedUrl": "https://theconversation.com/es/articles.atom",
+        "homepage": "https://theconversation.com/es",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 1111,
+        "notes": "Explanatory articles by academics for a general audience; CC BY-ND 4.0; full text in the Atom feed"
       }
     ]
   },
