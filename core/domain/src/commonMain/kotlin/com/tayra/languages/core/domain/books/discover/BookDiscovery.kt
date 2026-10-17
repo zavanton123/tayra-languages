@@ -37,6 +37,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** Project Ben-Yehuda's Hebrew works in the public domain. */
     BEN_YEHUDA("Project Ben-Yehuda", "Ben-Yehuda", judgedOnSight = true, tag = "benyehuda", host = "benyehuda.org", languages = setOf("he")),
+
+    /** Arkiv for Dansk Litteratur's older Danish literature, at the Royal Danish Library. */
+    ADL("Arkiv for Dansk Litteratur", "ADL", judgedOnSight = false, tag = "adl", host = "tekster.kb.dk", languages = setOf("da")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages

@@ -263,10 +263,10 @@ internal fun isUnspaced(c: Char): Boolean = when (c.code) {
 /** The text of HTML and XHTML: what a reader sees, without code, ruby readings or note references. */
 internal object HtmlText {
 
-    fun text(html: String): String = TextBuilder().also { append(html, it) }.build()
+    fun text(html: String, skipped: (MarkupToken.Open) -> Boolean = { false }): String = TextBuilder().also { append(html, it, skipped) }.build()
 
-    /** Adds [html] to [out] as paragraphs. */
-    fun append(html: String, out: TextBuilder) {
+    /** Adds [html] to [out] as paragraphs, leaving out the elements that are [skipped] besides those that are no text. */
+    fun append(html: String, out: TextBuilder, skipped: (MarkupToken.Open) -> Boolean = { false }) {
         val tokens = Markup.tokens(html).iterator()
         var preformatted = 0
         while (tokens.hasNext()) {
@@ -275,7 +275,7 @@ internal object HtmlText {
                 is MarkupToken.Open -> {
                     val name = token.name
                     when {
-                        !token.selfClosing && (name in SKIPPED || isNote(token)) -> skip(tokens, name)
+                        !token.selfClosing && (name in SKIPPED || isNote(token) || skipped(token)) -> skip(tokens, name)
                         name == "br" -> out.breakLine()
                         name == "pre" && !token.selfClosing -> { out.breakLine(); preformatted++ }
                         name == "td" || name == "th" -> out.space()
