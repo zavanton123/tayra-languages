@@ -43,6 +43,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** Ganjoor's classical Persian poems and stories. */
     GANJOOR("Ganjoor", "Ganjoor", judgedOnSight = true, tag = "ganjoor", host = "ganjoor.net", languages = setOf("fa")),
+
+    /** Projecto Adamastor's Portuguese classics in today's spelling. */
+    ADAMASTOR("Projecto Adamastor", "Adamastor", judgedOnSight = false, tag = "adamastor", host = "projectoadamastor.org", languages = setOf("pt")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages

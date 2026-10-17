@@ -16,6 +16,7 @@ import com.tayra.languages.core.domain.news.NewsService
 import com.tayra.languages.core.domain.news.WikipediaReader
 import com.tayra.languages.core.data.news.WikipediaArticles
 import com.tayra.languages.core.data.news.FeedNewsReader
+import com.tayra.languages.core.data.discover.AdamastorCatalog
 import com.tayra.languages.core.data.discover.AdlCatalog
 import com.tayra.languages.core.data.discover.AozoraCatalog
 import com.tayra.languages.core.data.discover.BenYehudaCatalog
@@ -186,7 +187,7 @@ val dataModule: Module = module {
     single { CoursePackService(get(), get()) }
     single<BookPackStore> { BookPackRepository(get()) }
     single { BookPackService(get(), get(), get(), get()) }
-    single { BookDiscoveryService(listOf(GutenbergCatalog(get()), WikisourceCatalog(get()), GdlCatalog(get()), WolneLekturyCatalog(get()), AozoraCatalog(get()), LitteraturbankenCatalog(get()), BenYehudaCatalog(get()), AdlCatalog(get()), GanjoorCatalog(get())), get(), get(), get()) }
+    single { BookDiscoveryService(listOf(GutenbergCatalog(get()), WikisourceCatalog(get()), GdlCatalog(get()), WolneLekturyCatalog(get()), AozoraCatalog(get()), LitteraturbankenCatalog(get()), BenYehudaCatalog(get()), AdlCatalog(get()), GanjoorCatalog(get()), AdamastorCatalog(get())), get(), get(), get()) }
     single<NewsFeedReader> { FeedNewsReader(get()) }
     single<WikipediaReader> { WikipediaArticles(get()) }
     single { NewsService(get(), get(), get(), get(), get()) }
