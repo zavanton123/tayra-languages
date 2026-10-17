@@ -258,7 +258,10 @@ private fun PhoneAvailableRow(status: PackStatus, browsing: Boolean, onDownload:
         CodeTile(if (browsing) status.pack.id.sourceLanguage else status.pack.id.targetLanguage, size = 40)
         Spacer(Modifier.width(12.dp))
         Column(Modifier.weight(1f)) {
-            Text(status.pack.displayTitle, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            // An edition's source goes on its own line: cut off at the end of the title, it would read as a duplicate.
+            val edition = status.pack.editionLabel
+            Text(if (edition == null) status.pack.displayTitle else "${tr(status.pack.sourceName)} \u2192 ${tr(status.pack.targetName)}", style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            if (edition != null && state !is PackState.Failed) Text(edition, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             when (state) {
                 is PackState.Downloading -> {
                     Text(tr("Downloading…"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)

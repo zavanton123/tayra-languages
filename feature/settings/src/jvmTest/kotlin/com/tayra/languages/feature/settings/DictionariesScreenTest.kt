@@ -3,10 +3,13 @@ package com.tayra.languages.feature.settings
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertCountEquals
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasClickAction
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onFirst
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
@@ -125,10 +128,13 @@ class DictionariesScreenTest {
         // Available leads with the learning language; a search looks through everything.
         onNodeWithTag("phone-tab-AVAILABLE").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Available for Portuguese")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Portuguese → French").performScrollTo().assertExists()
+        // The pair's FreeDict pack has the same title, its source on the line below.
+        onAllNodesWithText("Portuguese → French").assertCountEquals(2)
+        onAllNodesWithText("Portuguese → French")[1].performScrollTo()
+        onAllNodesWithText("FreeDict").onFirst().assertExists()
         onNodeWithText("Search dictionaries").performTextInput("Czech")
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("All dictionaries")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Czech → Russian").performScrollTo().assertExists()
+        onAllNodesWithText("Czech → Russian").onFirst().performScrollTo().assertExists()
 
         // Installed lists what is on the device, with removal from the row's menu.
         onNodeWithTag("phone-tab-INSTALLED").performScrollTo().performClick()

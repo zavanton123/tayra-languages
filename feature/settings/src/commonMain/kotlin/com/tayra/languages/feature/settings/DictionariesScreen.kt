@@ -203,9 +203,13 @@ internal val DictionaryPack.displayTitle: String
     get() = when {
         id.imported != null -> "$title \u00b7 ${tr(sourceName)} \u2192 ${tr(targetName)}"
         id.glossary -> "${tr(sourceName)} \u2192 ${tr(targetName)} \u00b7 " + tr("word finder")
-        id.edition != null -> "${tr(sourceName)} \u2192 ${tr(targetName)} \u00b7 " + DictionaryPacks.editionName(id.edition.orEmpty())
+        editionLabel != null -> "${tr(sourceName)} \u2192 ${tr(targetName)} \u00b7 $editionLabel"
         else -> "${tr(sourceName)} \u2192 ${tr(targetName)}"
     }
+
+/** Where an edition comes from, such as FreeDict; null for the Wiktionaries' packs and the others. */
+internal val DictionaryPack.editionLabel: String?
+    get() = id.edition?.let(DictionaryPacks::editionName)
 
 internal fun DictionaryPack.matches(query: String): Boolean =
     query.isBlank() || title.contains(query.trim(), ignoreCase = true) || displayTitle.contains(query.trim(), ignoreCase = true)
@@ -614,7 +618,7 @@ private fun TestLookupDialog(pack: DictionaryPack, viewModel: DictionariesViewMo
                             lookup.entries.take(4).forEach { entry ->
                                 Column {
                                     Text(
-                                        listOfNotNull(entry.word, entry.pos, entry.ipa).joinToString(" · "),
+                                        listOfNotNull(entry.word, entry.pos, entry.ipa).filter { it.isNotBlank() }.joinToString(" · "),
                                         style = MaterialTheme.typography.titleSmall,
                                         fontWeight = FontWeight.SemiBold,
                                     )
