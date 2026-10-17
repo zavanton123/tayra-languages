@@ -5,14 +5,14 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
 
-internal actual suspend fun newSqliteFile(statements: List<String>): ByteArray = withContext(Dispatchers.IO) {
+internal actual suspend fun newSqliteFile(write: suspend (execute: suspend (String) -> Unit) -> Unit): ByteArray = withContext(Dispatchers.IO) {
     val file = File.createTempFile("tayra-anki", ".anki2")
     try {
         file.delete()
         SQLiteDatabase.openOrCreateDatabase(file, null).use { database ->
             database.beginTransaction()
             try {
-                for (sql in statements) database.execSQL(sql)
+                write { sql -> database.execSQL(sql) }
                 database.setTransactionSuccessful()
             } finally {
                 database.endTransaction()

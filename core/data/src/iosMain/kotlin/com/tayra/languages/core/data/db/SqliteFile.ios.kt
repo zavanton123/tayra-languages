@@ -30,7 +30,7 @@ private object EmptySchema : SqlSchema<QueryResult.Value<Unit>> {
 }
 
 @OptIn(ExperimentalForeignApi::class)
-internal actual suspend fun newSqliteFile(statements: List<String>): ByteArray = withContext(Dispatchers.IO) {
+internal actual suspend fun newSqliteFile(write: suspend (execute: suspend (String) -> Unit) -> Unit): ByteArray = withContext(Dispatchers.IO) {
     val directory = NSTemporaryDirectory().trimEnd('/')
     val name = "tayra-anki-${NSUUID().UUIDString}.anki2"
     val path = "$directory/$name"
@@ -44,7 +44,7 @@ internal actual suspend fun newSqliteFile(statements: List<String>): ByteArray =
             },
         )
         try {
-            for (sql in statements) driver.execute(null, sql, 0)
+            write { sql -> driver.execute(null, sql, 0) }
         } finally {
             driver.close()
         }

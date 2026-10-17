@@ -19,21 +19,22 @@ private fun loadSqlJs(): Promise<JsAny?> = js(
         })).then(function () { return window.initSqlJs({ locateFile: function (file) { return file; } }); })""",
 )
 
-/** Builds the database in memory and answers with the file as base64. */
-private fun buildSqlite(sqlJs: JsAny?, statementsJson: String): String = js(
+/** A new database in memory. */
+private fun openSqlite(sqlJs: JsAny?): JsAny = js("new sqlJs.Database()")
+
+private fun runSqlite(db: JsAny, sql: String): Unit = js("db.run(sql)")
+
+/** The database's file as base64. */
+private fun exportSqlite(db: JsAny): String = js(
     """(function () {
-        var db = new sqlJs.Database();
-        try {
-            JSON.parse(statementsJson).forEach(function (sql) { db.run(sql); });
-            var bytes = db.export();
-            var binary = '';
-            for (var i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
-            return btoa(binary);
-        } finally {
-            db.close();
-        }
+        var bytes = db.export();
+        var binary = '';
+        for (var i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
+        return btoa(binary);
     })()""",
 )
+
+private fun closeSqlite(db: JsAny): Unit = js("db.close()")
 
 /** Runs the queries on the database in the base64 [file], answering their rows as JSON. */
 private fun querySqlite(sqlJs: JsAny?, file: String, queriesJson: String): String = js(
@@ -53,9 +54,15 @@ private fun querySqlite(sqlJs: JsAny?, file: String, queriesJson: String): Strin
     })()""",
 )
 
-internal actual suspend fun newSqliteFile(statements: List<String>): ByteArray {
+internal actual suspend fun newSqliteFile(write: suspend (execute: suspend (String) -> Unit) -> Unit): ByteArray {
     val sqlJs = loadSqlJs().await<JsAny?>()
-    return Base64.decode(buildSqlite(sqlJs, Json.encodeToString(statements)))
+    val db = openSqlite(sqlJs)
+    try {
+        write { sql -> runSqlite(db, sql) }
+        return Base64.decode(exportSqlite(db))
+    } finally {
+        closeSqlite(db)
+    }
 }
 
 internal actual suspend fun readSqliteFile(file: ByteArray, queries: List<SqliteQuery>): List<List<List<String?>>> {
