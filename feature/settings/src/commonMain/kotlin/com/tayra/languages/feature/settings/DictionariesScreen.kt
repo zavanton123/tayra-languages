@@ -156,7 +156,7 @@ class DictionariesViewModel(
         } catch (e: CancellationException) {
             throw e
         } catch (e: Exception) {
-            DictionaryImport.Failed(e.message ?: "Not a Yomitan or MDict dictionary")
+            DictionaryImport.Failed(e.message ?: "Not a dictionary this app can import")
         }
     }
 

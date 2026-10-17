@@ -2,6 +2,7 @@ package com.tayra.languages.core.data.mdict
 
 import com.tayra.languages.core.data.db.newSqliteFile
 import com.tayra.languages.core.data.files.HtmlText
+import com.tayra.languages.core.data.files.MarkupToken
 import com.tayra.languages.core.data.yomitan.YomitanConverter.Companion.BATCH
 import com.tayra.languages.core.data.yomitan.YomitanConverter.Companion.lowercase
 import com.tayra.languages.core.data.yomitan.YomitanConverter.Companion.q
@@ -84,12 +85,19 @@ class MdictConverter : DictionaryImporter {
 
         /** The lines an entry shows, as glosses: HTML laid out as text, or plain text by its lines. */
         fun glosses(key: String, record: String): List<String> {
-            // "</br>", which some dictionaries write for "<br>", ends a line too.
-            val text = if ('<' in record) HtmlText.text(record.replace(BR_CLOSE, "<br>")) else record
+            // "</br>", which some dictionaries write for "<br>", ends a line too; links to other entries are no gloss.
+            val text = if ('<' in record) HtmlText.text(record.replace(BR_CLOSE, "<br>"), ::isCrossReference) else record
             val lines = text.lines().map { it.replace(Regex("\\s+"), " ").trim() }.filter { it.isNotEmpty() }
             // Most dictionaries open an entry with its headword, which the app shows already.
             val body = if (lines.firstOrNull()?.let { sameWord(it, key) } == true) lines.drop(1) else lines
             return body.distinct().take(MAX_GLOSSES).map { it.take(MAX_GLOSS) }
+        }
+
+        /** A link to another entry of the dictionary (MDict's entry://, StarDict's bword:// or #word): a related word, not a meaning. */
+        private fun isCrossReference(token: MarkupToken.Open): Boolean {
+            if (token.name != "a") return false
+            val href = token.attributes["href"].orEmpty()
+            return href.startsWith("#") || href.startsWith("entry://") || href.startsWith("bword://")
         }
 
         private fun sameWord(line: String, key: String): Boolean {

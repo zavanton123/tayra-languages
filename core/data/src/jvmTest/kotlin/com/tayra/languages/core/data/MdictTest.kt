@@ -66,7 +66,7 @@ class MdictTest {
         assertTrue("registered user" in assertFailsWith<Exception> { MdictFile(Mdx(entries, encrypted = 1).build()) }.message!!)
         assertTrue("GBK" in assertFailsWith<Exception> { MdictFile(Mdx(entries, encoding = "GBK").build()) }.message!!)
         assertTrue(".mdd" in assertFailsWith<Exception> { MdictFile(Mdx(entries, root = "Library_Data").build()) }.message!!)
-        assertTrue("Not a Yomitan (.zip) or MDict (.mdx)" in assertFailsWith<Exception> { DictionaryFiles().inspect("hello, world, this is not a dictionary".toByteArray()) }.message!!)
+        assertTrue("Not a Yomitan (.zip), MDict (.mdx) or StarDict" in assertFailsWith<Exception> { DictionaryFiles().inspect("hello, world, this is not a dictionary".toByteArray()) }.message!!)
     }
 
     @Test
@@ -113,6 +113,8 @@ class MdictTest {
     fun anEntrysGlossesAreTheLinesItShows() {
         assertEquals(listOf("one", "two"), MdictConverter.glosses("word", "Word\r\none\r\n\r\ntwo\none"))
         assertEquals(listOf("noun", "a thing"), MdictConverter.glosses("thing", "<h1>Thing</h1><script>x()</script><style>p{}</style><p>noun</p><p>a  thing</p>"))
+        // Links to other entries are related words, not meanings: FreeDict's #word, StarDict's bword://, MDict's entry://.
+        assertEquals(listOf("verb, intr", "go"), MdictConverter.glosses("gehen", "<div><font color=\"green\">verb, intr</font><div lang=\"en\">go</div><div><a href=\"#gegangen.2\">gegangen</a> <a href=\"bword://ging\">ging</a></div><a href=\"entry://Gang\">Gang</a></div>"))
     }
 
     /**

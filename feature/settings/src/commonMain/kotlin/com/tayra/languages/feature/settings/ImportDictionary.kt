@@ -30,23 +30,26 @@ import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.i18n.tr
+import io.github.vinceglb.filekit.dialogs.FileKitMode
 import io.github.vinceglb.filekit.dialogs.FileKitType
+import io.github.vinceglb.filekit.name
 import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
 import io.github.vinceglb.filekit.readBytes
 import androidx.compose.runtime.rememberCoroutineScope
 import kotlinx.coroutines.launch
 
-/** Imports a dictionary file (a Yomitan .zip or an MDict .mdx), whose entries then show with the pack of its language pair. */
+/** Imports a dictionary of the user's own (Yomitan, MDict or StarDict), whose entries then show with the pack of its language pair. */
 @Composable
 internal fun ImportDictionaryCard(viewModel: DictionariesViewModel, learning: LanguageOption?, native: String) {
     val state by viewModel.import.collectAsStateWithLifecycle()
     val scope = rememberCoroutineScope()
-    val picker = rememberFilePickerLauncher(type = FileKitType.File(DictionaryFiles.pickerExtensions)) { file ->
-        if (file != null) scope.launch { viewModel.pickImport(file.readBytes()) }
+    // Several files at once for a StarDict dictionary given as its .ifo, .idx and .dict.
+    val picker = rememberFilePickerLauncher(type = FileKitType.File(DictionaryFiles.pickerExtensions), mode = FileKitMode.Multiple()) { files ->
+        if (!files.isNullOrEmpty()) scope.launch { viewModel.pickImport(DictionaryFiles.bundle(files.map { it.name to it.readBytes() })) }
     }
     ContentCard(
         tr("Import a dictionary"),
-        tr("Add a dictionary of your own, made for Yomitan (.zip) or MDict (.mdx); its entries show beside the offline dictionary of its languages."),
+        tr("Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages."),
         icon = AppIcons.Download,
     ) {
         when (val current = state) {

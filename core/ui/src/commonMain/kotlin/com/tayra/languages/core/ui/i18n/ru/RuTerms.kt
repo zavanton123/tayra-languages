@@ -227,7 +227,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Download word finder" to "Скачать поиск слов",
     "word finder" to "поиск слов",
     "Import a dictionary" to "Импорт словаря",
-    "Add a dictionary of your own, made for Yomitan (.zip) or MDict (.mdx); its entries show beside the offline dictionary of its languages." to "Добавьте свой словарь для Yomitan (.zip) или MDict (.mdx): его статьи будут показаны рядом с офлайн-словарём его языков.",
+    "Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages." to "Добавьте свой словарь для Yomitan (.zip), MDict (.mdx) или StarDict (его файлы .ifo, .idx и .dict или их архив): его статьи будут показаны рядом с офлайн-словарём его языков.",
     "Importing {0}..." to "Импорт: {0}…",
     "Reading the dictionary..." to "Чтение словаря…",
     "{0} was imported." to "Словарь {0} импортирован.",
