@@ -388,6 +388,22 @@ through `course_tag_map`, so the Courses screen can filter by several tags (any 
 with their lessons and the texts read from them, and the file. A course reaches a database once,
 so a reworked course needs a new id.
 
+## Free online libraries
+
+Books > Find books (`Route.FindBooks`, `FindBooksScreen` in feature/books) searches two libraries
+through `BookCatalog`s in core/data `discover/`: `GutenbergCatalog` reads Project Gutenberg's own OPDS
+search (`/ebooks/search.opds/?query=l.<code> …`), which answers in about a second where Gutendex can
+take most of a minute, and fetches texts from `/cache/epub/<n>/pg<n>.txt`; `GdlCatalog` reads the
+Global Digital Library's content API, whose language slugs are regional (`pt-br`, `es-es,es-ni`), and
+reads a book's ePUB whole, skipping picture books with fewer than 30 words. `BookDiscoveryService`
+judges a book by the running words of its opening the reader knows (95% easy, 85% medium); a
+Gutenberg book is judged as it is listed from a 64 KB range request, a GDL book only when asked. The
+downloads are sent with `Cache-Control: no-store`, or the client's cache would hand back the 64 KB sample
+for the whole text. An added book's source URI is its page in the library, and its text ends with a
+"Source:" line in the interface language. On the web only the Global Digital Library answers, as
+Gutenberg sends no CORS headers. The idea and the API details come from the Learning with Texts fork
+(HugoFara/learning-with-texts, public domain).
+
 ## Word frequency lists
 
 The Word frequency screen (feature/frequency) shows the most common words of the language being

@@ -56,12 +56,13 @@ import com.tayra.languages.core.ui.i18n.trPlural
 
 /** The phone bar's list menu (ticking books, the archive) and the button for a new book. */
 @Composable
-internal fun PhoneBooksMenu(archived: Boolean, selecting: Boolean, onSelecting: (Boolean) -> Unit, onNewBook: () -> Unit, onArchive: () -> Unit) {
+internal fun PhoneBooksMenu(archived: Boolean, selecting: Boolean, onSelecting: (Boolean) -> Unit, onNewBook: () -> Unit, onArchive: () -> Unit, onFindBooks: () -> Unit = {}) {
     var open by remember { mutableStateOf(false) }
     Box {
         IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("List actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             AppMenuItem(text = { Text(if (selecting) tr("Done selecting") else tr("Select books")) }, onClick = { open = false; onSelecting(!selecting) })
+            if (!archived) AppMenuItem(text = { Text(tr("Find free books")) }, onClick = { open = false; onFindBooks() })
             if (!archived) AppMenuItem(text = { Text(tr("Book archive")) }, onClick = { open = false; onArchive() })
         }
     }

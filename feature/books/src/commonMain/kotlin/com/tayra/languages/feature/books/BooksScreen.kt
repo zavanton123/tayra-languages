@@ -126,7 +126,7 @@ fun BooksScreen(
                 onBack = onBack,
                 section = NavSection.BOOKS,
                 actions = {
-                    if (compact) PhoneBooksMenu(archived, selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAll(false) }, onNewBook = { onNavigate(Route.NewBook) }, onArchive = { onNavigate(Route.ArchivedBooks) })
+                    if (compact) PhoneBooksMenu(archived, selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAll(false) }, onNewBook = { onNavigate(Route.NewBook) }, onArchive = { onNavigate(Route.ArchivedBooks) }, onFindBooks = { onNavigate(Route.FindBooks) })
                 },
             )
         },
@@ -152,6 +152,7 @@ fun BooksScreen(
                 onArchiveSelected = { viewModel.archiveSelected() },
                 onDeleteSelected = { confirmDeleteSelected = true },
                 onDownloadBooks = viewModel::downloadBooks,
+                onFindBooks = { onNavigate(Route.FindBooks) },
             )
         if (compact) PhoneBooksContent(state, callbacks, selecting = selecting, onDone = { selecting = false; viewModel.selectAll(false) }, modifier = Modifier.padding(padding))
         else BooksContent(state = state, callbacks = callbacks, modifier = Modifier.padding(padding))
@@ -198,6 +199,8 @@ internal class BooksCallbacks(
     val onDeleteSelected: () -> Unit = {},
     /** Downloads the language's bundle of free books. */
     val onDownloadBooks: () -> Unit = {},
+    /** Opens the free books of online libraries. */
+    val onFindBooks: () -> Unit = {},
 )
 
 /** The page below the top bar, from the header to the list of books. */
@@ -214,10 +217,10 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
         modifier.fillMaxSize(),
         contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
     ) {
-        item { PageHeader(state.archived, compact, callbacks.onNewBook) }
+        item { PageHeader(state.archived, compact, callbacks.onNewBook, callbacks.onFindBooks) }
         // An empty library: the way in is a bundle of free books, or a first book of one's own.
         if (!state.archived && state.books.isEmpty()) {
-            item { EmptyLibrary(state, callbacks.onNewBook, callbacks.onDownloadBooks) }
+            item { EmptyLibrary(state, callbacks.onNewBook, callbacks.onDownloadBooks, callbacks.onFindBooks) }
             return@ScrollList
         }
         if (!state.archived) state.continueWith?.let { book -> item { ContinueCard(book) { callbacks.onOpen(book) } } }
@@ -244,7 +247,7 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
 }
 
 @Composable
-private fun PageHeader(archived: Boolean, compact: Boolean, onNewBook: () -> Unit) {
+private fun PageHeader(archived: Boolean, compact: Boolean, onNewBook: () -> Unit, onFindBooks: () -> Unit) {
     Row(Modifier.fillMaxWidth().padding(bottom = 24.dp), verticalAlignment = Alignment.CenterVertically) {
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
             Text(
@@ -259,6 +262,12 @@ private fun PageHeader(archived: Boolean, compact: Boolean, onNewBook: () -> Uni
             )
         }
         if (!archived) {
+            OutlinedButton(onClick = onFindBooks, shape = RoundedCornerShape(10.dp), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 12.dp), modifier = Modifier.testTag("find-books")) {
+                Icon(Icons.Default.Search, contentDescription = null, modifier = Modifier.size(18.dp))
+                Spacer(Modifier.width(8.dp))
+                Text(tr("Find books"), fontWeight = FontWeight.SemiBold)
+            }
+            Spacer(Modifier.width(12.dp))
             Button(onClick = onNewBook, shape = RoundedCornerShape(10.dp), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 12.dp)) {
                 Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.width(8.dp))
@@ -417,7 +426,7 @@ private fun LibraryHeader(state: BooksUiState, selecting: Boolean, onSelect: () 
 private val CONTROL_HEIGHT = 48.dp
 
 @Composable
-internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier = Modifier) {
+internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier = Modifier, placeholder: String = tr("Search titles or tags")) {
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).background(colors.surface)
@@ -435,7 +444,7 @@ internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modi
             modifier = Modifier.weight(1f),
             decorationBox = { inner ->
                 Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text(tr("Search titles or tags"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    if (value.isEmpty()) Text(placeholder, color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                     inner()
                 }
             },
@@ -797,7 +806,7 @@ internal fun BookMenu(book: BookListItem, callbacks: BooksCallbacks) {
 
 /** No books yet in the language: the free bundle, when there is one, and a book of one's own. */
 @Composable
-internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownloadBooks: () -> Unit) {
+internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownloadBooks: () -> Unit, onFindBooks: () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val language = state.languageName
@@ -844,6 +853,11 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
                     Spacer(Modifier.width(10.dp))
                     Text(if (downloading) tr("Downloading…") else tr("Download the book bundle"), fontWeight = FontWeight.SemiBold)
                 }
+            }
+            OutlinedButton(onClick = onFindBooks, shape = RoundedCornerShape(12.dp), contentPadding = PaddingValues(horizontal = 24.dp, vertical = 14.dp), modifier = Modifier.testTag("empty-find-books")) {
+                Icon(Icons.Default.Search, contentDescription = null, modifier = Modifier.size(20.dp))
+                Spacer(Modifier.width(10.dp))
+                Text(tr("Find free books"), fontWeight = FontWeight.SemiBold)
             }
             OutlinedButton(onClick = onNewBook, shape = RoundedCornerShape(12.dp), contentPadding = PaddingValues(horizontal = 24.dp, vertical = 14.dp)) {
                 Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(20.dp))

@@ -12,6 +12,7 @@ val booksModule = module {
     viewModel { (archived: Boolean) -> BooksViewModel(archived, get(), get(), get(), get(), get(), get(), get(), get()) }
     viewModel { (bookId: Long?) -> BookFormViewModel(bookId, get(), get(), get(), get(), get()) }
     viewModel { (bookId: Long) -> BookmarksViewModel(bookId, get()) }
+    viewModel { FindBooksViewModel(get(), get(), get()) }
     viewModel { (bookId: Long, page: Int) -> PageEditViewModel(bookId, page, get(), get(), get()) }
 }
 
@@ -23,6 +24,7 @@ fun NavGraphBuilder.booksGraph(navController: NavController) {
     composable<Route.ArchivedBooks> {
         BooksScreen(archived = true, onNavigate = navigate, onBack = { navController.popBackStack() })
     }
+    composable<Route.FindBooks> { FindBooksScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.NewBook> {
         BookFormScreen(
             bookId = null,

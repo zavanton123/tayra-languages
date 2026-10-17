@@ -97,7 +97,7 @@ private fun sectionOf(destination: NavDestination): NavSection = when {
     destination.hasRoute<Route.Home>() -> NavSection.HOME
     destination.hasRoute<Route.Courses>() || destination.hasRoute<Route.Course>() || destination.hasRoute<Route.NewCourse>() ||
         destination.hasRoute<Route.EditCourse>() || destination.hasRoute<Route.NewLesson>() || destination.hasRoute<Route.EditLesson>() -> NavSection.COURSES
-    destination.hasRoute<Route.Books>() || destination.hasRoute<Route.NewBook>() || destination.hasRoute<Route.EditBook>() ||
+    destination.hasRoute<Route.Books>() || destination.hasRoute<Route.NewBook>() || destination.hasRoute<Route.FindBooks>() || destination.hasRoute<Route.EditBook>() ||
         destination.hasRoute<Route.Bookmarks>() || destination.hasRoute<Route.EditPage>() -> NavSection.BOOKS
     destination.hasRoute<Route.Flashcards>() || destination.hasRoute<Route.BrowseFlashcards>() -> NavSection.FLASHCARDS
     destination.hasRoute<Route.Terms>() || destination.hasRoute<Route.EditTerm>() || destination.hasRoute<Route.EditTermByText>() ||

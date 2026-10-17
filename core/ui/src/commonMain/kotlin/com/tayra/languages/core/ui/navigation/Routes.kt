@@ -17,6 +17,10 @@ sealed interface Route {
     @Serializable
     data object NewBook : Route
 
+    /** Free books from online libraries, for the language being learned. */
+    @Serializable
+    data object FindBooks : Route
+
     @Serializable
     data class EditBook(val bookId: Long) : Route
 
