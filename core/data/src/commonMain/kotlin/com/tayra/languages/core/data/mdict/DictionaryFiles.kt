@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.mdict
 
+import com.tayra.languages.core.data.files.pickerFiltersByExtension
 import com.tayra.languages.core.data.yomitan.YomitanConverter
 import com.tayra.languages.core.domain.dictionary.DictionaryImporter
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaryInfo
@@ -14,6 +15,11 @@ class DictionaryFiles(
 
     override suspend fun convert(file: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit): ByteArray =
         importerFor(file).convert(file, sourceLanguage, targetLanguage, onProgress)
+
+    companion object {
+        /** The extensions to give the file picker, or null for every file: Android's picker filters by MIME type, and has none for .mdx. */
+        val pickerExtensions: Set<String>? get() = if (pickerFiltersByExtension) setOf("zip", "mdx") else null
+    }
 
     private fun importerFor(file: ByteArray): DictionaryImporter = when {
         file.size >= 4 && file[0] == 'P'.code.toByte() && file[1] == 'K'.code.toByte() -> yomitan

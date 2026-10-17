@@ -23,6 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.data.mdict.DictionaryFiles
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.language.LanguageOption
 import com.tayra.languages.core.ui.components.AppIcons
@@ -40,7 +41,7 @@ import kotlinx.coroutines.launch
 internal fun ImportDictionaryCard(viewModel: DictionariesViewModel, learning: LanguageOption?, native: String) {
     val state by viewModel.import.collectAsStateWithLifecycle()
     val scope = rememberCoroutineScope()
-    val picker = rememberFilePickerLauncher(type = FileKitType.File(listOf("zip", "mdx"))) { file ->
+    val picker = rememberFilePickerLauncher(type = FileKitType.File(DictionaryFiles.pickerExtensions)) { file ->
         if (file != null) scope.launch { viewModel.pickImport(file.readBytes()) }
     }
     ContentCard(
