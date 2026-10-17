@@ -44,6 +44,8 @@ data class NewsArticle(
     val feedText: String? = null,
     /** The topics the feed files the article under ("Politics", "Sport"), as it names them. */
     val topics: List<String> = emptyList(),
+    /** How long the whole article is, in the site's own measure (a Wikipedia article's size in bytes); null when unknown. */
+    val length: Int? = null,
 )
 
 /** An article the reader has opened, as a text to read. */
@@ -58,6 +60,20 @@ interface NewsFeedReader {
     suspend fun text(article: NewsArticle): String
 }
 
+/** One page of Wikipedia's articles, each with its introduction as its feed text. */
+data class WikiPage(val articles: List<NewsArticle>, val hasMore: Boolean)
+
+/** The articles of a language's Wikipedia: the most read, the ones a search finds, and each one's whole text. */
+interface WikipediaReader {
+    /** The articles read most yesterday, a page at a time from 1. */
+    suspend fun mostRead(languageCode: String, page: Int): WikiPage
+
+    suspend fun search(languageCode: String, query: String, page: Int): WikiPage
+
+    /** The whole article, one paragraph per line, its headings kept. */
+    suspend fun wholeText(article: NewsArticle): String
+}
+
 /** The articles of a language's feeds, and the sources that failed to answer. */
 data class NewsList(val articles: List<NewsArticle>, val failed: List<NewsSource>)
 
@@ -67,6 +83,7 @@ data class NewsList(val articles: List<NewsArticle>, val failed: List<NewsSource
  */
 class NewsService(
     private val reader: NewsFeedReader,
+    private val wikipedia: WikipediaReader,
     private val readingService: ReadingService,
     private val bookService: BookService,
     private val books: BookRepository,
@@ -105,6 +122,21 @@ class NewsService(
         return bookService.create(draft).also { books.linkNews(article.url, it) }
     }
 
+    /** The language's Wikipedia: the articles found by [query], or the most read when it is blank. */
+    suspend fun wikipedia(language: Language, query: String, page: Int): WikiPage {
+        val code = LanguageCodes.codeFor(language.name) ?: return WikiPage(emptyList(), hasMore = false)
+        return if (query.isBlank()) wikipedia.mostRead(code, page) else wikipedia.search(code, query.trim(), page)
+    }
+
+    /** The text to read for the whole of a Wikipedia article, apart from its introduction, which is [open]ed as the article itself. */
+    suspend fun openWhole(article: NewsArticle, language: Language, title: String, attribution: String): Long {
+        val key = wholeKey(article)
+        books.newsBookId(key)?.let { return it }
+        val text = wikipedia.wholeText(article)
+        val draft = BookDraft(languageId = language.id, title = title, text = "$text\n\n$attribution", sourceUri = article.url, tags = listOf("wikipedia"))
+        return bookService.create(draft).also { books.linkNews(key, it) }
+    }
+
     fun observeOpened(): Flow<Map<String, NewsBook>> = books.observeNewsBooks()
 
     private suspend fun text(article: NewsArticle): String {
@@ -117,7 +149,10 @@ class NewsService(
         return text
     }
 
-    private companion object {
-        const val KEPT_TEXTS = 60
+    companion object {
+        private const val KEPT_TEXTS = 60
+
+        /** The key a whole Wikipedia article is kept under among the news read, apart from its introduction's. */
+        fun wholeKey(article: NewsArticle): String = "${article.url}#whole"
     }
 }

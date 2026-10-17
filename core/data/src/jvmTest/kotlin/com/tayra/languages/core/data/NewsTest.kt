@@ -17,6 +17,8 @@ import com.tayra.languages.core.domain.news.NewsFeedReader
 import com.tayra.languages.core.domain.news.NewsLevel
 import com.tayra.languages.core.domain.news.NewsService
 import com.tayra.languages.core.domain.news.NewsSource
+import com.tayra.languages.core.domain.news.WikiPage
+import com.tayra.languages.core.domain.news.WikipediaReader
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.TermService
@@ -170,12 +172,23 @@ class NewsTest {
         }
 
         override suspend fun text(article: NewsArticle): String {
+            // As the real reader does, a source that carries its articles is read from its feed.
+            if (article.source.textInFeed) article.feedText?.let { return it }
             fetched++
             return "O gato dorme na casa.\nA casa é grande."
         }
     }
 
-    private val service = NewsService(reader, reading, BookService(books, languages), books, listOf(source, other, broken, NewsSource("es", "Noticias", "https://es.example/rss", "")))
+    private val wikipedia = object : WikipediaReader {
+        override suspend fun mostRead(languageCode: String, page: Int) = WikiPage(
+            listOf(NewsArticle(NewsSource(languageCode, "Wikipedia", "https://$languageCode.wikipedia.org", "", textInFeed = true), "https://$languageCode.wikipedia.org/wiki/Gato", "Gato", "O gato é um animal.", null, feedText = "O gato é um animal.")),
+            hasMore = false,
+        )
+        override suspend fun search(languageCode: String, query: String, page: Int) = WikiPage(emptyList(), hasMore = false)
+        override suspend fun wholeText(article: NewsArticle) = "O gato é um animal.\nHistória\nO gato vive com as pessoas."
+    }
+
+    private val service = NewsService(reader, wikipedia, reading, BookService(books, languages), books, listOf(source, other, broken, NewsSource("es", "Noticias", "https://es.example/rss", "")))
 
     @Test
     fun theLatestNewsOfTheLanguageComeNewestFirst() = runTest {
@@ -202,5 +215,17 @@ class NewsTest {
         assertEquals(article.url, books.newsUrl(bookId))
         // The news is read apart from the books.
         assertEquals(emptyList(), books.observeBooks(archived = false).first())
+    }
+
+    @Test
+    fun aWikipediaArticleIsReadByItsIntroductionOrWhole() = runTest {
+        val portuguese = languages.getById(languages.save(Language(name = "Portuguese")))!!
+        val gato = service.wikipedia(portuguese, "", 1).articles.single()
+        val intro = service.open(gato, portuguese, "Fonte: Wikipédia.")
+        val whole = service.openWhole(gato, portuguese, "Gato (artigo completo)", "Fonte: Wikipédia.")
+        assertEquals("O gato é um animal.\n\nFonte: Wikipédia.", books.getPages(intro).joinToString("\n") { it.text })
+        assertEquals("Gato (artigo completo)", books.getBook(whole)!!.title)
+        assertEquals(whole, service.openWhole(gato, portuguese, "Gato (artigo completo)", "Fonte: Wikipédia."))
+        assertEquals(setOf(gato.url, NewsService.wholeKey(gato)), service.observeOpened().first().keys)
     }
 }
