@@ -25,6 +25,7 @@ import com.tayra.languages.core.domain.news.NewsArticle
 import com.tayra.languages.core.domain.news.NewsBook
 import com.tayra.languages.core.domain.news.NewsLevel
 import com.tayra.languages.core.domain.news.NewsSource
+import com.tayra.languages.core.domain.news.Wiki
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.CoverageCheck
 import com.tayra.languages.core.ui.components.NavSection
@@ -189,7 +190,7 @@ class NewsScreenTest {
     )
 
     private val wikiState = WikiUiState(
-        languageName = "Portuguese", loading = false, hasMore = true,
+        languageName = "Portuguese", loading = false, hasMore = true, wikis = listOf(Wiki.WIKIPEDIA, Wiki.WIKIVOYAGE, Wiki.WIKIBOOKS),
         articles = listOf(wiki("Gato", 170_000, 92), wiki("Rafael Câmara", 8_000, 97, "Rafael_Câmara"), wiki("Mercúrio", 30_000, 80)),
         opened = mapOf("https://pt.wikipedia.org/wiki/Gato" to NewsBook("https://pt.wikipedia.org/wiki/Gato", 3, now, false)),
     )
@@ -198,6 +199,7 @@ class NewsScreenTest {
     fun wikipediaArticlesAreReadByTheirIntroductionOrWhole() = runDesktopComposeUiTest(width = 1586, height = 1200) {
         val read = mutableListOf<String>()
         var tab: NewsTab? = null
+        var site: Wiki? = null
         setContent {
             var state by remember { mutableStateOf(wikiState) }
             TayraTheme {
@@ -208,6 +210,7 @@ class NewsScreenTest {
                             WikipediaContent(
                                 state,
                                 WikiActions(
+                                    onWiki = { site = it },
                                     onLength = { l -> state = state.copy(length = l) },
                                     onOpen = { read += "intro " + it.article.title },
                                     onOpenWhole = { read += "whole " + it.article.title },
@@ -221,6 +224,9 @@ class NewsScreenTest {
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Rafael Câmara")).fetchSemanticsNodes().isNotEmpty() }
         screenshot("WIKI_SCREENSHOT")
+        onNodeWithText("Wikipedia: the articles read most yesterday in Portuguese, with how much of each introduction you already know.").assertExists()
+        onNodeWithTag("wiki-site-WIKIBOOKS").performClick()
+        assertEquals(Wiki.WIKIBOOKS, site)
         onNodeWithText("Long article").assertExists()
         onNodeWithText("Short article").assertExists()
         // The introduction read before is gone on with; the whole article is a choice of its own.
@@ -234,6 +240,35 @@ class NewsScreenTest {
         onNodeWithTag("wiki-Rafael Câmara").assertExists()
         onNodeWithTag("tab-NEWS").performClick()
         assertEquals(NewsTab.NEWS, tab)
+    }
+
+    @Test
+    fun aWikiWithoutCountedViewsListsArticlesAtRandom() = runDesktopComposeUiTest(width = 400, height = 1000) {
+        val hund = NewsItem(
+            NewsArticle(NewsSource("de", "MiniKlexikon", "https://miniklexikon.zum.de", "", textInFeed = true), "https://miniklexikon.zum.de/wiki/Hund", "Hund",
+                "Hunde sind Säuge-Tiere.", null, feedText = "Hunde sind Säuge-Tiere.", length = 1217),
+            CoverageCheck.Checked(TextCoverage(100, 96)),
+        )
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                        WikipediaContent(
+                            WikiUiState(languageName = "German", wikis = listOf(Wiki.WIKIPEDIA, Wiki.KLEXIKON, Wiki.MINIKLEXIKON, Wiki.WIKIVOYAGE, Wiki.WIKIBOOKS), wiki = Wiki.MINIKLEXIKON, loading = false, articles = listOf(hund)),
+                            WikiActions(),
+                            tabs = { NewsTabs(NewsTab.WIKIPEDIA) {} },
+                        )
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Hund")).fetchSemanticsNodes().isNotEmpty() }
+        screenshot("WIKI_GERMAN_SCREENSHOT")
+        onNodeWithText("MiniKlexikon: articles picked at random, with how much of each introduction you already know.").assertExists()
+        onNodeWithText("The Klexikon in easy German, a short sentence to a line, for children starting to read.").assertExists()
+        for (wiki in listOf(Wiki.WIKIPEDIA, Wiki.KLEXIKON, Wiki.MINIKLEXIKON, Wiki.WIKIVOYAGE, Wiki.WIKIBOOKS)) onNodeWithTag("wiki-site-${wiki.name}").assertExists()
+        assertEquals("Source: MiniKlexikon, «Hund», CC BY-SA 4.0.", wikiAttribution(hund.article))
+        assertEquals("Source: Wikipedia, «Gato», CC BY-SA 4.0.", wikiAttribution(wiki("Gato", 1, 1).article))
     }
 
     @Test

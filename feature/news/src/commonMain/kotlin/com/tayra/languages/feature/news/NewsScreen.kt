@@ -76,7 +76,7 @@ import org.koin.compose.viewmodel.koinViewModel
 import kotlin.time.Clock
 import kotlin.time.Instant
 
-/** What the News section shows: the news sites' feeds, or Wikipedia's articles. */
+/** What the News section shows: the news sites' feeds, or the articles of Wikipedia and the other wikis. */
 enum class NewsTab { NEWS, WIKIPEDIA }
 
 @Composable
@@ -96,7 +96,7 @@ fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewM
     // Coming back after a while, the news has moved on.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.refreshIfOld() }
     var chosen by rememberSaveable { mutableStateOf<NewsTab?>(null) }
-    // A language without news feeds still has its Wikipedia.
+    // A language without news feeds still has its wikis.
     val tab = chosen ?: if (state.languageName.isNotEmpty() && state.sources.isEmpty()) NewsTab.WIKIPEDIA else NewsTab.NEWS
     val tabs: @Composable () -> Unit = { NewsTabs(tab) { chosen = it } }
     Scaffold(
@@ -117,6 +117,7 @@ fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewM
             WikipediaContent(
                 wikiState,
                 WikiActions(
+                    onWiki = wiki::setWiki,
                     onQuery = wiki::setQuery,
                     onLength = wiki::setLength,
                     onDifficulty = wiki::setDifficulty,
@@ -152,7 +153,7 @@ fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewM
     }
 }
 
-/** The choice between the news sites' feeds and Wikipedia. */
+/** The choice between the news sites' feeds and the wikis. */
 @Composable
 internal fun NewsTabs(selected: NewsTab, onSelect: (NewsTab) -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
@@ -163,7 +164,7 @@ internal fun NewsTabs(selected: NewsTab, onSelect: (NewsTab) -> Unit) {
                 onClick = { onSelect(tab) },
                 shape = SegmentedButtonDefaults.itemShape(i, NewsTab.entries.size),
                 modifier = Modifier.testTag("tab-${tab.name}"),
-            ) { Text(if (tab == NewsTab.NEWS) tr("News sites") else "Wikipedia") }
+            ) { Text(if (tab == NewsTab.NEWS) tr("News sites") else tr("Wikis")) }
         }
     }
 }

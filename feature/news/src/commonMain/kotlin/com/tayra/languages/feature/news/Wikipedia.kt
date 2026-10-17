@@ -91,6 +91,9 @@ enum class ArticleLength(val below: Int) {
 
 data class WikiUiState(
     val languageName: String = "",
+    /** The wikis with an edition in the language, Wikipedia first. */
+    val wikis: List<Wiki> = emptyList(),
+    val wiki: Wiki = Wiki.WIKIPEDIA,
     /** Words to look for; blank lists the most read articles. */
     val query: String = "",
     val length: ArticleLength = ArticleLength.ANY,
@@ -116,8 +119,9 @@ sealed interface WikiEvent {
 }
 
 /**
- * The language's Wikipedia: the articles read most yesterday, or those a search finds, each judged
- * by its introduction, which is also what is read unless the whole article is asked for.
+ * The language's wikis, one at a time: the articles read most yesterday (or some at random, where
+ * views are not counted), or those a search finds, each judged by its introduction, which is also
+ * what is read unless the whole article is asked for.
  */
 class WikipediaViewModel(
     private val news: NewsService,
@@ -136,7 +140,8 @@ class WikipediaViewModel(
         viewModelScope.launch {
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().collect { id ->
                 language = languages.getById(id)
-                _state.update { WikiUiState(languageName = language?.name.orEmpty(), opened = it.opened) }
+                val wikis = language?.let(news::wikis).orEmpty()
+                _state.update { WikiUiState(languageName = language?.name.orEmpty(), wikis = wikis, wiki = it.wiki.takeIf { wiki -> wiki in wikis } ?: Wiki.WIKIPEDIA, opened = it.opened) }
                 reload()
             }
         }
@@ -147,6 +152,12 @@ class WikipediaViewModel(
         _state.update { it.copy(query = query) }
         // Typing waits for a pause before asking the wiki.
         reload(delayMillis = SEARCH_DELAY)
+    }
+
+    fun setWiki(wiki: Wiki) {
+        if (wiki == _state.value.wiki) return
+        _state.update { it.copy(wiki = wiki) }
+        reload()
     }
 
     fun setLength(length: ArticleLength) = _state.update { it.copy(length = length) }
@@ -200,7 +211,7 @@ class WikipediaViewModel(
         val lang = language ?: run { _state.update { it.copy(loading = false) }; return }
         if (number > 1) _state.update { it.copy(loadingMore = true) }
         try {
-            val result = news.wiki(lang, Wiki.WIKIPEDIA, _state.value.query, number)
+            val result = _state.value.let { news.wiki(lang, it.wiki, it.query, number) }
             page = number
             val items = result.articles.map { article -> NewsItem(article, judged(article, lang)) }
             _state.update { s ->
@@ -209,8 +220,8 @@ class WikipediaViewModel(
         } catch (e: CancellationException) {
             throw e
         } catch (e: Exception) {
-            Logger.w(e) { "Reading Wikipedia failed" }
-            _state.update { it.copy(loading = false, loadingMore = false, error = e.message?.let(::tr) ?: tr("Could not reach Wikipedia")) }
+            Logger.w(e) { "Reading ${_state.value.wiki.siteName} failed" }
+            _state.update { it.copy(loading = false, loadingMore = false, error = e.message?.let(::tr) ?: tr("Could not reach the wiki")) }
         }
     }
 
@@ -232,9 +243,40 @@ class WikipediaViewModel(
     }
 }
 
-internal fun wikiAttribution(article: NewsArticle): String = tr("Source: Wikipedia, «{0}», CC BY-SA 4.0.", article.title)
+/** The line that ends a wiki's article: the wiki, the title and the licence all of them share. */
+internal fun wikiAttribution(article: NewsArticle): String {
+    val wiki = Wiki.entries.firstOrNull { it.siteName == article.source.name }
+    return tr("Source: {0}, «{1}», CC BY-SA 4.0.", wiki?.label ?: article.source.name, article.title)
+}
+
+/** The wiki's name as the reader's language has it. */
+internal val Wiki.label: String
+    get() = when (this) {
+        Wiki.WIKIPEDIA -> tr("Wikipedia")
+        Wiki.SIMPLE_WIKIPEDIA -> tr("Simple English Wikipedia")
+        Wiki.KLEXIKON -> "Klexikon"
+        Wiki.MINIKLEXIKON -> "MiniKlexikon"
+        Wiki.WIKIVOYAGE -> tr("Wikivoyage")
+        Wiki.WIKIBOOKS -> tr("Wikibooks")
+    }
+
+/** The wiki's name on its chip, short enough for four to a phone's row. */
+private val Wiki.chipLabel: String
+    get() = if (this == Wiki.SIMPLE_WIKIPEDIA) tr("Simple English") else label
+
+/** What sets the wiki apart, for all but Wikipedia. */
+private val Wiki.about: String?
+    get() = when (this) {
+        Wiki.WIKIPEDIA -> null
+        Wiki.SIMPLE_WIKIPEDIA -> tr("Wikipedia written in simple English, for learners and children.")
+        Wiki.KLEXIKON -> tr("The German encyclopedia for children of 8 to 13.")
+        Wiki.MINIKLEXIKON -> tr("The Klexikon in easy German, a short sentence to a line, for children starting to read.")
+        Wiki.WIKIVOYAGE -> tr("Travel guides written by travellers: places, getting around, food and phrases.")
+        Wiki.WIKIBOOKS -> tr("Textbooks and guides, a chapter to a page.")
+    }
 
 internal class WikiActions(
+    val onWiki: (Wiki) -> Unit = {},
     val onQuery: (String) -> Unit = {},
     val onLength: (ArticleLength) -> Unit = {},
     val onDifficulty: (Difficulty?) -> Unit = {},
@@ -264,19 +306,32 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                 Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     if (!compact) Text(tr("News"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                     tabs()
+                    if (state.wikis.size > 1) {
+                        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            state.wikis.forEach { wiki ->
+                                FilterChip(selected = state.wiki == wiki, onClick = { actions.onWiki(wiki) }, label = { Text(wiki.chipLabel) }, modifier = Modifier.testTag("wiki-site-${wiki.name}"))
+                            }
+                        }
+                    }
                     if (state.languageName.isNotEmpty()) {
+                        val site = state.wiki.label
+                        val language = languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)
                         Text(
-                            if (state.query.isBlank()) tr("The articles read most yesterday on Wikipedia in {0}, with how much of each introduction you already know.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))
-                            else tr("Wikipedia articles in {0} found by your search.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
+                            when {
+                                state.query.isNotBlank() -> tr("{0}: articles in {1} found by your search.", site, language)
+                                state.wiki.countsViews -> tr("{0}: the articles read most yesterday in {1}, with how much of each introduction you already know.", site, language)
+                                else -> tr("{0}: articles picked at random, with how much of each introduction you already know.", site)
+                            },
                             style = MaterialTheme.typography.bodyLarge,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
+                        state.wiki.about?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
                     }
                     OutlinedTextField(
                         value = state.query,
                         onValueChange = actions.onQuery,
                         modifier = Modifier.fillMaxWidth().testTag("wiki-search"),
-                        placeholder = { Text(tr("Search Wikipedia")) },
+                        placeholder = { Text(tr("Search: {0}", state.wiki.label)) },
                         leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
                         trailingIcon = if (state.query.isNotEmpty()) ({ IconButton(onClick = { actions.onQuery("") }) { Icon(Icons.Default.Close, contentDescription = tr("Clear")) } }) else null,
                         singleLine = true,
@@ -296,7 +351,7 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                 state.loading -> item { Box(Modifier.fillMaxWidth().padding(vertical = 32.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator() } }
                 state.error != null -> item {
                     Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-                        WikiMessage(tr("Wikipedia could not be read: {0}", state.error))
+                        WikiMessage(tr("{0} could not be read: {1}", state.wiki.label, state.error))
                         OutlinedButton(onClick = actions.onRetry, shape = RoundedCornerShape(10.dp)) { Text(tr("Try again")) }
                     }
                 }
@@ -308,7 +363,7 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
             if (state.loadingMore) item { Box(Modifier.fillMaxWidth().padding(vertical = 16.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator(Modifier.size(28.dp)) } }
             item {
                 Text(
-                    tr("Articles from Wikipedia, free to share under CC BY-SA 4.0. Each is judged by its introduction."),
+                    tr("{0}: articles free to share under CC BY-SA 4.0. Each is judged by its introduction.", state.wiki.label),
                     Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -331,7 +386,7 @@ private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, c
         verticalArrangement = Arrangement.spacedBy(6.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text("Wikipedia", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Text(Wiki.entries.firstOrNull { it.siteName == article.source.name }?.label ?: article.source.name, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             ArticleLength.of(article.length)?.let { length ->
                 Text(
                     length.tag,
