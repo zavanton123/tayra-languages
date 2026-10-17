@@ -28,6 +28,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** Wolne Lektury's Polish school readings and classics. */
     WOLNE_LEKTURY("Wolne Lektury", "Wolne Lektury", judgedOnSight = true, tag = "wolnelektury", host = "wolnelektury.pl", languages = setOf("pl")),
+
+    /** Aozora Bunko's Japanese works out of copyright. */
+    AOZORA("Aozora Bunko", "Aozora Bunko", judgedOnSight = true, tag = "aozora", host = "aozora.gr.jp", languages = setOf("ja")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages
