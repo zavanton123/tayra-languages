@@ -24,6 +24,7 @@ fun tayra(): CliktCommand = Tayra().subcommands(
     coursesCommand(),
     lessonsCommand(),
     packsCommand(),
+    dictionariesCommand(),
     termsCommand(),
     readCommand(),
     exportCommand(),

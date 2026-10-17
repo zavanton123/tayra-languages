@@ -107,12 +107,35 @@ class CliTest {
         assertTrue(File(dataDir, "tayra.db").exists())
     }
 
+    /** A StarDict dictionary's loose files become a pack file, and the library is left as it was. */
+    @Test
+    fun aDictionaryIsConvertedToAPackFile() {
+        val dict = "house\u0000cat".toByteArray()
+        val idx = java.io.ByteArrayOutputStream().apply {
+            for ((word, offset, size) in listOf(Triple("casa", 0, 5), Triple("gato", 6, 3))) {
+                write(word.toByteArray()); write(0)
+                for (n in listOf(offset, size)) for (i in 3 downTo 0) write(n ushr (8 * i))
+            }
+        }.toByteArray()
+        File(dataDir, "pt-en.ifo").writeText("StarDict's dict ifo file\nversion=2.4.2\nbookname=Test\nwordcount=2\nidxfilesize=${idx.size}\nsametypesequence=m\n")
+        File(dataDir, "pt-en.idx").writeBytes(idx)
+        File(dataDir, "pt-en.dict").writeBytes(dict)
+        val out = File(dataDir, "pt-en.sqlite")
+        val paths = listOf("ifo", "idx", "dict").map { File(dataDir, "pt-en.$it").absolutePath }.toTypedArray()
+
+        val result = json("dictionaries", "convert", *paths, "--from", "pt", "--to", "en", "--out", out.absolutePath).jsonObject
+        assertEquals("Test", result["title"]!!.jsonPrimitive.content)
+        assertEquals("SQLite format 3", out.readBytes().copyOf(15).decodeToString())
+        assertEquals(ExitCode.INVALID, run("dictionaries", "convert", paths[0], "--from", "pt", "--to", "en", "--out", out.absolutePath).statusCode, "an .ifo alone")
+        assertEquals(ExitCode.INVALID, run("dictionaries", "convert", *paths, "--from", "xx", "--to", "en", "--out", out.absolutePath).statusCode)
+    }
+
     @Test
     fun everyCommandIsDescribedForAgents() {
         val tree = json("commands").jsonObject
         fun paths(node: kotlinx.serialization.json.JsonObject): List<String> =
             listOf(node["command"]!!.jsonPrimitive.content) + node["subcommands"]!!.jsonArray.flatMap { paths(it.jsonObject) }
         val all = paths(tree)
-        for (command in listOf("tayra books add", "tayra backups restore", "tayra read page", "tayra lessons open")) assertTrue(command in all, command)
+        for (command in listOf("tayra books add", "tayra backups restore", "tayra read page", "tayra lessons open", "tayra dictionaries convert")) assertTrue(command in all, command)
     }
 }

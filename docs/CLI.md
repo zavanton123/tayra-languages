@@ -54,6 +54,7 @@ command works in the language being learned in the app.
 | `courses` | `list`, `show`, `create`, `edit`, `delete` |
 | `lessons` | `add`, `edit`, `move`, `delete`, `open` (gives the book id to read) |
 | `packs` | `list`, `download`, `remove` (the ready-made course packs) |
+| `dictionaries` | `convert` (a Yomitan, MDict or StarDict dictionary into the app's pack file, outside the library) |
 | `terms` | `list`, `show`, `add`, `set-status`, `delete` |
 | `read` | `page` (each word with its status), `mark-read` |
 | `export` | `anki`, `terms --format csv\|json` |
