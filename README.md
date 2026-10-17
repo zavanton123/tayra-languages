@@ -130,7 +130,9 @@ particles and endings.
   read in the browser. On desktop and Android, a web page can be imported by its address.
 - Find free books without leaving the app: classics from Project Gutenberg, the transcriptions of
   Wikisource in dozens of languages, and graded children's readers from the Global Digital Library,
-  each marked easy, medium or hard by the share of its words you already know, and added to your
+  and for some languages a library of their own: Wolne Lektury (Polish), Aozora Bunko (Japanese),
+  Litteraturbanken (Swedish), Project Ben-Yehuda (Hebrew), Arkiv for Dansk Litteratur (Danish),
+  Ganjoor (Persian) and Projecto Adamastor (Portuguese); each book marked easy, medium or hard by the share of its words you already know, and added to your
   library in one tap with its source on the last line.
 - Photos of pages become text too: pick them, or take one with the phone's camera. iOS reads them
   with Vision; Android with ML Kit for Latin, Chinese, Japanese, Korean and Devanagari text and

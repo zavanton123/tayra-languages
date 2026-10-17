@@ -414,6 +414,44 @@ for the whole text. An added book's source URI is its page in the library, and i
 Gutenberg sends no CORS headers. The idea and the API details come from the Learning with Texts fork
 (HugoFara/learning-with-texts, public domain).
 
+Libraries of one language set `BookSource.languages`; `BookDiscoveryService.sources(language)` offers
+them after the general ones, and the screen turns its segmented row into chips past three. Each has
+a `host` that marks its books in the reader's library. A catalog whose list does not give the licence
+overrides `licensedText`, and the attribution is built from what the text says (Wolne Lektury's
+closing notes: public domain, Free Art License 1.3 or CC BY-SA 3.0).
+
+- `WolneLekturyCatalog` (pl): unsearched, the v1 collection `literatura-dla-dzieci-i-mlodziezy-2`;
+  a search, `/api/2/books/?search=`, keeping `language == "pol"`. Text `/media/book/txt/<slug>.txt`
+  without the title page (up to the first two blank lines) and the notes after the last `-----`; a
+  work in volumes has no text of its own (404), so its `children` are read in order.
+- `AozoraCatalog` (ja): the unofficial Bungo API (`api.bungo.app/v1`), as Aozora's own files are
+  Shift_JIS, which common code cannot decode on every platform. Unsearched, `juvenile=true` by
+  `access_count`; its search matches titles only (12 characters), so a query naming an author
+  (`/persons`) lists that author's works. Ruby `《》`, `｜`, notes `［＃…］` (with the `※` of a missing
+  character), the markup legend between the two rules and the `底本：` colophon are taken out.
+- `LitteraturbankenCatalog` (sv): `/api/list_all/etext` fetched once with `include=` (without it each
+  record carries its pages), sorted by popularity and kept to `epub_license == "cc-0"`; the rest have
+  the bank's own undocumented terms. EPUB `/txt/epub/<authorid>_<titleid>.epub` without the
+  `titelsida`/`kolofon` bodies.
+- `BenYehudaCatalog` (he): the GitHub dump's `pseudocatalogue.csv` (`Csv`), fetched once; unsearched,
+  fables then prose; texts from `txt_stripped/` (no niqqud), and searches compare without points.
+- `AdlCatalog` (da): tekster.kb.dk's JSON results carry every work's whole text, so results come from
+  `text.atom`, faceted to `adl`, works and `has_text_ssi=yes`. Unsearched, Andersen's fairy tales from
+  the five volumes of the critical edition (`f[volume_title_ssi]`), one volume at a time. The work's
+  HTML page between `id="root"` and `scrollTop`, through `HtmlText.text`'s `skipped` filter for the
+  scissor links, page numbers and notes (its `.xml` answers 500). CC BY-NC-SA.
+- `GanjoorCatalog` (fa): one text per poem or story. Unsearched, the Golestan (cat 1665 and its
+  chapters, fetched as the list needs them); a search, `/poems/search` with paging in the
+  `paging-headers` header. Text from the poem's `htmlText` with its extras off, harakat removed.
+- `AdamastorCatalog` (pt): the `/catalogo/` page's `fg-thumb` links (title and author in the cover's
+  alt text), searched locally; the EPUB link on the book's page, read without `capa`, `titulo`,
+  `ficha_tecnica`, `indice` and `contracapa`. CC BY-SA 4.0.
+
+Considered and left out for now: DBNL (nl), whose public-domain CSV takes about a minute to serve;
+TextGrid (de), Elejandría (es), Liber Liber (it), MEK (hu), Bokselskap (no), az.lib.ru (ru, cp1251
+over plain http), Ebooks libres et gratuits (fr), Perseus (la, grc), GRETIL (sa), Kanripo (Classical
+Chinese) and Netútgáfan (is), all workable and noted in the research for later.
+
 ## News
 
 News (`Route.News`, feature/news) lists the latest articles of the language's feeds in `NewsSources`
