@@ -8,7 +8,7 @@ import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.runDesktopComposeUiTest
-import com.tayra.languages.core.domain.dictionary.YomitanDictionaryInfo
+import com.tayra.languages.core.domain.dictionary.ImportedDictionaryInfo
 import com.tayra.languages.core.ui.theme.TayraTheme
 import java.io.File
 import javax.imageio.ImageIO
@@ -21,7 +21,7 @@ class ImportDictionaryTest {
     @Test
     fun theDialogPrefillsTheLanguagesAndImports() = runDesktopComposeUiTest(width = 700, height = 600) {
         val imported = mutableListOf<Pair<String, String>>()
-        val ready = DictionaryImport.Ready(YomitanDictionaryInfo("Jitendex", "2026.10.01", attribution = "CC BY-SA 4.0"), ByteArray(0))
+        val ready = DictionaryImport.Ready(ImportedDictionaryInfo("Jitendex", "2026.10.01", attribution = "CC BY-SA 4.0"), ByteArray(0))
         setContent {
             TayraTheme {
                 ImportLanguagesDialog(ready, defaultSource = "ja", defaultTarget = "en", onImport = { s, t -> imported += s to t }, onDismiss = {})

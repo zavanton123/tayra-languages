@@ -2,8 +2,8 @@ package com.tayra.languages.core.data.yomitan
 
 import com.tayra.languages.core.data.db.newSqliteFile
 import com.tayra.languages.core.domain.dictionary.DictionaryId
-import com.tayra.languages.core.domain.dictionary.YomitanDictionaryInfo
-import com.tayra.languages.core.domain.dictionary.YomitanImporter
+import com.tayra.languages.core.domain.dictionary.ImportedDictionaryInfo
+import com.tayra.languages.core.domain.dictionary.DictionaryImporter
 import com.tayra.languages.core.domain.morphology.Unicode
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -30,12 +30,12 @@ import kotlinx.serialization.json.put
  * the term meta banks, with the frequencies they give, and kanji from the kanji banks. A dictionary
  * of frequencies or of kanji alone is a pack of those alone.
  */
-class YomitanConverter : YomitanImporter {
+class YomitanConverter : DictionaryImporter {
 
-    override suspend fun inspect(zip: ByteArray): YomitanDictionaryInfo = info(ZipArchive(zip))
+    override suspend fun inspect(file: ByteArray): ImportedDictionaryInfo = info(ZipArchive(file))
 
-    override suspend fun convert(zip: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit): ByteArray = withContext(Dispatchers.Default) {
-        val archive = ZipArchive(zip)
+    override suspend fun convert(file: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit): ByteArray = withContext(Dispatchers.Default) {
+        val archive = ZipArchive(file)
         val info = info(archive)
         val content = read(archive, sourceLanguage, onProgress)
         if (content.isEmpty) throw ZipException("${info.title} has no terms, frequencies or kanji")
@@ -43,11 +43,11 @@ class YomitanConverter : YomitanImporter {
         newSqliteFile(statements(content, info, sourceLanguage, targetLanguage))
     }
 
-    private suspend fun info(archive: ZipArchive): YomitanDictionaryInfo {
+    private suspend fun info(archive: ZipArchive): ImportedDictionaryInfo {
         val text = archive.readText("index.json") ?: throw ZipException("Not a Yomitan dictionary: it has no index.json")
         val index = json.parseToJsonElement(text).jsonObject
         fun field(name: String) = (index[name] as? JsonPrimitive)?.contentOrNull?.trim()?.takeIf { it.isNotEmpty() }
-        return YomitanDictionaryInfo(
+        return ImportedDictionaryInfo(
             title = field("title") ?: throw ZipException("Not a Yomitan dictionary: its index has no title"),
             revision = field("revision").orEmpty(),
             sourceLanguage = field("sourceLanguage"),
@@ -363,7 +363,7 @@ class YomitanConverter : YomitanImporter {
         else -> null
     }
 
-    internal fun statements(content: Content, info: YomitanDictionaryInfo, source: String, target: String): List<String> {
+    internal fun statements(content: Content, info: ImportedDictionaryInfo, source: String, target: String): List<String> {
         val out = ArrayList<String>()
         out += "CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL)"
         out += "CREATE TABLE entries (id INTEGER NOT NULL PRIMARY KEY, word TEXT NOT NULL, word_lc TEXT NOT NULL, pos TEXT NOT NULL, ipa TEXT, senses TEXT NOT NULL)"
@@ -428,7 +428,7 @@ class YomitanConverter : YomitanImporter {
         archive.entries.filter { it.name.substringAfterLast('/').startsWith(prefix) && it.name.endsWith(".json") }
             .sortedBy { it.name.substringAfterLast('_').substringBefore('.').toIntOrNull() ?: 0 }
 
-    private companion object {
+    internal companion object {
         val json = Json { ignoreUnknownKeys = true }
 
         /** Rows per INSERT: fewer statements, each well under SQLite's limits. */

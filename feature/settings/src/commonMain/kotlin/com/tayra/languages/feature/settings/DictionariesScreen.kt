@@ -89,7 +89,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import kotlinx.coroutines.flow.SharingStarted
-import com.tayra.languages.core.domain.dictionary.YomitanDictionaryInfo
+import com.tayra.languages.core.domain.dictionary.ImportedDictionaryInfo
 import kotlin.coroutines.cancellation.CancellationException
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -145,18 +145,18 @@ class DictionariesViewModel(
 
     private val _import = MutableStateFlow<DictionaryImport>(DictionaryImport.Idle)
 
-    /** How far importing a Yomitan dictionary has got. */
+    /** How far importing a dictionary file has got. */
     val import: StateFlow<DictionaryImport> = _import.asStateFlow()
 
     /** Reads the picked file's index, so the user can say which languages it is for. */
-    fun pickImport(zip: ByteArray) = viewModelScope.launch {
+    fun pickImport(file: ByteArray) = viewModelScope.launch {
         _import.value = DictionaryImport.Reading
         _import.value = try {
-            DictionaryImport.Ready(dictionaries.inspect(zip), zip)
+            DictionaryImport.Ready(dictionaries.inspect(file), file)
         } catch (e: CancellationException) {
             throw e
         } catch (e: Exception) {
-            DictionaryImport.Failed(e.message ?: "Not a Yomitan dictionary")
+            DictionaryImport.Failed(e.message ?: "Not a Yomitan or MDict dictionary")
         }
     }
 
@@ -165,7 +165,7 @@ class DictionariesViewModel(
         viewModelScope.launch {
             _import.value = DictionaryImport.Importing(ready.info.title, 0f)
             _import.value = try {
-                val imported = dictionaries.import(ready.zip, sourceLanguage, targetLanguage) { progress ->
+                val imported = dictionaries.import(ready.file, sourceLanguage, targetLanguage) { progress ->
                     _import.value = DictionaryImport.Importing(ready.info.title, progress)
                 }
                 DictionaryImport.Done(imported.title)
@@ -182,11 +182,11 @@ class DictionariesViewModel(
     }
 }
 
-/** Importing a Yomitan dictionary, from picking its file to its pack being installed. */
+/** Importing a dictionary file, from picking it to its pack being installed. */
 sealed interface DictionaryImport {
     data object Idle : DictionaryImport
     data object Reading : DictionaryImport
-    class Ready(val info: YomitanDictionaryInfo, val zip: ByteArray) : DictionaryImport
+    class Ready(val info: ImportedDictionaryInfo, val file: ByteArray) : DictionaryImport
     data class Importing(val title: String, val progress: Float) : DictionaryImport
     data class Done(val title: String) : DictionaryImport
     data class Failed(val message: String) : DictionaryImport

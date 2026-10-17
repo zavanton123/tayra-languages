@@ -5,9 +5,11 @@ import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
 import com.tayra.languages.core.data.dictionary.DictionaryDownloader
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.dictionary.SettingsImportedDictionaryStore
+import com.tayra.languages.core.data.mdict.DictionaryFiles
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
 import com.tayra.languages.core.data.yomitan.YomitanConverter
 import com.tayra.languages.core.domain.dictionary.DictionaryId
+import com.tayra.languages.core.domain.dictionary.DictionaryImporter
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaries
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
@@ -48,11 +50,26 @@ class ImportedDictionaryTest {
     private val settings = MapSettings()
     private val directory: File = Files.createTempDirectory("tayra-imported").toFile()
 
-    private fun service(): Pair<DictionaryService, ImportedDictionaries> {
+    private fun service(importer: DictionaryImporter = YomitanConverter()): Pair<DictionaryService, ImportedDictionaries> {
         val storage = DictionaryPackStorage(DictionaryDownloader(HttpClient(MockEngine { respondError(HttpStatusCode.NotFound) })), directory)
         val imported = ImportedDictionaries(SettingsImportedDictionaryStore(settings))
         val provider = DictionaryDatabaseProvider(storage) { id -> DictionaryPacks.find(id) ?: imported.pack(id) }
-        return DictionaryService(storage, DictionaryRepositoryImpl(provider), imported, YomitanConverter()) to imported
+        return DictionaryService(storage, DictionaryRepositoryImpl(provider), imported, importer) to imported
+    }
+
+    @Test
+    fun anMdictDictionaryIsImportedBesideAYomitanOne() = runTest {
+        val (service, _) = service(DictionaryFiles())
+        service.refresh()
+        service.import(zip, "ru", "en")
+        val mdx = MdictTest.Mdx(listOf("дом" to "<b>дом</b><br>house (MDict)<br>building", "дома" to "@@@LINK=дом"), encrypted = 2).build()
+        assertEquals("Português–English", service.inspect(mdx).title)
+        val dictionary = service.import(mdx, "ru", "en")
+        assertEquals("portugu-s-english", dictionary.key)
+        // Both answer for the pair, the MDict one finding the word from its form too.
+        val found = service.lookup(DictionaryId("ru", "en"), "дома").entries
+        assertEquals(listOf("My Russian Dictionary" to listOf("house", "home"), "Português–English" to listOf("house (MDict)", "building")),
+            found.map { it.dictionary to it.senses.flatMap { sense -> sense.glosses } })
     }
 
     @Test

@@ -54,7 +54,7 @@ import com.tayra.languages.core.data.repository.DatabaseMaintenanceImpl
 import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
 import com.tayra.languages.core.data.dictionary.DictionaryDownloader
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
-import com.tayra.languages.core.data.yomitan.YomitanConverter
+import com.tayra.languages.core.data.mdict.DictionaryFiles
 import com.tayra.languages.core.data.dictionary.SettingsImportedDictionaryStore
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaries
@@ -136,7 +136,7 @@ val dataModule: Module = module {
     single { ImportedDictionaries(SettingsImportedDictionaryStore(get<Settings>())) }
     single { DictionaryDatabaseProvider(get()) { id -> DictionaryPacks.find(id) ?: get<ImportedDictionaries>().pack(id) } }
     single<DictionaryRepository> { DictionaryRepositoryImpl(get()) }
-    single { DictionaryService(get(), get(), get(), YomitanConverter()) }
+    single { DictionaryService(get(), get(), get(), DictionaryFiles()) }
     single { WordTranslationService(get(), get<DictionaryService>(), get(), get()) }
     single<OfflineDictionary> { get<DictionaryService>() }
 

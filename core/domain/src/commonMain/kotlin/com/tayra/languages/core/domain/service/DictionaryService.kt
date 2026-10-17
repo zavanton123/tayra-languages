@@ -13,8 +13,8 @@ import com.tayra.languages.core.domain.dictionary.KanjiInfo
 import com.tayra.languages.core.domain.dictionary.WordFrequency
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaries
 import com.tayra.languages.core.domain.dictionary.ImportedDictionary
-import com.tayra.languages.core.domain.dictionary.YomitanDictionaryInfo
-import com.tayra.languages.core.domain.dictionary.YomitanImporter
+import com.tayra.languages.core.domain.dictionary.ImportedDictionaryInfo
+import com.tayra.languages.core.domain.dictionary.DictionaryImporter
 import com.tayra.languages.core.domain.morphology.Chinese
 import com.tayra.languages.core.domain.morphology.ChineseScript
 import com.tayra.languages.core.domain.morphology.ChineseScripts
@@ -33,7 +33,7 @@ class DictionaryService(
     private val repository: DictionaryRepository,
     /** The dictionaries the user imported, looked up with the pack of their language pair. */
     private val imported: ImportedDictionaries? = null,
-    private val importer: YomitanImporter? = null,
+    private val importer: DictionaryImporter? = null,
 ) : OfflineDictionary {
 
     private val _packs = MutableStateFlow(DictionaryPacks.everything.map { PackStatus(it, PackState.NotInstalled) })
@@ -84,18 +84,18 @@ class DictionaryService(
         }
     }
 
-    /** What the Yomitan dictionary in [zip] says of itself; throws when it is not one. */
-    suspend fun inspect(zip: ByteArray): YomitanDictionaryInfo = (importer ?: error("Importing dictionaries is not supported here")).inspect(zip)
+    /** What the dictionary in [file] (Yomitan or MDict) says of itself; throws when it is not one. */
+    suspend fun inspect(file: ByteArray): ImportedDictionaryInfo = (importer ?: error("Importing dictionaries is not supported here")).inspect(file)
 
     /**
-     * Imports the Yomitan dictionary in [zip] as words of [sourceLanguage] explained in
-     * [targetLanguage]; from then on lookups in that pair's pack show its entries too. Throws on failure.
+     * Imports the dictionary in [file] as words of [sourceLanguage] explained in [targetLanguage];
+     * from then on lookups in that pair's pack show its entries too. Throws on failure.
      */
-    suspend fun import(zip: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit = {}): ImportedDictionary {
+    suspend fun import(file: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit = {}): ImportedDictionary {
         val registry = imported ?: error("Importing dictionaries is not supported here")
         val converter = importer ?: error("Importing dictionaries is not supported here")
-        val info = converter.inspect(zip)
-        val sqlite = converter.convert(zip, sourceLanguage, targetLanguage, onProgress)
+        val info = converter.inspect(file)
+        val sqlite = converter.convert(file, sourceLanguage, targetLanguage, onProgress)
         val dictionary = ImportedDictionary(
             ImportedDictionary.keyFor(info.title, registry.all.value.map { it.key }), info.title, info.revision,
             sourceLanguage, targetLanguage, sqlite.size.toLong(),

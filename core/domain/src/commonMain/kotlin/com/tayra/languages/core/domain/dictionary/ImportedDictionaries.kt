@@ -4,8 +4,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
-/** What a Yomitan dictionary's index says of it; its languages only when its format has them. */
-data class YomitanDictionaryInfo(
+/** What a dictionary file says of itself (a Yomitan dictionary's index, an MDict file's header); its languages only when its format has them. */
+data class ImportedDictionaryInfo(
     val title: String,
     val revision: String,
     val sourceLanguage: String? = null,
@@ -15,13 +15,13 @@ data class YomitanDictionaryInfo(
     val frequencyMode: String? = null,
 )
 
-/** Turns a Yomitan dictionary, a zip of JSON banks, into the app's pack file. */
-interface YomitanImporter {
-    /** The dictionary's index; throws when [zip] is not a Yomitan dictionary. */
-    suspend fun inspect(zip: ByteArray): YomitanDictionaryInfo
+/** Turns a dictionary file the user has (a Yomitan zip of JSON banks, an MDict .mdx) into the app's pack file. */
+interface DictionaryImporter {
+    /** What the dictionary says of itself; throws when [file] is not a dictionary this importer reads. */
+    suspend fun inspect(file: ByteArray): ImportedDictionaryInfo
 
     /** The SQLite pack of the dictionary's terms, read as words of [sourceLanguage] explained in [targetLanguage]. */
-    suspend fun convert(zip: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit = {}): ByteArray
+    suspend fun convert(file: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit = {}): ByteArray
 }
 
 /** A dictionary the user imported, looked up together with the pack of its language pair. */

@@ -35,17 +35,17 @@ import io.github.vinceglb.filekit.readBytes
 import androidx.compose.runtime.rememberCoroutineScope
 import kotlinx.coroutines.launch
 
-/** Imports a Yomitan dictionary (a .zip), whose entries then show with the pack of its language pair. */
+/** Imports a dictionary file (a Yomitan .zip or an MDict .mdx), whose entries then show with the pack of its language pair. */
 @Composable
 internal fun ImportDictionaryCard(viewModel: DictionariesViewModel, learning: LanguageOption?, native: String) {
     val state by viewModel.import.collectAsStateWithLifecycle()
     val scope = rememberCoroutineScope()
-    val picker = rememberFilePickerLauncher(type = FileKitType.File(listOf("zip"))) { file ->
+    val picker = rememberFilePickerLauncher(type = FileKitType.File(listOf("zip", "mdx"))) { file ->
         if (file != null) scope.launch { viewModel.pickImport(file.readBytes()) }
     }
     ContentCard(
-        tr("Import a Yomitan dictionary"),
-        tr("Add any dictionary made for Yomitan; its entries show beside the offline dictionary of its languages."),
+        tr("Import a dictionary"),
+        tr("Add a dictionary of your own, made for Yomitan (.zip) or MDict (.mdx); its entries show beside the offline dictionary of its languages."),
         icon = AppIcons.Download,
     ) {
         when (val current = state) {
