@@ -102,9 +102,11 @@ its base word. Packs exist for 69 languages, with meanings in English, Chinese, 
 German, Greek, Polish, Portuguese, Russian or Spanish where Wiktionary covers the pair, and are
 managed on the Dictionaries screen. When a pack lacks a word, the language's rules, ported from
 Yomitan, find what it is a spelling or an inflection of ("walked" to "walk", "еще" to "ещё",
-"食べました" to "食べる"), so the meaning and the base word still show. Dictionaries of your own,
-made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive
-of them), can be imported there too; their entries show beside the pack of their languages.
+"食べました" to "食べる"), so the meaning and the base word still show. FreeDict's bilingual
+dictionaries are offered there as well, beside the Wiktionary packs and for pairs Wiktionary does
+not cover. Dictionaries of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo,
+.idx and .dict files, or an archive of them), can be imported there too; their entries show beside
+the pack of their languages.
 
 ## Languages
 
@@ -181,5 +183,6 @@ Tayra Languages is free software under the GNU General Public License, version 3
 its language rules (text normalisation and inflection) are ported from
 [Yomitan](https://github.com/yomidevs/yomitan) (GPL-3.0). Dictionary packs are built from Wiktionary
 through kaikki.org and [wiktionary-to-yomitan](https://github.com/yomidevs/wiktionary-to-yomitan),
-under CC BY-SA 4.0. Bundled fonts and flags keep their own licences, in
+under CC BY-SA 4.0, and from [FreeDict](https://freedict.org)'s dictionaries, under the licence
+each names (most the GNU GPL). Bundled fonts and flags keep their own licences, in
 `core/ui/src/commonMain/composeResources/files/licenses`.

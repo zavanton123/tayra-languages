@@ -289,6 +289,20 @@ language's words for one meaning, its label as the tag. They have the packs' lay
 listed in `DictionaryPacks.glossaries`) and are published in the `glossaries-v1` release. The term
 pane's "Find a … word from …" opens them; the Dictionaries screen lists only installed ones.
 
+FreeDict's dictionaries (https://freedict.org, GPL and other free licences) are published as
+editions: `tools/build_freedict.py` reads FreeDict's database, downloads each StarDict release of a
+pair whose languages the app knows (checking its SHA-512), converts it with `tayra dictionaries
+convert` (from `./gradlew :cli:installDist`, on a data folder of its own) and names FreeDict, the
+edition and the licence found in the .ifo description in the pack's meta; a dictionary with fewer
+than 1,000 entries, or with no licence it recognises as free, is left out. The packs are
+`<source>-<target>-freedict`, `DictionaryId(..., edition = "freedict")` in the app, recorded in
+`dictionaries/freedict/built.json` and written by `--write-catalog` into `DictionaryPackSizes.kt`
+as the `freedict-v1` release. `DictionaryPacks.find(source, target)` still gives the
+Wiktionaries' pack where there is one and the FreeDict pack where there is not; a lookup in a pair
+shows the entries of its installed editions after its own pack's, labelled FreeDict, as it does
+the imported dictionaries' (`DictionaryService.companionsOf`), and the pair counts as available
+when only an edition is installed.
+
 Dictionaries of the user's own can be imported from the Dictionaries screen: `DictionaryFiles`
 (core/data `mdict/`) hands a zip to `YomitanConverter` (or to `StardictConverter` when it holds an
 .ifo and no index.json), an MDict file to `MdictConverter` and a tar or gzip file to

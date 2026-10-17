@@ -12,6 +12,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Preferences" to "Настройки",
     "Data" to "Данные",
     // Language names, shown through tr(name).
+    "Afrikaans" to "Африкаанс",
     "Albanian" to "Албанский",
     "Ancient Greek" to "Древнегреческий",
     "Arabic" to "Арабский",
@@ -74,6 +75,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Slovak" to "Словацкий",
     "Slovene" to "Словенский",
     "Spanish" to "Испанский",
+    "Swahili" to "Суахили",
     "Swedish" to "Шведский",
     "Tagalog" to "Тагальский",
     "Thai" to "Тайский",

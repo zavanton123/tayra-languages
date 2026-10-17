@@ -119,9 +119,10 @@ data class DictionaryLookup(val entries: List<DictionaryEntry>, val lemmas: List
  * Identifies a dictionary by the ISO 639-1 codes of the language it explains and the language it explains in.
  * A [glossary] is a word finder instead: words of the reader's own language with their translations
  * into the language they learn, so a word can be found from its meaning. An [imported] dictionary
- * is one the user brought, by its [ImportedDictionary.key].
+ * is one the user brought, by its [ImportedDictionary.key]. An [edition] is a published dictionary
+ * of the pair from another source than the Wiktionaries ([FREEDICT]), looked up beside the pair's own.
  */
-data class DictionaryId(val sourceLanguage: String, val targetLanguage: String, val glossary: Boolean = false, val imported: String? = null) {
+data class DictionaryId(val sourceLanguage: String, val targetLanguage: String, val glossary: Boolean = false, val imported: String? = null, val edition: String? = null) {
     /** A pack of names (people, places, companies) rather than words: JMnedict's, for Japanese. */
     val isNames: Boolean get() = targetLanguage == NAMES
 
@@ -129,6 +130,7 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String, 
         get() = when {
             imported != null -> "imported-$imported"
             glossary -> "$sourceLanguage-$targetLanguage-gloss"
+            edition != null -> "$sourceLanguage-$targetLanguage-$edition"
             else -> "$sourceLanguage-$targetLanguage"
         }
 
@@ -141,6 +143,9 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String, 
 
         /** The "target language" of a pack of names, as its file is called: ja-names. */
         const val NAMES = "names"
+
+        /** The edition of the packs made from FreeDict's dictionaries (tools/build_freedict.py). */
+        const val FREEDICT = "freedict"
     }
 }
 
@@ -153,7 +158,7 @@ object DictionaryPacks {
 
     /** Languages with packs, as sources or as the language of the glosses, by ISO 639 code. */
     private val names: Map<String, String> = mapOf(
-        "sq" to "Albanian", "grc" to "Ancient Greek", "ar" to "Arabic", "hy" to "Armenian",
+        "af" to "Afrikaans", "sq" to "Albanian", "grc" to "Ancient Greek", "ar" to "Arabic", "hy" to "Armenian",
         "aii" to "Assyrian", "eu" to "Basque", "be" to "Belarusian", "bs" to "Bosnian", "br" to "Breton",
         "bg" to "Bulgarian", "yue" to "Cantonese", "ca" to "Catalan", "zh" to "Chinese", "kw" to "Cornish",
         "hr" to "Croatian", "cs" to "Czech", "da" to "Danish", "nl" to "Dutch", "arz" to "Egyptian Arabic",
@@ -165,21 +170,28 @@ object DictionaryPacks {
         "lt" to "Lithuanian", "mk" to "Macedonian", "mt" to "Maltese", "gv" to "Manx", "mn" to "Mongolian",
         "no" to "Norwegian", "sga" to "Old Irish", "pl" to "Polish", "pt" to "Portuguese",
         "ro" to "Romanian", "ru" to "Russian", "gd" to "Scottish Gaelic", "sr" to "Serbian",
-        "sk" to "Slovak", "sl" to "Slovene", "es" to "Spanish", "sv" to "Swedish", "tl" to "Tagalog",
+        "sk" to "Slovak", "sl" to "Slovene", "es" to "Spanish", "sw" to "Swahili", "sv" to "Swedish", "tl" to "Tagalog",
         "th" to "Thai", "tok" to "Toki Pona", "tr" to "Turkish", "uk" to "Ukrainian", "vi" to "Vietnamese",
         "cy" to "Welsh", "yi" to "Yiddish", "names" to "Names",
     )
+
+    /** The sources of the editions, by their names in the packs' ids. */
+    private val editions: Map<String, String> = mapOf(DictionaryId.FREEDICT to "FreeDict")
 
     private val published: List<DictionaryPack> = dictionaryPackReleases.flatMap { (release, sizes) ->
         sizes.mapNotNull { (name, size) ->
             val parts = name.split('-')
             val glossary = parts.size == 3 && parts[2] == "gloss"
-            if (parts.size != 2 && !glossary) return@mapNotNull null
+            val edition = parts.getOrNull(2)?.takeIf { parts.size == 3 && it in editions }
+            if (parts.size != 2 && !glossary && edition == null) return@mapNotNull null
             val (source, target) = parts
             val title = "${names[source] ?: source} → ${names[target] ?: target}"
-            DictionaryPack(DictionaryId(source, target, glossary), title, "$RELEASES_URL/$release/$name.sqlite.gzip", size)
+            DictionaryPack(DictionaryId(source, target, glossary, edition = edition), title, "$RELEASES_URL/$release/$name.sqlite.gzip", size)
         }
-    }.sortedBy { it.title }
+    }.sortedWith(compareBy({ it.title }, { it.id.edition.orEmpty() }))
+
+    /** The name of the source an [edition][DictionaryId.edition] comes from, such as FreeDict. */
+    fun editionName(edition: String): String = editions[edition] ?: edition
 
     /** A language's English name, by its code; the code itself when no pack has the language. */
     fun languageName(code: String): String = names[code] ?: code
@@ -195,8 +207,9 @@ object DictionaryPacks {
 
     fun find(id: DictionaryId): DictionaryPack? = published.firstOrNull { it.id == id }
 
+    /** The pair's dictionary: the Wiktionaries' pack, or another edition when the pair has no such pack. */
     fun find(sourceLanguage: String?, targetLanguage: String?): DictionaryPack? =
-        all.firstOrNull { it.id.sourceLanguage == sourceLanguage?.lowercase() && it.id.targetLanguage == targetLanguage?.lowercase() }
+        all.filter { it.id.sourceLanguage == sourceLanguage?.lowercase() && it.id.targetLanguage == targetLanguage?.lowercase() }.minByOrNull { if (it.id.edition == null) 0 else 1 }
 
     /** The word finder from [nativeLanguage] words to [learningLanguage] ones, when there is one. */
     fun findGlossary(nativeLanguage: String?, learningLanguage: String?): DictionaryPack? =

@@ -203,6 +203,7 @@ internal val DictionaryPack.displayTitle: String
     get() = when {
         id.imported != null -> "$title \u00b7 ${tr(sourceName)} \u2192 ${tr(targetName)}"
         id.glossary -> "${tr(sourceName)} \u2192 ${tr(targetName)} \u00b7 " + tr("word finder")
+        id.edition != null -> "${tr(sourceName)} \u2192 ${tr(targetName)} \u00b7 " + DictionaryPacks.editionName(id.edition.orEmpty())
         else -> "${tr(sourceName)} \u2192 ${tr(targetName)}"
     }
 
@@ -226,7 +227,12 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
     var testing by remember { mutableStateOf<DictionaryPack?>(null) }
     val native = settings.nativeLanguage.ifBlank { "en" }
     val nativeName = LanguageCatalog.nativeOption(native).name
-    val current = learning?.let { DictionaryPacks.find(it.code, native) }?.let { pack -> packs.firstOrNull { it.pack.id == pack.id } ?: PackStatus(pack, PackState.NotInstalled) }
+    // The pair's dictionary, or another edition of the pair when that one is installed instead.
+    val current = learning?.let { DictionaryPacks.find(it.code, native) }?.let { pack ->
+        packs.firstOrNull { it.pack.id == pack.id && it.state is PackState.Installed }
+            ?: packs.firstOrNull { it.pack.id.copy(edition = null) == pack.id.copy(edition = null) && it.state is PackState.Installed }
+            ?: packs.firstOrNull { it.pack.id == pack.id } ?: PackStatus(pack, PackState.NotInstalled)
+    }
     val compact = LocalWindowWidth.current.isCompact
     val pill: @Composable () -> Unit = {
         when {

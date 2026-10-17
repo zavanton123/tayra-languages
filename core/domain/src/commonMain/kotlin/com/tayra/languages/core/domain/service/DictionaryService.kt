@@ -106,17 +106,19 @@ class DictionaryService(
         return dictionary
     }
 
+    /** Whether [dictionary] answers lookups: it is installed, or another dictionary of its pair that lookups in it show is. */
     override suspend fun isAvailable(dictionary: DictionaryId): Boolean =
-        stateOf(dictionary) is PackState.Installed && repository.isAvailable(dictionary)
+        stateOf(dictionary) is PackState.Installed && repository.isAvailable(dictionary) ||
+            !dictionary.glossary && dictionary.imported == null && companionsOf(dictionary).any { repository.isAvailable(it.id) }
 
     override suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup {
         val own = lookupIn(dictionary, text)
         if (dictionary.glossary || dictionary.imported != null) return own
-        val pair = importedOf(dictionary)
-        // The imported dictionaries of the pair add their entries after the pack's own, each named,
-        // and so does the language's pack of names when it is installed.
+        val pair = companionsOf(dictionary)
+        // The pair's other editions and imported dictionaries add their entries after the pack's own,
+        // each named, and so does the language's pack of names when it is installed.
         val names = DictionaryId(dictionary.sourceLanguage, DictionaryId.NAMES).takeIf { it != dictionary && stateOf(it) is PackState.Installed }
-        val extra = (pair.map { pack -> pack.title to lookupIn(pack.id, text) } + listOfNotNull(names?.let { NAMES_TITLE to lookupIn(it, text) }))
+        val extra = (pair.map { pack -> sourceTitle(pack) to lookupIn(pack.id, text) } + listOfNotNull(names?.let { NAMES_TITLE to lookupIn(it, text) }))
             .filter { !it.second.isEmpty }
         val merged = if (extra.isEmpty()) own else DictionaryLookup(
             own.entries + extra.flatMap { (title, found) -> found.entries.map { it.copy(dictionary = title) } },
@@ -125,11 +127,15 @@ class DictionaryService(
         return if (merged.isEmpty || pair.isEmpty()) merged else merged.copy(entries = withFrequencies(merged.entries, pair))
     }
 
-    /** The installed imported dictionaries of [dictionary]'s language pair. */
-    private fun importedOf(dictionary: DictionaryId): List<DictionaryPack> = _packs.value.filter { status ->
+    /** The installed packs of [dictionary]'s language pair besides it: its other editions, then the imported dictionaries. */
+    private fun companionsOf(dictionary: DictionaryId): List<DictionaryPack> = _packs.value.filter { status ->
         val id = status.pack.id
-        id.imported != null && id.sourceLanguage == dictionary.sourceLanguage && id.targetLanguage == dictionary.targetLanguage && status.state is PackState.Installed
-    }.map { it.pack }
+        id != dictionary && (id.imported != null || id.edition != null) && !id.glossary &&
+            id.sourceLanguage == dictionary.sourceLanguage && id.targetLanguage == dictionary.targetLanguage && status.state is PackState.Installed
+    }.map { it.pack }.sortedBy { if (it.id.imported == null) 0 else 1 }
+
+    /** How a pack's entries are labelled among another pack's: an imported dictionary by its title, an edition by its source. */
+    private fun sourceTitle(pack: DictionaryPack): String = pack.id.edition?.let(DictionaryPacks::editionName) ?: pack.title
 
     /** Each entry with the frequencies the imported dictionaries give its word, in its reading where they say which. */
     private suspend fun withFrequencies(entries: List<DictionaryEntry>, packs: List<DictionaryPack>): List<DictionaryEntry> {
@@ -191,7 +197,7 @@ class DictionaryService(
         val wanted = characters.distinct().take(MAX_KANJI)
         // The pack's own kanji first; an imported kanji dictionary gives those it lacks.
         val found = LinkedHashMap<String, KanjiInfo>()
-        val sources = listOf(dictionary).filter { stateOf(it) is PackState.Installed } + importedOf(dictionary).map { it.id }
+        val sources = listOf(dictionary).filter { stateOf(it) is PackState.Installed } + companionsOf(dictionary).map { it.id }
         for (source in sources) {
             val missing = wanted.filter { it !in found }
             if (missing.isEmpty()) break
