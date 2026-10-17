@@ -271,6 +271,7 @@ private fun SourceNote(source: BookSource) {
             BookSource.GANJOOR -> tr("Classical Persian poems and stories from Ganjoor, each one text, without short vowel marks. Without a search, the stories of Saadi's Golestan.")
             BookSource.ELG -> tr("French classics from Ebooks libres et gratuits, free for non-commercial use. Without a search, its books for the young.")
             BookSource.TEXTGRID -> tr("German literature from the TextGrid Digitale Bibliothek, each tale, poem or novel a text of its own, free to share under CC BY 3.0. Without a search, the Grimms' tales and legends.")
+            BookSource.LIBER_LIBER -> tr("Italian classics from Liber Liber, most free to share non-commercially. Without a search, its books for young people.")
             BookSource.ADAMASTOR -> tr("Portuguese classics from Projecto Adamastor, revised into today's spelling and free to share under CC BY-SA 4.0.")
         },
         Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp),

@@ -24,6 +24,7 @@ import com.tayra.languages.core.data.discover.ElgCatalog
 import com.tayra.languages.core.data.discover.GanjoorCatalog
 import com.tayra.languages.core.data.discover.GdlCatalog
 import com.tayra.languages.core.data.discover.GutenbergCatalog
+import com.tayra.languages.core.data.discover.LiberLiberCatalog
 import com.tayra.languages.core.data.discover.LitteraturbankenCatalog
 import com.tayra.languages.core.data.discover.StorybooksCatalog
 import com.tayra.languages.core.data.discover.TextGridCatalog
@@ -190,7 +191,7 @@ val dataModule: Module = module {
     single { CoursePackService(get(), get()) }
     single<BookPackStore> { BookPackRepository(get()) }
     single { BookPackService(get(), get(), get(), get()) }
-    single { BookDiscoveryService(listOf(GutenbergCatalog(get()), WikisourceCatalog(get()), GdlCatalog(get()), StorybooksCatalog(get()), WolneLekturyCatalog(get()), AozoraCatalog(get()), LitteraturbankenCatalog(get()), BenYehudaCatalog(get()), AdlCatalog(get()), GanjoorCatalog(get()), AdamastorCatalog(get()), ElgCatalog(get()), TextGridCatalog(get())), get(), get(), get()) }
+    single { BookDiscoveryService(listOf(GutenbergCatalog(get()), WikisourceCatalog(get()), GdlCatalog(get()), StorybooksCatalog(get()), WolneLekturyCatalog(get()), AozoraCatalog(get()), LitteraturbankenCatalog(get()), BenYehudaCatalog(get()), AdlCatalog(get()), GanjoorCatalog(get()), AdamastorCatalog(get()), ElgCatalog(get()), TextGridCatalog(get()), LiberLiberCatalog(get())), get(), get(), get()) }
     single<NewsFeedReader> { FeedNewsReader(get()) }
     single<WikiReader> { WikiArticles(get()) }
     single { NewsService(get(), get(), get(), get(), get()) }

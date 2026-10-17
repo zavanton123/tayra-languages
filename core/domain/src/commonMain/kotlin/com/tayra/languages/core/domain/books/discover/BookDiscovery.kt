@@ -55,6 +55,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** The TextGrid Repository's German literature, a tale, poem or novel to a text. */
     TEXTGRID("TextGrid Digitale Bibliothek", "TextGrid", judgedOnSight = true, tag = "textgrid", host = "textgridrep.org", languages = setOf("de")),
+
+    /** Liber Liber's Italian classics. */
+    LIBER_LIBER("Liber Liber", "Liber Liber", judgedOnSight = false, tag = "liberliber", host = "liberliber.it", languages = setOf("it")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages
