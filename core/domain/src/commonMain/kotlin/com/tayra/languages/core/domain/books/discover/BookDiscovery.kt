@@ -12,16 +12,21 @@ import com.tayra.languages.core.domain.service.ReadingService
 /**
  * A free library online to find books in. [judgedOnSight] libraries have a cheap sample of each
  * book, so their books are judged as they are listed; the others only when the reader asks.
+ * [languages] holds the ISO codes of the languages a library of one or a few languages serves,
+ * null for one with books in every language; [tag] marks the books added from it.
  */
-enum class BookSource(val judgedOnSight: Boolean) {
+enum class BookSource(val libraryName: String, val shortName: String, val judgedOnSight: Boolean, val tag: String, val languages: Set<String>? = null) {
     /** Project Gutenberg's public-domain classics. */
-    GUTENBERG(judgedOnSight = true),
+    GUTENBERG("Project Gutenberg", "Gutenberg", judgedOnSight = true, tag = "gutenberg"),
 
     /** Wikisource's volunteer transcriptions of public-domain and freely licensed texts, one wiki per language. */
-    WIKISOURCE(judgedOnSight = true),
+    WIKISOURCE("Wikisource", "Wikisource", judgedOnSight = true, tag = "wikisource"),
 
     /** The Global Digital Library's openly licensed early-grade readers, StoryWeaver's among them. */
-    GDL(judgedOnSight = false),
+    GDL("Global Digital Library", "GDL", judgedOnSight = false, tag = "gdl"),
+    ;
+
+    fun serves(languageCode: String): Boolean = languages == null || languageCode in languages
 }
 
 enum class Difficulty { EASY, MEDIUM, HARD }
@@ -89,6 +94,12 @@ class BookDiscoveryService(
 ) {
     val sources: List<BookSource> get() = catalogs.map { it.source }
 
+    /** The libraries with books in [language]: those of every language, then those of it alone. */
+    fun sources(language: Language): List<BookSource> {
+        val code = LanguageCodes.codeFor(language.name) ?: return emptyList()
+        return catalogs.map { it.source }.filter { it.serves(code) }.sortedBy { if (it.languages == null) 0 else 1 }
+    }
+
     /** The books of [source] in [language]; nothing for a language the app has no code for. */
     suspend fun search(source: BookSource, language: Language, query: String, page: Int): CatalogPage {
         val code = LanguageCodes.codeFor(language.name) ?: return CatalogPage(emptyList(), hasMore = false, total = 0)
@@ -128,10 +139,3 @@ class BookDiscoveryService(
             else text.substring(0, SAMPLE_CHARACTERS).substringBeforeLast('\n').ifEmpty { text.substring(0, SAMPLE_CHARACTERS) }
     }
 }
-
-private val BookSource.tag: String
-    get() = when (this) {
-        BookSource.GUTENBERG -> "gutenberg"
-        BookSource.WIKISOURCE -> "wikisource"
-        BookSource.GDL -> "gdl"
-    }

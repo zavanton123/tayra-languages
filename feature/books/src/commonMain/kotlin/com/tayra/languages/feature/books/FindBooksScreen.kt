@@ -152,15 +152,24 @@ private fun Header(state: FindBooksUiState, compact: Boolean) {
 @Composable
 private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact: Boolean) {
     Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-        val sources = BookSource.entries
-        SingleChoiceSegmentedButtonRow(Modifier.then(if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = 460.dp))) {
-            sources.forEachIndexed { i, source ->
-                SegmentedButton(
-                    selected = state.source == source,
-                    onClick = { actions.onSource(source) },
-                    shape = SegmentedButtonDefaults.itemShape(i, sources.size),
-                    modifier = Modifier.testTag("source-${source.name}"),
-                ) { Text(source.label, maxLines = 1, overflow = TextOverflow.Ellipsis) }
+        val sources = state.sources.ifEmpty { BookSource.entries.filter { it.languages == null } }
+        // Three libraries fit side by side on a phone; a language with libraries of its own lists them as chips.
+        if (sources.size <= 3) {
+            SingleChoiceSegmentedButtonRow(Modifier.then(if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = 460.dp))) {
+                sources.forEachIndexed { i, source ->
+                    SegmentedButton(
+                        selected = state.source == source,
+                        onClick = { actions.onSource(source) },
+                        shape = SegmentedButtonDefaults.itemShape(i, sources.size),
+                        modifier = Modifier.testTag("source-${source.name}"),
+                    ) { Text(source.label, maxLines = 1, overflow = TextOverflow.Ellipsis) }
+                }
+            }
+        } else {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                sources.forEach { source ->
+                    FilterChip(selected = state.source == source, onClick = { actions.onSource(source) }, label = { Text(source.label) }, modifier = Modifier.testTag("source-${source.name}"))
+                }
             }
         }
         SearchBox(state.query, actions.onQuery, Modifier.fillMaxWidth(), placeholder = tr("Search titles and authors"))
@@ -228,7 +237,7 @@ private fun ErrorBox(state: FindBooksUiState, actions: FindBooksActions) {
 
 @Composable
 private fun EmptyBox(state: FindBooksUiState, actions: FindBooksActions) {
-    val other = BookSource.entries.first { it != state.source }
+    val other = state.sources.ifEmpty { BookSource.entries.toList() }.first { it != state.source }
     Column(Modifier.fillMaxWidth().padding(vertical = 32.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Text(
             when {
@@ -267,15 +276,4 @@ private fun Centered(content: @Composable () -> Unit) {
 }
 
 private val BookSource.label: String
-    get() = when (this) {
-        BookSource.GUTENBERG -> "Gutenberg"
-        BookSource.WIKISOURCE -> "Wikisource"
-        BookSource.GDL -> tr("Easy readers")
-    }
-
-private val BookSource.libraryName: String
-    get() = when (this) {
-        BookSource.GUTENBERG -> "Project Gutenberg"
-        BookSource.WIKISOURCE -> "Wikisource"
-        BookSource.GDL -> "Global Digital Library"
-    }
+    get() = if (this == BookSource.GDL) tr("Easy readers") else shortName

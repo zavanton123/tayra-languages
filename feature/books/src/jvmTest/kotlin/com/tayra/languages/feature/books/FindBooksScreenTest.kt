@@ -137,6 +137,9 @@ class FindBooksScreenTest {
         assertEquals(0, onAllNodesWithTag("check-Dom Casmurro").fetchSemanticsNodes().size)
         for (source in BookSource.entries) onNodeWithTag("source-${source.name}").assertExists()
         assertEquals("Source: Wikisource, «Dom Casmurro», CC BY-SA.", attribution(work))
+        assertEquals("Source: Project Gutenberg, «Dom Casmurro», public domain.", attribution(book("55752", "Dom Casmurro", "Machado de Assis")))
+        assertEquals("Source: Global Digital Library, «Gata», CC BY-SA 4.0.", attribution(work.copy(source = BookSource.GDL, title = "Gata", license = "CC-BY-SA-4.0")))
+        assertEquals("Source: Global Digital Library, «Gata», CC BY 4.0.", attribution(work.copy(source = BookSource.GDL, title = "Gata", license = "CC-BY-4.0")))
     }
 
     @Test

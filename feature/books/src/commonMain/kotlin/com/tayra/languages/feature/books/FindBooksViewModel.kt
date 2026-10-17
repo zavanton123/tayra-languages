@@ -40,6 +40,8 @@ data class FoundBookItem(
 data class FindBooksUiState(
     val languageName: String = "",
     val source: BookSource = BookSource.GUTENBERG,
+    /** The libraries with books in the language being learned. */
+    val sources: List<BookSource> = emptyList(),
     val query: String = "",
     /** Null shows the books whatever their difficulty. */
     val difficulty: Difficulty? = null,
@@ -82,7 +84,9 @@ class FindBooksViewModel(
         viewModelScope.launch {
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().collect { id ->
                 language = languages.getById(id)
-                _state.update { it.copy(languageName = language?.name.orEmpty()) }
+                val sources = language?.let(discovery::sources).orEmpty()
+                // A library of another language gives way to the first of this one's.
+                _state.update { s -> s.copy(languageName = language?.name.orEmpty(), sources = sources, source = s.source.takeIf { it in sources } ?: sources.firstOrNull() ?: BookSource.GUTENBERG) }
                 reload()
             }
         }
@@ -206,8 +210,14 @@ class FindBooksViewModel(
  * The line that ends a book from a library: where it is from and under what licence. The address
  * stays out of the text, where its parts would read as words; the book keeps it as its source.
  */
-internal fun attribution(book: FoundBook): String = when (book.source) {
-    BookSource.GUTENBERG -> tr("Source: Project Gutenberg, «{0}», public domain.", book.title)
-    BookSource.WIKISOURCE -> tr("Source: Wikisource, «{0}», CC BY-SA.", book.title)
-    BookSource.GDL -> tr("Source: Global Digital Library, «{0}», {1}.", book.title, book.license.replace('-', ' '))
+internal fun attribution(book: FoundBook): String = tr("Source: {0}, «{1}», {2}.", book.source.libraryName, book.title, licence(book.license))
+
+/** A licence as people write it: "public domain", and "CC BY-SA 4.0" for the tag "CC-BY-SA-4.0". */
+private fun licence(license: String): String {
+    if (license.equals("Public domain", ignoreCase = true)) return tr("public domain")
+    val parts = license.split('-')
+    if (parts.size < 3 || !parts.first().equals("CC", ignoreCase = true)) return license
+    val version = parts.last().takeIf { it.firstOrNull()?.isDigit() == true }
+    val terms = parts.drop(1).dropLast(if (version != null) 1 else 0).joinToString("-")
+    return listOfNotNull("CC", terms, version).joinToString(" ")
 }
