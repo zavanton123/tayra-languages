@@ -41,7 +41,11 @@ internal fun elementText(xml: String, name: String): String? {
 /** The text of an EPUB: its documents in reading order (the spine), and the title its package gives. */
 internal object EpubText {
 
-    suspend fun read(bytes: ByteArray): ExtractedText {
+    /**
+     * The book's text, from the documents of its spine that [keep] accepts: each with its id in
+     * the package file, its markup, and the ids of the whole spine in order.
+     */
+    suspend fun read(bytes: ByteArray, keep: (id: String, html: String, spine: List<String>) -> Boolean = { _, _, _ -> true }): ExtractedText {
         val zip = openZip(bytes, "EPUB")
         val opfPath = zip.xmlEntry("META-INF/container.xml")?.let { container ->
             Markup.tokens(container).filterIsInstance<MarkupToken.Open>().firstOrNull { it.name == "rootfile" }?.attributes?.get("full-path")
@@ -66,8 +70,9 @@ internal object EpubText {
 
         val out = TextBuilder()
         var documents = 0
-        for (path in spine.mapNotNull { manifest[it] }.distinct()) {
+        for ((id, path) in spine.mapNotNull { id -> manifest[id]?.let { id to it } }.distinctBy { it.second }) {
             val html = zip.xmlEntry(path) ?: continue
+            if (!keep(id, html, spine)) continue
             HtmlText.append(html, out)
             out.blankLine()
             documents++

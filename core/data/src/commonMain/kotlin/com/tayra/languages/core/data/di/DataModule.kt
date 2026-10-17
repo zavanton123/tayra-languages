@@ -13,6 +13,7 @@ import com.tayra.languages.core.domain.books.BookPackStore
 import com.tayra.languages.core.domain.books.discover.BookDiscoveryService
 import com.tayra.languages.core.data.discover.GdlCatalog
 import com.tayra.languages.core.data.discover.GutenbergCatalog
+import com.tayra.languages.core.data.discover.WikisourceCatalog
 import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
 import com.tayra.languages.core.data.repository.VocabularyLevelRepositoryImpl
@@ -174,7 +175,7 @@ val dataModule: Module = module {
     single { CoursePackService(get(), get()) }
     single<BookPackStore> { BookPackRepository(get()) }
     single { BookPackService(get(), get(), get(), get()) }
-    single { BookDiscoveryService(listOf(GutenbergCatalog(get()), GdlCatalog(get())), get(), get(), get()) }
+    single { BookDiscoveryService(listOf(GutenbergCatalog(get()), WikisourceCatalog(get()), GdlCatalog(get())), get(), get(), get()) }
     single { LanguageSetupService(get(), get(), get(), get(), get(), get()) }
     single { ClearDataService(get(), get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }

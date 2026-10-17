@@ -9,13 +9,19 @@ import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.ReadingService
 
-/** A free library online to find books in. */
-enum class BookSource {
-    /** Project Gutenberg's public-domain classics, through the Gutendex catalog. */
-    GUTENBERG,
+/**
+ * A free library online to find books in. [judgedOnSight] libraries have a cheap sample of each
+ * book, so their books are judged as they are listed; the others only when the reader asks.
+ */
+enum class BookSource(val judgedOnSight: Boolean) {
+    /** Project Gutenberg's public-domain classics. */
+    GUTENBERG(judgedOnSight = true),
+
+    /** Wikisource's volunteer transcriptions of public-domain and freely licensed texts, one wiki per language. */
+    WIKISOURCE(judgedOnSight = true),
 
     /** The Global Digital Library's openly licensed early-grade readers, StoryWeaver's among them. */
-    GDL,
+    GDL(judgedOnSight = false),
 }
 
 enum class Difficulty { EASY, MEDIUM, HARD }
@@ -111,7 +117,7 @@ class BookDiscoveryService(
     private fun catalog(source: BookSource): BookCatalog = catalogs.first { it.source == source }
 
     private companion object {
-        val LIBRARY_HOSTS = listOf("gutenberg.org", "digitallibrary.io")
+        val LIBRARY_HOSTS = listOf("gutenberg.org", "wikisource.org", "digitallibrary.io")
 
         /** Enough words to judge a text by, without parsing a whole novel. */
         const val SAMPLE_CHARACTERS = 15_000
@@ -126,5 +132,6 @@ class BookDiscoveryService(
 private val BookSource.tag: String
     get() = when (this) {
         BookSource.GUTENBERG -> "gutenberg"
+        BookSource.WIKISOURCE -> "wikisource"
         BookSource.GDL -> "gdl"
     }
