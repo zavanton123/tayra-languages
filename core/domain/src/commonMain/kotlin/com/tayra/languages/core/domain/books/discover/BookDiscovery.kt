@@ -25,6 +25,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** The Global Digital Library's openly licensed early-grade readers, StoryWeaver's among them. */
     GDL("Global Digital Library", "GDL", judgedOnSight = false, tag = "gdl", host = "digitallibrary.io"),
+
+    /** Wolne Lektury's Polish school readings and classics. */
+    WOLNE_LEKTURY("Wolne Lektury", "Wolne Lektury", judgedOnSight = true, tag = "wolnelektury", host = "wolnelektury.pl", languages = setOf("pl")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages

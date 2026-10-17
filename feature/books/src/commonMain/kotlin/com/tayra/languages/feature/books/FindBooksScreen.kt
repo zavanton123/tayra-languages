@@ -262,6 +262,7 @@ private fun SourceNote(source: BookSource) {
             BookSource.GUTENBERG -> tr("Classics from Project Gutenberg, free of copyright in the United States. Each book is judged by its first pages.")
             BookSource.WIKISOURCE -> tr("Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter.")
             BookSource.GDL -> tr("Children's books from the Global Digital Library, graded by level and free to share under open licences.")
+            BookSource.WOLNE_LEKTURY -> tr("Polish school readings and classics from Wolne Lektury, most in the public domain. Without a search, its books for children and young people.")
         },
         Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp),
         style = MaterialTheme.typography.bodySmall,

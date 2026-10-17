@@ -207,5 +207,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "This language cannot be checked" to "Этот язык нельзя проверить",
     "Source: {0}, «{1}», {2}." to "Источник: {0}, «{1}», {2}.",
     "public domain" to "общественное достояние",
+    "Polish school readings and classics from Wolne Lektury, most in the public domain. Without a search, its books for children and young people." to "Польская школьная программа и классика из Wolne Lektury, в основном в общественном достоянии. Без поиска — книги для детей и юношества.",
     "Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter." to "Тексты, набранные добровольцами Викитеки и распространяемые по лицензии CC BY-SA. Без поиска — самые читаемые произведения прошлого месяца. Каждое оценивается по первой главе.",
 )
