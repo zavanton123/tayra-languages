@@ -114,3 +114,11 @@ Languages with only one source: ceb (SunStar Superbalita Cebu), fo (Kringvarp FÃ
   Pravda.sk, N1 Slovenija and RTHK. `feeds.json` now has the https addresses they lead to.
 - Rechecked from the same machine an hour later, Radio Prague's article pages answered 403 to every client
   and Tibet Times answered 429, most likely rate limits after the many checks; both are kept.
+
+## Global Voices (added 2026-10-17)
+
+Global Voices publishes feature stories (CC BY 3.0) and volunteers translate them into dozens of
+languages; each edition's feed (`<code>.globalvoices.org/feed/`) carries the full text. Of 42 editions
+found, the 23 with an article since mid-2025 are listed; quieter ones (Albanian, Czech, Danish,
+Hebrew, Hungarian, Korean, Polish, Swahili, Swedish, Turkish, Urdu, Filipino...) are left out. The
+Chinese edition is in traditional characters.

@@ -156,6 +156,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 720,
         "notes": "Feed links (/feed/view/ar/story/...) return HTTP 406; drop '/feed/view' from the path to get the article"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://ar.globalvoices.org/feed/",
+        "homepage": "https://ar.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-11",
+        "articleWords": 1447,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -341,6 +351,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 710,
         "notes": "Low volume (a few items per month)"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://bn.globalvoices.org/feed/",
+        "homepage": "https://bn.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-09-24",
+        "articleWords": 948,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -425,6 +445,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 160,
         "notes": ""
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://bg.globalvoices.org/feed/",
+        "homepage": "https://bg.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2025-09-01",
+        "articleWords": 1014,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -460,6 +490,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 140,
         "notes": "Feed URL is the https address its old one redirected to over plain http."
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://ca.globalvoices.org/feed/",
+        "homepage": "https://ca.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-05",
+        "articleWords": 1252,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -530,6 +570,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 320,
         "notes": "Feed links (/feed/view/zh/story/...) return HTTP 406; drop '/feed/view' from the path"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://zh.globalvoices.org/feed/",
+        "homepage": "https://zh.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-05-15",
+        "articleWords": 887,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed (traditional characters)"
       }
     ]
   },
@@ -600,6 +650,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 460,
         "notes": "High volume"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://hr.globalvoices.org/feed/",
+        "homepage": "https://hr.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-09-06",
+        "articleWords": 636,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -705,6 +765,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 410,
         "notes": "Flemish public broadcaster"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://nl.globalvoices.org/feed/",
+        "homepage": "https://nl.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-11",
+        "articleWords": 1339,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -760,6 +830,16 @@
         "newestItem": "2026-10-17",
         "articleWords": 560,
         "notes": ""
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://globalvoices.org/feed/",
+        "homepage": "https://globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 2563,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -805,6 +885,16 @@
         "newestItem": "2026-10-06",
         "articleWords": 2900,
         "notes": "Long translated articles; a few per month"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://eo.globalvoices.org/feed/",
+        "homepage": "https://eo.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-09-13",
+        "articleWords": 1771,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -980,6 +1070,16 @@
         "newestItem": "2026-10-17",
         "articleWords": 540,
         "notes": "Full text in feed"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://fr.globalvoices.org/feed/",
+        "homepage": "https://fr.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-13",
+        "articleWords": 648,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1105,6 +1205,16 @@
         "newestItem": "2026-10-17",
         "articleWords": 260,
         "notes": "SPIEGEL+ items are subscriber-only (teaser only)"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://de.globalvoices.org/feed/",
+        "homepage": "https://de.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2025-07-15",
+        "articleWords": 614,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1150,6 +1260,16 @@
         "newestItem": "2026-10-17",
         "articleWords": 480,
         "notes": ""
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://el.globalvoices.org/feed/",
+        "homepage": "https://el.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 1293,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1210,6 +1330,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 370,
         "notes": "National section; full text in feed"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://hi.globalvoices.org/feed/",
+        "homepage": "https://hi.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2025-12-14",
+        "articleWords": 1536,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1295,6 +1425,16 @@
         "newestItem": "2026-10-17",
         "articleWords": 300,
         "notes": "National news agency"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://id.globalvoices.org/feed/",
+        "homepage": "https://id.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2025-09-30",
+        "articleWords": 1189,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1340,6 +1480,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 290,
         "notes": "Some items are short; a few subscriber-only"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://it.globalvoices.org/feed/",
+        "homepage": "https://it.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 1874,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1400,6 +1550,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 350,
         "notes": ""
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://kk.globalvoices.org/feed/",
+        "homepage": "https://kk.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-02-21",
+        "articleWords": 466,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1569,6 +1729,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 500,
         "notes": "Full text in feed"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://mk.globalvoices.org/feed/",
+        "homepage": "https://mk.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-09-23",
+        "articleWords": 600,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1684,6 +1854,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 330,
         "notes": "European Portuguese; full text in feed"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://pt.globalvoices.org/feed/",
+        "homepage": "https://pt.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 1585,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1744,6 +1924,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 390,
         "notes": "High volume"
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://ro.globalvoices.org/feed/",
+        "homepage": "https://ro.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-09-24",
+        "articleWords": 637,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1789,6 +1979,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 270,
         "notes": ""
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://ru.globalvoices.org/feed/",
+        "homepage": "https://ru.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 2235,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1834,6 +2034,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 270,
         "notes": ""
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://sr.globalvoices.org/feed/",
+        "homepage": "https://sr.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-15",
+        "articleWords": 2840,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -1949,6 +2159,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 410,
         "notes": ""
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://es.globalvoices.org/feed/",
+        "homepage": "https://es.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 2661,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
@@ -2199,6 +2419,16 @@
         "newestItem": "2026-10-16",
         "articleWords": 510,
         "notes": ""
+      },
+      {
+        "name": "Global Voices",
+        "feedUrl": "https://uk.globalvoices.org/feed/",
+        "homepage": "https://uk.globalvoices.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-09-28",
+        "articleWords": 1120,
+        "notes": "Feature stories from around the world, translated by volunteers; CC BY 3.0; full text in the feed"
       }
     ]
   },
