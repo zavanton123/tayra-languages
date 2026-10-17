@@ -290,9 +290,13 @@ listed in `DictionaryPacks.glossaries`) and are published in the `glossaries-v1`
 pane's "Find a … word from …" opens them; the Dictionaries screen lists only installed ones.
 
 Dictionaries of the user's own can be imported from the Dictionaries screen: `DictionaryFiles`
-(core/data `mdict/`) hands a zip to `YomitanConverter` and an MDict file to `MdictConverter`, by
-their first bytes. On Android the picker offers every file, as it filters by MIME type and has none
-for .mdx (`DictionaryFiles.pickerExtensions`).
+(core/data `mdict/`) hands a zip to `YomitanConverter` (or to `StardictConverter` when it holds an
+.ifo and no index.json), an MDict file to `MdictConverter` and a tar or gzip file to
+`StardictConverter`, by their first bytes. Several files chosen together (a StarDict dictionary's
+.ifo, .idx and .dict) travel as one tar (`DictionaryFiles.bundle`). On Android the picker offers
+every file, as it filters by MIME type and has none for .mdx or StarDict's files
+(`DictionaryFiles.pickerExtensions`). `tayra dictionaries convert` runs the same conversion from
+the command line and writes the pack file, without touching the library.
 
 `MdictFile` reads .mdx files as readmdict worked the format out: a UTF-16 XML header (its length
 before it, a checksum after), the key section (block counts and sizes, then the index of key blocks,
@@ -310,6 +314,17 @@ lines its HTML shows (files `HtmlText`, "</br>" read as "<br>", the headword lin
 and a form per "@@@LINK=" record; it writes the pack through `newSqliteFile`'s streaming form, so
 ECDICT's 3.4 million entries (98 MB, a 417 MB pack) convert in about 20 s without holding every
 statement. The .mdd resources (audio, images, styles) are not read.
+
+`StardictConverter` (core/data `stardict/`) reads a StarDict dictionary from `Archives`: a zip, a
+tar, either gzipped, or loose files; xz and bzip2 archives are refused with a request to extract
+them. The .ifo gives the title, the description (shown as the attribution) and the field types
+(`sametypesequence`, else a type letter before each field); the .idx (or .idx.gz) each headword
+with its offset (32 bits, or 64 with `idxoffsetbits=64`) and size in the .dict (or the dictzip
+.dict.dz, read as one gzip member); the .syn its synonyms, which become forms. Text fields (plain,
+Pango, XDXF, HTML and the others in lower case) become glosses the way MDict records do, XDXF's
+`<k>` headword dropped and its and Pango's line breaks kept; links to other entries (`bword://`,
+`entry://`, `#word`) are no gloss; the phonetic field `t` is the entry's IPA; binary fields
+(upper-case types: sounds, pictures) are skipped.
 
 Any Yomitan dictionary can be imported from the Dictionaries screen. `YomitanConverter` (core/data)
 reads the zip with `ZipArchive`, whose entries are inflated per platform (`Inflater`, zlib on iOS,

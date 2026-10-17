@@ -103,8 +103,8 @@ German, Greek, Polish, Portuguese, Russian or Spanish where Wiktionary covers th
 managed on the Dictionaries screen. When a pack lacks a word, the language's rules, ported from
 Yomitan, find what it is a spelling or an inflection of ("walked" to "walk", "еще" to "ещё",
 "食べました" to "食べる"), so the meaning and the base word still show. Dictionaries of your own,
-made for Yomitan (.zip) or MDict (.mdx), can be imported there too; their entries show beside the
-pack of their languages.
+made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive
+of them), can be imported there too; their entries show beside the pack of their languages.
 
 ## Languages
 
