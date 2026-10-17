@@ -124,6 +124,12 @@ class FileTextExtractorTest {
     }
 
     @Test
+    fun aDoctypeWithItsOwnDeclarationsLeavesNoTrace() = runTest {
+        val html = """<?xml version="1.0"?><!DOCTYPE html [ <!ENTITY nbsp "&#160;"> <!ENTITY copy "&#169;"> ]><html><body><p>Bora sabe escribir.</p></body></html>"""
+        assertEquals("Bora sabe escribir.", FileTextExtractor.extract("page.xhtml", html.toByteArray()).text)
+    }
+
+    @Test
     fun markdownProseWithoutMarkup() = runTest {
         val md = """---
             |title: Notes

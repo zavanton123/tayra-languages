@@ -44,7 +44,12 @@ internal object Markup {
                 }
                 next == '!' || next == '?' -> {
                     flush()
-                    val end = source.indexOf('>', i)
+                    val close = source.indexOf('>', i)
+                    // A DOCTYPE can carry declarations of its own in brackets, each ending in '>'.
+                    val subset = source.indexOf('[', i)
+                    val end = if (source.startsWith("<!DOCTYPE", i, ignoreCase = true) && subset in 0 until close) {
+                        source.indexOf("]>", subset).let { if (it < 0) -1 else it + 1 }
+                    } else close
                     i = if (end < 0) source.length else end + 1
                 }
                 next == '/' || next.isLetter() -> {
