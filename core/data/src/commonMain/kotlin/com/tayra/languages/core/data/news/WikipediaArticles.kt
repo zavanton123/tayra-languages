@@ -34,7 +34,8 @@ import kotlin.time.Clock
  * Articles of the language's Wikipedia: the most read of yesterday, from Wikimedia's page views,
  * or those its search finds. A page of them is one request, which gives each article's
  * introduction as plain text, so an article is judged and read by its introduction without more;
- * its whole text is a request of its own. Pages that only list the meanings of a word go.
+ * its whole text is a request of its own. Pages that only list the meanings of a word go, and the
+ * most read leave out adult topics, which Wikidata tells apart (a search finds what it is asked for).
  */
 class WikipediaArticles(
     private val client: HttpClient,
@@ -50,7 +51,7 @@ class WikipediaArticles(
         val code = wikiCode(languageCode)
         val titles = lock.withLock { mostRead[code] } ?: readMostRead(code).also { lock.withLock { mostRead[code] = it } }
         val batch = titles.drop((page - 1) * PAGE_SIZE).take(PAGE_SIZE)
-        return WikiPage(described(code, languageCode, batch), hasMore = titles.size > page * PAGE_SIZE)
+        return WikiPage(described(code, languageCode, batch, forEveryone = true), hasMore = titles.size > page * PAGE_SIZE)
     }
 
     override suspend fun search(languageCode: String, query: String, page: Int): WikiPage {
@@ -65,7 +66,7 @@ class WikipediaArticles(
             if (page > 1) parameter("sroffset", (page - 1) * PAGE_SIZE)
         }
         val titles = (body.obj("query")?.get("search") as? JsonArray).orEmpty().mapNotNull { (it as? JsonObject)?.string("title") }
-        return WikiPage(described(code, languageCode, titles), hasMore = body["continue"] != null)
+        return WikiPage(described(code, languageCode, titles, forEveryone = false), hasMore = body["continue"] != null)
     }
 
     override suspend fun wholeText(article: NewsArticle): String {
@@ -113,8 +114,8 @@ class WikipediaArticles(
         return emptyList()
     }
 
-    /** The articles with [titles], in their order, each with its introduction; lists of a word's meanings left out. */
-    private suspend fun described(code: String, languageCode: String, titles: List<String>): List<NewsArticle> {
+    /** The articles with [titles], in their order, each with its introduction; lists of a word's meanings left out, and with [forEveryone] adult topics too. */
+    private suspend fun described(code: String, languageCode: String, titles: List<String>, forEveryone: Boolean): List<NewsArticle> {
         if (titles.isEmpty()) return emptyList()
         val query = api(code) {
             parameter("action", "query")
@@ -122,7 +123,7 @@ class WikipediaArticles(
             parameter("exintro", "1")
             parameter("explaintext", "1")
             parameter("exlimit", PAGE_SIZE)
-            parameter("ppprop", "disambiguation")
+            parameter("ppprop", "disambiguation|wikibase_item")
             parameter("redirects", "1")
             parameter("titles", titles.joinToString("|"))
             variant(code)
@@ -132,9 +133,11 @@ class WikipediaArticles(
             .associate { it.string("from").orEmpty() to it.string("to").orEmpty() }
         val pages = (query?.get("pages") as? JsonArray).orEmpty().mapNotNull { it as? JsonObject }.associateBy { it.string("title").orEmpty() }
         val source = NewsSource(languageCode, "Wikipedia", wikiHost(code), "${wikiHost(code)}/", textInFeed = true)
+        val adult = if (forEveryone) adultItems(pages.values.mapNotNull { it.obj("pageprops")?.string("wikibase_item") }) else emptySet()
         return titles.map { generateSequence(it) { title -> renamed[title] }.take(4).last() }.distinct().mapNotNull { title ->
             val page = pages[title] ?: return@mapNotNull null
             if (page["missing"] != null || page.obj("pageprops")?.get("disambiguation") != null) return@mapNotNull null
+            if (page.obj("pageprops")?.string("wikibase_item") in adult) return@mapNotNull null
             val intro = page.string("extract")?.let(::clean)?.takeIf { it.isNotBlank() } ?: return@mapNotNull null
             NewsArticle(
                 source = source,
@@ -146,6 +149,33 @@ class WikipediaArticles(
                 length = (page["length"] as? JsonPrimitive)?.intOrNull,
             )
         }
+    }
+
+    /**
+     * The ones of [items] about adult topics, by what Wikidata says of them: a performer in
+     * pornography (occupation), a film or comic of an adult genre, or a sexual act, practice or
+     * adult business, or a kind of one (instance or subclass, one step up).
+     */
+    private suspend fun adultItems(items: List<String>): Set<String> {
+        if (items.isEmpty()) return emptySet()
+        val response = client.get(WIKIDATA) {
+            parameter("action", "wbgetentities")
+            parameter("ids", items.distinct().joinToString("|"))
+            parameter("props", "claims")
+            parameter("format", "json")
+            parameter("origin", "*")
+            header(HttpHeaders.UserAgent, FeedNewsReader.USER_AGENT)
+            timeout { requestTimeoutMillis = TIMEOUT; socketTimeoutMillis = TIMEOUT }
+        }
+        val entities = (json.parseToJsonElement(checked(response).bodyAsText()) as? JsonObject)?.obj("entities") ?: return emptySet()
+        return entities.entries.filter { (id, entity) ->
+            val claims = (entity as? JsonObject)?.obj("claims") ?: return@filter false
+            fun ids(property: String) = (claims[property] as? JsonArray).orEmpty().mapNotNull { claim ->
+                ((claim as? JsonObject)?.obj("mainsnak")?.obj("datavalue")?.obj("value"))?.string("id")
+            }
+            id in ADULT_TOPICS || ids("P106").any { it in ADULT_OCCUPATIONS } || ids("P136").any { it in ADULT_GENRES } ||
+                (ids("P31") + ids("P279")).any { it in ADULT_TOPICS }
+        }.map { it.key }.toSet()
     }
 
     private suspend fun api(code: String, params: HttpRequestBuilder.() -> Unit): JsonObject {
@@ -180,6 +210,24 @@ class WikipediaArticles(
         private const val PAGE_SIZE = 20
         private const val SUMMARY_CHARACTERS = 400
         private const val TIMEOUT = 30_000L
+        private const val WIKIDATA = "https://www.wikidata.org/w/api.php"
+
+        /** Pornographic actor, erotic model, webcam model, sex worker, prostitute. */
+        private val ADULT_OCCUPATIONS = setOf("Q488111", "Q3286043", "Q1027930", "Q852857", "Q14915751")
+
+        /** Pornographic film, hentai, erotica, mature film. */
+        private val ADULT_GENRES = setOf("Q185529", "Q172067", "Q181001", "Q5193883")
+
+        /**
+         * Pornography and its kinds, human sexual behaviour, copulation, sexual penetration, sex
+         * positions, autoeroticism, fetishism, paraphilia, sexual risk behaviour, erotic products,
+         * adult sites, studios and subscription services, porn databases, and the topics no class
+         * catches: orgasm, prostitution.
+         */
+        private val ADULT_TOPICS = setOf(
+            "Q291", "Q185529", "Q172067", "Q181001", "Q608", "Q30600878", "Q2148678", "Q8394", "Q782623", "Q207791",
+            "Q178059", "Q2990601", "Q115921406", "Q110643339", "Q30941437", "Q106040099", "Q90404711", "Q5887", "Q36633",
+        )
 
         private fun pad(n: Int) = n.toString().padStart(2, '0')
 

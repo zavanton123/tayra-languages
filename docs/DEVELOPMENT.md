@@ -437,7 +437,11 @@ plain-text introduction, its size (for the length filter) and whether it only li
 An article is judged and read by its introduction, which the list already holds; "Whole article"
 fetches the full extract (`exsectionformat=wiki`), drops the sections that are empty or only short
 lines with no sentence (see also, references, links, whatever the language calls them), and keeps it
-under the article's address plus `#whole`. Cantonese is `zh-yue`; Chinese asks for `variant=zh-hans`.
+under the article's address plus `#whole`. Cantonese is `zh-yue`; Chinese asks for `variant=zh-hans`. The most read
+leave out adult topics by their Wikidata item (one `wbgetentities` per page): a person whose occupation
+(P106) is pornographic actor, erotic or webcam model or sex worker, a work of an adult genre (P136),
+and an item that is, or is an instance or subclass of, pornography, human sexual behaviour, a sex
+position, fetishism and the like (`ADULT_TOPICS`, one step up only); a search is not filtered.
 
 ## Word frequency lists
 
