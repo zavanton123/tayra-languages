@@ -26,6 +26,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
     /** The Global Digital Library's openly licensed early-grade readers, StoryWeaver's among them. */
     GDL("Global Digital Library", "GDL", judgedOnSight = false, tag = "gdl", host = "digitallibrary.io"),
 
+    /** Global Storybooks' short illustrated stories for children, in scores of languages. */
+    STORYBOOKS("Global Storybooks", "Storybooks", judgedOnSight = true, tag = "storybooks", host = "github.com/global-asp"),
+
     /** Wolne Lektury's Polish school readings and classics. */
     WOLNE_LEKTURY("Wolne Lektury", "Wolne Lektury", judgedOnSight = true, tag = "wolnelektury", host = "wolnelektury.pl", languages = setOf("pl")),
 

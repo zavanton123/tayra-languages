@@ -262,6 +262,7 @@ private fun SourceNote(source: BookSource) {
             BookSource.GUTENBERG -> tr("Classics from Project Gutenberg, free of copyright in the United States. Each book is judged by its first pages.")
             BookSource.WIKISOURCE -> tr("Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter.")
             BookSource.GDL -> tr("Children's books from the Global Digital Library, graded by level and free to share under open licences.")
+            BookSource.STORYBOOKS -> tr("Short illustrated stories for children from Global Storybooks, a few sentences a page, free to share under CC BY. The easiest reading to start with.")
             BookSource.WOLNE_LEKTURY -> tr("Polish school readings and classics from Wolne Lektury, most in the public domain. Without a search, its books for children and young people.")
             BookSource.AOZORA -> tr("Japanese works out of copyright from Aozora Bunko, without their furigana. Without a search, the most read works for children.")
             BookSource.LITTERATURBANKEN -> tr("Swedish classics from Litteraturbanken, free to share under CC0, most in the spelling of their time. Without a search, the most read.")
