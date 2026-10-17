@@ -2,8 +2,9 @@ package com.tayra.languages.core.data.news
 
 import com.tayra.languages.core.domain.news.NewsArticle
 import com.tayra.languages.core.domain.news.NewsSource
+import com.tayra.languages.core.domain.news.Wiki
 import com.tayra.languages.core.domain.news.WikiPage
-import com.tayra.languages.core.domain.news.WikipediaReader
+import com.tayra.languages.core.domain.news.WikiReader
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.timeout
 import io.ktor.client.request.HttpRequestBuilder
@@ -31,32 +32,35 @@ import kotlinx.serialization.json.intOrNull
 import kotlin.time.Clock
 
 /**
- * Articles of the language's Wikipedia: the most read of yesterday, from Wikimedia's page views,
- * or those its search finds. A page of them is one request, which gives each article's
- * introduction as plain text, so an article is judged and read by its introduction without more;
- * its whole text is a request of its own. Pages that only list the meanings of a word go, and the
- * most read leave out adult topics, which Wikidata tells apart (a search finds what it is asked for).
+ * Articles of the language's wikis (`Wiki`): the most read of yesterday, from Wikimedia's page
+ * views, or for the wikis outside Wikimedia some at random, or those a wiki's search finds. A page
+ * of them is one request, which gives each article's introduction as plain text, so an article is
+ * judged and read by its introduction without more; its whole text is a request of its own. Pages
+ * that only list the meanings of a word go, as do pages with no introduction (a book's contents),
+ * and the most read leave out adult topics, which Wikidata tells apart (a search finds what it is
+ * asked for).
  */
-class WikipediaArticles(
+class WikiArticles(
     private val client: HttpClient,
     private val clock: Clock = Clock.System,
     private val pageViewsUrl: String = "https://wikimedia.org/api/rest_v1/metrics/pageviews/top/",
-    private val wikiHost: (String) -> String = { code -> "https://$code.wikipedia.org" },
-) : WikipediaReader {
+    private val wikiHost: (Wiki, String) -> String = { wiki, code -> host(wiki, code) },
+) : WikiReader {
     private val json = Json { ignoreUnknownKeys = true }
     private val lock = Mutex()
     private val mostRead = HashMap<String, List<String>>()
 
-    override suspend fun mostRead(languageCode: String, page: Int): WikiPage {
-        val code = wikiCode(languageCode)
-        val titles = lock.withLock { mostRead[code] } ?: readMostRead(code).also { lock.withLock { mostRead[code] = it } }
+    override suspend fun mostRead(wiki: Wiki, languageCode: String, page: Int): WikiPage {
+        val site = wikiHost(wiki, languageCode)
+        if (!wiki.countsViews) return WikiPage(described(wiki, site, languageCode, random(site), forEveryone = true), hasMore = true)
+        val titles = lock.withLock { mostRead[site] } ?: readMostRead(site).also { lock.withLock { mostRead[site] = it } }
         val batch = titles.drop((page - 1) * PAGE_SIZE).take(PAGE_SIZE)
-        return WikiPage(described(code, languageCode, batch, forEveryone = true), hasMore = titles.size > page * PAGE_SIZE)
+        return WikiPage(described(wiki, site, languageCode, batch, forEveryone = true), hasMore = titles.size > page * PAGE_SIZE)
     }
 
-    override suspend fun search(languageCode: String, query: String, page: Int): WikiPage {
-        val code = wikiCode(languageCode)
-        val body = api(code) {
+    override suspend fun search(wiki: Wiki, languageCode: String, query: String, page: Int): WikiPage {
+        val site = wikiHost(wiki, languageCode)
+        val body = api(site) {
             parameter("action", "query")
             parameter("list", "search")
             parameter("srsearch", query)
@@ -66,28 +70,37 @@ class WikipediaArticles(
             if (page > 1) parameter("sroffset", (page - 1) * PAGE_SIZE)
         }
         val titles = (body.obj("query")?.get("search") as? JsonArray).orEmpty().mapNotNull { (it as? JsonObject)?.string("title") }
-        return WikiPage(described(code, languageCode, titles, forEveryone = false), hasMore = body["continue"] != null)
+        return WikiPage(described(wiki, site, languageCode, titles, forEveryone = false), hasMore = body["continue"] != null)
     }
 
     override suspend fun wholeText(article: NewsArticle): String {
-        val code = Regex("""https://([a-z-]+)\.wikipedia\.org""").find(article.url)?.groupValues?.get(1) ?: error("Not a Wikipedia article: ${article.url}")
-        val page = api(code) {
+        val site = Regex("""^https://[^/]+""").find(article.url)?.value ?: error("Not a wiki article: ${article.url}")
+        val page = api(site) {
             parameter("action", "query")
             parameter("prop", "extracts")
             parameter("explaintext", "1")
             parameter("exsectionformat", "wiki")
             parameter("redirects", "1")
             parameter("titles", article.title)
-            variant(code)
+            variant(site)
         }.obj("query")?.let { it["pages"] as? JsonArray }?.firstOrNull() as? JsonObject
         val text = page?.string("extract")?.let(::clean).orEmpty()
-        if (text.isBlank()) throw IllegalStateException("Wikipedia has no text for \"${article.title}\"")
+        if (text.isBlank()) throw IllegalStateException("The wiki has no text for \"${article.title}\"")
         return text
     }
 
+    /** Some articles of a wiki whose views are not counted, picked at random each time. */
+    private suspend fun random(site: String): List<String> =
+        (api(site) {
+            parameter("action", "query")
+            parameter("list", "random")
+            parameter("rnnamespace", "0")
+            parameter("rnlimit", PAGE_SIZE)
+        }.obj("query")?.get("random") as? JsonArray).orEmpty().mapNotNull { (it as? JsonObject)?.string("title") }
+
     /** The titles of the wiki's most read articles of the last day with figures, without its main page and the pages of other namespaces. */
-    private suspend fun readMostRead(code: String): List<String> {
-        val site = api(code) {
+    private suspend fun readMostRead(wikiSite: String): List<String> {
+        val site = api(wikiSite) {
             parameter("action", "query")
             parameter("meta", "siteinfo")
             parameter("siprop", "general|namespaces|namespacealiases")
@@ -102,7 +115,9 @@ class WikipediaArticles(
         // A day's figures appear some hours after it ends.
         for (back in 1..3) {
             val day = today.minus(back, DateTimeUnit.DAY)
-            val response = client.get("$pageViewsUrl$code.wikipedia/all-access/${day.year}/${pad(day.month.ordinal + 1)}/${pad(day.day)}") {
+            // Wikimedia names a wiki by its address: "pt.wikivoyage", "simple.wikipedia".
+            val project = wikiSite.removePrefix("https://").removeSuffix(".org")
+            val response = client.get("$pageViewsUrl$project/all-access/${day.year}/${pad(day.month.ordinal + 1)}/${pad(day.day)}") {
                 header(HttpHeaders.UserAgent, FeedNewsReader.USER_AGENT)
                 timeout { requestTimeoutMillis = TIMEOUT; socketTimeoutMillis = TIMEOUT }
             }
@@ -115,9 +130,9 @@ class WikipediaArticles(
     }
 
     /** The articles with [titles], in their order, each with its introduction; lists of a word's meanings left out, and with [forEveryone] adult topics too. */
-    private suspend fun described(code: String, languageCode: String, titles: List<String>, forEveryone: Boolean): List<NewsArticle> {
+    private suspend fun described(wiki: Wiki, site: String, languageCode: String, titles: List<String>, forEveryone: Boolean): List<NewsArticle> {
         if (titles.isEmpty()) return emptyList()
-        val query = api(code) {
+        val query = api(site) {
             parameter("action", "query")
             parameter("prop", "extracts|info|pageprops")
             parameter("exintro", "1")
@@ -126,13 +141,13 @@ class WikipediaArticles(
             parameter("ppprop", "disambiguation|wikibase_item")
             parameter("redirects", "1")
             parameter("titles", titles.joinToString("|"))
-            variant(code)
+            variant(site)
         }.obj("query")
         // The wiki answers under its own spelling of a title, and under the page a redirect leads to.
         val renamed = listOf("normalized", "redirects").flatMap { key -> (query?.get(key) as? JsonArray).orEmpty().mapNotNull { it as? JsonObject } }
             .associate { it.string("from").orEmpty() to it.string("to").orEmpty() }
         val pages = (query?.get("pages") as? JsonArray).orEmpty().mapNotNull { it as? JsonObject }.associateBy { it.string("title").orEmpty() }
-        val source = NewsSource(languageCode, "Wikipedia", wikiHost(code), "${wikiHost(code)}/", textInFeed = true)
+        val source = NewsSource(languageCode, wiki.siteName, site, "$site/", textInFeed = true)
         val adult = if (forEveryone) adultItems(pages.values.mapNotNull { it.obj("pageprops")?.string("wikibase_item") }) else emptySet()
         return titles.map { generateSequence(it) { title -> renamed[title] }.take(4).last() }.distinct().mapNotNull { title ->
             val page = pages[title] ?: return@mapNotNull null
@@ -141,7 +156,7 @@ class WikipediaArticles(
             val intro = page.string("extract")?.let(::clean)?.takeIf { it.isNotBlank() } ?: return@mapNotNull null
             NewsArticle(
                 source = source,
-                url = "${wikiHost(code)}/wiki/${title.replace(' ', '_').encodeURLPathPart()}",
+                url = "$site/wiki/${title.replace(' ', '_').encodeURLPathPart()}",
                 title = title,
                 summary = intro.take(SUMMARY_CHARACTERS),
                 published = null,
@@ -178,8 +193,9 @@ class WikipediaArticles(
         }.map { it.key }.toSet()
     }
 
-    private suspend fun api(code: String, params: HttpRequestBuilder.() -> Unit): JsonObject {
-        val response = client.get("${wikiHost(code)}/w/api.php") {
+    private suspend fun api(site: String, params: HttpRequestBuilder.() -> Unit): JsonObject {
+        // The Klexikons keep their API at the top of the site, as MediaWiki does by default.
+        val response = client.get(if (site.endsWith(".zum.de")) "$site/api.php" else "$site/w/api.php") {
             params()
             parameter("format", "json")
             parameter("formatversion", "2")
@@ -188,18 +204,18 @@ class WikipediaArticles(
             header(HttpHeaders.UserAgent, FeedNewsReader.USER_AGENT)
             timeout { requestTimeoutMillis = TIMEOUT; socketTimeoutMillis = TIMEOUT }
         }
-        val body = json.parseToJsonElement(checked(response).bodyAsText()) as? JsonObject ?: throw IllegalStateException("Wikipedia gave no answer")
+        val body = json.parseToJsonElement(checked(response).bodyAsText()) as? JsonObject ?: throw IllegalStateException("The wiki gave no answer")
         body.obj("error")?.string("info")?.let { throw IllegalStateException(it) }
         return body
     }
 
-    /** Chinese Wikipedia is written in both scripts; asked for one, it gives the simplified. */
-    private fun HttpRequestBuilder.variant(code: String) {
-        if (code == "zh") parameter("variant", "zh-hans")
+    /** The Chinese wikis are written in both scripts; asked for one, they give the simplified. */
+    private fun HttpRequestBuilder.variant(site: String) {
+        if (site.startsWith("https://zh.")) parameter("variant", "zh-hans")
     }
 
     private fun checked(response: HttpResponse): HttpResponse {
-        if (!response.status.isSuccess()) throw IllegalStateException("Wikipedia answered ${response.status.value}")
+        if (!response.status.isSuccess()) throw IllegalStateException("The wiki answered ${response.status.value}")
         return response
     }
 
@@ -231,7 +247,17 @@ class WikipediaArticles(
 
         private fun pad(n: Int) = n.toString().padStart(2, '0')
 
-        /** The wiki of a language, where its address is not its code. */
+        /** The address of [wiki]'s edition in the language with [languageCode]. */
+        internal fun host(wiki: Wiki, languageCode: String): String = when (wiki) {
+            Wiki.WIKIPEDIA -> "https://${wikiCode(languageCode)}.wikipedia.org"
+            Wiki.SIMPLE_WIKIPEDIA -> "https://simple.wikipedia.org"
+            Wiki.KLEXIKON -> "https://klexikon.zum.de"
+            Wiki.MINIKLEXIKON -> "https://miniklexikon.zum.de"
+            Wiki.WIKIVOYAGE -> "https://$languageCode.wikivoyage.org"
+            Wiki.WIKIBOOKS -> "https://$languageCode.wikibooks.org"
+        }
+
+        /** The Wikipedia of a language, where its address is not its code. */
         internal fun wikiCode(languageCode: String): String = when (languageCode) {
             "yue" -> "zh-yue"
             else -> languageCode

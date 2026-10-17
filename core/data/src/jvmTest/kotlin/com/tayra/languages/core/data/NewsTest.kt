@@ -18,7 +18,8 @@ import com.tayra.languages.core.domain.news.NewsLevel
 import com.tayra.languages.core.domain.news.NewsService
 import com.tayra.languages.core.domain.news.NewsSource
 import com.tayra.languages.core.domain.news.WikiPage
-import com.tayra.languages.core.domain.news.WikipediaReader
+import com.tayra.languages.core.domain.news.Wiki
+import com.tayra.languages.core.domain.news.WikiReader
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.TermService
@@ -179,12 +180,12 @@ class NewsTest {
         }
     }
 
-    private val wikipedia = object : WikipediaReader {
-        override suspend fun mostRead(languageCode: String, page: Int) = WikiPage(
-            listOf(NewsArticle(NewsSource(languageCode, "Wikipedia", "https://$languageCode.wikipedia.org", "", textInFeed = true), "https://$languageCode.wikipedia.org/wiki/Gato", "Gato", "O gato é um animal.", null, feedText = "O gato é um animal.")),
+    private val wikipedia = object : WikiReader {
+        override suspend fun mostRead(wiki: Wiki, languageCode: String, page: Int) = WikiPage(
+            listOf(NewsArticle(NewsSource(languageCode, wiki.siteName, "https://$languageCode.${wiki.name.lowercase()}.org", "", textInFeed = true), "https://$languageCode.${wiki.name.lowercase()}.org/wiki/Gato", "Gato", "O gato é um animal.", null, feedText = "O gato é um animal.")),
             hasMore = false,
         )
-        override suspend fun search(languageCode: String, query: String, page: Int) = WikiPage(emptyList(), hasMore = false)
+        override suspend fun search(wiki: Wiki, languageCode: String, query: String, page: Int) = WikiPage(emptyList(), hasMore = false)
         override suspend fun wholeText(article: NewsArticle) = "O gato é um animal.\nHistória\nO gato vive com as pessoas."
     }
 
@@ -220,12 +221,30 @@ class NewsTest {
     @Test
     fun aWikipediaArticleIsReadByItsIntroductionOrWhole() = runTest {
         val portuguese = languages.getById(languages.save(Language(name = "Portuguese")))!!
-        val gato = service.wikipedia(portuguese, "", 1).articles.single()
+        val gato = service.wiki(portuguese, Wiki.WIKIPEDIA, "", 1).articles.single()
         val intro = service.open(gato, portuguese, "Fonte: Wikipédia.")
         val whole = service.openWhole(gato, portuguese, "Gato (artigo completo)", "Fonte: Wikipédia.")
         assertEquals("O gato é um animal.\n\nFonte: Wikipédia.", books.getPages(intro).joinToString("\n") { it.text })
         assertEquals("Gato (artigo completo)", books.getBook(whole)!!.title)
         assertEquals(whole, service.openWhole(gato, portuguese, "Gato (artigo completo)", "Fonte: Wikipédia."))
         assertEquals(setOf(gato.url, NewsService.wholeKey(gato)), service.observeOpened().first().keys)
+        assertEquals(listOf("wikipedia"), books.getBook(whole)!!.tags)
+    }
+
+    @Test
+    fun aLanguageHasTheWikisWithAnEditionInIt() = runTest {
+        val portuguese = languages.getById(languages.save(Language(name = "Portuguese")))!!
+        val german = languages.getById(languages.save(Language(name = "German")))!!
+        val english = languages.getById(languages.save(Language(name = "English")))!!
+        val manx = languages.getById(languages.save(Language(name = "Manx")))!!
+        assertEquals(listOf(Wiki.WIKIPEDIA, Wiki.WIKIVOYAGE, Wiki.WIKIBOOKS), service.wikis(portuguese))
+        assertEquals(listOf(Wiki.WIKIPEDIA, Wiki.KLEXIKON, Wiki.MINIKLEXIKON, Wiki.WIKIVOYAGE, Wiki.WIKIBOOKS), service.wikis(german))
+        assertEquals(listOf(Wiki.WIKIPEDIA, Wiki.SIMPLE_WIKIPEDIA, Wiki.WIKIVOYAGE, Wiki.WIKIBOOKS), service.wikis(english))
+        assertEquals(listOf(Wiki.WIKIPEDIA), service.wikis(manx))
+        assertEquals(emptyList(), service.wiki(manx, Wiki.WIKIVOYAGE, "", 1).articles, "a wiki without an edition in the language has nothing")
+
+        val voyage = service.wiki(portuguese, Wiki.WIKIVOYAGE, "", 1).articles.single()
+        val whole = service.openWhole(voyage, portuguese, "Gato (guia completo)", "Fonte: Wikivoyage.")
+        assertEquals(listOf("wikivoyage"), books.getBook(whole)!!.tags)
     }
 }

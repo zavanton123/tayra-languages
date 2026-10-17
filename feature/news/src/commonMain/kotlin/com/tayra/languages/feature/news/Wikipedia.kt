@@ -52,6 +52,7 @@ import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.news.NewsArticle
 import com.tayra.languages.core.domain.news.NewsBook
 import com.tayra.languages.core.domain.news.NewsService
+import com.tayra.languages.core.domain.news.Wiki
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.components.CoverageCheck
@@ -199,7 +200,7 @@ class WikipediaViewModel(
         val lang = language ?: run { _state.update { it.copy(loading = false) }; return }
         if (number > 1) _state.update { it.copy(loadingMore = true) }
         try {
-            val result = news.wikipedia(lang, _state.value.query, number)
+            val result = news.wiki(lang, Wiki.WIKIPEDIA, _state.value.query, number)
             page = number
             val items = result.articles.map { article -> NewsItem(article, judged(article, lang)) }
             _state.update { s ->

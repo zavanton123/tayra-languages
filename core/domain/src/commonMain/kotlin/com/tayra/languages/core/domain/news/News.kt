@@ -60,15 +60,54 @@ interface NewsFeedReader {
     suspend fun text(article: NewsArticle): String
 }
 
-/** One page of Wikipedia's articles, each with its introduction as its feed text. */
+/**
+ * A wiki to read articles from, all free to share under CC BY-SA 4.0. [languages] are the ISO codes
+ * of the languages it has an edition in, null for Wikipedia, which has one in nearly every
+ * language. Wikimedia [countsViews] of its own wikis, so their articles can be listed by how much
+ * they were read; the others' are picked at random.
+ */
+enum class Wiki(val siteName: String, val shortName: String, val countsViews: Boolean, val languages: Set<String>?) {
+    WIKIPEDIA("Wikipedia", "Wikipedia", countsViews = true, languages = null),
+
+    /** Wikipedia in simple English, for learners and children. */
+    SIMPLE_WIKIPEDIA("Simple English Wikipedia", "Simple English", countsViews = true, languages = setOf("en")),
+
+    /** The German encyclopedia for children of 8 to 13. */
+    KLEXIKON("Klexikon", "Klexikon", countsViews = false, languages = setOf("de")),
+
+    /** The Klexikon in easy German, a short sentence to a line, for children starting to read. */
+    MINIKLEXIKON("MiniKlexikon", "MiniKlexikon", countsViews = false, languages = setOf("de")),
+
+    /** Travel guides, in its open editions. */
+    WIKIVOYAGE(
+        "Wikivoyage", "Wikivoyage", countsViews = true,
+        languages = setOf("bn", "cs", "de", "el", "en", "eo", "es", "fa", "fi", "fr", "he", "hi", "id", "it", "ja", "ml", "nl", "pl", "ps", "pt", "ro", "ru", "sv", "tr", "uk", "vi", "zh"),
+    ),
+
+    /** Textbooks and guides, a chapter to a page, in its open editions. */
+    WIKIBOOKS(
+        "Wikibooks", "Wikibooks", countsViews = true,
+        languages = setOf(
+            "af", "ar", "az", "ba", "be", "bg", "bn", "bs", "ca", "cs", "cv", "cy", "da", "de", "el", "en", "eo", "es", "et", "eu",
+            "fa", "fi", "fr", "fy", "gl", "he", "hi", "hr", "hu", "hy", "ia", "id", "is", "it", "ja", "ka", "kk", "km", "ko", "ku",
+            "la", "li", "lt", "mg", "mk", "ml", "mr", "ms", "ne", "nl", "no", "oc", "pa", "pl", "pt", "ro", "ru", "sa", "si", "sk",
+            "sl", "sq", "sr", "sv", "ta", "te", "tg", "th", "tl", "tr", "tt", "uk", "ur", "vi", "zh",
+        ),
+    ),
+    ;
+
+    fun serves(languageCode: String): Boolean = languages == null || languageCode in languages
+}
+
+/** One page of a wiki's articles, each with its introduction as its feed text. */
 data class WikiPage(val articles: List<NewsArticle>, val hasMore: Boolean)
 
-/** The articles of a language's Wikipedia: the most read, the ones a search finds, and each one's whole text. */
-interface WikipediaReader {
-    /** The articles read most yesterday, a page at a time from 1. */
-    suspend fun mostRead(languageCode: String, page: Int): WikiPage
+/** The articles of a language's wikis: the most read (or, where views are not counted, some at random), the ones a search finds, and each one's whole text. */
+interface WikiReader {
+    /** The articles read most yesterday, or picked at random from a wiki that does not count views; a page at a time from 1. */
+    suspend fun mostRead(wiki: Wiki, languageCode: String, page: Int): WikiPage
 
-    suspend fun search(languageCode: String, query: String, page: Int): WikiPage
+    suspend fun search(wiki: Wiki, languageCode: String, query: String, page: Int): WikiPage
 
     /** The whole article, one paragraph per line, its headings kept. */
     suspend fun wholeText(article: NewsArticle): String
@@ -83,7 +122,7 @@ data class NewsList(val articles: List<NewsArticle>, val failed: List<NewsSource
  */
 class NewsService(
     private val reader: NewsFeedReader,
-    private val wikipedia: WikipediaReader,
+    private val wikis: WikiReader,
     private val readingService: ReadingService,
     private val bookService: BookService,
     private val books: BookRepository,
@@ -122,18 +161,25 @@ class NewsService(
         return bookService.create(draft).also { books.linkNews(article.url, it) }
     }
 
-    /** The language's Wikipedia: the articles found by [query], or the most read when it is blank. */
-    suspend fun wikipedia(language: Language, query: String, page: Int): WikiPage {
-        val code = LanguageCodes.codeFor(language.name) ?: return WikiPage(emptyList(), hasMore = false)
-        return if (query.isBlank()) wikipedia.mostRead(code, page) else wikipedia.search(code, query.trim(), page)
+    /** The wikis with an edition in [language], Wikipedia first. */
+    fun wikis(language: Language): List<Wiki> {
+        val code = LanguageCodes.codeFor(language.name) ?: return emptyList()
+        return Wiki.entries.filter { it.serves(code) }
     }
 
-    /** The text to read for the whole of a Wikipedia article, apart from its introduction, which is [open]ed as the article itself. */
+    /** The articles of [wiki] in [language] found by [query], or the most read when it is blank. */
+    suspend fun wiki(language: Language, wiki: Wiki, query: String, page: Int): WikiPage {
+        val code = LanguageCodes.codeFor(language.name) ?: return WikiPage(emptyList(), hasMore = false)
+        if (!wiki.serves(code)) return WikiPage(emptyList(), hasMore = false)
+        return if (query.isBlank()) wikis.mostRead(wiki, code, page) else wikis.search(wiki, code, query.trim(), page)
+    }
+
+    /** The text to read for the whole of a wiki's article, apart from its introduction, which is [open]ed as the article itself; tagged with the wiki's name. */
     suspend fun openWhole(article: NewsArticle, language: Language, title: String, attribution: String): Long {
         val key = wholeKey(article)
         books.newsBookId(key)?.let { return it }
-        val text = wikipedia.wholeText(article)
-        val draft = BookDraft(languageId = language.id, title = title, text = "$text\n\n$attribution", sourceUri = article.url, tags = listOf("wikipedia"))
+        val text = wikis.wholeText(article)
+        val draft = BookDraft(languageId = language.id, title = title, text = "$text\n\n$attribution", sourceUri = article.url, tags = listOf(article.source.name.lowercase().replace(' ', '-')))
         return bookService.create(draft).also { books.linkNews(key, it) }
     }
 
@@ -152,7 +198,7 @@ class NewsService(
     companion object {
         private const val KEPT_TEXTS = 60
 
-        /** The key a whole Wikipedia article is kept under among the news read, apart from its introduction's. */
+        /** The key a whole wiki article is kept under among the news read, apart from its introduction's. */
         fun wholeKey(article: NewsArticle): String = "${article.url}#whole"
     }
 }
