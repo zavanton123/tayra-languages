@@ -68,6 +68,12 @@ CREATE TABLE course_lessons (
     book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE
 );
 
+-- The texts made from news articles, by the article's address. They are read like books but listed under News.
+CREATE TABLE news_articles (
+    url TEXT NOT NULL PRIMARY KEY,
+    book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE
+);
+
 selectById:
 SELECT * FROM books WHERE id = :id;
 
@@ -100,6 +106,7 @@ INNER JOIN languages l ON l.id = b.language_id
 LEFT OUTER JOIN book_stats s ON s.book_id = b.id
 WHERE b.archived = :archived
   AND b.id NOT IN (SELECT book_id FROM course_lessons)
+  AND b.id NOT IN (SELECT book_id FROM news_articles)
 ORDER BY last_opened DESC, b.title;
 
 -- Course lessons
@@ -120,6 +127,26 @@ SELECT b.id FROM course_lessons cl INNER JOIN books b ON b.id = cl.book_id WHERE
 
 linkLesson:
 INSERT OR REPLACE INTO course_lessons(lesson_id, book_id) VALUES (:lessonId, :bookId);
+
+-- News articles
+
+listNewsBooks:
+SELECT
+    na.url,
+    b.id AS book_id,
+    (SELECT max(start_date) FROM pages p WHERE p.book_id = b.id) AS last_opened,
+    (SELECT read_date FROM pages p WHERE p.book_id = b.id ORDER BY page_order DESC LIMIT 1) AS last_page_read_date
+FROM news_articles na
+INNER JOIN books b ON b.id = na.book_id;
+
+newsBookId:
+SELECT b.id FROM news_articles na INNER JOIN books b ON b.id = na.book_id WHERE na.url = :url;
+
+newsUrl:
+SELECT url FROM news_articles WHERE book_id = :bookId;
+
+linkNews:
+INSERT OR REPLACE INTO news_articles(url, book_id) VALUES (:url, :bookId);
 
 insert:
 INSERT INTO books(language_id, title, source_uri, current_page_id, archived, audio_filename, audio_current_pos, audio_bookmarks)

@@ -1,0 +1,2500 @@
+[
+  {
+    "language": "af",
+    "sources": [
+      {
+        "name": "Voertaal",
+        "feedUrl": "https://www.voertaal.nu/feed/",
+        "homepage": "https://www.voertaal.nu/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 770,
+        "notes": "Afrikaans news, opinion and reviews; full text in content:encoded"
+      },
+      {
+        "name": "LitNet",
+        "feedUrl": "https://www.litnet.co.za/feed/",
+        "homepage": "https://www.litnet.co.za/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 810,
+        "notes": "Afrikaans literary/cultural news and press releases; full text in feed"
+      },
+      {
+        "name": "Kerkbode",
+        "feedUrl": "https://kerkbode.christians.co.za/feed/",
+        "homepage": "https://kerkbode.christians.co.za/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 520,
+        "notes": "Church and community news (NG Kerk); full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "sq",
+    "sources": [
+      {
+        "name": "Radio Evropa e Lirë (RFE/RL)",
+        "feedUrl": "https://www.evropaelire.org/api/",
+        "homepage": "https://www.evropaelire.org/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 1500,
+        "notes": "RFE/RL Albanian service (Kosovo/Albania); text in .wsw <p> blocks"
+      },
+      {
+        "name": "DW Shqip",
+        "feedUrl": "https://rss.dw.com/rdf/rss-alb-all",
+        "homepage": "https://www.dw.com/sq/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 620,
+        "notes": "Deutsche Welle Albanian"
+      },
+      {
+        "name": "Euronews Albania",
+        "feedUrl": "https://euronews.al/feed/",
+        "homepage": "https://euronews.al/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 450,
+        "notes": "Full text in content:encoded"
+      },
+      {
+        "name": "Telegrafi",
+        "feedUrl": "https://telegrafi.com/feed",
+        "homepage": "https://telegrafi.com/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 740,
+        "notes": "Kosovo portal; full text in feed; includes lifestyle/horoscope items"
+      }
+    ]
+  },
+  {
+    "language": "am",
+    "sources": [
+      {
+        "name": "BBC News አማርኛ",
+        "feedUrl": "https://feeds.bbci.co.uk/amharic/rss.xml",
+        "homepage": "https://www.bbc.com/amharic",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 790,
+        "notes": "BBC World Service; text in <p> blocks inside <main>"
+      },
+      {
+        "name": "Fana Media Corporation",
+        "feedUrl": "https://www.fanamc.com/feed",
+        "homepage": "https://www.fanamc.com/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-15",
+        "articleWords": 120,
+        "notes": "Ethiopian broadcaster (state-aligned); short news items"
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "sources": [
+      {
+        "name": "BBC News عربي",
+        "feedUrl": "https://feeds.bbci.co.uk/arabic/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 890,
+        "notes": "Some items are video pages with little text"
+      },
+      {
+        "name": "DW عربية",
+        "feedUrl": "https://rss.dw.com/rdf/rss-ar-all",
+        "homepage": "https://www.dw.com/ar/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 440,
+        "notes": "Deutsche Welle Arabic"
+      },
+      {
+        "name": "الجزيرة نت",
+        "feedUrl": "https://www.aljazeera.net/aljazeerarss/a7c186be-1baa-4bd4-9d80-a84db769f779/73d0e1b4-532f-45ef-b135-bfdff8b8cab9",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 590,
+        "notes": "Text in div.wysiwyg <p> blocks"
+      },
+      {
+        "name": "يورونيوز عربي",
+        "feedUrl": "https://arabic.euronews.com/rss",
+        "homepage": "https://arabic.euronews.com/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 1300,
+        "notes": ""
+      },
+      {
+        "name": "أخبار الأمم المتحدة (UN News)",
+        "feedUrl": "https://news.un.org/feed/subscribe/ar/news/all/rss.xml",
+        "homepage": "https://news.un.org/ar/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 720,
+        "notes": "Feed links (/feed/view/ar/story/...) return HTTP 406; drop '/feed/view' from the path to get the article"
+      }
+    ]
+  },
+  {
+    "language": "hy",
+    "sources": [
+      {
+        "name": "Azatutyun (RFE/RL)",
+        "feedUrl": "https://www.azatutyun.am/api/",
+        "homepage": "https://www.azatutyun.am/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 110,
+        "notes": "RFE/RL Armenian service; some items are short video stories"
+      },
+      {
+        "name": "Hetq",
+        "feedUrl": "https://hetq.am/hy/rss",
+        "homepage": "https://hetq.am/hy",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 150,
+        "notes": "Investigative outlet"
+      },
+      {
+        "name": "Aravot",
+        "feedUrl": "https://www.aravot.am/feed/",
+        "homepage": "https://www.aravot.am/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 210,
+        "notes": "Daily newspaper"
+      },
+      {
+        "name": "168.am",
+        "feedUrl": "https://www.168.am/feed/",
+        "homepage": "https://www.168.am/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 240,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "az",
+    "sources": [
+      {
+        "name": "BBC News Azərbaycanca",
+        "feedUrl": "https://feeds.bbci.co.uk/azeri/rss.xml",
+        "homepage": "https://www.bbc.com/azeri",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 980,
+        "notes": ""
+      },
+      {
+        "name": "Meydan TV",
+        "feedUrl": "https://www.meydan.tv/az/feed/",
+        "homepage": "https://www.meydan.tv/az/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 340,
+        "notes": "Independent outlet; full text in feed"
+      },
+      {
+        "name": "APA",
+        "feedUrl": "https://apa.az/rss",
+        "homepage": "https://apa.az/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 120,
+        "notes": "News agency; short items"
+      }
+    ]
+  },
+  {
+    "language": "eu",
+    "sources": [
+      {
+        "name": "Berria",
+        "feedUrl": "https://www.berria.eus/uploads/feeds/feed_berria_eu.xml",
+        "homepage": "https://www.berria.eus/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 870,
+        "notes": "Basque-language daily; full text in feed"
+      },
+      {
+        "name": "Zuzeu",
+        "feedUrl": "https://zuzeu.eus/feed/",
+        "homepage": "https://zuzeu.eus/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 490,
+        "notes": "Basque news/opinion portal"
+      }
+    ]
+  },
+  {
+    "language": "be",
+    "sources": [
+      {
+        "name": "Радыё Свабода (RFE/RL)",
+        "feedUrl": "https://www.svaboda.org/api/",
+        "homepage": "https://www.svaboda.org/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 320,
+        "notes": "RFE/RL Belarusian service"
+      },
+      {
+        "name": "Новы Час",
+        "feedUrl": "https://novychas.online/rss",
+        "homepage": "https://novychas.online/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 980,
+        "notes": "Belarusian-language weekly"
+      },
+      {
+        "name": "Радыё Рацыя",
+        "feedUrl": "https://racyja.com/by/feed/",
+        "homepage": "https://racyja.com/by/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 420,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "Hrodna.life",
+        "feedUrl": "https://hrodna.life/feed/",
+        "homepage": "https://hrodna.life/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 660,
+        "notes": "Regional (Hrodna) news in Belarusian; full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "bn",
+    "sources": [
+      {
+        "name": "BBC News বাংলা",
+        "feedUrl": "https://feeds.bbci.co.uk/bengali/rss.xml",
+        "homepage": "https://www.bbc.com/bengali",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 1630,
+        "notes": ""
+      },
+      {
+        "name": "প্রথম আলো",
+        "feedUrl": "https://www.prothomalo.com/feed",
+        "homepage": "https://www.prothomalo.com/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 320,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "DW বাংলা",
+        "feedUrl": "https://rss.dw.com/rdf/rss-ben-all",
+        "homepage": "https://www.dw.com/bn/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 710,
+        "notes": "Low volume (a few items per month)"
+      }
+    ]
+  },
+  {
+    "language": "bs",
+    "sources": [
+      {
+        "name": "Radio Slobodna Evropa (RFE/RL)",
+        "feedUrl": "https://www.slobodnaevropa.org/api/",
+        "homepage": "https://www.slobodnaevropa.org/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 1440,
+        "notes": "RFE/RL Balkan service (Bosnian/Croatian/Serbian/Montenegrin mix)"
+      },
+      {
+        "name": "DW Bosanski",
+        "feedUrl": "https://rss.dw.com/rdf/rss-bos-all",
+        "homepage": "https://www.dw.com/bs/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 790,
+        "notes": ""
+      },
+      {
+        "name": "Al Jazeera Balkans",
+        "feedUrl": "https://balkans.aljazeera.net/rss.xml",
+        "homepage": "https://balkans.aljazeera.net/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 860,
+        "notes": ""
+      },
+      {
+        "name": "Klix.ba",
+        "feedUrl": "https://www.klix.ba/rss",
+        "homepage": "https://www.klix.ba/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 290,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "br",
+    "sources": []
+  },
+  {
+    "language": "bg",
+    "sources": [
+      {
+        "name": "БТА (Bulgarian News Agency)",
+        "feedUrl": "https://www.bta.bg/bg/rss/free",
+        "homepage": "https://www.bta.bg/bg",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 140,
+        "notes": "National news agency; short items"
+      },
+      {
+        "name": "Mediapool",
+        "feedUrl": "https://www.mediapool.bg/feed/",
+        "homepage": "https://www.mediapool.bg/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 460,
+        "notes": ""
+      },
+      {
+        "name": "Euronews Bulgaria",
+        "feedUrl": "https://euronews.bg/feed/",
+        "homepage": "https://euronews.bg/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 160,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "ca",
+    "sources": [
+      {
+        "name": "VilaWeb",
+        "feedUrl": "https://www.vilaweb.cat/feed",
+        "homepage": "https://www.vilaweb.cat/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 890,
+        "notes": "Full text in content:encoded"
+      },
+      {
+        "name": "3Cat 324 (CCMA)",
+        "feedUrl": "https://api.3cat.cat/noticies?_format=rss&origen=frontal&frontal=n324-portada-noticia&version=2.0",
+        "homepage": "https://www.3cat.cat/324/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 320,
+        "notes": "Public broadcaster"
+      },
+      {
+        "name": "Nació Digital",
+        "feedUrl": "https://naciodigital.cat/rss/",
+        "homepage": "https://naciodigital.cat/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 140,
+        "notes": "Feed URL is the https address its old one redirected to over plain http."
+      }
+    ]
+  },
+  {
+    "language": "ceb",
+    "sources": [
+      {
+        "name": "SunStar Superbalita Cebu",
+        "feedUrl": "https://www.sunstar.com.ph/api/v1/collections/balita-superbalita-cebu.rss",
+        "homepage": "https://www.sunstar.com.ph/superbalita-cebu",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 180,
+        "notes": "Only verified Cebuano-language news feed; full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "zh",
+    "sources": [
+      {
+        "name": "BBC News 中文",
+        "feedUrl": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+        "homepage": "https://www.bbc.com/zhongwen/simp",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 780,
+        "notes": "Feed titles come in traditional characters; replace '/trad' with '/simp' in item links for simplified article pages"
+      },
+      {
+        "name": "DW 中文",
+        "feedUrl": "https://rss.dw.com/rdf/rss-chi-all",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 1110,
+        "notes": "Deutsche Welle Chinese (simplified)"
+      },
+      {
+        "name": "RFI 中文",
+        "feedUrl": "https://www.rfi.fr/cn/rss",
+        "homepage": "https://www.rfi.fr/cn/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 270,
+        "notes": ""
+      },
+      {
+        "name": "自由亚洲电台 (RFA 普通话)",
+        "feedUrl": "https://www.rfa.org/mandarin/RSS",
+        "homepage": "https://www.rfa.org/mandarin/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 540,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "联合国新闻 (UN News)",
+        "feedUrl": "https://news.un.org/feed/subscribe/zh/news/all/rss.xml",
+        "homepage": "https://news.un.org/zh/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 320,
+        "notes": "Feed links (/feed/view/zh/story/...) return HTTP 406; drop '/feed/view' from the path"
+      }
+    ]
+  },
+  {
+    "language": "yue",
+    "sources": [
+      {
+        "name": "香港電台 RTHK 本地新聞",
+        "feedUrl": "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_clocal.xml",
+        "homepage": "https://news.rthk.hk/rthk/ch/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 190,
+        "notes": "Hong Kong news in standard written Chinese (traditional), not colloquial written Cantonese; full text in feed Feed URL is the https address its old one redirected to over plain http."
+      },
+      {
+        "name": "BBC News 中文 (繁體)",
+        "feedUrl": "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml",
+        "homepage": "https://www.bbc.com/zhongwen/trad",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 780,
+        "notes": "Standard written Chinese, traditional characters; not colloquial Cantonese"
+      }
+    ]
+  },
+  {
+    "language": "hr",
+    "sources": [
+      {
+        "name": "N1 Hrvatska",
+        "feedUrl": "https://n1info.hr/feed/",
+        "homepage": "https://n1info.hr/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 360,
+        "notes": ""
+      },
+      {
+        "name": "DW Hrvatski",
+        "feedUrl": "https://rss.dw.com/rdf/rss-cro-all",
+        "homepage": "https://www.dw.com/hr/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 980,
+        "notes": ""
+      },
+      {
+        "name": "Večernji list",
+        "feedUrl": "https://www.vecernji.hr/feeds/latest",
+        "homepage": "https://www.vecernji.hr/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 290,
+        "notes": ""
+      },
+      {
+        "name": "Index.hr",
+        "feedUrl": "https://www.index.hr/rss",
+        "homepage": "https://www.index.hr/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 460,
+        "notes": "High volume"
+      }
+    ]
+  },
+  {
+    "language": "cs",
+    "sources": [
+      {
+        "name": "ČT24",
+        "feedUrl": "https://ct24.ceskatelevize.cz/rss",
+        "homepage": "https://ct24.ceskatelevize.cz/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 300,
+        "notes": "Czech Television news"
+      },
+      {
+        "name": "Novinky.cz",
+        "feedUrl": "https://www.novinky.cz/rss",
+        "homepage": "https://www.novinky.cz/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 260,
+        "notes": ""
+      },
+      {
+        "name": "Radio Prague International (česky)",
+        "feedUrl": "https://cesky.radio.cz/rcz-rss/cz",
+        "homepage": "https://cesky.radio.cz/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 440,
+        "notes": "Czech-language service of Czech Radio's international broadcaster"
+      }
+    ]
+  },
+  {
+    "language": "da",
+    "sources": [
+      {
+        "name": "DR Nyheder",
+        "feedUrl": "https://www.dr.dk/nyheder/service/feeds/allenyheder",
+        "homepage": "https://www.dr.dk/nyheder",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 140,
+        "notes": "Public broadcaster; many items are short"
+      },
+      {
+        "name": "TV 2 Nyheder",
+        "feedUrl": "https://feeds.services.tv2.dk/api/feeds/nyheder/rss",
+        "homepage": "https://nyheder.tv2.dk/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 590,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "Altinget",
+        "feedUrl": "https://www.altinget.dk/rss",
+        "homepage": "https://www.altinget.dk/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 230,
+        "notes": "Politics; some content behind subscription"
+      }
+    ]
+  },
+  {
+    "language": "nl",
+    "sources": [
+      {
+        "name": "NOS Jeugdjournaal",
+        "feedUrl": "https://feeds.nos.nl/jeugdjournaal",
+        "homepage": "https://nos.nl/jeugdjournaal",
+        "level": "easy",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 140,
+        "notes": "Children's news in simple Dutch; short articles"
+      },
+      {
+        "name": "NOS Nieuws",
+        "feedUrl": "https://feeds.nos.nl/nosnieuwsalgemeen",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 380,
+        "notes": "Full text in feed description"
+      },
+      {
+        "name": "VRT NWS",
+        "feedUrl": "https://www.vrt.be/vrtnws/nl.rss.articles.xml",
+        "homepage": "https://www.vrt.be/vrtnws/nl/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 410,
+        "notes": "Flemish public broadcaster"
+      }
+    ]
+  },
+  {
+    "language": "en",
+    "sources": [
+      {
+        "name": "News in Levels",
+        "feedUrl": "https://www.newsinlevels.com/feed/",
+        "homepage": "",
+        "level": "easy",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 200,
+        "notes": "Graded news (levels 1-3); text in feed"
+      },
+      {
+        "name": "Breaking News English",
+        "feedUrl": "https://breakingnewsenglish.com/rss.xml",
+        "homepage": "",
+        "level": "easy",
+        "extraction": "article",
+        "newestItem": "2026-10-15",
+        "articleWords": 220,
+        "notes": "Graded lesson-style news"
+      },
+      {
+        "name": "BBC News – World",
+        "feedUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 1270,
+        "notes": ""
+      },
+      {
+        "name": "NPR News",
+        "feedUrl": "https://feeds.npr.org/1001/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 1000,
+        "notes": "Some items are audio pages"
+      },
+      {
+        "name": "The Guardian World",
+        "feedUrl": "https://www.theguardian.com/world/rss",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 560,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "eo",
+    "sources": [
+      {
+        "name": "UEA Facila",
+        "feedUrl": "https://uea.facila.org/rss/1-artikola-fluo.xml/",
+        "homepage": "https://uea.facila.org/",
+        "level": "easy",
+        "extraction": "feed",
+        "newestItem": "2026-10-14",
+        "articleWords": 200,
+        "notes": "Easy Esperanto articles (news, culture, videos) from UEA; mostly full text in feed"
+      },
+      {
+        "name": "Libera Folio",
+        "feedUrl": "https://www.liberafolio.org/feed/",
+        "homepage": "https://www.liberafolio.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-13",
+        "articleWords": 650,
+        "notes": "Esperanto-movement news; full text in feed"
+      },
+      {
+        "name": "Pola Retradio",
+        "feedUrl": "https://pola-retradio.org/rss/",
+        "homepage": "https://pola-retradio.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-15",
+        "articleWords": 250,
+        "notes": "Radio-show transcripts; full text in feed"
+      },
+      {
+        "name": "Le Monde diplomatique en Esperanto",
+        "feedUrl": "https://eo.mondediplo.com/spip.php?page=backend",
+        "homepage": "https://eo.mondediplo.com/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-06",
+        "articleWords": 2900,
+        "notes": "Long translated articles; a few per month"
+      }
+    ]
+  },
+  {
+    "language": "et",
+    "sources": [
+      {
+        "name": "ERR",
+        "feedUrl": "https://www.err.ee/rss",
+        "homepage": "https://www.err.ee/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 220,
+        "notes": "Public broadcaster"
+      },
+      {
+        "name": "ERR Novaator",
+        "feedUrl": "https://novaator.err.ee/rss",
+        "homepage": "https://novaator.err.ee/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 420,
+        "notes": "ERR science news"
+      }
+    ]
+  },
+  {
+    "language": "fo",
+    "sources": [
+      {
+        "name": "Kringvarp Føroya",
+        "feedUrl": "https://kvf.fo/rss",
+        "homepage": "https://kvf.fo/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 800,
+        "notes": "Public broadcaster; full text in feed. Only Faroese feed found"
+      }
+    ]
+  },
+  {
+    "language": "fa",
+    "sources": [
+      {
+        "name": "BBC News فارسی",
+        "feedUrl": "https://feeds.bbci.co.uk/persian/rss.xml",
+        "homepage": "https://www.bbc.com/persian",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 600,
+        "notes": ""
+      },
+      {
+        "name": "DW فارسی",
+        "feedUrl": "https://rss.dw.com/rdf/rss-per-all",
+        "homepage": "https://www.dw.com/fa-ir/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 1420,
+        "notes": ""
+      },
+      {
+        "name": "یورونیوز فارسی",
+        "feedUrl": "https://parsi.euronews.com/rss",
+        "homepage": "https://parsi.euronews.com/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 930,
+        "notes": ""
+      },
+      {
+        "name": "RFI فارسی",
+        "feedUrl": "https://www.rfi.fr/fa/rss",
+        "homepage": "https://www.rfi.fr/fa/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 370,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "fi",
+    "sources": [
+      {
+        "name": "Yle Uutiset selkosuomeksi",
+        "feedUrl": "https://yle.fi/rss/selkouutiset",
+        "homepage": "https://yle.fi/selkouutiset",
+        "level": "easy",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 210,
+        "notes": "Yle news in plain Finnish (selkouutiset)"
+      },
+      {
+        "name": "Selkosanomat",
+        "feedUrl": "https://selkosanomat.fi/feed/",
+        "homepage": "https://selkosanomat.fi/",
+        "level": "easy",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 140,
+        "notes": "Plain-language Finnish newspaper"
+      },
+      {
+        "name": "Yle Uutiset – pääuutiset",
+        "feedUrl": "https://yle.fi/rss/uutiset/paauutiset",
+        "homepage": "https://yle.fi/uutiset",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 260,
+        "notes": ""
+      },
+      {
+        "name": "Iltalehti",
+        "feedUrl": "https://www.iltalehti.fi/rss.xml",
+        "homepage": "https://www.iltalehti.fi/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 120,
+        "notes": "Tabloid; some items short"
+      }
+    ]
+  },
+  {
+    "language": "fr",
+    "sources": [
+      {
+        "name": "RFI Journal en français facile",
+        "feedUrl": "https://francaisfacile.rfi.fr/fr/podcasts/journal-en-fran%C3%A7ais-facile/podcast",
+        "homepage": "https://francaisfacile.rfi.fr/fr/podcasts/journal-en-fran%C3%A7ais-facile/",
+        "level": "easy",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 1620,
+        "notes": "Daily RFI bulletin in easy French; page has full transcript"
+      },
+      {
+        "name": "RFI Actualités",
+        "feedUrl": "https://www.rfi.fr/fr/rss",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 560,
+        "notes": ""
+      },
+      {
+        "name": "franceinfo",
+        "feedUrl": "https://www.francetvinfo.fr/titres.rss",
+        "homepage": "https://www.francetvinfo.fr/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 420,
+        "notes": ""
+      },
+      {
+        "name": "TV5Monde Info",
+        "feedUrl": "https://information.tv5monde.com/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 540,
+        "notes": "Full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "gl",
+    "sources": [
+      {
+        "name": "Praza",
+        "feedUrl": "https://praza.gal/rss/novas",
+        "homepage": "https://praza.gal/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 760,
+        "notes": ""
+      },
+      {
+        "name": "Nós Diario",
+        "feedUrl": "https://www.nosdiario.gal/rss/",
+        "homepage": "https://www.nosdiario.gal/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 510,
+        "notes": ""
+      },
+      {
+        "name": "Galicia Confidencial",
+        "feedUrl": "https://www.galiciaconfidencial.com/feed/all",
+        "homepage": "https://www.galiciaconfidencial.com/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 420,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "ka",
+    "sources": [
+      {
+        "name": "რადიო თავისუფლება (RFE/RL)",
+        "feedUrl": "https://www.radiotavisupleba.ge/api/",
+        "homepage": "https://www.radiotavisupleba.ge/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 210,
+        "notes": ""
+      },
+      {
+        "name": "Netgazeti",
+        "feedUrl": "https://netgazeti.ge/feed/",
+        "homepage": "https://netgazeti.ge/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 250,
+        "notes": ""
+      },
+      {
+        "name": "Civil.ge (ქართული)",
+        "feedUrl": "https://civil.ge/ka/feed",
+        "homepage": "https://civil.ge/ka/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 230,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "Publika",
+        "feedUrl": "https://publika.ge/feed",
+        "homepage": "https://publika.ge/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 270,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "de",
+    "sources": [
+      {
+        "name": "MDR Nachrichten in Leichter Sprache",
+        "feedUrl": "https://www.mdr.de/nachrichten-leicht/neueste-nachrichten/index~atom.xml",
+        "homepage": "https://www.mdr.de/nachrichten-leicht/",
+        "level": "easy",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 260,
+        "notes": "Leichte Sprache news from MDR (central Germany + national); Atom feed"
+      },
+      {
+        "name": "Tagesschau",
+        "feedUrl": "https://www.tagesschau.de/index~rss2.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 470,
+        "notes": ""
+      },
+      {
+        "name": "DW Nachrichten",
+        "feedUrl": "https://rss.dw.com/rdf/rss-de-top",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 560,
+        "notes": ""
+      },
+      {
+        "name": "DER SPIEGEL – Schlagzeilen",
+        "feedUrl": "https://www.spiegel.de/schlagzeilen/index.rss",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 260,
+        "notes": "SPIEGEL+ items are subscriber-only (teaser only)"
+      }
+    ]
+  },
+  {
+    "language": "el",
+    "sources": [
+      {
+        "name": "ERT News",
+        "feedUrl": "https://www.ertnews.gr/feed/",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 160,
+        "notes": "Public broadcaster; full text in feed"
+      },
+      {
+        "name": "DW Ελληνικά",
+        "feedUrl": "https://rss.dw.com/rdf/rss-gre-all",
+        "homepage": "https://www.dw.com/el/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 400,
+        "notes": ""
+      },
+      {
+        "name": "Kathimerini",
+        "feedUrl": "https://www.kathimerini.gr/infeeds/rss/nx-rss-feed.xml",
+        "homepage": "https://www.kathimerini.gr/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 410,
+        "notes": ""
+      },
+      {
+        "name": "in.gr",
+        "feedUrl": "https://www.in.gr/feed/",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 480,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "he",
+    "sources": [
+      {
+        "name": "Ynet",
+        "feedUrl": "https://www.ynet.co.il/Integration/StoryRss2.xml",
+        "homepage": "https://www.ynet.co.il/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 610,
+        "notes": "Only Hebrew source that passed; most others block non-browser clients"
+      }
+    ]
+  },
+  {
+    "language": "hi",
+    "sources": [
+      {
+        "name": "BBC News हिंदी",
+        "feedUrl": "https://feeds.bbci.co.uk/hindi/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 1300,
+        "notes": ""
+      },
+      {
+        "name": "Amar Ujala",
+        "feedUrl": "https://www.amarujala.com/rss/breaking-news.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 430,
+        "notes": ""
+      },
+      {
+        "name": "Navbharat Times",
+        "feedUrl": "https://navbharattimes.indiatimes.com/langapi/sitemap/gstandrssfeed.xml",
+        "homepage": "https://navbharattimes.indiatimes.com/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 390,
+        "notes": ""
+      },
+      {
+        "name": "Dainik Bhaskar",
+        "feedUrl": "https://www.bhaskar.com/rss-v1--category-1061.xml",
+        "homepage": "https://www.bhaskar.com/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 370,
+        "notes": "National section; full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "hu",
+    "sources": [
+      {
+        "name": "Telex",
+        "feedUrl": "https://telex.hu/rss",
+        "homepage": "https://telex.hu/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 420,
+        "notes": ""
+      },
+      {
+        "name": "HVG",
+        "feedUrl": "https://hvg.hu/rss",
+        "homepage": "https://hvg.hu/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 200,
+        "notes": ""
+      },
+      {
+        "name": "Index",
+        "feedUrl": "https://index.hu/24ora/rss/",
+        "homepage": "https://index.hu/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 370,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "is",
+    "sources": [
+      {
+        "name": "RÚV",
+        "feedUrl": "https://www.ruv.is/rss/frettir",
+        "homepage": "https://www.ruv.is/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 86,
+        "notes": "Public broadcaster; article pages are client-rendered, but the feed description carries the full (short) article text"
+      }
+    ]
+  },
+  {
+    "language": "id",
+    "sources": [
+      {
+        "name": "BBC News Indonesia",
+        "feedUrl": "https://feeds.bbci.co.uk/indonesia/rss.xml",
+        "homepage": "https://www.bbc.com/indonesia",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 1180,
+        "notes": ""
+      },
+      {
+        "name": "DW Indonesia",
+        "feedUrl": "https://rss.dw.com/rdf/rss-ind-all",
+        "homepage": "https://www.dw.com/id/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 1000,
+        "notes": ""
+      },
+      {
+        "name": "Antara",
+        "feedUrl": "https://www.antaranews.com/rss/terkini.xml",
+        "homepage": "https://www.antaranews.com/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 300,
+        "notes": "National news agency"
+      }
+    ]
+  },
+  {
+    "language": "it",
+    "sources": [
+      {
+        "name": "ANSA Ultima Ora",
+        "feedUrl": "https://www.ansa.it/sito/ansait_rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 410,
+        "notes": ""
+      },
+      {
+        "name": "RAI News",
+        "feedUrl": "https://www.rainews.it/rss/tutti",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 170,
+        "notes": ""
+      },
+      {
+        "name": "Il Post",
+        "feedUrl": "https://www.ilpost.it/feed",
+        "homepage": "https://www.ilpost.it/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 240,
+        "notes": ""
+      },
+      {
+        "name": "Internazionale",
+        "feedUrl": "https://www.internazionale.it/sitemaps/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 290,
+        "notes": "Some items are short; a few subscriber-only"
+      }
+    ]
+  },
+  {
+    "language": "ja",
+    "sources": [
+      {
+        "name": "BBC News Japan",
+        "feedUrl": "https://feeds.bbci.co.uk/japanese/rss.xml",
+        "homepage": "https://www.bbc.com/japanese",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 720,
+        "notes": ""
+      },
+      {
+        "name": "毎日新聞",
+        "feedUrl": "https://mainichi.jp/rss/etc/mainichi-flash.rss",
+        "homepage": "https://mainichi.jp/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 240,
+        "notes": "Some articles are members-only (有料記事); only the free lead is in the HTML"
+      },
+      {
+        "name": "朝日新聞",
+        "feedUrl": "https://www.asahi.com/rss/asahi/newsheadlines.rdf",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 270,
+        "notes": "Many articles are members-only (有料記事); only the free lead is in the HTML"
+      }
+    ]
+  },
+  {
+    "language": "kk",
+    "sources": [
+      {
+        "name": "Азаттық (RFE/RL) — Қазақстан",
+        "feedUrl": "https://www.azattyq.org/api/z--qyl-vomx-tpervpt",
+        "homepage": "https://www.azattyq.org/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 390,
+        "notes": "Kazakhstan section feed; the site-wide /api/ feed is mostly video bulletins"
+      },
+      {
+        "name": "Egemen Qazaqstan",
+        "feedUrl": "https://egemen.kz/rss",
+        "homepage": "https://egemen.kz/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 350,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "km",
+    "sources": [
+      {
+        "name": "RFI ខេមរភាសា",
+        "feedUrl": "https://www.rfi.fr/km/rss",
+        "homepage": "https://www.rfi.fr/km/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 600,
+        "notes": ""
+      },
+      {
+        "name": "RFA ខ្មែរ",
+        "feedUrl": "https://www.rfa.org/khmer/RSS",
+        "homepage": "https://www.rfa.org/khmer/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-11",
+        "articleWords": 280,
+        "notes": "Full text in feed; lower volume"
+      },
+      {
+        "name": "DAP News",
+        "feedUrl": "https://dap-news.com/feed",
+        "homepage": "https://dap-news.com/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 220,
+        "notes": "Full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "ko",
+    "sources": [
+      {
+        "name": "BBC News 코리아",
+        "feedUrl": "https://feeds.bbci.co.uk/korean/rss.xml",
+        "homepage": "https://www.bbc.com/korean",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 730,
+        "notes": ""
+      },
+      {
+        "name": "연합뉴스",
+        "feedUrl": "https://www.yna.co.kr/rss/news.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 230,
+        "notes": ""
+      },
+      {
+        "name": "SBS 뉴스 (정치)",
+        "feedUrl": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01",
+        "homepage": "https://news.sbs.co.kr/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 210,
+        "notes": "Politics section; full text in feed"
+      },
+      {
+        "name": "RFA 자유아시아방송",
+        "feedUrl": "https://www.rfa.org/korean/RSS",
+        "homepage": "https://www.rfa.org/korean/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 660,
+        "notes": "Mostly North Korea coverage; full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "la",
+    "sources": []
+  },
+  {
+    "language": "lv",
+    "sources": [
+      {
+        "name": "Delfi.lv",
+        "feedUrl": "https://www.delfi.lv/rss.xml",
+        "homepage": "https://www.delfi.lv/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 180,
+        "notes": ""
+      },
+      {
+        "name": "Jauns.lv",
+        "feedUrl": "https://jauns.lv/rss",
+        "homepage": "https://jauns.lv/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 980,
+        "notes": ""
+      },
+      {
+        "name": "Diena",
+        "feedUrl": "https://www.diena.lv/rss/",
+        "homepage": "https://www.diena.lv/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 370,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "lt",
+    "sources": [
+      {
+        "name": "LRT",
+        "feedUrl": "https://www.lrt.lt/?rss",
+        "homepage": "https://www.lrt.lt/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 160,
+        "notes": "Public broadcaster"
+      },
+      {
+        "name": "15min",
+        "feedUrl": "https://www.15min.lt/rss",
+        "homepage": "https://www.15min.lt/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 380,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "mk",
+    "sources": [
+      {
+        "name": "Meta.mk",
+        "feedUrl": "https://meta.mk/feed/",
+        "homepage": "https://meta.mk/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 520,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "Nova Makedonija",
+        "feedUrl": "https://novamakedonija.com.mk/feed/",
+        "homepage": "https://novamakedonija.com.mk/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 500,
+        "notes": "Full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "no",
+    "sources": [
+      {
+        "name": "NRK",
+        "feedUrl": "https://www.nrk.no/toppsaker.rss",
+        "homepage": "https://www.nrk.no/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 1480,
+        "notes": "Many items are short news briefs"
+      },
+      {
+        "name": "VG",
+        "feedUrl": "https://www.vg.no/rss/feed/?format=rss",
+        "homepage": "https://www.vg.no/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 340,
+        "notes": "VG+ items are subscriber-only"
+      }
+    ]
+  },
+  {
+    "language": "pl",
+    "sources": [
+      {
+        "name": "Gazeta.pl Wiadomości",
+        "feedUrl": "https://wiadomosci.gazeta.pl/pub/rss/wiadomosci.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 370,
+        "notes": ""
+      },
+      {
+        "name": "DW Polska",
+        "feedUrl": "https://rss.dw.com/rdf/rss-pol-all",
+        "homepage": "https://www.dw.com/pl/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 370,
+        "notes": ""
+      },
+      {
+        "name": "Polsat News",
+        "feedUrl": "https://www.polsatnews.pl/rss/wszystkie.xml",
+        "homepage": "https://www.polsatnews.pl/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 640,
+        "notes": ""
+      },
+      {
+        "name": "RMF24",
+        "feedUrl": "https://www.rmf24.pl/feed",
+        "homepage": "https://www.rmf24.pl/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 190,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "pt",
+    "sources": [
+      {
+        "name": "BBC News Brasil",
+        "feedUrl": "https://feeds.bbci.co.uk/portuguese/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 1390,
+        "notes": "Brazilian Portuguese"
+      },
+      {
+        "name": "DW Brasil",
+        "feedUrl": "https://rss.dw.com/rdf/rss-br-top",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 1220,
+        "notes": "Brazilian Portuguese"
+      },
+      {
+        "name": "Agência Brasil",
+        "feedUrl": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
+        "homepage": "https://agenciabrasil.ebc.com.br/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 370,
+        "notes": "Public news agency (Brazil); full text in feed"
+      },
+      {
+        "name": "Notícias ao Minuto",
+        "feedUrl": "https://www.noticiasaominuto.com/rss/ultima-hora",
+        "homepage": "https://www.noticiasaominuto.com/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 330,
+        "notes": "European Portuguese; full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "pa",
+    "sources": [
+      {
+        "name": "BBC News ਪੰਜਾਬੀ",
+        "feedUrl": "https://feeds.bbci.co.uk/punjabi/rss.xml",
+        "homepage": "https://www.bbc.com/punjabi",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 850,
+        "notes": "Gurmukhi; only Punjabi feed that passed"
+      }
+    ]
+  },
+  {
+    "language": "ro",
+    "sources": [
+      {
+        "name": "Europa Liberă Moldova (RFE/RL)",
+        "feedUrl": "https://www.europalibera.md/api/",
+        "homepage": "https://www.europalibera.md/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 1640,
+        "notes": ""
+      },
+      {
+        "name": "DW Română",
+        "feedUrl": "https://rss.dw.com/rdf/rss-rom-all",
+        "homepage": "https://www.dw.com/ro/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 970,
+        "notes": ""
+      },
+      {
+        "name": "RFI România",
+        "feedUrl": "https://www.rfi.fr/ro/rss",
+        "homepage": "https://www.rfi.ro/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 280,
+        "notes": ""
+      },
+      {
+        "name": "Digi24",
+        "feedUrl": "https://www.digi24.ro/rss",
+        "homepage": "https://www.digi24.ro/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 390,
+        "notes": "High volume"
+      }
+    ]
+  },
+  {
+    "language": "ru",
+    "sources": [
+      {
+        "name": "BBC News Русская служба",
+        "feedUrl": "https://feeds.bbci.co.uk/russian/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 440,
+        "notes": ""
+      },
+      {
+        "name": "DW на русском",
+        "feedUrl": "https://rss.dw.com/rdf/rss-ru-top",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 280,
+        "notes": ""
+      },
+      {
+        "name": "Meduza",
+        "feedUrl": "https://meduza.io/rss/all",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 280,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "Радио Свобода (RFE/RL)",
+        "feedUrl": "https://www.svoboda.org/api/",
+        "homepage": "https://www.svoboda.org/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 270,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "sr",
+    "sources": [
+      {
+        "name": "BBC News na srpskom",
+        "feedUrl": "https://feeds.bbci.co.uk/serbian/lat/rss.xml",
+        "homepage": "https://www.bbc.com/serbian/lat",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 1000,
+        "notes": "Latin script; a Cyrillic feed exists at /serbian/cyr/rss.xml"
+      },
+      {
+        "name": "DW Srpski",
+        "feedUrl": "https://rss.dw.com/rdf/rss-ser-all",
+        "homepage": "https://www.dw.com/sr/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 720,
+        "notes": ""
+      },
+      {
+        "name": "N1 Srbija",
+        "feedUrl": "https://n1info.rs/feed/",
+        "homepage": "https://n1info.rs/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 160,
+        "notes": ""
+      },
+      {
+        "name": "Danas",
+        "feedUrl": "https://www.danas.rs/feed/",
+        "homepage": "https://www.danas.rs/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 270,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "sk",
+    "sources": [
+      {
+        "name": "Aktuality.sk",
+        "feedUrl": "https://www.aktuality.sk/rss/",
+        "homepage": "https://www.aktuality.sk/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 360,
+        "notes": ""
+      },
+      {
+        "name": "STVR Správy",
+        "feedUrl": "https://spravy.stvr.sk/feed/",
+        "homepage": "https://spravy.stvr.sk/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 430,
+        "notes": "Public broadcaster; full text in feed"
+      },
+      {
+        "name": "Pravda.sk",
+        "feedUrl": "https://www.pravda.sk/spravy/rss/xml",
+        "homepage": "https://spravy.pravda.sk/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 430,
+        "notes": "Feed URL is the https address its old one redirected to over plain http."
+      }
+    ]
+  },
+  {
+    "language": "sl",
+    "sources": [
+      {
+        "name": "RTV SLO",
+        "feedUrl": "https://www.rtvslo.si/feeds/00.xml",
+        "homepage": "https://www.rtvslo.si/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 370,
+        "notes": "Public broadcaster"
+      },
+      {
+        "name": "24ur",
+        "feedUrl": "https://www.24ur.com/rss",
+        "homepage": "https://www.24ur.com/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 200,
+        "notes": ""
+      },
+      {
+        "name": "N1 Slovenija",
+        "feedUrl": "https://n1info.si/feed/",
+        "homepage": "https://n1info.si/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 300,
+        "notes": "Feed URL is the https address its old one redirected to over plain http."
+      }
+    ]
+  },
+  {
+    "language": "es",
+    "sources": [
+      {
+        "name": "Planeta Fácil",
+        "feedUrl": "https://planetafacil.plenainclusion.org/feed/",
+        "homepage": "https://planetafacil.plenainclusion.org/",
+        "level": "easy",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 320,
+        "notes": "News in lectura fácil (easy-to-read Spanish); full text in feed"
+      },
+      {
+        "name": "BBC Mundo",
+        "feedUrl": "https://feeds.bbci.co.uk/mundo/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 1470,
+        "notes": ""
+      },
+      {
+        "name": "DW Español",
+        "feedUrl": "https://rss.dw.com/rdf/rss-sp-top",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 470,
+        "notes": ""
+      },
+      {
+        "name": "RFI Español",
+        "feedUrl": "https://www.rfi.fr/es/rss",
+        "homepage": "https://www.rfi.fr/es/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 410,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "sw",
+    "sources": [
+      {
+        "name": "BBC News Swahili",
+        "feedUrl": "https://feeds.bbci.co.uk/swahili/rss.xml",
+        "homepage": "https://www.bbc.com/swahili",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 1240,
+        "notes": ""
+      },
+      {
+        "name": "DW Kiswahili",
+        "feedUrl": "https://rss.dw.com/rdf/rss-kis-all",
+        "homepage": "https://www.dw.com/sw/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 610,
+        "notes": ""
+      },
+      {
+        "name": "RFI Kiswahili",
+        "feedUrl": "https://www.rfi.fr/sw/rss",
+        "homepage": "https://www.rfi.fr/sw/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 150,
+        "notes": ""
+      },
+      {
+        "name": "Taifa Leo",
+        "feedUrl": "https://taifaleo.nation.co.ke/feed/",
+        "homepage": "https://taifaleo.nation.co.ke/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 260,
+        "notes": "Kenyan Swahili daily; full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "sv",
+    "sources": [
+      {
+        "name": "8 Sidor",
+        "feedUrl": "https://8sidor.se/feed/",
+        "homepage": "",
+        "level": "easy",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 170,
+        "notes": "Easy-Swedish newspaper; some items are audio-only"
+      },
+      {
+        "name": "Radio Sweden på lätt svenska",
+        "feedUrl": "https://api.sr.se/api/rss/program/4916",
+        "homepage": "https://sverigesradio.se/radioswedenpalattsvenska",
+        "level": "easy",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 290,
+        "notes": "Article pages are client-rendered, but the feed description carries the full text"
+      },
+      {
+        "name": "SVT Nyheter",
+        "feedUrl": "https://www.svt.se/nyheter/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 400,
+        "notes": ""
+      },
+      {
+        "name": "Aftonbladet",
+        "feedUrl": "https://www.aftonbladet.se/rss.xml",
+        "homepage": "https://www.aftonbladet.se/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-17",
+        "articleWords": 160,
+        "notes": "Plus items are subscriber-only"
+      }
+    ]
+  },
+  {
+    "language": "th",
+    "sources": [
+      {
+        "name": "BBC News ไทย",
+        "feedUrl": "https://feeds.bbci.co.uk/thai/rss.xml",
+        "homepage": "https://www.bbc.com/thai",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 1670,
+        "notes": ""
+      },
+      {
+        "name": "ไทยรัฐ",
+        "feedUrl": "https://www.thairath.co.th/rss/news",
+        "homepage": "https://www.thairath.co.th/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 590,
+        "notes": ""
+      },
+      {
+        "name": "ประชาไท",
+        "feedUrl": "https://prachatai.com/rss.xml",
+        "homepage": "https://prachatai.com/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 1900,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "ข่าวสด",
+        "feedUrl": "https://www.khaosod.co.th/feed",
+        "homepage": "https://www.khaosod.co.th/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 360,
+        "notes": "Full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "bo",
+    "sources": [
+      {
+        "name": "RFA བོད་སྐད།",
+        "feedUrl": "https://www.rfa.org/tibetan/RSS",
+        "homepage": "https://www.rfa.org/tibetan/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 1790,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "བོད་ཀྱི་དུས་བབ། Tibet Times",
+        "feedUrl": "https://tibettimes.net/feed/",
+        "homepage": "https://tibettimes.net/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-16",
+        "articleWords": 920,
+        "notes": "Exile Tibetan newspaper; full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "tr",
+    "sources": [
+      {
+        "name": "BBC Türkçe",
+        "feedUrl": "https://feeds.bbci.co.uk/turkce/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 660,
+        "notes": ""
+      },
+      {
+        "name": "DW Türkçe",
+        "feedUrl": "https://rss.dw.com/rdf/rss-tur-all",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 720,
+        "notes": ""
+      },
+      {
+        "name": "Euronews Türkçe",
+        "feedUrl": "https://tr.euronews.com/rss",
+        "homepage": "https://tr.euronews.com/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-16",
+        "articleWords": 580,
+        "notes": ""
+      },
+      {
+        "name": "Medyascope",
+        "feedUrl": "https://medyascope.tv/feed/",
+        "homepage": "https://medyascope.tv/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 490,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "uk",
+    "sources": [
+      {
+        "name": "BBC News Україна",
+        "feedUrl": "https://feeds.bbci.co.uk/ukrainian/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 810,
+        "notes": ""
+      },
+      {
+        "name": "DW Українська",
+        "feedUrl": "https://rss.dw.com/rdf/rss-ukr-all",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 230,
+        "notes": ""
+      },
+      {
+        "name": "Радіо Свобода (RFE/RL)",
+        "feedUrl": "https://www.radiosvoboda.org/api/",
+        "homepage": "https://www.radiosvoboda.org/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 470,
+        "notes": ""
+      },
+      {
+        "name": "LB.ua",
+        "feedUrl": "https://lb.ua/rss/ukr/news.xml",
+        "homepage": "https://lb.ua/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 510,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "vi",
+    "sources": [
+      {
+        "name": "BBC News Tiếng Việt",
+        "feedUrl": "https://feeds.bbci.co.uk/vietnamese/rss.xml",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 1590,
+        "notes": ""
+      },
+      {
+        "name": "VnExpress",
+        "feedUrl": "https://vnexpress.net/rss/tin-moi-nhat.rss",
+        "homepage": "",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 600,
+        "notes": ""
+      },
+      {
+        "name": "RFI Tiếng Việt",
+        "feedUrl": "https://www.rfi.fr/vi/rss",
+        "homepage": "https://www.rfi.fr/vi/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 2240,
+        "notes": ""
+      },
+      {
+        "name": "Tuổi Trẻ",
+        "feedUrl": "https://tuoitre.vn/rss/tin-moi-nhat.rss",
+        "homepage": "https://tuoitre.vn/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-17",
+        "articleWords": 360,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "cy",
+    "sources": [
+      {
+        "name": "Lingo360",
+        "feedUrl": "https://lingo.360.cymru/ffrwd",
+        "homepage": "https://lingo.360.cymru/",
+        "level": "easy",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 620,
+        "notes": "Golwg's site for Welsh learners; articles written for learners, some podcasts"
+      },
+      {
+        "name": "BBC Cymru Fyw",
+        "feedUrl": "https://feeds.bbci.co.uk/cymrufyw/rss.xml",
+        "homepage": "https://www.bbc.co.uk/cymrufyw",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 110,
+        "notes": ""
+      },
+      {
+        "name": "Golwg360",
+        "feedUrl": "https://golwg.360.cymru/ffrwd",
+        "homepage": "https://golwg.360.cymru/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 450,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "ga",
+    "sources": [
+      {
+        "name": "Tuairisc.ie",
+        "feedUrl": "https://tuairisc.ie/feed/",
+        "homepage": "https://tuairisc.ie/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 690,
+        "notes": "Irish-language news service"
+      },
+      {
+        "name": "RTÉ Nuacht",
+        "feedUrl": "https://www.rte.ie/feeds/rss/?index=/news/nuacht/",
+        "homepage": "https://www.rte.ie/news/nuacht/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 150,
+        "notes": "Short news items"
+      },
+      {
+        "name": "NÓS",
+        "feedUrl": "https://nos.ie/feed",
+        "homepage": "https://nos.ie/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-15",
+        "articleWords": 850,
+        "notes": "Magazine-style; full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "gv",
+    "sources": []
+  },
+  {
+    "language": "mt",
+    "sources": [
+      {
+        "name": "Illum",
+        "feedUrl": "https://www.illum.com.mt/rss/",
+        "homepage": "https://www.illum.com.mt/",
+        "level": "standard",
+        "extraction": "paragraphs",
+        "newestItem": "2026-10-16",
+        "articleWords": 590,
+        "notes": "Maltese-language weekly; pubDate has no space after the comma ('Fri,16 Oct 2026'), so use a lenient date parser"
+      }
+    ]
+  },
+  {
+    "language": "tl",
+    "sources": [
+      {
+        "name": "Abante",
+        "feedUrl": "https://www.abante.com.ph/rss.xml",
+        "homepage": "https://www.abante.com.ph/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 440,
+        "notes": "Tagalog tabloid; some items are video posts"
+      },
+      {
+        "name": "Bombo Radyo",
+        "feedUrl": "https://www.bomboradyo.com/feed/",
+        "homepage": "https://www.bomboradyo.com/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 210,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "Pinoy Weekly",
+        "feedUrl": "https://pinoyweekly.org/feed/",
+        "homepage": "https://pinoyweekly.org/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 350,
+        "notes": "Progressive weekly; some issue-index items have no text"
+      }
+    ]
+  },
+  {
+    "language": "gd",
+    "sources": [
+      {
+        "name": "BBC Naidheachdan",
+        "feedUrl": "https://feeds.bbci.co.uk/naidheachdan/rss.xml",
+        "homepage": "https://www.bbc.co.uk/naidheachdan",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-16",
+        "articleWords": 450,
+        "notes": "Only Scottish Gaelic feed found"
+      }
+    ]
+  },
+  {
+    "language": "kw",
+    "sources": []
+  },
+  {
+    "language": "mn",
+    "sources": [
+      {
+        "name": "Ikon.mn",
+        "feedUrl": "https://ikon.mn/rss",
+        "homepage": "https://ikon.mn/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 360,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "Eguur.mn",
+        "feedUrl": "https://eguur.mn/feed/",
+        "homepage": "https://eguur.mn/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 140,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "language": "yi",
+    "sources": []
+  },
+  {
+    "language": "kn",
+    "sources": [
+      {
+        "name": "ಪ್ರಜಾವಾಣಿ",
+        "feedUrl": "https://www.prajavani.net/feed",
+        "homepage": "https://www.prajavani.net/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 100,
+        "notes": "Very high volume"
+      },
+      {
+        "name": "TV9 Kannada",
+        "feedUrl": "https://tv9kannada.com/feed",
+        "homepage": "https://tv9kannada.com/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 310,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "Vishwavani",
+        "feedUrl": "https://vishwavani.news/feed",
+        "homepage": "https://vishwavani.news/",
+        "level": "standard",
+        "extraction": "jsonld",
+        "newestItem": "2026-10-17",
+        "articleWords": 360,
+        "notes": ""
+      },
+      {
+        "name": "Public TV",
+        "feedUrl": "https://publictv.in/feed",
+        "homepage": "https://publictv.in/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-17",
+        "articleWords": 230,
+        "notes": "Full text in feed"
+      }
+    ]
+  },
+  {
+    "language": "lo",
+    "sources": [
+      {
+        "name": "RFA ລາວ",
+        "feedUrl": "https://www.rfa.org/lao/RSS",
+        "homepage": "https://www.rfa.org/lao/",
+        "level": "standard",
+        "extraction": "feed",
+        "newestItem": "2026-10-14",
+        "articleWords": 350,
+        "notes": "Full text in feed"
+      },
+      {
+        "name": "Lao Economic Daily",
+        "feedUrl": "https://laoedaily.com.la/feed",
+        "homepage": "https://laoedaily.com.la/",
+        "level": "standard",
+        "extraction": "article",
+        "newestItem": "2026-10-15",
+        "articleWords": 280,
+        "notes": "Business-leaning Lao daily"
+      }
+    ]
+  },
+  {
+    "language": "arz",
+    "sources": []
+  },
+  {
+    "language": "sa",
+    "sources": []
+  }
+]

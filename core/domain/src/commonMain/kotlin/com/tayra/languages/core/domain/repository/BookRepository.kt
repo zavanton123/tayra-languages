@@ -1,6 +1,7 @@
 package com.tayra.languages.core.domain.repository
 
 import com.tayra.languages.core.domain.courses.LessonBook
+import com.tayra.languages.core.domain.news.NewsBook
 import com.tayra.languages.core.domain.model.Book
 import com.tayra.languages.core.domain.model.BookListItem
 import com.tayra.languages.core.domain.model.BookStats
@@ -35,6 +36,14 @@ interface BookRepository {
     suspend fun lessonBookId(lessonId: String): Long?
     /** Makes [bookId] the text of the lesson. */
     suspend fun linkLesson(lessonId: String, bookId: Long)
+
+    /** The texts made from news articles, by the article's address; they are left out of [observeBooks]. */
+    fun observeNewsBooks(): Flow<Map<String, NewsBook>>
+    suspend fun newsBookId(url: String): Long?
+    /** The address of the article [bookId] was made from, or null for any other text. */
+    suspend fun newsUrl(bookId: Long): String?
+    /** Makes [bookId] the text of the article at [url]. */
+    suspend fun linkNews(url: String, bookId: Long)
 
     suspend fun getPages(bookId: Long): List<Page>
     suspend fun getPage(bookId: Long, order: Int): Page?

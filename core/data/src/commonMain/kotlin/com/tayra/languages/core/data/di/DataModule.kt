@@ -11,6 +11,9 @@ import com.tayra.languages.core.data.bookpack.BookPackRepository
 import com.tayra.languages.core.domain.books.BookPackService
 import com.tayra.languages.core.domain.books.BookPackStore
 import com.tayra.languages.core.domain.books.discover.BookDiscoveryService
+import com.tayra.languages.core.domain.news.NewsFeedReader
+import com.tayra.languages.core.domain.news.NewsService
+import com.tayra.languages.core.data.news.FeedNewsReader
 import com.tayra.languages.core.data.discover.GdlCatalog
 import com.tayra.languages.core.data.discover.GutenbergCatalog
 import com.tayra.languages.core.data.discover.WikisourceCatalog
@@ -176,6 +179,8 @@ val dataModule: Module = module {
     single<BookPackStore> { BookPackRepository(get()) }
     single { BookPackService(get(), get(), get(), get()) }
     single { BookDiscoveryService(listOf(GutenbergCatalog(get()), WikisourceCatalog(get()), GdlCatalog(get())), get(), get(), get()) }
+    single<NewsFeedReader> { FeedNewsReader(get()) }
+    single { NewsService(get(), get(), get(), get()) }
     single { LanguageSetupService(get(), get(), get(), get(), get(), get()) }
     single { ClearDataService(get(), get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
