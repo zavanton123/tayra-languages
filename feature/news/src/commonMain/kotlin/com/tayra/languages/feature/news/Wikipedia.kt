@@ -231,7 +231,7 @@ class WikipediaViewModel(
     }
 }
 
-internal fun wikiAttribution(article: NewsArticle): String = tr("Source: Wikipedia, «{0}» ({1}), CC BY-SA 4.0.", article.title, article.url)
+internal fun wikiAttribution(article: NewsArticle): String = tr("Source: Wikipedia, «{0}», CC BY-SA 4.0.", article.title)
 
 internal class WikiActions(
     val onQuery: (String) -> Unit = {},

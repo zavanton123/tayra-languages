@@ -258,5 +258,5 @@ class NewsViewModel(
     }
 }
 
-/** The line that ends an article: where it is from. */
-internal fun attribution(article: NewsArticle): String = tr("Source: {0}, {1}", article.source.name, article.url)
+/** The line that ends an article: where it is from. The address stays out of the text, where its parts would read as words; the text keeps it as its source. */
+internal fun attribution(article: NewsArticle): String = tr("Source: {0}.", article.source.name)

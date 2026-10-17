@@ -202,9 +202,12 @@ class FindBooksViewModel(
     }
 }
 
-/** The line that ends a book from a library: where it is from and under what licence. */
+/**
+ * The line that ends a book from a library: where it is from and under what licence. The address
+ * stays out of the text, where its parts would read as words; the book keeps it as its source.
+ */
 internal fun attribution(book: FoundBook): String = when (book.source) {
-    BookSource.GUTENBERG -> tr("Source: Project Gutenberg, «{0}» ({1}), public domain.", book.title, book.pageUrl)
-    BookSource.WIKISOURCE -> tr("Source: Wikisource, «{0}» ({1}), CC BY-SA.", book.title, book.pageUrl)
-    BookSource.GDL -> tr("Source: Global Digital Library, «{0}» ({1}), {2}.", book.title, book.pageUrl, book.license.replace('-', ' '))
+    BookSource.GUTENBERG -> tr("Source: Project Gutenberg, «{0}», public domain.", book.title)
+    BookSource.WIKISOURCE -> tr("Source: Wikisource, «{0}», CC BY-SA.", book.title)
+    BookSource.GDL -> tr("Source: Global Digital Library, «{0}», {1}.", book.title, book.license.replace('-', ' '))
 }

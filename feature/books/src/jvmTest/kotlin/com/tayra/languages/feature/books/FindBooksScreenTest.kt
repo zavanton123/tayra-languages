@@ -136,7 +136,7 @@ class FindBooksScreenTest {
         // Its words are checked as it is listed, so there is nothing to ask for.
         assertEquals(0, onAllNodesWithTag("check-Dom Casmurro").fetchSemanticsNodes().size)
         for (source in BookSource.entries) onNodeWithTag("source-${source.name}").assertExists()
-        assertEquals("Source: Wikisource, «Dom Casmurro» (https://pt.wikisource.org/wiki/Dom_Casmurro), CC BY-SA.", attribution(work))
+        assertEquals("Source: Wikisource, «Dom Casmurro», CC BY-SA.", attribution(work))
     }
 
     @Test

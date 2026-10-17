@@ -244,6 +244,6 @@ class NewsScreenTest {
 
     @Test
     fun anArticleEndsWithItsSource() {
-        assertEquals("Source: BBC News Brasil, https://news.example/clima", attribution(items[2].article))
+        assertEquals("Source: BBC News Brasil.", attribution(items[2].article))
     }
 }
