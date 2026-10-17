@@ -52,6 +52,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** Ebooks libres et gratuits' French classics, free for non-commercial use. */
     ELG("Ebooks libres et gratuits", "Ebooks libres", judgedOnSight = false, tag = "ebooksgratuits", host = "ebooksgratuits.com", languages = setOf("fr")),
+
+    /** The TextGrid Repository's German literature, a tale, poem or novel to a text. */
+    TEXTGRID("TextGrid Digitale Bibliothek", "TextGrid", judgedOnSight = true, tag = "textgrid", host = "textgridrep.org", languages = setOf("de")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages
