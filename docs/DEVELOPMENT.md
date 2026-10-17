@@ -289,6 +289,28 @@ language's words for one meaning, its label as the tag. They have the packs' lay
 listed in `DictionaryPacks.glossaries`) and are published in the `glossaries-v1` release. The term
 pane's "Find a … word from …" opens them; the Dictionaries screen lists only installed ones.
 
+Dictionaries of the user's own can be imported from the Dictionaries screen: `DictionaryFiles`
+(core/data `mdict/`) hands a zip to `YomitanConverter` and an MDict file to `MdictConverter`, by
+their first bytes. On Android the picker offers every file, as it filters by MIME type and has none
+for .mdx (`DictionaryFiles.pickerExtensions`).
+
+`MdictFile` reads .mdx files as readmdict worked the format out: a UTF-16 XML header (its length
+before it, a checksum after), the key section (block counts and sizes, then the index of key blocks,
+zlib-compressed in version 2, then the key blocks: each key's record offset and its text), and the
+record section (block sizes, then the blocks, every record running from its key's offset to the
+next). Numbers are 8 bytes in version 2 and 4 in version 1. A block is 4 bytes of compression (0
+stored, 1 LZO, 2 zlib, inflated by `inflateRaw` past its two-byte zlib header), 4 of checksum, and
+the data; `Lzo` is the LZO1X decoder. Encrypted="2" hides the key index: each byte's halves are
+swapped and it is XORed with the byte before, its position and `Ripemd128` of the index's checksum
+plus 0x3695 (little-endian). Encrypted="1" (records tied to a registration key) and GBK or Big5
+text are refused with a reason; UTF-8, UTF-16 and the `TextDecoding` charsets are read. A compact
+dictionary's records use "`n`" style numbers that the header's StyleSheet (three lines a style)
+turns back into tags. `MdictConverter` makes an entry per record, one sense whose glosses are the
+lines its HTML shows (files `HtmlText`, "</br>" read as "<br>", the headword line dropped, up to 60),
+and a form per "@@@LINK=" record; it writes the pack through `newSqliteFile`'s streaming form, so
+ECDICT's 3.4 million entries (98 MB, a 417 MB pack) convert in about 20 s without holding every
+statement. The .mdd resources (audio, images, styles) are not read.
+
 Any Yomitan dictionary can be imported from the Dictionaries screen. `YomitanConverter` (core/data)
 reads the zip with `ZipArchive`, whose entries are inflated per platform (`Inflater`, zlib on iOS,
 `DecompressionStream` on the web), and converts it in Kotlin the way the Python tool converts wty's:
