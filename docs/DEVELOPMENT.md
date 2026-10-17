@@ -447,10 +447,41 @@ closing notes: public domain, Free Art License 1.3 or CC BY-SA 3.0).
   alt text), searched locally; the EPUB link on the book's page, read without `capa`, `titulo`,
   `ficha_tecnica`, `indice` and `contracapa`. CC BY-SA 4.0.
 
+- `StorybooksCatalog` (every language it has): Global Storybooks' collections on GitHub (`sbc-source`,
+  `sbno-`, `sbuk-`, `sbjm-`, `sbk-`, `sbug-`, `asp-`, `lida-`, `pb-`, `isb-source`), each listed once
+  through jsDelivr (`data.jsdelivr.com/v1/package/gh/global-asp/<repo>@master/flat`, no rate limit)
+  and read from `cdn.jsdelivr.net`. A story is `<lang>/<number>_<slug>.md`: `# Title`, pages after
+  `##`, credits as `* Text: …`. The first seven collections number the African Storybook's stories
+  alike, so a language has each once. A page's 20 files are fetched as it is listed, for their titles
+  and authors, and kept. `nb` serves Norwegian; `ha-ne`-style folders their base language.
+- `ElgCatalog` (fr): Ebooks libres et gratuits' OPDS (`/opds/feed.php`); unsearched `mode=genre&id=6`
+  (Jeunesse), a search `mode=search`, pages from 0. The ePUB without calibre's `titlepage`, a short
+  title page and everything from "À propos de cette édition électronique". "Non-commercial use".
+- `TextGridCatalog` (de): `tgsearch-public/search` (XML; `hits`, `start`), filtered to the Digitale
+  Bibliothek project; unsearched the Grimms (`edition.agent.value:"Grimm, Jacob und Wilhelm"`), a
+  search `(title:w* OR edition.agent.value:w*)` per word, as its plain search matches the texts.
+  Biographies, prefaces and notes are left out by title. Text `/aggregator/text/<uri>` without the
+  author and title lines and a repeated heading. CC BY 3.0.
+- `LiberLiberCatalog` (it): WordPress `/wp-json/wp/v2/pages`, kept to pages linking
+  `opera_url_epub` (books, not authors or audiobooks); unsearched `search=ragazzi` (young people's
+  fiction on the cards), a search by title (`search_columns=post_title`), then by text when no title
+  matches. The ePUB is guessed at `liberliber.eu/mediateca/libri/<s>/<surname>/<work>/epub/<surname>_<work>.epub`
+  (slug hyphens as underscores), else read from `/opere/download/?op=<id>&type=opera_url_epub`
+  (1.7 MB of HTML, `value="…epub"`). Licence from the card's "licenza".
+- `ElejandriaCatalog` (es): no API and a search drawn in the browser, so the sitemap (2,300 books,
+  400 KB) is searched by the words of its addresses, accents dropped; unsearched, three children's
+  collections, cut before the "Otros libros populares" beside them. A listed book's page gives its
+  title, author, cover (`og:` tags) and the "Descargar en ePub" file id for
+  `/libro/link_descarga_libro/<book>/<file>`; the site's greeting and thanks are cut from the text.
+
 Considered and left out for now: DBNL (nl), whose public-domain CSV takes about a minute to serve;
-TextGrid (de), Elejandría (es), Liber Liber (it), MEK (hu), Bokselskap (no), az.lib.ru (ru, cp1251
-over plain http), Ebooks libres et gratuits (fr), Perseus (la, grc), GRETIL (sa), Kanripo (Classical
-Chinese) and Netútgáfan (is), all workable and noted in the research for later.
+MEK (hu), Bokselskap (no), az.lib.ru (ru, cp1251 over plain http), Perseus (la, grc), GRETIL (sa),
+Kanripo (Classical Chinese) and Netútgáfan (is), all workable and noted in the research for later.
+
+News drops an article in English from a feed of another language (some editions of The Conversation
+carry their English one's): its title in Latin letters and 4% or more of the letters of its title and
+opening in words only English uses ("the", "and", "with"…), by letters so unspaced Chinese counts
+fairly. WordPress's "The post … appeared first on …" is cut from feed texts.
 
 ## News
 

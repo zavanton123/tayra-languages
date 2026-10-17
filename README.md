@@ -50,7 +50,7 @@ everything you learn stays on your own device.
 
 - **The latest news in your language** from about 235 feeds in 68 languages, checked to work: public
   broadcasters and international services (BBC, DW, RFI, RFE/RL, RFA, Yle, NRK, SVT and others),
-  Global Voices' translated feature stories, and easy-language news where it exists (8 Sidor, Yle
+  Global Voices' translated feature stories, The Conversation's explanatory articles, and easy-language news where it exists (8 Sidor, Yle
   selkouutiset, News in Levels, RFI's Journal en français facile, Nachrichten in Leichter Sprache...).
 - **Wikipedia and other wikis in your language**: the articles read most yesterday, or any you
   search for, read by their introduction or whole; it also covers the languages with no news feed
@@ -130,10 +130,12 @@ particles and endings.
   text, with the book's own title. A zipped book (`.fb2.zip`, `.fbz`) is read through; PDF is not
   read in the browser. On desktop and Android, a web page can be imported by its address.
 - Find free books without leaving the app: classics from Project Gutenberg, the transcriptions of
-  Wikisource in dozens of languages, and graded children's readers from the Global Digital Library,
-  and for some languages a library of their own: Wolne Lektury (Polish), Aozora Bunko (Japanese),
-  Litteraturbanken (Swedish), Project Ben-Yehuda (Hebrew), Arkiv for Dansk Litteratur (Danish),
-  Ganjoor (Persian) and Projecto Adamastor (Portuguese); each book marked easy, medium or hard by the share of its words you already know, and added to your
+  Wikisource in dozens of languages, graded children's readers from the Global Digital Library,
+  Global Storybooks' short picture-book stories in about 150 languages, and for some languages a
+  library of their own: Wolne Lektury (Polish), Aozora Bunko (Japanese), Litteraturbanken (Swedish),
+  Project Ben-Yehuda (Hebrew), Arkiv for Dansk Litteratur (Danish), Ganjoor (Persian), Projecto
+  Adamastor (Portuguese), Ebooks libres et gratuits (French), TextGrid (German), Liber Liber
+  (Italian) and Elejandría (Spanish); each book marked easy, medium or hard by the share of its words you already know, and added to your
   library in one tap with its source on the last line.
 - Photos of pages become text too: pick them, or take one with the phone's camera. iOS reads them
   with Vision; Android with ML Kit for Latin, Chinese, Japanese, Korean and Devanagari text and
