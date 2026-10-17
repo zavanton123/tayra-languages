@@ -31,6 +31,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** Aozora Bunko's Japanese works out of copyright. */
     AOZORA("Aozora Bunko", "Aozora Bunko", judgedOnSight = true, tag = "aozora", host = "aozora.gr.jp", languages = setOf("ja")),
+
+    /** Litteraturbanken's Swedish e-texts released under CC0. */
+    LITTERATURBANKEN("Litteraturbanken", "Litteraturbanken", judgedOnSight = false, tag = "litteraturbanken", host = "litteraturbanken.se", languages = setOf("sv")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages

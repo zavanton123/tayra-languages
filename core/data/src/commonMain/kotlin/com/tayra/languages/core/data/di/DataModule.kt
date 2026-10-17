@@ -19,6 +19,7 @@ import com.tayra.languages.core.data.news.FeedNewsReader
 import com.tayra.languages.core.data.discover.AozoraCatalog
 import com.tayra.languages.core.data.discover.GdlCatalog
 import com.tayra.languages.core.data.discover.GutenbergCatalog
+import com.tayra.languages.core.data.discover.LitteraturbankenCatalog
 import com.tayra.languages.core.data.discover.WikisourceCatalog
 import com.tayra.languages.core.data.discover.WolneLekturyCatalog
 import com.tayra.languages.core.data.repository.CourseRepositoryImpl
@@ -182,7 +183,7 @@ val dataModule: Module = module {
     single { CoursePackService(get(), get()) }
     single<BookPackStore> { BookPackRepository(get()) }
     single { BookPackService(get(), get(), get(), get()) }
-    single { BookDiscoveryService(listOf(GutenbergCatalog(get()), WikisourceCatalog(get()), GdlCatalog(get()), WolneLekturyCatalog(get()), AozoraCatalog(get())), get(), get(), get()) }
+    single { BookDiscoveryService(listOf(GutenbergCatalog(get()), WikisourceCatalog(get()), GdlCatalog(get()), WolneLekturyCatalog(get()), AozoraCatalog(get()), LitteraturbankenCatalog(get())), get(), get(), get()) }
     single<NewsFeedReader> { FeedNewsReader(get()) }
     single<WikipediaReader> { WikipediaArticles(get()) }
     single { NewsService(get(), get(), get(), get(), get()) }
