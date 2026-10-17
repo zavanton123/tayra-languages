@@ -467,8 +467,15 @@ links that miss: UN News's `/feed/view` (406) and BBC Chinese's simplified feed 
 article opened becomes a book linked in `news_articles` (migration 22), which `listBooks` leaves out
 as it does `course_lessons`; the reader then shows News in the bar and leads back to it.
 
-The News section's Wikipedia tab (`WikipediaViewModel`) reads `WikipediaArticles` (core/data
-`news/`): yesterday's most read pages from the page-view API (the day before when yesterday's are not
+The News section's Wikis tab (`WikipediaViewModel`) reads `WikiArticles` (core/data `news/`) for the
+`Wiki` chosen on its chips: Wikipedia, Simple English Wikipedia (en), Klexikon and MiniKlexikon (de,
+klexikon.zum.de and miniklexikon.zum.de, API at `/api.php`), Wikivoyage and Wikibooks (their open
+editions, listed in `Wiki.languages` from the sitematrix). All are CC BY-SA 4.0 and have TextExtracts;
+Wikimini (fr) lacks it and Vikidia sits behind a Cloudflare challenge, so both are left out. The
+Klexikons have no page views (`countsViews`), so their list is `list=random`, always with more.
+Wikimedia names a wiki's page views by its address (`pt.wikivoyage`, `simple.wikipedia`). Pages with
+no introduction, such as a Wikibook's contents, are left out. A whole article is tagged with its
+wiki's name. For each wiki: yesterday's most read pages from the page-view API (the day before when yesterday's are not
 out), without the main page and the pages of other namespaces under any of their names
 (`siteinfo` namespaces and aliases), and a batch request per page of 20 that gives each article's
 plain-text introduction, its size (for the length filter) and whether it only lists a word's meanings.

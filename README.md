@@ -52,9 +52,10 @@ everything you learn stays on your own device.
   broadcasters and international services (BBC, DW, RFI, RFE/RL, RFA, Yle, NRK, SVT and others),
   Global Voices' translated feature stories, and easy-language news where it exists (8 Sidor, Yle
   selkouutiset, News in Levels, RFI's Journal en français facile, Nachrichten in Leichter Sprache...).
-- **Wikipedia in your language**: the articles read most yesterday, or any you search for, read by
-  their introduction or whole; it also covers the languages with no news feed (Breton, Latin, Manx,
-  Cornish, Sanskrit...).
+- **Wikipedia and other wikis in your language**: the articles read most yesterday, or any you
+  search for, read by their introduction or whole; it also covers the languages with no news feed
+  (Breton, Latin, Manx, Cornish, Sanskrit...). Beside Wikipedia: Simple English Wikipedia, the
+  Klexikon and MiniKlexikon (German for children), Wikivoyage's travel guides and Wikibooks.
 - Each article is marked easy, medium or hard by the share of its words you know, and opens in the
   reader as a text of its own, kept with the news rather than among your books.
 - Filter by source, difficulty, topic, date, easy language, and articles not read yet, or search.
