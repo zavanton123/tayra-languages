@@ -182,6 +182,60 @@ class NewsScreenTest {
         assertEquals(0, onAllNodesWithTag("article-https://news.example/parque").fetchSemanticsNodes().size)
     }
 
+    private fun wiki(title: String, size: Int, known: Int, slug: String = title) = NewsItem(
+        NewsArticle(NewsSource("pt", "Wikipedia", "https://pt.wikipedia.org", "", textInFeed = true), "https://pt.wikipedia.org/wiki/$slug", title,
+            "Introdução do artigo $title, com as primeiras frases.", null, feedText = "Introdução.", length = size),
+        CoverageCheck.Checked(TextCoverage(100, known)),
+    )
+
+    private val wikiState = WikiUiState(
+        languageName = "Portuguese", loading = false, hasMore = true,
+        articles = listOf(wiki("Gato", 170_000, 92), wiki("Rafael Câmara", 8_000, 97, "Rafael_Câmara"), wiki("Mercúrio", 30_000, 80)),
+        opened = mapOf("https://pt.wikipedia.org/wiki/Gato" to NewsBook("https://pt.wikipedia.org/wiki/Gato", 3, now, false)),
+    )
+
+    @Test
+    fun wikipediaArticlesAreReadByTheirIntroductionOrWhole() = runDesktopComposeUiTest(width = 1586, height = 1200) {
+        val read = mutableListOf<String>()
+        var tab: NewsTab? = null
+        setContent {
+            var state by remember { mutableStateOf(wikiState) }
+            TayraTheme {
+                ProvideWindowWidth {
+                    Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                        Column {
+                            AppTopBar(title = "News", onNavigate = {}, section = NavSection.NEWS)
+                            WikipediaContent(
+                                state,
+                                WikiActions(
+                                    onLength = { l -> state = state.copy(length = l) },
+                                    onOpen = { read += "intro " + it.article.title },
+                                    onOpenWhole = { read += "whole " + it.article.title },
+                                ),
+                                tabs = { NewsTabs(NewsTab.WIKIPEDIA) { tab = it } },
+                            )
+                        }
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Rafael Câmara")).fetchSemanticsNodes().isNotEmpty() }
+        screenshot("WIKI_SCREENSHOT")
+        onNodeWithText("Long article").assertExists()
+        onNodeWithText("Short article").assertExists()
+        // The introduction read before is gone on with; the whole article is a choice of its own.
+        onNodeWithText("Continue").assertExists()
+        onNodeWithTag("read-https://pt.wikipedia.org/wiki/Gato").performClick()
+        onNodeWithTag("whole-https://pt.wikipedia.org/wiki/Mercúrio").performClick()
+        assertEquals(listOf("intro Gato", "whole Mercúrio"), read)
+        onNodeWithTag("length-SHORT").performClick()
+        waitForIdle()
+        assertEquals(0, onAllNodesWithTag("wiki-Gato").fetchSemanticsNodes().size)
+        onNodeWithTag("wiki-Rafael Câmara").assertExists()
+        onNodeWithTag("tab-NEWS").performClick()
+        assertEquals(NewsTab.NEWS, tab)
+    }
+
     @Test
     fun aLanguageWithoutFeedsSaysSo() = runDesktopComposeUiTest(width = 1200, height = 800) {
         show(NewsUiState(languageName = "Cornish", loading = false)) { NewsActions() }

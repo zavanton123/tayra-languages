@@ -9,6 +9,7 @@ import org.koin.dsl.module
 
 val newsModule = module {
     viewModel { NewsViewModel(get(), get(), get()) }
+    viewModel { WikipediaViewModel(get(), get(), get()) }
 }
 
 fun NavGraphBuilder.newsGraph(navController: NavController) {

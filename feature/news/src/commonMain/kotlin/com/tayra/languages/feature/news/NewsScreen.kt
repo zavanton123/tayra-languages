@@ -34,10 +34,16 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SegmentedButton
+import androidx.compose.material3.SegmentedButtonDefaults
+import androidx.compose.material3.SingleChoiceSegmentedButtonRow
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -70,27 +76,61 @@ import org.koin.compose.viewmodel.koinViewModel
 import kotlin.time.Clock
 import kotlin.time.Instant
 
+/** What the News section shows: the news sites' feeds, or Wikipedia's articles. */
+enum class NewsTab { NEWS, WIKIPEDIA }
+
 @Composable
-fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewModel()) {
+fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewModel(), wiki: WikipediaViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val wikiState by wiki.state.collectAsStateWithLifecycle()
     CollectEvents(viewModel.events) { event ->
         when (event) {
             is NewsEvent.Read -> onNavigate(Route.Read(event.bookId))
         }
     }
+    CollectEvents(wiki.events) { event ->
+        when (event) {
+            is WikiEvent.Read -> onNavigate(Route.Read(event.bookId))
+        }
+    }
     // Coming back after a while, the news has moved on.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.refreshIfOld() }
+    var chosen by rememberSaveable { mutableStateOf<NewsTab?>(null) }
+    // A language without news feeds still has its Wikipedia.
+    val tab = chosen ?: if (state.languageName.isNotEmpty() && state.sources.isEmpty()) NewsTab.WIKIPEDIA else NewsTab.NEWS
+    val tabs: @Composable () -> Unit = { NewsTabs(tab) { chosen = it } }
     Scaffold(
         topBar = {
             AppTopBar(
                 title = tr("News"),
                 onNavigate = onNavigate,
                 section = NavSection.NEWS,
-                actions = { IconButton(onClick = viewModel::refresh, enabled = !state.loading) { Icon(Icons.Default.Refresh, contentDescription = tr("Refresh")) } },
+                actions = {
+                    val loading = if (tab == NewsTab.NEWS) state.loading else wikiState.loading
+                    IconButton(onClick = if (tab == NewsTab.NEWS) viewModel::refresh else wiki::refresh, enabled = !loading) { Icon(Icons.Default.Refresh, contentDescription = tr("Refresh")) }
+                },
             )
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
+        if (tab == NewsTab.WIKIPEDIA) {
+            WikipediaContent(
+                wikiState,
+                WikiActions(
+                    onQuery = wiki::setQuery,
+                    onLength = wiki::setLength,
+                    onDifficulty = wiki::setDifficulty,
+                    onHideRead = wiki::setHideRead,
+                    onMore = wiki::loadMore,
+                    onOpen = wiki::open,
+                    onOpenWhole = wiki::openWhole,
+                    onRetry = wiki::refresh,
+                ),
+                Modifier.padding(padding),
+                tabs,
+            )
+            return@Scaffold
+        }
         NewsContent(
             state,
             NewsActions(
@@ -107,7 +147,24 @@ fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewM
                 onRefresh = viewModel::refresh,
             ),
             Modifier.padding(padding),
+            tabs = tabs,
         )
+    }
+}
+
+/** The choice between the news sites' feeds and Wikipedia. */
+@Composable
+internal fun NewsTabs(selected: NewsTab, onSelect: (NewsTab) -> Unit) {
+    val compact = LocalWindowWidth.current.isCompact
+    SingleChoiceSegmentedButtonRow(if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = 360.dp)) {
+        NewsTab.entries.forEachIndexed { i, tab ->
+            SegmentedButton(
+                selected = selected == tab,
+                onClick = { onSelect(tab) },
+                shape = SegmentedButtonDefaults.itemShape(i, NewsTab.entries.size),
+                modifier = Modifier.testTag("tab-${tab.name}"),
+            ) { Text(if (tab == NewsTab.NEWS) tr("News sites") else "Wikipedia") }
+        }
     }
 }
 
@@ -126,7 +183,7 @@ internal class NewsActions(
 )
 
 @Composable
-internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Modifier = Modifier, now: Instant = Clock.System.now()) {
+internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Modifier = Modifier, now: Instant = Clock.System.now(), tabs: @Composable () -> Unit = {}) {
     val compact = LocalWindowWidth.current.isCompact
     val list = rememberLazyListState()
     // More articles are listed as the end of the list comes near.
@@ -140,7 +197,7 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
             state = list,
             contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
         ) {
-            item { Header(state, compact) }
+            item { Header(state, compact, tabs) }
             when {
                 state.languageName.isEmpty() -> item { Message(tr("Choose a language to learn to see its news.")) }
                 state.sources.isEmpty() -> item {
@@ -191,9 +248,10 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
 }
 
 @Composable
-private fun Header(state: NewsUiState, compact: Boolean) {
-    Column(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+private fun Header(state: NewsUiState, compact: Boolean, tabs: @Composable () -> Unit) {
+    Column(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
         if (!compact) Text(tr("News"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+        tabs()
         if (state.languageName.isNotEmpty()) {
             Text(
                 tr("The latest news in {0}, with how much of each article you already know.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),

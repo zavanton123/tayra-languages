@@ -429,6 +429,16 @@ links that miss: UN News's `/feed/view` (406) and BBC Chinese's simplified feed 
 article opened becomes a book linked in `news_articles` (migration 22), which `listBooks` leaves out
 as it does `course_lessons`; the reader then shows News in the bar and leads back to it.
 
+The News section's Wikipedia tab (`WikipediaViewModel`) reads `WikipediaArticles` (core/data
+`news/`): yesterday's most read pages from the page-view API (the day before when yesterday's are not
+out), without the main page and the pages of other namespaces under any of their names
+(`siteinfo` namespaces and aliases), and a batch request per page of 20 that gives each article's
+plain-text introduction, its size (for the length filter) and whether it only lists a word's meanings.
+An article is judged and read by its introduction, which the list already holds; "Whole article"
+fetches the full extract (`exsectionformat=wiki`), drops the sections that are empty or only short
+lines with no sentence (see also, references, links, whatever the language calls them), and keeps it
+under the article's address plus `#whole`. Cantonese is `zh-yue`; Chinese asks for `variant=zh-hans`.
+
 ## Word frequency lists
 
 The Word frequency screen (feature/frequency) shows the most common words of the language being
