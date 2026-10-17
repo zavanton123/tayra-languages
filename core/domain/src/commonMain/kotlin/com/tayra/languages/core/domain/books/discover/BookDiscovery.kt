@@ -58,6 +58,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** Liber Liber's Italian classics. */
     LIBER_LIBER("Liber Liber", "Liber Liber", judgedOnSight = false, tag = "liberliber", host = "liberliber.it", languages = setOf("it")),
+
+    /** Elejandría's Spanish books in the public domain or under open licences. */
+    ELEJANDRIA("Elejandría", "Elejandría", judgedOnSight = false, tag = "elejandria", host = "elejandria.com", languages = setOf("es")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages

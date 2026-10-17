@@ -218,6 +218,8 @@ internal val ruBooks: Map<String, String> = mapOf(
     "free for non-commercial use" to "бесплатно для некоммерческого использования",
     "German literature from the TextGrid Digitale Bibliothek, each tale, poem or novel a text of its own, free to share under CC BY 3.0. Without a search, the Grimms' tales and legends." to "Немецкая литература из TextGrid Digitale Bibliothek, каждая сказка, стихотворение или роман отдельным текстом, распространяемые по лицензии CC BY 3.0. Без поиска — сказки и предания братьев Гримм.",
     "Italian classics from Liber Liber, most free to share non-commercially. Without a search, its books for young people." to "Итальянская классика из Liber Liber, в основном для некоммерческого использования. Без поиска — книги для юношества.",
+    "Spanish books from Elejandría, in the public domain or under open licences. Without a search, its children's stories." to "Испанские книги из Elejandría в общественном достоянии или под открытыми лицензиями. Без поиска — детские рассказы.",
+    "public domain or an open licence" to "общественное достояние или открытая лицензия",
     "Polish school readings and classics from Wolne Lektury, most in the public domain. Without a search, its books for children and young people." to "Польская школьная программа и классика из Wolne Lektury, в основном в общественном достоянии. Без поиска — книги для детей и юношества.",
     "Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter." to "Тексты, набранные добровольцами Викитеки и распространяемые по лицензии CC BY-SA. Без поиска — самые читаемые произведения прошлого месяца. Каждое оценивается по первой главе.",
 )

@@ -216,6 +216,7 @@ internal fun attribution(book: FoundBook): String = tr("Source: {0}, «{1}», {2
 private fun licence(license: String): String {
     if (license.equals("Public domain", ignoreCase = true)) return tr("public domain")
     if (license.equals("Non-commercial use", ignoreCase = true)) return tr("free for non-commercial use")
+    if (license.equals("Public domain or open licence", ignoreCase = true)) return tr("public domain or an open licence")
     val parts = license.split('-')
     if (parts.size < 2 || !parts.first().equals("CC", ignoreCase = true)) return license
     val version = parts.last().takeIf { it.firstOrNull()?.isDigit() == true }
