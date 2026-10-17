@@ -265,6 +265,7 @@ private fun SourceNote(source: BookSource) {
             BookSource.WOLNE_LEKTURY -> tr("Polish school readings and classics from Wolne Lektury, most in the public domain. Without a search, its books for children and young people.")
             BookSource.AOZORA -> tr("Japanese works out of copyright from Aozora Bunko, without their furigana. Without a search, the most read works for children.")
             BookSource.LITTERATURBANKEN -> tr("Swedish classics from Litteraturbanken, free to share under CC0, most in the spelling of their time. Without a search, the most read.")
+            BookSource.BEN_YEHUDA -> tr("Hebrew works in the public domain from Project Ben-Yehuda, without vowel points. Without a search, its fables, then its stories.")
         },
         Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp),
         style = MaterialTheme.typography.bodySmall,

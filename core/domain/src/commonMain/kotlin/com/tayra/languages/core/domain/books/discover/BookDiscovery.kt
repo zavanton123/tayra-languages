@@ -34,6 +34,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** Litteraturbanken's Swedish e-texts released under CC0. */
     LITTERATURBANKEN("Litteraturbanken", "Litteraturbanken", judgedOnSight = false, tag = "litteraturbanken", host = "litteraturbanken.se", languages = setOf("sv")),
+
+    /** Project Ben-Yehuda's Hebrew works in the public domain. */
+    BEN_YEHUDA("Project Ben-Yehuda", "Ben-Yehuda", judgedOnSight = true, tag = "benyehuda", host = "benyehuda.org", languages = setOf("he")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages
