@@ -13,17 +13,18 @@ import com.tayra.languages.core.domain.service.ReadingService
  * A free library online to find books in. [judgedOnSight] libraries have a cheap sample of each
  * book, so their books are judged as they are listed; the others only when the reader asks.
  * [languages] holds the ISO codes of the languages a library of one or a few languages serves,
- * null for one with books in every language; [tag] marks the books added from it.
+ * null for one with books in every language; [tag] marks the books added from it, and [host] is
+ * in the address of every book's page there.
  */
-enum class BookSource(val libraryName: String, val shortName: String, val judgedOnSight: Boolean, val tag: String, val languages: Set<String>? = null) {
+enum class BookSource(val libraryName: String, val shortName: String, val judgedOnSight: Boolean, val tag: String, val host: String, val languages: Set<String>? = null) {
     /** Project Gutenberg's public-domain classics. */
-    GUTENBERG("Project Gutenberg", "Gutenberg", judgedOnSight = true, tag = "gutenberg"),
+    GUTENBERG("Project Gutenberg", "Gutenberg", judgedOnSight = true, tag = "gutenberg", host = "gutenberg.org"),
 
     /** Wikisource's volunteer transcriptions of public-domain and freely licensed texts, one wiki per language. */
-    WIKISOURCE("Wikisource", "Wikisource", judgedOnSight = true, tag = "wikisource"),
+    WIKISOURCE("Wikisource", "Wikisource", judgedOnSight = true, tag = "wikisource", host = "wikisource.org"),
 
     /** The Global Digital Library's openly licensed early-grade readers, StoryWeaver's among them. */
-    GDL("Global Digital Library", "GDL", judgedOnSight = false, tag = "gdl"),
+    GDL("Global Digital Library", "GDL", judgedOnSight = false, tag = "gdl", host = "digitallibrary.io"),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages
@@ -67,7 +68,13 @@ interface BookCatalog {
 
     /** The book's whole text, one paragraph per line. */
     suspend fun text(book: FoundBook): String
+
+    /** The book's whole text and its licence, which some libraries give only in the text itself. */
+    suspend fun licensedText(book: FoundBook): LicensedText = LicensedText(text(book), book.license)
 }
+
+/** A book's text, and the licence it is under. */
+data class LicensedText(val text: String, val license: String)
 
 /** How much of a text the reader knows: its running words, each counted where it stands. */
 data class TextCoverage(val words: Int, val known: Int) {
@@ -114,22 +121,21 @@ class BookDiscoveryService(
         return TextCoverage(words.size, words.count { it.status != TermStatus.UNKNOWN })
     }
 
-    /** Adds the book to [language]'s library with [attribution] as its last line, and returns its id. */
-    suspend fun addToLibrary(book: FoundBook, language: Language, attribution: String): Long {
-        val text = catalog(book.source).text(book)
+    /** Adds the book to [language]'s library, its [attribution] the last line, and returns its id. */
+    suspend fun addToLibrary(book: FoundBook, language: Language, attribution: (FoundBook) -> String): Long {
+        val (text, license) = catalog(book.source).licensedText(book)
         val tags = listOfNotNull(book.level, book.source.tag)
-        return bookService.create(BookDraft(languageId = language.id, title = book.title, text = "$text\n\n$attribution", sourceUri = book.pageUrl, tags = tags))
+        val last = attribution(book.copy(license = license))
+        return bookService.create(BookDraft(languageId = language.id, title = book.title, text = "$text\n\n$last", sourceUri = book.pageUrl, tags = tags))
     }
 
     /** The reader's books found in a library, by their page there. */
     suspend fun libraryBooks(): Map<String, Long> =
-        books.getBooks().mapNotNull { book -> book.sourceUri?.takeIf { uri -> LIBRARY_HOSTS.any { it in uri } }?.let { it to book.id } }.toMap()
+        books.getBooks().mapNotNull { book -> book.sourceUri?.takeIf { uri -> BookSource.entries.any { it.host in uri } }?.let { it to book.id } }.toMap()
 
     private fun catalog(source: BookSource): BookCatalog = catalogs.first { it.source == source }
 
     private companion object {
-        val LIBRARY_HOSTS = listOf("gutenberg.org", "wikisource.org", "digitallibrary.io")
-
         /** Enough words to judge a text by, without parsing a whole novel. */
         const val SAMPLE_CHARACTERS = 15_000
 

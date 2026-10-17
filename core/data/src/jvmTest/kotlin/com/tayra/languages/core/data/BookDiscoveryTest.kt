@@ -15,6 +15,7 @@ import com.tayra.languages.core.domain.books.discover.BookSource
 import com.tayra.languages.core.domain.books.discover.CatalogPage
 import com.tayra.languages.core.domain.books.discover.Difficulty
 import com.tayra.languages.core.domain.books.discover.FoundBook
+import com.tayra.languages.core.domain.books.discover.LicensedText
 import com.tayra.languages.core.domain.books.discover.TextCoverage
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
@@ -128,6 +129,9 @@ class BookDiscoveryTest {
         override suspend fun search(languageCode: String, query: String, page: Int) = CatalogPage(listOf(found), hasMore = false, total = 1)
         override suspend fun sample(book: FoundBook) = "O gato dorme na casa.\nA casa é grande, e o gato é pequeno."
         override suspend fun text(book: FoundBook) = "O gato dorme na casa.\nA casa é grande."
+
+        // The text names the licence of a later edition than the catalog's.
+        override suspend fun licensedText(book: FoundBook) = LicensedText(text(book), "CC-BY-SA-3.0")
     }
 
     private val service = BookDiscoveryService(listOf(fakeCatalog), reading, BookService(books, languages), books)
@@ -152,12 +156,12 @@ class BookDiscoveryTest {
     @Test
     fun anAddedBookEndsWithItsSourceAndIsKnownByIt() = runTest {
         val id = languages.save(Language(name = "Portuguese"))
-        val bookId = service.addToLibrary(found, languages.getById(id)!!, "Fonte: Projeto Gutenberg.")
+        val bookId = service.addToLibrary(found, languages.getById(id)!!) { "Fonte: Projeto Gutenberg, ${it.license}." }
         val book = books.getBook(bookId)!!
         assertEquals("O gato", book.title)
         assertEquals("https://www.gutenberg.org/ebooks/1", book.sourceUri)
         // A blank line sets the source apart, as in the book packs.
-        assertEquals("O gato dorme na casa.\nA casa é grande.\n\nFonte: Projeto Gutenberg.", books.getPages(bookId).joinToString("\n") { it.text })
+        assertEquals("O gato dorme na casa.\nA casa é grande.\n\nFonte: Projeto Gutenberg, CC-BY-SA-3.0.", books.getPages(bookId).joinToString("\n") { it.text })
         assertEquals(mapOf("https://www.gutenberg.org/ebooks/1" to bookId), service.libraryBooks())
     }
 

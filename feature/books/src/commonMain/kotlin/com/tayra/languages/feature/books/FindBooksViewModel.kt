@@ -125,7 +125,7 @@ class FindBooksViewModel(
         updateItem(book) { it.copy(adding = true, error = null) }
         viewModelScope.launch {
             try {
-                val id = discovery.addToLibrary(book, lang, attribution(book))
+                val id = discovery.addToLibrary(book, lang, ::attribution)
                 library = library + (book.pageUrl to id)
                 updateItem(book) { it.copy(adding = false, libraryId = id) }
             } catch (e: CancellationException) {
