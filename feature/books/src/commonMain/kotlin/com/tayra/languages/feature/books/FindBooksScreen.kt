@@ -222,7 +222,7 @@ private fun DifficultyLine(item: FoundBookItem, actions: FindBooksActions) {
                 modifier = Modifier.testTag("coverage-${item.book.id}"),
             )
             is CoverageCheck.Failed -> Text(check.message, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            CoverageCheck.NotChecked -> if (item.book.source == BookSource.GDL) {
+            CoverageCheck.NotChecked -> if (!item.book.source.judgedOnSight) {
                 TextButton(onClick = { actions.onCheck(item) }, contentPadding = PaddingValues(horizontal = 8.dp), modifier = Modifier.height(32.dp).testTag("check-${item.book.id}")) {
                     Text(tr("Check the words"))
                 }
@@ -295,6 +295,7 @@ private fun SourceNote(source: BookSource) {
     Text(
         when (source) {
             BookSource.GUTENBERG -> tr("Classics from Project Gutenberg, free of copyright in the United States. Each book is judged by its first pages.")
+            BookSource.WIKISOURCE -> tr("Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter.")
             BookSource.GDL -> tr("Children's books from the Global Digital Library, graded by level and free to share under open licences.")
         },
         Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp),
@@ -311,13 +312,15 @@ private fun Centered(content: @Composable () -> Unit) {
 
 private val BookSource.label: String
     get() = when (this) {
-        BookSource.GUTENBERG -> tr("Classics")
+        BookSource.GUTENBERG -> "Gutenberg"
+        BookSource.WIKISOURCE -> "Wikisource"
         BookSource.GDL -> tr("Easy readers")
     }
 
 private val BookSource.libraryName: String
     get() = when (this) {
         BookSource.GUTENBERG -> "Project Gutenberg"
+        BookSource.WIKISOURCE -> "Wikisource"
         BookSource.GDL -> "Global Digital Library"
     }
 

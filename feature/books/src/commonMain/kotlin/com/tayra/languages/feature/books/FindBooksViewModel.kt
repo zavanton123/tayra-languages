@@ -65,10 +65,10 @@ sealed interface FindBooksEvent {
 }
 
 /**
- * Free books for the language being learned, from Project Gutenberg's classics or the Global
- * Digital Library's graded readers. Gutenberg books are judged as they are listed, one after
- * another, from a small sample each; a Global Digital Library book is judged when asked, since
- * that means downloading it whole.
+ * Free books for the language being learned, from Project Gutenberg, Wikisource or the Global
+ * Digital Library's graded readers. Gutenberg and Wikisource books are judged as they are listed,
+ * one after another, from a small sample each; a Global Digital Library book is judged when asked,
+ * since that means downloading it whole.
  */
 class FindBooksViewModel(
     private val discovery: BookDiscoveryService,
@@ -164,7 +164,7 @@ class FindBooksViewModel(
             page = number
             val items = result.books.map { FoundBookItem(it, libraryId = library[it.pageUrl]) }
             _state.update { s -> s.copy(books = s.books + items.filter { new -> s.books.none { it.book.id == new.book.id } }, loading = false, loadingMore = false, hasMore = result.hasMore, error = null) }
-            if (current.source == BookSource.GUTENBERG) checkInTurn(items.map { it.book })
+            if (current.source.judgedOnSight) checkInTurn(items.map { it.book })
         } catch (e: CancellationException) {
             throw e
         } catch (e: Exception) {
@@ -212,5 +212,6 @@ class FindBooksViewModel(
 /** The line that ends a book from a library: where it is from and under what licence. */
 internal fun attribution(book: FoundBook): String = when (book.source) {
     BookSource.GUTENBERG -> tr("Source: Project Gutenberg, «{0}» ({1}), public domain.", book.title, book.pageUrl)
+    BookSource.WIKISOURCE -> tr("Source: Wikisource, «{0}» ({1}), CC BY-SA.", book.title, book.pageUrl)
     BookSource.GDL -> tr("Source: Global Digital Library, «{0}» ({1}), {2}.", book.title, book.pageUrl, book.license.replace('-', ' '))
 }

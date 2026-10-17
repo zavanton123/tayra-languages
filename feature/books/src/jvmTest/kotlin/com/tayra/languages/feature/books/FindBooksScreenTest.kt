@@ -124,6 +124,21 @@ class FindBooksScreenTest {
     }
 
     @Test
+    fun wikisourceBooksAreJudgedOnSightAndCreditedToTheWiki() = runDesktopComposeUiTest(width = 400, height = 1000) {
+        val work = FoundBook(
+            source = BookSource.WIKISOURCE, id = "Dom Casmurro", title = "Dom Casmurro", authors = listOf("Machado de Assis"), description = "", subjects = emptyList(),
+            license = "CC BY-SA", pageUrl = "https://pt.wikisource.org/wiki/Dom_Casmurro", downloadUrl = "https://ws-export.wmcloud.org/?format=epub-3&lang=pt&page=Dom_Casmurro",
+        )
+        show(FindBooksUiState(languageName = "Portuguese", source = BookSource.WIKISOURCE, books = listOf(FoundBookItem(work)), loading = false)) { FindBooksActions() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Dom Casmurro")).fetchSemanticsNodes().isNotEmpty() }
+        screenshot("FIND_BOOKS_WIKISOURCE_SCREENSHOT")
+        // Its words are checked as it is listed, so there is nothing to ask for.
+        assertEquals(0, onAllNodesWithTag("check-Dom Casmurro").fetchSemanticsNodes().size)
+        for (source in BookSource.entries) onNodeWithTag("source-${source.name}").assertExists()
+        assertEquals("Source: Wikisource, «Dom Casmurro» (https://pt.wikisource.org/wiki/Dom_Casmurro), CC BY-SA.", attribution(work))
+    }
+
+    @Test
     fun aLibraryWithoutTheLanguageOffersTheOther() = runDesktopComposeUiTest(width = 1200, height = 800) {
         var source: BookSource? = null
         show(FindBooksUiState(languageName = "Greek", source = BookSource.GDL, loading = false)) { FindBooksActions(onSource = { source = it }) }

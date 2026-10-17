@@ -200,7 +200,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Look in {0}" to "Искать в {0}",
     "Classics from Project Gutenberg, free of copyright in the United States. Each book is judged by its first pages." to "Классика из Project Gutenberg, свободная от авторских прав в США. Каждая книга оценивается по первым страницам.",
     "Children's books from the Global Digital Library, graded by level and free to share under open licences." to "Детские книги из Global Digital Library, разбитые по уровням и распространяемые по открытым лицензиям.",
-    "Classics" to "Классика",
     "Easy readers" to "Лёгкое чтение",
     "Medium" to "Средне",
     "Could not download the book" to "Не удалось скачать книгу",
@@ -208,4 +207,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "This language cannot be checked" to "Этот язык нельзя проверить",
     "Source: Project Gutenberg, «{0}» ({1}), public domain." to "Источник: Project Gutenberg, «{0}» ({1}), общественное достояние.",
     "Source: Global Digital Library, «{0}» ({1}), {2}." to "Источник: Global Digital Library, «{0}» ({1}), {2}.",
+    "Source: Wikisource, «{0}» ({1}), CC BY-SA." to "Источник: Викитека, «{0}» ({1}), CC BY-SA.",
+    "Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter." to "Тексты, набранные добровольцами Викитеки и распространяемые по лицензии CC BY-SA. Без поиска — самые читаемые произведения прошлого месяца. Каждое оценивается по первой главе.",
 )

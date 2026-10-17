@@ -390,14 +390,24 @@ so a reworked course needs a new id.
 
 ## Free online libraries
 
-Books > Find books (`Route.FindBooks`, `FindBooksScreen` in feature/books) searches two libraries
+Books > Find books (`Route.FindBooks`, `FindBooksScreen` in feature/books) searches three libraries
 through `BookCatalog`s in core/data `discover/`: `GutenbergCatalog` reads Project Gutenberg's own OPDS
 search (`/ebooks/search.opds/?query=l.<code> …`), which answers in about a second where Gutendex can
 take most of a minute, and fetches texts from `/cache/epub/<n>/pg<n>.txt`; `GdlCatalog` reads the
 Global Digital Library's content API, whose language slugs are regional (`pt-br`, `es-es,es-ni`), and
-reads a book's ePUB whole, skipping picture books with fewer than 30 words. `BookDiscoveryService`
+reads a book's ePUB whole, skipping picture books with fewer than 30 words. `WikisourceCatalog` uses
+the language's wiki (`<code>.wikisource.org`): without a search, last month's most read pages from
+Wikimedia's page-view API, kept to the works Wikidata types as literature (the most read pages also
+hold laws, anthems and prayers), and with a search the wiki's own, a chapter (`Work/II`) standing for
+its work; Wikidata names the authors, from the edition or the work it is an edition of (P50, P629).
+A work is judged by its first chapter through the wiki's `action=parse`, without the `ws-noexport`
+header, and added from the ePUB of Wikisource's export tool (`ws-export.wmcloud.org`), without the
+title page, the credits and the work's page when that only lists the chapters (`EpubText.read`'s
+`keep`). Wikimedia asks for a User-Agent with a contact address, and `origin=*` lets the web build
+read the wikis. `BookDiscoveryService`
 judges a book by the running words of its opening the reader knows (95% easy, 85% medium); a
-Gutenberg book is judged as it is listed from a 64 KB range request, a GDL book only when asked. The
+Gutenberg or Wikisource book is judged as it is listed (`BookSource.judgedOnSight`), a GDL book only
+when asked. The
 downloads are sent with `Cache-Control: no-store`, or the client's cache would hand back the 64 KB sample
 for the whole text. An added book's source URI is its page in the library, and its text ends with a
 "Source:" line in the interface language. On the web only the Global Digital Library answers, as

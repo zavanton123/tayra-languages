@@ -115,9 +115,10 @@ particles and endings.
   MHTML), Markdown, plain text and subtitle files (SRT, VTT), or paste a text: each becomes plain
   text, with the book's own title. A zipped book (`.fb2.zip`, `.fbz`) is read through; PDF is not
   read in the browser. On desktop and Android, a web page can be imported by its address.
-- Find free books without leaving the app: classics from Project Gutenberg and graded children's
-  readers from the Global Digital Library, each marked easy, medium or hard by the share of its
-  words you already know, and added to your library in one tap with its source on the last line.
+- Find free books without leaving the app: classics from Project Gutenberg, the transcriptions of
+  Wikisource in dozens of languages, and graded children's readers from the Global Digital Library,
+  each marked easy, medium or hard by the share of its words you already know, and added to your
+  library in one tap with its source on the last line.
 - Photos of pages become text too: pick them, or take one with the phone's camera. iOS reads them
   with Vision; Android with ML Kit for Latin, Chinese, Japanese, Korean and Devanagari text and
   Tesseract for other scripts; the desktop with Tesseract. A Tesseract model (1–5 MB) is downloaded
