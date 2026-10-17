@@ -142,6 +142,8 @@ class FindBooksScreenTest {
         assertEquals("Source: Project Gutenberg, «Dom Casmurro», public domain.", attribution(book("55752", "Dom Casmurro", "Machado de Assis")))
         assertEquals("Source: Global Digital Library, «Gata», CC BY-SA 4.0.", attribution(work.copy(source = BookSource.GDL, title = "Gata", license = "CC-BY-SA-4.0")))
         assertEquals("Source: Global Digital Library, «Gata», CC BY 4.0.", attribution(work.copy(source = BookSource.GDL, title = "Gata", license = "CC-BY-4.0")))
+        assertEquals("Source: Ebooks libres et gratuits, «Le Robinson de douze ans», free for non-commercial use.", attribution(work.copy(source = BookSource.ELG, title = "Le Robinson de douze ans", license = "Non-commercial use")))
+        assertEquals("Source: Global Storybooks, «Um homem muito alto», CC BY.", attribution(work.copy(source = BookSource.STORYBOOKS, title = "Um homem muito alto", license = "CC-BY")))
     }
 
     @Test

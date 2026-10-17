@@ -49,6 +49,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     /** Projecto Adamastor's Portuguese classics in today's spelling. */
     ADAMASTOR("Projecto Adamastor", "Adamastor", judgedOnSight = false, tag = "adamastor", host = "projectoadamastor.org", languages = setOf("pt")),
+
+    /** Ebooks libres et gratuits' French classics, free for non-commercial use. */
+    ELG("Ebooks libres et gratuits", "Ebooks libres", judgedOnSight = false, tag = "ebooksgratuits", host = "ebooksgratuits.com", languages = setOf("fr")),
     ;
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages
