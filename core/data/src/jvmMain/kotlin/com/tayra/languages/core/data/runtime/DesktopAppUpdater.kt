@@ -305,13 +305,16 @@ class DesktopAppUpdater(
             exit 0
         """.trimIndent() + "\n"
 
-        /** Waits for the app (%1) to quit, then upgrades it from the MSI (%2) and starts it again (%3). */
+        /**
+         * Waits for the app (%1) to quit, then upgrades it from the MSI (%2) and starts it again (%3).
+         * `ping` waits the second, as `timeout` refuses to run without a console to read.
+         */
         internal val MSI_SCRIPT = """
             @echo off
             :wait
             tasklist /FI "PID eq %1" 2>nul | find "%1" >nul
             if not errorlevel 1 (
-              timeout /t 1 /nobreak >nul
+              ping -n 2 127.0.0.1 >nul
               goto wait
             )
             msiexec /i "%~2" /passive /norestart /l*v "%~2.log"

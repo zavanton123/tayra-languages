@@ -162,6 +162,12 @@ To try an update without publishing a release, build an older app and a newer in
 `digest`), and start the older app with `-Dtayra.updateFeed=<that URL>` (and `-Dtayra.dataDir`,
 to keep the library out of it). `AppUpdatesTest` runs the macOS and tarball scripts on real
 archives (`hdiutil`, `tar`); `AppUpdatesScreenTest` the banner and the Settings card.
+`.github/workflows/update-check.yml` does the whole thing on each system, by hand from the Actions
+tab or when the updater changes: it builds version 0.0.1 and 0.0.2 installers, installs 0.0.1
+(the DMG's app, the MSI, the DEB, the tarball), serves a releases list made by
+`tools/make_update_feed.py`, and runs `UpdateInstallCheck`, which updates the installed app with
+`DesktopAppUpdater` (with `sudo` for `pkexec`) and quits, then checks that 0.0.2 took its place. The
+RPM is upgraded in a Fedora container with the command the app runs.
 
 Locally:
 

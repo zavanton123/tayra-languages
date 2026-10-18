@@ -2,7 +2,9 @@ name: Update check
 
 # Installs an old version of the desktop app on each system, then updates it to a newer one the way
 # the app does (DesktopAppUpdater, driven by core/data's UpdateInstallCheck) from a releases list
-# served on the runner, and checks that the newer version took the old one's place.
+# served on the runner, and checks that the newer version took the old one's place. The install
+# script goes on after the test that starts it has ended, and a runner ends what a step started
+# when the step ends, so each update is waited for in the step that starts it.
 on:
   workflow_dispatch:
   push:
@@ -40,6 +42,7 @@ jobs:
           cp $B/dmg/*.dmg "$RUNNER_TEMP/feed/TayraLanguages-$NEW-macos-arm64.dmg"
       - name: Update the old app as it does itself
         run: |
+          set -o pipefail
           (cd "$RUNNER_TEMP/feed" && python3 "$GITHUB_WORKSPACE/tools/make_update_feed.py" $NEW http://127.0.0.1:8765 TayraLanguages-$NEW-macos-arm64.dmg)
           (cd "$RUNNER_TEMP/feed" && python3 -m http.server 8765 --bind 127.0.0.1 > "$RUNNER_TEMP/server.log" 2>&1 &)
           sleep 2
@@ -47,8 +50,6 @@ jobs:
             TAYRA_UPDATE_WORK="$RUNNER_TEMP/work dir" TAYRA_UPDATE_EXPECT=MAC_APP \
             ./gradlew --no-daemon :core:data:jvmTest --tests '*UpdateInstallCheck*' --rerun -i > "$RUNNER_TEMP/check.log" 2>&1 || { tail -80 "$RUNNER_TEMP/check.log"; exit 1; }
           grep -E "Installing|would quit" "$RUNNER_TEMP/check.log"
-      - name: Check that the new version took the old one's place
-        run: |
           cfg="$RUNNER_TEMP/Apps/TayraLanguages.app/Contents/app/TayraLanguages.cfg"
           for i in $(seq 1 90); do grep -q "tayra.version=$NEW" "$cfg" 2>/dev/null && break; sleep 2; done
           cat "$RUNNER_TEMP/work dir/update.log" || true
@@ -92,24 +93,16 @@ jobs:
           (cd "$RUNNER_TEMP/feed" && python "$GITHUB_WORKSPACE/tools/make_update_feed.py" $NEW http://127.0.0.1:8765 TayraLanguages-$NEW-windows-x64.msi)
           (cd "$RUNNER_TEMP/feed" && python -m http.server 8765 --bind 127.0.0.1 > "$RUNNER_TEMP/server.log" 2>&1 &)
           sleep 3
-          TAYRA_UPDATE_LAUNCHER="$LAUNCHER" TAYRA_UPDATE_FROM=$OLD TAYRA_UPDATE_FEED=$FEED \
-            TAYRA_UPDATE_WORK="$RUNNER_TEMP\\work dir" TAYRA_UPDATE_EXPECT=WINDOWS_MSI \
+          work="$RUNNER_TEMP\\work dir"
+          TAYRA_UPDATE_LAUNCHER="$LAUNCHER" TAYRA_UPDATE_FROM=$OLD TAYRA_UPDATE_FEED=$FEED TAYRA_UPDATE_WORK="$work" TAYRA_UPDATE_EXPECT=WINDOWS_MSI \
             ./gradlew --no-daemon :core:data:jvmTest --tests '*UpdateInstallCheck*' --rerun -i > "$RUNNER_TEMP/check.log" 2>&1 || { tail -80 "$RUNNER_TEMP/check.log"; exit 1; }
           grep -E "Installing|would quit" "$RUNNER_TEMP/check.log"
-      - name: Check that the new version took the old one's place
-        shell: pwsh
-        run: |
-          $cfg = Join-Path (Split-Path $env:LAUNCHER) 'app\TayraLanguages.cfg'
-          $updated = $false
-          for ($i = 0; $i -lt 120; $i++) {
-            if (Select-String -Path $cfg -Pattern "tayra.version=$env:NEW" -Quiet -ErrorAction SilentlyContinue) { $updated = $true; break }
-            Start-Sleep -Seconds 2
-          }
-          Get-Content "$env:RUNNER_TEMP\work dir\update.log" -ErrorAction SilentlyContinue
-          Get-Content "$env:RUNNER_TEMP\work dir\TayraLanguages-$env:NEW-windows-x64.msi.log" -Tail 40 -ErrorAction SilentlyContinue
-          Select-String -Path $cfg -Pattern "tayra.version"
-          if (-not $updated) { exit 1 }
-          Get-Process TayraLanguages -ErrorAction SilentlyContinue | Format-Table Id, Path
+          cfg="$(dirname "$(cygpath -u "$LAUNCHER")")/app/TayraLanguages.cfg"
+          for i in $(seq 1 120); do grep -q "tayra.version=$NEW" "$cfg" 2>/dev/null && break; sleep 2; done
+          iconv -f UTF-16LE -t UTF-8 "$(cygpath -u "$work")/TayraLanguages-$NEW-windows-x64.msi.log" 2>/dev/null | tail -40 || true
+          grep "tayra.version" "$cfg"
+          grep -q "tayra.version=$NEW" "$cfg"
+          tasklist //FI "IMAGENAME eq TayraLanguages.exe"
 
   linux:
     name: Linux DEB and tarball
@@ -128,9 +121,10 @@ jobs:
           B=desktopApp/build/compose/binaries/main
           ./gradlew --no-daemon :desktopApp:packageDeb :desktopApp:packageRpm :desktopApp:createDistributable -PreleaseVersion=$OLD
           mkdir -p "$RUNNER_TEMP/old" "$RUNNER_TEMP/feed" "$RUNNER_TEMP/tar" rpms
+          ls $B/app
           cp $B/deb/*.deb "$RUNNER_TEMP/old/old.deb"
           cp $B/rpm/*.rpm rpms/old.rpm
-          cp -r $B/app/tayra-languages "$RUNNER_TEMP/tar/"
+          cp -r $B/app/* "$RUNNER_TEMP/tar/"
           rm -rf $B/deb $B/rpm $B/app
           ./gradlew --no-daemon :desktopApp:packageDeb :desktopApp:packageRpm :desktopApp:createDistributable -PreleaseVersion=$NEW
           cp $B/deb/*.deb "$RUNNER_TEMP/feed/TayraLanguages-$NEW-linux-amd64.deb"
@@ -144,29 +138,32 @@ jobs:
       - name: Install the old Debian package
         run: |
           sudo apt-get install -y "$RUNNER_TEMP/old/old.deb"
-          grep "tayra.version=$OLD" /opt/tayra-languages/lib/app/tayra-languages.cfg
+          dpkg -L tayra-languages | grep -E '/bin/|\.cfg$'
       - name: Update both old versions as they do themselves
         run: |
           (cd "$RUNNER_TEMP/feed" && python3 "$GITHUB_WORKSPACE/tools/make_update_feed.py" $NEW http://127.0.0.1:8765 TayraLanguages-$NEW-linux-amd64.deb TayraLanguages-$NEW-linux-x86_64.rpm TayraLanguages-$NEW-linux-x64.tar.gz)
           (cd "$RUNNER_TEMP/feed" && python3 -m http.server 8765 --bind 127.0.0.1 > "$RUNNER_TEMP/server.log" 2>&1 &)
           sleep 2
-          for target in "/opt/tayra-languages/bin/tayra-languages LINUX_DEB deb" "$RUNNER_TEMP/tar/tayra-languages/bin/tayra-languages LINUX_TAR tar"; do
-            set -- $target
-            TAYRA_UPDATE_LAUNCHER="$1" TAYRA_UPDATE_FROM=$OLD TAYRA_UPDATE_FEED=$FEED TAYRA_UPDATE_WORK="$RUNNER_TEMP/work $3" TAYRA_UPDATE_EXPECT=$2 \
-              ./gradlew --no-daemon :core:data:jvmTest --tests '*UpdateInstallCheck*' --rerun -i > "$RUNNER_TEMP/check.log" 2>&1 || { tail -80 "$RUNNER_TEMP/check.log"; exit 1; }
-            grep -E "Installing|would quit" "$RUNNER_TEMP/check.log"
+          # The app's own launcher and settings file, besides the bundled `tayra` command's.
+          deb_launcher=$(dpkg -L tayra-languages | grep '/bin/' | grep -v '/bin/tayra$' | head -n 1)
+          deb_cfg=$(dpkg -L tayra-languages | grep '/lib/app/.*\.cfg$' | grep -v '/tayra\.cfg$' | head -n 1)
+          tar_launcher=$(find "$RUNNER_TEMP/tar" -mindepth 3 -maxdepth 3 -path '*/bin/*' -type f ! -name tayra | head -n 1)
+          tar_root=$(dirname "$(dirname "$tar_launcher")")
+          tar_cfg=$(find "$tar_root/lib/app" -name '*.cfg' ! -name tayra.cfg | head -n 1)
+          echo "DEB: $deb_launcher $deb_cfg"; echo "Tarball: $tar_launcher $tar_cfg"
+          for target in "$deb_launcher|LINUX_DEB|deb" "$tar_launcher|LINUX_TAR|tar"; do
+            IFS='|' read -r launcher kind name <<< "$target"
+            TAYRA_UPDATE_LAUNCHER="$launcher" TAYRA_UPDATE_FROM=$OLD TAYRA_UPDATE_FEED=$FEED TAYRA_UPDATE_WORK="$RUNNER_TEMP/work $name" TAYRA_UPDATE_EXPECT=$kind \
+              ./gradlew --no-daemon :core:data:jvmTest --tests '*UpdateInstallCheck*' --rerun -i > "$RUNNER_TEMP/check-$name.log" 2>&1 || { tail -80 "$RUNNER_TEMP/check-$name.log"; exit 1; }
+            grep -E "Installing|would quit" "$RUNNER_TEMP/check-$name.log"
           done
-      - name: Check that the new versions took the old ones' place
-        run: |
-          deb=/opt/tayra-languages/lib/app/tayra-languages.cfg
-          tarball="$RUNNER_TEMP/tar/tayra-languages/lib/app/tayra-languages.cfg"
-          for i in $(seq 1 90); do grep -q "tayra.version=$NEW" "$tarball" 2>/dev/null && break; sleep 2; done
+          for i in $(seq 1 90); do grep -q "tayra.version=$NEW" "$tar_cfg" 2>/dev/null && break; sleep 2; done
           cat "$RUNNER_TEMP/work deb/update.log" "$RUNNER_TEMP/work tar/update.log" || true
-          grep -H "tayra.version" "$deb" "$tarball"
-          grep -q "tayra.version=$NEW" "$deb"
-          grep -q "tayra.version=$NEW" "$tarball"
+          grep -H "tayra.version" "$deb_cfg" "$tar_cfg"
+          grep -q "tayra.version=$NEW" "$deb_cfg"
+          grep -q "tayra.version=$NEW" "$tar_cfg"
           dpkg-query -W tayra-languages
-          test "$(ls "$RUNNER_TEMP/tar")" = "tayra-languages"
+          test "$(ls "$RUNNER_TEMP/tar" | wc -l)" -eq 1
 
   rpm:
     name: Linux RPM
@@ -181,8 +178,9 @@ jobs:
       - name: Install the old package, then upgrade it with the command the app runs
         run: |
           dnf install -y ./rpms/old.rpm
-          grep "tayra.version=$OLD" /opt/tayra-languages/lib/app/tayra-languages.cfg
+          cfg=$(rpm -ql tayra-languages | grep '/lib/app/.*\.cfg$' | grep -v '/tayra\.cfg$' | head -n 1)
+          grep "tayra.version=$OLD" "$cfg"
           # The app runs this under pkexec, which asks for the password.
           rpm -U --replacepkgs ./rpms/new.rpm
-          grep "tayra.version=$NEW" /opt/tayra-languages/lib/app/tayra-languages.cfg
+          grep "tayra.version=$NEW" "$cfg"
           rpm -q tayra-languages
