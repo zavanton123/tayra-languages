@@ -185,8 +185,9 @@ class DesktopAppUpdater(
                 start(listOf("/bin/bash", script.absolutePath, pid, file.absolutePath, installedRoot!!.absolutePath, appLauncher!!.absolutePath), log)
             }
             Installation.WINDOWS_MSI -> {
+                // A process started from Java gets no console window, and outlives the app.
                 val script = script("install-msi.cmd", MSI_SCRIPT)
-                start(listOf("cmd.exe", "/c", "start", "\"\"", "/min", script.absolutePath, pid, file.absolutePath, appLauncher!!.absolutePath), log)
+                start(listOf("cmd.exe", "/c", script.absolutePath, pid, file.absolutePath, appLauncher!!.absolutePath), log)
             }
             Installation.LINUX_DEB, Installation.LINUX_RPM -> {
                 val install = if (kind == Installation.LINUX_DEB) listOf("dpkg", "-i") else listOf("rpm", "-U", "--replacepkgs")
@@ -306,19 +307,26 @@ class DesktopAppUpdater(
         """.trimIndent() + "\n"
 
         /**
-         * Waits for the app (%1) to quit, then upgrades it from the MSI (%2) and starts it again (%3).
-         * `ping` waits the second, as `timeout` refuses to run without a console to read.
+         * Waits for the app (%1) to quit, then upgrades it from the MSI (%2) and starts it again (%3),
+         * noting what it does in update.log beside itself. Windows' own tools are called by their
+         * paths: a PATH with Git's tools in it would give Unix `find` for `find`, and `ping` waits the
+         * second, as `timeout` refuses to run without a console to read.
          */
         internal val MSI_SCRIPT = """
             @echo off
+            set "tools=%SystemRoot%\System32"
+            set "log=%~dp0update.log"
+            echo %date% %time%: updating %~3 from %~2>> "%log%"
             :wait
-            tasklist /FI "PID eq %1" 2>nul | find "%1" >nul
+            "%tools%\tasklist.exe" /FI "PID eq %1" /NH 2>nul | "%tools%\find.exe" " %1 " >nul
             if not errorlevel 1 (
-              ping -n 2 127.0.0.1 >nul
+              "%tools%\PING.EXE" -n 2 127.0.0.1 >nul
               goto wait
             )
-            msiexec /i "%~2" /passive /norestart /l*v "%~2.log"
-            if not errorlevel 1 del "%~2"
+            start "" /wait "%tools%\msiexec.exe" /i "%~2" /passive /norestart /l*v "%~2.log"
+            set "code=%errorlevel%"
+            echo %date% %time%: msiexec ended with %code%>> "%log%"
+            if "%code%"=="0" del "%~2"
             start "" "%~3"
         """.trimIndent().replace("\n", "\r\n") + "\r\n"
     }

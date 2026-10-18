@@ -99,6 +99,7 @@ jobs:
           grep -E "Installing|would quit" "$RUNNER_TEMP/check.log"
           cfg="$(dirname "$(cygpath -u "$LAUNCHER")")/app/TayraLanguages.cfg"
           for i in $(seq 1 120); do grep -q "tayra.version=$NEW" "$cfg" 2>/dev/null && break; sleep 2; done
+          cat "$(cygpath -u "$work")/update.log" || true
           iconv -f UTF-16LE -t UTF-8 "$(cygpath -u "$work")/TayraLanguages-$NEW-windows-x64.msi.log" 2>/dev/null | tail -40 || true
           grep "tayra.version" "$cfg"
           grep -q "tayra.version=$NEW" "$cfg"
@@ -137,6 +138,8 @@ jobs:
           path: rpms
       - name: Install the old Debian package
         run: |
+          # The package adds a menu entry, which needs the menu folders a desktop has and the runner lacks.
+          sudo mkdir -p /etc/xdg/menus /usr/share/applications /usr/share/desktop-directories
           sudo apt-get install -y "$RUNNER_TEMP/old/old.deb"
           dpkg -L tayra-languages | grep -E '/bin/|\.cfg$'
       - name: Update both old versions as they do themselves
