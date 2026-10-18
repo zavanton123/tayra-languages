@@ -107,8 +107,13 @@ def read_book(file, title, description, work):
     return {"file": file, "title": title, "description": description, "text": text}
 
 
+def radicals_as_characters(text):
+    """Kangxi radicals, which Chinese books draw some characters with (⿃ for 鳥), as those characters."""
+    return "".join(unicodedata.normalize("NFKC", c) if "\u2f00" <= c <= "\u2fdf" else c for c in text)
+
+
 def described(book):
-    """What a book's text says of it: its language on the back cover, just before its level, its credits and its story's length."""
+    """What a book's text says of it: its title and credits on the cover, its language on the back cover, just before its level, and its story's length."""
     lines = [line.strip() for line in book["text"].splitlines() if line.strip()]
     level, label = None, None
     for i, line in enumerate(lines):
@@ -124,15 +129,18 @@ def described(book):
     for line in body[:cover + 1]:
         found = CREDIT.match(line)
         if found:
-            credits[found.group(1).rstrip("s")].append(found.group(2).strip())
+            credits[found.group(1).rstrip("s")].append(radicals_as_characters(found.group(2).strip()))
     story = [line for line in body[cover + 1 if cover >= 0 else 1:] if not line.isdigit()]
     joined = " ".join(story)
     words = sum(1 for word in joined.split() if any(c.isalpha() for c in word))
     # Unspaced scripts: about two characters a word.
     if scripts(joined) & {"CJK", "HIRAGANA", "KATAKANA"}:
         words = sum(1 for c in joined if c.isalpha()) // 2
+    # The cover's title, in the book's language; Kolibri's catalog gives some translations the original's.
+    first = min((i for i, line in enumerate(body[:CREDITS_WITHIN]) if CREDIT.match(line)), default=0)
+    title = radicals_as_characters(" ".join(body[:first])) if first > 0 else None
     return {
-        "label": label, "level": level, "words": words,
+        "label": label, "level": level, "words": words, "cover_title": title,
         "author": ", ".join(credits.get("Author", [])), "translator": ", ".join(credits.get("Translator", [])),
     }
 
@@ -190,7 +198,7 @@ def write(min_words):
             skipped["too few words"] += 1
             continue
         authors = ", ".join(a for a in [book["author"], book["translator"] and f"tr. {book['translator']}"] if a)
-        by_language[code].append([book["file"], str(book["level"] or ""), str(book["words"]), clean(book["title"]), clean(authors), clean(book["description"])[:300], cover.get(book["file"], "")])
+        by_language[code].append([book["file"], str(book["level"] or ""), str(book["words"]), clean(book["cover_title"] or book["title"]), clean(authors), clean(book["description"])[:300], cover.get(book["file"], "")])
     os.makedirs(OUT, exist_ok=True)
     for name in os.listdir(OUT):
         if name.endswith(".tsv"):
