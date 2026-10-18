@@ -505,6 +505,21 @@ closing notes: public domain, Free Art License 1.3 or CC BY-SA 3.0).
   `##`, credits as `* Text: …`. The first seven collections number the African Storybook's stories
   alike, so a language has each once. A page's 20 files are fetched as it is listed, for their titles
   and authors, and kept. `nb` serves Norwegian; `ha-ne`-style folders their base language.
+- `StoryWeaverCatalog` (the languages of `data/storyweaver/`; not in the browser, which reads no
+  PDF): Pratham Books' StoryWeaver as Kolibri Studio keeps it (channel
+  `131e543dbecf5776bb13cfcfddf05605`, published 2018, CC BY 4.0), whose own site needs a login for a
+  book's text. Kolibri's catalog marks every book English, so `tools/build_storyweaver_index.py`
+  reads every PDF whose title is in a script pdftotext reads whole (Indic scripts and Arabic come
+  out broken, and Hebrew falls apart into letters) for the language its back cover names ("(Portuguese)"), its level ("This is a Level 2
+  book"), its credits and its length, leaves out books in two languages, in languages the app does
+  not know and of fewer than 30 words, and writes `data/storyweaver/<code>.tsv` (file id, level,
+  words, title, authors, description, cover). The app reads a language's file through jsDelivr from
+  this repository; a book is `content/storage/<a>/<b>/<id>.pdf` on Studio, read with `pdfLines`
+  without the cover's title and credits, the page numbers and everything from "This book was made
+  possible by Pratham Books", "Story Attribution:" or "Illustration Attributions:" on; Kangxi
+  radicals (⿃) become the characters they stand for. Rerunning the script reads only new books (the
+  texts are kept in `tools/books/.cache/storyweaver/`); `--write` rebuilds the index from them and
+  writes the languages it has into `STORYWEAVER_LANGUAGES` in BookDiscovery.kt.
 - `ElgCatalog` (fr): Ebooks libres et gratuits' OPDS (`/opds/feed.php`); unsearched `mode=genre&id=6`
   (Jeunesse), a search `mode=search`, pages from 0. The ePUB without calibre's `titlepage`, a short
   title page and everything from "À propos de cette édition électronique". "Non-commercial use".

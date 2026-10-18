@@ -135,7 +135,8 @@ particles and endings.
   read in the browser. On desktop and Android, a web page can be imported by its address.
 - Find free books without leaving the app: classics from Project Gutenberg, the transcriptions of
   Wikisource in dozens of languages, graded children's readers from the Global Digital Library,
-  Global Storybooks' short picture-book stories in about 150 languages, and for some languages a
+  Global Storybooks' short picture-book stories in about 150 languages, StoryWeaver's graded
+  picture books (desktop and Android, as they come as PDFs), and for some languages a
   library of their own: Wolne Lektury (Polish), Aozora Bunko (Japanese), Litteraturbanken (Swedish),
   Project Ben-Yehuda (Hebrew), Arkiv for Dansk Litteratur (Danish), Ganjoor (Persian), Projecto
   Adamastor (Portuguese), Ebooks libres et gratuits (French), TextGrid (German), Liber Liber

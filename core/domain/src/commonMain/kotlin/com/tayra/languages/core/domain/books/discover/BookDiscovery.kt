@@ -29,6 +29,12 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
     /** Global Storybooks' short illustrated stories for children, in scores of languages. */
     STORYBOOKS("Global Storybooks", "Storybooks", judgedOnSight = true, tag = "storybooks", host = "github.com/global-asp"),
 
+    /**
+     * Pratham Books' StoryWeaver picture books, graded by level, from Kolibri Studio's copy; the
+     * languages tools/build_storyweaver_index.py found books in whose text reads cleanly.
+     */
+    STORYWEAVER("StoryWeaver", "StoryWeaver", judgedOnSight = false, tag = "storyweaver", host = "learningequality.org", languages = STORYWEAVER_LANGUAGES),
+
     /** Wolne Lektury's Polish school readings and classics. */
     WOLNE_LEKTURY("Wolne Lektury", "Wolne Lektury", judgedOnSight = true, tag = "wolnelektury", host = "wolnelektury.pl", languages = setOf("pl")),
 
@@ -65,6 +71,9 @@ enum class BookSource(val libraryName: String, val shortName: String, val judged
 
     fun serves(languageCode: String): Boolean = languages == null || languageCode in languages
 }
+
+/** The languages data/storyweaver/ has a list of books for. */
+private val STORYWEAVER_LANGUAGES = setOf<String>("af", "ca", "cs", "da", "de", "el", "en", "eo", "es", "fi", "fr", "hr", "hu", "id", "it", "ja", "ko", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sq", "sv", "sw", "tl", "tr", "vi", "yue", "zh")
 
 enum class Difficulty { EASY, MEDIUM, HARD }
 
