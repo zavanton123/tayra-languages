@@ -15,11 +15,12 @@ permissions:
 env:
   RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
 
-# Course-pack releases (courses-v1, ...) only carry data files, so the apps are built for app tags alone.
+# Data releases (courses-v1, freedict-v1, ...) only carry data files, so the apps are built for app tags (vX.Y.Z) alone,
+# and a data release hands the "latest" mark back to the newest app release, which the app's updates and the README link to.
 jobs:
   android:
     name: Android APK
-    if: ${{ !startsWith(github.event.release.tag_name || inputs.tag, 'courses-') }}
+    if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -54,7 +55,7 @@ jobs:
 
   macos:
     name: macOS DMG
-    if: ${{ !startsWith(github.event.release.tag_name || inputs.tag, 'courses-') }}
+    if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
@@ -77,7 +78,7 @@ jobs:
 
   windows:
     name: Windows MSI
-    if: ${{ !startsWith(github.event.release.tag_name || inputs.tag, 'courses-') }}
+    if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
     runs-on: windows-latest
     defaults:
       run:
@@ -103,7 +104,7 @@ jobs:
 
   linux:
     name: Linux DEB, RPM and tarball
-    if: ${{ !startsWith(github.event.release.tag_name || inputs.tag, 'courses-') }}
+    if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -128,3 +129,16 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release upload "$RELEASE_TAG" TayraLanguages-*.deb TayraLanguages-*.rpm TayraLanguages-*.tar.gz --clobber
+
+  keep-app-latest:
+    name: Keep the newest app release marked latest
+    if: ${{ !startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mark the newest vX.Y.Z release as latest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=$(gh release list --repo "$GITHUB_REPOSITORY" --exclude-drafts --exclude-pre-releases --limit 100 --json tagName \
+            --jq '[.[].tagName | select(test("^v[0-9]+\\.[0-9]+\\.[0-9]+$"))] | sort_by(ltrimstr("v") | split(".") | map(tonumber)) | last')
+          if [ -n "$TAG" ] && [ "$TAG" != "null" ]; then gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --latest; fi
