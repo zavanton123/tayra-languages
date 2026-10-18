@@ -1,0 +1,30 @@
+package com.tayra.languages.core.ui.i18n.zh
+
+/** The home page. */
+internal val zhHome: Map<String, String> = mapOf(
+    "Pick up where you left off." to "从上次停下的地方继续。",
+    "Pick up where you left off in {0}." to "从上次停下的地方继续学习{0}。",
+    "Words added today" to "今日添加单词",
+    "Day streak" to "连续天数",
+    "Study today to keep it going" to "今天学习一下，保持连续记录",
+    "Study today to start a streak" to "今天学习一下，开始连续记录",
+    "Continue course" to "继续课程",
+    "Start course" to "开始课程",
+    "Lesson {0}: {1}" to "第 {0} 篇：{1}",
+    "No course in progress" to "没有进行中的课程",
+    "Choose a course to start learning." to "选择一个课程开始学习。",
+    "Browse courses" to "浏览课程",
+    "Continue book" to "继续读书",
+    "Page {0} of {1}" to "第 {0} 页，共 {1} 页",
+    "No book in progress" to "没有在读的书",
+    "Open a book from your library to start reading." to "从书库中打开一本书开始阅读。",
+    "Browse books" to "浏览书籍",
+    "{1} cards due today" to "今日 {1} 张卡片待复习",
+    "All caught up" to "全部复习完了",
+    "Review them to keep your words fresh." to "复习它们，让单词记忆常新。",
+    "No cards are due right now." to "现在没有待复习的卡片。",
+    "Study activity" to "学习活动",
+    "{1} days studied since {2}" to "自 {2} 起共学习 {1} 天",
+    "Less study" to "学习较少",
+    "More study" to "学习较多",
+)

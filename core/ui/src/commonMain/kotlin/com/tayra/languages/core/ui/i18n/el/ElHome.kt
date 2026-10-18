@@ -1,0 +1,30 @@
+package com.tayra.languages.core.ui.i18n.el
+
+/** The home page. */
+internal val elHome: Map<String, String> = mapOf(
+    "Pick up where you left off." to "Συνεχίστε από εκεί που σταματήσατε.",
+    "Pick up where you left off in {0}." to "Συνεχίστε από εκεί που σταματήσατε στα {0}.",
+    "Words added today" to "Νέες λέξεις σήμερα",
+    "Day streak" to "Ημέρες στη σειρά",
+    "Study today to keep it going" to "Μελετήστε σήμερα για να μη χαθεί το σερί",
+    "Study today to start a streak" to "Μελετήστε σήμερα για να ξεκινήσει ένα σερί",
+    "Continue course" to "Συνέχεια μαθήματος",
+    "Start course" to "Έναρξη μαθήματος",
+    "Lesson {0}: {1}" to "Ενότητα {0}: {1}",
+    "No course in progress" to "Κανένα μάθημα σε εξέλιξη",
+    "Choose a course to start learning." to "Επιλέξτε ένα μάθημα για να ξεκινήσετε.",
+    "Browse courses" to "Περιήγηση στα μαθήματα",
+    "Continue book" to "Συνέχεια βιβλίου",
+    "Page {0} of {1}" to "Σελίδα {0} από {1}",
+    "No book in progress" to "Κανένα βιβλίο σε εξέλιξη",
+    "Open a book from your library to start reading." to "Ανοίξτε ένα βιβλίο από τη βιβλιοθήκη σας για να ξεκινήσετε την ανάγνωση.",
+    "Browse books" to "Περιήγηση στα βιβλία",
+    "{1} cards due today" to "{1} κάρτα για επανάληψη σήμερα|{1} κάρτες για επανάληψη σήμερα",
+    "All caught up" to "Όλα ενημερωμένα",
+    "Review them to keep your words fresh." to "Επαναλάβετε τις για να μην ξεχνάτε τις λέξεις σας.",
+    "No cards are due right now." to "Δεν υπάρχουν κάρτες για επανάληψη αυτή τη στιγμή.",
+    "Study activity" to "Δραστηριότητα μελέτης",
+    "{1} days studied since {2}" to "{1} ημέρα μελέτης από {2}|{1} ημέρες μελέτης από {2}",
+    "Less study" to "Λιγότερη μελέτη",
+    "More study" to "Περισσότερη μελέτη",
+)

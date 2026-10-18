@@ -120,7 +120,8 @@ Serbian, Slovak, Slovene, Spanish, Swedish, Tagalog, Thai, Toki Pona, Turkish, U
 Vietnamese, Welsh or Yiddish, with meanings shown in English, Chinese, French, German, Greek,
 Polish, Portuguese, Russian or Spanish. Each language comes with a tutorial book on learning it
 with the app, written in that language. The Languages page sets the language being learned, the
-native language meanings are shown in, and the language of the interface (English or Russian).
+native language meanings are shown in, and the language of the interface: English, Chinese, French,
+German, Greek, Polish, Portuguese (Brazilian), Russian or Spanish.
 
 Right-to-left scripts (Arabic, Hebrew, Farsi, Yiddish, Assyrian) read right to left. Chinese,
 Cantonese, Japanese, Thai, Lao and Khmer, written without spaces, are cut into words with the

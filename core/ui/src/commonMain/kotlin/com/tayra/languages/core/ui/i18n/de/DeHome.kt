@@ -1,0 +1,30 @@
+package com.tayra.languages.core.ui.i18n.de
+
+/** The home page. */
+internal val deHome: Map<String, String> = mapOf(
+    "Pick up where you left off." to "Mach dort weiter, wo du aufgehört hast.",
+    "Pick up where you left off in {0}." to "Mach in {0} dort weiter, wo du aufgehört hast.",
+    "Words added today" to "Neue Wörter heute",
+    "Day streak" to "Tage in Folge",
+    "Study today to keep it going" to "Lerne heute, damit die Serie weitergeht",
+    "Study today to start a streak" to "Lerne heute, um eine Serie zu starten",
+    "Continue course" to "Kurs fortsetzen",
+    "Start course" to "Kurs starten",
+    "Lesson {0}: {1}" to "Lektion {0}: {1}",
+    "No course in progress" to "Kein Kurs begonnen",
+    "Choose a course to start learning." to "Wähle einen Kurs, um mit dem Lernen zu beginnen.",
+    "Browse courses" to "Kurse ansehen",
+    "Continue book" to "Buch fortsetzen",
+    "Page {0} of {1}" to "Seite {0} von {1}",
+    "No book in progress" to "Kein Buch begonnen",
+    "Open a book from your library to start reading." to "Öffne ein Buch aus deiner Bibliothek, um mit dem Lesen zu beginnen.",
+    "Browse books" to "Bücher ansehen",
+    "{1} cards due today" to "{1} Karte heute fällig|{1} Karten heute fällig",
+    "All caught up" to "Alles erledigt",
+    "Review them to keep your words fresh." to "Wiederhole sie, damit deine Wörter frisch bleiben.",
+    "No cards are due right now." to "Gerade sind keine Karten fällig.",
+    "Study activity" to "Lernaktivität",
+    "{1} days studied since {2}" to "{1} Lerntag seit {2}|{1} Lerntage seit {2}",
+    "Less study" to "Weniger Lernen",
+    "More study" to "Mehr Lernen",
+)

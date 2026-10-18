@@ -1,16 +1,24 @@
 package com.tayra.languages.core.ui.i18n
 
+import com.tayra.languages.core.ui.i18n.de.germanParts
+import com.tayra.languages.core.ui.i18n.el.greekParts
+import com.tayra.languages.core.ui.i18n.es.spanishParts
+import com.tayra.languages.core.ui.i18n.fr.frenchParts
+import com.tayra.languages.core.ui.i18n.pl.polishParts
+import com.tayra.languages.core.ui.i18n.pt.portugueseParts
 import com.tayra.languages.core.ui.i18n.ru.russianParts
-import com.tayra.languages.core.ui.i18n.ru.russianStrings
+import com.tayra.languages.core.ui.i18n.zh.chineseParts
 import java.io.File
+import kotlin.test.AfterTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import kotlin.test.fail
 
 /**
- * Every text the sources pass to `tr` and `trPlural` as a literal has its Russian translation,
- * with the same placeholders, and no two areas translate the same text differently.
+ * Every text the sources pass to `tr` and `trPlural` as a literal has its translation in every
+ * interface language, with the same placeholders and as many plural forms as the language has;
+ * every language translates the texts the others do, and no two areas translate a text differently.
  */
 class TranslationsTest {
 
@@ -20,10 +28,24 @@ class TranslationsTest {
         .map { File(root, it) }
         .flatMap { dir -> dir.walkTopDown().filter { it.isFile && it.extension == "kt" && "/src/" in it.path && "Main/" in it.path && "/build/" !in it.path }.toList() }
 
+    /** Each translation's areas, by its language's code. */
+    private val parts: Map<String, List<Pair<String, Map<String, String>>>> = mapOf(
+        "zh" to chineseParts, "fr" to frenchParts, "de" to germanParts, "el" to greekParts,
+        "pl" to polishParts, "pt" to portugueseParts, "ru" to russianParts, "es" to spanishParts,
+    )
+
+    @AfterTest
+    fun backToEnglish() = UiLanguage.set("en")
+
     @Test
-    fun everyTextHasItsRussianTranslation() {
+    fun everyLanguageIsTranslated() {
+        assertEquals(UiLanguage.supported.filter { it != "en" }.toSet(), parts.keys)
+    }
+
+    @Test
+    fun everyTextHasItsTranslations() {
         val problems = mutableListOf<String>()
-        val missing = linkedSetOf<String>()
+        val missing = mutableMapOf<String, MutableSet<String>>()
         for (file in sources) {
             val text = file.readText()
             for (call in calls(text)) {
@@ -32,44 +54,81 @@ class TranslationsTest {
                     "tr" -> {
                         val arg = call.args.firstOrNull() ?: continue
                         val key = literal(arg, where, problems) ?: continue
-                        val russian = russianStrings[key]
-                        if (russian == null) missing += key
-                        else if (placeholders(russian) != placeholders(key)) problems += "$where: placeholders differ in \"$key\" → \"$russian\""
+                        for (code in parts.keys) {
+                            val translated = translationOf(code)!![key]
+                            if (translated == null) missing.getOrPut(code) { linkedSetOf() } += key
+                            else if (placeholders(translated) != placeholders(key)) problems += "$where: $code placeholders differ in \"$key\" → \"$translated\""
+                        }
                     }
                     "trPlural" -> {
                         if (call.args.size < 3) { problems += "$where: trPlural needs a count, one and other"; continue }
                         literal(call.args[1], where, problems) ?: continue
                         val other = literal(call.args[2], where, problems) ?: continue
-                        val russian = russianStrings[other]
-                        when {
-                            russian == null -> missing += other
-                            russian.split('|').size != 3 -> problems += "$where: \"$other\" needs three Russian forms separated by |, has \"$russian\""
+                        for (code in parts.keys) {
+                            val translated = translationOf(code)!![other]
+                            when {
+                                translated == null -> missing.getOrPut(code) { linkedSetOf() } += other
+                                translated.split('|').size != pluralForms(code) -> problems += "$where: $code \"$other\" needs ${pluralForms(code)} forms separated by |, has \"$translated\""
+                            }
                         }
                     }
                 }
             }
         }
-        if (missing.isNotEmpty()) problems += "Missing Russian translations (${missing.size}):\n" + missing.joinToString("\n") { "    \"${escape(it)}\" to \"\"," }
+        for ((code, keys) in missing) problems += "Missing $code translations (${keys.size}):\n" + keys.joinToString("\n") { "    \"${escape(it)}\" to \"\"," }
         if (problems.isNotEmpty()) fail(problems.joinToString("\n"))
+    }
+
+    /** Texts that come from data, such as language names and months, are translated in every language too. */
+    @Test
+    fun everyLanguageTranslatesTheSameTexts() {
+        val russian = translationOf("ru")!!.keys
+        for (code in parts.keys) {
+            val keys = translationOf(code)!!.keys
+            assertTrue(keys == russian, "$code lacks ${(russian - keys).take(10)} and has ${(keys - russian).take(10)} besides")
+        }
     }
 
     @Test
     fun noTextIsTranslatedTwoWays() {
-        val seen = mutableMapOf<String, Pair<String, String>>()
         val conflicts = mutableListOf<String>()
-        for ((part, map) in russianParts) {
-            for ((key, value) in map) {
-                val earlier = seen[key]
-                if (earlier != null && earlier.second != value) conflicts += "\"$key\": ${earlier.first} \"${earlier.second}\", $part \"$value\""
-                else seen[key] = part to value
+        for ((code, areas) in parts) {
+            val seen = mutableMapOf<String, Pair<String, String>>()
+            for ((part, map) in areas) {
+                for ((key, value) in map) {
+                    val earlier = seen[key]
+                    if (earlier != null && earlier.second != value) conflicts += "$code \"$key\": ${earlier.first} \"${earlier.second}\", $part \"$value\""
+                    else seen[key] = part to value
+                }
             }
         }
         assertTrue(conflicts.isEmpty(), "Translated differently:\n" + conflicts.joinToString("\n"))
     }
 
     @Test
-    fun russianPluralsFollowTheRussianRule() {
-        assertEquals(listOf(0, 1, 2, 2, 0, 1, 2, 2), listOf(1, 2, 5, 11, 21, 22, 25, 112).map(::russianPluralIndex))
+    fun pluralsFollowEachLanguagesRule() {
+        val counts = listOf(0, 1, 2, 5, 11, 21, 22, 25, 112)
+        assertEquals(listOf(2, 0, 1, 2, 2, 0, 1, 2, 2), counts.map { pluralIndex("ru", it) })
+        assertEquals(listOf(2, 0, 1, 2, 2, 2, 1, 2, 2), counts.map { pluralIndex("pl", it) })
+        assertEquals(listOf(0, 0, 1, 1, 1, 1, 1, 1, 1), counts.map { pluralIndex("fr", it) })
+        assertEquals(listOf(1, 0, 1, 1, 1, 1, 1, 1, 1), counts.map { pluralIndex("de", it) })
+        assertEquals(List(counts.size) { 0 }, counts.map { pluralIndex("zh", it) })
+    }
+
+    @Test
+    fun aLanguageNameFitsTheSentence() {
+        UiLanguage.set("pl")
+        assertEquals(listOf("portugalski", "portugalskiego", "portugalskim"), LanguageCase.entries.map { languageInSentence("Portuguese", it) })
+        assertEquals("esperanto", languageInSentence("Esperanto", LanguageCase.GENITIVE), "a name that is no adjective")
+        UiLanguage.set("ru")
+        assertEquals("португальском", languageInSentence("Portuguese", LanguageCase.PREPOSITIONAL))
+        UiLanguage.set("fr")
+        assertEquals("portugais", languageInSentence("Portuguese", LanguageCase.PREPOSITIONAL))
+        UiLanguage.set("de")
+        assertEquals("Portugiesisch", languageInSentence("Portuguese"))
+        assertEquals("12.345", formatCount(12345))
+        UiLanguage.set("fr")
+        assertEquals("12\u202F345", formatCount(12345))
     }
 
     private class Call(val name: String, val offset: Int, val args: List<String>)

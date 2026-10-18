@@ -166,19 +166,25 @@ outside the catalog found in the database is removed on start together with its 
 
 ## Interface languages
 
-The interface is in English and Russian (`UiLanguage.supported`), chosen on the Languages page
-and stored as `UserSettings.uiLanguage`. Interface text goes through `tr("English text")` and
+The interface is in English, Chinese (simplified), French, German, Greek, Polish, Portuguese
+(Brazilian), Russian and Spanish (`UiLanguage.supported`), chosen on the Languages page and stored
+as `UserSettings.uiLanguage`. Interface text goes through `tr("English text")` and
 `trPlural(count, "{0} book", "{0} books")` in `core/ui/.../i18n`: the English text is the key,
 `{0}`, `{1}`… are placeholders, and `UiLanguage.code` is snapshot state set at the app root, so
-screens recompose when it changes. The Russian texts live in `i18n/ru/`, one map per area of the
-app; a plural maps the English "other" form to its three Russian forms separated by `|`.
-`TranslationsTest` reads the sources of every module and fails when a literal passed to `tr` or
-`trPlural` has no Russian entry (it prints the missing ones ready to paste), when placeholders
-differ, or when two areas translate the same text differently; so pass `tr` one plain literal,
-never a string template. Text that comes from data (language names, option labels) goes through
-`tr(value)` and needs its entries added by hand. To add a language, add its code to
-`UiLanguage.supported` and `LanguageCatalog.interfaceLanguages`, a map like `russianStrings`, and
-its plural rule in `trPlural`.
+screens recompose when it changes. Each language's texts live in `i18n/<code>/`, one map per area
+of the app in the same order as the others (`translationOf(code)` gives them); a plural maps the
+English "other" form to the language's forms separated by `|`, as many as `pluralForms` says and
+in the order `pluralIndex` (CLDR's rules for whole numbers) picks them. `languageInSentence` puts
+a language name into a sentence as each language needs: lower case in French, Spanish,
+Portuguese and Greek, and the adjective declined in Russian and Polish. `formatCount` groups
+thousands as the language does. `TranslationsTest` reads the sources of every module and fails
+when a literal passed to `tr` or `trPlural` has no entry in some language (it prints the missing
+ones ready to paste), when placeholders or plural forms are off, when the languages do not
+translate the same texts, or when two areas translate a text differently; so pass `tr` one plain
+literal, never a string template. Text that comes from data (language names, option labels) goes
+through `tr(value)` and needs its entries added by hand. To add a language, add its code to
+`UiLanguage.supported`, `LanguageCatalog.interfaceLanguages` and `translationOf`, its maps, and
+its rules in `pluralForms`, `pluralIndex`, `languageInSentence` and `formatCount`.
 
 ## Translation engines
 
