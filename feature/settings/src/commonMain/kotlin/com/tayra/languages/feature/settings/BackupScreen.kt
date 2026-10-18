@@ -13,6 +13,7 @@ import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.formatSize
+import com.tayra.languages.core.ui.components.shortDateWithYear
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -489,12 +490,10 @@ internal fun IncludedLine(text: String, icon: ImageVector, tint: Color) {
     }
 }
 
-private val MONTHS = listOf("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
-
 internal fun formatBackupTime(backup: Backup, seconds: Boolean = true): String = backup.createdAt?.let { formatBackupTime(it, seconds) } ?: backup.name
 
 private fun formatBackupTime(time: LocalDateTime, seconds: Boolean): String {
     fun two(n: Int) = n.toString().padStart(2, '0')
     val clock = "${two(time.hour)}:${two(time.minute)}" + if (seconds) ":${two(time.second)}" else ""
-    return "${time.day} ${tr(MONTHS[time.month.ordinal])} ${time.year}, $clock"
+    return "${time.date.shortDateWithYear()}, $clock"
 }

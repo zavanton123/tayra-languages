@@ -61,7 +61,7 @@ class BackupScreenTest {
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No backups yet", substring = true)).fetchSemanticsNodes().isNotEmpty() }
         onAllNodes(hasText("Create backup") and hasClickAction()).onLast().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("3 Oct 2026, 12:00:00")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00:00")).fetchSemanticsNodes().isNotEmpty() }
 
         // The book is deleted after the backup; restoring brings it back.
         runBlocking { books.deleteBook(book) }
@@ -71,18 +71,18 @@ class BackupScreenTest {
         waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Backup restored")).fetchSemanticsNodes().isNotEmpty() }
         assertEquals(listOf("O lobo"), runBlocking { books.getBooks() }.map { it.title })
         // The data replaced by the restore was backed up first.
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("3 Oct 2026, 12:05:00")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:05:00")).fetchSemanticsNodes().isNotEmpty() }
         onAllNodes(hasText("OK")).onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { restored }
         System.getenv("BACKUP_SCREENSHOT")?.let { save(it) }
 
-        onNodeWithContentDescription("More for the backup of 3 Oct 2026, 12:05:00").performScrollTo().performClick()
+        onNodeWithContentDescription("More for the backup of Oct 3, 2026, 12:05:00").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Delete")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Delete").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Delete this backup?")).fetchSemanticsNodes().isNotEmpty() }
         onAllNodes(hasText("Delete") and hasClickAction()).onLast().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("3 Oct 2026, 12:05:00")).fetchSemanticsNodes().isEmpty() }
-        onNodeWithText("3 Oct 2026, 12:00:00").assertExists()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:05:00")).fetchSemanticsNodes().isEmpty() }
+        onNodeWithText("Oct 3, 2026, 12:00:00").assertExists()
     }
 
     @Test
@@ -108,7 +108,7 @@ class BackupScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Restore the imported backup?")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("No").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Restore the imported backup?")).fetchSemanticsNodes().isEmpty() }
-        onNodeWithText("3 Oct 2026, 12:00:00").assertExists()
+        onNodeWithText("Oct 3, 2026, 12:00:00").assertExists()
         assertEquals(emptyList(), runBlocking { books.getBooks() })
 
         // Accepting restores it, backing the current data up first.
@@ -134,18 +134,18 @@ class BackupScreenTest {
         onNodeWithText("Create a backup").assertDoesNotExist()
         onNodeWithTag("phone-create-backup").performClick()
         // The phone row leaves the seconds out.
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("3 Oct 2026, 12:00")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("1 local").assertExists()
         System.getenv("BACKUP_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
 
         onNodeWithTag("phone-whats-included").performScrollTo().performClick()
         onNodeWithText("Languages and books").assertExists()
-        onNodeWithContentDescription("More for the backup of 3 Oct 2026, 12:00:00").performScrollTo().performClick()
+        onNodeWithContentDescription("More for the backup of Oct 3, 2026, 12:00:00").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Delete")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Delete").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Delete this backup?")).fetchSemanticsNodes().isNotEmpty() }
         onAllNodes(hasText("Delete") and hasClickAction()).onLast().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("3 Oct 2026, 12:00")).fetchSemanticsNodes().isEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00")).fetchSemanticsNodes().isEmpty() }
         onNodeWithText("No backups yet. Create one to keep a copy of your data.").assertExists()
     }
 

@@ -109,19 +109,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Voices and translation models" to "Голоса и модели перевода",
     "API keys" to "API-ключи",
     "These items can be downloaded or configured again after restoring." to "После восстановления их можно снова скачать или настроить.",
-    // Month abbreviations in backup dates, shown through tr(month) as "3 окт. 2026".
-    "Jan" to "янв.",
-    "Feb" to "февр.",
-    "Mar" to "мар.",
-    "Apr" to "апр.",
-    "May" to "мая",
-    "Jun" to "июн.",
-    "Jul" to "июл.",
-    "Aug" to "авг.",
-    "Sep" to "сент.",
-    "Oct" to "окт.",
-    "Nov" to "нояб.",
-    "Dec" to "дек.",
 
     // ShortcutsScreen.kt
     "Keyboard shortcuts" to "Сочетания клавиш",

@@ -44,4 +44,7 @@ fun LocalDate.shortDate(): String = tr(monthKeys[month.ordinal], day)
 private val monthYearKeys = listOf("Jan {0}, {1}", "Feb {0}, {1}", "Mar {0}, {1}", "Apr {0}, {1}", "May {0}, {1}", "Jun {0}, {1}", "Jul {0}, {1}", "Aug {0}, {1}", "Sep {0}, {1}", "Oct {0}, {1}", "Nov {0}, {1}", "Dec {0}, {1}")
 
 /** A short date, with the year when it is not [today]'s. */
-fun LocalDate.shortDate(today: LocalDate): String = if (year == today.year) shortDate() else tr(monthYearKeys[month.ordinal], day, year)
+fun LocalDate.shortDate(today: LocalDate): String = if (year == today.year) shortDate() else shortDateWithYear()
+
+/** "Oct 7, 2026", or as the interface language writes a short date with its year. */
+fun LocalDate.shortDateWithYear(): String = tr(monthYearKeys[month.ordinal], day, year)
