@@ -162,7 +162,8 @@ Command-line tool puts it on the PATH; [docs/CLI.md](docs/CLI.md) describes it.
 ## Get it
 
 Releases on GitHub include an Android APK, a macOS disk image, a Windows installer, and
-Linux packages (DEB, RPM and a tarball). The web version runs in a
+Linux packages (DEB, RPM and a tarball). The desktop app tells you when a new version is out
+and installs it in place when you ask (Settings > App updates). The web version runs in a
 browser without installing anything, though its library lasts only for the session.
 
 Build it yourself with a recent JDK:

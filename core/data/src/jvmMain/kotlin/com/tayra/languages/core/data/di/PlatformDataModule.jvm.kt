@@ -10,6 +10,7 @@ import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.export.AnkiConnectClient
 import com.tayra.languages.core.data.ocr.TesseractTextRecognizer
 import com.tayra.languages.core.data.parse.KuromojiBoundaries
+import com.tayra.languages.core.data.runtime.DesktopAppUpdater
 import com.tayra.languages.core.data.runtime.DesktopCommandLineTool
 import com.tayra.languages.core.data.runtime.ManagedPython
 import com.tayra.languages.core.data.settings.SecureStore
@@ -23,6 +24,8 @@ import com.tayra.languages.core.data.translation.ArgosSentenceTranslator
 import com.tayra.languages.core.domain.export.AnkiConnection
 import com.tayra.languages.core.domain.ocr.TextRecognizer
 import com.tayra.languages.core.domain.parse.Segmenters
+import com.tayra.languages.core.domain.service.AppUpdateService
+import com.tayra.languages.core.domain.service.AppUpdater
 import com.tayra.languages.core.domain.service.CommandLineTool
 import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.domain.service.LocalTranslation
@@ -48,6 +51,8 @@ actual val platformDataModule: Module = module {
     single<SecureStore> { desktopSecureStore() }
     single<TextRecognizer> { TesseractTextRecognizer(File(DatabaseDriverFactory.dataDirectory(), "ocr/tessdata")) }
     single<CommandLineTool> { DesktopCommandLineTool() }
+    single<AppUpdater> { DesktopAppUpdater(get()) }
+    single { AppUpdateService(get(), get()) }
     // Anki's AnkiConnect add-on listens on the desktop only.
     single<AnkiConnection> { AnkiConnectClient(get()) }
     // Japanese is cut with MeCab's analysis (Kuromoji) on desktop as well as with the dictionaries.

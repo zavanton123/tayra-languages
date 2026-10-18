@@ -75,6 +75,12 @@ data class UserSettings(
     /** Answer flashcards with Again and Good only, Hard and Easy left out. */
     val flashcardTwoButtons: Boolean = false,
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
+    /** Whether the desktop app looks for a new release when it starts. */
+    val checkForUpdates: Boolean = true,
+    /** A release the user chose to skip; it is not offered at start. */
+    val skippedUpdate: String = "",
+    /** When the app last looked for a new release, in milliseconds since the epoch. */
+    val lastUpdateCheck: Long = 0,
 ) {
     fun hotkeyFor(action: HotkeyAction): Hotkey? = hotkeys[action]
 

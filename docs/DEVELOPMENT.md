@@ -134,6 +134,34 @@ workflow can also be started by hand from the Actions tab for an existing tag.
   and `ANDROID_KEY_PASSWORD`. Without them the APK is signed with the debug key, which
   installs fine but cannot update an app signed with another key.
 - The DMG is neither signed nor notarized, so macOS asks for confirmation on first launch.
+- Only `vX.Y.Z` tags build the apps. Data releases (`courses-v1`, `freedict-v1`, …) carry data
+  files alone; publishing one runs a job that marks the newest app release as GitHub's latest
+  again, since the app's updates and the README's links read the app releases.
+- The packaged desktop app gets the tag's version as `-Dtayra.version`, which its updates compare.
+
+### Desktop updates
+
+The desktop app looks for a new release when it starts, at most every 20 hours (Settings > App
+updates switches it off and checks by hand), and offers it in a banner across the top: install
+and restart, what's new, later, or skip this version. `DesktopAppUpdater` (core/data `jvmMain`)
+reads GitHub's list of releases, takes the newest non-draft, non-pre-release `vX.Y.Z` that is
+newer than `tayra.version` (a run from the sources has none and is never offered one), picks the
+asset for the installation (`Installation`: the `.app` from the DMG on Apple Silicon, the
+per-user MSI, the DEB or RPM under `/opt`, or the tarball), streams it to the temporary folder
+and checks it against the SHA-256 GitHub records for each asset. Installing: on macOS, Windows and
+from the tarball a script started before the app quits waits for its process to end, replaces the
+app (the DMG's bundle copied with `ditto` beside the old one, which is removed only once the new
+one is in place; `msiexec /passive` upgrading through the MSIs' shared upgrade code; the tarball's
+folder swapped in) and opens it again; DEB and RPM are installed with `pkexec dpkg -i` or `rpm -U`
+while the app still runs, and the new version is started after. The scripts log to
+`update.log` beside the download. An Intel Mac (no DMG of its own), or an app in a folder it
+cannot write to, is offered the release page instead.
+
+To try an update without publishing a release, build an older app and a newer installer with
+`-PreleaseVersion`, serve a copy of GitHub's releases JSON that points at the installer (with its
+`digest`), and start the older app with `-Dtayra.updateFeed=<that URL>` (and `-Dtayra.dataDir`,
+to keep the library out of it). `AppUpdatesTest` runs the macOS and tarball scripts on real
+archives (`hdiutil`, `tar`); `AppUpdatesScreenTest` the banner and the Settings card.
 
 Locally:
 

@@ -32,6 +32,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.mutableIntStateOf
+import com.tayra.languages.feature.settings.AppUpdateBanner
 import com.tayra.languages.feature.settings.LanguageSetupDialog
 import androidx.compose.runtime.setValue
 import com.tayra.languages.core.domain.frequency.VocabularyLevelService
@@ -150,7 +151,12 @@ fun App(titleBarInset: Dp = 0.dp) {
                         BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId, onChosen = { openCourses++ }) {
                             val flashcards = koinInject<FlashcardService>()
                             val due by remember(flashcards) { flashcards.observeDueCount() }.collectAsStateWithLifecycle(0)
-                            CompositionLocalProvider(LocalFlashcardsDue provides due) { AppNavHost(openCourses) }
+                            CompositionLocalProvider(LocalFlashcardsDue provides due) {
+                                Column {
+                                    AppUpdateBanner()
+                                    Box(Modifier.weight(1f)) { AppNavHost(openCourses) }
+                                }
+                            }
                         }
                     }
                     }

@@ -80,6 +80,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.ui.platform.testTag
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import com.tayra.languages.core.domain.service.AppUpdateService
 import com.tayra.languages.core.domain.service.CommandLineStatus
 import com.tayra.languages.core.domain.service.CommandLineTool
 import androidx.compose.material3.CircularProgressIndicator
@@ -92,6 +93,8 @@ class SettingsViewModel(
     private val settings: SettingsRepository,
     /** The desktop app's `tayra` command; other platforms have none. */
     val commandLine: CommandLineTool? = null,
+    /** The desktop app's updates; other platforms have none. */
+    val updates: AppUpdateService? = null,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
@@ -163,6 +166,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                         ReadingCard(settings, viewModel)
                         BehaviourCard(settings, viewModel)
                         if (viewModel.commandLine != null) CommandLineCard(viewModel)
+                        viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                     }
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
                         PreviewCard(settings)
@@ -175,6 +179,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 PreviewCard(settings)
                 BehaviourCard(settings, viewModel)
                 if (viewModel.commandLine != null) CommandLineCard(viewModel)
+                viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                 InfoBanner(tr("Changes are saved automatically."))
             }
         }

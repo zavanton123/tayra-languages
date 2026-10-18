@@ -100,6 +100,9 @@ class SettingsRepositoryImpl(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
             ).code,
             uiLanguage = LanguageCatalog.interfaceOption(store.getString(Keys.UI_LANGUAGE, defaults.uiLanguage)).code,
+            checkForUpdates = store.getBoolean(Keys.CHECK_FOR_UPDATES, defaults.checkForUpdates),
+            skippedUpdate = store.getString(Keys.SKIPPED_UPDATE, defaults.skippedUpdate),
+            lastUpdateCheck = store.getLong(Keys.LAST_UPDATE_CHECK, defaults.lastUpdateCheck),
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
             translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
             googleTranslateApiKey = googleTranslateApiKey,
@@ -198,6 +201,9 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.TUTORIAL_BOOKS, s.tutorialBooksAdded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.UI_LANGUAGE, s.uiLanguage)
+        store.putBoolean(Keys.CHECK_FOR_UPDATES, s.checkForUpdates)
+        store.putString(Keys.SKIPPED_UPDATE, s.skippedUpdate)
+        store.putLong(Keys.LAST_UPDATE_CHECK, s.lastUpdateCheck)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
         store.putString(Keys.ARGOS_PYTHON, s.argosPython)
@@ -262,6 +268,9 @@ class SettingsRepositoryImpl(
         const val NATIVE_LANGUAGE = "native_language"
         const val LEGACY_TRANSLATION_TARGET = "translation_target_language"
         const val UI_LANGUAGE = "ui_language"
+        const val CHECK_FOR_UPDATES = "check_for_updates"
+        const val SKIPPED_UPDATE = "skipped_update"
+        const val LAST_UPDATE_CHECK = "last_update_check"
         const val TRANSLATION_EMAIL = "translation_contact_email"
         const val FLASHCARD_NEW_PER_DAY = "flashcard_new_per_day"
         const val FLASHCARD_REVIEWS_PER_DAY = "flashcard_reviews_per_day"

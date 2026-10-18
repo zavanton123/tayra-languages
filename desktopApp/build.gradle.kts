@@ -41,6 +41,9 @@ compose.desktop {
         mainClass = "com.tayra.languages.desktop.MainKt"
         // Names the process in the macOS Dock during development runs; packaged apps use the bundle name.
         jvmArgs += dockNameArgs
+        // The release's own version, which the app's updates compare (the installers' may be 1.0.0, see above);
+        // a run from the sources has none and is never offered an update.
+        installerVersion.orNull?.takeIf { providers.gradleProperty("releaseVersion").isPresent }?.let { jvmArgs += "-Dtayra.version=$it" }
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb, TargetFormat.Rpm)
