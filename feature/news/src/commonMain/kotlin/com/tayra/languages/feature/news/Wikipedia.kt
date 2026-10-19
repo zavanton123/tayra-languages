@@ -5,6 +5,15 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.components.ToggleButton
+import com.tayra.languages.core.ui.components.AppBottomSheet
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -287,6 +296,53 @@ internal class WikiActions(
     val onRetry: () -> Unit = {},
 )
 
+/** On phones, the length, read and level filters wait in a sheet behind one button, so articles show at once. */
+@Composable
+private fun WikiFiltersButton(state: WikiUiState, actions: WikiActions) {
+    var sheet by remember { mutableStateOf(false) }
+    val active = listOf(state.length != ArticleLength.ANY, state.hideRead, state.difficulty != null).count { it }
+    ToggleButton(
+        tr("Filters"),
+        active = active > 0,
+        onClick = { sheet = true },
+        modifier = Modifier.testTag("wiki-filters"),
+        icon = AppIcons.Tune,
+        badge = active,
+        contentDescription = if (active > 0) trPlural(active, "{0} filter on", "{0} filters on") else null,
+    )
+    if (sheet) {
+        AppBottomSheet(onDismissRequest = { sheet = false }) {
+            Column(
+                Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m),
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+            ) {
+                Text(tr("Filters"), style = AppText.itemTitle)
+                WikiFilterChips(state, actions)
+                PrimaryButton(
+                    if (state.hasMore) tr("Show articles") else trPlural(state.shown.size, "Show {0} article", "Show {0} articles"),
+                    onClick = { sheet = false },
+                    modifier = Modifier.fillMaxWidth().testTag("wiki-filters-done"),
+                )
+            }
+        }
+    }
+}
+
+/** How long, whether read ones show, and what level. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun WikiFilterChips(state: WikiUiState, actions: WikiActions) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            ArticleLength.entries.forEach { length ->
+                AppFilterChip(selected = state.length == length, onClick = { actions.onLength(length) }, label = { Text(length.label) }, modifier = Modifier.testTag("length-${length.name}"))
+            }
+            AppFilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("wiki-hide-read"))
+        }
+        DifficultyFilter(state.difficulty, actions.onDifficulty)
+    }
+}
+
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier: Modifier = Modifier, tabs: @Composable () -> Unit = {}) {
@@ -329,13 +385,7 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                         state.wiki.about?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
                     }
                     SearchField(state.query, actions.onQuery, tr("Search: {0}", site), Modifier.fillMaxWidth(), fieldModifier = Modifier.testTag("wiki-search"))
-                    FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                        ArticleLength.entries.forEach { length ->
-                            AppFilterChip(selected = state.length == length, onClick = { actions.onLength(length) }, label = { Text(length.label) }, modifier = Modifier.testTag("length-${length.name}"))
-                        }
-                        AppFilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("wiki-hide-read"))
-                    }
-                    DifficultyFilter(state.difficulty, actions.onDifficulty)
+                    if (compact) WikiFiltersButton(state, actions) else WikiFilterChips(state, actions)
                 }
             }
             when {
