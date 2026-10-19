@@ -448,7 +448,9 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
                     maxLines = 1,
                 )
             }
-            PageProgress(state.pageNumber, state.pageCount, viewModel::goToPage, sliderWidth = null, modifier = Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.s))
+            if (state.pageCount > 1) {
+                PageProgress(state.pageNumber, state.pageCount, viewModel::goToPage, sliderWidth = null, modifier = Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.s))
+            }
         }
     }
 }
@@ -485,12 +487,14 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
                 overflow = TextOverflow.Ellipsis,
             )
         }
-        PageProgress(
-            state.pageNumber,
-            state.pageCount,
-            viewModel::goToPage,
-            sliderWidth = if (LocalWindowWidth.current.isExpanded) 300.dp else 160.dp,
-        )
+        if (state.pageCount > 1) {
+            PageProgress(
+                state.pageNumber,
+                state.pageCount,
+                viewModel::goToPage,
+                sliderWidth = if (LocalWindowWidth.current.isExpanded) 300.dp else 160.dp,
+            )
+        }
         Spacer(Modifier.weight(1f))
     }
 }
@@ -501,9 +505,11 @@ private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu:
     Row(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
         AppIconButton(Icons.Default.Menu, contentDescription = tr("Menu"), onClick = onMenu)
         Spacer(Modifier.weight(1f))
-        AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous page"), onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage)
-        Text("${state.pageNumber}/${state.pageCount}", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = tr("Next page"), onClick = { viewModel.goToRelativePage(1) }, enabled = !state.isLastPage)
+        if (state.pageCount > 1) {
+            AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous page"), onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage)
+            Text("${state.pageNumber}/${state.pageCount}", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = tr("Next page"), onClick = { viewModel.goToRelativePage(1) }, enabled = !state.isLastPage)
+        }
         QuietButton(tr("Exit focus"), onClick = viewModel::toggleFocusMode)
     }
 }
@@ -618,10 +624,13 @@ private fun ReadingBody(
     Column(Modifier.fillMaxSize().verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
         Column(cardModifier) {
             if (!focus) {
-                Text(
-                    state.book?.title.orEmpty(),
-                    style = AppText.screenTitle.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
-                )
+                // A phone's bar already shows the title, and the text should start near the top.
+                if (!compact) {
+                    Text(
+                        state.book?.title.orEmpty(),
+                        style = AppText.screenTitle.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
+                    )
+                }
                 PageVocabulary(state)
                 state.translationProgress?.let { TranslationProgress(it) }
                     ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
