@@ -53,6 +53,7 @@ import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Constraints
@@ -67,6 +68,7 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppTriStateCheckbox
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ButtonTone
@@ -453,7 +455,7 @@ private fun BookTableRow(book: BookListItem, selected: Boolean, selecting: Boole
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
     val background = when {
-        selected -> colors.primary.copy(alpha = AppAlpha.wash)
+        selected -> colors.primary.copy(alpha = AppAlpha.soft)
         hovered -> colors.primary.copy(alpha = AppAlpha.faint)
         else -> Color.Transparent
     }
@@ -540,7 +542,7 @@ private fun BookCard(book: BookListItem, selected: Boolean, selecting: Boolean, 
     val hovered by interaction.collectIsHoveredAsState()
     Column(
         modifier.pressScale(interaction).clip(shape).border(AppBorders.hairline(if (selected || hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
-            .background(if (selected) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
+            .background(if (selected) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
             .hoverable(interaction).clickable(interaction, LocalIndication.current) { callbacks.onOpen(book) }.padding(AppSpacing.xl),
     ) {
         Row(verticalAlignment = Alignment.Top) {
@@ -639,7 +641,14 @@ internal fun BooksSelectionBar(state: BooksUiState, callbacks: BooksCallbacks, o
     SelectionBar(
         tr("{0} of {1} selected", count, state.filteredBooks.size),
         Modifier.padding(bottom = AppSpacing.l),
-        leading = { AppCheckbox(checked = all, onCheckedChange = callbacks.onSelectAll, modifier = Modifier.semantics { contentDescription = tr("Select all books") }) },
+        leading = {
+            // Half ticked while some are chosen; a click then chooses them all.
+            AppTriStateCheckbox(
+                state = when { all -> ToggleableState.On; count > 0 -> ToggleableState.Indeterminate; else -> ToggleableState.Off },
+                onClick = { callbacks.onSelectAll(!all) },
+                modifier = Modifier.semantics { contentDescription = tr("Select all books") },
+            )
+        },
     ) {
         QuietButton(if (state.archived) tr("Unarchive") else tr("Archive"), onClick = callbacks.onArchiveSelected, enabled = count > 0)
         QuietButton(tr("Delete"), onClick = callbacks.onDeleteSelected, enabled = count > 0, tone = ButtonTone.Danger)
