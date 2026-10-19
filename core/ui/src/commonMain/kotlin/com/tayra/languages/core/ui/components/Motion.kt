@@ -5,13 +5,16 @@ import androidx.compose.animation.AnimatedVisibilityScope
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.core.MutableTransitionState
+import androidx.compose.animation.core.animateIntAsState
 import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
+import androidx.compose.animation.scaleIn
 import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.lazy.LazyItemScope
 import androidx.compose.foundation.lazy.grid.LazyGridItemScope
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import com.tayra.languages.core.ui.theme.AppMotion
@@ -50,12 +53,40 @@ fun <T : Any> RevealValue(value: T?, modifier: Modifier = Modifier, content: @Co
 
 private class LastValue<T> { var value: T? = null }
 
-/** [content] fading in the first time it is shown, as a notice or a result that arrives. */
+/**
+ * [content] fading in the first time it is shown, as a notice or a result that arrives; [grow]
+ * also has it grow a little into place, as the next card does.
+ */
 @Composable
-fun Appear(modifier: Modifier = Modifier, content: @Composable AnimatedVisibilityScope.() -> Unit) {
+fun Appear(modifier: Modifier = Modifier, grow: Boolean = false, content: @Composable AnimatedVisibilityScope.() -> Unit) {
     val state = remember { MutableTransitionState(false).apply { targetState = true } }
-    AnimatedVisibility(state, modifier, enter = if (AppMotion.reduced) EnterTransition.None else fadeIn(AppMotion.spec(AppMotion.medium)), exit = ExitTransition.None, content = content)
+    val enter = when {
+        AppMotion.reduced -> EnterTransition.None
+        grow -> fadeIn(AppMotion.spec(AppMotion.medium, AppMotion.enter)) + scaleIn(AppMotion.spec(AppMotion.medium, AppMotion.enter), initialScale = GROW_FROM)
+        else -> fadeIn(AppMotion.spec(AppMotion.medium))
+    }
+    AnimatedVisibility(state, modifier, enter = enter, exit = ExitTransition.None, content = content)
 }
+
+/** [content] popping into place the first time it is shown: a tick for a right answer, a mark just earned. */
+@Composable
+fun PopIn(modifier: Modifier = Modifier, content: @Composable AnimatedVisibilityScope.() -> Unit) {
+    val state = remember { MutableTransitionState(false).apply { targetState = true } }
+    val enter = if (AppMotion.reduced) EnterTransition.None
+    else scaleIn(AppMotion.spec(AppMotion.long, AppMotion.pop), initialScale = POP_FROM) + fadeIn(AppMotion.spec(AppMotion.short))
+    AnimatedVisibility(state, modifier, enter = enter, exit = ExitTransition.None, content = content)
+}
+
+/** A count shown as it changes: it runs to its new value rather than jumping, and starts where it is. */
+@Composable
+fun animatedCount(value: Int): Int {
+    val shown by animateIntAsState(value, AppMotion.spec(AppMotion.long))
+    return shown
+}
+
+/** How large the next card starts, and how small a popped mark. */
+private const val GROW_FROM = 0.97f
+private const val POP_FROM = 0.4f
 
 /** The motion of a list's item: fading in and out, and gliding to its new place when the list is filtered or sorted. */
 @Composable

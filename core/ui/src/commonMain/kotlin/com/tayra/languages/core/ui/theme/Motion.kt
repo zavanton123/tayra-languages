@@ -38,6 +38,9 @@ object AppMotion {
     /** What leaves: it speeds up as it goes. */
     val exit: Easing = CubicBezierEasing(0.3f, 0f, 1f, 1f)
 
+    /** A mark that pops into place: it overshoots a little and settles, as a tick for a right answer. */
+    val pop: Easing = CubicBezierEasing(0.34f, 1.56f, 0.64f, 1f)
+
     /** Whether motion is reduced here. */
     val reduced: Boolean @Composable get() = LocalReduceMotion.current
 

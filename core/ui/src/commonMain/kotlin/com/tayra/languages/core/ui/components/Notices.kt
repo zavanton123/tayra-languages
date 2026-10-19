@@ -80,7 +80,7 @@ fun InfoBanner(
 }
 
 /**
- * A notice with a title: an engine's state, a result, a warning before an action. Its [icon], or a
+ * A notice with a title: an engine's state, a result, a warning before an action. Its [icon] (popping in when [popIcon]), or a
  * spinner while [busy], the [title] and an optional [message], more [content] below them, and an
  * [action] (a button) at the end; on phones the action goes below the text.
  */
@@ -92,6 +92,8 @@ fun Notice(
     tint: Color = MaterialTheme.colorScheme.primary,
     icon: ImageVector? = Icons.Default.Info,
     busy: Boolean = false,
+    /** Whether the icon pops into place, for a result just earned. */
+    popIcon: Boolean = false,
     action: (@Composable () -> Unit)? = null,
     content: (@Composable ColumnScope.() -> Unit)? = null,
 ) {
@@ -100,6 +102,7 @@ fun Notice(
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             when {
                 busy -> AppSpinner(size = SpinnerSize.Medium, color = tint)
+                icon != null && popIcon -> PopIn { Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconXLarge)) }
                 icon != null -> Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconXLarge))
             }
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {

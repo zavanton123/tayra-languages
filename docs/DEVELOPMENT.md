@@ -246,8 +246,10 @@ Screens are built from `core/ui`.
     snaps when motion is reduced.
   - Motion is reduced (`LocalReduceMotion`) when the setting asks or the system does: Android's
     animations off, iOS's and the browser's Reduce Motion.
-  - `Reveal` and `RevealValue` open and close panels; `Appear` fades notices and answers in.
-    `itemMotion()` lets a list's items glide when the list is filtered or sorted.
+  - `Reveal` and `RevealValue` open and close panels; `Appear` fades notices and answers in (and,
+    with `grow`, the next flashcard); `PopIn` pops a mark in, as a right answer's tick.
+    `animatedCount()` runs a number to its new value. `itemMotion()` lets a list's items glide when
+    the list is filtered or sorted.
   - The segmented toggle's highlight and the underline tabs' line slide to the chosen one. Chips,
     toggles and tabs fade between their colours, and progress fills smoothly.
   - Screens change with a quick crossfade (`AppNavHost`).
