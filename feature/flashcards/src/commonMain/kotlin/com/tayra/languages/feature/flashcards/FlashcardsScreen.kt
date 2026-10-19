@@ -40,6 +40,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -99,6 +100,7 @@ import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.TagSize
+import com.tayra.languages.core.ui.components.animatedCount
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -250,7 +252,8 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
             if (card == null) {
                 Finished(state, actions)
             } else {
-                Card(card, state.revealed, speaker, compact, actions.onReveal)
+                // Each card fades in as it comes up.
+                key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact, actions.onReveal) } }
                 // The answers fade in as the card turns over.
                 if (state.revealed) Appear { Answers(actions, compact, state.twoButtons) }
                 CardFooter(card, state.canUndo, actions, compact)
@@ -328,7 +331,7 @@ private fun PillDivider() {
 
 @Composable
 private fun CountPill(tag: String, count: Int, label: String, tint: Color, large: Boolean = false) {
-    StatusPill(label, tint, Modifier.testTag("count-$tag"), value = "$count", size = if (large) TagSize.Large else TagSize.Medium)
+    StatusPill(label, tint, Modifier.testTag("count-$tag"), value = "${animatedCount(count)}", size = if (large) TagSize.Large else TagSize.Medium)
 }
 
 /**
