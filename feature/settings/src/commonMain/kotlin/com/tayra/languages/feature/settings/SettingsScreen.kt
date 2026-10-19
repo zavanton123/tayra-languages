@@ -2,12 +2,16 @@ package com.tayra.languages.feature.settings
 
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
+import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.HeaderButton
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.NumberStepper
 import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SettingRow
 import com.tayra.languages.core.ui.components.SliderStepper
 import com.tayra.languages.core.ui.components.SwitchSetting
@@ -25,18 +29,14 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -67,6 +67,7 @@ import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppTheme
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -75,8 +76,6 @@ import com.tayra.languages.core.ui.theme.TayraTheme
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.Icon
 import androidx.compose.ui.platform.testTag
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -186,12 +185,12 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
     }
 
     if (confirmReset) {
-        AlertDialog(
+        AppDialog(
             onDismissRequest = { confirmReset = false },
             title = { Text(tr("Reset to defaults?")) },
             text = { Text(tr("The theme, highlighting, reading size and spacing, reading streak and statistics sample size go back to their defaults.")) },
-            confirmButton = { Button(onClick = { confirmReset = false; viewModel.resetToDefaults() }) { Text(tr("Reset")) } },
-            dismissButton = { TextButton(onClick = { confirmReset = false }) { Text(tr("Cancel")) } },
+            confirmButton = { PrimaryButton(onClick = { confirmReset = false; viewModel.resetToDefaults() }) { Text(tr("Reset")) } },
+            dismissButton = { QuietButton(onClick = { confirmReset = false }) { Text(tr("Cancel")) } },
         )
     }
 }
@@ -225,8 +224,8 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
 @Composable
 internal fun ThemeSwatch(theme: AppTheme) {
     Row(
-        Modifier.clip(RoundedCornerShape(6.dp)).background(theme.readingBackground)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(6.dp)).padding(horizontal = 6.dp, vertical = 5.dp),
+        Modifier.clip(AppShapes.small).background(theme.readingBackground)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.small).padding(horizontal = 6.dp, vertical = 5.dp),
         horizontalArrangement = Arrangement.spacedBy(3.dp),
     ) {
         listOf(
@@ -318,18 +317,13 @@ private fun CommandLineCard(viewModel: SettingsViewModel) {
             current.installed -> {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Box(Modifier.weight(1f)) { StatusPill(tr("On your PATH"), StatusTints.ok) }
-                    if (current.removable) OutlinedButton(onClick = viewModel::uninstallCommandLine, enabled = !busy) { Text(tr("Remove")) }
+                    if (current.removable) SecondaryButton(onClick = viewModel::uninstallCommandLine, enabled = !busy) { Text(tr("Remove")) }
                 }
                 current.location?.let { CommandBox(it) }
                 Text(tr("Type tayra in a new terminal window, for example tayra --help."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
             available -> SettingRow(tr("Not on your PATH"), tr("Puts tayra on the PATH, so any terminal finds it."), stackOnCompact = true) {
-                Button(onClick = viewModel::installCommandLine, enabled = !busy, modifier = Modifier.testTag("install-cli")) {
-                    if (busy) CircularProgressIndicator(Modifier.size(18.dp), color = colors.onPrimary, strokeWidth = 2.dp)
-                    else Icon(AppIcons.Terminal, contentDescription = null, modifier = Modifier.size(18.dp))
-                    Spacer(Modifier.width(8.dp))
-                    Text(tr("Install command-line tool"))
-                }
+                PrimaryButton(tr("Install command-line tool"), onClick = viewModel::installCommandLine, modifier = Modifier.testTag("install-cli"), icon = AppIcons.Terminal, enabled = !busy, loading = busy)
             }
             else -> Text(tr("The tayra command comes with the installed app. From the sources, run it with ./gradlew :cli:run."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
@@ -352,8 +346,8 @@ private fun CommandBox(text: String) {
     SelectionContainer {
         Text(
             text,
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp)).background(colors.surfaceVariant.copy(alpha = 0.6f))
-                .border(1.dp, colors.outlineVariant, RoundedCornerShape(8.dp)).padding(horizontal = 14.dp, vertical = 10.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surfaceVariant.copy(alpha = 0.6f))
+                .border(1.dp, colors.outlineVariant, AppShapes.compact).padding(horizontal = 14.dp, vertical = 10.dp),
             style = MaterialTheme.typography.bodyMedium,
             fontFamily = FontFamily.Monospace,
         )
@@ -373,8 +367,8 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = 24.dp) {
     val learning = LocalLearningLanguage.current?.let { state -> state.languages.firstOrNull { it.first == state.currentId }?.second }
     val sample = PreviewSamples.forLanguage(learning?.let { LanguageCodes.codeFor(it) })
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(theme.readingBackground)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(12.dp)).padding(horizontal = padding + 4.dp, vertical = padding),
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(theme.readingBackground)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.panel).padding(horizontal = padding + 4.dp, vertical = padding),
     ) {
         val colors = theme.statusColors
         val text = buildAnnotatedString {

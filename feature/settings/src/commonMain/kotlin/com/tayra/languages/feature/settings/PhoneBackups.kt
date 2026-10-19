@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -17,19 +16,16 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -52,6 +48,8 @@ import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
@@ -59,6 +57,7 @@ import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
  * The Backups page on a phone: one card with the two actions, the history as a plain list with a
@@ -87,7 +86,7 @@ internal fun PhoneBackupsScreen(
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-            Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(16.dp)) {
+            Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
                     IconTile(AppIcons.Storage, size = 56)
                     Column {
@@ -96,13 +95,13 @@ internal fun PhoneBackupsScreen(
                     }
                 }
                 Spacer(Modifier.height(16.dp))
-                Button(onClick = viewModel::create, enabled = idle, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(52.dp).testTag("phone-create-backup")) {
+                PrimaryButton(onClick = viewModel::create, enabled = idle, modifier = Modifier.fillMaxWidth().height(52.dp).testTag("phone-create-backup")) {
                     Icon(AppIcons.Storage, contentDescription = null, modifier = Modifier.size(20.dp))
                     Spacer(Modifier.width(10.dp))
                     Text(tr("Create backup"), style = MaterialTheme.typography.titleMedium)
                 }
                 Spacer(Modifier.height(10.dp))
-                OutlinedButton(onClick = onImport, enabled = idle, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(52.dp)) {
+                SecondaryButton(onClick = onImport, enabled = idle, modifier = Modifier.fillMaxWidth().height(52.dp)) {
                     Icon(AppIcons.UploadFile, contentDescription = null, modifier = Modifier.size(20.dp))
                     Spacer(Modifier.width(10.dp))
                     Text(tr("Import backup"), style = MaterialTheme.typography.titleMedium)
@@ -135,7 +134,7 @@ private fun PhoneBackupRow(backup: Backup, latest: Boolean, enabled: Boolean, on
     val colors = MaterialTheme.colorScheme
     var menu by remember { mutableStateOf(false) }
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(start = 12.dp, end = 4.dp, top = 12.dp, bottom = 12.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(start = 12.dp, end = 4.dp, top = 12.dp, bottom = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         IconTile(AppIcons.FileOutline, size = 44)
@@ -152,7 +151,7 @@ private fun PhoneBackupRow(backup: Backup, latest: Boolean, enabled: Boolean, on
             }
         }
         Spacer(Modifier.width(8.dp))
-        OutlinedButton(onClick = onRestore, enabled = enabled, shape = RoundedCornerShape(10.dp), contentPadding = PaddingValues(horizontal = 14.dp, vertical = 8.dp)) { Text(tr("Restore")) }
+        SecondaryButton(onClick = onRestore, enabled = enabled) { Text(tr("Restore")) }
         Box {
             IconButton(onClick = { menu = true }, enabled = enabled) { Icon(AppIcons.MoreHoriz, contentDescription = tr("More for the backup of {0}", formatBackupTime(backup))) }
             AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
@@ -168,7 +167,7 @@ private fun PhoneBackupRow(backup: Backup, latest: Boolean, enabled: Boolean, on
 private fun IncludedRow() {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
-    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp))) {
+    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card)) {
         Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(16.dp).testTag("phone-whats-included"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             IconTile(AppIcons.VerifiedUser, size = 44)
             Text(tr("What's included in a backup"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)

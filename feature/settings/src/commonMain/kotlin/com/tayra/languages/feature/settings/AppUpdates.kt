@@ -6,19 +6,13 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
-import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -35,6 +29,9 @@ import com.tayra.languages.core.domain.service.UpdateState
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.SwitchSetting
@@ -102,7 +99,7 @@ internal fun AppUpdatesCard(service: AppUpdateService, settings: UserSettings, o
                 }
             }
             if (state !is UpdateState.Checking && state !is UpdateState.Downloading && state !is UpdateState.Installing) {
-                OutlinedButton(onClick = { scope.launch { service.check() } }, modifier = Modifier.testTag("check-updates")) { Text(tr("Check for updates")) }
+                SecondaryButton(onClick = { scope.launch { service.check() } }, modifier = Modifier.testTag("check-updates")) { Text(tr("Check for updates")) }
             }
         }
     }
@@ -132,17 +129,13 @@ private fun UpdateProgress(state: UpdateState, service: AppUpdateService, update
             )
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 if (update.installer != null) {
-                    Button(onClick = onInstall, modifier = Modifier.testTag("install-update")) {
-                        Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
-                        Spacer(Modifier.width(8.dp))
-                        Text(if (failed != null) tr("Try again") else tr("Install and restart"))
-                    }
+                    PrimaryButton(if (failed != null) tr("Try again") else tr("Install and restart"), onClick = onInstall, modifier = Modifier.testTag("install-update"), icon = AppIcons.Download)
                 } else {
-                    Button(onClick = { uri.openUri(update.pageUrl) }) { Text(tr("Download")) }
+                    PrimaryButton(onClick = { uri.openUri(update.pageUrl) }) { Text(tr("Download")) }
                 }
-                if (update.pageUrl.isNotEmpty()) TextButton(onClick = { uri.openUri(update.pageUrl) }) { Text(tr("What's new")) }
-                if (inBanner) TextButton(onClick = service::later, modifier = Modifier.testTag("update-later")) { Text(tr("Later")) }
-                if (failed == null) TextButton(onClick = onSkip) { Text(tr("Skip this version")) }
+                if (update.pageUrl.isNotEmpty()) QuietButton(onClick = { uri.openUri(update.pageUrl) }) { Text(tr("What's new")) }
+                if (inBanner) QuietButton(onClick = service::later, modifier = Modifier.testTag("update-later")) { Text(tr("Later")) }
+                if (failed == null) QuietButton(onClick = onSkip) { Text(tr("Skip this version")) }
             }
         }
     }

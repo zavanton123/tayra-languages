@@ -12,19 +12,16 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -42,9 +39,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
  * The Clear data page on a phone: what goes and what stays as two cards, the backup reminder with
@@ -96,7 +97,7 @@ internal fun PhoneClearDataScreen(
                     }
                 }
                 Spacer(Modifier.height(14.dp))
-                OutlinedButton(onClick = onBackups, enabled = !state.started, shape = RoundedCornerShape(12.dp), colors = ButtonDefaults.outlinedButtonColors(containerColor = colors.surface), modifier = Modifier.fillMaxWidth().height(48.dp).testTag("clear-backup")) {
+                SecondaryButton(onClick = onBackups, enabled = !state.started, colors = ButtonDefaults.outlinedButtonColors(containerColor = colors.surface), modifier = Modifier.fillMaxWidth().height(48.dp).testTag("clear-backup")) {
                     Text(tr("Create backup"), style = MaterialTheme.typography.titleMedium)
                 }
             }
@@ -111,15 +112,14 @@ internal fun PhoneClearDataScreen(
                 }
                 Spacer(Modifier.height(14.dp))
                 if (state.done) {
-                    Button(onClick = onDone, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(48.dp).testTag("clear-done")) {
+                    PrimaryButton(onClick = onDone, modifier = Modifier.fillMaxWidth().height(48.dp).testTag("clear-done")) {
                         Text(tr("Done"), style = MaterialTheme.typography.titleMedium)
                     }
                 } else {
-                    Button(
+                    PrimaryButton(
                         onClick = { confirming = true },
                         enabled = !state.started,
-                        colors = ButtonDefaults.buttonColors(containerColor = colors.error, contentColor = colors.onError),
-                        shape = RoundedCornerShape(12.dp),
+                        tone = ButtonTone.Danger,
                         modifier = Modifier.fillMaxWidth().height(48.dp).testTag("clear-all"),
                     ) {
                         if (state.started) {
@@ -138,12 +138,12 @@ internal fun PhoneClearDataScreen(
 @Composable
 private fun PhoneCard(content: @Composable () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(16.dp)) { content() }
+    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp)) { content() }
 }
 
 @Composable
 private fun TintedBox(tint: Color, content: @Composable () -> Unit) {
-    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(tint.copy(alpha = 0.07f)).border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(14.dp)).padding(16.dp)) { content() }
+    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(tint.copy(alpha = 0.07f)).border(1.dp, tint.copy(alpha = 0.25f), AppShapes.card).padding(16.dp)) { content() }
 }
 
 @Composable

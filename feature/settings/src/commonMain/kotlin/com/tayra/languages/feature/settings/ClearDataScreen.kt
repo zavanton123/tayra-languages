@@ -11,16 +11,12 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -41,14 +37,18 @@ import com.tayra.languages.core.domain.service.ClearStep
 import com.tayra.languages.core.ui.components.APP_NAME
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -59,7 +59,6 @@ import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.HorizontalDivider
@@ -125,7 +124,7 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
 
     ScreenHeader(tr("Clear local data"), tr("Remove your learning data and downloaded files from this device. Your preferences stay."), onBackToSettings = onBack)
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp)).padding(24.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large).padding(24.dp),
     ) {
         if (wide) {
             Row(Modifier.height(IntrinsicSize.Min)) {
@@ -142,7 +141,7 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
 
     val tint = clearStatusTint(state)
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(tint.copy(alpha = 0.07f)).border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(16.dp)).padding(20.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.large).background(tint.copy(alpha = 0.07f)).border(1.dp, tint.copy(alpha = 0.25f), AppShapes.large).padding(20.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
@@ -197,27 +196,20 @@ internal fun clearStatusText(state: ClearDataUiState): String = when {
 
 @Composable
 private fun ActionButtons(state: ClearDataUiState, onCancel: () -> Unit, onClear: () -> Unit, onDone: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
     if (state.done) {
-        Button(onClick = onDone, modifier = Modifier.testTag("clear-done")) { Text(tr("Done")) }
+        PrimaryButton(onClick = onDone, modifier = Modifier.testTag("clear-done")) { Text(tr("Done")) }
         return
     }
-    OutlinedButton(onClick = onCancel, enabled = !state.started, shape = RoundedCornerShape(50)) { Text(tr("Cancel")) }
-    Button(
+    SecondaryButton(onClick = onCancel, enabled = !state.started) { Text(tr("Cancel")) }
+    PrimaryButton(
+        if (state.started) tr("Clearing…") else tr("Clear all data"),
         onClick = onClear,
-        enabled = !state.started,
-        colors = ButtonDefaults.buttonColors(containerColor = colors.error, contentColor = colors.onError),
-        shape = RoundedCornerShape(50),
         modifier = Modifier.testTag("clear-all"),
-    ) {
-        if (state.started) {
-            CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp, color = colors.onError)
-        } else {
-            Icon(AppIcons.RemoveCircle, contentDescription = null, modifier = Modifier.size(18.dp))
-        }
-        Spacer(Modifier.width(8.dp))
-        Text(if (state.started) tr("Clearing…") else tr("Clear all data"))
-    }
+        icon = AppIcons.RemoveCircle,
+        enabled = !state.started,
+        loading = state.started,
+        tone = ButtonTone.Danger,
+    )
 }
 
 @Composable
@@ -293,7 +285,7 @@ private fun RemainsColumn(onBackups: () -> Unit, enabled: Boolean, modifier: Mod
         }
         Spacer(Modifier.weight(1f, fill = false))
         Row(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(colors.primary.copy(alpha = 0.07f)).border(1.dp, colors.primary.copy(alpha = 0.18f), RoundedCornerShape(12.dp)).padding(16.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.panel).background(colors.primary.copy(alpha = 0.07f)).border(1.dp, colors.primary.copy(alpha = 0.18f), AppShapes.panel).padding(16.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(14.dp),
         ) {
@@ -302,7 +294,7 @@ private fun RemainsColumn(onBackups: () -> Unit, enabled: Boolean, modifier: Mod
                 Text(tr("Back up before clearing"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, color = colors.primary)
                 Text(tr("Create a recovery file in case you change your mind."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             }
-            OutlinedButton(onClick = onBackups, enabled = enabled, shape = RoundedCornerShape(50), modifier = Modifier.testTag("clear-backup")) { Text(tr("Create backup")) }
+            SecondaryButton(onClick = onBackups, enabled = enabled, modifier = Modifier.testTag("clear-backup")) { Text(tr("Create backup")) }
         }
     }
 }
@@ -330,7 +322,7 @@ private fun ColumnHeader(icon: ImageVector, tint: Color, title: String, subtitle
 @Composable
 internal fun Tile(icon: ImageVector, tint: Color, size: Int = 48) {
     Box(
-        Modifier.size(size.dp).clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.09f)),
+        Modifier.size(size.dp).clip(AppShapes.panel).background(tint.copy(alpha = 0.09f)),
         contentAlignment = Alignment.Center,
     ) {
         Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size((size / 2).dp))

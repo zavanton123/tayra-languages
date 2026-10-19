@@ -6,18 +6,10 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
-import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -37,13 +29,18 @@ import com.tayra.languages.core.domain.courses.CoursePack
 import com.tayra.languages.core.domain.courses.CoursePackService
 import com.tayra.languages.core.domain.courses.CoursePackStatus
 import com.tayra.languages.core.domain.dictionary.PackState
+import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.formatSize
@@ -98,7 +95,7 @@ internal fun CoursePacksContent(
     }
     packs.forEach { status -> PackCard(status, onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) }
     removing?.let { pack ->
-        AlertDialog(
+        AppDialog(
             onDismissRequest = { removing = null },
             title = { Text(tr("Remove the {0} courses?", tr(pack.title))) },
             text = {
@@ -107,11 +104,9 @@ internal fun CoursePacksContent(
                 )
             },
             confirmButton = {
-                TextButton(onClick = { onRemove(pack); removing = null }, modifier = Modifier.testTag("confirm-remove")) {
-                    Text(tr("Remove"), color = MaterialTheme.colorScheme.error)
-                }
+                QuietButton(tr("Remove"), onClick = { onRemove(pack); removing = null }, modifier = Modifier.testTag("confirm-remove"), tone = ButtonTone.Danger)
             },
-            dismissButton = { TextButton(onClick = { removing = null }) { Text(tr("Cancel")) } },
+            dismissButton = { QuietButton(onClick = { removing = null }) { Text(tr("Cancel")) } },
         )
     }
 }
@@ -160,13 +155,9 @@ private fun PackCard(status: CoursePackStatus, onDownload: () -> Unit, onRemove:
                 )
             }
             when (state) {
-                is PackState.Installed -> OutlinedButton(onClick = onRemove, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("remove-${pack.id}")) { Text(tr("Remove")) }
+                is PackState.Installed -> SecondaryButton(onClick = onRemove, modifier = Modifier.testTag("remove-${pack.id}")) { Text(tr("Remove")) }
                 is PackState.Downloading -> Unit
-                else -> Button(onClick = onDownload, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("download-${pack.id}")) {
-                    Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
-                    Spacer(Modifier.width(8.dp))
-                    Text(if (state is PackState.Failed) tr("Try again") else tr("Download"))
-                }
+                else -> PrimaryButton(if (state is PackState.Failed) tr("Try again") else tr("Download"), onClick = onDownload, modifier = Modifier.testTag("download-${pack.id}"), icon = AppIcons.Download)
             }
         }
     }

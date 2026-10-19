@@ -5,10 +5,14 @@ import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.files.acceptsDroppedFiles
+import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
@@ -28,22 +32,17 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -75,6 +74,7 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.files.saveBinaryFile
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import io.github.vinceglb.filekit.dialogs.FileKitType
 import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
 import io.github.vinceglb.filekit.readBytes
@@ -214,7 +214,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                     AppIcons.Storage,
                     note = tr("Stored locally on this device."),
                     modifier = m,
-                ) { Button(onClick = viewModel::create, enabled = idle, shape = RoundedCornerShape(50)) { Text(tr("Create backup"), Modifier.padding(horizontal = 24.dp)) } }
+                ) { PrimaryButton(onClick = viewModel::create, enabled = idle) { Text(tr("Create backup"), Modifier.padding(horizontal = 24.dp)) } }
             }
             val import: @Composable (Modifier) -> Unit = { m ->
                 ActionCard(
@@ -228,7 +228,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                     },
                     modifier = m,
                     highlighted = dropping,
-                ) { OutlinedButton(onClick = { picker.launch() }, enabled = idle, shape = RoundedCornerShape(50)) { Text(tr("Choose file"), Modifier.padding(horizontal = 24.dp)) } }
+                ) { SecondaryButton(onClick = { picker.launch() }, enabled = idle) { Text(tr("Choose file"), Modifier.padding(horizontal = 24.dp)) } }
             }
             if (compact) {
                 create(Modifier)
@@ -253,7 +253,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
     }
 
     restoring?.let { backup ->
-        AlertDialog(
+        AppDialog(
             onDismissRequest = { restoring = null },
             title = { Text(tr("Restore this backup?")) },
             text = {
@@ -261,22 +261,22 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                     tr("All languages, books, vocabulary, reading history and settings will be replaced by those of the backup of {0}. Your current data is backed up first, so you can go back to it.", formatBackupTime(backup)),
                 )
             },
-            confirmButton = { Button(onClick = { restoring = null; viewModel.restore(backup) }) { Text(tr("Restore")) } },
-            dismissButton = { TextButton(onClick = { restoring = null }) { Text(tr("Cancel")) } },
+            confirmButton = { PrimaryButton(onClick = { restoring = null; viewModel.restore(backup) }) { Text(tr("Restore")) } },
+            dismissButton = { QuietButton(onClick = { restoring = null }) { Text(tr("Cancel")) } },
         )
     }
     deleting?.let { backup ->
-        AlertDialog(
+        AppDialog(
             onDismissRequest = { deleting = null },
             title = { Text(tr("Delete this backup?")) },
             text = { Text(tr("The backup of {0} will be deleted from this device. Exported copies are kept.", formatBackupTime(backup))) },
-            confirmButton = { Button(onClick = { deleting = null; viewModel.delete(backup) }) { Text(tr("Delete")) } },
-            dismissButton = { TextButton(onClick = { deleting = null }) { Text(tr("Cancel")) } },
+            confirmButton = { PrimaryButton(onClick = { deleting = null; viewModel.delete(backup) }) { Text(tr("Delete")) } },
+            dismissButton = { QuietButton(onClick = { deleting = null }) { Text(tr("Cancel")) } },
         )
     }
     // An imported file is most often meant to be restored: offer that at once, with the same warning as the Restore button.
     state.imported?.let { backup ->
-        AlertDialog(
+        AppDialog(
             onDismissRequest = viewModel::importSeen,
             title = { Text(tr("Restore the imported backup?")) },
             text = {
@@ -284,17 +284,17 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                     tr("The backup of {0} is in the list now. Restoring it replaces all languages, books, vocabulary, reading history and settings; your current data is backed up first, so you can go back to it.", formatBackupTime(backup)),
                 )
             },
-            confirmButton = { Button(onClick = { viewModel.importSeen(); viewModel.restore(backup) }) { Text(tr("Yes")) } },
-            dismissButton = { TextButton(onClick = viewModel::importSeen) { Text(tr("No")) } },
+            confirmButton = { PrimaryButton(onClick = { viewModel.importSeen(); viewModel.restore(backup) }) { Text(tr("Yes")) } },
+            dismissButton = { QuietButton(onClick = viewModel::importSeen) { Text(tr("No")) } },
         )
     }
     state.restored?.let { undo ->
         val done = { viewModel.restoreSeen(); onRestored() }
-        AlertDialog(
+        AppDialog(
             onDismissRequest = done,
             title = { Text(tr("Backup restored")) },
             text = { Text(tr("The data you had before is kept as the backup of {0}.", formatBackupTime(undo))) },
-            confirmButton = { Button(onClick = done) { Text(tr("OK")) } },
+            confirmButton = { PrimaryButton(onClick = done) { Text(tr("OK")) } },
         )
     }
 }
@@ -317,8 +317,8 @@ internal fun Progress(state: BackupState) {
 private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note: String, modifier: Modifier = Modifier, highlighted: Boolean = false, button: @Composable () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(if (highlighted) colors.primaryContainer else colors.surface)
-            .border(1.dp, if (highlighted) colors.primary else colors.outlineVariant, RoundedCornerShape(14.dp)).padding(24.dp),
+        modifier.fillMaxWidth().clip(AppShapes.card).background(if (highlighted) colors.primaryContainer else colors.surface)
+            .border(1.dp, if (highlighted) colors.primary else colors.outlineVariant, AppShapes.card).padding(24.dp),
     ) {
         IconTile(icon, size = 64)
         Spacer(Modifier.width(20.dp))
@@ -400,13 +400,9 @@ private fun BackupRowContent(
     var menu by remember { mutableStateOf(false) }
     val actions: @Composable () -> Unit = {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            OutlinedButton(onClick = onRestore, enabled = enabled, shape = RoundedCornerShape(10.dp)) { Text(tr("Restore")) }
+            SecondaryButton(onClick = onRestore, enabled = enabled) { Text(tr("Restore")) }
             Spacer(Modifier.width(8.dp))
-            TextButton(onClick = onExport, enabled = enabled) {
-                Icon(AppIcons.Share, contentDescription = null, modifier = Modifier.size(18.dp))
-                Spacer(Modifier.width(8.dp))
-                Text(tr("Export"))
-            }
+            QuietButton(tr("Export"), onClick = onExport, icon = AppIcons.Share, enabled = enabled)
             Box {
                 IconButton(onClick = { menu = true }, enabled = enabled) { Icon(AppIcons.MoreHoriz, contentDescription = tr("More for the backup of {0}", formatBackupTime(backup))) }
                 AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
@@ -416,7 +412,7 @@ private fun BackupRowContent(
         }
     }
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control)
             .padding(horizontal = 12.dp, vertical = 10.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -457,8 +453,8 @@ private fun BackupRowContent(
 @Composable
 private fun IncludedCard(modifier: Modifier = Modifier) {
     Column(
-        modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(20.dp),
+        modifier.fillMaxWidth().clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(20.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             IconTile(AppIcons.VerifiedUser, size = 56)

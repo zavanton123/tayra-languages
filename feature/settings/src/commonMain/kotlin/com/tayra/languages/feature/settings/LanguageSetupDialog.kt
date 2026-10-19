@@ -6,7 +6,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.ModalBottomSheet
@@ -22,12 +21,10 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.Button
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.TriStateCheckbox
 import androidx.compose.material3.CircularProgressIndicator
@@ -37,7 +34,6 @@ import androidx.compose.material3.IconButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -63,7 +59,10 @@ import com.tayra.languages.core.domain.service.SetupKind
 import com.tayra.languages.core.domain.service.SetupState
 import com.tayra.languages.core.domain.service.SetupStatus
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.formatSize
@@ -71,6 +70,7 @@ import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -241,7 +241,7 @@ internal fun PhoneSetupSheet(
             when {
                 items != null && items.none { it.status == SetupStatus.MISSING } -> {
                     Spacer(Modifier.weight(1f))
-                    Button(onClick = onClosed, modifier = Modifier.testTag("setup-done")) { Text(tr("Done")) }
+                    PrimaryButton(onClick = onClosed, modifier = Modifier.testTag("setup-done")) { Text(tr("Done")) }
                 }
                 !state.started -> {
                     // What is chosen, and the way out, stacked at the start; the download button takes the rest.
@@ -251,9 +251,9 @@ internal fun PhoneSetupSheet(
                             style = MaterialTheme.typography.bodyMedium,
                             color = colors.onSurfaceVariant,
                         )
-                        TextButton(onClick = onClosed, contentPadding = PaddingValues(0.dp)) { Text(tr("Set up later"), style = MaterialTheme.typography.titleMedium) }
+                        QuietButton(onClick = onClosed, size = ButtonSize.Compact) { Text(tr("Set up later"), style = MaterialTheme.typography.titleMedium) }
                     }
-                    Button(onClick = onStart, enabled = chosen.isNotEmpty(), modifier = Modifier.weight(1f).height(52.dp).testTag("setup-download")) {
+                    PrimaryButton(onClick = onStart, enabled = chosen.isNotEmpty(), modifier = Modifier.weight(1f).height(52.dp).testTag("setup-download")) {
                         Text(tr("Download selected"), style = MaterialTheme.typography.titleMedium)
                     }
                 }
@@ -268,8 +268,8 @@ internal fun PhoneSetupSheet(
                         color = colors.onSurfaceVariant,
                         modifier = Modifier.weight(1f),
                     )
-                    if (failed) TextButton(onClick = onRetry) { Text(tr("Try again")) }
-                    Button(onClick = onClosed) { Text(if (running) tr("Close") else tr("Done")) }
+                    if (failed) QuietButton(onClick = onRetry) { Text(tr("Try again")) }
+                    PrimaryButton(onClick = onClosed) { Text(if (running) tr("Close") else tr("Done")) }
                 }
             }
         }
@@ -288,7 +288,7 @@ fun LanguageSetupContent(
 ) {
     val colors = MaterialTheme.colorScheme
     val items = state.items
-    Surface(shape = RoundedCornerShape(28.dp), color = colors.surface, modifier = Modifier.widthIn(max = 640.dp).padding(vertical = 24.dp).testTag("language-setup")) {
+    Surface(shape = AppShapes.large, color = colors.surface, modifier = Modifier.widthIn(max = 640.dp).padding(vertical = 24.dp).testTag("language-setup")) {
         Column(Modifier.padding(start = 28.dp, end = 20.dp, top = 20.dp, bottom = 24.dp)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f).padding(top = 12.dp, end = 12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -337,7 +337,7 @@ fun LanguageSetupContent(
             val failed = state.started && !running && chosen.any { progress[it.id] is SetupState.Failed }
             if (items.none { it.status == SetupStatus.MISSING }) {
                 Row(Modifier.fillMaxWidth().padding(end = 8.dp), horizontalArrangement = Arrangement.End) {
-                    Button(onClick = onClosed, modifier = Modifier.testTag("setup-done")) { Text(tr("Done")) }
+                    PrimaryButton(onClick = onClosed, modifier = Modifier.testTag("setup-done")) { Text(tr("Done")) }
                 }
                 return@Column
             }
@@ -357,13 +357,13 @@ fun LanguageSetupContent(
                     modifier = Modifier.weight(1f),
                 )
                 if (!state.started) {
-                    TextButton(onClick = onClosed) { Text(tr("Set up later")) }
-                    Button(onClick = onStart, enabled = chosen.isNotEmpty(), modifier = Modifier.testTag("setup-download")) {
+                    QuietButton(onClick = onClosed) { Text(tr("Set up later")) }
+                    PrimaryButton(onClick = onStart, enabled = chosen.isNotEmpty(), modifier = Modifier.testTag("setup-download")) {
                         Text(tr("Download selected"))
                     }
                 } else {
-                    if (failed) TextButton(onClick = onRetry) { Text(tr("Try again")) }
-                    Button(onClick = onClosed) { Text(if (running) tr("Close") else tr("Done")) }
+                    if (failed) QuietButton(onClick = onRetry) { Text(tr("Try again")) }
+                    PrimaryButton(onClick = onClosed) { Text(if (running) tr("Close") else tr("Done")) }
                 }
             }
         }
@@ -401,7 +401,7 @@ private fun localizedNames(text: String): String = text.split(" · ").joinToStri
 @Composable
 private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progress: SetupState?, onToggle: () -> Unit, compact: Boolean = false) {
     val colors = MaterialTheme.colorScheme
-    val shape = RoundedCornerShape(16.dp)
+    val shape = AppShapes.large
     val missing = item.status == SetupStatus.MISSING
     Row(
         Modifier.fillMaxWidth()
@@ -501,7 +501,7 @@ private fun StatusMark(item: SetupItem, checked: Boolean, started: Boolean, prog
 @Composable
 private fun VoicesCard(voices: List<SetupItem>, selected: Set<String>, started: Boolean, progress: Map<String, SetupState>, onToggle: (String) -> Unit, compact: Boolean = false) {
     val colors = MaterialTheme.colorScheme
-    val shape = RoundedCornerShape(16.dp)
+    val shape = AppShapes.large
     val first = voices.first()
     val engine = first.engine.orEmpty()
     Column(
@@ -596,7 +596,7 @@ private fun VoiceRow(item: SetupItem, checked: Boolean, started: Boolean, progre
     val missing = item.status == SetupStatus.MISSING
     Row(
         Modifier.fillMaxWidth()
-            .clip(RoundedCornerShape(12.dp))
+            .clip(AppShapes.panel)
             .clickable(enabled = !started && missing, onClick = onToggle)
             .padding(vertical = 4.dp)
             .testTag("setup-${item.id}"),

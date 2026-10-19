@@ -20,7 +20,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.IntrinsicSize
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -30,7 +29,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
@@ -39,17 +37,13 @@ import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -81,13 +75,19 @@ import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -387,7 +387,7 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
         when {
             local -> LocalEngineStatus(settings, viewModel)
             engine == TranslationEngine.GOOGLE -> GoogleSettings(settings, viewModel)
-            else -> OutlinedTextField(
+            else -> AppTextField(
                 value = settings.translationContactEmail,
                 onValueChange = { v -> viewModel.update { it.copy(translationContactEmail = v.trim()) } },
                 label = { Text(tr("Contact email (optional)")) },
@@ -410,11 +410,9 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     val compact = LocalWindowWidth.current.isCompact
     val action: @Composable () -> Unit = {
         if (viewModel.hasRuntimeSetup && !ready && !busy) {
-            Button(onClick = viewModel::install, shape = RoundedCornerShape(10.dp)) { Text(tr("Install")) }
+            PrimaryButton(tr("Install"), onClick = viewModel::install)
         } else {
-            OutlinedButton(onClick = viewModel::check, enabled = !busy, shape = RoundedCornerShape(10.dp)) {
-                Text(if (viewModel.hasRuntimeSetup) tr("Check installation") else tr("Check models"))
-            }
+            SecondaryButton(if (viewModel.hasRuntimeSetup) tr("Check installation") else tr("Check models"), onClick = viewModel::check, enabled = !busy)
         }
     }
     val tint = when {
@@ -423,8 +421,8 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
         else -> StatusTints.warning
     }
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.08f))
-            .border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(12.dp)).padding(16.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.08f))
+            .border(1.dp, tint.copy(alpha = 0.25f), AppShapes.panel).padding(16.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         when {
@@ -463,7 +461,7 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     if (viewModel.hasRuntimeSetup) {
         Spacer(Modifier.height(12.dp))
         Column(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(12.dp)),
+            Modifier.fillMaxWidth().clip(AppShapes.panel).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.panel),
         ) {
             Row(
                 Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = 16.dp, vertical = 12.dp),
@@ -474,7 +472,7 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
                 Text(tr("Advanced runtime settings"), style = MaterialTheme.typography.bodyLarge)
             }
             if (advanced) {
-                OutlinedTextField(
+                AppTextField(
                     value = settings.argosPython,
                     onValueChange = { v -> viewModel.update { it.copy(argosPython = v.trim()) } },
                     label = { Text(tr("Python executable (optional)")) },
@@ -493,20 +491,18 @@ internal fun GoogleSettings(settings: UserSettings, viewModel: OfflineTranslatio
     var showKey by remember { mutableStateOf(false) }
     val googleBusy by viewModel.googleBusy.collectAsStateWithLifecycle()
     val googleStatus by viewModel.googleStatus.collectAsStateWithLifecycle()
-    OutlinedTextField(
+    AppTextField(
         value = settings.googleTranslateApiKey,
         onValueChange = { v -> viewModel.update { it.copy(googleTranslateApiKey = v.trim()) } },
         label = { Text(tr("API key")) },
         supportingText = { Text(tr("A Google Cloud API key with the Cloud Translation API enabled. The key is {0}.", tr(viewModel.secretStorage))) },
         singleLine = true,
         visualTransformation = if (showKey) VisualTransformation.None else PasswordVisualTransformation(),
-        trailingIcon = { TextButton(onClick = { showKey = !showKey }) { Text(if (showKey) tr("Hide") else tr("Show")) } },
+        trailingIcon = { QuietButton(if (showKey) tr("Hide") else tr("Show"), onClick = { showKey = !showKey }) },
         modifier = Modifier.fillMaxWidth(),
     )
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        OutlinedButton(onClick = viewModel::checkGoogleKey, enabled = !googleBusy && settings.googleTranslateApiKey.isNotBlank(), shape = RoundedCornerShape(10.dp)) {
-            Text(if (googleBusy) tr("Checking…") else tr("Check key"))
-        }
+        SecondaryButton(if (googleBusy) tr("Checking…") else tr("Check key"), onClick = viewModel::checkGoogleKey, enabled = !googleBusy && settings.googleTranslateApiKey.isNotBlank())
         googleStatus?.let { Text(tr(it), style = MaterialTheme.typography.bodySmall, modifier = Modifier.weight(1f)) }
     }
 }
@@ -542,13 +538,12 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
     }.filter(matches).let { list -> if (tab == PackageTab.INSTALLED) list.sortedBy { it.title } else list }
 
     val search: @Composable (Modifier) -> Unit = { modifier ->
-        OutlinedTextField(
+        AppTextField(
             value = query,
             onValueChange = { query = it },
             placeholder = { Text(if (runtime) tr("Search packages") else tr("Search models")) },
             leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
             singleLine = true,
-            shape = RoundedCornerShape(10.dp),
             modifier = modifier,
         )
     }
@@ -611,7 +606,7 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
         }
         if (tab == PackageTab.INSTALLED && packages.size > installed.size) {
             Spacer(Modifier.height(14.dp))
-            OutlinedButton(onClick = { tab = PackageTab.AVAILABLE; query = "" }, shape = RoundedCornerShape(10.dp)) {
+            SecondaryButton(onClick = { tab = PackageTab.AVAILABLE; query = "" }) {
                 Icon(AppIcons.OpenInNew, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.width(8.dp))
                 Text(if (runtime) tr("Browse all {0} packages", packages.size) else tr("Browse all {0} models", packages.size))
@@ -627,8 +622,8 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
 @Composable
 private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: List<LocalPackage>, pair: PairState, packageBusy: Set<String>) {
     FlowRow(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 16.dp, vertical = 10.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainerLow)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control).padding(horizontal = 16.dp, vertical = 10.dp),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
         verticalArrangement = Arrangement.spacedBy(6.dp),
         itemVerticalAlignment = Alignment.CenterVertically,
@@ -654,11 +649,10 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
                     Text(tr("{0} needs {1}", pair.label, pair.missing.joinToString { it.displayTitle }), style = MaterialTheme.typography.bodyMedium)
                     Spacer(Modifier.width(12.dp))
                     val installing = pair.missing.any { it.key in packageBusy }
-                    Button(
+                    PrimaryButton(
                         onClick = { pair.missing.forEach(viewModel::installPackage) },
                         enabled = !installing,
-                        shape = RoundedCornerShape(10.dp),
-                        contentPadding = PaddingValues(horizontal = 14.dp, vertical = 6.dp),
+                        size = ButtonSize.Compact,
                     ) { Text(if (installing) tr("Installing…") else tr("Install")) }
                 }
             }
@@ -677,7 +671,7 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
 internal fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
     var menu by remember { mutableStateOf(false) }
     Row(
-        modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp))
+        modifier.clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control)
             .padding(start = 12.dp, end = 4.dp, top = 8.dp, bottom = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -704,7 +698,7 @@ internal fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onIn
                     }
                 }
             }
-            else -> Button(onClick = onInstall, shape = RoundedCornerShape(10.dp), modifier = Modifier.padding(end = 8.dp)) { Text(tr("Install")) }
+            else -> PrimaryButton(tr("Install"), onClick = onInstall, modifier = Modifier.padding(end = 8.dp))
         }
     }
 }

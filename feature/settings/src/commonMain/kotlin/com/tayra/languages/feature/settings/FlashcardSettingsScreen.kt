@@ -6,12 +6,10 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -28,6 +26,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.flashcards.LearningSteps
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.HeaderButton
@@ -159,7 +158,7 @@ private fun StepsRow(title: String, description: String, saved: String, onSave: 
     LaunchedEffect(saved) { if (LearningSteps.parse(text)?.let(LearningSteps::format) != saved) text = saved }
     val valid = LearningSteps.parse(text) != null
     SettingRow(title, description, divider = true, stackOnCompact = true) {
-        OutlinedTextField(
+        AppTextField(
             value = text,
             onValueChange = {
                 text = it
@@ -168,7 +167,6 @@ private fun StepsRow(title: String, description: String, saved: String, onSave: 
             singleLine = true,
             isError = !valid,
             supportingText = if (valid) null else ({ Text(tr("Use steps such as 1m 10m")) }),
-            shape = RoundedCornerShape(10.dp),
             modifier = Modifier.width(220.dp).semantics { contentDescription = title },
         )
     }

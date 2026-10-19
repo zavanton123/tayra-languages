@@ -2,9 +2,13 @@ package com.tayra.languages.feature.settings
 
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
+import com.tayra.languages.core.ui.components.AppDialog
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.HeaderButton
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
@@ -26,21 +30,16 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -78,6 +77,7 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import org.koin.compose.viewmodel.koinViewModel
 
 /**
@@ -135,12 +135,12 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     }
 
     if (confirmReset) {
-        AlertDialog(
+        AppDialog(
             onDismissRequest = { confirmReset = false },
             title = { Text(tr("Reset to defaults?")) },
             text = { Text(tr("Every keyboard shortcut goes back to its default key.")) },
-            confirmButton = { Button(onClick = { confirmReset = false; editing = null; viewModel.update { it.copy(hotkeys = HotkeyAction.defaults) } }) { Text(tr("Reset")) } },
-            dismissButton = { TextButton(onClick = { confirmReset = false }) { Text(tr("Cancel")) } },
+            confirmButton = { PrimaryButton(onClick = { confirmReset = false; editing = null; viewModel.update { it.copy(hotkeys = HotkeyAction.defaults) } }) { Text(tr("Reset")) } },
+            dismissButton = { QuietButton(onClick = { confirmReset = false }) { Text(tr("Cancel")) } },
         )
     }
 }
@@ -225,8 +225,8 @@ private fun SearchBanner(query: String, onQuery: (String) -> Unit, assigned: Int
     val compact = LocalWindowWidth.current.isCompact
     val tint = MaterialTheme.colorScheme.primary
     FlowRow(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(tint.copy(alpha = 0.05f))
-            .border(1.dp, tint.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(horizontal = 20.dp, vertical = 12.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(tint.copy(alpha = 0.05f))
+            .border(1.dp, tint.copy(alpha = 0.15f), AppShapes.card).padding(horizontal = 20.dp, vertical = 12.dp),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp),
         itemVerticalAlignment = Alignment.CenterVertically,
@@ -236,13 +236,12 @@ private fun SearchBanner(query: String, onQuery: (String) -> Unit, assigned: Int
             Spacer(Modifier.width(16.dp))
             Text(tr("Select a shortcut, then press a key combination. Press Backspace to clear it."), style = MaterialTheme.typography.bodyLarge)
         }
-        OutlinedTextField(
+        AppTextField(
             value = query,
             onValueChange = onQuery,
             placeholder = { Text(tr("Search shortcuts")) },
             leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
             singleLine = true,
-            shape = RoundedCornerShape(10.dp),
             modifier = if (compact) Modifier.fillMaxWidth() else Modifier.width(300.dp),
         )
         if (!compact) Box(Modifier.width(1.dp).height(36.dp).background(MaterialTheme.colorScheme.outlineVariant))
@@ -272,8 +271,8 @@ private fun CategoryCard(
     onAssign: (HotkeyAction, Hotkey?) -> Unit,
 ) {
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(vertical = 20.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(vertical = 20.dp),
     ) {
         Row(Modifier.padding(horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
             IconTile(category.icon())
@@ -368,7 +367,7 @@ private val KEYS_WIDTH = 250.dp
 @Composable
 private fun Keycaps(hotkey: Hotkey, conflict: Boolean, onClick: () -> Unit, description: String) {
     FlowRow(
-        Modifier.clip(RoundedCornerShape(8.dp)).clickable(onClick = onClick).semantics { contentDescription = description }.padding(2.dp),
+        Modifier.clip(AppShapes.compact).clickable(onClick = onClick).semantics { contentDescription = description }.padding(2.dp),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
@@ -383,9 +382,9 @@ private fun Keycaps(hotkey: Hotkey, conflict: Boolean, onClick: () -> Unit, desc
 private fun Keycap(label: String, conflict: Boolean) {
     val border = if (conflict) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.outlineVariant
     Box(
-        Modifier.heightIn(min = 38.dp).widthIn(min = 44.dp).clip(RoundedCornerShape(8.dp))
+        Modifier.heightIn(min = 38.dp).widthIn(min = 44.dp).clip(AppShapes.compact)
             .background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(1.dp, border, RoundedCornerShape(8.dp))
+            .border(1.dp, border, AppShapes.compact)
             // A thicker bottom edge makes the label read as a key.
             .drawBehind {
                 val edge = 3.dp.toPx()
@@ -410,7 +409,7 @@ private val ARROWS: Map<String, ImageVector> by lazy {
 private fun NotSet(onClick: () -> Unit) {
     val color = MaterialTheme.colorScheme.outline
     Box(
-        Modifier.width(128.dp).height(38.dp).clip(RoundedCornerShape(8.dp)).clickable(onClick = onClick)
+        Modifier.width(128.dp).height(38.dp).clip(AppShapes.compact).clickable(onClick = onClick)
             .drawBehind {
                 drawRoundRect(
                     color.copy(alpha = 0.6f),
@@ -434,8 +433,8 @@ private fun KeyListener(onDone: () -> Unit, onAssign: (Hotkey?) -> Unit) {
     Column {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Row(
-                Modifier.width(260.dp).height(42.dp).clip(RoundedCornerShape(8.dp)).background(MaterialTheme.colorScheme.surface)
-                    .border(1.5.dp, primary, RoundedCornerShape(8.dp))
+                Modifier.width(260.dp).height(42.dp).clip(AppShapes.compact).background(MaterialTheme.colorScheme.surface)
+                    .border(1.5.dp, primary, AppShapes.compact)
                     .focusRequester(requester)
                     .onFocusChanged {
                         // Clicking elsewhere ends the listening, as Cancel does.

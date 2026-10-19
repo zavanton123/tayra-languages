@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
@@ -24,18 +23,14 @@ import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -58,6 +53,7 @@ import com.tayra.languages.core.domain.service.LocalPackage
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LanguageFlag
@@ -66,6 +62,9 @@ import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PackageTab
 import com.tayra.languages.core.ui.components.PickerSheet
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TabToggle
 import com.tayra.languages.core.ui.components.Tag
@@ -73,6 +72,7 @@ import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
  * The Translation page on a phone: the language pair as two chips, the engine picked from a sheet
@@ -125,7 +125,7 @@ internal fun PhoneTranslationScreen(
             PhoneCard(tr("Translation engine"), AppIcons.Memory) {
                 val engine = settings.translationEngine
                 Row(
-                    Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outline.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
+                    Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, colors.outline.copy(alpha = 0.5f), AppShapes.control)
                         .clickable { engineSheet = true }.padding(horizontal = 14.dp, vertical = 14.dp).testTag("phone-engine"),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
@@ -141,7 +141,7 @@ internal fun PhoneTranslationScreen(
                 when {
                     local -> PhoneEngineStatus(settings, viewModel)
                     engine == TranslationEngine.GOOGLE -> GoogleSettings(settings, viewModel)
-                    else -> OutlinedTextField(
+                    else -> AppTextField(
                         value = settings.translationContactEmail,
                         onValueChange = { v -> viewModel.update { it.copy(translationContactEmail = v.trim()) } },
                         label = { Text(tr("Contact email (optional)")) },
@@ -179,7 +179,7 @@ internal fun PhoneTranslationScreen(
 @Composable
 private fun PhoneCard(title: String, icon: ImageVector, titleExtra: @Composable () -> Unit = {}, content: @Composable ColumnScope.() -> Unit) {
     val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(16.dp)) {
+    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             IconTile(icon, size = 44)
             Text(title, Modifier.weight(1f), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
@@ -195,9 +195,9 @@ private fun PhoneCard(title: String, icon: ImageVector, titleExtra: @Composable 
 private fun LanguageChip(flagName: String?, label: String, modifier: Modifier = Modifier, enabled: Boolean = true, onClick: () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.clip(RoundedCornerShape(10.dp))
+        modifier.clip(AppShapes.control)
             .background(if (enabled) colors.surface else colors.surfaceContainerLow)
-            .border(1.dp, if (enabled) colors.outline.copy(alpha = 0.5f) else colors.outlineVariant, RoundedCornerShape(10.dp))
+            .border(1.dp, if (enabled) colors.outline.copy(alpha = 0.5f) else colors.outlineVariant, AppShapes.control)
             .clickable(enabled = enabled, onClick = onClick)
             .padding(horizontal = 12.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -225,7 +225,7 @@ private fun PhoneEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
         else -> StatusTints.warning
     }
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.08f)).border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(12.dp)).padding(14.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.08f)).border(1.dp, tint.copy(alpha = 0.25f), AppShapes.panel).padding(14.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -250,9 +250,9 @@ private fun PhoneEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
             }
             Spacer(Modifier.width(10.dp))
             if (viewModel.hasRuntimeSetup && !ready && !busy) {
-                Button(onClick = viewModel::install, shape = RoundedCornerShape(10.dp)) { Text(tr("Install")) }
+                PrimaryButton(tr("Install"), onClick = viewModel::install)
             } else {
-                OutlinedButton(onClick = viewModel::check, enabled = !busy, shape = RoundedCornerShape(10.dp)) {
+                SecondaryButton(onClick = viewModel::check, enabled = !busy) {
                     Text(if (viewModel.hasRuntimeSetup) tr("Check installation") else tr("Check models"), maxLines = 1)
                 }
             }
@@ -283,10 +283,9 @@ private fun PhonePackagesCard(viewModel: OfflineTranslationViewModel, packages: 
                 pair.missing.forEach { PackageLine(it) }
                 val installing = pair.missing.any { it.key in packageBusy }
                 val size = pair.missing.sumOf { it.sizeBytes }
-                Button(
+                PrimaryButton(
                     onClick = { pair.missing.forEach(viewModel::installPackage) },
                     enabled = !installing,
-                    shape = RoundedCornerShape(12.dp),
                     modifier = Modifier.fillMaxWidth().padding(top = 4.dp).testTag("phone-install-missing"),
                 ) {
                     Text(
@@ -305,7 +304,7 @@ private fun PhonePackagesCard(viewModel: OfflineTranslationViewModel, packages: 
             Text(if (runtime) tr("No packages installed yet.") else tr("No models installed yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         Box(Modifier.fillMaxWidth().padding(top = 4.dp), contentAlignment = Alignment.Center) {
-            TextButton(onClick = onBrowse, modifier = Modifier.testTag("phone-browse-packages")) {
+            QuietButton(onClick = onBrowse, modifier = Modifier.testTag("phone-browse-packages")) {
                 Text(if (runtime) tr("Browse all language packages") else tr("Browse all language models"), style = MaterialTheme.typography.titleMedium)
             }
         }
@@ -315,7 +314,7 @@ private fun PhonePackagesCard(viewModel: OfflineTranslationViewModel, packages: 
 @Composable
 private fun NoticeBox(icon: ImageVector, tint: androidx.compose.ui.graphics.Color, text: String) {
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(tint.copy(alpha = 0.10f)).padding(horizontal = 12.dp, vertical = 10.dp).padding(bottom = 0.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.control).background(tint.copy(alpha = 0.10f)).padding(horizontal = 12.dp, vertical = 10.dp).padding(bottom = 0.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(22.dp))
@@ -330,7 +329,7 @@ private fun NoticeBox(icon: ImageVector, tint: androidx.compose.ui.graphics.Colo
 private fun PackageLine(pkg: LocalPackage) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 12.dp, vertical = 12.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).padding(horizontal = 12.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Text(pkg.displayTitle, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
@@ -360,13 +359,12 @@ private fun PackagesSheet(viewModel: OfflineTranslationViewModel, packages: List
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), sheetMaxWidth = Dp.Unspecified, containerColor = colors.surface) {
         Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp).padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             Text(if (runtime) tr("Language packages") else tr("Language models"), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-            OutlinedTextField(
+            AppTextField(
                 value = query,
                 onValueChange = { query = it },
                 placeholder = { Text(if (runtime) tr("Search packages") else tr("Search models")) },
                 leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
                 singleLine = true,
-                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth(),
             )
             TabToggle(tab) { tab = it }

@@ -14,17 +14,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -39,16 +34,22 @@ import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.books.BookPack
 import com.tayra.languages.core.domain.books.BookPackStatus
 import com.tayra.languages.core.domain.dictionary.PackState
+import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /** The book packs page on a phone: each bundle a card with its summary, its size and one full-width button. */
 @Composable
@@ -76,14 +77,14 @@ internal fun PhoneBookPacksScreen(
         }
     }
     removing?.let { pack ->
-        AlertDialog(
+        AppDialog(
             onDismissRequest = { removing = null },
             title = { Text(tr("Remove the {0} books?", tr(pack.title))) },
             text = { Text(tr("The bundle's books are deleted, with how far you read them and your bookmarks in them. Books you added yourself stay. You can download the bundle again at any time.")) },
             confirmButton = {
-                TextButton(onClick = { onRemove(pack); removing = null }, modifier = Modifier.testTag("confirm-remove")) { Text(tr("Remove"), color = colors.error) }
+                QuietButton(tr("Remove"), onClick = { onRemove(pack); removing = null }, modifier = Modifier.testTag("confirm-remove"), tone = ButtonTone.Danger)
             },
-            dismissButton = { TextButton(onClick = { removing = null }) { Text(tr("Cancel")) } },
+            dismissButton = { QuietButton(onClick = { removing = null }) { Text(tr("Cancel")) } },
         )
     }
 }
@@ -95,7 +96,7 @@ private fun PhonePackCard(status: BookPackStatus, onDownload: () -> Unit, onRemo
     val pack = status.pack
     val state = status.state
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(16.dp).testTag("pack-${pack.id}"),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp).testTag("pack-${pack.id}"),
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -139,11 +140,11 @@ private fun PhonePackCard(status: BookPackStatus, onDownload: () -> Unit, onRemo
             }
         }
         when (state) {
-            is PackState.Installed -> OutlinedButton(onClick = onRemove, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(52.dp).testTag("remove-${pack.id}")) {
+            is PackState.Installed -> SecondaryButton(onClick = onRemove, modifier = Modifier.fillMaxWidth().height(52.dp).testTag("remove-${pack.id}")) {
                 Text(tr("Remove book bundle"), style = MaterialTheme.typography.titleMedium)
             }
             is PackState.Downloading -> Unit
-            else -> Button(onClick = onDownload, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(52.dp).testTag("download-${pack.id}")) {
+            else -> PrimaryButton(onClick = onDownload, modifier = Modifier.fillMaxWidth().height(52.dp).testTag("download-${pack.id}")) {
                 Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(20.dp))
                 Spacer(Modifier.width(10.dp))
                 Text(if (state is PackState.Failed) tr("Try again") else tr("Download book bundle"), style = MaterialTheme.typography.titleMedium)

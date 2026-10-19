@@ -2,18 +2,10 @@ package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
-import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -26,9 +18,13 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.data.mdict.DictionaryFiles
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.language.LanguageOption
+import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import io.github.vinceglb.filekit.dialogs.FileKitMode
 import io.github.vinceglb.filekit.dialogs.FileKitType
@@ -64,11 +60,7 @@ internal fun ImportDictionaryCard(viewModel: DictionariesViewModel, learning: La
             else -> {
                 if (current is DictionaryImport.Done) Text(tr("{0} was imported.", current.title), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.primary)
                 if (current is DictionaryImport.Failed) Text(tr("The import failed: {0}", current.message), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error)
-                OutlinedButton(onClick = { picker.launch() }, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("import-dictionary")) {
-                    Icon(AppIcons.UploadFile, contentDescription = null, modifier = Modifier.size(18.dp))
-                    Spacer(Modifier.size(8.dp))
-                    Text(tr("Choose a dictionary file"))
-                }
+                SecondaryButton(tr("Choose a dictionary file"), onClick = { picker.launch() }, modifier = Modifier.testTag("import-dictionary"), icon = AppIcons.UploadFile)
             }
         }
     }
@@ -89,7 +81,7 @@ internal fun ImportLanguagesDialog(ready: DictionaryImport.Ready, defaultSource:
     val options = LanguageCodes.options
     var source by remember { mutableStateOf(options.firstOrNull { it.code == defaultSource }) }
     var target by remember { mutableStateOf(options.firstOrNull { it.code == defaultTarget }) }
-    AlertDialog(
+    AppDialog(
         onDismissRequest = onDismiss,
         title = { Text(ready.info.title) },
         text = {
@@ -101,8 +93,8 @@ internal fun ImportLanguagesDialog(ready: DictionaryImport.Ready, defaultSource:
             }
         },
         confirmButton = {
-            Button(onClick = { onImport(source!!.code, target!!.code) }, enabled = source != null && target != null, modifier = Modifier.testTag("import-confirm")) { Text(tr("Import")) }
+            PrimaryButton(onClick = { onImport(source!!.code, target!!.code) }, enabled = source != null && target != null, modifier = Modifier.testTag("import-confirm")) { Text(tr("Import")) }
         },
-        dismissButton = { TextButton(onClick = onDismiss) { Text(tr("Cancel")) } },
+        dismissButton = { QuietButton(tr("Cancel"), onClick = onDismiss) },
     )
 }

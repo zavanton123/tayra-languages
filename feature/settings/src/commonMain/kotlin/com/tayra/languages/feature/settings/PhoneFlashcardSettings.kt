@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Info
@@ -25,8 +24,6 @@ import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
@@ -48,13 +45,16 @@ import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.flashcards.LearningSteps
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.NumberStepper
 import com.tayra.languages.core.ui.components.RoundSlider
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /** The flashcard settings on a phone: compact cards of plain rows, the explanation folded away, Reset at the bottom. */
 @Composable
@@ -125,7 +125,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                 }
             }
             HowItWorks()
-            OutlinedButton(onClick = onReset, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(52.dp).testTag("phone-reset-flashcards")) {
+            SecondaryButton(onClick = onReset, modifier = Modifier.fillMaxWidth().height(52.dp).testTag("phone-reset-flashcards")) {
                 Icon(Icons.Default.Refresh, contentDescription = null, modifier = Modifier.size(20.dp))
                 Spacer(Modifier.width(10.dp))
                 Text(tr("Reset to defaults"), style = MaterialTheme.typography.titleMedium)
@@ -140,7 +140,7 @@ private const val PHONE_DEFAULT_REVIEW_LIMIT = 200
 @Composable
 private fun PhoneCard(title: String, icon: ImageVector, content: @Composable ColumnScope.() -> Unit) {
     val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(16.dp)) {
+    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             IconTile(icon, size = 44)
             Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
@@ -168,7 +168,7 @@ private fun StepsField(title: String, saved: String, onSave: (String) -> Unit) {
     val valid = LearningSteps.parse(text) != null
     Row(Modifier.fillMaxWidth().padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
         Text(title, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-        OutlinedTextField(
+        AppTextField(
             value = text,
             onValueChange = {
                 text = it
@@ -177,7 +177,6 @@ private fun StepsField(title: String, saved: String, onSave: (String) -> Unit) {
             singleLine = true,
             isError = !valid,
             supportingText = if (valid) null else ({ Text(tr("Use steps such as 1m 10m")) }),
-            shape = RoundedCornerShape(10.dp),
             modifier = Modifier.width(170.dp).semantics { contentDescription = title },
         )
     }
@@ -188,7 +187,7 @@ private fun StepsField(title: String, saved: String, onSave: (String) -> Unit) {
 private fun HowItWorks() {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
-    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp))) {
+    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card)) {
         Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(16.dp).testTag("phone-how-it-works"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             Icon(Icons.Default.Info, contentDescription = null, tint = colors.primary, modifier = Modifier.size(26.dp))
             Text(tr("How flashcard scheduling works"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)

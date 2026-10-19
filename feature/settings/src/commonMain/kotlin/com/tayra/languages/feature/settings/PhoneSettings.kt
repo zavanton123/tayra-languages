@@ -12,9 +12,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowRight
@@ -25,7 +23,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -47,9 +44,11 @@ import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.NumberStepper
 import com.tayra.languages.core.ui.components.PickerSheet
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.RoundSlider
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppThemes
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -66,7 +65,7 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
     Scaffold(
         topBar = {
             AppTopBar(title = tr("Settings"), onNavigate = onNavigate, section = NavSection.SETTINGS, actions = {
-                TextButton(onClick = onReset) { Text(tr("Reset"), style = MaterialTheme.typography.titleMedium) }
+                QuietButton(onClick = onReset) { Text(tr("Reset"), style = MaterialTheme.typography.titleMedium) }
             })
         },
         containerColor = colors.surfaceContainerLow,
@@ -135,7 +134,7 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
 private fun PhoneCard(title: String, icon: ImageVector? = null, iconText: String? = null, content: @Composable ColumnScope.() -> Unit) {
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(16.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             IconTile(icon, iconText, size = 44)

@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -15,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 
@@ -36,7 +36,7 @@ internal fun TextRecognitionCard(viewModel: DictionariesViewModel) {
             Row(Modifier.fillMaxWidth().padding(vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
                 Text(tr(pack.title), style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
                 Text(formatSize(pack.sizeBytes), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                TextButton(onClick = { viewModel.removeOcr(pack) }) { Text(tr("Remove")) }
+                QuietButton(tr("Remove"), onClick = { viewModel.removeOcr(pack) })
             }
         }
     }

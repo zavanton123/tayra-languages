@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
@@ -22,13 +21,10 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -50,13 +46,17 @@ import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageOption
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.CodeTile
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 
 private enum class PhoneTab { INSTALLED, AVAILABLE }
 
@@ -96,13 +96,12 @@ internal fun PhoneDictionariesScreen(
             TextRecognitionCard(viewModel)
             // A search belongs to the list it was typed into.
             PhoneSegments(tab, installed.size) { tab = it; query = "" }
-            OutlinedTextField(
+            AppTextField(
                 value = query,
                 onValueChange = { query = it },
                 placeholder = { Text(if (tab == PhoneTab.INSTALLED) tr("Search installed dictionaries") else tr("Search dictionaries")) },
                 leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
                 singleLine = true,
-                shape = RoundedCornerShape(12.dp),
                 modifier = Modifier.fillMaxWidth(),
             )
             when (tab) {
@@ -155,7 +154,7 @@ internal fun PhoneDictionariesScreen(
 private fun PhoneLookupCard(learning: LanguageOption?, nativeName: String, current: PackStatus?, onDownload: (DictionaryPack) -> Unit, onTest: (DictionaryPack) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val state = current?.state
-    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(16.dp)) {
+    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             IconTile(AppIcons.MenuBook, size = 44)
             Text(tr("Current lookup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
@@ -191,11 +190,11 @@ private fun PhoneLookupCard(learning: LanguageOption?, nativeName: String, curre
             current == null || state is PackState.Downloading -> Unit
             state is PackState.Installed -> {
                 Spacer(Modifier.height(14.dp))
-                OutlinedButton(onClick = { onTest(current.pack) }, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth()) { Text(tr("Test lookup"), style = MaterialTheme.typography.titleMedium) }
+                SecondaryButton(onClick = { onTest(current.pack) }, modifier = Modifier.fillMaxWidth()) { Text(tr("Test lookup"), style = MaterialTheme.typography.titleMedium) }
             }
             else -> {
                 Spacer(Modifier.height(14.dp))
-                Button(onClick = { onDownload(current.pack) }, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().testTag("phone-download-current")) {
+                PrimaryButton(onClick = { onDownload(current.pack) }, modifier = Modifier.fillMaxWidth().testTag("phone-download-current")) {
                     Text(tr("Download {0}", current.pack.displayTitle), style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
             }
@@ -209,7 +208,7 @@ private data class Status(val icon: androidx.compose.ui.graphics.vector.ImageVec
 private fun PairChip(code: String, name: String, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.clip(RoundedCornerShape(10.dp)).background(colors.surfaceContainerLow).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(6.dp).padding(end = 8.dp),
+        modifier.clip(AppShapes.control).background(colors.surfaceContainerLow).border(1.dp, colors.outlineVariant, AppShapes.control).padding(6.dp).padding(end = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         CodeTile(code, size = 36)
@@ -222,11 +221,11 @@ private fun PairChip(code: String, name: String, modifier: Modifier = Modifier) 
 @Composable
 private fun PhoneSegments(selected: PhoneTab, installedCount: Int, onSelect: (PhoneTab) -> Unit) {
     val colors = MaterialTheme.colorScheme
-    Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(colors.surfaceContainer).padding(4.dp)) {
+    Row(Modifier.fillMaxWidth().clip(AppShapes.panel).background(colors.surfaceContainer).padding(4.dp)) {
         PhoneTab.entries.forEach { tab ->
             val active = tab == selected
             Box(
-                Modifier.weight(1f).clip(RoundedCornerShape(10.dp))
+                Modifier.weight(1f).clip(AppShapes.control)
                     .background(if (active) colors.surface else Color.Transparent)
                     .clickable { onSelect(tab) }
                     .padding(vertical = 12.dp)
@@ -246,7 +245,7 @@ private fun PhoneSegments(selected: PhoneTab, installedCount: Int, onSelect: (Ph
 
 @Composable
 private fun ListBox(content: @Composable () -> Unit) {
-    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(MaterialTheme.colorScheme.surface).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(12.dp))) { content() }
+    Column(Modifier.fillMaxWidth().clip(AppShapes.panel).background(MaterialTheme.colorScheme.surface).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.panel)) { content() }
 }
 
 /** A pack to download: the language that tells it apart, its name and the button; the state shows only when it is not plain. */
@@ -275,7 +274,7 @@ private fun PhoneAvailableRow(status: PackStatus, browsing: Boolean, onDownload:
         }
         Spacer(Modifier.width(10.dp))
         if (state !is PackState.Downloading) {
-            OutlinedButton(onClick = onDownload, shape = RoundedCornerShape(10.dp)) { Text(if (state is PackState.Failed) tr("Retry") else tr("Download")) }
+            SecondaryButton(if (state is PackState.Failed) tr("Retry") else tr("Download"), onClick = onDownload)
         }
     }
 }

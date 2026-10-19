@@ -32,7 +32,6 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
@@ -41,17 +40,12 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -79,15 +73,21 @@ import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
+import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.coroutines.flow.SharingStarted
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaryInfo
 import kotlin.coroutines.cancellation.CancellationException
@@ -317,14 +317,14 @@ private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, cur
     val action: @Composable () -> Unit = {
         when {
             current == null -> {}
-            state is PackState.Installed -> OutlinedButton(onClick = { onTest(current.pack) }, shape = RoundedCornerShape(50)) { Text(tr("Test lookup")) }
+            state is PackState.Installed -> SecondaryButton(tr("Test lookup"), onClick = { onTest(current.pack) })
             state is PackState.Downloading -> {}
-            else -> Button(onClick = { onDownload(current.pack) }, shape = RoundedCornerShape(50)) { Text(tr("Download")) }
+            else -> PrimaryButton(tr("Download"), onClick = { onDownload(current.pack) })
         }
     }
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(20.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(20.dp),
     ) {
         if (compact) {
             pair()
@@ -349,8 +349,8 @@ private data class LookupStatus(val icon: androidx.compose.ui.graphics.vector.Im
 @Composable
 private fun LanguageChip(code: String, name: String) {
     Row(
-        Modifier.clip(RoundedCornerShape(10.dp)).background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp)).padding(6.dp).padding(end = 10.dp),
+        Modifier.clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainerLow)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control).padding(6.dp).padding(end = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         CodeTile(code, size = 36)
@@ -388,20 +388,19 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
             return@ContentCard
         }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
-            OutlinedTextField(
+            AppTextField(
                 value = query,
                 onValueChange = { query = it },
                 placeholder = { Text(tr("Search installed dictionaries")) },
                 leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
                 singleLine = true,
-                shape = RoundedCornerShape(10.dp),
                 modifier = if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = 280.dp).weight(1f),
             )
             if (targets.size > 1) Segmented(targets, chosen) { target = it }
         }
         Spacer(Modifier.height(12.dp))
         Row(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(MaterialTheme.colorScheme.primary.copy(alpha = 0.06f)).padding(horizontal = 16.dp, vertical = 10.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.control).background(MaterialTheme.colorScheme.primary.copy(alpha = 0.06f)).padding(horizontal = 16.dp, vertical = 10.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Icon(AppIcons.Storage, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(20.dp))
@@ -414,7 +413,7 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
             )
         }
         Spacer(Modifier.height(8.dp))
-        Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp))) {
+        Column(Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control)) {
             shown.forEachIndexed { i, status ->
                 if (i > 0) Box(Modifier.fillMaxWidth().height(1.dp).background(MaterialTheme.colorScheme.outlineVariant))
                 InstalledRow(status, onRemove = { viewModel.remove(status.pack) })
@@ -425,7 +424,7 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
         }
         if (matching.size > INSTALLED_PREVIEW && query.isBlank()) {
             Spacer(Modifier.height(14.dp))
-            OutlinedButton(onClick = { showAll = !showAll }, shape = RoundedCornerShape(10.dp)) {
+            SecondaryButton(onClick = { showAll = !showAll }) {
                 Text(if (showAll) tr("Show fewer") else tr("View all {0} installed dictionaries", matching.size))
                 Spacer(Modifier.width(4.dp))
                 Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, modifier = Modifier.size(18.dp))
@@ -436,11 +435,11 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
 
 @Composable
 private fun Segmented(options: List<String>, selected: String?, onSelect: (String) -> Unit) {
-    Row(Modifier.clip(RoundedCornerShape(10.dp)).background(MaterialTheme.colorScheme.surfaceContainer).padding(3.dp)) {
+    Row(Modifier.clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainer).padding(3.dp)) {
         options.forEach { option ->
             val active = option == selected
             Box(
-                Modifier.clip(RoundedCornerShape(8.dp))
+                Modifier.clip(AppShapes.compact)
                     .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.14f) else androidx.compose.ui.graphics.Color.Transparent)
                     .clickable { onSelect(option) }
                     .padding(horizontal = 18.dp, vertical = 10.dp),
@@ -503,13 +502,12 @@ private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, na
         modifier = modifier,
     ) {
         if (browsing || learning == null) {
-            OutlinedTextField(
+            AppTextField(
                 value = query,
                 onValueChange = { query = it },
                 placeholder = { Text(tr("Search dictionaries")) },
                 leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
                 singleLine = true,
-                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth(),
             )
             Spacer(Modifier.height(10.dp))
@@ -539,7 +537,7 @@ private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, na
         InfoBanner(tr("One pack covers one source language with meanings in one language."))
         if (learning != null) {
             Spacer(Modifier.height(14.dp))
-            OutlinedButton(onClick = { browsing = !browsing; query = "" }, shape = RoundedCornerShape(10.dp), modifier = Modifier.fillMaxWidth()) {
+            SecondaryButton(onClick = { browsing = !browsing; query = "" }, modifier = Modifier.fillMaxWidth()) {
                 Icon(AppIcons.OpenInNew, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.width(10.dp))
                 Text(if (browsing) tr("Show {0} dictionaries", tr(learning.name)) else tr("Browse all {0} dictionaries", DictionaryPacks.all.size), modifier = Modifier.weight(1f))
@@ -553,7 +551,7 @@ private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, na
 private fun AvailableRow(status: PackStatus, browsing: Boolean, onDownload: () -> Unit) {
     val state = status.state
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp)).padding(10.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control).padding(10.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         // For one source language the target is what tells the packs apart.
@@ -578,7 +576,7 @@ private fun AvailableRow(status: PackStatus, browsing: Boolean, onDownload: () -
         }
         Spacer(Modifier.width(12.dp))
         if (state !is PackState.Downloading) {
-            OutlinedButton(onClick = onDownload, shape = RoundedCornerShape(50)) { Text(if (state is PackState.Failed) tr("Retry") else tr("Download")) }
+            SecondaryButton(if (state is PackState.Failed) tr("Retry") else tr("Download"), onClick = onDownload)
         }
     }
 }
@@ -590,14 +588,14 @@ private fun TestLookupDialog(pack: DictionaryPack, viewModel: DictionariesViewMo
     var word by remember { mutableStateOf("") }
     var result by remember { mutableStateOf<Pair<String, DictionaryLookup>?>(null) }
     val search = { if (word.isNotBlank()) scope.launch { result = word.trim() to viewModel.lookup(pack, word) } }
-    AlertDialog(
+    AppDialog(
         onDismissRequest = onDismiss,
         title = { Text(tr("Test lookup")) },
         text = {
             Column(Modifier.widthIn(min = 420.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 Text(tr("Type a {0} word to see what {1} says about it.", tr(pack.sourceName), pack.displayTitle), style = MaterialTheme.typography.bodyMedium)
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    OutlinedTextField(
+                    AppTextField(
                         value = word,
                         onValueChange = { word = it },
                         placeholder = { Text(tr("A {0} word", tr(pack.sourceName))) },
@@ -607,7 +605,7 @@ private fun TestLookupDialog(pack: DictionaryPack, viewModel: DictionariesViewMo
                         modifier = Modifier.weight(1f),
                     )
                     Spacer(Modifier.width(10.dp))
-                    Button(onClick = { search() }, enabled = word.isNotBlank()) { Text(tr("Look up")) }
+                    PrimaryButton(tr("Look up"), onClick = { search() }, enabled = word.isNotBlank())
                 }
                 result?.let { (looked, lookup) ->
                     if (lookup.isEmpty) {
@@ -632,6 +630,6 @@ private fun TestLookupDialog(pack: DictionaryPack, viewModel: DictionariesViewMo
                 }
             }
         },
-        confirmButton = { TextButton(onClick = onDismiss) { Text(tr("Close")) } },
+        confirmButton = { QuietButton(tr("Close"), onClick = onDismiss) },
     )
 }
