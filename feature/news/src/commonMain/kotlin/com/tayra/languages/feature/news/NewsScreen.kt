@@ -1,7 +1,6 @@
 package com.tayra.languages.feature.news
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -14,23 +13,12 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Refresh
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.SegmentedButton
-import androidx.compose.material3.SegmentedButtonDefaults
-import androidx.compose.material3.SingleChoiceSegmentedButtonRow
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -54,16 +42,25 @@ import com.tayra.languages.core.domain.books.discover.Difficulty
 import com.tayra.languages.core.domain.news.NewsLevel
 import com.tayra.languages.core.domain.news.NewsSource
 import com.tayra.languages.core.ui.components.AppFilterChip
-import com.tayra.languages.core.ui.components.AppTextField
+import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.CoverageLine
 import com.tayra.languages.core.ui.components.DifficultyFilter
+import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.Segment
+import com.tayra.languages.core.ui.components.SegmentedToggle
+import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
@@ -107,7 +104,7 @@ fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewM
                 section = NavSection.NEWS,
                 actions = {
                     val loading = if (tab == NewsTab.NEWS) state.loading else wikiState.loading
-                    IconButton(onClick = if (tab == NewsTab.NEWS) viewModel::refresh else wiki::refresh, enabled = !loading) { Icon(Icons.Default.Refresh, contentDescription = tr("Refresh")) }
+                    AppIconButton(Icons.Default.Refresh, contentDescription = tr("Refresh"), onClick = if (tab == NewsTab.NEWS) viewModel::refresh else wiki::refresh, enabled = !loading)
                 },
             )
         },
@@ -156,17 +153,11 @@ fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewM
 /** The choice between the news sites' feeds and the wikis. */
 @Composable
 internal fun NewsTabs(selected: NewsTab, onSelect: (NewsTab) -> Unit) {
-    val compact = LocalWindowWidth.current.isCompact
-    SingleChoiceSegmentedButtonRow(if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = 360.dp)) {
-        NewsTab.entries.forEachIndexed { i, tab ->
-            SegmentedButton(
-                selected = selected == tab,
-                onClick = { onSelect(tab) },
-                shape = SegmentedButtonDefaults.itemShape(i, NewsTab.entries.size),
-                modifier = Modifier.testTag("tab-${tab.name}"),
-            ) { Text(if (tab == NewsTab.NEWS) tr("News sites") else tr("Wikis")) }
-        }
-    }
+    SegmentedToggle(
+        NewsTab.entries.map { tab -> Segment(tab, label = if (tab == NewsTab.NEWS) tr("News sites") else tr("Wikis"), testTag = "tab-${tab.name}") },
+        selected,
+        onSelect,
+    )
 }
 
 internal class NewsActions(
@@ -198,11 +189,20 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
             state = list,
             contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
         ) {
-            item { Header(state, compact, tabs) }
+            item {
+                Column(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                    ScreenHeader(
+                        tr("News"),
+                        if (state.languageName.isEmpty()) null
+                        else tr("The latest news in {0}, with how much of each article you already know.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
+                    )
+                    tabs()
+                }
+            }
             when {
-                state.languageName.isEmpty() -> item { Message(tr("Choose a language to learn to see its news.")) }
+                state.languageName.isEmpty() -> item { EmptyState(AppIcons.Newspaper, tr("Choose a language to learn to see its news.")) }
                 state.sources.isEmpty() -> item {
-                    Message(tr("There is no news feed in {0} yet.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)))
+                    EmptyState(AppIcons.Newspaper, tr("There is no news feed in {0} yet.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)))
                 }
                 else -> {
                     item { Filters(state, actions) }
@@ -215,19 +215,20 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
                         )
                     }
                     when {
-                        state.loading && state.articles.isEmpty() -> item { Box(Modifier.fillMaxWidth().padding(vertical = 32.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator() } }
+                        state.loading && state.articles.isEmpty() -> item { Box(Modifier.fillMaxWidth().padding(vertical = 32.dp), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) } }
                         state.shown.isEmpty() -> item {
-                            Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
-                                Message(
-                                    when {
-                                        state.articles.isEmpty() -> tr("The news could not be read. Check the connection and try again.")
-                                        state.stillChecking > 0 -> tr("None of the articles checked so far is at this level.")
-                                        else -> tr("No articles match these filters.")
-                                    },
-                                )
-                                if (state.articles.isNotEmpty()) QuietButton(tr("Clear filters"), onClick = actions.onClear)
-                                if (state.articles.isEmpty()) SecondaryButton(tr("Try again"), onClick = actions.onRefresh)
-                            }
+                            EmptyState(
+                                AppIcons.Newspaper,
+                                when {
+                                    state.articles.isEmpty() -> tr("The news could not be read. Check the connection and try again.")
+                                    state.stillChecking > 0 -> tr("None of the articles checked so far is at this level.")
+                                    else -> tr("No articles match these filters.")
+                                },
+                                action = {
+                                    if (state.articles.isNotEmpty()) QuietButton(tr("Clear filters"), onClick = actions.onClear)
+                                    else SecondaryButton(tr("Try again"), onClick = actions.onRefresh)
+                                },
+                            )
                         }
                         else -> items(state.shown.size, key = { state.shown[it].article.url }) { i ->
                             NewsCard(state.shown[i], state, actions, compact, now, Modifier.padding(bottom = 12.dp))
@@ -248,35 +249,12 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
     }
 }
 
-@Composable
-private fun Header(state: NewsUiState, compact: Boolean, tabs: @Composable () -> Unit) {
-    Column(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        if (!compact) Text(tr("News"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-        tabs()
-        if (state.languageName.isNotEmpty()) {
-            Text(
-                tr("The latest news in {0}, with how much of each article you already know.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-    }
-}
-
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun Filters(state: NewsUiState, actions: NewsActions) {
     val colors = MaterialTheme.colorScheme
     Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        AppTextField(
-            value = state.query,
-            onValueChange = actions.onQuery,
-            modifier = Modifier.fillMaxWidth().testTag("news-search"),
-            placeholder = { Text(tr("Search the news")) },
-            leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
-            trailingIcon = if (state.query.isNotEmpty()) ({ IconButton(onClick = { actions.onQuery("") }) { Icon(Icons.Default.Close, contentDescription = tr("Clear")) } }) else null,
-            singleLine = true,
-        )
+        SearchField(state.query, actions.onQuery, tr("Search the news"), Modifier.fillMaxWidth(), fieldModifier = Modifier.testTag("news-search"))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             NewsPeriod.entries.forEach { period ->
                 AppFilterChip(selected = state.period == period, onClick = { actions.onPeriod(period) }, label = { Text(period.label) }, modifier = Modifier.testTag("period-${period.name}"))
@@ -322,7 +300,7 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
         }
         if (state.stillChecking > 0) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                CircularProgressIndicator(Modifier.size(14.dp), strokeWidth = 2.dp)
+                AppSpinner(size = SpinnerSize.Small)
                 Text(
                     trPlural(state.stillChecking, "Checking the words of {0} more article…", "Checking the words of {0} more articles…"),
                     style = MaterialTheme.typography.bodyMedium,
@@ -345,9 +323,8 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
     val colors = MaterialTheme.colorScheme
     val article = item.article
     val opened = state.opened[article.url]
-    val shape = AppShapes.card
     Row(
-        modifier.fillMaxWidth().clip(shape).background(colors.surface).border(1.dp, colors.outlineVariant, shape).padding(16.dp).testTag("article-${article.url}"),
+        modifier.fillMaxWidth().cardSurface().padding(16.dp).testTag("article-${article.url}"),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
@@ -384,19 +361,8 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
 
 @Composable
 private fun ReadButton(item: NewsItem, opened: Boolean, actions: NewsActions, modifier: Modifier) {
-    val content: @Composable () -> Unit = {
-        if (item.opening) {
-            CircularProgressIndicator(Modifier.size(16.dp), strokeWidth = 2.dp, color = LocalContentColor.current)
-            Spacer(Modifier.width(8.dp))
-        }
-        Text(if (opened) tr("Continue") else tr("Read"), fontWeight = FontWeight.SemiBold)
-    }
+    val text = if (opened) tr("Continue") else tr("Read")
     val tagged = modifier.testTag("read-${item.article.url}")
-    if (opened) SecondaryButton(onClick = { actions.onOpen(item) }, enabled = !item.opening, modifier = tagged) { content() }
-    else PrimaryButton(onClick = { actions.onOpen(item) }, enabled = !item.opening, modifier = tagged) { content() }
-}
-
-@Composable
-private fun Message(text: String) {
-    Text(text, Modifier.fillMaxWidth().padding(vertical = 24.dp), style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center)
+    if (opened) SecondaryButton(text, onClick = { actions.onOpen(item) }, modifier = tagged, loading = item.opening)
+    else PrimaryButton(text, onClick = { actions.onOpen(item) }, modifier = tagged, loading = item.opening)
 }

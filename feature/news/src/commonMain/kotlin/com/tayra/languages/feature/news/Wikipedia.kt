@@ -1,7 +1,6 @@
 package com.tayra.languages.feature.news
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -14,17 +13,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.LocalContentColor
+import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -50,15 +42,21 @@ import com.tayra.languages.core.domain.news.Wiki
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.components.AppFilterChip
-import com.tayra.languages.core.ui.components.AppTextField
+import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.CoverageCheck
 import com.tayra.languages.core.ui.components.CoverageLine
 import com.tayra.languages.core.ui.components.DifficultyFilter
+import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
@@ -304,7 +302,19 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
         ) {
             item {
                 Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                    if (!compact) Text(tr("News"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                    val site = state.wiki.label
+                    ScreenHeader(
+                        tr("News"),
+                        if (state.languageName.isEmpty()) null
+                        else {
+                            val language = languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)
+                            when {
+                                state.query.isNotBlank() -> tr("{0}: articles in {1} found by your search.", site, language)
+                                state.wiki.countsViews -> tr("{0}: the articles read most yesterday in {1}, with how much of each introduction you already know.", site, language)
+                                else -> tr("{0}: articles picked at random, with how much of each introduction you already know.", site)
+                            }
+                        },
+                    )
                     tabs()
                     if (state.wikis.size > 1) {
                         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -314,28 +324,9 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                         }
                     }
                     if (state.languageName.isNotEmpty()) {
-                        val site = state.wiki.label
-                        val language = languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)
-                        Text(
-                            when {
-                                state.query.isNotBlank() -> tr("{0}: articles in {1} found by your search.", site, language)
-                                state.wiki.countsViews -> tr("{0}: the articles read most yesterday in {1}, with how much of each introduction you already know.", site, language)
-                                else -> tr("{0}: articles picked at random, with how much of each introduction you already know.", site)
-                            },
-                            style = MaterialTheme.typography.bodyLarge,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        )
                         state.wiki.about?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
                     }
-                    AppTextField(
-                        value = state.query,
-                        onValueChange = actions.onQuery,
-                        modifier = Modifier.fillMaxWidth().testTag("wiki-search"),
-                        placeholder = { Text(tr("Search: {0}", state.wiki.label)) },
-                        leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
-                        trailingIcon = if (state.query.isNotEmpty()) ({ IconButton(onClick = { actions.onQuery("") }) { Icon(Icons.Default.Close, contentDescription = tr("Clear")) } }) else null,
-                        singleLine = true,
-                    )
+                    SearchField(state.query, actions.onQuery, tr("Search: {0}", site), Modifier.fillMaxWidth(), fieldModifier = Modifier.testTag("wiki-search"))
                     FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                         ArticleLength.entries.forEach { length ->
                             AppFilterChip(selected = state.length == length, onClick = { actions.onLength(length) }, label = { Text(length.label) }, modifier = Modifier.testTag("length-${length.name}"))
@@ -346,20 +337,21 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                 }
             }
             when {
-                state.languageName.isEmpty() -> item { WikiMessage(tr("Choose a language to learn to see its news.")) }
-                state.loading -> item { Box(Modifier.fillMaxWidth().padding(vertical = 32.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator() } }
+                state.languageName.isEmpty() -> item { EmptyState(AppIcons.Globe, tr("Choose a language to learn to see its news.")) }
+                state.loading -> item { Box(Modifier.fillMaxWidth().padding(vertical = 32.dp), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) } }
                 state.error != null -> item {
-                    Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-                        WikiMessage(tr("{0} could not be read: {1}", state.wiki.label, state.error))
-                        SecondaryButton(tr("Try again"), onClick = actions.onRetry)
-                    }
+                    EmptyState(
+                        Icons.Default.Warning,
+                        tr("{0} could not be read: {1}", state.wiki.label, state.error),
+                        action = { SecondaryButton(tr("Try again"), onClick = actions.onRetry) },
+                    )
                 }
-                state.shown.isEmpty() -> item { WikiMessage(if (state.articles.isEmpty()) tr("No articles found.") else tr("No articles match these filters.")) }
+                state.shown.isEmpty() -> item { EmptyState(AppIcons.Globe, if (state.articles.isEmpty()) tr("No articles found.") else tr("No articles match these filters.")) }
                 else -> items(state.shown.size, key = { state.shown[it].article.url }) { i ->
                     WikiCard(state.shown[i], state, actions, compact, Modifier.padding(bottom = 12.dp))
                 }
             }
-            if (state.loadingMore) item { Box(Modifier.fillMaxWidth().padding(vertical = 16.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator(Modifier.size(28.dp)) } }
+            if (state.loadingMore) item { Box(Modifier.fillMaxWidth().padding(vertical = 16.dp), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Medium) } }
             item {
                 Text(
                     tr("{0}: articles free to share under CC BY-SA 4.0. Each is judged by its introduction.", state.wiki.label),
@@ -377,11 +369,10 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
 private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, compact: Boolean, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val article = item.article
-    val shape = AppShapes.card
     val introOpened = article.url in state.opened
     val wholeOpened = NewsService.wholeKey(article) in state.opened
     Column(
-        modifier.fillMaxWidth().clip(shape).background(colors.surface).border(1.dp, colors.outlineVariant, shape).padding(16.dp).testTag("wiki-${article.title}"),
+        modifier.fillMaxWidth().cardSurface().padding(16.dp).testTag("wiki-${article.title}"),
         verticalArrangement = Arrangement.spacedBy(6.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -402,23 +393,12 @@ private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, c
         Spacer(Modifier.height(2.dp))
         val buttons: @Composable (Modifier) -> Unit = { m ->
             val label = if (introOpened) tr("Continue") else tr("Read the introduction")
-            PrimaryButton(onClick = { actions.onOpen(item) }, enabled = !item.opening, modifier = m.testTag("read-${article.url}")) {
-                if (item.opening) {
-                    CircularProgressIndicator(Modifier.size(16.dp), strokeWidth = 2.dp, color = LocalContentColor.current)
-                    Spacer(Modifier.width(8.dp))
-                }
-                Text(label, fontWeight = FontWeight.SemiBold)
-            }
+            PrimaryButton(label, onClick = { actions.onOpen(item) }, modifier = m.testTag("read-${article.url}"), loading = item.opening)
             QuietButton(if (wholeOpened) tr("Continue the whole article") else tr("Whole article"), onClick = { actions.onOpenWhole(item) }, enabled = !item.opening, modifier = Modifier.testTag("whole-${article.url}"))
         }
         if (compact) Column(verticalArrangement = Arrangement.spacedBy(4.dp)) { buttons(Modifier.fillMaxWidth()) }
         else Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) { buttons(Modifier) }
     }
-}
-
-@Composable
-private fun WikiMessage(text: String) {
-    Text(text, Modifier.fillMaxWidth().padding(vertical = 24.dp), style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center)
 }
 
 private val ArticleLength.label: String
