@@ -32,12 +32,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.tayra.languages.core.ui.components.AppCheckbox
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
@@ -54,6 +50,8 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /** The browser on a phone: the cards as a list, the groups in a scrolling row, sorting from a sheet and the card info in another. */
 @Composable
@@ -76,16 +74,16 @@ internal fun PhoneBrowseFlashcardsScreen(
         // Search, groups and the sort row, with the selection's actions when there is a selection, come before the cards.
         FocusRow(state, list, rowsBefore = if (state.selected.isNotEmpty()) 4 else 3, onShown = viewModel::focusShown)
         // The controls keep to the page's margins; the cards run edge to edge between dividers.
-        ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(top = 4.dp, bottom = 12.dp)) {
-            item { CardSearchField(state.search, viewModel::setSearch, Modifier.padding(horizontal = 16.dp).fillMaxWidth().padding(bottom = 14.dp)) }
+        ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(top = AppSpacing.xs, bottom = AppSpacing.m)) {
+            item { CardSearchField(state.search, viewModel::setSearch, Modifier.padding(horizontal = AppSpacing.l).fillMaxWidth().padding(bottom = AppSpacing.l)) }
             item {
                 // Unbounded on the right, the chips stay on one line and scroll sideways.
-                Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(bottom = 14.dp)) {
+                Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l).padding(bottom = AppSpacing.l)) {
                     ViewChips(state, viewModel::setView, large = true)
                 }
             }
             item {
-                Row(Modifier.fillMaxWidth().padding(start = 16.dp, end = 8.dp, bottom = 12.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                Row(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.s, bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     SelectButton(state.sort.field.label, onClick = { sorting = true }, modifier = Modifier.testTag("phone-sort"), icon = AppIcons.SwapVert)
                     Text(
                         if (state.selected.isEmpty()) trPlural(state.rows.size, "{0} card", "{0} cards") else tr("{0} of {1} selected", state.selected.size, state.rows.size),
@@ -94,14 +92,14 @@ internal fun PhoneBrowseFlashcardsScreen(
                         color = colors.onSurfaceVariant,
                     )
                     QuietButton(onClick = { selecting = !showChecks; if (!selecting) viewModel.clearSelection() }, modifier = Modifier.testTag("phone-select")) {
-                        Text(if (showChecks) tr("Done") else tr("Select"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                        Text(if (showChecks) tr("Done") else tr("Select"), style = AppText.itemTitle)
                     }
                 }
             }
-            if (state.selected.isNotEmpty()) item { Box(Modifier.padding(horizontal = 16.dp)) { CardSelectionBar(state, viewModel, actions) } }
+            if (state.selected.isNotEmpty()) item { Box(Modifier.padding(horizontal = AppSpacing.l)) { CardSelectionBar(state, viewModel, actions) } }
             when {
-                state.loading -> item { Text(tr("Loading..."), Modifier.padding(16.dp), color = colors.onSurfaceVariant) }
-                state.rows.isEmpty() -> item { Box(Modifier.padding(horizontal = 16.dp)) { EmptyCards(state) } }
+                state.loading -> item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = colors.onSurfaceVariant) }
+                state.rows.isEmpty() -> item { Box(Modifier.padding(horizontal = AppSpacing.l)) { EmptyCards(state) } }
                 else -> itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row ->
                     AppDivider()
                     PhoneCardRow(row, state, showCheck = showChecks, actions)
@@ -153,20 +151,20 @@ private fun PhoneCardRow(row: BrowseRow, state: BrowseUiState, showCheck: Boolea
         Modifier.fillMaxWidth()
             .background(if (selected) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
             .clickable { if (showCheck) actions.onToggle(row.termId) else actions.onOpen(row.termId) }
-            .padding(start = if (showCheck) 6.dp else 18.dp, end = 6.dp, top = 14.dp, bottom = 14.dp)
+            .padding(start = if (showCheck) AppSpacing.s else AppSpacing.xl, end = AppSpacing.s, top = AppSpacing.l, bottom = AppSpacing.l)
             .testTag("browse-row-${row.termId}"),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         if (showCheck) AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(row.termId) })
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             Text(
                 row.word,
-                style = TextStyle(fontSize = 19.sp, fontWeight = FontWeight.SemiBold, color = if (row.suspended) colors.outline else colors.primary, textDirection = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
+                style = AppText.listWord(19).copy(color = if (row.suspended) colors.outline else colors.primary, textDirection = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
             )
             if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodyLarge, color = dim, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 StatePill(row, large = true)
                 Text(
                     dueLabel(row, state.now),

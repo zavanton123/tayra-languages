@@ -39,12 +39,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.FlashcardReview
@@ -89,6 +87,8 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.daysUntil
@@ -178,6 +178,7 @@ internal class BrowseActions(
 )
 
 private val DETAIL_WIDTH = 400.dp
+private val SEARCH_WIDTH = 560.dp
 
 /** The page beside the detail panel: heading, search, the groups, the selection's actions and the table. */
 @Composable
@@ -185,9 +186,9 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
     val list = rememberLazyListState()
     // Heading, toolbar, groups, the selection's actions when there is a selection, and the table header come before the rows.
     FocusRow(state, list, rowsBefore = if (state.selected.isNotEmpty()) 5 else 4, onShown = viewModel::focusShown)
-    ScrollList(modifier, state = list, contentPadding = PaddingValues(horizontal = 32.dp, vertical = 16.dp)) {
+    ScrollList(modifier, state = list, contentPadding = PaddingValues(horizontal = AppSpacing.xxxl, vertical = AppSpacing.l)) {
         item {
-            Box(Modifier.padding(bottom = 20.dp)) {
+            Box(Modifier.padding(bottom = AppSpacing.xl)) {
                 ScreenHeader(
                     tr("Browse flashcards"),
                     subtitle = if (state.languageName.isEmpty()) tr("Every card of the words you are learning, with where each stands.")
@@ -196,10 +197,10 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
             }
         }
         item { Toolbar(state, viewModel) }
-        item { ViewChips(state, viewModel::setView, Modifier.fillMaxWidth().padding(bottom = 14.dp)) }
+        item { ViewChips(state, viewModel::setView, Modifier.fillMaxWidth().padding(bottom = AppSpacing.l)) }
         if (state.selected.isNotEmpty()) item { CardSelectionBar(state, viewModel, actions) }
         when {
-            state.loading -> item { Text(tr("Loading..."), Modifier.padding(16.dp), color = MaterialTheme.colorScheme.onSurfaceVariant) }
+            state.loading -> item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
             state.rows.isEmpty() -> item { EmptyCards(state) }
             else -> {
                 item { CardTableHeader(state, viewModel) }
@@ -225,8 +226,8 @@ internal fun FocusRow(state: BrowseUiState, list: LazyListState, rowsBefore: Int
 
 @Composable
 private fun Toolbar(state: BrowseUiState, viewModel: BrowseFlashcardsViewModel) {
-    Row(Modifier.fillMaxWidth().padding(bottom = 14.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        CardSearchField(state.search, viewModel::setSearch, Modifier.width(560.dp))
+    Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        CardSearchField(state.search, viewModel::setSearch, Modifier.width(SEARCH_WIDTH))
         Spacer(Modifier.weight(1f))
         Text(
             if (state.selected.isEmpty()) trPlural(state.rows.size, "{0} card", "{0} cards") else tr("{0} of {1} selected", state.selected.size, state.rows.size),
@@ -257,7 +258,7 @@ internal val BrowseView.label: String
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 internal fun ViewChips(state: BrowseUiState, onSelect: (BrowseView) -> Unit, modifier: Modifier = Modifier, large: Boolean = false) {
-    FlowRow(modifier, horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+    FlowRow(modifier, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         BrowseView.entries.forEach { view -> ViewChip(view, state.counts[view], selected = view == state.view, large) { onSelect(view) } }
     }
 }
@@ -283,7 +284,7 @@ internal fun CardSelectionBar(state: BrowseUiState, viewModel: BrowseFlashcardsV
     val chosen = state.rows.filter { it.termId in state.selected }
     val anyActive = chosen.any { !it.suspended }
     val anySuspended = chosen.any { it.suspended }
-    SelectionBar(tr("{0} selected", state.selected.size), Modifier.padding(bottom = 14.dp).testTag("selection-bar")) {
+    SelectionBar(tr("{0} selected", state.selected.size), Modifier.padding(bottom = AppSpacing.l).testTag("selection-bar")) {
         if (anyActive) QuietButton(tr("Suspend"), onClick = { actions.onSuspend(state.selected, true); viewModel.clearSelection() })
         if (anySuspended) QuietButton(tr("Resume"), onClick = { actions.onSuspend(state.selected, false); viewModel.clearSelection() })
         QuietButton(tr("Reset progress"), onClick = { actions.onReset(state.selected); viewModel.clearSelection() }, tone = ButtonTone.Danger)
@@ -349,20 +350,20 @@ private fun CardTableRow(row: BrowseRow, state: BrowseUiState, index: Int, actio
     }
     val dim = if (row.suspended) colors.outline else colors.onSurfaceVariant
     Row(
-        Modifier.fillMaxWidth().background(background).hoverable(interaction).clickable { actions.onOpen(row.termId) }.padding(horizontal = 8.dp, vertical = 2.dp).testTag("browse-row-${row.termId}"),
+        Modifier.fillMaxWidth().background(background).hoverable(interaction).clickable { actions.onOpen(row.termId) }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs).testTag("browse-row-${row.termId}"),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(row.termId) })
-        Column(Modifier.weight(CARD_WEIGHT).padding(end = 12.dp)) {
+        Column(Modifier.weight(CARD_WEIGHT).padding(end = AppSpacing.m)) {
             Text(
                 row.word,
-                style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.Medium, color = if (row.suspended) colors.outline else colors.primary, textDirection = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
+                style = AppText.listWord(16, FontWeight.Medium).copy(color = if (row.suspended) colors.outline else colors.primary, textDirection = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
             )
             if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodySmall, color = dim, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
-        Text(row.sentence.orEmpty(), Modifier.weight(SENTENCE_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        Text(row.sentence.orEmpty(), Modifier.weight(SENTENCE_WEIGHT).padding(end = AppSpacing.m), style = MaterialTheme.typography.bodyMedium, color = dim, maxLines = 2, overflow = TextOverflow.Ellipsis)
         Box(Modifier.width(STATE_WIDTH)) { StatePill(row) }
         Text(dueLabel(row, state.now), Modifier.width(DUE_WIDTH), style = MaterialTheme.typography.bodyMedium, color = if (row.isDue && !row.suspended) AppAccents.orange else dim, fontWeight = if (row.isDue) FontWeight.Medium else FontWeight.Normal)
         Text(intervalLabel(row), Modifier.width(INTERVAL_WIDTH), style = MaterialTheme.typography.bodyMedium, color = dim)
@@ -436,9 +437,9 @@ private fun DetailPanel(detail: BrowseDetail, now: Instant, actions: BrowseActio
     Box(modifier.background(colors.surface)) {
         Row(Modifier.fillMaxHeight()) {
             AppVerticalDivider()
-            ScrollColumn(Modifier.fillMaxSize().testTag("browse-detail"), contentModifier = Modifier.padding(horizontal = 24.dp, vertical = 16.dp)) {
+            ScrollColumn(Modifier.fillMaxSize().testTag("browse-detail"), contentModifier = Modifier.padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.l)) {
                 Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                    Text(tr("Card info"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                    Text(tr("Card info"), Modifier.weight(1f), style = AppText.itemTitle)
                     AppIconButton(Icons.Default.Close, contentDescription = tr("Close card info"), onClick = onClose)
                 }
                 CardDetail(detail, now, actions, compact = false)
@@ -450,7 +451,7 @@ private fun DetailPanel(detail: BrowseDetail, now: Instant, actions: BrowseActio
 @Composable
 internal fun DetailSheet(detail: BrowseDetail, now: Instant, actions: BrowseActions, onDismiss: () -> Unit) {
     AppBottomSheet(onDismissRequest = onDismiss) {
-        ScrollColumn(Modifier.fillMaxWidth().testTag("browse-detail"), contentModifier = Modifier.padding(horizontal = 20.dp).padding(bottom = 24.dp)) {
+        ScrollColumn(Modifier.fillMaxWidth().testTag("browse-detail"), contentModifier = Modifier.padding(horizontal = AppSpacing.xl).padding(bottom = AppSpacing.xxl)) {
             CardDetail(detail, now, actions, compact = true)
         }
     }
@@ -463,16 +464,16 @@ internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActio
     val colors = MaterialTheme.colorScheme
     val row = detail.row
     val direction = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
-    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-        Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                Text(row.word, Modifier.weight(1f, fill = false), style = TextStyle(fontSize = 24.sp, fontWeight = FontWeight.SemiBold, color = colors.onSurface, textDirection = direction))
+    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                Text(row.word, Modifier.weight(1f, fill = false), style = AppText.listWord(24).copy(color = colors.onSurface, textDirection = direction))
                 StatePill(row)
             }
             if (row.translation.isNotEmpty()) Text(row.translation, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
         SentenceBox(row, actions.onSaveSentence)
-        FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp), maxItemsInEachRow = 2) {
+        FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), maxItemsInEachRow = 2) {
             val tile = Modifier.weight(1f)
             StatTile(tr("Due"), dueLabel(row, now), tile)
             StatTile(tr("Interval"), intervalLabel(row), tile)
@@ -485,7 +486,7 @@ internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActio
             StatTile(tr("Stability"), row.stability?.let { trPlural(it.roundToInt(), "{0} day", "{0} days") } ?: NONE, tile)
             StatTile(tr("Recall now"), row.retrievability?.let { "${(it * 100).roundToInt()}%" } ?: NONE, tile)
         }
-        FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             SecondaryButton(tr("Edit term"), onClick = { actions.onEdit(row.termId) }, icon = Icons.Default.Edit)
             SecondaryButton(
                 if (row.suspended) tr("Resume") else tr("Suspend"),
@@ -497,7 +498,7 @@ internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActio
             QuietButton(tr("Delete"), onClick = { actions.onDelete(listOf(row.termId)) }, modifier = Modifier.testTag("detail-delete"), tone = ButtonTone.Danger)
         }
         AppDivider()
-        Text(tr("Review history"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+        Text(tr("Review history"), style = AppText.smallTitle)
         when {
             detail.loading -> Text(tr("Loading..."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             detail.reviews.isEmpty() -> Text(tr("No answers yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -520,7 +521,7 @@ private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String)
     var draft by remember(row.termId, editing) { mutableStateOf(row.sentence.orEmpty()) }
     val sentence = row.sentence
     when {
-        editing -> Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        editing -> Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             AppTextField(
                 value = draft,
                 onValueChange = { draft = it },
@@ -529,17 +530,17 @@ private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String)
                 textStyle = MaterialTheme.typography.bodyMedium.copy(textDirection = direction),
                 minLines = 2,
             )
-            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.End)) {
                 QuietButton(tr("Cancel"), onClick = { editing = false })
                 PrimaryButton(tr("Save"), onClick = { onSave(row.termId, draft); editing = false }, modifier = Modifier.testTag("sentence-save"))
             }
         }
         sentence == null -> QuietButton(tr("Add a sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), icon = Icons.Default.Edit)
         else -> Row(
-            Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(start = 14.dp, end = 4.dp, top = 4.dp, bottom = 4.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.xs, bottom = AppSpacing.xs),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            Text(sentence, Modifier.weight(1f).padding(vertical = 8.dp), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction), color = colors.onSurfaceVariant)
+            Text(sentence, Modifier.weight(1f).padding(vertical = AppSpacing.s), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction), color = colors.onSurfaceVariant)
             AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), size = IconButtonSize.Small)
         }
     }
@@ -548,9 +549,9 @@ private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String)
 @Composable
 private fun StatTile(label: String, value: String, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
-    Column(modifier.clip(AppShapes.control).background(colors.surfaceVariant.copy(alpha = AppAlpha.disabled)).padding(horizontal = 12.dp, vertical = 8.dp)) {
+    Column(modifier.clip(AppShapes.control).background(colors.surfaceVariant.copy(alpha = AppAlpha.disabled)).padding(horizontal = AppSpacing.m, vertical = AppSpacing.s)) {
         Text(label, style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
-        Text(value, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(value, style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
 }
 
@@ -559,7 +560,7 @@ private fun StatTile(label: String, value: String, modifier: Modifier) {
 private fun ReviewRow(review: FlashcardReview, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
     val zone = TimeZone.currentSystemDefault()
-    Row(Modifier.fillMaxWidth().padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+    Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         Column(Modifier.weight(1f)) {
             Text("${review.at.formatDate(zone)} ${clockTime(review.at)}", style = MaterialTheme.typography.bodyMedium)
             Text(
