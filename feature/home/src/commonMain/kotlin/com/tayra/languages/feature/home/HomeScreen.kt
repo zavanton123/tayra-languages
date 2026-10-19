@@ -152,7 +152,8 @@ private fun CourseCard(state: HomeUiState, modifier: Modifier, fill: Boolean, on
     if (progress == null || next == null) {
         ActionCard(
             tr("Continue course"), tr("No course in progress"), tr("Choose a course to start learning."), AppIcons.School, AppAccents.blue, "course", modifier, fill,
-            button = tr("Browse courses"), primary = false, onClick = { onNavigate(Route.Courses) },
+            // With nothing under way, a course is the next step: its button leads.
+            button = tr("Browse courses"), primary = state.book == null, onClick = { onNavigate(Route.Courses) },
         )
         return
     }
