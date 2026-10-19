@@ -573,6 +573,8 @@ internal fun RowMenu(term: Term, actions: RowActions) {
 
 @Composable
 internal fun Pager(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean) {
+    // With every term on one page at the smallest page size there is nothing to page through or resize.
+    if (state.page == 0 && state.totalCount <= PAGE_SIZES.first()) return
     val colors = MaterialTheme.colorScheme
     val from = if (state.totalCount == 0) 0 else state.page * state.pageSize + 1
     val to = minOf(state.totalCount, (state.page + 1) * state.pageSize)
