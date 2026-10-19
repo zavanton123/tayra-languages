@@ -713,26 +713,35 @@ private fun OutlineActionButton(label: String, onClick: () -> Unit) {
     SecondaryButton(label, onClick = onClick, modifier = Modifier.fillMaxWidth().padding(top = AppSpacing.xs), trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
 }
 
-/** Offers to download the offline dictionary for the language pair when it is not on the device. */
+/**
+ * Offers to download the offline dictionary for the language pair when it is not on the device: a
+ * quiet note with a text button, so it does not outweigh the parts of the pane that save the word.
+ */
 @Composable
 private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val state = status.state
-    TintedSurface(colors.primary, shape = AppShapes.card, padding = PaddingValues(sectionPadding()), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        SectionTitle(AppIcons.Book, tr("Dictionary"))
-        Text(
-            when (state) {
-                is PackState.Downloading -> tr("Downloading the {0} dictionary...", packTitle(status))
-                is PackState.Failed -> tr("The download failed: {0}", state.message)
-                else -> tr("The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection.", packTitle(status))
-            },
-            style = MaterialTheme.typography.bodyMedium,
-            color = if (state is PackState.Failed) colors.error else colors.onSurfaceVariant,
-        )
+    Column(
+        Modifier.fillMaxWidth().clip(AppShapes.card).border(AppBorders.hairline(), AppShapes.card).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
+    ) {
+        Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            Icon(AppIcons.Book, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconSmall))
+            Text(
+                when (state) {
+                    is PackState.Downloading -> tr("Downloading the {0} dictionary...", packTitle(status))
+                    is PackState.Failed -> tr("The download failed: {0}", state.message)
+                    else -> tr("The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection.", packTitle(status))
+                },
+                Modifier.weight(1f),
+                style = MaterialTheme.typography.bodySmall,
+                color = if (state is PackState.Failed) colors.error else colors.onSurfaceVariant,
+            )
+        }
         if (state is PackState.Downloading) {
             AppProgressBar(state.progress)
         } else {
-            PrimaryButton(if (state is PackState.Failed) tr("Try again") else tr("Download dictionary"), onClick = onDownload, icon = AppIcons.Download)
+            QuietButton(if (state is PackState.Failed) tr("Try again") else tr("Download dictionary"), onClick = onDownload, icon = AppIcons.Download)
         }
     }
 }
