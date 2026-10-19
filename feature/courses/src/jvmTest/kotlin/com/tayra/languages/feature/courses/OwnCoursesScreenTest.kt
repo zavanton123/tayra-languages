@@ -149,7 +149,7 @@ class OwnCoursesScreenTest {
         val viewModel = CourseViewModel("pt-mini-0100", service)
         host { CourseContent(viewModel.state.collectAsStateValue(), onOpenLesson = {}, onCourses = {}, editing = CourseEditing()) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Em casa e com a família").fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(onAllNodesWithText("tayra").fetchSemanticsNodes().size > 1, "the course and its lessons carry the tayra tag")
+        assertEquals(1, onAllNodesWithText("tayra").fetchSemanticsNodes().size, "the course carries the tayra tag; its lessons, which all share it, do not repeat it")
         onNodeWithTag("edit-course").assertExists()
         onNodeWithTag("add-lesson").assertExists()
         onNodeWithTag("lesson-menu-pt-mini-0100-01").assertExists()

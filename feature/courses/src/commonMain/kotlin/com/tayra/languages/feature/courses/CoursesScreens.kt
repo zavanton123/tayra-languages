@@ -834,6 +834,7 @@ private fun LessonList(progress: CourseProgress, compact: Boolean, onOpenLesson:
                 first = index == 0,
                 last = index == progress.lessons.lastIndex,
                 hint = if (lesson === next) (if (progress.status == LessonStatus.NOT_STARTED) tr("Start here") else tr("Continue here")) else null,
+                courseTags = progress.course.tags,
                 onClick = { onOpenLesson(lesson.lesson.id) },
                 editing = editing,
             )
@@ -859,6 +860,7 @@ private fun LessonRow(
     first: Boolean,
     last: Boolean,
     hint: String?,
+    courseTags: List<String>,
     onClick: () -> Unit,
     editing: CourseEditing?,
 ) {
@@ -902,7 +904,8 @@ private fun LessonRow(
             // The title keeps its width; the tags follow it, or go under it when the line is full.
             FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 Text(lesson.title, Modifier.padding(end = AppSpacing.xs), style = AppText.itemTitle)
-                lesson.tags.forEach { LabelTag(it) }
+                // Only what sets the lesson apart: a tag every lesson of the course has says nothing here.
+                lesson.tags.filterNot { it in courseTags }.forEach { LabelTag(it) }
                 if (hint != null) Tag(hint, AppAccents.green, size = TagSize.Medium)
             }
             if (lesson.summary.isNotBlank()) Text(lesson.summary, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
@@ -910,12 +913,14 @@ private fun LessonRow(
                 Text(
                     tr("New words: {0}", lesson.newWords.joinToString(", ")),
                     style = MaterialTheme.typography.bodyMedium,
-                    color = colors.primary,
+                    color = colors.onSurfaceVariant,
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis,
                 )
             }
-            if (compact) Text("${wordCount(lesson.wordCount)} · ${status.label}", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            // A status shows once the lesson is begun; "Not started" on every row would say nothing.
+            val started = status != LessonStatus.NOT_STARTED
+            if (compact) Text(if (started) "${wordCount(lesson.wordCount)} · ${status.label}" else wordCount(lesson.wordCount), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
         if (!compact) {
             Text(wordCount(lesson.wordCount), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
@@ -924,7 +929,7 @@ private fun LessonRow(
                 LessonStatus.IN_PROGRESS -> AppAccents.blue
                 LessonStatus.NOT_STARTED -> colors.outline
             }
-            Tag(status.label, tint, Modifier.width(LESSON_STATUS_WIDTH))
+            if (status != LessonStatus.NOT_STARTED) Tag(status.label, tint, Modifier.width(LESSON_STATUS_WIDTH)) else Spacer(Modifier.width(LESSON_STATUS_WIDTH))
         }
         if (editing != null) LessonMenu(lesson.id, lesson.title, first, last, editing)
         else Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
