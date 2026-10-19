@@ -356,7 +356,7 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(tr("Filter vocabulary"), Modifier.weight(1f), style = AppText.itemTitle)
-            QuietButton(tr("Reset all"), onClick = viewModel::resetFilters)
+            QuietButton(tr("Show learning words"), onClick = viewModel::resetFilters)
         }
         Text(tr("Learning status"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = AppSpacing.xs, bottom = AppSpacing.m))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -451,7 +451,7 @@ internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewMode
                 Text(label, style = AppText.badge)
             }
         }
-        QuietButton(tr("Clear all"), onClick = viewModel::clearFilters)
+        QuietButton(tr("Show all words"), onClick = viewModel::clearFilters)
     }
 }
 

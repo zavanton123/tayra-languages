@@ -78,6 +78,8 @@ internal val elTerms: Map<String, String> = mapOf(
     "{0} terms" to "{0} λέξη|{0} λέξεις",
     "{0} of {1} selected" to "Επιλέχθηκαν {0} από {1}",
     "Filters" to "Φίλτρα",
+    "Show learning words" to "Εμφάνιση λέξεων σε εκμάθηση",
+    "Show all words" to "Εμφάνιση όλων των λέξεων",
     "{0} filters on" to "{0} ενεργό φίλτρο|{0} ενεργά φίλτρα",
     "Search terms or translations" to "Αναζήτηση λέξεων ή μεταφράσεων",
     "Filter vocabulary" to "Φιλτράρισμα λεξιλογίου",

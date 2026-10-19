@@ -106,7 +106,7 @@ class TermsScreenTest {
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
         onNodeWithContentDescription("1 filter on").assertExists()
         for (status in listOf("Learning (1)", "Learning (2)", "Learning (3)", "Learning (4)")) onNodeWithContentDescription("Remove $status").assertExists()
-        onAllNodesWithText("Clear all")[0].performClick()
+        onAllNodesWithText("Show all words")[0].performClick()
         // With nothing ticked, the known terms show too; ignored terms stay out until asked for.
         waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))
         onNodeWithText("Filters").performClick()
@@ -127,13 +127,13 @@ class TermsScreenTest {
         onNodeWithTag("status-filter-I").performClick()
         waitForList("pensar", "lá", hidden = listOf("gostar"))
 
-        onAllNodesWithText("Clear all")[0].performClick()
+        onAllNodesWithText("Show all words")[0].performClick()
         waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))
         assertEquals(0, onAllNodesWithText("Added: up to 30 days ago").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("filters on", substring = true).fetchSemanticsNodes().size)
 
         // The panel's reset goes back to how the screen opened.
-        onNodeWithText("Reset all").performClick()
+        onNodeWithText("Show learning words").performClick()
         waitForList("comprar", "pensar", hidden = listOf("gostar", "lá"))
         onNodeWithContentDescription("1 filter on").assertExists()
     }
@@ -189,10 +189,10 @@ class TermsScreenTest {
         onNodeWithContentDescription("Remove the added filter").assertExists()
         onNodeWithText("5 of 5 terms shown").assertExists()
 
-        // The sheet's Reset goes back to how the screen opened.
+        // The sheet's Show learning words goes back to how the screen opened.
         onNodeWithText("Filters").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Reset").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Reset").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Show learning words").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Show learning words").performClick()
         waitForList("comprar", "pensar", hidden = listOf("gostar", "lá"))
         onNodeWithContentDescription("Close").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }

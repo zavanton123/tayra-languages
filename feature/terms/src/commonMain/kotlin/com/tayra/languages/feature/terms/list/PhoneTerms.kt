@@ -273,7 +273,7 @@ private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewM
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl).padding(bottom = AppSpacing.xl)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(tr("Filters"), Modifier.weight(1f), style = AppText.headline)
-                QuietButton(tr("Reset"), onClick = viewModel::resetFilters)
+                QuietButton(tr("Show learning words"), onClick = viewModel::resetFilters)
                 AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
             }
             Text(tr("Learning status"), Modifier.padding(top = AppSpacing.xs, bottom = AppSpacing.m), style = AppText.itemTitle)
