@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading.practice
 
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -63,8 +64,9 @@ import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
-import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.Notice
+import com.tayra.languages.core.ui.components.PopIn
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.QuietButton
@@ -77,6 +79,7 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
+import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
@@ -299,10 +302,13 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
             text == state.chosen -> AppAccents.red
             else -> null
         }
+        // The right answer and a wrong choice fade to their colours.
+        val fill by animateColorAsState(tint?.copy(alpha = AppAlpha.soft) ?: colors.surface, AppMotion.spec(AppMotion.medium))
+        val edge by animateColorAsState(tint ?: colors.outlineVariant, AppMotion.spec(AppMotion.medium))
         Row(
             modifier.heightIn(min = AppSizes.row).clip(AppShapes.panel)
-                .background(tint?.copy(alpha = AppAlpha.soft) ?: colors.surface)
-                .border(if (tint != null) AppBorders.selected(tint) else AppBorders.hairline(), AppShapes.panel)
+                .background(fill)
+                .border(if (tint != null) AppBorders.selected(edge) else AppBorders.hairline(edge), AppShapes.panel)
                 .clickable(enabled = !state.answered) { actions.onChoose(text) }
                 .padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m).testTag("practice-option-$index"),
             verticalAlignment = Alignment.CenterVertically,
@@ -310,7 +316,7 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
         ) {
             Text(text, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (state.answered && tint == null) colors.onSurfaceVariant else colors.onSurface)
             when (tint) {
-                AppAccents.green -> Icon(Icons.Default.Check, contentDescription = tr("Right answer"), tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconMedium))
+                AppAccents.green -> PopIn { Icon(Icons.Default.Check, contentDescription = tr("Right answer"), tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconMedium)) }
                 AppAccents.red -> Icon(Icons.Default.Close, contentDescription = tr("Your answer"), tint = AppAccents.red, modifier = Modifier.size(AppSizes.iconMedium))
                 else -> Unit
             }
@@ -360,6 +366,8 @@ private fun Feedback(state: PracticeUiState, exercise: Exercise) {
         message = "${exercise.word}$meaning",
         tint = tint,
         icon = if (state.result == PracticeResult.WRONG) Icons.Default.Close else Icons.Default.Check,
+        // A right answer's tick pops in; a wrong one only fades in, without a jolt.
+        popIcon = state.result != PracticeResult.WRONG,
     )
 }
 
