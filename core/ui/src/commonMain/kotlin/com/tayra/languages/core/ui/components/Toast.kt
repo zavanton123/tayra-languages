@@ -36,6 +36,9 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppElevation
 import com.tayra.languages.core.ui.theme.AppSpacing
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
+import com.tayra.languages.core.ui.theme.AppMotion
 
 /** A short message shown at the bottom of the screen for a few seconds. A new message replaces the one showing. */
 class ToastState {
@@ -70,7 +73,11 @@ fun ToastHost(state: ToastState, durationMillis: Long = 3_000) {
     if (!transition.currentState && !transition.targetState) return
     val lift = with(LocalDensity.current) { 32.dp.roundToPx() }
     Popup(alignment = Alignment.BottomCenter, offset = IntOffset(0, -lift)) {
-        AnimatedVisibility(transition, enter = fadeIn() + slideInVertically { it / 2 }, exit = fadeOut()) {
+        AnimatedVisibility(
+            transition,
+            enter = if (AppMotion.reduced) EnterTransition.None else fadeIn(AppMotion.spec(AppMotion.medium, AppMotion.enter)) + slideInVertically(AppMotion.spec(AppMotion.medium, AppMotion.enter)) { it / 2 },
+            exit = if (AppMotion.reduced) ExitTransition.None else fadeOut(AppMotion.spec(AppMotion.short, AppMotion.exit)),
+        ) {
             val colors = MaterialTheme.colorScheme
             Row(
                 Modifier.padding(horizontal = AppSpacing.l).widthIn(max = TOAST_MAX_WIDTH)

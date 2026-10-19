@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
@@ -24,6 +25,7 @@ import androidx.compose.material3.TriStateCheckbox
 import androidx.compose.material3.VerticalDivider
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
@@ -35,6 +37,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
+import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /*
@@ -120,7 +123,8 @@ fun AppIconButton(onClick: () -> Unit, modifier: Modifier = Modifier, enabled: B
 fun AppProgressBar(progress: Float?, modifier: Modifier = Modifier, color: Color = MaterialTheme.colorScheme.primary) {
     val track = MaterialTheme.colorScheme.surfaceVariant
     if (progress != null) {
-        LinearProgressIndicator(progress = { progress }, modifier = modifier.fillMaxWidth(), color = color, trackColor = track, strokeCap = StrokeCap.Round, gapSize = 0.dp, drawStopIndicator = {})
+        val shown by animateFloatAsState(progress.coerceIn(0f, 1f), AppMotion.spec())
+        LinearProgressIndicator(progress = { shown }, modifier = modifier.fillMaxWidth(), color = color, trackColor = track, strokeCap = StrokeCap.Round, gapSize = 0.dp, drawStopIndicator = {})
     } else {
         LinearProgressIndicator(modifier = modifier.fillMaxWidth(), color = color, trackColor = track, strokeCap = StrokeCap.Round, gapSize = 0.dp)
     }
@@ -129,8 +133,8 @@ fun AppProgressBar(progress: Float?, modifier: Modifier = Modifier, color: Color
 /** How much of something is done, as a bar of [color] over a rounded track: a book's reading, a course's lessons, the words known. */
 @Composable
 fun ProgressTrack(fraction: Float, color: Color, modifier: Modifier = Modifier, height: Dp = 6.dp, trackColor: Color = MaterialTheme.colorScheme.surfaceVariant) {
+    val done by animateFloatAsState(fraction.coerceIn(0f, 1f), AppMotion.spec())
     Box(modifier.fillMaxWidth().height(height).clip(AppShapes.tiny).background(trackColor)) {
-        val done = fraction.coerceIn(0f, 1f)
         if (done > 0f) Box(Modifier.fillMaxWidth(done).fillMaxHeight().clip(AppShapes.tiny).background(color))
     }
 }

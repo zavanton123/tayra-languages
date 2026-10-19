@@ -1,16 +1,18 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.animation.animateColorAsState
+import androidx.compose.animation.core.animateIntAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
@@ -18,6 +20,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -38,6 +41,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -48,6 +52,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.layout.onPlaced
+import androidx.compose.ui.layout.positionInParent
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
@@ -55,14 +62,17 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
+import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import kotlin.math.roundToInt
 
 /*
  * The design system's larger patterns, which screens had each drawn their own way: the card's
@@ -188,35 +198,51 @@ fun <T> SegmentedToggle(
     style: SegmentStyle = SegmentStyle.Soft,
 ) {
     val colors = MaterialTheme.colorScheme
-    Row(
-        modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier).height(height).cardSurface(AppShapes.control).padding(AppSpacing.xs),
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
-    ) {
-        segments.forEach { segment ->
-            val active = segment.value == selected
-            val solid = style == SegmentStyle.Solid
-            val tint = if (active) (if (solid) colors.onPrimary else colors.primary) else colors.onSurfaceVariant
-            Row(
-                Modifier.then(if (fill) Modifier.weight(1f) else Modifier).fillMaxHeight().clip(AppShapes.compact)
-                    .background(if (!active) Color.Transparent else if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft))
-                    .clickable { onSelect(segment.value) }
-                    .padding(horizontal = if (segment.label == null) AppSpacing.m else if (fill) AppSpacing.s else AppSpacing.l)
-                    .then(if (segment.testTag != null) Modifier.testTag(segment.testTag) else Modifier),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),
-            ) {
-                if (segment.icon != null) {
-                    Icon(segment.icon, contentDescription = if (segment.label == null) segment.description else null, tint = tint, modifier = Modifier.size(AppSizes.icon))
-                }
-                if (segment.label != null) {
-                    Text(
-                        segment.label,
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = tint,
-                        fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                    )
+    val solid = style == SegmentStyle.Solid
+    // Where each segment sits, so the chosen one's highlight can glide to it from the one before.
+    val places = remember { mutableStateMapOf<Int, Pair<Int, Int>>() }
+    val chosen = segments.indexOfFirst { it.value == selected }
+    Box(modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier).height(height).cardSurface(AppShapes.control).padding(AppSpacing.xs)) {
+        places[chosen]?.let { (left, width) ->
+            val x by animateIntAsState(left, AppMotion.spec())
+            val w by animateIntAsState(width, AppMotion.spec())
+            Box(
+                Modifier.offset { IntOffset(x, 0) }.width(with(LocalDensity.current) { w.toDp() }).fillMaxHeight().clip(AppShapes.compact)
+                    .background(if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft)),
+            )
+        }
+        Row(Modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier).fillMaxHeight(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            segments.forEachIndexed { index, segment ->
+                val active = index == chosen
+                val tint by animateColorAsState(
+                    if (active) (if (solid) colors.onPrimary else colors.primary) else colors.onSurfaceVariant,
+                    AppMotion.spec(AppMotion.short),
+                )
+                Row(
+                    Modifier.then(if (fill) Modifier.weight(1f) else Modifier).fillMaxHeight()
+                        .onPlaced { places[index] = it.positionInParent().x.roundToInt() to it.size.width }
+                        .clip(AppShapes.compact)
+                        // Until the segments are placed, the chosen one draws its own highlight.
+                        .then(if (active && places[chosen] == null) Modifier.background(if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft)) else Modifier)
+                        .clickable { onSelect(segment.value) }
+                        .padding(horizontal = if (segment.label == null) AppSpacing.m else if (fill) AppSpacing.s else AppSpacing.l)
+                        .then(if (segment.testTag != null) Modifier.testTag(segment.testTag) else Modifier),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),
+                ) {
+                    if (segment.icon != null) {
+                        Icon(segment.icon, contentDescription = if (segment.label == null) segment.description else null, tint = tint, modifier = Modifier.size(AppSizes.icon))
+                    }
+                    if (segment.label != null) {
+                        Text(
+                            segment.label,
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = tint,
+                            fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis,
+                        )
+                    }
                 }
             }
         }
@@ -245,17 +271,19 @@ fun <T> CountTabs(
         tabs.forEach { tab ->
             val active = tab.value == selected
             val shape = if (solid) AppShapes.panel else AppShapes.control
+            val fillColor by animateColorAsState(
+                when {
+                    active && solid -> colors.primary
+                    active -> colors.primary.copy(alpha = AppAlpha.tint)
+                    solid -> colors.surface
+                    compact -> colors.onSurface.copy(alpha = AppAlpha.faint)
+                    else -> Color.Transparent
+                },
+                AppMotion.spec(AppMotion.short),
+            )
             Row(
                 Modifier.height(if (solid) AppSizes.control else SEGMENT_HEIGHT).clip(shape)
-                    .background(
-                        when {
-                            active && solid -> colors.primary
-                            active -> colors.primary.copy(alpha = AppAlpha.tint)
-                            solid -> colors.surface
-                            compact -> colors.onSurface.copy(alpha = AppAlpha.faint)
-                            else -> Color.Transparent
-                        },
-                    )
+                    .background(fillColor)
                     .then(if (solid) Modifier.border(AppBorders.hairline(if (active) colors.primary else colors.outlineVariant), shape) else Modifier)
                     .clickable(role = Role.Tab) { onSelect(tab.value) }
                     .then(if (tab.testTag != null) Modifier.testTag(tab.testTag) else Modifier)
@@ -263,7 +291,7 @@ fun <T> CountTabs(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
             ) {
-                val tint = if (active) (if (solid) colors.onPrimary else colors.primary) else colors.onSurface
+                val tint by animateColorAsState(if (active) (if (solid) colors.onPrimary else colors.primary) else colors.onSurface, AppMotion.spec(AppMotion.short))
                 if (tab.icon != null) Icon(tab.icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconCompact))
                 Text(
                     tab.label,
@@ -294,35 +322,49 @@ fun <T> UnderlineTabs(
     tinted: Boolean = false,
 ) {
     val colors = MaterialTheme.colorScheme
-    Row(modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        tabs.forEach { tab ->
-            val active = tab.value == selected
-            val tint = if (active) colors.primary else colors.onSurfaceVariant
-            Column(
-                Modifier.then(if (fill) Modifier.weight(1f) else Modifier.width(IntrinsicSize.Max)).clip(AppShapes.control)
-                    .background(if (active && tinted) colors.primary.copy(alpha = AppAlpha.tint) else Color.Transparent)
-                    .clickable(role = Role.Tab) { onSelect(tab.value) }
-                    .then(if (tab.testTag != null) Modifier.testTag(tab.testTag) else Modifier),
-                horizontalAlignment = Alignment.CenterHorizontally,
-            ) {
-                Row(
-                    Modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier.padding(horizontal = AppSpacing.m)).padding(vertical = AppSpacing.m),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),
+    // Where each tab sits, so the underline can glide to the chosen one.
+    val places = remember { mutableStateMapOf<Int, Pair<Int, Int>>() }
+    val chosen = tabs.indexOfFirst { it.value == selected }
+    val underline = if (fill) TAB_UNDERLINE_FILL else TAB_UNDERLINE
+    Box(modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier)) {
+        Row(Modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            tabs.forEachIndexed { index, tab ->
+                val active = index == chosen
+                val tint by animateColorAsState(if (active) colors.primary else colors.onSurfaceVariant, AppMotion.spec(AppMotion.short))
+                val wash by animateColorAsState(if (active && tinted) colors.primary.copy(alpha = AppAlpha.tint) else Color.Transparent, AppMotion.spec(AppMotion.short))
+                Column(
+                    Modifier.then(if (fill) Modifier.weight(1f) else Modifier.width(IntrinsicSize.Max))
+                        .onPlaced { places[index] = it.positionInParent().x.roundToInt() to it.size.width }
+                        .clip(AppShapes.control)
+                        .background(wash)
+                        .clickable(role = Role.Tab) { onSelect(tab.value) }
+                        .then(if (tab.testTag != null) Modifier.testTag(tab.testTag) else Modifier),
+                    horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
-                    if (tab.icon != null) Icon(tab.icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.icon))
-                    Text(
-                        tab.label,
-                        style = MaterialTheme.typography.bodyLarge,
-                        fontWeight = if (active) FontWeight.SemiBold else if (fill) FontWeight.Normal else FontWeight.Medium,
-                        color = tint,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                    )
-                    if (tab.count != null && tab.count > 0) CountBadge(tab.count, emphasis = BadgeEmphasis.Solid, max = 99)
+                    Row(
+                        Modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier.padding(horizontal = AppSpacing.m)).padding(vertical = AppSpacing.m),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),
+                    ) {
+                        if (tab.icon != null) Icon(tab.icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.icon))
+                        Text(
+                            tab.label,
+                            style = MaterialTheme.typography.bodyLarge,
+                            fontWeight = if (active) FontWeight.SemiBold else if (fill) FontWeight.Normal else FontWeight.Medium,
+                            color = tint,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis,
+                        )
+                        if (tab.count != null && tab.count > 0) CountBadge(tab.count, emphasis = BadgeEmphasis.Solid, max = 99)
+                    }
+                    Spacer(Modifier.height(underline))
                 }
-                Box(Modifier.fillMaxWidth().height(if (fill) TAB_UNDERLINE_FILL else TAB_UNDERLINE).background(if (active) colors.primary else Color.Transparent))
             }
+        }
+        places[chosen]?.let { (left, width) ->
+            val x by animateIntAsState(left, AppMotion.spec())
+            val w by animateIntAsState(width, AppMotion.spec())
+            Box(Modifier.align(Alignment.BottomStart).offset { IntOffset(x, 0) }.width(with(LocalDensity.current) { w.toDp() }).height(underline).background(colors.primary))
         }
     }
 }

@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -65,11 +66,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
+import com.tayra.languages.core.ui.theme.AppElevation
+import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
-import com.tayra.languages.core.ui.theme.AppElevation
 
 /*
  * The design system's controls. Screens use these, not Material's buttons, text fields, dialogs and
@@ -395,10 +397,11 @@ fun ToggleButton(
 ) {
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.control
-    val tint = if (active) colors.primary else colors.onSurface
+    val tint by animateColorAsState(if (active) colors.primary else colors.onSurface, AppMotion.spec(AppMotion.short))
+    val fill by animateColorAsState(if (active) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface, AppMotion.spec(AppMotion.short))
     Row(
         modifier.height(AppSizes.control).clip(shape)
-            .background(if (active) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
+            .background(fill)
             .border(if (active) AppBorders.selected() else AppBorders.hairline(), shape)
             .clickable(enabled = enabled, role = Role.Button, onClick = onClick)
             .then(if (contentDescription != null) Modifier.semantics { this.contentDescription = contentDescription } else Modifier)

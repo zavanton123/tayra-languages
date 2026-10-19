@@ -33,7 +33,8 @@ import com.tayra.languages.core.ui.theme.AppText
 
 /*
  * The design system's notices: a one-line banner, a notice with a title and an action, and the
- * tinted surface they are drawn on, for anything else that a colour should set apart.
+ * tinted surface they are drawn on, for anything else that a colour should set apart. Banners and
+ * notices fade in as they appear.
  */
 
 /** A panel washed with [tint] inside an outline of it: the ground of notices, and of a tinted toolbar or summary. */
@@ -66,8 +67,8 @@ fun InfoBanner(
     dense: Boolean = false,
 ) {
     val shape = if (dense) AppShapes.control else AppShapes.panel
-    Row(
-        modifier.fillMaxWidth().clip(shape).background(tint.copy(alpha = if (dense) AppAlpha.tint else AppAlpha.wash))
+    Appear(modifier) { Row(
+        Modifier.fillMaxWidth().clip(shape).background(tint.copy(alpha = if (dense) AppAlpha.tint else AppAlpha.wash))
             .then(if (dense) Modifier else Modifier.border(AppBorders.hairline(tint.copy(alpha = AppAlpha.line)), shape))
             .padding(horizontal = if (dense) AppSpacing.m else AppSpacing.l, vertical = if (dense) AppSpacing.m else AppSpacing.l),
         verticalAlignment = Alignment.CenterVertically,
@@ -75,7 +76,7 @@ fun InfoBanner(
         Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(if (dense) AppSizes.icon else AppSizes.iconMedium))
         Spacer(Modifier.width(AppSpacing.m))
         Text(text, style = MaterialTheme.typography.bodyMedium, color = if (dense) MaterialTheme.colorScheme.onSurface else tint)
-    }
+    } }
 }
 
 /**
@@ -95,7 +96,7 @@ fun Notice(
     content: (@Composable ColumnScope.() -> Unit)? = null,
 ) {
     val compact = LocalWindowWidth.current.isCompact
-    TintedSurface(tint, modifier, padding = PaddingValues(if (compact) AppSpacing.m else AppSpacing.l)) {
+    Appear(modifier) { TintedSurface(tint, padding = PaddingValues(if (compact) AppSpacing.m else AppSpacing.l)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             when {
                 busy -> AppSpinner(size = SpinnerSize.Medium, color = tint)
@@ -109,5 +110,5 @@ fun Notice(
         }
         content?.invoke(this)
         if (action != null && compact) action()
-    }
+    } }
 }

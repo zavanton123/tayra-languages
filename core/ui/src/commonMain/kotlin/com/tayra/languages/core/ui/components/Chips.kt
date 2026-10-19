@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -19,6 +20,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -33,6 +35,7 @@ import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
+import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
@@ -179,10 +182,12 @@ fun SelectableChip(
 ) {
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.pill
+    val fill by animateColorAsState(if (selected) tint.copy(alpha = AppAlpha.soft) else colors.surface, AppMotion.spec(AppMotion.short))
+    val edge by animateColorAsState(if (selected) tint else colors.outlineVariant, AppMotion.spec(AppMotion.short))
     Row(
         modifier.height(size.height).clip(shape)
-            .background(if (selected) tint.copy(alpha = AppAlpha.soft) else colors.surface)
-            .border(if (selected) AppBorders.hairline(tint) else AppBorders.hairline(), shape)
+            .background(fill)
+            .border(AppBorders.hairline(edge), shape)
             .clickable(enabled = enabled, onClick = onClick)
             .padding(start = AppSpacing.m, end = if (onRemove != null) AppSpacing.xs else AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
