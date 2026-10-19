@@ -23,7 +23,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -56,9 +55,6 @@ import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.Button
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.material3.DrawerValue
 import androidx.compose.runtime.Composable
@@ -144,12 +140,16 @@ import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.TextInputDialog
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -360,8 +360,8 @@ fun ReadingScreen(
                     Surface(
                         // With the text card's wider margin on this side, the text's scrollbar runs midway between the card and the panel.
                         Modifier.width(427.dp).fillMaxHeight().padding(start = 7.dp, top = 16.dp, end = 16.dp, bottom = 16.dp)
-                            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)),
-                        shape = RoundedCornerShape(14.dp),
+                            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card),
+                        shape = AppShapes.card,
                         color = MaterialTheme.colorScheme.surface,
                     ) {
                         CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) }
@@ -422,7 +422,7 @@ private fun TermSheet(enabled: Boolean, open: Boolean, onClosed: () -> Unit, she
 @Composable
 private fun SheetHandle() {
     Box(
-        Modifier.padding(top = 10.dp, bottom = 6.dp).size(width = 32.dp, height = 4.dp).clip(RoundedCornerShape(2.dp))
+        Modifier.padding(top = 10.dp, bottom = 6.dp).size(width = 32.dp, height = 4.dp).clip(AppShapes.tiny)
             .background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.4f)),
     )
 }
@@ -493,7 +493,7 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
 @Composable
 private fun Crumb(label: String, onClick: () -> Unit, modifier: Modifier = Modifier, icon: @Composable () -> Unit = {}) {
     Row(
-        modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onClick).padding(horizontal = 6.dp, vertical = 4.dp),
+        modifier.clip(AppShapes.small).clickable(onClick = onClick).padding(horizontal = 6.dp, vertical = 4.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(6.dp),
     ) {
@@ -515,7 +515,7 @@ private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu:
         IconButton(onClick = { viewModel.goToRelativePage(1) }, enabled = !state.isLastPage) {
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = tr("Next page"))
         }
-        TextButton(onClick = viewModel::toggleFocusMode) { Text(tr("Exit focus")) }
+        QuietButton(tr("Exit focus"), onClick = viewModel::toggleFocusMode)
     }
 }
 
@@ -619,9 +619,9 @@ private fun ReadingBody(
     } else {
         Modifier.padding(start = if (compact) 12.dp else 16.dp, top = if (compact) 12.dp else 16.dp, bottom = if (compact) 12.dp else 16.dp, end = if (panelBeside) 21.dp else if (compact) 12.dp else 16.dp)
             .widthIn(max = state.settings.readingColumnWidth.dp + 64.dp)
-            .clip(RoundedCornerShape(14.dp))
+            .clip(AppShapes.card)
             .background(theme.readingBackground)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card)
             // No bottom padding: the footer runs to the card's bottom edge.
             .padding(start = edgePadding, end = edgePadding, top = if (compact) 16.dp else 28.dp)
     }
@@ -730,7 +730,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
         Triple(tr("Next page"), listOf(HotkeyAction.NEXT_PAGE), or),
         Triple(tr("Previous page"), listOf(HotkeyAction.PREVIOUS_PAGE), or),
     ).mapNotNull { (label, actions, separator) -> actions.mapNotNull { hotkeys[it] }.takeIf { it.isNotEmpty() }?.let { Triple(label, it, separator) } }
-    Surface(shape = RoundedCornerShape(14.dp), color = colors.surface, shadowElevation = 8.dp, border = BorderStroke(1.dp, colors.outlineVariant)) {
+    Surface(shape = AppShapes.card, color = colors.surface, shadowElevation = 8.dp, border = BorderStroke(1.dp, colors.outlineVariant)) {
         Column(Modifier.padding(16.dp).width(440.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(tr("Keyboard shortcuts"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
             rows.forEach { (label, keys, separator) ->
@@ -776,8 +776,8 @@ private fun KeyCap(hotkey: Hotkey) {
         label,
         style = MaterialTheme.typography.labelMedium,
         fontWeight = FontWeight.SemiBold,
-        modifier = Modifier.clip(RoundedCornerShape(6.dp)).background(colors.surfaceVariant)
-            .border(1.dp, colors.outlineVariant, RoundedCornerShape(6.dp)).padding(horizontal = 7.dp, vertical = 3.dp),
+        modifier = Modifier.clip(AppShapes.small).background(colors.surfaceVariant)
+            .border(1.dp, colors.outlineVariant, AppShapes.small).padding(horizontal = 7.dp, vertical = 3.dp),
     )
 }
 
@@ -847,7 +847,7 @@ private fun TranslationNotice(problem: LocalTranslationProblem, viewModel: Readi
     val failed = problem is LocalTranslationProblem.Failed
     val colors = MaterialTheme.colorScheme
     Surface(
-        shape = RoundedCornerShape(10.dp),
+        shape = AppShapes.control,
         color = if (failed) colors.errorContainer else colors.secondaryContainer,
         modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 12.dp),
     ) {
@@ -867,14 +867,14 @@ private fun TranslationNotice(problem: LocalTranslationProblem, viewModel: Readi
                 color = if (failed) colors.onErrorContainer else colors.onSecondaryContainer,
             )
             when (problem) {
-                is LocalTranslationProblem.ModelMissing -> Button(onClick = viewModel::installOfflineModels) { Text(tr("Install")) }
+                is LocalTranslationProblem.ModelMissing -> PrimaryButton(tr("Install"), onClick = viewModel::installOfflineModels)
                 is LocalTranslationProblem.NoModel -> {
                     Text(tr("Offline"), style = MaterialTheme.typography.bodySmall, color = colors.onSecondaryContainer)
                     Switch(checked = true, onCheckedChange = { on -> if (!on) viewModel.useOnlineEngine() })
                 }
-                is LocalTranslationProblem.Failed -> OutlinedButton(onClick = viewModel::retryOfflineTranslation) { Text(tr("Try again")) }
+                is LocalTranslationProblem.Failed -> SecondaryButton(tr("Try again"), onClick = viewModel::retryOfflineTranslation)
             }
-            TextButton(onClick = onSettings) { Text(tr("Settings")) }
+            QuietButton(tr("Settings"), onClick = onSettings)
         }
     }
 }
@@ -885,7 +885,7 @@ private fun languageName(code: String): String = LanguageCodes.option(code)?.nam
 @Composable
 private fun TranslationProgress(message: String) {
     Surface(
-        shape = RoundedCornerShape(10.dp),
+        shape = AppShapes.control,
         color = MaterialTheme.colorScheme.secondaryContainer,
         modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 12.dp),
     ) {
@@ -1020,7 +1020,7 @@ private fun Modifier.bleed(horizontal: Dp) = layout { measurable, constraints ->
 private fun BackToLibrary(label: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.clip(RoundedCornerShape(10.dp)).clickable(onClick = onClick).padding(horizontal = 6.dp, vertical = 12.dp),
+        Modifier.clip(AppShapes.control).clickable(onClick = onClick).padding(horizontal = 6.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {
@@ -1033,7 +1033,7 @@ private fun BackToLibrary(label: String, onClick: () -> Unit) {
 private fun PracticeButton(label: String, modifier: Modifier, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(52.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.primary.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
+        modifier.height(52.dp).clip(AppShapes.control).border(1.dp, colors.primary.copy(alpha = 0.5f), AppShapes.control)
             .background(colors.primary.copy(alpha = 0.06f)).clickable(onClick = onClick).padding(horizontal = 16.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
@@ -1047,7 +1047,7 @@ private fun PracticeButton(label: String, modifier: Modifier, onClick: () -> Uni
 private fun MarkRemainingButton(unknowns: Int, modifier: Modifier, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(52.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outline.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
+        modifier.height(52.dp).clip(AppShapes.control).border(1.dp, colors.outline.copy(alpha = 0.5f), AppShapes.control)
             .background(colors.surface).clickable(onClick = onClick).padding(start = 16.dp, end = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
@@ -1056,7 +1056,7 @@ private fun MarkRemainingButton(unknowns: Int, modifier: Modifier, onClick: () -
         Text(tr("Mark remaining words as known"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = colors.onSurface, softWrap = false)
         Text(
             "$unknowns",
-            Modifier.clip(RoundedCornerShape(50)).background(colors.surfaceVariant).padding(horizontal = 10.dp, vertical = 3.dp),
+            Modifier.clip(AppShapes.pill).background(colors.surfaceVariant).padding(horizontal = 10.dp, vertical = 3.dp),
             style = MaterialTheme.typography.labelLarge,
             color = colors.onSurfaceVariant,
         )
@@ -1067,7 +1067,7 @@ private fun MarkRemainingButton(unknowns: Int, modifier: Modifier, onClick: () -
 private fun PrimaryFooterButton(label: String, modifier: Modifier, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(52.dp).clip(RoundedCornerShape(10.dp)).background(colors.primary).clickable(onClick = onClick).padding(horizontal = 20.dp),
+        modifier.height(52.dp).clip(AppShapes.control).background(colors.primary).clickable(onClick = onClick).padding(horizontal = 20.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally),
     ) {
@@ -1081,12 +1081,12 @@ private fun SourceChip(url: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val host = url.substringAfter("://").substringBefore("/").removePrefix("www.")
     Row(
-        Modifier.clip(RoundedCornerShape(12.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(12.dp)).clickable(onClick = onClick)
+        Modifier.clip(AppShapes.panel).border(1.dp, colors.outlineVariant, AppShapes.panel).clickable(onClick = onClick)
             .padding(horizontal = 14.dp, vertical = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        Box(Modifier.size(32.dp).clip(RoundedCornerShape(16.dp)).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
+        Box(Modifier.size(32.dp).clip(AppShapes.large).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
             Icon(AppIcons.Link, contentDescription = null, tint = colors.primary, modifier = Modifier.size(18.dp))
         }
         Text(tr("Read the full story"), style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)

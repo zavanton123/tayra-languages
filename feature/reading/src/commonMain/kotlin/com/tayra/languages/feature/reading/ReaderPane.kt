@@ -19,7 +19,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
@@ -29,15 +28,12 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Refresh
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.domain.morphology.ChineseScript
@@ -62,15 +58,19 @@ import com.tayra.languages.core.domain.model.PageBookmark
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.TranslationEngine
+import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.RoundSlider
 import com.tayra.languages.core.ui.components.TextInputDialog
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -143,12 +143,12 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
         )
     }
     if (confirmReset) {
-        AlertDialog(
+        AppDialog(
             onDismissRequest = { confirmReset = false },
             title = { Text(tr("Reset reader settings?")) },
             text = { Text(tr("Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay.")) },
-            confirmButton = { Button(onClick = { confirmReset = false; viewModel.resetReaderSettings() }) { Text(tr("Reset")) } },
-            dismissButton = { TextButton(onClick = { confirmReset = false }) { Text(tr("Cancel")) } },
+            confirmButton = { PrimaryButton(tr("Reset"), onClick = { confirmReset = false; viewModel.resetReaderSettings() }) },
+            dismissButton = { QuietButton(tr("Cancel"), onClick = { confirmReset = false }) },
         )
     }
 }
@@ -158,7 +158,7 @@ private fun PaneHeader(title: String, subtitle: String, onBack: (() -> Unit)?, o
     val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth().padding(start = 20.dp, end = 16.dp, top = 18.dp, bottom = 16.dp), verticalAlignment = Alignment.CenterVertically) {
         if (onBack != null) {
-            Box(Modifier.size(40.dp).clip(RoundedCornerShape(10.dp)).background(colors.surfaceVariant.copy(alpha = 0.6f)).clickable(onClick = onBack), contentAlignment = Alignment.Center) {
+            Box(Modifier.size(40.dp).clip(AppShapes.control).background(colors.surfaceVariant.copy(alpha = 0.6f)).clickable(onClick = onBack), contentAlignment = Alignment.Center) {
                 Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), modifier = Modifier.size(20.dp))
             }
         } else {
@@ -188,7 +188,7 @@ private fun PaneTabs(selected: PaneTab, onSelect: (PaneTab) -> Unit) {
             Triple(PaneTab.APPEARANCE, AppIcons.FormatSize, tr("Appearance")),
         ).forEach { (tab, icon, label) ->
             val active = tab == selected
-            Column(Modifier.weight(1f).clip(RoundedCornerShape(10.dp)).background(if (active) colors.primary.copy(alpha = 0.1f) else Color.Transparent).clickable { onSelect(tab) }.testTag("pane-tab-${tab.name}")) {
+            Column(Modifier.weight(1f).clip(AppShapes.control).background(if (active) colors.primary.copy(alpha = 0.1f) else Color.Transparent).clickable { onSelect(tab) }.testTag("pane-tab-${tab.name}")) {
                 Row(
                     Modifier.fillMaxWidth().padding(vertical = 12.dp),
                     verticalAlignment = Alignment.CenterVertically,
@@ -208,7 +208,7 @@ private fun PaneTabs(selected: PaneTab, onSelect: (PaneTab) -> Unit) {
 private fun PaneCard(title: String, content: @Composable ColumnScope.() -> Unit) {
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(18.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(18.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
@@ -226,7 +226,7 @@ private fun SettingText(title: String, subtitle: String?, modifier: Modifier = M
 
 @Composable
 private fun SwitchSetting(icon: ImageVector, title: String, subtitle: String?, checked: Boolean, onToggle: () -> Unit) {
-    Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp)).clickable(onClick = onToggle), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+    Row(Modifier.fillMaxWidth().clip(AppShapes.compact).clickable(onClick = onToggle), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
         Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
         SettingText(title, subtitle, Modifier.weight(1f))
         Switch(checked = checked, onCheckedChange = { onToggle() })
@@ -237,12 +237,12 @@ private fun SwitchSetting(icon: ImageVector, title: String, subtitle: String?, c
 @Composable
 private fun <T> Segmented(options: List<Pair<T, String>>, selected: T, onSelect: (T) -> Unit, modifier: Modifier = Modifier, fill: Boolean = false) {
     val colors = MaterialTheme.colorScheme
-    Row(modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(3.dp)) {
+    Row(modifier.clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).padding(3.dp)) {
         options.forEach { (value, label) ->
             val active = value == selected
             Text(
                 label,
-                (if (fill) Modifier.weight(1f) else Modifier).clip(RoundedCornerShape(8.dp)).background(if (active) colors.primary else Color.Transparent)
+                (if (fill) Modifier.weight(1f) else Modifier).clip(AppShapes.compact).background(if (active) colors.primary else Color.Transparent)
                     .clickable { onSelect(value) }.padding(horizontal = 14.dp, vertical = 8.dp),
                 style = MaterialTheme.typography.bodyMedium,
                 fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
@@ -318,7 +318,7 @@ private fun <T> ChoiceCard(
     var open by remember { mutableStateOf(false) }
     Box {
         Row(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(12.dp))
+            Modifier.fillMaxWidth().clip(AppShapes.panel).border(1.dp, colors.outlineVariant, AppShapes.panel)
                 .clickable(enabled = options.size > 1) { open = true }.padding(horizontal = 14.dp, vertical = 12.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(14.dp),
@@ -353,7 +353,7 @@ private fun <T> ChoiceCard(
 private fun LinkRow(icon: ImageVector, label: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp)).clickable(onClick = onClick).padding(vertical = 4.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.compact).clickable(onClick = onClick).padding(vertical = 4.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(14.dp),
     ) {
@@ -499,9 +499,9 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
                     val active = kotlin.math.abs(prefs.speechSpeed - speed) < 0.01f
                     Text(
                         "${(speed * 100).roundToInt()}%",
-                        Modifier.weight(1f).clip(RoundedCornerShape(10.dp))
+                        Modifier.weight(1f).clip(AppShapes.control)
                             .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.12f) else Color.Transparent)
-                            .border(1.dp, if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.5f) else MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp))
+                            .border(1.dp, if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.5f) else MaterialTheme.colorScheme.outlineVariant, AppShapes.control)
                             .clickable { viewModel.setSpeechSpeed(speed) }.padding(vertical = 10.dp),
                         style = MaterialTheme.typography.bodyLarge,
                         color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface,
@@ -536,7 +536,7 @@ private fun AppearanceTab(state: ReadingUiState, viewModel: ReadingViewModel) {
         LabeledRow(null, tr("Font")) {
             Box {
                 Row(
-                    Modifier.clip(RoundedCornerShape(10.dp)).background(MaterialTheme.colorScheme.onSurface.copy(alpha = 0.05f)).clickable { open = true }
+                    Modifier.clip(AppShapes.control).background(MaterialTheme.colorScheme.onSurface.copy(alpha = 0.05f)).clickable { open = true }
                         .padding(start = 14.dp, end = 8.dp, top = 8.dp, bottom = 8.dp).testTag("font-choice"),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -568,7 +568,7 @@ private fun BookmarksView(state: ReadingUiState, bookmarks: List<PageBookmark>, 
     val page = state.pageNumber
     val marked = bookmarks.any { it.pageNumber == page }
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).border(1.5.dp, colors.primary, RoundedCornerShape(12.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.panel).border(1.5.dp, colors.primary, AppShapes.panel)
             .clickable { viewModel.addBookmark(tr("Page {0}", page)) }.padding(vertical = 14.dp).testTag("add-bookmark"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
@@ -577,7 +577,7 @@ private fun BookmarksView(state: ReadingUiState, bookmarks: List<PageBookmark>, 
         Text(tr("Add bookmark to page {0}", page), style = MaterialTheme.typography.titleMedium, color = colors.primary, fontWeight = FontWeight.SemiBold)
     }
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(colors.primary.copy(alpha = 0.07f)).padding(horizontal = 16.dp, vertical = 12.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = 0.07f)).padding(horizontal = 16.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(12.dp),
     ) {
@@ -596,8 +596,8 @@ private fun BookmarkCard(bookmark: PageBookmark, current: Boolean, viewModel: Re
     var menu by remember { mutableStateOf(false) }
     var renaming by remember { mutableStateOf(false) }
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(if (current) colors.primary.copy(alpha = 0.05f) else colors.surface)
-            .border(1.dp, if (current) colors.primary.copy(alpha = 0.4f) else colors.outlineVariant, RoundedCornerShape(12.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (current) colors.primary.copy(alpha = 0.05f) else colors.surface)
+            .border(1.dp, if (current) colors.primary.copy(alpha = 0.4f) else colors.outlineVariant, AppShapes.panel)
             .clickable(onClick = onOpen).padding(start = 16.dp, top = 14.dp, bottom = 14.dp, end = 4.dp).testTag("bookmark-${bookmark.pageNumber}"),
         verticalAlignment = Alignment.Top,
         horizontalArrangement = Arrangement.spacedBy(14.dp),
@@ -662,7 +662,7 @@ private fun ReaderTools(state: ReadingUiState, bookmarksOpen: Boolean, onBookmar
             Box(Modifier.weight(1f)) { ToolTile(Icons.AutoMirrored.Filled.List, tr("Vocabulary"), tr("Terms on this page"), active = false, tag = "tool-vocabulary") { onClose(); actions.onTermList() } }
         }
         Row(
-            Modifier.align(Alignment.CenterHorizontally).clip(RoundedCornerShape(8.dp)).clickable(onClick = onReset).padding(horizontal = 12.dp, vertical = 6.dp).testTag("reset-reader"),
+            Modifier.align(Alignment.CenterHorizontally).clip(AppShapes.compact).clickable(onClick = onReset).padding(horizontal = 12.dp, vertical = 6.dp).testTag("reset-reader"),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
@@ -676,8 +676,8 @@ private fun ReaderTools(state: ReadingUiState, bookmarksOpen: Boolean, onBookmar
 private fun ToolTile(icon: ImageVector, label: String, note: String, active: Boolean, tag: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(if (active) colors.primary.copy(alpha = 0.08f) else colors.surface)
-            .border(1.dp, if (active) colors.primary.copy(alpha = 0.4f) else colors.outlineVariant, RoundedCornerShape(12.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (active) colors.primary.copy(alpha = 0.08f) else colors.surface)
+            .border(1.dp, if (active) colors.primary.copy(alpha = 0.4f) else colors.outlineVariant, AppShapes.panel)
             .clickable(onClick = onClick).padding(vertical = 12.dp, horizontal = 6.dp).testTag(tag),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(3.dp),
@@ -713,12 +713,12 @@ private fun ChineseScriptSetting(current: ChineseScript?, onChoose: (ChineseScri
         Dropdown(options, current, { chosen -> if (chosen == null) onChoose(null) else if (chosen != current) asking = chosen }, null, ::label, Modifier.width(150.dp).testTag("chinese-script"))
     }
     asking?.let { script ->
-        AlertDialog(
+        AppDialog(
             onDismissRequest = { asking = null },
             title = { Text(tr("Read in {0} characters?", label(script).lowercase())) },
             text = { Text(tr("Texts will be shown in these characters, and your saved words rewritten in them; a word you saved in both scripts becomes one, keeping its more advanced status.")) },
-            confirmButton = { Button(onClick = { asking = null; onChoose(script) }, modifier = Modifier.testTag("chinese-script-confirm")) { Text(tr("Rewrite")) } },
-            dismissButton = { TextButton(onClick = { asking = null }) { Text(tr("Cancel")) } },
+            confirmButton = { PrimaryButton(tr("Rewrite"), onClick = { asking = null; onChoose(script) }, modifier = Modifier.testTag("chinese-script-confirm")) },
+            dismissButton = { QuietButton(tr("Cancel"), onClick = { asking = null }) },
         )
     }
 }

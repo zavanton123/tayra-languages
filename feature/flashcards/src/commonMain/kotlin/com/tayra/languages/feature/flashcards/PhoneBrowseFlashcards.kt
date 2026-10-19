@@ -7,7 +7,6 @@ import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import com.tayra.languages.core.ui.components.LearningLanguageSelector
-import androidx.compose.material3.TextButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.foundation.layout.windowInsetsPadding
@@ -26,7 +25,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.MoreVert
@@ -35,7 +33,6 @@ import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -61,7 +58,9 @@ import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PickerSheet
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
@@ -97,10 +96,8 @@ internal fun PhoneBrowseFlashcardsScreen(
             }
             item {
                 Row(Modifier.fillMaxWidth().padding(start = 16.dp, end = 8.dp, bottom = 12.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    OutlinedButton(
+                    SecondaryButton(
                         onClick = { sorting = true },
-                        shape = RoundedCornerShape(10.dp),
-                        contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
                         colors = ButtonDefaults.outlinedButtonColors(contentColor = colors.onSurface),
                         modifier = Modifier.height(48.dp).testTag("phone-sort"),
                     ) {
@@ -116,7 +113,7 @@ internal fun PhoneBrowseFlashcardsScreen(
                         style = MaterialTheme.typography.bodyLarge,
                         color = colors.onSurfaceVariant,
                     )
-                    TextButton(onClick = { selecting = !showChecks; if (!selecting) viewModel.clearSelection() }, modifier = Modifier.testTag("phone-select")) {
+                    QuietButton(onClick = { selecting = !showChecks; if (!selecting) viewModel.clearSelection() }, modifier = Modifier.testTag("phone-select")) {
                         Text(if (showChecks) tr("Done") else tr("Select"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                     }
                 }

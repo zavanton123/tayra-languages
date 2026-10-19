@@ -28,7 +28,6 @@ import com.tayra.languages.core.ui.components.toneColored
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.TextMeasurer
 import androidx.compose.ui.draw.drawWithContent
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.foundation.relocation.bringIntoViewRequester
 import androidx.compose.foundation.relocation.BringIntoViewRequester

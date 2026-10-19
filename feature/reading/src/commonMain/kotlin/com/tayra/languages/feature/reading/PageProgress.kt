@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
@@ -40,6 +39,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppShapes
 import kotlin.math.roundToInt
 
 /**
@@ -84,7 +84,7 @@ internal fun PageProgress(
                     Box(Modifier.size(18.dp).shadow(2.dp, CircleShape).clip(CircleShape).background(colors.surface).padding(3.dp).clip(CircleShape).background(colors.primary))
                 },
                 track = { state ->
-                    Box(Modifier.fillMaxWidth().height(6.dp).clip(RoundedCornerShape(3.dp)).background(colors.surfaceVariant)) {
+                    Box(Modifier.fillMaxWidth().height(6.dp).clip(AppShapes.tiny).background(colors.surfaceVariant)) {
                         Box(Modifier.fillMaxWidth(state.coercedValueAsFraction).fillMaxHeight().background(colors.primary))
                     }
                 },
@@ -100,7 +100,7 @@ internal fun PageProgress(
 private fun PageStepButton(icon: ImageVector, description: String, enabled: Boolean, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Box(
-        Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).background(colors.surface)
+        Modifier.clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).background(colors.surface)
             .clickable(enabled = enabled, onClick = onClick).padding(8.dp),
     ) {
         Icon(icon, contentDescription = description, tint = if (enabled) colors.onSurface else colors.outlineVariant, modifier = Modifier.size(22.dp))

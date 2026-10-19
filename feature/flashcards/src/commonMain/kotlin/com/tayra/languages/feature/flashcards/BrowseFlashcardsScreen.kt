@@ -33,7 +33,6 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.Button
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
@@ -43,11 +42,8 @@ import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
@@ -76,12 +72,17 @@ import com.tayra.languages.core.domain.flashcards.FlashcardReview
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.formatDate
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -89,6 +90,7 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.daysUntil
@@ -229,11 +231,7 @@ private fun PageHeader(state: BrowseUiState, onReview: () -> Unit) {
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         }
-        Button(onClick = onReview, shape = RoundedCornerShape(10.dp)) {
-            Icon(AppIcons.Style, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(6.dp))
-            Text(tr("Review cards"))
-        }
+        PrimaryButton(tr("Review cards"), onClick = onReview, icon = AppIcons.Style)
     }
 }
 
@@ -255,7 +253,7 @@ internal fun CardSearchBox(value: String, onChange: (String) -> Unit, modifier: 
     val colors = MaterialTheme.colorScheme
     val text = if (large) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.bodyMedium
     Row(
-        modifier.height(if (large) 52.dp else 44.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 12.dp),
+        modifier.height(if (large) 52.dp else 44.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).padding(horizontal = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(if (large) 24.dp else 20.dp))
@@ -319,9 +317,9 @@ private fun ViewChip(view: BrowseView, count: Int, selected: Boolean, large: Boo
         BrowseView.ALL -> colors.primary
     }
     Row(
-        Modifier.height(if (large) 46.dp else 36.dp).clip(RoundedCornerShape(50))
+        Modifier.height(if (large) 46.dp else 36.dp).clip(AppShapes.pill)
             .background(if (selected) tint.copy(alpha = 0.14f) else Color.Transparent)
-            .border(1.dp, if (selected) tint else colors.outlineVariant, RoundedCornerShape(50))
+            .border(1.dp, if (selected) tint else colors.outlineVariant, AppShapes.pill)
             .clickable(onClick = onClick).padding(horizontal = if (large) 18.dp else 14.dp).testTag("browse-view-${view.name}"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -340,25 +338,25 @@ internal fun SelectionBar(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
     val anySuspended = chosen.any { it.suspended }
     @OptIn(ExperimentalLayoutApi::class)
     FlowRow(
-        Modifier.fillMaxWidth().padding(bottom = 14.dp).clip(RoundedCornerShape(12.dp)).background(colors.primary.copy(alpha = 0.06f))
-            .border(1.dp, colors.primary.copy(alpha = 0.3f), RoundedCornerShape(12.dp)).padding(horizontal = 14.dp, vertical = 8.dp).testTag("selection-bar"),
+        Modifier.fillMaxWidth().padding(bottom = 14.dp).clip(AppShapes.panel).background(colors.primary.copy(alpha = 0.06f))
+            .border(1.dp, colors.primary.copy(alpha = 0.3f), AppShapes.panel).padding(horizontal = 14.dp, vertical = 8.dp).testTag("selection-bar"),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
         Text(tr("{0} selected", state.selected.size), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold, modifier = Modifier.padding(end = 6.dp))
-        if (anyActive) TextButton(onClick = { actions.onSuspend(state.selected, true); viewModel.clearSelection() }) { Text(tr("Suspend")) }
-        if (anySuspended) TextButton(onClick = { actions.onSuspend(state.selected, false); viewModel.clearSelection() }) { Text(tr("Resume")) }
-        TextButton(onClick = { actions.onReset(state.selected); viewModel.clearSelection() }) { Text(tr("Reset progress"), color = colors.error) }
-        TextButton(onClick = { actions.onDelete(state.selected) }, modifier = Modifier.testTag("delete-selected")) { Text(tr("Delete"), color = colors.error) }
+        if (anyActive) QuietButton(tr("Suspend"), onClick = { actions.onSuspend(state.selected, true); viewModel.clearSelection() })
+        if (anySuspended) QuietButton(tr("Resume"), onClick = { actions.onSuspend(state.selected, false); viewModel.clearSelection() })
+        QuietButton(tr("Reset progress"), onClick = { actions.onReset(state.selected); viewModel.clearSelection() }, tone = ButtonTone.Danger)
+        QuietButton(tr("Delete"), onClick = { actions.onDelete(state.selected) }, modifier = Modifier.testTag("delete-selected"), tone = ButtonTone.Danger)
         if (!compact) Spacer(Modifier.weight(1f))
-        TextButton(onClick = viewModel::clearSelection) { Text(tr("Clear selection")) }
+        QuietButton(tr("Clear selection"), onClick = viewModel::clearSelection)
     }
 }
 
 @Composable
 internal fun EmptyCards(state: BrowseUiState) {
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(32.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.card).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
@@ -417,7 +415,7 @@ private fun SortHeader(label: String, field: BrowseSortField, sort: BrowseSort, 
 private fun HeaderCell(label: String, modifier: Modifier, icon: ImageVector? = null, active: Boolean = false, onClick: (() -> Unit)? = null) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.then(if (onClick != null) Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onClick) else Modifier).padding(vertical = 6.dp, horizontal = 2.dp),
+        modifier.then(if (onClick != null) Modifier.clip(AppShapes.small).clickable(onClick = onClick) else Modifier).padding(vertical = 6.dp, horizontal = 2.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(4.dp),
     ) {
@@ -492,7 +490,7 @@ internal fun StatePill(row: BrowseRow, large: Boolean = false) {
     }
     Text(
         label,
-        Modifier.clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(8.dp))
+        Modifier.clip(AppShapes.compact).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.25f), AppShapes.compact)
             .padding(horizontal = if (large) 12.dp else 10.dp, vertical = 4.dp),
         style = TextStyle(fontSize = if (large) 14.sp else 12.sp, letterSpacing = 0.6.sp, color = tint, fontWeight = FontWeight.Bold),
         maxLines = 1,
@@ -589,18 +587,15 @@ internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActio
             StatTile(tr("Recall now"), row.retrievability?.let { "${(it * 100).roundToInt()}%" } ?: NONE, tile)
         }
         FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            OutlinedButton(onClick = { actions.onEdit(row.termId) }, shape = RoundedCornerShape(10.dp)) {
-                Icon(Icons.Default.Edit, contentDescription = null, modifier = Modifier.size(18.dp))
-                Spacer(Modifier.width(6.dp))
-                Text(tr("Edit term"))
-            }
-            OutlinedButton(onClick = { actions.onSuspend(listOf(row.termId), !row.suspended) }, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("detail-suspend")) {
-                Icon(if (row.suspended) AppIcons.PlayArrow else AppIcons.Pause, contentDescription = null, modifier = Modifier.size(18.dp))
-                Spacer(Modifier.width(6.dp))
-                Text(if (row.suspended) tr("Resume") else tr("Suspend"))
-            }
-            if (row.state != CardState.NEW) TextButton(onClick = { actions.onReset(listOf(row.termId)) }) { Text(tr("Reset progress"), color = colors.error) }
-            TextButton(onClick = { actions.onDelete(listOf(row.termId)) }, modifier = Modifier.testTag("detail-delete")) { Text(tr("Delete"), color = colors.error) }
+            SecondaryButton(tr("Edit term"), onClick = { actions.onEdit(row.termId) }, icon = Icons.Default.Edit)
+            SecondaryButton(
+                if (row.suspended) tr("Resume") else tr("Suspend"),
+                onClick = { actions.onSuspend(listOf(row.termId), !row.suspended) },
+                modifier = Modifier.testTag("detail-suspend"),
+                icon = if (row.suspended) AppIcons.PlayArrow else AppIcons.Pause,
+            )
+            if (row.state != CardState.NEW) QuietButton(tr("Reset progress"), onClick = { actions.onReset(listOf(row.termId)) }, tone = ButtonTone.Danger)
+            QuietButton(tr("Delete"), onClick = { actions.onDelete(listOf(row.termId)) }, modifier = Modifier.testTag("detail-delete"), tone = ButtonTone.Danger)
         }
         HorizontalDivider(color = colors.outlineVariant)
         Text(tr("Review history"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
@@ -627,27 +622,22 @@ private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String)
     val sentence = row.sentence
     when {
         editing -> Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            OutlinedTextField(
+            AppTextField(
                 value = draft,
                 onValueChange = { draft = it },
                 modifier = Modifier.fillMaxWidth().testTag("sentence-field"),
                 placeholder = { Text(tr("Example sentence")) },
                 textStyle = MaterialTheme.typography.bodyMedium.copy(textDirection = direction),
                 minLines = 2,
-                shape = RoundedCornerShape(10.dp),
             )
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
-                TextButton(onClick = { editing = false }) { Text(tr("Cancel")) }
-                Button(onClick = { onSave(row.termId, draft); editing = false }, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("sentence-save")) { Text(tr("Save")) }
+                QuietButton(tr("Cancel"), onClick = { editing = false })
+                PrimaryButton(tr("Save"), onClick = { onSave(row.termId, draft); editing = false }, modifier = Modifier.testTag("sentence-save"))
             }
         }
-        sentence == null -> TextButton(onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit")) {
-            Icon(Icons.Default.Edit, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(6.dp))
-            Text(tr("Add a sentence"))
-        }
+        sentence == null -> QuietButton(tr("Add a sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), icon = Icons.Default.Edit)
         else -> Row(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(colors.primary.copy(alpha = 0.05f)).padding(start = 14.dp, end = 4.dp, top = 4.dp, bottom = 4.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = 0.05f)).padding(start = 14.dp, end = 4.dp, top = 4.dp, bottom = 4.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Text(sentence, Modifier.weight(1f).padding(vertical = 8.dp), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction), color = colors.onSurfaceVariant)
@@ -661,7 +651,7 @@ private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String)
 @Composable
 private fun StatTile(label: String, value: String, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
-    Column(modifier.clip(RoundedCornerShape(10.dp)).background(colors.surfaceVariant.copy(alpha = 0.35f)).padding(horizontal = 12.dp, vertical = 8.dp)) {
+    Column(modifier.clip(AppShapes.control).background(colors.surfaceVariant.copy(alpha = 0.35f)).padding(horizontal = 12.dp, vertical = 8.dp)) {
         Text(label, style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
         Text(value, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
@@ -684,7 +674,7 @@ private fun ReviewRow(review: FlashcardReview, compact: Boolean) {
         val tint = review.rating.tint
         Text(
             tr(review.rating.label),
-            Modifier.clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.12f)).padding(horizontal = if (compact) 8.dp else 10.dp, vertical = 4.dp),
+            Modifier.clip(AppShapes.compact).background(tint.copy(alpha = 0.12f)).padding(horizontal = if (compact) 8.dp else 10.dp, vertical = 4.dp),
             style = MaterialTheme.typography.labelLarge,
             fontWeight = FontWeight.SemiBold,
             color = tint,

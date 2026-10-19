@@ -19,20 +19,15 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
@@ -68,14 +63,19 @@ import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.label
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
@@ -209,14 +209,14 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
 private fun ProgressStrip(state: PracticeUiState) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card)
             .padding(horizontal = 20.dp, vertical = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(20.dp),
     ) {
         Text(tr("Question {0} of {1}", state.index + 1, state.exercises.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
-        Box(Modifier.weight(1f).height(10.dp).clip(RoundedCornerShape(5.dp)).background(colors.onSurface.copy(alpha = 0.08f))) {
-            Box(Modifier.fillMaxWidth((state.index + 1f) / state.exercises.size).height(10.dp).clip(RoundedCornerShape(5.dp)).background(colors.primary))
+        Box(Modifier.weight(1f).height(10.dp).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = 0.08f))) {
+            Box(Modifier.fillMaxWidth((state.index + 1f) / state.exercises.size).height(10.dp).clip(AppShapes.tiny).background(colors.primary))
         }
         Text(tr("{0} right", state.correct), style = MaterialTheme.typography.bodyLarge, color = RIGHT, fontWeight = FontWeight.Medium, softWrap = false)
     }
@@ -237,7 +237,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
     val direction = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val answered = state.answered
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(18.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(18.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large)
             .padding(horizontal = if (compact) 18.dp else 32.dp, vertical = if (compact) 18.dp else 26.dp).testTag("practice-question"),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(if (compact) 14.dp else 18.dp),
@@ -246,7 +246,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
 
         if (exercise.isListening && actions.onSpeak != null) {
             Row(
-                Modifier.clip(RoundedCornerShape(50)).background(colors.primary.copy(alpha = 0.08f)).border(1.dp, colors.primary.copy(alpha = 0.25f), RoundedCornerShape(50))
+                Modifier.clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.08f)).border(1.dp, colors.primary.copy(alpha = 0.25f), AppShapes.pill)
                     .clickable(onClickLabel = tr("Listen again")) { actions.onSpeak.invoke(exercise.spoken!!) }.padding(horizontal = 22.dp, vertical = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(10.dp),
@@ -276,7 +276,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         if (hintShown) state.sentenceTranslation?.let { translation ->
             Text(
                 translation,
-                Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(colors.primary.copy(alpha = 0.05f)).padding(horizontal = if (compact) 14.dp else 32.dp, vertical = 14.dp),
+                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = 0.05f)).padding(horizontal = if (compact) 14.dp else 32.dp, vertical = 14.dp),
                 style = TextStyle(fontSize = if (compact) 15.sp else 17.sp, lineHeight = 25.sp, color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
             )
         }
@@ -287,13 +287,13 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
 
         HorizontalDivider(color = colors.outlineVariant)
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-            if (!answered) TextButton(onClick = actions.onSkip) { Text(tr("Show the answer")) }
+            if (!answered) QuietButton(tr("Show the answer"), onClick = actions.onSkip)
             Spacer(Modifier.weight(1f))
             when {
-                answered -> Button(onClick = actions.onNext, shape = RoundedCornerShape(12.dp), modifier = Modifier.height(48.dp)) {
+                answered -> PrimaryButton(onClick = actions.onNext, modifier = Modifier.height(48.dp)) {
                     Text(if (state.index + 1 >= state.exercises.size) tr("See the result") else tr("Continue"), Modifier.padding(horizontal = 14.dp), fontWeight = FontWeight.SemiBold)
                 }
-                !exercise.isChoice -> Button(onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), shape = RoundedCornerShape(12.dp), modifier = Modifier.height(48.dp)) {
+                !exercise.isChoice -> PrimaryButton(onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), modifier = Modifier.height(48.dp)) {
                     Text(tr("Check"), Modifier.padding(horizontal = 14.dp), fontWeight = FontWeight.SemiBold)
                 }
             }
@@ -313,9 +313,9 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
             else -> null
         }
         Row(
-            modifier.heightIn(min = 56.dp).clip(RoundedCornerShape(12.dp))
+            modifier.heightIn(min = 56.dp).clip(AppShapes.panel)
                 .background(tint?.copy(alpha = 0.12f) ?: colors.surface)
-                .border(if (tint != null) 1.5.dp else 1.dp, tint ?: colors.outlineVariant, RoundedCornerShape(12.dp))
+                .border(if (tint != null) 1.5.dp else 1.dp, tint ?: colors.outlineVariant, AppShapes.panel)
                 .clickable(enabled = !state.answered) { actions.onChoose(text) }
                 .padding(horizontal = 18.dp, vertical = 12.dp).testTag("practice-option-$index"),
             verticalAlignment = Alignment.CenterVertically,
@@ -347,14 +347,13 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
 private fun TypedAnswer(state: PracticeUiState, exercise: Exercise, actions: PracticeActions) {
     val focus = remember { FocusRequester() }
     LaunchedEffect(state.index) { runCatching { focus.requestFocus() } }
-    OutlinedTextField(
+    AppTextField(
         value = state.typed,
         onValueChange = actions.onTyped,
         readOnly = state.answered,
         singleLine = true,
         placeholder = { Text(if (exercise.wholeSentence) tr("Type the sentence") else tr("Type the word")) },
         textStyle = MaterialTheme.typography.titleMedium.copy(textDirection = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
-        shape = RoundedCornerShape(12.dp),
         modifier = Modifier.fillMaxWidth().focusRequester(focus).testTag("practice-input"),
     )
 }
@@ -367,7 +366,7 @@ private fun Feedback(state: PracticeUiState, exercise: Exercise) {
         else -> WRONG to tr("Not quite")
     }
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.35f), RoundedCornerShape(12.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.35f), AppShapes.panel)
             .padding(horizontal = 18.dp, vertical = 14.dp).testTag("practice-feedback"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(14.dp),
@@ -389,7 +388,7 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
     val colors = MaterialTheme.colorScheme
     val total = state.exercises.size
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(18.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(18.dp)).padding(36.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large).padding(36.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
@@ -405,8 +404,8 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
         )
         Text(tr("Practice does not change the status of your words."), style = MaterialTheme.typography.bodySmall, color = colors.outline, textAlign = TextAlign.Center)
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            OutlinedButton(onClick = actions.onRestart, shape = RoundedCornerShape(12.dp)) { Text(tr("Practice again")) }
-            Button(onClick = actions.onBack, shape = RoundedCornerShape(12.dp)) { Text(backLabel(state)) }
+            SecondaryButton(tr("Practice again"), onClick = actions.onRestart)
+            PrimaryButton(backLabel(state), onClick = actions.onBack)
         }
     }
 }
@@ -418,7 +417,7 @@ private fun backLabel(state: PracticeUiState): String = if (state.fromVocabulary
 private fun Empty(state: PracticeUiState, actions: PracticeActions) {
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(18.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(18.dp)).padding(36.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large).padding(36.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
@@ -433,6 +432,6 @@ private fun Empty(state: PracticeUiState, actions: PracticeActions) {
             color = colors.onSurfaceVariant,
             textAlign = TextAlign.Center,
         )
-        Button(onClick = actions.onBack, shape = RoundedCornerShape(12.dp)) { Text(backLabel(state)) }
+        PrimaryButton(backLabel(state), onClick = actions.onBack)
     }
 }
