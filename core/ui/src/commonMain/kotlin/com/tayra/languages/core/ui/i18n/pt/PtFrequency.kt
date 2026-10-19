@@ -67,6 +67,8 @@ internal val ptFrequency: Map<String, String> = mapOf(
     "Move the slider to how many words you know. The most common {1} words and their forms are then saved as known; words you have saved already keep their status." to "Mova o controle deslizante até o número de palavras que você conhece. Então {1} palavra mais comum e suas formas serão salvas como conhecidas; as palavras que você já salvou mantêm o status.|Mova o controle deslizante até o número de palavras que você conhece. Então as {1} palavras mais comuns e suas formas serão salvas como conhecidas; as palavras que você já salvou mantêm o status.",
     "Set to {0}" to "Definido: {0}",
     "Not set" to "Não definido",
+    "Suggested: {0}" to "Sugerido: {0}",
+    "Saving marks the most common {1} words as known." to "Salvar marca a palavra mais comum ({1}) como conhecida.|Salvar marca as {1} palavras mais comuns como conhecidas.",
     "Word frequency" to "Frequência de palavras",
 
     // WordFrequencyScreen.kt

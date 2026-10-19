@@ -59,7 +59,7 @@ class VocabularySettingsScreenTest {
             }
         }
         waitUntil(timeoutMillis = 10_000) { viewModel.state.value.list != null }
-        onNodeWithText("Not set").assertExists()
+        onNodeWithText("Suggested:", substring = true).assertExists()
         // The same estimate card as the question asked when a language is chosen: the level's name and the slider's start.
         assertEquals(2, onAllNodesWithText("Starting out").fetchSemanticsNodes().size)
         onNodeWithText("Reading preview").assertExists()
@@ -94,7 +94,7 @@ class VocabularySettingsScreenTest {
             }
         }
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("Explore word frequency").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Not set").assertDoesNotExist()
+        onNodeWithText("Suggested:", substring = true).assertDoesNotExist()
         onNodeWithText("Reading preview").assertExists()
         onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()
         onNodeWithTag("level-slider").performSemanticsAction(androidx.compose.ui.semantics.SemanticsActions.SetProgress) { it(5f) }

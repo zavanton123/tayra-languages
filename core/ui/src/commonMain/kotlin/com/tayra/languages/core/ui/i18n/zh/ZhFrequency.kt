@@ -67,6 +67,8 @@ internal val zhFrequency: Map<String, String> = mapOf(
     "Move the slider to how many words you know. The most common {1} words and their forms are then saved as known; words you have saved already keep their status." to "将滑块拖到你掌握的单词数量。最常用的 {1} 个单词及其词形将保存为已掌握；已保存单词的状态保持不变。",
     "Set to {0}" to "已设为 {0}",
     "Not set" to "未设置",
+    "Suggested: {0}" to "建议：{0}",
+    "Saving marks the most common {1} words as known." to "保存后，最常用的 {1} 个单词会标为已掌握。",
     "Word frequency" to "词频",
 
     // WordFrequencyScreen.kt

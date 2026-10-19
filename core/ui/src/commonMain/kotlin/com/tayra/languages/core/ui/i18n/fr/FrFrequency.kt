@@ -67,6 +67,8 @@ internal val frFrequency: Map<String, String> = mapOf(
     "Move the slider to how many words you know. The most common {1} words and their forms are then saved as known; words you have saved already keep their status." to "Placez le curseur sur le nombre de mots que vous connaissez. Le mot le plus courant ({1}) et ses formes sont alors enregistrés comme connus ; les mots déjà enregistrés gardent leur statut.|Placez le curseur sur le nombre de mots que vous connaissez. Les {1} mots les plus courants et leurs formes sont alors enregistrés comme connus ; les mots déjà enregistrés gardent leur statut.",
     "Set to {0}" to "Défini : {0}",
     "Not set" to "Non défini",
+    "Suggested: {0}" to "Suggéré : {0}",
+    "Saving marks the most common {1} words as known." to "L’enregistrement marque le mot le plus courant ({1}) comme connu.|L’enregistrement marque les {1} mots les plus courants comme connus.",
     "Word frequency" to "Fréquence des mots",
 
     // WordFrequencyScreen.kt

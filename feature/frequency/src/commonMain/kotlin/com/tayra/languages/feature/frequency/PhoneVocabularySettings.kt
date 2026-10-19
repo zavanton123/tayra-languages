@@ -139,6 +139,23 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                     PreviewLegend(colors.onSurfaceVariant.copy(alpha = AppAlpha.half), tr("Outside frequency list"))
                 }
             }
+            // Where the level stands, and what saving it does, right above the button that saves it.
+            Text(
+                listOf(
+                    if (state.chosen) tr("Set to {0}", formatCount(state.level)) else tr("Not set"),
+                    state.shownLevel.coerceAtLeast(1).let { n -> trPlural(n, "Saving marks the most common {1} word as known.", "Saving marks the most common {1} words as known.", formatCount(n)) },
+                ).joinToString(" · "),
+                style = MaterialTheme.typography.bodyMedium,
+                color = colors.onSurfaceVariant,
+            )
+            PrimaryButton(
+                if (state.saving) tr("Saving…") else tr("Set vocabulary level"),
+                onClick = { confirming = true },
+                enabled = state.picked != null && !state.saving,
+                loading = state.saving,
+                modifier = Modifier.fillMaxWidth().testTag("set-vocabulary-level"),
+                size = ButtonSize.Large,
+            )
             Row(
                 Modifier.fillMaxWidth().cardSurface(AppShapes.card)
                     .clickable { onNavigate(Route.WordFrequency) }.padding(AppSpacing.l),
@@ -149,14 +166,6 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 Text(tr("Explore word frequency"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
                 Icon(Icons.Default.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
             }
-            PrimaryButton(
-                if (state.saving) tr("Saving…") else tr("Set vocabulary level"),
-                onClick = { confirming = true },
-                enabled = state.picked != null && !state.saving,
-                loading = state.saving,
-                modifier = Modifier.fillMaxWidth().testTag("set-vocabulary-level"),
-                size = ButtonSize.Large,
-            )
         }
     }
     val picked = state.picked

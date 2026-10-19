@@ -67,6 +67,8 @@ internal val plFrequency: Map<String, String> = mapOf(
     "Move the slider to how many words you know. The most common {1} words and their forms are then saved as known; words you have saved already keep their status." to "Przesuń suwak do liczby słów, które znasz. Wtedy {1} najczęstsze słowo i jego formy zostaną zapisane jako znane; słowa już zapisane zachowają swój status.|Przesuń suwak do liczby słów, które znasz. Wtedy {1} najczęstsze słowa i ich formy zostaną zapisane jako znane; słowa już zapisane zachowają swój status.|Przesuń suwak do liczby słów, które znasz. Wtedy {1} najczęstszych słów i ich formy zostaną zapisane jako znane; słowa już zapisane zachowają swój status.",
     "Set to {0}" to "Ustawiono: {0}",
     "Not set" to "Nie ustawiono",
+    "Suggested: {0}" to "Sugerowany: {0}",
+    "Saving marks the most common {1} words as known." to "Zapisanie oznacza {1} najczęstsze słowo jako znane.|Zapisanie oznacza {1} najczęstsze słowa jako znane.|Zapisanie oznacza {1} najczęstszych słów jako znane.",
     "Word frequency" to "Frekwencja słów",
 
     // WordFrequencyScreen.kt

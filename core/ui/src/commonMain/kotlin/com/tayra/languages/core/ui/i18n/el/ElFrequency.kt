@@ -67,6 +67,8 @@ internal val elFrequency: Map<String, String> = mapOf(
     "Move the slider to how many words you know. The most common {1} words and their forms are then saved as known; words you have saved already keep their status." to "Μετακινήστε το ρυθμιστικό στον αριθμό λέξεων που γνωρίζετε. Η {1} πιο συχνή λέξη και οι τύποι της αποθηκεύονται τότε ως γνωστές· οι λέξεις που έχετε ήδη αποθηκεύσει κρατούν την κατάστασή τους.|Μετακινήστε το ρυθμιστικό στον αριθμό λέξεων που γνωρίζετε. Οι {1} πιο συχνές λέξεις και οι τύποι τους αποθηκεύονται τότε ως γνωστές· οι λέξεις που έχετε ήδη αποθηκεύσει κρατούν την κατάστασή τους.",
     "Set to {0}" to "Ορίστηκε: {0}",
     "Not set" to "Δεν έχει οριστεί",
+    "Suggested: {0}" to "Προτείνεται: {0}",
+    "Saving marks the most common {1} words as known." to "Η αποθήκευση σημειώνει τη {1} πιο συχνή λέξη ως γνωστή.|Η αποθήκευση σημειώνει τις {1} πιο συχνές λέξεις ως γνωστές.",
     "Word frequency" to "Συχνότητα λέξεων",
 
     // WordFrequencyScreen.kt

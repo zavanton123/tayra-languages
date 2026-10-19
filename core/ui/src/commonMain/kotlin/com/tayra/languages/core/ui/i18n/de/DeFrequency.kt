@@ -67,6 +67,8 @@ internal val deFrequency: Map<String, String> = mapOf(
     "Move the slider to how many words you know. The most common {1} words and their forms are then saved as known; words you have saved already keep their status." to "Stell mit dem Regler ein, wie viele Wörter du kennst. Das häufigste {1} Wort und seine Formen werden dann als bekannt gespeichert; bereits gespeicherte Wörter behalten ihren Status.|Stell mit dem Regler ein, wie viele Wörter du kennst. Die {1} häufigsten Wörter und ihre Formen werden dann als bekannt gespeichert; bereits gespeicherte Wörter behalten ihren Status.",
     "Set to {0}" to "Festgelegt: {0}",
     "Not set" to "Nicht festgelegt",
+    "Suggested: {0}" to "Vorschlag: {0}",
+    "Saving marks the most common {1} words as known." to "Beim Speichern wird das häufigste Wort ({1}) als bekannt markiert.|Beim Speichern werden die {1} häufigsten Wörter als bekannt markiert.",
     "Word frequency" to "Worthäufigkeit",
 
     // WordFrequencyScreen.kt

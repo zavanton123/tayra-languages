@@ -1,12 +1,12 @@
 package com.tayra.languages.feature.frequency
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.IntrinsicSize
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -24,6 +24,7 @@ import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LoadingIndicator
@@ -37,13 +38,13 @@ import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.formatCount
+import com.tayra.languages.core.ui.i18n.languageInSentence
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
-import com.tayra.languages.core.ui.i18n.formatCount
-import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.i18n.LanguageCase
-import com.tayra.languages.core.ui.i18n.languageInSentence
-import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.theme.AppSpacing
 import org.koin.compose.viewmodel.koinViewModel
 
@@ -114,7 +115,7 @@ internal fun VocabularySettingsContent(
         },
         icon = AppIcons.BarChart,
         titleExtra = {
-            Tag(if (state.chosen) tr("Set to {0}", formatCount(state.level)) else tr("Not set"), size = TagSize.Medium)
+            Tag(if (state.chosen) tr("Set to {0}", formatCount(state.level)) else tr("Suggested: {0}", formatCount(state.shownLevel)), size = TagSize.Medium)
         },
     ) {
         // The same estimate and preview as the question asked when a language is first chosen.
@@ -130,7 +131,7 @@ internal fun VocabularySettingsContent(
         }
         Spacer(Modifier.height(AppSpacing.xl))
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            PrimaryButton(tr("Set vocabulary level"), onClick = { confirming = true }, enabled = state.picked != null && !state.saving, modifier = Modifier.testTag("set-vocabulary-level"))
+            PrimaryButton(tr("Set vocabulary level"), onClick = { confirming = true }, enabled = state.picked != null && !state.saving, modifier = Modifier.testTag("set-vocabulary-level"), size = ButtonSize.Large)
             if (state.saving) {
                 AppSpinner(size = SpinnerSize.Small)
                 Text(tr("Saving…"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
