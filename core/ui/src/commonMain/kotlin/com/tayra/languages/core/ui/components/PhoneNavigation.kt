@@ -30,8 +30,8 @@ import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAlpha
-import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * The phone's bottom bar: the main areas as tabs, with the flashcards due on theirs, and More for
@@ -71,7 +71,7 @@ private fun RowScope.PhoneTab(
                 if (badge > 0) CountBadge(badge, Modifier.align(Alignment.TopEnd).offset(x = 14.dp, y = (-6).dp), emphasis = BadgeEmphasis.Solid, max = 99)
             }
         },
-        label = { Text(label, maxLines = 1) },
+        label = { FitText(label) },
         colors = NavigationBarItemDefaults.colors(selectedIconColor = colors.primary, selectedTextColor = colors.primary, indicatorColor = colors.primary.copy(alpha = AppAlpha.soft)),
         modifier = Modifier.testTag("phone-nav-${tab.name}"),
     )

@@ -88,6 +88,7 @@ import com.tayra.languages.core.ui.components.Appear
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ConfirmDialog
+import com.tayra.languages.core.ui.components.FitText
 import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.LearningLanguageSelector
 import com.tayra.languages.core.ui.components.LoadingIndicator
@@ -102,6 +103,7 @@ import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.animatedCount
 import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.components.largeText
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
@@ -278,15 +280,18 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
     val total = state.answered + counts.total
     val current = if (state.card != null) (state.answered + 1).coerceAtMost(total.coerceAtLeast(1)) else state.answered
     val pills: @Composable () -> Unit = {
-        Row(
+        // Large text may not fit the three in a row; they wrap, without the dividers between them.
+        val divided = !largeText
+        FlowRow(
             if (compact) Modifier.fillMaxWidth() else Modifier,
-            verticalAlignment = Alignment.CenterVertically,
+            itemVerticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.m else AppSpacing.s, Alignment.CenterHorizontally),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
         ) {
             CountPill("New", counts.new, trPlural(counts.new, "new", "new"), AppAccents.blue, compact)
-            PillDivider()
+            if (divided) PillDivider()
             CountPill("Learning", counts.learning, trPlural(counts.learning, "learning", "learning"), AppAccents.orange, compact)
-            PillDivider()
+            if (divided) PillDivider()
             CountPill("To review", counts.review, trPlural(counts.review, "to review", "to review"), AppAccents.green, compact)
         }
     }
@@ -540,7 +545,7 @@ private fun FooterLink(icon: ImageVector, label: String, modifier: Modifier = Mo
             // The icon over its name, so each name has the whole column.
             Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
                 Icon(icon, contentDescription = null, modifier = Modifier.size(AppSizes.iconMedium))
-                Text(label, style = MaterialTheme.typography.labelLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                FitText(label, style = MaterialTheme.typography.labelLarge)
             }
         } else {
             Icon(icon, contentDescription = null, modifier = Modifier.size(AppSizes.icon))

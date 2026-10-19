@@ -18,6 +18,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.theme.AppMotion
@@ -48,6 +49,11 @@ fun ProvideWindowWidth(content: @Composable () -> Unit) {
 }
 
 val ContentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)
+
+/** Whether the reader has asked the system for large text, so tight rows give their words more room. */
+val largeText: Boolean @Composable get() = LocalDensity.current.fontScale >= LARGE_TEXT_SCALE
+
+private const val LARGE_TEXT_SCALE = 1.15f
 
 /** A spinner while a screen loads; it shows only once the load has taken a moment, so a quick one flashes none. */
 @Composable

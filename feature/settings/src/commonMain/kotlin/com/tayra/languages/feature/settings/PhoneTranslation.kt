@@ -60,6 +60,7 @@ import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TabToggle
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.formatSize
+import com.tayra.languages.core.ui.components.largeText
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
@@ -105,21 +106,36 @@ internal fun PhoneTranslationScreen(
                 EngineStatusPill(settings, viewModel, local, checking, ready, pair)
             }
             ContentCard(tr("Language pair"), subtitle = null, icon = AppIcons.SwapHoriz, dense = true) {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                val from: @Composable (Modifier) -> Unit = { modifier ->
                     SelectButton(
                         learningName ?: tr("Your language"),
                         onClick = {},
-                        modifier = Modifier.weight(1f),
+                        modifier = modifier,
                         leading = if (learningEnglish != null) { { LanguageFlag(learningEnglish, 24.dp) } } else null,
                         enabled = false,
                     )
-                    Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("translated into"), tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
+                }
+                val to: @Composable (Modifier) -> Unit = { modifier ->
                     SelectButton(
                         nativeName,
                         onClick = { nativeSheet = true },
-                        modifier = Modifier.weight(1f).testTag("phone-native"),
+                        modifier = modifier.testTag("phone-native"),
                         leading = { LanguageFlag(LanguageCatalog.nativeOption(settings.nativeLanguage).name, 24.dp) },
                     )
+                }
+                // Large text leaves no room for two names side by side, so they stack.
+                if (largeText) {
+                    Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                        from(Modifier.fillMaxWidth())
+                        Icon(AppIcons.ArrowDown, contentDescription = tr("translated into"), tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
+                        to(Modifier.fillMaxWidth())
+                    }
+                } else {
+                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                        from(Modifier.weight(1f))
+                        Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("translated into"), tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
+                        to(Modifier.weight(1f))
+                    }
                 }
                 Spacer(Modifier.height(AppSpacing.m))
                 Text(

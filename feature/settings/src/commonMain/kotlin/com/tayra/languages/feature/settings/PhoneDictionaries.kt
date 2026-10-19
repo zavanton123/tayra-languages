@@ -44,6 +44,7 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.Segment
 import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.components.largeText
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
@@ -149,10 +150,22 @@ private fun PhoneLookupCard(learning: LanguageOption?, nativeName: String, curre
     val colors = MaterialTheme.colorScheme
     val state = current?.state
     ContentCard(tr("Current lookup"), subtitle = null, icon = AppIcons.MenuBook, dense = true) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            PairChip(learning?.code ?: "?", learning?.let { tr(it.name) } ?: tr("No language"), Modifier.weight(1f))
-            Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("looked up in"), tint = colors.onSurfaceVariant, modifier = Modifier.padding(horizontal = AppSpacing.s).size(AppSizes.iconMedium))
-            PairChip(LanguageCatalog.nativeLanguages.firstOrNull { it.name == nativeName }?.code ?: "", tr(nativeName), Modifier.weight(1f))
+        val fromCode = learning?.code ?: "?"
+        val fromName = learning?.let { tr(it.name) } ?: tr("No language")
+        val toCode = LanguageCatalog.nativeLanguages.firstOrNull { it.name == nativeName }?.code ?: ""
+        // Large text leaves no room for two names side by side, so they stack.
+        if (largeText) {
+            Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                PairChip(fromCode, fromName, Modifier.fillMaxWidth())
+                Icon(AppIcons.ArrowDown, contentDescription = tr("looked up in"), tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
+                PairChip(toCode, tr(nativeName), Modifier.fillMaxWidth())
+            }
+        } else {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                PairChip(fromCode, fromName, Modifier.weight(1f))
+                Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("looked up in"), tint = colors.onSurfaceVariant, modifier = Modifier.padding(horizontal = AppSpacing.s).size(AppSizes.iconMedium))
+                PairChip(toCode, tr(nativeName), Modifier.weight(1f))
+            }
         }
         AppDivider(Modifier.padding(vertical = AppSpacing.l))
         LookupStatusRow(current, short = true)

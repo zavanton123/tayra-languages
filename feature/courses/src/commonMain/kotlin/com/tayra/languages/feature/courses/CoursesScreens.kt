@@ -92,6 +92,7 @@ import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagFilterButton
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.components.largeText
 import com.tayra.languages.core.ui.components.pressScale
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.formatCount
@@ -565,7 +566,8 @@ internal fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDown
                 .testTag("empty-courses"),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            CoursesIllustration(Modifier.size(ILLUSTRATION_SIZE))
+            // With large text the picture gives way, so the buttons stay on screen.
+            CoursesIllustration(Modifier.size(if (largeText) ILLUSTRATION_SIZE * SMALL_ILLUSTRATION else ILLUSTRATION_SIZE))
             Spacer(Modifier.height(AppSpacing.xxl))
             Text(
                 if (language.isEmpty()) tr("Choose a language to learn") else tr("Create your first course"),
@@ -832,6 +834,7 @@ private val LESSON_CIRCLE = 48.dp
 private val LESSON_STATUS_WIDTH = 128.dp
 private val ROW_STATUS_WIDTH = 120.dp
 private val ILLUSTRATION_SIZE = 220.dp
+private const val SMALL_ILLUSTRATION = 0.6f
 private val LEVEL_STRIPE = 5.dp
 private val FACT_DIVIDER_HEIGHT = 22.dp
 

@@ -136,7 +136,7 @@ private fun Tile(label: String, value: String, detail: String, icon: ImageVector
     ) {
         if (!compact) IconTile(icon, size = 52, tint = tint)
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-            Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
             Text(value, style = AppText.headline, maxLines = 1)
             Text(detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2)
         }

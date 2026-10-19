@@ -157,7 +157,7 @@ private fun PhoneContinueCard(book: BookListItem, onContinue: () -> Unit) {
             BookCover(book, 56.dp)
             Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                 Text(tr("Continue reading"), style = AppText.smallTitle, color = colors.primary)
-                Text(book.title, style = AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(book.title, style = AppText.sectionTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text(tr("Page {0} of {1} · {2}", book.currentPage, book.pageCount, words(book.wordCount)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
         }
