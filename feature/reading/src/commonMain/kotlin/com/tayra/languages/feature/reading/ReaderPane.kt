@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
@@ -26,11 +27,8 @@ import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Refresh
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
@@ -58,11 +56,14 @@ import com.tayra.languages.core.domain.model.PageBookmark
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.TranslationEngine
+import com.tayra.languages.core.ui.components.AppCard
 import com.tayra.languages.core.ui.components.AppDialog
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.RoundSlider
@@ -70,6 +71,7 @@ import com.tayra.languages.core.ui.components.TextInputDialog
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -112,7 +114,7 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
             onBack = if (showBookmarks) ({ showBookmarks = false }) else null,
             onClose = onClose,
         )
-        HorizontalDivider(color = colors.outlineVariant)
+        AppDivider()
         if (!showBookmarks) {
             PaneTabs(tab) { tab = it }
         }
@@ -206,11 +208,7 @@ private fun PaneTabs(selected: PaneTab, onSelect: (PaneTab) -> Unit) {
 /** A white card with a heading and its settings. */
 @Composable
 private fun PaneCard(title: String, content: @Composable ColumnScope.() -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Column(
-        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(18.dp),
-        verticalArrangement = Arrangement.spacedBy(14.dp),
-    ) {
+    AppCard(padding = PaddingValues(18.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
         Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
         content()
     }
@@ -237,7 +235,7 @@ private fun SwitchSetting(icon: ImageVector, title: String, subtitle: String?, c
 @Composable
 private fun <T> Segmented(options: List<Pair<T, String>>, selected: T, onSelect: (T) -> Unit, modifier: Modifier = Modifier, fill: Boolean = false) {
     val colors = MaterialTheme.colorScheme
-    Row(modifier.clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).padding(3.dp)) {
+    Row(modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(3.dp)) {
         options.forEach { (value, label) ->
             val active = value == selected
             Text(
@@ -318,7 +316,7 @@ private fun <T> ChoiceCard(
     var open by remember { mutableStateOf(false) }
     Box {
         Row(
-            Modifier.fillMaxWidth().clip(AppShapes.panel).border(1.dp, colors.outlineVariant, AppShapes.panel)
+            Modifier.fillMaxWidth().clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel)
                 .clickable(enabled = options.size > 1) { open = true }.padding(horizontal = 14.dp, vertical = 12.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(14.dp),
@@ -501,7 +499,7 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
                         "${(speed * 100).roundToInt()}%",
                         Modifier.weight(1f).clip(AppShapes.control)
                             .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.12f) else Color.Transparent)
-                            .border(1.dp, if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.5f) else MaterialTheme.colorScheme.outlineVariant, AppShapes.control)
+                            .border(AppBorders.hairline(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.5f) else MaterialTheme.colorScheme.outlineVariant), AppShapes.control)
                             .clickable { viewModel.setSpeechSpeed(speed) }.padding(vertical = 10.dp),
                         style = MaterialTheme.typography.bodyLarge,
                         color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface,
@@ -593,11 +591,10 @@ private fun BookmarksView(state: ReadingUiState, bookmarks: List<PageBookmark>, 
 @Composable
 private fun BookmarkCard(bookmark: PageBookmark, current: Boolean, viewModel: ReadingViewModel, onOpen: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    var menu by remember { mutableStateOf(false) }
     var renaming by remember { mutableStateOf(false) }
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (current) colors.primary.copy(alpha = 0.05f) else colors.surface)
-            .border(1.dp, if (current) colors.primary.copy(alpha = 0.4f) else colors.outlineVariant, AppShapes.panel)
+            .border(AppBorders.hairline(if (current) colors.primary.copy(alpha = 0.4f) else colors.outlineVariant), AppShapes.panel)
             .clickable(onClick = onOpen).padding(start = 16.dp, top = 14.dp, bottom = 14.dp, end = 4.dp).testTag("bookmark-${bookmark.pageNumber}"),
         verticalAlignment = Alignment.Top,
         horizontalArrangement = Arrangement.spacedBy(14.dp),
@@ -614,12 +611,9 @@ private fun BookmarkCard(bookmark: PageBookmark, current: Boolean, viewModel: Re
             }
             bookmark.createdAt?.let { Text(tr("Added {0}", it.relativeTo()), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
         }
-        Box {
-            IconButton(onClick = { menu = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("Bookmark actions"), tint = colors.onSurfaceVariant) }
-            AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
-                AppMenuItem(text = { Text(tr("Rename")) }, onClick = { menu = false; renaming = true })
-                AppMenuItem(text = { Text(tr("Delete"), color = colors.error) }, onClick = { menu = false; viewModel.deleteBookmark(bookmark.id) })
-            }
+        OverflowMenu(tr("Bookmark actions")) { close ->
+            AppMenuItem(text = { Text(tr("Rename")) }, onClick = { close(); renaming = true })
+            AppMenuItem(text = { Text(tr("Delete"), color = colors.error) }, onClick = { close(); viewModel.deleteBookmark(bookmark.id) })
         }
     }
     if (renaming) {
@@ -641,7 +635,7 @@ private fun ReaderTools(state: ReadingUiState, bookmarksOpen: Boolean, onBookmar
     Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Text(tr("Reader tools"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            HorizontalDivider(Modifier.weight(1f), color = colors.outlineVariant)
+            AppDivider(Modifier.weight(1f))
         }
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             // A lesson's text belongs to its course, so it is not edited here.
@@ -677,7 +671,7 @@ private fun ToolTile(icon: ImageVector, label: String, note: String, active: Boo
     val colors = MaterialTheme.colorScheme
     Column(
         Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (active) colors.primary.copy(alpha = 0.08f) else colors.surface)
-            .border(1.dp, if (active) colors.primary.copy(alpha = 0.4f) else colors.outlineVariant, AppShapes.panel)
+            .border(AppBorders.hairline(if (active) colors.primary.copy(alpha = 0.4f) else colors.outlineVariant), AppShapes.panel)
             .clickable(onClick = onClick).padding(vertical = 12.dp, horizontal = 6.dp).testTag(tag),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(3.dp),

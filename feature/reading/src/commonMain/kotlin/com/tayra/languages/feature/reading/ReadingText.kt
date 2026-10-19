@@ -8,6 +8,8 @@ import androidx.compose.foundation.layout.Box
 import kotlin.math.roundToInt
 import androidx.compose.ui.platform.LocalDensity
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
+import com.tayra.languages.core.ui.components.SpinnerSize
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
 import androidx.compose.foundation.clickable
@@ -52,7 +54,6 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.ui.Alignment
 import com.tayra.languages.core.domain.service.SentenceTranslation
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -359,7 +360,7 @@ private fun SpeakerCircle(playing: Boolean, preparing: Boolean, modifier: Modifi
         contentAlignment = Alignment.Center,
     ) {
         when {
-            preparing -> CircularProgressIndicator(Modifier.fillMaxSize(0.5f), color = primary, strokeWidth = 2.dp)
+            preparing -> AppSpinner(Modifier.fillMaxSize(0.5f), size = SpinnerSize.Small, color = primary)
             else -> Icon(if (playing) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = null, tint = primary, modifier = Modifier.fillMaxSize(0.58f))
         }
     }
@@ -420,7 +421,7 @@ private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, 
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-            CircularProgressIndicator(modifier = Modifier.size(12.dp), strokeWidth = 1.5.dp, color = color)
+            AppSpinner(size = SpinnerSize.Small, color = color)
             Text(tr("Translating\u2026"), style = TextStyle(fontSize = (13 * fontScale).sp, color = color))
         }
         SentenceTranslation.Unavailable -> Spacer(Modifier.height(6.dp))

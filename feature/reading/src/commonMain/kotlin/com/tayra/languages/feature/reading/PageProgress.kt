@@ -1,14 +1,10 @@
 package com.tayra.languages.feature.reading
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -18,7 +14,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Text
@@ -31,15 +26,16 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.IconButtonStyle
+import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.theme.AppShapes
 import kotlin.math.roundToInt
 
 /**
@@ -61,7 +57,14 @@ internal fun PageProgress(
     var dragged by remember(pageNumber, pageCount) { mutableFloatStateOf(pageNumber.toFloat()) }
     val shown = dragged.roundToInt()
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-        PageStepButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, tr("Previous page"), enabled = pageNumber > 1) { onGoTo(pageNumber - 1) }
+        AppIconButton(
+            Icons.AutoMirrored.Filled.KeyboardArrowLeft,
+            contentDescription = tr("Previous page"),
+            onClick = { onGoTo(pageNumber - 1) },
+            enabled = pageNumber > 1,
+            style = IconButtonStyle.Outlined,
+            tint = if (pageNumber > 1) null else colors.outlineVariant,
+        )
         Text(
             buildAnnotatedString {
                 val text = tr("{0}  of {1}", shown, pageCount)
@@ -83,26 +86,18 @@ internal fun PageProgress(
                 thumb = {
                     Box(Modifier.size(18.dp).shadow(2.dp, CircleShape).clip(CircleShape).background(colors.surface).padding(3.dp).clip(CircleShape).background(colors.primary))
                 },
-                track = { state ->
-                    Box(Modifier.fillMaxWidth().height(6.dp).clip(AppShapes.tiny).background(colors.surfaceVariant)) {
-                        Box(Modifier.fillMaxWidth(state.coercedValueAsFraction).fillMaxHeight().background(colors.primary))
-                    }
-                },
+                track = { state -> ProgressTrack(state.coercedValueAsFraction, colors.primary, height = 6.dp) },
             )
         } else if (sliderWidth == null) {
             Spacer(Modifier.weight(1f))
         }
-        PageStepButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, tr("Next page"), enabled = pageNumber < pageCount) { onGoTo(pageNumber + 1) }
-    }
-}
-
-@Composable
-private fun PageStepButton(icon: ImageVector, description: String, enabled: Boolean, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Box(
-        Modifier.clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).background(colors.surface)
-            .clickable(enabled = enabled, onClick = onClick).padding(8.dp),
-    ) {
-        Icon(icon, contentDescription = description, tint = if (enabled) colors.onSurface else colors.outlineVariant, modifier = Modifier.size(22.dp))
+        AppIconButton(
+            Icons.AutoMirrored.Filled.KeyboardArrowRight,
+            contentDescription = tr("Next page"),
+            onClick = { onGoTo(pageNumber + 1) },
+            enabled = pageNumber < pageCount,
+            style = IconButtonStyle.Outlined,
+            tint = if (pageNumber < pageCount) null else colors.outlineVariant,
+        )
     }
 }

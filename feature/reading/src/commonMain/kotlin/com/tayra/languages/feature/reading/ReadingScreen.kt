@@ -35,10 +35,7 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.graphics.Color
 import kotlinx.coroutines.flow.drop
@@ -51,7 +48,6 @@ import androidx.compose.material3.SheetValue
 import androidx.compose.material3.BottomSheetScaffold
 import androidx.compose.material3.ModalDrawerSheet
 import androidx.compose.material3.ModalNavigationDrawer
-import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
@@ -77,7 +73,6 @@ import co.touchlab.kermit.Logger
 import com.tayra.languages.core.ui.audio.Speaker
 import com.tayra.languages.core.domain.settings.Hotkey
 import androidx.compose.ui.unit.IntOffset
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.ui.semantics.semantics
@@ -129,10 +124,15 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.morphology.Chinese
 import com.tayra.languages.core.ui.components.AboveTargetPositionProvider
 import androidx.compose.ui.platform.LocalDensity
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppProgressBar
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppVerticalDivider
+import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.StatusDistributionBar
 import com.tayra.languages.core.ui.components.ToastHost
@@ -149,6 +149,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -360,7 +361,7 @@ fun ReadingScreen(
                     Surface(
                         // With the text card's wider margin on this side, the text's scrollbar runs midway between the card and the panel.
                         Modifier.width(427.dp).fillMaxHeight().padding(start = 7.dp, top = 16.dp, end = 16.dp, bottom = 16.dp)
-                            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card),
+                            .border(AppBorders.hairline(), AppShapes.card),
                         shape = AppShapes.card,
                         color = MaterialTheme.colorScheme.surface,
                     ) {
@@ -432,9 +433,9 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
     Surface(tonalElevation = 2.dp) {
         Column(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = 8.dp, vertical = 4.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = tr("Menu")) }
-                if (state.lesson == null && !state.news) IconButton(onClick = onHome) { Icon(Icons.Default.Home, contentDescription = tr("Home")) }
-                else IconButton(onClick = onHome) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = if (state.news) tr("Back to news") else tr("Back to course")) }
+                AppIconButton(Icons.Default.Menu, contentDescription = tr("Menu"), onClick = onMenu)
+                if (state.lesson == null && !state.news) AppIconButton(Icons.Default.Home, contentDescription = tr("Home"), onClick = onHome)
+                else AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = if (state.news) tr("Back to news") else tr("Back to course"), onClick = onHome)
                 Text(
                     state.book?.title.orEmpty(),
                     Modifier.weight(1f),
@@ -454,7 +455,7 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
     val rtl = state.language?.rightToLeft == true
     Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
         Row(Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically) {
-            IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = tr("Menu")) }
+            AppIconButton(Icons.Default.Menu, contentDescription = tr("Menu"), onClick = onMenu)
             Spacer(Modifier.width(8.dp))
             val lesson = state.lesson
             val separator: @Composable () -> Unit = {
@@ -506,15 +507,11 @@ private fun Crumb(label: String, onClick: () -> Unit, modifier: Modifier = Modif
 @Composable
 private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit) {
     Row(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-        IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = tr("Menu")) }
+        AppIconButton(Icons.Default.Menu, contentDescription = tr("Menu"), onClick = onMenu)
         Spacer(Modifier.weight(1f))
-        IconButton(onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage) {
-            Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous page"))
-        }
+        AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous page"), onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage)
         Text("${state.pageNumber}/${state.pageCount}", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        IconButton(onClick = { viewModel.goToRelativePage(1) }, enabled = !state.isLastPage) {
-            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = tr("Next page"))
-        }
+        AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = tr("Next page"), onClick = { viewModel.goToRelativePage(1) }, enabled = !state.isLastPage)
         QuietButton(tr("Exit focus"), onClick = viewModel::toggleFocusMode)
     }
 }
@@ -621,7 +618,7 @@ private fun ReadingBody(
             .widthIn(max = state.settings.readingColumnWidth.dp + 64.dp)
             .clip(AppShapes.card)
             .background(theme.readingBackground)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card)
+            .border(AppBorders.hairline(), AppShapes.card)
             // No bottom padding: the footer runs to the card's bottom edge.
             .padding(start = edgePadding, end = edgePadding, top = if (compact) 16.dp else 28.dp)
     }
@@ -637,7 +634,7 @@ private fun ReadingBody(
                 PageVocabulary(state)
                 state.translationProgress?.let { TranslationProgress(it) }
                     ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
-                HorizontalDivider(Modifier.padding(bottom = 20.dp), color = MaterialTheme.colorScheme.outlineVariant)
+                AppDivider(Modifier.padding(bottom = 20.dp))
             }
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
             val chinese = state.language?.let { LanguageCodes.codeFor(it.name) } in setOf("zh", "yue")
@@ -730,7 +727,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
         Triple(tr("Next page"), listOf(HotkeyAction.NEXT_PAGE), or),
         Triple(tr("Previous page"), listOf(HotkeyAction.PREVIOUS_PAGE), or),
     ).mapNotNull { (label, actions, separator) -> actions.mapNotNull { hotkeys[it] }.takeIf { it.isNotEmpty() }?.let { Triple(label, it, separator) } }
-    Surface(shape = AppShapes.card, color = colors.surface, shadowElevation = 8.dp, border = BorderStroke(1.dp, colors.outlineVariant)) {
+    Surface(shape = AppShapes.card, color = colors.surface, shadowElevation = 8.dp, border = AppBorders.hairline()) {
         Column(Modifier.padding(16.dp).width(440.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(tr("Keyboard shortcuts"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
             rows.forEach { (label, keys, separator) ->
@@ -777,7 +774,7 @@ private fun KeyCap(hotkey: Hotkey) {
         style = MaterialTheme.typography.labelMedium,
         fontWeight = FontWeight.SemiBold,
         modifier = Modifier.clip(AppShapes.small).background(colors.surfaceVariant)
-            .border(1.dp, colors.outlineVariant, AppShapes.small).padding(horizontal = 7.dp, vertical = 3.dp),
+            .border(AppBorders.hairline(), AppShapes.small).padding(horizontal = 7.dp, vertical = 3.dp),
     )
 }
 
@@ -891,7 +888,7 @@ private fun TranslationProgress(message: String) {
     ) {
         Column(Modifier.padding(horizontal = 12.dp, vertical = 8.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text(tr("Setting up offline translation: {0}", message), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSecondaryContainer)
-            LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
+            AppProgressBar(null)
         }
     }
 }
@@ -1033,7 +1030,7 @@ private fun BackToLibrary(label: String, onClick: () -> Unit) {
 private fun PracticeButton(label: String, modifier: Modifier, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(52.dp).clip(AppShapes.control).border(1.dp, colors.primary.copy(alpha = 0.5f), AppShapes.control)
+        modifier.height(52.dp).clip(AppShapes.control).border(AppBorders.hairline(colors.primary.copy(alpha = 0.5f)), AppShapes.control)
             .background(colors.primary.copy(alpha = 0.06f)).clickable(onClick = onClick).padding(horizontal = 16.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
@@ -1047,7 +1044,7 @@ private fun PracticeButton(label: String, modifier: Modifier, onClick: () -> Uni
 private fun MarkRemainingButton(unknowns: Int, modifier: Modifier, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(52.dp).clip(AppShapes.control).border(1.dp, colors.outline.copy(alpha = 0.5f), AppShapes.control)
+        modifier.height(52.dp).clip(AppShapes.control).border(AppBorders.hairline(colors.outline.copy(alpha = 0.5f)), AppShapes.control)
             .background(colors.surface).clickable(onClick = onClick).padding(start = 16.dp, end = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
@@ -1081,16 +1078,14 @@ private fun SourceChip(url: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val host = url.substringAfter("://").substringBefore("/").removePrefix("www.")
     Row(
-        Modifier.clip(AppShapes.panel).border(1.dp, colors.outlineVariant, AppShapes.panel).clickable(onClick = onClick)
+        Modifier.clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel).clickable(onClick = onClick)
             .padding(horizontal = 14.dp, vertical = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        Box(Modifier.size(32.dp).clip(AppShapes.large).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
-            Icon(AppIcons.Link, contentDescription = null, tint = colors.primary, modifier = Modifier.size(18.dp))
-        }
+        IconTile(AppIcons.Link, size = 32)
         Text(tr("Read the full story"), style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
-        Box(Modifier.width(1.dp).height(20.dp).background(colors.outlineVariant))
+        AppVerticalDivider(Modifier.height(20.dp))
         Text(host, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         Icon(AppIcons.OpenInNew, contentDescription = tr("Open source"), tint = colors.onSurfaceVariant, modifier = Modifier.size(16.dp))
     }

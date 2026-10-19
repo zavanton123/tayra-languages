@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading.practice
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -23,7 +24,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -48,34 +48,39 @@ import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.practice.Exercise
 import com.tayra.languages.core.domain.practice.ExerciseKind
 import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.ui.audio.rememberSpeaker
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.label
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppText
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
@@ -129,10 +134,6 @@ internal class PracticeActions(
     val onSpeak: ((String) -> Unit)? = null,
 )
 
-private val WORD_HIGHLIGHT = Color(0xFFFFD166)
-private val RIGHT = Color(0xFF2E9D57)
-private val WRONG = Color(0xFFD64545)
-private val ALMOST = Color(0xFFD68A00)
 private const val BLANK = "[...]"
 
 /** The page under the top bar: the question on show, or the result when all are answered. */
@@ -209,16 +210,13 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
 private fun ProgressStrip(state: PracticeUiState) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card)
-            .padding(horizontal = 20.dp, vertical = 14.dp),
+        Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(horizontal = 20.dp, vertical = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(20.dp),
     ) {
         Text(tr("Question {0} of {1}", state.index + 1, state.exercises.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
-        Box(Modifier.weight(1f).height(10.dp).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = 0.08f))) {
-            Box(Modifier.fillMaxWidth((state.index + 1f) / state.exercises.size).height(10.dp).clip(AppShapes.tiny).background(colors.primary))
-        }
-        Text(tr("{0} right", state.correct), style = MaterialTheme.typography.bodyLarge, color = RIGHT, fontWeight = FontWeight.Medium, softWrap = false)
+        ProgressTrack((state.index + 1f) / state.exercises.size, colors.primary, Modifier.weight(1f), height = 10.dp, trackColor = colors.onSurface.copy(alpha = 0.08f))
+        Text(tr("{0} right", state.correct), style = MaterialTheme.typography.bodyLarge, color = AppAccents.green, fontWeight = FontWeight.Medium, softWrap = false)
     }
 }
 
@@ -237,16 +235,16 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
     val direction = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val answered = state.answered
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large)
+        Modifier.fillMaxWidth().cardSurface(AppShapes.large)
             .padding(horizontal = if (compact) 18.dp else 32.dp, vertical = if (compact) 18.dp else 26.dp).testTag("practice-question"),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(if (compact) 14.dp else 18.dp),
     ) {
-        Text(exercise.instruction.uppercase(), style = TextStyle(fontSize = 13.sp, letterSpacing = 1.1.sp, fontWeight = FontWeight.Bold, color = colors.primary), textAlign = TextAlign.Center)
+        Text(exercise.instruction.uppercase(), style = AppText.overline.copy(color = colors.primary), textAlign = TextAlign.Center)
 
         if (exercise.isListening && actions.onSpeak != null) {
             Row(
-                Modifier.clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.08f)).border(1.dp, colors.primary.copy(alpha = 0.25f), AppShapes.pill)
+                Modifier.clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.08f)).border(AppBorders.hairline(colors.primary.copy(alpha = 0.25f)), AppShapes.pill)
                     .clickable(onClickLabel = tr("Listen again")) { actions.onSpeak.invoke(exercise.spoken!!) }.padding(horizontal = 22.dp, vertical = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(10.dp),
@@ -259,15 +257,14 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.
         val sentenceHidden = !answered && (exercise.kind == ExerciseKind.HEAR_CHOOSE || exercise.wholeSentence)
         if (!sentenceHidden) {
-            val highlight = SpanStyle(background = WORD_HIGHLIGHT.copy(alpha = 0.55f), fontWeight = FontWeight.SemiBold)
-            val size = if (compact) 21.sp else 27.sp
+            val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = 0.55f), fontWeight = FontWeight.SemiBold)
             Text(
                 buildAnnotatedString {
                     append(exercise.sentence.substring(0, exercise.range.first))
                     withStyle(highlight) { append(if (answered) exercise.sentence.substring(exercise.range) else BLANK) }
                     append(exercise.sentence.substring(exercise.range.last + 1))
                 },
-                style = TextStyle(fontSize = size, lineHeight = size * 1.45f, color = colors.onSurface, fontWeight = FontWeight.Medium, textAlign = TextAlign.Center, textDirection = direction),
+                style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
                 modifier = Modifier.testTag("practice-sentence"),
             )
         }
@@ -277,7 +274,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             Text(
                 translation,
                 Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = 0.05f)).padding(horizontal = if (compact) 14.dp else 32.dp, vertical = 14.dp),
-                style = TextStyle(fontSize = if (compact) 15.sp else 17.sp, lineHeight = 25.sp, color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
+                style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
             )
         }
 
@@ -285,7 +282,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
 
         if (answered) Feedback(state, exercise)
 
-        HorizontalDivider(color = colors.outlineVariant)
+        AppDivider()
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             if (!answered) QuietButton(tr("Show the answer"), onClick = actions.onSkip)
             Spacer(Modifier.weight(1f))
@@ -308,14 +305,14 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
         val isAnswer = text == exercise.answer
         val tint = when {
             !state.answered -> null
-            isAnswer -> RIGHT
-            text == state.chosen -> WRONG
+            isAnswer -> AppAccents.green
+            text == state.chosen -> AppAccents.red
             else -> null
         }
         Row(
             modifier.heightIn(min = 56.dp).clip(AppShapes.panel)
                 .background(tint?.copy(alpha = 0.12f) ?: colors.surface)
-                .border(if (tint != null) 1.5.dp else 1.dp, tint ?: colors.outlineVariant, AppShapes.panel)
+                .border(if (tint != null) BorderStroke(1.5.dp, tint) else AppBorders.hairline(), AppShapes.panel)
                 .clickable(enabled = !state.answered) { actions.onChoose(text) }
                 .padding(horizontal = 18.dp, vertical = 12.dp).testTag("practice-option-$index"),
             verticalAlignment = Alignment.CenterVertically,
@@ -323,8 +320,8 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
         ) {
             Text(text, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (state.answered && tint == null) colors.onSurfaceVariant else colors.onSurface)
             when (tint) {
-                RIGHT -> Icon(Icons.Default.Check, contentDescription = tr("Right answer"), tint = RIGHT, modifier = Modifier.size(22.dp))
-                WRONG -> Icon(Icons.Default.Close, contentDescription = tr("Your answer"), tint = WRONG, modifier = Modifier.size(22.dp))
+                AppAccents.green -> Icon(Icons.Default.Check, contentDescription = tr("Right answer"), tint = AppAccents.green, modifier = Modifier.size(22.dp))
+                AppAccents.red -> Icon(Icons.Default.Close, contentDescription = tr("Your answer"), tint = AppAccents.red, modifier = Modifier.size(22.dp))
                 else -> Unit
             }
         }
@@ -361,12 +358,12 @@ private fun TypedAnswer(state: PracticeUiState, exercise: Exercise, actions: Pra
 @Composable
 private fun Feedback(state: PracticeUiState, exercise: Exercise) {
     val (tint, title) = when (state.result) {
-        PracticeResult.CORRECT -> RIGHT to tr("Correct")
-        PracticeResult.ALMOST -> ALMOST to tr("Almost: mind the accents")
-        else -> WRONG to tr("Not quite")
+        PracticeResult.CORRECT -> AppAccents.green to tr("Correct")
+        PracticeResult.ALMOST -> AppAccents.amber to tr("Almost: mind the accents")
+        else -> AppAccents.red to tr("Not quite")
     }
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.35f), AppShapes.panel)
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.1f)).border(AppBorders.hairline(tint.copy(alpha = 0.35f)), AppShapes.panel)
             .padding(horizontal = 18.dp, vertical = 14.dp).testTag("practice-feedback"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(14.dp),
@@ -388,12 +385,12 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
     val colors = MaterialTheme.colorScheme
     val total = state.exercises.size
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large).padding(36.dp),
+        Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(36.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
-        Box(Modifier.size(64.dp).clip(CircleShape).background(RIGHT.copy(alpha = 0.14f)), contentAlignment = Alignment.Center) {
-            Icon(Icons.Default.Check, contentDescription = null, tint = RIGHT, modifier = Modifier.size(34.dp))
+        Box(Modifier.size(64.dp).clip(CircleShape).background(AppAccents.green.copy(alpha = 0.14f)), contentAlignment = Alignment.Center) {
+            Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(34.dp))
         }
         Text(tr("{0} of {1} right", state.correct, total), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
         Text(
@@ -415,23 +412,14 @@ private fun backLabel(state: PracticeUiState): String = if (state.fromVocabulary
 
 @Composable
 private fun Empty(state: PracticeUiState, actions: PracticeActions) {
-    val colors = MaterialTheme.colorScheme
-    Column(
-        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large).padding(36.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-    ) {
-        Text(if (state.fromVocabulary || state.wholeBook) tr("Nothing to practise") else tr("Nothing to practise on this page"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
-        Text(
-            when {
-                state.fromVocabulary -> tr("Practice asks about a word in the sentence it was read in: none of the chosen words was saved with one.")
-                state.wholeBook -> tr("Practice uses the words you are learning: give some words in the text a status of 1 to 4 first.")
-                else -> tr("Practice uses the words you are learning: give some words on the page a status of 1 to 4 first.")
-            },
-            style = MaterialTheme.typography.bodyLarge,
-            color = colors.onSurfaceVariant,
-            textAlign = TextAlign.Center,
-        )
-        PrimaryButton(backLabel(state), onClick = actions.onBack)
-    }
+    EmptyState(
+        icon = AppIcons.School,
+        title = if (state.fromVocabulary || state.wholeBook) tr("Nothing to practise") else tr("Nothing to practise on this page"),
+        message = when {
+            state.fromVocabulary -> tr("Practice asks about a word in the sentence it was read in: none of the chosen words was saved with one.")
+            state.wholeBook -> tr("Practice uses the words you are learning: give some words in the text a status of 1 to 4 first.")
+            else -> tr("Practice uses the words you are learning: give some words on the page a status of 1 to 4 first.")
+        },
+        action = { PrimaryButton(backLabel(state), onClick = actions.onBack) },
+    )
 }
