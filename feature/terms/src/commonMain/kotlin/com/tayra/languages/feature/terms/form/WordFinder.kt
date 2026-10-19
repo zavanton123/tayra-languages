@@ -1,6 +1,8 @@
 package com.tayra.languages.feature.terms.form
 
 import androidx.compose.foundation.layout.Arrangement
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -25,7 +27,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.PackState
@@ -92,7 +93,7 @@ internal fun WordFinderDialog(
         onDismissRequest = onDismiss,
         title = { Text(tr("Find a {0} word", tr(learningName))) },
         text = {
-            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 when (val state = finder.state) {
                     is PackState.Installed -> {
                         AppTextField(
@@ -103,20 +104,20 @@ internal fun WordFinderDialog(
                             modifier = Modifier.fillMaxWidth().focusRequester(focus).testTag("word-finder-query"),
                         )
                         val (searched, lookup) = result ?: ("" to DictionaryLookup.EMPTY)
-                        Column(Modifier.heightIn(max = 380.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        Column(Modifier.heightIn(max = RESULTS_MAX_HEIGHT).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                             if (searched.isNotBlank() && lookup.isEmpty) {
                                 Text(tr("The word finder does not know \"{0}\".", searched), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                             }
                             lookup.entries.forEachIndexed { index, entry ->
                                 if (index > 0) AppDivider()
-                                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                                    Text(entry.word, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+                                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                                    Text(entry.word, style = AppText.smallTitle)
                                     Text(entry.pos, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
                                 }
                                 entry.senses.forEach { sense ->
-                                    Column(Modifier.padding(start = 8.dp)) {
+                                    Column(Modifier.padding(start = AppSpacing.s)) {
                                         sense.tags.firstOrNull()?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
-                                        FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                                        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                                             sense.glosses.forEach { word ->
                                                 SelectableChip(word, selected = false, onClick = { onPick(word) }, modifier = Modifier.testTag("found-$word"), size = ChipSize.Small)
                                             }
@@ -152,3 +153,4 @@ internal fun WordFinderDialog(
 }
 
 private const val SEARCH_DELAY_MS = 250L
+private val RESULTS_MAX_HEIGHT = 380.dp

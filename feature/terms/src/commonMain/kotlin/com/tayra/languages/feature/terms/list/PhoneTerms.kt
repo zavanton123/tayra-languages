@@ -40,7 +40,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -73,10 +72,13 @@ import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppText
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.minus
@@ -86,6 +88,8 @@ import kotlin.time.Instant
 
 /** The days-ago choices the phone's Added filter offers; null leaves that end open. */
 private val DAY_CHOICES = listOf(null, 1, 3, 7, 14, 30, 90, 365)
+private val SPEAK_BUTTON = 36.dp
+private val TICK_BOX = 24.dp
 
 /**
  * The vocabulary on a phone: the counts and an add button under the bar, the search, a sort
@@ -121,9 +125,9 @@ internal fun PhoneTermsScreen(
             state.message?.let { AppSnackbar(it, actionLabel = tr("OK"), onAction = viewModel::dismissMessage) }
         },
     ) { padding ->
-        ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = 16.dp, vertical = 12.dp)) {
+        ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)) {
             item {
-                Row(Modifier.fillMaxWidth().padding(bottom = 12.dp), verticalAlignment = Alignment.CenterVertically) {
+                Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                     Text(
                         if (state.selected.isEmpty()) tr("{0} terms · {1} known", formatCount(state.totalTerms), formatCount(state.knownCount))
                         else tr("{0} of {1} selected", state.selected.size, state.totalCount),
@@ -134,9 +138,9 @@ internal fun PhoneTermsScreen(
                     AppIconButton(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term"), size = IconButtonSize.Large, style = IconButtonStyle.Filled)
                 }
             }
-            item { SearchField(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), Modifier.fillMaxWidth().padding(bottom = 10.dp)) }
+            item { SearchField(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), Modifier.fillMaxWidth().padding(bottom = AppSpacing.m)) }
             item {
-                Row(Modifier.fillMaxWidth().padding(bottom = 12.dp), horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
+                Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                     val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: tr("Custom order")
                     SelectButton(sortLabel, onClick = { sorting = true }, modifier = Modifier.testTag("phone-sort"), icon = AppIcons.SwapVert)
                     FiltersButton(open = filtering, count = state.activeFilterCount, onClick = { filtering = true })
@@ -146,7 +150,7 @@ internal fun PhoneTermsScreen(
                 item {
                     Text(
                         trPlural(ids.size, "Showing {0} term from the current page.", "Showing {0} terms from the current page."),
-                        Modifier.padding(bottom = 12.dp),
+                        Modifier.padding(bottom = AppSpacing.m),
                         style = MaterialTheme.typography.bodyMedium,
                         color = colors.onSurfaceVariant,
                     )
@@ -154,13 +158,13 @@ internal fun PhoneTermsScreen(
             }
             // The filters that are on show as the badge on the Filters button; the sheet lists them.
             if (state.loading) {
-                item { Text(tr("Loading..."), Modifier.padding(16.dp), color = colors.onSurfaceVariant) }
+                item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = colors.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
                 item { EmptyState(AppIcons.Book, tr("No terms match the current filters.")) }
             } else {
                 itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term ->
                     PhoneTermRow(term, state.languageName(term.languageId), selected = term.id in state.selected, showCheck = showChecks, rowActions)
-                    Spacer(Modifier.height(8.dp))
+                    Spacer(Modifier.height(AppSpacing.s))
                 }
             }
             item { Pager(state, viewModel, compact = true) }
@@ -203,17 +207,17 @@ private fun PhoneTermRow(term: Term, languageName: String, selected: Boolean, sh
             .background(if (selected) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
             .border(AppBorders.hairline(if (selected) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), AppShapes.panel)
             .combinedClickable(onLongClick = { actions.onToggle(term) }) { if (showCheck) actions.onToggle(term) else actions.onOpen(term) }
-            .padding(start = if (showCheck) 0.dp else 4.dp, end = 0.dp, top = 6.dp, bottom = 6.dp),
+            .padding(start = if (showCheck) 0.dp else AppSpacing.xs, end = 0.dp, top = AppSpacing.s, bottom = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         if (showCheck) AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
         val code = LanguageCodes.codeFor(languageName)
-        SpeakButton(term.displayText, code, actions.speaker, Modifier.size(36.dp))
-        Column(Modifier.weight(1f).padding(start = 4.dp, end = 8.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-            Text(term.displayText, style = MaterialTheme.typography.titleMedium, color = colors.primary, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        SpeakButton(term.displayText, code, actions.speaker, Modifier.size(SPEAK_BUTTON))
+        Column(Modifier.weight(1f).padding(start = AppSpacing.xs, end = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+            Text(term.displayText, style = AppText.itemTitle, color = colors.primary, maxLines = 1, overflow = TextOverflow.Ellipsis)
             term.translation?.takeIf { it.isNotBlank() }?.let { Text(it, style = MaterialTheme.typography.bodySmall, maxLines = 1, overflow = TextOverflow.Ellipsis) }
         }
-        Column(horizontalAlignment = Alignment.Start, verticalArrangement = Arrangement.spacedBy(2.dp)) {
+        Column(horizontalAlignment = Alignment.Start, verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
             PhoneStatusTag(term.status) { actions.onStatus(term, it) }
             term.createdAt?.let { Text(addedPhrase(it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
         }
@@ -228,12 +232,12 @@ private fun PhoneStatusTag(status: TermStatus, onSelect: (TermStatus) -> Unit) {
     val tint = statusTint(status)
     Box {
         Row(
-            Modifier.clip(AppShapes.compact).background(tint.copy(alpha = AppAlpha.disabled)).clickable(onClickLabel = tr("Status")) { open = true }.padding(start = 4.dp, end = 10.dp, top = 4.dp, bottom = 4.dp),
+            Modifier.clip(AppShapes.compact).background(tint.copy(alpha = AppAlpha.disabled)).clickable(onClickLabel = tr("Status")) { open = true }.padding(start = AppSpacing.xs, end = AppSpacing.s, top = AppSpacing.xs, bottom = AppSpacing.xs),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
         ) {
             StatusBadge(status)
-            Text(status.chipName, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium, color = MaterialTheme.colorScheme.onSurface)
+            Text(status.chipName, style = AppText.label, color = MaterialTheme.colorScheme.onSurface)
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             TermStatus.selectable.forEach { option ->
@@ -264,25 +268,25 @@ private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewM
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
     AppBottomSheet(onDismissRequest = onDismiss) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp).padding(bottom = 20.dp)) {
+        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl).padding(bottom = AppSpacing.xl)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(tr("Filters"), Modifier.weight(1f), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                Text(tr("Filters"), Modifier.weight(1f), style = AppText.headline)
                 QuietButton(tr("Reset"), onClick = viewModel::resetFilters)
                 AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
             }
-            Text(tr("Learning status"), Modifier.padding(top = 4.dp, bottom = 10.dp), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            Text(tr("Learning status"), Modifier.padding(top = AppSpacing.xs, bottom = AppSpacing.m), style = AppText.itemTitle)
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 TermStatus.selectable.chunked(2).forEach { pair ->
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                         pair.forEach { status ->
                             StatusOption(status, selected = status in state.chosenStatuses, Modifier.weight(1f)) { viewModel.toggleStatus(status) }
                         }
                     }
                 }
             }
-            AppDivider(Modifier.padding(vertical = 18.dp))
-            Text(tr("Added"), Modifier.padding(bottom = 10.dp), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
+            AppDivider(Modifier.padding(vertical = AppSpacing.xl))
+            Text(tr("Added"), Modifier.padding(bottom = AppSpacing.m), style = AppText.itemTitle)
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                 DaysPicker(tr("From"), filter.minAgeDays, tr("Added from, days ago"), Modifier.weight(1f)) { viewModel.setAddedRange(it, filter.maxAgeDays) }
                 DaysPicker(tr("To"), filter.maxAgeDays, tr("Added to, days ago"), Modifier.weight(1f)) { viewModel.setAddedRange(filter.minAgeDays, it) }
                 Text(tr("days ago"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -290,12 +294,12 @@ private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewM
             filter.termIds?.let { ids ->
                 Text(
                     trPlural(ids.size, "Showing {0} term from the current page.", "Showing {0} terms from the current page."),
-                    Modifier.padding(top = 12.dp),
+                    Modifier.padding(top = AppSpacing.m),
                     style = MaterialTheme.typography.bodyMedium,
                     color = colors.onSurfaceVariant,
                 )
             }
-            Spacer(Modifier.height(20.dp))
+            Spacer(Modifier.height(AppSpacing.xl))
             PrimaryButton(trPlural(state.totalCount, "Show {0} term", "Show {0} terms"), onClick = onDismiss, modifier = Modifier.fillMaxWidth().testTag("phone-show-terms"), size = ButtonSize.Large)
         }
     }
@@ -307,21 +311,21 @@ private fun StatusOption(status: TermStatus, selected: Boolean, modifier: Modifi
     val tint = statusTint(status)
     val strong = tint.darken(0.7f)
     Row(
-        modifier.testTag("status-filter-${status.abbreviation}").height(56.dp).clip(AppShapes.panel)
+        modifier.testTag("status-filter-${status.abbreviation}").height(AppSizes.row).clip(AppShapes.panel)
             .background(tint.copy(alpha = if (selected) AppAlpha.disabled else AppAlpha.line))
             .border(if (selected) AppBorders.selected(strong) else AppBorders.hairline(tint), AppShapes.panel)
             .clickable(onClickLabel = if (selected) tr("Stop showing {0}", tr(status.label)) else tr("Show {0}", tr(status.label)), onClick = onClick)
-            .padding(horizontal = 12.dp),
+            .padding(horizontal = AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
         StatusBadge(status)
-        Text(status.chipName, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, color = MaterialTheme.colorScheme.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(status.chipName, Modifier.weight(1f), style = AppText.emphasis, color = MaterialTheme.colorScheme.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Box(
-            Modifier.size(24.dp).clip(AppShapes.small).background(if (selected) strong else Color.Transparent).border(AppBorders.selected(strong), AppShapes.small),
+            Modifier.size(TICK_BOX).clip(AppShapes.small).background(if (selected) strong else Color.Transparent).border(AppBorders.selected(strong), AppShapes.small),
             contentAlignment = Alignment.Center,
         ) {
-            if (selected) Icon(Icons.Default.Check, contentDescription = null, tint = Color.White, modifier = Modifier.size(AppSizes.iconSmall))
+            if (selected) Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.onAccent, modifier = Modifier.size(AppSizes.iconSmall))
         }
     }
 }

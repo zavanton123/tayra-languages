@@ -70,7 +70,6 @@ import androidx.compose.ui.input.key.type
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
@@ -136,10 +135,13 @@ import com.tayra.languages.core.ui.audio.AudioPlayback
 import com.tayra.languages.core.ui.audio.RecordingButton
 import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.domain.service.WordRecording
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.TayraTheme
 import io.ktor.http.encodeURLParameter
 import com.tayra.languages.core.ui.components.ScrollColumn
@@ -181,7 +183,7 @@ private fun TermFormContent(
     var confirmDelete by remember { mutableStateOf(false) }
 
     if (state.loading) {
-        LoadingIndicator(modifier.heightIn(min = 200.dp))
+        LoadingIndicator(modifier.heightIn(min = LOADING_MIN_HEIGHT))
         return
     }
     val draft = state.draft
@@ -195,9 +197,9 @@ private fun TermFormContent(
     ScrollColumn(
         modifier,
         // Inside the reader's rounded panel the bar runs in a gutter of its own, clear of the border, its corners and the cards.
-        scrollbarModifier = if (embedded) Modifier.padding(top = 14.dp, bottom = 14.dp, end = 7.dp) else Modifier,
+        scrollbarModifier = if (embedded) Modifier.padding(top = AppSpacing.l, bottom = AppSpacing.l, end = AppSpacing.s) else Modifier,
         contentModifier = Modifier
-            .padding(start = 16.dp, top = if (sheet) 4.dp else 16.dp, bottom = 16.dp, end = if (embedded && !sheet) 30.dp else 16.dp)
+            .padding(start = AppSpacing.l, top = if (sheet) AppSpacing.xs else AppSpacing.l, bottom = AppSpacing.l, end = if (embedded && !sheet) AppSpacing.xxxl else AppSpacing.l)
             .onPreviewKeyEvent { event ->
                 if (event.type == KeyEventType.KeyDown && (event.isCtrlPressed || event.isMetaPressed) && event.key == Key.Enter) {
                     viewModel.save()
@@ -206,7 +208,7 @@ private fun TermFormContent(
                     false
                 }
             },
-        verticalArrangement = Arrangement.spacedBy(12.dp),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
         if (embedded) PanelHeader(language, state.nativeLanguage, onClose)
         state.duplicateOf?.let { duplicate ->
@@ -235,7 +237,7 @@ private fun TermFormContent(
                 val source = LanguageOption(LanguageCodes.codeFor(language.name) ?: "en", language.name)
                 val target = LanguageCatalog.nativeOption(state.nativeLanguage)
                 val labels = OnlineDictionaries.labels(language.termDictionaries, source, target)
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     language.termDictionaries.forEach { dictionary ->
                         LinkChip(labels[dictionary] ?: OnlineDictionaries.host(dictionary.url)) {
                             uriHandler.openUri(dictionary.lookupUrl(draft.text.replace("​", "").encodeURLParameter()))
@@ -288,13 +290,13 @@ private fun TermFormContent(
                 links(Modifier.fillMaxWidth())
                 delete(Modifier.fillMaxWidth())
             } else {
-                Row(horizontalArrangement = Arrangement.spacedBy(20.dp), verticalAlignment = Alignment.Top) {
-                    Column(Modifier.weight(2f), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Top) {
+                    Column(Modifier.weight(2f), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                         InformationCard(Modifier.fillMaxWidth(), state, viewModel, direction, focusRequester)
                         dictionaryBlock()
                         examplesBlock()
                     }
-                    Column(Modifier.weight(1.1f), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                    Column(Modifier.weight(1.1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                         StatusCard(Modifier.fillMaxWidth(), state, viewModel)
                         FlashcardCard(Modifier.fillMaxWidth(), state, viewModel)
                         links(Modifier.fillMaxWidth())
@@ -304,7 +306,7 @@ private fun TermFormContent(
             }
             }
         }
-        if (embedded) Spacer(Modifier.height(24.dp))
+        if (embedded) Spacer(Modifier.height(AppSpacing.xxl))
     }
     if (confirmDelete) {
         ConfirmDialog(
@@ -366,14 +368,14 @@ internal fun RecordingsSection(recordings: List<WordRecording>, term: String) {
     val playback = LocalRecordingPlayback.current
     SectionCard({ BadgeIcon(AppIcons.VolumeUp) }, tr("Recordings"), count = recordings.size, tint = null, filled = false) {
         recordings.forEach { recording ->
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.testTag("recording-${recording.speaker}")) {
-                RecordingButton(recording.url, playback, Modifier.size(32.dp))
-                if (recording.word != term) Text(recording.word, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), modifier = Modifier.testTag("recording-${recording.speaker}")) {
+                RecordingButton(recording.url, playback, Modifier.size(AUDIO_BUTTON))
+                if (recording.word != term) Text(recording.word, style = AppText.labelStrong)
                 Text(
                     "${recording.speaker} \u00b7 ${recording.source}",
                     style = MaterialTheme.typography.bodyMedium,
                     color = colors.onSurfaceVariant,
-                    modifier = Modifier.clip(AppShapes.small).clickable(enabled = recording.pageUrl.isNotEmpty()) { uriHandler.openUri(recording.pageUrl) }.padding(horizontal = 4.dp, vertical = 2.dp),
+                    modifier = Modifier.clip(AppShapes.small).clickable(enabled = recording.pageUrl.isNotEmpty()) { uriHandler.openUri(recording.pageUrl) }.padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xxs),
                 )
             }
         }
@@ -466,7 +468,7 @@ private fun InformationCard(modifier: Modifier, state: TermFormUiState, viewMode
             TermField(state, viewModel, direction, focusRequester)
             if (state.language != null) ParentField(state, viewModel)
         } else {
-            Row(horizontalArrangement = Arrangement.spacedBy(20.dp), verticalAlignment = Alignment.Bottom) {
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Bottom) {
                 Box(Modifier.weight(1f)) { TermField(state, viewModel, direction, focusRequester) }
                 Box(Modifier.weight(1f)) { ParentField(state, viewModel) }
             }
@@ -547,12 +549,12 @@ private fun FlashcardCard(modifier: Modifier, state: TermFormUiState, viewModel:
 private fun DeleteCard(modifier: Modifier, onClick: () -> Unit) {
     Row(
         modifier.cardSurface(AppShapes.card)
-            .clickable(onClick = onClick).padding(horizontal = 24.dp, vertical = 20.dp),
+            .clickable(onClick = onClick).padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(14.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         Icon(Icons.Default.Delete, contentDescription = null, tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(AppSizes.iconLarge))
-        Text(tr("Delete term"), style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.error, fontWeight = FontWeight.SemiBold)
+        Text(tr("Delete term"), style = AppText.itemTitle, color = MaterialTheme.colorScheme.error)
     }
 }
 
@@ -565,7 +567,7 @@ private fun FormCard(
     content: @Composable () -> Unit,
 ) {
     ContentCard(title, subtitle = null, icon = icon, iconText = iconText, modifier = modifier) {
-        Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(14.dp)) { content() }
+        Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) { content() }
     }
 }
 
@@ -580,26 +582,25 @@ val LanguageDictionary.displayName: String
 @Composable
 fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false, large: Boolean = false) {
     val colors = TayraTheme.current.statusColors
-    Row(if (expanded || large) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (expanded || large) 8.dp else 4.dp)) {
+    Row(if (expanded || large) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (expanded || large) AppSpacing.s else AppSpacing.xs)) {
         TermStatus.paneButtons.forEach { status ->
             val isSelected = status == selected
             val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
             Box(
                 Modifier
-                    .then(if (expanded) Modifier.weight(1f).height(48.dp) else if (large) Modifier.weight(1f).height(52.dp) else Modifier)
+                    .then(if (expanded) Modifier.weight(1f).height(AppSizes.touch) else if (large) Modifier.weight(1f).height(LARGE_STATUS_BUTTON_HEIGHT) else Modifier)
                     .clip(if (expanded || large) AppShapes.compact else AppShapes.tiny)
                     .background(background)
                     .border(if (isSelected) 2.dp else 0.dp, if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, if (expanded || large) AppShapes.compact else AppShapes.tiny)
                     .clickable { onSelect(status) }
                     .semantics { this.selected = isSelected }
-                    .then(if (expanded || large) Modifier else Modifier.padding(horizontal = 12.dp, vertical = 8.dp)),
+                    .then(if (expanded || large) Modifier else Modifier.padding(horizontal = AppSpacing.m, vertical = AppSpacing.s)),
                 contentAlignment = Alignment.Center,
             ) {
                 Text(
                     text = status.abbreviation,
-                    color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color.Black,
-                    style = if (expanded || large) MaterialTheme.typography.titleMedium else MaterialTheme.typography.labelLarge,
-                    fontWeight = FontWeight.SemiBold,
+                    color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink,
+                    style = if (expanded || large) AppText.itemTitle else AppText.badge,
                 )
             }
         }
@@ -634,15 +635,15 @@ private fun SectionCard(
     val border = if (tint != null) tint.copy(alpha = AppAlpha.soft) else colors.outlineVariant
     Column(
         Modifier.fillMaxWidth().clip(AppShapes.card).background(background).border(AppBorders.hairline(border), AppShapes.card).padding(sectionPadding()),
-        verticalArrangement = Arrangement.spacedBy(10.dp),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (LocalPageSections.current) 14.dp else 10.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (LocalPageSections.current) AppSpacing.l else AppSpacing.m)) {
             if (LocalPageSections.current) {
-                Box(Modifier.size(44.dp).clip(AppShapes.panel).background(colors.primary.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) { icon() }
+                Box(Modifier.size(AppSizes.tileMedium).clip(AppShapes.panel).background(colors.primary.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) { icon() }
             } else {
                 icon()
             }
-            Text(title, style = sectionTitleStyle(), fontWeight = FontWeight.SemiBold)
+            Text(title, style = sectionTitleStyle())
             if (count != null) Tag(count.toString(), size = TagSize.Small, shape = AppShapes.compact)
         }
         content()
@@ -653,10 +654,10 @@ private fun SectionCard(
 @Composable
 private fun TermBadge() {
     Box(
-        Modifier.size(width = 28.dp, height = 22.dp).clip(RoundedCornerShape(topStart = 5.dp, bottomStart = 5.dp, topEnd = 9.dp, bottomEnd = 9.dp))
+        Modifier.size(width = TERM_BADGE_WIDTH, height = AppSizes.iconMedium).clip(RoundedCornerShape(topStart = 5.dp, bottomStart = 5.dp, topEnd = 9.dp, bottomEnd = 9.dp))
             .background(MaterialTheme.colorScheme.primary),
         contentAlignment = Alignment.Center,
-    ) { Text("Aa", color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.Bold) }
+    ) { Text("Aa", color = MaterialTheme.colorScheme.onPrimary, style = AppText.badge) }
 }
 
 /** A closed book, the mark of the offline dictionary section. */
@@ -672,9 +673,9 @@ private fun BadgeIcon(icon: androidx.compose.ui.graphics.vector.ImageVector) {
 private fun SectionTitle(icon: androidx.compose.ui.graphics.vector.ImageVector, title: String, count: Int? = null) {
     val colors = MaterialTheme.colorScheme
     val page = LocalPageSections.current
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (page) 14.dp else 10.dp)) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (page) AppSpacing.l else AppSpacing.m)) {
         if (page) IconTile(icon, size = 44) else Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
-        Text(title, style = sectionTitleStyle(), fontWeight = FontWeight.SemiBold)
+        Text(title, style = sectionTitleStyle())
         if (count != null) Tag(count.toString(), size = TagSize.Small, shape = AppShapes.compact)
     }
 }
@@ -683,21 +684,21 @@ private fun SectionTitle(icon: androidx.compose.ui.graphics.vector.ImageVector, 
 private val LocalPageSections = staticCompositionLocalOf { false }
 
 @Composable
-private fun sectionPadding() = if (LocalPageSections.current) 20.dp else 14.dp
+private fun sectionPadding() = if (LocalPageSections.current) AppSpacing.xl else AppSpacing.l
 
 @Composable
-private fun sectionTitleStyle() = if (LocalPageSections.current) MaterialTheme.typography.titleLarge else MaterialTheme.typography.titleMedium
+private fun sectionTitleStyle() = if (LocalPageSections.current) AppText.sectionTitle else AppText.itemTitle
 
 @Composable
 private fun LinkChip(label: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
         Modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).clickable(onClick = onClick)
-            .padding(horizontal = 12.dp, vertical = 10.dp),
+            .padding(horizontal = AppSpacing.m, vertical = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
-        Text(label, style = MaterialTheme.typography.bodyMedium, color = colors.primary, fontWeight = FontWeight.Medium)
+        Text(label, style = AppText.label, color = colors.primary)
         Icon(AppIcons.OpenInNew, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconSmall))
     }
 }
@@ -705,7 +706,7 @@ private fun LinkChip(label: String, onClick: () -> Unit) {
 /** A full-width outlined button with a trailing arrow, used for links to other screens. */
 @Composable
 private fun OutlineActionButton(label: String, onClick: () -> Unit) {
-    SecondaryButton(label, onClick = onClick, modifier = Modifier.fillMaxWidth().padding(top = 4.dp), trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
+    SecondaryButton(label, onClick = onClick, modifier = Modifier.fillMaxWidth().padding(top = AppSpacing.xs), trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
 }
 
 /** Offers to download the offline dictionary for the language pair when it is not on the device. */
@@ -713,7 +714,7 @@ private fun OutlineActionButton(label: String, onClick: () -> Unit) {
 private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val state = status.state
-    TintedSurface(colors.primary, shape = AppShapes.card, padding = PaddingValues(sectionPadding()), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+    TintedSurface(colors.primary, shape = AppShapes.card, padding = PaddingValues(sectionPadding()), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         SectionTitle(AppIcons.Book, tr("Dictionary"))
         Text(
             when (state) {
@@ -741,10 +742,10 @@ internal fun KanjiSection(kanji: List<KanjiInfo>) {
     val colors = MaterialTheme.colorScheme
     SectionCard({ KanjiBadge() }, tr("Kanji"), count = kanji.size, tint = null, filled = false) {
         kanji.forEachIndexed { index, info ->
-            if (index > 0) AppDivider(Modifier.padding(vertical = 4.dp))
-            Row(horizontalArrangement = Arrangement.spacedBy(14.dp), modifier = Modifier.testTag("kanji-${info.character}")) {
+            if (index > 0) AppDivider(Modifier.padding(vertical = AppSpacing.xs))
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.l), modifier = Modifier.testTag("kanji-${info.character}")) {
                 Text(info.character, style = MaterialTheme.typography.displaySmall)
-                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                     if (info.meanings.isNotEmpty()) Text(info.meanings.joinToString(", "), style = MaterialTheme.typography.bodyLarge)
                     if (info.onyomi.isNotEmpty()) KanjiReadings(tr("On"), info.onyomi)
                     if (info.kunyomi.isNotEmpty()) KanjiReadings(tr("Kun"), info.kunyomi)
@@ -770,8 +771,8 @@ private fun schoolGrade(grade: Int): String = when {
 
 @Composable
 private fun KanjiReadings(label: String, readings: List<String>) {
-    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
-        Text(label, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.width(32.dp))
+    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
+        Text(label, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.width(KANJI_READING_LABEL))
         Text(readings.joinToString("\u3001"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.primary)
     }
 }
@@ -779,8 +780,8 @@ private fun KanjiReadings(label: String, readings: List<String>) {
 /** A filled square with 字 ("character"), the mark of the kanji section. */
 @Composable
 private fun KanjiBadge() {
-    Box(Modifier.size(22.dp).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.primary), contentAlignment = Alignment.Center) {
-        Text("\u5b57", color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.Bold)
+    Box(Modifier.size(AppSizes.iconMedium).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.primary), contentAlignment = Alignment.Center) {
+        Text("\u5b57", color = MaterialTheme.colorScheme.onPrimary, style = AppText.badge)
     }
 }
 
@@ -789,14 +790,14 @@ private fun KanjiBadge() {
 @Composable
 internal fun FrequencyLabels(frequencies: List<WordFrequency>) {
     val colors = MaterialTheme.colorScheme
-    FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(4.dp), modifier = Modifier.padding(start = 2.dp, top = 2.dp)) {
+    FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs), modifier = Modifier.padding(start = AppSpacing.xxs, top = AppSpacing.xxs)) {
         frequencies.forEach { frequency ->
             Row(
                 Modifier.clip(AppShapes.small).border(AppBorders.hairline(), AppShapes.small).testTag("frequency-${frequency.dictionary}"),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                Text(frequency.dictionary, style = MaterialTheme.typography.labelSmall, color = colors.onSecondaryContainer, modifier = Modifier.background(colors.secondaryContainer).padding(horizontal = 6.dp, vertical = 2.dp))
-                Text(frequency.label, style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp))
+                Text(frequency.dictionary, style = MaterialTheme.typography.labelSmall, color = colors.onSecondaryContainer, modifier = Modifier.background(colors.secondaryContainer).padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xxs))
+                Text(frequency.label, style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xxs))
             }
         }
     }
@@ -812,9 +813,9 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, t
     val speaker = rememberSpeaker(koinInject(), koinInject())
     SectionCard({ DictionaryBadge() }, tr("Dictionary"), count = lookup.entries.size, tint = null, filled = false) {
         lookup.entries.forEachIndexed { index, entry ->
-            if (index > 0) AppDivider(Modifier.padding(vertical = 6.dp))
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.padding(top = 4.dp)) {
-                Text(entry.word, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            if (index > 0) AppDivider(Modifier.padding(vertical = AppSpacing.s))
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), modifier = Modifier.padding(top = AppSpacing.xs)) {
+                Text(entry.word, style = AppText.itemTitle)
                 entry.reading?.let { written ->
                     val chinese = languageCode in setOf("zh", "yue")
                     val reading = if (chinese && zhuyin) Chinese.zhuyin(written) else written
@@ -825,14 +826,14 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, t
                 // JMdict's mark of a common word, as 10ten Japanese Reader shows it.
                 if (entry.common) Tag(tr("common"), color = colors.tertiary, modifier = Modifier.testTag("common-word"), size = TagSize.Small, shape = AppShapes.small)
                 if (entry.ipa != null) Text(entry.ipa!!, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                SpeakButton(entry.word, languageCode, speaker, Modifier.size(32.dp))
+                SpeakButton(entry.word, languageCode, speaker, Modifier.size(AUDIO_BUTTON))
             }
             entry.dictionary?.let {
-                Text(it, style = MaterialTheme.typography.labelMedium, color = colors.tertiary, modifier = Modifier.padding(start = 2.dp).testTag("entry-dictionary"))
+                Text(it, style = MaterialTheme.typography.labelMedium, color = colors.tertiary, modifier = Modifier.padding(start = AppSpacing.xxs).testTag("entry-dictionary"))
             }
             if (entry.frequencies.isNotEmpty()) FrequencyLabels(entry.frequencies)
             if (entry.pitch.isNotEmpty()) {
-                PitchAccents(entry.pitch, isVerbOrAdjective = entry.pos in VERB_OR_ADJECTIVE, modifier = Modifier.padding(start = 2.dp, top = 2.dp, bottom = 2.dp))
+                PitchAccents(entry.pitch, isVerbOrAdjective = entry.pos in VERB_OR_ADJECTIVE, modifier = Modifier.padding(start = AppSpacing.xxs, top = AppSpacing.xxs, bottom = AppSpacing.xxs))
             }
             if (entry.inflection.isNotEmpty()) {
                 // The inflections the language's rules undid to reach this word, as Yomitan lists them.
@@ -840,13 +841,13 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, t
                     entry.inflection.joinToString(" \u00b7 "),
                     style = MaterialTheme.typography.labelLarge,
                     color = colors.primary,
-                    modifier = Modifier.padding(start = 2.dp, top = 2.dp).testTag("inflection-${entry.word}"),
+                    modifier = Modifier.padding(start = AppSpacing.xxs, top = AppSpacing.xxs).testTag("inflection-${entry.word}"),
                 )
             }
             entry.senses.forEachIndexed { senseIndex, sense ->
                 val gloss = sense.glosses.joinToString("; ")
-                if (senseIndex > 0) AppDivider(Modifier.padding(start = 12.dp), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
-                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(start = 12.dp, top = 6.dp, bottom = 6.dp)) {
+                if (senseIndex > 0) AppDivider(Modifier.padding(start = AppSpacing.m), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
+                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(start = AppSpacing.m, top = AppSpacing.s, bottom = AppSpacing.s)) {
                     Column(Modifier.weight(1f)) {
                         Text(gloss, style = MaterialTheme.typography.bodyLarge)
                         if (sense.tags.isNotEmpty()) {
@@ -854,16 +855,16 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, t
                         }
                         // The dictionary's own examples of this sense, each with its translation below it.
                         sense.examples.forEach { example ->
-                            Row(Modifier.padding(top = 6.dp).height(IntrinsicSize.Min)) {
-                                Box(Modifier.width(2.dp).fillMaxHeight().background(colors.primary.copy(alpha = AppAlpha.disabled)))
-                                Column(Modifier.padding(start = 8.dp)) {
+                            Row(Modifier.padding(top = AppSpacing.s).height(IntrinsicSize.Min)) {
+                                Box(Modifier.width(QUOTE_RULE_WIDTH).fillMaxHeight().background(colors.primary.copy(alpha = AppAlpha.disabled)))
+                                Column(Modifier.padding(start = AppSpacing.s)) {
                                     Text(example.text, style = MaterialTheme.typography.bodyMedium, fontStyle = FontStyle.Italic)
                                     example.translation?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
                                 }
                             }
                         }
                     }
-                    Spacer(Modifier.size(8.dp))
+                    Spacer(Modifier.size(AppSpacing.s))
                     AppIconButton(Icons.Default.Add, tr("Add to translation"), onClick = { onAdd(gloss) }, style = IconButtonStyle.Tonal)
                 }
             }
@@ -900,7 +901,7 @@ private fun ExamplesSection(
     val total = state.examplesTotal ?: state.examples.size
     val canOpen = onOpenExamples != null && languageId != null && term.isNotBlank()
 
-    TintedSurface(colors.primary, shape = AppShapes.card, padding = PaddingValues(sectionPadding()), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+    TintedSurface(colors.primary, shape = AppShapes.card, padding = PaddingValues(sectionPadding()), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Box(Modifier.weight(1f)) { SectionTitle(AppIcons.Page, tr("Examples"), if (state.loadingExamples) null else total) }
             if (canExpand) {
@@ -922,14 +923,14 @@ private fun ExamplesSection(
                 visible.forEachIndexed { index, example ->
                     if (index > 0) AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
                     val sentence = @Composable {
-                        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
+                        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(vertical = AppSpacing.xs)) {
                             HoverTranslatedText(
-                                emphasize(example.text, term)
+                                emphasize(example.text, term, SpanStyle(fontWeight = AppText.labelStrong.fontWeight))
                                     .withStatuses(state.exampleWords[example.text].orEmpty(), TayraTheme.current.statusColors, showHighlights)
                                     .withSelected(term, TayraTheme.current.selectedText),
                                 translate = translateWord,
                                 style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
-                                modifier = Modifier.weight(1f).padding(end = 10.dp),
+                                modifier = Modifier.weight(1f).padding(end = AppSpacing.m),
                                 onWordClick = { word -> onOpenWord(word, example.text) },
                                 onWordSecondaryClick = { word -> onMarkWord(word, example.text) },
                                 onPhraseSelect = { phrase -> onOpenWord(phrase, example.text) },
@@ -963,6 +964,12 @@ private fun ExamplesSection(
 }
 
 private const val VISIBLE_EXAMPLES = 3
+private val LOADING_MIN_HEIGHT = 200.dp
+private val AUDIO_BUTTON = 32.dp
+private val LARGE_STATUS_BUTTON_HEIGHT = 52.dp
+private val TERM_BADGE_WIDTH = 28.dp
+private val KANJI_READING_LABEL = 32.dp
+private val QUOTE_RULE_WIDTH = 2.dp
 
 /**
  * Places a tooltip to the left of its anchor, vertically centred, so the translation sits
@@ -971,7 +978,7 @@ private const val VISIBLE_EXAMPLES = 3
  */
 @Composable
 private fun rememberLeftTooltipPositionProvider(): PopupPositionProvider {
-    val gap = with(LocalDensity.current) { 8.dp.roundToPx() }
+    val gap = with(LocalDensity.current) { AppSpacing.s.roundToPx() }
     return remember(gap) {
         object : PopupPositionProvider {
             override fun calculatePosition(
@@ -997,9 +1004,7 @@ private fun rememberLeftTooltipPositionProvider(): PopupPositionProvider {
  * when it starts with the term, or with the term minus its last letter for terms of five
  * letters or more (extranjero → extranjeras).
  */
-private val TERM_HIGHLIGHT = SpanStyle(fontWeight = FontWeight.SemiBold)
-
-private fun emphasize(sentence: String, term: String) = buildAnnotatedString {
+private fun emphasize(sentence: String, term: String, highlight: SpanStyle) = buildAnnotatedString {
     val needle = term.trim().lowercase()
     if (needle.isEmpty()) {
         append(sentence)
@@ -1013,7 +1018,7 @@ private fun emphasize(sentence: String, term: String) = buildAnnotatedString {
         val word = match.value
         val lower = word.lowercase()
         val matches = lower == needle || lower.startsWith(needle) || (needle != stem && lower.startsWith(stem))
-        if (matches) withStyle(TERM_HIGHLIGHT) { append(word) } else append(word)
+        if (matches) withStyle(highlight) { append(word) } else append(word)
         index = match.range.last + 1
     }
     append(sentence.substring(index))

@@ -1,6 +1,7 @@
 package com.tayra.languages.feature.terms.form
 
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppSpacing
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -9,7 +10,6 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.Crumb
@@ -44,7 +44,7 @@ fun TermEditScreen(
     }
     val isNew = key is TermFormKey.New
     val compact = LocalWindowWidth.current.isCompact
-    val gutter = if (compact) 16.dp else 32.dp
+    val gutter = if (compact) AppSpacing.l else AppSpacing.xxxl
     Scaffold(topBar = { AppTopBar(title = if (isNew) tr("New term") else tr("Edit term"), onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
             PageHeader(
@@ -59,7 +59,7 @@ fun TermEditScreen(
             )
             TermFormPanel(
                 viewModel = viewModel,
-                modifier = Modifier.weight(1f).padding(horizontal = gutter - 16.dp),
+                modifier = Modifier.weight(1f).padding(horizontal = gutter - AppSpacing.l),
                 onDuplicateClick = { onNavigate(Route.EditTerm(it)) },
                 onOpenExamples = { languageId, text -> onNavigate(Route.Examples(languageId, text)) },
                 onManageDictionaries = { languageId -> onNavigate(Route.ManageDictionaries(languageId)) },
@@ -81,7 +81,7 @@ private fun PageHeader(
 ) {
     // On a phone the bar has the way back and the title; the buttons stay.
     val crumbs = if (compact) emptyList() else listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(title))
-    Column(Modifier.fillMaxWidth().padding(horizontal = gutter, vertical = 16.dp)) {
+    Column(Modifier.fillMaxWidth().padding(horizontal = gutter, vertical = AppSpacing.l)) {
         ScreenHeader(title, subtitle = null, crumbs = crumbs, onBack = onBack) {
             SecondaryButton(tr("Cancel"), onClick = onBack)
             PrimaryButton(if (saving) tr("Saving...") else tr("Save changes"), onClick = onSave, enabled = canSave && !saving)

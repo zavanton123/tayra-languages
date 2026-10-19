@@ -34,8 +34,11 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.sp
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
 import kotlin.math.roundToInt
@@ -77,7 +80,6 @@ import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.theme.TayraTheme
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
@@ -208,7 +210,7 @@ fun ExamplesSearchScreen(
             return@Scaffold
         }
         val direction = if (query.language.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
-        val gutter = if (compact) 16.dp else 32.dp
+        val gutter = if (compact) AppSpacing.l else AppSpacing.xxxl
         Row(
             Modifier.padding(padding).fillMaxSize()
                 .focusRequester(focus)
@@ -260,14 +262,14 @@ fun ExamplesSearchScreen(
                         }
                     },
                 state = listState,
-                contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp),
+                contentPadding = PaddingValues(horizontal = gutter, vertical = AppSpacing.l),
             ) {
                 item { PageHeader(query, compact, onBack, onTerms = { onNavigate(Route.Terms()) }) }
                 item { ErrorMessage(state.error) }
                 item { SearchBar(query, viewModel, onSearch = { viewModel.search(); focusList() }) }
                 item { FilterRow(query, viewModel) }
                 item {
-                    Row(Modifier.fillMaxWidth().padding(top = 14.dp)) {
+                    Row(Modifier.fillMaxWidth().padding(top = AppSpacing.l)) {
                         AppIconButton(AppIcons.FormatSize, tr("Text settings"), onClick = { textSettingsOpen = !textSettingsOpen }, style = IconButtonStyle.Outlined, tint = MaterialTheme.colorScheme.primary, selected = textSettingsOpen)
                     }
                 }
@@ -279,13 +281,13 @@ fun ExamplesSearchScreen(
                             state.total != null -> trPlural(state.total!!, "{0} sentence", "{0} sentences")
                             else -> ""
                         },
-                        Modifier.padding(top = 16.dp, bottom = 12.dp),
+                        Modifier.padding(top = AppSpacing.l, bottom = AppSpacing.m),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
                 when {
-                    state.searching -> item { LoadingIndicator(Modifier.fillMaxWidth().padding(32.dp)) }
+                    state.searching -> item { LoadingIndicator(Modifier.fillMaxWidth().padding(AppSpacing.xxxl)) }
                     state.results.isEmpty() -> item { EmptyMessage(tr("No examples match these filters."), Modifier.fillMaxWidth()) }
                     else -> {
                         itemsIndexed(state.results) { index, example ->
@@ -310,11 +312,11 @@ fun ExamplesSearchScreen(
                                     else if (hovered?.second == example.text) hovered = null
                                 },
                             )
-                            Spacer(Modifier.height(10.dp))
+                            Spacer(Modifier.height(AppSpacing.m))
                         }
                         if (state.hasMore) {
                             item {
-                                Row(Modifier.fillMaxWidth().padding(16.dp), horizontalArrangement = Arrangement.Center) {
+                                Row(Modifier.fillMaxWidth().padding(AppSpacing.l), horizontalArrangement = Arrangement.Center) {
                                     SecondaryButton(if (state.loadingMore) tr("Loading...") else tr("Load more"), onClick = viewModel::loadMore, enabled = !state.loadingMore)
                                 }
                             }
@@ -324,7 +326,7 @@ fun ExamplesSearchScreen(
             }
             val term = state.paneTerm
             if (wide && term != null) {
-                SidePanel(420.dp, Modifier.fillMaxHeight().padding(top = 16.dp, end = 16.dp, bottom = 16.dp)) {
+                SidePanel(AppSizes.sidePanel, Modifier.fillMaxHeight().padding(top = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l)) {
                     TermPane(query.language.id, term, state.paneSentence, onClose = viewModel::closePane, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onNavigate = onNavigate)
                 }
             }
@@ -390,7 +392,7 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
     val uriHandler = LocalUriHandler.current
     // On a phone the bar has the way back and the screen's name.
     val crumbs = if (compact) emptyList() else listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(tr("Examples")))
-    Column(Modifier.fillMaxWidth().padding(bottom = 20.dp)) {
+    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
         ScreenHeader(tr("Examples for ‘{0}’", query.text), subtitle = null, crumbs = crumbs, titleOnCompact = true, onBack = onBack) {
             if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             LinkText(
@@ -409,7 +411,7 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
 
 @Composable
 private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewModel, onSearch: () -> Unit) {
-    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         SearchField(query.text, { v -> viewModel.updateQuery { it.copy(text = v) } }, tr("Search sentences"), Modifier.weight(1f), onSearch = onSearch)
         PrimaryButton(tr("Search"), onClick = onSearch, enabled = query.text.isNotBlank())
     }
@@ -422,9 +424,9 @@ private val PAGE_SIZES = listOf(5, 10, 20, 30, 50, 100)
 @Composable
 private fun FilterRow(query: ExampleSearchQuery, viewModel: ExamplesSearchViewModel) {
     FlowRow(
-        Modifier.fillMaxWidth().padding(top = 14.dp),
-        horizontalArrangement = Arrangement.spacedBy(12.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
+        Modifier.fillMaxWidth().padding(top = AppSpacing.l),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         itemVerticalAlignment = Alignment.Bottom,
     ) {
         Select(tr("Min words"), (listOf<Int?>(null) + WORD_COUNTS), query.minWords, { it?.toString() ?: tr("Any") }, 110.dp) { v -> viewModel.updateFilters { it.copy(minWords = v) } }
@@ -472,7 +474,7 @@ private fun ExampleCard(
             .background(if (sound.playing || active) colors.primary.copy(alpha = AppAlpha.wash) else Color.Transparent)
             .border(if (active) AppBorders.selected() else AppBorders.hairline(), AppShapes.panel)
             .semantics { selected = active }
-            .padding(horizontal = 16.dp, vertical = 12.dp),
+            .padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         // The button leads, as the reader's sentence buttons do; its description sits on it so that it stays while the spinner replaces the icon.
@@ -486,8 +488,8 @@ private fun ExampleCard(
             selected = sound.playing,
             loading = sound.loading,
         )
-        Spacer(Modifier.width(16.dp))
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        Spacer(Modifier.width(AppSpacing.l))
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             HoverTranslatedText(
                 text,
                 translate = translateWord,
@@ -507,10 +509,10 @@ private fun ExampleCard(
 @Composable
 private fun TextSettings(prefs: UserSettings, viewModel: ExamplesSearchViewModel) {
     Column(
-        Modifier.fillMaxWidth().padding(top = 16.dp).cardSurface(AppShapes.card).padding(horizontal = 20.dp, vertical = 16.dp),
-        verticalArrangement = Arrangement.spacedBy(14.dp),
+        Modifier.fillMaxWidth().padding(top = AppSpacing.l).cardSurface(AppShapes.card).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        Text(tr("Text settings"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+        Text(tr("Text settings"), style = AppText.itemTitle)
         Select(tr("Font"), ReadingFont.choices, ReadingFont.byId(prefs.readingFont), { it.label }, 220.dp, viewModel::setReadingFont)
         SliderSetting(tr("Font size"), "${(prefs.readingFontScale * 100).roundToInt()}%", prefs.readingFontScale, 0.6f..2.5f, viewModel::setFontScale, sliderModifier = Modifier.testTag("examples-font-size"))
         SliderSetting(tr("Line height"), "${(prefs.readingLineHeight * 10).roundToInt() / 10f}", prefs.readingLineHeight, 1.0f..3.0f, viewModel::setLineHeight, sliderModifier = Modifier.testTag("examples-line-height"))
@@ -521,7 +523,7 @@ private fun TextSettings(prefs: UserSettings, viewModel: ExamplesSearchViewModel
 @Composable
 private fun emphasize(sentence: String, term: String): AnnotatedString {
     // Weight alone marks the searched term: the colours are the statuses' and the selection's, as in the reader.
-    val highlight = SpanStyle(fontWeight = FontWeight.SemiBold)
+    val highlight = SpanStyle(fontWeight = AppText.labelStrong.fontWeight)
     return remember(sentence, term) {
         buildAnnotatedString {
             val needle = term.trim().lowercase()

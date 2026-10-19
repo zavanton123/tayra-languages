@@ -1,6 +1,7 @@
 package com.tayra.languages.feature.terms.form
 
 import androidx.compose.foundation.layout.Arrangement
+import com.tayra.languages.core.ui.theme.AppSpacing
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
@@ -22,9 +23,9 @@ import com.tayra.languages.core.ui.i18n.tr
 @Composable
 internal fun PitchAccents(accents: List<PitchAccent>, isVerbOrAdjective: Boolean, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
-    FlowRow(modifier, horizontalArrangement = Arrangement.spacedBy(14.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+    FlowRow(modifier, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
         accents.forEach { accent ->
-            Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.testTag("pitch-${accent.reading}-${accent.downstep}")) {
+            Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), modifier = Modifier.testTag("pitch-${accent.reading}-${accent.downstep}")) {
                 PitchAccentText(accent)
                 val name = accent.category(isVerbOrAdjective)?.let { " " + tr(it) }.orEmpty()
                 Text("[${accent.downstep}]$name", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
@@ -48,7 +49,7 @@ private fun PitchAccentText(accent: PitchAccent) {
                     val stroke = 1.5.dp.toPx()
                     if (high) drawLine(color, Offset(0f, stroke / 2), Offset(size.width, stroke / 2), stroke)
                     if (falls) drawLine(color, Offset(size.width - stroke / 2, 0f), Offset(size.width - stroke / 2, size.height * 0.4f), stroke)
-                }.padding(top = 4.dp),
+                }.padding(top = AppSpacing.xs),
             )
         }
     }

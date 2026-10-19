@@ -12,13 +12,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.morphology.JapaneseNote
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppText
 import kotlin.math.abs
 import kotlin.math.roundToLong
 
@@ -28,12 +28,12 @@ internal fun NotesSection(notes: List<JapaneseNote>) {
     val colors = MaterialTheme.colorScheme
     Column(
         Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.secondaryContainer.copy(alpha = AppAlpha.disabled))
-            .border(AppBorders.hairline(), AppShapes.card).padding(horizontal = 14.dp, vertical = 10.dp).testTag("japanese-notes"),
-        verticalArrangement = Arrangement.spacedBy(6.dp),
+            .border(AppBorders.hairline(), AppShapes.card).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("japanese-notes"),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
         notes.forEach { note ->
             Column {
-                Text(headline(note), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
+                Text(headline(note), style = AppText.emphasis)
                 detail(note)?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
             }
         }

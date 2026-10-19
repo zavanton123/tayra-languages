@@ -43,7 +43,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.platform.testTag
@@ -84,10 +83,12 @@ import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.files.saveBinaryFile
 import kotlinx.coroutines.launch
@@ -168,15 +169,15 @@ fun TermsScreen(
             state.message?.let { AppSnackbar(it, actionLabel = tr("OK"), onAction = viewModel::dismissMessage) }
         },
     ) { padding ->
-        val gutter = if (compact) 16.dp else 32.dp
-        ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp)) {
+        val gutter = if (compact) AppSpacing.l else AppSpacing.xxxl
+        ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = AppSpacing.l)) {
             item { PageHeader(exporting = state.exporting, onExport = viewModel::exportAnki, onSend = if (viewModel.canSendToAnki) ({ viewModel.sendToAnki() }) else null, onNew = { onNavigate(Route.NewTerm) }) }
             item { StatCards(state, compact) }
             item { Toolbar(state, viewModel, compact) }
             if (state.filtersVisible) item { FilterPanel(state, viewModel) }
             if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel) }
             if (state.loading) {
-                item { Text(tr("Loading..."), Modifier.padding(16.dp), color = MaterialTheme.colorScheme.onSurfaceVariant) }
+                item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
                 item { EmptyState(AppIcons.Book, tr("No terms match the current filters.")) }
             } else if (compact) {
@@ -245,7 +246,7 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
 
 @Composable
 private fun PageHeader(exporting: String?, onExport: () -> Unit, onSend: (() -> Unit)?, onNew: () -> Unit) {
-    Column(Modifier.fillMaxWidth().padding(bottom = 20.dp)) {
+    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
         ScreenHeader(tr("Vocabulary"), tr("Review and manage your vocabulary.")) {
             SecondaryButton(if (exporting == null) tr("Export to Anki") else tr("Exporting {0}", exporting), onClick = onExport, icon = AppIcons.Download, enabled = exporting == null)
             if (onSend != null) {
@@ -268,19 +269,19 @@ private fun StatCards(state: TermsListUiState, compact: Boolean) {
         StatCard(tr("Known"), state.knownCount, Icons.Default.Check, AppAccents.green),
     )
     FlowRow(
-        Modifier.fillMaxWidth().padding(bottom = 20.dp),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp),
+        Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         maxItemsInEachRow = if (compact) 2 else cards.size,
     ) {
         cards.forEach { card ->
-            TintedSurface(card.tint, Modifier.weight(1f), shape = AppShapes.card, padding = PaddingValues(horizontal = 16.dp, vertical = 18.dp)) {
+            TintedSurface(card.tint, Modifier.weight(1f), shape = AppShapes.card, padding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.xl)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     IconTile(card.icon, size = 48, tint = card.tint)
-                    Spacer(Modifier.width(14.dp))
+                    Spacer(Modifier.width(AppSpacing.l))
                     Column {
                         Text(card.label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        Text(card.value.toString(), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                        Text(card.value.toString(), style = AppText.headline)
                     }
                 }
             }
@@ -295,12 +296,12 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
     val filter = state.filter
     val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: tr("Custom order")
     FlowRow(
-        Modifier.fillMaxWidth().padding(bottom = 14.dp),
-        horizontalArrangement = Arrangement.spacedBy(12.dp),
-        verticalArrangement = Arrangement.spacedBy(10.dp),
+        Modifier.fillMaxWidth().padding(bottom = AppSpacing.l),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
-        SearchField(filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), if (compact) Modifier.fillMaxWidth() else Modifier.width(560.dp))
+        SearchField(filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), if (compact) Modifier.fillMaxWidth() else Modifier.width(SEARCH_FIELD_WIDTH))
         SelectMenu(
             options = TermSortOption.entries,
             selected = TermSortOption.entries.firstOrNull { it.sort == state.sort },
@@ -349,21 +350,21 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
     Column(
-        Modifier.fillMaxWidth().padding(bottom = 14.dp).cardSurface(AppShapes.card).padding(horizontal = 20.dp, vertical = 16.dp),
+        Modifier.fillMaxWidth().padding(bottom = AppSpacing.l).cardSurface(AppShapes.card).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(tr("Filter vocabulary"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            Text(tr("Filter vocabulary"), Modifier.weight(1f), style = AppText.itemTitle)
             QuietButton(tr("Reset all"), onClick = viewModel::resetFilters)
         }
-        Text(tr("Learning status"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp, bottom = 10.dp))
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Text(tr("Learning status"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = AppSpacing.xs, bottom = AppSpacing.m))
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             TermStatus.selectable.forEach { status ->
                 StatusFilterChip(status, selected = status in state.chosenStatuses) { viewModel.toggleStatus(status) }
             }
         }
-        AppDivider(Modifier.padding(vertical = 16.dp))
-        Text(tr("Added"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(bottom = 10.dp))
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
+        AppDivider(Modifier.padding(vertical = AppSpacing.l))
+        Text(tr("Added"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(bottom = AppSpacing.m))
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), itemVerticalAlignment = Alignment.CenterVertically) {
             Text(tr("From"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             NumberField(filter.minAgeDays, { viewModel.setAddedRange(it, filter.maxAgeDays) }, tr("Added from, days ago"), placeholder = tr("Any"), increaseDescription = tr("More days"), decreaseDescription = tr("Fewer days"))
             Text(tr("To"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -375,7 +376,7 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
                 trPlural(filter.termIds!!.size, "Showing {0} term from the current page.", "Showing {0} terms from the current page."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
-                modifier = Modifier.padding(top = 12.dp),
+                modifier = Modifier.padding(top = AppSpacing.m),
             )
         }
     }
@@ -387,22 +388,22 @@ private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () 
     val tint = statusTint(status)
     val strong = tint.darken(0.7f)
     Row(
-        Modifier.testTag("status-filter-${status.abbreviation}").height(44.dp).clip(AppShapes.control)
+        Modifier.testTag("status-filter-${status.abbreviation}").height(AppSizes.control).clip(AppShapes.control)
             .background(tint.copy(alpha = if (selected) AppAlpha.disabled else AppAlpha.line))
             .border(if (selected) AppBorders.selected(strong) else AppBorders.hairline(tint), AppShapes.control)
             .clickable(onClickLabel = if (selected) tr("Stop showing {0}", tr(status.label)) else tr("Show {0}", tr(status.label)), onClick = onClick)
-            .padding(horizontal = 14.dp),
+            .padding(horizontal = AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
         if (selected) {
-            Box(Modifier.size(20.dp).clip(AppShapes.circle).background(strong), contentAlignment = Alignment.Center) {
-                Icon(Icons.Default.Check, contentDescription = null, tint = Color.White, modifier = Modifier.size(AppSizes.iconTiny))
+            Box(Modifier.size(TICK_DISC).clip(AppShapes.circle).background(strong), contentAlignment = Alignment.Center) {
+                Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.onAccent, modifier = Modifier.size(AppSizes.iconTiny))
             }
         } else {
-            Box(Modifier.size(20.dp).clip(AppShapes.circle).border(AppBorders.selected(strong), AppShapes.circle))
+            Box(Modifier.size(TICK_DISC).clip(AppShapes.circle).border(AppBorders.selected(strong), AppShapes.circle))
         }
-        Text(status.chipName, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium, color = MaterialTheme.colorScheme.onSurface)
+        Text(status.chipName, style = AppText.label, color = MaterialTheme.colorScheme.onSurface)
         StatusBadge(status)
     }
 }
@@ -412,9 +413,8 @@ private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () 
 internal fun StatusBadge(status: TermStatus) {
     Text(
         status.abbreviation,
-        Modifier.clip(AppShapes.small).background(statusTint(status).copy(alpha = AppAlpha.strong)).padding(horizontal = 8.dp, vertical = 2.dp),
-        style = MaterialTheme.typography.labelMedium,
-        fontWeight = FontWeight.SemiBold,
+        Modifier.clip(AppShapes.small).background(statusTint(status).copy(alpha = AppAlpha.strong)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs),
+        style = AppText.badge,
         color = AppAccents.ink,
     )
 }
@@ -425,15 +425,15 @@ internal fun StatusBadge(status: TermStatus) {
 internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewModel) {
     val filter = state.filter
     FlowRow(
-        Modifier.fillMaxWidth().padding(bottom = 14.dp),
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp),
+        Modifier.fillMaxWidth().padding(bottom = AppSpacing.l),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
         TermStatus.selectable.filter { it in state.chosenStatuses }.forEach { status ->
             val tint = statusTint(status)
             RemovableChip(onRemove = { viewModel.toggleStatus(status) }, removeDescription = tr("Remove {0}", tr(status.label)), tint = tint, background = tint.copy(alpha = AppAlpha.line)) {
-                Text(status.chipName, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
+                Text(status.chipName, style = AppText.badge)
                 StatusBadge(status)
             }
         }
@@ -446,7 +446,7 @@ internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewMode
                 else -> trPlural(from ?: 0, "Added: {0}+ day ago", "Added: {0}+ days ago")
             }
             RemovableChip(onRemove = { viewModel.setAddedRange(null, null) }, removeDescription = tr("Remove the added filter")) {
-                Text(label, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
+                Text(label, style = AppText.badge)
             }
         }
         QuietButton(tr("Clear all"), onClick = viewModel::clearFilters)
@@ -460,6 +460,9 @@ private const val EXAMPLE_WEIGHT = 3f
 private val STATUS_WIDTH = 90.dp
 private val ADDED_WIDTH = 110.dp
 private val MENU_WIDTH = 48.dp
+private val SPEAK_BUTTON = 32.dp
+private val SEARCH_FIELD_WIDTH = 560.dp
+private val TICK_DISC = 20.dp
 
 @Composable
 private fun TermsTableHeader(state: TermsListUiState, viewModel: TermsListViewModel, actions: ListActions) {
@@ -486,18 +489,18 @@ private fun TermTableRow(term: Term, languageName: String, selected: Boolean, in
         else -> Color.Transparent
     }
     Row(
-        Modifier.fillMaxWidth().background(background).hoverable(interaction).clickable { actions.onOpen(term) }.padding(horizontal = 8.dp, vertical = 2.dp),
+        Modifier.fillMaxWidth().background(background).hoverable(interaction).clickable { actions.onOpen(term) }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
         val code = LanguageCodes.codeFor(languageName)
-        Row(Modifier.weight(TERM_WEIGHT).padding(end = 12.dp), verticalAlignment = Alignment.CenterVertically) {
-            SpeakButton(term.displayText, code, actions.speaker, Modifier.size(32.dp))
-            Text(term.displayText, style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Row(Modifier.weight(TERM_WEIGHT).padding(end = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
+            SpeakButton(term.displayText, code, actions.speaker, Modifier.size(SPEAK_BUTTON))
+            Text(term.displayText, style = AppText.emphasis, color = colors.primary, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
-        Text(term.translation.orEmpty(), Modifier.weight(TRANSLATION_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis)
-        Row(Modifier.weight(EXAMPLE_WEIGHT).padding(end = 12.dp), verticalAlignment = Alignment.CenterVertically) {
-            term.sentence?.let { SpeakButton(it, code, actions.speaker, Modifier.size(32.dp)) }
+        Text(term.translation.orEmpty(), Modifier.weight(TRANSLATION_WEIGHT).padding(end = AppSpacing.m), style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        Row(Modifier.weight(EXAMPLE_WEIGHT).padding(end = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
+            term.sentence?.let { SpeakButton(it, code, actions.speaker, Modifier.size(SPEAK_BUTTON)) }
             Text(term.sentence.orEmpty(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
         }
         Box(Modifier.width(STATUS_WIDTH)) { StatusChip(term.status) { actions.onStatus(term, it) } }
@@ -510,21 +513,21 @@ private fun TermTableRow(term: Term, languageName: String, selected: Boolean, in
 private fun CompactTermRow(term: Term, languageName: String, selected: Boolean, actions: RowActions) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().background(if (selected) colors.primary.copy(alpha = AppAlpha.tint) else Color.Transparent).clickable { actions.onOpen(term) }.padding(horizontal = 4.dp, vertical = 6.dp),
+        Modifier.fillMaxWidth().background(if (selected) colors.primary.copy(alpha = AppAlpha.tint) else Color.Transparent).clickable { actions.onOpen(term) }.padding(horizontal = AppSpacing.xs, vertical = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
             val code = LanguageCodes.codeFor(languageName)
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(term.displayText, style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
-                SpeakButton(term.displayText, code, actions.speaker, Modifier.size(32.dp))
+                Text(term.displayText, style = AppText.emphasis, color = colors.primary)
+                SpeakButton(term.displayText, code, actions.speaker, Modifier.size(SPEAK_BUTTON))
             }
             term.translation?.takeIf { it.isNotBlank() }?.let { Text(it, style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis) }
             term.sentence?.let { sentence ->
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(sentence, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                    SpeakButton(sentence, code, actions.speaker, Modifier.size(32.dp))
+                    SpeakButton(sentence, code, actions.speaker, Modifier.size(SPEAK_BUTTON))
                 }
             }
             term.createdAt?.let { Text(addedLabel(it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
@@ -544,10 +547,9 @@ private fun StatusChip(status: TermStatus, onSelect: (TermStatus) -> Unit) {
         Text(
             status.abbreviation,
             Modifier.clip(AppShapes.small).background(background).border(AppBorders.hairline(background.darken()), AppShapes.small)
-                .clickable { open = true }.padding(horizontal = 10.dp, vertical = 4.dp),
+                .clickable { open = true }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
             color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink,
-            style = MaterialTheme.typography.labelLarge,
-            fontWeight = FontWeight.SemiBold,
+            style = AppText.badge,
         )
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             TermStatus.selectable.forEach { option ->
@@ -572,10 +574,10 @@ internal fun Pager(state: TermsListUiState, viewModel: TermsListViewModel, compa
     val colors = MaterialTheme.colorScheme
     val from = if (state.totalCount == 0) 0 else state.page * state.pageSize + 1
     val to = minOf(state.totalCount, (state.page + 1) * state.pageSize)
-    Row(Modifier.fillMaxWidth().padding(top = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+    Row(Modifier.fillMaxWidth().padding(top = AppSpacing.xl), verticalAlignment = Alignment.CenterVertically) {
         SelectMenu(PAGE_SIZES, state.pageSize, viewModel::setPageSize, { tr("{0} per page", it) })
         Spacer(Modifier.weight(1f))
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             val pagerTint = { enabled: Boolean -> if (enabled) colors.primary else colors.outlineVariant }
             AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, tr("Previous page"), { viewModel.goToPage(state.page - 1) }, enabled = state.page > 0, style = IconButtonStyle.Outlined, tint = pagerTint(state.page > 0))
             Text(tr("{0}–{1} of {2}", from, to, state.totalCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)

@@ -1,6 +1,7 @@
 package com.tayra.languages.feature.terms.list
 
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -14,7 +15,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.BulkTermUpdate
 import com.tayra.languages.core.ui.components.AppDialog
@@ -36,7 +36,7 @@ fun BulkEditDialog(count: Int, onApply: (BulkTermUpdate) -> Unit, onDismiss: () 
         onDismissRequest = onDismiss,
         title = { Text(trPlural(count, "Updating {0} term", "Updating {0} terms")) },
         text = {
-            Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 CheckSetting(tr("Lowercase terms"), lowercase, onChange = { lowercase = it })
                 CheckSetting(tr("Remove parents"), removeParents, onChange = { removeParents = it })
                 AppTextField(value = parent, onValueChange = { parent = it }, label = { Text(tr("Set parent")) }, singleLine = true, modifier = Modifier.fillMaxWidth())
