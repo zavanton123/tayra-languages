@@ -269,11 +269,15 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         // A typed gap gets the sentence's meaning as a hint; elsewhere it would give the answer away, so it waits.
         val hintShown = answered || exercise.kind == ExerciseKind.GAP_TYPED
         if (hintShown) state.sentenceTranslation?.let { translation ->
-            Text(
-                translation,
+            // Captioned, so the box says what it is whether it comes before the answer or after it.
+            Column(
                 Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = AppSpacing.l),
-                style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
-            )
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.xs),
+            ) {
+                Text(tr("Translation"), style = AppText.overline, color = colors.onSurfaceVariant)
+                Text(translation, style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center))
+            }
         }
 
         if (exercise.isChoice) Choices(state, exercise, actions, compact) else TypedAnswer(state, exercise, actions)
