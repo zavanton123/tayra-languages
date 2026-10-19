@@ -476,7 +476,7 @@ private fun StateLabel(state: CardState) {
         label,
         Modifier.clip(AppShapes.compact).background(tint.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(tint.copy(alpha = AppAlpha.line)), AppShapes.compact)
             .padding(horizontal = AppSpacing.m, vertical = AppSpacing.xs),
-        style = AppText.overline.copy(color = tint),
+        style = AppText.overline.copy(color = AppAccents.onWash(tint)),
     )
 }
 

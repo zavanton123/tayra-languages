@@ -4,6 +4,8 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.lerp
+import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -37,6 +39,16 @@ object AppAccents {
 
     /** A mark on a solid accent or status colour, such as a tick on a filled box. */
     val onAccent = Color.White
+
+    /**
+     * An accent used as text or an icon on a wash of itself. On a dark surface the darker accents
+     * (blue, purple, red) are too dim to read, so there they are lifted toward the theme's text colour.
+     */
+    @Composable
+    fun onWash(accent: Color): Color {
+        val colors = MaterialTheme.colorScheme
+        return if (colors.surface.luminance() < 0.5f) lerp(accent, colors.onSurface, 0.4f) else accent
+    }
 
     /** Text on the learning statuses' pale tints, which are the same in every theme. */
     val ink = Color(0xFF1B1F24)
