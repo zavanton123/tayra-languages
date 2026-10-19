@@ -333,7 +333,7 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
 
 @Composable
 private fun KnowledgeChip(knowledge: WordKnowledge, count: Int, selected: Boolean, onClick: () -> Unit) {
-    SelectableChip(knowledge.label, selected, onClick, Modifier.testTag("chip-${knowledge.name}"), tint = knowledge.tint(), count = count, leading = ChipLeading.Dot)
+    SelectableChip(knowledge.label, selected, onClick, Modifier.testTag("chip-${knowledge.name}"), tint = knowledge.tint(), count = count, leading = ChipLeading.Toggle)
 }
 
 /** The band's ranks, how many of its words are known or being learned, and whether the reader's level is here. */

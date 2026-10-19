@@ -158,8 +158,11 @@ fun StatusPill(
 /** How tall a [SelectableChip] is. */
 enum class ChipSize(internal val height: Dp) { Small(36.dp), Regular(40.dp), Large(46.dp) }
 
-/** What goes before a [SelectableChip]'s label: nothing, a dot of its tint, or a tick while it is chosen. */
-enum class ChipLeading { None, Dot, Check }
+/**
+ * What goes before a [SelectableChip]'s label: nothing, a dot of its tint, a tick while it is chosen, or
+ * [Toggle], for a chip that shows or hides something: a tick while on, a faded dot while off.
+ */
+enum class ChipLeading { None, Dot, Check, Toggle }
 
 /**
  * A chip that is chosen or not, as a filter or a view: its label and an optional [count], washed
@@ -195,7 +198,8 @@ fun SelectableChip(
     ) {
         when {
             leading == ChipLeading.Dot -> StatusDot(tint)
-            leading == ChipLeading.Check && selected -> Icon(Icons.Default.Check, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconSmall))
+            (leading == ChipLeading.Check || leading == ChipLeading.Toggle) && selected -> Icon(Icons.Default.Check, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconSmall))
+            leading == ChipLeading.Toggle -> StatusDot(tint.copy(alpha = AppAlpha.disabled))
         }
         Text(
             label,
