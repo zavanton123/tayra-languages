@@ -229,7 +229,7 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
         return
     }
     Scaffold(
-        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {

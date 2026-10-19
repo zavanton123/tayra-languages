@@ -47,7 +47,7 @@ fun CoursePacksScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel
         return
     }
     Scaffold(
-        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {

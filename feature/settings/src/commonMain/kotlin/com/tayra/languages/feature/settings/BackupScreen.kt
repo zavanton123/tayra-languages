@@ -207,7 +207,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
     if (compact) {
         PhoneBackupsScreen(state, idle, viewModel, onImport = { picker.launch() }, onRestore = { restoring = it }, onDelete = { deleting = it }, onNavigate = onNavigate, onBack = onBack)
     } else Scaffold(
-        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding, modifier = dropTarget) {

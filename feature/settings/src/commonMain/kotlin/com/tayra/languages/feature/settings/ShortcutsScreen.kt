@@ -104,7 +104,7 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     val assign: (HotkeyAction, Hotkey?) -> Unit = { action, hotkey -> viewModel.update { it.copy(hotkeys = it.hotkeys + (action to hotkey)) } }
 
     Scaffold(
-        topBar = { AppTopBar(title = tr("Keyboard shortcuts"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = tr("Keyboard shortcuts"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {

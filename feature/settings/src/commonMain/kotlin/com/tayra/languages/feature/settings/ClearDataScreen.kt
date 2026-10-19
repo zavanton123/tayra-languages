@@ -100,7 +100,7 @@ fun ClearDataScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onCleared: 
         return
     }
     Scaffold(
-        topBar = { AppTopBar(title = APP_NAME, onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = APP_NAME, onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {

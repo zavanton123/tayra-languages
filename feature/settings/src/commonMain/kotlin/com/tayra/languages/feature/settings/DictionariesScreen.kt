@@ -256,7 +256,7 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
     if (compact) {
         PhoneDictionariesScreen(packs, learning, native, nativeName, current, viewModel, onNavigate, onBack, onTest = { testing = it }, pill)
     } else Scaffold(
-        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
