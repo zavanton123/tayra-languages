@@ -105,7 +105,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "Read the page" to "Ler a página em voz alta",
     "Auto-pause on" to "Pausa automática ativada",
     "Auto-pause off" to "Pausa automática desativada",
-    "AP" to "PA",
+    "Pause after each sentence" to "Pausar após cada frase",
     "Offline translation failed: {0}" to "Falha na tradução offline: {0}",
     "Offline translation for {0} → {1} is available, but its models are not installed." to "A tradução offline {0} → {1} está disponível, mas os modelos não estão instalados.",
     "{0} has no {1} → {2} model. Turn offline translation off to use MyMemory." to "{0} não tem modelo {1} → {2}. Desative a tradução offline para usar o MyMemory.",

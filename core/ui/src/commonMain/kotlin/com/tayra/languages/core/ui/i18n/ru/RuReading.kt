@@ -105,7 +105,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Read the page" to "Читать страницу вслух",
     "Auto-pause on" to "Автопауза включена",
     "Auto-pause off" to "Автопауза выключена",
-    "AP" to "АП",
+    "Pause after each sentence" to "Пауза после каждого предложения",
     "Offline translation failed: {0}" to "Не удалось выполнить офлайн-перевод: {0}",
     "Offline translation for {0} → {1} is available, but its models are not installed." to "Офлайн-перевод {0} → {1} доступен, но его модели не установлены.",
     "{0} has no {1} → {2} model. Turn offline translation off to use MyMemory." to "В {0} нет модели {1} → {2}. Выключите офлайн-перевод, чтобы использовать MyMemory.",

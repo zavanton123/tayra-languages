@@ -133,6 +133,7 @@ import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.PopupCard
 import com.tayra.languages.core.ui.components.SidePanel
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -832,15 +833,17 @@ private fun ContinuousControls(
         ) {
             Icon(if (playing) AppIcons.Pause else AppIcons.PlayArrow, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(AppSizes.iconXLarge))
         }
-        Box(
-            Modifier.size(CONTROL_SIZE).clip(AppShapes.circle)
-                .background(if (autoPause) colors.primary else colors.surface)
-                .border(AppBorders.selected(colors.primary), AppShapes.circle)
-                .clickable(onClick = onAutoPause)
-                .semantics { contentDescription = autoPauseDescription },
-            contentAlignment = Alignment.Center,
-        ) {
-            Text(tr("AP"), style = AppText.badge, color = if (autoPause) colors.onPrimary else colors.primary)
+        AppTooltip(tr("Pause after each sentence")) {
+            Box(
+                Modifier.size(CONTROL_SIZE).clip(AppShapes.circle)
+                    .background(if (autoPause) colors.primary else colors.surface)
+                    .border(AppBorders.selected(colors.primary), AppShapes.circle)
+                    .clickable(onClick = onAutoPause)
+                    .semantics { contentDescription = autoPauseDescription },
+                contentAlignment = Alignment.Center,
+            ) {
+                Icon(AppIcons.PauseAfterSentence, contentDescription = null, tint = if (autoPause) colors.onPrimary else colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
+            }
         }
     }
 }

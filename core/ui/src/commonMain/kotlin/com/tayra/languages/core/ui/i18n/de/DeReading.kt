@@ -105,7 +105,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Read the page" to "Seite vorlesen",
     "Auto-pause on" to "Autopause an",
     "Auto-pause off" to "Autopause aus",
-    "AP" to "AP",
+    "Pause after each sentence" to "Nach jedem Satz pausieren",
     "Offline translation failed: {0}" to "Offline-Übersetzung fehlgeschlagen: {0}",
     "Offline translation for {0} → {1} is available, but its models are not installed." to "Offline-Übersetzung für {0} → {1} ist verfügbar, aber ihre Modelle sind nicht installiert.",
     "{0} has no {1} → {2} model. Turn offline translation off to use MyMemory." to "{0} hat kein Modell für {1} → {2}. Schalte die Offline-Übersetzung aus, um MyMemory zu nutzen.",

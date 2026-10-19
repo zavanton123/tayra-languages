@@ -105,7 +105,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Read the page" to "Ανάγνωση της σελίδας",
     "Auto-pause on" to "Αυτόματη παύση ενεργή",
     "Auto-pause off" to "Αυτόματη παύση ανενεργή",
-    "AP" to "ΑΠ",
+    "Pause after each sentence" to "Παύση μετά από κάθε πρόταση",
     "Offline translation failed: {0}" to "Η μετάφραση εκτός σύνδεσης απέτυχε: {0}",
     "Offline translation for {0} → {1} is available, but its models are not installed." to "Η μετάφραση εκτός σύνδεσης {0} → {1} είναι διαθέσιμη, αλλά τα μοντέλα της δεν έχουν εγκατασταθεί.",
     "{0} has no {1} → {2} model. Turn offline translation off to use MyMemory." to "Το {0} δεν έχει μοντέλο {1} → {2}. Απενεργοποιήστε τη μετάφραση εκτός σύνδεσης για να χρησιμοποιήσετε το MyMemory.",

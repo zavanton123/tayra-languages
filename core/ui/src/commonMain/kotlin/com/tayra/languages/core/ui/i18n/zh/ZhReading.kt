@@ -105,7 +105,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Read the page" to "朗读本页",
     "Auto-pause on" to "自动暂停已开启",
     "Auto-pause off" to "自动暂停已关闭",
-    "AP" to "自停",
+    "Pause after each sentence" to "每句之后暂停",
     "Offline translation failed: {0}" to "离线翻译失败：{0}",
     "Offline translation for {0} → {1} is available, but its models are not installed." to "可以使用 {0} → {1} 离线翻译，但尚未安装其模型。",
     "{0} has no {1} → {2} model. Turn offline translation off to use MyMemory." to "{0} 没有 {1} → {2} 模型。关闭离线翻译即可使用 MyMemory。",
