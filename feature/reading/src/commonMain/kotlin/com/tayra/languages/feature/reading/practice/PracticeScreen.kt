@@ -45,7 +45,6 @@ import androidx.compose.ui.input.key.type
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
@@ -80,6 +79,7 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
@@ -135,6 +135,8 @@ internal class PracticeActions(
 )
 
 private const val BLANK = "[...]"
+private val PRACTICE_WIDTH = 900.dp
+private val RESULT_BADGE_SIZE = 64.dp
 
 /** The page under the top bar: the question on show, or the result when all are answered. */
 @Composable
@@ -169,12 +171,12 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
         contentAlignment = Alignment.TopCenter,
     ) {
         Column(
-            Modifier.widthIn(max = 900.dp).fillMaxWidth().padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 28.dp),
-            verticalArrangement = Arrangement.spacedBy(if (compact) 16.dp else 20.dp),
+            Modifier.widthIn(max = PRACTICE_WIDTH).fillMaxWidth().padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
+            verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xl),
         ) {
             Column {
                 // On a phone the bar carries the title.
-                if (!compact) Text(tr("Practice"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                if (!compact) Text(tr("Practice"), style = AppText.screenTitle)
                 Text(
                     when {
                         state.wholeBook -> trPlural(state.wordCount, "The {0} word you are learning in {1}.", "The {0} words you are learning in {1}.", state.bookTitle)
@@ -210,13 +212,13 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
 private fun ProgressStrip(state: PracticeUiState) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(horizontal = 20.dp, vertical = 14.dp),
+        Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(20.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl),
     ) {
         Text(tr("Question {0} of {1}", state.index + 1, state.exercises.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
         ProgressTrack((state.index + 1f) / state.exercises.size, colors.primary, Modifier.weight(1f), height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
-        Text(tr("{0} right", state.correct), style = MaterialTheme.typography.bodyLarge, color = AppAccents.green, fontWeight = FontWeight.Medium, softWrap = false)
+        Text(tr("{0} right", state.correct), style = AppText.emphasis, color = AppAccents.green, softWrap = false)
     }
 }
 
@@ -236,9 +238,9 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
     val answered = state.answered
     Column(
         Modifier.fillMaxWidth().cardSurface(AppShapes.large)
-            .padding(horizontal = if (compact) 18.dp else 32.dp, vertical = if (compact) 18.dp else 26.dp).testTag("practice-question"),
+            .padding(horizontal = if (compact) AppSpacing.xl else AppSpacing.xxxl, vertical = if (compact) AppSpacing.xl else AppSpacing.xxl).testTag("practice-question"),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(if (compact) 14.dp else 18.dp),
+        verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xl),
     ) {
         Text(exercise.instruction.uppercase(), style = AppText.overline.copy(color = colors.primary), textAlign = TextAlign.Center)
 
@@ -249,7 +251,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.
         val sentenceHidden = !answered && (exercise.kind == ExerciseKind.HEAR_CHOOSE || exercise.wholeSentence)
         if (!sentenceHidden) {
-            val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = FontWeight.SemiBold)
+            val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = AppText.labelStrong.fontWeight)
             Text(
                 buildAnnotatedString {
                     append(exercise.sentence.substring(0, exercise.range.first))
@@ -265,7 +267,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         if (hintShown) state.sentenceTranslation?.let { translation ->
             Text(
                 translation,
-                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(horizontal = if (compact) 14.dp else 32.dp, vertical = 14.dp),
+                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = AppSpacing.l),
                 style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
             )
         }
@@ -298,13 +300,13 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
             else -> null
         }
         Row(
-            modifier.heightIn(min = 56.dp).clip(AppShapes.panel)
+            modifier.heightIn(min = AppSizes.row).clip(AppShapes.panel)
                 .background(tint?.copy(alpha = AppAlpha.soft) ?: colors.surface)
                 .border(if (tint != null) AppBorders.selected(tint) else AppBorders.hairline(), AppShapes.panel)
                 .clickable(enabled = !state.answered) { actions.onChoose(text) }
-                .padding(horizontal = 18.dp, vertical = 12.dp).testTag("practice-option-$index"),
+                .padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m).testTag("practice-option-$index"),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
             Text(text, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (state.answered && tint == null) colors.onSurfaceVariant else colors.onSurface)
             when (tint) {
@@ -314,12 +316,12 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
             }
         }
     }
-    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         if (compact) {
             exercise.options.forEachIndexed { i, text -> option(i, text, Modifier.fillMaxWidth()) }
         } else {
             exercise.options.withIndex().chunked(2).forEach { pair ->
-                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     pair.forEach { (i, text) -> option(i, text, Modifier.weight(1f)) }
                     if (pair.size == 1) Spacer(Modifier.weight(1f))
                 }
@@ -366,14 +368,14 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
     val colors = MaterialTheme.colorScheme
     val total = state.exercises.size
     Column(
-        Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(36.dp),
+        Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.huge),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(14.dp),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        Box(Modifier.size(64.dp).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
+        Box(Modifier.size(RESULT_BADGE_SIZE).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
             Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconXLarge))
         }
-        Text(tr("{0} of {1} right", state.correct, total), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+        Text(tr("{0} of {1} right", state.correct, total), style = AppText.headline)
         Text(
             if (state.missed.isEmpty()) tr("Every answer was right.") else tr("Words to look at again: {0}", state.missed.joinToString(", ")),
             style = MaterialTheme.typography.bodyLarge,
@@ -381,7 +383,7 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
             textAlign = TextAlign.Center,
         )
         Text(tr("Practice does not change the status of your words."), style = MaterialTheme.typography.bodySmall, color = colors.outline, textAlign = TextAlign.Center)
-        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             SecondaryButton(tr("Practice again"), onClick = actions.onRestart)
             PrimaryButton(backLabel(state), onClick = actions.onBack)
         }

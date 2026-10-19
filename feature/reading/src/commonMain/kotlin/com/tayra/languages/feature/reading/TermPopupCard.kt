@@ -9,23 +9,24 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.service.TermPopup
 import com.tayra.languages.core.ui.components.PopupCard
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /** Hover/tap information for a term. */
 @Composable
 fun TermPopupCard(popup: TermPopup, modifier: Modifier = Modifier) {
-    PopupCard(modifier.widthIn(max = 360.dp)) {
-        Column(Modifier.padding(12.dp)) {
+    PopupCard(modifier.widthIn(max = POPUP_WIDTH)) {
+        Column(Modifier.padding(AppSpacing.m)) {
             PopupEntry(popup, isMain = true)
             if (popup.parents.isNotEmpty()) {
-                Column(Modifier.padding(top = 10.dp)) { popup.parents.forEach { PopupEntry(it, isMain = false) } }
+                Column(Modifier.padding(top = AppSpacing.m)) { popup.parents.forEach { PopupEntry(it, isMain = false) } }
             }
             if (popup.components.isNotEmpty()) {
-                Text(tr("Components"), style = MaterialTheme.typography.labelMedium, fontStyle = FontStyle.Italic, modifier = Modifier.padding(top = 10.dp))
+                Text(tr("Components"), style = MaterialTheme.typography.labelMedium, fontStyle = FontStyle.Italic, modifier = Modifier.padding(top = AppSpacing.m))
                 popup.components.forEach { PopupEntry(it, isMain = false) }
             }
         }
@@ -34,12 +35,11 @@ fun TermPopupCard(popup: TermPopup, modifier: Modifier = Modifier) {
 
 @Composable
 private fun PopupEntry(entry: TermPopup, isMain: Boolean) {
-    Column(Modifier.padding(vertical = 2.dp)) {
+    Column(Modifier.padding(vertical = AppSpacing.xxs)) {
         Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
             Text(
                 if (isMain) entry.termAndParentsText else entry.termText,
-                style = if (isMain) MaterialTheme.typography.titleMedium else MaterialTheme.typography.titleSmall,
-                fontWeight = FontWeight.Bold,
+                style = if (isMain) AppText.itemTitle else AppText.smallTitle,
             )
             if (!isMain && entry.romanization.isNotEmpty()) Text(" (${entry.romanization})", fontStyle = FontStyle.Italic, style = MaterialTheme.typography.bodySmall)
         }
@@ -48,3 +48,5 @@ private fun PopupEntry(entry: TermPopup, isMain: Boolean) {
         if (entry.translation.isNotEmpty()) Text(entry.translation, style = MaterialTheme.typography.bodyMedium)
     }
 }
+
+private val POPUP_WIDTH = 360.dp

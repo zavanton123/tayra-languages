@@ -40,7 +40,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -83,6 +82,8 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -122,7 +123,7 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
             title = if (showBookmarks) tr("Bookmarks") else tr("Reader settings"),
             subtitle = if (showBookmarks) trPlural(bookmarks.size, "{1} · {0} saved", "{1} · {0} saved", title) else tr("{0} · Saved automatically", title),
             onClose = onClose,
-            modifier = Modifier.padding(start = 20.dp, end = 16.dp, top = 18.dp, bottom = 16.dp),
+            modifier = Modifier.padding(start = AppSpacing.xl, end = AppSpacing.l, top = AppSpacing.xl, bottom = AppSpacing.l),
             onBack = if (showBookmarks) ({ showBookmarks = false }) else null,
             icon = AppIcons.Otter,
             closeDescription = tr("Close menu"),
@@ -139,7 +140,7 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
                 ),
                 selected = tab,
                 onSelect = { tab = it },
-                modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+                modifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.s),
                 fill = true,
                 tinted = true,
             )
@@ -147,9 +148,9 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
         ScrollColumn(
             Modifier.weight(1f).fillMaxWidth().background(colors.surfaceVariant.copy(alpha = AppAlpha.disabled)),
             // The bar runs in a gutter of its own at the pane's edge, clear of the cards.
-            contentModifier = Modifier.padding(start = 16.dp, top = 14.dp, bottom = 14.dp, end = 30.dp),
-            scrollbarModifier = Modifier.padding(top = 8.dp, bottom = 8.dp, end = 7.dp),
-            verticalArrangement = Arrangement.spacedBy(14.dp),
+            contentModifier = Modifier.padding(start = AppSpacing.l, top = AppSpacing.l, bottom = AppSpacing.l, end = AppSpacing.xxxl),
+            scrollbarModifier = Modifier.padding(top = AppSpacing.s, bottom = AppSpacing.s, end = AppSpacing.s),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
             if (showBookmarks) {
                 BookmarksView(state, bookmarks, viewModel, onOpen = { viewModel.goToPage(it); onClose() })
@@ -184,8 +185,8 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
 /** A white card with a heading and its settings. */
 @Composable
 private fun PaneCard(title: String, content: @Composable ColumnScope.() -> Unit) {
-    AppCard(padding = PaddingValues(18.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-        Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+    AppCard(padding = PaddingValues(AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        Text(title, style = AppText.itemTitle)
         content()
     }
 }
@@ -203,7 +204,7 @@ private fun <T> SegmentedSetting(icon: ImageVector?, title: String, options: Lis
             SegmentedToggle(options.map { (value, label) -> Segment(value, label = label) }, selected, onSelect, Modifier.fillMaxWidth(), fill = true, style = SegmentStyle.Solid)
         },
     ) { (label, control), constraints ->
-        val gap = 14.dp.roundToPx()
+        val gap = AppSpacing.l.roundToPx()
         val width = constraints.maxWidth
         val controlWidth = control.maxIntrinsicWidth(constraints.maxHeight)
         val beside = !compact && width != Constraints.Infinity && label.maxIntrinsicWidth(constraints.maxHeight) + gap + controlWidth <= width
@@ -219,7 +220,7 @@ private fun <T> SegmentedSetting(icon: ImageVector?, title: String, options: Lis
         } else {
             val l = label.measure(constraints.copy(minHeight = 0))
             val c = control.measure(constraints.copy(minHeight = 0))
-            val below = l.height + 8.dp.roundToPx()
+            val below = l.height + AppSpacing.s.roundToPx()
             layout(constraints.constrainWidth(maxOf(l.width, c.width)), below + c.height) {
                 l.placeRelative(0, 0)
                 c.placeRelative(0, below)
@@ -246,9 +247,9 @@ private fun <T> ChoiceCard(
     Box {
         Row(
             Modifier.fillMaxWidth().clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel)
-                .clickable(enabled = options.size > 1) { open = true }.padding(horizontal = 14.dp, vertical = 12.dp),
+                .clickable(enabled = options.size > 1) { open = true }.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(14.dp),
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
             Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
             if (LocalWindowWidth.current.isCompact) {
@@ -263,7 +264,7 @@ private fun <T> ChoiceCard(
                     if (note != null) Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
                 }
                 // Sized to the value, so the name and its note keep the rest of the row.
-                Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.widthIn(max = 130.dp))
+                Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.widthIn(max = VALUE_MAX_WIDTH))
             }
             Icon(AppIcons.UnfoldMore, contentDescription = null, tint = colors.outline, modifier = Modifier.size(AppSizes.icon))
         }
@@ -297,11 +298,11 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
         }
         if (prefs.showHighlights) {
             val statusColors = TayraTheme.current.statusColors
-            Row(Modifier.padding(start = 36.dp), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+            Row(Modifier.padding(start = AppSpacing.huge), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                 listOf(TermStatus.UNKNOWN to tr("New"), TermStatus.NEW_1 to tr("Learning")).forEach { (status, label) ->
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         StatusDot(statusColors.background(status), size = 14.dp)
-                        Spacer(Modifier.width(8.dp))
+                        Spacer(Modifier.width(AppSpacing.s))
                         Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
@@ -392,13 +393,13 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
     if (local && viewModel.speechSpeedAdjustable()) {
         PaneCard(tr("Playback speed")) {
             val percent = (prefs.speechSpeed * 100).roundToInt()
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                Text("$percent%", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold, modifier = Modifier.width(96.dp))
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                Text("$percent%", style = AppText.screenTitle, modifier = Modifier.width(SPEED_FIGURE_WIDTH))
                 Text(tr("Slower"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 AppSlider(value = prefs.speechSpeed, onValueChange = viewModel::setSpeechSpeed, valueRange = 0.5f..1.5f, modifier = Modifier.weight(1f).testTag("speech-speed"))
                 Text(tr("Faster"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
-            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 listOf(0.75f, 1f, 1.25f).forEach { speed ->
                     val active = kotlin.math.abs(prefs.speechSpeed - speed) < 0.01f
                     Text(
@@ -406,7 +407,7 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
                         Modifier.weight(1f).clip(AppShapes.control)
                             .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.soft) else Color.Transparent)
                             .border(AppBorders.hairline(if (active) MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.half) else MaterialTheme.colorScheme.outlineVariant), AppShapes.control)
-                            .clickable { viewModel.setSpeechSpeed(speed) }.padding(vertical = 10.dp),
+                            .clickable { viewModel.setSpeechSpeed(speed) }.padding(vertical = AppSpacing.s),
                         style = MaterialTheme.typography.bodyLarge,
                         color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface,
                         textAlign = TextAlign.Center,
@@ -484,13 +485,13 @@ private fun BookmarkCard(bookmark: PageBookmark, current: Boolean, viewModel: Re
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (current) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
             .border(AppBorders.hairline(if (current) colors.primary.copy(alpha = AppAlpha.disabled) else colors.outlineVariant), AppShapes.panel)
-            .clickable(onClick = onOpen).padding(start = 16.dp, top = 14.dp, bottom = 14.dp, end = 4.dp).testTag("bookmark-${bookmark.pageNumber}"),
+            .clickable(onClick = onOpen).padding(start = AppSpacing.l, top = AppSpacing.l, bottom = AppSpacing.l, end = AppSpacing.xs).testTag("bookmark-${bookmark.pageNumber}"),
         verticalAlignment = Alignment.Top,
-        horizontalArrangement = Arrangement.spacedBy(14.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         Icon(AppIcons.Bookmark, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text(bookmark.title.ifBlank { tr("Page {0}", bookmark.pageNumber) }, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            Text(bookmark.title.ifBlank { tr("Page {0}", bookmark.pageNumber) }, style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
             // The page it is on, when the title does not already say so.
             if (bookmark.title.isNotBlank() && bookmark.title != tr("Page {0}", bookmark.pageNumber)) {
                 Text(tr("Page {0}", bookmark.pageNumber), style = MaterialTheme.typography.bodySmall, color = colors.primary)
@@ -521,12 +522,12 @@ private fun BookmarkCard(bookmark: PageBookmark, current: Boolean, viewModel: Re
 @Composable
 private fun ReaderTools(state: ReadingUiState, bookmarksOpen: Boolean, onBookmarks: () -> Unit, actions: ReaderPaneActions, onClose: () -> Unit, onReset: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Text(tr("Reader tools"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             AppDivider(Modifier.weight(1f))
         }
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             // A lesson's text belongs to its course, so it is not edited here.
             if (state.lesson == null) {
                 var editing by remember { mutableStateOf(false) }
@@ -554,12 +555,12 @@ private fun ToolTile(icon: ImageVector, label: String, note: String, active: Boo
     Column(
         Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (active) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
             .border(AppBorders.hairline(if (active) colors.primary.copy(alpha = AppAlpha.disabled) else colors.outlineVariant), AppShapes.panel)
-            .clickable(onClick = onClick).padding(vertical = 12.dp, horizontal = 6.dp).testTag(tag),
+            .clickable(onClick = onClick).padding(vertical = AppSpacing.m, horizontal = AppSpacing.xs).testTag(tag),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(3.dp),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.xs),
     ) {
         Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
-        Text(label, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold, maxLines = 1)
+        Text(label, style = AppText.labelStrong, maxLines = 1)
         Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
 }
@@ -584,7 +585,7 @@ private fun ChineseScriptSetting(current: ChineseScript?, onChoose: (ChineseScri
         ChineseScript.TRADITIONAL -> tr("Traditional")
     }
     SettingRow(tr("Characters"), tr("Texts shown and words kept in one script"), icon = AppIcons.Abc, dense = true) {
-        Dropdown(options, current, { chosen -> if (chosen == null) onChoose(null) else if (chosen != current) asking = chosen }, null, ::label, Modifier.width(150.dp).testTag("chinese-script"))
+        Dropdown(options, current, { chosen -> if (chosen == null) onChoose(null) else if (chosen != current) asking = chosen }, null, ::label, Modifier.width(SCRIPT_DROPDOWN_WIDTH).testTag("chinese-script"))
     }
     asking?.let { script ->
         AppDialog(
@@ -596,3 +597,7 @@ private fun ChineseScriptSetting(current: ChineseScript?, onChoose: (ChineseScri
         )
     }
 }
+
+private val VALUE_MAX_WIDTH = 130.dp
+private val SPEED_FIGURE_WIDTH = 96.dp
+private val SCRIPT_DROPDOWN_WIDTH = 150.dp

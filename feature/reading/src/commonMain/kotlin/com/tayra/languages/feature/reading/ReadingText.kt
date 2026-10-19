@@ -92,6 +92,7 @@ import com.tayra.languages.core.domain.render.RenderedPage
 import com.tayra.languages.core.domain.render.TextItem
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppTheme
 import com.tayra.languages.core.ui.i18n.tr
 
@@ -164,7 +165,7 @@ fun ReadingText(
     /** Keeps [readingSentence] scrolled into view while reading runs. */
     followReading: Boolean = false,
     /** The margin between the card's edge and this text; a sentence button leaves the same space before the text. */
-    edgePadding: Dp = 16.dp,
+    edgePadding: Dp = AppSpacing.l,
     /**
      * Practising translation: every sentence is blurred under its translation until it is in
      * [revealed] (sentences counted through the page). With a mouse a sentence shows while the
@@ -259,7 +260,7 @@ fun ReadingText(
                 if (twoColumns) {
                     Row(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING), verticalAlignment = Alignment.Top) {
                         if (onSpeakSentence != null) withButton(Modifier.weight(1f)) else Box(Modifier.weight(1f)) { sentence() }
-                        Box(Modifier.width(24.dp))
+                        Box(Modifier.width(AppSpacing.xxl))
                         Box(Modifier.weight(1f)) {
                             if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true)
                         }
@@ -415,17 +416,17 @@ private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, 
             translation.text,
             style = TextStyle(fontSize = size.sp, lineHeight = (size * spacing).sp, color = color),
             // It starts under the sentence's first letter.
-            modifier = Modifier.fillMaxWidth().padding(bottom = if (large) 0.dp else 10.dp),
+            modifier = Modifier.fillMaxWidth().padding(bottom = if (large) 0.dp else AppSpacing.m),
         )
         SentenceTranslation.Loading, null -> Row(
-            Modifier.padding(top = 2.dp, bottom = 10.dp),
+            Modifier.padding(top = AppSpacing.xxs, bottom = AppSpacing.m),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
         ) {
             AppSpinner(size = SpinnerSize.Small, color = color)
             Text(tr("Translating\u2026"), style = TextStyle(fontSize = (13 * fontScale).sp, color = color))
         }
-        SentenceTranslation.Unavailable -> Spacer(Modifier.height(6.dp))
+        SentenceTranslation.Unavailable -> Spacer(Modifier.height(AppSpacing.s))
     }
 }
 
@@ -518,7 +519,7 @@ private fun ParagraphText(
             inlineContent = inlineContent,
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(vertical = 6.dp)
+                .padding(vertical = AppSpacing.s)
                 .drawWithContent {
                     drawContent()
                     val result = layout

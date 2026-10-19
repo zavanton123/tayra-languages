@@ -81,7 +81,6 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.draw.shadow
 import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -157,8 +156,11 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
+import com.tayra.languages.core.ui.theme.AppElevation
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -307,7 +309,7 @@ fun ReadingScreen(
                 drawerShape = RectangleShape,
                 windowInsets = WindowInsets.safeDrawing,
                 // Wider than Material's 360dp drawer, so the tabs and tool tiles fit; a phone keeps a strip of the page.
-                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth(0.9f) else Modifier.width(460.dp),
+                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth(0.9f) else Modifier.width(DRAWER_WIDTH),
             ) {
                 ReaderPane(state, viewModel, paneActions, onClose = { scope.launch { drawerState.close() } })
             }
@@ -366,8 +368,8 @@ fun ReadingScreen(
                     )
                 }
                 if (wide && state.panel != ReadingPanel.None) {
-                    // 427dp with its margins; with the text card's wider margin on this side, the text's scrollbar runs midway between the card and the panel.
-                    SidePanel(404.dp, Modifier.fillMaxHeight().padding(start = 7.dp, top = 16.dp, end = 16.dp, bottom = 16.dp)) {
+                    // 428dp with its margins; with the text card's wider margin on this side, the text's scrollbar runs midway between the card and the panel.
+                    SidePanel(404.dp, Modifier.fillMaxHeight().padding(start = AppSpacing.s, top = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l)) {
                         CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) }
                     }
                 }
@@ -426,7 +428,7 @@ private fun TermSheet(enabled: Boolean, open: Boolean, onClosed: () -> Unit, she
 @Composable
 private fun SheetHandle() {
     Box(
-        Modifier.padding(top = 10.dp, bottom = 6.dp).size(width = 32.dp, height = 4.dp).clip(AppShapes.tiny)
+        Modifier.padding(top = AppSpacing.s, bottom = AppSpacing.xs).size(width = HANDLE_WIDTH, height = AppSizes.trackThin).clip(AppShapes.tiny)
             .background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = AppAlpha.disabled)),
     )
 }
@@ -434,7 +436,7 @@ private fun SheetHandle() {
 @Composable
 private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit, onHome: () -> Unit) {
     BarSurface(raised = true) {
-        Column(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = 8.dp, vertical = 4.dp)) {
+        Column(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 AppIconButton(Icons.Default.Menu, contentDescription = tr("Menu"), onClick = onMenu)
                 if (state.lesson == null && !state.news) AppIconButton(Icons.Default.Home, contentDescription = tr("Home"), onClick = onHome)
@@ -446,7 +448,7 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
                     maxLines = 1,
                 )
             }
-            PageProgress(state.pageNumber, state.pageCount, viewModel::goToPage, sliderWidth = null, modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 6.dp))
+            PageProgress(state.pageNumber, state.pageCount, viewModel::goToPage, sliderWidth = null, modifier = Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.s))
         }
     }
 }
@@ -456,13 +458,13 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
 private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit, onHome: () -> Unit, onCourses: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val rtl = state.language?.rightToLeft == true
-    Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
+    Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
         Row(Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically) {
             AppIconButton(Icons.Default.Menu, contentDescription = tr("Menu"), onClick = onMenu)
-            Spacer(Modifier.width(8.dp))
+            Spacer(Modifier.width(AppSpacing.s))
             val lesson = state.lesson
             val separator: @Composable () -> Unit = {
-                Text("/", style = MaterialTheme.typography.bodyLarge, color = colors.outline, modifier = Modifier.padding(horizontal = 8.dp))
+                Text("/", style = MaterialTheme.typography.bodyLarge, color = colors.outline, modifier = Modifier.padding(horizontal = AppSpacing.s))
             }
             if (state.news) {
                 LinkText(tr("News"), onHome, color = colors.onSurfaceVariant, icon = Icons.AutoMirrored.Filled.ArrowBack)
@@ -477,9 +479,8 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
             separator()
             Text(
                 state.book?.title.orEmpty(),
-                Modifier.weight(1f, fill = false).padding(end = 16.dp),
-                style = MaterialTheme.typography.bodyLarge.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
-                fontWeight = FontWeight.SemiBold,
+                Modifier.weight(1f, fill = false).padding(end = AppSpacing.l),
+                style = AppText.emphasis.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
             )
@@ -497,7 +498,7 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
 /** Minimal header shown in focus mode: just the menu, the page position and a way out. */
 @Composable
 private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit) {
-    Row(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+    Row(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
         AppIconButton(Icons.Default.Menu, contentDescription = tr("Menu"), onClick = onMenu)
         Spacer(Modifier.weight(1f))
         AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous page"), onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage)
@@ -528,7 +529,7 @@ private fun ReadingBody(
         return
     }
     if (state.error != null) {
-        ErrorMessage(state.error, Modifier.padding(16.dp))
+        ErrorMessage(state.error, Modifier.padding(AppSpacing.l))
         return
     }
     val speechLanguage = state.language?.name?.let { LanguageCodes.codeFor(it) }
@@ -579,7 +580,7 @@ private fun ReadingBody(
             onDragEnd = { index, shift -> viewModel.endSelection(current.items[index].index, copy = shift) },
             popupContent = { _, word ->
                 current.popup?.let { popup ->
-                    val gap = with(LocalDensity.current) { 6.dp.roundToPx() }
+                    val gap = with(LocalDensity.current) { AppSpacing.s.roundToPx() }
                     Popup(
                         popupPositionProvider = remember(word, gap) { AboveTargetPositionProvider(word, gap) },
                         onDismissRequest = viewModel::hidePopup,
@@ -601,17 +602,17 @@ private fun ReadingBody(
     }
     val compact = LocalWindowWidth.current.isCompact
     val focus = state.settings.focusMode
-    val edgePadding = if (focus || compact) 16.dp else 32.dp
+    val edgePadding = if (focus || compact) AppSpacing.l else AppSpacing.xxxl
     val cardModifier = if (focus) {
-        Modifier.widthIn(max = state.settings.readingColumnWidth.dp).padding(horizontal = edgePadding, vertical = 12.dp)
+        Modifier.widthIn(max = state.settings.readingColumnWidth.dp).padding(horizontal = edgePadding, vertical = AppSpacing.m)
     } else {
-        Modifier.padding(start = if (compact) 12.dp else 16.dp, top = if (compact) 12.dp else 16.dp, bottom = if (compact) 12.dp else 16.dp, end = if (panelBeside) 21.dp else if (compact) 12.dp else 16.dp)
-            .widthIn(max = state.settings.readingColumnWidth.dp + 64.dp)
+        Modifier.padding(start = if (compact) AppSpacing.m else AppSpacing.l, top = if (compact) AppSpacing.m else AppSpacing.l, bottom = if (compact) AppSpacing.m else AppSpacing.l, end = if (panelBeside) AppSpacing.xl else if (compact) AppSpacing.m else AppSpacing.l)
+            .widthIn(max = state.settings.readingColumnWidth.dp + AppSpacing.xxxl * 2)
             .clip(AppShapes.card)
             .background(theme.readingBackground)
             .border(AppBorders.hairline(), AppShapes.card)
             // No bottom padding: the footer runs to the card's bottom edge.
-            .padding(start = edgePadding, end = edgePadding, top = if (compact) 16.dp else 28.dp)
+            .padding(start = edgePadding, end = edgePadding, top = if (compact) AppSpacing.l else AppSpacing.xxxl)
     }
     Box(Modifier.fillMaxSize()) {
     Column(Modifier.fillMaxSize().verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -619,13 +620,12 @@ private fun ReadingBody(
             if (!focus) {
                 Text(
                     state.book?.title.orEmpty(),
-                    style = MaterialTheme.typography.headlineMedium.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
-                    fontWeight = FontWeight.Bold,
+                    style = AppText.screenTitle.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
                 )
                 PageVocabulary(state)
                 state.translationProgress?.let { TranslationProgress(it) }
                     ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
-                AppDivider(Modifier.padding(bottom = 20.dp))
+                AppDivider(Modifier.padding(bottom = AppSpacing.xl))
             }
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
             val chinese = state.language?.let { LanguageCodes.codeFor(it.name) } in setOf("zh", "yue")
@@ -674,7 +674,7 @@ private fun ReadingBody(
             }
             if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome, onPractice, onPracticeAll, edgePadding)
         }
-        Spacer(Modifier.height(120.dp))
+        Spacer(Modifier.height(CONTROLS_ROOM))
     }
     EdgeScrollbar(scrollState)
     if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
@@ -684,7 +684,7 @@ private fun ReadingBody(
             hotkeys = state.settings.hotkeys.takeUnless { LocalWindowWidth.current.isCompact },
             onPlay = continuous::toggle,
             onAutoPause = viewModel::toggleAutoPause,
-            modifier = Modifier.align(Alignment.BottomEnd).padding(24.dp),
+            modifier = Modifier.align(Alignment.BottomEnd).padding(AppSpacing.xxl),
         )
     }
     }
@@ -692,6 +692,16 @@ private fun ReadingBody(
 
 /** The small round buttons beside the play button share one size. */
 private val CONTROL_SIZE = 40.dp
+private val PLAY_CONTROL_SIZE = 60.dp
+
+/** Room under the text, so the floating play controls do not cover its end. */
+private val CONTROLS_ROOM = 120.dp
+private val DRAWER_WIDTH = 460.dp
+private val HANDLE_WIDTH = 32.dp
+private val SHORTCUTS_WIDTH = 440.dp
+private val SHORTCUT_KEYS_WIDTH = 250.dp
+private val VOCABULARY_BAR_WIDTH = 360.dp
+private val SOURCE_DIVIDER_HEIGHT = 20.dp
 
 /** The listening and paging shortcuts as they are set now, keys first. */
 @Composable
@@ -718,11 +728,11 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
         Triple(tr("Previous page"), listOf(HotkeyAction.PREVIOUS_PAGE), or),
     ).mapNotNull { (label, actions, separator) -> actions.mapNotNull { hotkeys[it] }.takeIf { it.isNotEmpty() }?.let { Triple(label, it, separator) } }
     PopupCard {
-        Column(Modifier.padding(16.dp).width(440.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(tr("Keyboard shortcuts"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+        Column(Modifier.padding(AppSpacing.l).width(SHORTCUTS_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            Text(tr("Keyboard shortcuts"), style = AppText.smallTitle)
             rows.forEach { (label, keys, separator) ->
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Row(Modifier.width(250.dp), horizontalArrangement = Arrangement.spacedBy(4.dp), verticalAlignment = Alignment.CenterVertically) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    Row(Modifier.width(SHORTCUT_KEYS_WIDTH), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
                         keys.forEachIndexed { index, key ->
                             if (index > 0) Text(separator, style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant)
                             KeyCap(key)
@@ -761,10 +771,9 @@ private fun KeyCap(hotkey: Hotkey) {
     }.joinToString(" + ")
     Text(
         label,
-        style = MaterialTheme.typography.labelMedium,
-        fontWeight = FontWeight.SemiBold,
+        style = AppText.badge,
         modifier = Modifier.clip(AppShapes.small).background(colors.surfaceVariant)
-            .border(AppBorders.hairline(), AppShapes.small).padding(horizontal = 7.dp, vertical = 3.dp),
+            .border(AppBorders.hairline(), AppShapes.small).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
     )
 }
 
@@ -787,7 +796,7 @@ private fun ContinuousControls(
     val shortcutsDescription = tr("Keyboard shortcuts")
     val playDescription = if (playing) tr("Pause reading") else tr("Read the page")
     val autoPauseDescription = if (autoPause) tr("Auto-pause on") else tr("Auto-pause off")
-    Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+    Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         if (hotkeys != null) {
             Box {
                 Box(
@@ -807,7 +816,7 @@ private fun ContinuousControls(
             }
         }
         Box(
-            Modifier.size(60.dp).shadow(6.dp, AppShapes.circle).clip(AppShapes.circle).background(colors.primary)
+            Modifier.size(PLAY_CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.primary)
                 .clickable(onClick = onPlay)
                 .semantics { contentDescription = playDescription },
             contentAlignment = Alignment.Center,
@@ -822,7 +831,7 @@ private fun ContinuousControls(
                 .semantics { contentDescription = autoPauseDescription },
             contentAlignment = Alignment.Center,
         ) {
-            Text(tr("AP"), style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold, color = if (autoPause) colors.onPrimary else colors.primary)
+            Text(tr("AP"), style = AppText.badge, color = if (autoPause) colors.onPrimary else colors.primary)
         }
     }
 }
@@ -837,11 +846,11 @@ private fun TranslationNotice(problem: LocalTranslationProblem, viewModel: Readi
             is LocalTranslationProblem.ModelMissing -> tr("Offline translation for {0} \u2192 {1} is available, but its models are not installed.", languageName(problem.fromCode), languageName(problem.toCode))
             is LocalTranslationProblem.NoModel -> tr("{0} has no {1} \u2192 {2} model. Turn offline translation off to use MyMemory.", problem.engineName, tr(problem.fromName), tr(problem.toName))
         },
-        Modifier.padding(top = 8.dp, bottom = 12.dp),
+        Modifier.padding(top = AppSpacing.s, bottom = AppSpacing.m),
         tint = if (failed) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.primary,
         icon = if (failed) Icons.Default.Warning else Icons.Default.Info,
         action = {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 when (problem) {
                     is LocalTranslationProblem.ModelMissing -> PrimaryButton(tr("Install"), onClick = viewModel::installOfflineModels)
                     is LocalTranslationProblem.NoModel -> {
@@ -861,7 +870,7 @@ private fun languageName(code: String): String = LanguageCodes.option(code)?.nam
 
 @Composable
 private fun TranslationProgress(message: String) {
-    Notice(tr("Setting up offline translation: {0}", message), Modifier.padding(top = 8.dp, bottom = 12.dp), busy = true)
+    Notice(tr("Setting up offline translation: {0}", message), Modifier.padding(top = AppSpacing.s, bottom = AppSpacing.m), busy = true)
 }
 
 /** Distribution of term statuses on the current page, shown under the title. */
@@ -869,9 +878,9 @@ private fun TranslationProgress(message: String) {
 private fun PageVocabulary(state: ReadingUiState) {
     val stats = remember(state.page) { BookStatsCalculator.calculate(state.items) }
     val colors = MaterialTheme.colorScheme
-    Row(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+    Row(Modifier.fillMaxWidth().padding(top = AppSpacing.m, bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         Text(tr("Vocabulary on this page"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        StatusDistributionBar(stats, Modifier.widthIn(max = 360.dp).weight(1f, fill = false).fillMaxWidth(), scope = "on this page")
+        StatusDistributionBar(stats, Modifier.widthIn(max = VOCABULARY_BAR_WIDTH).weight(1f, fill = false).fillMaxWidth(), scope = "on this page")
         Text(if (stats.distinctTerms > 0) tr("{0}% new", stats.unknownPercent) else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
 }
@@ -888,14 +897,14 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
     LaunchedEffect(last, state.items) { bookWords = if (last) viewModel.bookPracticeCount() else 0 }
     var choosingKinds by remember { mutableStateOf(false) }
     if (choosingKinds) PracticeKindsDialog(count = bookWords, onStart = { kinds -> choosingKinds = false; onPracticeAll(kinds) }, onDismiss = { choosingKinds = false })
-    Column(Modifier.fillMaxWidth().padding(top = 28.dp), verticalArrangement = Arrangement.spacedBy(28.dp)) {
+    Column(Modifier.fillMaxWidth().padding(top = AppSpacing.xxxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxxl)) {
         val source = state.book?.sourceUri
         if (!source.isNullOrBlank()) {
             SourceChip(source) { uriHandler.openUri(source) }
         }
         // Reaches the card's edges, below the text.
         val strip = Modifier.bleed(edgePadding).drawBehind { drawLine(colors.outlineVariant, Offset.Zero, Offset(size.width, 0f), 1.dp.toPx()) }
-            .background(colors.onSurface.copy(alpha = AppAlpha.faint)).padding(horizontal = edgePadding, vertical = if (compact) 16.dp else 20.dp)
+            .background(colors.onSurface.copy(alpha = AppAlpha.faint)).padding(horizontal = edgePadding, vertical = if (compact) AppSpacing.l else AppSpacing.xl)
         // Next page also marks this one read, which counts its words as read; on the last page that completes the book.
         val markRemaining: @Composable (Modifier) -> Unit = { modifier ->
             if (unknowns > 0) {
@@ -940,7 +949,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                         else -> tr("Back to library")
                     },
                     onHome,
-                    Modifier.heightIn(min = 48.dp),
+                    Modifier.heightIn(min = AppSizes.touch),
                     icon = Icons.AutoMirrored.Filled.ArrowBack,
                 )
                 practice(Modifier)
@@ -951,7 +960,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
             modifier = strip,
         ) { measurables, constraints ->
             // One row when the buttons fit side by side; otherwise the actions stack at full width above the way back.
-            val gap = 12.dp.roundToPx()
+            val gap = AppSpacing.m.roundToPx()
             val needed = measurables.sumOf { it.maxIntrinsicWidth(Constraints.Infinity) } + gap * (measurables.size - 1)
             val width = constraints.maxWidth
             val back = measurables.first()
@@ -969,7 +978,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                     }
                 }
             } else {
-                val rowGap = 12.dp.roundToPx()
+                val rowGap = AppSpacing.m.roundToPx()
                 val placeables = actions.map { it.measure(Constraints.fixedWidth(width)) } + back.measure(Constraints(maxWidth = width))
                 layout(width, placeables.sumOf { it.height } + rowGap * (placeables.size - 1)) {
                     var y = 0
@@ -1002,13 +1011,13 @@ private fun SourceChip(url: String, onClick: () -> Unit) {
     val host = url.substringAfter("://").substringBefore("/").removePrefix("www.")
     Row(
         Modifier.clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel).clickable(onClick = onClick)
-            .padding(horizontal = 14.dp, vertical = 10.dp),
+            .padding(horizontal = AppSpacing.m, vertical = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
         IconTile(AppIcons.Link, size = 32)
-        Text(tr("Read the full story"), style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
-        AppVerticalDivider(Modifier.height(20.dp))
+        Text(tr("Read the full story"), style = AppText.emphasis, color = colors.primary)
+        AppVerticalDivider(Modifier.height(SOURCE_DIVIDER_HEIGHT))
         Text(host, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         Icon(AppIcons.OpenInNew, contentDescription = tr("Open source"), tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconSmall))
     }
@@ -1020,7 +1029,7 @@ private fun PanelContent(state: ReadingUiState, viewModel: ReadingViewModel, onN
         ReadingPanel.None -> Unit
         is ReadingPanel.EditTerm -> EmbeddedTermForm(TermFormKey.ById(panel.termId, panel.sentence), "edit-${panel.termId}-${panel.version}", viewModel, onNavigate)
         is ReadingPanel.NewTerm -> EmbeddedTermForm(TermFormKey.ByText(panel.languageId, panel.text, panel.sentence), "new-${panel.languageId}-${panel.text}", viewModel, onNavigate)
-        is ReadingPanel.BulkEdit -> Column(Modifier.padding(12.dp)) {
+        is ReadingPanel.BulkEdit -> Column(Modifier.padding(AppSpacing.m)) {
             Text(trPlural(panel.termIds.size, "Updating {0} term", "Updating {0} terms"), style = MaterialTheme.typography.titleMedium)
             BulkEditDialog(count = panel.termIds.size, onApply = viewModel::applyBulkUpdate, onDismiss = viewModel::closePanel)
         }
