@@ -139,7 +139,7 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
             Text(levelName(level), style = AppText.sectionTitle)
             Spacer(Modifier.height(AppSpacing.s))
             // Four landmarks are all a phone's width can name.
-            LevelSlider(choices, index, onPick, named = setOf(0, 1000, 5000, choices.last()), sparse = true, caption = false)
+            LevelSlider(choices, index, onPick, named = landmarks(choices), sparse = true, caption = false)
             Spacer(Modifier.height(AppSpacing.l))
             Column(
                 Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(AppSpacing.l),
@@ -256,7 +256,10 @@ internal fun levelName(level: Int): String = when {
 }
 
 /** The levels named under the slider; the others are ticks only. */
-private val NAMED_STOPS = setOf(0, 100, 200, 300, 500, 700, 1000, 2000, 3000, 5000, 7000, 10_000)
+private val NAMED_STOPS = setOf(0, 1000, 5000, 10_000)
+
+/** The levels named under a slider over [choices]: the start, 1k, 5k and the list's end. */
+internal fun landmarks(choices: List<Int>): Set<Int> = setOf(0, 1000, 5000, choices.last())
 
 private fun shortCount(n: Int): String = when {
     n < 1000 -> "$n"
@@ -281,7 +284,8 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
         }
         Text(levelName(level), style = if (compact) MaterialTheme.typography.titleMedium else MaterialTheme.typography.titleLarge)
         Spacer(Modifier.height(if (compact) AppSpacing.m else AppSpacing.xl))
-        LevelSlider(choices, index, onPick, sparse = compact)
+        // The same four landmarks everywhere: more crowd each other and differ from screen to screen.
+        LevelSlider(choices, index, onPick, named = landmarks(choices), sparse = true)
         Spacer(Modifier.height(if (compact) AppSpacing.l else AppSpacing.xxl))
         // The words a learner at this level has just reached; at 0, the first ones to learn.
         val words = remember(list, level, choices) {

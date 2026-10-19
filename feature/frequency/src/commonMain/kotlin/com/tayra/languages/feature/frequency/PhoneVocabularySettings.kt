@@ -86,7 +86,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 }
                 Text(levelName(level), style = AppText.sectionTitle)
                 Spacer(Modifier.height(AppSpacing.s))
-                LevelSlider(choices, index, onPick, named = setOf(0, 500, 1000, 3000, 5000, choices.last()), sparse = true, caption = false)
+                LevelSlider(choices, index, onPick, named = landmarks(choices), sparse = true, caption = false)
                 Spacer(Modifier.height(AppSpacing.l))
                 val words = remember(list, level, choices) {
                     val previous = if (index == 0) 0 else choices[index - 1]
