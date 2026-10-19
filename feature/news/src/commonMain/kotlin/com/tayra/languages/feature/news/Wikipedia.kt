@@ -18,21 +18,15 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.snapshotFlow
@@ -55,15 +49,21 @@ import com.tayra.languages.core.domain.news.NewsService
 import com.tayra.languages.core.domain.news.Wiki
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.components.AppFilterChip
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.CoverageCheck
 import com.tayra.languages.core.ui.components.CoverageLine
 import com.tayra.languages.core.ui.components.DifficultyFilter
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.state.UiEvents
+import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
@@ -309,7 +309,7 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                     if (state.wikis.size > 1) {
                         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                             state.wikis.forEach { wiki ->
-                                FilterChip(selected = state.wiki == wiki, onClick = { actions.onWiki(wiki) }, label = { Text(wiki.chipLabel) }, modifier = Modifier.testTag("wiki-site-${wiki.name}"))
+                                AppFilterChip(selected = state.wiki == wiki, onClick = { actions.onWiki(wiki) }, label = { Text(wiki.chipLabel) }, modifier = Modifier.testTag("wiki-site-${wiki.name}"))
                             }
                         }
                     }
@@ -327,7 +327,7 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                         )
                         state.wiki.about?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
                     }
-                    OutlinedTextField(
+                    AppTextField(
                         value = state.query,
                         onValueChange = actions.onQuery,
                         modifier = Modifier.fillMaxWidth().testTag("wiki-search"),
@@ -335,13 +335,12 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                         leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
                         trailingIcon = if (state.query.isNotEmpty()) ({ IconButton(onClick = { actions.onQuery("") }) { Icon(Icons.Default.Close, contentDescription = tr("Clear")) } }) else null,
                         singleLine = true,
-                        shape = RoundedCornerShape(10.dp),
                     )
                     FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                         ArticleLength.entries.forEach { length ->
-                            FilterChip(selected = state.length == length, onClick = { actions.onLength(length) }, label = { Text(length.label) }, modifier = Modifier.testTag("length-${length.name}"))
+                            AppFilterChip(selected = state.length == length, onClick = { actions.onLength(length) }, label = { Text(length.label) }, modifier = Modifier.testTag("length-${length.name}"))
                         }
-                        FilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("wiki-hide-read"))
+                        AppFilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("wiki-hide-read"))
                     }
                     DifficultyFilter(state.difficulty, actions.onDifficulty)
                 }
@@ -352,7 +351,7 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                 state.error != null -> item {
                     Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                         WikiMessage(tr("{0} could not be read: {1}", state.wiki.label, state.error))
-                        OutlinedButton(onClick = actions.onRetry, shape = RoundedCornerShape(10.dp)) { Text(tr("Try again")) }
+                        SecondaryButton(tr("Try again"), onClick = actions.onRetry)
                     }
                 }
                 state.shown.isEmpty() -> item { WikiMessage(if (state.articles.isEmpty()) tr("No articles found.") else tr("No articles match these filters.")) }
@@ -378,7 +377,7 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
 private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, compact: Boolean, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val article = item.article
-    val shape = RoundedCornerShape(14.dp)
+    val shape = AppShapes.card
     val introOpened = article.url in state.opened
     val wholeOpened = NewsService.wholeKey(article) in state.opened
     Column(
@@ -390,7 +389,7 @@ private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, c
             ArticleLength.of(article.length)?.let { length ->
                 Text(
                     length.tag,
-                    Modifier.clip(RoundedCornerShape(50)).background(colors.primary.copy(alpha = 0.1f)).padding(horizontal = 8.dp, vertical = 2.dp),
+                    Modifier.clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.1f)).padding(horizontal = 8.dp, vertical = 2.dp),
                     style = MaterialTheme.typography.labelMedium,
                     color = colors.primary,
                 )
@@ -403,16 +402,14 @@ private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, c
         Spacer(Modifier.height(2.dp))
         val buttons: @Composable (Modifier) -> Unit = { m ->
             val label = if (introOpened) tr("Continue") else tr("Read the introduction")
-            Button(onClick = { actions.onOpen(item) }, enabled = !item.opening, shape = RoundedCornerShape(10.dp), modifier = m.testTag("read-${article.url}")) {
+            PrimaryButton(onClick = { actions.onOpen(item) }, enabled = !item.opening, modifier = m.testTag("read-${article.url}")) {
                 if (item.opening) {
                     CircularProgressIndicator(Modifier.size(16.dp), strokeWidth = 2.dp, color = LocalContentColor.current)
                     Spacer(Modifier.width(8.dp))
                 }
                 Text(label, fontWeight = FontWeight.SemiBold)
             }
-            TextButton(onClick = { actions.onOpenWhole(item) }, enabled = !item.opening, modifier = Modifier.testTag("whole-${article.url}")) {
-                Text(if (wholeOpened) tr("Continue the whole article") else tr("Whole article"))
-            }
+            QuietButton(if (wholeOpened) tr("Continue the whole article") else tr("Whole article"), onClick = { actions.onOpenWhole(item) }, enabled = !item.opening, modifier = Modifier.testTag("whole-${article.url}"))
         }
         if (compact) Column(verticalArrangement = Arrangement.spacedBy(4.dp)) { buttons(Modifier.fillMaxWidth()) }
         else Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) { buttons(Modifier) }

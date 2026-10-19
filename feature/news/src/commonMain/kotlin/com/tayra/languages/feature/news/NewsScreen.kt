@@ -18,21 +18,15 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.TextButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SegmentedButton
 import androidx.compose.material3.SegmentedButtonDefaults
@@ -59,12 +53,17 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.books.discover.Difficulty
 import com.tayra.languages.core.domain.news.NewsLevel
 import com.tayra.languages.core.domain.news.NewsSource
+import com.tayra.languages.core.ui.components.AppFilterChip
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.CoverageLine
 import com.tayra.languages.core.ui.components.DifficultyFilter
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
@@ -72,6 +71,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppShapes
 import org.koin.compose.viewmodel.koinViewModel
 import kotlin.time.Clock
 import kotlin.time.Instant
@@ -225,8 +225,8 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
                                         else -> tr("No articles match these filters.")
                                     },
                                 )
-                                if (state.articles.isNotEmpty()) TextButton(onClick = actions.onClear) { Text(tr("Clear filters")) }
-                                if (state.articles.isEmpty()) OutlinedButton(onClick = actions.onRefresh, shape = RoundedCornerShape(10.dp)) { Text(tr("Try again")) }
+                                if (state.articles.isNotEmpty()) QuietButton(tr("Clear filters"), onClick = actions.onClear)
+                                if (state.articles.isEmpty()) SecondaryButton(tr("Try again"), onClick = actions.onRefresh)
                             }
                         }
                         else -> items(state.shown.size, key = { state.shown[it].article.url }) { i ->
@@ -268,7 +268,7 @@ private fun Header(state: NewsUiState, compact: Boolean, tabs: @Composable () ->
 private fun Filters(state: NewsUiState, actions: NewsActions) {
     val colors = MaterialTheme.colorScheme
     Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        OutlinedTextField(
+        AppTextField(
             value = state.query,
             onValueChange = actions.onQuery,
             modifier = Modifier.fillMaxWidth().testTag("news-search"),
@@ -276,22 +276,21 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
             leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
             trailingIcon = if (state.query.isNotEmpty()) ({ IconButton(onClick = { actions.onQuery("") }) { Icon(Icons.Default.Close, contentDescription = tr("Clear")) } }) else null,
             singleLine = true,
-            shape = RoundedCornerShape(10.dp),
         )
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             NewsPeriod.entries.forEach { period ->
-                FilterChip(selected = state.period == period, onClick = { actions.onPeriod(period) }, label = { Text(period.label) }, modifier = Modifier.testTag("period-${period.name}"))
+                AppFilterChip(selected = state.period == period, onClick = { actions.onPeriod(period) }, label = { Text(period.label) }, modifier = Modifier.testTag("period-${period.name}"))
             }
             if (state.hasEasySources) {
-                FilterChip(selected = state.easyOnly, onClick = { actions.onEasyOnly(!state.easyOnly) }, label = { Text(tr("Easy language only")) }, modifier = Modifier.testTag("easy-only"))
+                AppFilterChip(selected = state.easyOnly, onClick = { actions.onEasyOnly(!state.easyOnly) }, label = { Text(tr("Easy language only")) }, modifier = Modifier.testTag("easy-only"))
             }
-            FilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("hide-read"))
+            AppFilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("hide-read"))
         }
         if (state.sources.size > 1) {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                FilterChip(selected = state.source == null, onClick = { actions.onSource(null) }, label = { Text(tr("All sources")) }, modifier = Modifier.testTag("source-all"))
+                AppFilterChip(selected = state.source == null, onClick = { actions.onSource(null) }, label = { Text(tr("All sources")) }, modifier = Modifier.testTag("source-all"))
                 state.sources.forEach { source ->
-                    FilterChip(
+                    AppFilterChip(
                         selected = state.source == source,
                         onClick = { actions.onSource(source) },
                         label = { Text(if (source.level == NewsLevel.EASY) tr("{0} · easy language", source.name) else source.name) },
@@ -304,9 +303,9 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
         val topics = state.topics
         if (topics.isNotEmpty()) {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                FilterChip(selected = state.topic == null, onClick = { actions.onTopic(null) }, label = { Text(tr("All topics")) }, modifier = Modifier.testTag("topic-all"))
+                AppFilterChip(selected = state.topic == null, onClick = { actions.onTopic(null) }, label = { Text(tr("All topics")) }, modifier = Modifier.testTag("topic-all"))
                 topics.forEach { topic ->
-                    FilterChip(selected = state.topic == topic, onClick = { actions.onTopic(topic) }, label = { Text(topic) }, modifier = Modifier.testTag("topic-$topic"))
+                    AppFilterChip(selected = state.topic == topic, onClick = { actions.onTopic(topic) }, label = { Text(topic) }, modifier = Modifier.testTag("topic-$topic"))
                 }
             }
         }
@@ -318,7 +317,7 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
                     style = MaterialTheme.typography.bodyMedium,
                     color = colors.onSurfaceVariant,
                 )
-                TextButton(onClick = actions.onClear, modifier = Modifier.testTag("clear-filters")) { Text(tr("Clear filters")) }
+                QuietButton(tr("Clear filters"), onClick = actions.onClear, modifier = Modifier.testTag("clear-filters"))
             }
         }
         if (state.stillChecking > 0) {
@@ -346,7 +345,7 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
     val colors = MaterialTheme.colorScheme
     val article = item.article
     val opened = state.opened[article.url]
-    val shape = RoundedCornerShape(14.dp)
+    val shape = AppShapes.card
     Row(
         modifier.fillMaxWidth().clip(shape).background(colors.surface).border(1.dp, colors.outlineVariant, shape).padding(16.dp).testTag("article-${article.url}"),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
@@ -364,7 +363,7 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
                 if (article.source.level == NewsLevel.EASY) {
                     Text(
                         tr("Easy language"),
-                        Modifier.clip(RoundedCornerShape(50)).background(colors.primary.copy(alpha = 0.1f)).padding(horizontal = 8.dp, vertical = 2.dp),
+                        Modifier.clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.1f)).padding(horizontal = 8.dp, vertical = 2.dp),
                         style = MaterialTheme.typography.labelMedium,
                         color = colors.primary,
                     )
@@ -385,7 +384,6 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
 
 @Composable
 private fun ReadButton(item: NewsItem, opened: Boolean, actions: NewsActions, modifier: Modifier) {
-    val shape = RoundedCornerShape(10.dp)
     val content: @Composable () -> Unit = {
         if (item.opening) {
             CircularProgressIndicator(Modifier.size(16.dp), strokeWidth = 2.dp, color = LocalContentColor.current)
@@ -394,8 +392,8 @@ private fun ReadButton(item: NewsItem, opened: Boolean, actions: NewsActions, mo
         Text(if (opened) tr("Continue") else tr("Read"), fontWeight = FontWeight.SemiBold)
     }
     val tagged = modifier.testTag("read-${item.article.url}")
-    if (opened) OutlinedButton(onClick = { actions.onOpen(item) }, enabled = !item.opening, shape = shape, modifier = tagged) { content() }
-    else Button(onClick = { actions.onOpen(item) }, enabled = !item.opening, shape = shape, modifier = tagged) { content() }
+    if (opened) SecondaryButton(onClick = { actions.onOpen(item) }, enabled = !item.opening, modifier = tagged) { content() }
+    else PrimaryButton(onClick = { actions.onOpen(item) }, enabled = !item.opening, modifier = tagged) { content() }
 }
 
 @Composable

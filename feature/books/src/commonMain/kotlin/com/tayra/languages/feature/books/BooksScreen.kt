@@ -44,9 +44,7 @@ import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.ui.text.style.TextAlign
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -59,7 +57,6 @@ import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
@@ -89,16 +86,21 @@ import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.TagFilterButton
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import com.tayra.languages.core.ui.components.ScrollList
@@ -262,13 +264,13 @@ private fun PageHeader(archived: Boolean, compact: Boolean, onNewBook: () -> Uni
             )
         }
         if (!archived) {
-            OutlinedButton(onClick = onFindBooks, shape = RoundedCornerShape(10.dp), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 12.dp), modifier = Modifier.testTag("find-books")) {
+            SecondaryButton(onClick = onFindBooks, modifier = Modifier.testTag("find-books")) {
                 Icon(Icons.Default.Search, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.width(8.dp))
                 Text(tr("Find books"), fontWeight = FontWeight.SemiBold)
             }
             Spacer(Modifier.width(12.dp))
-            Button(onClick = onNewBook, shape = RoundedCornerShape(10.dp), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 12.dp)) {
+            PrimaryButton(onClick = onNewBook) {
                 Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.width(8.dp))
                 Text(tr("New book"), fontWeight = FontWeight.SemiBold)
@@ -286,7 +288,7 @@ internal val KNOWN = Color(0xFF4CC38A)
 @Composable
 private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    val shape = RoundedCornerShape(16.dp)
+    val shape = AppShapes.large
     val card = Modifier.fillMaxWidth().padding(bottom = 24.dp).clip(shape).background(colors.primary.copy(alpha = 0.06f)).border(1.dp, colors.primary.copy(alpha = 0.16f), shape)
     val title: @Composable (Modifier) -> Unit = { m ->
         Row(m, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(20.dp)) {
@@ -311,7 +313,7 @@ private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) {
         }
     }
     val button: @Composable (Modifier) -> Unit = { m ->
-        Button(onClick = onContinue, shape = RoundedCornerShape(12.dp), modifier = m.height(48.dp).testTag("continue-reading")) {
+        PrimaryButton(onClick = onContinue, modifier = m.height(48.dp).testTag("continue-reading")) {
             Text(tr("Continue"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
         }
     }
@@ -338,7 +340,7 @@ private fun ProgressTabs(counts: Map<ProgressFilter, Int>, selected: ProgressFil
         listOf(ProgressFilter.ALL, ProgressFilter.READING, ProgressFilter.NOT_STARTED, ProgressFilter.FINISHED).forEach { filter ->
             val active = filter == selected
             Row(
-                Modifier.height(40.dp).clip(RoundedCornerShape(10.dp))
+                Modifier.height(40.dp).clip(AppShapes.control)
                     .background(if (active) colors.primary.copy(alpha = 0.1f) else Color.Transparent)
                     .clickable { onSelect(filter) }.padding(horizontal = 16.dp).testTag("progress-${filter.name}"),
                 verticalAlignment = Alignment.CenterVertically,
@@ -347,7 +349,7 @@ private fun ProgressTabs(counts: Map<ProgressFilter, Int>, selected: ProgressFil
                 Text(filter.tabLabel, style = MaterialTheme.typography.titleMedium, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium, color = if (active) colors.primary else colors.onSurfaceVariant, softWrap = false)
                 Text(
                     formatCount(counts[filter] ?: 0),
-                    Modifier.clip(RoundedCornerShape(50)).background(if (active) colors.primary.copy(alpha = 0.14f) else colors.onSurface.copy(alpha = 0.07f)).padding(horizontal = 8.dp, vertical = 1.dp),
+                    Modifier.clip(AppShapes.pill).background(if (active) colors.primary.copy(alpha = 0.14f) else colors.onSurface.copy(alpha = 0.07f)).padding(horizontal = 8.dp, vertical = 1.dp),
                     style = MaterialTheme.typography.labelLarge,
                     fontWeight = FontWeight.SemiBold,
                     color = if (active) colors.primary else colors.onSurfaceVariant,
@@ -419,7 +421,7 @@ private fun LibraryHeader(state: BooksUiState, selecting: Boolean, onSelect: () 
     }
     Row(Modifier.fillMaxWidth().padding(bottom = 14.dp), verticalAlignment = Alignment.CenterVertically) {
         Text(if (state.archived) tr("Archive") else tr("Your library"), Modifier.weight(1f), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-        if (state.filteredBooks.isNotEmpty()) TextButton(onClick = onSelect, modifier = Modifier.testTag("select-books")) { Text(tr("Select")) }
+        if (state.filteredBooks.isNotEmpty()) QuietButton(tr("Select"), onClick = onSelect, modifier = Modifier.testTag("select-books"))
     }
 }
 
@@ -429,8 +431,8 @@ private val CONTROL_HEIGHT = 48.dp
 internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier = Modifier, placeholder: String = tr("Search titles or tags")) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).background(colors.surface)
-            .border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 16.dp),
+        modifier.height(CONTROL_HEIGHT).clip(AppShapes.control).background(colors.surface)
+            .border(1.dp, colors.outlineVariant, AppShapes.control).padding(horizontal = 16.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
@@ -458,7 +460,7 @@ private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, o
     var open by remember { mutableStateOf(false) }
     Box(modifier) {
         Row(
-            Modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+            Modifier.height(CONTROL_HEIGHT).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control)
                 .background(colors.surface).clickable { open = true }.padding(start = 16.dp, end = 10.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(12.dp),
@@ -479,14 +481,14 @@ private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, o
 private fun ViewToggle(selected: BooksView, onSelect: (BooksView) -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+        Modifier.height(CONTROL_HEIGHT).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control)
             .background(colors.surface).padding(4.dp),
         horizontalArrangement = Arrangement.spacedBy(4.dp),
     ) {
         listOf(BooksView.LIST to AppIcons.ViewList, BooksView.GRID to AppIcons.GridView).forEach { (view, icon) ->
             val active = view == selected
             Box(
-                Modifier.fillMaxHeight().width(44.dp).clip(RoundedCornerShape(8.dp))
+                Modifier.fillMaxHeight().width(44.dp).clip(AppShapes.compact)
                     .background(if (active) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
                     .clickable { onSelect(view) },
                 contentAlignment = Alignment.Center,
@@ -509,7 +511,7 @@ private val MENU_WIDTH = 72.dp
 private fun BookTable(state: BooksUiState, selecting: Boolean, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).background(colors.surface),
+        Modifier.fillMaxWidth().clip(AppShapes.card).border(1.dp, colors.outlineVariant, AppShapes.card).background(colors.surface),
     ) {
         TableHeader(state, selecting, callbacks)
         state.filteredBooks.forEach { book ->
@@ -547,7 +549,7 @@ private fun RowScope.HeaderCell(label: String, weight: Float, active: Boolean = 
         val tint = if (active) MaterialTheme.colorScheme.primary else LocalContentColor.current
         Text(
             label,
-            (if (onClick != null) Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onClick) else Modifier).padding(vertical = 2.dp),
+            (if (onClick != null) Modifier.clip(AppShapes.small).clickable(onClick = onClick) else Modifier).padding(vertical = 2.dp),
             color = tint,
             fontWeight = FontWeight.Medium,
         )
@@ -599,7 +601,7 @@ internal fun StatusTag(status: ReadingStatus) {
     }
     Text(
         label,
-        Modifier.clip(RoundedCornerShape(50)).background(tint.copy(alpha = 0.12f)).padding(horizontal = 12.dp, vertical = 4.dp),
+        Modifier.clip(AppShapes.pill).background(tint.copy(alpha = 0.12f)).padding(horizontal = 12.dp, vertical = 4.dp),
         style = MaterialTheme.typography.labelLarge,
         color = tint,
         maxLines = 1,
@@ -617,7 +619,7 @@ internal fun BookTags(tags: List<String>, max: Int = 3) {
         (tags.take(max) + listOfNotNull(if (tags.size > max) "+${tags.size - max}" else null)).forEach { tag ->
             Text(
                 tag,
-                Modifier.clip(RoundedCornerShape(50)).background(colors.onSurface.copy(alpha = 0.06f)).padding(horizontal = 10.dp, vertical = 2.dp),
+                Modifier.clip(AppShapes.pill).background(colors.onSurface.copy(alpha = 0.06f)).padding(horizontal = 10.dp, vertical = 2.dp),
                 style = MaterialTheme.typography.labelMedium,
                 color = colors.onSurfaceVariant,
                 maxLines = 1,
@@ -632,8 +634,8 @@ internal fun BookTags(tags: List<String>, max: Int = 3) {
 internal fun PercentBar(percent: Int?, color: Color) {
     val colors = MaterialTheme.colorScheme
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-        Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(4.dp)).background(colors.onSurface.copy(alpha = 0.07f))) {
-            if (percent != null && percent > 0) Box(Modifier.fillMaxWidth(percent / 100f).fillMaxHeight().clip(RoundedCornerShape(4.dp)).background(color))
+        Box(Modifier.weight(1f).height(8.dp).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = 0.07f))) {
+            if (percent != null && percent > 0) Box(Modifier.fillMaxWidth(percent / 100f).fillMaxHeight().clip(AppShapes.tiny).background(color))
         }
         Text(percent?.let { "$it%" } ?: "…", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.width(40.dp), softWrap = false)
     }
@@ -659,7 +661,7 @@ private fun BookGrid(books: List<BookListItem>, selected: Set<Long>, selecting: 
 @Composable
 private fun BookCard(book: BookListItem, selected: Boolean, selecting: Boolean, callbacks: BooksCallbacks, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
-    val shape = RoundedCornerShape(14.dp)
+    val shape = AppShapes.card
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
     Column(
@@ -764,15 +766,15 @@ internal fun SelectionBar(state: BooksUiState, callbacks: BooksCallbacks, onDone
     val count = state.selectedBooks.size
     val all = count > 0 && count == state.filteredBooks.size
     Row(
-        Modifier.fillMaxWidth().padding(bottom = 14.dp).clip(RoundedCornerShape(12.dp)).background(colors.primary.copy(alpha = 0.07f))
-            .border(1.dp, colors.primary.copy(alpha = 0.2f), RoundedCornerShape(12.dp)).padding(start = 6.dp, end = 8.dp, top = 2.dp, bottom = 2.dp),
+        Modifier.fillMaxWidth().padding(bottom = 14.dp).clip(AppShapes.panel).background(colors.primary.copy(alpha = 0.07f))
+            .border(1.dp, colors.primary.copy(alpha = 0.2f), AppShapes.panel).padding(start = 6.dp, end = 8.dp, top = 2.dp, bottom = 2.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Checkbox(checked = all, onCheckedChange = callbacks.onSelectAll, modifier = Modifier.semantics { contentDescription = tr("Select all books") })
         Text(tr("{0} of {1} selected", count, state.filteredBooks.size), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
-        TextButton(onClick = callbacks.onArchiveSelected, enabled = count > 0) { Text(if (state.archived) tr("Unarchive") else tr("Archive")) }
-        TextButton(onClick = callbacks.onDeleteSelected, enabled = count > 0) { Text(tr("Delete"), color = if (count > 0) colors.error else colors.outline) }
-        TextButton(onClick = onDone, modifier = Modifier.testTag("done-selecting")) { Text(tr("Done")) }
+        QuietButton(if (state.archived) tr("Unarchive") else tr("Archive"), onClick = callbacks.onArchiveSelected, enabled = count > 0)
+        QuietButton(tr("Delete"), onClick = callbacks.onDeleteSelected, enabled = count > 0, tone = ButtonTone.Danger)
+        QuietButton(tr("Done"), onClick = onDone, modifier = Modifier.testTag("done-selecting"))
     }
 }
 
@@ -812,7 +814,7 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
     val language = state.languageName
     val downloading = state.packState is PackState.Downloading
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(20.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(20.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large)
             .padding(horizontal = if (compact) 20.dp else 48.dp, vertical = if (compact) 28.dp else 36.dp).testTag("empty-library"),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
@@ -847,19 +849,19 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
         Spacer(Modifier.height(24.dp))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             if (state.packAvailable) {
-                Button(onClick = onDownloadBooks, enabled = !downloading, shape = RoundedCornerShape(12.dp), contentPadding = PaddingValues(horizontal = 24.dp, vertical = 14.dp), modifier = Modifier.testTag("download-books")) {
+                PrimaryButton(onClick = onDownloadBooks, enabled = !downloading, modifier = Modifier.testTag("download-books")) {
                     if (downloading) CircularProgressIndicator(Modifier.size(20.dp), color = colors.onPrimary, strokeWidth = 2.dp)
                     else Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(20.dp))
                     Spacer(Modifier.width(10.dp))
                     Text(if (downloading) tr("Downloading…") else tr("Download the book bundle"), fontWeight = FontWeight.SemiBold)
                 }
             }
-            OutlinedButton(onClick = onFindBooks, shape = RoundedCornerShape(12.dp), contentPadding = PaddingValues(horizontal = 24.dp, vertical = 14.dp), modifier = Modifier.testTag("empty-find-books")) {
+            SecondaryButton(onClick = onFindBooks, modifier = Modifier.testTag("empty-find-books")) {
                 Icon(Icons.Default.Search, contentDescription = null, modifier = Modifier.size(20.dp))
                 Spacer(Modifier.width(10.dp))
                 Text(tr("Find free books"), fontWeight = FontWeight.SemiBold)
             }
-            OutlinedButton(onClick = onNewBook, shape = RoundedCornerShape(12.dp), contentPadding = PaddingValues(horizontal = 24.dp, vertical = 14.dp)) {
+            SecondaryButton(onClick = onNewBook) {
                 Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(20.dp))
                 Spacer(Modifier.width(10.dp))
                 Text(tr("Add a book"), fontWeight = FontWeight.SemiBold)
@@ -871,13 +873,13 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
 @Composable
 internal fun EmptyState(archived: Boolean, onNewBook: () -> Unit) {
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(32.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.card).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         Icon(AppIcons.Book, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(36.dp))
         Text(if (archived) tr("No archived books.") else tr("No books match these filters."), style = MaterialTheme.typography.titleMedium)
-        if (!archived) TextButton(onClick = onNewBook) { Text(tr("Create a book")) }
+        if (!archived) QuietButton(tr("Create a book"), onClick = onNewBook)
     }
 }
 

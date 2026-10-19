@@ -17,12 +17,10 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material3.Button
 import androidx.compose.material3.FilledIconButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -47,12 +45,14 @@ import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.PickerSheet
+import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.TagFilterSheet
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /** The phone bar's list menu (ticking books, the archive) and the button for a new book. */
 @Composable
@@ -143,7 +143,7 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
 @Composable
 private fun PhoneContinueCard(book: BookListItem, onContinue: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    val shape = RoundedCornerShape(16.dp)
+    val shape = AppShapes.large
     Column(
         Modifier.fillMaxWidth().padding(bottom = 16.dp).clip(shape).background(colors.primary.copy(alpha = 0.06f)).border(1.dp, colors.primary.copy(alpha = 0.16f), shape).padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp),
@@ -160,7 +160,7 @@ private fun PhoneContinueCard(book: BookListItem, onContinue: () -> Unit) {
             LabelledBar(tr("{0}% read", book.progressPercent), book.progressPercent, PROGRESS)
             LabelledBar(book.masteryPercent?.let { tr("{0}% known", it) } ?: "…", book.masteryPercent, KNOWN)
         }
-        Button(onClick = onContinue, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(48.dp).testTag("continue-reading")) {
+        PrimaryButton(onClick = onContinue, modifier = Modifier.fillMaxWidth().height(48.dp).testTag("continue-reading")) {
             Text(tr("Continue"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
         }
     }
@@ -172,8 +172,8 @@ private fun LabelledBar(label: String, percent: Int?, color: Color) {
     val colors = MaterialTheme.colorScheme
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Text(label, Modifier.width(96.dp), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, softWrap = false)
-        Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(4.dp)).background(colors.onSurface.copy(alpha = 0.07f))) {
-            if (percent != null && percent > 0) Box(Modifier.fillMaxWidth(percent / 100f).height(8.dp).clip(RoundedCornerShape(4.dp)).background(color))
+        Box(Modifier.weight(1f).height(8.dp).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = 0.07f))) {
+            if (percent != null && percent > 0) Box(Modifier.fillMaxWidth(percent / 100f).height(8.dp).clip(AppShapes.tiny).background(color))
         }
     }
 }
@@ -186,7 +186,7 @@ private fun PhoneProgressTabs(counts: Map<ProgressFilter, Int>, selected: Progre
         listOf(ProgressFilter.ALL, ProgressFilter.READING, ProgressFilter.NOT_STARTED, ProgressFilter.FINISHED).forEach { filter ->
             val active = filter == selected
             Row(
-                Modifier.height(40.dp).clip(RoundedCornerShape(10.dp))
+                Modifier.height(40.dp).clip(AppShapes.control)
                     .background(if (active) colors.primary.copy(alpha = 0.1f) else colors.onSurface.copy(alpha = 0.05f))
                     .clickable { onSelect(filter) }.padding(horizontal = 14.dp).testTag("progress-${filter.name}"),
                 verticalAlignment = Alignment.CenterVertically,
@@ -195,7 +195,7 @@ private fun PhoneProgressTabs(counts: Map<ProgressFilter, Int>, selected: Progre
                 Text(filter.tabLabel, style = MaterialTheme.typography.bodyLarge, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium, color = if (active) colors.primary else colors.onSurfaceVariant, softWrap = false)
                 Text(
                     formatCount(counts[filter] ?: 0),
-                    Modifier.clip(RoundedCornerShape(50)).background(if (active) colors.primary.copy(alpha = 0.14f) else colors.onSurface.copy(alpha = 0.07f)).padding(horizontal = 8.dp, vertical = 1.dp),
+                    Modifier.clip(AppShapes.pill).background(if (active) colors.primary.copy(alpha = 0.14f) else colors.onSurface.copy(alpha = 0.07f)).padding(horizontal = 8.dp, vertical = 1.dp),
                     style = MaterialTheme.typography.labelLarge,
                     fontWeight = FontWeight.SemiBold,
                     color = if (active) colors.primary else colors.onSurfaceVariant,
@@ -219,8 +219,8 @@ private fun ToolbarButton(
     val colors = MaterialTheme.colorScheme
     val tint = if (active) colors.primary else colors.onSurface
     Row(
-        modifier.height(48.dp).clip(RoundedCornerShape(10.dp)).background(colors.surface)
-            .border(if (active) 1.5.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, RoundedCornerShape(10.dp))
+        modifier.height(48.dp).clip(AppShapes.control).background(colors.surface)
+            .border(if (active) 1.5.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, AppShapes.control)
             .clickable(onClick = onClick).padding(start = 14.dp, end = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
@@ -230,7 +230,7 @@ private fun ToolbarButton(
         if (badge > 0) {
             Text(
                 "$badge",
-                Modifier.clip(RoundedCornerShape(50)).background(colors.primary).padding(horizontal = 8.dp, vertical = 1.dp),
+                Modifier.clip(AppShapes.pill).background(colors.primary).padding(horizontal = 8.dp, vertical = 1.dp),
                 style = MaterialTheme.typography.labelLarge,
                 color = colors.onPrimary,
                 fontWeight = FontWeight.SemiBold,
@@ -244,7 +244,7 @@ private fun ToolbarButton(
 @Composable
 private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Boolean, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
-    val shape = RoundedCornerShape(14.dp)
+    val shape = AppShapes.card
     Column(
         Modifier.fillMaxWidth().clip(shape).border(1.dp, if (selected) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant, shape)
             .background(if (selected) colors.primary.copy(alpha = 0.05f) else colors.surface)

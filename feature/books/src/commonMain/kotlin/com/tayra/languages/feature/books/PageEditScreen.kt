@@ -7,10 +7,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -24,10 +21,13 @@ import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.BookService
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
@@ -111,7 +111,7 @@ fun PageEditScreen(
         Column(Modifier.padding(padding).fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             ScreenTitle(title)
             ErrorMessage(state.error)
-            OutlinedTextField(
+            AppTextField(
                 value = state.text,
                 onValueChange = viewModel::setText,
                 label = { Text(tr("Text")) },
@@ -119,8 +119,8 @@ fun PageEditScreen(
                 modifier = Modifier.fillMaxWidth().weight(1f),
             )
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Button(onClick = viewModel::save, enabled = !state.saving) { Text(tr("Save")) }
-                OutlinedButton(onClick = onBack) { Text(tr("Cancel")) }
+                PrimaryButton(tr("Save"), onClick = viewModel::save, enabled = !state.saving)
+                SecondaryButton(tr("Cancel"), onClick = onBack)
             }
         }
     }

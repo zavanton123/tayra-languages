@@ -17,20 +17,15 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SegmentedButton
 import androidx.compose.material3.SegmentedButtonDefaults
 import androidx.compose.material3.SingleChoiceSegmentedButtonRow
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -48,6 +43,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.books.discover.BookSource
 import com.tayra.languages.core.domain.books.discover.Difficulty
+import com.tayra.languages.core.ui.components.AppFilterChip
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.CoverageLine
 import com.tayra.languages.core.ui.components.DifficultyFilter
@@ -55,12 +51,15 @@ import com.tayra.languages.core.ui.components.color
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppShapes
 import org.koin.compose.viewmodel.koinViewModel
 
 /** Free books to add to the library, found in online libraries and judged by the words the reader knows. */
@@ -168,7 +167,7 @@ private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact
         } else {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 sources.forEach { source ->
-                    FilterChip(selected = state.source == source, onClick = { actions.onSource(source) }, label = { Text(source.label) }, modifier = Modifier.testTag("source-${source.name}"))
+                    AppFilterChip(selected = state.source == source, onClick = { actions.onSource(source) }, label = { Text(source.label) }, modifier = Modifier.testTag("source-${source.name}"))
                 }
             }
         }
@@ -181,13 +180,13 @@ private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact
 private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compact: Boolean, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val book = item.book
-    val shape = RoundedCornerShape(14.dp)
+    val shape = AppShapes.card
     Row(
         modifier.fillMaxWidth().clip(shape).background(colors.surface).border(1.dp, colors.outlineVariant, shape).padding(16.dp).testTag("found-${book.id}"),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         if (!compact) {
-            Box(Modifier.size(56.dp, 76.dp).clip(RoundedCornerShape(6.dp)).background((item.difficulty?.color ?: colors.primary).copy(alpha = 0.14f)), contentAlignment = Alignment.Center) {
+            Box(Modifier.size(56.dp, 76.dp).clip(AppShapes.small).background((item.difficulty?.color ?: colors.primary).copy(alpha = 0.14f)), contentAlignment = Alignment.Center) {
                 Icon(AppIcons.MenuBook, contentDescription = null, tint = item.difficulty?.color ?: colors.primary, modifier = Modifier.size(28.dp))
             }
         }
@@ -209,12 +208,11 @@ private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compac
 
 @Composable
 private fun BookAction(item: FoundBookItem, actions: FindBooksActions, modifier: Modifier) {
-    val shape = RoundedCornerShape(10.dp)
     when {
-        item.libraryId != null -> OutlinedButton(onClick = { actions.onRead(item) }, shape = shape, modifier = modifier.testTag("read-${item.book.id}")) {
+        item.libraryId != null -> SecondaryButton(onClick = { actions.onRead(item) }, modifier = modifier.testTag("read-${item.book.id}")) {
             Text(tr("Read"), fontWeight = FontWeight.SemiBold)
         }
-        else -> Button(onClick = { actions.onAdd(item) }, enabled = !item.adding, shape = shape, modifier = modifier.testTag("add-${item.book.id}")) {
+        else -> PrimaryButton(onClick = { actions.onAdd(item) }, enabled = !item.adding, modifier = modifier.testTag("add-${item.book.id}")) {
             if (item.adding) {
                 CircularProgressIndicator(Modifier.size(16.dp), strokeWidth = 2.dp, color = LocalContentColor.current)
                 Spacer(Modifier.width(8.dp))
@@ -231,7 +229,7 @@ private fun ErrorBox(state: FindBooksUiState, actions: FindBooksActions) {
     Column(Modifier.fillMaxWidth().padding(vertical = 32.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Text(tr("Could not reach {0}.", state.source.libraryName), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
         state.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center) }
-        OutlinedButton(onClick = actions.onRetry, shape = RoundedCornerShape(10.dp)) { Text(tr("Try again")) }
+        SecondaryButton(tr("Try again"), onClick = actions.onRetry)
     }
 }
 
@@ -250,7 +248,7 @@ private fun EmptyBox(state: FindBooksUiState, actions: FindBooksActions) {
             textAlign = TextAlign.Center,
         )
         if (state.books.isEmpty() && state.languageName.isNotEmpty()) {
-            OutlinedButton(onClick = { actions.onSource(other) }, shape = RoundedCornerShape(10.dp)) { Text(tr("Look in {0}", other.libraryName)) }
+            SecondaryButton(tr("Look in {0}", other.libraryName), onClick = { actions.onSource(other) })
         }
     }
 }

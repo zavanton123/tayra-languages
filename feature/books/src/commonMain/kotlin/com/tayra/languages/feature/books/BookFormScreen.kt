@@ -14,21 +14,15 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -47,7 +41,9 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.data.files.FileTextExtractor
 import com.tayra.languages.core.domain.model.BookDraft
+import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
@@ -59,7 +55,10 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TagInput
 import com.tayra.languages.core.ui.i18n.tr
@@ -68,6 +67,7 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppShapes
 import io.github.vinceglb.filekit.PlatformFile
 import io.github.vinceglb.filekit.dialogs.FileKitMode
 import io.github.vinceglb.filekit.dialogs.FileKitType
@@ -192,12 +192,11 @@ private fun BookContentCard(
         when (if (state.isNew) source else ContentSource.PASTE) {
             ContentSource.PASTE -> {
                 FieldLabel(tr("Text"))
-                OutlinedTextField(
+                AppTextField(
                     value = state.draft.text,
                     onValueChange = { text -> viewModel.update { it.copy(text = text) } },
                     placeholder = { Text(state.language?.name?.let { tr("Paste your {0} text here…", languageInSentence(it, LanguageCase.PREPOSITIONAL)) } ?: tr("Paste your text here…")) },
                     textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
-                    shape = RoundedCornerShape(10.dp),
                     modifier = Modifier.fillMaxWidth().height(400.dp),
                 )
                 Spacer(Modifier.height(8.dp))
@@ -222,12 +221,12 @@ private fun wordCount(text: String): Int = text.split(Regex("\\s+")).count { wor
 
 @Composable
 private fun SourceToggle(selected: ContentSource, onSelect: (ContentSource) -> Unit) {
-    Row(Modifier.clip(RoundedCornerShape(12.dp)).background(MaterialTheme.colorScheme.surfaceContainer).padding(4.dp)) {
+    Row(Modifier.clip(AppShapes.panel).background(MaterialTheme.colorScheme.surfaceContainer).padding(4.dp)) {
         ContentSource.entries.forEach { option ->
             val active = option == selected
             val icon: ImageVector = if (option == ContentSource.PASTE) AppIcons.FileOutline else AppIcons.UploadFile
             Row(
-                Modifier.clip(RoundedCornerShape(9.dp))
+                Modifier.clip(AppShapes.compact)
                     .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.14f) else Color.Transparent)
                     .clickable { onSelect(option) }
                     .padding(horizontal = 22.dp, vertical = 10.dp),
@@ -248,9 +247,9 @@ private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -
     var dropping by remember { mutableStateOf(false) }
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().height(400.dp).clip(RoundedCornerShape(12.dp))
+        Modifier.fillMaxWidth().height(400.dp).clip(AppShapes.panel)
             .background(if (dropping) colors.primary.copy(alpha = 0.06f) else colors.surfaceContainerLow)
-            .border(if (dropping) 2.dp else 1.dp, if (dropping) colors.primary else colors.outlineVariant, RoundedCornerShape(12.dp))
+            .border(if (dropping) 2.dp else 1.dp, if (dropping) colors.primary else colors.outlineVariant, AppShapes.panel)
             .acceptsDroppedFiles(enabled = !state.busy, onHover = { dropping = it }, onFiles = onDropFiles)
             .clickable(enabled = !state.busy, onClick = onChooseFile)
             .padding(24.dp),
@@ -279,8 +278,8 @@ private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -
         }
         Spacer(Modifier.height(16.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            Button(onClick = onChooseFile, enabled = !state.busy, shape = RoundedCornerShape(50)) { Text(if (state.busy) tr("Reading…") else tr("Choose file")) }
-            onTakePhoto?.let { take -> OutlinedButton(onClick = take, enabled = !state.busy, shape = RoundedCornerShape(50)) { Text(tr("Take photo")) } }
+            PrimaryButton(if (state.busy) tr("Reading…") else tr("Choose file"), onClick = onChooseFile, enabled = !state.busy)
+            onTakePhoto?.let { take -> SecondaryButton(tr("Take photo"), onClick = take, enabled = !state.busy) }
         }
         state.importedFileName?.let {
             Spacer(Modifier.height(10.dp))
@@ -308,13 +307,12 @@ private fun DetailsCard(state: BookFormUiState, viewModel: BookFormViewModel, mo
             Spacer(Modifier.height(16.dp))
         }
         FieldLabel(tr("Title"))
-        OutlinedTextField(
+        AppTextField(
             value = draft.title,
             onValueChange = { title -> viewModel.update { it.copy(title = title) } },
             placeholder = { Text(tr("Enter a title")) },
             singleLine = true,
             textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
-            shape = RoundedCornerShape(10.dp),
             modifier = Modifier.fillMaxWidth(),
         )
         Spacer(Modifier.height(16.dp))
@@ -340,11 +338,10 @@ private fun PageSetupCard(state: BookFormUiState, viewModel: BookFormViewModel) 
     val draft = state.draft
     ContentCard(tr("Page setup"), tr("Control how your book is split into pages."), icon = Icons.Default.Settings) {
         FieldLabel(tr("Words per page"))
-        OutlinedTextField(
+        AppTextField(
             value = draft.wordsPerPage.toString(),
             onValueChange = { v -> v.filter { it.isDigit() }.take(4).toIntOrNull()?.let { n -> viewModel.update { it.copy(wordsPerPage = n) } } },
             singleLine = true,
-            shape = RoundedCornerShape(10.dp),
             modifier = Modifier.fillMaxWidth(),
         )
         Text(
@@ -385,9 +382,9 @@ private fun ActionBar(state: BookFormUiState, onCancel: () -> Unit, onSave: () -
                         .padding(horizontal = if (LocalWindowWidth.current.isCompact) 16.dp else 48.dp, vertical = 12.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    OutlinedButton(onClick = onCancel, shape = RoundedCornerShape(10.dp)) { Text(tr("Cancel"), Modifier.padding(horizontal = 12.dp)) }
+                    SecondaryButton(onClick = onCancel) { Text(tr("Cancel"), Modifier.padding(horizontal = 12.dp)) }
                     Spacer(Modifier.weight(1f))
-                    Button(onClick = onSave, enabled = !state.busy, shape = RoundedCornerShape(10.dp)) {
+                    PrimaryButton(onClick = onSave, enabled = !state.busy) {
                         Text(if (state.isNew) tr("Create book") else tr("Save changes"), Modifier.padding(horizontal = 12.dp))
                     }
                 }
@@ -399,7 +396,7 @@ private fun ActionBar(state: BookFormUiState, onCancel: () -> Unit, onSave: () -
 /** Asks before downloading the model that reading the language from photos needs. */
 @Composable
 private fun OcrDownloadDialog(offer: OcrOffer, onDownload: () -> Unit, onCancel: () -> Unit) {
-    AlertDialog(
+    AppDialog(
         onDismissRequest = onCancel,
         title = { Text(tr("Download text recognition?")) },
         text = {
@@ -408,7 +405,7 @@ private fun OcrDownloadDialog(offer: OcrOffer, onDownload: () -> Unit, onCancel:
                     ?: tr("Reading {0} from photos needs a recognition model, which Google Play downloads once.", languageInSentence(offer.languageName, LanguageCase.PREPOSITIONAL)),
             )
         },
-        confirmButton = { TextButton(onClick = onDownload) { Text(tr("Download")) } },
-        dismissButton = { TextButton(onClick = onCancel) { Text(tr("Cancel")) } },
+        confirmButton = { QuietButton(tr("Download"), onClick = onDownload) },
+        dismissButton = { QuietButton(tr("Cancel"), onClick = onCancel) },
     )
 }
