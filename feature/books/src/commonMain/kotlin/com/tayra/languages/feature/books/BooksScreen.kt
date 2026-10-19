@@ -287,7 +287,7 @@ private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) {
                 Text(tr("Continue reading"), style = AppText.smallTitle, color = colors.primary)
                 Text(book.title, style = AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(
-                    tr("Page {0} of {1} · {2}% read", book.currentPage, book.pageCount, book.progressPercent),
+                    tr("Page {0} of {1} · {2}", book.currentPage, book.pageCount, words(book.wordCount)),
                     style = MaterialTheme.typography.bodyLarge,
                     color = colors.onSurfaceVariant,
                 )

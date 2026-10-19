@@ -113,7 +113,7 @@ class BooksScreenTest {
         System.getenv("BOOKS_SCREENSHOT")?.let { save(it) }
 
         // Only the card of the book being read gives its page; the list does not.
-        onNodeWithText("Page 3 of 5 · 60% read").assertExists()
+        onNodeWithText("Page 3 of 5 · 1,223 words").assertExists()
         assertEquals(1, onAllNodesWithText("Page ", substring = true).fetchSemanticsNodes().size)
         onNodeWithText("Continue reading").assertExists()
         assertTrue(onAllNodesWithText("60%").fetchSemanticsNodes().size >= 2)
