@@ -14,10 +14,8 @@ import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -31,7 +29,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathEffect
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.SpanStyle
@@ -45,6 +42,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.frequency.VocabularyLevelService
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.LoadingIndicator
@@ -53,6 +51,7 @@ import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.navigation.Route
@@ -65,9 +64,6 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import org.koin.compose.viewmodel.koinViewModel
 import com.tayra.languages.core.ui.components.ScrollColumn
-
-/** The colour of words the level covers, in the picker and the example. */
-internal val KNOWN_GREEN = Color(0xFF2E9D57)
 
 @Composable
 fun VocabularySettingsScreen(onNavigate: (Route) -> Unit, viewModel: VocabularySettingsViewModel = koinViewModel()) {
@@ -160,7 +156,7 @@ internal fun VocabularySettingsContent(
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             PrimaryButton(tr("Set vocabulary level"), onClick = { confirming = true }, enabled = state.picked != null && !state.saving, modifier = Modifier.testTag("set-vocabulary-level"))
             if (state.saving) {
-                CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
+                AppSpinner(size = SpinnerSize.Small)
                 Text(tr("Saving…"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             Spacer(Modifier.weight(1f))

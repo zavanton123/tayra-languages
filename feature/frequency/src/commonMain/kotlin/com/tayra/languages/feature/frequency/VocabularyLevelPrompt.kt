@@ -10,9 +10,6 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.Slider
 import androidx.compose.runtime.remember
 import androidx.compose.ui.draw.clip
@@ -34,16 +31,10 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.material3.ModalBottomSheet
-import androidx.compose.material3.rememberModalBottomSheetState
-import androidx.compose.ui.unit.Dp
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.widthIn
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -53,16 +44,23 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.window.Dialog
-import androidx.compose.ui.window.DialogProperties
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.ui.components.AppBottomSheet
+import com.tayra.languages.core.ui.components.AppDialogSurface
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
@@ -99,18 +97,12 @@ fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: Vo
         PhonePromptSheet(ready, state, onPick = viewModel::pick, onSave = viewModel::save, onLater = later)
         return
     }
-    Dialog(onDismissRequest = {}, properties = DialogProperties(usePlatformDefaultWidth = false, dismissOnClickOutside = false)) {
-        Surface(
-            Modifier.widthIn(max = 1180.dp).fillMaxWidth(0.94f).padding(vertical = 24.dp).testTag("vocabulary-level-prompt"),
-            shape = AppShapes.large,
-            color = MaterialTheme.colorScheme.surface,
-        ) {
-            if (!ready) {
-                Box(Modifier.fillMaxWidth().heightIn(min = 240.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
-                return@Surface
-            }
-            VocabularyLevelPromptContent(state, onPick = viewModel::pick, onSave = viewModel::save, onLater = later)
+    AppDialogSurface(onDismissRequest = {}, modifier = Modifier.testTag("vocabulary-level-prompt"), maxWidth = 1180.dp, dismissible = false) {
+        if (!ready) {
+            Box(Modifier.fillMaxWidth().heightIn(min = 240.dp), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
+            return@AppDialogSurface
         }
+        VocabularyLevelPromptContent(state, onPick = viewModel::pick, onSave = viewModel::save, onLater = later)
     }
 }
 
@@ -118,30 +110,21 @@ fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: Vo
  * The prompt on a phone: a bottom sheet with the question, the estimate and its slider, and the
  * sample text coloured by it; swiping it away puts the question off, like Skip for now.
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit, onLater: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    ModalBottomSheet(
-        onDismissRequest = onLater,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
-        sheetMaxWidth = Dp.Unspecified,
-        containerColor = colors.surface,
-        modifier = Modifier.testTag("vocabulary-level-prompt"),
-    ) {
+    AppBottomSheet(onDismissRequest = onLater, modifier = Modifier.testTag("vocabulary-level-prompt")) {
         val list = state.list
         if (!ready || list == null) {
-            Box(Modifier.fillMaxWidth().heightIn(min = 240.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
-            return@ModalBottomSheet
+            Box(Modifier.fillMaxWidth().heightIn(min = 240.dp), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
+            return@AppBottomSheet
         }
         val level = state.picked ?: state.level
         val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
         val index = choices.indexOf(level).coerceAtLeast(0)
         Column(Modifier.padding(horizontal = 20.dp)) {
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-                IconButton(onClick = onLater, enabled = !state.saving, modifier = Modifier.clip(CircleShape).background(colors.surfaceContainerHigh)) {
-                    Icon(Icons.Default.Close, contentDescription = tr("Close"))
-                }
+                AppIconButton(Icons.Default.Close, tr("Close"), onLater, Modifier.clip(CircleShape).background(colors.surfaceContainerHigh), enabled = !state.saving)
             }
             Spacer(Modifier.height(8.dp))
             Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
@@ -177,7 +160,7 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
             }
             Spacer(Modifier.height(16.dp))
         }
-        HorizontalDivider(color = colors.outlineVariant)
+        AppDivider()
         PromptButtons(state, level, onSave, onLater, Modifier.padding(horizontal = 20.dp, vertical = 12.dp), compact = true)
     }
 }
@@ -191,7 +174,7 @@ internal fun colouredExample(state: VocabularySettingsUiState, level: Int) = bui
         val color = when {
             !token.isWord -> colors.onSurface
             token.rank == null -> outside
-            token.rank <= level -> KNOWN_GREEN
+            token.rank <= level -> AppAccents.green
             else -> colors.primary
         }
         withStyle(SpanStyle(color = color)) { append(token.text) }
@@ -215,7 +198,7 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
                         color = colors.onSurfaceVariant,
                     )
                 }
-                IconButton(onClick = onLater, enabled = !state.saving) { Icon(Icons.Default.Close, contentDescription = tr("Close")) }
+                AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving)
             }
             Spacer(Modifier.height(24.dp))
             if (width.isExpanded) {
@@ -229,7 +212,7 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
                 PreviewCard(state, level, Modifier.fillMaxWidth())
             }
         }
-        HorizontalDivider(color = colors.outlineVariant)
+        AppDivider()
         PromptButtons(state, level, onSave, onLater, Modifier.padding(horizontal = 28.dp, vertical = 20.dp))
     }
 }
@@ -244,7 +227,7 @@ private fun PromptButtons(state: VocabularySettingsUiState, level: Int, onSave: 
         }
         Spacer(Modifier.weight(1f))
         if (state.saving) {
-            CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
+            AppSpinner(size = SpinnerSize.Small)
             if (!compact) Text(tr("Saving…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         PrimaryButton(
@@ -290,7 +273,7 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
     val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
     val index = choices.indexOf(level).coerceAtLeast(0)
     val shape = AppShapes.large
-    Column(modifier.clip(shape).border(1.dp, colors.outlineVariant, shape).padding(if (compact) 16.dp else 24.dp)) {
+    Column(modifier.clip(shape).border(AppBorders.hairline(), shape).padding(if (compact) 16.dp else 24.dp)) {
         Text(tr("Estimated vocabulary"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         Row(verticalAlignment = Alignment.Bottom) {
             Text(formatCount(level), style = if (compact) MaterialTheme.typography.displayMedium else MaterialTheme.typography.displayLarge, fontWeight = FontWeight.Bold, color = colors.primary)
@@ -354,11 +337,7 @@ internal fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, 
             thumb = {
                 Box(Modifier.size(THUMB).shadow(3.dp, CircleShape).clip(CircleShape).background(colors.surface).padding(3.dp).clip(CircleShape).background(colors.primary))
             },
-            track = { sliderState ->
-                Box(Modifier.fillMaxWidth().height(12.dp).clip(AppShapes.small).background(colors.surfaceVariant)) {
-                    Box(Modifier.fillMaxWidth(sliderState.coercedValueAsFraction).fillMaxHeight().clip(AppShapes.small).background(colors.primary))
-                }
-            },
+            track = { sliderState -> ProgressTrack(sliderState.coercedValueAsFraction, colors.primary, height = 12.dp) },
         )
         // Ticks and names placed where the slider stops, the track running between the thumb's centres
         // at either end. Names that would run into one another are left out, the chosen level's first.
@@ -409,7 +388,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
     val compact = width.isCompact
     val outside = colors.onSurfaceVariant.copy(alpha = 0.55f)
     val shape = AppShapes.large
-    Column(modifier.clip(shape).border(1.dp, colors.outlineVariant, shape).padding(if (compact) 16.dp else 24.dp), verticalArrangement = Arrangement.spacedBy(if (compact) 12.dp else 16.dp)) {
+    Column(modifier.clip(shape).border(AppBorders.hairline(), shape).padding(if (compact) 16.dp else 24.dp), verticalArrangement = Arrangement.spacedBy(if (compact) 12.dp else 16.dp)) {
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
             Text(tr("Reading preview"), style = if (compact) MaterialTheme.typography.titleMedium else MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Text(tr("A sample text at this estimate"), style = if (compact) MaterialTheme.typography.bodyMedium else MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
@@ -418,7 +397,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
         // Beside the estimate card the text takes the height left; stacked in a scrolling page, where
         // the height is unbounded, a weight would leave it no height at all.
         val textHeight = if (width.isExpanded) Modifier.weight(1f, fill = false) else Modifier
-        Box(Modifier.fillMaxWidth().then(textHeight).clip(inner).border(1.dp, colors.outlineVariant, inner).padding(if (compact) 14.dp else 20.dp)) {
+        Box(Modifier.fillMaxWidth().then(textHeight).clip(inner).border(AppBorders.hairline(), inner).padding(if (compact) 14.dp else 20.dp)) {
             if (state.example.isEmpty()) {
                 Text(tr("No sample text for {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)), color = colors.onSurfaceVariant)
             } else {
@@ -432,7 +411,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
         }
         // Three legends do not always fit one phone-wide row.
         FlowRow(horizontalArrangement = Arrangement.spacedBy(if (compact) 16.dp else 22.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            PreviewLegend(KNOWN_GREEN, tr("Known"))
+            PreviewLegend(AppAccents.green, tr("Known"))
             PreviewLegend(colors.primary, tr("New"))
             PreviewLegend(outside, tr("Outside frequency list"))
         }
@@ -440,7 +419,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
 }
 
 @Composable
-private fun PreviewLegend(color: Color, label: String) {
+internal fun PreviewLegend(color: Color, label: String) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         Box(Modifier.size(12.dp).clip(CircleShape).background(color))
         Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)

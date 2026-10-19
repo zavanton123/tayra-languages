@@ -23,12 +23,7 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.RichTooltip
@@ -37,7 +32,6 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TooltipAnchorPosition
 import androidx.compose.material3.TooltipBox
 import androidx.compose.material3.TooltipDefaults
-import androidx.compose.material3.VerticalDivider
 import androidx.compose.material3.rememberTooltipState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -50,7 +44,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
@@ -62,11 +55,18 @@ import com.tayra.languages.core.domain.frequency.RankedWord
 import com.tayra.languages.core.domain.frequency.WordFrequencyOverview
 import com.tayra.languages.core.domain.frequency.WordKnowledge
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppVerticalDivider
+import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SearchField
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.i18n.formatCount
@@ -75,6 +75,7 @@ import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.terms.form.TermFormEvent
@@ -137,7 +138,7 @@ fun WordFrequencyScreen(onNavigate: (Route) -> Unit, viewModel: WordFrequencyVie
             )
             val selected = state.selected
             if (expanded && selected != null) {
-                VerticalDivider()
+                AppVerticalDivider()
                 TermPanel(state.languageId, selected, onSelect = viewModel::select, onNavigate = onNavigate, modifier = Modifier.width(440.dp).fillMaxHeight())
             }
         }
@@ -210,13 +211,15 @@ internal fun WordFrequencyContent(
                 item(key = "header") { Header(state, onToggle, onSearch, onSettings) }
                 when {
                     overview == null -> item(key = "none") {
-                        Notice(
+                        EmptyState(
+                            AppIcons.BarChart,
                             tr("No frequency list yet"),
-                            if (state.languageName.isEmpty()) tr("Choose a language to learn to see its most common words.")
+                            Modifier.padding(top = 8.dp),
+                            message = if (state.languageName.isEmpty()) tr("Choose a language to learn to see its most common words.")
                             else tr("There is no word frequency list for {0}. Lists come with the languages the app offers to learn.", languageInSentence(state.languageName, LanguageCase.GENITIVE)),
                         )
                     }
-                    bands.isEmpty() -> item(key = "empty") { Notice(tr("No words match"), tr("Try another search, or show more kinds of words.")) }
+                    bands.isEmpty() -> item(key = "empty") { EmptyState(AppIcons.BarChart, tr("No words match"), Modifier.padding(top = 8.dp), message = tr("Try another search, or show more kinds of words.")) }
                     else -> {
                         bands.forEachIndexed { i, band ->
                             item(key = "band-${band.index}") { BandHeader(
@@ -289,16 +292,11 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
     val compact = LocalWindowWidth.current.isCompact
     val overview = state.overview
     Column(Modifier.fillMaxWidth().padding(bottom = 12.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
-        Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            // On a phone the bar carries the title.
-            if (!compact) Text(tr("Word frequency"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-            Text(
-                if (overview == null) tr("The most common words of a language, from the most used down.")
-                else tr("The {0} most common {1} words, from the most used down. Click a word to save it or change its status.", formatCount(overview.words.size), tr(overview.languageName)),
-                style = MaterialTheme.typography.bodyLarge,
-                color = colors.onSurfaceVariant,
-            )
-        }
+        ScreenHeader(
+            tr("Word frequency"),
+            if (overview == null) tr("The most common words of a language, from the most used down.")
+            else tr("The {0} most common {1} words, from the most used down. Click a word to save it or change its status.", formatCount(overview.words.size), tr(overview.languageName)),
+        )
         if (overview == null) return@Column
         // The link keeps its words together and goes under the sentence when the line is full.
         FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -318,12 +316,12 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
                 )
             }
             if (state.savingLevel) {
-                CircularProgressIndicator(Modifier.size(16.dp), strokeWidth = 2.dp)
+                AppSpinner(size = SpinnerSize.Small)
                 Text(tr("Saving the level…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
         }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
-            SearchBox(state.search, onSearch, if (compact) Modifier.fillMaxWidth() else Modifier.width(320.dp))
+            SearchField(state.search, onSearch, tr("Find a word"), if (compact) Modifier.fillMaxWidth() else Modifier.width(320.dp), fieldModifier = Modifier.testTag("frequency-search"))
             WordKnowledge.entries.forEach { knowledge ->
                 KnowledgeChip(knowledge, overview.count(knowledge), selected = knowledge in state.shown) { onToggle(knowledge) }
             }
@@ -339,7 +337,7 @@ private fun KnowledgeChip(knowledge: WordKnowledge, count: Int, selected: Boolea
     Row(
         Modifier.height(40.dp).clip(shape)
             .background(if (selected) tint.copy(alpha = 0.16f) else colors.surface)
-            .border(1.dp, if (selected) tint else colors.outlineVariant, shape)
+            .border(AppBorders.hairline(if (selected) tint else colors.outlineVariant), shape)
             .clickable(onClick = onClick).padding(horizontal = 14.dp).testTag("chip-${knowledge.name}"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -372,7 +370,7 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
             }
             if (levelAbove != currentLevel) {
                 Row(
-                    Modifier.clip(AppShapes.pill).border(1.dp, colors.outlineVariant, AppShapes.pill)
+                    Modifier.clip(AppShapes.pill).border(AppBorders.hairline(), AppShapes.pill)
                         .clickable(enabled = !saving, onClick = onSetLevel).padding(horizontal = 10.dp, vertical = 4.dp)
                         .testTag("set-level-$levelAbove"),
                     verticalAlignment = Alignment.CenterVertically,
@@ -403,7 +401,7 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
             val rest = band.words.size - known - learning - ignored
             if (rest > 0) Spacer(Modifier.weight(rest.toFloat()))
         }
-        HorizontalDivider(color = colors.outlineVariant.copy(alpha = 0.5f))
+        AppDivider(color = colors.outlineVariant.copy(alpha = 0.5f))
     }
 }
 
@@ -483,45 +481,5 @@ private fun RankIndex(wordCount: Int, modifier: Modifier, onJump: (rank: Int) ->
                 color = colors.onSurfaceVariant,
             )
         }
-    }
-}
-
-@Composable
-private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        modifier.height(40.dp).clip(AppShapes.control).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.control).padding(horizontal = 14.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-        Spacer(Modifier.width(10.dp))
-        BasicTextField(
-            value = value,
-            onValueChange = onChange,
-            singleLine = true,
-            textStyle = MaterialTheme.typography.bodyLarge.copy(color = colors.onSurface),
-            cursorBrush = SolidColor(colors.primary),
-            modifier = Modifier.weight(1f).testTag("frequency-search"),
-            decorationBox = { inner ->
-                Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text(tr("Find a word"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1)
-                    inner()
-                }
-            },
-        )
-    }
-}
-
-@Composable
-private fun Notice(title: String, text: String) {
-    val colors = MaterialTheme.colorScheme
-    Column(
-        Modifier.fillMaxWidth().padding(top = 8.dp).clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large).padding(36.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(8.dp),
-    ) {
-        Icon(AppIcons.BarChart, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(36.dp))
-        Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
-        Text(text, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
     }
 }

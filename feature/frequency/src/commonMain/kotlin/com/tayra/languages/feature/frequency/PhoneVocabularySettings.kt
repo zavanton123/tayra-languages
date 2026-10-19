@@ -1,7 +1,6 @@
 package com.tayra.languages.feature.frequency
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -13,7 +12,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowRight
@@ -29,23 +27,25 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.frequency.VocabularyLevelService
+import com.tayra.languages.core.ui.components.AppCard
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
@@ -74,7 +74,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
             val level = state.shownLevel
             val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
             val index = choices.indexOf(level).coerceAtLeast(0)
-            PhoneBox {
+            AppCard {
                 Text(tr("Estimated vocabulary"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 Row(verticalAlignment = Alignment.Bottom) {
                     Text(formatCount(level), style = MaterialTheme.typography.displayMedium, fontWeight = FontWeight.Bold, color = colors.primary)
@@ -116,7 +116,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                     )
                 }
             }
-            PhoneBox {
+            AppCard {
                 Text(tr("Reading preview"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                 Spacer(Modifier.height(10.dp))
                 if (state.example.isEmpty()) {
@@ -132,13 +132,13 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 }
                 Spacer(Modifier.height(12.dp))
                 Row(horizontalArrangement = Arrangement.spacedBy(18.dp), verticalAlignment = Alignment.CenterVertically) {
-                    Legend(KNOWN_GREEN, tr("Known"))
-                    Legend(colors.primary, tr("New"))
-                    Legend(colors.onSurfaceVariant.copy(alpha = 0.55f), tr("Outside frequency list"))
+                    PreviewLegend(AppAccents.green, tr("Known"))
+                    PreviewLegend(colors.primary, tr("New"))
+                    PreviewLegend(colors.onSurfaceVariant.copy(alpha = 0.55f), tr("Outside frequency list"))
                 }
             }
             Row(
-                Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card)
+                Modifier.fillMaxWidth().cardSurface(AppShapes.card)
                     .clickable { onNavigate(Route.WordFrequency) }.padding(16.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(14.dp),
@@ -159,19 +159,5 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
     val picked = state.picked
     if (confirming && picked != null) {
         LevelConfirmDialog(from = state.level, to = picked, first = !state.chosen, onConfirm = { confirming = false; onSave() }, onDismiss = { confirming = false })
-    }
-}
-
-@Composable
-private fun PhoneBox(content: @Composable androidx.compose.foundation.layout.ColumnScope.() -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp), content = content)
-}
-
-@Composable
-private fun Legend(color: Color, label: String) {
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        androidx.compose.foundation.layout.Box(Modifier.size(12.dp).clip(CircleShape).background(color))
-        Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
