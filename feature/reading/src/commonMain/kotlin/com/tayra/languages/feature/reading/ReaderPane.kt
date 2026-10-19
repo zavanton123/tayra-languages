@@ -61,7 +61,6 @@ import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppSlider
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.Dropdown
-import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavigationRow
@@ -125,7 +124,7 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
     Column(Modifier.fillMaxHeight()) {
         PaneHeader(
             title = if (showBookmarks) tr("Bookmarks") else tr("Reader settings"),
-            subtitle = if (showBookmarks) trPlural(bookmarks.size, "{1} · {0} saved", "{1} · {0} saved", title) else tr("{0} · Saved automatically", title),
+            subtitle = if (showBookmarks) trPlural(bookmarks.size, "{1} · {0} saved", "{1} · {0} saved", title) else tr("Saved automatically · {0}", title),
             onClose = onClose,
             modifier = Modifier.padding(start = AppSpacing.xl, end = AppSpacing.l, top = AppSpacing.xl, bottom = AppSpacing.l),
             onBack = if (showBookmarks) ({ showBookmarks = false }) else null,
@@ -576,7 +575,7 @@ private fun ToolTile(icon: ImageVector, label: String, note: String, active: Boo
     ) {
         Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
         Text(label, style = AppText.labelStrong, maxLines = 1)
-        Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis, textAlign = TextAlign.Center)
     }
 }
 

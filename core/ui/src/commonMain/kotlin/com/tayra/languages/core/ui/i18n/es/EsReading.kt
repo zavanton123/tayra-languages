@@ -189,7 +189,7 @@ internal val esReading: Map<String, String> = mapOf(
     "Practice uses the words you are learning: give some words on the page a status of 1 to 4 first." to "La práctica usa las palabras que estás aprendiendo: primero da a algunas palabras de la página un estado del 1 al 4.",
     // ReaderPane.kt
     "{1} · {0} saved" to "{1} · {0} marcador|{1} · {0} marcadores",
-    "{0} · Saved automatically" to "{0} · Se guarda automáticamente",
+    "Saved automatically · {0}" to "Se guarda automáticamente · {0}",
     "Reset reader settings?" to "¿Restablecer los ajustes de lectura?",
     "Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay." to "La lectura, el audio y la apariencia vuelven a sus valores predeterminados. Tus motores de traducción y de voz y tus voces se conservan.",
     "Audio" to "Audio",

@@ -189,7 +189,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Practice uses the words you are learning: give some words on the page a status of 1 to 4 first." to "Geübt werden die Wörter, die du lernst: Gib zuerst einigen Wörtern auf der Seite den Status 1 bis 4.",
     // ReaderPane.kt
     "{1} · {0} saved" to "{1} · {0} Lesezeichen|{1} · {0} Lesezeichen",
-    "{0} · Saved automatically" to "{0} · Wird automatisch gespeichert",
+    "Saved automatically · {0}" to "Wird automatisch gespeichert · {0}",
     "Reset reader settings?" to "Leseeinstellungen zurücksetzen?",
     "Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay." to "Lesen, Audio und Darstellung werden auf die Standardwerte zurückgesetzt. Deine Übersetzungs- und Sprachdienste sowie Stimmen bleiben erhalten.",
     "Audio" to "Audio",

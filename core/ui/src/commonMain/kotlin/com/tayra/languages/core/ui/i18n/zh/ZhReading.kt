@@ -189,7 +189,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Practice uses the words you are learning: give some words on the page a status of 1 to 4 first." to "练习使用你正在学习的单词：请先将本页的一些单词标为状态 1 到 4。",
     // ReaderPane.kt
     "{1} · {0} saved" to "{1} · {0} 个书签",
-    "{0} · Saved automatically" to "{0} · 自动保存",
+    "Saved automatically · {0}" to "自动保存 · {0}",
     "Reset reader settings?" to "重置阅读设置？",
     "Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay." to "阅读、音频和外观将恢复默认设置。你选择的翻译引擎、语音引擎和语音保持不变。",
     "Audio" to "音频",

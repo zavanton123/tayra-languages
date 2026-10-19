@@ -189,7 +189,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "Practice uses the words you are learning: give some words on the page a status of 1 to 4 first." to "A prática usa as palavras que você está aprendendo: primeiro dê um status de 1 a 4 a algumas palavras da página.",
     // ReaderPane.kt
     "{1} · {0} saved" to "{1} · {0} marcador|{1} · {0} marcadores",
-    "{0} · Saved automatically" to "{0} · Salvo automaticamente",
+    "Saved automatically · {0}" to "Salvo automaticamente · {0}",
     "Reset reader settings?" to "Redefinir as configurações de leitura?",
     "Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay." to "Leitura, áudio e aparência voltam ao padrão. Seus serviços de tradução, mecanismos de voz e vozes são mantidos.",
     "Audio" to "Áudio",
