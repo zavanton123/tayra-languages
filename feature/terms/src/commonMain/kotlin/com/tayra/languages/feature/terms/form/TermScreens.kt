@@ -1,27 +1,18 @@
 package com.tayra.languages.feature.terms.form
 
 import com.tayra.languages.core.ui.i18n.tr
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.IconButtonSize
+import com.tayra.languages.core.ui.components.Crumb
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
@@ -88,18 +79,10 @@ private fun PageHeader(
     onTerms: () -> Unit,
     onSave: () -> Unit,
 ) {
-    val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().padding(horizontal = gutter, vertical = 16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-        // On a phone the bar has the way back and the title; the buttons stay.
-        if (!compact) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Back"), onBack, size = IconButtonSize.Small)
-                Text(tr("Vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable(onClick = onTerms))
-                Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
-                Text(title, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            }
-        }
-        ScreenHeader(title, subtitle = null) {
+    // On a phone the bar has the way back and the title; the buttons stay.
+    val crumbs = if (compact) emptyList() else listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(title))
+    Column(Modifier.fillMaxWidth().padding(horizontal = gutter, vertical = 16.dp)) {
+        ScreenHeader(title, subtitle = null, crumbs = crumbs, onBack = onBack) {
             SecondaryButton(tr("Cancel"), onClick = onBack)
             PrimaryButton(if (saving) tr("Saving...") else tr("Save changes"), onClick = onSave, enabled = canSave && !saving)
         }

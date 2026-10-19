@@ -13,7 +13,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.SuggestionChip
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -37,8 +36,10 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppProgressBar
 import com.tayra.languages.core.ui.components.AppTextField
+import com.tayra.languages.core.ui.components.ChipSize
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SelectableChip
 import com.tayra.languages.core.ui.i18n.tr
 import kotlinx.coroutines.delay
 
@@ -117,7 +118,7 @@ internal fun WordFinderDialog(
                                         sense.tags.firstOrNull()?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
                                         FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                                             sense.glosses.forEach { word ->
-                                                SuggestionChip(onClick = { onPick(word) }, label = { Text(word) }, modifier = Modifier.testTag("found-$word"))
+                                                SelectableChip(word, selected = false, onClick = { onPick(word) }, modifier = Modifier.testTag("found-$word"), size = ChipSize.Small)
                                             }
                                         }
                                     }

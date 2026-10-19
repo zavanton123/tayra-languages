@@ -4,9 +4,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -19,18 +17,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.foundation.text.KeyboardActions
-import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.KeyboardArrowDown
-import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.Icon
-import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -45,7 +33,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.sp
 import com.tayra.languages.core.domain.settings.UserSettings
-import com.tayra.languages.core.ui.components.RoundSlider
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.ReadingFont
@@ -55,8 +43,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.SolidColor
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.AnnotatedString
 import org.koin.compose.koinInject
@@ -92,7 +78,6 @@ import com.tayra.languages.core.ui.theme.TayraTheme
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
@@ -106,19 +91,23 @@ import com.tayra.languages.core.domain.service.YesNo
 import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.AppMenu
-import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.Crumb
 import com.tayra.languages.core.ui.components.EmptyMessage
 import com.tayra.languages.core.ui.components.ErrorMessage
+import com.tayra.languages.core.ui.components.LabeledField
+import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
-import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.SelectMenu
+import com.tayra.languages.core.ui.components.SidePanel
+import com.tayra.languages.core.ui.components.SliderSetting
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.navigation.Route
 import io.ktor.http.encodeURLParameter
@@ -132,7 +121,6 @@ import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.core.ui.state.CollectEvents
-import androidx.compose.material3.Surface
 import androidx.compose.foundation.layout.fillMaxHeight
 import com.tayra.languages.core.ui.components.ScrollList
 
@@ -274,13 +262,13 @@ fun ExamplesSearchScreen(
                 state = listState,
                 contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp),
             ) {
-                item { PageHeader(query, compact, onBack, onNavigate) }
+                item { PageHeader(query, compact, onBack, onTerms = { onNavigate(Route.Terms()) }) }
                 item { ErrorMessage(state.error) }
                 item { SearchBar(query, viewModel, onSearch = { viewModel.search(); focusList() }) }
                 item { FilterRow(query, viewModel) }
                 item {
                     Row(Modifier.fillMaxWidth().padding(top = 14.dp)) {
-                        ActionButton(icon = AppIcons.FormatSize, description = tr("Text settings"), active = textSettingsOpen, onClick = { textSettingsOpen = !textSettingsOpen })
+                        AppIconButton(AppIcons.FormatSize, tr("Text settings"), onClick = { textSettingsOpen = !textSettingsOpen }, style = IconButtonStyle.Outlined, tint = MaterialTheme.colorScheme.primary, selected = textSettingsOpen)
                     }
                 }
                 if (textSettingsOpen) item { TextSettings(prefs, viewModel) }
@@ -336,12 +324,7 @@ fun ExamplesSearchScreen(
             }
             val term = state.paneTerm
             if (wide && term != null) {
-                Surface(
-                    Modifier.width(420.dp).fillMaxHeight().padding(top = 16.dp, end = 16.dp, bottom = 16.dp)
-                        .border(AppBorders.hairline(), AppShapes.card),
-                    shape = AppShapes.card,
-                    color = MaterialTheme.colorScheme.surface,
-                ) {
+                SidePanel(420.dp, Modifier.fillMaxHeight().padding(top = 16.dp, end = 16.dp, bottom = 16.dp)) {
                     TermPane(query.language.id, term, state.paneSentence, onClose = viewModel::closePane, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onNavigate = onNavigate)
                 }
             }
@@ -402,72 +385,33 @@ private fun TermPane(
 }
 
 @Composable
-private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -> Unit, onNavigate: (Route) -> Unit) {
+private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -> Unit, onTerms: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val uriHandler = LocalUriHandler.current
-    Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.Top) {
-        if (!compact) {
-            AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Back"), onBack, style = IconButtonStyle.Outlined)
-            Spacer(Modifier.width(24.dp))
-        }
-        Column(Modifier.weight(1f)) {
-            // On a phone the bar has the way back and the screen's name.
-            if (!compact) {
-                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Text(tr("Vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable { onNavigate(Route.Terms()) })
-                    Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
-                    Text(tr("Examples"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                }
-            }
-            Text(
-                tr("Examples for ‘{0}’", query.text),
-                style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium,
-                fontWeight = FontWeight.Bold,
-            )
-        }
-        Row(
-            Modifier.clip(AppShapes.small).clickable {
-                val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
-                uriHandler.openUri("https://tatoeba.org/en/sentences/search?query=${query.text.encodeURLParameter()}$from")
-            }.padding(6.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(6.dp),
-        ) {
+    // On a phone the bar has the way back and the screen's name.
+    val crumbs = if (compact) emptyList() else listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(tr("Examples")))
+    Column(Modifier.fillMaxWidth().padding(bottom = 20.dp)) {
+        ScreenHeader(tr("Examples for ‘{0}’", query.text), subtitle = null, crumbs = crumbs, titleOnCompact = true, onBack = onBack) {
             if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            Text("Tatoeba", style = MaterialTheme.typography.bodyMedium, color = colors.primary, fontWeight = FontWeight.Medium)
-            Icon(AppIcons.OpenInNew, contentDescription = tr("Open on Tatoeba"), tint = colors.primary, modifier = Modifier.size(16.dp))
+            LinkText(
+                "Tatoeba",
+                onClick = {
+                    val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
+                    uriHandler.openUri("https://tatoeba.org/en/sentences/search?query=${query.text.encodeURLParameter()}$from")
+                },
+                modifier = Modifier.semantics { contentDescription = tr("Open on Tatoeba") },
+                style = MaterialTheme.typography.bodyMedium,
+                trailingIcon = AppIcons.OpenInNew,
+            )
         }
     }
 }
 
 @Composable
 private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewModel, onSearch: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        Row(
-            Modifier.weight(1f).height(48.dp).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(horizontal = 14.dp),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-            Spacer(Modifier.width(10.dp))
-            BasicTextField(
-                value = query.text,
-                onValueChange = { v -> viewModel.updateQuery { it.copy(text = v) } },
-                singleLine = true,
-                textStyle = MaterialTheme.typography.bodyLarge.copy(color = colors.onSurface),
-                cursorBrush = SolidColor(colors.primary),
-                keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
-                keyboardActions = KeyboardActions(onSearch = { onSearch() }),
-                modifier = Modifier.weight(1f),
-                decorationBox = { inner ->
-                    Box(contentAlignment = Alignment.CenterStart) {
-                        if (query.text.isEmpty()) Text(tr("Search sentences"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge)
-                        inner()
-                    }
-                },
-            )
-        }
-        PrimaryButton(tr("Search"), onClick = onSearch, modifier = Modifier.height(48.dp), enabled = query.text.isNotBlank())
+        SearchField(query.text, { v -> viewModel.updateQuery { it.copy(text = v) } }, tr("Search sentences"), Modifier.weight(1f), onSearch = onSearch)
+        PrimaryButton(tr("Search"), onClick = onSearch, enabled = query.text.isNotBlank())
     }
 }
 
@@ -489,32 +433,15 @@ private fun FilterRow(query: ExampleSearchQuery, viewModel: ExamplesSearchViewMo
         Select(tr("Per page"), PAGE_SIZES, query.limit, { it.toString() }, 110.dp) { v -> viewModel.updateFilters { it.copy(limit = v) } }
         Select(tr("Has audio"), listOf<YesNo?>(null) + YesNo.entries, query.hasAudio, { it?.label?.let { label -> tr(label) } ?: tr("Any") }, 150.dp) { v -> viewModel.updateFilters { it.copy(hasAudio = v) } }
         Spacer(Modifier.weight(1f))
-        SecondaryButton(tr("Reset filters"), onClick = viewModel::resetFilters, modifier = Modifier.height(44.dp), icon = Icons.Default.Refresh)
+        SecondaryButton(tr("Reset filters"), onClick = viewModel::resetFilters, icon = Icons.Default.Refresh)
     }
 }
 
 /** A labelled compact select box. */
 @Composable
 private fun <T> Select(label: String, options: List<T>, selected: T, optionLabel: (T) -> String, width: androidx.compose.ui.unit.Dp, onSelect: (T) -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    var open by remember { mutableStateOf(false) }
-    Column(Modifier.width(width), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-        Text(label, style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
-        Box {
-            Row(
-                Modifier.fillMaxWidth().height(44.dp).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
-                    .clickable { open = true }.padding(horizontal = 12.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Text(optionLabel(selected), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, maxLines = 1)
-                Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-            }
-            AppMenu(expanded = open, onDismissRequest = { open = false }) {
-                options.forEach { option ->
-                    AppMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) })
-                }
-            }
-        }
+    LabeledField(label, Modifier.width(width)) {
+        SelectMenu(options, selected, onSelect, optionLabel, Modifier.fillMaxWidth(), value = optionLabel(selected))
     }
 }
 
@@ -542,20 +469,22 @@ private fun ExampleCard(
     LaunchedEffect(active, sound.playing) { if (active) intoView.bringIntoView() }
     Row(
         Modifier.fillMaxWidth().bringIntoViewRequester(intoView).clip(AppShapes.panel)
-            .background(if (sound.playing || active) colors.primary.copy(alpha = 0.06f) else Color.Transparent)
-            .border(if (active) 2.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, AppShapes.panel)
+            .background(if (sound.playing || active) colors.primary.copy(alpha = AppAlpha.wash) else Color.Transparent)
+            .border(if (active) AppBorders.selected() else AppBorders.hairline(), AppShapes.panel)
             .semantics { selected = active }
             .padding(horizontal = 16.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        // The button leads, as the reader's sentence buttons do.
-        ActionButton(
-            icon = sound.icon,
-            description = sound.description,
-            active = sound.playing,
-            stops = true,
-            loading = sound.loading,
+        // The button leads, as the reader's sentence buttons do; its description sits on it so that it stays while the spinner replaces the icon.
+        AppIconButton(
+            if (sound.playing) AppIcons.Stop else sound.icon,
+            contentDescription = null,
             onClick = onPlay,
+            modifier = Modifier.semantics { contentDescription = sound.description },
+            style = IconButtonStyle.Outlined,
+            tint = colors.primary,
+            selected = sound.playing,
+            loading = sound.loading,
         )
         Spacer(Modifier.width(16.dp))
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -577,55 +506,14 @@ private fun ExampleCard(
 /** The font, size and line height of the examples: the reader's settings, changed here as there. */
 @Composable
 private fun TextSettings(prefs: UserSettings, viewModel: ExamplesSearchViewModel) {
-    val colors = MaterialTheme.colorScheme
     Column(
         Modifier.fillMaxWidth().padding(top = 16.dp).cardSurface(AppShapes.card).padding(horizontal = 20.dp, vertical = 16.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         Text(tr("Text settings"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
         Select(tr("Font"), ReadingFont.choices, ReadingFont.byId(prefs.readingFont), { it.label }, 220.dp, viewModel::setReadingFont)
-        SliderRow(tr("Font size"), "${(prefs.readingFontScale * 100).roundToInt()}%", prefs.readingFontScale, 0.6f..2.5f, viewModel::setFontScale, "examples-font-size")
-        SliderRow(tr("Line height"), "${(prefs.readingLineHeight * 10).roundToInt() / 10f}", prefs.readingLineHeight, 1.0f..3.0f, viewModel::setLineHeight, "examples-line-height")
-    }
-}
-
-/** A slider with its name and value above it. */
-@Composable
-private fun SliderRow(title: String, value: String, current: Float, range: ClosedFloatingPointRange<Float>, onChange: (Float) -> Unit, tag: String) {
-    Column {
-        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-            Text(title, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-            Text(value, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        }
-        RoundSlider(value = current.coerceIn(range), onValueChange = onChange, valueRange = range, modifier = Modifier.fillMaxWidth().testTag(tag))
-    }
-}
-
-@Composable
-private fun ActionButton(
-    icon: ImageVector,
-    description: String,
-    enabled: Boolean = true,
-    /** Tints the button; with [stops], a stop square replaces the icon, as on a button that plays. */
-    active: Boolean = false,
-    stops: Boolean = false,
-    loading: Boolean = false,
-    onClick: () -> Unit,
-) {
-    val colors = MaterialTheme.colorScheme
-    AppIconButton(
-        onClick = onClick,
-        modifier = Modifier.clip(AppShapes.control)
-            .background(if (active) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
-            .border(AppBorders.hairline(), AppShapes.control)
-            .semantics { contentDescription = description },
-        enabled = enabled,
-    ) {
-        when {
-            loading -> AppSpinner(size = SpinnerSize.Small)
-            active && stops -> Box(Modifier.size(12.dp).background(colors.primary, AppShapes.tiny))
-            else -> Icon(icon, contentDescription = null, tint = if (enabled) colors.primary else colors.outlineVariant, modifier = Modifier.size(20.dp))
-        }
+        SliderSetting(tr("Font size"), "${(prefs.readingFontScale * 100).roundToInt()}%", prefs.readingFontScale, 0.6f..2.5f, viewModel::setFontScale, sliderModifier = Modifier.testTag("examples-font-size"))
+        SliderSetting(tr("Line height"), "${(prefs.readingLineHeight * 10).roundToInt() / 10f}", prefs.readingLineHeight, 1.0f..3.0f, viewModel::setLineHeight, sliderModifier = Modifier.testTag("examples-line-height"))
     }
 }
 

@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -24,16 +23,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.itemsIndexed
-import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.KeyboardArrowDown
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -47,18 +42,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.semantics.clearAndSetSemantics
-import androidx.compose.ui.semantics.contentDescription
-import androidx.compose.material.icons.filled.KeyboardArrowUp
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.foundation.shape.CircleShape
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Term
@@ -78,21 +66,28 @@ import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.NumberField
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.RemovableChip
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SelectMenu
 import com.tayra.languages.core.ui.components.TableHeader
 import com.tayra.languages.core.ui.components.TableHeaderCell
+import com.tayra.languages.core.ui.components.TintedSurface
+import com.tayra.languages.core.ui.components.ToggleButton
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.files.saveBinaryFile
 import kotlinx.coroutines.launch
@@ -279,17 +274,14 @@ private fun StatCards(state: TermsListUiState, compact: Boolean) {
         maxItemsInEachRow = if (compact) 2 else cards.size,
     ) {
         cards.forEach { card ->
-            Row(
-                Modifier.weight(1f).clip(AppShapes.card).background(card.tint.copy(alpha = 0.05f))
-                    .border(AppBorders.hairline(card.tint.copy(alpha = 0.16f)), AppShapes.card)
-                    .padding(horizontal = 16.dp, vertical = 18.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                IconTile(card.icon, size = 48, tint = card.tint)
-                Spacer(Modifier.width(14.dp))
-                Column {
-                    Text(card.label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    Text(card.value.toString(), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+            TintedSurface(card.tint, Modifier.weight(1f), shape = AppShapes.card, padding = PaddingValues(horizontal = 16.dp, vertical = 18.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    IconTile(card.icon, size = 48, tint = card.tint)
+                    Spacer(Modifier.width(14.dp))
+                    Column {
+                        Text(card.label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Text(card.value.toString(), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                    }
                 }
             }
         }
@@ -309,7 +301,14 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
         SearchField(filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), if (compact) Modifier.fillMaxWidth() else Modifier.width(560.dp))
-        FilterMenu(AppIcons.SwapVert, tr("Sort: {0}", sortLabel), TermSortOption.entries, { it.label }) { viewModel.setSort(it.sort) }
+        SelectMenu(
+            options = TermSortOption.entries,
+            selected = TermSortOption.entries.firstOrNull { it.sort == state.sort },
+            onSelect = { viewModel.setSort(it.sort) },
+            optionLabel = { it.label },
+            value = tr("Sort: {0}", sortLabel),
+            icon = AppIcons.SwapVert,
+        )
         FiltersButton(open = state.filtersVisible, count = state.activeFilterCount, onClick = viewModel::toggleFilters)
         if (!compact) {
             Spacer(Modifier.weight(1f))
@@ -325,50 +324,14 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
 /** Opens and closes the filter panel; the badge counts the kinds of filter that are on. */
 @Composable
 internal fun FiltersButton(open: Boolean, count: Int, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val highlighted = open || count > 0
-    Row(
-        Modifier.height(44.dp).clip(AppShapes.control)
-            .background(if (highlighted) colors.primary.copy(alpha = 0.08f) else Color.Transparent)
-            .border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant), AppShapes.control)
-            .clickable(onClick = onClick).padding(horizontal = 14.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
-    ) {
-        val tint = if (highlighted) colors.primary else colors.onSurface
-        Icon(AppIcons.Tune, contentDescription = null, tint = tint, modifier = Modifier.size(18.dp))
-        Text(tr("Filters"), style = MaterialTheme.typography.bodyMedium, color = tint, fontWeight = FontWeight.Medium)
-        if (count > 0) {
-            Box(
-                Modifier.size(22.dp).clip(CircleShape).background(colors.primary).clearAndSetSemantics { contentDescription = trPlural(count, "{0} filter on", "{0} filters on") },
-                contentAlignment = Alignment.Center,
-            ) {
-                Text("$count", style = MaterialTheme.typography.labelMedium, color = colors.onPrimary, fontWeight = FontWeight.SemiBold)
-            }
-        }
-    }
-}
-
-@Composable
-private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, optionLabel: (T) -> String, onSelect: (T) -> Unit) {
-    var open by remember { mutableStateOf(false) }
-    Box {
-        SecondaryButton(
-            onClick = { open = true },
-            colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface),
-        ) {
-            Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(8.dp))
-            Text(label, style = MaterialTheme.typography.bodyMedium)
-            Spacer(Modifier.width(4.dp))
-            Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant)
-        }
-        AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            options.forEach { option ->
-                AppMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) })
-            }
-        }
-    }
+    ToggleButton(
+        tr("Filters"),
+        active = open || count > 0,
+        onClick = onClick,
+        icon = AppIcons.Tune,
+        badge = count,
+        contentDescription = if (count > 0) trPlural(count, "{0} filter on", "{0} filters on") else null,
+    )
 }
 
 /** "New", "Learning", "Known" or "Ignored": the status's name without its number, which the badge shows. */
@@ -402,9 +365,9 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
         Text(tr("Added"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(bottom = 10.dp))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
             Text(tr("From"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            DaysField(filter.minAgeDays, tr("Added from, days ago")) { viewModel.setAddedRange(it, filter.maxAgeDays) }
+            NumberField(filter.minAgeDays, { viewModel.setAddedRange(it, filter.maxAgeDays) }, tr("Added from, days ago"), placeholder = tr("Any"), increaseDescription = tr("More days"), decreaseDescription = tr("Fewer days"))
             Text(tr("To"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            DaysField(filter.maxAgeDays, tr("Added to, days ago")) { viewModel.setAddedRange(filter.minAgeDays, it) }
+            NumberField(filter.maxAgeDays, { viewModel.setAddedRange(filter.minAgeDays, it) }, tr("Added to, days ago"), placeholder = tr("Any"), increaseDescription = tr("More days"), decreaseDescription = tr("Fewer days"))
             Text(tr("days ago"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         if (filter.termIds != null) {
@@ -425,19 +388,19 @@ private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () 
     val strong = tint.darken(0.7f)
     Row(
         Modifier.testTag("status-filter-${status.abbreviation}").height(44.dp).clip(AppShapes.control)
-            .background(tint.copy(alpha = if (selected) 0.45f else 0.2f))
-            .border(if (selected) 1.5.dp else 1.dp, if (selected) strong else tint, AppShapes.control)
+            .background(tint.copy(alpha = if (selected) AppAlpha.disabled else AppAlpha.line))
+            .border(if (selected) AppBorders.selected(strong) else AppBorders.hairline(tint), AppShapes.control)
             .clickable(onClickLabel = if (selected) tr("Stop showing {0}", tr(status.label)) else tr("Show {0}", tr(status.label)), onClick = onClick)
             .padding(horizontal = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         if (selected) {
-            Box(Modifier.size(20.dp).clip(CircleShape).background(strong), contentAlignment = Alignment.Center) {
-                Icon(Icons.Default.Check, contentDescription = null, tint = Color.White, modifier = Modifier.size(14.dp))
+            Box(Modifier.size(20.dp).clip(AppShapes.circle).background(strong), contentAlignment = Alignment.Center) {
+                Icon(Icons.Default.Check, contentDescription = null, tint = Color.White, modifier = Modifier.size(AppSizes.iconTiny))
             }
         } else {
-            Box(Modifier.size(20.dp).clip(CircleShape).border(1.5.dp, strong, CircleShape))
+            Box(Modifier.size(20.dp).clip(AppShapes.circle).border(AppBorders.selected(strong), AppShapes.circle))
         }
         Text(status.chipName, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium, color = MaterialTheme.colorScheme.onSurface)
         StatusBadge(status)
@@ -449,52 +412,11 @@ private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () 
 internal fun StatusBadge(status: TermStatus) {
     Text(
         status.abbreviation,
-        Modifier.clip(AppShapes.small).background(statusTint(status).copy(alpha = 0.85f)).padding(horizontal = 8.dp, vertical = 2.dp),
+        Modifier.clip(AppShapes.small).background(statusTint(status).copy(alpha = AppAlpha.strong)).padding(horizontal = 8.dp, vertical = 2.dp),
         style = MaterialTheme.typography.labelMedium,
         fontWeight = FontWeight.SemiBold,
         color = AppAccents.ink,
     )
-}
-
-/** A number of days, typed or stepped with the arrows; empty leaves that end of the range open. */
-@Composable
-private fun DaysField(value: Int?, description: String, onChange: (Int?) -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        Modifier.width(140.dp).height(44.dp).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
-            .padding(start = 14.dp, end = 4.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        BasicTextField(
-            value = value?.toString().orEmpty(),
-            onValueChange = { text -> onChange(text.filter { it.isDigit() }.take(5).toIntOrNull()) },
-            singleLine = true,
-            textStyle = MaterialTheme.typography.bodyMedium.copy(color = colors.onSurface),
-            cursorBrush = SolidColor(colors.primary),
-            modifier = Modifier.weight(1f).semantics { contentDescription = description },
-            decorationBox = { inner ->
-                Box(contentAlignment = Alignment.CenterStart) {
-                    if (value == null) Text(tr("Any"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
-                    inner()
-                }
-            },
-        )
-        Column {
-            Icon(
-                Icons.Default.KeyboardArrowUp,
-                contentDescription = tr("More days"),
-                tint = colors.onSurfaceVariant,
-                modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(AppShapes.tiny).clickable { onChange((value ?: -1) + 1) },
-            )
-            Icon(
-                Icons.Default.KeyboardArrowDown,
-                contentDescription = tr("Fewer days"),
-                tint = colors.onSurfaceVariant,
-                modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(AppShapes.tiny)
-                    .clickable(enabled = value != null) { onChange(value?.let { if (it > 0) it - 1 else null }) },
-            )
-        }
-    }
 }
 
 /** The filters that are on, each removable on its own, under the toolbar. */
@@ -510,7 +432,7 @@ internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewMode
     ) {
         TermStatus.selectable.filter { it in state.chosenStatuses }.forEach { status ->
             val tint = statusTint(status)
-            RemovableChip(background = tint.copy(alpha = 0.3f), border = tint, removeLabel = tr("Remove {0}", tr(status.label)), onRemove = { viewModel.toggleStatus(status) }) {
+            RemovableChip(onRemove = { viewModel.toggleStatus(status) }, removeDescription = tr("Remove {0}", tr(status.label)), tint = tint, background = tint.copy(alpha = AppAlpha.line)) {
                 Text(status.chipName, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
                 StatusBadge(status)
             }
@@ -523,29 +445,11 @@ internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewMode
                 to != null -> trPlural(to, "Added: up to {0} day ago", "Added: up to {0} days ago")
                 else -> trPlural(from ?: 0, "Added: {0}+ day ago", "Added: {0}+ days ago")
             }
-            val neutral = MaterialTheme.colorScheme.surfaceVariant
-            RemovableChip(background = neutral.copy(alpha = 0.6f), border = neutral, removeLabel = tr("Remove the added filter"), onRemove = { viewModel.setAddedRange(null, null) }) {
+            RemovableChip(onRemove = { viewModel.setAddedRange(null, null) }, removeDescription = tr("Remove the added filter")) {
                 Text(label, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
             }
         }
         QuietButton(tr("Clear all"), onClick = viewModel::clearFilters)
-    }
-}
-
-@Composable
-private fun RemovableChip(background: Color, border: Color, removeLabel: String, onRemove: () -> Unit, content: @Composable RowScope.() -> Unit) {
-    Row(
-        Modifier.height(34.dp).clip(AppShapes.compact).background(background).border(AppBorders.hairline(border), AppShapes.compact).padding(start = 12.dp, end = 4.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-    ) {
-        content()
-        Icon(
-            Icons.Default.Close,
-            contentDescription = removeLabel,
-            tint = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.size(24.dp).clip(CircleShape).clickable(onClick = onRemove).padding(4.dp),
-        )
     }
 }
 
@@ -577,8 +481,8 @@ private fun TermTableRow(term: Term, languageName: String, selected: Boolean, in
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
     val background = when {
-        selected || hovered -> colors.primary.copy(alpha = 0.08f)
-        index % 2 == 1 -> colors.surfaceVariant.copy(alpha = 0.25f)
+        selected || hovered -> colors.primary.copy(alpha = AppAlpha.tint)
+        index % 2 == 1 -> colors.surfaceVariant.copy(alpha = AppAlpha.line)
         else -> Color.Transparent
     }
     Row(
@@ -606,7 +510,7 @@ private fun TermTableRow(term: Term, languageName: String, selected: Boolean, in
 private fun CompactTermRow(term: Term, languageName: String, selected: Boolean, actions: RowActions) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().background(if (selected) colors.primary.copy(alpha = 0.08f) else Color.Transparent).clickable { actions.onOpen(term) }.padding(horizontal = 4.dp, vertical = 6.dp),
+        Modifier.fillMaxWidth().background(if (selected) colors.primary.copy(alpha = AppAlpha.tint) else Color.Transparent).clickable { actions.onOpen(term) }.padding(horizontal = 4.dp, vertical = 6.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
@@ -669,20 +573,7 @@ internal fun Pager(state: TermsListUiState, viewModel: TermsListViewModel, compa
     val from = if (state.totalCount == 0) 0 else state.page * state.pageSize + 1
     val to = minOf(state.totalCount, (state.page + 1) * state.pageSize)
     Row(Modifier.fillMaxWidth().padding(top = 20.dp), verticalAlignment = Alignment.CenterVertically) {
-        var open by remember { mutableStateOf(false) }
-        Box {
-            SecondaryButton(
-                onClick = { open = true },
-                colors = ButtonDefaults.outlinedButtonColors(contentColor = colors.onSurface),
-            ) {
-                Text(tr("{0} per page", state.pageSize), style = MaterialTheme.typography.bodyMedium)
-                Spacer(Modifier.width(4.dp))
-                Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(18.dp))
-            }
-            AppMenu(expanded = open, onDismissRequest = { open = false }) {
-                PAGE_SIZES.forEach { size -> AppMenuItem(text = { Text(tr("{0} per page", size)) }, onClick = { open = false; viewModel.setPageSize(size) }) }
-            }
-        }
+        SelectMenu(PAGE_SIZES, state.pageSize, viewModel::setPageSize, { tr("{0} per page", it) })
         Spacer(Modifier.weight(1f))
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             val pagerTint = { enabled: Boolean -> if (enabled) colors.primary else colors.outlineVariant }

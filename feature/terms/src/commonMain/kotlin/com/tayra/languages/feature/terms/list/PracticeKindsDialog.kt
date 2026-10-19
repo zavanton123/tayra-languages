@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -36,16 +35,22 @@ import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.TagStyle
 import com.tayra.languages.core.ui.components.description
 import com.tayra.languages.core.ui.components.icon
 import com.tayra.languages.core.ui.components.label
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 
 /** About how long a question takes, for the estimate in the dialog. */
 private const val SECONDS_A_QUESTION = 20
@@ -64,12 +69,7 @@ fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDism
                     IconTile(AppIcons.BarChart, size = 56)
                     Text(trPlural(count, "Practise {0} word", "Practise {0} words"), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
                     if (!compact) {
-                        Text(
-                            tr("{0} words · ~{1} min", count, minutes),
-                            Modifier.clip(AppShapes.pill).background(colors.onSurface.copy(alpha = 0.06f)).padding(horizontal = 14.dp, vertical = 7.dp),
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = colors.onSurfaceVariant,
-                        )
+                        Tag(tr("{0} words · ~{1} min", count, minutes), style = TagStyle.Neutral)
                     }
                     Spacer(Modifier.weight(1f))
                     AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
@@ -80,14 +80,14 @@ fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDism
                     val toggle = { kinds = if (ticked) kinds - kind else kinds + kind }
                     Row(
                         modifier.heightIn(min = 112.dp).clip(AppShapes.card)
-                            .background(if (ticked) colors.primary.copy(alpha = 0.07f) else colors.surface)
-                            .border(if (ticked) 1.5.dp else 1.dp, if (ticked) colors.primary else colors.outlineVariant, AppShapes.card)
+                            .background(if (ticked) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
+                            .border(if (ticked) AppBorders.selected() else AppBorders.hairline(), AppShapes.card)
                             .clickable(onClick = toggle).padding(start = 12.dp, end = 16.dp, top = 12.dp, bottom = 12.dp).testTag("practice-kind-${kind.name}"),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(8.dp),
                     ) {
                         AppCheckbox(checked = ticked, onCheckedChange = { toggle() })
-                        Icon(kind.icon(), contentDescription = null, tint = colors.primary, modifier = Modifier.size(28.dp))
+                        Icon(kind.icon(), contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
                         Spacer(Modifier.width(4.dp))
                         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                             Text(kind.label(), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
@@ -107,11 +107,9 @@ fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDism
             Row(Modifier.fillMaxWidth().padding(horizontal = 32.dp, vertical = 16.dp), verticalAlignment = Alignment.CenterVertically) {
                 Text(trPlural(kinds.size, "{0} question type selected", "{0} question types selected"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
                 Spacer(Modifier.weight(1f))
-                QuietButton(onClick = onDismiss) { Text(tr("Cancel"), style = MaterialTheme.typography.titleMedium) }
+                QuietButton(tr("Cancel"), onClick = onDismiss, size = ButtonSize.Large)
                 Spacer(Modifier.width(8.dp))
-                PrimaryButton(onClick = { onStart(kinds) }, enabled = kinds.isNotEmpty(), modifier = Modifier.height(52.dp).testTag("start-practice")) {
-                    Text(tr("Start practice"), Modifier.padding(horizontal = 8.dp), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-                }
+                PrimaryButton(tr("Start practice"), onClick = { onStart(kinds) }, modifier = Modifier.testTag("start-practice"), enabled = kinds.isNotEmpty(), size = ButtonSize.Large)
             }
         }
     }
