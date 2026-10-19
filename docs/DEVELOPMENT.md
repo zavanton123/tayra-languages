@@ -674,6 +674,23 @@ links that miss: UN News's `/feed/view` (406) and BBC Chinese's simplified feed 
 article opened becomes a book linked in `news_articles` (migration 22), which `listBooks` leaves out
 as it does `course_lessons`; the reader then shows News in the bar and leads back to it.
 
+A book can also start from any web page: the book form's Web page choice calls `WebPageReader`
+(core/domain `web/`), which `HttpWebPageReader` (core/data `web/`) implements. It fetches the page and
+decodes it by the header's charset, the page's `<meta charset>` or UTF-8. It reads the article with
+`ArticleText.page`, which works like Mozilla Readability (Apache-2.0), whose lists of names it follows:
+- hidden elements and those whose class or id name a comment, share bar, ad or related list are left out;
+- lines that are mostly links are dropped;
+- text loose in a block, and list items, count as paragraphs;
+- `article`, `main` and article-like names weigh more, and the sections beside the best container come
+  along;
+- a page that comes to under 500 letters this way is read again without the names.
+
+`PageMeta` takes the title (Open Graph, schema.org `headline`, then `<title>`, without the site's name),
+language, author and site name. A link to a document (PDF, EPUB, text) is read by `FileTextExtractor`.
+The news reader keeps `ArticleText.extract`, which reads no names, as its sites lay articles out in
+"teaser" and "sidebar" elements. The browser cannot fetch other sites, so the web app registers no
+reader and the form offers no Web page.
+
 The News section's Wikis tab (`WikipediaViewModel`) reads `WikiArticles` (core/data `news/`) for the
 `Wiki` chosen on its chips: Wikipedia, Simple English Wikipedia (en), Klexikon and MiniKlexikon (de,
 klexikon.zum.de and miniklexikon.zum.de, API at `/api.php`), Wikivoyage and Wikibooks (their open
