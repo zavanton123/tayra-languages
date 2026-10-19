@@ -4,8 +4,8 @@ package com.tayra.languages.core.ui.i18n.es
 internal val esFrequency: Map<String, String> = mapOf(
     // Status names (TermStatus.label), shown through tr(label).
     "Unknown" to "Desconocido",
-    "New (1)" to "Nuevo (1)",
-    "New (2)" to "Nuevo (2)",
+    "Learning (1)" to "Aprendiendo (1)",
+    "Learning (2)" to "Aprendiendo (2)",
     "Learning (3)" to "Aprendiendo (3)",
     "Learning (4)" to "Aprendiendo (4)",
     "Known" to "Conocido",

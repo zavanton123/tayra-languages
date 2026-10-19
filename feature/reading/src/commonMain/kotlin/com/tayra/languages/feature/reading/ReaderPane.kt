@@ -302,7 +302,7 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
         if (prefs.showHighlights) {
             val statusColors = TayraTheme.current.statusColors
             Row(Modifier.padding(start = AppSpacing.huge), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                listOf(TermStatus.UNKNOWN to tr("New"), TermStatus.NEW_1 to tr("Learning")).forEach { (status, label) ->
+                listOf(TermStatus.UNKNOWN to tr("Unknown"), TermStatus.NEW_1 to tr("Learning")).forEach { (status, label) ->
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         StatusDot(statusColors.background(status), size = 14.dp)
                         Spacer(Modifier.width(AppSpacing.s))

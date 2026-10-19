@@ -105,7 +105,7 @@ class TermsScreenTest {
         // The screen opens on the words being learned: statuses 1 to 4 are ticked, known and ignored terms stay out.
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
         onNodeWithContentDescription("1 filter on").assertExists()
-        for (status in listOf("New (1)", "New (2)", "Learning (3)", "Learning (4)")) onNodeWithContentDescription("Remove $status").assertExists()
+        for (status in listOf("Learning (1)", "Learning (2)", "Learning (3)", "Learning (4)")) onNodeWithContentDescription("Remove $status").assertExists()
         onAllNodesWithText("Clear all")[0].performClick()
         // With nothing ticked, the known terms show too; ignored terms stay out until asked for.
         waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))

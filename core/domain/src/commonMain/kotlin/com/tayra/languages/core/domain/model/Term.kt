@@ -8,8 +8,8 @@ import kotlin.time.Instant
  */
 enum class TermStatus(val value: Int, val label: String, val abbreviation: String) {
     UNKNOWN(0, "Unknown", "U"),
-    NEW_1(1, "New (1)", "1"),
-    NEW_2(2, "New (2)", "2"),
+    NEW_1(1, "Learning (1)", "1"),
+    NEW_2(2, "Learning (2)", "2"),
     LEARNING_3(3, "Learning (3)", "3"),
     LEARNING_4(4, "Learning (4)", "4"),
     IGNORED(98, "Ignored", "I"),

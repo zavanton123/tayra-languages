@@ -4,8 +4,8 @@ package com.tayra.languages.core.ui.i18n.de
 internal val deTerms: Map<String, String> = mapOf(
     // Status names (core/domain TermStatus), shown through tr(status.label).
     "Unknown" to "Unbekannt",
-    "New (1)" to "Neu (1)",
-    "New (2)" to "Neu (2)",
+    "Learning (1)" to "Lernend (1)",
+    "Learning (2)" to "Lernend (2)",
     "Learning (3)" to "Lernend (3)",
     "Learning (4)" to "Lernend (4)",
     "Known" to "Bekannt",

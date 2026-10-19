@@ -4,8 +4,8 @@ package com.tayra.languages.core.ui.i18n.pt
 internal val ptTerms: Map<String, String> = mapOf(
     // Status names (core/domain TermStatus), shown through tr(status.label).
     "Unknown" to "Desconhecida",
-    "New (1)" to "Nova (1)",
-    "New (2)" to "Nova (2)",
+    "Learning (1)" to "Aprendendo (1)",
+    "Learning (2)" to "Aprendendo (2)",
     "Learning (3)" to "Aprendendo (3)",
     "Learning (4)" to "Aprendendo (4)",
     "Known" to "Conhecida",

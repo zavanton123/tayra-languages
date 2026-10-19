@@ -4,8 +4,8 @@ package com.tayra.languages.core.ui.i18n.ru
 internal val ruFrequency: Map<String, String> = mapOf(
     // Status names (TermStatus.label), shown through tr(label).
     "Unknown" to "Незнакомое",
-    "New (1)" to "Новое (1)",
-    "New (2)" to "Новое (2)",
+    "Learning (1)" to "Изучаю (1)",
+    "Learning (2)" to "Изучаю (2)",
     "Learning (3)" to "Изучаю (3)",
     "Learning (4)" to "Изучаю (4)",
     "Known" to "Знаю",

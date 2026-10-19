@@ -399,7 +399,7 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = AppSpacing.xxl) {
         )
         AppDivider(Modifier.padding(vertical = AppSpacing.l))
         Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl), verticalAlignment = Alignment.CenterVertically) {
-            LegendDot(tr("New"), colors.background(TermStatus.UNKNOWN), theme)
+            LegendDot(tr("Unknown"), colors.background(TermStatus.UNKNOWN), theme)
             LegendDot(tr("Learning"), colors.background(TermStatus.NEW_1), theme)
             LegendDot(tr("Known"), null, theme)
         }
