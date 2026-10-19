@@ -44,7 +44,6 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -58,10 +57,13 @@ import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
 import com.tayra.languages.core.ui.components.LanguageMenuRow
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppText
 
 /** The language being learned, the native language meanings are shown in, and the language of the interface. */
 @Composable
@@ -90,8 +92,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 if (!compact) SavedNote(changes)
             }
             Column(
-                Modifier.fillMaxWidth().clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
-                    .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card)
+                Modifier.fillMaxWidth().cardSurface(AppShapes.card)
                     .padding(if (compact) 16.dp else 24.dp),
             ) {
                 Text(tr("Language setup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
@@ -192,17 +193,11 @@ private fun LanguageTile(
     } else {
         Modifier.background(colors.surface)
     }
-    Column(modifier.clip(shape).then(background).border(1.dp, if (highlighted) colors.primary.copy(alpha = 0.35f) else colors.outlineVariant, shape)) {
+    Column(modifier.clip(shape).then(background).border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = 0.35f) else colors.outlineVariant), shape)) {
         if (highlighted) Box(Modifier.fillMaxWidth().height(4.dp).background(colors.primary))
         val inset = if (LocalWindowWidth.current.isCompact) 18.dp else 24.dp
         Column(Modifier.padding(start = inset, end = inset, top = inset + if (highlighted) 2.dp else 6.dp, bottom = inset)) {
-            Text(
-                label.uppercase(),
-                style = MaterialTheme.typography.labelMedium,
-                letterSpacing = 1.sp,
-                fontWeight = FontWeight.SemiBold,
-                color = if (highlighted) colors.primary else colors.onSurfaceVariant,
-            )
+            Text(label.uppercase(), style = AppText.overline.copy(color = if (highlighted) colors.primary else colors.onSurfaceVariant))
             Spacer(Modifier.height(6.dp))
             Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(16.dp))
@@ -234,7 +229,7 @@ private fun <T> FlagPicker(
     Box(modifier.fillMaxWidth()) {
         Row(
             Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surface)
-                .border(1.dp, colors.outline.copy(alpha = 0.6f), AppShapes.compact)
+                .border(AppBorders.hairline(colors.outline.copy(alpha = 0.6f)), AppShapes.compact)
                 .clickable(enabled = options.isNotEmpty()) { open = true }
                 .padding(horizontal = 18.dp, vertical = 14.dp),
             verticalAlignment = Alignment.CenterVertically,

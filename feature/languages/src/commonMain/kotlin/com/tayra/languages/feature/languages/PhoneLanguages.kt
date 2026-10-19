@@ -31,7 +31,6 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.settings.UserSettings
@@ -43,7 +42,9 @@ import com.tayra.languages.core.ui.components.LearningLanguageState
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * The Languages page on a phone: the three choices as cards, each with a row that opens a bottom
@@ -113,10 +114,10 @@ private fun PhoneLanguageCard(label: String, title: String, description: String,
     Column(
         Modifier.fillMaxWidth().clip(shape)
             .background(if (highlighted) colors.primary.copy(alpha = 0.07f) else colors.surface)
-            .border(1.dp, if (highlighted) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant, shape)
+            .border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant), shape)
             .padding(16.dp),
     ) {
-        Text(label.uppercase(), style = MaterialTheme.typography.labelMedium, letterSpacing = 1.sp, fontWeight = FontWeight.SemiBold, color = if (highlighted) colors.primary else colors.onSurfaceVariant)
+        Text(label.uppercase(), style = AppText.overline.copy(color = if (highlighted) colors.primary else colors.onSurfaceVariant))
         Spacer(Modifier.height(4.dp))
         Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
         Spacer(Modifier.height(14.dp))
@@ -131,7 +132,7 @@ private fun PhoneLanguageCard(label: String, title: String, description: String,
 private fun PhoneLanguageRow(flagName: String?, tag: String, label: String? = flagName?.let(::tr), onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.surface).border(1.dp, colors.outline.copy(alpha = 0.5f), AppShapes.control)
+        Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.surface).border(AppBorders.hairline(colors.outline.copy(alpha = 0.5f)), AppShapes.control)
             .clickable(onClick = onClick).padding(horizontal = 14.dp, vertical = 12.dp).testTag(tag),
         verticalAlignment = Alignment.CenterVertically,
     ) {

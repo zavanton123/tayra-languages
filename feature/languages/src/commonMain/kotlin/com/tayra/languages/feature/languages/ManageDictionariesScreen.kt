@@ -3,8 +3,6 @@ package com.tayra.languages.feature.languages
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -25,7 +23,6 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -38,16 +35,20 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSnackbar
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.IconButtonSize
+import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
-import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /** Enables or disables the online dictionaries offered for one language. */
@@ -64,7 +65,7 @@ fun ManageDictionariesScreen(
     Scaffold(
         topBar = { AppTopBar(title = tr("Dictionaries"), onNavigate = onNavigate, section = NavSection.SETTINGS, onBack = if (compact) onBack else null) },
         snackbarHost = {
-            state.message?.let { Snackbar(action = { QuietButton(tr("OK"), onClick = viewModel::dismissMessage) }) { Text(it) } }
+            state.message?.let { AppSnackbar(it, actionLabel = tr("OK"), onAction = viewModel::dismissMessage) }
         },
     ) { padding ->
         if (state.loading) {
@@ -80,10 +81,7 @@ fun ManageDictionariesScreen(
                 item {
                     Row(Modifier.fillMaxWidth().padding(bottom = 12.dp), verticalAlignment = Alignment.CenterVertically) {
                         if (!compact) {
-                            Box(
-                                Modifier.size(40.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).clickable(onClick = onBack),
-                                contentAlignment = Alignment.Center,
-                            ) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), modifier = Modifier.size(20.dp)) }
+                            AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Back"), onBack, style = IconButtonStyle.Outlined)
                             Spacer(Modifier.width(20.dp))
                         }
                         Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(32.dp))
@@ -101,7 +99,7 @@ fun ManageDictionariesScreen(
                     item { Text(tr("No dictionaries enabled yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
                 }
                 itemsIndexed(state.preferred, key = { index, entry -> entry.key("on", index) }) { _, entry ->
-                    DictionaryRow(entry.name, entry.url, tint = Color(0xFF1FA463), icon = Icons.Default.Close, iconDescription = tr("Disable")) { viewModel.disable(entry) }
+                    DictionaryRow(entry.name, entry.url, tint = AppAccents.green, icon = Icons.Default.Close, iconDescription = tr("Disable")) { viewModel.disable(entry) }
                 }
                 item { SectionLabel(tr("All resources"), topPadding = 20.dp) }
                 itemsIndexed(state.available, key = { index, entry -> entry.key("off", index) }) { _, entry ->
@@ -133,9 +131,6 @@ private fun DictionaryRow(name: String, url: String, tint: Color?, icon: ImageVe
             Text(name, style = MaterialTheme.typography.bodyLarge, color = tint ?: colors.onSurface, fontWeight = FontWeight.Medium)
             if (detail != null) Text(detail, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
-        Box(
-            Modifier.size(44.dp).clip(AppShapes.large).background(colors.surfaceVariant).clickable(onClick = onAction),
-            contentAlignment = Alignment.Center,
-        ) { Icon(icon, contentDescription = iconDescription, modifier = Modifier.size(20.dp)) }
+        AppIconButton(icon, iconDescription, onAction, Modifier.clip(AppShapes.large).background(colors.surfaceVariant), size = IconButtonSize.Large, tint = colors.onSurface)
     }
 }
