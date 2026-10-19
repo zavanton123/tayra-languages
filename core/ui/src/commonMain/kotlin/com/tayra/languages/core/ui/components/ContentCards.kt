@@ -1,14 +1,5 @@
 package com.tayra.languages.core.ui.components
 
-import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.theme.AppAccents
-import com.tayra.languages.core.ui.theme.AppAlpha
-import com.tayra.languages.core.ui.theme.AppSizes
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.ui.text.style.TextOverflow
-import com.tayra.languages.core.ui.theme.AppBorders
-import com.tayra.languages.core.ui.theme.AppShapes
-import com.tayra.languages.core.ui.theme.AppSpacing
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -33,6 +24,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -43,10 +35,20 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.layout.layout
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppBorders
+import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
 /** Colours of status pills, tags and banners, readable on light and dark themes alike. */
@@ -82,7 +84,9 @@ fun ScreenHeader(
 ) {
     val compact = LocalWindowWidth.current.isCompact
     val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth()) {
+    // A phone's bar holds the title; a subtitle alone moves up under it, so it reads as the title's and not the content's.
+    val underBar = compact && !titleOnCompact && crumbs.isEmpty() && subtitle != null
+    Column(Modifier.fillMaxWidth().then(if (underBar) Modifier.pullUp(AppSpacing.l) else Modifier)) {
         if (onBackToSettings != null && !compact) {
             Row(
                 Modifier.clip(AppShapes.compact).clickable(onClick = onBackToSettings).padding(vertical = AppSpacing.xs, horizontal = AppSpacing.xxs),
@@ -366,3 +370,11 @@ fun CodeTile(languageCode: String, size: Int = 44) {
 
 private val STEPPER_VALUE_MIN_WIDTH = 64.dp
 private val VALUE_CHIP_MIN_WIDTH = 72.dp
+
+/** Draws the content [by] higher and takes that much less room, closing a gap above it that its parent leaves. */
+private fun Modifier.pullUp(by: Dp): Modifier = layout { measurable, constraints ->
+    val placeable = measurable.measure(constraints)
+    val pull = by.roundToPx().coerceAtMost(placeable.height)
+    layout(placeable.width, placeable.height - pull) { placeable.place(0, -pull) }
+}
+
