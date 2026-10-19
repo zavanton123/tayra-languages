@@ -107,6 +107,9 @@ class BookFormScreenTest {
             }
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Create new book").fetchSemanticsNodes().isNotEmpty() }
+        // The formats are named once a file is the source.
+        assertEquals(0, onAllNodesWithText("FB2", substring = true).fetchSemanticsNodes().size)
+        onNodeWithTag("source-FILE").performClick()
         onAllNodesWithText("FB2", substring = true).fetchSemanticsNodes().let { kotlin.test.assertTrue(it.isNotEmpty(), "the formats name FB2") }
         val fb2 = """<?xml version="1.0" encoding="utf-8"?><FictionBook><description><title-info><book-title>O Lobo</book-title></title-info></description>
             <body><section><p>O lobo dorme na floresta.</p></section></body></FictionBook>"""

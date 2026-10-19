@@ -85,6 +85,7 @@ internal val ruBooks: Map<String, String> = mapOf(
     "The site does not let apps read this page; it may need a subscription or a sign-in." to "Сайт не разрешает приложениям читать эту страницу: возможно, нужна подписка или вход в аккаунт.",
     "The page could not be loaded. Check the address and your connection." to "Не удалось загрузить страницу. Проверьте адрес и подключение к интернету.",
     "No article text was found on this page." to "На этой странице не найден текст статьи.",
+    "Paste the text instead" to "Вставить текст вместо этого",
     "Create new book" to "Новая книга",
     "Edit book" to "Изменить книгу",
     "Change the text, title, tags and pages of “{0}”." to "Измените текст, название, теги и страницы книги «{0}».",

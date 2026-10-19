@@ -85,6 +85,7 @@ internal val zhBooks: Map<String, String> = mapOf(
     "The site does not let apps read this page; it may need a subscription or a sign-in." to "该网站不允许应用读取此网页，可能需要订阅或登录。",
     "The page could not be loaded. Check the address and your connection." to "无法加载该网页。请检查地址和网络连接。",
     "No article text was found on this page." to "在此网页上没有找到文章正文。",
+    "Paste the text instead" to "改为粘贴文本",
     "Create new book" to "新建书籍",
     "Edit book" to "编辑书籍",
     "Change the text, title, tags and pages of “{0}”." to "修改《{0}》的文本、标题、标签和分页。",

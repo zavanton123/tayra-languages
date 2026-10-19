@@ -185,16 +185,19 @@ private fun BookContentCard(
     ContentCard(tr("Book content"), subtitle, icon = AppIcons.FileOutline, modifier = modifier) {
         // A file can only start a book; an existing book's text is edited in place.
         if (state.isNew) {
-            // The formats are many: beside the toggle where there is room, under it on a phone.
+            // The formats are many: beside the toggle where there is room, under it on a phone; only while a file is the source.
+            val showFormats = source == ContentSource.FILE
             if (LocalWindowWidth.current.isCompact) {
                 SourceToggle(source, onSource, state.readsWebPages)
-                Spacer(Modifier.height(AppSpacing.m))
-                Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                if (showFormats) {
+                    Spacer(Modifier.height(AppSpacing.m))
+                    Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
             } else {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     SourceToggle(source, onSource, state.readsWebPages)
                     Spacer(Modifier.width(AppSpacing.xl))
-                    Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
+                    if (showFormats) Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
                 }
             }
             Spacer(Modifier.height(AppSpacing.l))
@@ -222,7 +225,7 @@ private fun BookContentCard(
                 }
             }
             ContentSource.FILE -> FileDrop(state, formats, onChooseFile, onDropFiles, onTakePhoto)
-            ContentSource.WEB -> WebPageImport(state, onRead = { address -> viewModel.importWebPage(address) { onSource(ContentSource.PASTE) } })
+            ContentSource.WEB -> WebPageImport(state, onRead = { address -> viewModel.importWebPage(address) { onSource(ContentSource.PASTE) } }, onPaste = { onSource(ContentSource.PASTE) })
         }
     }
 }
@@ -251,7 +254,7 @@ private fun SourceToggle(selected: ContentSource, onSelect: (ContentSource) -> U
 
 /** A web page's address, whose article is read into the text: without the menus, ads and comments around it. */
 @Composable
-private fun WebPageImport(state: BookFormUiState, onRead: (String) -> Unit) {
+private fun WebPageImport(state: BookFormUiState, onRead: (String) -> Unit, onPaste: () -> Unit) {
     var address by rememberSaveable { mutableStateOf(state.draft.sourceUri) }
     val read = { if (address.isNotBlank() && !state.busy) onRead(address) }
     val field: @Composable (Modifier) -> Unit = { modifier ->
@@ -280,6 +283,12 @@ private fun WebPageImport(state: BookFormUiState, onRead: (String) -> Unit) {
                 field(Modifier.weight(1f))
                 button(Modifier)
             }
+        }
+        // A failure is told by the address it is about, with the way round it.
+        state.webError?.let { message ->
+            Spacer(Modifier.height(AppSpacing.s))
+            Text(message, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error, modifier = Modifier.testTag("web-error"))
+            QuietButton(tr("Paste the text instead"), onClick = onPaste)
         }
         Spacer(Modifier.height(AppSpacing.m))
         Text(

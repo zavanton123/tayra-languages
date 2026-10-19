@@ -85,6 +85,7 @@ internal val elBooks: Map<String, String> = mapOf(
     "The site does not let apps read this page; it may need a subscription or a sign-in." to "Ο ιστότοπος δεν επιτρέπει σε εφαρμογές να διαβάσουν αυτή τη σελίδα· ίσως χρειάζεται συνδρομή ή σύνδεση.",
     "The page could not be loaded. Check the address and your connection." to "Δεν ήταν δυνατή η φόρτωση της σελίδας. Ελέγξτε τη διεύθυνση και τη σύνδεσή σας.",
     "No article text was found on this page." to "Δεν βρέθηκε κείμενο άρθρου σε αυτή τη σελίδα.",
+    "Paste the text instead" to "Επικόλληση του κειμένου",
     "Create new book" to "Νέο βιβλίο",
     "Edit book" to "Επεξεργασία βιβλίου",
     "Change the text, title, tags and pages of “{0}”." to "Αλλάξτε το κείμενο, τον τίτλο, τις ετικέτες και τις σελίδες του «{0}».",

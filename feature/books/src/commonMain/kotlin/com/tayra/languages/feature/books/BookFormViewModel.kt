@@ -36,6 +36,8 @@ data class BookFormUiState(
     val tagSuggestions: List<String> = emptyList(),
     val importedFileName: String? = null,
     val error: String? = null,
+    /** Why a web page could not be read; shown by its address field rather than at the top of the form. */
+    val webError: String? = null,
     val notice: String? = null,
     val busy: Boolean = false,
     /** For an existing book: its text and page size as loaded, to tell whether the pages need rebuilding. */
@@ -145,7 +147,7 @@ class BookFormViewModel(
      */
     fun importWebPage(address: String, onRead: () -> Unit = {}) {
         val reader = webPages ?: return
-        _state.update { it.copy(busy = true, error = null, notice = null, progress = tr("Reading the page…")) }
+        _state.update { it.copy(busy = true, error = null, webError = null, notice = null, progress = tr("Reading the page…")) }
         viewModelScope.launch {
             try {
                 val article = reader.read(address)
@@ -170,7 +172,7 @@ class BookFormViewModel(
                     }
                     is WebPageException.NoArticle -> tr("No article text was found on this page.")
                 }
-                _state.update { it.copy(busy = false, progress = null, error = message) }
+                _state.update { it.copy(busy = false, progress = null, webError = message) }
             }
         }
     }

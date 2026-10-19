@@ -85,6 +85,7 @@ internal val frBooks: Map<String, String> = mapOf(
     "The site does not let apps read this page; it may need a subscription or a sign-in." to "Le site ne permet pas aux applications de lire cette page ; un abonnement ou une connexion est peut-être nécessaire.",
     "The page could not be loaded. Check the address and your connection." to "Impossible de charger la page. Vérifiez l’adresse et votre connexion.",
     "No article text was found on this page." to "Aucun texte d’article n’a été trouvé sur cette page.",
+    "Paste the text instead" to "Coller le texte à la place",
     "Create new book" to "Nouveau livre",
     "Edit book" to "Modifier le livre",
     "Change the text, title, tags and pages of “{0}”." to "Modifiez le texte, le titre, les tags et les pages de « {0} ».",
