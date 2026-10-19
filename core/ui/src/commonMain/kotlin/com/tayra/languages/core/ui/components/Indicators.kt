@@ -7,6 +7,15 @@ import androidx.compose.animation.core.infiniteRepeatable
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.Alignment
+import androidx.compose.runtime.remember
+import androidx.compose.material3.ripple
+import androidx.compose.material3.minimumInteractiveComponentSize
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -26,14 +35,12 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconButtonDefaults
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.LocalContentColor
-import androidx.compose.material3.LocalMinimumInteractiveComponentSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
 import androidx.compose.material3.TriStateCheckbox
 import androidx.compose.material3.VerticalDivider
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -66,6 +73,36 @@ enum class IconButtonSize(internal val box: Dp, internal val icon: Dp) {
     Small(32.dp, 18.dp),
     Regular(40.dp, 22.dp),
     Large(44.dp, 24.dp),
+}
+
+/**
+ * An icon button that draws its own [background] and [border] at its size, while on touch screens
+ * its tap area reaches a finger's size around it (Material would grow the drawing with the area).
+ */
+@Composable
+private fun DrawnIconButton(
+    onClick: () -> Unit,
+    modifier: Modifier,
+    enabled: Boolean,
+    size: IconButtonSize,
+    shape: Shape,
+    background: Color,
+    border: BorderStroke?,
+    content: @Composable () -> Unit,
+) {
+    val interaction = remember { MutableInteractionSource() }
+    Box(
+        modifier
+            .then(if (touchFirst) Modifier.minimumInteractiveComponentSize() else Modifier)
+            .clickable(interaction, ripple(bounded = false, radius = size.box / 2), enabled = enabled, role = Role.Button, onClick = onClick),
+        contentAlignment = Alignment.Center,
+    ) {
+        Box(
+            Modifier.size(size.box).clip(shape).background(background).then(if (border != null) Modifier.border(border, shape) else Modifier)
+                .alpha(if (enabled) 1f else AppAlpha.disabled),
+            contentAlignment = Alignment.Center,
+        ) { content() }
+    }
 }
 
 /**
@@ -103,24 +140,14 @@ fun AppIconButton(
         IconButtonStyle.Filled -> FilledIconButton(onClick = onClick, modifier = modifier.size(size.box), enabled = enabled, shape = shape ?: AppShapes.pill) {
             content(tint ?: LocalContentColor.current)
         }
-        // Material grows a button to its touch size, and the outline and wash would grow with it.
-        IconButtonStyle.Outlined -> CompositionLocalProvider(LocalMinimumInteractiveComponentSize provides 0.dp) {
+        IconButtonStyle.Outlined -> {
             val s = shape ?: AppShapes.control
-            IconButton(
-                onClick = onClick,
-                modifier = modifier.size(size.box).clip(s).background(if (selected) accent.copy(alpha = AppAlpha.soft) else colors.surface).border(AppBorders.hairline(), s),
-                enabled = enabled,
-                shape = s,
-            ) { content(if (selected) accent else tint ?: colors.onSurface) }
+            DrawnIconButton(onClick, modifier, enabled, size, s, if (selected) accent.copy(alpha = AppAlpha.soft) else colors.surface, AppBorders.hairline()) {
+                content(if (selected) accent else tint ?: colors.onSurface)
+            }
         }
-        IconButtonStyle.Tonal -> CompositionLocalProvider(LocalMinimumInteractiveComponentSize provides 0.dp) {
-            val s = shape ?: AppShapes.circle
-            IconButton(
-                onClick = onClick,
-                modifier = modifier.size(size.box).clip(s).background(accent.copy(alpha = if (selected) AppAlpha.line else AppAlpha.tint)),
-                enabled = enabled,
-                shape = s,
-            ) { content(accent) }
+        IconButtonStyle.Tonal -> DrawnIconButton(onClick, modifier, enabled, size, shape ?: AppShapes.circle, accent.copy(alpha = if (selected) AppAlpha.line else AppAlpha.tint), null) {
+            content(accent)
         }
         IconButtonStyle.Plain -> IconButton(onClick = onClick, modifier = modifier.size(size.box), enabled = enabled, colors = IconButtonDefaults.iconButtonColors()) {
             content(if (selected) colors.primary else tint ?: colors.onSurfaceVariant)
