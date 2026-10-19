@@ -135,7 +135,7 @@ fun App(titleBarInset: Dp = 0.dp) {
         var openCourses by remember { mutableIntStateOf(0) }
         // Set during composition, so the first frame is already in the chosen language.
         UiLanguage.set(settings.uiLanguage)
-        TayraTheme(AppThemes.byId(settings.themeId)) {
+        TayraTheme(AppThemes.byId(settings.themeId), reduceMotion = settings.reduceMotion) {
             // Text takes the background's content colour from here, as a Surface would provide it.
             Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
                 CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onBackground) {
