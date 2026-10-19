@@ -91,6 +91,7 @@ internal val deSettings: Map<String, String> = mapOf(
     "{0} has no voice for your language on this device yet, so the system voice reads it." to "{0} hat auf diesem Gerät noch keine Stimme für deine Lernsprache, daher liest die Systemstimme.",
     "{0} has no {1} voice on this device yet, so the system voice reads {1}." to "{0} hat auf diesem Gerät noch keine Stimme für {1}, daher liest die Systemstimme {1}.",
     "Speech speed" to "Sprechgeschwindigkeit",
+    "The system voices set their own speed; an offline engine lets you change it." to "Systemstimmen legen ihr Tempo selbst fest; mit einer Offline-Engine lässt es sich ändern.",
     "speech speed" to "Sprechgeschwindigkeit",
     "Try this voice" to "Stimme ausprobieren",
     "Type a sentence in {0}" to "Gib einen Satz auf {0} ein",

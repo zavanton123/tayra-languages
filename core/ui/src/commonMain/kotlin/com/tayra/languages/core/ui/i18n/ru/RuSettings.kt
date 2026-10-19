@@ -91,6 +91,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     "{0} has no voice for your language on this device yet, so the system voice reads it." to "У {0} на этом устройстве ещё нет голоса для изучаемого языка, поэтому текст читает системный голос.",
     "{0} has no {1} voice on this device yet, so the system voice reads {1}." to "{1} голос для {0} на этом устройстве ещё не скачан, поэтому текст читает системный голос.",
     "Speech speed" to "Скорость озвучивания",
+    "The system voices set their own speed; an offline engine lets you change it." to "Системные голоса сами задают скорость; в офлайн-движке её можно менять.",
     "speech speed" to "скорость озвучивания",
     "Try this voice" to "Попробуйте голос",
     "Type a sentence in {0}" to "{0} язык: введите предложение",

@@ -146,6 +146,10 @@ internal fun PhoneSpeechScreen(
                         sliderModifier = Modifier.semantics { contentDescription = tr("speech speed") }.testTag("phone-speech-speed"),
                     )
                     Spacer(Modifier.height(AppSpacing.s))
+                } else {
+                    // Said rather than left out, so a missing slider is not a mystery.
+                    Text(tr("The system voices set their own speed; an offline engine lets you change it."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Spacer(Modifier.height(AppSpacing.s))
                 }
                 PlaySample(viewModel, learning)
             }

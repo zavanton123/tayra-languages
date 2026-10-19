@@ -91,6 +91,7 @@ internal val ptSettings: Map<String, String> = mapOf(
     "{0} has no voice for your language on this device yet, so the system voice reads it." to "{0} ainda não tem voz para o seu idioma neste dispositivo, então a voz do sistema lê o texto.",
     "{0} has no {1} voice on this device yet, so the system voice reads {1}." to "{1}: {0} ainda não tem voz para este idioma neste dispositivo, então a voz do sistema lê o texto.",
     "Speech speed" to "Velocidade da fala",
+    "The system voices set their own speed; an offline engine lets you change it." to "As vozes do sistema definem a própria velocidade; um mecanismo offline permite alterá-la.",
     "speech speed" to "velocidade da fala",
     "Try this voice" to "Experimente esta voz",
     "Type a sentence in {0}" to "{0}: digite uma frase",

@@ -91,6 +91,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     "{0} has no voice for your language on this device yet, so the system voice reads it." to "此设备上的 {0} 还没有你所学语言的语音，因此由系统语音朗读。",
     "{0} has no {1} voice on this device yet, so the system voice reads {1}." to "此设备上的 {0} 还没有{1}语音，因此由系统语音朗读{1}。",
     "Speech speed" to "朗读速度",
+    "The system voices set their own speed; an offline engine lets you change it." to "系统语音自行决定语速；离线引擎可以调整语速。",
     "speech speed" to "朗读速度",
     "Try this voice" to "试听这个语音",
     "Type a sentence in {0}" to "输入一句{0}",

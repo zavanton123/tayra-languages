@@ -91,6 +91,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "{0} has no voice for your language on this device yet, so the system voice reads it." to "Το {0} δεν έχει ακόμη φωνή για τη γλώσσα σας σε αυτή τη συσκευή, οπότε τη διαβάζει η φωνή του συστήματος.",
     "{0} has no {1} voice on this device yet, so the system voice reads {1}." to "Το {0} δεν έχει ακόμη φωνή ({1}) σε αυτή τη συσκευή, οπότε η γλώσσα «{1}» διαβάζεται από τη φωνή του συστήματος.",
     "Speech speed" to "Ταχύτητα εκφώνησης",
+    "The system voices set their own speed; an offline engine lets you change it." to "Οι φωνές του συστήματος ορίζουν μόνες την ταχύτητα· με μια μηχανή εκτός σύνδεσης μπορείτε να την αλλάξετε.",
     "speech speed" to "ταχύτητα εκφώνησης",
     "Try this voice" to "Δοκιμάστε αυτή τη φωνή",
     "Type a sentence in {0}" to "{0}: πληκτρολογήστε μια πρόταση",

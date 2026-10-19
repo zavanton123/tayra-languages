@@ -91,6 +91,7 @@ internal val esSettings: Map<String, String> = mapOf(
     "{0} has no voice for your language on this device yet, so the system voice reads it." to "{0} aún no tiene en este dispositivo una voz para tu idioma, así que lo lee la voz del sistema.",
     "{0} has no {1} voice on this device yet, so the system voice reads {1}." to "{0} aún no tiene en este dispositivo una voz para este idioma ({1}), así que lo lee la voz del sistema.",
     "Speech speed" to "Velocidad de la voz",
+    "The system voices set their own speed; an offline engine lets you change it." to "Las voces del sistema fijan su propia velocidad; un motor sin conexión permite cambiarla.",
     "speech speed" to "velocidad de la voz",
     "Try this voice" to "Prueba esta voz",
     "Type a sentence in {0}" to "{0}: escribe una frase",
