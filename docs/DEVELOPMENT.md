@@ -240,6 +240,19 @@ Screens are built from `core/ui`.
   `SliderSetting` and `KeyValueRow`.
 - **Notices** (`components/Notices.kt`): `TintedSurface`, `InfoBanner` (with `dense` inside cards)
   and `Notice` (a title, a message, a spinner while busy, an action).
+- **Motion** (`theme/Motion.kt`, `components/Motion.kt`):
+  - `AppMotion` holds the durations (`short` 150 ms for a colour, `medium` 250 ms for something that
+    moves or grows, `long` 400 ms) and the easings. `AppMotion.spec()` returns an animation spec that
+    snaps when motion is reduced.
+  - Motion is reduced (`LocalReduceMotion`) when the setting asks or the system does: Android's
+    animations off, iOS's and the browser's Reduce Motion.
+  - `Reveal` and `RevealValue` open and close panels; `Appear` fades notices and answers in.
+    `itemMotion()` lets a list's items glide when the list is filtered or sorted.
+  - The segmented toggle's highlight and the underline tabs' line slide to the chosen one. Chips,
+    toggles and tabs fade between their colours, and progress fills smoothly.
+  - Screens fade between the main areas and slide a little for a step deeper (`AppNavHost`).
+  - In the reader, a word's colour fades to its new status. A flashcard turns over to show its
+    answer.
 - **Overlays** (`components/Overlays.kt`): `AppBottomSheet` for phones, `AppDialogSurface` for
   dialogs with content of their own, `SidePanel`, `PopupCard`, `BarSurface`, `AppTooltip` and
   `AppRichTooltip`.
@@ -260,7 +273,7 @@ Screens are built from `core/ui`.
 - writes a colour literal or a border width of its own;
 - writes a radius of its own (`RoundedCornerShape(10.dp)`; shapes with different corners are fine);
 - writes `CircleShape`, a tint strength (`copy(alpha = 0.1f)`) or an icon size of its own;
-- sets a button's height;
+- sets a button's height, or an animation's own duration;
 - writes a padding, a gap or a size in dp of its own (a one-off size is a named constant in its
   file), a fixed font weight instead of a text role, a text size in sp, a shadow's depth, or
   `Color.White`/`Color.Black`.

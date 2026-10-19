@@ -8,8 +8,8 @@ import kotlin.test.fail
  * Screens are built from the design system: its components (core/ui components' Controls.kt,
  * Indicators.kt, Overlays.kt, Patterns.kt, Chips.kt, Rows.kt and Notices.kt) rather than Material's,
  * its corner radii and circle (theme/Shapes.kt) rather than shapes of their own, and its colours,
- * tint strengths, borders, spacing, sizes, text roles and elevations (theme/Tokens.kt and the
- * theme) rather than literals; a one-off size is a named constant. A shape with different corners
+ * tint strengths, borders, spacing, sizes, text roles, elevations and motion (theme/Tokens.kt,
+ * theme/Motion.kt and the theme) rather than literals; a one-off size is a named constant. A shape with different corners
  * (`RoundedCornerShape(topStart = …)`) is fine; the drawn flags and icons keep their colours.
  */
 class DesignSystemTest {
@@ -21,7 +21,7 @@ class DesignSystemTest {
         .flatMap { dir -> dir.walkTopDown().filter { it.isFile && it.extension == "kt" && "/src/" in it.path && "Main/" in it.path && "/build/" !in it.path }.toList() }
 
     /** The design system's own files, which wrap Material's components. */
-    private val designSystem = listOf("Controls.kt", "Indicators.kt", "Overlays.kt", "Patterns.kt", "Chips.kt", "Rows.kt", "Notices.kt", "Dropdown.kt")
+    private val designSystem = listOf("Controls.kt", "Indicators.kt", "Overlays.kt", "Patterns.kt", "Chips.kt", "Rows.kt", "Notices.kt", "Motion.kt", "Dropdown.kt")
         .map { "core/ui/src/commonMain/kotlin/com/tayra/languages/core/ui/components/$it" }
 
     private fun File.isDesignSystem() = designSystem.any { path.endsWith(it) }
@@ -65,6 +65,8 @@ class DesignSystemTest {
 
     private val whiteOrBlack = Regex("""Color\.(White|Black)\b""")
 
+    private val timing = Regex("""tween\(\s*\d|durationMillis\s*=\s*\d|delayMillis\s*=\s*\d|\bspring\(""")
+
     private fun findings(files: List<File>, rules: List<Pair<Regex, String>>): List<String> = files.flatMap { file ->
         file.readLines().mapIndexedNotNull { i, line ->
             rules.firstOrNull { (regex, _) -> regex.containsMatchIn(line) }?.let { (regex, hint) -> "${file.relativeTo(root)}:${i + 1}: ${regex.find(line)!!.value} ($hint)" }
@@ -105,6 +107,7 @@ class DesignSystemTest {
                 textSize to "use the typography or an AppText style",
                 elevation to "use AppElevation",
                 whiteOrBlack to "use AppAccents.onAccent, AppAccents.ink or a theme colour",
+                timing to "use AppMotion's durations and AppMotion.spec",
             ),
         )
         if (found.isNotEmpty()) fail("Shapes, tints, spacing, sizes and text outside the design system's tokens (${found.size}):\n" + found.joinToString("\n"))

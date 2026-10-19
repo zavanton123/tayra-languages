@@ -23,7 +23,8 @@ everything you learn stays on your own device.
   book's language and the speed, so they can be changed without leaving the page.
 - **A reader that adapts to you.** Focus mode, adjustable font size, line height and text
   width, several colour themes, keyboard shortcuts on desktop, and bookmarks to pick up
-  where you left off.
+  where you left off. Screens move gently: a word's colour fades to its new status and a
+  flashcard turns over. Reduce motion in Settings, or the system's own setting, keeps them still.
 - **Translations under the mouse.** Resting the pointer on any word, in the text, in a term's
   examples or on the examples screen, shows its translation just above it: your saved meaning
   when there is one, otherwise the offline dictionary or the chosen translation engine.
