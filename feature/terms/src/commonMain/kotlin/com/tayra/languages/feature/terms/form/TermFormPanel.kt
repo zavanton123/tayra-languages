@@ -878,7 +878,9 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, t
                         }
                     }
                     Spacer(Modifier.size(AppSpacing.s))
-                    AppIconButton(Icons.Default.Add, tr("Add to translation"), onClick = { onAdd(gloss) }, style = IconButtonStyle.Tonal)
+                    AppTooltip(tr("Add to translation")) {
+                        AppIconButton(Icons.Default.Add, tr("Add to translation"), onClick = { onAdd(gloss) }, style = IconButtonStyle.Tonal)
+                    }
                 }
             }
         }
@@ -914,7 +916,11 @@ private fun ExamplesSection(
     val total = state.examplesTotal ?: state.examples.size
     val canOpen = onOpenExamples != null && languageId != null && term.isNotBlank()
 
-    TintedSurface(colors.primary, shape = AppShapes.card, padding = PaddingValues(sectionPadding()), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+    // The same plain card as the pane's other lookups.
+    Column(
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(AppBorders.hairline(), AppShapes.card).padding(sectionPadding()),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
+    ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Box(Modifier.weight(1f)) { SectionTitle(AppIcons.Page, tr("Examples"), if (state.loadingExamples) null else total) }
             if (canExpand) {
