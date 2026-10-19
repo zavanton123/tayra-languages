@@ -1,5 +1,10 @@
 package com.tayra.languages.feature.news
 
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.runtime.remember
+import com.tayra.languages.core.ui.components.AppBottomSheet
+import com.tayra.languages.core.ui.components.ToggleButton
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -252,12 +257,73 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
+/** Search and the filters; on phones the filters wait in a sheet behind one button, so articles show at once. */
 @Composable
 private fun Filters(state: NewsUiState, actions: NewsActions) {
     val colors = MaterialTheme.colorScheme
+    val compact = LocalWindowWidth.current.isCompact
+    var sheet by remember { mutableStateOf(false) }
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         SearchField(state.query, actions.onQuery, tr("Search the news"), Modifier.fillMaxWidth(), fieldModifier = Modifier.testTag("news-search"))
+        if (compact) {
+            val active = state.activeFilters
+            ToggleButton(
+                tr("Filters"),
+                active = active > 0,
+                onClick = { sheet = true },
+                modifier = Modifier.testTag("news-filters"),
+                icon = AppIcons.Tune,
+                badge = active,
+                contentDescription = if (active > 0) trPlural(active, "{0} filter on", "{0} filters on") else null,
+            )
+        } else {
+            FilterChips(state, actions)
+        }
+        if (state.filtering && !state.loading) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                val count = state.shown.size + if (state.hasMore) 1 else 0
+                Text(
+                    if (state.hasMore) tr("More than {0} articles", state.shown.size) else trPlural(count, "{0} article", "{0} articles"),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = colors.onSurfaceVariant,
+                )
+                QuietButton(tr("Clear filters"), onClick = actions.onClear, modifier = Modifier.testTag("clear-filters"))
+            }
+        }
+        if (state.stillChecking > 0) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                AppSpinner(size = SpinnerSize.Small)
+                Text(
+                    trPlural(state.stillChecking, "Checking the words of {0} more article…", "Checking the words of {0} more articles…"),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = colors.onSurfaceVariant,
+                )
+            }
+        }
+    }
+    if (sheet) {
+        AppBottomSheet(onDismissRequest = { sheet = false }) {
+            Column(
+                Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m),
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+            ) {
+                Text(tr("Filters"), style = AppText.itemTitle)
+                FilterChips(state, actions)
+                PrimaryButton(
+                    if (state.hasMore) tr("Show articles") else trPlural(state.shown.size, "Show {0} article", "Show {0} articles"),
+                    onClick = { sheet = false },
+                    modifier = Modifier.fillMaxWidth().testTag("news-filters-done"),
+                )
+            }
+        }
+    }
+}
+
+/** When, which source, what level and which topic. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun FilterChips(state: NewsUiState, actions: NewsActions) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             NewsPeriod.entries.forEach { period ->
                 AppFilterChip(selected = state.period == period, onClick = { actions.onPeriod(period) }, label = { Text(period.label) }, modifier = Modifier.testTag("period-${period.name}"))
@@ -288,27 +354,6 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
                 topics.forEach { topic ->
                     AppFilterChip(selected = state.topic == topic, onClick = { actions.onTopic(topic) }, label = { Text(topic) }, modifier = Modifier.testTag("topic-$topic"))
                 }
-            }
-        }
-        if (state.filtering && !state.loading) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                val count = state.shown.size + if (state.hasMore) 1 else 0
-                Text(
-                    if (state.hasMore) tr("More than {0} articles", state.shown.size) else trPlural(count, "{0} article", "{0} articles"),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = colors.onSurfaceVariant,
-                )
-                QuietButton(tr("Clear filters"), onClick = actions.onClear, modifier = Modifier.testTag("clear-filters"))
-            }
-        }
-        if (state.stillChecking > 0) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                AppSpinner(size = SpinnerSize.Small)
-                Text(
-                    trPlural(state.stillChecking, "Checking the words of {0} more article…", "Checking the words of {0} more articles…"),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = colors.onSurfaceVariant,
-                )
             }
         }
     }

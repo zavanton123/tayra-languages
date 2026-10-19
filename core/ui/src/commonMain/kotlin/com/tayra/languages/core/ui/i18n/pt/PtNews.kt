@@ -30,6 +30,8 @@ internal val ptNews: Map<String, String> = mapOf(
     "Clear filters" to "Limpar filtros",
     "More than {0} articles" to "Mais de {0} artigos",
     "{0} articles" to "{0} artigo|{0} artigos",
+    "Show {0} articles" to "Mostrar {0} artigo|Mostrar {0} artigos",
+    "Show articles" to "Mostrar artigos",
     "Checking the words of {0} more articles…" to "Verificando as palavras de mais {0} artigo…|Verificando as palavras de mais {0} artigos…",
     "None of the articles checked so far is at this level." to "Nenhum dos artigos verificados até agora está neste nível.",
     "No articles match these filters." to "Nenhum artigo corresponde a estes filtros.",

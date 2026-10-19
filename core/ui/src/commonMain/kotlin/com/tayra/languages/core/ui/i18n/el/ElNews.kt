@@ -30,6 +30,8 @@ internal val elNews: Map<String, String> = mapOf(
     "Clear filters" to "Καθαρισμός φίλτρων",
     "More than {0} articles" to "Περισσότερα από {0} άρθρα",
     "{0} articles" to "{0} άρθρο|{0} άρθρα",
+    "Show {0} articles" to "Εμφάνιση {0} άρθρου|Εμφάνιση {0} άρθρων",
+    "Show articles" to "Εμφάνιση άρθρων",
     "Checking the words of {0} more articles…" to "Έλεγχος των λέξεων {0} ακόμη άρθρου…|Έλεγχος των λέξεων {0} ακόμη άρθρων…",
     "None of the articles checked so far is at this level." to "Κανένα από τα άρθρα που ελέγχθηκαν ως τώρα δεν είναι σε αυτό το επίπεδο.",
     "No articles match these filters." to "Κανένα άρθρο δεν ταιριάζει με αυτά τα φίλτρα.",

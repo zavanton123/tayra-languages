@@ -30,6 +30,8 @@ internal val ruNews: Map<String, String> = mapOf(
     "Clear filters" to "Сбросить фильтры",
     "More than {0} articles" to "Больше {0} статей",
     "{0} articles" to "{0} статья|{0} статьи|{0} статей",
+    "Show {0} articles" to "Показать {0} статью|Показать {0} статьи|Показать {0} статей",
+    "Show articles" to "Показать статьи",
     "Checking the words of {0} more articles…" to "Проверяем слова ещё {0} статьи…|Проверяем слова ещё {0} статей…|Проверяем слова ещё {0} статей…",
     "None of the articles checked so far is at this level." to "Среди проверенных статей пока нет статей такого уровня.",
     "No articles match these filters." to "Ни одна статья не подходит под эти фильтры.",

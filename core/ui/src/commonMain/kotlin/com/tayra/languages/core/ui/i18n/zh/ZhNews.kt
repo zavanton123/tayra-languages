@@ -30,6 +30,8 @@ internal val zhNews: Map<String, String> = mapOf(
     "Clear filters" to "清除筛选条件",
     "More than {0} articles" to "超过 {0} 篇文章",
     "{0} articles" to "{0} 篇文章",
+    "Show {0} articles" to "显示 {0} 篇文章",
+    "Show articles" to "显示文章",
     "Checking the words of {0} more articles…" to "正在检查另外 {0} 篇文章的单词…",
     "None of the articles checked so far is at this level." to "目前已检查的文章中没有这个级别的。",
     "No articles match these filters." to "没有符合这些筛选条件的文章。",

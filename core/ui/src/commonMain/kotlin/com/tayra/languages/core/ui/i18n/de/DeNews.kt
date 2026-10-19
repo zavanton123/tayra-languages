@@ -30,6 +30,8 @@ internal val deNews: Map<String, String> = mapOf(
     "Clear filters" to "Filter zurücksetzen",
     "More than {0} articles" to "Mehr als {0} Artikel",
     "{0} articles" to "{0} Artikel|{0} Artikel",
+    "Show {0} articles" to "{0} Artikel anzeigen|{0} Artikel anzeigen",
+    "Show articles" to "Artikel anzeigen",
     "Checking the words of {0} more articles…" to "Wörter von {0} weiteren Artikel werden geprüft…|Wörter von {0} weiteren Artikeln werden geprüft…",
     "None of the articles checked so far is at this level." to "Keiner der bisher geprüften Artikel hat dieses Niveau.",
     "No articles match these filters." to "Keine Artikel passen zu diesen Filtern.",

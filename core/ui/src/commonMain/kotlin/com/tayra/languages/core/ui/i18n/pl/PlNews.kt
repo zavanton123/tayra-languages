@@ -30,6 +30,8 @@ internal val plNews: Map<String, String> = mapOf(
     "Clear filters" to "Wyczyść filtry",
     "More than {0} articles" to "Ponad {0} artykułów",
     "{0} articles" to "{0} artykuł|{0} artykuły|{0} artykułów",
+    "Show {0} articles" to "Pokaż {0} artykuł|Pokaż {0} artykuły|Pokaż {0} artykułów",
+    "Show articles" to "Pokaż artykuły",
     "Checking the words of {0} more articles…" to "Sprawdzanie słów jeszcze {0} artykułu…|Sprawdzanie słów jeszcze {0} artykułów…|Sprawdzanie słów jeszcze {0} artykułów…",
     "None of the articles checked so far is at this level." to "Żaden ze sprawdzonych dotąd artykułów nie jest na tym poziomie.",
     "No articles match these filters." to "Żaden artykuł nie pasuje do tych filtrów.",

@@ -14,6 +14,7 @@ import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -151,6 +152,20 @@ class NewsScreenTest {
         assertEquals(2, filters.copy(difficulty = Difficulty.HARD).stillChecking)
         assertEquals(false, filters.filtering)
         assertEquals(true, filters.copy(hideRead = true).filtering)
+    }
+
+    @Test
+    fun onAPhoneTheFiltersWaitInASheet() = runDesktopComposeUiTest(width = 400, height = 1000) {
+        show(filters) { update -> NewsActions(onTopic = { t -> update { it.copy(topic = t) } }) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Parque novo para gatos")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("topic-Política").fetchSemanticsNodes().size)
+        onNodeWithTag("news-filters").performClick()
+        onNodeWithTag("topic-Política").performClick()
+        onNodeWithText("Show 2 articles").assertExists()
+        onNodeWithTag("news-filters-done").performClick()
+        waitForIdle()
+        assertEquals(0, onAllNodesWithTag("topic-Política").fetchSemanticsNodes().size)
+        onNodeWithContentDescription("1 filter on", substring = true).assertExists()
     }
 
     @Test

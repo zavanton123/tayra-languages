@@ -108,6 +108,10 @@ data class NewsUiState(
 
     val hasEasySources: Boolean get() = sources.any { it.level == NewsLevel.EASY }
 
+    /** How many filters besides the search are set, for the phone's Filters button. */
+    val activeFilters: Int
+        get() = listOf(source != null, difficulty != null, period != NewsPeriod.ANY, easyOnly, hideRead, topic != null).count { it }
+
     val filtering: Boolean
         get() = source != null || difficulty != null || query.isNotBlank() || period != NewsPeriod.ANY || easyOnly || hideRead || topic != null
 

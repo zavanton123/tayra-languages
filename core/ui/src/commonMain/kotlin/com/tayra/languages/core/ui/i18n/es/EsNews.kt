@@ -30,6 +30,8 @@ internal val esNews: Map<String, String> = mapOf(
     "Clear filters" to "Borrar filtros",
     "More than {0} articles" to "Más de {0} artículos",
     "{0} articles" to "{0} artículo|{0} artículos",
+    "Show {0} articles" to "Mostrar {0} artículo|Mostrar {0} artículos",
+    "Show articles" to "Mostrar artículos",
     "Checking the words of {0} more articles…" to "Comprobando las palabras de {0} artículo más…|Comprobando las palabras de {0} artículos más…",
     "None of the articles checked so far is at this level." to "Ninguno de los artículos comprobados hasta ahora es de este nivel.",
     "No articles match these filters." to "Ningún artículo coincide con estos filtros.",
