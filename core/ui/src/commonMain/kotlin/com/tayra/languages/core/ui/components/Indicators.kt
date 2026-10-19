@@ -16,18 +16,24 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconButtonDefaults
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.LocalContentColor
+import androidx.compose.material3.LocalMinimumInteractiveComponentSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
+import androidx.compose.material3.TriStateCheckbox
 import androidx.compose.material3.VerticalDivider
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 
@@ -43,10 +49,17 @@ enum class IconButtonSize(internal val box: Dp, internal val icon: Dp) {
     Large(44.dp, 24.dp),
 }
 
-/** How an icon button is drawn: [Plain], [Filled] with the primary colour (a page's main action), or [Outlined] on the card surface. */
-enum class IconButtonStyle { Plain, Filled, Outlined }
+/**
+ * How an icon button is drawn: [Plain]; [Filled] with the primary colour (a page's main action);
+ * [Outlined] on the card surface; [Tonal] on a wash of its tint (a pane's close, a play button).
+ */
+enum class IconButtonStyle { Plain, Filled, Outlined, Tonal }
 
-/** A button that is only an icon; [contentDescription] says what it does to screen readers. */
+/**
+ * A button that is only an icon; [contentDescription] says what it does to screen readers.
+ * [selected] tints it while what it controls is on (a sound playing), [loading] shows a spinner in
+ * place of the icon, and [shape] overrides the style's own.
+ */
 @Composable
 fun AppIconButton(
     icon: ImageVector,
@@ -57,20 +70,41 @@ fun AppIconButton(
     size: IconButtonSize = IconButtonSize.Regular,
     style: IconButtonStyle = IconButtonStyle.Plain,
     tint: Color? = null,
+    shape: Shape? = null,
+    selected: Boolean = false,
+    loading: Boolean = false,
 ) {
     val colors = MaterialTheme.colorScheme
+    val accent = tint ?: colors.primary
+    val content: @Composable (Color) -> Unit = { color ->
+        if (loading) AppSpinner(size = SpinnerSize.Small, color = color)
+        else Icon(icon, contentDescription = contentDescription, modifier = Modifier.size(size.icon), tint = color)
+    }
     when (style) {
-        IconButtonStyle.Filled -> FilledIconButton(onClick = onClick, modifier = modifier.size(size.box), enabled = enabled, shape = AppShapes.pill) {
-            Icon(icon, contentDescription = contentDescription, modifier = Modifier.size(size.icon), tint = tint ?: LocalContentColor.current)
+        IconButtonStyle.Filled -> FilledIconButton(onClick = onClick, modifier = modifier.size(size.box), enabled = enabled, shape = shape ?: AppShapes.pill) {
+            content(tint ?: LocalContentColor.current)
         }
-        IconButtonStyle.Outlined -> IconButton(
-            onClick = onClick,
-            modifier = modifier.size(size.box).clip(AppShapes.control).background(colors.surface).border(AppBorders.hairline(), AppShapes.control),
-            enabled = enabled,
-            shape = AppShapes.control,
-        ) { Icon(icon, contentDescription = contentDescription, modifier = Modifier.size(size.icon), tint = tint ?: colors.onSurface) }
+        // Material grows a button to its touch size, and the outline and wash would grow with it.
+        IconButtonStyle.Outlined -> CompositionLocalProvider(LocalMinimumInteractiveComponentSize provides 0.dp) {
+            val s = shape ?: AppShapes.control
+            IconButton(
+                onClick = onClick,
+                modifier = modifier.size(size.box).clip(s).background(if (selected) accent.copy(alpha = AppAlpha.soft) else colors.surface).border(AppBorders.hairline(), s),
+                enabled = enabled,
+                shape = s,
+            ) { content(if (selected) accent else tint ?: colors.onSurface) }
+        }
+        IconButtonStyle.Tonal -> CompositionLocalProvider(LocalMinimumInteractiveComponentSize provides 0.dp) {
+            val s = shape ?: AppShapes.circle
+            IconButton(
+                onClick = onClick,
+                modifier = modifier.size(size.box).clip(s).background(accent.copy(alpha = if (selected) AppAlpha.line else AppAlpha.tint)),
+                enabled = enabled,
+                shape = s,
+            ) { content(accent) }
+        }
         IconButtonStyle.Plain -> IconButton(onClick = onClick, modifier = modifier.size(size.box), enabled = enabled, colors = IconButtonDefaults.iconButtonColors()) {
-            Icon(icon, contentDescription = contentDescription, modifier = Modifier.size(size.icon), tint = tint ?: colors.onSurfaceVariant)
+            content(if (selected) colors.primary else tint ?: colors.onSurfaceVariant)
         }
     }
 }
@@ -130,6 +164,12 @@ fun AppVerticalDivider(modifier: Modifier = Modifier, color: Color = MaterialThe
 @Composable
 fun AppCheckbox(checked: Boolean, onCheckedChange: ((Boolean) -> Unit)?, modifier: Modifier = Modifier, enabled: Boolean = true) {
     Checkbox(checked = checked, onCheckedChange = onCheckedChange, modifier = modifier, enabled = enabled)
+}
+
+/** A tick box for a group: ticked, unticked, or partly ticked when only some of the group are. */
+@Composable
+fun AppTriStateCheckbox(state: ToggleableState, onClick: (() -> Unit)?, modifier: Modifier = Modifier, enabled: Boolean = true) {
+    TriStateCheckbox(state = state, onClick = onClick, modifier = modifier, enabled = enabled)
 }
 
 /** A short message at the bottom of a screen, with an optional action such as OK or Undo. */

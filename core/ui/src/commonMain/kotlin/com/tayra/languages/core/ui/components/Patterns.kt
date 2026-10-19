@@ -3,8 +3,10 @@ package com.tayra.languages.core.ui.components
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -19,8 +21,11 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.MoreVert
@@ -44,12 +49,15 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
@@ -96,7 +104,7 @@ fun EmptyState(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
-        Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(36.dp))
+        Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconHuge))
         Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
         if (message != null) Text(message, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         action?.invoke()
@@ -118,8 +126,8 @@ fun SelectionBar(
 ) {
     val colors = MaterialTheme.colorScheme
     FlowRow(
-        modifier.fillMaxWidth().clip(AppShapes.panel).background(colors.primary.copy(alpha = 0.06f))
-            .border(AppBorders.hairline(colors.primary.copy(alpha = 0.25f)), AppShapes.panel)
+        modifier.fillMaxWidth().clip(AppShapes.panel).background(colors.primary.copy(alpha = AppAlpha.wash))
+            .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.line)), AppShapes.panel)
             .padding(horizontal = AppSpacing.m, vertical = AppSpacing.xs),
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
         itemVerticalAlignment = Alignment.CenterVertically,
@@ -137,7 +145,7 @@ fun TableHeader(modifier: Modifier = Modifier, padding: PaddingValues = PaddingV
     val colors = MaterialTheme.colorScheme
     CompositionLocalProvider(LocalContentColor provides colors.onSurfaceVariant, LocalTextStyle provides MaterialTheme.typography.bodyMedium) {
         Row(
-            modifier.fillMaxWidth().clip(RoundedCornerShape(topStart = 10.dp, topEnd = 10.dp)).background(colors.surfaceVariant.copy(alpha = 0.5f)).padding(padding),
+            modifier.fillMaxWidth().clip(RoundedCornerShape(topStart = 10.dp, topEnd = 10.dp)).background(colors.surfaceVariant.copy(alpha = AppAlpha.half)).padding(padding),
             verticalAlignment = Alignment.CenterVertically,
             content = cells,
         )
@@ -161,12 +169,23 @@ fun TableHeaderCell(label: String, modifier: Modifier = Modifier, icon: ImageVec
 /** One choice of a [SegmentedToggle]: its icon, its label (or none, to show the icon alone), and its name for screen readers. */
 class Segment<T>(val value: T, val icon: ImageVector? = null, val label: String? = null, val description: String? = label, val testTag: String? = null)
 
+/** How a [SegmentedToggle] or [CountTabs] marks the chosen one: [Soft], on a wash of the primary colour, or [Solid], filled with it. */
+enum class SegmentStyle { Soft, Solid }
+
 /**
  * A choice of a few, side by side in an outline, the chosen one tinted: a list or grid view, a tab.
  * [fill] spreads it across the width in equal parts, as tabs on a phone.
  */
 @Composable
-fun <T> SegmentedToggle(segments: List<Segment<T>>, selected: T, onSelect: (T) -> Unit, modifier: Modifier = Modifier, height: Dp = AppSizes.control, fill: Boolean = false) {
+fun <T> SegmentedToggle(
+    segments: List<Segment<T>>,
+    selected: T,
+    onSelect: (T) -> Unit,
+    modifier: Modifier = Modifier,
+    height: Dp = AppSizes.control,
+    fill: Boolean = false,
+    style: SegmentStyle = SegmentStyle.Soft,
+) {
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier).height(height).cardSurface(AppShapes.control).padding(AppSpacing.xs),
@@ -174,12 +193,13 @@ fun <T> SegmentedToggle(segments: List<Segment<T>>, selected: T, onSelect: (T) -
     ) {
         segments.forEach { segment ->
             val active = segment.value == selected
-            val tint = if (active) colors.primary else colors.onSurfaceVariant
+            val solid = style == SegmentStyle.Solid
+            val tint = if (active) (if (solid) colors.onPrimary else colors.primary) else colors.onSurfaceVariant
             Row(
                 Modifier.then(if (fill) Modifier.weight(1f) else Modifier).fillMaxHeight().clip(AppShapes.compact)
-                    .background(if (active) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
+                    .background(if (!active) Color.Transparent else if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft))
                     .clickable { onSelect(segment.value) }
-                    .padding(horizontal = if (segment.label == null) AppSpacing.m else AppSpacing.l)
+                    .padding(horizontal = if (segment.label == null) AppSpacing.m else if (fill) AppSpacing.s else AppSpacing.l)
                     .then(if (segment.testTag != null) Modifier.testTag(segment.testTag) else Modifier),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),
@@ -188,14 +208,128 @@ fun <T> SegmentedToggle(segments: List<Segment<T>>, selected: T, onSelect: (T) -
                     Icon(segment.icon, contentDescription = if (segment.label == null) segment.description else null, tint = tint, modifier = Modifier.size(AppSizes.icon))
                 }
                 if (segment.label != null) {
-                    Text(segment.label, style = MaterialTheme.typography.bodyMedium, color = tint, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal)
+                    Text(
+                        segment.label,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = tint,
+                        fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
                 }
             }
         }
     }
 }
 
-/** A search field: a magnifier, the query, a way to clear it, at the controls' height. */
+/** One of [CountTabs] or [UnderlineTabs]: its label, an optional count and icon, and a test tag. */
+class Tab<T>(val value: T, val label: String, val count: Int? = null, val icon: ImageVector? = null, val testTag: String? = null)
+
+/**
+ * Tabs that each say how many they hold, such as All 6 · In progress 1 · Finished 4, side by side
+ * and scrolling when they do not fit. [compact] is the phone's smaller row.
+ */
+@Composable
+fun <T> CountTabs(
+    tabs: List<Tab<T>>,
+    selected: T,
+    onSelect: (T) -> Unit,
+    modifier: Modifier = Modifier,
+    style: SegmentStyle = SegmentStyle.Soft,
+    compact: Boolean = false,
+) {
+    val colors = MaterialTheme.colorScheme
+    val solid = style == SegmentStyle.Solid
+    Row(modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(if (solid) AppSpacing.m else AppSpacing.s)) {
+        tabs.forEach { tab ->
+            val active = tab.value == selected
+            val shape = if (solid) AppShapes.panel else AppShapes.control
+            Row(
+                Modifier.height(if (solid) AppSizes.control else 40.dp).clip(shape)
+                    .background(
+                        when {
+                            active && solid -> colors.primary
+                            active -> colors.primary.copy(alpha = AppAlpha.tint)
+                            solid -> colors.surface
+                            compact -> colors.onSurface.copy(alpha = AppAlpha.faint)
+                            else -> Color.Transparent
+                        },
+                    )
+                    .then(if (solid) Modifier.border(AppBorders.hairline(if (active) colors.primary else colors.outlineVariant), shape) else Modifier)
+                    .clickable(role = Role.Tab) { onSelect(tab.value) }
+                    .then(if (tab.testTag != null) Modifier.testTag(tab.testTag) else Modifier)
+                    .padding(horizontal = if (solid) AppSpacing.xl else AppSpacing.m),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
+            ) {
+                val tint = if (active) (if (solid) colors.onPrimary else colors.primary) else colors.onSurface
+                if (tab.icon != null) Icon(tab.icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconCompact))
+                Text(
+                    tab.label,
+                    style = if (compact) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.titleMedium,
+                    fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium,
+                    color = tint,
+                    maxLines = 1,
+                )
+                if (tab.count != null) {
+                    CountBadge(tab.count, emphasis = if (!active) BadgeEmphasis.Muted else if (solid) BadgeEmphasis.OnColor else BadgeEmphasis.Soft)
+                }
+            }
+        }
+    }
+}
+
+/**
+ * Tabs underlined while chosen: the top bar's sections, a pane's pages. [fill] spreads them across
+ * the width; [tinted] also washes the chosen one.
+ */
+@Composable
+fun <T> UnderlineTabs(
+    tabs: List<Tab<T>>,
+    selected: T,
+    onSelect: (T) -> Unit,
+    modifier: Modifier = Modifier,
+    fill: Boolean = true,
+    tinted: Boolean = false,
+) {
+    val colors = MaterialTheme.colorScheme
+    Row(modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+        tabs.forEach { tab ->
+            val active = tab.value == selected
+            val tint = if (active) colors.primary else colors.onSurfaceVariant
+            Column(
+                Modifier.then(if (fill) Modifier.weight(1f) else Modifier.width(IntrinsicSize.Max)).clip(AppShapes.control)
+                    .background(if (active && tinted) colors.primary.copy(alpha = AppAlpha.tint) else Color.Transparent)
+                    .clickable(role = Role.Tab) { onSelect(tab.value) }
+                    .then(if (tab.testTag != null) Modifier.testTag(tab.testTag) else Modifier),
+                horizontalAlignment = Alignment.CenterHorizontally,
+            ) {
+                Row(
+                    Modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier.padding(horizontal = AppSpacing.m)).padding(vertical = if (fill) AppSpacing.m else 10.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),
+                ) {
+                    if (tab.icon != null) Icon(tab.icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.icon))
+                    Text(
+                        tab.label,
+                        style = MaterialTheme.typography.bodyLarge,
+                        fontWeight = if (active) FontWeight.SemiBold else if (fill) FontWeight.Normal else FontWeight.Medium,
+                        color = tint,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                    if (tab.count != null && tab.count > 0) CountBadge(tab.count, emphasis = BadgeEmphasis.Solid, max = 99)
+                }
+                Box(Modifier.fillMaxWidth().height(if (fill) 3.dp else 2.dp).background(if (active) colors.primary else Color.Transparent))
+            }
+        }
+    }
+}
+
+/**
+ * A search field: a magnifier, the query, a way to clear it, at the controls' height.
+ * [onSearch], when given, runs from the keyboard's search key, for a search that is not live.
+ */
 @Composable
 fun SearchField(
     value: String,
@@ -203,6 +337,7 @@ fun SearchField(
     placeholder: String,
     modifier: Modifier = Modifier,
     fieldModifier: Modifier = Modifier,
+    onSearch: (() -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     Row(
@@ -215,6 +350,8 @@ fun SearchField(
             value = value,
             onValueChange = onValueChange,
             singleLine = true,
+            keyboardOptions = if (onSearch != null) KeyboardOptions(imeAction = ImeAction.Search) else KeyboardOptions.Default,
+            keyboardActions = if (onSearch != null) KeyboardActions(onSearch = { onSearch() }) else KeyboardActions.Default,
             textStyle = MaterialTheme.typography.bodyLarge.copy(color = colors.onSurface),
             cursorBrush = SolidColor(colors.primary),
             modifier = fieldModifier.weight(1f),

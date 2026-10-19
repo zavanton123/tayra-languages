@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.theme
 
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes
 import androidx.compose.ui.unit.dp
@@ -32,6 +33,9 @@ object AppShapes {
 
     /** Fully rounded ends: status pills, toggles and avatars. */
     val pill = RoundedCornerShape(50)
+
+    /** A circle: dots, round buttons, avatars and rings. */
+    val circle = CircleShape
 
     /** Material's own components, for those the app does not wrap, on the same scale. */
     val material = Shapes(extraSmall = tiny, small = compact, medium = control, large = card, extraLarge = large)

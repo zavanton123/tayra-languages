@@ -41,7 +41,7 @@ class DesignSystemGalleryTest {
         for (theme in listOf(AppThemes.default, AppThemes.night)) gallery(theme)
     }
 
-    private fun gallery(theme: AppTheme) = runDesktopComposeUiTest(width = 1100, height = 1180) {
+    private fun gallery(theme: AppTheme) = runDesktopComposeUiTest(width = 1240, height = 2020) {
         setContent { TayraTheme(theme) { Gallery() } }
         onAllNodesWithText("Primary").onFirst().assertExists()
         System.getenv("DESIGN_GALLERY")?.let { folder ->
@@ -74,6 +74,8 @@ class DesignSystemGalleryTest {
                 SecondaryButton("Disabled", onClick = {}, enabled = false)
                 PrimaryButton("Saving", onClick = {}, loading = true)
                 SecondaryButton("Checking", onClick = {}, loading = true)
+                SecondaryButton("Continue", onClick = {}, trailingIcon = AppIcons.Download, badge = 5)
+                SecondaryButton("Tinted", onClick = {}, tint = AppAccents.purple)
             }
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
                 Label("Inputs")
@@ -119,6 +121,68 @@ class DesignSystemGalleryTest {
                     TableHeaderCell("Last opened", Modifier.weight(1f))
                 }
                 AppDivider()
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+                Label("Tags")
+                Tag("Small", size = TagSize.Small)
+                Tag("Medium", AppAccents.purple, size = TagSize.Medium)
+                Tag("Large", AppAccents.green)
+                Tag("Solid", size = TagSize.Medium, style = TagStyle.Solid)
+                Tag("Neutral", style = TagStyle.Neutral)
+                CountBadge(6)
+                CountBadge(3, emphasis = BadgeEmphasis.Soft)
+                CountBadge(120, emphasis = BadgeEmphasis.Solid, max = 99)
+                StatusPill("due", AppAccents.orange, value = "12", size = TagSize.Medium)
+                StatusPill("NEW", AppAccents.blue, dot = false, size = TagSize.Small, shape = com.tayra.languages.core.ui.theme.AppShapes.compact)
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+                Label("Choices")
+                SelectableChip("Known", selected = true, onClick = {}, tint = AppAccents.green, count = 42, leading = ChipLeading.Dot)
+                SelectableChip("Learning", selected = false, onClick = {}, tint = AppAccents.amber, count = 7, leading = ChipLeading.Dot)
+                SelectableChip("travel", selected = true, onClick = {}, onRemove = {}, removeDescription = "Remove")
+                RemovableChip(onRemove = {}, removeDescription = "Remove") { Text("Added: 30 days", style = MaterialTheme.typography.labelLarge) }
+                ToggleButton("Filters", active = true, onClick = {}, icon = AppIcons.Download, badge = 2)
+                ToggleButton("Sort", active = false, onClick = {})
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
+                Label("Selects")
+                SelectButton("Recently opened", onClick = {}, icon = AppIcons.Download)
+                SelectButton("Any", onClick = {}, label = "Added", modifier = Modifier.width(160.dp))
+                NumberField(30, {}, "Days", "Any", "More", "Fewer")
+                LinkText("Powered by Tatoeba", onClick = {}, trailingIcon = AppIcons.Download)
+                AppIconButton(AppIcons.Download, "Play", onClick = {}, style = IconButtonStyle.Tonal)
+                AppIconButton(AppIcons.Download, "Play", onClick = {}, style = IconButtonStyle.Tonal, selected = true)
+                AppIconButton(AppIcons.Download, "Close", onClick = {}, style = IconButtonStyle.Tonal, tint = MaterialTheme.colorScheme.onSurface)
+                AppIconButton(AppIcons.Download, "Loading", onClick = {}, style = IconButtonStyle.Outlined, loading = true)
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(16.dp), verticalAlignment = Alignment.CenterVertically) {
+                Label("Tabs")
+                CountTabs(listOf(Tab(0, "All", 6), Tab(1, "In progress", 1), Tab(2, "Finished", 4)), selected = 0, onSelect = {})
+                CountTabs(listOf(Tab(0, "All", 12), Tab(1, "Started", 3)), selected = 0, onSelect = {}, style = SegmentStyle.Solid)
+                SegmentedToggle(listOf(Segment(1, label = "Continuous"), Segment(2, label = "One per line")), selected = 1, onSelect = {}, style = SegmentStyle.Solid)
+            }
+            UnderlineTabs(listOf(Tab(0, "Reading", icon = AppIcons.Book), Tab(1, "Audio"), Tab(2, "Appearance", count = 3)), selected = 0, onSelect = {}, tinted = true, modifier = Modifier.width(600.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                    ScreenHeader("Examples", "Sentences with this word.", crumbs = listOf(Crumb("Vocabulary", onClick = {}), Crumb("Examples")))
+                    PaneHeader("Reader settings", "Saved automatically", onClose = {}, icon = AppIcons.Book)
+                    SectionHeader("A1 · Beginner", tint = AppAccents.green)
+                    CardHeader("Clear local data", "Remove books and words from this device.", icon = AppIcons.Download, tint = MaterialTheme.colorScheme.error, size = CardHeaderSize.Large)
+                    InfoBanner("A dense banner inside a card.", dense = true)
+                    Notice("Argos Translate is installed", message = "Version 1.11 · Python 3.12", tint = StatusTints.ok, action = { SecondaryButton("Check", onClick = {}, size = ButtonSize.Compact) })
+                    Notice("Checking offline translation", busy = true)
+                }
+                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    SettingRow("A setting with an icon", "Its description.", icon = AppIcons.Book) { SecondaryButton("Change", onClick = {}, size = ButtonSize.Compact) }
+                    SwitchSetting("A switch", "Its description.", checked = true) {}
+                    SwitchSetting("A dense switch", null, checked = false, dense = true) {}
+                    CheckSetting("A tick", checked = true, onChange = {})
+                    NavigationRow("Reading font", onClick = {}, value = "Literata")
+                    NavigationRow("Delete all data", onClick = {}, icon = AppIcons.Download, tint = MaterialTheme.colorScheme.error)
+                    SliderSetting("Text size", "18 px", 18f, 12f..30f, onChange = {}, step = 1f)
+                    KeyValueRow("Added", "Today")
+                    AppSwitch(checked = true, onCheckedChange = {})
+                }
             }
             EmptyState(AppIcons.Book, "No books match these filters.", message = "Try other filters.", action = { QuietButton("Create a book", onClick = {}) })
             ContentCard("Card", "A card with a setting, a banner and a header button.", icon = AppIcons.Download, modifier = Modifier.fillMaxWidth()) {

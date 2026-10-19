@@ -2,6 +2,10 @@ package com.tayra.languages.core.ui.components
 
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppSizes
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.ui.text.style.TextOverflow
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
@@ -25,7 +29,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -33,16 +36,11 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Slider
-import androidx.compose.material3.SliderDefaults
-import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.semantics.contentDescription
@@ -64,34 +62,153 @@ fun ScreenTitle(title: String, modifier: Modifier = Modifier) {
     Text(title, modifier, style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
 }
 
-/** The page heading: an optional way back to Settings, the title and subtitle, and actions on the right. On a phone the bar names the screen, so only the subtitle and actions show. */
+/** A step of a [ScreenHeader]'s trail back, such as "Vocabulary" above a term; [onClick] goes there. */
+class Crumb(val label: String, val onClick: (() -> Unit)? = null)
+
+/**
+ * The page heading: an optional way back (to Settings, or along [crumbs], whose back button takes
+ * [onBack] or else the last crumb that acts), the title and subtitle, and actions on the right. On a phone the bar names the screen, so only the subtitle and actions
+ * show, unless [titleOnCompact] keeps a title the bar does not give.
+ */
 @Composable
 fun ScreenHeader(
     title: String,
     subtitle: String?,
     onBackToSettings: (() -> Unit)? = null,
+    crumbs: List<Crumb> = emptyList(),
+    titleOnCompact: Boolean = false,
+    onBack: (() -> Unit)? = null,
     actions: @Composable RowScope.() -> Unit = {},
 ) {
     val compact = LocalWindowWidth.current.isCompact
+    val colors = MaterialTheme.colorScheme
     Column(Modifier.fillMaxWidth()) {
         if (onBackToSettings != null && !compact) {
             Row(
-                Modifier.clip(AppShapes.compact).clickable(onClick = onBackToSettings).padding(vertical = 4.dp, horizontal = 2.dp),
+                Modifier.clip(AppShapes.compact).clickable(onClick = onBackToSettings).padding(vertical = AppSpacing.xs, horizontal = AppSpacing.xxs),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, modifier = Modifier.size(18.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
-                Spacer(Modifier.width(8.dp))
-                Text(tr("Settings"), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, modifier = Modifier.size(AppSizes.iconCompact), tint = colors.onSurfaceVariant)
+                Spacer(Modifier.width(AppSpacing.s))
+                Text(tr("Settings"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
             Spacer(Modifier.height(6.dp))
         }
-        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        if (crumbs.isNotEmpty()) {
+            val back = onBack ?: crumbs.lastOrNull { it.onClick != null }?.onClick
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                if (back != null) AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = back, size = IconButtonSize.Small, style = IconButtonStyle.Outlined)
+                crumbs.forEachIndexed { i, crumb ->
+                    if (i > 0) Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
+                    val onClick = crumb.onClick
+                    if (onClick != null) LinkText(crumb.label, onClick = onClick, color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
+                    else Text(crumb.label, style = MaterialTheme.typography.bodyMedium, color = colors.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                }
+            }
+            Spacer(Modifier.height(AppSpacing.s))
+        }
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Column(Modifier.weight(1f)) {
                 if (!compact) Text(title, style = MaterialTheme.typography.headlineLarge, fontWeight = FontWeight.Bold)
-                if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                else if (titleOnCompact) Text(title, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
             actions()
         }
+    }
+}
+
+/** How big a [CardHeader] is: [Dense] on phone cards, [Card] on cards, [Large] heading a column or a page's summary. */
+enum class CardHeaderSize(internal val tile: Int, internal val gap: Int) { Dense(44, 14), Card(48, 16), Large(56, 16) }
+
+/**
+ * The head of a card or a section: an icon tile (or a short text on it) washed with [tint], the
+ * title with [titleExtra] beside it, an optional subtitle, and [actions] at the end.
+ */
+@Composable
+fun CardHeader(
+    title: String,
+    subtitle: String? = null,
+    modifier: Modifier = Modifier,
+    icon: ImageVector? = null,
+    iconText: String? = null,
+    tint: Color = MaterialTheme.colorScheme.primary,
+    size: CardHeaderSize = CardHeaderSize.Card,
+    titleExtra: @Composable RowScope.() -> Unit = {},
+    actions: @Composable RowScope.() -> Unit = {},
+) {
+    Row(modifier, verticalAlignment = Alignment.CenterVertically) {
+        if (icon != null || iconText != null) {
+            IconTile(icon, iconText, size = size.tile, tint = tint)
+            Spacer(Modifier.width(size.gap.dp))
+        }
+        Column(Modifier.weight(1f)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                Text(
+                    title,
+                    style = if (size == CardHeaderSize.Large) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold,
+                )
+                titleExtra()
+            }
+            if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        actions()
+    }
+}
+
+/**
+ * The head of a side pane or panel: a way back or an [icon], the title and subtitle, and a close
+ * button. The caller gives its padding.
+ */
+@Composable
+fun PaneHeader(
+    title: String,
+    subtitle: String?,
+    onClose: (() -> Unit)?,
+    modifier: Modifier = Modifier,
+    onBack: (() -> Unit)? = null,
+    icon: ImageVector? = null,
+    closeModifier: Modifier = Modifier,
+    closeDescription: String = tr("Close"),
+) {
+    val colors = MaterialTheme.colorScheme
+    Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        when {
+            onBack != null -> AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack, style = IconButtonStyle.Tonal, tint = colors.onSurface, shape = AppShapes.control)
+            icon != null -> Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
+        }
+        Column(Modifier.weight(1f)) {
+            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        }
+        if (onClose != null) AppIconButton(Icons.Default.Close, contentDescription = closeDescription, onClick = onClose, modifier = closeModifier, style = IconButtonStyle.Tonal, tint = colors.onSurface)
+    }
+}
+
+/**
+ * A section's title within a page, with [actions] at the end; [tint] draws it as a band of that
+ * colour, as a level's heading in a list.
+ */
+@Composable
+fun SectionHeader(
+    title: String,
+    modifier: Modifier = Modifier,
+    subtitle: String? = null,
+    tint: Color? = null,
+    actions: @Composable RowScope.() -> Unit = {},
+) {
+    Row(
+        modifier.fillMaxWidth()
+            .then(if (tint != null) Modifier.clip(AppShapes.control).background(tint.copy(alpha = AppAlpha.tint)).padding(horizontal = AppSpacing.l, vertical = 10.dp) else Modifier),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+    ) {
+        Column(Modifier.weight(1f)) {
+            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = tint ?: MaterialTheme.colorScheme.onSurface)
+            if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        actions()
     }
 }
 
@@ -112,20 +229,7 @@ fun ContentCard(
     content: @Composable ColumnScope.() -> Unit,
 ) {
     Column(modifier.fillMaxWidth().cardSurface().padding(if (dense) AppSpacing.l else AppSpacing.xl)) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            if (icon != null || iconText != null) {
-                IconTile(icon, iconText, size = if (dense) 44 else 48)
-                Spacer(Modifier.width(if (dense) 14.dp else AppSpacing.l))
-            }
-            Column(Modifier.weight(1f)) {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                    titleExtra()
-                }
-                if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-            headerExtra()
-        }
+        CardHeader(title, subtitle, icon = icon, iconText = iconText, size = if (dense) CardHeaderSize.Dense else CardHeaderSize.Card, titleExtra = titleExtra, actions = headerExtra)
         Spacer(Modifier.height(if (dense) AppSpacing.m else AppSpacing.l))
         content()
     }
@@ -135,49 +239,12 @@ fun ContentCard(
 @Composable
 fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48, tint: Color = MaterialTheme.colorScheme.primary) {
     Box(
-        Modifier.size(size.dp).clip(AppShapes.panel).background(tint.copy(alpha = 0.09f)),
+        Modifier.size(size.dp).clip(AppShapes.panel).background(tint.copy(alpha = AppAlpha.tint)),
         contentAlignment = Alignment.Center,
     ) {
         if (icon != null) Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size((size / 2).dp))
         else if (text != null) Text(text, style = MaterialTheme.typography.titleLarge, color = tint, fontWeight = FontWeight.SemiBold)
     }
-}
-
-/**
- * One setting: its name and an optional description on the left, the control on the right. On
- * phones a wide control goes below the text.
- */
-@Composable
-fun SettingRow(
-    title: String,
-    description: String? = null,
-    divider: Boolean = false,
-    stackOnCompact: Boolean = false,
-    control: @Composable () -> Unit,
-) {
-    if (divider) AppDivider(Modifier.padding(vertical = 4.dp))
-    val text: @Composable (Modifier) -> Unit = { modifier ->
-        Column(modifier) {
-            Text(title, style = MaterialTheme.typography.bodyLarge)
-            if (description != null) Text(description, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        }
-    }
-    if (stackOnCompact && LocalWindowWidth.current.isCompact) {
-        Column(Modifier.fillMaxWidth().padding(vertical = 8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            text(Modifier)
-            control()
-        }
-    } else {
-        Row(Modifier.fillMaxWidth().heightIn(min = 56.dp).padding(vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
-            text(Modifier.weight(1f).padding(end = 16.dp))
-            control()
-        }
-    }
-}
-
-@Composable
-fun SwitchSetting(title: String, description: String?, checked: Boolean, divider: Boolean = false, onChange: (Boolean) -> Unit) {
-    SettingRow(title, description, divider) { Switch(checked = checked, onCheckedChange = onChange) }
 }
 
 /** A value with minus and plus buttons around a slider, moving in [step]s within [range]. */
@@ -197,39 +264,9 @@ fun SliderStepper(
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
         ValueChip(label)
         StepButton("−", tr("Decrease {0}", name), enabled = value > range.start + step / 2) { onChange(snap(value - step)) }
-        RoundSlider(value = value, onValueChange = { onChange(snap(it)) }, valueRange = range, modifier = Modifier.weight(1f))
+        AppSlider(value = value, onValueChange = { onChange(snap(it)) }, valueRange = range, modifier = Modifier.weight(1f))
         StepButton("+", tr("Increase {0}", name), enabled = value < range.endInclusive - step / 2) { onChange(snap(value + step)) }
     }
-}
-
-/** A slider with a round thumb on a thin track. */
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun RoundSlider(value: Float, onValueChange: (Float) -> Unit, valueRange: ClosedFloatingPointRange<Float>, modifier: Modifier = Modifier) {
-    val primary = MaterialTheme.colorScheme.primary
-    val colors = SliderDefaults.colors(activeTrackColor = primary, inactiveTrackColor = MaterialTheme.colorScheme.outlineVariant, thumbColor = primary)
-    Slider(
-        value = value,
-        onValueChange = onValueChange,
-        valueRange = valueRange,
-        modifier = modifier,
-        colors = colors,
-        thumb = {
-            Box(
-                Modifier.size(22.dp).shadow(2.dp, CircleShape).background(primary, CircleShape)
-                    .border(3.dp, MaterialTheme.colorScheme.surface, CircleShape),
-            )
-        },
-        track = { state ->
-            SliderDefaults.Track(
-                sliderState = state,
-                colors = colors,
-                drawStopIndicator = null,
-                thumbTrackGapSize = 0.dp,
-                modifier = Modifier.height(8.dp),
-            )
-        },
-    )
 }
 
 /** A whole number with minus and plus buttons on either side. */
@@ -268,56 +305,15 @@ private fun StepButton(symbol: String, description: String, enabled: Boolean, bo
         contentAlignment = Alignment.Center,
     ) {
         if (symbol == "+") {
-            Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp), tint = MaterialTheme.colorScheme.onSurface.copy(alpha = if (enabled) 1f else 0.35f))
+            Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(AppSizes.iconCompact), tint = MaterialTheme.colorScheme.onSurface.copy(alpha = if (enabled) 1f else AppAlpha.disabled))
         } else {
             Text(
                 symbol,
                 style = MaterialTheme.typography.titleMedium,
-                color = MaterialTheme.colorScheme.onSurface.copy(alpha = if (enabled) 1f else 0.35f),
+                color = MaterialTheme.colorScheme.onSurface.copy(alpha = if (enabled) 1f else AppAlpha.disabled),
             )
         }
     }
-}
-
-/** A tinted note with an info icon. */
-@Composable
-fun InfoBanner(text: String, modifier: Modifier = Modifier, tint: Color = MaterialTheme.colorScheme.primary, icon: ImageVector = Icons.Default.Info) {
-    Row(
-        modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.07f))
-            .border(AppBorders.hairline(tint.copy(alpha = 0.18f)), AppShapes.panel).padding(horizontal = 16.dp, vertical = 14.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(22.dp))
-        Spacer(Modifier.width(12.dp))
-        Text(text, style = MaterialTheme.typography.bodyMedium, color = tint)
-    }
-}
-
-/** A rounded label with a coloured dot, such as "Offline translation ready". */
-@Composable
-fun StatusPill(text: String, color: Color) {
-    Row(
-        Modifier.clip(AppShapes.pill).background(color.copy(alpha = 0.1f)).border(AppBorders.hairline(color.copy(alpha = 0.3f)), AppShapes.pill)
-            .padding(horizontal = 14.dp, vertical = 8.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Box(Modifier.size(10.dp).clip(CircleShape).background(color))
-        Spacer(Modifier.width(8.dp))
-        Text(text, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
-    }
-}
-
-/** A small tinted tag, such as "Offline" or "Free". */
-@Composable
-fun Tag(text: String, color: Color) {
-    Text(
-        text,
-        Modifier.clip(AppShapes.pill).background(color.copy(alpha = 0.12f)).padding(horizontal = 12.dp, vertical = 6.dp),
-        style = MaterialTheme.typography.bodyMedium,
-        color = color,
-        maxLines = 1,
-        softWrap = false,
-    )
 }
 
 /** The outlined button with an icon used for page actions. */
@@ -367,7 +363,7 @@ private val codeTints = AppAccents.sequence.take(7)
 fun CodeTile(languageCode: String, size: Int = 44) {
     val code = languageCode.uppercase().take(3)
     val tint = codeTints[(code.hashCode() and Int.MAX_VALUE) % codeTints.size]
-    Box(Modifier.size(size.dp).clip(AppShapes.compact).background(tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
+    Box(Modifier.size(size.dp).clip(AppShapes.compact).background(tint.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
         Text(code, color = tint, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold)
     }
 }

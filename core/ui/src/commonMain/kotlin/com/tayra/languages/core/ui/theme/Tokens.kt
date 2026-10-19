@@ -60,15 +60,63 @@ object AppBorders {
     /** The 1dp line around cards, fields and panels, in the theme's outline colour unless given another. */
     @Composable
     fun hairline(color: Color = MaterialTheme.colorScheme.outlineVariant): BorderStroke = BorderStroke(1.dp, color)
+
+    /** The 1.5dp ring of something chosen or active: a selected option, a pressed toolbar button, a drop target. */
+    @Composable
+    fun selected(color: Color = MaterialTheme.colorScheme.primary): BorderStroke = BorderStroke(1.5.dp, color)
 }
 
-/** Sizes shared by controls. */
+/**
+ * How strongly a colour shows through, for tints (`color.copy(alpha = AppAlpha.wash)`), from the
+ * faintest wash behind a row to text that is dimmed but readable.
+ */
+object AppAlpha {
+    /** Barely there: the hover or stripe of a row. */
+    const val faint = 0.04f
+
+    /** The wash behind a tinted card, banner or chosen row. */
+    const val wash = 0.06f
+
+    /** A light tint: a badge's or an icon tile's background. */
+    const val tint = 0.1f
+
+    /** A clearer tint: the chosen segment, a pill's background. */
+    const val soft = 0.14f
+
+    /** A tinted outline or a faint line. */
+    const val line = 0.25f
+
+    /** A disabled control, or a mark that should recede. */
+    const val disabled = 0.4f
+
+    /** Half: a muted outline or a dimmed track. */
+    const val half = 0.5f
+
+    /** Secondary text or an icon on a tint. */
+    const val muted = 0.65f
+
+    /** Nearly solid: a fill that lets a little of what is behind it through. */
+    const val strong = 0.85f
+}
+
+/** Sizes shared by controls and icons. */
 object AppSizes {
     /** The height of a control that stands on its own: search fields, toggles, dropdowns, filter buttons. */
     val control = 44.dp
+
+    /** Icons, smallest first: inside small chips, in rows and buttons, beside titles, and as a tile's or notice's picture. */
+    val iconTiny = 14.dp
     val iconSmall = 16.dp
+    val iconCompact = 18.dp
     val icon = 20.dp
+    val iconMedium = 22.dp
     val iconLarge = 24.dp
+    val iconXLarge = 32.dp
+    val iconHuge = 40.dp
+
+    /** The coloured dot of a status or a legend. */
+    val dot = 8.dp
+    val dotLarge = 10.dp
 }
 
 /** The design system's spacing scale, used by its components. */
