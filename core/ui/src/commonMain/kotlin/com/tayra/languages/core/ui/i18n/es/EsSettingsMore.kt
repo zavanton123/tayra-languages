@@ -16,6 +16,8 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Choose how Tayra looks." to "Elige cómo se ve Tayra.",
     "Highlight terms by status" to "Resaltar palabras según su estado",
     "Use mastery colors while reading." to "Usa los colores de dominio al leer.",
+    "Reduce motion" to "Reducir movimiento",
+    "Keep the screens still: no sliding, fading or turning over." to "Mantiene las pantallas quietas: sin deslizamientos, fundidos ni giros.",
     "Reading" to "Lectura",
     "Adjust the font, text size and spacing for a comfortable reading experience." to "Ajusta la fuente, el tamaño del texto y el espaciado para leer con comodidad.",
     "Reading font" to "Fuente de lectura",

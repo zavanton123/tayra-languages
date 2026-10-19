@@ -16,6 +16,8 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Choose how Tayra looks." to "Wähle, wie Tayra aussieht.",
     "Highlight terms by status" to "Begriffe nach Status hervorheben",
     "Use mastery colors while reading." to "Beim Lesen die Farben des Lernstands verwenden.",
+    "Reduce motion" to "Bewegung reduzieren",
+    "Keep the screens still: no sliding, fading or turning over." to "Hält die Bildschirme ruhig: kein Gleiten, Ein- und Ausblenden oder Umdrehen.",
     "Reading" to "Lesen",
     "Adjust the font, text size and spacing for a comfortable reading experience." to "Passe Schrift, Textgröße und Abstände für angenehmes Lesen an.",
     "Reading font" to "Leseschrift",

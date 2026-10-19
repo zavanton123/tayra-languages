@@ -50,7 +50,7 @@ class SettingsScreenTest {
         onNodeWithContentDescription("Increase reading font size").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.3f }
         onNodeWithText("130%").assertExists()
-        onNodeWithContentDescription("Decrease book stats page sample size").performClick()
+        onNodeWithContentDescription("Decrease book stats page sample size").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.statsSampleSize == 4 }
 
         // The reading font is chosen from a list whose entries are drawn in their own fonts.

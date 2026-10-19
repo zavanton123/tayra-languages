@@ -16,6 +16,8 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Choose how Tayra looks." to "Επιλέξτε πώς φαίνεται το Tayra.",
     "Highlight terms by status" to "Επισήμανση λέξεων ανά κατάσταση",
     "Use mastery colors while reading." to "Χρωματισμός λέξεων ανάλογα με την κατάστασή τους κατά την ανάγνωση.",
+    "Reduce motion" to "Μείωση κίνησης",
+    "Keep the screens still: no sliding, fading or turning over." to "Κρατά τις οθόνες ακίνητες: χωρίς ολίσθηση, σβήσιμο ή αναποδογύρισμα.",
     "Reading" to "Ανάγνωση",
     "Adjust the font, text size and spacing for a comfortable reading experience." to "Ρυθμίστε τη γραμματοσειρά, το μέγεθος κειμένου και τα διαστήματα για άνετη ανάγνωση.",
     "Reading font" to "Γραμματοσειρά ανάγνωσης",

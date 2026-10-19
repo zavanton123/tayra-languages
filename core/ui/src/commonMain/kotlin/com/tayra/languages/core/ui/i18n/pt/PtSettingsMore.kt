@@ -16,6 +16,8 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Choose how Tayra looks." to "Escolha a aparência do Tayra.",
     "Highlight terms by status" to "Destacar termos pelo status",
     "Use mastery colors while reading." to "Usar as cores de domínio durante a leitura.",
+    "Reduce motion" to "Reduzir movimento",
+    "Keep the screens still: no sliding, fading or turning over." to "Mantém as telas paradas: sem deslizar, esmaecer nem virar.",
     "Reading" to "Leitura",
     "Adjust the font, text size and spacing for a comfortable reading experience." to "Ajuste a fonte, o tamanho do texto e o espaçamento para uma leitura confortável.",
     "Reading font" to "Fonte de leitura",

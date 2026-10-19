@@ -16,6 +16,8 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Choose how Tayra looks." to "选择 Tayra 的外观。",
     "Highlight terms by status" to "按状态高亮词条",
     "Use mastery colors while reading." to "阅读时用颜色显示掌握程度。",
+    "Reduce motion" to "减少动态效果",
+    "Keep the screens still: no sliding, fading or turning over." to "让界面保持静止：不滑动、不淡入淡出、不翻转。",
     "Reading" to "阅读",
     "Adjust the font, text size and spacing for a comfortable reading experience." to "调整字体、字号和间距，让阅读更舒适。",
     "Reading font" to "阅读字体",

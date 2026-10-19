@@ -16,6 +16,8 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Choose how Tayra looks." to "Выберите, как будет выглядеть Tayra.",
     "Highlight terms by status" to "Подсвечивать слова по статусу",
     "Use mastery colors while reading." to "Выделять слова при чтении цветом их статуса.",
+    "Reduce motion" to "Меньше движения",
+    "Keep the screens still: no sliding, fading or turning over." to "Экраны не двигаются: без сдвигов, затуханий и переворотов.",
     "Reading" to "Чтение",
     "Adjust the font, text size and spacing for a comfortable reading experience." to "Настройте шрифт, размер текста и интервалы для удобного чтения.",
     "Reading font" to "Шрифт для чтения",
