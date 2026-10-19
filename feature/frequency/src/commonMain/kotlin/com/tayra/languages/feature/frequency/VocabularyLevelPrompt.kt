@@ -3,7 +3,6 @@ package com.tayra.languages.feature.frequency
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.IntrinsicSize
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
@@ -42,13 +41,10 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -60,10 +56,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -102,7 +102,7 @@ fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: Vo
     Dialog(onDismissRequest = {}, properties = DialogProperties(usePlatformDefaultWidth = false, dismissOnClickOutside = false)) {
         Surface(
             Modifier.widthIn(max = 1180.dp).fillMaxWidth(0.94f).padding(vertical = 24.dp).testTag("vocabulary-level-prompt"),
-            shape = RoundedCornerShape(28.dp),
+            shape = AppShapes.large,
             color = MaterialTheme.colorScheme.surface,
         ) {
             if (!ready) {
@@ -159,7 +159,7 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
             LevelSlider(choices, index, onPick, named = setOf(0, 1000, 5000, choices.last()), sparse = true, caption = false)
             Spacer(Modifier.height(16.dp))
             Column(
-                Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.06f)).padding(16.dp),
+                Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.06f)).padding(16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp),
             ) {
                 Text(tr("Example text"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
@@ -239,7 +239,7 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
 private fun PromptButtons(state: VocabularySettingsUiState, level: Int, onSave: () -> Unit, onLater: () -> Unit, modifier: Modifier, compact: Boolean = false) {
     val colors = MaterialTheme.colorScheme
     Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        TextButton(onClick = onLater, enabled = !state.saving, contentPadding = if (compact) PaddingValues(horizontal = 4.dp) else androidx.compose.material3.ButtonDefaults.TextButtonContentPadding) {
+        QuietButton(onClick = onLater, enabled = !state.saving, size = if (compact) ButtonSize.Compact else ButtonSize.Regular) {
             Text(tr("Skip for now"), style = MaterialTheme.typography.titleMedium)
         }
         Spacer(Modifier.weight(1f))
@@ -247,10 +247,9 @@ private fun PromptButtons(state: VocabularySettingsUiState, level: Int, onSave: 
             CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
             if (!compact) Text(tr("Saving…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
-        Button(
+        PrimaryButton(
             onClick = onSave,
             enabled = state.picked != null && !state.saving,
-            contentPadding = if (compact) PaddingValues(horizontal = 20.dp, vertical = 12.dp) else PaddingValues(horizontal = 28.dp, vertical = 14.dp),
             modifier = Modifier.testTag("prompt-set-level"),
         ) {
             Text(
@@ -290,7 +289,7 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
     val compact = LocalWindowWidth.current.isCompact
     val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
     val index = choices.indexOf(level).coerceAtLeast(0)
-    val shape = RoundedCornerShape(16.dp)
+    val shape = AppShapes.large
     Column(modifier.clip(shape).border(1.dp, colors.outlineVariant, shape).padding(if (compact) 16.dp else 24.dp)) {
         Text(tr("Estimated vocabulary"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         Row(verticalAlignment = Alignment.Bottom) {
@@ -308,7 +307,7 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
             if (level == 0) samples(list, 0, minOf(100, list.words.size)) else samples(list, previous, level)
         }
         Column(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.06f)).padding(if (compact) 14.dp else 20.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.06f)).padding(if (compact) 14.dp else 20.dp),
             verticalArrangement = Arrangement.spacedBy(if (compact) 10.dp else 12.dp),
         ) {
             Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
@@ -317,7 +316,7 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
                     row.forEach { word ->
                         Text(
                             word,
-                            Modifier.weight(1f).clip(RoundedCornerShape(50)).background(colors.primary.copy(alpha = 0.10f)).padding(vertical = if (compact) 8.dp else 10.dp, horizontal = 8.dp),
+                            Modifier.weight(1f).clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.10f)).padding(vertical = if (compact) 8.dp else 10.dp, horizontal = 8.dp),
                             style = if (compact) MaterialTheme.typography.bodyMedium else MaterialTheme.typography.bodyLarge,
                             textAlign = TextAlign.Center,
                             maxLines = 1,
@@ -356,8 +355,8 @@ internal fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, 
                 Box(Modifier.size(THUMB).shadow(3.dp, CircleShape).clip(CircleShape).background(colors.surface).padding(3.dp).clip(CircleShape).background(colors.primary))
             },
             track = { sliderState ->
-                Box(Modifier.fillMaxWidth().height(12.dp).clip(RoundedCornerShape(6.dp)).background(colors.surfaceVariant)) {
-                    Box(Modifier.fillMaxWidth(sliderState.coercedValueAsFraction).fillMaxHeight().clip(RoundedCornerShape(6.dp)).background(colors.primary))
+                Box(Modifier.fillMaxWidth().height(12.dp).clip(AppShapes.small).background(colors.surfaceVariant)) {
+                    Box(Modifier.fillMaxWidth(sliderState.coercedValueAsFraction).fillMaxHeight().clip(AppShapes.small).background(colors.primary))
                 }
             },
         )
@@ -409,13 +408,13 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
     val width = LocalWindowWidth.current
     val compact = width.isCompact
     val outside = colors.onSurfaceVariant.copy(alpha = 0.55f)
-    val shape = RoundedCornerShape(16.dp)
+    val shape = AppShapes.large
     Column(modifier.clip(shape).border(1.dp, colors.outlineVariant, shape).padding(if (compact) 16.dp else 24.dp), verticalArrangement = Arrangement.spacedBy(if (compact) 12.dp else 16.dp)) {
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
             Text(tr("Reading preview"), style = if (compact) MaterialTheme.typography.titleMedium else MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Text(tr("A sample text at this estimate"), style = if (compact) MaterialTheme.typography.bodyMedium else MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
-        val inner = RoundedCornerShape(14.dp)
+        val inner = AppShapes.card
         // Beside the estimate card the text takes the height left; stacked in a scrolling page, where
         // the height is unbounded, a weight would leave it no height at all.
         val textHeight = if (width.isExpanded) Modifier.weight(1f, fill = false) else Modifier

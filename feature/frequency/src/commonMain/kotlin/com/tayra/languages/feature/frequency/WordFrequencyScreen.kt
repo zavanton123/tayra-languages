@@ -23,7 +23,6 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
@@ -76,6 +75,7 @@ import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.feature.terms.form.TermFormKey
@@ -310,7 +310,7 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
             if (onSettings != null) {
                 Text(
                     if (state.level > 0) tr("Change") else tr("choose one"),
-                    Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onSettings).padding(horizontal = 4.dp, vertical = 2.dp),
+                    Modifier.clip(AppShapes.small).clickable(onClick = onSettings).padding(horizontal = 4.dp, vertical = 2.dp),
                     softWrap = false,
                     style = MaterialTheme.typography.bodyMedium,
                     fontWeight = FontWeight.SemiBold,
@@ -335,7 +335,7 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
 private fun KnowledgeChip(knowledge: WordKnowledge, count: Int, selected: Boolean, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val tint = knowledge.tint()
-    val shape = RoundedCornerShape(50)
+    val shape = AppShapes.pill
     Row(
         Modifier.height(40.dp).clip(shape)
             .background(if (selected) tint.copy(alpha = 0.16f) else colors.surface)
@@ -364,7 +364,7 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
             if (isLevel) {
                 Text(
                     tr("Your level"),
-                    Modifier.clip(RoundedCornerShape(50)).background(colors.primary).padding(horizontal = 10.dp, vertical = 3.dp),
+                    Modifier.clip(AppShapes.pill).background(colors.primary).padding(horizontal = 10.dp, vertical = 3.dp),
                     style = MaterialTheme.typography.labelMedium,
                     fontWeight = FontWeight.SemiBold,
                     color = colors.onPrimary,
@@ -372,7 +372,7 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
             }
             if (levelAbove != currentLevel) {
                 Row(
-                    Modifier.clip(RoundedCornerShape(50)).border(1.dp, colors.outlineVariant, RoundedCornerShape(50))
+                    Modifier.clip(AppShapes.pill).border(1.dp, colors.outlineVariant, AppShapes.pill)
                         .clickable(enabled = !saving, onClick = onSetLevel).padding(horizontal = 10.dp, vertical = 4.dp)
                         .testTag("set-level-$levelAbove"),
                     verticalAlignment = Alignment.CenterVertically,
@@ -396,7 +396,7 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
             }
         }
         // The band's words by status, known first.
-        Row(Modifier.fillMaxWidth().height(6.dp).clip(RoundedCornerShape(3.dp)).background(colors.onSurface.copy(alpha = 0.07f))) {
+        Row(Modifier.fillMaxWidth().height(6.dp).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = 0.07f))) {
             for ((knowledge, n) in listOf(WordKnowledge.KNOWN to known, WordKnowledge.LEARNING to learning, WordKnowledge.IGNORED to ignored)) {
                 if (n > 0) Box(Modifier.weight(n.toFloat()).fillMaxHeight().background(knowledge.tint()))
             }
@@ -439,9 +439,9 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
         ) {
             Text(
                 word.word.word,
-                Modifier.clip(RoundedCornerShape(6.dp))
+                Modifier.clip(AppShapes.small)
                     .then(if (learning) Modifier.background(statuses.background(word.status)) else Modifier)
-                    .then(if (selected) Modifier.border(2.dp, colors.primary, RoundedCornerShape(6.dp)) else Modifier)
+                    .then(if (selected) Modifier.border(2.dp, colors.primary, AppShapes.small) else Modifier)
                     .clickable { onOpen(word.word.word) }
                     .padding(horizontal = 8.dp, vertical = 5.dp)
                     .widthIn(min = 24.dp)
@@ -478,7 +478,7 @@ private fun RankIndex(wordCount: Int, modifier: Modifier, onJump: (rank: Int) ->
         marks.forEach { mark ->
             Text(
                 if (mark >= 1000) "${mark / 1000}k" else "$mark",
-                Modifier.clip(RoundedCornerShape(6.dp)).clickable { onJump(if (mark == 1) 1 else mark + 1) }.padding(horizontal = 8.dp, vertical = 3.dp).testTag("rank-$mark"),
+                Modifier.clip(AppShapes.small).clickable { onJump(if (mark == 1) 1 else mark + 1) }.padding(horizontal = 8.dp, vertical = 3.dp).testTag("rank-$mark"),
                 style = MaterialTheme.typography.labelMedium,
                 color = colors.onSurfaceVariant,
             )
@@ -490,7 +490,7 @@ private fun RankIndex(wordCount: Int, modifier: Modifier, onJump: (rank: Int) ->
 private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(40.dp).clip(RoundedCornerShape(10.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 14.dp),
+        modifier.height(40.dp).clip(AppShapes.control).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.control).padding(horizontal = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
@@ -516,7 +516,7 @@ private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modif
 private fun Notice(title: String, text: String) {
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().padding(top = 8.dp).clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp)).padding(36.dp),
+        Modifier.fillMaxWidth().padding(top = 8.dp).clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large).padding(36.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {

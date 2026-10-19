@@ -14,12 +14,9 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowRight
-import androidx.compose.material3.Button
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -42,12 +39,14 @@ import com.tayra.languages.core.domain.frequency.VocabularyLevelService
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
  * The vocabulary level page on a phone: the estimate with its slider and sample words, the
@@ -91,7 +90,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                     if (level == 0) samples(list, 0, minOf(100, list.words.size)) else samples(list, previous, level)
                 }
                 Column(
-                    Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.06f)).padding(14.dp),
+                    Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.06f)).padding(14.dp),
                     verticalArrangement = Arrangement.spacedBy(10.dp),
                 ) {
                     Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
@@ -100,7 +99,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                             row.forEach { word ->
                                 Text(
                                     word,
-                                    Modifier.weight(1f).clip(RoundedCornerShape(50)).background(colors.primary.copy(alpha = 0.10f)).padding(vertical = 10.dp, horizontal = 8.dp),
+                                    Modifier.weight(1f).clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.10f)).padding(vertical = 10.dp, horizontal = 8.dp),
                                     style = MaterialTheme.typography.bodyLarge,
                                     textAlign = TextAlign.Center,
                                     maxLines = 1,
@@ -139,7 +138,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 }
             }
             Row(
-                Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp))
+                Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card)
                     .clickable { onNavigate(Route.WordFrequency) }.padding(16.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(14.dp),
@@ -148,18 +147,13 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 Text(tr("Explore word frequency"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
                 Icon(Icons.Default.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
             }
-            Button(
+            PrimaryButton(
+                if (state.saving) tr("Saving…") else tr("Set vocabulary level"),
                 onClick = { confirming = true },
                 enabled = state.picked != null && !state.saving,
-                shape = RoundedCornerShape(12.dp),
+                loading = state.saving,
                 modifier = Modifier.fillMaxWidth().height(52.dp).testTag("set-vocabulary-level"),
-            ) {
-                if (state.saving) {
-                    CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp, color = colors.onPrimary)
-                    Spacer(Modifier.width(10.dp))
-                }
-                Text(if (state.saving) tr("Saving…") else tr("Set vocabulary level"), style = MaterialTheme.typography.titleMedium)
-            }
+            )
         }
     }
     val picked = state.picked
@@ -171,7 +165,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
 @Composable
 private fun PhoneBox(content: @Composable androidx.compose.foundation.layout.ColumnScope.() -> Unit) {
     val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(16.dp), content = content)
+    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp), content = content)
 }
 
 @Composable

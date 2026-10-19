@@ -1,11 +1,11 @@
 package com.tayra.languages.feature.frequency
 
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import com.tayra.languages.core.domain.frequency.LevelChange
+import com.tayra.languages.core.ui.components.AppDialog
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
@@ -13,7 +13,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 /** Asks before the level moves, saying what happens to the words between the two levels. */
 @Composable
 internal fun LevelConfirmDialog(from: Int, to: Int, onConfirm: () -> Unit, onDismiss: () -> Unit, first: Boolean = false) {
-    AlertDialog(
+    AppDialog(
         onDismissRequest = onDismiss,
         title = { Text(tr("Set vocabulary level")) },
         text = {
@@ -26,8 +26,8 @@ internal fun LevelConfirmDialog(from: Int, to: Int, onConfirm: () -> Unit, onDis
             }
             Text("$question\n\n$outcome")
         },
-        confirmButton = { Button(onClick = onConfirm) { Text(tr("Yes")) } },
-        dismissButton = { TextButton(onClick = onDismiss) { Text(tr("Cancel")) } },
+        confirmButton = { PrimaryButton(onClick = onConfirm) { Text(tr("Yes")) } },
+        dismissButton = { QuietButton(onClick = onDismiss) { Text(tr("Cancel")) } },
     )
 }
 

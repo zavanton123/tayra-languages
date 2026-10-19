@@ -9,14 +9,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -37,6 +33,7 @@ import com.tayra.languages.core.domain.courses.LessonDraft
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
@@ -50,7 +47,9 @@ import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.state.UiEvents
@@ -157,22 +156,20 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
     ContentCard(tr("About the course"), tr("Shown on the course's card and page."), icon = AppIcons.MenuBook) {
         FormField(tr("Title")) {
-            OutlinedTextField(
+            AppTextField(
                 value = state.draft.title,
                 onValueChange = { title -> onChange { it.copy(title = title) } },
                 placeholder = { Text(tr("For example: News I want to read")) },
                 singleLine = true,
-                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth().testTag("course-title"),
             )
         }
         FormField(tr("Description")) {
-            OutlinedTextField(
+            AppTextField(
                 value = state.draft.description,
                 onValueChange = { text -> onChange { it.copy(description = text) } },
                 placeholder = { Text(tr("What the lessons are about, and who they are for")) },
                 minLines = 3,
-                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth().testTag("course-description"),
             )
         }
@@ -194,12 +191,11 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
         val topic: @Composable (Modifier) -> Unit = { modifier ->
             Box(modifier) {
                 FormField(tr("Topic")) {
-                    OutlinedTextField(
+                    AppTextField(
                         value = state.draft.topic,
                         onValueChange = { text -> onChange { it.copy(topic = text) } },
                         placeholder = { Text(tr("For example: Travel")) },
                         singleLine = true,
-                        shape = RoundedCornerShape(10.dp),
                         modifier = Modifier.fillMaxWidth().testTag("course-topic"),
                     )
                 }
@@ -326,30 +322,27 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
     ContentCard(tr("Lesson"), tr("The title and summary are shown in the course's list of lessons."), icon = AppIcons.Page) {
         FormField(tr("Title")) {
-            OutlinedTextField(
+            AppTextField(
                 value = state.draft.title,
                 onValueChange = { title -> onChange { it.copy(title = title) } },
                 singleLine = true,
-                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth().testTag("lesson-title"),
             )
         }
         FormField(tr("Summary")) {
-            OutlinedTextField(
+            AppTextField(
                 value = state.draft.summary,
                 onValueChange = { text -> onChange { it.copy(summary = text) } },
                 placeholder = { Text(tr("One line on what happens in the text")) },
                 singleLine = true,
-                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth().testTag("lesson-summary"),
             )
         }
         FormField(tr("Text")) {
-            OutlinedTextField(
+            AppTextField(
                 value = state.draft.text,
                 onValueChange = { text -> onChange { it.copy(text = text) } },
                 placeholder = { Text(state.languageName.ifEmpty { null }?.let { tr("Paste or write the {0} text to read…", languageInSentence(it, LanguageCase.PREPOSITIONAL)) } ?: tr("Paste or write the text to read…")) },
-                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth().height(380.dp).testTag("lesson-text"),
             )
             val words = state.draft.text.split(Regex("\\s+")).count { word -> word.any { it.isLetterOrDigit() } }
@@ -384,9 +377,9 @@ private fun FormActions(saveLabel: String, saving: Boolean, onCancel: () -> Unit
                     Modifier.widthIn(max = 1480.dp).fillMaxWidth().padding(horizontal = if (LocalWindowWidth.current.isCompact) 16.dp else 48.dp, vertical = 12.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    OutlinedButton(onClick = onCancel, shape = RoundedCornerShape(10.dp)) { Text(tr("Cancel"), Modifier.padding(horizontal = 12.dp)) }
+                    SecondaryButton(onClick = onCancel) { Text(tr("Cancel"), Modifier.padding(horizontal = 12.dp)) }
                     Spacer(Modifier.weight(1f))
-                    Button(onClick = onSave, enabled = !saving, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("form-save")) {
+                    PrimaryButton(onClick = onSave, enabled = !saving, modifier = Modifier.testTag("form-save")) {
                         Text(saveLabel, Modifier.padding(horizontal = 12.dp))
                     }
                 }

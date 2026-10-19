@@ -19,13 +19,11 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.Button
 import androidx.compose.material3.FilledIconButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -55,6 +53,7 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.PickerSheet
+import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.TagFilterSheet
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -62,6 +61,7 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /** The courses on a phone: the page's own header with the language and a new course, the filters as sheets, and the courses as cards by level. */
 @Composable
@@ -200,8 +200,8 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
 private fun DropdownButton(label: String, modifier: Modifier, icon: ImageVector? = null, active: Boolean = false, fill: Boolean = false, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).background(colors.surface)
-            .border(if (active) 1.5.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, RoundedCornerShape(10.dp))
+        modifier.height(CONTROL_HEIGHT).clip(AppShapes.control).background(colors.surface)
+            .border(if (active) 1.5.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, AppShapes.control)
             .clickable(onClick = onClick).padding(start = 12.dp, end = 4.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(4.dp),
@@ -225,18 +225,18 @@ private fun DropdownButton(label: String, modifier: Modifier, icon: ImageVector?
 private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, onOpen: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val course = progress.course
-    val shape = RoundedCornerShape(16.dp)
+    val shape = AppShapes.large
     Column(
         Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = 0.05f)).border(1.dp, colors.primary.copy(alpha = 0.15f), shape).padding(18.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-            Box(Modifier.size(44.dp).clip(RoundedCornerShape(10.dp)).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
+            Box(Modifier.size(44.dp).clip(AppShapes.control).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
                 Icon(AppIcons.MenuBook, contentDescription = null, tint = colors.primary, modifier = Modifier.size(24.dp))
             }
             Text(tr("Continue learning"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, maxLines = 1)
         }
-        Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).clickable(onClick = onOpen), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Row(Modifier.fillMaxWidth().clip(AppShapes.control).clickable(onClick = onOpen), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             LevelTile(course.level, 52)
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
                 Text(course.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
@@ -251,7 +251,7 @@ private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, 
                 }
                 ProgressBar(progress, Modifier.fillMaxWidth())
             }
-            Button(onClick = onContinue, shape = RoundedCornerShape(12.dp), modifier = Modifier.height(52.dp).testTag("continue-course")) {
+            PrimaryButton(onClick = onContinue, modifier = Modifier.height(52.dp).testTag("continue-course")) {
                 Text(tr("Continue"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
             }
         }
@@ -267,7 +267,7 @@ private fun PhoneCourseCard(progress: CourseProgress, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val course = progress.course
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large)
             .clickable(onClick = onClick).padding(start = 18.dp, end = 10.dp, top = 18.dp, bottom = 18.dp).testTag("course-${course.id}"),
     ) {
         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
