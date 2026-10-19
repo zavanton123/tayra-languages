@@ -66,7 +66,7 @@ internal fun CoursePacksContent(
     languageName: String? = null,
 ) {
     var removing by remember { mutableStateOf<CoursePack?>(null) }
-    ScreenHeader(tr("Courses"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), onBackToSettings = onBack)
+    ScreenHeader(tr("Course packs"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), onBackToSettings = onBack)
     InfoBanner(tr("Downloaded courses appear under Courses when you learn their language. Like the courses you make, they can be changed."))
     if (packs.isEmpty() && languageName != null) {
         Text(tr("There are no ready-made courses for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)

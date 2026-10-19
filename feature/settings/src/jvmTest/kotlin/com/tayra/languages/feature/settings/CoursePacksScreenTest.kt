@@ -105,7 +105,7 @@ class CoursePacksScreenTest {
                 )
             }
         }
-        onNodeWithText("Course downloads").assertExists()
+        onNodeWithText("Course packs").assertExists()
         onNodeWithText("1,000").assertExists()
         onNodeWithText("1.2 MB").assertExists()
         System.getenv("COURSE_PACKS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }

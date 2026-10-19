@@ -66,7 +66,7 @@ internal fun BookPacksContent(
     languageName: String? = null,
 ) {
     var removing by remember { mutableStateOf<BookPack?>(null) }
-    ScreenHeader(tr("Books"), tr("Download a bundle of free books in a language as one file, or remove them to free space."), onBackToSettings = onBack)
+    ScreenHeader(tr("Book packs"), tr("Download a bundle of free books in a language as one file, or remove them to free space."), onBackToSettings = onBack)
     InfoBanner(tr("Downloaded books appear under Books when you learn their language, graded from A2 to C2. Like the books you add, they can be edited or archived."))
     if (packs.isEmpty() && languageName != null) {
         Text(tr("There is no book bundle for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)

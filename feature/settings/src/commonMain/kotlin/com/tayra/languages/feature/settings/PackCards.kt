@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -68,7 +69,8 @@ internal fun PackCard(pack: PackInfo, state: PackState, words: PackWords, onDown
         tr(pack.title),
         words.kind,
         iconText = pack.languageCode.uppercase(),
-        modifier = Modifier.testTag("pack-${pack.id}"),
+        // A pack's card reads as a card, not a band across a wide window.
+        modifier = Modifier.widthIn(max = AppSizes.readableWidth).testTag("pack-${pack.id}"),
         titleExtra = { PackStatePill(state) },
     ) {
         Text(tr(pack.summary), style = MaterialTheme.typography.bodyLarge)
@@ -95,9 +97,9 @@ internal fun PackCard(pack: PackInfo, state: PackState, words: PackWords, onDown
                 )
             }
             when (state) {
-                is PackState.Installed -> SecondaryButton(tr("Remove"), onClick = onRemove, modifier = Modifier.testTag("remove-${pack.id}"))
+                is PackState.Installed -> SecondaryButton(words.removeAction, onClick = onRemove, modifier = Modifier.testTag("remove-${pack.id}"))
                 is PackState.Downloading -> Unit
-                else -> PrimaryButton(if (state is PackState.Failed) tr("Try again") else tr("Download"), onClick = onDownload, modifier = Modifier.testTag("download-${pack.id}"), icon = AppIcons.Download)
+                else -> PrimaryButton(if (state is PackState.Failed) tr("Try again") else words.downloadAction, onClick = onDownload, modifier = Modifier.testTag("download-${pack.id}"), icon = AppIcons.Download)
             }
         }
     }

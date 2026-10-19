@@ -47,7 +47,7 @@ internal fun PhoneCoursePacksScreen(
     val colors = MaterialTheme.colorScheme
     var removing by remember { mutableStateOf<CoursePack?>(null) }
     Scaffold(
-        topBar = { AppTopBar(title = tr("Course downloads"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = tr("Course packs"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
@@ -62,7 +62,7 @@ internal fun PhoneCoursePacksScreen(
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                         Figure("100", tr("courses"), Modifier.weight(1f))
                         Figure("1,000", tr("lessons"), Modifier.weight(1f))
-                        Figure("A1–C2", null, Modifier.weight(1f))
+                        Figure("A1–C2", tr("levels"), Modifier.weight(1f))
                     }
                     Text(tr("Graded mini stories built on the 10,000 most common words."), style = MaterialTheme.typography.bodyLarge)
                 }

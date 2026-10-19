@@ -250,7 +250,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Cancel" to "取消",
     "Course pack" to "课程包",
     // BookPacksScreen.kt, PhoneBookPacks.kt
-    "Book downloads" to "书籍下载",
     "Book bundle" to "书籍合集",
     "Download a bundle of free books in a language as one file, or remove them to free space." to "将某种语言的免费书籍合集作为一个文件下载，或将其移除以释放空间。",
     "Download a bundle of free books, graded by level." to "下载按级别分级的免费书籍合集。",
@@ -265,11 +264,11 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Download book bundle" to "下载书籍合集",
     "Authentic texts from A2 to C2: children's books, Wikipedia reads, and the stories and novels of Machado de Assis and Lima Barreto." to "A2 到 C2 的原版文本：儿童读物、Wikipedia 文章，以及马沙多·德·阿西斯和利马·巴雷托的短篇和长篇小说。",
     // PhoneCoursePacks.kt
-    "Course downloads" to "课程下载",
     "Download ready-made courses for offline use." to "下载现成课程，以便离线使用。",
     "Downloaded packs appear in Courses and can be edited." to "已下载的课程包会显示在“课程”中，并且可以编辑。",
     "courses" to "个课程",
     "lessons" to "篇课文",
+    "levels" to "级别",
     "Graded mini stories built on the 10,000 most common words." to "基于 10,000 个最常用单词编写的分级小故事。",
     "Download course pack" to "下载课程包",
     "Remove course pack" to "移除课程包",

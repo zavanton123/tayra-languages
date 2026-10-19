@@ -37,7 +37,7 @@ internal fun PhoneBookPacksScreen(
     val colors = MaterialTheme.colorScheme
     var removing by remember { mutableStateOf<BookPack?>(null) }
     Scaffold(
-        topBar = { AppTopBar(title = tr("Book downloads"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = tr("Book packs"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {

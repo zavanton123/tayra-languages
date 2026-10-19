@@ -250,7 +250,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Cancel" to "Anuluj",
     "Course pack" to "Pakiet kursów",
     // BookPacksScreen.kt, PhoneBookPacks.kt
-    "Book downloads" to "Pobieranie książek",
     "Book bundle" to "Zestaw książek",
     "Download a bundle of free books in a language as one file, or remove them to free space." to "Pobierz zestaw darmowych książek w danym języku jednym plikiem albo usuń go, aby zwolnić miejsce.",
     "Download a bundle of free books, graded by level." to "Pobierz zestaw darmowych książek podzielonych na poziomy.",
@@ -265,11 +264,11 @@ internal val plSettings: Map<String, String> = mapOf(
     "Download book bundle" to "Pobierz zestaw książek",
     "Authentic texts from A2 to C2: children's books, Wikipedia reads, and the stories and novels of Machado de Assis and Lima Barreto." to "Autentyczne teksty od A2 do C2: książki dla dzieci, artykuły z Wikipedii oraz opowiadania i powieści Machado de Assisa i Limy Barreto.",
     // PhoneCoursePacks.kt
-    "Course downloads" to "Pobieranie kursów",
     "Download ready-made courses for offline use." to "Pobierz gotowe kursy, aby korzystać z nich offline.",
     "Downloaded packs appear in Courses and can be edited." to "Pobrane kursy pojawiają się w sekcji „Kursy” i można je edytować.",
     "courses" to "kursów",
     "lessons" to "lekcji",
+    "levels" to "poziomy",
     "Graded mini stories built on the 10,000 most common words." to "Miniopowiadania na różnych poziomach, oparte na 10 000 najczęstszych słów.",
     "Download course pack" to "Pobierz pakiet kursów",
     "Remove course pack" to "Usuń pakiet kursów",

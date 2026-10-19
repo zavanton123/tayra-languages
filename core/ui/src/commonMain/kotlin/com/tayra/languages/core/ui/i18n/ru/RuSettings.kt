@@ -250,7 +250,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Cancel" to "Отмена",
     "Course pack" to "Пакет курсов",
     // BookPacksScreen.kt, PhoneBookPacks.kt
-    "Book downloads" to "Загрузка книг",
     "Book bundle" to "Подборка книг",
     "Download a bundle of free books in a language as one file, or remove them to free space." to "Скачайте подборку бесплатных книг на языке одним файлом или удалите её, чтобы освободить место.",
     "Download a bundle of free books, graded by level." to "Скачайте подборку бесплатных книг по уровням.",
@@ -265,11 +264,11 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Download book bundle" to "Скачать подборку книг",
     "Authentic texts from A2 to C2: children's books, Wikipedia reads, and the stories and novels of Machado de Assis and Lima Barreto." to "Аутентичные тексты от A2 до C2: детские книги, статьи Википедии, рассказы и романы Машаду де Ассиза и Лимы Баррету.",
     // PhoneCoursePacks.kt
-    "Course downloads" to "Загрузка курсов",
     "Download ready-made courses for offline use." to "Скачайте готовые курсы, чтобы читать их без сети.",
     "Downloaded packs appear in Courses and can be edited." to "Скачанные курсы появятся в разделе «Курсы», и их можно менять.",
     "courses" to "курсов",
     "lessons" to "уроков",
+    "levels" to "уровни",
     "Graded mini stories built on the 10,000 most common words." to "Мини-истории по уровням на 10 000 самых частых слов.",
     "Download course pack" to "Скачать пакет курсов",
     "Remove course pack" to "Удалить пакет курсов",

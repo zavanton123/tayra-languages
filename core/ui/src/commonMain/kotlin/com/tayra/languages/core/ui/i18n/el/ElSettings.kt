@@ -250,7 +250,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Cancel" to "Ακύρωση",
     "Course pack" to "Πακέτο μαθημάτων",
     // BookPacksScreen.kt, PhoneBookPacks.kt
-    "Book downloads" to "Λήψεις βιβλίων",
     "Book bundle" to "Συλλογή βιβλίων",
     "Download a bundle of free books in a language as one file, or remove them to free space." to "Κατεβάστε μια συλλογή δωρεάν βιβλίων σε μια γλώσσα σε ένα αρχείο ή αφαιρέστε την για να ελευθερώσετε χώρο.",
     "Download a bundle of free books, graded by level." to "Κατεβάστε μια συλλογή δωρεάν βιβλίων, ταξινομημένων κατά επίπεδο.",
@@ -265,11 +264,11 @@ internal val elSettings: Map<String, String> = mapOf(
     "Download book bundle" to "Λήψη συλλογής βιβλίων",
     "Authentic texts from A2 to C2: children's books, Wikipedia reads, and the stories and novels of Machado de Assis and Lima Barreto." to "Αυθεντικά κείμενα από A2 έως C2: παιδικά βιβλία, άρθρα της Wikipedia και τα διηγήματα και μυθιστορήματα των Machado de Assis και Lima Barreto.",
     // PhoneCoursePacks.kt
-    "Course downloads" to "Λήψεις μαθημάτων",
     "Download ready-made courses for offline use." to "Κατεβάστε έτοιμα μαθήματα για χρήση εκτός σύνδεσης.",
     "Downloaded packs appear in Courses and can be edited." to "Τα πακέτα που λαμβάνετε εμφανίζονται στα Μαθήματα και μπορούν να επεξεργαστούν.",
     "courses" to "μαθήματα",
     "lessons" to "ενότητες",
+    "levels" to "επίπεδα",
     "Graded mini stories built on the 10,000 most common words." to "Μικρές ιστορίες ανά επίπεδο, βασισμένες στις 10.000 πιο συχνές λέξεις.",
     "Download course pack" to "Λήψη πακέτου μαθημάτων",
     "Remove course pack" to "Αφαίρεση πακέτου μαθημάτων",
