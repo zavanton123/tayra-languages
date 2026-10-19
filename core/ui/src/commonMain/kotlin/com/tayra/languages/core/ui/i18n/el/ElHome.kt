@@ -4,8 +4,8 @@ package com.tayra.languages.core.ui.i18n.el
 internal val elHome: Map<String, String> = mapOf(
     "Pick up where you left off." to "Συνεχίστε από εκεί που σταματήσατε.",
     "Pick up where you left off in {0}." to "Συνεχίστε από εκεί που σταματήσατε στα {0}.",
-    "Words added today" to "Νέες λέξεις σήμερα",
-    "Day streak" to "Ημέρες στη σειρά",
+    "Words saved today" to "Λέξεις που αποθηκεύτηκαν σήμερα",
+    "Study streak" to "Σερί μελέτης",
     "Study today to keep it going" to "Μελετήστε σήμερα για να μη χαθεί το σερί",
     "Study today to start a streak" to "Μελετήστε σήμερα για να ξεκινήσει ένα σερί",
     "Continue course" to "Συνέχεια μαθήματος",

@@ -34,7 +34,7 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "reading line height" to "interlinia",
     "Behaviour" to "Działanie",
     "Control how Tayra behaves on different pages." to "Ustaw, jak Tayra działa na różnych stronach.",
-    "Show reading streak on home page" to "Pokazuj serię czytania na ekranie startowym",
+    "Show study streak on home page" to "Pokazuj serię dni nauki na stronie głównej",
     "Display your current streak on the Home dashboard." to "Wyświetlaj bieżącą serię na ekranie startowym.",
     "Book stats page sample size" to "Próbka stron do statystyk książki",
     "Number of pages used for book statistics." to "Liczba stron używanych do statystyk książki.",

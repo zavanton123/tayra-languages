@@ -164,7 +164,7 @@ private fun OverviewTiles(o: LanguageOverview) {
     val tiles = listOf(
         Tile(tr("Words read"), formatCount(animatedCount(o.wordsRead)), tr("{0} this week", formatCount(o.wordsReadThisWeek)), AppIcons.MenuBook, AppAccents.blue, "words-read"),
         Tile(tr("Known words"), formatCount(animatedCount(o.known)), trPlural(o.learning, "{1} word being learned", "{1} words being learned", formatCount(o.learning)), AppIcons.DoneAll, AppAccents.green, "known-words"),
-        Tile(tr("New words today"), formatCount(animatedCount(o.savedToday)), trPlural(o.savedThisWeek, "{1} word saved this week", "{1} words saved this week", formatCount(o.savedThisWeek)), AppIcons.Abc, AppAccents.orange, "words-today"),
+        Tile(tr("Words saved today"), formatCount(animatedCount(o.savedToday)), trPlural(o.savedThisWeek, "{1} word saved this week", "{1} words saved this week", formatCount(o.savedThisWeek)), AppIcons.Abc, AppAccents.orange, "words-today"),
         Tile(tr("Reading streak"), animatedCount(o.streak).let { trPlural(it, "{0} day", "{0} days") }, trPlural(o.longestStreak, "Longest: {0} day", "Longest: {0} days"), AppIcons.Flame, AppAccents.pink, "streak"),
         Tile(tr("Days with reading"), formatCount(animatedCount(o.daysRead)), tr("{0} words a day on average", formatCount(o.wordsPerReadingDay)), AppIcons.History, AppAccents.purple, "days-read"),
         Tile(tr("Pages read"), formatCount(animatedCount(o.pagesRead)), trPlural(o.booksFinished, "{1} book finished", "{1} books finished", formatCount(o.booksFinished)), AppIcons.Book, AppAccents.teal, "pages-read"),

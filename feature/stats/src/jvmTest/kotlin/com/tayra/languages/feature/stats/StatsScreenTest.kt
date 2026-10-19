@@ -118,7 +118,7 @@ class StatsScreenTest {
         assertEquals(3, onAllNodesWithText("1,670").fetchSemanticsNodes().size)
         onNodeWithText("3 days").assertExists()
         onNodeWithText("Longest: 4 days").assertExists()
-        onNodeWithText("New words today").assertExists()
+        onNodeWithText("Words saved today").assertExists()
         onNodeWithText("2 words saved this week").assertExists()
         onNodeWithText("3 words being learned").assertExists()
         onNodeWithText("4 reviews, remembered 75% of the time").assertExists()

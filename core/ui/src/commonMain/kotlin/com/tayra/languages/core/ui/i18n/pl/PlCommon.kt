@@ -231,7 +231,6 @@ internal val plCommon: Map<String, String> = mapOf(
     "{0} this week" to "{0} w tym tygodniu",
     "Known words" to "Znane słowa",
     "{1} words saved this week" to "{1} słowo zapisane w tym tygodniu|{1} słowa zapisane w tym tygodniu|{1} słów zapisanych w tym tygodniu",
-    "New words today" to "Nowe słowa dzisiaj",
     "{1} words being learned" to "{1} słowo w nauce|{1} słowa w nauce|{1} słów w nauce",
     "Reading streak" to "Seria czytania",
     "Longest: {0} days" to "Rekord: {0} dzień|Rekord: {0} dni|Rekord: {0} dni",

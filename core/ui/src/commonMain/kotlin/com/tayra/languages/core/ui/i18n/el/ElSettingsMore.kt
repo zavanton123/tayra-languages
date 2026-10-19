@@ -34,7 +34,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "reading line height" to "διάστιχο ανάγνωσης",
     "Behaviour" to "Συμπεριφορά",
     "Control how Tayra behaves on different pages." to "Ορίστε πώς συμπεριφέρεται το Tayra σε διάφορες σελίδες.",
-    "Show reading streak on home page" to "Εμφάνιση σερί ανάγνωσης στην αρχική",
+    "Show study streak on home page" to "Εμφάνιση του σερί μελέτης στην αρχική σελίδα",
     "Display your current streak on the Home dashboard." to "Εμφάνιση του τρέχοντος σερί σας στην αρχική σελίδα.",
     "Book stats page sample size" to "Δείγμα σελίδων για στατιστικά βιβλίου",
     "Number of pages used for book statistics." to "Αριθμός σελίδων που χρησιμοποιούνται για τα στατιστικά του βιβλίου.",

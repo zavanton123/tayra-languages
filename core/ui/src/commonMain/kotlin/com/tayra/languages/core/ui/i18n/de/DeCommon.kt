@@ -231,7 +231,6 @@ internal val deCommon: Map<String, String> = mapOf(
     "{0} this week" to "{0} diese Woche",
     "Known words" to "Bekannte Wörter",
     "{1} words saved this week" to "{1} Wort diese Woche gespeichert|{1} Wörter diese Woche gespeichert",
-    "New words today" to "Neue Wörter heute",
     "{1} words being learned" to "{1} Wort im Lernen|{1} Wörter im Lernen",
     "Reading streak" to "Leseserie",
     "Longest: {0} days" to "Rekord: {0} Tag|Rekord: {0} Tage",

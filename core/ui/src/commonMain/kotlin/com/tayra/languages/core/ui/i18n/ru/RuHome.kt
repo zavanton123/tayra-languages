@@ -4,8 +4,8 @@ package com.tayra.languages.core.ui.i18n.ru
 internal val ruHome: Map<String, String> = mapOf(
     "Pick up where you left off." to "Продолжите с того места, где остановились.",
     "Pick up where you left off in {0}." to "Продолжите с того места, где остановились, в {0} языке.",
-    "Words added today" to "Слов добавлено сегодня",
-    "Day streak" to "Дней подряд",
+    "Words saved today" to "Слов сохранено сегодня",
+    "Study streak" to "Серия дней учёбы",
     "Study today to keep it going" to "Позанимайтесь сегодня, чтобы не прервать серию",
     "Study today to start a streak" to "Позанимайтесь сегодня, чтобы начать серию",
     "Continue course" to "Продолжить курс",

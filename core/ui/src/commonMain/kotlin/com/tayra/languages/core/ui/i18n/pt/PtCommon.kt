@@ -231,7 +231,6 @@ internal val ptCommon: Map<String, String> = mapOf(
     "{0} this week" to "{0} nesta semana",
     "Known words" to "Palavras conhecidas",
     "{1} words saved this week" to "{1} palavra salva nesta semana|{1} palavras salvas nesta semana",
-    "New words today" to "Palavras novas hoje",
     "{1} words being learned" to "{1} palavra em aprendizado|{1} palavras em aprendizado",
     "Reading streak" to "Sequência de leitura",
     "Longest: {0} days" to "Recorde: {0} dia|Recorde: {0} dias",

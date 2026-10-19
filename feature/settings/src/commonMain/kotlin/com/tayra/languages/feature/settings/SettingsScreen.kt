@@ -319,7 +319,7 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
 @Composable
 private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) {
     ContentCard(tr("Behaviour"), tr("Control how Tayra behaves on different pages."), icon = Icons.Default.Settings) {
-        SwitchSetting(tr("Show reading streak on home page"), tr("Display your current streak on the Home dashboard."), settings.showStreakOnHome) { v ->
+        SwitchSetting(tr("Show study streak on home page"), tr("Display your current streak on the Home dashboard."), settings.showStreakOnHome) { v ->
             viewModel.update { it.copy(showStreakOnHome = v) }
         }
         SettingRow(tr("Book stats page sample size"), tr("Number of pages used for book statistics."), divider = true) {

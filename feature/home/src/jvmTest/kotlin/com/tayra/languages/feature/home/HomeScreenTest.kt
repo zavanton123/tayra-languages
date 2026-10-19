@@ -119,7 +119,7 @@ class HomeScreenTest {
             waitForIdle()
             ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))
         }
-        onNodeWithText("Words added today").assertExists()
+        onNodeWithText("Words saved today").assertExists()
         onNodeWithText("2 this week").assertExists()
         onNodeWithText("4 days").assertExists()
         onNodeWithText("Longest: 4 days").assertExists()

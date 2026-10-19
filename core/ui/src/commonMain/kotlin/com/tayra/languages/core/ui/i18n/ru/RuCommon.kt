@@ -231,7 +231,6 @@ internal val ruCommon: Map<String, String> = mapOf(
     "{0} this week" to "{0} за эту неделю",
     "Known words" to "Знакомые слова",
     "{1} words saved this week" to "{1} слово сохранено за неделю|{1} слова сохранено за неделю|{1} слов сохранено за неделю",
-    "New words today" to "Новых слов сегодня",
     "{1} words being learned" to "{1} слово в изучении|{1} слова в изучении|{1} слов в изучении",
     "Reading streak" to "Серия чтения",
     "Longest: {0} days" to "Рекорд: {0} день|Рекорд: {0} дня|Рекорд: {0} дней",

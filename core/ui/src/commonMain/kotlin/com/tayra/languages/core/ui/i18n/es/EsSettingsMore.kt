@@ -34,7 +34,7 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "reading line height" to "interlineado de lectura",
     "Behaviour" to "Comportamiento",
     "Control how Tayra behaves on different pages." to "Controla cómo se comporta Tayra en las distintas páginas.",
-    "Show reading streak on home page" to "Mostrar la racha de lectura en el inicio",
+    "Show study streak on home page" to "Mostrar la racha de estudio en la página de inicio",
     "Display your current streak on the Home dashboard." to "Muestra tu racha actual en el panel de inicio.",
     "Book stats page sample size" to "Muestra de páginas para estadísticas del libro",
     "Number of pages used for book statistics." to "Número de páginas usadas para las estadísticas del libro.",

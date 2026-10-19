@@ -231,7 +231,6 @@ internal val elCommon: Map<String, String> = mapOf(
     "{0} this week" to "{0} αυτή την εβδομάδα",
     "Known words" to "Γνωστές λέξεις",
     "{1} words saved this week" to "{1} λέξη αποθηκεύτηκε αυτή την εβδομάδα|{1} λέξεις αποθηκεύτηκαν αυτή την εβδομάδα",
-    "New words today" to "Νέες λέξεις σήμερα",
     "{1} words being learned" to "{1} λέξη σε εκμάθηση|{1} λέξεις σε εκμάθηση",
     "Reading streak" to "Σερί ανάγνωσης",
     "Longest: {0} days" to "Ρεκόρ: {0} ημέρα|Ρεκόρ: {0} ημέρες",

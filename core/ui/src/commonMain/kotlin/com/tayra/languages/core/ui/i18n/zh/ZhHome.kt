@@ -4,8 +4,8 @@ package com.tayra.languages.core.ui.i18n.zh
 internal val zhHome: Map<String, String> = mapOf(
     "Pick up where you left off." to "从上次停下的地方继续。",
     "Pick up where you left off in {0}." to "从上次停下的地方继续学习{0}。",
-    "Words added today" to "今日添加单词",
-    "Day streak" to "连续天数",
+    "Words saved today" to "今天保存的单词",
+    "Study streak" to "连续学习天数",
     "Study today to keep it going" to "今天学习一下，保持连续记录",
     "Study today to start a streak" to "今天学习一下，开始连续记录",
     "Continue course" to "继续课程",

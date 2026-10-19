@@ -34,7 +34,7 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "reading line height" to "Zeilenhöhe beim Lesen",
     "Behaviour" to "Verhalten",
     "Control how Tayra behaves on different pages." to "Lege fest, wie sich Tayra auf verschiedenen Seiten verhält.",
-    "Show reading streak on home page" to "Leseserie auf der Startseite anzeigen",
+    "Show study streak on home page" to "Lernserie auf der Startseite anzeigen",
     "Display your current streak on the Home dashboard." to "Zeigt deine aktuelle Serie auf der Startseite an.",
     "Book stats page sample size" to "Stichprobe für Buchstatistik (Seiten)",
     "Number of pages used for book statistics." to "Anzahl der Seiten, die für die Buchstatistik verwendet werden.",

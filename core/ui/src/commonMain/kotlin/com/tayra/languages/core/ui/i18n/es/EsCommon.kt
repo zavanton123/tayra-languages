@@ -231,7 +231,6 @@ internal val esCommon: Map<String, String> = mapOf(
     "{0} this week" to "{0} esta semana",
     "Known words" to "Palabras conocidas",
     "{1} words saved this week" to "{1} palabra guardada esta semana|{1} palabras guardadas esta semana",
-    "New words today" to "Palabras nuevas hoy",
     "{1} words being learned" to "{1} palabra en aprendizaje|{1} palabras en aprendizaje",
     "Reading streak" to "Racha de lectura",
     "Longest: {0} days" to "Récord: {0} día|Récord: {0} días",

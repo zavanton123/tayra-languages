@@ -4,8 +4,8 @@ package com.tayra.languages.core.ui.i18n.pt
 internal val ptHome: Map<String, String> = mapOf(
     "Pick up where you left off." to "Continue de onde você parou.",
     "Pick up where you left off in {0}." to "Continue de onde você parou em {0}.",
-    "Words added today" to "Palavras novas hoje",
-    "Day streak" to "Dias seguidos",
+    "Words saved today" to "Palavras salvas hoje",
+    "Study streak" to "Sequência de estudo",
     "Study today to keep it going" to "Estude hoje para não perder a sequência",
     "Study today to start a streak" to "Estude hoje para começar uma sequência",
     "Continue course" to "Continuar curso",

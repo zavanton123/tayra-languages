@@ -231,7 +231,6 @@ internal val frCommon: Map<String, String> = mapOf(
     "{0} this week" to "{0} cette semaine",
     "Known words" to "Mots connus",
     "{1} words saved this week" to "{1} mot enregistré cette semaine|{1} mots enregistrés cette semaine",
-    "New words today" to "Nouveaux mots aujourd’hui",
     "{1} words being learned" to "{1} mot en apprentissage|{1} mots en apprentissage",
     "Reading streak" to "Série de lecture",
     "Longest: {0} days" to "Record : {0} jour|Record : {0} jours",

@@ -34,7 +34,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "reading line height" to "межстрочный интервал",
     "Behaviour" to "Поведение",
     "Control how Tayra behaves on different pages." to "Настройте поведение Tayra на разных страницах.",
-    "Show reading streak on home page" to "Показывать серию дней чтения на главной",
+    "Show study streak on home page" to "Показывать серию дней учёбы на главной",
     "Display your current streak on the Home dashboard." to "Показывать текущую серию дней чтения на главной странице.",
     "Book stats page sample size" to "Выборка страниц для статистики книги",
     "Number of pages used for book statistics." to "Сколько страниц берётся для статистики книги.",

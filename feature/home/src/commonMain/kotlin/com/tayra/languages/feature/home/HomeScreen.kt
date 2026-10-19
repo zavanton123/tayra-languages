@@ -115,7 +115,7 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
 private fun WordsTodayTile(activity: StudyActivity, modifier: Modifier) {
     val weekStart = activity.today.minus(6, DateTimeUnit.DAY)
     val week = activity.days.filterKeys { it in weekStart..activity.today }.values.sumOf { it.wordsSaved }
-    Tile(tr("Words added today"), formatCount(animatedCount(activity.savedToday)), tr("{0} this week", formatCount(week)), AppIcons.Abc, AppAccents.orange, "words-today", modifier)
+    Tile(tr("Words saved today"), formatCount(animatedCount(activity.savedToday)), tr("{0} this week", formatCount(week)), AppIcons.Abc, AppAccents.orange, "words-today", modifier)
 }
 
 @Composable
@@ -125,7 +125,7 @@ private fun StreakTile(activity: StudyActivity, modifier: Modifier) {
         activity.streak > 0 -> tr("Study today to keep it going")
         else -> tr("Study today to start a streak")
     }
-    Tile(tr("Day streak"), animatedCount(activity.streak).let { trPlural(it, "{0} day", "{0} days") }, detail, AppIcons.Flame, AppAccents.pink, "streak", modifier)
+    Tile(tr("Study streak"), animatedCount(activity.streak).let { trPlural(it, "{0} day", "{0} days") }, detail, AppIcons.Flame, AppAccents.pink, "streak", modifier)
 }
 
 @Composable

@@ -86,7 +86,7 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
             }
             ContentCard(tr("Reading preview"), subtitle = null, icon = AppIcons.MenuBook, dense = true) { PreviewBox(settings, padding = AppSpacing.l) }
             ContentCard(tr("Behaviour"), subtitle = null, icon = Icons.Default.Settings, dense = true) {
-                SwitchSetting(tr("Show reading streak on home page"), description = null, checked = settings.showStreakOnHome, dense = true) { v -> viewModel.update { it.copy(showStreakOnHome = v) } }
+                SwitchSetting(tr("Show study streak on home page"), description = null, checked = settings.showStreakOnHome, dense = true) { v -> viewModel.update { it.copy(showStreakOnHome = v) } }
                 AppDivider()
                 Column(Modifier.padding(vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     Text(tr("Book stats page sample size"), style = MaterialTheme.typography.bodyLarge)

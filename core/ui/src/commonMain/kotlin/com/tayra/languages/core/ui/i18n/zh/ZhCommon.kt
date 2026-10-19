@@ -231,7 +231,6 @@ internal val zhCommon: Map<String, String> = mapOf(
     "{0} this week" to "本周 {0}",
     "Known words" to "已掌握的单词",
     "{1} words saved this week" to "本周保存了 {1} 个单词",
-    "New words today" to "今日新词",
     "{1} words being learned" to "{1} 个单词学习中",
     "Reading streak" to "连续阅读",
     "Longest: {0} days" to "最长：{0} 天",
