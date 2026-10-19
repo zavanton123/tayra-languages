@@ -508,6 +508,7 @@ fun LinkText(
     style: TextStyle = MaterialTheme.typography.bodyLarge,
     icon: ImageVector? = null,
     trailingIcon: ImageVector? = null,
+    maxLines: Int = Int.MAX_VALUE,
 ) {
     Row(
         modifier.clip(AppShapes.small).clickable(role = Role.Button, onClick = onClick).padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xs),
@@ -515,7 +516,7 @@ fun LinkText(
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
     ) {
         if (icon != null) Icon(icon, contentDescription = null, tint = color, modifier = Modifier.size(AppSizes.iconCompact))
-        Text(text, style = style.copy(fontWeight = AppText.emphasis.fontWeight), color = color)
+        Text(text, Modifier.weight(1f, fill = false), style = style.copy(fontWeight = AppText.emphasis.fontWeight), color = color, maxLines = maxLines, overflow = TextOverflow.Ellipsis)
         if (trailingIcon != null) Icon(trailingIcon, contentDescription = null, tint = color, modifier = Modifier.size(AppSizes.iconSmall))
     }
 }

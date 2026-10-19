@@ -477,7 +477,8 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
             } else {
                 LinkText(tr("Courses"), onCourses, color = colors.onSurfaceVariant, icon = Icons.AutoMirrored.Filled.ArrowBack)
                 separator()
-                LinkText(lesson.course.title, onHome, Modifier.weight(1f, fill = false), color = colors.onSurfaceVariant)
+                // One line: a long course name gives way before the lesson's title does.
+                LinkText(lesson.course.title, onHome, Modifier.weight(0.6f, fill = false), color = colors.onSurfaceVariant, maxLines = 1)
             }
             separator()
             Text(
