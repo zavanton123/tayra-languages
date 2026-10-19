@@ -38,6 +38,7 @@ internal val esCourses: Map<String, String> = mapOf(
     "Guided {0} lessons, level by level." to "Lecciones guiadas en {0}, nivel a nivel.",
     "Choose a language to learn" to "Elige un idioma que aprender",
     "Create your first course" to "Crea tu primer curso",
+    "Get started with courses" to "Empieza con los cursos",
     "Download the ready-made {0} courses, or build your own from books and texts you choose." to "Descarga los cursos de {0} ya preparados o crea el tuyo con los libros y textos que elijas.",
     "Build a guided reading course from books and texts you choose." to "Crea un curso de lectura guiada con los libros y textos que elijas.",
     "Not started" to "Sin empezar",

@@ -38,6 +38,7 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Guided {0} lessons, level by level." to "循序渐进的分级{0}课文。",
     "Choose a language to learn" to "选择要学习的语言",
     "Create your first course" to "创建你的第一个课程",
+    "Get started with courses" to "从课程开始",
     "Download the ready-made {0} courses, or build your own from books and texts you choose." to "下载现成的{0}课程，或用你选择的书籍和文本自建课程。",
     "Build a guided reading course from books and texts you choose." to "用你选择的书籍和文本创建阅读课程。",
     "Not started" to "未开始",

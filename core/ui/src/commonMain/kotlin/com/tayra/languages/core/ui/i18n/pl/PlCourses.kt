@@ -38,6 +38,7 @@ internal val plCourses: Map<String, String> = mapOf(
     "Guided {0} lessons, level by level." to "Lekcje w języku {0}, poziom po poziomie.",
     "Choose a language to learn" to "Wybierz język do nauki",
     "Create your first course" to "Utwórz swój pierwszy kurs",
+    "Get started with courses" to "Zacznij od kursów",
     "Download the ready-made {0} courses, or build your own from books and texts you choose." to "Pobierz gotowe kursy w języku {0} albo zbuduj własny z wybranych książek i tekstów.",
     "Build a guided reading course from books and texts you choose." to "Zbuduj kurs czytania z wybranych książek i tekstów.",
     "Not started" to "Nierozpoczęte",

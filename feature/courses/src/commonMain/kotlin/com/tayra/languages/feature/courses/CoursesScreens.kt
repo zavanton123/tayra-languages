@@ -43,6 +43,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.geometry.Offset
@@ -108,6 +109,7 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.theme.TayraTheme
 import kotlin.math.roundToInt
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
@@ -566,11 +568,18 @@ internal fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDown
                 .testTag("empty-courses"),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            // With large text the picture gives way, so the buttons stay on screen.
-            CoursesIllustration(Modifier.size(if (largeText) ILLUSTRATION_SIZE * SMALL_ILLUSTRATION else ILLUSTRATION_SIZE))
+            // On a phone, or with large text, the picture gives way so the buttons stay on screen; a dark theme dims it.
+            CoursesIllustration(
+                Modifier.size(if (compact || largeText) ILLUSTRATION_SIZE * SMALL_ILLUSTRATION else ILLUSTRATION_SIZE)
+                    .alpha(if (TayraTheme.current.isDark) AppAlpha.strong else 1f),
+            )
             Spacer(Modifier.height(AppSpacing.xxl))
             Text(
-                if (language.isEmpty()) tr("Choose a language to learn") else tr("Create your first course"),
+                when {
+                    language.isEmpty() -> tr("Choose a language to learn")
+                    state.packAvailable -> tr("Get started with courses")
+                    else -> tr("Create your first course")
+                },
                 style = if (compact) AppText.headline else AppText.screenTitle,
                 textAlign = TextAlign.Center,
             )

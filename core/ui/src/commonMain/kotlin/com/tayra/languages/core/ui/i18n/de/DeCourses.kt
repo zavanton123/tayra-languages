@@ -38,6 +38,7 @@ internal val deCourses: Map<String, String> = mapOf(
     "Guided {0} lessons, level by level." to "Geführte Lektionen auf {0}, Niveau für Niveau.",
     "Choose a language to learn" to "Wähle eine Lernsprache",
     "Create your first course" to "Erstelle deinen ersten Kurs",
+    "Get started with courses" to "Mit Kursen loslegen",
     "Download the ready-made {0} courses, or build your own from books and texts you choose." to "Lade die fertigen Kurse auf {0} herunter oder stelle dir aus Büchern und Texten deiner Wahl einen eigenen zusammen.",
     "Build a guided reading course from books and texts you choose." to "Stelle aus Büchern und Texten deiner Wahl einen geführten Lesekurs zusammen.",
     "Not started" to "Nicht begonnen",

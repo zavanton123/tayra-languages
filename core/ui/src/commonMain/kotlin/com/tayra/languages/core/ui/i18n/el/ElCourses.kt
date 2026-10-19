@@ -38,6 +38,7 @@ internal val elCourses: Map<String, String> = mapOf(
     "Guided {0} lessons, level by level." to "Καθοδηγούμενες ενότητες στα {0}, επίπεδο προς επίπεδο.",
     "Choose a language to learn" to "Επιλέξτε γλώσσα εκμάθησης",
     "Create your first course" to "Δημιουργήστε το πρώτο σας μάθημα",
+    "Get started with courses" to "Ξεκινήστε με τα μαθήματα",
     "Download the ready-made {0} courses, or build your own from books and texts you choose." to "Κατεβάστε τα έτοιμα μαθήματα στα {0} ή φτιάξτε το δικό σας από βιβλία και κείμενα της επιλογής σας.",
     "Build a guided reading course from books and texts you choose." to "Φτιάξτε ένα καθοδηγούμενο μάθημα ανάγνωσης από βιβλία και κείμενα της επιλογής σας.",
     "Not started" to "Δεν ξεκίνησαν",

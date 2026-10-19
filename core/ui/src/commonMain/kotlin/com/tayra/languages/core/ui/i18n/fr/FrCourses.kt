@@ -38,6 +38,7 @@ internal val frCourses: Map<String, String> = mapOf(
     "Guided {0} lessons, level by level." to "Des leçons guidées en {0}, niveau par niveau.",
     "Choose a language to learn" to "Choisissez une langue à apprendre",
     "Create your first course" to "Créez votre premier cours",
+    "Get started with courses" to "Commencer avec les cours",
     "Download the ready-made {0} courses, or build your own from books and texts you choose." to "Téléchargez les cours tout prêts en {0}, ou composez le vôtre à partir de livres et de textes de votre choix.",
     "Build a guided reading course from books and texts you choose." to "Composez un cours de lecture guidée à partir de livres et de textes de votre choix.",
     "Not started" to "Non commencé",

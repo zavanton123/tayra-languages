@@ -324,7 +324,7 @@ class CoursesScreenTest {
     fun withoutCoursesTheReadyMadeOnesAreOfferedForDownload() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         var asked = 0
         host { CoursesContent(CoursesUiState(loading = false, languageName = "Portuguese", packAvailable = true), {}, {}, {}, onOpen = {}, onDownloadCourses = { asked++ }) }
-        onNodeWithText("Create your first course").assertExists()
+        onNodeWithText("Get started with courses").assertExists()
         save("COURSES_EMPTY_PACK_SCREENSHOT")
         onNodeWithTag("download-courses").performClick()
         assertEquals(1, asked)

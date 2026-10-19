@@ -38,6 +38,7 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Guided {0} lessons, level by level." to "Уроки на {0} языке, по уровням.",
     "Choose a language to learn" to "Выберите язык для изучения",
     "Create your first course" to "Создайте первый курс",
+    "Get started with courses" to "Начните с курсов",
     "Download the ready-made {0} courses, or build your own from books and texts you choose." to "Скачайте готовые курсы на {0} языке или соберите свой из выбранных книг и текстов.",
     "Build a guided reading course from books and texts you choose." to "Соберите курс для чтения из выбранных книг и текстов.",
     "Not started" to "Не начато",
