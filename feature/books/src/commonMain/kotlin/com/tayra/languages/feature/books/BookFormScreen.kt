@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.books
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -17,7 +18,6 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -32,9 +32,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.dp
@@ -42,6 +39,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.data.files.FileTextExtractor
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.ui.components.AppDialog
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -59,6 +57,8 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.Segment
+import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TagInput
 import com.tayra.languages.core.ui.i18n.tr
@@ -67,6 +67,7 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import io.github.vinceglb.filekit.PlatformFile
 import io.github.vinceglb.filekit.dialogs.FileKitMode
@@ -221,24 +222,13 @@ private fun wordCount(text: String): Int = text.split(Regex("\\s+")).count { wor
 
 @Composable
 private fun SourceToggle(selected: ContentSource, onSelect: (ContentSource) -> Unit) {
-    Row(Modifier.clip(AppShapes.panel).background(MaterialTheme.colorScheme.surfaceContainer).padding(4.dp)) {
-        ContentSource.entries.forEach { option ->
-            val active = option == selected
-            val icon: ImageVector = if (option == ContentSource.PASTE) AppIcons.FileOutline else AppIcons.UploadFile
-            Row(
-                Modifier.clip(AppShapes.compact)
-                    .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.14f) else Color.Transparent)
-                    .clickable { onSelect(option) }
-                    .padding(horizontal = 22.dp, vertical = 10.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                val color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant
-                Icon(icon, contentDescription = null, tint = color, modifier = Modifier.size(18.dp))
-                Spacer(Modifier.width(10.dp))
-                Text(tr(option.label), style = MaterialTheme.typography.bodyLarge, color = color, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal)
-            }
-        }
-    }
+    SegmentedToggle(
+        ContentSource.entries.map { option ->
+            Segment(option, if (option == ContentSource.PASTE) AppIcons.FileOutline else AppIcons.UploadFile, tr(option.label))
+        },
+        selected,
+        onSelect,
+    )
 }
 
 @Composable
@@ -249,7 +239,7 @@ private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -
     Column(
         Modifier.fillMaxWidth().height(400.dp).clip(AppShapes.panel)
             .background(if (dropping) colors.primary.copy(alpha = 0.06f) else colors.surfaceContainerLow)
-            .border(if (dropping) 2.dp else 1.dp, if (dropping) colors.primary else colors.outlineVariant, AppShapes.panel)
+            .border(if (dropping) BorderStroke(2.dp, colors.primary) else AppBorders.hairline(), AppShapes.panel)
             .acceptsDroppedFiles(enabled = !state.busy, onHover = { dropping = it }, onFiles = onDropFiles)
             .clickable(enabled = !state.busy, onClick = onChooseFile)
             .padding(24.dp),
@@ -375,7 +365,7 @@ private fun FieldLabel(text: String) {
 private fun ActionBar(state: BookFormUiState, onCancel: () -> Unit, onSave: () -> Unit) {
     Surface(color = MaterialTheme.colorScheme.surface) {
         Column {
-            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+            AppDivider()
             Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
                 Row(
                     Modifier.widthIn(max = 1480.dp).fillMaxWidth()

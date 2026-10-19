@@ -1,7 +1,6 @@
 package com.tayra.languages.feature.books
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -15,11 +14,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
-import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SegmentedButton
@@ -33,7 +31,6 @@ import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -45,15 +42,21 @@ import com.tayra.languages.core.domain.books.discover.BookSource
 import com.tayra.languages.core.domain.books.discover.Difficulty
 import com.tayra.languages.core.ui.components.AppFilterChip
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.CoverageLine
 import com.tayra.languages.core.ui.components.DifficultyFilter
+import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.color
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
@@ -118,32 +121,27 @@ internal fun FindBooksContent(state: FindBooksUiState, actions: FindBooksActions
             state = list,
             contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
         ) {
-            item { Header(state, compact) }
+            item {
+                Column(Modifier.padding(bottom = 20.dp)) {
+                    ScreenHeader(
+                        tr("Find books"),
+                        if (state.languageName.isEmpty()) tr("Free books from online libraries, with how much of each you already know.")
+                        else tr("Free books in {0} from online libraries, with how much of each you already know.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
+                    )
+                }
+            }
             item { Controls(state, actions, compact) }
             when {
-                state.loading -> item { Centered { CircularProgressIndicator() } }
+                state.loading -> item { Centered { AppSpinner(size = SpinnerSize.Large) } }
                 state.error != null -> item { ErrorBox(state, actions) }
                 state.shown.isEmpty() -> item { EmptyBox(state, actions) }
                 else -> items(state.shown.size, key = { "${state.shown[it].book.source}-${state.shown[it].book.id}" }) { i ->
                     FoundBookCard(state.shown[i], actions, compact, Modifier.padding(bottom = 12.dp))
                 }
             }
-            if (state.loadingMore) item { Centered { CircularProgressIndicator(Modifier.size(28.dp)) } }
+            if (state.loadingMore) item { Centered { AppSpinner(size = SpinnerSize.Medium) } }
             if (!state.loading && state.error == null) item { SourceNote(state.source) }
         }
-    }
-}
-
-@Composable
-private fun Header(state: FindBooksUiState, compact: Boolean) {
-    Column(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-        if (!compact) Text(tr("Find books"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-        Text(
-            if (state.languageName.isEmpty()) tr("Free books from online libraries, with how much of each you already know.")
-            else tr("Free books in {0} from online libraries, with how much of each you already know.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
-            style = MaterialTheme.typography.bodyLarge,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
     }
 }
 
@@ -171,7 +169,7 @@ private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact
                 }
             }
         }
-        SearchBox(state.query, actions.onQuery, Modifier.fillMaxWidth(), placeholder = tr("Search titles and authors"))
+        SearchField(state.query, actions.onQuery, tr("Search titles and authors"), Modifier.fillMaxWidth())
         DifficultyFilter(state.difficulty, actions.onDifficulty)
     }
 }
@@ -180,9 +178,8 @@ private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact
 private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compact: Boolean, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val book = item.book
-    val shape = AppShapes.card
     Row(
-        modifier.fillMaxWidth().clip(shape).background(colors.surface).border(1.dp, colors.outlineVariant, shape).padding(16.dp).testTag("found-${book.id}"),
+        modifier.fillMaxWidth().cardSurface().padding(16.dp).testTag("found-${book.id}"),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         if (!compact) {
@@ -209,48 +206,39 @@ private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compac
 @Composable
 private fun BookAction(item: FoundBookItem, actions: FindBooksActions, modifier: Modifier) {
     when {
-        item.libraryId != null -> SecondaryButton(onClick = { actions.onRead(item) }, modifier = modifier.testTag("read-${item.book.id}")) {
-            Text(tr("Read"), fontWeight = FontWeight.SemiBold)
-        }
-        else -> PrimaryButton(onClick = { actions.onAdd(item) }, enabled = !item.adding, modifier = modifier.testTag("add-${item.book.id}")) {
-            if (item.adding) {
-                CircularProgressIndicator(Modifier.size(16.dp), strokeWidth = 2.dp, color = LocalContentColor.current)
-                Spacer(Modifier.width(8.dp))
-                Text(tr("Adding…"), fontWeight = FontWeight.SemiBold)
-            } else {
-                Text(tr("Add to library"), fontWeight = FontWeight.SemiBold)
-            }
-        }
+        item.libraryId != null -> SecondaryButton(tr("Read"), onClick = { actions.onRead(item) }, modifier = modifier.testTag("read-${item.book.id}"))
+        else -> PrimaryButton(
+            if (item.adding) tr("Adding…") else tr("Add to library"),
+            onClick = { actions.onAdd(item) },
+            modifier = modifier.testTag("add-${item.book.id}"),
+            loading = item.adding,
+        )
     }
 }
 
 @Composable
 private fun ErrorBox(state: FindBooksUiState, actions: FindBooksActions) {
-    Column(Modifier.fillMaxWidth().padding(vertical = 32.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(tr("Could not reach {0}.", state.source.libraryName), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
-        state.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center) }
-        SecondaryButton(tr("Try again"), onClick = actions.onRetry)
-    }
+    EmptyState(
+        Icons.Default.Warning,
+        tr("Could not reach {0}.", state.source.libraryName),
+        message = state.error,
+        action = { SecondaryButton(tr("Try again"), onClick = actions.onRetry) },
+    )
 }
 
 @Composable
 private fun EmptyBox(state: FindBooksUiState, actions: FindBooksActions) {
     val other = state.sources.ifEmpty { BookSource.entries.toList() }.first { it != state.source }
-    Column(Modifier.fillMaxWidth().padding(vertical = 32.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(
-            when {
-                state.languageName.isEmpty() -> tr("Choose a language to learn to see its books.")
-                state.books.isNotEmpty() -> tr("None of these books is at this level yet.")
-                state.query.isNotBlank() -> tr("No books match your search.")
-                else -> tr("{0} has no books in {1}.", state.source.libraryName, languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))
-            },
-            style = MaterialTheme.typography.titleMedium,
-            textAlign = TextAlign.Center,
-        )
-        if (state.books.isEmpty() && state.languageName.isNotEmpty()) {
-            SecondaryButton(tr("Look in {0}", other.libraryName), onClick = { actions.onSource(other) })
-        }
-    }
+    EmptyState(
+        AppIcons.MenuBook,
+        when {
+            state.languageName.isEmpty() -> tr("Choose a language to learn to see its books.")
+            state.books.isNotEmpty() -> tr("None of these books is at this level yet.")
+            state.query.isNotBlank() -> tr("No books match your search.")
+            else -> tr("{0} has no books in {1}.", state.source.libraryName, languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))
+        },
+        action = if (state.books.isEmpty() && state.languageName.isNotEmpty()) ({ SecondaryButton(tr("Look in {0}", other.libraryName), onClick = { actions.onSource(other) }) }) else null,
+    )
 }
 
 @Composable

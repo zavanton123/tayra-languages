@@ -11,9 +11,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -30,6 +27,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.model.PageBookmark
 import com.tayra.languages.core.domain.repository.BookRepository
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.EmptyMessage
@@ -82,10 +81,10 @@ fun BookmarksScreen(
                                 Text(bookmark.title, style = MaterialTheme.typography.titleMedium)
                                 Text(tr("Page {0}", bookmark.pageNumber), style = MaterialTheme.typography.bodySmall)
                             }
-                            IconButton(onClick = { renaming = bookmark }) { Icon(Icons.Default.Edit, contentDescription = tr("Rename")) }
-                            IconButton(onClick = { viewModel.delete(bookmark.id) }) { Icon(Icons.Default.Delete, contentDescription = tr("Delete")) }
+                            AppIconButton(Icons.Default.Edit, contentDescription = tr("Rename"), onClick = { renaming = bookmark })
+                            AppIconButton(Icons.Default.Delete, contentDescription = tr("Delete"), onClick = { viewModel.delete(bookmark.id) })
                         }
-                        HorizontalDivider()
+                        AppDivider()
                     }
                 }
             }
