@@ -246,7 +246,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "Words read per day" to "Gelesene Wörter pro Tag",
     "The last 30 days: {0} words" to "Letzte 30 Tage: {0} Wörter",
     "New words saved per week" to "Neu gespeicherte Wörter pro Woche",
-    "The last 12 weeks: {0} words" to "Letzte 12 Wochen: {0} Wörter",
+    "The last 12 weeks: {1} words" to "Letzte 12 Wochen: {1} Wort|Letzte 12 Wochen: {1} Wörter",
     "Most: {0}" to "Höchstwert: {0}",
     "Nothing yet" to "Noch nichts",
     "Vocabulary by status" to "Wortschatz nach Status",

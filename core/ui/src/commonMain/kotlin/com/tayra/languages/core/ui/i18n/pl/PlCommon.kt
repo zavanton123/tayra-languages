@@ -246,7 +246,7 @@ internal val plCommon: Map<String, String> = mapOf(
     "Words read per day" to "Słowa przeczytane dziennie",
     "The last 30 days: {0} words" to "Ostatnie 30 dni, słowa: {0}",
     "New words saved per week" to "Nowe słowa w tygodniu",
-    "The last 12 weeks: {0} words" to "Ostatnie 12 tygodni, słowa: {0}",
+    "The last 12 weeks: {1} words" to "Ostatnie 12 tygodni: {1} słowo|Ostatnie 12 tygodni: {1} słowa|Ostatnie 12 tygodni: {1} słów",
     "Most: {0}" to "Najwięcej: {0}",
     "Nothing yet" to "Jeszcze nic",
     "Vocabulary by status" to "Słownictwo według statusu",

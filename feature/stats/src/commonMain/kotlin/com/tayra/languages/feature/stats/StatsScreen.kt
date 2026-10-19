@@ -227,7 +227,7 @@ private fun WordsPerDayCard(o: LanguageOverview, modifier: Modifier) {
 @Composable
 private fun SavedPerWeekCard(o: LanguageOverview, modifier: Modifier) {
     val firstWeekEnd = o.today.minus((o.savedByWeek.size - 1) * 7, DateTimeUnit.DAY)
-    ContentCard(tr("New words saved per week"), tr("The last 12 weeks: {0} words", formatCount(o.savedByWeek.sum())), icon = AppIcons.Abc, modifier = modifier) {
+    ContentCard(tr("New words saved per week"), o.savedByWeek.sum().let { trPlural(it, "The last 12 weeks: {1} word", "The last 12 weeks: {1} words", formatCount(it)) }, icon = AppIcons.Abc, modifier = modifier) {
         BarChart(o.savedByWeek, AppAccents.orange, firstWeekEnd.minus(6, DateTimeUnit.DAY).shortDate(), o.today.shortDate(), Modifier.testTag("saved-per-week"))
     }
 }

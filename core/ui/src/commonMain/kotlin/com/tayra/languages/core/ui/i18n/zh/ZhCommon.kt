@@ -246,7 +246,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Words read per day" to "每日阅读单词数",
     "The last 30 days: {0} words" to "最近 30 天：{0} 个单词",
     "New words saved per week" to "每周保存的新词",
-    "The last 12 weeks: {0} words" to "最近 12 周：{0} 个单词",
+    "The last 12 weeks: {1} words" to "最近 12 周：{1} 个单词",
     "Most: {0}" to "最多：{0}",
     "Nothing yet" to "暂无数据",
     "Vocabulary by status" to "按状态统计词汇",

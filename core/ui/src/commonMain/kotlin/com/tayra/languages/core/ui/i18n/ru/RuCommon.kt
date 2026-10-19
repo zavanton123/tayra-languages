@@ -246,7 +246,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Words read per day" to "Слова, прочитанные за день",
     "The last 30 days: {0} words" to "За последние 30 дней: {0} слов",
     "New words saved per week" to "Новые слова за неделю",
-    "The last 12 weeks: {0} words" to "За последние 12 недель: {0} слов",
+    "The last 12 weeks: {1} words" to "За последние 12 недель: {1} слово|За последние 12 недель: {1} слова|За последние 12 недель: {1} слов",
     "Most: {0}" to "Больше всего: {0}",
     "Nothing yet" to "Пока ничего нет",
     "Vocabulary by status" to "Слова по статусам",

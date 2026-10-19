@@ -246,7 +246,7 @@ internal val elCommon: Map<String, String> = mapOf(
     "Words read per day" to "Λέξεις που διαβάσατε ανά ημέρα",
     "The last 30 days: {0} words" to "Τελευταίες 30 ημέρες: {0} λέξεις",
     "New words saved per week" to "Νέες λέξεις ανά εβδομάδα",
-    "The last 12 weeks: {0} words" to "Τελευταίες 12 εβδομάδες: {0} λέξεις",
+    "The last 12 weeks: {1} words" to "Τελευταίες 12 εβδομάδες: {1} λέξη|Τελευταίες 12 εβδομάδες: {1} λέξεις",
     "Most: {0}" to "Μέγιστο: {0}",
     "Nothing yet" to "Τίποτα ακόμη",
     "Vocabulary by status" to "Λεξιλόγιο ανά κατάσταση",

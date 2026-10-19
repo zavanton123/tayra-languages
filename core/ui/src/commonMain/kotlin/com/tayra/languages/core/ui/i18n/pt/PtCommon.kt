@@ -246,7 +246,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Words read per day" to "Palavras lidas por dia",
     "The last 30 days: {0} words" to "Últimos 30 dias: {0} palavras",
     "New words saved per week" to "Palavras novas salvas por semana",
-    "The last 12 weeks: {0} words" to "Últimas 12 semanas: {0} palavras",
+    "The last 12 weeks: {1} words" to "Últimas 12 semanas: {1} palavra|Últimas 12 semanas: {1} palavras",
     "Most: {0}" to "Máximo: {0}",
     "Nothing yet" to "Nada ainda",
     "Vocabulary by status" to "Vocabulário por status",
