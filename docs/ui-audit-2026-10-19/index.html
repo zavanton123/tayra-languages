@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tayra UI Audit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one reading column of the audit; priorities as wide cards with their screenshot, then a filterable list of every finding. */
+:root {
+  --bg: #f5f7f9;
+  --surface: #ffffff;
+  --ink: #18222c;
+  --muted: #5a6876;
+  --line: #dbe2e8;
+  --accent: #1f5f8b;
+  --accent-soft: #e3eef6;
+  --high: #b3261e;
+  --high-soft: #fbe9e7;
+  --medium: #a15c00;
+  --medium-soft: #fdf0dc;
+  --low: #3d6b4f;
+  --low-soft: #e5f2ea;
+  --highlight: #ffe9a8;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161b; --surface: #182029; --ink: #e4eaf0; --muted: #9aa8b5; --line: #2b3643;
+    --accent: #7fb6dd; --accent-soft: #1d3446;
+    --high: #f2a49d; --high-soft: #3b1e1c; --medium: #f0c27a; --medium-soft: #3a2b14; --low: #9ccfae; --low-soft: #1b3326;
+    --highlight: #5a4a1c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161b; --surface: #182029; --ink: #e4eaf0; --muted: #9aa8b5; --line: #2b3643;
+  --accent: #7fb6dd; --accent-soft: #1d3446;
+  --high: #f2a49d; --high-soft: #3b1e1c; --medium: #f0c27a; --medium-soft: #3a2b14; --low: #9ccfae; --low-soft: #1b3326;
+  --highlight: #5a4a1c; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--font-body); }
+.page { max-width: 1040px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 72px; display: grid; gap: 48px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 650; text-wrap: balance; margin: 0; line-height: 1.2; }
+h1 { font-size: clamp(2rem, 4vw, 2.8rem); }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.15rem; }
+p { margin: 0; }
+.lede { color: var(--muted); max-width: 66ch; font-size: 1.06rem; }
+.eyebrow { font: 600 0.78rem/1 var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+header { display: grid; gap: 14px; }
+.facts { display: flex; flex-wrap: wrap; gap: 10px 22px; color: var(--muted); font-size: 0.95rem; }
+.facts b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.mark { background: var(--highlight); padding: 0 3px; border-radius: 3px; }
+section { display: grid; gap: 20px; }
+.section-head { display: grid; gap: 6px; }
+.section-head p { color: var(--muted); max-width: 70ch; }
+
+/* Priorities */
+.priorities { display: grid; gap: 18px; counter-reset: p; }
+.priority { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.priority.noimg { grid-template-columns: minmax(0, 1fr); }
+.priority .body { display: grid; gap: 10px; align-content: start; min-width: 0; }
+.priority .rank { font: 650 0.95rem var(--font-display); color: var(--accent); }
+.priority img { width: 100%; max-width: 100%; border-radius: 8px; border: 1px solid var(--line); display: block; }
+.priority figure { margin: 0; display: grid; gap: 6px; align-content: start; }
+.priority figcaption { font-size: 0.82rem; color: var(--muted); }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.pill { display: inline-flex; align-items: center; gap: 4px; padding: 2px 9px; border-radius: 999px; font-size: 0.8rem; font-weight: 600; white-space: nowrap; }
+.sev-high { background: var(--high-soft); color: var(--high); }
+.sev-medium { background: var(--medium-soft); color: var(--medium); }
+.sev-low { background: var(--low-soft); color: var(--low); }
+.tag { background: var(--accent-soft); color: var(--accent); }
+.plain { border: 1px solid var(--line); color: var(--muted); }
+.id { font: 500 0.8rem var(--font-mono); color: var(--muted); }
+.fix { border-left: 3px solid var(--accent); padding-left: 12px; color: var(--ink); }
+.fix b { color: var(--accent); font-weight: 600; }
+@media (max-width: 720px) { .priority { grid-template-columns: minmax(0, 1fr); } .priority figure { max-width: 320px; } }
+
+/* Quick wins */
+.wins { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px; }
+.win { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 4px; }
+.win .id { font-size: 0.75rem; }
+
+/* All findings */
+.toolbar { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); }
+.group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.group span { font-size: 0.82rem; color: var(--muted); margin-right: 2px; }
+.chip { font: 600 0.85rem var(--font-body); padding: 5px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.chip:focus-visible, .copy:focus-visible, .pick:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.selected { margin-left: auto; display: flex; gap: 10px; align-items: center; font-size: 0.9rem; color: var(--muted); }
+.copy { font: 600 0.9rem var(--font-body); padding: 7px 14px; border-radius: 8px; border: 0; background: var(--accent); color: var(--surface); cursor: pointer; }
+.copy:disabled { opacity: 0.45; cursor: default; }
+.list { display: grid; gap: 10px; }
+.area-title { margin-top: 18px; display: flex; gap: 10px; align-items: baseline; }
+.area-title .count { color: var(--muted); font: 500 0.9rem var(--font-body); }
+.item { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+.item.on { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.pick { width: 20px; height: 20px; margin-top: 3px; accent-color: var(--accent); cursor: pointer; }
+.item .body { display: grid; gap: 6px; min-width: 0; }
+.item .where { font-weight: 600; }
+.item .problem { color: var(--ink); }
+.item .fixline { color: var(--muted); }
+.item .fixline b { color: var(--ink); font-weight: 600; }
+.empty { color: var(--muted); padding: 20px 0; }
+.good { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px 24px; padding: 0; margin: 0; list-style: none; }
+.good li { padding-left: 18px; position: relative; color: var(--ink); }
+.good li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 8px; height: 8px; border-radius: 50%; background: var(--low); }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(20px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 0.92rem; }
+.fallback { width: 100%; font: 0.85rem var(--font-mono); padding: 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+footer { color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--line); padding-top: 18px; }
+@media (prefers-reduced-motion: no-preference) { .item { transition: border-color 120ms ease; } }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <header>
+    <div class="eyebrow">Tayra Languages · UI audit · 19 October 2026</div>
+    <h1>Tayra UI Audit</h1>
+    <p class="lede">A review of every screen of the app, after the design system and motion work: what a learner would notice, and what would most improve their next session. Each finding names a fix and the effort it takes; tick the ones to do and copy the list back.</p>
+    <div class="facts" id="facts"></div>
+  </header>
+
+  <section>
+    <div class="section-head">
+      <h2>Fix first</h2>
+      <p>The ten problems with the largest cost to learners, in the order I would take them. Two are regressions from this week's work.</p>
+    </div>
+    <div class="priorities" id="priorities"></div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Quick wins</h2>
+      <p>High or medium problems that take under an hour each.</p>
+    </div>
+    <div class="wins" id="wins"></div>
+  </section>
+
+  <section id="all">
+    <div class="section-head">
+      <h2>Every finding</h2>
+      <p>Grouped by part of the app. Problems seen by more than one reviewer are merged into the app-wide group. Your ticks are kept in this browser.</p>
+    </div>
+    <div class="toolbar">
+      <div class="group" id="f-sev"><span>Severity</span></div>
+      <div class="group" id="f-effort"><span>Effort</span></div>
+      <div class="selected"><span id="sel-count">None selected</span><button class="copy" id="copy" disabled>Copy selected</button></div>
+    </div>
+    <div id="copy-fallback" hidden><textarea class="fallback" id="copy-text" rows="2" readonly aria-label="Selected findings"></textarea></div>
+    <div class="list" id="list"></div>
+  </section>
+
+  <section>
+    <div class="section-head"><h2>Keep as it is</h2><p>What the reviewers found working well.</p></div>
+    <ul class="good" id="good"></ul>
+  </section>
+
+  <footer>
+    Method: 154 screenshots. 100 rendered by the app's UI tests on desktop and a 400dp phone; 46 of the real app on an Android emulator, in the Default and Night themes; 8 with the system font at 130%. Four reviewers took one part of the app each, then the main claims were checked against the screenshots and the code. The light and dark emulator captures of Flashcards missed their screen; the flashcard review was checked by hand in Night and with large text.
+  </footer>
+</div>
+
+<div class="toast" id="toast" hidden role="status"></div>
+
+<script>
+const AREAS = {
+  X: "Across the app",
+  READ: "Reading",
+  LIB: "Library, courses and news",
+  PRAC: "Practice and vocabulary",
+  APP: "Home, statistics and settings",
+};
+// id, area, screen, severity, effort, problem, fix
+const F = [
+  ["X-1","X","Phone lists: Books, Vocabulary","high","S","Cards in the phone Books and Vocabulary lists nearly touch, so the list reads as one long box. This is a regression from this week's list motion: each item was wrapped in a Box, which stacks the card and its spacer on top of each other.","Wrap those items in a Column (or give the card bottom padding) so the spacer adds its gap again; check the other lists wrapped the same way."],
+  ["X-2","X","Night theme: primary buttons, switches, chips","high","S","Labels on primary buttons, switch thumbs and the selected segment are dark purple on light blue; selected filter chips are lavender in both themes. The theme sets only the primary colour, so Material's default purple fills the other roles.","Set onPrimary, primaryContainer, secondaryContainer, tertiary and their on-colours in the Default and Night schemes (AppTheme.kt), as the editor palettes already do."],
+  ["X-3","X","Android, dark themes: status bar","high","S","The clock, signal and battery icons are dark grey on the near-black bar and almost invisible. The bar follows the system's light or dark setting, not the theme chosen in Tayra.","Set the status and navigation bar icon style from the app's theme in MainActivity whenever the theme changes."],
+  ["X-4","X","Status names: reader, word pane, vocabulary, statistics","high","S–M","The same statuses have several names. Blue words are \"New\" in the reader legend, \"Unknown\" in the vocabulary tooltip and \"U\" on the buttons, while statistics and filters call statuses 1–2 \"New\" and 3–4 \"Learning\", and the Learning card counts 1–4.","Choose one set (for example Not saved · Learning 1–4 · Known · Ignored) and use it in the reader legend, the word pane, filters, the stat cards and Statistics."],
+  ["X-5","X","Large system text (130%)","high","M","Labels are cut throughout: the Flashcards tab reads \"Flashcard\", the review counter \"0 to\", the actions \"Previo… / Suspe…\", Home's \"Words added to…\", the Books continue title \"N…\", the language buttons \"Portu…\". On Courses, the empty-state picture pushes the button under the bottom bar.","Let tile labels and counter pills wrap; show the flashcard actions as icons with tooltips when narrow; shorten the tab label; scale empty-state pictures down at large font sizes."],
+  ["X-6","X","Dark themes: reading highlights","medium","S","The blue highlight of words not yet saved, and its legend dot, barely stand out from the page in Night, Darcula and Gruvbox, and the four learning levels are close browns.","Raise the lightness of the dark \"unknown\" tint and spread the learning ramp further (darkStatuses in AppTheme.kt); check each against the reading background."],
+  ["X-7","X","Reader controls: \"AP\" and the pager","medium","S","The round \"AP\" button (auto-pause) is a cryptic abbreviation that looks like an avatar, and a \"1 of 1\" pager with two disabled arrows shows on every single-page story and lesson.","Use a pause-after-sentence icon with a tooltip, or move it into a long-press menu on Play; hide the pager when there is one page."],
+  ["X-8","X","Small icon buttons on phones","medium","S","Outlined and round icon buttons were allowed to drop below Material's 48dp touch size this week to keep their outlines; the small ones are now 32dp to tap, under the phone guideline.","Keep their drawn size but give the tap area 48dp (a minimum interactive size around the drawn button)."],
+  ["X-9","X","Night: \"NEW\" label on flashcards","medium","S","The blue \"NEW\" state label on a flashcard is low-contrast blue on dark blue.","Use the theme's on-container colour for the label text, or a lighter blue in dark themes."],
+  ["X-10","X","Phone page headers","low","S","About 40dp separate the large title from its subtitle, more than separates the subtitle from the content, so the subtitle seems to belong to what follows. Some subtitles are generic, and Books has none on phone.","Tighten the title–subtitle gap on compact screens and use subtitles consistently, or drop them on top-level phone pages."],
+  ["X-11","X","Status placement on settings pages","low","S","Each settings page shows its state somewhere different: a centred pill (Dictionaries, Translation), a full-width banner (Speech), a pill in the top bar (Backups).","Use one pattern: a left-aligned status line under the subtitle, or inside the first card."],
+  ["X-12","X","Plurals","low","S","\"The last 12 weeks: 1 words\" and \"1 voices downloaded\".","Use trPlural for these strings and grep for others built as \"{0} …s\"."],
+
+  ["READ-3","READ","Reader (phone): above the first sentence","high","S–M","The text starts about 37% of the way down the screen: the title appears in the bar and again as a two-line heading, then the pager row and the vocabulary bar.","Hide the pager for one page; on phones keep the title in the bar only, or collapse the heading as the reader scrolls."],
+  ["READ-4","READ","Reader: sentence play buttons","medium","S–M","A speaker button before every sentence puts four to six of them in a paragraph and lands after an opening quote mark, splitting it from its sentence.","Attach a leading quote or bracket to the sentence that follows; consider showing the buttons on hover or for the playing sentence only."],
+  ["READ-5","READ","Reader: status highlights","medium","S","Highlights fill the whole line height with square corners, so highlighted words on neighbouring lines join into blocks and word edges are hard to see.","Inset the highlight a few dp top and bottom, round its corners slightly and leave a small gap between words."],
+  ["READ-7","READ","Word pane: status row U 1 2 3 4 K I","medium","S–M","Single letters with no visible names, near-identical yellows for 1–4 (browns in dark), and a thin ring as the only sign of the chosen status.","Show the chosen status's name under the row, add tooltips, and mark the chosen button more strongly (a check, or filled against muted)."],
+  ["READ-8","READ","Reader: \"Mark remaining words as known\"","medium","M","A bulk change with no undo, sitting beside the primary button; on pages before the last it also turns the page, which the label does not say.","Offer Undo in the snackbar, and either say it continues (\"Mark rest known and continue\") or stay on the page."],
+  ["READ-9","READ","Bookmarks pane","medium","S","\"Page 1 is bookmarked\" shows while the main button still offers \"Add bookmark to page 1\".","When the page is bookmarked, make the button remove it and drop the banner."],
+  ["READ-10","READ","Reader settings pane: tools footer","medium","M","The pinned Reader tools footer takes about a quarter of the phone pane, so every tab scrolls and \"Translations\" is cut off; it also shows on the Bookmarks view with an out-of-place Reset.","Move the tools into the scrolling content or make them one row of chips; show Reset only at the end of the settings tabs."],
+  ["READ-11","READ","Reader settings pane: labels","low","S","On phones the subtitle cuts \"Saved automatically\", the reassuring part; tool subtitles truncate (\"Terms on this p…\").","Put \"Saved automatically\" first or on its own line; let the subtitles wrap or drop them."],
+  ["READ-13","READ","Reader: the chosen word","low","S","Selection is shown only by orange-red text, which reads like an error and is weak on a yellow highlight.","Add a non-colour cue such as an underline or a ring around the chosen word."],
+  ["READ-14","READ","Word pane: section order","low","S","The \"dictionary not downloaded\" card, with a filled Download button, is the strongest thing in the pane, above anything that saves the word.","Make it a one-line notice with a quiet button, or move it below the lookups."],
+  ["READ-15","READ","Reader footer layout","low","S","At the same width the footer is one row in one state and three full-width stacked buttons in another; \"Back to library\" jumps from left to bottom.","Cap the width of stacked buttons and keep Back in one place."],
+  ["READ-16","READ","Practice mode: hidden sentence","low","S","The hidden sentence is a blur that looks like a rendering fault, with nothing saying it can be revealed.","Overlay a small \"Tap to reveal\" chip on it."],
+  ["READ-17","READ","Term editor","low","S","The Examples card alone has a tinted background, and the dictionary \"+\" buttons have no label or tooltip.","Use one card surface for every section; give \"+\" a tooltip such as \"Use as translation\"."],
+  ["READ-18","READ","Chinese script prompt","low","S","The text reads awkwardly, and \"Traditional\" looks disabled beside the filled \"Simplified\".","Reword it and draw both choices as equal cards, highlighting the chosen one."],
+
+  ["LIB-1","LIB","News and Wikis (phone)","high","M","On News the first screen is only filters, about 25 chips in eight rows, with no article visible; on Wikis the first article starts two-thirds down.","Keep search and one row of the main filters; move source, topic and length into a Filters button with a sheet, as Books does on phone."],
+  ["LIB-4","LIB","Lesson reader (desktop): breadcrumb","medium","S","A long course name wraps to three lines in a narrow column, making the toolbar three lines tall.","Give the course name one line with an ellipsis and let it shrink before the lesson title."],
+  ["LIB-5","LIB","Books (phone): first screen","medium","M","The continue card, tabs, search, sort and filters fill the screen, and the only book in view is the one already in the continue card.","Leave the continued book out of the list while its card shows; drop the \"N books\" subtitle; combine the toolbar rows."],
+  ["LIB-6","LIB","Books (phone): status tabs","medium","S","\"Not started\" is clipped and \"Finished\" is off screen, with no sign that the row scrolls.","Shorter tabs on phone (counts only when they fit), or fade the edge to show more."],
+  ["LIB-7","LIB","Courses empty state (phone)","medium","S","The heading says \"Create your first course\" while the primary button downloads courses; the picture pushes both buttons down and is the brightest thing on the dark screen.","Head it \"Get started with courses\", shrink the picture on phones and dim it in dark themes."],
+  ["LIB-8","LIB","Course downloads: desktop and phone","medium","S","Desktop titles it \"Courses\", like the main tab; phone says \"Course downloads\". The buttons differ, a stat tile has no caption, and a single card stretches 1300dp wide.","One title (\"Course downloads\") and button label; caption the levels tile; cap the card width."],
+  ["LIB-9","LIB","Course page: Delete","medium","S","A red Delete button of the same weight as \"Edit course\" sits right under \"Start course\", even on a ready-made course.","Move Delete into a ⋮ menu by the title, with a confirmation."],
+  ["LIB-10","LIB","Course page: lesson rows","low","S","Every row repeats a \"tayra\" source tag and a grey \"Not started\" pill, and the blue \"New words\" lines look like links.","Show status only when in progress or done; hide the source when it matches the course; draw \"New words\" in the secondary text colour."],
+  ["LIB-11","LIB","Course and lesson forms","medium","S–M","Unlike the book form they have no back arrow, their field labels are styled differently, and they stretch one card across the full width.","Pass onBack, use the book form's label style, and cap the form width or use two columns."],
+  ["LIB-12","LIB","New lesson: where the text comes from","medium","M","A lesson can only be typed or pasted, while the book form beside it offers a file or a web page.","Reuse the book form's Paste / File / Web page choice in the lesson form."],
+  ["LIB-13","LIB","Create book: web page errors","medium","S","A fetch error shows as a banner at the top of the page, far from the address field, and the file formats line stays beside the toggle on the Web page tab.","Show the error under the address field with a next step (\"Paste the text instead\"); show the formats only on Import file."],
+  ["LIB-14","LIB","Books (desktop): list table","low","S","The status pill floats in an unlabelled gap; the active sort is shown by colour alone; \"6 books\" repeats the \"All 6\" tab.","Put the pill under the word count or label its column; add a sort arrow; drop the repeated count."],
+  ["LIB-15","LIB","Books: continue card","low","S","\"Page 3 of 5 · 60% read\" repeats the progress bar beside it.","Make the subtitle \"Page 3 of 5 · 1,223 words\", as the phone card does."],
+  ["LIB-16","LIB","Books (desktop): selecting","low","S","With some books selected the header checkbox stays empty, and selected rows are tinted so faintly that hover looks the same.","Use the three-state checkbox and a stronger selected tint."],
+  ["LIB-18","LIB","Wikis (phone): filters and cards","low","S","\"Hide read\" sits among the length choices as if it were a length; each card has a full-width filled button.","Separate the Hide read toggle; make the whole card open the article with a quiet Read link."],
+  ["LIB-21","LIB","Dictionary import dialog","low","S","Stock Material styling unlike the app's dialogs, loose revision and licence lines, and no size before Import.","Use the app's dialog and fields; one line for revision and licence; show the size on the button."],
+
+  ["PRAC-1","PRAC","Vocabulary (phone): hidden filter","high","S","The list opens filtered to statuses 1–4 with only a \"1\" badge to say so. The header says \"14,553 terms · 14,552 known\" above one row, so it looks as if the vocabulary is gone.","Show the active filter as chips or a line (\"Showing words you're learning · Show all\") and count what the list shows."],
+  ["PRAC-2","PRAC","Flashcard review: actions","medium","S","Delete is a red action of the same weight as Edit, one tap away during review.","Move Suspend and Delete into an overflow menu; keep Previous and Edit."],
+  ["PRAC-3","PRAC","Word frequency: legend and words","medium","M","The legend's dots do not match how the words are drawn: known words are plain, ignored ones struck through, new ones link-blue.","Draw each word with its status tint, as the band bar does, and avoid link blue."],
+  ["PRAC-4","PRAC","Word frequency (phone): band button","medium","S","With the level at 1,500, the first band shows \"Level 0\", a cryptic button that resets the level; every band repeats such a button.","Hide it where it would reset the level, label it \"Known up to here\", and consider a band menu instead."],
+  ["PRAC-5","PRAC","Word frequency: level line","medium","S","\"No vocabulary level set yet\" sits above a band marked \"Your level\", and \"use a band's button\" is jargon.","Show \"Estimated\" until a level is set and reword the line with the link inline."],
+  ["PRAC-6","PRAC","Word frequency: order","medium","S","The subtitle says \"from the most used down\", but words in a band are alphabetical and phones never show a rank; the phone copy says \"Click\".","Say \"in bands of 100, A–Z within a band\", use \"Tap\" on touch, and show the rank in the word sheet."],
+  ["PRAC-8","PRAC","Vocabulary filters: Reset all and Clear all","medium","S","Two near-identical actions with different effects sit apart, and the phone sheet has a third, \"Reset\".","Name them by what they do: \"Show learning words\" and \"Show all words\"."],
+  ["PRAC-9","PRAC","Vocabulary filters: Added","medium","M","\"From Any To 30 days ago\" uses tiny spinners on desktop and menus on phone, and its chip \"Added: up to 30 days ago\" is ambiguous.","Preset chips (Any, Today, Last 7 days, Last 30 days, Older) on both, with a chip reading \"Added in the last 30 days\"."],
+  ["PRAC-10","PRAC","Vocabulary filters: status choices","low","S","Desktop uses round markers that look like single-choice radio buttons; phone uses checkboxes in a different order.","Use checkboxes and one order on both."],
+  ["PRAC-11","PRAC","Word frequency: kind chips","medium","S","On and off differ by a faint tint with no tick, so it is unclear which kinds are hidden.","Add a tick when on and make off clearly muted."],
+  ["PRAC-12","PRAC","Word frequency: jumping to a rank","medium","M","The desktop rail has 11px labels on small rows; phones have no way to jump, so rank 5,000 is 50 bands of scrolling.","Larger rail targets; on phones a \"Jump to rank\" field or band menu by the search."],
+  ["PRAC-13","PRAC","Vocabulary level prompt (phone)","medium","M","The phone sheet drops \"Words around this level\" and the reassurance that the level can change later, and cuts the example mid-word.","Bring back the word chips and the reassurance, show more preview lines, put the close button in the title row."],
+  ["PRAC-14","PRAC","Level preview","medium","M","Known and new words differ only by green or blue text of similar lightness, unlike the reader's highlights.","Draw the preview with the reader's own highlight style."],
+  ["PRAC-15","PRAC","Settings › Vocabulary (phone)","medium","S","No current level or \"Not set\" state, no warning that saving marks the top words known, and the secondary row comes before the main button.","Add a status line and a one-line consequence; move the explore row below the button."],
+  ["PRAC-16","PRAC","Settings › Vocabulary (desktop)","low","S","\"Not set\" sits beside a slider showing 500 with a preview; the button is small and far from the slider; the helper repeats the subtitle.","Label the value \"Suggested\" until saved, put a large button under the slider, cut the helper to a sentence."],
+  ["PRAC-17","PRAC","Level slider labels","low","S","Tick labels are uneven and crowded (\"7k 8k\", \"1k 1.5k 2k\") and differ between the prompt and settings.","Label only 0, 1k, 5k and 10k, as the phone does, and mark the current value."],
+  ["PRAC-18","PRAC","Practice result","medium","S–M","Missed words are plain text with no way to practise them again; result buttons are smaller than the in-question ones.","When words were missed, make \"Practise missed words\" the main action; use large buttons; drop the repeated line."],
+  ["PRAC-19","PRAC","Practice question: translation box","low","S","An unlabelled grey box appears before answering on typed questions but only after on choice questions.","Caption it \"Translation\", or make it a Show hint toggle on typed questions."],
+  ["PRAC-20","PRAC","Practice progress bar","low","S","The bar counts the current question as done: question 1 of 9 is already a ninth full.","Fill it to the answered count."],
+  ["PRAC-21","PRAC","Practice kinds dialog","low","S","The word count is repeated three ways, \"Practise\" and \"Practice\" are mixed, and the bar-chart icon means four different things.","Show \"~2 min\" only, one spelling, a practice icon of its own."],
+  ["PRAC-22","PRAC","Flashcard settings (desktop): retention","medium","S","The retention slider is squeezed to about 60px between steppers, with its value in a separate chip.","Use the phone layout: label and value above a full-width slider."],
+  ["PRAC-23","PRAC","Flashcard settings (desktop): explanation","low","S","A dense always-open paragraph with jargon (\"timed with FSRS\"), while the phone collapses it.","Use the same collapsible on desktop, with a small table of status and interval."],
+  ["PRAC-24","PRAC","Vocabulary: single-page pager","low","S","\"50 per page\" and a pager show even for one result (\"1–1 of 1\").","Hide them when everything fits on one page."],
+
+  ["APP-3","APP","Home and Statistics: streaks","high","M","At the same moment Home says \"Day streak 1 day\" and Statistics \"Reading streak 0 days\"; the two heatmaps look identical but measure different things, and the tiles name the same count differently.","One streak definition shown on both, or exact labels for each (\"Study streak\", \"Reading streak\"); one tile name for words saved."],
+  ["APP-4","APP","Settings (desktop)","high","M","The Settings page lists only Appearance, Reading, Behaviour, updates and the command line; Translation, Speech, Dictionaries, Languages, Backups, Shortcuts, Clear data and About are reachable only from the top bar's menu. Sub-pages show two Backs.","Add a card linking every settings page with its current value; keep one Back on sub-pages."],
+  ["APP-5","APP","More sheet (phone): Preferences","medium","S","\"Courses\", \"Books\" and \"Flashcards\" repeat the tab names but open course packs, book packs and flashcard settings; Find books and Dictionaries share an icon; Backups is below the fold.","Rename them \"Course packs\", \"Book packs\", \"Flashcard settings\", \"Vocabulary settings\"; give Dictionaries its own icon."],
+  ["APP-7","APP","Home (phone): card order","medium","M","An empty \"No course in progress\" card leads; the due flashcards are below the fold; a finished book still offers a filled \"Continue book\".","Order cards by what needs doing (due cards, then in progress, then empty); for a finished book offer the next one."],
+  ["APP-8","APP","Home (phone): new learner","low","S","Three equal outlined buttons and no main next step; \"Review flashcards\" is offered under \"All caught up\".","Make \"Browse courses\" the main action for a new learner; soften the review button when nothing is due."],
+  ["APP-9","APP","Statistics: charts","medium","M","Empty days are full-height grey bars, so empty charts read as noise; the line chart has no dates; with no reading the screen is all grey.","Drop the full-height tracks; when everything is zero show one empty state with a way to start; right-align table numbers; date the line chart."],
+  ["APP-11","APP","Translation, Speech, Dictionaries: mixed signals","medium","M","An amber \"packages needed\" pill sits above a green \"Installed and working\" box; Speech warns of no voice beside \"Installed and working · 0 voices\"; Dictionaries says one thing three times.","One status per screen, placed once; the engine box turns amber when the pair cannot work yet."],
+  ["APP-13","APP","Translation (phone): language pair","medium","S","The learning language looks like a disabled dropdown with no reason given; the native language can be changed in three places.","Show the learning language as text with a \"Change in Languages\" note; make Languages the one place to change the native language."],
+  ["APP-14","APP","Settings (phone): reading preview","medium","S","The preview sits below the font size and line height sliders, so their effect is out of sight while dragging.","Put the preview above the reading controls."],
+  ["APP-15","APP","Settings and Speech (desktop): numeric rows","low","S","Each value has a value box, minus, a slider and plus, twelve controls for three settings; the sample-size stepper has a third style.","Slider with a value label, as on phone, or a stepper alone, in one style."],
+  ["APP-16","APP","Theme picker","medium","M","A flat list of 30+ themes running off the screen, with no light and dark grouping and tiny swatches.","Group the themes into Light and Dark, with a swatch grid on desktop."],
+  ["APP-17","APP","Language setup dialog","medium","M","A failure shows \"Download failed: HTTP 503\" with no Retry; queued items look like unticked boxes; the footer miscounts selections; some voice details stay in English; two engines are offered with no recommendation.","Plain error text with Retry; a Queued label and a progress bar; correct count; translate the details; preselect one engine."],
+  ["APP-18","APP","Dictionaries (phone): import card","low","S","Its icon is centred against a five-line paragraph of file-format jargon, unlike every other card header.","Use the standard header and one line (\"Yomitan, MDict or StarDict files\"), details behind a link."],
+  ["APP-19","APP","Package lists (desktop)","low","S–M","Every row of an \"Installed\" list repeats \"Installed\"; the two Dictionaries columns are scoped differently; two Portuguese → English entries give no hint how they differ.","Drop the repeated status; scope both lists to the current pair; add a one-line source note."],
+  ["APP-21","APP","Speech (phone): system voices","low","S","The Playback card holds only Play sample, the speed slider is hidden without a reason, and a banner repeats the dropdown.","Say why speed is unavailable and link to the voice downloads; drop the banner."],
+  ["APP-22","APP","Settings (desktop): command line and updates","low","S","The filled \"Install command-line tool\" is the heaviest button on Settings, for a power-user feature; the updates card stacks many items without separators; the update banner uses a colour seen nowhere else.","Make it a secondary button with a status chip; lay updates out as setting rows; use the standard banner colour."],
+  ["APP-23","APP","Keyboard shortcuts","low","M","Alternative shortcuts are separate rows, doubling the list; set keys show no sign that they can be edited.","One row per action with two key slots, and a hover state on set keys."],
+  ["APP-24","APP","Heatmaps","low","S–M","No month or weekday labels, a weak step between empty and the first green in dark, and no way to read a day's value.","Month and weekday labels, a stronger first step, and a tooltip or tap for each day."],
+];
+const PRIORITIES = [
+  ["X-1", "cards-touching.jpg", "Books on a phone: the cards' borders nearly meet."],
+  ["X-2", "night-purple.jpg", "Night theme: purple label on the primary button."],
+  ["X-4", null, null],
+  ["READ-3", "reader-phone.jpg", "Reader on a phone: the story starts a third of the way down."],
+  ["LIB-1", "news-phone.jpg", "News on a phone: the first screen is all filters."],
+  ["PRAC-1", "vocabulary-phone.jpg", "Vocabulary on a phone: 14,553 terms, one row."],
+  ["X-5", "large-text.jpg", "Flashcards at 130% text: \"0 to\", \"Previo…\", \"Flashcard\"."],
+  ["APP-4", "settings-desktop.jpg", "Desktop Settings: most settings pages are not listed."],
+  ["APP-7", "home-phone.jpg", "Home on a phone: an empty card leads; due cards are below the fold."],
+  ["APP-3", null, null],
+];
+const GOOD = [
+  "The reading text itself: a serif face, a comfortable measure and generous line height, with the word sheet keeping the sentence in view.",
+  "One card system (icon tile, title, subtitle) across Home, Statistics and every settings page, on desktop and phone.",
+  "The desktop vocabulary-level prompt: a big number, a plain level name, nearby words to calibrate and a live reading preview.",
+  "Practice feedback marks the chosen and the right answer with an icon as well as colour, plus the word's meaning.",
+  "The course page's path: a summary with Start on one side, a numbered lesson timeline with \"Start here\" on the other.",
+  "Reading progress in blue and vocabulary known in green, the same everywhere a book appears.",
+  "The language setup dialog explains each download with its size, a running total and a clear \"Set up later\".",
+  "The phone filter sheet whose main button names the result (\"Show 5 terms\").",
+];
+
+const byId = Object.fromEntries(F.map((f) => [f[0], f]));
+const SEV = { high: "High", medium: "Medium", low: "Low" };
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const pills = (f) => {
+  const m = el("div", "meta");
+  m.append(el("span", "id", f[0]), el("span", "pill sev-" + f[3], SEV[f[3]]), el("span", "pill plain", "Effort " + f[4]), el("span", "pill tag", AREAS[f[1]]));
+  return m;
+};
+
+// Facts
+const counts = { high: 0, medium: 0, low: 0 };
+F.forEach((f) => counts[f[3]]++);
+document.getElementById("facts").innerHTML =
+  `<span><b>${F.length}</b> findings</span><span><b>${counts.high}</b> high</span><span><b>${counts.medium}</b> medium</span><span><b>${counts.low}</b> low</span><span><b>154</b> screenshots: desktop, phone, <span class="mark">light and dark</span>, large text</span>`;
+
+// Priorities
+const pr = document.getElementById("priorities");
+PRIORITIES.forEach(([id, img, cap], i) => {
+  const f = byId[id];
+  const card = el("article", "priority" + (img ? "" : " noimg"));
+  const body = el("div", "body");
+  body.append(el("div", "rank", String(i + 1).padStart(2, "0") + " · " + f[2]));
+  body.append(pills(f));
+  body.append(el("p", null, f[5]));
+  const fix = el("p", "fix"); fix.innerHTML = "<b>Fix:</b> "; fix.append(document.createTextNode(f[6]));
+  body.append(fix);
+  card.append(body);
+  if (img) {
+    const fig = el("figure");
+    const im = el("img"); im.src = "img/" + img; im.alt = cap; im.loading = "lazy";
+    fig.append(im, el("figcaption", null, cap));
+    card.append(fig);
+  }
+  pr.append(card);
+});
+
+// Quick wins
+const wins = document.getElementById("wins");
+F.filter((f) => f[4] === "S" && f[3] !== "low" && !PRIORITIES.some((p) => p[0] === f[0])).forEach((f) => {
+  const w = el("div", "win");
+  w.append(pills(f), el("div", "where", f[2]));
+  wins.append(w);
+});
+
+// Filters and selection
+let picked = new Set();
+try { picked = new Set(JSON.parse(localStorage.getItem("tayra-audit-picked") || "[]")); } catch (e) {}
+const save = () => { try { localStorage.setItem("tayra-audit-picked", JSON.stringify([...picked])); } catch (e) {} };
+const state = { sev: "all", effort: "all" };
+function chips(groupId, key, options) {
+  const g = document.getElementById(groupId);
+  options.forEach(([value, label]) => {
+    const b = el("button", "chip", label); b.type = "button"; b.id = groupId + "-" + value;
+    b.setAttribute("aria-pressed", String(state[key] === value));
+    b.addEventListener("click", () => { state[key] = value; g.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c === b))); render(); });
+    g.append(b);
+  });
+}
+chips("f-sev", "sev", [["all", "All"], ["high", "High"], ["medium", "Medium"], ["low", "Low"]]);
+chips("f-effort", "effort", [["all", "Any"], ["S", "Under an hour"], ["M", "A few hours"]]);
+const effortMatch = (f) => state.effort === "all" || (state.effort === "S" ? f[4] === "S" : f[4] !== "S");
+
+function render() {
+  const list = document.getElementById("list");
+  list.replaceChildren();
+  let shown = 0;
+  Object.entries(AREAS).forEach(([area, name]) => {
+    const items = F.filter((f) => f[1] === area && (state.sev === "all" || f[3] === state.sev) && effortMatch(f));
+    if (!items.length) return;
+    const h = el("h3", "area-title", name); h.append(el("span", "count", items.length + (items.length === 1 ? " finding" : " findings")));
+    list.append(h);
+    items.forEach((f) => {
+      shown++;
+      const row = el("div", "item" + (picked.has(f[0]) ? " on" : ""));
+      const box = el("input", "pick"); box.type = "checkbox"; box.id = "pick-" + f[0]; box.checked = picked.has(f[0]);
+      box.setAttribute("aria-label", "Fix " + f[0] + ": " + f[2]);
+      box.addEventListener("change", () => { box.checked ? picked.add(f[0]) : picked.delete(f[0]); row.classList.toggle("on", box.checked); save(); updateSelection(); });
+      const body = el("div", "body");
+      body.append(pills(f), el("div", "where", f[2]), el("p", "problem", f[5]));
+      const fx = el("p", "fixline"); fx.innerHTML = "<b>Fix:</b> "; fx.append(document.createTextNode(f[6]));
+      body.append(fx);
+      row.append(box, body);
+      list.append(row);
+    });
+  });
+  if (!shown) list.append(el("p", "empty", "No finding matches these filters."));
+}
+function selectedText() { return "Fix these Tayra UI audit findings: " + F.filter((f) => picked.has(f[0])).map((f) => f[0]).join(", "); }
+function updateSelection() {
+  const n = picked.size;
+  document.getElementById("sel-count").textContent = n ? n + " selected" : "None selected";
+  document.getElementById("copy").disabled = n === 0;
+}
+function toast(msg) { const t = document.getElementById("toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => (t.hidden = true), 2200); }
+document.getElementById("copy").addEventListener("click", () => {
+  const text = selectedText();
+  const fallback = () => { const box = document.getElementById("copy-fallback"); const ta = document.getElementById("copy-text"); ta.value = text; box.hidden = false; ta.focus(); ta.select(); toast("Select the text and copy it"); };
+  try { navigator.clipboard.writeText(text).then(() => toast("Copied " + picked.size + " findings"), fallback); } catch (e) { fallback(); }
+});
+render();
+updateSelection();
+
+// Keep
+const good = document.getElementById("good");
+GOOD.forEach((g) => good.append(el("li", null, g)));
+</script>
+</body>
+</html>
