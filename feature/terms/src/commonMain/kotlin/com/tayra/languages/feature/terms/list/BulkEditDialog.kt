@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -20,6 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.BulkTermUpdate
+import com.tayra.languages.core.ui.components.AppCheckbox
 import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.Dropdown
@@ -68,7 +68,7 @@ fun BulkEditDialog(count: Int, onApply: (BulkTermUpdate) -> Unit, onDismiss: () 
 @Composable
 private fun CheckRow(label: String, checked: Boolean, onChange: (Boolean) -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically) {
-        Checkbox(checked = checked, onCheckedChange = onChange)
+        AppCheckbox(checked = checked, onCheckedChange = onChange)
         Text(label)
     }
 }

@@ -19,27 +19,17 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.Checkbox
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FilledIconButton
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -55,26 +45,36 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.audio.SpeakButton
+import com.tayra.languages.core.ui.components.AppBottomSheet
+import com.tayra.languages.core.ui.components.AppCheckbox
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppSnackbar
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.EmptyState
+import com.tayra.languages.core.ui.components.IconButtonSize
+import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
@@ -117,7 +117,7 @@ internal fun PhoneTermsScreen(
             )
         },
         snackbarHost = {
-            state.message?.let { Snackbar(action = { QuietButton(tr("OK"), onClick = viewModel::dismissMessage) }) { Text(it) } }
+            state.message?.let { AppSnackbar(it, actionLabel = tr("OK"), onAction = viewModel::dismissMessage) }
         },
     ) { padding ->
         ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = 16.dp, vertical = 12.dp)) {
@@ -130,12 +130,10 @@ internal fun PhoneTermsScreen(
                         style = MaterialTheme.typography.bodyLarge,
                         color = colors.onSurfaceVariant,
                     )
-                    FilledIconButton(onClick = onNew, modifier = Modifier.size(48.dp).testTag("phone-add-term")) {
-                        Icon(Icons.Default.Add, contentDescription = tr("Add term"))
-                    }
+                    AppIconButton(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term"), size = IconButtonSize.Large, style = IconButtonStyle.Filled)
                 }
             }
-            item { SearchBox(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, Modifier.fillMaxWidth().padding(bottom = 10.dp)) }
+            item { SearchField(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), Modifier.fillMaxWidth().padding(bottom = 10.dp)) }
             item {
                 Row(Modifier.fillMaxWidth().padding(bottom = 12.dp), horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
                     val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: tr("Custom order")
@@ -167,7 +165,7 @@ internal fun PhoneTermsScreen(
             if (state.loading) {
                 item { Text(tr("Loading..."), Modifier.padding(16.dp), color = colors.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
-                item { EmptyState() }
+                item { EmptyState(AppIcons.Book, tr("No terms match the current filters.")) }
             } else {
                 itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term ->
                     PhoneTermRow(term, state.languageName(term.languageId), selected = term.id in state.selected, showCheck = showChecks, rowActions)
@@ -193,18 +191,14 @@ internal fun PhoneTermsScreen(
 
 @Composable
 private fun PhoneListMenu(state: TermsListUiState, actions: ListActions, selecting: Boolean, onSelecting: (Boolean) -> Unit, onExport: () -> Unit, onSend: (() -> Unit)? = null) {
-    var open by remember { mutableStateOf(false) }
     val selected = state.selected.size
-    Box {
-        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("List actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
-        AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text(if (selecting) tr("Done selecting") else tr("Select terms")) }, onClick = { open = false; onSelecting(!selecting) })
-            AppMenuItem(text = { Text(if (selected > 0) tr("Bulk edit {0} selected", selected) else tr("Bulk edit selected")) }, enabled = selected > 0, onClick = { open = false; actions.onBulk() })
-            AppMenuItem(text = { Text(if (selected > 0) tr("Delete {0} selected", selected) else tr("Delete selected")) }, enabled = selected > 0, onClick = { open = false; actions.onDelete() })
-            AppMenuItem(text = { Text(if (selected > 0) tr("Practise {0} selected", selected) else tr("Practise selected")) }, enabled = selected > 0, onClick = { open = false; actions.onPractice() })
-            AppMenuItem(text = { Text(if (state.exporting == null) tr("Export to Anki") else tr("Exporting {0}", state.exporting)) }, enabled = state.exporting == null, onClick = { open = false; onExport() })
-            if (onSend != null) AppMenuItem(text = { Text(tr("Send to Anki")) }, enabled = state.exporting == null, onClick = { open = false; onSend() })
-        }
+    OverflowMenu(tr("List actions")) { close ->
+        AppMenuItem(text = { Text(if (selecting) tr("Done selecting") else tr("Select terms")) }, onClick = { close(); onSelecting(!selecting) })
+        AppMenuItem(text = { Text(if (selected > 0) tr("Bulk edit {0} selected", selected) else tr("Bulk edit selected")) }, enabled = selected > 0, onClick = { close(); actions.onBulk() })
+        AppMenuItem(text = { Text(if (selected > 0) tr("Delete {0} selected", selected) else tr("Delete selected")) }, enabled = selected > 0, onClick = { close(); actions.onDelete() })
+        AppMenuItem(text = { Text(if (selected > 0) tr("Practise {0} selected", selected) else tr("Practise selected")) }, enabled = selected > 0, onClick = { close(); actions.onPractice() })
+        AppMenuItem(text = { Text(if (state.exporting == null) tr("Export to Anki") else tr("Exporting {0}", state.exporting)) }, enabled = state.exporting == null, onClick = { close(); onExport() })
+        if (onSend != null) AppMenuItem(text = { Text(tr("Send to Anki")) }, enabled = state.exporting == null, onClick = { close(); onSend() })
     }
 }
 
@@ -216,12 +210,12 @@ private fun PhoneTermRow(term: Term, languageName: String, selected: Boolean, sh
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.panel)
             .background(if (selected) colors.primary.copy(alpha = 0.08f) else colors.surface)
-            .border(1.dp, if (selected) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant, AppShapes.panel)
+            .border(AppBorders.hairline(if (selected) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant), AppShapes.panel)
             .combinedClickable(onLongClick = { actions.onToggle(term) }) { if (showCheck) actions.onToggle(term) else actions.onOpen(term) }
             .padding(start = if (showCheck) 0.dp else 4.dp, end = 0.dp, top = 6.dp, bottom = 6.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        if (showCheck) Checkbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
+        if (showCheck) AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
         val code = LanguageCodes.codeFor(languageName)
         SpeakButton(term.displayText, code, actions.speaker, Modifier.size(36.dp))
         Column(Modifier.weight(1f).padding(start = 4.dp, end = 8.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -274,17 +268,16 @@ private fun addedPhrase(instant: Instant, now: Instant = Clock.System.now()): St
  * The filters as a sheet: the statuses in two columns, how long ago terms were added, and a
  * button that closes it. Every change applies to the list at once, as on the desktop.
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewModel, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), sheetMaxWidth = Dp.Unspecified, containerColor = colors.surface) {
+    AppBottomSheet(onDismissRequest = onDismiss) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp).padding(bottom = 20.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(tr("Filters"), Modifier.weight(1f), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
                 QuietButton(tr("Reset"), onClick = viewModel::resetFilters)
-                IconButton(onClick = onDismiss) { Icon(Icons.Default.Close, contentDescription = tr("Close")) }
+                AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
             }
             Text(tr("Learning status"), Modifier.padding(top = 4.dp, bottom = 10.dp), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
             Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -296,7 +289,7 @@ private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewM
                     }
                 }
             }
-            HorizontalDivider(Modifier.padding(vertical = 18.dp), color = colors.outlineVariant)
+            AppDivider(Modifier.padding(vertical = 18.dp))
             Text(tr("Added"), Modifier.padding(bottom = 10.dp), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
                 DaysPicker(tr("From"), filter.minAgeDays, tr("Added from, days ago"), Modifier.weight(1f)) { viewModel.setAddedRange(it, filter.maxAgeDays) }
@@ -351,7 +344,7 @@ private fun DaysPicker(label: String, value: Int?, description: String, modifier
     var open by remember { mutableStateOf(false) }
     Box(modifier) {
         Row(
-            Modifier.fillMaxWidth().height(56.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control)
+            Modifier.fillMaxWidth().height(56.dp).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
                 .clickable { open = true }.semantics { contentDescription = description }.padding(start = 14.dp, end = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {

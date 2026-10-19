@@ -12,8 +12,6 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.SuggestionChip
 import androidx.compose.material3.Text
@@ -35,7 +33,9 @@ import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.ui.components.AppDialog
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppProgressBar
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
@@ -107,7 +107,7 @@ internal fun WordFinderDialog(
                                 Text(tr("The word finder does not know \"{0}\".", searched), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                             }
                             lookup.entries.forEachIndexed { index, entry ->
-                                if (index > 0) HorizontalDivider(color = colors.outlineVariant)
+                                if (index > 0) AppDivider()
                                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                                     Text(entry.word, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
                                     Text(entry.pos, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
@@ -127,9 +127,7 @@ internal fun WordFinderDialog(
                     }
                     is PackState.Downloading -> {
                         Text(tr("Downloading the word finder..."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                        val progress = state.progress
-                        if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth())
-                        else LinearProgressIndicator(Modifier.fillMaxWidth())
+                        AppProgressBar(state.progress)
                     }
                     else -> {
                         Text(

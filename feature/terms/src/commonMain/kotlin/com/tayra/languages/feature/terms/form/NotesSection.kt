@@ -16,6 +16,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.morphology.JapaneseNote
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import kotlin.math.abs
 import kotlin.math.roundToLong
@@ -26,7 +27,7 @@ internal fun NotesSection(notes: List<JapaneseNote>) {
     val colors = MaterialTheme.colorScheme
     Column(
         Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.secondaryContainer.copy(alpha = 0.35f))
-            .border(1.dp, colors.outlineVariant, AppShapes.card).padding(horizontal = 14.dp, vertical = 10.dp).testTag("japanese-notes"),
+            .border(AppBorders.hairline(), AppShapes.card).padding(horizontal = 14.dp, vertical = 10.dp).testTag("japanese-notes"),
         verticalArrangement = Arrangement.spacedBy(6.dp),
     ) {
         notes.forEach { note ->

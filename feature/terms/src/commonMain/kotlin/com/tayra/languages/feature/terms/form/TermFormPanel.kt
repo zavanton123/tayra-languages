@@ -29,10 +29,7 @@ import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.PlainTooltip
 import androidx.compose.material3.TooltipBox
 import androidx.compose.material3.rememberTooltipState
@@ -59,7 +56,6 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.semantics.contentDescription
-import androidx.compose.material3.CircularProgressIndicator
 import com.tayra.languages.feature.terms.examples.PrepareSpeech
 import com.tayra.languages.feature.terms.examples.rememberExampleAudio
 import com.tayra.languages.feature.terms.examples.withStatuses
@@ -108,9 +104,14 @@ import com.tayra.languages.core.domain.language.OnlineDictionaries
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppProgressBar
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTextField
+import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -122,7 +123,10 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.ui.components.HoverTranslatedText
+import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.cardSurface
 import org.koin.compose.koinInject
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.audio.SpeakButton
@@ -130,6 +134,7 @@ import com.tayra.languages.core.ui.audio.AudioPlayback
 import com.tayra.languages.core.ui.audio.RecordingButton
 import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.domain.service.WordRecording
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.TayraTheme
 import io.ktor.http.encodeURLParameter
@@ -477,7 +482,7 @@ private fun StatusCard(modifier: Modifier, state: TermFormUiState, viewModel: Te
             Text(tr("1 New"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
             Text(tr("K Known"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
-        HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+        AppDivider()
         InfoRow(tr("Added"), state.createdAt?.let { it.formatDate() } ?: tr("Not saved yet"))
         InfoRow(tr("Last updated"), if (state.saved) tr("Just now") else if (state.dirty) tr("Unsaved changes") else "\u2014")
     }
@@ -517,7 +522,7 @@ private fun FlashcardCard(modifier: Modifier, state: TermFormUiState, viewModel:
         )
         if (schedule.state == CardState.REVIEW) InfoRow(tr("Interval"), trPlural(schedule.intervalDays, "{0} day", "{0} days"))
         InfoRow(tr("Answers"), if (schedule.lapses > 0) trPlural(schedule.lapses, "{1}, forgotten {0} time", "{1}, forgotten {0} times", schedule.reps) else "${schedule.reps}")
-        HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+        AppDivider()
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
                 Text(tr("Suspend flashcard"), style = MaterialTheme.typography.bodyLarge)
@@ -543,8 +548,7 @@ private fun FlashcardCard(modifier: Modifier, state: TermFormUiState, viewModel:
 @Composable
 private fun DeleteCard(modifier: Modifier, onClick: () -> Unit) {
     Row(
-        modifier.clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card)
+        modifier.cardSurface(AppShapes.card)
             .clickable(onClick = onClick).padding(horizontal = 24.dp, vertical = 20.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(14.dp),
@@ -562,16 +566,8 @@ private fun FormCard(
     iconText: String? = null,
     content: @Composable () -> Unit,
 ) {
-    Column(
-        modifier.clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(20.dp),
-        verticalArrangement = Arrangement.spacedBy(14.dp),
-    ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-            IconTile(icon, iconText, size = 44)
-            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
-        }
-        content()
+    ContentCard(title, subtitle = null, icon = icon, iconText = iconText, modifier = modifier) {
+        Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(14.dp)) { content() }
     }
 }
 
@@ -632,10 +628,7 @@ private fun PanelHeader(language: Language?, nativeLanguage: String, onClose: ((
             if (language != null) Text("${tr(language.name)} \u2192 ${tr(native)}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         if (onClose != null) {
-            Box(
-                Modifier.size(40.dp).clip(AppShapes.large).background(colors.surfaceVariant).clickable(onClick = onClose),
-                contentAlignment = Alignment.Center,
-            ) { Icon(Icons.Default.Close, contentDescription = tr("Close"), modifier = Modifier.size(20.dp)) }
+            AppIconButton(Icons.Default.Close, tr("Close"), onClose, Modifier.clip(AppShapes.large).background(colors.surfaceVariant), tint = colors.onSurface)
         }
     }
 }
@@ -661,7 +654,7 @@ private fun SectionCard(
     }
     val border = if (tint != null) tint.copy(alpha = 0.15f) else colors.outlineVariant
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.card).background(background).border(1.dp, border, AppShapes.card).padding(sectionPadding()),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(background).border(AppBorders.hairline(border), AppShapes.card).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (LocalPageSections.current) 14.dp else 10.dp)) {
@@ -731,7 +724,7 @@ private fun CountBadge(count: Int) {
 private fun LinkChip(label: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).clickable(onClick = onClick)
+        Modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).clickable(onClick = onClick)
             .padding(horizontal = 12.dp, vertical = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -746,7 +739,7 @@ private fun LinkChip(label: String, onClick: () -> Unit) {
 private fun OutlineActionButton(label: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().padding(top = 4.dp).clip(AppShapes.control).border(1.dp, colors.primary.copy(alpha = 0.5f), AppShapes.control)
+        Modifier.fillMaxWidth().padding(top = 4.dp).clip(AppShapes.control).border(AppBorders.hairline(colors.primary.copy(alpha = 0.5f)), AppShapes.control)
             .clickable(onClick = onClick).padding(horizontal = 16.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -772,13 +765,13 @@ private fun RoundIconButton(
     onClick: () -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
-    Box(
-        Modifier.size(36.dp).clip(AppShapes.large).background(colors.primary.copy(alpha = if (active) 0.18f else 0.1f))
-            .clickable(onClick = onClick).semantics { contentDescription = description },
-        contentAlignment = Alignment.Center,
+    AppIconButton(
+        onClick = onClick,
+        modifier = Modifier.clip(AppShapes.large).background(colors.primary.copy(alpha = if (active) 0.18f else 0.1f))
+            .semantics { contentDescription = description },
     ) {
         when {
-            loading -> CircularProgressIndicator(Modifier.size(18.dp), color = colors.primary, strokeWidth = 2.dp)
+            loading -> AppSpinner(size = SpinnerSize.Small)
             active -> Box(Modifier.size(12.dp).background(colors.primary, AppShapes.tiny))
             else -> Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
         }
@@ -792,7 +785,7 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
     val state = status.state
     Column(
         Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.05f))
-            .border(1.dp, colors.primary.copy(alpha = 0.15f), AppShapes.card).padding(sectionPadding()),
+            .border(AppBorders.hairline(colors.primary.copy(alpha = 0.15f)), AppShapes.card).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         SectionTitle(AppIcons.Book, tr("Dictionary"))
@@ -806,9 +799,7 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
             color = if (state is PackState.Failed) colors.error else colors.onSurfaceVariant,
         )
         if (state is PackState.Downloading) {
-            val progress = state.progress
-            if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth())
-            else LinearProgressIndicator(Modifier.fillMaxWidth())
+            AppProgressBar(state.progress)
         } else {
             PrimaryButton(if (state is PackState.Failed) tr("Try again") else tr("Download dictionary"), onClick = onDownload, icon = AppIcons.Download)
         }
@@ -824,7 +815,7 @@ internal fun KanjiSection(kanji: List<KanjiInfo>) {
     val colors = MaterialTheme.colorScheme
     SectionCard({ KanjiBadge() }, tr("Kanji"), count = kanji.size, tint = null, filled = false) {
         kanji.forEachIndexed { index, info ->
-            if (index > 0) HorizontalDivider(Modifier.padding(vertical = 4.dp), color = colors.outlineVariant)
+            if (index > 0) AppDivider(Modifier.padding(vertical = 4.dp))
             Row(horizontalArrangement = Arrangement.spacedBy(14.dp), modifier = Modifier.testTag("kanji-${info.character}")) {
                 Text(info.character, style = MaterialTheme.typography.displaySmall)
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -875,7 +866,7 @@ internal fun FrequencyLabels(frequencies: List<WordFrequency>) {
     FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(4.dp), modifier = Modifier.padding(start = 2.dp, top = 2.dp)) {
         frequencies.forEach { frequency ->
             Row(
-                Modifier.clip(AppShapes.small).border(1.dp, colors.outlineVariant, AppShapes.small).testTag("frequency-${frequency.dictionary}"),
+                Modifier.clip(AppShapes.small).border(AppBorders.hairline(), AppShapes.small).testTag("frequency-${frequency.dictionary}"),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Text(frequency.dictionary, style = MaterialTheme.typography.labelSmall, color = colors.onSecondaryContainer, modifier = Modifier.background(colors.secondaryContainer).padding(horizontal = 6.dp, vertical = 2.dp))
@@ -907,7 +898,7 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, t
     val speaker = rememberSpeaker(koinInject(), koinInject())
     SectionCard({ DictionaryBadge() }, tr("Dictionary"), count = lookup.entries.size, tint = null, filled = false) {
         lookup.entries.forEachIndexed { index, entry ->
-            if (index > 0) HorizontalDivider(Modifier.padding(vertical = 6.dp), color = colors.outlineVariant)
+            if (index > 0) AppDivider(Modifier.padding(vertical = 6.dp))
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.padding(top = 4.dp)) {
                 Text(entry.word, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                 entry.reading?.let { written ->
@@ -939,7 +930,7 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, t
             }
             entry.senses.forEachIndexed { senseIndex, sense ->
                 val gloss = sense.glosses.joinToString("; ")
-                if (senseIndex > 0) HorizontalDivider(Modifier.padding(start = 12.dp), color = colors.outlineVariant.copy(alpha = 0.6f))
+                if (senseIndex > 0) AppDivider(Modifier.padding(start = 12.dp), color = colors.outlineVariant.copy(alpha = 0.6f))
                 Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(start = 12.dp, top = 6.dp, bottom = 6.dp)) {
                     Column(Modifier.weight(1f)) {
                         Text(gloss, style = MaterialTheme.typography.bodyLarge)
@@ -997,19 +988,19 @@ private fun ExamplesSection(
 
     Column(
         Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.05f))
-            .border(1.dp, colors.primary.copy(alpha = 0.15f), AppShapes.card).padding(sectionPadding()),
+            .border(AppBorders.hairline(colors.primary.copy(alpha = 0.15f)), AppShapes.card).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Box(Modifier.weight(1f)) { SectionTitle(AppIcons.Page, tr("Examples"), if (state.loadingExamples) null else total) }
             if (canExpand) {
-                IconButton(onClick = { expanded = !expanded }, modifier = Modifier.size(32.dp)) {
-                    Icon(
-                        if (expanded) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
-                        contentDescription = if (expanded) tr("Show fewer examples") else tr("Show all {0} examples", state.examples.size),
-                        tint = colors.primary,
-                    )
-                }
+                AppIconButton(
+                    if (expanded) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
+                    contentDescription = if (expanded) tr("Show fewer examples") else tr("Show all {0} examples", state.examples.size),
+                    onClick = { expanded = !expanded },
+                    size = IconButtonSize.Small,
+                    tint = colors.primary,
+                )
             }
         }
         when {
@@ -1019,7 +1010,7 @@ private fun ExamplesSection(
                 val direction = if (language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr
                 val visible = if (expanded) state.examples else state.examples.take(VISIBLE_EXAMPLES)
                 visible.forEachIndexed { index, example ->
-                    if (index > 0) HorizontalDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
+                    if (index > 0) AppDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
                     val sentence = @Composable {
                         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
                             HoverTranslatedText(

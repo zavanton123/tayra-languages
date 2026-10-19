@@ -46,6 +46,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.sp
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.RoundSlider
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -94,7 +95,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
@@ -103,7 +103,11 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSort
 import com.tayra.languages.core.domain.service.YesNo
+import com.tayra.languages.core.ui.components.AppBottomSheet
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
+import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
@@ -114,23 +118,21 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.navigation.Route
 import io.ktor.http.encodeURLParameter
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
-import androidx.compose.material3.CircularProgressIndicator
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import kotlin.random.Random
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.core.ui.state.CollectEvents
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.material3.Surface
-import androidx.compose.material3.ModalBottomSheet
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.foundation.layout.fillMaxHeight
 import com.tayra.languages.core.ui.components.ScrollList
 
@@ -139,7 +141,6 @@ import com.tayra.languages.core.ui.components.ScrollList
  * term pane beside the results, for the searched term or a word clicked in an example; on
  * narrower ones a clicked word opens it in a sheet.
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ExamplesSearchScreen(
     languageId: Long,
@@ -337,7 +338,7 @@ fun ExamplesSearchScreen(
             if (wide && term != null) {
                 Surface(
                     Modifier.width(420.dp).fillMaxHeight().padding(top = 16.dp, end = 16.dp, bottom = 16.dp)
-                        .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card),
+                        .border(AppBorders.hairline(), AppShapes.card),
                     shape = AppShapes.card,
                     color = MaterialTheme.colorScheme.surface,
                 ) {
@@ -351,7 +352,7 @@ fun ExamplesSearchScreen(
     val sheetLanguage = state.language
     if (!wide && sheetOpen && sheetTerm != null && sheetLanguage != null) {
         val close = { sheetOpen = false }
-        ModalBottomSheet(onDismissRequest = close, sheetState = rememberModalBottomSheetState(), sheetMaxWidth = Dp.Unspecified) {
+        AppBottomSheet(onDismissRequest = close, skipPartiallyExpanded = false) {
             TermPane(sheetLanguage.id, sheetTerm, state.paneSentence, onClose = close, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onNavigate = onNavigate)
         }
     }
@@ -406,10 +407,7 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
     val uriHandler = LocalUriHandler.current
     Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.Top) {
         if (!compact) {
-            Box(
-                Modifier.size(40.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).clickable(onClick = onBack),
-                contentAlignment = Alignment.Center,
-            ) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), modifier = Modifier.size(20.dp)) }
+            AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Back"), onBack, style = IconButtonStyle.Outlined)
             Spacer(Modifier.width(24.dp))
         }
         Column(Modifier.weight(1f)) {
@@ -447,7 +445,7 @@ private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewMo
     val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Row(
-            Modifier.weight(1f).height(48.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).padding(horizontal = 14.dp),
+            Modifier.weight(1f).height(48.dp).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(horizontal = 14.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
@@ -504,7 +502,7 @@ private fun <T> Select(label: String, options: List<T>, selected: T, optionLabel
         Text(label, style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
         Box {
             Row(
-                Modifier.fillMaxWidth().height(44.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control)
+                Modifier.fillMaxWidth().height(44.dp).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
                     .clickable { open = true }.padding(horizontal = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
@@ -581,8 +579,7 @@ private fun ExampleCard(
 private fun TextSettings(prefs: UserSettings, viewModel: ExamplesSearchViewModel) {
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().padding(top = 16.dp).clip(AppShapes.card).background(colors.surface)
-            .border(1.dp, colors.outlineVariant, AppShapes.card).padding(horizontal = 20.dp, vertical = 16.dp),
+        Modifier.fillMaxWidth().padding(top = 16.dp).cardSurface(AppShapes.card).padding(horizontal = 20.dp, vertical = 16.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         Text(tr("Text settings"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
@@ -616,16 +613,16 @@ private fun ActionButton(
     onClick: () -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
-    Box(
-        Modifier.size(40.dp).clip(AppShapes.control)
+    AppIconButton(
+        onClick = onClick,
+        modifier = Modifier.clip(AppShapes.control)
             .background(if (active) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
-            .border(1.dp, colors.outlineVariant, AppShapes.control)
-            .clickable(enabled = enabled, onClick = onClick)
+            .border(AppBorders.hairline(), AppShapes.control)
             .semantics { contentDescription = description },
-        contentAlignment = Alignment.Center,
+        enabled = enabled,
     ) {
         when {
-            loading -> CircularProgressIndicator(Modifier.size(18.dp), color = colors.primary, strokeWidth = 2.dp)
+            loading -> AppSpinner(size = SpinnerSize.Small)
             active && stops -> Box(Modifier.size(12.dp).background(colors.primary, AppShapes.tiny))
             else -> Icon(icon, contentDescription = null, tint = if (enabled) colors.primary else colors.outlineVariant, modifier = Modifier.size(20.dp))
         }
