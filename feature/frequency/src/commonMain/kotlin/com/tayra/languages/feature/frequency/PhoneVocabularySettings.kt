@@ -36,6 +36,7 @@ import com.tayra.languages.core.domain.frequency.VocabularyLevelService
 import com.tayra.languages.core.ui.components.AppCard
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.cardSurface
@@ -46,7 +47,9 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 
 /**
  * The vocabulary level page on a phone: the estimate with its slider and sample words, the
@@ -90,7 +93,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                     if (level == 0) samples(list, 0, minOf(100, list.words.size)) else samples(list, previous, level)
                 }
                 Column(
-                    Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.06f)).padding(14.dp),
+                    Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(14.dp),
                     verticalArrangement = Arrangement.spacedBy(10.dp),
                 ) {
                     Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
@@ -99,7 +102,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                             row.forEach { word ->
                                 Text(
                                     word,
-                                    Modifier.weight(1f).clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.10f)).padding(vertical = 10.dp, horizontal = 8.dp),
+                                    Modifier.weight(1f).clip(AppShapes.pill).background(colors.primary.copy(alpha = AppAlpha.tint)).padding(vertical = 10.dp, horizontal = 8.dp),
                                     style = MaterialTheme.typography.bodyLarge,
                                     textAlign = TextAlign.Center,
                                     maxLines = 1,
@@ -134,7 +137,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 Row(horizontalArrangement = Arrangement.spacedBy(18.dp), verticalAlignment = Alignment.CenterVertically) {
                     PreviewLegend(AppAccents.green, tr("Known"))
                     PreviewLegend(colors.primary, tr("New"))
-                    PreviewLegend(colors.onSurfaceVariant.copy(alpha = 0.55f), tr("Outside frequency list"))
+                    PreviewLegend(colors.onSurfaceVariant.copy(alpha = AppAlpha.half), tr("Outside frequency list"))
                 }
             }
             Row(
@@ -143,7 +146,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(14.dp),
             ) {
-                Icon(AppIcons.ViewList, contentDescription = null, tint = colors.primary, modifier = Modifier.size(26.dp))
+                Icon(AppIcons.ViewList, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
                 Text(tr("Explore word frequency"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
                 Icon(Icons.Default.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
             }
@@ -152,7 +155,8 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 onClick = { confirming = true },
                 enabled = state.picked != null && !state.saving,
                 loading = state.saving,
-                modifier = Modifier.fillMaxWidth().height(52.dp).testTag("set-vocabulary-level"),
+                modifier = Modifier.fillMaxWidth().testTag("set-vocabulary-level"),
+                size = ButtonSize.Large,
             )
         }
     }

@@ -17,22 +17,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.RichTooltip
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TooltipAnchorPosition
-import androidx.compose.material3.TooltipBox
-import androidx.compose.material3.TooltipDefaults
-import androidx.compose.material3.rememberTooltipState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -57,16 +48,26 @@ import com.tayra.languages.core.domain.frequency.WordKnowledge
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppRichTooltip
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.EmptyState
+import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SearchField
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.StatusDot
+import com.tayra.languages.core.ui.components.SelectableChip
+import com.tayra.languages.core.ui.components.ChipLeading
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.TagSize
+import com.tayra.languages.core.ui.components.TagStyle
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.i18n.formatCount
@@ -75,6 +76,7 @@ import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -306,14 +308,7 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
                 color = colors.onSurfaceVariant,
             )
             if (onSettings != null) {
-                Text(
-                    if (state.level > 0) tr("Change") else tr("choose one"),
-                    Modifier.clip(AppShapes.small).clickable(onClick = onSettings).padding(horizontal = 4.dp, vertical = 2.dp),
-                    softWrap = false,
-                    style = MaterialTheme.typography.bodyMedium,
-                    fontWeight = FontWeight.SemiBold,
-                    color = colors.primary,
-                )
+                LinkText(if (state.level > 0) tr("Change") else tr("choose one"), onSettings, style = MaterialTheme.typography.bodyMedium)
             }
             if (state.savingLevel) {
                 AppSpinner(size = SpinnerSize.Small)
@@ -331,21 +326,7 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
 
 @Composable
 private fun KnowledgeChip(knowledge: WordKnowledge, count: Int, selected: Boolean, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val tint = knowledge.tint()
-    val shape = AppShapes.pill
-    Row(
-        Modifier.height(40.dp).clip(shape)
-            .background(if (selected) tint.copy(alpha = 0.16f) else colors.surface)
-            .border(AppBorders.hairline(if (selected) tint else colors.outlineVariant), shape)
-            .clickable(onClick = onClick).padding(horizontal = 14.dp).testTag("chip-${knowledge.name}"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-    ) {
-        Box(Modifier.size(10.dp).clip(CircleShape).background(if (selected) tint else colors.outlineVariant))
-        Text(knowledge.label, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, color = if (selected) colors.onSurface else colors.onSurfaceVariant)
-        Text(formatCount(count), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold, color = if (selected) colors.onSurface else colors.onSurfaceVariant)
-    }
+    SelectableChip(knowledge.label, selected, onClick, Modifier.testTag("chip-${knowledge.name}"), tint = knowledge.tint(), count = count, leading = ChipLeading.Dot)
 }
 
 /** The band's ranks, how many of its words are known or being learned, and whether the reader's level is here. */
@@ -360,29 +341,17 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Text(tr("Ranks {0}–{1}", band.firstRank, band.lastRank), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
             if (isLevel) {
-                Text(
-                    tr("Your level"),
-                    Modifier.clip(AppShapes.pill).background(colors.primary).padding(horizontal = 10.dp, vertical = 3.dp),
-                    style = MaterialTheme.typography.labelMedium,
-                    fontWeight = FontWeight.SemiBold,
-                    color = colors.onPrimary,
-                )
+                Tag(tr("Your level"), size = TagSize.Medium, style = TagStyle.Solid)
             }
             if (levelAbove != currentLevel) {
-                Row(
-                    Modifier.clip(AppShapes.pill).border(AppBorders.hairline(), AppShapes.pill)
-                        .clickable(enabled = !saving, onClick = onSetLevel).padding(horizontal = 10.dp, vertical = 4.dp)
-                        .testTag("set-level-$levelAbove"),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(6.dp),
-                ) {
-                    Icon(AppIcons.DoneAll, contentDescription = null, tint = colors.primary, modifier = Modifier.size(16.dp))
-                    Text(
-                        if (compact) tr("Level {0}", formatCount(levelAbove)) else tr("Set level to {0}", formatCount(levelAbove)),
-                        style = MaterialTheme.typography.labelMedium,
-                        color = if (saving) colors.onSurfaceVariant else colors.primary,
-                    )
-                }
+                SecondaryButton(
+                    if (compact) tr("Level {0}", formatCount(levelAbove)) else tr("Set level to {0}", formatCount(levelAbove)),
+                    onClick = onSetLevel,
+                    modifier = Modifier.testTag("set-level-$levelAbove"),
+                    icon = AppIcons.DoneAll,
+                    enabled = !saving,
+                    size = ButtonSize.Compact,
+                )
             }
             Spacer(Modifier.weight(1f))
             if (!compact) {
@@ -394,52 +363,49 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
             }
         }
         // The band's words by status, known first.
-        Row(Modifier.fillMaxWidth().height(6.dp).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = 0.07f))) {
+        Row(Modifier.fillMaxWidth().height(6.dp).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = AppAlpha.wash))) {
             for ((knowledge, n) in listOf(WordKnowledge.KNOWN to known, WordKnowledge.LEARNING to learning, WordKnowledge.IGNORED to ignored)) {
                 if (n > 0) Box(Modifier.weight(n.toFloat()).fillMaxHeight().background(knowledge.tint()))
             }
             val rest = band.words.size - known - learning - ignored
             if (rest > 0) Spacer(Modifier.weight(rest.toFloat()))
         }
-        AppDivider(color = colors.outlineVariant.copy(alpha = 0.5f))
+        AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.half))
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Unit, translate: suspend (String) -> String?, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val statuses = TayraTheme.current.statusColors
-    val tooltip = rememberTooltipState(isPersistent = true)
     var translation by remember(word.word.word) { mutableStateOf<String?>(null) }
     var looked by remember(word.word.word) { mutableStateOf(false) }
-    LaunchedEffect(tooltip.isVisible) {
-        if (tooltip.isVisible && !looked) {
-            translation = translate(word.word.word)
-            looked = true
-        }
-    }
     val learning = word.knowledge == WordKnowledge.LEARNING
     Box(modifier.padding(vertical = 3.dp, horizontal = 2.dp)) {
-        TooltipBox(
-            positionProvider = TooltipDefaults.rememberTooltipPositionProvider(TooltipAnchorPosition.Above),
-            tooltip = {
-                RichTooltip(title = { Text("${word.word.word}  ·  #${word.word.rank}") }) {
-                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        Text(if (looked) translation ?: tr("No translation found") else tr("Looking up…"), fontWeight = FontWeight.Medium)
-                        val others = word.word.forms.filter { it != word.word.key }.take(8)
-                        if (others.isNotEmpty()) Text(tr("Also: {0}", others.joinToString(", ")), style = MaterialTheme.typography.bodySmall)
-                        Text(statusLabel(word.status), style = MaterialTheme.typography.bodySmall)
+        AppRichTooltip(
+            "${word.word.word}  ·  #${word.word.rank}",
+            persistent = true,
+            body = {
+                // The body is composed only while the tooltip shows, so the word is looked up on its first hover.
+                LaunchedEffect(Unit) {
+                    if (!looked) {
+                        translation = translate(word.word.word)
+                        looked = true
                     }
                 }
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(if (looked) translation ?: tr("No translation found") else tr("Looking up…"), fontWeight = FontWeight.Medium)
+                    val others = word.word.forms.filter { it != word.word.key }.take(8)
+                    if (others.isNotEmpty()) Text(tr("Also: {0}", others.joinToString(", ")), style = MaterialTheme.typography.bodySmall)
+                    Text(statusLabel(word.status), style = MaterialTheme.typography.bodySmall)
+                }
             },
-            state = tooltip,
         ) {
             Text(
                 word.word.word,
                 Modifier.clip(AppShapes.small)
                     .then(if (learning) Modifier.background(statuses.background(word.status)) else Modifier)
-                    .then(if (selected) Modifier.border(2.dp, colors.primary, AppShapes.small) else Modifier)
+                    .then(if (selected) Modifier.border(AppBorders.selected(), AppShapes.small) else Modifier)
                     .clickable { onOpen(word.word.word) }
                     .padding(horizontal = 8.dp, vertical = 5.dp)
                     .widthIn(min = 24.dp)
@@ -448,7 +414,7 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
                 color = when (word.knowledge) {
                     WordKnowledge.KNOWN -> colors.onSurface
                     WordKnowledge.LEARNING -> if (statuses.onHighlight == Color.Unspecified) colors.onSurface else statuses.onHighlight
-                    WordKnowledge.IGNORED -> colors.onSurfaceVariant.copy(alpha = 0.6f)
+                    WordKnowledge.IGNORED -> colors.onSurfaceVariant.copy(alpha = AppAlpha.muted)
                     WordKnowledge.NEW -> colors.primary
                 },
                 fontWeight = if (word.knowledge == WordKnowledge.NEW) FontWeight.Medium else FontWeight.Normal,

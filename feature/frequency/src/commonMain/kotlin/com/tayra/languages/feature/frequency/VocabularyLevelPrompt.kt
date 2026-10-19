@@ -6,14 +6,10 @@ import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Slider
 import androidx.compose.runtime.remember
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.text.SpanStyle
@@ -33,7 +29,6 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -49,17 +44,20 @@ import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.AppSlider
 import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.ButtonSize
+import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.PrimaryButton
-import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.i18n.formatCount
@@ -124,7 +122,7 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
         val index = choices.indexOf(level).coerceAtLeast(0)
         Column(Modifier.padding(horizontal = 20.dp)) {
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-                AppIconButton(Icons.Default.Close, tr("Close"), onLater, Modifier.clip(CircleShape).background(colors.surfaceContainerHigh), enabled = !state.saving)
+                AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving, style = IconButtonStyle.Tonal, tint = colors.onSurface)
             }
             Spacer(Modifier.height(8.dp))
             Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
@@ -142,7 +140,7 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
             LevelSlider(choices, index, onPick, named = setOf(0, 1000, 5000, choices.last()), sparse = true, caption = false)
             Spacer(Modifier.height(16.dp))
             Column(
-                Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.06f)).padding(16.dp),
+                Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp),
             ) {
                 Text(tr("Example text"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
@@ -169,7 +167,7 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
 @Composable
 internal fun colouredExample(state: VocabularySettingsUiState, level: Int) = buildAnnotatedString {
     val colors = MaterialTheme.colorScheme
-    val outside = colors.onSurfaceVariant.copy(alpha = 0.55f)
+    val outside = colors.onSurfaceVariant.copy(alpha = AppAlpha.half)
     for (token in state.example) {
         val color = when {
             !token.isWord -> colors.onSurface
@@ -290,7 +288,7 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
             if (level == 0) samples(list, 0, minOf(100, list.words.size)) else samples(list, previous, level)
         }
         Column(
-            Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.06f)).padding(if (compact) 14.dp else 20.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(if (compact) 14.dp else 20.dp),
             verticalArrangement = Arrangement.spacedBy(if (compact) 10.dp else 12.dp),
         ) {
             Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
@@ -299,7 +297,7 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
                     row.forEach { word ->
                         Text(
                             word,
-                            Modifier.weight(1f).clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.10f)).padding(vertical = if (compact) 8.dp else 10.dp, horizontal = 8.dp),
+                            Modifier.weight(1f).clip(AppShapes.pill).background(colors.primary.copy(alpha = AppAlpha.tint)).padding(vertical = if (compact) 8.dp else 10.dp, horizontal = 8.dp),
                             style = if (compact) MaterialTheme.typography.bodyMedium else MaterialTheme.typography.bodyLarge,
                             textAlign = TextAlign.Center,
                             maxLines = 1,
@@ -322,22 +320,17 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
  * A slider that stops at each level, with ticks under it and the [named] levels labelled, plus any
  * other with room unless [sparse], which also ticks only the named levels; [caption] names the start.
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 internal fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, named: Set<Int> = NAMED_STOPS, sparse: Boolean = false, caption: Boolean = true) {
     val colors = MaterialTheme.colorScheme
     val last = (choices.size - 1).coerceAtLeast(1)
     Column {
-        Slider(
+        AppSlider(
             value = index.toFloat(),
             onValueChange = { onPick(choices[it.roundToInt().coerceIn(0, choices.size - 1)]) },
             valueRange = 0f..last.toFloat(),
-            steps = (choices.size - 2).coerceAtLeast(0),
             modifier = Modifier.fillMaxWidth().height(32.dp).testTag("level-slider"),
-            thumb = {
-                Box(Modifier.size(THUMB).shadow(3.dp, CircleShape).clip(CircleShape).background(colors.surface).padding(3.dp).clip(CircleShape).background(colors.primary))
-            },
-            track = { sliderState -> ProgressTrack(sliderState.coercedValueAsFraction, colors.primary, height = 12.dp) },
+            steps = (choices.size - 2).coerceAtLeast(0),
         )
         // Ticks and names placed where the slider stops, the track running between the thumb's centres
         // at either end. Names that would run into one another are left out, the chosen level's first.
@@ -378,7 +371,8 @@ internal fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, 
     }
 }
 
-private val THUMB = 28.dp
+/** AppSlider's thumb, whose centres at either end bound the track. */
+private val THUMB = 22.dp
 
 /** The language's sample story coloured by the estimate: the words it knows, the new ones, and the ones outside the list. */
 @Composable
@@ -386,7 +380,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
     val colors = MaterialTheme.colorScheme
     val width = LocalWindowWidth.current
     val compact = width.isCompact
-    val outside = colors.onSurfaceVariant.copy(alpha = 0.55f)
+    val outside = colors.onSurfaceVariant.copy(alpha = AppAlpha.half)
     val shape = AppShapes.large
     Column(modifier.clip(shape).border(AppBorders.hairline(), shape).padding(if (compact) 16.dp else 24.dp), verticalArrangement = Arrangement.spacedBy(if (compact) 12.dp else 16.dp)) {
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -421,7 +415,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
 @Composable
 internal fun PreviewLegend(color: Color, label: String) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        Box(Modifier.size(12.dp).clip(CircleShape).background(color))
+        StatusDot(color)
         Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
