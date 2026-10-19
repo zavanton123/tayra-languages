@@ -60,6 +60,8 @@ import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -97,7 +99,7 @@ fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: Vo
     }
     AppDialogSurface(onDismissRequest = {}, modifier = Modifier.testTag("vocabulary-level-prompt"), maxWidth = 1180.dp, dismissible = false) {
         if (!ready) {
-            Box(Modifier.fillMaxWidth().heightIn(min = 240.dp), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
+            Box(Modifier.fillMaxWidth().heightIn(min = LOADING_HEIGHT), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
             return@AppDialogSurface
         }
         VocabularyLevelPromptContent(state, onPick = viewModel::pick, onSave = viewModel::save, onLater = later)
@@ -114,52 +116,51 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
     AppBottomSheet(onDismissRequest = onLater, modifier = Modifier.testTag("vocabulary-level-prompt")) {
         val list = state.list
         if (!ready || list == null) {
-            Box(Modifier.fillMaxWidth().heightIn(min = 240.dp), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
+            Box(Modifier.fillMaxWidth().heightIn(min = LOADING_HEIGHT), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
             return@AppBottomSheet
         }
         val level = state.picked ?: state.level
         val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
         val index = choices.indexOf(level).coerceAtLeast(0)
-        Column(Modifier.padding(horizontal = 20.dp)) {
+        Column(Modifier.padding(horizontal = AppSpacing.xl)) {
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                 AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving, style = IconButtonStyle.Tonal, tint = colors.onSurface)
             }
-            Spacer(Modifier.height(8.dp))
-            Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(AppSpacing.s))
+            Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = AppText.headline)
+            Spacer(Modifier.height(AppSpacing.s))
             Text(tr("Choose an estimate. Words below this level will start as known."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-            Spacer(Modifier.height(20.dp))
+            Spacer(Modifier.height(AppSpacing.xl))
             Row(verticalAlignment = Alignment.Bottom) {
-                Text(formatCount(level), style = MaterialTheme.typography.displayMedium, fontWeight = FontWeight.Bold, color = colors.primary)
-                Spacer(Modifier.width(12.dp))
-                Text(trPlural(level, "word", "words"), Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineMedium, color = colors.onSurface)
+                Text(formatCount(level), style = AppText.figure, color = colors.primary)
+                Spacer(Modifier.width(AppSpacing.m))
+                Text(trPlural(level, "word", "words"), Modifier.padding(bottom = AppSpacing.s), style = MaterialTheme.typography.headlineMedium, color = colors.onSurface)
             }
-            Text(levelName(level), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
-            Spacer(Modifier.height(8.dp))
+            Text(levelName(level), style = AppText.sectionTitle)
+            Spacer(Modifier.height(AppSpacing.s))
             // Four landmarks are all a phone's width can name.
             LevelSlider(choices, index, onPick, named = setOf(0, 1000, 5000, choices.last()), sparse = true, caption = false)
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(AppSpacing.l))
             Column(
-                Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(16.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp),
+                Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(AppSpacing.l),
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
             ) {
-                Text(tr("Example text"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+                Text(tr("Example text"), style = AppText.smallTitle)
                 if (state.example.isEmpty()) {
                     Text(tr("No sample text for {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)), color = colors.onSurfaceVariant)
                 } else {
                     Text(
                         colouredExample(state, level),
-                        style = MaterialTheme.typography.bodyLarge.copy(lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.3f),
-                        fontWeight = FontWeight.Medium,
+                        style = AppText.emphasis.copy(lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.3f),
                         maxLines = 3,
                         overflow = TextOverflow.Ellipsis,
                     )
                 }
             }
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(AppSpacing.l))
         }
         AppDivider()
-        PromptButtons(state, level, onSave, onLater, Modifier.padding(horizontal = 20.dp, vertical = 12.dp), compact = true)
+        PromptButtons(state, level, onSave, onLater, Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), compact = true)
     }
 }
 
@@ -186,10 +187,10 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
     val width = LocalWindowWidth.current
     val level = state.picked ?: state.level
     Column {
-        ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(start = 40.dp, end = 28.dp, top = 28.dp, bottom = 24.dp)) {
+        ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(start = AppSpacing.huge, end = AppSpacing.xxxl, top = AppSpacing.xxxl, bottom = AppSpacing.xxl)) {
             Row(verticalAlignment = Alignment.Top) {
-                Column(Modifier.weight(1f).padding(top = 6.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                Column(Modifier.weight(1f).padding(top = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = AppText.screenTitle)
                     Text(
                         tr("Choose an estimate. Words below this level will start as known. You can change it later in Settings → Vocabulary."),
                         style = MaterialTheme.typography.bodyLarge,
@@ -198,20 +199,20 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
                 }
                 AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving)
             }
-            Spacer(Modifier.height(24.dp))
+            Spacer(Modifier.height(AppSpacing.xxl))
             if (width.isExpanded) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(24.dp)) {
+                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl)) {
                     EstimateCard(list, level, onPick, Modifier.weight(1f).fillMaxHeight())
                     PreviewCard(state, level, Modifier.weight(1f).fillMaxHeight())
                 }
             } else {
                 EstimateCard(list, level, onPick, Modifier.fillMaxWidth())
-                Spacer(Modifier.height(20.dp))
+                Spacer(Modifier.height(AppSpacing.xl))
                 PreviewCard(state, level, Modifier.fillMaxWidth())
             }
         }
         AppDivider()
-        PromptButtons(state, level, onSave, onLater, Modifier.padding(horizontal = 28.dp, vertical = 20.dp))
+        PromptButtons(state, level, onSave, onLater, Modifier.padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.xl))
     }
 }
 
@@ -219,7 +220,7 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
 @Composable
 private fun PromptButtons(state: VocabularySettingsUiState, level: Int, onSave: () -> Unit, onLater: () -> Unit, modifier: Modifier, compact: Boolean = false) {
     val colors = MaterialTheme.colorScheme
-    Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+    Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         QuietButton(onClick = onLater, enabled = !state.saving, size = if (compact) ButtonSize.Compact else ButtonSize.Regular) {
             Text(tr("Skip for now"), style = MaterialTheme.typography.titleMedium)
         }
@@ -271,33 +272,33 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
     val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
     val index = choices.indexOf(level).coerceAtLeast(0)
     val shape = AppShapes.large
-    Column(modifier.clip(shape).border(AppBorders.hairline(), shape).padding(if (compact) 16.dp else 24.dp)) {
+    Column(modifier.clip(shape).border(AppBorders.hairline(), shape).padding(if (compact) AppSpacing.l else AppSpacing.xxl)) {
         Text(tr("Estimated vocabulary"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         Row(verticalAlignment = Alignment.Bottom) {
-            Text(formatCount(level), style = if (compact) MaterialTheme.typography.displayMedium else MaterialTheme.typography.displayLarge, fontWeight = FontWeight.Bold, color = colors.primary)
-            Spacer(Modifier.width(if (compact) 10.dp else 14.dp))
-            Text(trPlural(level, "word", "words"), Modifier.padding(bottom = if (compact) 8.dp else 10.dp), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, color = colors.onSurface)
+            Text(formatCount(level), style = if (compact) AppText.figure else AppText.figure.copy(fontSize = MaterialTheme.typography.displayLarge.fontSize, lineHeight = MaterialTheme.typography.displayLarge.lineHeight), color = colors.primary)
+            Spacer(Modifier.width(if (compact) AppSpacing.m else AppSpacing.l))
+            Text(trPlural(level, "word", "words"), Modifier.padding(bottom = if (compact) AppSpacing.s else AppSpacing.m), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, color = colors.onSurface)
         }
         Text(levelName(level), style = if (compact) MaterialTheme.typography.titleMedium else MaterialTheme.typography.titleLarge)
-        Spacer(Modifier.height(if (compact) 12.dp else 18.dp))
+        Spacer(Modifier.height(if (compact) AppSpacing.m else AppSpacing.xl))
         LevelSlider(choices, index, onPick, sparse = compact)
-        Spacer(Modifier.height(if (compact) 16.dp else 22.dp))
+        Spacer(Modifier.height(if (compact) AppSpacing.l else AppSpacing.xxl))
         // The words a learner at this level has just reached; at 0, the first ones to learn.
         val words = remember(list, level, choices) {
             val previous = if (index == 0) 0 else choices[index - 1]
             if (level == 0) samples(list, 0, minOf(100, list.words.size)) else samples(list, previous, level)
         }
         Column(
-            Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(if (compact) 14.dp else 20.dp),
-            verticalArrangement = Arrangement.spacedBy(if (compact) 10.dp else 12.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(if (compact) AppSpacing.l else AppSpacing.xl),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
-            Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = AppText.itemTitle)
             words.chunked(3).forEach { row ->
-                Row(horizontalArrangement = Arrangement.spacedBy(if (compact) 8.dp else 12.dp)) {
+                Row(horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.s else AppSpacing.m)) {
                     row.forEach { word ->
                         Text(
                             word,
-                            Modifier.weight(1f).clip(AppShapes.pill).background(colors.primary.copy(alpha = AppAlpha.tint)).padding(vertical = if (compact) 8.dp else 10.dp, horizontal = 8.dp),
+                            Modifier.weight(1f).clip(AppShapes.pill).background(colors.primary.copy(alpha = AppAlpha.tint)).padding(vertical = AppSpacing.s, horizontal = AppSpacing.s),
                             style = if (compact) MaterialTheme.typography.bodyMedium else MaterialTheme.typography.bodyLarge,
                             textAlign = TextAlign.Center,
                             maxLines = 1,
@@ -329,14 +330,14 @@ internal fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, 
             value = index.toFloat(),
             onValueChange = { onPick(choices[it.roundToInt().coerceIn(0, choices.size - 1)]) },
             valueRange = 0f..last.toFloat(),
-            modifier = Modifier.fillMaxWidth().height(32.dp).testTag("level-slider"),
+            modifier = Modifier.fillMaxWidth().height(SLIDER_HEIGHT).testTag("level-slider"),
             steps = (choices.size - 2).coerceAtLeast(0),
         )
         // Ticks and names placed where the slider stops, the track running between the thumb's centres
         // at either end. Names that would run into one another are left out, the chosen level's first.
         Layout(
             content = {
-                choices.forEachIndexed { i, stop -> Box(Modifier.width(1.5.dp).height(10.dp).background(if (sparse && stop !in named && i != index) Color.Transparent else colors.outline)) }
+                choices.forEachIndexed { i, stop -> Box(Modifier.width(TICK_WIDTH).height(TICK_HEIGHT).background(if (sparse && stop !in named && i != index) Color.Transparent else colors.outline)) }
                 choices.forEachIndexed { i, stop ->
                     Text(
                         shortCount(stop),
@@ -361,7 +362,7 @@ internal fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, 
             val order = listOf(index, 0, choices.size - 1) + choices.indices.filter { choices[it] in named } + if (sparse) emptyList() else choices.indices
             for (i in order) if (i !in shown && fits(i)) shown += i
             val tickHeight = ticks.maxOf { it.height }
-            val top = tickHeight + 6.dp.roundToPx()
+            val top = tickHeight + AppSpacing.s.roundToPx()
             layout(constraints.maxWidth, top + names.maxOf { it.height }) {
                 ticks.forEachIndexed { i, tick -> tick.place(inset + span * i / last - tick.width / 2, 0) }
                 shown.forEach { i -> names[i].place(left(i), top) }
@@ -373,6 +374,10 @@ internal fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit, 
 
 /** AppSlider's thumb, whose centres at either end bound the track. */
 private val THUMB = 22.dp
+private val SLIDER_HEIGHT = 32.dp
+private val TICK_WIDTH = 1.5.dp
+private val TICK_HEIGHT = 10.dp
+private val LOADING_HEIGHT = 240.dp
 
 /** The language's sample story coloured by the estimate: the words it knows, the new ones, and the ones outside the list. */
 @Composable
@@ -382,16 +387,16 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
     val compact = width.isCompact
     val outside = colors.onSurfaceVariant.copy(alpha = AppAlpha.half)
     val shape = AppShapes.large
-    Column(modifier.clip(shape).border(AppBorders.hairline(), shape).padding(if (compact) 16.dp else 24.dp), verticalArrangement = Arrangement.spacedBy(if (compact) 12.dp else 16.dp)) {
-        Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text(tr("Reading preview"), style = if (compact) MaterialTheme.typography.titleMedium else MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+    Column(modifier.clip(shape).border(AppBorders.hairline(), shape).padding(if (compact) AppSpacing.l else AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.m else AppSpacing.l)) {
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            Text(tr("Reading preview"), style = if (compact) AppText.itemTitle else AppText.sectionTitle)
             Text(tr("A sample text at this estimate"), style = if (compact) MaterialTheme.typography.bodyMedium else MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
         val inner = AppShapes.card
         // Beside the estimate card the text takes the height left; stacked in a scrolling page, where
         // the height is unbounded, a weight would leave it no height at all.
         val textHeight = if (width.isExpanded) Modifier.weight(1f, fill = false) else Modifier
-        Box(Modifier.fillMaxWidth().then(textHeight).clip(inner).border(AppBorders.hairline(), inner).padding(if (compact) 14.dp else 20.dp)) {
+        Box(Modifier.fillMaxWidth().then(textHeight).clip(inner).border(AppBorders.hairline(), inner).padding(if (compact) AppSpacing.l else AppSpacing.xl)) {
             if (state.example.isEmpty()) {
                 Text(tr("No sample text for {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)), color = colors.onSurfaceVariant)
             } else {
@@ -404,7 +409,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
             }
         }
         // Three legends do not always fit one phone-wide row.
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(if (compact) 16.dp else 22.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             PreviewLegend(AppAccents.green, tr("Known"))
             PreviewLegend(colors.primary, tr("New"))
             PreviewLegend(outside, tr("Outside frequency list"))
@@ -414,7 +419,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
 
 @Composable
 internal fun PreviewLegend(color: Color, label: String) {
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         StatusDot(color)
         Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }

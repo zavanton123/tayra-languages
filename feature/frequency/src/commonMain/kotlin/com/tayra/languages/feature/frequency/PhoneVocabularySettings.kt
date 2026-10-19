@@ -28,10 +28,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.frequency.VocabularyLevelService
 import com.tayra.languages.core.ui.components.AppCard
 import com.tayra.languages.core.ui.components.AppIcons
@@ -50,6 +48,8 @@ import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * The vocabulary level page on a phone: the estimate with its slider and sample words, the
@@ -64,7 +64,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
         topBar = { AppTopBar(title = tr("Vocabulary"), onNavigate = onNavigate, onBack = { onNavigate(Route.Settings) }, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             if (list == null) {
                 Text(
                     if (state.languageName.isEmpty()) tr("There is no word frequency list for this language, so a level cannot be set.")
@@ -80,29 +80,29 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
             AppCard {
                 Text(tr("Estimated vocabulary"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 Row(verticalAlignment = Alignment.Bottom) {
-                    Text(formatCount(level), style = MaterialTheme.typography.displayMedium, fontWeight = FontWeight.Bold, color = colors.primary)
-                    Spacer(Modifier.width(12.dp))
-                    Text(trPlural(level, "word", "words"), Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineMedium, color = colors.onSurface)
+                    Text(formatCount(level), style = AppText.figure, color = colors.primary)
+                    Spacer(Modifier.width(AppSpacing.m))
+                    Text(trPlural(level, "word", "words"), Modifier.padding(bottom = AppSpacing.s), style = MaterialTheme.typography.headlineMedium, color = colors.onSurface)
                 }
-                Text(levelName(level), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
-                Spacer(Modifier.height(8.dp))
+                Text(levelName(level), style = AppText.sectionTitle)
+                Spacer(Modifier.height(AppSpacing.s))
                 LevelSlider(choices, index, onPick, named = setOf(0, 500, 1000, 3000, 5000, choices.last()), sparse = true, caption = false)
-                Spacer(Modifier.height(14.dp))
+                Spacer(Modifier.height(AppSpacing.l))
                 val words = remember(list, level, choices) {
                     val previous = if (index == 0) 0 else choices[index - 1]
                     if (level == 0) samples(list, 0, minOf(100, list.words.size)) else samples(list, previous, level)
                 }
                 Column(
-                    Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(14.dp),
-                    verticalArrangement = Arrangement.spacedBy(10.dp),
+                    Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(AppSpacing.l),
+                    verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
                 ) {
-                    Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                    Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = AppText.itemTitle)
                     words.take(6).chunked(2).forEach { row ->
-                        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                             row.forEach { word ->
                                 Text(
                                     word,
-                                    Modifier.weight(1f).clip(AppShapes.pill).background(colors.primary.copy(alpha = AppAlpha.tint)).padding(vertical = 10.dp, horizontal = 8.dp),
+                                    Modifier.weight(1f).clip(AppShapes.pill).background(colors.primary.copy(alpha = AppAlpha.tint)).padding(vertical = AppSpacing.s, horizontal = AppSpacing.s),
                                     style = MaterialTheme.typography.bodyLarge,
                                     textAlign = TextAlign.Center,
                                     maxLines = 1,
@@ -120,21 +120,20 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 }
             }
             AppCard {
-                Text(tr("Reading preview"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                Spacer(Modifier.height(10.dp))
+                Text(tr("Reading preview"), style = AppText.sectionTitle)
+                Spacer(Modifier.height(AppSpacing.m))
                 if (state.example.isEmpty()) {
                     Text(tr("No sample text for {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)), color = colors.onSurfaceVariant)
                 } else {
                     Text(
                         colouredExample(state, level),
-                        style = MaterialTheme.typography.bodyLarge.copy(lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.35f),
-                        fontWeight = FontWeight.Medium,
+                        style = AppText.emphasis.copy(lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.35f),
                         maxLines = 5,
                         overflow = TextOverflow.Ellipsis,
                     )
                 }
-                Spacer(Modifier.height(12.dp))
-                Row(horizontalArrangement = Arrangement.spacedBy(18.dp), verticalAlignment = Alignment.CenterVertically) {
+                Spacer(Modifier.height(AppSpacing.m))
+                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.CenterVertically) {
                     PreviewLegend(AppAccents.green, tr("Known"))
                     PreviewLegend(colors.primary, tr("New"))
                     PreviewLegend(colors.onSurfaceVariant.copy(alpha = AppAlpha.half), tr("Outside frequency list"))
@@ -142,9 +141,9 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
             }
             Row(
                 Modifier.fillMaxWidth().cardSurface(AppShapes.card)
-                    .clickable { onNavigate(Route.WordFrequency) }.padding(16.dp),
+                    .clickable { onNavigate(Route.WordFrequency) }.padding(AppSpacing.l),
                 verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(14.dp),
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
                 Icon(AppIcons.ViewList, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
                 Text(tr("Explore word frequency"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)

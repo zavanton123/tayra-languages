@@ -79,6 +79,9 @@ import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.feature.terms.form.TermFormKey
@@ -141,7 +144,7 @@ fun WordFrequencyScreen(onNavigate: (Route) -> Unit, viewModel: WordFrequencyVie
             val selected = state.selected
             if (expanded && selected != null) {
                 AppVerticalDivider()
-                TermPanel(state.languageId, selected, onSelect = viewModel::select, onNavigate = onNavigate, modifier = Modifier.width(440.dp).fillMaxHeight())
+                TermPanel(state.languageId, selected, onSelect = viewModel::select, onNavigate = onNavigate, modifier = Modifier.width(TERM_PANEL_WIDTH).fillMaxHeight())
             }
         }
     }
@@ -192,7 +195,7 @@ internal fun WordFrequencyContent(
     val bands = remember(state.overview, state.shown, state.search) { state.visibleBands }
     val listState = rememberLazyListState()
     val scope = rememberCoroutineScope()
-    val side = if (compact) 16.dp else 32.dp
+    val side = if (compact) AppSpacing.l else AppSpacing.xxxl
     BoxWithConstraints(modifier.fillMaxSize()) {
         val index = overview != null && width.isExpanded
         val usable = maxWidth - side * 2 - (if (index) INDEX_WIDTH else 0.dp)
@@ -207,7 +210,7 @@ internal fun WordFrequencyContent(
             ScrollList(
                 Modifier.weight(1f),
                 state = listState,
-                contentPadding = PaddingValues(start = side, end = if (index) 8.dp else side, top = if (compact) 16.dp else 24.dp, bottom = 32.dp),
+                contentPadding = PaddingValues(start = side, end = if (index) AppSpacing.s else side, top = if (compact) AppSpacing.l else AppSpacing.xxl, bottom = AppSpacing.xxxl),
                 listModifier = Modifier.testTag("frequency-list"),
             ) {
                 item(key = "header") { Header(state, onToggle, onSearch, onSettings) }
@@ -216,12 +219,12 @@ internal fun WordFrequencyContent(
                         EmptyState(
                             AppIcons.BarChart,
                             tr("No frequency list yet"),
-                            Modifier.padding(top = 8.dp),
+                            Modifier.padding(top = AppSpacing.s),
                             message = if (state.languageName.isEmpty()) tr("Choose a language to learn to see its most common words.")
                             else tr("There is no word frequency list for {0}. Lists come with the languages the app offers to learn.", languageInSentence(state.languageName, LanguageCase.GENITIVE)),
                         )
                     }
-                    bands.isEmpty() -> item(key = "empty") { EmptyState(AppIcons.BarChart, tr("No words match"), Modifier.padding(top = 8.dp), message = tr("Try another search, or show more kinds of words.")) }
+                    bands.isEmpty() -> item(key = "empty") { EmptyState(AppIcons.BarChart, tr("No words match"), Modifier.padding(top = AppSpacing.s), message = tr("Try another search, or show more kinds of words.")) }
                     else -> {
                         bands.forEachIndexed { i, band ->
                             item(key = "band-${band.index}") { BandHeader(
@@ -245,7 +248,7 @@ internal fun WordFrequencyContent(
                         item(key = "credit") {
                             Text(
                                 tr("Word counts: {0}. Words are grouped with their forms using Wiktionary data (CC BY-SA 4.0) and the simplemma lemmatizer.", overview.source),
-                                Modifier.padding(top = 28.dp),
+                                Modifier.padding(top = AppSpacing.xxxl),
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                             )
@@ -286,6 +289,9 @@ private val BASE_LETTERS: Map<Char, Char> = buildMap {
 
 private val CELL_WIDTH = 168.dp
 private val INDEX_WIDTH = 56.dp
+private val WORD_MIN_WIDTH = 24.dp
+private val SEARCH_WIDTH = 320.dp
+private val TERM_PANEL_WIDTH = 440.dp
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -293,7 +299,7 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val overview = state.overview
-    Column(Modifier.fillMaxWidth().padding(bottom = 12.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
+    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
         ScreenHeader(
             tr("Word frequency"),
             if (overview == null) tr("The most common words of a language, from the most used down.")
@@ -301,7 +307,7 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
         )
         if (overview == null) return@Column
         // The link keeps its words together and goes under the sentence when the line is full.
-        FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+        FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Text(
                 if (state.level > 0) tr("Your vocabulary level: {0}", formatCount(state.level)) else tr("No vocabulary level set yet: use a band's button, or"),
                 style = MaterialTheme.typography.bodyMedium,
@@ -315,8 +321,8 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
                 Text(tr("Saving the level…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
         }
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
-            SearchField(state.search, onSearch, tr("Find a word"), if (compact) Modifier.fillMaxWidth() else Modifier.width(320.dp), fieldModifier = Modifier.testTag("frequency-search"))
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), itemVerticalAlignment = Alignment.CenterVertically) {
+            SearchField(state.search, onSearch, tr("Find a word"), if (compact) Modifier.fillMaxWidth() else Modifier.width(SEARCH_WIDTH), fieldModifier = Modifier.testTag("frequency-search"))
             WordKnowledge.entries.forEach { knowledge ->
                 KnowledgeChip(knowledge, overview.count(knowledge), selected = knowledge in state.shown) { onToggle(knowledge) }
             }
@@ -337,9 +343,9 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
     val known = band.count(WordKnowledge.KNOWN)
     val learning = band.count(WordKnowledge.LEARNING)
     val ignored = band.count(WordKnowledge.IGNORED)
-    Column(Modifier.fillMaxWidth().padding(top = 28.dp, bottom = 10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            Text(tr("Ranks {0}–{1}", band.firstRank, band.lastRank), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+    Column(Modifier.fillMaxWidth().padding(top = AppSpacing.xxxl, bottom = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            Text(tr("Ranks {0}–{1}", band.firstRank, band.lastRank), style = AppText.itemTitle)
             if (isLevel) {
                 Tag(tr("Your level"), size = TagSize.Medium, style = TagStyle.Solid)
             }
@@ -363,7 +369,7 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
             }
         }
         // The band's words by status, known first.
-        Row(Modifier.fillMaxWidth().height(6.dp).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = AppAlpha.wash))) {
+        Row(Modifier.fillMaxWidth().height(AppSizes.track).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = AppAlpha.wash))) {
             for ((knowledge, n) in listOf(WordKnowledge.KNOWN to known, WordKnowledge.LEARNING to learning, WordKnowledge.IGNORED to ignored)) {
                 if (n > 0) Box(Modifier.weight(n.toFloat()).fillMaxHeight().background(knowledge.tint()))
             }
@@ -381,7 +387,7 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
     var translation by remember(word.word.word) { mutableStateOf<String?>(null) }
     var looked by remember(word.word.word) { mutableStateOf(false) }
     val learning = word.knowledge == WordKnowledge.LEARNING
-    Box(modifier.padding(vertical = 3.dp, horizontal = 2.dp)) {
+    Box(modifier.padding(vertical = AppSpacing.xs, horizontal = AppSpacing.xxs)) {
         AppRichTooltip(
             "${word.word.word}  ·  #${word.word.rank}",
             persistent = true,
@@ -393,8 +399,8 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
                         looked = true
                     }
                 }
-                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Text(if (looked) translation ?: tr("No translation found") else tr("Looking up…"), fontWeight = FontWeight.Medium)
+                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    Text(if (looked) translation ?: tr("No translation found") else tr("Looking up…"), style = AppText.label)
                     val others = word.word.forms.filter { it != word.word.key }.take(8)
                     if (others.isNotEmpty()) Text(tr("Also: {0}", others.joinToString(", ")), style = MaterialTheme.typography.bodySmall)
                     Text(statusLabel(word.status), style = MaterialTheme.typography.bodySmall)
@@ -407,8 +413,8 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
                     .then(if (learning) Modifier.background(statuses.background(word.status)) else Modifier)
                     .then(if (selected) Modifier.border(AppBorders.selected(), AppShapes.small) else Modifier)
                     .clickable { onOpen(word.word.word) }
-                    .padding(horizontal = 8.dp, vertical = 5.dp)
-                    .widthIn(min = 24.dp)
+                    .padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs)
+                    .widthIn(min = WORD_MIN_WIDTH)
                     .testTag("word-${word.word.word}"),
                 style = MaterialTheme.typography.bodyLarge,
                 color = when (word.knowledge) {
@@ -438,11 +444,11 @@ private fun statusLabel(status: TermStatus): String = when (status) {
 private fun RankIndex(wordCount: Int, modifier: Modifier, onJump: (rank: Int) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val marks = (listOf(1) + (100..900 step 100) + (1000..10_000 step 1000)).filter { it <= wordCount }
-    Column(modifier.padding(vertical = 24.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(2.dp)) {
+    Column(modifier.padding(vertical = AppSpacing.xxl), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
         marks.forEach { mark ->
             Text(
                 if (mark >= 1000) "${mark / 1000}k" else "$mark",
-                Modifier.clip(AppShapes.small).clickable { onJump(if (mark == 1) 1 else mark + 1) }.padding(horizontal = 8.dp, vertical = 3.dp).testTag("rank-$mark"),
+                Modifier.clip(AppShapes.small).clickable { onJump(if (mark == 1) 1 else mark + 1) }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs).testTag("rank-$mark"),
                 style = MaterialTheme.typography.labelMedium,
                 color = colors.onSurfaceVariant,
             )

@@ -19,7 +19,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.ui.components.AppIcons
@@ -45,6 +44,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppSpacing
 import org.koin.compose.viewmodel.koinViewModel
 
 @Composable
@@ -119,17 +119,17 @@ internal fun VocabularySettingsContent(
     ) {
         // The same estimate and preview as the question asked when a language is first chosen.
         if (wide) {
-            Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(24.dp)) {
+            Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl)) {
                 EstimateCard(list, state.shownLevel, onPick, Modifier.weight(1f).fillMaxHeight())
                 PreviewCard(state, state.shownLevel, Modifier.weight(1f).fillMaxHeight())
             }
         } else {
             EstimateCard(list, state.shownLevel, onPick, Modifier.fillMaxWidth())
-            Spacer(Modifier.height(20.dp))
+            Spacer(Modifier.height(AppSpacing.xl))
             PreviewCard(state, state.shownLevel, Modifier.fillMaxWidth())
         }
-        Spacer(Modifier.height(20.dp))
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+        Spacer(Modifier.height(AppSpacing.xl))
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             PrimaryButton(tr("Set vocabulary level"), onClick = { confirming = true }, enabled = state.picked != null && !state.saving, modifier = Modifier.testTag("set-vocabulary-level"))
             if (state.saving) {
                 AppSpinner(size = SpinnerSize.Small)
