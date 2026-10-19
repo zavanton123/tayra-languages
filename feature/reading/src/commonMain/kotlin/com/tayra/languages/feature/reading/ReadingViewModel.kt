@@ -43,6 +43,7 @@ import com.tayra.languages.core.ui.state.UiEvents
 import com.tayra.languages.core.ui.theme.AppThemes
 import io.ktor.http.encodeURLParameter
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.drop
@@ -116,8 +117,6 @@ data class ReadingUiState(
     val activeWordIndexes: List<Int>
         get() = if (marked.isNotEmpty()) marked.sorted() else listOfNotNull(hovered)
 
-    val activeTermIds: List<Long> get() = activeWordIndexes.mapNotNull { items.getOrNull(it)?.termId }.distinct()
-
     fun itemsInSelection(): List<TextItem> {
         val range = selection ?: return emptyList()
         return items.filter { it.index in range }
@@ -178,10 +177,28 @@ class ReadingViewModel(
     private var speechJob: Job? = null
     private var lastTranslation: Pair<String, Int>? = null
 
+    /**
+     * Status changes run one at a time, each after the page has reloaded from the one before, so
+     * they read the words' stored statuses: a right click just after a word was made well known
+     * would otherwise see it still being learned, and overlapping reloads could land out of order.
+     */
+    private val statusChanges = Channel<suspend () -> Unit>(Channel.UNLIMITED)
+
     /** The page's sentences by how far their audio has got, for the play buttons. */
     val sentenceAudioStates: StateFlow<Map<String, SentenceAudioState>> = sentenceAudio.states
 
     init {
+        viewModelScope.launch {
+            for (change in statusChanges) {
+                try {
+                    change()
+                } catch (e: CancellationException) {
+                    throw e
+                } catch (e: Exception) {
+                    Logger.e(e) { "Could not change the status" }
+                }
+            }
+        }
         // A new engine, voice or speed makes different audio, so the page is prepared again.
         viewModelScope.launch {
             settingsRepository.settings
@@ -332,13 +349,24 @@ class ReadingViewModel(
      * Sets one word's status. Unknown words have no stored term yet (their id is 0), so those
      * are created through the reading service instead of updated by id.
      */
-    private fun setStatusForItem(item: TextItem, status: TermStatus) {
+    private suspend fun setStatusForItem(item: TextItem, status: TermStatus) {
         val language = _state.value.language ?: return
         val sentence = sentenceOf(item)
-        viewModelScope.launch {
-            val id = item.termId
-            if (id != null) termService.setStatus(listOf(id), status, sentence?.let { mapOf(id to it) }.orEmpty()) else readingService.setStatusForTexts(language, listOf(item.text), status, sentence)
-            afterTermChange()
+        val id = item.termId
+        if (id != null) termService.setStatus(listOf(id), status, sentence?.let { mapOf(id to it) }.orEmpty()) else readingService.setStatusForTexts(language, listOf(item.text), status, sentence)
+        afterTermChange()
+    }
+
+    /**
+     * Queues a status change to the words at [indexes], picked now; they are read once the
+     * changes before it have landed, and left alone if the page has been turned meanwhile.
+     */
+    private fun changeStatus(indexes: List<Int>, change: suspend (List<TextItem>) -> Unit) {
+        if (indexes.isEmpty()) return
+        val page = _state.value.pageNumber
+        statusChanges.trySend {
+            val s = _state.value
+            if (s.pageNumber == page) change(indexes.mapNotNull { s.items.getOrNull(it) })
         }
     }
 
@@ -346,12 +374,9 @@ class ReadingViewModel(
     private fun sentenceOf(item: TextItem): String? =
         _state.value.page.paragraphs.asSequence().flatMap { it.sentences }.firstOrNull { s -> s.items.any { it === item } }?.displayText?.takeIf { it.isNotBlank() }
 
-    /** The sentences the active words are read in, by term id. */
-    private fun activeSentences(): Map<Long, String> {
-        val s = _state.value
-        return s.activeWordIndexes.mapNotNull { s.items.getOrNull(it) }
-            .mapNotNull { item -> item.termId?.let { id -> sentenceOf(item)?.let { id to it } } }.toMap()
-    }
+    /** The sentences [items] are read in, by term id. */
+    private fun sentencesOf(items: List<TextItem>): Map<Long, String> =
+        items.mapNotNull { item -> item.termId?.let { id -> sentenceOf(item)?.let { id to it } } }.toMap()
 
     /**
      * Right click, without opening the panel: an unknown word starts at status 1, a word being
@@ -361,10 +386,11 @@ class ReadingViewModel(
         val s = _state.value
         val item = s.items.getOrNull(itemIndex) ?: return
         if (!item.isWord) return
-        val next = if (item.status.isLearning) TermStatus.WELL_KNOWN else TermStatus.NEW_1
         hidePopup()
         _state.update { it.copy(marked = setOf(itemIndex), hovered = null, selection = null, selecting = false) }
-        setStatusForItem(item, next)
+        changeStatus(listOf(itemIndex)) { (word) ->
+            setStatusForItem(word, if (word.status.isLearning) TermStatus.WELL_KNOWN else TermStatus.NEW_1)
+        }
     }
 
     private fun openTerm(item: TextItem) {
@@ -514,24 +540,18 @@ class ReadingViewModel(
 
     // ---- term changes
 
-    fun setStatus(status: TermStatus) {
-        val ids = _state.value.activeTermIds
-        if (ids.isEmpty()) return
-        val sentences = activeSentences()
-        viewModelScope.launch {
-            termService.setStatus(ids, status, sentences)
-            afterTermChange()
-        }
+    fun setStatus(status: TermStatus) = changeStatus(_state.value.activeWordIndexes) { words ->
+        val ids = words.mapNotNull { it.termId }.distinct()
+        if (ids.isEmpty()) return@changeStatus
+        termService.setStatus(ids, status, sentencesOf(words))
+        afterTermChange()
     }
 
-    fun shiftStatus(delta: Int) {
-        val ids = _state.value.activeTermIds
-        if (ids.isEmpty()) return
-        val sentences = activeSentences()
-        viewModelScope.launch {
-            termService.shiftStatus(ids, delta, sentences)
-            afterTermChange()
-        }
+    fun shiftStatus(delta: Int) = changeStatus(_state.value.activeWordIndexes) { words ->
+        val ids = words.mapNotNull { it.termId }.distinct()
+        if (ids.isEmpty()) return@changeStatus
+        termService.shiftStatus(ids, delta, sentencesOf(words))
+        afterTermChange()
     }
 
     fun applyBulkUpdate(update: BulkTermUpdate) {
