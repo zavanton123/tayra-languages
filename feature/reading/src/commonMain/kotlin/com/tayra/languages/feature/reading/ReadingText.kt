@@ -1,100 +1,104 @@
 package com.tayra.languages.feature.reading
 
-import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.drag
 import androidx.compose.foundation.gestures.waitForUpOrCancellation
-import androidx.compose.foundation.layout.Box
-import kotlin.math.roundToInt
-import androidx.compose.ui.platform.LocalDensity
-import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppSpinner
-import com.tayra.languages.core.ui.components.SpinnerSize
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.Icon
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.hoverable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsHoveredAsState
-import androidx.compose.ui.draw.BlurredEdgeTreatment
-import androidx.compose.ui.draw.blur
-import androidx.compose.ui.graphics.graphicsLayer
-import com.tayra.languages.core.ui.components.softBlurAvailable
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.geometry.CornerRadius
-import androidx.compose.ui.draw.drawBehind
-import com.tayra.languages.core.domain.morphology.Furigana
-import androidx.compose.ui.text.style.LineHeightStyle
-import androidx.compose.ui.text.drawText
-import com.tayra.languages.core.ui.components.toneColored
-import androidx.compose.ui.text.rememberTextMeasurer
-import androidx.compose.ui.text.TextMeasurer
-import androidx.compose.ui.draw.drawWithContent
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.foundation.relocation.bringIntoViewRequester
-import androidx.compose.foundation.relocation.BringIntoViewRequester
-import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.background
-import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.semantics.stateDescription
-import androidx.compose.ui.semantics.contentDescription
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.aspectRatio
-import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.unit.em
-import androidx.compose.ui.text.PlaceholderVerticalAlign
-import androidx.compose.ui.text.Placeholder
-import androidx.compose.foundation.text.appendInlineContent
-import androidx.compose.foundation.text.InlineTextContent
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.size
-import androidx.compose.ui.Alignment
-import com.tayra.languages.core.domain.service.SentenceTranslation
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.relocation.BringIntoViewRequester
+import androidx.compose.foundation.relocation.bringIntoViewRequester
+import androidx.compose.foundation.text.InlineTextContent
+import androidx.compose.foundation.text.appendInlineContent
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.BlurredEdgeTreatment
+import androidx.compose.ui.draw.blur
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.lerp
+import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.PointerType
 import androidx.compose.ui.input.pointer.isPrimaryPressed
 import androidx.compose.ui.input.pointer.isSecondaryPressed
 import androidx.compose.ui.input.pointer.isShiftPressed
-import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.stateDescription
 import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.Placeholder
+import androidx.compose.ui.text.PlaceholderVerticalAlign
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextLayoutResult
+import androidx.compose.ui.text.TextMeasurer
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.drawText
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.rememberTextMeasurer
+import androidx.compose.ui.text.style.LineHeightStyle
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
-import kotlinx.coroutines.withTimeoutOrNull
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.morphology.Furigana
 import com.tayra.languages.core.domain.render.RenderedPage
 import com.tayra.languages.core.domain.render.TextItem
+import com.tayra.languages.core.domain.service.SentenceTranslation
+import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
+import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.softBlurAvailable
+import com.tayra.languages.core.ui.components.toneColored
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppTheme
-import com.tayra.languages.core.ui.i18n.tr
+import kotlin.math.roundToInt
+import kotlinx.coroutines.withTimeoutOrNull
 
 /** Callbacks from the text to the screen. Item indexes refer to [RenderedPage.items]. */
 data class ReadingTextCallbacks(
@@ -465,9 +469,26 @@ private fun ParagraphText(
     val currentSpans by rememberUpdatedState(spans)
     val rubySize = 18 * fontScale * RUBY_SCALE
     val measurer = rememberTextMeasurer()
-    val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint) {
+    // A word whose status changes fades from its old colour to its new one; the words are told apart
+    // by their text too, so a page turned, whose words take the same places, fades nothing.
+    val known = remember { HashMap<Int, Pair<String, TermStatus>>() }
+    val reduceMotion = AppMotion.reduced
+    val fading = remember(items) {
+        val changed = HashMap<Int, TermStatus>()
+        items.forEachIndexed { i, item ->
+            if (!item.isWord) return@forEachIndexed
+            val key = firstItemIndex + i
+            known[key]?.let { (text, status) -> if (text == item.renderText && status != item.status) changed[key] = status }
+            known[key] = item.renderText to item.status
+        }
+        changed
+    }
+    val fade = remember(items) { Animatable(if (fading.isEmpty() || reduceMotion) 1f else 0f) }
+    LaunchedEffect(fade) { if (fade.value < 1f) fade.animateTo(1f, tween(AppMotion.medium, easing = AppMotion.standard)) }
+    val fraction = if (fading.isEmpty()) 1f else fade.value
+    val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint, fraction) {
         spans.clear()
-        buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint)
+        buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint, fading, fraction)
     }
     val primary = MaterialTheme.colorScheme.primary
     val inlineContent = remember(inlinePlay, onSpeakSentence, primary, playingSentence, preparingSentences) {
@@ -623,8 +644,24 @@ private fun buildParagraph(
     trimLeadingSpace: Boolean = false,
     readingItems: IntRange? = null,
     readingTint: Color = Color.Transparent,
+    /** Words whose status just changed, with the status they had, and how far their colour has come from it to the new one. */
+    fading: Map<Int, TermStatus> = emptyMap(),
+    fade: Float = 1f,
 ): AnnotatedString = buildAnnotatedString {
     val colors = theme.statusColors
+
+    // How a word of [status] is coloured: its letters, on the background its status gives.
+    fun colouring(status: TermStatus, highlight: Boolean): SpanStyle {
+        if (!highlight || status == TermStatus.WELL_KNOWN || status == TermStatus.IGNORED) return SpanStyle()
+        val background = colors.background(status)
+        return when {
+            status == TermStatus.UNKNOWN && colors.unknownAsText -> SpanStyle(color = background)
+            background != Color.Transparent -> SpanStyle(background = background, color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color.Unspecified)
+            else -> SpanStyle()
+        }
+    }
+
+    fun Color.orElse(other: Color) = if (this == Color.Unspecified) other else this
     // Leading blank items still get (empty) spans, so item positions stay as they are.
     val firstShown = if (trimLeadingSpace) items.indexOfFirst { it.renderText.isNotBlank() }.coerceAtLeast(0) else 0
     items.forEachIndexed { i, item ->
@@ -636,15 +673,14 @@ private fun buildParagraph(
         val isHovered = itemIndex == hovered
         var style = SpanStyle()
         if (item.isWord) {
-            val status = item.status
             val highlight = showHighlights || isHovered || isMarked
-            if (highlight && status != TermStatus.WELL_KNOWN && status != TermStatus.IGNORED) {
-                val background = colors.background(status)
-                if (status == TermStatus.UNKNOWN && colors.unknownAsText) {
-                    style = style.copy(color = background)
-                } else if (background != Color.Transparent) {
-                    style = style.copy(background = background, color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color.Unspecified)
-                }
+            style = colouring(item.status, highlight)
+            val before = fading[itemIndex]
+            if (before != null && fade < 1f) {
+                val from = colouring(before, highlight)
+                val background = lerp(from.background.orElse(Color.Transparent), style.background.orElse(Color.Transparent), fade)
+                val letters = lerp(from.color.orElse(theme.readingText), style.color.orElse(theme.readingText), fade)
+                style = SpanStyle(background = background, color = letters)
             }
             // The word under the mouse turns plain gray, whatever its status colour, so it reads as "pointed at".
             if (isHovered && !isMarked) style = SpanStyle(background = theme.readingText.copy(alpha = HOVER_ALPHA))
