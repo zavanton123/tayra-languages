@@ -228,6 +228,7 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Download word finder" to "下载找词工具",
     "word finder" to "找词工具",
     "Import a dictionary" to "导入词典",
+    "Yomitan, MDict or StarDict files" to "Yomitan、MDict 或 StarDict 文件",
     "Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages." to "添加你自己的词典，支持 Yomitan（.zip）、MDict（.mdx）或 StarDict（.ifo、.idx 和 .dict 文件，或它们的压缩包）格式；其词条会显示在对应语言的离线词典旁边。",
     "Importing {0}..." to "正在导入 {0}…",
     "Reading the dictionary..." to "正在读取词典…",

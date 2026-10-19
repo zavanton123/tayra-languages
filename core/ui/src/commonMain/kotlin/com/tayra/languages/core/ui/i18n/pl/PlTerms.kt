@@ -228,6 +228,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "Download word finder" to "Pobierz wyszukiwarkę słów",
     "word finder" to "wyszukiwarka słów",
     "Import a dictionary" to "Importuj słownik",
+    "Yomitan, MDict or StarDict files" to "Pliki Yomitan, MDict lub StarDict",
     "Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages." to "Dodaj własny słownik dla Yomitan (.zip), MDict (.mdx) lub StarDict (jego pliki .ifo, .idx i .dict albo ich archiwum); jego hasła będą wyświetlane obok słownika offline dla tych języków.",
     "Importing {0}..." to "Importowanie: {0}…",
     "Reading the dictionary..." to "Wczytywanie słownika…",

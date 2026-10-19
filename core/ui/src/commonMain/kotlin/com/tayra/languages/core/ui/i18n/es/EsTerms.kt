@@ -228,6 +228,7 @@ internal val esTerms: Map<String, String> = mapOf(
     "Download word finder" to "Descargar buscador de palabras",
     "word finder" to "buscador de palabras",
     "Import a dictionary" to "Importar un diccionario",
+    "Yomitan, MDict or StarDict files" to "Archivos de Yomitan, MDict o StarDict",
     "Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages." to "Añade un diccionario propio para Yomitan (.zip), MDict (.mdx) o StarDict (sus archivos .ifo, .idx y .dict, o un archivo comprimido con ellos); sus entradas se muestran junto al diccionario sin conexión de sus idiomas.",
     "Importing {0}..." to "Importando {0}…",
     "Reading the dictionary..." to "Leyendo el diccionario…",

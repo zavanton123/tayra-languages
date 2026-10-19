@@ -3,12 +3,14 @@ package com.tayra.languages.feature.settings
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
@@ -25,14 +27,13 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppSpacing
 import io.github.vinceglb.filekit.dialogs.FileKitMode
 import io.github.vinceglb.filekit.dialogs.FileKitType
-import io.github.vinceglb.filekit.name
 import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
+import io.github.vinceglb.filekit.name
 import io.github.vinceglb.filekit.readBytes
-import androidx.compose.runtime.rememberCoroutineScope
 import kotlinx.coroutines.launch
-import com.tayra.languages.core.ui.theme.AppSpacing
 
 /** Imports a dictionary of the user's own (Yomitan, MDict or StarDict), whose entries then show with the pack of its language pair. */
 @Composable
@@ -45,9 +46,16 @@ internal fun ImportDictionaryCard(viewModel: DictionariesViewModel, learning: La
     }
     ContentCard(
         tr("Import a dictionary"),
-        tr("Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages."),
+        // One line under the title, as on every card; the file details follow in small print.
+        tr("Yomitan, MDict or StarDict files"),
         icon = AppIcons.Download,
     ) {
+        Text(
+            tr("Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages."),
+            Modifier.padding(bottom = AppSpacing.m),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
         when (val current = state) {
             is DictionaryImport.Importing -> {
                 Text(tr("Importing {0}...", current.title), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
