@@ -72,6 +72,7 @@ import kotlinx.coroutines.launch
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.components.itemMotion
 
 /** How long a whole article is, by its size on the wiki. */
 enum class ArticleLength(val below: Int) {
@@ -347,9 +348,9 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                     )
                 }
                 state.shown.isEmpty() -> item { EmptyState(AppIcons.Globe, if (state.articles.isEmpty()) tr("No articles found.") else tr("No articles match these filters.")) }
-                else -> items(state.shown.size, key = { state.shown[it].article.url }) { i ->
+                else -> items(state.shown.size, key = { state.shown[it].article.url }) { i -> Box(itemMotion()) {
                     WikiCard(state.shown[i], state, actions, compact, Modifier.padding(bottom = AppSpacing.m))
-                }
+                }}
             }
             if (state.loadingMore) item { Box(Modifier.fillMaxWidth().padding(vertical = AppSpacing.l), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Medium) } }
             item {

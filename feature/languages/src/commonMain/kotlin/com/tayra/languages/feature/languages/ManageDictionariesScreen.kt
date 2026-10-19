@@ -52,6 +52,7 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.components.itemMotion
 
 /** Enables or disables the online dictionaries offered for one language. */
 @Composable
@@ -100,13 +101,13 @@ fun ManageDictionariesScreen(
                 if (state.preferred.isEmpty()) {
                     item { Text(tr("No dictionaries enabled yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
                 }
-                itemsIndexed(state.preferred, key = { index, entry -> entry.key("on", index) }) { _, entry ->
+                itemsIndexed(state.preferred, key = { index, entry -> entry.key("on", index) }) { _, entry -> Box(itemMotion()) {
                     DictionaryRow(entry.name, entry.url, tint = AppAccents.green, icon = Icons.Default.Close, iconDescription = tr("Disable")) { viewModel.disable(entry) }
-                }
+                }}
                 item { SectionLabel(tr("All resources"), topPadding = AppSpacing.xl) }
-                itemsIndexed(state.available, key = { index, entry -> entry.key("off", index) }) { _, entry ->
+                itemsIndexed(state.available, key = { index, entry -> entry.key("off", index) }) { _, entry -> Box(itemMotion()) {
                     DictionaryRow(entry.name, entry.url, tint = null, icon = Icons.Default.Add, iconDescription = tr("Enable")) { viewModel.enable(entry) }
-                }
+                }}
             }
         }
     }

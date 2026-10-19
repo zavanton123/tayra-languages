@@ -92,6 +92,7 @@ import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import kotlin.random.Random
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.itemMotion
 
 private val WordKnowledge.label: String
     get() = when (this) {
@@ -238,12 +239,12 @@ internal fun WordFrequencyContent(
                                     onSetLevel = { asking = overview.bands[band.index].firstRank - 1 },
                                 )
                             }
-                            items(rows[i], key = { "row-${it.first().word.rank}" }) { row ->
+                            items(rows[i], key = { "row-${it.first().word.rank}" }) { row -> Box(itemMotion()) {
                                 Row(Modifier.fillMaxWidth()) {
                                     row.forEach { WordCell(it, selected = it.word.word == state.selected, onOpen, translate, Modifier.weight(1f)) }
                                     repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
                                 }
-                            }
+                            }}
                         }
                         item(key = "credit") {
                             Text(

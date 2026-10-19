@@ -103,6 +103,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
+import com.tayra.languages.core.ui.components.Reveal
 
 /** The speech engines: which one reads aloud, its runtime, and the voices to download. */
 @OptIn(ExperimentalCoroutinesApi::class)
@@ -349,7 +350,7 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) 
                 Spacer(Modifier.width(AppSpacing.s))
                 Text(tr("Advanced engine settings"), style = MaterialTheme.typography.bodyLarge)
             }
-            if (advanced) {
+            Reveal(advanced) {
                 Column(Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     Text(
                         tr("{0} runs in the app's own Python, kept in the app folder. Reinstalling downloads it again, which repairs a broken installation; downloaded voices are kept.", engine.displayName),

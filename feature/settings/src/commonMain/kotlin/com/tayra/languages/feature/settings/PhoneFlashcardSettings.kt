@@ -46,6 +46,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.components.Reveal
 
 /** The flashcard settings on a phone: compact cards of plain rows, the explanation folded away, Reset at the bottom. */
 @Composable
@@ -133,7 +134,7 @@ private fun HowItWorks() {
             Text(tr("How flashcard scheduling works"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
             Icon(if (open) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant)
         }
-        if (open) {
+        Reveal(open) {
             Text(
                 tr("Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card."),
                 Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l),

@@ -55,6 +55,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.components.Reveal
 
 /**
  * The Backups page on a phone: one card with the two actions, the history as a plain list with a
@@ -163,7 +164,7 @@ private fun IncludedRow() {
             Text(tr("What's included in a backup"), Modifier.weight(1f), style = AppText.itemTitle)
             Icon(if (open) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant)
         }
-        if (open) {
+        Reveal(open) {
             Column(Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.m)) { IncludedLines(gap = AppSpacing.m) }
         }
     }

@@ -63,6 +63,7 @@ import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.Scaffold
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.components.itemMotion
 
 /**
  * The language being learned and the ones to choose from; [languages] are ids with their English names, shown through `tr`.
@@ -192,7 +193,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                 if (others.isEmpty()) {
                     item { Text(tr("No languages match"), Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
                 }
-                itemsIndexed(others, key = { _, (id, _) -> id }) { index, (id, name) ->
+                itemsIndexed(others, key = { _, (id, _) -> id }) { index, (id, name) -> Box(itemMotion()) {
                     val native = id in state.nativeIds
                     Row(
                         Modifier.fillMaxWidth().clickable(enabled = !native) { onBack(); state.onSelect(id) }.alpha(if (native) AppAlpha.disabled else 1f)
@@ -205,7 +206,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                         if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
                     }
                     if (index < others.lastIndex) AppDivider(Modifier.padding(start = AppSpacing.l, end = AppSpacing.xxxl), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
-                }
+                }}
             }
             if (letters.size > 1) {
                 Column(Modifier.align(Alignment.CenterEnd).padding(end = AppSpacing.xs), horizontalAlignment = Alignment.CenterHorizontally) {

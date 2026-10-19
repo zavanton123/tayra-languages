@@ -43,6 +43,8 @@ import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.components.itemMotion
+import androidx.compose.foundation.layout.Box
 
 data class BookmarksUiState(val title: String = "", val bookmarks: List<PageBookmark> = emptyList())
 
@@ -72,7 +74,7 @@ fun BookmarksScreen(
                 EmptyMessage(tr("No bookmarks yet. Add one from the reading menu."))
             } else {
                 ScrollList(Modifier.fillMaxSize()) {
-                    items(state.bookmarks, key = { it.id }) { bookmark ->
+                    items(state.bookmarks, key = { it.id }) { bookmark -> Box(itemMotion()) {
                         Row(
                             Modifier.fillMaxWidth().clickable { onNavigate(Route.Read(bookId, bookmark.pageNumber)) }.padding(horizontal = AppSpacing.l, vertical = AppSpacing.s),
                             verticalAlignment = Alignment.CenterVertically,
@@ -85,7 +87,7 @@ fun BookmarksScreen(
                             AppIconButton(Icons.Default.Delete, contentDescription = tr("Delete"), onClick = { viewModel.delete(bookmark.id) })
                         }
                         AppDivider()
-                    }
+                    }}
                 }
             }
         }

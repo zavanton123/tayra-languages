@@ -67,6 +67,7 @@ import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import org.koin.compose.viewmodel.koinViewModel
+import com.tayra.languages.core.ui.components.itemMotion
 
 /** Free books to add to the library, found in online libraries and judged by the words the reader knows. */
 @Composable
@@ -138,9 +139,9 @@ internal fun FindBooksContent(state: FindBooksUiState, actions: FindBooksActions
                 state.loading -> item { Centered { AppSpinner(size = SpinnerSize.Large) } }
                 state.error != null -> item { ErrorBox(state, actions) }
                 state.shown.isEmpty() -> item { EmptyBox(state, actions) }
-                else -> items(state.shown.size, key = { "${state.shown[it].book.source}-${state.shown[it].book.id}" }) { i ->
+                else -> items(state.shown.size, key = { "${state.shown[it].book.source}-${state.shown[it].book.id}" }) { i -> Box(itemMotion()) {
                     FoundBookCard(state.shown[i], actions, compact, Modifier.padding(bottom = AppSpacing.m))
-                }
+                }}
             }
             if (state.loadingMore) item { Centered { AppSpinner(size = SpinnerSize.Medium) } }
             if (!state.loading && state.error == null) item { SourceNote(state.source) }

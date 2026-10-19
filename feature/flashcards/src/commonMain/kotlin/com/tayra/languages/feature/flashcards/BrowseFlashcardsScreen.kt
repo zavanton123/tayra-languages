@@ -97,6 +97,7 @@ import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.viewmodel.koinViewModel
 import kotlin.math.roundToInt
 import kotlin.time.Instant
+import com.tayra.languages.core.ui.components.itemMotion
 
 /**
  * Every flashcard of the language being learned in one list, as Anki's browser: searched, shown
@@ -204,9 +205,9 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
             state.rows.isEmpty() -> item { EmptyCards(state) }
             else -> {
                 item { CardTableHeader(state, viewModel) }
-                itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row ->
+                itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row -> Box(itemMotion()) {
                     CardTableRow(row, state, index, actions)
-                }
+                }}
             }
         }
     }

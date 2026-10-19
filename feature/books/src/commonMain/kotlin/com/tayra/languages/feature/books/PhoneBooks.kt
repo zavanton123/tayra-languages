@@ -62,6 +62,7 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.components.itemMotion
 
 /** The phone bar's list menu (ticking books, the archive) and the button for a new book. */
 @Composable
@@ -121,10 +122,10 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
         if (books.isEmpty()) {
             item { NoBooks(state.archived, callbacks.onNewBook) }
         } else {
-            items(books.size, key = { books[it].id }) { i ->
+            items(books.size, key = { books[it].id }) { i -> Box(itemMotion()) {
                 PhoneBookCard(books[i], books[i].id in state.selected, showChecks, callbacks)
                 Spacer(Modifier.height(AppSpacing.m))
-            }
+            }}
         }
         item { Footer(state) }
     }

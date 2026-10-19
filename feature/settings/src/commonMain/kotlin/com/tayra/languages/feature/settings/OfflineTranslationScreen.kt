@@ -98,6 +98,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
+import com.tayra.languages.core.ui.components.Reveal
 
 /** Argos Translate on this computer: its runtime, the Python it runs on, and its language packages. */
 class OfflineTranslationViewModel(
@@ -447,7 +448,7 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
                 Spacer(Modifier.width(AppSpacing.s))
                 Text(tr("Advanced runtime settings"), style = MaterialTheme.typography.bodyLarge)
             }
-            if (advanced) {
+            Reveal(advanced) {
                 AppTextField(
                     value = settings.argosPython,
                     onValueChange = { v -> viewModel.update { it.copy(argosPython = v.trim()) } },

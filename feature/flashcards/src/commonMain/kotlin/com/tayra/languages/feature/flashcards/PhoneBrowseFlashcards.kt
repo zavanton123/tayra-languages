@@ -52,6 +52,7 @@ import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.components.itemMotion
 
 /** The browser on a phone: the cards as a list, the groups in a scrolling row, sorting from a sheet and the card info in another. */
 @Composable
@@ -100,11 +101,11 @@ internal fun PhoneBrowseFlashcardsScreen(
             when {
                 state.loading -> item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = colors.onSurfaceVariant) }
                 state.rows.isEmpty() -> item { Box(Modifier.padding(horizontal = AppSpacing.l)) { EmptyCards(state) } }
-                else -> itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row ->
+                else -> itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row -> Box(itemMotion()) {
                     AppDivider()
                     PhoneCardRow(row, state, showCheck = showChecks, actions)
                     if (index == state.rows.lastIndex) AppDivider()
-                }
+                }}
             }
         }
     }

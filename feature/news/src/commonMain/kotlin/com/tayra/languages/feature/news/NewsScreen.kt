@@ -73,6 +73,7 @@ import kotlin.time.Instant
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.components.itemMotion
 
 /** What the News section shows: the news sites' feeds, or the articles of Wikipedia and the other wikis. */
 enum class NewsTab { NEWS, WIKIPEDIA }
@@ -231,9 +232,9 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
                                 },
                             )
                         }
-                        else -> items(state.shown.size, key = { state.shown[it].article.url }) { i ->
+                        else -> items(state.shown.size, key = { state.shown[it].article.url }) { i -> Box(itemMotion()) {
                             NewsCard(state.shown[i], state, actions, compact, now, Modifier.padding(bottom = AppSpacing.m))
-                        }
+                        }}
                     }
                     item {
                         Text(

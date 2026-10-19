@@ -85,6 +85,7 @@ import kotlinx.datetime.minus
 import kotlinx.datetime.toLocalDateTime
 import kotlin.time.Clock
 import kotlin.time.Instant
+import com.tayra.languages.core.ui.components.itemMotion
 
 /** The days-ago choices the phone's Added filter offers; null leaves that end open. */
 private val DAY_CHOICES = listOf(null, 1, 3, 7, 14, 30, 90, 365)
@@ -162,10 +163,10 @@ internal fun PhoneTermsScreen(
             } else if (state.terms.isEmpty()) {
                 item { EmptyState(AppIcons.Book, tr("No terms match the current filters.")) }
             } else {
-                itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term ->
+                itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term -> Box(itemMotion()) {
                     PhoneTermRow(term, state.languageName(term.languageId), selected = term.id in state.selected, showCheck = showChecks, rowActions)
                     Spacer(Modifier.height(AppSpacing.s))
-                }
+                }}
             }
             item { Pager(state, viewModel, compact = true) }
         }
