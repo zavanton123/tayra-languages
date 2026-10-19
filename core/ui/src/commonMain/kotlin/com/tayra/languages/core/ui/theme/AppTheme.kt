@@ -61,7 +61,7 @@ object AppThemes {
         id = "default",
         englishLabel = "Default",
         isDark = false,
-        colorScheme = lightColorScheme(
+        colorScheme = completed(lightColorScheme(
             primary = Color(0xFF1F5F8B),
             secondary = Color(0xFF5B7C99),
             surface = Color(0xFFFFFFFF),
@@ -77,7 +77,7 @@ object AppThemes {
             surfaceContainerHighest = Color(0xFFE6E8EB),
             outline = Color(0xFF8A929C),
             outlineVariant = Color(0xFFDDE1E6),
-        ),
+        )),
         statusColors = lightStatuses(page = Color.White),
         readingBackground = Color.White,
         readingText = Color.Black,
@@ -87,7 +87,7 @@ object AppThemes {
     val sepia = default.copy(
         id = "sepia",
         englishLabel = "Sepia",
-        colorScheme = lightColorScheme(
+        colorScheme = completed(lightColorScheme(
             primary = Color(0xFF7A4B2A),
             secondary = Color(0xFF9C7A54),
             surface = Color(0xFFF7EEDD),
@@ -101,7 +101,7 @@ object AppThemes {
             surfaceContainerHighest = Color(0xFFE3D3B6),
             outline = Color(0xFF9C8B70),
             outlineVariant = Color(0xFFDCCDB0),
-        ),
+        )),
         statusColors = lightStatuses(page = Color(0xFFF7EEDD)),
         readingBackground = Color(0xFFF7EEDD),
         readingText = Color(0xFF3B2F2F),
@@ -111,7 +111,7 @@ object AppThemes {
         id = "night",
         englishLabel = "Night",
         isDark = true,
-        colorScheme = darkColorScheme(
+        colorScheme = completed(darkColorScheme(
             primary = Color(0xFF8AB4F8),
             secondary = Color(0xFF9AA0A6),
             surface = Color(0xFF121212),
@@ -127,8 +127,8 @@ object AppThemes {
             surfaceContainerHighest = Color(0xFF2E2E2E),
             outline = Color(0xFF7A7A7A),
             outlineVariant = Color(0xFF383838),
-        ),
-        statusColors = darkStatuses(unknown = Color(0xFF26345A), learning = Color(0xFF6E5A2C), page = Color(0xFF121212)),
+        )),
+        statusColors = darkStatuses(unknown = Color(0xFF2F4A80), learning = Color(0xFF6E5A2C), page = Color(0xFF121212)),
         readingBackground = Color(0xFF121212),
         readingText = Color(0xFFE0E0E0),
         selectedText = Color(0xFFFFB37A),
@@ -202,13 +202,39 @@ object AppThemes {
         )
         val statuses = if (dark) {
             StatusColors(
-                statuses(unknown = mix(Color(blue), 0.38f), learning = mix(Color(yellow), 0.38f), page = bg, ignored = mix(error, 0.35f), wellKnown = mix(Color(green), 0.42f)),
+                statuses(unknown = mix(Color(blue), 0.45f), learning = mix(Color(yellow), 0.38f), page = bg, ignored = mix(error, 0.35f), wellKnown = mix(Color(green), 0.42f)),
                 onHighlight = fg,
             )
         } else {
             StatusColors(statuses(unknown = mix(Color(blue), 0.22f), learning = mix(Color(yellow), 0.42f), page = bg, ignored = mix(error, 0.45f), wellKnown = mix(Color(green), 0.45f)))
         }
         return AppTheme(id, name, dark, scheme, statuses, readingBackground = bg, readingText = fg, selectedText = Color(selected))
+    }
+
+    /**
+     * A hand-built scheme with the roles it leaves out filled in, as [palette] fills them: text on
+     * the accent in whichever colour stands out most, and the containers (a chosen chip, a
+     * selected segment) washed with the accent, so Material's own purple never shows.
+     */
+    private fun completed(scheme: ColorScheme): ColorScheme {
+        val bg = scheme.surface
+        val fg = scheme.onSurface
+        val onPrimary = listOf(bg, fg, Color.White, Color.Black).maxBy { contrast(it, scheme.primary) }
+        val onSecondary = listOf(bg, fg, Color.White, Color.Black).maxBy { contrast(it, scheme.secondary) }
+        return scheme.copy(
+            onPrimary = onPrimary,
+            primaryContainer = lerp(bg, scheme.primary, 0.25f),
+            onPrimaryContainer = fg,
+            inversePrimary = lerp(scheme.primary, bg, 0.3f),
+            onSecondary = onSecondary,
+            secondaryContainer = lerp(bg, scheme.primary, 0.16f),
+            onSecondaryContainer = fg,
+            tertiary = scheme.secondary,
+            onTertiary = onSecondary,
+            tertiaryContainer = lerp(bg, scheme.secondary, 0.25f),
+            onTertiaryContainer = fg,
+            surfaceTint = scheme.primary,
+        )
     }
 
     private fun contrast(a: Color, b: Color): Float {
