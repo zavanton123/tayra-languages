@@ -92,6 +92,8 @@ import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.softBlurAvailable
 import com.tayra.languages.core.ui.components.toneColored
 import com.tayra.languages.core.ui.i18n.tr
@@ -320,8 +322,11 @@ private fun Hideable(hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> 
                 Modifier.drawBehind { drawRoundRect(theme.readingText.copy(alpha = AppAlpha.tint), cornerRadius = CornerRadius(8.dp.toPx())) }.graphicsLayer { alpha = 0f }
             }
             Box(veil) { content() }
-            // On top of the text, so its words take no taps until it is shown.
-            Box(Modifier.matchParentSize().clickable(onClickLabel = show, onClick = { onRevealed(true) }).semantics { contentDescription = label })
+            // On top of the text, so its words take no taps until it is shown; the tag says the blur is meant and how to lift it.
+            Box(
+                Modifier.matchParentSize().clickable(onClickLabel = show, onClick = { onRevealed(true) }).semantics { contentDescription = label },
+                contentAlignment = Alignment.Center,
+            ) { Tag(show, MaterialTheme.colorScheme.primary, size = TagSize.Small) }
         }
     }
 }
