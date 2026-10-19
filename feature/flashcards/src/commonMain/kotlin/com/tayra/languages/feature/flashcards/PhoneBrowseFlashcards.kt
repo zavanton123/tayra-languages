@@ -1,13 +1,11 @@
 package com.tayra.languages.feature.flashcards
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import com.tayra.languages.core.ui.components.LearningLanguageSelector
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.layout.statusBars
@@ -27,11 +25,8 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
-import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -44,7 +39,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -52,11 +46,13 @@ import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.tayra.languages.core.ui.components.AppCheckbox
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollList
@@ -64,6 +60,7 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAccents
 
 /** The browser on a phone: the cards as a list, the groups in a scrolling row, sorting from a sheet and the card info in another. */
 @Composable
@@ -87,7 +84,7 @@ internal fun PhoneBrowseFlashcardsScreen(
         FocusRow(state, list, rowsBefore = if (state.selected.isNotEmpty()) 4 else 3, onShown = viewModel::focusShown)
         // The controls keep to the page's margins; the cards run edge to edge between dividers.
         ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(top = 4.dp, bottom = 12.dp)) {
-            item { CardSearchBox(state.search, viewModel::setSearch, Modifier.padding(horizontal = 16.dp).fillMaxWidth().padding(bottom = 14.dp), large = true) }
+            item { CardSearchField(state.search, viewModel::setSearch, Modifier.padding(horizontal = 16.dp).fillMaxWidth().padding(bottom = 14.dp)) }
             item {
                 // Unbounded on the right, the chips stay on one line and scroll sideways.
                 Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(bottom = 14.dp)) {
@@ -118,14 +115,14 @@ internal fun PhoneBrowseFlashcardsScreen(
                     }
                 }
             }
-            if (state.selected.isNotEmpty()) item { Box(Modifier.padding(horizontal = 16.dp)) { SelectionBar(state, viewModel, actions, compact = true) } }
+            if (state.selected.isNotEmpty()) item { Box(Modifier.padding(horizontal = 16.dp)) { CardSelectionBar(state, viewModel, actions) } }
             when {
                 state.loading -> item { Text(tr("Loading..."), Modifier.padding(16.dp), color = colors.onSurfaceVariant) }
                 state.rows.isEmpty() -> item { Box(Modifier.padding(horizontal = 16.dp)) { EmptyCards(state) } }
                 else -> itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row ->
-                    HorizontalDivider(color = colors.outlineVariant)
+                    AppDivider()
                     PhoneCardRow(row, state, showCheck = showChecks, actions)
-                    if (index == state.rows.lastIndex) HorizontalDivider(color = colors.outlineVariant)
+                    if (index == state.rows.lastIndex) AppDivider()
                 }
             }
         }
@@ -158,12 +155,8 @@ internal val BrowseSortField.label: String
 /** The page's menu, in the bar. */
 @Composable
 private fun BrowseMenu(onReview: () -> Unit) {
-    var open by remember { mutableStateOf(false) }
-    Box {
-        IconButton(onClick = { open = true }, modifier = Modifier.testTag("phone-browse-menu")) { Icon(Icons.Default.MoreVert, contentDescription = tr("List actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
-        AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text(tr("Review cards")) }, onClick = { open = false; onReview() })
-        }
+    OverflowMenu(tr("List actions"), buttonModifier = Modifier.testTag("phone-browse-menu")) { close ->
+        AppMenuItem(text = { Text(tr("Review cards")) }, onClick = { close(); onReview() })
     }
 }
 
@@ -181,7 +174,7 @@ private fun PhoneCardRow(row: BrowseRow, state: BrowseUiState, showCheck: Boolea
             .testTag("browse-row-${row.termId}"),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        if (showCheck) Checkbox(checked = selected, onCheckedChange = { actions.onToggle(row.termId) })
+        if (showCheck) AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(row.termId) })
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text(
                 row.word,
@@ -195,11 +188,11 @@ private fun PhoneCardRow(row: BrowseRow, state: BrowseUiState, showCheck: Boolea
                 Text(
                     dueLabel(row, state.now),
                     style = MaterialTheme.typography.bodyMedium,
-                    color = if (row.isDue && !row.suspended) LEARNING_TINT else dim,
+                    color = if (row.isDue && !row.suspended) AppAccents.orange else dim,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis,
                 )
-                if (row.lapses > 0) Text(trPlural(row.lapses, "{0} lapse", "{0} lapses"), style = MaterialTheme.typography.bodySmall, color = Color(0xFFD64545))
+                if (row.lapses > 0) Text(trPlural(row.lapses, "{0} lapse", "{0} lapses"), style = MaterialTheme.typography.bodySmall, color = AppAccents.red)
             }
         }
         RowMenu(row, actions)
