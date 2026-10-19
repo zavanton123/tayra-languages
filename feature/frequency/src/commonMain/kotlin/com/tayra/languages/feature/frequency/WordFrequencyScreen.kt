@@ -231,6 +231,7 @@ internal fun WordFrequencyContent(
                             item(key = "band-${band.index}") { BandHeader(
                                     overview.bands[band.index],
                                     isLevel = band.index == state.levelBand,
+                    levelSet = state.level > 0,
                                     // As in Language Reactor, a band's button puts the level on the line above it:
                                     // the reader knows every word before this band.
                                     levelAbove = overview.bands[band.index].firstRank - 1,
@@ -304,13 +305,15 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
         ScreenHeader(
             tr("Word frequency"),
             if (overview == null) tr("The most common words of a language, from the most used down.")
-            else tr("The {0} most common {1} words, from the most used down. Click a word to save it or change its status.", formatCount(overview.words.size), tr(overview.languageName)),
+            // Bands run from the most used down; inside a band the words are in alphabetical order.
+            else if (compact) tr("The {0} most common {1} words in bands of 100, A–Z within each band. Tap a word to save it or change its status.", formatCount(overview.words.size), tr(overview.languageName))
+            else tr("The {0} most common {1} words in bands of 100, A–Z within each band. Click a word to save it or change its status.", formatCount(overview.words.size), tr(overview.languageName)),
         )
         if (overview == null) return@Column
         // The link keeps its words together and goes under the sentence when the line is full.
         FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Text(
-                if (state.level > 0) tr("Your vocabulary level: {0}", formatCount(state.level)) else tr("No vocabulary level set yet: use a band's button, or"),
+                if (state.level > 0) tr("Your vocabulary level: {0}", formatCount(state.level)) else tr("No vocabulary level yet. The one shown is estimated from your words; mark the band you know up to, or"),
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
@@ -338,7 +341,7 @@ private fun KnowledgeChip(knowledge: WordKnowledge, count: Int, selected: Boolea
 
 /** The band's ranks, how many of its words are known or being learned, and whether the reader's level is here. */
 @Composable
-private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, currentLevel: Int, saving: Boolean, onSetLevel: () -> Unit) {
+private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelSet: Boolean, levelAbove: Int, currentLevel: Int, saving: Boolean, onSetLevel: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val known = band.count(WordKnowledge.KNOWN)
@@ -348,11 +351,13 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Text(tr("Ranks {0}–{1}", band.firstRank, band.lastRank), style = AppText.itemTitle)
             if (isLevel) {
-                Tag(tr("Your level"), size = TagSize.Medium, style = TagStyle.Solid)
+                // Until a level is saved, the band shown is only a guess from the words already known.
+                Tag(if (levelSet) tr("Your level") else tr("Estimated level"), size = TagSize.Medium, style = if (levelSet) TagStyle.Solid else TagStyle.Soft)
             }
-            if (levelAbove != currentLevel) {
+            // The first band's button would only clear the level, so it has none.
+            if (levelAbove > 0 && levelAbove != currentLevel) {
                 SecondaryButton(
-                    if (compact) tr("Level {0}", formatCount(levelAbove)) else tr("Set level to {0}", formatCount(levelAbove)),
+                    if (compact) tr("Known up to here") else tr("Set level to {0}", formatCount(levelAbove)),
                     onClick = onSetLevel,
                     modifier = Modifier.testTag("set-level-$levelAbove"),
                     icon = AppIcons.DoneAll,

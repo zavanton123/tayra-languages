@@ -122,7 +122,7 @@ class WordFrequencyScreenTest {
         waitForIdle()
         System.getenv("FREQUENCY_SCREENSHOT")?.let { save(it) }
         onNodeWithText("Ranks 1–100").assertExists()
-        onNodeWithText("Your level").assertExists()
+        onNodeWithText("Estimated level").assertExists()
         onNodeWithTag("chip-KNOWN").assertExists()
         onNodeWithText(overview.count(WordKnowledge.NEW).let { n -> n.toString().reversed().chunked(3).joinToString(",").reversed() }).assertExists()
         onNodeWithTag("word-dizer").performClick()
