@@ -441,7 +441,7 @@ private fun BookTableHeader(state: BooksUiState, selecting: Boolean, callbacks: 
         // Ticking all is in the selection bar above; this keeps the columns over the rows' checkboxes.
         if (selecting) Spacer(Modifier.width(CHECKBOX_WIDTH + CHECKBOX_GAP))
         TableHeaderCell(tr("Book"), Modifier.weight(BOOK_WEIGHT), active = sort == BookSort.TITLE) { onSort(BookSort.TITLE) }
-        Spacer(Modifier.width(STATUS_WIDTH.dp))
+        TableHeaderCell(tr("Status"), Modifier.width(STATUS_WIDTH.dp))
         TableHeaderCell(tr("Reading"), Modifier.weight(PROGRESS_WEIGHT))
         TableHeaderCell(tr("Vocabulary"), Modifier.weight(KNOWN_WEIGHT), active = sort == BookSort.MASTERY) { onSort(BookSort.MASTERY) }
         TableHeaderCell(tr("Last opened"), Modifier.weight(OPENED_WEIGHT), active = sort == BookSort.RECENT) { onSort(BookSort.RECENT) }

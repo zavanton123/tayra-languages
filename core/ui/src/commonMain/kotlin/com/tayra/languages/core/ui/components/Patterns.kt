@@ -182,7 +182,9 @@ fun TableHeaderCell(label: String, modifier: Modifier = Modifier, icon: ImageVec
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
     ) {
         Text(label, color = tint, style = AppText.label, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        if (icon != null) Icon(icon, contentDescription = null, modifier = Modifier.size(AppSizes.iconSmall), tint = tint)
+        // The column sorted by carries an arrow, so the sort does not rest on the colour alone.
+        val shown = icon ?: if (active && onClick != null) AppIcons.ArrowDown else null
+        if (shown != null) Icon(shown, contentDescription = null, modifier = Modifier.size(AppSizes.iconSmall), tint = tint)
     }
 }
 
