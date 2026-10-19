@@ -208,6 +208,14 @@ class AppUpdatesTest {
     }
 
     @Test
+    fun theWindowsScriptIsRunWithEveryPathQuotedOnce() {
+        val command = DesktopAppUpdater.windowsCommand("""C:\Users\Ana Maria\Temp\install-msi.cmd""", "4242", """C:\Users\Ana Maria\Temp\new.msi""")
+        // cmd /s takes away the outer pair and runs: "C:\…\install-msi.cmd" "4242" "C:\…\new.msi"
+        assertEquals(listOf("cmd.exe", "/d", "/s", "/c"), command.take(4))
+        assertEquals("\"\"C:\\Users\\Ana Maria\\Temp\\install-msi.cmd\" \"4242\" \"C:\\Users\\Ana Maria\\Temp\\new.msi\"\"", command[4])
+    }
+
+    @Test
     fun versionsCompareByTheirNumbers() {
         assertTrue(Versions.isNewer("0.10.0", "0.9.9"))
         assertTrue(Versions.isNewer("v1.0.0", "0.12.3"))

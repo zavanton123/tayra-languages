@@ -187,7 +187,7 @@ class DesktopAppUpdater(
             Installation.WINDOWS_MSI -> {
                 // A process started from Java gets no console window, and outlives the app.
                 val script = script("install-msi.cmd", MSI_SCRIPT)
-                start(listOf("cmd.exe", "/c", script.absolutePath, pid, file.absolutePath, appLauncher!!.absolutePath), log)
+                start(windowsCommand(script.absolutePath, pid, file.absolutePath, appLauncher!!.absolutePath), log)
             }
             Installation.LINUX_DEB, Installation.LINUX_RPM -> {
                 val install = if (kind == Installation.LINUX_DEB) listOf("dpkg", "-i") else listOf("rpm", "-U", "--replacepkgs")
@@ -243,6 +243,14 @@ class DesktopAppUpdater(
         private const val TIMEOUT = 30_000L
         private const val DOWNLOAD_TIMEOUT = 30 * 60_000L
         private const val BUFFER = 64 * 1024
+
+        /**
+         * `cmd` running the batch [script] with [args], each quoted. `cmd /c` drops the first and the
+         * last quote of a command that starts with one, which breaks a quoted path with a space in it
+         * (C:\Users\Ana Maria\…); with `/s` it drops just the pair put around the whole command.
+         */
+        internal fun windowsCommand(script: String, vararg args: String): List<String> =
+            listOf("cmd.exe", "/d", "/s", "/c", "\"" + (listOf(script) + args).joinToString(" ") { "\"$it\"" } + "\"")
 
         /** Whether the app under /opt came from the Debian package (true), the RPM one (false), or neither. */
         private fun linuxPackage(): Boolean? = when {
@@ -318,7 +326,7 @@ class DesktopAppUpdater(
             set "log=%~dp0update.log"
             echo %date% %time%: updating %~3 from %~2>> "%log%"
             :wait
-            "%tools%\tasklist.exe" /FI "PID eq %1" /NH 2>nul | "%tools%\find.exe" " %1 " >nul
+            "%tools%\tasklist.exe" /FI "PID eq %~1" /NH 2>nul | "%tools%\find.exe" " %~1 " >nul
             if not errorlevel 1 (
               "%tools%\PING.EXE" -n 2 127.0.0.1 >nul
               goto wait
