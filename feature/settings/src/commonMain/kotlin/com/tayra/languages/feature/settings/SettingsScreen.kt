@@ -210,12 +210,12 @@ private fun MoreSettingsCard(onNavigate: (Route) -> Unit) {
         val pages = listOf(
             Triple(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), Route.Languages to AppIcons.Globe),
             Triple(tr("Translation"), tr("Choose how translations are generated and stored."), Route.OfflineTranslation to AppIcons.Translate),
-            Triple(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), Route.OfflineDictionaries to AppIcons.Book),
+            Triple(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), Route.OfflineDictionaries to AppIcons.MenuBook),
             Triple(tr("Speech"), tr("Choose how words and passages are spoken."), Route.Speech to AppIcons.VolumeUp),
             Triple(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), Route.FlashcardSettings to AppIcons.Style),
             Triple(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings to AppIcons.Abc),
-            Triple(tr("Course packs"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), Route.CoursePacks to AppIcons.MenuBook),
-            Triple(tr("Book packs"), tr("Download a bundle of free books in a language as one file, or remove them to free space."), Route.BookPacks to AppIcons.BookClosed),
+            Triple(tr("Course packs"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), Route.CoursePacks to AppIcons.School),
+            Triple(tr("Book packs"), tr("Download a bundle of free books in a language as one file, or remove them to free space."), Route.BookPacks to AppIcons.Download),
             Triple(tr("Keyboard shortcuts"), tr("Customize how you navigate and listen while reading."), Route.Shortcuts to AppIcons.Keyboard),
             Triple(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), Route.Backups to AppIcons.UploadFile),
         )

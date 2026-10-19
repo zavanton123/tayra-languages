@@ -98,12 +98,13 @@ private val moreGroups = listOf(
             MoreEntry("Settings", Icons.Default.Settings, Route.Settings),
             MoreEntry("Languages", AppIcons.Globe, Route.Languages),
             MoreEntry("Translation", AppIcons.Translate, Route.OfflineTranslation),
-            MoreEntry("Dictionaries", AppIcons.Book, Route.OfflineDictionaries),
-            MoreEntry("Courses", AppIcons.MenuBook, Route.CoursePacks),
-            MoreEntry("Books", AppIcons.BookClosed, Route.BookPacks),
+            // Named apart from the tabs: these set things up rather than open them.
+            MoreEntry("Dictionaries", AppIcons.MenuBook, Route.OfflineDictionaries),
+            MoreEntry("Course packs", AppIcons.School, Route.CoursePacks),
+            MoreEntry("Book packs", AppIcons.Download, Route.BookPacks),
             MoreEntry("Speech", AppIcons.VolumeUp, Route.Speech),
-            MoreEntry("Flashcards", AppIcons.Style, Route.FlashcardSettings),
-            MoreEntry("Vocabulary", AppIcons.Abc, Route.VocabularySettings),
+            MoreEntry("Flashcard settings", AppIcons.Style, Route.FlashcardSettings),
+            MoreEntry("Vocabulary settings", AppIcons.Abc, Route.VocabularySettings),
         ),
     ),
     MoreGroup(
