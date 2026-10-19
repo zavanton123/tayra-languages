@@ -4,6 +4,9 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "设置",
     "Personalize your reading experience." to "打造个性化的阅读体验。",
+    "More settings" to "更多设置",
+    "Course packs" to "课程包",
+    "Book packs" to "图书包",
     "Reset" to "重置",
     "Reset to defaults" to "恢复默认设置",
     "Changes are saved automatically." to "更改会自动保存。",

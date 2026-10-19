@@ -69,7 +69,7 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
         return
     }
     Scaffold(
-        topBar = { AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {

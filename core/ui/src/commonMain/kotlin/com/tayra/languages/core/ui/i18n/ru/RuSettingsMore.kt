@@ -4,6 +4,9 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "Настройки",
     "Personalize your reading experience." to "Настройте чтение под себя.",
+    "More settings" to "Другие настройки",
+    "Course packs" to "Пакеты курсов",
+    "Book packs" to "Пакеты книг",
     "Reset" to "Сбросить",
     "Reset to defaults" to "Сбросить настройки",
     "Changes are saved automatically." to "Изменения сохраняются автоматически.",

@@ -4,6 +4,9 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "Ustawienia",
     "Personalize your reading experience." to "Dostosuj czytanie do siebie.",
+    "More settings" to "Więcej ustawień",
+    "Course packs" to "Pakiety kursów",
+    "Book packs" to "Pakiety książek",
     "Reset" to "Resetuj",
     "Reset to defaults" to "Przywróć domyślne",
     "Changes are saved automatically." to "Zmiany są zapisywane automatycznie.",

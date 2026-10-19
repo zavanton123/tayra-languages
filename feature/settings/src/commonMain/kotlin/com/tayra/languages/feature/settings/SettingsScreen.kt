@@ -1,23 +1,6 @@
 package com.tayra.languages.feature.settings
 
-import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
-import com.tayra.languages.core.ui.components.AppDialog
-import com.tayra.languages.core.ui.components.AppDivider
-import com.tayra.languages.core.ui.components.AppSpinner
-import com.tayra.languages.core.ui.components.ContentCard
-import com.tayra.languages.core.ui.components.HeaderButton
-import com.tayra.languages.core.ui.components.InfoBanner
-import com.tayra.languages.core.ui.components.NumberStepper
-import com.tayra.languages.core.ui.components.PageColumn
-import com.tayra.languages.core.ui.components.PrimaryButton
-import com.tayra.languages.core.ui.components.QuietButton
-import com.tayra.languages.core.ui.components.ScreenHeader
-import com.tayra.languages.core.ui.components.SecondaryButton
-import com.tayra.languages.core.ui.components.SettingRow
-import com.tayra.languages.core.ui.components.SliderStepper
-import com.tayra.languages.core.ui.components.SpinnerSize
-import com.tayra.languages.core.ui.components.SwitchSetting
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -28,7 +11,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.MaterialTheme
@@ -43,9 +29,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -55,38 +43,53 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.service.AppUpdateService
+import com.tayra.languages.core.domain.service.CommandLineStatus
+import com.tayra.languages.core.domain.service.CommandLineTool
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
+import com.tayra.languages.core.ui.components.AppDialog
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
+import com.tayra.languages.core.ui.components.HeaderButton
+import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.NavigationRow
+import com.tayra.languages.core.ui.components.NumberStepper
+import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SettingRow
+import com.tayra.languages.core.ui.components.SliderStepper
+import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.StatusDot
+import com.tayra.languages.core.ui.components.StatusPill
+import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.SwitchSetting
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppTheme
-import com.tayra.languages.core.ui.theme.ReadingFont
-import com.tayra.languages.core.ui.theme.fontFamily
 import com.tayra.languages.core.ui.theme.AppThemes
+import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.TayraTheme
+import com.tayra.languages.core.ui.theme.fontFamily
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
-import androidx.compose.ui.platform.testTag
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.asStateFlow
-import com.tayra.languages.core.domain.service.AppUpdateService
-import com.tayra.languages.core.domain.service.CommandLineStatus
-import com.tayra.languages.core.domain.service.CommandLineTool
-import androidx.compose.foundation.text.selection.SelectionContainer
-import androidx.compose.ui.text.font.FontFamily
-import com.tayra.languages.core.ui.components.StatusDot
-import com.tayra.languages.core.ui.components.StatusPill
-import com.tayra.languages.core.ui.components.StatusTints
 
 class SettingsViewModel(
     private val settings: SettingsRepository,
@@ -171,6 +174,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         PreviewCard(settings)
                         InfoBanner(tr("Changes are saved automatically."))
+                        MoreSettingsCard(onNavigate)
                     }
                 }
             } else {
@@ -178,6 +182,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 ReadingCard(settings, viewModel)
                 PreviewCard(settings)
                 BehaviourCard(settings, viewModel)
+                MoreSettingsCard(onNavigate)
                 if (viewModel.commandLine != null) CommandLineCard(viewModel)
                 viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                 InfoBanner(tr("Changes are saved automatically."))
@@ -192,6 +197,36 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
             text = { Text(tr("The theme, highlighting, reading size and spacing, reading streak and statistics sample size go back to their defaults.")) },
             confirmButton = { PrimaryButton(onClick = { confirmReset = false; viewModel.resetToDefaults() }) { Text(tr("Reset")) } },
             dismissButton = { QuietButton(onClick = { confirmReset = false }) { Text(tr("Cancel")) } },
+        )
+    }
+}
+
+/** Every other settings page, each with what it holds, so none is found only through the menu. */
+@Composable
+private fun MoreSettingsCard(onNavigate: (Route) -> Unit) {
+    ContentCard(tr("More settings"), subtitle = null, icon = Icons.Default.Settings) {
+        val pages = listOf(
+            Triple(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), Route.Languages to AppIcons.Globe),
+            Triple(tr("Translation"), tr("Choose how translations are generated and stored."), Route.OfflineTranslation to AppIcons.Translate),
+            Triple(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), Route.OfflineDictionaries to AppIcons.Book),
+            Triple(tr("Speech"), tr("Choose how words and passages are spoken."), Route.Speech to AppIcons.VolumeUp),
+            Triple(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), Route.FlashcardSettings to AppIcons.Style),
+            Triple(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings to AppIcons.Abc),
+            Triple(tr("Course packs"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), Route.CoursePacks to AppIcons.MenuBook),
+            Triple(tr("Book packs"), tr("Download a bundle of free books in a language as one file, or remove them to free space."), Route.BookPacks to AppIcons.BookClosed),
+            Triple(tr("Keyboard shortcuts"), tr("Customize how you navigate and listen while reading."), Route.Shortcuts to AppIcons.Keyboard),
+            Triple(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), Route.Backups to AppIcons.UploadFile),
+        )
+        pages.forEach { (title, description, target) ->
+            NavigationRow(title, onClick = { onNavigate(target.first) }, description = description, icon = target.second, modifier = Modifier.testTag("settings-link-${target.first}"))
+        }
+        NavigationRow(tr("About"), onClick = { onNavigate(Route.About) }, icon = Icons.Default.Info)
+        NavigationRow(
+            tr("Clear local data"),
+            onClick = { onNavigate(Route.ClearData) },
+            description = tr("Remove your learning data and downloaded files from this device. Your preferences stay."),
+            icon = Icons.Default.Delete,
+            tint = MaterialTheme.colorScheme.error,
         )
     }
 }

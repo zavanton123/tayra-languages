@@ -4,6 +4,9 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "Ρυθμίσεις",
     "Personalize your reading experience." to "Προσαρμόστε την ανάγνωση στις ανάγκες σας.",
+    "More settings" to "Περισσότερες ρυθμίσεις",
+    "Course packs" to "Πακέτα μαθημάτων",
+    "Book packs" to "Πακέτα βιβλίων",
     "Reset" to "Επαναφορά",
     "Reset to defaults" to "Επαναφορά προεπιλογών",
     "Changes are saved automatically." to "Οι αλλαγές αποθηκεύονται αυτόματα.",
