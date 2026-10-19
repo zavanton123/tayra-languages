@@ -41,19 +41,22 @@ object AppThemes {
      * New words are blue and words being learned yellow. The yellow fades towards [page] as the
      * status rises, so statuses 1 to 5 stay apart on the status buttons.
      */
-    private fun statuses(unknown: Color, learning: Color, page: Color, ignored: Color, wellKnown: Color): Map<TermStatus, Color> =
+    private fun statuses(unknown: Color, learning: Color, page: Color, ignored: Color, wellKnown: Color, fade: Float = LEARNING_FADE): Map<TermStatus, Color> =
         mapOf(TermStatus.UNKNOWN to unknown, TermStatus.IGNORED to ignored, TermStatus.WELL_KNOWN to wellKnown) +
             listOf(TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LEARNING_3, TermStatus.LEARNING_4)
-                .mapIndexed { level, status -> status to lerp(learning, page, level * LEARNING_FADE) }
+                .mapIndexed { level, status -> status to lerp(learning, page, level * fade) }
 
     private const val LEARNING_FADE = 0.1f
+
+    /** Dark yellows look alike at the light themes' small steps, so the dark themes take bigger ones. */
+    private const val DARK_LEARNING_FADE = 0.16f
 
     private fun lightStatuses(page: Color) = StatusColors(
         statuses(unknown = Color(0xFFCDE0FB), learning = Color(0xFFFAE39E), page = page, ignored = Color(0xFFEE8577), wellKnown = Color(0xFF72DA88)),
     )
 
     private fun darkStatuses(unknown: Color, learning: Color, page: Color) = StatusColors(
-        statuses(unknown = unknown, learning = learning, page = page, ignored = Color(0xFF7A4B4B), wellKnown = Color(0xFF419252)),
+        statuses(unknown = unknown, learning = learning, page = page, ignored = Color(0xFF7A4B4B), wellKnown = Color(0xFF419252), fade = DARK_LEARNING_FADE),
         onHighlight = Color(0xFFEFF1F2),
     )
 
@@ -128,7 +131,7 @@ object AppThemes {
             outline = Color(0xFF7A7A7A),
             outlineVariant = Color(0xFF383838),
         )),
-        statusColors = darkStatuses(unknown = Color(0xFF2F4A80), learning = Color(0xFF6E5A2C), page = Color(0xFF121212)),
+        statusColors = darkStatuses(unknown = Color(0xFF36558F), learning = Color(0xFF7C6735), page = Color(0xFF121212)),
         readingBackground = Color(0xFF121212),
         readingText = Color(0xFFE0E0E0),
         selectedText = Color(0xFFFFB37A),
@@ -202,7 +205,7 @@ object AppThemes {
         )
         val statuses = if (dark) {
             StatusColors(
-                statuses(unknown = mix(Color(blue), 0.45f), learning = mix(Color(yellow), 0.38f), page = bg, ignored = mix(error, 0.35f), wellKnown = mix(Color(green), 0.42f)),
+                statuses(unknown = mix(Color(blue), 0.5f), learning = mix(Color(yellow), 0.38f), page = bg, ignored = mix(error, 0.35f), wellKnown = mix(Color(green), 0.42f), fade = DARK_LEARNING_FADE),
                 onHighlight = fg,
             )
         } else {
