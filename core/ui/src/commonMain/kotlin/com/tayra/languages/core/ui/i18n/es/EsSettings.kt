@@ -61,7 +61,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "Checking speech" to "Comprobando la voz",
     "No {0} voice yet" to "{0}: aún no hay voz",
     // PhoneSpeech.kt
-    "No {0} voice downloaded. System voice is being used." to "{0}: no hay voz descargada. Se usa la voz del sistema.",
     "Playback" to "Reproducción",
     "Installed voices" to "Voces instaladas",
     "Available {0} voices" to "Voces disponibles: {0}",

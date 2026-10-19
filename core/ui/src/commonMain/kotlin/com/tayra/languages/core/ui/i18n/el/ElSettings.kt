@@ -61,7 +61,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Checking speech" to "Έλεγχος εκφώνησης",
     "No {0} voice yet" to "{0}: δεν υπάρχει φωνή ακόμη",
     // PhoneSpeech.kt
-    "No {0} voice downloaded. System voice is being used." to "{0}: δεν έχει ληφθεί φωνή. Χρησιμοποιείται η φωνή του συστήματος.",
     "Playback" to "Αναπαραγωγή",
     "Installed voices" to "Εγκατεστημένες φωνές",
     "Available {0} voices" to "Διαθέσιμες φωνές: {0}",

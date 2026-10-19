@@ -61,7 +61,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Checking speech" to "正在检查朗读",
     "No {0} voice yet" to "尚无{0}语音",
     // PhoneSpeech.kt
-    "No {0} voice downloaded. System voice is being used." to "尚未下载{0}语音，正在使用系统语音。",
     "Playback" to "播放",
     "Installed voices" to "已安装的语音",
     "Available {0} voices" to "可用语音：{0}",

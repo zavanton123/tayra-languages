@@ -95,8 +95,10 @@ internal fun PhoneSpeechScreen(
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Text(tr("Choose how words and passages are spoken."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-            StatusBanner(engine, checking, ready, learning, voices)
+            Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                Text(tr("Choose how words and passages are spoken."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                SpeechStatusPill(engine, checking, ready, learning, voices)
+            }
             ContentCard(tr("Speech engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
                 val chosen = settings.speechEngine.takeIf { it in viewModel.engines } ?: SpeechEngine.SYSTEM
                 SelectButton(engine?.displayName ?: tr(chosen.label), onClick = { engineSheet = true }, modifier = Modifier.fillMaxWidth().testTag("phone-speech-engine"))
@@ -162,20 +164,6 @@ internal fun PhoneSpeechScreen(
             onPick = { e -> engineSheet = false; viewModel.update { it.copy(speechEngine = e) } },
         )
     }
-}
-
-/** Where speech stands for the language being learned, as one line across the top. */
-@Composable
-private fun StatusBanner(engine: LocalSpeechEngine?, checking: Boolean, ready: Boolean, learning: LanguageOption?, voices: Map<String, List<SpeechVoice>>) {
-    val colors = MaterialTheme.colorScheme
-    val (icon, tint, text) = when {
-        engine == null -> Triple(Icons.Default.Info, colors.primary, tr("Using system voices"))
-        checking -> Triple(Icons.Default.Info, colors.outline, tr("Checking speech"))
-        !ready -> Triple(Icons.Default.Warning, StatusTints.warning, tr("{0} is not installed", engine.displayName))
-        learning != null && voices[learning.code].isNullOrEmpty() -> Triple(Icons.Default.Warning, StatusTints.warning, tr("No {0} voice downloaded. System voice is being used.", tr(learning.name)))
-        else -> Triple(Icons.Default.CheckCircle, StatusTints.ok, tr("Offline speech ready"))
-    }
-    InfoBanner(text, tint = tint, icon = icon)
 }
 
 /** Whether the engine works; the install button shows only while it does not. */

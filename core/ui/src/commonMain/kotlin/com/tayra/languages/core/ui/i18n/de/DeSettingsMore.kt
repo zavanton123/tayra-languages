@@ -77,8 +77,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Import backup" to "Sicherung importieren",
     "Backups are stored on this device." to "Sicherungen werden auf diesem Gerät gespeichert.",
     "What's included in a backup" to "Was eine Sicherung enthält",
-    "{0} local" to "{0} lokal|{0} lokal",
-    "None yet" to "Noch keine",
     "Restore Tayra data from a previously exported backup file." to "Stelle Tayra-Daten aus einer zuvor exportierten Sicherungsdatei wieder her.",
     "It joins the history below, and you are asked whether to restore it right away." to "Sie erscheint im Verlauf unten, und du wirst gefragt, ob du sie gleich wiederherstellen möchtest.",
     "Or drop a backup file anywhere on this screen. It joins the history below, and you are asked whether to restore it right away." to "Oder zieh eine Sicherungsdatei an eine beliebige Stelle dieses Bildschirms. Sie erscheint im Verlauf unten, und du wirst gefragt, ob du sie gleich wiederherstellen möchtest.",

@@ -255,7 +255,7 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
 }
 
 @Composable
-private fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, ready: Boolean, learning: LanguageOption?, voices: Map<String, List<SpeechVoice>>) {
+internal fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, ready: Boolean, learning: LanguageOption?, voices: Map<String, List<SpeechVoice>>) {
     when {
         engine == null -> StatusPill(tr("Using system voices"), MaterialTheme.colorScheme.primary)
         checking -> StatusPill(tr("Checking speech"), MaterialTheme.colorScheme.outline)

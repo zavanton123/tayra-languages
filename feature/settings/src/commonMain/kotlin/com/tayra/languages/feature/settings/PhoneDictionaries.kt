@@ -81,7 +81,8 @@ internal fun PhoneDictionariesScreen(
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            // Every settings page shows where it stands the same way: a pill under its subtitle.
+            Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 Text(tr("Manage offline word definitions and base-form lookup."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 pill()
             }

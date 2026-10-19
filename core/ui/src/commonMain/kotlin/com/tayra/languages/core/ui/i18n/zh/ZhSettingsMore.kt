@@ -77,8 +77,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Import backup" to "导入备份",
     "Backups are stored on this device." to "备份保存在本设备上。",
     "What's included in a backup" to "备份包含哪些内容",
-    "{0} local" to "{0} 个本地备份",
-    "None yet" to "暂无",
     "Restore Tayra data from a previously exported backup file." to "从之前导出的备份文件中恢复 Tayra 数据。",
     "It joins the history below, and you are asked whether to restore it right away." to "它会加入下方的历史记录，并询问你是否立即恢复。",
     "Or drop a backup file anywhere on this screen. It joins the history below, and you are asked whether to restore it right away." to "也可以将备份文件拖放到此屏幕的任意位置。它会加入下方的历史记录，并询问你是否立即恢复。",

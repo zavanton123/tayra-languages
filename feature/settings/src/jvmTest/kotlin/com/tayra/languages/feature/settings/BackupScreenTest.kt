@@ -135,7 +135,7 @@ class BackupScreenTest {
         onNodeWithTag("phone-create-backup").performClick()
         // The phone row leaves the seconds out.
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("1 local").assertExists()
+        onNodeWithText("1 local backup").assertExists()
         System.getenv("BACKUP_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
 
         onNodeWithTag("phone-whats-included").performScrollTo().performClick()

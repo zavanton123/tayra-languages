@@ -61,7 +61,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Checking speech" to "Sprachausgabe wird geprüft",
     "No {0} voice yet" to "Noch keine Stimme für {0}",
     // PhoneSpeech.kt
-    "No {0} voice downloaded. System voice is being used." to "Keine Stimme für {0} heruntergeladen. Die Systemstimme wird verwendet.",
     "Playback" to "Wiedergabe",
     "Installed voices" to "Installierte Stimmen",
     "Available {0} voices" to "Verfügbare Stimmen: {0}",

@@ -149,13 +149,13 @@ class SpeechSettingsScreenTest {
         assertEquals(2, piper.installed.size)
     }
 
-    /** A phone shows a banner for the voice situation, the speed under its label, and the voices to download in a plain list. */
+    /** A phone shows a pill for the voice situation, the speed under its label, and the voices to download in a plain list. */
     @Test
-    fun aPhoneListsTheVoicesToDownloadUnderTheBanner() = runDesktopComposeUiTest(width = 400, height = 1400) {
+    fun aPhoneListsTheVoicesToDownloadUnderThePill() = runDesktopComposeUiTest(width = 400, height = 1400) {
         val piper = FakePiper()
         piper.installed.clear()
         val settings = show(SpeechEngine.PIPER, FakeKokoro(), piper)
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No Portuguese voice downloaded. System voice is being used.")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No Portuguese voice yet")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Available Portuguese voices").assertExists()
         onNodeWithText("80%").assertExists()
         onNodeWithText("Reader playback and term pronunciation use this engine.").assertDoesNotExist()

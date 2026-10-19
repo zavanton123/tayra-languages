@@ -61,7 +61,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Checking speech" to "Sprawdzanie mowy",
     "No {0} voice yet" to "{0}: brak głosu",
     // PhoneSpeech.kt
-    "No {0} voice downloaded. System voice is being used." to "{0}: nie pobrano głosu. Używany jest głos systemowy.",
     "Playback" to "Odtwarzanie",
     "Installed voices" to "Pobrane głosy",
     "Available {0} voices" to "Dostępne głosy: {0}",

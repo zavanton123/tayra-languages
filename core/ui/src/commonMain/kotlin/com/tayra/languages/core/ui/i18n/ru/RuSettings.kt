@@ -61,7 +61,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Checking speech" to "Проверка озвучивания",
     "No {0} voice yet" to "{0} голос ещё не скачан",
     // PhoneSpeech.kt
-    "No {0} voice downloaded. System voice is being used." to "{0} голос не скачан; читает системный голос.",
     "Playback" to "Воспроизведение",
     "Installed voices" to "Скачанные голоса",
     "Available {0} voices" to "Доступные голоса: {0}",

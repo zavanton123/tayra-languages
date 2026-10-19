@@ -77,8 +77,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Import backup" to "Импортировать копию",
     "Backups are stored on this device." to "Копии хранятся на этом устройстве.",
     "What's included in a backup" to "Что входит в копию",
-    "{0} local" to "{0} локальная|{0} локальные|{0} локальных",
-    "None yet" to "Пока нет",
     "Restore Tayra data from a previously exported backup file." to "Восстановите данные Tayra из ранее экспортированного файла резервной копии.",
     "It joins the history below, and you are asked whether to restore it right away." to "Копия появится в истории ниже, и вам сразу предложат её восстановить.",
     "Or drop a backup file anywhere on this screen. It joins the history below, and you are asked whether to restore it right away." to "Или перетащите файл резервной копии в любое место этого экрана. Копия появится в истории ниже, и вам сразу предложат её восстановить.",

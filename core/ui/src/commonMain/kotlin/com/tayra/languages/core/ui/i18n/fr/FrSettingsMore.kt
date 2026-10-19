@@ -77,8 +77,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Import backup" to "Importer une sauvegarde",
     "Backups are stored on this device." to "Les sauvegardes sont stockées sur cet appareil.",
     "What's included in a backup" to "Contenu d’une sauvegarde",
-    "{0} local" to "{0} locale|{0} locales",
-    "None yet" to "Aucune pour l’instant",
     "Restore Tayra data from a previously exported backup file." to "Restaurez les données de Tayra à partir d’un fichier de sauvegarde exporté auparavant.",
     "It joins the history below, and you are asked whether to restore it right away." to "Elle rejoint l’historique ci-dessous, et il vous est proposé de la restaurer tout de suite.",
     "Or drop a backup file anywhere on this screen. It joins the history below, and you are asked whether to restore it right away." to "Ou déposez un fichier de sauvegarde n’importe où sur cet écran. Elle rejoint l’historique ci-dessous, et il vous est proposé de la restaurer tout de suite.",

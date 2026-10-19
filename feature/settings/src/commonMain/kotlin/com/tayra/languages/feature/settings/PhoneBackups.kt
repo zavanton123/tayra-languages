@@ -76,14 +76,12 @@ internal fun PhoneBackupsScreen(
     val count = state.backups.size
     Scaffold(
         topBar = {
-            AppTopBar(title = tr("Backups"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS, actions = {
-                if (state.loaded) StatusPill(if (count == 0) tr("None yet") else trPlural(count, "{0} local", "{0} local"), if (count == 0) StatusTints.warning else StatusTints.ok)
-                Spacer(Modifier.width(AppSpacing.s))
-            })
+            AppTopBar(title = tr("Backups"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS)
         },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            if (state.loaded) StatusPill(if (count == 0) tr("No backups yet") else trPlural(count, "{0} local backup", "{0} local backups"), if (count == 0) StatusTints.warning else StatusTints.ok)
             AppCard {
                 CardHeader(tr("Protect your data"), tr("Save your library, vocabulary, progress, and preferences."), icon = AppIcons.Storage, size = CardHeaderSize.Dense)
                 Spacer(Modifier.height(AppSpacing.l))

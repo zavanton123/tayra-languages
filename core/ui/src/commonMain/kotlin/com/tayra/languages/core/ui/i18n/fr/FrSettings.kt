@@ -61,7 +61,6 @@ internal val frSettings: Map<String, String> = mapOf(
     "Checking speech" to "Vérification de la synthèse vocale",
     "No {0} voice yet" to "Pas encore de voix ({0})",
     // PhoneSpeech.kt
-    "No {0} voice downloaded. System voice is being used." to "Aucune voix téléchargée ({0}). La voix du système est utilisée.",
     "Playback" to "Lecture audio",
     "Installed voices" to "Voix installées",
     "Available {0} voices" to "Voix disponibles : {0}",

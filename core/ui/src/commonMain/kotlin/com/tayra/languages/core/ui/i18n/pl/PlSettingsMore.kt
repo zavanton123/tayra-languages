@@ -77,8 +77,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Import backup" to "Importuj kopię",
     "Backups are stored on this device." to "Kopie są przechowywane na tym urządzeniu.",
     "What's included in a backup" to "Co zawiera kopia",
-    "{0} local" to "{0} lokalna|{0} lokalne|{0} lokalnych",
-    "None yet" to "Jeszcze brak",
     "Restore Tayra data from a previously exported backup file." to "Przywróć dane Tayry z wcześniej wyeksportowanego pliku kopii zapasowej.",
     "It joins the history below, and you are asked whether to restore it right away." to "Kopia pojawi się w historii poniżej, a od razu zobaczysz pytanie, czy ją przywrócić.",
     "Or drop a backup file anywhere on this screen. It joins the history below, and you are asked whether to restore it right away." to "Albo upuść plik kopii zapasowej w dowolnym miejscu tego ekranu. Kopia pojawi się w historii poniżej, a od razu zobaczysz pytanie, czy ją przywrócić.",
