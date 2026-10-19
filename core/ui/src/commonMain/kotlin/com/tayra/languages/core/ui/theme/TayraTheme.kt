@@ -10,7 +10,7 @@ val LocalAppTheme = staticCompositionLocalOf { AppThemes.default }
 @Composable
 fun TayraTheme(theme: AppTheme = AppThemes.default, content: @Composable () -> Unit) {
     CompositionLocalProvider(LocalAppTheme provides theme) {
-        MaterialTheme(colorScheme = theme.colorScheme, content = content)
+        MaterialTheme(colorScheme = theme.colorScheme, shapes = AppShapes.material, content = content)
     }
 }
 

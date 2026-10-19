@@ -198,6 +198,23 @@ form of its installed dictionary packs, made again when the installed packs chan
 lexicon, each Chinese character is a word and a Thai, Lao or Khmer run stays whole. Any language
 outside the catalog found in the database is removed on start together with its books and terms.
 
+## Design system
+
+Screens are built from `core/ui`: the theme (`TayraTheme`, colours per `AppTheme`), the corner
+radii of `AppShapes` (tiny 4dp, small 6dp, compact 8dp, control 10dp for buttons, fields, chips and
+rows, panel 12dp, card 14dp, large 18dp for dialogs and sheets, pill), which are also the theme's
+Material shapes, and the controls of `components/Controls.kt`: `PrimaryButton` (the page's main
+action), `SecondaryButton` (outlined), `QuietButton` (text), each with `tone = ButtonTone.Danger`
+for actions that delete, `size = ButtonSize.Compact` for dense places, and a short form with a
+label, an icon and a `loading` spinner; `AppTextField`, `AppDialog` and `AppFilterChip`. Larger
+pieces (`ContentCard`, `SettingRow`, `SwitchSetting`, `StatusPill`, `InfoBanner`, `ConfirmDialog`,
+pickers, menus) are built from them. `DesignSystemTest` fails when a screen imports Material's
+buttons, text fields, dialogs or filter chips, or writes a radius of its own
+(`RoundedCornerShape(10.dp)`; shapes with different corners are fine); Material components the
+app does not wrap (icon buttons, switches, sliders, menus) take the theme's shapes.
+`DesignSystemGalleryTest` draws every control in the light and dark themes; run it with
+`DESIGN_GALLERY=<folder>` to get the pictures.
+
 ## Interface languages
 
 The interface is in English, Chinese (simplified), French, German, Greek, Polish, Portuguese
