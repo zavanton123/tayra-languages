@@ -5,11 +5,12 @@ import kotlin.test.Test
 import kotlin.test.fail
 
 /**
- * Screens are built from the design system: its controls and indicators (core/ui components'
- * Controls.kt, Indicators.kt, Overlays.kt and Patterns.kt) rather than Material's, its corner radii
- * (theme/Shapes.kt) rather than radii of their own, its colours (theme/Tokens.kt and the theme)
- * rather than colour literals, and its hairline rather than borders of their own. A shape with
- * different corners (`RoundedCornerShape(topStart = …)`) is fine; the drawn flags keep their colours.
+ * Screens are built from the design system: its components (core/ui components' Controls.kt,
+ * Indicators.kt, Overlays.kt, Patterns.kt, Chips.kt, Rows.kt and Notices.kt) rather than Material's,
+ * its corner radii and circle (theme/Shapes.kt) rather than shapes of their own, and its colours,
+ * tint strengths, borders and icon sizes (theme/Tokens.kt and the theme) rather than literals. A
+ * shape with different corners (`RoundedCornerShape(topStart = …)`) is fine; the drawn flags keep
+ * their colours.
  */
 class DesignSystemTest {
 
@@ -20,19 +21,47 @@ class DesignSystemTest {
         .flatMap { dir -> dir.walkTopDown().filter { it.isFile && it.extension == "kt" && "/src/" in it.path && "Main/" in it.path && "/build/" !in it.path }.toList() }
 
     /** The design system's own files, which wrap Material's components. */
-    private val designSystem = listOf("components/Controls.kt", "components/Indicators.kt", "components/Overlays.kt", "components/Patterns.kt")
+    private val designSystem = listOf("Controls.kt", "Indicators.kt", "Overlays.kt", "Patterns.kt", "Chips.kt", "Rows.kt", "Notices.kt", "Dropdown.kt")
+        .map { "core/ui/src/commonMain/kotlin/com/tayra/languages/core/ui/components/$it" }
 
-    private val controls = Regex("""^import androidx\.compose\.(?:material3\.(Button|OutlinedButton|TextButton|ElevatedButton|FilledTonalButton|OutlinedTextField|TextField|AlertDialog|FilterChip|IconButton|FilledIconButton|OutlinedIconButton|LinearProgressIndicator|CircularProgressIndicator|HorizontalDivider|VerticalDivider|Checkbox|ModalBottomSheet|Snackbar)|ui\.window\.(Dialog))$""")
+    private fun File.isDesignSystem() = designSystem.any { path.endsWith(it) }
+
+    private fun File.isTheme() = "core/ui/src/commonMain/kotlin/com/tayra/languages/core/ui/theme/" in path
+
+    private val material = listOf(
+        "Button", "OutlinedButton", "TextButton", "ElevatedButton", "FilledTonalButton", "OutlinedTextField", "TextField", "AlertDialog",
+        "FilterChip", "ElevatedFilterChip", "InputChip", "SuggestionChip", "AssistChip", "IconButton", "FilledIconButton", "OutlinedIconButton",
+        "LinearProgressIndicator", "CircularProgressIndicator", "HorizontalDivider", "VerticalDivider", "Checkbox", "TriStateCheckbox",
+        "Switch", "Slider", "RangeSlider", "SegmentedButton", "SingleChoiceSegmentedButtonRow", "MultiChoiceSegmentedButtonRow",
+        "ModalBottomSheet", "Snackbar", "Badge", "BadgedBox", "ListItem", "ExposedDropdownMenuBox", "Card", "ElevatedCard", "OutlinedCard",
+        "Surface", "TooltipBox", "PlainTooltip", "RichTooltip",
+    )
+
+    private val controls = Regex("""^import androidx\.compose\.(?:material3\.(${material.joinToString("|")})|ui\.window\.(Dialog))$""")
 
     private val colour = Regex("""Color\(0x[0-9A-Fa-f]{6,8}\)""")
 
-    private val border = Regex("""\.border\(1\.dp""")
+    private val border = Regex("""\.border\(\d|BorderStroke\(\d""")
 
     private val radius = Regex("""RoundedCornerShape\(\s*\d+(\.\d+)?(\.dp)?\s*\)""")
 
+    private val circle = Regex("""\bCircleShape\b""")
+
+    private val alpha = Regex("""copy\(alpha\s*=\s*\d""")
+
+    private val iconSize = Regex("""\bIcon\(.*\.size\(\d+(\.\d+)?\.dp\)""")
+
+    private val buttonHeight = Regex("""(Primary|Secondary|Quiet)Button\(.*\.height\(\d""")
+
+    private fun findings(files: List<File>, rules: List<Pair<Regex, String>>): List<String> = files.flatMap { file ->
+        file.readLines().mapIndexedNotNull { i, line ->
+            rules.firstOrNull { (regex, _) -> regex.containsMatchIn(line) }?.let { (regex, hint) -> "${file.relativeTo(root)}:${i + 1}: ${regex.find(line)!!.value} ($hint)" }
+        }
+    }
+
     @Test
     fun screensUseTheDesignSystemsControls() {
-        val found = sources.filter { file -> designSystem.none { file.path.endsWith("core/ui/$it") } }.flatMap { file ->
+        val found = sources.filter { !it.isDesignSystem() }.flatMap { file ->
             file.readLines().mapIndexedNotNull { i, line ->
                 controls.find(line.trim())?.let { "${file.relativeTo(root)}:${i + 1}: ${it.groupValues[1].ifEmpty { it.groupValues[2] }} (use the design system's component)" }
             }
@@ -42,17 +71,24 @@ class DesignSystemTest {
 
     @Test
     fun screensUseTheDesignSystemsColoursAndBorders() {
-        val exempt = listOf("core/ui/theme/", "core/ui/components/LanguageFlags.kt")
-        val found = sources.filter { file -> exempt.none { it in file.path } }.flatMap { file ->
-            file.readLines().mapIndexedNotNull { i, line ->
-                when {
-                    colour.containsMatchIn(line) -> "${file.relativeTo(root)}:${i + 1}: ${colour.find(line)!!.value} (use AppAccents, RatingColors or a theme colour)"
-                    border.containsMatchIn(line) -> "${file.relativeTo(root)}:${i + 1}: .border(1.dp (use AppBorders.hairline or cardSurface)"
-                    else -> null
-                }
-            }
-        }
+        val files = sources.filter { !it.isTheme() && !it.path.endsWith("components/LanguageFlags.kt") }
+        val found = findings(files, listOf(colour to "use AppAccents, RatingColors or a theme colour")) +
+            findings(files.filter { !it.isDesignSystem() }, listOf(border to "use AppBorders.hairline, AppBorders.selected or cardSurface"))
         if (found.isNotEmpty()) fail("Colours and borders outside the design system (${found.size}):\n" + found.joinToString("\n"))
+    }
+
+    @Test
+    fun screensUseTheDesignSystemsTokens() {
+        val found = findings(
+            sources.filter { !it.isTheme() && !it.path.endsWith("components/LanguageFlags.kt") },
+            listOf(
+                circle to "use AppShapes.circle",
+                alpha to "use an AppAlpha strength",
+                iconSize to "use an AppSizes icon size",
+                buttonHeight to "use ButtonSize.Large",
+            ),
+        )
+        if (found.isNotEmpty()) fail("Shapes, tints and sizes outside the design system's tokens (${found.size}):\n" + found.joinToString("\n"))
     }
 
     @Test

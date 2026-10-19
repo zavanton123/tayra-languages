@@ -577,7 +577,3 @@ fun LabeledField(label: String, modifier: Modifier = Modifier, content: @Composa
         content()
     }
 }
-
-@Composable
-fun RoundSlider(value: Float, onValueChange: (Float) -> Unit, valueRange: ClosedFloatingPointRange<Float>, modifier: Modifier = Modifier) =
-    AppSlider(value, onValueChange, valueRange, modifier)

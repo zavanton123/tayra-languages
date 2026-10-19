@@ -202,40 +202,61 @@ outside the catalog found in the database is removed on start together with its 
 
 Screens are built from `core/ui`.
 
-- **Theme and tokens.** `TayraTheme` holds the colours per `AppTheme`. The corner radii of `AppShapes`
-  (tiny 4dp, small 6dp, compact 8dp, control 10dp for buttons, fields, chips and rows, panel 12dp,
-  card 14dp, large 18dp for dialogs and sheets, pill) are also the theme's Material shapes.
-  `theme/Tokens.kt` has the rest: `AppAccents` (the accents of tiles, charts, language codes and
-  covers, the same in every theme; also the cloze highlight, the ink on status tints and the Chinese
-  tone colours), `RatingColors` (a flashcard's answers), `AppBorders.hairline()` (the 1dp outline),
-  `AppSizes` (control height 44dp, icon sizes), `AppSpacing` (the components' spacing scale) and
-  `AppText` (overline and flashcard text styles).
-- **Controls** (`components/Controls.kt`): `PrimaryButton` (the page's main action),
-  `SecondaryButton` (outlined) and `QuietButton` (text). Each takes `tone = ButtonTone.Danger` for
-  actions that delete and `size = ButtonSize.Compact` for dense places, and has a short form with a
-  label, an icon and a `loading` spinner. Also `AppTextField`, `AppDialog` and `AppFilterChip`.
+- **Theme and tokens.** `TayraTheme` holds the colours per `AppTheme`. The corner radii of
+  `AppShapes` (tiny 4dp, small 6dp, compact 8dp, control 10dp for buttons, fields, chips and rows,
+  panel 12dp, card 14dp, large 18dp for dialogs and sheets, pill, circle) are also the theme's
+  Material shapes. `theme/Tokens.kt` has the rest:
+  - `AppAccents`: the accents of tiles, charts, language codes and covers, the same in every theme;
+    also the cloze highlight, the ink on status tints and the Chinese tone colours.
+  - `RatingColors`: a flashcard's answers.
+  - `AppAlpha`: the strengths of tints, from `faint` to `strong`.
+  - `AppBorders`: `hairline()` for the 1dp outline, `selected()` for the 1.5dp ring of a chosen thing.
+  - `AppSizes`: the control height of 44dp, icon sizes from `iconTiny` to `iconHuge`, and dots.
+  - `AppSpacing`: the components' spacing scale.
+  - `AppText`: overline and flashcard text styles.
+- **Controls** (`components/Controls.kt`):
+  - Buttons: `PrimaryButton` (the page's main action), `SecondaryButton` (outlined, or `tint`ed) and
+    `QuietButton` (text). Each takes `tone = ButtonTone.Danger` for actions that delete, and
+    `size = ButtonSize.Compact` for dense places or `Large` for a card's or phone screen's one big
+    action. Each has a short form with a label, an icon, a trailing icon, a badge and a `loading`
+    spinner.
+  - `ToggleButton` (on or off, with a count) and `LinkText`.
+  - `SelectButton` and `SelectMenu`, which open a choice.
+  - Fields: `AppTextField`, `NumberField` and `LabeledField`.
+  - `AppDialog`, `AppFilterChip`, `AppSwitch` and `AppSlider`.
 - **Indicators** (`components/Indicators.kt`): `AppIconButton` (Small, Regular or Large; Plain,
-  Filled or Outlined), `AppProgressBar` for a task, `ProgressTrack` for how much is done, `AppSpinner`,
-  `AppDivider`, `AppVerticalDivider`, `AppCheckbox` and `AppSnackbar`.
-- **Overlays** (`components/Overlays.kt`): `AppBottomSheet` for phones and `AppDialogSurface` for
-  dialogs with content of their own.
-- **Patterns** (`components/Patterns.kt`): `Modifier.cardSurface()`, `AppCard`, `EmptyState` (empty
-  lists and notices), `SelectionBar`, `TableHeader` with `TableHeaderCell`, `SegmentedToggle` (view
-  switches and tabs; `fill` for phones), `SearchField` and `OverflowMenu` (a row's ⋮ actions).
-- **Larger pieces** are built from these: `ContentCard` (with `dense` for phones), `ScreenHeader`,
-  `IconTile`, `SettingRow`, `SwitchSetting`, `StatusPill`, `InfoBanner`, `ConfirmDialog`, pickers and
-  menus.
+  Filled, Outlined or Tonal; `selected` and `loading`), `AppProgressBar` for a task, `ProgressTrack`
+  for how much is done, `AppSpinner`, `AppDivider`, `AppVerticalDivider`, `AppCheckbox`,
+  `AppTriStateCheckbox` and `AppSnackbar`.
+- **Chips** (`components/Chips.kt`): `Tag` (Small, Medium or Large; Soft, Solid or Neutral),
+  `CountBadge`, `StatusDot`, `StatusPill`, `SelectableChip` (filters and views, with a count, a dot
+  or a ×) and `RemovableChip`.
+- **Rows** (`components/Rows.kt`): `SettingRow`, `SwitchSetting`, `CheckSetting`, `NavigationRow`,
+  `SliderSetting` and `KeyValueRow`.
+- **Notices** (`components/Notices.kt`): `TintedSurface`, `InfoBanner` (with `dense` inside cards)
+  and `Notice` (a title, a message, a spinner while busy, an action).
+- **Overlays** (`components/Overlays.kt`): `AppBottomSheet` for phones, `AppDialogSurface` for
+  dialogs with content of their own, `SidePanel`, `PopupCard`, `BarSurface`, `AppTooltip` and
+  `AppRichTooltip`.
+- **Patterns** (`components/Patterns.kt`): `Modifier.cardSurface()`, `AppCard`, `EmptyState`,
+  `SelectionBar`, `TableHeader` with `TableHeaderCell`, `SegmentedToggle` (Soft or Solid; `fill` for
+  phones), `CountTabs`, `UnderlineTabs`, `SearchField` (live, or run with the keyboard's search key)
+  and `OverflowMenu` (a row's ⋮ actions).
+- **Headers and cards** (`components/ContentCards.kt`): `ScreenHeader` (with a way back to Settings
+  or a breadcrumb trail), `CardHeader`, `PaneHeader`, `SectionHeader`, `ContentCard` (with `dense`
+  for phones), `IconTile`, `CodeTile`, `SliderStepper` and `NumberStepper`. Pickers and menus are
+  built from these.
 
-`DesignSystemTest` fails in three cases:
+`DesignSystemTest` fails when a screen does any of the following:
 
-- a screen imports a Material control the design system wraps (buttons, text fields, dialogs,
-  filter chips, icon buttons, progress indicators, dividers, checkboxes, bottom sheets, snackbars,
-  `Dialog`);
-- a screen writes a colour literal (`Color(0x…)`) or a 1dp border of its own;
-- a screen writes a radius of its own (`RoundedCornerShape(10.dp)`). Shapes with different corners
-  are fine.
+- imports a Material component the design system wraps (buttons, fields, dialogs, chips, icon
+  buttons, progress, dividers, checkboxes, switches, sliders, segmented buttons, badges, list
+  items, cards, surfaces, tooltips, bottom sheets, snackbars, `Dialog`);
+- writes a colour literal or a border width of its own;
+- writes a radius of its own (`RoundedCornerShape(10.dp)`; shapes with different corners are fine);
+- writes `CircleShape`, a tint strength (`copy(alpha = 0.1f)`) or an icon size of its own;
+- sets a button's height.
 
-Material components the app does not wrap (switches, sliders, menus) take the theme's shapes.
 Screens keep their own spacing on the 2dp grid. `DesignSystemGalleryTest` draws every component in
 the light and dark themes; run it with `DESIGN_GALLERY=<folder>` to get the pictures.
 
