@@ -54,7 +54,7 @@ internal val esTerms: Map<String, String> = mapOf(
     "Practise {0} selected" to "Practicar selección ({0})",
     "Practise selected" to "Practicar selección",
     "Practise {0} words" to "Practicar {0} palabra|Practicar {0} palabras",
-    "{0} words · ~{1} min" to "{0} palabras · ~{1} min",
+    "~{0} min" to "~{0} min",
     "Choose one or more question types." to "Elige uno o más tipos de pregunta.",
     "{0} question types selected" to "{0} tipo de pregunta seleccionado|{0} tipos de pregunta seleccionados",
     "Start practice" to "Empezar práctica",

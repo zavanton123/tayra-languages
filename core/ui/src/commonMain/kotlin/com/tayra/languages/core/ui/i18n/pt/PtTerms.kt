@@ -54,7 +54,7 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Practise {0} selected" to "Praticar selecionados ({0})",
     "Practise selected" to "Praticar selecionados",
     "Practise {0} words" to "Praticar {0} palavra|Praticar {0} palavras",
-    "{0} words · ~{1} min" to "{0} palavras · ~{1} min",
+    "~{0} min" to "~{0} min",
     "Choose one or more question types." to "Escolha um ou mais tipos de pergunta.",
     "{0} question types selected" to "{0} tipo de pergunta selecionado|{0} tipos de pergunta selecionados",
     "Start practice" to "Começar a prática",

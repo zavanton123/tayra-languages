@@ -54,7 +54,7 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Practise {0} selected" to "练习所选（{0}）",
     "Practise selected" to "练习所选",
     "Practise {0} words" to "练习 {0} 个单词",
-    "{0} words · ~{1} min" to "{0} 个单词 · 约 {1} 分钟",
+    "~{0} min" to "约 {0} 分钟",
     "Choose one or more question types." to "选择一种或多种题型。",
     "{0} question types selected" to "已选择 {0} 种题型",
     "Start practice" to "开始练习",

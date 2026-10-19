@@ -68,10 +68,11 @@ fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDism
         Column {
             Column(Modifier.padding(start = AppSpacing.xxxl, end = AppSpacing.xl, top = AppSpacing.xxl, bottom = AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                    IconTile(AppIcons.BarChart, size = 56)
+                    IconTile(AppIcons.DoneAll, size = 56)
                     Text(trPlural(count, "Practise {0} word", "Practise {0} words"), style = AppText.headline)
                     if (!compact) {
-                        Tag(tr("{0} words · ~{1} min", count, minutes), style = TagStyle.Neutral)
+                        // The title gives the count already; the tag adds only the time.
+                        Tag(tr("~{0} min", minutes), style = TagStyle.Neutral)
                     }
                     Spacer(Modifier.weight(1f))
                     AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)

@@ -54,7 +54,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "Practise {0} selected" to "Ćwicz zaznaczone ({0})",
     "Practise selected" to "Ćwicz zaznaczone",
     "Practise {0} words" to "Ćwiczenie: {0} słowo|Ćwiczenie: {0} słowa|Ćwiczenie: {0} słów",
-    "{0} words · ~{1} min" to "Słowa: {0} · ~{1} min",
+    "~{0} min" to "~{0} min",
     "Choose one or more question types." to "Wybierz jeden lub więcej typów pytań.",
     "{0} question types selected" to "Wybrano {0} typ pytań|Wybrano {0} typy pytań|Wybrano {0} typów pytań",
     "Start practice" to "Zacznij ćwiczenie",

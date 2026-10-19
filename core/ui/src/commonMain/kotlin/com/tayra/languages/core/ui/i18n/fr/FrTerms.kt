@@ -54,7 +54,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Practise {0} selected" to "S’entraîner sur la sélection ({0})",
     "Practise selected" to "S’entraîner sur la sélection",
     "Practise {0} words" to "Entraînement : {0} mot|Entraînement : {0} mots",
-    "{0} words · ~{1} min" to "{0} mots · ~{1} min",
+    "~{0} min" to "~{0} min",
     "Choose one or more question types." to "Choisissez un ou plusieurs types de questions.",
     "{0} question types selected" to "{0} type de questions sélectionné|{0} types de questions sélectionnés",
     "Start practice" to "Commencer l’entraînement",

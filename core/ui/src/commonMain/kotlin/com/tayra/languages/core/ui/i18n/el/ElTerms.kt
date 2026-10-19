@@ -54,7 +54,7 @@ internal val elTerms: Map<String, String> = mapOf(
     "Practise {0} selected" to "Εξάσκηση επιλεγμένων ({0})",
     "Practise selected" to "Εξάσκηση επιλεγμένων",
     "Practise {0} words" to "Εξάσκηση: {0} λέξη|Εξάσκηση: {0} λέξεις",
-    "{0} words · ~{1} min" to "{0} λέξεις · ~{1} λεπ.",
+    "~{0} min" to "~{0} λεπ.",
     "Choose one or more question types." to "Επιλέξτε έναν ή περισσότερους τύπους ερωτήσεων.",
     "{0} question types selected" to "{0} τύπος ερωτήσεων επιλεγμένος|{0} τύποι ερωτήσεων επιλεγμένοι",
     "Start practice" to "Έναρξη εξάσκησης",
