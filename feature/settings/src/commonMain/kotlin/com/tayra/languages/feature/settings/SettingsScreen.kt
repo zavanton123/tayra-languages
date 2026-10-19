@@ -364,7 +364,7 @@ private fun CommandLineCard(viewModel: SettingsViewModel) {
                 Text(tr("Type tayra in a new terminal window, for example tayra --help."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
             available -> SettingRow(tr("Not on your PATH"), tr("Puts tayra on the PATH, so any terminal finds it."), stackOnCompact = true) {
-                PrimaryButton(tr("Install command-line tool"), onClick = viewModel::installCommandLine, modifier = Modifier.testTag("install-cli"), icon = AppIcons.Terminal, enabled = !busy, loading = busy)
+                SecondaryButton(tr("Install command-line tool"), onClick = viewModel::installCommandLine, modifier = Modifier.testTag("install-cli"), icon = AppIcons.Terminal, enabled = !busy, loading = busy)
             }
             else -> Text(tr("The tayra command comes with the installed app. From the sources, run it with ./gradlew :cli:run."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
