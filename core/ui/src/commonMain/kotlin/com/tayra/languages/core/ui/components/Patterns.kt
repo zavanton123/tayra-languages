@@ -2,6 +2,7 @@ package com.tayra.languages.core.ui.components
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateIntAsState
+import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -48,9 +49,16 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.BlendMode
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.CompositingStrategy
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.onPlaced
 import androidx.compose.ui.layout.positionInParent
@@ -65,6 +73,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppMotion
@@ -267,7 +276,8 @@ fun <T> CountTabs(
 ) {
     val colors = MaterialTheme.colorScheme
     val solid = style == SegmentStyle.Solid
-    Row(modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(if (solid) AppSpacing.m else AppSpacing.s)) {
+    val scroll = rememberScrollState()
+    Row(modifier.fadedEdges(scroll).horizontalScroll(scroll), horizontalArrangement = Arrangement.spacedBy(if (solid) AppSpacing.m else AppSpacing.s)) {
         tabs.forEach { tab ->
             val active = tab.value == selected
             val shape = if (solid) AppShapes.panel else AppShapes.control
@@ -426,3 +436,21 @@ fun OverflowMenu(contentDescription: String, modifier: Modifier = Modifier, butt
 private val SEGMENT_HEIGHT = 40.dp
 private val TAB_UNDERLINE_FILL = 3.dp
 private val TAB_UNDERLINE = 2.dp
+
+/** Fades the content out towards an edge that more of it lies beyond, so a row that scrolls looks like it does. */
+private fun Modifier.fadedEdges(state: ScrollState): Modifier = graphicsLayer { compositingStrategy = CompositingStrategy.Offscreen }
+    .drawWithContent {
+        drawContent()
+        val fade = FADED_EDGE.toPx().coerceAtMost(size.width / 2)
+        // Only the mask's alpha counts, so any opaque colour does.
+        val opaque = AppAccents.ink
+        if (state.canScrollForward) {
+            drawRect(Brush.horizontalGradient(listOf(Color.Transparent, opaque), startX = size.width - fade, endX = size.width), Offset(size.width - fade, 0f), Size(fade, size.height), blendMode = BlendMode.DstOut)
+        }
+        if (state.canScrollBackward) {
+            drawRect(Brush.horizontalGradient(listOf(opaque, Color.Transparent), startX = 0f, endX = fade), Offset.Zero, Size(fade, size.height), blendMode = BlendMode.DstOut)
+        }
+    }
+
+private val FADED_EDGE = 32.dp
+
