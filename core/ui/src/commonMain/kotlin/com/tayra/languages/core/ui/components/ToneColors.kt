@@ -6,9 +6,10 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
 import com.tayra.languages.core.domain.morphology.Chinese
+import com.tayra.languages.core.ui.theme.AppAccents
 
 /** The colours of the four tones and the neutral one, Zhongwen's standard scheme. */
-val ToneColors: List<Color> = listOf(Color(0xFFEE363E), Color(0xFFF47C36), Color(0xFF73BB4F), Color(0xFF649CD3), Color(0xFFA0A0A0))
+val ToneColors: List<Color> = AppAccents.tones
 
 /** A Chinese reading with each syllable in its tone's colour; pinyin with tone marks, or zhuyin, whose syllables are spaced. */
 fun toneColored(reading: String): AnnotatedString = buildAnnotatedString {

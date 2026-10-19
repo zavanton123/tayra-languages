@@ -21,6 +21,7 @@ import androidx.compose.ui.test.onFirst
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppTheme
 import com.tayra.languages.core.ui.theme.AppThemes
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -40,7 +41,7 @@ class DesignSystemGalleryTest {
         for (theme in listOf(AppThemes.default, AppThemes.night)) gallery(theme)
     }
 
-    private fun gallery(theme: AppTheme) = runDesktopComposeUiTest(width = 1100, height = 760) {
+    private fun gallery(theme: AppTheme) = runDesktopComposeUiTest(width = 1100, height = 1180) {
         setContent { TayraTheme(theme) { Gallery() } }
         onAllNodesWithText("Primary").onFirst().assertExists()
         System.getenv("DESIGN_GALLERY")?.let { folder ->
@@ -88,6 +89,38 @@ class DesignSystemGalleryTest {
                 StatusPill("Installed", StatusTints.ok)
                 Tag("A2", MaterialTheme.colorScheme.primary)
             }
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
+                Label("Patterns")
+                SearchField("", {}, "Search books", Modifier.width(260.dp))
+                SegmentedToggle(listOf(Segment("list", AppIcons.ViewList, description = "List"), Segment("grid", AppIcons.GridView, description = "Grid")), selected = "list", onSelect = {})
+                SegmentedToggle(listOf(Segment(1, label = "Installed"), Segment(2, label = "Available")), selected = 2, onSelect = {})
+                AppIconButton(AppIcons.Download, "Download", onClick = {})
+                AppIconButton(AppIcons.Download, "Download", onClick = {}, style = IconButtonStyle.Outlined)
+                AppIconButton(AppIcons.Download, "Download", onClick = {}, style = IconButtonStyle.Filled, size = IconButtonSize.Large)
+                OverflowMenu("More") {}
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(16.dp), verticalAlignment = Alignment.CenterVertically) {
+                Label("Progress")
+                ProgressTrack(0.6f, MaterialTheme.colorScheme.primary, Modifier.width(160.dp))
+                ProgressTrack(0.3f, AppAccents.green, Modifier.width(160.dp))
+                AppProgressBar(0.45f, Modifier.width(160.dp))
+                AppSpinner(size = SpinnerSize.Small)
+                AppSpinner()
+                AppCheckbox(checked = true, onCheckedChange = {})
+            }
+            SelectionBar("2 of 5 selected", leading = { AppCheckbox(checked = false, onCheckedChange = {}) }) {
+                QuietButton("Archive", onClick = {})
+                QuietButton("Delete", onClick = {}, tone = ButtonTone.Danger)
+            }
+            Column {
+                TableHeader {
+                    TableHeaderCell("Book", Modifier.weight(1f), active = true, onClick = {})
+                    TableHeaderCell("Reading", Modifier.weight(1f))
+                    TableHeaderCell("Last opened", Modifier.weight(1f))
+                }
+                AppDivider()
+            }
+            EmptyState(AppIcons.Book, "No books match these filters.", message = "Try other filters.", action = { QuietButton("Create a book", onClick = {}) })
             ContentCard("Card", "A card with a setting, a banner and a header button.", icon = AppIcons.Download, modifier = Modifier.fillMaxWidth()) {
                 SwitchSetting("A switch", "Its description.", checked = true) {}
                 InfoBanner("An information banner.")

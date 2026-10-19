@@ -1,7 +1,10 @@
 package com.tayra.languages.core.ui.components
 
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -28,7 +31,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -51,8 +53,8 @@ import androidx.compose.ui.unit.dp
 
 /** Colours of status pills, tags and banners, readable on light and dark themes alike. */
 object StatusTints {
-    val ok = Color(0xFF2E9D57)
-    val warning = Color(0xFFD68A00)
+    val ok = AppAccents.green
+    val warning = AppAccents.amber
 }
 
 /** The screen's name as a heading, on wide windows only: phones show it in the top bar instead. */
@@ -66,7 +68,7 @@ fun ScreenTitle(title: String, modifier: Modifier = Modifier) {
 @Composable
 fun ScreenHeader(
     title: String,
-    subtitle: String,
+    subtitle: String?,
     onBackToSettings: (() -> Unit)? = null,
     actions: @Composable RowScope.() -> Unit = {},
 ) {
@@ -86,55 +88,58 @@ fun ScreenHeader(
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Column(Modifier.weight(1f)) {
                 if (!compact) Text(title, style = MaterialTheme.typography.headlineLarge, fontWeight = FontWeight.Bold)
-                Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             actions()
         }
     }
 }
 
-/** A white card with an icon tile, a title and a subtitle, and its content below. */
+/**
+ * A card with an icon tile, a title and an optional subtitle, and its content below. [dense] is
+ * the phone's card: less padding, a smaller tile and less room under the header.
+ */
 @Composable
 fun ContentCard(
     title: String,
-    subtitle: String,
+    subtitle: String?,
     icon: ImageVector? = null,
     iconText: String? = null,
     modifier: Modifier = Modifier,
+    dense: Boolean = false,
     headerExtra: @Composable RowScope.() -> Unit = {},
     titleExtra: @Composable RowScope.() -> Unit = {},
     content: @Composable ColumnScope.() -> Unit,
 ) {
-    Column(
-        modifier.fillMaxWidth().clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card)
-            .padding(20.dp),
-    ) {
+    Column(modifier.fillMaxWidth().cardSurface().padding(if (dense) AppSpacing.l else AppSpacing.xl)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            IconTile(icon, iconText)
-            Spacer(Modifier.width(16.dp))
+            if (icon != null || iconText != null) {
+                IconTile(icon, iconText, size = if (dense) 44 else 48)
+                Spacer(Modifier.width(if (dense) 14.dp else AppSpacing.l))
+            }
             Column(Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                     titleExtra()
                 }
-                Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             headerExtra()
         }
-        Spacer(Modifier.height(16.dp))
+        Spacer(Modifier.height(if (dense) AppSpacing.m else AppSpacing.l))
         content()
     }
 }
 
+/** An icon (or a short text) on a rounded square washed with its [tint], the primary colour unless an accent is given. */
 @Composable
-fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48) {
+fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48, tint: Color = MaterialTheme.colorScheme.primary) {
     Box(
-        Modifier.size(size.dp).clip(AppShapes.panel).background(MaterialTheme.colorScheme.primary.copy(alpha = 0.09f)),
+        Modifier.size(size.dp).clip(AppShapes.panel).background(tint.copy(alpha = 0.09f)),
         contentAlignment = Alignment.Center,
     ) {
-        if (icon != null) Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size((size / 2).dp))
-        else if (text != null) Text(text, style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.SemiBold)
+        if (icon != null) Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size((size / 2).dp))
+        else if (text != null) Text(text, style = MaterialTheme.typography.titleLarge, color = tint, fontWeight = FontWeight.SemiBold)
     }
 }
 
@@ -150,7 +155,7 @@ fun SettingRow(
     stackOnCompact: Boolean = false,
     control: @Composable () -> Unit,
 ) {
-    if (divider) HorizontalDivider(Modifier.padding(vertical = 4.dp), color = MaterialTheme.colorScheme.outlineVariant)
+    if (divider) AppDivider(Modifier.padding(vertical = 4.dp))
     val text: @Composable (Modifier) -> Unit = { modifier ->
         Column(modifier) {
             Text(title, style = MaterialTheme.typography.bodyLarge)
@@ -231,13 +236,13 @@ fun RoundSlider(value: Float, onValueChange: (Float) -> Unit, valueRange: Closed
 @Composable
 fun NumberStepper(value: Int, range: IntRange, name: String, step: Int = 1, onChange: (Int) -> Unit) {
     Row(
-        Modifier.clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control),
+        Modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         StepButton("−", tr("Decrease {0}", name), enabled = value > range.first, bordered = false) { onChange((value - step).coerceAtLeast(range.first)) }
-        Box(Modifier.height(44.dp).width(1.dp).background(MaterialTheme.colorScheme.outlineVariant))
+        AppVerticalDivider(Modifier.height(44.dp))
         Text(value.toString(), Modifier.widthIn(min = 64.dp).padding(horizontal = 12.dp), textAlign = TextAlign.Center, style = MaterialTheme.typography.bodyLarge)
-        Box(Modifier.height(44.dp).width(1.dp).background(MaterialTheme.colorScheme.outlineVariant))
+        AppVerticalDivider(Modifier.height(44.dp))
         StepButton("+", tr("Increase {0}", name), enabled = value < range.last, bordered = false) { onChange((value + step).coerceAtMost(range.last)) }
     }
 }
@@ -257,7 +262,7 @@ private fun StepButton(symbol: String, description: String, enabled: Boolean, bo
     val shape = AppShapes.compact
     Box(
         Modifier.size(44.dp).clip(shape)
-            .then(if (bordered) Modifier.border(1.dp, MaterialTheme.colorScheme.outlineVariant, shape) else Modifier)
+            .then(if (bordered) Modifier.border(AppBorders.hairline(), shape) else Modifier)
             .clickable(enabled = enabled, onClick = onClick)
             .semantics { contentDescription = description },
         contentAlignment = Alignment.Center,
@@ -279,7 +284,7 @@ private fun StepButton(symbol: String, description: String, enabled: Boolean, bo
 fun InfoBanner(text: String, modifier: Modifier = Modifier, tint: Color = MaterialTheme.colorScheme.primary, icon: ImageVector = Icons.Default.Info) {
     Row(
         modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.07f))
-            .border(1.dp, tint.copy(alpha = 0.18f), AppShapes.panel).padding(horizontal = 16.dp, vertical = 14.dp),
+            .border(AppBorders.hairline(tint.copy(alpha = 0.18f)), AppShapes.panel).padding(horizontal = 16.dp, vertical = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(22.dp))
@@ -292,7 +297,7 @@ fun InfoBanner(text: String, modifier: Modifier = Modifier, tint: Color = Materi
 @Composable
 fun StatusPill(text: String, color: Color) {
     Row(
-        Modifier.clip(AppShapes.pill).background(color.copy(alpha = 0.1f)).border(1.dp, color.copy(alpha = 0.3f), AppShapes.pill)
+        Modifier.clip(AppShapes.pill).background(color.copy(alpha = 0.1f)).border(AppBorders.hairline(color.copy(alpha = 0.3f)), AppShapes.pill)
             .padding(horizontal = 14.dp, vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -349,32 +354,13 @@ fun PageColumn(padding: PaddingValues, modifier: Modifier = Modifier, content: @
 /** [label] is English, shown through `tr`. */
 enum class PackageTab(val label: String) { INSTALLED("Installed"), AVAILABLE("Available") }
 
-/** The Installed / Available switch above a list of downloads. */
+/** The Installed / Available switch above a list of downloads; [fill] spreads it across a phone's width. */
 @Composable
-fun TabToggle(selected: PackageTab, onSelect: (PackageTab) -> Unit) {
-    Row(Modifier.clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainer).padding(3.dp)) {
-        PackageTab.entries.forEach { tab ->
-            val active = tab == selected
-            Box(
-                Modifier.clip(AppShapes.compact)
-                    .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.14f) else Color.Transparent)
-                    .clickable { onSelect(tab) }
-                    .padding(horizontal = 18.dp, vertical = 10.dp),
-            ) {
-                Text(
-                    tr(tab.label),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
-                    fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
-                )
-            }
-        }
-    }
+fun TabToggle(selected: PackageTab, fill: Boolean = false, onSelect: (PackageTab) -> Unit) {
+    SegmentedToggle(PackageTab.entries.map { Segment(it, label = tr(it.label)) }, selected, onSelect, fill = fill)
 }
 
-private val codeTints = listOf(
-    Color(0xFF3B6FE0), Color(0xFF1FA463), Color(0xFF7C4DDB), Color(0xFFDC4A4A), Color(0xFFC98A05), Color(0xFF0E8FA3), Color(0xFFD9488B),
-)
+private val codeTints = AppAccents.sequence.take(7)
 
 /** A language code on a square tinted per code, as on download tiles. */
 @Composable
