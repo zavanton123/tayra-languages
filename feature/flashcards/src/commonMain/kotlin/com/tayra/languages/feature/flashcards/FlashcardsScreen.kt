@@ -1,38 +1,37 @@
 package com.tayra.languages.feature.flashcards
 
+import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import com.tayra.languages.core.ui.components.LearningLanguageSelector
-import androidx.compose.foundation.layout.windowInsetsPadding
-import androidx.compose.foundation.layout.statusBars
-import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.runtime.setValue
-import androidx.compose.runtime.mutableStateOf
-import com.tayra.languages.core.ui.components.ConfirmDialog
+import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -41,16 +40,18 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
 import androidx.compose.ui.input.key.isCtrlPressed
@@ -66,25 +67,28 @@ import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
-import com.tayra.languages.core.domain.settings.Hotkey
-import com.tayra.languages.core.domain.settings.HotkeyAction
-import com.tayra.languages.core.ui.components.AppDivider
-import com.tayra.languages.core.ui.components.AppIconButton
-import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppVerticalDivider
-import com.tayra.languages.core.ui.components.IconButtonSize
-import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
-import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.Rating
 import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.domain.settings.Hotkey
+import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.ui.audio.SpeakButton
 import com.tayra.languages.core.ui.audio.Speaker
 import com.tayra.languages.core.ui.audio.rememberSpeaker
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppVerticalDivider
+import com.tayra.languages.core.ui.components.Appear
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ButtonTone
+import com.tayra.languages.core.ui.components.ConfirmDialog
+import com.tayra.languages.core.ui.components.IconButtonSize
+import com.tayra.languages.core.ui.components.LearningLanguageSelector
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -96,25 +100,27 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.cardSurface
-import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
+import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.RatingColors
-import com.tayra.languages.core.ui.theme.AppSpacing
+import kotlin.time.Instant
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
-import kotlin.time.Instant
 
 /** Reviewing the flashcards of the language being learned, one card at a time. */
 @Composable
@@ -245,7 +251,8 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                 Finished(state, actions)
             } else {
                 Card(card, state.revealed, speaker, compact, actions.onReveal)
-                if (state.revealed) Answers(actions, compact, state.twoButtons)
+                // The answers fade in as the card turns over.
+                if (state.revealed) Appear { Answers(actions, compact, state.twoButtons) }
                 CardFooter(card, state.canUndo, actions, compact)
             }
         }
@@ -331,12 +338,31 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
  * saved without a sentence is shown on its own.
  */
 @Composable
-private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compact: Boolean, onReveal: () -> Unit) {
+private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onReveal: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
+    // Showing the answer turns the card over: it turns edge-on, shows its other side and turns back,
+    // growing to hold the answer; a new card starts face up, and nothing turns when motion is reduced.
+    val reduceMotion = AppMotion.reduced
+    var revealed by remember(card) { mutableStateOf(answered) }
+    val turn = remember(card) { Animatable(0f) }
+    LaunchedEffect(card, answered) {
+        if (answered == revealed) return@LaunchedEffect
+        if (reduceMotion) {
+            revealed = answered
+            return@LaunchedEffect
+        }
+        turn.animateTo(EDGE_ON, tween(AppMotion.short, easing = AppMotion.exit))
+        revealed = answered
+        turn.snapTo(-EDGE_ON)
+        turn.animateTo(0f, tween(AppMotion.medium, easing = AppMotion.enter))
+    }
     Column(
-        Modifier.fillMaxWidth().cardSurface(AppShapes.large)
+        Modifier.fillMaxWidth()
+            .graphicsLayer { rotationY = turn.value; cameraDistance = CAMERA_DISTANCE * density }
+            .animateContentSize(AppMotion.spec(AppMotion.medium))
+            .cardSurface(AppShapes.large)
             .padding(horizontal = inset, vertical = if (compact) AppSpacing.xl else AppSpacing.xxl).testTag("flashcard"),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
@@ -417,6 +443,10 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
 }
 
 private const val BLANK = "[...]"
+
+/** How far a card turns before it shows its other side, in degrees, and how far away it is seen from as it does. */
+private const val EDGE_ON = 90f
+private const val CAMERA_DISTANCE = 12f
 private val REVIEW_WIDTH = 1048.dp
 private val PILL_DIVIDER_HEIGHT = 22.dp
 private val SHOW_ANSWER_WIDTH = 360.dp
