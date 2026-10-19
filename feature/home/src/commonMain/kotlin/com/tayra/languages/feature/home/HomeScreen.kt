@@ -94,11 +94,13 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
             StreakTile(activity, Modifier.weight(1f).fillMaxHeight())
         }
     }
+    // What needs doing first: cards that are due, then the course and book under way, then the empty ones.
+    val courseUnderWay = state.course?.nextLesson != null
     val cards: List<@Composable (Modifier, Boolean) -> Unit> = listOf(
-        { m, fill -> CourseCard(state, m, fill, onNavigate, onContinueCourse) },
-        { m, fill -> BookCard(state, m, fill, onNavigate) },
-        { m, fill -> FlashcardsCard(state.flashcardsDue, m, fill, onNavigate) },
-    )
+        (if (courseUnderWay) 1 else 2) to @Composable { m: Modifier, fill: Boolean -> CourseCard(state, m, fill, onNavigate, onContinueCourse) },
+        (if (state.book != null) 1 else 2) to @Composable { m: Modifier, fill: Boolean -> BookCard(state, m, fill, onNavigate) },
+        (if (state.flashcardsDue > 0) 0 else 2) to @Composable { m: Modifier, fill: Boolean -> FlashcardsCard(state.flashcardsDue, m, fill, onNavigate) },
+    ).sortedBy { it.first }.map { it.second }
     if (width.isExpanded) {
         Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
             cards.forEach { it(Modifier.weight(1f).fillMaxHeight(), true) }
@@ -176,11 +178,12 @@ private fun BookCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNa
         )
         return
     }
-    val share = if (book.pageCount > 0) book.currentPage.toFloat() / book.pageCount else 0f
+    // As on Books: the current page's share, and never all of it until the book is marked finished.
+    val percent = if (book.pageCount > 0) (100 * book.currentPage / book.pageCount).coerceIn(0, 99) else 0
     ActionCard(
         tr("Continue book"), book.title, tr("Page {0} of {1}", book.currentPage, book.pageCount), AppIcons.MenuBook, AppAccents.purple, "book", modifier, fill,
         button = tr("Continue book"), onClick = { onNavigate(Route.Read(book.id)) },
-        progress = share, progressText = "${(share * 100).toInt().coerceIn(0, 100)}%",
+        progress = percent / 100f, progressText = "$percent%",
     )
 }
 

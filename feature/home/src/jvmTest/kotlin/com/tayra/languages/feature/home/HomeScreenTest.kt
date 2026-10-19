@@ -39,10 +39,6 @@ import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.TayraTheme
-import kotlinx.coroutines.runBlocking
-import kotlinx.datetime.LocalDate
-import kotlinx.datetime.TimeZone
-import kotlinx.datetime.atStartOfDayIn
 import java.io.File
 import java.sql.DriverManager
 import javax.imageio.ImageIO
@@ -51,6 +47,10 @@ import kotlin.test.assertEquals
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Instant
+import kotlinx.coroutines.runBlocking
+import kotlinx.datetime.LocalDate
+import kotlinx.datetime.TimeZone
+import kotlinx.datetime.atStartOfDayIn
 
 /** The home page: today's words and streak from what the database records, and the ways back into the study. */
 @OptIn(ExperimentalTestApi::class)
@@ -154,5 +154,15 @@ class HomeScreenTest {
         onNodeWithTag("action-course").performClick()
         onNodeWithTag("action-book").performClick()
         assertEquals(listOf(Route.Courses, Route.Books), visited)
+    }
+
+    /** Due cards lead, then what is under way, then the empty cards; a book on its last page is not yet all read. */
+    @Test
+    fun theCardsThatNeedDoingComeFirst() = runDesktopComposeUiTest(width = 400, height = 2000) {
+        show(HomeUiState(loading = false, languageName = "Portuguese", activity = activity, book = book.copy(currentPage = 48), flashcardsDue = 3))
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Study activity")).fetchSemanticsNodes().isNotEmpty() }
+        val top = listOf("flashcards", "book", "course").map { onNodeWithTag("card-$it").fetchSemanticsNode().positionInRoot.y }
+        assertEquals(top.sorted(), top)
+        onNodeWithText("99%").assertExists()
     }
 }
