@@ -8,9 +8,9 @@ import kotlin.test.fail
  * Screens are built from the design system: its components (core/ui components' Controls.kt,
  * Indicators.kt, Overlays.kt, Patterns.kt, Chips.kt, Rows.kt and Notices.kt) rather than Material's,
  * its corner radii and circle (theme/Shapes.kt) rather than shapes of their own, and its colours,
- * tint strengths, borders and icon sizes (theme/Tokens.kt and the theme) rather than literals. A
- * shape with different corners (`RoundedCornerShape(topStart = …)`) is fine; the drawn flags keep
- * their colours.
+ * tint strengths, borders, spacing, sizes, text roles and elevations (theme/Tokens.kt and the
+ * theme) rather than literals; a one-off size is a named constant. A shape with different corners
+ * (`RoundedCornerShape(topStart = …)`) is fine; the drawn flags and icons keep their colours.
  */
 class DesignSystemTest {
 
@@ -53,6 +53,18 @@ class DesignSystemTest {
 
     private val buttonHeight = Regex("""(Primary|Secondary|Quiet)Button\(.*\.height\(\d""")
 
+    private val spacing = Regex("""(\.padding|spacedBy|PaddingValues)\([^)]*\b[1-9]\d*(\.\d+)?\.dp""")
+
+    private val size = Regex("""\.(size|height|width|widthIn|heightIn|sizeIn|defaultMinSize|requiredSize|requiredHeight|requiredWidth|requiredSizeIn)\([^)]*\b[1-9]\d*(\.\d+)?\.dp""")
+
+    private val weight = Regex("""fontWeight = FontWeight\.""")
+
+    private val textSize = Regex("""\b\d+(\.\d+)?\.sp\b""")
+
+    private val elevation = Regex("""(shadow\(|[eE]levation = )\d""")
+
+    private val whiteOrBlack = Regex("""Color\.(White|Black)\b""")
+
     private fun findings(files: List<File>, rules: List<Pair<Regex, String>>): List<String> = files.flatMap { file ->
         file.readLines().mapIndexedNotNull { i, line ->
             rules.firstOrNull { (regex, _) -> regex.containsMatchIn(line) }?.let { (regex, hint) -> "${file.relativeTo(root)}:${i + 1}: ${regex.find(line)!!.value} ($hint)" }
@@ -79,16 +91,23 @@ class DesignSystemTest {
 
     @Test
     fun screensUseTheDesignSystemsTokens() {
+        val drawn = listOf("components/LanguageFlags.kt", "components/AppIcons.kt")
         val found = findings(
-            sources.filter { !it.isTheme() && !it.path.endsWith("components/LanguageFlags.kt") },
+            sources.filter { !it.isTheme() && drawn.none { d -> it.path.endsWith(d) } },
             listOf(
                 circle to "use AppShapes.circle",
                 alpha to "use an AppAlpha strength",
                 iconSize to "use an AppSizes icon size",
                 buttonHeight to "use ButtonSize.Large",
+                spacing to "use AppSpacing",
+                size to "use AppSizes, AppSpacing for a gap, or a named constant",
+                weight to "use an AppText role",
+                textSize to "use the typography or an AppText style",
+                elevation to "use AppElevation",
+                whiteOrBlack to "use AppAccents.onAccent, AppAccents.ink or a theme colour",
             ),
         )
-        if (found.isNotEmpty()) fail("Shapes, tints and sizes outside the design system's tokens (${found.size}):\n" + found.joinToString("\n"))
+        if (found.isNotEmpty()) fail("Shapes, tints, spacing, sizes and text outside the design system's tokens (${found.size}):\n" + found.joinToString("\n"))
     }
 
     @Test

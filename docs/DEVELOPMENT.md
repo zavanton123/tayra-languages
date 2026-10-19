@@ -211,9 +211,14 @@ Screens are built from `core/ui`.
   - `RatingColors`: a flashcard's answers.
   - `AppAlpha`: the strengths of tints, from `faint` to `strong`.
   - `AppBorders`: `hairline()` for the 1dp outline, `selected()` for the 1.5dp ring of a chosen thing.
-  - `AppSizes`: the control height of 44dp, icon sizes from `iconTiny` to `iconHuge`, and dots.
-  - `AppSpacing`: the components' spacing scale.
-  - `AppText`: overline and flashcard text styles.
+  - `AppSizes`: the control, touch and row heights, icon sizes from `iconTiny` to `iconHuge`, dots,
+    tracks, tiles, and the widths of dialogs, panels and pages.
+  - `AppSpacing`: the spacing scale on a 4dp grid, from `xxs` (2dp) to `giant` (48dp), for every
+    padding and gap.
+  - `AppElevation`: the shadows of thumbs, tooltips, menus and popups.
+  - `AppText`: the text roles (`figure`, `pageTitle`, `screenTitle`, `headline`, `sectionTitle`,
+    `itemTitle`, `smallTitle`, `emphasis`, `label`, `labelStrong`, `badge`) and the flashcard
+    styles.
 - **Controls** (`components/Controls.kt`):
   - Buttons: `PrimaryButton` (the page's main action), `SecondaryButton` (outlined, or `tint`ed) and
     `QuietButton` (text). Each takes `tone = ButtonTone.Danger` for actions that delete, and
@@ -255,9 +260,12 @@ Screens are built from `core/ui`.
 - writes a colour literal or a border width of its own;
 - writes a radius of its own (`RoundedCornerShape(10.dp)`; shapes with different corners are fine);
 - writes `CircleShape`, a tint strength (`copy(alpha = 0.1f)`) or an icon size of its own;
-- sets a button's height.
+- sets a button's height;
+- writes a padding, a gap or a size in dp of its own (a one-off size is a named constant in its
+  file), a fixed font weight instead of a text role, a text size in sp, a shadow's depth, or
+  `Color.White`/`Color.Black`.
 
-Screens keep their own spacing on the 2dp grid. `DesignSystemGalleryTest` draws every component in
+`DesignSystemGalleryTest` draws every component in
 the light and dark themes; run it with `DESIGN_GALLERY=<folder>` to get the pictures.
 
 ## Interface languages
