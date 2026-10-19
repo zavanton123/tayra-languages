@@ -133,7 +133,8 @@ particles and endings.
 - Import e-books (EPUB, FB2, MOBI, AZW3), documents (DOCX, ODT, RTF, PDF), web pages (HTML,
   MHTML), Markdown, plain text and subtitle files (SRT, VTT), or paste a text: each becomes plain
   text, with the book's own title. A zipped book (`.fb2.zip`, `.fbz`) is read through; PDF is not
-  read in the browser. On desktop and Android, a web page can be imported by its address.
+  read in the browser. On desktop, Android and iOS, a web page's article can be imported by its
+  address, without the menus, ads and comments around it, as Firefox's Reader View reads it.
 - Find free books without leaving the app: classics from Project Gutenberg, the transcriptions of
   Wikisource in dozens of languages, graded children's readers from the Global Digital Library,
   Global Storybooks' short picture-book stories in about 150 languages, StoryWeaver's graded

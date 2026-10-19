@@ -15,6 +15,8 @@ import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookValidationException
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.domain.web.WebPageException
+import com.tayra.languages.core.domain.web.WebPageReader
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
@@ -43,6 +45,8 @@ data class BookFormUiState(
     val ocrOffer: OcrOffer? = null,
     /** What a long import is doing (downloading a model, reading photo 2 of 5). */
     val progress: String? = null,
+    /** Whether a web page's article can be read into the book here. */
+    val readsWebPages: Boolean = false,
 ) {
     val isNew: Boolean get() = draft.id == null
 
@@ -66,9 +70,10 @@ class BookFormViewModel(
     private val settings: SettingsRepository,
     private val bookService: BookService,
     private val recognizer: TextRecognizer = NoTextRecognizer,
+    private val webPages: WebPageReader? = null,
 ) : ViewModel() {
 
-    private val _state = MutableStateFlow(BookFormUiState())
+    private val _state = MutableStateFlow(BookFormUiState(readsWebPages = webPages != null))
     val state: StateFlow<BookFormUiState> = _state.asStateFlow()
     val events = UiEvents<BookFormEvent>()
 
@@ -133,6 +138,44 @@ class BookFormViewModel(
             }
         }
     }
+
+    /**
+     * Reads the article of the web page at [address] into the book, its title too when the book has
+     * none yet, and keeps the address as the book's source; [onRead] follows once the text is in.
+     */
+    fun importWebPage(address: String, onRead: () -> Unit = {}) {
+        val reader = webPages ?: return
+        _state.update { it.copy(busy = true, error = null, notice = null, progress = tr("Reading the page…")) }
+        viewModelScope.launch {
+            try {
+                val article = reader.read(address)
+                val site = article.siteName ?: hostOf(article.url)
+                _state.update {
+                    it.copy(
+                        busy = false,
+                        progress = null,
+                        importedFileName = null,
+                        draft = it.draft.copy(text = article.text, title = it.draft.title.ifBlank { article.title ?: site }, sourceUri = article.url),
+                        notice = trPlural(article.text.length, "Loaded {0} character from {1}.", "Loaded {0} characters from {1}.", site),
+                    )
+                }
+                onRead()
+            } catch (e: WebPageException) {
+                val message = when (e) {
+                    is WebPageException.InvalidAddress -> tr("Enter the address of a web page, such as https://example.com/article.")
+                    is WebPageException.Unreachable -> when (e.status) {
+                        null -> tr("The page could not be loaded. Check the address and your connection.")
+                        401, 402, 403, 451 -> tr("The site does not let apps read this page; it may need a subscription or a sign-in.")
+                        else -> tr("The site answered with error {0}.", e.status)
+                    }
+                    is WebPageException.NoArticle -> tr("No article text was found on this page.")
+                }
+                _state.update { it.copy(busy = false, progress = null, error = message) }
+            }
+        }
+    }
+
+    private fun hostOf(url: String): String = url.substringAfter("://").substringBefore('/').removePrefix("www.")
 
     /** Photos waiting for the text recognition model offered for download. */
     private var pendingPhotos: List<Pair<String, ByteArray>> = emptyList()

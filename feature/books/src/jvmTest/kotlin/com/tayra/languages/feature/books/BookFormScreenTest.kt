@@ -6,9 +6,13 @@ import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performTextClearance
+import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
@@ -23,11 +27,11 @@ import com.tayra.languages.core.ui.components.LearningLanguageState
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
-import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlinx.coroutines.runBlocking
 
 @OptIn(ExperimentalTestApi::class)
 class BookFormScreenTest {
@@ -110,6 +114,59 @@ class BookFormScreenTest {
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.importedFileName != null }
         assertEquals("O Lobo", viewModel.state.value.draft.title)
         assertEquals("O lobo dorme na floresta.", viewModel.state.value.draft.text)
+    }
+
+    /** Gives the article it was made with for one address, and no article for any other. */
+    private class FakeWebPages(private val article: com.tayra.languages.core.domain.web.WebArticle) : com.tayra.languages.core.domain.web.WebPageReader {
+        val read = mutableListOf<String>()
+        override suspend fun read(address: String): com.tayra.languages.core.domain.web.WebArticle {
+            read += address
+            if (address != article.url) throw com.tayra.languages.core.domain.web.WebPageException.NoArticle()
+            return article
+        }
+    }
+
+    /** A web page's article becomes the text to check, its title the book's, its address the book's source; a page with none says so. */
+    @Test
+    fun aWebPagesArticleBecomesTheText() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        runBlocking { languages.save(Language(name = "Portuguese")) }
+        val article = com.tayra.languages.core.domain.web.WebArticle("https://example.com/lobo", text, title = "O lobo na floresta", siteName = "Contos")
+        val pages = FakeWebPages(article)
+        val viewModel = BookFormViewModel(null, books, languages, settings, service, webPages = pages)
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {}) {
+                        BookFormScreen(bookId = null, onNavigate = {}, onBack = {}, onSaved = { _, _ -> }, viewModel = viewModel)
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Create new book").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("source-WEB").performClick()
+        onNodeWithTag("web-address").performTextInput("https://example.com/nada")
+        onNodeWithTag("web-read").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No article text was found on this page.").fetchSemanticsNodes().isNotEmpty() }
+
+        onNodeWithTag("web-address").performTextClearance()
+        onNodeWithTag("web-address").performTextInput("https://example.com/lobo")
+        System.getenv("BOOK_WEB_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
+        onNodeWithTag("web-read").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.draft.text == text }
+        assertEquals("O lobo na floresta", viewModel.state.value.draft.title)
+        assertEquals("https://example.com/lobo", viewModel.state.value.draft.sourceUri)
+        // The text shows where it can be checked, as an imported file's does.
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Loaded 323 characters from Contos.").fetchSemanticsNodes().isNotEmpty() }
+        onAllNodesWithText("O lobob dorme na floresta.", substring = true).fetchSemanticsNodes().let { kotlin.test.assertTrue(it.isNotEmpty()) }
+        assertEquals(listOf("https://example.com/nada", "https://example.com/lobo"), pages.read)
+    }
+
+    /** Where no web page can be read, as in a browser, the form offers none. */
+    @Test
+    fun noWebPageIsOfferedWithoutAReader() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        newBook(FakeRecognizer())
+        kotlin.test.assertTrue(onAllNodesWithTag("source-WEB").fetchSemanticsNodes().isEmpty())
+        onNodeWithTag("source-FILE").assertExists()
     }
 
     /** Says a model must be downloaded until it is, then reads a photo's bytes as its text. */

@@ -10,10 +10,13 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Warning
@@ -26,10 +29,14 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.dp
@@ -45,9 +52,6 @@ import com.tayra.languages.core.ui.components.BarSurface
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.InfoBanner
-import com.tayra.languages.core.ui.components.formatSize
-import com.tayra.languages.core.ui.files.acceptsDroppedFiles
-import com.tayra.languages.core.ui.files.rememberCameraCapture
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -60,9 +64,12 @@ import com.tayra.languages.core.ui.components.Segment
 import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TagInput
-import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.components.formatSize
+import com.tayra.languages.core.ui.files.acceptsDroppedFiles
+import com.tayra.languages.core.ui.files.rememberCameraCapture
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
@@ -81,10 +88,10 @@ import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
-private enum class ContentSource(val label: String) { PASTE("Paste text"), FILE("Import file") }
+private enum class ContentSource(val label: String) { PASTE("Paste text"), FILE("Import file"), WEB("Web page") }
 
 /**
- * Creates a book from pasted text or a file, or edits a book: the same form, with the book's
+ * Creates a book from pasted text, a file or a web page's article, or edits a book: the same form, with the book's
  * whole text, title and tags filled in and no file import. Changing the text or the words per
  * page rebuilds the pages on save.
  */
@@ -180,12 +187,12 @@ private fun BookContentCard(
         if (state.isNew) {
             // The formats are many: beside the toggle where there is room, under it on a phone.
             if (LocalWindowWidth.current.isCompact) {
-                SourceToggle(source, onSource)
+                SourceToggle(source, onSource, state.readsWebPages)
                 Spacer(Modifier.height(AppSpacing.m))
                 Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             } else {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    SourceToggle(source, onSource)
+                    SourceToggle(source, onSource, state.readsWebPages)
                     Spacer(Modifier.width(AppSpacing.xl))
                     Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
                 }
@@ -215,6 +222,7 @@ private fun BookContentCard(
                 }
             }
             ContentSource.FILE -> FileDrop(state, formats, onChooseFile, onDropFiles, onTakePhoto)
+            ContentSource.WEB -> WebPageImport(state, onRead = { address -> viewModel.importWebPage(address) { onSource(ContentSource.PASTE) } })
         }
     }
 }
@@ -223,14 +231,63 @@ private fun BookContentCard(
 private fun wordCount(text: String): Int = text.split(Regex("\\s+")).count { word -> word.any { it.isLetterOrDigit() } }
 
 @Composable
-private fun SourceToggle(selected: ContentSource, onSelect: (ContentSource) -> Unit) {
+private fun SourceToggle(selected: ContentSource, onSelect: (ContentSource) -> Unit, webPages: Boolean) {
+    // Three choices share a phone's width only without their icons.
+    val compact = LocalWindowWidth.current.isCompact && webPages
     SegmentedToggle(
-        ContentSource.entries.map { option ->
-            Segment(option, if (option == ContentSource.PASTE) AppIcons.FileOutline else AppIcons.UploadFile, tr(option.label))
+        ContentSource.entries.filter { it != ContentSource.WEB || webPages }.map { option ->
+            val icon = when (option) {
+                ContentSource.PASTE -> AppIcons.FileOutline
+                ContentSource.FILE -> AppIcons.UploadFile
+                ContentSource.WEB -> AppIcons.Globe
+            }
+            Segment(option, icon.takeUnless { compact }, tr(option.label), testTag = "source-${option.name}")
         },
         selected,
         onSelect,
+        fill = compact,
     )
+}
+
+/** A web page's address, whose article is read into the text: without the menus, ads and comments around it. */
+@Composable
+private fun WebPageImport(state: BookFormUiState, onRead: (String) -> Unit) {
+    var address by rememberSaveable { mutableStateOf(state.draft.sourceUri) }
+    val read = { if (address.isNotBlank() && !state.busy) onRead(address) }
+    val field: @Composable (Modifier) -> Unit = { modifier ->
+        AppTextField(
+            value = address,
+            onValueChange = { address = it },
+            placeholder = { Text("https://") },
+            leadingIcon = { Icon(AppIcons.Link, contentDescription = null) },
+            singleLine = true,
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Uri, imeAction = ImeAction.Go),
+            keyboardActions = KeyboardActions(onGo = { read() }),
+            modifier = modifier.testTag("web-address"),
+        )
+    }
+    val button: @Composable (Modifier) -> Unit = { modifier ->
+        PrimaryButton(tr("Get text"), onClick = read, modifier = modifier.testTag("web-read"), icon = AppIcons.Download, enabled = address.isNotBlank(), loading = state.busy)
+    }
+    Column(Modifier.fillMaxWidth().heightIn(min = CONTENT_HEIGHT)) {
+        FieldLabel(tr("Page address"))
+        if (LocalWindowWidth.current.isCompact) {
+            field(Modifier.fillMaxWidth())
+            Spacer(Modifier.height(AppSpacing.m))
+            button(Modifier.fillMaxWidth())
+        } else {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                field(Modifier.weight(1f))
+                button(Modifier)
+            }
+        }
+        Spacer(Modifier.height(AppSpacing.m))
+        Text(
+            tr("The article's text, without the menus and ads around it, appears under Paste text, ready to check."),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+    }
 }
 
 @Composable
