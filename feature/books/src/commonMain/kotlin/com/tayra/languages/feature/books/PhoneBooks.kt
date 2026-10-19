@@ -1,6 +1,5 @@
 package com.tayra.languages.feature.books
 
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -40,6 +39,7 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.OverflowMenu
@@ -49,13 +49,18 @@ import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.TagFilterSheet
+import com.tayra.languages.core.ui.components.TagSize
+import com.tayra.languages.core.ui.components.TintedSurface
+import com.tayra.languages.core.ui.components.ToggleButton
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 
 /** The phone bar's list menu (ticking books, the archive) and the button for a new book. */
 @Composable
@@ -98,8 +103,8 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
         item {
             Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 // The sort's label is the longer, so it gets the wider button.
-                ToolbarButton(AppIcons.SwapVert, tr(state.sort.label), Modifier.weight(1.45f).testTag("phone-sort"), trailing = Icons.Default.ArrowDropDown) { sorting = true }
-                ToolbarButton(AppIcons.Tune, tr("Filters"), Modifier.weight(1f).testTag("phone-filters"), badge = state.tags.size, active = state.tags.isNotEmpty()) { filtering = true }
+                ToggleButton(tr(state.sort.label), active = false, onClick = { sorting = true }, modifier = Modifier.weight(1.45f).testTag("phone-sort"), icon = AppIcons.SwapVert, trailingIcon = Icons.Default.ArrowDropDown)
+                ToggleButton(tr("Filters"), active = state.tags.isNotEmpty(), onClick = { filtering = true }, modifier = Modifier.weight(1f).testTag("phone-filters"), icon = AppIcons.Tune, badge = state.tags.size)
             }
         }
         item {
@@ -142,11 +147,7 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
 @Composable
 private fun PhoneContinueCard(book: BookListItem, onContinue: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    val shape = AppShapes.large
-    Column(
-        Modifier.fillMaxWidth().padding(bottom = 16.dp).clip(shape).background(colors.primary.copy(alpha = 0.06f)).border(AppBorders.hairline(colors.primary.copy(alpha = 0.16f)), shape).padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(14.dp),
-    ) {
+    TintedSurface(colors.primary, Modifier.padding(bottom = 16.dp), shape = AppShapes.large, verticalArrangement = Arrangement.spacedBy(14.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             BookCover(book, 56.dp)
             Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -159,9 +160,7 @@ private fun PhoneContinueCard(book: BookListItem, onContinue: () -> Unit) {
             LabelledBar(tr("{0}% read", book.progressPercent), book.progressPercent, AppAccents.blue)
             LabelledBar(book.masteryPercent?.let { tr("{0}% known", it) } ?: "…", book.masteryPercent, AppAccents.green)
         }
-        PrimaryButton(onClick = onContinue, modifier = Modifier.fillMaxWidth().height(48.dp).testTag("continue-reading")) {
-            Text(tr("Continue"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-        }
+        PrimaryButton(tr("Continue"), onClick = onContinue, modifier = Modifier.fillMaxWidth().testTag("continue-reading"), size = ButtonSize.Large)
     }
 }
 
@@ -175,49 +174,14 @@ private fun LabelledBar(label: String, percent: Int?, color: Color) {
     }
 }
 
-/** An outlined control in the toolbar: an icon, a label, and a badge or a trailing icon. */
-@Composable
-private fun ToolbarButton(
-    icon: androidx.compose.ui.graphics.vector.ImageVector,
-    label: String,
-    modifier: Modifier,
-    trailing: androidx.compose.ui.graphics.vector.ImageVector? = null,
-    badge: Int = 0,
-    active: Boolean = false,
-    onClick: () -> Unit,
-) {
-    val colors = MaterialTheme.colorScheme
-    val tint = if (active) colors.primary else colors.onSurface
-    Row(
-        modifier.height(48.dp).clip(AppShapes.control).background(colors.surface)
-            .border(if (active) BorderStroke(1.5.dp, colors.primary) else AppBorders.hairline(), AppShapes.control)
-            .clickable(onClick = onClick).padding(start = 14.dp, end = 10.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
-    ) {
-        Icon(icon, contentDescription = null, tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium, color = tint, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        if (badge > 0) {
-            Text(
-                "$badge",
-                Modifier.clip(AppShapes.pill).background(colors.primary).padding(horizontal = 8.dp, vertical = 1.dp),
-                style = MaterialTheme.typography.labelLarge,
-                color = colors.onPrimary,
-                fontWeight = FontWeight.SemiBold,
-            )
-        }
-        if (trailing != null) Icon(trailing, contentDescription = null, tint = colors.onSurfaceVariant)
-    }
-}
-
 /** A book as a card: cover, title, words and status, the two bars, and when it was opened. */
 @Composable
 private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Boolean, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.card
     Column(
-        Modifier.fillMaxWidth().clip(shape).border(AppBorders.hairline(if (selected) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant), shape)
-            .background(if (selected) colors.primary.copy(alpha = 0.05f) else colors.surface)
+        Modifier.fillMaxWidth().clip(shape).border(AppBorders.hairline(if (selected) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
+            .background(if (selected) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
             .clickable { if (selecting) callbacks.onToggle(book) else callbacks.onOpen(book) }.padding(start = 16.dp, end = 4.dp, top = 16.dp, bottom = 16.dp),
     ) {
         Row(verticalAlignment = Alignment.Top) {
@@ -227,7 +191,7 @@ private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Bool
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Text(book.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text(words(book.wordCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                Row { StatusTag(book.readingStatus) }
+                Row { StatusTag(book.readingStatus, TagSize.Medium) }
                 BookTags(book.tags)
             }
             BookMenu(book, callbacks)
@@ -245,7 +209,7 @@ private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Bool
         }
         AppDivider(Modifier.padding(top = 14.dp, bottom = 12.dp, end = 12.dp))
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            Icon(AppIcons.History, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(18.dp))
+            Icon(AppIcons.History, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconCompact))
             Text(book.lastOpened?.let { tr("Opened {0}", it.relativeTo()) } ?: tr("Not opened yet"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
         }
     }

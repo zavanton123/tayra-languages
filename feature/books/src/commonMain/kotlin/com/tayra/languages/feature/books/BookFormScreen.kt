@@ -1,6 +1,5 @@
 package com.tayra.languages.feature.books
 
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -21,7 +20,6 @@ import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -43,6 +41,7 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.BarSurface
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.InfoBanner
@@ -67,8 +66,10 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import io.github.vinceglb.filekit.PlatformFile
 import io.github.vinceglb.filekit.dialogs.FileKitMode
 import io.github.vinceglb.filekit.dialogs.FileKitType
@@ -238,15 +239,15 @@ private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -
     val colors = MaterialTheme.colorScheme
     Column(
         Modifier.fillMaxWidth().height(400.dp).clip(AppShapes.panel)
-            .background(if (dropping) colors.primary.copy(alpha = 0.06f) else colors.surfaceContainerLow)
-            .border(if (dropping) BorderStroke(2.dp, colors.primary) else AppBorders.hairline(), AppShapes.panel)
+            .background(if (dropping) colors.primary.copy(alpha = AppAlpha.wash) else colors.surfaceContainerLow)
+            .border(if (dropping) AppBorders.selected() else AppBorders.hairline(), AppShapes.panel)
             .acceptsDroppedFiles(enabled = !state.busy, onHover = { dropping = it }, onFiles = onDropFiles)
             .clickable(enabled = !state.busy, onClick = onChooseFile)
             .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
-        Icon(AppIcons.UploadFile, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(48.dp))
+        Icon(AppIcons.UploadFile, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(AppSizes.iconHuge))
         Spacer(Modifier.height(14.dp))
         Text(if (dropping) tr("Drop the files to read their text.") else tr("Choose a file to read its text"), style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center)
         Text(
@@ -363,7 +364,7 @@ private fun FieldLabel(text: String) {
 /** Cancel and save, kept in view at the bottom of the window. */
 @Composable
 private fun ActionBar(state: BookFormUiState, onCancel: () -> Unit, onSave: () -> Unit) {
-    Surface(color = MaterialTheme.colorScheme.surface) {
+    BarSurface {
         Column {
             AppDivider()
             Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {

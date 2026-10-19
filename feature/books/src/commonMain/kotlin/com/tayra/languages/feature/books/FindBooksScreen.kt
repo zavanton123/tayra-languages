@@ -14,15 +14,13 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.SegmentedButton
-import androidx.compose.material3.SegmentedButtonDefaults
-import androidx.compose.material3.SingleChoiceSegmentedButtonRow
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -55,6 +53,8 @@ import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.Segment
+import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -62,7 +62,9 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import org.koin.compose.viewmodel.koinViewModel
 
 /** Free books to add to the library, found in online libraries and judged by the words the reader knows. */
@@ -152,16 +154,13 @@ private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact
         val sources = state.sources.ifEmpty { BookSource.entries.filter { it.languages == null } }
         // Three libraries fit side by side on a phone; a language with libraries of its own lists them as chips.
         if (sources.size <= 3) {
-            SingleChoiceSegmentedButtonRow(Modifier.then(if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = 460.dp))) {
-                sources.forEachIndexed { i, source ->
-                    SegmentedButton(
-                        selected = state.source == source,
-                        onClick = { actions.onSource(source) },
-                        shape = SegmentedButtonDefaults.itemShape(i, sources.size),
-                        modifier = Modifier.testTag("source-${source.name}"),
-                    ) { Text(source.label, maxLines = 1, overflow = TextOverflow.Ellipsis) }
-                }
-            }
+            SegmentedToggle(
+                sources.map { Segment(it, label = it.label, testTag = "source-${it.name}") },
+                state.source,
+                actions.onSource,
+                if (compact) Modifier else Modifier.width(460.dp),
+                fill = true,
+            )
         } else {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 sources.forEach { source ->
@@ -183,8 +182,8 @@ private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compac
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         if (!compact) {
-            Box(Modifier.size(56.dp, 76.dp).clip(AppShapes.small).background((item.difficulty?.color ?: colors.primary).copy(alpha = 0.14f)), contentAlignment = Alignment.Center) {
-                Icon(AppIcons.MenuBook, contentDescription = null, tint = item.difficulty?.color ?: colors.primary, modifier = Modifier.size(28.dp))
+            Box(Modifier.size(56.dp, 76.dp).clip(AppShapes.small).background((item.difficulty?.color ?: colors.primary).copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
+                Icon(AppIcons.MenuBook, contentDescription = null, tint = item.difficulty?.color ?: colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
             }
         }
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {

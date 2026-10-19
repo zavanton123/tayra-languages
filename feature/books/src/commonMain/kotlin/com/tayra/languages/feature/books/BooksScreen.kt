@@ -10,8 +10,6 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.BoxWithConstraints
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -34,11 +32,9 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.ui.text.style.TextAlign
 import com.tayra.languages.core.domain.dictionary.PackState
@@ -57,7 +53,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.layout.Layout
@@ -72,10 +67,11 @@ import com.tayra.languages.core.domain.model.BookListItem
 import com.tayra.languages.core.ui.components.AppCheckbox
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ButtonTone
+import com.tayra.languages.core.ui.components.CountTabs
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
@@ -91,10 +87,18 @@ import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.Segment
 import com.tayra.languages.core.ui.components.SegmentedToggle
+import com.tayra.languages.core.ui.components.SectionHeader
+import com.tayra.languages.core.ui.components.SegmentStyle
+import com.tayra.languages.core.ui.components.SelectMenu
 import com.tayra.languages.core.ui.components.SelectionBar
+import com.tayra.languages.core.ui.components.Tab
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.TagSize
+import com.tayra.languages.core.ui.components.TagStyle
 import com.tayra.languages.core.ui.components.TableHeader
 import com.tayra.languages.core.ui.components.TableHeaderCell
 import com.tayra.languages.core.ui.components.TagFilterButton
+import com.tayra.languages.core.ui.components.TintedSurface
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.formatCount
@@ -102,6 +106,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
@@ -268,12 +273,10 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
 @Composable
 private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    val shape = AppShapes.large
-    val card = Modifier.fillMaxWidth().padding(bottom = 24.dp).clip(shape).background(colors.primary.copy(alpha = 0.06f)).border(AppBorders.hairline(colors.primary.copy(alpha = 0.16f)), shape)
     val title: @Composable (Modifier) -> Unit = { m ->
         Row(m, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(20.dp)) {
-            Box(Modifier.size(76.dp).clip(CircleShape).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
-                Icon(AppIcons.MenuBook, contentDescription = null, tint = colors.primary, modifier = Modifier.size(36.dp))
+            Box(Modifier.size(76.dp).clip(AppShapes.circle).background(colors.primary.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) {
+                Icon(AppIcons.MenuBook, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
             }
             Column(Modifier.weight(1f, fill = false), verticalArrangement = Arrangement.spacedBy(2.dp)) {
                 Text(tr("Continue reading"), style = MaterialTheme.typography.titleSmall, color = colors.primary, fontWeight = FontWeight.SemiBold)
@@ -293,16 +296,16 @@ private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) {
         }
     }
     val button: @Composable (Modifier) -> Unit = { m ->
-        PrimaryButton(onClick = onContinue, modifier = m.height(48.dp).testTag("continue-reading")) {
-            Text(tr("Continue"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
-        }
+        PrimaryButton(tr("Continue"), onClick = onContinue, modifier = m.testTag("continue-reading"), size = ButtonSize.Large)
     }
-    Row(card.height(IntrinsicSize.Min).padding(horizontal = 24.dp, vertical = 20.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(32.dp)) {
-        title(Modifier.weight(1.2f))
-        bar(tr("Reading progress"), book.progressPercent, AppAccents.blue, Modifier.weight(1f))
-        AppVerticalDivider()
-        bar(tr("Vocabulary known"), book.masteryPercent, AppAccents.green, Modifier.weight(1f))
-        button(Modifier.width(180.dp))
+    TintedSurface(colors.primary, Modifier.padding(bottom = 24.dp), shape = AppShapes.large, padding = PaddingValues(horizontal = 24.dp, vertical = 20.dp)) {
+        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(32.dp)) {
+            title(Modifier.weight(1.2f))
+            bar(tr("Reading progress"), book.progressPercent, AppAccents.blue, Modifier.weight(1f))
+            AppVerticalDivider()
+            bar(tr("Vocabulary known"), book.masteryPercent, AppAccents.green, Modifier.weight(1f))
+            button(Modifier.width(180.dp))
+        }
     }
 }
 
@@ -312,44 +315,23 @@ internal val ProgressFilter.tabLabel: String
         else -> tr(label)
     }
 
-/** All books, then those in progress, not started and finished, each with how many it holds; [compact] is the phone's smaller pills. */
+/** All books, then those in progress, not started and finished, each with how many it holds; [compact] is the phone's smaller row. */
 @Composable
 internal fun ProgressTabs(counts: Map<ProgressFilter, Int>, selected: ProgressFilter, onSelect: (ProgressFilter) -> Unit, compact: Boolean = false) {
-    val colors = MaterialTheme.colorScheme
-    Row(Modifier.padding(bottom = if (compact) 14.dp else 18.dp).horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        listOf(ProgressFilter.ALL, ProgressFilter.READING, ProgressFilter.NOT_STARTED, ProgressFilter.FINISHED).forEach { filter ->
-            val active = filter == selected
-            val idle = if (compact) colors.onSurface.copy(alpha = 0.05f) else Color.Transparent
-            Row(
-                Modifier.height(40.dp).clip(AppShapes.control)
-                    .background(if (active) colors.primary.copy(alpha = 0.1f) else idle)
-                    .clickable { onSelect(filter) }.padding(horizontal = if (compact) 14.dp else 16.dp).testTag("progress-${filter.name}"),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(if (compact) 8.dp else 10.dp),
-            ) {
-                Text(
-                    filter.tabLabel,
-                    style = if (compact) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.titleMedium,
-                    fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium,
-                    color = if (active) colors.primary else colors.onSurfaceVariant,
-                    softWrap = false,
-                )
-                Text(
-                    formatCount(counts[filter] ?: 0),
-                    Modifier.clip(AppShapes.pill).background(if (active) colors.primary.copy(alpha = 0.14f) else colors.onSurface.copy(alpha = 0.07f)).padding(horizontal = 8.dp, vertical = 1.dp),
-                    style = MaterialTheme.typography.labelLarge,
-                    fontWeight = FontWeight.SemiBold,
-                    color = if (active) colors.primary else colors.onSurfaceVariant,
-                )
-            }
-        }
-    }
+    CountTabs(
+        listOf(ProgressFilter.ALL, ProgressFilter.READING, ProgressFilter.NOT_STARTED, ProgressFilter.FINISHED).map { Tab(it, it.tabLabel, counts[it] ?: 0, testTag = "progress-${it.name}") },
+        selected,
+        onSelect,
+        Modifier.padding(bottom = if (compact) 14.dp else 18.dp),
+        style = SegmentStyle.Soft,
+        compact = compact,
+    )
 }
 
 @Composable
 private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count: Int, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
-    val sortMenu: @Composable (Modifier) -> Unit = { FilterMenu(AppIcons.SwapVert, tr(state.sort.label), BookSort.entries, { tr(it.label) }, callbacks.onSort, it) }
+    val sortMenu: @Composable (Modifier) -> Unit = { SelectMenu(BookSort.entries, state.sort, callbacks.onSort, { tr(it.label) }, it, icon = AppIcons.SwapVert) }
     val hasTags = state.availableTags.isNotEmpty()
     val tagFilter: @Composable (Modifier) -> Unit = { TagFilterButton(state.availableTags, state.tags, state.matchAllTags, callbacks.onTags, it) }
     if (compact) {
@@ -406,31 +388,8 @@ private fun LibraryHeader(state: BooksUiState, selecting: Boolean, onSelect: () 
         BooksSelectionBar(state, callbacks, onDone)
         return
     }
-    Row(Modifier.fillMaxWidth().padding(bottom = 14.dp), verticalAlignment = Alignment.CenterVertically) {
-        Text(if (state.archived) tr("Archive") else tr("Your library"), Modifier.weight(1f), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+    SectionHeader(if (state.archived) tr("Archive") else tr("Your library"), Modifier.padding(bottom = 14.dp)) {
         if (state.filteredBooks.isNotEmpty()) QuietButton(tr("Select"), onClick = onSelect, modifier = Modifier.testTag("select-books"))
-    }
-}
-
-@Composable
-private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, optionLabel: (T) -> String, onSelect: (T) -> Unit, modifier: Modifier = Modifier) {
-    val colors = MaterialTheme.colorScheme
-    var open by remember { mutableStateOf(false) }
-    Box(modifier) {
-        Row(
-            Modifier.height(AppSizes.control).cardSurface(AppShapes.control).clickable { open = true }.padding(start = 16.dp, end = 10.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
-        ) {
-            Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-            Text(label, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = colors.onSurfaceVariant)
-        }
-        AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            options.forEach { option ->
-                AppMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) })
-            }
-        }
     }
 }
 
@@ -460,7 +419,7 @@ private fun BookTable(state: BooksUiState, selecting: Boolean, callbacks: BooksC
     Column(Modifier.fillMaxWidth().cardSurface()) {
         BookTableHeader(state, selecting, callbacks)
         state.filteredBooks.forEach { book ->
-            AppDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
+            AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
             BookTableRow(book, book.id in state.selected, selecting, callbacks)
         }
     }
@@ -488,8 +447,8 @@ private fun BookTableRow(book: BookListItem, selected: Boolean, selecting: Boole
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
     val background = when {
-        selected -> colors.primary.copy(alpha = 0.07f)
-        hovered -> colors.primary.copy(alpha = 0.04f)
+        selected -> colors.primary.copy(alpha = AppAlpha.wash)
+        hovered -> colors.primary.copy(alpha = AppAlpha.faint)
         else -> Color.Transparent
     }
     Row(
@@ -519,20 +478,13 @@ private fun BookTableRow(book: BookListItem, selected: Boolean, selecting: Boole
 }
 
 @Composable
-internal fun StatusTag(status: ReadingStatus) {
+internal fun StatusTag(status: ReadingStatus, size: TagSize = TagSize.Large) {
     val (label, tint) = when (status) {
         ReadingStatus.READING -> tr("In progress") to AppAccents.blue
         ReadingStatus.FINISHED -> tr("Finished") to AppAccents.green
         ReadingStatus.NOT_STARTED -> tr("Not started") to MaterialTheme.colorScheme.outline
     }
-    Text(
-        label,
-        Modifier.clip(AppShapes.pill).background(tint.copy(alpha = 0.12f)).padding(horizontal = 12.dp, vertical = 4.dp),
-        style = MaterialTheme.typography.labelLarge,
-        color = tint,
-        maxLines = 1,
-        softWrap = false,
-    )
+    Tag(label, tint, size = size)
 }
 
 /** A book's tags as small grey chips, the first few of them. */
@@ -540,17 +492,9 @@ internal fun StatusTag(status: ReadingStatus) {
 @Composable
 internal fun BookTags(tags: List<String>, max: Int = 3) {
     if (tags.isEmpty()) return
-    val colors = MaterialTheme.colorScheme
     FlowRow(Modifier.padding(top = 2.dp), horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
         (tags.take(max) + listOfNotNull(if (tags.size > max) "+${tags.size - max}" else null)).forEach { tag ->
-            Text(
-                tag,
-                Modifier.clip(AppShapes.pill).background(colors.onSurface.copy(alpha = 0.06f)).padding(horizontal = 10.dp, vertical = 2.dp),
-                style = MaterialTheme.typography.labelMedium,
-                color = colors.onSurfaceVariant,
-                maxLines = 1,
-                softWrap = false,
-            )
+            Tag(tag, size = TagSize.Small, style = TagStyle.Neutral)
         }
     }
 }
@@ -589,8 +533,8 @@ private fun BookCard(book: BookListItem, selected: Boolean, selecting: Boolean, 
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
     Column(
-        modifier.clip(shape).border(AppBorders.hairline(if (selected || hovered) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant), shape)
-            .background(if (selected) colors.primary.copy(alpha = 0.05f) else colors.surface)
+        modifier.clip(shape).border(AppBorders.hairline(if (selected || hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
+            .background(if (selected) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
             .hoverable(interaction).clickable { callbacks.onOpen(book) }.padding(20.dp),
     ) {
         Row(verticalAlignment = Alignment.Top) {
@@ -640,29 +584,29 @@ internal fun BookCover(book: BookListItem, width: Dp) {
     val figure = ((book.id + book.id / covers.size) % 4).toInt().let { if (it < 0) -it else it }
     val code = LanguageCodes.codeFor(book.languageName)?.uppercase() ?: book.languageName.take(2).uppercase()
     val shape = RoundedCornerShape(topStart = 3.dp, bottomStart = 3.dp, topEnd = 8.dp, bottomEnd = 8.dp)
-    Box(Modifier.size(width = width, height = width * 1.3f).clip(shape).background(tint.copy(alpha = 0.22f))) {
+    Box(Modifier.size(width = width, height = width * 1.3f).clip(shape).background(tint.copy(alpha = AppAlpha.line))) {
         Canvas(Modifier.matchParentSize()) {
             val w = size.width
             val h = size.height
-            val ink = tint.copy(alpha = 0.85f)
+            val ink = tint.copy(alpha = AppAlpha.strong)
             when (figure) {
                 // A hill rising from the bottom.
                 0 -> drawOval(ink, topLeft = Offset(w * 0.2f, h * 0.62f), size = Size(w * 1.1f, h * 0.7f))
                 // Two lines of text.
                 1 -> {
                     drawRoundRect(ink, topLeft = Offset(w * 0.32f, h * 0.6f), size = Size(w * 0.5f, h * 0.07f), cornerRadius = CornerRadius(h * 0.03f))
-                    drawRoundRect(ink.copy(alpha = 0.6f), topLeft = Offset(w * 0.32f, h * 0.74f), size = Size(w * 0.5f, h * 0.07f), cornerRadius = CornerRadius(h * 0.03f))
+                    drawRoundRect(ink.copy(alpha = AppAlpha.muted), topLeft = Offset(w * 0.32f, h * 0.74f), size = Size(w * 0.5f, h * 0.07f), cornerRadius = CornerRadius(h * 0.03f))
                 }
                 // An arch.
                 2 -> drawArc(ink, startAngle = 180f, sweepAngle = 90f, useCenter = false, topLeft = Offset(w * 0.3f, h * 0.55f), size = Size(w * 1.1f, h * 0.9f), style = Stroke(width = w * 0.14f))
                 // Mountains.
                 else -> {
                     drawPath(Path().apply { moveTo(w * 0.1f, h); lineTo(w * 0.5f, h * 0.5f); lineTo(w * 0.85f, h); close() }, ink)
-                    drawPath(Path().apply { moveTo(w * 0.45f, h); lineTo(w * 0.75f, h * 0.62f); lineTo(w * 1.05f, h); close() }, ink.copy(alpha = 0.65f))
+                    drawPath(Path().apply { moveTo(w * 0.45f, h); lineTo(w * 0.75f, h * 0.62f); lineTo(w * 1.05f, h); close() }, ink.copy(alpha = AppAlpha.muted))
                 }
             }
             // The spine.
-            drawRect(tint.copy(alpha = 0.35f), size = Size(w * 0.05f, h))
+            drawRect(tint.copy(alpha = AppAlpha.disabled), size = Size(w * 0.05f, h))
         }
         Text(
             code,
