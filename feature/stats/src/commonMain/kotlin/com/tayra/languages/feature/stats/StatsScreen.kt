@@ -32,7 +32,6 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -72,7 +71,9 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.TayraTheme
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.SharingStarted
@@ -144,7 +145,7 @@ internal fun StatsContent(state: StatsUiState) {
 @Composable
 private fun SideBySide(wide: Boolean, first: @Composable (Modifier) -> Unit, second: @Composable (Modifier) -> Unit) {
     if (wide) {
-        Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+        Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
             first(Modifier.weight(1f).fillMaxHeight())
             second(Modifier.weight(1f).fillMaxHeight())
         }
@@ -170,20 +171,20 @@ private fun OverviewTiles(o: LanguageOverview) {
     val compact = LocalWindowWidth.current.isCompact
     FlowRow(
         Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         maxItemsInEachRow = if (compact) 2 else 3,
     ) {
         tiles.forEach { tile ->
             Row(
-                Modifier.weight(1f).cardSurface(AppShapes.card).padding(if (compact) 14.dp else 20.dp).testTag("tile-${tile.tag}"),
+                Modifier.weight(1f).cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl).testTag("tile-${tile.tag}"),
                 verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(16.dp),
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
                 if (!compact) IconTile(tile.icon, size = 52, tint = tile.tint)
-                Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                     Text(tile.label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                    Text(tile.value, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold, maxLines = 1)
+                    Text(tile.value, style = AppText.headline, maxLines = 1)
                     Text(tile.detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2)
                 }
             }
@@ -236,9 +237,9 @@ private fun BarChart(values: List<Int>, color: Color, from: String, to: String, 
     val max = values.maxOrNull() ?: 0
     val muted = MaterialTheme.colorScheme.onSurfaceVariant
     val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
-    Column(modifier, verticalArrangement = Arrangement.spacedBy(6.dp)) {
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         Text(if (max > 0) tr("Most: {0}", formatCount(max)) else tr("Nothing yet"), style = MaterialTheme.typography.bodySmall, color = muted)
-        Canvas(Modifier.fillMaxWidth().height(140.dp)) {
+        Canvas(Modifier.fillMaxWidth().height(BAR_CHART_HEIGHT)) {
             val slot = size.width / values.size
             val bar = slot * 0.68f
             values.forEachIndexed { i, value ->
@@ -274,7 +275,7 @@ private fun VocabularyCard(o: LanguageOverview, modifier: Modifier) {
     val total = counts.values.sum()
     ContentCard(tr("Vocabulary by status"), trPlural(total, "{1} word saved", "{1} words saved", formatCount(total)), icon = AppIcons.Tune, modifier = modifier) {
         val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
-        Row(Modifier.fillMaxWidth().height(14.dp).clip(AppShapes.pill).background(track).testTag("status-bar")) {
+        Row(Modifier.fillMaxWidth().height(AppSizes.trackBold).clip(AppShapes.pill).background(track).testTag("status-bar")) {
             if (total > 0) {
                 vocabularyOrder.forEach { status ->
                     val n = counts.getValue(status)
@@ -282,13 +283,13 @@ private fun VocabularyCard(o: LanguageOverview, modifier: Modifier) {
                 }
             }
         }
-        Spacer(Modifier.height(16.dp))
+        Spacer(Modifier.height(AppSpacing.l))
         vocabularyOrder.forEach { status ->
-            Row(Modifier.fillMaxWidth().padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+            Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
                 StatusDot(tint(status))
-                Spacer(Modifier.width(10.dp))
+                Spacer(Modifier.width(AppSpacing.m))
                 Text(tr(status.label), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
-                Text(formatCount(counts.getValue(status)), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
+                Text(formatCount(counts.getValue(status)), style = AppText.labelStrong)
             }
         }
     }
@@ -322,23 +323,23 @@ private fun LanguagesCard(summary: ReadingStatsSummary) {
         }
         summary.table.forEach { row ->
             AppDivider()
-            Row(Modifier.fillMaxWidth().padding(vertical = 10.dp)) {
-                Text(tr(row.languageName), Modifier.weight(2f), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+            Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s)) {
+                Text(tr(row.languageName), Modifier.weight(2f), style = AppText.label)
                 listOf(row.counts.day, row.counts.week, row.counts.month, row.counts.year, row.counts.total).forEach {
                     Text(formatCount(it), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
                 }
             }
         }
-        Spacer(Modifier.height(20.dp))
-        Text(tr("Cumulative words read"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-        Spacer(Modifier.height(10.dp))
+        Spacer(Modifier.height(AppSpacing.xl))
+        Text(tr("Cumulative words read"), style = AppText.itemTitle)
+        Spacer(Modifier.height(AppSpacing.m))
         Chart(summary.chart)
-        Spacer(Modifier.height(10.dp))
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        Spacer(Modifier.height(AppSpacing.m))
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             summary.chart.keys.forEachIndexed { i, language ->
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     StatusDot(seriesColors[i % seriesColors.size])
-                    Spacer(Modifier.width(6.dp))
+                    Spacer(Modifier.width(AppSpacing.xs))
                     Text(tr(language), style = MaterialTheme.typography.bodySmall)
                 }
             }
@@ -354,7 +355,7 @@ private fun Chart(series: Map<String, List<ChartPoint>>) {
     val maxDate = points.maxOf { it.date.toEpochDays() }.coerceAtLeast(minDate + 1)
     val maxTotal = points.maxOf { it.runningTotal }.coerceAtLeast(1)
     val axisColor = MaterialTheme.colorScheme.outlineVariant
-    Canvas(Modifier.fillMaxWidth().height(200.dp)) {
+    Canvas(Modifier.fillMaxWidth().height(LINE_CHART_HEIGHT)) {
         val bottom = size.height
         drawLine(axisColor, Offset(0f, bottom), Offset(size.width, bottom))
         series.values.forEachIndexed { i, list ->
@@ -368,3 +369,6 @@ private fun Chart(series: Map<String, List<ChartPoint>>) {
         }
     }
 }
+
+private val BAR_CHART_HEIGHT = 140.dp
+private val LINE_CHART_HEIGHT = 200.dp

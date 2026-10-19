@@ -19,9 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -51,6 +49,9 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.minus
 import org.koin.compose.viewmodel.koinViewModel
@@ -87,7 +88,7 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
     )
     val activity = state.activity
     if (activity != null) {
-        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(if (width.isCompact) 12.dp else 20.dp)) {
+        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(if (width.isCompact) AppSpacing.m else AppSpacing.xl)) {
             WordsTodayTile(activity, Modifier.weight(1f).fillMaxHeight())
             StreakTile(activity, Modifier.weight(1f).fillMaxHeight())
         }
@@ -98,7 +99,7 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
         { m, fill -> FlashcardsCard(state.flashcardsDue, m, fill, onNavigate) },
     )
     if (width.isExpanded) {
-        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
             cards.forEach { it(Modifier.weight(1f).fillMaxHeight(), true) }
         }
     } else {
@@ -128,14 +129,14 @@ private fun StreakTile(activity: StudyActivity, modifier: Modifier) {
 private fun Tile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, tag: String, modifier: Modifier) {
     val compact = LocalWindowWidth.current.isCompact
     Row(
-        modifier.cardSurface(AppShapes.card).padding(if (compact) 14.dp else 20.dp).testTag("tile-$tag"),
+        modifier.cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl).testTag("tile-$tag"),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         if (!compact) IconTile(icon, size = 52, tint = tint)
-        Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
             Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Text(value, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold, maxLines = 1)
+            Text(value, style = AppText.headline, maxLines = 1)
             Text(detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2)
         }
     }
@@ -216,20 +217,20 @@ private fun ActionCard(
 ) {
     val colors = MaterialTheme.colorScheme
     Column(
-        modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(20.dp).testTag("card-$tag"),
-        verticalArrangement = Arrangement.spacedBy(14.dp),
+        modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.xl).testTag("card-$tag"),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             IconTile(icon, size = 52, tint = tint)
-            Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                 Text(label, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text(title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
             }
         }
         Text(detail, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
         if (progress != null) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                ProgressTrack(progress, tint, Modifier.weight(1f), height = 8.dp)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                ProgressTrack(progress, tint, Modifier.weight(1f), height = AppSizes.trackThick)
                 if (progressText != null) Text(progressText, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             }
         }

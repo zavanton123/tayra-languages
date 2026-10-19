@@ -31,9 +31,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
@@ -52,6 +50,8 @@ import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /** Enables or disables the online dictionaries offered for one language. */
 @Composable
@@ -76,21 +76,21 @@ fun ManageDictionariesScreen(
         }
         Box(Modifier.padding(padding).fillMaxSize(), contentAlignment = Alignment.TopCenter) {
             ScrollList(
-                Modifier.fillMaxSize().widthIn(max = 760.dp),
-                contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = 16.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp),
+                Modifier.fillMaxSize().widthIn(max = AppSizes.readableWidth),
+                contentPadding = PaddingValues(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = AppSpacing.l),
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
             ) {
                 item {
-                    Row(Modifier.fillMaxWidth().padding(bottom = 12.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                         if (!compact) {
                             AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Back"), onBack, style = IconButtonStyle.Outlined)
-                            Spacer(Modifier.width(20.dp))
+                            Spacer(Modifier.width(AppSpacing.xl))
                         }
                         Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
-                        Spacer(Modifier.width(14.dp))
+                        Spacer(Modifier.width(AppSpacing.l))
                         Column(Modifier.weight(1f)) {
                             // On a phone the bar carries the title.
-                            if (!compact) Text(tr("Dictionaries"), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                            if (!compact) Text(tr("Dictionaries"), style = AppText.headline)
                             val pair = listOfNotNull(state.source?.name, state.target?.name).joinToString(" \u2192 ") { tr(it) }
                             Text(tr("{0} \u00b7 changes apply immediately", pair), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                         }
@@ -103,7 +103,7 @@ fun ManageDictionariesScreen(
                 itemsIndexed(state.preferred, key = { index, entry -> entry.key("on", index) }) { _, entry ->
                     DictionaryRow(entry.name, entry.url, tint = AppAccents.green, icon = Icons.Default.Close, iconDescription = tr("Disable")) { viewModel.disable(entry) }
                 }
-                item { SectionLabel(tr("All resources"), topPadding = 20.dp) }
+                item { SectionLabel(tr("All resources"), topPadding = AppSpacing.xl) }
                 itemsIndexed(state.available, key = { index, entry -> entry.key("off", index) }) { _, entry ->
                     DictionaryRow(entry.name, entry.url, tint = null, icon = Icons.Default.Add, iconDescription = tr("Enable")) { viewModel.enable(entry) }
                 }
@@ -113,8 +113,8 @@ fun ManageDictionariesScreen(
 }
 
 @Composable
-private fun SectionLabel(text: String, topPadding: androidx.compose.ui.unit.Dp = 4.dp) {
-    Text(text, Modifier.padding(top = topPadding, bottom = 6.dp), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+private fun SectionLabel(text: String, topPadding: androidx.compose.ui.unit.Dp = AppSpacing.xs) {
+    Text(text, Modifier.padding(top = topPadding, bottom = AppSpacing.s), style = AppText.smallTitle)
 }
 
 @Composable
@@ -124,13 +124,13 @@ private fun DictionaryRow(name: String, url: String, tint: Color?, icon: ImageVe
     // Several stored dictionaries can share a host, so the path tells them apart.
     val path = url.substringAfter("://").substringAfter("/", "").substringBefore(LanguageDictionary.LOOKUP_PLACEHOLDER).substringBefore("###").trimEnd('/', '?', '=', '&')
     val detail = if (name.equals(host, ignoreCase = true)) path.takeIf { it.isNotBlank() }?.let { "/$it" } else host
-    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         Column(
             Modifier.weight(1f).clip(AppShapes.panel)
                 .background(if (tint != null) tint.copy(alpha = AppAlpha.tint) else colors.surfaceVariant.copy(alpha = AppAlpha.muted))
-                .padding(horizontal = 16.dp, vertical = 12.dp),
+                .padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
         ) {
-            Text(name, style = MaterialTheme.typography.bodyLarge, color = tint ?: colors.onSurface, fontWeight = FontWeight.Medium)
+            Text(name, style = AppText.emphasis, color = tint ?: colors.onSurface)
             if (detail != null) Text(detail, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
         AppIconButton(icon, iconDescription, onAction, size = IconButtonSize.Large, style = IconButtonStyle.Tonal, tint = colors.onSurface, shape = AppShapes.large)

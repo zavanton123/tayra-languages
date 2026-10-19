@@ -28,7 +28,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.language.LanguageCatalog
@@ -45,6 +44,7 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
 /**
@@ -64,7 +64,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         topBar = { AppTopBar(title = tr("Languages"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Text(tr("Choose what you learn and the language Tayra uses with you."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             PhoneLanguageCard(tr("Learning"), tr("I'm learning"), tr("Books, courses, vocabulary and flashcards."), highlighted = true) {
                 PhoneLanguageRow(learning?.currentName, tag = "learning-language") { learningSheet = true }
@@ -116,14 +116,14 @@ private fun PhoneLanguageCard(label: String, title: String, description: String,
         Modifier.fillMaxWidth().clip(shape)
             .background(if (highlighted) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
             .border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
-            .padding(16.dp),
+            .padding(AppSpacing.l),
     ) {
         Text(label.uppercase(), style = AppText.overline.copy(color = if (highlighted) colors.primary else colors.onSurfaceVariant))
-        Spacer(Modifier.height(4.dp))
-        Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-        Spacer(Modifier.height(14.dp))
+        Spacer(Modifier.height(AppSpacing.xs))
+        Text(title, style = AppText.sectionTitle)
+        Spacer(Modifier.height(AppSpacing.l))
         row()
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         Text(description, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
 }
@@ -134,12 +134,12 @@ private fun PhoneLanguageRow(flagName: String?, tag: String, label: String? = fl
     val colors = MaterialTheme.colorScheme
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.surface).border(AppBorders.hairline(colors.outline.copy(alpha = AppAlpha.half)), AppShapes.control)
-            .clickable(onClick = onClick).padding(horizontal = 14.dp, vertical = 12.dp).testTag(tag),
+            .clickable(onClick = onClick).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag(tag),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         if (flagName != null) {
             LanguageFlag(flagName, 30.dp)
-            Spacer(Modifier.width(14.dp))
+            Spacer(Modifier.width(AppSpacing.l))
         }
         Text(label.orEmpty(), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Icon(Icons.Default.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)

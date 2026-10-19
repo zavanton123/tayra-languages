@@ -41,7 +41,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -65,6 +64,7 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
 /** The language being learned, the native language meanings are shown in, and the language of the interface. */
@@ -95,10 +95,10 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
             }
             Column(
                 Modifier.fillMaxWidth().cardSurface(AppShapes.card)
-                    .padding(if (compact) 16.dp else 24.dp),
+                    .padding(if (compact) AppSpacing.l else AppSpacing.xxl),
             ) {
-                Text(tr("Language setup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                Spacer(Modifier.height(20.dp))
+                Text(tr("Language setup"), style = AppText.sectionTitle)
+                Spacer(Modifier.height(AppSpacing.xl))
                 val learningTile: @Composable (Modifier) -> Unit = { m ->
                     LanguageTile(tr("Studying"), tr("I'm learning"), highlighted = true, modifier = m) {
                         FlagPicker(
@@ -142,13 +142,13 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                     }
                 }
                 if (wide) {
-                    Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                    Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         learningTile(Modifier.weight(1f).fillMaxHeight())
                         nativeTile(Modifier.weight(1f).fillMaxHeight())
                         uiTile(Modifier.weight(1f).fillMaxHeight())
                     }
                 } else {
-                    Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                         learningTile(Modifier.fillMaxWidth())
                         nativeTile(Modifier.fillMaxWidth())
                         uiTile(Modifier.fillMaxWidth())
@@ -173,8 +173,8 @@ private fun SavedNote(changes: Int) {
     AnimatedVisibility(visible, enter = fadeIn(), exit = fadeOut()) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(AppSizes.iconLarge))
-            Spacer(Modifier.width(10.dp))
-            Text(tr("Changes saved"), style = MaterialTheme.typography.bodyLarge, color = StatusTints.ok, fontWeight = FontWeight.Medium)
+            Spacer(Modifier.width(AppSpacing.m))
+            Text(tr("Changes saved"), style = AppText.emphasis, color = StatusTints.ok)
         }
     }
 }
@@ -196,13 +196,13 @@ private fun LanguageTile(
         Modifier.background(colors.surface)
     }
     Column(modifier.clip(shape).then(background).border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = AppAlpha.disabled) else colors.outlineVariant), shape)) {
-        if (highlighted) Box(Modifier.fillMaxWidth().height(4.dp).background(colors.primary))
-        val inset = if (LocalWindowWidth.current.isCompact) 18.dp else 24.dp
-        Column(Modifier.padding(start = inset, end = inset, top = inset + if (highlighted) 2.dp else 6.dp, bottom = inset)) {
+        if (highlighted) Box(Modifier.fillMaxWidth().height(HIGHLIGHT_STRIPE).background(colors.primary))
+        val inset = if (LocalWindowWidth.current.isCompact) AppSpacing.xl else AppSpacing.xxl
+        Column(Modifier.padding(start = inset, end = inset, top = inset + AppSpacing.xxs + if (highlighted) 0.dp else HIGHLIGHT_STRIPE, bottom = inset)) {
             Text(label.uppercase(), style = AppText.overline.copy(color = if (highlighted) colors.primary else colors.onSurfaceVariant))
-            Spacer(Modifier.height(6.dp))
-            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(AppSpacing.s))
+            Text(title, style = AppText.sectionTitle)
+            Spacer(Modifier.height(AppSpacing.l))
             content()
         }
     }
@@ -210,7 +210,7 @@ private fun LanguageTile(
 
 @Composable
 private fun TileDescription(text: String) {
-    Text(text, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 16.dp))
+    Text(text, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.l))
 }
 
 /** A field showing the chosen language with its flag; it opens a menu of the [options], each with its flag. [name] is the name to show. */
@@ -233,12 +233,12 @@ private fun <T> FlagPicker(
             Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surface)
                 .border(AppBorders.hairline(colors.outline.copy(alpha = AppAlpha.muted)), AppShapes.compact)
                 .clickable(enabled = options.isNotEmpty()) { open = true }
-                .padding(horizontal = 18.dp, vertical = 14.dp),
+                .padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             if (selected != null) {
                 LanguageFlag(flagName(selected), 26.dp)
-                Spacer(Modifier.width(16.dp))
+                Spacer(Modifier.width(AppSpacing.l))
             }
             Text(
                 selected?.let(name) ?: "",
@@ -263,3 +263,4 @@ private fun <T> FlagPicker(
     }
 }
 
+private val HIGHLIGHT_STRIPE = 4.dp
