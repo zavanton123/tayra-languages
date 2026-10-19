@@ -140,6 +140,7 @@ internal val esSettings: Map<String, String> = mapOf(
     "Native language" to "Idioma nativo",
     "translated into" to "traducido al",
     "{0} terms will be translated into {1}." to "Las palabras se traducirán así: {0} → {1}.",
+    "Change the language you learn" to "Cambiar el idioma que aprendes",
     "Your terms will be translated into {0}." to "Tus palabras se traducirán a tu idioma nativo: {0}.",
     "Runs on this computer. No network connection required." to "Funciona en este ordenador. No necesita conexión a internet.",
     "Runs on this device. No network connection required." to "Funciona en este dispositivo. No necesita conexión a internet.",

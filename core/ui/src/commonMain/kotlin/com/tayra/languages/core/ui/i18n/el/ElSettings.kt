@@ -140,6 +140,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Native language" to "Μητρική γλώσσα",
     "translated into" to "μεταφράζεται σε",
     "{0} terms will be translated into {1}." to "Οι λέξεις θα μεταφράζονται: {0} → {1}.",
+    "Change the language you learn" to "Αλλαγή της γλώσσας που μαθαίνετε",
     "Your terms will be translated into {0}." to "Οι λέξεις σας θα μεταφράζονται στη μητρική σας γλώσσα: {0}.",
     "Runs on this computer. No network connection required." to "Λειτουργεί σε αυτόν τον υπολογιστή. Δεν απαιτείται σύνδεση στο δίκτυο.",
     "Runs on this device. No network connection required." to "Λειτουργεί σε αυτή τη συσκευή. Δεν απαιτείται σύνδεση στο δίκτυο.",

@@ -140,6 +140,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Native language" to "母语",
     "translated into" to "翻译成",
     "{0} terms will be translated into {1}." to "{0}词条将翻译成{1}。",
+    "Change the language you learn" to "更改正在学习的语言",
     "Your terms will be translated into {0}." to "你的词条将翻译成{0}。",
     "Runs on this computer. No network connection required." to "在这台电脑上运行，无需网络连接。",
     "Runs on this device. No network connection required." to "在本设备上运行，无需网络连接。",

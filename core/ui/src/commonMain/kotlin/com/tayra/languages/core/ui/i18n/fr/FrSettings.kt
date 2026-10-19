@@ -140,6 +140,7 @@ internal val frSettings: Map<String, String> = mapOf(
     "Native language" to "Langue maternelle",
     "translated into" to "traduit en",
     "{0} terms will be translated into {1}." to "Les termes seront traduits ainsi : {0} → {1}.",
+    "Change the language you learn" to "Changer la langue apprise",
     "Your terms will be translated into {0}." to "Vos termes seront traduits dans votre langue maternelle : {0}.",
     "Runs on this computer. No network connection required." to "Fonctionne sur cet ordinateur. Aucune connexion réseau requise.",
     "Runs on this device. No network connection required." to "Fonctionne sur cet appareil. Aucune connexion réseau requise.",

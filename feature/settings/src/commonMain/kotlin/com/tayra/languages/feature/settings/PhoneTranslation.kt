@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
@@ -46,6 +47,7 @@ import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LanguageFlag
 import com.tayra.languages.core.ui.components.LanguagePickerSheet
+import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.Notice
@@ -106,14 +108,12 @@ internal fun PhoneTranslationScreen(
                 EngineStatusPill(settings, viewModel, local, checking, ready, pair)
             }
             ContentCard(tr("Language pair"), subtitle = null, icon = AppIcons.SwapHoriz, dense = true) {
+                // The language learned is set in Languages, so here it is plain text, not a control that does nothing.
                 val from: @Composable (Modifier) -> Unit = { modifier ->
-                    SelectButton(
-                        learningName ?: tr("Your language"),
-                        onClick = {},
-                        modifier = modifier,
-                        leading = if (learningEnglish != null) { { LanguageFlag(learningEnglish, 24.dp) } } else null,
-                        enabled = false,
-                    )
+                    Row(modifier.heightIn(min = AppSizes.control), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                        if (learningEnglish != null) LanguageFlag(learningEnglish, 24.dp)
+                        Text(learningName ?: tr("Your language"), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    }
                 }
                 val to: @Composable (Modifier) -> Unit = { modifier ->
                     SelectButton(
@@ -143,6 +143,7 @@ internal fun PhoneTranslationScreen(
                     style = MaterialTheme.typography.bodyMedium,
                     color = colors.onSurfaceVariant,
                 )
+                LinkText(tr("Change the language you learn"), onClick = { onNavigate(Route.Languages) }, style = MaterialTheme.typography.bodyMedium)
             }
             ContentCard(tr("Translation engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
                 val engine = settings.translationEngine

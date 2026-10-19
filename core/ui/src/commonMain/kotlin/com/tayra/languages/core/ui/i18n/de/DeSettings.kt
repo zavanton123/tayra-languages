@@ -140,6 +140,7 @@ internal val deSettings: Map<String, String> = mapOf(
     "Native language" to "Muttersprache",
     "translated into" to "übersetzt in",
     "{0} terms will be translated into {1}." to "Begriffe werden so übersetzt: {0} → {1}.",
+    "Change the language you learn" to "Die Lernsprache ändern",
     "Your terms will be translated into {0}." to "Deine Begriffe werden auf {0} übersetzt.",
     "Runs on this computer. No network connection required." to "Läuft auf diesem Computer. Keine Netzverbindung nötig.",
     "Runs on this device. No network connection required." to "Läuft auf diesem Gerät. Keine Netzverbindung nötig.",

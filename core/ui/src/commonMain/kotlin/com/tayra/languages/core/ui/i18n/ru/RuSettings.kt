@@ -140,6 +140,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Native language" to "Родной язык",
     "translated into" to "переводится на",
     "{0} terms will be translated into {1}." to "Слова будут переводиться так: {0} → {1}.",
+    "Change the language you learn" to "Изменить изучаемый язык",
     "Your terms will be translated into {0}." to "Слова будут переводиться на родной язык: {0}.",
     "Runs on this computer. No network connection required." to "Работает на этом компьютере. Подключение к сети не нужно.",
     "Runs on this device. No network connection required." to "Работает на этом устройстве. Подключение к сети не нужно.",

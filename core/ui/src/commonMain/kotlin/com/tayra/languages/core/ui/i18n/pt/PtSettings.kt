@@ -140,6 +140,7 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Native language" to "Idioma nativo",
     "translated into" to "traduzido para",
     "{0} terms will be translated into {1}." to "Os termos serão traduzidos assim: {0} → {1}.",
+    "Change the language you learn" to "Mudar o idioma que você aprende",
     "Your terms will be translated into {0}." to "Seus termos serão traduzidos para o idioma nativo: {0}.",
     "Runs on this computer. No network connection required." to "Funciona neste computador. Não precisa de conexão com a internet.",
     "Runs on this device. No network connection required." to "Funciona neste dispositivo. Não precisa de conexão com a internet.",
