@@ -1,6 +1,5 @@
 package com.tayra.languages.feature.news
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -29,7 +28,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -60,6 +58,8 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.Segment
 import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -68,7 +68,6 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
-import com.tayra.languages.core.ui.theme.AppShapes
 import org.koin.compose.viewmodel.koinViewModel
 import kotlin.time.Clock
 import kotlin.time.Instant
@@ -338,12 +337,7 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
                     overflow = TextOverflow.Ellipsis,
                 )
                 if (article.source.level == NewsLevel.EASY) {
-                    Text(
-                        tr("Easy language"),
-                        Modifier.clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.1f)).padding(horizontal = 8.dp, vertical = 2.dp),
-                        style = MaterialTheme.typography.labelMedium,
-                        color = colors.primary,
-                    )
+                    Tag(tr("Easy language"), size = TagSize.Small)
                 }
             }
             Text(article.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 3, overflow = TextOverflow.Ellipsis)
