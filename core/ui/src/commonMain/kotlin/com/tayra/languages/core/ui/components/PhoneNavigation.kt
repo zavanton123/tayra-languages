@@ -19,27 +19,22 @@ import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Badge
 import androidx.compose.material3.BadgedBox
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * The phone's bottom bar: the main areas as tabs, with the flashcards due on theirs, and More for
@@ -126,37 +121,28 @@ private val moreGroups = listOf(
 )
 
 /** The phone's More sheet: the pages beyond the tabs, grouped, with the learning language shown on its row. */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MoreSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val language = LocalLearningLanguage.current?.currentName
-    ModalBottomSheet(
-        onDismissRequest = onDismiss,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
-        sheetMaxWidth = Dp.Unspecified,
-        containerColor = colors.surface,
-        modifier = Modifier.testTag("more-sheet"),
-    ) {
+    AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("more-sheet")) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(start = 20.dp, end = 8.dp, bottom = 16.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(tr("More"), Modifier.weight(1f), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-                IconButton(onClick = onDismiss) { Icon(Icons.Default.Close, contentDescription = tr("Close")) }
+                AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss)
             }
             moreGroups.forEach { group ->
                 Text(
                     tr(group.title).uppercase(),
                     Modifier.padding(top = 16.dp, bottom = 4.dp),
-                    style = MaterialTheme.typography.labelMedium,
-                    color = colors.onSurfaceVariant,
-                    letterSpacing = MaterialTheme.typography.labelMedium.letterSpacing * 2,
+                    style = AppText.overline.copy(color = colors.onSurfaceVariant),
                 )
                 group.entries.forEachIndexed { i, entry ->
-                    if (i > 0) HorizontalDivider(Modifier.padding(end = 12.dp), color = colors.outlineVariant)
+                    if (i > 0) AppDivider(Modifier.padding(end = 12.dp))
                     MoreRow(entry, value = language?.let(::tr).takeIf { entry.route == Route.Languages }) { onNavigate(entry.route) }
                 }
             }
-            HorizontalDivider(Modifier.padding(top = 12.dp, end = 12.dp), color = colors.outlineVariant)
+            AppDivider(Modifier.padding(top = 12.dp, end = 12.dp))
             MoreRow(MoreEntry("About", Icons.Default.Info, Route.About), value = null) { onNavigate(Route.About) }
         }
     }

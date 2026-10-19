@@ -1,6 +1,5 @@
 package com.tayra.languages.core.ui.components
 
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.ColumnScope
@@ -15,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /** A popup menu styled like the rest of the app: white, rounded, bordered, with compact rows. */
@@ -27,7 +27,7 @@ fun AppMenu(expanded: Boolean, onDismissRequest: () -> Unit, modifier: Modifier 
         shape = AppShapes.control,
         containerColor = MaterialTheme.colorScheme.surface,
         shadowElevation = 6.dp,
-        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+        border = AppBorders.hairline(),
         content = content,
     )
 }

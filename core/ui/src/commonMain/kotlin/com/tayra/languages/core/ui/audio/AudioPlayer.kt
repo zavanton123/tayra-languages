@@ -2,6 +2,7 @@ package com.tayra.languages.core.ui.audio
 
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.theme.AppShapes
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -9,7 +10,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -128,7 +128,7 @@ fun rememberAudioPlayback(): AudioPlayback {
 @Composable
 fun PlayButton(url: String, playback: AudioPlayback, modifier: Modifier = Modifier) {
     val playing = playback.isPlaying(url)
-    IconButton(onClick = { playback.toggle(url) }, modifier = modifier) {
+    AppIconButton(onClick = { playback.toggle(url) }, modifier = modifier) {
         if (playing) {
             Box(
                 Modifier.size(14.dp)
@@ -145,7 +145,11 @@ fun PlayButton(url: String, playback: AudioPlayback, modifier: Modifier = Modifi
 @Composable
 fun RecordingButton(url: String, playback: AudioPlayback, modifier: Modifier = Modifier, onFailed: (() -> Unit)? = null) {
     val active = playback.isPlaying(url)
-    IconButton(onClick = { playback.toggle(url, onFailed) }, modifier = modifier) {
-        Icon(if (active) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = if (active) tr("Stop") else tr("Play recording"), tint = MaterialTheme.colorScheme.primary)
-    }
+    AppIconButton(
+        if (active) AppIcons.Stop else AppIcons.VolumeUp,
+        contentDescription = if (active) tr("Stop") else tr("Play recording"),
+        onClick = { playback.toggle(url, onFailed) },
+        modifier = modifier,
+        tint = MaterialTheme.colorScheme.primary,
+    )
 }

@@ -1,14 +1,13 @@
 package com.tayra.languages.core.ui.audio
 
 import com.tayra.languages.core.ui.i18n.tr
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppIconButton
 
 /** Speaks text with the platform's text-to-speech engine. */
 expect class SpeechSynthesizer {
@@ -37,7 +36,12 @@ expect fun rememberSpeechSynthesizer(): SpeechSynthesizer
 fun SpeakButton(text: String, languageCode: String?, speaker: Speaker, modifier: Modifier = Modifier, enabled: Boolean = true) {
     val playing by speaker.playing.collectAsState()
     val active = playing != null && playing == text
-    IconButton(onClick = { speaker.toggle(text, languageCode) }, modifier = modifier, enabled = enabled && text.isNotBlank()) {
-        Icon(if (active) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = if (active) tr("Stop") else tr("Pronounce"), tint = MaterialTheme.colorScheme.primary)
-    }
+    AppIconButton(
+        if (active) AppIcons.Stop else AppIcons.VolumeUp,
+        contentDescription = if (active) tr("Stop") else tr("Pronounce"),
+        onClick = { speaker.toggle(text, languageCode) },
+        modifier = modifier,
+        enabled = enabled && text.isNotBlank(),
+        tint = MaterialTheme.colorScheme.primary,
+    )
 }

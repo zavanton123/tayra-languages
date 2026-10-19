@@ -20,9 +20,7 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -116,7 +114,7 @@ fun AppTopBar(
                 .padding(start = if (onBack != null) 4.dp else 18.dp, end = 14.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            if (onBack != null) IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back")) }
+            if (onBack != null) AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack)
             Text(
                 title,
                 Modifier.weight(1f).padding(start = if (onBack != null) 4.dp else 0.dp, end = 8.dp),
@@ -139,7 +137,7 @@ fun AppTopBar(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 if (onBack != null) {
-                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back")) }
+                    AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack)
                     Spacer(Modifier.width(4.dp))
                 }
                 // The logo and name lead home, as on most sites.
@@ -162,7 +160,7 @@ fun AppTopBar(
                 }
                 if (showMenu) WideMenu(section, onNavigate)
             }
-            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+            AppDivider()
         }
     }
 }

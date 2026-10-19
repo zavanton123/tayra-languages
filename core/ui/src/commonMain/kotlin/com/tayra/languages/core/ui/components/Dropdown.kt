@@ -1,7 +1,6 @@
 package com.tayra.languages.core.ui.components
 
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.unit.dp
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -20,6 +19,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.draw.alpha
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /** A simple select box. */
@@ -56,7 +56,7 @@ fun <T> Dropdown(
             shape = AppShapes.control,
             containerColor = MaterialTheme.colorScheme.surface,
             shadowElevation = 6.dp,
-            border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+            border = AppBorders.hairline(),
         ) {
             options.forEach { option ->
                 val note = if (option == selected) null else unavailable(option)

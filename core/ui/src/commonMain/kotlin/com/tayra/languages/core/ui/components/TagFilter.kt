@@ -9,24 +9,17 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.ModalBottomSheet
-import androidx.compose.material3.rememberModalBottomSheetState
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -38,15 +31,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
@@ -97,10 +87,9 @@ fun TagFilterButton(
  * A phone's bottom sheet with the same tag filter; [onApply] gets the tags picked and whether a
  * book needs all of them, and the sheet is closed by whoever shows it.
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TagFilterSheet(available: List<String>, selected: Set<String>, matchAll: Boolean, onApply: (tags: Set<String>, matchAll: Boolean) -> Unit, onDismiss: () -> Unit) {
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), sheetMaxWidth = Dp.Unspecified, containerColor = MaterialTheme.colorScheme.surface) {
+    AppBottomSheet(onDismissRequest = onDismiss) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(bottom = 12.dp)) {
             TagFilterBody(available, selected, matchAll, onApply)
         }
@@ -125,7 +114,7 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
                 color = if (picked.isNotEmpty()) colors.primary else colors.outline,
             )
         }
-        FindField(query, { query = it }, Modifier.fillMaxWidth())
+        SearchField(query, { query = it }, tr("Find tags"), Modifier.fillMaxWidth(), fieldModifier = Modifier.testTag("tag-search"))
         val found = available.filter { it.contains(query.trim(), ignoreCase = true) }
         if (found.isEmpty()) {
             Text(tr("No tags match."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -134,24 +123,16 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
                 found.forEach { tag -> TagChip(tag, tag in picked) { picked = if (tag in picked) picked - tag else picked + tag } }
             }
         }
-        HorizontalDivider(color = colors.outlineVariant)
+        AppDivider()
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             Text(tr("Match"), style = MaterialTheme.typography.bodyLarge)
-            Row(Modifier.clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).padding(3.dp)) {
-                listOf(false to tr("Any tag"), true to tr("All tags")).forEach { (needsAll, label) ->
-                    val chosen = all == needsAll
-                    Text(
-                        label,
-                        Modifier.clip(AppShapes.compact).background(if (chosen) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
-                            .clickable { all = needsAll }.padding(horizontal = 16.dp, vertical = 8.dp).testTag(if (needsAll) "match-all" else "match-any"),
-                        style = MaterialTheme.typography.bodyMedium,
-                        fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal,
-                        color = if (chosen) colors.primary else colors.onSurfaceVariant,
-                    )
-                }
-            }
+            SegmentedToggle(
+                listOf(Segment(false, label = tr("Any tag"), testTag = "match-any"), Segment(true, label = tr("All tags"), testTag = "match-all")),
+                selected = all,
+                onSelect = { all = it },
+            )
         }
-        HorizontalDivider(color = colors.outlineVariant)
+        AppDivider()
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(
                 if (picked.isEmpty()) tr("No tags selected") else trPlural(picked.size, "{0} tag selected", "{0} tags selected"),
@@ -171,7 +152,7 @@ private fun TagChip(tag: String, picked: Boolean, onClick: () -> Unit) {
     Row(
         Modifier.clip(AppShapes.pill)
             .background(if (picked) colors.primary.copy(alpha = 0.1f) else colors.surface)
-            .border(1.dp, if (picked) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant, AppShapes.pill)
+            .border(AppBorders.hairline(if (picked) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant), AppShapes.pill)
             .clickable(onClick = onClick).padding(start = 14.dp, end = if (picked) 10.dp else 14.dp, top = 6.dp, bottom = 6.dp)
             .testTag("tag-$tag"),
         verticalAlignment = Alignment.CenterVertically,
@@ -179,31 +160,5 @@ private fun TagChip(tag: String, picked: Boolean, onClick: () -> Unit) {
     ) {
         Text(tag, style = MaterialTheme.typography.bodyMedium, color = if (picked) colors.primary else colors.onSurface)
         if (picked) Icon(Icons.Default.Close, contentDescription = tr("Remove {0}", tag), tint = colors.primary, modifier = Modifier.size(16.dp))
-    }
-}
-
-@Composable
-private fun FindField(value: String, onChange: (String) -> Unit, modifier: Modifier) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        modifier.height(48.dp).clip(AppShapes.control).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.control).padding(horizontal = 16.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
-        Spacer(Modifier.width(12.dp))
-        BasicTextField(
-            value = value,
-            onValueChange = onChange,
-            singleLine = true,
-            textStyle = MaterialTheme.typography.bodyLarge.copy(color = colors.onSurface),
-            cursorBrush = SolidColor(colors.primary),
-            modifier = Modifier.weight(1f).testTag("tag-search"),
-            decorationBox = { inner ->
-                Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text(tr("Find tags"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                    inner()
-                }
-            },
-        )
     }
 }

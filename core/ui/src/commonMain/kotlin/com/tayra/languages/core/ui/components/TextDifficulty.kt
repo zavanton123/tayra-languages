@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -24,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.books.discover.Difficulty
 import com.tayra.languages.core.domain.books.discover.TextCoverage
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /** What is known of how hard a text found online is for the reader. */
@@ -45,7 +45,7 @@ fun CoverageLine(difficulty: Difficulty?, check: CoverageCheck, tag: String, onC
         difficulty?.let { DifficultyTag(it) }
         when (check) {
             CoverageCheck.Checking -> {
-                CircularProgressIndicator(Modifier.size(14.dp), strokeWidth = 2.dp)
+                AppSpinner(size = SpinnerSize.Small)
                 Text(tr("Checking the words…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
             is CoverageCheck.Checked -> Text(
@@ -99,7 +99,7 @@ val Difficulty.label: String
 
 val Difficulty.color: Color
     get() = when (this) {
-        Difficulty.EASY -> Color(0xFF2E9D57)
-        Difficulty.MEDIUM -> Color(0xFFE08A1E)
-        Difficulty.HARD -> Color(0xFFD64545)
+        Difficulty.EASY -> AppAccents.green
+        Difficulty.MEDIUM -> AppAccents.orange
+        Difficulty.HARD -> AppAccents.red
     }

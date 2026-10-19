@@ -25,6 +25,7 @@ import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.minus
 import kotlinx.datetime.plus
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
@@ -41,7 +42,7 @@ fun ActivityHeatmapCard(
     fewer: String,
     more: String,
     icon: ImageVector = AppIcons.BarChart,
-    color: Color = HEATMAP_GREEN,
+    color: Color = AppAccents.green,
 ) {
     val empty = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.06f)
     BoxWithConstraints(Modifier.fillMaxWidth()) {
@@ -81,7 +82,6 @@ fun ActivityHeatmapCard(
     }
 }
 
-private val HEATMAP_GREEN = Color(0xFF2E9D57)
 private const val MIN_WEEKS = 8
 private const val MAX_WEEKS = 53
 private val MIN_CELL = 14.dp
