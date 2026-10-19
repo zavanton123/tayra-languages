@@ -247,28 +247,6 @@ fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48, tint: Col
     }
 }
 
-/** A value with minus and plus buttons around a slider, moving in [step]s within [range]. */
-@Composable
-fun SliderStepper(
-    value: Float,
-    range: ClosedFloatingPointRange<Float>,
-    step: Float,
-    label: String,
-    name: String,
-    onChange: (Float) -> Unit,
-    modifier: Modifier = Modifier,
-) {
-    // Dividing by the number of steps per unit, not multiplying by the step, lands on the nearest float of a value such as 1.3.
-    val perUnit = kotlin.math.round(1 / step)
-    fun snap(v: Float) = (kotlin.math.round(v * perUnit) / perUnit).coerceIn(range.start, range.endInclusive)
-    Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        ValueChip(label)
-        StepButton("−", tr("Decrease {0}", name), enabled = value > range.start + step / 2) { onChange(snap(value - step)) }
-        AppSlider(value = value, onValueChange = { onChange(snap(it)) }, valueRange = range, modifier = Modifier.weight(1f))
-        StepButton("+", tr("Increase {0}", name), enabled = value < range.endInclusive - step / 2) { onChange(snap(value + step)) }
-    }
-}
-
 /** A whole number with minus and plus buttons on either side. */
 @Composable
 fun NumberStepper(value: Int, range: IntRange, name: String, step: Int = 1, onChange: (Int) -> Unit) {
@@ -281,16 +259,6 @@ fun NumberStepper(value: Int, range: IntRange, name: String, step: Int = 1, onCh
         Text(value.toString(), Modifier.widthIn(min = STEPPER_VALUE_MIN_WIDTH).padding(horizontal = AppSpacing.m), textAlign = TextAlign.Center, style = MaterialTheme.typography.bodyLarge)
         AppVerticalDivider(Modifier.height(AppSizes.control))
         StepButton("+", tr("Increase {0}", name), enabled = value < range.last, bordered = false) { onChange((value + step).coerceAtMost(range.last)) }
-    }
-}
-
-@Composable
-private fun ValueChip(text: String) {
-    Box(
-        Modifier.widthIn(min = VALUE_CHIP_MIN_WIDTH).clip(AppShapes.compact).background(MaterialTheme.colorScheme.surfaceContainer).padding(horizontal = AppSpacing.m, vertical = AppSpacing.m),
-        contentAlignment = Alignment.Center,
-    ) {
-        Text(text, style = MaterialTheme.typography.bodyMedium)
     }
 }
 
@@ -369,7 +337,6 @@ fun CodeTile(languageCode: String, size: Int = 44) {
 }
 
 private val STEPPER_VALUE_MIN_WIDTH = 64.dp
-private val VALUE_CHIP_MIN_WIDTH = 72.dp
 
 /** Draws the content [by] higher and takes that much less room, closing a gap above it that its parent leaves. */
 private fun Modifier.pullUp(by: Dp): Modifier = layout { measurable, constraints ->

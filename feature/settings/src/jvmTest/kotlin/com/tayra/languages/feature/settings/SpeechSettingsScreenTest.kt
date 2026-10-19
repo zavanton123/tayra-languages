@@ -120,7 +120,7 @@ class SpeechSettingsScreenTest {
         onNodeWithText("80%").assertExists()
         System.getenv("SPEECH_SCREENSHOT")?.let { save(it) }
 
-        onNodeWithContentDescription("Increase speech speed").performClick()
+        onNodeWithContentDescription("speech speed").performSemanticsAction(SemanticsActions.SetProgress) { it(0.85f) }
         waitUntil(timeoutMillis = 5_000) { settings.current.speechSpeed == 0.85f }
 
         // Removing the model leaves Portuguese without a Kokoro voice.

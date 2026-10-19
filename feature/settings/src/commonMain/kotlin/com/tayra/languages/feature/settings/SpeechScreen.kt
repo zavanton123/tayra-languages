@@ -1,26 +1,6 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.Canvas
-import com.tayra.languages.core.ui.components.AppDivider
-import com.tayra.languages.core.ui.components.AppProgressBar
-import com.tayra.languages.core.ui.components.CodeTile
-import com.tayra.languages.core.ui.components.ContentCard
-import com.tayra.languages.core.ui.components.IconTile
-import com.tayra.languages.core.ui.components.InfoBanner
-import com.tayra.languages.core.ui.components.Notice
-import com.tayra.languages.core.ui.components.OverflowMenu
-import com.tayra.languages.core.ui.components.PackageTab
-import com.tayra.languages.core.ui.components.PageColumn
-import com.tayra.languages.core.ui.components.ScreenHeader
-import com.tayra.languages.core.ui.components.SearchField
-import com.tayra.languages.core.ui.components.SettingRow
-import com.tayra.languages.core.ui.components.SliderStepper
-import com.tayra.languages.core.ui.components.StatusDot
-import com.tayra.languages.core.ui.components.StatusPill
-import com.tayra.languages.core.ui.components.StatusTints
-import com.tayra.languages.core.ui.components.TabToggle
-import com.tayra.languages.core.ui.components.Tag
-import com.tayra.languages.core.ui.components.formatSize
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -57,6 +37,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
@@ -73,15 +55,36 @@ import com.tayra.languages.core.domain.service.SpeechVoice
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.audio.rememberSpeaker
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppProgressBar
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.CodeTile
+import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
+import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.Notice
+import com.tayra.languages.core.ui.components.OverflowMenu
+import com.tayra.languages.core.ui.components.PackageTab
+import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.Reveal
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SettingRow
+import com.tayra.languages.core.ui.components.SliderSetting
+import com.tayra.languages.core.ui.components.StatusDot
+import com.tayra.languages.core.ui.components.StatusPill
+import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.TabToggle
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
@@ -103,7 +106,6 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
-import com.tayra.languages.core.ui.components.Reveal
 
 /** The speech engines: which one reads aloud, its runtime, and the voices to download. */
 @OptIn(ExperimentalCoroutinesApi::class)
@@ -414,17 +416,16 @@ private fun VoiceCard(
             )
         }
         if (engine?.supportsSpeed == true) {
-            SettingRow(tr("Speech speed"), stackOnCompact = true) {
-                SliderStepper(
-                    value = settings.speechSpeed,
-                    range = 0.5f..1.5f,
-                    step = 0.05f,
-                    label = "${kotlin.math.round(settings.speechSpeed * 100).toInt()}%",
-                    name = tr("speech speed"),
-                    onChange = { v -> viewModel.update { it.copy(speechSpeed = v) } },
-                    modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(SPEED_SLIDER_WIDTH),
-                )
-            }
+            SliderSetting(
+                tr("Speech speed"),
+                "${kotlin.math.round(settings.speechSpeed * 100).toInt()}%",
+                settings.speechSpeed,
+                0.5f..1.5f,
+                onChange = { v -> viewModel.update { it.copy(speechSpeed = v) } },
+                modifier = Modifier.padding(vertical = AppSpacing.m),
+                step = 0.05f,
+                sliderModifier = Modifier.semantics { contentDescription = tr("speech speed") },
+            )
         }
         AppDivider(Modifier.padding(vertical = AppSpacing.m))
         TryIt(viewModel, learning)
@@ -692,7 +693,6 @@ internal val SpeechPackage.displayTitle: String
 
 private val MODEL_TITLE = Regex("""(.+) model with (\d+) voices""")
 
-private val SPEED_SLIDER_WIDTH = 440.dp
 private val WAVEFORM_HEIGHT = 44.dp
 private val VOICE_SEARCH_WIDTH = 260.dp
 

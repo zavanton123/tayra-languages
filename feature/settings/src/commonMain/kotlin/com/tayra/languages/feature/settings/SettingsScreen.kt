@@ -30,6 +30,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -68,7 +70,7 @@ import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SettingRow
-import com.tayra.languages.core.ui.components.SliderStepper
+import com.tayra.languages.core.ui.components.SliderSetting
 import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.StatusPill
@@ -278,7 +280,6 @@ internal fun ThemeSwatch(theme: AppTheme) {
 
 @Composable
 private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    val sliderWidth = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(SLIDER_WIDTH)
     ContentCard(tr("Reading"), tr("Adjust the font, text size and spacing for a comfortable reading experience."), iconText = "Aa") {
         SettingRow(tr("Reading font"), tr("The typeface of the text you read."), stackOnCompact = true) {
             Dropdown(
@@ -291,28 +292,29 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
                 modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(DROPDOWN_WIDTH),
             )
         }
-        SettingRow(tr("Reading font size"), divider = true, stackOnCompact = true) {
-            SliderStepper(
-                value = settings.readingFontScale,
-                range = 0.6f..2.5f,
-                step = 0.1f,
-                label = "${kotlin.math.round(settings.readingFontScale * 100).toInt()}%",
-                name = tr("reading font size"),
-                onChange = { v -> viewModel.update { it.copy(readingFontScale = v) } },
-                modifier = sliderWidth,
-            )
-        }
-        SettingRow(tr("Reading line height"), divider = true, stackOnCompact = true) {
-            SliderStepper(
-                value = settings.readingLineHeight,
-                range = 1.0f..3.0f,
-                step = 0.1f,
-                label = (kotlin.math.round(settings.readingLineHeight * 10) / 10f).toString(),
-                name = tr("reading line height"),
-                onChange = { v -> viewModel.update { it.copy(readingLineHeight = v) } },
-                modifier = sliderWidth,
-            )
-        }
+        // Each number is a slider under its name and value, as on the phone.
+        AppDivider()
+        SliderSetting(
+            tr("Reading font size"),
+            "${kotlin.math.round(settings.readingFontScale * 100).toInt()}%",
+            settings.readingFontScale,
+            0.6f..2.5f,
+            onChange = { v -> viewModel.update { it.copy(readingFontScale = v) } },
+            modifier = Modifier.padding(vertical = AppSpacing.m),
+            step = 0.1f,
+            sliderModifier = Modifier.semantics { contentDescription = tr("reading font size") },
+        )
+        AppDivider()
+        SliderSetting(
+            tr("Reading line height"),
+            (kotlin.math.round(settings.readingLineHeight * 10) / 10f).toString(),
+            settings.readingLineHeight,
+            1.0f..3.0f,
+            onChange = { v -> viewModel.update { it.copy(readingLineHeight = v) } },
+            modifier = Modifier.padding(top = AppSpacing.m),
+            step = 0.1f,
+            sliderModifier = Modifier.semantics { contentDescription = tr("reading line height") },
+        )
     }
 }
 
@@ -453,7 +455,6 @@ private fun LegendDot(label: String, color: Color?, theme: AppTheme) {
 }
 
 private val DROPDOWN_WIDTH = 300.dp
-private val SLIDER_WIDTH = 450.dp
 private val LEGEND_DOT = 18.dp
 
 /** Preview sentences per language code: the text in parts, each word with the status it is shown with. */

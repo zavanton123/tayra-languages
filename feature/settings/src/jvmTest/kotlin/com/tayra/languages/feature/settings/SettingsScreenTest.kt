@@ -47,7 +47,7 @@ class SettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(androidx.compose.ui.test.hasText("Reading preview")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it) }
 
-        onNodeWithContentDescription("Increase reading font size").performClick()
+        onNodeWithContentDescription("reading font size").performSemanticsAction(SemanticsActions.SetProgress) { it(1.3f) }
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.3f }
         onNodeWithText("130%").assertExists()
         onNodeWithContentDescription("Decrease book stats page sample size").performScrollTo().performClick()
@@ -60,7 +60,7 @@ class SettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFont == "literata" }
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-literata.png")) }
 
-        onNodeWithText("Reset to defaults").performClick()
+        onNodeWithText("Reset to defaults").performScrollTo().performClick()
         onNodeWithText("Reset").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.0f }
         assertEquals(5, settings.current.statsSampleSize)
