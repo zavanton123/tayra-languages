@@ -32,9 +32,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.courses.Course
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseProgress
@@ -64,6 +62,8 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /** The courses on a phone: the page's own header with the language and a new course, the filters as sheets, and the courses as cards by level. */
 @Composable
@@ -121,7 +121,7 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
     val colors = MaterialTheme.colorScheme
     var sheet by remember { mutableStateOf<PhoneSheet?>(null) }
     val shown = state.shown
-    ScrollColumn(modifier.fillMaxSize(), contentModifier = Modifier.padding(horizontal = 16.dp, vertical = 16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+    ScrollColumn(modifier.fillMaxSize(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         Text(
             if (state.languageName.isEmpty()) tr("Guided lessons, level by level.") else tr("Guided {0} lessons, level by level.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
             style = MaterialTheme.typography.bodyLarge,
@@ -134,7 +134,7 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
         StatusTabs(state.counts, state.status, actions.onStatus)
         SearchBox(state.search, actions.onSearch, Modifier.fillMaxWidth())
         // The level and tags take what their labels need; the sort, the longest, has the rest.
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             SelectButton(tr("Level: {0}", state.level?.code ?: tr("All")), onClick = { sheet = PhoneSheet.LEVEL }, modifier = Modifier.testTag("level-filter"))
             if (state.availableTags.isNotEmpty()) {
                 val tags = if (state.tags.isEmpty()) tr("Tags") else tr("Tags: {0}", state.tags.size)
@@ -144,8 +144,8 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
         }
         state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
         state.continueWith?.let { PhoneContinueCard(it, onContinue = { actions.onContinue(it) }, onOpen = { actions.onOpen(it.course.id) }) }
-        Column(Modifier.padding(top = 4.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-            Text(state.status?.label ?: tr("All courses"), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+        Column(Modifier.padding(top = AppSpacing.xs), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+            Text(state.status?.label ?: tr("All courses"), style = AppText.headline)
             Text(state.sort.description, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
         if (shown.isEmpty()) {
@@ -153,12 +153,12 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
             return@ScrollColumn
         }
         val cards: @Composable (List<CourseProgress>) -> Unit = { list ->
-            Column(verticalArrangement = Arrangement.spacedBy(12.dp)) { list.forEach { PhoneCourseCard(it) { actions.onOpen(it.course.id) } } }
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { list.forEach { PhoneCourseCard(it) { actions.onOpen(it.course.id) } } }
         }
         if (state.sort == CoursesSort.RECOMMENDED) {
             // The recommended order goes level by level, so each level gets its heading.
             shown.groupBy { it.course.level }.forEach { (level, list) ->
-                Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     LevelHeader(level, list.size)
                     cards(list)
                 }
@@ -202,22 +202,22 @@ private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, 
     val course = progress.course
     val shape = AppShapes.large
     Column(
-        Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), shape).padding(18.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp),
+        Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), shape).padding(AppSpacing.xl),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             IconTile(AppIcons.MenuBook, size = 44)
-            Text(tr("Continue learning"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, maxLines = 1)
+            Text(tr("Continue learning"), style = AppText.sectionTitle, maxLines = 1)
         }
-        Row(Modifier.fillMaxWidth().clip(AppShapes.control).clickable(onClick = onOpen), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Row(Modifier.fillMaxWidth().clip(AppShapes.control).clickable(onClick = onOpen), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             LevelTile(course.level, 52)
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                Text(course.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+                Text(course.title, style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
         }
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 Row {
                     Text(trPlural(progress.lessons.size, "{1} of {0} lesson", "{1} of {0} lessons", progress.completed), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                     Text(percent(progress), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -239,20 +239,20 @@ private fun PhoneCourseCard(progress: CourseProgress, onClick: () -> Unit) {
     val course = progress.course
     Column(
         Modifier.fillMaxWidth().cardSurface(AppShapes.large)
-            .clickable(onClick = onClick).padding(start = 18.dp, end = 10.dp, top = 18.dp, bottom = 18.dp).testTag("course-${course.id}"),
+            .clickable(onClick = onClick).padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.xl, bottom = AppSpacing.xl).testTag("course-${course.id}"),
     ) {
-        Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             LevelTile(course.level, 52)
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                Text(course.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+                Text(course.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
-            course.rankUpTo?.let { Box(Modifier.padding(top = 2.dp)) { RankTag(it) } }
-            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.padding(top = 2.dp))
+            course.rankUpTo?.let { Box(Modifier.padding(top = AppSpacing.xxs)) { RankTag(it) } }
+            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.xxs))
         }
         if (course.rankUpTo == null) OwnTags(course)
-        Text(courseFacts(course), Modifier.padding(top = 14.dp), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        Row(Modifier.padding(top = 10.dp, end = 8.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Text(courseFacts(course), Modifier.padding(top = AppSpacing.l), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Row(Modifier.padding(top = AppSpacing.m, end = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             ProgressBar(progress, Modifier.weight(1f))
             StatusText(progress, stacked = false)
         }
@@ -264,7 +264,7 @@ private fun PhoneCourseCard(progress: CourseProgress, onClick: () -> Unit) {
 @Composable
 private fun OwnTags(course: Course) {
     if (course.tags.isEmpty() && !course.builtIn) return
-    FlowRow(Modifier.padding(top = 12.dp), horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+    FlowRow(Modifier.padding(top = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         if (course.tags.isNotEmpty()) course.tags.forEach { LabelTag(it) } else SampleTag()
     }
 }

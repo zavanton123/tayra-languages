@@ -54,6 +54,8 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.state.UiEvents
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -156,7 +158,7 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
     )
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
     ContentCard(tr("About the course"), tr("Shown on the course's card and page."), icon = AppIcons.MenuBook) {
-        LabeledField(tr("Title"), Modifier.padding(bottom = 16.dp)) {
+        LabeledField(tr("Title"), Modifier.padding(bottom = AppSpacing.l)) {
             AppTextField(
                 value = state.draft.title,
                 onValueChange = { title -> onChange { it.copy(title = title) } },
@@ -165,7 +167,7 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
                 modifier = Modifier.fillMaxWidth().testTag("course-title"),
             )
         }
-        LabeledField(tr("Description"), Modifier.padding(bottom = 16.dp)) {
+        LabeledField(tr("Description"), Modifier.padding(bottom = AppSpacing.l)) {
             AppTextField(
                 value = state.draft.description,
                 onValueChange = { text -> onChange { it.copy(description = text) } },
@@ -177,7 +179,7 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
         val compact = LocalWindowWidth.current.isCompact
         val pair: @Composable (Modifier) -> Unit = { modifier ->
             Box(modifier) {
-                LabeledField(tr("Level"), Modifier.padding(bottom = 16.dp)) {
+                LabeledField(tr("Level"), Modifier.padding(bottom = AppSpacing.l)) {
                     Dropdown(
                         options = CourseLevel.entries,
                         selected = state.draft.level,
@@ -191,7 +193,7 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
         }
         val topic: @Composable (Modifier) -> Unit = { modifier ->
             Box(modifier) {
-                LabeledField(tr("Topic"), Modifier.padding(bottom = 16.dp)) {
+                LabeledField(tr("Topic"), Modifier.padding(bottom = AppSpacing.l)) {
                     AppTextField(
                         value = state.draft.topic,
                         onValueChange = { text -> onChange { it.copy(topic = text) } },
@@ -206,12 +208,12 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
             pair(Modifier.fillMaxWidth())
             topic(Modifier.fillMaxWidth())
         } else {
-            Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                 pair(Modifier.weight(1f))
                 topic(Modifier.weight(1f))
             }
         }
-        LabeledField(tr("Tags"), Modifier.padding(bottom = 16.dp)) {
+        LabeledField(tr("Tags"), Modifier.padding(bottom = AppSpacing.l)) {
             TagInput(
                 values = state.draft.tags,
                 onValuesChange = { tags -> onChange { it.copy(tags = tags) } },
@@ -321,7 +323,7 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
     )
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
     ContentCard(tr("Lesson"), tr("The title and summary are shown in the course's list of lessons."), icon = AppIcons.Page) {
-        LabeledField(tr("Title"), Modifier.padding(bottom = 16.dp)) {
+        LabeledField(tr("Title"), Modifier.padding(bottom = AppSpacing.l)) {
             AppTextField(
                 value = state.draft.title,
                 onValueChange = { title -> onChange { it.copy(title = title) } },
@@ -329,7 +331,7 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
                 modifier = Modifier.fillMaxWidth().testTag("lesson-title"),
             )
         }
-        LabeledField(tr("Summary"), Modifier.padding(bottom = 16.dp)) {
+        LabeledField(tr("Summary"), Modifier.padding(bottom = AppSpacing.l)) {
             AppTextField(
                 value = state.draft.summary,
                 onValueChange = { text -> onChange { it.copy(summary = text) } },
@@ -338,12 +340,12 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
                 modifier = Modifier.fillMaxWidth().testTag("lesson-summary"),
             )
         }
-        LabeledField(tr("Text"), Modifier.padding(bottom = 16.dp)) {
+        LabeledField(tr("Text"), Modifier.padding(bottom = AppSpacing.l)) {
             AppTextField(
                 value = state.draft.text,
                 onValueChange = { text -> onChange { it.copy(text = text) } },
                 placeholder = { Text(state.languageName.ifEmpty { null }?.let { tr("Paste or write the {0} text to read…", languageInSentence(it, LanguageCase.PREPOSITIONAL)) } ?: tr("Paste or write the text to read…")) },
-                modifier = Modifier.fillMaxWidth().height(380.dp).testTag("lesson-text"),
+                modifier = Modifier.fillMaxWidth().height(LESSON_TEXT_HEIGHT).testTag("lesson-text"),
             )
             val words = state.draft.text.split(Regex("\\s+")).count { word -> word.any { it.isLetterOrDigit() } }
             Text(
@@ -365,16 +367,18 @@ private fun FormActions(saveLabel: String, saving: Boolean, onCancel: () -> Unit
             AppDivider()
             Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
                 Row(
-                    Modifier.widthIn(max = 1480.dp).fillMaxWidth().padding(horizontal = if (LocalWindowWidth.current.isCompact) 16.dp else 48.dp, vertical = 12.dp),
+                    Modifier.widthIn(max = AppSizes.pageWidth).fillMaxWidth().padding(horizontal = if (LocalWindowWidth.current.isCompact) AppSpacing.l else AppSpacing.giant, vertical = AppSpacing.m),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    SecondaryButton(onClick = onCancel) { Text(tr("Cancel"), Modifier.padding(horizontal = 12.dp)) }
+                    SecondaryButton(onClick = onCancel) { Text(tr("Cancel"), Modifier.padding(horizontal = AppSpacing.m)) }
                     Spacer(Modifier.weight(1f))
                     PrimaryButton(onClick = onSave, enabled = !saving, modifier = Modifier.testTag("form-save")) {
-                        Text(saveLabel, Modifier.padding(horizontal = 12.dp))
+                        Text(saveLabel, Modifier.padding(horizontal = AppSpacing.m))
                     }
                 }
             }
         }
     }
 }
+
+private val LESSON_TEXT_HEIGHT = 380.dp
