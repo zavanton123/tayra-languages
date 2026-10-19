@@ -1,16 +1,7 @@
 package com.tayra.languages.feature.books
 
-import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.graphics.drawscope.Stroke
-import androidx.compose.ui.graphics.Path
-import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.geometry.CornerRadius
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.foundation.layout.offset
-import androidx.compose.foundation.layout.IntrinsicSize
-import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -19,9 +10,11 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsHoveredAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -29,6 +22,7 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -36,10 +30,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.ui.text.style.TextAlign
-import com.tayra.languages.core.domain.dictionary.PackState
-import com.tayra.languages.core.ui.i18n.LanguageCase
-import com.tayra.languages.core.ui.i18n.languageInSentence
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -48,19 +38,28 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.layout.Layout
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.semantics.contentDescription
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.BookListItem
 import com.tayra.languages.core.ui.components.AppCheckbox
@@ -68,11 +67,11 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ButtonTone
-import com.tayra.languages.core.ui.components.CountTabs
-import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ConfirmDialog
+import com.tayra.languages.core.ui.components.CountTabs
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -82,25 +81,29 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
-import com.tayra.languages.core.ui.components.Segment
-import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.SectionHeader
+import com.tayra.languages.core.ui.components.Segment
 import com.tayra.languages.core.ui.components.SegmentStyle
+import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.SelectMenu
 import com.tayra.languages.core.ui.components.SelectionBar
 import com.tayra.languages.core.ui.components.Tab
-import com.tayra.languages.core.ui.components.Tag
-import com.tayra.languages.core.ui.components.TagSize
-import com.tayra.languages.core.ui.components.TagStyle
 import com.tayra.languages.core.ui.components.TableHeader
 import com.tayra.languages.core.ui.components.TableHeaderCell
+import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagFilterButton
+import com.tayra.languages.core.ui.components.TagSize
+import com.tayra.languages.core.ui.components.TagStyle
 import com.tayra.languages.core.ui.components.TintedSurface
 import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.components.pressScale
 import com.tayra.languages.core.ui.components.relativeTo
+import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.formatCount
+import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
@@ -113,7 +116,6 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
-import com.tayra.languages.core.ui.components.ScrollList
 
 /** Home screen: the book listing. Also used for the archive. */
 @Composable
@@ -537,9 +539,9 @@ private fun BookCard(book: BookListItem, selected: Boolean, selecting: Boolean, 
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
     Column(
-        modifier.clip(shape).border(AppBorders.hairline(if (selected || hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
+        modifier.pressScale(interaction).clip(shape).border(AppBorders.hairline(if (selected || hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
             .background(if (selected) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
-            .hoverable(interaction).clickable { callbacks.onOpen(book) }.padding(AppSpacing.xl),
+            .hoverable(interaction).clickable(interaction, LocalIndication.current) { callbacks.onOpen(book) }.padding(AppSpacing.xl),
     ) {
         Row(verticalAlignment = Alignment.Top) {
             if (selecting) {

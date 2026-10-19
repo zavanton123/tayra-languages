@@ -1,9 +1,7 @@
 package com.tayra.languages.feature.courses
 
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
-import com.tayra.languages.core.ui.i18n.formatCount
-import kotlin.math.roundToInt
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.hoverable
@@ -14,6 +12,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -23,14 +22,16 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
-import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -43,20 +44,20 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.draw.drawBehind
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseProgress
-import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.courses.LessonProgress
 import com.tayra.languages.core.domain.courses.LessonStatus
+import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
@@ -66,6 +67,7 @@ import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.CountTabs
+import com.tayra.languages.core.ui.components.CoursesIllustration
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
@@ -78,6 +80,7 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.Segment
@@ -86,12 +89,14 @@ import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.SelectMenu
 import com.tayra.languages.core.ui.components.Tab
 import com.tayra.languages.core.ui.components.Tag
-import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.TagFilterButton
+import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.cardSurface
-import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.components.pressScale
 import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.languageInSentence
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
@@ -102,12 +107,9 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import kotlin.math.roundToInt
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
-import androidx.compose.foundation.layout.widthIn
-import androidx.compose.ui.text.style.TextAlign
-import com.tayra.languages.core.ui.components.CoursesIllustration
-import com.tayra.languages.core.ui.components.ScrollColumn
 
 internal val CourseLevel.tint: Color
     get() = when (this) {
@@ -452,9 +454,9 @@ private fun CourseCard(progress: CourseProgress, modifier: Modifier, tagsBelow: 
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
     Column(
-        modifier.clip(AppShapes.large).background(colors.surface)
+        modifier.pressScale(interaction).clip(AppShapes.large).background(colors.surface)
             .border(AppBorders.hairline(if (hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), AppShapes.large)
-            .hoverable(interaction).clickable(onClick = onClick).padding(AppSpacing.xl).testTag("course-${course.id}"),
+            .hoverable(interaction).clickable(interaction, LocalIndication.current, onClick = onClick).padding(AppSpacing.xl).testTag("course-${course.id}"),
     ) {
         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             LevelTile(course.level, 52)
@@ -491,9 +493,9 @@ private fun CourseRow(progress: CourseProgress, compact: Boolean, onClick: () ->
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface)
+        Modifier.fillMaxWidth().pressScale(interaction).clip(AppShapes.card).background(colors.surface)
             .border(AppBorders.hairline(if (hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), AppShapes.card)
-            .hoverable(interaction).clickable(onClick = onClick).padding(horizontal = AppSpacing.l, vertical = AppSpacing.l).testTag("course-${course.id}"),
+            .hoverable(interaction).clickable(interaction, LocalIndication.current, onClick = onClick).padding(horizontal = AppSpacing.l, vertical = AppSpacing.l).testTag("course-${course.id}"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl),
     ) {

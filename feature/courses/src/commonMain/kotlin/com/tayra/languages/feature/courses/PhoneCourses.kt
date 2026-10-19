@@ -1,8 +1,10 @@
 package com.tayra.languages.feature.courses
 
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -38,22 +40,23 @@ import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseProgress
 import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.ui.components.AppIconButton
-import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
-import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.LoadingIndicator
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SelectButton
 import com.tayra.languages.core.ui.components.TagFilterSheet
 import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.components.pressScale
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
@@ -237,9 +240,10 @@ private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, 
 private fun PhoneCourseCard(progress: CourseProgress, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val course = progress.course
+    val press = remember { MutableInteractionSource() }
     Column(
-        Modifier.fillMaxWidth().cardSurface(AppShapes.large)
-            .clickable(onClick = onClick).padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.xl, bottom = AppSpacing.xl).testTag("course-${course.id}"),
+        Modifier.fillMaxWidth().pressScale(press).cardSurface(AppShapes.large)
+            .clickable(press, LocalIndication.current, onClick = onClick).padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.xl, bottom = AppSpacing.xl).testTag("course-${course.id}"),
     ) {
         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             LevelTile(course.level, 52)

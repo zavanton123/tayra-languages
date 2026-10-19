@@ -5,18 +5,22 @@ import androidx.compose.animation.AnimatedVisibilityScope
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.core.MutableTransitionState
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.animateIntAsState
 import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.scaleIn
 import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.interaction.InteractionSource
+import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.foundation.lazy.LazyItemScope
 import androidx.compose.foundation.lazy.grid.LazyGridItemScope
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.graphicsLayer
 import com.tayra.languages.core.ui.theme.AppMotion
 
 /*
@@ -99,3 +103,17 @@ fun LazyItemScope.itemMotion(modifier: Modifier = Modifier): Modifier =
 fun LazyGridItemScope.itemMotion(modifier: Modifier = Modifier): Modifier =
     if (AppMotion.reduced) modifier
     else modifier.animateItem(fadeInSpec = AppMotion.spec(AppMotion.short), placementSpec = AppMotion.spec(AppMotion.medium), fadeOutSpec = AppMotion.spec(AppMotion.short))
+
+/**
+ * A card that gives a little under the finger: it shrinks a touch while pressed. Put it before the
+ * card's own shape and surface, and give its clickable the same [source].
+ */
+@Composable
+fun Modifier.pressScale(source: InteractionSource): Modifier {
+    val pressed by source.collectIsPressedAsState()
+    val scale by animateFloatAsState(if (pressed && !AppMotion.reduced) PRESSED_SCALE else 1f, AppMotion.spec(AppMotion.short))
+    return graphicsLayer { scaleX = scale; scaleY = scale }
+}
+
+/** How small a pressed card gets. */
+private const val PRESSED_SCALE = 0.98f

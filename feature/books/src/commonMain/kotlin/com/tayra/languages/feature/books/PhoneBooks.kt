@@ -1,8 +1,10 @@
 package com.tayra.languages.feature.books
 
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -51,6 +53,8 @@ import com.tayra.languages.core.ui.components.TagFilterSheet
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.TintedSurface
 import com.tayra.languages.core.ui.components.ToggleButton
+import com.tayra.languages.core.ui.components.itemMotion
+import com.tayra.languages.core.ui.components.pressScale
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
@@ -62,7 +66,6 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
-import com.tayra.languages.core.ui.components.itemMotion
 
 /** The phone bar's list menu (ticking books, the archive) and the button for a new book. */
 @Composable
@@ -181,10 +184,11 @@ private fun LabelledBar(label: String, percent: Int?, color: Color) {
 private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Boolean, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.card
+    val press = remember { MutableInteractionSource() }
     Column(
-        Modifier.fillMaxWidth().clip(shape).border(AppBorders.hairline(if (selected) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
+        Modifier.fillMaxWidth().pressScale(press).clip(shape).border(AppBorders.hairline(if (selected) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
             .background(if (selected) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
-            .clickable { if (selecting) callbacks.onToggle(book) else callbacks.onOpen(book) }.padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.l, bottom = AppSpacing.l),
+            .clickable(press, LocalIndication.current) { if (selecting) callbacks.onToggle(book) else callbacks.onOpen(book) }.padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.l, bottom = AppSpacing.l),
     ) {
         Row(verticalAlignment = Alignment.Top) {
             if (selecting) Box(Modifier.padding(end = AppSpacing.xs)) { BookCheckbox(book, selected, callbacks) }

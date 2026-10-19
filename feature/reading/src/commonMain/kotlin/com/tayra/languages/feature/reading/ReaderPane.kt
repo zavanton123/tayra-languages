@@ -1,9 +1,10 @@
 package com.tayra.languages.feature.reading
 
-import com.tayra.languages.core.domain.language.LanguageCodes
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -25,8 +26,6 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import com.tayra.languages.core.ui.components.Dropdown
-import com.tayra.languages.core.domain.morphology.ChineseScript
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -39,12 +38,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.constrainWidth
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.PageBookmark
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.morphology.ChineseScript
 import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.ui.components.AppCard
@@ -53,7 +57,9 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppSlider
 import com.tayra.languages.core.ui.components.ButtonSize
+import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -62,7 +68,7 @@ import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PaneHeader
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
-import com.tayra.languages.core.ui.components.AppSlider
+import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.Segment
 import com.tayra.languages.core.ui.components.SegmentStyle
@@ -75,6 +81,7 @@ import com.tayra.languages.core.ui.components.SwitchSetting
 import com.tayra.languages.core.ui.components.Tab
 import com.tayra.languages.core.ui.components.TextInputDialog
 import com.tayra.languages.core.ui.components.UnderlineTabs
+import com.tayra.languages.core.ui.components.pressScale
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
@@ -88,10 +95,6 @@ import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.theme.fontFamily
 import kotlin.math.roundToInt
-import com.tayra.languages.core.ui.components.ScrollColumn
-import androidx.compose.ui.layout.Layout
-import androidx.compose.ui.unit.Constraints
-import androidx.compose.ui.unit.constrainWidth
 
 /** What the pane's links and tools open outside it. */
 internal class ReaderPaneActions(
@@ -552,10 +555,11 @@ private fun ReaderTools(state: ReadingUiState, bookmarksOpen: Boolean, onBookmar
 @Composable
 private fun ToolTile(icon: ImageVector, label: String, note: String, active: Boolean, tag: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
+    val press = remember { MutableInteractionSource() }
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (active) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
+        Modifier.fillMaxWidth().pressScale(press).clip(AppShapes.panel).background(if (active) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
             .border(AppBorders.hairline(if (active) colors.primary.copy(alpha = AppAlpha.disabled) else colors.outlineVariant), AppShapes.panel)
-            .clickable(onClick = onClick).padding(vertical = AppSpacing.m, horizontal = AppSpacing.xs).testTag(tag),
+            .clickable(press, LocalIndication.current, onClick = onClick).padding(vertical = AppSpacing.m, horizontal = AppSpacing.xs).testTag(tag),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(AppSpacing.xs),
     ) {
