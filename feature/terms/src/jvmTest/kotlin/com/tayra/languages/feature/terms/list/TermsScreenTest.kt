@@ -170,7 +170,7 @@ class TermsScreenTest {
     fun aPhoneFiltersFromASheet() = runDesktopComposeUiTest(width = 400, height = 1100) {
         show()
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
-        onNodeWithText("5 terms · 2 known").assertExists()
+        onNodeWithText("3 of 5 terms shown").assertExists()
         onNodeWithText("Filter vocabulary").assertDoesNotExist()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone.png"))) }
 
@@ -181,11 +181,13 @@ class TermsScreenTest {
         onNodeWithContentDescription("Added to, days ago").performClick()
         onNodeWithText("30").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("30").fetchSemanticsNodes().size == 1 }
-        onNodeWithContentDescription("Remove the added filter").assertDoesNotExist()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone-filters.png"))) }
         onNodeWithText("Show 5 terms").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }
         onNodeWithContentDescription("2 filters on").assertExists()
+        // The page lists the filters that are on, so a filtered list never passes for the whole vocabulary.
+        onNodeWithContentDescription("Remove the added filter").assertExists()
+        onNodeWithText("5 of 5 terms shown").assertExists()
 
         // The sheet's Reset goes back to how the screen opened.
         onNodeWithText("Filters").performClick()

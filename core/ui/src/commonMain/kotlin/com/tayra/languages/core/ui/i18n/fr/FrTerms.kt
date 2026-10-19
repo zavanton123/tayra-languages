@@ -32,6 +32,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Term A–Z" to "Terme A–Z",
     // PhoneTerms.kt
     "{0} terms · {1} known" to "Termes : {0} · connus : {1}",
+    "{1} of {2} terms shown" to "{1} terme affiché sur {2}|{1} termes affichés sur {2}",
     "Select terms" to "Sélectionner des termes",
     "Done selecting" to "Terminer la sélection",
     "Added today" to "Ajoutés aujourd’hui",
