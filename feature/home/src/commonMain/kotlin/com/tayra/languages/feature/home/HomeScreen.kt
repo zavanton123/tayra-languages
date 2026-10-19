@@ -1,9 +1,6 @@
 package com.tayra.languages.feature.home
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
@@ -12,9 +9,6 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -22,7 +16,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
@@ -37,13 +30,16 @@ import com.tayra.languages.core.domain.stats.StudyActivity
 import com.tayra.languages.core.ui.components.ActivityHeatmapCard
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.shortDate
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.formatCount
@@ -52,6 +48,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.minus
@@ -109,17 +106,11 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
     if (activity != null) StudyActivityCard(activity)
 }
 
-private val ORANGE = Color(0xFFEA7A1B)
-private val PINK = Color(0xFFD9488B)
-private val BLUE = Color(0xFF3B6FE0)
-private val PURPLE = Color(0xFF7C4DDB)
-private val TEAL = Color(0xFF1F8A8A)
-
 @Composable
 private fun WordsTodayTile(activity: StudyActivity, modifier: Modifier) {
     val weekStart = activity.today.minus(6, DateTimeUnit.DAY)
     val week = activity.days.filterKeys { it in weekStart..activity.today }.values.sumOf { it.wordsSaved }
-    Tile(tr("Words added today"), formatCount(activity.savedToday), tr("{0} this week", formatCount(week)), AppIcons.Abc, ORANGE, "words-today", modifier)
+    Tile(tr("Words added today"), formatCount(activity.savedToday), tr("{0} this week", formatCount(week)), AppIcons.Abc, AppAccents.orange, "words-today", modifier)
 }
 
 @Composable
@@ -129,20 +120,18 @@ private fun StreakTile(activity: StudyActivity, modifier: Modifier) {
         activity.streak > 0 -> tr("Study today to keep it going")
         else -> tr("Study today to start a streak")
     }
-    Tile(tr("Day streak"), trPlural(activity.streak, "{0} day", "{0} days"), detail, AppIcons.Flame, PINK, "streak", modifier)
+    Tile(tr("Day streak"), trPlural(activity.streak, "{0} day", "{0} days"), detail, AppIcons.Flame, AppAccents.pink, "streak", modifier)
 }
 
 @Composable
 private fun Tile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, tag: String, modifier: Modifier) {
     val compact = LocalWindowWidth.current.isCompact
-    val shape = AppShapes.card
     Row(
-        modifier.clip(shape).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, shape).padding(if (compact) 14.dp else 20.dp).testTag("tile-$tag"),
+        modifier.cardSurface(AppShapes.card).padding(if (compact) 14.dp else 20.dp).testTag("tile-$tag"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        if (!compact) IconTile(icon, tint)
+        if (!compact) IconTile(icon, size = 52, tint = tint)
         Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
             Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             Text(value, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold, maxLines = 1)
@@ -152,19 +141,12 @@ private fun Tile(label: String, value: String, detail: String, icon: ImageVector
 }
 
 @Composable
-private fun IconTile(icon: ImageVector, tint: Color) {
-    Box(Modifier.size(52.dp).clip(CircleShape).background(tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
-        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(26.dp))
-    }
-}
-
-@Composable
 private fun CourseCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNavigate: (Route) -> Unit, onContinue: () -> Unit) {
     val progress = state.course
     val next = progress?.nextLesson
     if (progress == null || next == null) {
         ActionCard(
-            tr("Continue course"), tr("No course in progress"), tr("Choose a course to start learning."), AppIcons.School, BLUE, "course", modifier, fill,
+            tr("Continue course"), tr("No course in progress"), tr("Choose a course to start learning."), AppIcons.School, AppAccents.blue, "course", modifier, fill,
             button = tr("Browse courses"), primary = false, onClick = { onNavigate(Route.Courses) },
         )
         return
@@ -173,7 +155,7 @@ private fun CourseCard(state: HomeUiState, modifier: Modifier, fill: Boolean, on
     val total = progress.lessons.size
     val number = progress.lessons.indexOf(next) + 1
     ActionCard(
-        tr("Continue course"), progress.course.title, tr("Lesson {0}: {1}", number, next.lesson.title), AppIcons.School, BLUE, "course", modifier, fill,
+        tr("Continue course"), progress.course.title, tr("Lesson {0}: {1}", number, next.lesson.title), AppIcons.School, AppAccents.blue, "course", modifier, fill,
         button = if (started) tr("Continue course") else tr("Start course"), onClick = onContinue,
         progress = if (total == 0) 0f else progress.completed.toFloat() / total,
         progressText = trPlural(total, "{1} of {0} lesson", "{1} of {0} lessons", progress.completed),
@@ -186,14 +168,14 @@ private fun BookCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNa
     val book = state.book
     if (book == null) {
         ActionCard(
-            tr("Continue book"), tr("No book in progress"), tr("Open a book from your library to start reading."), AppIcons.MenuBook, PURPLE, "book", modifier, fill,
+            tr("Continue book"), tr("No book in progress"), tr("Open a book from your library to start reading."), AppIcons.MenuBook, AppAccents.purple, "book", modifier, fill,
             button = tr("Browse books"), primary = false, onClick = { onNavigate(Route.Books) },
         )
         return
     }
     val share = if (book.pageCount > 0) book.currentPage.toFloat() / book.pageCount else 0f
     ActionCard(
-        tr("Continue book"), book.title, tr("Page {0} of {1}", book.currentPage, book.pageCount), AppIcons.MenuBook, PURPLE, "book", modifier, fill,
+        tr("Continue book"), book.title, tr("Page {0} of {1}", book.currentPage, book.pageCount), AppIcons.MenuBook, AppAccents.purple, "book", modifier, fill,
         button = tr("Continue book"), onClick = { onNavigate(Route.Read(book.id)) },
         progress = share, progressText = "${(share * 100).toInt().coerceIn(0, 100)}%",
     )
@@ -205,7 +187,7 @@ private fun FlashcardsCard(due: Int, modifier: Modifier, fill: Boolean, onNaviga
         tr("Flashcards"),
         if (due > 0) trPlural(due, "{1} card due today", "{1} cards due today", formatCount(due)) else tr("All caught up"),
         if (due > 0) tr("Review them to keep your words fresh.") else tr("No cards are due right now."),
-        AppIcons.Style, TEAL, "flashcards", modifier, fill,
+        AppIcons.Style, AppAccents.teal, "flashcards", modifier, fill,
         button = tr("Review flashcards"), primary = due > 0, onClick = { onNavigate(Route.Flashcards) },
     )
 }
@@ -232,13 +214,12 @@ private fun ActionCard(
     error: String? = null,
 ) {
     val colors = MaterialTheme.colorScheme
-    val shape = AppShapes.large
     Column(
-        modifier.fillMaxWidth().clip(shape).background(colors.surface).border(1.dp, colors.outlineVariant, shape).padding(20.dp).testTag("card-$tag"),
+        modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(20.dp).testTag("card-$tag"),
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-            IconTile(icon, tint)
+            IconTile(icon, size = 52, tint = tint)
             Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
                 Text(label, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 2, overflow = TextOverflow.Ellipsis)
@@ -247,9 +228,7 @@ private fun ActionCard(
         Text(detail, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
         if (progress != null) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                Box(Modifier.weight(1f).height(8.dp).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = 0.08f))) {
-                    Box(Modifier.fillMaxWidth(progress.coerceIn(0f, 1f)).fillMaxHeight().clip(AppShapes.tiny).background(tint))
-                }
+                ProgressTrack(progress, tint, Modifier.weight(1f), height = 8.dp)
                 if (progressText != null) Text(progressText, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             }
         }

@@ -2,13 +2,13 @@ package com.tayra.languages.feature.stats
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -18,8 +18,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -52,22 +50,29 @@ import com.tayra.languages.core.domain.stats.ChartPoint
 import com.tayra.languages.core.domain.stats.LanguageOverview
 import com.tayra.languages.core.domain.stats.heatLevel
 import com.tayra.languages.core.ui.components.ActivityHeatmapCard
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.shortDate
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.TableHeader
+import com.tayra.languages.core.ui.components.TableHeaderCell
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.TayraTheme
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.SharingStarted
@@ -116,13 +121,7 @@ fun StatsScreen(onNavigate: (Route) -> Unit, viewModel: StatsViewModel = koinVie
     }
 }
 
-private val BLUE = Color(0xFF3B6FE0)
-private val GREEN = Color(0xFF2E9D57)
-private val ORANGE = Color(0xFFEA7A1B)
-private val PURPLE = Color(0xFF7C4DDB)
-private val TEAL = Color(0xFF1F8A8A)
-private val PINK = Color(0xFFD9488B)
-private val seriesColors = listOf(BLUE, ORANGE, GREEN, Color(0xFFD62728), PURPLE, Color(0xFF8C564B), PINK, TEAL)
+private val seriesColors = AppAccents.sequence
 
 @Composable
 internal fun StatsContent(state: StatsUiState) {
@@ -161,12 +160,12 @@ private data class Tile(val label: String, val value: String, val detail: String
 @Composable
 private fun OverviewTiles(o: LanguageOverview) {
     val tiles = listOf(
-        Tile(tr("Words read"), formatCount(o.wordsRead), tr("{0} this week", formatCount(o.wordsReadThisWeek)), AppIcons.MenuBook, BLUE, "words-read"),
-        Tile(tr("Known words"), formatCount(o.known), trPlural(o.learning, "{1} word being learned", "{1} words being learned", formatCount(o.learning)), AppIcons.DoneAll, GREEN, "known-words"),
-        Tile(tr("New words today"), formatCount(o.savedToday), trPlural(o.savedThisWeek, "{1} word saved this week", "{1} words saved this week", formatCount(o.savedThisWeek)), AppIcons.Abc, ORANGE, "words-today"),
-        Tile(tr("Reading streak"), trPlural(o.streak, "{0} day", "{0} days"), trPlural(o.longestStreak, "Longest: {0} day", "Longest: {0} days"), AppIcons.Flame, PINK, "streak"),
-        Tile(tr("Days with reading"), formatCount(o.daysRead), tr("{0} words a day on average", formatCount(o.wordsPerReadingDay)), AppIcons.History, PURPLE, "days-read"),
-        Tile(tr("Pages read"), formatCount(o.pagesRead), trPlural(o.booksFinished, "{1} book finished", "{1} books finished", formatCount(o.booksFinished)), AppIcons.Book, TEAL, "pages-read"),
+        Tile(tr("Words read"), formatCount(o.wordsRead), tr("{0} this week", formatCount(o.wordsReadThisWeek)), AppIcons.MenuBook, AppAccents.blue, "words-read"),
+        Tile(tr("Known words"), formatCount(o.known), trPlural(o.learning, "{1} word being learned", "{1} words being learned", formatCount(o.learning)), AppIcons.DoneAll, AppAccents.green, "known-words"),
+        Tile(tr("New words today"), formatCount(o.savedToday), trPlural(o.savedThisWeek, "{1} word saved this week", "{1} words saved this week", formatCount(o.savedThisWeek)), AppIcons.Abc, AppAccents.orange, "words-today"),
+        Tile(tr("Reading streak"), trPlural(o.streak, "{0} day", "{0} days"), trPlural(o.longestStreak, "Longest: {0} day", "Longest: {0} days"), AppIcons.Flame, AppAccents.pink, "streak"),
+        Tile(tr("Days with reading"), formatCount(o.daysRead), tr("{0} words a day on average", formatCount(o.wordsPerReadingDay)), AppIcons.History, AppAccents.purple, "days-read"),
+        Tile(tr("Pages read"), formatCount(o.pagesRead), trPlural(o.booksFinished, "{1} book finished", "{1} books finished", formatCount(o.booksFinished)), AppIcons.Book, AppAccents.teal, "pages-read"),
     )
     val compact = LocalWindowWidth.current.isCompact
     FlowRow(
@@ -176,18 +175,12 @@ private fun OverviewTiles(o: LanguageOverview) {
         maxItemsInEachRow = if (compact) 2 else 3,
     ) {
         tiles.forEach { tile ->
-            val shape = AppShapes.card
             Row(
-                Modifier.weight(1f).clip(shape).background(MaterialTheme.colorScheme.surface)
-                    .border(1.dp, MaterialTheme.colorScheme.outlineVariant, shape).padding(if (compact) 14.dp else 20.dp).testTag("tile-${tile.tag}"),
+                Modifier.weight(1f).cardSurface(AppShapes.card).padding(if (compact) 14.dp else 20.dp).testTag("tile-${tile.tag}"),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(16.dp),
             ) {
-                if (!compact) {
-                    Box(Modifier.size(52.dp).clip(CircleShape).background(tile.tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
-                        Icon(tile.icon, contentDescription = null, tint = tile.tint, modifier = Modifier.size(26.dp))
-                    }
-                }
+                if (!compact) IconTile(tile.icon, size = 52, tint = tile.tint)
                 Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
                     Text(tile.label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
                     Text(tile.value, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold, maxLines = 1)
@@ -225,7 +218,7 @@ private fun WordsPerDayCard(o: LanguageOverview, modifier: Modifier) {
     val first = o.today.minus(29, DateTimeUnit.DAY)
     val values = (0 until 30).map { o.readingDays[first.plus(it, DateTimeUnit.DAY)] ?: 0 }
     ContentCard(tr("Words read per day"), tr("The last 30 days: {0} words", formatCount(values.sum())), icon = AppIcons.MenuBook, modifier = modifier) {
-        BarChart(values, BLUE, first.shortDate(), o.today.shortDate(), Modifier.testTag("words-per-day"))
+        BarChart(values, AppAccents.blue, first.shortDate(), o.today.shortDate(), Modifier.testTag("words-per-day"))
     }
 }
 
@@ -233,7 +226,7 @@ private fun WordsPerDayCard(o: LanguageOverview, modifier: Modifier) {
 private fun SavedPerWeekCard(o: LanguageOverview, modifier: Modifier) {
     val firstWeekEnd = o.today.minus((o.savedByWeek.size - 1) * 7, DateTimeUnit.DAY)
     ContentCard(tr("New words saved per week"), tr("The last 12 weeks: {0} words", formatCount(o.savedByWeek.sum())), icon = AppIcons.Abc, modifier = modifier) {
-        BarChart(o.savedByWeek, ORANGE, firstWeekEnd.minus(6, DateTimeUnit.DAY).shortDate(), o.today.shortDate(), Modifier.testTag("saved-per-week"))
+        BarChart(o.savedByWeek, AppAccents.orange, firstWeekEnd.minus(6, DateTimeUnit.DAY).shortDate(), o.today.shortDate(), Modifier.testTag("saved-per-week"))
     }
 }
 
@@ -273,7 +266,7 @@ private fun VocabularyCard(o: LanguageOverview, modifier: Modifier) {
     val outline = MaterialTheme.colorScheme.outline
     // Known words have no colour in the reader, so here they get the green of "known".
     fun tint(status: TermStatus): Color = when (status) {
-        TermStatus.WELL_KNOWN -> GREEN
+        TermStatus.WELL_KNOWN -> AppAccents.green
         TermStatus.IGNORED -> outline
         else -> statusColors.background(status)
     }
@@ -314,7 +307,7 @@ private fun FlashcardsCard(o: LanguageOverview, modifier: Modifier) {
         icon = AppIcons.DoneAll,
         modifier = modifier,
     ) {
-        BarChart(values, PURPLE, first.shortDate(), o.today.shortDate(), Modifier.testTag("reviews-per-day"))
+        BarChart(values, AppAccents.purple, first.shortDate(), o.today.shortDate(), Modifier.testTag("reviews-per-day"))
     }
 }
 
@@ -324,13 +317,11 @@ private fun FlashcardsCard(o: LanguageOverview, modifier: Modifier) {
 private fun LanguagesCard(summary: ReadingStatsSummary) {
     ContentCard(tr("Words read by language"), tr("Every language you have read in."), icon = AppIcons.Globe) {
         val headers = listOf(tr("Language"), tr("Today"), tr("Week"), tr("Month"), tr("Year"), tr("Total"))
-        Row(Modifier.fillMaxWidth().padding(bottom = 8.dp)) {
-            headers.forEachIndexed { i, h ->
-                Text(h, Modifier.weight(if (i == 0) 2f else 1f), fontWeight = FontWeight.SemiBold, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
+        TableHeader(padding = PaddingValues(vertical = AppSpacing.xxs)) {
+            headers.forEachIndexed { i, h -> TableHeaderCell(h, Modifier.weight(if (i == 0) 2f else 1f)) }
         }
         summary.table.forEach { row ->
-            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+            AppDivider()
             Row(Modifier.fillMaxWidth().padding(vertical = 10.dp)) {
                 Text(tr(row.languageName), Modifier.weight(2f), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
                 listOf(row.counts.day, row.counts.week, row.counts.month, row.counts.year, row.counts.total).forEach {
