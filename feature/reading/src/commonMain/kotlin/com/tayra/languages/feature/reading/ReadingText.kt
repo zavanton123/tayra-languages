@@ -77,6 +77,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Dp
@@ -692,9 +693,10 @@ private fun buildParagraph(
             // The word under the mouse turns plain gray, whatever its status colour, so it reads as "pointed at".
             if (isHovered && !isMarked) style = SpanStyle(background = theme.readingText.copy(alpha = HOVER_ALPHA))
         }
-        // Selected words and phrases, including one still being dragged over, keep their backgrounds and change the colour of their letters.
+        // Selected words and phrases, including one still being dragged over, keep their backgrounds and change the colour of
+        // their letters, and are underlined too, so the choice does not rest on the colour alone.
         val selected = (isMarked && item.isWord) || inSelection
-        if (selected) style = style.copy(color = theme.selectedText)
+        if (selected) style = style.copy(color = theme.selectedText, textDecoration = if (item.isWord) TextDecoration.Underline else null)
         val coloured = style.background != Color.Unspecified
         // A word's own colour is drawn as a rounded mark around its letters (see highlightMarks), not the line's full height.
         val fill = if (item.isWord && coloured && style.background != Color.Transparent) style.background else null
