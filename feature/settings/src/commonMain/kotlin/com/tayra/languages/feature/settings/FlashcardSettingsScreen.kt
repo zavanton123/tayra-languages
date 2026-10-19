@@ -29,7 +29,6 @@ import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.HeaderButton
-import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.NumberStepper
@@ -191,9 +190,6 @@ private fun AnswerCard(settings: UserSettings, viewModel: SettingsViewModel) {
     }
 }
 
+/** How reviews move a word's status, folded away as on the phone. */
 @Composable
-private fun StatusInfo() {
-    InfoBanner(
-        tr("Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card."),
-    )
-}
+private fun StatusInfo() = HowItWorks()

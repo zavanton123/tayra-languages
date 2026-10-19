@@ -125,7 +125,7 @@ private const val PHONE_DEFAULT_REVIEW_LIMIT = 200
 
 /** How a card's reviews move a word's status, folded away under a row. */
 @Composable
-private fun HowItWorks() {
+internal fun HowItWorks() {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
     Column(Modifier.fillMaxWidth().cardSurface()) {
