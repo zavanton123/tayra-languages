@@ -249,7 +249,10 @@ Screens are built from `core/ui`.
   - `Reveal` and `RevealValue` open and close panels; `Appear` fades notices and answers in (and,
     with `grow`, the next flashcard); `PopIn` pops a mark in, as a right answer's tick.
     `animatedCount()` runs a number to its new value. `itemMotion()` lets a list's items glide when
-    the list is filtered or sorted.
+    the list is filtered or sorted. `pressScale()` shrinks a tappable card a touch while it is pressed.
+  - Lists fetched from the network (News, Wikipedia, Find books, the Examples search) show
+    `PlaceholderCards` while they load, shimmering unless motion is reduced. `LoadingIndicator` shows
+    its spinner only after `AppMotion.loadingDelay`, so a quick local load flashes none.
   - The segmented toggle's highlight and the underline tabs' line slide to the chosen one. Chips,
     toggles and tabs fade between their colours, and progress fills smoothly.
   - Screens change with a quick crossfade (`AppNavHost`).

@@ -41,7 +41,7 @@ class DesignSystemGalleryTest {
         for (theme in listOf(AppThemes.default, AppThemes.night)) gallery(theme)
     }
 
-    private fun gallery(theme: AppTheme) = runDesktopComposeUiTest(width = 1240, height = 2120) {
+    private fun gallery(theme: AppTheme) = runDesktopComposeUiTest(width = 1240, height = 2340) {
         setContent { TayraTheme(theme) { Gallery() } }
         onAllNodesWithText("Primary").onFirst().assertExists()
         System.getenv("DESIGN_GALLERY")?.let { folder ->
@@ -184,6 +184,7 @@ class DesignSystemGalleryTest {
                     AppSwitch(checked = true, onCheckedChange = {})
                 }
             }
+            PlaceholderCards(2, thumbnail = true)
             EmptyState(AppIcons.Book, "No books match these filters.", message = "Try other filters.", action = { QuietButton("Create a book", onClick = {}) })
             ContentCard("Card", "A card with a setting, a banner and a header button.", icon = AppIcons.Download, modifier = Modifier.fillMaxWidth()) {
                 SwitchSetting("A switch", "Its description.", checked = true) {}

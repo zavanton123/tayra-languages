@@ -45,6 +45,7 @@ import com.tayra.languages.core.ui.components.CoverageLine
 import com.tayra.languages.core.ui.components.DifficultyFilter
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.PlaceholderCards
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
@@ -55,10 +56,14 @@ import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.state.UiEvents
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
@@ -69,10 +74,6 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import com.tayra.languages.core.ui.theme.AppSpacing
-import com.tayra.languages.core.ui.theme.AppSizes
-import com.tayra.languages.core.ui.theme.AppText
-import com.tayra.languages.core.ui.components.itemMotion
 
 /** How long a whole article is, by its size on the wiki. */
 enum class ArticleLength(val below: Int) {
@@ -339,7 +340,7 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
             }
             when {
                 state.languageName.isEmpty() -> item { EmptyState(AppIcons.Globe, tr("Choose a language to learn to see its news.")) }
-                state.loading -> item { Box(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xxxl), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) } }
+                state.loading -> item { PlaceholderCards(4) }
                 state.error != null -> item {
                     EmptyState(
                         Icons.Default.Warning,

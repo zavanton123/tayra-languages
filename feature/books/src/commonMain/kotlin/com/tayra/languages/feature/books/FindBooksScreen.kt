@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
@@ -33,20 +34,19 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.books.discover.BookSource
 import com.tayra.languages.core.domain.books.discover.Difficulty
 import com.tayra.languages.core.ui.components.AppFilterChip
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppSpinner
+import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.CoverageLine
 import com.tayra.languages.core.ui.components.DifficultyFilter
 import com.tayra.languages.core.ui.components.EmptyState
-import com.tayra.languages.core.ui.components.color
-import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PlaceholderCards
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.ScrollList
@@ -56,6 +56,8 @@ import com.tayra.languages.core.ui.components.Segment
 import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.components.color
+import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
@@ -67,7 +69,6 @@ import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import org.koin.compose.viewmodel.koinViewModel
-import com.tayra.languages.core.ui.components.itemMotion
 
 /** Free books to add to the library, found in online libraries and judged by the words the reader knows. */
 @Composable
@@ -136,7 +137,7 @@ internal fun FindBooksContent(state: FindBooksUiState, actions: FindBooksActions
             }
             item { Controls(state, actions, compact) }
             when {
-                state.loading -> item { Centered { AppSpinner(size = SpinnerSize.Large) } }
+                state.loading -> item { PlaceholderCards(4, thumbnail = true) }
                 state.error != null -> item { ErrorBox(state, actions) }
                 state.shown.isEmpty() -> item { EmptyBox(state, actions) }
                 else -> items(state.shown.size, key = { "${state.shown[it].book.source}-${state.shown[it].book.id}" }) { i -> Box(itemMotion()) {

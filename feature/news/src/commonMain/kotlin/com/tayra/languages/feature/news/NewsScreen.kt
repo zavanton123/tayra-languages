@@ -48,6 +48,7 @@ import com.tayra.languages.core.ui.components.DifficultyFilter
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PlaceholderCards
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
@@ -60,6 +61,7 @@ import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
@@ -67,13 +69,12 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
-import org.koin.compose.viewmodel.koinViewModel
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import kotlin.time.Clock
 import kotlin.time.Instant
-import com.tayra.languages.core.ui.theme.AppSpacing
-import com.tayra.languages.core.ui.theme.AppSizes
-import com.tayra.languages.core.ui.theme.AppText
-import com.tayra.languages.core.ui.components.itemMotion
+import org.koin.compose.viewmodel.koinViewModel
 
 /** What the News section shows: the news sites' feeds, or the articles of Wikipedia and the other wikis. */
 enum class NewsTab { NEWS, WIKIPEDIA }
@@ -217,7 +218,7 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
                         )
                     }
                     when {
-                        state.loading && state.articles.isEmpty() -> item { Box(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xxxl), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) } }
+                        state.loading && state.articles.isEmpty() -> item { PlaceholderCards(4) }
                         state.shown.isEmpty() -> item {
                             EmptyState(
                                 AppIcons.Newspaper,

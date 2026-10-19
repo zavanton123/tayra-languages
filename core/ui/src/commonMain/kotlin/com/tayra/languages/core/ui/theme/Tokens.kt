@@ -123,6 +123,10 @@ object AppSizes {
     val iconXLarge = 32.dp
     val iconHuge = 40.dp
 
+    /** The height of a placeholder's line of text, and of its title. */
+    val textLine = 14.dp
+    val titleLine = 18.dp
+
     /** The coloured dot of a status or a legend, and the tick of a list. */
     val dotSmall = 6.dp
     val dot = 8.dp

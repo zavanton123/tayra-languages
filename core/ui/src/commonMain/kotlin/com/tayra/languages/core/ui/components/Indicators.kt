@@ -1,12 +1,21 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CircularProgressIndicator
@@ -28,17 +37,24 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /*
  * The design system's small controls and indicators: icon buttons, progress, spinners, dividers,
@@ -185,3 +201,54 @@ fun AppSnackbar(message: String, modifier: Modifier = Modifier, actionLabel: Str
         action = if (actionLabel != null && onAction != null) ({ QuietButton(actionLabel, onClick = onAction) }) else null,
     ) { Text(message) }
 }
+
+/**
+ * Where content is still to come: a block in the placeholder grey, with a soft light crossing it
+ * while it loads; still when motion is reduced.
+ */
+@Composable
+fun Modifier.placeholder(shape: Shape = AppShapes.small): Modifier {
+    val colors = MaterialTheme.colorScheme
+    val base = colors.onSurface.copy(alpha = AppAlpha.wash)
+    if (AppMotion.reduced) return clip(shape).background(base)
+    val light = colors.surface.copy(alpha = AppAlpha.half)
+    val crossing by rememberInfiniteTransition().animateFloat(0f, 1f, infiniteRepeatable(tween(AppMotion.shimmer, easing = LinearEasing)))
+    return clip(shape).background(base).drawWithContent {
+        drawContent()
+        val band = size.width * SHIMMER_BAND
+        val x = -band + (size.width + band * 2) * crossing
+        drawRect(Brush.horizontalGradient(listOf(Color.Transparent, light, Color.Transparent), startX = x - band, endX = x + band))
+    }
+}
+
+/** A line of text still to come, [fraction] of the width. */
+@Composable
+fun PlaceholderLine(fraction: Float = 1f, modifier: Modifier = Modifier, height: Dp = AppSizes.textLine) {
+    Box(modifier.fillMaxWidth(fraction).height(height).placeholder())
+}
+
+/**
+ * Cards still to come, while a list loads from the network: [count] cards, each a title and
+ * [lines] of text, with a picture's square when [thumbnail]. Screen readers hear that it loads.
+ */
+@Composable
+fun PlaceholderCards(count: Int = 3, modifier: Modifier = Modifier, lines: Int = 2, thumbnail: Boolean = false) {
+    val loading = tr("Loading...")
+    Column(modifier.fillMaxWidth().semantics(mergeDescendants = true) { contentDescription = loading }, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        repeat(count) { card ->
+            Row(Modifier.fillMaxWidth().cardSurface().padding(AppSpacing.l), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                if (thumbnail) Box(Modifier.size(AppSizes.tileXLarge).placeholder(AppShapes.compact))
+                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    // The lines end at different lengths, as text does.
+                    PlaceholderLine(TITLE_LENGTHS[card % TITLE_LENGTHS.size], height = AppSizes.titleLine)
+                    repeat(lines) { line -> PlaceholderLine(if (line == lines - 1) LAST_LINE else 1f) }
+                }
+            }
+        }
+    }
+}
+
+/** How wide the light crossing a placeholder is, as a part of its width. */
+private const val SHIMMER_BAND = 0.35f
+private val TITLE_LENGTHS = listOf(0.6f, 0.75f, 0.5f)
+private const val LAST_LINE = 0.7f

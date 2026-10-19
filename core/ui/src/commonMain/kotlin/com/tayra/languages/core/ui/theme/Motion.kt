@@ -29,6 +29,12 @@ object AppMotion {
     /** A screen or a card turning over. */
     const val long = 400
 
+    /** How long a placeholder's shimmer takes to cross it. */
+    const val shimmer = 1300
+
+    /** How long a quick load is given before a spinner shows, so a load that is done at once shows none. */
+    const val loadingDelay = 300
+
     /** Most changes: quick to start, gentle to settle. */
     val standard: Easing = CubicBezierEasing(0.2f, 0f, 0f, 1f)
 
