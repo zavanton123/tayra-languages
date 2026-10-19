@@ -200,20 +200,44 @@ outside the catalog found in the database is removed on start together with its 
 
 ## Design system
 
-Screens are built from `core/ui`: the theme (`TayraTheme`, colours per `AppTheme`), the corner
-radii of `AppShapes` (tiny 4dp, small 6dp, compact 8dp, control 10dp for buttons, fields, chips and
-rows, panel 12dp, card 14dp, large 18dp for dialogs and sheets, pill), which are also the theme's
-Material shapes, and the controls of `components/Controls.kt`: `PrimaryButton` (the page's main
-action), `SecondaryButton` (outlined), `QuietButton` (text), each with `tone = ButtonTone.Danger`
-for actions that delete, `size = ButtonSize.Compact` for dense places, and a short form with a
-label, an icon and a `loading` spinner; `AppTextField`, `AppDialog` and `AppFilterChip`. Larger
-pieces (`ContentCard`, `SettingRow`, `SwitchSetting`, `StatusPill`, `InfoBanner`, `ConfirmDialog`,
-pickers, menus) are built from them. `DesignSystemTest` fails when a screen imports Material's
-buttons, text fields, dialogs or filter chips, or writes a radius of its own
-(`RoundedCornerShape(10.dp)`; shapes with different corners are fine); Material components the
-app does not wrap (icon buttons, switches, sliders, menus) take the theme's shapes.
-`DesignSystemGalleryTest` draws every control in the light and dark themes; run it with
-`DESIGN_GALLERY=<folder>` to get the pictures.
+Screens are built from `core/ui`.
+
+- **Theme and tokens.** `TayraTheme` holds the colours per `AppTheme`. The corner radii of `AppShapes`
+  (tiny 4dp, small 6dp, compact 8dp, control 10dp for buttons, fields, chips and rows, panel 12dp,
+  card 14dp, large 18dp for dialogs and sheets, pill) are also the theme's Material shapes.
+  `theme/Tokens.kt` has the rest: `AppAccents` (the accents of tiles, charts, language codes and
+  covers, the same in every theme; also the cloze highlight, the ink on status tints and the Chinese
+  tone colours), `RatingColors` (a flashcard's answers), `AppBorders.hairline()` (the 1dp outline),
+  `AppSizes` (control height 44dp, icon sizes), `AppSpacing` (the components' spacing scale) and
+  `AppText` (overline and flashcard text styles).
+- **Controls** (`components/Controls.kt`): `PrimaryButton` (the page's main action),
+  `SecondaryButton` (outlined) and `QuietButton` (text). Each takes `tone = ButtonTone.Danger` for
+  actions that delete and `size = ButtonSize.Compact` for dense places, and has a short form with a
+  label, an icon and a `loading` spinner. Also `AppTextField`, `AppDialog` and `AppFilterChip`.
+- **Indicators** (`components/Indicators.kt`): `AppIconButton` (Small, Regular or Large; Plain,
+  Filled or Outlined), `AppProgressBar` for a task, `ProgressTrack` for how much is done, `AppSpinner`,
+  `AppDivider`, `AppVerticalDivider`, `AppCheckbox` and `AppSnackbar`.
+- **Overlays** (`components/Overlays.kt`): `AppBottomSheet` for phones and `AppDialogSurface` for
+  dialogs with content of their own.
+- **Patterns** (`components/Patterns.kt`): `Modifier.cardSurface()`, `AppCard`, `EmptyState` (empty
+  lists and notices), `SelectionBar`, `TableHeader` with `TableHeaderCell`, `SegmentedToggle` (view
+  switches and tabs; `fill` for phones), `SearchField` and `OverflowMenu` (a row's ⋮ actions).
+- **Larger pieces** are built from these: `ContentCard` (with `dense` for phones), `ScreenHeader`,
+  `IconTile`, `SettingRow`, `SwitchSetting`, `StatusPill`, `InfoBanner`, `ConfirmDialog`, pickers and
+  menus.
+
+`DesignSystemTest` fails in three cases:
+
+- a screen imports a Material control the design system wraps (buttons, text fields, dialogs,
+  filter chips, icon buttons, progress indicators, dividers, checkboxes, bottom sheets, snackbars,
+  `Dialog`);
+- a screen writes a colour literal (`Color(0x…)`) or a 1dp border of its own;
+- a screen writes a radius of its own (`RoundedCornerShape(10.dp)`). Shapes with different corners
+  are fine.
+
+Material components the app does not wrap (switches, sliders, menus) take the theme's shapes.
+Screens keep their own spacing on the 2dp grid. `DesignSystemGalleryTest` draws every component in
+the light and dark themes; run it with `DESIGN_GALLERY=<folder>` to get the pictures.
 
 ## Interface languages
 
