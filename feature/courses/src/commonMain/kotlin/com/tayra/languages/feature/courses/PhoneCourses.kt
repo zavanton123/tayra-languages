@@ -18,14 +18,11 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.windowInsetsPadding
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.FilledIconButton
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -47,7 +44,12 @@ import com.tayra.languages.core.domain.courses.Course
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseProgress
 import com.tayra.languages.core.domain.courses.LessonStatus
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.EmptyState
+import com.tayra.languages.core.ui.components.IconButtonSize
+import com.tayra.languages.core.ui.components.IconButtonStyle
+import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
@@ -56,12 +58,15 @@ import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.TagFilterSheet
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 
 /** The courses on a phone: the page's own header with the language and a new course, the filters as sheets, and the courses as cards by level. */
 @Composable
@@ -108,9 +113,7 @@ internal class PhoneCoursesActions(
 @Composable
 internal fun NewCourseAction(state: CoursesUiState, onNewCourse: () -> Unit) {
     if (state.languageName.isEmpty() || state.courses.isEmpty()) return
-    FilledIconButton(onClick = onNewCourse, shape = CircleShape, modifier = Modifier.size(44.dp).testTag("new-course")) {
-        Icon(Icons.Default.Add, contentDescription = tr("New course"))
-    }
+    AppIconButton(Icons.Default.Add, tr("New course"), onNewCourse, Modifier.testTag("new-course"), size = IconButtonSize.Large, style = IconButtonStyle.Filled)
 }
 
 /** Which sheet is open over the page. */
@@ -149,7 +152,7 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
             Text(state.sort.description, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
         if (shown.isEmpty()) {
-            Notice(tr("No courses match"), tr("Try another search, or clear the filters."))
+            EmptyState(AppIcons.MenuBook, tr("No courses match"), message = tr("Try another search, or clear the filters."))
             return@ScrollColumn
         }
         val cards: @Composable (List<CourseProgress>) -> Unit = { list ->
@@ -200,7 +203,7 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
 private fun DropdownButton(label: String, modifier: Modifier, icon: ImageVector? = null, active: Boolean = false, fill: Boolean = false, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(CONTROL_HEIGHT).clip(AppShapes.control).background(colors.surface)
+        modifier.height(AppSizes.control).clip(AppShapes.control).background(colors.surface)
             .border(if (active) 1.5.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, AppShapes.control)
             .clickable(onClick = onClick).padding(start = 12.dp, end = 4.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -227,13 +230,11 @@ private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, 
     val course = progress.course
     val shape = AppShapes.large
     Column(
-        Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = 0.05f)).border(1.dp, colors.primary.copy(alpha = 0.15f), shape).padding(18.dp),
+        Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = 0.05f)).border(AppBorders.hairline(colors.primary.copy(alpha = 0.15f)), shape).padding(18.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-            Box(Modifier.size(44.dp).clip(AppShapes.control).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
-                Icon(AppIcons.MenuBook, contentDescription = null, tint = colors.primary, modifier = Modifier.size(24.dp))
-            }
+            IconTile(AppIcons.MenuBook, size = 44)
             Text(tr("Continue learning"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, maxLines = 1)
         }
         Row(Modifier.fillMaxWidth().clip(AppShapes.control).clickable(onClick = onOpen), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -267,7 +268,7 @@ private fun PhoneCourseCard(progress: CourseProgress, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val course = progress.course
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large)
+        Modifier.fillMaxWidth().cardSurface(AppShapes.large)
             .clickable(onClick = onClick).padding(start = 18.dp, end = 10.dp, top = 18.dp, bottom = 18.dp).testTag("course-${course.id}"),
     ) {
         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(14.dp)) {

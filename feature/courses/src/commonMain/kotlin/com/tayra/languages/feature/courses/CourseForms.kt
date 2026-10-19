@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -32,6 +31,7 @@ import com.tayra.languages.core.domain.courses.CourseValidationException
 import com.tayra.languages.core.domain.courses.LessonDraft
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -371,7 +371,7 @@ private fun FormField(label: String, content: @Composable () -> Unit) {
 private fun FormActions(saveLabel: String, saving: Boolean, onCancel: () -> Unit, onSave: () -> Unit) {
     Surface(color = MaterialTheme.colorScheme.surface) {
         Column {
-            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+            AppDivider()
             Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
                 Row(
                     Modifier.widthIn(max = 1480.dp).fillMaxWidth().padding(horizontal = if (LocalWindowWidth.current.isCompact) 16.dp else 48.dp, vertical = 12.dp),
