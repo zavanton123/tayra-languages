@@ -220,7 +220,8 @@ private fun ProgressStrip(state: PracticeUiState) {
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl),
     ) {
         Text(tr("Question {0} of {1}", state.index + 1, state.exercises.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
-        ProgressTrack((state.index + 1f) / state.exercises.size, colors.primary, Modifier.weight(1f), height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
+        // Filled to the questions answered, the current one counting once it is answered.
+        ProgressTrack((state.index + if (state.answered) 1f else 0f) / state.exercises.size, colors.primary, Modifier.weight(1f), height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
         Text(tr("{0} right", state.correct), style = AppText.emphasis, color = AppAccents.green, softWrap = false)
     }
 }
