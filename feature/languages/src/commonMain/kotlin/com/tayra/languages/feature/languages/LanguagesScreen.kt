@@ -61,8 +61,10 @@ import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
 import com.tayra.languages.core.ui.components.LanguageMenuRow
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppText
 
 /** The language being learned, the native language meanings are shown in, and the language of the interface. */
@@ -170,7 +172,7 @@ private fun SavedNote(changes: Int) {
     }
     AnimatedVisibility(visible, enter = fadeIn(), exit = fadeOut()) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(24.dp))
+            Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(AppSizes.iconLarge))
             Spacer(Modifier.width(10.dp))
             Text(tr("Changes saved"), style = MaterialTheme.typography.bodyLarge, color = StatusTints.ok, fontWeight = FontWeight.Medium)
         }
@@ -189,11 +191,11 @@ private fun LanguageTile(
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.panel
     val background = if (highlighted) {
-        Modifier.background(Brush.verticalGradient(listOf(colors.primary.copy(alpha = 0.10f), colors.primary.copy(alpha = 0.03f))))
+        Modifier.background(Brush.verticalGradient(listOf(colors.primary.copy(alpha = AppAlpha.tint), colors.primary.copy(alpha = AppAlpha.faint))))
     } else {
         Modifier.background(colors.surface)
     }
-    Column(modifier.clip(shape).then(background).border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = 0.35f) else colors.outlineVariant), shape)) {
+    Column(modifier.clip(shape).then(background).border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = AppAlpha.disabled) else colors.outlineVariant), shape)) {
         if (highlighted) Box(Modifier.fillMaxWidth().height(4.dp).background(colors.primary))
         val inset = if (LocalWindowWidth.current.isCompact) 18.dp else 24.dp
         Column(Modifier.padding(start = inset, end = inset, top = inset + if (highlighted) 2.dp else 6.dp, bottom = inset)) {
@@ -229,7 +231,7 @@ private fun <T> FlagPicker(
     Box(modifier.fillMaxWidth()) {
         Row(
             Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surface)
-                .border(AppBorders.hairline(colors.outline.copy(alpha = 0.6f)), AppShapes.compact)
+                .border(AppBorders.hairline(colors.outline.copy(alpha = AppAlpha.muted)), AppShapes.compact)
                 .clickable(enabled = options.isNotEmpty()) { open = true }
                 .padding(horizontal = 18.dp, vertical = 14.dp),
             verticalAlignment = Alignment.CenterVertically,

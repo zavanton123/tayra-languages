@@ -30,6 +30,7 @@ import com.tayra.languages.core.domain.stats.StudyActivity
 import com.tayra.languages.core.ui.components.ActivityHeatmapCard
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -234,11 +235,11 @@ private fun ActionCard(
         }
         if (error != null) Text(error, style = MaterialTheme.typography.bodyMedium, color = colors.error)
         if (fill) Spacer(Modifier.weight(1f))
-        val buttonModifier = Modifier.fillMaxWidth().height(48.dp).testTag("action-$tag")
+        val buttonModifier = Modifier.fillMaxWidth().testTag("action-$tag")
         if (primary) {
-            PrimaryButton(onClick = onClick, modifier = buttonModifier) { Text(button, fontWeight = FontWeight.SemiBold) }
+            PrimaryButton(button, onClick = onClick, modifier = buttonModifier, size = ButtonSize.Large)
         } else {
-            SecondaryButton(onClick = onClick, modifier = buttonModifier) { Text(button, fontWeight = FontWeight.SemiBold) }
+            SecondaryButton(button, onClick = onClick, modifier = buttonModifier, size = ButtonSize.Large)
         }
     }
 }

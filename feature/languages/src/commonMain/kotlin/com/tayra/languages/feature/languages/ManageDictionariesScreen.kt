@@ -49,7 +49,9 @@ import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 
 /** Enables or disables the online dictionaries offered for one language. */
 @Composable
@@ -84,7 +86,7 @@ fun ManageDictionariesScreen(
                             AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, tr("Back"), onBack, style = IconButtonStyle.Outlined)
                             Spacer(Modifier.width(20.dp))
                         }
-                        Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(32.dp))
+                        Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
                         Spacer(Modifier.width(14.dp))
                         Column(Modifier.weight(1f)) {
                             // On a phone the bar carries the title.
@@ -125,12 +127,12 @@ private fun DictionaryRow(name: String, url: String, tint: Color?, icon: ImageVe
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Column(
             Modifier.weight(1f).clip(AppShapes.panel)
-                .background(if (tint != null) tint.copy(alpha = 0.1f) else colors.surfaceVariant.copy(alpha = 0.6f))
+                .background(if (tint != null) tint.copy(alpha = AppAlpha.tint) else colors.surfaceVariant.copy(alpha = AppAlpha.muted))
                 .padding(horizontal = 16.dp, vertical = 12.dp),
         ) {
             Text(name, style = MaterialTheme.typography.bodyLarge, color = tint ?: colors.onSurface, fontWeight = FontWeight.Medium)
             if (detail != null) Text(detail, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
-        AppIconButton(icon, iconDescription, onAction, Modifier.clip(AppShapes.large).background(colors.surfaceVariant), size = IconButtonSize.Large, tint = colors.onSurface)
+        AppIconButton(icon, iconDescription, onAction, size = IconButtonSize.Large, style = IconButtonStyle.Tonal, tint = colors.onSurface, shape = AppShapes.large)
     }
 }

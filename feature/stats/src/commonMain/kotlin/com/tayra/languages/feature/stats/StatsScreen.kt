@@ -15,9 +15,7 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -61,6 +59,7 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.TableHeader
 import com.tayra.languages.core.ui.components.TableHeaderCell
 import com.tayra.languages.core.ui.components.cardSurface
@@ -71,6 +70,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -235,7 +235,7 @@ private fun SavedPerWeekCard(o: LanguageOverview, modifier: Modifier) {
 private fun BarChart(values: List<Int>, color: Color, from: String, to: String, modifier: Modifier = Modifier) {
     val max = values.maxOrNull() ?: 0
     val muted = MaterialTheme.colorScheme.onSurfaceVariant
-    val track = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.05f)
+    val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
     Column(modifier, verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Text(if (max > 0) tr("Most: {0}", formatCount(max)) else tr("Nothing yet"), style = MaterialTheme.typography.bodySmall, color = muted)
         Canvas(Modifier.fillMaxWidth().height(140.dp)) {
@@ -273,7 +273,7 @@ private fun VocabularyCard(o: LanguageOverview, modifier: Modifier) {
     val counts = vocabularyOrder.associateWith { o.termsByStatus[it] ?: 0 }
     val total = counts.values.sum()
     ContentCard(tr("Vocabulary by status"), trPlural(total, "{1} word saved", "{1} words saved", formatCount(total)), icon = AppIcons.Tune, modifier = modifier) {
-        val track = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.06f)
+        val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
         Row(Modifier.fillMaxWidth().height(14.dp).clip(AppShapes.pill).background(track).testTag("status-bar")) {
             if (total > 0) {
                 vocabularyOrder.forEach { status ->
@@ -285,7 +285,7 @@ private fun VocabularyCard(o: LanguageOverview, modifier: Modifier) {
         Spacer(Modifier.height(16.dp))
         vocabularyOrder.forEach { status ->
             Row(Modifier.fillMaxWidth().padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.size(12.dp).clip(CircleShape).background(tint(status)))
+                StatusDot(tint(status))
                 Spacer(Modifier.width(10.dp))
                 Text(tr(status.label), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
                 Text(formatCount(counts.getValue(status)), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
@@ -337,7 +337,7 @@ private fun LanguagesCard(summary: ReadingStatsSummary) {
         FlowRow(horizontalArrangement = Arrangement.spacedBy(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             summary.chart.keys.forEachIndexed { i, language ->
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Box(Modifier.size(10.dp).clip(CircleShape).background(seriesColors[i % seriesColors.size]))
+                    StatusDot(seriesColors[i % seriesColors.size])
                     Spacer(Modifier.width(6.dp))
                     Text(tr(language), style = MaterialTheme.typography.bodySmall)
                 }

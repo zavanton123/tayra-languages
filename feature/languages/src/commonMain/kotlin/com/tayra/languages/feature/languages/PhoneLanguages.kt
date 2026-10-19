@@ -42,6 +42,7 @@ import com.tayra.languages.core.ui.components.LearningLanguageState
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppText
@@ -113,8 +114,8 @@ private fun PhoneLanguageCard(label: String, title: String, description: String,
     val shape = AppShapes.card
     Column(
         Modifier.fillMaxWidth().clip(shape)
-            .background(if (highlighted) colors.primary.copy(alpha = 0.07f) else colors.surface)
-            .border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant), shape)
+            .background(if (highlighted) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
+            .border(AppBorders.hairline(if (highlighted) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
             .padding(16.dp),
     ) {
         Text(label.uppercase(), style = AppText.overline.copy(color = if (highlighted) colors.primary else colors.onSurfaceVariant))
@@ -132,7 +133,7 @@ private fun PhoneLanguageCard(label: String, title: String, description: String,
 private fun PhoneLanguageRow(flagName: String?, tag: String, label: String? = flagName?.let(::tr), onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.surface).border(AppBorders.hairline(colors.outline.copy(alpha = 0.5f)), AppShapes.control)
+        Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.surface).border(AppBorders.hairline(colors.outline.copy(alpha = AppAlpha.half)), AppShapes.control)
             .clickable(onClick = onClick).padding(horizontal = 14.dp, vertical = 12.dp).testTag(tag),
         verticalAlignment = Alignment.CenterVertically,
     ) {
