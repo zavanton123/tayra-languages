@@ -23,7 +23,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.CheckCircle
@@ -62,6 +61,7 @@ import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
 import com.tayra.languages.core.ui.components.LanguageMenuRow
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /** The language being learned, the native language meanings are shown in, and the language of the interface. */
 @Composable
@@ -90,8 +90,8 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 if (!compact) SavedNote(changes)
             }
             Column(
-                Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
-                    .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+                Modifier.fillMaxWidth().clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
+                    .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card)
                     .padding(if (compact) 16.dp else 24.dp),
             ) {
                 Text(tr("Language setup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
@@ -186,7 +186,7 @@ private fun LanguageTile(
     content: @Composable ColumnScope.() -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
-    val shape = RoundedCornerShape(12.dp)
+    val shape = AppShapes.panel
     val background = if (highlighted) {
         Modifier.background(Brush.verticalGradient(listOf(colors.primary.copy(alpha = 0.10f), colors.primary.copy(alpha = 0.03f))))
     } else {
@@ -233,8 +233,8 @@ private fun <T> FlagPicker(
     var open by remember { mutableStateOf(false) }
     Box(modifier.fillMaxWidth()) {
         Row(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp)).background(colors.surface)
-                .border(1.dp, colors.outline.copy(alpha = 0.6f), RoundedCornerShape(8.dp))
+            Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surface)
+                .border(1.dp, colors.outline.copy(alpha = 0.6f), AppShapes.compact)
                 .clickable(enabled = options.isNotEmpty()) { open = true }
                 .padding(horizontal = 18.dp, vertical = 14.dp),
             verticalAlignment = Alignment.CenterVertically,

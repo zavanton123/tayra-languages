@@ -13,13 +13,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -33,8 +30,11 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppShapes
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
@@ -99,7 +99,7 @@ private fun PageHeader(
         // On a phone the bar has the way back and the title; the buttons stay.
         if (!compact) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Box(Modifier.size(28.dp).clip(RoundedCornerShape(6.dp)).clickable(onClick = onBack), contentAlignment = Alignment.Center) {
+                Box(Modifier.size(28.dp).clip(AppShapes.small).clickable(onClick = onBack), contentAlignment = Alignment.Center) {
                     Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
                 }
                 Text(tr("Vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable(onClick = onTerms))
@@ -110,9 +110,9 @@ private fun PageHeader(
         Row(verticalAlignment = Alignment.CenterVertically) {
             if (compact) Spacer(Modifier.weight(1f))
             else Text(title, Modifier.weight(1f), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-            OutlinedButton(onClick = onBack, shape = RoundedCornerShape(10.dp)) { Text(tr("Cancel")) }
+            SecondaryButton(tr("Cancel"), onClick = onBack)
             Spacer(Modifier.width(12.dp))
-            Button(onClick = onSave, enabled = canSave && !saving, shape = RoundedCornerShape(10.dp)) { Text(if (saving) tr("Saving...") else tr("Save changes")) }
+            PrimaryButton(if (saving) tr("Saving...") else tr("Save changes"), onClick = onSave, enabled = canSave && !saving)
         }
     }
 }

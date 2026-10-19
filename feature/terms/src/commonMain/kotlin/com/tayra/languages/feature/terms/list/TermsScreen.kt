@@ -36,7 +36,6 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.HorizontalDivider
@@ -45,11 +44,9 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
@@ -85,8 +82,12 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.files.saveBinaryFile
 import kotlinx.coroutines.launch
@@ -164,7 +165,7 @@ fun TermsScreen(
             )
         },
         snackbarHost = {
-            state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text(tr("OK")) } }) { Text(it) } }
+            state.message?.let { Snackbar(action = { QuietButton(tr("OK"), onClick = viewModel::dismissMessage) }) { Text(it) } }
         },
     ) { padding ->
         val gutter = if (compact) 16.dp else 32.dp
@@ -253,24 +254,12 @@ private fun PageHeader(compact: Boolean, exporting: String?, onExport: () -> Uni
             Text(tr("Vocabulary"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             Text(tr("Review and manage your vocabulary."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
-        OutlinedButton(onClick = onExport, enabled = exporting == null, shape = RoundedCornerShape(10.dp)) {
-            Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(6.dp))
-            Text(if (exporting == null) tr("Export to Anki") else tr("Exporting {0}", exporting))
-        }
+        SecondaryButton(if (exporting == null) tr("Export to Anki") else tr("Exporting {0}", exporting), onClick = onExport, icon = AppIcons.Download, enabled = exporting == null)
         if (onSend != null) {
             // Straight into the Anki that is open, through AnkiConnect, rather than a file to import.
-            OutlinedButton(onClick = onSend, enabled = exporting == null, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("send-to-anki")) {
-                Icon(AppIcons.UploadFile, contentDescription = null, modifier = Modifier.size(18.dp))
-                Spacer(Modifier.width(6.dp))
-                Text(tr("Send to Anki"))
-            }
+            SecondaryButton(tr("Send to Anki"), onClick = onSend, modifier = Modifier.testTag("send-to-anki"), icon = AppIcons.UploadFile, enabled = exporting == null)
         }
-        Button(onClick = onNew, shape = RoundedCornerShape(10.dp)) {
-            Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(6.dp))
-            Text(tr("Add term"))
-        }
+        PrimaryButton(tr("Add term"), onClick = onNew, icon = Icons.Default.Add)
     }
 }
 
@@ -292,12 +281,12 @@ private fun StatCards(state: TermsListUiState, compact: Boolean) {
     ) {
         cards.forEach { card ->
             Row(
-                Modifier.weight(1f).clip(RoundedCornerShape(14.dp)).background(card.tint.copy(alpha = 0.05f))
-                    .border(1.dp, card.tint.copy(alpha = 0.16f), RoundedCornerShape(14.dp))
+                Modifier.weight(1f).clip(AppShapes.card).background(card.tint.copy(alpha = 0.05f))
+                    .border(1.dp, card.tint.copy(alpha = 0.16f), AppShapes.card)
                     .padding(horizontal = 16.dp, vertical = 18.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                Box(Modifier.size(48.dp).clip(RoundedCornerShape(24.dp)).background(card.tint.copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
+                Box(Modifier.size(48.dp).clip(AppShapes.large).background(card.tint.copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
                     Icon(card.icon, contentDescription = null, tint = card.tint, modifier = Modifier.size(24.dp))
                 }
                 Spacer(Modifier.width(14.dp))
@@ -342,9 +331,9 @@ internal fun FiltersButton(open: Boolean, count: Int, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val highlighted = open || count > 0
     Row(
-        Modifier.height(44.dp).clip(RoundedCornerShape(10.dp))
+        Modifier.height(44.dp).clip(AppShapes.control)
             .background(if (highlighted) colors.primary.copy(alpha = 0.08f) else Color.Transparent)
-            .border(1.dp, if (highlighted) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant, RoundedCornerShape(10.dp))
+            .border(1.dp, if (highlighted) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant, AppShapes.control)
             .clickable(onClick = onClick).padding(horizontal = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
@@ -367,7 +356,7 @@ internal fun FiltersButton(open: Boolean, count: Int, onClick: () -> Unit) {
 internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(44.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 12.dp),
+        modifier.height(44.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).padding(horizontal = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
@@ -393,10 +382,8 @@ internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modi
 private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, optionLabel: (T) -> String, onSelect: (T) -> Unit) {
     var open by remember { mutableStateOf(false) }
     Box {
-        OutlinedButton(
+        SecondaryButton(
             onClick = { open = true },
-            shape = RoundedCornerShape(10.dp),
-            contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
             colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface),
         ) {
             Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(18.dp))
@@ -428,12 +415,12 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
     Column(
-        Modifier.fillMaxWidth().padding(bottom = 14.dp).clip(RoundedCornerShape(14.dp)).background(colors.surface)
-            .border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(horizontal = 20.dp, vertical = 16.dp),
+        Modifier.fillMaxWidth().padding(bottom = 14.dp).clip(AppShapes.card).background(colors.surface)
+            .border(1.dp, colors.outlineVariant, AppShapes.card).padding(horizontal = 20.dp, vertical = 16.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(tr("Filter vocabulary"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-            TextButton(onClick = viewModel::resetFilters) { Text(tr("Reset all")) }
+            QuietButton(tr("Reset all"), onClick = viewModel::resetFilters)
         }
         Text(tr("Learning status"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp, bottom = 10.dp))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -467,9 +454,9 @@ private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () 
     val tint = statusTint(status)
     val strong = tint.darken(0.7f)
     Row(
-        Modifier.testTag("status-filter-${status.abbreviation}").height(44.dp).clip(RoundedCornerShape(10.dp))
+        Modifier.testTag("status-filter-${status.abbreviation}").height(44.dp).clip(AppShapes.control)
             .background(tint.copy(alpha = if (selected) 0.45f else 0.2f))
-            .border(if (selected) 1.5.dp else 1.dp, if (selected) strong else tint, RoundedCornerShape(10.dp))
+            .border(if (selected) 1.5.dp else 1.dp, if (selected) strong else tint, AppShapes.control)
             .clickable(onClickLabel = if (selected) tr("Stop showing {0}", tr(status.label)) else tr("Show {0}", tr(status.label)), onClick = onClick)
             .padding(horizontal = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -492,7 +479,7 @@ private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () 
 internal fun StatusBadge(status: TermStatus) {
     Text(
         status.abbreviation,
-        Modifier.clip(RoundedCornerShape(6.dp)).background(statusTint(status).copy(alpha = 0.85f)).padding(horizontal = 8.dp, vertical = 2.dp),
+        Modifier.clip(AppShapes.small).background(statusTint(status).copy(alpha = 0.85f)).padding(horizontal = 8.dp, vertical = 2.dp),
         style = MaterialTheme.typography.labelMedium,
         fontWeight = FontWeight.SemiBold,
         color = Color(0xFF1B1F24),
@@ -504,7 +491,7 @@ internal fun StatusBadge(status: TermStatus) {
 private fun DaysField(value: Int?, description: String, onChange: (Int?) -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.width(140.dp).height(44.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+        Modifier.width(140.dp).height(44.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control)
             .padding(start = 14.dp, end = 4.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -527,13 +514,13 @@ private fun DaysField(value: Int?, description: String, onChange: (Int?) -> Unit
                 Icons.Default.KeyboardArrowUp,
                 contentDescription = tr("More days"),
                 tint = colors.onSurfaceVariant,
-                modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(RoundedCornerShape(4.dp)).clickable { onChange((value ?: -1) + 1) },
+                modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(AppShapes.tiny).clickable { onChange((value ?: -1) + 1) },
             )
             Icon(
                 Icons.Default.KeyboardArrowDown,
                 contentDescription = tr("Fewer days"),
                 tint = colors.onSurfaceVariant,
-                modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(RoundedCornerShape(4.dp))
+                modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(AppShapes.tiny)
                     .clickable(enabled = value != null) { onChange(value?.let { if (it > 0) it - 1 else null }) },
             )
         }
@@ -571,14 +558,14 @@ internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewMode
                 Text(label, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
             }
         }
-        TextButton(onClick = viewModel::clearFilters) { Text(tr("Clear all")) }
+        QuietButton(tr("Clear all"), onClick = viewModel::clearFilters)
     }
 }
 
 @Composable
 private fun RemovableChip(background: Color, border: Color, removeLabel: String, onRemove: () -> Unit, content: @Composable RowScope.() -> Unit) {
     Row(
-        Modifier.height(34.dp).clip(RoundedCornerShape(8.dp)).background(background).border(1.dp, border, RoundedCornerShape(8.dp)).padding(start = 12.dp, end = 4.dp),
+        Modifier.height(34.dp).clip(AppShapes.compact).background(background).border(1.dp, border, AppShapes.compact).padding(start = 12.dp, end = 4.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(8.dp),
     ) {
@@ -625,7 +612,7 @@ private fun TableHeader(state: TermsListUiState, viewModel: TermsListViewModel, 
 private fun HeaderCell(label: String, modifier: Modifier, icon: ImageVector? = null, active: Boolean = false, onClick: (() -> Unit)? = null) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.then(if (onClick != null) Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onClick) else Modifier).padding(vertical = 6.dp),
+        modifier.then(if (onClick != null) Modifier.clip(AppShapes.small).clickable(onClick = onClick) else Modifier).padding(vertical = 6.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(4.dp),
     ) {
@@ -702,7 +689,7 @@ private fun StatusChip(status: TermStatus, onSelect: (TermStatus) -> Unit) {
     Box {
         Text(
             status.abbreviation,
-            Modifier.clip(RoundedCornerShape(6.dp)).background(background).border(1.dp, background.darken(), RoundedCornerShape(6.dp))
+            Modifier.clip(AppShapes.small).background(background).border(1.dp, background.darken(), AppShapes.small)
                 .clickable { open = true }.padding(horizontal = 10.dp, vertical = 4.dp),
             color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color(0xFF1B1F24),
             style = MaterialTheme.typography.labelLarge,
@@ -733,7 +720,7 @@ internal fun RowMenu(term: Term, actions: RowActions) {
 @Composable
 internal fun EmptyState() {
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(32.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.card).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
@@ -750,10 +737,8 @@ internal fun Pager(state: TermsListUiState, viewModel: TermsListViewModel, compa
     Row(Modifier.fillMaxWidth().padding(top = 20.dp), verticalAlignment = Alignment.CenterVertically) {
         var open by remember { mutableStateOf(false) }
         Box {
-            OutlinedButton(
+            SecondaryButton(
                 onClick = { open = true },
-                shape = RoundedCornerShape(10.dp),
-                contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
                 colors = ButtonDefaults.outlinedButtonColors(contentColor = colors.onSurface),
             ) {
                 Text(tr("{0} per page", state.pageSize), style = MaterialTheme.typography.bodyMedium)
@@ -778,7 +763,7 @@ internal fun Pager(state: TermsListUiState, viewModel: TermsListViewModel, compa
 private fun PagerButton(icon: ImageVector, description: String, enabled: Boolean, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Box(
-        Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(enabled = enabled, onClick = onClick).padding(8.dp),
+        Modifier.clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).clickable(enabled = enabled, onClick = onClick).padding(8.dp),
     ) {
         Icon(icon, contentDescription = description, tint = if (enabled) colors.primary else colors.outlineVariant, modifier = Modifier.size(20.dp))
     }

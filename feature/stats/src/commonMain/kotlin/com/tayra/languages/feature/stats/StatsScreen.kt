@@ -18,7 +18,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -68,6 +67,7 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.TayraTheme
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.SharingStarted
@@ -176,7 +176,7 @@ private fun OverviewTiles(o: LanguageOverview) {
         maxItemsInEachRow = if (compact) 2 else 3,
     ) {
         tiles.forEach { tile ->
-            val shape = RoundedCornerShape(14.dp)
+            val shape = AppShapes.card
             Row(
                 Modifier.weight(1f).clip(shape).background(MaterialTheme.colorScheme.surface)
                     .border(1.dp, MaterialTheme.colorScheme.outlineVariant, shape).padding(if (compact) 14.dp else 20.dp).testTag("tile-${tile.tag}"),
@@ -281,7 +281,7 @@ private fun VocabularyCard(o: LanguageOverview, modifier: Modifier) {
     val total = counts.values.sum()
     ContentCard(tr("Vocabulary by status"), trPlural(total, "{1} word saved", "{1} words saved", formatCount(total)), icon = AppIcons.Tune, modifier = modifier) {
         val track = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.06f)
-        Row(Modifier.fillMaxWidth().height(14.dp).clip(RoundedCornerShape(7.dp)).background(track).testTag("status-bar")) {
+        Row(Modifier.fillMaxWidth().height(14.dp).clip(AppShapes.pill).background(track).testTag("status-bar")) {
             if (total > 0) {
                 vocabularyOrder.forEach { status ->
                     val n = counts.getValue(status)

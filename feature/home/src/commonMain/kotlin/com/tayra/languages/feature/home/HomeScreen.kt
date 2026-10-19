@@ -14,11 +14,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -44,7 +41,9 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.shortDate
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.formatCount
@@ -53,6 +52,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.minus
 import org.koin.compose.viewmodel.koinViewModel
@@ -135,7 +135,7 @@ private fun StreakTile(activity: StudyActivity, modifier: Modifier) {
 @Composable
 private fun Tile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, tag: String, modifier: Modifier) {
     val compact = LocalWindowWidth.current.isCompact
-    val shape = RoundedCornerShape(14.dp)
+    val shape = AppShapes.card
     Row(
         modifier.clip(shape).background(MaterialTheme.colorScheme.surface)
             .border(1.dp, MaterialTheme.colorScheme.outlineVariant, shape).padding(if (compact) 14.dp else 20.dp).testTag("tile-$tag"),
@@ -232,7 +232,7 @@ private fun ActionCard(
     error: String? = null,
 ) {
     val colors = MaterialTheme.colorScheme
-    val shape = RoundedCornerShape(16.dp)
+    val shape = AppShapes.large
     Column(
         modifier.fillMaxWidth().clip(shape).background(colors.surface).border(1.dp, colors.outlineVariant, shape).padding(20.dp).testTag("card-$tag"),
         verticalArrangement = Arrangement.spacedBy(14.dp),
@@ -247,8 +247,8 @@ private fun ActionCard(
         Text(detail, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
         if (progress != null) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(4.dp)).background(colors.onSurface.copy(alpha = 0.08f))) {
-                    Box(Modifier.fillMaxWidth(progress.coerceIn(0f, 1f)).fillMaxHeight().clip(RoundedCornerShape(4.dp)).background(tint))
+                Box(Modifier.weight(1f).height(8.dp).clip(AppShapes.tiny).background(colors.onSurface.copy(alpha = 0.08f))) {
+                    Box(Modifier.fillMaxWidth(progress.coerceIn(0f, 1f)).fillMaxHeight().clip(AppShapes.tiny).background(tint))
                 }
                 if (progressText != null) Text(progressText, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             }
@@ -256,11 +256,10 @@ private fun ActionCard(
         if (error != null) Text(error, style = MaterialTheme.typography.bodyMedium, color = colors.error)
         if (fill) Spacer(Modifier.weight(1f))
         val buttonModifier = Modifier.fillMaxWidth().height(48.dp).testTag("action-$tag")
-        val buttonShape = RoundedCornerShape(12.dp)
         if (primary) {
-            Button(onClick = onClick, shape = buttonShape, modifier = buttonModifier) { Text(button, fontWeight = FontWeight.SemiBold) }
+            PrimaryButton(onClick = onClick, modifier = buttonModifier) { Text(button, fontWeight = FontWeight.SemiBold) }
         } else {
-            OutlinedButton(onClick = onClick, shape = buttonShape, modifier = buttonModifier) { Text(button, fontWeight = FontWeight.SemiBold) }
+            SecondaryButton(onClick = onClick, modifier = buttonModifier) { Text(button, fontWeight = FontWeight.SemiBold) }
         }
     }
 }

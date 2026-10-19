@@ -29,7 +29,6 @@ import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Icon
@@ -38,10 +37,8 @@ import androidx.compose.material3.PlainTooltip
 import androidx.compose.material3.TooltipBox
 import androidx.compose.material3.rememberTooltipState
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.staticCompositionLocalOf
@@ -113,9 +110,12 @@ import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.formatDate
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
@@ -130,6 +130,7 @@ import com.tayra.languages.core.ui.audio.AudioPlayback
 import com.tayra.languages.core.ui.audio.RecordingButton
 import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.domain.service.WordRecording
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.TayraTheme
 import io.ktor.http.encodeURLParameter
 import com.tayra.languages.core.ui.components.ScrollColumn
@@ -202,7 +203,7 @@ private fun TermFormContent(
         state.duplicateOf?.let { duplicate ->
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(tr("Term \"{0}\" already exists.", duplicate.displayText), color = MaterialTheme.colorScheme.error)
-                if (onDuplicateClick != null) TextButton(onClick = { onDuplicateClick(duplicate.id) }) { Text(tr("Open")) }
+                if (onDuplicateClick != null) QuietButton(tr("Open"), onClick = { onDuplicateClick(duplicate.id) })
             }
         } ?: ErrorMessage(state.error)
 
@@ -324,14 +325,13 @@ private fun LanguageSelector(state: TermFormUiState, viewModel: TermFormViewMode
 @Composable
 private fun TermField(state: TermFormUiState, viewModel: TermFormViewModel, direction: TextDirection, focusRequester: FocusRequester) {
     val language = state.language
-    OutlinedTextField(
+    AppTextField(
         value = state.draft.text,
         onValueChange = { text -> viewModel.update { it.copy(text = text) } },
         label = { Text(tr("Term")) },
         singleLine = true,
         trailingIcon = { TermSpeakButton(state, language?.let { LanguageCodes.codeFor(it.name) }) },
         textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
-        shape = RoundedCornerShape(10.dp),
         colors = fieldColors(),
         modifier = Modifier.fillMaxWidth().focusRequester(focusRequester).reportsTyping(),
     )
@@ -364,7 +364,7 @@ internal fun RecordingsSection(recordings: List<WordRecording>, term: String) {
                     "${recording.speaker} \u00b7 ${recording.source}",
                     style = MaterialTheme.typography.bodyMedium,
                     color = colors.onSurfaceVariant,
-                    modifier = Modifier.clip(RoundedCornerShape(6.dp)).clickable(enabled = recording.pageUrl.isNotEmpty()) { uriHandler.openUri(recording.pageUrl) }.padding(horizontal = 4.dp, vertical = 2.dp),
+                    modifier = Modifier.clip(AppShapes.small).clickable(enabled = recording.pageUrl.isNotEmpty()) { uriHandler.openUri(recording.pageUrl) }.padding(horizontal = 4.dp, vertical = 2.dp),
                 )
             }
         }
@@ -377,19 +377,18 @@ internal val LocalRecordingPlayback = staticCompositionLocalOf<AudioPlayback> { 
 @Composable
 private fun RomanizationField(state: TermFormUiState, viewModel: TermFormViewModel) {
     if (state.language?.showRomanization != true) return
-    OutlinedTextField(
+    AppTextField(
         value = state.draft.romanization,
         onValueChange = { v -> viewModel.update { it.copy(romanization = v) } },
         label = { Text(tr("Pronunciation")) },
         singleLine = true,
-        shape = RoundedCornerShape(10.dp),
         modifier = Modifier.fillMaxWidth().reportsTyping(),
     )
 }
 
 @Composable
 private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewModel, hint: String? = null, compact: Boolean = false) {
-    OutlinedTextField(
+    AppTextField(
         value = state.draft.translation,
         onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
         // The lookup is announced in the label, which is there anyway: a line under the field that comes and goes
@@ -397,7 +396,6 @@ private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewMode
         label = { Text(if (state.lookingUpTranslation) tr("Looking up translation...") else tr("Translation")) },
         supportingText = hint?.let { { Text(it) } },
         minLines = if (compact) 1 else 3,
-        shape = RoundedCornerShape(10.dp),
         colors = fieldColors(),
         modifier = Modifier.fillMaxWidth().reportsTyping(),
     )
@@ -428,7 +426,7 @@ private fun ParentField(state: TermFormUiState, viewModel: TermFormViewModel) {
     var open by remember { mutableStateOf(false) }
     val value = state.draft.parents.joinToString(", ")
     Box(Modifier.fillMaxWidth()) {
-        OutlinedTextField(
+        AppTextField(
             value = value,
             onValueChange = { v ->
                 viewModel.setParents(v.split(',').map { it.trim() }.filter { it.isNotBlank() })
@@ -438,7 +436,6 @@ private fun ParentField(state: TermFormUiState, viewModel: TermFormViewModel) {
             label = { Text(tr("Parent term (optional)")) },
             placeholder = { Text(tr("None")) },
             singleLine = true,
-            shape = RoundedCornerShape(10.dp),
             modifier = Modifier.fillMaxWidth().reportsTyping(),
         )
         AppMenu(expanded = open && state.parentSuggestions.isNotEmpty(), onDismissRequest = { open = false }) {
@@ -546,8 +543,8 @@ private fun FlashcardCard(modifier: Modifier, state: TermFormUiState, viewModel:
 @Composable
 private fun DeleteCard(modifier: Modifier, onClick: () -> Unit) {
     Row(
-        modifier.clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+        modifier.clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card)
             .clickable(onClick = onClick).padding(horizontal = 24.dp, vertical = 20.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(14.dp),
@@ -566,8 +563,8 @@ private fun FormCard(
     content: @Composable () -> Unit,
 ) {
     Column(
-        modifier.clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(20.dp),
+        modifier.clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -604,9 +601,9 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expande
             Box(
                 Modifier
                     .then(if (expanded) Modifier.weight(1f).height(48.dp) else if (large) Modifier.weight(1f).height(52.dp) else Modifier)
-                    .clip(RoundedCornerShape(if (expanded || large) 8.dp else 4.dp))
+                    .clip(if (expanded || large) AppShapes.compact else AppShapes.tiny)
                     .background(background)
-                    .border(if (isSelected) 2.dp else 0.dp, if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, RoundedCornerShape(if (expanded || large) 8.dp else 4.dp))
+                    .border(if (isSelected) 2.dp else 0.dp, if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, if (expanded || large) AppShapes.compact else AppShapes.tiny)
                     .clickable { onSelect(status) }
                     .semantics { this.selected = isSelected }
                     .then(if (expanded || large) Modifier else Modifier.padding(horizontal = 12.dp, vertical = 8.dp)),
@@ -636,7 +633,7 @@ private fun PanelHeader(language: Language?, nativeLanguage: String, onClose: ((
         }
         if (onClose != null) {
             Box(
-                Modifier.size(40.dp).clip(RoundedCornerShape(20.dp)).background(colors.surfaceVariant).clickable(onClick = onClose),
+                Modifier.size(40.dp).clip(AppShapes.large).background(colors.surfaceVariant).clickable(onClick = onClose),
                 contentAlignment = Alignment.Center,
             ) { Icon(Icons.Default.Close, contentDescription = tr("Close"), modifier = Modifier.size(20.dp)) }
         }
@@ -664,12 +661,12 @@ private fun SectionCard(
     }
     val border = if (tint != null) tint.copy(alpha = 0.15f) else colors.outlineVariant
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(background).border(1.dp, border, RoundedCornerShape(14.dp)).padding(sectionPadding()),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(background).border(1.dp, border, AppShapes.card).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (LocalPageSections.current) 14.dp else 10.dp)) {
             if (LocalPageSections.current) {
-                Box(Modifier.size(44.dp).clip(RoundedCornerShape(12.dp)).background(colors.primary.copy(alpha = 0.09f)), contentAlignment = Alignment.Center) { icon() }
+                Box(Modifier.size(44.dp).clip(AppShapes.panel).background(colors.primary.copy(alpha = 0.09f)), contentAlignment = Alignment.Center) { icon() }
             } else {
                 icon()
             }
@@ -724,7 +721,7 @@ private fun CountBadge(count: Int) {
     val colors = MaterialTheme.colorScheme
     Text(
         count.toString(),
-        Modifier.clip(RoundedCornerShape(8.dp)).background(colors.primary.copy(alpha = 0.1f)).padding(horizontal = 8.dp, vertical = 2.dp),
+        Modifier.clip(AppShapes.compact).background(colors.primary.copy(alpha = 0.1f)).padding(horizontal = 8.dp, vertical = 2.dp),
         style = MaterialTheme.typography.labelMedium,
         color = colors.primary,
     )
@@ -734,7 +731,7 @@ private fun CountBadge(count: Int) {
 private fun LinkChip(label: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(onClick = onClick)
+        Modifier.clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).clickable(onClick = onClick)
             .padding(horizontal = 12.dp, vertical = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -749,7 +746,7 @@ private fun LinkChip(label: String, onClick: () -> Unit) {
 private fun OutlineActionButton(label: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().padding(top = 4.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.primary.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
+        Modifier.fillMaxWidth().padding(top = 4.dp).clip(AppShapes.control).border(1.dp, colors.primary.copy(alpha = 0.5f), AppShapes.control)
             .clickable(onClick = onClick).padding(horizontal = 16.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -776,13 +773,13 @@ private fun RoundIconButton(
 ) {
     val colors = MaterialTheme.colorScheme
     Box(
-        Modifier.size(36.dp).clip(RoundedCornerShape(18.dp)).background(colors.primary.copy(alpha = if (active) 0.18f else 0.1f))
+        Modifier.size(36.dp).clip(AppShapes.large).background(colors.primary.copy(alpha = if (active) 0.18f else 0.1f))
             .clickable(onClick = onClick).semantics { contentDescription = description },
         contentAlignment = Alignment.Center,
     ) {
         when {
             loading -> CircularProgressIndicator(Modifier.size(18.dp), color = colors.primary, strokeWidth = 2.dp)
-            active -> Box(Modifier.size(12.dp).background(colors.primary, RoundedCornerShape(2.dp)))
+            active -> Box(Modifier.size(12.dp).background(colors.primary, AppShapes.tiny))
             else -> Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
         }
     }
@@ -794,8 +791,8 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val state = status.state
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.05f))
-            .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(sectionPadding()),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.05f))
+            .border(1.dp, colors.primary.copy(alpha = 0.15f), AppShapes.card).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         SectionTitle(AppIcons.Book, tr("Dictionary"))
@@ -813,11 +810,7 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
             if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth())
             else LinearProgressIndicator(Modifier.fillMaxWidth())
         } else {
-            Button(onClick = onDownload, shape = RoundedCornerShape(10.dp)) {
-                Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
-                Spacer(Modifier.size(8.dp))
-                Text(if (state is PackState.Failed) tr("Try again") else tr("Download dictionary"))
-            }
+            PrimaryButton(if (state is PackState.Failed) tr("Try again") else tr("Download dictionary"), onClick = onDownload, icon = AppIcons.Download)
         }
     }
 }
@@ -869,7 +862,7 @@ private fun KanjiReadings(label: String, readings: List<String>) {
 /** A filled square with 字 ("character"), the mark of the kanji section. */
 @Composable
 private fun KanjiBadge() {
-    Box(Modifier.size(22.dp).clip(RoundedCornerShape(5.dp)).background(MaterialTheme.colorScheme.primary), contentAlignment = Alignment.Center) {
+    Box(Modifier.size(22.dp).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.primary), contentAlignment = Alignment.Center) {
         Text("\u5b57", color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.Bold)
     }
 }
@@ -882,7 +875,7 @@ internal fun FrequencyLabels(frequencies: List<WordFrequency>) {
     FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(4.dp), modifier = Modifier.padding(start = 2.dp, top = 2.dp)) {
         frequencies.forEach { frequency ->
             Row(
-                Modifier.clip(RoundedCornerShape(6.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(6.dp)).testTag("frequency-${frequency.dictionary}"),
+                Modifier.clip(AppShapes.small).border(1.dp, colors.outlineVariant, AppShapes.small).testTag("frequency-${frequency.dictionary}"),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Text(frequency.dictionary, style = MaterialTheme.typography.labelSmall, color = colors.onSecondaryContainer, modifier = Modifier.background(colors.secondaryContainer).padding(horizontal = 6.dp, vertical = 2.dp))
@@ -900,7 +893,7 @@ private fun CommonBadge() {
         tr("common"),
         style = MaterialTheme.typography.labelSmall,
         color = colors.onTertiaryContainer,
-        modifier = Modifier.clip(RoundedCornerShape(6.dp)).background(colors.tertiaryContainer).padding(horizontal = 6.dp, vertical = 2.dp).testTag("common-word"),
+        modifier = Modifier.clip(AppShapes.small).background(colors.tertiaryContainer).padding(horizontal = 6.dp, vertical = 2.dp).testTag("common-word"),
     )
 }
 
@@ -1003,8 +996,8 @@ private fun ExamplesSection(
     val canOpen = onOpenExamples != null && languageId != null && term.isNotBlank()
 
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.05f))
-            .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(sectionPadding()),
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.05f))
+            .border(1.dp, colors.primary.copy(alpha = 0.15f), AppShapes.card).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {

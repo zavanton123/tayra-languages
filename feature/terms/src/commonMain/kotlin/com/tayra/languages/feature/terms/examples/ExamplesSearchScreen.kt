@@ -20,7 +20,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
@@ -30,11 +29,9 @@ import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -49,6 +46,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.sp
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.RoundSlider
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
 import kotlin.math.roundToInt
@@ -114,6 +112,8 @@ import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.navigation.Route
 import io.ktor.http.encodeURLParameter
 import org.koin.compose.viewmodel.koinViewModel
@@ -326,9 +326,7 @@ fun ExamplesSearchScreen(
                         if (state.hasMore) {
                             item {
                                 Row(Modifier.fillMaxWidth().padding(16.dp), horizontalArrangement = Arrangement.Center) {
-                                    OutlinedButton(onClick = viewModel::loadMore, enabled = !state.loadingMore, shape = RoundedCornerShape(10.dp)) {
-                                        Text(if (state.loadingMore) tr("Loading...") else tr("Load more"))
-                                    }
+                                    SecondaryButton(if (state.loadingMore) tr("Loading...") else tr("Load more"), onClick = viewModel::loadMore, enabled = !state.loadingMore)
                                 }
                             }
                         }
@@ -339,8 +337,8 @@ fun ExamplesSearchScreen(
             if (wide && term != null) {
                 Surface(
                     Modifier.width(420.dp).fillMaxHeight().padding(top = 16.dp, end = 16.dp, bottom = 16.dp)
-                        .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)),
-                    shape = RoundedCornerShape(14.dp),
+                        .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card),
+                    shape = AppShapes.card,
                     color = MaterialTheme.colorScheme.surface,
                 ) {
                     TermPane(query.language.id, term, state.paneSentence, onClose = viewModel::closePane, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onNavigate = onNavigate)
@@ -409,7 +407,7 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
     Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.Top) {
         if (!compact) {
             Box(
-                Modifier.size(40.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(onClick = onBack),
+                Modifier.size(40.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).clickable(onClick = onBack),
                 contentAlignment = Alignment.Center,
             ) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), modifier = Modifier.size(20.dp)) }
             Spacer(Modifier.width(24.dp))
@@ -430,7 +428,7 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
             )
         }
         Row(
-            Modifier.clip(RoundedCornerShape(6.dp)).clickable {
+            Modifier.clip(AppShapes.small).clickable {
                 val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
                 uriHandler.openUri("https://tatoeba.org/en/sentences/search?query=${query.text.encodeURLParameter()}$from")
             }.padding(6.dp),
@@ -449,7 +447,7 @@ private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewMo
     val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Row(
-            Modifier.weight(1f).height(48.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 14.dp),
+            Modifier.weight(1f).height(48.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).padding(horizontal = 14.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
@@ -471,9 +469,7 @@ private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewMo
                 },
             )
         }
-        Button(onClick = onSearch, enabled = query.text.isNotBlank(), shape = RoundedCornerShape(10.dp), modifier = Modifier.height(48.dp)) {
-            Text(tr("Search"))
-        }
+        PrimaryButton(tr("Search"), onClick = onSearch, modifier = Modifier.height(48.dp), enabled = query.text.isNotBlank())
     }
 }
 
@@ -495,11 +491,7 @@ private fun FilterRow(query: ExampleSearchQuery, viewModel: ExamplesSearchViewMo
         Select(tr("Per page"), PAGE_SIZES, query.limit, { it.toString() }, 110.dp) { v -> viewModel.updateFilters { it.copy(limit = v) } }
         Select(tr("Has audio"), listOf<YesNo?>(null) + YesNo.entries, query.hasAudio, { it?.label?.let { label -> tr(label) } ?: tr("Any") }, 150.dp) { v -> viewModel.updateFilters { it.copy(hasAudio = v) } }
         Spacer(Modifier.weight(1f))
-        OutlinedButton(onClick = viewModel::resetFilters, shape = RoundedCornerShape(10.dp), modifier = Modifier.height(44.dp)) {
-            Icon(Icons.Default.Refresh, contentDescription = null, modifier = Modifier.size(16.dp))
-            Spacer(Modifier.width(8.dp))
-            Text(tr("Reset filters"))
-        }
+        SecondaryButton(tr("Reset filters"), onClick = viewModel::resetFilters, modifier = Modifier.height(44.dp), icon = Icons.Default.Refresh)
     }
 }
 
@@ -512,7 +504,7 @@ private fun <T> Select(label: String, options: List<T>, selected: T, optionLabel
         Text(label, style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
         Box {
             Row(
-                Modifier.fillMaxWidth().height(44.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+                Modifier.fillMaxWidth().height(44.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control)
                     .clickable { open = true }.padding(horizontal = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
@@ -551,9 +543,9 @@ private fun ExampleCard(
     // Marked or played, the example is kept on screen, scrolled no further than that takes.
     LaunchedEffect(active, sound.playing) { if (active) intoView.bringIntoView() }
     Row(
-        Modifier.fillMaxWidth().bringIntoViewRequester(intoView).clip(RoundedCornerShape(12.dp))
+        Modifier.fillMaxWidth().bringIntoViewRequester(intoView).clip(AppShapes.panel)
             .background(if (sound.playing || active) colors.primary.copy(alpha = 0.06f) else Color.Transparent)
-            .border(if (active) 2.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, RoundedCornerShape(12.dp))
+            .border(if (active) 2.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, AppShapes.panel)
             .semantics { selected = active }
             .padding(horizontal = 16.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -589,8 +581,8 @@ private fun ExampleCard(
 private fun TextSettings(prefs: UserSettings, viewModel: ExamplesSearchViewModel) {
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().padding(top = 16.dp).clip(RoundedCornerShape(14.dp)).background(colors.surface)
-            .border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(horizontal = 20.dp, vertical = 16.dp),
+        Modifier.fillMaxWidth().padding(top = 16.dp).clip(AppShapes.card).background(colors.surface)
+            .border(1.dp, colors.outlineVariant, AppShapes.card).padding(horizontal = 20.dp, vertical = 16.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         Text(tr("Text settings"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
@@ -625,16 +617,16 @@ private fun ActionButton(
 ) {
     val colors = MaterialTheme.colorScheme
     Box(
-        Modifier.size(40.dp).clip(RoundedCornerShape(10.dp))
+        Modifier.size(40.dp).clip(AppShapes.control)
             .background(if (active) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
-            .border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+            .border(1.dp, colors.outlineVariant, AppShapes.control)
             .clickable(enabled = enabled, onClick = onClick)
             .semantics { contentDescription = description },
         contentAlignment = Alignment.Center,
     ) {
         when {
             loading -> CircularProgressIndicator(Modifier.size(18.dp), color = colors.primary, strokeWidth = 2.dp)
-            active && stops -> Box(Modifier.size(12.dp).background(colors.primary, RoundedCornerShape(2.dp)))
+            active && stops -> Box(Modifier.size(12.dp).background(colors.primary, AppShapes.tiny))
             else -> Icon(icon, contentDescription = null, tint = if (enabled) colors.primary else colors.outlineVariant, modifier = Modifier.size(20.dp))
         }
     }

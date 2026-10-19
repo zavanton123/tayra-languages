@@ -5,26 +5,18 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.SuggestionChip
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -42,7 +34,11 @@ import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.language.LanguageCatalog
+import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppTextField
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.i18n.tr
 import kotlinx.coroutines.delay
 
@@ -53,11 +49,7 @@ internal fun WordFinderButton(state: TermFormUiState, viewModel: TermFormViewMod
     val learning = state.language?.name ?: return
     val native = LanguageCatalog.nativeOption(state.nativeLanguage).name
     var open by remember { mutableStateOf(false) }
-    TextButton(onClick = { open = true }, modifier = Modifier.testTag("word-finder")) {
-        Icon(Icons.Default.Search, contentDescription = null, modifier = Modifier.size(18.dp))
-        Spacer(Modifier.size(6.dp))
-        Text(tr("Find a {0} word from {1}", tr(learning), tr(native)))
-    }
+    QuietButton(tr("Find a {0} word from {1}", tr(learning), tr(native)), onClick = { open = true }, modifier = Modifier.testTag("word-finder"), icon = Icons.Default.Search)
     if (open) {
         WordFinderDialog(
             finder, native, learning,
@@ -95,19 +87,18 @@ internal fun WordFinderDialog(
         result = query to onSearch(query)
     }
     LaunchedEffect(installed) { if (installed) runCatching { focus.requestFocus() } }
-    AlertDialog(
+    AppDialog(
         onDismissRequest = onDismiss,
         title = { Text(tr("Find a {0} word", tr(learningName))) },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 when (val state = finder.state) {
                     is PackState.Installed -> {
-                        OutlinedTextField(
+                        AppTextField(
                             value = query,
                             onValueChange = { query = it },
                             label = { Text(tr("A word in {0}", tr(nativeName))) },
                             singleLine = true,
-                            shape = RoundedCornerShape(10.dp),
                             modifier = Modifier.fillMaxWidth().focusRequester(focus).testTag("word-finder-query"),
                         )
                         val (searched, lookup) = result ?: ("" to DictionaryLookup.EMPTY)
@@ -147,16 +138,17 @@ internal fun WordFinderDialog(
                             style = MaterialTheme.typography.bodyMedium,
                             color = if (state is PackState.Failed) colors.error else colors.onSurfaceVariant,
                         )
-                        Button(onClick = onDownload, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("word-finder-download")) {
-                            Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
-                            Spacer(Modifier.size(8.dp))
-                            Text(if (state is PackState.Failed) tr("Try again") else tr("Download word finder"))
-                        }
+                        PrimaryButton(
+                            if (state is PackState.Failed) tr("Try again") else tr("Download word finder"),
+                            onClick = onDownload,
+                            modifier = Modifier.testTag("word-finder-download"),
+                            icon = AppIcons.Download,
+                        )
                     }
                 }
             }
         },
-        confirmButton = { TextButton(onClick = onDismiss) { Text(tr("Close")) } },
+        confirmButton = { QuietButton(tr("Close"), onClick = onDismiss) },
     )
 }
 

@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowRight
@@ -44,6 +43,7 @@ import com.tayra.languages.core.ui.components.LearningLanguageState
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
  * The Languages page on a phone: the three choices as cards, each with a row that opens a bottom
@@ -109,7 +109,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
 @Composable
 private fun PhoneLanguageCard(label: String, title: String, description: String, highlighted: Boolean = false, row: @Composable () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    val shape = RoundedCornerShape(14.dp)
+    val shape = AppShapes.card
     Column(
         Modifier.fillMaxWidth().clip(shape)
             .background(if (highlighted) colors.primary.copy(alpha = 0.07f) else colors.surface)
@@ -131,7 +131,7 @@ private fun PhoneLanguageCard(label: String, title: String, description: String,
 private fun PhoneLanguageRow(flagName: String?, tag: String, label: String? = flagName?.let(::tr), onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(colors.surface).border(1.dp, colors.outline.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.surface).border(1.dp, colors.outline.copy(alpha = 0.5f), AppShapes.control)
             .clickable(onClick = onClick).padding(horizontal = 14.dp, vertical = 12.dp).testTag(tag),
         verticalAlignment = Alignment.CenterVertically,
     ) {

@@ -20,7 +20,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
@@ -28,7 +27,6 @@ import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -38,11 +36,9 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -71,11 +67,15 @@ import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PickerSheet
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.minus
@@ -117,7 +117,7 @@ internal fun PhoneTermsScreen(
             )
         },
         snackbarHost = {
-            state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text(tr("OK")) } }) { Text(it) } }
+            state.message?.let { Snackbar(action = { QuietButton(tr("OK"), onClick = viewModel::dismissMessage) }) { Text(it) } }
         },
     ) { padding ->
         ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = 16.dp, vertical = 12.dp)) {
@@ -139,10 +139,8 @@ internal fun PhoneTermsScreen(
             item {
                 Row(Modifier.fillMaxWidth().padding(bottom = 12.dp), horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
                     val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: tr("Custom order")
-                    OutlinedButton(
+                    SecondaryButton(
                         onClick = { sorting = true },
-                        shape = RoundedCornerShape(10.dp),
-                        contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
                         colors = ButtonDefaults.outlinedButtonColors(contentColor = colors.onSurface),
                         modifier = Modifier.height(44.dp).testTag("phone-sort"),
                     ) {
@@ -216,9 +214,9 @@ private fun PhoneListMenu(state: TermsListUiState, actions: ListActions, selecti
 private fun PhoneTermRow(term: Term, languageName: String, selected: Boolean, showCheck: Boolean, actions: RowActions) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.panel)
             .background(if (selected) colors.primary.copy(alpha = 0.08f) else colors.surface)
-            .border(1.dp, if (selected) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant, RoundedCornerShape(12.dp))
+            .border(1.dp, if (selected) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant, AppShapes.panel)
             .combinedClickable(onLongClick = { actions.onToggle(term) }) { if (showCheck) actions.onToggle(term) else actions.onOpen(term) }
             .padding(start = if (showCheck) 0.dp else 4.dp, end = 0.dp, top = 6.dp, bottom = 6.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -245,7 +243,7 @@ private fun PhoneStatusTag(status: TermStatus, onSelect: (TermStatus) -> Unit) {
     val tint = statusTint(status)
     Box {
         Row(
-            Modifier.clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.35f)).clickable(onClickLabel = tr("Status")) { open = true }.padding(start = 4.dp, end = 10.dp, top = 4.dp, bottom = 4.dp),
+            Modifier.clip(AppShapes.compact).background(tint.copy(alpha = 0.35f)).clickable(onClickLabel = tr("Status")) { open = true }.padding(start = 4.dp, end = 10.dp, top = 4.dp, bottom = 4.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
@@ -285,7 +283,7 @@ private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewM
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp).padding(bottom = 20.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(tr("Filters"), Modifier.weight(1f), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-                TextButton(onClick = viewModel::resetFilters) { Text(tr("Reset")) }
+                QuietButton(tr("Reset"), onClick = viewModel::resetFilters)
                 IconButton(onClick = onDismiss) { Icon(Icons.Default.Close, contentDescription = tr("Close")) }
             }
             Text(tr("Learning status"), Modifier.padding(top = 4.dp, bottom = 10.dp), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
@@ -314,7 +312,7 @@ private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewM
                 )
             }
             Spacer(Modifier.height(20.dp))
-            Button(onClick = onDismiss, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(52.dp).testTag("phone-show-terms")) {
+            PrimaryButton(onClick = onDismiss, modifier = Modifier.fillMaxWidth().height(52.dp).testTag("phone-show-terms")) {
                 Text(trPlural(state.totalCount, "Show {0} term", "Show {0} terms"), style = MaterialTheme.typography.titleMedium)
             }
         }
@@ -327,9 +325,9 @@ private fun StatusOption(status: TermStatus, selected: Boolean, modifier: Modifi
     val tint = statusTint(status)
     val strong = tint.darken(0.7f)
     Row(
-        modifier.testTag("status-filter-${status.abbreviation}").height(56.dp).clip(RoundedCornerShape(12.dp))
+        modifier.testTag("status-filter-${status.abbreviation}").height(56.dp).clip(AppShapes.panel)
             .background(tint.copy(alpha = if (selected) 0.45f else 0.2f))
-            .border(if (selected) 1.5.dp else 1.dp, if (selected) strong else tint, RoundedCornerShape(12.dp))
+            .border(if (selected) 1.5.dp else 1.dp, if (selected) strong else tint, AppShapes.panel)
             .clickable(onClickLabel = if (selected) tr("Stop showing {0}", tr(status.label)) else tr("Show {0}", tr(status.label)), onClick = onClick)
             .padding(horizontal = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -338,7 +336,7 @@ private fun StatusOption(status: TermStatus, selected: Boolean, modifier: Modifi
         StatusBadge(status)
         Text(status.chipName, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, color = MaterialTheme.colorScheme.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Box(
-            Modifier.size(24.dp).clip(RoundedCornerShape(6.dp)).background(if (selected) strong else Color.Transparent).border(1.5.dp, strong, RoundedCornerShape(6.dp)),
+            Modifier.size(24.dp).clip(AppShapes.small).background(if (selected) strong else Color.Transparent).border(1.5.dp, strong, AppShapes.small),
             contentAlignment = Alignment.Center,
         ) {
             if (selected) Icon(Icons.Default.Check, contentDescription = null, tint = Color.White, modifier = Modifier.size(16.dp))
@@ -353,7 +351,7 @@ private fun DaysPicker(label: String, value: Int?, description: String, modifier
     var open by remember { mutableStateOf(false) }
     Box(modifier) {
         Row(
-            Modifier.fillMaxWidth().height(56.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+            Modifier.fillMaxWidth().height(56.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control)
                 .clickable { open = true }.semantics { contentDescription = description }.padding(start = 14.dp, end = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {

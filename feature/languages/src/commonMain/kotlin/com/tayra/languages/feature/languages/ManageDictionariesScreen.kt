@@ -18,7 +18,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.itemsIndexed
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Add
@@ -28,7 +27,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -45,10 +43,12 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /** Enables or disables the online dictionaries offered for one language. */
 @Composable
@@ -64,7 +64,7 @@ fun ManageDictionariesScreen(
     Scaffold(
         topBar = { AppTopBar(title = tr("Dictionaries"), onNavigate = onNavigate, section = NavSection.SETTINGS, onBack = if (compact) onBack else null) },
         snackbarHost = {
-            state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text(tr("OK")) } }) { Text(it) } }
+            state.message?.let { Snackbar(action = { QuietButton(tr("OK"), onClick = viewModel::dismissMessage) }) { Text(it) } }
         },
     ) { padding ->
         if (state.loading) {
@@ -81,7 +81,7 @@ fun ManageDictionariesScreen(
                     Row(Modifier.fillMaxWidth().padding(bottom = 12.dp), verticalAlignment = Alignment.CenterVertically) {
                         if (!compact) {
                             Box(
-                                Modifier.size(40.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(onClick = onBack),
+                                Modifier.size(40.dp).clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).clickable(onClick = onBack),
                                 contentAlignment = Alignment.Center,
                             ) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), modifier = Modifier.size(20.dp)) }
                             Spacer(Modifier.width(20.dp))
@@ -126,7 +126,7 @@ private fun DictionaryRow(name: String, url: String, tint: Color?, icon: ImageVe
     val detail = if (name.equals(host, ignoreCase = true)) path.takeIf { it.isNotBlank() }?.let { "/$it" } else host
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Column(
-            Modifier.weight(1f).clip(RoundedCornerShape(12.dp))
+            Modifier.weight(1f).clip(AppShapes.panel)
                 .background(if (tint != null) tint.copy(alpha = 0.1f) else colors.surfaceVariant.copy(alpha = 0.6f))
                 .padding(horizontal = 16.dp, vertical = 12.dp),
         ) {
@@ -134,7 +134,7 @@ private fun DictionaryRow(name: String, url: String, tint: Color?, icon: ImageVe
             if (detail != null) Text(detail, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
         Box(
-            Modifier.size(44.dp).clip(RoundedCornerShape(22.dp)).background(colors.surfaceVariant).clickable(onClick = onAction),
+            Modifier.size(44.dp).clip(AppShapes.large).background(colors.surfaceVariant).clickable(onClick = onAction),
             contentAlignment = Alignment.Center,
         ) { Icon(icon, contentDescription = iconDescription, modifier = Modifier.size(20.dp)) }
     }
