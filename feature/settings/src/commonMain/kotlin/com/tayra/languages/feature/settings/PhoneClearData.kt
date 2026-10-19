@@ -18,8 +18,6 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -37,14 +35,20 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.components.AppCard
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ButtonTone
+import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
@@ -68,18 +72,18 @@ internal fun PhoneClearDataScreen(
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
             Text(tr("Remove your learning data and downloaded files from this device. Your preferences stay."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-            PhoneCard {
+            AppCard {
                 CardHeader(AppIcons.RemoveCircle, colors.error, tr("Will be removed"), tr("Everything you added, learned or downloaded."))
-                HorizontalDivider(Modifier.padding(vertical = 14.dp), color = colors.outlineVariant)
+                AppDivider(Modifier.padding(vertical = 14.dp))
                 Column(verticalArrangement = Arrangement.spacedBy(14.dp)) { ClearGroup.entries.forEach { GroupRow(it, state) } }
             }
-            PhoneCard {
+            AppCard {
                 CardHeader(AppIcons.VerifiedUser, colors.primary, tr("Will remain"), tr("Your app setup is not affected."))
-                HorizontalDivider(Modifier.padding(vertical = 14.dp), color = colors.outlineVariant)
+                AppDivider(Modifier.padding(vertical = 14.dp))
                 Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
                     remainingItems().forEach { (icon, title, detail) ->
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                            Tile(icon, colors.primary)
+                            IconTile(icon, tint = colors.primary)
                             Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
                                 Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                                 Text(detail, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -104,7 +108,7 @@ internal fun PhoneClearDataScreen(
             val tint = clearStatusTint(state)
             TintedBox(tint) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-                    Tile(if (state.done && state.problems.isEmpty()) Icons.Default.CheckCircle else Icons.Default.Warning, tint)
+                    IconTile(if (state.done && state.problems.isEmpty()) Icons.Default.CheckCircle else Icons.Default.Warning, tint = tint)
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
                         Text(clearStatusTitle(state), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = tint)
                         Text(clearStatusText(state), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -123,7 +127,7 @@ internal fun PhoneClearDataScreen(
                         modifier = Modifier.fillMaxWidth().height(48.dp).testTag("clear-all"),
                     ) {
                         if (state.started) {
-                            CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp, color = colors.onError)
+                            AppSpinner(size = SpinnerSize.Small, color = colors.onError)
                             Spacer(Modifier.width(8.dp))
                         }
                         Text(if (state.started) tr("Clearing…") else tr("Continue to clear data"), style = MaterialTheme.typography.titleMedium)
@@ -136,20 +140,14 @@ internal fun PhoneClearDataScreen(
 }
 
 @Composable
-private fun PhoneCard(content: @Composable () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp)) { content() }
-}
-
-@Composable
 private fun TintedBox(tint: Color, content: @Composable () -> Unit) {
-    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(tint.copy(alpha = 0.07f)).border(1.dp, tint.copy(alpha = 0.25f), AppShapes.card).padding(16.dp)) { content() }
+    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(tint.copy(alpha = 0.07f)).border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.card).padding(16.dp)) { content() }
 }
 
 @Composable
 private fun CardHeader(icon: ImageVector, tint: Color, title: String, subtitle: String) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-        Tile(icon, tint, size = 56)
+        IconTile(icon, size = 56, tint = tint)
         Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
             Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)

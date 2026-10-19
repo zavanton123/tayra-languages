@@ -1,10 +1,6 @@
 package com.tayra.languages.feature.settings
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -17,13 +13,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
-import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -34,8 +24,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -45,15 +33,19 @@ import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageOption
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppTextField
+import com.tayra.languages.core.ui.components.AppProgressBar
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.CodeTile
-import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
-import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.Segment
+import com.tayra.languages.core.ui.components.SegmentedToggle
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
@@ -95,15 +87,16 @@ internal fun PhoneDictionariesScreen(
             if (viewModel.canImport) ImportDictionaryCard(viewModel, learning, native)
             TextRecognitionCard(viewModel)
             // A search belongs to the list it was typed into.
-            PhoneSegments(tab, installed.size) { tab = it; query = "" }
-            AppTextField(
-                value = query,
-                onValueChange = { query = it },
-                placeholder = { Text(if (tab == PhoneTab.INSTALLED) tr("Search installed dictionaries") else tr("Search dictionaries")) },
-                leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
+            SegmentedToggle(
+                listOf(
+                    Segment(PhoneTab.INSTALLED, label = "${tr("Installed")} ${installed.size}", testTag = "phone-tab-${PhoneTab.INSTALLED.name}"),
+                    Segment(PhoneTab.AVAILABLE, label = tr("Available"), testTag = "phone-tab-${PhoneTab.AVAILABLE.name}"),
+                ),
+                tab,
+                onSelect = { tab = it; query = "" },
+                fill = true,
             )
+            SearchField(query, { query = it }, if (tab == PhoneTab.INSTALLED) tr("Search installed dictionaries") else tr("Search dictionaries"), Modifier.fillMaxWidth())
             when (tab) {
                 PhoneTab.INSTALLED -> {
                     val shown = installed.filter { it.pack.matches(query) }.sortedBy { it.pack.title }
@@ -115,7 +108,7 @@ internal fun PhoneDictionariesScreen(
                             color = colors.onSurfaceVariant,
                         )
                     } else {
-                        ListBox { shown.forEachIndexed { i, status -> if (i > 0) HorizontalDivider(color = colors.outlineVariant); InstalledRow(status, onRemove = { viewModel.remove(status.pack) }) } }
+                        ListBox { shown.forEachIndexed { i, status -> if (i > 0) AppDivider(); InstalledRow(status, onRemove = { viewModel.remove(status.pack) }) } }
                     }
                 }
                 PhoneTab.AVAILABLE -> {
@@ -138,7 +131,7 @@ internal fun PhoneDictionariesScreen(
                     } else {
                         ListBox {
                             shown.forEachIndexed { i, status ->
-                                if (i > 0) HorizontalDivider(color = colors.outlineVariant)
+                                if (i > 0) AppDivider()
                                 PhoneAvailableRow(status, browsing, onDownload = { viewModel.download(status.pack) })
                             }
                         }
@@ -154,38 +147,14 @@ internal fun PhoneDictionariesScreen(
 private fun PhoneLookupCard(learning: LanguageOption?, nativeName: String, current: PackStatus?, onDownload: (DictionaryPack) -> Unit, onTest: (DictionaryPack) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val state = current?.state
-    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-            IconTile(AppIcons.MenuBook, size = 44)
-            Text(tr("Current lookup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-        }
-        Spacer(Modifier.height(14.dp))
+    ContentCard(tr("Current lookup"), subtitle = null, icon = AppIcons.MenuBook, dense = true) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             PairChip(learning?.code ?: "?", learning?.let { tr(it.name) } ?: tr("No language"), Modifier.weight(1f))
             Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("looked up in"), tint = colors.onSurfaceVariant, modifier = Modifier.padding(horizontal = 10.dp).size(22.dp))
             PairChip(LanguageCatalog.nativeLanguages.firstOrNull { it.name == nativeName }?.code ?: "", tr(nativeName), Modifier.weight(1f))
         }
-        HorizontalDivider(Modifier.padding(vertical = 14.dp), color = colors.outlineVariant)
-        val (icon, tint, title, text) = when {
-            state is PackState.Installed -> Status(Icons.Default.CheckCircle, StatusTints.ok, tr("Dictionary ready"), tr("Works offline and links inflected forms to their base word."))
-            state is PackState.Downloading -> Status(Icons.Default.Info, colors.primary, tr("Downloading the dictionary…"), tr("It works offline as soon as the download finishes."))
-            state is PackState.Failed -> Status(Icons.Default.Warning, colors.error, tr("Download failed"), packFailure(state.message))
-            current != null -> Status(Icons.Default.Warning, StatusTints.warning, tr("{0} is not downloaded", current.pack.displayTitle), tr("Online dictionaries are used until you download it."))
-            else -> Status(Icons.Default.Info, colors.outline, tr("No offline dictionary for this pair"), tr("Words are looked up in the online dictionaries set up for the language."))
-        }
-        Row(verticalAlignment = Alignment.Top) {
-            Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(30.dp))
-            Spacer(Modifier.width(12.dp))
-            Column(Modifier.weight(1f)) {
-                Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = if (state is PackState.Installed) tint else colors.onSurface)
-                Text(text, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                if (state is PackState.Downloading) {
-                    val progress = state.progress
-                    if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth().padding(top = 6.dp))
-                    else LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 6.dp))
-                }
-            }
-        }
+        AppDivider(Modifier.padding(vertical = 14.dp))
+        LookupStatusRow(current, short = true)
         when {
             current == null || state is PackState.Downloading -> Unit
             state is PackState.Installed -> {
@@ -202,50 +171,9 @@ private fun PhoneLookupCard(learning: LanguageOption?, nativeName: String, curre
     }
 }
 
-private data class Status(val icon: androidx.compose.ui.graphics.vector.ImageVector, val tint: Color, val title: String, val text: String)
-
-@Composable
-private fun PairChip(code: String, name: String, modifier: Modifier = Modifier) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        modifier.clip(AppShapes.control).background(colors.surfaceContainerLow).border(1.dp, colors.outlineVariant, AppShapes.control).padding(6.dp).padding(end = 8.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        CodeTile(code, size = 36)
-        Spacer(Modifier.width(10.dp))
-        Text(name, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
-    }
-}
-
-/** Installed with its count, or Available: a full-width switch. */
-@Composable
-private fun PhoneSegments(selected: PhoneTab, installedCount: Int, onSelect: (PhoneTab) -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Row(Modifier.fillMaxWidth().clip(AppShapes.panel).background(colors.surfaceContainer).padding(4.dp)) {
-        PhoneTab.entries.forEach { tab ->
-            val active = tab == selected
-            Box(
-                Modifier.weight(1f).clip(AppShapes.control)
-                    .background(if (active) colors.surface else Color.Transparent)
-                    .clickable { onSelect(tab) }
-                    .padding(vertical = 12.dp)
-                    .testTag("phone-tab-${tab.name}"),
-                contentAlignment = Alignment.Center,
-            ) {
-                Text(
-                    if (tab == PhoneTab.INSTALLED) "${tr("Installed")} $installedCount" else tr("Available"),
-                    style = MaterialTheme.typography.titleMedium,
-                    color = if (active) colors.primary else colors.onSurfaceVariant,
-                    fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium,
-                )
-            }
-        }
-    }
-}
-
 @Composable
 private fun ListBox(content: @Composable () -> Unit) {
-    Column(Modifier.fillMaxWidth().clip(AppShapes.panel).background(MaterialTheme.colorScheme.surface).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.panel)) { content() }
+    Column(Modifier.fillMaxWidth().cardSurface(AppShapes.panel)) { content() }
 }
 
 /** A pack to download: the language that tells it apart, its name and the button; the state shows only when it is not plain. */
@@ -264,9 +192,7 @@ private fun PhoneAvailableRow(status: PackStatus, browsing: Boolean, onDownload:
             when (state) {
                 is PackState.Downloading -> {
                     Text(tr("Downloading…"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-                    val progress = state.progress
-                    if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
-                    else LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
+                    AppProgressBar(state.progress, Modifier.padding(top = 4.dp))
                 }
                 is PackState.Failed -> Text(tr("Download failed: {0}", packFailure(state.message)), style = MaterialTheme.typography.bodySmall, color = colors.error)
                 else -> Unit

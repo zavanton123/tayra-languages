@@ -6,6 +6,9 @@ import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.files.acceptsDroppedFiles
 import com.tayra.languages.core.ui.components.AppDialog
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.AppProgressBar
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.PageColumn
@@ -17,6 +20,7 @@ import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.formatSize
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.shortDateWithYear
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -36,10 +40,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -74,6 +75,7 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.files.saveBinaryFile
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import io.github.vinceglb.filekit.dialogs.FileKitType
 import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
@@ -305,7 +307,7 @@ internal fun Progress(state: BackupState) {
     state.working?.let { working ->
         Column(Modifier.fillMaxWidth()) {
             Text("$working…", style = MaterialTheme.typography.bodyMedium)
-            LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 6.dp))
+            AppProgressBar(null, Modifier.padding(top = 6.dp))
         }
     }
     state.message?.let { InfoBanner(it, tint = StatusTints.ok, icon = Icons.Default.CheckCircle) }
@@ -318,7 +320,7 @@ private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note:
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.fillMaxWidth().clip(AppShapes.card).background(if (highlighted) colors.primaryContainer else colors.surface)
-            .border(1.dp, if (highlighted) colors.primary else colors.outlineVariant, AppShapes.card).padding(24.dp),
+            .border(AppBorders.hairline(if (highlighted) colors.primary else colors.outlineVariant), AppShapes.card).padding(24.dp),
     ) {
         IconTile(icon, size = 64)
         Spacer(Modifier.width(20.dp))
@@ -404,7 +406,7 @@ private fun BackupRowContent(
             Spacer(Modifier.width(8.dp))
             QuietButton(tr("Export"), onClick = onExport, icon = AppIcons.Share, enabled = enabled)
             Box {
-                IconButton(onClick = { menu = true }, enabled = enabled) { Icon(AppIcons.MoreHoriz, contentDescription = tr("More for the backup of {0}", formatBackupTime(backup))) }
+                AppIconButton(AppIcons.MoreHoriz, contentDescription = tr("More for the backup of {0}", formatBackupTime(backup)), onClick = { menu = true }, enabled = enabled)
                 AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
                     AppMenuItem(text = { Text(tr("Delete")) }, onClick = { menu = false; onDelete() })
                 }
@@ -412,7 +414,7 @@ private fun BackupRowContent(
         }
     }
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control)
+        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
             .padding(horizontal = 12.dp, vertical = 10.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -453,8 +455,7 @@ private fun BackupRowContent(
 @Composable
 private fun IncludedCard(modifier: Modifier = Modifier) {
     Column(
-        modifier.fillMaxWidth().clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(20.dp),
+        modifier.fillMaxWidth().cardSurface().padding(20.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             IconTile(AppIcons.VerifiedUser, size = 56)
@@ -463,7 +464,7 @@ private fun IncludedCard(modifier: Modifier = Modifier) {
         }
         Spacer(Modifier.height(14.dp))
         listOf(tr("Languages and books"), tr("Vocabulary"), tr("Reading history"), tr("Settings")).forEach { IncludedLine(it, Icons.Default.CheckCircle, StatusTints.ok) }
-        HorizontalDivider(Modifier.padding(vertical = 14.dp), color = MaterialTheme.colorScheme.outlineVariant)
+        AppDivider(Modifier.padding(vertical = 14.dp))
         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
             Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(22.dp))
             Spacer(Modifier.width(14.dp))

@@ -3,7 +3,9 @@ package com.tayra.languages.feature.settings
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.components.AppDialog
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppTextField
+import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.HeaderButton
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.PageColumn
@@ -12,6 +14,7 @@ import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.cardSurface
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable
@@ -35,7 +38,6 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -77,6 +79,7 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import org.koin.compose.viewmodel.koinViewModel
 
@@ -226,7 +229,7 @@ private fun SearchBanner(query: String, onQuery: (String) -> Unit, assigned: Int
     val tint = MaterialTheme.colorScheme.primary
     FlowRow(
         Modifier.fillMaxWidth().clip(AppShapes.card).background(tint.copy(alpha = 0.05f))
-            .border(1.dp, tint.copy(alpha = 0.15f), AppShapes.card).padding(horizontal = 20.dp, vertical = 12.dp),
+            .border(AppBorders.hairline(tint.copy(alpha = 0.15f)), AppShapes.card).padding(horizontal = 20.dp, vertical = 12.dp),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp),
         itemVerticalAlignment = Alignment.CenterVertically,
@@ -244,7 +247,7 @@ private fun SearchBanner(query: String, onQuery: (String) -> Unit, assigned: Int
             singleLine = true,
             modifier = if (compact) Modifier.fillMaxWidth() else Modifier.width(300.dp),
         )
-        if (!compact) Box(Modifier.width(1.dp).height(36.dp).background(MaterialTheme.colorScheme.outlineVariant))
+        if (!compact) AppVerticalDivider(Modifier.height(36.dp))
         Row(verticalAlignment = Alignment.CenterVertically) {
             val ok = conflicts == 0
             val color = if (ok) StatusTints.ok else MaterialTheme.colorScheme.error
@@ -271,8 +274,7 @@ private fun CategoryCard(
     onAssign: (HotkeyAction, Hotkey?) -> Unit,
 ) {
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(vertical = 20.dp),
+        Modifier.fillMaxWidth().cardSurface().padding(vertical = 20.dp),
     ) {
         Row(Modifier.padding(horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
             IconTile(category.icon())
@@ -284,7 +286,7 @@ private fun CategoryCard(
         Spacer(Modifier.height(10.dp))
         actions.forEachIndexed { i, action ->
             if (i > 0 && editing != action && editing != actions[i - 1]) {
-                HorizontalDivider(Modifier.padding(horizontal = 20.dp), color = MaterialTheme.colorScheme.outlineVariant)
+                AppDivider(Modifier.padding(horizontal = 20.dp))
             }
             ShortcutRow(
                 action,
@@ -384,7 +386,7 @@ private fun Keycap(label: String, conflict: Boolean) {
     Box(
         Modifier.heightIn(min = 38.dp).widthIn(min = 44.dp).clip(AppShapes.compact)
             .background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(1.dp, border, AppShapes.compact)
+            .border(AppBorders.hairline(border), AppShapes.compact)
             // A thicker bottom edge makes the label read as a key.
             .drawBehind {
                 val edge = 3.dp.toPx()

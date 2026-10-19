@@ -1,7 +1,5 @@
 package com.tayra.languages.feature.settings
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -22,9 +20,7 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -35,13 +31,15 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.backup.Backup
+import com.tayra.languages.core.ui.components.AppCard
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
@@ -53,11 +51,11 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
-import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
  * The Backups page on a phone: one card with the two actions, the history as a plain list with a
@@ -86,7 +84,7 @@ internal fun PhoneBackupsScreen(
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-            Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp)) {
+            AppCard {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
                     IconTile(AppIcons.Storage, size = 56)
                     Column {
@@ -134,7 +132,7 @@ private fun PhoneBackupRow(backup: Backup, latest: Boolean, enabled: Boolean, on
     val colors = MaterialTheme.colorScheme
     var menu by remember { mutableStateOf(false) }
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(start = 12.dp, end = 4.dp, top = 12.dp, bottom = 12.dp),
+        Modifier.fillMaxWidth().cardSurface().padding(start = 12.dp, end = 4.dp, top = 12.dp, bottom = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         IconTile(AppIcons.FileOutline, size = 44)
@@ -153,7 +151,7 @@ private fun PhoneBackupRow(backup: Backup, latest: Boolean, enabled: Boolean, on
         Spacer(Modifier.width(8.dp))
         SecondaryButton(onClick = onRestore, enabled = enabled) { Text(tr("Restore")) }
         Box {
-            IconButton(onClick = { menu = true }, enabled = enabled) { Icon(AppIcons.MoreHoriz, contentDescription = tr("More for the backup of {0}", formatBackupTime(backup))) }
+            AppIconButton(AppIcons.MoreHoriz, contentDescription = tr("More for the backup of {0}", formatBackupTime(backup)), onClick = { menu = true }, enabled = enabled)
             AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
                 AppMenuItem(text = { Text(tr("Export")) }, onClick = { menu = false; onExport() })
                 AppMenuItem(text = { Text(tr("Delete")) }, onClick = { menu = false; onDelete() })
@@ -167,7 +165,7 @@ private fun PhoneBackupRow(backup: Backup, latest: Boolean, enabled: Boolean, on
 private fun IncludedRow() {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
-    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card)) {
+    Column(Modifier.fillMaxWidth().cardSurface()) {
         Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(16.dp).testTag("phone-whats-included"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             IconTile(AppIcons.VerifiedUser, size = 44)
             Text(tr("What's included in a backup"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
@@ -176,7 +174,7 @@ private fun IncludedRow() {
         if (open) {
             Column(Modifier.padding(start = 16.dp, end = 16.dp, bottom = 12.dp)) {
                 listOf(tr("Languages and books"), tr("Vocabulary"), tr("Reading history"), tr("Settings")).forEach { IncludedLine(it, Icons.Default.CheckCircle, StatusTints.ok) }
-                HorizontalDivider(Modifier.padding(vertical = 10.dp), color = colors.outlineVariant)
+                AppDivider(Modifier.padding(vertical = 10.dp))
                 Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
                     Icon(Icons.Default.Info, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
                     Spacer(Modifier.width(14.dp))

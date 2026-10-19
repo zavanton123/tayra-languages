@@ -3,6 +3,8 @@ package com.tayra.languages.feature.settings
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.components.AppDialog
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.HeaderButton
 import com.tayra.languages.core.ui.components.InfoBanner
@@ -14,6 +16,7 @@ import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SettingRow
 import com.tayra.languages.core.ui.components.SliderStepper
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.SwitchSetting
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -33,7 +36,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -67,6 +69,7 @@ import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppTheme
 import com.tayra.languages.core.ui.theme.ReadingFont
@@ -82,7 +85,6 @@ import kotlinx.coroutines.flow.asStateFlow
 import com.tayra.languages.core.domain.service.AppUpdateService
 import com.tayra.languages.core.domain.service.CommandLineStatus
 import com.tayra.languages.core.domain.service.CommandLineTool
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.ui.text.font.FontFamily
 import com.tayra.languages.core.ui.components.StatusPill
@@ -225,7 +227,7 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
 internal fun ThemeSwatch(theme: AppTheme) {
     Row(
         Modifier.clip(AppShapes.small).background(theme.readingBackground)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.small).padding(horizontal = 6.dp, vertical = 5.dp),
+            .border(AppBorders.hairline(), AppShapes.small).padding(horizontal = 6.dp, vertical = 5.dp),
         horizontalArrangement = Arrangement.spacedBy(3.dp),
     ) {
         listOf(
@@ -311,7 +313,7 @@ private fun CommandLineCard(viewModel: SettingsViewModel) {
         val current = status
         when {
             current == null -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
+                AppSpinner(size = SpinnerSize.Small)
                 Text(tr("Checking whether a terminal finds tayra…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
             current.installed -> {
@@ -347,7 +349,7 @@ private fun CommandBox(text: String) {
         Text(
             text,
             Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surfaceVariant.copy(alpha = 0.6f))
-                .border(1.dp, colors.outlineVariant, AppShapes.compact).padding(horizontal = 14.dp, vertical = 10.dp),
+                .border(AppBorders.hairline(), AppShapes.compact).padding(horizontal = 14.dp, vertical = 10.dp),
             style = MaterialTheme.typography.bodyMedium,
             fontFamily = FontFamily.Monospace,
         )
@@ -368,7 +370,7 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = 24.dp) {
     val sample = PreviewSamples.forLanguage(learning?.let { LanguageCodes.codeFor(it) })
     Column(
         Modifier.fillMaxWidth().clip(AppShapes.panel).background(theme.readingBackground)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.panel).padding(horizontal = padding + 4.dp, vertical = padding),
+            .border(AppBorders.hairline(), AppShapes.panel).padding(horizontal = padding + 4.dp, vertical = padding),
     ) {
         val colors = theme.statusColors
         val text = buildAnnotatedString {
@@ -393,7 +395,7 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = 24.dp) {
             ),
             modifier = Modifier.padding(vertical = 8.dp),
         )
-        HorizontalDivider(Modifier.padding(vertical = 16.dp), color = MaterialTheme.colorScheme.outlineVariant)
+        AppDivider(Modifier.padding(vertical = 16.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(24.dp), verticalAlignment = Alignment.CenterVertically) {
             LegendDot(tr("New"), colors.background(TermStatus.UNKNOWN), theme)
             LegendDot(tr("Learning"), colors.background(TermStatus.NEW_1), theme)

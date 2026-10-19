@@ -1,12 +1,5 @@
 package com.tayra.languages.feature.settings
 
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -15,10 +8,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
@@ -28,22 +17,11 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.domain.courses.CoursePack
 import com.tayra.languages.core.domain.courses.CoursePackService
 import com.tayra.languages.core.domain.courses.CoursePackStatus
-import com.tayra.languages.core.domain.dictionary.PackState
-import com.tayra.languages.core.ui.components.AppDialog
-import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.ButtonTone
-import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
-import com.tayra.languages.core.ui.components.PrimaryButton
-import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
-import com.tayra.languages.core.ui.components.SecondaryButton
-import com.tayra.languages.core.ui.components.StatusPill
-import com.tayra.languages.core.ui.components.StatusTints
-import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import kotlinx.coroutines.flow.StateFlow
@@ -93,72 +71,26 @@ internal fun CoursePacksContent(
     if (packs.isEmpty() && languageName != null) {
         Text(tr("There are no ready-made courses for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
-    packs.forEach { status -> PackCard(status, onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) }
-    removing?.let { pack ->
-        AppDialog(
-            onDismissRequest = { removing = null },
-            title = { Text(tr("Remove the {0} courses?", tr(pack.title))) },
-            text = {
-                Text(
-                    tr("Their courses and lessons are deleted, with the lesson texts you opened and how far you read them. Courses you made yourself stay. You can download the courses again at any time."),
-                )
-            },
-            confirmButton = {
-                QuietButton(tr("Remove"), onClick = { onRemove(pack); removing = null }, modifier = Modifier.testTag("confirm-remove"), tone = ButtonTone.Danger)
-            },
-            dismissButton = { QuietButton(onClick = { removing = null }) { Text(tr("Cancel")) } },
-        )
-    }
+    packs.forEach { status -> PackCard(status.pack.info(), status.state, coursePackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) }
+    removing?.let { pack -> RemoveCoursePackDialog(pack, onRemove = { onRemove(pack) }, onDismiss = { removing = null }) }
 }
 
+internal fun CoursePack.info() = PackInfo(id, languageCode, title, summary, downloadSize)
+
+internal fun coursePackWords() = PackWords(
+    kind = tr("Course pack"),
+    downloading = tr("Downloading and adding the courses…"),
+    onDevice = tr("The courses are on this device"),
+    downloadAction = tr("Download course pack"),
+    removeAction = tr("Remove course pack"),
+)
+
 @Composable
-private fun PackCard(status: CoursePackStatus, onDownload: () -> Unit, onRemove: () -> Unit) {
-    val pack = status.pack
-    val state = status.state
-    ContentCard(
-        tr(pack.title),
-        tr("Course pack"),
-        iconText = pack.languageCode.uppercase(),
-        modifier = Modifier.testTag("pack-${pack.id}"),
-        titleExtra = {
-            when (state) {
-                is PackState.Installed -> StatusPill(tr("Installed"), StatusTints.ok)
-                is PackState.Downloading -> StatusPill(tr("Downloading"), MaterialTheme.colorScheme.primary)
-                is PackState.Failed -> StatusPill(tr("Download failed"), MaterialTheme.colorScheme.error)
-                PackState.NotInstalled -> StatusPill(tr("Not downloaded"), MaterialTheme.colorScheme.outline)
-            }
-        },
-    ) {
-        Text(tr(pack.summary), style = MaterialTheme.typography.bodyLarge)
-        Spacer(Modifier.padding(top = 12.dp))
-        when (state) {
-            is PackState.Downloading -> {
-                val progress = state.progress
-                if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth())
-                else LinearProgressIndicator(Modifier.fillMaxWidth())
-                Text(tr("Downloading and adding the courses…"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 6.dp))
-            }
-            is PackState.Failed -> Text(packFailure(state.message), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error)
-            else -> Unit
-        }
-        Spacer(Modifier.padding(top = 12.dp))
-        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-            Column(Modifier.weight(1f)) {
-                Text(
-                    when (state) {
-                        // No file size when the courses alone are on the device, restored from a backup without the file.
-                        is PackState.Installed -> if (state.sizeBytes > 0) tr("{0} on this device", formatSize(state.sizeBytes)) else tr("The courses are on this device")
-                        else -> tr("{0} to download", formatSize(pack.downloadSize))
-                    },
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            }
-            when (state) {
-                is PackState.Installed -> SecondaryButton(onClick = onRemove, modifier = Modifier.testTag("remove-${pack.id}")) { Text(tr("Remove")) }
-                is PackState.Downloading -> Unit
-                else -> PrimaryButton(if (state is PackState.Failed) tr("Try again") else tr("Download"), onClick = onDownload, modifier = Modifier.testTag("download-${pack.id}"), icon = AppIcons.Download)
-            }
-        }
-    }
+internal fun RemoveCoursePackDialog(pack: CoursePack, onRemove: () -> Unit, onDismiss: () -> Unit) {
+    RemovePackDialog(
+        tr("Remove the {0} courses?", tr(pack.title)),
+        tr("Their courses and lessons are deleted, with the lesson texts you opened and how far you read them. Courses you made yourself stay. You can download the courses again at any time."),
+        onRemove = onRemove,
+        onDismiss = onDismiss,
+    )
 }

@@ -8,9 +8,6 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -28,10 +25,13 @@ import com.tayra.languages.core.domain.service.AppUpdateService
 import com.tayra.languages.core.domain.service.UpdateState
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppProgressBar
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.SwitchSetting
@@ -85,7 +85,7 @@ internal fun AppUpdatesCard(service: AppUpdateService, settings: UserSettings, o
             when (val s = state) {
                 UpdateState.Idle -> Unit
                 UpdateState.Checking -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
+                    AppSpinner(size = SpinnerSize.Small)
                     Text(tr("Checking for updates…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 }
                 is UpdateState.UpToDate -> StatusPill(tr("You have the latest version"), StatusTints.ok)
@@ -115,8 +115,7 @@ private fun UpdateProgress(state: UpdateState, service: AppUpdateService, update
     when (state) {
         is UpdateState.Downloading -> {
             Text(tr("Downloading Tayra Languages {0}…", update.version), style = MaterialTheme.typography.bodyMedium, color = text)
-            val progress = state.progress
-            if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth()) else LinearProgressIndicator(Modifier.fillMaxWidth())
+            AppProgressBar(state.progress)
         }
         is UpdateState.Installing -> Text(tr("Installing the update; Tayra Languages will open again in a moment."), style = MaterialTheme.typography.bodyMedium, color = text)
         else -> {

@@ -1,12 +1,18 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.background
+import com.tayra.languages.core.ui.components.AppProgressBar
+import com.tayra.languages.core.ui.components.AppSpinner
+import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.CodeTile
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PackageTab
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SearchField
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TabToggle
@@ -35,12 +41,8 @@ import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -53,7 +55,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
@@ -73,7 +74,6 @@ import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -87,6 +87,7 @@ import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -422,11 +423,11 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     }
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.08f))
-            .border(1.dp, tint.copy(alpha = 0.25f), AppShapes.panel).padding(16.dp),
+            .border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.panel).padding(16.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         when {
-            busy -> CircularProgressIndicator(Modifier.size(28.dp), strokeWidth = 3.dp)
+            busy -> AppSpinner(size = SpinnerSize.Medium)
             ready -> Icon(Icons.Default.CheckCircle, contentDescription = null, tint = tint, modifier = Modifier.size(32.dp))
             else -> Icon(Icons.Default.Warning, contentDescription = null, tint = tint, modifier = Modifier.size(32.dp))
         }
@@ -456,12 +457,12 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     progress?.let {
         Spacer(Modifier.height(10.dp))
         Text(tr(it), style = MaterialTheme.typography.bodySmall)
-        LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
+        AppProgressBar(null, Modifier.padding(top = 4.dp))
     }
     if (viewModel.hasRuntimeSetup) {
         Spacer(Modifier.height(12.dp))
         Column(
-            Modifier.fillMaxWidth().clip(AppShapes.panel).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.panel),
+            Modifier.fillMaxWidth().clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel),
         ) {
             Row(
                 Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = 16.dp, vertical = 12.dp),
@@ -538,14 +539,7 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
     }.filter(matches).let { list -> if (tab == PackageTab.INSTALLED) list.sortedBy { it.title } else list }
 
     val search: @Composable (Modifier) -> Unit = { modifier ->
-        AppTextField(
-            value = query,
-            onValueChange = { query = it },
-            placeholder = { Text(if (runtime) tr("Search packages") else tr("Search models")) },
-            leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
-            singleLine = true,
-            modifier = modifier,
-        )
+        SearchField(query, { query = it }, if (runtime) tr("Search packages") else tr("Search models"), modifier)
     }
     ContentCard(
         title,
@@ -623,7 +617,7 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
 private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: List<LocalPackage>, pair: PairState, packageBusy: Set<String>) {
     FlowRow(
         Modifier.fillMaxWidth().clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control).padding(horizontal = 16.dp, vertical = 10.dp),
+            .border(AppBorders.hairline(), AppShapes.control).padding(horizontal = 16.dp, vertical = 10.dp),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
         verticalArrangement = Arrangement.spacedBy(6.dp),
         itemVerticalAlignment = Alignment.CenterVertically,
@@ -635,7 +629,7 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
                 Spacer(Modifier.width(10.dp))
                 Text(tr("{0} used", formatSize(used)), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
             }
-            Box(Modifier.width(1.dp).height(22.dp).background(MaterialTheme.colorScheme.outlineVariant))
+            AppVerticalDivider(Modifier.height(22.dp))
         }
         if (pair.learning != null && !pair.sameLanguage) {
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -669,9 +663,8 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
 
 @Composable
 internal fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
-    var menu by remember { mutableStateOf(false) }
     Row(
-        modifier.clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control)
+        modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
             .padding(start = 12.dp, end = 4.dp, top = 8.dp, bottom = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -681,7 +674,7 @@ internal fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onIn
             Text(pkg.displayTitle, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
             val detail = listOfNotNull(pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize), tr("Needed for your language").takeIf { needed && !pkg.installed })
             if (detail.isNotEmpty()) Text(detail.joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            if (busy) LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
+            if (busy) AppProgressBar(null, Modifier.padding(top = 4.dp))
         }
         Spacer(Modifier.width(12.dp))
         when {
@@ -691,11 +684,8 @@ internal fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onIn
                 Spacer(Modifier.width(8.dp))
                 Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(4.dp))
-                Box {
-                    IconButton(onClick = { menu = true }) { Icon(AppIcons.MoreHoriz, contentDescription = tr("More for {0}", pkg.displayTitle)) }
-                    AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
-                        AppMenuItem(text = { Text(tr("Remove")) }, onClick = { menu = false; onRemove() })
-                    }
+                OverflowMenu(tr("More for {0}", pkg.displayTitle)) { close ->
+                    AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })
                 }
             }
             else -> PrimaryButton(tr("Install"), onClick = onInstall, modifier = Modifier.padding(end = 8.dp))

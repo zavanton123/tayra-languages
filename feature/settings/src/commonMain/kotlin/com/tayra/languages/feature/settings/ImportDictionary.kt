@@ -3,7 +3,6 @@ package com.tayra.languages.feature.settings
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -20,6 +19,7 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.language.LanguageOption
 import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppProgressBar
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.PrimaryButton
@@ -51,11 +51,11 @@ internal fun ImportDictionaryCard(viewModel: DictionariesViewModel, learning: La
         when (val current = state) {
             is DictionaryImport.Importing -> {
                 Text(tr("Importing {0}...", current.title), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                LinearProgressIndicator(progress = { current.progress }, modifier = Modifier.fillMaxWidth())
+                AppProgressBar(current.progress)
             }
             DictionaryImport.Reading -> {
                 Text(tr("Reading the dictionary..."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                LinearProgressIndicator(Modifier.fillMaxWidth())
+                AppProgressBar(null)
             }
             else -> {
                 if (current is DictionaryImport.Done) Text(tr("{0} was imported.", current.title), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.primary)

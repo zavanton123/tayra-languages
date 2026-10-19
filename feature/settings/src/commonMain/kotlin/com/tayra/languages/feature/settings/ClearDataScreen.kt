@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -35,19 +34,26 @@ import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.service.ClearDataService
 import com.tayra.languages.core.domain.service.ClearStep
 import com.tayra.languages.core.ui.components.APP_NAME
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ButtonTone
+import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ConfirmDialog
+import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -61,8 +67,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material3.HorizontalDivider
-import androidx.compose.material3.VerticalDivider
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -124,28 +128,28 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
 
     ScreenHeader(tr("Clear local data"), tr("Remove your learning data and downloaded files from this device. Your preferences stay."), onBackToSettings = onBack)
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.large).padding(24.dp),
+        Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(24.dp),
     ) {
         if (wide) {
             Row(Modifier.height(IntrinsicSize.Min)) {
                 RemovedColumn(state, Modifier.weight(1f).padding(end = 24.dp))
-                VerticalDivider(color = colors.outlineVariant)
+                AppVerticalDivider()
                 RemainsColumn(onBackups, enabled = !state.started, Modifier.weight(1f).padding(start = 24.dp))
             }
         } else {
             RemovedColumn(state, Modifier.fillMaxWidth())
-            HorizontalDivider(Modifier.padding(vertical = 20.dp), color = colors.outlineVariant)
+            AppDivider(Modifier.padding(vertical = 20.dp))
             RemainsColumn(onBackups, enabled = !state.started, Modifier.fillMaxWidth())
         }
     }
 
     val tint = clearStatusTint(state)
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.large).background(tint.copy(alpha = 0.07f)).border(1.dp, tint.copy(alpha = 0.25f), AppShapes.large).padding(20.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.large).background(tint.copy(alpha = 0.07f)).border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.large).padding(20.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Tile(if (state.done && state.problems.isEmpty()) Icons.Default.CheckCircle else Icons.Default.Warning, tint, size = 48)
+        IconTile(if (state.done && state.problems.isEmpty()) Icons.Default.CheckCircle else Icons.Default.Warning, size = 48, tint = tint)
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
             Text(clearStatusTitle(state), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = tint)
             Text(clearStatusText(state), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -228,13 +232,13 @@ internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
     val running = state.running != null && state.running in group.steps
     val done = state.done || (state.running != null && group.steps.all { it.ordinal < state.running.ordinal })
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp), modifier = Modifier.testTag("clear-${group.name}")) {
-        Tile(
+        IconTile(
             when (group) {
                 ClearGroup.LEARNING -> AppIcons.MenuBook
                 ClearGroup.OFFLINE -> AppIcons.Download
                 ClearGroup.CACHE -> AppIcons.VolumeUp
             },
-            colors.primary,
+            tint = colors.primary,
         )
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
             Text(
@@ -261,7 +265,7 @@ internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
             Box(Modifier.size(24.dp), contentAlignment = Alignment.Center) {
                 when {
                     problems.isNotEmpty() -> Icon(Icons.Default.Warning, contentDescription = tr("Failed"), tint = colors.error)
-                    running -> CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
+                    running -> AppSpinner(size = SpinnerSize.Small)
                     done -> Icon(Icons.Default.CheckCircle, contentDescription = tr("Removed"), tint = StatusTints.ok)
                 }
             }
@@ -276,7 +280,7 @@ private fun RemainsColumn(onBackups: () -> Unit, enabled: Boolean, modifier: Mod
         ColumnHeader(AppIcons.VerifiedUser, colors.primary, tr("Will remain"), tr("Your app setup is not affected."))
         remainingItems().forEach { (icon, title, detail) ->
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                Tile(icon, colors.primary)
+                IconTile(icon, tint = colors.primary)
                 Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
                     Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                     Text(detail, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -285,7 +289,7 @@ private fun RemainsColumn(onBackups: () -> Unit, enabled: Boolean, modifier: Mod
         }
         Spacer(Modifier.weight(1f, fill = false))
         Row(
-            Modifier.fillMaxWidth().clip(AppShapes.panel).background(colors.primary.copy(alpha = 0.07f)).border(1.dp, colors.primary.copy(alpha = 0.18f), AppShapes.panel).padding(16.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.panel).background(colors.primary.copy(alpha = 0.07f)).border(AppBorders.hairline(colors.primary.copy(alpha = 0.18f)), AppShapes.panel).padding(16.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(14.dp),
         ) {
@@ -310,21 +314,10 @@ internal fun remainingItems(): List<Triple<ImageVector, String, String>> = listO
 @Composable
 private fun ColumnHeader(icon: ImageVector, tint: Color, title: String, subtitle: String) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-        Tile(icon, tint, size = 56)
+        IconTile(icon, size = 56, tint = tint)
         Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
             Text(title, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
             Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
-    }
-}
-
-/** A rounded square in a tint, with the icon in it. */
-@Composable
-internal fun Tile(icon: ImageVector, tint: Color, size: Int = 48) {
-    Box(
-        Modifier.size(size.dp).clip(AppShapes.panel).background(tint.copy(alpha = 0.09f)),
-        contentAlignment = Alignment.Center,
-    ) {
-        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size((size / 2).dp))
     }
 }

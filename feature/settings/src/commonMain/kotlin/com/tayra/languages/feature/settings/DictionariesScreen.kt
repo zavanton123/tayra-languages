@@ -1,17 +1,24 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.background
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppProgressBar
+import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.CodeTile
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SearchField
+import com.tayra.languages.core.ui.components.Segment
+import com.tayra.languages.core.ui.components.SegmentedToggle
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.formatSize
 import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -38,11 +45,8 @@ import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -75,7 +79,6 @@ import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -87,6 +90,7 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.coroutines.flow.SharingStarted
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaryInfo
@@ -103,6 +107,7 @@ import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.domain.ocr.TextRecognizer
 import com.tayra.languages.core.domain.ocr.OcrPack
 import com.tayra.languages.core.domain.ocr.NoTextRecognizer
+import androidx.compose.ui.text.style.TextOverflow
 
 /** The downloadable offline dictionary packs and their state on this device. */
 class DictionariesViewModel(
@@ -286,31 +291,9 @@ private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, cur
             }
             Spacer(Modifier.height(12.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
-                LanguageChip(learning?.code ?: "?", learning?.let { tr(it.name) } ?: tr("No language"))
+                PairChip(learning?.code ?: "?", learning?.let { tr(it.name) } ?: tr("No language"))
                 Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("looked up in"), modifier = Modifier.padding(horizontal = 12.dp).size(20.dp))
-                LanguageChip(LanguageCatalog.nativeLanguages.firstOrNull { it.name == nativeName }?.code ?: "", tr(nativeName))
-            }
-        }
-    }
-    val status: @Composable (Modifier) -> Unit = { modifier ->
-        val (icon, tint, title, text) = when {
-            state is PackState.Installed -> LookupStatus(Icons.Default.CheckCircle, StatusTints.ok, tr("Dictionary ready"), tr("Downloaded dictionaries work without a network connection and link inflected forms to their base word. Online dictionaries remain available as a fallback."))
-            state is PackState.Downloading -> LookupStatus(Icons.Default.Info, MaterialTheme.colorScheme.primary, tr("Downloading the dictionary…"), tr("It works offline as soon as the download finishes."))
-            state is PackState.Failed -> LookupStatus(Icons.Default.Warning, MaterialTheme.colorScheme.error, tr("Download failed"), packFailure(state.message))
-            current != null -> LookupStatus(Icons.Default.Warning, StatusTints.warning, tr("{0} is not downloaded", current.pack.displayTitle), tr("Download it to look words up offline and find their base forms. Until then the online dictionaries are used."))
-            else -> LookupStatus(Icons.Default.Info, MaterialTheme.colorScheme.outline, tr("No offline dictionary for this pair"), tr("Words are looked up in the online dictionaries set up for the language."))
-        }
-        Row(modifier, verticalAlignment = Alignment.Top) {
-            Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(30.dp))
-            Spacer(Modifier.width(12.dp))
-            Column(Modifier.weight(1f)) {
-                Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = if (state is PackState.Installed) tint else MaterialTheme.colorScheme.onSurface)
-                Text(text, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                if (state is PackState.Downloading) {
-                    val progress = state.progress
-                    if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth().padding(top = 6.dp))
-                    else LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 6.dp))
-                }
+                PairChip(LanguageCatalog.nativeLanguages.firstOrNull { it.name == nativeName }?.code ?: "", tr(nativeName))
             }
         }
     }
@@ -323,20 +306,19 @@ private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, cur
         }
     }
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card).padding(20.dp),
+        Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(20.dp),
     ) {
         if (compact) {
             pair()
             Spacer(Modifier.height(16.dp))
-            status(Modifier.fillMaxWidth())
+            LookupStatusRow(current, short = false, modifier = Modifier.fillMaxWidth())
             Spacer(Modifier.height(10.dp))
             action()
         } else {
             Row(Modifier.height(IntrinsicSize.Min), verticalAlignment = Alignment.CenterVertically) {
                 pair()
-                Box(Modifier.padding(horizontal = 32.dp).width(1.dp).fillMaxHeight().background(MaterialTheme.colorScheme.outlineVariant))
-                status(Modifier.weight(1f))
+                AppVerticalDivider(Modifier.padding(horizontal = 32.dp).fillMaxHeight())
+                LookupStatusRow(current, short = false, modifier = Modifier.weight(1f))
                 Spacer(Modifier.width(20.dp))
                 action()
             }
@@ -346,16 +328,49 @@ private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, cur
 
 private data class LookupStatus(val icon: androidx.compose.ui.graphics.vector.ImageVector, val tint: androidx.compose.ui.graphics.Color, val title: String, val text: String)
 
+/** Where the pair's dictionary stands, with the download's progress; [short] is the phone's wording. */
 @Composable
-private fun LanguageChip(code: String, name: String) {
+internal fun LookupStatusRow(current: PackStatus?, short: Boolean, modifier: Modifier = Modifier) {
+    val state = current?.state
+    val (icon, tint, title, text) = when {
+        state is PackState.Installed -> LookupStatus(
+            Icons.Default.CheckCircle, StatusTints.ok, tr("Dictionary ready"),
+            if (short) tr("Works offline and links inflected forms to their base word.")
+            else tr("Downloaded dictionaries work without a network connection and link inflected forms to their base word. Online dictionaries remain available as a fallback."),
+        )
+        state is PackState.Downloading -> LookupStatus(Icons.Default.Info, MaterialTheme.colorScheme.primary, tr("Downloading the dictionary…"), tr("It works offline as soon as the download finishes."))
+        state is PackState.Failed -> LookupStatus(Icons.Default.Warning, MaterialTheme.colorScheme.error, tr("Download failed"), packFailure(state.message))
+        current != null -> LookupStatus(
+            Icons.Default.Warning, StatusTints.warning, tr("{0} is not downloaded", current.pack.displayTitle),
+            if (short) tr("Online dictionaries are used until you download it.")
+            else tr("Download it to look words up offline and find their base forms. Until then the online dictionaries are used."),
+        )
+        else -> LookupStatus(Icons.Default.Info, MaterialTheme.colorScheme.outline, tr("No offline dictionary for this pair"), tr("Words are looked up in the online dictionaries set up for the language."))
+    }
+    Row(modifier, verticalAlignment = Alignment.Top) {
+        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(30.dp))
+        Spacer(Modifier.width(12.dp))
+        Column(Modifier.weight(1f)) {
+            Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = if (state is PackState.Installed) tint else MaterialTheme.colorScheme.onSurface)
+            Text(text, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (state is PackState.Downloading) {
+                AppProgressBar(state.progress, Modifier.padding(top = 6.dp))
+            }
+        }
+    }
+}
+
+/** A language of the looked-up pair: its code tile and its name. */
+@Composable
+internal fun PairChip(code: String, name: String, modifier: Modifier = Modifier) {
     Row(
-        Modifier.clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control).padding(6.dp).padding(end = 10.dp),
+        modifier.clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainerLow)
+            .border(AppBorders.hairline(), AppShapes.control).padding(6.dp).padding(end = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         CodeTile(code, size = 36)
         Spacer(Modifier.width(12.dp))
-        Text(name, style = MaterialTheme.typography.bodyLarge)
+        Text(name, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
 }
 
@@ -388,15 +403,13 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
             return@ContentCard
         }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
-            AppTextField(
-                value = query,
-                onValueChange = { query = it },
-                placeholder = { Text(tr("Search installed dictionaries")) },
-                leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
-                singleLine = true,
-                modifier = if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = 280.dp).weight(1f),
+            SearchField(
+                query,
+                { query = it },
+                tr("Search installed dictionaries"),
+                if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = 280.dp).weight(1f),
             )
-            if (targets.size > 1) Segmented(targets, chosen) { target = it }
+            if (targets.size > 1) SegmentedToggle(targets.map { Segment(it, label = tr(it)) }, chosen ?: targets.first(), onSelect = { target = it })
         }
         Spacer(Modifier.height(12.dp))
         Row(
@@ -413,9 +426,9 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
             )
         }
         Spacer(Modifier.height(8.dp))
-        Column(Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control)) {
+        Column(Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)) {
             shown.forEachIndexed { i, status ->
-                if (i > 0) Box(Modifier.fillMaxWidth().height(1.dp).background(MaterialTheme.colorScheme.outlineVariant))
+                if (i > 0) AppDivider()
                 InstalledRow(status, onRemove = { viewModel.remove(status.pack) })
             }
             if (shown.isEmpty()) {
@@ -434,31 +447,8 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
 }
 
 @Composable
-private fun Segmented(options: List<String>, selected: String?, onSelect: (String) -> Unit) {
-    Row(Modifier.clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainer).padding(3.dp)) {
-        options.forEach { option ->
-            val active = option == selected
-            Box(
-                Modifier.clip(AppShapes.compact)
-                    .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.14f) else androidx.compose.ui.graphics.Color.Transparent)
-                    .clickable { onSelect(option) }
-                    .padding(horizontal = 18.dp, vertical = 10.dp),
-            ) {
-                Text(
-                    tr(option),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
-                    fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
-                )
-            }
-        }
-    }
-}
-
-@Composable
 internal fun InstalledRow(status: PackStatus, onRemove: () -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
-    var menu by remember { mutableStateOf(false) }
     Row(Modifier.fillMaxWidth().heightIn(min = 52.dp).padding(start = 8.dp, end = 4.dp), verticalAlignment = Alignment.CenterVertically) {
         CodeTile(status.pack.id.sourceLanguage, size = 36)
         Spacer(Modifier.width(14.dp))
@@ -473,11 +463,8 @@ internal fun InstalledRow(status: PackStatus, onRemove: () -> Unit) {
             Box(Modifier.size(8.dp).clip(CircleShape).background(StatusTints.ok))
             Spacer(Modifier.width(8.dp))
             Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok, modifier = if (compact) Modifier else Modifier.width(110.dp))
-            Box {
-                IconButton(onClick = { menu = true }) { Icon(AppIcons.MoreHoriz, contentDescription = tr("More for {0}", status.pack.displayTitle)) }
-                AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
-                    AppMenuItem(text = { Text(tr("Remove")) }, onClick = { menu = false; onRemove() })
-                }
+            OverflowMenu(tr("More for {0}", status.pack.displayTitle)) { close ->
+                AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })
             }
         }
     }
@@ -502,14 +489,7 @@ private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, na
         modifier = modifier,
     ) {
         if (browsing || learning == null) {
-            AppTextField(
-                value = query,
-                onValueChange = { query = it },
-                placeholder = { Text(tr("Search dictionaries")) },
-                leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
-            )
+            SearchField(query, { query = it }, tr("Search dictionaries"), Modifier.fillMaxWidth())
             Spacer(Modifier.height(10.dp))
         }
         if (shown.isEmpty()) {
@@ -551,7 +531,7 @@ private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, na
 private fun AvailableRow(status: PackStatus, browsing: Boolean, onDownload: () -> Unit) {
     val state = status.state
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control).padding(10.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(10.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         // For one source language the target is what tells the packs apart.
@@ -569,9 +549,7 @@ private fun AvailableRow(status: PackStatus, browsing: Boolean, onDownload: () -
                 color = if (state is PackState.Failed) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurfaceVariant,
             )
             if (state is PackState.Downloading) {
-                val progress = state.progress
-                if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
-                else LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
+                AppProgressBar(state.progress, Modifier.padding(top = 4.dp))
             }
         }
         Spacer(Modifier.width(12.dp))

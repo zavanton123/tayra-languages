@@ -6,7 +6,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -21,12 +20,8 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -38,7 +33,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -54,22 +48,29 @@ import com.tayra.languages.core.domain.service.SpeechPackage
 import com.tayra.languages.core.domain.service.SpeechVoice
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.audio.rememberSpeaker
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppTextField
+import com.tayra.languages.core.ui.components.AppProgressBar
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.CodeTile
+import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.RoundSlider
+import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
@@ -99,10 +100,10 @@ internal fun PhoneSpeechScreen(
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
             Text(tr("Choose how words and passages are spoken."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             StatusBanner(engine, checking, ready, learning, voices)
-            PhoneCard(tr("Speech engine"), AppIcons.Memory) {
+            ContentCard(tr("Speech engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
                 val chosen = settings.speechEngine.takeIf { it in viewModel.engines } ?: SpeechEngine.SYSTEM
                 Row(
-                    Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, colors.outline.copy(alpha = 0.5f), AppShapes.control)
+                    Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(colors.outline.copy(alpha = 0.5f)), AppShapes.control)
                         .clickable { engineSheet = true }.padding(horizontal = 14.dp, vertical = 14.dp).testTag("phone-speech-engine"),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
@@ -122,14 +123,14 @@ internal fun PhoneSpeechScreen(
                     PhoneEngineStatus(viewModel, engine)
                 }
             }
-            PhoneCard(tr("Playback"), AppIcons.VolumeUp) {
+            ContentCard(tr("Playback"), subtitle = null, icon = AppIcons.VolumeUp, dense = true) {
                 val options = learning?.let { voices[it.code] }.orEmpty()
                 if (engine != null && learning != null && options.isNotEmpty()) {
                     val current = settings.speechVoices["${engine.engine.name}:${learning.code}"]
                     var voiceSheet by remember { mutableStateOf(false) }
                     val selected = options.firstOrNull { it.id == current } ?: options.first()
                     Row(
-                        Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, colors.outline.copy(alpha = 0.5f), AppShapes.control)
+                        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(colors.outline.copy(alpha = 0.5f)), AppShapes.control)
                             .clickable { voiceSheet = true }.padding(horizontal = 14.dp, vertical = 12.dp).testTag("phone-speech-voice"),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
@@ -193,26 +194,12 @@ private fun StatusBanner(engine: LocalSpeechEngine?, checking: Boolean, ready: B
         else -> Triple(Icons.Default.CheckCircle, StatusTints.ok, tr("Offline speech ready"))
     }
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.10f)).border(1.dp, tint.copy(alpha = 0.3f), AppShapes.panel).padding(horizontal = 14.dp, vertical = 12.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.10f)).border(AppBorders.hairline(tint.copy(alpha = 0.3f)), AppShapes.panel).padding(horizontal = 14.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
         Spacer(Modifier.width(12.dp))
         Text(text, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, color = if (tint == StatusTints.warning) tint else colors.onSurface)
-    }
-}
-
-@Composable
-private fun PhoneCard(title: String, icon: ImageVector, titleExtra: @Composable () -> Unit = {}, content: @Composable ColumnScope.() -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-            IconTile(icon, size = 44)
-            Text(title, Modifier.weight(1f), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-            titleExtra()
-        }
-        Spacer(Modifier.height(14.dp))
-        content()
     }
 }
 
@@ -232,12 +219,12 @@ private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEng
         else -> StatusTints.warning
     }
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.08f)).border(1.dp, tint.copy(alpha = 0.25f), AppShapes.panel).padding(14.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.08f)).border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.panel).padding(14.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             when {
-                busy -> CircularProgressIndicator(Modifier.size(26.dp), strokeWidth = 3.dp)
+                busy -> AppSpinner(size = SpinnerSize.Medium)
                 working -> Icon(Icons.Default.CheckCircle, contentDescription = null, tint = tint, modifier = Modifier.size(30.dp))
                 else -> Icon(Icons.Default.Warning, contentDescription = null, tint = tint, modifier = Modifier.size(30.dp))
             }
@@ -263,7 +250,7 @@ private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEng
         }
         progress?.let {
             Text(tr(it), style = MaterialTheme.typography.bodySmall)
-            LinearProgressIndicator(Modifier.fillMaxWidth())
+            AppProgressBar(null)
         }
     }
 }
@@ -297,7 +284,7 @@ private fun PhoneModelCard(viewModel: SpeechViewModel, engine: LocalSpeechEngine
     val colors = MaterialTheme.colorScheme
     val busy = pkg.id in packageBusy
     val voiceCount = Regex("""(\d+) voices""").find(pkg.title)?.groupValues?.get(1)
-    PhoneCard(tr("Voice model"), AppIcons.Download, titleExtra = { if (pkg.installed) Tag(tr("Installed"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) }) {
+    ContentCard(tr("Voice model"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { if (pkg.installed) Tag(tr("Installed"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) }) {
         Text(tr("{0} voice model", engine.displayName), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
         Text(
             listOfNotNull(voiceCount?.let { trPlural(it.toInt(), "{0} voice", "{0} voices") }, pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
@@ -308,7 +295,7 @@ private fun PhoneModelCard(viewModel: SpeechViewModel, engine: LocalSpeechEngine
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             pkg.group.split(", ").filter { it.isNotBlank() }.take(6).forEach { name -> CodeTile(LanguageCodes.codeFor(name) ?: name.take(2), size = 34) }
         }
-        if (busy) LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 10.dp))
+        if (busy) AppProgressBar(null, Modifier.padding(top = 10.dp))
         Spacer(Modifier.height(14.dp))
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
             PackageAction(pkg, busy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
@@ -327,14 +314,7 @@ private fun PhoneVoices(viewModel: SpeechViewModel, packages: List<SpeechPackage
     // Voices for the language being learned come first; the rest only when searched for.
     val available = packages.filter { !it.installed && (query.isNotBlank() || it.languageCode == learning?.code) }.filter(matches).sortedBy { it.title }
     val languageName = learning?.let { tr(it.name) }
-    AppTextField(
-        value = query,
-        onValueChange = { query = it },
-        placeholder = { Text(tr("Search voices")) },
-        leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
-        singleLine = true,
-        modifier = Modifier.fillMaxWidth(),
-    )
+    SearchField(query, { query = it }, tr("Search voices"), Modifier.fillMaxWidth())
     if (installed.isNotEmpty()) {
         Text(tr("Installed voices"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
         VoiceList(installed, packageBusy, viewModel)
@@ -370,9 +350,9 @@ private fun PhoneVoices(viewModel: SpeechViewModel, packages: List<SpeechPackage
 @Composable
 private fun VoiceList(voices: List<SpeechPackage>, packageBusy: Set<String>, viewModel: SpeechViewModel) {
     val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().clip(AppShapes.panel).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.panel)) {
+    Column(Modifier.fillMaxWidth().cardSurface(AppShapes.panel)) {
         voices.forEachIndexed { i, pkg ->
-            if (i > 0) HorizontalDivider(color = colors.outlineVariant)
+            if (i > 0) AppDivider()
             Row(Modifier.fillMaxWidth().padding(start = 10.dp, end = 4.dp, top = 8.dp, bottom = 8.dp), verticalAlignment = Alignment.CenterVertically) {
                 CodeTile(pkg.languageCode ?: pkg.group.take(2), size = 40)
                 Spacer(Modifier.width(12.dp))
@@ -383,7 +363,7 @@ private fun VoiceList(voices: List<SpeechPackage>, packageBusy: Set<String>, vie
                         style = MaterialTheme.typography.bodySmall,
                         color = colors.onSurfaceVariant,
                     )
-                    if (pkg.id in packageBusy) LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
+                    if (pkg.id in packageBusy) AppProgressBar(null, Modifier.padding(top = 4.dp))
                 }
                 Spacer(Modifier.width(8.dp))
                 PackageAction(pkg, busy = pkg.id in packageBusy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
@@ -398,7 +378,7 @@ private fun AdvancedRow(viewModel: SpeechViewModel, engine: LocalSpeechEngine) {
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
-    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card)) {
+    Column(Modifier.fillMaxWidth().cardSurface(AppShapes.card)) {
         Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             IconTile(AppIcons.Tune, size = 44)
             Text(tr("Advanced engine settings"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)

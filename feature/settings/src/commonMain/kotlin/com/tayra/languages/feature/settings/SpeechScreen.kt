@@ -1,14 +1,21 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.Canvas
+import com.tayra.languages.core.ui.components.AppDivider
+import com.tayra.languages.core.ui.components.AppProgressBar
+import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.CodeTile
 import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PackageTab
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SettingRow
 import com.tayra.languages.core.ui.components.SliderStepper
+import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TabToggle
@@ -36,13 +43,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -58,7 +60,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -77,7 +78,6 @@ import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -89,6 +89,7 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -323,11 +324,11 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) 
     }
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.08f))
-            .border(1.dp, tint.copy(alpha = 0.25f), AppShapes.panel).padding(16.dp),
+            .border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.panel).padding(16.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         when {
-            busy -> CircularProgressIndicator(Modifier.size(28.dp), strokeWidth = 3.dp)
+            busy -> AppSpinner(size = SpinnerSize.Medium)
             working -> Icon(Icons.Default.CheckCircle, contentDescription = null, tint = tint, modifier = Modifier.size(32.dp))
             else -> Icon(Icons.Default.Warning, contentDescription = null, tint = tint, modifier = Modifier.size(32.dp))
         }
@@ -358,11 +359,11 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) 
     progress?.let {
         Spacer(Modifier.height(10.dp))
         Text(tr(it), style = MaterialTheme.typography.bodySmall)
-        LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
+        AppProgressBar(null, Modifier.padding(top = 4.dp))
     }
     if (engine.hasRuntimeSetup) {
         Spacer(Modifier.height(12.dp))
-        Column(Modifier.fillMaxWidth().clip(AppShapes.panel).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.panel)) {
+        Column(Modifier.fillMaxWidth().clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel)) {
             Row(
                 Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = 16.dp, vertical = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
@@ -447,7 +448,7 @@ private fun VoiceCard(
                 )
             }
         }
-        HorizontalDivider(Modifier.padding(vertical = 12.dp), color = MaterialTheme.colorScheme.outlineVariant)
+        AppDivider(Modifier.padding(vertical = 12.dp))
         TryIt(viewModel, learning)
     }
 }
@@ -529,13 +530,11 @@ private fun ModelCard(
         titleExtra = { if (pkg.installed) Tag(tr("Installed"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) },
     ) {
         Column(
-            Modifier.fillMaxWidth().clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control).padding(12.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(12.dp),
         ) {
             val languages = pkg.group.split(", ").filter { it.isNotBlank() }
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.size(44.dp).clip(AppShapes.compact).background(StatusTints.ok.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
-                    Icon(AppIcons.Storage, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(22.dp))
-                }
+                IconTile(AppIcons.Storage, size = 44, tint = StatusTints.ok)
                 Spacer(Modifier.width(14.dp))
                 Column(Modifier.weight(1f)) {
                     Text(tr("{0} voice model", engine.displayName), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
@@ -553,7 +552,7 @@ private fun ModelCard(
                 Spacer(Modifier.height(10.dp))
                 LanguageChips(languages)
             }
-            if (busy) LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 8.dp))
+            if (busy) AppProgressBar(null, Modifier.padding(top = 8.dp))
         }
         Spacer(Modifier.height(12.dp))
         DefaultVoiceNote(engine, settings, learning, voices, others = tr("Other languages fall back to the system voice."))
@@ -566,7 +565,7 @@ private fun LanguageChips(names: List<String>) {
     FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         names.forEach { name ->
             Row(
-                Modifier.clip(AppShapes.compact).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.compact).padding(end = 12.dp),
+                Modifier.clip(AppShapes.compact).border(AppBorders.hairline(), AppShapes.compact).padding(end = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 CodeTile(LanguageCodes.codeFor(name) ?: name.take(2), size = 34)
@@ -601,16 +600,7 @@ private fun VoicesCard(
         // Voices for the language being learned come first; the rest only when searched for.
         PackageTab.AVAILABLE -> packages.filter { !it.installed && (query.isNotBlank() || it.languageCode == learning?.code) }.sortedBy { it.title }
     }.filter(matches)
-    val search: @Composable (Modifier) -> Unit = { m ->
-        AppTextField(
-            value = query,
-            onValueChange = { query = it },
-            placeholder = { Text(tr("Search voices")) },
-            leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
-            singleLine = true,
-            modifier = m,
-        )
-    }
+    val search: @Composable (Modifier) -> Unit = { m -> SearchField(query, { query = it }, tr("Search voices"), m) }
     ContentCard(
         tr("Voices"),
         tr(engine.packagesDescription),
@@ -667,7 +657,7 @@ private fun VoicesCard(
 @Composable
 private fun VoiceTile(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
     Row(
-        modifier.clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control)
+        modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
             .padding(start = 12.dp, end = 4.dp, top = 8.dp, bottom = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -680,7 +670,7 @@ private fun VoiceTile(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, 
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
-            if (busy) LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
+            if (busy) AppProgressBar(null, Modifier.padding(top = 4.dp))
         }
         Spacer(Modifier.width(12.dp))
         PackageAction(pkg, busy, onInstall, onRemove)
@@ -690,7 +680,6 @@ private fun VoiceTile(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, 
 /** "Installed" with a menu to remove it, a download button, or what is happening right now. */
 @Composable
 internal fun PackageAction(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit) {
-    var menu by remember { mutableStateOf(false) }
     Row(verticalAlignment = Alignment.CenterVertically) {
         when {
             busy -> Text(if (pkg.installed) tr("Removing…") else tr("Downloading…"), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = 12.dp))
@@ -699,11 +688,8 @@ internal fun PackageAction(pkg: SpeechPackage, busy: Boolean, onInstall: () -> U
                 Spacer(Modifier.width(8.dp))
                 Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(4.dp))
-                Box {
-                    IconButton(onClick = { menu = true }) { Icon(AppIcons.MoreHoriz, contentDescription = tr("More for {0}", pkg.displayTitle)) }
-                    AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
-                        AppMenuItem(text = { Text(tr("Remove")) }, onClick = { menu = false; onRemove() })
-                    }
+                OverflowMenu(tr("More for {0}", pkg.displayTitle)) { close ->
+                    AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })
                 }
             }
             else -> PrimaryButton(tr("Download"), onClick = onInstall, modifier = Modifier.padding(end = 8.dp))

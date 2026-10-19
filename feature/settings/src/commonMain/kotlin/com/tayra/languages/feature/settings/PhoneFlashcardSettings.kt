@@ -1,11 +1,8 @@
 package com.tayra.languages.feature.settings
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -21,7 +18,6 @@ import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -35,26 +31,24 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.flashcards.LearningSteps
 import com.tayra.languages.core.domain.settings.UserSettings
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.NumberStepper
 import com.tayra.languages.core.ui.components.RoundSlider
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
-import com.tayra.languages.core.ui.theme.AppShapes
 
 /** The flashcard settings on a phone: compact cards of plain rows, the explanation folded away, Reset at the bottom. */
 @Composable
@@ -66,13 +60,13 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
             Text(tr("Daily limits and review scheduling."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            PhoneCard(tr("Daily limits"), AppIcons.BarChart) {
+            ContentCard(tr("Daily limits"), subtitle = null, icon = AppIcons.BarChart, dense = true) {
                 ControlRow(tr("New cards a day")) {
                     NumberStepper(settings.flashcardNewPerDay, 0..UserSettings.MAX_FLASHCARDS_PER_DAY, name = tr("new cards a day"), step = 5) { n ->
                         viewModel.update { it.copy(flashcardNewPerDay = n) }
                     }
                 }
-                HorizontalDivider(color = colors.outlineVariant)
+                AppDivider()
                 val limited = settings.flashcardReviewsPerDay > 0
                 ControlRow(tr("Limit reviews a day")) {
                     Switch(checked = limited, onCheckedChange = { on -> viewModel.update { it.copy(flashcardReviewsPerDay = if (on) PHONE_DEFAULT_REVIEW_LIMIT else 0) } })
@@ -86,7 +80,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                     }
                 }
             }
-            PhoneCard(tr("Scheduling"), Icons.Default.Settings) {
+            ContentCard(tr("Scheduling"), subtitle = null, icon = Icons.Default.Settings, dense = true) {
                 Row(Modifier.padding(top = 4.dp), verticalAlignment = Alignment.CenterVertically) {
                     Text(tr("Desired retention"), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
                     Text("${settings.flashcardRetention}%", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
@@ -97,13 +91,13 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                     valueRange = UserSettings.MIN_FLASHCARD_RETENTION.toFloat()..UserSettings.MAX_FLASHCARD_RETENTION.toFloat(),
                     modifier = Modifier.fillMaxWidth().semantics { contentDescription = tr("desired retention") }.testTag("phone-retention"),
                 )
-                HorizontalDivider(Modifier.padding(top = 4.dp), color = colors.outlineVariant)
+                AppDivider(Modifier.padding(top = 4.dp))
                 StepsField(tr("Learning steps"), settings.flashcardLearnSteps) { text -> viewModel.update { it.copy(flashcardLearnSteps = text) } }
-                HorizontalDivider(color = colors.outlineVariant)
+                AppDivider()
                 StepsField(tr("Relearning steps"), settings.flashcardRelearnSteps) { text -> viewModel.update { it.copy(flashcardRelearnSteps = text) } }
                 Text(tr("Use s, m, h, or d."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = 4.dp))
             }
-            PhoneCard(tr("Answer"), AppIcons.VolumeUp) {
+            ContentCard(tr("Answer"), subtitle = null, icon = AppIcons.VolumeUp, dense = true) {
                 Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                     Column(Modifier.weight(1f)) {
                         Text(tr("Read aloud"), style = MaterialTheme.typography.bodyLarge)
@@ -111,7 +105,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                     }
                     Switch(checked = settings.flashcardAutoplay, onCheckedChange = { v -> viewModel.update { it.copy(flashcardAutoplay = v) } })
                 }
-                HorizontalDivider(color = colors.outlineVariant)
+                AppDivider()
                 Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                     Column(Modifier.weight(1f)) {
                         Text(tr("Two answer buttons"), style = MaterialTheme.typography.bodyLarge)
@@ -136,19 +130,6 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
 
 /** Anki's default review limit. */
 private const val PHONE_DEFAULT_REVIEW_LIMIT = 200
-
-@Composable
-private fun PhoneCard(title: String, icon: ImageVector, content: @Composable ColumnScope.() -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-            IconTile(icon, size = 44)
-            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-        }
-        Spacer(Modifier.height(8.dp))
-        content()
-    }
-}
 
 /** A label with its control at the end. */
 @Composable
@@ -187,7 +168,7 @@ private fun StepsField(title: String, saved: String, onSave: (String) -> Unit) {
 private fun HowItWorks() {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
-    Column(Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card)) {
+    Column(Modifier.fillMaxWidth().cardSurface()) {
         Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(16.dp).testTag("phone-how-it-works"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             Icon(Icons.Default.Info, contentDescription = null, tint = colors.primary, modifier = Modifier.size(26.dp))
             Text(tr("How flashcard scheduling works"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)

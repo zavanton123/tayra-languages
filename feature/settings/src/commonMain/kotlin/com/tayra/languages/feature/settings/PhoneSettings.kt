@@ -1,23 +1,16 @@
 package com.tayra.languages.feature.settings
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -30,17 +23,15 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.settings.UserSettings
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.NumberStepper
 import com.tayra.languages.core.ui.components.PickerSheet
@@ -48,7 +39,6 @@ import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.RoundSlider
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
-import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppThemes
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -72,14 +62,14 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
             Text(tr("Personalize your reading experience."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            PhoneCard(tr("Appearance"), icon = AppIcons.Palette) {
+            ContentCard(tr("Appearance"), subtitle = null, icon = AppIcons.Palette, dense = true) {
                 PickerRow(tr("Theme"), AppThemes.byId(settings.themeId).label, tag = "phone-theme") { themeSheet = true }
-                RowDivider()
+                AppDivider()
                 SwitchRow(tr("Highlight terms by status"), settings.showHighlights) { v -> viewModel.update { it.copy(showHighlights = v) } }
             }
-            PhoneCard(tr("Reading"), iconText = "Aa") {
+            ContentCard(tr("Reading"), subtitle = null, iconText = "Aa", dense = true) {
                 PickerRow(tr("Reading font"), ReadingFont.byId(settings.readingFont).label, tag = "phone-font") { fontSheet = true }
-                RowDivider()
+                AppDivider()
                 SliderRow(
                     tr("Font size"),
                     "${kotlin.math.round(settings.readingFontScale * 100).toInt()}%",
@@ -88,7 +78,7 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
                     step = 0.1f,
                     name = tr("reading font size"),
                 ) { v -> viewModel.update { it.copy(readingFontScale = v) } }
-                RowDivider()
+                AppDivider()
                 SliderRow(
                     tr("Line height"),
                     (kotlin.math.round(settings.readingLineHeight * 10) / 10f).toString(),
@@ -98,10 +88,10 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
                     name = tr("reading line height"),
                 ) { v -> viewModel.update { it.copy(readingLineHeight = v) } }
             }
-            PhoneCard(tr("Reading preview"), icon = AppIcons.MenuBook) { PreviewBox(settings, padding = 16.dp) }
-            PhoneCard(tr("Behaviour"), icon = Icons.Default.Settings) {
+            ContentCard(tr("Reading preview"), subtitle = null, icon = AppIcons.MenuBook, dense = true) { PreviewBox(settings, padding = 16.dp) }
+            ContentCard(tr("Behaviour"), subtitle = null, icon = Icons.Default.Settings, dense = true) {
                 SwitchRow(tr("Show reading streak on home page"), settings.showStreakOnHome) { v -> viewModel.update { it.copy(showStreakOnHome = v) } }
-                RowDivider()
+                AppDivider()
                 Column(Modifier.padding(vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text(tr("Book stats page sample size"), style = MaterialTheme.typography.bodyLarge)
                     NumberStepper(
@@ -128,25 +118,6 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
         )
     }
 }
-
-/** A card with an icon tile and a title, its rows below. */
-@Composable
-private fun PhoneCard(title: String, icon: ImageVector? = null, iconText: String? = null, content: @Composable ColumnScope.() -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Column(
-        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.card).padding(16.dp),
-    ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-            IconTile(icon, iconText, size = 44)
-            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-        }
-        Spacer(Modifier.height(6.dp))
-        content()
-    }
-}
-
-@Composable
-private fun RowDivider() = HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
 
 /** A row that opens a picker: the label, the current value and a chevron. */
 @Composable
