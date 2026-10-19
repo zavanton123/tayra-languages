@@ -72,6 +72,8 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Edit course" to "编辑课程",
     "Delete" to "删除",
     "Delete this course?" to "删除这个课程？",
+    "Course actions" to "课程操作",
+    "Delete course" to "删除课程",
     "{1} and its {0} lessons are deleted, with your reading progress in them. Words you saved stay in your vocabulary." to "“{1}”及其 {0} 篇课文将连同阅读进度一起删除。已保存的单词仍保留在词汇中。",
     "Cancel" to "取消",
     "Lessons" to "课文",

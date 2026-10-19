@@ -72,6 +72,8 @@ internal val elCourses: Map<String, String> = mapOf(
     "Edit course" to "Επεξεργασία μαθήματος",
     "Delete" to "Διαγραφή",
     "Delete this course?" to "Διαγραφή αυτού του μαθήματος;",
+    "Course actions" to "Ενέργειες μαθήματος",
+    "Delete course" to "Διαγραφή μαθήματος",
     "{1} and its {0} lessons are deleted, with your reading progress in them. Words you saved stay in your vocabulary." to "Το «{1}» και η {0} ενότητά του διαγράφονται μαζί με την πρόοδο ανάγνωσής σας. Οι λέξεις που αποθηκεύσατε μένουν στο λεξιλόγιό σας.|Το «{1}» και οι {0} ενότητές του διαγράφονται μαζί με την πρόοδο ανάγνωσής σας. Οι λέξεις που αποθηκεύσατε μένουν στο λεξιλόγιό σας.",
     "Cancel" to "Ακύρωση",
     "Lessons" to "Ενότητες",

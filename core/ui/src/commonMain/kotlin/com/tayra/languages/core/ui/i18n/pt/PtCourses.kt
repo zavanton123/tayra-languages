@@ -72,6 +72,8 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Edit course" to "Editar curso",
     "Delete" to "Excluir",
     "Delete this course?" to "Excluir este curso?",
+    "Course actions" to "Ações do curso",
+    "Delete course" to "Excluir curso",
     "{1} and its {0} lessons are deleted, with your reading progress in them. Words you saved stay in your vocabulary." to "O curso “{1}” e sua {0} lição serão excluídos, com o seu progresso de leitura. As palavras que você salvou continuam no seu vocabulário.|O curso “{1}” e suas {0} lições serão excluídos, com o seu progresso de leitura. As palavras que você salvou continuam no seu vocabulário.",
     "Cancel" to "Cancelar",
     "Lessons" to "Lições",

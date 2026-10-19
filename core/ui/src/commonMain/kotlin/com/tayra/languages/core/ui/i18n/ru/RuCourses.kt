@@ -72,6 +72,8 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Edit course" to "Изменить курс",
     "Delete" to "Удалить",
     "Delete this course?" to "Удалить этот курс?",
+    "Course actions" to "Действия с курсом",
+    "Delete course" to "Удалить курс",
     "{1} and its {0} lessons are deleted, with your reading progress in them. Words you saved stay in your vocabulary." to "Курс «{1}» и его {0} урок будут удалены вместе с прогрессом чтения. Сохранённые слова останутся в разделе «Слова».|Курс «{1}» и его {0} урока будут удалены вместе с прогрессом чтения. Сохранённые слова останутся в разделе «Слова».|Курс «{1}» и его {0} уроков будут удалены вместе с прогрессом чтения. Сохранённые слова останутся в разделе «Слова».",
     "Cancel" to "Отмена",
     "Lessons" to "Уроки",

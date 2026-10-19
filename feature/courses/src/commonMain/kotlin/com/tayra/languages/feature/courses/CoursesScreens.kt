@@ -706,6 +706,7 @@ internal fun CourseContent(
 private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Unit, editing: CourseEditing?, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val course = progress.course
+    var confirm by remember { mutableStateOf(false) }
     Column(modifier.cardSurface(AppShapes.large)) {
         // A stripe in the level's colour.
         Box(Modifier.fillMaxWidth().height(LEVEL_STRIPE).background(course.level.tint.copy(alpha = AppAlpha.half)))
@@ -715,6 +716,12 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
                     Text(course.title, style = AppText.headline)
                     Text(course.subtitle, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                }
+                // Deleting is kept in a menu by the title, away from the buttons that start and edit the course.
+                if (editing != null) {
+                    OverflowMenu(tr("Course actions"), buttonModifier = Modifier.testTag("course-menu")) { close ->
+                        AppMenuItem(text = { Text(tr("Delete course"), color = colors.error) }, onClick = { close(); confirm = true })
+                    }
                 }
             }
             CourseTags(course)
@@ -747,11 +754,7 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                 }
             }
             if (editing != null) {
-                var confirm by remember { mutableStateOf(false) }
-                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    SecondaryButton(tr("Edit course"), onClick = editing.onEdit, modifier = Modifier.weight(1f).testTag("edit-course"), icon = Icons.Default.Edit)
-                    SecondaryButton(tr("Delete"), onClick = { confirm = true }, modifier = Modifier.weight(1f).testTag("delete-course"), icon = Icons.Default.Delete, tone = ButtonTone.Danger)
-                }
+                SecondaryButton(tr("Edit course"), onClick = editing.onEdit, modifier = Modifier.fillMaxWidth().testTag("edit-course"), icon = Icons.Default.Edit)
                 if (confirm) {
                     ConfirmDelete(
                         tr("Delete this course?"),

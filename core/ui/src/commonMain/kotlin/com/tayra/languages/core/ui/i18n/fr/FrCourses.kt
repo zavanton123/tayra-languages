@@ -72,6 +72,8 @@ internal val frCourses: Map<String, String> = mapOf(
     "Edit course" to "Modifier le cours",
     "Delete" to "Supprimer",
     "Delete this course?" to "Supprimer ce cours ?",
+    "Course actions" to "Actions du cours",
+    "Delete course" to "Supprimer le cours",
     "{1} and its {0} lessons are deleted, with your reading progress in them. Words you saved stay in your vocabulary." to "« {1} » et sa {0} leçon seront supprimés, avec votre progression de lecture. Les mots enregistrés restent dans votre vocabulaire.|« {1} » et ses {0} leçons seront supprimés, avec votre progression de lecture. Les mots enregistrés restent dans votre vocabulaire.",
     "Cancel" to "Annuler",
     "Lessons" to "Leçons",
