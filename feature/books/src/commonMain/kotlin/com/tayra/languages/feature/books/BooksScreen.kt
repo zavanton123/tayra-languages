@@ -53,7 +53,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.unit.Constraints
@@ -110,6 +109,8 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import com.tayra.languages.core.ui.components.ScrollList
@@ -226,10 +227,10 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
     val showChecks = selecting || state.selectedBooks.isNotEmpty()
     ScrollList(
         modifier.fillMaxSize(),
-        contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
+        contentPadding = PaddingValues(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
     ) {
         item {
-            Column(Modifier.padding(bottom = 24.dp)) {
+            Column(Modifier.padding(bottom = AppSpacing.xxl)) {
                 ScreenHeader(
                     title = if (state.archived) tr("Archived books") else tr("Books"),
                     subtitle = if (state.archived) tr("Books you have set aside. Unarchive one to keep reading it.") else tr("Read, learn, and build your vocabulary with every text."),
@@ -274,13 +275,13 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
 private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val title: @Composable (Modifier) -> Unit = { m ->
-        Row(m, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(20.dp)) {
-            Box(Modifier.size(76.dp).clip(AppShapes.circle).background(colors.primary.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) {
+        Row(m, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+            Box(Modifier.size(CONTINUE_ICON_TILE).clip(AppShapes.circle).background(colors.primary.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) {
                 Icon(AppIcons.MenuBook, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
             }
-            Column(Modifier.weight(1f, fill = false), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                Text(tr("Continue reading"), style = MaterialTheme.typography.titleSmall, color = colors.primary, fontWeight = FontWeight.SemiBold)
-                Text(book.title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Column(Modifier.weight(1f, fill = false), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+                Text(tr("Continue reading"), style = AppText.smallTitle, color = colors.primary)
+                Text(book.title, style = AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(
                     tr("Page {0} of {1} · {2}% read", book.currentPage, book.pageCount, book.progressPercent),
                     style = MaterialTheme.typography.bodyLarge,
@@ -290,7 +291,7 @@ private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) {
         }
     }
     val bar: @Composable (String, Int?, Color, Modifier) -> Unit = { label, percent, tint, m ->
-        Column(m, verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Column(m, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             Text(label, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             PercentBar(percent, tint)
         }
@@ -298,13 +299,13 @@ private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) {
     val button: @Composable (Modifier) -> Unit = { m ->
         PrimaryButton(tr("Continue"), onClick = onContinue, modifier = m.testTag("continue-reading"), size = ButtonSize.Large)
     }
-    TintedSurface(colors.primary, Modifier.padding(bottom = 24.dp), shape = AppShapes.large, padding = PaddingValues(horizontal = 24.dp, vertical = 20.dp)) {
-        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(32.dp)) {
+    TintedSurface(colors.primary, Modifier.padding(bottom = AppSpacing.xxl), shape = AppShapes.large, padding = PaddingValues(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl)) {
+        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxxl)) {
             title(Modifier.weight(1.2f))
             bar(tr("Reading progress"), book.progressPercent, AppAccents.blue, Modifier.weight(1f))
             AppVerticalDivider()
             bar(tr("Vocabulary known"), book.masteryPercent, AppAccents.green, Modifier.weight(1f))
-            button(Modifier.width(180.dp))
+            button(Modifier.width(CONTINUE_BUTTON_WIDTH))
         }
     }
 }
@@ -322,7 +323,7 @@ internal fun ProgressTabs(counts: Map<ProgressFilter, Int>, selected: ProgressFi
         listOf(ProgressFilter.ALL, ProgressFilter.READING, ProgressFilter.NOT_STARTED, ProgressFilter.FINISHED).map { Tab(it, it.tabLabel, counts[it] ?: 0, testTag = "progress-${it.name}") },
         selected,
         onSelect,
-        Modifier.padding(bottom = if (compact) 14.dp else 18.dp),
+        Modifier.padding(bottom = if (compact) AppSpacing.l else AppSpacing.xl),
         style = SegmentStyle.Soft,
         compact = compact,
     )
@@ -335,9 +336,9 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count:
     val hasTags = state.availableTags.isNotEmpty()
     val tagFilter: @Composable (Modifier) -> Unit = { TagFilterButton(state.availableTags, state.tags, state.matchAllTags, callbacks.onTags, it) }
     if (compact) {
-        Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             SearchField(state.search, callbacks.onSearch, tr("Search titles or tags"), Modifier.fillMaxWidth())
-            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 if (hasTags) tagFilter(Modifier)
                 sortMenu(Modifier.weight(1f))
             }
@@ -353,7 +354,7 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count:
             if (wide) ViewToggle(state.view, callbacks.onView) else Spacer(Modifier)
             Text(trPlural(count, "{0} book", "{0} books"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
         },
-        modifier = Modifier.fillMaxWidth().padding(bottom = 24.dp),
+        modifier = Modifier.fillMaxWidth().padding(bottom = AppSpacing.xxl),
     ) { measurables, constraints ->
         // The search takes what the other controls leave, up to a comfortable width; when too
         // little is left it gets a row of its own above them.
@@ -388,7 +389,7 @@ private fun LibraryHeader(state: BooksUiState, selecting: Boolean, onSelect: () 
         BooksSelectionBar(state, callbacks, onDone)
         return
     }
-    SectionHeader(if (state.archived) tr("Archive") else tr("Your library"), Modifier.padding(bottom = 14.dp)) {
+    SectionHeader(if (state.archived) tr("Archive") else tr("Your library"), Modifier.padding(bottom = AppSpacing.l)) {
         if (state.filteredBooks.isNotEmpty()) QuietButton(tr("Select"), onClick = onSelect, modifier = Modifier.testTag("select-books"))
     }
 }
@@ -412,6 +413,9 @@ private const val PROGRESS_WEIGHT = 2.2f
 private const val KNOWN_WEIGHT = 2.2f
 private const val OPENED_WEIGHT = 1.3f
 private val MENU_WIDTH = 72.dp
+private val CONTINUE_ICON_TILE = 76.dp
+private val CONTINUE_BUTTON_WIDTH = 180.dp
+private val PERCENT_WIDTH = 40.dp
 
 @Composable
 private fun BookTable(state: BooksUiState, selecting: Boolean, callbacks: BooksCallbacks) {
@@ -429,7 +433,7 @@ private fun BookTable(state: BooksUiState, selecting: Boolean, callbacks: BooksC
 private fun BookTableHeader(state: BooksUiState, selecting: Boolean, callbacks: BooksCallbacks) {
     val sort = state.sort
     val onSort = callbacks.onSort
-    TableHeader(padding = PaddingValues(start = if (selecting) 8.dp else 24.dp, end = 12.dp, top = 8.dp, bottom = 8.dp)) {
+    TableHeader(padding = PaddingValues(start = if (selecting) AppSpacing.s else AppSpacing.xxl, end = AppSpacing.m, top = AppSpacing.s, bottom = AppSpacing.s)) {
         // Ticking all is in the selection bar above; this keeps the columns over the rows' checkboxes.
         if (selecting) Spacer(Modifier.width(CHECKBOX_WIDTH + CHECKBOX_GAP))
         TableHeaderCell(tr("Book"), Modifier.weight(BOOK_WEIGHT), active = sort == BookSort.TITLE) { onSort(BookSort.TITLE) }
@@ -453,26 +457,26 @@ private fun BookTableRow(book: BookListItem, selected: Boolean, selecting: Boole
     }
     Row(
         Modifier.fillMaxWidth().background(background)
-            .hoverable(interaction).clickable { callbacks.onOpen(book) }.padding(start = if (selecting) 8.dp else 24.dp, end = 12.dp, top = 12.dp, bottom = 12.dp),
+            .hoverable(interaction).clickable { callbacks.onOpen(book) }.padding(start = if (selecting) AppSpacing.s else AppSpacing.xxl, end = AppSpacing.m, top = AppSpacing.m, bottom = AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         if (selecting) {
             BookCheckbox(book, selected, callbacks)
             Spacer(Modifier.width(CHECKBOX_GAP))
         }
-        Row(Modifier.weight(BOOK_WEIGHT).padding(end = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+        Row(Modifier.weight(BOOK_WEIGHT).padding(end = AppSpacing.xl), verticalAlignment = Alignment.CenterVertically) {
             BookCover(book, 52.dp)
-            Spacer(Modifier.width(16.dp))
-            Column(verticalArrangement = Arrangement.spacedBy(3.dp)) {
-                Text(book.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Spacer(Modifier.width(AppSpacing.l))
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                Text(book.title, style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(words(book.wordCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 BookTags(book.tags)
             }
         }
         Box(Modifier.width(STATUS_WIDTH.dp)) { StatusTag(book.readingStatus) }
-        Box(Modifier.weight(PROGRESS_WEIGHT).padding(end = 32.dp)) { PercentBar(book.progressPercent, AppAccents.blue) }
-        Box(Modifier.weight(KNOWN_WEIGHT).padding(end = 32.dp)) { PercentBar(book.masteryPercent, AppAccents.green) }
-        Text(book.lastOpened?.relativeTo() ?: tr("Not opened yet"), Modifier.weight(OPENED_WEIGHT).padding(end = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        Box(Modifier.weight(PROGRESS_WEIGHT).padding(end = AppSpacing.xxxl)) { PercentBar(book.progressPercent, AppAccents.blue) }
+        Box(Modifier.weight(KNOWN_WEIGHT).padding(end = AppSpacing.xxxl)) { PercentBar(book.masteryPercent, AppAccents.green) }
+        Text(book.lastOpened?.relativeTo() ?: tr("Not opened yet"), Modifier.weight(OPENED_WEIGHT).padding(end = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { BookMenu(book, callbacks) }
     }
 }
@@ -492,7 +496,7 @@ internal fun StatusTag(status: ReadingStatus, size: TagSize = TagSize.Large) {
 @Composable
 internal fun BookTags(tags: List<String>, max: Int = 3) {
     if (tags.isEmpty()) return
-    FlowRow(Modifier.padding(top = 2.dp), horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+    FlowRow(Modifier.padding(top = AppSpacing.xxs), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
         (tags.take(max) + listOfNotNull(if (tags.size > max) "+${tags.size - max}" else null)).forEach { tag ->
             Tag(tag, size = TagSize.Small, style = TagStyle.Neutral)
         }
@@ -503,9 +507,9 @@ internal fun BookTags(tags: List<String>, max: Int = 3) {
 @Composable
 internal fun PercentBar(percent: Int?, color: Color) {
     val colors = MaterialTheme.colorScheme
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-        ProgressTrack((percent ?: 0) / 100f, color, Modifier.weight(1f), height = 8.dp)
-        Text(percent?.let { "$it%" } ?: "…", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.width(40.dp), softWrap = false)
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        ProgressTrack((percent ?: 0) / 100f, color, Modifier.weight(1f), height = AppSizes.trackThick)
+        Text(percent?.let { "$it%" } ?: "…", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.width(PERCENT_WIDTH), softWrap = false)
     }
 }
 
@@ -535,32 +539,32 @@ private fun BookCard(book: BookListItem, selected: Boolean, selecting: Boolean, 
     Column(
         modifier.clip(shape).border(AppBorders.hairline(if (selected || hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
             .background(if (selected) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
-            .hoverable(interaction).clickable { callbacks.onOpen(book) }.padding(20.dp),
+            .hoverable(interaction).clickable { callbacks.onOpen(book) }.padding(AppSpacing.xl),
     ) {
         Row(verticalAlignment = Alignment.Top) {
             if (selecting) {
                 Box(Modifier.offset(x = (-12).dp, y = (-8).dp)) { BookCheckbox(book, selected, callbacks) }
             }
             BookCover(book, 88.dp)
-            Spacer(Modifier.width(18.dp))
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Text(book.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            Spacer(Modifier.width(AppSpacing.xl))
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                Text(book.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text(words(book.wordCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                Spacer(Modifier.height(4.dp))
+                Spacer(Modifier.height(AppSpacing.xs))
                 BookTags(book.tags)
             }
             Box(Modifier.offset(x = 12.dp, y = (-8).dp)) { BookMenu(book, callbacks) }
         }
-        Spacer(Modifier.height(18.dp))
+        Spacer(Modifier.height(AppSpacing.xl))
         Spacer(Modifier.weight(1f))
         Text(tr("Reading"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        Spacer(Modifier.height(6.dp))
+        Spacer(Modifier.height(AppSpacing.s))
         PercentBar(book.progressPercent, AppAccents.blue)
-        Spacer(Modifier.height(14.dp))
+        Spacer(Modifier.height(AppSpacing.l))
         Text(tr("Vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        Spacer(Modifier.height(6.dp))
+        Spacer(Modifier.height(AppSpacing.s))
         PercentBar(book.masteryPercent, AppAccents.green)
-        Spacer(Modifier.height(18.dp))
+        Spacer(Modifier.height(AppSpacing.xl))
         Row(verticalAlignment = Alignment.CenterVertically) {
             Box(Modifier.weight(1f)) { StatusTag(book.readingStatus) }
             Text(
@@ -611,8 +615,7 @@ internal fun BookCover(book: BookListItem, width: Dp) {
         Text(
             code,
             Modifier.padding(start = width * 0.16f, top = width * 0.1f),
-            style = if (width > 64.dp) MaterialTheme.typography.titleLarge else MaterialTheme.typography.titleSmall,
-            fontWeight = FontWeight.Bold,
+            style = if (width > 64.dp) AppText.sectionTitle else AppText.smallTitle,
             color = tint,
         )
     }
@@ -633,7 +636,7 @@ internal fun BooksSelectionBar(state: BooksUiState, callbacks: BooksCallbacks, o
     val all = count > 0 && count == state.filteredBooks.size
     SelectionBar(
         tr("{0} of {1} selected", count, state.filteredBooks.size),
-        Modifier.padding(bottom = 14.dp),
+        Modifier.padding(bottom = AppSpacing.l),
         leading = { AppCheckbox(checked = all, onCheckedChange = callbacks.onSelectAll, modifier = Modifier.semantics { contentDescription = tr("Select all books") }) },
     ) {
         QuietButton(if (state.archived) tr("Unarchive") else tr("Archive"), onClick = callbacks.onArchiveSelected, enabled = count > 0)
@@ -652,7 +655,7 @@ internal fun Footer(state: BooksUiState) {
             if (state.showStreak && state.streak > 0) add(trPlural(state.streak, "{0}-day streak", "{0}-day streak"))
         }
     }
-    Text(parts.joinToString("  ·  "), Modifier.padding(top = 20.dp), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    Text(parts.joinToString("  ·  "), Modifier.padding(top = AppSpacing.xl), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
 }
 
 @Composable
@@ -685,8 +688,8 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
             (state.packState as? PackState.Failed)?.let { failed ->
                 Text(tr(failed.message), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error, textAlign = TextAlign.Center)
             }
-            Spacer(Modifier.height(16.dp))
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Spacer(Modifier.height(AppSpacing.l))
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 if (state.packAvailable) {
                     PrimaryButton(
                         if (downloading) tr("Downloading…") else tr("Download the book bundle"),

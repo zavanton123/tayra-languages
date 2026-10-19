@@ -70,6 +70,7 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import io.github.vinceglb.filekit.PlatformFile
 import io.github.vinceglb.filekit.dialogs.FileKitMode
 import io.github.vinceglb.filekit.dialogs.FileKitType
@@ -142,9 +143,9 @@ fun BookFormScreen(
             state.progress?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.primary) }
             state.ocrOffer?.let { OcrDownloadDialog(it, onDownload = viewModel::downloadRecognition, onCancel = viewModel::cancelPhotos) }
             when {
-                wide -> Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                wide -> Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                     BookContentCard(state, source, onSource = { source = it }, onChooseFile = { filePicker.launch() }, importFiles, camera, viewModel, Modifier.weight(1.65f))
-                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
+                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         DetailsCard(state, viewModel)
                         PageSetupCard(state, viewModel)
                     }
@@ -180,16 +181,16 @@ private fun BookContentCard(
             // The formats are many: beside the toggle where there is room, under it on a phone.
             if (LocalWindowWidth.current.isCompact) {
                 SourceToggle(source, onSource)
-                Spacer(Modifier.height(10.dp))
+                Spacer(Modifier.height(AppSpacing.m))
                 Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             } else {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     SourceToggle(source, onSource)
-                    Spacer(Modifier.width(20.dp))
+                    Spacer(Modifier.width(AppSpacing.xl))
                     Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
                 }
             }
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(AppSpacing.l))
         }
         when (if (state.isNew) source else ContentSource.PASTE) {
             ContentSource.PASTE -> {
@@ -199,9 +200,9 @@ private fun BookContentCard(
                     onValueChange = { text -> viewModel.update { it.copy(text = text) } },
                     placeholder = { Text(state.language?.name?.let { tr("Paste your {0} text here…", languageInSentence(it, LanguageCase.PREPOSITIONAL)) } ?: tr("Paste your text here…")) },
                     textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
-                    modifier = Modifier.fillMaxWidth().height(400.dp),
+                    modifier = Modifier.fillMaxWidth().height(CONTENT_HEIGHT),
                 )
-                Spacer(Modifier.height(8.dp))
+                Spacer(Modifier.height(AppSpacing.s))
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(
                         tr("Use a line containing only --- to force a page break."),
@@ -238,17 +239,17 @@ private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -
     var dropping by remember { mutableStateOf(false) }
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().height(400.dp).clip(AppShapes.panel)
+        Modifier.fillMaxWidth().height(CONTENT_HEIGHT).clip(AppShapes.panel)
             .background(if (dropping) colors.primary.copy(alpha = AppAlpha.wash) else colors.surfaceContainerLow)
             .border(if (dropping) AppBorders.selected() else AppBorders.hairline(), AppShapes.panel)
             .acceptsDroppedFiles(enabled = !state.busy, onHover = { dropping = it }, onFiles = onDropFiles)
             .clickable(enabled = !state.busy, onClick = onChooseFile)
-            .padding(24.dp),
+            .padding(AppSpacing.xxl),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
         Icon(AppIcons.UploadFile, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(AppSizes.iconHuge))
-        Spacer(Modifier.height(14.dp))
+        Spacer(Modifier.height(AppSpacing.l))
         Text(if (dropping) tr("Drop the files to read their text.") else tr("Choose a file to read its text"), style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center)
         Text(
             tr("{0} — the text appears under Paste text, ready to check.", formats),
@@ -267,13 +268,13 @@ private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -
         if (acceptsDroppedFiles) {
             Text(tr("Or drop files here."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
         }
-        Spacer(Modifier.height(16.dp))
-        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Spacer(Modifier.height(AppSpacing.l))
+        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             PrimaryButton(if (state.busy) tr("Reading…") else tr("Choose file"), onClick = onChooseFile, enabled = !state.busy)
             onTakePhoto?.let { take -> SecondaryButton(tr("Take photo"), onClick = take, enabled = !state.busy) }
         }
         state.importedFileName?.let {
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(AppSpacing.m))
             Text(tr("Last imported: {0}", it), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
     }
@@ -295,7 +296,7 @@ private fun DetailsCard(state: BookFormUiState, viewModel: BookFormViewModel, mo
                 optionLabel = { tr(it.name) },
                 modifier = Modifier.fillMaxWidth(),
             )
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(AppSpacing.l))
         }
         FieldLabel(tr("Title"))
         AppTextField(
@@ -306,7 +307,7 @@ private fun DetailsCard(state: BookFormUiState, viewModel: BookFormViewModel, mo
             textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
             modifier = Modifier.fillMaxWidth(),
         )
-        Spacer(Modifier.height(16.dp))
+        Spacer(Modifier.height(AppSpacing.l))
         FieldLabel(tr("Tags"))
         TagInput(
             values = draft.tags,
@@ -319,7 +320,7 @@ private fun DetailsCard(state: BookFormUiState, viewModel: BookFormViewModel, mo
             tr("Press Enter or a comma after each tag."),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.padding(top = 4.dp),
+            modifier = Modifier.padding(top = AppSpacing.xs),
         )
     }
 }
@@ -339,9 +340,9 @@ private fun PageSetupCard(state: BookFormUiState, viewModel: BookFormViewModel) 
             tr("A page ends at the end of a sentence once it passes this many words. Maximum {0}.", BookDraft.MAX_WORDS_PER_PAGE),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.padding(top = 4.dp),
+            modifier = Modifier.padding(top = AppSpacing.xs),
         )
-        Spacer(Modifier.height(16.dp))
+        Spacer(Modifier.height(AppSpacing.l))
         InfoBanner(
             when {
                 state.isNew -> tr("Pages will be created automatically when you save.")
@@ -358,7 +359,7 @@ private fun PageSetupCard(state: BookFormUiState, viewModel: BookFormViewModel) 
 
 @Composable
 private fun FieldLabel(text: String) {
-    Text(text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.padding(bottom = 6.dp))
+    Text(text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.padding(bottom = AppSpacing.s))
 }
 
 /** Cancel and save, kept in view at the bottom of the window. */
@@ -369,14 +370,14 @@ private fun ActionBar(state: BookFormUiState, onCancel: () -> Unit, onSave: () -
             AppDivider()
             Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
                 Row(
-                    Modifier.widthIn(max = 1480.dp).fillMaxWidth()
-                        .padding(horizontal = if (LocalWindowWidth.current.isCompact) 16.dp else 48.dp, vertical = 12.dp),
+                    Modifier.widthIn(max = AppSizes.pageWidth).fillMaxWidth()
+                        .padding(horizontal = if (LocalWindowWidth.current.isCompact) AppSpacing.l else AppSpacing.giant, vertical = AppSpacing.m),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    SecondaryButton(onClick = onCancel) { Text(tr("Cancel"), Modifier.padding(horizontal = 12.dp)) }
+                    SecondaryButton(onClick = onCancel) { Text(tr("Cancel"), Modifier.padding(horizontal = AppSpacing.m)) }
                     Spacer(Modifier.weight(1f))
                     PrimaryButton(onClick = onSave, enabled = !state.busy) {
-                        Text(if (state.isNew) tr("Create book") else tr("Save changes"), Modifier.padding(horizontal = 12.dp))
+                        Text(if (state.isNew) tr("Create book") else tr("Save changes"), Modifier.padding(horizontal = AppSpacing.m))
                     }
                 }
             }
@@ -400,3 +401,5 @@ private fun OcrDownloadDialog(offer: OcrOffer, onDownload: () -> Unit, onCancel:
         dismissButton = { QuietButton(tr("Cancel"), onClick = onCancel) },
     )
 }
+
+private val CONTENT_HEIGHT = 400.dp

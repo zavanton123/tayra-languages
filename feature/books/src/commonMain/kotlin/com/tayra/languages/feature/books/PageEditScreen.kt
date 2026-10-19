@@ -14,7 +14,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextDirection
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
@@ -39,6 +38,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 data class PageEditUiState(
     val loading: Boolean = true,
@@ -108,7 +108,7 @@ fun PageEditScreen(
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        Column(Modifier.padding(padding).fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(Modifier.padding(padding).fillMaxSize().padding(AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             ScreenTitle(title)
             ErrorMessage(state.error)
             AppTextField(
@@ -118,7 +118,7 @@ fun PageEditScreen(
                 textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = if (state.rtl) TextDirection.Rtl else TextDirection.Ltr),
                 modifier = Modifier.fillMaxWidth().weight(1f),
             )
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 PrimaryButton(tr("Save"), onClick = viewModel::save, enabled = !state.saving)
                 SecondaryButton(tr("Cancel"), onClick = onBack)
             }

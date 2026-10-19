@@ -29,7 +29,6 @@ import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -71,6 +70,9 @@ import com.tayra.languages.core.ui.state.CollectEvents
 import org.koin.compose.viewmodel.koinViewModel
 import kotlin.time.Clock
 import kotlin.time.Instant
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppText
 
 /** What the News section shows: the news sites' feeds, or the articles of Wikipedia and the other wikis. */
 enum class NewsTab { NEWS, WIKIPEDIA }
@@ -184,12 +186,12 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
     }
     Box(modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
         ScrollList(
-            Modifier.widthIn(max = 1100.dp).fillMaxSize(),
+            Modifier.widthIn(max = AppSizes.contentWidth).fillMaxSize(),
             state = list,
-            contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
+            contentPadding = PaddingValues(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
         ) {
             item {
-                Column(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     ScreenHeader(
                         tr("News"),
                         if (state.languageName.isEmpty()) null
@@ -208,13 +210,13 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
                     if (state.failed.isNotEmpty()) item {
                         Text(
                             tr("Could not read: {0}", state.failed.joinToString(", ") { it.name }),
-                            Modifier.padding(bottom = 12.dp),
+                            Modifier.padding(bottom = AppSpacing.m),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
                     }
                     when {
-                        state.loading && state.articles.isEmpty() -> item { Box(Modifier.fillMaxWidth().padding(vertical = 32.dp), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) } }
+                        state.loading && state.articles.isEmpty() -> item { Box(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xxxl), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) } }
                         state.shown.isEmpty() -> item {
                             EmptyState(
                                 AppIcons.Newspaper,
@@ -230,13 +232,13 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
                             )
                         }
                         else -> items(state.shown.size, key = { state.shown[it].article.url }) { i ->
-                            NewsCard(state.shown[i], state, actions, compact, now, Modifier.padding(bottom = 12.dp))
+                            NewsCard(state.shown[i], state, actions, compact, now, Modifier.padding(bottom = AppSpacing.m))
                         }
                     }
                     item {
                         Text(
                             tr("Articles belong to their publishers and are read from their sites for your own learning."),
-                            Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp),
+                            Modifier.fillMaxWidth().padding(top = AppSpacing.s, bottom = AppSpacing.l),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                             textAlign = TextAlign.Center,
@@ -252,9 +254,9 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
 @Composable
 private fun Filters(state: NewsUiState, actions: NewsActions) {
     val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         SearchField(state.query, actions.onQuery, tr("Search the news"), Modifier.fillMaxWidth(), fieldModifier = Modifier.testTag("news-search"))
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             NewsPeriod.entries.forEach { period ->
                 AppFilterChip(selected = state.period == period, onClick = { actions.onPeriod(period) }, label = { Text(period.label) }, modifier = Modifier.testTag("period-${period.name}"))
             }
@@ -264,7 +266,7 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
             AppFilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("hide-read"))
         }
         if (state.sources.size > 1) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 AppFilterChip(selected = state.source == null, onClick = { actions.onSource(null) }, label = { Text(tr("All sources")) }, modifier = Modifier.testTag("source-all"))
                 state.sources.forEach { source ->
                     AppFilterChip(
@@ -279,7 +281,7 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
         DifficultyFilter(state.difficulty, actions.onDifficulty)
         val topics = state.topics
         if (topics.isNotEmpty()) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 AppFilterChip(selected = state.topic == null, onClick = { actions.onTopic(null) }, label = { Text(tr("All topics")) }, modifier = Modifier.testTag("topic-all"))
                 topics.forEach { topic ->
                     AppFilterChip(selected = state.topic == topic, onClick = { actions.onTopic(topic) }, label = { Text(topic) }, modifier = Modifier.testTag("topic-$topic"))
@@ -287,7 +289,7 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
             }
         }
         if (state.filtering && !state.loading) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 val count = state.shown.size + if (state.hasMore) 1 else 0
                 Text(
                     if (state.hasMore) tr("More than {0} articles", state.shown.size) else trPlural(count, "{0} article", "{0} articles"),
@@ -298,7 +300,7 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
             }
         }
         if (state.stillChecking > 0) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 AppSpinner(size = SpinnerSize.Small)
                 Text(
                     trPlural(state.stillChecking, "Checking the words of {0} more article…", "Checking the words of {0} more articles…"),
@@ -323,11 +325,11 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
     val article = item.article
     val opened = state.opened[article.url]
     Row(
-        modifier.fillMaxWidth().cardSurface().padding(16.dp).testTag("article-${article.url}"),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        modifier.fillMaxWidth().cardSurface().padding(AppSpacing.l).testTag("article-${article.url}"),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 Text(
                     listOfNotNull(article.source.name, article.published?.relativeTo(now)).joinToString(" · "),
                     Modifier.weight(1f, fill = false),
@@ -340,16 +342,16 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
                     Tag(tr("Easy language"), size = TagSize.Small)
                 }
             }
-            Text(article.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 3, overflow = TextOverflow.Ellipsis)
+            Text(article.title, style = AppText.itemTitle, maxLines = 3, overflow = TextOverflow.Ellipsis)
             if (article.summary.isNotEmpty()) Text(article.summary, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
             CoverageLine(item.difficulty, item.check, tag = article.url)
             item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
             if (compact) {
-                Spacer(Modifier.height(4.dp))
+                Spacer(Modifier.height(AppSpacing.xs))
                 ReadButton(item, opened != null, actions, Modifier.fillMaxWidth())
             }
         }
-        if (!compact) ReadButton(item, opened != null, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = 140.dp))
+        if (!compact) ReadButton(item, opened != null, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = READ_BUTTON_WIDTH))
     }
 }
 
@@ -360,3 +362,5 @@ private fun ReadButton(item: NewsItem, opened: Boolean, actions: NewsActions, mo
     if (opened) SecondaryButton(text, onClick = { actions.onOpen(item) }, modifier = tagged, loading = item.opening)
     else PrimaryButton(text, onClick = { actions.onOpen(item) }, modifier = tagged, loading = item.opening)
 }
+
+private val READ_BUTTON_WIDTH = 140.dp

@@ -30,7 +30,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -65,6 +64,8 @@ import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import org.koin.compose.viewmodel.koinViewModel
 
 /** Free books to add to the library, found in online libraries and judged by the words the reader knows. */
@@ -119,12 +120,12 @@ internal fun FindBooksContent(state: FindBooksUiState, actions: FindBooksActions
     }
     Box(modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
         ScrollList(
-            Modifier.widthIn(max = 1100.dp).fillMaxSize(),
+            Modifier.widthIn(max = AppSizes.contentWidth).fillMaxSize(),
             state = list,
-            contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
+            contentPadding = PaddingValues(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
         ) {
             item {
-                Column(Modifier.padding(bottom = 20.dp)) {
+                Column(Modifier.padding(bottom = AppSpacing.xl)) {
                     ScreenHeader(
                         tr("Find books"),
                         if (state.languageName.isEmpty()) tr("Free books from online libraries, with how much of each you already know.")
@@ -138,7 +139,7 @@ internal fun FindBooksContent(state: FindBooksUiState, actions: FindBooksActions
                 state.error != null -> item { ErrorBox(state, actions) }
                 state.shown.isEmpty() -> item { EmptyBox(state, actions) }
                 else -> items(state.shown.size, key = { "${state.shown[it].book.source}-${state.shown[it].book.id}" }) { i ->
-                    FoundBookCard(state.shown[i], actions, compact, Modifier.padding(bottom = 12.dp))
+                    FoundBookCard(state.shown[i], actions, compact, Modifier.padding(bottom = AppSpacing.m))
                 }
             }
             if (state.loadingMore) item { Centered { AppSpinner(size = SpinnerSize.Medium) } }
@@ -150,7 +151,7 @@ internal fun FindBooksContent(state: FindBooksUiState, actions: FindBooksActions
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact: Boolean) {
-    Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         val sources = state.sources.ifEmpty { BookSource.entries.filter { it.languages == null } }
         // Three libraries fit side by side on a phone; a language with libraries of its own lists them as chips.
         if (sources.size <= 3) {
@@ -158,11 +159,11 @@ private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact
                 sources.map { Segment(it, label = it.label, testTag = "source-${it.name}") },
                 state.source,
                 actions.onSource,
-                if (compact) Modifier else Modifier.width(460.dp),
+                if (compact) Modifier else Modifier.width(SOURCE_TOGGLE_WIDTH),
                 fill = true,
             )
         } else {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 sources.forEach { source ->
                     AppFilterChip(selected = state.source == source, onClick = { actions.onSource(source) }, label = { Text(source.label) }, modifier = Modifier.testTag("source-${source.name}"))
                 }
@@ -178,27 +179,27 @@ private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compac
     val colors = MaterialTheme.colorScheme
     val book = item.book
     Row(
-        modifier.fillMaxWidth().cardSurface().padding(16.dp).testTag("found-${book.id}"),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        modifier.fillMaxWidth().cardSurface().padding(AppSpacing.l).testTag("found-${book.id}"),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         if (!compact) {
-            Box(Modifier.size(56.dp, 76.dp).clip(AppShapes.small).background((item.difficulty?.color ?: colors.primary).copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
+            Box(Modifier.size(COVER_WIDTH, COVER_HEIGHT).clip(AppShapes.small).background((item.difficulty?.color ?: colors.primary).copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
                 Icon(AppIcons.MenuBook, contentDescription = null, tint = item.difficulty?.color ?: colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
             }
         }
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text(book.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            Text(book.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
             val byline = listOfNotNull(book.authors.joinToString(", ").takeIf { it.isNotEmpty() }, book.level).joinToString(" · ")
             if (byline.isNotEmpty()) Text(byline, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             if (book.description.isNotEmpty()) Text(book.description, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
             CoverageLine(item.difficulty, item.check, tag = book.id, onCheck = if (book.source.judgedOnSight) null else ({ actions.onCheck(item) }))
             item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
             if (compact) {
-                Spacer(Modifier.height(4.dp))
+                Spacer(Modifier.height(AppSpacing.xs))
                 BookAction(item, actions, Modifier.fillMaxWidth())
             }
         }
-        if (!compact) BookAction(item, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = 160.dp))
+        if (!compact) BookAction(item, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = ACTION_WIDTH))
     }
 }
 
@@ -261,7 +262,7 @@ private fun SourceNote(source: BookSource) {
             BookSource.ELEJANDRIA -> tr("Spanish books from Elejandría, in the public domain or under open licences. Without a search, its children's stories.")
             BookSource.ADAMASTOR -> tr("Portuguese classics from Projecto Adamastor, revised into today's spelling and free to share under CC BY-SA 4.0.")
         },
-        Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp),
+        Modifier.fillMaxWidth().padding(top = AppSpacing.s, bottom = AppSpacing.l),
         style = MaterialTheme.typography.bodySmall,
         color = MaterialTheme.colorScheme.onSurfaceVariant,
         textAlign = TextAlign.Center,
@@ -270,8 +271,13 @@ private fun SourceNote(source: BookSource) {
 
 @Composable
 private fun Centered(content: @Composable () -> Unit) {
-    Box(Modifier.fillMaxWidth().padding(vertical = 24.dp), contentAlignment = Alignment.Center) { content() }
+    Box(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xxl), contentAlignment = Alignment.Center) { content() }
 }
 
 private val BookSource.label: String
     get() = if (this == BookSource.GDL) tr("Easy readers") else shortName
+
+private val SOURCE_TOGGLE_WIDTH = 460.dp
+private val COVER_WIDTH = 56.dp
+private val COVER_HEIGHT = 76.dp
+private val ACTION_WIDTH = 160.dp
