@@ -207,7 +207,7 @@ class FlashcardsScreenTest {
         show(phone = true)
         assertEquals(1, onAllNodesWithText("Flashcards").fetchSemanticsNodes().size, "the title once, in the header")
         onNodeWithTag("browse-flashcards").assertExists()
-        for (label in listOf("Previous", "Edit", "Suspend", "Delete")) onNodeWithText(label).assertExists()
+        for (label in listOf("Previous", "Edit", "More")) onNodeWithText(label).assertExists()
         save("FLASHCARD_PHONE_SCREENSHOT")
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("flashcard-answer").assertExists()
@@ -238,6 +238,7 @@ class FlashcardsScreenTest {
     @Test
     fun deletingTheCardOnShowDeletesItsWord() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
+        onNodeWithText("More").performClick()
         onNodeWithText("Delete card").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No cards are due").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(null, runBlocking { terms.getById(termId) })

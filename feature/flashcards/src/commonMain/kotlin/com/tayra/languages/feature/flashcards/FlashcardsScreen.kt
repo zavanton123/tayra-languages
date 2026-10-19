@@ -82,6 +82,8 @@ import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppMenu
+import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.Appear
@@ -514,9 +516,7 @@ private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardAc
             PillDivider()
             FooterLink(Icons.Default.Edit, tr("Edit"), Modifier.weight(1f), tight = true, onClick = { actions.onEdit(card.termId) })
             PillDivider()
-            FooterLink(AppIcons.Pause, tr("Suspend"), Modifier.weight(1f), tight = true, onClick = actions.onSuspend)
-            PillDivider()
-            FooterLink(Icons.Default.Delete, tr("Delete"), Modifier.weight(1f), tight = true, destructive = true, onClick = actions.onDelete)
+            MoreActions(actions, tight = true, Modifier.weight(1f))
         }
         return
     }
@@ -525,13 +525,24 @@ private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardAc
         PillDivider()
         FooterLink(Icons.Default.Edit, tr("Edit flashcard"), onClick = { actions.onEdit(card.termId) })
         PillDivider()
-        FooterLink(AppIcons.Pause, tr("Suspend card"), onClick = actions.onSuspend)
-        PillDivider()
-        FooterLink(Icons.Default.Delete, tr("Delete card"), destructive = true, onClick = actions.onDelete)
+        MoreActions(actions, tight = false)
     }
 }
 
-/** One of the actions under the card; [tight] for a phone's row of four. */
+/** Suspend and Delete, a step away from the card so neither is pressed by mistake while reviewing. */
+@Composable
+private fun MoreActions(actions: FlashcardActions, tight: Boolean, modifier: Modifier = Modifier) {
+    var open by remember { mutableStateOf(false) }
+    Box(modifier) {
+        FooterLink(AppIcons.MoreHoriz, tr("More"), if (tight) Modifier.fillMaxWidth() else Modifier, tight = tight, onClick = { open = true })
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            AppMenuItem(text = { Text(tr("Suspend card")) }, onClick = { open = false; actions.onSuspend() })
+            AppMenuItem(text = { Text(tr("Delete card"), color = MaterialTheme.colorScheme.error) }, onClick = { open = false; actions.onDelete() })
+        }
+    }
+}
+
+/** One of the actions under the card; [tight] for a phone's row of them. */
 @Composable
 private fun FooterLink(icon: ImageVector, label: String, modifier: Modifier = Modifier, enabled: Boolean = true, destructive: Boolean = false, tight: Boolean = false, onClick: () -> Unit) {
     QuietButton(
