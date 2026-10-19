@@ -18,8 +18,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.ui.components.AppCard
 import com.tayra.languages.core.ui.components.AppDialog
@@ -37,6 +35,8 @@ import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /** A downloadable pack of courses or books, as its card shows it. */
 internal class PackInfo(val id: String, val languageCode: String, val title: String, val summary: String, val downloadSize: Long)
@@ -72,17 +72,17 @@ internal fun PackCard(pack: PackInfo, state: PackState, words: PackWords, onDown
         titleExtra = { PackStatePill(state) },
     ) {
         Text(tr(pack.summary), style = MaterialTheme.typography.bodyLarge)
-        Spacer(Modifier.padding(top = 12.dp))
+        Spacer(Modifier.padding(top = AppSpacing.m))
         when (state) {
             is PackState.Downloading -> {
                 AppProgressBar(state.progress)
-                Text(words.downloading, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 6.dp))
+                Text(words.downloading, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.s))
             }
             is PackState.Failed -> Text(packFailure(state.message), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error)
             else -> Unit
         }
-        Spacer(Modifier.padding(top = 12.dp))
-        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+        Spacer(Modifier.padding(top = AppSpacing.m))
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Column(Modifier.weight(1f)) {
                 Text(
                     when (state) {
@@ -115,13 +115,13 @@ internal fun PhonePackCard(
     about: @Composable ColumnScope.() -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
-    AppCard(Modifier.testTag("pack-${pack.id}"), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+    AppCard(Modifier.testTag("pack-${pack.id}"), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             IconTile(null, pack.languageCode.uppercase(), size = 52)
             Column(Modifier.weight(1f)) {
                 // A long title pushes the pill onto the next line rather than squeezing it.
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(6.dp), itemVerticalAlignment = Alignment.CenterVertically) {
-                    Text(tr(pack.title), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s), itemVerticalAlignment = Alignment.CenterVertically) {
+                    Text(tr(pack.title), style = AppText.sectionTitle)
                     PackStatePill(state)
                 }
                 Text(words.kind, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -136,7 +136,7 @@ internal fun PhonePackCard(
             is PackState.Failed -> Text(packFailure(state.message), style = MaterialTheme.typography.bodyMedium, color = colors.error)
             else -> Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(if (state is PackState.Installed) AppIcons.Storage else AppIcons.Download, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
-                Spacer(Modifier.width(10.dp))
+                Spacer(Modifier.width(AppSpacing.s))
                 Text(
                     when {
                         // No file size when the contents alone are on the device, restored from a backup without the file.

@@ -20,7 +20,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
@@ -35,6 +34,7 @@ import com.tayra.languages.core.ui.components.SliderSetting
 import com.tayra.languages.core.ui.components.SwitchSetting
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppThemes
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -56,7 +56,7 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
         },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Text(tr("Personalize your reading experience."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             ContentCard(tr("Appearance"), subtitle = null, icon = AppIcons.Palette, dense = true) {
                 NavigationRow(tr("Theme"), onClick = { themeSheet = true }, modifier = Modifier.testTag("phone-theme"), value = AppThemes.byId(settings.themeId).label)
@@ -82,11 +82,11 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
                     name = tr("reading line height"),
                 ) { v -> viewModel.update { it.copy(readingLineHeight = v) } }
             }
-            ContentCard(tr("Reading preview"), subtitle = null, icon = AppIcons.MenuBook, dense = true) { PreviewBox(settings, padding = 16.dp) }
+            ContentCard(tr("Reading preview"), subtitle = null, icon = AppIcons.MenuBook, dense = true) { PreviewBox(settings, padding = AppSpacing.l) }
             ContentCard(tr("Behaviour"), subtitle = null, icon = Icons.Default.Settings, dense = true) {
                 SwitchSetting(tr("Show reading streak on home page"), description = null, checked = settings.showStreakOnHome, dense = true) { v -> viewModel.update { it.copy(showStreakOnHome = v) } }
                 AppDivider()
-                Column(Modifier.padding(vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Column(Modifier.padding(vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     Text(tr("Book stats page sample size"), style = MaterialTheme.typography.bodyLarge)
                     NumberStepper(
                         value = settings.statsSampleSize,
@@ -118,7 +118,7 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
 private fun PhoneSlider(title: String, valueLabel: String, value: Float, range: ClosedFloatingPointRange<Float>, name: String, onChange: (Float) -> Unit) {
     SliderSetting(
         title, valueLabel, value, range, onChange,
-        modifier = Modifier.padding(top = 12.dp, bottom = 4.dp),
+        modifier = Modifier.padding(top = AppSpacing.m, bottom = AppSpacing.xs),
         step = 0.1f,
         sliderModifier = Modifier.semantics { contentDescription = name }.testTag("phone-slider-$name"),
     )

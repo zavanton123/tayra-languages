@@ -18,7 +18,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.service.AppUpdate
 import com.tayra.languages.core.domain.service.AppUpdateService
@@ -36,6 +35,7 @@ import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.SwitchSetting
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppSpacing
 import kotlinx.coroutines.launch
 import org.koin.compose.getKoin
 
@@ -61,8 +61,8 @@ fun AppUpdateBanner(service: AppUpdateService? = getKoin().getOrNull()) {
     if (update == null || dismissed && (state is UpdateState.Available || state is UpdateState.Failed)) return
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().background(colors.primaryContainer).padding(horizontal = 20.dp, vertical = 10.dp).testTag("update-banner"),
-        verticalArrangement = Arrangement.spacedBy(6.dp),
+        Modifier.fillMaxWidth().background(colors.primaryContainer).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m).testTag("update-banner"),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
         UpdateProgress(state, service, update, onInstall = { scope.launch { service.install() } }, onSkip = { scope.launch { service.skip(update) } }, inBanner = true)
     }
@@ -84,7 +84,7 @@ internal fun AppUpdatesCard(service: AppUpdateService, settings: UserSettings, o
             SwitchSetting(tr("Check for updates when the app starts"), tr("At most once a day."), settings.checkForUpdates, onChange = onCheckAtStart)
             when (val s = state) {
                 UpdateState.Idle -> Unit
-                UpdateState.Checking -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                UpdateState.Checking -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     AppSpinner(size = SpinnerSize.Small)
                     Text(tr("Checking for updates…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 }
@@ -126,7 +126,7 @@ private fun UpdateProgress(state: UpdateState, service: AppUpdateService, update
                 style = MaterialTheme.typography.bodyMedium,
                 color = if (failed != null) colors.error else text,
             )
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
                 if (update.installer != null) {
                     PrimaryButton(if (failed != null) tr("Try again") else tr("Install and restart"), onClick = onInstall, modifier = Modifier.testTag("install-update"), icon = AppIcons.Download)
                 } else {

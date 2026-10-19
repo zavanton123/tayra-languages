@@ -40,6 +40,7 @@ import com.tayra.languages.core.ui.components.SettingRow
 import com.tayra.languages.core.ui.components.SliderStepper
 import com.tayra.languages.core.ui.components.SwitchSetting
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppSpacing
 import org.koin.compose.viewmodel.koinViewModel
 
 /** How many flashcards a day, how reviews are timed and how the learning steps run. */
@@ -76,12 +77,12 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
                 HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = reset)
             }
             if (wide) {
-                Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
-                    Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
+                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                    Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         LimitsCard(settings, viewModel)
                         SchedulingCard(settings, viewModel)
                     }
-                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
+                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         AnswerCard(settings, viewModel)
                         StatusInfo()
                     }
@@ -120,6 +121,9 @@ private fun LimitsCard(settings: UserSettings, viewModel: SettingsViewModel) {
 
 /** Anki's default review limit. */
 private const val DEFAULT_REVIEW_LIMIT = 200
+private val SLIDER_WIDTH = 280.dp
+private val STEPS_FIELD = 220.dp
+private val STEPS_FIELD_DENSE = 170.dp
 
 @Composable
 private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel) {
@@ -132,7 +136,7 @@ private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel)
                 label = "${settings.flashcardRetention}%",
                 name = tr("desired retention"),
                 onChange = { v -> viewModel.update { it.copy(flashcardRetention = kotlin.math.round(v).toInt()) } },
-                modifier = Modifier.width(280.dp),
+                modifier = Modifier.width(SLIDER_WIDTH),
             )
         }
         StepsRow(tr("Learning steps"), tr("Waits before a new card comes back, until it is learned."), settings.flashcardLearnSteps) { text ->
@@ -145,7 +149,7 @@ private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel)
             tr("Write steps as minutes, or with s, m, h or d: 1m 10m, or 30s 5m 1h. Leave empty to let FSRS decide from the first answer."),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.padding(top = 8.dp),
+            modifier = Modifier.padding(top = AppSpacing.s),
         )
     }
 }
@@ -170,7 +174,7 @@ internal fun StepsRow(title: String, description: String?, saved: String, dense:
             singleLine = true,
             isError = !valid,
             supportingText = if (valid) null else ({ Text(tr("Use steps such as 1m 10m")) }),
-            modifier = Modifier.width(if (dense) 170.dp else 220.dp).semantics { contentDescription = title },
+            modifier = Modifier.width(if (dense) STEPS_FIELD_DENSE else STEPS_FIELD).semantics { contentDescription = title },
         )
     }
 }

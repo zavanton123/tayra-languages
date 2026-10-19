@@ -25,9 +25,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.dictionary.DictionaryPack
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
@@ -50,6 +48,8 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 private enum class PhoneTab { INSTALLED, AVAILABLE }
 
@@ -79,8 +79,8 @@ internal fun PhoneDictionariesScreen(
         topBar = { AppTopBar(title = tr("Dictionaries"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-            Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Text(tr("Manage offline word definitions and base-form lookup."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 pill()
             }
@@ -101,7 +101,7 @@ internal fun PhoneDictionariesScreen(
             when (tab) {
                 PhoneTab.INSTALLED -> {
                     val shown = installed.filter { it.pack.matches(query) }.sortedBy { it.pack.title }
-                    Text(tr("Installed dictionaries"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                    Text(tr("Installed dictionaries"), style = AppText.sectionTitle)
                     if (shown.isEmpty()) {
                         Text(
                             if (query.isNotBlank()) tr("No dictionaries match “{0}”.", query.trim()) else tr("No dictionaries downloaded yet."),
@@ -118,7 +118,7 @@ internal fun PhoneDictionariesScreen(
                     val browsing = query.isNotBlank() || learning == null
                     val shown = if (browsing) missing.filter { it.pack.matches(query) }.sortedBy { it.pack.title }
                     else missing.filter { it.pack.id.sourceLanguage == learning.code }.sortedWith(compareBy({ it.pack.id.targetLanguage != native }, { it.pack.title }))
-                    Text(if (browsing) tr("All dictionaries") else tr("Available for {0}", tr(learning!!.name)), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                    Text(if (browsing) tr("All dictionaries") else tr("Available for {0}", tr(learning!!.name)), style = AppText.sectionTitle)
                     if (shown.isEmpty()) {
                         Text(
                             when {
@@ -151,19 +151,19 @@ private fun PhoneLookupCard(learning: LanguageOption?, nativeName: String, curre
     ContentCard(tr("Current lookup"), subtitle = null, icon = AppIcons.MenuBook, dense = true) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             PairChip(learning?.code ?: "?", learning?.let { tr(it.name) } ?: tr("No language"), Modifier.weight(1f))
-            Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("looked up in"), tint = colors.onSurfaceVariant, modifier = Modifier.padding(horizontal = 10.dp).size(AppSizes.iconMedium))
+            Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("looked up in"), tint = colors.onSurfaceVariant, modifier = Modifier.padding(horizontal = AppSpacing.s).size(AppSizes.iconMedium))
             PairChip(LanguageCatalog.nativeLanguages.firstOrNull { it.name == nativeName }?.code ?: "", tr(nativeName), Modifier.weight(1f))
         }
-        AppDivider(Modifier.padding(vertical = 14.dp))
+        AppDivider(Modifier.padding(vertical = AppSpacing.l))
         LookupStatusRow(current, short = true)
         when {
             current == null || state is PackState.Downloading -> Unit
             state is PackState.Installed -> {
-                Spacer(Modifier.height(14.dp))
+                Spacer(Modifier.height(AppSpacing.l))
                 SecondaryButton(onClick = { onTest(current.pack) }, modifier = Modifier.fillMaxWidth()) { Text(tr("Test lookup"), style = MaterialTheme.typography.titleMedium) }
             }
             else -> {
-                Spacer(Modifier.height(14.dp))
+                Spacer(Modifier.height(AppSpacing.l))
                 PrimaryButton(onClick = { onDownload(current.pack) }, modifier = Modifier.fillMaxWidth().testTag("phone-download-current")) {
                     Text(tr("Download {0}", current.pack.displayTitle), style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
@@ -182,9 +182,9 @@ private fun ListBox(content: @Composable () -> Unit) {
 private fun PhoneAvailableRow(status: PackStatus, browsing: Boolean, onDownload: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val state = status.state
-    Row(Modifier.fillMaxWidth().padding(horizontal = 10.dp, vertical = 10.dp), verticalAlignment = Alignment.CenterVertically) {
+    Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.m, vertical = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
         CodeTile(if (browsing) status.pack.id.sourceLanguage else status.pack.id.targetLanguage, size = 40)
-        Spacer(Modifier.width(12.dp))
+        Spacer(Modifier.width(AppSpacing.m))
         Column(Modifier.weight(1f)) {
             // An edition's source goes on its own line: cut off at the end of the title, it would read as a duplicate.
             val edition = status.pack.editionLabel
@@ -193,13 +193,13 @@ private fun PhoneAvailableRow(status: PackStatus, browsing: Boolean, onDownload:
             when (state) {
                 is PackState.Downloading -> {
                     Text(tr("Downloading…"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-                    AppProgressBar(state.progress, Modifier.padding(top = 4.dp))
+                    AppProgressBar(state.progress, Modifier.padding(top = AppSpacing.xs))
                 }
                 is PackState.Failed -> Text(tr("Download failed: {0}", packFailure(state.message)), style = MaterialTheme.typography.bodySmall, color = colors.error)
                 else -> Unit
             }
         }
-        Spacer(Modifier.width(10.dp))
+        Spacer(Modifier.width(AppSpacing.m))
         if (state !is PackState.Downloading) {
             SecondaryButton(if (state is PackState.Failed) tr("Retry") else tr("Download"), onClick = onDownload)
         }

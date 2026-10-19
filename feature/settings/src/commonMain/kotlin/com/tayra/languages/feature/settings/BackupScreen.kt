@@ -58,7 +58,6 @@ import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -80,6 +79,8 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import io.github.vinceglb.filekit.dialogs.FileKitType
 import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
 import io.github.vinceglb.filekit.readBytes
@@ -219,7 +220,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                     AppIcons.Storage,
                     note = tr("Stored locally on this device."),
                     modifier = m,
-                ) { PrimaryButton(onClick = viewModel::create, enabled = idle) { Text(tr("Create backup"), Modifier.padding(horizontal = 24.dp)) } }
+                ) { PrimaryButton(onClick = viewModel::create, enabled = idle) { Text(tr("Create backup"), Modifier.padding(horizontal = AppSpacing.xxl)) } }
             }
             val import: @Composable (Modifier) -> Unit = { m ->
                 ActionCard(
@@ -233,20 +234,20 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                     },
                     modifier = m,
                     highlighted = dropping,
-                ) { SecondaryButton(onClick = { picker.launch() }, enabled = idle) { Text(tr("Choose file"), Modifier.padding(horizontal = 24.dp)) } }
+                ) { SecondaryButton(onClick = { picker.launch() }, enabled = idle) { Text(tr("Choose file"), Modifier.padding(horizontal = AppSpacing.xxl)) } }
             }
             if (compact) {
                 create(Modifier)
                 import(Modifier)
             } else {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                     create(Modifier.weight(1f).fillMaxHeight())
                     import(Modifier.weight(1f).fillMaxHeight())
                 }
             }
             Progress(state)
             if (wide) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                     HistoryCard(state, idle, viewModel, onRestore = { restoring = it }, onDelete = { deleting = it }, modifier = Modifier.weight(1.65f).fillMaxHeight())
                     IncludedCard(Modifier.weight(1f).fillMaxHeight())
                 }
@@ -310,7 +311,7 @@ internal fun Progress(state: BackupState) {
     state.working?.let { working ->
         Column(Modifier.fillMaxWidth()) {
             Text("$working…", style = MaterialTheme.typography.bodyMedium)
-            AppProgressBar(null, Modifier.padding(top = 6.dp))
+            AppProgressBar(null, Modifier.padding(top = AppSpacing.s))
         }
     }
     state.message?.let { InfoBanner(it, tint = StatusTints.ok, icon = Icons.Default.CheckCircle) }
@@ -323,16 +324,16 @@ private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note:
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.fillMaxWidth().clip(AppShapes.card).background(if (highlighted) colors.primaryContainer else colors.surface)
-            .border(if (highlighted) AppBorders.selected() else AppBorders.hairline(), AppShapes.card).padding(24.dp),
+            .border(if (highlighted) AppBorders.selected() else AppBorders.hairline(), AppShapes.card).padding(AppSpacing.xxl),
     ) {
         IconTile(icon, size = 64)
-        Spacer(Modifier.width(20.dp))
+        Spacer(Modifier.width(AppSpacing.xl))
         Column(Modifier.weight(1f)) {
-            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text(title, style = AppText.sectionTitle)
             Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            Spacer(Modifier.height(18.dp))
+            Spacer(Modifier.height(AppSpacing.xl))
             button()
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(AppSpacing.m))
             Text(note, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
     }
@@ -359,10 +360,10 @@ private fun HistoryCard(
                 tr("No backups yet. Create one to keep a copy of your data."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(vertical = 12.dp),
+                modifier = Modifier.padding(vertical = AppSpacing.m),
             )
         }
-        Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             state.backups.forEachIndexed { i, backup ->
                 BackupRow(
                     backup,
@@ -376,7 +377,7 @@ private fun HistoryCard(
         }
         // Beside the other card the note sits at the bottom, level with that card's own note.
         if (LocalWindowWidth.current.isExpanded) Spacer(Modifier.weight(1f))
-        Spacer(Modifier.height(14.dp))
+        Spacer(Modifier.height(AppSpacing.l))
         InfoBanner(tr("Restoring replaces your current Tayra data after confirmation."))
     }
 }
@@ -406,7 +407,7 @@ private fun BackupRowContent(
     val actions: @Composable () -> Unit = {
         Row(verticalAlignment = Alignment.CenterVertically) {
             SecondaryButton(onClick = onRestore, enabled = enabled) { Text(tr("Restore")) }
-            Spacer(Modifier.width(8.dp))
+            Spacer(Modifier.width(AppSpacing.s))
             QuietButton(tr("Export"), onClick = onExport, icon = AppIcons.Share, enabled = enabled)
             Box {
                 AppIconButton(AppIcons.MoreHoriz, contentDescription = tr("More for the backup of {0}", formatBackupTime(backup)), onClick = { menu = true }, enabled = enabled)
@@ -418,11 +419,11 @@ private fun BackupRowContent(
     }
     Column(
         Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
-            .padding(horizontal = 12.dp, vertical = 10.dp),
+            .padding(horizontal = AppSpacing.m, vertical = AppSpacing.m),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             IconTile(AppIcons.FileOutline, size = 44)
-            Spacer(Modifier.width(14.dp))
+            Spacer(Modifier.width(AppSpacing.l))
             Column(Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(
@@ -433,7 +434,7 @@ private fun BackupRowContent(
                         modifier = Modifier.weight(1f, fill = false),
                     )
                     if (latest) {
-                        Spacer(Modifier.width(10.dp))
+                        Spacer(Modifier.width(AppSpacing.m))
                         Tag(tr("Latest"), MaterialTheme.colorScheme.primary)
                     }
                 }
@@ -441,14 +442,14 @@ private fun BackupRowContent(
             }
             if (!stacked) {
                 StatusDot(StatusTints.ok, size = AppSizes.dot)
-                Spacer(Modifier.width(8.dp))
+                Spacer(Modifier.width(AppSpacing.s))
                 Text(tr("Ready"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
-                Spacer(Modifier.width(24.dp))
+                Spacer(Modifier.width(AppSpacing.xxl))
                 actions()
             }
         }
         if (stacked) {
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(AppSpacing.s))
             actions()
         }
     }
@@ -458,13 +459,13 @@ private fun BackupRowContent(
 @Composable
 private fun IncludedCard(modifier: Modifier = Modifier) {
     Column(
-        modifier.fillMaxWidth().cardSurface().padding(20.dp),
+        modifier.fillMaxWidth().cardSurface().padding(AppSpacing.xl),
     ) {
         CardHeader(tr("What's included"), icon = AppIcons.VerifiedUser)
-        Spacer(Modifier.height(14.dp))
-        IncludedLines(gap = 14.dp)
+        Spacer(Modifier.height(AppSpacing.l))
+        IncludedLines(gap = AppSpacing.l)
         if (LocalWindowWidth.current.isExpanded) Spacer(Modifier.weight(1f))
-        Spacer(Modifier.height(14.dp))
+        Spacer(Modifier.height(AppSpacing.l))
         InfoBanner(tr("These items can be downloaded or configured again after restoring."))
     }
 }
@@ -474,10 +475,10 @@ private fun IncludedCard(modifier: Modifier = Modifier) {
 internal fun IncludedLines(gap: Dp) {
     listOf(tr("Languages and books"), tr("Vocabulary"), tr("Reading history"), tr("Settings")).forEach { IncludedLine(it, Icons.Default.CheckCircle, StatusTints.ok) }
     AppDivider(Modifier.padding(vertical = gap))
-    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
+    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = AppSpacing.xs)) {
         Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
-        Spacer(Modifier.width(14.dp))
-        Text(tr("Not included"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
+        Spacer(Modifier.width(AppSpacing.l))
+        Text(tr("Not included"), style = AppText.emphasis)
     }
     listOf(tr("Audio files"), tr("Downloaded dictionaries"), tr("Voices and translation models"), tr("API keys"))
         .forEach { IncludedLine(it, AppIcons.RemoveCircle, MaterialTheme.colorScheme.outline) }
@@ -485,9 +486,9 @@ internal fun IncludedLines(gap: Dp) {
 
 @Composable
 private fun IncludedLine(text: String, icon: ImageVector, tint: Color) {
-    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 5.dp)) {
+    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = AppSpacing.xs)) {
         Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconMedium))
-        Spacer(Modifier.width(14.dp))
+        Spacer(Modifier.width(AppSpacing.l))
         Text(text, style = MaterialTheme.typography.bodyLarge)
     }
 }

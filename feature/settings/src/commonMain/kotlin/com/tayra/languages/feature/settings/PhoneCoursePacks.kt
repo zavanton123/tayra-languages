@@ -21,7 +21,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.courses.CoursePack
@@ -32,6 +31,8 @@ import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /** The course packs page on a phone: each pack a card with its figures, its size and one full-width button. */
 @Composable
@@ -49,7 +50,7 @@ internal fun PhoneCoursePacksScreen(
         topBar = { AppTopBar(title = tr("Course downloads"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Text(tr("Download ready-made courses for offline use."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             InfoBanner(tr("Downloaded packs appear in Courses and can be edited."))
             if (packs.isEmpty() && languageName != null) {
@@ -58,7 +59,7 @@ internal fun PhoneCoursePacksScreen(
             packs.forEach { status ->
                 PhonePackCard(status.pack.info(), status.state, coursePackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) {
                     // Every pack is cut the same way: 100 courses of 10 lessons, graded A1 to C2 (see CoursePack.summary).
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                         Figure("100", tr("courses"), Modifier.weight(1f))
                         Figure("1,000", tr("lessons"), Modifier.weight(1f))
                         Figure("A1–C2", null, Modifier.weight(1f))
@@ -76,10 +77,10 @@ internal fun PhoneCoursePacksScreen(
 private fun Figure(value: String, label: String?, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     Column(
-        modifier.clip(AppShapes.panel).background(colors.surfaceContainerLow).padding(vertical = 12.dp, horizontal = 6.dp),
+        modifier.clip(AppShapes.panel).background(colors.surfaceContainerLow).padding(vertical = AppSpacing.m, horizontal = AppSpacing.xs),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Text(value, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
+        Text(value, style = AppText.sectionTitle, textAlign = TextAlign.Center)
         if (label != null) Text(label, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         else Spacer(Modifier.height(0.dp))
     }

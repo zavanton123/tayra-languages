@@ -16,7 +16,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.components.AppCard
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
@@ -30,6 +29,7 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /**
  * The Clear data page on a phone: what goes and what stays as two cards, the backup reminder with
@@ -50,17 +50,17 @@ internal fun PhoneClearDataScreen(
         topBar = { AppTopBar(title = tr("Clear local data"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Text(tr("Remove your learning data and downloaded files from this device. Your preferences stay."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             AppCard {
                 CardHeader(tr("Will be removed"), tr("Everything you added, learned or downloaded."), icon = AppIcons.RemoveCircle, tint = colors.error, size = CardHeaderSize.Dense)
-                AppDivider(Modifier.padding(vertical = 14.dp))
-                Column(verticalArrangement = Arrangement.spacedBy(14.dp)) { ClearGroup.entries.forEach { GroupRow(it, state) } }
+                AppDivider(Modifier.padding(vertical = AppSpacing.l))
+                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) { ClearGroup.entries.forEach { GroupRow(it, state) } }
             }
             AppCard {
                 CardHeader(tr("Will remain"), tr("Your app setup is not affected."), icon = AppIcons.VerifiedUser, size = CardHeaderSize.Dense)
-                AppDivider(Modifier.padding(vertical = 14.dp))
-                Column(verticalArrangement = Arrangement.spacedBy(14.dp)) { RemainingItems() }
+                AppDivider(Modifier.padding(vertical = AppSpacing.l))
+                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) { RemainingItems() }
             }
             BackupNotice {
                 SecondaryButton(

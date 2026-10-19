@@ -25,8 +25,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
@@ -56,6 +54,9 @@ import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -122,17 +123,17 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
 
     ScreenHeader(tr("Clear local data"), tr("Remove your learning data and downloaded files from this device. Your preferences stay."), onBackToSettings = onBack)
     Column(
-        Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(24.dp),
+        Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.xxl),
     ) {
         if (wide) {
             Row(Modifier.height(IntrinsicSize.Min)) {
-                RemovedColumn(state, Modifier.weight(1f).padding(end = 24.dp))
+                RemovedColumn(state, Modifier.weight(1f).padding(end = AppSpacing.xxl))
                 AppVerticalDivider()
-                RemainsColumn(onBackups, enabled = !state.started, Modifier.weight(1f).padding(start = 24.dp))
+                RemainsColumn(onBackups, enabled = !state.started, Modifier.weight(1f).padding(start = AppSpacing.xxl))
             }
         } else {
             RemovedColumn(state, Modifier.fillMaxWidth())
-            AppDivider(Modifier.padding(vertical = 20.dp))
+            AppDivider(Modifier.padding(vertical = AppSpacing.xl))
             RemainsColumn(onBackups, enabled = !state.started, Modifier.fillMaxWidth())
         }
     }
@@ -140,11 +141,11 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
     ClearStatusNotice(
         state,
         action = if (wide) ({
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) { ActionButtons(state, onCancel = onBack, onClear = { confirming = true }, onDone = onDone) }
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) { ActionButtons(state, onCancel = onBack, onClear = { confirming = true }, onDone = onDone) }
         }) else null,
     )
     if (!wide) {
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.End)) {
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.End)) {
             ActionButtons(state, onCancel = onBack, onClear = { confirming = true }, onDone = onDone)
         }
     }
@@ -214,7 +215,7 @@ private fun ActionButtons(state: ClearDataUiState, onCancel: () -> Unit, onClear
 @Composable
 private fun RemovedColumn(state: ClearDataUiState, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
-    Column(modifier, verticalArrangement = Arrangement.spacedBy(20.dp)) {
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
         CardHeader(tr("Will be removed"), tr("Everything you added, learned or downloaded."), icon = AppIcons.RemoveCircle, tint = colors.error, size = CardHeaderSize.Large)
         ClearGroup.entries.forEach { group -> GroupRow(group, state) }
     }
@@ -226,7 +227,7 @@ internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
     val problems = group.steps.mapNotNull { state.problems[it] }
     val running = state.running != null && state.running in group.steps
     val done = state.done || (state.running != null && group.steps.all { it.ordinal < state.running.ordinal })
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp), modifier = Modifier.testTag("clear-${group.name}")) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l), modifier = Modifier.testTag("clear-${group.name}")) {
         IconTile(
             when (group) {
                 ClearGroup.LEARNING -> AppIcons.MenuBook
@@ -235,15 +236,14 @@ internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
             },
             tint = colors.primary,
         )
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
             Text(
                 when (group) {
                     ClearGroup.LEARNING -> tr("Learning data")
                     ClearGroup.OFFLINE -> tr("Offline content")
                     ClearGroup.CACHE -> tr("Cached audio")
                 },
-                style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.SemiBold,
+                style = AppText.itemTitle,
             )
             Text(
                 when (group) {
@@ -257,7 +257,7 @@ internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
             problems.forEach { Text(tr("Could not remove: {0}", it), style = MaterialTheme.typography.bodySmall, color = colors.error) }
         }
         if (state.started) {
-            Box(Modifier.size(24.dp), contentAlignment = Alignment.Center) {
+            Box(Modifier.size(AppSizes.iconLarge), contentAlignment = Alignment.Center) {
                 when {
                     problems.isNotEmpty() -> Icon(Icons.Default.Warning, contentDescription = tr("Failed"), tint = colors.error)
                     running -> AppSpinner(size = SpinnerSize.Small)
@@ -270,7 +270,7 @@ internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
 
 @Composable
 private fun RemainsColumn(onBackups: () -> Unit, enabled: Boolean, modifier: Modifier) {
-    Column(modifier, verticalArrangement = Arrangement.spacedBy(20.dp)) {
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
         CardHeader(tr("Will remain"), tr("Your app setup is not affected."), icon = AppIcons.VerifiedUser, size = CardHeaderSize.Large)
         RemainingItems()
         Spacer(Modifier.weight(1f, fill = false))
@@ -288,10 +288,10 @@ internal fun RemainingItems() {
         Triple(AppIcons.FileOutline, tr("Backup files"), tr("Restore one later to recover your learning data")),
         Triple(AppIcons.Translate, tr("Installed engines"), tr("Speech and translation engines remain installed")),
     ).forEach { (icon, title, detail) ->
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             IconTile(icon)
-            Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+                Text(title, style = AppText.itemTitle)
                 Text(detail, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }

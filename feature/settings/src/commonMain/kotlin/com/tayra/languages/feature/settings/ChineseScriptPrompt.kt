@@ -9,7 +9,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.morphology.ChineseScript
 import com.tayra.languages.core.domain.service.ChineseScriptService
 import com.tayra.languages.core.ui.components.AppDialog
@@ -17,6 +16,7 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppSpacing
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
 
@@ -40,7 +40,7 @@ fun ChineseScriptPrompt(languageId: Long?, onClosed: () -> Unit) {
         onDismissRequest = onClosed,
         title = { Text(tr("Which characters do you learn?")) },
         text = {
-            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Text(tr("Texts are shown, and your words kept, in the characters you choose, whichever a text is written in."), style = MaterialTheme.typography.bodyMedium)
                 PrimaryButton(onClick = { choose(ChineseScript.SIMPLIFIED) }, modifier = Modifier.fillMaxWidth().testTag("script-simplified")) {
                     Text(tr("Simplified · 简体 (mainland China, Singapore)"))

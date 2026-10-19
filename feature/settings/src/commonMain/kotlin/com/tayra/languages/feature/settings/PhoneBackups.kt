@@ -29,10 +29,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.backup.Backup
 import com.tayra.languages.core.ui.components.AppCard
 import com.tayra.languages.core.ui.components.AppIconButton
@@ -55,6 +53,8 @@ import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * The Backups page on a phone: one card with the two actions, the history as a plain list with a
@@ -77,15 +77,15 @@ internal fun PhoneBackupsScreen(
         topBar = {
             AppTopBar(title = tr("Backups"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS, actions = {
                 if (state.loaded) StatusPill(if (count == 0) tr("None yet") else trPlural(count, "{0} local", "{0} local"), if (count == 0) StatusTints.warning else StatusTints.ok)
-                Spacer(Modifier.width(8.dp))
+                Spacer(Modifier.width(AppSpacing.s))
             })
         },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             AppCard {
                 CardHeader(tr("Protect your data"), tr("Save your library, vocabulary, progress, and preferences."), icon = AppIcons.Storage, size = CardHeaderSize.Dense)
-                Spacer(Modifier.height(16.dp))
+                Spacer(Modifier.height(AppSpacing.l))
                 PrimaryButton(
                     tr("Create backup"),
                     onClick = viewModel::create,
@@ -94,15 +94,15 @@ internal fun PhoneBackupsScreen(
                     enabled = idle,
                     size = ButtonSize.Large,
                 )
-                Spacer(Modifier.height(10.dp))
+                Spacer(Modifier.height(AppSpacing.m))
                 SecondaryButton(tr("Import backup"), onClick = onImport, modifier = Modifier.fillMaxWidth(), icon = AppIcons.UploadFile, enabled = idle, size = ButtonSize.Large)
-                Spacer(Modifier.height(12.dp))
+                Spacer(Modifier.height(AppSpacing.m))
                 Text(tr("Backups are stored on this device."), Modifier.fillMaxWidth(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
             }
             Progress(state)
             Column {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    Text(tr("Backup history"), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    Text(tr("Backup history"), style = AppText.headline)
                     if (count > 0) Tag(trPlural(count, "{0} backup", "{0} backups"), colors.primary)
                 }
                 Text(tr("Newest first."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -124,14 +124,14 @@ private fun PhoneBackupRow(backup: Backup, latest: Boolean, enabled: Boolean, on
     val colors = MaterialTheme.colorScheme
     var menu by remember { mutableStateOf(false) }
     Row(
-        Modifier.fillMaxWidth().cardSurface().padding(start = 12.dp, end = 4.dp, top = 12.dp, bottom = 12.dp),
+        Modifier.fillMaxWidth().cardSurface().padding(start = AppSpacing.m, end = AppSpacing.xs, top = AppSpacing.m, bottom = AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         IconTile(AppIcons.FileOutline, size = 44)
-        Spacer(Modifier.width(12.dp))
+        Spacer(Modifier.width(AppSpacing.m))
         Column(Modifier.weight(1f)) {
             // The tag drops under the date when the two do not fit beside the buttons.
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(4.dp), itemVerticalAlignment = Alignment.CenterVertically) {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs), itemVerticalAlignment = Alignment.CenterVertically) {
                 Text(formatBackupTime(backup, seconds = false), style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 if (latest) Tag(tr("Latest"), colors.primary)
             }
@@ -140,7 +140,7 @@ private fun PhoneBackupRow(backup: Backup, latest: Boolean, enabled: Boolean, on
                 Text(tr("Ready"), style = MaterialTheme.typography.bodySmall, color = StatusTints.ok)
             }
         }
-        Spacer(Modifier.width(8.dp))
+        Spacer(Modifier.width(AppSpacing.s))
         SecondaryButton(onClick = onRestore, enabled = enabled) { Text(tr("Restore")) }
         Box {
             AppIconButton(AppIcons.MoreHoriz, contentDescription = tr("More for the backup of {0}", formatBackupTime(backup)), onClick = { menu = true }, enabled = enabled)
@@ -158,13 +158,13 @@ private fun IncludedRow() {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
     Column(Modifier.fillMaxWidth().cardSurface()) {
-        Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(16.dp).testTag("phone-whats-included"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(AppSpacing.l).testTag("phone-whats-included"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             IconTile(AppIcons.VerifiedUser, size = 44)
-            Text(tr("What's included in a backup"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            Text(tr("What's included in a backup"), Modifier.weight(1f), style = AppText.itemTitle)
             Icon(if (open) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant)
         }
         if (open) {
-            Column(Modifier.padding(start = 16.dp, end = 16.dp, bottom = 12.dp)) { IncludedLines(gap = 10.dp) }
+            Column(Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.m)) { IncludedLines(gap = AppSpacing.m) }
         }
     }
 }

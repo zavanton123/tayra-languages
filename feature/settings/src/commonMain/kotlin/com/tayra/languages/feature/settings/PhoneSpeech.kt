@@ -32,9 +32,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.language.LanguageOption
@@ -68,6 +66,8 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * The Speech page on a phone: a banner saying where speech stands, the engine picked from a sheet
@@ -93,14 +93,14 @@ internal fun PhoneSpeechScreen(
         topBar = { AppTopBar(title = tr("Speech"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Text(tr("Choose how words and passages are spoken."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             StatusBanner(engine, checking, ready, learning, voices)
             ContentCard(tr("Speech engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
                 val chosen = settings.speechEngine.takeIf { it in viewModel.engines } ?: SpeechEngine.SYSTEM
                 SelectButton(engine?.displayName ?: tr(chosen.label), onClick = { engineSheet = true }, modifier = Modifier.fillMaxWidth().testTag("phone-speech-engine"))
-                Spacer(Modifier.height(10.dp))
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Spacer(Modifier.height(AppSpacing.m))
+                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     when (chosen) {
                         SpeechEngine.SYSTEM -> Tag(tr("Built in"), colors.primary)
                         SpeechEngine.PIPER -> { Tag(tr("Offline"), StatusTints.ok); Tag(tr("Many languages"), colors.primary) }
@@ -108,7 +108,7 @@ internal fun PhoneSpeechScreen(
                     }
                 }
                 if (engine != null) {
-                    Spacer(Modifier.height(12.dp))
+                    Spacer(Modifier.height(AppSpacing.m))
                     PhoneEngineStatus(viewModel, engine)
                 }
             }
@@ -130,7 +130,7 @@ internal fun PhoneSpeechScreen(
                             viewModel.chooseVoice(engine.engine, learning.code, voice.id)
                         })
                     }
-                    Spacer(Modifier.height(12.dp))
+                    Spacer(Modifier.height(AppSpacing.m))
                 }
                 if (engine?.supportsSpeed == true) {
                     SliderSetting(
@@ -142,7 +142,7 @@ internal fun PhoneSpeechScreen(
                         step = 0.05f,
                         sliderModifier = Modifier.semantics { contentDescription = tr("speech speed") }.testTag("phone-speech-speed"),
                     )
-                    Spacer(Modifier.height(8.dp))
+                    Spacer(Modifier.height(AppSpacing.s))
                 }
                 PlaySample(viewModel, learning)
             }
@@ -239,18 +239,18 @@ private fun PhoneModelCard(viewModel: SpeechViewModel, engine: LocalSpeechEngine
     val busy = pkg.id in packageBusy
     val voiceCount = Regex("""(\d+) voices""").find(pkg.title)?.groupValues?.get(1)
     ContentCard(tr("Voice model"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { if (pkg.installed) Tag(tr("Installed"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) }) {
-        Text(tr("{0} voice model", engine.displayName), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+        Text(tr("{0} voice model", engine.displayName), style = AppText.itemTitle)
         Text(
             listOfNotNull(voiceCount?.let { trPlural(it.toInt(), "{0} voice", "{0} voices") }, pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
             style = MaterialTheme.typography.bodyMedium,
             color = colors.onSurfaceVariant,
         )
-        Spacer(Modifier.height(10.dp))
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Spacer(Modifier.height(AppSpacing.m))
+        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             pkg.group.split(", ").filter { it.isNotBlank() }.take(6).forEach { name -> CodeTile(LanguageCodes.codeFor(name) ?: name.take(2), size = 34) }
         }
-        if (busy) AppProgressBar(null, Modifier.padding(top = 10.dp))
-        Spacer(Modifier.height(14.dp))
+        if (busy) AppProgressBar(null, Modifier.padding(top = AppSpacing.m))
+        Spacer(Modifier.height(AppSpacing.l))
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
             PackageAction(pkg, busy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
         }
@@ -270,7 +270,7 @@ private fun PhoneVoices(viewModel: SpeechViewModel, packages: List<SpeechPackage
     val languageName = learning?.let { tr(it.name) }
     SearchField(query, { query = it }, tr("Search voices"), Modifier.fillMaxWidth())
     if (installed.isNotEmpty()) {
-        Text(tr("Installed voices"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+        Text(tr("Installed voices"), style = AppText.sectionTitle)
         VoiceList(installed, packageBusy, viewModel)
     }
     Row(verticalAlignment = Alignment.CenterVertically) {
@@ -281,8 +281,7 @@ private fun PhoneVoices(viewModel: SpeechViewModel, packages: List<SpeechPackage
                 else -> tr("Voices")
             },
             Modifier.weight(1f),
-            style = MaterialTheme.typography.titleLarge,
-            fontWeight = FontWeight.Bold,
+            style = AppText.sectionTitle,
         )
         Tag(tr("{0} installed", packages.count { it.installed }), colors.primary)
     }
@@ -307,9 +306,9 @@ private fun VoiceList(voices: List<SpeechPackage>, packageBusy: Set<String>, vie
     Column(Modifier.fillMaxWidth().cardSurface(AppShapes.panel)) {
         voices.forEachIndexed { i, pkg ->
             if (i > 0) AppDivider()
-            Row(Modifier.fillMaxWidth().padding(start = 10.dp, end = 4.dp, top = 8.dp, bottom = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+            Row(Modifier.fillMaxWidth().padding(start = AppSpacing.m, end = AppSpacing.xs, top = AppSpacing.s, bottom = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
                 CodeTile(pkg.languageCode ?: pkg.group.take(2), size = 40)
-                Spacer(Modifier.width(12.dp))
+                Spacer(Modifier.width(AppSpacing.m))
                 Column(Modifier.weight(1f)) {
                     Text(pkg.title, style = MaterialTheme.typography.bodyLarge, maxLines = 2, overflow = TextOverflow.Ellipsis)
                     Text(
@@ -317,9 +316,9 @@ private fun VoiceList(voices: List<SpeechPackage>, packageBusy: Set<String>, vie
                         style = MaterialTheme.typography.bodySmall,
                         color = colors.onSurfaceVariant,
                     )
-                    if (pkg.id in packageBusy) AppProgressBar(null, Modifier.padding(top = 4.dp))
+                    if (pkg.id in packageBusy) AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
                 }
-                Spacer(Modifier.width(8.dp))
+                Spacer(Modifier.width(AppSpacing.s))
                 PackageAction(pkg, busy = pkg.id in packageBusy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
             }
         }
@@ -333,13 +332,13 @@ private fun AdvancedRow(viewModel: SpeechViewModel, engine: LocalSpeechEngine) {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
     Column(Modifier.fillMaxWidth().cardSurface(AppShapes.card)) {
-        Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             IconTile(AppIcons.Tune, size = 44)
             Text(tr("Advanced engine settings"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
             Icon(if (open) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant)
         }
         if (open) {
-            Column(Modifier.padding(start = 16.dp, end = 16.dp, bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            Column(Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Text(
                     tr("{0} runs in the app's own Python, kept in the app folder. Reinstalling downloads it again, which repairs a broken installation; downloaded voices are kept.", engine.displayName),
                     style = MaterialTheme.typography.bodySmall,

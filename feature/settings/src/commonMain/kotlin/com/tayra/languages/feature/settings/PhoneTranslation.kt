@@ -29,7 +29,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -67,6 +66,8 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * The Translation page on a phone: the language pair as two chips, the engine picked from a sheet
@@ -98,13 +99,13 @@ internal fun PhoneTranslationScreen(
         topBar = { AppTopBar(title = tr("Translation"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-            Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Text(tr("Choose how translations are generated and stored."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 EngineStatusPill(settings, viewModel, local, checking, ready, pair)
             }
             ContentCard(tr("Language pair"), subtitle = null, icon = AppIcons.SwapHoriz, dense = true) {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     SelectButton(
                         learningName ?: tr("Your language"),
                         onClick = {},
@@ -120,7 +121,7 @@ internal fun PhoneTranslationScreen(
                         leading = { LanguageFlag(LanguageCatalog.nativeOption(settings.nativeLanguage).name, 24.dp) },
                     )
                 }
-                Spacer(Modifier.height(12.dp))
+                Spacer(Modifier.height(AppSpacing.m))
                 Text(
                     learningName?.let { tr("{0} terms will be translated into {1}.", it, nativeName) } ?: tr("Your terms will be translated into {0}.", nativeName),
                     style = MaterialTheme.typography.bodyMedium,
@@ -130,12 +131,12 @@ internal fun PhoneTranslationScreen(
             ContentCard(tr("Translation engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
                 val engine = settings.translationEngine
                 SelectButton(engine.shortName(viewModel.localName), onClick = { engineSheet = true }, modifier = Modifier.fillMaxWidth().testTag("phone-engine"))
-                Spacer(Modifier.height(10.dp))
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Spacer(Modifier.height(AppSpacing.m))
+                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     if (local) Tag(tr("Offline"), StatusTints.ok) else Tag(tr("Online"), colors.primary)
                     if (engine == TranslationEngine.GOOGLE) Tag(tr("Paid"), StatusTints.warning) else Tag(tr("Free"), colors.primary)
                 }
-                Spacer(Modifier.height(12.dp))
+                Spacer(Modifier.height(AppSpacing.m))
                 when {
                     local -> PhoneEngineStatus(settings, viewModel)
                     engine == TranslationEngine.GOOGLE -> GoogleSettings(settings, viewModel)
@@ -221,19 +222,19 @@ private fun PhonePackagesCard(viewModel: OfflineTranslationViewModel, packages: 
     ContentCard(if (runtime) tr("Required packages") else tr("Required models"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { Tag(tr("{0} installed", installed.size), colors.primary) }) {
         if (pair.learning != null && !pair.sameLanguage) {
             if (pair.ready) {
-                InfoBanner(tr("{0} is ready", pair.label), Modifier.padding(bottom = 8.dp), tint = StatusTints.ok, icon = Icons.Default.CheckCircle, dense = true)
+                InfoBanner(tr("{0} is ready", pair.label), Modifier.padding(bottom = AppSpacing.s), tint = StatusTints.ok, icon = Icons.Default.CheckCircle, dense = true)
                 val needed = packages.filter { it.key in wanted }
                 needed.forEach { PackageLine(it) }
             } else {
                 // Two packages mean the pair goes through English.
-                if (pair.missing.size > 1) InfoBanner(tr("{0} translates through English.", pair.label), Modifier.padding(bottom = 8.dp), tint = StatusTints.warning, icon = Icons.Default.Warning, dense = true)
+                if (pair.missing.size > 1) InfoBanner(tr("{0} translates through English.", pair.label), Modifier.padding(bottom = AppSpacing.s), tint = StatusTints.warning, icon = Icons.Default.Warning, dense = true)
                 pair.missing.forEach { PackageLine(it) }
                 val installing = pair.missing.any { it.key in packageBusy }
                 val size = pair.missing.sumOf { it.sizeBytes }
                 PrimaryButton(
                     onClick = { pair.missing.forEach(viewModel::installPackage) },
                     enabled = !installing,
-                    modifier = Modifier.fillMaxWidth().padding(top = 4.dp).testTag("phone-install-missing"),
+                    modifier = Modifier.fillMaxWidth().padding(top = AppSpacing.xs).testTag("phone-install-missing"),
                 ) {
                     Text(
                         when {
@@ -250,7 +251,7 @@ private fun PhonePackagesCard(viewModel: OfflineTranslationViewModel, packages: 
         } else if (installed.isEmpty()) {
             Text(if (runtime) tr("No packages installed yet.") else tr("No models installed yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
-        Box(Modifier.fillMaxWidth().padding(top = 4.dp), contentAlignment = Alignment.Center) {
+        Box(Modifier.fillMaxWidth().padding(top = AppSpacing.xs), contentAlignment = Alignment.Center) {
             QuietButton(onClick = onBrowse, modifier = Modifier.testTag("phone-browse-packages")) {
                 Text(if (runtime) tr("Browse all language packages") else tr("Browse all language models"), style = MaterialTheme.typography.titleMedium)
             }
@@ -263,7 +264,7 @@ private fun PhonePackagesCard(viewModel: OfflineTranslationViewModel, packages: 
 private fun PackageLine(pkg: LocalPackage) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(horizontal = 12.dp, vertical = 12.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(horizontal = AppSpacing.m, vertical = AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Text(pkg.displayTitle, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
@@ -273,7 +274,7 @@ private fun PackageLine(pkg: LocalPackage) {
             color = if (pkg.installed) StatusTints.ok else colors.onSurfaceVariant,
         )
     }
-    Spacer(Modifier.height(8.dp))
+    Spacer(Modifier.height(AppSpacing.s))
 }
 
 /** The whole catalogue in a sheet: a search, Installed or Available, and a tile per package to install or remove. */
@@ -290,11 +291,11 @@ private fun PackagesSheet(viewModel: OfflineTranslationViewModel, packages: List
         PackageTab.AVAILABLE -> packages.filter { !it.installed }.sortedWith(compareBy({ it.key !in wanted }, { it.title }))
     }.filter(matches)
     AppBottomSheet(onDismissRequest = onDismiss) {
-        Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp).padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            Text(if (runtime) tr("Language packages") else tr("Language models"), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+        Column(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l).padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            Text(if (runtime) tr("Language packages") else tr("Language models"), style = AppText.headline)
             SearchField(query, { query = it }, if (runtime) tr("Search packages") else tr("Search models"), Modifier.fillMaxWidth())
             TabToggle(tab, fill = true) { tab = it }
-            Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 if (shown.isEmpty()) {
                     Text(
                         when {
@@ -304,7 +305,7 @@ private fun PackagesSheet(viewModel: OfflineTranslationViewModel, packages: List
                         },
                         style = MaterialTheme.typography.bodyMedium,
                         color = colors.onSurfaceVariant,
-                        modifier = Modifier.padding(vertical = 12.dp),
+                        modifier = Modifier.padding(vertical = AppSpacing.m),
                     )
                 }
                 shown.forEach { pkg ->

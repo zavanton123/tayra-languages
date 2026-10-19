@@ -67,6 +67,7 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppTheme
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -158,15 +159,15 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
             }
             if (wide) {
-                Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
-                    Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
+                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                    Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         AppearanceCard(settings, viewModel)
                         ReadingCard(settings, viewModel)
                         BehaviourCard(settings, viewModel)
                         if (viewModel.commandLine != null) CommandLineCard(viewModel)
                         viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                     }
-                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
+                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         PreviewCard(settings)
                         InfoBanner(tr("Changes are saved automatically."))
                     }
@@ -204,9 +205,9 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
                 onSelect = { theme -> viewModel.update { it.copy(themeId = theme.id) } },
                 label = null,
                 optionLabel = { it.label },
-                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(300.dp),
+                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(DROPDOWN_WIDTH),
                 optionContent = { theme ->
-                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                         ThemeSwatch(theme)
                         Text(theme.label)
                     }
@@ -224,8 +225,8 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
 internal fun ThemeSwatch(theme: AppTheme) {
     Row(
         Modifier.clip(AppShapes.small).background(theme.readingBackground)
-            .border(AppBorders.hairline(), AppShapes.small).padding(horizontal = 6.dp, vertical = 5.dp),
-        horizontalArrangement = Arrangement.spacedBy(3.dp),
+            .border(AppBorders.hairline(), AppShapes.small).padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xs),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
     ) {
         listOf(
             theme.readingText,
@@ -238,7 +239,7 @@ internal fun ThemeSwatch(theme: AppTheme) {
 
 @Composable
 private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    val sliderWidth = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(450.dp)
+    val sliderWidth = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(SLIDER_WIDTH)
     ContentCard(tr("Reading"), tr("Adjust the font, text size and spacing for a comfortable reading experience."), iconText = "Aa") {
         SettingRow(tr("Reading font"), tr("The typeface of the text you read."), stackOnCompact = true) {
             Dropdown(
@@ -248,7 +249,7 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
                 label = null,
                 optionLabel = { it.label },
                 optionContent = { Text(it.label, fontFamily = it.fontFamily(), style = MaterialTheme.typography.bodyLarge) },
-                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(300.dp),
+                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(DROPDOWN_WIDTH),
             )
         }
         SettingRow(tr("Reading font size"), divider = true, stackOnCompact = true) {
@@ -309,7 +310,7 @@ private fun CommandLineCard(viewModel: SettingsViewModel) {
     ) {
         val current = status
         when {
-            current == null -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            current == null -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 AppSpinner(size = SpinnerSize.Small)
                 Text(tr("Checking whether a terminal finds tayra…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
@@ -346,7 +347,7 @@ private fun CommandBox(text: String) {
         Text(
             text,
             Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surfaceVariant.copy(alpha = AppAlpha.muted))
-                .border(AppBorders.hairline(), AppShapes.compact).padding(horizontal = 14.dp, vertical = 10.dp),
+                .border(AppBorders.hairline(), AppShapes.compact).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
             style = MaterialTheme.typography.bodyMedium,
             fontFamily = FontFamily.Monospace,
         )
@@ -361,13 +362,13 @@ private fun PreviewCard(settings: UserSettings) {
 
 /** The preview itself: the sample sentence on the theme's page with the legend under it; [padding] is the page's inner margin. */
 @Composable
-internal fun PreviewBox(settings: UserSettings, padding: Dp = 24.dp) {
+internal fun PreviewBox(settings: UserSettings, padding: Dp = AppSpacing.xxl) {
     val theme = TayraTheme.current
     val learning = LocalLearningLanguage.current?.let { state -> state.languages.firstOrNull { it.first == state.currentId }?.second }
     val sample = PreviewSamples.forLanguage(learning?.let { LanguageCodes.codeFor(it) })
     Column(
         Modifier.fillMaxWidth().clip(AppShapes.panel).background(theme.readingBackground)
-            .border(AppBorders.hairline(), AppShapes.panel).padding(horizontal = padding + 4.dp, vertical = padding),
+            .border(AppBorders.hairline(), AppShapes.panel).padding(horizontal = padding + AppSpacing.xs, vertical = padding),
     ) {
         val colors = theme.statusColors
         val text = buildAnnotatedString {
@@ -390,10 +391,10 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = 24.dp) {
                 color = theme.readingText,
                 fontFamily = ReadingFont.byId(settings.readingFont).fontFamily(),
             ),
-            modifier = Modifier.padding(vertical = 8.dp),
+            modifier = Modifier.padding(vertical = AppSpacing.s),
         )
-        AppDivider(Modifier.padding(vertical = 16.dp))
-        Row(horizontalArrangement = Arrangement.spacedBy(24.dp), verticalAlignment = Alignment.CenterVertically) {
+        AppDivider(Modifier.padding(vertical = AppSpacing.l))
+        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl), verticalAlignment = Alignment.CenterVertically) {
             LegendDot(tr("New"), colors.background(TermStatus.UNKNOWN), theme)
             LegendDot(tr("Learning"), colors.background(TermStatus.NEW_1), theme)
             LegendDot(tr("Known"), null, theme)
@@ -405,12 +406,16 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = 24.dp) {
 @Composable
 private fun LegendDot(label: String, color: Color?, theme: AppTheme) {
     Row(verticalAlignment = Alignment.CenterVertically) {
-        if (color != null) StatusDot(color, size = 18.dp)
-        else Box(Modifier.size(18.dp).border(AppBorders.selected(theme.readingText.copy(alpha = AppAlpha.disabled)), AppShapes.circle))
-        Spacer(Modifier.width(10.dp))
+        if (color != null) StatusDot(color, size = LEGEND_DOT)
+        else Box(Modifier.size(LEGEND_DOT).border(AppBorders.selected(theme.readingText.copy(alpha = AppAlpha.disabled)), AppShapes.circle))
+        Spacer(Modifier.width(AppSpacing.s))
         Text(label, style = MaterialTheme.typography.bodyMedium, color = theme.readingText.copy(alpha = AppAlpha.strong))
     }
 }
+
+private val DROPDOWN_WIDTH = 300.dp
+private val SLIDER_WIDTH = 450.dp
+private val LEGEND_DOT = 18.dp
 
 /** Preview sentences per language code: the text in parts, each word with the status it is shown with. */
 private object PreviewSamples {

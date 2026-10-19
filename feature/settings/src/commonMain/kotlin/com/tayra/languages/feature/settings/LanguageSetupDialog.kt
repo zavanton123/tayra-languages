@@ -32,7 +32,6 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.state.ToggleableState
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -70,6 +69,8 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -183,7 +184,8 @@ internal fun PhoneSetupSheet(
     val colors = MaterialTheme.colorScheme
     val items = state.items
     AppBottomSheet(onDismissRequest = onClosed, modifier = Modifier.testTag("language-setup")) {
-        Column(Modifier.padding(horizontal = 16.dp)) {
+        // The list gives way, so the buttons below it stay on screen however long it is.
+        Column(Modifier.weight(1f, fill = false).padding(horizontal = AppSpacing.l)) {
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                 AppIconButton(
                     Icons.Default.Close,
@@ -197,10 +199,9 @@ internal fun PhoneSetupSheet(
             val name = items?.firstOrNull()?.languageName
             Text(
                 if (name != null) tr("Get ready to learn {0}", languageInSentence(name, LanguageCase.NOMINATIVE)) else tr("Getting ready…"),
-                style = MaterialTheme.typography.headlineSmall,
-                fontWeight = FontWeight.Bold,
+                style = AppText.headline,
             )
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(AppSpacing.s))
             val nothingMissing = items != null && items.none { it.status == SetupStatus.MISSING }
             Text(
                 when {
@@ -211,12 +212,12 @@ internal fun PhoneSetupSheet(
                 style = MaterialTheme.typography.bodyLarge,
                 color = colors.onSurfaceVariant,
             )
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(AppSpacing.l))
             if (items == null) {
-                Box(Modifier.fillMaxWidth().heightIn(min = 120.dp), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
+                Box(Modifier.fillMaxWidth().heightIn(min = LOADING_HEIGHT), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
                 return@Column
             }
-            ScrollColumn(Modifier.weight(1f, fill = false), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            ScrollColumn(Modifier.weight(1f, fill = false), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 setupGroups(items).forEach { group ->
                     val item = group.first()
                     if (item.kind == SetupKind.VOICE && item.engine != null) {
@@ -226,13 +227,13 @@ internal fun PhoneSetupSheet(
                     }
                 }
             }
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(AppSpacing.m))
         }
         AppDivider()
         val chosen = items?.filter { it.id in state.selected }.orEmpty()
         val running = state.started && chosen.any { progress[it.id].let { p -> p == null || p is SetupState.Waiting || p is SetupState.Running } }
         val failed = state.started && !running && chosen.any { progress[it.id] is SetupState.Failed }
-        Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 12.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             when {
                 items != null && items.none { it.status == SetupStatus.MISSING } -> {
                     Spacer(Modifier.weight(1f))
@@ -240,7 +241,7 @@ internal fun PhoneSetupSheet(
                 }
                 !state.started -> {
                     // What is chosen, and the way out, stacked at the start; the download button takes the rest.
-                    Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                         Text(
                             listOfNotNull(tr("{0} selected", chosen.size), totalSize(chosen)).joinToString(" · "),
                             style = MaterialTheme.typography.bodyMedium,
@@ -287,14 +288,13 @@ fun LanguageSetupContent(
 ) {
     val colors = MaterialTheme.colorScheme
     val items = state.items
-    Column(Modifier.testTag("language-setup").padding(start = 28.dp, end = 20.dp, top = 20.dp, bottom = 24.dp)) {
+    Column(Modifier.testTag("language-setup").padding(start = AppSpacing.xxxl, end = AppSpacing.xl, top = AppSpacing.xl, bottom = AppSpacing.xxl)) {
         Row(verticalAlignment = Alignment.Top) {
-            Column(Modifier.weight(1f).padding(top = 12.dp, end = 12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Column(Modifier.weight(1f).padding(top = AppSpacing.m, end = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 val name = items?.firstOrNull()?.languageName
                 Text(
                     if (name != null) tr("Get ready to learn {0}", languageInSentence(name, LanguageCase.NOMINATIVE)) else tr("Getting ready…"),
-                    style = MaterialTheme.typography.headlineSmall,
-                    fontWeight = FontWeight.Bold,
+                    style = AppText.headline,
                 )
                 val nothingMissing = items != null && items.none { it.status == SetupStatus.MISSING }
                 Text(
@@ -316,13 +316,13 @@ fun LanguageSetupContent(
                 tint = colors.onSurface,
             )
         }
-        Spacer(Modifier.height(20.dp))
+        Spacer(Modifier.height(AppSpacing.xl))
         if (items == null) {
-            Box(Modifier.fillMaxWidth().padding(end = 8.dp).heightIn(min = 120.dp), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
+            Box(Modifier.fillMaxWidth().padding(end = AppSpacing.s).heightIn(min = LOADING_HEIGHT), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
             return@Column
         }
         // The scrollbar (desktop only) runs in the gutter the cards leave at the end.
-        ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(end = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(end = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             setupGroups(items).forEach { group ->
                 val item = group.first()
                 if (item.kind == SetupKind.VOICE && item.engine != null) {
@@ -332,17 +332,17 @@ fun LanguageSetupContent(
                 }
             }
         }
-        Spacer(Modifier.height(20.dp))
+        Spacer(Modifier.height(AppSpacing.xl))
         val chosen = items.filter { it.id in state.selected }
         val running = state.started && chosen.any { progress[it.id].let { p -> p == null || p is SetupState.Waiting || p is SetupState.Running } }
         val failed = state.started && !running && chosen.any { progress[it.id] is SetupState.Failed }
         if (items.none { it.status == SetupStatus.MISSING }) {
-            Row(Modifier.fillMaxWidth().padding(end = 8.dp), horizontalArrangement = Arrangement.End) {
+            Row(Modifier.fillMaxWidth().padding(end = AppSpacing.s), horizontalArrangement = Arrangement.End) {
                 PrimaryButton(onClick = onClosed, modifier = Modifier.testTag("setup-done")) { Text(tr("Done")) }
             }
             return@Column
         }
-        Row(Modifier.fillMaxWidth().padding(end = 8.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Row(Modifier.fillMaxWidth().padding(end = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             Text(
                 when {
                     !state.started -> listOfNotNull(
@@ -410,10 +410,10 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
             .background(colors.surfaceVariant.copy(alpha = AppAlpha.line))
             .border(AppBorders.hairline(), shape)
             .clickable(enabled = !started && missing, onClick = onToggle)
-            .padding(horizontal = if (compact) 8.dp else 16.dp, vertical = if (compact) 12.dp else 16.dp)
+            .padding(horizontal = if (compact) AppSpacing.s else AppSpacing.l, vertical = if (compact) AppSpacing.m else AppSpacing.l)
             .testTag("setup-${item.kind.name}"),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(if (compact) 8.dp else 16.dp),
+        horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.s else AppSpacing.l),
     ) {
         StatusMark(item, checked, started, progress, onToggle)
         IconTile(
@@ -425,8 +425,8 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
             },
             size = if (compact) 48 else 56,
         )
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Text(
                     when (item.kind) {
                         SetupKind.COURSES -> tr("{0} course pack", tr(item.languageName))
@@ -434,15 +434,14 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
                         SetupKind.VOICE -> tr("{0} voice", tr(item.languageName))
                         SetupKind.TRANSLATION -> tr("Offline translation")
                     },
-                    style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.SemiBold,
+                    style = AppText.itemTitle,
                     modifier = Modifier.weight(1f),
                 )
                 when (item.status) {
-                    SetupStatus.INSTALLED -> Text(tr("On this device"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok, modifier = Modifier.padding(top = 2.dp))
+                    SetupStatus.INSTALLED -> Text(tr("On this device"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok, modifier = Modifier.padding(top = AppSpacing.xxs))
                     SetupStatus.UNAVAILABLE -> Unit
                     SetupStatus.MISSING -> item.sizeBytes?.let {
-                        Text(sizeText(it, item.sizeEstimated), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = 2.dp))
+                        Text(sizeText(it, item.sizeEstimated), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.xxs))
                     }
                 }
             }
@@ -461,7 +460,7 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
                 Text(localizedNames(item.name), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant.copy(alpha = AppAlpha.strong))
             }
             if (item.files.size > 1 && !compact) {
-                Column(Modifier.padding(top = 4.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Column(Modifier.padding(top = AppSpacing.xs), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                     item.files.forEach { file -> FileLine(file) }
                 }
             }
@@ -481,7 +480,7 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
 @Composable
 private fun StatusMark(item: SetupItem, checked: Boolean, started: Boolean, progress: SetupState?, onToggle: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    Box(Modifier.size(40.dp), contentAlignment = Alignment.Center) {
+    Box(Modifier.size(MARK_SLOT), contentAlignment = Alignment.Center) {
         when {
             item.status == SetupStatus.INSTALLED -> Icon(Icons.Default.CheckCircle, contentDescription = tr("On this device"), tint = StatusTints.ok, modifier = Modifier.size(AppSizes.iconLarge))
             item.status == SetupStatus.UNAVAILABLE -> Icon(AppIcons.RemoveCircle, contentDescription = tr("Not available"), tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconLarge))
@@ -489,7 +488,7 @@ private fun StatusMark(item: SetupItem, checked: Boolean, started: Boolean, prog
             progress is SetupState.Done -> Icon(Icons.Default.CheckCircle, contentDescription = tr("Downloaded"), tint = StatusTints.ok, modifier = Modifier.size(AppSizes.iconLarge))
             progress is SetupState.Failed -> Icon(Icons.Default.Warning, contentDescription = null, tint = colors.error, modifier = Modifier.size(AppSizes.iconLarge))
             progress is SetupState.Running -> AppSpinner(size = SpinnerSize.Medium)
-            else -> Box(Modifier.size(22.dp).border(AppBorders.selected(colors.outlineVariant), AppShapes.circle))
+            else -> Box(Modifier.size(AppSizes.iconMedium).border(AppBorders.selected(colors.outlineVariant), AppShapes.circle))
         }
     }
 }
@@ -509,13 +508,13 @@ private fun VoicesCard(voices: List<SetupItem>, selected: Set<String>, started: 
             .clip(shape)
             .background(colors.surfaceVariant.copy(alpha = AppAlpha.line))
             .border(AppBorders.hairline(), shape)
-            .padding(horizontal = if (compact) 8.dp else 16.dp, vertical = if (compact) 12.dp else 16.dp)
+            .padding(horizontal = if (compact) AppSpacing.s else AppSpacing.l, vertical = if (compact) AppSpacing.m else AppSpacing.l)
             .testTag("setup-VOICE-$engine"),
-        verticalArrangement = Arrangement.spacedBy(if (compact) 4.dp else 8.dp),
+        verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.xs else AppSpacing.s),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (compact) 8.dp else 16.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.s else AppSpacing.l)) {
             val missing = voices.filter { it.status == SetupStatus.MISSING }
-            Box(Modifier.size(40.dp), contentAlignment = Alignment.Center) {
+            Box(Modifier.size(MARK_SLOT), contentAlignment = Alignment.Center) {
                 if (missing.isNotEmpty() && !started) {
                     val chosen = missing.count { it.id in selected }
                     val all = chosen == missing.size
@@ -532,17 +531,16 @@ private fun VoicesCard(voices: List<SetupItem>, selected: Set<String>, started: 
                 }
             }
             IconTile(AppIcons.VolumeUp, size = if (compact) 48 else 56)
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     Text(
                         "${tr("{0} voice", tr(first.languageName))} \u00b7 $engine",
-                        style = MaterialTheme.typography.titleMedium,
-                        fontWeight = FontWeight.SemiBold,
+                        style = AppText.itemTitle,
                         modifier = Modifier.weight(1f),
                     )
                     // What all its voices take together, the shared model and runtime once.
                     totalSize(missing)?.let {
-                        Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = 2.dp).testTag("setup-total-$engine"))
+                        Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.xxs).testTag("setup-total-$engine"))
                     }
                 }
                 Text(tr("Hear books and words read aloud"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -552,7 +550,7 @@ private fun VoicesCard(voices: List<SetupItem>, selected: Set<String>, started: 
                 }
             }
         }
-        if (compact) AppDivider(Modifier.padding(top = 4.dp))
+        if (compact) AppDivider(Modifier.padding(top = AppSpacing.xs))
         // A model the voices share is a download of its own while it is not on the device yet.
         voices.flatMap { it.files }.firstOrNull { it.kind == SetupFileKind.VOICE_MODEL }?.let { model ->
             val chosen = voices.filter { it.id in selected }
@@ -572,16 +570,16 @@ private fun VoicesCard(voices: List<SetupItem>, selected: Set<String>, started: 
 private fun ModelRow(engine: String, model: SetupFile, needed: Boolean, started: Boolean, progress: SetupState?) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().padding(vertical = 4.dp).testTag("setup-model-$engine"),
+        Modifier.fillMaxWidth().padding(vertical = AppSpacing.xs).testTag("setup-model-$engine"),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         if (started) {
             StatusMark(SetupItem("", SetupKind.VOICE, "", "", emptyList(), recommended = false), needed, started = true, progress = progress, onToggle = {})
         } else {
-            Box(Modifier.size(40.dp), contentAlignment = Alignment.Center) { AppCheckbox(checked = needed, onCheckedChange = null) }
+            Box(Modifier.size(MARK_SLOT), contentAlignment = Alignment.Center) { AppCheckbox(checked = needed, onCheckedChange = null) }
         }
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
             Text(tr("{0} model", engine), style = MaterialTheme.typography.bodyLarge)
             Text(tr("Needed by every voice, downloaded once"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
@@ -598,13 +596,13 @@ private fun VoiceRow(item: SetupItem, checked: Boolean, started: Boolean, progre
         Modifier.fillMaxWidth()
             .clip(AppShapes.panel)
             .clickable(enabled = !started && missing, onClick = onToggle)
-            .padding(vertical = 4.dp)
+            .padding(vertical = AppSpacing.xs)
             .testTag("setup-${item.id}"),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(if (compact) 8.dp else 16.dp),
+        horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.s else AppSpacing.l),
     ) {
         StatusMark(item, checked, started, progress, onToggle)
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
             Text(item.name.substringAfter(" \u00b7 "), style = MaterialTheme.typography.bodyLarge)
             if (progress is SetupState.Failed) Text(tr("Download failed: {0}", progress.message), style = MaterialTheme.typography.bodySmall, color = colors.error)
         }
@@ -631,11 +629,16 @@ private fun FileLine(file: SetupFile) {
         SetupFileKind.COURSES, SetupFileKind.DICTIONARY -> localizedNames(file.name)
     }
     val size = file.sizeBytes?.let { sizeText(it, file.estimated) } ?: tr("size unknown")
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         StatusDot(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = AppAlpha.muted), size = 4.dp)
         Text("$name · $size", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
+
+private val LOADING_HEIGHT = 120.dp
+
+/** The square the tick box or a download's state stands in. */
+private val MARK_SLOT = 40.dp
 
 /** "Kokoro model with 34 voices", as the engines name a model of several voices. */
 private val MODEL_TITLE = Regex("""(.+) model with (\d+) voices""")

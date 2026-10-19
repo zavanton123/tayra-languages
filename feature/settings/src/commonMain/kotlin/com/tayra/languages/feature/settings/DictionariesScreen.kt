@@ -60,7 +60,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
@@ -93,6 +92,8 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import kotlinx.coroutines.flow.SharingStarted
 import com.tayra.languages.core.domain.dictionary.ImportedDictionaryInfo
 import kotlin.coroutines.cancellation.CancellationException
@@ -263,7 +264,7 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
             if (compact) pill()
             CurrentLookupCard(learning, nativeName, current, onDownload = { viewModel.download(it) }, onTest = { testing = it })
             if (LocalWindowWidth.current.isExpanded) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                     InstalledCard(packs, nativeName, viewModel, Modifier.weight(1.6f).fillMaxHeight())
                     AvailableCard(packs, learning, native, viewModel, Modifier.weight(1f).fillMaxHeight())
                 }
@@ -287,13 +288,13 @@ private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, cur
         Column {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 IconTile(AppIcons.MenuBook)
-                Spacer(Modifier.width(16.dp))
-                Text(tr("Current lookup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                Spacer(Modifier.width(AppSpacing.l))
+                Text(tr("Current lookup"), style = AppText.sectionTitle)
             }
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(AppSpacing.m))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 PairChip(learning?.code ?: "?", learning?.let { tr(it.name) } ?: tr("No language"))
-                Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("looked up in"), modifier = Modifier.padding(horizontal = 12.dp).size(AppSizes.icon))
+                Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("looked up in"), modifier = Modifier.padding(horizontal = AppSpacing.m).size(AppSizes.icon))
                 PairChip(LanguageCatalog.nativeLanguages.firstOrNull { it.name == nativeName }?.code ?: "", tr(nativeName))
             }
         }
@@ -307,20 +308,20 @@ private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, cur
         }
     }
     Column(
-        Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(20.dp),
+        Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(AppSpacing.xl),
     ) {
         if (compact) {
             pair()
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(AppSpacing.l))
             LookupStatusRow(current, short = false, modifier = Modifier.fillMaxWidth())
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(AppSpacing.m))
             action()
         } else {
             Row(Modifier.height(IntrinsicSize.Min), verticalAlignment = Alignment.CenterVertically) {
                 pair()
-                AppVerticalDivider(Modifier.padding(horizontal = 32.dp).fillMaxHeight())
+                AppVerticalDivider(Modifier.padding(horizontal = AppSpacing.xxxl).fillMaxHeight())
                 LookupStatusRow(current, short = false, modifier = Modifier.weight(1f))
-                Spacer(Modifier.width(20.dp))
+                Spacer(Modifier.width(AppSpacing.xl))
                 action()
             }
         }
@@ -350,12 +351,12 @@ internal fun LookupStatusRow(current: PackStatus?, short: Boolean, modifier: Mod
     }
     Row(modifier, verticalAlignment = Alignment.Top) {
         Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconXLarge))
-        Spacer(Modifier.width(12.dp))
+        Spacer(Modifier.width(AppSpacing.m))
         Column(Modifier.weight(1f)) {
-            Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = if (state is PackState.Installed) tint else MaterialTheme.colorScheme.onSurface)
+            Text(title, style = AppText.itemTitle, color = if (state is PackState.Installed) tint else MaterialTheme.colorScheme.onSurface)
             Text(text, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             if (state is PackState.Downloading) {
-                AppProgressBar(state.progress, Modifier.padding(top = 6.dp))
+                AppProgressBar(state.progress, Modifier.padding(top = AppSpacing.s))
             }
         }
     }
@@ -366,17 +367,25 @@ internal fun LookupStatusRow(current: PackStatus?, short: Boolean, modifier: Mod
 internal fun PairChip(code: String, name: String, modifier: Modifier = Modifier) {
     Row(
         modifier.clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(AppBorders.hairline(), AppShapes.control).padding(6.dp).padding(end = 10.dp),
+            .border(AppBorders.hairline(), AppShapes.control).padding(AppSpacing.xs).padding(end = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         CodeTile(code, size = 36)
-        Spacer(Modifier.width(12.dp))
+        Spacer(Modifier.width(AppSpacing.m))
         Text(name, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
 }
 
 /** How many installed rows show before "View all". */
 private const val INSTALLED_PREVIEW = 8
+
+private val INSTALLED_ROW_HEIGHT = 52.dp
+private val INSTALLED_SEARCH_MIN_WIDTH = 280.dp
+private val INSTALLED_SIZE_COLUMN = 100.dp
+private val INSTALLED_STATUS_COLUMN = 110.dp
+private val CATALOGUE_MAX_HEIGHT = 520.dp
+private val TEST_LOOKUP_MIN_WIDTH = 420.dp
+private val LOOKUP_RESULT_MAX_HEIGHT = 320.dp
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -399,38 +408,38 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
                 tr("No dictionaries downloaded yet. Download one on the right to look words up offline."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(vertical = 8.dp),
+                modifier = Modifier.padding(vertical = AppSpacing.s),
             )
             return@ContentCard
         }
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), itemVerticalAlignment = Alignment.CenterVertically) {
             SearchField(
                 query,
                 { query = it },
                 tr("Search installed dictionaries"),
-                if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = 280.dp).weight(1f),
+                if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(min = INSTALLED_SEARCH_MIN_WIDTH).weight(1f),
             )
             if (targets.size > 1) SegmentedToggle(targets.map { Segment(it, label = tr(it)) }, chosen ?: targets.first(), onSelect = { target = it })
         }
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         val bytes = matching.sumOf { (it.state as? PackState.Installed)?.sizeBytes ?: 0L }
         InfoBanner(
             trPlural(matching.size, "{0} dictionary • {1} available offline", "{0} dictionaries • {1} available offline", formatSize(bytes)),
             icon = AppIcons.Storage,
             dense = true,
         )
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(AppSpacing.s))
         Column(Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)) {
             shown.forEachIndexed { i, status ->
                 if (i > 0) AppDivider()
                 InstalledRow(status, onRemove = { viewModel.remove(status.pack) })
             }
             if (shown.isEmpty()) {
-                Text(tr("No dictionaries match “{0}”.", query.trim()), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(16.dp))
+                Text(tr("No dictionaries match “{0}”.", query.trim()), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(AppSpacing.l))
             }
         }
         if (matching.size > INSTALLED_PREVIEW && query.isBlank()) {
-            Spacer(Modifier.height(14.dp))
+            Spacer(Modifier.height(AppSpacing.l))
             SecondaryButton(
                 if (showAll) tr("Show fewer") else tr("View all {0} installed dictionaries", matching.size),
                 onClick = { showAll = !showAll },
@@ -443,20 +452,20 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
 @Composable
 internal fun InstalledRow(status: PackStatus, onRemove: () -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
-    Row(Modifier.fillMaxWidth().heightIn(min = 52.dp).padding(start = 8.dp, end = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+    Row(Modifier.fillMaxWidth().heightIn(min = INSTALLED_ROW_HEIGHT).padding(start = AppSpacing.s, end = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
         CodeTile(status.pack.id.sourceLanguage, size = 36)
-        Spacer(Modifier.width(14.dp))
+        Spacer(Modifier.width(AppSpacing.l))
         Text(status.pack.displayTitle, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
         val state = status.state
         if (state is PackState.Installed && !compact) {
-            Text(formatSize(state.sizeBytes), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.width(100.dp))
+            Text(formatSize(state.sizeBytes), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.width(INSTALLED_SIZE_COLUMN))
         }
         if (state is PackState.Downloading) {
-            Text(tr("Downloading…"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(end = 12.dp))
+            Text(tr("Downloading…"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(end = AppSpacing.m))
         } else {
             StatusDot(StatusTints.ok, size = AppSizes.dot)
-            Spacer(Modifier.width(8.dp))
-            Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok, modifier = if (compact) Modifier else Modifier.width(110.dp))
+            Spacer(Modifier.width(AppSpacing.s))
+            Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok, modifier = if (compact) Modifier else Modifier.width(INSTALLED_STATUS_COLUMN))
             OverflowMenu(tr("More for {0}", status.pack.displayTitle)) { close ->
                 AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })
             }
@@ -484,7 +493,7 @@ private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, na
     ) {
         if (browsing || learning == null) {
             SearchField(query, { query = it }, tr("Search dictionaries"), Modifier.fillMaxWidth())
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(AppSpacing.m))
         }
         if (shown.isEmpty()) {
             Text(
@@ -495,22 +504,22 @@ private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, na
                 },
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(vertical = 8.dp),
+                modifier = Modifier.padding(vertical = AppSpacing.s),
             )
         }
         // The full catalogue is long, so it scrolls inside the card.
         val scroll = rememberScrollState()
-        Box(Modifier.fillMaxWidth().then(if (browsing) Modifier.heightIn(max = 520.dp) else Modifier)) {
-            val list = Modifier.fillMaxWidth().then(if (browsing) Modifier.verticalScroll(scroll).padding(end = 14.dp) else Modifier)
-            Column(list, verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Box(Modifier.fillMaxWidth().then(if (browsing) Modifier.heightIn(max = CATALOGUE_MAX_HEIGHT) else Modifier)) {
+            val list = Modifier.fillMaxWidth().then(if (browsing) Modifier.verticalScroll(scroll).padding(end = AppSpacing.l) else Modifier)
+            Column(list, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 shown.forEach { status -> AvailableRow(status, browsing, onDownload = { viewModel.download(status.pack) }) }
             }
             if (browsing) EdgeScrollbar(scroll)
         }
-        Spacer(Modifier.height(14.dp))
+        Spacer(Modifier.height(AppSpacing.l))
         InfoBanner(tr("One pack covers one source language with meanings in one language."))
         if (learning != null) {
-            Spacer(Modifier.height(14.dp))
+            Spacer(Modifier.height(AppSpacing.l))
             SecondaryButton(
                 if (browsing) tr("Show {0} dictionaries", tr(learning.name)) else tr("Browse all {0} dictionaries", DictionaryPacks.all.size),
                 onClick = { browsing = !browsing; query = "" },
@@ -526,12 +535,12 @@ private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, na
 private fun AvailableRow(status: PackStatus, browsing: Boolean, onDownload: () -> Unit) {
     val state = status.state
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(10.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         // For one source language the target is what tells the packs apart.
         CodeTile(if (browsing) status.pack.id.sourceLanguage else status.pack.id.targetLanguage, size = 40)
-        Spacer(Modifier.width(14.dp))
+        Spacer(Modifier.width(AppSpacing.l))
         Column(Modifier.weight(1f)) {
             Text(status.pack.displayTitle, style = MaterialTheme.typography.bodyLarge)
             Text(
@@ -544,10 +553,10 @@ private fun AvailableRow(status: PackStatus, browsing: Boolean, onDownload: () -
                 color = if (state is PackState.Failed) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurfaceVariant,
             )
             if (state is PackState.Downloading) {
-                AppProgressBar(state.progress, Modifier.padding(top = 4.dp))
+                AppProgressBar(state.progress, Modifier.padding(top = AppSpacing.xs))
             }
         }
-        Spacer(Modifier.width(12.dp))
+        Spacer(Modifier.width(AppSpacing.m))
         if (state !is PackState.Downloading) {
             SecondaryButton(if (state is PackState.Failed) tr("Retry") else tr("Download"), onClick = onDownload)
         }
@@ -565,7 +574,7 @@ private fun TestLookupDialog(pack: DictionaryPack, viewModel: DictionariesViewMo
         onDismissRequest = onDismiss,
         title = { Text(tr("Test lookup")) },
         text = {
-            Column(Modifier.widthIn(min = 420.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Column(Modifier.widthIn(min = TEST_LOOKUP_MIN_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Text(tr("Type a {0} word to see what {1} says about it.", tr(pack.sourceName), pack.displayTitle), style = MaterialTheme.typography.bodyMedium)
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     AppTextField(
@@ -577,21 +586,20 @@ private fun TestLookupDialog(pack: DictionaryPack, viewModel: DictionariesViewMo
                         keyboardActions = KeyboardActions(onSearch = { search() }),
                         modifier = Modifier.weight(1f),
                     )
-                    Spacer(Modifier.width(10.dp))
+                    Spacer(Modifier.width(AppSpacing.m))
                     PrimaryButton(tr("Look up"), onClick = { search() }, enabled = word.isNotBlank())
                 }
                 result?.let { (looked, lookup) ->
                     if (lookup.isEmpty) {
                         Text(tr("No entry for “{0}”.", looked), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     } else {
-                        ScrollColumn(Modifier.heightIn(max = 320.dp), contentModifier = Modifier.padding(end = 14.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                        ScrollColumn(Modifier.heightIn(max = LOOKUP_RESULT_MAX_HEIGHT), contentModifier = Modifier.padding(end = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                             if (lookup.lemmas.isNotEmpty()) Text(tr("A form of {0}", lookup.lemmas.joinToString()), style = MaterialTheme.typography.bodySmall, fontStyle = FontStyle.Italic)
                             lookup.entries.take(4).forEach { entry ->
                                 Column {
                                     Text(
                                         listOfNotNull(entry.word, entry.pos, entry.ipa).filter { it.isNotBlank() }.joinToString(" · "),
-                                        style = MaterialTheme.typography.titleSmall,
-                                        fontWeight = FontWeight.SemiBold,
+                                        style = AppText.smallTitle,
                                     )
                                     entry.senses.take(3).forEachIndexed { i, sense ->
                                         Text("${i + 1}. ${sense.glosses.joinToString("; ")}", style = MaterialTheme.typography.bodyMedium)

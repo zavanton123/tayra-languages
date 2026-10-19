@@ -15,7 +15,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.books.BookPack
 import com.tayra.languages.core.domain.books.BookPackStatus
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -23,6 +22,7 @@ import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /** The book packs page on a phone: each bundle a card with its summary, its size and one full-width button. */
 @Composable
@@ -40,7 +40,7 @@ internal fun PhoneBookPacksScreen(
         topBar = { AppTopBar(title = tr("Book downloads"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Text(tr("Download a bundle of free books, graded by level."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             InfoBanner(tr("Downloaded bundles appear in Books and can be edited."))
             if (packs.isEmpty() && languageName != null) {

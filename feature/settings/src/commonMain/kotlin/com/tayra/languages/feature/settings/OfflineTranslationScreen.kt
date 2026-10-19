@@ -53,7 +53,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextOverflow
@@ -88,6 +87,8 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -256,7 +257,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
             }
             if (LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pair)
             if (wide) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                     LanguagePairCard(settings, viewModel, learningName, nativeName, Modifier.weight(1f).fillMaxHeight())
                     EngineCard(settings, viewModel, Modifier.weight(1f).fillMaxHeight())
                 }
@@ -311,7 +312,7 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
                     tr("Managed from the header"),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(start = 16.dp, top = 4.dp),
+                    modifier = Modifier.padding(start = AppSpacing.l, top = AppSpacing.xs),
                 )
             }
         }
@@ -329,11 +330,11 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
                     modifier = Modifier.fillMaxWidth(),
                 )
                 // Keeps both fields the same height when side by side.
-                Text(" ", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 4.dp))
+                Text(" ", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = AppSpacing.xs))
             }
         }
         if (compact) {
-            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 learning(Modifier.fillMaxWidth())
                 nativeField(Modifier.fillMaxWidth())
             }
@@ -344,12 +345,12 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
                     Icons.AutoMirrored.Filled.ArrowForward,
                     contentDescription = tr("translated into"),
                     tint = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(horizontal = 12.dp).padding(top = 22.dp).size(AppSizes.iconMedium),
+                    modifier = Modifier.padding(horizontal = AppSpacing.m).padding(top = AppSpacing.xxl).size(AppSizes.iconMedium),
                 )
                 nativeField(Modifier.weight(1f))
             }
         }
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         InfoBanner(learningName?.let { tr("{0} terms will be translated into {1}.", it, nativeName) } ?: tr("Your terms will be translated into {0}.", nativeName))
     }
 }
@@ -366,7 +367,7 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
     }
     val compact = LocalWindowWidth.current.isCompact
     ContentCard(tr("Translation engine"), subtitle, icon = AppIcons.Memory, modifier = modifier) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Dropdown(
                 options = viewModel.engines,
                 selected = engine,
@@ -381,7 +382,7 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
                 if (engine == TranslationEngine.GOOGLE) Tag(tr("Paid"), StatusTints.warning) else Tag(tr("Free"), MaterialTheme.colorScheme.primary)
             }
         }
-        Spacer(Modifier.height(16.dp))
+        Spacer(Modifier.height(AppSpacing.l))
         when {
             local -> LocalEngineStatus(settings, viewModel)
             engine == TranslationEngine.GOOGLE -> GoogleSettings(settings, viewModel)
@@ -429,21 +430,21 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
         },
     )
     progress?.let {
-        Spacer(Modifier.height(10.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         Text(tr(it), style = MaterialTheme.typography.bodySmall)
-        AppProgressBar(null, Modifier.padding(top = 4.dp))
+        AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
     }
     if (viewModel.hasRuntimeSetup) {
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         Column(
             Modifier.fillMaxWidth().clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel),
         ) {
             Row(
-                Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = 16.dp, vertical = 12.dp),
+                Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Icon(if (advanced) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
-                Spacer(Modifier.width(10.dp))
+                Spacer(Modifier.width(AppSpacing.s))
                 Text(tr("Advanced runtime settings"), style = MaterialTheme.typography.bodyLarge)
             }
             if (advanced) {
@@ -454,7 +455,7 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
                     placeholder = { Text(tr("The app's own Python")) },
                     supportingText = { Text(tr("Leave empty to use the Python the app downloads for itself, or give the full path to one that has argostranslate installed.")) },
                     singleLine = true,
-                    modifier = Modifier.fillMaxWidth().padding(start = 16.dp, end = 16.dp, bottom = 12.dp),
+                    modifier = Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.m),
                 )
             }
         }
@@ -476,7 +477,7 @@ internal fun GoogleSettings(settings: UserSettings, viewModel: OfflineTranslatio
         trailingIcon = { QuietButton(if (showKey) tr("Hide") else tr("Show"), onClick = { showKey = !showKey }) },
         modifier = Modifier.fillMaxWidth(),
     )
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         SecondaryButton(if (googleBusy) tr("Checking…") else tr("Check key"), onClick = viewModel::checkGoogleKey, enabled = !googleBusy && settings.googleTranslateApiKey.isNotBlank())
         googleStatus?.let { Text(tr(it), style = MaterialTheme.typography.bodySmall, modifier = Modifier.weight(1f)) }
     }
@@ -522,25 +523,25 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
         headerExtra = {
             if (!compact) {
                 Tag(tr("{0} installed", installed.size), MaterialTheme.colorScheme.primary)
-                Spacer(Modifier.width(16.dp))
-                search(Modifier.width(260.dp))
-                Spacer(Modifier.width(12.dp))
+                Spacer(Modifier.width(AppSpacing.l))
+                search(Modifier.width(PACKAGE_SEARCH_WIDTH))
+                Spacer(Modifier.width(AppSpacing.m))
                 TabToggle(tab) { tab = it }
             }
         },
     ) {
         if (compact) {
             search(Modifier.fillMaxWidth())
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(AppSpacing.m))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Tag(tr("{0} installed", installed.size), MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.weight(1f))
                 TabToggle(tab) { tab = it }
             }
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(AppSpacing.m))
         }
         PackageSummary(viewModel, installed, pair, packageBusy)
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         if (shown.isEmpty()) {
             Text(
                 when {
@@ -550,13 +551,13 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
                 },
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(vertical = 12.dp),
+                modifier = Modifier.padding(vertical = AppSpacing.m),
             )
         }
         FlowRow(
             Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
-            verticalArrangement = Arrangement.spacedBy(10.dp),
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
             maxItemsInEachRow = if (compact) 1 else 2,
         ) {
             shown.forEach { pkg ->
@@ -573,7 +574,7 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
             if (!compact && shown.size % 2 == 1) Spacer(Modifier.weight(1f))
         }
         if (tab == PackageTab.INSTALLED && packages.size > installed.size) {
-            Spacer(Modifier.height(14.dp))
+            Spacer(Modifier.height(AppSpacing.l))
             SecondaryButton(
                 if (runtime) tr("Browse all {0} packages", packages.size) else tr("Browse all {0} models", packages.size),
                 onClick = { tab = PackageTab.AVAILABLE; query = "" },
@@ -590,31 +591,31 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
 private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: List<LocalPackage>, pair: PairState, packageBusy: Set<String>) {
     FlowRow(
         Modifier.fillMaxWidth().clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(AppBorders.hairline(), AppShapes.control).padding(horizontal = 16.dp, vertical = 10.dp),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-        verticalArrangement = Arrangement.spacedBy(6.dp),
+            .border(AppBorders.hairline(), AppShapes.control).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
         val used = installed.sumOf { it.sizeBytes }
         if (used > 0) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(AppIcons.Storage, contentDescription = null, modifier = Modifier.size(AppSizes.icon), tint = MaterialTheme.colorScheme.onSurfaceVariant)
-                Spacer(Modifier.width(10.dp))
-                Text(tr("{0} used", formatSize(used)), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
+                Spacer(Modifier.width(AppSpacing.s))
+                Text(tr("{0} used", formatSize(used)), style = AppText.labelStrong)
             }
-            AppVerticalDivider(Modifier.height(22.dp))
+            AppVerticalDivider(Modifier.height(SUMMARY_DIVIDER_HEIGHT))
         }
         if (pair.learning != null && !pair.sameLanguage) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 if (pair.ready) {
                     Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(AppSizes.icon))
-                    Spacer(Modifier.width(8.dp))
+                    Spacer(Modifier.width(AppSpacing.s))
                     Text(tr("{0} is ready", pair.label), style = MaterialTheme.typography.bodyMedium)
                 } else {
                     Icon(Icons.Default.Warning, contentDescription = null, tint = StatusTints.warning, modifier = Modifier.size(AppSizes.icon))
-                    Spacer(Modifier.width(8.dp))
+                    Spacer(Modifier.width(AppSpacing.s))
                     Text(tr("{0} needs {1}", pair.label, pair.missing.joinToString { it.displayTitle }), style = MaterialTheme.typography.bodyMedium)
-                    Spacer(Modifier.width(12.dp))
+                    Spacer(Modifier.width(AppSpacing.m))
                     val installing = pair.missing.any { it.key in packageBusy }
                     PrimaryButton(
                         onClick = { pair.missing.forEach(viewModel::installPackage) },
@@ -638,30 +639,33 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
 internal fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
     Row(
         modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
-            .padding(start = 12.dp, end = 4.dp, top = 8.dp, bottom = 8.dp),
+            .padding(start = AppSpacing.m, end = AppSpacing.xs, top = AppSpacing.s, bottom = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         CodeTile(pkg.fromCode)
-        Spacer(Modifier.width(14.dp))
+        Spacer(Modifier.width(AppSpacing.l))
         Column(Modifier.weight(1f)) {
             Text(pkg.displayTitle, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
             val detail = listOfNotNull(pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize), tr("Needed for your language").takeIf { needed && !pkg.installed })
             if (detail.isNotEmpty()) Text(detail.joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            if (busy) AppProgressBar(null, Modifier.padding(top = 4.dp))
+            if (busy) AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
         }
-        Spacer(Modifier.width(12.dp))
+        Spacer(Modifier.width(AppSpacing.m))
         when {
-            busy -> Text(if (pkg.installed) tr("Removing…") else tr("Downloading…"), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = 12.dp))
+            busy -> Text(if (pkg.installed) tr("Removing…") else tr("Downloading…"), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = AppSpacing.m))
             pkg.installed -> {
                 StatusDot(StatusTints.ok, size = AppSizes.dot)
-                Spacer(Modifier.width(8.dp))
+                Spacer(Modifier.width(AppSpacing.s))
                 Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
-                Spacer(Modifier.width(4.dp))
+                Spacer(Modifier.width(AppSpacing.xs))
                 OverflowMenu(tr("More for {0}", pkg.displayTitle)) { close ->
                     AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })
                 }
             }
-            else -> PrimaryButton(tr("Install"), onClick = onInstall, modifier = Modifier.padding(end = 8.dp))
+            else -> PrimaryButton(tr("Install"), onClick = onInstall, modifier = Modifier.padding(end = AppSpacing.s))
         }
     }
 }
+
+private val PACKAGE_SEARCH_WIDTH = 260.dp
+private val SUMMARY_DIVIDER_HEIGHT = 22.dp

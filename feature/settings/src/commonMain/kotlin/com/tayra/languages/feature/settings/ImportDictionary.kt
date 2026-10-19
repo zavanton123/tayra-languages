@@ -12,7 +12,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.data.mdict.DictionaryFiles
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -33,6 +32,7 @@ import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
 import io.github.vinceglb.filekit.readBytes
 import androidx.compose.runtime.rememberCoroutineScope
 import kotlinx.coroutines.launch
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /** Imports a dictionary of the user's own (Yomitan, MDict or StarDict), whose entries then show with the pack of its language pair. */
 @Composable
@@ -85,7 +85,7 @@ internal fun ImportLanguagesDialog(ready: DictionaryImport.Ready, defaultSource:
         onDismissRequest = onDismiss,
         title = { Text(ready.info.title) },
         text = {
-            Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 if (ready.info.revision.isNotEmpty()) Text(tr("Revision {0}", ready.info.revision), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 ready.info.attribution?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
                 Dropdown(options, source, { source = it }, tr("Words of"), { tr(it.name) }, Modifier.fillMaxWidth().testTag("import-source"))

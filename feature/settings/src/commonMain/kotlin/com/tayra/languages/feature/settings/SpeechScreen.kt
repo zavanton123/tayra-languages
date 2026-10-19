@@ -57,7 +57,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
@@ -90,6 +89,8 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -234,7 +235,7 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
             ScreenHeader(tr("Speech"), tr("Choose how words and passages are spoken."), onBackToSettings = onBack) { if (!compact) pill() }
             if (compact) pill()
             if (LocalWindowWidth.current.isExpanded) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                     EngineCard(settings, viewModel, engine, Modifier.weight(1f).fillMaxHeight())
                     VoiceCard(settings, viewModel, engine, learning, voices, Modifier.weight(1f).fillMaxHeight())
                 }
@@ -266,7 +267,7 @@ private fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, read
 private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, modifier: Modifier = Modifier) {
     val compact = LocalWindowWidth.current.isCompact
     ContentCard(tr("Speech engine"), tr("Reader playback and term pronunciation use this engine."), icon = AppIcons.Memory, modifier = modifier) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Dropdown(
                 options = viewModel.engines,
                 selected = settings.speechEngine.takeIf { it in viewModel.engines } ?: SpeechEngine.SYSTEM,
@@ -277,14 +278,14 @@ private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engin
             )
             if (!compact) EngineTags(settings.speechEngine)
         }
-        Spacer(Modifier.height(10.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         Text(
             engine?.description?.let { tr(it) } ?: tr("The voices that come with the operating system. They need no download; more voices are added in the system's own settings."),
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
         if (engine != null) {
-            Spacer(Modifier.height(14.dp))
+            Spacer(Modifier.height(AppSpacing.l))
             EngineStatus(viewModel, engine)
         }
     }
@@ -333,23 +334,23 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) 
         },
     )
     progress?.let {
-        Spacer(Modifier.height(10.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         Text(tr(it), style = MaterialTheme.typography.bodySmall)
-        AppProgressBar(null, Modifier.padding(top = 4.dp))
+        AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
     }
     if (engine.hasRuntimeSetup) {
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         Column(Modifier.fillMaxWidth().clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel)) {
             Row(
-                Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = 16.dp, vertical = 12.dp),
+                Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Icon(if (advanced) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
-                Spacer(Modifier.width(10.dp))
+                Spacer(Modifier.width(AppSpacing.s))
                 Text(tr("Advanced engine settings"), style = MaterialTheme.typography.bodyLarge)
             }
             if (advanced) {
-                Column(Modifier.padding(start = 16.dp, end = 16.dp, bottom = 14.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Column(Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     Text(
                         tr("{0} runs in the app's own Python, kept in the app folder. Reinstalling downloads it again, which repairs a broken installation; downloaded voices are kept.", engine.displayName),
                         style = MaterialTheme.typography.bodySmall,
@@ -420,11 +421,11 @@ private fun VoiceCard(
                     label = "${kotlin.math.round(settings.speechSpeed * 100).toInt()}%",
                     name = tr("speech speed"),
                     onChange = { v -> viewModel.update { it.copy(speechSpeed = v) } },
-                    modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(440.dp),
+                    modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(SPEED_SLIDER_WIDTH),
                 )
             }
         }
-        AppDivider(Modifier.padding(vertical = 12.dp))
+        AppDivider(Modifier.padding(vertical = AppSpacing.m))
         TryIt(viewModel, learning)
     }
 }
@@ -436,15 +437,15 @@ private fun TryIt(viewModel: SpeechViewModel, language: LanguageOption?) {
     val working by speaker.working.collectAsStateWithLifecycle()
     val playing by speaker.playing.collectAsStateWithLifecycle()
     var text by remember(language) { mutableStateOf(language?.let { SAMPLES[it.code] }.orEmpty()) }
-    Text(tr("Try this voice"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-    Spacer(Modifier.height(8.dp))
+    Text(tr("Try this voice"), style = AppText.itemTitle)
+    Spacer(Modifier.height(AppSpacing.s))
     AppTextField(
         value = text,
         onValueChange = { text = it },
         placeholder = { Text(language?.let { tr("Type a sentence in {0}", tr(it.name)) } ?: tr("Type a sentence in the language you are learning")) },
         modifier = Modifier.fillMaxWidth(),
     )
-    Spacer(Modifier.height(14.dp))
+    Spacer(Modifier.height(AppSpacing.l))
     val active = playing != null && playing == text
     Row(verticalAlignment = Alignment.CenterVertically) {
         PrimaryButton(
@@ -457,8 +458,8 @@ private fun TryIt(viewModel: SpeechViewModel, language: LanguageOption?) {
             icon = if (active && !working) AppIcons.Stop else AppIcons.VolumeUp,
             enabled = text.isNotBlank(),
         )
-        Spacer(Modifier.width(24.dp))
-        Waveform(active = active && !working, modifier = Modifier.weight(1f).height(44.dp))
+        Spacer(Modifier.width(AppSpacing.xxl))
+        Waveform(active = active && !working, modifier = Modifier.weight(1f).height(WAVEFORM_HEIGHT))
     }
 }
 
@@ -501,14 +502,14 @@ private fun ModelCard(
         titleExtra = { if (pkg.installed) Tag(tr("Installed"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) },
     ) {
         Column(
-            Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(12.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(AppSpacing.m),
         ) {
             val languages = pkg.group.split(", ").filter { it.isNotBlank() }
             Row(verticalAlignment = Alignment.CenterVertically) {
                 IconTile(AppIcons.Storage, size = 44, tint = StatusTints.ok)
-                Spacer(Modifier.width(14.dp))
+                Spacer(Modifier.width(AppSpacing.l))
                 Column(Modifier.weight(1f)) {
-                    Text(tr("{0} voice model", engine.displayName), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                    Text(tr("{0} voice model", engine.displayName), style = AppText.itemTitle)
                     Text(
                         listOfNotNull(voiceCount?.let { trPlural(it.toInt(), "{0} voice", "{0} voices") }, pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
                         style = MaterialTheme.typography.bodySmall,
@@ -516,16 +517,16 @@ private fun ModelCard(
                     )
                 }
                 if (!compact) LanguageChips(languages)
-                Spacer(Modifier.width(12.dp))
+                Spacer(Modifier.width(AppSpacing.m))
                 PackageAction(pkg, busy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
             }
             if (compact) {
-                Spacer(Modifier.height(10.dp))
+                Spacer(Modifier.height(AppSpacing.m))
                 LanguageChips(languages)
             }
-            if (busy) AppProgressBar(null, Modifier.padding(top = 8.dp))
+            if (busy) AppProgressBar(null, Modifier.padding(top = AppSpacing.s))
         }
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         DefaultVoiceNote(engine, settings, learning, voices, others = tr("Other languages fall back to the system voice."))
     }
 }
@@ -533,14 +534,14 @@ private fun ModelCard(
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun LanguageChips(names: List<String>) {
-    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+    FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         names.forEach { name ->
             Row(
-                Modifier.clip(AppShapes.compact).border(AppBorders.hairline(), AppShapes.compact).padding(end = 12.dp),
+                Modifier.clip(AppShapes.compact).border(AppBorders.hairline(), AppShapes.compact).padding(end = AppSpacing.m),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 CodeTile(LanguageCodes.codeFor(name) ?: name.take(2), size = 34)
-                Spacer(Modifier.width(10.dp))
+                Spacer(Modifier.width(AppSpacing.s))
                 Text(tr(name), style = MaterialTheme.typography.bodyMedium)
             }
         }
@@ -579,22 +580,22 @@ private fun VoicesCard(
         headerExtra = {
             if (!compact) {
                 Tag(tr("{0} installed", installed.size), MaterialTheme.colorScheme.primary)
-                Spacer(Modifier.width(16.dp))
-                search(Modifier.width(260.dp))
-                Spacer(Modifier.width(12.dp))
+                Spacer(Modifier.width(AppSpacing.l))
+                search(Modifier.width(VOICE_SEARCH_WIDTH))
+                Spacer(Modifier.width(AppSpacing.m))
                 TabToggle(tab) { tab = it }
             }
         },
     ) {
         if (compact) {
             search(Modifier.fillMaxWidth())
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(AppSpacing.m))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Tag(tr("{0} installed", installed.size), MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.weight(1f))
                 TabToggle(tab) { tab = it }
             }
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(AppSpacing.m))
         }
         if (shown.isEmpty()) {
             Text(
@@ -606,13 +607,13 @@ private fun VoicesCard(
                 },
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(vertical = 8.dp),
+                modifier = Modifier.padding(vertical = AppSpacing.s),
             )
         }
         FlowRow(
             Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
-            verticalArrangement = Arrangement.spacedBy(10.dp),
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
             maxItemsInEachRow = if (compact) 1 else 2,
         ) {
             shown.forEach { pkg ->
@@ -620,7 +621,7 @@ private fun VoicesCard(
             }
             if (!compact && shown.size % 2 == 1) Spacer(Modifier.weight(1f))
         }
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         DefaultVoiceNote(engine, settings, learning, voices, others = tr("Languages without a downloaded voice use the system voice."))
     }
 }
@@ -629,11 +630,11 @@ private fun VoicesCard(
 private fun VoiceTile(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
     Row(
         modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
-            .padding(start = 12.dp, end = 4.dp, top = 8.dp, bottom = 8.dp),
+            .padding(start = AppSpacing.m, end = AppSpacing.xs, top = AppSpacing.s, bottom = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         CodeTile(pkg.languageCode ?: pkg.group.take(2))
-        Spacer(Modifier.width(14.dp))
+        Spacer(Modifier.width(AppSpacing.l))
         Column(Modifier.weight(1f)) {
             Text(pkg.title, style = MaterialTheme.typography.bodyLarge, maxLines = if (LocalWindowWidth.current.isCompact) 2 else 1, overflow = TextOverflow.Ellipsis)
             Text(
@@ -641,9 +642,9 @@ private fun VoiceTile(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, 
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
-            if (busy) AppProgressBar(null, Modifier.padding(top = 4.dp))
+            if (busy) AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
         }
-        Spacer(Modifier.width(12.dp))
+        Spacer(Modifier.width(AppSpacing.m))
         PackageAction(pkg, busy, onInstall, onRemove)
     }
 }
@@ -653,17 +654,17 @@ private fun VoiceTile(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, 
 internal fun PackageAction(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically) {
         when {
-            busy -> Text(if (pkg.installed) tr("Removing…") else tr("Downloading…"), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = 12.dp))
+            busy -> Text(if (pkg.installed) tr("Removing…") else tr("Downloading…"), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = AppSpacing.m))
             pkg.installed -> {
                 StatusDot(StatusTints.ok, size = AppSizes.dot)
-                Spacer(Modifier.width(8.dp))
+                Spacer(Modifier.width(AppSpacing.s))
                 Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
-                Spacer(Modifier.width(4.dp))
+                Spacer(Modifier.width(AppSpacing.xs))
                 OverflowMenu(tr("More for {0}", pkg.displayTitle)) { close ->
                     AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })
                 }
             }
-            else -> PrimaryButton(tr("Download"), onClick = onInstall, modifier = Modifier.padding(end = 8.dp))
+            else -> PrimaryButton(tr("Download"), onClick = onInstall, modifier = Modifier.padding(end = AppSpacing.s))
         }
     }
 }
@@ -689,6 +690,10 @@ internal val SpeechPackage.displayTitle: String
     } ?: title
 
 private val MODEL_TITLE = Regex("""(.+) model with (\d+) voices""")
+
+private val SPEED_SLIDER_WIDTH = 440.dp
+private val WAVEFORM_HEIGHT = 44.dp
+private val VOICE_SEARCH_WIDTH = 260.dp
 
 /** A short sentence per language so the Try it field is never empty for the common ones. */
 internal val SAMPLES: Map<String, String> = mapOf(

@@ -18,11 +18,12 @@ import androidx.compose.foundation.rememberScrollState
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 @Composable
 fun AboutScreen(onNavigate: (Route) -> Unit) {
     Scaffold(topBar = { AppTopBar(title = tr("About"), onNavigate = onNavigate, section = NavSection.SETTINGS) }) { padding ->
-        Column(Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 720.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(AppSpacing.l).widthIn(max = TEXT_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             ScreenTitle(tr("About"))
             Text("Tayra Languages", style = MaterialTheme.typography.headlineSmall)
             Text(tr("Learn languages by reading. Import texts, click words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)
@@ -32,6 +33,8 @@ fun AboutScreen(onNavigate: (Route) -> Unit) {
         }
     }
 }
+
+private val TEXT_WIDTH = 720.dp
 
 /** Where the app's dictionaries, sentences, lists and recordings come from, and under which licences. */
 private val CREDITS = listOf(

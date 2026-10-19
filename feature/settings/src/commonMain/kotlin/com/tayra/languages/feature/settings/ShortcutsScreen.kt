@@ -68,7 +68,6 @@ import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -85,6 +84,8 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import org.koin.compose.viewmodel.koinViewModel
 
 /**
@@ -128,9 +129,9 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                     columns[column] += category
                     heights[column] += actions.size + 2
                 }
-                Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                     columns.forEach { categories ->
-                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
+                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                             categories.forEach { card(it, groups.getValue(it)) }
                         }
                     }
@@ -230,25 +231,25 @@ private fun HotkeyCategory.icon(): ImageVector = when (this) {
 @Composable
 private fun SearchBanner(query: String, onQuery: (String) -> Unit, assigned: Int, conflicts: Int) {
     val compact = LocalWindowWidth.current.isCompact
-    TintedSurface(MaterialTheme.colorScheme.primary, shape = AppShapes.card, padding = PaddingValues(horizontal = 20.dp, vertical = 12.dp)) {
+    TintedSurface(MaterialTheme.colorScheme.primary, shape = AppShapes.card, padding = PaddingValues(horizontal = AppSpacing.xl, vertical = AppSpacing.m)) {
         FlowRow(
             Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(16.dp),
-            verticalArrangement = Arrangement.spacedBy(10.dp),
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
             itemVerticalAlignment = Alignment.CenterVertically,
         ) {
-            Row(Modifier.weight(1f).widthIn(min = 280.dp), verticalAlignment = Alignment.CenterVertically) {
+            Row(Modifier.weight(1f).widthIn(min = BANNER_TEXT_MIN_WIDTH), verticalAlignment = Alignment.CenterVertically) {
                 IconTile(AppIcons.Keyboard, size = 44)
-                Spacer(Modifier.width(16.dp))
+                Spacer(Modifier.width(AppSpacing.l))
                 Text(tr("Select a shortcut, then press a key combination. Press Backspace to clear it."), style = MaterialTheme.typography.bodyLarge)
             }
-            SearchField(query, onQuery, tr("Search shortcuts"), if (compact) Modifier.fillMaxWidth() else Modifier.width(300.dp))
-            if (!compact) AppVerticalDivider(Modifier.height(36.dp))
+            SearchField(query, onQuery, tr("Search shortcuts"), if (compact) Modifier.fillMaxWidth() else Modifier.width(SEARCH_WIDTH))
+            if (!compact) AppVerticalDivider(Modifier.height(BANNER_DIVIDER_HEIGHT))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 val ok = conflicts == 0
                 val color = if (ok) StatusTints.ok else MaterialTheme.colorScheme.error
                 Icon(if (ok) Icons.Default.CheckCircle else Icons.Default.Warning, contentDescription = null, tint = color, modifier = Modifier.size(AppSizes.iconLarge))
-                Spacer(Modifier.width(8.dp))
+                Spacer(Modifier.width(AppSpacing.s))
                 Text(
                     tr("{0} assigned", assigned) + " · " + if (ok) tr("No conflicts") else tr("{0} in conflict", conflicts),
                     style = MaterialTheme.typography.bodyLarge,
@@ -271,15 +272,15 @@ private fun CategoryCard(
     onAssign: (HotkeyAction, Hotkey?) -> Unit,
 ) {
     Column(
-        Modifier.fillMaxWidth().cardSurface().padding(vertical = 20.dp),
+        Modifier.fillMaxWidth().cardSurface().padding(vertical = AppSpacing.xl),
     ) {
-        CardHeader(category.title(), modifier = Modifier.padding(horizontal = 20.dp), icon = category.icon(), titleExtra = {
+        CardHeader(category.title(), modifier = Modifier.padding(horizontal = AppSpacing.xl), icon = category.icon(), titleExtra = {
             Tag(tr("{0} assigned", actions.count { hotkeys[it] != null }), StatusTints.ok)
         })
-        Spacer(Modifier.height(10.dp))
+        Spacer(Modifier.height(AppSpacing.m))
         actions.forEachIndexed { i, action ->
             if (i > 0 && editing != action && editing != actions[i - 1]) {
-                AppDivider(Modifier.padding(horizontal = 20.dp))
+                AppDivider(Modifier.padding(horizontal = AppSpacing.xl))
             }
             ShortcutRow(
                 action,
@@ -325,29 +326,28 @@ private fun ShortcutRow(
             editing -> KeyListener(onDone = onDone, onAssign = onAssign)
             hotkey == null -> Row(verticalAlignment = Alignment.CenterVertically) {
                 NotSet(onEdit)
-                Spacer(Modifier.width(18.dp))
+                Spacer(Modifier.width(AppSpacing.xl))
                 Text(
                     tr("Add"),
                     color = primary,
-                    style = MaterialTheme.typography.bodyLarge,
-                    fontWeight = FontWeight.Medium,
-                    modifier = Modifier.clickable(onClick = onEdit).semantics { contentDescription = tr("Add shortcut for {0}", title) }.padding(4.dp),
+                    style = AppText.emphasis,
+                    modifier = Modifier.clickable(onClick = onEdit).semantics { contentDescription = tr("Add shortcut for {0}", title) }.padding(AppSpacing.xs),
                 )
             }
             else -> Keycaps(hotkey, conflict = conflictsWith.isNotEmpty(), onClick = onEdit, description = if (note == null) tr("Change shortcut for {0}", title) else tr("Change shortcut for {0}, {1}", title, note))
         }
     }
-    Row(Modifier.fillMaxWidth().heightIn(min = 56.dp).then(if (editing) Modifier.background(primary.copy(alpha = AppAlpha.wash)) else Modifier)) {
+    Row(Modifier.fillMaxWidth().heightIn(min = AppSizes.row).then(if (editing) Modifier.background(primary.copy(alpha = AppAlpha.wash)) else Modifier)) {
         // The row being edited is marked by a bar on its leading edge.
-        Box(Modifier.width(4.dp).heightIn(min = 56.dp).then(if (editing) Modifier.background(primary) else Modifier))
+        Box(Modifier.width(EDIT_BAR_WIDTH).heightIn(min = AppSizes.row).then(if (editing) Modifier.background(primary) else Modifier))
         if (compact) {
-            Column(Modifier.weight(1f).padding(start = 16.dp, end = 20.dp, top = 10.dp, bottom = 10.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Column(Modifier.weight(1f).padding(start = AppSpacing.l, end = AppSpacing.xl, top = AppSpacing.m, bottom = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 text(Modifier)
                 control()
             }
         } else {
-            Row(Modifier.weight(1f).padding(start = 16.dp, end = 20.dp, top = 8.dp, bottom = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-                text(Modifier.weight(1f).padding(end = 16.dp))
+            Row(Modifier.weight(1f).padding(start = AppSpacing.l, end = AppSpacing.xl, top = AppSpacing.s, bottom = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
+                text(Modifier.weight(1f).padding(end = AppSpacing.l))
                 // Keys start at the same place on every row, so they read as a column; the listener needs more room.
                 if (editing) control() else Box(Modifier.width(KEYS_WIDTH), contentAlignment = Alignment.CenterStart) { control() }
             }
@@ -357,13 +357,21 @@ private fun ShortcutRow(
 
 /** Room for the longest combination, such as Ctrl + Shift + ←. */
 private val KEYS_WIDTH = 250.dp
+private val KEY_HEIGHT = 38.dp
+private val KEY_MIN_WIDTH = 44.dp
+private val NOT_SET_WIDTH = 128.dp
+private val LISTENER_WIDTH = 260.dp
+private val EDIT_BAR_WIDTH = 4.dp
+private val SEARCH_WIDTH = 300.dp
+private val BANNER_TEXT_MIN_WIDTH = 280.dp
+private val BANNER_DIVIDER_HEIGHT = 36.dp
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun Keycaps(hotkey: Hotkey, conflict: Boolean, onClick: () -> Unit, description: String) {
     FlowRow(
-        Modifier.clip(AppShapes.compact).clickable(onClick = onClick).semantics { contentDescription = description }.padding(2.dp),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
+        Modifier.clip(AppShapes.compact).clickable(onClick = onClick).semantics { contentDescription = description }.padding(AppSpacing.xxs),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
         keyNames(hotkey).forEachIndexed { i, name ->
@@ -377,7 +385,7 @@ private fun Keycaps(hotkey: Hotkey, conflict: Boolean, onClick: () -> Unit, desc
 private fun Keycap(label: String, conflict: Boolean) {
     val border = if (conflict) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.outlineVariant
     Box(
-        Modifier.heightIn(min = 38.dp).widthIn(min = 44.dp).clip(AppShapes.compact)
+        Modifier.heightIn(min = KEY_HEIGHT).widthIn(min = KEY_MIN_WIDTH).clip(AppShapes.compact)
             .background(MaterialTheme.colorScheme.surfaceContainerLow)
             .border(AppBorders.hairline(border), AppShapes.compact)
             // A thicker bottom edge makes the label read as a key.
@@ -385,13 +393,13 @@ private fun Keycap(label: String, conflict: Boolean) {
                 val edge = 3.dp.toPx()
                 drawRoundRect(border.copy(alpha = AppAlpha.muted), topLeft = Offset(0f, size.height - edge), size = Size(size.width, edge), cornerRadius = CornerRadius(8.dp.toPx()))
             }
-            .padding(horizontal = 14.dp, vertical = 8.dp),
+            .padding(horizontal = AppSpacing.m, vertical = AppSpacing.s),
         contentAlignment = Alignment.Center,
     ) {
         val arrow = ARROWS[label]
         // Arrow characters render small and low in some system fonts, so arrows are drawn as icons.
         if (arrow != null) Icon(arrow, contentDescription = label, modifier = Modifier.size(AppSizes.iconSmall))
-        else Text(label, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+        else Text(label, style = AppText.label)
     }
 }
 
@@ -404,7 +412,7 @@ private val ARROWS: Map<String, ImageVector> by lazy {
 private fun NotSet(onClick: () -> Unit) {
     val color = MaterialTheme.colorScheme.outline
     Box(
-        Modifier.width(128.dp).height(38.dp).clip(AppShapes.compact).clickable(onClick = onClick)
+        Modifier.width(NOT_SET_WIDTH).height(KEY_HEIGHT).clip(AppShapes.compact).clickable(onClick = onClick)
             .drawBehind {
                 drawRoundRect(
                     color.copy(alpha = AppAlpha.muted),
@@ -428,7 +436,7 @@ private fun KeyListener(onDone: () -> Unit, onAssign: (Hotkey?) -> Unit) {
     Column {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Row(
-                Modifier.width(260.dp).height(42.dp).clip(AppShapes.compact).background(MaterialTheme.colorScheme.surface)
+                Modifier.width(LISTENER_WIDTH).height(AppSizes.control).clip(AppShapes.compact).background(MaterialTheme.colorScheme.surface)
                     .border(AppBorders.selected(primary), AppShapes.compact)
                     .focusRequester(requester)
                     .onFocusChanged {
@@ -450,27 +458,27 @@ private fun KeyListener(onDone: () -> Unit, onAssign: (Hotkey?) -> Unit) {
                     }
                     .focusable()
                     .semantics { contentDescription = tr("Press a key combination") }
-                    .padding(horizontal = 14.dp),
+                    .padding(horizontal = AppSpacing.l),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Icon(AppIcons.Keyboard, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(AppSizes.icon))
-                Spacer(Modifier.width(10.dp))
+                Spacer(Modifier.width(AppSpacing.s))
                 Text(tr("Press a key combination…"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
-            Spacer(Modifier.width(18.dp))
+            Spacer(Modifier.width(AppSpacing.xl))
             Text(
                 tr("Cancel"),
                 color = primary,
                 textDecoration = TextDecoration.Underline,
                 style = MaterialTheme.typography.bodyMedium,
-                modifier = Modifier.clickable(onClick = onDone).padding(4.dp),
+                modifier = Modifier.clickable(onClick = onDone).padding(AppSpacing.xs),
             )
         }
-        Spacer(Modifier.height(6.dp))
-        Row(Modifier.width(260.dp), verticalAlignment = Alignment.CenterVertically) {
+        Spacer(Modifier.height(AppSpacing.s))
+        Row(Modifier.width(LISTENER_WIDTH), verticalAlignment = Alignment.CenterVertically) {
             Text(tr("Backspace to clear"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
             StatusDot(primary, size = AppSizes.dot)
-            Spacer(Modifier.width(6.dp))
+            Spacer(Modifier.width(AppSpacing.xs))
             Text(tr("Listening for keys"), style = MaterialTheme.typography.bodySmall, color = primary)
         }
     }

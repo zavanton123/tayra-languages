@@ -29,7 +29,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
@@ -46,6 +45,7 @@ import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /** The flashcard settings on a phone: compact cards of plain rows, the explanation folded away, Reset at the bottom. */
 @Composable
@@ -55,7 +55,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
         topBar = { AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Text(tr("Daily limits and review scheduling."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             ContentCard(tr("Daily limits"), subtitle = null, icon = AppIcons.BarChart, dense = true) {
                 SettingRow(tr("New cards a day"), dense = true) {
@@ -70,7 +70,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                 }
                 if (limited) {
                     // Indented, as it hangs off the switch above.
-                    SettingRow(tr("Reviews a day"), dense = true, indent = 24.dp) {
+                    SettingRow(tr("Reviews a day"), dense = true, indent = AppSpacing.xxl) {
                         NumberStepper(settings.flashcardReviewsPerDay, 1..UserSettings.MAX_FLASHCARDS_PER_DAY, name = tr("reviews a day"), step = 10) { n ->
                             viewModel.update { it.copy(flashcardReviewsPerDay = n) }
                         }
@@ -84,15 +84,15 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
                     settings.flashcardRetention.toFloat(),
                     UserSettings.MIN_FLASHCARD_RETENTION.toFloat()..UserSettings.MAX_FLASHCARD_RETENTION.toFloat(),
                     onChange = { v -> viewModel.update { it.copy(flashcardRetention = kotlin.math.round(v).toInt()) } },
-                    modifier = Modifier.padding(top = 4.dp),
+                    modifier = Modifier.padding(top = AppSpacing.xs),
                     step = 1f,
                     sliderModifier = Modifier.semantics { contentDescription = tr("desired retention") }.testTag("phone-retention"),
                 )
-                AppDivider(Modifier.padding(top = 4.dp))
+                AppDivider(Modifier.padding(top = AppSpacing.xs))
                 StepsRow(tr("Learning steps"), description = null, saved = settings.flashcardLearnSteps, dense = true) { text -> viewModel.update { it.copy(flashcardLearnSteps = text) } }
                 AppDivider()
                 StepsRow(tr("Relearning steps"), description = null, saved = settings.flashcardRelearnSteps, dense = true) { text -> viewModel.update { it.copy(flashcardRelearnSteps = text) } }
-                Text(tr("Use s, m, h, or d."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = 4.dp))
+                Text(tr("Use s, m, h, or d."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.xs))
             }
             ContentCard(tr("Answer"), subtitle = null, icon = AppIcons.VolumeUp, dense = true) {
                 SwitchSetting(tr("Read aloud"), tr("Play audio when the answer is shown."), settings.flashcardAutoplay, dense = true) { v ->
@@ -128,7 +128,7 @@ private fun HowItWorks() {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
     Column(Modifier.fillMaxWidth().cardSurface()) {
-        Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(16.dp).testTag("phone-how-it-works"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(AppSpacing.l).testTag("phone-how-it-works"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Icon(Icons.Default.Info, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
             Text(tr("How flashcard scheduling works"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
             Icon(if (open) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant)
@@ -136,7 +136,7 @@ private fun HowItWorks() {
         if (open) {
             Text(
                 tr("Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card."),
-                Modifier.padding(start = 16.dp, end = 16.dp, bottom = 16.dp),
+                Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l),
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
