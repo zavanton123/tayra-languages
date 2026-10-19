@@ -1,7 +1,5 @@
 package com.tayra.languages.feature.languages
 
-import com.tayra.languages.core.domain.model.LanguageDictionary
-import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -33,6 +31,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppSnackbar
@@ -42,17 +41,18 @@ import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
-import com.tayra.languages.core.ui.navigation.Route
-import org.koin.compose.viewmodel.koinViewModel
-import org.koin.core.parameter.parametersOf
 import com.tayra.languages.core.ui.components.ScrollList
+import com.tayra.languages.core.ui.components.itemMotion
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
-import com.tayra.languages.core.ui.components.itemMotion
+import org.koin.compose.viewmodel.koinViewModel
+import org.koin.core.parameter.parametersOf
 
 /** Enables or disables the online dictionaries offered for one language. */
 @Composable
@@ -101,11 +101,11 @@ fun ManageDictionariesScreen(
                 if (state.preferred.isEmpty()) {
                     item { Text(tr("No dictionaries enabled yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
                 }
-                itemsIndexed(state.preferred, key = { index, entry -> entry.key("on", index) }) { _, entry -> Box(itemMotion()) {
+                itemsIndexed(state.preferred, key = { index, entry -> entry.key("on", index) }) { _, entry -> Column(itemMotion()) {
                     DictionaryRow(entry.name, entry.url, tint = AppAccents.green, icon = Icons.Default.Close, iconDescription = tr("Disable")) { viewModel.disable(entry) }
                 }}
                 item { SectionLabel(tr("All resources"), topPadding = AppSpacing.xl) }
-                itemsIndexed(state.available, key = { index, entry -> entry.key("off", index) }) { _, entry -> Box(itemMotion()) {
+                itemsIndexed(state.available, key = { index, entry -> entry.key("off", index) }) { _, entry -> Column(itemMotion()) {
                     DictionaryRow(entry.name, entry.url, tint = null, icon = Icons.Default.Add, iconDescription = tr("Enable")) { viewModel.enable(entry) }
                 }}
             }

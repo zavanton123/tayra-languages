@@ -233,7 +233,7 @@ internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Mod
                                 },
                             )
                         }
-                        else -> items(state.shown.size, key = { state.shown[it].article.url }) { i -> Box(itemMotion()) {
+                        else -> items(state.shown.size, key = { state.shown[it].article.url }) { i -> Column(itemMotion()) {
                             NewsCard(state.shown[i], state, actions, compact, now, Modifier.padding(bottom = AppSpacing.m))
                         }}
                     }

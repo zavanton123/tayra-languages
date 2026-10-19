@@ -195,7 +195,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                 if (others.isEmpty()) {
                     item { Text(tr("No languages match"), Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
                 }
-                itemsIndexed(others, key = { _, (id, _) -> id }) { index, (id, name) -> Box(itemMotion()) {
+                itemsIndexed(others, key = { _, (id, _) -> id }) { index, (id, name) -> Column(itemMotion()) {
                     val native = id in state.nativeIds
                     Row(
                         Modifier.fillMaxWidth().clickable(enabled = !native) { onBack(); state.onSelect(id) }.alpha(if (native) AppAlpha.disabled else 1f)

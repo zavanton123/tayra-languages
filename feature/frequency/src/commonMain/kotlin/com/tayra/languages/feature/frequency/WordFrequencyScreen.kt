@@ -49,31 +49,33 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppRichTooltip
-import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppVerticalDivider
+import com.tayra.languages.core.ui.components.ButtonSize
+import com.tayra.languages.core.ui.components.ChipLeading
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SelectableChip
 import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.StatusDot
-import com.tayra.languages.core.ui.components.SelectableChip
-import com.tayra.languages.core.ui.components.ChipLeading
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.TagStyle
 import com.tayra.languages.core.ui.components.ToastHost
+import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.components.rememberToastState
-import com.tayra.languages.core.ui.i18n.formatCount
-import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.languageInSentence
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAlpha
@@ -87,12 +89,10 @@ import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormViewModel
+import kotlin.random.Random
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
-import kotlin.random.Random
-import com.tayra.languages.core.ui.components.ScrollList
-import com.tayra.languages.core.ui.components.itemMotion
 
 private val WordKnowledge.label: String
     get() = when (this) {
@@ -239,7 +239,7 @@ internal fun WordFrequencyContent(
                                     onSetLevel = { asking = overview.bands[band.index].firstRank - 1 },
                                 )
                             }
-                            items(rows[i], key = { "row-${it.first().word.rank}" }) { row -> Box(itemMotion()) {
+                            items(rows[i], key = { "row-${it.first().word.rank}" }) { row -> Column(itemMotion()) {
                                 Row(Modifier.fillMaxWidth()) {
                                     row.forEach { WordCell(it, selected = it.word.word == state.selected, onOpen, translate, Modifier.weight(1f)) }
                                     repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }

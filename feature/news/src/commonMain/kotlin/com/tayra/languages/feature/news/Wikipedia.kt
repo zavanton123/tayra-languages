@@ -349,7 +349,7 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                     )
                 }
                 state.shown.isEmpty() -> item { EmptyState(AppIcons.Globe, if (state.articles.isEmpty()) tr("No articles found.") else tr("No articles match these filters.")) }
-                else -> items(state.shown.size, key = { state.shown[it].article.url }) { i -> Box(itemMotion()) {
+                else -> items(state.shown.size, key = { state.shown[it].article.url }) { i -> Column(itemMotion()) {
                     WikiCard(state.shown[i], state, actions, compact, Modifier.padding(bottom = AppSpacing.m))
                 }}
             }

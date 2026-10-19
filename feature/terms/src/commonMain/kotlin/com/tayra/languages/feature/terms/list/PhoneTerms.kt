@@ -68,24 +68,24 @@ import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SelectButton
 import com.tayra.languages.core.ui.components.SelectMenu
+import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
-import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import kotlin.time.Clock
+import kotlin.time.Instant
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.minus
 import kotlinx.datetime.toLocalDateTime
-import kotlin.time.Clock
-import kotlin.time.Instant
-import com.tayra.languages.core.ui.components.itemMotion
 
 /** The days-ago choices the phone's Added filter offers; null leaves that end open. */
 private val DAY_CHOICES = listOf(null, 1, 3, 7, 14, 30, 90, 365)
@@ -163,7 +163,7 @@ internal fun PhoneTermsScreen(
             } else if (state.terms.isEmpty()) {
                 item { EmptyState(AppIcons.Book, tr("No terms match the current filters.")) }
             } else {
-                itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term -> Box(itemMotion()) {
+                itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term -> Column(itemMotion()) {
                     PhoneTermRow(term, state.languageName(term.languageId), selected = term.id in state.selected, showCheck = showChecks, rowActions)
                     Spacer(Modifier.height(AppSpacing.s))
                 }}

@@ -21,7 +21,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Edit
@@ -33,6 +32,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -54,9 +54,9 @@ import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ChipSize
-import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconButtonSize
@@ -78,6 +78,7 @@ import com.tayra.languages.core.ui.components.TableHeaderCell
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.formatDate
+import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
@@ -89,15 +90,14 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import kotlin.math.roundToInt
+import kotlin.time.Instant
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.daysUntil
 import kotlinx.datetime.plus
 import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.viewmodel.koinViewModel
-import kotlin.math.roundToInt
-import kotlin.time.Instant
-import com.tayra.languages.core.ui.components.itemMotion
 
 /**
  * Every flashcard of the language being learned in one list, as Anki's browser: searched, shown
@@ -205,7 +205,7 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
             state.rows.isEmpty() -> item { EmptyCards(state) }
             else -> {
                 item { CardTableHeader(state, viewModel) }
-                itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row -> Box(itemMotion()) {
+                itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row -> Column(itemMotion()) {
                     CardTableRow(row, state, index, actions)
                 }}
             }

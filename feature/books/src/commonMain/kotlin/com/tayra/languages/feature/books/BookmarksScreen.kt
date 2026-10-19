@@ -1,7 +1,7 @@
 package com.tayra.languages.feature.books
 
-import com.tayra.languages.core.ui.components.ScreenTitle
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -29,11 +29,15 @@ import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.EmptyMessage
+import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.ScreenTitle
+import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.TextInputDialog
+import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppSpacing
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
@@ -41,10 +45,6 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
-import com.tayra.languages.core.ui.components.ScrollList
-import com.tayra.languages.core.ui.theme.AppSpacing
-import com.tayra.languages.core.ui.components.itemMotion
-import androidx.compose.foundation.layout.Box
 
 data class BookmarksUiState(val title: String = "", val bookmarks: List<PageBookmark> = emptyList())
 
@@ -74,7 +74,7 @@ fun BookmarksScreen(
                 EmptyMessage(tr("No bookmarks yet. Add one from the reading menu."))
             } else {
                 ScrollList(Modifier.fillMaxSize()) {
-                    items(state.bookmarks, key = { it.id }) { bookmark -> Box(itemMotion()) {
+                    items(state.bookmarks, key = { it.id }) { bookmark -> Column(itemMotion()) {
                         Row(
                             Modifier.fillMaxWidth().clickable { onNavigate(Route.Read(bookId, bookmark.pageNumber)) }.padding(horizontal = AppSpacing.l, vertical = AppSpacing.s),
                             verticalAlignment = Alignment.CenterVertically,

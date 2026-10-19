@@ -5,20 +5,19 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import com.tayra.languages.core.ui.components.LearningLanguageSelector
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.foundation.layout.windowInsetsPadding
-import androidx.compose.foundation.layout.statusBars
-import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBars
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -39,12 +38,14 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.LearningLanguageSelector
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SelectButton
+import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
@@ -52,7 +53,6 @@ import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
-import com.tayra.languages.core.ui.components.itemMotion
 
 /** The browser on a phone: the cards as a list, the groups in a scrolling row, sorting from a sheet and the card info in another. */
 @Composable
@@ -101,7 +101,7 @@ internal fun PhoneBrowseFlashcardsScreen(
             when {
                 state.loading -> item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = colors.onSurfaceVariant) }
                 state.rows.isEmpty() -> item { Box(Modifier.padding(horizontal = AppSpacing.l)) { EmptyCards(state) } }
-                else -> itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row -> Box(itemMotion()) {
+                else -> itemsIndexed(state.rows, key = { _, row -> row.termId }) { index, row -> Column(itemMotion()) {
                     AppDivider()
                     PhoneCardRow(row, state, showCheck = showChecks, actions)
                     if (index == state.rows.lastIndex) AppDivider()

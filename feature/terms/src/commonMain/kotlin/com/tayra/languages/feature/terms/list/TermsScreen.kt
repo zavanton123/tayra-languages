@@ -176,20 +176,20 @@ fun TermsScreen(
             item { PageHeader(exporting = state.exporting, onExport = viewModel::exportAnki, onSend = if (viewModel.canSendToAnki) ({ viewModel.sendToAnki() }) else null, onNew = { onNavigate(Route.NewTerm) }) }
             item { StatCards(state, compact) }
             item { Toolbar(state, viewModel, compact) }
-            if (state.filtersVisible) item(key = "filters") { Box(itemMotion()) { FilterPanel(state, viewModel) } }
+            if (state.filtersVisible) item(key = "filters") { Column(itemMotion()) { FilterPanel(state, viewModel) } }
             if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel) }
             if (state.loading) {
                 item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
                 item { EmptyState(AppIcons.Book, tr("No terms match the current filters.")) }
             } else if (compact) {
-                itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term -> Box(itemMotion()) {
+                itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term -> Column(itemMotion()) {
                     CompactTermRow(term, state.languageName(term.languageId), term.id in state.selected, rowActions)
                     AppDivider()
                 }}
             } else {
                 item { TermsTableHeader(state, viewModel, listActions) }
-                itemsIndexed(state.terms, key = { _, term -> term.id }) { index, term -> Box(itemMotion()) {
+                itemsIndexed(state.terms, key = { _, term -> term.id }) { index, term -> Column(itemMotion()) {
                     TermTableRow(term, state.languageName(term.languageId), term.id in state.selected, index, rowActions)
                 }}
             }

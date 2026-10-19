@@ -140,7 +140,7 @@ internal fun FindBooksContent(state: FindBooksUiState, actions: FindBooksActions
                 state.loading -> item { PlaceholderCards(4, thumbnail = true) }
                 state.error != null -> item { ErrorBox(state, actions) }
                 state.shown.isEmpty() -> item { EmptyBox(state, actions) }
-                else -> items(state.shown.size, key = { "${state.shown[it].book.source}-${state.shown[it].book.id}" }) { i -> Box(itemMotion()) {
+                else -> items(state.shown.size, key = { "${state.shown[it].book.source}-${state.shown[it].book.id}" }) { i -> Column(itemMotion()) {
                     FoundBookCard(state.shown[i], actions, compact, Modifier.padding(bottom = AppSpacing.m))
                 }}
             }

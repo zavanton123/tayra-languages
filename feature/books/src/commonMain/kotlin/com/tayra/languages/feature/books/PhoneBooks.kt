@@ -125,7 +125,7 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
         if (books.isEmpty()) {
             item { NoBooks(state.archived, callbacks.onNewBook) }
         } else {
-            items(books.size, key = { books[it].id }) { i -> Box(itemMotion()) {
+            items(books.size, key = { books[it].id }) { i -> Column(itemMotion()) {
                 PhoneBookCard(books[i], books[i].id in state.selected, showChecks, callbacks)
                 Spacer(Modifier.height(AppSpacing.m))
             }}
