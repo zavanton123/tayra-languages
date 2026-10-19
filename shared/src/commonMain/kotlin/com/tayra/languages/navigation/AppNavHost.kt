@@ -2,11 +2,8 @@ package com.tayra.languages.navigation
 
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
-import androidx.compose.animation.core.FiniteAnimationSpec
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
-import androidx.compose.animation.slideInHorizontally
-import androidx.compose.animation.slideOutHorizontally
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.consumeWindowInsets
 import androidx.compose.foundation.layout.padding
@@ -19,9 +16,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalLayoutDirection
-import androidx.compose.ui.unit.IntOffset
-import androidx.compose.ui.unit.LayoutDirection
 import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.NavGraph.Companion.findStartDestination
@@ -87,15 +81,17 @@ fun AppNavHost(openCourses: Int = 0) {
         // The screens handle the window insets themselves; only the bar's height is taken from them, and consumed so they do not pad for it twice.
         contentWindowInsets = WindowInsets(0, 0, 0, 0),
     ) { padding ->
-        val motion = screenMotion()
+        // Screens change with a quick crossfade, and at once when motion is reduced.
+        val enter = if (AppMotion.reduced) EnterTransition.None else fadeIn(AppMotion.spec(AppMotion.medium, AppMotion.enter))
+        val exit = if (AppMotion.reduced) ExitTransition.None else fadeOut(AppMotion.spec(AppMotion.short, AppMotion.exit))
         NavHost(
             navController = navController,
             startDestination = Route.Home,
             modifier = Modifier.padding(padding).consumeWindowInsets(padding),
-            enterTransition = { motion.enter(initialState.destination, targetState.destination, back = false) },
-            exitTransition = { motion.exit(initialState.destination, targetState.destination, back = false) },
-            popEnterTransition = { motion.enter(initialState.destination, targetState.destination, back = true) },
-            popExitTransition = { motion.exit(initialState.destination, targetState.destination, back = true) },
+            enterTransition = { enter },
+            exitTransition = { exit },
+            popEnterTransition = { enter },
+            popExitTransition = { exit },
         ) {
             homeGraph(navController)
             newsGraph(navController)
@@ -127,45 +123,3 @@ private fun sectionOf(destination: NavDestination): NavSection = when {
         destination.hasRoute<Route.NewTerm>() || destination.hasRoute<Route.Examples>() -> NavSection.TERMS
     else -> NavSection.SETTINGS
 }
-
-/** The main areas, reached from the bar: moving between them is a change of place, not a step deeper. */
-private fun isArea(destination: NavDestination): Boolean =
-    destination.hasRoute<Route.Home>() || destination.hasRoute<Route.Courses>() || destination.hasRoute<Route.Books>() ||
-        destination.hasRoute<Route.News>() || destination.hasRoute<Route.Flashcards>() || destination.hasRoute<Route.Terms>() ||
-        destination.hasRoute<Route.Settings>() || destination.hasRoute<Route.Stats>()
-
-/**
- * How screens change: a quick fade between the main areas, and a short slide toward the reading
- * direction for a step deeper (back the other way); nothing moves when motion is reduced.
- */
-private class ScreenMotion(private val reduced: Boolean, private val rightToLeft: Boolean, private val enterSpec: FiniteAnimationSpec<Float>, private val exitSpec: FiniteAnimationSpec<Float>, private val slideSpec: FiniteAnimationSpec<IntOffset>) {
-
-    private fun across(from: NavDestination, to: NavDestination) = isArea(from) && isArea(to)
-
-    /** Which way a step deeper comes in from: the end of the line, which is the left in a right-to-left language. */
-    private fun sign(back: Boolean) = (if (back) -1 else 1) * (if (rightToLeft) -1 else 1)
-
-    fun enter(from: NavDestination, to: NavDestination, back: Boolean): EnterTransition = when {
-        reduced -> EnterTransition.None
-        across(from, to) -> fadeIn(enterSpec)
-        else -> fadeIn(enterSpec) + slideInHorizontally(slideSpec) { width -> sign(back) * width / SLIDE_PART }
-    }
-
-    fun exit(from: NavDestination, to: NavDestination, back: Boolean): ExitTransition = when {
-        reduced -> ExitTransition.None
-        across(from, to) -> fadeOut(exitSpec)
-        else -> fadeOut(exitSpec) + slideOutHorizontally(slideSpec) { width -> -sign(back) * width / SLIDE_PART }
-    }
-}
-
-@Composable
-private fun screenMotion() = ScreenMotion(
-    reduced = AppMotion.reduced,
-    rightToLeft = LocalLayoutDirection.current == LayoutDirection.Rtl,
-    enterSpec = AppMotion.spec(AppMotion.medium, AppMotion.enter),
-    exitSpec = AppMotion.spec(AppMotion.short, AppMotion.exit),
-    slideSpec = AppMotion.spec(AppMotion.medium),
-)
-
-/** How far a screen slides, as a part of the window's width: enough to show the way, not to cross it. */
-private const val SLIDE_PART = 12

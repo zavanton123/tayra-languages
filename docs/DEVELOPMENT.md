@@ -250,7 +250,7 @@ Screens are built from `core/ui`.
     `itemMotion()` lets a list's items glide when the list is filtered or sorted.
   - The segmented toggle's highlight and the underline tabs' line slide to the chosen one. Chips,
     toggles and tabs fade between their colours, and progress fills smoothly.
-  - Screens fade between the main areas and slide a little for a step deeper (`AppNavHost`).
+  - Screens change with a quick crossfade (`AppNavHost`).
   - In the reader, a word's colour fades to its new status. A flashcard turns over to show its
     answer.
 - **Overlays** (`components/Overlays.kt`): `AppBottomSheet` for phones, `AppDialogSurface` for
