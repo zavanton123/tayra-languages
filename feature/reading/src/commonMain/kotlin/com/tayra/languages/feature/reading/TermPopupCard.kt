@@ -5,7 +5,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -13,12 +12,13 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.service.TermPopup
+import com.tayra.languages.core.ui.components.PopupCard
 import com.tayra.languages.core.ui.i18n.tr
 
 /** Hover/tap information for a term. */
 @Composable
 fun TermPopupCard(popup: TermPopup, modifier: Modifier = Modifier) {
-    Surface(modifier.widthIn(max = 360.dp), tonalElevation = 4.dp, shadowElevation = 6.dp, shape = MaterialTheme.shapes.medium) {
+    PopupCard(modifier.widthIn(max = 360.dp)) {
         Column(Modifier.padding(12.dp)) {
             PopupEntry(popup, isMain = true)
             if (popup.parents.isNotEmpty()) {

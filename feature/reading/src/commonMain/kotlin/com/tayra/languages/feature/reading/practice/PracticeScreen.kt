@@ -1,6 +1,5 @@
 package com.tayra.languages.feature.reading.practice
 
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -12,14 +11,12 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
@@ -38,7 +35,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
 import androidx.compose.ui.input.key.isCtrlPressed
@@ -64,9 +60,11 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ProgressTrack
@@ -78,8 +76,10 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppText
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
@@ -215,7 +215,7 @@ private fun ProgressStrip(state: PracticeUiState) {
         horizontalArrangement = Arrangement.spacedBy(20.dp),
     ) {
         Text(tr("Question {0} of {1}", state.index + 1, state.exercises.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
-        ProgressTrack((state.index + 1f) / state.exercises.size, colors.primary, Modifier.weight(1f), height = 10.dp, trackColor = colors.onSurface.copy(alpha = 0.08f))
+        ProgressTrack((state.index + 1f) / state.exercises.size, colors.primary, Modifier.weight(1f), height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
         Text(tr("{0} right", state.correct), style = MaterialTheme.typography.bodyLarge, color = AppAccents.green, fontWeight = FontWeight.Medium, softWrap = false)
     }
 }
@@ -243,21 +243,13 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         Text(exercise.instruction.uppercase(), style = AppText.overline.copy(color = colors.primary), textAlign = TextAlign.Center)
 
         if (exercise.isListening && actions.onSpeak != null) {
-            Row(
-                Modifier.clip(AppShapes.pill).background(colors.primary.copy(alpha = 0.08f)).border(AppBorders.hairline(colors.primary.copy(alpha = 0.25f)), AppShapes.pill)
-                    .clickable(onClickLabel = tr("Listen again")) { actions.onSpeak.invoke(exercise.spoken!!) }.padding(horizontal = 22.dp, vertical = 12.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(10.dp),
-            ) {
-                Icon(AppIcons.VolumeUp, contentDescription = null, tint = colors.primary, modifier = Modifier.size(26.dp))
-                Text(tr("Listen again"), style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
-            }
+            SecondaryButton(tr("Listen again"), onClick = { actions.onSpeak.invoke(exercise.spoken!!) }, icon = AppIcons.VolumeUp, size = ButtonSize.Large, tint = colors.primary)
         }
 
         // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.
         val sentenceHidden = !answered && (exercise.kind == ExerciseKind.HEAR_CHOOSE || exercise.wholeSentence)
         if (!sentenceHidden) {
-            val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = 0.55f), fontWeight = FontWeight.SemiBold)
+            val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = FontWeight.SemiBold)
             Text(
                 buildAnnotatedString {
                     append(exercise.sentence.substring(0, exercise.range.first))
@@ -273,7 +265,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         if (hintShown) state.sentenceTranslation?.let { translation ->
             Text(
                 translation,
-                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = 0.05f)).padding(horizontal = if (compact) 14.dp else 32.dp, vertical = 14.dp),
+                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(horizontal = if (compact) 14.dp else 32.dp, vertical = 14.dp),
                 style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
             )
         }
@@ -287,12 +279,8 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             if (!answered) QuietButton(tr("Show the answer"), onClick = actions.onSkip)
             Spacer(Modifier.weight(1f))
             when {
-                answered -> PrimaryButton(onClick = actions.onNext, modifier = Modifier.height(48.dp)) {
-                    Text(if (state.index + 1 >= state.exercises.size) tr("See the result") else tr("Continue"), Modifier.padding(horizontal = 14.dp), fontWeight = FontWeight.SemiBold)
-                }
-                !exercise.isChoice -> PrimaryButton(onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), modifier = Modifier.height(48.dp)) {
-                    Text(tr("Check"), Modifier.padding(horizontal = 14.dp), fontWeight = FontWeight.SemiBold)
-                }
+                answered -> PrimaryButton(if (state.index + 1 >= state.exercises.size) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
+                !exercise.isChoice -> PrimaryButton(tr("Check"), onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), size = ButtonSize.Large)
             }
         }
     }
@@ -311,8 +299,8 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
         }
         Row(
             modifier.heightIn(min = 56.dp).clip(AppShapes.panel)
-                .background(tint?.copy(alpha = 0.12f) ?: colors.surface)
-                .border(if (tint != null) BorderStroke(1.5.dp, tint) else AppBorders.hairline(), AppShapes.panel)
+                .background(tint?.copy(alpha = AppAlpha.soft) ?: colors.surface)
+                .border(if (tint != null) AppBorders.selected(tint) else AppBorders.hairline(), AppShapes.panel)
                 .clickable(enabled = !state.answered) { actions.onChoose(text) }
                 .padding(horizontal = 18.dp, vertical = 12.dp).testTag("practice-option-$index"),
             verticalAlignment = Alignment.CenterVertically,
@@ -320,8 +308,8 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
         ) {
             Text(text, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (state.answered && tint == null) colors.onSurfaceVariant else colors.onSurface)
             when (tint) {
-                AppAccents.green -> Icon(Icons.Default.Check, contentDescription = tr("Right answer"), tint = AppAccents.green, modifier = Modifier.size(22.dp))
-                AppAccents.red -> Icon(Icons.Default.Close, contentDescription = tr("Your answer"), tint = AppAccents.red, modifier = Modifier.size(22.dp))
+                AppAccents.green -> Icon(Icons.Default.Check, contentDescription = tr("Right answer"), tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconMedium))
+                AppAccents.red -> Icon(Icons.Default.Close, contentDescription = tr("Your answer"), tint = AppAccents.red, modifier = Modifier.size(AppSizes.iconMedium))
                 else -> Unit
             }
         }
@@ -362,22 +350,15 @@ private fun Feedback(state: PracticeUiState, exercise: Exercise) {
         PracticeResult.ALMOST -> AppAccents.amber to tr("Almost: mind the accents")
         else -> AppAccents.red to tr("Not quite")
     }
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.1f)).border(AppBorders.hairline(tint.copy(alpha = 0.35f)), AppShapes.panel)
-            .padding(horizontal = 18.dp, vertical = 14.dp).testTag("practice-feedback"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(14.dp),
-    ) {
-        Box(Modifier.size(32.dp).clip(CircleShape).background(tint), contentAlignment = Alignment.Center) {
-            Icon(if (state.result == PracticeResult.WRONG) Icons.Default.Close else Icons.Default.Check, contentDescription = null, tint = Color.White, modifier = Modifier.size(20.dp))
-        }
-        Column {
-            Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = tint)
-            // The word with its meaning, whatever was asked; for a sentence typed whole, the sentence is above.
-            val meaning = exercise.wordTranslation?.let { " — $it" }.orEmpty()
-            Text("${exercise.word}$meaning", style = MaterialTheme.typography.bodyLarge)
-        }
-    }
+    // The word with its meaning, whatever was asked; for a sentence typed whole, the sentence is above.
+    val meaning = exercise.wordTranslation?.let { " — $it" }.orEmpty()
+    Notice(
+        title,
+        Modifier.testTag("practice-feedback"),
+        message = "${exercise.word}$meaning",
+        tint = tint,
+        icon = if (state.result == PracticeResult.WRONG) Icons.Default.Close else Icons.Default.Check,
+    )
 }
 
 @Composable
@@ -389,8 +370,8 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
-        Box(Modifier.size(64.dp).clip(CircleShape).background(AppAccents.green.copy(alpha = 0.14f)), contentAlignment = Alignment.Center) {
-            Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(34.dp))
+        Box(Modifier.size(64.dp).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
+            Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconXLarge))
         }
         Text(tr("{0} of {1} right", state.correct, total), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
         Text(

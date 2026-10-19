@@ -10,27 +10,19 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import com.tayra.languages.core.ui.components.Dropdown
@@ -62,17 +54,35 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.ButtonSize
+import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.NavigationRow
 import com.tayra.languages.core.ui.components.OverflowMenu
+import com.tayra.languages.core.ui.components.PaneHeader
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
-import com.tayra.languages.core.ui.components.RoundSlider
+import com.tayra.languages.core.ui.components.AppSlider
+import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.Segment
+import com.tayra.languages.core.ui.components.SegmentStyle
+import com.tayra.languages.core.ui.components.SegmentedToggle
+import com.tayra.languages.core.ui.components.SelectMenu
+import com.tayra.languages.core.ui.components.SettingRow
+import com.tayra.languages.core.ui.components.SliderSetting
+import com.tayra.languages.core.ui.components.StatusDot
+import com.tayra.languages.core.ui.components.SwitchSetting
+import com.tayra.languages.core.ui.components.Tab
 import com.tayra.languages.core.ui.components.TextInputDialog
+import com.tayra.languages.core.ui.components.UnderlineTabs
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -111,15 +121,31 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
         PaneHeader(
             title = if (showBookmarks) tr("Bookmarks") else tr("Reader settings"),
             subtitle = if (showBookmarks) trPlural(bookmarks.size, "{1} · {0} saved", "{1} · {0} saved", title) else tr("{0} · Saved automatically", title),
-            onBack = if (showBookmarks) ({ showBookmarks = false }) else null,
             onClose = onClose,
+            modifier = Modifier.padding(start = 20.dp, end = 16.dp, top = 18.dp, bottom = 16.dp),
+            onBack = if (showBookmarks) ({ showBookmarks = false }) else null,
+            icon = AppIcons.Otter,
+            closeDescription = tr("Close menu"),
         )
         AppDivider()
         if (!showBookmarks) {
-            PaneTabs(tab) { tab = it }
+            // A phone's pane has no room for the icons beside the names.
+            val icons = !LocalWindowWidth.current.isCompact
+            UnderlineTabs(
+                listOf(
+                    Tab(PaneTab.READING, tr("Reading"), icon = AppIcons.MenuBook.takeIf { icons }, testTag = "pane-tab-READING"),
+                    Tab(PaneTab.AUDIO, tr("Audio"), icon = AppIcons.VolumeUp.takeIf { icons }, testTag = "pane-tab-AUDIO"),
+                    Tab(PaneTab.APPEARANCE, tr("Appearance"), icon = AppIcons.FormatSize.takeIf { icons }, testTag = "pane-tab-APPEARANCE"),
+                ),
+                selected = tab,
+                onSelect = { tab = it },
+                modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+                fill = true,
+                tinted = true,
+            )
         }
         ScrollColumn(
-            Modifier.weight(1f).fillMaxWidth().background(colors.surfaceVariant.copy(alpha = 0.35f)),
+            Modifier.weight(1f).fillMaxWidth().background(colors.surfaceVariant.copy(alpha = AppAlpha.disabled)),
             // The bar runs in a gutter of its own at the pane's edge, clear of the cards.
             contentModifier = Modifier.padding(start = 16.dp, top = 14.dp, bottom = 14.dp, end = 30.dp),
             scrollbarModifier = Modifier.padding(top = 8.dp, bottom = 8.dp, end = 7.dp),
@@ -155,56 +181,6 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
     }
 }
 
-@Composable
-private fun PaneHeader(title: String, subtitle: String, onBack: (() -> Unit)?, onClose: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Row(Modifier.fillMaxWidth().padding(start = 20.dp, end = 16.dp, top = 18.dp, bottom = 16.dp), verticalAlignment = Alignment.CenterVertically) {
-        if (onBack != null) {
-            Box(Modifier.size(40.dp).clip(AppShapes.control).background(colors.surfaceVariant.copy(alpha = 0.6f)).clickable(onClick = onBack), contentAlignment = Alignment.Center) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), modifier = Modifier.size(20.dp))
-            }
-        } else {
-            Icon(AppIcons.Otter, contentDescription = null, tint = colors.primary, modifier = Modifier.size(40.dp))
-        }
-        Spacer(Modifier.width(14.dp))
-        Column(Modifier.weight(1f)) {
-            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-            Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        }
-        Box(
-            Modifier.size(40.dp).clip(CircleShape).background(colors.surfaceVariant.copy(alpha = 0.6f)).clickable(onClick = onClose),
-            contentAlignment = Alignment.Center,
-        ) { Icon(Icons.Default.Close, contentDescription = tr("Close menu"), modifier = Modifier.size(20.dp)) }
-    }
-}
-
-@Composable
-private fun PaneTabs(selected: PaneTab, onSelect: (PaneTab) -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    // A phone's pane has no room for the icons beside the names.
-    val icons = !LocalWindowWidth.current.isCompact
-    Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-        listOf(
-            Triple(PaneTab.READING, AppIcons.MenuBook, tr("Reading")),
-            Triple(PaneTab.AUDIO, AppIcons.VolumeUp, tr("Audio")),
-            Triple(PaneTab.APPEARANCE, AppIcons.FormatSize, tr("Appearance")),
-        ).forEach { (tab, icon, label) ->
-            val active = tab == selected
-            Column(Modifier.weight(1f).clip(AppShapes.control).background(if (active) colors.primary.copy(alpha = 0.1f) else Color.Transparent).clickable { onSelect(tab) }.testTag("pane-tab-${tab.name}")) {
-                Row(
-                    Modifier.fillMaxWidth().padding(vertical = 12.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterHorizontally),
-                ) {
-                    if (icons) Icon(icon, contentDescription = null, tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-                    Text(label, style = MaterialTheme.typography.bodyLarge, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal, color = if (active) colors.primary else colors.onSurfaceVariant, maxLines = 1)
-                }
-                Box(Modifier.fillMaxWidth().height(3.dp).background(if (active) colors.primary else Color.Transparent))
-            }
-        }
-    }
-}
-
 /** A white card with a heading and its settings. */
 @Composable
 private fun PaneCard(title: String, content: @Composable ColumnScope.() -> Unit) {
@@ -214,55 +190,8 @@ private fun PaneCard(title: String, content: @Composable ColumnScope.() -> Unit)
     }
 }
 
-@Composable
-private fun SettingText(title: String, subtitle: String?, modifier: Modifier = Modifier) {
-    Column(modifier) {
-        Text(title, style = MaterialTheme.typography.bodyLarge)
-        if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-    }
-}
-
-@Composable
-private fun SwitchSetting(icon: ImageVector, title: String, subtitle: String?, checked: Boolean, onToggle: () -> Unit) {
-    Row(Modifier.fillMaxWidth().clip(AppShapes.compact).clickable(onClick = onToggle), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-        Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
-        SettingText(title, subtitle, Modifier.weight(1f))
-        Switch(checked = checked, onCheckedChange = { onToggle() })
-    }
-}
-
-/** Two or more choices side by side, the chosen one filled; with [fill] they share the row's width. */
-@Composable
-private fun <T> Segmented(options: List<Pair<T, String>>, selected: T, onSelect: (T) -> Unit, modifier: Modifier = Modifier, fill: Boolean = false) {
-    val colors = MaterialTheme.colorScheme
-    Row(modifier.clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(3.dp)) {
-        options.forEach { (value, label) ->
-            val active = value == selected
-            Text(
-                label,
-                (if (fill) Modifier.weight(1f) else Modifier).clip(AppShapes.compact).background(if (active) colors.primary else Color.Transparent)
-                    .clickable { onSelect(value) }.padding(horizontal = 14.dp, vertical = 8.dp),
-                style = MaterialTheme.typography.bodyMedium,
-                fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
-                color = if (active) colors.onPrimary else colors.onSurfaceVariant,
-                textAlign = TextAlign.Center,
-                maxLines = 1,
-            )
-        }
-    }
-}
-
-@Composable
-private fun LabeledRow(icon: ImageVector?, title: String, control: @Composable RowScope.() -> Unit) {
-    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-        if (icon != null) Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
-        Text(title, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-        control()
-    }
-}
-
 /**
- * A setting named beside its [Segmented] choices when both fit the pane at their natural widths,
+ * A setting named beside its [SegmentedToggle] choices when both fit the pane at their natural widths,
  * else above them, the choices then sharing the full width; always above them on a phone.
  */
 @Composable
@@ -270,8 +199,8 @@ private fun <T> SegmentedSetting(icon: ImageVector?, title: String, options: Lis
     val compact = LocalWindowWidth.current.isCompact
     Layout(
         content = {
-            LabeledRow(icon, title) {}
-            Segmented(options, selected, onSelect, Modifier.fillMaxWidth(), fill = true)
+            SettingRow(title, icon = icon, dense = true) {}
+            SegmentedToggle(options.map { (value, label) -> Segment(value, label = label) }, selected, onSelect, Modifier.fillMaxWidth(), fill = true, style = SegmentStyle.Solid)
         },
     ) { (label, control), constraints ->
         val gap = 14.dp.roundToPx()
@@ -321,7 +250,7 @@ private fun <T> ChoiceCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(14.dp),
         ) {
-            Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
+            Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
             if (LocalWindowWidth.current.isCompact) {
                 Column(Modifier.weight(1f)) {
                     Text(title, style = MaterialTheme.typography.bodyLarge)
@@ -329,11 +258,14 @@ private fun <T> ChoiceCard(
                     if (note != null) Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
                 }
             } else {
-                SettingText(title, note, Modifier.weight(1f))
+                Column(Modifier.weight(1f)) {
+                    Text(title, style = MaterialTheme.typography.bodyLarge)
+                    if (note != null) Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                }
                 // Sized to the value, so the name and its note keep the rest of the row.
                 Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.widthIn(max = 130.dp))
             }
-            Icon(AppIcons.UnfoldMore, contentDescription = null, tint = colors.outline, modifier = Modifier.size(20.dp))
+            Icon(AppIcons.UnfoldMore, contentDescription = null, tint = colors.outline, modifier = Modifier.size(AppSizes.icon))
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             options.forEach { option ->
@@ -347,54 +279,28 @@ private fun <T> ChoiceCard(
     }
 }
 
-@Composable
-private fun LinkRow(icon: ImageVector, label: String, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.compact).clickable(onClick = onClick).padding(vertical = 4.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(14.dp),
-    ) {
-        Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
-        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, color = colors.primary)
-        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.outline, modifier = Modifier.size(20.dp))
-    }
-}
-
-/** A slider with its name and value above it. */
-@Composable
-private fun SliderSetting(title: String, value: String, current: Float, range: ClosedFloatingPointRange<Float>, onChange: (Float) -> Unit, tag: String) {
-    Column {
-        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-            Text(title, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-            Text(value, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        }
-        RoundSlider(value = current.coerceIn(range), onValueChange = onChange, valueRange = range, modifier = Modifier.fillMaxWidth().testTag(tag))
-    }
-}
-
 // ---- Reading
 
 @Composable
 private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTranslationSettings: () -> Unit) {
     val prefs = state.settings
     PaneCard(tr("Reading experience")) {
-        SwitchSetting(AppIcons.Fullscreen, tr("Focus mode"), tr("Hide navigation and distractions"), prefs.focusMode) { viewModel.toggleFocusMode() }
-        SwitchSetting(AppIcons.Palette, tr("Highlight terms"), tr("Color words by learning status"), prefs.showHighlights) { viewModel.toggleHighlights() }
+        SwitchSetting(tr("Focus mode"), tr("Hide navigation and distractions"), prefs.focusMode, icon = AppIcons.Fullscreen, dense = true) { viewModel.toggleFocusMode() }
+        SwitchSetting(tr("Highlight terms"), tr("Color words by learning status"), prefs.showHighlights, icon = AppIcons.Palette, dense = true) { viewModel.toggleHighlights() }
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in READING_LANGUAGES) {
-            SwitchSetting(AppIcons.Abc, tr("Show readings"), tr("Furigana or pinyin above the words"), prefs.showReadings) { viewModel.toggleReadings() }
+            SwitchSetting(tr("Show readings"), tr("Furigana or pinyin above the words"), prefs.showReadings, icon = AppIcons.Abc, dense = true) { viewModel.toggleReadings() }
         }
         if (viewModel.canChooseChineseScript) ChineseScriptSetting(state.language?.chineseScript, viewModel::setChineseScript)
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in TONE_LANGUAGES) {
-            SwitchSetting(AppIcons.Palette, tr("Tone colours"), tr("Colour pinyin by its tone"), prefs.toneColors) { viewModel.toggleToneColors() }
-            SwitchSetting(AppIcons.Abc, tr("Zhuyin"), tr("Readings in bopomofo instead of pinyin"), prefs.zhuyin) { viewModel.toggleZhuyin() }
+            SwitchSetting(tr("Tone colours"), tr("Colour pinyin by its tone"), prefs.toneColors, icon = AppIcons.Palette, dense = true) { viewModel.toggleToneColors() }
+            SwitchSetting(tr("Zhuyin"), tr("Readings in bopomofo instead of pinyin"), prefs.zhuyin, icon = AppIcons.Abc, dense = true) { viewModel.toggleZhuyin() }
         }
         if (prefs.showHighlights) {
             val statusColors = TayraTheme.current.statusColors
             Row(Modifier.padding(start = 36.dp), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
                 listOf(TermStatus.UNKNOWN to tr("New"), TermStatus.NEW_1 to tr("Learning")).forEach { (status, label) ->
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Box(Modifier.size(14.dp).clip(CircleShape).background(statusColors.background(status)))
+                        StatusDot(statusColors.background(status), size = 14.dp)
                         Spacer(Modifier.width(8.dp))
                         Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
@@ -404,8 +310,8 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
         SegmentedSetting(AppIcons.LineSpacing, tr("Sentence layout"), listOf(false to tr("Continuous"), true to tr("One per line")), prefs.splitSentences, viewModel::setSplitSentences)
     }
     PaneCard(tr("Translations")) {
-        SwitchSetting(AppIcons.Translate, tr("Show translations"), null, prefs.showTranslations) { viewModel.toggleShowTranslations() }
-        SwitchSetting(AppIcons.School, tr("Practice translation"), tr("Blur the sentences; point at or tap one to show it"), prefs.practiceTranslation) { viewModel.togglePracticeTranslation() }
+        SwitchSetting(tr("Show translations"), null, prefs.showTranslations, icon = AppIcons.Translate, dense = true) { viewModel.toggleShowTranslations() }
+        SwitchSetting(tr("Practice translation"), tr("Blur the sentences; point at or tap one to show it"), prefs.practiceTranslation, icon = AppIcons.School, dense = true) { viewModel.togglePracticeTranslation() }
         SegmentedSetting(AppIcons.ViewColumn, tr("Translation layout"), listOf(true to tr("Side by side"), false to tr("Below")), prefs.sideBySideTranslations, viewModel::setSideBySideTranslations)
         val keyed = prefs.googleTranslateApiKey.isNotBlank()
         fun usable(engine: TranslationEngine) = engine != TranslationEngine.GOOGLE || keyed
@@ -419,7 +325,7 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
             optionEnabled = ::usable,
             onSelect = viewModel::setTranslationEngine,
         )
-        LinkRow(AppIcons.Tune, tr("Translation settings"), onTranslationSettings)
+        NavigationRow(tr("Translation settings"), onTranslationSettings, icon = AppIcons.Tune, tint = MaterialTheme.colorScheme.primary)
     }
 }
 
@@ -447,9 +353,9 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
     val languageName = state.language?.name.orEmpty()
 
     PaneCard(tr("Playback")) {
-        SwitchSetting(AppIcons.PlayArrow, tr("Play audio"), tr("Read the current page aloud"), prefs.showSentencePlay) { viewModel.toggleSentencePlay() }
-        SwitchSetting(AppIcons.Pause, tr("Auto-pause"), tr("Stop after each sentence"), prefs.autoPause) { viewModel.toggleAutoPause() }
-        SwitchSetting(AppIcons.Abc, tr("Speak word on click"), tr("Hear a word when you select it"), prefs.speakWordOnClick) { viewModel.toggleSpeakWordOnClick() }
+        SwitchSetting(tr("Play audio"), tr("Read the current page aloud"), prefs.showSentencePlay, icon = AppIcons.PlayArrow, dense = true) { viewModel.toggleSentencePlay() }
+        SwitchSetting(tr("Auto-pause"), tr("Stop after each sentence"), prefs.autoPause, icon = AppIcons.Pause, dense = true) { viewModel.toggleAutoPause() }
+        SwitchSetting(tr("Speak word on click"), tr("Hear a word when you select it"), prefs.speakWordOnClick, icon = AppIcons.Abc, dense = true) { viewModel.toggleSpeakWordOnClick() }
     }
     PaneCard(tr("Voice")) {
         ChoiceCard(
@@ -481,7 +387,7 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
                 )
             }
         }
-        LinkRow(AppIcons.Tune, tr("Speech settings"), onSpeechSettings)
+        NavigationRow(tr("Speech settings"), onSpeechSettings, icon = AppIcons.Tune, tint = MaterialTheme.colorScheme.primary)
     }
     if (local && viewModel.speechSpeedAdjustable()) {
         PaneCard(tr("Playback speed")) {
@@ -489,7 +395,7 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 Text("$percent%", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold, modifier = Modifier.width(96.dp))
                 Text(tr("Slower"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                RoundSlider(value = prefs.speechSpeed, onValueChange = viewModel::setSpeechSpeed, valueRange = 0.5f..1.5f, modifier = Modifier.weight(1f).testTag("speech-speed"))
+                AppSlider(value = prefs.speechSpeed, onValueChange = viewModel::setSpeechSpeed, valueRange = 0.5f..1.5f, modifier = Modifier.weight(1f).testTag("speech-speed"))
                 Text(tr("Faster"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -498,8 +404,8 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
                     Text(
                         "${(speed * 100).roundToInt()}%",
                         Modifier.weight(1f).clip(AppShapes.control)
-                            .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.12f) else Color.Transparent)
-                            .border(AppBorders.hairline(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.5f) else MaterialTheme.colorScheme.outlineVariant), AppShapes.control)
+                            .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.soft) else Color.Transparent)
+                            .border(AppBorders.hairline(if (active) MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.half) else MaterialTheme.colorScheme.outlineVariant), AppShapes.control)
                             .clickable { viewModel.setSpeechSpeed(speed) }.padding(vertical = 10.dp),
                         style = MaterialTheme.typography.bodyLarge,
                         color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface,
@@ -530,30 +436,21 @@ private fun AppearanceTab(state: ReadingUiState, viewModel: ReadingViewModel) {
     val prefs = state.settings
     PaneCard(tr("Typography")) {
         val font = ReadingFont.byId(prefs.readingFont)
-        var open by remember { mutableStateOf(false) }
-        LabeledRow(null, tr("Font")) {
-            Box {
-                Row(
-                    Modifier.clip(AppShapes.control).background(MaterialTheme.colorScheme.onSurface.copy(alpha = 0.05f)).clickable { open = true }
-                        .padding(start = 14.dp, end = 8.dp, top = 8.dp, bottom = 8.dp).testTag("font-choice"),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                ) {
-                    Text(tr(font.label), style = MaterialTheme.typography.bodyLarge, fontFamily = font.fontFamily())
-                    Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(20.dp))
-                }
-                AppMenu(expanded = open, onDismissRequest = { open = false }) {
-                    ReadingFont.choices.forEach { option ->
-                        AppMenuItem(text = { Text(tr(option.label), fontFamily = option.fontFamily()) }, onClick = { open = false; viewModel.setReadingFont(option) })
-                    }
-                }
-            }
+        SettingRow(tr("Font"), dense = true) {
+            SelectMenu(
+                ReadingFont.choices,
+                selected = font,
+                onSelect = viewModel::setReadingFont,
+                optionLabel = { tr(it.label) },
+                buttonModifier = Modifier.testTag("font-choice"),
+                optionContent = { Text(tr(it.label), fontFamily = it.fontFamily()) },
+            )
         }
-        SliderSetting(tr("Font size"), "${(prefs.readingFontScale * 100).roundToInt()}%", prefs.readingFontScale, 0.6f..2.5f, viewModel::setFontScale, "font-size")
-        SliderSetting(tr("Line height"), "${(prefs.readingLineHeight * 10).roundToInt() / 10f}", prefs.readingLineHeight, 1.0f..3.0f, viewModel::setLineHeight, "line-height")
+        SliderSetting(tr("Font size"), "${(prefs.readingFontScale * 100).roundToInt()}%", prefs.readingFontScale, 0.6f..2.5f, viewModel::setFontScale, sliderModifier = Modifier.testTag("font-size"))
+        SliderSetting(tr("Line height"), "${(prefs.readingLineHeight * 10).roundToInt() / 10f}", prefs.readingLineHeight, 1.0f..3.0f, viewModel::setLineHeight, sliderModifier = Modifier.testTag("line-height"))
     }
     PaneCard(tr("Page layout")) {
-        SliderSetting(tr("Text width"), tr("{0} px", prefs.readingColumnWidth), prefs.readingColumnWidth.toFloat(), 320f..2000f, { viewModel.setColumnWidth(it.roundToInt()) }, "text-width")
+        SliderSetting(tr("Text width"), tr("{0} px", prefs.readingColumnWidth), prefs.readingColumnWidth.toFloat(), 320f..2000f, { viewModel.setColumnWidth(it.roundToInt()) }, sliderModifier = Modifier.testTag("text-width"))
         SegmentedSetting(null, tr("Alignment"), listOf(false to tr("Left"), true to tr("Justified")), prefs.readingJustified, viewModel::setJustified)
     }
 }
@@ -565,23 +462,15 @@ private fun BookmarksView(state: ReadingUiState, bookmarks: List<PageBookmark>, 
     val colors = MaterialTheme.colorScheme
     val page = state.pageNumber
     val marked = bookmarks.any { it.pageNumber == page }
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).border(1.5.dp, colors.primary, AppShapes.panel)
-            .clickable { viewModel.addBookmark(tr("Page {0}", page)) }.padding(vertical = 14.dp).testTag("add-bookmark"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
-    ) {
-        Icon(Icons.Default.Add, contentDescription = null, tint = colors.primary)
-        Text(tr("Add bookmark to page {0}", page), style = MaterialTheme.typography.titleMedium, color = colors.primary, fontWeight = FontWeight.SemiBold)
-    }
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = 0.07f)).padding(horizontal = 16.dp, vertical = 12.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(12.dp),
-    ) {
-        Icon(Icons.Default.Info, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
-        Text(if (marked) tr("Page {0} is bookmarked", page) else tr("Page {0} is not bookmarked yet", page), style = MaterialTheme.typography.bodyMedium, color = colors.primary)
-    }
+    SecondaryButton(
+        tr("Add bookmark to page {0}", page),
+        onClick = { viewModel.addBookmark(tr("Page {0}", page)) },
+        modifier = Modifier.fillMaxWidth().testTag("add-bookmark"),
+        icon = Icons.Default.Add,
+        size = ButtonSize.Large,
+        tint = colors.primary,
+    )
+    InfoBanner(if (marked) tr("Page {0} is bookmarked", page) else tr("Page {0} is not bookmarked yet", page), dense = true)
     if (bookmarks.isEmpty()) {
         Text(tr("No bookmarks yet. Bookmark a page to come back to it."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
@@ -593,13 +482,13 @@ private fun BookmarkCard(bookmark: PageBookmark, current: Boolean, viewModel: Re
     val colors = MaterialTheme.colorScheme
     var renaming by remember { mutableStateOf(false) }
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (current) colors.primary.copy(alpha = 0.05f) else colors.surface)
-            .border(AppBorders.hairline(if (current) colors.primary.copy(alpha = 0.4f) else colors.outlineVariant), AppShapes.panel)
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (current) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
+            .border(AppBorders.hairline(if (current) colors.primary.copy(alpha = AppAlpha.disabled) else colors.outlineVariant), AppShapes.panel)
             .clickable(onClick = onOpen).padding(start = 16.dp, top = 14.dp, bottom = 14.dp, end = 4.dp).testTag("bookmark-${bookmark.pageNumber}"),
         verticalAlignment = Alignment.Top,
         horizontalArrangement = Arrangement.spacedBy(14.dp),
     ) {
-        Icon(AppIcons.Bookmark, contentDescription = null, tint = colors.primary, modifier = Modifier.size(24.dp))
+        Icon(AppIcons.Bookmark, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
             Text(bookmark.title.ifBlank { tr("Page {0}", bookmark.pageNumber) }, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
             // The page it is on, when the title does not already say so.
@@ -655,14 +544,7 @@ private fun ReaderTools(state: ReadingUiState, bookmarksOpen: Boolean, onBookmar
             Box(Modifier.weight(1f)) { ToolTile(AppIcons.Bookmark, tr("Bookmarks"), tr("View or add"), active = bookmarksOpen, tag = "tool-bookmarks", onClick = onBookmarks) }
             Box(Modifier.weight(1f)) { ToolTile(Icons.AutoMirrored.Filled.List, tr("Vocabulary"), tr("Terms on this page"), active = false, tag = "tool-vocabulary") { onClose(); actions.onTermList() } }
         }
-        Row(
-            Modifier.align(Alignment.CenterHorizontally).clip(AppShapes.compact).clickable(onClick = onReset).padding(horizontal = 12.dp, vertical = 6.dp).testTag("reset-reader"),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
-        ) {
-            Icon(Icons.Default.Refresh, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
-            Text(tr("Reset reader settings"), style = MaterialTheme.typography.bodyLarge, color = colors.primary)
-        }
+        LinkText(tr("Reset reader settings"), onClick = onReset, modifier = Modifier.align(Alignment.CenterHorizontally).testTag("reset-reader"), icon = Icons.Default.Refresh)
     }
 }
 
@@ -670,13 +552,13 @@ private fun ReaderTools(state: ReadingUiState, bookmarksOpen: Boolean, onBookmar
 private fun ToolTile(icon: ImageVector, label: String, note: String, active: Boolean, tag: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (active) colors.primary.copy(alpha = 0.08f) else colors.surface)
-            .border(AppBorders.hairline(if (active) colors.primary.copy(alpha = 0.4f) else colors.outlineVariant), AppShapes.panel)
+        Modifier.fillMaxWidth().clip(AppShapes.panel).background(if (active) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
+            .border(AppBorders.hairline(if (active) colors.primary.copy(alpha = AppAlpha.disabled) else colors.outlineVariant), AppShapes.panel)
             .clickable(onClick = onClick).padding(vertical = 12.dp, horizontal = 6.dp).testTag(tag),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(3.dp),
     ) {
-        Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
+        Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
         Text(label, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold, maxLines = 1)
         Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
@@ -701,9 +583,7 @@ private fun ChineseScriptSetting(current: ChineseScript?, onChoose: (ChineseScri
         ChineseScript.SIMPLIFIED -> tr("Simplified")
         ChineseScript.TRADITIONAL -> tr("Traditional")
     }
-    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-        Icon(AppIcons.Abc, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
-        SettingText(tr("Characters"), tr("Texts shown and words kept in one script"), Modifier.weight(1f))
+    SettingRow(tr("Characters"), tr("Texts shown and words kept in one script"), icon = AppIcons.Abc, dense = true) {
         Dropdown(options, current, { chosen -> if (chosen == null) onChoose(null) else if (chosen != current) asking = chosen }, null, ::label, Modifier.width(150.dp).testTag("chinese-script"))
     }
     asking?.let { script ->

@@ -1,21 +1,14 @@
 package com.tayra.languages.feature.reading
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Slider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -24,8 +17,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
@@ -33,8 +24,8 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.AppSlider
 import com.tayra.languages.core.ui.components.IconButtonStyle
-import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.i18n.tr
 import kotlin.math.roundToInt
 
@@ -44,7 +35,6 @@ import kotlin.math.roundToInt
  *
  * @param sliderWidth the slider's width, or null to fill the space left in the row (on phones).
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 internal fun PageProgress(
     pageNumber: Int,
@@ -77,16 +67,12 @@ internal fun PageProgress(
             softWrap = false,
         )
         if (pageCount > 1) {
-            Slider(
+            AppSlider(
                 value = dragged,
                 onValueChange = { dragged = it },
-                onValueChangeFinished = { if (shown != pageNumber) onGoTo(shown) },
                 valueRange = 1f..pageCount.toFloat(),
                 modifier = (if (sliderWidth == null) Modifier.weight(1f) else Modifier.width(sliderWidth)).height(28.dp),
-                thumb = {
-                    Box(Modifier.size(18.dp).shadow(2.dp, CircleShape).clip(CircleShape).background(colors.surface).padding(3.dp).clip(CircleShape).background(colors.primary))
-                },
-                track = { state -> ProgressTrack(state.coercedValueAsFraction, colors.primary, height = 6.dp) },
+                onValueChangeFinished = { if (shown != pageNumber) onGoTo(shown) },
             )
         } else if (sliderWidth == null) {
             Spacer(Modifier.weight(1f))

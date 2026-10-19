@@ -41,7 +41,6 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.ui.geometry.Size
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.text.PlaceholderVerticalAlign
 import androidx.compose.ui.text.Placeholder
@@ -91,6 +90,8 @@ import kotlinx.coroutines.withTimeoutOrNull
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.render.RenderedPage
 import com.tayra.languages.core.domain.render.TextItem
+import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppTheme
 import com.tayra.languages.core.ui.i18n.tr
 
@@ -308,7 +309,7 @@ private fun Hideable(hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> 
                 // Unbounded, so the blur fades out past the text's edges instead of being cut off at them.
                 Modifier.blur(9.dp, BlurredEdgeTreatment.Unbounded)
             } else {
-                Modifier.drawBehind { drawRoundRect(theme.readingText.copy(alpha = 0.08f), cornerRadius = CornerRadius(8.dp.toPx())) }.graphicsLayer { alpha = 0f }
+                Modifier.drawBehind { drawRoundRect(theme.readingText.copy(alpha = AppAlpha.tint), cornerRadius = CornerRadius(8.dp.toPx())) }.graphicsLayer { alpha = 0f }
             }
             Box(veil) { content() }
             // On top of the text, so its words take no taps until it is shown.
@@ -355,7 +356,7 @@ private fun SpeakerCircle(playing: Boolean, preparing: Boolean, modifier: Modifi
     val primary = MaterialTheme.colorScheme.primary
     val description = if (playing) tr("Stop") else if (preparing) tr("Preparing sentence") else tr("Play sentence")
     Box(
-        modifier.clip(CircleShape).background(primary.copy(alpha = 0.12f)).clickable(onClick = onClick)
+        modifier.clip(AppShapes.circle).background(primary.copy(alpha = AppAlpha.soft)).clickable(onClick = onClick)
             .semantics { contentDescription = description },
         contentAlignment = Alignment.Center,
     ) {
@@ -521,7 +522,7 @@ private fun ParagraphText(
                 .drawWithContent {
                     drawContent()
                     val result = layout
-                    if (readings.isNotEmpty() && result != null) drawReadings(result, spans, items, firstItemIndex, readings, measurer, toneColors, TextStyle(fontSize = rubySize.sp, color = theme.readingText.copy(alpha = 0.75f), fontFamily = fontFamily))
+                    if (readings.isNotEmpty() && result != null) drawReadings(result, spans, items, firstItemIndex, readings, measurer, toneColors, TextStyle(fontSize = rubySize.sp, color = theme.readingText.copy(alpha = AppAlpha.muted), fontFamily = fontFamily))
                 }
                 .pointerInput(callbacks) {
                     awaitPointerEventScope {
