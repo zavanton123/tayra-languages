@@ -21,6 +21,7 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -465,16 +466,26 @@ private fun AppearanceTab(state: ReadingUiState, viewModel: ReadingViewModel) {
 private fun BookmarksView(state: ReadingUiState, bookmarks: List<PageBookmark>, viewModel: ReadingViewModel, onOpen: (page: Int) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val page = state.pageNumber
-    val marked = bookmarks.any { it.pageNumber == page }
-    SecondaryButton(
-        tr("Add bookmark to page {0}", page),
-        onClick = { viewModel.addBookmark(tr("Page {0}", page)) },
-        modifier = Modifier.fillMaxWidth().testTag("add-bookmark"),
-        icon = Icons.Default.Add,
-        size = ButtonSize.Large,
-        tint = colors.primary,
-    )
-    InfoBanner(if (marked) tr("Page {0} is bookmarked", page) else tr("Page {0} is not bookmarked yet", page), dense = true)
+    // One button that says what it will do to this page: add its bookmark, or take it away.
+    val marked = bookmarks.firstOrNull { it.pageNumber == page }
+    if (marked == null) {
+        SecondaryButton(
+            tr("Add bookmark to page {0}", page),
+            onClick = { viewModel.addBookmark(tr("Page {0}", page)) },
+            modifier = Modifier.fillMaxWidth().testTag("add-bookmark"),
+            icon = Icons.Default.Add,
+            size = ButtonSize.Large,
+            tint = colors.primary,
+        )
+    } else {
+        SecondaryButton(
+            tr("Remove bookmark from page {0}", page),
+            onClick = { viewModel.deleteBookmark(marked.id) },
+            modifier = Modifier.fillMaxWidth().testTag("remove-bookmark"),
+            icon = Icons.Default.Close,
+            size = ButtonSize.Large,
+        )
+    }
     if (bookmarks.isEmpty()) {
         Text(tr("No bookmarks yet. Bookmark a page to come back to it."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }

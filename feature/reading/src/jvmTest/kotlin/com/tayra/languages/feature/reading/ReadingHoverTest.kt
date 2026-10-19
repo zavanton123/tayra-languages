@@ -425,10 +425,11 @@ class ReadingHoverTest {
         rule.onNodeWithContentDescription("Menu").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-bookmarks").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("tool-bookmarks").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Page 1 is not bookmarked yet").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Add bookmark to page 1").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("add-bookmark").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("bookmark-1").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("Page 1 is bookmarked").assertExists()
+        // The bookmarked page's button now takes its bookmark away.
+        rule.onNodeWithText("Remove bookmark from page 1").assertExists()
         rule.onNodeWithTag("bookmark-1").assertTextContains("O lobo dorme na floresta.", substring = true)
         System.getenv("BOOKMARKS_PANE_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
