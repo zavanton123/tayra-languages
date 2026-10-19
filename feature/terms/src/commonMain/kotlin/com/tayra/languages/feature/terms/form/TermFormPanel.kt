@@ -1,9 +1,6 @@
 package com.tayra.languages.feature.terms.form
 
-import com.tayra.languages.core.ui.i18n.trPlural
-import com.tayra.languages.core.ui.i18n.tr
-import kotlin.time.Clock
-import com.tayra.languages.core.domain.flashcards.CardState
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -12,14 +9,17 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
@@ -33,32 +33,19 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
-import androidx.compose.runtime.staticCompositionLocalOf
-import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.IntrinsicSize
-import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.semantics.selected
-import androidx.compose.ui.semantics.contentDescription
-import com.tayra.languages.feature.terms.examples.PrepareSpeech
-import com.tayra.languages.feature.terms.examples.rememberExampleAudio
-import com.tayra.languages.feature.terms.examples.withStatuses
-import com.tayra.languages.core.domain.settings.SettingsRepository
-import com.tayra.languages.feature.terms.examples.withSelected
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
@@ -67,13 +54,18 @@ import androidx.compose.ui.input.key.isMetaPressed
 import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.selected
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
-import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntRect
 import androidx.compose.ui.unit.IntSize
@@ -85,12 +77,10 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.KanjiInfo
-import com.tayra.languages.core.ui.components.toneColored
-import com.tayra.languages.core.domain.morphology.Chinese
-import com.tayra.languages.core.domain.morphology.ChineseGrammarWiki
-import com.tayra.languages.core.domain.dictionary.WordFrequency
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
+import com.tayra.languages.core.domain.dictionary.WordFrequency
+import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.language.LanguageOption
@@ -98,53 +88,65 @@ import com.tayra.languages.core.domain.language.OnlineDictionaries
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.morphology.Chinese
+import com.tayra.languages.core.domain.morphology.ChineseGrammarWiki
+import com.tayra.languages.core.domain.service.WordRecording
+import com.tayra.languages.core.domain.service.WordTranslationService
+import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.audio.AudioPlayback
+import com.tayra.languages.core.ui.audio.RecordingButton
+import com.tayra.languages.core.ui.audio.SpeakButton
+import com.tayra.languages.core.ui.audio.rememberAudioPlayback
+import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppProgressBar
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTooltip
-import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.ConfirmDialog
+import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
-import com.tayra.languages.core.ui.components.LocalWindowWidth
-import com.tayra.languages.core.ui.components.PrimaryButton
-import com.tayra.languages.core.ui.components.QuietButton
-import com.tayra.languages.core.ui.components.formatDate
 import com.tayra.languages.core.ui.components.ErrorMessage
-import com.tayra.languages.core.ui.components.LoadingIndicator
-import com.tayra.languages.core.ui.audio.rememberSpeaker
-import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.ui.components.HoverTranslatedText
 import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.KeyValueRow
+import com.tayra.languages.core.ui.components.LoadingIndicator
+import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.PaneHeader
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SwitchSetting
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.TintedSurface
 import com.tayra.languages.core.ui.components.cardSurface
-import org.koin.compose.koinInject
-import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.audio.SpeakButton
-import com.tayra.languages.core.ui.audio.AudioPlayback
-import com.tayra.languages.core.ui.audio.RecordingButton
-import com.tayra.languages.core.ui.audio.rememberAudioPlayback
-import com.tayra.languages.core.domain.service.WordRecording
+import com.tayra.languages.core.ui.components.formatDate
+import com.tayra.languages.core.ui.components.toneColored
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
-import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppBorders
+import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.TayraTheme
+import com.tayra.languages.feature.terms.examples.PrepareSpeech
+import com.tayra.languages.feature.terms.examples.rememberExampleAudio
+import com.tayra.languages.feature.terms.examples.withSelected
+import com.tayra.languages.feature.terms.examples.withStatuses
 import io.ktor.http.encodeURLParameter
-import com.tayra.languages.core.ui.components.ScrollColumn
+import kotlin.time.Clock
+import org.koin.compose.koinInject
 
 /**
  * The term editing form, used both standalone and embedded in the reading pane.
@@ -586,12 +588,14 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expande
         TermStatus.paneButtons.forEach { status ->
             val isSelected = status == selected
             val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
+            // The ring moves to the chosen status by fading out on the old one and in on the new.
+            val ring by animateColorAsState(if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, AppMotion.spec(AppMotion.short))
             Box(
                 Modifier
                     .then(if (expanded) Modifier.weight(1f).height(AppSizes.touch) else if (large) Modifier.weight(1f).height(LARGE_STATUS_BUTTON_HEIGHT) else Modifier)
                     .clip(if (expanded || large) AppShapes.compact else AppShapes.tiny)
                     .background(background)
-                    .border(if (isSelected) 2.dp else 0.dp, if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, if (expanded || large) AppShapes.compact else AppShapes.tiny)
+                    .border(AppBorders.selected(ring), if (expanded || large) AppShapes.compact else AppShapes.tiny)
                     .clickable { onSelect(status) }
                     .semantics { this.selected = isSelected }
                     .then(if (expanded || large) Modifier else Modifier.padding(horizontal = AppSpacing.m, vertical = AppSpacing.s)),
