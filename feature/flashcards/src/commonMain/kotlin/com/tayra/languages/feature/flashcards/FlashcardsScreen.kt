@@ -24,7 +24,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
@@ -97,6 +96,8 @@ import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.StatusPill
+import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -105,8 +106,10 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.RatingColors
 import kotlinx.datetime.TimeZone
@@ -280,7 +283,7 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
         }
     }
     val bar: @Composable (Modifier) -> Unit = { m ->
-        ProgressTrack(if (total > 0) current.toFloat() / total else 0f, AppAccents.blue, m, height = 10.dp, trackColor = colors.onSurface.copy(alpha = 0.08f))
+        ProgressTrack(if (total > 0) current.toFloat() / total else 0f, AppAccents.blue, m, height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
     }
     val label: @Composable () -> Unit = {
         Text(
@@ -320,16 +323,7 @@ private fun PillDivider() {
 
 @Composable
 private fun CountPill(tag: String, count: Int, label: String, tint: Color, large: Boolean = false) {
-    val style = if (large) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.bodyMedium
-    Row(
-        Modifier.clip(AppShapes.pill).background(tint.copy(alpha = 0.1f)).border(AppBorders.hairline(tint.copy(alpha = 0.3f)), AppShapes.pill)
-            .padding(horizontal = if (large) 14.dp else 12.dp, vertical = if (large) 7.dp else 5.dp).testTag("count-$tag"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(6.dp),
-    ) {
-        Text("$count", style = style, fontWeight = FontWeight.Bold, color = tint)
-        Text(label, style = style, color = MaterialTheme.colorScheme.onSurface, softWrap = false)
-    }
+    StatusPill(label, tint, Modifier.testTag("count-$tag"), value = "$count", size = if (large) TagSize.Large else TagSize.Medium)
 }
 
 /**
@@ -358,7 +352,7 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
                 ) { SpeakButton(card.spoken, card.languageCode, speaker, Modifier.size(44.dp).then(NoFocus)) }
             }
         }
-        val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = 0.55f), fontWeight = FontWeight.SemiBold)
+        val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = FontWeight.SemiBold)
         val sentence = card.sentence
         val range = card.wordRange
         val front = when {
@@ -384,7 +378,7 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
             AppDivider()
             Text(
                 translation,
-                Modifier.padding(top = 14.dp).fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = 0.05f))
+                Modifier.padding(top = 14.dp).fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash))
                     .padding(horizontal = if (compact) 14.dp else 40.dp, vertical = 16.dp),
                 style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
             )
@@ -443,7 +437,7 @@ private fun StateLabel(state: CardState) {
     }
     Text(
         label,
-        Modifier.clip(AppShapes.compact).background(tint.copy(alpha = 0.1f)).border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.compact)
+        Modifier.clip(AppShapes.compact).background(tint.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(tint.copy(alpha = AppAlpha.line)), AppShapes.compact)
             .padding(horizontal = 14.dp, vertical = 6.dp),
         style = AppText.overline.copy(color = tint),
     )
@@ -458,7 +452,7 @@ private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boo
             val tint = rating.tint
             val label = tr(rating.label)
             Column(
-                Modifier.weight(1f).clip(AppShapes.panel).background(tint.copy(alpha = 0.1f)).border(AppBorders.hairline(tint.copy(alpha = 0.45f)), AppShapes.panel)
+                Modifier.weight(1f).clip(AppShapes.panel).background(tint.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(tint.copy(alpha = AppAlpha.disabled)), AppShapes.panel)
                     .then(NoFocus).clickable(onClickLabel = label) { actions.onAnswer(rating) }.padding(vertical = if (compact) 16.dp else 20.dp, horizontal = 6.dp).testTag("answer-${rating.label}"),
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
@@ -508,11 +502,11 @@ private fun FooterLink(icon: ImageVector, label: String, modifier: Modifier = Mo
         if (tight) {
             // The icon over its name, so each name has the whole column.
             Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Icon(icon, contentDescription = null, modifier = Modifier.size(22.dp))
+                Icon(icon, contentDescription = null, modifier = Modifier.size(AppSizes.iconMedium))
                 Text(label, style = MaterialTheme.typography.labelLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
         } else {
-            Icon(icon, contentDescription = null, modifier = Modifier.size(20.dp))
+            Icon(icon, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
             Spacer(Modifier.width(8.dp))
             Text(label, style = MaterialTheme.typography.bodyLarge)
         }
@@ -529,8 +523,8 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Box(Modifier.size(64.dp).clip(CircleShape).background(AppAccents.green.copy(alpha = 0.14f)), contentAlignment = Alignment.Center) {
-            Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(34.dp))
+        Box(Modifier.size(64.dp).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
+            Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconXLarge))
         }
         val title = when {
             waiting != null -> tr("Nothing to review right now")

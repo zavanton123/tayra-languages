@@ -13,20 +13,12 @@ import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowDropDown
-import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -56,11 +48,12 @@ import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollList
-import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SelectButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 
 /** The browser on a phone: the cards as a list, the groups in a scrolling row, sorting from a sheet and the card info in another. */
 @Composable
@@ -93,17 +86,7 @@ internal fun PhoneBrowseFlashcardsScreen(
             }
             item {
                 Row(Modifier.fillMaxWidth().padding(start = 16.dp, end = 8.dp, bottom = 12.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    SecondaryButton(
-                        onClick = { sorting = true },
-                        colors = ButtonDefaults.outlinedButtonColors(contentColor = colors.onSurface),
-                        modifier = Modifier.height(48.dp).testTag("phone-sort"),
-                    ) {
-                        Icon(AppIcons.SwapVert, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(18.dp))
-                        Spacer(Modifier.width(8.dp))
-                        Text(state.sort.field.label, style = MaterialTheme.typography.bodyMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                        Spacer(Modifier.width(4.dp))
-                        Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = colors.onSurfaceVariant)
-                    }
+                    SelectButton(state.sort.field.label, onClick = { sorting = true }, modifier = Modifier.testTag("phone-sort"), icon = AppIcons.SwapVert)
                     Text(
                         if (state.selected.isEmpty()) trPlural(state.rows.size, "{0} card", "{0} cards") else tr("{0} of {1} selected", state.selected.size, state.rows.size),
                         Modifier.weight(1f),
@@ -168,7 +151,7 @@ private fun PhoneCardRow(row: BrowseRow, state: BrowseUiState, showCheck: Boolea
     val dim = if (row.suspended) colors.outline else colors.onSurfaceVariant
     Row(
         Modifier.fillMaxWidth()
-            .background(if (selected) colors.primary.copy(alpha = 0.08f) else colors.surface)
+            .background(if (selected) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
             .clickable { if (showCheck) actions.onToggle(row.termId) else actions.onOpen(row.termId) }
             .padding(start = if (showCheck) 6.dp else 18.dp, end = 6.dp, top = 14.dp, bottom = 14.dp)
             .testTag("browse-row-${row.termId}"),

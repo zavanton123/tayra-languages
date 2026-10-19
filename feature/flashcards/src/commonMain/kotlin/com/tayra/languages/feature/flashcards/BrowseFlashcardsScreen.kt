@@ -1,7 +1,6 @@
 package com.tayra.languages.feature.flashcards
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.hoverable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -17,7 +16,6 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyListState
@@ -59,6 +57,7 @@ import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ButtonTone
+import com.tayra.languages.core.ui.components.ChipSize
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
@@ -73,9 +72,13 @@ import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.SelectableChip
 import com.tayra.languages.core.ui.components.SelectionBar
+import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.TableHeader
 import com.tayra.languages.core.ui.components.TableHeaderCell
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.formatDate
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -84,7 +87,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAccents
-import com.tayra.languages.core.ui.theme.AppBorders
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
@@ -271,17 +274,7 @@ private fun ViewChip(view: BrowseView, count: Int, selected: Boolean, large: Boo
         BrowseView.SUSPENDED -> AppAccents.gray
         BrowseView.ALL -> colors.primary
     }
-    Row(
-        Modifier.height(if (large) 46.dp else 36.dp).clip(AppShapes.pill)
-            .background(if (selected) tint.copy(alpha = 0.14f) else Color.Transparent)
-            .border(AppBorders.hairline(if (selected) tint else colors.outlineVariant), AppShapes.pill)
-            .clickable(onClick = onClick).padding(horizontal = if (large) 18.dp else 14.dp).testTag("browse-view-${view.name}"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-    ) {
-        Text(view.label, style = if (large) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.bodyMedium, fontWeight = if (selected) FontWeight.SemiBold else FontWeight.Medium, color = if (selected) tint else colors.onSurface)
-        Text("$count", style = if (large) MaterialTheme.typography.labelLarge else MaterialTheme.typography.labelMedium, fontWeight = FontWeight.SemiBold, color = if (selected) tint else colors.onSurfaceVariant)
-    }
+    SelectableChip(view.label, selected, onClick, Modifier.testTag("browse-view-${view.name}"), tint = tint, count = count, size = if (large) ChipSize.Large else ChipSize.Small)
 }
 
 /** What can be done with the selected cards together. */
@@ -349,9 +342,9 @@ private fun CardTableRow(row: BrowseRow, state: BrowseUiState, index: Int, actio
     val selected = row.termId in state.selected
     val open = state.detail?.row?.termId == row.termId
     val background = when {
-        open -> colors.primary.copy(alpha = 0.14f)
-        selected || hovered -> colors.primary.copy(alpha = 0.08f)
-        index % 2 == 1 -> colors.surfaceVariant.copy(alpha = 0.25f)
+        open -> colors.primary.copy(alpha = AppAlpha.soft)
+        selected || hovered -> colors.primary.copy(alpha = AppAlpha.tint)
+        index % 2 == 1 -> colors.surfaceVariant.copy(alpha = AppAlpha.line)
         else -> Color.Transparent
     }
     val dim = if (row.suspended) colors.outline else colors.onSurfaceVariant
@@ -401,13 +394,7 @@ internal fun StatePill(row: BrowseRow, large: Boolean = false) {
         row.suspended -> tr("Suspended") to AppAccents.gray
         else -> stateName(row.state) to stateTint(row.state)
     }
-    Text(
-        label,
-        Modifier.clip(AppShapes.compact).background(tint.copy(alpha = 0.1f)).border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.compact)
-            .padding(horizontal = if (large) 12.dp else 10.dp, vertical = 4.dp),
-        style = TextStyle(fontSize = if (large) 14.sp else 12.sp, letterSpacing = 0.6.sp, color = tint, fontWeight = FontWeight.Bold),
-        maxLines = 1,
-    )
+    StatusPill(label, tint, dot = false, size = if (large) TagSize.Medium else TagSize.Small, shape = AppShapes.compact)
 }
 
 internal fun stateTint(state: CardState): Color = when (state) {
@@ -516,7 +503,7 @@ internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActio
             detail.reviews.isEmpty() -> Text(tr("No answers yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             else -> Column(Modifier.fillMaxWidth().testTag("review-history")) {
                 detail.reviews.forEachIndexed { index, review ->
-                    if (index > 0) AppDivider(color = colors.outlineVariant.copy(alpha = 0.6f))
+                    if (index > 0) AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
                     ReviewRow(review, compact)
                 }
             }
@@ -549,7 +536,7 @@ private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String)
         }
         sentence == null -> QuietButton(tr("Add a sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), icon = Icons.Default.Edit)
         else -> Row(
-            Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = 0.05f)).padding(start = 14.dp, end = 4.dp, top = 4.dp, bottom = 4.dp),
+            Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(start = 14.dp, end = 4.dp, top = 4.dp, bottom = 4.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Text(sentence, Modifier.weight(1f).padding(vertical = 8.dp), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction), color = colors.onSurfaceVariant)
@@ -561,7 +548,7 @@ private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String)
 @Composable
 private fun StatTile(label: String, value: String, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
-    Column(modifier.clip(AppShapes.control).background(colors.surfaceVariant.copy(alpha = 0.35f)).padding(horizontal = 12.dp, vertical = 8.dp)) {
+    Column(modifier.clip(AppShapes.control).background(colors.surfaceVariant.copy(alpha = AppAlpha.disabled)).padding(horizontal = 12.dp, vertical = 8.dp)) {
         Text(label, style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
         Text(value, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
@@ -581,13 +568,6 @@ private fun ReviewRow(review: FlashcardReview, compact: Boolean) {
                 color = colors.onSurfaceVariant,
             )
         }
-        val tint = review.rating.tint
-        Text(
-            tr(review.rating.label),
-            Modifier.clip(AppShapes.compact).background(tint.copy(alpha = 0.12f)).padding(horizontal = if (compact) 8.dp else 10.dp, vertical = 4.dp),
-            style = MaterialTheme.typography.labelLarge,
-            fontWeight = FontWeight.SemiBold,
-            color = tint,
-        )
+        Tag(tr(review.rating.label), review.rating.tint, size = if (compact) TagSize.Small else TagSize.Medium, shape = AppShapes.compact)
     }
 }
