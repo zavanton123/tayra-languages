@@ -3,11 +3,11 @@ package com.tayra.languages.feature.settings
 import androidx.compose.foundation.Canvas
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppProgressBar
-import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.CodeTile
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PackageTab
 import com.tayra.languages.core.ui.components.PageColumn
@@ -15,17 +15,15 @@ import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SettingRow
 import com.tayra.languages.core.ui.components.SliderStepper
-import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TabToggle
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.formatSize
-import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -38,7 +36,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.KeyboardArrowDown
@@ -89,8 +86,10 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -307,7 +306,6 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) 
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val failed by viewModel.failed.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
-    val compact = LocalWindowWidth.current.isCompact
     var advanced by remember { mutableStateOf(false) }
     val working = ready && !failed
     val tint = when {
@@ -315,47 +313,25 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) 
         working -> StatusTints.ok
         else -> StatusTints.warning
     }
-    val action: @Composable () -> Unit = {
-        if (engine.hasRuntimeSetup && !ready && !busy) {
-            PrimaryButton(tr("Install"), onClick = viewModel::install)
-        } else {
-            SecondaryButton(tr("Check installation"), onClick = viewModel::check, enabled = !busy)
-        }
-    }
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.08f))
-            .border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.panel).padding(16.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        when {
-            busy -> AppSpinner(size = SpinnerSize.Medium)
-            working -> Icon(Icons.Default.CheckCircle, contentDescription = null, tint = tint, modifier = Modifier.size(32.dp))
-            else -> Icon(Icons.Default.Warning, contentDescription = null, tint = tint, modifier = Modifier.size(32.dp))
-        }
-        Spacer(Modifier.width(14.dp))
-        Column(Modifier.weight(1f)) {
-            Text(
-                when {
-                    busy -> tr("Checking…")
-                    working -> tr("Installed and working")
-                    ready -> tr("Something went wrong")
-                    else -> tr("Not installed")
-                },
-                style = MaterialTheme.typography.titleSmall,
-                fontWeight = FontWeight.Bold,
-                color = if (working && !busy) tint else MaterialTheme.colorScheme.onSurface,
-            )
-            status?.let { Text(tr(it), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-        }
-        if (!compact) {
-            Spacer(Modifier.width(12.dp))
-            action()
-        }
-    }
-    if (compact) {
-        Spacer(Modifier.height(8.dp))
-        action()
-    }
+    Notice(
+        title = when {
+            busy -> tr("Checking…")
+            working -> tr("Installed and working")
+            ready -> tr("Something went wrong")
+            else -> tr("Not installed")
+        },
+        message = status?.let { tr(it) },
+        tint = tint,
+        icon = if (working) Icons.Default.CheckCircle else Icons.Default.Warning,
+        busy = busy,
+        action = {
+            if (engine.hasRuntimeSetup && !ready && !busy) {
+                PrimaryButton(tr("Install"), onClick = viewModel::install)
+            } else {
+                SecondaryButton(tr("Check installation"), onClick = viewModel::check, enabled = !busy)
+            }
+        },
+    )
     progress?.let {
         Spacer(Modifier.height(10.dp))
         Text(tr(it), style = MaterialTheme.typography.bodySmall)
@@ -368,7 +344,7 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) 
                 Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = 16.dp, vertical = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                Icon(if (advanced) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, modifier = Modifier.size(20.dp))
+                Icon(if (advanced) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
                 Spacer(Modifier.width(10.dp))
                 Text(tr("Advanced engine settings"), style = MaterialTheme.typography.bodyLarge)
             }
@@ -472,20 +448,15 @@ private fun TryIt(viewModel: SpeechViewModel, language: LanguageOption?) {
     val active = playing != null && playing == text
     Row(verticalAlignment = Alignment.CenterVertically) {
         PrimaryButton(
+            when {
+                active && working -> tr("Preparing…")
+                active -> tr("Stop")
+                else -> tr("Play sample")
+            },
             onClick = { speaker.toggle(text, language?.code ?: "en") },
+            icon = if (active && !working) AppIcons.Stop else AppIcons.VolumeUp,
             enabled = text.isNotBlank(),
-        ) {
-            Icon(if (active && !working) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = null, modifier = Modifier.size(22.dp))
-            Spacer(Modifier.width(10.dp))
-            Text(
-                when {
-                    active && working -> tr("Preparing…")
-                    active -> tr("Stop")
-                    else -> tr("Play sample")
-                },
-                fontWeight = FontWeight.SemiBold,
-            )
-        }
+        )
         Spacer(Modifier.width(24.dp))
         Waveform(active = active && !working, modifier = Modifier.weight(1f).height(44.dp))
     }
@@ -494,7 +465,7 @@ private fun TryIt(viewModel: SpeechViewModel, language: LanguageOption?) {
 /** A row of bars like a recording's waveform, in the accent colour while the sample plays. */
 @Composable
 private fun Waveform(active: Boolean, modifier: Modifier = Modifier) {
-    val color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.primary.copy(alpha = 0.35f)
+    val color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.disabled)
     Canvas(modifier) {
         val bar = 3.dp.toPx()
         val gap = 4.dp.toPx()
@@ -684,7 +655,7 @@ internal fun PackageAction(pkg: SpeechPackage, busy: Boolean, onInstall: () -> U
         when {
             busy -> Text(if (pkg.installed) tr("Removing…") else tr("Downloading…"), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = 12.dp))
             pkg.installed -> {
-                Box(Modifier.size(8.dp).clip(CircleShape).background(StatusTints.ok))
+                StatusDot(StatusTints.ok, size = AppSizes.dot)
                 Spacer(Modifier.width(8.dp))
                 Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(4.dp))

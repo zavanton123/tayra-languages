@@ -93,7 +93,7 @@ internal fun ImportLanguagesDialog(ready: DictionaryImport.Ready, defaultSource:
             }
         },
         confirmButton = {
-            PrimaryButton(onClick = { onImport(source!!.code, target!!.code) }, enabled = source != null && target != null, modifier = Modifier.testTag("import-confirm")) { Text(tr("Import")) }
+            PrimaryButton(tr("Import"), onClick = { onImport(source!!.code, target!!.code) }, modifier = Modifier.testTag("import-confirm"), enabled = source != null && target != null)
         },
         dismissButton = { QuietButton(tr("Cancel"), onClick = onDismiss) },
     )

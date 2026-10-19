@@ -150,14 +150,17 @@ private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel)
     }
 }
 
-/** Steps typed as text; saved once they read as steps, with what is wrong shown until then. */
+/**
+ * Steps typed as text; saved once they read as steps, with what is wrong shown until then. [dense]
+ * is the phone's row, without a description or divider and with a narrower field.
+ */
 @Composable
-private fun StepsRow(title: String, description: String, saved: String, onSave: (String) -> Unit) {
+internal fun StepsRow(title: String, description: String?, saved: String, dense: Boolean = false, onSave: (String) -> Unit) {
     var text by remember { mutableStateOf(saved) }
     // Typing is left alone; a value saved from elsewhere, such as a reset, replaces what is typed.
     LaunchedEffect(saved) { if (LearningSteps.parse(text)?.let(LearningSteps::format) != saved) text = saved }
     val valid = LearningSteps.parse(text) != null
-    SettingRow(title, description, divider = true, stackOnCompact = true) {
+    SettingRow(title, description, divider = !dense, stackOnCompact = !dense, dense = dense) {
         AppTextField(
             value = text,
             onValueChange = {
@@ -167,7 +170,7 @@ private fun StepsRow(title: String, description: String, saved: String, onSave: 
             singleLine = true,
             isError = !valid,
             supportingText = if (valid) null else ({ Text(tr("Use steps such as 1m 10m")) }),
-            modifier = Modifier.width(220.dp).semantics { contentDescription = title },
+            modifier = Modifier.width(if (dense) 170.dp else 220.dp).semantics { contentDescription = title },
         )
     }
 }

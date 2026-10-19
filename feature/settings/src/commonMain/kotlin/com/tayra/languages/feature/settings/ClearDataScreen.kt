@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -39,11 +38,14 @@ import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ButtonTone
+import com.tayra.languages.core.ui.components.CardHeader
+import com.tayra.languages.core.ui.components.CardHeaderSize
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScreenHeader
@@ -53,7 +55,6 @@ import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
-import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -63,13 +64,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
-import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
 
 data class ClearDataUiState(
     /** Whether the clearing was started; it cannot be started twice. */
@@ -122,7 +117,6 @@ internal enum class ClearGroup(val steps: List<ClearStep>) {
 
 @Composable
 internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBackups: () -> Unit, onDone: () -> Unit, onBack: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
     val wide = LocalWindowWidth.current.isExpanded
     var confirming by remember { mutableStateOf(false) }
 
@@ -143,19 +137,12 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
         }
     }
 
-    val tint = clearStatusTint(state)
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.large).background(tint.copy(alpha = 0.07f)).border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.large).padding(20.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-    ) {
-        IconTile(if (state.done && state.problems.isEmpty()) Icons.Default.CheckCircle else Icons.Default.Warning, size = 48, tint = tint)
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text(clearStatusTitle(state), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = tint)
-            Text(clearStatusText(state), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        }
-        if (wide) ActionButtons(state, onCancel = onBack, onClear = { confirming = true }, onDone = onDone)
-    }
+    ClearStatusNotice(
+        state,
+        action = if (wide) ({
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) { ActionButtons(state, onCancel = onBack, onClear = { confirming = true }, onDone = onDone) }
+        }) else null,
+    )
     if (!wide) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.End)) {
             ActionButtons(state, onCancel = onBack, onClear = { confirming = true }, onDone = onDone)
@@ -177,10 +164,18 @@ internal fun ClearConfirmDialog(onConfirm: () -> Unit, onDismiss: () -> Unit) {
     )
 }
 
-/** The tint of the permanent-action bar: a warning before, what happened after. */
+/** The permanent-action notice: a warning before, what happened after. */
 @Composable
-internal fun clearStatusTint(state: ClearDataUiState): Color =
-    if (state.done && state.problems.isEmpty()) StatusTints.ok else MaterialTheme.colorScheme.error
+internal fun ClearStatusNotice(state: ClearDataUiState, action: (@Composable () -> Unit)?) {
+    val cleared = state.done && state.problems.isEmpty()
+    Notice(
+        clearStatusTitle(state),
+        message = clearStatusText(state),
+        tint = if (cleared) StatusTints.ok else MaterialTheme.colorScheme.error,
+        icon = if (cleared) Icons.Default.CheckCircle else Icons.Default.Warning,
+        action = action,
+    )
+}
 
 @Composable
 internal fun clearStatusTitle(state: ClearDataUiState): String = when {
@@ -220,7 +215,7 @@ private fun ActionButtons(state: ClearDataUiState, onCancel: () -> Unit, onClear
 private fun RemovedColumn(state: ClearDataUiState, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     Column(modifier, verticalArrangement = Arrangement.spacedBy(20.dp)) {
-        ColumnHeader(AppIcons.RemoveCircle, colors.error, tr("Will be removed"), tr("Everything you added, learned or downloaded."))
+        CardHeader(tr("Will be removed"), tr("Everything you added, learned or downloaded."), icon = AppIcons.RemoveCircle, tint = colors.error, size = CardHeaderSize.Large)
         ClearGroup.entries.forEach { group -> GroupRow(group, state) }
     }
 }
@@ -275,49 +270,36 @@ internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
 
 @Composable
 private fun RemainsColumn(onBackups: () -> Unit, enabled: Boolean, modifier: Modifier) {
-    val colors = MaterialTheme.colorScheme
     Column(modifier, verticalArrangement = Arrangement.spacedBy(20.dp)) {
-        ColumnHeader(AppIcons.VerifiedUser, colors.primary, tr("Will remain"), tr("Your app setup is not affected."))
-        remainingItems().forEach { (icon, title, detail) ->
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                IconTile(icon, tint = colors.primary)
-                Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                    Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-                    Text(detail, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                }
-            }
-        }
+        CardHeader(tr("Will remain"), tr("Your app setup is not affected."), icon = AppIcons.VerifiedUser, size = CardHeaderSize.Large)
+        RemainingItems()
         Spacer(Modifier.weight(1f, fill = false))
-        Row(
-            Modifier.fillMaxWidth().clip(AppShapes.panel).background(colors.primary.copy(alpha = 0.07f)).border(AppBorders.hairline(colors.primary.copy(alpha = 0.18f)), AppShapes.panel).padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(14.dp),
-        ) {
-            Icon(Icons.Default.Info, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                Text(tr("Back up before clearing"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, color = colors.primary)
-                Text(tr("Create a recovery file in case you change your mind."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            }
+        BackupNotice {
             SecondaryButton(onClick = onBackups, enabled = enabled, modifier = Modifier.testTag("clear-backup")) { Text(tr("Create backup")) }
         }
     }
 }
 
-/** What clearing leaves alone: icon, title, detail. */
+/** What clearing leaves alone, a row each. */
 @Composable
-internal fun remainingItems(): List<Triple<ImageVector, String, String>> = listOf(
-    Triple(Icons.Default.Settings, tr("Settings"), tr("Themes, fonts, languages and preferences")),
-    Triple(AppIcons.FileOutline, tr("Backup files"), tr("Restore one later to recover your learning data")),
-    Triple(AppIcons.Translate, tr("Installed engines"), tr("Speech and translation engines remain installed")),
-)
-
-@Composable
-private fun ColumnHeader(icon: ImageVector, tint: Color, title: String, subtitle: String) {
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-        IconTile(icon, size = 56, tint = tint)
-        Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
-            Text(title, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-            Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+internal fun RemainingItems() {
+    listOf(
+        Triple(Icons.Default.Settings, tr("Settings"), tr("Themes, fonts, languages and preferences")),
+        Triple(AppIcons.FileOutline, tr("Backup files"), tr("Restore one later to recover your learning data")),
+        Triple(AppIcons.Translate, tr("Installed engines"), tr("Speech and translation engines remain installed")),
+    ).forEach { (icon, title, detail) ->
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+            IconTile(icon)
+            Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                Text(detail, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
         }
     }
+}
+
+/** The reminder to back up first, with [action] going to the backups. */
+@Composable
+internal fun BackupNotice(action: @Composable () -> Unit) {
+    Notice(tr("Back up before clearing"), message = tr("Create a recovery file in case you change your mind."), action = action)
 }

@@ -9,6 +9,7 @@ import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppProgressBar
+import com.tayra.languages.core.ui.components.CardHeader
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.PageColumn
@@ -16,6 +17,7 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
@@ -35,7 +37,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
@@ -59,6 +60,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -77,6 +79,7 @@ import com.tayra.languages.core.ui.files.saveBinaryFile
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import io.github.vinceglb.filekit.dialogs.FileKitType
 import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
 import io.github.vinceglb.filekit.readBytes
@@ -320,7 +323,7 @@ private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note:
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.fillMaxWidth().clip(AppShapes.card).background(if (highlighted) colors.primaryContainer else colors.surface)
-            .border(AppBorders.hairline(if (highlighted) colors.primary else colors.outlineVariant), AppShapes.card).padding(24.dp),
+            .border(if (highlighted) AppBorders.selected() else AppBorders.hairline(), AppShapes.card).padding(24.dp),
     ) {
         IconTile(icon, size = 64)
         Spacer(Modifier.width(20.dp))
@@ -437,7 +440,7 @@ private fun BackupRowContent(
                 Text(formatSize(backup.sizeBytes), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             if (!stacked) {
-                Box(Modifier.size(8.dp).clip(CircleShape).background(StatusTints.ok))
+                StatusDot(StatusTints.ok, size = AppSizes.dot)
                 Spacer(Modifier.width(8.dp))
                 Text(tr("Ready"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(24.dp))
@@ -457,31 +460,33 @@ private fun IncludedCard(modifier: Modifier = Modifier) {
     Column(
         modifier.fillMaxWidth().cardSurface().padding(20.dp),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            IconTile(AppIcons.VerifiedUser, size = 56)
-            Spacer(Modifier.width(16.dp))
-            Text(tr("What's included"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-        }
+        CardHeader(tr("What's included"), icon = AppIcons.VerifiedUser)
         Spacer(Modifier.height(14.dp))
-        listOf(tr("Languages and books"), tr("Vocabulary"), tr("Reading history"), tr("Settings")).forEach { IncludedLine(it, Icons.Default.CheckCircle, StatusTints.ok) }
-        AppDivider(Modifier.padding(vertical = 14.dp))
-        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
-            Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(22.dp))
-            Spacer(Modifier.width(14.dp))
-            Text(tr("Not included"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
-        }
-        listOf(tr("Audio files"), tr("Downloaded dictionaries"), tr("Voices and translation models"), tr("API keys"))
-            .forEach { IncludedLine(it, AppIcons.RemoveCircle, MaterialTheme.colorScheme.outline) }
+        IncludedLines(gap = 14.dp)
         if (LocalWindowWidth.current.isExpanded) Spacer(Modifier.weight(1f))
         Spacer(Modifier.height(14.dp))
         InfoBanner(tr("These items can be downloaded or configured again after restoring."))
     }
 }
 
+/** What a backup holds and, under a divider [gap] away, what it leaves out. */
 @Composable
-internal fun IncludedLine(text: String, icon: ImageVector, tint: Color) {
+internal fun IncludedLines(gap: Dp) {
+    listOf(tr("Languages and books"), tr("Vocabulary"), tr("Reading history"), tr("Settings")).forEach { IncludedLine(it, Icons.Default.CheckCircle, StatusTints.ok) }
+    AppDivider(Modifier.padding(vertical = gap))
+    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
+        Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
+        Spacer(Modifier.width(14.dp))
+        Text(tr("Not included"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
+    }
+    listOf(tr("Audio files"), tr("Downloaded dictionaries"), tr("Voices and translation models"), tr("API keys"))
+        .forEach { IncludedLine(it, AppIcons.RemoveCircle, MaterialTheme.colorScheme.outline) }
+}
+
+@Composable
+private fun IncludedLine(text: String, icon: ImageVector, tint: Color) {
     Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 5.dp)) {
-        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(22.dp))
+        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconMedium))
         Spacer(Modifier.width(14.dp))
         Text(text, style = MaterialTheme.typography.bodyLarge)
     }

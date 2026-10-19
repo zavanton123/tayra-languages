@@ -1,8 +1,6 @@
 package com.tayra.languages.feature.settings
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -12,14 +10,11 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.KeyboardArrowDown
-import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -33,7 +28,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -47,21 +41,22 @@ import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppProgressBar
-import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LanguageFlag
 import com.tayra.languages.core.ui.components.LanguagePickerSheet
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.PackageTab
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
-import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.SelectButton
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TabToggle
 import com.tayra.languages.core.ui.components.Tag
@@ -71,6 +66,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 
 /**
  * The Translation page on a phone: the language pair as two chips, the engine picked from a sheet
@@ -109,9 +105,20 @@ internal fun PhoneTranslationScreen(
             }
             ContentCard(tr("Language pair"), subtitle = null, icon = AppIcons.SwapHoriz, dense = true) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    LanguageChip(learningEnglish, learningName ?: tr("Your language"), Modifier.weight(1f), enabled = false)
-                    Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("translated into"), tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
-                    LanguageChip(LanguageCatalog.nativeOption(settings.nativeLanguage).name, nativeName, Modifier.weight(1f).testTag("phone-native")) { nativeSheet = true }
+                    SelectButton(
+                        learningName ?: tr("Your language"),
+                        onClick = {},
+                        modifier = Modifier.weight(1f),
+                        leading = if (learningEnglish != null) { { LanguageFlag(learningEnglish, 24.dp) } } else null,
+                        enabled = false,
+                    )
+                    Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("translated into"), tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
+                    SelectButton(
+                        nativeName,
+                        onClick = { nativeSheet = true },
+                        modifier = Modifier.weight(1f).testTag("phone-native"),
+                        leading = { LanguageFlag(LanguageCatalog.nativeOption(settings.nativeLanguage).name, 24.dp) },
+                    )
                 }
                 Spacer(Modifier.height(12.dp))
                 Text(
@@ -122,14 +129,7 @@ internal fun PhoneTranslationScreen(
             }
             ContentCard(tr("Translation engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
                 val engine = settings.translationEngine
-                Row(
-                    Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(colors.outline.copy(alpha = 0.5f)), AppShapes.control)
-                        .clickable { engineSheet = true }.padding(horizontal = 14.dp, vertical = 14.dp).testTag("phone-engine"),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Text(engine.shortName(viewModel.localName), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
-                    Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant)
-                }
+                SelectButton(engine.shortName(viewModel.localName), onClick = { engineSheet = true }, modifier = Modifier.fillMaxWidth().testTag("phone-engine"))
                 Spacer(Modifier.height(10.dp))
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     if (local) Tag(tr("Offline"), StatusTints.ok) else Tag(tr("Online"), colors.primary)
@@ -174,73 +174,36 @@ internal fun PhoneTranslationScreen(
     if (browse) PackagesSheet(viewModel, packages, wanted, onDismiss = { browse = false })
 }
 
-/** A language with its flag in a bordered box; one that [enabled] opens a choice shows a chevron, one that cannot be changed is tinted. */
-@Composable
-private fun LanguageChip(flagName: String?, label: String, modifier: Modifier = Modifier, enabled: Boolean = true, onClick: () -> Unit = {}) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        modifier.clip(AppShapes.control)
-            .background(if (enabled) colors.surface else colors.surfaceContainerLow)
-            .border(AppBorders.hairline(if (enabled) colors.outline.copy(alpha = 0.5f) else colors.outlineVariant), AppShapes.control)
-            .clickable(enabled = enabled, onClick = onClick)
-            .padding(horizontal = 12.dp, vertical = 12.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        if (flagName != null) {
-            LanguageFlag(flagName, 24.dp)
-            Spacer(Modifier.width(10.dp))
-        }
-        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        if (enabled) Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-    }
-}
-
-/** Whether the on-device translator works, with the button to check or install it beside; the runtime path field is left to the desktop. */
+/** Whether the on-device translator works, with the button to check or install it; the runtime path field is left to the desktop. */
 @Composable
 private fun PhoneEngineStatus(settings: UserSettings, viewModel: OfflineTranslationViewModel) {
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
-    val colors = MaterialTheme.colorScheme
     val tint = when {
-        busy -> colors.outline
+        busy -> MaterialTheme.colorScheme.outline
         ready -> StatusTints.ok
         else -> StatusTints.warning
     }
-    Column(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.08f)).border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.panel).padding(14.dp),
-        verticalArrangement = Arrangement.spacedBy(10.dp),
-    ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            when {
-                busy -> AppSpinner(size = SpinnerSize.Medium)
-                ready -> Icon(Icons.Default.CheckCircle, contentDescription = null, tint = tint, modifier = Modifier.size(30.dp))
-                else -> Icon(Icons.Default.Warning, contentDescription = null, tint = tint, modifier = Modifier.size(30.dp))
-            }
-            Spacer(Modifier.width(12.dp))
-            Column(Modifier.weight(1f)) {
-                Text(
-                    when {
-                        busy -> tr("Checking…")
-                        ready -> tr("Installed and working")
-                        else -> tr("Not installed")
-                    },
-                    style = MaterialTheme.typography.titleSmall,
-                    fontWeight = FontWeight.Bold,
-                )
-                val detail = status?.let { tr(it) } ?: if (!ready && viewModel.hasRuntimeSetup) tr("Install downloads a private Python into the app folder with argostranslate in it.") else null
-                detail?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis) }
-            }
-            Spacer(Modifier.width(10.dp))
+    Notice(
+        title = when {
+            busy -> tr("Checking…")
+            ready -> tr("Installed and working")
+            else -> tr("Not installed")
+        },
+        message = status?.let { tr(it) } ?: if (!ready && viewModel.hasRuntimeSetup) tr("Install downloads a private Python into the app folder with argostranslate in it.") else null,
+        tint = tint,
+        icon = if (ready) Icons.Default.CheckCircle else Icons.Default.Warning,
+        busy = busy,
+        action = {
             if (viewModel.hasRuntimeSetup && !ready && !busy) {
                 PrimaryButton(tr("Install"), onClick = viewModel::install)
             } else {
-                SecondaryButton(onClick = viewModel::check, enabled = !busy) {
-                    Text(if (viewModel.hasRuntimeSetup) tr("Check installation") else tr("Check models"), maxLines = 1)
-                }
+                SecondaryButton(if (viewModel.hasRuntimeSetup) tr("Check installation") else tr("Check models"), onClick = viewModel::check, enabled = !busy)
             }
-        }
+        },
+    ) {
         progress?.let {
             Text(tr(it), style = MaterialTheme.typography.bodySmall)
             AppProgressBar(null)
@@ -258,12 +221,12 @@ private fun PhonePackagesCard(viewModel: OfflineTranslationViewModel, packages: 
     ContentCard(if (runtime) tr("Required packages") else tr("Required models"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { Tag(tr("{0} installed", installed.size), colors.primary) }) {
         if (pair.learning != null && !pair.sameLanguage) {
             if (pair.ready) {
-                NoticeBox(Icons.Default.CheckCircle, StatusTints.ok, tr("{0} is ready", pair.label))
+                InfoBanner(tr("{0} is ready", pair.label), Modifier.padding(bottom = 8.dp), tint = StatusTints.ok, icon = Icons.Default.CheckCircle, dense = true)
                 val needed = packages.filter { it.key in wanted }
                 needed.forEach { PackageLine(it) }
             } else {
                 // Two packages mean the pair goes through English.
-                if (pair.missing.size > 1) NoticeBox(Icons.Default.Warning, StatusTints.warning, tr("{0} translates through English.", pair.label))
+                if (pair.missing.size > 1) InfoBanner(tr("{0} translates through English.", pair.label), Modifier.padding(bottom = 8.dp), tint = StatusTints.warning, icon = Icons.Default.Warning, dense = true)
                 pair.missing.forEach { PackageLine(it) }
                 val installing = pair.missing.any { it.key in packageBusy }
                 val size = pair.missing.sumOf { it.sizeBytes }
@@ -293,19 +256,6 @@ private fun PhonePackagesCard(viewModel: OfflineTranslationViewModel, packages: 
             }
         }
     }
-}
-
-@Composable
-private fun NoticeBox(icon: ImageVector, tint: androidx.compose.ui.graphics.Color, text: String) {
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).background(tint.copy(alpha = 0.10f)).padding(horizontal = 12.dp, vertical = 10.dp).padding(bottom = 0.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(22.dp))
-        Spacer(Modifier.width(10.dp))
-        Text(text, style = MaterialTheme.typography.bodyMedium)
-    }
-    Spacer(Modifier.height(8.dp))
 }
 
 /** One package the pair needs: its name and size, or that it is installed. */

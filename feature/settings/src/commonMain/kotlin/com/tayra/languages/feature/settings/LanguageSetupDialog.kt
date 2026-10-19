@@ -14,12 +14,10 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.TriStateCheckbox
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -53,20 +51,25 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppSpinner
+import com.tayra.languages.core.ui.components.AppTriStateCheckbox
 import com.tayra.languages.core.ui.components.ButtonSize
+import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -186,7 +189,8 @@ internal fun PhoneSetupSheet(
                     Icons.Default.Close,
                     contentDescription = tr("Close"),
                     onClick = onClosed,
-                    modifier = Modifier.testTag("setup-close").clip(CircleShape).background(colors.surfaceContainerHigh),
+                    modifier = Modifier.testTag("setup-close"),
+                    style = IconButtonStyle.Tonal,
                     tint = colors.onSurface,
                 )
             }
@@ -244,9 +248,13 @@ internal fun PhoneSetupSheet(
                         )
                         QuietButton(onClick = onClosed, size = ButtonSize.Compact) { Text(tr("Set up later"), style = MaterialTheme.typography.titleMedium) }
                     }
-                    PrimaryButton(onClick = onStart, enabled = chosen.isNotEmpty(), modifier = Modifier.weight(1f).height(52.dp).testTag("setup-download")) {
-                        Text(tr("Download selected"), style = MaterialTheme.typography.titleMedium)
-                    }
+                    PrimaryButton(
+                        tr("Download selected"),
+                        onClick = onStart,
+                        modifier = Modifier.weight(1f).testTag("setup-download"),
+                        enabled = chosen.isNotEmpty(),
+                        size = ButtonSize.Large,
+                    )
                 }
                 else -> {
                     Text(
@@ -303,7 +311,8 @@ fun LanguageSetupContent(
                 Icons.Default.Close,
                 contentDescription = tr("Close"),
                 onClick = onClosed,
-                modifier = Modifier.testTag("setup-close").clip(CircleShape).background(colors.surfaceVariant.copy(alpha = 0.6f)),
+                modifier = Modifier.testTag("setup-close"),
+                style = IconButtonStyle.Tonal,
                 tint = colors.onSurface,
             )
         }
@@ -396,9 +405,9 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
     val missing = item.status == SetupStatus.MISSING
     Row(
         Modifier.fillMaxWidth()
-            .alpha(if (item.status == SetupStatus.UNAVAILABLE) 0.6f else 1f)
+            .alpha(if (item.status == SetupStatus.UNAVAILABLE) AppAlpha.muted else 1f)
             .clip(shape)
-            .background(colors.surfaceVariant.copy(alpha = 0.25f))
+            .background(colors.surfaceVariant.copy(alpha = AppAlpha.line))
             .border(AppBorders.hairline(), shape)
             .clickable(enabled = !started && missing, onClick = onToggle)
             .padding(horizontal = if (compact) 8.dp else 16.dp, vertical = if (compact) 12.dp else 16.dp)
@@ -449,7 +458,7 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
             )
             // A course pack is named after its language, as the title is; a voice that brings its engine lists both files.
             if (item.kind != SetupKind.COURSES && item.name.isNotBlank() && (item.kind != SetupKind.VOICE || item.files.size <= 1)) {
-                Text(localizedNames(item.name), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant.copy(alpha = 0.8f))
+                Text(localizedNames(item.name), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant.copy(alpha = AppAlpha.strong))
             }
             if (item.files.size > 1 && !compact) {
                 Column(Modifier.padding(top = 4.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -474,13 +483,13 @@ private fun StatusMark(item: SetupItem, checked: Boolean, started: Boolean, prog
     val colors = MaterialTheme.colorScheme
     Box(Modifier.size(40.dp), contentAlignment = Alignment.Center) {
         when {
-            item.status == SetupStatus.INSTALLED -> Icon(Icons.Default.CheckCircle, contentDescription = tr("On this device"), tint = StatusTints.ok, modifier = Modifier.size(26.dp))
-            item.status == SetupStatus.UNAVAILABLE -> Icon(AppIcons.RemoveCircle, contentDescription = tr("Not available"), tint = colors.onSurfaceVariant, modifier = Modifier.size(26.dp))
+            item.status == SetupStatus.INSTALLED -> Icon(Icons.Default.CheckCircle, contentDescription = tr("On this device"), tint = StatusTints.ok, modifier = Modifier.size(AppSizes.iconLarge))
+            item.status == SetupStatus.UNAVAILABLE -> Icon(AppIcons.RemoveCircle, contentDescription = tr("Not available"), tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconLarge))
             !started || !checked -> AppCheckbox(checked = checked, onCheckedChange = { onToggle() }, enabled = !started)
-            progress is SetupState.Done -> Icon(Icons.Default.CheckCircle, contentDescription = tr("Downloaded"), tint = StatusTints.ok, modifier = Modifier.size(26.dp))
-            progress is SetupState.Failed -> Icon(Icons.Default.Warning, contentDescription = null, tint = colors.error, modifier = Modifier.size(26.dp))
+            progress is SetupState.Done -> Icon(Icons.Default.CheckCircle, contentDescription = tr("Downloaded"), tint = StatusTints.ok, modifier = Modifier.size(AppSizes.iconLarge))
+            progress is SetupState.Failed -> Icon(Icons.Default.Warning, contentDescription = null, tint = colors.error, modifier = Modifier.size(AppSizes.iconLarge))
             progress is SetupState.Running -> AppSpinner(size = SpinnerSize.Medium)
-            else -> Box(Modifier.size(22.dp).border(2.dp, colors.outlineVariant, CircleShape))
+            else -> Box(Modifier.size(22.dp).border(AppBorders.selected(colors.outlineVariant), AppShapes.circle))
         }
     }
 }
@@ -498,7 +507,7 @@ private fun VoicesCard(voices: List<SetupItem>, selected: Set<String>, started: 
     Column(
         Modifier.fillMaxWidth()
             .clip(shape)
-            .background(colors.surfaceVariant.copy(alpha = 0.25f))
+            .background(colors.surfaceVariant.copy(alpha = AppAlpha.line))
             .border(AppBorders.hairline(), shape)
             .padding(horizontal = if (compact) 8.dp else 16.dp, vertical = if (compact) 12.dp else 16.dp)
             .testTag("setup-VOICE-$engine"),
@@ -510,7 +519,7 @@ private fun VoicesCard(voices: List<SetupItem>, selected: Set<String>, started: 
                 if (missing.isNotEmpty() && !started) {
                     val chosen = missing.count { it.id in selected }
                     val all = chosen == missing.size
-                    TriStateCheckbox(
+                    AppTriStateCheckbox(
                         state = when (chosen) {
                             0 -> ToggleableState.Off
                             missing.size -> ToggleableState.On
@@ -623,7 +632,7 @@ private fun FileLine(file: SetupFile) {
     }
     val size = file.sizeBytes?.let { sizeText(it, file.estimated) } ?: tr("size unknown")
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        Box(Modifier.size(4.dp).clip(CircleShape).background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.6f)))
+        StatusDot(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = AppAlpha.muted), size = 4.dp)
         Text("$name · $size", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }

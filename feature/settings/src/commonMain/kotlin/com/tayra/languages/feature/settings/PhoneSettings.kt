@@ -1,27 +1,21 @@
 package com.tayra.languages.feature.settings
 
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
@@ -33,10 +27,12 @@ import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.NavigationRow
 import com.tayra.languages.core.ui.components.NumberStepper
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.QuietButton
-import com.tayra.languages.core.ui.components.RoundSlider
+import com.tayra.languages.core.ui.components.SliderSetting
+import com.tayra.languages.core.ui.components.SwitchSetting
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppThemes
@@ -63,34 +59,32 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
             Text(tr("Personalize your reading experience."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             ContentCard(tr("Appearance"), subtitle = null, icon = AppIcons.Palette, dense = true) {
-                PickerRow(tr("Theme"), AppThemes.byId(settings.themeId).label, tag = "phone-theme") { themeSheet = true }
+                NavigationRow(tr("Theme"), onClick = { themeSheet = true }, modifier = Modifier.testTag("phone-theme"), value = AppThemes.byId(settings.themeId).label)
                 AppDivider()
-                SwitchRow(tr("Highlight terms by status"), settings.showHighlights) { v -> viewModel.update { it.copy(showHighlights = v) } }
+                SwitchSetting(tr("Highlight terms by status"), description = null, checked = settings.showHighlights, dense = true) { v -> viewModel.update { it.copy(showHighlights = v) } }
             }
             ContentCard(tr("Reading"), subtitle = null, iconText = "Aa", dense = true) {
-                PickerRow(tr("Reading font"), ReadingFont.byId(settings.readingFont).label, tag = "phone-font") { fontSheet = true }
+                NavigationRow(tr("Reading font"), onClick = { fontSheet = true }, modifier = Modifier.testTag("phone-font"), value = ReadingFont.byId(settings.readingFont).label)
                 AppDivider()
-                SliderRow(
+                PhoneSlider(
                     tr("Font size"),
                     "${kotlin.math.round(settings.readingFontScale * 100).toInt()}%",
                     settings.readingFontScale,
                     0.6f..2.5f,
-                    step = 0.1f,
                     name = tr("reading font size"),
                 ) { v -> viewModel.update { it.copy(readingFontScale = v) } }
                 AppDivider()
-                SliderRow(
+                PhoneSlider(
                     tr("Line height"),
                     (kotlin.math.round(settings.readingLineHeight * 10) / 10f).toString(),
                     settings.readingLineHeight,
                     1.0f..3.0f,
-                    step = 0.1f,
                     name = tr("reading line height"),
                 ) { v -> viewModel.update { it.copy(readingLineHeight = v) } }
             }
             ContentCard(tr("Reading preview"), subtitle = null, icon = AppIcons.MenuBook, dense = true) { PreviewBox(settings, padding = 16.dp) }
             ContentCard(tr("Behaviour"), subtitle = null, icon = Icons.Default.Settings, dense = true) {
-                SwitchRow(tr("Show reading streak on home page"), settings.showStreakOnHome) { v -> viewModel.update { it.copy(showStreakOnHome = v) } }
+                SwitchSetting(tr("Show reading streak on home page"), description = null, checked = settings.showStreakOnHome, dense = true) { v -> viewModel.update { it.copy(showStreakOnHome = v) } }
                 AppDivider()
                 Column(Modifier.padding(vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text(tr("Book stats page sample size"), style = MaterialTheme.typography.bodyLarge)
@@ -119,46 +113,13 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
     }
 }
 
-/** A row that opens a picker: the label, the current value and a chevron. */
+/** A reading slider in tenths, named [name] for screen readers and tagged by it. */
 @Composable
-private fun PickerRow(label: String, value: String, tag: String, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        Modifier.fillMaxWidth().clickable(onClick = onClick).padding(vertical = 14.dp).testTag(tag),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-    ) {
-        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-        Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-        Icon(Icons.Default.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
-    }
-}
-
-@Composable
-private fun SwitchRow(label: String, checked: Boolean, onChange: (Boolean) -> Unit) {
-    Row(Modifier.fillMaxWidth().padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-        Switch(checked = checked, onCheckedChange = onChange)
-    }
-}
-
-/** The label with the value at the end, and the slider under them, moving in [step]s. */
-@Composable
-private fun SliderRow(label: String, value: String, current: Float, range: ClosedFloatingPointRange<Float>, step: Float, name: String, onChange: (Float) -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    // Dividing by the number of steps per unit, not multiplying by the step, lands on the nearest float of a value such as 1.3.
-    val perUnit = kotlin.math.round(1 / step)
-    fun snap(v: Float) = (kotlin.math.round(v * perUnit) / perUnit).coerceIn(range.start, range.endInclusive)
-    Column(Modifier.padding(top = 12.dp, bottom = 4.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-            Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-        }
-        RoundSlider(
-            value = current,
-            onValueChange = { v -> snap(v).let { if (it != current) onChange(it) } },
-            valueRange = range,
-            modifier = Modifier.fillMaxWidth().semantics { contentDescription = name }.testTag("phone-slider-$name"),
-        )
-    }
+private fun PhoneSlider(title: String, valueLabel: String, value: Float, range: ClosedFloatingPointRange<Float>, name: String, onChange: (Float) -> Unit) {
+    SliderSetting(
+        title, valueLabel, value, range, onChange,
+        modifier = Modifier.padding(top = 12.dp, bottom = 4.dp),
+        step = 0.1f,
+        sliderModifier = Modifier.semantics { contentDescription = name }.testTag("phone-slider-$name"),
+    )
 }

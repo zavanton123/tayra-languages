@@ -2,17 +2,17 @@ package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.components.AppProgressBar
-import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.CodeTile
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PackageTab
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SearchField
-import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TabToggle
@@ -21,7 +21,6 @@ import com.tayra.languages.core.ui.components.formatSize
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -34,7 +33,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
@@ -89,6 +87,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -97,8 +96,6 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.koin.compose.viewmodel.koinViewModel
-
 import org.koin.compose.viewmodel.koinViewModel
 
 /** Argos Translate on this computer: its runtime, the Python it runs on, and its language packages. */
@@ -347,7 +344,7 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
                     Icons.AutoMirrored.Filled.ArrowForward,
                     contentDescription = tr("translated into"),
                     tint = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(horizontal = 12.dp).padding(top = 22.dp).size(22.dp),
+                    modifier = Modifier.padding(horizontal = 12.dp).padding(top = 22.dp).size(AppSizes.iconMedium),
                 )
                 nativeField(Modifier.weight(1f))
             }
@@ -408,52 +405,29 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
     var advanced by remember { mutableStateOf(false) }
-    val compact = LocalWindowWidth.current.isCompact
-    val action: @Composable () -> Unit = {
-        if (viewModel.hasRuntimeSetup && !ready && !busy) {
-            PrimaryButton(tr("Install"), onClick = viewModel::install)
-        } else {
-            SecondaryButton(if (viewModel.hasRuntimeSetup) tr("Check installation") else tr("Check models"), onClick = viewModel::check, enabled = !busy)
-        }
-    }
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
         ready -> StatusTints.ok
         else -> StatusTints.warning
     }
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.08f))
-            .border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.panel).padding(16.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        when {
-            busy -> AppSpinner(size = SpinnerSize.Medium)
-            ready -> Icon(Icons.Default.CheckCircle, contentDescription = null, tint = tint, modifier = Modifier.size(32.dp))
-            else -> Icon(Icons.Default.Warning, contentDescription = null, tint = tint, modifier = Modifier.size(32.dp))
-        }
-        Spacer(Modifier.width(14.dp))
-        Column(Modifier.weight(1f)) {
-            Text(
-                when {
-                    busy -> tr("Checking…")
-                    ready -> tr("Installed and working")
-                    else -> tr("Not installed")
-                },
-                style = MaterialTheme.typography.titleSmall,
-                fontWeight = FontWeight.Bold,
-            )
-            val detail = status?.let { tr(it) } ?: if (!ready && viewModel.hasRuntimeSetup) tr("Install downloads a private Python into the app folder with argostranslate in it.") else null
-            detail?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-        }
-        if (!compact) {
-            Spacer(Modifier.width(12.dp))
-            action()
-        }
-    }
-    if (compact) {
-        Spacer(Modifier.height(8.dp))
-        action()
-    }
+    Notice(
+        title = when {
+            busy -> tr("Checking…")
+            ready -> tr("Installed and working")
+            else -> tr("Not installed")
+        },
+        message = status?.let { tr(it) } ?: if (!ready && viewModel.hasRuntimeSetup) tr("Install downloads a private Python into the app folder with argostranslate in it.") else null,
+        tint = tint,
+        icon = if (ready) Icons.Default.CheckCircle else Icons.Default.Warning,
+        busy = busy,
+        action = {
+            if (viewModel.hasRuntimeSetup && !ready && !busy) {
+                PrimaryButton(tr("Install"), onClick = viewModel::install)
+            } else {
+                SecondaryButton(if (viewModel.hasRuntimeSetup) tr("Check installation") else tr("Check models"), onClick = viewModel::check, enabled = !busy)
+            }
+        },
+    )
     progress?.let {
         Spacer(Modifier.height(10.dp))
         Text(tr(it), style = MaterialTheme.typography.bodySmall)
@@ -468,7 +442,7 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
                 Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = 16.dp, vertical = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                Icon(if (advanced) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, modifier = Modifier.size(20.dp))
+                Icon(if (advanced) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
                 Spacer(Modifier.width(10.dp))
                 Text(tr("Advanced runtime settings"), style = MaterialTheme.typography.bodyLarge)
             }
@@ -600,13 +574,12 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
         }
         if (tab == PackageTab.INSTALLED && packages.size > installed.size) {
             Spacer(Modifier.height(14.dp))
-            SecondaryButton(onClick = { tab = PackageTab.AVAILABLE; query = "" }) {
-                Icon(AppIcons.OpenInNew, contentDescription = null, modifier = Modifier.size(18.dp))
-                Spacer(Modifier.width(8.dp))
-                Text(if (runtime) tr("Browse all {0} packages", packages.size) else tr("Browse all {0} models", packages.size))
-                Spacer(Modifier.width(4.dp))
-                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, modifier = Modifier.size(18.dp))
-            }
+            SecondaryButton(
+                if (runtime) tr("Browse all {0} packages", packages.size) else tr("Browse all {0} models", packages.size),
+                onClick = { tab = PackageTab.AVAILABLE; query = "" },
+                icon = AppIcons.OpenInNew,
+                trailingIcon = Icons.AutoMirrored.Filled.KeyboardArrowRight,
+            )
         }
     }
 }
@@ -625,7 +598,7 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
         val used = installed.sumOf { it.sizeBytes }
         if (used > 0) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Icon(AppIcons.Storage, contentDescription = null, modifier = Modifier.size(20.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
+                Icon(AppIcons.Storage, contentDescription = null, modifier = Modifier.size(AppSizes.icon), tint = MaterialTheme.colorScheme.onSurfaceVariant)
                 Spacer(Modifier.width(10.dp))
                 Text(tr("{0} used", formatSize(used)), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
             }
@@ -634,11 +607,11 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
         if (pair.learning != null && !pair.sameLanguage) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 if (pair.ready) {
-                    Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(20.dp))
+                    Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(AppSizes.icon))
                     Spacer(Modifier.width(8.dp))
                     Text(tr("{0} is ready", pair.label), style = MaterialTheme.typography.bodyMedium)
                 } else {
-                    Icon(Icons.Default.Warning, contentDescription = null, tint = StatusTints.warning, modifier = Modifier.size(20.dp))
+                    Icon(Icons.Default.Warning, contentDescription = null, tint = StatusTints.warning, modifier = Modifier.size(AppSizes.icon))
                     Spacer(Modifier.width(8.dp))
                     Text(tr("{0} needs {1}", pair.label, pair.missing.joinToString { it.displayTitle }), style = MaterialTheme.typography.bodyMedium)
                     Spacer(Modifier.width(12.dp))
@@ -680,7 +653,7 @@ internal fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onIn
         when {
             busy -> Text(if (pkg.installed) tr("Removing…") else tr("Downloading…"), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = 12.dp))
             pkg.installed -> {
-                Box(Modifier.size(8.dp).clip(CircleShape).background(StatusTints.ok))
+                StatusDot(StatusTints.ok, size = AppSizes.dot)
                 Spacer(Modifier.width(8.dp))
                 Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(4.dp))

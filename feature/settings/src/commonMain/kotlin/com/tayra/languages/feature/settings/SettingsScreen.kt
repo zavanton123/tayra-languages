@@ -24,15 +24,10 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Settings
@@ -69,6 +64,7 @@ import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppTheme
@@ -87,6 +83,7 @@ import com.tayra.languages.core.domain.service.CommandLineStatus
 import com.tayra.languages.core.domain.service.CommandLineTool
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.ui.text.font.FontFamily
+import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 
@@ -235,7 +232,7 @@ internal fun ThemeSwatch(theme: AppTheme) {
             theme.colorScheme.primary,
             theme.statusColors.background(TermStatus.UNKNOWN),
             theme.statusColors.background(TermStatus.NEW_1),
-        ).forEach { Box(Modifier.size(10.dp).clip(CircleShape).background(it)) }
+        ).forEach { StatusDot(it) }
     }
 }
 
@@ -348,7 +345,7 @@ private fun CommandBox(text: String) {
     SelectionContainer {
         Text(
             text,
-            Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surfaceVariant.copy(alpha = 0.6f))
+            Modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surfaceVariant.copy(alpha = AppAlpha.muted))
                 .border(AppBorders.hairline(), AppShapes.compact).padding(horizontal = 14.dp, vertical = 10.dp),
             style = MaterialTheme.typography.bodyMedium,
             fontFamily = FontFamily.Monospace,
@@ -408,10 +405,10 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = 24.dp) {
 @Composable
 private fun LegendDot(label: String, color: Color?, theme: AppTheme) {
     Row(verticalAlignment = Alignment.CenterVertically) {
-        val dot = Modifier.size(18.dp).clip(CircleShape)
-        Box(if (color != null) dot.background(color) else dot.border(1.5.dp, theme.readingText.copy(alpha = 0.35f), CircleShape))
+        if (color != null) StatusDot(color, size = 18.dp)
+        else Box(Modifier.size(18.dp).border(AppBorders.selected(theme.readingText.copy(alpha = AppAlpha.disabled)), AppShapes.circle))
         Spacer(Modifier.width(10.dp))
-        Text(label, style = MaterialTheme.typography.bodyMedium, color = theme.readingText.copy(alpha = 0.8f))
+        Text(label, style = MaterialTheme.typography.bodyMedium, color = theme.readingText.copy(alpha = AppAlpha.strong))
     }
 }
 

@@ -49,6 +49,7 @@ import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 
 private enum class PhoneTab { INSTALLED, AVAILABLE }
 
@@ -150,7 +151,7 @@ private fun PhoneLookupCard(learning: LanguageOption?, nativeName: String, curre
     ContentCard(tr("Current lookup"), subtitle = null, icon = AppIcons.MenuBook, dense = true) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             PairChip(learning?.code ?: "?", learning?.let { tr(it.name) } ?: tr("No language"), Modifier.weight(1f))
-            Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("looked up in"), tint = colors.onSurfaceVariant, modifier = Modifier.padding(horizontal = 10.dp).size(22.dp))
+            Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = tr("looked up in"), tint = colors.onSurfaceVariant, modifier = Modifier.padding(horizontal = 10.dp).size(AppSizes.iconMedium))
             PairChip(LanguageCatalog.nativeLanguages.firstOrNull { it.name == nativeName }?.code ?: "", tr(nativeName), Modifier.weight(1f))
         }
         AppDivider(Modifier.padding(vertical = 14.dp))

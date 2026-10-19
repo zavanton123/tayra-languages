@@ -11,13 +11,10 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.Icon
@@ -38,12 +35,14 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.backup.Backup
 import com.tayra.languages.core.ui.components.AppCard
-import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ButtonSize
+import com.tayra.languages.core.ui.components.CardHeader
+import com.tayra.languages.core.ui.components.CardHeaderSize
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PrimaryButton
@@ -85,25 +84,18 @@ internal fun PhoneBackupsScreen(
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
             AppCard {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-                    IconTile(AppIcons.Storage, size = 56)
-                    Column {
-                        Text(tr("Protect your data"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                        Text(tr("Save your library, vocabulary, progress, and preferences."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                    }
-                }
+                CardHeader(tr("Protect your data"), tr("Save your library, vocabulary, progress, and preferences."), icon = AppIcons.Storage, size = CardHeaderSize.Dense)
                 Spacer(Modifier.height(16.dp))
-                PrimaryButton(onClick = viewModel::create, enabled = idle, modifier = Modifier.fillMaxWidth().height(52.dp).testTag("phone-create-backup")) {
-                    Icon(AppIcons.Storage, contentDescription = null, modifier = Modifier.size(20.dp))
-                    Spacer(Modifier.width(10.dp))
-                    Text(tr("Create backup"), style = MaterialTheme.typography.titleMedium)
-                }
+                PrimaryButton(
+                    tr("Create backup"),
+                    onClick = viewModel::create,
+                    modifier = Modifier.fillMaxWidth().testTag("phone-create-backup"),
+                    icon = AppIcons.Storage,
+                    enabled = idle,
+                    size = ButtonSize.Large,
+                )
                 Spacer(Modifier.height(10.dp))
-                SecondaryButton(onClick = onImport, enabled = idle, modifier = Modifier.fillMaxWidth().height(52.dp)) {
-                    Icon(AppIcons.UploadFile, contentDescription = null, modifier = Modifier.size(20.dp))
-                    Spacer(Modifier.width(10.dp))
-                    Text(tr("Import backup"), style = MaterialTheme.typography.titleMedium)
-                }
+                SecondaryButton(tr("Import backup"), onClick = onImport, modifier = Modifier.fillMaxWidth(), icon = AppIcons.UploadFile, enabled = idle, size = ButtonSize.Large)
                 Spacer(Modifier.height(12.dp))
                 Text(tr("Backups are stored on this device."), Modifier.fillMaxWidth(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
             }
@@ -172,16 +164,7 @@ private fun IncludedRow() {
             Icon(if (open) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant)
         }
         if (open) {
-            Column(Modifier.padding(start = 16.dp, end = 16.dp, bottom = 12.dp)) {
-                listOf(tr("Languages and books"), tr("Vocabulary"), tr("Reading history"), tr("Settings")).forEach { IncludedLine(it, Icons.Default.CheckCircle, StatusTints.ok) }
-                AppDivider(Modifier.padding(vertical = 10.dp))
-                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
-                    Icon(Icons.Default.Info, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
-                    Spacer(Modifier.width(14.dp))
-                    Text(tr("Not included"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
-                }
-                listOf(tr("Audio files"), tr("Downloaded dictionaries"), tr("Voices and translation models"), tr("API keys")).forEach { IncludedLine(it, AppIcons.RemoveCircle, colors.outline) }
-            }
+            Column(Modifier.padding(start = 16.dp, end = 16.dp, bottom = 12.dp)) { IncludedLines(gap = 10.dp) }
         }
     }
 }

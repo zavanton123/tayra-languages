@@ -1,10 +1,7 @@
 package com.tayra.languages.feature.settings
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -32,7 +29,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -51,18 +47,19 @@ import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppProgressBar
-import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.CodeTile
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.PrimaryButton
-import com.tayra.languages.core.ui.components.RoundSlider
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
-import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.SelectButton
+import com.tayra.languages.core.ui.components.SliderSetting
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.cardSurface
@@ -70,7 +67,6 @@ import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
-import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
@@ -102,14 +98,7 @@ internal fun PhoneSpeechScreen(
             StatusBanner(engine, checking, ready, learning, voices)
             ContentCard(tr("Speech engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
                 val chosen = settings.speechEngine.takeIf { it in viewModel.engines } ?: SpeechEngine.SYSTEM
-                Row(
-                    Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(colors.outline.copy(alpha = 0.5f)), AppShapes.control)
-                        .clickable { engineSheet = true }.padding(horizontal = 14.dp, vertical = 14.dp).testTag("phone-speech-engine"),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Text(engine?.displayName ?: tr(chosen.label), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
-                    Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant)
-                }
+                SelectButton(engine?.displayName ?: tr(chosen.label), onClick = { engineSheet = true }, modifier = Modifier.fillMaxWidth().testTag("phone-speech-engine"))
                 Spacer(Modifier.height(10.dp))
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     when (chosen) {
@@ -129,17 +118,12 @@ internal fun PhoneSpeechScreen(
                     val current = settings.speechVoices["${engine.engine.name}:${learning.code}"]
                     var voiceSheet by remember { mutableStateOf(false) }
                     val selected = options.firstOrNull { it.id == current } ?: options.first()
-                    Row(
-                        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(colors.outline.copy(alpha = 0.5f)), AppShapes.control)
-                            .clickable { voiceSheet = true }.padding(horizontal = 14.dp, vertical = 12.dp).testTag("phone-speech-voice"),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Column(Modifier.weight(1f)) {
-                            Text(tr("{0} voice", tr(learning.name)), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-                            Text(selected.name, style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                        }
-                        Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant)
-                    }
+                    SelectButton(
+                        selected.name,
+                        onClick = { voiceSheet = true },
+                        modifier = Modifier.fillMaxWidth().testTag("phone-speech-voice"),
+                        label = tr("{0} voice", tr(learning.name)),
+                    )
                     if (voiceSheet) {
                         PickerSheet(tr("{0} voice", tr(learning.name)), options, selected, label = { it.name }, onDismiss = { voiceSheet = false }, onPick = { voice ->
                             voiceSheet = false
@@ -149,17 +133,14 @@ internal fun PhoneSpeechScreen(
                     Spacer(Modifier.height(12.dp))
                 }
                 if (engine?.supportsSpeed == true) {
-                    val percent = kotlin.math.round(settings.speechSpeed * 100).toInt()
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(tr("Speech speed"), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-                        Text("$percent%", Modifier.clip(AppShapes.compact).background(colors.surfaceContainerLow).padding(horizontal = 12.dp, vertical = 6.dp), style = MaterialTheme.typography.bodyLarge)
-                    }
-                    // Twenty steps of 5% between half and one-and-a-half speed.
-                    RoundSlider(
-                        value = settings.speechSpeed,
-                        onValueChange = { v -> val snapped = (kotlin.math.round(v * 20) / 20f).coerceIn(0.5f, 1.5f); if (snapped != settings.speechSpeed) viewModel.update { it.copy(speechSpeed = snapped) } },
-                        valueRange = 0.5f..1.5f,
-                        modifier = Modifier.fillMaxWidth().semantics { contentDescription = tr("speech speed") }.testTag("phone-speech-speed"),
+                    SliderSetting(
+                        tr("Speech speed"),
+                        "${kotlin.math.round(settings.speechSpeed * 100).toInt()}%",
+                        settings.speechSpeed,
+                        0.5f..1.5f,
+                        onChange = { v -> viewModel.update { it.copy(speechSpeed = v) } },
+                        step = 0.05f,
+                        sliderModifier = Modifier.semantics { contentDescription = tr("speech speed") }.testTag("phone-speech-speed"),
                     )
                     Spacer(Modifier.height(8.dp))
                 }
@@ -193,14 +174,7 @@ private fun StatusBanner(engine: LocalSpeechEngine?, checking: Boolean, ready: B
         learning != null && voices[learning.code].isNullOrEmpty() -> Triple(Icons.Default.Warning, StatusTints.warning, tr("No {0} voice downloaded. System voice is being used.", tr(learning.name)))
         else -> Triple(Icons.Default.CheckCircle, StatusTints.ok, tr("Offline speech ready"))
     }
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.10f)).border(AppBorders.hairline(tint.copy(alpha = 0.3f)), AppShapes.panel).padding(horizontal = 14.dp, vertical = 12.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
-        Spacer(Modifier.width(12.dp))
-        Text(text, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, color = if (tint == StatusTints.warning) tint else colors.onSurface)
-    }
+    InfoBanner(text, tint = tint, icon = icon)
 }
 
 /** Whether the engine works; the install button shows only while it does not. */
@@ -211,43 +185,25 @@ private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEng
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val failed by viewModel.failed.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
-    val colors = MaterialTheme.colorScheme
     val working = ready && !failed
     val tint = when {
-        busy -> colors.outline
+        busy -> MaterialTheme.colorScheme.outline
         working -> StatusTints.ok
         else -> StatusTints.warning
     }
-    Column(
-        Modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.08f)).border(AppBorders.hairline(tint.copy(alpha = 0.25f)), AppShapes.panel).padding(14.dp),
-        verticalArrangement = Arrangement.spacedBy(10.dp),
+    Notice(
+        title = when {
+            busy -> tr("Checking…")
+            working -> tr("Installed and working")
+            ready -> tr("Something went wrong")
+            else -> tr("Not installed")
+        },
+        message = status?.let { tr(it) },
+        tint = tint,
+        icon = if (working) Icons.Default.CheckCircle else Icons.Default.Warning,
+        busy = busy,
+        action = if (engine.hasRuntimeSetup && !ready && !busy) { { PrimaryButton(tr("Install"), onClick = viewModel::install) } } else null,
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            when {
-                busy -> AppSpinner(size = SpinnerSize.Medium)
-                working -> Icon(Icons.Default.CheckCircle, contentDescription = null, tint = tint, modifier = Modifier.size(30.dp))
-                else -> Icon(Icons.Default.Warning, contentDescription = null, tint = tint, modifier = Modifier.size(30.dp))
-            }
-            Spacer(Modifier.width(12.dp))
-            Column(Modifier.weight(1f)) {
-                Text(
-                    when {
-                        busy -> tr("Checking…")
-                        working -> tr("Installed and working")
-                        ready -> tr("Something went wrong")
-                        else -> tr("Not installed")
-                    },
-                    style = MaterialTheme.typography.titleSmall,
-                    fontWeight = FontWeight.Bold,
-                    color = if (working && !busy) tint else colors.onSurface,
-                )
-                status?.let { Text(tr(it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis) }
-            }
-            if (engine.hasRuntimeSetup && !ready && !busy) {
-                Spacer(Modifier.width(10.dp))
-                PrimaryButton(tr("Install"), onClick = viewModel::install)
-            }
-        }
         progress?.let {
             Text(tr(it), style = MaterialTheme.typography.bodySmall)
             AppProgressBar(null)
@@ -263,18 +219,16 @@ private fun PlaySample(viewModel: SpeechViewModel, language: LanguageOption?) {
     val playing by speaker.playing.collectAsStateWithLifecycle()
     val text = language?.let { SAMPLES[it.code] } ?: SAMPLES.getValue("en")
     val active = playing != null && playing == text
-    SecondaryButton(onClick = { speaker.toggle(text, language?.code ?: "en") }, modifier = Modifier.fillMaxWidth()) {
-        Icon(if (active && !working) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = null, modifier = Modifier.size(20.dp))
-        Spacer(Modifier.width(10.dp))
-        Text(
-            when {
-                active && working -> tr("Preparing…")
-                active -> tr("Stop")
-                else -> tr("Play sample")
-            },
-            style = MaterialTheme.typography.titleMedium,
-        )
-    }
+    SecondaryButton(
+        when {
+            active && working -> tr("Preparing…")
+            active -> tr("Stop")
+            else -> tr("Play sample")
+        },
+        onClick = { speaker.toggle(text, language?.code ?: "en") },
+        modifier = Modifier.fillMaxWidth(),
+        icon = if (active && !working) AppIcons.Stop else AppIcons.VolumeUp,
+    )
 }
 
 /** One download holding the model and every voice, as Kokoro has. */
