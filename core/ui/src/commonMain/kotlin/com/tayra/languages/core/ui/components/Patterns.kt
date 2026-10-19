@@ -62,6 +62,7 @@ import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /*
  * The design system's larger patterns, which screens had each drawn their own way: the card's
@@ -105,7 +106,7 @@ fun EmptyState(
         verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
         Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconHuge))
-        Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
+        Text(title, style = AppText.sectionTitle, textAlign = TextAlign.Center)
         if (message != null) Text(message, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         action?.invoke()
     }
@@ -133,7 +134,7 @@ fun SelectionBar(
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
         leading?.invoke()
-        Text(text, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, modifier = Modifier.padding(end = AppSpacing.xs))
+        Text(text, style = AppText.emphasis, modifier = Modifier.padding(end = AppSpacing.xs))
         Spacer(Modifier.weight(1f))
         actions()
     }
@@ -157,11 +158,11 @@ fun TableHeader(modifier: Modifier = Modifier, padding: PaddingValues = PaddingV
 fun TableHeaderCell(label: String, modifier: Modifier = Modifier, icon: ImageVector? = null, active: Boolean = false, onClick: (() -> Unit)? = null) {
     val tint = if (active) MaterialTheme.colorScheme.primary else LocalContentColor.current
     Row(
-        modifier.then(if (onClick != null) Modifier.clip(AppShapes.small).clickable(onClick = onClick) else Modifier).padding(vertical = 6.dp, horizontal = AppSpacing.xxs),
+        modifier.then(if (onClick != null) Modifier.clip(AppShapes.small).clickable(onClick = onClick) else Modifier).padding(vertical = AppSpacing.xs, horizontal = AppSpacing.xxs),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
     ) {
-        Text(label, color = tint, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(label, color = tint, style = AppText.label, maxLines = 1, overflow = TextOverflow.Ellipsis)
         if (icon != null) Icon(icon, contentDescription = null, modifier = Modifier.size(AppSizes.iconSmall), tint = tint)
     }
 }
@@ -245,7 +246,7 @@ fun <T> CountTabs(
             val active = tab.value == selected
             val shape = if (solid) AppShapes.panel else AppShapes.control
             Row(
-                Modifier.height(if (solid) AppSizes.control else 40.dp).clip(shape)
+                Modifier.height(if (solid) AppSizes.control else SEGMENT_HEIGHT).clip(shape)
                     .background(
                         when {
                             active && solid -> colors.primary
@@ -293,7 +294,7 @@ fun <T> UnderlineTabs(
     tinted: Boolean = false,
 ) {
     val colors = MaterialTheme.colorScheme
-    Row(modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+    Row(modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         tabs.forEach { tab ->
             val active = tab.value == selected
             val tint = if (active) colors.primary else colors.onSurfaceVariant
@@ -305,7 +306,7 @@ fun <T> UnderlineTabs(
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
                 Row(
-                    Modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier.padding(horizontal = AppSpacing.m)).padding(vertical = if (fill) AppSpacing.m else 10.dp),
+                    Modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier.padding(horizontal = AppSpacing.m)).padding(vertical = AppSpacing.m),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),
                 ) {
@@ -320,7 +321,7 @@ fun <T> UnderlineTabs(
                     )
                     if (tab.count != null && tab.count > 0) CountBadge(tab.count, emphasis = BadgeEmphasis.Solid, max = 99)
                 }
-                Box(Modifier.fillMaxWidth().height(if (fill) 3.dp else 2.dp).background(if (active) colors.primary else Color.Transparent))
+                Box(Modifier.fillMaxWidth().height(if (fill) TAB_UNDERLINE_FILL else TAB_UNDERLINE).background(if (active) colors.primary else Color.Transparent))
             }
         }
     }
@@ -379,3 +380,7 @@ fun OverflowMenu(contentDescription: String, modifier: Modifier = Modifier, butt
         AppMenu(expanded = open, onDismissRequest = { open = false }) { items { open = false } }
     }
 }
+
+private val SEGMENT_HEIGHT = 40.dp
+private val TAB_UNDERLINE_FILL = 3.dp
+private val TAB_UNDERLINE = 2.dp

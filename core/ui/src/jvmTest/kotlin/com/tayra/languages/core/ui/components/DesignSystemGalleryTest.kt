@@ -41,7 +41,7 @@ class DesignSystemGalleryTest {
         for (theme in listOf(AppThemes.default, AppThemes.night)) gallery(theme)
     }
 
-    private fun gallery(theme: AppTheme) = runDesktopComposeUiTest(width = 1240, height = 2020) {
+    private fun gallery(theme: AppTheme) = runDesktopComposeUiTest(width = 1240, height = 2120) {
         setContent { TayraTheme(theme) { Gallery() } }
         onAllNodesWithText("Primary").onFirst().assertExists()
         System.getenv("DESIGN_GALLERY")?.let { folder ->

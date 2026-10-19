@@ -20,11 +20,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * A phone's bottom sheet listing [options] to pick one from, the chosen one ticked; [labelContent]
@@ -43,13 +43,13 @@ fun <T> PickerSheet(
 ) {
     val colors = MaterialTheme.colorScheme
     AppBottomSheet(onDismissRequest = onDismiss) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 4.dp).padding(bottom = 16.dp)) {
-            Text(title, Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.xs).padding(bottom = AppSpacing.l)) {
+            Text(title, Modifier.padding(bottom = AppSpacing.s), style = AppText.headline)
             options.forEach { option ->
                 Row(
-                    Modifier.fillMaxWidth().clip(AppShapes.control).clickable { onPick(option) }.padding(vertical = 12.dp, horizontal = 4.dp),
+                    Modifier.fillMaxWidth().clip(AppShapes.control).clickable { onPick(option) }.padding(vertical = AppSpacing.m, horizontal = AppSpacing.xs),
                     verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                    horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
                 ) {
                     leading?.let { it(option) }
                     Row(Modifier.weight(1f)) { labelContent(option) }
@@ -78,14 +78,14 @@ fun <T> LanguagePickerSheet(
 ) {
     val colors = MaterialTheme.colorScheme
     AppBottomSheet(onDismissRequest = onDismiss) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 4.dp).padding(bottom = 16.dp)) {
-            Text(title, Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.xs).padding(bottom = AppSpacing.l)) {
+            Text(title, Modifier.padding(bottom = AppSpacing.s), style = AppText.headline)
             options.forEach { option ->
                 val chosen = option == selected
                 val note = if (chosen) null else unavailable(option)
                 Row(
                     Modifier.fillMaxWidth().clip(AppShapes.control).clickable(enabled = note == null) { if (!chosen) onPick(option) else onDismiss() }
-                        .padding(vertical = 10.dp, horizontal = 4.dp),
+                        .padding(vertical = AppSpacing.m, horizontal = AppSpacing.xs),
                 ) {
                     LanguageMenuRow(flagName(option), name(option), chosen, note)
                 }

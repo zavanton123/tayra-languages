@@ -42,6 +42,8 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /** The main navigation areas, used to highlight the active tab; [label] is English, shown through `tr`. */
 enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOOKS("Books"), NEWS("News"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), SETTINGS("Settings") }
@@ -109,21 +111,20 @@ fun AppTopBar(
         // The page's own heading on the page's own background: a large title, the screen's actions and the language.
         // The phone's menu is its bottom bar (see PhoneNavBar), so the bar has none.
         Row(
-            Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).height(72.dp)
-                .padding(start = if (onBack != null) 4.dp else 18.dp, end = 14.dp),
+            Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).height(PHONE_BAR_HEIGHT)
+                .padding(start = if (onBack != null) AppSpacing.xs else AppSpacing.xl, end = AppSpacing.l),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             if (onBack != null) AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack)
             Text(
                 title,
-                Modifier.weight(1f).padding(start = if (onBack != null) 4.dp else 0.dp, end = 8.dp),
-                style = if (onBack != null) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium,
-                fontWeight = FontWeight.Bold,
+                Modifier.weight(1f).padding(start = if (onBack != null) AppSpacing.xs else 0.dp, end = AppSpacing.s),
+                style = if (onBack != null) AppText.headline else AppText.screenTitle,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
             )
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) { actions() }
-            Spacer(Modifier.width(4.dp))
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) { actions() }
+            Spacer(Modifier.width(AppSpacing.xs))
             LearningLanguageSelector(compact = true, onOpen = { onNavigate(Route.ChooseLanguage) })
         }
         return
@@ -131,31 +132,31 @@ fun AppTopBar(
     BarSurface {
         Column(Modifier.windowInsetsPadding(WindowInsets.statusBars)) {
             Row(
-                // 18 + the link's own 6 keeps the logo 24 from the edge.
-                Modifier.fillMaxWidth().height(64.dp).padding(start = 18.dp, end = 24.dp),
+                // 16 + the link's own 8 keeps the logo 24 from the edge.
+                Modifier.fillMaxWidth().height(WIDE_BAR_HEIGHT).padding(start = AppSpacing.l, end = AppSpacing.xxl),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 if (onBack != null) {
                     AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack)
-                    Spacer(Modifier.width(4.dp))
+                    Spacer(Modifier.width(AppSpacing.xs))
                 }
                 // The logo and name lead home, as on most sites.
                 Row(
                     Modifier.clip(AppShapes.control)
                         .clickable(onClickLabel = tr("Go to Home"), role = Role.Button) { onNavigate(Route.Home) }
-                        .padding(horizontal = 6.dp, vertical = 4.dp),
+                        .padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
                     Icon(AppIcons.Otter, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(AppSizes.iconXLarge))
-                    Spacer(Modifier.width(12.dp))
-                    Text(APP_NAME, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                    Spacer(Modifier.width(AppSpacing.m))
+                    Text(APP_NAME, style = AppText.sectionTitle)
                 }
                 Spacer(Modifier.weight(1f))
                 actions()
                 // The language being learned sits just before the tabs it applies to.
                 if (LocalLearningLanguage.current?.currentName != null) {
                     LearningLanguageSelector(compact = false)
-                    Spacer(Modifier.width(16.dp))
+                    Spacer(Modifier.width(AppSpacing.l))
                 }
                 if (showMenu) WideMenu(section, onNavigate)
             }
@@ -186,10 +187,10 @@ private fun WideMenu(section: NavSection?, onNavigate: (Route) -> Unit) {
 private fun NavTab(section: NavSection, active: Boolean, onClick: () -> Unit) {
     val color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant
     Column(
-        Modifier.width(IntrinsicSize.Max).clip(AppShapes.small).clickable(onClick = onClick).padding(horizontal = 12.dp, vertical = 8.dp),
+        Modifier.width(IntrinsicSize.Max).clip(AppShapes.small).clickable(onClick = onClick).padding(horizontal = AppSpacing.m, vertical = AppSpacing.s),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             Text(tr(section.label), style = MaterialTheme.typography.bodyLarge, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium, color = color)
             val due = LocalFlashcardsDue.current
             if (section == NavSection.FLASHCARDS && due > 0) {
@@ -200,10 +201,14 @@ private fun NavTab(section: NavSection, active: Boolean, onClick: () -> Unit) {
                 )
             }
         }
-        Spacer(Modifier.height(4.dp))
+        Spacer(Modifier.height(AppSpacing.xs))
         Box(
-            Modifier.fillMaxWidth().height(2.dp).clip(AppShapes.tiny)
+            Modifier.fillMaxWidth().height(TAB_INDICATOR_HEIGHT).clip(AppShapes.tiny)
                 .background(if (active) MaterialTheme.colorScheme.primary else androidx.compose.ui.graphics.Color.Transparent),
         )
     }
 }
+
+private val PHONE_BAR_HEIGHT = 72.dp
+private val WIDE_BAR_HEIGHT = 64.dp
+private val TAB_INDICATOR_HEIGHT = 2.dp

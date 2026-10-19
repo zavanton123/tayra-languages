@@ -16,12 +16,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.books.discover.Difficulty
 import com.tayra.languages.core.domain.books.discover.TextCoverage
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /** What is known of how hard a text found online is for the reader. */
 sealed interface CoverageCheck {
@@ -38,7 +39,7 @@ sealed interface CoverageCheck {
 @Composable
 fun CoverageLine(difficulty: Difficulty?, check: CoverageCheck, tag: String, onCheck: (() -> Unit)? = null) {
     val colors = MaterialTheme.colorScheme
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         difficulty?.let { DifficultyTag(it) }
         when (check) {
             CoverageCheck.Checking -> {
@@ -68,13 +69,13 @@ fun DifficultyTag(difficulty: Difficulty) {
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun DifficultyFilter(selected: Difficulty?, onSelect: (Difficulty?) -> Unit) {
-    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+    FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         (listOf<Difficulty?>(null) + Difficulty.entries).forEach { difficulty ->
             AppFilterChip(
                 selected = selected == difficulty,
                 onClick = { onSelect(difficulty) },
                 label = { Text(difficulty?.label ?: tr("All levels")) },
-                leadingIcon = difficulty?.let { { Box(Modifier.size(10.dp).clip(AppShapes.tiny).background(it.color)) } },
+                leadingIcon = difficulty?.let { { Box(Modifier.size(AppSizes.dotLarge).clip(AppShapes.tiny).background(it.color)) } },
                 modifier = Modifier.testTag("difficulty-${difficulty?.name ?: "ALL"}"),
             )
         }

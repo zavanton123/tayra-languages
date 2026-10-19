@@ -16,6 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppElevation
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /** A popup menu styled like the rest of the app: white, rounded, bordered, with compact rows. */
 @Composable
@@ -23,10 +25,10 @@ fun AppMenu(expanded: Boolean, onDismissRequest: () -> Unit, modifier: Modifier 
     DropdownMenu(
         expanded = expanded,
         onDismissRequest = onDismissRequest,
-        modifier = modifier.widthIn(min = 160.dp),
+        modifier = modifier.widthIn(min = MENU_MIN_WIDTH),
         shape = AppShapes.control,
         containerColor = MaterialTheme.colorScheme.surface,
-        shadowElevation = 6.dp,
+        shadowElevation = AppElevation.raised,
         border = AppBorders.hairline(),
         content = content,
     )
@@ -36,7 +38,7 @@ fun AppMenu(expanded: Boolean, onDismissRequest: () -> Unit, modifier: Modifier 
 fun AppMenuItem(text: @Composable () -> Unit, onClick: () -> Unit, enabled: Boolean = true) {
     val colors = MaterialTheme.colorScheme
     Box(
-        Modifier.fillMaxWidth().clickable(enabled = enabled, onClick = onClick).padding(horizontal = 16.dp, vertical = 9.dp),
+        Modifier.fillMaxWidth().clickable(enabled = enabled, onClick = onClick).padding(horizontal = AppSpacing.l, vertical = AppSpacing.s),
     ) {
         CompositionLocalProvider(
             LocalContentColor provides if (enabled) colors.onSurface else colors.outline,
@@ -44,3 +46,5 @@ fun AppMenuItem(text: @Composable () -> Unit, onClick: () -> Unit, enabled: Bool
         ) { text() }
     }
 }
+
+private val MENU_MIN_WIDTH = 160.dp

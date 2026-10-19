@@ -31,6 +31,8 @@ import androidx.compose.ui.window.PopupPositionProvider
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppElevation
+import com.tayra.languages.core.ui.theme.AppSizes
 
 /*
  * The design system's overlays and raised surfaces: the phone's bottom sheet, the surface of a
@@ -68,7 +70,7 @@ fun AppBottomSheet(
 fun AppDialogSurface(
     onDismissRequest: () -> Unit,
     modifier: Modifier = Modifier,
-    maxWidth: Dp = 760.dp,
+    maxWidth: Dp = AppSizes.dialogWide,
     dismissible: Boolean = true,
     color: Color = MaterialTheme.colorScheme.surface,
     content: @Composable () -> Unit,
@@ -89,13 +91,13 @@ fun SidePanel(width: Dp, modifier: Modifier = Modifier, content: @Composable Col
 /** A card that floats over the page, such as a word's popup or a list of shortcuts: raised, in an outline. */
 @Composable
 fun PopupCard(modifier: Modifier = Modifier, content: @Composable () -> Unit) {
-    Surface(modifier, shape = AppShapes.card, color = MaterialTheme.colorScheme.surface, shadowElevation = 8.dp, border = AppBorders.hairline(), content = content)
+    Surface(modifier, shape = AppShapes.card, color = MaterialTheme.colorScheme.surface, shadowElevation = AppElevation.high, border = AppBorders.hairline(), content = content)
 }
 
 /** A bar across the top or bottom of a page that stays while the page scrolls: a phone's reading header, a form's buttons. [raised] lifts it with a tone. */
 @Composable
 fun BarSurface(modifier: Modifier = Modifier, raised: Boolean = false, content: @Composable () -> Unit) {
-    Surface(modifier, color = MaterialTheme.colorScheme.surface, tonalElevation = if (raised) 2.dp else 0.dp, content = content)
+    Surface(modifier, color = MaterialTheme.colorScheme.surface, tonalElevation = if (raised) AppElevation.low else 0.dp, content = content)
 }
 
 /** A short hint over [content] while it is hovered or pressed; [positionProvider] places it, above by default. */

@@ -2,7 +2,6 @@ package com.tayra.languages.core.ui.components
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.ui.unit.dp
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExposedDropdownMenuBox
 import androidx.compose.material3.ExposedDropdownMenuDefaults
@@ -22,6 +21,8 @@ import androidx.compose.ui.draw.alpha
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppElevation
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /** A simple select box. */
 @OptIn(ExperimentalMaterial3Api::class)
@@ -56,14 +57,14 @@ fun <T> Dropdown(
             onDismissRequest = { expanded = false },
             shape = AppShapes.control,
             containerColor = MaterialTheme.colorScheme.surface,
-            shadowElevation = 6.dp,
+            shadowElevation = AppElevation.raised,
             border = AppBorders.hairline(),
         ) {
             options.forEach { option ->
                 val note = if (option == selected) null else unavailable(option)
                 AppMenuItem(
                     text = {
-                        Row(Modifier.alpha(if (note != null) AppAlpha.disabled else 1f), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                        Row(Modifier.alpha(if (note != null) AppAlpha.disabled else 1f), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                             Box(Modifier.weight(1f)) { if (optionContent != null) optionContent(option) else Text(optionLabel(option)) }
                             if (note != null) Text(note, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1)
                         }

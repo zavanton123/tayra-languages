@@ -26,12 +26,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /**
  * The phone's bottom bar: the main areas as tabs, with the flashcards due on theirs, and More for
@@ -122,23 +122,23 @@ fun MoreSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val language = LocalLearningLanguage.current?.currentName
     AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("more-sheet")) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(start = 20.dp, end = 8.dp, bottom = 16.dp)) {
+        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(start = AppSpacing.xl, end = AppSpacing.s, bottom = AppSpacing.l)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(tr("More"), Modifier.weight(1f), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                Text(tr("More"), Modifier.weight(1f), style = AppText.headline)
                 AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss)
             }
             moreGroups.forEach { group ->
                 Text(
                     tr(group.title).uppercase(),
-                    Modifier.padding(top = 16.dp, bottom = 4.dp),
+                    Modifier.padding(top = AppSpacing.l, bottom = AppSpacing.xs),
                     style = AppText.overline.copy(color = colors.onSurfaceVariant),
                 )
                 group.entries.forEachIndexed { i, entry ->
-                    if (i > 0) AppDivider(Modifier.padding(end = 12.dp))
+                    if (i > 0) AppDivider(Modifier.padding(end = AppSpacing.m))
                     MoreRow(entry, value = language?.let(::tr).takeIf { entry.route == Route.Languages }) { onNavigate(entry.route) }
                 }
             }
-            AppDivider(Modifier.padding(top = 12.dp, end = 12.dp))
+            AppDivider(Modifier.padding(top = AppSpacing.m, end = AppSpacing.m))
             MoreRow(MoreEntry("About", Icons.Default.Info, Route.About), value = null) { onNavigate(Route.About) }
         }
     }
@@ -149,7 +149,7 @@ private fun MoreRow(entry: MoreEntry, value: String?, onClick: () -> Unit) {
     NavigationRow(
         tr(entry.label),
         onClick = onClick,
-        modifier = Modifier.padding(end = 12.dp).testTag("more-${entry.label}"),
+        modifier = Modifier.padding(end = AppSpacing.m).testTag("more-${entry.label}"),
         value = value,
         icon = entry.icon,
         tint = if (entry.destructive) MaterialTheme.colorScheme.error else null,

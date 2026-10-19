@@ -28,6 +28,8 @@ import kotlinx.datetime.plus
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /**
  * A card of recent days as squares, darker the busier the day: a column per week from Monday, as
@@ -47,7 +49,7 @@ fun ActivityHeatmapCard(
 ) {
     val empty = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
     BoxWithConstraints(Modifier.fillMaxWidth()) {
-        val gap = 4.dp
+        val gap = AppSpacing.xs
         // The card's padding takes 20 on each side.
         val inner = maxWidth - 40.dp
         val weeks = ((inner + gap) / (MIN_CELL + gap)).toInt().coerceIn(MIN_WEEKS, MAX_WEEKS)
@@ -72,11 +74,11 @@ fun ActivityHeatmapCard(
                     }
                 }
             }
-            Spacer(Modifier.height(12.dp))
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            Spacer(Modifier.height(AppSpacing.m))
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
                 Text(fewer, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                Box(Modifier.size(12.dp).clip(AppShapes.tiny).background(empty))
-                (1..4).forEach { Box(Modifier.size(12.dp).clip(AppShapes.tiny).background(color.copy(alpha = heatShade(it)))) }
+                Box(Modifier.size(AppSizes.dotXLarge).clip(AppShapes.tiny).background(empty))
+                (1..4).forEach { Box(Modifier.size(AppSizes.dotXLarge).clip(AppShapes.tiny).background(color.copy(alpha = heatShade(it)))) }
                 Text(more, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }

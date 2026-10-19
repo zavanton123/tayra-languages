@@ -36,6 +36,7 @@ import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /*
  * The design system's small labels: tags, count badges, status pills, and the chips that choose
@@ -55,7 +56,7 @@ enum class TagStyle { Soft, Solid, Neutral }
 @Composable
 private fun TagSize.textStyle(): TextStyle = when (this) {
     TagSize.Small -> MaterialTheme.typography.labelMedium
-    TagSize.Medium -> MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.SemiBold)
+    TagSize.Medium -> AppText.badge
     TagSize.Large -> MaterialTheme.typography.bodyMedium
 }
 
@@ -105,9 +106,8 @@ fun CountBadge(count: Int, modifier: Modifier = Modifier, emphasis: BadgeEmphasi
     }
     Text(
         if (count > max) "${formatCount(max)}+" else formatCount(count),
-        modifier.defaultMinSize(minWidth = 20.dp).clip(AppShapes.pill).background(background).padding(horizontal = 7.dp, vertical = 1.dp),
-        style = MaterialTheme.typography.labelMedium,
-        fontWeight = FontWeight.SemiBold,
+        modifier.defaultMinSize(minWidth = BADGE_MIN_WIDTH).clip(AppShapes.pill).background(background).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs),
+        style = AppText.badge,
         color = content,
         textAlign = TextAlign.Center,
         maxLines = 1,
@@ -135,19 +135,20 @@ fun StatusPill(
     shape: Shape = AppShapes.pill,
 ) {
     val padding = when (size) {
-        TagSize.Small -> PaddingValues(horizontal = 10.dp, vertical = 4.dp)
-        TagSize.Medium -> PaddingValues(horizontal = 12.dp, vertical = 5.dp)
-        TagSize.Large -> PaddingValues(horizontal = 14.dp, vertical = 8.dp)
+        TagSize.Small -> PaddingValues(horizontal = AppSpacing.s, vertical = AppSpacing.xs)
+        TagSize.Medium -> PaddingValues(horizontal = AppSpacing.m, vertical = AppSpacing.xs)
+        TagSize.Large -> PaddingValues(horizontal = AppSpacing.m, vertical = AppSpacing.s)
     }
-    val style = if (size == TagSize.Small) MaterialTheme.typography.labelMedium else MaterialTheme.typography.bodyMedium
+    val valueStyle = if (size == TagSize.Small) AppText.badge else AppText.labelStrong
+    val textStyle = if (size == TagSize.Small) AppText.badge else AppText.label
     Row(
         modifier.clip(shape).background(color.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(color.copy(alpha = AppAlpha.line)), shape).padding(padding),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(if (size == TagSize.Small) AppSpacing.xs else AppSpacing.s),
     ) {
         if (dot && value == null) StatusDot(color, size = if (size == TagSize.Small) AppSizes.dot else AppSizes.dotLarge)
-        if (value != null) Text(value, style = style, fontWeight = FontWeight.Bold, color = color)
-        Text(text, style = style, fontWeight = FontWeight.Medium, maxLines = 1)
+        if (value != null) Text(value, style = valueStyle, color = color)
+        Text(text, style = textStyle, maxLines = 1)
     }
 }
 
@@ -183,7 +184,7 @@ fun SelectableChip(
             .background(if (selected) tint.copy(alpha = AppAlpha.soft) else colors.surface)
             .border(if (selected) AppBorders.hairline(tint) else AppBorders.hairline(), shape)
             .clickable(enabled = enabled, onClick = onClick)
-            .padding(start = 14.dp, end = if (onRemove != null) AppSpacing.xs else 14.dp),
+            .padding(start = AppSpacing.m, end = if (onRemove != null) AppSpacing.xs else AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
@@ -198,7 +199,7 @@ fun SelectableChip(
             color = if (selected) colors.onSurface else colors.onSurfaceVariant,
             maxLines = 1,
         )
-        if (count != null) Text(formatCount(count), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = if (selected) colors.onSurface else colors.onSurfaceVariant)
+        if (count != null) Text(formatCount(count), style = AppText.labelStrong, color = if (selected) colors.onSurface else colors.onSurfaceVariant)
         if (onRemove != null) AppIconButton(Icons.Default.Close, contentDescription = removeDescription, onClick = onRemove, size = IconButtonSize.Small, tint = if (selected) tint else null)
     }
 }
@@ -216,7 +217,7 @@ fun RemovableChip(
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.compact
     Row(
-        modifier.height(34.dp).clip(shape)
+        modifier.height(REMOVABLE_CHIP_HEIGHT).clip(shape)
             .background(background ?: tint?.copy(alpha = AppAlpha.tint) ?: colors.surfaceContainerLow)
             .border(AppBorders.hairline(tint?.copy(alpha = AppAlpha.line) ?: colors.outlineVariant), shape)
             .padding(start = AppSpacing.m, end = AppSpacing.xxs),
@@ -227,3 +228,6 @@ fun RemovableChip(
         AppIconButton(Icons.Default.Close, contentDescription = removeDescription, onClick = onRemove, size = IconButtonSize.Small)
     }
 }
+
+private val BADGE_MIN_WIDTH = 20.dp
+private val REMOVABLE_CHIP_HEIGHT = 34.dp

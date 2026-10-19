@@ -45,9 +45,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.theme.AppText
 
 /** Colours of status pills, tags and banners, readable on light and dark themes alike. */
 object StatusTints {
@@ -59,7 +59,7 @@ object StatusTints {
 @Composable
 fun ScreenTitle(title: String, modifier: Modifier = Modifier) {
     if (LocalWindowWidth.current.isCompact) return
-    Text(title, modifier, style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+    Text(title, modifier, style = AppText.screenTitle)
 }
 
 /** A step of a [ScreenHeader]'s trail back, such as "Vocabulary" above a term; [onClick] goes there. */
@@ -92,7 +92,7 @@ fun ScreenHeader(
                 Spacer(Modifier.width(AppSpacing.s))
                 Text(tr("Settings"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(AppSpacing.s))
         }
         if (crumbs.isNotEmpty()) {
             val back = onBack ?: crumbs.lastOrNull { it.onClick != null }?.onClick
@@ -109,8 +109,8 @@ fun ScreenHeader(
         }
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Column(Modifier.weight(1f)) {
-                if (!compact) Text(title, style = MaterialTheme.typography.headlineLarge, fontWeight = FontWeight.Bold)
-                else if (titleOnCompact) Text(title, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                if (!compact) Text(title, style = AppText.pageTitle)
+                else if (titleOnCompact) Text(title, style = AppText.headline)
                 if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
             actions()
@@ -143,12 +143,8 @@ fun CardHeader(
             Spacer(Modifier.width(size.gap.dp))
         }
         Column(Modifier.weight(1f)) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                Text(
-                    title,
-                    style = if (size == CardHeaderSize.Large) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.titleLarge,
-                    fontWeight = FontWeight.Bold,
-                )
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                Text(title, style = if (size == CardHeaderSize.Large) AppText.headline else AppText.sectionTitle)
                 titleExtra()
             }
             if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -179,7 +175,7 @@ fun PaneHeader(
             icon != null -> Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
         }
         Column(Modifier.weight(1f)) {
-            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(title, style = AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
             if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
         if (onClose != null) AppIconButton(Icons.Default.Close, contentDescription = closeDescription, onClick = onClose, modifier = closeModifier, style = IconButtonStyle.Tonal, tint = colors.onSurface)
@@ -200,12 +196,12 @@ fun SectionHeader(
 ) {
     Row(
         modifier.fillMaxWidth()
-            .then(if (tint != null) Modifier.clip(AppShapes.control).background(tint.copy(alpha = AppAlpha.tint)).padding(horizontal = AppSpacing.l, vertical = 10.dp) else Modifier),
+            .then(if (tint != null) Modifier.clip(AppShapes.control).background(tint.copy(alpha = AppAlpha.tint)).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m) else Modifier),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
         Column(Modifier.weight(1f)) {
-            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = tint ?: MaterialTheme.colorScheme.onSurface)
+            Text(title, style = AppText.sectionTitle, color = tint ?: MaterialTheme.colorScheme.onSurface)
             if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
         actions()
@@ -243,7 +239,7 @@ fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48, tint: Col
         contentAlignment = Alignment.Center,
     ) {
         if (icon != null) Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size((size / 2).dp))
-        else if (text != null) Text(text, style = MaterialTheme.typography.titleLarge, color = tint, fontWeight = FontWeight.SemiBold)
+        else if (text != null) Text(text, style = AppText.sectionTitle, color = tint)
     }
 }
 
@@ -261,7 +257,7 @@ fun SliderStepper(
     // Dividing by the number of steps per unit, not multiplying by the step, lands on the nearest float of a value such as 1.3.
     val perUnit = kotlin.math.round(1 / step)
     fun snap(v: Float) = (kotlin.math.round(v * perUnit) / perUnit).coerceIn(range.start, range.endInclusive)
-    Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+    Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         ValueChip(label)
         StepButton("−", tr("Decrease {0}", name), enabled = value > range.start + step / 2) { onChange(snap(value - step)) }
         AppSlider(value = value, onValueChange = { onChange(snap(it)) }, valueRange = range, modifier = Modifier.weight(1f))
@@ -277,9 +273,9 @@ fun NumberStepper(value: Int, range: IntRange, name: String, step: Int = 1, onCh
         verticalAlignment = Alignment.CenterVertically,
     ) {
         StepButton("−", tr("Decrease {0}", name), enabled = value > range.first, bordered = false) { onChange((value - step).coerceAtLeast(range.first)) }
-        AppVerticalDivider(Modifier.height(44.dp))
-        Text(value.toString(), Modifier.widthIn(min = 64.dp).padding(horizontal = 12.dp), textAlign = TextAlign.Center, style = MaterialTheme.typography.bodyLarge)
-        AppVerticalDivider(Modifier.height(44.dp))
+        AppVerticalDivider(Modifier.height(AppSizes.control))
+        Text(value.toString(), Modifier.widthIn(min = STEPPER_VALUE_MIN_WIDTH).padding(horizontal = AppSpacing.m), textAlign = TextAlign.Center, style = MaterialTheme.typography.bodyLarge)
+        AppVerticalDivider(Modifier.height(AppSizes.control))
         StepButton("+", tr("Increase {0}", name), enabled = value < range.last, bordered = false) { onChange((value + step).coerceAtMost(range.last)) }
     }
 }
@@ -287,7 +283,7 @@ fun NumberStepper(value: Int, range: IntRange, name: String, step: Int = 1, onCh
 @Composable
 private fun ValueChip(text: String) {
     Box(
-        Modifier.widthIn(min = 72.dp).clip(AppShapes.compact).background(MaterialTheme.colorScheme.surfaceContainer).padding(horizontal = 12.dp, vertical = 10.dp),
+        Modifier.widthIn(min = VALUE_CHIP_MIN_WIDTH).clip(AppShapes.compact).background(MaterialTheme.colorScheme.surfaceContainer).padding(horizontal = AppSpacing.m, vertical = AppSpacing.m),
         contentAlignment = Alignment.Center,
     ) {
         Text(text, style = MaterialTheme.typography.bodyMedium)
@@ -298,7 +294,7 @@ private fun ValueChip(text: String) {
 private fun StepButton(symbol: String, description: String, enabled: Boolean, bordered: Boolean = true, onClick: () -> Unit) {
     val shape = AppShapes.compact
     Box(
-        Modifier.size(44.dp).clip(shape)
+        Modifier.size(AppSizes.control).clip(shape)
             .then(if (bordered) Modifier.border(AppBorders.hairline(), shape) else Modifier)
             .clickable(enabled = enabled, onClick = onClick)
             .semantics { contentDescription = description },
@@ -337,9 +333,9 @@ fun PageColumn(padding: PaddingValues, modifier: Modifier = Modifier, content: @
     Box(modifier.padding(padding).fillMaxSize()) {
         Box(Modifier.fillMaxSize().verticalScroll(scroll), contentAlignment = Alignment.TopCenter) {
             Column(
-                Modifier.widthIn(max = 1480.dp).fillMaxWidth()
-                    .padding(horizontal = if (compact) 16.dp else 48.dp, vertical = if (compact) 16.dp else 28.dp),
-                verticalArrangement = Arrangement.spacedBy(20.dp),
+                Modifier.widthIn(max = AppSizes.pageWidth).fillMaxWidth()
+                    .padding(horizontal = if (compact) AppSpacing.l else AppSpacing.giant, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
                 content = content,
             )
         }
@@ -364,6 +360,9 @@ fun CodeTile(languageCode: String, size: Int = 44) {
     val code = languageCode.uppercase().take(3)
     val tint = codeTints[(code.hashCode() and Int.MAX_VALUE) % codeTints.size]
     Box(Modifier.size(size.dp).clip(AppShapes.compact).background(tint.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
-        Text(code, color = tint, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold)
+        Text(code, color = tint, style = AppText.badge)
     }
 }
+
+private val STEPPER_VALUE_MIN_WIDTH = 64.dp
+private val VALUE_CHIP_MIN_WIDTH = 72.dp

@@ -25,11 +25,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * The Tags button of a list, with how many tags are chosen, and its panel: the [available] tags
@@ -57,7 +58,7 @@ fun TagFilterButton(
             badge = selected.size,
             trailingIcon = Icons.Default.ArrowDropDown,
         )
-        AppMenu(expanded = open, onDismissRequest = { open = false }, modifier = Modifier.width(440.dp)) {
+        AppMenu(expanded = open, onDismissRequest = { open = false }, modifier = Modifier.width(TAG_FILTER_WIDTH)) {
             TagFilterBody(available, selected, matchAll) { tags, all -> open = false; onApply(tags, all) }
         }
     }
@@ -70,7 +71,7 @@ fun TagFilterButton(
 @Composable
 fun TagFilterSheet(available: List<String>, selected: Set<String>, matchAll: Boolean, onApply: (tags: Set<String>, matchAll: Boolean) -> Unit, onDismiss: () -> Unit) {
     AppBottomSheet(onDismissRequest = onDismiss) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(bottom = 12.dp)) {
+        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(bottom = AppSpacing.m)) {
             TagFilterBody(available, selected, matchAll, onApply)
         }
     }
@@ -84,12 +85,12 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
     var picked by remember { mutableStateOf(selected) }
     var all by remember { mutableStateOf(matchAll) }
     var query by remember { mutableStateOf("") }
-    Column(Modifier.padding(horizontal = 18.dp, vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+    Column(Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(tr("Filter by tags"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            Text(tr("Filter by tags"), Modifier.weight(1f), style = AppText.itemTitle)
             Text(
                 tr("Clear all"),
-                Modifier.clip(AppShapes.small).clickable(enabled = picked.isNotEmpty()) { picked = emptySet() }.padding(horizontal = 6.dp, vertical = 2.dp),
+                Modifier.clip(AppShapes.small).clickable(enabled = picked.isNotEmpty()) { picked = emptySet() }.padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xxs),
                 style = MaterialTheme.typography.bodyMedium,
                 color = if (picked.isNotEmpty()) colors.primary else colors.outline,
             )
@@ -99,7 +100,7 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
         if (found.isEmpty()) {
             Text(tr("No tags match."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         } else {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 found.forEach { tag ->
                     val toggle = { picked = if (tag in picked) picked - tag else picked + tag }
                     SelectableChip(
@@ -115,7 +116,7 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
             }
         }
         AppDivider()
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Text(tr("Match"), style = MaterialTheme.typography.bodyLarge)
             SegmentedToggle(
                 listOf(Segment(false, label = tr("Any tag"), testTag = "match-any"), Segment(true, label = tr("All tags"), testTag = "match-all")),
@@ -135,3 +136,5 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
         }
     }
 }
+
+private val TAG_FILTER_WIDTH = 440.dp

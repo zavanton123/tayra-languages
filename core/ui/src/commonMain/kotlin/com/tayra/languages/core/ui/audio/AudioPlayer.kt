@@ -20,9 +20,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.CoroutineScope
+import com.tayra.languages.core.ui.theme.AppSizes
 
 /** Plays one audio clip at a time from a URL. */
 expect class AudioPlayer() {
@@ -131,7 +131,7 @@ fun PlayButton(url: String, playback: AudioPlayback, modifier: Modifier = Modifi
     AppIconButton(onClick = { playback.toggle(url) }, modifier = modifier) {
         if (playing) {
             Box(
-                Modifier.size(14.dp)
+                Modifier.size(AppSizes.iconTiny)
                     .background(MaterialTheme.colorScheme.primary, AppShapes.tiny)
                     .semantics { contentDescription = tr("Stop recording") },
             )

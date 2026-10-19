@@ -34,6 +34,8 @@ import androidx.compose.ui.window.Popup
 import kotlinx.coroutines.delay
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppElevation
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /** A short message shown at the bottom of the screen for a few seconds. A new message replaces the one showing. */
 class ToastState {
@@ -71,11 +73,11 @@ fun ToastHost(state: ToastState, durationMillis: Long = 3_000) {
         AnimatedVisibility(transition, enter = fadeIn() + slideInVertically { it / 2 }, exit = fadeOut()) {
             val colors = MaterialTheme.colorScheme
             Row(
-                Modifier.padding(horizontal = 16.dp).widthIn(max = 480.dp)
-                    .shadow(6.dp, AppShapes.panel).clip(AppShapes.panel).background(colors.inverseSurface)
-                    .padding(horizontal = 18.dp, vertical = 14.dp),
+                Modifier.padding(horizontal = AppSpacing.l).widthIn(max = TOAST_MAX_WIDTH)
+                    .shadow(AppElevation.raised, AppShapes.panel).clip(AppShapes.panel).background(colors.inverseSurface)
+                    .padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
                 verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(12.dp),
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
             ) {
                 Icon(Icons.Default.CheckCircle, contentDescription = null, tint = colors.inversePrimary, modifier = Modifier.size(AppSizes.icon))
                 Text(state.text, style = MaterialTheme.typography.bodyMedium, color = colors.inverseOnSurface)
@@ -83,3 +85,5 @@ fun ToastHost(state: ToastState, durationMillis: Long = 3_000) {
         }
     }
 }
+
+private val TOAST_MAX_WIDTH = 480.dp

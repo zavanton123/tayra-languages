@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 @Composable
 actual fun BoxScope.EdgeScrollbar(state: ScrollState, modifier: Modifier) = Scrollbar(rememberScrollbarAdapter(state), modifier)
@@ -38,6 +39,6 @@ private fun BoxScope.Scrollbar(adapter: ScrollbarAdapter, modifier: Modifier) {
     )
     // Sized by the box rather than sizing it, so a box that wraps short content stays short.
     Box(Modifier.matchParentSize()) {
-        VerticalScrollbar(adapter, modifier.align(Alignment.CenterEnd).fillMaxHeight().padding(top = 4.dp, bottom = 4.dp, end = 3.dp), style = style)
+        VerticalScrollbar(adapter, modifier.align(Alignment.CenterEnd).fillMaxHeight().padding(top = AppSpacing.xs, bottom = AppSpacing.xs, end = AppSpacing.xs), style = style)
     }
 }

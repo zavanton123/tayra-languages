@@ -68,6 +68,8 @@ import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.theme.AppElevation
 
 /*
  * The design system's controls. Screens use these, not Material's buttons, text fields, dialogs and
@@ -80,9 +82,9 @@ import com.tayra.languages.core.ui.theme.AppSpacing
  * corners and dense lists, [Large] for the one big action of a card, a sheet or a phone screen.
  */
 enum class ButtonSize(internal val padding: PaddingValues, internal val minHeight: Int) {
-    Regular(PaddingValues(horizontal = 18.dp, vertical = 10.dp), 40),
-    Compact(PaddingValues(horizontal = 12.dp, vertical = 4.dp), 32),
-    Large(PaddingValues(horizontal = 20.dp, vertical = 12.dp), 52),
+    Regular(PaddingValues(horizontal = AppSpacing.xl, vertical = AppSpacing.s), 40),
+    Compact(PaddingValues(horizontal = AppSpacing.m, vertical = AppSpacing.xs), 32),
+    Large(PaddingValues(horizontal = AppSpacing.xl, vertical = AppSpacing.m), 52),
 }
 
 /** What a button does: [Normal], or [Danger] for an action that deletes or cannot be undone. */
@@ -222,7 +224,7 @@ private fun RowScope.ButtonLabel(text: String, icon: ImageVector?, loading: Bool
         icon != null -> Icon(icon, contentDescription = null, modifier = Modifier.size(iconSize))
     }
     if (loading || icon != null) Spacer(Modifier.width(AppSpacing.s))
-    Text(text, style = if (size == ButtonSize.Large) MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.SemiBold) else LocalTextStyle.current)
+    Text(text, style = if (size == ButtonSize.Large) AppText.emphasis else LocalTextStyle.current)
     if (badge != null) {
         Spacer(Modifier.width(AppSpacing.s))
         CountBadge(badge, emphasis = if (onColor) BadgeEmphasis.OnColor else BadgeEmphasis.Muted)
@@ -357,7 +359,7 @@ fun AppSlider(
         colors = colors,
         thumb = {
             Box(
-                Modifier.size(22.dp).shadow(2.dp, AppShapes.circle).background(if (enabled) primary else MaterialTheme.colorScheme.outline, AppShapes.circle)
+                Modifier.size(SLIDER_THUMB_SIZE).shadow(AppElevation.low, AppShapes.circle).background(if (enabled) primary else MaterialTheme.colorScheme.outline, AppShapes.circle)
                     .border(3.dp, MaterialTheme.colorScheme.surface, AppShapes.circle),
             )
         },
@@ -368,7 +370,7 @@ fun AppSlider(
                 enabled = enabled,
                 drawStopIndicator = null,
                 thumbTrackGapSize = 0.dp,
-                modifier = Modifier.height(8.dp),
+                modifier = Modifier.height(AppSizes.trackThick),
             )
         },
     )
@@ -400,12 +402,12 @@ fun ToggleButton(
             .border(if (active) AppBorders.selected() else AppBorders.hairline(), shape)
             .clickable(enabled = enabled, role = Role.Button, onClick = onClick)
             .then(if (contentDescription != null) Modifier.semantics { this.contentDescription = contentDescription } else Modifier)
-            .padding(horizontal = 14.dp),
+            .padding(horizontal = AppSpacing.l),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
         if (icon != null) Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconCompact))
-        if (text != null) Text(text, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium, color = tint, maxLines = 1)
+        if (text != null) Text(text, style = AppText.emphasis, color = tint, maxLines = 1)
         if (badge > 0) CountBadge(badge, emphasis = BadgeEmphasis.Solid)
         if (trailingIcon != null) Icon(trailingIcon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconCompact))
     }
@@ -430,13 +432,13 @@ fun SelectButton(
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.control
     Box(
-        modifier.height(if (label != null) 56.dp else AppSizes.control).clip(shape).background(colors.surface)
+        modifier.height(if (label != null) LABELED_SELECT_HEIGHT else AppSizes.control).clip(shape).background(colors.surface)
             .border(if (active) AppBorders.selected() else AppBorders.hairline(), shape)
             .clickable(enabled = enabled, role = Role.DropdownList, onClick = onClick)
             .padding(start = AppSpacing.m, end = AppSpacing.s),
         contentAlignment = Alignment.CenterStart,
     ) {
-        Row(Modifier.padding(end = 26.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        Row(Modifier.padding(end = AppSizes.iconMedium + AppSpacing.xs), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             when {
                 leading != null -> leading()
                 icon != null -> Icon(icon, contentDescription = null, tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.icon))
@@ -445,8 +447,7 @@ fun SelectButton(
                 if (label != null) Text(label, style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant, maxLines = 1)
                 Text(
                     value,
-                    style = MaterialTheme.typography.bodyLarge,
-                    fontWeight = FontWeight.Medium,
+                    style = AppText.emphasis,
                     color = if (!enabled) colors.onSurface.copy(alpha = AppAlpha.disabled) else if (active) colors.primary else colors.onSurface,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis,
@@ -506,12 +507,12 @@ fun LinkText(
     trailingIcon: ImageVector? = null,
 ) {
     Row(
-        modifier.clip(AppShapes.small).clickable(role = Role.Button, onClick = onClick).padding(horizontal = 6.dp, vertical = AppSpacing.xs),
+        modifier.clip(AppShapes.small).clickable(role = Role.Button, onClick = onClick).padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xs),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(6.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
     ) {
         if (icon != null) Icon(icon, contentDescription = null, tint = color, modifier = Modifier.size(AppSizes.iconCompact))
-        Text(text, style = style, color = color, fontWeight = FontWeight.Medium)
+        Text(text, style = style.copy(fontWeight = AppText.emphasis.fontWeight), color = color)
         if (trailingIcon != null) Icon(trailingIcon, contentDescription = null, tint = color, modifier = Modifier.size(AppSizes.iconSmall))
     }
 }
@@ -533,8 +534,8 @@ fun NumberField(
 ) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.width(140.dp).height(AppSizes.control).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
-            .padding(start = 14.dp, end = AppSpacing.xs),
+        modifier.width(NUMBER_FIELD_WIDTH).height(AppSizes.control).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
+            .padding(start = AppSpacing.l, end = AppSpacing.xs),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         BasicTextField(
@@ -556,13 +557,13 @@ fun NumberField(
                 Icons.Default.KeyboardArrowUp,
                 contentDescription = increaseDescription,
                 tint = colors.onSurfaceVariant,
-                modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(AppShapes.tiny).clickable { onChange((value ?: -1) + 1) },
+                modifier = Modifier.size(width = AppSizes.iconLarge, height = AppSizes.iconCompact).clip(AppShapes.tiny).clickable { onChange((value ?: -1) + 1) },
             )
             Icon(
                 Icons.Default.KeyboardArrowDown,
                 contentDescription = decreaseDescription,
                 tint = colors.onSurfaceVariant,
-                modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(AppShapes.tiny)
+                modifier = Modifier.size(width = AppSizes.iconLarge, height = AppSizes.iconCompact).clip(AppShapes.tiny)
                     .clickable(enabled = value != null) { onChange(value?.let { if (it > 0) it - 1 else null }) },
             )
         }
@@ -572,8 +573,12 @@ fun NumberField(
 /** A field's name above it, for fields and choices that carry no label of their own. */
 @Composable
 fun LabeledField(label: String, modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
-    Column(modifier, verticalArrangement = Arrangement.spacedBy(6.dp)) {
-        Text(label, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        Text(label, style = AppText.label)
         content()
     }
 }
+
+private val SLIDER_THUMB_SIZE = 22.dp
+private val LABELED_SELECT_HEIGHT = 56.dp
+private val NUMBER_FIELD_WIDTH = 140.dp

@@ -24,13 +24,12 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /*
  * The design system's notices: a one-line banner, a notice with a title and an action, and the
@@ -70,7 +69,7 @@ fun InfoBanner(
     Row(
         modifier.fillMaxWidth().clip(shape).background(tint.copy(alpha = if (dense) AppAlpha.tint else AppAlpha.wash))
             .then(if (dense) Modifier else Modifier.border(AppBorders.hairline(tint.copy(alpha = AppAlpha.line)), shape))
-            .padding(horizontal = if (dense) AppSpacing.m else AppSpacing.l, vertical = if (dense) 10.dp else 14.dp),
+            .padding(horizontal = if (dense) AppSpacing.m else AppSpacing.l, vertical = if (dense) AppSpacing.m else AppSpacing.l),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(if (dense) AppSizes.icon else AppSizes.iconMedium))
@@ -96,14 +95,14 @@ fun Notice(
     content: (@Composable ColumnScope.() -> Unit)? = null,
 ) {
     val compact = LocalWindowWidth.current.isCompact
-    TintedSurface(tint, modifier, padding = PaddingValues(if (compact) 14.dp else AppSpacing.l)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+    TintedSurface(tint, modifier, padding = PaddingValues(if (compact) AppSpacing.m else AppSpacing.l)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             when {
                 busy -> AppSpinner(size = SpinnerSize.Medium, color = tint)
                 icon != null -> Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconXLarge))
             }
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                Text(title, style = AppText.itemTitle)
                 if (message != null) Text(message, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             if (action != null && !compact) action()

@@ -69,13 +69,13 @@ fun SettingRow(
         Row(
             modifier.fillMaxWidth()
                 .then(if (onClick != null) Modifier.clip(AppShapes.compact).clickable(onClick = onClick) else Modifier)
-                .heightIn(min = if (dense) 0.dp else 56.dp)
-                .padding(start = indent, top = if (dense) AppSpacing.s else 6.dp, bottom = if (dense) AppSpacing.s else 6.dp),
+                .heightIn(min = if (dense) 0.dp else AppSizes.row)
+                .padding(start = indent, top = AppSpacing.s, bottom = AppSpacing.s),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             if (icon != null) {
                 Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(AppSizes.iconMedium))
-                Spacer(Modifier.width(14.dp))
+                Spacer(Modifier.width(AppSpacing.l))
             }
             RowText(title, description, Modifier.weight(1f).padding(end = AppSpacing.l))
             control()
@@ -141,7 +141,7 @@ fun NavigationRow(
     Row(
         modifier.fillMaxWidth().clip(AppShapes.compact).clickable(onClick = onClick).padding(vertical = AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(14.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         if (icon != null) Icon(icon, contentDescription = null, tint = tint ?: colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
         RowText(title, description, Modifier.weight(1f), color = tint ?: colors.onSurface)

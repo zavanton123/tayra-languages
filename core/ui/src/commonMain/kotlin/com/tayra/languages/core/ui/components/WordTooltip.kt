@@ -48,6 +48,8 @@ import com.tayra.languages.core.domain.text.Words
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlin.math.roundToInt
+import com.tayra.languages.core.ui.theme.AppElevation
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /**
  * Places a popup centred above [target], a rectangle in the anchor layout's own coordinates, and
@@ -69,8 +71,8 @@ fun WordTooltip(text: String) {
     val colors = MaterialTheme.colorScheme
     Text(
         text,
-        Modifier.shadow(4.dp, AppShapes.compact).clip(AppShapes.compact).background(colors.inverseSurface)
-            .widthIn(max = 320.dp).padding(horizontal = 10.dp, vertical = 6.dp),
+        Modifier.shadow(AppElevation.medium, AppShapes.compact).clip(AppShapes.compact).background(colors.inverseSurface)
+            .widthIn(max = TOOLTIP_MAX_WIDTH).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
         style = MaterialTheme.typography.bodyMedium,
         color = colors.inverseOnSurface,
     )
@@ -220,3 +222,5 @@ private fun wordUnder(layout: TextLayoutResult, text: String, position: Offset):
 
 private const val HOVER_DELAY_MS = 300L
 private const val LOADING_DELAY_MS = 250L
+
+private val TOOLTIP_MAX_WIDTH = 320.dp

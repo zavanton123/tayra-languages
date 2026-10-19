@@ -19,13 +19,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.model.BookStats
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.theme.AppShapes
 import kotlin.math.roundToInt
+import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 const val STATUS_BAR_TAG = "status-distribution-bar"
 
@@ -44,7 +46,7 @@ private val KNOWN = listOf(TermStatus.WELL_KNOWN, TermStatus.IGNORED)
 @Composable
 fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scope: String = "in this book") {
     if (stats == null || stats.distinctTerms == 0) {
-        Box(modifier.height(10.dp).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surfaceVariant))
+        Box(modifier.height(AppSizes.trackBold).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surfaceVariant))
         return
     }
     val colors = TayraTheme.current.statusColors
@@ -52,7 +54,7 @@ fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scop
     // The caller's modifier stays on this box: a row weight set on the tooltip box is not applied.
     Box(modifier) {
         AppRichTooltip(title = tr("Vocabulary {0}", tr(scope)), modifier = Modifier.fillMaxWidth(), persistent = true, body = { StatusBreakdown(stats) }) {
-            Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().height(10.dp).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surfaceVariant)) {
+            Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().height(AppSizes.trackBold).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surfaceVariant)) {
                 val segments = listOf(TermStatus.UNKNOWN to count(listOf(TermStatus.UNKNOWN))) +
                     LEARNING.map { it to count(listOf(it)) } +
                     (TermStatus.WELL_KNOWN to count(KNOWN))
@@ -79,18 +81,18 @@ private fun StatusBreakdown(stats: BookStats) {
         Triple(tr("Learning"), learning to learningPercent, colors.background(TermStatus.NEW_1)),
         Triple(tr("Known"), known to (100 - unknownPercent - learningPercent), colors.background(TermStatus.WELL_KNOWN)),
     )
-    Column(Modifier.padding(top = 4.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+    Column(Modifier.padding(top = AppSpacing.xs), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         for ((label, numbers, color) in rows) {
             val (n, percent) = numbers
             Row(verticalAlignment = Alignment.CenterVertically) {
                 StatusDot(color)
-                Text(label, Modifier.padding(start = 8.dp).width(72.dp), fontWeight = FontWeight.Medium)
+                Text(label, Modifier.padding(start = AppSpacing.s).width(BREAKDOWN_LABEL_WIDTH), style = AppText.label)
                 Text("${words(n)} ($percent%)")
             }
         }
         Text(
             trPlural(total, "{0} word in total", "{0} words in total"),
-            Modifier.padding(top = 2.dp),
+            Modifier.padding(top = AppSpacing.xxs),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
@@ -98,3 +100,5 @@ private fun StatusBreakdown(stats: BookStats) {
 }
 
 private fun words(n: Int) = trPlural(n, "{0} word", "{0} words")
+
+private val BREAKDOWN_LABEL_WIDTH = 72.dp

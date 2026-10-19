@@ -61,6 +61,8 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.Scaffold
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * The language being learned and the ones to choose from; [languages] are ids with their English names, shown through `tr`.
@@ -88,7 +90,7 @@ fun LanguageCodeBadge(languageName: String, size: Dp = 28.dp) {
     val code = LanguageCodes.codeFor(languageName)?.uppercase() ?: languageName.take(2).uppercase()
     val tint = badgeTints[(code.hashCode() and Int.MAX_VALUE) % badgeTints.size]
     Box(Modifier.size(size).clip(AppShapes.circle).background(tint.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
-        Text(code, color = tint, style = MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Bold)
+        Text(code, color = tint, style = AppText.badge)
     }
 }
 
@@ -112,13 +114,13 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier, on
                 .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), AppShapes.panel)
                 .clickable { if (onOpen != null) onOpen() else open = true }
                 .semantics { contentDescription = tr("Learning language: {0}", label) }
-                .padding(horizontal = if (compact) 8.dp else 12.dp, vertical = 8.dp),
+                .padding(horizontal = if (compact) AppSpacing.s else AppSpacing.m, vertical = AppSpacing.s),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(if (compact) 4.dp else 10.dp),
+            horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.xs else AppSpacing.s),
         ) {
             LanguageFlag(name, if (compact) 18.dp else 22.dp)
             if (!compact) {
-                Text(label, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(label, style = AppText.smallTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
             Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.icon))
         }
@@ -149,7 +151,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text(tr("Choose a language"), fontWeight = FontWeight.Bold) },
+                title = { Text(tr("Choose a language"), style = AppText.sectionTitle) },
                 navigationIcon = { AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack, tint = colors.primary) },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(containerColor = colors.surface),
             )
@@ -158,13 +160,13 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
     ) { padding ->
         if (state == null) return@Scaffold
         Box(Modifier.padding(padding).fillMaxSize().testTag("choose-language")) {
-            LazyColumn(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(bottom = 24.dp)) {
+            LazyColumn(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(bottom = AppSpacing.xxl)) {
                 item {
                     SearchField(
                         value = query,
                         onValueChange = { query = it },
                         placeholder = tr("Search languages"),
-                        modifier = Modifier.padding(horizontal = 16.dp).fillMaxWidth(),
+                        modifier = Modifier.padding(horizontal = AppSpacing.l).fillMaxWidth(),
                         fieldModifier = Modifier.testTag("language-search"),
                     )
                 }
@@ -172,14 +174,14 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                     item { PhoneSectionTitle(tr("Current language")) }
                     item {
                         Row(
-                            Modifier.padding(horizontal = 16.dp).fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.tint))
-                                .padding(horizontal = 14.dp, vertical = 14.dp).testTag("current-language"),
+                            Modifier.padding(horizontal = AppSpacing.l).fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.tint))
+                                .padding(horizontal = AppSpacing.l, vertical = AppSpacing.l).testTag("current-language"),
                             verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(16.dp),
+                            horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
                         ) {
                             LanguageFlag(currentName, 36.dp, Modifier.clip(AppShapes.small))
                             Column(Modifier.weight(1f)) {
-                                Text(tr(currentName), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                                Text(tr(currentName), style = AppText.itemTitle)
                                 state.knownWords?.let { Text(trPlural(it, "{0} word", "{0} words", formatCount(it)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
                             }
                             Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
@@ -188,25 +190,25 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                 }
                 item { PhoneSectionTitle(tr("All languages"), trPlural(others.size, "{0} language", "{0} languages")) }
                 if (others.isEmpty()) {
-                    item { Text(tr("No languages match"), Modifier.padding(horizontal = 16.dp, vertical = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
+                    item { Text(tr("No languages match"), Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
                 }
                 itemsIndexed(others, key = { _, (id, _) -> id }) { index, (id, name) ->
                     val native = id in state.nativeIds
                     Row(
                         Modifier.fillMaxWidth().clickable(enabled = !native) { onBack(); state.onSelect(id) }.alpha(if (native) AppAlpha.disabled else 1f)
-                            .padding(start = 24.dp, end = 40.dp, top = 12.dp, bottom = 12.dp).testTag("language-${LanguageCodes.codeFor(name) ?: name}"),
+                            .padding(start = AppSpacing.xxl, end = AppSpacing.huge, top = AppSpacing.m, bottom = AppSpacing.m).testTag("language-${LanguageCodes.codeFor(name) ?: name}"),
                         verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(18.dp),
+                        horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl),
                     ) {
                         LanguageFlag(name, 30.dp, Modifier.clip(AppShapes.tiny))
                         Text(tr(name), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                         if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
                     }
-                    if (index < others.lastIndex) AppDivider(Modifier.padding(start = 16.dp, end = 32.dp), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
+                    if (index < others.lastIndex) AppDivider(Modifier.padding(start = AppSpacing.l, end = AppSpacing.xxxl), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
                 }
             }
             if (letters.size > 1) {
-                Column(Modifier.align(Alignment.CenterEnd).padding(end = 6.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                Column(Modifier.align(Alignment.CenterEnd).padding(end = AppSpacing.xs), horizontalAlignment = Alignment.CenterHorizontally) {
                     letters.forEach { letter ->
                         Text(
                             letter.toString(),
@@ -215,10 +217,9 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                                     val target = others.indexOfFirst { (_, name) -> tr(name).first().uppercaseChar() == letter }
                                     if (target >= 0) scope.launch { list.animateScrollToItem(rowsBefore + target) }
                                 }
-                                .padding(horizontal = 6.dp, vertical = 2.dp)
+                                .padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xxs)
                                 .testTag("index-$letter"),
-                            style = MaterialTheme.typography.labelMedium,
-                            fontWeight = FontWeight.SemiBold,
+                            style = AppText.badge,
                             color = colors.primary,
                         )
                     }
@@ -230,8 +231,8 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
 
 @Composable
 private fun PhoneSectionTitle(title: String, note: String? = null) {
-    Row(Modifier.padding(start = 16.dp, end = 16.dp, top = 22.dp, bottom = 12.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+    Row(Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.xxl, bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        Text(title, style = AppText.sectionTitle)
         if (note != null) Text(note, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
@@ -258,10 +259,10 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit) 
     val currentName = state.currentName
     val currentShown = currentName != null && (needle.isEmpty() || tr(currentName).lowercase().contains(needle) || currentName.lowercase().contains(needle))
     AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.fillMaxHeight(0.92f), maxWidth = 1160.dp) {
-        Column(Modifier.padding(horizontal = if (width.isCompact) 20.dp else 32.dp, vertical = 24.dp)) {
+        Column(Modifier.padding(horizontal = if (width.isCompact) AppSpacing.xl else AppSpacing.xxxl, vertical = AppSpacing.xxl)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f)) {
-                    Text(tr("Choose a language"), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                    Text(tr("Choose a language"), style = AppText.screenTitle)
                     Text(tr("Switch the language you're learning"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
                 AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss, style = IconButtonStyle.Tonal, tint = colors.onSurface)
@@ -270,20 +271,20 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit) 
                 value = query,
                 onValueChange = { query = it },
                 placeholder = tr("Search languages"),
-                modifier = Modifier.fillMaxWidth().padding(top = 24.dp),
+                modifier = Modifier.fillMaxWidth().padding(top = AppSpacing.xxl),
                 fieldModifier = Modifier.focusRequester(focus).testTag("language-search"),
             )
-            ScrollColumn(Modifier.fillMaxWidth().weight(1f), contentModifier = Modifier.padding(top = 8.dp, end = 14.dp)) {
+            ScrollColumn(Modifier.fillMaxWidth().weight(1f), contentModifier = Modifier.padding(top = AppSpacing.s, end = AppSpacing.l)) {
                 if (currentShown) {
                     SectionTitle(tr("Current language"))
                     CurrentLanguageCard(currentName!!, state.knownWords)
                 }
                 SectionTitle(tr("All languages"), trPlural(others.size, "{0} language", "{0} languages"))
                 if (others.isEmpty()) {
-                    Text(tr("No languages match"), Modifier.padding(vertical = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                    Text(tr("No languages match"), Modifier.padding(vertical = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
                 others.chunked(columns).forEach { row ->
-                    Row(Modifier.fillMaxWidth().padding(bottom = 10.dp), horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                    Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                         row.forEach { (id, name) ->
                             LanguageTile(name, native = id in state.nativeIds, Modifier.weight(1f)) { onDismiss(); state.onSelect(id) }
                         }
@@ -297,8 +298,8 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit) 
 
 @Composable
 private fun SectionTitle(title: String, note: String? = null) {
-    Row(Modifier.padding(top = 20.dp, bottom = 12.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+    Row(Modifier.padding(top = AppSpacing.xl, bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        Text(title, style = AppText.sectionTitle)
         if (note != null) Text(note, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
@@ -309,13 +310,13 @@ private fun CurrentLanguageCard(name: String, knownWords: Int?) {
     val colors = MaterialTheme.colorScheme
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.selected(colors.primary.copy(alpha = AppAlpha.half)), AppShapes.card)
-            .padding(horizontal = 20.dp, vertical = 14.dp).testTag("current-language"),
+            .padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l).testTag("current-language"),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         LanguageFlag(name, 30.dp)
         Column(Modifier.weight(1f)) {
-            Text(tr(name), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            Text(tr(name), style = AppText.itemTitle)
             if (knownWords != null) Text(trPlural(knownWords, "{0} word", "{0} words", formatCount(knownWords)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
@@ -327,13 +328,13 @@ private fun CurrentLanguageCard(name: String, knownWords: Int?) {
 private fun LanguageTile(name: String, native: Boolean, modifier: Modifier, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(50.dp).cardSurface(AppShapes.panel)
-            .clickable(enabled = !native, onClick = onClick).alpha(if (native) AppAlpha.disabled else 1f).padding(horizontal = 16.dp).testTag("language-${LanguageCodes.codeFor(name) ?: name}"),
+        modifier.height(LANGUAGE_TILE_HEIGHT).cardSurface(AppShapes.panel)
+            .clickable(enabled = !native, onClick = onClick).alpha(if (native) AppAlpha.disabled else 1f).padding(horizontal = AppSpacing.l).testTag("language-${LanguageCodes.codeFor(name) ?: name}"),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(14.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         LanguageFlag(name, 22.dp)
-        Text(tr(name), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(tr(name), Modifier.weight(1f), style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
         if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
     }
 }
@@ -348,7 +349,7 @@ fun LanguageMenuRow(flagName: String, label: String, chosen: Boolean, unavailabl
     Row(
         Modifier.alpha(if (unavailableNote != null) AppAlpha.disabled else 1f),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
         LanguageFlag(flagName, 18.dp)
         Text(label, Modifier.weight(1f, fill = false), fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal)
@@ -357,3 +358,5 @@ fun LanguageMenuRow(flagName: String, label: String, chosen: Boolean, unavailabl
         if (chosen) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconCompact))
     }
 }
+
+private val LANGUAGE_TILE_HEIGHT = 50.dp

@@ -28,6 +28,7 @@ import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /**
  * A chip-based multi-value input with suggestions, used for tags and parent terms.
@@ -64,7 +65,7 @@ fun TagInput(
 
     Column(modifier) {
         if (values.isNotEmpty()) {
-            FlowRow(Modifier.padding(vertical = 6.dp), horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            FlowRow(Modifier.padding(vertical = AppSpacing.s), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 values.forEach { value ->
                     RemovableChip(
                         onRemove = { onValuesChange(values - value) },
@@ -113,7 +114,7 @@ fun TagInput(
             .filter { pending.isBlank() || it.contains(pending, ignoreCase = true) }
         if (focused && pending.isNotBlank() && visible.isNotEmpty()) {
             PopupCard(Modifier.fillMaxWidth()) {
-                LazyColumn(Modifier.heightIn(max = 200.dp)) {
+                LazyColumn(Modifier.heightIn(max = SUGGESTIONS_MAX_HEIGHT)) {
                     items(visible.take(20)) { suggestion ->
                         AppMenuItem(text = { suggestionContent?.invoke(suggestion) ?: Text(suggestion) }, onClick = { commit(suggestion) })
                     }
@@ -122,3 +123,5 @@ fun TagInput(
         }
     }
 }
+
+private val SUGGESTIONS_MAX_HEIGHT = 200.dp

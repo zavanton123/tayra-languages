@@ -15,6 +15,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 enum class WindowWidth { COMPACT, MEDIUM, EXPANDED;
     val isCompact: Boolean get() = this == COMPACT
@@ -39,7 +40,7 @@ fun ProvideWindowWidth(content: @Composable () -> Unit) {
     }
 }
 
-val ContentPadding = PaddingValues(horizontal = 16.dp, vertical = 12.dp)
+val ContentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)
 
 @Composable
 fun LoadingIndicator(modifier: Modifier = Modifier) {
@@ -48,7 +49,7 @@ fun LoadingIndicator(modifier: Modifier = Modifier) {
 
 @Composable
 fun EmptyMessage(text: String, modifier: Modifier = Modifier) {
-    Box(modifier.fillMaxSize().padding(32.dp), contentAlignment = Alignment.Center) {
+    Box(modifier.fillMaxSize().padding(AppSpacing.xxxl), contentAlignment = Alignment.Center) {
         Text(text, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
@@ -56,7 +57,7 @@ fun EmptyMessage(text: String, modifier: Modifier = Modifier) {
 @Composable
 fun ErrorMessage(text: String?, modifier: Modifier = Modifier) {
     if (text.isNullOrBlank()) return
-    Column(modifier.padding(vertical = 4.dp)) {
+    Column(modifier.padding(vertical = AppSpacing.xs)) {
         Text(text, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodyMedium)
     }
 }

@@ -52,6 +52,7 @@ import com.tayra.languages.feature.settings.ChineseScriptPrompt
 import org.koin.compose.viewmodel.koinViewModel
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
+import com.tayra.languages.core.ui.theme.AppSpacing
 
 /**
  * Gives every screen's top bar the choice of the language being learned, and picks a language
@@ -147,7 +148,7 @@ fun App(titleBarInset: Dp = 0.dp) {
                     val state by bootstrap.state.collectAsStateWithLifecycle()
                     when (val s = state) {
                         BootstrapState.Loading -> LoadingIndicator()
-                        is BootstrapState.Failed -> Box(Modifier.fillMaxSize().padding(24.dp), contentAlignment = Alignment.Center) {
+                        is BootstrapState.Failed -> Box(Modifier.fillMaxSize().padding(AppSpacing.xxl), contentAlignment = Alignment.Center) {
                             Text(tr("Could not start: {0}", s.message), color = MaterialTheme.colorScheme.error)
                         }
                         BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId, onChosen = { openCourses++ }) {
