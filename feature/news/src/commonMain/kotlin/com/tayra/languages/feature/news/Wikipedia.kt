@@ -1,19 +1,11 @@
 package com.tayra.languages.feature.news
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import com.tayra.languages.core.ui.i18n.trPlural
-import com.tayra.languages.core.ui.components.ToggleButton
-import com.tayra.languages.core.ui.components.AppBottomSheet
-import androidx.compose.runtime.setValue
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.foundation.verticalScroll
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -23,12 +15,18 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -46,6 +44,7 @@ import com.tayra.languages.core.domain.news.NewsService
 import com.tayra.languages.core.domain.news.Wiki
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppFilterChip
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppSpinner
@@ -64,11 +63,13 @@ import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagSize
+import com.tayra.languages.core.ui.components.ToggleButton
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.state.UiEvents
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
@@ -337,8 +338,9 @@ private fun WikiFilterChips(state: WikiUiState, actions: WikiActions) {
             ArticleLength.entries.forEach { length ->
                 AppFilterChip(selected = state.length == length, onClick = { actions.onLength(length) }, label = { Text(length.label) }, modifier = Modifier.testTag("length-${length.name}"))
             }
-            AppFilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("wiki-hide-read"))
         }
+        // Not a length: a filter of its own, on its own line.
+        AppFilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("wiki-hide-read"))
         DifficultyFilter(state.difficulty, actions.onDifficulty)
     }
 }
@@ -423,8 +425,11 @@ private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, c
     val article = item.article
     val introOpened = article.url in state.opened
     val wholeOpened = NewsService.wholeKey(article) in state.opened
+    val readLabel = if (introOpened) tr("Continue") else tr("Read the introduction")
+    // On a phone the whole card opens the introduction, so its buttons need not be big.
+    val opens = if (compact) Modifier.clickable(enabled = !item.opening, onClickLabel = readLabel) { actions.onOpen(item) } else Modifier
     Column(
-        modifier.fillMaxWidth().cardSurface().padding(AppSpacing.l).testTag("wiki-${article.title}"),
+        modifier.fillMaxWidth().cardSurface().then(opens).padding(AppSpacing.l).testTag("wiki-${article.title}"),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
@@ -438,13 +443,12 @@ private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, c
         CoverageLine(item.difficulty, item.check, tag = article.url)
         item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
         Spacer(Modifier.height(AppSpacing.xxs))
-        val buttons: @Composable (Modifier) -> Unit = { m ->
-            val label = if (introOpened) tr("Continue") else tr("Read the introduction")
-            PrimaryButton(label, onClick = { actions.onOpen(item) }, modifier = m.testTag("read-${article.url}"), loading = item.opening)
+        FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            val read = Modifier.testTag("read-${article.url}")
+            if (compact) SecondaryButton(readLabel, onClick = { actions.onOpen(item) }, modifier = read, loading = item.opening)
+            else PrimaryButton(readLabel, onClick = { actions.onOpen(item) }, modifier = read, loading = item.opening)
             QuietButton(if (wholeOpened) tr("Continue the whole article") else tr("Whole article"), onClick = { actions.onOpenWhole(item) }, enabled = !item.opening, modifier = Modifier.testTag("whole-${article.url}"))
         }
-        if (compact) Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) { buttons(Modifier.fillMaxWidth()) }
-        else Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) { buttons(Modifier) }
     }
 }
 
