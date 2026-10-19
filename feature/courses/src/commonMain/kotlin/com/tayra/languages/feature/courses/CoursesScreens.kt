@@ -4,7 +4,6 @@ import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.i18n.formatCount
 import kotlin.math.roundToInt
 import androidx.compose.foundation.layout.IntrinsicSize
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.hoverable
@@ -24,12 +23,9 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
-import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material.icons.filled.Add
@@ -65,14 +61,16 @@ import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppVerticalDivider
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ButtonTone
+import com.tayra.languages.core.ui.components.CountTabs
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -84,7 +82,12 @@ import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.Segment
+import com.tayra.languages.core.ui.components.SegmentStyle
 import com.tayra.languages.core.ui.components.SegmentedToggle
+import com.tayra.languages.core.ui.components.SelectMenu
+import com.tayra.languages.core.ui.components.Tab
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.TagFilterButton
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.tr
@@ -94,6 +97,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAccents
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
@@ -149,40 +153,15 @@ private fun CourseTags(course: com.tayra.languages.core.domain.courses.Course) {
 
 /** The most common words a course built on the frequency list covers. */
 @Composable
-internal fun RankTag(rankUpTo: Int) {
-    Text(
-        tr("Words {0}–{1}", rankUpTo - 99, rankUpTo),
-        Modifier.clip(AppShapes.pill).background(AppAccents.blue.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
-        style = MaterialTheme.typography.labelMedium,
-        color = AppAccents.blue,
-        fontWeight = FontWeight.SemiBold,
-    )
-}
+internal fun RankTag(rankUpTo: Int) = Tag(tr("Words {0}–{1}", rankUpTo - 99, rankUpTo), AppAccents.blue, size = TagSize.Medium)
 
 /** One of a course's or a lesson's tags. */
 @Composable
-internal fun LabelTag(label: String) {
-    Text(
-        label,
-        Modifier.clip(AppShapes.pill).background(AppAccents.purple.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
-        style = MaterialTheme.typography.labelMedium,
-        color = AppAccents.purple,
-        fontWeight = FontWeight.SemiBold,
-        softWrap = false,
-    )
-}
+internal fun LabelTag(label: String) = Tag(label, AppAccents.purple, size = TagSize.Medium)
 
 /** Marks one of the app's sample courses. */
 @Composable
-internal fun SampleTag() {
-    Text(
-        tr("Sample course"),
-        Modifier.clip(AppShapes.pill).background(AppAccents.purple.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
-        style = MaterialTheme.typography.labelMedium,
-        color = AppAccents.purple,
-        fontWeight = FontWeight.SemiBold,
-    )
-}
+internal fun SampleTag() = LabelTag(tr("Sample course"))
 
 /** The courses of the language being learned, to search, filter and sort. */
 @Composable
@@ -269,11 +248,7 @@ internal fun CoursesContent(
             actions = {
                 // Without courses the empty state's own button creates the first one.
                 if (state.languageName.isNotEmpty() && state.courses.isNotEmpty()) {
-                    PrimaryButton(onClick = onNewCourse, modifier = Modifier.testTag("new-course")) {
-                        Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(20.dp))
-                        Spacer(Modifier.width(8.dp))
-                        Text(if (compact) tr("Create") else tr("New course"))
-                    }
+                    PrimaryButton(if (compact) tr("Create") else tr("New course"), onClick = onNewCourse, modifier = Modifier.testTag("new-course"), icon = Icons.Default.Add)
                 }
             },
         )
@@ -287,17 +262,17 @@ internal fun CoursesContent(
         if (compact) {
             SearchBox(state.search, onSearch, Modifier.fillMaxWidth())
             FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
-                FilterMenu(levelLabel, listOf<CourseLevel?>(null) + state.levels, { it?.display ?: tr("All levels") }, onLevel, Modifier.testTag("level-filter"))
+                LevelMenu(state, levelLabel, onLevel)
                 if (state.availableTags.isNotEmpty()) TagFilterButton(state.availableTags, state.tags, state.matchAllTags, onTags)
-                FilterMenu(state.sort.label, CoursesSort.entries, { it.label }, onSort, Modifier.testTag("course-sort"))
+                SelectMenu(CoursesSort.entries, state.sort, onSort, { it.label }, buttonModifier = Modifier.testTag("course-sort"))
                 SegmentedToggle(viewSegments(iconsOnly = true), state.view, onView)
             }
         } else {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 SearchBox(state.search, onSearch, Modifier.weight(1f))
-                FilterMenu(levelLabel, listOf<CourseLevel?>(null) + state.levels, { it?.display ?: tr("All levels") }, onLevel, Modifier.testTag("level-filter"))
+                LevelMenu(state, levelLabel, onLevel)
                 if (state.availableTags.isNotEmpty()) TagFilterButton(state.availableTags, state.tags, state.matchAllTags, onTags)
-                FilterMenu(state.sort.label, CoursesSort.entries, { it.label }, onSort, Modifier.testTag("course-sort"))
+                SelectMenu(CoursesSort.entries, state.sort, onSort, { it.label }, buttonModifier = Modifier.testTag("course-sort"))
                 SegmentedToggle(viewSegments(iconsOnly = !width.isExpanded), state.view, onView)
                 Text(count, Modifier.padding(start = 8.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
             }
@@ -351,31 +326,10 @@ internal fun CoursesContent(
 /** All courses, then those not started, in progress and completed, each with how many it holds. */
 @Composable
 internal fun StatusTabs(counts: Map<LessonStatus?, Int>, selected: LessonStatus?, onSelect: (LessonStatus?) -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        listOf(null, LessonStatus.IN_PROGRESS, LessonStatus.NOT_STARTED, LessonStatus.COMPLETED).forEach { status ->
-            val active = status == selected
-            Row(
-                Modifier.height(AppSizes.control).clip(AppShapes.panel)
-                    .background(if (active) colors.primary else colors.surface)
-                    .border(AppBorders.hairline(if (active) colors.primary else colors.outlineVariant), AppShapes.panel)
-                    .clickable { onSelect(status) }
-                    .padding(horizontal = 20.dp)
-                    .testTag("status-${status?.name ?: "ALL"}"),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(10.dp),
-            ) {
-                Text(status?.label ?: tr("All"), style = MaterialTheme.typography.titleMedium, color = if (active) colors.onPrimary else colors.onSurface, softWrap = false)
-                Text(
-                    formatCount(counts[status] ?: 0),
-                    Modifier.clip(AppShapes.pill).background(if (active) colors.onPrimary.copy(alpha = 0.22f) else colors.onSurface.copy(alpha = 0.07f)).padding(horizontal = 10.dp, vertical = 2.dp),
-                    style = MaterialTheme.typography.labelLarge,
-                    fontWeight = FontWeight.SemiBold,
-                    color = if (active) colors.onPrimary else colors.onSurfaceVariant,
-                )
-            }
-        }
+    val tabs = listOf(null, LessonStatus.IN_PROGRESS, LessonStatus.NOT_STARTED, LessonStatus.COMPLETED).map { status ->
+        Tab(status, status?.label ?: tr("All"), count = counts[status] ?: 0, testTag = "status-${status?.name ?: "ALL"}")
     }
+    CountTabs(tabs, selected, onSelect, style = SegmentStyle.Solid)
 }
 
 /** Grid or list, as icons with their names, or [iconsOnly]. */
@@ -420,7 +374,7 @@ private fun ContinueCard(progress: CourseProgress, compact: Boolean, onContinue:
             Text(tr("Continue"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
         }
     }
-    val card = Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = 0.05f)).border(AppBorders.hairline(colors.primary.copy(alpha = 0.15f)), shape)
+    val card = Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), shape)
     if (compact) {
         Column(card.padding(18.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
             heading()
@@ -443,7 +397,7 @@ private fun ContinueCard(progress: CourseProgress, compact: Boolean, onContinue:
 @Composable
 internal fun LevelHeader(level: CourseLevel, count: Int) {
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).background(level.tint.copy(alpha = 0.1f)).padding(horizontal = 16.dp, vertical = 10.dp),
+        Modifier.fillMaxWidth().clip(AppShapes.control).background(level.tint.copy(alpha = AppAlpha.tint)).padding(horizontal = 16.dp, vertical = 10.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Text(level.code, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = level.tint)
@@ -498,7 +452,7 @@ private fun CourseCard(progress: CourseProgress, modifier: Modifier, tagsBelow: 
     val hovered by interaction.collectIsHoveredAsState()
     Column(
         modifier.clip(AppShapes.large).background(colors.surface)
-            .border(AppBorders.hairline(if (hovered) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant), AppShapes.large)
+            .border(AppBorders.hairline(if (hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), AppShapes.large)
             .hoverable(interaction).clickable(onClick = onClick).padding(20.dp).testTag("course-${course.id}"),
     ) {
         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -537,7 +491,7 @@ private fun CourseRow(progress: CourseProgress, compact: Boolean, onClick: () ->
     val hovered by interaction.collectIsHoveredAsState()
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surface)
-            .border(AppBorders.hairline(if (hovered) colors.primary.copy(alpha = 0.5f) else colors.outlineVariant), AppShapes.card)
+            .border(AppBorders.hairline(if (hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), AppShapes.card)
             .hoverable(interaction).clickable(onClick = onClick).padding(horizontal = 16.dp, vertical = 14.dp).testTag("course-${course.id}"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(if (compact) 14.dp else 24.dp),
@@ -634,17 +588,9 @@ internal fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDown
                     // The courses are downloaded from here; they take the page over as soon as they are written.
                     val downloading = state.packState is PackState.Downloading
                     PrimaryButton(if (downloading) tr("Downloading…") else tr("Download courses"), onClick = onDownloadCourses, icon = AppIcons.Download, loading = downloading, modifier = Modifier.testTag("download-courses"))
-                    SecondaryButton(onClick = onNewCourse, modifier = Modifier.testTag("new-course")) {
-                        Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(20.dp))
-                        Spacer(Modifier.width(10.dp))
-                        Text(tr("Create course"), style = MaterialTheme.typography.titleSmall)
-                    }
+                    SecondaryButton(tr("Create course"), onClick = onNewCourse, modifier = Modifier.testTag("new-course"), icon = Icons.Default.Add)
                 } else {
-                    PrimaryButton(onClick = onNewCourse, modifier = Modifier.testTag("new-course")) {
-                        Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(20.dp))
-                        Spacer(Modifier.width(10.dp))
-                        Text(tr("Create course"), style = MaterialTheme.typography.titleSmall)
-                    }
+                    PrimaryButton(tr("Create course"), onClick = onNewCourse, modifier = Modifier.testTag("new-course"), icon = Icons.Default.Add)
                 }
             }
         }
@@ -656,24 +602,8 @@ internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modi
     SearchField(value, onChange, tr("Search courses, lessons and tags"), modifier, fieldModifier = Modifier.testTag("course-search"))
 
 @Composable
-private fun <T> FilterMenu(label: String, options: List<T>, optionLabel: (T) -> String, onSelect: (T) -> Unit, modifier: Modifier = Modifier) {
-    val colors = MaterialTheme.colorScheme
-    var open by remember { mutableStateOf(false) }
-    Box(modifier) {
-        Row(
-            Modifier.height(AppSizes.control).cardSurface(AppShapes.control)
-                .clickable { open = true }.padding(start = 16.dp, end = 10.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
-        ) {
-            Text(label, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, maxLines = 1)
-            Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = colors.onSurfaceVariant)
-        }
-        AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            options.forEach { option -> AppMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) }) }
-        }
-    }
-}
+private fun LevelMenu(state: CoursesUiState, label: String, onLevel: (CourseLevel?) -> Unit) =
+    SelectMenu(listOf<CourseLevel?>(null) + state.levels, state.level, onLevel, { it?.display ?: tr("All levels") }, value = label, buttonModifier = Modifier.testTag("level-filter"))
 
 /** A course: what it is, how far the reader has got, and its lessons to read in order. */
 @Composable
@@ -734,14 +664,7 @@ internal fun CourseContent(
     ) {
         // On a phone the bar has the way back and the course's title.
         if (!compact) Row(verticalAlignment = Alignment.CenterVertically) {
-            Row(
-                Modifier.clip(AppShapes.compact).clickable(onClick = onCourses).padding(vertical = 4.dp, horizontal = 2.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, modifier = Modifier.size(20.dp), tint = colors.onSurfaceVariant)
-                Spacer(Modifier.width(10.dp))
-                Text(tr("Courses"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-            }
+            LinkText(tr("Courses"), onCourses, color = colors.onSurfaceVariant, icon = Icons.AutoMirrored.Filled.ArrowBack)
             if (progress != null) {
                 Text("/", Modifier.padding(horizontal = 10.dp), style = MaterialTheme.typography.bodyLarge, color = colors.outline)
                 Text(progress.course.title, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
@@ -772,7 +695,7 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
     val course = progress.course
     Column(modifier.cardSurface(AppShapes.large)) {
         // A stripe in the level's colour.
-        Box(Modifier.fillMaxWidth().height(5.dp).background(course.level.tint.copy(alpha = 0.55f)))
+        Box(Modifier.fillMaxWidth().height(5.dp).background(course.level.tint.copy(alpha = AppAlpha.half)))
         Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(18.dp)) {
                 LevelTile(course.level, 60)
@@ -794,7 +717,7 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                 ProgressLine(progress)
             }
             progress.nextLesson?.let { next ->
-                PrimaryButton(onClick = { onOpenLesson(next.lesson.id) }, modifier = Modifier.fillMaxWidth().height(56.dp)) {
+                PrimaryButton(onClick = { onOpenLesson(next.lesson.id) }, modifier = Modifier.fillMaxWidth(), size = ButtonSize.Large) {
                     Text(
                         when (progress.status) {
                             LessonStatus.NOT_STARTED -> tr("Start course")
@@ -808,22 +731,14 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                         overflow = TextOverflow.Ellipsis,
                     )
                     Spacer(Modifier.width(12.dp))
-                    Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, modifier = Modifier.size(20.dp))
+                    Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
                 }
             }
             if (editing != null) {
                 var confirm by remember { mutableStateOf(false) }
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    SecondaryButton(onClick = editing.onEdit, modifier = Modifier.weight(1f).testTag("edit-course")) {
-                        Icon(Icons.Default.Edit, contentDescription = null, modifier = Modifier.size(18.dp))
-                        Spacer(Modifier.width(8.dp))
-                        Text(tr("Edit course"))
-                    }
-                    SecondaryButton(onClick = { confirm = true }, tone = ButtonTone.Danger, modifier = Modifier.weight(1f).testTag("delete-course")) {
-                        Icon(Icons.Default.Delete, contentDescription = null, modifier = Modifier.size(18.dp))
-                        Spacer(Modifier.width(8.dp))
-                        Text(tr("Delete"))
-                    }
+                    SecondaryButton(tr("Edit course"), onClick = editing.onEdit, modifier = Modifier.weight(1f).testTag("edit-course"), icon = Icons.Default.Edit)
+                    SecondaryButton(tr("Delete"), onClick = { confirm = true }, modifier = Modifier.weight(1f).testTag("delete-course"), icon = Icons.Default.Delete, tone = ButtonTone.Danger)
                 }
                 if (confirm) {
                     ConfirmDelete(
@@ -865,7 +780,7 @@ private fun ConfirmDelete(title: String, text: String, onConfirm: () -> Unit, on
 private fun Fact(icon: ImageVector, text: String) {
     val colors = MaterialTheme.colorScheme
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-        Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
+        Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
         Text(text, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
     }
 }
@@ -883,15 +798,11 @@ private fun LessonList(progress: CourseProgress, compact: Boolean, onOpenLesson:
                 Text("${lessonCount(course.lessons.size)} · ${wordCount(course.wordCount)}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
             if (editing != null) {
-                PrimaryButton(onClick = editing.onAddLesson, modifier = Modifier.testTag("add-lesson")) {
-                    Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
-                    Spacer(Modifier.width(8.dp))
-                    Text(tr("Add lesson"))
-                }
+                PrimaryButton(tr("Add lesson"), onClick = editing.onAddLesson, modifier = Modifier.testTag("add-lesson"), icon = Icons.Default.Add)
             }
         }
         if (progress.lessons.isEmpty()) {
-            AppDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
+            AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
             Text(
                 if (editing != null) tr("No lessons yet. Add the first one: a text you want to read.") else tr("This course has no lessons."),
                 Modifier.padding(28.dp),
@@ -900,7 +811,7 @@ private fun LessonList(progress: CourseProgress, compact: Boolean, onOpenLesson:
             )
         }
         progress.lessons.forEachIndexed { index, lesson ->
-            AppDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
+            AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
             LessonRow(
                 number = index + 1,
                 progress = lesson,
@@ -942,8 +853,8 @@ private fun LessonRow(
         Modifier.fillMaxWidth()
             .background(
                 when {
-                    hint != null -> colors.primary.copy(alpha = 0.07f)
-                    hovered -> colors.primary.copy(alpha = 0.04f)
+                    hint != null -> colors.primary.copy(alpha = AppAlpha.wash)
+                    hovered -> colors.primary.copy(alpha = AppAlpha.faint)
                     else -> Color.Transparent
                 },
             )
@@ -960,10 +871,10 @@ private fun LessonRow(
     ) {
         val done = status == LessonStatus.COMPLETED
         Box(
-            Modifier.size(LESSON_CIRCLE).clip(CircleShape).background(colors.surface).background(if (done) AppAccents.green else colors.primary.copy(alpha = 0.09f)),
+            Modifier.size(LESSON_CIRCLE).clip(AppShapes.circle).background(colors.surface).background(if (done) AppAccents.green else colors.primary.copy(alpha = AppAlpha.tint)),
             contentAlignment = Alignment.Center,
         ) {
-            if (done) Icon(Icons.Default.Check, contentDescription = tr("Completed"), tint = Color.White, modifier = Modifier.size(24.dp))
+            if (done) Icon(Icons.Default.Check, contentDescription = tr("Completed"), tint = Color.White, modifier = Modifier.size(AppSizes.iconLarge))
             else Text("$number", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, color = colors.primary)
         }
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -971,15 +882,7 @@ private fun LessonRow(
             FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text(lesson.title, Modifier.padding(end = 4.dp), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                 lesson.tags.forEach { LabelTag(it) }
-                if (hint != null) {
-                    Text(
-                        hint,
-                        Modifier.clip(AppShapes.pill).background(AppAccents.green.copy(alpha = 0.14f)).padding(horizontal = 12.dp, vertical = 3.dp),
-                        style = MaterialTheme.typography.labelLarge,
-                        color = AppAccents.green,
-                        softWrap = false,
-                    )
-                }
+                if (hint != null) Tag(hint, AppAccents.green, size = TagSize.Medium)
             }
             if (lesson.summary.isNotBlank()) Text(lesson.summary, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             if (lesson.newWords.isNotEmpty()) {
@@ -1000,14 +903,7 @@ private fun LessonRow(
                 LessonStatus.IN_PROGRESS -> AppAccents.blue
                 LessonStatus.NOT_STARTED -> colors.outline
             }
-            Text(
-                status.label,
-                Modifier.width(128.dp).clip(AppShapes.pill).background(tint.copy(alpha = 0.12f)).padding(horizontal = 12.dp, vertical = 6.dp),
-                style = MaterialTheme.typography.bodyMedium,
-                color = tint,
-                textAlign = androidx.compose.ui.text.style.TextAlign.Center,
-                softWrap = false,
-            )
+            Tag(status.label, tint, Modifier.width(128.dp))
         }
         if (editing != null) LessonMenu(lesson.id, lesson.title, first, last, editing)
         else Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)

@@ -13,7 +13,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -35,10 +34,12 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.BarSurface
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.TagInput
 import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.LabeledField
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -155,7 +156,7 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
     )
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
     ContentCard(tr("About the course"), tr("Shown on the course's card and page."), icon = AppIcons.MenuBook) {
-        FormField(tr("Title")) {
+        LabeledField(tr("Title"), Modifier.padding(bottom = 16.dp)) {
             AppTextField(
                 value = state.draft.title,
                 onValueChange = { title -> onChange { it.copy(title = title) } },
@@ -164,7 +165,7 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
                 modifier = Modifier.fillMaxWidth().testTag("course-title"),
             )
         }
-        FormField(tr("Description")) {
+        LabeledField(tr("Description"), Modifier.padding(bottom = 16.dp)) {
             AppTextField(
                 value = state.draft.description,
                 onValueChange = { text -> onChange { it.copy(description = text) } },
@@ -176,7 +177,7 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
         val compact = LocalWindowWidth.current.isCompact
         val pair: @Composable (Modifier) -> Unit = { modifier ->
             Box(modifier) {
-                FormField(tr("Level")) {
+                LabeledField(tr("Level"), Modifier.padding(bottom = 16.dp)) {
                     Dropdown(
                         options = CourseLevel.entries,
                         selected = state.draft.level,
@@ -190,7 +191,7 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
         }
         val topic: @Composable (Modifier) -> Unit = { modifier ->
             Box(modifier) {
-                FormField(tr("Topic")) {
+                LabeledField(tr("Topic"), Modifier.padding(bottom = 16.dp)) {
                     AppTextField(
                         value = state.draft.topic,
                         onValueChange = { text -> onChange { it.copy(topic = text) } },
@@ -210,7 +211,7 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
                 topic(Modifier.weight(1f))
             }
         }
-        FormField(tr("Tags")) {
+        LabeledField(tr("Tags"), Modifier.padding(bottom = 16.dp)) {
             TagInput(
                 values = state.draft.tags,
                 onValuesChange = { tags -> onChange { it.copy(tags = tags) } },
@@ -222,7 +223,6 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
                 tr("Press Enter or a comma after each tag. Courses can be filtered by their tags."),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(top = 4.dp),
             )
         }
     }
@@ -321,7 +321,7 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
     )
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
     ContentCard(tr("Lesson"), tr("The title and summary are shown in the course's list of lessons."), icon = AppIcons.Page) {
-        FormField(tr("Title")) {
+        LabeledField(tr("Title"), Modifier.padding(bottom = 16.dp)) {
             AppTextField(
                 value = state.draft.title,
                 onValueChange = { title -> onChange { it.copy(title = title) } },
@@ -329,7 +329,7 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
                 modifier = Modifier.fillMaxWidth().testTag("lesson-title"),
             )
         }
-        FormField(tr("Summary")) {
+        LabeledField(tr("Summary"), Modifier.padding(bottom = 16.dp)) {
             AppTextField(
                 value = state.draft.summary,
                 onValueChange = { text -> onChange { it.copy(summary = text) } },
@@ -338,7 +338,7 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
                 modifier = Modifier.fillMaxWidth().testTag("lesson-summary"),
             )
         }
-        FormField(tr("Text")) {
+        LabeledField(tr("Text"), Modifier.padding(bottom = 16.dp)) {
             AppTextField(
                 value = state.draft.text,
                 onValueChange = { text -> onChange { it.copy(text = text) } },
@@ -348,7 +348,6 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
             val words = state.draft.text.split(Regex("\\s+")).count { word -> word.any { it.isLetterOrDigit() } }
             Text(
                 trPlural(words, "{0} word", "{0} words"),
-                Modifier.padding(top = 6.dp),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -358,18 +357,10 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
 
 // ---- Shared ----
 
-@Composable
-private fun FormField(label: String, content: @Composable () -> Unit) {
-    Column(Modifier.padding(bottom = 16.dp)) {
-        Text(label, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.padding(bottom = 6.dp))
-        content()
-    }
-}
-
 /** Cancel and save, kept in view at the bottom of the window. */
 @Composable
 private fun FormActions(saveLabel: String, saving: Boolean, onCancel: () -> Unit, onSave: () -> Unit) {
-    Surface(color = MaterialTheme.colorScheme.surface) {
+    BarSurface {
         Column {
             AppDivider()
             Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {

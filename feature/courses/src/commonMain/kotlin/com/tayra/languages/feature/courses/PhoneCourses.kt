@@ -9,19 +9,15 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -35,7 +31,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -45,6 +40,7 @@ import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseProgress
 import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconButtonSize
@@ -57,6 +53,7 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScrollColumn
+import com.tayra.languages.core.ui.components.SelectButton
 import com.tayra.languages.core.ui.components.TagFilterSheet
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -64,9 +61,9 @@ import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
-import com.tayra.languages.core.ui.theme.AppSizes
 
 /** The courses on a phone: the page's own header with the language and a new course, the filters as sheets, and the courses as cards by level. */
 @Composable
@@ -138,12 +135,12 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
         SearchBox(state.search, actions.onSearch, Modifier.fillMaxWidth())
         // The level and tags take what their labels need; the sort, the longest, has the rest.
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            DropdownButton(tr("Level: {0}", state.level?.code ?: tr("All")), Modifier.testTag("level-filter")) { sheet = PhoneSheet.LEVEL }
+            SelectButton(tr("Level: {0}", state.level?.code ?: tr("All")), onClick = { sheet = PhoneSheet.LEVEL }, modifier = Modifier.testTag("level-filter"))
             if (state.availableTags.isNotEmpty()) {
                 val tags = if (state.tags.isEmpty()) tr("Tags") else tr("Tags: {0}", state.tags.size)
-                DropdownButton(tags, Modifier.testTag("tag-filter"), icon = AppIcons.Tag, active = state.tags.isNotEmpty()) { sheet = PhoneSheet.TAGS }
+                SelectButton(tags, onClick = { sheet = PhoneSheet.TAGS }, modifier = Modifier.testTag("tag-filter"), icon = AppIcons.Tag, active = state.tags.isNotEmpty())
             }
-            DropdownButton(state.sort.label, Modifier.weight(1f).testTag("course-sort"), fill = true) { sheet = PhoneSheet.SORT }
+            SelectButton(state.sort.label, onClick = { sheet = PhoneSheet.SORT }, modifier = Modifier.weight(1f).testTag("course-sort"))
         }
         state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
         state.continueWith?.let { PhoneContinueCard(it, onContinue = { actions.onContinue(it) }, onOpen = { actions.onOpen(it.course.id) }) }
@@ -198,31 +195,6 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
     }
 }
 
-/** A filter that opens its sheet, drawn as a dropdown. */
-@Composable
-private fun DropdownButton(label: String, modifier: Modifier, icon: ImageVector? = null, active: Boolean = false, fill: Boolean = false, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        modifier.height(AppSizes.control).clip(AppShapes.control).background(colors.surface)
-            .border(if (active) 1.5.dp else 1.dp, if (active) colors.primary else colors.outlineVariant, AppShapes.control)
-            .clickable(onClick = onClick).padding(start = 12.dp, end = 4.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(4.dp),
-    ) {
-        if (icon != null) Icon(icon, contentDescription = null, tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp).size(18.dp))
-        Text(
-            label,
-            if (fill) Modifier.weight(1f) else Modifier,
-            style = MaterialTheme.typography.bodyMedium,
-            fontWeight = FontWeight.Medium,
-            color = if (active) colors.primary else colors.onSurface,
-            maxLines = 1,
-            overflow = TextOverflow.Ellipsis,
-        )
-        Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = colors.onSurfaceVariant)
-    }
-}
-
 /** The course read most recently: the course, how many lessons are read, and the way into the next one. */
 @Composable
 private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, onOpen: () -> Unit) {
@@ -230,7 +202,7 @@ private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, 
     val course = progress.course
     val shape = AppShapes.large
     Column(
-        Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = 0.05f)).border(AppBorders.hairline(colors.primary.copy(alpha = 0.15f)), shape).padding(18.dp),
+        Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), shape).padding(18.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -252,9 +224,7 @@ private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, 
                 }
                 ProgressBar(progress, Modifier.fillMaxWidth())
             }
-            PrimaryButton(onClick = onContinue, modifier = Modifier.height(52.dp).testTag("continue-course")) {
-                Text(tr("Continue"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
-            }
+            PrimaryButton(tr("Continue"), onClick = onContinue, modifier = Modifier.testTag("continue-course"), size = ButtonSize.Large)
         }
     }
 }
