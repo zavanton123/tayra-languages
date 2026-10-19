@@ -1,6 +1,5 @@
 package com.tayra.languages.feature.settings
 
-import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -37,8 +36,9 @@ import com.tayra.languages.core.ui.components.NumberStepper
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SettingRow
-import com.tayra.languages.core.ui.components.SliderStepper
+import com.tayra.languages.core.ui.components.SliderSetting
 import com.tayra.languages.core.ui.components.SwitchSetting
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppSpacing
 import org.koin.compose.viewmodel.koinViewModel
@@ -121,24 +121,24 @@ private fun LimitsCard(settings: UserSettings, viewModel: SettingsViewModel) {
 
 /** Anki's default review limit. */
 private const val DEFAULT_REVIEW_LIMIT = 200
-private val SLIDER_WIDTH = 280.dp
 private val STEPS_FIELD = 220.dp
 private val STEPS_FIELD_DENSE = 170.dp
 
 @Composable
 private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel) {
     ContentCard(tr("Scheduling"), tr("Reviews are timed with FSRS, as in Anki."), icon = Icons.Default.Settings) {
-        SettingRow(tr("Desired retention"), tr("The share of cards you want to remember when they come up. Higher means more reviews."), stackOnCompact = true) {
-            SliderStepper(
-                value = settings.flashcardRetention.toFloat(),
-                range = UserSettings.MIN_FLASHCARD_RETENTION.toFloat()..UserSettings.MAX_FLASHCARD_RETENTION.toFloat(),
-                step = 1f,
-                label = "${settings.flashcardRetention}%",
-                name = tr("desired retention"),
-                onChange = { v -> viewModel.update { it.copy(flashcardRetention = kotlin.math.round(v).toInt()) } },
-                modifier = Modifier.width(SLIDER_WIDTH),
-            )
-        }
+        // The slider gets the card's width, its name and value above it, as on the phone.
+        SliderSetting(
+            tr("Desired retention"),
+            "${settings.flashcardRetention}%",
+            settings.flashcardRetention.toFloat(),
+            UserSettings.MIN_FLASHCARD_RETENTION.toFloat()..UserSettings.MAX_FLASHCARD_RETENTION.toFloat(),
+            onChange = { v -> viewModel.update { it.copy(flashcardRetention = kotlin.math.round(v).toInt()) } },
+            modifier = Modifier.padding(vertical = AppSpacing.s),
+            step = 1f,
+            sliderModifier = Modifier.semantics { contentDescription = tr("desired retention") },
+            description = tr("The share of cards you want to remember when they come up. Higher means more reviews."),
+        )
         StepsRow(tr("Learning steps"), tr("Waits before a new card comes back, until it is learned."), settings.flashcardLearnSteps) { text ->
             viewModel.update { it.copy(flashcardLearnSteps = text) }
         }

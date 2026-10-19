@@ -164,13 +164,14 @@ fun SliderSetting(
     modifier: Modifier = Modifier,
     step: Float? = null,
     sliderModifier: Modifier = Modifier,
+    description: String? = null,
 ) {
     // Dividing by the number of steps per unit, not multiplying by the step, lands on the nearest float of a value such as 1.3.
     val perUnit = step?.let { kotlin.math.round(1 / it) }
     fun snap(v: Float) = if (perUnit == null) v else (kotlin.math.round(v * perUnit) / perUnit).coerceIn(range.start, range.endInclusive)
     Column(modifier.fillMaxWidth()) {
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-            Text(title, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
+            RowText(title, description, Modifier.weight(1f))
             Text(valueLabel, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
         AppSlider(
