@@ -16,13 +16,11 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -43,6 +41,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 
 /** The main navigation areas, used to highlight the active tab; [label] is English, shown through `tr`. */
 enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOOKS("Books"), NEWS("News"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), SETTINGS("Settings") }
@@ -129,7 +128,7 @@ fun AppTopBar(
         }
         return
     }
-    Surface(color = MaterialTheme.colorScheme.surface) {
+    BarSurface {
         Column(Modifier.windowInsetsPadding(WindowInsets.statusBars)) {
             Row(
                 // 18 + the link's own 6 keeps the logo 24 from the edge.
@@ -147,7 +146,7 @@ fun AppTopBar(
                         .padding(horizontal = 6.dp, vertical = 4.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    Icon(AppIcons.Otter, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(34.dp))
+                    Icon(AppIcons.Otter, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(AppSizes.iconXLarge))
                     Spacer(Modifier.width(12.dp))
                     Text(APP_NAME, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
                 }
@@ -194,13 +193,10 @@ private fun NavTab(section: NavSection, active: Boolean, onClick: () -> Unit) {
             Text(tr(section.label), style = MaterialTheme.typography.bodyLarge, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium, color = color)
             val due = LocalFlashcardsDue.current
             if (section == NavSection.FLASHCARDS && due > 0) {
-                Text(
-                    if (due > 999) "999+" else "$due",
-                    Modifier.clip(AppShapes.pill).background(MaterialTheme.colorScheme.primary).padding(horizontal = 7.dp, vertical = 1.dp)
-                        .semantics { contentDescription = trPlural(due, "{0} flashcard due", "{0} flashcards due") },
-                    style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.onPrimary,
-                    fontWeight = FontWeight.SemiBold,
+                CountBadge(
+                    due,
+                    Modifier.semantics { contentDescription = trPlural(due, "{0} flashcard due", "{0} flashcards due") },
+                    emphasis = BadgeEmphasis.Solid,
                 )
             }
         }

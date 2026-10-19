@@ -11,17 +11,9 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.RichTooltip
 import androidx.compose.material3.Text
-import androidx.compose.material3.TooltipAnchorPosition
-import androidx.compose.material3.TooltipBox
-import androidx.compose.material3.TooltipDefaults
-import androidx.compose.material3.rememberTooltipState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -49,7 +41,6 @@ private val KNOWN = listOf(TermStatus.WELL_KNOWN, TermStatus.IGNORED)
  * @param scope how the tooltip names what is counted, in English: "on this page" or "in this book"
  *   (shown through `tr`, so a new scope needs its own translation).
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scope: String = "in this book") {
     if (stats == null || stats.distinctTerms == 0) {
@@ -60,13 +51,7 @@ fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scop
     val count = { statuses: List<TermStatus> -> statuses.sumOf { stats.statusDistribution[it] ?: 0 } }
     // The caller's modifier stays on this box: a row weight set on the tooltip box is not applied.
     Box(modifier) {
-        TooltipBox(
-            positionProvider = TooltipDefaults.rememberTooltipPositionProvider(TooltipAnchorPosition.Above),
-            tooltip = { RichTooltip(title = { Text(tr("Vocabulary {0}", tr(scope))) }) { StatusBreakdown(stats) } },
-            // Persistent: stays while the pointer is on the bar (or, on touch, until a tap elsewhere) instead of hiding after 1.5 s.
-            state = rememberTooltipState(isPersistent = true),
-            modifier = Modifier.fillMaxWidth(),
-        ) {
+        AppRichTooltip(title = tr("Vocabulary {0}", tr(scope)), modifier = Modifier.fillMaxWidth(), persistent = true, body = { StatusBreakdown(stats) }) {
             Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().height(10.dp).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surfaceVariant)) {
                 val segments = listOf(TermStatus.UNKNOWN to count(listOf(TermStatus.UNKNOWN))) +
                     LEARNING.map { it to count(listOf(it)) } +
@@ -98,7 +83,7 @@ private fun StatusBreakdown(stats: BookStats) {
         for ((label, numbers, color) in rows) {
             val (n, percent) = numbers
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.size(10.dp).clip(CircleShape).background(color))
+                StatusDot(color)
                 Text(label, Modifier.padding(start = 8.dp).width(72.dp), fontWeight = FontWeight.Medium)
                 Text("${words(n)} ($percent%)")
             }

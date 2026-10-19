@@ -6,16 +6,10 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Icon
-import androidx.compose.material3.InputChip
-import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -25,6 +19,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
@@ -32,13 +27,14 @@ import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
  * A chip-based multi-value input with suggestions, used for tags and parent terms.
  *
  * Enter, comma or Tab commit the pending text; Backspace on an empty field removes the last chip.
  */
-@OptIn(ExperimentalLayoutApi::class, ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun TagInput(
     values: List<String>,
@@ -68,20 +64,15 @@ fun TagInput(
 
     Column(modifier) {
         if (values.isNotEmpty()) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(0.dp)) {
+            FlowRow(Modifier.padding(vertical = 6.dp), horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 values.forEach { value ->
-                    InputChip(
-                        selected = false,
-                        onClick = { onChipClick?.invoke(value) },
-                        label = { Text(value) },
-                        trailingIcon = {
-                            Icon(
-                                Icons.Default.Close,
-                                contentDescription = tr("Remove {0}", value),
-                                modifier = Modifier.clickable { onValuesChange(values - value) },
-                            )
-                        },
-                    )
+                    RemovableChip(
+                        onRemove = { onValuesChange(values - value) },
+                        removeDescription = tr("Remove {0}", value),
+                        modifier = if (onChipClick != null) Modifier.clip(AppShapes.compact).clickable { onChipClick(value) } else Modifier,
+                    ) {
+                        Text(value, style = MaterialTheme.typography.bodyMedium)
+                    }
                 }
             }
         }
@@ -121,14 +112,10 @@ fun TagInput(
         val visible = suggestions.filter { s -> values.none { it.equals(s, ignoreCase = true) } }
             .filter { pending.isBlank() || it.contains(pending, ignoreCase = true) }
         if (focused && pending.isNotBlank() && visible.isNotEmpty()) {
-            Surface(tonalElevation = 3.dp, shadowElevation = 3.dp, modifier = Modifier.fillMaxWidth()) {
+            PopupCard(Modifier.fillMaxWidth()) {
                 LazyColumn(Modifier.heightIn(max = 200.dp)) {
                     items(visible.take(20)) { suggestion ->
-                        ListItem(
-                            headlineContent = { suggestionContent?.invoke(suggestion) ?: Text(suggestion) },
-                            modifier = Modifier.clickable { commit(suggestion) },
-                            colors = androidx.compose.material3.ListItemDefaults.colors(containerColor = MaterialTheme.colorScheme.surface),
-                        )
+                        AppMenuItem(text = { suggestionContent?.invoke(suggestion) ?: Text(suggestion) }, onClick = { commit(suggestion) })
                     }
                 }
             }

@@ -6,8 +6,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -17,7 +15,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.books.discover.Difficulty
@@ -56,7 +53,7 @@ fun CoverageLine(difficulty: Difficulty?, check: CoverageCheck, tag: String, onC
             )
             is CoverageCheck.Failed -> Text(check.message, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             CoverageCheck.NotChecked -> if (onCheck != null) {
-                QuietButton(tr("Check the words"), onClick = onCheck, modifier = Modifier.height(32.dp).testTag("check-$tag"), size = ButtonSize.Compact)
+                QuietButton(tr("Check the words"), onClick = onCheck, modifier = Modifier.testTag("check-$tag"), size = ButtonSize.Compact)
             }
         }
     }
@@ -64,13 +61,7 @@ fun CoverageLine(difficulty: Difficulty?, check: CoverageCheck, tag: String, onC
 
 @Composable
 fun DifficultyTag(difficulty: Difficulty) {
-    Text(
-        difficulty.label,
-        Modifier.clip(AppShapes.pill).background(difficulty.color.copy(alpha = 0.14f)).padding(horizontal = 10.dp, vertical = 3.dp),
-        style = MaterialTheme.typography.labelLarge,
-        color = difficulty.color,
-        fontWeight = FontWeight.SemiBold,
-    )
+    Tag(difficulty.label, difficulty.color, size = TagSize.Medium)
 }
 
 /** Chips to show texts of one difficulty, or of all of them. */

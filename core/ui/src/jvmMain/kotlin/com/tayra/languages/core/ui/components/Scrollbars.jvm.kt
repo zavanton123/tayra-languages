@@ -15,6 +15,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
 
 @Composable
@@ -32,8 +33,8 @@ private fun BoxScope.Scrollbar(adapter: ScrollbarAdapter, modifier: Modifier) {
         thickness = 8.dp,
         shape = AppShapes.tiny,
         hoverDurationMillis = 250,
-        unhoverColor = ink.copy(alpha = 0.28f),
-        hoverColor = ink.copy(alpha = 0.5f),
+        unhoverColor = ink.copy(alpha = AppAlpha.line),
+        hoverColor = ink.copy(alpha = AppAlpha.half),
     )
     // Sized by the box rather than sizing it, so a box that wraps short content stays short.
     Box(Modifier.matchParentSize()) {

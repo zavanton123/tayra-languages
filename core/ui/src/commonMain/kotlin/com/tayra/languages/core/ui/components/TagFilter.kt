@@ -1,7 +1,5 @@
 package com.tayra.languages.core.ui.components
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -10,17 +8,12 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
-import androidx.compose.material.icons.filled.Close
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -36,7 +29,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
-import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
@@ -53,30 +45,18 @@ fun TagFilterButton(
     onApply: (tags: Set<String>, matchAll: Boolean) -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
     val active = selected.isNotEmpty()
     Box(modifier) {
-        Row(
-            Modifier.height(48.dp).clip(AppShapes.control)
-                .border(if (active || open) 1.5.dp else 1.dp, if (active || open) colors.primary else colors.outlineVariant, AppShapes.control)
-                .background(colors.surface).clickable { open = true }.padding(start = 14.dp, end = 10.dp).testTag("tag-filter"),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(10.dp),
-        ) {
-            Icon(AppIcons.Tag, contentDescription = null, tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-            Text(tr("Tags"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, color = if (active) colors.primary else colors.onSurface, softWrap = false)
-            if (active) {
-                Text(
-                    "${selected.size}",
-                    Modifier.clip(CircleShape).background(colors.primary).padding(horizontal = 8.dp, vertical = 1.dp),
-                    style = MaterialTheme.typography.labelLarge,
-                    color = colors.onPrimary,
-                    fontWeight = FontWeight.SemiBold,
-                )
-            }
-            Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = colors.onSurfaceVariant)
-        }
+        ToggleButton(
+            tr("Tags"),
+            active = active || open,
+            onClick = { open = true },
+            modifier = Modifier.testTag("tag-filter"),
+            icon = AppIcons.Tag,
+            badge = selected.size,
+            trailingIcon = Icons.Default.ArrowDropDown,
+        )
         AppMenu(expanded = open, onDismissRequest = { open = false }, modifier = Modifier.width(440.dp)) {
             TagFilterBody(available, selected, matchAll) { tags, all -> open = false; onApply(tags, all) }
         }
@@ -120,7 +100,18 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
             Text(tr("No tags match."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         } else {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                found.forEach { tag -> TagChip(tag, tag in picked) { picked = if (tag in picked) picked - tag else picked + tag } }
+                found.forEach { tag ->
+                    val toggle = { picked = if (tag in picked) picked - tag else picked + tag }
+                    SelectableChip(
+                        tag,
+                        selected = tag in picked,
+                        onClick = toggle,
+                        modifier = Modifier.testTag("tag-$tag"),
+                        size = ChipSize.Small,
+                        onRemove = if (tag in picked) toggle else null,
+                        removeDescription = tr("Remove {0}", tag),
+                    )
+                }
             }
         }
         AppDivider()
@@ -142,23 +133,5 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
             )
             PrimaryButton(tr("Apply"), onClick = { onApply(picked, all) }, modifier = Modifier.testTag("apply-tags"))
         }
-    }
-}
-
-/** A tag to pick: outlined, or tinted with a cross once picked. */
-@Composable
-private fun TagChip(tag: String, picked: Boolean, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        Modifier.clip(AppShapes.pill)
-            .background(if (picked) colors.primary.copy(alpha = 0.1f) else colors.surface)
-            .border(AppBorders.hairline(if (picked) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant), AppShapes.pill)
-            .clickable(onClick = onClick).padding(start = 14.dp, end = if (picked) 10.dp else 14.dp, top = 6.dp, bottom = 6.dp)
-            .testTag("tag-$tag"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(6.dp),
-    ) {
-        Text(tag, style = MaterialTheme.typography.bodyMedium, color = if (picked) colors.primary else colors.onSurface)
-        if (picked) Icon(Icons.Default.Close, contentDescription = tr("Remove {0}", tag), tint = colors.primary, modifier = Modifier.size(16.dp))
     }
 }

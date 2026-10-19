@@ -1,12 +1,12 @@
 package com.tayra.languages.core.ui.components
 
 import kotlin.coroutines.cancellation.CancellationException
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -20,8 +20,12 @@ import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.ui.input.pointer.isPrimaryPressed
 import androidx.compose.ui.input.pointer.isSecondaryPressed
+import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.TayraTheme
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.PointerEventType
@@ -62,14 +66,14 @@ class AboveTargetPositionProvider(private val target: IntRect, private val gap: 
 /** The small dark label that holds a word's translation, or an ellipsis while it is looked up. */
 @Composable
 fun WordTooltip(text: String) {
-    Surface(
-        color = MaterialTheme.colorScheme.inverseSurface,
-        contentColor = MaterialTheme.colorScheme.inverseOnSurface,
-        shape = MaterialTheme.shapes.small,
-        shadowElevation = 4.dp,
-    ) {
-        Text(text, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.widthIn(max = 320.dp).padding(horizontal = 10.dp, vertical = 6.dp))
-    }
+    val colors = MaterialTheme.colorScheme
+    Text(
+        text,
+        Modifier.shadow(4.dp, AppShapes.compact).clip(AppShapes.compact).background(colors.inverseSurface)
+            .widthIn(max = 320.dp).padding(horizontal = 10.dp, vertical = 6.dp),
+        style = MaterialTheme.typography.bodyMedium,
+        color = colors.inverseOnSurface,
+    )
 }
 
 /** Shows [WordTooltip] above [target] with the result of [translate], after a short hover. */
@@ -113,7 +117,7 @@ fun HoverTranslatedText(
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
     var hovered by remember(text) { mutableStateOf<HoveredWord?>(null) }
     var selection by remember(text) { mutableStateOf<IntRange?>(null) }
-    val tint = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.22f)
+    val tint = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.line)
     val selectedColor = TayraTheme.current.selectedText
     val range = hovered?.range
     val picked = selection

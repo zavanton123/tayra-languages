@@ -24,6 +24,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 
 /**
  * A phone's bottom sheet listing [options] to pick one from, the chosen one ticked; [labelContent]
@@ -52,8 +53,8 @@ fun <T> PickerSheet(
                 ) {
                     leading?.let { it(option) }
                     Row(Modifier.weight(1f)) { labelContent(option) }
-                    if (option == selected) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(22.dp))
-                    else Spacer(Modifier.width(22.dp))
+                    if (option == selected) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
+                    else Spacer(Modifier.width(AppSizes.iconMedium))
                 }
             }
         }

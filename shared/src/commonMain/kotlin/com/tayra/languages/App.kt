@@ -10,7 +10,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -135,7 +135,9 @@ fun App(titleBarInset: Dp = 0.dp) {
         // Set during composition, so the first frame is already in the chosen language.
         UiLanguage.set(settings.uiLanguage)
         TayraTheme(AppThemes.byId(settings.themeId)) {
-            Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+            // Text takes the background's content colour from here, as a Surface would provide it.
+            Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
+                CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onBackground) {
                 Column {
                     if (titleBarInset > 0.dp) {
                         Box(Modifier.fillMaxWidth().height(titleBarInset).background(MaterialTheme.colorScheme.surfaceVariant))
@@ -160,6 +162,7 @@ fun App(titleBarInset: Dp = 0.dp) {
                         }
                     }
                     }
+                }
                 }
             }
         }

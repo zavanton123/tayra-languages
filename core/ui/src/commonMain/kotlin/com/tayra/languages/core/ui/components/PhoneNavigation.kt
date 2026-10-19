@@ -1,13 +1,12 @@
 package com.tayra.languages.core.ui.components
 
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -15,10 +14,7 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material3.Badge
-import androidx.compose.material3.BadgedBox
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -34,6 +30,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppText
 
 /**
@@ -69,14 +66,13 @@ private fun RowScope.PhoneTab(
         selected = section == tab,
         onClick = onClick,
         icon = {
-            if (badge > 0) {
-                BadgedBox(badge = { Badge { Text(if (badge > 99) "99+" else "$badge") } }) { Icon(icon, contentDescription = null) }
-            } else {
+            Box {
                 Icon(icon, contentDescription = null)
+                if (badge > 0) CountBadge(badge, Modifier.align(Alignment.TopEnd).offset(x = 14.dp, y = (-6).dp), emphasis = BadgeEmphasis.Solid, max = 99)
             }
         },
         label = { Text(label, maxLines = 1) },
-        colors = NavigationBarItemDefaults.colors(selectedIconColor = colors.primary, selectedTextColor = colors.primary, indicatorColor = colors.primary.copy(alpha = 0.12f)),
+        colors = NavigationBarItemDefaults.colors(selectedIconColor = colors.primary, selectedTextColor = colors.primary, indicatorColor = colors.primary.copy(alpha = AppAlpha.soft)),
         modifier = Modifier.testTag("phone-nav-${tab.name}"),
     )
 }
@@ -150,16 +146,12 @@ fun MoreSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
 
 @Composable
 private fun MoreRow(entry: MoreEntry, value: String?, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val tint = if (entry.destructive) colors.error else colors.primary
-    Row(
-        Modifier.fillMaxWidth().clickable(onClick = onClick).padding(vertical = 11.dp).padding(end = 12.dp).testTag("more-${entry.label}"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-    ) {
-        Icon(entry.icon, contentDescription = null, tint = tint, modifier = Modifier.size(24.dp))
-        Text(tr(entry.label), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (entry.destructive) colors.error else colors.onSurface)
-        if (value != null) Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-        Icon(Icons.Default.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
-    }
+    NavigationRow(
+        tr(entry.label),
+        onClick = onClick,
+        modifier = Modifier.padding(end = 12.dp).testTag("more-${entry.label}"),
+        value = value,
+        icon = entry.icon,
+        tint = if (entry.destructive) MaterialTheme.colorScheme.error else null,
+    )
 }
