@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -26,6 +25,7 @@ import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.minus
 import kotlinx.datetime.plus
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
  * A card of recent days as squares, darker the busier the day: a column per week from Monday, as
@@ -65,7 +65,7 @@ fun ActivityHeatmapCard(
                                 level == 0 -> empty
                                 else -> color.copy(alpha = heatShade(level))
                             }
-                            Box(Modifier.size(cell).clip(RoundedCornerShape(3.dp)).background(shade))
+                            Box(Modifier.size(cell).clip(AppShapes.tiny).background(shade))
                         }
                     }
                 }
@@ -73,8 +73,8 @@ fun ActivityHeatmapCard(
             Spacer(Modifier.height(12.dp))
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text(fewer, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                Box(Modifier.size(12.dp).clip(RoundedCornerShape(3.dp)).background(empty))
-                (1..4).forEach { Box(Modifier.size(12.dp).clip(RoundedCornerShape(3.dp)).background(color.copy(alpha = heatShade(it)))) }
+                Box(Modifier.size(12.dp).clip(AppShapes.tiny).background(empty))
+                (1..4).forEach { Box(Modifier.size(12.dp).clip(AppShapes.tiny).background(color.copy(alpha = heatShade(it)))) }
                 Text(more, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }

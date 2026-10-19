@@ -15,7 +15,6 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.InputChip
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -86,7 +85,7 @@ fun TagInput(
                 }
             }
         }
-        OutlinedTextField(
+        AppTextField(
             value = pending,
             onValueChange = { text ->
                 if (text.endsWith(",")) commit(text) else setPending(text)

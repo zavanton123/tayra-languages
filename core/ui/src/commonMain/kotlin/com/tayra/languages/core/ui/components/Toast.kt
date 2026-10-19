@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material3.Icon
@@ -31,6 +30,7 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
 import kotlinx.coroutines.delay
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /** A short message shown at the bottom of the screen for a few seconds. A new message replaces the one showing. */
 class ToastState {
@@ -68,7 +68,7 @@ fun ToastHost(state: ToastState, durationMillis: Long = 3_000) {
         AnimatedVisibility(transition, enter = fadeIn() + slideInVertically { it / 2 }, exit = fadeOut()) {
             val colors = MaterialTheme.colorScheme
             Surface(
-                shape = RoundedCornerShape(12.dp),
+                shape = AppShapes.panel,
                 color = colors.inverseSurface,
                 contentColor = colors.inverseOnSurface,
                 shadowElevation = 6.dp,

@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.KeyboardArrowDown
@@ -56,6 +55,7 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppShapes
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyColumn
@@ -117,9 +117,9 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier, on
     val label = state.knownWords?.let { "${tr(name)} (${formatCount(it)})" } ?: tr(name)
     Box(modifier) {
         Row(
-            Modifier.clip(RoundedCornerShape(12.dp))
+            Modifier.clip(AppShapes.panel)
                 .background(colors.primary.copy(alpha = 0.06f))
-                .border(1.dp, colors.primary.copy(alpha = 0.12f), RoundedCornerShape(12.dp))
+                .border(1.dp, colors.primary.copy(alpha = 0.12f), AppShapes.panel)
                 .clickable { if (onOpen != null) onOpen() else open = true }
                 .semantics { contentDescription = tr("Learning language: {0}", label) }
                 .padding(horizontal = if (compact) 8.dp else 12.dp, vertical = 8.dp),
@@ -171,7 +171,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
             LazyColumn(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(bottom = 24.dp)) {
                 item {
                     Row(
-                        Modifier.padding(horizontal = 16.dp).fillMaxWidth().height(52.dp).clip(RoundedCornerShape(12.dp)).background(colors.surfaceVariant.copy(alpha = 0.5f)).padding(horizontal = 14.dp),
+                        Modifier.padding(horizontal = 16.dp).fillMaxWidth().height(52.dp).clip(AppShapes.panel).background(colors.surfaceVariant.copy(alpha = 0.5f)).padding(horizontal = 14.dp),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
                         Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
@@ -204,12 +204,12 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                     item { PhoneSectionTitle(tr("Current language")) }
                     item {
                         Row(
-                            Modifier.padding(horizontal = 16.dp).fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.08f))
+                            Modifier.padding(horizontal = 16.dp).fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.08f))
                                 .padding(horizontal = 14.dp, vertical = 14.dp).testTag("current-language"),
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.spacedBy(16.dp),
                         ) {
-                            LanguageFlag(currentName, 36.dp, Modifier.clip(RoundedCornerShape(6.dp)))
+                            LanguageFlag(currentName, 36.dp, Modifier.clip(AppShapes.small))
                             Column(Modifier.weight(1f)) {
                                 Text(tr(currentName), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                                 state.knownWords?.let { Text(trPlural(it, "{0} word", "{0} words", formatCount(it)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
@@ -230,7 +230,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(18.dp),
                     ) {
-                        LanguageFlag(name, 30.dp, Modifier.clip(RoundedCornerShape(5.dp)))
+                        LanguageFlag(name, 30.dp, Modifier.clip(AppShapes.tiny))
                         Text(tr(name), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                         if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
                     }
@@ -290,7 +290,7 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit) 
     val currentName = state.currentName
     val currentShown = currentName != null && (needle.isEmpty() || tr(currentName).lowercase().contains(needle) || currentName.lowercase().contains(needle))
     Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
-        Surface(Modifier.padding(16.dp).widthIn(max = 1160.dp).fillMaxHeight(0.92f), shape = RoundedCornerShape(24.dp), color = colors.surface) {
+        Surface(Modifier.padding(16.dp).widthIn(max = 1160.dp).fillMaxHeight(0.92f), shape = AppShapes.large, color = colors.surface) {
             Column(Modifier.padding(horizontal = if (width.isCompact) 20.dp else 32.dp, vertical = 24.dp)) {
                 Row(verticalAlignment = Alignment.Top) {
                     Column(Modifier.weight(1f)) {
@@ -302,7 +302,7 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit) 
                     }
                 }
                 Row(
-                    Modifier.fillMaxWidth().padding(top = 24.dp).height(50.dp).clip(RoundedCornerShape(12.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(12.dp)).padding(horizontal = 14.dp),
+                    Modifier.fillMaxWidth().padding(top = 24.dp).height(50.dp).clip(AppShapes.panel).border(1.dp, colors.outlineVariant, AppShapes.panel).padding(horizontal = 14.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
                     Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
@@ -366,7 +366,7 @@ private fun SectionTitle(title: String, note: String? = null) {
 private fun CurrentLanguageCard(name: String, knownWords: Int?) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.07f)).border(1.5.dp, colors.primary.copy(alpha = 0.5f), RoundedCornerShape(14.dp))
+        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = 0.07f)).border(1.5.dp, colors.primary.copy(alpha = 0.5f), AppShapes.card)
             .padding(horizontal = 20.dp, vertical = 14.dp).testTag("current-language"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(16.dp),
@@ -385,7 +385,7 @@ private fun CurrentLanguageCard(name: String, knownWords: Int?) {
 private fun LanguageTile(name: String, native: Boolean, modifier: Modifier, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(50.dp).clip(RoundedCornerShape(12.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(12.dp))
+        modifier.height(50.dp).clip(AppShapes.panel).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.panel)
             .clickable(enabled = !native, onClick = onClick).alpha(if (native) 0.45f else 1f).padding(horizontal = 16.dp).testTag("language-${LanguageCodes.codeFor(name) ?: name}"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(14.dp),

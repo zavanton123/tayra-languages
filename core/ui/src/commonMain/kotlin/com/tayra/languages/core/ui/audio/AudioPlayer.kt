@@ -2,10 +2,10 @@ package com.tayra.languages.core.ui.audio
 
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.theme.AppShapes
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.Icon
@@ -132,7 +132,7 @@ fun PlayButton(url: String, playback: AudioPlayback, modifier: Modifier = Modifi
         if (playing) {
             Box(
                 Modifier.size(14.dp)
-                    .background(MaterialTheme.colorScheme.primary, RoundedCornerShape(2.dp))
+                    .background(MaterialTheme.colorScheme.primary, AppShapes.tiny)
                     .semantics { contentDescription = tr("Stop recording") },
             )
         } else {

@@ -6,7 +6,6 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.GenericShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -18,6 +17,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.ui.theme.AppShapes
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
 import tayra_languages.core.ui.generated.resources.Res
@@ -194,7 +194,7 @@ fun LanguageFlag(languageName: String, height: Dp, modifier: Modifier = Modifier
         Box(modifier.size(width = width, height = height), contentAlignment = Alignment.Center) { LanguageCodeBadge(languageName, height) }
         return
     }
-    val shape = RoundedCornerShape(3.dp)
+    val shape = AppShapes.tiny
     // A hairline keeps white edges (Japan, Poland) visible against light backgrounds.
     Box(modifier.size(width = width, height = height).clip(shape).border(0.5.dp, MaterialTheme.colorScheme.outlineVariant, shape)) {
         Image(painterResource(found[0]), contentDescription = null, contentScale = ContentScale.Crop, modifier = Modifier.matchParentSize())

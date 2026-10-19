@@ -1,6 +1,7 @@
 package com.tayra.languages.core.ui.components
 
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppShapes
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -23,7 +24,6 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Add
@@ -31,7 +31,6 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Slider
 import androidx.compose.material3.SliderDefaults
@@ -75,7 +74,7 @@ fun ScreenHeader(
     Column(Modifier.fillMaxWidth()) {
         if (onBackToSettings != null && !compact) {
             Row(
-                Modifier.clip(RoundedCornerShape(8.dp)).clickable(onClick = onBackToSettings).padding(vertical = 4.dp, horizontal = 2.dp),
+                Modifier.clip(AppShapes.compact).clickable(onClick = onBackToSettings).padding(vertical = 4.dp, horizontal = 2.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, modifier = Modifier.size(18.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -107,8 +106,8 @@ fun ContentCard(
     content: @Composable ColumnScope.() -> Unit,
 ) {
     Column(
-        modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+        modifier.fillMaxWidth().clip(AppShapes.card).background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.card)
             .padding(20.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -131,7 +130,7 @@ fun ContentCard(
 @Composable
 fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48) {
     Box(
-        Modifier.size(size.dp).clip(RoundedCornerShape(12.dp)).background(MaterialTheme.colorScheme.primary.copy(alpha = 0.09f)),
+        Modifier.size(size.dp).clip(AppShapes.panel).background(MaterialTheme.colorScheme.primary.copy(alpha = 0.09f)),
         contentAlignment = Alignment.Center,
     ) {
         if (icon != null) Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size((size / 2).dp))
@@ -232,7 +231,7 @@ fun RoundSlider(value: Float, onValueChange: (Float) -> Unit, valueRange: Closed
 @Composable
 fun NumberStepper(value: Int, range: IntRange, name: String, step: Int = 1, onChange: (Int) -> Unit) {
     Row(
-        Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp)),
+        Modifier.clip(AppShapes.control).border(1.dp, MaterialTheme.colorScheme.outlineVariant, AppShapes.control),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         StepButton("−", tr("Decrease {0}", name), enabled = value > range.first, bordered = false) { onChange((value - step).coerceAtLeast(range.first)) }
@@ -246,7 +245,7 @@ fun NumberStepper(value: Int, range: IntRange, name: String, step: Int = 1, onCh
 @Composable
 private fun ValueChip(text: String) {
     Box(
-        Modifier.widthIn(min = 72.dp).clip(RoundedCornerShape(8.dp)).background(MaterialTheme.colorScheme.surfaceContainer).padding(horizontal = 12.dp, vertical = 10.dp),
+        Modifier.widthIn(min = 72.dp).clip(AppShapes.compact).background(MaterialTheme.colorScheme.surfaceContainer).padding(horizontal = 12.dp, vertical = 10.dp),
         contentAlignment = Alignment.Center,
     ) {
         Text(text, style = MaterialTheme.typography.bodyMedium)
@@ -255,7 +254,7 @@ private fun ValueChip(text: String) {
 
 @Composable
 private fun StepButton(symbol: String, description: String, enabled: Boolean, bordered: Boolean = true, onClick: () -> Unit) {
-    val shape = RoundedCornerShape(8.dp)
+    val shape = AppShapes.compact
     Box(
         Modifier.size(44.dp).clip(shape)
             .then(if (bordered) Modifier.border(1.dp, MaterialTheme.colorScheme.outlineVariant, shape) else Modifier)
@@ -279,8 +278,8 @@ private fun StepButton(symbol: String, description: String, enabled: Boolean, bo
 @Composable
 fun InfoBanner(text: String, modifier: Modifier = Modifier, tint: Color = MaterialTheme.colorScheme.primary, icon: ImageVector = Icons.Default.Info) {
     Row(
-        modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.07f))
-            .border(1.dp, tint.copy(alpha = 0.18f), RoundedCornerShape(12.dp)).padding(horizontal = 16.dp, vertical = 14.dp),
+        modifier.fillMaxWidth().clip(AppShapes.panel).background(tint.copy(alpha = 0.07f))
+            .border(1.dp, tint.copy(alpha = 0.18f), AppShapes.panel).padding(horizontal = 16.dp, vertical = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(22.dp))
@@ -293,7 +292,7 @@ fun InfoBanner(text: String, modifier: Modifier = Modifier, tint: Color = Materi
 @Composable
 fun StatusPill(text: String, color: Color) {
     Row(
-        Modifier.clip(RoundedCornerShape(50)).background(color.copy(alpha = 0.1f)).border(1.dp, color.copy(alpha = 0.3f), RoundedCornerShape(50))
+        Modifier.clip(AppShapes.pill).background(color.copy(alpha = 0.1f)).border(1.dp, color.copy(alpha = 0.3f), AppShapes.pill)
             .padding(horizontal = 14.dp, vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -308,7 +307,7 @@ fun StatusPill(text: String, color: Color) {
 fun Tag(text: String, color: Color) {
     Text(
         text,
-        Modifier.clip(RoundedCornerShape(50)).background(color.copy(alpha = 0.12f)).padding(horizontal = 12.dp, vertical = 6.dp),
+        Modifier.clip(AppShapes.pill).background(color.copy(alpha = 0.12f)).padding(horizontal = 12.dp, vertical = 6.dp),
         style = MaterialTheme.typography.bodyMedium,
         color = color,
         maxLines = 1,
@@ -319,11 +318,7 @@ fun Tag(text: String, color: Color) {
 /** The outlined button with an icon used for page actions. */
 @Composable
 fun HeaderButton(text: String, icon: ImageVector, onClick: () -> Unit, enabled: Boolean = true) {
-    OutlinedButton(onClick = onClick, enabled = enabled, shape = RoundedCornerShape(10.dp), contentPadding = PaddingValues(horizontal = 16.dp, vertical = 10.dp)) {
-        Icon(icon, contentDescription = null, modifier = Modifier.size(20.dp))
-        Spacer(Modifier.width(8.dp))
-        Text(text)
-    }
+    SecondaryButton(text, onClick = onClick, icon = icon, enabled = enabled)
 }
 
 fun formatSize(bytes: Long): String = when {
@@ -357,11 +352,11 @@ enum class PackageTab(val label: String) { INSTALLED("Installed"), AVAILABLE("Av
 /** The Installed / Available switch above a list of downloads. */
 @Composable
 fun TabToggle(selected: PackageTab, onSelect: (PackageTab) -> Unit) {
-    Row(Modifier.clip(RoundedCornerShape(10.dp)).background(MaterialTheme.colorScheme.surfaceContainer).padding(3.dp)) {
+    Row(Modifier.clip(AppShapes.control).background(MaterialTheme.colorScheme.surfaceContainer).padding(3.dp)) {
         PackageTab.entries.forEach { tab ->
             val active = tab == selected
             Box(
-                Modifier.clip(RoundedCornerShape(8.dp))
+                Modifier.clip(AppShapes.compact)
                     .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.14f) else Color.Transparent)
                     .clickable { onSelect(tab) }
                     .padding(horizontal = 18.dp, vertical = 10.dp),
@@ -386,7 +381,7 @@ private val codeTints = listOf(
 fun CodeTile(languageCode: String, size: Int = 44) {
     val code = languageCode.uppercase().take(3)
     val tint = codeTints[(code.hashCode() and Int.MAX_VALUE) % codeTints.size]
-    Box(Modifier.size(size.dp).clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
+    Box(Modifier.size(size.dp).clip(AppShapes.compact).background(tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
         Text(code, color = tint, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold)
     }
 }

@@ -17,7 +17,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -45,6 +44,7 @@ import androidx.compose.ui.semantics.Role
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /** The main navigation areas, used to highlight the active tab; [label] is English, shown through `tr`. */
 enum class NavSection(val label: String) { HOME("Home"), COURSES("Courses"), BOOKS("Books"), NEWS("News"), FLASHCARDS("Flashcards"), TERMS("Vocabulary"), SETTINGS("Settings") }
@@ -144,7 +144,7 @@ fun AppTopBar(
                 }
                 // The logo and name lead home, as on most sites.
                 Row(
-                    Modifier.clip(RoundedCornerShape(10.dp))
+                    Modifier.clip(AppShapes.control)
                         .clickable(onClickLabel = tr("Go to Home"), role = Role.Button) { onNavigate(Route.Home) }
                         .padding(horizontal = 6.dp, vertical = 4.dp),
                     verticalAlignment = Alignment.CenterVertically,
@@ -189,7 +189,7 @@ private fun WideMenu(section: NavSection?, onNavigate: (Route) -> Unit) {
 private fun NavTab(section: NavSection, active: Boolean, onClick: () -> Unit) {
     val color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant
     Column(
-        Modifier.width(IntrinsicSize.Max).clip(RoundedCornerShape(6.dp)).clickable(onClick = onClick).padding(horizontal = 12.dp, vertical = 8.dp),
+        Modifier.width(IntrinsicSize.Max).clip(AppShapes.small).clickable(onClick = onClick).padding(horizontal = 12.dp, vertical = 8.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
@@ -198,7 +198,7 @@ private fun NavTab(section: NavSection, active: Boolean, onClick: () -> Unit) {
             if (section == NavSection.FLASHCARDS && due > 0) {
                 Text(
                     if (due > 999) "999+" else "$due",
-                    Modifier.clip(RoundedCornerShape(50)).background(MaterialTheme.colorScheme.primary).padding(horizontal = 7.dp, vertical = 1.dp)
+                    Modifier.clip(AppShapes.pill).background(MaterialTheme.colorScheme.primary).padding(horizontal = 7.dp, vertical = 1.dp)
                         .semantics { contentDescription = trPlural(due, "{0} flashcard due", "{0} flashcards due") },
                     style = MaterialTheme.typography.labelMedium,
                     color = MaterialTheme.colorScheme.onPrimary,
@@ -208,7 +208,7 @@ private fun NavTab(section: NavSection, active: Boolean, onClick: () -> Unit) {
         }
         Spacer(Modifier.height(4.dp))
         Box(
-            Modifier.fillMaxWidth().height(2.dp).clip(RoundedCornerShape(1.dp))
+            Modifier.fillMaxWidth().height(2.dp).clip(AppShapes.tiny)
                 .background(if (active) MaterialTheme.colorScheme.primary else androidx.compose.ui.graphics.Color.Transparent),
         )
     }

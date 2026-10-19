@@ -16,7 +16,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
@@ -24,7 +23,6 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.rememberModalBottomSheetState
@@ -49,6 +47,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
  * The Tags button of a list, with how many tags are chosen, and its panel: the [available] tags
@@ -69,8 +68,8 @@ fun TagFilterButton(
     val active = selected.isNotEmpty()
     Box(modifier) {
         Row(
-            Modifier.height(48.dp).clip(RoundedCornerShape(10.dp))
-                .border(if (active || open) 1.5.dp else 1.dp, if (active || open) colors.primary else colors.outlineVariant, RoundedCornerShape(10.dp))
+            Modifier.height(48.dp).clip(AppShapes.control)
+                .border(if (active || open) 1.5.dp else 1.dp, if (active || open) colors.primary else colors.outlineVariant, AppShapes.control)
                 .background(colors.surface).clickable { open = true }.padding(start = 14.dp, end = 10.dp).testTag("tag-filter"),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(10.dp),
@@ -121,7 +120,7 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
             Text(tr("Filter by tags"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
             Text(
                 tr("Clear all"),
-                Modifier.clip(RoundedCornerShape(6.dp)).clickable(enabled = picked.isNotEmpty()) { picked = emptySet() }.padding(horizontal = 6.dp, vertical = 2.dp),
+                Modifier.clip(AppShapes.small).clickable(enabled = picked.isNotEmpty()) { picked = emptySet() }.padding(horizontal = 6.dp, vertical = 2.dp),
                 style = MaterialTheme.typography.bodyMedium,
                 color = if (picked.isNotEmpty()) colors.primary else colors.outline,
             )
@@ -138,12 +137,12 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
         HorizontalDivider(color = colors.outlineVariant)
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             Text(tr("Match"), style = MaterialTheme.typography.bodyLarge)
-            Row(Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(3.dp)) {
+            Row(Modifier.clip(AppShapes.control).border(1.dp, colors.outlineVariant, AppShapes.control).padding(3.dp)) {
                 listOf(false to tr("Any tag"), true to tr("All tags")).forEach { (needsAll, label) ->
                     val chosen = all == needsAll
                     Text(
                         label,
-                        Modifier.clip(RoundedCornerShape(7.dp)).background(if (chosen) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
+                        Modifier.clip(AppShapes.compact).background(if (chosen) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
                             .clickable { all = needsAll }.padding(horizontal = 16.dp, vertical = 8.dp).testTag(if (needsAll) "match-all" else "match-any"),
                         style = MaterialTheme.typography.bodyMedium,
                         fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal,
@@ -160,9 +159,7 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
-            Button(onClick = { onApply(picked, all) }, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("apply-tags")) {
-                Text(tr("Apply"))
-            }
+            PrimaryButton(tr("Apply"), onClick = { onApply(picked, all) }, modifier = Modifier.testTag("apply-tags"))
         }
     }
 }
@@ -172,9 +169,9 @@ private fun TagFilterBody(available: List<String>, selected: Set<String>, matchA
 private fun TagChip(tag: String, picked: Boolean, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.clip(RoundedCornerShape(50))
+        Modifier.clip(AppShapes.pill)
             .background(if (picked) colors.primary.copy(alpha = 0.1f) else colors.surface)
-            .border(1.dp, if (picked) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant, RoundedCornerShape(50))
+            .border(1.dp, if (picked) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant, AppShapes.pill)
             .clickable(onClick = onClick).padding(start = 14.dp, end = if (picked) 10.dp else 14.dp, top = 6.dp, bottom = 6.dp)
             .testTag("tag-$tag"),
         verticalAlignment = Alignment.CenterVertically,
@@ -189,7 +186,7 @@ private fun TagChip(tag: String, picked: Boolean, onClick: () -> Unit) {
 private fun FindField(value: String, onChange: (String) -> Unit, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(48.dp).clip(RoundedCornerShape(10.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 16.dp),
+        modifier.height(48.dp).clip(AppShapes.control).background(colors.surface).border(1.dp, colors.outlineVariant, AppShapes.control).padding(horizontal = 16.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))

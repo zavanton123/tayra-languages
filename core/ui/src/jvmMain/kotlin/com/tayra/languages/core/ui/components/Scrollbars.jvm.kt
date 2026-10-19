@@ -9,13 +9,13 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.rememberScrollbarAdapter
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.v2.ScrollbarAdapter
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.theme.AppShapes
 
 @Composable
 actual fun BoxScope.EdgeScrollbar(state: ScrollState, modifier: Modifier) = Scrollbar(rememberScrollbarAdapter(state), modifier)
@@ -30,7 +30,7 @@ private fun BoxScope.Scrollbar(adapter: ScrollbarAdapter, modifier: Modifier) {
     val style = ScrollbarStyle(
         minimalHeight = 24.dp,
         thickness = 8.dp,
-        shape = RoundedCornerShape(4.dp),
+        shape = AppShapes.tiny,
         hoverDurationMillis = 250,
         unhoverColor = ink.copy(alpha = 0.28f),
         hoverColor = ink.copy(alpha = 0.5f),

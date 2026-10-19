@@ -1,11 +1,7 @@
 package com.tayra.languages.core.ui.components
 
 import com.tayra.languages.core.ui.i18n.tr
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -21,16 +17,12 @@ fun ConfirmDialog(
     onConfirm: () -> Unit,
     onDismiss: () -> Unit,
 ) {
-    AlertDialog(
+    AppDialog(
         onDismissRequest = onDismiss,
         title = { Text(title) },
         text = { Text(text) },
-        confirmButton = {
-            TextButton(onClick = onConfirm) {
-                Text(confirmLabel, color = if (destructive) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.primary)
-            }
-        },
-        dismissButton = { TextButton(onClick = onDismiss) { Text(tr("Cancel")) } },
+        confirmButton = { QuietButton(confirmLabel, onClick = onConfirm, tone = if (destructive) ButtonTone.Danger else ButtonTone.Normal) },
+        dismissButton = { QuietButton(tr("Cancel"), onClick = onDismiss) },
     )
 }
 
@@ -44,11 +36,11 @@ fun TextInputDialog(
     onDismiss: () -> Unit,
 ) {
     var value by remember { mutableStateOf(initial) }
-    AlertDialog(
+    AppDialog(
         onDismissRequest = onDismiss,
         title = { Text(title) },
-        text = { OutlinedTextField(value = value, onValueChange = { value = it }, label = { Text(label) }, singleLine = true) },
-        confirmButton = { TextButton(onClick = { onConfirm(value) }, enabled = value.isNotBlank()) { Text(confirmLabel) } },
-        dismissButton = { TextButton(onClick = onDismiss) { Text(tr("Cancel")) } },
+        text = { AppTextField(value = value, onValueChange = { value = it }, label = { Text(label) }, singleLine = true) },
+        confirmButton = { QuietButton(confirmLabel, onClick = { onConfirm(value) }, enabled = value.isNotBlank()) },
+        dismissButton = { QuietButton(tr("Cancel"), onClick = onDismiss) },
     )
 }

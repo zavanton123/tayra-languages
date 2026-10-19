@@ -5,17 +5,13 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -28,6 +24,7 @@ import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.books.discover.Difficulty
 import com.tayra.languages.core.domain.books.discover.TextCoverage
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /** What is known of how hard a text found online is for the reader. */
 sealed interface CoverageCheck {
@@ -59,9 +56,7 @@ fun CoverageLine(difficulty: Difficulty?, check: CoverageCheck, tag: String, onC
             )
             is CoverageCheck.Failed -> Text(check.message, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             CoverageCheck.NotChecked -> if (onCheck != null) {
-                TextButton(onClick = onCheck, contentPadding = PaddingValues(horizontal = 8.dp), modifier = Modifier.height(32.dp).testTag("check-$tag")) {
-                    Text(tr("Check the words"))
-                }
+                QuietButton(tr("Check the words"), onClick = onCheck, modifier = Modifier.height(32.dp).testTag("check-$tag"), size = ButtonSize.Compact)
             }
         }
     }
@@ -71,7 +66,7 @@ fun CoverageLine(difficulty: Difficulty?, check: CoverageCheck, tag: String, onC
 fun DifficultyTag(difficulty: Difficulty) {
     Text(
         difficulty.label,
-        Modifier.clip(RoundedCornerShape(50)).background(difficulty.color.copy(alpha = 0.14f)).padding(horizontal = 10.dp, vertical = 3.dp),
+        Modifier.clip(AppShapes.pill).background(difficulty.color.copy(alpha = 0.14f)).padding(horizontal = 10.dp, vertical = 3.dp),
         style = MaterialTheme.typography.labelLarge,
         color = difficulty.color,
         fontWeight = FontWeight.SemiBold,
@@ -84,11 +79,11 @@ fun DifficultyTag(difficulty: Difficulty) {
 fun DifficultyFilter(selected: Difficulty?, onSelect: (Difficulty?) -> Unit) {
     FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         (listOf<Difficulty?>(null) + Difficulty.entries).forEach { difficulty ->
-            FilterChip(
+            AppFilterChip(
                 selected = selected == difficulty,
                 onClick = { onSelect(difficulty) },
                 label = { Text(difficulty?.label ?: tr("All levels")) },
-                leadingIcon = difficulty?.let { { Box(Modifier.size(10.dp).clip(RoundedCornerShape(5.dp)).background(it.color)) } },
+                leadingIcon = difficulty?.let { { Box(Modifier.size(10.dp).clip(AppShapes.tiny).background(it.color)) } },
                 modifier = Modifier.testTag("difficulty-${difficulty?.name ?: "ALL"}"),
             )
         }

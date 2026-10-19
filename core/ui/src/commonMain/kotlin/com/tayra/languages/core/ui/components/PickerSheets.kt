@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
@@ -28,6 +27,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.theme.AppShapes
 
 /**
  * A phone's bottom sheet listing [options] to pick one from, the chosen one ticked; [labelContent]
@@ -51,7 +51,7 @@ fun <T> PickerSheet(
             Text(title, Modifier.padding(bottom = 8.dp), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
             options.forEach { option ->
                 Row(
-                    Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).clickable { onPick(option) }.padding(vertical = 12.dp, horizontal = 4.dp),
+                    Modifier.fillMaxWidth().clip(AppShapes.control).clickable { onPick(option) }.padding(vertical = 12.dp, horizontal = 4.dp),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(12.dp),
                 ) {
@@ -89,7 +89,7 @@ fun <T> LanguagePickerSheet(
                 val chosen = option == selected
                 val note = if (chosen) null else unavailable(option)
                 Row(
-                    Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).clickable(enabled = note == null) { if (!chosen) onPick(option) else onDismiss() }
+                    Modifier.fillMaxWidth().clip(AppShapes.control).clickable(enabled = note == null) { if (!chosen) onPick(option) else onDismiss() }
                         .padding(vertical = 10.dp, horizontal = 4.dp),
                 ) {
                     LanguageMenuRow(flagName(option), name(option), chosen, note)

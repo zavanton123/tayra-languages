@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.RichTooltip
@@ -33,6 +32,7 @@ import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.model.BookStats
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.theme.TayraTheme
+import com.tayra.languages.core.ui.theme.AppShapes
 import kotlin.math.roundToInt
 
 const val STATUS_BAR_TAG = "status-distribution-bar"
@@ -53,7 +53,7 @@ private val KNOWN = listOf(TermStatus.WELL_KNOWN, TermStatus.IGNORED)
 @Composable
 fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scope: String = "in this book") {
     if (stats == null || stats.distinctTerms == 0) {
-        Box(modifier.height(10.dp).clip(RoundedCornerShape(4.dp)).background(MaterialTheme.colorScheme.surfaceVariant))
+        Box(modifier.height(10.dp).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surfaceVariant))
         return
     }
     val colors = TayraTheme.current.statusColors
@@ -67,7 +67,7 @@ fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scop
             state = rememberTooltipState(isPersistent = true),
             modifier = Modifier.fillMaxWidth(),
         ) {
-            Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().height(10.dp).clip(RoundedCornerShape(4.dp)).background(MaterialTheme.colorScheme.surfaceVariant)) {
+            Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().height(10.dp).clip(AppShapes.tiny).background(MaterialTheme.colorScheme.surfaceVariant)) {
                 val segments = listOf(TermStatus.UNKNOWN to count(listOf(TermStatus.UNKNOWN))) +
                     LEARNING.map { it to count(listOf(it)) } +
                     (TermStatus.WELL_KNOWN to count(KNOWN))
