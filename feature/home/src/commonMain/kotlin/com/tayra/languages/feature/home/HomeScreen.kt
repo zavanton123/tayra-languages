@@ -38,6 +38,7 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.animatedCount
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.shortDate
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -112,7 +113,7 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
 private fun WordsTodayTile(activity: StudyActivity, modifier: Modifier) {
     val weekStart = activity.today.minus(6, DateTimeUnit.DAY)
     val week = activity.days.filterKeys { it in weekStart..activity.today }.values.sumOf { it.wordsSaved }
-    Tile(tr("Words added today"), formatCount(activity.savedToday), tr("{0} this week", formatCount(week)), AppIcons.Abc, AppAccents.orange, "words-today", modifier)
+    Tile(tr("Words added today"), formatCount(animatedCount(activity.savedToday)), tr("{0} this week", formatCount(week)), AppIcons.Abc, AppAccents.orange, "words-today", modifier)
 }
 
 @Composable
@@ -122,7 +123,7 @@ private fun StreakTile(activity: StudyActivity, modifier: Modifier) {
         activity.streak > 0 -> tr("Study today to keep it going")
         else -> tr("Study today to start a streak")
     }
-    Tile(tr("Day streak"), trPlural(activity.streak, "{0} day", "{0} days"), detail, AppIcons.Flame, AppAccents.pink, "streak", modifier)
+    Tile(tr("Day streak"), animatedCount(activity.streak).let { trPlural(it, "{0} day", "{0} days") }, detail, AppIcons.Flame, AppAccents.pink, "streak", modifier)
 }
 
 @Composable
@@ -187,7 +188,7 @@ private fun BookCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNa
 private fun FlashcardsCard(due: Int, modifier: Modifier, fill: Boolean, onNavigate: (Route) -> Unit) {
     ActionCard(
         tr("Flashcards"),
-        if (due > 0) trPlural(due, "{1} card due today", "{1} cards due today", formatCount(due)) else tr("All caught up"),
+        if (due > 0) animatedCount(due).let { shown -> trPlural(shown, "{1} card due today", "{1} cards due today", formatCount(shown)) } else tr("All caught up"),
         if (due > 0) tr("Review them to keep your words fresh.") else tr("No cards are due right now."),
         AppIcons.Style, AppAccents.teal, "flashcards", modifier, fill,
         button = tr("Review flashcards"), primary = due > 0, onClick = { onNavigate(Route.Flashcards) },

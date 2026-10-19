@@ -1,7 +1,5 @@
 package com.tayra.languages.feature.terms.list
 
-import com.tayra.languages.core.ui.i18n.trPlural
-import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -43,15 +41,19 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.platform.testTag
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.repository.TermListSort
 import com.tayra.languages.core.domain.repository.TermSortField
+import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.ui.audio.SpeakButton
+import com.tayra.languages.core.ui.audio.Speaker
+import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppCheckbox
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
@@ -65,13 +67,14 @@ import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LocalWindowWidth
-import com.tayra.languages.core.ui.components.NumberField
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.NumberField
 import com.tayra.languages.core.ui.components.OverflowMenu
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.RemovableChip
 import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SelectMenu
@@ -79,34 +82,32 @@ import com.tayra.languages.core.ui.components.TableHeader
 import com.tayra.languages.core.ui.components.TableHeaderCell
 import com.tayra.languages.core.ui.components.TintedSurface
 import com.tayra.languages.core.ui.components.ToggleButton
+import com.tayra.languages.core.ui.components.animatedCount
 import com.tayra.languages.core.ui.components.cardSurface
+import com.tayra.languages.core.ui.components.itemMotion
+import com.tayra.languages.core.ui.files.saveBinaryFile
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAccents
-import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
+import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.TayraTheme
-import com.tayra.languages.core.ui.files.saveBinaryFile
+import kotlin.time.Clock
+import kotlin.time.Instant
 import kotlinx.coroutines.launch
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.minus
 import kotlinx.datetime.toLocalDateTime
-import org.koin.compose.viewmodel.koinViewModel
 import org.koin.compose.koinInject
-import com.tayra.languages.core.domain.service.SentenceAudio
-import com.tayra.languages.core.ui.audio.Speaker
-import com.tayra.languages.core.ui.audio.SpeakButton
-import com.tayra.languages.core.ui.audio.rememberSpeaker
+import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
-import kotlin.time.Clock
-import kotlin.time.Instant
-import com.tayra.languages.core.ui.components.ScrollList
-import com.tayra.languages.core.ui.components.itemMotion
 
 internal enum class TermSortOption(val sort: TermListSort) {
     RECENT(TermListSort(TermSortField.CREATED, ascending = false)),
@@ -282,7 +283,7 @@ private fun StatCards(state: TermsListUiState, compact: Boolean) {
                     Spacer(Modifier.width(AppSpacing.l))
                     Column {
                         Text(card.label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        Text(card.value.toString(), style = AppText.headline)
+                        Text(animatedCount(card.value).toString(), style = AppText.headline)
                     }
                 }
             }
