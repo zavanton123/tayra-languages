@@ -2,7 +2,9 @@ package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -66,6 +68,9 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
                 SwitchSetting(tr("Reduce motion"), description = null, checked = settings.reduceMotion, dense = true) { v -> viewModel.update { it.copy(reduceMotion = v) } }
             }
             ContentCard(tr("Reading"), subtitle = null, iconText = "Aa", dense = true) {
+                // The preview comes first, so the font and spacing are seen changing while they are set.
+                PreviewBox(settings, padding = AppSpacing.l)
+                Spacer(Modifier.height(AppSpacing.s))
                 NavigationRow(tr("Reading font"), onClick = { fontSheet = true }, modifier = Modifier.testTag("phone-font"), value = ReadingFont.byId(settings.readingFont).label)
                 AppDivider()
                 PhoneSlider(
@@ -84,7 +89,6 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
                     name = tr("reading line height"),
                 ) { v -> viewModel.update { it.copy(readingLineHeight = v) } }
             }
-            ContentCard(tr("Reading preview"), subtitle = null, icon = AppIcons.MenuBook, dense = true) { PreviewBox(settings, padding = AppSpacing.l) }
             ContentCard(tr("Behaviour"), subtitle = null, icon = Icons.Default.Settings, dense = true) {
                 SwitchSetting(tr("Show study streak on home page"), description = null, checked = settings.showStreakOnHome, dense = true) { v -> viewModel.update { it.copy(showStreakOnHome = v) } }
                 AppDivider()
