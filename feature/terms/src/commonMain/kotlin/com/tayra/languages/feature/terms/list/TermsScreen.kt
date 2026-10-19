@@ -384,7 +384,7 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
     }
 }
 
-/** A status to tick: its colour, a mark when ticked, its name and its badge. */
+/** A status to tick: its colour, its badge, its name and a tick box. */
 @Composable
 private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () -> Unit) {
     val tint = statusTint(status)
@@ -398,15 +398,15 @@ private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () 
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
-        if (selected) {
-            Box(Modifier.size(TICK_DISC).clip(AppShapes.circle).background(strong), contentAlignment = Alignment.Center) {
-                Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.onAccent, modifier = Modifier.size(AppSizes.iconTiny))
-            }
-        } else {
-            Box(Modifier.size(TICK_DISC).clip(AppShapes.circle).border(AppBorders.selected(strong), AppShapes.circle))
-        }
-        Text(status.chipName, style = AppText.label, color = MaterialTheme.colorScheme.onSurface)
+        // As on the phone: the badge, the name, then a tick box, since any number of statuses can be shown.
         StatusBadge(status)
+        Text(status.chipName, style = AppText.label, color = MaterialTheme.colorScheme.onSurface)
+        Box(
+            Modifier.size(TICK_DISC).clip(AppShapes.small).background(if (selected) strong else Color.Transparent).border(AppBorders.selected(strong), AppShapes.small),
+            contentAlignment = Alignment.Center,
+        ) {
+            if (selected) Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.onAccent, modifier = Modifier.size(AppSizes.iconTiny))
+        }
     }
 }
 
