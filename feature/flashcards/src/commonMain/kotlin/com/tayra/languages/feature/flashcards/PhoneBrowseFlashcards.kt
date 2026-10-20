@@ -68,7 +68,7 @@ internal fun PhoneBrowseFlashcardsScreen(
     var sorting by remember { mutableStateOf(false) }
     val showChecks = selecting || state.selected.isNotEmpty()
     Scaffold(
-        topBar = { AppTopBar(title = tr("Browse flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS, onBack = onBack, actions = { BrowseMenu(onReview = actions.onReview) }) },
+        topBar = { AppTopBar(title = tr("Browse flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS, onBack = onBack, actions = { QuietButton(tr("Review cards"), onClick = actions.onReview, modifier = Modifier.testTag("phone-review")) }) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         val list = rememberLazyListState()
@@ -133,14 +133,6 @@ internal val BrowseSortField.label: String
         BrowseSortField.LAST_REVIEW -> tr("Last review")
         BrowseSortField.ADDED -> tr("Added")
     }
-
-/** The page's menu, in the bar. */
-@Composable
-private fun BrowseMenu(onReview: () -> Unit) {
-    OverflowMenu(tr("List actions"), buttonModifier = Modifier.testTag("phone-browse-menu")) { close ->
-        AppMenuItem(text = { Text(tr("Review cards")) }, onClick = { close(); onReview() })
-    }
-}
 
 /** A card as a row of the list: the word and its translation, its state and when it comes. */
 @Composable
