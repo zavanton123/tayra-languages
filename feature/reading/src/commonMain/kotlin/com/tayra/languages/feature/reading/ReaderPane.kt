@@ -124,7 +124,7 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
     Column(Modifier.fillMaxHeight()) {
         PaneHeader(
             title = if (showBookmarks) tr("Bookmarks") else tr("Reader settings"),
-            subtitle = if (showBookmarks) trPlural(bookmarks.size, "{1} · {0} saved", "{1} · {0} saved", title) else tr("Saved automatically · {0}", title),
+            subtitle = if (showBookmarks) trPlural(bookmarks.size, "{1} · {0} saved", "{1} · {0} saved", title) else if (LocalWindowWidth.current.isCompact) tr("Saved automatically") else tr("Saved automatically · {0}", title),
             onClose = onClose,
             modifier = Modifier.padding(start = AppSpacing.xl, end = AppSpacing.l, top = AppSpacing.xl, bottom = AppSpacing.l),
             onBack = if (showBookmarks) ({ showBookmarks = false }) else null,

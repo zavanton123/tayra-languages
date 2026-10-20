@@ -193,6 +193,8 @@ internal val frReading: Map<String, String> = mapOf(
     // ReaderPane.kt
     "{1} · {0} saved" to "{1} · {0} signet|{1} · {0} signets",
     "Saved automatically · {0}" to "Enregistré automatiquement · {0}",
+    "Saved automatically" to "Enregistré automatiquement",
+    "On this page" to "Sur cette page",
     "Reset reader settings?" to "Réinitialiser les paramètres de lecture ?",
     "Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay." to "La lecture, l’audio et l’apparence reviennent à leurs valeurs par défaut. Vos moteurs de traduction et de synthèse vocale et vos voix sont conservés.",
     "Audio" to "Audio",

@@ -193,6 +193,8 @@ internal val deReading: Map<String, String> = mapOf(
     // ReaderPane.kt
     "{1} · {0} saved" to "{1} · {0} Lesezeichen|{1} · {0} Lesezeichen",
     "Saved automatically · {0}" to "Wird automatisch gespeichert · {0}",
+    "Saved automatically" to "Wird automatisch gespeichert",
+    "On this page" to "Auf dieser Seite",
     "Reset reader settings?" to "Leseeinstellungen zurücksetzen?",
     "Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay." to "Lesen, Audio und Darstellung werden auf die Standardwerte zurückgesetzt. Deine Übersetzungs- und Sprachdienste sowie Stimmen bleiben erhalten.",
     "Audio" to "Audio",

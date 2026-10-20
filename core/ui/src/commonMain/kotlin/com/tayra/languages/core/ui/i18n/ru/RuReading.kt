@@ -193,6 +193,8 @@ internal val ruReading: Map<String, String> = mapOf(
     // ReaderPane.kt
     "{1} · {0} saved" to "{1} · {0} закладка|{1} · {0} закладки|{1} · {0} закладок",
     "Saved automatically · {0}" to "Сохраняется автоматически · {0}",
+    "Saved automatically" to "Сохраняется автоматически",
+    "On this page" to "На этой странице",
     "Reset reader settings?" to "Сбросить настройки чтения?",
     "Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay." to "Чтение, звук и оформление вернутся к значениям по умолчанию. Выбранные сервисы перевода и озвучки и голоса останутся.",
     "Audio" to "Звук",

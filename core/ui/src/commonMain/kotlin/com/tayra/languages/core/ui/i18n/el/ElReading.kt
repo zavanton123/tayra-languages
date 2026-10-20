@@ -193,6 +193,8 @@ internal val elReading: Map<String, String> = mapOf(
     // ReaderPane.kt
     "{1} · {0} saved" to "{1} · {0} σελιδοδείκτης|{1} · {0} σελιδοδείκτες",
     "Saved automatically · {0}" to "Αποθηκεύεται αυτόματα · {0}",
+    "Saved automatically" to "Αποθηκεύεται αυτόματα",
+    "On this page" to "Σε αυτή τη σελίδα",
     "Reset reader settings?" to "Επαναφορά ρυθμίσεων ανάγνωσης;",
     "Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay." to "Η ανάγνωση, ο ήχος και η εμφάνιση επανέρχονται στις προεπιλογές. Οι υπηρεσίες μετάφρασης και εκφώνησης και οι φωνές σας παραμένουν.",
     "Audio" to "Ήχος",

@@ -193,6 +193,8 @@ internal val zhReading: Map<String, String> = mapOf(
     // ReaderPane.kt
     "{1} · {0} saved" to "{1} · {0} 个书签",
     "Saved automatically · {0}" to "自动保存 · {0}",
+    "Saved automatically" to "自动保存",
+    "On this page" to "本页",
     "Reset reader settings?" to "重置阅读设置？",
     "Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay." to "阅读、音频和外观将恢复默认设置。你选择的翻译引擎、语音引擎和语音保持不变。",
     "Audio" to "音频",

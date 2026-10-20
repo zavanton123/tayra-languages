@@ -193,6 +193,8 @@ internal val plReading: Map<String, String> = mapOf(
     // ReaderPane.kt
     "{1} · {0} saved" to "{1} · {0} zakładka|{1} · {0} zakładki|{1} · {0} zakładek",
     "Saved automatically · {0}" to "Zapisywane automatycznie · {0}",
+    "Saved automatically" to "Zapisywane automatycznie",
+    "On this page" to "Na tej stronie",
     "Reset reader settings?" to "Zresetować ustawienia czytania?",
     "Reading, audio and appearance go back to their defaults. Your translation and speech engines and voices stay." to "Czytanie, dźwięk i wygląd wrócą do ustawień domyślnych. Wybrane usługi tłumaczenia i mowy oraz głosy pozostaną.",
     "Audio" to "Dźwięk",

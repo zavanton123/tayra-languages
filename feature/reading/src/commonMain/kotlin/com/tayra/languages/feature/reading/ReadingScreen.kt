@@ -896,7 +896,8 @@ private fun PageVocabulary(state: ReadingUiState) {
     val stats = remember(state.page) { BookStatsCalculator.calculate(state.items) }
     val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth().padding(top = AppSpacing.m, bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-        Text(tr("Vocabulary on this page"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        // A phone keeps the label short, so the bar has room to show its shares.
+        Text(if (LocalWindowWidth.current.isCompact) tr("On this page") else tr("Vocabulary on this page"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         StatusDistributionBar(stats, Modifier.widthIn(max = VOCABULARY_BAR_WIDTH).weight(1f, fill = false).fillMaxWidth(), scope = "on this page")
         Text(if (stats.distinctTerms > 0) tr("{0}% unknown", stats.unknownPercent) else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }

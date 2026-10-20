@@ -359,14 +359,10 @@ fun <T> UnderlineTabs(
                         horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),
                     ) {
                         if (tab.icon != null) Icon(tab.icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.icon))
-                        Text(
-                            tab.label,
-                            style = MaterialTheme.typography.bodyLarge,
-                            fontWeight = if (active) FontWeight.SemiBold else if (fill) FontWeight.Normal else FontWeight.Medium,
-                            color = tint,
-                            maxLines = 1,
-                            overflow = TextOverflow.Ellipsis,
-                        )
+                        val weight = if (active) FontWeight.SemiBold else if (fill) FontWeight.Normal else FontWeight.Medium
+                        // Tabs sharing the width shrink a long name to fit rather than cut it.
+                        if (fill) FitText(tab.label, style = MaterialTheme.typography.bodyLarge.copy(fontWeight = weight), color = tint)
+                        else Text(tab.label, style = MaterialTheme.typography.bodyLarge, fontWeight = weight, color = tint, maxLines = 1, overflow = TextOverflow.Ellipsis)
                         if (tab.count != null && tab.count > 0) CountBadge(tab.count, emphasis = BadgeEmphasis.Solid, max = 99)
                     }
                     Spacer(Modifier.height(underline))
