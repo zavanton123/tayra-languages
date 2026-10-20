@@ -992,11 +992,13 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                 }
             } else {
                 val rowGap = AppSpacing.m.roundToPx()
-                val placeables = actions.map { it.measure(Constraints.fixedWidth(width)) } + back.measure(Constraints(maxWidth = width))
+                // Stacked buttons keep a button's width on a wide card and stay on the right, where the row puts them.
+                val buttonWidth = minOf(width, FOOTER_BUTTON_MAX.roundToPx())
+                val placeables = actions.map { it.measure(Constraints.fixedWidth(buttonWidth)) } + back.measure(Constraints(maxWidth = width))
                 layout(width, placeables.sumOf { it.height } + rowGap * (placeables.size - 1)) {
                     var y = 0
                     for (p in placeables) {
-                        p.place(0, y)
+                        p.place(if (p === placeables.last()) 0 else width - p.width, y)
                         y += p.height + rowGap
                     }
                 }
@@ -1074,3 +1076,6 @@ private fun EmbeddedTermForm(key: TermFormKey, keyString: String, viewModel: Rea
         )
     }
 }
+
+/** The widest a reader footer button gets when the buttons stack. */
+private val FOOTER_BUTTON_MAX = 420.dp
