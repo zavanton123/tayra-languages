@@ -2,44 +2,45 @@ package com.tayra.languages.feature.frequency
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.layout.IntrinsicSize
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.width
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.runtime.remember
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.Layout
-import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.text.withStyle
-import com.tayra.languages.core.domain.frequency.FrequencyList
-import com.tayra.languages.core.domain.frequency.VocabularyLevelService
-import kotlin.math.roundToInt
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.domain.frequency.FrequencyList
+import com.tayra.languages.core.domain.frequency.VocabularyLevelService
+import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppDivider
@@ -51,24 +52,27 @@ import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.formatCount
+import com.tayra.languages.core.ui.i18n.languageInSentence
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
-import com.tayra.languages.core.ui.i18n.formatCount
-import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.i18n.LanguageCase
-import com.tayra.languages.core.ui.i18n.languageInSentence
-import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.theme.TayraTheme
+import kotlin.math.roundToInt
 import org.koin.compose.viewmodel.koinViewModel
-import com.tayra.languages.core.ui.components.ScrollColumn
 
 /**
  * Asks for the vocabulary level of the language with [languageId], just chosen to learn, when no
@@ -167,16 +171,19 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
 /** The sample text with each word in the colour of its standing at [level]: known, new, or outside the list. */
 @Composable
 internal fun colouredExample(state: VocabularySettingsUiState, level: Int) = buildAnnotatedString {
+    // As the reader draws a page: known words plain, new ones on the unknown words' highlight.
     val colors = MaterialTheme.colorScheme
+    val statuses = TayraTheme.current.statusColors
     val outside = colors.onSurfaceVariant.copy(alpha = AppAlpha.half)
+    val onNew = if (statuses.onHighlight == Color.Unspecified) colors.onSurface else statuses.onHighlight
     for (token in state.example) {
-        val color = when {
-            !token.isWord -> colors.onSurface
-            token.rank == null -> outside
-            token.rank <= level -> AppAccents.green
-            else -> colors.primary
+        val style = when {
+            !token.isWord -> SpanStyle(color = colors.onSurface)
+            token.rank == null -> SpanStyle(color = outside)
+            token.rank <= level -> SpanStyle(color = colors.onSurface)
+            else -> SpanStyle(color = onNew, background = statuses.background(TermStatus.UNKNOWN))
         }
-        withStyle(SpanStyle(color = color)) { append(token.text) }
+        withStyle(style) { append(token.text) }
     }
 }
 
@@ -414,17 +421,18 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
         }
         // Three legends do not always fit one phone-wide row.
         FlowRow(horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            PreviewLegend(AppAccents.green, tr("Known"))
-            PreviewLegend(colors.primary, tr("New"))
+            PreviewLegend(null, tr("Known"))
+            PreviewLegend(TayraTheme.current.statusColors.background(TermStatus.UNKNOWN), tr("New"))
             PreviewLegend(outside, tr("Outside frequency list"))
         }
     }
 }
 
 @Composable
-internal fun PreviewLegend(color: Color, label: String) {
+internal fun PreviewLegend(color: Color?, label: String) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        StatusDot(color)
+        // No colour is plain text, shown as an empty ring, as the reader's legend shows known words.
+        if (color != null) StatusDot(color) else Box(Modifier.size(AppSizes.dotLarge).border(AppBorders.hairline(MaterialTheme.colorScheme.onSurfaceVariant), AppShapes.circle))
         Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }

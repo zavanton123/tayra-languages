@@ -31,6 +31,7 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import com.tayra.languages.core.domain.frequency.VocabularyLevelService
+import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.components.AppCard
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -50,6 +51,7 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.theme.TayraTheme
 
 /**
  * The vocabulary level page on a phone: the estimate with its slider and sample words, the
@@ -134,8 +136,8 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 }
                 Spacer(Modifier.height(AppSpacing.m))
                 Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.CenterVertically) {
-                    PreviewLegend(AppAccents.green, tr("Known"))
-                    PreviewLegend(colors.primary, tr("New"))
+                    PreviewLegend(null, tr("Known"))
+                    PreviewLegend(TayraTheme.current.statusColors.background(TermStatus.UNKNOWN), tr("New"))
                     PreviewLegend(colors.onSurfaceVariant.copy(alpha = AppAlpha.half), tr("Outside frequency list"))
                 }
             }
