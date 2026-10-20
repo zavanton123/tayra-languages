@@ -45,7 +45,39 @@ def rules(rank_up_to):
 GREEK_ACCENTED = {"ά": "α", "έ": "ε", "ή": "η", "ί": "ι", "ό": "ο", "ύ": "υ", "ώ": "ω", "ΐ": "ϊ", "ΰ": "ϋ"}
 
 
+# OpenCC's tables, as the app bundles them, for reading Chinese in simplified characters.
+OPENCC = os.path.join(ROOT, "core", "ui", "src", "commonMain", "composeResources", "files", "opencc")
+_to_simplified = []
+
+
+def to_simplified(text):
+    """[text] in simplified characters, as the app's OpenCC tables convert it (TSPhrases, then TSCharacters)."""
+    if not _to_simplified:
+        for name in ("TSPhrases.txt", "TSCharacters.txt"):
+            table = {}
+            for line in open(os.path.join(OPENCC, name), encoding="utf-8"):
+                key, _, values = line.rstrip("\n").partition("\t")
+                if key and values:
+                    table[key] = values.split(" ")[0]
+            _to_simplified.append((table, max(map(len, table))))
+    out, i = [], 0
+    while i < len(text):
+        for table, longest in _to_simplified:
+            match = next((text[i:i + n] for n in range(min(longest, len(text) - i), 0, -1) if text[i:i + n] in table), None)
+            if match:
+                out.append(table[match])
+                i += len(match)
+                break
+        else:
+            out.append(text[i])
+            i += 1
+    return "".join(out)
+
+
 def fold(code, word):
+    # Chinese courses are written in simplified characters; the list's words are traditional, with their simplified forms.
+    if code == "zh":
+        return to_simplified(word)
     # The German list folds ß to ss in most of its forms, so both spellings are compared folded.
     if code == "de":
         return word.replace("ß", "ss")
@@ -108,7 +140,33 @@ def load_list(code):
     return ranks, words
 
 
+CJK_RUN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+")
+
+
+def chinese_tokens(text, ranks):
+    """
+    Chinese words as the app's reader cuts them (SegmentingParser): each run of characters into the
+    longest words its lexicon, the frequency list's words and forms, knows, from the left; a character
+    no word covers is a word of its own. Letters outside the characters are words as usual.
+    """
+    longest = max((len(w) for w in ranks), default=1)
+    out = []
+    for match in re.finditer(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+|[^\W\d_]+", text):
+        run = match.group(0)
+        if not CJK_RUN.fullmatch(run):
+            out.append(run)
+            continue
+        i = 0
+        while i < len(run):
+            end = next((j for j in range(min(len(run), i + longest), i, -1) if fold("zh", run[i:j]) in ranks), i + 1)
+            out.append(run[i:end])
+            i = end
+    return out
+
+
 def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=None):
+    if code == "zh":
+        return chinese_tokens(text, ranks)
     if code == "fr":
         return french_tokens(text, ranks)
     if code == "es":
@@ -444,6 +502,9 @@ def check(path, brief=False):
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
     long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el") else []
+    # Chinese writes no spaces, so every name is matched whole, the longest first.
+    if code == "zh":
+        long_names = sorted(course.get("names", []), key=len, reverse=True)
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
     if code == "sr":
@@ -536,7 +597,8 @@ def check(path, brief=False):
             listed = sorted(outside.items(), key=lambda kv: (kv[1] is None, kv[1] or 0))
             report.append("    outside: " + ", ".join(f"{w}({r if r else 'not in list'})" for w, r in listed))
     band = [w for w, (r, _, _) in words.items() if band_start <= r <= up_to]
-    missing = [words[w][1] for w in band if w not in seen_new]
+    # Chinese band words are shown as the courses write them, in simplified characters.
+    missing = [w if code == "zh" else words[w][1] for w in band if w not in seen_new]
     report.append(f"band {band_start}-{up_to}: {len(seen_new)} new words taught; not taught ({len(missing)}): {', '.join(missing)}")
     print("\n".join(report))
     return ok
