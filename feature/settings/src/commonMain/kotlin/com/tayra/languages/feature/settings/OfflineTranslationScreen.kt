@@ -1,6 +1,7 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.background
+import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.AppProgressBar
 import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.CodeTile
@@ -259,11 +260,11 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
             if (LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pair)
             if (wide) {
                 Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    LanguagePairCard(settings, viewModel, learningName, nativeName, Modifier.weight(1f).fillMaxHeight())
+                    LanguagePairCard(settings, viewModel, learningName, nativeName, onNavigate, Modifier.weight(1f).fillMaxHeight())
                     EngineCard(settings, viewModel, pair.ready, Modifier.weight(1f).fillMaxHeight())
                 }
             } else {
-                LanguagePairCard(settings, viewModel, learningName, nativeName)
+                LanguagePairCard(settings, viewModel, learningName, nativeName, onNavigate)
                 EngineCard(settings, viewModel, pair.ready)
             }
             if (local && (packages.isNotEmpty() || ready)) PackagesCard(viewModel, packages, wanted, pair)
@@ -295,7 +296,7 @@ internal fun EngineStatusPill(settings: UserSettings, viewModel: OfflineTranslat
 }
 
 @Composable
-private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslationViewModel, learningName: String?, nativeName: String, modifier: Modifier = Modifier) {
+private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslationViewModel, learningName: String?, nativeName: String, onNavigate: (Route) -> Unit, modifier: Modifier = Modifier) {
     ContentCard(tr("Language pair"), tr("Translations and example sentences use your native language."), icon = AppIcons.SwapHoriz, modifier = modifier) {
         val compact = LocalWindowWidth.current.isCompact
         val learning: @Composable (Modifier) -> Unit = { m ->
@@ -309,12 +310,8 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
                     enabled = false,
                     modifier = Modifier.fillMaxWidth(),
                 )
-                Text(
-                    tr("Managed from the header"),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(start = AppSpacing.l, top = AppSpacing.xs),
-                )
+                // The language learned is chosen on Languages, which this leads to, as the phone's page does.
+                LinkText(tr("Change the language you learn"), onClick = { onNavigate(Route.Languages) }, modifier = Modifier.padding(start = AppSpacing.l, top = AppSpacing.xs), style = MaterialTheme.typography.bodySmall)
             }
         }
         val nativeField: @Composable (Modifier) -> Unit = { m ->
