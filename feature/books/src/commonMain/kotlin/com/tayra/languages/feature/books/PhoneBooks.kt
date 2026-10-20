@@ -96,7 +96,10 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
     var sorting by remember { mutableStateOf(false) }
     var filtering by remember { mutableStateOf(false) }
     ScrollList(modifier.fillMaxSize(), contentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)) {
-        if (state.archived) {
+        if (state.archived && state.books.isEmpty()) {
+            item { EmptyArchive() }
+            return@ScrollList
+        } else if (state.archived) {
             item {
                 Text(tr("Books you have set aside. Unarchive one to keep reading it."), Modifier.padding(bottom = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }

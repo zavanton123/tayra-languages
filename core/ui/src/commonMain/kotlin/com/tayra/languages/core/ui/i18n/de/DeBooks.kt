@@ -60,6 +60,8 @@ internal val deBooks: Map<String, String> = mapOf(
     "Edit" to "Bearbeiten",
     "Bookmarks" to "Lesezeichen",
     "No archived books." to "Keine archivierten Bücher.",
+    "No archived books" to "Keine archivierten Bücher",
+    "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "Bücher, die du über ihr ⋮-Menü archivierst, warten hier außerhalb deiner Bibliothek, bis du sie wiederherstellst.",
     "No books match these filters." to "Keine Bücher passen zu diesen Filtern.",
     "Create a book" to "Buch erstellen",
     "{1} words" to "{1} Wort|{1} Wörter",

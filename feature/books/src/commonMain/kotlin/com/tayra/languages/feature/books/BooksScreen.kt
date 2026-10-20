@@ -251,6 +251,11 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
             item { EmptyLibrary(state, callbacks.onNewBook, callbacks.onDownloadBooks, callbacks.onFindBooks) }
             return@ScrollList
         }
+        // An empty archive has nothing to sort or filter, so it says only how books get there.
+        if (state.archived && state.books.isEmpty()) {
+            item { EmptyArchive() }
+            return@ScrollList
+        }
         if (!state.archived) state.continueWith?.let { book -> item { ContinueCard(book) { callbacks.onOpen(book) } } }
         item { ProgressTabs(state.counts, state.progress, callbacks.onProgress) }
         item { Toolbar(state, compact, wide, books.size, callbacks) }
@@ -714,6 +719,12 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
             }
         }),
     )
+}
+
+/** The archive with nothing in it: how a book is set aside. */
+@Composable
+internal fun EmptyArchive() {
+    EmptyState(AppIcons.Book, tr("No archived books"), message = tr("Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them."))
 }
 
 /** No books in the archive, or none matching the filters. */

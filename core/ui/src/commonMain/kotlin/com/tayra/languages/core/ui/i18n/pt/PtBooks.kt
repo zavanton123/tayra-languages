@@ -60,6 +60,8 @@ internal val ptBooks: Map<String, String> = mapOf(
     "Edit" to "Editar",
     "Bookmarks" to "Marcadores",
     "No archived books." to "Nenhum livro arquivado.",
+    "No archived books" to "Nenhum livro arquivado",
+    "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "Os livros que você arquiva pelo menu ⋮ ficam aqui, fora da sua biblioteca, até você desarquivá-los.",
     "No books match these filters." to "Nenhum livro corresponde a estes filtros.",
     "Create a book" to "Criar livro",
     "{1} words" to "{1} palavra|{1} palavras",

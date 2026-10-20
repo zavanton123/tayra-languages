@@ -60,6 +60,8 @@ internal val zhBooks: Map<String, String> = mapOf(
     "Edit" to "编辑",
     "Bookmarks" to "书签",
     "No archived books." to "没有已归档的书籍。",
+    "No archived books" to "没有已归档的书籍",
+    "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "通过 ⋮ 菜单归档的书籍会放在这里，不在书库中显示，直到你取消归档。",
     "No books match these filters." to "没有符合这些筛选条件的书籍。",
     "Create a book" to "创建书籍",
     "{1} words" to "{1} 个单词",

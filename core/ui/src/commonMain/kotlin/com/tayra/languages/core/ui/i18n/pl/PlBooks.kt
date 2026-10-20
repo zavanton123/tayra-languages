@@ -60,6 +60,8 @@ internal val plBooks: Map<String, String> = mapOf(
     "Edit" to "Edytuj",
     "Bookmarks" to "Zakładki",
     "No archived books." to "Brak zarchiwizowanych książek.",
+    "No archived books" to "Brak zarchiwizowanych książek",
+    "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "Książki zarchiwizowane z ich menu ⋮ czekają tutaj, poza biblioteką, dopóki ich nie przywrócisz.",
     "No books match these filters." to "Żadna książka nie pasuje do tych filtrów.",
     "Create a book" to "Utwórz książkę",
     "{1} words" to "{1} słowo|{1} słowa|{1} słów",
