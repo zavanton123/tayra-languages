@@ -78,6 +78,7 @@ internal val esCourses: Map<String, String> = mapOf(
     "Cancel" to "Cancelar",
     "Lessons" to "Lecciones",
     "Add lesson" to "Añadir lección",
+    "No lessons yet" to "Aún no hay lecciones",
     "No lessons yet. Add the first one: a text you want to read." to "Aún no hay lecciones. Añade la primera: un texto que quieras leer.",
     "This course has no lessons." to "Este curso no tiene lecciones.",
     "Start here" to "Empezar aquí",

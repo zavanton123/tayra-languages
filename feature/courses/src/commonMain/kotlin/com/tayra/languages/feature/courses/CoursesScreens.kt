@@ -477,12 +477,20 @@ private fun CourseCard(progress: CourseProgress, modifier: Modifier, tagsBelow: 
         // Cards in a row share the tallest one's height; the facts and progress keep to the bottom.
         Spacer(Modifier.weight(1f))
         Spacer(Modifier.height(AppSpacing.l))
-        Text(courseFacts(course), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        Spacer(Modifier.height(AppSpacing.m))
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            ProgressBar(progress, Modifier.weight(1f))
-            StatusText(progress, stacked = false)
-            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
+        // A course without lessons has no progress to show, only that it is still empty.
+        if (course.lessons.isEmpty()) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(tr("No lessons yet"), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
+            }
+        } else {
+            Text(courseFacts(course), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Spacer(Modifier.height(AppSpacing.m))
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                ProgressBar(progress, Modifier.weight(1f))
+                StatusText(progress, stacked = false)
+                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
+            }
         }
     }
 }
@@ -813,8 +821,11 @@ private fun LessonList(progress: CourseProgress, compact: Boolean, onOpenLesson:
                 Text(tr("Lessons"), style = AppText.headline)
                 Text("${lessonCount(course.lessons.size)} · ${wordCount(course.wordCount)}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
-            if (editing != null) {
+            // The page's main button starts or continues the course; adding a lesson leads only while there is none.
+            if (editing != null && progress.lessons.isEmpty()) {
                 PrimaryButton(tr("Add lesson"), onClick = editing.onAddLesson, modifier = Modifier.testTag("add-lesson"), icon = Icons.Default.Add)
+            } else if (editing != null) {
+                SecondaryButton(tr("Add lesson"), onClick = editing.onAddLesson, modifier = Modifier.testTag("add-lesson"), icon = Icons.Default.Add)
             }
         }
         if (progress.lessons.isEmpty()) {

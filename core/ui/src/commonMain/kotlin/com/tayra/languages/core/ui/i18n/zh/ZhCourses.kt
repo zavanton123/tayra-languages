@@ -78,6 +78,7 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Cancel" to "取消",
     "Lessons" to "课文",
     "Add lesson" to "添加课文",
+    "No lessons yet" to "还没有课",
     "No lessons yet. Add the first one: a text you want to read." to "还没有课文。添加第一篇：一篇你想读的文本。",
     "This course has no lessons." to "这个课程没有课文。",
     "Start here" to "从这里开始",

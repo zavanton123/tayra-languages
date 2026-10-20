@@ -255,10 +255,14 @@ private fun PhoneCourseCard(progress: CourseProgress, onClick: () -> Unit) {
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.xxs))
         }
         if (course.rankUpTo == null) OwnTags(course)
-        Text(courseFacts(course), Modifier.padding(top = AppSpacing.l), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        Row(Modifier.padding(top = AppSpacing.m, end = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            ProgressBar(progress, Modifier.weight(1f))
-            StatusText(progress, stacked = false)
+        if (course.lessons.isEmpty()) {
+            Text(tr("No lessons yet"), Modifier.padding(top = AppSpacing.l), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        } else {
+            Text(courseFacts(course), Modifier.padding(top = AppSpacing.l), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Row(Modifier.padding(top = AppSpacing.m, end = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                ProgressBar(progress, Modifier.weight(1f))
+                StatusText(progress, stacked = false)
+            }
         }
     }
 }

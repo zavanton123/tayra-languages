@@ -78,6 +78,7 @@ internal val elCourses: Map<String, String> = mapOf(
     "Cancel" to "Ακύρωση",
     "Lessons" to "Ενότητες",
     "Add lesson" to "Προσθήκη ενότητας",
+    "No lessons yet" to "Δεν υπάρχουν μαθήματα ακόμη",
     "No lessons yet. Add the first one: a text you want to read." to "Δεν υπάρχουν ενότητες ακόμη. Προσθέστε την πρώτη: ένα κείμενο που θέλετε να διαβάσετε.",
     "This course has no lessons." to "Αυτό το μάθημα δεν έχει ενότητες.",
     "Start here" to "Ξεκινήστε εδώ",

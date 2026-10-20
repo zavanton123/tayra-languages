@@ -78,6 +78,7 @@ internal val frCourses: Map<String, String> = mapOf(
     "Cancel" to "Annuler",
     "Lessons" to "Leçons",
     "Add lesson" to "Ajouter une leçon",
+    "No lessons yet" to "Pas encore de leçons",
     "No lessons yet. Add the first one: a text you want to read." to "Aucune leçon pour l’instant. Ajoutez la première : un texte que vous voulez lire.",
     "This course has no lessons." to "Ce cours n’a aucune leçon.",
     "Start here" to "Commencer ici",

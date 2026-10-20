@@ -78,6 +78,7 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Cancel" to "Отмена",
     "Lessons" to "Уроки",
     "Add lesson" to "Добавить урок",
+    "No lessons yet" to "Уроков пока нет",
     "No lessons yet. Add the first one: a text you want to read." to "Уроков пока нет. Добавьте первый: текст, который хотите прочитать.",
     "This course has no lessons." to "В этом курсе нет уроков.",
     "Start here" to "Начать отсюда",

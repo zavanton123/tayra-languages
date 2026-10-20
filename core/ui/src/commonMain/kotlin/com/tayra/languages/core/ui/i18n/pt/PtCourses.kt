@@ -78,6 +78,7 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Cancel" to "Cancelar",
     "Lessons" to "Lições",
     "Add lesson" to "Adicionar lição",
+    "No lessons yet" to "Ainda sem lições",
     "No lessons yet. Add the first one: a text you want to read." to "Nenhuma lição ainda. Adicione a primeira: um texto que você quer ler.",
     "This course has no lessons." to "Este curso não tem lições.",
     "Start here" to "Começar aqui",

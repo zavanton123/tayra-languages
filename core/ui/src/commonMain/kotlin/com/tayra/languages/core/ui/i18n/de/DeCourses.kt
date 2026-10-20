@@ -78,6 +78,7 @@ internal val deCourses: Map<String, String> = mapOf(
     "Cancel" to "Abbrechen",
     "Lessons" to "Lektionen",
     "Add lesson" to "Lektion hinzufügen",
+    "No lessons yet" to "Noch keine Lektionen",
     "No lessons yet. Add the first one: a text you want to read." to "Noch keine Lektionen. Füge die erste hinzu: einen Text, den du lesen möchtest.",
     "This course has no lessons." to "Dieser Kurs hat keine Lektionen.",
     "Start here" to "Hier beginnen",
