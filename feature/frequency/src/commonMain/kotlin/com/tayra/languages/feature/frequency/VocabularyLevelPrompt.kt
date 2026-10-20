@@ -42,6 +42,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.frequency.VocabularyLevelService
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.ui.components.MarkedText
+import com.tayra.languages.core.ui.components.pushFill
 import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppDivider
@@ -198,9 +200,14 @@ internal fun colouredExample(state: VocabularySettingsUiState, level: Int) = bui
             !token.isWord -> SpanStyle(color = colors.onSurface)
             token.rank == null -> SpanStyle(color = outside)
             token.rank <= level -> SpanStyle(color = colors.onSurface)
-            else -> SpanStyle(color = onNew, background = statuses.background(TermStatus.UNKNOWN))
+            else -> null
         }
-        withStyle(style) { append(token.text) }
+        if (style != null) withStyle(style) { append(token.text) }
+        else {
+            pushFill(statuses.background(TermStatus.UNKNOWN))
+            withStyle(SpanStyle(color = onNew)) { append(token.text) }
+            pop()
+        }
     }
 }
 
@@ -428,7 +435,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
             if (state.example.isEmpty()) {
                 Text(tr("No sample text for {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)), color = colors.onSurfaceVariant)
             } else {
-                Text(
+                MarkedText(
                     colouredExample(state, level),
                     style = MaterialTheme.typography.bodyLarge.copy(lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.45f),
                     maxLines = 9,

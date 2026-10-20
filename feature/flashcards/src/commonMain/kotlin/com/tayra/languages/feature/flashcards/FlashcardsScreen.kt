@@ -61,6 +61,7 @@ import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
@@ -79,6 +80,8 @@ import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.ui.audio.SpeakButton
 import com.tayra.languages.core.ui.audio.Speaker
 import com.tayra.languages.core.ui.audio.rememberSpeaker
+import com.tayra.languages.core.ui.components.MarkedText
+import com.tayra.languages.core.ui.components.pushFill
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
@@ -386,24 +389,30 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                 ) { SpeakButton(card.spoken, card.languageCode, speaker, Modifier.size(AppSizes.tileMedium).then(NoFocus)) }
             }
         }
-        val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = AppText.labelStrong.fontWeight)
+        val fill = AppAccents.highlight.copy(alpha = AppAlpha.half)
+        val highlight = SpanStyle(fontWeight = AppText.labelStrong.fontWeight)
+        fun AnnotatedString.Builder.marked(word: String) {
+            pushFill(fill)
+            withStyle(highlight) { append(word) }
+            pop()
+        }
         val sentence = card.sentence
         val range = card.wordRange
         val front = when {
-            sentence == null -> buildAnnotatedString { withStyle(highlight) { append(card.word) } }
+            sentence == null -> buildAnnotatedString { marked(card.word) }
             range == null -> buildAnnotatedString {
                 // The word is not in the sentence as written: it leads, as on the exported card.
-                withStyle(highlight) { append(if (revealed) card.word else BLANK) }
+                marked(if (revealed) card.word else BLANK)
                 append("\n")
                 append(sentence)
             }
             else -> buildAnnotatedString {
                 append(sentence.substring(0, range.first))
-                withStyle(highlight) { append(if (revealed) sentence.substring(range) else BLANK) }
+                marked(if (revealed) sentence.substring(range) else BLANK)
                 append(sentence.substring(range.last + 1))
             }
         }
-        Text(
+        MarkedText(
             front,
             style = AppText.cardSentence(if (compact) 26f else 30f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
             modifier = Modifier.padding(top = if (compact) AppSpacing.s else AppSpacing.m, bottom = if (compact) AppSpacing.l else AppSpacing.xxl).testTag("flashcard-front"),

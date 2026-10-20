@@ -52,6 +52,8 @@ import com.tayra.languages.core.domain.service.CommandLineStatus
 import com.tayra.languages.core.domain.service.CommandLineTool
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
+import com.tayra.languages.core.ui.components.MarkedText
+import com.tayra.languages.core.ui.components.pushFill
 import com.tayra.languages.core.ui.components.AppDialog
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
@@ -421,11 +423,15 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = AppSpacing.xxl) {
                 when {
                     background == Color.Transparent -> append(part)
                     status == TermStatus.UNKNOWN && colors.unknownAsText -> withStyle(SpanStyle(color = background)) { append(part) }
-                    else -> withStyle(SpanStyle(background = background, color = colors.onHighlight)) { append(part) }
+                    else -> {
+                        pushFill(background)
+                        withStyle(SpanStyle(color = colors.onHighlight)) { append(part) }
+                        pop()
+                    }
                 }
             }
         }
-        Text(
+        MarkedText(
             text,
             style = TextStyle(
                 fontSize = (18 * settings.readingFontScale).sp,
