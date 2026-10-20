@@ -235,6 +235,29 @@ fun ContentCard(
     }
 }
 
+
+/**
+ * A figure on a card: its [label], the [value] large, and a [detail] under it, with an [icon] beside
+ * them where there is room. The text starts at the top, so tiles side by side line up, and a label
+ * takes two lines in large text rather than being cut.
+ */
+@Composable
+fun StatTile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, modifier: Modifier = Modifier) {
+    val compact = LocalWindowWidth.current.isCompact
+    Row(
+        modifier.cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl),
+        verticalAlignment = Alignment.Top,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+    ) {
+        if (!compact) IconTile(icon, size = 52, tint = tint)
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+            Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            Text(value, style = AppText.headline, maxLines = 1)
+            Text(detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2)
+        }
+    }
+}
+
 /** An icon (or a short text) on a rounded square washed with its [tint], the primary colour unless an accent is given. */
 @Composable
 fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48, tint: Color = MaterialTheme.colorScheme.primary) {

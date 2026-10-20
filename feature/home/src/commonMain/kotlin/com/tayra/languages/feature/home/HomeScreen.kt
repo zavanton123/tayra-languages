@@ -25,6 +25,7 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.domain.stats.StudyActivity
+import com.tayra.languages.core.ui.components.StatTile
 import com.tayra.languages.core.ui.components.ActivityHeatmapCard
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -129,21 +130,8 @@ private fun StreakTile(activity: StudyActivity, modifier: Modifier) {
 }
 
 @Composable
-private fun Tile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, tag: String, modifier: Modifier) {
-    val compact = LocalWindowWidth.current.isCompact
-    Row(
-        modifier.cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl).testTag("tile-$tag"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
-    ) {
-        if (!compact) IconTile(icon, size = 52, tint = tint)
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-            Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            Text(value, style = AppText.headline, maxLines = 1)
-            Text(detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2)
-        }
-    }
-}
+private fun Tile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, tag: String, modifier: Modifier) =
+    StatTile(label, value, detail, icon, tint, modifier.testTag("tile-$tag"))
 
 @Composable
 private fun CourseCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNavigate: (Route) -> Unit, onContinue: () -> Unit) {

@@ -47,6 +47,7 @@ import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.stats.ChartPoint
 import com.tayra.languages.core.domain.stats.LanguageOverview
 import com.tayra.languages.core.domain.stats.heatLevel
+import com.tayra.languages.core.ui.components.StatTile
 import com.tayra.languages.core.ui.components.ActivityHeatmapCard
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
@@ -189,18 +190,7 @@ private fun OverviewTiles(o: LanguageOverview) {
         maxItemsInEachRow = if (compact) 2 else 3,
     ) {
         tiles.forEach { tile ->
-            Row(
-                Modifier.weight(1f).cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl).testTag("tile-${tile.tag}"),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
-            ) {
-                if (!compact) IconTile(tile.icon, size = 52, tint = tile.tint)
-                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                    Text(tile.label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                    Text(tile.value, style = AppText.headline, maxLines = 1)
-                    Text(tile.detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2)
-                }
-            }
+            StatTile(tile.label, tile.value, tile.detail, tile.icon, tile.tint, Modifier.weight(1f).testTag("tile-${tile.tag}"))
         }
     }
 }
