@@ -125,6 +125,7 @@ internal val esSettings: Map<String, String> = mapOf(
     "Online translation: {0}" to "Traducción en línea: {0}",
     "Checking offline translation" to "Comprobando la traducción sin conexión",
     "Language packages needed" to "Faltan paquetes de idioma",
+    "Language models needed" to "Faltan modelos de idioma",
     // PhoneTranslation.kt
     "Required packages" to "Paquetes necesarios",
     "Required models" to "Modelos necesarios",

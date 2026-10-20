@@ -285,7 +285,8 @@ internal fun EngineStatusPill(settings: UserSettings, viewModel: OfflineTranslat
             !local -> StatusPill(tr("Online translation: {0}", "MyMemory"), StatusTints.ok)
             checking -> StatusPill(tr("Checking offline translation"), MaterialTheme.colorScheme.outline)
             !ready -> StatusPill(tr("{0} is not installed", viewModel.localName), StatusTints.warning)
-            !pair.ready -> StatusPill(tr("Language packages needed"), StatusTints.warning)
+            // Named as the rest of the page names them: packages for the desktop's translator, models for the phone's.
+            !pair.ready -> StatusPill(if (viewModel.hasRuntimeSetup) tr("Language packages needed") else tr("Language models needed"), StatusTints.warning)
             else -> StatusPill(tr("Offline translation ready"), StatusTints.ok)
         }
         TranslationEngine.MYMEMORY -> StatusPill(tr("Online translation: {0}", "MyMemory"), StatusTints.ok)

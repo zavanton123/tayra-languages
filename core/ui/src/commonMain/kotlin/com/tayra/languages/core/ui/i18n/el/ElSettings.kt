@@ -125,6 +125,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Online translation: {0}" to "Online μετάφραση: {0}",
     "Checking offline translation" to "Έλεγχος μετάφρασης εκτός σύνδεσης",
     "Language packages needed" to "Απαιτούνται γλωσσικά πακέτα",
+    "Language models needed" to "Απαιτούνται γλωσσικά μοντέλα",
     // PhoneTranslation.kt
     "Required packages" to "Απαιτούμενα πακέτα",
     "Required models" to "Απαιτούμενα μοντέλα",

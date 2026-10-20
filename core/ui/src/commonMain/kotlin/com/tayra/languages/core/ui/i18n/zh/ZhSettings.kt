@@ -125,6 +125,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Online translation: {0}" to "在线翻译：{0}",
     "Checking offline translation" to "正在检查离线翻译",
     "Language packages needed" to "需要语言包",
+    "Language models needed" to "需要语言模型",
     // PhoneTranslation.kt
     "Required packages" to "所需语言包",
     "Required models" to "所需模型",

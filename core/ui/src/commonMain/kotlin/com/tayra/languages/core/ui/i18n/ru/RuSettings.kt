@@ -125,6 +125,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Online translation: {0}" to "Онлайн-перевод: {0}",
     "Checking offline translation" to "Проверка офлайн-перевода",
     "Language packages needed" to "Нужны языковые пакеты",
+    "Language models needed" to "Нужны языковые модели",
     // PhoneTranslation.kt
     "Required packages" to "Нужные пакеты",
     "Required models" to "Нужные модели",

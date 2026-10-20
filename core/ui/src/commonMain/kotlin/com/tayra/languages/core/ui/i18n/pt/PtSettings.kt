@@ -125,6 +125,7 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Online translation: {0}" to "Tradução online: {0}",
     "Checking offline translation" to "Verificando a tradução offline",
     "Language packages needed" to "Pacotes de idiomas necessários",
+    "Language models needed" to "Modelos de idiomas necessários",
     // PhoneTranslation.kt
     "Required packages" to "Pacotes necessários",
     "Required models" to "Modelos necessários",
