@@ -91,7 +91,10 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
             }
             ContentCard(tr("Behaviour"), subtitle = null, icon = Icons.Default.Settings, dense = true) {
                 Column(Modifier.padding(vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    Text(tr("Book stats page sample size"), style = MaterialTheme.typography.bodyLarge)
+                    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+                        Text(tr("Book stats page sample size"), style = MaterialTheme.typography.bodyLarge)
+                        Text(tr("Number of pages used for book statistics."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
                     NumberStepper(
                         value = settings.statsSampleSize,
                         range = UserSettings.MIN_STATS_SAMPLE_SIZE..UserSettings.MAX_STATS_SAMPLE_SIZE,
