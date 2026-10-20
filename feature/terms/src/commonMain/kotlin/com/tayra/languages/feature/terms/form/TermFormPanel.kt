@@ -1,6 +1,7 @@
 package com.tayra.languages.feature.terms.form
 
 import androidx.compose.animation.animateColorAsState
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -42,6 +43,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -584,30 +586,39 @@ val LanguageDictionary.displayName: String
 @Composable
 fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false, large: Boolean = false) {
     val colors = TayraTheme.current.statusColors
-    Row(if (expanded || large) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (expanded || large) AppSpacing.s else AppSpacing.xs)) {
-        TermStatus.paneButtons.forEach { status ->
-            val isSelected = status == selected
-            val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
-            // The ring moves to the chosen status by fading out on the old one and in on the new.
-            val ring by animateColorAsState(if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, AppMotion.spec(AppMotion.short))
-            Box(
-                Modifier
-                    .then(if (expanded) Modifier.weight(1f).height(AppSizes.touch) else if (large) Modifier.weight(1f).height(LARGE_STATUS_BUTTON_HEIGHT) else Modifier)
-                    .clip(if (expanded || large) AppShapes.compact else AppShapes.tiny)
-                    .background(background)
-                    .border(AppBorders.selected(ring), if (expanded || large) AppShapes.compact else AppShapes.tiny)
-                    .clickable { onSelect(status) }
-                    .semantics { this.selected = isSelected }
-                    .then(if (expanded || large) Modifier else Modifier.padding(horizontal = AppSpacing.m, vertical = AppSpacing.s)),
-                contentAlignment = Alignment.Center,
-            ) {
-                Text(
-                    text = status.abbreviation,
-                    color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink,
-                    style = if (expanded || large) AppText.itemTitle else AppText.badge,
-                )
+    val wide = expanded || large
+    Column(if (wide) Modifier.fillMaxWidth() else Modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+        Row(if (wide) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (wide) AppSpacing.s else AppSpacing.xs)) {
+            TermStatus.paneButtons.forEach { status ->
+                val isSelected = status == selected
+                val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
+                // The ring moves to the chosen status by fading out on the old one and in on the new; the others fade back,
+                // so the chosen one stands out by more than its ring.
+                val ring by animateColorAsState(if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, AppMotion.spec(AppMotion.short))
+                val shown by animateFloatAsState(if (isSelected) 1f else AppAlpha.muted, AppMotion.spec(AppMotion.short))
+                val name = tr(status.label)
+                Box(
+                    Modifier
+                        .then(if (expanded) Modifier.weight(1f).height(AppSizes.touch) else if (large) Modifier.weight(1f).height(LARGE_STATUS_BUTTON_HEIGHT) else Modifier)
+                        .alpha(shown)
+                        .clip(if (wide) AppShapes.compact else AppShapes.tiny)
+                        .background(background)
+                        .border(AppBorders.selected(ring), if (wide) AppShapes.compact else AppShapes.tiny)
+                        .clickable { onSelect(status) }
+                        .semantics { this.selected = isSelected; contentDescription = name }
+                        .then(if (wide) Modifier else Modifier.padding(horizontal = AppSpacing.m, vertical = AppSpacing.s)),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    Text(
+                        text = status.abbreviation,
+                        color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink,
+                        style = if (wide) AppText.itemTitle else AppText.badge,
+                    )
+                }
             }
         }
+        // The letters are short; the chosen status is named in full under them.
+        Text(tr(selected.label), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("status-name"))
     }
 }
 
