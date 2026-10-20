@@ -3,7 +3,7 @@ package com.tayra.languages.core.ui.i18n.pl
 internal val plSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "Ustawienia",
-    "Personalize your reading experience." to "Dostosuj czytanie do siebie.",
+    "Personalise your reading experience." to "Dostosuj czytanie do siebie.",
     "More settings" to "Więcej ustawień",
     "Course packs" to "Pakiety kursów",
     "Book packs" to "Pakiety książek",
@@ -11,16 +11,16 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Reset to defaults" to "Przywróć domyślne",
     "Changes are saved automatically." to "Zmiany są zapisywane automatycznie.",
     "Reset to defaults?" to "Przywrócić ustawienia domyślne?",
-    "The theme, highlighting, reading size and spacing, reading streak and statistics sample size go back to their defaults." to "Motyw, podświetlanie, rozmiar tekstu i odstępy, seria czytania oraz próbka do statystyk wrócą do wartości domyślnych.",
+    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Motyw, podświetlanie, rozmiar tekstu i odstępy oraz próbka do statystyk wrócą do wartości domyślnych.",
     "Cancel" to "Anuluj",
     "Appearance" to "Wygląd",
-    "Customize the look and feel of Tayra." to "Dostosuj wygląd Tayry.",
+    "Customise the look and feel of Tayra." to "Dostosuj wygląd Tayry.",
     "Theme" to "Motyw",
     "Light" to "Jasne",
     "Dark" to "Ciemne",
     "Choose how Tayra looks." to "Wybierz, jak ma wyglądać Tayra.",
     "Highlight terms by status" to "Podświetlaj słowa według statusu",
-    "Use mastery colors while reading." to "Podczas czytania oznaczaj słowa kolorem ich statusu.",
+    "Use status colours while reading." to "Podczas czytania oznaczaj słowa kolorem ich statusu.",
     "Reduce motion" to "Ogranicz ruch",
     "Keep the screens still: no sliding, fading or turning over." to "Ekrany pozostają nieruchome: bez przesuwania, zanikania i obracania.",
     "Reading" to "Czytanie",
@@ -115,7 +115,7 @@ internal val plSettingsMore: Map<String, String> = mapOf(
 
     // ShortcutsScreen.kt
     "Keyboard shortcuts" to "Skróty klawiszowe",
-    "Customize how you navigate and listen while reading." to "Dostosuj klawisze do poruszania się po tekście i słuchania.",
+    "Customise how you navigate and listen while reading." to "Dostosuj klawisze do poruszania się po tekście i słuchania.",
     "No shortcuts match “{0}”." to "Brak skrótów pasujących do „{0}”.",
     "Every keyboard shortcut goes back to its default key." to "Wszystkie skróty klawiszowe wrócą do domyślnych klawiszy.",
     "Navigation" to "Nawigacja",
@@ -240,7 +240,7 @@ internal val plSettingsMore: Map<String, String> = mapOf(
 
     // AboutScreen.kt
     "About" to "O aplikacji",
-    "Learn languages by reading. Import texts, click words to look them up and track what you know." to "Ucz się języków przez czytanie. Importuj teksty, klikaj słowa, aby sprawdzić ich znaczenie, i śledź, co już znasz.",
+    "Learn languages by reading. Import texts, select words to look them up and track what you know." to "Ucz się języków przez czytanie. Importuj teksty, zaznaczaj słowa, aby sprawdzić ich znaczenie, i śledź, co już znasz.",
     "A reader for learning languages through texts, running on Android, iOS, desktop and the web with a shared Compose UI." to "Czytnik do nauki języków przez teksty, działający na Androidzie, iOS, komputerze i w przeglądarce ze wspólnym interfejsem Compose.",
     "Credits" to "Źródła",
     "Offline dictionaries are built from Wiktionary, through kaikki.org and wiktionary-to-yomitan, licensed CC BY-SA 4.0. Japanese ones add JMdict, the names pack is JMnedict, and kanji come from KANJIDIC2, all by the Electronic Dictionary Research and Development Group (EDRDG), licensed CC BY-SA 4.0. Chinese-English adds CC-CEDICT by MDBG, licensed CC BY-SA 4.0. The Toki Pona dictionaries come from lipu Linku, licensed CC BY-SA 4.0." to "Słowniki offline powstały z Wiktionary, za pośrednictwem kaikki.org i wiktionary-to-yomitan, na licencji CC BY-SA 4.0. Słowniki japońskie uzupełnia JMdict, pakiet imion to JMnedict, a kanji pochodzą z KANJIDIC2; wszystkie od Electronic Dictionary Research and Development Group (EDRDG), na licencji CC BY-SA 4.0. Słownik chińsko-angielski uzupełnia CC-CEDICT od MDBG, na licencji CC BY-SA 4.0. Słowniki toki pona pochodzą z lipu Linku, na licencji CC BY-SA 4.0.",

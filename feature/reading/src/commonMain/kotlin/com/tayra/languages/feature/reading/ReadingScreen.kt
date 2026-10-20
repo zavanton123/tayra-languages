@@ -932,14 +932,14 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         // Practice asks about the words being learned, so it is offered only when the page has some.
         val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
         // A text of one page has the same words either way, so it offers only the whole.
-        val practice: @Composable (Modifier) -> Unit = { modifier -> if (practisable && state.pageCount > 1) PracticeButton(tr("Practice this page"), modifier, onPractice) }
+        val practice: @Composable (Modifier) -> Unit = { modifier -> if (practisable && state.pageCount > 1) PracticeButton(tr("Practise this page"), modifier, onPractice) }
         val practiceAll: @Composable (Modifier) -> Unit = { modifier ->
             if (last && bookWords > 0) {
                 PracticeButton(
                     when {
-                        state.lesson != null -> tr("Practice the lesson's words")
-                        state.news -> tr("Practice the article's words")
-                        else -> tr("Practice the book's words")
+                        state.lesson != null -> tr("Practise the lesson's words")
+                        state.news -> tr("Practise the article's words")
+                        else -> tr("Practise the book's words")
                     },
                     modifier.testTag("practice-all"),
                 ) { choosingKinds = true }

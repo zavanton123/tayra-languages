@@ -407,7 +407,7 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
                 PrimaryButton(tr("Practise missed words"), onClick = actions.onRestartMissed, size = ButtonSize.Large, modifier = Modifier.testTag("practise-missed"))
                 SecondaryButton(backLabel(state), onClick = actions.onBack, size = ButtonSize.Large)
             } else {
-                SecondaryButton(tr("Practice again"), onClick = actions.onRestart, size = ButtonSize.Large)
+                SecondaryButton(tr("Practise again"), onClick = actions.onRestart, size = ButtonSize.Large)
                 PrimaryButton(backLabel(state), onClick = actions.onBack, size = ButtonSize.Large)
             }
         }

@@ -26,7 +26,7 @@ fun AboutScreen(onNavigate: (Route) -> Unit) {
         Column(Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(AppSpacing.l).widthIn(max = TEXT_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             ScreenTitle(tr("About"))
             Text("Tayra Languages", style = MaterialTheme.typography.headlineSmall)
-            Text(tr("Learn languages by reading. Import texts, click words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)
+            Text(tr("Learn languages by reading. Import texts, select words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)
             Text(tr("A reader for learning languages through texts, running on Android, iOS, desktop and the web with a shared Compose UI."), style = MaterialTheme.typography.bodyMedium)
             Text(tr("Credits"), style = MaterialTheme.typography.titleMedium)
             CREDITS.forEach { Text(tr(it), style = MaterialTheme.typography.bodySmall) }

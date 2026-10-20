@@ -291,7 +291,7 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
     val prefs = state.settings
     PaneCard(tr("Reading experience")) {
         SwitchSetting(tr("Focus mode"), tr("Hide navigation and distractions"), prefs.focusMode, icon = AppIcons.Fullscreen, dense = true) { viewModel.toggleFocusMode() }
-        SwitchSetting(tr("Highlight terms"), tr("Color words by learning status"), prefs.showHighlights, icon = AppIcons.Palette, dense = true) { viewModel.toggleHighlights() }
+        SwitchSetting(tr("Highlight terms"), tr("Colour words by learning status"), prefs.showHighlights, icon = AppIcons.Palette, dense = true) { viewModel.toggleHighlights() }
         if (state.language?.let { LanguageCodes.codeFor(it.name) } in READING_LANGUAGES) {
             SwitchSetting(tr("Show readings"), tr("Furigana or pinyin above the words"), prefs.showReadings, icon = AppIcons.Abc, dense = true) { viewModel.toggleReadings() }
         }
@@ -316,7 +316,7 @@ private fun ReadingTab(state: ReadingUiState, viewModel: ReadingViewModel, onTra
     }
     PaneCard(tr("Translations")) {
         SwitchSetting(tr("Show translations"), null, prefs.showTranslations, icon = AppIcons.Translate, dense = true) { viewModel.toggleShowTranslations() }
-        SwitchSetting(tr("Practice translation"), tr("Blur the sentences; point at or tap one to show it"), prefs.practiceTranslation, icon = AppIcons.School, dense = true) { viewModel.togglePracticeTranslation() }
+        SwitchSetting(tr("Practise translation"), tr("Blur the sentences; point at or tap one to show it"), prefs.practiceTranslation, icon = AppIcons.School, dense = true) { viewModel.togglePracticeTranslation() }
         SegmentedSetting(AppIcons.ViewColumn, tr("Translation layout"), listOf(true to tr("Side by side"), false to tr("Below")), prefs.sideBySideTranslations, viewModel::setSideBySideTranslations)
         val keyed = prefs.googleTranslateApiKey.isNotBlank()
         fun usable(engine: TranslationEngine) = engine != TranslationEngine.GOOGLE || keyed
@@ -360,7 +360,7 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
     PaneCard(tr("Playback")) {
         SwitchSetting(tr("Read-aloud controls"), tr("Show the play button and a speaker before each sentence"), prefs.showSentencePlay, icon = AppIcons.PlayArrow, dense = true) { viewModel.toggleSentencePlay() }
         SwitchSetting(tr("Auto-pause"), tr("Stop after each sentence"), prefs.autoPause, icon = AppIcons.Pause, dense = true) { viewModel.toggleAutoPause() }
-        SwitchSetting(tr("Speak word on click"), tr("Hear a word when you select it"), prefs.speakWordOnClick, icon = AppIcons.Abc, dense = true) { viewModel.toggleSpeakWordOnClick() }
+        SwitchSetting(tr("Speak selected words"), tr("Hear a word when you select it"), prefs.speakWordOnClick, icon = AppIcons.Abc, dense = true) { viewModel.toggleSpeakWordOnClick() }
     }
     PaneCard(tr("Voice")) {
         ChoiceCard(

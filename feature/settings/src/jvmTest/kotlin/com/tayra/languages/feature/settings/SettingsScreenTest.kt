@@ -73,7 +73,7 @@ class SettingsScreenTest {
         val settings = SettingsRepositoryImpl(MapSettings())
         runBlocking { settings.update { it.copy(readingFontScale = 1.2f) } }
         setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings)) } }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Personalize your reading experience.").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Personalise your reading experience.").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Reset to defaults").assertDoesNotExist()
         onNodeWithText("120%").assertExists()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }

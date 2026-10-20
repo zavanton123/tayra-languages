@@ -164,7 +164,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader(tr("Settings"), tr("Personalize your reading experience.")) {
+            ScreenHeader(tr("Settings"), tr("Personalise your reading experience.")) {
                 HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
             }
             if (wide) {
@@ -199,7 +199,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
         AppDialog(
             onDismissRequest = { confirmReset = false },
             title = { Text(tr("Reset to defaults?")) },
-            text = { Text(tr("The theme, highlighting, reading size and spacing, reading streak and statistics sample size go back to their defaults.")) },
+            text = { Text(tr("The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults.")) },
             confirmButton = { PrimaryButton(onClick = { confirmReset = false; viewModel.resetToDefaults() }) { Text(tr("Reset")) } },
             dismissButton = { QuietButton(onClick = { confirmReset = false }) { Text(tr("Cancel")) } },
         )
@@ -219,7 +219,7 @@ private fun MoreSettingsCard(onNavigate: (Route) -> Unit) {
             Triple(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings to AppIcons.Abc),
             Triple(tr("Course packs"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), Route.CoursePacks to AppIcons.School),
             Triple(tr("Book packs"), tr("Download a pack of free books in a language as one file, or remove them to free space."), Route.BookPacks to AppIcons.Download),
-            Triple(tr("Keyboard shortcuts"), tr("Customize how you navigate and listen while reading."), Route.Shortcuts to AppIcons.Keyboard),
+            Triple(tr("Keyboard shortcuts"), tr("Customise how you navigate and listen while reading."), Route.Shortcuts to AppIcons.Keyboard),
             Triple(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), Route.Backups to AppIcons.UploadFile),
         )
         pages.forEach { (title, description, target) ->
@@ -238,7 +238,7 @@ private fun MoreSettingsCard(onNavigate: (Route) -> Unit) {
 
 @Composable
 private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    ContentCard(tr("Appearance"), tr("Customize the look and feel of Tayra."), icon = AppIcons.Palette) {
+    ContentCard(tr("Appearance"), tr("Customise the look and feel of Tayra."), icon = AppIcons.Palette) {
         SettingRow(tr("Theme"), tr("Choose how Tayra looks."), stackOnCompact = true) {
             Dropdown(
                 // Light themes, then dark, each under its heading.
@@ -257,7 +257,7 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
                 },
             )
         }
-        SwitchSetting(tr("Highlight terms by status"), tr("Use mastery colors while reading."), settings.showHighlights, divider = true) { v ->
+        SwitchSetting(tr("Highlight terms by status"), tr("Use status colours while reading."), settings.showHighlights, divider = true) { v ->
             viewModel.update { it.copy(showHighlights = v) }
         }
         SwitchSetting(tr("Reduce motion"), tr("Keep the screens still: no sliding, fading or turning over."), settings.reduceMotion, divider = true) { v ->

@@ -5,7 +5,7 @@ internal val zhNews: Map<String, String> = mapOf(
     "News" to "新闻",
     "Refresh" to "刷新",
     "Back to news" to "返回新闻",
-    "Practice the article's words" to "练习文章中的单词",
+    "Practise the article's words" to "练习文章中的单词",
     "Finish article" to "读完文章",
     "Choose a language to learn to see its news." to "选择要学习的语言，即可查看相应新闻。",
     "There is no news feed in {0} yet." to "暂时还没有{0}新闻源。",

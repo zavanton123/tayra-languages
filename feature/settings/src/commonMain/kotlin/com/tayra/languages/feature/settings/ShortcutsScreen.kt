@@ -112,7 +112,7 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader(tr("Keyboard shortcuts"), tr("Customize how you navigate and listen while reading."), onBackToSettings = onBack) {
+            ScreenHeader(tr("Keyboard shortcuts"), tr("Customise how you navigate and listen while reading."), onBackToSettings = onBack) {
                 HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
             }
             SearchBanner(query, onQuery = { query = it }, assigned = hotkeys.values.count { it != null }, conflicts = conflicts.size)

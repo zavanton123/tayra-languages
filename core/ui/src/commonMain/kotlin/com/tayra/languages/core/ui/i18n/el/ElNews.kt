@@ -5,7 +5,7 @@ internal val elNews: Map<String, String> = mapOf(
     "News" to "Ειδήσεις",
     "Refresh" to "Ανανέωση",
     "Back to news" to "Πίσω στις ειδήσεις",
-    "Practice the article's words" to "Εξάσκηση στις λέξεις του άρθρου",
+    "Practise the article's words" to "Εξάσκηση στις λέξεις του άρθρου",
     "Finish article" to "Ολοκλήρωση άρθρου",
     "Choose a language to learn to see its news." to "Επιλέξτε μια γλώσσα εκμάθησης για να δείτε ειδήσεις σε αυτή.",
     "There is no news feed in {0} yet." to "Δεν υπάρχει ακόμη ροή ειδήσεων στα {0}.",

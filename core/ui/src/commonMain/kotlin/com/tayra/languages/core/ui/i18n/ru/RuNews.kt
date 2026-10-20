@@ -5,7 +5,7 @@ internal val ruNews: Map<String, String> = mapOf(
     "News" to "Новости",
     "Refresh" to "Обновить",
     "Back to news" to "К новостям",
-    "Practice the article's words" to "Повторить слова статьи",
+    "Practise the article's words" to "Повторить слова статьи",
     "Finish article" to "Закончить статью",
     "Choose a language to learn to see its news." to "Выберите изучаемый язык, чтобы увидеть новости на нём.",
     "There is no news feed in {0} yet." to "Новостных лент на {0} языке пока нет.",

@@ -59,7 +59,7 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Text(tr("Personalize your reading experience."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Text(tr("Personalise your reading experience."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             ContentCard(tr("Appearance"), subtitle = null, icon = AppIcons.Palette, dense = true) {
                 NavigationRow(tr("Theme"), onClick = { themeSheet = true }, modifier = Modifier.testTag("phone-theme"), value = AppThemes.byId(settings.themeId).label)
                 AppDivider()

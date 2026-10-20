@@ -3,7 +3,7 @@ package com.tayra.languages.core.ui.i18n.el
 internal val elSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "Ρυθμίσεις",
-    "Personalize your reading experience." to "Προσαρμόστε την ανάγνωση στις ανάγκες σας.",
+    "Personalise your reading experience." to "Προσαρμόστε την ανάγνωση στις ανάγκες σας.",
     "More settings" to "Περισσότερες ρυθμίσεις",
     "Course packs" to "Πακέτα μαθημάτων",
     "Book packs" to "Πακέτα βιβλίων",
@@ -11,16 +11,16 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Reset to defaults" to "Επαναφορά προεπιλογών",
     "Changes are saved automatically." to "Οι αλλαγές αποθηκεύονται αυτόματα.",
     "Reset to defaults?" to "Επαναφορά προεπιλογών;",
-    "The theme, highlighting, reading size and spacing, reading streak and statistics sample size go back to their defaults." to "Το θέμα, η επισήμανση, το μέγεθος και τα διαστήματα κειμένου, το σερί ανάγνωσης και το δείγμα στατιστικών επανέρχονται στις προεπιλογές.",
+    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Το θέμα, η επισήμανση, το μέγεθος και τα διαστήματα κειμένου και το δείγμα στατιστικών επανέρχονται στις προεπιλογές.",
     "Cancel" to "Ακύρωση",
     "Appearance" to "Εμφάνιση",
-    "Customize the look and feel of Tayra." to "Προσαρμόστε την εμφάνιση του Tayra.",
+    "Customise the look and feel of Tayra." to "Προσαρμόστε την εμφάνιση του Tayra.",
     "Theme" to "Θέμα",
     "Light" to "Φωτεινά",
     "Dark" to "Σκούρα",
     "Choose how Tayra looks." to "Επιλέξτε πώς φαίνεται το Tayra.",
     "Highlight terms by status" to "Επισήμανση λέξεων ανά κατάσταση",
-    "Use mastery colors while reading." to "Χρωματισμός λέξεων ανάλογα με την κατάστασή τους κατά την ανάγνωση.",
+    "Use status colours while reading." to "Χρωματισμός λέξεων ανάλογα με την κατάστασή τους κατά την ανάγνωση.",
     "Reduce motion" to "Μείωση κίνησης",
     "Keep the screens still: no sliding, fading or turning over." to "Κρατά τις οθόνες ακίνητες: χωρίς ολίσθηση, σβήσιμο ή αναποδογύρισμα.",
     "Reading" to "Ανάγνωση",
@@ -115,7 +115,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
 
     // ShortcutsScreen.kt
     "Keyboard shortcuts" to "Συντομεύσεις πληκτρολογίου",
-    "Customize how you navigate and listen while reading." to "Προσαρμόστε τα πλήκτρα για πλοήγηση και ακρόαση κατά την ανάγνωση.",
+    "Customise how you navigate and listen while reading." to "Προσαρμόστε τα πλήκτρα για πλοήγηση και ακρόαση κατά την ανάγνωση.",
     "No shortcuts match “{0}”." to "Καμία συντόμευση δεν ταιριάζει με «{0}».",
     "Every keyboard shortcut goes back to its default key." to "Όλες οι συντομεύσεις πληκτρολογίου επανέρχονται στα προεπιλεγμένα πλήκτρα.",
     "Navigation" to "Πλοήγηση",
@@ -240,7 +240,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
 
     // AboutScreen.kt
     "About" to "Σχετικά",
-    "Learn languages by reading. Import texts, click words to look them up and track what you know." to "Μάθετε γλώσσες διαβάζοντας. Εισαγάγετε κείμενα, κάντε κλικ σε λέξεις για να δείτε τη σημασία τους και παρακολουθήστε τι ήδη ξέρετε.",
+    "Learn languages by reading. Import texts, select words to look them up and track what you know." to "Μάθετε γλώσσες διαβάζοντας. Εισαγάγετε κείμενα, επιλέξτε λέξεις για να δείτε τη σημασία τους και παρακολουθήστε τι ήδη ξέρετε.",
     "A reader for learning languages through texts, running on Android, iOS, desktop and the web with a shared Compose UI." to "Εφαρμογή ανάγνωσης για εκμάθηση γλωσσών μέσα από κείμενα, για Android, iOS, υπολογιστή και web, με κοινή διεπαφή Compose.",
     "Credits" to "Πηγές",
     "Offline dictionaries are built from Wiktionary, through kaikki.org and wiktionary-to-yomitan, licensed CC BY-SA 4.0. Japanese ones add JMdict, the names pack is JMnedict, and kanji come from KANJIDIC2, all by the Electronic Dictionary Research and Development Group (EDRDG), licensed CC BY-SA 4.0. Chinese-English adds CC-CEDICT by MDBG, licensed CC BY-SA 4.0. The Toki Pona dictionaries come from lipu Linku, licensed CC BY-SA 4.0." to "Τα λεξικά εκτός σύνδεσης δημιουργούνται από το Wiktionary, μέσω των kaikki.org και wiktionary-to-yomitan, με άδεια CC BY-SA 4.0. Τα ιαπωνικά συμπληρώνονται με το JMdict, το πακέτο ονομάτων είναι το JMnedict και τα κάντζι προέρχονται από το KANJIDIC2, όλα από την Electronic Dictionary Research and Development Group (EDRDG), με άδεια CC BY-SA 4.0. Το κινεζοαγγλικό συμπληρώνεται με το CC-CEDICT της MDBG, με άδεια CC BY-SA 4.0. Τα λεξικά Τόκι Πόνα προέρχονται από το lipu Linku, με άδεια CC BY-SA 4.0.",

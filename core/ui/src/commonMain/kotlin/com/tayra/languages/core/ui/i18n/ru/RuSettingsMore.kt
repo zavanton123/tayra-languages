@@ -3,7 +3,7 @@ package com.tayra.languages.core.ui.i18n.ru
 internal val ruSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "Настройки",
-    "Personalize your reading experience." to "Настройте чтение под себя.",
+    "Personalise your reading experience." to "Настройте чтение под себя.",
     "More settings" to "Другие настройки",
     "Course packs" to "Пакеты курсов",
     "Book packs" to "Пакеты книг",
@@ -11,16 +11,16 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Reset to defaults" to "Сбросить настройки",
     "Changes are saved automatically." to "Изменения сохраняются автоматически.",
     "Reset to defaults?" to "Сбросить настройки?",
-    "The theme, highlighting, reading size and spacing, reading streak and statistics sample size go back to their defaults." to "Тема, подсветка, размер текста и интервал, серия дней чтения и выборка для статистики вернутся к значениям по умолчанию.",
+    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Тема, подсветка, размер текста и интервал, а также выборка для статистики вернутся к значениям по умолчанию.",
     "Cancel" to "Отмена",
     "Appearance" to "Оформление",
-    "Customize the look and feel of Tayra." to "Настройте внешний вид Tayra.",
+    "Customise the look and feel of Tayra." to "Настройте внешний вид Tayra.",
     "Theme" to "Тема",
     "Light" to "Светлые",
     "Dark" to "Тёмные",
     "Choose how Tayra looks." to "Выберите, как будет выглядеть Tayra.",
     "Highlight terms by status" to "Подсвечивать слова по статусу",
-    "Use mastery colors while reading." to "Выделять слова при чтении цветом их статуса.",
+    "Use status colours while reading." to "Выделять слова при чтении цветом их статуса.",
     "Reduce motion" to "Меньше движения",
     "Keep the screens still: no sliding, fading or turning over." to "Экраны не двигаются: без сдвигов, затуханий и переворотов.",
     "Reading" to "Чтение",
@@ -115,7 +115,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
 
     // ShortcutsScreen.kt
     "Keyboard shortcuts" to "Сочетания клавиш",
-    "Customize how you navigate and listen while reading." to "Настройте клавиши для перемещения по тексту и прослушивания.",
+    "Customise how you navigate and listen while reading." to "Настройте клавиши для перемещения по тексту и прослушивания.",
     "No shortcuts match “{0}”." to "Нет сочетаний клавиш по запросу «{0}».",
     "Every keyboard shortcut goes back to its default key." to "Все сочетания клавиш вернутся к значениям по умолчанию.",
     "Navigation" to "Навигация",
@@ -240,7 +240,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
 
     // AboutScreen.kt
     "About" to "О программе",
-    "Learn languages by reading. Import texts, click words to look them up and track what you know." to "Изучайте языки, читая. Импортируйте тексты, нажимайте на слова, чтобы узнать их значение, и следите за тем, что вы уже знаете.",
+    "Learn languages by reading. Import texts, select words to look them up and track what you know." to "Изучайте языки, читая. Импортируйте тексты, выбирайте слова, чтобы узнать их значение, и следите за тем, что вы уже знаете.",
     "A reader for learning languages through texts, running on Android, iOS, desktop and the web with a shared Compose UI." to "Программа для изучения языков по текстам: работает на Android, iOS, компьютере и в браузере с общим интерфейсом на Compose.",
     "Credits" to "Источники",
     "Offline dictionaries are built from Wiktionary, through kaikki.org and wiktionary-to-yomitan, licensed CC BY-SA 4.0. Japanese ones add JMdict, the names pack is JMnedict, and kanji come from KANJIDIC2, all by the Electronic Dictionary Research and Development Group (EDRDG), licensed CC BY-SA 4.0. Chinese-English adds CC-CEDICT by MDBG, licensed CC BY-SA 4.0. The Toki Pona dictionaries come from lipu Linku, licensed CC BY-SA 4.0." to "Офлайн-словари собраны из Викисловаря через kaikki.org и wiktionary-to-yomitan, лицензия CC BY-SA 4.0. Японские словари дополнены JMdict, словарь имён — это JMnedict, а сведения о кандзи взяты из KANJIDIC2; все они созданы Electronic Dictionary Research and Development Group (EDRDG), лицензия CC BY-SA 4.0. Китайско-английский словарь дополнен CC-CEDICT от MDBG, лицензия CC BY-SA 4.0. Словари токипоны взяты из lipu Linku, лицензия CC BY-SA 4.0.",

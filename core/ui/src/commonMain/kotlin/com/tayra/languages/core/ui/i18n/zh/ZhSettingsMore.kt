@@ -3,7 +3,7 @@ package com.tayra.languages.core.ui.i18n.zh
 internal val zhSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "设置",
-    "Personalize your reading experience." to "打造个性化的阅读体验。",
+    "Personalise your reading experience." to "打造个性化的阅读体验。",
     "More settings" to "更多设置",
     "Course packs" to "课程包",
     "Book packs" to "图书包",
@@ -11,16 +11,16 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Reset to defaults" to "恢复默认设置",
     "Changes are saved automatically." to "更改会自动保存。",
     "Reset to defaults?" to "恢复默认设置？",
-    "The theme, highlighting, reading size and spacing, reading streak and statistics sample size go back to their defaults." to "主题、高亮、阅读字号和间距、连续阅读显示以及统计抽样页数将恢复默认值。",
+    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "主题、高亮、阅读字号和间距以及统计抽样页数将恢复默认值。",
     "Cancel" to "取消",
     "Appearance" to "外观",
-    "Customize the look and feel of Tayra." to "自定义 Tayra 的外观和风格。",
+    "Customise the look and feel of Tayra." to "自定义 Tayra 的外观和风格。",
     "Theme" to "主题",
     "Light" to "浅色",
     "Dark" to "深色",
     "Choose how Tayra looks." to "选择 Tayra 的外观。",
     "Highlight terms by status" to "按状态高亮词条",
-    "Use mastery colors while reading." to "阅读时用颜色显示掌握程度。",
+    "Use status colours while reading." to "阅读时用颜色显示掌握程度。",
     "Reduce motion" to "减少动态效果",
     "Keep the screens still: no sliding, fading or turning over." to "让界面保持静止：不滑动、不淡入淡出、不翻转。",
     "Reading" to "阅读",
@@ -115,7 +115,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
 
     // ShortcutsScreen.kt
     "Keyboard shortcuts" to "键盘快捷键",
-    "Customize how you navigate and listen while reading." to "自定义阅读时用于导航和收听的按键。",
+    "Customise how you navigate and listen while reading." to "自定义阅读时用于导航和收听的按键。",
     "No shortcuts match “{0}”." to "没有与“{0}”匹配的快捷键。",
     "Every keyboard shortcut goes back to its default key." to "所有键盘快捷键都将恢复为默认按键。",
     "Navigation" to "导航",
@@ -240,7 +240,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
 
     // AboutScreen.kt
     "About" to "关于",
-    "Learn languages by reading. Import texts, click words to look them up and track what you know." to "通过阅读学习语言。导入文本，点击单词查询释义，并跟踪你已掌握的内容。",
+    "Learn languages by reading. Import texts, select words to look them up and track what you know." to "通过阅读学习语言。导入文本，选择单词查询释义，并跟踪你已掌握的内容。",
     "A reader for learning languages through texts, running on Android, iOS, desktop and the web with a shared Compose UI." to "一款通过文本学习语言的阅读器，基于共享的 Compose 界面，可在 Android、iOS、桌面和网页上运行。",
     "Credits" to "致谢",
     "Offline dictionaries are built from Wiktionary, through kaikki.org and wiktionary-to-yomitan, licensed CC BY-SA 4.0. Japanese ones add JMdict, the names pack is JMnedict, and kanji come from KANJIDIC2, all by the Electronic Dictionary Research and Development Group (EDRDG), licensed CC BY-SA 4.0. Chinese-English adds CC-CEDICT by MDBG, licensed CC BY-SA 4.0. The Toki Pona dictionaries come from lipu Linku, licensed CC BY-SA 4.0." to "离线词典基于 Wiktionary，经由 kaikki.org 和 wiktionary-to-yomitan 构建，采用 CC BY-SA 4.0 许可。日语词典补充了 JMdict，人名词典包为 JMnedict，汉字信息来自 KANJIDIC2，均由 Electronic Dictionary Research and Development Group（EDRDG）提供，采用 CC BY-SA 4.0 许可。汉英词典补充了 MDBG 的 CC-CEDICT，采用 CC BY-SA 4.0 许可。道本语词典来自 lipu Linku，采用 CC BY-SA 4.0 许可。",

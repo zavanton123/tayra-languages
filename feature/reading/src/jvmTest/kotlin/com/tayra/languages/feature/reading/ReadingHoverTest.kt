@@ -351,7 +351,7 @@ class ReadingHoverTest {
 
         rule.onNodeWithTag("pane-tab-AUDIO").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Playback").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("Speak word on click").assertExists()
+        rule.onNodeWithText("Speak selected words").assertExists()
         System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File("$path-audio.png"))
@@ -516,11 +516,11 @@ class ReadingHoverTest {
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(rule.onAllNodesWithText("Practice this page").fetchSemanticsNodes().isEmpty(), "every word is still unknown")
+        assertTrue(rule.onAllNodesWithText("Practise this page").fetchSemanticsNodes().isEmpty(), "every word is still unknown")
 
         vm.markToLearn(vm.index("lobo"))
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Practice this page").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("Practice this page").performScrollTo().performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise this page").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Practise this page").performScrollTo().performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Practice(1, 1)), visited)
     }
@@ -542,7 +542,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { vm.state.value.isLastPage && vm.state.value.pageNumber > 1 && vm.state.value.items.any { it.isWord } }
         vm.markToLearn(vm.index("floresta"))
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("practice-all").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("Practice the book's words").performScrollTo().performClick()
+        rule.onNodeWithText("Practise the book's words").performScrollTo().performClick()
         // Both pages' words: lobo, and floresta from this one.
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("practice-kind-GAP_TYPED").performClick()
@@ -933,7 +933,7 @@ class ReadingHoverTest {
         assertEquals(before.top, after.top, "what is below the field is where it was")
     }
 
-    /** With "Speak word on click" on, a click reads the word aloud with the chosen engine; with it off, nothing is said. */
+    /** With "Speak selected words" on, a click reads the word aloud with the chosen engine; with it off, nothing is said. */
     @Test
     fun clickingAWordSpeaksItWhenTheSettingIsOn() {
         val vm = runBlocking { reader(mainIsDefault = false) }

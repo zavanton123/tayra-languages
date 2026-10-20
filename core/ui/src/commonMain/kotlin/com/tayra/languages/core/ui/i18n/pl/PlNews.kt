@@ -5,7 +5,7 @@ internal val plNews: Map<String, String> = mapOf(
     "News" to "Wiadomości",
     "Refresh" to "Odśwież",
     "Back to news" to "Wróć do wiadomości",
-    "Practice the article's words" to "Ćwicz słowa z artykułu",
+    "Practise the article's words" to "Ćwicz słowa z artykułu",
     "Finish article" to "Zakończ artykuł",
     "Choose a language to learn to see its news." to "Wybierz język do nauki, aby zobaczyć wiadomości w tym języku.",
     "There is no news feed in {0} yet." to "Nie ma jeszcze kanałów wiadomości w języku {0}.",
