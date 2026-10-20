@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.frequency
 
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.graphics.toAwtImage
@@ -131,7 +132,7 @@ class WordFrequencyPanelTest {
         onNodeWithTag("word-dizer").performMouseInput { moveTo(center + androidx.compose.ui.geometry.Offset(0f, 400f)) }
 
         onNodeWithTag("word-casa").performClick()
-        waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("Term details").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("term-pane-header", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
         onAllNodesWithText("K")[0].performClick()
         waitUntil(timeoutMillis = 10_000) { viewModel.state.value.overview?.count(WordKnowledge.KNOWN) == 1 }
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { terms.findByTextLc(portuguese, "casa") }?.status)

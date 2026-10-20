@@ -470,18 +470,18 @@ class ReadingHoverTest {
         }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         vm.onWordTap(vm.index("lobo"))
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Term details", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-pane-header", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
         // A touch on the page above the sheet: the text's own, not a scrim's.
         val root = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0]
         root.performTouchInput { click(Offset(width / 2f, height * 0.2f)) }
         rule.waitForIdle()
         assertTrue(vm.state.value.panel != ReadingPanel.None, "the pane stays open")
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Term details", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-pane-header", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
         // Another word shows that word in the same sheet.
         vm.onWordTap(vm.index("floresta"))
         rule.waitUntil(5_000) { vm.state.value.marked == setOf(vm.index("floresta")) && vm.state.value.panel != ReadingPanel.None }
         // The new word's form loads before its heading shows.
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Term details", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-pane-header", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
     }
 
     @Test

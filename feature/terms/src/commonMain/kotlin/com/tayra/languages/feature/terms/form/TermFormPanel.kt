@@ -215,7 +215,7 @@ private fun TermFormContent(
             },
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        if (embedded) PanelHeader(language, state.nativeLanguage, onClose)
+        if (embedded) PanelHeader(onClose)
         state.duplicateOf?.let { duplicate ->
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(tr("Term \"{0}\" already exists.", duplicate.displayText), color = MaterialTheme.colorScheme.error)
@@ -231,7 +231,8 @@ private fun TermFormContent(
                 pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, state.pairDictionary, draft.text.trim(), onDownload = viewModel::downloadDictionary)
             }
             if (!empty && state.notes.isNotEmpty()) NotesSection(state.notes)
-            if (!empty && state.recordings.isNotEmpty()) RecordingsSection(state.recordings, draft.text.trim())
+            // The pane plays a recording from the word's own speaker; the full list is left to the editor page.
+            if (!embedded && !empty && state.recordings.isNotEmpty()) RecordingsSection(state.recordings, draft.text.trim())
             if (!empty && state.kanji.isNotEmpty()) KanjiSection(state.kanji)
         }
         val linksContent: @Composable () -> Unit = {
@@ -636,9 +637,8 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expande
 }
 
 @Composable
-private fun PanelHeader(language: Language?, nativeLanguage: String, onClose: (() -> Unit)?) {
-    val native = LanguageCodes.option(nativeLanguage)?.name ?: nativeLanguage
-    PaneHeader(tr("Term details"), language?.let { "${tr(it.name)} \u2192 ${tr(native)}" }, onClose, icon = AppIcons.Book)
+private fun PanelHeader(onClose: (() -> Unit)?) {
+    PaneHeader(tr("Dictionary"), subtitle = null, onClose, Modifier.testTag("term-pane-header"), icon = AppIcons.Book)
 }
 
 /**
