@@ -384,7 +384,8 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelSet: Boolean,
             // The first band's button would only clear the level, so it has none.
             if (levelAbove > 0 && levelAbove != currentLevel) {
                 SecondaryButton(
-                    if (compact) tr("Known up to here") else tr("Set level to {0}", formatCount(levelAbove)),
+                    // The button sits on the band after the level it sets, so it names the rank, not the band.
+                    if (compact) tr("Known up to here") else tr("Known up to rank {0}", formatCount(levelAbove)),
                     onClick = onSetLevel,
                     modifier = Modifier.testTag("set-level-$levelAbove"),
                     icon = AppIcons.DoneAll,

@@ -26,7 +26,7 @@ internal fun LevelConfirmDialog(from: Int, to: Int, onConfirm: () -> Unit, onDis
             }
             Text("$question\n\n$outcome")
         },
-        confirmButton = { PrimaryButton(onClick = onConfirm) { Text(tr("Yes")) } },
+        confirmButton = { PrimaryButton(onClick = onConfirm) { Text(tr("Set level")) } },
         dismissButton = { QuietButton(onClick = onDismiss) { Text(tr("Cancel")) } },
     )
 }

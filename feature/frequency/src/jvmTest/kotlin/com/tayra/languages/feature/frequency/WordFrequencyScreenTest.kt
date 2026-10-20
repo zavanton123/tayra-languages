@@ -164,7 +164,7 @@ class WordFrequencyScreenTest {
     @Test
     fun aBandSetsTheLevelAfterAsking() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        onNodeWithText("Set level to 100").assertExists()
+        onNodeWithText("Known up to rank 100").assertExists()
         assertTrue(onAllNodesWithTag("set-level-0").fetchSemanticsNodes().isEmpty(), "the first band's button would not change the level")
         onNodeWithTag("set-level-100").performClick()
         onNodeWithText("Change vocabulary level from 0 to 100?", substring = true).assertExists()
@@ -172,7 +172,7 @@ class WordFrequencyScreenTest {
         onNodeWithText("Cancel").performClick()
         assertEquals(emptyList(), levelsSet)
         onNodeWithTag("set-level-100").performClick()
-        onNodeWithText("Yes").performClick()
+        onNodeWithText("Set level").performClick()
         assertEquals(listOf(100), levelsSet)
     }
 

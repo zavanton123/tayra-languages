@@ -75,7 +75,7 @@ class VocabularySettingsScreenTest {
 
         onNodeWithTag("set-vocabulary-level").performScrollTo().performClick()
         onNodeWithText("Set your vocabulary level to 500?", substring = true).assertExists()
-        onNodeWithText("Yes").performClick()
+        onNodeWithText("Set level").performClick()
         waitUntil(timeoutMillis = 10_000) { viewModel.state.value.level == 500 && !viewModel.state.value.saving }
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { terms.findByTextLc(portuguese, "dizer") }?.status)
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { terms.findByTextLc(portuguese, "disse") }?.status)
@@ -102,7 +102,7 @@ class VocabularySettingsScreenTest {
         System.getenv("VOCABULARY_SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
         onNodeWithTag("set-vocabulary-level").performScrollTo().performClick()
         onNodeWithText("Set your vocabulary level to 500?", substring = true).assertExists()
-        onNodeWithText("Yes").performClick()
+        onNodeWithText("Set level").performClick()
         waitUntil(timeoutMillis = 10_000) { viewModel.state.value.level == 500 && !viewModel.state.value.saving }
         onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()
     }
