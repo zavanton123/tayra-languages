@@ -131,7 +131,6 @@ import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.PopupCard
-import com.tayra.languages.core.ui.components.SidePanel
 import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTooltip
@@ -365,24 +364,27 @@ fun ReadingScreen(
                         state.news -> NavSection.NEWS
                         else -> NavSection.BOOKS
                     })
-                    ReaderToolbar(state, viewModel, onMenu = openPane, onHome = leave, onCourses = { onNavigate(Route.Courses) })
                 }
             }
-            Row(Modifier.weight(1f).background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else AppAlpha.line))) {
-                Box(Modifier.weight(1f).fillMaxHeight()) {
-                    ReadingBody(
-                        state, viewModel, speaker, continuous,
-                        onHome = leave,
-                        onPractice = { onNavigate(Route.Practice(bookId, state.pageNumber)) },
-                        onPracticeAll = { kinds -> onNavigate(Route.Practice(bookId, page = null, kinds = kinds.map { it.name })) },
-                        onSettings = { onNavigate(Route.OfflineTranslation) },
-                        focusText = { runCatching { focusRequester.requestFocus() } },
-                        panelBeside = wide && state.panel != ReadingPanel.None,
-                    )
+            // As on Word frequency, the term pane is docked at the window's edge, the height of the page under the bar,
+            // beside a divider; the reader's own toolbar belongs to the text and keeps to its side.
+            Row(Modifier.weight(1f)) {
+                Column(Modifier.weight(1f).fillMaxHeight()) {
+                    if (!state.settings.focusMode && !compact) ReaderToolbar(state, viewModel, onMenu = openPane, onHome = leave, onCourses = { onNavigate(Route.Courses) })
+                    Box(Modifier.weight(1f).fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else AppAlpha.line))) {
+                        ReadingBody(
+                            state, viewModel, speaker, continuous,
+                            onHome = leave,
+                            onPractice = { onNavigate(Route.Practice(bookId, state.pageNumber)) },
+                            onPracticeAll = { kinds -> onNavigate(Route.Practice(bookId, page = null, kinds = kinds.map { it.name })) },
+                            onSettings = { onNavigate(Route.OfflineTranslation) },
+                            focusText = { runCatching { focusRequester.requestFocus() } },
+                        )
+                    }
                 }
                 if (wide && state.panel != ReadingPanel.None) {
-                    // 428dp with its margins; with the text card's wider margin on this side, the text's scrollbar runs midway between the card and the panel.
-                    SidePanel(404.dp, Modifier.fillMaxHeight().padding(start = AppSpacing.s, top = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l)) {
+                    AppVerticalDivider()
+                    Box(Modifier.width(TERM_PANEL_WIDTH).fillMaxHeight().background(MaterialTheme.colorScheme.surface)) {
                         CompositionLocalProvider(LocalTypingReporter provides { typing = it }) { PanelContent(state, viewModel, onNavigate) }
                     }
                 }
@@ -542,7 +544,6 @@ private fun ReadingBody(
     onSettings: () -> Unit,
     focusText: () -> Unit,
     /** Whether the term panel is open beside the text, which then leaves its scrollbar room on that side. */
-    panelBeside: Boolean = false,
 ) {
     val theme = TayraTheme.current
     if (state.loading) {
@@ -630,7 +631,7 @@ private fun ReadingBody(
         // A phone has no width to spare for a card's border and margins: the text runs on the page itself.
         Modifier.fillMaxWidth().padding(start = edgePadding, end = edgePadding, top = AppSpacing.l)
     } else {
-        Modifier.padding(start = if (compact) AppSpacing.m else AppSpacing.l, top = if (compact) AppSpacing.m else AppSpacing.l, bottom = if (compact) AppSpacing.m else AppSpacing.l, end = if (panelBeside) AppSpacing.xl else if (compact) AppSpacing.m else AppSpacing.l)
+        Modifier.padding(start = if (compact) AppSpacing.m else AppSpacing.l, top = if (compact) AppSpacing.m else AppSpacing.l, bottom = if (compact) AppSpacing.m else AppSpacing.l, end = if (compact) AppSpacing.m else AppSpacing.l)
             .widthIn(max = state.settings.readingColumnWidth.dp + AppSpacing.xxxl * 2)
             .clip(AppShapes.card)
             .background(theme.readingBackground)
@@ -724,6 +725,8 @@ private val PLAY_CONTROL_SIZE = 60.dp
 /** Room under the text, so the floating play controls do not cover its end. */
 private val CONTROLS_ROOM = 120.dp
 private val DRAWER_WIDTH = 460.dp
+/** The docked term pane, as wide as Word frequency's. */
+private val TERM_PANEL_WIDTH = 440.dp
 /** How much of a phone's height the reader's settings take, leaving the text above them in view. */
 private const val PANE_SHEET_HEIGHT = 0.6f
 private val HANDLE_WIDTH = 32.dp
