@@ -522,6 +522,9 @@ def check(path, brief=False):
     up_to = course["rankUpTo"]
     band_start = up_to - BAND + 1
     need, shortest, longest = rules(up_to)
+    # Chinese cuts into more, shorter words than the languages the lengths were set for.
+    if code == "zh" and up_to > 4000:
+        longest = 700
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
@@ -594,11 +597,12 @@ def check(path, brief=False):
                 continue
             # A Chinese number written in characters (三, 二十五, 两) is a number, as digits are, and so is a
             # measure word right after one (两 + 遍).
-            if code == "zh" and (CHINESE_NUMBER.fullmatch(t) or (len(t) == 1 and t in CHINESE_MEASURES and after_number)):
-                after_number = False
-                known += 1
-                continue
-            after_number = code == "zh" and bool(re.fullmatch(r"第?[零〇一二三四五六七八九十百千万亿两几]+", t))
+            if code == "zh":
+                measure = len(t) == 1 and t in CHINESE_MEASURES and after_number
+                after_number = bool(re.fullmatch(r"第?[零〇一二三四五六七八九十百千万亿两几]+", t))
+                if measure or CHINESE_NUMBER.fullmatch(t):
+                    known += 1
+                    continue
             rank = ranks.get(t)
             if rank is not None and rank <= up_to:
                 known += 1

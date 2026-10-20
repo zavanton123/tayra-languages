@@ -117,7 +117,7 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
   lessons' new words too.
 - **Length** (story and questions together, in words as the checker cuts them): 80–180 words per
   lesson in the first course, 120–240 up to rank 300, 180–320 up to 600, 220–380 up to 1000,
-  260–450 up to 2000, 300–520 up to 3000, 320–550 up to 4000, 350–600 after.
+  260–450 up to 2000, 300–520 up to 3000, 320–550 up to 4000, 350–700 after.
 - **Coverage of the band**: aim to teach at least 90 of the 100 words. Skip a word that is not
   worth a lesson (a surname, a name, a bound syllable that is no word on its own, a classical or
   very formal particle at a low level, a list error); the checker's last line lists the band words
