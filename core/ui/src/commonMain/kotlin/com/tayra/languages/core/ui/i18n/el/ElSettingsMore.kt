@@ -96,7 +96,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Backup history" to "Ιστορικό αντιγράφων ασφαλείας",
     "Newest first." to "Πρώτα τα νεότερα.",
     "{0} backups" to "{0} αντίγραφο ασφαλείας|{0} αντίγραφα ασφαλείας",
-    "No backups yet. Create one to keep a copy of your data." to "Δεν υπάρχουν αντίγραφα ασφαλείας ακόμη. Δημιουργήστε ένα για να κρατήσετε αντίγραφο των δεδομένων σας.",
+    "Create a backup to keep a copy of your data." to "Δημιουργήστε ένα αντίγραφο ασφαλείας για να κρατήσετε αντίγραφο των δεδομένων σας.",
     "Restoring replaces your current Tayra data after confirmation." to "Η επαναφορά αντικαθιστά τα τρέχοντα δεδομένα του Tayra μετά από επιβεβαίωση.",
     "Export" to "Εξαγωγή",
     "More for the backup of {0}" to "Περισσότερα για το αντίγραφο ασφαλείας της {0}",

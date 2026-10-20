@@ -146,7 +146,7 @@ class BackupScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Delete this backup?")).fetchSemanticsNodes().isNotEmpty() }
         onAllNodes(hasText("Delete") and hasClickAction()).onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00")).fetchSemanticsNodes().isEmpty() }
-        onNodeWithText("No backups yet. Create one to keep a copy of your data.").assertExists()
+        onNodeWithText("Create a backup to keep a copy of your data.").assertExists()
     }
 
     private fun ComposeUiTest.save(path: String) {

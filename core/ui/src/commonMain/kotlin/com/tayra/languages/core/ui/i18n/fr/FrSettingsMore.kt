@@ -96,7 +96,7 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Backup history" to "Historique des sauvegardes",
     "Newest first." to "Les plus récentes d’abord.",
     "{0} backups" to "{0} sauvegarde|{0} sauvegardes",
-    "No backups yet. Create one to keep a copy of your data." to "Aucune sauvegarde pour l’instant. Créez-en une pour garder une copie de vos données.",
+    "Create a backup to keep a copy of your data." to "Créez une sauvegarde pour garder une copie de vos données.",
     "Restoring replaces your current Tayra data after confirmation." to "Après confirmation, la restauration remplace vos données Tayra actuelles.",
     "Export" to "Exporter",
     "More for the backup of {0}" to "Autres actions pour la sauvegarde du {0}",

@@ -96,7 +96,7 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Backup history" to "Sicherungsverlauf",
     "Newest first." to "Neueste zuerst.",
     "{0} backups" to "{0} Sicherung|{0} Sicherungen",
-    "No backups yet. Create one to keep a copy of your data." to "Noch keine Sicherungen. Erstelle eine, um eine Kopie deiner Daten zu behalten.",
+    "Create a backup to keep a copy of your data." to "Erstelle eine Sicherung, um eine Kopie deiner Daten zu behalten.",
     "Restoring replaces your current Tayra data after confirmation." to "Das Wiederherstellen ersetzt nach Bestätigung deine aktuellen Tayra-Daten.",
     "Export" to "Exportieren",
     "More for the backup of {0}" to "Mehr für die Sicherung vom {0}",

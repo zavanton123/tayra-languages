@@ -357,7 +357,7 @@ private fun HistoryCard(
     ) {
         if (state.loaded && state.backups.isEmpty()) {
             Text(
-                tr("No backups yet. Create one to keep a copy of your data."),
+                tr("Create a backup to keep a copy of your data."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(vertical = AppSpacing.m),

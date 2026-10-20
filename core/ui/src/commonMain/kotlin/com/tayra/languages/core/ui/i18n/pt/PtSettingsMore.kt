@@ -96,7 +96,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Backup history" to "Histórico de backups",
     "Newest first." to "Mais recentes primeiro.",
     "{0} backups" to "{0} backup|{0} backups",
-    "No backups yet. Create one to keep a copy of your data." to "Nenhum backup ainda. Crie um para guardar uma cópia dos seus dados.",
+    "Create a backup to keep a copy of your data." to "Crie um backup para guardar uma cópia dos seus dados.",
     "Restoring replaces your current Tayra data after confirmation." to "Restaurar substitui os dados atuais do Tayra após a confirmação.",
     "Export" to "Exportar",
     "More for the backup of {0}" to "Mais opções do backup de {0}",

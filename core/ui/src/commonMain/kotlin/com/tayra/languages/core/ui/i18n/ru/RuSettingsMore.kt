@@ -96,7 +96,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Backup history" to "История резервных копий",
     "Newest first." to "Сначала новые.",
     "{0} backups" to "{0} резервная копия|{0} резервные копии|{0} резервных копий",
-    "No backups yet. Create one to keep a copy of your data." to "Резервных копий пока нет. Создайте копию, чтобы сохранить свои данные.",
+    "Create a backup to keep a copy of your data." to "Создайте резервную копию, чтобы сохранить свои данные.",
     "Restoring replaces your current Tayra data after confirmation." to "После подтверждения восстановление заменит текущие данные Tayra.",
     "Export" to "Экспортировать",
     "More for the backup of {0}" to "Другие действия с резервной копией от {0}",

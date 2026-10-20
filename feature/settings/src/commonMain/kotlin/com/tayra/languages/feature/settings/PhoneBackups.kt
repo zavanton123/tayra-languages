@@ -107,7 +107,7 @@ internal fun PhoneBackupsScreen(
                 Text(tr("Newest first."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
             if (state.loaded && state.backups.isEmpty()) {
-                Text(tr("No backups yet. Create one to keep a copy of your data."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                Text(tr("Create a backup to keep a copy of your data."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
             state.backups.forEachIndexed { i, backup ->
                 PhoneBackupRow(backup, latest = i == 0, enabled = idle, onRestore = { onRestore(backup) }, onExport = { viewModel.export(backup) }, onDelete = { onDelete(backup) })

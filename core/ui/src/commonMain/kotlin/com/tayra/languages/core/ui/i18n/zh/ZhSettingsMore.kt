@@ -96,7 +96,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Backup history" to "备份记录",
     "Newest first." to "最新的在前。",
     "{0} backups" to "{0} 个备份",
-    "No backups yet. Create one to keep a copy of your data." to "还没有备份。创建一个备份来保存数据副本。",
+    "Create a backup to keep a copy of your data." to "创建一个备份来保存数据副本。",
     "Restoring replaces your current Tayra data after confirmation." to "确认后，恢复操作将替换当前的 Tayra 数据。",
     "Export" to "导出",
     "More for the backup of {0}" to "{0} 备份的更多操作",
