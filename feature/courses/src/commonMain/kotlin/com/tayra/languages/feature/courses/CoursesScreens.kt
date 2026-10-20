@@ -818,10 +818,8 @@ private fun LessonList(progress: CourseProgress, compact: Boolean, onOpenLesson:
     val next = progress.nextLesson?.takeIf { progress.status != LessonStatus.COMPLETED }
     Column(modifier.cardSurface(AppShapes.large)) {
         Row(Modifier.padding(start = if (compact) AppSpacing.xl else AppSpacing.xxxl, end = AppSpacing.xl, top = AppSpacing.xxl, bottom = AppSpacing.xl), verticalAlignment = Alignment.CenterVertically) {
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                Text(tr("Lessons"), style = AppText.headline)
-                Text("${lessonCount(course.lessons.size)} · ${wordCount(course.wordCount)}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-            }
+            // The summary beside the list gives the lessons' and words' counts.
+            Text(tr("Lessons"), Modifier.weight(1f), style = AppText.headline)
             // The page's main button starts or continues the course; adding a lesson leads only while there is none.
             if (editing != null && progress.lessons.isEmpty()) {
                 PrimaryButton(tr("Add lesson"), onClick = editing.onAddLesson, modifier = Modifier.testTag("add-lesson"), icon = Icons.Default.Add)
