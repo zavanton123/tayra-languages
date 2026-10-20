@@ -112,7 +112,7 @@ internal fun PhoneSpeechScreen(
                 }
                 if (engine != null) {
                     Spacer(Modifier.height(AppSpacing.m))
-                    PhoneEngineStatus(viewModel, engine)
+                    PhoneEngineStatus(viewModel, engine, voiceMissing = learning != null && voices[learning.code].isNullOrEmpty())
                 }
             }
             ContentCard(tr("Playback"), subtitle = null, icon = AppIcons.VolumeUp, dense = true) {
@@ -172,21 +172,23 @@ internal fun PhoneSpeechScreen(
 
 /** Whether the engine works; the install button shows only while it does not. */
 @Composable
-private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) {
+private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, voiceMissing: Boolean) {
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val failed by viewModel.failed.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
     val working = ready && !failed
+    // Amber while the language learned has no voice, as the status pill above says.
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
-        working -> StatusTints.ok
+        working && !voiceMissing -> StatusTints.ok
         else -> StatusTints.warning
     }
     Notice(
         title = when {
             busy -> tr("Checking…")
+            working && voiceMissing -> tr("Installed; no voice for this language yet")
             working -> tr("Installed and working")
             ready -> tr("Something went wrong")
             else -> tr("Not installed")

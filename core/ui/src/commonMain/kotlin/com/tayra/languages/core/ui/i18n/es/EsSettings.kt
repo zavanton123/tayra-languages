@@ -8,6 +8,7 @@ internal val esSettings: Map<String, String> = mapOf(
     "Not installed" to "No instalado",
     "{0} is not installed" to "{0} no está instalado",
     "Installed and working" to "Instalado y funcionando",
+    "Installed; no voice for this language yet" to "Instalado; aún no hay voz para este idioma",
     "Installed; this pair needs its language packages" to "Instalado; este par necesita sus paquetes de idioma",
     "Check installation" to "Comprobar instalación",
     "Checking…" to "Comprobando…",

@@ -8,6 +8,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Not installed" to "未安装",
     "{0} is not installed" to "未安装 {0}",
     "Installed and working" to "已安装，运行正常",
+    "Installed; no voice for this language yet" to "已安装；此语言还没有语音",
     "Installed; this pair needs its language packages" to "已安装；此语言对还需要语言包",
     "Check installation" to "检查安装",
     "Checking…" to "正在检查…",

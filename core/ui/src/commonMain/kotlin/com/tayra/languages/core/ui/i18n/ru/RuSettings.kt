@@ -8,6 +8,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Not installed" to "Не установлено",
     "{0} is not installed" to "{0} не установлен",
     "Installed and working" to "Установлено и работает",
+    "Installed; no voice for this language yet" to "Установлено; для этого языка ещё нет голоса",
     "Installed; this pair needs its language packages" to "Установлено; для этой пары нужны языковые пакеты",
     "Check installation" to "Проверить установку",
     "Checking…" to "Проверка…",

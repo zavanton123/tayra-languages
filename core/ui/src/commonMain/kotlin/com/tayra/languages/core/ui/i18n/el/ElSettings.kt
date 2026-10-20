@@ -8,6 +8,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Not installed" to "Δεν έχει εγκατασταθεί",
     "{0} is not installed" to "Το {0} δεν έχει εγκατασταθεί",
     "Installed and working" to "Εγκατεστημένο και λειτουργεί",
+    "Installed; no voice for this language yet" to "Εγκαταστάθηκε· δεν υπάρχει ακόμη φωνή για αυτή τη γλώσσα",
     "Installed; this pair needs its language packages" to "Εγκαταστάθηκε· αυτό το ζεύγος χρειάζεται τα γλωσσικά του πακέτα",
     "Check installation" to "Έλεγχος εγκατάστασης",
     "Checking…" to "Έλεγχος…",

@@ -224,6 +224,8 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
     }
     val learning = inUse.firstOrNull()
     val compact = LocalWindowWidth.current.isCompact
+    // An engine that works but has no voice for the language learned is not ready for it.
+    val voiceMissing = engine != null && learning != null && voices[learning.code].isNullOrEmpty()
     val pill: @Composable () -> Unit = { SpeechStatusPill(engine, busy || !checked, ready, learning, voices) }
 
     if (compact) {
@@ -239,11 +241,11 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
             if (compact) pill()
             if (LocalWindowWidth.current.isExpanded) {
                 Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    EngineCard(settings, viewModel, engine, Modifier.weight(1f).fillMaxHeight())
+                    EngineCard(settings, viewModel, engine, voiceMissing, Modifier.weight(1f).fillMaxHeight())
                     VoiceCard(settings, viewModel, engine, learning, voices, Modifier.weight(1f).fillMaxHeight())
                 }
             } else {
-                EngineCard(settings, viewModel, engine)
+                EngineCard(settings, viewModel, engine, voiceMissing)
                 VoiceCard(settings, viewModel, engine, learning, voices)
             }
             if (engine != null && packages.isNotEmpty()) {
@@ -267,7 +269,7 @@ internal fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, rea
 
 /** The engine choice, what it is, whether it works, and a way to reinstall it. */
 @Composable
-private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, modifier: Modifier = Modifier) {
+private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, voiceMissing: Boolean, modifier: Modifier = Modifier) {
     val compact = LocalWindowWidth.current.isCompact
     ContentCard(tr("Speech engine"), tr("Reader playback and term pronunciation use this engine."), icon = AppIcons.Memory, modifier = modifier) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -289,7 +291,7 @@ private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engin
         )
         if (engine != null) {
             Spacer(Modifier.height(AppSpacing.l))
-            EngineStatus(viewModel, engine)
+            EngineStatus(viewModel, engine, voiceMissing)
         }
     }
 }
@@ -304,7 +306,7 @@ private fun EngineTags(engine: SpeechEngine) {
 }
 
 @Composable
-private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) {
+private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, voiceMissing: Boolean) {
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
@@ -314,12 +316,13 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) 
     val working = ready && !failed
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
-        working -> StatusTints.ok
+        working && !voiceMissing -> StatusTints.ok
         else -> StatusTints.warning
     }
     Notice(
         title = when {
             busy -> tr("Checking…")
+            working && voiceMissing -> tr("Installed; no voice for this language yet")
             working -> tr("Installed and working")
             ready -> tr("Something went wrong")
             else -> tr("Not installed")

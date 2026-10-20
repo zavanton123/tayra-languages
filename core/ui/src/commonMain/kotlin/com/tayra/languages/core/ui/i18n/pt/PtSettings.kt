@@ -8,6 +8,7 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Not installed" to "Não instalado",
     "{0} is not installed" to "{0} não está instalado",
     "Installed and working" to "Instalado e funcionando",
+    "Installed; no voice for this language yet" to "Instalado; ainda sem voz para este idioma",
     "Installed; this pair needs its language packages" to "Instalado; este par precisa dos pacotes de idioma",
     "Check installation" to "Verificar instalação",
     "Checking…" to "Verificando…",
