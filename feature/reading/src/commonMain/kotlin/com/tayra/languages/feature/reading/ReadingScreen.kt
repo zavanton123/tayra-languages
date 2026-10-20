@@ -614,6 +614,9 @@ private fun ReadingBody(
     val edgePadding = if (focus || compact) AppSpacing.l else AppSpacing.xxxl
     val cardModifier = if (focus) {
         Modifier.widthIn(max = state.settings.readingColumnWidth.dp).padding(horizontal = edgePadding, vertical = AppSpacing.m)
+    } else if (compact) {
+        // A phone has no width to spare for a card's border and margins: the text runs on the page itself.
+        Modifier.fillMaxWidth().padding(start = edgePadding, end = edgePadding, top = AppSpacing.l)
     } else {
         Modifier.padding(start = if (compact) AppSpacing.m else AppSpacing.l, top = if (compact) AppSpacing.m else AppSpacing.l, bottom = if (compact) AppSpacing.m else AppSpacing.l, end = if (panelBeside) AppSpacing.xl else if (compact) AppSpacing.m else AppSpacing.l)
             .widthIn(max = state.settings.readingColumnWidth.dp + AppSpacing.xxxl * 2)
@@ -623,7 +626,7 @@ private fun ReadingBody(
             // No bottom padding: the footer runs to the card's bottom edge.
             .padding(start = edgePadding, end = edgePadding, top = if (compact) AppSpacing.l else AppSpacing.xxxl)
     }
-    Box(Modifier.fillMaxSize()) {
+    Box(Modifier.fillMaxSize().then(if (compact && !focus) Modifier.background(theme.readingBackground) else Modifier)) {
     Column(Modifier.fillMaxSize().verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
         Column(cardModifier) {
             if (!focus) {
