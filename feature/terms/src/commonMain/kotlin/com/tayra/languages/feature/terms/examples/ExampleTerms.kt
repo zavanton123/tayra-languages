@@ -4,6 +4,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.style.TextDecoration
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.ReadingService
@@ -89,7 +90,7 @@ fun AnnotatedString.withStatuses(words: List<WordStatus>, colors: StatusColors, 
     }
 }
 
-/** Shows the whole-word occurrences of [term], the word or phrase open in the term pane, in the reader's selection colour. */
+/** Shows the whole-word occurrences of [term], the word or phrase open in the term pane, as the reader shows its chosen word. */
 fun AnnotatedString.withSelected(term: String?, color: Color): AnnotatedString {
     val needle = term?.replace("\u200B", "")?.trim().orEmpty()
     if (needle.isEmpty()) return this
@@ -103,7 +104,8 @@ fun AnnotatedString.withSelected(term: String?, color: Color): AnnotatedString {
             val end = at + needle.length
             from = end
             val whole = (at == 0 || !source[at - 1].isLetterOrDigit()) && (end == source.length || !source[end].isLetterOrDigit())
-            if (whole) addStyle(SpanStyle(color = color), at, end)
+            // Underlined as well, as the reader marks the chosen word, so the choice does not rest on colour alone.
+            if (whole) addStyle(SpanStyle(color = color, textDecoration = TextDecoration.Underline), at, end)
         }
     }
 }
