@@ -1,5 +1,8 @@
 package com.tayra.languages.feature.home
 
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import com.tayra.languages.core.ui.components.QuietButton
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
@@ -109,7 +112,7 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
     } else {
         cards.forEach { it(Modifier, false) }
     }
-    if (activity != null) StudyActivityCard(activity)
+    if (activity != null) StudyActivityCard(activity, onStats = { onNavigate(Route.Stats) })
 }
 
 @Composable
@@ -242,7 +245,7 @@ private fun ActionCard(
 
 /** Each recent day, darker the more was studied: words read, flashcards answered or words saved. */
 @Composable
-private fun StudyActivityCard(activity: StudyActivity) {
+private fun StudyActivityCard(activity: StudyActivity, onStats: () -> Unit) {
     ActivityHeatmapCard(
         title = tr("Study activity"),
         subtitle = { start ->
@@ -254,6 +257,8 @@ private fun StudyActivityCard(activity: StudyActivity) {
         fewer = tr("Less study"),
         more = tr("More study"),
         icon = AppIcons.History,
+        // The days in more detail, and the rest of the figures, are on Statistics.
+        action = { QuietButton(tr("Statistics"), onClick = onStats, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward, modifier = Modifier.testTag("home-stats")) },
         describe = { date ->
             val day = activity.days[date]
             listOfNotNull(

@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -59,6 +60,8 @@ fun ActivityHeatmapCard(
     color: Color = AppAccents.green,
     /** What a day held, shown under the squares for the day pointed at or tapped. */
     describe: ((LocalDate) -> String)? = null,
+    /** A way on from the card, at its header's end. */
+    action: (@Composable RowScope.() -> Unit)? = null,
 ) {
     val empty = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
     var pointed by remember { mutableStateOf<LocalDate?>(null) }
@@ -77,7 +80,7 @@ fun ActivityHeatmapCard(
         val thisMonday = today.minus(today.dayOfWeek.ordinal, DateTimeUnit.DAY)
         val start = thisMonday.minus((weeks - 1) * 7, DateTimeUnit.DAY)
         val shown = levels(start)
-        ContentCard(title, subtitle(start), icon = icon) {
+        ContentCard(title, subtitle(start), icon = icon, headerExtra = { action?.invoke(this) }) {
             val labelStyle = MaterialTheme.typography.labelSmall
             val labelColor = MaterialTheme.colorScheme.onSurfaceVariant
             // A month is named over the week its first day falls in; the first week is named only when no other is near it.
