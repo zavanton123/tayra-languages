@@ -279,7 +279,7 @@ class ReadingHoverTest {
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithContentDescription("Menu").performClick()
+        rule.onNodeWithContentDescription("Reader settings").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-edit").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("tool-edit").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Edit book").fetchSemanticsNodes().isNotEmpty() }
@@ -323,7 +323,7 @@ class ReadingHoverTest {
         assertEquals(List(3) { course.id }, courses)
         assertEquals(0, back, "a lesson never leaves for the library")
 
-        rule.onNodeWithContentDescription("Menu").performClick()
+        rule.onNodeWithContentDescription("Reader settings").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-bookmarks").fetchSemanticsNodes().isNotEmpty() }
         assertTrue(rule.onAllNodesWithTag("tool-edit").fetchSemanticsNodes().isEmpty(), "a lesson's text is not edited")
     }
@@ -335,7 +335,7 @@ class ReadingHoverTest {
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithContentDescription("Menu").performClick()
+        rule.onNodeWithContentDescription("Reader settings").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Reading experience").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
@@ -377,7 +377,7 @@ class ReadingHoverTest {
         try {
             rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
             rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
-            rule.onNodeWithContentDescription("Меню").performClick()
+            rule.onNodeWithContentDescription("Настройки чтения").performClick()
             rule.waitUntil(5_000) { rule.onAllNodesWithText("Предложения").fetchSemanticsNodes().isNotEmpty() }
             rule.onNodeWithText("Предложения").performScrollTo()
             System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
@@ -400,7 +400,7 @@ class ReadingHoverTest {
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithContentDescription("Menu").performClick()
+        rule.onNodeWithContentDescription("Reader settings").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-APPEARANCE").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("pane-tab-APPEARANCE").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("font-choice").fetchSemanticsNodes().isNotEmpty() }
@@ -422,7 +422,7 @@ class ReadingHoverTest {
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithContentDescription("Menu").performClick()
+        rule.onNodeWithContentDescription("Reader settings").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-bookmarks").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("tool-bookmarks").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Add bookmark to page 1").fetchSemanticsNodes().isNotEmpty() }

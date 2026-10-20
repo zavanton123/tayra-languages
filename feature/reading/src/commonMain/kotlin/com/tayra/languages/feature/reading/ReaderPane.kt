@@ -455,7 +455,10 @@ private fun AppearanceTab(state: ReadingUiState, viewModel: ReadingViewModel) {
         SliderSetting(tr("Line height"), "${(prefs.readingLineHeight * 10).roundToInt() / 10f}", prefs.readingLineHeight, 1.0f..3.0f, viewModel::setLineHeight, sliderModifier = Modifier.testTag("line-height"))
     }
     PaneCard(tr("Page layout")) {
-        SliderSetting(tr("Text width"), tr("{0} px", prefs.readingColumnWidth), prefs.readingColumnWidth.toFloat(), 320f..2000f, { viewModel.setColumnWidth(it.roundToInt()) }, sliderModifier = Modifier.testTag("text-width"))
+        // A phone's text already fills its narrow screen, so its width is not offered there.
+        if (!LocalWindowWidth.current.isCompact) {
+            SliderSetting(tr("Text width"), tr("{0} px", prefs.readingColumnWidth), prefs.readingColumnWidth.toFloat(), 320f..2000f, { viewModel.setColumnWidth(it.roundToInt()) }, sliderModifier = Modifier.testTag("text-width"))
+        }
         SegmentedSetting(null, tr("Alignment"), listOf(false to tr("Left"), true to tr("Justified")), prefs.readingJustified, viewModel::setJustified)
     }
 }

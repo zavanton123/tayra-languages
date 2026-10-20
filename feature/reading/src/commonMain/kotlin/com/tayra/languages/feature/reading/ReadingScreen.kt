@@ -37,7 +37,6 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -441,7 +440,7 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
     BarSurface(raised = true) {
         Column(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                AppIconButton(Icons.Default.Menu, contentDescription = tr("Menu"), onClick = onMenu)
+                AppIconButton(AppIcons.FormatSize, contentDescription = tr("Reader settings"), onClick = onMenu)
                 if (state.lesson == null && !state.news) AppIconButton(Icons.Default.Home, contentDescription = tr("Home"), onClick = onHome)
                 else AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = if (state.news) tr("Back to news") else tr("Back to course"), onClick = onHome)
                 Text(
@@ -465,7 +464,7 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
     val rtl = state.language?.rightToLeft == true
     Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
         Row(Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically) {
-            AppIconButton(Icons.Default.Menu, contentDescription = tr("Menu"), onClick = onMenu)
+            AppIconButton(AppIcons.FormatSize, contentDescription = tr("Reader settings"), onClick = onMenu)
             Spacer(Modifier.width(AppSpacing.s))
             val lesson = state.lesson
             val separator: @Composable () -> Unit = {
@@ -507,7 +506,7 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
 @Composable
 private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit) {
     Row(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
-        AppIconButton(Icons.Default.Menu, contentDescription = tr("Menu"), onClick = onMenu)
+        AppIconButton(AppIcons.FormatSize, contentDescription = tr("Reader settings"), onClick = onMenu)
         Spacer(Modifier.weight(1f))
         if (state.pageCount > 1) {
             AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous page"), onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage)
