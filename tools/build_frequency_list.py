@@ -144,6 +144,41 @@ FORMS_PER_WORD = 40
 # Languages whose words are written in Chinese characters or kana.
 CJK = {"zh", "yue", "ja"}
 
+# OpenCC's tables, as the app bundles them.
+OPENCC = os.path.join(ROOT, "core", "ui", "src", "commonMain", "composeResources", "files", "opencc")
+_opencc = {}
+
+
+def _opencc_table(name):
+    if name not in _opencc:
+        table = {}
+        with open(os.path.join(OPENCC, name), encoding="utf-8") as f:
+            for line in f:
+                key, _, values = line.rstrip("\n").partition("\t")
+                if key and values:
+                    table[key] = values.split(" ")[0]
+        _opencc[name] = (table, max(map(len, table)))
+    return _opencc[name]
+
+
+def to_traditional(text):
+    """[text] in traditional characters as Taiwan writes them (OpenCC's s2tw), each character's usual spelling first."""
+    for stage in (("STPhrases.txt", "STCharacters.txt"), ("TWVariantsPhrases.txt", "TWVariants.txt")):
+        tables = [_opencc_table(name) for name in stage]
+        out, i = [], 0
+        while i < len(text):
+            for table, longest in tables:
+                match = next((text[i:i + n] for n in range(min(longest, len(text) - i), 0, -1) if text[i:i + n] in table), None)
+                if match:
+                    out.append(table[match])
+                    i += len(match)
+                    break
+            else:
+                out.append(text[i])
+                i += 1
+        text = "".join(out)
+    return text
+
 
 def is_cjk(c):
     return "\u3040" <= c <= "\u30ff" or "\u3400" <= c <= "\u9fff" or "\uf900" <= c <= "\ufaff" or ord(c) >= 0x20000
@@ -423,6 +458,12 @@ def load_dictionary(language):
         except ImportError:
             weight = lambda lemma: (0, senses.get(lemma, 0))  # noqa: E731
         for form_lc, of in lemmas.items():
+            # A character goes to its usual traditional spelling, as OpenCC writes it, or stays itself when it is
+            # one (了, not 瞭; 只, not 隻): wordfreq counts every spelling of a character alike.
+            if len(form_lc) == 1 and "character" in pos.get(form_lc, set()):
+                usual = to_traditional(form_lc)
+                lemmas[form_lc] = [] if usual == form_lc else [usual] if usual in of else of
+                continue
             if len(set(of)) > 1:
                 best = max(weight(lemma) for lemma in of)
                 lemmas[form_lc] = [lemma for lemma in of if weight(lemma) == best]
@@ -519,6 +560,10 @@ def build(language, source, size):
             return False
         if w in guessed and w not in pos:
             return True
+        # The dictionary files a Chinese character under "character", not as a word; one that wordfreq
+        # counts on its own, as jieba cuts text, is a word (的, 是, 吃).
+        if language in ("zh", "yue") and len(w) == 1 and "character" in pos.get(w, set()):
+            return w not in excluded
         kinds = pos.get(w, set()) & WORD_POS
         if not kinds or w not in common or w in excluded:
             return False
@@ -553,7 +598,8 @@ def build(language, source, size):
             if others == [form]:
                 return {form: 1.0}
         else:
-            if len(form) == 1 and not is_word(form):
+            # A simplified character (说) is no word in the dictionary but a form of its traditional one (說).
+            if len(form) == 1 and not is_word(form) and language not in ("zh", "yue"):
                 return {}
             known = [s for s in spellings(form) if s in lemmas or s in pos]
             if not known:
@@ -564,6 +610,12 @@ def build(language, source, size):
             if language in CJK and any(pos.get(l) and pos[l] <= {"name"} for l in [form] + candidates):
                 return {}
             others = list(dict.fromkeys(l for l in candidates if l != form and is_word(l)))
+            # A simplified word whose traditional entries are all variant spellings (哪里 of 哪裏) goes to the
+            # spelling Taiwan writes (哪裡), when that is a word.
+            if language in ("zh", "yue") and not others and not is_word(form):
+                usual = to_traditional(form)
+                if usual != form and is_word(usual):
+                    others = [usual]
         # A form whose only entry is an interjection ("foi", "nossa") is counted for the word it is a form of.
         if is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"}):
             # A form that is a word itself keeps its count ("casa", not "casar") unless [TAKEOVER] says otherwise.
