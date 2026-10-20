@@ -41,12 +41,15 @@ class LexiconService(
         mutex.withLock {
             if (loadedFrom[code] == packs && Lexicons[code] != null) return
             val words = HashSet<String>()
+            // How common each word is, for the parsers that cut by frequency: a form takes its word's rank.
+            val ranks = HashMap<String, Int>()
             frequency?.list(code)?.inScript(language.chineseScript)?.words?.forEach { word ->
                 words += word.key
                 words += word.forms
+                for (form in word.forms + word.key) ranks.getOrPut(form) { word.rank }
             }
             for (pack in packs) words += repository.words(pack)
-            Lexicons.set(code, Lexicon(words.filter { it.isNotBlank() && ' ' !in it }))
+            Lexicons.set(code, Lexicon(words.filter { it.isNotBlank() && ' ' !in it }, ranks))
             loadedFrom[code] = packs
         }
     }

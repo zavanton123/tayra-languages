@@ -2,6 +2,7 @@ package com.tayra.languages.core.domain.parse
 
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.morphology.ChineseScripts
+import kotlin.math.ln
 
 /**
  * A parser for languages written without spaces between words (Chinese, Japanese, Thai, Lao,
@@ -13,11 +14,16 @@ import com.tayra.languages.core.domain.morphology.ChineseScripts
  * Where the language has an analyser ([Segmenters]), a word never runs past the analyser's word
  * ("かれはいしゃ" is "he is a doctor", not "he, dentist"), and within one it is the longest run of
  * the analyser's pieces the lexicon knows, so 選んでください is 選んで and ください, both looked up.
+ *
+ * With [byFrequency] and a lexicon that knows how common its words are, a stretch is cut into its
+ * likeliest words instead ([likeliest]): Chinese read by the longest word first goes wrong where two
+ * common words make a rarer one (不知道 read as 不知 + 道, 从中国 as 从中 + 国).
  */
 open class SegmentingParser(
     override val name: String,
     private val code: String,
     private val joinUnknown: Boolean,
+    private val byFrequency: Boolean = false,
 ) : TextParser {
 
     /** How much longer than the lexicon's longest word a stretch may be, for the inflections [matches] accepts. */
@@ -63,6 +69,7 @@ open class SegmentingParser(
         val words = mutableListOf<String>()
         val unknown = StringBuilder()
         Segmenters[code]?.of(run)?.let { return analysed(run, it, lexicon) }
+        if (byFrequency && lexicon != null && lexicon.ranked) return likeliest(run, lexicon)
         var i = 0
         while (i < run.length) {
             val end = lexicon?.let { longestMatch(run, i, it) }
@@ -97,6 +104,47 @@ open class SegmentingParser(
             }
         }
         return out
+    }
+
+    /**
+     * The cut of [run] whose words are, together, the most common: each word costs the logarithm of
+     * its frequency rank plus [WORD_COST], so a common word is kept whole and a rarer word made of
+     * common ones loses to them. A word the lexicon has without a rank (a dictionary's) counts as
+     * rank [UNRANKED]; a character no word covers is a word of its own at rank [UNKNOWN].
+     */
+    private fun likeliest(run: String, lexicon: Lexicon): List<String> {
+        val best = DoubleArray(run.length + 1) { if (it == 0) 0.0 else Double.MAX_VALUE }
+        val from = IntArray(run.length + 1)
+        for (end in 1..run.length) {
+            for (start in maxOf(0, end - lexicon.maxLength - inflectionLength) until end) {
+                if (best[start] == Double.MAX_VALUE) continue
+                val word = lowercase(run.substring(start, end))
+                val rank = when {
+                    matches(word, lexicon) -> lexicon.rank(word) ?: UNRANKED
+                    end - start == 1 -> UNKNOWN
+                    else -> continue
+                }
+                val cost = best[start] + ln(rank.toDouble()) + WORD_COST
+                if (cost < best[end]) {
+                    best[end] = cost
+                    from[end] = start
+                }
+            }
+        }
+        val words = ArrayDeque<String>()
+        var end = run.length
+        while (end > 0) {
+            words.addFirst(run.substring(from[end], end))
+            end = from[end]
+        }
+        return words.toList()
+    }
+
+    private companion object {
+        // Tuned against jieba's cuts of Chinese Wikipedia articles: fewer gives too many short words.
+        const val WORD_COST = 4.0
+        const val UNRANKED = 50_000
+        const val UNKNOWN = 100_000
     }
 
     private fun longestMatch(run: String, start: Int, lexicon: Lexicon): Int? {

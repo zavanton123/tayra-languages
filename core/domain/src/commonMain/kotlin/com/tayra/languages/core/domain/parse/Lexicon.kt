@@ -2,9 +2,18 @@ package com.tayra.languages.core.domain.parse
 
 import kotlin.concurrent.Volatile
 
-/** The words a language written without spaces is cut into, lowercase. */
-class Lexicon(words: Collection<String>) {
+/**
+ * The words a language written without spaces is cut into, lowercase, and the frequency [ranks] of
+ * those its frequency list has (1 for the most common), which tell a parser the likelier cut.
+ */
+class Lexicon(words: Collection<String>, private val ranks: Map<String, Int> = emptyMap()) {
     private val words: Set<String> = words.toHashSet()
+
+    /** Whether some words have a frequency rank. */
+    val ranked: Boolean get() = ranks.isNotEmpty()
+
+    /** The word's frequency rank, or null when the frequency list does not have it. */
+    fun rank(word: String): Int? = ranks[word]
 
     /** The longest word, in characters: no longer stretch is ever tried. */
     val maxLength: Int = words.maxOfOrNull { it.length }?.coerceAtMost(MAX_WORD) ?: 0
