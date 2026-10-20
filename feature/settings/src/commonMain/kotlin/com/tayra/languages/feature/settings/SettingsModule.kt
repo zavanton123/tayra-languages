@@ -45,5 +45,5 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
             onRestored = { navController.navigate(Route.Courses) { popUpTo<Route.Courses> { inclusive = true } } },
         )
     }
-    composable<Route.About> { AboutScreen(onNavigate = navigate) }
+    composable<Route.About> { AboutScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
 }
