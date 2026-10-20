@@ -12,7 +12,7 @@ val coursesModule = module {
     viewModel { CoursesViewModel(get(), get(), get(), get()) }
     viewModel { (courseId: String) -> CourseViewModel(courseId, get()) }
     viewModel { (courseId: String?) -> CourseFormViewModel(courseId, get(), get(), get()) }
-    viewModel { (courseId: String, lessonId: String?) -> LessonFormViewModel(courseId, lessonId, get(), get()) }
+    viewModel { (courseId: String, lessonId: String?) -> LessonFormViewModel(courseId, lessonId, get(), get(), getOrNull()) }
 }
 
 fun NavGraphBuilder.coursesGraph(navController: NavController) {

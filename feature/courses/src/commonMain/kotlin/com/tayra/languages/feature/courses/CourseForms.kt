@@ -3,6 +3,7 @@ package com.tayra.languages.feature.courses
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -16,6 +17,10 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
@@ -23,6 +28,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
+import com.tayra.languages.core.data.files.FileImportException
+import com.tayra.languages.core.data.files.FileTextExtractor
 import com.tayra.languages.core.domain.courses.CourseDraft
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseService
@@ -30,6 +37,8 @@ import com.tayra.languages.core.domain.courses.CourseValidationException
 import com.tayra.languages.core.domain.courses.LessonDraft
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.domain.web.WebPageException
+import com.tayra.languages.core.domain.web.WebPageReader
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTextField
@@ -37,25 +46,29 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.BarSurface
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
-import com.tayra.languages.core.ui.components.TagInput
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LabeledField
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
-import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.i18n.LanguageCase
-import com.tayra.languages.core.ui.i18n.languageInSentence
-import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.TagInput
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.languageInSentence
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.state.UiEvents
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import io.github.vinceglb.filekit.dialogs.FileKitType
+import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
+import io.github.vinceglb.filekit.name
+import io.github.vinceglb.filekit.readBytes
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -241,6 +254,11 @@ data class LessonFormUiState(
     val draft: LessonDraft = LessonDraft("", text = ""),
     val saving: Boolean = false,
     val error: String? = null,
+    /** Reading a file or a web page into the text. */
+    val importing: Boolean = false,
+    /** What an import brought in, or why it brought nothing. */
+    val notice: String? = null,
+    val readsWebPages: Boolean = false,
 )
 
 /** Adds a lesson to a course, or changes one ([lessonId]). */
@@ -249,8 +267,9 @@ class LessonFormViewModel(
     private val lessonId: String?,
     private val service: CourseService,
     private val languages: LanguageRepository,
+    private val webPages: WebPageReader? = null,
 ) : ViewModel() {
-    private val _state = MutableStateFlow(LessonFormUiState())
+    private val _state = MutableStateFlow(LessonFormUiState(readsWebPages = webPages != null))
     val state: StateFlow<LessonFormUiState> = _state.asStateFlow()
     val events = UiEvents<Unit>()
 
@@ -265,11 +284,61 @@ class LessonFormViewModel(
                 languageName = course?.languageId?.let { languages.getById(it)?.name }.orEmpty(),
                 draft = lesson?.let { LessonDraft(it.title, it.summary, it.text) } ?: LessonDraft("", text = ""),
                 error = if (course == null) tr("This course no longer exists.") else null,
+                readsWebPages = webPages != null,
             )
         }
     }
 
     fun update(change: (LessonDraft) -> LessonDraft) = _state.update { it.copy(draft = change(it.draft), error = null) }
+
+    /** Reads a file's text into the lesson, as the book form does; the title too when there is none yet. */
+    fun importFile(fileName: String, bytes: ByteArray) {
+        _state.update { it.copy(importing = true, notice = null) }
+        viewModelScope.launch {
+            try {
+                val extracted = FileTextExtractor.extract(fileName, bytes)
+                _state.update {
+                    it.copy(
+                        importing = false,
+                        draft = it.draft.copy(text = extracted.text, title = it.draft.title.ifBlank { extracted.title ?: fileName.substringBeforeLast('.') }),
+                        notice = trPlural(extracted.text.length, "Loaded {0} character from {1}.", "Loaded {0} characters from {1}.", fileName),
+                    )
+                }
+            } catch (e: FileImportException) {
+                _state.update { it.copy(importing = false, notice = tr(e.message.orEmpty())) }
+            }
+        }
+    }
+
+    /** Reads the article of the web page at [address] into the lesson. */
+    fun importWebPage(address: String) {
+        val reader = webPages ?: return
+        _state.update { it.copy(importing = true, notice = null) }
+        viewModelScope.launch {
+            try {
+                val article = reader.read(address)
+                val site = article.siteName ?: address.substringAfter("://").substringBefore('/').removePrefix("www.")
+                _state.update {
+                    it.copy(
+                        importing = false,
+                        draft = it.draft.copy(text = article.text, title = it.draft.title.ifBlank { article.title ?: site }),
+                        notice = trPlural(article.text.length, "Loaded {0} character from {1}.", "Loaded {0} characters from {1}.", site),
+                    )
+                }
+            } catch (e: WebPageException) {
+                val message = when (e) {
+                    is WebPageException.InvalidAddress -> tr("Enter the address of a web page, such as https://example.com/article.")
+                    is WebPageException.Unreachable -> when (e.status) {
+                        null -> tr("The page could not be loaded. Check the address and your connection.")
+                        401, 402, 403, 451 -> tr("The site does not let apps read this page; it may need a subscription or a sign-in.")
+                        else -> tr("The site answered with error {0}.", e.status)
+                    }
+                    is WebPageException.NoArticle -> tr("No article text was found on this page.")
+                }
+                _state.update { it.copy(importing = false, notice = message) }
+            }
+        }
+    }
 
     fun save() {
         val current = _state.value
@@ -308,12 +377,17 @@ fun LessonFormScreen(
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        PageColumn(padding) { LessonFormContent(state, viewModel::update) }
+        PageColumn(padding) { LessonFormContent(state, viewModel::update, viewModel::importFile, viewModel::importWebPage) }
     }
 }
 
 @Composable
-internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft) -> LessonDraft) -> Unit) {
+internal fun LessonFormContent(
+    state: LessonFormUiState,
+    onChange: ((LessonDraft) -> LessonDraft) -> Unit,
+    onImportFile: ((String, ByteArray) -> Unit)? = null,
+    onImportWebPage: (String) -> Unit = {},
+) {
     ScreenHeader(
         if (state.isNew) tr("New lesson") else tr("Edit lesson"),
         when {
@@ -341,6 +415,8 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
                 modifier = Modifier.fillMaxWidth().testTag("lesson-summary"),
             )
         }
+        // As in the book form, the text can come from a file or a web page, and lands here to check.
+        if (state.isNew && onImportFile != null) LessonSource(state, onImportFile, onImportWebPage)
         LabeledField(tr("Text"), Modifier.padding(bottom = AppSpacing.l)) {
             AppTextField(
                 value = state.draft.text,
@@ -383,3 +459,32 @@ private fun FormActions(saveLabel: String, saving: Boolean, onCancel: () -> Unit
 }
 
 private val LESSON_TEXT_HEIGHT = 380.dp
+
+/** Where a new lesson's text comes from besides typing: a file, or a web page's article. */
+@Composable
+private fun LessonSource(state: LessonFormUiState, onImportFile: (String, ByteArray) -> Unit, onImportWebPage: (String) -> Unit) {
+    val scope = rememberCoroutineScope()
+    val picker = rememberFilePickerLauncher(type = FileKitType.File(FileTextExtractor.pickerExtensions)) { file ->
+        if (file != null) scope.launch { onImportFile(file.name, file.readBytes()) }
+    }
+    var address by rememberSaveable { mutableStateOf("") }
+    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s), itemVerticalAlignment = Alignment.CenterVertically) {
+            SecondaryButton(tr("Import file"), onClick = { picker.launch() }, icon = AppIcons.UploadFile, enabled = !state.importing, modifier = Modifier.testTag("lesson-file"))
+            if (state.readsWebPages) {
+                AppTextField(
+                    value = address,
+                    onValueChange = { address = it },
+                    placeholder = { Text("https://") },
+                    singleLine = true,
+                    modifier = Modifier.widthIn(min = ADDRESS_MIN_WIDTH).testTag("lesson-web-address"),
+                )
+                SecondaryButton(tr("Get text"), onClick = { onImportWebPage(address) }, icon = AppIcons.Globe, enabled = address.isNotBlank() && !state.importing, loading = state.importing, modifier = Modifier.testTag("lesson-web-read"))
+            }
+        }
+        state.notice?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+    }
+}
+
+private val ADDRESS_MIN_WIDTH = 240.dp
+
