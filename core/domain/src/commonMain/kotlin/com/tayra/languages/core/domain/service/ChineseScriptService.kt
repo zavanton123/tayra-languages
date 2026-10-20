@@ -11,12 +11,16 @@ import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.repository.TermListFilter
 import com.tayra.languages.core.domain.repository.TermListSort
 import com.tayra.languages.core.domain.repository.TermRepository
-import com.tayra.languages.core.domain.term.TermTextNormalizer
+import com.tayra.languages.core.domain.model.ZWS
+import com.tayra.languages.core.domain.parse.lowercase
+import kotlinx.coroutines.flow.first
 
 /**
  * Keeps a Chinese language in the script its learner chose: OpenCC's tables loaded while one is in
  * use, so texts and terms are converted wherever they are parsed, the vocabulary and frequency
- * screens included, and the language's saved terms and stored sentences converted when its script changes.
+ * screens included, and the language's saved terms and stored sentences converted when its script
+ * changes. Words are matched by their simplified form in either script ([lowercase]), so changing
+ * between the two only rewrites how the words are written; their statuses and counts stay theirs.
  */
 class ChineseScriptService(
     private val languages: LanguageRepository,
@@ -27,16 +31,28 @@ class ChineseScriptService(
     /** What a change of script did to the saved terms. */
     data class Change(val converted: Int, val merged: Int)
 
-    /** Loads the tables when some language uses a script; call once at start. */
+    /**
+     * Loads the tables when some language uses a script; call once at start. Words saved before they
+     * were matched by their simplified form, in traditional characters, are given that form.
+     */
     suspend fun prepareIfUsed() {
-        if (tables != null && languages.getAll().any { it.chineseScript != null }) ChineseScripts.prepare(tables)
+        val scripted = languages.getAll().filter { it.chineseScript != null }
+        if (tables == null || scripted.isEmpty()) return
+        ChineseScripts.prepare(tables)
+        val repository = terms ?: return
+        for (language in scripted) {
+            val keys = repository.observeWordStatuses(language.id).first().keys + repository.multiwordTerms(language.id).map { it.textLc }
+            if (keys.none { language.lowercase(it) != it }) continue
+            val change = convertTerms(language)
+            if (change.converted + change.merged > 0) rebuildSentences(language)
+        }
     }
 
     /**
      * Reads the language with [languageId] in [script] from now on, or as written when null. Its
-     * terms are rewritten in the script; a term saved in both scripts becomes one, keeping the more
-     * advanced status and whatever either has that the other lacks. The sentences of its texts are
-     * made again, so a term's examples are found in either script.
+     * terms are rewritten in the script; a term saved in both scripts, while the language was read
+     * as written, becomes one, keeping the more advanced status and whatever either has that the
+     * other lacks. The sentences of its texts are made again, so they are shown in the script.
      */
     suspend fun setScript(languageId: Long, script: ChineseScript?): Change {
         val language = languages.getById(languageId) ?: throw NoSuchElementException("No language $languageId")
@@ -54,12 +70,15 @@ class ChineseScriptService(
         val all = repository.list(TermListFilter(languageId = language.id, includeIgnored = true), TermListSort(), 0, Int.MAX_VALUE).items
         var converted = 0
         var merged = 0
+        val script = language.chineseScript ?: return Change(0, 0)
         for (term in all) {
-            val spec = TermTextNormalizer.termFromText(language, term.text)
-            if (spec.textLc == term.textLc) continue
-            val existing = repository.findByTextLc(language.id, spec.textLc)
+            // In the words it was saved as: parsing it again out of its text could cut it differently.
+            val text = ChineseScripts.convertWords(term.text, ZWS, script)
+            val textLc = language.lowercase(text)
+            if (text == term.text && textLc == term.textLc) continue
+            val existing = if (textLc == term.textLc) null else repository.findByTextLc(language.id, textLc)
             if (existing == null || existing.id == term.id) {
-                repository.save(term.copy(text = spec.text, textLc = spec.textLc, tokenCount = spec.tokenCount))
+                repository.save(term.copy(text = text, textLc = textLc))
                 converted++
                 continue
             }

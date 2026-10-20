@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.parse
 
+import com.tayra.languages.core.domain.morphology.ChineseScripts
+import com.tayra.languages.core.domain.morphology.ChineseScript
 import com.tayra.languages.core.domain.model.Language
 
 /**
@@ -33,4 +35,9 @@ val Language.parser: TextParser get() = ParserRegistry.parser(parserType)
 
 fun Language.parseTokens(text: String): List<ParsedToken> = parser.parse(text, this).numbered()
 
-fun Language.lowercase(text: String): String = parser.lowercase(text)
+/**
+ * The form words are matched and saved by: lowercase, and for Chinese read in a script, in simplified
+ * characters whichever script it is shown in, so a saved word is the same one in both scripts.
+ */
+fun Language.lowercase(text: String): String =
+    parser.lowercase(text).let { lc -> if (chineseScript != null) ChineseScripts.convert(lc, ChineseScript.SIMPLIFIED) else lc }

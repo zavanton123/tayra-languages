@@ -338,15 +338,36 @@ class TermRepositoryImpl(
                     pageNumber = it.page_order.toInt(),
                     bookTitle = it.title,
                     pageCount = it.page_count.toInt(),
-                    sentence = highlight(it.text, termTextLc),
+                    sentence = highlight(it.text, it.text_lc, termTextLc),
                 )
             }
         }
 
-    /** Wraps occurrences of the term in the sentence with `**` markers for the UI, removing separators. */
-    private fun highlight(sentence: String, termLc: String): String {
-        val marked = Regex(Regex.escape("$ZWS_STRING$termLc$ZWS_STRING"), RegexOption.IGNORE_CASE)
-            .replace(sentence.trim()) { m -> "$ZWS_STRING**${m.value.trim(com.tayra.languages.core.domain.model.ZWS)}**$ZWS_STRING" }
+    /**
+     * Wraps occurrences of the term in the sentence with `**` markers for the UI, removing separators.
+     * They are found in the sentence as words are matched ([sentenceLc]), where it reads letter for
+     * letter as written, so a Chinese word is marked in either script.
+     */
+    private fun highlight(sentence: String, sentenceLc: String, termLc: String): String {
+        val text = sentence.trim()
+        val textLc = sentenceLc.trim()
+        val separated = "$ZWS_STRING$termLc$ZWS_STRING"
+        val marked = if (text.length == textLc.length) {
+            buildString {
+                var from = 0
+                var at = textLc.indexOf(separated)
+                while (at >= 0) {
+                    append(text, from, at)
+                    append("$ZWS_STRING**").append(text, at + 1, at + separated.length - 1).append("**$ZWS_STRING")
+                    from = at + separated.length
+                    at = textLc.indexOf(separated, from)
+                }
+                append(text, from, text.length)
+            }
+        } else {
+            Regex(Regex.escape(separated), RegexOption.IGNORE_CASE)
+                .replace(text) { m -> "$ZWS_STRING**${m.value.trim(com.tayra.languages.core.domain.model.ZWS)}**$ZWS_STRING" }
+        }
         return marked.replace(ZWS_STRING, "").replace("¶", "")
     }
 

@@ -27,12 +27,14 @@ data class FrequencyWord(
 /** A language's most common words, most common first, and where the counts came from. */
 data class FrequencyList(val source: String, val words: List<FrequencyWord>) {
     /**
-     * The list as a Chinese language read in [script] has it: its words and their counted forms in
-     * that script, as its terms are kept, the forms as written kept too; unchanged without a script.
+     * The list as a Chinese language read in [script] has it: its words shown in that script, and
+     * their counted forms in it, as written, and in simplified characters, as saved words are matched;
+     * unchanged without a script.
      */
     fun inScript(script: ChineseScript?): FrequencyList = if (script == null) this else copy(
         words = words.map { word ->
-            word.copy(word = ChineseScripts.convert(word.word, script), forms = (word.forms.map { ChineseScripts.convert(it, script) } + word.forms).distinct())
+            val forms = word.forms.map { ChineseScripts.convert(it, script) } + word.forms + word.forms.map { ChineseScripts.convert(it, ChineseScript.SIMPLIFIED) }
+            word.copy(word = ChineseScripts.convert(word.word, script), forms = forms.distinct())
         },
     )
 

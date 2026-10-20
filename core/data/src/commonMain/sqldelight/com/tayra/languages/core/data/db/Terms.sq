@@ -158,7 +158,7 @@ SELECT t.*, l.name AS language_name
 FROM terms t
 INNER JOIN languages l ON l.id = t.language_id
 WHERE (:languageId IS NULL OR t.language_id = :languageId)
-  AND (:search = '' OR t.text_lc LIKE :search OR lower(COALESCE(t.translation, '')) LIKE :search)
+  AND (:search = '' OR t.text_lc LIKE :search OR lower(t.text) LIKE :search OR lower(COALESCE(t.translation, '')) LIKE :search)
   AND ((t.status BETWEEN :minStatus AND :maxStatus AND t.status != 98) OR (:includeIgnored = 1 AND t.status = 98))
   AND (:anyStatus = 1 OR t.status IN :statuses)
   AND (:minCreated IS NULL OR t.created_at <= :minCreated)
@@ -181,7 +181,7 @@ SELECT count(*)
 FROM terms t
 INNER JOIN languages l ON l.id = t.language_id
 WHERE (:languageId IS NULL OR t.language_id = :languageId)
-  AND (:search = '' OR t.text_lc LIKE :search OR lower(COALESCE(t.translation, '')) LIKE :search)
+  AND (:search = '' OR t.text_lc LIKE :search OR lower(t.text) LIKE :search OR lower(COALESCE(t.translation, '')) LIKE :search)
   AND ((t.status BETWEEN :minStatus AND :maxStatus AND t.status != 98) OR (:includeIgnored = 1 AND t.status = 98))
   AND (:anyStatus = 1 OR t.status IN :statuses)
   AND (:minCreated IS NULL OR t.created_at <= :minCreated)
@@ -191,7 +191,7 @@ WHERE (:languageId IS NULL OR t.language_id = :languageId)
 -- References: sentences containing the term.
 
 references:
-SELECT DISTINCT b.id AS book_id, p.id AS page_id, p.page_order, b.title, s.text,
+SELECT DISTINCT b.id AS book_id, p.id AS page_id, p.page_order, b.title, s.text, s.text_lc,
     (SELECT count(*) FROM pages pc WHERE pc.book_id = b.id) AS page_count,
     p.read_date
 FROM sentences s

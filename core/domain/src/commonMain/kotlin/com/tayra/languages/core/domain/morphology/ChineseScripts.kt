@@ -100,6 +100,18 @@ object ChineseScripts {
         ChineseScript.TRADITIONAL -> toTraditional?.convert(text) ?: text
     }
 
+    /**
+     * [text] in [script], its words read together as one text is, so a phrase split into words is
+     * converted as a phrase; the [separator]s between them stay where they were.
+     */
+    fun convertWords(text: String, separator: Char, script: ChineseScript): String {
+        if (separator !in text) return convert(text, script)
+        val converted = convert(text.filter { it != separator }, script)
+        if (converted.length != text.count { it != separator }) return convert(text, script)
+        var next = 0
+        return buildString(text.length) { for (c in text) append(if (c == separator) c else converted[next++]) }
+    }
+
     /** For tests: converters made from tables given directly. */
     internal fun set(simplified: ChineseConverter?, traditional: ChineseConverter?) {
         toSimplified = simplified
