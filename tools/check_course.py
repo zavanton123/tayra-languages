@@ -188,7 +188,106 @@ def chinese_tokens(text, ranks):
     return out
 
 
+# A word the checker counts as known whatever its rank: a name, a number.
+KNOWN = "\u0000name"
+_mecab = []
+
+
+def _tagger():
+    """MeCab with IPADIC, the dictionary of the Kuromoji the desktop reader cuts Japanese with."""
+    if not _mecab:
+        try:
+            import MeCab
+            import ipadic
+        except ImportError:
+            sys.exit("Japanese courses need MeCab: run the checker with a Python that has mecab-python3 and ipadic installed")
+        _mecab.append(MeCab.Tagger(ipadic.MECAB_ARGS))
+    return _mecab[0]
+
+
+# The particles that join a verb to the one helping it (住んでいる, 食べてしまう), and -たり, as KuromojiBoundaries has them.
+JA_JOINING = {"て", "で", "ちゃ", "じゃ", "たり", "だり"}
+
+
+def ja_continues(pos, detail, surface, previous):
+    """KuromojiBoundaries.continues: whether a piece belongs to the word before it."""
+    if previous is None or previous == "記号":
+        return False
+    after_inflecting = previous in ("動詞", "形容詞", "助動詞")
+    if pos == "助動詞":
+        return after_inflecting
+    if pos == "動詞" and detail in ("非自立", "接尾"):
+        return after_inflecting or (detail == "接尾" and previous == "名詞")
+    if pos == "形容詞" and detail in ("非自立", "接尾"):
+        return after_inflecting
+    if pos == "名詞" and detail == "接尾":
+        return previous == "名詞"
+    if pos == "助詞" and detail in ("接続助詞", "並立助詞") and surface in JA_JOINING:
+        return after_inflecting
+    return False
+
+
+def japanese_tokens(text, ranks):
+    """
+    Japanese words as the desktop reader cuts them: MeCab's pieces joined into words as
+    KuromojiBoundaries joins them (食べ・まし・た is 食べました), and within a word the longest run of
+    pieces the list knows, a verb or adjective with what follows it read as its dictionary form, as the
+    reader looks 食べました up as 食べる. Each word is given as the form the list ranks: 食べる for
+    食べました. A number in kanji with its counter (三人, 五つ) is [KNOWN], as digits are not words.
+    """
+    out = []
+    node = _tagger().parseToNode(text)
+    pieces = []
+    while node:
+        if node.surface:
+            f = node.feature.split(",")
+            pieces.append((node.surface, f[0], f[1], f[2], f[6] if len(f) > 6 and f[6] != "*" else node.surface))
+        node = node.next
+    # Words: runs of pieces, each joined to the one before as the reader joins them.
+    words, previous = [], None
+    for piece in pieces:
+        surface, pos, detail = piece[0], piece[1], piece[2]
+        if words and ja_continues(pos, detail, surface, previous):
+            words[-1].append(piece)
+        else:
+            words.append([piece])
+        previous = "動詞" if words[-1][-1] is piece and len(words[-1]) > 1 and pos == "助詞" else pos
+    for word in words:
+        i = 0
+        while i < len(word):
+            head = word[i]
+            if head[1] == "記号" or not re.search(r"[^\W\d_]", head[0]):
+                i += 1
+                continue
+            # さん, ちゃん, 様 and 君 after a name go with the name.
+            if head[2] == "接尾" and head[3] == "人名":
+                out.append(KNOWN)
+                i += 1
+                continue
+            if head[2] == "数":
+                # A number and the counters after it.
+                j = i + 1
+                while j < len(word) and (word[j][2] == "数" or word[j][3] == "助数詞"):
+                    j += 1
+                out.append(KNOWN)
+                i = j
+                continue
+            end, lemma = i + 1, head[4]
+            if head[1] in ("動詞", "形容詞", "助動詞") and head[4] in ranks:
+                end = len(word)
+            else:
+                for j in range(len(word), i, -1):
+                    if "".join(p[0] for p in word[i:j]) in ranks:
+                        end, lemma = j, "".join(p[0] for p in word[i:j])
+                        break
+            out.append(lemma if lemma in ranks or head[0] not in ranks else head[0])
+            i = end
+    return out
+
+
 def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=None):
+    if code == "ja":
+        return japanese_tokens(text, ranks)
     if code == "zh":
         return chinese_tokens(text, ranks)
     if code == "fr":
@@ -523,14 +622,14 @@ def check(path, brief=False):
     band_start = up_to - BAND + 1
     need, shortest, longest = rules(up_to)
     # Chinese cuts into more, shorter words than the languages the lengths were set for.
-    if code == "zh" and up_to > 4000:
+    if code in ("zh", "ja") and up_to > 4000:
         longest = 700
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
     long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el") else []
     # Chinese writes no spaces, so every name is matched whole, the longest first.
-    if code == "zh":
+    if code in ("zh", "ja"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
@@ -541,7 +640,7 @@ def check(path, brief=False):
     report = []
     # Where each new word is taught, by its forms: a Chinese lesson must not use a word a later lesson teaches.
     taught_in = {}
-    if code == "zh":
+    if code in ("zh", "ja"):
         for j, later in enumerate(course["lessons"], start=1):
             for new in later.get("newWords", []):
                 key = fold(code, new.lower())
