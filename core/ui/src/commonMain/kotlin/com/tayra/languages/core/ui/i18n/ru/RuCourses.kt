@@ -162,6 +162,7 @@ internal val ruCourses: Map<String, String> = mapOf(
     "You answered {0} cards. Come back tomorrow for more." to "Вы ответили на {0} карточку. Возвращайтесь завтра за новыми.|Вы ответили на {0} карточки. Возвращайтесь завтра за новыми.|Вы ответили на {0} карточек. Возвращайтесь завтра за новыми.",
     "Words you give a status of 1 to 4 while reading get a card here. More cards are due as their reviews come round." to "Слова, которым вы при чтении ставите статус от 1 до 4, получают здесь карточку. Новые карточки появляются, когда подходит срок их повторения.",
     "Open vocabulary" to "Перейти к словам",
+    "Keep reading" to "Читать дальше",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Все карточки",

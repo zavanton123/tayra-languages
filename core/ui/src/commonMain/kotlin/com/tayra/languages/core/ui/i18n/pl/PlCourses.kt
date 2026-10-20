@@ -162,6 +162,7 @@ internal val plCourses: Map<String, String> = mapOf(
     "You answered {0} cards. Come back tomorrow for more." to "Za tobą {0} fiszka. Wróć jutro po kolejne.|Za tobą {0} fiszki. Wróć jutro po kolejne.|Za tobą {0} fiszek. Wróć jutro po kolejne.",
     "Words you give a status of 1 to 4 while reading get a card here. More cards are due as their reviews come round." to "Słowa, którym podczas czytania nadasz status od 1 do 4, dostają tu fiszkę. Kolejne fiszki pojawiają się, gdy nadchodzi termin ich powtórki.",
     "Open vocabulary" to "Otwórz słownictwo",
+    "Keep reading" to "Czytaj dalej",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Wszystkie fiszki",

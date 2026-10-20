@@ -171,6 +171,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onDelete = { confirmDelete = state.card },
                 onEdit = { onNavigate(Route.BrowseFlashcards(termId = it)) },
                 onVocabulary = { onNavigate(Route.Terms()) },
+                onBooks = { onNavigate(Route.Books) },
                 onBrowse = { onNavigate(Route.BrowseFlashcards()) },
             ),
             modifier = Modifier.padding(padding),
@@ -199,6 +200,7 @@ internal class FlashcardActions(
     /** Opens the card in the browser, where its sentence, schedule and state are changed. */
     val onEdit: (termId: Long) -> Unit = {},
     val onVocabulary: () -> Unit = {},
+    val onBooks: () -> Unit = {},
     /** Every card in a list, to search and manage. */
     val onBrowse: () -> Unit = {},
 )
@@ -301,7 +303,8 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
         }
     }
     val bar: @Composable (Modifier) -> Unit = { m ->
-        ProgressTrack(if (total > 0) current.toFloat() / total else 0f, AppAccents.blue, m, height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
+        // Filled by the cards answered: the first card of one shows an empty bar, not a full one.
+        ProgressTrack(if (total > 0) state.answered.toFloat() / total else 0f, AppAccents.blue, m, height = 10.dp, trackColor = colors.onSurface.copy(alpha = AppAlpha.tint))
     }
     val label: @Composable () -> Unit = {
         Text(
@@ -600,6 +603,8 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
             else -> tr("Words you give a status of 1 to 4 while reading get a card here. More cards are due as their reviews come round.")
         }
         Text(detail, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+        // Reading is where new cards come from, so it is the way on.
+        PrimaryButton(tr("Keep reading"), onClick = actions.onBooks, modifier = NoFocus.padding(top = AppSpacing.s), icon = AppIcons.MenuBook)
         Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             if (state.canUndo) QuietButton(tr("Previous card"), onClick = actions.onUndo, modifier = NoFocus)
             QuietButton(tr("Open vocabulary"), onClick = actions.onVocabulary, modifier = NoFocus)

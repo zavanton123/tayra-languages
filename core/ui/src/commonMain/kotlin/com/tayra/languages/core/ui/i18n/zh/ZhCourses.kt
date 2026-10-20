@@ -162,6 +162,7 @@ internal val zhCourses: Map<String, String> = mapOf(
     "You answered {0} cards. Come back tomorrow for more." to "你回答了 {0} 张卡片。明天再来继续吧。",
     "Words you give a status of 1 to 4 while reading get a card here. More cards are due as their reviews come round." to "阅读时标为状态 1 到 4 的单词会在这里生成卡片。复习时间一到，就会有更多卡片待复习。",
     "Open vocabulary" to "打开词汇",
+    "Keep reading" to "继续阅读",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "浏览闪卡",
