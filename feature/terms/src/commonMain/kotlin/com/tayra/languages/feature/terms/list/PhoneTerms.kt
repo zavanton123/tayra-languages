@@ -288,11 +288,7 @@ private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewM
             }
             AppDivider(Modifier.padding(vertical = AppSpacing.xl))
             Text(tr("Added"), Modifier.padding(bottom = AppSpacing.m), style = AppText.itemTitle)
-            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
-                DaysPicker(tr("From"), filter.minAgeDays, tr("Added from, days ago"), Modifier.weight(1f)) { viewModel.setAddedRange(it, filter.maxAgeDays) }
-                DaysPicker(tr("To"), filter.maxAgeDays, tr("Added to, days ago"), Modifier.weight(1f)) { viewModel.setAddedRange(filter.minAgeDays, it) }
-                Text(tr("days ago"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            }
+            AddedPresets(filter.minAgeDays, filter.maxAgeDays, viewModel::setAddedRange)
             filter.termIds?.let { ids ->
                 Text(
                     trPlural(ids.size, "Showing {0} term from the current page.", "Showing {0} terms from the current page."),
@@ -333,16 +329,3 @@ private fun StatusOption(status: TermStatus, selected: Boolean, modifier: Modifi
 }
 
 /** One end of the Added range, picked from a list of days; "Any" leaves it open. */
-@Composable
-private fun DaysPicker(label: String, value: Int?, description: String, modifier: Modifier, onChange: (Int?) -> Unit) {
-    SelectMenu(
-        options = DAY_CHOICES,
-        selected = value,
-        onSelect = onChange,
-        optionLabel = { it?.toString() ?: tr("Any") },
-        modifier = modifier,
-        value = value?.toString() ?: tr("Any"),
-        label = label,
-        buttonModifier = Modifier.semantics { contentDescription = description },
-    )
-}

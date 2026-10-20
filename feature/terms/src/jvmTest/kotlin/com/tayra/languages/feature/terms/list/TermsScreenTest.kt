@@ -6,13 +6,14 @@ import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
-import androidx.compose.ui.test.onAllNodesWithText
-import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onAllNodesWithContentDescription
-import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
@@ -37,18 +38,18 @@ import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.components.LearningLanguageState
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
+import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.TayraTheme
-import kotlinx.coroutines.runBlocking
-import org.koin.core.context.startKoin
-import org.koin.core.context.stopKoin
-import org.koin.dsl.module
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.AfterTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
-import com.tayra.languages.core.ui.navigation.Route
+import kotlinx.coroutines.runBlocking
+import org.koin.core.context.startKoin
+import org.koin.core.context.stopKoin
+import org.koin.dsl.module
 
 /** The vocabulary filters apply as they change: statuses ticked as chips, the days since a term was added, and removable chips for what is on. */
 @OptIn(ExperimentalTestApi::class)
@@ -117,8 +118,8 @@ class TermsScreenTest {
         onNodeWithTag("status-filter-3").performClick()
         onNodeWithTag("status-filter-K").performClick()
         waitForList("gostar", "expressão", "pensar", hidden = listOf("comprar", "produtos", "lá"))
-        onNodeWithContentDescription("Added to, days ago").performTextInput("30")
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Added: up to 30 days ago").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("added-MONTH").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Added in the last 30 days").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithContentDescription("2 filters on").assertExists()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
 
@@ -178,9 +179,7 @@ class TermsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("status-filter-K").performClick()
         waitForList("gostar", "expressão", "comprar", "pensar", hidden = listOf("lá"))
-        onNodeWithContentDescription("Added to, days ago").performClick()
-        onNodeWithText("30").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("30").fetchSemanticsNodes().size == 1 }
+        onNodeWithTag("added-MONTH").performScrollTo().performClick()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone-filters.png"))) }
         onNodeWithText("Show 5 terms").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }

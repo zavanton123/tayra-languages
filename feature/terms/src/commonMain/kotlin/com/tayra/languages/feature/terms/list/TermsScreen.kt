@@ -62,6 +62,7 @@ import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppSnackbar
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.ChipLeading
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconButtonStyle
@@ -78,6 +79,7 @@ import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SelectMenu
+import com.tayra.languages.core.ui.components.SelectableChip
 import com.tayra.languages.core.ui.components.TableHeader
 import com.tayra.languages.core.ui.components.TableHeaderCell
 import com.tayra.languages.core.ui.components.TintedSurface
@@ -366,13 +368,7 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
         }
         AppDivider(Modifier.padding(vertical = AppSpacing.l))
         Text(tr("Added"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(bottom = AppSpacing.m))
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), itemVerticalAlignment = Alignment.CenterVertically) {
-            Text(tr("From"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            NumberField(filter.minAgeDays, { viewModel.setAddedRange(it, filter.maxAgeDays) }, tr("Added from, days ago"), placeholder = tr("Any"), increaseDescription = tr("More days"), decreaseDescription = tr("Fewer days"))
-            Text(tr("To"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            NumberField(filter.maxAgeDays, { viewModel.setAddedRange(filter.minAgeDays, it) }, tr("Added to, days ago"), placeholder = tr("Any"), increaseDescription = tr("More days"), decreaseDescription = tr("Fewer days"))
-            Text(tr("days ago"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        }
+        AddedPresets(filter.minAgeDays, filter.maxAgeDays, viewModel::setAddedRange)
         if (filter.termIds != null) {
             Text(
                 trPlural(filter.termIds!!.size, "Showing {0} term from the current page.", "Showing {0} terms from the current page."),
@@ -444,8 +440,9 @@ internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewMode
             val to = filter.maxAgeDays
             val label = when {
                 from != null && to != null -> trPlural(to, "Added: {1}–{0} day", "Added: {1}–{0} days", from)
-                to != null -> trPlural(to, "Added: up to {0} day ago", "Added: up to {0} days ago")
-                else -> trPlural(from ?: 0, "Added: {0}+ day ago", "Added: {0}+ days ago")
+                to == 0 -> tr("Added today")
+                to != null -> trPlural(to, "Added in the last {0} day", "Added in the last {0} days")
+                else -> trPlural(from ?: 0, "Added over {0} day ago", "Added over {0} days ago")
             }
             RemovableChip(onRemove = { viewModel.setAddedRange(null, null) }, removeDescription = tr("Remove the added filter")) {
                 Text(label, style = AppText.badge)
@@ -635,3 +632,24 @@ internal fun shortDate(month: Int, day: Int, year: Int? = null): String = if (ye
         else -> tr("Dec {0}, {1}", day, year)
     }
 }
+
+/** When terms were added, as a few plain choices: their least and most days ago, null for no bound. */
+private enum class AddedPreset(val label: String, val min: Int?, val max: Int?) {
+    ANY("Any time", null, null),
+    TODAY("Today", null, 0),
+    WEEK("Last 7 days", null, 7),
+    MONTH("Last 30 days", null, 30),
+    OLDER("Older than 30 days", 30, null),
+}
+
+/** The added-date filter as chips, the same on a phone and a wide screen; a range set elsewhere ticks none. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+internal fun AddedPresets(min: Int?, max: Int?, onChange: (Int?, Int?) -> Unit) {
+    FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        AddedPreset.entries.forEach { preset ->
+            SelectableChip(tr(preset.label), preset.min == min && preset.max == max, onClick = { onChange(preset.min, preset.max) }, modifier = Modifier.testTag("added-${preset.name}"), leading = ChipLeading.Check)
+        }
+    }
+}
+
