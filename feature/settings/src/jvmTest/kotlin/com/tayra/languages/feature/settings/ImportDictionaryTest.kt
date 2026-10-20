@@ -27,7 +27,7 @@ class ImportDictionaryTest {
                 ImportLanguagesDialog(ready, defaultSource = "ja", defaultTarget = "en", onImport = { s, t -> imported += s to t }, onDismiss = {})
             }
         }
-        onNodeWithText("Revision 2026.10.01").assertExists()
+        onNodeWithText("Revision 2026.10.01", substring = true).assertExists()
         onNodeWithText("Japanese").assertExists()
         System.getenv("IMPORT_DIALOG_SCREENSHOT")?.let { path ->
             val roots = onAllNodes(isRoot())

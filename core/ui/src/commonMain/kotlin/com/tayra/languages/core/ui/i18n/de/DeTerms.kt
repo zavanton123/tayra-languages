@@ -230,6 +230,7 @@ internal val deTerms: Map<String, String> = mapOf(
     "Download word finder" to "Wortsuche herunterladen",
     "word finder" to "Wortsuche",
     "Import a dictionary" to "Wörterbuch importieren",
+    "Import · {0}" to "Importieren · {0}",
     "Yomitan, MDict or StarDict files" to "Yomitan-, MDict- oder StarDict-Dateien",
     "Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages." to "Füge ein eigenes Wörterbuch für Yomitan (.zip), MDict (.mdx) oder StarDict (seine .ifo-, .idx- und .dict-Dateien oder ein Archiv davon) hinzu; seine Einträge erscheinen neben dem Offline-Wörterbuch seiner Sprachen.",
     "Importing {0}..." to "{0} wird importiert…",

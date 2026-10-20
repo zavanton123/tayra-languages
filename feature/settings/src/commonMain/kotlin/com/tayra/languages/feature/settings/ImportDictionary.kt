@@ -14,6 +14,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.data.mdict.DictionaryFiles
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -26,6 +27,7 @@ import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.SecondaryButton
+import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppSpacing
 import io.github.vinceglb.filekit.dialogs.FileKitMode
@@ -94,14 +96,15 @@ internal fun ImportLanguagesDialog(ready: DictionaryImport.Ready, defaultSource:
         title = { Text(ready.info.title) },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                if (ready.info.revision.isNotEmpty()) Text(tr("Revision {0}", ready.info.revision), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                ready.info.attribution?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+                // The revision and licence on one line, under the title they belong to.
+                val about = listOfNotNull(ready.info.revision.takeIf { it.isNotEmpty() }?.let { tr("Revision {0}", it) }, ready.info.attribution).joinToString(" · ")
+                if (about.isNotEmpty()) Text(about, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Dropdown(options, source, { source = it }, tr("Words of"), { tr(it.name) }, Modifier.fillMaxWidth().testTag("import-source"))
                 Dropdown(options, target, { target = it }, tr("Explained in"), { tr(it.name) }, Modifier.fillMaxWidth().testTag("import-target"))
             }
         },
         confirmButton = {
-            PrimaryButton(tr("Import"), onClick = { onImport(source!!.code, target!!.code) }, modifier = Modifier.testTag("import-confirm"), enabled = source != null && target != null)
+            PrimaryButton(tr("Import · {0}", formatSize(ready.file.size.toLong())), onClick = { onImport(source!!.code, target!!.code) }, modifier = Modifier.testTag("import-confirm"), enabled = source != null && target != null)
         },
         dismissButton = { QuietButton(tr("Cancel"), onClick = onDismiss) },
     )
