@@ -132,6 +132,7 @@ import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.Notice
 import com.tayra.languages.core.ui.components.PopupCard
 import com.tayra.languages.core.ui.components.SidePanel
+import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.ui.components.AppMenu
@@ -201,6 +202,11 @@ fun ReadingScreen(
     val wide = LocalWindowWidth.current.isExpanded
     val scope = rememberCoroutineScope()
     val drawerState = rememberDrawerState(DrawerValue.Closed)
+    // A phone opens the reader's settings in a sheet over the lower part of the page, so the text
+    // they change stays in sight above it; a wider window has room for the drawer beside the text.
+    val phone = LocalWindowWidth.current.isCompact
+    var paneSheet by remember { mutableStateOf(false) }
+    val openPane: () -> Unit = { if (phone) paneSheet = true else scope.launch { drawerState.open() } }
     var bookmarkDialog by remember { mutableStateOf(false) }
     // True while a text field of the term pane is being typed in: the hotkeys then stay out of the typing.
     var typing by remember { mutableStateOf(false) }
@@ -302,8 +308,14 @@ fun ReadingScreen(
         onTranslationSettings = { onNavigate(Route.OfflineTranslation) },
     )
 
+    if (phone && paneSheet) {
+        AppBottomSheet(onDismissRequest = { paneSheet = false }, scrimColor = MaterialTheme.colorScheme.scrim.copy(alpha = AppAlpha.tint)) {
+            Box(Modifier.fillMaxWidth().fillMaxHeight(PANE_SHEET_HEIGHT)) { ReaderPane(state, viewModel, paneActions, onClose = { paneSheet = false }) }
+        }
+    }
     ModalNavigationDrawer(
         drawerState = drawerState,
+        gesturesEnabled = !phone,
         drawerContent = {
             ModalDrawerSheet(
                 drawerContainerColor = MaterialTheme.colorScheme.surface,
@@ -345,15 +357,15 @@ fun ReadingScreen(
         ) {
             val compact = LocalWindowWidth.current.isCompact
             when {
-                state.settings.focusMode -> FocusBar(state, viewModel, onMenu = { scope.launch { drawerState.open() } })
-                compact -> ReadingHeader(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = leave)
+                state.settings.focusMode -> FocusBar(state, viewModel, onMenu = openPane)
+                compact -> ReadingHeader(state, viewModel, onMenu = openPane, onHome = leave)
                 else -> {
                     AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = when {
                         state.lesson != null -> NavSection.COURSES
                         state.news -> NavSection.NEWS
                         else -> NavSection.BOOKS
                     })
-                    ReaderToolbar(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = leave, onCourses = { onNavigate(Route.Courses) })
+                    ReaderToolbar(state, viewModel, onMenu = openPane, onHome = leave, onCourses = { onNavigate(Route.Courses) })
                 }
             }
             Row(Modifier.weight(1f).background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else AppAlpha.line))) {
@@ -712,6 +724,8 @@ private val PLAY_CONTROL_SIZE = 60.dp
 /** Room under the text, so the floating play controls do not cover its end. */
 private val CONTROLS_ROOM = 120.dp
 private val DRAWER_WIDTH = 460.dp
+/** How much of a phone's height the reader's settings take, leaving the text above them in view. */
+private const val PANE_SHEET_HEIGHT = 0.6f
 private val HANDLE_WIDTH = 32.dp
 private val SHORTCUTS_WIDTH = 440.dp
 private val SHORTCUT_KEYS_WIDTH = 250.dp
