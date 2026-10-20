@@ -83,7 +83,16 @@ private class MoreEntry(val label: String, val icon: ImageVector, val route: Rou
 private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 
 private val moreGroups = listOf(
-    MoreGroup("Reading", listOf(MoreEntry("News", AppIcons.Newspaper, Route.News), MoreEntry("Find books", AppIcons.Book, Route.FindBooks))),
+    // Where texts come from: the news, free books, and the packs of courses and books to download.
+    MoreGroup(
+        "Reading",
+        listOf(
+            MoreEntry("News", AppIcons.Newspaper, Route.News),
+            MoreEntry("Find books", AppIcons.Book, Route.FindBooks),
+            MoreEntry("Course packs", AppIcons.School, Route.CoursePacks),
+            MoreEntry("Book packs", AppIcons.Download, Route.BookPacks),
+        ),
+    ),
     MoreGroup(
         "Words",
         listOf(
@@ -100,8 +109,6 @@ private val moreGroups = listOf(
             MoreEntry("Translation", AppIcons.Translate, Route.OfflineTranslation),
             // Named apart from the tabs: these set things up rather than open them.
             MoreEntry("Dictionaries", AppIcons.MenuBook, Route.OfflineDictionaries),
-            MoreEntry("Course packs", AppIcons.School, Route.CoursePacks),
-            MoreEntry("Book packs", AppIcons.Download, Route.BookPacks),
             MoreEntry("Speech", AppIcons.VolumeUp, Route.Speech),
             MoreEntry("Flashcard settings", AppIcons.Style, Route.FlashcardSettings),
             MoreEntry("Vocabulary settings", AppIcons.Abc, Route.VocabularySettings),
