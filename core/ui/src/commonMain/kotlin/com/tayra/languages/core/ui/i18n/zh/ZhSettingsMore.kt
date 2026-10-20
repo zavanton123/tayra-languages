@@ -75,7 +75,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Protect your data" to "保护你的数据",
     "Save your library, vocabulary, progress, and preferences." to "保存你的书库、词汇、进度和偏好设置。",
     "Import backup" to "导入备份",
-    "Backups are stored on this device." to "备份保存在本设备上。",
+    "Backups are stored on this device and go with the app if it is removed. Export one to keep a copy." to "备份保存在本设备上，删除应用时会一并删除。导出一份即可保留副本。",
     "What's included in a backup" to "备份包含哪些内容",
     "Restore Tayra data from a previously exported backup file." to "从之前导出的备份文件中恢复 Tayra 数据。",
     "It joins the history below, and you are asked whether to restore it right away." to "它会加入下方的历史记录，并询问你是否立即恢复。",

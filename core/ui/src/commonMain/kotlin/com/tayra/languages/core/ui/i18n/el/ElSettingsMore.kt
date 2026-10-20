@@ -75,7 +75,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Protect your data" to "Προστατέψτε τα δεδομένα σας",
     "Save your library, vocabulary, progress, and preferences." to "Αποθηκεύστε τη βιβλιοθήκη, το λεξιλόγιο, την πρόοδο και τις προτιμήσεις σας.",
     "Import backup" to "Εισαγωγή αντιγράφου",
-    "Backups are stored on this device." to "Τα αντίγραφα ασφαλείας αποθηκεύονται σε αυτή τη συσκευή.",
+    "Backups are stored on this device and go with the app if it is removed. Export one to keep a copy." to "Τα αντίγραφα ασφαλείας αποθηκεύονται σε αυτή τη συσκευή και χάνονται μαζί με την εφαρμογή αν αφαιρεθεί. Εξαγάγετε ένα για να κρατήσετε αντίγραφο.",
     "What's included in a backup" to "Τι περιλαμβάνει ένα αντίγραφο ασφαλείας",
     "Restore Tayra data from a previously exported backup file." to "Επαναφέρετε δεδομένα του Tayra από ένα αρχείο αντιγράφου ασφαλείας που εξαγάγατε παλαιότερα.",
     "It joins the history below, and you are asked whether to restore it right away." to "Προστίθεται στο ιστορικό παρακάτω και θα ερωτηθείτε αν θέλετε να το επαναφέρετε αμέσως.",

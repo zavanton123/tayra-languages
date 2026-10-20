@@ -75,7 +75,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Protect your data" to "Защитите свои данные",
     "Save your library, vocabulary, progress, and preferences." to "Сохраните библиотеку, слова, прогресс и настройки.",
     "Import backup" to "Импортировать копию",
-    "Backups are stored on this device." to "Копии хранятся на этом устройстве.",
+    "Backups are stored on this device and go with the app if it is removed. Export one to keep a copy." to "Копии хранятся на этом устройстве и удаляются вместе с приложением. Экспортируйте копию, чтобы сохранить её.",
     "What's included in a backup" to "Что входит в копию",
     "Restore Tayra data from a previously exported backup file." to "Восстановите данные Tayra из ранее экспортированного файла резервной копии.",
     "It joins the history below, and you are asked whether to restore it right away." to "Копия появится в истории ниже, и вам сразу предложат её восстановить.",

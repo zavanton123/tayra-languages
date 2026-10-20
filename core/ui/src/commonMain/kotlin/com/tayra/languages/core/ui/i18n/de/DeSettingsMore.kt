@@ -75,7 +75,7 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Protect your data" to "Schütze deine Daten",
     "Save your library, vocabulary, progress, and preferences." to "Sichere deine Bibliothek, deinen Wortschatz, deinen Fortschritt und deine Einstellungen.",
     "Import backup" to "Sicherung importieren",
-    "Backups are stored on this device." to "Sicherungen werden auf diesem Gerät gespeichert.",
+    "Backups are stored on this device and go with the app if it is removed. Export one to keep a copy." to "Sicherungen werden auf diesem Gerät gespeichert und verschwinden mit der App, wenn sie entfernt wird. Exportiere eine, um eine Kopie zu behalten.",
     "What's included in a backup" to "Was eine Sicherung enthält",
     "Restore Tayra data from a previously exported backup file." to "Stelle Tayra-Daten aus einer zuvor exportierten Sicherungsdatei wieder her.",
     "It joins the history below, and you are asked whether to restore it right away." to "Sie erscheint im Verlauf unten, und du wirst gefragt, ob du sie gleich wiederherstellen möchtest.",

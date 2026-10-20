@@ -75,7 +75,7 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Protect your data" to "Zabezpiecz swoje dane",
     "Save your library, vocabulary, progress, and preferences." to "Zapisz bibliotekę, słownictwo, postępy i ustawienia.",
     "Import backup" to "Importuj kopię",
-    "Backups are stored on this device." to "Kopie są przechowywane na tym urządzeniu.",
+    "Backups are stored on this device and go with the app if it is removed. Export one to keep a copy." to "Kopie są przechowywane na tym urządzeniu i znikają razem z aplikacją, jeśli zostanie usunięta. Wyeksportuj jedną, aby zachować kopię.",
     "What's included in a backup" to "Co zawiera kopia",
     "Restore Tayra data from a previously exported backup file." to "Przywróć dane Tayry z wcześniej wyeksportowanego pliku kopii zapasowej.",
     "It joins the history below, and you are asked whether to restore it right away." to "Kopia pojawi się w historii poniżej, a od razu zobaczysz pytanie, czy ją przywrócić.",

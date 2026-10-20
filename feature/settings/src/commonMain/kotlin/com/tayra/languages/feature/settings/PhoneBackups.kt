@@ -96,7 +96,7 @@ internal fun PhoneBackupsScreen(
                 Spacer(Modifier.height(AppSpacing.m))
                 SecondaryButton(tr("Import backup"), onClick = onImport, modifier = Modifier.fillMaxWidth(), icon = AppIcons.UploadFile, enabled = idle, size = ButtonSize.Large)
                 Spacer(Modifier.height(AppSpacing.m))
-                Text(tr("Backups are stored on this device."), Modifier.fillMaxWidth(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+                Text(tr("Backups are stored on this device and go with the app if it is removed. Export one to keep a copy."), Modifier.fillMaxWidth(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
             }
             Progress(state)
             Column {
