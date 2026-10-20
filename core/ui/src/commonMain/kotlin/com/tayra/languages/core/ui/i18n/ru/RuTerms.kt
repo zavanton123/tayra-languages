@@ -210,6 +210,8 @@ internal val ruTerms: Map<String, String> = mapOf(
     "The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection." to "Офлайн-словарь {0} не скачан. Скачайте его, чтобы видеть здесь значения без подключения к сети.",
     "Try again" to "Повторить попытку",
     "Download dictionary" to "Скачать словарь",
+    "No entry for “{0}” in {1}. The {2} dictionary from Wiktionary has more words." to "Нет статьи «{0}» в {1}. В словаре {2} из Викисловаря больше слов.",
+    "Download Wiktionary dictionary" to "Скачать словарь Викисловаря",
     "Add to translation" to "Добавить в перевод",
     "heiban" to "хэйбан",
     "atamadaka" to "атамадака",

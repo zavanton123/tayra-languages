@@ -96,6 +96,8 @@ data class TermFormUiState(
     val notes: List<JapaneseNote> = emptyList(),
     /** The downloadable pack for the language pair and whether it is on the device; null when none exists. */
     val dictionaryPack: PackStatus? = null,
+    /** Another installed dictionary of the pair, by name (an edition such as FreeDict, or an imported one); lookups use it too. */
+    val pairDictionary: String? = null,
     /** The word finder from the native language to the term's, null when there is none. */
     val finderPack: PackStatus? = null,
     /** The words of each example with their statuses, by the example's text. */
@@ -265,14 +267,20 @@ class TermFormViewModel(
         packJob?.cancel()
         val pack = DictionaryPacks.find(language?.let { LanguageCodes.codeFor(it.name) }, settings.current.nativeLanguage)
         if (pack == null) {
-            _state.update { it.copy(dictionaryPack = null) }
+            _state.update { it.copy(dictionaryPack = null, pairDictionary = null) }
             return
         }
         packJob = viewModelScope.launch {
             dictionaries.packs.collect { list ->
                 val status = list.firstOrNull { it.pack.id == pack.id } ?: PackStatus(pack, PackState.NotInstalled)
+                val other = list.firstOrNull { companion ->
+                    val id = companion.pack.id
+                    id != pack.id && !id.glossary && id.sourceLanguage == pack.id.sourceLanguage && id.targetLanguage == pack.id.targetLanguage &&
+                        companion.state is PackState.Installed
+                }?.pack
+                val otherName = other?.let { it.id.edition?.let(DictionaryPacks::editionName) ?: it.title }
                 val wasInstalled = _state.value.dictionaryPack?.state is PackState.Installed
-                _state.update { it.copy(dictionaryPack = status) }
+                _state.update { it.copy(dictionaryPack = status, pairDictionary = otherName) }
                 if (status.state is PackState.Installed && !wasInstalled && _state.value.dictionary.isEmpty) {
                     val current = _state.value
                     val lookup = lookupDictionary(current.draft.text, current.language)

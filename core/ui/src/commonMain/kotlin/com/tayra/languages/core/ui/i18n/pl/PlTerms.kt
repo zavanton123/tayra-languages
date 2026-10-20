@@ -210,6 +210,8 @@ internal val plTerms: Map<String, String> = mapOf(
     "The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection." to "Słownik offline ({0}) nie jest pobrany. Pobierz go, aby widzieć tu znaczenia bez połączenia z siecią.",
     "Try again" to "Spróbuj ponownie",
     "Download dictionary" to "Pobierz słownik",
+    "No entry for “{0}” in {1}. The {2} dictionary from Wiktionary has more words." to "Brak hasła „{0}” w {1}. Słownik {2} z Wikisłownika ma więcej słów.",
+    "Download Wiktionary dictionary" to "Pobierz słownik z Wikisłownika",
     "Add to translation" to "Dodaj do tłumaczenia",
     "heiban" to "heiban",
     "atamadaka" to "atamadaka",

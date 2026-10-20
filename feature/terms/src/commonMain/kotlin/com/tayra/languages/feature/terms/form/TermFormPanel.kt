@@ -227,7 +227,7 @@ private fun TermFormContent(
             when {
                 empty -> Unit
                 !state.dictionary.isEmpty -> DictionarySection(state.dictionary, language?.let { LanguageCodes.codeFor(it.name) }, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss)
-                pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
+                pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, state.pairDictionary, draft.text.trim(), onDownload = viewModel::downloadDictionary)
             }
             if (!empty && state.notes.isNotEmpty()) NotesSection(state.notes)
             if (!empty && state.recordings.isNotEmpty()) RecordingsSection(state.recordings, draft.text.trim())
@@ -729,7 +729,7 @@ private fun OutlineActionButton(label: String, onClick: () -> Unit) {
  * quiet note with a text button, so it does not outweigh the parts of the pane that save the word.
  */
 @Composable
-private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
+private fun DictionaryDownloadCard(status: PackStatus, installed: String?, word: String, onDownload: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val state = status.state
     Column(
@@ -742,7 +742,9 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
                 when (state) {
                     is PackState.Downloading -> tr("Downloading the {0} dictionary...", packTitle(status))
                     is PackState.Failed -> tr("The download failed: {0}", state.message)
-                    else -> tr("The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection.", packTitle(status))
+                    // Another dictionary of the pair is on the device but has no entry: the pack is offered for its larger list, not as missing.
+                    else -> if (installed != null) tr("No entry for “{0}” in {1}. The {2} dictionary from Wiktionary has more words.", word, installed, packTitle(status))
+                    else tr("The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection.", packTitle(status))
                 },
                 Modifier.weight(1f),
                 style = MaterialTheme.typography.bodySmall,
@@ -752,7 +754,7 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
         if (state is PackState.Downloading) {
             AppProgressBar(state.progress)
         } else {
-            QuietButton(if (state is PackState.Failed) tr("Try again") else tr("Download dictionary"), onClick = onDownload, icon = AppIcons.Download)
+            QuietButton(if (state is PackState.Failed) tr("Try again") else if (installed != null) tr("Download Wiktionary dictionary") else tr("Download dictionary"), onClick = onDownload, icon = AppIcons.Download)
         }
     }
 }

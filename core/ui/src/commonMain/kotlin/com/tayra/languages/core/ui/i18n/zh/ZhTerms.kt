@@ -210,6 +210,8 @@ internal val zhTerms: Map<String, String> = mapOf(
     "The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection." to "尚未下载{0}离线词典。下载后，无需联网即可在此查看释义。",
     "Try again" to "重试",
     "Download dictionary" to "下载词典",
+    "No entry for “{0}” in {1}. The {2} dictionary from Wiktionary has more words." to "{1} 中没有“{0}”的词条。来自维基词典的 {2} 词典收词更多。",
+    "Download Wiktionary dictionary" to "下载维基词典词典",
     "Add to translation" to "添加到翻译",
     "heiban" to "平板型",
     "atamadaka" to "头高型",

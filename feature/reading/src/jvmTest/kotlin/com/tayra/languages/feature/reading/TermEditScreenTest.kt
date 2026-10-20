@@ -78,12 +78,53 @@ class TermEditScreenTest {
 
     @Test
     fun theEditorShowsEveryPartAndSavesTheStatus() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val editor = openEditor("semana", DictionaryId("pt", "en"))
+        val (termId, terms, flashcards) = editor
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("a week's wages")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Tom lê vários livros por semana.")).fetchSemanticsNodes().isNotEmpty() }
+        for (part in listOf("Term information", "Learning status", "Flashcard", "Dictionaries", "Delete term", "Edit term")) {
+            assertTrue(onAllNodes(hasText(part)).fetchSemanticsNodes().isNotEmpty(), "$part is shown")
+        }
+        System.getenv("TERM_EDIT_SCREENSHOT")?.let { save(it) }
+
+        // A term being learned has a flashcard, which can be set aside from here.
+        onNodeWithText("Not shown yet").assertExists()
+        onNode(isToggleable()).performClick()
+        waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == true }
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("New card, suspended")).fetchSemanticsNodes().isNotEmpty() }
+        onNode(isToggleable()).performClick()
+        waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == false }
+
+        onAllNodes(hasText("2") and isSelectable())[0].performClick()
+        onNodeWithText("Save changes").performClick()
+        waitUntil(timeoutMillis = 10_000) { editor.done }
+        assertEquals(TermStatus.NEW_2, runBlocking { terms.getById(termId) }?.status)
+    }
+
+    /** With only another edition of the pair installed, a word it lacks is offered the Wiktionary pack for more words, not told a dictionary is missing. */
+    @Test
+    fun aWordMissingFromAnotherEditionIsOfferedTheFullerPack() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        openEditor("bocejava", DictionaryId("pt", "en", edition = DictionaryId.FREEDICT))
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Download Wiktionary dictionary")).fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(onAllNodes(hasText("No entry for “bocejava” in FreeDict", substring = true)).fetchSemanticsNodes().isNotEmpty())
+        assertTrue(onAllNodes(hasText("is not downloaded", substring = true)).fetchSemanticsNodes().isEmpty())
+    }
+
+    private class Editor(val termId: Long, val terms: TermRepositoryImpl, val flashcards: FlashcardService) {
+        var done = false
+        operator fun component1() = termId
+        operator fun component2() = terms
+        operator fun component3() = flashcards
+    }
+
+    /** The editor for [word], a Portuguese term being learned, with only the [installed] dictionary of the pair on the device. */
+    private fun ComposeUiTest.openEditor(word: String, installed: DictionaryId): Editor {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-term-edit", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
         val languageId = runBlocking { languages.save(Language(name = "Portuguese")) }
-        val termId = runBlocking { terms.save(Term(languageId = languageId, text = "semana", textLc = "semana", status = TermStatus.NEW_1, translation = "week")) }
+        val termId = runBlocking { terms.save(Term(languageId = languageId, text = word, textLc = word, status = TermStatus.NEW_1, translation = "week")) }
         val examples = listOf(
             ExampleSentence(text = "Quantas vezes por semana tu te banhas?", translation = null),
             ExampleSentence(text = "Tom lê vários livros por semana.", translation = null),
@@ -99,7 +140,7 @@ class TermEditScreenTest {
         }
         val dictionaries = DictionaryService(
             object : DictionaryPackStore {
-                override suspend fun installedSize(pack: DictionaryPack): Long? = if (pack.id == DictionaryId("pt", "en")) 1_000_000 else null
+                override suspend fun installedSize(pack: DictionaryPack): Long? = if (pack.id == installed) 1_000_000 else null
                 override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) = Unit
                 override suspend fun remove(pack: DictionaryPack) {}
             },
@@ -125,36 +166,18 @@ class TermEditScreenTest {
                 viewModel { (key: TermFormKey) -> TermFormViewModel(key, termService, terms, languages, settings, engine, sentences, dictionaries, dictionaries, exampleTerms, flashcards) }
             })
         }
-        var done = false
+        val opened = Editor(termId, terms, flashcards)
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
                     CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {}) {
-                        TermEditScreen(TermFormKey.ById(termId), onNavigate = {}, onBack = {}, onDone = { done = true }, onOpenParent = { _, _ -> })
+                        TermEditScreen(TermFormKey.ById(termId), onNavigate = {}, onBack = {}, onDone = { opened.done = true }, onOpenParent = { _, _ -> })
                     }
                 }
             }
         }
 
-        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("a week's wages")).fetchSemanticsNodes().isNotEmpty() }
-        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Tom lê vários livros por semana.")).fetchSemanticsNodes().isNotEmpty() }
-        for (part in listOf("Term information", "Learning status", "Flashcard", "Dictionaries", "Delete term", "Edit term")) {
-            assertTrue(onAllNodes(hasText(part)).fetchSemanticsNodes().isNotEmpty(), "$part is shown")
-        }
-        System.getenv("TERM_EDIT_SCREENSHOT")?.let { save(it) }
-
-        // A term being learned has a flashcard, which can be set aside from here.
-        onNodeWithText("Not shown yet").assertExists()
-        onNode(isToggleable()).performClick()
-        waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == true }
-        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("New card, suspended")).fetchSemanticsNodes().isNotEmpty() }
-        onNode(isToggleable()).performClick()
-        waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == false }
-
-        onAllNodes(hasText("2") and isSelectable())[0].performClick()
-        onNodeWithText("Save changes").performClick()
-        waitUntil(timeoutMillis = 10_000) { done }
-        assertEquals(TermStatus.NEW_2, runBlocking { terms.getById(termId) }?.status)
+        return opened
     }
 
     private fun ComposeUiTest.save(path: String) {

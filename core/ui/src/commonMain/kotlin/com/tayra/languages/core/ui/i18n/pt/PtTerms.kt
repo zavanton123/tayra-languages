@@ -210,6 +210,8 @@ internal val ptTerms: Map<String, String> = mapOf(
     "The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection." to "O dicionário offline {0} não foi baixado. Baixe-o para ver os significados aqui sem conexão com a internet.",
     "Try again" to "Tentar de novo",
     "Download dictionary" to "Baixar dicionário",
+    "No entry for “{0}” in {1}. The {2} dictionary from Wiktionary has more words." to "Não há entrada para “{0}” em {1}. O dicionário {2} do Wikcionário tem mais palavras.",
+    "Download Wiktionary dictionary" to "Baixar o dicionário do Wikcionário",
     "Add to translation" to "Adicionar à tradução",
     "heiban" to "heiban",
     "atamadaka" to "atamadaka",

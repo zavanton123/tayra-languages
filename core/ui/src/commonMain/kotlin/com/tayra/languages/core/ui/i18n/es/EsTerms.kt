@@ -210,6 +210,8 @@ internal val esTerms: Map<String, String> = mapOf(
     "The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection." to "El diccionario sin conexión {0} no está descargado. Descárgalo para ver aquí los significados sin conexión a internet.",
     "Try again" to "Reintentar",
     "Download dictionary" to "Descargar diccionario",
+    "No entry for “{0}” in {1}. The {2} dictionary from Wiktionary has more words." to "No hay entrada para «{0}» en {1}. El diccionario {2} de Wikcionario tiene más palabras.",
+    "Download Wiktionary dictionary" to "Descargar el diccionario de Wikcionario",
     "Add to translation" to "Añadir a la traducción",
     "heiban" to "heiban",
     "atamadaka" to "atamadaka",

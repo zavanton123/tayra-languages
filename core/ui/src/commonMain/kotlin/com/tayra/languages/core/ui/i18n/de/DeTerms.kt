@@ -210,6 +210,8 @@ internal val deTerms: Map<String, String> = mapOf(
     "The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection." to "Das Offline-Wörterbuch für {0} ist nicht heruntergeladen. Lade es herunter, um Bedeutungen hier ohne Netzverbindung zu sehen.",
     "Try again" to "Erneut versuchen",
     "Download dictionary" to "Wörterbuch herunterladen",
+    "No entry for “{0}” in {1}. The {2} dictionary from Wiktionary has more words." to "Kein Eintrag für „{0}“ in {1}. Das Wörterbuch {2} aus dem Wiktionary hat mehr Wörter.",
+    "Download Wiktionary dictionary" to "Wiktionary-Wörterbuch herunterladen",
     "Add to translation" to "Zur Übersetzung hinzufügen",
     "heiban" to "heiban",
     "atamadaka" to "atamadaka",

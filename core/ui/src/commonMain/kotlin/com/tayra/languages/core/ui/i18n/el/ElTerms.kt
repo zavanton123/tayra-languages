@@ -210,6 +210,8 @@ internal val elTerms: Map<String, String> = mapOf(
     "The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection." to "Το λεξικό εκτός σύνδεσης {0} δεν έχει ληφθεί. Κατεβάστε το για να βλέπετε εδώ σημασίες χωρίς σύνδεση στο δίκτυο.",
     "Try again" to "Δοκιμάστε ξανά",
     "Download dictionary" to "Λήψη λεξικού",
+    "No entry for “{0}” in {1}. The {2} dictionary from Wiktionary has more words." to "Δεν υπάρχει λήμμα «{0}» στο {1}. Το λεξικό {2} από το Βικιλεξικό έχει περισσότερες λέξεις.",
+    "Download Wiktionary dictionary" to "Λήψη λεξικού από το Βικιλεξικό",
     "Add to translation" to "Προσθήκη στη μετάφραση",
     "heiban" to "χεϊμπάν",
     "atamadaka" to "αταμαντάκα",

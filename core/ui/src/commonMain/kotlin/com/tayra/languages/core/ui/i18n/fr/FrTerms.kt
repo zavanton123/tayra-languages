@@ -210,6 +210,8 @@ internal val frTerms: Map<String, String> = mapOf(
     "The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection." to "Le dictionnaire hors ligne {0} n’est pas téléchargé. Téléchargez-le pour voir ici les significations sans connexion réseau.",
     "Try again" to "Réessayer",
     "Download dictionary" to "Télécharger le dictionnaire",
+    "No entry for “{0}” in {1}. The {2} dictionary from Wiktionary has more words." to "Aucune entrée pour « {0} » dans {1}. Le dictionnaire {2} du Wiktionnaire contient plus de mots.",
+    "Download Wiktionary dictionary" to "Télécharger le dictionnaire du Wiktionnaire",
     "Add to translation" to "Ajouter à la traduction",
     "heiban" to "heiban",
     "atamadaka" to "atamadaka",
