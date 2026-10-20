@@ -85,6 +85,7 @@ internal val zhFrequency: Map<String, String> = mapOf(
     "choose one" to "选择一个",
     "Saving the level…" to "正在保存水平…",
     "Ranks {0}–{1}" to "排名 {0}–{1}",
+    "Jump to rank" to "跳到排名",
     "Your level" to "你的水平",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Tap a word to save it or change its status." to "最常用的 {0} 个{1}单词，每 100 个一组，组内按字母排序。点按单词即可保存或更改其状态。",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Click a word to save it or change its status." to "最常用的 {0} 个{1}单词，每 100 个一组，组内按字母排序。点击单词即可保存或更改其状态。",

@@ -85,6 +85,7 @@ internal val ptFrequency: Map<String, String> = mapOf(
     "choose one" to "escolha um",
     "Saving the level…" to "Salvando o nível…",
     "Ranks {0}–{1}" to "Posições {0}–{1}",
+    "Jump to rank" to "Ir para a posição",
     "Your level" to "Seu nível",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Tap a word to save it or change its status." to "As {0} palavras mais comuns ({1}) em blocos de 100, de A a Z dentro de cada bloco. Toque numa palavra para salvá-la ou mudar o status.",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Click a word to save it or change its status." to "As {0} palavras mais comuns ({1}) em blocos de 100, de A a Z dentro de cada bloco. Clique numa palavra para salvá-la ou mudar o status.",

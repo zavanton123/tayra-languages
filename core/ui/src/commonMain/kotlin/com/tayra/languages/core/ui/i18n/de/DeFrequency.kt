@@ -85,6 +85,7 @@ internal val deFrequency: Map<String, String> = mapOf(
     "choose one" to "wähle eines",
     "Saving the level…" to "Niveau wird gespeichert…",
     "Ranks {0}–{1}" to "Ränge {0}–{1}",
+    "Jump to rank" to "Zu Rang springen",
     "Your level" to "Dein Niveau",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Tap a word to save it or change its status." to "Die {0} häufigsten Wörter ({1}) in Gruppen zu 100, innerhalb jeder Gruppe von A bis Z. Tippe auf ein Wort, um es zu speichern oder seinen Status zu ändern.",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Click a word to save it or change its status." to "Die {0} häufigsten Wörter ({1}) in Gruppen zu 100, innerhalb jeder Gruppe von A bis Z. Klicke auf ein Wort, um es zu speichern oder seinen Status zu ändern.",

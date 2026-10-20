@@ -85,6 +85,7 @@ internal val elFrequency: Map<String, String> = mapOf(
     "choose one" to "επιλέξτε ένα",
     "Saving the level…" to "Αποθήκευση του επιπέδου…",
     "Ranks {0}–{1}" to "Θέσεις {0}–{1}",
+    "Jump to rank" to "Μετάβαση σε κατάταξη",
     "Your level" to "Το επίπεδό σας",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Tap a word to save it or change its status." to "Οι {0} πιο συχνές λέξεις ({1}) σε ομάδες των 100, αλφαβητικά μέσα σε κάθε ομάδα. Πατήστε μια λέξη για να την αποθηκεύσετε ή να αλλάξετε την κατάστασή της.",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Click a word to save it or change its status." to "Οι {0} πιο συχνές λέξεις ({1}) σε ομάδες των 100, αλφαβητικά μέσα σε κάθε ομάδα. Κάντε κλικ σε μια λέξη για να την αποθηκεύσετε ή να αλλάξετε την κατάστασή της.",

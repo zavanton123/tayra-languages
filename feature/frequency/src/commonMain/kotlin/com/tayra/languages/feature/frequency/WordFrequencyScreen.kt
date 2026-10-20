@@ -59,6 +59,7 @@ import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
@@ -267,6 +268,29 @@ internal fun WordFrequencyContent(
                 }
             }
         }
+        // Without the rail, a button opens the bands to jump to, so rank 5,000 is not fifty bands of scrolling.
+        if (!index && overview != null && bands.size > 1) {
+            var jumping by remember { mutableStateOf(false) }
+            SecondaryButton(
+                tr("Jump to rank"),
+                onClick = { jumping = true },
+                modifier = Modifier.align(Alignment.BottomEnd).padding(AppSpacing.l).testTag("jump-to-rank"),
+                icon = AppIcons.SwapVert,
+            )
+            if (jumping) {
+                PickerSheet(
+                    tr("Jump to rank"),
+                    bands.map { overview.bands[it.index] },
+                    selected = null,
+                    label = { tr("Ranks {0}–{1}", it.firstRank, it.lastRank) },
+                    onDismiss = { jumping = false },
+                    onPick = { band ->
+                        jumping = false
+                        bandItems[band.index]?.let { scope.launch { listState.animateScrollToItem(it) } }
+                    },
+                )
+            }
+        }
     }
 }
 
@@ -455,14 +479,15 @@ private fun statusLabel(status: TermStatus): String = when (status) {
 private fun RankIndex(wordCount: Int, modifier: Modifier, onJump: (rank: Int) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val marks = (listOf(1) + (100..900 step 100) + (1000..10_000 step 1000)).filter { it <= wordCount }
-    Column(modifier.padding(vertical = AppSpacing.xxl), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+    // The marks share the rail's height, so each is as big a target as the window allows.
+    Column(modifier.padding(vertical = AppSpacing.xxl), horizontalAlignment = Alignment.CenterHorizontally) {
         marks.forEach { mark ->
-            Text(
-                if (mark >= 1000) "${mark / 1000}k" else "$mark",
-                Modifier.clip(AppShapes.small).clickable { onJump(if (mark == 1) 1 else mark + 1) }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs).testTag("rank-$mark"),
-                style = MaterialTheme.typography.labelMedium,
-                color = colors.onSurfaceVariant,
-            )
+            Box(
+                Modifier.weight(1f).fillMaxWidth().clip(AppShapes.small).clickable { onJump(if (mark == 1) 1 else mark + 1) }.testTag("rank-$mark"),
+                contentAlignment = Alignment.Center,
+            ) {
+                Text(if (mark >= 1000) "${mark / 1000}k" else "$mark", style = AppText.label, color = colors.onSurfaceVariant)
+            }
         }
     }
 }

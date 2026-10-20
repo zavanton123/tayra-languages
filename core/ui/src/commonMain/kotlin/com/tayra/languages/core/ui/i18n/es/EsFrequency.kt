@@ -85,6 +85,7 @@ internal val esFrequency: Map<String, String> = mapOf(
     "choose one" to "elige uno",
     "Saving the level…" to "Guardando el nivel…",
     "Ranks {0}–{1}" to "Puestos {0}–{1}",
+    "Jump to rank" to "Ir al puesto",
     "Your level" to "Tu nivel",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Tap a word to save it or change its status." to "Las {0} palabras más comunes ({1}) en grupos de 100, de la A a la Z en cada grupo. Toca una palabra para guardarla o cambiar su estado.",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Click a word to save it or change its status." to "Las {0} palabras más comunes ({1}) en grupos de 100, de la A a la Z en cada grupo. Haz clic en una palabra para guardarla o cambiar su estado.",

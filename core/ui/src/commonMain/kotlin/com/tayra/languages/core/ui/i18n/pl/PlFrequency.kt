@@ -85,6 +85,7 @@ internal val plFrequency: Map<String, String> = mapOf(
     "choose one" to "wybierz go",
     "Saving the level…" to "Zapisywanie poziomu…",
     "Ranks {0}–{1}" to "Pozycje {0}–{1}",
+    "Jump to rank" to "Przejdź do rangi",
     "Your level" to "Twój poziom",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Tap a word to save it or change its status." to "{0} najczęstszych słów ({1}) w grupach po 100, w grupie alfabetycznie. Dotknij słowa, aby je zapisać lub zmienić jego status.",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Click a word to save it or change its status." to "{0} najczęstszych słów ({1}) w grupach po 100, w grupie alfabetycznie. Kliknij słowo, aby je zapisać lub zmienić jego status.",

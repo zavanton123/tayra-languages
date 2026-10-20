@@ -85,6 +85,7 @@ internal val ruFrequency: Map<String, String> = mapOf(
     "choose one" to "выберите его",
     "Saving the level…" to "Сохранение уровня…",
     "Ranks {0}–{1}" to "Ранги {0}–{1}",
+    "Jump to rank" to "Перейти к рангу",
     "Your level" to "Ваш уровень",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Tap a word to save it or change its status." to "{0} самых частых слов ({1}) группами по 100, внутри группы по алфавиту. Нажмите на слово, чтобы сохранить его или изменить статус.",
     "The {0} most common {1} words in bands of 100, A–Z within each band. Click a word to save it or change its status." to "{0} самых частых слов ({1}) группами по 100, внутри группы по алфавиту. Щёлкните по слову, чтобы сохранить его или изменить статус.",
