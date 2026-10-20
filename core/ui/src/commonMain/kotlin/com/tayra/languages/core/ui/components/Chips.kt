@@ -198,7 +198,9 @@ fun SelectableChip(
     ) {
         when {
             leading == ChipLeading.Dot -> StatusDot(tint)
-            (leading == ChipLeading.Check || leading == ChipLeading.Toggle) && selected -> Icon(Icons.Default.Check, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconSmall))
+            leading == ChipLeading.Check && selected -> Icon(Icons.Default.Check, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconSmall))
+            // A toggle's tint is a pale status wash, too faint for its tick, which takes the text's colour.
+            leading == ChipLeading.Toggle && selected -> Icon(Icons.Default.Check, contentDescription = null, tint = colors.onSurface, modifier = Modifier.size(AppSizes.iconSmall))
             leading == ChipLeading.Toggle -> StatusDot(tint.copy(alpha = AppAlpha.disabled))
         }
         Text(
