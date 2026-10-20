@@ -144,8 +144,8 @@ def load_list(code):
 # As SegmentingParser has them: the numbers and demonstratives a measure word follows, and the measure words.
 COUNTING = "一二两三四五六七八九十百千万几这那哪每"
 MEASURES = "个個本只隻位次天名家件张張条條种種句双雙块塊杯碗岁歲点點辆輛台層层门門份节節场場篇首遍"
-# A number in characters, with a time or counting character the list joins to it (八点, 十年, 三岁, 第二).
-CHINESE_NUMBER = re.compile(r"第?[零〇一二三四五六七八九十百千万亿两]+[点半号岁年月日天个次]?")
+# A number in characters, with a time character or a measure word the list joins to it (八点, 十年, 一道, 第二).
+CHINESE_NUMBER = re.compile(r"第?[零〇一二三四五六七八九十百千万亿两]+[点半号岁年月日天周个次道本只位张条件名家种句双块杯碗辆台层门份节场篇首遍口群片封部棵支根套座间所头]?")
 CJK_RUN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+")
 
 
