@@ -27,6 +27,8 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.i18n.tr
@@ -60,12 +62,18 @@ fun ActivityHeatmapCard(
 ) {
     val empty = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
     var pointed by remember { mutableStateOf<LocalDate?>(null) }
+    val density = LocalDensity.current
+    val measurer = rememberTextMeasurer()
+    val weekdayStyle = MaterialTheme.typography.labelSmall
+    // As wide as the longest weekday name, so large text does not run the names into the squares.
+    val weekdayWidth = with(density) { WEEKDAY_NAMES.filterNotNull().maxOf { measurer.measure(tr(it), weekdayStyle).size.width }.toDp() }.coerceAtLeast(WEEKDAY_WIDTH)
     BoxWithConstraints(Modifier.fillMaxWidth()) {
-        val gap = AppSpacing.xs
+        // Whole pixels: a fraction rounded up in every square adds up, across a year of weeks, to cutting the last one.
+        val gap = with(density) { AppSpacing.xs.toPx().toInt().toDp() }
         // The card's padding takes 20 on each side, and the weekday names a column of their own.
-        val inner = maxWidth - 40.dp - WEEKDAY_WIDTH - gap
+        val inner = maxWidth - 40.dp - weekdayWidth - gap
         val weeks = ((inner + gap) / (MIN_CELL + gap)).toInt().coerceIn(MIN_WEEKS, MAX_WEEKS)
-        val cell: Dp = ((inner - gap * (weeks - 1)) / weeks).coerceAtMost(MAX_CELL)
+        val cell: Dp = with(density) { ((inner - gap * (weeks - 1)) / weeks).coerceAtMost(MAX_CELL).toPx().toInt().toDp() }
         val thisMonday = today.minus(today.dayOfWeek.ordinal, DateTimeUnit.DAY)
         val start = thisMonday.minus((weeks - 1) * 7, DateTimeUnit.DAY)
         val shown = levels(start)
@@ -79,7 +87,7 @@ fun ActivityHeatmapCard(
                     ?: if (week == 0 && (1..2).none { w -> (0 until 7).any { start.plus(w * 7 + it, DateTimeUnit.DAY).day == 1 } }) days.first().month.ordinal else null
             }
             Row(horizontalArrangement = Arrangement.spacedBy(gap)) {
-                Column(Modifier.width(WEEKDAY_WIDTH), verticalArrangement = Arrangement.spacedBy(gap)) {
+                Column(Modifier.width(weekdayWidth), verticalArrangement = Arrangement.spacedBy(gap)) {
                     Spacer(Modifier.height(MONTH_ROW_HEIGHT))
                     repeat(7) { weekday ->
                         Box(Modifier.height(cell), contentAlignment = Alignment.CenterStart) {
