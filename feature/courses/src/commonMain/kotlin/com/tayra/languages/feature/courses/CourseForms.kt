@@ -443,14 +443,14 @@ private fun FormActions(saveLabel: String, saving: Boolean, onCancel: () -> Unit
         Column {
             AppDivider()
             Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
-                Row(
-                    Modifier.widthIn(max = AppSizes.pageWidth).fillMaxWidth().padding(horizontal = if (LocalWindowWidth.current.isCompact) AppSpacing.l else AppSpacing.giant, vertical = AppSpacing.m),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    SecondaryButton(onClick = onCancel) { Text(tr("Cancel"), Modifier.padding(horizontal = AppSpacing.m)) }
-                    Spacer(Modifier.weight(1f))
-                    PrimaryButton(onClick = onSave, enabled = !saving, modifier = Modifier.testTag("form-save")) {
-                        Text(saveLabel, Modifier.padding(horizontal = AppSpacing.m))
+                Box(Modifier.widthIn(max = AppSizes.pageWidth).fillMaxWidth().padding(horizontal = if (LocalWindowWidth.current.isCompact) AppSpacing.l else AppSpacing.giant, vertical = AppSpacing.m)) {
+                    // As wide as the form's cards above, so Save sits at their edge rather than the window's.
+                    Row(Modifier.widthIn(max = AppSizes.readableWidth).fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                        SecondaryButton(onClick = onCancel) { Text(tr("Cancel"), Modifier.padding(horizontal = AppSpacing.m)) }
+                        Spacer(Modifier.weight(1f))
+                        PrimaryButton(onClick = onSave, enabled = !saving, modifier = Modifier.testTag("form-save")) {
+                            Text(saveLabel, Modifier.padding(horizontal = AppSpacing.m))
+                        }
                     }
                 }
             }
