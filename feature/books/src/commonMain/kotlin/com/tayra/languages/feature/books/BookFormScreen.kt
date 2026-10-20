@@ -78,6 +78,7 @@ import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 import io.github.vinceglb.filekit.PlatformFile
 import io.github.vinceglb.filekit.dialogs.FileKitMode
 import io.github.vinceglb.filekit.dialogs.FileKitType
@@ -425,7 +426,8 @@ private fun PageSetupCard(state: BookFormUiState, viewModel: BookFormViewModel) 
 
 @Composable
 private fun FieldLabel(text: String) {
-    Text(text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.padding(bottom = AppSpacing.s))
+    // As LabeledField draws it, so the book, course and lesson forms label their fields alike.
+    Text(text, style = AppText.label, modifier = Modifier.padding(bottom = AppSpacing.s))
 }
 
 /** Cancel and save, kept in view at the bottom of the window. */

@@ -138,7 +138,7 @@ fun CourseFormScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     CollectEvents(viewModel.events) { onSaved(it) }
     Scaffold(
-        topBar = { AppTopBar(title = if (courseId == null) tr("New course") else tr("Edit course"), onNavigate = onNavigate, section = NavSection.COURSES) },
+        topBar = { AppTopBar(title = if (courseId == null) tr("New course") else tr("Edit course"), onNavigate = onNavigate, section = NavSection.COURSES, onBack = onCancel) },
         bottomBar = { if (!state.loading) FormActions(if (state.isNew) tr("Create course") else tr("Save changes"), state.saving, onCancel, viewModel::save) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
@@ -157,7 +157,8 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
         if (state.isNew) tr("A course of your own {0} texts, read lesson by lesson.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)) else tr("Change what the course is called and what it is about."),
     )
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
-    ContentCard(tr("About the course"), tr("Shown on the course's card and page."), icon = AppIcons.MenuBook) {
+    // A form reads as a card, not a band across a wide window.
+    ContentCard(tr("About the course"), tr("Shown on the course's card and page."), icon = AppIcons.MenuBook, modifier = Modifier.widthIn(max = AppSizes.readableWidth)) {
         LabeledField(tr("Title"), Modifier.padding(bottom = AppSpacing.l)) {
             AppTextField(
                 value = state.draft.title,
@@ -299,7 +300,7 @@ fun LessonFormScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     CollectEvents(viewModel.events) { onDone() }
     Scaffold(
-        topBar = { AppTopBar(title = if (lessonId == null) tr("New lesson") else tr("Edit lesson"), onNavigate = onNavigate, section = NavSection.COURSES) },
+        topBar = { AppTopBar(title = if (lessonId == null) tr("New lesson") else tr("Edit lesson"), onNavigate = onNavigate, section = NavSection.COURSES, onBack = onDone) },
         bottomBar = { if (!state.loading) FormActions(if (state.isNew) tr("Add lesson") else tr("Save changes"), state.saving, onDone, viewModel::save) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
@@ -322,7 +323,7 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
         },
     )
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
-    ContentCard(tr("Lesson"), tr("The title and summary are shown in the course's list of lessons."), icon = AppIcons.Page) {
+    ContentCard(tr("Lesson"), tr("The title and summary are shown in the course's list of lessons."), icon = AppIcons.Page, modifier = Modifier.widthIn(max = AppSizes.readableWidth)) {
         LabeledField(tr("Title"), Modifier.padding(bottom = AppSpacing.l)) {
             AppTextField(
                 value = state.draft.title,
