@@ -923,7 +923,7 @@ private fun LessonRow(
             if (lesson.summary.isNotBlank()) Text(lesson.summary.inLearnedScript(), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             if (lesson.newWords.isNotEmpty()) {
                 Text(
-                    tr("New words: {0}", lesson.newWords.joinToString(", ")),
+                    tr("New words: {0}", lesson.newWords.joinToString(", ").inLearnedScript()),
                     style = MaterialTheme.typography.bodyMedium,
                     color = colors.onSurfaceVariant,
                     maxLines = 2,
