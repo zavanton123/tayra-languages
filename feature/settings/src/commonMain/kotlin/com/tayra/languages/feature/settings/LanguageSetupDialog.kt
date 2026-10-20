@@ -243,7 +243,7 @@ internal fun PhoneSetupSheet(
                     // What is chosen, and the way out, stacked at the start; the download button takes the rest.
                     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                         Text(
-                            listOfNotNull(tr("{0} selected", chosen.size), totalSize(chosen)).joinToString(" · "),
+                            listOfNotNull(trPlural(chosen.size, "{0} download selected", "{0} downloads selected"), totalSize(chosen)).joinToString(" · "),
                             style = MaterialTheme.typography.bodyMedium,
                             color = colors.onSurfaceVariant,
                         )

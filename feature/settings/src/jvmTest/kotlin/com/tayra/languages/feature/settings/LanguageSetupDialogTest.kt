@@ -112,13 +112,13 @@ class LanguageSetupDialogTest {
             }
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Get ready to learn Greek").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("3 selected · 270.5 MB").assertExists()
+        onNodeWithText("3 downloads selected · 270.5 MB").assertExists()
         onNodeWithText("Greek voice · Piper").assertExists()
         onNodeWithText("Chreece · low · Greece").assertExists()
         onNodeWithText("Piper engine · about 86.0 MB").assertDoesNotExist()
         System.getenv("SETUP_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
         onNodeWithTag("setup-voice:PIPER:el_GR-rapunzelina-medium").performClick()
-        onNodeWithText("4 selected · about 420.0 MB").assertExists()
+        onNodeWithText("4 downloads selected · about 420.0 MB").assertExists()
         onNodeWithText("Download selected").performClick()
         assertEquals(1, started)
         onNodeWithText("Downloads go on in the background if you close this.").assertExists()
