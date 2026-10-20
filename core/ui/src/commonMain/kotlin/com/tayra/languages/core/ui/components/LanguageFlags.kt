@@ -1,11 +1,5 @@
 package com.tayra.languages.core.ui.components
 
-import com.tayra.languages.core.ui.theme.AppText
-import com.tayra.languages.core.ui.theme.AppAlpha
-import com.tayra.languages.core.ui.theme.AppAccents
-import androidx.compose.ui.platform.LocalDensity
-import androidx.compose.material3.Text
-import androidx.compose.foundation.background
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
@@ -193,16 +187,9 @@ private val flags: Map<String, List<DrawableResource>> by lazy {
 /** The language's flag at [height] (4:3), two flags split along the diagonal, or its letter badge when it has no flag. */
 @Composable
 fun LanguageFlag(languageName: String, height: Dp, modifier: Modifier = Modifier) {
-    val found = LanguageCodes.codeFor(languageName)?.let { flags[it] }
+    // Chinese offered in each script has China's flag either way.
+    val found = (if (languageName in chineseScripts) "zh" else LanguageCodes.codeFor(languageName))?.let { flags[it] }
     val width = height * 4 / 3
-    // Chinese offered in each script is marked by the script, 简 or 繁, not by a flag.
-    scriptMarks[languageName]?.let { (mark, tint) ->
-        val textSize = with(LocalDensity.current) { (height * 0.72f).toSp() }
-        Box(modifier.size(width = width, height = height).clip(AppShapes.tiny).background(tint.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
-            Text(mark, color = AppAccents.onWash(tint), style = AppText.badge.copy(fontSize = textSize, lineHeight = textSize))
-        }
-        return
-    }
     if (found == null) {
         // As wide as a flag, so names beside it line up with the others.
         Box(modifier.size(width = width, height = height), contentAlignment = Alignment.Center) { LanguageCodeBadge(languageName, height) }
@@ -222,7 +209,7 @@ fun LanguageFlag(languageName: String, height: Dp, modifier: Modifier = Modifier
     }
 }
 
-private val scriptMarks = mapOf("Chinese (Simplified)" to ("简" to AppAccents.red), "Chinese (Traditional)" to ("繁" to AppAccents.blue))
+private val chineseScripts = setOf("Chinese (Simplified)", "Chinese (Traditional)")
 
 /** The half below the diagonal from the top-right corner to the bottom-left one. */
 private val LowerRightTriangle = GenericShape { size, _ ->
