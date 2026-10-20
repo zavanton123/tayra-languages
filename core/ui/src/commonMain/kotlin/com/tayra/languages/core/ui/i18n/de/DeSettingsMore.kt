@@ -310,6 +310,7 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "You are learning it" to "Du lernst sie",
     "Get ready to learn {0}" to "Mach dich bereit, {0} zu lernen",
     "Everything available for {0} is already on this device." to "Alles, was es für {0} gibt, ist bereits auf diesem Gerät.",
+    "No ready-made courses yet. Read Wikipedia articles under News, find free books, or add a text of your own." to "Noch keine fertigen Kurse. Lies Wikipedia-Artikel unter „Nachrichten“, suche kostenlose Bücher oder füge einen eigenen Text hinzu.",
     "Not available" to "Nicht verfügbar",
     "Not available for {0} yet" to "Für {0} noch nicht verfügbar",
     "Choose what to download now. You can change this later in Settings." to "Wähle, was du jetzt herunterladen möchtest. Du kannst das später in den Einstellungen ändern.",

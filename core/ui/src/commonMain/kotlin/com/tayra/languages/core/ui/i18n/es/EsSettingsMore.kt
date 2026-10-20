@@ -310,6 +310,7 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "You are learning it" to "Lo estás aprendiendo",
     "Get ready to learn {0}" to "Prepárate para aprender {0}",
     "Everything available for {0} is already on this device." to "{0}: todo lo disponible ya está en este dispositivo.",
+    "No ready-made courses yet. Read Wikipedia articles under News, find free books, or add a text of your own." to "Aún no hay cursos listos. Lee artículos de Wikipedia en Noticias, busca libros gratuitos o añade un texto propio.",
     "Not available" to "No disponible",
     "Not available for {0} yet" to "{0}: aún no disponible",
     "Choose what to download now. You can change this later in Settings." to "Elige qué descargar ahora. Puedes cambiarlo después en Ajustes.",

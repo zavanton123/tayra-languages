@@ -310,6 +310,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "You are learning it" to "Вы его изучаете",
     "Get ready to learn {0}" to "Начинаем учить {0}",
     "Everything available for {0} is already on this device." to "Всё, что есть для языка «{0}», уже на этом устройстве.",
+    "No ready-made courses yet. Read Wikipedia articles under News, find free books, or add a text of your own." to "Готовых курсов пока нет. Читайте статьи Википедии в разделе «Новости», ищите бесплатные книги или добавьте свой текст.",
     "Not available" to "Недоступно",
     "Not available for {0} yet" to "Для языка «{0}» пока нет",
     "Choose what to download now. You can change this later in Settings." to "Выберите, что скачать сейчас. Изменить это можно позже в настройках.",

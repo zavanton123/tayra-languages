@@ -310,6 +310,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "You are learning it" to "Você está estudando este idioma",
     "Get ready to learn {0}" to "Prepare-se para aprender {0}",
     "Everything available for {0} is already on this device." to "{0}: tudo o que está disponível já está neste dispositivo.",
+    "No ready-made courses yet. Read Wikipedia articles under News, find free books, or add a text of your own." to "Ainda não há cursos prontos. Leia artigos da Wikipédia em Notícias, encontre livros gratuitos ou adicione um texto seu.",
     "Not available" to "Indisponível",
     "Not available for {0} yet" to "{0}: ainda indisponível",
     "Choose what to download now. You can change this later in Settings." to "Escolha o que baixar agora. Você pode mudar isso depois nas Configurações.",

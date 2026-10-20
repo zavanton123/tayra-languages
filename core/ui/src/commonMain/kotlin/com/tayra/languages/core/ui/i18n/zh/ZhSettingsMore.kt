@@ -310,6 +310,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "You are learning it" to "你正在学习",
     "Get ready to learn {0}" to "准备学习{0}",
     "Everything available for {0} is already on this device." to "{0}的所有可用内容都已在本设备上。",
+    "No ready-made courses yet. Read Wikipedia articles under News, find free books, or add a text of your own." to "还没有现成的课程。可以在“新闻”中阅读维基百科文章、查找免费书籍，或添加你自己的文本。",
     "Not available" to "不可用",
     "Not available for {0} yet" to "{0}暂不可用",
     "Choose what to download now. You can change this later in Settings." to "选择现在要下载的内容。之后可在设置中更改。",

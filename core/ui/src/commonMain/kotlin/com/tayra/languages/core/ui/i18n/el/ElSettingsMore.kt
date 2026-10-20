@@ -310,6 +310,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "You are learning it" to "Τη μαθαίνετε",
     "Get ready to learn {0}" to "Ετοιμαστείτε να μάθετε {0}",
     "Everything available for {0} is already on this device." to "Όλα όσα υπάρχουν για τη γλώσσα «{0}» βρίσκονται ήδη σε αυτή τη συσκευή.",
+    "No ready-made courses yet. Read Wikipedia articles under News, find free books, or add a text of your own." to "Δεν υπάρχουν ακόμη έτοιμα μαθήματα. Διαβάστε άρθρα της Βικιπαίδειας στα Νέα, βρείτε δωρεάν βιβλία ή προσθέστε δικό σας κείμενο.",
     "Not available" to "Μη διαθέσιμο",
     "Not available for {0} yet" to "Δεν είναι ακόμη διαθέσιμο για τη γλώσσα «{0}»",
     "Choose what to download now. You can change this later in Settings." to "Επιλέξτε τι θα κατεβάσετε τώρα. Μπορείτε να το αλλάξετε αργότερα στις Ρυθμίσεις.",

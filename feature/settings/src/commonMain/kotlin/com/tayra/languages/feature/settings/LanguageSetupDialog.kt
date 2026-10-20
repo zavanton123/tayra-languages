@@ -6,6 +6,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -226,6 +227,8 @@ internal fun PhoneSetupSheet(
                         SetupCard(item, checked = item.id in state.selected, started = state.started, progress = progress[item.id], onToggle = { onToggle(item.id) }, compact = true)
                     }
                 }
+                // Without courses a new learner needs another way in: the texts the app can find, or one of their own.
+                if (items.any { it.kind == SetupKind.COURSES && it.status == SetupStatus.UNAVAILABLE }) InfoBanner(tr("No ready-made courses yet. Read Wikipedia articles under News, find free books, or add a text of your own."))
             }
             Spacer(Modifier.height(AppSpacing.m))
         }
@@ -331,6 +334,8 @@ fun LanguageSetupContent(
                     SetupCard(item, checked = item.id in state.selected, started = state.started, progress = progress[item.id], onToggle = { onToggle(item.id) })
                 }
             }
+            // Without courses a new learner needs another way in: the texts the app can find, or one of their own.
+            if (items.any { it.kind == SetupKind.COURSES && it.status == SetupStatus.UNAVAILABLE }) InfoBanner(tr("No ready-made courses yet. Read Wikipedia articles under News, find free books, or add a text of your own."))
         }
         Spacer(Modifier.height(AppSpacing.xl))
         val chosen = items.filter { it.id in state.selected }
