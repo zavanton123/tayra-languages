@@ -382,7 +382,6 @@ private const val INSTALLED_PREVIEW = 8
 private val INSTALLED_ROW_HEIGHT = 52.dp
 private val INSTALLED_SEARCH_MIN_WIDTH = 280.dp
 private val INSTALLED_SIZE_COLUMN = 100.dp
-private val INSTALLED_STATUS_COLUMN = 110.dp
 private val CATALOGUE_MAX_HEIGHT = 520.dp
 private val TEST_LOOKUP_MIN_WIDTH = 420.dp
 private val LOOKUP_RESULT_MAX_HEIGHT = 320.dp
@@ -463,9 +462,7 @@ internal fun InstalledRow(status: PackStatus, onRemove: () -> Unit) {
         if (state is PackState.Downloading) {
             Text(tr("Downloading…"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(end = AppSpacing.m))
         } else {
-            StatusDot(StatusTints.ok, size = AppSizes.dot)
-            Spacer(Modifier.width(AppSpacing.s))
-            Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok, modifier = if (compact) Modifier else Modifier.width(INSTALLED_STATUS_COLUMN))
+            // The list is headed Installed; its rows need not say so each.
             OverflowMenu(tr("More for {0}", status.pack.displayTitle)) { close ->
                 AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })
             }
