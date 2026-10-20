@@ -13,6 +13,7 @@ Usage: python3 tools/check_course.py tools/courses/pt/pt-mini-0100.json [--brief
 Exit status 0 when every lesson passes.
 """
 import json
+import math
 import os
 import re
 import sys
@@ -140,27 +141,42 @@ def load_list(code):
     return ranks, words
 
 
+CHINESE_NUMBER = re.compile(r"[零〇一二三四五六七八九十百千万亿两]+")
 CJK_RUN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+")
 
 
 def chinese_tokens(text, ranks):
     """
-    Chinese words as the app's reader cuts them (SegmentingParser): each run of characters into the
-    longest words its lexicon, the frequency list's words and forms, knows, from the left; a character
-    no word covers is a word of its own. Letters outside the characters are words as usual.
+    Chinese words as the app's reader cuts them (SegmentingParser): each run of characters into its
+    likeliest words, those of the frequency list; a character no word covers is a word of its own.
+    Letters outside the characters are words as usual.
     """
-    longest = max((len(w) for w in ranks), default=1)
+    longest = min(16, max((len(w) for w in ranks), default=1))
     out = []
     for match in re.finditer(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+|[^\W\d_]+", text):
         run = match.group(0)
         if not CJK_RUN.fullmatch(run):
             out.append(run)
             continue
-        i = 0
-        while i < len(run):
-            end = next((j for j in range(min(len(run), i + longest), i, -1) if fold("zh", run[i:j]) in ranks), i + 1)
-            out.append(run[i:end])
-            i = end
+        # The likeliest cut, as SegmentingParser.likeliest makes it: each word costs the log of its rank plus 4,
+        # a character no word covers is a word of its own at rank 100,000.
+        best = [0.0] + [math.inf] * len(run)
+        start = [0] * (len(run) + 1)
+        for end in range(1, len(run) + 1):
+            for i in range(max(0, end - longest), end):
+                rank = ranks.get(fold("zh", run[i:end]))
+                if rank is None:
+                    if end - i > 1:
+                        continue
+                    rank = 100_000
+                cost = best[i] + math.log(rank) + 4.0
+                if cost < best[end]:
+                    best[end], start[end] = cost, i
+        words, end = [], len(run)
+        while end > 0:
+            words.append(run[start[end]:end])
+            end = start[end]
+        out.extend(reversed(words))
     return out
 
 
@@ -558,6 +574,10 @@ def check(path, brief=False):
             if t in names_here:
                 known += 1
                 continue
+            # A Chinese number written in characters (三, 二十五, 两) is a number, as digits are.
+            if code == "zh" and CHINESE_NUMBER.fullmatch(t):
+                known += 1
+                continue
             rank = ranks.get(t)
             if rank is not None and rank <= up_to:
                 known += 1
@@ -572,6 +592,11 @@ def check(path, brief=False):
         for new in lesson.get("newWords", []):
             key = fold(code, new.lower())
             entry = words.get(key)
+            # A Chinese word may be written in a simplified spelling the list keeps as a form (着 of 著).
+            if entry is None and code == "zh":
+                heads = [w for w, (r, _, forms) in words.items() if key in forms and band_start <= r <= up_to]
+                if len(heads) == 1:
+                    key, entry = heads[0], words[heads[0]]
             if entry is None:
                 problems.append(f"new word '{new}' is not in the list")
                 continue

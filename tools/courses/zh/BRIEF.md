@@ -132,14 +132,15 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
   simplified characters only: the app shows them in traditional characters to a reader who chose
   those.
 - **How the reader cuts words**: Chinese has no spaces, so the app cuts each run of characters into
-  the longest words of the list, from the left, and a character no word covers is a word of its own.
-  The checker cuts the text the same way, and every count (coverage, length, new words) is of those
-  words. So two words next to each other may be read as one longer word the list has: 在 + 家 is
-  read as 在家, 我 + 家 may be read as one word, 吃 + 饭 as 吃饭. That is fine where the longer word
-  is right, but a new word must stand as a word of its own at least twice: if the checker counts a
-  new word fewer times than you wrote it, it was swallowed by a longer word; rewrite those places
-  (*他回到家* instead of *他在家*) or use the word where it stands alone. The checker's "outside"
-  line shows every word as it was cut.
+  its likeliest words: the cut whose words are the most common in the list (不知道 is 不 + 知道,
+  他从中国来 is 他 + 从 + 中国 + 来), and a character no word covers is a word of its own. The checker
+  cuts the text the same way, and every count (coverage, length, new words) is of those words. Two
+  words next to each other are still read as one where the list has a common word for them: 吃 + 饭
+  is read as 吃饭, 你 + 好 as 你好, 很 + 多 as 很多, 三 + 个人 rather than 三个 + 人. That is fine
+  where the longer word is right, but a new word must stand as a word of its own at least twice: if
+  the checker counts a new word fewer times than you wrote it, a longer word swallowed it; rewrite
+  those places or use the word where it stands alone. The checker's "outside" line shows every word
+  as it was cut.
 - The list comes from web text, so some everyday words rank later than you might expect (家 is 247,
   你好 2282, 吃饭 later than 吃). Check a word's rank in `wordlist.tsv` or the band files rather
   than guess it.
@@ -157,7 +158,9 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
 - `names`: people (王小明, 李华, 安娜), places, shops and brands, written exactly as in the text.
   A name listed whole is matched whole wherever it is written, so never list a name that contains a
   band word you teach, and never teach a band word only through a name.
-- Write numbers as Chinese words where Chinese prose writes them (一个人, 三本书, 第一次, 十二点)
-  and as digits for prices, years, long numbers and dates (2024年5月3日, 35块钱); a number word
-  that is in your band is spelled out to teach it.
+- Write numbers as Chinese words where Chinese prose writes them (一个人, 三本书, 两天, 十二点)
+  and as digits for prices, years, long numbers and dates (2024年5月3日, 35块钱). A number in
+  characters (三, 两, 二十五) counts as known, as digits do, but a number word in your band can
+  still be taught. Write months and dates with digits (5月, 3日): 五月 and the like are list words
+  of their own and would hide 月.
 - Keep only true names in `names`, never common words.
