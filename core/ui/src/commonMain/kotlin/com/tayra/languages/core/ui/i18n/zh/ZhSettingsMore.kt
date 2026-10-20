@@ -241,7 +241,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     // AboutScreen.kt
     "About" to "关于",
     "Learn languages by reading. Import texts, select words to look them up and track what you know." to "通过阅读学习语言。导入文本，选择单词查询释义，并跟踪你已掌握的内容。",
-    "A reader for learning languages through texts, running on Android, iOS, desktop and the web with a shared Compose UI." to "一款通过文本学习语言的阅读器，基于共享的 Compose 界面，可在 Android、iOS、桌面和网页上运行。",
+    "A reader for learning languages through texts, on Android, iOS, desktop and the web." to "一款通过阅读文本学习语言的阅读器，支持 Android、iOS、桌面和网页。",
     "Credits" to "致谢",
     "Offline dictionaries are built from Wiktionary, through kaikki.org and wiktionary-to-yomitan, licensed CC BY-SA 4.0. Japanese ones add JMdict, the names pack is JMnedict, and kanji come from KANJIDIC2, all by the Electronic Dictionary Research and Development Group (EDRDG), licensed CC BY-SA 4.0. Chinese-English adds CC-CEDICT by MDBG, licensed CC BY-SA 4.0. The Toki Pona dictionaries come from lipu Linku, licensed CC BY-SA 4.0." to "离线词典基于 Wiktionary，经由 kaikki.org 和 wiktionary-to-yomitan 构建，采用 CC BY-SA 4.0 许可。日语词典补充了 JMdict，人名词典包为 JMnedict，汉字信息来自 KANJIDIC2，均由 Electronic Dictionary Research and Development Group（EDRDG）提供，采用 CC BY-SA 4.0 许可。汉英词典补充了 MDBG 的 CC-CEDICT，采用 CC BY-SA 4.0 许可。道本语词典来自 lipu Linku，采用 CC BY-SA 4.0 许可。",
     "The pitch accent notation was provided by Uros O. through his free database Kanjium, licensed CC BY-SA 4.0." to "音调重音标注由 Uros O. 通过其免费数据库 Kanjium 提供，采用 CC BY-SA 4.0 许可。",
