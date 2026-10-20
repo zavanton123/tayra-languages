@@ -1,5 +1,13 @@
 package com.tayra.languages.feature.terms.form
 
+import androidx.compose.ui.text.style.TextAlign
+import com.tayra.languages.core.ui.components.FitText
+import com.tayra.languages.core.ui.components.chosenFor
+import com.tayra.languages.core.ui.components.shownAs
+import com.tayra.languages.core.ui.components.shownAbbreviation
+import com.tayra.languages.core.ui.components.shownName
+import com.tayra.languages.core.ui.components.shownStatuses
+import com.tayra.languages.core.ui.components.learningLevels
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
@@ -601,38 +609,43 @@ val LanguageDictionary.displayName: String
 fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false, large: Boolean = false) {
     val colors = TayraTheme.current.statusColors
     val wide = expanded || large
+    // Without the learning levels the row is the three statuses by name, and Ignore at its end.
+    val words = !learningLevels
     Column(if (wide) Modifier.fillMaxWidth() else Modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
         Row(if (wide) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (wide) AppSpacing.s else AppSpacing.xs)) {
-            TermStatus.paneButtons.forEach { status ->
-                val isSelected = status == selected
+            shownStatuses(TermStatus.paneButtons).forEach { status ->
+                val isSelected = status.shownAs(selected)
+                val chosen = status.chosenFor(selected)
+                // Ignore is the odd one out, for names and numbers: a narrow button, as with the levels shown.
+                val named = words && status != TermStatus.IGNORED
                 val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
                 // The ring moves to the chosen status by fading out on the old one and in on the new; the others fade back,
                 // so the chosen one stands out by more than its ring.
                 val ring by animateColorAsState(if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, AppMotion.spec(AppMotion.short))
                 val shown by animateFloatAsState(if (isSelected) 1f else AppAlpha.muted, AppMotion.spec(AppMotion.short))
-                val name = tr(status.label)
+                val name = status.shownName()
                 Box(
                     Modifier
-                        .then(if (expanded) Modifier.weight(1f).height(AppSizes.touch) else if (large) Modifier.weight(1f).height(LARGE_STATUS_BUTTON_HEIGHT) else Modifier)
+                        .then(if (expanded) Modifier.weight(if (named) NAMED_STATUS_WEIGHT else 1f).height(AppSizes.touch) else if (large) Modifier.weight(if (named) NAMED_STATUS_WEIGHT else 1f).height(LARGE_STATUS_BUTTON_HEIGHT) else Modifier)
                         .alpha(shown)
                         .clip(if (wide) AppShapes.compact else AppShapes.tiny)
                         .background(background)
                         .border(AppBorders.selected(ring), if (wide) AppShapes.compact else AppShapes.tiny)
-                        .clickable { onSelect(status) }
+                        .clickable { onSelect(chosen) }
                         .semantics { this.selected = isSelected; contentDescription = name }
                         .then(if (wide) Modifier else Modifier.padding(horizontal = AppSpacing.m, vertical = AppSpacing.s)),
                     contentAlignment = Alignment.Center,
                 ) {
-                    Text(
-                        text = status.abbreviation,
-                        color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink,
-                        style = if (wide) AppText.itemTitle else AppText.badge,
-                    )
+                    val ink = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink
+                    if (named) FitText(name, Modifier.padding(horizontal = AppSpacing.xs), style = (if (wide) AppText.itemTitle else AppText.badge).copy(textAlign = TextAlign.Center), color = ink)
+                    else Text(text = status.shownAbbreviation(), color = ink, style = if (wide) AppText.itemTitle else AppText.badge)
                 }
             }
         }
-        // The letters are short; the chosen status is named in full under them.
-        Text(tr(selected.label), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("status-name"))
+        // The letters are short; the chosen status is named in full under them. Named buttons need no caption.
+        if (!words || selected == TermStatus.IGNORED) {
+            Text(selected.shownName(), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("status-name"))
+        }
     }
 }
 
@@ -1001,6 +1014,8 @@ private fun ExamplesSection(
 private const val VISIBLE_EXAMPLES = 3
 private val LOADING_MIN_HEIGHT = 200.dp
 private val AUDIO_BUTTON = 32.dp
+/** A status named in full takes this much of the row against a lettered one's share. */
+private const val NAMED_STATUS_WEIGHT = 2.6f
 private val LARGE_STATUS_BUTTON_HEIGHT = 52.dp
 private val KANJI_READING_LABEL = 32.dp
 private val QUOTE_RULE_WIDTH = 2.dp
