@@ -230,7 +230,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "Import a dictionary" to "Importuj słownik",
     "Import · {0}" to "Importuj · {0}",
     "Yomitan, MDict or StarDict files" to "Pliki Yomitan, MDict lub StarDict",
-    "Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages." to "Dodaj własny słownik dla Yomitan (.zip), MDict (.mdx) lub StarDict (jego pliki .ifo, .idx i .dict albo ich archiwum); jego hasła będą wyświetlane obok słownika offline dla tych języków.",
+    "Add a dictionary of your own; its entries show beside the offline dictionary of its languages." to "Dodaj własny słownik; jego hasła pojawią się obok słownika offline jego języków.",
     "Importing {0}..." to "Importowanie: {0}…",
     "Reading the dictionary..." to "Wczytywanie słownika…",
     "{0} was imported." to "Zaimportowano słownik {0}.",

@@ -230,7 +230,7 @@ internal val elTerms: Map<String, String> = mapOf(
     "Import a dictionary" to "Εισαγωγή λεξικού",
     "Import · {0}" to "Εισαγωγή · {0}",
     "Yomitan, MDict or StarDict files" to "Αρχεία Yomitan, MDict ή StarDict",
-    "Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages." to "Προσθέστε δικό σας λεξικό για Yomitan (.zip), MDict (.mdx) ή StarDict (τα αρχεία του .ifo, .idx και .dict ή ένα αρχείο συμπίεσής τους)· τα λήμματά του εμφανίζονται δίπλα στο λεξικό εκτός σύνδεσης των γλωσσών του.",
+    "Add a dictionary of your own; its entries show beside the offline dictionary of its languages." to "Προσθέστε δικό σας λεξικό· τα λήμματά του εμφανίζονται δίπλα στο λεξικό εκτός σύνδεσης των γλωσσών του.",
     "Importing {0}..." to "Εισαγωγή: {0}…",
     "Reading the dictionary..." to "Ανάγνωση του λεξικού…",
     "{0} was imported." to "Το λεξικό {0} εισήχθη.",

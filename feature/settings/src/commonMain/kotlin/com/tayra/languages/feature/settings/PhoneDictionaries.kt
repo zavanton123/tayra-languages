@@ -87,8 +87,6 @@ internal fun PhoneDictionariesScreen(
                 pill()
             }
             PhoneLookupCard(learning, nativeName, current, onDownload = { viewModel.download(it) }, onTest = onTest)
-            if (viewModel.canImport) ImportDictionaryCard(viewModel, learning, native)
-            TextRecognitionCard(viewModel)
             // A search belongs to the list it was typed into.
             SegmentedToggle(
                 listOf(
@@ -141,6 +139,9 @@ internal fun PhoneDictionariesScreen(
                     }
                 }
             }
+            // Bringing a dictionary of one's own, and reading text in photos, come after the dictionaries themselves.
+            if (viewModel.canImport) ImportDictionaryCard(viewModel, learning, native)
+            TextRecognitionCard(viewModel)
         }
     }
 }

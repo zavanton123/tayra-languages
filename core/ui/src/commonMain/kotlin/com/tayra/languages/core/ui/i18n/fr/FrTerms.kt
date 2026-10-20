@@ -230,7 +230,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Import a dictionary" to "Importer un dictionnaire",
     "Import · {0}" to "Importer · {0}",
     "Yomitan, MDict or StarDict files" to "Fichiers Yomitan, MDict ou StarDict",
-    "Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages." to "Ajoutez votre propre dictionnaire, conçu pour Yomitan (.zip), MDict (.mdx) ou StarDict (ses fichiers .ifo, .idx et .dict, ou une archive de ceux-ci) ; ses articles s’affichent à côté du dictionnaire hors ligne de ses langues.",
+    "Add a dictionary of your own; its entries show beside the offline dictionary of its languages." to "Ajoutez votre propre dictionnaire ; ses entrées s’affichent à côté du dictionnaire hors ligne de ses langues.",
     "Importing {0}..." to "Import de {0}…",
     "Reading the dictionary..." to "Lecture du dictionnaire…",
     "{0} was imported." to "{0} a été importé.",

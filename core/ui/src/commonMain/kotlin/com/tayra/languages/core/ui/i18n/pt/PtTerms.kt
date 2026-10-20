@@ -230,7 +230,7 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Import a dictionary" to "Importar um dicionário",
     "Import · {0}" to "Importar · {0}",
     "Yomitan, MDict or StarDict files" to "Arquivos do Yomitan, MDict ou StarDict",
-    "Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages." to "Adicione um dicionário seu, feito para Yomitan (.zip), MDict (.mdx) ou StarDict (os arquivos .ifo, .idx e .dict, ou um arquivo compactado com eles); os verbetes aparecem ao lado do dicionário offline dos seus idiomas.",
+    "Add a dictionary of your own; its entries show beside the offline dictionary of its languages." to "Adicione um dicionário seu; as entradas dele aparecem ao lado do dicionário offline dos seus idiomas.",
     "Importing {0}..." to "Importando {0}…",
     "Reading the dictionary..." to "Lendo o dicionário…",
     "{0} was imported." to "O dicionário {0} foi importado.",

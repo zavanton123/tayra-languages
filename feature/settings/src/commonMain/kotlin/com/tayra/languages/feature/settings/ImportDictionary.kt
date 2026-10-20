@@ -53,7 +53,7 @@ internal fun ImportDictionaryCard(viewModel: DictionariesViewModel, learning: La
         icon = AppIcons.Download,
     ) {
         Text(
-            tr("Add a dictionary of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo, .idx and .dict files, or an archive of them); its entries show beside the offline dictionary of its languages."),
+            tr("Add a dictionary of your own; its entries show beside the offline dictionary of its languages."),
             Modifier.padding(bottom = AppSpacing.m),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
