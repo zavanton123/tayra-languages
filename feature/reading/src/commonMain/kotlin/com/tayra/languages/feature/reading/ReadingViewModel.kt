@@ -306,6 +306,9 @@ class ReadingViewModel(
     /** The terms the last "mark the rest known" set, for its Undo. */
     private var lastMarkedKnown: List<Long> = emptyList()
 
+    /** Whether there is a "mark the rest known" to undo. */
+    val canUndoMarkKnown: Boolean get() = lastMarkedKnown.isNotEmpty()
+
     /** Puts the words the last "mark the rest known" set back to unknown, and shows the page again with them. */
     fun undoMarkKnown() {
         val ids = lastMarkedKnown.takeIf { it.isNotEmpty() } ?: return
