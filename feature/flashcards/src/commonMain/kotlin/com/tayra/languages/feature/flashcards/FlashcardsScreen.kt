@@ -76,7 +76,6 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.Rating
 import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.domain.settings.Hotkey
@@ -427,7 +426,8 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Row(Modifier.fillMaxWidth().heightIn(min = AppSizes.tileLarge), verticalAlignment = Alignment.CenterVertically) {
-            StateLabel(card.state)
+            // No state tag: the counters above say how many cards are new, learning and due, and a tag named
+            // Learning would read as the word's status.
             Spacer(Modifier.weight(1f))
             if (speaker != null) {
                 Box(
@@ -526,22 +526,6 @@ private val FINISHED_ICON_TILE = 64.dp
  * pressed, Previous card once disabled) would otherwise leave nothing to take the keys.
  */
 private val NoFocus = Modifier.focusProperties { canFocus = false }
-
-@Composable
-private fun StateLabel(state: CardState) {
-    val (label, tint) = when (state) {
-        CardState.NEW -> tr("NEW") to AppAccents.blue
-        CardState.LEARNING -> tr("LEARNING") to AppAccents.orange
-        CardState.RELEARNING -> tr("RELEARNING") to AppAccents.orange
-        CardState.REVIEW -> tr("REVIEW") to AppAccents.green
-    }
-    Text(
-        label,
-        Modifier.clip(AppShapes.compact).background(tint.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(tint.copy(alpha = AppAlpha.line)), AppShapes.compact)
-            .padding(horizontal = AppSpacing.m, vertical = AppSpacing.xs),
-        style = AppText.overline.copy(color = AppAccents.onWash(tint)),
-    )
-}
 
 /** The answers: all four, or Again and Good only. */
 @Composable

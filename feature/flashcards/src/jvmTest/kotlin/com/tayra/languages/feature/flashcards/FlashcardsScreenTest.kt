@@ -115,6 +115,11 @@ class FlashcardsScreenTest {
         System.getenv(env)?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
     }
 
+    /** Waits for the next card itself: the count changes as an answer is given, before the answered card has gone. */
+    private fun ComposeUiTest.waitForCard(count: String) = waitUntil(timeoutMillis = 5_000) {
+        onAllNodesWithText(count).fetchSemanticsNodes().isNotEmpty() && onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isEmpty()
+    }
+
     private fun status() = runBlocking { terms.getById(termId)!!.status }
 
     @Test
@@ -142,7 +147,7 @@ class FlashcardsScreenTest {
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("answer-Good").performClick()
         // Ten minutes to wait and nothing else to show: the card comes straight back, as in Anki.
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("LEARNING").fetchSemanticsNodes().isNotEmpty() }
+        waitForCard("Card 2 of 2")
         assertEquals(TermStatus.NEW_1, status())
         // One answer given, one card still waiting.
         onNodeWithText("Card 2 of 2").assertExists()
@@ -159,12 +164,12 @@ class FlashcardsScreenTest {
         // Back one card: the second answer is taken back and that card shown again.
         onNodeWithText("Previous card").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("LEARNING").fetchSemanticsNodes().isNotEmpty() }
+        waitForCard("Card 2 of 2")
         assertEquals(TermStatus.NEW_1, status())
         onNodeWithText("Card 2 of 2").assertExists()
         // Back once more, with the shortcut (Ctrl+Z by default): the first answer goes too, and the card is new again.
         onNodeWithTag("flashcard").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Z) } }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("NEW").fetchSemanticsNodes().isNotEmpty() }
+        waitForCard("Card 1 of 1")
         onNodeWithText("Card 1 of 1").assertExists()
         // Nothing lies behind the first card.
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.DirectionLeft) }
@@ -178,12 +183,12 @@ class FlashcardsScreenTest {
         show(hotkeys = HotkeyAction.defaults + (HotkeyAction.FLASHCARDS_PREVIOUS to Hotkey("B")))
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("answer-Good").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("LEARNING").fetchSemanticsNodes().isNotEmpty() }
+        waitForCard("Card 2 of 2")
         onNodeWithTag("flashcard").performKeyInput { withKeyDown(Key.CtrlLeft) { pressKey(Key.Z) } }
         waitForIdle()
-        onNodeWithText("LEARNING").assertExists()
+        onNodeWithText("Card 2 of 2").assertExists()
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.B) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("NEW").fetchSemanticsNodes().isNotEmpty() }
+        waitForCard("Card 1 of 1")
     }
 
     /** The answer is read aloud when shown, and the reading stops as the card goes away. */
@@ -231,7 +236,7 @@ class FlashcardsScreenTest {
         waitForIdle()
         onNodeWithTag("flashcard-answer").assertExists()
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Three) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("LEARNING").fetchSemanticsNodes().isNotEmpty() }
+        waitForCard("Card 2 of 2")
     }
 
     /** Deleting the card on show deletes its word, and the next card, if any, comes up. */
