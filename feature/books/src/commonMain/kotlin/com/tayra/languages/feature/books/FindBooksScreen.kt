@@ -210,7 +210,8 @@ private fun BookAction(item: FoundBookItem, actions: FindBooksActions, modifier:
     when {
         item.libraryId != null -> SecondaryButton(tr("Read"), onClick = { actions.onRead(item) }, modifier = modifier.testTag("read-${item.book.id}"))
         else -> PrimaryButton(
-            if (item.adding) tr("Adding…") else tr("Add to library"),
+            // After a failed download the same button tries again, and says so.
+            when { item.adding -> tr("Adding…"); item.error != null -> tr("Try again"); else -> tr("Add to library") },
             onClick = { actions.onAdd(item) },
             modifier = modifier.testTag("add-${item.book.id}"),
             loading = item.adding,
