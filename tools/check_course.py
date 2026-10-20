@@ -145,7 +145,8 @@ def load_list(code):
 COUNTING = "一二两三四五六七八九十百千万几这那哪每"
 MEASURES = "个個本只隻位次天名家件张張条條种種句双雙块塊杯碗岁歲点點辆輛台層层门門份节節场場篇首遍"
 # A number in characters, with a time character or a measure word the list joins to it (八点, 十年, 一道, 第二).
-CHINESE_NUMBER = re.compile(r"第?[零〇一二三四五六七八九十百千万亿两]+[点半号岁年月日天周个次道本只位张条件名家种句双块杯碗辆台层门份节场篇首遍口群片封部棵支根套座间所头箱盒包瓶袋碗盘串排把顿笔扇]?")
+CHINESE_MEASURES = "点半号岁年月日天周个次道本只位张条件名家种句双块杯碗辆台层门份节场篇首遍口群片封部棵支根套座间所头箱盒包瓶袋盘串排把顿笔扇"
+CHINESE_NUMBER = re.compile(r"第?[零〇一二三四五六七八九十百千万亿两]+[" + CHINESE_MEASURES + "]?")
 CJK_RUN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+")
 
 
@@ -583,6 +584,7 @@ def check(path, brief=False):
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
+        after_number = False
         for t in lowered:
             # An English possessive ("emma's") counts as its word: the list has few of them.
             if t.endswith(("'s", "’s")) and t not in ranks and len(t) > 2:
@@ -590,10 +592,13 @@ def check(path, brief=False):
             if t in names_here:
                 known += 1
                 continue
-            # A Chinese number written in characters (三, 二十五, 两) is a number, as digits are.
-            if code == "zh" and CHINESE_NUMBER.fullmatch(t):
+            # A Chinese number written in characters (三, 二十五, 两) is a number, as digits are, and so is a
+            # measure word right after one (两 + 遍).
+            if code == "zh" and (CHINESE_NUMBER.fullmatch(t) or (len(t) == 1 and t in CHINESE_MEASURES and after_number)):
+                after_number = False
                 known += 1
                 continue
+            after_number = code == "zh" and bool(re.fullmatch(r"第?[零〇一二三四五六七八九十百千万亿两几]+", t))
             rank = ranks.get(t)
             if rank is not None and rank <= up_to:
                 known += 1
