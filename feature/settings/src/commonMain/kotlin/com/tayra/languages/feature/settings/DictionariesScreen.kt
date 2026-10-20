@@ -214,9 +214,15 @@ internal val DictionaryPack.displayTitle: String
         else -> "${tr(sourceName)} \u2192 ${tr(targetName)}"
     }
 
-/** Where an edition comes from, such as FreeDict; null for the Wiktionaries' packs and the others. */
+/**
+ * Where an edition comes from, such as FreeDict; a Wiktionary pack is named so only when another
+ * pack covers the same pair, so the two can be told apart.
+ */
 internal val DictionaryPack.editionLabel: String?
     get() = id.edition?.let(DictionaryPacks::editionName)
+        ?: WIKTIONARY.takeIf { id.imported == null && !id.glossary && DictionaryPacks.all.any { it != this && it.id.sourceLanguage == id.sourceLanguage && it.id.targetLanguage == id.targetLanguage } }
+
+private const val WIKTIONARY = "Wiktionary"
 
 internal fun DictionaryPack.matches(query: String): Boolean =
     query.isBlank() || title.contains(query.trim(), ignoreCase = true) || displayTitle.contains(query.trim(), ignoreCase = true)
@@ -265,11 +271,11 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
             CurrentLookupCard(learning, nativeName, current, onDownload = { viewModel.download(it) }, onTest = { testing = it })
             if (LocalWindowWidth.current.isExpanded) {
                 Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    InstalledCard(packs, nativeName, viewModel, Modifier.weight(1.6f).fillMaxHeight())
+                    InstalledCard(packs, nativeName, learning?.code, viewModel, Modifier.weight(1.6f).fillMaxHeight())
                     AvailableCard(packs, learning, native, viewModel, Modifier.weight(1f).fillMaxHeight())
                 }
             } else {
-                InstalledCard(packs, nativeName, viewModel)
+                InstalledCard(packs, nativeName, learning?.code, viewModel)
                 AvailableCard(packs, learning, native, viewModel)
             }
             if (viewModel.canImport) ImportDictionaryCard(viewModel, learning, native)
@@ -388,7 +394,7 @@ private val LOOKUP_RESULT_MAX_HEIGHT = 320.dp
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel: DictionariesViewModel, modifier: Modifier = Modifier) {
+private fun InstalledCard(packs: List<PackStatus>, nativeName: String, learningCode: String?, viewModel: DictionariesViewModel, modifier: Modifier = Modifier) {
     val compact = LocalWindowWidth.current.isCompact
     val installed = packs.filter { it.state is PackState.Installed || it.state is PackState.Downloading }
     // Meanings in the native language come first; other target languages are one click away.
@@ -397,8 +403,9 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
     val chosen = target?.takeIf { it in targets } ?: targets.firstOrNull()
     var query by remember { mutableStateOf("") }
     var showAll by remember { mutableStateOf(false) }
+    // The language being learned leads, as it does in the list of those to download beside it.
     val matching = installed.filter { it.pack.targetName == chosen && it.pack.matches(query) }
-        .sortedBy { it.pack.title }
+        .sortedWith(compareBy({ it.pack.id.sourceLanguage != learningCode }, { it.pack.title }))
     val shown = if (showAll || query.isNotBlank()) matching else matching.take(INSTALLED_PREVIEW)
 
     ContentCard(tr("Installed dictionaries"), tr("Manage downloaded dictionaries for offline lookup."), icon = AppIcons.Storage, modifier = modifier) {

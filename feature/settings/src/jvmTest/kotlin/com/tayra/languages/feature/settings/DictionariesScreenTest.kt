@@ -72,13 +72,13 @@ class DictionariesScreenTest {
         setContent { Hosted(settings) { DictionariesScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline lookup ready")).fetchSemanticsNodes().isNotEmpty() }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → French")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → French · Wiktionary")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it) }
 
-        // Nine Russian packs are installed; eight show until "View all".
-        assertTrue(onAllNodes(hasText("Portuguese → Russian")).fetchSemanticsNodes().isEmpty())
+        // Nine Russian packs are installed; eight show until "View all", the language being learned first.
+        onAllNodes(hasText("Portuguese → Russian")).onFirst().assertExists()
         onNodeWithText("View all 9 installed dictionaries").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Show fewer")).fetchSemanticsNodes().isNotEmpty() }
 
         // Downloading a pack for the language being learned moves it to the installed ones.
         onAllNodes(hasText("Download") and hasClickAction())[0].performScrollTo().performClick()
@@ -139,7 +139,7 @@ class DictionariesScreenTest {
         // Installed lists what is on the device, with removal from the row's menu.
         onNodeWithTag("phone-tab-INSTALLED").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed dictionaries")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithContentDescription("More for German → Russian").performScrollTo().performClick()
+        onNodeWithContentDescription("More for German → Russian · Wiktionary").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Remove").performClick()
         waitUntil(timeoutMillis = 5_000) { "de-ru" !in store.installed }
