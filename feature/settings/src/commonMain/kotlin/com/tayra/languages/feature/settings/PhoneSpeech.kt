@@ -195,7 +195,8 @@ private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEng
         },
         message = status?.let { tr(it) },
         tint = tint,
-        icon = if (working) Icons.Default.CheckCircle else Icons.Default.Warning,
+        // No tick while the language still has no voice: the box is amber, and says what is missing.
+        icon = if (working && !voiceMissing) Icons.Default.CheckCircle else Icons.Default.Warning,
         busy = busy,
         action = if (engine.hasRuntimeSetup && !ready && !busy) { { PrimaryButton(tr("Install"), onClick = viewModel::install) } } else null,
     ) {

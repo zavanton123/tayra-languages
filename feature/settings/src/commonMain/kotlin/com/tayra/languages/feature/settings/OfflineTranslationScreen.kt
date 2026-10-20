@@ -414,12 +414,13 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
         title = when {
             busy -> tr("Checking…")
             ready && pairReady -> tr("Installed and working")
-            ready -> tr("Installed; this pair needs its language packages")
+            ready -> tr("Installed. The language pair still needs a download.")
             else -> tr("Not installed")
         },
         message = status?.let { tr(it) } ?: if (!ready && viewModel.hasRuntimeSetup) tr("Install downloads a private Python into the app folder with argostranslate in it.") else null,
         tint = tint,
-        icon = if (ready) Icons.Default.CheckCircle else Icons.Default.Warning,
+        // A tick only when everything works; amber with a warning sign while something is still missing.
+        icon = if (ready && pairReady) Icons.Default.CheckCircle else Icons.Default.Warning,
         busy = busy,
         action = {
             if (viewModel.hasRuntimeSetup && !ready && !busy) {

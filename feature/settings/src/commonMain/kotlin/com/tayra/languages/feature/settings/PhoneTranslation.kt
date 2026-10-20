@@ -209,12 +209,13 @@ private fun PhoneEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
         title = when {
             busy -> tr("Checking…")
             ready && pairReady -> tr("Installed and working")
-            ready -> tr("Installed; this pair needs its language packages")
+            ready -> tr("Installed. The language pair still needs a download.")
             else -> tr("Not installed")
         },
         message = status?.let { tr(it) } ?: if (!ready && viewModel.hasRuntimeSetup) tr("Install downloads a private Python into the app folder with argostranslate in it.") else null,
         tint = tint,
-        icon = if (ready) Icons.Default.CheckCircle else Icons.Default.Warning,
+        // A tick only when everything works; amber with a warning sign while something is still missing.
+        icon = if (ready && pairReady) Icons.Default.CheckCircle else Icons.Default.Warning,
         busy = busy,
         action = {
             if (viewModel.hasRuntimeSetup && !ready && !busy) {
@@ -238,7 +239,9 @@ private fun PhonePackagesCard(viewModel: OfflineTranslationViewModel, packages: 
     val colors = MaterialTheme.colorScheme
     val runtime = viewModel.hasRuntimeSetup
     val installed = packages.filter { it.installed }
-    ContentCard(if (runtime) tr("Required packages") else tr("Required models"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { Tag(tr("{0} installed", installed.size), colors.primary) }) {
+    // The count is of what this pair needs, not of every package on the device.
+    val required = packages.filter { it.key in wanted }
+    ContentCard(if (runtime) tr("Required packages") else tr("Required models"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { if (required.isNotEmpty()) Tag(tr("{0} of {1} installed", required.count { it.installed }, required.size), colors.primary) }) {
         if (pair.learning != null && !pair.sameLanguage) {
             if (pair.ready) {
                 InfoBanner(tr("{0} is ready", pair.label), Modifier.padding(bottom = AppSpacing.s), tint = StatusTints.ok, icon = Icons.Default.CheckCircle, dense = true)
