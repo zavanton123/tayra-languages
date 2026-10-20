@@ -1,5 +1,9 @@
 package com.tayra.languages.feature.terms.list
 
+import com.tayra.languages.core.ui.components.chosenFor
+import com.tayra.languages.core.ui.components.shownName
+import com.tayra.languages.core.ui.components.shownStatuses
+import com.tayra.languages.core.ui.components.learningLevels
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -242,8 +246,9 @@ private fun PhoneStatusTag(status: TermStatus, onSelect: (TermStatus) -> Unit) {
             Text(status.chipName, style = AppText.label, color = MaterialTheme.colorScheme.onSurface)
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            TermStatus.selectable.forEach { option ->
-                AppMenuItem(text = { Text(tr(option.label)) }, onClick = { open = false; onSelect(option) })
+            shownStatuses(TermStatus.selectable).forEach { option ->
+                val chosen = option.chosenFor(status)
+                AppMenuItem(text = { Text(option.shownName()) }, onClick = { open = false; onSelect(chosen) })
             }
         }
     }
@@ -278,11 +283,16 @@ private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewM
             }
             Text(tr("Learning status"), Modifier.padding(top = AppSpacing.xs, bottom = AppSpacing.m), style = AppText.itemTitle)
             Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                TermStatus.selectable.chunked(2).forEach { pair ->
+                // Without the levels, Learning is one option for all four.
+                val group = !learningLevels
+                shownStatuses(TermStatus.selectable).chunked(2).forEach { pair ->
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                         pair.forEach { status ->
-                            StatusOption(status, selected = status in state.chosenStatuses, Modifier.weight(1f)) { viewModel.toggleStatus(status) }
+                            if (group && status.isLearning) StatusOption(status, selected = state.chosenStatuses.any { it.isLearning }, Modifier.weight(1f)) { viewModel.toggleLearning() }
+                            else StatusOption(status, selected = status in state.chosenStatuses, Modifier.weight(1f)) { viewModel.toggleStatus(status) }
                         }
+                        // An odd last option keeps its half of the row.
+                        if (pair.size == 1) Spacer(Modifier.weight(1f))
                     }
                 }
             }

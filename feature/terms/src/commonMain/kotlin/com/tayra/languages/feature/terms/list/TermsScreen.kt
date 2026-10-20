@@ -1,5 +1,10 @@
 package com.tayra.languages.feature.terms.list
 
+import com.tayra.languages.core.ui.components.chosenFor
+import com.tayra.languages.core.ui.components.shownName
+import com.tayra.languages.core.ui.components.shownAbbreviation
+import com.tayra.languages.core.ui.components.shownStatuses
+import com.tayra.languages.core.ui.components.learningLevels
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -199,7 +204,8 @@ fun TermsScreen(
     }
 
     if (bulkEdit) {
-        BulkEditDialog(count = state.selected.size, onApply = { viewModel.applyBulkUpdate(it); bulkEdit = false }, onDismiss = { bulkEdit = false })
+        val keepLevels = !learningLevels
+        BulkEditDialog(count = state.selected.size, onApply = { viewModel.applyBulkUpdate(it, keepLearningLevels = keepLevels); bulkEdit = false }, onDismiss = { bulkEdit = false })
     }
     if (practising) {
         PracticeKindsDialog(count = state.selected.size, onStart = { kinds -> practising = false; onNavigate(Route.PracticeWords(state.selected.toList(), kinds.map { it.name })) }, onDismiss = { practising = false })
@@ -339,7 +345,8 @@ internal fun FiltersButton(open: Boolean, count: Int, onClick: () -> Unit) {
 }
 
 /** "New", "Learning", "Known" or "Ignored": the status's name without its number, which the badge shows. */
-internal val TermStatus.chipName: String get() = tr(label).substringBefore(" (")
+/** A status on a chip beside its badge, which already gives the level: "Learning" for any of 1 to 4. */
+internal val TermStatus.chipName: String get() = if (isLearning) tr("Learning") else tr(label)
 
 /** The status's highlight colour, or a neutral one where the theme has none. */
 @Composable
@@ -361,8 +368,11 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
         }
         Text(tr("Learning status"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = AppSpacing.xs, bottom = AppSpacing.m))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            TermStatus.selectable.forEach { status ->
-                StatusFilterChip(status, selected = status in state.chosenStatuses) { viewModel.toggleStatus(status) }
+            // Without the levels, Learning is one chip for all four.
+            val group = !learningLevels
+            shownStatuses(TermStatus.selectable).forEach { status ->
+                if (group && status.isLearning) StatusFilterChip(status, selected = state.chosenStatuses.any { it.isLearning }) { viewModel.toggleLearning() }
+                else StatusFilterChip(status, selected = status in state.chosenStatuses) { viewModel.toggleStatus(status) }
             }
         }
         AppDivider(Modifier.padding(vertical = AppSpacing.l))
@@ -409,7 +419,7 @@ private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () 
 @Composable
 internal fun StatusBadge(status: TermStatus) {
     Text(
-        status.abbreviation,
+        status.shownAbbreviation(),
         Modifier.clip(AppShapes.small).background(statusTint(status).copy(alpha = AppAlpha.strong)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs),
         style = AppText.badge,
         color = TayraTheme.current.statusColors.onHighlight.takeIf { it != Color.Unspecified } ?: AppAccents.ink,
@@ -428,13 +438,16 @@ internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewMode
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
         // The default view, every learning status, is one chip rather than four.
-        if (state.allLearning) {
+        // Without the levels, any learning status shown is the one Learning.
+        val learningGroup = state.allLearning || (!learningLevels && state.chosenStatuses.any { it.isLearning })
+        if (learningGroup) {
             val tint = statusTint(TermStatus.NEW_1)
-            RemovableChip(onRemove = viewModel::removeLearning, removeDescription = tr("Remove {0}", tr("Learning 1–4")), tint = tint, background = tint.copy(alpha = AppAlpha.line)) {
-                Text(tr("Learning 1–4"), style = AppText.badge)
+            val name = if (learningLevels) tr("Learning 1–4") else tr("Learning")
+            RemovableChip(onRemove = viewModel::removeLearning, removeDescription = tr("Remove {0}", name), tint = tint, background = tint.copy(alpha = AppAlpha.line)) {
+                Text(name, style = AppText.badge)
             }
         }
-        TermStatus.selectable.filter { it in state.chosenStatuses && !(state.allLearning && it.isLearning) }.forEach { status ->
+        TermStatus.selectable.filter { it in state.chosenStatuses && !(learningGroup && it.isLearning) }.forEach { status ->
             val tint = statusTint(status)
             RemovableChip(onRemove = { viewModel.toggleStatus(status) }, removeDescription = tr("Remove {0}", tr(status.label)), tint = tint, background = tint.copy(alpha = AppAlpha.line)) {
                 Text(status.chipName, style = AppText.badge)
@@ -550,15 +563,16 @@ private fun StatusChip(status: TermStatus, onSelect: (TermStatus) -> Unit) {
     val background = colors.background(status).takeIf { it != Color.Transparent } ?: MaterialTheme.colorScheme.surfaceVariant
     Box {
         Text(
-            status.abbreviation,
+            status.shownAbbreviation(),
             Modifier.clip(AppShapes.small).background(background).border(AppBorders.hairline(background.darken()), AppShapes.small)
                 .clickable { open = true }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
             color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink,
             style = AppText.badge,
         )
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            TermStatus.selectable.forEach { option ->
-                AppMenuItem(text = { Text(tr(option.label)) }, onClick = { open = false; onSelect(option) })
+            shownStatuses(TermStatus.selectable).forEach { option ->
+                val chosen = option.chosenFor(status)
+                AppMenuItem(text = { Text(option.shownName()) }, onClick = { open = false; onSelect(chosen) })
             }
         }
     }

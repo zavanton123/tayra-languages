@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.terms.list
 
+import com.tayra.languages.core.ui.components.shownName
+import com.tayra.languages.core.ui.components.shownStatuses
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.i18n.tr
@@ -42,7 +44,8 @@ fun BulkEditDialog(count: Int, onApply: (BulkTermUpdate) -> Unit, onDismiss: () 
                 AppTextField(value = parent, onValueChange = { parent = it }, label = { Text(tr("Set parent")) }, singleLine = true, modifier = Modifier.fillMaxWidth())
                 CheckSetting(tr("Change status"), changeStatus, onChange = { changeStatus = it })
                 if (changeStatus) {
-                    Dropdown(options = TermStatus.selectable, selected = status, onSelect = { status = it }, label = tr("Status"), optionLabel = { tr(it.label) }, modifier = Modifier.fillMaxWidth())
+                    val names = shownStatuses(TermStatus.selectable).associateWith { it.shownName() }
+                    Dropdown(options = names.keys.toList(), selected = status, onSelect = { status = it }, label = tr("Status"), optionLabel = { names.getValue(it) }, modifier = Modifier.fillMaxWidth())
                 }
             }
         },

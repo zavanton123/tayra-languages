@@ -179,6 +179,12 @@ class TermsListViewModel(
     /** Unticks all four learning statuses, from their one chip. */
     fun removeLearning() = updateFilter { filter -> filter.copy(statuses = filter.statuses.orEmpty().filterNot { it.isLearning }.toSet().ifEmpty { null }) }
 
+    /** Shows the words being learned, at any level, or stops showing them: Learning's filter without the levels. */
+    fun toggleLearning() = updateFilter { filter ->
+        val chosen = filter.statuses.orEmpty()
+        filter.copy(statuses = (if (chosen.any { it.isLearning }) chosen.filterNot { it.isLearning }.toSet() else chosen + LEARNING_STATUSES).ifEmpty { null })
+    }
+
     fun toggleStatus(status: TermStatus) = updateFilter {
         val chosen = it.statuses.orEmpty().let { set -> if (status in set) set - status else set + status }
         it.copy(statuses = chosen.ifEmpty { null })
@@ -229,10 +235,16 @@ class TermsListViewModel(
         selected.value = emptySet()
     }
 
-    fun applyBulkUpdate(update: BulkTermUpdate) = viewModelScope.launch {
+    /**
+     * Applies [update] to the selected terms. With [keepLearningLevels], as when the levels are not shown,
+     * setting Learning leaves the words already being learned at their level and changes the rest.
+     */
+    fun applyBulkUpdate(update: BulkTermUpdate, keepLearningLevels: Boolean = false) = viewModelScope.launch {
         try {
             val ids = selected.value.toList()
-            termService.applyBulkUpdate(update.copy(termIds = ids))
+            val learning = if (keepLearningLevels && update.status?.isLearning == true) terms.getByIds(ids).filter { it.status.isLearning }.map { it.id }.toSet() else emptySet()
+            if (ids.size > learning.size) termService.applyBulkUpdate(update.copy(termIds = ids.filterNot { it in learning }))
+            if (learning.isNotEmpty()) termService.applyBulkUpdate(update.copy(termIds = learning.toList(), status = null))
             selected.value = emptySet()
             message.value = trPlural(ids.size, "Updated {0} term", "Updated {0} terms")
         } catch (e: TermValidationException) {
