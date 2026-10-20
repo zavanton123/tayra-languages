@@ -677,9 +677,11 @@ private fun buildParagraph(
     fun Color.orElse(other: Color) = if (this == Color.Unspecified) other else this
     // Leading blank items still get (empty) spans, so item positions stay as they are.
     val firstShown = if (trimLeadingSpace) items.indexOfFirst { it.renderText.isNotBlank() }.coerceAtLeast(0) else 0
+    // A sentence's play button goes before an opening quote or bracket that starts it, not between the two.
+    var playedEarly = -1
     items.forEachIndexed { i, item ->
         val itemIndex = firstItemIndex + i
-        if (i in playBefore) appendInlineContent("play-$i", "\u25B6")
+        if (i in playBefore && playedEarly != i) appendInlineContent("play-$i", "\u25B6")
         val start = length
         val inSelection = selection != null && item.index in selection
         val isMarked = itemIndex in marked
@@ -711,7 +713,18 @@ private fun buildParagraph(
             if (fill != null) pushStringAnnotation(FILL_ANNOTATION, fill.toArgb().toString())
             if (selected) pushStringAnnotation(SELECTED_ANNOTATION, "")
             if (item.isOverlapped) append("⁺")
-            if (i >= firstShown) append(item.renderText)
+            if (i >= firstShown) {
+                val text = item.renderText
+                val opening = text.trimEnd()
+                if (!item.isWord && i + 1 in playBefore && opening.lastOrNull()?.let { it in OPENING_MARKS } == true) {
+                    append(text.substring(0, opening.length - 1))
+                    appendInlineContent("play-${i + 1}", "\u25B6")
+                    append(text.substring(opening.length - 1))
+                    playedEarly = i + 1
+                } else {
+                    append(text)
+                }
+            }
             if (selected) pop()
             if (fill != null) pop()
         }
@@ -757,6 +770,9 @@ private fun androidx.compose.ui.graphics.drawscope.DrawScope.drawReadings(
 
 /** Marks the selected characters in the text, for tests and accessibility tools. */
 internal const val SELECTED_ANNOTATION = "selected"
+
+/** Marks that open a quotation or an aside, and so belong with the sentence after them. */
+private const val OPENING_MARKS = "\"“„«‹‘(¿¡["
 
 /** Marks a word drawn on a colour of its own; the value is the colour, as ARGB. */
 internal const val FILL_ANNOTATION = "fill"
