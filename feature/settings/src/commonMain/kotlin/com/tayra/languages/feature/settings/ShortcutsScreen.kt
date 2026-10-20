@@ -1,26 +1,12 @@
 package com.tayra.languages.feature.settings
 
-import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
-import com.tayra.languages.core.ui.components.AppDialog
-import com.tayra.languages.core.ui.components.AppDivider
-import com.tayra.languages.core.ui.components.AppVerticalDivider
-import com.tayra.languages.core.ui.components.CardHeader
-import com.tayra.languages.core.ui.components.HeaderButton
-import com.tayra.languages.core.ui.components.IconTile
-import com.tayra.languages.core.ui.components.PageColumn
-import com.tayra.languages.core.ui.components.PrimaryButton
-import com.tayra.languages.core.ui.components.QuietButton
-import com.tayra.languages.core.ui.components.ScreenHeader
-import com.tayra.languages.core.ui.components.SearchField
-import com.tayra.languages.core.ui.components.StatusDot
-import com.tayra.languages.core.ui.components.StatusTints
-import com.tayra.languages.core.ui.components.Tag
-import com.tayra.languages.core.ui.components.TintedSurface
-import com.tayra.languages.core.ui.components.cardSurface
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable
+import androidx.compose.foundation.hoverable
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsHoveredAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -60,6 +46,7 @@ import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathEffect
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -74,11 +61,28 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.settings.Hotkey
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.settings.HotkeyCategory
+import com.tayra.languages.core.ui.components.AppDialog
+import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppVerticalDivider
+import com.tayra.languages.core.ui.components.CardHeader
+import com.tayra.languages.core.ui.components.HeaderButton
+import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SearchField
+import com.tayra.languages.core.ui.components.StatusDot
+import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.TintedSurface
+import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
@@ -278,36 +282,48 @@ private fun CategoryCard(
             Tag(tr("{0} assigned", actions.count { hotkeys[it] != null }), StatusTints.ok)
         })
         Spacer(Modifier.height(AppSpacing.m))
-        actions.forEachIndexed { i, action ->
-            if (i > 0 && editing != action && editing != actions[i - 1]) {
-                AppDivider(Modifier.padding(horizontal = AppSpacing.xl))
-            }
+        // An action's second key shares its row: one row an action, with a slot for each key.
+        val seconds = actions.filter { it.isSecondKey }.associateBy { it.description.removeSuffix(SECOND_KEY) }
+        val firsts = actions.filterNot { it.isSecondKey }.map { it.description }.toSet()
+        val rows = actions.filter { !it.isSecondKey || it.description.removeSuffix(SECOND_KEY) !in firsts }
+        rows.forEachIndexed { i, action ->
+            val second = if (action.isSecondKey) null else seconds[action.description]
+            val here = editing != null && (editing == action || editing == second)
+            if (i > 0 && !here) AppDivider(Modifier.padding(horizontal = AppSpacing.xl))
             ShortcutRow(
-                action,
-                hotkeys[action],
-                conflictsWith = conflicts[action].orEmpty(),
-                editing = editing == action,
-                onEdit = { onEdit(action) },
+                KeySlot(action, hotkeys[action], conflicts[action].orEmpty()),
+                second?.let { KeySlot(it, hotkeys[it], conflicts[it].orEmpty()) },
+                editing = editing,
+                onEdit = onEdit,
                 onDone = onDone,
-                onAssign = { onAssign(action, it) },
+                onAssign = onAssign,
             )
         }
     }
 }
 
+/** One key of an action: the action, its key if it has one, and the actions that share it. */
+private class KeySlot(val action: HotkeyAction, val hotkey: Hotkey?, val conflictsWith: List<HotkeyAction>)
+
+private const val SECOND_KEY = " (second key)"
+
+private val HotkeyAction.isSecondKey: Boolean get() = description.endsWith(SECOND_KEY)
+
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun ShortcutRow(
-    action: HotkeyAction,
-    hotkey: Hotkey?,
-    conflictsWith: List<HotkeyAction>,
-    editing: Boolean,
-    onEdit: () -> Unit,
+    first: KeySlot,
+    second: KeySlot?,
+    editing: HotkeyAction?,
+    onEdit: (HotkeyAction) -> Unit,
     onDone: () -> Unit,
-    onAssign: (Hotkey?) -> Unit,
+    onAssign: (HotkeyAction, Hotkey?) -> Unit,
 ) {
-    val (title, note) = action.titleAndNote()
+    val (title, note) = first.action.titleAndNote()
     val compact = LocalWindowWidth.current.isCompact
     val primary = MaterialTheme.colorScheme.primary
+    val conflictsWith = (first.conflictsWith + second?.conflictsWith.orEmpty()).distinct()
+    val editingHere = editing != null && (editing == first.action || editing == second?.action)
     val text: @Composable (Modifier) -> Unit = { modifier ->
         Column(modifier) {
             Text(title, style = MaterialTheme.typography.bodyLarge)
@@ -321,25 +337,39 @@ private fun ShortcutRow(
             }
         }
     }
-    val control: @Composable () -> Unit = {
+    val slot: @Composable (KeySlot, Boolean) -> Unit = { key, alternative ->
+        val (_, keyNote) = key.action.titleAndNote()
         when {
-            editing -> KeyListener(onDone = onDone, onAssign = onAssign)
-            hotkey == null -> Row(verticalAlignment = Alignment.CenterVertically) {
-                NotSet(onEdit)
+            editing == key.action -> KeyListener(onDone = onDone, onAssign = { onAssign(key.action, it) })
+            key.hotkey == null && alternative -> NotSet { onEdit(key.action) }
+            key.hotkey == null -> Row(verticalAlignment = Alignment.CenterVertically) {
+                NotSet { onEdit(key.action) }
                 Spacer(Modifier.width(AppSpacing.xl))
                 Text(
                     tr("Add"),
                     color = primary,
                     style = AppText.emphasis,
-                    modifier = Modifier.clickable(onClick = onEdit).semantics { contentDescription = tr("Add shortcut for {0}", title) }.padding(AppSpacing.xs),
+                    modifier = Modifier.clickable { onEdit(key.action) }.semantics { contentDescription = tr("Add shortcut for {0}", title) }.padding(AppSpacing.xs),
                 )
             }
-            else -> Keycaps(hotkey, conflict = conflictsWith.isNotEmpty(), onClick = onEdit, description = if (note == null) tr("Change shortcut for {0}", title) else tr("Change shortcut for {0}, {1}", title, note))
+            else -> Keycaps(
+                key.hotkey,
+                conflict = key.conflictsWith.isNotEmpty(),
+                onClick = { onEdit(key.action) },
+                description = if (keyNote == null) tr("Change shortcut for {0}", title) else tr("Change shortcut for {0}, {1}", title, keyNote),
+            )
         }
     }
-    Row(Modifier.fillMaxWidth().heightIn(min = AppSizes.row).then(if (editing) Modifier.background(primary.copy(alpha = AppAlpha.wash)) else Modifier)) {
+    // The keys of an action side by side, the second under the first when there is no room.
+    val control: @Composable () -> Unit = {
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.s), itemVerticalAlignment = Alignment.CenterVertically) {
+            if (editing != second?.action || second == null) slot(first, false)
+            if (second != null && editing != first.action) slot(second, true)
+        }
+    }
+    Row(Modifier.fillMaxWidth().heightIn(min = AppSizes.row).then(if (editingHere) Modifier.background(primary.copy(alpha = AppAlpha.wash)) else Modifier)) {
         // The row being edited is marked by a bar on its leading edge.
-        Box(Modifier.width(EDIT_BAR_WIDTH).heightIn(min = AppSizes.row).then(if (editing) Modifier.background(primary) else Modifier))
+        Box(Modifier.width(EDIT_BAR_WIDTH).heightIn(min = AppSizes.row).then(if (editingHere) Modifier.background(primary) else Modifier))
         if (compact) {
             Column(Modifier.weight(1f).padding(start = AppSpacing.l, end = AppSpacing.xl, top = AppSpacing.m, bottom = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 text(Modifier)
@@ -349,7 +379,7 @@ private fun ShortcutRow(
             Row(Modifier.weight(1f).padding(start = AppSpacing.l, end = AppSpacing.xl, top = AppSpacing.s, bottom = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
                 text(Modifier.weight(1f).padding(end = AppSpacing.l))
                 // Keys start at the same place on every row, so they read as a column; the listener needs more room.
-                if (editing) control() else Box(Modifier.width(KEYS_WIDTH), contentAlignment = Alignment.CenterStart) { control() }
+                if (editingHere) control() else Box(Modifier.widthIn(min = KEYS_WIDTH), contentAlignment = Alignment.CenterStart) { control() }
             }
         }
     }
@@ -369,8 +399,12 @@ private val BANNER_DIVIDER_HEIGHT = 36.dp
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun Keycaps(hotkey: Hotkey, conflict: Boolean, onClick: () -> Unit, description: String) {
+    // A set key shows on hover that it can be changed.
+    val interaction = remember { MutableInteractionSource() }
+    val hovered by interaction.collectIsHoveredAsState()
     FlowRow(
-        Modifier.clip(AppShapes.compact).clickable(onClick = onClick).semantics { contentDescription = description }.padding(AppSpacing.xxs),
+        Modifier.clip(AppShapes.compact).hoverable(interaction).background(if (hovered) MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.tint) else Color.Transparent)
+            .clickable(onClick = onClick).semantics { contentDescription = description }.padding(AppSpacing.xxs),
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
