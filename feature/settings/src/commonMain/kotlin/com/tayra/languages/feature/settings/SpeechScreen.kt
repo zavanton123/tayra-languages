@@ -716,10 +716,12 @@ internal val SAMPLES: Map<String, String> = mapOf(
 )
 
 /**
- * A voice's name with what is in its brackets in the interface language: "Dora (Brazilian, female)",
- * "Jirka (Czechia, low)". A word without a translation, such as a country, stays as it is.
+ * A voice's name with its details in the interface language, in brackets, "Dora (Brazilian, female)",
+ * or after dots, "Cadu · medium · Brazil". A word without a translation stays as it is.
  */
 internal fun localizedVoiceName(name: String): String {
+    val parts = name.split(" · ")
+    if (parts.size > 1) return (listOf(parts.first()) + parts.drop(1).map { tr(it) }).joinToString(" · ")
     val open = name.lastIndexOf(" (")
     if (open < 0 || !name.endsWith(")")) return name
     val details = name.substring(open + 2, name.length - 1).split(", ").joinToString(", ") { tr(it) }
