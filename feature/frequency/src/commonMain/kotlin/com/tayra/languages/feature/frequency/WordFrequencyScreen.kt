@@ -357,7 +357,9 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
         }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), itemVerticalAlignment = Alignment.CenterVertically) {
             SearchField(state.search, onSearch, tr("Find a word"), if (compact) Modifier.fillMaxWidth() else Modifier.width(SEARCH_WIDTH), fieldModifier = Modifier.testTag("frequency-search"))
-            WordKnowledge.entries.forEach { knowledge ->
+            // Without the learning levels shown, Ignored is not offered: its words show as known ones.
+            val levels = learningLevels
+            WordKnowledge.entries.filter { levels || it != WordKnowledge.IGNORED }.forEach { knowledge ->
                 KnowledgeChip(knowledge, overview.count(knowledge), selected = knowledge in state.shown) { onToggle(knowledge) }
             }
         }
@@ -374,9 +376,11 @@ private fun KnowledgeChip(knowledge: WordKnowledge, count: Int, selected: Boolea
 private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelSet: Boolean, levelAbove: Int, currentLevel: Int, saving: Boolean, onSetLevel: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
-    val known = band.count(WordKnowledge.KNOWN)
+    // Without the levels shown, ignored words are counted with the known ones.
+    val levels = learningLevels
+    val known = band.count(WordKnowledge.KNOWN) + if (levels) 0 else band.count(WordKnowledge.IGNORED)
     val learning = band.count(WordKnowledge.LEARNING)
-    val ignored = band.count(WordKnowledge.IGNORED)
+    val ignored = if (levels) band.count(WordKnowledge.IGNORED) else 0
     Column(Modifier.fillMaxWidth().padding(top = AppSpacing.xxxl, bottom = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Text(tr("Ranks {0}–{1}", band.firstRank, band.lastRank), style = AppText.itemTitle)
@@ -439,16 +443,19 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
                     Text(if (looked) translation ?: tr("No translation found") else tr("Looking up…"), style = AppText.label)
                     val others = word.word.forms.filter { it != word.word.key }.take(8)
                     if (others.isNotEmpty()) Text(tr("Also: {0}", others.joinToString(", ")), style = MaterialTheme.typography.bodySmall)
-                    Text(statusLabel(word.status, learningLevels), style = MaterialTheme.typography.bodySmall)
+                    val levels = learningLevels
+                    if (levels || word.status != TermStatus.IGNORED) Text(statusLabel(word.status, levels), style = MaterialTheme.typography.bodySmall)
                 }
             },
         ) {
+            // Without the levels shown, an ignored word looks like a known one.
+            val knowledge = if (!learningLevels && word.knowledge == WordKnowledge.IGNORED) WordKnowledge.KNOWN else word.knowledge
             Text(
                 word.word.word,
                 Modifier.clip(AppShapes.small)
                     // Each word on its status's colour, as the legend and the reader show it.
                     .background(
-                        when (word.knowledge) {
+                        when (knowledge) {
                             WordKnowledge.LEARNING -> statuses.background(word.status)
                             WordKnowledge.KNOWN -> statuses.background(TermStatus.WELL_KNOWN).copy(alpha = AppAlpha.line)
                             WordKnowledge.NEW -> statuses.background(TermStatus.UNKNOWN)
@@ -461,12 +468,12 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
                     .widthIn(min = WORD_MIN_WIDTH)
                     .testTag("word-${word.word.word}"),
                 style = MaterialTheme.typography.bodyLarge,
-                color = when (word.knowledge) {
+                color = when (knowledge) {
                     WordKnowledge.IGNORED -> colors.onSurfaceVariant.copy(alpha = AppAlpha.muted)
                     WordKnowledge.KNOWN -> colors.onSurface
                     else -> if (statuses.onHighlight == Color.Unspecified) colors.onSurface else statuses.onHighlight
                 },
-                textDecoration = if (word.knowledge == WordKnowledge.IGNORED) TextDecoration.LineThrough else null,
+                textDecoration = if (knowledge == WordKnowledge.IGNORED) TextDecoration.LineThrough else null,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
             )

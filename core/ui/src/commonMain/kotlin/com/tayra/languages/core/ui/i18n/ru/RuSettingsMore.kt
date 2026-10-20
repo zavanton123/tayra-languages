@@ -37,7 +37,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Behaviour" to "Поведение",
     "Control how Tayra behaves on different pages." to "Настройте поведение Tayra на разных страницах.",
     "Show learning levels" to "Показывать уровни изучения",
-    "Statuses 1 to 4 for words being learned, rather than one Learning status." to "Статусы 1–4 для изучаемых слов вместо одного статуса «Изучаю».",
+    "Statuses 1 to 4 for words being learned, and Ignored, rather than only Unknown, Learning and Known." to "Статусы 1–4 для изучаемых слов и «Игнорировать» вместо только «Незнакомое», «Изучаю» и «Знаю».",
     "Set status to Learning" to "Установить статус «Изучаю»",
     "Book stats page sample size" to "Выборка страниц для статистики книги",
     "Number of pages used for book statistics." to "Сколько страниц берётся для статистики книги.",

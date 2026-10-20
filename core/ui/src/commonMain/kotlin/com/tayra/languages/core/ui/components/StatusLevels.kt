@@ -6,21 +6,22 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.i18n.tr
 
 /*
- * How statuses are shown. Words keep all seven statuses; by default the four learning levels are
- * shown and chosen as one, Learning, and flashcards move a word between them as it is reviewed.
- * The setting to show the levels brings back the numbered statuses 1 to 4.
+ * How statuses are shown. Words keep all seven statuses; by default only Unknown, Learning and Known
+ * are shown and chosen: the four learning levels as one, Learning, which flashcards move a word
+ * through as it is reviewed, and Ignored not offered at all. The setting to show the levels brings
+ * back the numbered statuses 1 to 4 and Ignored.
  */
 
-/** Whether the four learning levels are shown and chosen one by one, rather than as one Learning status. */
+/** Whether all the statuses are shown: the four learning levels one by one, and Ignored; otherwise Unknown, Learning and Known. */
 val LocalLearningLevels = staticCompositionLocalOf { true }
 
 /** Whether the learning levels are shown here. */
 val learningLevels: Boolean @Composable get() = LocalLearningLevels.current
 
-/** [statuses] as they are offered: all of them, or with the learning levels as one, standing for them all as level 1. */
+/** [statuses] as they are offered: all of them, or the learning levels as one, standing for them all as level 1, and no Ignored. */
 @Composable
 fun shownStatuses(statuses: List<TermStatus>): List<TermStatus> =
-    if (learningLevels) statuses else statuses.filter { !it.isLearning || it == TermStatus.NEW_1 }
+    if (learningLevels) statuses else statuses.filter { (!it.isLearning || it == TermStatus.NEW_1) && it != TermStatus.IGNORED }
 
 /** A status's name: "Learning 2" with the levels shown, "Learning" without. */
 @Composable

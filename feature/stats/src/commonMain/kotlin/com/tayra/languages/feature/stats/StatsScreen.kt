@@ -287,11 +287,10 @@ private fun VocabularyCard(o: LanguageOverview, modifier: Modifier) {
         else -> statusColors.background(status)
     }
     val levels = vocabularyOrder.associateWith { o.termsByStatus[it] ?: 0 }
-    // Without the learning levels shown, levels 1 to 4 are counted as one Learning.
+    // Without the learning levels shown, levels 1 to 4 are counted as one Learning, and Ignored is left out.
     val counts = if (learningLevels) levels else mapOf(
         TermStatus.NEW_1 to levels.filterKeys { it.isLearning }.values.sum(),
         TermStatus.WELL_KNOWN to levels.getValue(TermStatus.WELL_KNOWN),
-        TermStatus.IGNORED to levels.getValue(TermStatus.IGNORED),
     )
     val total = counts.values.sum()
     ContentCard(tr("Vocabulary by status"), trPlural(total, "{1} word saved", "{1} words saved", formatCount(total)), icon = AppIcons.Tune, modifier = modifier) {

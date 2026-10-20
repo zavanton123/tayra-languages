@@ -118,7 +118,7 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
             }
             SearchBanner(query, onQuery = { query = it }, assigned = hotkeys.values.count { it != null }, conflicts = conflicts.size)
 
-            // Without the learning levels shown, the keys for levels 2 to 4 and for stepping between them are left out.
+            // Without the learning levels shown, the keys for levels 2 to 4, for stepping between them and for Ignored are left out.
             val levels = learningLevels
             val groups = HotkeyAction.byCategory.mapValues { (_, actions) -> actions.filter { it.matches(query, hotkeys[it]) && (levels || it !in LEVEL_ACTIONS) } }.filterValues { it.isNotEmpty() }
             if (groups.isEmpty()) {
@@ -182,8 +182,8 @@ private fun HotkeyAction.matches(query: String, hotkey: Hotkey?): Boolean {
 }
 
 /** The action's name, and what the parenthesised part of its description adds, such as "Alternative shortcut", in the interface language. */
-/** The shortcuts only the learning levels need: levels 2 to 4, and stepping from one level to the next. */
-private val LEVEL_ACTIONS = setOf(HotkeyAction.STATUS_2, HotkeyAction.STATUS_3, HotkeyAction.STATUS_4, HotkeyAction.STATUS_UP, HotkeyAction.STATUS_DOWN)
+/** The shortcuts only the full statuses need: levels 2 to 4, stepping from one level to the next, and Ignored. */
+private val LEVEL_ACTIONS = setOf(HotkeyAction.STATUS_2, HotkeyAction.STATUS_3, HotkeyAction.STATUS_4, HotkeyAction.STATUS_UP, HotkeyAction.STATUS_DOWN, HotkeyAction.STATUS_IGNORE)
 
 /** [titleAndNote], with level 1's key named for Learning when the levels are not shown. */
 @Composable

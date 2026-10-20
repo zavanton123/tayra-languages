@@ -19,7 +19,7 @@ import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-/** The status row with the learning levels left out: three statuses by name and Ignore, the levels kept underneath. */
+/** The status row with the learning levels left out: three statuses by name, the levels kept underneath. */
 @OptIn(ExperimentalTestApi::class)
 class StatusSelectorTest {
 
@@ -31,9 +31,9 @@ class StatusSelectorTest {
                 Surface(color = MaterialTheme.colorScheme.surface) { StatusSelector(selected = status, onSelect = { status = it }, large = true) }
             }
         }
-        // Four buttons, not seven: no numbered levels.
-        for (name in listOf("Unknown", "Learning", "Known", "Ignored")) onNodeWithContentDescription(name).assertExists()
-        assertEquals(0, onAllNodes(androidx.compose.ui.test.hasContentDescription("Learning 2")).fetchSemanticsNodes().size)
+        // Three buttons, not seven: no numbered levels, and no Ignored.
+        for (name in listOf("Unknown", "Learning", "Known")) onNodeWithContentDescription(name).assertExists()
+        for (name in listOf("Learning 2", "Ignored")) assertEquals(0, onAllNodes(androidx.compose.ui.test.hasContentDescription(name)).fetchSemanticsNodes().size)
         System.getenv("STATUS_SELECTOR_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
 
         // An unknown word starts at level 1.

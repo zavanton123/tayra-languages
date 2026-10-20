@@ -37,7 +37,7 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Behaviour" to "Comportamiento",
     "Control how Tayra behaves on different pages." to "Controla cómo se comporta Tayra en las distintas páginas.",
     "Show learning levels" to "Mostrar niveles de aprendizaje",
-    "Statuses 1 to 4 for words being learned, rather than one Learning status." to "Estados 1 a 4 para las palabras que aprendes, en lugar de un único estado Aprendiendo.",
+    "Statuses 1 to 4 for words being learned, and Ignored, rather than only Unknown, Learning and Known." to "Estados 1 a 4 para las palabras que aprendes, e Ignorada, en lugar de solo Desconocida, Aprendiendo y Conocida.",
     "Set status to Learning" to "Poner el estado en Aprendiendo",
     "Book stats page sample size" to "Muestra de páginas para estadísticas del libro",
     "Number of pages used for book statistics." to "Número de páginas usadas para las estadísticas del libro.",

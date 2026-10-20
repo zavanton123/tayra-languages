@@ -327,7 +327,7 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
 @Composable
 private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) {
     ContentCard(tr("Behaviour"), tr("Control how Tayra behaves on different pages."), icon = Icons.Default.Settings) {
-        SwitchSetting(tr("Show learning levels"), tr("Statuses 1 to 4 for words being learned, rather than one Learning status."), settings.showLearningLevels) { v ->
+        SwitchSetting(tr("Show learning levels"), tr("Statuses 1 to 4 for words being learned, and Ignored, rather than only Unknown, Learning and Known."), settings.showLearningLevels) { v ->
             viewModel.update { it.copy(showLearningLevels = v) }
         }
         SettingRow(tr("Book stats page sample size"), tr("Number of pages used for book statistics."), divider = true) {

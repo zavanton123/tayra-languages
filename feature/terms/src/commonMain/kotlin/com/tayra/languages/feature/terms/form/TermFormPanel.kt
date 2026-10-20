@@ -609,15 +609,14 @@ val LanguageDictionary.displayName: String
 fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false, large: Boolean = false) {
     val colors = TayraTheme.current.statusColors
     val wide = expanded || large
-    // Without the learning levels the row is the three statuses by name, and Ignore at its end.
+    // Without the learning levels the row is the three statuses by name.
     val words = !learningLevels
     Column(if (wide) Modifier.fillMaxWidth() else Modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
         Row(if (wide) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (wide) AppSpacing.s else AppSpacing.xs)) {
             shownStatuses(TermStatus.paneButtons).forEach { status ->
                 val isSelected = status.shownAs(selected)
                 val chosen = status.chosenFor(selected)
-                // Ignore is the odd one out, for names and numbers: a narrow button, as with the levels shown.
-                val named = words && status != TermStatus.IGNORED
+                val named = words
                 val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
                 // The ring moves to the chosen status by fading out on the old one and in on the new; the others fade back,
                 // so the chosen one stands out by more than its ring.
@@ -643,7 +642,7 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expande
             }
         }
         // The letters are short; the chosen status is named in full under them. Named buttons need no caption.
-        if (!words || selected == TermStatus.IGNORED) {
+        if (!words) {
             Text(selected.shownName(), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("status-name"))
         }
     }

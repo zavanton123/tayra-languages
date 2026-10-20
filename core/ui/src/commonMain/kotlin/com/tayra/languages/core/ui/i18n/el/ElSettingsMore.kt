@@ -37,7 +37,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Behaviour" to "Συμπεριφορά",
     "Control how Tayra behaves on different pages." to "Ορίστε πώς συμπεριφέρεται το Tayra σε διάφορες σελίδες.",
     "Show learning levels" to "Εμφάνιση επιπέδων εκμάθησης",
-    "Statuses 1 to 4 for words being learned, rather than one Learning status." to "Καταστάσεις 1–4 για λέξεις σε εκμάθηση, αντί για μία κατάσταση «Σε εκμάθηση».",
+    "Statuses 1 to 4 for words being learned, and Ignored, rather than only Unknown, Learning and Known." to "Καταστάσεις 1–4 για λέξεις σε εκμάθηση, και «Αγνοείται», αντί μόνο για «Άγνωστη», «Σε εκμάθηση» και «Γνωστή».",
     "Set status to Learning" to "Ορισμός κατάστασης σε «Σε εκμάθηση»",
     "Book stats page sample size" to "Δείγμα σελίδων για στατιστικά βιβλίου",
     "Number of pages used for book statistics." to "Αριθμός σελίδων που χρησιμοποιούνται για τα στατιστικά του βιβλίου.",
