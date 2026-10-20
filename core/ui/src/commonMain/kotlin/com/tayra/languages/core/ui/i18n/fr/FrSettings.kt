@@ -8,6 +8,7 @@ internal val frSettings: Map<String, String> = mapOf(
     "Not installed" to "Non installé",
     "{0} is not installed" to "{0} n’est pas installé",
     "Installed and working" to "Installé et fonctionnel",
+    "Installed; this pair needs its language packages" to "Installé ; cette paire a besoin de ses paquets de langue",
     "Check installation" to "Vérifier l’installation",
     "Checking…" to "Vérification…",
     "Download" to "Télécharger",

@@ -155,7 +155,7 @@ internal fun PhoneTranslationScreen(
                 }
                 Spacer(Modifier.height(AppSpacing.m))
                 when {
-                    local -> PhoneEngineStatus(settings, viewModel)
+                    local -> PhoneEngineStatus(settings, viewModel, pair.ready)
                     engine == TranslationEngine.GOOGLE -> GoogleSettings(settings, viewModel)
                     else -> AppTextField(
                         value = settings.translationContactEmail,
@@ -194,20 +194,22 @@ internal fun PhoneTranslationScreen(
 
 /** Whether the on-device translator works, with the button to check or install it; the runtime path field is left to the desktop. */
 @Composable
-private fun PhoneEngineStatus(settings: UserSettings, viewModel: OfflineTranslationViewModel) {
+private fun PhoneEngineStatus(settings: UserSettings, viewModel: OfflineTranslationViewModel, pairReady: Boolean) {
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
+    // Amber until the pair's packages are in, as the status pill above says.
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
-        ready -> StatusTints.ok
+        ready && pairReady -> StatusTints.ok
         else -> StatusTints.warning
     }
     Notice(
         title = when {
             busy -> tr("Checking…")
-            ready -> tr("Installed and working")
+            ready && pairReady -> tr("Installed and working")
+            ready -> tr("Installed; this pair needs its language packages")
             else -> tr("Not installed")
         },
         message = status?.let { tr(it) } ?: if (!ready && viewModel.hasRuntimeSetup) tr("Install downloads a private Python into the app folder with argostranslate in it.") else null,

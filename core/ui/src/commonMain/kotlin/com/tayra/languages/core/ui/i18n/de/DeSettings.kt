@@ -8,6 +8,7 @@ internal val deSettings: Map<String, String> = mapOf(
     "Not installed" to "Nicht installiert",
     "{0} is not installed" to "{0} ist nicht installiert",
     "Installed and working" to "Installiert und funktionsfähig",
+    "Installed; this pair needs its language packages" to "Installiert; dieses Paar braucht seine Sprachpakete",
     "Check installation" to "Installation prüfen",
     "Checking…" to "Wird geprüft…",
     "Download" to "Herunterladen",

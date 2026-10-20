@@ -260,11 +260,11 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
             if (wide) {
                 Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                     LanguagePairCard(settings, viewModel, learningName, nativeName, Modifier.weight(1f).fillMaxHeight())
-                    EngineCard(settings, viewModel, Modifier.weight(1f).fillMaxHeight())
+                    EngineCard(settings, viewModel, pair.ready, Modifier.weight(1f).fillMaxHeight())
                 }
             } else {
                 LanguagePairCard(settings, viewModel, learningName, nativeName)
-                EngineCard(settings, viewModel)
+                EngineCard(settings, viewModel, pair.ready)
             }
             if (local && (packages.isNotEmpty() || ready)) PackagesCard(viewModel, packages, wanted, pair)
         }
@@ -357,7 +357,7 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
 }
 
 @Composable
-private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationViewModel, modifier: Modifier = Modifier) {
+private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationViewModel, pairReady: Boolean, modifier: Modifier = Modifier) {
     val engine = settings.translationEngine
     val local = engine == TranslationEngine.ARGOS && viewModel.hasLocalTranslator
     val subtitle = when {
@@ -385,7 +385,7 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
         }
         Spacer(Modifier.height(AppSpacing.l))
         when {
-            local -> LocalEngineStatus(settings, viewModel)
+            local -> LocalEngineStatus(settings, viewModel, pairReady)
             engine == TranslationEngine.GOOGLE -> GoogleSettings(settings, viewModel)
             else -> AppTextField(
                 value = settings.translationContactEmail,
@@ -401,21 +401,23 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
 
 /** Whether the on-device translator works, with buttons to check it or install it, and its runtime settings. */
 @Composable
-private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslationViewModel) {
+private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslationViewModel, pairReady: Boolean) {
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
     var advanced by remember { mutableStateOf(false) }
+    // The engine working is not the whole story: until the pair's packages are in, it is amber, as the status pill above says.
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
-        ready -> StatusTints.ok
+        ready && pairReady -> StatusTints.ok
         else -> StatusTints.warning
     }
     Notice(
         title = when {
             busy -> tr("Checking…")
-            ready -> tr("Installed and working")
+            ready && pairReady -> tr("Installed and working")
+            ready -> tr("Installed; this pair needs its language packages")
             else -> tr("Not installed")
         },
         message = status?.let { tr(it) } ?: if (!ready && viewModel.hasRuntimeSetup) tr("Install downloads a private Python into the app folder with argostranslate in it.") else null,
