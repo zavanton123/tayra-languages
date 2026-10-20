@@ -7,6 +7,8 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -183,7 +185,8 @@ private fun LabelledBar(label: String, percent: Int?, color: Color) {
     }
 }
 
-/** A book as a card: cover, title, words and status, the two bars, and when it was opened. */
+/** A book as a card: cover, title, its length and when it was opened, its status and tags, and the two bars. */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Boolean, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
@@ -200,9 +203,17 @@ private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Bool
             Spacer(Modifier.width(AppSpacing.l))
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
                 Text(book.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                Text(words(book.wordCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                Row { StatusTag(book.readingStatus, TagSize.Medium) }
-                BookTags(book.tags)
+                // Length and when it was opened share a line, and the status its tags', so more books fit on a screen.
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    val meta = MaterialTheme.typography.bodyMedium
+                    Text(words(book.wordCount), style = meta, color = colors.onSurfaceVariant)
+                    Text("·", style = meta, color = colors.onSurfaceVariant)
+                    Text(book.lastOpened?.let { tr("Opened {0}", it.relativeTo()) } ?: tr("Not opened yet"), style = meta, color = colors.onSurfaceVariant, maxLines = 1)
+                }
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                    StatusTag(book.readingStatus, TagSize.Medium)
+                    BookTags(book.tags)
+                }
             }
             BookMenu(book, callbacks)
         }
@@ -221,11 +232,6 @@ private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Bool
                 Text(labels[1], Modifier.width(labelWidth), style = labelStyle, color = colors.onSurfaceVariant, maxLines = 1, softWrap = false)
                 Box(Modifier.weight(1f)) { PercentBar(book.masteryPercent, AppAccents.green) }
             }
-        }
-        AppDivider(Modifier.padding(top = AppSpacing.l, bottom = AppSpacing.m, end = AppSpacing.m))
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            Icon(AppIcons.History, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconCompact))
-            Text(book.lastOpened?.let { tr("Opened {0}", it.relativeTo()) } ?: tr("Not opened yet"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
         }
     }
 }
