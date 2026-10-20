@@ -202,7 +202,8 @@ internal fun WordFrequencyContent(
     BoxWithConstraints(modifier.fillMaxSize()) {
         val index = overview != null && width.isExpanded
         val usable = maxWidth - side * 2 - (if (index) INDEX_WIDTH else 0.dp)
-        val columns = (usable / CELL_WIDTH).toInt().coerceIn(2, 8)
+        // A phone takes three narrower columns: most common words are short, and two leave half of each cell empty.
+        val columns = (usable / if (compact) CELL_WIDTH_COMPACT else CELL_WIDTH).toInt().coerceIn(2, 8)
         val rows = remember(bands, columns) { bands.map { columnRows(it.words, columns) } }
         // Where each band starts in the list: the header, then per band its title and its rows.
         val bandItems = remember(rows) {
@@ -317,6 +318,7 @@ private val BASE_LETTERS: Map<Char, Char> = buildMap {
 /** Room under the last band, so the Jump to rank button never hides its words. */
 private val JUMP_ROOM = 88.dp
 private val CELL_WIDTH = 168.dp
+private val CELL_WIDTH_COMPACT = 112.dp
 private val INDEX_WIDTH = 56.dp
 private val WORD_MIN_WIDTH = 24.dp
 private val SEARCH_WIDTH = 320.dp
