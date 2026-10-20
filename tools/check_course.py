@@ -141,6 +141,9 @@ def load_list(code):
     return ranks, words
 
 
+# As SegmentingParser has them: the numbers and demonstratives a measure word follows, and the measure words.
+COUNTING = "一二两三四五六七八九十百千万几这那哪每"
+MEASURES = "个個本只隻位次天名家件张張条條种種句双雙块塊杯碗岁歲点點辆輛台層层门門份节節场場篇首遍"
 CHINESE_NUMBER = re.compile(r"[零〇一二三四五六七八九十百千万亿两]+")
 CJK_RUN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+")
 
@@ -164,6 +167,9 @@ def chinese_tokens(text, ranks):
         start = [0] * (len(run) + 1)
         for end in range(1, len(run) + 1):
             for i in range(max(0, end - longest), end):
+                # After a number or a demonstrative, a measure word goes with it (两个人 is 两 + 个 + 人).
+                if end - i > 1 and i > 0 and run[i - 1] in COUNTING and run[i] in MEASURES:
+                    continue
                 rank = ranks.get(fold("zh", run[i:end]))
                 if rank is None:
                     if end - i > 1:
@@ -528,6 +534,15 @@ def check(path, brief=False):
     seen_new = set()
     ok = True
     report = []
+    # Where each new word is taught, by its forms: a Chinese lesson must not use a word a later lesson teaches.
+    taught_in = {}
+    if code == "zh":
+        for j, later in enumerate(course["lessons"], start=1):
+            for new in later.get("newWords", []):
+                key = fold(code, new.lower())
+                entry = words.get(key) or next((e for w, e in words.items() if key in e[2]), None)
+                for form in [key] + (entry[2] if entry else []):
+                    taught_in.setdefault(form, (j, new))
     for i, lesson in enumerate(course["lessons"], start=1):
         text = lesson["text"]
         whole_names = 0
@@ -612,6 +627,9 @@ def check(path, brief=False):
             if uses < 2:
                 problems.append(f"new word '{new}' used {uses}x, needs 2+")
             seen_new.add(key)
+        early = sorted({taught_in[t] for t in lowered if t in taught_in and taught_in[t][0] > i})
+        for j, new in early:
+            problems.append(f"uses '{new}' before lesson {j} teaches it")
         status = "PASS" if not problems else "FAIL"
         ok = ok and not problems
         line = f"lesson {i:2} {status}  {len(lowered)} words, coverage {coverage:.1%}, {len(lesson.get('newWords', []))} new"

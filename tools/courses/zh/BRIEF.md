@@ -26,7 +26,7 @@ story; a lesson never needs another lesson to make sense.
   - ranks 1–500: 是, 有, 在 (to be at), 很 + adjective, questions with 吗, 呢, 什么, 哪里, 谁,
     几, negation with 不 and 没, the measure words 个, 本, 杯, 只, 的 for possession and
     description, 想, 要, 喜欢, 会, 能, 可以, times and days before the verb;
-  - ranks 501–1000: 了 for a finished action and a new situation, 过 for experience, 在 / 正在 for
+  - ranks 501–1000: 了 in all its uses (a simple 了 for a finished action is fine from the start), 过 for experience, 在 / 正在 for
     an action in progress, 比 comparisons, 因为……所以, 还是 and 或者, 已经, 就 and 才, simple
     direction complements (回来, 出去, 上来), verb repetition (看看, 试一试);
   - ranks 1001–1300: result complements (看完, 听懂, 找到, 做好), the 把 sentence, the 被 passive,
