@@ -182,7 +182,9 @@ private fun BookCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNa
     // As on Books: the current page's share, and never all of it until the book is marked finished.
     val percent = if (book.pageCount > 0) (100 * book.currentPage / book.pageCount).coerceIn(0, 99) else 0
     ActionCard(
-        tr("Continue book"), book.title, tr("Page {0} of {1}", book.currentPage, book.pageCount), AppIcons.MenuBook, AppAccents.purple, "book", modifier, fill,
+        // A text of one page has no pages to count, so its length is given instead.
+        tr("Continue book"), book.title,
+        if (book.pageCount > 1) tr("Page {0} of {1}", book.currentPage, book.pageCount) else trPlural(book.wordCount, "{1} word", "{1} words", formatCount(book.wordCount)), AppIcons.MenuBook, AppAccents.purple, "book", modifier, fill,
         button = tr("Continue book"), onClick = { onNavigate(Route.Read(book.id)) },
         progress = percent / 100f, progressText = "$percent%",
     )
