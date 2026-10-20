@@ -125,6 +125,12 @@ internal val plCourses: Map<String, String> = mapOf(
 
     // Flashcard answers (Rating.label), shown through tr(label).
     "Again" to "Powtórz",
+    "<1m" to "<1 min",
+    "{0}m" to "{0} min",
+    "{0}h" to "{0} godz.",
+    "{0}d" to "{0} dn.",
+    "{0}mo" to "{0} mies.",
+    "{0}y" to "{0} l.",
     "Hard" to "Trudne",
     "Good" to "Dobre",
     "Easy" to "Łatwe",

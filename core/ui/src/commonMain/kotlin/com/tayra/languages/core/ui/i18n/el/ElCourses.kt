@@ -125,6 +125,12 @@ internal val elCourses: Map<String, String> = mapOf(
 
     // Flashcard answers (Rating.label), shown through tr(label).
     "Again" to "Ξανά",
+    "<1m" to "<1 λεπ.",
+    "{0}m" to "{0} λεπ.",
+    "{0}h" to "{0} ώρ.",
+    "{0}d" to "{0} ημ.",
+    "{0}mo" to "{0} μήν.",
+    "{0}y" to "{0} έτ.",
     "Hard" to "Δύσκολο",
     "Good" to "Καλό",
     "Easy" to "Εύκολο",

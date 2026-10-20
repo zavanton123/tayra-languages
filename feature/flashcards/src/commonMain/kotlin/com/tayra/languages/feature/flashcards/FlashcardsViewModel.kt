@@ -32,6 +32,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlin.coroutines.cancellation.CancellationException
 import kotlin.time.Duration.Companion.seconds
+import kotlin.time.Duration
 import kotlin.time.Instant
 
 /** What a card shows: the same content as the cards exported to Anki. */
@@ -68,7 +69,12 @@ data class FlashcardsUiState(
     val answered: Int = 0,
     /** Only Again and Good are offered, as the settings ask. */
     val twoButtons: Boolean = false,
+    /** How long each answer would put the card away for, shown on its button. */
+    val waits: Map<Rating, CardWait> = emptyMap(),
 )
+
+/** How long until a card comes back: in [days] once it is a review, else as a [duration] in its steps. */
+data class CardWait(val days: Int?, val duration: Duration)
 
 sealed interface FlashcardsEvent {
     /** Read [text] aloud; the answer was just shown. */
@@ -157,6 +163,7 @@ class FlashcardsViewModel(
                     nextLearningAt = session.nextLearningAt,
                     canUndo = answers.isNotEmpty(),
                     twoButtons = settings.current.flashcardTwoButtons,
+                    waits = session.outcomes.mapValues { (_, after) -> CardWait(after.intervalDays.takeIf { after.state.isReview }, after.due - session.shownAt) },
                 )
             }
             if (term != null && language != null) loadExtras(term, language)

@@ -125,6 +125,12 @@ internal val deCourses: Map<String, String> = mapOf(
 
     // Flashcard answers (Rating.label), shown through tr(label).
     "Again" to "Nochmal",
+    "<1m" to "<1 Min.",
+    "{0}m" to "{0} Min.",
+    "{0}h" to "{0} Std.",
+    "{0}d" to "{0} T.",
+    "{0}mo" to "{0} Mon.",
+    "{0}y" to "{0} J.",
     "Hard" to "Schwer",
     "Good" to "Gut",
     "Easy" to "Leicht",

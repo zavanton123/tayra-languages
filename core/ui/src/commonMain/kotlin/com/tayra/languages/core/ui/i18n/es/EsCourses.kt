@@ -125,6 +125,12 @@ internal val esCourses: Map<String, String> = mapOf(
 
     // Flashcard answers (Rating.label), shown through tr(label).
     "Again" to "Otra vez",
+    "<1m" to "<1 min",
+    "{0}m" to "{0} min",
+    "{0}h" to "{0} h",
+    "{0}d" to "{0} d",
+    "{0}mo" to "{0} mes",
+    "{0}y" to "{0} a",
     "Hard" to "Difícil",
     "Good" to "Bien",
     "Easy" to "Fácil",

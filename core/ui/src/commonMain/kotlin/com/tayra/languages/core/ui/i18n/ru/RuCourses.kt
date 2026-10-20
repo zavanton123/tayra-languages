@@ -125,6 +125,12 @@ internal val ruCourses: Map<String, String> = mapOf(
 
     // Flashcard answers (Rating.label), shown through tr(label).
     "Again" to "Снова",
+    "<1m" to "<1 мин",
+    "{0}m" to "{0} мин",
+    "{0}h" to "{0} ч",
+    "{0}d" to "{0} дн.",
+    "{0}mo" to "{0} мес.",
+    "{0}y" to "{0} г.",
     "Hard" to "Трудно",
     "Good" to "Хорошо",
     "Easy" to "Легко",

@@ -125,6 +125,12 @@ internal val frCourses: Map<String, String> = mapOf(
 
     // Flashcard answers (Rating.label), shown through tr(label).
     "Again" to "À revoir",
+    "<1m" to "<1 min",
+    "{0}m" to "{0} min",
+    "{0}h" to "{0} h",
+    "{0}d" to "{0} j",
+    "{0}mo" to "{0} mois",
+    "{0}y" to "{0} an",
     "Hard" to "Difficile",
     "Good" to "Correct",
     "Easy" to "Facile",

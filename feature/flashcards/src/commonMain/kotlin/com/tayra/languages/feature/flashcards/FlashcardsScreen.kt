@@ -1,5 +1,9 @@
 package com.tayra.languages.feature.flashcards
 
+import kotlin.math.roundToInt
+import kotlin.time.Duration.Companion.minutes
+import kotlin.time.Duration.Companion.hours
+import kotlin.time.Duration.Companion.days
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween
@@ -264,7 +268,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                 // Each card fades in as it comes up.
                 key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact, actions.onReveal) } }
                 // The answers fade in as the card turns over.
-                if (state.revealed) Appear { Answers(actions, compact, state.twoButtons) }
+                if (state.revealed) Appear { Answers(actions, compact, state.twoButtons, state.waits) }
                 CardFooter(card, state.canUndo, actions, compact)
             }
         }
@@ -501,7 +505,7 @@ private fun StateLabel(state: CardState) {
 
 /** The answers: all four, or Again and Good only. */
 @Composable
-private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boolean) {
+private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boolean, waits: Map<Rating, CardWait> = emptyMap()) {
     val ratings = if (twoButtons) listOf(Rating.AGAIN, Rating.GOOD) else Rating.entries
     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.s else AppSpacing.l)) {
         ratings.forEach { rating ->
@@ -513,6 +517,8 @@ private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boo
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
                 Text(label, style = AppText.itemTitle, color = tint)
+                // When the card would come back, so the four answers can be told apart before choosing.
+                waits[rating]?.let { Text(it.short(), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("wait-${rating.label}")) }
             }
         }
     }
@@ -615,4 +621,17 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
 internal fun clockTime(instant: Instant): String {
     val time = instant.toLocalDateTime(TimeZone.currentSystemDefault()).time
     return "${time.hour.toString().padStart(2, '0')}:${time.minute.toString().padStart(2, '0')}"
+}
+
+/** A wait as short as a button has room for: "<1m", "10m", "4h", "3d", "2mo", "1.5y". */
+internal fun CardWait.short(): String {
+    val days = days ?: duration.inWholeDays.toInt().takeIf { duration >= 1.days }
+    return when {
+        days == null && duration < 1.minutes -> tr("<1m")
+        days == null && duration < 1.hours -> tr("{0}m", duration.inWholeMinutes)
+        days == null -> tr("{0}h", duration.inWholeHours)
+        days < 30 -> tr("{0}d", days)
+        days < 365 -> tr("{0}mo", days / 30)
+        else -> tr("{0}y", (days / 36.5).roundToInt() / 10.0)
+    }
 }

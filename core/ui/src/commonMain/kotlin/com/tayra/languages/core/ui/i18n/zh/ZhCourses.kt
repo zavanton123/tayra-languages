@@ -125,6 +125,12 @@ internal val zhCourses: Map<String, String> = mapOf(
 
     // Flashcard answers (Rating.label), shown through tr(label).
     "Again" to "重来",
+    "<1m" to "<1分钟",
+    "{0}m" to "{0}分钟",
+    "{0}h" to "{0}小时",
+    "{0}d" to "{0}天",
+    "{0}mo" to "{0}个月",
+    "{0}y" to "{0}年",
     "Hard" to "困难",
     "Good" to "良好",
     "Easy" to "简单",
