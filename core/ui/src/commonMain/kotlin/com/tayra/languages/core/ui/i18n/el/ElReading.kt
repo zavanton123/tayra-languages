@@ -115,7 +115,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Settings" to "Ρυθμίσεις",
     "Setting up offline translation: {0}" to "Ρύθμιση μετάφρασης εκτός σύνδεσης: {0}",
     "Vocabulary on this page" to "Λεξιλόγιο αυτής της σελίδας",
-    "{0}% new" to "{0}% νέες",
+    "{0}% unknown" to "{0}% άγνωστες",
     "Finish book" to "Ολοκλήρωση βιβλίου",
     "Finish lesson" to "Ολοκλήρωση ενότητας",
     "Back to library" to "Πίσω στη βιβλιοθήκη",

@@ -115,7 +115,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Settings" to "Настройки",
     "Setting up offline translation: {0}" to "Настройка офлайн-перевода: {0}",
     "Vocabulary on this page" to "Слова на этой странице",
-    "{0}% new" to "{0}% новых",
+    "{0}% unknown" to "{0}% незнакомых",
     "Finish book" to "Завершить книгу",
     "Finish lesson" to "Завершить урок",
     "Back to library" to "Назад к книгам",

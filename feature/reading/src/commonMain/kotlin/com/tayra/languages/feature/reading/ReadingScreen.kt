@@ -894,7 +894,7 @@ private fun PageVocabulary(state: ReadingUiState) {
     Row(Modifier.fillMaxWidth().padding(top = AppSpacing.m, bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         Text(tr("Vocabulary on this page"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         StatusDistributionBar(stats, Modifier.widthIn(max = VOCABULARY_BAR_WIDTH).weight(1f, fill = false).fillMaxWidth(), scope = "on this page")
-        Text(if (stats.distinctTerms > 0) tr("{0}% new", stats.unknownPercent) else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Text(if (stats.distinctTerms > 0) tr("{0}% unknown", stats.unknownPercent) else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
 }
 

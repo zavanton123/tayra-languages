@@ -115,7 +115,7 @@ internal val esReading: Map<String, String> = mapOf(
     "Settings" to "Ajustes",
     "Setting up offline translation: {0}" to "Configurando la traducción sin conexión: {0}",
     "Vocabulary on this page" to "Vocabulario de esta página",
-    "{0}% new" to "{0}% nuevas",
+    "{0}% unknown" to "{0}% desconocidas",
     "Finish book" to "Terminar libro",
     "Finish lesson" to "Terminar lección",
     "Back to library" to "Volver a la biblioteca",

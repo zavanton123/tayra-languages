@@ -173,8 +173,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Term information" to "Сведения о слове",
     "Use a concise meaning or contextual translation." to "Кратко укажите значение или перевод в контексте.",
     "How well do you know this term?" to "Насколько хорошо вы знаете это слово?",
-    "1 New" to "1 Новое",
-    "K Known" to "K Знаю",
     "Not saved yet" to "Ещё не сохранено",
     "Last updated" to "Последнее изменение",
     "Just now" to "Только что",

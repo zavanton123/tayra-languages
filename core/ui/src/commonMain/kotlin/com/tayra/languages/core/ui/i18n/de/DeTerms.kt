@@ -173,8 +173,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Term information" to "Angaben zum Begriff",
     "Use a concise meaning or contextual translation." to "Gib eine knappe Bedeutung oder eine Übersetzung im Kontext an.",
     "How well do you know this term?" to "Wie gut kennst du diesen Begriff?",
-    "1 New" to "1 Neu",
-    "K Known" to "K Bekannt",
     "Not saved yet" to "Noch nicht gespeichert",
     "Last updated" to "Zuletzt geändert",
     "Just now" to "Gerade eben",

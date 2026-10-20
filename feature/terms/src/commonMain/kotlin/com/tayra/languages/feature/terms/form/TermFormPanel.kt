@@ -488,10 +488,6 @@ private fun StatusCard(modifier: Modifier, state: TermFormUiState, viewModel: Te
     FormCard(modifier, AppIcons.BarChart, tr("Learning status")) {
         Text(tr("How well do you know this term?"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
         StatusSelector(selected = state.draft.status, onSelect = viewModel::setStatus, expanded = true)
-        Row(Modifier.fillMaxWidth()) {
-            Text(tr("1 New"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
-            Text(tr("K Known"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        }
         AppDivider()
         KeyValueRow(tr("Added"), state.createdAt?.let { it.formatDate() } ?: tr("Not saved yet"))
         KeyValueRow(tr("Last updated"), if (state.saved) tr("Just now") else if (state.dirty) tr("Unsaved changes") else "\u2014")

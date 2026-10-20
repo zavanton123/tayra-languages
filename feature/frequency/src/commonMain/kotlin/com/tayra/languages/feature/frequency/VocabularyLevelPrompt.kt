@@ -439,7 +439,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
         // Three legends do not always fit one phone-wide row.
         FlowRow(horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             PreviewLegend(null, tr("Known"))
-            PreviewLegend(TayraTheme.current.statusColors.background(TermStatus.UNKNOWN), tr("New"))
+            PreviewLegend(TayraTheme.current.statusColors.background(TermStatus.UNKNOWN), tr("Unknown"))
             PreviewLegend(outside, tr("Outside frequency list"))
         }
     }

@@ -137,7 +137,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 Spacer(Modifier.height(AppSpacing.m))
                 Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.CenterVertically) {
                     PreviewLegend(null, tr("Known"))
-                    PreviewLegend(TayraTheme.current.statusColors.background(TermStatus.UNKNOWN), tr("New"))
+                    PreviewLegend(TayraTheme.current.statusColors.background(TermStatus.UNKNOWN), tr("Unknown"))
                     PreviewLegend(colors.onSurfaceVariant.copy(alpha = AppAlpha.half), tr("Outside frequency list"))
                 }
             }

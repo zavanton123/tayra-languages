@@ -173,8 +173,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Term information" to "Informations sur le terme",
     "Use a concise meaning or contextual translation." to "Indiquez un sens concis ou une traduction en contexte.",
     "How well do you know this term?" to "Connaissez-vous bien ce terme ?",
-    "1 New" to "1 Nouveau",
-    "K Known" to "K Connu",
     "Not saved yet" to "Pas encore enregistré",
     "Last updated" to "Dernière modification",
     "Just now" to "À l’instant",

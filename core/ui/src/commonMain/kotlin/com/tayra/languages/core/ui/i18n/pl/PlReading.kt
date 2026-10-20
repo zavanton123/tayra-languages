@@ -115,7 +115,7 @@ internal val plReading: Map<String, String> = mapOf(
     "Settings" to "Ustawienia",
     "Setting up offline translation: {0}" to "Konfigurowanie tłumaczenia offline: {0}",
     "Vocabulary on this page" to "Słownictwo na tej stronie",
-    "{0}% new" to "Nowe: {0}%",
+    "{0}% unknown" to "Nieznane: {0}%",
     "Finish book" to "Zakończ książkę",
     "Finish lesson" to "Zakończ lekcję",
     "Back to library" to "Wróć do biblioteki",

@@ -115,7 +115,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Settings" to "Einstellungen",
     "Setting up offline translation: {0}" to "Offline-Übersetzung wird eingerichtet: {0}",
     "Vocabulary on this page" to "Wortschatz auf dieser Seite",
-    "{0}% new" to "{0} % neu",
+    "{0}% unknown" to "{0} % unbekannt",
     "Finish book" to "Buch abschließen",
     "Finish lesson" to "Lektion abschließen",
     "Back to library" to "Zurück zur Bibliothek",

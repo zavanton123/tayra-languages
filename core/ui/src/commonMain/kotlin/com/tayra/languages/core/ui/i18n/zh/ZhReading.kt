@@ -115,7 +115,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Settings" to "设置",
     "Setting up offline translation: {0}" to "正在设置离线翻译：{0}",
     "Vocabulary on this page" to "本页词汇",
-    "{0}% new" to "{0}% 新词",
+    "{0}% unknown" to "{0}% 生词",
     "Finish book" to "读完本书",
     "Finish lesson" to "完成课文",
     "Back to library" to "返回书库",

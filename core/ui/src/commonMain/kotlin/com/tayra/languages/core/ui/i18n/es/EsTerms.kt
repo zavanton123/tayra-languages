@@ -173,8 +173,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Term information" to "Información de la palabra",
     "Use a concise meaning or contextual translation." to "Escribe un significado breve o la traducción en contexto.",
     "How well do you know this term?" to "¿Cómo de bien conoces esta palabra?",
-    "1 New" to "1 Nuevo",
-    "K Known" to "K Conocido",
     "Not saved yet" to "Aún sin guardar",
     "Last updated" to "Última modificación",
     "Just now" to "Ahora mismo",
