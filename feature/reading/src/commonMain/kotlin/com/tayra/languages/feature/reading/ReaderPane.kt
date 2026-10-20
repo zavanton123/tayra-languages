@@ -163,6 +163,8 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
                     PaneTab.AUDIO -> AudioTab(state, viewModel, onSpeechSettings = { onClose(); actions.onSpeechSettings() })
                     PaneTab.APPEARANCE -> AppearanceTab(state, viewModel)
                 }
+                // At the end of the settings it resets, not pinned under every tab and the bookmarks.
+                LinkText(tr("Reset reader settings"), onClick = { confirmReset = true }, modifier = Modifier.align(Alignment.CenterHorizontally).testTag("reset-reader"), icon = Icons.Default.Refresh)
             }
         }
         ReaderTools(
@@ -171,7 +173,6 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
             onBookmarks = { showBookmarks = !showBookmarks },
             actions = actions,
             onClose = onClose,
-            onReset = { confirmReset = true },
         )
     }
     if (confirmReset) {
@@ -533,10 +534,12 @@ private fun BookmarkCard(bookmark: PageBookmark, current: Boolean, viewModel: Re
 // ---- Reader tools
 
 @Composable
-private fun ReaderTools(state: ReadingUiState, bookmarksOpen: Boolean, onBookmarks: () -> Unit, actions: ReaderPaneActions, onClose: () -> Unit, onReset: () -> Unit) {
+private fun ReaderTools(state: ReadingUiState, bookmarksOpen: Boolean, onBookmarks: () -> Unit, actions: ReaderPaneActions, onClose: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+    // A phone's pane keeps the tools to one short row, so the settings above get the room.
+    val compact = LocalWindowWidth.current.isCompact
+    Column(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = if (compact) AppSpacing.s else AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        if (!compact) Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Text(tr("Reader tools"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             AppDivider(Modifier.weight(1f))
         }
@@ -558,7 +561,6 @@ private fun ReaderTools(state: ReadingUiState, bookmarksOpen: Boolean, onBookmar
             Box(Modifier.weight(1f)) { ToolTile(AppIcons.Bookmark, tr("Bookmarks"), tr("View or add"), active = bookmarksOpen, tag = "tool-bookmarks", onClick = onBookmarks) }
             Box(Modifier.weight(1f)) { ToolTile(Icons.AutoMirrored.Filled.List, tr("Vocabulary"), tr("Terms on this page"), active = false, tag = "tool-vocabulary") { onClose(); actions.onTermList() } }
         }
-        LinkText(tr("Reset reader settings"), onClick = onReset, modifier = Modifier.align(Alignment.CenterHorizontally).testTag("reset-reader"), icon = Icons.Default.Refresh)
     }
 }
 
@@ -575,7 +577,7 @@ private fun ToolTile(icon: ImageVector, label: String, note: String, active: Boo
     ) {
         Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
         Text(label, style = AppText.labelStrong, maxLines = 1)
-        Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis, textAlign = TextAlign.Center)
+        if (!LocalWindowWidth.current.isCompact) Text(note, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis, textAlign = TextAlign.Center)
     }
 }
 
