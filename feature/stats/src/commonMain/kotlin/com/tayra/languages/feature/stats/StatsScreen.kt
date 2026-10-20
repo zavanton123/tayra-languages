@@ -223,7 +223,7 @@ private fun WordsPerDayCard(o: LanguageOverview, modifier: Modifier) {
     val first = o.today.minus(29, DateTimeUnit.DAY)
     val values = (0 until 30).map { o.readingDays[first.plus(it, DateTimeUnit.DAY)] ?: 0 }
     ContentCard(tr("Words read per day"), tr("The last 30 days: {0} words", formatCount(values.sum())), icon = AppIcons.MenuBook, modifier = modifier) {
-        BarChart(values, AppAccents.blue, first.shortDate(), o.today.shortDate(), Modifier.testTag("words-per-day"))
+        BarChart(values, AppAccents.blue, first.shortDate(), o.today.shortDate(), tr("No reading in the last 30 days. Words you read in books and lessons count here."), Modifier.testTag("words-per-day"))
     }
 }
 
@@ -231,18 +231,25 @@ private fun WordsPerDayCard(o: LanguageOverview, modifier: Modifier) {
 private fun SavedPerWeekCard(o: LanguageOverview, modifier: Modifier) {
     val firstWeekEnd = o.today.minus((o.savedByWeek.size - 1) * 7, DateTimeUnit.DAY)
     ContentCard(tr("New words saved per week"), o.savedByWeek.sum().let { trPlural(it, "The last 12 weeks: {1} word", "The last 12 weeks: {1} words", formatCount(it)) }, icon = AppIcons.Abc, modifier = modifier) {
-        BarChart(o.savedByWeek, AppAccents.orange, firstWeekEnd.minus(6, DateTimeUnit.DAY).shortDate(), o.today.shortDate(), Modifier.testTag("saved-per-week"))
+        BarChart(o.savedByWeek, AppAccents.orange, firstWeekEnd.minus(6, DateTimeUnit.DAY).shortDate(), o.today.shortDate(), tr("No words saved in the last 12 weeks. Words get saved when you give them a status while reading."), Modifier.testTag("saved-per-week"))
     }
 }
 
-/** Columns for [values], oldest first, with the highest one's value above and the first and last dates under them. */
+/**
+ * Columns for [values], oldest first, with the highest one's value above and the first and last
+ * dates under them; with nothing to draw, [empty] says so in place of an empty chart.
+ */
 @Composable
-private fun BarChart(values: List<Int>, color: Color, from: String, to: String, modifier: Modifier = Modifier) {
+private fun BarChart(values: List<Int>, color: Color, from: String, to: String, empty: String, modifier: Modifier = Modifier) {
     val max = values.maxOrNull() ?: 0
     val muted = MaterialTheme.colorScheme.onSurfaceVariant
     val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
+    if (max == 0) {
+        Text(empty, modifier, style = MaterialTheme.typography.bodyMedium, color = muted)
+        return
+    }
     Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        Text(if (max > 0) tr("Most: {0}", formatCount(max)) else tr("Nothing yet"), style = MaterialTheme.typography.bodySmall, color = muted)
+        Text(tr("Most: {0}", formatCount(max)), style = MaterialTheme.typography.bodySmall, color = muted)
         Canvas(Modifier.fillMaxWidth().height(BAR_CHART_HEIGHT)) {
             val slot = size.width / values.size
             val bar = slot * 0.68f
@@ -314,7 +321,7 @@ private fun FlashcardsCard(o: LanguageOverview, modifier: Modifier) {
         icon = AppIcons.DoneAll,
         modifier = modifier,
     ) {
-        BarChart(values, AppAccents.purple, first.shortDate(), o.today.shortDate(), Modifier.testTag("reviews-per-day"))
+        BarChart(values, AppAccents.purple, first.shortDate(), o.today.shortDate(), tr("No flashcard reviews in the last 30 days."), Modifier.testTag("reviews-per-day"))
     }
 }
 
