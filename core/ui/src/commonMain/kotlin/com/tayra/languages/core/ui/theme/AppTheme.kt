@@ -287,7 +287,20 @@ object AppThemes {
         palette("tomorrow_night", "Tomorrow Night", 0xFF1D1F21, 0xFFC5C8C6, 0xFF969896, 0xFF81A2BE, 0xFFB294BB, 0xFF81A2BE, 0xFFF0C674, 0xFFCC6666, 0xFFB5BD68, 0xFFDE935F),
     )
 
-    val all: List<AppTheme> = listOf(default, sepia, night) + editorThemes
+    /**
+     * Light themes in soft colours: a pastel page, dark text with a hint of the same hue and an
+     * accent in it. New words keep a blue that stands apart from the page, a deeper one on the blue page.
+     */
+    private val colourThemes = listOf(
+        palette("light_green", "Green", 0xFFF1F8EE, 0xFF1F2D1F, 0xFF55685A, 0xFF2E7D32, 0xFF5B8C5A, 0xFF2F6FE0, 0xFFF2B400, 0xFFD84343, 0xFF1B9E4B, 0xFFC2410C),
+        palette("light_blue", "Blue", 0xFFEEF4FB, 0xFF1B2533, 0xFF55647A, 0xFF1565C0, 0xFF5878A0, 0xFF5B3FE0, 0xFFF2B400, 0xFFD84343, 0xFF2E9E50, 0xFFC2410C),
+        palette("light_pink", "Pink", 0xFFFCF0F4, 0xFF33202A, 0xFF795A68, 0xFFC2185B, 0xFF9C5C7A, 0xFF2F6FE0, 0xFFF2B400, 0xFFD84343, 0xFF2E9E50, 0xFF6A3FB5),
+        palette("light_lavender", "Lavender", 0xFFF4F1FA, 0xFF262033, 0xFF645D78, 0xFF6A3FB5, 0xFF8A70B8, 0xFF2F6FE0, 0xFFF2B400, 0xFFD84343, 0xFF2E9E50, 0xFFC2410C),
+        palette("light_peach", "Peach", 0xFFFDF3EC, 0xFF33241B, 0xFF795F52, 0xFFC4500A, 0xFFA66E4E, 0xFF2F6FE0, 0xFFE6A700, 0xFFD84343, 0xFF2E9E50, 0xFF1565C0),
+        palette("light_teal", "Teal", 0xFFEEF8F7, 0xFF1B2E2C, 0xFF536F6B, 0xFF00796B, 0xFF4E8C85, 0xFF2F6FE0, 0xFFF2B400, 0xFFD84343, 0xFF43A047, 0xFFC2410C),
+    )
+
+    val all: List<AppTheme> = listOf(default, sepia) + colourThemes + night + editorThemes
 
     /** Themes that were removed, and the one that now stands in for each. */
     private val retired = mapOf("dark_slate" to "darcula")

@@ -84,7 +84,8 @@ class SettingsScreenTest {
 
         onNodeWithTag("phone-theme").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Darcula").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Darcula").performClick()
+        // The light themes come first, so the dark ones are further down the sheet.
+        onNodeWithText("Darcula").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.themeId == AppThemes.all.first { it.label == "Darcula" }.id }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Gruvbox Dark").fetchSemanticsNodes().isEmpty() }
 
