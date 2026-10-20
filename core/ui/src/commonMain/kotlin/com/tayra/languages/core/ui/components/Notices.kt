@@ -24,6 +24,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.vector.ImageVector
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
@@ -55,6 +56,35 @@ fun TintedSurface(
 }
 
 /**
+ * The colour of a banner that only informs: the theme's primary, unless that is a warm orange or
+ * red, which would read as a warning; then the app's blue, lifted on dark themes.
+ */
+@Composable
+private fun infoTint(): Color {
+    val primary = MaterialTheme.colorScheme.primary
+    return if (primary.isWarm()) AppAccents.onWash(AppAccents.blue) else primary
+}
+
+/** Whether a colour is a bright red, orange or yellow, the hues warnings use. */
+private fun Color.isWarm(): Boolean {
+    val max = maxOf(red, green, blue)
+    val min = minOf(red, green, blue)
+    // A dark brown, as Sepia's, is not a warning colour: only bright warm hues are.
+    if (max - min < WARM_MIN_CHROMA || max < WARM_MIN_VALUE) return false
+    val hue = when (max) {
+        red -> 60f * (((green - blue) / (max - min)).mod(6f))
+        green -> 60f * ((blue - red) / (max - min) + 2f)
+        else -> 60f * ((red - green) / (max - min) + 4f)
+    }
+    return hue < WARM_HUE_END || hue > WARM_HUE_START
+}
+
+private const val WARM_MIN_CHROMA = 0.15f
+private const val WARM_MIN_VALUE = 0.7f
+private const val WARM_HUE_END = 65f
+private const val WARM_HUE_START = 330f
+
+/**
  * A tinted note with an icon, such as where downloads go or what a list holds. [dense] is the
  * lighter one inside a card: smaller, without an outline.
  */
@@ -62,7 +92,7 @@ fun TintedSurface(
 fun InfoBanner(
     text: String,
     modifier: Modifier = Modifier,
-    tint: Color = MaterialTheme.colorScheme.primary,
+    tint: Color = infoTint(),
     icon: ImageVector = Icons.Default.Info,
     dense: Boolean = false,
 ) {
