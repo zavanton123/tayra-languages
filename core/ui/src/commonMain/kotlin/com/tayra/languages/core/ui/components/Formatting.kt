@@ -31,10 +31,8 @@ private const val WEEK = 7 * DAY
 private const val MONTH = 30 * DAY
 private const val YEAR = 365 * DAY
 
-fun Instant.formatDate(timeZone: TimeZone = TimeZone.currentSystemDefault()): String {
-    val dt = toLocalDateTime(timeZone)
-    return "${dt.year}-${dt.month.ordinal.plus(1).toString().padStart(2, '0')}-${dt.day.toString().padStart(2, '0')}"
-}
+/** A date as the interface language writes it, "Oct 7, 2026". */
+fun Instant.formatDate(timeZone: TimeZone = TimeZone.currentSystemDefault()): String = toLocalDateTime(timeZone).date.shortDateWithYear()
 
 private val monthKeys = listOf("Jan {0}", "Feb {0}", "Mar {0}", "Apr {0}", "May {0}", "Jun {0}", "Jul {0}", "Aug {0}", "Sep {0}", "Oct {0}", "Nov {0}", "Dec {0}")
 
