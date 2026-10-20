@@ -1,5 +1,8 @@
 package com.tayra.languages.feature.courses
 
+import androidx.compose.material3.Icon
+import com.tayra.languages.core.ui.components.Segment
+import com.tayra.languages.core.ui.components.SegmentedToggle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -460,31 +463,51 @@ private fun FormActions(saveLabel: String, saving: Boolean, onCancel: () -> Unit
 
 private val LESSON_TEXT_HEIGHT = 380.dp
 
-/** Where a new lesson's text comes from besides typing: a file, or a web page's article. */
+/** Where a new lesson's text comes from: typed or pasted, a file, or a web page's article, chosen as in the book form. */
+private enum class LessonTextSource(val label: String) { PASTE("Paste text"), FILE("Import file"), WEB("Web page") }
+
+/** The choice of where the text comes from, above it, with what that choice needs: a file to pick, or a page's address. */
 @Composable
 private fun LessonSource(state: LessonFormUiState, onImportFile: (String, ByteArray) -> Unit, onImportWebPage: (String) -> Unit) {
     val scope = rememberCoroutineScope()
     val picker = rememberFilePickerLauncher(type = FileKitType.File(FileTextExtractor.pickerExtensions)) { file ->
         if (file != null) scope.launch { onImportFile(file.name, file.readBytes()) }
     }
+    var source by rememberSaveable { mutableStateOf(LessonTextSource.PASTE) }
     var address by rememberSaveable { mutableStateOf("") }
-    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s), itemVerticalAlignment = Alignment.CenterVertically) {
-            SecondaryButton(tr("Import file"), onClick = { picker.launch() }, icon = AppIcons.UploadFile, enabled = !state.importing, modifier = Modifier.testTag("lesson-file"))
-            if (state.readsWebPages) {
+    // Three choices share a phone's width only without their icons.
+    val compact = LocalWindowWidth.current.isCompact && state.readsWebPages
+    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        SegmentedToggle(
+            LessonTextSource.entries.filter { it != LessonTextSource.WEB || state.readsWebPages }.map { option ->
+                val icon = when (option) {
+                    LessonTextSource.PASTE -> AppIcons.FileOutline
+                    LessonTextSource.FILE -> AppIcons.UploadFile
+                    LessonTextSource.WEB -> AppIcons.Globe
+                }
+                Segment(option, icon.takeUnless { compact }, tr(option.label), testTag = "lesson-source-${option.name}")
+            },
+            source,
+            { source = it },
+            fill = compact,
+        )
+        when (source) {
+            LessonTextSource.PASTE -> Unit
+            LessonTextSource.FILE -> SecondaryButton(tr("Choose file"), onClick = { picker.launch() }, icon = AppIcons.UploadFile, enabled = !state.importing, loading = state.importing, modifier = Modifier.testTag("lesson-file"))
+            LessonTextSource.WEB -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 AppTextField(
                     value = address,
                     onValueChange = { address = it },
                     placeholder = { Text("https://") },
+                    leadingIcon = { Icon(AppIcons.Link, contentDescription = null) },
                     singleLine = true,
-                    modifier = Modifier.widthIn(min = ADDRESS_MIN_WIDTH).testTag("lesson-web-address"),
+                    modifier = Modifier.weight(1f).testTag("lesson-web-address"),
                 )
-                SecondaryButton(tr("Get text"), onClick = { onImportWebPage(address) }, icon = AppIcons.Globe, enabled = address.isNotBlank() && !state.importing, loading = state.importing, modifier = Modifier.testTag("lesson-web-read"))
+                PrimaryButton(tr("Get text"), onClick = { onImportWebPage(address) }, icon = AppIcons.Download, enabled = address.isNotBlank() && !state.importing, loading = state.importing, modifier = Modifier.testTag("lesson-web-read"))
             }
         }
         state.notice?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
     }
 }
 
-private val ADDRESS_MIN_WIDTH = 240.dp
 
