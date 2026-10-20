@@ -11,7 +11,6 @@ internal val deBooks: Map<String, String> = mapOf(
     "Done" to "Fertig",
     "{1} books" to "{1} Buch|{1} Bücher",
     "{1} words learned" to "{1} Wort gelernt|{1} Wörter gelernt",
-    "{0}-day streak" to "{0} Tag in Folge|{0} Tage in Folge",
     "Recently opened" to "Zuletzt geöffnet",
     // BooksScreen.kt
     "Archived books" to "Archivierte Bücher",

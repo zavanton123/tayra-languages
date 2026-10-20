@@ -11,7 +11,6 @@ internal val ptBooks: Map<String, String> = mapOf(
     "Done" to "Concluído",
     "{1} books" to "{1} livro|{1} livros",
     "{1} words learned" to "{1} palavra aprendida|{1} palavras aprendidas",
-    "{0}-day streak" to "{0} dia seguido|{0} dias seguidos",
     "Recently opened" to "Abertos recentemente",
     // BooksScreen.kt
     "Archived books" to "Livros arquivados",

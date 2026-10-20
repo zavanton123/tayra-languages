@@ -74,7 +74,6 @@ class SettingsRepositoryImpl(
             currentLanguageId = store.getLong(Keys.CURRENT_LANGUAGE, defaults.currentLanguageId),
             themeId = store.getString(Keys.THEME, defaults.themeId),
             showHighlights = store.getBoolean(Keys.SHOW_HIGHLIGHTS, defaults.showHighlights),
-            showStreakOnHome = store.getBoolean(Keys.SHOW_STREAK, defaults.showStreakOnHome),
             reduceMotion = store.getBoolean(Keys.REDUCE_MOTION, defaults.reduceMotion),
             statsSampleSize = store.getInt(Keys.STATS_SAMPLE_SIZE, defaults.statsSampleSize),
             readingFontScale = store.getFloat(Keys.FONT_SCALE, defaults.readingFontScale),
@@ -178,7 +177,6 @@ class SettingsRepositoryImpl(
         store.putLong(Keys.CURRENT_LANGUAGE, s.currentLanguageId)
         store.putString(Keys.THEME, s.themeId)
         store.putBoolean(Keys.SHOW_HIGHLIGHTS, s.showHighlights)
-        store.putBoolean(Keys.SHOW_STREAK, s.showStreakOnHome)
         store.putBoolean(Keys.REDUCE_MOTION, s.reduceMotion)
         store.putInt(Keys.STATS_SAMPLE_SIZE, s.statsSampleSize)
         store.putFloat(Keys.FONT_SCALE, s.readingFontScale)
@@ -238,7 +236,6 @@ class SettingsRepositoryImpl(
         const val CURRENT_LANGUAGE = "current_language_id"
         const val THEME = "current_theme"
         const val SHOW_HIGHLIGHTS = "show_highlights"
-        const val SHOW_STREAK = "show_streak_on_home"
         const val REDUCE_MOTION = "reduce_motion"
         const val STATS_SAMPLE_SIZE = "stats_calc_sample_size"
         const val FONT_SCALE = "reading_font_scale"

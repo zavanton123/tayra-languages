@@ -11,7 +11,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Done" to "Готово",
     "{1} books" to "{1} книга|{1} книги|{1} книг",
     "{1} words learned" to "{1} слово выучено|{1} слова выучено|{1} слов выучено",
-    "{0}-day streak" to "{0} день подряд|{0} дня подряд|{0} дней подряд",
     "Recently opened" to "Недавно открытые",
     // BooksScreen.kt
     "Archived books" to "Книги в архиве",

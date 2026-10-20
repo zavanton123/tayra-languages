@@ -10,7 +10,6 @@ data class UserSettings(
     val currentLanguageId: Long = 0,
     val themeId: String = DEFAULT_THEME,
     val showHighlights: Boolean = true,
-    val showStreakOnHome: Boolean = false,
     /** Keep the screens still: no sliding, fading or flipping, for those whom motion bothers. */
     val reduceMotion: Boolean = false,
     val statsSampleSize: Int = 5,

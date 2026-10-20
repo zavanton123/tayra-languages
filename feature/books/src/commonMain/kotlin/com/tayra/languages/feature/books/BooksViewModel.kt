@@ -17,7 +17,6 @@ import com.tayra.languages.core.domain.repository.TermListSort
 import com.tayra.languages.core.domain.repository.TermRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
-import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -80,8 +79,6 @@ data class BooksUiState(
     val tags: Set<String> = emptySet(),
     /** Whether a book needs every one of [tags], or any of them. */
     val matchAllTags: Boolean = false,
-    val streak: Int = 0,
-    val showStreak: Boolean = false,
     val wordsLearned: Int = 0,
     /** Ticked books; only those still listed count, so a filter never hides a selected book from a bulk action. */
     val selected: Set<Long> = emptySet(),
@@ -141,7 +138,6 @@ class BooksViewModel(
     private val settings: SettingsRepository,
     private val bookService: BookService,
     private val bookStats: BookStatsService,
-    private val statsService: StatsService,
     private val packs: BookPackService,
 ) : ViewModel() {
 
@@ -151,14 +147,11 @@ class BooksViewModel(
     private val view = MutableStateFlow(BooksView.LIST)
     private val tagFilter = MutableStateFlow(TagChoice())
     private val selected = MutableStateFlow<Set<Long>>(emptySet())
-    private val extras = MutableStateFlow(Extras())
     private val statsInFlight = HashSet<Long>()
-
-    private data class Extras(val streak: Int = 0)
 
     private data class TagChoice(val tags: Set<String> = emptySet(), val matchAll: Boolean = false)
 
-    private data class Options(val sort: BookSort, val progress: ProgressFilter, val view: BooksView, val extras: Extras, val wordsLearned: Int)
+    private data class Options(val sort: BookSort, val progress: ProgressFilter, val view: BooksView, val wordsLearned: Int)
 
     /** Words known in the language being learned. */
     @OptIn(ExperimentalCoroutinesApi::class)
@@ -169,7 +162,7 @@ class BooksViewModel(
         .map { it.totalCount }
         .catch { e -> Logger.w(e) { "Counting learned terms failed" }; emit(0) }
 
-    private val options = combine(sort, progress, view, extras, wordsLearned) { s, m, v, e, w -> Options(s, m, v, e, w) }
+    private val options = combine(sort, progress, view, wordsLearned) { s, m, v, w -> Options(s, m, v, w) }
 
     val state: StateFlow<BooksUiState> = combine(
         books.observeBooks(archived).onEach(::computeMissingStats),
@@ -197,8 +190,6 @@ class BooksViewModel(
             sort = opts.sort,
             progress = opts.progress,
             view = opts.view,
-            streak = opts.extras.streak,
-            showStreak = prefs.showStreakOnHome,
             wordsLearned = opts.wordsLearned,
             packAvailable = pack != null,
             packState = pack?.state,
@@ -210,16 +201,6 @@ class BooksViewModel(
         val code = state.value.languages.firstOrNull { it.id == state.value.currentLanguageId }?.name?.let { LanguageCodes.codeFor(it) } ?: return
         val pack = BookPacks.forLanguage(code).firstOrNull() ?: return
         viewModelScope.launch { packs.download(pack) }
-    }
-
-    init {
-        refreshExtras()
-    }
-
-    private fun refreshExtras() {
-        viewModelScope.launch {
-            extras.value = Extras(streak = statsService.streak())
-        }
     }
 
     private fun computeMissingStats(list: List<BookListItem>) {

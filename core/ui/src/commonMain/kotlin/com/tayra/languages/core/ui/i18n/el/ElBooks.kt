@@ -11,7 +11,6 @@ internal val elBooks: Map<String, String> = mapOf(
     "Done" to "Τέλος",
     "{1} books" to "{1} βιβλίο|{1} βιβλία",
     "{1} words learned" to "{1} λέξη μαθεμένη|{1} λέξεις μαθεμένες",
-    "{0}-day streak" to "{0} ημέρα στη σειρά|{0} ημέρες στη σειρά",
     "Recently opened" to "Άνοιξαν πρόσφατα",
     // BooksScreen.kt
     "Archived books" to "Αρχειοθετημένα βιβλία",

@@ -656,14 +656,13 @@ internal fun BooksSelectionBar(state: BooksUiState, callbacks: BooksCallbacks, o
     }
 }
 
-/** Below the books: how many there are and the words known in the language, with the streak where it is shown. */
+/** Below the books: how many there are and the words known in the language. */
 @Composable
 internal fun Footer(state: BooksUiState) {
     val parts = buildList {
         add(trPlural(state.books.size, "{1} book", "{1} books", formatCount(state.books.size)))
         if (!state.archived) {
             add(trPlural(state.wordsLearned, "{1} word learned", "{1} words learned", formatCount(state.wordsLearned)))
-            if (state.showStreak && state.streak > 0) add(trPlural(state.streak, "{0}-day streak", "{0}-day streak"))
         }
     }
     Text(parts.joinToString("  ·  "), Modifier.padding(top = AppSpacing.xl), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)

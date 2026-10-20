@@ -36,8 +36,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "reading line height" to "interligne de lecture",
     "Behaviour" to "Comportement",
     "Control how Tayra behaves on different pages." to "Réglez le comportement de Tayra sur les différentes pages.",
-    "Show study streak on home page" to "Afficher la série d’étude sur la page d’accueil",
-    "Display your current streak on the Home dashboard." to "Afficher votre série actuelle sur le tableau de bord de l’accueil.",
     "Book stats page sample size" to "Échantillon de pages pour les statistiques du livre",
     "Number of pages used for book statistics." to "Nombre de pages utilisées pour les statistiques du livre.",
     "book stats page sample size" to "échantillon de pages pour les statistiques du livre",

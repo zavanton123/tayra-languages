@@ -36,8 +36,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "reading line height" to "阅读行高",
     "Behaviour" to "行为",
     "Control how Tayra behaves on different pages." to "设置 Tayra 在各个页面上的行为。",
-    "Show study streak on home page" to "在首页显示连续学习天数",
-    "Display your current streak on the Home dashboard." to "在首页面板上显示当前的连续阅读天数。",
     "Book stats page sample size" to "书籍统计抽样页数",
     "Number of pages used for book statistics." to "用于书籍统计的页数。",
     "book stats page sample size" to "书籍统计抽样页数",

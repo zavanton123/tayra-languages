@@ -11,7 +11,6 @@ internal val plBooks: Map<String, String> = mapOf(
     "Done" to "Gotowe",
     "{1} books" to "{1} książka|{1} książki|{1} książek",
     "{1} words learned" to "{1} słowo opanowane|{1} słowa opanowane|{1} słów opanowanych",
-    "{0}-day streak" to "{0} dzień z rzędu|{0} dni z rzędu|{0} dni z rzędu",
     "Recently opened" to "Ostatnio otwierane",
     // BooksScreen.kt
     "Archived books" to "Zarchiwizowane książki",

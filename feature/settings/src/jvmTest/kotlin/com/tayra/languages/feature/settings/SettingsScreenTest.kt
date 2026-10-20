@@ -41,7 +41,7 @@ class SettingsScreenTest {
     @Test
     fun theControlsChangeTheSettingsAndResetPutsThemBack() = runDesktopComposeUiTest(width = 1580, height = 1000) {
         val settings = SettingsRepositoryImpl(MapSettings())
-        runBlocking { settings.update { it.copy(readingFontScale = 1.2f, showStreakOnHome = true) } }
+        runBlocking { settings.update { it.copy(readingFontScale = 1.2f) } }
         setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings)) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(androidx.compose.ui.test.hasText("Reading preview")).fetchSemanticsNodes().isNotEmpty() }
@@ -64,7 +64,6 @@ class SettingsScreenTest {
         onNodeWithText("Reset").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.0f }
         assertEquals(5, settings.current.statsSampleSize)
-        assertEquals(false, settings.current.showStreakOnHome)
         assertEquals("serif", settings.current.readingFont)
     }
 

@@ -11,7 +11,6 @@ internal val esBooks: Map<String, String> = mapOf(
     "Done" to "Listo",
     "{1} books" to "{1} libro|{1} libros",
     "{1} words learned" to "{1} palabra aprendida|{1} palabras aprendidas",
-    "{0}-day streak" to "{0} día seguido|{0} días seguidos",
     "Recently opened" to "Abiertos recientemente",
     // BooksScreen.kt
     "Archived books" to "Libros archivados",

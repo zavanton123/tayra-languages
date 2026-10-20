@@ -11,7 +11,6 @@ internal val zhBooks: Map<String, String> = mapOf(
     "Done" to "完成",
     "{1} books" to "{1} 本书",
     "{1} words learned" to "已学会 {1} 个单词",
-    "{0}-day streak" to "连续 {0} 天",
     "Recently opened" to "最近打开",
     // BooksScreen.kt
     "Archived books" to "已归档的书籍",

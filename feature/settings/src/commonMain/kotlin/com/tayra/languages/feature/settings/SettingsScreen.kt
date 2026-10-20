@@ -140,7 +140,6 @@ class SettingsViewModel(
             readingFontScale = defaults.readingFontScale,
             readingLineHeight = defaults.readingLineHeight,
             readingFont = defaults.readingFont,
-            showStreakOnHome = defaults.showStreakOnHome,
             reduceMotion = defaults.reduceMotion,
             statsSampleSize = defaults.statsSampleSize,
         )
@@ -323,10 +322,7 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
 @Composable
 private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) {
     ContentCard(tr("Behaviour"), tr("Control how Tayra behaves on different pages."), icon = Icons.Default.Settings) {
-        SwitchSetting(tr("Show study streak on home page"), tr("Display your current streak on the Home dashboard."), settings.showStreakOnHome) { v ->
-            viewModel.update { it.copy(showStreakOnHome = v) }
-        }
-        SettingRow(tr("Book stats page sample size"), tr("Number of pages used for book statistics."), divider = true) {
+        SettingRow(tr("Book stats page sample size"), tr("Number of pages used for book statistics.")) {
             NumberStepper(
                 value = settings.statsSampleSize,
                 range = UserSettings.MIN_STATS_SAMPLE_SIZE..UserSettings.MAX_STATS_SAMPLE_SIZE,
