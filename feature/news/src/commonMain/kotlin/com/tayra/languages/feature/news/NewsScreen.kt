@@ -395,7 +395,7 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
             item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
             if (compact) {
                 Spacer(Modifier.height(AppSpacing.xs))
-                ReadButton(item, opened != null, actions, Modifier.fillMaxWidth())
+                ReadButton(item, opened != null, actions, Modifier.fillMaxWidth(), quiet = true)
             }
         }
         if (!compact) ReadButton(item, opened != null, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = READ_BUTTON_WIDTH))
@@ -403,10 +403,11 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
 }
 
 @Composable
-private fun ReadButton(item: NewsItem, opened: Boolean, actions: NewsActions, modifier: Modifier) {
+private fun ReadButton(item: NewsItem, opened: Boolean, actions: NewsActions, modifier: Modifier, quiet: Boolean = false) {
     val text = if (opened) tr("Continue") else tr("Read")
     val tagged = modifier.testTag("read-${item.article.url}")
-    if (opened) SecondaryButton(text, onClick = { actions.onOpen(item) }, modifier = tagged, loading = item.opening)
+    // A phone's list puts a full-width button on every card; outlined, they do not outweigh the articles.
+    if (opened || quiet) SecondaryButton(text, onClick = { actions.onOpen(item) }, modifier = tagged, loading = item.opening)
     else PrimaryButton(text, onClick = { actions.onOpen(item) }, modifier = tagged, loading = item.opening)
 }
 

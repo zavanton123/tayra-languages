@@ -198,7 +198,7 @@ private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compac
             item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
             if (compact) {
                 Spacer(Modifier.height(AppSpacing.xs))
-                BookAction(item, actions, Modifier.fillMaxWidth())
+                BookAction(item, actions, Modifier.fillMaxWidth(), quiet = true)
             }
         }
         if (!compact) BookAction(item, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = ACTION_WIDTH))
@@ -206,9 +206,16 @@ private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compac
 }
 
 @Composable
-private fun BookAction(item: FoundBookItem, actions: FindBooksActions, modifier: Modifier) {
+private fun BookAction(item: FoundBookItem, actions: FindBooksActions, modifier: Modifier, quiet: Boolean = false) {
     when {
         item.libraryId != null -> SecondaryButton(tr("Read"), onClick = { actions.onRead(item) }, modifier = modifier.testTag("read-${item.book.id}"))
+        // Outlined on a phone, where every card has the button at full width.
+        quiet -> SecondaryButton(
+            when { item.adding -> tr("Adding…"); item.error != null -> tr("Try again"); else -> tr("Add to library") },
+            onClick = { actions.onAdd(item) },
+            modifier = modifier.testTag("add-${item.book.id}"),
+            loading = item.adding,
+        )
         else -> PrimaryButton(
             // After a failed download the same button tries again, and says so.
             when { item.adding -> tr("Adding…"); item.error != null -> tr("Try again"); else -> tr("Add to library") },
