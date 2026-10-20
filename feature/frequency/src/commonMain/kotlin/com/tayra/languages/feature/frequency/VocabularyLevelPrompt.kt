@@ -5,6 +5,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
@@ -55,6 +56,8 @@ import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.StatusDot
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.i18n.LanguageCase
@@ -114,6 +117,7 @@ fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: Vo
  * The prompt on a phone: a bottom sheet with the question, the estimate and its slider, and the
  * sample text coloured by it; swiping it away puts the question off, like Skip for now.
  */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit, onLater: () -> Unit) {
     val colors = MaterialTheme.colorScheme
@@ -127,13 +131,13 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
         val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
         val index = choices.indexOf(level).coerceAtLeast(0)
         Column(Modifier.padding(horizontal = AppSpacing.xl)) {
-            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+            // The close button shares the title's row, so the sheet starts with the question.
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), Modifier.weight(1f), style = AppText.headline)
                 AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving, style = IconButtonStyle.Tonal, tint = colors.onSurface)
             }
             Spacer(Modifier.height(AppSpacing.s))
-            Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = AppText.headline)
-            Spacer(Modifier.height(AppSpacing.s))
-            Text(tr("Choose an estimate. Words below this level will start as known."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            Text(tr("Choose an estimate. Words below this level will start as known. You can change it later in Settings → Vocabulary."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             Spacer(Modifier.height(AppSpacing.xl))
             Row(verticalAlignment = Alignment.Bottom) {
                 Text(formatCount(level), style = AppText.figure, color = colors.primary)
@@ -144,7 +148,20 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
             Spacer(Modifier.height(AppSpacing.s))
             // Four landmarks are all a phone's width can name.
             LevelSlider(choices, index, onPick, named = landmarks(choices), sparse = true, caption = false)
-            Spacer(Modifier.height(AppSpacing.l))
+            Spacer(Modifier.height(AppSpacing.m))
+            // Words at the level, to judge it by, as on the wider screens.
+            val words = remember(list, level, choices) {
+                val previous = if (index == 0) 0 else choices[index - 1]
+                if (level == 0) samples(list, 0, minOf(100, list.words.size)) else samples(list, previous, level)
+            }
+            if (words.isNotEmpty()) {
+                Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = AppText.smallTitle)
+                Spacer(Modifier.height(AppSpacing.xs))
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    words.forEach { Tag(it, colors.primary, size = TagSize.Medium) }
+                }
+                Spacer(Modifier.height(AppSpacing.l))
+            }
             Column(
                 Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(AppSpacing.l),
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
@@ -156,7 +173,7 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
                     Text(
                         colouredExample(state, level),
                         style = AppText.emphasis.copy(lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.3f),
-                        maxLines = 3,
+                        maxLines = 5,
                         overflow = TextOverflow.Ellipsis,
                     )
                 }

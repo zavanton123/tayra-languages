@@ -103,7 +103,9 @@ class VocabularyLevelPromptTest {
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("How much Portuguese do you know?").assertExists()
         onNodeWithText("Example text").assertExists()
-        assertTrue(onAllNodesWithText("Your first words").fetchSemanticsNodes().isEmpty(), "the sheet keeps to the sample text")
+        // Words at the level and the reassurance are on the phone too, not only on wide screens.
+        assertTrue(onAllNodesWithText("Your first words").fetchSemanticsNodes().isNotEmpty() || onAllNodesWithText("Words around this level").fetchSemanticsNodes().isNotEmpty())
+        onNodeWithText("You can change it later", substring = true).assertExists()
         assertTrue(onAllNodesWithText("Reading preview").fetchSemanticsNodes().isEmpty())
         onNodeWithTag("level-slider").performSemanticsAction(SemanticsActions.SetProgress) { it(7f) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Start with 1,000 words").fetchSemanticsNodes().isNotEmpty() }
