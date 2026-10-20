@@ -233,8 +233,8 @@ class BooksScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("tag-news").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("tag-news").performClick()
         onNodeWithTag("apply-tags").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("2 books").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, onAllNodesWithText("Demo").fetchSemanticsNodes().size)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Demo").fetchSemanticsNodes().isEmpty() }
+        onNodeWithText("A Maldição").assertExists()
 
         // Ticking books starts from the bar's menu.
         onNodeWithContentDescription("List actions").performClick()

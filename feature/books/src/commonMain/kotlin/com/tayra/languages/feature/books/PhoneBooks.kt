@@ -88,8 +88,9 @@ internal fun PhoneBooksMenu(archived: Boolean, selecting: Boolean, onSelecting: 
 @Composable
 internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, selecting: Boolean, onDone: () -> Unit, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
-    val books = state.filteredBooks
     val showChecks = selecting || state.selectedBooks.isNotEmpty()
+    // The book in the continue card is not listed again under it, unless books are being chosen.
+    val books = state.continueWith?.takeIf { !state.archived && !showChecks }?.let { shown -> state.filteredBooks.filter { it.id != shown.id } } ?: state.filteredBooks
     var sorting by remember { mutableStateOf(false) }
     var filtering by remember { mutableStateOf(false) }
     ScrollList(modifier.fillMaxSize(), contentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)) {
@@ -116,10 +117,8 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
             if (showChecks) {
                 BooksSelectionBar(state, callbacks, onDone)
             } else {
-                Column(Modifier.padding(bottom = AppSpacing.m)) {
-                    Text(if (state.archived) tr("Archive") else tr("Your library"), style = AppText.headline)
-                    Text(trPlural(books.size, "{1} book", "{1} books", formatCount(books.size)), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-                }
+                // The tabs above count the books, so the heading stands alone.
+                Text(if (state.archived) tr("Archive") else tr("Your library"), Modifier.padding(bottom = AppSpacing.m), style = AppText.headline)
             }
         }
         if (books.isEmpty()) {
