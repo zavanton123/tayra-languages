@@ -226,7 +226,8 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
     LaunchedEffect(state.card?.termId, state.revealed, state.canUndo) { runCatching { focus.requestFocus() } }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { runCatching { focus.requestFocus() } }
     Box(
-        modifier.fillMaxSize().verticalScroll(rememberScrollState())
+        // A phone scrolls the card alone, under buttons that stay put; a wide screen scrolls the page.
+        modifier.fillMaxSize().then(if (compact) Modifier else Modifier.verticalScroll(rememberScrollState()))
             .focusRequester(focus).focusable().testTag("flashcards-keys")
             .onPreviewKeyEvent { event ->
                 if (event.type != KeyEventType.KeyDown || state.card == null) return@onPreviewKeyEvent false
@@ -249,28 +250,67 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
             },
         contentAlignment = Alignment.TopCenter,
     ) {
+        if (compact) {
+            PhoneReview(state, speaker, actions)
+        } else {
+            Column(
+                Modifier.widthIn(max = REVIEW_WIDTH).fillMaxWidth().padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
+                verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl),
+            ) {
+                ScreenHeader(
+                    tr("Flashcards"),
+                    subtitle = if (state.languageName.isEmpty()) tr("Review the words you are learning.") else tr("Review the {0} words you are learning.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
+                ) {
+                    // The phone's bar carries this button instead.
+                    if (!compact) SecondaryButton(tr("Browse flashcards"), onClick = actions.onBrowse, modifier = Modifier.testTag("browse-flashcards"), icon = AppIcons.ViewList)
+                }
+                Progress(state, compact)
+                val card = state.card
+                if (card == null) {
+                    Finished(state, actions)
+                } else {
+                    // Each card fades in as it comes up.
+                    key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact, actions.onReveal) } }
+                    // The answers fade in as the card turns over.
+                    if (state.revealed) Appear { Answers(actions, compact, state.twoButtons, state.waits) }
+                    CardFooter(card, state.canUndo, actions, compact)
+                }
+            }
+        }
+    }
+}
+
+/**
+ * The review on a phone: the card scrolls, and under it one place the thumb finds each time,
+ * holding Show answer and then the answers, above the card's actions.
+ */
+@Composable
+private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: FlashcardActions) {
+    Column(Modifier.fillMaxSize()) {
         Column(
-            Modifier.widthIn(max = REVIEW_WIDTH).fillMaxWidth().padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
-            verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl),
+            Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState()).padding(AppSpacing.l),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
+            // The phone's bar carries the Browse button.
             ScreenHeader(
                 tr("Flashcards"),
                 subtitle = if (state.languageName.isEmpty()) tr("Review the words you are learning.") else tr("Review the {0} words you are learning.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
-            ) {
-                // The phone's bar carries this button instead.
-                if (!compact) SecondaryButton(tr("Browse flashcards"), onClick = actions.onBrowse, modifier = Modifier.testTag("browse-flashcards"), icon = AppIcons.ViewList)
-            }
-            Progress(state, compact)
+            )
+            Progress(state, compact = true)
             val card = state.card
-            if (card == null) {
-                Finished(state, actions)
+            if (card == null) Finished(state, actions)
+            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, actions.onReveal, revealButton = false) } }
+        }
+        val card = state.card ?: return@Column
+        Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            if (state.revealed) {
+                Appear { Answers(actions, compact = true, state.twoButtons, state.waits) }
             } else {
-                // Each card fades in as it comes up.
-                key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact, actions.onReveal) } }
-                // The answers fade in as the card turns over.
-                if (state.revealed) Appear { Answers(actions, compact, state.twoButtons, state.waits) }
-                CardFooter(card, state.canUndo, actions, compact)
+                PrimaryButton(onClick = actions.onReveal, modifier = Modifier.fillMaxWidth().height(SHOW_ANSWER_HEIGHT_COMPACT).then(NoFocus)) {
+                    Text(tr("Show answer"), style = AppText.itemTitle)
+                }
             }
+            CardFooter(card, state.canUndo, actions, compact = true)
         }
     }
 }
@@ -358,7 +398,7 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
  * saved without a sentence is shown on its own.
  */
 @Composable
-private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onReveal: () -> Unit) {
+private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onReveal: () -> Unit, revealButton: Boolean = true) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
@@ -457,7 +497,7 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                 )
                 if (card.romanization.isNotEmpty()) Text(card.romanization, style = MaterialTheme.typography.bodyLarge, color = colors.outline)
             }
-        } else {
+        } else if (revealButton) {
             PrimaryButton(
                 onClick = onReveal,
                 modifier = Modifier.padding(top = AppSpacing.xl, bottom = AppSpacing.s).then(if (compact) Modifier.fillMaxWidth(0.85f) else Modifier.widthIn(min = SHOW_ANSWER_WIDTH)).height(if (compact) SHOW_ANSWER_HEIGHT_COMPACT else SHOW_ANSWER_HEIGHT).then(NoFocus),
