@@ -5,7 +5,6 @@ internal val zhBooks: Map<String, String> = mapOf(
     // BooksScreen.kt: the redesign
     "Read, learn, and build your vocabulary with every text." to "阅读、学习，每篇文本都让你的词汇量更进一步。",
     "Continue reading" to "继续阅读",
-    "Page {0} of {1} · {2}% read" to "第 {0} 页，共 {1} 页 · 已读 {2}%",
     "Your library" to "我的书库",
     "Select" to "选择",
     "Search titles or tags" to "搜索标题或标签",

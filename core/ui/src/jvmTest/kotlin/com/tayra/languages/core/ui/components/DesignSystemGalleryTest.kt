@@ -148,7 +148,6 @@ class DesignSystemGalleryTest {
                 Label("Selects")
                 SelectButton("Recently opened", onClick = {}, icon = AppIcons.Download)
                 SelectButton("Any", onClick = {}, label = "Added", modifier = Modifier.width(160.dp))
-                NumberField(30, {}, "Days", "Any", "More", "Fewer")
                 LinkText("Powered by Tatoeba", onClick = {}, trailingIcon = AppIcons.Download)
                 AppIconButton(AppIcons.Download, "Play", onClick = {}, style = IconButtonStyle.Tonal)
                 AppIconButton(AppIcons.Download, "Play", onClick = {}, style = IconButtonStyle.Tonal, selected = true)

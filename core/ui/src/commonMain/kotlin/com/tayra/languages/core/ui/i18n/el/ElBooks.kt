@@ -5,7 +5,6 @@ internal val elBooks: Map<String, String> = mapOf(
     // BooksScreen.kt: the redesign
     "Read, learn, and build your vocabulary with every text." to "Διαβάστε, μάθετε και εμπλουτίστε το λεξιλόγιό σας με κάθε κείμενο.",
     "Continue reading" to "Συνέχεια ανάγνωσης",
-    "Page {0} of {1} · {2}% read" to "Σελίδα {0} από {1} · διαβάστηκε το {2}%",
     "Your library" to "Η βιβλιοθήκη σας",
     "Select" to "Επιλογή",
     "Search titles or tags" to "Αναζήτηση τίτλων ή ετικετών",

@@ -5,7 +5,6 @@ internal val deBooks: Map<String, String> = mapOf(
     // BooksScreen.kt: the redesign
     "Read, learn, and build your vocabulary with every text." to "Lies, lerne und erweitere deinen Wortschatz mit jedem Text.",
     "Continue reading" to "Weiterlesen",
-    "Page {0} of {1} · {2}% read" to "Seite {0} von {1} · {2} % gelesen",
     "Your library" to "Deine Bibliothek",
     "Select" to "Auswählen",
     "Search titles or tags" to "Titel oder Tags suchen",

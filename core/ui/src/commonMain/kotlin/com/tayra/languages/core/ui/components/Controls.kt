@@ -521,59 +521,6 @@ fun LinkText(
     }
 }
 
-/**
- * A whole number typed in, or none ([placeholder] shows then), with small arrows that step it up
- * and down; [contentDescription] names it to screen readers.
- */
-@Composable
-fun NumberField(
-    value: Int?,
-    onChange: (Int?) -> Unit,
-    contentDescription: String,
-    placeholder: String,
-    increaseDescription: String,
-    decreaseDescription: String,
-    modifier: Modifier = Modifier,
-    maxDigits: Int = 5,
-) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        modifier.width(NUMBER_FIELD_WIDTH).height(AppSizes.control).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
-            .padding(start = AppSpacing.l, end = AppSpacing.xs),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        BasicTextField(
-            value = value?.toString().orEmpty(),
-            onValueChange = { text -> onChange(text.filter { it.isDigit() }.take(maxDigits).toIntOrNull()) },
-            singleLine = true,
-            textStyle = MaterialTheme.typography.bodyMedium.copy(color = colors.onSurface),
-            cursorBrush = SolidColor(colors.primary),
-            modifier = Modifier.weight(1f).semantics { this.contentDescription = contentDescription },
-            decorationBox = { inner ->
-                Box(contentAlignment = Alignment.CenterStart) {
-                    if (value == null) Text(placeholder, color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
-                    inner()
-                }
-            },
-        )
-        Column {
-            Icon(
-                Icons.Default.KeyboardArrowUp,
-                contentDescription = increaseDescription,
-                tint = colors.onSurfaceVariant,
-                modifier = Modifier.size(width = AppSizes.iconLarge, height = AppSizes.iconCompact).clip(AppShapes.tiny).clickable { onChange((value ?: -1) + 1) },
-            )
-            Icon(
-                Icons.Default.KeyboardArrowDown,
-                contentDescription = decreaseDescription,
-                tint = colors.onSurfaceVariant,
-                modifier = Modifier.size(width = AppSizes.iconLarge, height = AppSizes.iconCompact).clip(AppShapes.tiny)
-                    .clickable(enabled = value != null) { onChange(value?.let { if (it > 0) it - 1 else null }) },
-            )
-        }
-    }
-}
-
 /** A field's name above it, for fields and choices that carry no label of their own. */
 @Composable
 fun LabeledField(label: String, modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
@@ -585,4 +532,3 @@ fun LabeledField(label: String, modifier: Modifier = Modifier, content: @Composa
 
 private val SLIDER_THUMB_SIZE = 22.dp
 private val LABELED_SELECT_HEIGHT = 56.dp
-private val NUMBER_FIELD_WIDTH = 140.dp

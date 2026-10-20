@@ -5,7 +5,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     // BooksScreen.kt: the redesign
     "Read, learn, and build your vocabulary with every text." to "Читайте, учитесь и пополняйте словарный запас с каждым текстом.",
     "Continue reading" to "Продолжить чтение",
-    "Page {0} of {1} · {2}% read" to "Страница {0} из {1} · прочитано {2}%",
     "Your library" to "Ваша библиотека",
     "Select" to "Выбрать",
     "Search titles or tags" to "Поиск по названиям и тегам",
