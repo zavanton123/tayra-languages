@@ -61,6 +61,8 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Macedonian" to "马其顿语",
     "Maltese" to "马耳他语",
     "Mandarin Chinese" to "汉语普通话",
+    "Chinese (Simplified)" to "中文（简体）",
+    "Chinese (Traditional)" to "中文（繁体）",
     "Manx" to "马恩岛语",
     "Mongolian" to "蒙古语",
     "Norwegian" to "挪威语",

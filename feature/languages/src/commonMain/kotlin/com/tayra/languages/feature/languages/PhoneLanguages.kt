@@ -67,7 +67,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Text(tr("Choose what you learn and the language Tayra uses with you."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             PhoneLanguageCard(tr("Learning"), tr("I'm learning"), tr("Books, courses, vocabulary and flashcards."), highlighted = true) {
-                PhoneLanguageRow(learning?.currentName, tag = "learning-language") { learningSheet = true }
+                PhoneLanguageRow(learning?.current?.label, tag = "learning-language") { learningSheet = true }
             }
             PhoneLanguageCard(tr("Meanings"), tr("Show meanings in"), tr("Translations, definitions and examples.")) {
                 PhoneLanguageRow(native.name, tag = "native-language") { nativeSheet = true }
@@ -80,12 +80,12 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
     }
     if (learningSheet && learning != null) {
         LanguagePickerSheet(
-            tr("I'm learning"), learning.languages, selected = learning.languages.firstOrNull { it.first == learning.currentId },
-            name = { tr(it.second) }, flagName = { it.second },
-            unavailable = { if (it.first in learning.nativeIds) tr("Your native language") else null },
+            tr("I'm learning"), learning.choices, selected = learning.current,
+            name = { tr(it.label) }, flagName = { it.label },
+            unavailable = { if (it.id in learning.nativeIds) tr("Your native language") else null },
             onDismiss = { learningSheet = false },
             // Chosen as in the header, which also asks for the vocabulary level of a language new to the reader.
-            onPick = { (id, _) -> learningSheet = false; learning.onSelect(id) },
+            onPick = { learningSheet = false; learning.select(it) },
         )
     }
     if (nativeSheet) {

@@ -98,14 +98,14 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 val learningTile: @Composable (Modifier) -> Unit = { m ->
                     LanguageTile(tr("Learning"), tr("I'm learning"), highlighted = true, modifier = m) {
                         FlagPicker(
-                            options = learning?.languages.orEmpty(),
-                            selected = learning?.languages?.firstOrNull { it.first == learning.currentId },
-                            name = { tr(it.second) },
+                            options = learning?.choices.orEmpty(),
+                            selected = learning?.current,
+                            name = { tr(it.label) },
                             // Chosen as in the header, which also asks for the vocabulary level of a language new to the reader.
-                            onSelect = { (id, _) -> learning?.onSelect?.invoke(id); changes++ },
+                            onSelect = { learning?.select(it); changes++ },
                             modifier = Modifier.testTag("learning-language"),
-                            flagName = { it.second },
-                            unavailable = { if (learning != null && it.first in learning.nativeIds) tr("Your native language") else null },
+                            flagName = { it.label },
+                            unavailable = { if (learning != null && it.id in learning.nativeIds) tr("Your native language") else null },
                         )
                         TileDescription(tr("Used for books, courses, vocabulary and flashcards."))
                     }

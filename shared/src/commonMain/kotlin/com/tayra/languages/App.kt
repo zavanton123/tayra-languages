@@ -23,6 +23,7 @@ import com.tayra.languages.bootstrap.AppBootstrapViewModel
 import com.tayra.languages.bootstrap.BootstrapState
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.repository.LanguageRepository
+import com.tayra.languages.core.domain.service.ChineseScriptService
 import com.tayra.languages.core.domain.service.LearningLanguageService
 import com.tayra.languages.core.ui.components.LearningLanguageState
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
@@ -48,7 +49,6 @@ import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.navigation.AppNavHost
 import org.koin.compose.KoinContext
 import org.koin.compose.koinInject
-import com.tayra.languages.feature.settings.ChineseScriptPrompt
 import org.koin.compose.viewmodel.koinViewModel
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
@@ -70,34 +70,41 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     val frequency = koinInject<WordFrequencyService>()
     val knownWords by remember(frequency, currentId) { frequency.observeKnownWords(currentId) }.collectAsStateWithLifecycle(null)
     val scope = rememberCoroutineScope()
+    val chineseScripts = koinInject<ChineseScriptService>()
     // The language just chosen, asked for its vocabulary level first.
     var askLevelFor by remember { mutableStateOf<Long?>(null) }
     // The language waiting for its downloads to be offered, once the level is dealt with.
     var setupPending by remember { mutableStateOf<Long?>(null) }
     var setupFor by remember { mutableStateOf<Long?>(null) }
-    // Mandarin just chosen without a script: which characters come first, then the level and downloads.
-    var askScriptFor by remember { mutableStateOf<Long?>(null) }
     LaunchedEffect(currentId, languages) {
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure()
     }
     val state = remember(languages, currentId, native, knownWords) {
         // The native language is listed but cannot be chosen for learning.
         val nativeIds = languages.filter { learning.isNative(it) }.map { it.id }.toSet()
-        LearningLanguageState(languages.sortedBy { it.name }.map { it.id to it.name }, currentId, nativeIds, knownWords) { id ->
-            scope.launch {
-                if (!learning.select(id) || id == currentId) return@launch
-                onChosen()
-                val language = languages.firstOrNull { it.id == id }
-                if (language?.parserType == "mandarin" && language.chineseScript == null) {
-                    askScriptFor = id
-                } else if (levels.needsLevel(id)) {
-                    setupPending = id
-                    askLevelFor = id
-                } else {
-                    setupFor = id
-                }
+        suspend fun choose(id: Long) {
+            if (!learning.select(id) || id == currentId) return
+            onChosen()
+            if (levels.needsLevel(id)) {
+                setupPending = id
+                askLevelFor = id
+            } else {
+                setupFor = id
             }
         }
+        LearningLanguageState(
+            languages.sortedBy { it.name }.map { it.id to it.name }, currentId, nativeIds, knownWords,
+            // Mandarin is offered in simplified and in traditional characters, one language with the same words.
+            scripts = languages.filter { it.parserType == "mandarin" }.associate { it.id to it.chineseScript },
+            onSelectScript = { id, script ->
+                scope.launch {
+                    val language = languages.firstOrNull { it.id == id } ?: return@launch
+                    if (learning.isNative(language)) return@launch
+                    if (language.chineseScript != script) chineseScripts.setScript(id, script)
+                    choose(id)
+                }
+            },
+        ) { id -> scope.launch { choose(id) } }
     }
     CompositionLocalProvider(LocalLearningLanguage provides state) {
         content()
@@ -107,18 +114,6 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
             setupPending = null
         })
         LanguageSetupDialog(setupFor, onClosed = { setupFor = null })
-        ChineseScriptPrompt(askScriptFor, onClosed = {
-            val id = askScriptFor
-            askScriptFor = null
-            if (id != null) scope.launch {
-                if (levels.needsLevel(id)) {
-                    setupPending = id
-                    askLevelFor = id
-                } else {
-                    setupFor = id
-                }
-            }
-        })
     }
 }
 

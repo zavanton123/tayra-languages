@@ -16,6 +16,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.runDesktopComposeUiTest
+import com.tayra.languages.core.domain.morphology.ChineseScript
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.TayraTheme
 import java.io.File
@@ -92,5 +93,35 @@ class LanguageDialogTest {
         onNodeWithTag("language-sv").assertIsDisplayed().performClick()
         assertEquals(listOf(names.indexOf("Swedish") + 1L), chosen)
         assertEquals(1, back)
+    }
+
+    /** Mandarin is offered as two languages, one in each script; choosing the other script keeps the language. */
+    @Test
+    fun chineseIsOfferedInEachScript() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val scripts = mutableListOf<Pair<Long, ChineseScript>>()
+        val chosen = mutableListOf<Long>()
+        val state = LearningLanguageState(
+            listOf(1L to "Portuguese", 2L to "Mandarin Chinese", 3L to "German"), 2L, knownWords = 40,
+            scripts = mapOf(2L to ChineseScript.SIMPLIFIED), onSelectScript = { id, script -> scripts += id to script },
+        ) { chosen += it }
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides state) {
+                        Surface { AppTopBar(title = "Courses", onNavigate = {}, section = NavSection.COURSES) }
+                    }
+                }
+            }
+        }
+        onNodeWithContentDescription("Learning language: Chinese (Simplified) (40)").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Choose a language").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("current-language").assertExists()
+        onNodeWithText("3 languages").assertExists()
+        assertEquals(0, onAllNodesWithTag("language-zh-hans").fetchSemanticsNodes().size, "the current one is not offered again")
+        assertEquals(0, onAllNodesWithText("Mandarin Chinese").fetchSemanticsNodes().size)
+        save("LANGUAGE_DIALOG_CHINESE_SCREENSHOT")
+        onNodeWithTag("language-zh-hant").performClick()
+        assertEquals(listOf(2L to ChineseScript.TRADITIONAL), scripts)
+        assertEquals(emptyList(), chosen)
     }
 }

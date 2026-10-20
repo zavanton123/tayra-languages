@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import com.tayra.languages.core.domain.morphology.ChineseScript
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -71,15 +72,54 @@ import kotlinx.coroutines.launch
  * The language being learned and the ones to choose from; [languages] are ids with their English names, shown through `tr`.
  * [nativeIds] are listed but cannot be chosen, being the native language. [knownWords] is how many
  * words the reader knows in the current language, shown after its name; null leaves it out.
+ * [scripts] are the Chinese languages with the script each is read in: such a language is offered
+ * once in each script, as two languages that share its words, and choosing one calls [onSelectScript].
  */
 class LearningLanguageState(
     val languages: List<Pair<Long, String>>,
     val currentId: Long,
     val nativeIds: Set<Long> = emptySet(),
     val knownWords: Int? = null,
+    val scripts: Map<Long, ChineseScript?> = emptyMap(),
+    val onSelectScript: ((Long, ChineseScript) -> Unit)? = null,
     val onSelect: (Long) -> Unit,
 ) {
     val currentName: String? get() = languages.firstOrNull { it.first == currentId }?.second
+
+    /** Every language as it is offered, by its English label. */
+    val choices: List<LanguageChoice> = languages.flatMap { (id, name) ->
+        if (id in scripts) ChineseScript.entries.map { LanguageChoice(id, name, it) } else listOf(LanguageChoice(id, name))
+    }.sortedBy { it.label }
+
+    /** The language being learned as it is offered: in its script, or as written when it has none. */
+    val current: LanguageChoice? get() = currentName?.let { LanguageChoice(currentId, it, scripts[currentId]) }
+
+    /** Learns [choice] from now on, in its script. */
+    fun select(choice: LanguageChoice) {
+        val script = choice.script
+        if (script != null && onSelectScript != null) onSelectScript.invoke(choice.id, script) else onSelect(choice.id)
+    }
+}
+
+/** A language to learn as the language choice offers it: Chinese in [script], when it has one, or the language. */
+data class LanguageChoice(val id: Long, val name: String, val script: ChineseScript? = null) {
+    /** The English label, shown through `tr`. */
+    val label: String get() = when (script) {
+        ChineseScript.SIMPLIFIED -> "Chinese (Simplified)"
+        ChineseScript.TRADITIONAL -> "Chinese (Traditional)"
+        null -> name
+    }
+
+    /** The tag a test finds it by: the language's code, and the script's. */
+    val tag: String get() = "language-" + (LanguageCodes.codeFor(name) ?: name) + when (script) {
+        ChineseScript.SIMPLIFIED -> "-hans"
+        ChineseScript.TRADITIONAL -> "-hant"
+        null -> ""
+    }
+
+    /** Whether [needle], lowercase, is in its label or its name, in English or as shown. */
+    @Composable
+    fun matches(needle: String): Boolean = needle.isEmpty() || listOf(tr(label), label, tr(name), name).any { it.lowercase().contains(needle) }
 }
 
 /** Provided at the root of the app; without it the top bar shows no language selector. */
@@ -105,11 +145,11 @@ fun LanguageCodeBadge(languageName: String, size: Dp = 28.dp) {
 @Composable
 fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier, onOpen: (() -> Unit)? = null) {
     val state = LocalLearningLanguage.current ?: return
-    val name = state.currentName ?: return
+    val current = state.current ?: return
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
     // "Portuguese (432)": the words known in the language, as the Word frequency page counts them.
-    val label = state.knownWords?.let { "${tr(name)} (${formatCount(it)})" } ?: tr(name)
+    val label = state.knownWords?.let { "${tr(current.label)} (${formatCount(it)})" } ?: tr(current.label)
     Box(modifier) {
         Row(
             Modifier.clip(AppShapes.panel)
@@ -121,7 +161,7 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier, on
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.xs else AppSpacing.s),
         ) {
-            LanguageFlag(name, if (compact) 18.dp else 22.dp)
+            LanguageFlag(current.label, if (compact) 18.dp else 22.dp)
             if (!compact) {
                 Text(label, style = AppText.smallTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
@@ -143,14 +183,13 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     var query by remember { mutableStateOf("") }
     val needle = query.trim().lowercase()
-    fun shown(name: String) = needle.isEmpty() || tr(name).lowercase().contains(needle) || name.lowercase().contains(needle)
-    val others = state?.languages.orEmpty().filter { (id, name) -> id != state?.currentId && shown(name) }
-    val currentName = state?.currentName?.takeIf { shown(it) }
+    val others = state?.choices.orEmpty().filter { it != state?.current && it.matches(needle) }
+    val current = state?.current?.takeIf { it.matches(needle) }
     val list = rememberLazyListState()
     val scope = rememberCoroutineScope()
     // The rows before the languages: search, the current language (when shown) and the heading.
-    val rowsBefore = if (currentName != null) 4 else 2
-    val letters = others.map { (_, name) -> tr(name).first().uppercaseChar() }.distinct()
+    val rowsBefore = if (current != null) 4 else 2
+    val letters = others.map { tr(it.label).first().uppercaseChar() }.distinct()
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
@@ -173,7 +212,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                         fieldModifier = Modifier.testTag("language-search"),
                     )
                 }
-                if (currentName != null) {
+                if (current != null) {
                     item { PhoneSectionTitle(tr("Current language")) }
                     item {
                         Row(
@@ -182,9 +221,9 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
                         ) {
-                            LanguageFlag(currentName, 36.dp, Modifier.clip(AppShapes.small))
+                            LanguageFlag(current.label, 36.dp, Modifier.clip(AppShapes.small))
                             Column(Modifier.weight(1f)) {
-                                Text(tr(currentName), style = AppText.itemTitle)
+                                Text(tr(current.label), style = AppText.itemTitle)
                                 state.knownWords?.let { Text(trPlural(it, "{0} word", "{0} words", formatCount(it)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
                             }
                             Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
@@ -195,16 +234,16 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                 if (others.isEmpty()) {
                     item { Text(tr("No languages match"), Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
                 }
-                itemsIndexed(others, key = { _, (id, _) -> id }) { index, (id, name) -> Column(itemMotion()) {
-                    val native = id in state.nativeIds
+                itemsIndexed(others, key = { _, choice -> choice.tag }) { index, choice -> Column(itemMotion()) {
+                    val native = choice.id in state.nativeIds
                     Row(
-                        Modifier.fillMaxWidth().clickable(enabled = !native) { onBack(); state.onSelect(id) }.alpha(if (native) AppAlpha.disabled else 1f)
-                            .padding(start = AppSpacing.xxl, end = AppSpacing.huge, top = AppSpacing.m, bottom = AppSpacing.m).testTag("language-${LanguageCodes.codeFor(name) ?: name}"),
+                        Modifier.fillMaxWidth().clickable(enabled = !native) { onBack(); state.select(choice) }.alpha(if (native) AppAlpha.disabled else 1f)
+                            .padding(start = AppSpacing.xxl, end = AppSpacing.huge, top = AppSpacing.m, bottom = AppSpacing.m).testTag(choice.tag),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl),
                     ) {
-                        LanguageFlag(name, 30.dp, Modifier.clip(AppShapes.tiny))
-                        Text(tr(name), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                        LanguageFlag(choice.label, 30.dp, Modifier.clip(AppShapes.tiny))
+                        Text(tr(choice.label), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                         if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
                     }
                     if (index < others.lastIndex) AppDivider(Modifier.padding(start = AppSpacing.l, end = AppSpacing.xxxl), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
@@ -217,7 +256,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                             letter.toString(),
                             Modifier.clip(AppShapes.circle)
                                 .clickable(onClickLabel = tr("Jump to {0}", letter.toString())) {
-                                    val target = others.indexOfFirst { (_, name) -> tr(name).first().uppercaseChar() == letter }
+                                    val target = others.indexOfFirst { tr(it.label).first().uppercaseChar() == letter }
                                     if (target >= 0) scope.launch { list.animateScrollToItem(rowsBefore + target) }
                                 }
                                 .padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xxs)
@@ -258,9 +297,8 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit) 
     val focus = remember { FocusRequester() }
     LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
     val needle = query.trim().lowercase()
-    val others = state.languages.filter { (id, name) -> id != state.currentId && (needle.isEmpty() || tr(name).lowercase().contains(needle) || name.lowercase().contains(needle)) }
-    val currentName = state.currentName
-    val currentShown = currentName != null && (needle.isEmpty() || tr(currentName).lowercase().contains(needle) || currentName.lowercase().contains(needle))
+    val others = state.choices.filter { it != state.current && it.matches(needle) }
+    val current = state.current?.takeIf { it.matches(needle) }
     AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.fillMaxHeight(0.92f), maxWidth = 1160.dp) {
         Column(Modifier.padding(horizontal = if (width.isCompact) AppSpacing.xl else AppSpacing.xxxl, vertical = AppSpacing.xxl)) {
             Row(verticalAlignment = Alignment.Top) {
@@ -278,9 +316,9 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit) 
                 fieldModifier = Modifier.focusRequester(focus).testTag("language-search"),
             )
             ScrollColumn(Modifier.fillMaxWidth().weight(1f), contentModifier = Modifier.padding(top = AppSpacing.s, end = AppSpacing.l)) {
-                if (currentShown) {
+                if (current != null) {
                     SectionTitle(tr("Current language"))
-                    CurrentLanguageCard(currentName!!, state.knownWords)
+                    CurrentLanguageCard(current, state.knownWords)
                 }
                 SectionTitle(tr("All languages"), trPlural(others.size, "{0} language", "{0} languages"))
                 if (others.isEmpty()) {
@@ -288,8 +326,8 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit) 
                 }
                 others.chunked(columns).forEach { row ->
                     Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                        row.forEach { (id, name) ->
-                            LanguageTile(name, native = id in state.nativeIds, Modifier.weight(1f)) { onDismiss(); state.onSelect(id) }
+                        row.forEach { choice ->
+                            LanguageTile(choice, native = choice.id in state.nativeIds, Modifier.weight(1f)) { onDismiss(); state.select(choice) }
                         }
                         repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
                     }
@@ -309,7 +347,7 @@ private fun SectionTitle(title: String, note: String? = null) {
 
 /** The language being learned: its flag, name and the words known in it, marked as chosen. */
 @Composable
-private fun CurrentLanguageCard(name: String, knownWords: Int?) {
+private fun CurrentLanguageCard(choice: LanguageChoice, knownWords: Int?) {
     val colors = MaterialTheme.colorScheme
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.selected(colors.primary.copy(alpha = AppAlpha.half)), AppShapes.card)
@@ -317,9 +355,9 @@ private fun CurrentLanguageCard(name: String, knownWords: Int?) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        LanguageFlag(name, 30.dp)
+        LanguageFlag(choice.label, 30.dp)
         Column(Modifier.weight(1f)) {
-            Text(tr(name), style = AppText.itemTitle)
+            Text(tr(choice.label), style = AppText.itemTitle)
             if (knownWords != null) Text(trPlural(knownWords, "{0} word", "{0} words", formatCount(knownWords)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
@@ -328,17 +366,17 @@ private fun CurrentLanguageCard(name: String, knownWords: Int?) {
 
 /** A language to choose: its flag and name. The native one is dimmed and says why it cannot be chosen. */
 @Composable
-private fun LanguageTile(name: String, native: Boolean, modifier: Modifier, onClick: () -> Unit) {
+private fun LanguageTile(choice: LanguageChoice, native: Boolean, modifier: Modifier, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val press = remember { MutableInteractionSource() }
     Row(
         modifier.height(LANGUAGE_TILE_HEIGHT).pressScale(press).cardSurface(AppShapes.panel)
-            .clickable(press, LocalIndication.current, enabled = !native, onClick = onClick).alpha(if (native) AppAlpha.disabled else 1f).padding(horizontal = AppSpacing.l).testTag("language-${LanguageCodes.codeFor(name) ?: name}"),
+            .clickable(press, LocalIndication.current, enabled = !native, onClick = onClick).alpha(if (native) AppAlpha.disabled else 1f).padding(horizontal = AppSpacing.l).testTag(choice.tag),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        LanguageFlag(name, 22.dp)
-        Text(tr(name), Modifier.weight(1f), style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        LanguageFlag(choice.label, 22.dp)
+        Text(tr(choice.label), Modifier.weight(1f), style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
         if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
     }
 }
