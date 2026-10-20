@@ -22,7 +22,8 @@ story; a lesson never needs another lesson to make sense.
 - **Plain narration**: third person, short sentences, one idea per sentence, common word order.
   Little dialogue; when there is some, short and simple. Grammar grows with the bands, each band
   using what came before:
-  - ranks 1–500: the polite です/ます style throughout: AはBです, ます and ません, ました and ませんでした,
+  - ranks 1–500: the polite です/ます style in the narration (dialogue between family and friends may
+    use short plain forms, as Japanese families speak: 「食べる？」「うん、食べる。」): AはBです, ます and ません, ました and ませんでした,
     the particles は, が, を, に, で, へ, と, も, の, から, まで, か, ね, よ, ある and いる, い- and
     な-adjectives before nouns and as predicates, この/その/あの, 何, どこ, だれ, いつ, counters with
     numbers (三人, 二つ), たい;

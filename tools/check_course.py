@@ -75,6 +75,10 @@ def to_simplified(text):
     return "".join(out)
 
 
+def _is_kanji(c):
+    return "\u3400" <= c <= "\u9fff" or "\uf900" <= c <= "\ufaff"
+
+
 def fold(code, word):
     # Chinese courses are written in simplified characters; the list's words are traditional, with their simplified forms.
     if code == "zh":
@@ -114,6 +118,9 @@ def load_list(code):
             word, _, forms = line.rstrip("\n").partition("\t")
             key = fold(code, word.lower())
             forms = [fold(code, form) for form in forms.split()]
+            # A Japanese kanji form that shares no kanji with its word is another word read alike (秋 of 時).
+            if code == "ja" and any(_is_kanji(c) for c in key):
+                forms = [f for f in forms if not any(_is_kanji(c) for c in f) or any(c in key for c in f if _is_kanji(c))]
             if key in words:
                 # The same word listed twice once ё and е are one letter (ученый, учёный): the commoner entry stays.
                 first_rank, first_word, first_forms = words[key]
@@ -122,6 +129,10 @@ def load_list(code):
                 words[key] = (rank, word, forms)
             for form in [key] + forms:
                 ranks[form] = min(ranks.get(form, rank), rank)
+    # A Japanese word that is an entry of its own is that entry, not a form of a commoner one (できる, not する).
+    if code == "ja":
+        for key, (rank, _, _) in words.items():
+            ranks[key] = rank
     # Forms the list misses, kept per language next to its courses (tools/courses/<code>/extra_forms.tsv).
     extra = os.path.join(ROOT, "tools", "courses", code, "extra_forms.tsv")
     if os.path.exists(extra):
@@ -205,6 +216,10 @@ def _tagger():
     return _mecab[0]
 
 
+# What a name the checker has matched is left as, so the text around it is cut as it would be around the name.
+JA_NAME = "鈴木"
+# A number written as one word with its counter (一つ, 三時, 十二月).
+JA_NUMBER = re.compile(r"[一二三四五六七八九十百千万〇零]+(?:つ|時|月|日|年|人|歳|回|個|本|枚|匹|分|円|階|週間|か月|ヶ月|番|度|台|冊|杯)?")
 # The particles that join a verb to the one helping it (住んでいる, 食べてしまう), and -たり, as KuromojiBoundaries has them.
 JA_JOINING = {"て", "で", "ちゃ", "じゃ", "たり", "だり"}
 
@@ -264,7 +279,10 @@ def japanese_tokens(text, ranks):
                 out.append(KNOWN)
                 i += 1
                 continue
-            if head[2] == "数":
+            if head[0] == JA_NAME:
+                i += 1
+                continue
+            if head[2] == "数" and head[0] != "何":
                 # A number and the counters after it.
                 j = i + 1
                 while j < len(word) and (word[j][2] == "数" or word[j][3] == "助数詞"):
@@ -273,14 +291,21 @@ def japanese_tokens(text, ranks):
                 i = j
                 continue
             end, lemma = i + 1, head[4]
-            if head[1] in ("動詞", "形容詞", "助動詞") and head[4] in ranks:
+            whole = "".join(p[0] for p in word[i:])
+            if head[1] in ("動詞", "形容詞", "助動詞") and (head[4] in ranks or whole in ranks):
                 end = len(word)
+                # The commoner of the dictionary form and the word as written (ください is 下さい, not 下さる).
+                lemma = min((x for x in (head[4], whole) if x in ranks), key=ranks.get)
             else:
                 for j in range(len(word), i, -1):
                     if "".join(p[0] for p in word[i:j]) in ranks:
                         end, lemma = j, "".join(p[0] for p in word[i:j])
                         break
-            out.append(lemma if lemma in ranks or head[0] not in ranks else head[0])
+            written = "".join(p[0] for p in word[i:end])
+            if JA_NUMBER.fullmatch(written):
+                out.append(KNOWN)
+            else:
+                out.append(lemma if lemma in ranks or head[0] not in ranks else head[0])
             i = end
     return out
 
@@ -658,7 +683,7 @@ def check(path, brief=False):
                 text = pattern.sub(" ", text)
                 continue
             whole_names += text.count(name)
-            text = text.replace(name, " ")
+            text = text.replace(name, JA_NAME if code == "ja" else " ")
         # A decade or number ending joined to the digits is a number (Danish 1960'erne, Norwegian 1960-tallet, Swedish 1960-talet).
         if code in ("da", "no"):
             text = re.sub(r"\d+['’][^\W\d_]+", " ", text)
@@ -675,6 +700,9 @@ def check(path, brief=False):
             text = re.sub(r"([Όό]),τι", r"\1τι", text)
             # An ordinal written with digits (19ος, 19ου, 3η) is a number.
             text = re.sub(r"(?<=\d)(?:ος|ός|ης|ής|ου|ού|ων|ών|ους|ούς|οι|οί|ες|ές|ο|ό|η|ή|α|ά)(?![^\W\d_])", "", text)
+        # The header of the questions is the lesson's layout, not one of its words.
+        if code == "ja":
+            text = text.replace("質問：", "")
         toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr"):
