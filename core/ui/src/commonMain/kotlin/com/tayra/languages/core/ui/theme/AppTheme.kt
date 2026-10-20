@@ -49,14 +49,20 @@ object AppThemes {
     private const val LEARNING_FADE = 0.1f
 
     /** Dark yellows look alike at the light themes' small steps, so the dark themes take bigger ones. */
-    private const val DARK_LEARNING_FADE = 0.16f
+    private const val DARK_LEARNING_FADE = 0.22f
+    private val DARK_FADE_GREY = Color(0xFF8A8A8A)
+    private const val DARK_FADE_LIFT = 0.35f
 
     private fun lightStatuses(page: Color) = StatusColors(
         statuses(unknown = Color(0xFFCDE0FB), learning = Color(0xFFFAE39E), page = page, ignored = Color(0xFFEE8577), wellKnown = Color(0xFF72DA88)),
     )
 
+    /**
+     * Toward the page itself the last dark yellows would sink into the card, so they fade toward a
+     * grey a little lighter than it: each status a step duller, none of them lost.
+     */
     private fun darkStatuses(unknown: Color, learning: Color, page: Color) = StatusColors(
-        statuses(unknown = unknown, learning = learning, page = page, ignored = Color(0xFF7A4B4B), wellKnown = Color(0xFF419252), fade = DARK_LEARNING_FADE),
+        statuses(unknown = unknown, learning = learning, page = lerp(page, DARK_FADE_GREY, DARK_FADE_LIFT), ignored = Color(0xFF7A4B4B), wellKnown = Color(0xFF419252), fade = DARK_LEARNING_FADE),
         onHighlight = Color(0xFFEFF1F2),
     )
 
@@ -131,7 +137,7 @@ object AppThemes {
             outline = Color(0xFF7A7A7A),
             outlineVariant = Color(0xFF383838),
         )),
-        statusColors = darkStatuses(unknown = Color(0xFF36558F), learning = Color(0xFF7C6735), page = Color(0xFF121212)),
+        statusColors = darkStatuses(unknown = Color(0xFF34476B), learning = Color(0xFF7C6735), page = Color(0xFF121212)),
         readingBackground = Color(0xFF121212),
         readingText = Color(0xFFE0E0E0),
         selectedText = Color(0xFFFFB37A),
@@ -205,7 +211,7 @@ object AppThemes {
         )
         val statuses = if (dark) {
             StatusColors(
-                statuses(unknown = mix(Color(blue), 0.5f), learning = mix(Color(yellow), 0.38f), page = bg, ignored = mix(error, 0.35f), wellKnown = mix(Color(green), 0.42f), fade = DARK_LEARNING_FADE),
+                statuses(unknown = mix(Color(blue), 0.5f), learning = mix(Color(yellow), 0.38f), page = lerp(bg, DARK_FADE_GREY, DARK_FADE_LIFT), ignored = mix(error, 0.35f), wellKnown = mix(Color(green), 0.42f), fade = DARK_LEARNING_FADE),
                 onHighlight = fg,
             )
         } else {
