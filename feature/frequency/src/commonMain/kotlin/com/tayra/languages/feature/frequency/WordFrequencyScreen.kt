@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.frequency
 
+import com.tayra.languages.core.ui.components.learningLevels
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -438,7 +439,7 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
                     Text(if (looked) translation ?: tr("No translation found") else tr("Looking up…"), style = AppText.label)
                     val others = word.word.forms.filter { it != word.word.key }.take(8)
                     if (others.isNotEmpty()) Text(tr("Also: {0}", others.joinToString(", ")), style = MaterialTheme.typography.bodySmall)
-                    Text(statusLabel(word.status), style = MaterialTheme.typography.bodySmall)
+                    Text(statusLabel(word.status, learningLevels), style = MaterialTheme.typography.bodySmall)
                 }
             },
         ) {
@@ -473,11 +474,11 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
     }
 }
 
-private fun statusLabel(status: TermStatus): String = when (status) {
+private fun statusLabel(status: TermStatus, levels: Boolean): String = when (status) {
     TermStatus.UNKNOWN -> tr("Not saved yet")
     TermStatus.WELL_KNOWN -> tr("Known")
     TermStatus.IGNORED -> tr("Ignored")
-    else -> tr("Learning, level {0}", status.value)
+    else -> if (levels) tr("Learning, level {0}", status.value) else tr("Learning")
 }
 
 /** Jumps to a rank: 1, every hundred up to 900, then every thousand. */

@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.stats
 
+import com.tayra.languages.core.ui.components.shownName
+import com.tayra.languages.core.ui.components.learningLevels
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -284,24 +286,30 @@ private fun VocabularyCard(o: LanguageOverview, modifier: Modifier) {
         TermStatus.IGNORED -> outline
         else -> statusColors.background(status)
     }
-    val counts = vocabularyOrder.associateWith { o.termsByStatus[it] ?: 0 }
+    val levels = vocabularyOrder.associateWith { o.termsByStatus[it] ?: 0 }
+    // Without the learning levels shown, levels 1 to 4 are counted as one Learning.
+    val counts = if (learningLevels) levels else mapOf(
+        TermStatus.NEW_1 to levels.filterKeys { it.isLearning }.values.sum(),
+        TermStatus.WELL_KNOWN to levels.getValue(TermStatus.WELL_KNOWN),
+        TermStatus.IGNORED to levels.getValue(TermStatus.IGNORED),
+    )
     val total = counts.values.sum()
     ContentCard(tr("Vocabulary by status"), trPlural(total, "{1} word saved", "{1} words saved", formatCount(total)), icon = AppIcons.Tune, modifier = modifier) {
         val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
         Row(Modifier.fillMaxWidth().height(AppSizes.trackBold).clip(AppShapes.pill).background(track).testTag("status-bar")) {
             if (total > 0) {
-                vocabularyOrder.forEach { status ->
+                counts.keys.forEach { status ->
                     val n = counts.getValue(status)
                     if (n > 0) Box(Modifier.weight(n.toFloat()).fillMaxHeight().background(tint(status)))
                 }
             }
         }
         Spacer(Modifier.height(AppSpacing.l))
-        vocabularyOrder.forEach { status ->
+        counts.keys.forEach { status ->
             Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
                 StatusDot(tint(status))
                 Spacer(Modifier.width(AppSpacing.m))
-                Text(tr(status.label), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
+                Text(status.shownName(), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
                 Text(formatCount(counts.getValue(status)), style = AppText.labelStrong)
             }
         }
