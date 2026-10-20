@@ -1,5 +1,6 @@
 package com.tayra.languages
 
+import com.tayra.languages.core.ui.components.LocalLearnedScript
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.ui.components.LocalFlashcardsDue
 import androidx.compose.foundation.background
@@ -106,7 +107,8 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
             },
         ) { id -> scope.launch { choose(id) } }
     }
-    CompositionLocalProvider(LocalLearningLanguage provides state) {
+    val script = languages.firstOrNull { it.id == currentId }?.chineseScript
+    CompositionLocalProvider(LocalLearningLanguage provides state, LocalLearnedScript provides script) {
         content()
         VocabularyLevelPrompt(askLevelFor, onClosed = {
             askLevelFor = null

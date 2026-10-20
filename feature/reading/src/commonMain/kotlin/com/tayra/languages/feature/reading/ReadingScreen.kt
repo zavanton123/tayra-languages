@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import com.tayra.languages.core.ui.components.learningLevels
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.foundation.background
@@ -497,11 +498,11 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
                 LinkText(tr("Courses"), onCourses, color = colors.onSurfaceVariant, icon = Icons.AutoMirrored.Filled.ArrowBack)
                 separator()
                 // One line: a long course name gives way before the lesson's title does.
-                LinkText(lesson.course.title, onHome, Modifier.weight(0.6f, fill = false), color = colors.onSurfaceVariant, maxLines = 1)
+                LinkText(lesson.course.title.inLearnedScript(), onHome, Modifier.weight(0.6f, fill = false), color = colors.onSurfaceVariant, maxLines = 1)
             }
             separator()
             Text(
-                state.book?.title.orEmpty(),
+                state.book?.title.orEmpty().inLearnedScript(),
                 Modifier.weight(1f, fill = false).padding(end = AppSpacing.l),
                 style = AppText.emphasis.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
                 maxLines = 1,

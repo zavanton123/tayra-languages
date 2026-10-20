@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.terms.form
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.ui.text.style.TextAlign
 import com.tayra.languages.core.ui.components.FitText
 import com.tayra.languages.core.ui.components.chosenFor
@@ -899,7 +900,7 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, t
                             Row(Modifier.padding(top = AppSpacing.s).height(IntrinsicSize.Min)) {
                                 Box(Modifier.width(QUOTE_RULE_WIDTH).fillMaxHeight().background(colors.primary.copy(alpha = AppAlpha.disabled)))
                                 Column(Modifier.padding(start = AppSpacing.s)) {
-                                    Text(example.text, style = MaterialTheme.typography.bodyMedium, fontStyle = FontStyle.Italic)
+                                    Text(example.text.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, fontStyle = FontStyle.Italic)
                                     example.translation?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
                                 }
                             }

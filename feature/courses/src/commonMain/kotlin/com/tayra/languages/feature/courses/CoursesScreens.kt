@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.courses
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -363,7 +364,7 @@ private fun ContinueCard(progress: CourseProgress, compact: Boolean, onContinue:
         Row(m.clip(AppShapes.control).clickable(onClick = onOpen), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             LevelTile(course.level, 52)
             Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(course.title, style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
         }
@@ -466,7 +467,7 @@ private fun CourseCard(progress: CourseProgress, modifier: Modifier, tagsBelow: 
         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             LevelTile(course.level, 52)
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(course.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
             if (!tagsBelow) CourseTags(course)
@@ -516,7 +517,7 @@ private fun CourseRow(progress: CourseProgress, compact: Boolean, onClick: () ->
         if (compact) {
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                    Text(course.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                    Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
                     Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
                 Text(courseFacts(course), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
@@ -527,7 +528,7 @@ private fun CourseRow(progress: CourseProgress, compact: Boolean, onClick: () ->
             }
         } else {
             Column(Modifier.weight(1.3f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(course.title, style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
             Box(Modifier.weight(1f)) { CourseTags(course) }
@@ -690,7 +691,7 @@ internal fun CourseContent(
             LinkText(tr("Courses"), onCourses, color = colors.onSurfaceVariant, icon = Icons.AutoMirrored.Filled.ArrowBack)
             if (progress != null) {
                 Text("/", Modifier.padding(horizontal = AppSpacing.m), style = MaterialTheme.typography.bodyLarge, color = colors.outline)
-                Text(progress.course.title, style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(progress.course.title.inLearnedScript(), style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
         }
         if (progress == null) {
@@ -724,7 +725,7 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                 LevelTile(course.level, 60)
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                    Text(course.title, style = AppText.headline)
+                    Text(course.title.inLearnedScript(), style = AppText.headline)
                     Text(course.subtitle, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
                 // Deleting is kept in a menu by the title, away from the buttons that start and edit the course.
@@ -735,7 +736,7 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                 }
             }
             CourseTags(course)
-            if (course.description.isNotBlank()) Text(course.description, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            if (course.description.isNotBlank()) Text(course.description.inLearnedScript(), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                 Fact(AppIcons.MenuBook, lessonCount(course.lessons.size))
                 AppVerticalDivider(Modifier.height(FACT_DIVIDER_HEIGHT))
@@ -914,12 +915,12 @@ private fun LessonRow(
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             // The title keeps its width; the tags follow it, or go under it when the line is full.
             FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                Text(lesson.title, Modifier.padding(end = AppSpacing.xs), style = AppText.itemTitle)
+                Text(lesson.title.inLearnedScript(), Modifier.padding(end = AppSpacing.xs), style = AppText.itemTitle)
                 // Only what sets the lesson apart: a tag every lesson of the course has says nothing here.
                 lesson.tags.filterNot { it in courseTags }.forEach { LabelTag(it) }
                 if (hint != null) Tag(hint, AppAccents.green, size = TagSize.Medium)
             }
-            if (lesson.summary.isNotBlank()) Text(lesson.summary, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            if (lesson.summary.isNotBlank()) Text(lesson.summary.inLearnedScript(), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             if (lesson.newWords.isNotEmpty()) {
                 Text(
                     tr("New words: {0}", lesson.newWords.joinToString(", ")),

@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -119,7 +120,7 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
     var confirmReset by remember { mutableStateOf(false) }
     val bookmarks by viewModel.bookmarks.collectAsState()
     val colors = MaterialTheme.colorScheme
-    val title = state.book?.title.orEmpty()
+    val title = state.book?.title.orEmpty().inLearnedScript()
 
     Column(Modifier.fillMaxHeight()) {
         PaneHeader(

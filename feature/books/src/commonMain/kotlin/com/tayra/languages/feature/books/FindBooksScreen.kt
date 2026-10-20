@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.books
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -190,10 +191,10 @@ private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compac
             }
         }
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Text(book.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            val byline = listOfNotNull(book.authors.joinToString(", ").takeIf { it.isNotEmpty() }, book.level).joinToString(" · ")
+            Text(book.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            val byline = listOfNotNull(book.authors.joinToString(", ").inLearnedScript().takeIf { it.isNotEmpty() }, book.level).joinToString(" · ")
             if (byline.isNotEmpty()) Text(byline, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            if (book.description.isNotEmpty()) Text(book.description, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            if (book.description.isNotEmpty()) Text(book.description.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
             CoverageLine(item.difficulty, item.check, tag = book.id, onCheck = if (book.source.judgedOnSight) null else ({ actions.onCheck(item) }))
             item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
             if (compact) {

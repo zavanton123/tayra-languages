@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.home
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import com.tayra.languages.core.ui.components.QuietButton
@@ -152,7 +153,7 @@ private fun CourseCard(state: HomeUiState, modifier: Modifier, fill: Boolean, on
     val total = progress.lessons.size
     val number = progress.lessons.indexOf(next) + 1
     ActionCard(
-        tr("Continue course"), progress.course.title, tr("Lesson {0}: {1}", number, next.lesson.title), AppIcons.School, AppAccents.blue, "course", modifier, fill,
+        tr("Continue course"), progress.course.title.inLearnedScript(), tr("Lesson {0}: {1}", number, next.lesson.title.inLearnedScript()), AppIcons.School, AppAccents.blue, "course", modifier, fill,
         button = if (started) tr("Continue course") else tr("Start course"), onClick = onContinue,
         progress = if (total == 0) 0f else progress.completed.toFloat() / total,
         progressText = trPlural(total, "{1} of {0} lesson", "{1} of {0} lessons", progress.completed),
@@ -174,7 +175,7 @@ private fun BookCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNa
     val percent = if (book.pageCount > 0) (100 * (book.currentPage - 1) / book.pageCount).coerceIn(0, 99) else 0
     ActionCard(
         // A text of one page has no pages to count, so its length is given instead.
-        tr("Continue book"), book.title,
+        tr("Continue book"), book.title.inLearnedScript(),
         if (book.pageCount > 1) tr("Page {0} of {1}", book.currentPage, book.pageCount) else trPlural(book.wordCount, "{1} word", "{1} words", formatCount(book.wordCount)), AppIcons.MenuBook, AppAccents.purple, "book", modifier, fill,
         button = tr("Continue book"), onClick = { onNavigate(Route.Read(book.id)) },
         progress = percent / 100f, progressText = "$percent%",

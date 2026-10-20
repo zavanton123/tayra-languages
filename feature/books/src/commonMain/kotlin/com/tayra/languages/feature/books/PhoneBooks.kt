@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.books
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -163,7 +164,7 @@ private fun PhoneContinueCard(book: BookListItem, onContinue: () -> Unit) {
             BookCover(book, 56.dp)
             Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                 Text(tr("Continue reading"), style = AppText.smallTitle, color = colors.primary)
-                Text(book.title, style = AppText.sectionTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text(book.title.inLearnedScript(), style = AppText.sectionTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text(tr("Page {0} of {1} · {2}", book.currentPage, book.pageCount, words(book.wordCount)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
         }
@@ -202,7 +203,7 @@ private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Bool
             BookCover(book, 60.dp)
             Spacer(Modifier.width(AppSpacing.l))
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                Text(book.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text(book.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 // Length and when it was opened share a line, and the status its tags', so more books fit on a screen.
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     val meta = MaterialTheme.typography.bodyMedium

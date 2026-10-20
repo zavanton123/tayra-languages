@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.news
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -438,8 +439,8 @@ private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, c
                 Tag(length.tag, size = TagSize.Small)
             }
         }
-        Text(article.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
-        Text(article.summary, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 3, overflow = TextOverflow.Ellipsis)
+        Text(article.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        Text(article.summary.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 3, overflow = TextOverflow.Ellipsis)
         CoverageLine(item.difficulty, item.check, tag = article.url)
         item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
         Spacer(Modifier.height(AppSpacing.xxs))

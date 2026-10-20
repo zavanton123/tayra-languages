@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.news
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.remember
@@ -389,8 +390,8 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
                     Tag(tr("Easy language"), size = TagSize.Small)
                 }
             }
-            Text(article.title, style = AppText.itemTitle, maxLines = 3, overflow = TextOverflow.Ellipsis)
-            if (article.summary.isNotEmpty()) Text(article.summary, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            Text(article.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 3, overflow = TextOverflow.Ellipsis)
+            if (article.summary.isNotEmpty()) Text(article.summary.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
             CoverageLine(item.difficulty, item.check, tag = article.url)
             item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
             if (compact) {

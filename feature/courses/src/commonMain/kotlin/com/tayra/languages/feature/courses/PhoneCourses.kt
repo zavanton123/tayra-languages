@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.courses
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -215,7 +216,7 @@ private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, 
         Row(Modifier.fillMaxWidth().clip(AppShapes.control).clickable(onClick = onOpen), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             LevelTile(course.level, 52)
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(course.title, style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
         }
@@ -248,7 +249,7 @@ private fun PhoneCourseCard(progress: CourseProgress, onClick: () -> Unit) {
         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             LevelTile(course.level, 52)
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(course.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
             course.rankUpTo?.let { Box(Modifier.padding(top = AppSpacing.xxs)) { RankTag(it) } }

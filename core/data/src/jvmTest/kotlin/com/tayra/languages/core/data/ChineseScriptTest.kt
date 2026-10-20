@@ -11,7 +11,12 @@ import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.morphology.ChineseScript
 import com.tayra.languages.core.domain.morphology.ChineseScriptTables
+import com.tayra.languages.core.domain.service.ChineseScriptExamples
 import com.tayra.languages.core.domain.service.ChineseScriptService
+import com.tayra.languages.core.domain.service.ExampleSearchQuery
+import com.tayra.languages.core.domain.service.ExampleSearchResult
+import com.tayra.languages.core.domain.service.ExampleSentence
+import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.term.TermTextNormalizer
 import com.tayra.languages.core.domain.model.Book
@@ -72,7 +77,7 @@ class ChineseScriptTest {
         val service = ChineseScriptService(languages, tables, terms, books)
         service.setScript(id, ChineseScript.SIMPLIFIED)
         val simplified = languages.getById(id)!!
-        val hair = terms.save(TermTextNormalizer.termFromText(simplified, "头发").copy(status = TermStatus.LEARNING_3, translation = "hair"))
+        val hair = terms.save(TermTextNormalizer.termFromText(simplified, "头发").copy(status = TermStatus.LEARNING_3, translation = "hair", sentence = "我的头发很长。"))
         books.insertBook(Book(languageId = id, title = "Hair"), listOf(NewPage("我的头发很长。", 7)))
 
         val change = service.setScript(id, ChineseScript.TRADITIONAL)
@@ -81,6 +86,7 @@ class ChineseScriptTest {
         val term = terms.getById(hair)!!
         assertEquals("頭髮", term.text.replace("\u200B", ""))
         assertEquals(TermStatus.LEARNING_3 to "hair", term.status to term.translation)
+        assertEquals("我的頭髮很長。", term.sentence, "the sentence it was met in, in the script too")
         assertEquals(hair, terms.findByTextLc(id, TermTextNormalizer.termFromText(traditional, "頭髮").textLc)?.id, "found as either script writes it")
         assertEquals(hair, terms.findByTextLc(id, TermTextNormalizer.termFromText(traditional, "头发").textLc)?.id)
         assertEquals("我的**頭髮**很長。", terms.references(id, term.textLc, includeUnread = true).single().sentence, "the example in the script shown")
@@ -107,6 +113,21 @@ class ChineseScriptTest {
         assertEquals("头\u200B发" to "頭\u200B髮", terms.getById(hair)!!.let { it.textLc to it.text }, "written as shown")
         assertEquals(TermStatus.NEW_2, terms.findByTextLc(id, key("書"))?.takeIf { it.id == book }?.status)
         assertEquals(mapOf("书" to TermStatus.NEW_2), terms.observeWordStatuses(id).first())
+    }
+
+    @Test
+    fun exampleSentencesAreShownInTheScript() = runBlocking<Unit> {
+        com.tayra.languages.core.domain.morphology.ChineseScripts.prepare(tables)
+        val found = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult(listOf(ExampleSentence("我的头发很长。", "My hair is long.")), 2, "page-2")
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult(listOf(ExampleSentence("头发", "hair")), 2, null)
+        }
+        val mandarin = LanguageDefinitions.all.first { it.name == "Mandarin Chinese" }.language
+        val examples = ChineseScriptExamples(found)
+        val first = examples.search(ExampleSearchQuery("頭髮", mandarin.copy(chineseScript = ChineseScript.TRADITIONAL), "en"))
+        assertEquals(listOf("我的頭髮很長。" to "My hair is long."), first.sentences.map { it.text to it.translation })
+        assertEquals(listOf("頭髮"), examples.nextPage("page-2", "en").sentences.map { it.text }, "the next page too")
+        assertEquals(listOf("我的头发很长。"), examples.search(ExampleSearchQuery("头发", mandarin, "en")).sentences.map { it.text }, "as written without a script")
     }
 
     @Test

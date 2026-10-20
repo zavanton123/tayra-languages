@@ -75,10 +75,11 @@ class ChineseScriptService(
             // In the words it was saved as: parsing it again out of its text could cut it differently.
             val text = ChineseScripts.convertWords(term.text, ZWS, script)
             val textLc = language.lowercase(text)
-            if (text == term.text && textLc == term.textLc) continue
+            val sentence = term.sentence?.let { ChineseScripts.convert(it, script) }
+            if (text == term.text && textLc == term.textLc && sentence == term.sentence) continue
             val existing = if (textLc == term.textLc) null else repository.findByTextLc(language.id, textLc)
             if (existing == null || existing.id == term.id) {
-                repository.save(term.copy(text = text, textLc = textLc))
+                repository.save(term.copy(text = text, textLc = textLc, sentence = sentence))
                 converted++
                 continue
             }

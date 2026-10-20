@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.books
 
+import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
@@ -290,7 +291,7 @@ private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) {
             }
             Column(Modifier.weight(1f, fill = false), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                 Text(tr("Continue reading"), style = AppText.smallTitle, color = colors.primary)
-                Text(book.title, style = AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(book.title.inLearnedScript(), style = AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(
                     tr("Page {0} of {1} · {2}", book.currentPage, book.pageCount, words(book.wordCount)),
                     style = MaterialTheme.typography.bodyLarge,
@@ -477,7 +478,7 @@ private fun BookTableRow(book: BookListItem, selected: Boolean, selecting: Boole
             BookCover(book, 52.dp)
             Spacer(Modifier.width(AppSpacing.l))
             Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                Text(book.title, style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(book.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(words(book.wordCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 BookTags(book.tags)
             }
@@ -557,7 +558,7 @@ private fun BookCard(book: BookListItem, selected: Boolean, selecting: Boolean, 
             BookCover(book, 88.dp)
             Spacer(Modifier.width(AppSpacing.xl))
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                Text(book.title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text(book.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text(words(book.wordCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 Spacer(Modifier.height(AppSpacing.xs))
                 BookTags(book.tags)

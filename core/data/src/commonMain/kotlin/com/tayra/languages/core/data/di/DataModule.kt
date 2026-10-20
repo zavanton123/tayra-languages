@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.di
 
+import com.tayra.languages.core.domain.service.ChineseScriptExamples
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.backup.BackupRepositoryImpl
 import com.tayra.languages.core.data.bookpack.BookPackRepository
@@ -146,7 +147,7 @@ val dataModule: Module = module {
     single<OfflineDictionary> { get<DictionaryService>() }
 
     single { createHttpClient() }
-    single<ExampleSentencesProvider> { TatoebaExamplesProvider(get()) }
+    single<ExampleSentencesProvider> { ChineseScriptExamples(TatoebaExamplesProvider(get())) }
     single { MyMemoryTranslationProvider(get(), get()) }
     single { GoogleTranslationProvider(get(), get()) }
     single<GoogleTranslation> { get<GoogleTranslationProvider>() }
