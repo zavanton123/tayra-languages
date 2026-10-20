@@ -88,7 +88,7 @@ class LanguageSetupDialogTest {
         )
         waitForIdle()
         onNodeWithText("Downloads go on in the background if you close this.").assertExists()
-        onNodeWithText("Download failed: HTTP 503").assertExists()
+        onNodeWithText("The download server is busy. Try again in a moment.").assertExists()
         onNodeWithText("Try again").assertDoesNotExist()
         System.getenv("SETUP_SCREENSHOT")?.let { save(it.replace(".png", "-running.png")) }
         progress = progress + mapOf(items[2].id to SetupState.Done, items[4].id to SetupState.Done)

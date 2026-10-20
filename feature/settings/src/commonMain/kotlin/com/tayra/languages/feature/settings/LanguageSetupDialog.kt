@@ -471,7 +471,9 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
                     color = colors.primary,
                 )
             }
-            if (progress is SetupState.Failed) Text(tr("Download failed: {0}", progress.message), style = MaterialTheme.typography.bodySmall, color = colors.error)
+            if (progress is SetupState.Failed) Text(downloadFailure(progress.message), style = MaterialTheme.typography.bodySmall, color = colors.error)
+            // A download waiting its turn says so, rather than showing an empty box like one not chosen.
+            if (started && checked && (progress == null || progress is SetupState.Waiting)) Text(tr("Queued"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
     }
 }
@@ -488,7 +490,7 @@ private fun StatusMark(item: SetupItem, checked: Boolean, started: Boolean, prog
             progress is SetupState.Done -> Icon(Icons.Default.CheckCircle, contentDescription = tr("Downloaded"), tint = StatusTints.ok, modifier = Modifier.size(AppSizes.iconLarge))
             progress is SetupState.Failed -> Icon(Icons.Default.Warning, contentDescription = null, tint = colors.error, modifier = Modifier.size(AppSizes.iconLarge))
             progress is SetupState.Running -> AppSpinner(size = SpinnerSize.Medium)
-            else -> Box(Modifier.size(AppSizes.iconMedium).border(AppBorders.selected(colors.outlineVariant), AppShapes.circle))
+            else -> Icon(AppIcons.History, contentDescription = tr("Queued"), tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
         }
     }
 }
@@ -604,7 +606,9 @@ private fun VoiceRow(item: SetupItem, checked: Boolean, started: Boolean, progre
         StatusMark(item, checked, started, progress, onToggle)
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
             Text(item.name.substringAfter(" \u00b7 "), style = MaterialTheme.typography.bodyLarge)
-            if (progress is SetupState.Failed) Text(tr("Download failed: {0}", progress.message), style = MaterialTheme.typography.bodySmall, color = colors.error)
+            if (progress is SetupState.Failed) Text(downloadFailure(progress.message), style = MaterialTheme.typography.bodySmall, color = colors.error)
+            // A download waiting its turn says so, rather than showing an empty box like one not chosen.
+            if (started && checked && (progress == null || progress is SetupState.Waiting)) Text(tr("Queued"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
         if (item.status == SetupStatus.INSTALLED) {
             Text(tr("On this device"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
@@ -642,3 +646,14 @@ private val MARK_SLOT = 40.dp
 
 /** "Kokoro model with 34 voices", as the engines name a model of several voices. */
 private val MODEL_TITLE = Regex("""(.+) model with (\d+) voices""")
+
+/** Why a download failed, in words: a server's status code is no help to a reader; the footer offers Try again. */
+private fun downloadFailure(message: String): String {
+    val code = Regex("""HTTP (\d{3})""").find(message)?.groupValues?.get(1)?.toIntOrNull()
+    return when {
+        code == null -> tr("Download failed: {0}", message)
+        code >= 500 -> tr("The download server is busy. Try again in a moment.")
+        code == 404 -> tr("The file is no longer on the download server.")
+        else -> tr("Download failed: {0}", message)
+    }
+}
