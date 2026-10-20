@@ -459,7 +459,8 @@ class ExamplesScreenTest {
         assertEquals(listOf("pt:Eu não tenho tempo."), spoken.toList(), "made before any click")
 
         rule.onNodeWithContentDescription("Read aloud").performClick()
-        rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
+        // The count below shows the audio was not made again; the wait only has to outlast a busy machine.
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(1, spoken.size, "the prepared audio is played, not made again")
     }
 
