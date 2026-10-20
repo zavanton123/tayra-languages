@@ -44,12 +44,12 @@ val BookListItem.readingStatus: ReadingStatus
         else -> ReadingStatus.NOT_STARTED
     }
 
-/** How far through the book the reader is: the current page's share of the pages, 100 only once finished. */
+/** How far through the book the reader is: the share of the pages before the current one, 100 only once finished. */
 val BookListItem.progressPercent: Int
     get() = when (readingStatus) {
         ReadingStatus.FINISHED -> 100
         ReadingStatus.NOT_STARTED -> 0
-        ReadingStatus.READING -> if (pageCount > 0) (100 * currentPage / pageCount).coerceIn(0, 99) else 0
+        ReadingStatus.READING -> if (pageCount > 0) (100 * (currentPage - 1) / pageCount).coerceIn(0, 99) else 0
     }
 
 enum class ProgressFilter(val label: String, val status: ReadingStatus?) {

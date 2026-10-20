@@ -168,6 +168,6 @@ class HomeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Study activity")).fetchSemanticsNodes().isNotEmpty() }
         val top = listOf("flashcards", "book", "course").map { onNodeWithTag("card-$it").fetchSemanticsNode().positionInRoot.y }
         assertEquals(top.sorted(), top)
-        onNodeWithText("99%").assertExists()
+        onNodeWithText("97%").assertExists()
     }
 }

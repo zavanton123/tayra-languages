@@ -167,8 +167,8 @@ private fun BookCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNa
         )
         return
     }
-    // As on Books: the current page's share, and never all of it until the book is marked finished.
-    val percent = if (book.pageCount > 0) (100 * book.currentPage / book.pageCount).coerceIn(0, 99) else 0
+    // As on Books: the pages finished, and never all of them until the book is marked finished.
+    val percent = if (book.pageCount > 0) (100 * (book.currentPage - 1) / book.pageCount).coerceIn(0, 99) else 0
     ActionCard(
         // A text of one page has no pages to count, so its length is given instead.
         tr("Continue book"), book.title,

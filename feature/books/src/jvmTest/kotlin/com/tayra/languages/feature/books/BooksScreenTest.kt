@@ -116,7 +116,7 @@ class BooksScreenTest {
         onNodeWithText("Page 3 of 5 · 1,223 words").assertExists()
         assertEquals(1, onAllNodesWithText("Page ", substring = true).fetchSemanticsNodes().size)
         onNodeWithText("Continue reading").assertExists()
-        assertTrue(onAllNodesWithText("60%").fetchSemanticsNodes().size >= 2)
+        assertTrue(onAllNodesWithText("40%").fetchSemanticsNodes().size >= 2)
         onNodeWithText("1,223 words").assertExists()
         // The tab, and the badge of the one book in progress.
         assertEquals(2, onAllNodesWithText("In progress").fetchSemanticsNodes().size)
@@ -172,11 +172,12 @@ class BooksScreenTest {
     }
 
     @Test
-    fun progressIsTheCurrentPagesShareAndFullOnlyOnceFinished() {
-        assertEquals(60, books[0].progressPercent)
+    fun progressCountsThePagesFinishedAndIsFullOnlyOnceFinished() {
+        assertEquals(40, books[0].progressPercent)
         assertEquals(100, books[1].progressPercent)
         assertEquals(0, books[5].progressPercent)
-        assertEquals(99, book(7, "Last page", 4, 4, 10, 1.minutes, finished = false, unknownPercent = 0).progressPercent)
+        assertEquals(75, book(7, "Last page", 4, 4, 10, 1.minutes, finished = false, unknownPercent = 0).progressPercent)
+        assertEquals(0, book(8, "One page", 1, 1, 10, 1.minutes, finished = false, unknownPercent = 0).progressPercent)
     }
 
     private fun ComposeUiTest.save(path: String) {
@@ -217,7 +218,7 @@ class BooksScreenTest {
         }
         waitForIdle()
         onNodeWithText("Page 3 of 5 · 1,223 words").assertExists()
-        onNodeWithText("60% read").assertExists()
+        onNodeWithText("40% read").assertExists()
         onNodeWithText("69% known").assertExists()
         onNodeWithText("Your library").assertExists()
         onNodeWithText("Read, learn, and build your vocabulary with every text.").assertDoesNotExist()
