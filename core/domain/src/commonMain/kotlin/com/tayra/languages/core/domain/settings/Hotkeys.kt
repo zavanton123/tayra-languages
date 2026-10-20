@@ -77,8 +77,9 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     LISTEN_NEXT_ARROW(HotkeyCategory.LISTENING, "Read the next sentence (second key)", Hotkey("Right")),
     LISTEN_REPEAT(HotkeyCategory.LISTENING, "Read the current sentence again", Hotkey("S")),
     LISTEN_REPEAT_ARROW(HotkeyCategory.LISTENING, "Read the current sentence again (second key)", Hotkey("Down")),
-    LISTEN_PAUSE(HotkeyCategory.LISTENING, "Pause or resume reading aloud", Hotkey("W")),
-    LISTEN_PAUSE_ARROW(HotkeyCategory.LISTENING, "Pause or resume reading aloud (second key)", Hotkey("Up")),
+    // More keys for the same toggle as Space, named as such, so the list does not seem to hold two actions.
+    LISTEN_PAUSE(HotkeyCategory.LISTENING, "Play or pause reading aloud (second key)", Hotkey("W")),
+    LISTEN_PAUSE_ARROW(HotkeyCategory.LISTENING, "Play or pause reading aloud (third key)", Hotkey("Up")),
     LISTEN_AUTO_PAUSE(HotkeyCategory.LISTENING, "Turn auto-pause on or off", Hotkey("Q")),
 
     STATUS_1(HotkeyCategory.STATUS, "Set status to 1", Hotkey("1")),
@@ -91,8 +92,8 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     STATUS_DOWN(HotkeyCategory.STATUS, "Bump the status down by 1", Hotkey("Down", ctrl = true)),
     DELETE_TERM(HotkeyCategory.STATUS, "Set status to Unknown", Hotkey("U")),
 
-    PREVIOUS_PAGE(HotkeyCategory.PAGING, "Go to previous page, do not mark current page read", Hotkey("Left", shift = true)),
-    NEXT_PAGE(HotkeyCategory.PAGING, "Go to next page, do not mark current page read", Hotkey("Right", shift = true)),
+    PREVIOUS_PAGE(HotkeyCategory.PAGING, "Previous page (keep this one unread)", Hotkey("Left", shift = true)),
+    NEXT_PAGE(HotkeyCategory.PAGING, "Next page (keep this one unread)", Hotkey("Right", shift = true)),
     MARK_READ(HotkeyCategory.PAGING, "Mark page as read, go to next page", null),
     MARK_READ_WELL_KNOWN(HotkeyCategory.PAGING, "Set remaining unknown words to Known, mark page as read, go to next page", null),
 

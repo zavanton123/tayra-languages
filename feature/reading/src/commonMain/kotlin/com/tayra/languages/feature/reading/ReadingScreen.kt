@@ -739,11 +739,10 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
     // Keys for one action are alternatives ("or"); a row of two opposite actions pairs them with "/".
     val or = tr("or")
     val rows = listOf(
-        Triple(tr("Play / pause"), listOf(HotkeyAction.LISTEN_PLAY_PAUSE), or),
+        Triple(tr("Play / pause"), listOf(HotkeyAction.LISTEN_PLAY_PAUSE, HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW), or),
         Triple(tr("Previous sentence"), listOf(HotkeyAction.LISTEN_PREVIOUS, HotkeyAction.LISTEN_PREVIOUS_ARROW), or),
         Triple(tr("Next sentence"), listOf(HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW), or),
         Triple(tr("Repeat sentence"), listOf(HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW), or),
-        Triple(tr("Pause / resume"), listOf(HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW), or),
         Triple(tr("Mark word as known"), listOf(HotkeyAction.STATUS_WELL_KNOWN), or),
         Triple(tr("Mark word as unknown"), listOf(HotkeyAction.DELETE_TERM), or),
         Triple(tr("Show / hide the term pane"), listOf(HotkeyAction.TOGGLE_TERM_PANE), or),
