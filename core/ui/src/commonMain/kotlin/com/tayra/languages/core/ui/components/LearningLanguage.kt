@@ -93,7 +93,7 @@ fun LanguageCodeBadge(languageName: String, size: Dp = 28.dp) {
     val code = LanguageCodes.codeFor(languageName)?.uppercase() ?: languageName.take(2).uppercase()
     val tint = badgeTints[(code.hashCode() and Int.MAX_VALUE) % badgeTints.size]
     Box(Modifier.size(size).clip(AppShapes.circle).background(tint.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
-        Text(code, color = tint, style = AppText.badge)
+        Text(code, color = AppAccents.onWash(tint), style = AppText.badge)
     }
 }
 

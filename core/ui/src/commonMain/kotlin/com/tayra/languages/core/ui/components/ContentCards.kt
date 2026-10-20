@@ -332,7 +332,7 @@ fun CodeTile(languageCode: String, size: Int = 44) {
     val code = languageCode.uppercase().take(3)
     val tint = codeTints[(code.hashCode() and Int.MAX_VALUE) % codeTints.size]
     Box(Modifier.size(size.dp).clip(AppShapes.compact).background(tint.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
-        Text(code, color = tint, style = AppText.badge)
+        Text(code, color = AppAccents.onWash(tint), style = AppText.badge)
     }
 }
 
