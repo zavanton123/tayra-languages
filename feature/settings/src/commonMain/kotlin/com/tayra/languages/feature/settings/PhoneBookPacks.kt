@@ -24,7 +24,7 @@ import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppSpacing
 
-/** The book packs page on a phone: each bundle a card with its summary, its size and one full-width button. */
+/** The book packs page on a phone: each pack a card with its summary, its size and one full-width button. */
 @Composable
 internal fun PhoneBookPacksScreen(
     packs: List<BookPackStatus>,
@@ -41,10 +41,10 @@ internal fun PhoneBookPacksScreen(
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Text(tr("Download a bundle of free books, graded by level."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-            InfoBanner(tr("Downloaded bundles appear in Books and can be edited."))
+            Text(tr("Download a pack of free books, graded by level."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            InfoBanner(tr("Downloaded packs appear in Books and can be edited."))
             if (packs.isEmpty() && languageName != null) {
-                Text(tr("There is no book bundle for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                Text(tr("There is no book pack for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
             packs.forEach { status ->
                 PhonePackCard(status.pack.info(), status.state, bookPackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) {

@@ -27,9 +27,9 @@ internal val zhBooks: Map<String, String> = mapOf(
     // EmptyLibrary
     "Your library is empty" to "你的书库是空的",
     "Choose a language to learn to see its books." to "选择要学习的语言，即可查看相应书籍。",
-    "Download a bundle of free {0} books graded from A2 to C2, or add a text of your own." to "下载一套从 A2 到 C2 分级的免费{0}书籍，或添加你自己的文本。",
+    "Download the free {0} book pack, graded from A2 to C2, or add a text of your own." to "下载从 A2 到 C2 分级的免费{0}图书包，或添加你自己的文本。",
     "Add a text you want to read: paste it, or open a file." to "添加你想读的文本：直接粘贴，或打开文件。",
-    "Download the book bundle" to "下载书籍合集",
+    "Download the book pack" to "下载图书包",
     "Downloading…" to "正在下载…",
     "Add a book" to "添加书籍",
     // PhoneBooks.kt

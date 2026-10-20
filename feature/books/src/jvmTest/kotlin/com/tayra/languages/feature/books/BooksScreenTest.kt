@@ -247,9 +247,9 @@ class BooksScreenTest {
         assertEquals(0, onAllNodesWithContentDescription("Select A Maldição").fetchSemanticsNodes().size)
     }
 
-    /** An empty library offers the language's free book bundle, and the offer waits while it downloads. */
+    /** An empty library offers the language's free book pack, and the offer waits while it downloads. */
     @Test
-    fun anEmptyLibraryOffersTheBookBundle() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun anEmptyLibraryOffersTheBookPack() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         var state by mutableStateOf(BooksUiState(loading = false, books = emptyList(), languages = emptyList(), currentLanguageId = 1, packAvailable = true))
         var asked = 0
         setContent {

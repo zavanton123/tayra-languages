@@ -42,7 +42,7 @@ import com.tayra.languages.core.ui.theme.AppText
 /** A downloadable pack of courses or books, as its card shows it. */
 internal class PackInfo(val id: String, val languageCode: String, val title: String, val summary: String, val downloadSize: Long)
 
-/** What a pack's card calls the pack and its contents, already translated: course packs and book bundles differ only in these. */
+/** What a pack's card calls the pack and its contents, already translated: course packs and book packs differ only in these. */
 internal class PackWords(
     val kind: String,
     val downloading: String,

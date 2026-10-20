@@ -27,9 +27,9 @@ internal val plBooks: Map<String, String> = mapOf(
     // EmptyLibrary
     "Your library is empty" to "Twoja biblioteka jest pusta",
     "Choose a language to learn to see its books." to "Wybierz język do nauki, aby zobaczyć jego książki.",
-    "Download a bundle of free {0} books graded from A2 to C2, or add a text of your own." to "Pobierz zestaw darmowych książek w języku {0} na poziomach od A2 do C2 albo dodaj własny tekst.",
+    "Download the free {0} book pack, graded from A2 to C2, or add a text of your own." to "Pobierz pakiet darmowych książek w języku {0} na poziomach od A2 do C2 albo dodaj własny tekst.",
     "Add a text you want to read: paste it, or open a file." to "Dodaj tekst, który chcesz przeczytać: wklej go albo otwórz plik.",
-    "Download the book bundle" to "Pobierz zestaw książek",
+    "Download the book pack" to "Pobierz pakiet książek",
     "Downloading…" to "Pobieranie…",
     "Add a book" to "Dodaj książkę",
     // PhoneBooks.kt

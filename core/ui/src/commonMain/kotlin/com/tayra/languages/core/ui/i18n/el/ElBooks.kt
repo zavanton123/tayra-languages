@@ -27,9 +27,9 @@ internal val elBooks: Map<String, String> = mapOf(
     // EmptyLibrary
     "Your library is empty" to "Η βιβλιοθήκη σας είναι άδεια",
     "Choose a language to learn to see its books." to "Επιλέξτε μια γλώσσα εκμάθησης για να δείτε τα βιβλία της.",
-    "Download a bundle of free {0} books graded from A2 to C2, or add a text of your own." to "Κατεβάστε μια συλλογή δωρεάν βιβλίων στα {0}, από το επίπεδο A2 έως το C2, ή προσθέστε δικό σας κείμενο.",
+    "Download the free {0} book pack, graded from A2 to C2, or add a text of your own." to "Κατεβάστε ένα πακέτο δωρεάν βιβλίων στα {0}, από το επίπεδο A2 έως το C2, ή προσθέστε δικό σας κείμενο.",
     "Add a text you want to read: paste it, or open a file." to "Προσθέστε ένα κείμενο που θέλετε να διαβάσετε: επικολλήστε το ή ανοίξτε ένα αρχείο.",
-    "Download the book bundle" to "Λήψη της συλλογής βιβλίων",
+    "Download the book pack" to "Λήψη του πακέτου βιβλίων",
     "Downloading…" to "Λήψη…",
     "Add a book" to "Προσθήκη βιβλίου",
     // PhoneBooks.kt

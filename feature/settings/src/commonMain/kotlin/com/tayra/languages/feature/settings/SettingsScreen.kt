@@ -216,7 +216,7 @@ private fun MoreSettingsCard(onNavigate: (Route) -> Unit) {
             Triple(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), Route.FlashcardSettings to AppIcons.Style),
             Triple(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings to AppIcons.Abc),
             Triple(tr("Course packs"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), Route.CoursePacks to AppIcons.School),
-            Triple(tr("Book packs"), tr("Download a bundle of free books in a language as one file, or remove them to free space."), Route.BookPacks to AppIcons.Download),
+            Triple(tr("Book packs"), tr("Download a pack of free books in a language as one file, or remove them to free space."), Route.BookPacks to AppIcons.Download),
             Triple(tr("Keyboard shortcuts"), tr("Customize how you navigate and listen while reading."), Route.Shortcuts to AppIcons.Keyboard),
             Triple(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), Route.Backups to AppIcons.UploadFile),
         )

@@ -66,10 +66,10 @@ internal fun BookPacksContent(
     languageName: String? = null,
 ) {
     var removing by remember { mutableStateOf<BookPack?>(null) }
-    ScreenHeader(tr("Book packs"), tr("Download a bundle of free books in a language as one file, or remove them to free space."), onBackToSettings = onBack)
+    ScreenHeader(tr("Book packs"), tr("Download a pack of free books in a language as one file, or remove them to free space."), onBackToSettings = onBack)
     InfoBanner(tr("Downloaded books appear under Books when you learn their language, graded from A2 to C2. Like the books you add, they can be edited or archived."))
     if (packs.isEmpty() && languageName != null) {
-        Text(tr("There is no book bundle for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text(tr("There is no book pack for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
     packs.forEach { status -> PackCard(status.pack.info(), status.state, bookPackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) }
     removing?.let { pack -> RemoveBookPackDialog(pack, onRemove = { onRemove(pack) }, onDismiss = { removing = null }) }
@@ -78,18 +78,18 @@ internal fun BookPacksContent(
 internal fun BookPack.info() = PackInfo(id, languageCode, title, summary, downloadSize)
 
 internal fun bookPackWords() = PackWords(
-    kind = tr("Book bundle"),
+    kind = tr("Book pack"),
     downloading = tr("Downloading and adding the books…"),
     onDevice = tr("The books are on this device"),
-    downloadAction = tr("Download book bundle"),
-    removeAction = tr("Remove book bundle"),
+    downloadAction = tr("Download book pack"),
+    removeAction = tr("Remove book pack"),
 )
 
 @Composable
 internal fun RemoveBookPackDialog(pack: BookPack, onRemove: () -> Unit, onDismiss: () -> Unit) {
     RemovePackDialog(
         tr("Remove the {0} books?", tr(pack.title)),
-        tr("The bundle's books are deleted, with how far you read them and your bookmarks in them. Books you added yourself stay. You can download the bundle again at any time."),
+        tr("The pack's books are deleted, with how far you read them and your bookmarks in them. Books you added yourself stay. You can download the pack again at any time."),
         onRemove = onRemove,
         onDismiss = onDismiss,
     )

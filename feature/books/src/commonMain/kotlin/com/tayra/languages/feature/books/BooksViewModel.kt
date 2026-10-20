@@ -82,9 +82,9 @@ data class BooksUiState(
     val wordsLearned: Int = 0,
     /** Ticked books; only those still listed count, so a filter never hides a selected book from a bulk action. */
     val selected: Set<Long> = emptySet(),
-    /** Whether a bundle of free books for the language can be downloaded, offered while the library is empty. */
+    /** Whether a pack of free books for the language can be downloaded, offered while the library is empty. */
     val packAvailable: Boolean = false,
-    /** How far the language's book bundle is: downloading, failed, or neither; null without a bundle. */
+    /** How far the language's book pack is: downloading, failed, or neither; null without a pack. */
     val packState: PackState? = null,
 ) {
     /** The name of the language being learned, empty when none is chosen. */
@@ -196,7 +196,7 @@ class BooksViewModel(
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), BooksUiState(archived = archived))
 
-    /** Downloads the language's book bundle; its books appear here as soon as they are written. */
+    /** Downloads the language's book pack; its books appear here as soon as they are written. */
     fun downloadBooks() {
         val code = state.value.languages.firstOrNull { it.id == state.value.currentLanguageId }?.name?.let { LanguageCodes.codeFor(it) } ?: return
         val pack = BookPacks.forLanguage(code).firstOrNull() ?: return

@@ -213,7 +213,7 @@ internal class BooksCallbacks(
     val onSelectAll: (Boolean) -> Unit = {},
     val onArchiveSelected: () -> Unit = {},
     val onDeleteSelected: () -> Unit = {},
-    /** Downloads the language's bundle of free books. */
+    /** Downloads the language's pack of free books. */
     val onDownloadBooks: () -> Unit = {},
     /** Opens the free books of online libraries. */
     val onFindBooks: () -> Unit = {},
@@ -246,7 +246,7 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
                 }
             }
         }
-        // An empty library: the way in is a bundle of free books, or a first book of one's own.
+        // An empty library: the way in is a pack of free books, or a first book of one's own.
         if (!state.archived && state.books.isEmpty()) {
             item { EmptyLibrary(state, callbacks.onNewBook, callbacks.onDownloadBooks, callbacks.onFindBooks) }
             return@ScrollList
@@ -679,7 +679,7 @@ internal fun BookMenu(book: BookListItem, callbacks: BooksCallbacks) {
     }
 }
 
-/** No books yet in the language: the free bundle, when there is one, and a book of one's own. */
+/** No books yet in the language: the free book pack, when there is one, and a book of one's own. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownloadBooks: () -> Unit, onFindBooks: () -> Unit = {}) {
@@ -691,7 +691,7 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
         Modifier.testTag("empty-library"),
         message = when {
             language.isEmpty() -> tr("Choose a language to learn to see its books.")
-            state.packAvailable -> tr("Download a bundle of free {0} books graded from A2 to C2, or add a text of your own.", languageInSentence(language, LanguageCase.PREPOSITIONAL))
+            state.packAvailable -> tr("Download the free {0} book pack, graded from A2 to C2, or add a text of your own.", languageInSentence(language, LanguageCase.PREPOSITIONAL))
             else -> tr("Add a text you want to read: paste it, or open a file.")
         },
         action = if (language.isEmpty()) null else ({
@@ -702,7 +702,7 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 if (state.packAvailable) {
                     PrimaryButton(
-                        if (downloading) tr("Downloading…") else tr("Download the book bundle"),
+                        if (downloading) tr("Downloading…") else tr("Download the book pack"),
                         onClick = onDownloadBooks,
                         modifier = Modifier.testTag("download-books"),
                         icon = AppIcons.Download,
