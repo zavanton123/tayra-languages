@@ -20,5 +20,5 @@ val frequencyModule = module {
 
 fun NavGraphBuilder.frequencyGraph(navController: NavController) {
     composable<Route.WordFrequency> { WordFrequencyScreen(onNavigate = { navController.navigate(it) }) }
-    composable<Route.VocabularySettings> { VocabularySettingsScreen(onNavigate = { navController.navigate(it) }) }
+    composable<Route.VocabularySettings> { VocabularySettingsScreen(onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() }) }
 }

@@ -58,12 +58,12 @@ import com.tayra.languages.core.ui.theme.TayraTheme
  * coloured preview, the way to the word frequency page, and one button to set the level.
  */
 @Composable
-internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit, onNavigate: (Route) -> Unit) {
+internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit, onNavigate: (Route) -> Unit, onBack: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     var confirming by remember { mutableStateOf(false) }
     val list = state.list
     Scaffold(
-        topBar = { AppTopBar(title = tr("Vocabulary"), onNavigate = onNavigate, onBack = { onNavigate(Route.Settings) }, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = tr("Vocabulary settings"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {

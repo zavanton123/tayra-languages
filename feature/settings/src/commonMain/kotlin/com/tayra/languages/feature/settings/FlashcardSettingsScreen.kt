@@ -68,11 +68,11 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
         return
     }
     Scaffold(
-        topBar = { AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = tr("Flashcard settings"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), onBackToSettings = { onNavigate(Route.Settings) }) {
+            ScreenHeader(tr("Flashcard settings"), tr("Daily limits and how reviews are scheduled."), onBackToSettings = { onNavigate(Route.Settings) }) {
                 HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = reset)
             }
             if (wide) {

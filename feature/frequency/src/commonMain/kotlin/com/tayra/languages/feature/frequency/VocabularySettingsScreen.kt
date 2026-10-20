@@ -49,13 +49,13 @@ import com.tayra.languages.core.ui.theme.AppSpacing
 import org.koin.compose.viewmodel.koinViewModel
 
 @Composable
-fun VocabularySettingsScreen(onNavigate: (Route) -> Unit, viewModel: VocabularySettingsViewModel = koinViewModel()) {
+fun VocabularySettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit = { onNavigate(Route.Settings) }, viewModel: VocabularySettingsViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val toast = rememberToastState()
     CollectEvents(viewModel.events) { toast.show(it) }
     ToastHost(toast)
     if (LocalWindowWidth.current.isCompact && !state.loading) {
-        PhoneVocabularySettingsScreen(state, onPick = viewModel::pick, onSave = viewModel::save, onNavigate = onNavigate)
+        PhoneVocabularySettingsScreen(state, onPick = viewModel::pick, onSave = viewModel::save, onNavigate = onNavigate, onBack = onBack)
         return
     }
     Scaffold(
@@ -89,7 +89,7 @@ internal fun VocabularySettingsContent(
     val wide = LocalWindowWidth.current.isExpanded
     var confirming by remember { mutableStateOf(false) }
     ScreenHeader(
-        tr("Vocabulary"),
+        tr("Vocabulary settings"),
         if (state.languageName.isEmpty()) tr("How much of the language you know already.") else tr("How much {0} you know already.", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)),
         onBackToSettings = onBackToSettings,
     )

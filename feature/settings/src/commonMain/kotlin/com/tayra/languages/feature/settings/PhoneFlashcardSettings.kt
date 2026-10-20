@@ -53,7 +53,7 @@ import com.tayra.languages.core.ui.components.Reveal
 internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: SettingsViewModel, onNavigate: (Route) -> Unit, onBack: () -> Unit, onReset: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Scaffold(
-        topBar = { AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = tr("Flashcard settings"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
