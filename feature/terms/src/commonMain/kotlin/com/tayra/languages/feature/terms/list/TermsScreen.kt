@@ -412,7 +412,7 @@ internal fun StatusBadge(status: TermStatus) {
         status.abbreviation,
         Modifier.clip(AppShapes.small).background(statusTint(status).copy(alpha = AppAlpha.strong)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs),
         style = AppText.badge,
-        color = AppAccents.ink,
+        color = TayraTheme.current.statusColors.onHighlight.takeIf { it != Color.Unspecified } ?: AppAccents.ink,
     )
 }
 
