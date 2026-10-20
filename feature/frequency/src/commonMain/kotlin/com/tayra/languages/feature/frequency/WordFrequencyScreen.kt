@@ -110,7 +110,7 @@ private fun WordKnowledge.tint(): Color {
         WordKnowledge.KNOWN -> statuses.background(TermStatus.WELL_KNOWN)
         WordKnowledge.LEARNING -> statuses.background(TermStatus.NEW_1)
         WordKnowledge.IGNORED -> statuses.background(TermStatus.IGNORED)
-        WordKnowledge.NEW -> MaterialTheme.colorScheme.primary
+        WordKnowledge.NEW -> statuses.background(TermStatus.UNKNOWN)
     }
 }
 
@@ -392,7 +392,6 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
     val statuses = TayraTheme.current.statusColors
     var translation by remember(word.word.word) { mutableStateOf<String?>(null) }
     var looked by remember(word.word.word) { mutableStateOf(false) }
-    val learning = word.knowledge == WordKnowledge.LEARNING
     Box(modifier.padding(vertical = AppSpacing.xs, horizontal = AppSpacing.xxs)) {
         AppRichTooltip(
             "${word.word.word}  ·  #${word.word.rank}",
@@ -416,7 +415,15 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
             Text(
                 word.word.word,
                 Modifier.clip(AppShapes.small)
-                    .then(if (learning) Modifier.background(statuses.background(word.status)) else Modifier)
+                    // Each word on its status's colour, as the legend and the reader show it.
+                    .background(
+                        when (word.knowledge) {
+                            WordKnowledge.LEARNING -> statuses.background(word.status)
+                            WordKnowledge.KNOWN -> statuses.background(TermStatus.WELL_KNOWN).copy(alpha = AppAlpha.line)
+                            WordKnowledge.NEW -> statuses.background(TermStatus.UNKNOWN)
+                            WordKnowledge.IGNORED -> Color.Transparent
+                        },
+                    )
                     .then(if (selected) Modifier.border(AppBorders.selected(), AppShapes.small) else Modifier)
                     .clickable { onOpen(word.word.word) }
                     .padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs)
@@ -424,12 +431,10 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
                     .testTag("word-${word.word.word}"),
                 style = MaterialTheme.typography.bodyLarge,
                 color = when (word.knowledge) {
-                    WordKnowledge.KNOWN -> colors.onSurface
-                    WordKnowledge.LEARNING -> if (statuses.onHighlight == Color.Unspecified) colors.onSurface else statuses.onHighlight
                     WordKnowledge.IGNORED -> colors.onSurfaceVariant.copy(alpha = AppAlpha.muted)
-                    WordKnowledge.NEW -> colors.primary
+                    WordKnowledge.KNOWN -> colors.onSurface
+                    else -> if (statuses.onHighlight == Color.Unspecified) colors.onSurface else statuses.onHighlight
                 },
-                fontWeight = if (word.knowledge == WordKnowledge.NEW) FontWeight.Medium else FontWeight.Normal,
                 textDecoration = if (word.knowledge == WordKnowledge.IGNORED) TextDecoration.LineThrough else null,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
