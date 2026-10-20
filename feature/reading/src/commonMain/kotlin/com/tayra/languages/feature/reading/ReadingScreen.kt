@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.only
 import androidx.compose.foundation.layout.WindowInsetsSides
 import androidx.compose.foundation.layout.safeDrawing
@@ -414,7 +415,8 @@ private fun TermSheet(enabled: Boolean, open: Boolean, onClosed: () -> Unit, she
     BoxWithConstraints(Modifier.fillMaxSize()) {
         val full = maxHeight
         BottomSheetScaffold(
-            sheetContent = { Box(Modifier.fillMaxWidth().height(full * 0.9f)) { if (open) sheet() } },
+            // Opened all the way, the sheet's last row stays above the gesture bar.
+            sheetContent = { Box(Modifier.fillMaxWidth().height(full * 0.9f).windowInsetsPadding(WindowInsets.navigationBars.only(WindowInsetsSides.Bottom))) { if (open) sheet() } },
             scaffoldState = scaffold,
             sheetPeekHeight = full * 0.55f,
             // The default sheet width (640dp) leaves a tablet's sheet narrower than its page.
