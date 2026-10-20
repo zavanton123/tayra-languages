@@ -203,6 +203,7 @@ internal val elTerms: Map<String, String> = mapOf(
     "Delete term" to "Διαγραφή λέξης",
     "Dictionary" to "Λεξικό",
     "Term details" to "Στοιχεία λέξης",
+    "Edit the word" to "Επεξεργασία της λέξης",
     "Close" to "Κλείσιμο",
     "Downloading the {0} dictionary..." to "Λήψη του λεξικού {0}…",
     "The download failed: {0}" to "Η λήψη απέτυχε: {0}",

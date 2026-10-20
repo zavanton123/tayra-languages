@@ -1107,7 +1107,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "lobo" && it.status == TermStatus.LEARNING_3 } }
         vm.onWordClick(vm.state.value.items.indexOfFirst { it.isWord && it.renderText == "lobo" }, shift = false)
-        rule.waitUntil(5_000) { rule.onAllNodes(androidx.compose.ui.test.hasSetTextAction() and androidx.compose.ui.test.hasText("lobo")).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodes(androidx.compose.ui.test.hasTestTag("term-heading") and androidx.compose.ui.test.hasText("lobo")).fetchSemanticsNodes().isNotEmpty() }
         rule.waitForIdle()
         fun status() = runBlocking { termRepository.findByTextLc(languageId, "lobo")?.status }
 
@@ -1194,7 +1194,7 @@ class ReadingHoverTest {
         assertEquals(setOf(wolf), vm.state.value.marked, "the word stays selected")
         press()
         rule.waitUntil(2_000) { vm.state.value.panel != ReadingPanel.None }
-        rule.waitUntil(5_000) { rule.onAllNodes(androidx.compose.ui.test.hasSetTextAction() and androidx.compose.ui.test.hasText("lobo")).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodes(androidx.compose.ui.test.hasTestTag("term-heading") and androidx.compose.ui.test.hasText("lobo")).fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** E with no word selected opens an empty pane whose term field looks words up as they are typed. */

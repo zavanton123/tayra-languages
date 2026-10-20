@@ -203,6 +203,7 @@ internal val deTerms: Map<String, String> = mapOf(
     "Delete term" to "Begriff löschen",
     "Dictionary" to "Wörterbuch",
     "Term details" to "Details zum Begriff",
+    "Edit the word" to "Wort bearbeiten",
     "Close" to "Schließen",
     "Downloading the {0} dictionary..." to "Wörterbuch für {0} wird heruntergeladen…",
     "The download failed: {0}" to "Download fehlgeschlagen: {0}",

@@ -313,11 +313,11 @@ class ExamplesScreenTest {
             moveTo(at(sentence, "depressa"))
             release()
         }
-        // A phrase's words are joined by zero-width spaces in the term field.
+        // A phrase's words are joined by zero-width spaces in the pane's heading.
         rule.waitUntil(5_000) {
-            rule.onAllNodes(hasSetTextAction()).fetchSemanticsNodes().any { node ->
-                androidx.compose.ui.semantics.SemanticsProperties.EditableText in node.config &&
-                    node.config[androidx.compose.ui.semantics.SemanticsProperties.EditableText].text.replace("\u200B", "") == "voa depressa"
+            rule.onAllNodes(androidx.compose.ui.test.hasTestTag("term-heading")).fetchSemanticsNodes().any { node ->
+                androidx.compose.ui.semantics.SemanticsProperties.Text in node.config &&
+                    node.config[androidx.compose.ui.semantics.SemanticsProperties.Text].joinToString("") { it.text }.replace("\u200B", "") == "voa depressa"
             }
         }
 
@@ -534,7 +534,8 @@ class ExamplesScreenTest {
         rule.waitUntil(5_000) { form.state.value.draft.status == TermStatus.LEARNING_3 && form.state.value.draft.id != null }
     }
 
-    private fun termField(text: String) = rule.onAllNodes(hasSetTextAction() and hasText(text)).fetchSemanticsNodes().isNotEmpty()
+    /** The pane shows [text] as its term: in the field for a word typed in, as the heading for one clicked in a text. */
+    private fun termField(text: String) = rule.onAllNodes((hasSetTextAction() or androidx.compose.ui.test.hasTestTag("term-heading")) and hasText(text)).fetchSemanticsNodes().isNotEmpty()
 
     /** A Piper stand-in that notes what it reads and returns a short silent WAV. */
     private class RecordingSpeech(private val spoken: MutableList<String>, private val delayMs: Long, private val clipMillis: Int = 50) : LocalSpeechEngine {

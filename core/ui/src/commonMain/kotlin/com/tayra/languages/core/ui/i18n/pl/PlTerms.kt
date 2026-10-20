@@ -203,6 +203,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "Delete term" to "Usuń słowo",
     "Dictionary" to "Słownik",
     "Term details" to "Szczegóły słowa",
+    "Edit the word" to "Zmień zapis słowa",
     "Close" to "Zamknij",
     "Downloading the {0} dictionary..." to "Pobieranie słownika: {0}…",
     "The download failed: {0}" to "Nie udało się pobrać: {0}",

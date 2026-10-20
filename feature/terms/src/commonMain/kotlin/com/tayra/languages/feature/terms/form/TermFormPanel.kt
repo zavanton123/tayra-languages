@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.terms.form
 
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
@@ -267,7 +268,11 @@ private fun TermFormContent(
             // The pane is titled Term details and the field is labelled Term: the section needs no heading of its own.
             SectionCard({}, title = null, tint = null, filled = false) {
                 LanguageSelector(state, viewModel)
-                TermField(state, viewModel, direction, focusRequester)
+                // A word opened from a text is shown as its heading, the meaning just under it; its pencil
+                // turns it back into the field. A word still to be typed keeps the field.
+                var editingText by remember(viewModel) { mutableStateOf(false) }
+                if (viewModel.opensOnWord && !editingText && !empty) TermHeading(state, direction, onEdit = { editingText = true })
+                else TermField(state, viewModel, direction, focusRequester)
                 if (empty) WordFinderButton(state, viewModel)
                 if (empty) {
                     Text(tr("Type a word or phrase to look it up."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -351,6 +356,17 @@ private fun TermField(state: TermFormUiState, viewModel: TermFormViewModel, dire
         colors = fieldColors(),
         modifier = Modifier.fillMaxWidth().focusRequester(focusRequester).reportsTyping(),
     )
+}
+
+/** The word the pane is about, large, with its speaker and a pencil to change how it is written. */
+@Composable
+private fun TermHeading(state: TermFormUiState, direction: TextDirection, onEdit: () -> Unit) {
+    val language = state.language
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        Text(state.draft.text, Modifier.weight(1f).testTag("term-heading"), style = AppText.headline.copy(textDirection = direction))
+        TermSpeakButton(state, language?.let { LanguageCodes.codeFor(it.name) })
+        AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit the word"), onClick = onEdit)
+    }
 }
 
 /** Plays a person's recording of the term when there is one, and has the speech engine read it otherwise or when it fails. */

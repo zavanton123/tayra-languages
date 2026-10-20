@@ -203,6 +203,7 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Delete term" to "删除词条",
     "Dictionary" to "词典",
     "Term details" to "词条详情",
+    "Edit the word" to "编辑这个词",
     "Close" to "关闭",
     "Downloading the {0} dictionary..." to "正在下载{0}词典…",
     "The download failed: {0}" to "下载失败：{0}",

@@ -203,6 +203,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Delete term" to "Supprimer le terme",
     "Dictionary" to "Dictionnaire",
     "Term details" to "Détails du terme",
+    "Edit the word" to "Modifier le mot",
     "Close" to "Fermer",
     "Downloading the {0} dictionary..." to "Téléchargement du dictionnaire {0}…",
     "The download failed: {0}" to "Échec du téléchargement : {0}",

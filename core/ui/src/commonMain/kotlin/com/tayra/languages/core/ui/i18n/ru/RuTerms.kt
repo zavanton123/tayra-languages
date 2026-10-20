@@ -203,6 +203,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Delete term" to "Удалить слово",
     "Dictionary" to "Словарь",
     "Term details" to "О слове",
+    "Edit the word" to "Изменить написание",
     "Close" to "Закрыть",
     "Downloading the {0} dictionary..." to "Скачивание словаря {0}…",
     "The download failed: {0}" to "Не удалось скачать: {0}",

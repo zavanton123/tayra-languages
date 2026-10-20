@@ -203,6 +203,7 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Delete term" to "Excluir termo",
     "Dictionary" to "Dicionário",
     "Term details" to "Detalhes do termo",
+    "Edit the word" to "Editar a palavra",
     "Close" to "Fechar",
     "Downloading the {0} dictionary..." to "Baixando o dicionário {0}…",
     "The download failed: {0}" to "Falha no download: {0}",

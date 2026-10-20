@@ -262,6 +262,13 @@ class TermFormViewModel(
         return lookup
     }
 
+    /** Whether the form opened on a word, from a text or the vocabulary, rather than on a word still to be typed. */
+    val opensOnWord: Boolean = when (val k = key) {
+        is TermFormKey.ById -> true
+        is TermFormKey.ByText -> k.text.isNotBlank()
+        TermFormKey.New -> false
+    }
+
     /** Tracks the pack for the language pair, and looks the term up once the pack is installed. */
     private fun observePack(language: Language?) {
         packJob?.cancel()

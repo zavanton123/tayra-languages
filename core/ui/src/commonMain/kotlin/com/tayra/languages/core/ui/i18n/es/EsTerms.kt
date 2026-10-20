@@ -203,6 +203,7 @@ internal val esTerms: Map<String, String> = mapOf(
     "Delete term" to "Eliminar palabra",
     "Dictionary" to "Diccionario",
     "Term details" to "Detalles de la palabra",
+    "Edit the word" to "Editar la palabra",
     "Close" to "Cerrar",
     "Downloading the {0} dictionary..." to "Descargando el diccionario {0}…",
     "The download failed: {0}" to "La descarga falló: {0}",
