@@ -39,13 +39,17 @@ fun <T> PickerSheet(
     onDismiss: () -> Unit,
     onPick: (T) -> Unit,
     labelContent: @Composable (T) -> Unit = { Text(label(it), style = MaterialTheme.typography.bodyLarge) },
+    /** The heading an option is listed under, as in [Dropdown]. */
+    group: ((T) -> String)? = null,
     leading: @Composable ((T) -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     AppBottomSheet(onDismissRequest = onDismiss) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.xs).padding(bottom = AppSpacing.l)) {
             Text(title, Modifier.padding(bottom = AppSpacing.s), style = AppText.headline)
-            options.forEach { option ->
+            options.forEachIndexed { i, option ->
+                val heading = group?.invoke(option)
+                if (heading != null && (i == 0 || group(options[i - 1]) != heading)) GroupHeading(heading, inset = AppSpacing.xs)
                 Row(
                     Modifier.fillMaxWidth().clip(AppShapes.control).clickable { onPick(option) }.padding(vertical = AppSpacing.m, horizontal = AppSpacing.xs),
                     verticalAlignment = Alignment.CenterVertically,

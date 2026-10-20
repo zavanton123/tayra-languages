@@ -104,7 +104,7 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
         }
     }
     if (themeSheet) {
-        PickerSheet(tr("Theme"), AppThemes.all, selected = AppThemes.byId(settings.themeId), label = { it.label }, onDismiss = { themeSheet = false }, onPick = { theme ->
+        PickerSheet(tr("Theme"), AppThemes.all.sortedBy { it.isDark }, selected = AppThemes.byId(settings.themeId), label = { it.label }, group = { if (it.isDark) tr("Dark") else tr("Light") }, onDismiss = { themeSheet = false }, onPick = { theme ->
             themeSheet = false
             viewModel.update { it.copy(themeId = theme.id) }
         }) { theme -> ThemeSwatch(theme) }

@@ -16,6 +16,8 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Appearance" to "Wygląd",
     "Customize the look and feel of Tayra." to "Dostosuj wygląd Tayry.",
     "Theme" to "Motyw",
+    "Light" to "Jasne",
+    "Dark" to "Ciemne",
     "Choose how Tayra looks." to "Wybierz, jak ma wyglądać Tayra.",
     "Highlight terms by status" to "Podświetlaj słowa według statusu",
     "Use mastery colors while reading." to "Podczas czytania oznaczaj słowa kolorem ich statusu.",

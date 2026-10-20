@@ -16,6 +16,8 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Appearance" to "Εμφάνιση",
     "Customize the look and feel of Tayra." to "Προσαρμόστε την εμφάνιση του Tayra.",
     "Theme" to "Θέμα",
+    "Light" to "Φωτεινά",
+    "Dark" to "Σκούρα",
     "Choose how Tayra looks." to "Επιλέξτε πώς φαίνεται το Tayra.",
     "Highlight terms by status" to "Επισήμανση λέξεων ανά κατάσταση",
     "Use mastery colors while reading." to "Χρωματισμός λέξεων ανάλογα με την κατάστασή τους κατά την ανάγνωση.",

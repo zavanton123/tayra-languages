@@ -16,6 +16,8 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Appearance" to "Apariencia",
     "Customize the look and feel of Tayra." to "Personaliza el aspecto de Tayra.",
     "Theme" to "Tema",
+    "Light" to "Claros",
+    "Dark" to "Oscuros",
     "Choose how Tayra looks." to "Elige cómo se ve Tayra.",
     "Highlight terms by status" to "Resaltar palabras según su estado",
     "Use mastery colors while reading." to "Usa los colores de dominio al leer.",

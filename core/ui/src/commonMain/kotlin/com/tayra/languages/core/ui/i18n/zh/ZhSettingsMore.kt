@@ -16,6 +16,8 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Appearance" to "外观",
     "Customize the look and feel of Tayra." to "自定义 Tayra 的外观和风格。",
     "Theme" to "主题",
+    "Light" to "浅色",
+    "Dark" to "深色",
     "Choose how Tayra looks." to "选择 Tayra 的外观。",
     "Highlight terms by status" to "按状态高亮词条",
     "Use mastery colors while reading." to "阅读时用颜色显示掌握程度。",

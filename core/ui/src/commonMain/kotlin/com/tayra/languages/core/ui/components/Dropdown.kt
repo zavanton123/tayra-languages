@@ -1,10 +1,14 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExposedDropdownMenuBox
 import androidx.compose.material3.ExposedDropdownMenuDefaults
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.MenuAnchorType
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -12,17 +16,16 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Modifier
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Row
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.unit.Dp
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
-import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppElevation
+import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.AppText
 
 /** A simple select box. */
 @OptIn(ExperimentalMaterial3Api::class)
@@ -39,6 +42,8 @@ fun <T> Dropdown(
     optionContent: (@Composable (T) -> Unit)? = null,
     /** Why an option cannot be chosen, or null when it can; such options are listed dimmed. */
     unavailable: (T) -> String? = { null },
+    /** The heading an option is listed under; a heading starts where it changes, so options come grouped. */
+    group: ((T) -> String)? = null,
 ) {
     var expanded by remember { mutableStateOf(false) }
     ExposedDropdownMenuBox(expanded = expanded, onExpandedChange = { if (enabled) expanded = it }, modifier = modifier) {
@@ -60,7 +65,9 @@ fun <T> Dropdown(
             shadowElevation = AppElevation.raised,
             border = AppBorders.hairline(),
         ) {
-            options.forEach { option ->
+            options.forEachIndexed { i, option ->
+                val heading = group?.invoke(option)
+                if (heading != null && (i == 0 || group(options[i - 1]) != heading)) GroupHeading(heading)
                 val note = if (option == selected) null else unavailable(option)
                 AppMenuItem(
                     text = {
@@ -79,3 +86,15 @@ fun <T> Dropdown(
         }
     }
 }
+
+/** A heading over a group of options in a menu or sheet. */
+@Composable
+internal fun GroupHeading(text: String, inset: Dp = AppSpacing.l) {
+    Text(
+        text,
+        Modifier.fillMaxWidth().padding(start = inset, end = inset, top = AppSpacing.m, bottom = AppSpacing.xs),
+        style = AppText.overline,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
+}
+

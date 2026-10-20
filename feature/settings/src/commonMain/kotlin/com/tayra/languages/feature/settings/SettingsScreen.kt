@@ -238,7 +238,9 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
     ContentCard(tr("Appearance"), tr("Customize the look and feel of Tayra."), icon = AppIcons.Palette) {
         SettingRow(tr("Theme"), tr("Choose how Tayra looks."), stackOnCompact = true) {
             Dropdown(
-                options = AppThemes.all,
+                // Light themes, then dark, each under its heading.
+                options = AppThemes.all.sortedBy { it.isDark },
+                group = { if (it.isDark) tr("Dark") else tr("Light") },
                 selected = AppThemes.byId(settings.themeId),
                 onSelect = { theme -> viewModel.update { it.copy(themeId = theme.id) } },
                 label = null,

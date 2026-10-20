@@ -16,6 +16,8 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Appearance" to "Aparência",
     "Customize the look and feel of Tayra." to "Personalize a aparência do Tayra.",
     "Theme" to "Tema",
+    "Light" to "Claros",
+    "Dark" to "Escuros",
     "Choose how Tayra looks." to "Escolha a aparência do Tayra.",
     "Highlight terms by status" to "Destacar termos pelo status",
     "Use mastery colors while reading." to "Usar as cores de domínio durante a leitura.",

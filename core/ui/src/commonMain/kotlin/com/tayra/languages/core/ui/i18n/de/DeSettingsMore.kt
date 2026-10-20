@@ -16,6 +16,8 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Appearance" to "Darstellung",
     "Customize the look and feel of Tayra." to "Passe das Aussehen von Tayra an.",
     "Theme" to "Design",
+    "Light" to "Hell",
+    "Dark" to "Dunkel",
     "Choose how Tayra looks." to "Wähle, wie Tayra aussieht.",
     "Highlight terms by status" to "Begriffe nach Status hervorheben",
     "Use mastery colors while reading." to "Beim Lesen die Farben des Lernstands verwenden.",

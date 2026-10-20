@@ -16,6 +16,8 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Appearance" to "Apparence",
     "Customize the look and feel of Tayra." to "Personnalisez l’apparence de Tayra.",
     "Theme" to "Thème",
+    "Light" to "Clairs",
+    "Dark" to "Sombres",
     "Choose how Tayra looks." to "Choisissez l’apparence de Tayra.",
     "Highlight terms by status" to "Surligner les termes selon leur statut",
     "Use mastery colors while reading." to "Utiliser les couleurs de statut pendant la lecture.",

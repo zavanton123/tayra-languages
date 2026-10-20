@@ -16,6 +16,8 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Appearance" to "Оформление",
     "Customize the look and feel of Tayra." to "Настройте внешний вид Tayra.",
     "Theme" to "Тема",
+    "Light" to "Светлые",
+    "Dark" to "Тёмные",
     "Choose how Tayra looks." to "Выберите, как будет выглядеть Tayra.",
     "Highlight terms by status" to "Подсвечивать слова по статусу",
     "Use mastery colors while reading." to "Выделять слова при чтении цветом их статуса.",
