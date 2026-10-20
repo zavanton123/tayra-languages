@@ -10,26 +10,29 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import kotlinx.datetime.DateTimeUnit
-import kotlinx.datetime.LocalDate
-import kotlinx.datetime.minus
-import kotlinx.datetime.plus
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
+import kotlinx.datetime.DateTimeUnit
+import kotlinx.datetime.LocalDate
+import kotlinx.datetime.minus
+import kotlinx.datetime.plus
 
 /**
  * A card of recent days as squares, darker the busier the day: a column per week from Monday, as
@@ -50,26 +53,55 @@ fun ActivityHeatmapCard(
     val empty = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
     BoxWithConstraints(Modifier.fillMaxWidth()) {
         val gap = AppSpacing.xs
-        // The card's padding takes 20 on each side.
-        val inner = maxWidth - 40.dp
+        // The card's padding takes 20 on each side, and the weekday names a column of their own.
+        val inner = maxWidth - 40.dp - WEEKDAY_WIDTH - gap
         val weeks = ((inner + gap) / (MIN_CELL + gap)).toInt().coerceIn(MIN_WEEKS, MAX_WEEKS)
         val cell: Dp = ((inner - gap * (weeks - 1)) / weeks).coerceAtMost(MAX_CELL)
         val thisMonday = today.minus(today.dayOfWeek.ordinal, DateTimeUnit.DAY)
         val start = thisMonday.minus((weeks - 1) * 7, DateTimeUnit.DAY)
         val shown = levels(start)
         ContentCard(title, subtitle(start), icon = icon) {
-            Row(Modifier.testTag("heatmap"), horizontalArrangement = Arrangement.spacedBy(gap)) {
-                repeat(weeks) { week ->
-                    Column(verticalArrangement = Arrangement.spacedBy(gap)) {
-                        repeat(7) { weekday ->
-                            val date = start.plus(week * 7 + weekday, DateTimeUnit.DAY)
-                            val level = shown[date] ?: 0
-                            val shade = when {
-                                date > today -> Color.Transparent
-                                level == 0 -> empty
-                                else -> color.copy(alpha = heatShade(level))
+            val labelStyle = MaterialTheme.typography.labelSmall
+            val labelColor = MaterialTheme.colorScheme.onSurfaceVariant
+            // A month is named over the week its first day falls in; the first week is named only when no other is near it.
+            val monthOf: (Int) -> Int? = { week ->
+                val days = (0 until 7).map { start.plus(week * 7 + it, DateTimeUnit.DAY) }
+                days.firstOrNull { it.day == 1 }?.month?.ordinal
+                    ?: if (week == 0 && (1..2).none { w -> (0 until 7).any { start.plus(w * 7 + it, DateTimeUnit.DAY).day == 1 } }) days.first().month.ordinal else null
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(gap)) {
+                Column(Modifier.width(WEEKDAY_WIDTH), verticalArrangement = Arrangement.spacedBy(gap)) {
+                    Spacer(Modifier.height(MONTH_ROW_HEIGHT))
+                    repeat(7) { weekday ->
+                        Box(Modifier.height(cell), contentAlignment = Alignment.CenterStart) {
+                            WEEKDAY_NAMES[weekday]?.let { Text(tr(it), style = labelStyle, color = labelColor, maxLines = 1, softWrap = false) }
+                        }
+                    }
+                }
+                Column(verticalArrangement = Arrangement.spacedBy(gap)) {
+                    Row(Modifier.height(MONTH_ROW_HEIGHT), horizontalArrangement = Arrangement.spacedBy(gap)) {
+                        repeat(weeks) { week ->
+                            Box(Modifier.width(cell)) {
+                                monthOf(week)?.let { month ->
+                                    Text(tr(MONTH_NAMES[month]), Modifier.wrapContentWidth(Alignment.Start, unbounded = true), style = labelStyle, color = labelColor, maxLines = 1, softWrap = false)
+                                }
                             }
-                            Box(Modifier.size(cell).clip(AppShapes.tiny).background(shade))
+                        }
+                    }
+                    Row(Modifier.testTag("heatmap"), horizontalArrangement = Arrangement.spacedBy(gap)) {
+                        repeat(weeks) { week ->
+                            Column(verticalArrangement = Arrangement.spacedBy(gap)) {
+                                repeat(7) { weekday ->
+                                    val date = start.plus(week * 7 + weekday, DateTimeUnit.DAY)
+                                    val level = shown[date] ?: 0
+                                    val shade = when {
+                                        date > today -> Color.Transparent
+                                        level == 0 -> empty
+                                        else -> color.copy(alpha = heatShade(level))
+                                    }
+                                    Box(Modifier.size(cell).clip(AppShapes.tiny).background(shade))
+                                }
+                            }
                         }
                     }
                 }
@@ -90,4 +122,12 @@ private const val MAX_WEEKS = 53
 private val MIN_CELL = 14.dp
 private val MAX_CELL = 22.dp
 
-private fun heatShade(level: Int): Float = 0.25f + 0.75f * level / 4f
+/** A busy day's shade: even the quietest stands well clear of an empty day, in dark themes too. */
+private fun heatShade(level: Int): Float = 0.4f + 0.6f * level / 4f
+
+private val WEEKDAY_WIDTH = 28.dp
+private val MONTH_ROW_HEIGHT = 16.dp
+
+/** Every other weekday is named, from Monday, so the names fit the rows. */
+private val WEEKDAY_NAMES = listOf("Mon", null, "Wed", null, "Fri", null, null)
+private val MONTH_NAMES = listOf("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
