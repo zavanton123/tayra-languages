@@ -358,7 +358,7 @@ private fun AudioTab(state: ReadingUiState, viewModel: ReadingViewModel, onSpeec
     val languageName = state.language?.name.orEmpty()
 
     PaneCard(tr("Playback")) {
-        SwitchSetting(tr("Play audio"), tr("Read the current page aloud"), prefs.showSentencePlay, icon = AppIcons.PlayArrow, dense = true) { viewModel.toggleSentencePlay() }
+        SwitchSetting(tr("Read-aloud controls"), tr("Show the play button and a speaker before each sentence"), prefs.showSentencePlay, icon = AppIcons.PlayArrow, dense = true) { viewModel.toggleSentencePlay() }
         SwitchSetting(tr("Auto-pause"), tr("Stop after each sentence"), prefs.autoPause, icon = AppIcons.Pause, dense = true) { viewModel.toggleAutoPause() }
         SwitchSetting(tr("Speak word on click"), tr("Hear a word when you select it"), prefs.speakWordOnClick, icon = AppIcons.Abc, dense = true) { viewModel.toggleSpeakWordOnClick() }
     }
