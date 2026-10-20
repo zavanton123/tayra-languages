@@ -70,6 +70,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "Review and manage your vocabulary." to "Przeglądaj i porządkuj swoje słownictwo.",
     "Export to Anki" to "Eksportuj do Anki",
     "Exporting {0}" to "Eksport: {0}",
+    "Sending {0}" to "Wysyłanie: {0}",
     "Add term" to "Dodaj słowo",
     "Total terms" to "Wszystkie słowa",
     "Learning" to "W nauce",

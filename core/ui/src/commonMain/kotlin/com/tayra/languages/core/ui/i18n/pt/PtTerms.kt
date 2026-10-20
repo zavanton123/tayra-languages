@@ -70,6 +70,7 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Review and manage your vocabulary." to "Revise e organize seu vocabulário.",
     "Export to Anki" to "Exportar para o Anki",
     "Exporting {0}" to "Exportando: {0}",
+    "Sending {0}" to "Enviando: {0}",
     "Add term" to "Adicionar termo",
     "Total terms" to "Total de termos",
     "Learning" to "Aprendendo",

@@ -70,6 +70,7 @@ internal val esTerms: Map<String, String> = mapOf(
     "Review and manage your vocabulary." to "Revisa y organiza tu vocabulario.",
     "Export to Anki" to "Exportar a Anki",
     "Exporting {0}" to "Exportando: {0}",
+    "Sending {0}" to "Enviando: {0}",
     "Add term" to "Añadir palabra",
     "Total terms" to "Total de palabras",
     "Learning" to "Aprendiendo",

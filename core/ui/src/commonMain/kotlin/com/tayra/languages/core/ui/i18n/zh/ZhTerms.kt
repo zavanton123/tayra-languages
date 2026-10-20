@@ -70,6 +70,7 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Review and manage your vocabulary." to "查看和管理你的词汇。",
     "Export to Anki" to "导出到 Anki",
     "Exporting {0}" to "正在导出 {0}",
+    "Sending {0}" to "正在发送 {0}",
     "Add term" to "添加词条",
     "Total terms" to "词条总数",
     "Learning" to "学习中",

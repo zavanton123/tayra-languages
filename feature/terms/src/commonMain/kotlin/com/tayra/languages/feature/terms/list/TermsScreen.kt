@@ -179,7 +179,7 @@ fun TermsScreen(
     ) { padding ->
         val gutter = if (compact) AppSpacing.l else AppSpacing.xxxl
         ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = AppSpacing.l)) {
-            item { PageHeader(exporting = state.exporting, onExport = viewModel::exportAnki, onSend = if (viewModel.canSendToAnki) ({ viewModel.sendToAnki() }) else null, onNew = { onNavigate(Route.NewTerm) }) }
+            item { PageHeader(exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onSend = if (viewModel.canSendToAnki) ({ viewModel.sendToAnki() }) else null, onNew = { onNavigate(Route.NewTerm) }) }
             item { StatCards(state, compact) }
             item { Toolbar(state, viewModel, compact) }
             if (state.filtersVisible) item(key = "filters") { Column(itemMotion()) { FilterPanel(state, viewModel) } }
@@ -254,13 +254,14 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
 }
 
 @Composable
-private fun PageHeader(exporting: String?, onExport: () -> Unit, onSend: (() -> Unit)?, onNew: () -> Unit) {
+internal fun PageHeader(exporting: String?, sending: Boolean, onExport: () -> Unit, onSend: (() -> Unit)?, onNew: () -> Unit) {
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
         ScreenHeader(tr("Vocabulary"), tr("Review and manage your vocabulary.")) {
-            SecondaryButton(if (exporting == null) tr("Export to Anki") else tr("Exporting {0}", exporting), onClick = onExport, icon = AppIcons.Download, enabled = exporting == null)
+            // The progress shows on the button whose export is under way.
+            SecondaryButton(if (exporting == null || sending) tr("Export to Anki") else tr("Exporting {0}", exporting), onClick = onExport, icon = AppIcons.Download, enabled = exporting == null)
             if (onSend != null) {
                 // Straight into the Anki that is open, through AnkiConnect, rather than a file to import.
-                SecondaryButton(tr("Send to Anki"), onClick = onSend, modifier = Modifier.testTag("send-to-anki"), icon = AppIcons.UploadFile, enabled = exporting == null)
+                SecondaryButton(if (exporting != null && sending) tr("Sending {0}", exporting) else tr("Send to Anki"), onClick = onSend, modifier = Modifier.testTag("send-to-anki"), icon = AppIcons.UploadFile, enabled = exporting == null)
             }
             PrimaryButton(tr("Add term"), onClick = onNew, icon = Icons.Default.Add)
         }

@@ -70,6 +70,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Review and manage your vocabulary." to "Просматривайте и упорядочивайте свои слова.",
     "Export to Anki" to "Экспортировать в Anki",
     "Exporting {0}" to "Экспорт: {0}",
+    "Sending {0}" to "Отправка: {0}",
     "Add term" to "Добавить слово",
     "Total terms" to "Всего слов",
     "Learning" to "Изучаю",

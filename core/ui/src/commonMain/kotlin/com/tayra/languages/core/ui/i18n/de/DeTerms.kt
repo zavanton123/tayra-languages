@@ -70,6 +70,7 @@ internal val deTerms: Map<String, String> = mapOf(
     "Review and manage your vocabulary." to "Sieh deinen Wortschatz durch und verwalte ihn.",
     "Export to Anki" to "Nach Anki exportieren",
     "Exporting {0}" to "Export: {0}",
+    "Sending {0}" to "Senden: {0}",
     "Add term" to "Begriff hinzufügen",
     "Total terms" to "Begriffe gesamt",
     "Learning" to "Lernend",

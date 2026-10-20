@@ -49,6 +49,8 @@ data class TermsListUiState(
     val knownCount: Int = 0,
     /** Progress of an Anki export under way, e.g. "3 of 12", or null. */
     val exporting: String? = null,
+    /** Whether that export goes straight into the running Anki rather than to a file. */
+    val sendingToAnki: Boolean = false,
 ) {
     /** The statuses ticked in the filter panel; none means every learning status and known. */
     val chosenStatuses: Set<TermStatus> get() = filter.statuses.orEmpty()
@@ -100,6 +102,7 @@ class TermsListViewModel(
     private val selected = MutableStateFlow<Set<Long>>(emptySet())
     private val message = MutableStateFlow<String?>(null)
     private val exporting = MutableStateFlow<String?>(null)
+    private val sendingToAnki = MutableStateFlow(false)
     private val filtersVisible = MutableStateFlow(initialTermIds != null)
     val events = UiEvents<TermsListEvent>()
 
@@ -135,7 +138,7 @@ class TermsListViewModel(
         pageFlow,
         languages.observeAll(),
         selected,
-        combine(message, filtersVisible, exporting) { m, v, e -> Triple(m, v, e) },
+        combine(message, filtersVisible, exporting, sendingToAnki) { m, v, e, s -> Triple(m, v, e?.let { it to s }) },
         counts,
     ) { base, languageList, sel, (msg, visible, export), c ->
         TermsListUiState(
@@ -149,7 +152,8 @@ class TermsListViewModel(
             languages = languageList,
             selected = sel,
             message = msg,
-            exporting = export,
+            exporting = export?.first,
+            sendingToAnki = export?.second == true,
             filtersVisible = visible,
             totalTerms = c.total,
             learningCount = c.learning,
@@ -285,6 +289,7 @@ class TermsListViewModel(
             message.value = tr("Anki is not running, or AnkiConnect is not installed in it")
             return@launch
         }
+        sendingToAnki.value = true
         exporting.value = tr("{0} of {1}", 0, ids.size)
         try {
             val sent = anki.send(ids, connection) { done, total -> exporting.value = tr("{0} of {1}", done, total) }
@@ -301,6 +306,7 @@ class TermsListViewModel(
             message.value = tr("Could not send to Anki: {0}", e.message)
         } finally {
             exporting.value = null
+            sendingToAnki.value = false
         }
     }
 

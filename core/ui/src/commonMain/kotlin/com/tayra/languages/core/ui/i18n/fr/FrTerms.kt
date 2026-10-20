@@ -70,6 +70,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Review and manage your vocabulary." to "Consultez et gérez votre vocabulaire.",
     "Export to Anki" to "Exporter vers Anki",
     "Exporting {0}" to "Export : {0}",
+    "Sending {0}" to "Envoi : {0}",
     "Add term" to "Ajouter un terme",
     "Total terms" to "Total des termes",
     "Learning" to "En apprentissage",
