@@ -264,7 +264,8 @@ private fun TermFormContent(
         }
 
         if (embedded) {
-            SectionCard({ TermBadge() }, tr("Term"), tint = MaterialTheme.colorScheme.primary) {
+            // The pane is titled Term details and the field is labelled Term: the section needs no heading of its own.
+            SectionCard({}, title = null, tint = null, filled = false) {
                 LanguageSelector(state, viewModel)
                 TermField(state, viewModel, direction, focusRequester)
                 if (empty) WordFinderButton(state, viewModel)
@@ -276,7 +277,7 @@ private fun TermFormContent(
                 }
             }
             dictionaryBlock()
-            if (language != null && !empty) SectionCard({ BadgeIcon(AppIcons.Link) }, tr("Dictionaries"), tint = null) { linksContent() }
+            if (language != null && !empty) SectionCard({ BadgeIcon(AppIcons.Link) }, tr("Dictionaries"), tint = null, filled = false) { linksContent() }
             examplesBlock()
         } else {
             // The editor page: what the term is and says on the left, its status and links on the right.
@@ -631,7 +632,7 @@ private fun PanelHeader(language: Language?, nativeLanguage: String, onClose: ((
 @Composable
 private fun SectionCard(
     icon: @Composable () -> Unit,
-    title: String,
+    title: String?,
     count: Int? = null,
     tint: Color? = null,
     filled: Boolean = true,
@@ -648,7 +649,7 @@ private fun SectionCard(
         Modifier.fillMaxWidth().clip(AppShapes.card).background(background).border(AppBorders.hairline(border), AppShapes.card).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (LocalPageSections.current) AppSpacing.l else AppSpacing.m)) {
+        if (title != null) Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (LocalPageSections.current) AppSpacing.l else AppSpacing.m)) {
             if (LocalPageSections.current) {
                 Box(Modifier.size(AppSizes.tileMedium).clip(AppShapes.panel).background(colors.primary.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) { icon() }
             } else {
@@ -659,16 +660,6 @@ private fun SectionCard(
         }
         content()
     }
-}
-
-/** A filled blue label reading "Aa", the mark of the term section. */
-@Composable
-private fun TermBadge() {
-    Box(
-        Modifier.size(width = TERM_BADGE_WIDTH, height = AppSizes.iconMedium).clip(RoundedCornerShape(topStart = 5.dp, bottomStart = 5.dp, topEnd = 9.dp, bottomEnd = 9.dp))
-            .background(MaterialTheme.colorScheme.primary),
-        contentAlignment = Alignment.Center,
-    ) { Text("Aa", color = MaterialTheme.colorScheme.onPrimary, style = AppText.badge) }
 }
 
 /** A closed book, the mark of the offline dictionary section. */
@@ -995,7 +986,6 @@ private const val VISIBLE_EXAMPLES = 3
 private val LOADING_MIN_HEIGHT = 200.dp
 private val AUDIO_BUTTON = 32.dp
 private val LARGE_STATUS_BUTTON_HEIGHT = 52.dp
-private val TERM_BADGE_WIDTH = 28.dp
 private val KANJI_READING_LABEL = 32.dp
 private val QUOTE_RULE_WIDTH = 2.dp
 
