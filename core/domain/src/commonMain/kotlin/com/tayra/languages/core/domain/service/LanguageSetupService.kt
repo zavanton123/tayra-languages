@@ -190,9 +190,9 @@ class LanguageSetupService(
 
     /**
      * Every voice the local engines have for the language, each to choose on its own: a Piper voice is
-     * a download of its own, Kokoro's voices share one model, fetched with the first of them. All
-     * start ticked; the engine in use comes first, or Piper while the system voices are in use,
-     * since those differ from device to device.
+     * a download of its own, Kokoro's voices share one model, fetched with the first of them. The
+     * engine in use comes first, or Piper while the system voices are in use, since those differ from
+     * device to device; only its voices start ticked, so one engine is recommended, not two.
      */
     private suspend fun voices(code: String, name: String): List<SetupItem> {
         val current = settings.current.speechEngine
@@ -209,7 +209,9 @@ class LanguageSetupService(
             val runtimeFile = if (runtime) SetupFile(SetupFileKind.ENGINE, engine.displayName, runCatching { engine.runtimeDownloadSize() }.getOrNull(), estimated = true) else null
             own.sortedBy { it != first }.flatMap { pkg -> voices(engine, pkg, code, name, ready, runtimeFile, switches = !speaking && engine.engine != current) }
         }
-        return found.ifEmpty { listOf(settled(SetupKind.VOICE, name, speech.find(preferred ?: current)?.displayName.orEmpty(), SetupStatus.UNAVAILABLE)) }
+        val recommendedEngine = found.firstOrNull { it.status == SetupStatus.MISSING }?.engine
+        return found.map { if (it.recommended && it.engine != recommendedEngine) it.copy(recommended = false) else it }
+            .ifEmpty { listOf(settled(SetupKind.VOICE, name, speech.find(preferred ?: current)?.displayName.orEmpty(), SetupStatus.UNAVAILABLE)) }
     }
 
     /** The package's voices for the language: itself when it is one voice, else each voice it holds. */

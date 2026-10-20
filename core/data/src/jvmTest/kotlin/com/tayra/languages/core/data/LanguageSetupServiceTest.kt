@@ -196,7 +196,7 @@ class LanguageSetupServiceTest {
         val voices = both.missing(id).filter { it.kind == SetupKind.VOICE }
         assertEquals(listOf("Kokoro", "Kokoro", "Piper", "Piper"), voices.map { it.engine }, "the engine in use comes first")
         assertEquals(listOf("Kokoro · Dora (Brazilian, female)", "Kokoro · Alex (Brazilian, male)"), voices.take(2).map { it.name }, "each Kokoro voice can be chosen")
-        assertTrue(voices.all { it.recommended }, "every voice of every engine starts ticked")
+        assertEquals(listOf(true, true, false, false), voices.map { it.recommended }, "only the engine in use starts ticked, so one engine is recommended")
         assertEquals(voices[0].files, voices[1].files, "Kokoro's voices share the one model")
         assertEquals(listOf(SetupFileKind.VOICE_MODEL), voices[0].files.map { it.kind })
         assertTrue(!voices[0].switchesEngine && voices.drop(2).all { it.switchesEngine }, "picked alone, a Piper voice takes over from Kokoro, which has no Portuguese yet")
