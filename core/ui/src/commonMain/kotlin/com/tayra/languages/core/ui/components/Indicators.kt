@@ -182,7 +182,7 @@ fun AppProgressBar(progress: Float?, modifier: Modifier = Modifier, color: Color
 
 /** How much of something is done, as a bar of [color] over a rounded track: a book's reading, a course's lessons, the words known. */
 @Composable
-fun ProgressTrack(fraction: Float, color: Color, modifier: Modifier = Modifier, height: Dp = 6.dp, trackColor: Color = MaterialTheme.colorScheme.surfaceVariant) {
+fun ProgressTrack(fraction: Float, color: Color, modifier: Modifier = Modifier, height: Dp = 6.dp, trackColor: Color = MaterialTheme.colorScheme.surfaceContainerHighest) {
     val done by animateFloatAsState(fraction.coerceIn(0f, 1f), AppMotion.spec())
     Box(modifier.fillMaxWidth().height(height).clip(AppShapes.tiny).background(trackColor)) {
         if (done > 0f) Box(Modifier.fillMaxWidth(done).fillMaxHeight().clip(AppShapes.tiny).background(color))
