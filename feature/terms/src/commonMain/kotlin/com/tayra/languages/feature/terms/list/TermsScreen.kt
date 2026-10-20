@@ -427,7 +427,14 @@ internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewMode
         verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
-        TermStatus.selectable.filter { it in state.chosenStatuses }.forEach { status ->
+        // The default view, every learning status, is one chip rather than four.
+        if (state.allLearning) {
+            val tint = statusTint(TermStatus.NEW_1)
+            RemovableChip(onRemove = viewModel::removeLearning, removeDescription = tr("Remove {0}", tr("Learning 1–4")), tint = tint, background = tint.copy(alpha = AppAlpha.line)) {
+                Text(tr("Learning 1–4"), style = AppText.badge)
+            }
+        }
+        TermStatus.selectable.filter { it in state.chosenStatuses && !(state.allLearning && it.isLearning) }.forEach { status ->
             val tint = statusTint(status)
             RemovableChip(onRemove = { viewModel.toggleStatus(status) }, removeDescription = tr("Remove {0}", tr(status.label)), tint = tint, background = tint.copy(alpha = AppAlpha.line)) {
                 Text(status.chipName, style = AppText.badge)

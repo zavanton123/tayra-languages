@@ -55,8 +55,14 @@ data class TermsListUiState(
 
     val ageFiltered: Boolean get() = filter.minAgeDays != null || filter.maxAgeDays != null
 
-    /** How many kinds of filter are on, for the badge on the Filters button. */
-    val activeFilterCount: Int get() = listOf(chosenStatuses.isNotEmpty(), ageFiltered).count { it }
+    /** All four learning statuses are ticked, shown as one chip. */
+    val allLearning: Boolean get() = chosenStatuses.containsAll(TermStatus.selectable.filter { it.isLearning })
+
+    /** How many filter chips show, for the badge on the Filters button: all four learning statuses count as one. */
+    val activeFilterCount: Int get() {
+        val statuses = if (allLearning) chosenStatuses.count { !it.isLearning } + 1 else chosenStatuses.size
+        return statuses + if (ageFiltered) 1 else 0
+    }
 
     val pageCount: Int get() = if (totalCount == 0) 1 else (totalCount + pageSize - 1) / pageSize
     fun languageName(id: Long): String = languages.firstOrNull { it.id == id }?.name ?: ""
@@ -170,6 +176,9 @@ class TermsListViewModel(
     fun toggleFilters() { filtersVisible.value = !filtersVisible.value }
 
     /** Ticks or unticks a status; with none ticked the list shows every status but ignored. */
+    /** Unticks all four learning statuses, from their one chip. */
+    fun removeLearning() = updateFilter { filter -> filter.copy(statuses = filter.statuses.orEmpty().filterNot { it.isLearning }.toSet().ifEmpty { null }) }
+
     fun toggleStatus(status: TermStatus) = updateFilter {
         val chosen = it.statuses.orEmpty().let { set -> if (status in set) set - status else set + status }
         it.copy(statuses = chosen.ifEmpty { null })

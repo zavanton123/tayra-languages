@@ -80,6 +80,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Filters" to "Filtres",
     "Show learning words" to "Afficher les mots en cours",
     "Show all words" to "Afficher tous les mots",
+    "Learning 1–4" to "En apprentissage 1–4",
     "{0} filters on" to "{0} filtre actif|{0} filtres actifs",
     "Search terms or translations" to "Rechercher des termes ou des traductions",
     "Filter vocabulary" to "Filtrer le vocabulaire",

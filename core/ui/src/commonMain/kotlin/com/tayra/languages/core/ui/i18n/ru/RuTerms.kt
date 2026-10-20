@@ -80,6 +80,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Filters" to "Фильтры",
     "Show learning words" to "Показать изучаемые слова",
     "Show all words" to "Показать все слова",
+    "Learning 1–4" to "Изучаю 1–4",
     "{0} filters on" to "Включён {0} фильтр|Включено {0} фильтра|Включено {0} фильтров",
     "Search terms or translations" to "Поиск слов и переводов",
     "Filter vocabulary" to "Фильтр слов",

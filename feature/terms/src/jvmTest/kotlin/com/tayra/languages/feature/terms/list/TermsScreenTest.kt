@@ -106,7 +106,8 @@ class TermsScreenTest {
         // The screen opens on the words being learned: statuses 1 to 4 are ticked, known and ignored terms stay out.
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
         onNodeWithContentDescription("1 filter on").assertExists()
-        for (status in listOf("Learning (1)", "Learning (2)", "Learning (3)", "Learning (4)")) onNodeWithContentDescription("Remove $status").assertExists()
+        onNodeWithContentDescription("Remove Learning 1–4").assertExists()
+        for (status in listOf("Learning (1)", "Learning (2)", "Learning (3)", "Learning (4)")) assertEquals(0, onAllNodesWithContentDescription("Remove $status").fetchSemanticsNodes().size)
         onAllNodesWithText("Show all words")[0].performClick()
         // With nothing ticked, the known terms show too; ignored terms stay out until asked for.
         waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))
@@ -120,7 +121,7 @@ class TermsScreenTest {
         waitForList("gostar", "expressão", "pensar", hidden = listOf("comprar", "produtos", "lá"))
         onNodeWithTag("added-MONTH").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Added in the last 30 days").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithContentDescription("2 filters on").assertExists()
+        onNodeWithContentDescription("3 filters on").assertExists()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
 
         onNodeWithContentDescription("Remove Known").performClick()
@@ -183,7 +184,7 @@ class TermsScreenTest {
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone-filters.png"))) }
         onNodeWithText("Show 5 terms").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }
-        onNodeWithContentDescription("2 filters on").assertExists()
+        onNodeWithContentDescription("3 filters on").assertExists()
         // The page lists the filters that are on, so a filtered list never passes for the whole vocabulary.
         onNodeWithContentDescription("Remove the added filter").assertExists()
         onNodeWithText("5 of 5 terms shown").assertExists()

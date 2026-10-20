@@ -80,6 +80,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "Filters" to "Filtry",
     "Show learning words" to "Pokaż słowa w nauce",
     "Show all words" to "Pokaż wszystkie słowa",
+    "Learning 1–4" to "W nauce 1–4",
     "{0} filters on" to "Włączono {0} filtr|Włączono {0} filtry|Włączono {0} filtrów",
     "Search terms or translations" to "Szukaj słów i tłumaczeń",
     "Filter vocabulary" to "Filtruj słownictwo",
