@@ -239,6 +239,8 @@ internal val plCommon: Map<String, String> = mapOf(
     "Pages read" to "Przeczytane strony",
     "{1} books finished" to "{1} książka przeczytana|{1} książki przeczytane|{1} książek przeczytanych",
     "Reading activity" to "Aktywność czytania",
+    "Nothing to count yet" to "Na razie nie ma czego liczyć",
+    "Read a text or save a word, and your progress shows here." to "Przeczytaj tekst lub zapisz słowo, a tutaj pojawią się twoje postępy.",
     "{1} days with reading since {2}" to "{1} dzień z czytaniem od {2}|{1} dni z czytaniem od {2}|{1} dni z czytaniem od {2}",
     "Fewer words" to "Mniej słów",
     "More words" to "Więcej słów",

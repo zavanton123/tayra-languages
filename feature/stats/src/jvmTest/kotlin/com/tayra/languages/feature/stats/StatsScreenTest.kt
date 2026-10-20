@@ -1,6 +1,12 @@
 package com.tayra.languages.feature.stats
 
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
@@ -9,13 +15,8 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.runDesktopComposeUiTest
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.ui.Modifier
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
@@ -33,11 +34,8 @@ import com.tayra.languages.core.domain.model.WordsReadEntry
 import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
+import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.TayraTheme
-import kotlinx.coroutines.runBlocking
-import kotlinx.datetime.LocalDate
-import kotlinx.datetime.TimeZone
-import kotlinx.datetime.atStartOfDayIn
 import java.io.File
 import java.sql.DriverManager
 import javax.imageio.ImageIO
@@ -46,6 +44,10 @@ import kotlin.test.assertEquals
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Instant
+import kotlinx.coroutines.runBlocking
+import kotlinx.datetime.LocalDate
+import kotlinx.datetime.TimeZone
+import kotlinx.datetime.atStartOfDayIn
 
 /** The statistics of the language being learned, worked out from what the database records. */
 @OptIn(ExperimentalTestApi::class)
@@ -80,6 +82,26 @@ class StatsScreenTest {
             cards.addReview(FlashcardReview(termId = saved[i % 2], at = at(i), rating = rating, stateBefore = CardState.REVIEW, intervalDays = 1, elapsedDays = 1))
         }
         id
+    }
+
+    /** With nothing read, saved or reviewed, the page is one message and a way to start. */
+    @Test
+    fun aLanguageWithNothingYetGetsOneMessage() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val empty = runBlocking { stats.overview(portuguese, "Portuguese") }.copy(wordsRead = 0, termsByStatus = emptyMap(), reviewsTotal = 0)
+        val visited = mutableListOf<Route>()
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                        PageColumn(PaddingValues()) { StatsContent(StatsUiState(loading = false, overview = empty), onNavigate = { visited += it }) }
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Nothing to count yet")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodes(hasText("Reading activity")).fetchSemanticsNodes().size)
+        onNodeWithTag("stats-start").performClick()
+        assertEquals(listOf<Route>(Route.Books), visited)
     }
 
     @Test

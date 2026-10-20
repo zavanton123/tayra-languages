@@ -239,6 +239,8 @@ internal val deCommon: Map<String, String> = mapOf(
     "Pages read" to "Gelesene Seiten",
     "{1} books finished" to "{1} Buch beendet|{1} Bücher beendet",
     "Reading activity" to "Leseaktivität",
+    "Nothing to count yet" to "Noch nichts zu zählen",
+    "Read a text or save a word, and your progress shows here." to "Lies einen Text oder speichere ein Wort, dann erscheint hier dein Fortschritt.",
     "{1} days with reading since {2}" to "{1} Tag mit Lesen seit {2}|{1} Tage mit Lesen seit {2}",
     "Fewer words" to "Weniger Wörter",
     "More words" to "Mehr Wörter",

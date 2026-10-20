@@ -239,6 +239,8 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Pages read" to "Páginas lidas",
     "{1} books finished" to "{1} livro concluído|{1} livros concluídos",
     "Reading activity" to "Atividade de leitura",
+    "Nothing to count yet" to "Nada para contar ainda",
+    "Read a text or save a word, and your progress shows here." to "Leia um texto ou salve uma palavra, e seu progresso aparece aqui.",
     "{1} days with reading since {2}" to "{1} dia com leitura desde {2}|{1} dias com leitura desde {2}",
     "Fewer words" to "Menos palavras",
     "More words" to "Mais palavras",

@@ -239,6 +239,8 @@ internal val esCommon: Map<String, String> = mapOf(
     "Pages read" to "Páginas leídas",
     "{1} books finished" to "{1} libro terminado|{1} libros terminados",
     "Reading activity" to "Actividad de lectura",
+    "Nothing to count yet" to "Todavía no hay nada que contar",
+    "Read a text or save a word, and your progress shows here." to "Lee un texto o guarda una palabra, y tu progreso aparecerá aquí.",
     "{1} days with reading since {2}" to "{1} día con lectura desde {2}|{1} días con lectura desde {2}",
     "Fewer words" to "Menos palabras",
     "More words" to "Más palabras",

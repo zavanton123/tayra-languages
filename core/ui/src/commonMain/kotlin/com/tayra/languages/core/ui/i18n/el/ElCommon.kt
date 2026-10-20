@@ -239,6 +239,8 @@ internal val elCommon: Map<String, String> = mapOf(
     "Pages read" to "Σελίδες που διαβάσατε",
     "{1} books finished" to "{1} βιβλίο ολοκληρώθηκε|{1} βιβλία ολοκληρώθηκαν",
     "Reading activity" to "Δραστηριότητα ανάγνωσης",
+    "Nothing to count yet" to "Τίποτα για μέτρηση ακόμη",
+    "Read a text or save a word, and your progress shows here." to "Διαβάστε ένα κείμενο ή αποθηκεύστε μια λέξη και η πρόοδός σας θα εμφανιστεί εδώ.",
     "{1} days with reading since {2}" to "{1} ημέρα με ανάγνωση από {2}|{1} ημέρες με ανάγνωση από {2}",
     "Fewer words" to "Λιγότερες λέξεις",
     "More words" to "Περισσότερες λέξεις",

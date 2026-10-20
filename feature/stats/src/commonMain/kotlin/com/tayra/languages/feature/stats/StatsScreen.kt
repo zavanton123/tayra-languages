@@ -52,11 +52,13 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.StatusDot
 import com.tayra.languages.core.ui.components.TableHeader
@@ -121,21 +123,29 @@ fun StatsScreen(onNavigate: (Route) -> Unit, viewModel: StatsViewModel = koinVie
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        PageColumn(padding) { StatsContent(state) }
+        PageColumn(padding) { StatsContent(state, onNavigate) }
     }
 }
 
 private val seriesColors = AppAccents.sequence
 
 @Composable
-internal fun StatsContent(state: StatsUiState) {
+internal fun StatsContent(state: StatsUiState, onNavigate: (Route) -> Unit = {}) {
     val overview = state.overview
     val wide = LocalWindowWidth.current.isExpanded
     ScreenHeader(
         tr("Statistics"),
         overview?.let { tr("Your progress in {0}.", languageInSentence(it.languageName, LanguageCase.PREPOSITIONAL)) } ?: tr("Your progress in the languages you learn."),
     )
-    if (overview != null) {
+    // With nothing read, saved or reviewed, one message and a way to start say more than a page of grey charts.
+    if (overview != null && overview.wordsRead == 0 && overview.termsByStatus.values.sum() == 0 && overview.reviewsTotal == 0) {
+        EmptyState(
+            AppIcons.BarChart,
+            tr("Nothing to count yet"),
+            message = tr("Read a text or save a word, and your progress shows here."),
+            action = { PrimaryButton(tr("Browse books"), onClick = { onNavigate(Route.Books) }, modifier = Modifier.testTag("stats-start")) },
+        )
+    } else if (overview != null) {
         OverviewTiles(overview)
         ActivityCard(overview)
         SideBySide(wide, { WordsPerDayCard(overview, it) }, { SavedPerWeekCard(overview, it) })

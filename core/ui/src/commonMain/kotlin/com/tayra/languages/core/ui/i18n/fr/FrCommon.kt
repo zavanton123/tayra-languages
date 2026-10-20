@@ -239,6 +239,8 @@ internal val frCommon: Map<String, String> = mapOf(
     "Pages read" to "Pages lues",
     "{1} books finished" to "{1} livre terminé|{1} livres terminés",
     "Reading activity" to "Activité de lecture",
+    "Nothing to count yet" to "Rien à compter pour l’instant",
+    "Read a text or save a word, and your progress shows here." to "Lisez un texte ou enregistrez un mot, et vos progrès s’afficheront ici.",
     "{1} days with reading since {2}" to "{1} jour de lecture depuis le {2}|{1} jours de lecture depuis le {2}",
     "Fewer words" to "Moins de mots",
     "More words" to "Plus de mots",

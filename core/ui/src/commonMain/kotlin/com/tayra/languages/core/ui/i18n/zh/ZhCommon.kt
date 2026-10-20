@@ -239,6 +239,8 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Pages read" to "已读页数",
     "{1} books finished" to "已读完 {1} 本书",
     "Reading activity" to "阅读活动",
+    "Nothing to count yet" to "还没有可统计的内容",
+    "Read a text or save a word, and your progress shows here." to "阅读一篇文本或保存一个单词，你的进度就会显示在这里。",
     "{1} days with reading since {2}" to "自 {2} 起共阅读 {1} 天",
     "Fewer words" to "较少单词",
     "More words" to "较多单词",

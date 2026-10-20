@@ -239,6 +239,8 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Pages read" to "Прочитано страниц",
     "{1} books finished" to "{1} книга прочитана|{1} книги прочитано|{1} книг прочитано",
     "Reading activity" to "Активность чтения",
+    "Nothing to count yet" to "Пока нечего считать",
+    "Read a text or save a word, and your progress shows here." to "Прочитайте текст или сохраните слово, и здесь появится ваш прогресс.",
     "{1} days with reading since {2}" to "{1} день с чтением с {2}|{1} дня с чтением с {2}|{1} дней с чтением с {2}",
     "Fewer words" to "Меньше слов",
     "More words" to "Больше слов",
