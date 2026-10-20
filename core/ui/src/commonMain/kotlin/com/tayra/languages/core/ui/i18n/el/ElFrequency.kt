@@ -4,10 +4,10 @@ package com.tayra.languages.core.ui.i18n.el
 internal val elFrequency: Map<String, String> = mapOf(
     // Status names (TermStatus.label), shown through tr(label).
     "Unknown" to "Άγνωστη",
-    "Learning (1)" to "Σε εκμάθηση (1)",
-    "Learning (2)" to "Σε εκμάθηση (2)",
-    "Learning (3)" to "Σε εκμάθηση (3)",
-    "Learning (4)" to "Σε εκμάθηση (4)",
+    "Learning 1" to "Σε εκμάθηση 1",
+    "Learning 2" to "Σε εκμάθηση 2",
+    "Learning 3" to "Σε εκμάθηση 3",
+    "Learning 4" to "Σε εκμάθηση 4",
     "Known" to "Γνωστή",
     "Ignored" to "Αγνοείται",
 

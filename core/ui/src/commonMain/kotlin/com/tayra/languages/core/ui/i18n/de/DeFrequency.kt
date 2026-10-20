@@ -4,10 +4,10 @@ package com.tayra.languages.core.ui.i18n.de
 internal val deFrequency: Map<String, String> = mapOf(
     // Status names (TermStatus.label), shown through tr(label).
     "Unknown" to "Unbekannt",
-    "Learning (1)" to "Lernend (1)",
-    "Learning (2)" to "Lernend (2)",
-    "Learning (3)" to "Lernend (3)",
-    "Learning (4)" to "Lernend (4)",
+    "Learning 1" to "Lernend 1",
+    "Learning 2" to "Lernend 2",
+    "Learning 3" to "Lernend 3",
+    "Learning 4" to "Lernend 4",
     "Known" to "Bekannt",
     "Ignored" to "Ignoriert",
 

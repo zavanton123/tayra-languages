@@ -107,7 +107,7 @@ class TermsScreenTest {
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
         onNodeWithContentDescription("1 filter on").assertExists()
         onNodeWithContentDescription("Remove Learning 1–4").assertExists()
-        for (status in listOf("Learning (1)", "Learning (2)", "Learning (3)", "Learning (4)")) assertEquals(0, onAllNodesWithContentDescription("Remove $status").fetchSemanticsNodes().size)
+        for (status in listOf("Learning 1", "Learning 2", "Learning 3", "Learning 4")) assertEquals(0, onAllNodesWithContentDescription("Remove $status").fetchSemanticsNodes().size)
         onAllNodesWithText("Show all words")[0].performClick()
         // With nothing ticked, the known terms show too; ignored terms stay out until asked for.
         waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))

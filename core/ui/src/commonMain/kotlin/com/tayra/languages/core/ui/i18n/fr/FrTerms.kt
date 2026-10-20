@@ -4,10 +4,10 @@ package com.tayra.languages.core.ui.i18n.fr
 internal val frTerms: Map<String, String> = mapOf(
     // Status names (core/domain TermStatus), shown through tr(status.label).
     "Unknown" to "Inconnu",
-    "Learning (1)" to "En apprentissage (1)",
-    "Learning (2)" to "En apprentissage (2)",
-    "Learning (3)" to "En apprentissage (3)",
-    "Learning (4)" to "En apprentissage (4)",
+    "Learning 1" to "En apprentissage 1",
+    "Learning 2" to "En apprentissage 2",
+    "Learning 3" to "En apprentissage 3",
+    "Learning 4" to "En apprentissage 4",
     "Known" to "Connu",
     "Ignored" to "Ignoré",
 

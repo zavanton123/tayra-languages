@@ -4,10 +4,10 @@ package com.tayra.languages.core.ui.i18n.zh
 internal val zhFrequency: Map<String, String> = mapOf(
     // Status names (TermStatus.label), shown through tr(label).
     "Unknown" to "生词",
-    "Learning (1)" to "学习中 (1)",
-    "Learning (2)" to "学习中 (2)",
-    "Learning (3)" to "学习中 (3)",
-    "Learning (4)" to "学习中 (4)",
+    "Learning 1" to "学习中 1",
+    "Learning 2" to "学习中 2",
+    "Learning 3" to "学习中 3",
+    "Learning 4" to "学习中 4",
     "Known" to "已掌握",
     "Ignored" to "已忽略",
 
