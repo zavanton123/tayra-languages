@@ -815,7 +815,7 @@ private fun ContinuousControls(
         if (hotkeys != null) {
             Box {
                 Box(
-                    Modifier.size(CONTROL_SIZE).clip(AppShapes.circle).background(colors.surface)
+                    Modifier.size(CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.surface)
                         .border(AppBorders.selected(colors.primary), AppShapes.circle)
                         .clickable { showShortcuts = !showShortcuts }
                         .semantics { contentDescription = shortcutsDescription },
@@ -840,7 +840,8 @@ private fun ContinuousControls(
         }
         AppTooltip(tr("Pause after each sentence")) {
             Box(
-                Modifier.size(CONTROL_SIZE).clip(AppShapes.circle)
+                // Raised like the play button, so the page's text never seems to run through it.
+                Modifier.size(CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle)
                     .background(if (autoPause) colors.primary else colors.surface)
                     .border(AppBorders.selected(colors.primary), AppShapes.circle)
                     .clickable(onClick = onAutoPause)
