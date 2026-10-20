@@ -147,6 +147,8 @@ internal val frReading: Map<String, String> = mapOf(
     "Book not found" to "Livre introuvable",
     "Could not load page" to "Impossible de charger la page",
     "{0} words marked as known" to "{0} mot marqué comme connu|{0} mots marqués comme connus",
+    "Undo" to "Annuler",
+    "Mark the rest known and turn the page" to "Marquer le reste comme connu et tourner la page",
     "Copied to clipboard" to "Copié dans le presse-papiers",
     "Bookmark \"{0}\" added" to "Signet « {0} » ajouté",
 

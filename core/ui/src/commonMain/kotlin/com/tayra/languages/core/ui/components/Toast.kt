@@ -1,11 +1,14 @@
 package com.tayra.languages.core.ui.components
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.core.MutableTransitionState
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
@@ -28,29 +31,35 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
-import kotlinx.coroutines.delay
+import com.tayra.languages.core.ui.theme.AppElevation
+import com.tayra.languages.core.ui.theme.AppMotion
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
-import com.tayra.languages.core.ui.theme.AppElevation
 import com.tayra.languages.core.ui.theme.AppSpacing
-import androidx.compose.animation.EnterTransition
-import androidx.compose.animation.ExitTransition
-import com.tayra.languages.core.ui.theme.AppMotion
+import com.tayra.languages.core.ui.theme.AppText
+import kotlinx.coroutines.delay
 
-/** A short message shown at the bottom of the screen for a few seconds. A new message replaces the one showing. */
+/**
+ * A short message shown at the bottom of the screen for a few seconds, with an optional action such
+ * as Undo. A new message replaces the one showing.
+ */
 class ToastState {
     var text by mutableStateOf("")
+        private set
+    internal var action by mutableStateOf<Pair<String, () -> Unit>?>(null)
         private set
     var visible by mutableStateOf(false)
         internal set
     internal var shown by mutableIntStateOf(0)
         private set
 
-    fun show(message: String) {
+    fun show(message: String, actionLabel: String? = null, onAction: (() -> Unit)? = null) {
         text = message
+        action = if (actionLabel != null && onAction != null) actionLabel to onAction else null
         visible = true
         shown++
     }
@@ -63,7 +72,8 @@ fun rememberToastState() = remember { ToastState() }
 fun ToastHost(state: ToastState, durationMillis: Long = 3_000) {
     LaunchedEffect(state.shown) {
         if (state.visible) {
-            delay(durationMillis)
+            // A message that can be undone stays a little longer, to give time to reach the button.
+            delay(if (state.action != null) durationMillis * 2 else durationMillis)
             state.visible = false
         }
     }
@@ -88,6 +98,14 @@ fun ToastHost(state: ToastState, durationMillis: Long = 3_000) {
             ) {
                 Icon(Icons.Default.CheckCircle, contentDescription = null, tint = colors.inversePrimary, modifier = Modifier.size(AppSizes.icon))
                 Text(state.text, style = MaterialTheme.typography.bodyMedium, color = colors.inverseOnSurface)
+                state.action?.let { (label, onAction) ->
+                    Text(
+                        label,
+                        Modifier.clip(AppShapes.small).clickable(role = Role.Button) { state.visible = false; onAction() }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
+                        style = AppText.labelStrong,
+                        color = colors.inversePrimary,
+                    )
+                }
             }
         }
     }

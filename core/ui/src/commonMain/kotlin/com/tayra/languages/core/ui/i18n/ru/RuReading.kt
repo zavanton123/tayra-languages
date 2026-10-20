@@ -147,6 +147,8 @@ internal val ruReading: Map<String, String> = mapOf(
     "Book not found" to "Книга не найдена",
     "Could not load page" to "Не удалось загрузить страницу",
     "{0} words marked as known" to "{0} слово отмечено как знакомое|{0} слова отмечены как знакомые|{0} слов отмечено как знакомые",
+    "Undo" to "Отменить",
+    "Mark the rest known and turn the page" to "Отметить остальные как известные и перейти дальше",
     "Copied to clipboard" to "Скопировано в буфер обмена",
     "Bookmark \"{0}\" added" to "Закладка «{0}» добавлена",
 

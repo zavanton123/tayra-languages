@@ -147,6 +147,8 @@ internal val deReading: Map<String, String> = mapOf(
     "Book not found" to "Buch nicht gefunden",
     "Could not load page" to "Seite konnte nicht geladen werden",
     "{0} words marked as known" to "{0} Wort als bekannt markiert|{0} Wörter als bekannt markiert",
+    "Undo" to "Rückgängig",
+    "Mark the rest known and turn the page" to "Rest als bekannt markieren und umblättern",
     "Copied to clipboard" to "In die Zwischenablage kopiert",
     "Bookmark \"{0}\" added" to "Lesezeichen „{0}“ hinzugefügt",
 

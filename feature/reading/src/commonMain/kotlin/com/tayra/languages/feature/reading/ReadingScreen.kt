@@ -219,7 +219,7 @@ fun ReadingScreen(
             is ReadingEvent.OpenUrl -> uriHandler.openUri(event.url)
             is ReadingEvent.Navigate -> onNavigate(Route.Read(event.bookId, event.page))
             ReadingEvent.BookFinished -> leave()
-            is ReadingEvent.Toast -> toast.show(event.message)
+            is ReadingEvent.Toast -> if (event.undoable) toast.show(event.message, tr("Undo"), viewModel::undoMarkKnown) else toast.show(event.message)
         }
     }
     LaunchedEffect(state.loading, state.panel) {
@@ -921,7 +921,8 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         // Next page also marks this one read, which counts its words as read; on the last page that completes the book.
         val markRemaining: @Composable (Modifier) -> Unit = { modifier ->
             if (unknowns > 0) {
-                SecondaryButton(tr("Mark remaining words as known"), onClick = { viewModel.markPageRead(true, if (last) 0 else 1) }, modifier = modifier, icon = AppIcons.DoneAll, size = ButtonSize.Large, badge = unknowns)
+                // Before the last page it turns the page as well, and says so.
+                SecondaryButton(if (last) tr("Mark remaining words as known") else tr("Mark the rest known and turn the page"), onClick = { viewModel.markPageRead(true, if (last) 0 else 1) }, modifier = modifier, icon = AppIcons.DoneAll, size = ButtonSize.Large, badge = unknowns)
             }
         }
         // Practice asks about the words being learned, so it is offered only when the page has some.

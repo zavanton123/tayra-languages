@@ -147,6 +147,8 @@ internal val elReading: Map<String, String> = mapOf(
     "Book not found" to "Το βιβλίο δεν βρέθηκε",
     "Could not load page" to "Δεν ήταν δυνατή η φόρτωση της σελίδας",
     "{0} words marked as known" to "{0} λέξη σημειώθηκε ως γνωστή|{0} λέξεις σημειώθηκαν ως γνωστές",
+    "Undo" to "Αναίρεση",
+    "Mark the rest known and turn the page" to "Σημείωση των υπολοίπων ως γνωστών και επόμενη σελίδα",
     "Copied to clipboard" to "Αντιγράφηκε στο πρόχειρο",
     "Bookmark \"{0}\" added" to "Ο σελιδοδείκτης «{0}» προστέθηκε",
 

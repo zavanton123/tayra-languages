@@ -1230,6 +1230,19 @@ class ReadingHoverTest {
         }
     }
 
+    /** Marking the rest of a page known can be undone: its words go back to unknown. */
+    @Test
+    fun markingTheRestKnownCanBeUndone() = runBlocking {
+        val vm = reader(pages = 2)
+        suspend fun lobo() = termRepository.findByTextLc(languageId, "lobo")?.status
+        withTimeout(5_000) { while (vm.state.value.items.isEmpty()) delay(20) }
+        vm.markPageRead(true, 1)
+        withTimeout(5_000) { while (lobo() != TermStatus.WELL_KNOWN) delay(20) }
+        vm.undoMarkKnown()
+        withTimeout(5_000) { while (lobo() == TermStatus.WELL_KNOWN) delay(20) }
+        assertEquals(TermStatus.UNKNOWN, lobo() ?: TermStatus.UNKNOWN)
+    }
+
     /** A word that starts being learned keeps the sentence it was read in, until it is known, ignored or unknown again. */
     @Test
     fun aWordStartingToBeLearnedKeepsItsSentence() = runBlocking {

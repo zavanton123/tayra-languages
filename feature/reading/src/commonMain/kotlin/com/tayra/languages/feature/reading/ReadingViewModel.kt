@@ -128,7 +128,8 @@ sealed interface ReadingEvent {
     data class OpenUrl(val url: String) : ReadingEvent
     data class Navigate(val bookId: Long, val page: Int) : ReadingEvent
     data object BookFinished : ReadingEvent
-    data class Toast(val message: String) : ReadingEvent
+    /** A short message; [undoable] offers to undo the words just marked known. */
+    data class Toast(val message: String, val undoable: Boolean = false) : ReadingEvent
 }
 
 class ReadingViewModel(
@@ -295,10 +296,24 @@ class ReadingViewModel(
         viewModelScope.launch {
             val s = _state.value
             val unknowns = if (markRestAsKnown) BookStatsCalculator.calculate(s.items).distinctUnknowns else 0
-            readingService.markPageRead(bookId, s.pageNumber, markRestAsKnown)
+            lastMarkedKnown = readingService.markPageRead(bookId, s.pageNumber, markRestAsKnown)
             bookStats.markStale(bookId)
-            if (unknowns > 0) events.send(ReadingEvent.Toast(trPlural(unknowns, "{0} word marked as known", "{0} words marked as known")))
+            if (unknowns > 0) events.send(ReadingEvent.Toast(trPlural(unknowns, "{0} word marked as known", "{0} words marked as known"), undoable = lastMarkedKnown.isNotEmpty()))
             load(s.pageNumber + thenGoToRelative, trackOpen = true)
+        }
+    }
+
+    /** The terms the last "mark the rest known" set, for its Undo. */
+    private var lastMarkedKnown: List<Long> = emptyList()
+
+    /** Puts the words the last "mark the rest known" set back to unknown, and shows the page again with them. */
+    fun undoMarkKnown() {
+        val ids = lastMarkedKnown.takeIf { it.isNotEmpty() } ?: return
+        lastMarkedKnown = emptyList()
+        viewModelScope.launch {
+            readingService.restoreUnknown(ids)
+            bookStats.markStale(bookId)
+            load(_state.value.pageNumber, trackOpen = false)
         }
     }
 

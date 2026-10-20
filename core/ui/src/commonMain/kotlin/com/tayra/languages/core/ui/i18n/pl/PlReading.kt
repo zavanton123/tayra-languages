@@ -147,6 +147,8 @@ internal val plReading: Map<String, String> = mapOf(
     "Book not found" to "Nie znaleziono książki",
     "Could not load page" to "Nie udało się wczytać strony",
     "{0} words marked as known" to "{0} słowo oznaczone jako znane|{0} słowa oznaczone jako znane|{0} słów oznaczonych jako znane",
+    "Undo" to "Cofnij",
+    "Mark the rest known and turn the page" to "Oznacz resztę jako znane i przejdź dalej",
     "Copied to clipboard" to "Skopiowano do schowka",
     "Bookmark \"{0}\" added" to "Dodano zakładkę „{0}”",
 

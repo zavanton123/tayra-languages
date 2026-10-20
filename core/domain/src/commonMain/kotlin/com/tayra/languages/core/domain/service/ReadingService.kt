@@ -123,25 +123,35 @@ class ReadingService(
     suspend fun multiwordIndex(language: Language): MultiwordTermIndex =
         MultiwordTermIndex(terms.multiwordTerms(language.id).map { it.textLc })
 
-    /** Marks the page read, records the words read, and optionally sets unknown words to well known. */
-    suspend fun markPageRead(bookId: Long, pageNumber: Int, markRestAsKnown: Boolean) {
-        val book = books.getBook(bookId) ?: return
-        val page = books.getPage(bookId, pageNumber) ?: return
-        val language = languages.getById(book.languageId) ?: return
+    /**
+     * Marks the page read, records the words read, and optionally sets unknown words to well known;
+     * returns the terms it set, so they can be put back.
+     */
+    suspend fun markPageRead(bookId: Long, pageNumber: Int, markRestAsKnown: Boolean): List<Long> {
+        val book = books.getBook(bookId) ?: return emptyList()
+        val page = books.getPage(bookId, pageNumber) ?: return emptyList()
+        val language = languages.getById(book.languageId) ?: return emptyList()
         val now = clock.now()
         books.setPageReadDate(page.id, now)
         books.replaceSentences(page.id, SentenceBuilder.build(page.text, language))
         wordsRead.add(WordsReadEntry(language.id, page.id, now, page.wordCount))
-        if (markRestAsKnown) setUnknownsToWellKnown(page.text, language)
+        return if (markRestAsKnown) setUnknownsToWellKnown(page.text, language) else emptyList()
     }
 
-    suspend fun setUnknownsToWellKnown(text: String, language: Language) {
+    /** Sets the page's unknown words to well known and returns their terms. */
+    suspend fun setUnknownsToWellKnown(text: String, language: Language): List<Long> {
         val rendered = renderPage(text, language)
         val unknownIds = rendered.words
             .filter { it.status == TermStatus.UNKNOWN }
             .mapNotNull { it.termId }
             .distinct()
         if (unknownIds.isNotEmpty()) termService.setStatus(unknownIds, TermStatus.WELL_KNOWN)
+        return unknownIds
+    }
+
+    /** Puts terms marked known by [markPageRead] back to unknown. */
+    suspend fun restoreUnknown(termIds: List<Long>) {
+        if (termIds.isNotEmpty()) termService.setStatus(termIds, TermStatus.UNKNOWN)
     }
 
     /** Creates or updates terms for the given texts with the status; [sentence] is the one they are read in. */

@@ -147,6 +147,8 @@ internal val ptReading: Map<String, String> = mapOf(
     "Book not found" to "Livro não encontrado",
     "Could not load page" to "Não foi possível carregar a página",
     "{0} words marked as known" to "{0} palavra marcada como conhecida|{0} palavras marcadas como conhecidas",
+    "Undo" to "Desfazer",
+    "Mark the rest known and turn the page" to "Marcar o resto como conhecido e virar a página",
     "Copied to clipboard" to "Copiado para a área de transferência",
     "Bookmark \"{0}\" added" to "Marcador “{0}” adicionado",
 

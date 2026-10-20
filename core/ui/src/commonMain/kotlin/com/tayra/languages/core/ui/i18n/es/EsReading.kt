@@ -147,6 +147,8 @@ internal val esReading: Map<String, String> = mapOf(
     "Book not found" to "Libro no encontrado",
     "Could not load page" to "No se pudo cargar la página",
     "{0} words marked as known" to "{0} palabra marcada como conocida|{0} palabras marcadas como conocidas",
+    "Undo" to "Deshacer",
+    "Mark the rest known and turn the page" to "Marcar el resto como conocido y pasar la página",
     "Copied to clipboard" to "Copiado al portapapeles",
     "Bookmark \"{0}\" added" to "Marcador «{0}» añadido",
 

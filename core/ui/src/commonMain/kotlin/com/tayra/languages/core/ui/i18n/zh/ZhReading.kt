@@ -147,6 +147,8 @@ internal val zhReading: Map<String, String> = mapOf(
     "Book not found" to "未找到书籍",
     "Could not load page" to "无法加载页面",
     "{0} words marked as known" to "已将 {0} 个单词标为已掌握",
+    "Undo" to "撤销",
+    "Mark the rest known and turn the page" to "将其余标为已掌握并翻页",
     "Copied to clipboard" to "已复制到剪贴板",
     "Bookmark \"{0}\" added" to "已添加书签“{0}”",
 
