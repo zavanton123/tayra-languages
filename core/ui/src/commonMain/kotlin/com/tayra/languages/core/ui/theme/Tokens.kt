@@ -53,8 +53,8 @@ object AppAccents {
     /** Text on the learning statuses' pale tints, which are the same in every theme. */
     val ink = Color(0xFF1B1F24)
 
-    /** The four tones of Chinese and the neutral one, in Zhongwen's standard scheme, which learners know. */
-    val tones: List<Color> = listOf(Color(0xFFEE363E), Color(0xFFF47C36), Color(0xFF73BB4F), Color(0xFF649CD3), Color(0xFFA0A0A0))
+    /** The four tones of Chinese and the neutral one, in Zhongwen's standard scheme, which learners know, deep enough to read on white. */
+    val tones: List<Color> = listOf(Color(0xFFE0262F), Color(0xFFD9621F), Color(0xFF4A9A2C), Color(0xFF3D7CC0), Color(0xFF8A8A8A))
 
     /** The marker of a hidden word and the text on it, as in a cloze card. */
     val highlight = Color(0xFFFFD166)
