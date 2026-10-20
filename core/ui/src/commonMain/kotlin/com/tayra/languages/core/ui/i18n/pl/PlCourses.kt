@@ -46,7 +46,7 @@ internal val plCourses: Map<String, String> = mapOf(
     "Completed" to "Ukończone",
     "{0} lessons" to "{0} lekcja|{0} lekcje|{0} lekcji",
     "{0} words" to "{0} słowo|{0} słowa|{0} słów",
-    "Words {0}–{1}" to "Słowa {0}–{1}",
+    "Common words {0}–{1}" to "Częste słowa {0}–{1}",
     "Sample course" to "Przykładowy kurs",
     "Courses" to "Kursy",
     "Guided lessons to read, level by level." to "Lekcje do czytania, poziom po poziomie.",

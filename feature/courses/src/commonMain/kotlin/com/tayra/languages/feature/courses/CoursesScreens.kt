@@ -159,7 +159,8 @@ private fun CourseTags(course: com.tayra.languages.core.domain.courses.Course) {
 
 /** The most common words a course built on the frequency list covers. */
 @Composable
-internal fun RankTag(rankUpTo: Int) = Tag(tr("Words {0}–{1}", rankUpTo - 99, rankUpTo), AppAccents.blue, size = TagSize.Medium)
+// Which of the language's most common words the course teaches, by their ranks on the frequency list.
+internal fun RankTag(rankUpTo: Int) = Tag(tr("Common words {0}–{1}", formatCount(rankUpTo - 99), formatCount(rankUpTo)), AppAccents.blue, size = TagSize.Medium)
 
 /** One of a course's or a lesson's tags. */
 @Composable

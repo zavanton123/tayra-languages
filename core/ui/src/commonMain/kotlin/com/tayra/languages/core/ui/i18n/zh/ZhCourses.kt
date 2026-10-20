@@ -46,7 +46,7 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Completed" to "已完成",
     "{0} lessons" to "{0} 篇课文",
     "{0} words" to "{0} 个单词",
-    "Words {0}–{1}" to "单词 {0}–{1}",
+    "Common words {0}–{1}" to "常用词 {0}–{1}",
     "Sample course" to "示例课程",
     "Courses" to "课程",
     "Guided lessons to read, level by level." to "循序渐进的分级阅读课文。",

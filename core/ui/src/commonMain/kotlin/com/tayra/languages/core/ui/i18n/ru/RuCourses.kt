@@ -46,7 +46,7 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Completed" to "Пройдено",
     "{0} lessons" to "{0} урок|{0} урока|{0} уроков",
     "{0} words" to "{0} слово|{0} слова|{0} слов",
-    "Words {0}–{1}" to "Слова {0}–{1}",
+    "Common words {0}–{1}" to "Частые слова {0}–{1}",
     "Sample course" to "Пример курса",
     "Courses" to "Курсы",
     "Guided lessons to read, level by level." to "Уроки для чтения, уровень за уровнем.",

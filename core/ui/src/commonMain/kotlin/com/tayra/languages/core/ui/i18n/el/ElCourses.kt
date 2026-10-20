@@ -46,7 +46,7 @@ internal val elCourses: Map<String, String> = mapOf(
     "Completed" to "Ολοκληρωμένα",
     "{0} lessons" to "{0} ενότητα|{0} ενότητες",
     "{0} words" to "{0} λέξη|{0} λέξεις",
-    "Words {0}–{1}" to "Λέξεις {0}–{1}",
+    "Common words {0}–{1}" to "Συχνές λέξεις {0}–{1}",
     "Sample course" to "Δείγμα μαθήματος",
     "Courses" to "Μαθήματα",
     "Guided lessons to read, level by level." to "Καθοδηγούμενες ενότητες για ανάγνωση, επίπεδο προς επίπεδο.",

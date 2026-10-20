@@ -46,7 +46,7 @@ internal val deCourses: Map<String, String> = mapOf(
     "Completed" to "Abgeschlossen",
     "{0} lessons" to "{0} Lektion|{0} Lektionen",
     "{0} words" to "{0} Wort|{0} Wörter",
-    "Words {0}–{1}" to "Wörter {0}–{1}",
+    "Common words {0}–{1}" to "Häufige Wörter {0}–{1}",
     "Sample course" to "Beispielkurs",
     "Courses" to "Kurse",
     "Guided lessons to read, level by level." to "Geführte Lektionen zum Lesen, Niveau für Niveau.",
