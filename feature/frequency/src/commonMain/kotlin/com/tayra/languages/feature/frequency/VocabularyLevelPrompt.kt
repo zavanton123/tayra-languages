@@ -193,7 +193,7 @@ internal fun colouredExample(state: VocabularySettingsUiState, level: Int) = bui
     // As the reader draws a page: known words plain, new ones on the unknown words' highlight.
     val colors = MaterialTheme.colorScheme
     val statuses = TayraTheme.current.statusColors
-    val outside = colors.onSurfaceVariant.copy(alpha = AppAlpha.half)
+    val outside = colors.onSurfaceVariant
     val onNew = if (statuses.onHighlight == Color.Unspecified) colors.onSurface else statuses.onHighlight
     for (token in state.example) {
         val style = when {
@@ -420,7 +420,7 @@ internal fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier:
     val colors = MaterialTheme.colorScheme
     val width = LocalWindowWidth.current
     val compact = width.isCompact
-    val outside = colors.onSurfaceVariant.copy(alpha = AppAlpha.half)
+    val outside = colors.onSurfaceVariant
     val shape = AppShapes.large
     Column(modifier.clip(shape).border(AppBorders.hairline(), shape).padding(if (compact) AppSpacing.l else AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.m else AppSpacing.l)) {
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {

@@ -138,7 +138,7 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.CenterVertically) {
                     PreviewLegend(null, tr("Known"))
                     PreviewLegend(TayraTheme.current.statusColors.background(TermStatus.UNKNOWN), tr("Unknown"))
-                    PreviewLegend(colors.onSurfaceVariant.copy(alpha = AppAlpha.half), tr("Outside frequency list"))
+                    PreviewLegend(colors.onSurfaceVariant, tr("Outside frequency list"))
                 }
             }
             // Where the level stands, and what saving it does, right above the button that saves it.
