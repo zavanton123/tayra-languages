@@ -279,6 +279,8 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Graded mini stories built on the 10,000 most common words." to "Мини-истории по уровням на 10 000 самых частых слов.",
     "Download course pack" to "Скачать пакет курсов",
     "Remove course pack" to "Удалить пакет курсов",
+    "Go to Courses" to "Перейти к курсам",
+    "Go to Books" to "Перейти к книгам",
     "Downloading" to "Скачивание",
     "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words." to "100 курсов, 1000 уроков: мини-истории по уровням от A1 до C2 на основе 10 000 самых частых слов.",
     "Downloading and adding the courses…" to "Скачивание и добавление курсов…",

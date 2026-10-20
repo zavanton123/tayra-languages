@@ -279,6 +279,8 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Graded mini stories built on the 10,000 most common words." to "基于 10,000 个最常用单词编写的分级小故事。",
     "Download course pack" to "下载课程包",
     "Remove course pack" to "移除课程包",
+    "Go to Courses" to "前往课程",
+    "Go to Books" to "前往书籍",
     "Downloading" to "正在下载",
     "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words." to "100 个课程，1,000 篇课文：A1 到 C2 的分级小故事，基于 10,000 个最常用单词编写。",
     "Downloading and adding the courses…" to "正在下载并添加课程…",

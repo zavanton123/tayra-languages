@@ -51,7 +51,7 @@ fun CoursePacksScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            CoursePacksContent(packs.filter { it.pack.languageCode == code }, onDownload = viewModel::download, onRemove = viewModel::remove, onBack = onBack, languageName = language)
+            CoursePacksContent(packs.filter { it.pack.languageCode == code }, onDownload = viewModel::download, onRemove = viewModel::remove, onBack = onBack, languageName = language, onOpen = { onNavigate(Route.Courses) })
         }
     }
 }
@@ -64,6 +64,7 @@ internal fun CoursePacksContent(
     onBack: (() -> Unit)? = null,
     /** The language the packs are for, named when there is none. */
     languageName: String? = null,
+    onOpen: (() -> Unit)? = null,
 ) {
     var removing by remember { mutableStateOf<CoursePack?>(null) }
     ScreenHeader(tr("Course packs"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), onBackToSettings = onBack)
@@ -71,7 +72,7 @@ internal fun CoursePacksContent(
     if (packs.isEmpty() && languageName != null) {
         Text(tr("There are no ready-made courses for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
-    packs.forEach { status -> PackCard(status.pack.info(), status.state, coursePackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) }
+    packs.forEach { status -> PackCard(status.pack.info(), status.state, coursePackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }, onOpen = onOpen) }
     removing?.let { pack -> RemoveCoursePackDialog(pack, onRemove = { onRemove(pack) }, onDismiss = { removing = null }) }
 }
 
@@ -83,6 +84,7 @@ internal fun coursePackWords() = PackWords(
     onDevice = tr("The courses are on this device"),
     downloadAction = tr("Download course pack"),
     removeAction = tr("Remove course pack"),
+    openAction = tr("Go to Courses"),
 )
 
 @Composable

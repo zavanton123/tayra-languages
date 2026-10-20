@@ -49,6 +49,8 @@ internal class PackWords(
     val onDevice: String,
     val downloadAction: String,
     val removeAction: String,
+    /** The way to what the pack brought, once it is on the device. */
+    val openAction: String,
 )
 
 @Composable
@@ -64,7 +66,7 @@ private fun PackStatePill(state: PackState) {
 
 /** A pack on the wide screen: its summary, its state and size, and the button to download or remove it. */
 @Composable
-internal fun PackCard(pack: PackInfo, state: PackState, words: PackWords, onDownload: () -> Unit, onRemove: () -> Unit) {
+internal fun PackCard(pack: PackInfo, state: PackState, words: PackWords, onDownload: () -> Unit, onRemove: () -> Unit, onOpen: (() -> Unit)? = null) {
     ContentCard(
         tr(pack.title),
         words.kind,
@@ -97,7 +99,11 @@ internal fun PackCard(pack: PackInfo, state: PackState, words: PackWords, onDown
                 )
             }
             when (state) {
-                is PackState.Installed -> SecondaryButton(words.removeAction, onClick = onRemove, modifier = Modifier.testTag("remove-${pack.id}"))
+                // Once installed, the next step is to what it brought; removing it is the lesser action.
+                is PackState.Installed -> Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    SecondaryButton(words.removeAction, onClick = onRemove, modifier = Modifier.testTag("remove-${pack.id}"))
+                    if (onOpen != null) PrimaryButton(words.openAction, onClick = onOpen, modifier = Modifier.testTag("open-${pack.id}"))
+                }
                 is PackState.Downloading -> Unit
                 else -> PrimaryButton(if (state is PackState.Failed) tr("Try again") else words.downloadAction, onClick = onDownload, modifier = Modifier.testTag("download-${pack.id}"), icon = AppIcons.Download)
             }
@@ -114,6 +120,7 @@ internal fun PhonePackCard(
     words: PackWords,
     onDownload: () -> Unit,
     onRemove: () -> Unit,
+    onOpen: (() -> Unit)? = null,
     about: @Composable ColumnScope.() -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
@@ -150,6 +157,9 @@ internal fun PhonePackCard(
                     color = colors.onSurfaceVariant,
                 )
             }
+        }
+        if (state is PackState.Installed && onOpen != null) {
+            PrimaryButton(words.openAction, onClick = onOpen, modifier = Modifier.fillMaxWidth().testTag("open-${pack.id}"), size = ButtonSize.Large)
         }
         when (state) {
             is PackState.Installed -> SecondaryButton(

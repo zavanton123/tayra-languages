@@ -51,7 +51,7 @@ fun BookPacksScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            BookPacksContent(packs.filter { it.pack.languageCode == code }, onDownload = viewModel::download, onRemove = viewModel::remove, onBack = onBack, languageName = language)
+            BookPacksContent(packs.filter { it.pack.languageCode == code }, onDownload = viewModel::download, onRemove = viewModel::remove, onBack = onBack, languageName = language, onOpen = { onNavigate(Route.Books) })
         }
     }
 }
@@ -64,6 +64,7 @@ internal fun BookPacksContent(
     onBack: (() -> Unit)? = null,
     /** The language the packs are for, named when there is none. */
     languageName: String? = null,
+    onOpen: (() -> Unit)? = null,
 ) {
     var removing by remember { mutableStateOf<BookPack?>(null) }
     ScreenHeader(tr("Book packs"), tr("Download a pack of free books in a language as one file, or remove them to free space."), onBackToSettings = onBack)
@@ -71,7 +72,7 @@ internal fun BookPacksContent(
     if (packs.isEmpty() && languageName != null) {
         Text(tr("There is no book pack for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
-    packs.forEach { status -> PackCard(status.pack.info(), status.state, bookPackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) }
+    packs.forEach { status -> PackCard(status.pack.info(), status.state, bookPackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }, onOpen = onOpen) }
     removing?.let { pack -> RemoveBookPackDialog(pack, onRemove = { onRemove(pack) }, onDismiss = { removing = null }) }
 }
 
@@ -83,6 +84,7 @@ internal fun bookPackWords() = PackWords(
     onDevice = tr("The books are on this device"),
     downloadAction = tr("Download book pack"),
     removeAction = tr("Remove book pack"),
+    openAction = tr("Go to Books"),
 )
 
 @Composable

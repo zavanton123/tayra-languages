@@ -47,7 +47,7 @@ internal fun PhoneBookPacksScreen(
                 Text(tr("There is no book pack for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
             packs.forEach { status ->
-                PhonePackCard(status.pack.info(), status.state, bookPackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) {
+                PhonePackCard(status.pack.info(), status.state, bookPackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }, onOpen = { onNavigate(Route.Books) }) {
                     Text(tr(status.pack.summary), style = MaterialTheme.typography.bodyLarge)
                 }
             }

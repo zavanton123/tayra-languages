@@ -279,6 +279,8 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Graded mini stories built on the 10,000 most common words." to "Mini-histórias por nível baseadas nas 10.000 palavras mais comuns.",
     "Download course pack" to "Baixar pacote de cursos",
     "Remove course pack" to "Remover pacote de cursos",
+    "Go to Courses" to "Ir para Cursos",
+    "Go to Books" to "Ir para Livros",
     "Downloading" to "Baixando",
     "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words." to "100 cursos, 1.000 lições: mini-histórias por nível, de A1 a C2, baseadas nas 10.000 palavras mais comuns.",
     "Downloading and adding the courses…" to "Baixando e adicionando os cursos…",

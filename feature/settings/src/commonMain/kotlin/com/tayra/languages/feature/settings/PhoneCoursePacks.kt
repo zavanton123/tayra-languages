@@ -57,7 +57,7 @@ internal fun PhoneCoursePacksScreen(
                 Text(tr("There are no ready-made courses for {0} yet.", tr(languageName)), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
             packs.forEach { status ->
-                PhonePackCard(status.pack.info(), status.state, coursePackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) {
+                PhonePackCard(status.pack.info(), status.state, coursePackWords(), onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }, onOpen = { onNavigate(Route.Courses) }) {
                     // Every pack is cut the same way: 100 courses of 10 lessons, graded A1 to C2 (see CoursePack.summary).
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                         Figure("100", tr("courses"), Modifier.weight(1f))

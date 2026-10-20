@@ -279,6 +279,8 @@ internal val elSettings: Map<String, String> = mapOf(
     "Graded mini stories built on the 10,000 most common words." to "Μικρές ιστορίες ανά επίπεδο, βασισμένες στις 10.000 πιο συχνές λέξεις.",
     "Download course pack" to "Λήψη πακέτου μαθημάτων",
     "Remove course pack" to "Αφαίρεση πακέτου μαθημάτων",
+    "Go to Courses" to "Μετάβαση στα μαθήματα",
+    "Go to Books" to "Μετάβαση στα βιβλία",
     "Downloading" to "Λήψη",
     "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words." to "100 μαθήματα, 1.000 ενότητες: μικρές ιστορίες ανά επίπεδο από A1 έως C2, βασισμένες στις 10.000 πιο συχνές λέξεις.",
     "Downloading and adding the courses…" to "Λήψη και προσθήκη των μαθημάτων…",
