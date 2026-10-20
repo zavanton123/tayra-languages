@@ -119,6 +119,8 @@ open class SegmentingParser(
             for (start in maxOf(0, end - lexicon.maxLength - inflectionLength) until end) {
                 if (best[start] == Double.MAX_VALUE) continue
                 val word = lowercase(run.substring(start, end))
+                // After a number or a demonstrative, a measure word goes with it: 两个人 is 两 + 个 + 人, not 两 + 个人.
+                if (end - start > 1 && start > 0 && run[start - 1] in COUNTING && run[start] in MEASURES) continue
                 val rank = when {
                     matches(word, lexicon) -> lexicon.rank(word) ?: UNRANKED
                     end - start == 1 -> UNKNOWN
@@ -145,6 +147,12 @@ open class SegmentingParser(
         const val WORD_COST = 4.0
         const val UNRANKED = 50_000
         const val UNKNOWN = 100_000
+
+        /** The numbers and demonstratives a Chinese measure word follows. */
+        const val COUNTING = "一二两三四五六七八九十百千万几这那哪每"
+
+        /** Common Chinese measure words, in both scripts. */
+        const val MEASURES = "个個本只隻位次天名家件张張条條种種句双雙块塊杯碗岁歲点點辆輛台層层门門份节節场場篇首遍"
     }
 
     private fun longestMatch(run: String, start: Int, lexicon: Lexicon): Int? {

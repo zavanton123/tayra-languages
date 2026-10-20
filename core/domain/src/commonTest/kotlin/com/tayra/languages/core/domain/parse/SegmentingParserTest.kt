@@ -40,6 +40,10 @@ class SegmentingParserTest {
         fun cut(text: String) = chinese.parse(text, language).filter { it.isWord }.map { it.token }
         assertEquals(listOf("我", "不", "知道"), cut("我不知道"))
         assertEquals(listOf("他", "从", "中国", "来"), cut("他从中国来"))
+        // After a number, a measure word goes with it, not with the word after it.
+        Lexicons.set("xx", Lexicon(listOf("两", "个", "人", "个人"), mapOf("两" to 220, "个" to 37, "人" to 9, "个人" to 600)))
+        assertEquals(listOf("两", "个", "人"), cut("两个人"))
+        assertEquals(listOf("个人"), cut("个人"))
         // A character no word covers is a word of its own; a word the lexicon has without a rank still counts.
         Lexicons.set("xx", Lexicon(ranks.keys + "猫咪", ranks))
         assertEquals(listOf("他", "猫咪", "好"), cut("他猫咪好"))
