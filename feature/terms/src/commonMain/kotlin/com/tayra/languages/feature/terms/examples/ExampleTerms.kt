@@ -8,6 +8,7 @@ import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.ui.components.addFill
 import com.tayra.languages.core.ui.theme.StatusColors
 
 /**
@@ -75,12 +76,15 @@ fun AnnotatedString.withStatuses(words: List<WordStatus>, colors: StatusColors, 
         for (word in words) {
             if (word.status == TermStatus.WELL_KNOWN || word.status == TermStatus.IGNORED || word.end > length) continue
             val background = colors.background(word.status)
-            val style = when {
-                word.status == TermStatus.UNKNOWN && colors.unknownAsText -> SpanStyle(color = background)
-                background != Color.Transparent -> SpanStyle(background = background, color = colors.onHighlight)
+            when {
+                word.status == TermStatus.UNKNOWN && colors.unknownAsText -> addStyle(SpanStyle(color = background), word.start, word.end)
+                // A rounded mark, as on a page, drawn by the text that shows the sentence.
+                background != Color.Transparent -> {
+                    addFill(background, word.start, word.end)
+                    addStyle(SpanStyle(color = colors.onHighlight), word.start, word.end)
+                }
                 else -> continue
             }
-            addStyle(style, word.start, word.end)
         }
     }
 }

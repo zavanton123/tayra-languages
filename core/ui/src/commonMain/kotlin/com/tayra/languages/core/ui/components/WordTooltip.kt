@@ -1,7 +1,8 @@
 package com.tayra.languages.core.ui.components
 
-import kotlin.coroutines.cancellation.CancellationException
 import androidx.compose.foundation.background
+import androidx.compose.foundation.gestures.awaitEachGesture
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
@@ -14,15 +15,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
-import androidx.compose.foundation.gestures.detectTapGestures
-import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.runtime.rememberUpdatedState
-import androidx.compose.ui.input.pointer.isPrimaryPressed
-import androidx.compose.ui.input.pointer.isSecondaryPressed
-import com.tayra.languages.core.ui.theme.AppAlpha
-import com.tayra.languages.core.ui.theme.AppShapes
-import com.tayra.languages.core.ui.theme.TayraTheme
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
@@ -30,26 +24,33 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.PointerType
+import androidx.compose.ui.input.pointer.isPrimaryPressed
+import androidx.compose.ui.input.pointer.isSecondaryPressed
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntRect
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.takeOrElse
 import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupPositionProvider
 import com.tayra.languages.core.domain.text.Words
+import com.tayra.languages.core.ui.theme.AppAlpha
+import com.tayra.languages.core.ui.theme.AppElevation
+import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSpacing
+import com.tayra.languages.core.ui.theme.TayraTheme
+import kotlin.coroutines.cancellation.CancellationException
+import kotlin.math.roundToInt
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import kotlin.math.roundToInt
-import com.tayra.languages.core.ui.theme.AppElevation
-import com.tayra.languages.core.ui.theme.AppSpacing
 
 /**
  * Places a popup centred above [target], a rectangle in the anchor layout's own coordinates, and
@@ -127,7 +128,7 @@ fun HoverTranslatedText(
     val shown = remember(text, range, tint, picked, selectedColor) {
         if (range == null && picked == null) text else buildAnnotatedString {
             append(text)
-            if (range != null) addStyle(SpanStyle(background = tint), range.first, range.last + 1)
+            if (range != null) addFill(tint, range.first, range.last + 1)
             if (picked != null) addStyle(SpanStyle(color = selectedColor), picked.first, picked.last + 1)
         }
     }
@@ -142,7 +143,7 @@ fun HoverTranslatedText(
                 shown,
                 style = style,
                 onTextLayout = { layout = it },
-                modifier = Modifier.then(
+                modifier = Modifier.wordMarks({ layout }, shown, style.fontSize.takeOrElse { MaterialTheme.typography.bodyLarge.fontSize }).then(
                     if (onWordClick == null) Modifier
                     // Keyed by the characters alone: a change of colours must not drop a click under way.
                     else Modifier.pointerInput(text.text) {

@@ -144,11 +144,16 @@ class ExamplesScreenTest {
 
     private fun savedTerm(text: String) = runBlocking { terms.findByTextLc(languageId, text) }
 
-    /** The background the text node of [sentence] paints [word] with, or null. */
+    /** The colour the text of [sentence] marks [word] with, or null. */
     private fun backgroundOf(sentence: String, word: String): androidx.compose.ui.graphics.Color? {
-        val shown = rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().first().config[androidx.compose.ui.semantics.SemanticsProperties.Text].single()
+        val node = rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().first()
+        val layouts = mutableListOf<TextLayoutResult>()
+        node.config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        val shown = layouts.single().layoutInput.text
         val start = sentence.indexOf(word)
-        return shown.spanStyles.lastOrNull { it.start == start && it.end == start + word.length && it.item.background != androidx.compose.ui.graphics.Color.Unspecified }?.item?.background
+        return shown.getStringAnnotations(com.tayra.languages.core.ui.components.FILL_ANNOTATION, start, start + word.length)
+            .lastOrNull { it.start == start && it.end == start + word.length }
+            ?.let { androidx.compose.ui.graphics.Color(it.item.toInt()) }
     }
 
     /** The text colour the text node of [sentence] gives [word], or null. */

@@ -47,12 +47,10 @@ import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.drawWithCache
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.lerp
-import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.PointerType
@@ -94,8 +92,10 @@ import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagSize
+import com.tayra.languages.core.ui.components.pushFill
 import com.tayra.languages.core.ui.components.softBlurAvailable
 import com.tayra.languages.core.ui.components.toneColored
+import com.tayra.languages.core.ui.components.wordMarks
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppMotion
@@ -549,12 +549,10 @@ private fun ParagraphText(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = AppSpacing.s)
+                .wordMarks({ layout }, text, (18 * fontScale).sp)
                 .drawWithCache {
                     val result = layout
-                    val marks = if (result != null && result.layoutInput.text == text) highlightMarks(result, (18 * fontScale).sp.toPx(), HIGHLIGHT_SIDE.toPx()) else emptyList()
-                    val corner = CornerRadius(HIGHLIGHT_CORNER.toPx())
                     onDrawWithContent {
-                        marks.forEach { (rect, color) -> drawRoundRect(color, rect.topLeft, rect.size, corner) }
                         drawContent()
                         if (readings.isNotEmpty() && result != null) drawReadings(result, spans, items, firstItemIndex, readings, measurer, toneColors, TextStyle(fontSize = rubySize.sp, color = theme.readingText.copy(alpha = AppAlpha.muted), fontFamily = fontFamily))
                     }
@@ -705,12 +703,12 @@ private fun buildParagraph(
         val selected = (isMarked && item.isWord) || inSelection
         if (selected) style = style.copy(color = theme.selectedText, textDecoration = if (item.isWord) TextDecoration.Underline else null)
         val coloured = style.background != Color.Unspecified
-        // A word's own colour is drawn as a rounded mark around its letters (see highlightMarks), not the line's full height.
+        // A word's own colour is drawn as a rounded mark around its letters (see wordMarks), not the line's full height.
         val fill = if (item.isWord && coloured && style.background != Color.Transparent) style.background else null
         if (fill != null) style = style.copy(background = Color.Unspecified)
         if (readingItems != null && i in readingItems && !coloured) style = style.copy(background = readingTint)
         withStyle(style) {
-            if (fill != null) pushStringAnnotation(FILL_ANNOTATION, fill.toArgb().toString())
+            if (fill != null) pushFill(fill)
             if (selected) pushStringAnnotation(SELECTED_ANNOTATION, "")
             if (item.isOverlapped) append("⁺")
             if (i >= firstShown) {
@@ -773,36 +771,6 @@ internal const val SELECTED_ANNOTATION = "selected"
 
 /** Marks that open a quotation or an aside, and so belong with the sentence after them. */
 private const val OPENING_MARKS = "\"“„«‹‘(¿¡["
-
-/** Marks a word drawn on a colour of its own; the value is the colour, as ARGB. */
-internal const val FILL_ANNOTATION = "fill"
-
-/** How far a word's colour reaches above its baseline and below it, in ems: round its letters, short of the line's full height, so lines stay apart. */
-private const val HIGHLIGHT_ABOVE = 0.98f
-private const val HIGHLIGHT_BELOW = 0.32f
-private val HIGHLIGHT_CORNER = 4.dp
-
-/** How far a word's colour reaches past its first and last letters, short of the space beside it. */
-private val HIGHLIGHT_SIDE = 2.dp
-
-/** Where each coloured word's mark goes, a piece for each line it is on, and its colour. */
-private fun highlightMarks(result: TextLayoutResult, fontPx: Float, side: Float): List<Pair<Rect, Color>> {
-    val text = result.layoutInput.text
-    return text.getStringAnnotations(FILL_ANNOTATION, 0, text.length).flatMap { fill ->
-        val color = Color(fill.item.toInt())
-        if (fill.end <= fill.start) return@flatMap emptyList()
-        (result.getLineForOffset(fill.start)..result.getLineForOffset(fill.end - 1)).mapNotNull { line ->
-            val from = maxOf(fill.start, result.getLineStart(line))
-            val to = minOf(fill.end, result.getLineEnd(line))
-            if (to <= from) return@mapNotNull null
-            val box = result.getPathForRange(from, to).getBounds()
-            val baseline = result.getLineBaseline(line)
-            val top = maxOf(box.top, baseline - fontPx * HIGHLIGHT_ABOVE)
-            val bottom = minOf(box.bottom, baseline + fontPx * HIGHLIGHT_BELOW)
-            Rect(box.left - side, top, box.right + side, bottom) to color
-        }
-    }
-}
 
 /** How strongly the hovered word is tinted with the text colour: light gray on light themes, soft gray on dark ones. */
 private const val HOVER_ALPHA = 0.22f
