@@ -272,4 +272,8 @@ internal val esCommon: Map<String, String> = mapOf(
     "Mon" to "lun",
     "Wed" to "mié",
     "Fri" to "vie",
+    "{1} words read" to "{1} palabra leída|{1} palabras leídas",
+    "{1} reviews" to "{1} repaso|{1} repasos",
+    "Nothing studied" to "Nada estudiado",
+    "Nothing read" to "Nada leído",
 )

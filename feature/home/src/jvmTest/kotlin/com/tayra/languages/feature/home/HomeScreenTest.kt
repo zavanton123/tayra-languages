@@ -3,6 +3,7 @@ package com.tayra.languages.feature.home
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
@@ -12,6 +13,7 @@ import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
@@ -131,6 +133,9 @@ class HomeScreenTest {
         onNodeWithText("19 cards due today").assertExists()
         onNodeWithText("4 days studied since", substring = true).assertExists()
         onNodeWithTag("heatmap").assertExists()
+        // Pointing at today's square, the last column's Friday, names the day and what it held.
+        onNodeWithTag("heatmap").performMouseInput { moveTo(Offset(width - 2f, height * 4.5f / 7f)) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 16 · 2 words saved")).fetchSemanticsNodes().isNotEmpty() }
 
         onNodeWithTag("action-course").performClick()
         onNodeWithTag("action-book").performClick()

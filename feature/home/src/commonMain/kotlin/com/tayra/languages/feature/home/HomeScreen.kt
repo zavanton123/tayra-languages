@@ -264,5 +264,13 @@ private fun StudyActivityCard(activity: StudyActivity) {
         fewer = tr("Less study"),
         more = tr("More study"),
         icon = AppIcons.History,
+        describe = { date ->
+            val day = activity.days[date]
+            listOfNotNull(
+                day?.wordsRead?.takeIf { it > 0 }?.let { trPlural(it, "{1} word read", "{1} words read", formatCount(it)) },
+                day?.reviews?.takeIf { it > 0 }?.let { trPlural(it, "{1} review", "{1} reviews", formatCount(it)) },
+                day?.wordsSaved?.takeIf { it > 0 }?.let { trPlural(it, "{1} word saved", "{1} words saved", formatCount(it)) },
+            ).joinToString(" · ").ifEmpty { tr("Nothing studied") }
+        },
     )
 }

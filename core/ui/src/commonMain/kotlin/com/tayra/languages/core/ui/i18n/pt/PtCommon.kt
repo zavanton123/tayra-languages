@@ -272,4 +272,8 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Mon" to "seg",
     "Wed" to "qua",
     "Fri" to "sex",
+    "{1} words read" to "{1} palavra lida|{1} palavras lidas",
+    "{1} reviews" to "{1} revisão|{1} revisões",
+    "Nothing studied" to "Nada estudado",
+    "Nothing read" to "Nada lido",
 )

@@ -272,4 +272,8 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Mon" to "一",
     "Wed" to "三",
     "Fri" to "五",
+    "{1} words read" to "读了 {1} 个单词",
+    "{1} reviews" to "{1} 次复习",
+    "Nothing studied" to "没有学习",
+    "Nothing read" to "没有阅读",
 )

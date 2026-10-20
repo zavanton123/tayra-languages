@@ -272,4 +272,8 @@ internal val frCommon: Map<String, String> = mapOf(
     "Mon" to "lun.",
     "Wed" to "mer.",
     "Fri" to "ven.",
+    "{1} words read" to "{1} mot lu|{1} mots lus",
+    "{1} reviews" to "{1} révision|{1} révisions",
+    "Nothing studied" to "Rien étudié",
+    "Nothing read" to "Rien lu",
 )

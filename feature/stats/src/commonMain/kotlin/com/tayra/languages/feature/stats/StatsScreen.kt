@@ -224,6 +224,7 @@ private fun ActivityCard(o: LanguageOverview) {
         },
         fewer = tr("Fewer words"),
         more = tr("More words"),
+        describe = { date -> o.readingDays[date]?.takeIf { it > 0 }?.let { trPlural(it, "{1} word read", "{1} words read", formatCount(it)) } ?: tr("Nothing read") },
     )
 }
 

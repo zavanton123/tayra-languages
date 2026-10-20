@@ -272,4 +272,8 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Mon" to "Пн",
     "Wed" to "Ср",
     "Fri" to "Пт",
+    "{1} words read" to "{1} слово прочитано|{1} слова прочитано|{1} слов прочитано",
+    "{1} reviews" to "{1} повторение|{1} повторения|{1} повторений",
+    "Nothing studied" to "Ничего не изучено",
+    "Nothing read" to "Ничего не прочитано",
 )

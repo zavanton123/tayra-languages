@@ -272,4 +272,8 @@ internal val deCommon: Map<String, String> = mapOf(
     "Mon" to "Mo",
     "Wed" to "Mi",
     "Fri" to "Fr",
+    "{1} words read" to "{1} Wort gelesen|{1} Wörter gelesen",
+    "{1} reviews" to "{1} Wiederholung|{1} Wiederholungen",
+    "Nothing studied" to "Nichts gelernt",
+    "Nothing read" to "Nichts gelesen",
 )

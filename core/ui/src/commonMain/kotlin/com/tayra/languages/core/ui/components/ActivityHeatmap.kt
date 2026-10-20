@@ -15,11 +15,17 @@ import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.input.pointer.PointerEventType
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -49,8 +55,11 @@ fun ActivityHeatmapCard(
     more: String,
     icon: ImageVector = AppIcons.BarChart,
     color: Color = AppAccents.green,
+    /** What a day held, shown under the squares for the day pointed at or tapped. */
+    describe: ((LocalDate) -> String)? = null,
 ) {
     val empty = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
+    var pointed by remember { mutableStateOf<LocalDate?>(null) }
     BoxWithConstraints(Modifier.fillMaxWidth()) {
         val gap = AppSpacing.xs
         // The card's padding takes 20 on each side, and the weekday names a column of their own.
@@ -88,7 +97,27 @@ fun ActivityHeatmapCard(
                             }
                         }
                     }
-                    Row(Modifier.testTag("heatmap"), horizontalArrangement = Arrangement.spacedBy(gap)) {
+                    Row(
+                        Modifier.testTag("heatmap").then(
+                            if (describe == null) Modifier else Modifier.pointerInput(start, weeks, cell) {
+                                // The square under the pointer, found from where it is, rather than a listener on every square.
+                                val step = (cell + gap).toPx()
+                                awaitPointerEventScope {
+                                    while (true) {
+                                        val event = awaitPointerEvent()
+                                        val at = event.changes.firstOrNull()?.position ?: continue
+                                        pointed = if (event.type == PointerEventType.Exit) null else {
+                                            val week = (at.x / step).toInt()
+                                            val weekday = (at.y / step).toInt()
+                                            if (at.x < 0 || at.y < 0 || week >= weeks || weekday > 6) null
+                                            else start.plus(week * 7 + weekday, DateTimeUnit.DAY).takeIf { it <= today }
+                                        }
+                                    }
+                                }
+                            },
+                        ),
+                        horizontalArrangement = Arrangement.spacedBy(gap),
+                    ) {
                         repeat(weeks) { week ->
                             Column(verticalArrangement = Arrangement.spacedBy(gap)) {
                                 repeat(7) { weekday ->
@@ -105,6 +134,11 @@ fun ActivityHeatmapCard(
                         }
                     }
                 }
+            }
+            if (describe != null) {
+                Spacer(Modifier.height(AppSpacing.s))
+                // Always a line tall, so the legend under it does not move as days are pointed at.
+                Text(pointed?.let { "${it.shortDate(today)} · ${describe(it)}" } ?: " ", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("heatmap-day"))
             }
             Spacer(Modifier.height(AppSpacing.m))
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {

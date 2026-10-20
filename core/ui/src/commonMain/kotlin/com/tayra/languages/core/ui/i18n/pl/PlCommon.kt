@@ -272,4 +272,8 @@ internal val plCommon: Map<String, String> = mapOf(
     "Mon" to "pon",
     "Wed" to "śr",
     "Fri" to "pt",
+    "{1} words read" to "{1} słowo przeczytane|{1} słowa przeczytane|{1} słów przeczytanych",
+    "{1} reviews" to "{1} powtórka|{1} powtórki|{1} powtórek",
+    "Nothing studied" to "Brak nauki",
+    "Nothing read" to "Nic nie przeczytano",
 )

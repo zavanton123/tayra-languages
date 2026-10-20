@@ -272,4 +272,8 @@ internal val elCommon: Map<String, String> = mapOf(
     "Mon" to "Δευ",
     "Wed" to "Τετ",
     "Fri" to "Παρ",
+    "{1} words read" to "{1} λέξη διαβάστηκε|{1} λέξεις διαβάστηκαν",
+    "{1} reviews" to "{1} επανάληψη|{1} επαναλήψεις",
+    "Nothing studied" to "Καμία μελέτη",
+    "Nothing read" to "Καμία ανάγνωση",
 )
