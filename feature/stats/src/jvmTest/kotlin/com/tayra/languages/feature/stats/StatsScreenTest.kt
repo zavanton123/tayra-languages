@@ -114,8 +114,8 @@ class StatsScreenTest {
             waitForIdle()
             ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))
         }
-        // In its tile, and as the year and total of the language in the table.
-        assertEquals(3, onAllNodesWithText("1,670").fetchSemanticsNodes().size)
+        // In its tile, as the year and total of the language in the table, and at the top of the cumulative chart.
+        assertEquals(4, onAllNodesWithText("1,670").fetchSemanticsNodes().size)
         onNodeWithText("3 days").assertExists()
         onNodeWithText("Longest: 4 days").assertExists()
         onNodeWithText("Words saved today").assertExists()

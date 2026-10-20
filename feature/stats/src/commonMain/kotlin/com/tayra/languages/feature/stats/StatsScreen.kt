@@ -32,6 +32,7 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -63,6 +64,7 @@ import com.tayra.languages.core.ui.components.TableHeaderCell
 import com.tayra.languages.core.ui.components.animatedCount
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.shortDate
+import com.tayra.languages.core.ui.components.shortDateWithYear
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.languageInSentence
@@ -243,9 +245,11 @@ private fun BarChart(values: List<Int>, color: Color, from: String, to: String, 
         Canvas(Modifier.fillMaxWidth().height(BAR_CHART_HEIGHT)) {
             val slot = size.width / values.size
             val bar = slot * 0.68f
+            // A baseline rather than a grey bar for each day, so an empty day reads as nothing.
+            val base = BAR_BASELINE.toPx()
+            drawRect(track, Offset(0f, size.height - base), Size(size.width, base))
             values.forEachIndexed { i, value ->
                 val x = i * slot + (slot - bar) / 2
-                drawRoundRect(track, Offset(x, 0f), Size(bar, size.height), CornerRadius(bar / 4))
                 if (value > 0) {
                     val h = (size.height * value / max).coerceAtLeast(3f)
                     drawRoundRect(color, Offset(x, size.height - h), Size(bar, h), CornerRadius(bar / 4))
@@ -320,14 +324,17 @@ private fun LanguagesCard(summary: ReadingStatsSummary) {
     ContentCard(tr("Words read by language"), tr("Every language you have read in."), icon = AppIcons.Globe) {
         val headers = listOf(tr("Language"), tr("Today"), tr("Week"), tr("Month"), tr("Year"), tr("Total"))
         TableHeader(padding = PaddingValues(vertical = AppSpacing.xxs)) {
-            headers.forEachIndexed { i, h -> TableHeaderCell(h, Modifier.weight(if (i == 0) 2f else 1f)) }
+            // Counts line up on the right, so their digits do.
+            headers.forEachIndexed { i, h ->
+                if (i == 0) TableHeaderCell(h, Modifier.weight(2f)) else Box(Modifier.weight(1f), contentAlignment = Alignment.CenterEnd) { TableHeaderCell(h) }
+            }
         }
         summary.table.forEach { row ->
             AppDivider()
             Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s)) {
                 Text(tr(row.languageName), Modifier.weight(2f), style = AppText.label)
                 listOf(row.counts.day, row.counts.week, row.counts.month, row.counts.year, row.counts.total).forEach {
-                    Text(formatCount(it), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
+                    Text(formatCount(it), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.End)
                 }
             }
         }
@@ -356,6 +363,9 @@ private fun Chart(series: Map<String, List<ChartPoint>>) {
     val maxDate = points.maxOf { it.date.toEpochDays() }.coerceAtLeast(minDate + 1)
     val maxTotal = points.maxOf { it.runningTotal }.coerceAtLeast(1)
     val axisColor = MaterialTheme.colorScheme.outlineVariant
+    val muted = MaterialTheme.colorScheme.onSurfaceVariant
+    // The top and the two ends are labelled, so the line says how much and when.
+    Text(formatCount(maxTotal), style = MaterialTheme.typography.bodySmall, color = muted)
     Canvas(Modifier.fillMaxWidth().height(LINE_CHART_HEIGHT)) {
         val bottom = size.height
         drawLine(axisColor, Offset(0f, bottom), Offset(size.width, bottom))
@@ -369,7 +379,12 @@ private fun Chart(series: Map<String, List<ChartPoint>>) {
             drawPath(path, seriesColors[i % seriesColors.size], style = Stroke(width = 3f))
         }
     }
+    Row(Modifier.fillMaxWidth().padding(top = AppSpacing.xs)) {
+        Text(LocalDate.fromEpochDays(minDate).shortDateWithYear(), Modifier.weight(1f), style = MaterialTheme.typography.bodySmall, color = muted)
+        Text(LocalDate.fromEpochDays(maxDate).shortDateWithYear(), style = MaterialTheme.typography.bodySmall, color = muted)
+    }
 }
 
+private val BAR_BASELINE = 2.dp
 private val BAR_CHART_HEIGHT = 140.dp
 private val LINE_CHART_HEIGHT = 200.dp
