@@ -32,7 +32,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.model.BookListItem
@@ -202,13 +204,18 @@ private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Bool
             BookMenu(book, callbacks)
         }
         Spacer(Modifier.height(AppSpacing.l))
+        // The labels share one width, as wide as the longer of them, so large text never breaks a word and the bars line up.
+        val labelStyle = MaterialTheme.typography.bodyMedium
+        val measurer = rememberTextMeasurer()
+        val labels = listOf(tr("Reading"), tr("Vocabulary"))
+        val labelWidth = with(LocalDensity.current) { labels.maxOf { measurer.measure(it, labelStyle).size.width }.toDp() }.coerceAtLeast(BAR_LABEL_WIDTH)
         Column(Modifier.padding(end = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                Text(tr("Reading"), Modifier.width(BAR_LABEL_WIDTH), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                Text(labels[0], Modifier.width(labelWidth), style = labelStyle, color = colors.onSurfaceVariant, maxLines = 1, softWrap = false)
                 Box(Modifier.weight(1f)) { PercentBar(book.progressPercent, AppAccents.blue) }
             }
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                Text(tr("Vocabulary"), Modifier.width(BAR_LABEL_WIDTH), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                Text(labels[1], Modifier.width(labelWidth), style = labelStyle, color = colors.onSurfaceVariant, maxLines = 1, softWrap = false)
                 Box(Modifier.weight(1f)) { PercentBar(book.masteryPercent, AppAccents.green) }
             }
         }

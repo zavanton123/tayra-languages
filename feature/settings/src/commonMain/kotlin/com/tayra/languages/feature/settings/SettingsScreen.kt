@@ -5,6 +5,8 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -400,6 +402,7 @@ private fun PreviewCard(settings: UserSettings) {
 }
 
 /** The preview itself: the sample sentence on the theme's page with the legend under it; [padding] is the page's inner margin. */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 internal fun PreviewBox(settings: UserSettings, padding: Dp = AppSpacing.xxl) {
     val theme = TayraTheme.current
@@ -433,7 +436,8 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = AppSpacing.xxl) {
             modifier = Modifier.padding(vertical = AppSpacing.s),
         )
         AppDivider(Modifier.padding(vertical = AppSpacing.l))
-        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl), verticalAlignment = Alignment.CenterVertically) {
+        // Whole items wrap to a second line in large text, never a word inside its label.
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             LegendDot(tr("Unknown"), colors.background(TermStatus.UNKNOWN), theme)
             LegendDot(tr("Learning"), colors.background(TermStatus.NEW_1), theme)
             LegendDot(tr("Known"), null, theme)
@@ -448,7 +452,7 @@ private fun LegendDot(label: String, color: Color?, theme: AppTheme) {
         if (color != null) StatusDot(color, size = LEGEND_DOT)
         else Box(Modifier.size(LEGEND_DOT).border(AppBorders.selected(theme.readingText.copy(alpha = AppAlpha.disabled)), AppShapes.circle))
         Spacer(Modifier.width(AppSpacing.s))
-        Text(label, style = MaterialTheme.typography.bodyMedium, color = theme.readingText.copy(alpha = AppAlpha.strong))
+        Text(label, style = MaterialTheme.typography.bodyMedium, color = theme.readingText.copy(alpha = AppAlpha.strong), maxLines = 1, softWrap = false)
     }
 }
 
