@@ -100,7 +100,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 Text(tr("Language setup"), style = AppText.sectionTitle)
                 Spacer(Modifier.height(AppSpacing.xl))
                 val learningTile: @Composable (Modifier) -> Unit = { m ->
-                    LanguageTile(tr("Studying"), tr("I'm learning"), highlighted = true, modifier = m) {
+                    LanguageTile(tr("Learning"), tr("I'm learning"), highlighted = true, modifier = m) {
                         FlagPicker(
                             options = learning?.languages.orEmpty(),
                             selected = learning?.languages?.firstOrNull { it.first == learning.currentId },
@@ -115,7 +115,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                     }
                 }
                 val nativeTile: @Composable (Modifier) -> Unit = { m ->
-                    LanguageTile(tr("Translations"), tr("Show meanings in"), modifier = m) {
+                    LanguageTile(tr("Meanings"), tr("Show meanings in"), modifier = m) {
                         FlagPicker(
                             options = LanguageCatalog.nativeLanguages,
                             selected = native,
