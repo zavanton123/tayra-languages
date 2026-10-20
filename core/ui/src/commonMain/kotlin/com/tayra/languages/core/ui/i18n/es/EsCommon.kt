@@ -276,4 +276,13 @@ internal val esCommon: Map<String, String> = mapOf(
     "{1} reviews" to "{1} repaso|{1} repasos",
     "Nothing studied" to "Nada estudiado",
     "Nothing read" to "Nada leído",
+    "female" to "femenina",
+    "male" to "masculina",
+    "low" to "calidad baja",
+    "medium" to "calidad media",
+    "high" to "calidad alta",
+    "x low" to "calidad muy baja",
+    "American" to "estadounidense",
+    "British" to "británico",
+    "Brazilian" to "brasileño",
 )

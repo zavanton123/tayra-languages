@@ -605,7 +605,7 @@ private fun VoiceRow(item: SetupItem, checked: Boolean, started: Boolean, progre
     ) {
         StatusMark(item, checked, started, progress, onToggle)
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-            Text(item.name.substringAfter(" \u00b7 "), style = MaterialTheme.typography.bodyLarge)
+            Text(localizedVoiceName(item.name.substringAfter(" \u00b7 ")), style = MaterialTheme.typography.bodyLarge)
             if (progress is SetupState.Failed) Text(downloadFailure(progress.message), style = MaterialTheme.typography.bodySmall, color = colors.error)
             // A download waiting its turn says so, rather than showing an empty box like one not chosen.
             if (started && checked && (progress == null || progress is SetupState.Waiting)) Text(tr("Queued"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)

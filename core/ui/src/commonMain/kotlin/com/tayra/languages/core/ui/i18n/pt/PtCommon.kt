@@ -276,4 +276,13 @@ internal val ptCommon: Map<String, String> = mapOf(
     "{1} reviews" to "{1} revisão|{1} revisões",
     "Nothing studied" to "Nada estudado",
     "Nothing read" to "Nada lido",
+    "female" to "feminina",
+    "male" to "masculina",
+    "low" to "qualidade baixa",
+    "medium" to "qualidade média",
+    "high" to "qualidade alta",
+    "x low" to "qualidade muito baixa",
+    "American" to "americano",
+    "British" to "britânico",
+    "Brazilian" to "brasileiro",
 )

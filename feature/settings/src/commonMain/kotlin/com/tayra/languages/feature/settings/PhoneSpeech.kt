@@ -122,13 +122,13 @@ internal fun PhoneSpeechScreen(
                     var voiceSheet by remember { mutableStateOf(false) }
                     val selected = options.firstOrNull { it.id == current } ?: options.first()
                     SelectButton(
-                        selected.name,
+                        localizedVoiceName(selected.name),
                         onClick = { voiceSheet = true },
                         modifier = Modifier.fillMaxWidth().testTag("phone-speech-voice"),
                         label = tr("{0} voice", tr(learning.name)),
                     )
                     if (voiceSheet) {
-                        PickerSheet(tr("{0} voice", tr(learning.name)), options, selected, label = { it.name }, onDismiss = { voiceSheet = false }, onPick = { voice ->
+                        PickerSheet(tr("{0} voice", tr(learning.name)), options, selected, label = { localizedVoiceName(it.name) }, onDismiss = { voiceSheet = false }, onPick = { voice ->
                             voiceSheet = false
                             viewModel.chooseVoice(engine.engine, learning.code, voice.id)
                         })

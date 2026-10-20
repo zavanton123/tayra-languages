@@ -276,4 +276,13 @@ internal val ruCommon: Map<String, String> = mapOf(
     "{1} reviews" to "{1} повторение|{1} повторения|{1} повторений",
     "Nothing studied" to "Ничего не изучено",
     "Nothing read" to "Ничего не прочитано",
+    "female" to "женский",
+    "male" to "мужской",
+    "low" to "низкое качество",
+    "medium" to "среднее качество",
+    "high" to "высокое качество",
+    "x low" to "очень низкое качество",
+    "American" to "американский",
+    "British" to "британский",
+    "Brazilian" to "бразильский",
 )

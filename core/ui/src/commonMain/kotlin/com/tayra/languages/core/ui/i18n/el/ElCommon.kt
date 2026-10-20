@@ -276,4 +276,13 @@ internal val elCommon: Map<String, String> = mapOf(
     "{1} reviews" to "{1} επανάληψη|{1} επαναλήψεις",
     "Nothing studied" to "Καμία μελέτη",
     "Nothing read" to "Καμία ανάγνωση",
+    "female" to "γυναικεία",
+    "male" to "ανδρική",
+    "low" to "χαμηλή ποιότητα",
+    "medium" to "μέτρια ποιότητα",
+    "high" to "υψηλή ποιότητα",
+    "x low" to "πολύ χαμηλή ποιότητα",
+    "American" to "αμερικανική",
+    "British" to "βρετανική",
+    "Brazilian" to "βραζιλιάνικη",
 )

@@ -276,4 +276,13 @@ internal val plCommon: Map<String, String> = mapOf(
     "{1} reviews" to "{1} powtórka|{1} powtórki|{1} powtórek",
     "Nothing studied" to "Brak nauki",
     "Nothing read" to "Nic nie przeczytano",
+    "female" to "żeński",
+    "male" to "męski",
+    "low" to "niska jakość",
+    "medium" to "średnia jakość",
+    "high" to "wysoka jakość",
+    "x low" to "bardzo niska jakość",
+    "American" to "amerykański",
+    "British" to "brytyjski",
+    "Brazilian" to "brazylijski",
 )

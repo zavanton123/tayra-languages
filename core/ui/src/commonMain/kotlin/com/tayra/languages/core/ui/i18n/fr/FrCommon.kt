@@ -276,4 +276,13 @@ internal val frCommon: Map<String, String> = mapOf(
     "{1} reviews" to "{1} révision|{1} révisions",
     "Nothing studied" to "Rien étudié",
     "Nothing read" to "Rien lu",
+    "female" to "féminine",
+    "male" to "masculine",
+    "low" to "qualité basse",
+    "medium" to "qualité moyenne",
+    "high" to "haute qualité",
+    "x low" to "qualité très basse",
+    "American" to "américain",
+    "British" to "britannique",
+    "Brazilian" to "brésilien",
 )

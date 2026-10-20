@@ -407,7 +407,7 @@ private fun VoiceCard(
                     selected = options.firstOrNull { it.id == chosen } ?: options.first(),
                     onSelect = { voice -> viewModel.chooseVoice(engine.engine, learning.code, voice.id) },
                     label = tr("{0} voice", tr(learning.name)),
-                    optionLabel = { it.name },
+                    optionLabel = { localizedVoiceName(it.name) },
                     modifier = Modifier.fillMaxWidth(),
                 )
             }
@@ -682,7 +682,7 @@ private fun DefaultVoiceNote(engine: LocalSpeechEngine, settings: UserSettings, 
     val voice = options.firstOrNull { it.id == chosen } ?: options.firstOrNull()
     val first = when {
         learning == null -> null
-        voice != null -> tr("{0} uses {1}.", tr(learning.name), voice.name)
+        voice != null -> tr("{0} uses {1}.", tr(learning.name), localizedVoiceName(voice.name))
         else -> tr("{0} has no {1} voice yet.", tr(learning.name), engine.displayName)
     }
     InfoBanner(listOfNotNull(first, others).joinToString("   •   "))
@@ -714,3 +714,15 @@ internal val SAMPLES: Map<String, String> = mapOf(
     "uk" to "Читати потроху щодня \u2014 найкращий спосіб навчатися.",
     "cs" to "Číst každý den trochu je nejlepší způsob, jak se učit.",
 )
+
+/**
+ * A voice's name with what is in its brackets in the interface language: "Dora (Brazilian, female)",
+ * "Jirka (Czechia, low)". A word without a translation, such as a country, stays as it is.
+ */
+internal fun localizedVoiceName(name: String): String {
+    val open = name.lastIndexOf(" (")
+    if (open < 0 || !name.endsWith(")")) return name
+    val details = name.substring(open + 2, name.length - 1).split(", ").joinToString(", ") { tr(it) }
+    return "${name.substring(0, open)} ($details)"
+}
+

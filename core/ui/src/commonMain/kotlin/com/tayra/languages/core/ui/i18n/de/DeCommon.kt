@@ -276,4 +276,13 @@ internal val deCommon: Map<String, String> = mapOf(
     "{1} reviews" to "{1} Wiederholung|{1} Wiederholungen",
     "Nothing studied" to "Nichts gelernt",
     "Nothing read" to "Nichts gelesen",
+    "female" to "weiblich",
+    "male" to "männlich",
+    "low" to "niedrige Qualität",
+    "medium" to "mittlere Qualität",
+    "high" to "hohe Qualität",
+    "x low" to "sehr niedrige Qualität",
+    "American" to "amerikanisch",
+    "British" to "britisch",
+    "Brazilian" to "brasilianisch",
 )

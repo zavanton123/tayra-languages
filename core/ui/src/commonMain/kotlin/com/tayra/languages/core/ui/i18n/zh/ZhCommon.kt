@@ -276,4 +276,13 @@ internal val zhCommon: Map<String, String> = mapOf(
     "{1} reviews" to "{1} 次复习",
     "Nothing studied" to "没有学习",
     "Nothing read" to "没有阅读",
+    "female" to "女声",
+    "male" to "男声",
+    "low" to "低质量",
+    "medium" to "中等质量",
+    "high" to "高质量",
+    "x low" to "极低质量",
+    "American" to "美式",
+    "British" to "英式",
+    "Brazilian" to "巴西",
 )
