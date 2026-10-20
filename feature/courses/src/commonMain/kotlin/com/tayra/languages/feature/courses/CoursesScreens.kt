@@ -262,6 +262,8 @@ internal fun CoursesContent(
             EmptyCourses(state, onNewCourse, onDownloadCourses)
             return@ScrollColumn
         }
+        // The next step comes first, before the filters, as on Books.
+        state.continueWith?.let { ContinueCard(it, compact, onContinue = { onContinue(it) }, onOpen = { onOpen(it.course.id) }) }
         StatusTabs(state.counts, state.status, onStatus)
         val levelLabel = tr("Level: {0}", state.level?.display ?: tr("All"))
         val count = trPlural(shown.size, "{0} course", "{0} courses")
@@ -284,7 +286,6 @@ internal fun CoursesContent(
             }
         }
         state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
-        state.continueWith?.let { ContinueCard(it, compact, onContinue = { onContinue(it) }, onOpen = { onOpen(it.course.id) }) }
         Row(verticalAlignment = Alignment.Bottom) {
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                 Text(state.status?.label ?: tr("All courses"), style = AppText.headline)
