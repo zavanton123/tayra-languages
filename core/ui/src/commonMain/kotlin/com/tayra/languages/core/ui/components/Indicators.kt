@@ -10,6 +10,7 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.indication
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -101,11 +102,13 @@ private fun DrawnIconButton(
     Box(
         modifier
             .then(if (touchFirst) Modifier.minimumInteractiveComponentSize() else Modifier)
-            .clickable(interaction, ripple(bounded = false, radius = size.box / 2), enabled = enabled, role = Role.Button, onClick = onClick),
+            .clickable(interaction, indication = null, enabled = enabled, role = Role.Button, onClick = onClick),
         contentAlignment = Alignment.Center,
     ) {
+        // The hover and press highlight fills the button's own shape, a rounded square as much as a circle.
         Box(
             Modifier.size(size.box).clip(shape).background(background).then(if (border != null) Modifier.border(border, shape) else Modifier)
+                .indication(interaction, ripple())
                 .alpha(if (enabled) 1f else AppAlpha.disabled),
             contentAlignment = Alignment.Center,
         ) { content() }
