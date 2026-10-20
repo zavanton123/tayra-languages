@@ -130,6 +130,19 @@ footer { color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--lin
 
   <section>
     <div class="section-head">
+      <h2>Follow-up, 19–20 October</h2>
+      <p>Every finding below has been worked on, each fix in its own commit on main, with tests and a check on the phone or desktop. A few were done in part, as noted here; the rest are done as the report suggests, or by the nearest fit to how the app already works.</p>
+    </div>
+    <ul class="good">
+      <li><strong>APP-17, language setup.</strong> Failures in words, a Queued mark, one engine's voices ticked and voice details translated; the footer still counts each voice ticked, which the tests show is meant.</li>
+      <li><strong>APP-19, dictionary lists.</strong> Rows no longer repeat Installed, a Wiktionary pack is named where a pair has two, and the installed list leads with the language learned; the two lists still differ in scope (installed by meaning language, available by source).</li>
+      <li><strong>PRAC-21, practice dialog.</strong> One icon and the time only; “Practise” (verb) and “Practice” (noun) are kept, as British spelling has them.</li>
+      <li><strong>APP-5 and LIB-8.</strong> The setup pages are called Course packs and Book packs, rather than the “downloads” the report proposed, to match the More sheet.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-head">
       <h2>Fix first</h2>
       <p>The ten problems with the largest cost to learners, in the order I would take them. Two are regressions from this week's work.</p>
     </div>
