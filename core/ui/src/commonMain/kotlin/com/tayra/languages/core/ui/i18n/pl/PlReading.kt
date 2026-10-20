@@ -182,6 +182,7 @@ internal val plReading: Map<String, String> = mapOf(
     "Words to look at again: {0}" to "Warto powtórzyć: {0}",
     "Practice does not change the status of your words." to "Ćwiczenie nie zmienia statusu twoich słów.",
     "Practice again" to "Ćwicz ponownie",
+    "Practise missed words" to "Ćwicz pominięte słowa",
     "Back to reading" to "Wróć do czytania",
     "Back to vocabulary" to "Wróć do słownictwa",
     "{0} words from your vocabulary." to "{0} słowo z twojego słownictwa.|{0} słowa z twojego słownictwa.|{0} słów z twojego słownictwa.",

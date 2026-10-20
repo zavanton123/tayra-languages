@@ -182,6 +182,7 @@ internal val esReading: Map<String, String> = mapOf(
     "Words to look at again: {0}" to "Palabras para repasar: {0}",
     "Practice does not change the status of your words." to "La práctica no cambia el estado de tus palabras.",
     "Practice again" to "Practicar otra vez",
+    "Practise missed words" to "Practicar las palabras falladas",
     "Back to reading" to "Volver a la lectura",
     "Back to vocabulary" to "Volver al vocabulario",
     "{0} words from your vocabulary." to "{0} palabra de tu vocabulario.|{0} palabras de tu vocabulario.",

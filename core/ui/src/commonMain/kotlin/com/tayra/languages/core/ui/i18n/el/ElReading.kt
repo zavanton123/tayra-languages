@@ -182,6 +182,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Words to look at again: {0}" to "Λέξεις για να ξαναδείτε: {0}",
     "Practice does not change the status of your words." to "Η εξάσκηση δεν αλλάζει την κατάσταση των λέξεών σας.",
     "Practice again" to "Ξανά εξάσκηση",
+    "Practise missed words" to "Εξάσκηση στις λέξεις που χάθηκαν",
     "Back to reading" to "Πίσω στην ανάγνωση",
     "Back to vocabulary" to "Πίσω στο λεξιλόγιο",
     "{0} words from your vocabulary." to "{0} λέξη από το λεξιλόγιό σας.|{0} λέξεις από το λεξιλόγιό σας.",

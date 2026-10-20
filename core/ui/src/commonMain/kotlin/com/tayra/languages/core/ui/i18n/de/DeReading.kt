@@ -182,6 +182,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Words to look at again: {0}" to "Noch einmal ansehen: {0}",
     "Practice does not change the status of your words." to "Das Üben ändert den Status deiner Wörter nicht.",
     "Practice again" to "Noch einmal üben",
+    "Practise missed words" to "Verpasste Wörter üben",
     "Back to reading" to "Zurück zum Lesen",
     "Back to vocabulary" to "Zurück zum Wortschatz",
     "{0} words from your vocabulary." to "{0} Wort aus deinem Wortschatz.|{0} Wörter aus deinem Wortschatz.",

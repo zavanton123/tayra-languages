@@ -182,6 +182,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "Words to look at again: {0}" to "Palavras para rever: {0}",
     "Practice does not change the status of your words." to "A prática não muda o status das suas palavras.",
     "Practice again" to "Praticar de novo",
+    "Practise missed words" to "Praticar as palavras erradas",
     "Back to reading" to "Voltar à leitura",
     "Back to vocabulary" to "Voltar ao vocabulário",
     "{0} words from your vocabulary." to "{0} palavra do seu vocabulário.|{0} palavras do seu vocabulário.",

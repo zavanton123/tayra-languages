@@ -76,6 +76,8 @@ data class PracticeUiState(
     val correct: Int = 0,
     /** The words answered wrongly or skipped, in the order they came up. */
     val missed: List<String> = emptyList(),
+    /** The practised words behind [missed], lower-cased, to practise them again. */
+    val missedTargets: Set<String> = emptySet(),
     val finished: Boolean = false,
     /** Practising the whole book or lesson rather than a page of it. */
     val wholeBook: Boolean = false,
@@ -121,14 +123,20 @@ class PracticeViewModel(
     private class Prepared(val language: Language, val title: String, val words: List<PracticeWord>, val pool: List<String>)
 
     /** Builds a fresh set of questions and starts from the first. */
-    fun start() {
+    fun start() = start(only = null)
+
+    /** Practises again only the words missed in the round just finished. */
+    fun startMissed() = start(only = _state.value.missedTargets.takeIf { it.isNotEmpty() })
+
+    private fun start(only: Set<String>?) {
         _state.update { PracticeUiState(pageNumber = pageNumber, bookTitle = it.bookTitle, kinds = kinds, wholeBook = wholeBook) }
         viewModelScope.launch {
-            val prepared = when (source) {
+            val all = when (source) {
                 is PracticeSource.Page -> pageWords(source)
                 is PracticeSource.Book -> bookWords(source)
                 is PracticeSource.Words -> chosenWords(source)
             }
+            val prepared = if (all == null || only == null) all else Prepared(all.language, all.title, all.words.filter { it.text.lowercase() in only }.ifEmpty { all.words }, all.pool)
             if (prepared == null) {
                 _state.update { it.copy(loading = false) }
                 return@launch
@@ -269,6 +277,8 @@ class PracticeViewModel(
             result = result,
             correct = it.correct + if (right) 1 else 0,
             missed = if (right || exercise.word in it.missed) it.missed else it.missed + exercise.word,
+            // A sentence from elsewhere may inflect the word; its answer is the word as practised.
+            missedTargets = if (right) it.missedTargets else it.missedTargets + (if (exercise.kind == ExerciseKind.NEW_CONTEXT) exercise.answer else exercise.word).lowercase(),
         )
     }
 

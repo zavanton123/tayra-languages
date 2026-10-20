@@ -93,7 +93,7 @@ class PracticeScreenTest {
                                 state,
                                 PracticeActions(
                                     onChoose = viewModel::choose, onTyped = viewModel::setTyped, onSubmit = viewModel::submit, onSkip = viewModel::skip,
-                                    onNext = viewModel::next, onRestart = viewModel::start, onSpeak = { spoken += it },
+                                    onNext = viewModel::next, onRestart = viewModel::start, onRestartMissed = viewModel::startMissed, onSpeak = { spoken += it },
                                 ),
                             )
                         }
@@ -260,7 +260,12 @@ class PracticeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("${exercises.size - 2} of ${exercises.size} right").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Words to look at again: ${missed.joinToString(", ")}").assertExists()
 
-        onNodeWithText("Practice again").performClick()
-        waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("Question 1 of ${exercises.size}").fetchSemanticsNodes().isNotEmpty() }
+        // With words missed, the main way on is practising only them.
+        onNodeWithTag("practise-missed").performClick()
+        waitUntil(timeoutMillis = 10_000) { viewModel.state.value.let { !it.finished && !it.loading && it.exercises.isNotEmpty() } }
+        val again = viewModel.state.value.exercises
+        val missedWords = missed.map { it.lowercase() }.toSet()
+        assertTrue(again.all { (if (it.kind == ExerciseKind.NEW_CONTEXT) it.answer else it.word).lowercase() in missedWords }, "the questions are on the missed words only")
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("Question 1 of ${again.size}").fetchSemanticsNodes().isNotEmpty() }
     }
 }

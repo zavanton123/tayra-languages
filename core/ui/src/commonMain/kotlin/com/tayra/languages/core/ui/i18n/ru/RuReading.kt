@@ -182,6 +182,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Words to look at again: {0}" to "Стоит повторить: {0}",
     "Practice does not change the status of your words." to "Тренировка не меняет статус ваших слов.",
     "Practice again" to "Пройти ещё раз",
+    "Practise missed words" to "Повторить пропущенные слова",
     "Back to reading" to "Вернуться к чтению",
     "Back to vocabulary" to "Вернуться к словарю",
     "{0} words from your vocabulary." to "{0} слово из вашего словаря.|{0} слова из вашего словаря.|{0} слов из вашего словаря.",

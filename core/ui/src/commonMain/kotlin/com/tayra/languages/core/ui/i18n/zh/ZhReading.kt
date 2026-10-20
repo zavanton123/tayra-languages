@@ -182,6 +182,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Words to look at again: {0}" to "需要再看看的单词：{0}",
     "Practice does not change the status of your words." to "练习不会改变单词的状态。",
     "Practice again" to "再练一次",
+    "Practise missed words" to "练习答错的单词",
     "Back to reading" to "返回阅读",
     "Back to vocabulary" to "返回词汇",
     "{0} words from your vocabulary." to "来自你词汇中的 {0} 个单词。",

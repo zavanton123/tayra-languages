@@ -8,6 +8,8 @@ import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -117,6 +119,7 @@ fun PracticeScreen(
                 onSkip = viewModel::skip,
                 onNext = { speaker.stop(); viewModel.next() },
                 onRestart = viewModel::start,
+                onRestartMissed = viewModel::startMissed,
                 onBack = onBack,
                 onSpeak = { text -> speaker.speak(text, state.languageCode) },
             ),
@@ -132,6 +135,7 @@ internal class PracticeActions(
     val onSkip: () -> Unit = {},
     val onNext: () -> Unit = {},
     val onRestart: () -> Unit = {},
+    val onRestartMissed: () -> Unit = {},
     val onBack: () -> Unit = {},
     /** Reads text aloud; null when there is nothing to read it with, which hides the listen buttons. */
     val onSpeak: ((String) -> Unit)? = null,
@@ -376,6 +380,7 @@ private fun Feedback(state: PracticeUiState, exercise: Exercise) {
     )
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun Finished(state: PracticeUiState, actions: PracticeActions) {
     val colors = MaterialTheme.colorScheme
@@ -396,9 +401,15 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
             textAlign = TextAlign.Center,
         )
         Text(tr("Practice does not change the status of your words."), style = MaterialTheme.typography.bodySmall, color = colors.outline, textAlign = TextAlign.Center)
-        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            SecondaryButton(tr("Practice again"), onClick = actions.onRestart)
-            PrimaryButton(backLabel(state), onClick = actions.onBack)
+        // Missed words lead to practising them again; with none missed, back to where the words came from.
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            if (state.missedTargets.isNotEmpty()) {
+                PrimaryButton(tr("Practise missed words"), onClick = actions.onRestartMissed, size = ButtonSize.Large, modifier = Modifier.testTag("practise-missed"))
+                SecondaryButton(backLabel(state), onClick = actions.onBack, size = ButtonSize.Large)
+            } else {
+                SecondaryButton(tr("Practice again"), onClick = actions.onRestart, size = ButtonSize.Large)
+                PrimaryButton(backLabel(state), onClick = actions.onBack, size = ButtonSize.Large)
+            }
         }
     }
 }

@@ -182,6 +182,7 @@ internal val frReading: Map<String, String> = mapOf(
     "Words to look at again: {0}" to "Mots à revoir : {0}",
     "Practice does not change the status of your words." to "L’entraînement ne change pas le statut de vos mots.",
     "Practice again" to "Recommencer",
+    "Practise missed words" to "Réviser les mots manqués",
     "Back to reading" to "Retour à la lecture",
     "Back to vocabulary" to "Retour au vocabulaire",
     "{0} words from your vocabulary." to "{0} mot de votre vocabulaire.|{0} mots de votre vocabulaire.",
