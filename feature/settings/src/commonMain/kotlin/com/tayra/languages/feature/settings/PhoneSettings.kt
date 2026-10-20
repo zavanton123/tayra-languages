@@ -90,6 +90,8 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
                 ) { v -> viewModel.update { it.copy(readingLineHeight = v) } }
             }
             ContentCard(tr("Behaviour"), subtitle = null, icon = Icons.Default.Settings, dense = true) {
+                SwitchSetting(tr("Show learning levels"), description = tr("Statuses 1 to 4 for words being learned, rather than one Learning status."), checked = settings.showLearningLevels, dense = true) { v -> viewModel.update { it.copy(showLearningLevels = v) } }
+                AppDivider()
                 Column(Modifier.padding(vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                         Text(tr("Book stats page sample size"), style = MaterialTheme.typography.bodyLarge)

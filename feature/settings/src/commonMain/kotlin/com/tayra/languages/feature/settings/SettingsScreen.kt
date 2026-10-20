@@ -145,6 +145,7 @@ class SettingsViewModel(
             readingLineHeight = defaults.readingLineHeight,
             readingFont = defaults.readingFont,
             reduceMotion = defaults.reduceMotion,
+            showLearningLevels = defaults.showLearningLevels,
             statsSampleSize = defaults.statsSampleSize,
         )
     }
@@ -326,7 +327,10 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
 @Composable
 private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) {
     ContentCard(tr("Behaviour"), tr("Control how Tayra behaves on different pages."), icon = Icons.Default.Settings) {
-        SettingRow(tr("Book stats page sample size"), tr("Number of pages used for book statistics.")) {
+        SwitchSetting(tr("Show learning levels"), tr("Statuses 1 to 4 for words being learned, rather than one Learning status."), settings.showLearningLevels) { v ->
+            viewModel.update { it.copy(showLearningLevels = v) }
+        }
+        SettingRow(tr("Book stats page sample size"), tr("Number of pages used for book statistics."), divider = true) {
             NumberStepper(
                 value = settings.statsSampleSize,
                 range = UserSettings.MIN_STATS_SAMPLE_SIZE..UserSettings.MAX_STATS_SAMPLE_SIZE,

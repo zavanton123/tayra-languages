@@ -75,6 +75,7 @@ class SettingsRepositoryImpl(
             themeId = store.getString(Keys.THEME, defaults.themeId),
             showHighlights = store.getBoolean(Keys.SHOW_HIGHLIGHTS, defaults.showHighlights),
             reduceMotion = store.getBoolean(Keys.REDUCE_MOTION, defaults.reduceMotion),
+            showLearningLevels = store.getBoolean(Keys.SHOW_LEARNING_LEVELS, defaults.showLearningLevels),
             statsSampleSize = store.getInt(Keys.STATS_SAMPLE_SIZE, defaults.statsSampleSize),
             readingFontScale = store.getFloat(Keys.FONT_SCALE, defaults.readingFontScale),
             readingLineHeight = store.getFloat(Keys.LINE_HEIGHT, defaults.readingLineHeight),
@@ -178,6 +179,7 @@ class SettingsRepositoryImpl(
         store.putString(Keys.THEME, s.themeId)
         store.putBoolean(Keys.SHOW_HIGHLIGHTS, s.showHighlights)
         store.putBoolean(Keys.REDUCE_MOTION, s.reduceMotion)
+        store.putBoolean(Keys.SHOW_LEARNING_LEVELS, s.showLearningLevels)
         store.putInt(Keys.STATS_SAMPLE_SIZE, s.statsSampleSize)
         store.putFloat(Keys.FONT_SCALE, s.readingFontScale)
         store.putFloat(Keys.LINE_HEIGHT, s.readingLineHeight)
@@ -237,6 +239,7 @@ class SettingsRepositoryImpl(
         const val THEME = "current_theme"
         const val SHOW_HIGHLIGHTS = "show_highlights"
         const val REDUCE_MOTION = "reduce_motion"
+        const val SHOW_LEARNING_LEVELS = "show_learning_levels"
         const val STATS_SAMPLE_SIZE = "stats_calc_sample_size"
         const val FONT_SCALE = "reading_font_scale"
         const val LINE_HEIGHT = "reading_line_height"

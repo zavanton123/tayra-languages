@@ -12,6 +12,8 @@ data class UserSettings(
     val showHighlights: Boolean = true,
     /** Keep the screens still: no sliding, fading or flipping, for those whom motion bothers. */
     val reduceMotion: Boolean = false,
+    /** Show the four learning levels, 1 to 4, rather than one Learning status; the levels are kept either way. */
+    val showLearningLevels: Boolean = false,
     val statsSampleSize: Int = 5,
     val readingFontScale: Float = 1.0f,
     val readingLineHeight: Float = 1.6f,
