@@ -184,6 +184,35 @@ def is_cjk(c):
     return "\u3040" <= c <= "\u30ff" or "\u3400" <= c <= "\u9fff" or "\uf900" <= c <= "\ufaff" or ord(c) >= 0x20000
 
 
+# The godan endings by the stem's last kana: masu stems in the i row (出し → 出す), and the te and
+# ta stems (知っ → 知る, 読ん → 読む, 書い → 書く).
+GODAN = {"い": "う", "き": "く", "ぎ": "ぐ", "し": "す", "ち": "つ", "に": "ぬ", "び": "ぶ", "み": "む", "り": "る"}
+TE_STEMS = {"っ": "うつる", "ん": "むぶぬ", "い": "くぐ"}
+# How common a verb must be, against its stem, to take the stem's count: else a rare verb that only
+# looks like the stem (同じる for 同じ) would.
+JA_STEM_SHARE = 0.02
+
+
+def verb_stem_of(form, verb):
+    """Whether [form] is a stem of [verb]: 食べ of 食べる, 出し of 出す, 知っ of 知る."""
+    if verb == form + "る":
+        return True
+    if len(form) < 2 or verb[:-1] != form[:-1]:
+        return False
+    return verb[-1:] == GODAN.get(form[-1]) or verb[-1:] in TE_STEMS.get(form[-1], "")
+
+
+def is_kana(word):
+    """Whether [word] is written in kana alone."""
+    return bool(word) and all("\u3040" <= c <= "\u30ff" for c in word)
+
+
+def kanji_stem(word):
+    """The word without the hiragana that end it (食べる → 食, 出し → 出), or empty for a word of kana alone."""
+    stem = word.rstrip("".join(chr(c) for c in range(0x3041, 0x3097)))
+    return stem if any(is_cjk(c) and not "\u3040" <= c <= "\u30ff" for c in stem) else ""
+
+
 def is_wordlike(text):
     """Letters, hyphens and apostrophes; and the vowel signs and other marks of the scripts that write them apart."""
     return all(c.isalpha() or unicodedata.category(c)[0] == "M" or c in "-'ʻ\u200c" for c in text)
@@ -568,7 +597,7 @@ def build(language, source, size):
         if not kinds or w not in common or w in excluded:
             return False
         # Single letters are kept only as the little words they can be ("a", "e", "o").
-        return len(w) > 1 or bool(kinds & {"prep", "conj", "article", "pron", "det"})
+        return len(w) > 1 or language == "ja" or bool(kinds & {"prep", "conj", "article", "pron", "det"})
 
     try:
         from wordfreq import word_frequency
@@ -616,8 +645,21 @@ def build(language, source, size):
                 usual = to_traditional(form)
                 if usual != form and is_word(usual):
                     others = [usual]
+        # A Japanese verb or adjective stem (食べ, 出し, 見) goes to its word (食べる, 出す, 見る), the same
+        # kanji with other kana after them, as the reader looks the stem up, however common the stem is.
+        # A noun made from a verb (考え "idea", 終わり "end") stays a word of its own.
+        if language == "ja" and is_kana(form):
+            # A kana piece (しよ of しよう) gives its count only to a kanji word written with it that is common itself.
+            others = [l for l in others if is_kana(l) or count(l) >= JA_STEM_SHARE * count(form)]
+        stem_of = [] if language != "ja" or form in overrides or pos.get(form, set()) & {"adj"} or (len(form) > 1 and "noun" in pos.get(form, set())) else [
+            l for l in others
+            if "verb" in pos.get(l, set()) and kanji_stem(l) and verb_stem_of(form, l) and count(l) >= JA_STEM_SHARE * count(form)
+        ]
+        if stem_of:
+            others = stem_of
         # A form whose only entry is an interjection ("foi", "nossa") is counted for the word it is a form of.
-        if is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"}):
+        # Japanese files a set phrase under its variants (ありがとう under ありがと), so there it counts for itself.
+        elif is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"} and language != "ja"):
             # A form that is a word itself keeps its count ("casa", not "casar") unless [TAKEOVER] says otherwise.
             inflected = bool(pos[form] & INFLECTED_KINDS)
             mine = count(form)
