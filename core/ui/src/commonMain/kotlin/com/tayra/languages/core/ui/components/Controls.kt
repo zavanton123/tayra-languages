@@ -218,6 +218,14 @@ fun QuietButton(
     trailingIcon: ImageVector? = null,
 ) = QuietButton(onClick, modifier, enabled && !loading, tone, size) { ButtonLabel(text, icon, loading, size, trailingIcon, null) }
 
+/** A [SecondaryButton] floating over a list: on a solid surface with a shadow, so what scrolls beneath never shows through it. */
+@Composable
+fun FloatingButton(text: String, onClick: () -> Unit, modifier: Modifier = Modifier, icon: ImageVector? = null) = SecondaryButton(
+    onClick,
+    modifier.shadow(AppElevation.raised, AppShapes.control),
+    colors = ButtonDefaults.outlinedButtonColors(containerColor = MaterialTheme.colorScheme.surface),
+) { ButtonLabel(text, icon, loading = false, ButtonSize.Regular, trailingIcon = null, badge = null) }
+
 @Composable
 private fun RowScope.ButtonLabel(text: String, icon: ImageVector?, loading: Boolean, size: ButtonSize, trailingIcon: ImageVector?, badge: Int?, onColor: Boolean = false) {
     val iconSize = if (size == ButtonSize.Large) AppSizes.iconMedium else AppSizes.iconCompact

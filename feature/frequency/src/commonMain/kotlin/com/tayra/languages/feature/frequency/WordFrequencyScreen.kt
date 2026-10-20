@@ -55,6 +55,7 @@ import com.tayra.languages.core.ui.components.AppVerticalDivider
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ChipLeading
 import com.tayra.languages.core.ui.components.EmptyState
+import com.tayra.languages.core.ui.components.FloatingButton
 import com.tayra.languages.core.ui.components.LinkText
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -212,7 +213,7 @@ internal fun WordFrequencyContent(
             ScrollList(
                 Modifier.weight(1f),
                 state = listState,
-                contentPadding = PaddingValues(start = side, end = if (index) AppSpacing.s else side, top = if (compact) AppSpacing.l else AppSpacing.xxl, bottom = AppSpacing.xxxl),
+                contentPadding = PaddingValues(start = side, end = if (index) AppSpacing.s else side, top = if (compact) AppSpacing.l else AppSpacing.xxl, bottom = if (index) AppSpacing.xxxl else JUMP_ROOM),
                 listModifier = Modifier.testTag("frequency-list"),
             ) {
                 item(key = "header") { Header(state, onToggle, onSearch, onSettings) }
@@ -271,7 +272,7 @@ internal fun WordFrequencyContent(
         // Without the rail, a button opens the bands to jump to, so rank 5,000 is not fifty bands of scrolling.
         if (!index && overview != null && bands.size > 1) {
             var jumping by remember { mutableStateOf(false) }
-            SecondaryButton(
+            FloatingButton(
                 tr("Jump to rank"),
                 onClick = { jumping = true },
                 modifier = Modifier.align(Alignment.BottomEnd).padding(AppSpacing.l).testTag("jump-to-rank"),
@@ -313,6 +314,8 @@ private val BASE_LETTERS: Map<Char, Char> = buildMap {
     }
 }
 
+/** Room under the last band, so the Jump to rank button never hides its words. */
+private val JUMP_ROOM = 88.dp
 private val CELL_WIDTH = 168.dp
 private val INDEX_WIDTH = 56.dp
 private val WORD_MIN_WIDTH = 24.dp
