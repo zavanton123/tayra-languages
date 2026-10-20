@@ -558,6 +558,14 @@ class ReadingViewModel(
 
     // ---- term changes
 
+    /** Gives the words Learning, at level 1, leaving any already being learned at their level. */
+    fun setLearning() = changeStatus(_state.value.activeWordIndexes) { words ->
+        val ids = words.filter { !it.status.isLearning }.mapNotNull { it.termId }.distinct()
+        if (ids.isEmpty()) return@changeStatus
+        termService.setStatus(ids, TermStatus.NEW_1, sentencesOf(words))
+        afterTermChange()
+    }
+
     fun setStatus(status: TermStatus) = changeStatus(_state.value.activeWordIndexes) { words ->
         val ids = words.mapNotNull { it.termId }.distinct()
         if (ids.isEmpty()) return@changeStatus

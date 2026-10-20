@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.ui.components.learningLevels
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -244,6 +245,8 @@ fun ReadingScreen(
     val continuous = remember(speaker) { ContinuousReading(speaker, readingPlace.takeIf { it >= 0 }) }
     LaunchedEffect(continuous) { snapshotFlow { continuous.currentIndex }.collect { readingPlace = it ?: -1 } }
 
+    // Without the learning levels shown, level 1's key is Learning's, which keeps a word already being learned at its level.
+    val levels = learningLevels
     fun handleAction(action: HotkeyAction): Boolean {
         when (action) {
             HotkeyAction.LISTEN_PLAY_PAUSE -> continuous.toggle()
@@ -268,7 +271,7 @@ fun ReadingScreen(
             HotkeyAction.NEXT_UNKNOWN_WORD -> viewModel.moveCursor(nextIncrement, CursorTarget.UNKNOWN_WORD)
             HotkeyAction.PREV_SENTENCE -> viewModel.moveCursor(-nextIncrement, CursorTarget.SENTENCE_START)
             HotkeyAction.NEXT_SENTENCE -> viewModel.moveCursor(nextIncrement, CursorTarget.SENTENCE_START)
-            HotkeyAction.STATUS_1 -> viewModel.setStatus(TermStatus.NEW_1)
+            HotkeyAction.STATUS_1 -> if (levels) viewModel.setStatus(TermStatus.NEW_1) else viewModel.setLearning()
             HotkeyAction.STATUS_2 -> viewModel.setStatus(TermStatus.NEW_2)
             HotkeyAction.STATUS_3 -> viewModel.setStatus(TermStatus.LEARNING_3)
             HotkeyAction.STATUS_4 -> viewModel.setStatus(TermStatus.LEARNING_4)
