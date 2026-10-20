@@ -325,7 +325,8 @@ private fun Hideable(hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> 
             // On top of the text, so its words take no taps until it is shown; the tag says the blur is meant and how to lift it.
             Box(
                 Modifier.matchParentSize().clickable(onClickLabel = show, onClick = { onRevealed(true) }).semantics { contentDescription = label },
-                contentAlignment = Alignment.Center,
+                // At the sentence's start, where its blur begins, not the middle of the row a short sentence leaves empty.
+                contentAlignment = Alignment.CenterStart,
             ) { Tag(show, MaterialTheme.colorScheme.primary, size = TagSize.Small) }
         }
     }
