@@ -93,12 +93,8 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
             ScreenHeader(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), onBackToSettings = onBack) {
                 if (!compact) SavedNote(changes)
             }
-            Column(
-                Modifier.fillMaxWidth().cardSurface(AppShapes.card)
-                    .padding(if (compact) AppSpacing.l else AppSpacing.xxl),
-            ) {
-                Text(tr("Language setup"), style = AppText.sectionTitle)
-                Spacer(Modifier.height(AppSpacing.xl))
+            // The three tiles are cards of their own, straight on the page, as on a phone.
+            Column(Modifier.fillMaxWidth()) {
                 val learningTile: @Composable (Modifier) -> Unit = { m ->
                     LanguageTile(tr("Learning"), tr("I'm learning"), highlighted = true, modifier = m) {
                         FlagPicker(

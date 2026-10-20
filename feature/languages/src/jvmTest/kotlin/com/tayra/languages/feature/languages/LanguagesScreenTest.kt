@@ -50,7 +50,7 @@ class LanguagesScreenTest {
                 }
             }
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Language setup")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("I'm learning")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("LANGUAGES_SCREENSHOT")?.let { path ->
             waitForIdle()
             ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))
