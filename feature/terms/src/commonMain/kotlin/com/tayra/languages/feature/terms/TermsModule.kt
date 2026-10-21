@@ -4,6 +4,7 @@ import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
+import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.feature.terms.examples.ExamplesSearchScreen
 import com.tayra.languages.feature.terms.examples.ExamplesSearchViewModel
@@ -20,7 +21,7 @@ val termsModule = module {
     single { ExampleTerms(get(), get()) }
     viewModel { (key: TermFormKey) -> TermFormViewModel(key, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), getOrNull()) }
     viewModel { (termIds: List<Long>?) -> TermsListViewModel(termIds, get(), get(), get(), get(), get(), getOrNull()) }
-    viewModel { (languageId: Long, text: String) -> ExamplesSearchViewModel(languageId, text, get(), get(), get(), get()) }
+    viewModel { (languageId: Long, text: String) -> ExamplesSearchViewModel(languageId, text, get(), get(), get(), get(), get(), get<LocalTranslation>().translator, getOrNull()) }
 }
 
 fun NavGraphBuilder.termsGraph(navController: NavController) {
