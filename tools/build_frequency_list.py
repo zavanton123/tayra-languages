@@ -92,7 +92,7 @@ FALLBACKS = {
     "sq": {"leipzig": ["sqi_news_2020_1M", "sqi_wikipedia_2021_300K"]},
     "eu": {"leipzig": ["eus_wikipedia_2021_300K", "eus_news_2020_30K"]},
     "eo": {"leipzig": ["epo_newscrawl_2017_1M", "epo_wikipedia_2021_300K"]},
-    "ko": {"leipzig": ["kor_news_2020_1M"]},
+    "ko": {"leipzig": ["kor_news_2019_1M"]},
 }
 
 # Languages written without spaces: a corpus's runs of letters are cut into words as the app's
