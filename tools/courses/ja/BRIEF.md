@@ -130,6 +130,8 @@ Run it with the Python that has MeCab:
 
 - The courses are pinned to the list they were written against, `tools/courses/ja/wordlist.tsv`
   (a copy of the app's `ja.tsv`); the bands come from it.
+  The app's list has since gained 円 (rank 103) and a few rarer words; the courses stay pinned, so 円 on
+  its own counts as an outside word here.
 - **How the reader cuts words**: the app cuts Japanese with MeCab's dictionary and joins the pieces
   of an inflected word into one word (食べ・まし・た is 食べました, 住んで・いる is 住んでいる), which
   it looks up under its dictionary form (食べる, 住む). Particles are words of their own (は, を, に,

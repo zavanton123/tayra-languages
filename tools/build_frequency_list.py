@@ -1045,8 +1045,12 @@ def build_list(language, found, size, required=frozenset()):
                 return {word: 1.0} if word else {}
             candidates = [l for s in known for l in ([s] if s != form else []) + lemmas.get(s, [])]
             # A Chinese or Japanese name ("日本", "美国") is filed with its poetic synonyms (神国, 金山) as their form.
-            if language in CJK and any(pos.get(l) and pos[l] <= {"name"} for l in [form] + candidates):
-                return {}
+            # A word filed under a name too (円 under the surname 円谷) keeps its count; only the name is left out.
+            if language in CJK:
+                is_name = lambda l: bool(pos.get(l)) and pos[l] <= {"name"}  # noqa: E731
+                if is_name(form) or (candidates and all(is_name(l) for l in candidates)):
+                    return {}
+                candidates = [l for l in candidates if not is_name(l)]
             others = list(dict.fromkeys(l for l in candidates if l != form and is_word(l)))
             # A simplified word whose traditional entries are all variant spellings (哪里 of 哪裏) goes to the
             # spelling Taiwan writes (哪裡), when that is a word.
