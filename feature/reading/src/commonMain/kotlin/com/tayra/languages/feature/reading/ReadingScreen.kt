@@ -29,6 +29,9 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.ui.layout.LayoutCoordinates
+import androidx.compose.ui.layout.onGloballyPositioned
+import androidx.compose.ui.unit.IntSize
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -628,6 +631,12 @@ private fun ReadingBody(
             scrollState.scrollTo(0)
         }
     }
+    // When the text reflows because the reading area changed size (the term pane opening beside it,
+    // a resized window), the word the reader clicked is scrolled back to the middle of the view.
+    val wordLocator = remember { WordLocator() }
+    val viewport = remember { arrayOfNulls<LayoutCoordinates>(1) }
+    var viewportSize by remember { mutableStateOf(IntSize.Zero) }
+    CentreWordOnResize(scrollState, state.marked.minOrNull(), wordLocator, viewportSize) { viewport[0] }
     val compact = LocalWindowWidth.current.isCompact
     val focus = state.settings.focusMode
     val edgePadding = if (focus || compact) AppSpacing.l else AppSpacing.xxxl
@@ -646,7 +655,12 @@ private fun ReadingBody(
             .padding(start = edgePadding, end = edgePadding, top = if (compact) AppSpacing.l else AppSpacing.xxxl)
     }
     Box(Modifier.fillMaxSize().then(if (compact && !focus) Modifier.background(theme.readingBackground) else Modifier)) {
-    Column(Modifier.fillMaxSize().verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
+    Column(
+        Modifier.fillMaxSize()
+            .onGloballyPositioned { viewport[0] = it; if (it.size != viewportSize) viewportSize = it.size }
+            .verticalScroll(scrollState),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
         Column(cardModifier) {
             if (!focus) {
                 // A phone's bar already shows the title, and the text should start near the top.
@@ -669,7 +683,7 @@ private fun ReadingBody(
             val zhuyinReadings = remember(state.readings, wantsZhuyin) {
                 if (wantsZhuyin) state.readings.mapValues { (_, parts) -> parts.map { it.copy(reading = Chinese.zhuyin(it.reading)) } } else emptyMap()
             }
-            ReadingText(
+            CompositionLocalProvider(LocalWordLocator provides wordLocator) { ReadingText(
                 page = state.page,
                 theme = theme,
                 showHighlights = state.settings.showHighlights,
@@ -703,7 +717,7 @@ private fun ReadingBody(
                 followReading = continuous.active,
                 edgePadding = edgePadding,
                 callbacks = callbacks,
-            )
+            ) }
             if (state.selecting) {
                 Text(tr("Long-press the last word of the expression, or tap to cancel."), style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }

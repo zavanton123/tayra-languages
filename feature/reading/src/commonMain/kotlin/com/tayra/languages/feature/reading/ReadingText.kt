@@ -32,8 +32,10 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberUpdatedState
@@ -47,7 +49,15 @@ import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.drawWithCache
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.geometry.Size
+import androidx.compose.foundation.ScrollState
+import androidx.compose.foundation.gestures.animateScrollBy
+import androidx.compose.runtime.withFrameNanos
+import androidx.compose.ui.layout.LayoutCoordinates
+import androidx.compose.ui.layout.boundsInRoot
+import androidx.compose.ui.layout.onGloballyPositioned
+import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.lerp
@@ -124,6 +134,38 @@ data class ReadingTextCallbacks(
 
 /** Where each item was placed within a paragraph's annotated string. */
 private class Span(val start: Int, val end: Int, val itemIndex: Int)
+
+/** Finds where a word of the page is on screen, so the page can scroll it back to the middle after the text reflows. */
+class WordLocator {
+    internal val paragraphs = mutableMapOf<Any, (Int) -> Rect?>()
+
+    /** The word's box in root coordinates, or null when it is not laid out. */
+    fun boundsOf(itemIndex: Int): Rect? = paragraphs.values.firstNotNullOfOrNull { it(itemIndex) }
+}
+
+val LocalWordLocator = staticCompositionLocalOf<WordLocator?> { null }
+
+/**
+ * Scrolls [word] to the middle of the view when the view, of [viewportSize], changes size and the
+ * text reflows under it; [viewport] gives the view's coordinates.
+ */
+@Composable
+fun CentreWordOnResize(scrollState: ScrollState, word: Int?, locator: WordLocator, viewportSize: IntSize, viewport: () -> LayoutCoordinates?) {
+    val previousSize = remember { arrayOf(IntSize.Zero) }
+    val currentWord by rememberUpdatedState(word)
+    LaunchedEffect(viewportSize) {
+        val previous = previousSize[0]
+        previousSize[0] = viewportSize
+        val target = currentWord
+        if (previous == IntSize.Zero || previous == viewportSize || target == null) return@LaunchedEffect
+        // The paragraphs lay out again at the new size on the next frames.
+        withFrameNanos { }
+        withFrameNanos { }
+        val bounds = locator.boundsOf(target) ?: return@LaunchedEffect
+        val view = viewport()?.takeIf { it.isAttached }?.boundsInRoot() ?: return@LaunchedEffect
+        scrollState.animateScrollBy(bounds.center.y - view.center.y)
+    }
+}
 
 /**
  * Renders a page as selectable, colour-coded text. Each paragraph is one [Text] so that
@@ -512,6 +554,19 @@ private fun ParagraphText(
         }
     }
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
+    val coordinates = remember { arrayOfNulls<LayoutCoordinates>(1) }
+    val locator = LocalWordLocator.current
+    DisposableEffect(locator) {
+        val key = Any()
+        locator?.paragraphs?.put(key) { item ->
+            val result = layout
+            val placed = coordinates[0]?.takeIf { it.isAttached }
+            val span = currentSpans.firstOrNull { it.itemIndex == item }
+            if (result == null || placed == null || span == null || span.end > result.layoutInput.text.length) null
+            else result.getPathForRange(span.start, span.end).getBounds().let { Rect(placed.localToRoot(it.topLeft), placed.localToRoot(it.bottomRight)) }
+        }
+        onDispose { locator?.paragraphs?.remove(key) }
+    }
 
     fun itemAt(position: Offset): Int? {
         val result = layout ?: return null
@@ -550,6 +605,7 @@ private fun ParagraphText(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = AppSpacing.s)
+                .onGloballyPositioned { coordinates[0] = it }
                 .wordMarks({ layout }, text, (18 * fontScale).sp)
                 .drawWithCache {
                     val result = layout
