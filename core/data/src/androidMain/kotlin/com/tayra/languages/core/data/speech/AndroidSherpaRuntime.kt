@@ -76,12 +76,12 @@ class AndroidSherpaRuntime(context: Context) : SherpaRuntime {
     private fun create(r: SherpaRequest): OfflineTts {
         val model = if (r.kokoro) {
             OfflineTtsModelConfig(
-                kokoro = OfflineTtsKokoroModelConfig(model = r.model, voices = r.voices, tokens = r.tokens, dataDir = r.dataDir, lexicon = r.lexicon, lang = r.lang, dictDir = r.dictDir),
+                kokoro = OfflineTtsKokoroModelConfig(model = r.model, voices = r.voices, tokens = r.tokens, dataDir = r.dataDir, lexicon = r.lexicon, lang = r.lang),
                 numThreads = 4, debug = false, provider = "cpu",
             )
         } else {
             OfflineTtsModelConfig(vits = OfflineTtsVitsModelConfig(model = r.model, tokens = r.tokens, dataDir = r.dataDir), numThreads = 2, debug = false, provider = "cpu")
         }
-        return OfflineTts(config = OfflineTtsConfig(model = model))
+        return OfflineTts(config = OfflineTtsConfig(model = model, ruleFsts = r.ruleFsts))
     }
 }

@@ -26,7 +26,7 @@ final class SherpaSpeechBridge: NSObject, OnDeviceSpeechBridge {
     func synthesize(request: SpeechSynthesisRequest, output: String, completion: @escaping (String?) -> Void) {
         let spec = TtsSpec(
             key: request.key, kokoro: request.kokoro, model: request.model, tokens: request.tokens, dataDir: request.dataDir,
-            voices: request.voices, lexicon: request.lexicon, lang: request.lang, dictDir: request.dictDir
+            voices: request.voices, lexicon: request.lexicon, lang: request.lang, ruleFsts: request.ruleFsts
         )
         let text = request.text, speaker = request.speaker, speed = request.speed
         queue.async { [synthesizer] in

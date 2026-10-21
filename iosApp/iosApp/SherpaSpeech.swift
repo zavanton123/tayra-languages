@@ -18,7 +18,7 @@ struct TtsSpec {
     var voices = ""
     var lexicon = ""
     var lang = ""
-    var dictDir = ""
+    var ruleFsts = ""
 }
 
 /// sherpa-onnx text-to-speech through its C API. One model stays loaded and is reused while the
@@ -82,7 +82,6 @@ final class SherpaSynthesizer {
             config.model.kokoro.data_dir = c(spec.dataDir)
             config.model.kokoro.lexicon = c(spec.lexicon)
             config.model.kokoro.lang = c(spec.lang)
-            config.model.kokoro.dict_dir = c(spec.dictDir)
             config.model.kokoro.length_scale = 1
         } else {
             config.model.num_threads = 2
@@ -93,6 +92,7 @@ final class SherpaSynthesizer {
             config.model.vits.noise_scale_w = 0.8
             config.model.vits.length_scale = 1
         }
+        config.rule_fsts = c(spec.ruleFsts)
         config.max_num_sentences = 1
         config.silence_scale = 0.2
         guard let created = SherpaOnnxCreateOfflineTts(&config) else {

@@ -99,15 +99,17 @@ class SherpaKokoroEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "
 
     override val engine: SpeechEngine = SpeechEngine.KOKORO
     override val displayName: String = "Kokoro"
-    override val description: String = "Kokoro is a high-quality neural voice that runs on this device with no network. It speaks English, Spanish, French, Italian and Portuguese; other languages fall back to the system voice. It needs a recent device to answer quickly."
+    override val description: String = "Kokoro is a high-quality neural voice that runs on this device with no network. It speaks English, Spanish, French, Italian, Portuguese, Hindi and Mandarin Chinese; other languages fall back to the system voice. It needs a recent device to answer quickly."
     override val packagesDescription: String = "One download holds the model and all its voices."
 
     private val folder: String get() = path(PACKAGE)
 
+    private val catalog: List<KokoroVoice> = KokoroVoices.speaking(LANGUAGES)
+
     override suspend fun status(): String = if (isInstalled()) "Kokoro is ready. The model is downloaded." else "Kokoro is ready. The model is not downloaded yet."
 
     override suspend fun packages(): List<SpeechPackage> = listOf(
-        SpeechPackage(PACKAGE, "Kokoro model with ${KokoroVoices.ALL.size} voices", languageCode = null, group = "English, Spanish, French, Italian, Portuguese", sizeBytes = ARCHIVE_BYTES, installed = isInstalled()),
+        SpeechPackage(PACKAGE, "Kokoro model with ${catalog.size} voices", languageCode = null, group = "English, Spanish, French, Italian, Portuguese, Hindi, Mandarin Chinese", sizeBytes = ARCHIVE_BYTES, installed = isInstalled()),
     )
 
     override suspend fun installPackage(id: String) = install("$MODELS/kokoro-int8-multi-lang-v1_0.tar.bz2", PACKAGE, "the Kokoro model")
@@ -115,26 +117,28 @@ class SherpaKokoroEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "
     override suspend fun removePackage(id: String) = runtime.delete(folder)
 
     override fun packageVoices(id: String, languageCode: String): List<SpeechVoice> =
-        KokoroVoices.ALL.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode, KOKORO_VOICE_BYTES) }
+        catalog.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode, KOKORO_VOICE_BYTES) }
 
     override suspend fun voices(languageCode: String): List<SpeechVoice> =
-        if (!isInstalled()) emptyList() else KokoroVoices.ALL.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode) }
+        if (!isInstalled()) emptyList() else catalog.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode) }
 
     override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? {
         if (!isInstalled()) return null
-        val usable = KokoroVoices.ALL.filter { it.language == languageCode }
+        val usable = catalog.filter { it.language == languageCode }
         val voice = usable.firstOrNull { it.id == voiceId } ?: usable.firstOrNull() ?: return null
         val model = onnx(folder) ?: return null
         val files = runtime.list(folder).orEmpty()
-        // English comes in two lexicons; each accent loads its own, next to the Chinese one the model expects.
+        // English comes in two lexicons; each accent loads its own, next to the Chinese one the model reads Han characters with.
         val english = if (voice.accent == "en-gb") "lexicon-gb-en.txt" else "lexicon-us-en.txt"
         val lexicons = listOf(english, "lexicon-zh.txt").filter { it in files }.joinToString(",") { "$folder/$it" }
+        // Chinese spells out its numbers, dates and phone numbers in characters first, as misaki does before reading.
+        val rules = if (voice.language == "zh") CHINESE_RULES.filter { it in files }.joinToString(",") { "$folder/$it" } else ""
         // The phonemizer language is part of the engine's configuration, so each accent has its own engine.
         return runtime.synthesize(
             SherpaRequest(
                 key = "$PACKAGE:${voice.accent}", kokoro = true, model = model, tokens = "$folder/tokens.txt",
                 dataDir = "$folder/espeak-ng-data", voices = "$folder/voices.bin", lexicon = lexicons, lang = voice.accent,
-                dictDir = if ("dict" in files) "$folder/dict" else "", speaker = voice.speaker, speed = speed, text = text,
+                ruleFsts = rules, speaker = voice.speaker, speed = speed, text = text,
             ),
         )
     }
@@ -144,13 +148,23 @@ class SherpaKokoroEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "
     private companion object {
         const val PACKAGE = "kokoro-v1.0"
         const val ARCHIVE_BYTES = 132_000_000L
+
+        /**
+         * Japanese is left out: sherpa-onnx has no Japanese reader for Kokoro, so kana would go to eSpeak,
+         * whose phonemes these voices were not trained on, and kanji to the Chinese lexicon.
+         */
+        val LANGUAGES = setOf("en", "es", "fr", "hi", "it", "pt", "zh")
+        val CHINESE_RULES = listOf("date-zh.fst", "phone-zh.fst", "number-zh.fst")
     }
 }
 
 /** The size of one Kokoro voice: a 510 × 256 table of 32-bit floats, in voices.bin as in the voices/<id>.bin files. */
 const val KOKORO_VOICE_BYTES = 522_240L
 
-/** A Kokoro voice: [speaker] is its index in the model, [accent] the phonemizer language for it. */
+/**
+ * A Kokoro voice: [speaker] is its index in the model, [accent] the eSpeak language for it. Chinese
+ * is read with the model's Chinese lexicon; eSpeak's Mandarin only meets what is not in Han characters.
+ */
 class KokoroVoice(val id: String, val speaker: Int, val language: String, val accent: String, val label: String)
 
 /** The voices of the multilingual Kokoro model that speak languages the app teaches. */
@@ -162,9 +176,9 @@ object KokoroVoices {
         "bf_alice", "bf_emma", "bf_isabella", "bf_lily", "bm_daniel", "bm_fable", "bm_george", "bm_lewis",
         "ef_dora", "em_alex", "ff_siwis", "hf_alpha", "hf_beta", "hm_omega", "hm_psi", "if_sara", "im_nicola",
         "jf_alpha", "jf_gongitsune", "jf_nezumi", "jf_tebukuro", "jm_kumo", "pf_dora", "pm_alex", "pm_santa",
-        "zf_xiaobei", "zf_xiaoni", "zf_xiaoxiao", "zf_xiaoyi", "zm_yunjian", "zm_yunxi", "zm_yunxia", "zm_yunyang",
+        "zf_xiaobei", "zf_xiaoni", "zf_xiaoxiao", "zf_xiaoyi", "zm_yunjian", "zm_yunxi", "zm_yunxia", "zm_yunyang", "em_santa",
     )
-    private val PREFERRED = listOf("af_heart", "bf_emma", "ef_dora", "ff_siwis", "if_sara", "pf_dora")
+    private val PREFERRED = listOf("af_heart", "bf_emma", "ef_dora", "ff_siwis", "hf_alpha", "if_sara", "jf_alpha", "pf_dora", "zf_xiaobei")
 
     val ALL: List<KokoroVoice> = SPEAKERS.mapIndexedNotNull { index, id ->
         val (language, accent, region) = when (id[0]) {
@@ -172,12 +186,18 @@ object KokoroVoices {
             'b' -> Triple("en", "en-gb", "British")
             'e' -> Triple("es", "es", "Spanish")
             'f' -> Triple("fr", "fr-fr", "French")
+            'h' -> Triple("hi", "hi", "Hindi")
             'i' -> Triple("it", "it", "Italian")
+            'j' -> Triple("ja", "ja", "Japanese")
             'p' -> Triple("pt", "pt-br", "Brazilian")
+            'z' -> Triple("zh", "cmn", "Mandarin")
             else -> return@mapIndexedNotNull null
         }
         if (id.endsWith("_santa")) return@mapIndexedNotNull null
         val name = id.substringAfter('_').replaceFirstChar { it.uppercase() }
         KokoroVoice(id, index, language, accent, "$name ($region, ${if (id[1] == 'f') "female" else "male"})")
     }.sortedBy { if (it.id in PREFERRED) 0 else 1 }
+
+    /** The voices for the [languages] an engine can read correctly. */
+    fun speaking(languages: Set<String>): List<KokoroVoice> = ALL.filter { it.language in languages }
 }

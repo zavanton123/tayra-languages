@@ -27,7 +27,7 @@ class SpeechSynthesisRequest(
     val voices: String,
     val lexicon: String,
     val lang: String,
-    val dictDir: String,
+    val ruleFsts: String,
     val speaker: Int,
     val speed: Float,
     val text: String,
@@ -92,7 +92,7 @@ class IosSherpaRuntime(private val bridge: OnDeviceSpeechBridge) : SherpaRuntime
         val r = request
         call { done ->
             bridge.synthesize(
-                SpeechSynthesisRequest(r.key, r.kokoro, r.model, r.tokens, r.dataDir, r.voices, r.lexicon, r.lang, r.dictDir, r.speaker, r.speed, r.text),
+                SpeechSynthesisRequest(r.key, r.kokoro, r.model, r.tokens, r.dataDir, r.voices, r.lexicon, r.lang, r.ruleFsts, r.speaker, r.speed, r.text),
                 output, done,
             )
         }

@@ -11,7 +11,8 @@ data class SherpaRequest(
     val voices: String = "",
     val lexicon: String = "",
     val lang: String = "",
-    val dictDir: String = "",
+    /** Text normalisation rules, applied before the text is read. */
+    val ruleFsts: String = "",
     val speaker: Int,
     val speed: Float,
     val text: String,

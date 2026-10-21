@@ -108,7 +108,7 @@ private fun kokoroSpeak(voice: String, speed: Double, text: String, espeakLangua
 class WebKokoroEngine : LocalSpeechEngine {
     override val engine: SpeechEngine = SpeechEngine.KOKORO
     override val displayName: String = "Kokoro"
-    override val description: String = "Kokoro is a high-quality neural voice that runs in the browser. It speaks English, Spanish, French, Italian and Portuguese; other languages fall back to the system voice. " +
+    override val description: String = "Kokoro is a high-quality neural voice that runs in the browser. It speaks English, Spanish, French, Italian, Portuguese and Hindi; other languages fall back to the system voice. " +
         if (hasWebGpu()) "This browser lets it use the graphics card, so it answers quickly." else "This browser gives it no graphics card access, so it answers slowly; Chrome or Edge are faster."
     override val packagesDescription: String = "One download holds the model and all its voices."
     override val hasRuntimeSetup: Boolean = false
@@ -118,6 +118,7 @@ class WebKokoroEngine : LocalSpeechEngine {
     private val dtype = if (webGpu) "fp32" else "q8"
     private val device = if (webGpu) "webgpu" else "wasm"
     private val sizeBytes = if (webGpu) 326_000_000L else 92_000_000L
+    private val catalog: List<KokoroVoice> = KokoroVoices.speaking(LANGUAGES)
 
     private suspend fun installed(): Boolean = (kokoroInstalled(MODEL).await<JsAny?>() as? JsBoolean)?.toBoolean() == true
 
@@ -128,7 +129,7 @@ class WebKokoroEngine : LocalSpeechEngine {
     override suspend fun setUp(): String = status()
 
     override suspend fun packages(): List<SpeechPackage> = listOf(
-        SpeechPackage(PACKAGE, "Kokoro model with ${KokoroVoices.ALL.size} voices", languageCode = null, group = "English, Spanish, French, Italian, Portuguese", sizeBytes = sizeBytes, installed = installed()),
+        SpeechPackage(PACKAGE, "Kokoro model with ${catalog.size} voices", languageCode = null, group = "English, Spanish, French, Italian, Portuguese, Hindi", sizeBytes = sizeBytes, installed = installed()),
     )
 
     override suspend fun installPackage(id: String) {
@@ -149,14 +150,14 @@ class WebKokoroEngine : LocalSpeechEngine {
     }
 
     override fun packageVoices(id: String, languageCode: String): List<SpeechVoice> =
-        KokoroVoices.ALL.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode, KOKORO_VOICE_BYTES) }
+        catalog.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode, KOKORO_VOICE_BYTES) }
 
     override suspend fun voices(languageCode: String): List<SpeechVoice> =
-        if (!installed()) emptyList() else KokoroVoices.ALL.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode) }
+        if (!installed()) emptyList() else catalog.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode) }
 
     override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? {
         if (!installed()) return null
-        val usable = KokoroVoices.ALL.filter { it.language == languageCode }
+        val usable = catalog.filter { it.language == languageCode }
         val voice = usable.firstOrNull { it.id == voiceId } ?: usable.firstOrNull() ?: return null
         load()
         val espeak = if (voice.language == "en") null else voice.accent
@@ -168,5 +169,11 @@ class WebKokoroEngine : LocalSpeechEngine {
     private companion object {
         const val MODEL = "onnx-community/Kokoro-82M-v1.0-ONNX"
         const val PACKAGE = "kokoro"
+
+        /**
+         * Chinese and Japanese are left out: their voices were trained on misaki's readers (jieba and pypinyin,
+         * cutlet on UniDic), which do not run in the browser, and eSpeak reads both languages differently.
+         */
+        val LANGUAGES = setOf("en", "es", "fr", "hi", "it", "pt")
     }
 }
