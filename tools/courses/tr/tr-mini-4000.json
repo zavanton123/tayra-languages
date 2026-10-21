@@ -1,0 +1,185 @@
+{
+  "id": "tr-mini-4000",
+  "rankUpTo": 4000,
+  "level": "B2",
+  "title": "Şehir hayatından köşe yazıları",
+  "description": "Ten newspaper columns about everyday life in the city: a ferry commute, street cats in winter, a picnic in the park, cooking at home, moving house, traffic, translation and journalism, running, an open-air cinema and a Turkish family in Amsterdam.",
+  "topic": "City life columns",
+  "names": [
+    "İstanbul",
+    "Ali",
+    "Kadıköy",
+    "Karaköy",
+    "Kız Kulesi",
+    "Eskişehir",
+    "Hatice",
+    "Halil",
+    "Ankara",
+    "Esra",
+    "İzmir",
+    "Emine",
+    "Ömer",
+    "Leyla",
+    "İngilizce",
+    "Türkçe",
+    "Zehra",
+    "Bursa",
+    "Mehmet",
+    "Amsterdam",
+    "Hollanda",
+    "Sinan",
+    "Ayşe"
+  ],
+  "lessons": [
+    {
+      "title": "Vapurun sancak tarafı",
+      "summary": "A columnist who has taken the same morning ferry in İstanbul for twenty years describes the day a group of dolphins suddenly appeared and strangers began to talk to each other.",
+      "newWords": [
+        "sancak",
+        "yorgunluk",
+        "yorucu",
+        "rahatça",
+        "birdenbire",
+        "şaşkın",
+        "sıkça",
+        "dünkü"
+      ],
+      "text": "Yirmi yıldır her sabah Kadıköy'den Karaköy'e vapurla gidiyorum. Arkadaşlarım bana sıkça aynı soruyu soruyor: \"Metro daha hızlı, neden hâlâ vapura biniyorsun?\" Cevabım hep aynı: Vapur benim için bir ulaşım aracı değil, günün en sakin yirmi dakikası.\n\nBu şehirde iş hayatı yorucu. Trafik yorucu, kalabalık yorucu, uzun toplantılar daha da yorucu. Akşam eve döndüğümde bütün günün yorgunluğu omuzlarımda oluyor. Ama sabah denizin üstünde, o yorgunluk henüz gelmemiş oluyor. Bir çay alıyorum, cam kenarına rahatça oturuyorum ve şehrin uyanmasını izliyorum.\n\nGemide herkesin kendi yeri var. Ben her zaman sancak tarafında otururum. Gemilerde sağ tarafa sancak, sol tarafa iskele denir. Kadıköy'den çıkan bir geminin sancak tarafından Kız Kulesi'ni ve Boğaz'ın girişini görürsünüz. Yıllardır aynı yolculuğu yapıyorum, ama bu manzaradan hâlâ sıkılmıyorum.\n\nDünkü yolculuk ise başka günlere hiç benzemiyordu. Hava açıktı, deniz sakindi. Yolcuların çoğu telefonuna bakıyordu. Birdenbire sancak tarafından küçük bir çocuk bağırdı:\n\n— Anne, bak! Yunuslar!\n\nHerkes başını kaldırdı. Gerçekten de vapurun hemen yanında dört yunus yüzüyordu. Bir suya dalıyor, bir sudan çıkıyorlardı. Yolcular şaşkın şaşkın birbirine baktı. Telefonlar ceplere girdi, insanlar sancak tarafına koştu. Takım elbiseli genç bir adam şaşkın bir sesle konuştu:\n\n— Ben on yıldır bu vapura biniyorum, ilk defa yunus görüyorum!\n\nYanındaki yaşlı kadın gülümsedi:\n\n— Ben de kırk yıldır biniyorum oğlum, ilk defa bu kadar mutlu yolcu görüyorum.\n\nYunuslar birkaç dakika gemiyle birlikte yüzdü, sonra birdenbire kayboldu. Ama gemideki hava değişmişti. Birbirini tanımayan insanlar konuşuyor, gülüyor, çektikleri fotoğrafları birbirine gösteriyordu.\n\nKaraköy'de vapurdan indiğimde sabahın yorgunluğunu hiç hissetmiyordum. O gün iş yine yorucuydu, toplantılar yine uzundu. Ama aklım hep o dört yunustaydı.\n\nBu şehirde birbirimize sıkça kızıyoruz: trafikte, kuyrukta, kalabalık otobüste. Dünkü yolculuk bana başka bir şeyi hatırlattı. Bazen birlikte şaşırmak için küçük bir sebep yeter. Siz de sabahları biraz erken çıkın, vapurun sancak tarafına rahatça oturun ve denize bakın. Belki yunuslar size de görünür.\n\nSorular:\nYazar neden metroya değil de vapura biniyor?\nÇünkü vapur onun için günün en sakin yirmi dakikası.\nYazar vapurda hep nerede oturuyor?\nHep sancak tarafında, yani geminin sağ tarafında oturuyor.\nDünkü yolculukta ne oldu?\nBirdenbire geminin yanında dört yunus göründü ve yolcular şaşkın şaşkın onlara baktı.\nYaşlı kadın genç adama ne dedi?\nKırk yıldır vapura bindiğini ama ilk defa bu kadar mutlu yolcu gördüğünü söyledi.\nYazar okurlarına ne öneriyor?\nSabahları biraz erken çıkıp geminin sancak tarafına rahatça oturmalarını ve denize bakmalarını öneriyor."
+    },
+    {
+      "title": "Kış gelince sokaktakiler",
+      "summary": "In a winter column from Eskişehir, a writer tells how the neighbourhood headwoman collects old blankets for the street cats, wins over a grumbling neighbour and how the writer warms water for the cats every morning.",
+      "newWords": [
+        "muhtar",
+        "evsiz",
+        "sıçan",
+        "gizlenmek",
+        "battaniye",
+        "ısıtmak",
+        "soğumak",
+        "kararmak"
+      ],
+      "text": "Eskişehir'de kış bu yıl erken geldi. Ekim ayının sonunda hava birdenbire soğudu. Akşamları saat beşte ortalık kararıyor, saat altıda sokaklarda kimse kalmıyor. İnsanlar sıcak evlerine dönüyor. Peki, evi olmayanlar ne yapıyor?\n\nBizim sokakta en az on beş kedi ve iki köpek yaşıyor. Bunlar evsiz hayvanlar. Yazın onlar için hayat kolay: Hava sıcak, yiyecek bulmak zor değil. Ama hava soğuyunca evsiz bir kedinin hayatı çok zorlaşıyor.\n\nGeçen hafta bir sabah arabama binmeden önce motorun altına baktım. Üç kedi oraya gizlenmişti. Motor gece yavaş yavaş soğuyor ama uzun süre sıcak kalıyor; kediler bu yüzden arabaların altına gizleniyor. O günden beri arabayı çalıştırmadan önce birkaç kez arabanın önüne vuruyorum ve kedilerin çıkmasını bekliyorum.\n\nMahallemizin muhtarı Hatice Hanım bu konuda çok duyarlı. Geçen kış muhtarın bürosunun bahçesine tahtadan küçük kulübeler koydu. Bu yıl da mahalleliden yardım istedi: \"Kullanmadığınız eski battaniyeleri bana getirin.\" Birkaç gün içinde büronun önünde koca bir battaniye yığını oluştu. Muhtar battaniyeleri kesip kulübelerin içine yerleştirdi.\n\nHerkes bu işten memnun değildi tabii. Apartmanımızın en eski oturanı Halil Bey ilk başta itiraz etti:\n\n— Muhtar Hanım, kedileri besledikçe sokak kediyle doluyor.\n\nHatice Hanım sakin bir sesle cevap verdi:\n\n— Halil Bey, bu kediler olmasa sokağı sıçanlar doldurur. Geçen yıl yan sokaktaki eski binanın bodrumunda sıçanlar vardı, hatırlıyor musunuz? Kediler gelince sıçanlar gitti.\n\nHalil Bey bir süre düşündü. Ertesi gün muhtara iki battaniye getirdi.\n\nBenim işim su. Kışın sokaktaki kaplarda su donuyor. Bu yüzden her sabah mutfakta biraz su ısıtıyorum ve kaplara sıcak su koyuyorum. Isıttığım su birkaç saat donmuyor. Kediler beni artık tanıyor; kapıdan çıkar çıkmaz arabaların altından, merdivenlerin arkasından çıkıp yanıma geliyorlar.\n\nEvet, hava soğudu ve akşamları erken kararıyor. Ama bir battaniye, bir kap sıcak su ve biraz yemek evsiz bir hayvan için çok şey değiştirir. Muhtarımız haklı: Sokak hepimizin.\n\nSorular:\nKediler neden arabaların altına gizleniyor?\nÇünkü motor gece yavaş soğuyor ve uzun süre sıcak kalıyor.\nMuhtar Hatice Hanım mahalleliden ne istedi?\nKullanmadıkları eski battaniyeleri kendisine getirmelerini istedi.\nHalil Bey neden itiraz etti?\nKediler beslendikçe sokağın kediyle dolacağını düşünüyordu.\nHatice Hanım ona ne cevap verdi?\nKediler olmasa sokağı sıçanların dolduracağını söyledi.\nYazar kediler için ne yapıyor?\nHer sabah su ısıtıp sokaktaki kaplara sıcak su koyuyor."
+    },
+    {
+      "title": "Parkta bir pazar",
+      "summary": "On the first sunny Sunday in Ankara, a family's picnic is disturbed by teenagers with loud music, and an old woman settles it with a few calm words.",
+      "newWords": [
+        "piknik",
+        "çim",
+        "sepet",
+        "zıplamak",
+        "turuncu",
+        "ergen",
+        "uygunsuz",
+        "bataklık"
+      ],
+      "text": "Ankara'da bahar kısa sürer. Bu yüzden güneşli ilk pazar günü bütün şehir parklara akar. Geçen pazar biz de piknik sepetimizi hazırladık ve sabah erkenden mahallemizin büyük parkına gittik. Sepette peynir, zeytin, haşlanmış yumurta, bir şişe çay ve annemin meşhur börekleri vardı.\n\nParka vardığımızda çimlerin yarısı çoktan dolmuştu. Önceki hafta çok yağmur yağmıştı. Parkın alçak tarafındaki çimler küçük bir bataklığa dönmüştü. Oraya kimse oturmuyordu; sadece çocuklar çamurun içinde zıplıyor ve gülüyordu. Biz yukarıda, kuru çimlerin üstüne turuncu örtümüzü serdik. Turuncu örtüyü yıllar önce bir pazardan almıştık. Uzaktan bile kolayca görünüyor; kaybolan bir çocuk onu bulup hemen bize dönebiliyor.\n\nPiknik güzel başladı. Kızım Esra ip atlamaya başladı, zıplarken sayıyordu: \"Kırk bir, kırk iki...\" Biz çay içip sohbet ettik. Öğleye doğru yanımıza bir grup ergen geldi. Beş altı kişiydiler, on beş, on altı yaşlarındaydılar. Hoparlörlerini çimlerin üstüne koyup müziği sonuna kadar açtılar.\n\nEtrafımızdaki aileler rahatsız oldu. Bir baba ayağa kalktı, yüzü kızarmıştı. Bir tartışma çıkacak diye korktum. Ama yaşlı bir kadın ondan önce davrandı. Ergenlerin yanına gitti ve sakin bir sesle konuştu:\n\n— Gençler, müziğiniz çok güzel. Ama burada bebekler uyuyor, yaşlılar dinleniyor. Bu kadar yüksek sesle müzik dinlemek parkta biraz uygunsuz olmuyor mu?\n\nGençler birbirine baktı. İçlerinden biri sesi hemen kıstı.\n\n— Haklısınız teyze, kusura bakmayın, dedi.\n\nBiraz sonra aynı gençler kadının torunlarıyla birlikte top oynamaya başladılar.\n\nBu küçük olayı neden yazıyorum? Çünkü ergenlerden çok şikâyet ediyoruz. Davranışlarının uygunsuz olduğunu düşünüyoruz, ama onlarla konuşmuyoruz, sadece kızıyoruz. Oysa o yaşlı kadın bağırmadı, kimseyi suçlamadı. Sadece parkta başka insanların da olduğunu hatırlattı. Ergenler de onu dinledi.\n\nAkşamüstü sepetimizi topladık. Bataklığın kenarında çocuklar hâlâ zıplıyordu; ayakkabıları çamurdan görünmüyordu. Çimlerin üstünde tek bir çöp kalmamıştı. Ergenler kendi çöplerini toplamış, giderken bizim çöp torbamızı da almışlardı. O gençleri uzun süre unutmayacağım.\n\nSorular:\nYazarın ailesi pikniğe ne götürdü?\nSepetlerinde peynir, zeytin, yumurta, çay ve börek vardı.\nParkın alçak tarafındaki çimlere neden kimse oturmuyordu?\nÇünkü önceki hafta çok yağmur yağmıştı ve oradaki çimler bataklığa dönmüştü.\nAile neden turuncu bir örtü kullanıyor?\nTuruncu örtü uzaktan kolayca görünüyor; kaybolan bir çocuk onu bulup ailesine dönebiliyor.\nYaşlı kadın ergenlere ne söyledi?\nBu kadar yüksek sesle müzik dinlemenin parkta uygunsuz olduğunu nazikçe hatırlattı.\nYazar bu olaydan ne sonuç çıkarıyor?\nErgenlere kızmak yerine onlarla sakin bir şekilde konuşmak gerektiğini düşünüyor."
+    },
+    {
+      "title": "Mutfağa dönüş",
+      "summary": "An İzmir columnist who always ordered food decides to cook for a month, learns dough and raw vegetables from her grandmother and earns her neighbour's praise.",
+      "newWords": [
+        "hamur",
+        "çiğ",
+        "bulaşık",
+        "vitamin",
+        "tüketim",
+        "tezgâh",
+        "helal",
+        "kısacası"
+      ],
+      "text": "Geçen ay gazetede bir haber okudum. Haberde, büyük şehirlerde hazır yemek tüketiminin son on yılda iki katına çıktığı yazıyordu. İnsanlar daha az yemek pişiriyor, daha çok sipariş veriyormuş. Haberi okurken biraz utandım, çünkü ben de bu tüketimin bir parçasıyım. İzmir'de tek başıma yaşıyorum, işten yorgun dönüyorum ve telefondan yemek sipariş etmek çok kolay.\n\nO akşam kendime bir söz verdim: Bir ay boyunca dışarıdan hiç yemek almayacaktım.\n\nİlk hafta zordu. Mutfak tezgâhım yıllardır bir masa gibi kullanılıyordu; üstünde mektuplar, anahtarlar, kitaplar vardı. Önce tezgâhı temizledim. Sonra anneannemi aradım. Anneannem seksen yaşında, ama hâlâ her gün yemek yapıyor.\n\n— Önce hamurla başla, dedi. Hamur insanı sakinleştirir.\n\nHafta sonu ona gittim. Tezgâhın üstüne un döktü, ortasına su ve tuz koydu, hamuru elleriyle karıştırmaya başladı. Ben de denedim. Hamur önce ellerime yapıştı, sonra yavaş yavaş yumuşadı. Anneannem haklıydı: Hamurla uğraşırken bütün haftanın yorgunluğunu unuttum. O gün birlikte börek yaptık.\n\nAnneannem bana bir şey daha öğretti:\n\n— Sebzenin hepsini pişirme. Bazılarını çiğ ye. Çiğ sebzede vitamin daha çok kalır. Kısacası, sebze ne kadar taze ve çiğ olursa o kadar iyi.\n\nGerçekten de bazı vitaminler pişince azalıyor. O günden beri her akşam yemeğin yanına çiğ havuç, salata ve biber koyuyorum. Bir de mevsim meyveleri: Kışın portakal, yazın kiraz. Vitamin hapı almaya gerek kalmadı.\n\nTabii evde yemek yapmanın bir de bulaşık tarafı var. İlk günlerde bulaşıklar bütün mutfağı dolduruyordu. Sonra bir yöntem buldum: Yemek pişerken kullandığım kapları hemen yıkıyorum. Yemekten sonra yıkanacak bulaşık çok az kalıyor.\n\nAy bittiğinde hesap yaptım. Harcamalarım neredeyse yarıya inmişti. Üstelik iki kilo vermiştim. Komşum Emine Hanım, merdivende börek kokusunu her duyduğunda kapımı çalıyordu. Bir gün böreğimden bir parça yedi ve güldü:\n\n— Helal olsun sana! Anneannen gibi yapmışsın.\n\nBu sözden daha güzel bir ödül olamazdı. Ona bir parça daha verdim; \"Helal olsun\" sözünü bir kez daha duymak istiyordum.\n\nKısacası, mutfağa geri dönmek sandığım kadar zor değilmiş. Tezgâhım artık temiz, bulaşığım az, tabağımda çiğ sebze var. Siz de bir ay deneyin.\n\nSorular:\nYazar gazetedeki haberi okurken neden utandı?\nÇünkü kendisi de hazır yemek tüketiminin bir parçasıydı.\nAnneannesi ona önce neyi öğretti?\nHamurla başlamasını söyledi ve birlikte börek yaptılar.\nAnneanne neden bazı sebzeleri çiğ yemeyi öneriyor?\nÇünkü çiğ sebzede vitamin daha çok kalıyor.\nYazar bulaşık sorununu nasıl çözdü?\nYemek pişerken kullandığı kapları hemen yıkıyor.\nEmine Hanım böreği yiyince ne dedi?\n\"Helal olsun sana! Anneannen gibi yapmışsın\" dedi."
+    },
+    {
+      "title": "İki sokak öteye taşınmak",
+      "summary": "A columnist in Ankara moves only two streets away after fifteen years, clears out what has piled up, is surprised by a huge lorry and spends two days in a daze.",
+      "newWords": [
+        "nakliye",
+        "tır",
+        "tekerlek",
+        "birikmek",
+        "abartmak",
+        "sersem",
+        "materyal",
+        "halbuki"
+      ],
+      "text": "On beş yıl aynı evde oturduktan sonra geçen ay taşındık. Yeni evimiz eskisinden sadece iki sokak ötede. Bu yüzden taşınmayı kolay sandım. Halbuki taşınmak, mesafe ne olursa olsun, insanı çok yoran bir iştir.\n\nİşe eşyalarımızı toplamakla başladık. On beş yılda ne kadar çok şey birikmiş! Dolapların üstünde eski dergiler, balkonda kırık sandalyeler, çekmecelerde çalışmayan telefonlar... Her köşede bir şeyler birikmişti. Eşim Ömer her şeyi saklamak istiyordu.\n\n— Bunları da mı götüreceğiz? diye sordum.\n\n— Abartma, dedi. Hepsi bir gün lazım olur.\n\n— Ben abartmıyorum. Bu sandalyeye on yıldır kimse oturmadı.\n\nSonunda anlaştık: Bir yıl içinde kullanmadığımız her şeyi ya bağışlayacak ya da atacaktık. Böylece eşyalarımızın neredeyse üçte biri azaldı.\n\nSonra bir nakliye firmasıyla anlaştık. Firma bize önceden paketleme materyali gönderdi: karton kutular, kalın kâğıtlar ve bantlar. Materyalin hepsini kullanmadık ama bardaklar ve tabaklar için çok işe yaradı.\n\nTaşınma sabahı sokağın başında koca bir tır durdu. Şaşkın şaşkın baktım; ben küçük bir kamyon bekliyordum! Nakliye firmasının sahibi Mehmet Bey güldü:\n\n— Kamyonumuz bozuldu, elimizde sadece bu tır vardı.\n\nTır bizim dar sokağa giremedi. İşçiler eşyalarımızı tıra taşımak için tekerlekli arabalar kullandı. Tekerleklerin sesi bütün sabah sokağı doldurdu. Arabaların küçük tekerlekleri eski taşların üstünde zıplıyordu. Komşular pencerelerden bizi izliyordu.\n\nÖğleden sonra her şey yeni evdeydi. Ama akşam koltuğa oturduğumda sersem gibiydim. Hangi kutuda ne olduğunu bilmiyordum. Diş fırçamı arıyordum, mutfak kutusundan çıktı. Ertesi sabah hâlâ biraz sersemdim; işe giderken yanlışlıkla eski evin sokağına döndüm ve kapının önünde durunca kendime güldüm.\n\nBir hafta sonra yeni evimiz yavaş yavaş ev gibi olmaya başladı. Ömer de sonunda kabul etti: Attığımız eşyaların hiçbirini aramamıştık. Halbuki onları ne kadar önemli sanıyorduk!\n\nTaşınmayı düşünen herkese tavsiyem şu: Eşyaların birikmesine izin vermeyin. Her yıl bir dolabı boşaltın. Taşınma günü geldiğinde hem nakliye ücretiniz azalır hem de daha az sersem olursunuz. Bir de nakliye firmasına sokağınızın ne kadar dar olduğunu söylemeyi unutmayın. O tırın ne kadar büyük olduğunu hiç abartmıyorum!\n\nSorular:\nYazar taşınmayı neden kolay sandı?\nÇünkü yeni ev eskisinden sadece iki sokak ötedeydi.\nYazar ile Ömer eşyalar konusunda nasıl anlaştılar?\nBir yıl içinde kullanmadıkları her şeyi bağışlamaya ya da atmaya karar verdiler.\nNakliye firması neden kamyon yerine tır gönderdi?\nÇünkü kamyonları bozulmuştu ve ellerinde sadece tır vardı.\nİşçiler eşyaları tıra nasıl taşıdı?\nTır dar sokağa giremediği için tekerlekli arabalar kullandılar.\nYazar taşınmak isteyenlere ne tavsiye ediyor?\nEşyaların birikmesine izin vermemelerini ve her yıl bir dolabı boşaltmalarını tavsiye ediyor."
+    },
+    {
+      "title": "Trafik bir olgu mu?",
+      "summary": "A conversation with an experienced taxi driver in İstanbul leads a columnist to think about why the car rules the city and how the streets could be given back to people on foot.",
+      "newWords": [
+        "egemenlik",
+        "hakimiyet",
+        "manuel",
+        "istisna",
+        "meşru",
+        "olgu",
+        "coğrafi",
+        "kıdemli"
+      ],
+      "text": "Geçen hafta bir taksiye bindim. Şoför altmış yaşlarında, sakin bir adamdı. Kendini kıdemli bir şoför olarak tanıttı; otuz beş yıldır İstanbul'da taksi kullanıyormuş. Yolda trafik yine durmuştu. Ben söylenirken o gülümsedi:\n\n— Kızım, trafik bu şehrin bir olgusu. Yağmur gibi, rüzgâr gibi. Kızmakla bir şey değişmez.\n\nTrafiğin bir olgu olduğu doğru. Ama bu olgunun sebepleri de var. Bir sebep coğrafi: İstanbul iki kıtaya yayılmış, ortasından deniz geçiyor, tepeleri dar ve dik sokaklarla dolu. Böyle bir coğrafi yapıda yeni yollar açmak kolay değil. Ama asıl sebep bence başka: şehirde otomobilin egemenliği.\n\nSokaklara bakın. Kaldırımlara park etmiş arabalar, yayaların geçemediği köşeler, çocukların oynayamadığı meydanlar... Otomobilin egemenliği o kadar uzun sürdü ki artık bunu normal karşılıyoruz. Halbuki şehir arabalar için değil, insanlar için var.\n\nBunu söylediğimde kıdemli şoförüm itiraz etmedi.\n\n— Ben de akşamları yayayım, dedi. Arabayı bırakınca yürüyorum, ama kaldırımda yürüyemiyorum.\n\nSonra bana arabasını anlattı. Arabası eskiydi ve manuel vitesliydi.\n\n— Manuel vites biraz zor, ama araç hakimiyeti daha iyi, dedi. Dik sokaklarda arabanın hakimiyeti tamamen sende olur. Gençler otomatik seviyor, ben manuel severim.\n\nOna göre iyi bir şoförün ilk kuralı sabırdı.\n\n— Bu kuralın istisnası yok, dedi ve güldü. Tek istisna, arabada hastaneye yetişmesi gereken bir hasta olması.\n\nBazı şehirler bu konuda örnek oldu. Merkezlerini arabalara kapattılar, otobüs ve bisiklet yollarını çoğalttılar. Elbette her şehirde arabaya ihtiyaç var: hasta taşıyan, yaşlıları götüren, dükkânlara mal getiren araçlar. Bunlar meşru ihtiyaçlar. Ama her sabah tek başına, beş yüz metre ötedeki markete arabayla gitmek de meşru bir ihtiyaç mı?\n\nTaksiden indiğimde kıdemli şoförün sözünü düşündüm. Evet, trafik bir olgu. Ama olgular değişmez değildir. Sokakların hakimiyetini yavaş yavaş yayalara geri vermek mümkün. Belki önce kendimizden başlamalıyız: Kısa yolları yürüyerek, uzun yolları toplu taşımayla gitmek. Her kuralın bir istisnası olur; ama istisna kural olmamalı.\n\nSorular:\nKıdemli şoför trafik hakkında ne düşünüyor?\nTrafiğin şehrin bir olgusu olduğunu, kızmakla bir şeyin değişmeyeceğini düşünüyor.\nYazara göre trafiğin coğrafi sebebi nedir?\nİstanbul iki kıtaya yayılmış, ortasından deniz geçiyor ve tepeleri dar, dik sokaklarla dolu.\nYazara göre asıl sebep nedir?\nAsıl sebep şehirde otomobilin egemenliği.\nŞoför neden manuel vitesi seviyor?\nÇünkü manuel viteste araç hakimiyetinin daha iyi olduğunu düşünüyor.\nYazar hangi ihtiyaçları meşru buluyor?\nHasta taşıyan, yaşlıları götüren ve dükkânlara mal getiren araçların ihtiyaçlarını meşru buluyor."
+    },
+    {
+      "title": "Kelimelerle uğraşan iki arkadaş",
+      "summary": "Over coffee in Kadıköy, a journalist and her translator friend compare their jobs: humour, dialogue and stress in translation, and checking every fact in journalism.",
+      "newWords": [
+        "çevirmen",
+        "yayıncılık",
+        "gazetecilik",
+        "diyalog",
+        "vurgu",
+        "mizah",
+        "kurumsal",
+        "teyit"
+      ],
+      "text": "Üniversiteden arkadaşım Leyla yirmi yıldır çevirmen. İngilizce romanları dilimize çeviriyor. Ben de yirmi yıldır gazetecilik yapıyorum. Geçen hafta Kadıköy'de bir kafede buluştuk. Ben ona gazetecilikten, o bana yayıncılıktan söz etti.\n\nLeyla'ya en zor neyi çevirdiğini sordum. Hiç düşünmeden cevap verdi:\n\n— Mizahı. Bir şakayı başka bir dile aktarmak çok zor. Bir dilde komik olan bir şey öbür dilde hiç komik olmayabilir. Mizah, kültüre sıkı sıkıya bağlı.\n\nOna göre ikinci zor şey diyaloglardı. Romandaki kahramanlar gerçek insanlar gibi konuşmalıydı.\n\n— Bir diyalog doğal duyulmuyorsa okuyucu hemen fark eder, dedi. Ben bütün diyalogları yüksek sesle okurum. Kulağa yabancı geliyorsa yeniden yazarım.\n\nSonra vurgudan söz etti. İngilizce bir cümlede vurgu çoğu zaman sesle verilir. Bizim dilimizde ise vurgu çoğunlukla kelimelerin sırasıyla değişir. \"Ali kitabı okudu\" başka, \"Kitabı Ali okudu\" başka. Çevirmen vurguyu doğru yere koymazsa cümlenin anlamı değişir.\n\nLeyla yayıncılık dünyasının zorluklarını da anlattı. Roman çevirmek ona büyük bir zevk veriyor, ama faturalarını ödemeye yetmiyor. Bu yüzden şirketler için kurumsal metinler de çeviriyor: raporlar, sözleşmeler, internet siteleri.\n\n— Kurumsal metinler biraz sıkıcı, ama düzenli para kazandırıyor, dedi gülerek. Yayıncılıkta tek başına romanla geçinen çevirmen çok az.\n\nSıra bana geldi. Gazetecilik de son yıllarda çok değişti. Eskiden bir haberi yazmadan önce iki, üç kaynaktan teyit ederdik. Şimdi her şey çok hızlı; bir haber dakikalar içinde bütün ülkeye yayılıyor. Ama ben hâlâ eski kuralı uyguluyorum: Teyit etmediğim bir bilgiyi yazmam. Gazetecilik bir hız yarışı değil, bir doğruluk işi.\n\nLeyla beni dinlerken başını salladı:\n\n— Aslında işlerimiz birbirine benziyor, dedi. Sen bilgiyi teyit ediyorsun, ben anlamı. İkimiz de bütün gün kelimelerle uğraşıyoruz.\n\nHaklıydı. Bir çevirmen de bir gazeteci de okuyucuya güvenilir bir metin vermek zorunda. Okuduğunuz bir romanda güzel bir diyalog, iyi bir şaka görürseniz, arkasındaki çevirmeni de bir an düşünün. Onun adı kapakta küçük harflerle yazar, ama emeği büyüktür.\n\nSorular:\nLeyla'ya göre çevirmesi en zor şey nedir?\nOna göre en zor şey mizah, çünkü mizah kültüre sıkı sıkıya bağlı.\nLeyla diyalogları çevirirken ne yapıyor?\nBütün diyalogları yüksek sesle okuyor ve kulağa yabancı geliyorsa yeniden yazıyor.\nLeyla neden kurumsal metinler de çeviriyor?\nÇünkü roman çevirmek faturalarını ödemeye yetmiyor, kurumsal metinler ise düzenli para kazandırıyor.\nYazar gazetecilikte hangi kuralı uyguluyor?\nTeyit etmediği bir bilgiyi yazmıyor.\nLeyla'ya göre iki arkadaşın işi neden birbirine benziyor?\nÇünkü ikisi de bütün gün kelimelerle uğraşıyor; biri bilgiyi, öbürü anlamı teyit ediyor."
+    },
+    {
+      "title": "Kırk yaşında koşmaya başladım",
+      "summary": "A columnist in Bursa starts running at forty, hurts her knee by doing too much, and learns from her biology teacher friend that steady effort matters more than speed.",
+      "newWords": [
+        "yaralanma",
+        "bağışıklık",
+        "mahrum",
+        "erişmek",
+        "istikrar",
+        "biyoloji",
+        "nihai",
+        "muhakkak"
+      ],
+      "text": "Kırk yaşıma girdiğim gün kendime bir hediye aldım: bir çift koşu ayakkabısı. Yıllardır masa başında çalışıyorum. Sabah arabayla işe gidiyorum, akşam arabayla eve dönüyorum. Kışın aylarca güneşten mahrum kalıyorum. Bir gün aynaya baktım ve kendime \"Yeter\" dedim.\n\nBursa'da şanslıyım; evimden yürüyerek on dakikada büyük bir parka erişebiliyorum. Şehrin her yerinden bu kadar kolay erişilen bir yeşil alan çok değerli. İlk hafta her sabah parka gittim ve koştum. Çok heyecanlıydım; her gün bir öncekinden daha hızlı, daha uzun koşmak istiyordum.\n\nİkinci haftanın sonunda dizim ağrımaya başladı. Doktora gittim. Küçük bir yaralanma olduğunu söyledi.\n\n— Çok hızlı başlamışsınız, dedi. Yeni başlayanlarda bu tür yaralanmalar çok görülür. İki hafta koşmayın, sadece yürüyün.\n\nO iki hafta, en yakın arkadaşım Zehra'yla parkta yürüdük. Zehra lisede biyoloji öğretmeni. Ona göre vücudumuz bir makine değil, yavaş yavaş değişen canlı bir sistemdi.\n\n— Biyoloji derslerinde öğrencilerime hep aynı şeyi söylerim, dedi. Vücut düzenli ve küçük adımları sever. Koşuda en önemli şey hız değil, istikrar. Haftada üç gün yarım saat koşmak, bir gün iki saat koşmaktan çok daha iyi.\n\nZehra bağışıklık sisteminden de söz etti. Düzenli spor yapan insanların bağışıklık sistemi daha güçlü oluyormuş. Ama aşırı yorgunluk bağışıklığı zayıflatabilirmiş. \"Kısacası, abartma,\" dedi gülerek.\n\nZehra'nın bir tavsiyesi daha vardı:\n\n— Koşmadan önce muhakkak ısın. Beş dakika yürü, kollarını, bacaklarını hareket ettir. Bunu yaparsan yaralanma riski çok azalır.\n\nDizim iyileşince yeniden başladım, ama bu sefer Zehra'nın kurallarıyla. Haftada üç gün, muhakkak ısınarak, yavaş yavaş. İlk ay sadece yirmi dakika koştum. Sonra otuz, sonra kırk. Bu kış bir kez bile hasta olmadım; belki de bağışıklık sistemim gerçekten güçlendi.\n\nŞimdi bir hedefim var. Sonbaharda Bursa'da on kilometrelik bir koşu yapılacak. Nihai hedefim, o koşuyu yürümeden bitirmek. Hızlı olmam gerekmiyor. Nihai sıralamada sondan birinci olsam bile mutlu olacağım. Önemli olan istikrar; Zehra bunu bana iyi öğretti.\n\nSorular:\nYazar neden koşmaya karar verdi?\nÇünkü yıllardır masa başında çalışıyordu ve kışın güneşten mahrum kalıyordu.\nYazarın dizinde ne oldu?\nÇok hızlı başladığı için dizinde küçük bir yaralanma oldu.\nZehra'ya göre koşuda en önemli şey nedir?\nOna göre en önemli şey hız değil, istikrar.\nDüzenli spor bağışıklık sistemini nasıl etkiliyor?\nDüzenli spor yapan insanların bağışıklık sistemi daha güçlü oluyor.\nYazarın nihai hedefi nedir?\nSonbahardaki on kilometrelik koşuyu yürümeden bitirmek."
+    },
+    {
+      "title": "Yazlık sinema geri döndü",
+      "summary": "An İzmir columnist recalls the cowboy films of her childhood at the neighbourhood's open-air cinema and tells how the neighbours saved it from becoming an ugly shopping centre.",
+      "newWords": [
+        "kovboy",
+        "efsanevi",
+        "ölümsüz",
+        "ucube",
+        "boyamak",
+        "arena",
+        "haydut",
+        "şeytani"
+      ],
+      "text": "Çocukluğumun en güzel yaz akşamları, İzmir'deki mahallemizin yazlık sinemasında geçti. Sinema dediğim, dört duvarla çevrili bir bahçeydi. İçinde tahta sandalyeler, bir duvarda büyük beyaz bir perde vardı. Film, hava kararınca başlardı. Annem bir torba çekirdek alır, babam gazoz ısmarlardı.\n\nO yıllarda en çok kovboy filmleri oynardı. Perdede geniş çöller, atlar, tozlu kasabalar vardı. İyi kalpli bir kovboy, kasabayı haydutlardan korurdu. Haydutların başındaki adamın şeytani bir gülüşü olurdu; o gülüşü duyunca bütün çocuklar sandalyelerinde küçülürdü. Kötü adamın şeytani planı her zaman filmin sonunda bozulurdu, kovboy da atına binip güneşe doğru giderdi.\n\nBabamın en sevdiği oyuncu, o yılların efsanevi kovboylarından biriydi. Babam onun bütün filmlerini ezbere bilirdi. \"Bu filmler ölümsüz kızım,\" derdi. \"Sen büyüyünce de izleyeceksin.\" O zaman babama inanmamıştım.\n\nSonra yıllar geçti. Televizyon geldi, insanlar akşamları evde kalmaya başladı. Yazlık sinema kapandı. Bahçeyi otlar sardı, duvarların boyası eskidi. Geçen yıl duyduk ki sinemanın yerine yedi katlı bir alışveriş merkezi yapılacakmış. Planları gördüğümüzde hepimiz üzüldük: Camdan ve betondan, mahallenin eski evlerinin arasında ucube gibi duran bir bina. Komşulardan biri \"Bu ucube bizim sokağa hiç yakışmaz,\" dedi.\n\nMahalle toplandı. Komşular belediyeye bir mektup yazdı, yüzlerce kişi imza attı. Sonunda belediye planı değiştirdi. Alışveriş merkezi yapılmadı; sinema yenilendi. Bu yaz bütün mahalle birlikte çalıştı. Gençler duvarları boyadı, çocuklar sandalyeleri boyamaya yardım etti. Duvarları açık maviye, sandalyeleri kırmızıya boyadık. Belediye de sinemanın yanındaki boş alana küçük bir açık hava arenası yaptı. Arenada hafta sonları konserler veriliyor.\n\nAçılış gecesi hangi filmin oynadığını tahmin edersiniz: Babamın sevdiği efsanevi kovboyun eski bir filmi. Perdede yine haydutlar vardı, yine o şeytani gülüş. Yanımda oturan kızım gülerek korkuyordu. Ben de karanlıkta babamı düşündüm. Haklıymış; bazı filmler gerçekten ölümsüz. Bazı yerler de öyle.\n\nSorular:\nYazarın çocukluğundaki yazlık sinema nasıl bir yerdi?\nDört duvarla çevrili, içinde tahta sandalyeler ve büyük beyaz bir perde olan bir bahçeydi.\nKovboy filmlerinde haydutların başındaki adam nasıldı?\nŞeytani bir gülüşü vardı ve çocuklar onu duyunca korkardı.\nBabası kovboy filmleri hakkında ne derdi?\nBu filmlerin ölümsüz olduğunu söylerdi.\nKomşular alışveriş merkezini neden istemedi?\nÇünkü bina mahallenin eski evlerinin arasında ucube gibi duracaktı.\nSinema yenilenirken mahalle ne yaptı?\nGençler duvarları boyadı, çocuklar sandalyeleri boyamaya yardım etti."
+    },
+    {
+      "title": "Amsterdam'dan mektup",
+      "summary": "A Turkish columnist living in Amsterdam writes about cycling against the wind, waiting in turn, returning bottles for a few cents and the honesty that keeps the city working.",
+      "newWords": [
+        "medeni",
+        "sent",
+        "nasip",
+        "istismar",
+        "sayısal",
+        "şebeke",
+        "eğmek",
+        "sırayla"
+      ],
+      "text": "Beş yıl önce eşim Sinan'ın işi yüzünden Amsterdam'a taşındık. Başta bir iki yıl kalırız diye düşünüyorduk. Ama şehri sevdik, kaldık. Bu şehirde yaşamak bize nasip oldu; bugün size buradan, kanallar şehrinden yazıyorum.\n\nBurada ilk öğrendiğim şey bisiklet sürmek oldu. Belediyenin sayısal verilerine göre şehirde insanlardan çok bisiklet var. Bu sayısal bilgi beni şaşırtmadı; sokakta yürürken her yerde bisiklet görüyorsunuz. Şehrin bisiklet yolu şebekesi inanılmaz derecede geniş. Bu şebeke sayesinde her yere arabasız gidebiliyorsunuz. Ama Hollanda'da rüzgâr hiç durmuyor. Sabahları işe giderken başımı rüzgâra karşı eğerek pedal çeviriyorum. Başını eğip pedal çeviren yüzlerce insan aynı yolda ilerliyor.\n\nİkinci öğrendiğim şey sıra beklemek oldu. Kırmızı ışıkta bisikletliler sırayla bekliyor, kimse öne geçmiyor. Fırında numara alıp sırayla bekliyorsunuz. Doktorda, postanede, otobüs durağında herkes sırayla. İlk aylarda bu bana biraz soğuk gelmişti. Şimdi alıştım; sıra kimseyi yormuyor, tersine herkesi rahatlatıyor.\n\nÜçüncü şey para ile ilgili. Marketten aldığınız plastik şişeleri boşaltıp geri götürüyorsunuz; her şişe için size 25 sent geri veriliyor. Birkaç sent önemsiz görünebilir. Ama çocuklar bunu çok ciddiye alıyor. Kızım Ayşe her hafta şişeleri topluyor, sentleri bir kutuda biriktiriyor.\n\nEn çok da güven beni etkiledi. Şehrin dışındaki köy yollarında, evlerin önünde küçük masalar görürsünüz. Üstünde çiçekler, yumurtalar, sebzeler ve bir para kutusu durur. Satıcı yoktur. İstediğinizi alıp parasını kutuya bırakırsınız. Kimse bu güveni istismar etmiyor mu, diye sordum komşuma. Güldü: \"Tabii birkaç kişi istismar eder. Ama çoğu insan dürüst.\"\n\nBu yazıyı okuyan bazıları Hollanda'yı bizden daha medeni bir ülke olarak görebilir. Ben öyle düşünmüyorum. Bizim mahallelerde de komşu komşuya güvenir, kapılar açık durur. Medeni olmak bence pahalı bisiklet yollarında değil, küçük güvenlerde başlıyor. Bu güveni burada da, orada da hep birlikte koruyabiliriz. Bir gün İstanbul'a dönmek de nasip olursa, bu küçük dersleri yanımda götüreceğim.\n\nSorular:\nYazar ve ailesi neden Amsterdam'a taşındı?\nEşi Sinan'ın işi yüzünden taşındılar.\nBelediyenin sayısal verileri ne gösteriyor?\nŞehirde insanlardan çok bisiklet olduğunu gösteriyor.\nYazar sabahları işe nasıl gidiyor?\nBisikletle, başını rüzgâra karşı eğerek gidiyor.\nPlastik şişeleri geri götürünce ne oluyor?\nHer şişe için 25 sent geri veriliyor.\nKomşusu güven hakkında ne söyledi?\nBirkaç kişinin güveni istismar edebileceğini, ama çoğu insanın dürüst olduğunu söyledi."
+    }
+  ]
+}
