@@ -1,0 +1,191 @@
+{
+  "id": "pl-mini-5000",
+  "rankUpTo": 5000,
+  "level": "C1",
+  "title": "Krótkie eseje",
+  "description": "Ten short reflective essays that weigh two sides of everyday questions: a messy desk, working with a cold, wasted bread, a food hall in an old brewery, self-driving cars, children and sport, information bubbles, hedgehogs and fences, the cost of First Communion and city noise.",
+  "topic": "Short essays",
+  "names": [
+    "Gdańska",
+    "Gdańsk",
+    "Buenos Aires",
+    "Chicago",
+    "Holandii",
+    "Szkocji",
+    "Anglii",
+    "Europy",
+    "Staś",
+    "Irena",
+    "Sadowska",
+    "Henryk",
+    "Poznaniem",
+    "Anna",
+    "Kuba",
+    "Kubie",
+    "Krakowie",
+    "Kuby"
+  ],
+  "lessons": [
+    {
+      "title": "Pochwała bałaganu",
+      "summary": "A man with a tendency to mess asks himself whether disorder is really a fault, remembers a wallet lost on his own desk, and settles on a monthly tidy-up.",
+      "newWords": [
+        "bałagan",
+        "skłonność",
+        "czepiać",
+        "zasadniczo",
+        "komisariat",
+        "przywiązywać",
+        "czyścić",
+        "osobno",
+        "utonąć",
+        "pochować"
+      ],
+      "text": "Mam skłonność do bałaganu i od lat słyszę, że to wada. Mama czepiała się bałaganu w moim pokoju, kiedy miałem 10 lat. Dziś czepia się mnie żona, gdy na biurku znów rośnie góra papierów. Postanowiłem więc spokojnie się zastanowić, czy bałagan jest zasadniczo zły, czy może ma też dobre strony.\n\nZacznijmy od zarzutów. Bałagan kosztuje czas. Kto nie wie, gdzie leżą klucze, codziennie rano traci kilka minut na ich szukanie. Bałagan kosztuje też nerwy. W zeszłym roku zginął mi portfel z dowodem osobistym. Byłem pewien, że zgubiłem go w tramwaju, i poszedłem na komisariat, żeby to zgłosić. Na komisariacie spokojny policjant zapisał moje dane i poradził mi, żebym jeszcze raz dokładnie przeszukał mieszkanie. Portfel znalazł się tydzień później pod górą gazet na moim własnym biurku. Było mi wstyd, ale wróciłem na komisariat i wszystko wyjaśniłem.\n\nSą jednak ludzie, którzy w bałaganie naprawdę pracują lepiej. Znam architektkę, której stół wygląda jak po burzy, a ona w kilka sekund wyciąga z tego chaosu właściwy rysunek. Badacze, którzy zajmują się tym zjawiskiem, piszą, że lekki bałagan sprzyja nowym pomysłom. Kiedy rzeczy leżą obok siebie przypadkiem, łatwiej dostrzec między nimi związek. Porządek pomaga za to w pracy, która wymaga dokładności i powtarzania tych samych czynności.\n\nWarto też odróżnić bałagan od brudu. Można nie przywiązywać wagi do tego, czy książki stoją równo, i jednocześnie regularnie czyścić kuchnię i łazienkę. Ja sam czyszczę biurko raz w tygodniu, choć leżą na nim całe stosy papierów. Bałagan dotyczy miejsca rzeczy, a brud dotyczy zdrowia. Te dwie sprawy trzeba więc oceniać osobno, a nie wrzucać ich do jednego worka.\n\nProblem zaczyna się wtedy, gdy rzeczy przejmują władzę nad człowiekiem. W papierach, rachunkach i starych gazetach można po prostu utonąć. Mój sąsiad utonął w nich tak głęboko, że przez pół roku nie zapłacił kilku rachunków, bo nie widział ich pod stosem reklam.\n\nDlatego znalazłem dla siebie rozwiązanie pośrednie. Raz w miesiącu poświęcam sobotę na to, żeby pochować rzeczy do szuflad i pudełek. Pochować nie znaczy wyrzucić. Dokumenty trafiają do jednej teczki, kable do drugiej, a książki na półkę. Przez kolejne tygodnie biurko znów powoli znika pod papierami, ale wiem, że najważniejsze rzeczy są pochowane na swoich miejscach.\n\nZasadniczo uważam więc, że bałagan nie jest ani grzechem, ani zaletą. Jest skłonnością, z którą da się żyć, jeśli człowiek zna jej granice. Przywiązywać wagę do porządku warto tam, gdzie chodzi o zdrowie i pieniądze. W pozostałych sprawach można sobie pozwolić na odrobinę chaosu. Żona nadal się czepia, ale coraz rzadziej.\n\nPytania:\nDo czego autor ma skłonność?\nAutor ma skłonność do bałaganu.\nDlaczego autor poszedł na komisariat?\nPoszedł na komisariat, bo myślał, że zgubił w tramwaju portfel z dowodem osobistym.\nGdzie znalazł się portfel?\nPortfel znalazł się tydzień później pod górą gazet na biurku autora.\nDlaczego bałagan i brud trzeba oceniać osobno?\nBo bałagan dotyczy miejsca rzeczy, a brud dotyczy zdrowia.\nCo autor robi raz w miesiącu?\nPoświęca sobotę na to, żeby pochować rzeczy do szuflad i pudełek.\nDo czego według autora warto przywiązywać wagę?\nDo porządku tam, gdzie chodzi o zdrowie i pieniądze."
+    },
+    {
+      "title": "Do pracy z katarem?",
+      "summary": "An essay on going to work with a cold: sympathy and irritation in the office, sick leave, internet self-diagnosis and why we trust a dentist but not a doctor.",
+      "newWords": [
+        "katar",
+        "współczucie",
+        "szerzyć",
+        "przysługiwać",
+        "orzec",
+        "diagnoza",
+        "kark",
+        "narząd",
+        "zweryfikować",
+        "dentysta"
+      ],
+      "text": "Co roku jesienią w biurach powtarza się ta sama scena. Ktoś siedzi przy biurku z paczką chusteczek, co chwilę wyciera nos i zapewnia, że to tylko katar. Koledzy patrzą na niego z mieszaniną współczucia i złości. Współczucie jest naturalne, bo każdy wie, jak męczący bywa katar. Złość też jest zrozumiała, bo nikt nie chce się zarazić od człowieka przy sąsiednim biurku.\n\nZa tym, żeby z katarem zostać w domu, przemawia prosty argument. Wirusy szerzą się w zamkniętych pomieszczeniach bardzo szybko. Jedna osoba, która przyszła do pracy chora, potrafi w ciągu tygodnia wyłączyć z pracy pół działu. Każdemu choremu pracownikowi przysługuje przecież zwolnienie lekarskie, a w wielu firmach przysługuje mu też prawo do pracy z domu.\n\nSą jednak argumenty po drugiej stronie. Zwykły katar nie jest groźną chorobą i wiele osób czuje się z nim w pracy zupełnie dobrze. Poza tym zwolnienie nie należy się automatycznie. Lekarz musi orzec, że pacjent nie jest zdolny do pracy, a przy lekkim przeziębieniu często tego nie orzeka.\n\nOsobnym problemem jest sposób, w jaki szukamy diagnozy. Coraz częściej zamiast do lekarza idziemy do wyszukiwarki. Wpisujemy „katar, ból głowy, ból karku” i po minucie czytamy o rzadkich chorobach, które atakują serce, płuca i inne ważne narządy. Nikt nie pisze, że nos także jest narządem i że katar to po prostu jego sposób na obronę przed wirusem. W rzeczywistości ból karku zwykle bierze się z tego, że spaliśmy na za wysokiej poduszce albo całymi dniami siedzimy pochyleni nad laptopem.\n\nInternet szerzy nie tylko wiedzę, ale także strach. Diagnoza postawiona przez wyszukiwarkę jest zwykle najgorsza z możliwych, bo strony o groźnych chorobach czyta się chętniej niż te o zwykłym przeziębieniu. Dlatego każdą informację o zdrowiu warto zweryfikować u lekarza albo przynajmniej w poważnym, sprawdzonym źródle. Zweryfikować informację to znaczy sprawdzić, kto napisał tekst i na jakiej podstawie.\n\nCiekawe, że w niektórych sprawach w ogóle nie ufamy sobie. Nikt nie próbuje sam leczyć zęba, który boli od tygodnia. Od razu umawiamy się do dentysty. Dentysta ogląda ząb, robi zdjęcie i dopiero wtedy stawia diagnozę. Nikomu nie przychodzi do głowy, żeby zamiast dentysty pytać o radę obcych ludzi w sieci. Przy katarze i bólu karku robimy to jednak bez wahania.\n\nMój wniosek jest prosty. Z lekkim katarem można pracować, ale najlepiej z domu. Z wysoką gorączką trzeba iść do lekarza, a nie do wyszukiwarki. A wobec kolegi, który przy sąsiednim biurku sięga po kolejną chusteczkę, warto okazać trochę współczucia i zrobić mu herbatę z cytryną.\n\nPytania:\nCo czują koledzy, gdy ktoś przychodzi do biura z katarem?\nCzują mieszaninę współczucia i złości.\nDlaczego z katarem lepiej zostać w domu?\nBo wirusy szybko szerzą się w zamkniętych pomieszczeniach.\nCo przysługuje każdemu choremu pracownikowi?\nKażdemu choremu pracownikowi przysługuje zwolnienie lekarskie.\nCo musi zrobić lekarz, żeby wystawić zwolnienie?\nMusi orzec, że pacjent nie jest zdolny do pracy.\nSkąd zwykle bierze się ból karku?\nZe zbyt wysokiej poduszki albo z siedzenia całymi dniami nad laptopem.\nGdzie warto zweryfikować informacje o zdrowiu?\nU lekarza albo w poważnym, sprawdzonym źródle."
+    },
+    {
+      "title": "Wczorajsza bułka",
+      "summary": "A reflection on wasted food: why we buy too many rolls, how grandmothers used leftovers, toast from a baking tray, a blunt knife, sorting waste and eating too much.",
+      "newWords": [
+        "bułka",
+        "zjadać",
+        "sałatka",
+        "beczka",
+        "blacha",
+        "tępy",
+        "frakcja",
+        "spożywać"
+      ],
+      "text": "W polskich domach co roku trafia do kosza ogromna ilość jedzenia. Najczęściej wyrzucamy chleb: wczorajszą bułkę albo kawałek chleba, który od wczoraj leży na stole. Zastanawiam się, skąd to się bierze i czy naprawdę jest tak źle, jak piszą gazety.\n\nJedna strona sporu mówi, że po prostu kupujemy za dużo. Bułki są tanie, więc bierzemy sześć, choć zjadamy trzy. Rano w biegu zjadamy jedną bułkę, druga leży do wieczora, a trzecia następnego dnia jest już twarda jak kamień. Druga strona odpowiada, że przy obecnych cenach mało kto wyrzuca jedzenie z lekkim sercem. Problemem nie jest więc to, że nie szanujemy jedzenia, tylko brak pomysłu.\n\nPomysłów nie brakowało natomiast naszym babciom. Twardą bułkę moczyło się w mleku i dodawało do mięsa na obiad. Resztki warzyw z obiadu następnego dnia stawały się sałatką. Sałatka warzywna, bez której wielu Polaków nie wyobraża sobie świąt, jest zresztą dobrym sposobem na wykorzystanie tego, co zostało w lodówce. Ogórki i kapustę trzymano w beczce z solą, żeby przetrwały do wiosny. Drewniana beczka w piwnicy była domowym magazynem na całą zimę.\n\nJa nauczyłem się od babci jednej prostej rzeczy. Stary chleb kroję na małe kawałki, układam na blasze, dodaję odrobinę oleju i wkładam do piekarnika na dziesięć minut. Z jednej blachy wychodzi pełny talerz złotych grzanek do zupy albo do sałatki. Muszę przyznać, że za pierwszym razem kroiłem chleb tępym nożem i męczyłem się z tym pół godziny. Tępy nóż jest zresztą w kuchni bardziej niebezpieczny niż ostry, bo łatwiej się nim zranić. Następnego dnia kupiłem nowy.\n\nNie wszystko da się jednak zjeść. Zepsute resztki trzeba wyrzucić, ale z głową. W polskich miastach śmieci dzieli się na kilka frakcji: papier, szkło, plastik, odpady zmieszane i odpady biologiczne. Skórki z warzyw i owoców oraz resztki jedzenia należą do frakcji biologicznej. Z tej frakcji powstaje potem kompost, czyli naturalny nawóz dla rolników i właścicieli działek.\n\nLekarze przypominają też, że nie chodzi tylko o to, ile wyrzucamy, ale także o to, ile spożywamy. Przeciętny dorosły spożywa więcej jedzenia, niż potrzebuje. Część jedzenia zjada tylko dlatego, że szkoda je wyrzucić. To druga strona tego samego problemu: zamiast do kosza jedzenie trafia do nas. Najlepiej jest kupować mniej i spożywać to, co kupiliśmy, zanim się zepsuje.\n\nPytania:\nJakie jedzenie najczęściej wyrzucamy?\nNajczęściej wyrzucamy chleb, na przykład wczorajszą bułkę.\nCo dawniej robiono z twardą bułką?\nMoczono ją w mleku i dodawano do mięsa na obiad.\nDo czego służyła beczka w piwnicy?\nTrzymano w niej ogórki i kapustę z solą, żeby przetrwały do wiosny.\nCo autor robi ze starym chlebem?\nKroi go na małe kawałki, układa na blasze i wkłada do piekarnika.\nDlaczego tępy nóż jest niebezpieczny?\nBo łatwiej się nim zranić niż ostrym.\nDo której frakcji należą resztki jedzenia?\nResztki jedzenia należą do frakcji biologicznej."
+    },
+    {
+      "title": "Hala w starym browarze",
+      "summary": "A Gdańsk resident weighs the new food hall in an old brewery: glass roof, cellars, Syrian, Spanish and Argentine stalls run by emigrants, but also high prices and a changing neighbourhood.",
+      "newWords": [
+        "browar",
+        "gigantyczny",
+        "szklany",
+        "podziemie",
+        "emigrant",
+        "syryjski",
+        "hiszpan",
+        "argentyński",
+        "kupiec"
+      ],
+      "text": "Przez ponad 100 lat w mojej dzielnicy Gdańska działał browar. Kiedy go zamknięto, jego budynki stały puste prawie 20 lat. Rok temu otwarto w nich halę z jedzeniem. Chodzę tam co tydzień i wciąż nie umiem zdecydować, czy to dobry pomysł.\n\nZacznę od tego, co mnie zachwyca. Główna hala dawnego browaru jest gigantyczna. Ma czerwone ceglane ściany i szklany dach, przez który w słoneczne dni wpada tyle światła, że nikt nie zapala lamp. Pod halą znajdują się podziemia, w których dawniej przechowywano beczki. Dziś w podziemiach jest szatnia i mała wystawa starych zdjęć. Widać na nich robotników, konie i gigantyczne kotły, które kiedyś stały tam, gdzie teraz stoją stoły.\n\nJeszcze ciekawsi są ludzie. Większość stoisk prowadzą emigranci. Syryjska rodzina sprzedaje tam ciasta z orzechami i miodem, a syryjska kawa z kardamonem ma już w okolicy wielu wiernych klientów. Obok młody Hiszpan smaży słodkie ciasto w gorącym oleju. Ten Hiszpan przyjechał do Polski na studia, zakochał się w Polce i został. Dalej starsza para z Buenos Aires piecze argentyńskie pierożki z mięsem. Argentyński kucharz z dumą powtarza, że ciasto robi według przepisu swojej babci.\n\nKiedy na nich patrzę, myślę o moim dziadku. W latach 80. wyjechał do Chicago jako emigrant i przez pierwsze lata pracował w polskiej piekarni. Wiem od niego, ile dla emigranta znaczy miejsce, w którym może robić to, co umie najlepiej, i być za to szanowanym.\n\nW pewnym sensie hala wraca do starej tradycji. Gdańsk przez wieki był miastem kupców. Kupcy z Holandii, Szkocji i Anglii przywozili tu swoje towary, a miejscowi kupcy sprzedawali zboże do całej Europy. Miasto zawsze żyło z tego, że spotykali się w nim ludzie z różnych stron świata.\n\nSą jednak też powody do niepokoju. Ceny w hali są wysokie i wielu starszych mieszkańców dzielnicy nigdy tam nie wchodzi. Obok hali powstają drogie mieszkania, a czynsze w okolicy rosną. Dawne sklepy, w których kupowało się chleb i gwoździe, zamieniają się w kawiarnie dla turystów. Ma się czasem wrażenie, że historia browaru stała się tylko dekoracją: ładną ceglaną ścianą, przy której robi się zdjęcia.\n\nMimo to wolę halę pełną ludzi od pustych budynków za płotem. Chciałbym tylko, żeby obok syryjskiej kawy i argentyńskich pierożków znalazło się tam miejsce na zwykły bar z tanią zupą. Wtedy dawny browar naprawdę należałby do całej dzielnicy.\n\nPytania:\nCo działało przez ponad sto lat w dzielnicy autora?\nW dzielnicy autora działał browar.\nJak wygląda główna hala?\nJest gigantyczna, ma czerwone ceglane ściany i szklany dach.\nCo znajduje się dziś w podziemiach?\nW podziemiach jest szatnia i mała wystawa starych zdjęć.\nKto prowadzi większość stoisk?\nWiększość stoisk prowadzą emigranci, na przykład syryjska rodzina, młody Hiszpan i para z Buenos Aires.\nDlaczego autor myśli o swoim dziadku?\nBo dziadek wyjechał do Chicago jako emigrant i pracował tam w polskiej piekarni.\nCzego autor chciałby w hali?\nChciałby, żeby znalazło się tam miejsce na zwykły bar z tanią zupą."
+    },
+    {
+      "title": "Samochód bez kierowcy",
+      "summary": "An essay on self-driving cars: satellites and electronics, software in beta, updates the owner cannot make himself, and the silent interaction between drivers and pedestrians.",
+      "newWords": [
+        "wynalazek",
+        "autonomiczny",
+        "elektronika",
+        "orbita",
+        "beta",
+        "zmodyfikować",
+        "modyfikacja",
+        "użytkowanie",
+        "interakcja"
+      ],
+      "text": "Kiedy byłem dzieckiem, samochód bez kierowcy był wynalazkiem z filmów o przyszłości. Dziś w kilku miastach na świecie autonomiczne taksówki wożą pasażerów bez człowieka za kierownicą, a producenci obiecują, że niedługo takie auta pojawią się także w Polsce. Zastanawiam się, czy chciałbym do takiego samochodu wsiąść.\n\nAutonomiczny samochód to w gruncie rzeczy komputer na kołach. Elektronika zajmuje w nim więcej miejsca niż silnik. Kamery i czujniki obserwują drogę, a satelity, które krążą po orbicie wysoko nad Ziemią, każdej sekundy podają, gdzie dokładnie znajduje się auto. Kiedy patrzę w nocne niebo, trudno mi uwierzyć, że coś na orbicie pilnuje, żebym skręcił we właściwą ulicę.\n\nZwolennicy tego wynalazku mają mocne argumenty. Większość wypadków na drogach powodują ludzie: zmęczeni, rozkojarzeni, wpatrzeni w telefon. Maszyna nie jest zmęczona i nie odpisuje na wiadomości. Dla osób starszych albo chorych autonomiczne auto może oznaczać wolność, której nie miały od lat.\n\nMam jednak kilka wątpliwości. Pierwsza dotyczy oprogramowania. Wiele programów na początku działa w wersji beta, czyli w wersji próbnej, w której wciąż szuka się błędów. W telefonie można to zaakceptować. W samochodzie, który jedzie 100 kilometrów na godzinę, wersja beta brzmi groźnie. Druga wątpliwość dotyczy tego, kto naprawdę rządzi autem. Producent może zmodyfikować program w każdej chwili, przez sieć, nawet w nocy, gdy samochód stoi w garażu. Właściciel nie może za to zmodyfikować niczego sam. Każda modyfikacja wymaga zgody firmy, a nieautoryzowana modyfikacja może oznaczać utratę gwarancji.\n\nWażne są też koszty użytkowania. Taki samochód jest drogi nie tylko w chwili zakupu. Elektronika starzeje się szybciej niż metal, a naprawa jednego czujnika potrafi kosztować tyle, co nowy rower. W instrukcji użytkowania jest ponad 300 stron.\n\nNajbardziej jednak zastanawia mnie interakcja z ludźmi na ulicy. Kiedy przechodzę przez jezdnię, patrzę kierowcy w oczy. On kiwa głową albo podnosi rękę i wiem, że mnie zobaczył. Ta cicha interakcja trwa sekundę, ale daje poczucie bezpieczeństwa. Projektanci szukają dziś sposobów, by samochód bez kierowcy mógł dać pieszemu podobny znak, na przykład światłem albo krótkim napisem na szybie.\n\nNie wiem jeszcze, czy wsiądę kiedyś do takiej taksówki. Wiem tylko, że każdy wielki wynalazek najpierw budzi strach, a potem staje się zwyczajny. Tak było z koleją, z samolotem i z telefonem. Może za dwadzieścia lat moje wątpliwości będą wyglądały równie dziwnie.\n\nPytania:\nCzym według autora jest autonomiczny samochód?\nTo w gruncie rzeczy komputer na kołach.\nCo robią satelity na orbicie?\nKażdej sekundy podają, gdzie dokładnie znajduje się auto.\nCo to jest wersja beta?\nTo wersja próbna programu, w której wciąż szuka się błędów.\nKto może zmodyfikować program samochodu?\nMoże to zrobić producent, a każda modyfikacja wymaga zgody firmy.\nDlaczego koszty użytkowania są wysokie?\nBo elektronika szybko się starzeje, a naprawa jednego czujnika bywa bardzo droga.\nNa czym polega interakcja pieszego z kierowcą?\nPieszy patrzy kierowcy w oczy, a kierowca kiwa głową albo podnosi rękę."
+    },
+    {
+      "title": "Czwarte miejsce",
+      "summary": "A parent reflects on children's sport after his son finishes ninth in a tennis tournament at a school named after a legendary player, and on what really matters besides the podium.",
+      "newWords": [
+        "tenis",
+        "dziewiąty",
+        "podium",
+        "legendarny",
+        "patron",
+        "pożegnanie",
+        "naśladować",
+        "zachwycony",
+        "pogoń"
+      ],
+      "text": "Mój syn Staś od trzech lat gra w tenisa. W zeszłą sobotę wziął udział w turnieju dla dzieci i zajął dziewiąte miejsce. Kiedy wyszedł z kortu, był zachwycony. Wygrał dwa mecze, a w trzecim zdobył punkt, z którego był dumny przez cały wieczór. Ja byłem zachwycony razem z nim, ale obok nas stał ojciec chłopca, który zajął czwarte miejsce. Głośno tłumaczył synowi, że to porażka, bo nie stanął na podium.\n\nTurniej odbywał się w szkole sportowej, która jak wiele polskich szkół ma swojego patrona, czyli osobę, której imię nosi. W tym przypadku patronem jest kobieta: Irena Sadowska, legendarna polska tenisistka. Jej zdjęcia wiszą na każdym korytarzu. Wygrała dziesiątki turniejów, ale w szkole najczęściej opowiada się nie o jej pucharach, tylko o jej pożegnaniu z tenisem. Podczas pożegnania z kibicami powiedziała, że najbardziej pamięta nie zwycięstwa, lecz poranne treningi z ojcem na betonowym boisku. Legendarna zawodniczka, która przez całe życie walczyła o podium, na koniec mówiła o radości z samej gry. Trudno o lepszą patronkę dla szkoły.\n\nRozumiem jednak ojca, który stał obok nas. Sport bez wyniku przestaje być sportem. Dzieci same chcą wygrywać, a stanąć na podium to dla nich wielka nagroda. Ambicja nie jest niczym złym i bez niej nikt nie zostałby mistrzem. Problem pojawia się wtedy, gdy pogoń za medalem zaczyna być ważniejsza od samego dziecka. Znam rodziny, w których cały tydzień kręci się wokół treningów, a każdy przegrany mecz kończy się kłótnią w samochodzie.\n\nDzieci uczą się przede wszystkim przez to, że naśladują dorosłych. Naśladują ruchy swoich ulubionych zawodników, ich sposób podawania ręki po meczu, ale także ich złość po porażce. Jeśli rodzic po przegranym meczu milczy przez całą drogę do domu, dziecko szybko uczy się, że jest kochane za wynik. Jeśli natomiast słyszy pytanie, co mu się dziś udało, nauczy się patrzeć na grę inaczej.\n\nMyślę, że dobry trener i dobry rodzic potrafią połączyć oba podejścia. Mogą cieszyć się z miejsca na podium i jednocześnie nie traktować dziewiątego miejsca jak klęski. Pogoń za wynikiem ma sens, dopóki dziecko samo chce w niej brać udział.\n\nPo turnieju Staś przez godzinę grał jeszcze ze mną na pustym korcie. Naśladował serwis legendarnej patronki szkoły, którą zobaczył na starym filmie w szkole. Śmialiśmy się obaj. Nie stał na podium, ale wracał do domu szczęśliwy, a ja byłem pewien, że za tydzień znowu z radością weźmie do ręki rakietę.\n\nPytania:\nKtóre miejsce zajął Staś w turnieju?\nStaś zajął dziewiąte miejsce.\nKim jest patronka szkoły?\nTo Irena Sadowska, legendarna polska tenisistka.\nCo powiedziała Irena Sadowska podczas pożegnania z kibicami?\nPowiedziała, że najbardziej pamięta poranne treningi z ojcem na betonowym boisku.\nKiedy według autora pogoń za medalem staje się problemem?\nKiedy zaczyna być ważniejsza od samego dziecka.\nJak dzieci uczą się od dorosłych?\nNaśladują ich ruchy, zachowanie i sposób reagowania na porażkę.\nCo robił Staś po turnieju?\nGrał z ojcem na pustym korcie i naśladował serwis patronki szkoły."
+    },
+    {
+      "title": "Życie w bańce",
+      "summary": "After a family argument with an uncle who believes a story that bread is poison, the author thinks about information bubbles, family diplomacy and compromise.",
+      "newWords": [
+        "bańka",
+        "jakoby",
+        "posunąć",
+        "niesprawiedliwy",
+        "uległy",
+        "dyplomacja",
+        "kompromis",
+        "wstecz"
+      ],
+      "text": "Kiedy byłam mała, uwielbiałam puszczać bańki mydlane. Bańka leciała nad ogrodem, mieniła się wszystkimi kolorami i pękała, gdy tylko dotknęła trawy. Dziś słowo „bańka” kojarzy mi się z czymś innym. Mówimy o bańce informacyjnej, kiedy człowiek widzi w sieci tylko to, co potwierdza jego zdanie.\n\nPrzekonałam się o tym na urodzinach babci. Wujek Henryk przez cały obiad przekonywał nas, że chleb jest trucizną. Przeczytał w internecie, jakoby pszenica była przyczyną wszystkich chorób współczesnego świata. Nie przyjmował żadnych argumentów. Kiedy kuzyn zapytał, skąd ma tę wiedzę, wujek pokazał mu filmy, które od miesięcy podsuwa mu telefon. Każdy z nich mówił to samo, więc wujek był przekonany, że tak myślą wszyscy.\n\nTak działa bańka. Programy, które wybierają dla nas treści, uczą się, co lubimy oglądać, i dają nam coraz więcej tego samego. Nie jest to spisek, tylko mechanizm. Łatwo jednak zapomnieć, że świat poza naszą bańką wygląda zupełnie inaczej.\n\nMuszę jednak przyznać, że tamtego dnia ja też posunęłam się za daleko. Powiedziałam wujkowi, że wierzy we wszystko, co zobaczy w telefonie. Było to niesprawiedliwe, bo wujek przez 40 lat był dobrym inżynierem i umie myśleć samodzielnie. Niesprawiedliwe było też to, że śmiałam się z niego przy wszystkich. Kiedy patrzę dziś wstecz, widzę, że moja bańka też istnieje. Ja również czytam przede wszystkim tych autorów, z którymi się zgadzam.\n\nCo w takiej sytuacji robić? Jedni radzą, żeby przy rodzinnym stole w ogóle nie rozmawiać o sprawach, które budzą emocje. To rozwiązanie jest wygodne, ale oznacza, że każdy zostaje w swojej bańce. Inni uważają, że trzeba walczyć o prawdę za wszelką cenę. Wtedy jednak obiad zamienia się w kłótnię, a nikt nie zmienia zdania.\n\nWydaje mi się, że potrzebna jest domowa dyplomacja. Dyplomacja nie oznacza, że mam być uległa i zgadzać się na wszystko. Nie muszę być uległa wobec wujka, ale mogę go wysłuchać i zadać pytanie zamiast wygłaszać wykład. Kompromis nie polega tu na tym, że prawda leży pośrodku. Kompromis polega na tym, że obie strony zostają przy stole i nadal chcą ze sobą rozmawiać.\n\nTydzień później zadzwoniłam do wujka i przeprosiłam. Rozmawialiśmy godzinę, tym razem nie o chlebie, tylko o jego pracy. Nie przekonałam go, ale nasze bańki na chwilę się dotknęły i żadna nie pękła.\n\nPytania:\nCo to jest bańka informacyjna?\nTo sytuacja, w której człowiek widzi w sieci tylko to, co potwierdza jego zdanie.\nCo przeczytał wujek Henryk w internecie?\nPrzeczytał, jakoby pszenica była przyczyną wszystkich chorób współczesnego świata.\nDlaczego autorka uważa, że posunęła się za daleko?\nBo powiedziała wujkowi coś niesprawiedliwego i śmiała się z niego przy wszystkich.\nCo autorka widzi, kiedy patrzy wstecz?\nWidzi, że ona też żyje w swojej bańce.\nNa czym polega według autorki domowa dyplomacja?\nNa tym, żeby nie być uległą, ale wysłuchać drugą stronę i zadawać pytania.\nNa czym polega tu kompromis?\nNa tym, że obie strony zostają przy stole i nadal chcą ze sobą rozmawiać."
+    },
+    {
+      "title": "Dziura w płocie",
+      "summary": "A homeowner weighs privacy against nature: hedgehogs cannot pass the fences of modern estates, so he cuts a small hole in his fence and leaves a wild corner as a shelter.",
+      "newWords": [
+        "posiadłość",
+        "wykończyć",
+        "ogrodzenie",
+        "jeż",
+        "bagno",
+        "apelować",
+        "schronienie",
+        "wydzielić",
+        "zawalić",
+        "czar"
+      ],
+      "text": "Kiedy kupiliśmy dom pod Poznaniem, sąsiad śmiał się, że mamy teraz własną posiadłość. W rzeczywistości nasza posiadłość to mały dom i 400 metrów ogrodu. Dom nie był jeszcze gotowy i przez pół roku musieliśmy go wykończyć: położyć podłogi, pomalować ściany i urządzić kuchnię. Kiedy wreszcie udało się go wykończyć, przyszedł czas na ogród. Pierwszą rzeczą, którą chciałem zrobić, było nowe ogrodzenie. Stare było niskie i krzywe, a w kilku miejscach zawaliło się pod ciężarem śniegu.\n\nWybrałem już nawet wysoki, pełny płot z betonu, kiedy w gazecie przeczytałem tekst o tym, jak żyją jeże. Jeż każdej nocy przechodzi nawet dwa kilometry w poszukiwaniu jedzenia. Zjada owady i ślimaki, więc jest najlepszym przyjacielem ogrodnika. Problem polega na tym, że nowe osiedla są otoczone pełnymi płotami. Jeż nie umie przez nie przejść, więc zostaje zamknięty w jednym ogrodzie albo musi szukać drogi przez ruchliwą ulicę.\n\nDawniej w miejscu naszego osiedla była łąka, a dalej ciągnęło się bagno. Na bagnie żyły żaby, ptaki i owady. Dziś po bagnie nie ma śladu, a dzikie zwierzęta muszą się zmieścić w ogrodach. Obrońcy przyrody apelują więc do właścicieli domów, żeby w ogrodzeniu zostawić przy ziemi małą dziurę, mniej więcej wielkości dłoni. Apelują też, by nie usuwać wszystkich liści i gałęzi, bo jeż potrzebuje schronienia na zimę.\n\nRozumiem jednak tych, którzy chcą mieć pełne ogrodzenie. Wysoki płot daje spokój i poczucie bezpieczeństwa. Chroni przed wzrokiem przechodniów, zatrzymuje psa sąsiada i nie pozwala dzieciom wybiec na ulicę. Mała dziura przy ziemi nie zmienia tego wiele, ale niektórzy po prostu nie lubią, gdy coś wchodzi na ich teren bez pytania.\n\nWybrałem drogę środka. Nowe ogrodzenie jest drewniane i tylko na dole ma dwa małe otwory. Pies sąsiada się przez nie nie zmieści, ale jeż przejdzie bez trudu. W rogu ogrodu postanowiłem też wydzielić kawałek ziemi, którego nie sprzątam i gdzie trawa rośnie, jak chce. Wydzielony kąt ma może dwa metry na trzy. Leżą tam liście, gałęzie i stare deski z szopy, która zawaliła się podczas wiosennej burzy. Dla jeża to idealne schronienie.\n\nNa początku żona uważała, że ten kąt wygląda jak bałagan. Dziś mówi, że ma swój czar. Rzeczywiście, dziki kawałek ogrodu ma czar, którego nie ma krótko ścięty trawnik. W lipcu, późnym wieczorem, zobaczyliśmy pierwszego jeża. Szedł spokojnie przez trawę, jakby od zawsze był u siebie. Pomyślałem wtedy, że posiadłość bez jeża byłaby dużo uboższa.\n\nPytania:\nDlaczego autor chciał zbudować nowe ogrodzenie?\nBo stare było niskie i krzywe, a w kilku miejscach zawaliło się pod ciężarem śniegu.\nCo było dawniej w miejscu osiedla?\nByła tam łąka, a dalej ciągnęło się bagno.\nDo czego apelują obrońcy przyrody?\nApelują, żeby zostawić w ogrodzeniu małą dziurę i nie usuwać wszystkich liści i gałęzi.\nJakie zalety ma wysoki płot?\nDaje spokój i poczucie bezpieczeństwa, zatrzymuje psa sąsiada i chroni dzieci.\nCo autor postanowił wydzielić w rogu ogrodu?\nPostanowił wydzielić kawałek ziemi, którego nie sprząta i gdzie trawa rośnie, jak chce, jako schronienie dla jeża.\nCo żona autora mówi dziś o dzikim kącie ogrodu?\nMówi, że ma swój czar."
+    },
+    {
+      "title": "Garnitur na jeden dzień",
+      "summary": "An aunt reflects on the costs of First Communion: an expensive suit, a nun who proposes simple robes, a craze for gifts, a restaurant bill and selling clothes at online auctions.",
+      "newWords": [
+        "komunia",
+        "garnitur",
+        "bluzka",
+        "zakonnica",
+        "rozmaity",
+        "szał",
+        "kreować",
+        "wliczyć",
+        "aukcja"
+      ],
+      "text": "W maju mój bratanek Kuba przystępuje do pierwszej komunii. W wielu polskich rodzinach pierwsza komunia to wielkie święto. Przyjeżdża cała rodzina, dzieci dostają prezenty, a po uroczystości wszyscy idą na obiad. Od kilku tygodni słucham jednak w domu brata rozmów, które coraz mniej dotyczą samego święta, a coraz bardziej pieniędzy.\n\nZaczęło się od ubrania. Bratowa chciała kupić Kubie granatowy garnitur. Garnitur dla ośmiolatka kosztował prawie tyle, co garnitur dla dorosłego, a chłopiec wyrośnie z niego w ciągu roku. Dla siebie bratowa wybrała nową bluzkę i spódnicę, a dla młodszej córki nową sukienkę. Każda rzecz osobno nie była droga, ale razem dawały sporą sumę.\n\nWtedy na spotkaniu z rodzicami głos zabrała siostra Anna, zakonnica, która od lat przygotowuje dzieci w parafii. Zakonnica zaproponowała, żeby wszystkie dzieci wystąpiły w takich samych prostych białych strojach, które parafia pożycza za niewielką opłatą. Przekonywała, że wtedy nikt nie będzie porównywał, kto ma droższy garnitur. Część rodziców była zachwycona, część uważała, że to ich prywatna sprawa.\n\nUbranie to jednak dopiero początek. W ostatnich latach wokół komunii zapanował prawdziwy szał prezentów. Dzieci dostają rozmaite rzeczy: telefony, zegarki, rowery elektryczne, a nawet małe drony. Ten szał nie wziął się znikąd. Sklepy i reklamy kreują modę na coraz droższe prezenty, a media społecznościowe kreują obraz idealnego przyjęcia, do którego trudno dorównać.\n\nPotem przyszedł czas na restaurację. Brat długo porównywał rozmaite oferty. W jednej restauracji w cenę obiadu wliczono tort i kawę, w innej trzeba było za nie płacić osobno. W trzeciej do rachunku wliczono nawet opłatę za salę i kwiaty na stołach. Dopiero po tygodniu brat zrozumiał, ile naprawdę będzie kosztować cały dzień.\n\nRozumiem obie strony. Rodzice chcą, żeby to był wyjątkowy dzień, a dziadkowie chętnie dają wnukom prezenty, na które sami kiedyś nie mogli sobie pozwolić. Z drugiej strony dziecko w tym wieku zapamięta raczej atmosferę niż cenę garnituru.\n\nBratowa znalazła w końcu sprytne rozwiązanie. Kupiła używany garnitur na internetowej aukcji, a po komunii wystawi go na kolejnej aukcji. Bluzkę pożyczyła od siostry. Zaoszczędzone pieniądze rodzice odłożą na wakacje nad morzem, które Kuba zapamięta na pewno dłużej niż jeden dzień w garniturze.\n\nPytania:\nKto w maju przystępuje do pierwszej komunii?\nDo pierwszej komunii przystępuje Kuba, bratanek autorki.\nCo zaproponowała siostra Anna?\nZaproponowała, żeby wszystkie dzieci wystąpiły w takich samych prostych białych strojach.\nJakie prezenty dostają dzieci?\nDostają rozmaite rzeczy: telefony, zegarki, rowery elektryczne, a nawet małe drony.\nKto kreuje modę na drogie prezenty?\nModę kreują sklepy, reklamy i media społecznościowe.\nCo wliczono w cenę obiadu w jednej z restauracji?\nW cenę obiadu wliczono tort i kawę.\nGdzie bratowa kupiła garnitur dla Kuby?\nKupiła używany garnitur na internetowej aukcji."
+    },
+    {
+      "title": "Miasto, które nie milknie",
+      "summary": "A Kraków resident thinks about urban noise and visual clutter: the hum of traffic, smog, giant advertising banners, heavy curtains and why constant noise makes us miss important signals.",
+      "newWords": [
+        "szum",
+        "transportowy",
+        "dynamiczny",
+        "smog",
+        "baner",
+        "zasłona",
+        "dźwiękowy",
+        "redukcja",
+        "ewakuacja"
+      ],
+      "text": "Mieszkam w Krakowie, przy jednej z głównych ulic. Kiedy wieczorem otwieram okno, słyszę szum, który nie milknie nawet w nocy. To szum samochodów, tramwajów i ciężarówek z firm transportowych, które mają swoje bazy za miastem. Kiedyś myślałam, że do takiego szumu można się przyzwyczaić. Dziś nie jestem tego pewna.\n\nLubię moje miasto za to, że jest dynamiczne. Ciągle powstają nowe firmy, kawiarnie i miejsca pracy. Dynamiczny rozwój ma jednak swoją cenę. Ruch transportowy przez miasto rośnie z roku na rok, a powietrze w Krakowie od dawna nie należy do najczystszych. Zimą nad miastem wisi smog, czyli mieszanina dymu i spalin, która w bezwietrzne dni nie ma dokąd uciec. W takie dni lekarze radzą, żeby nie biegać na zewnątrz.\n\nOd kilku lat mówi się też o innym rodzaju zanieczyszczenia, który nazywa się smogiem reklamowym. Na wielu budynkach wiszą gigantyczne banery. Jeden baner zakrywa czasem całą ścianę zabytkowej kamienicy, a mieszkańcy tej kamienicy przez pół roku żyją za reklamą jak za zasłoną. Wiele miast wprowadziło już przepisy, które ograniczają liczbę banerów. Właściciele budynków protestują, bo za każdy baner dostają pieniądze, i trudno im się dziwić.\n\nW moim mieszkaniu najlepszą obroną przed hałasem okazały się grube zasłony. Kiedy wieczorem zaciągam zasłonę, szum ulicy staje się cichszy, a światło latarni przestaje wpadać do sypialni. Nie jest to jednak prawdziwe rozwiązanie, tylko ucieczka.\n\nSpecjaliści, którzy badają środowisko dźwiękowe miast, zwracają uwagę na jeszcze jedną rzecz. W mieście pełnym hałasu przestajemy słyszeć sygnały, które są naprawdę ważne. Sygnał dźwiękowy karetki ginie w szumie ulicy. Alarm w biurowcu, który wzywa do ewakuacji, część pracowników bierze za kolejną próbę i nie przerywa pracy. Tymczasem szybka ewakuacja może w prawdziwym zagrożeniu zdecydować o zdrowiu wielu osób.\n\nDlatego coraz częściej mówi się o redukcji hałasu jako o sprawie zdrowia, a nie tylko wygody. Redukcja hałasu nie musi oznaczać wyrzucenia samochodów z miasta. Wystarczą ciche nawierzchnie, wolniejszy ruch nocą, drzewa przy ulicach i więcej tramwajów zamiast ciężarówek.\n\nNie chcę mieszkać w mieście, które milczy. Lubię dźwięki ulicy, rozmowy ludzi i muzykę z otwartych okien. Chciałabym tylko, żeby wśród tego szumu dało się znowu usłyszeć to, co ważne.\n\nPytania:\nCo słyszy autorka, kiedy wieczorem otwiera okno?\nSłyszy szum samochodów, tramwajów i ciężarówek, który nie milknie nawet w nocy.\nCzym jest smog?\nTo mieszanina dymu i spalin, która zimą wisi nad miastem.\nCo to jest smog reklamowy?\nTo gigantyczne banery i reklamy, które zakrywają ściany budynków.\nCo pomaga autorce w mieszkaniu?\nPomagają jej grube zasłony.\nDlaczego hałas jest niebezpieczny w razie ewakuacji?\nBo ludzie przestają słyszeć ważne sygnały i nie reagują na alarm.\nCo może pomóc w redukcji hałasu?\nCiche nawierzchnie, wolniejszy ruch nocą, drzewa przy ulicach i więcej tramwajów."
+    }
+  ]
+}
