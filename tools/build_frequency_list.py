@@ -1027,7 +1027,7 @@ def build_list(language, found, size, required=frozenset()):
                     others = [usual]
         # A Japanese verb or adjective stem (食べ, 出し, 見) goes to its word (食べる, 出す, 見る), the same
         # kanji with other kana after them, as the reader looks the stem up, however common the stem is.
-        # A noun made from a verb (考え "idea", 終わり "end") stays a word of its own.
+        # A noun made from a verb (考え "idea", 終わり "end") stays a word of its own, sharing its count below.
         if language == "ja" and is_kana(form):
             # A kana piece (しよ of しよう) gives its count only to a kanji word written with it that is common itself.
             others = [l for l in others if is_kana(l) or count(l) >= JA_STEM_SHARE * count(form) or (len(form) > 2 and not set(form) & set("ゃゅょ") and form in JA_READINGS.get(l, ()))]
@@ -1041,6 +1041,15 @@ def build_list(language, found, size, required=frozenset()):
             l for l in others
             if "verb" in pos.get(l, set()) and kanji_stem(l) and verb_stem_of(form, l) and count(l) >= JA_STEM_SHARE * count(form)
         ]
+        # A noun that is also a verb's stem (教え "teaching" and the 教え of 教えて) is mostly the verb in
+        # wordfreq's pieces, which the reader joins into the verb: the two share its count.
+        if language == "ja" and not stem_of and form not in overrides and len(form) > 1 and "noun" in pos.get(form, set()) and is_word(form):
+            verbs = [
+                l for l in others
+                if "verb" in pos.get(l, set()) and kanji_stem(l) and verb_stem_of(form, l) and count(l) >= JA_STEM_SHARE * count(form)
+            ]
+            if verbs:
+                return {form: 0.5, **{verb: 0.5 / len(verbs) for verb in verbs}}
         if stem_of:
             others = stem_of
         # A form whose only entry is an interjection ("foi", "nossa") is counted for the word it is a form of.
