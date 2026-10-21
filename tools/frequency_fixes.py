@@ -1496,6 +1496,16 @@ OVERRIDES["ko"].update({
     "길었다": ["길다"], "길었지": ["길다"], "더는": ["더"], "버니": [], "버락": [], "번가": [], "불신": ["불신"],
     "부실": ["부실"], "분담": ["분담"], "감자": ["감자"], "감면": ["감면"], "때면": ["때"], "땐": ["때"], "땜": ["때문"], "배려": ["배려"], "조니": [], "조이": [],
 })
+# 거 with the copula, which the pack files under 걸다; 다니 under 달다; 새 "new" and 잔 "cup" under
+# 사이 and 자다; spellings of dialect or of a slip that are no word to learn.
+OVERRIDES["ko"].update({form: ["거"] for form in (
+    "거라고요", "거니까요", "거래요", "걸까요", "거냐", "거면", "거니", "거네", "걸요", "건데요", "거란다", "거라구요", "거라구",
+    "거냐고", "거라네", "거랍니다", "거라니까", "거라며", "거라니", "거면서",
+)})
+OVERRIDES["ko"].update({
+    "다니": ["다니다"], "마시오": ["말다"], "줄리": [], "새": ["새"], "잔": ["잔"], "한국": ["한국"],
+    "기냥": [], "오데": [], "어데": [], "긍게": [], "한나": [], "아참": [], "다함": [],
+})
 # Verbs whose forms the pack files under a shorter verb they begin like (마셔 under 마다 and 말다, 지워 under
 # 집다, 가셨어 under 갈다): a form beginning so goes to the verb (KOREAN_STEMS[verb] = beginnings).
 KOREAN_STEMS = {
@@ -1503,3 +1513,8 @@ KOREAN_STEMS = {
     "지우다": ("지우", "지워", "지웠", "지운", "지울"),
     "가시다": ("가시", "가셔", "가셨", "가신", "가실", "가십"),
 }
+# Person names, surnames and brands that rank by their use in news; Korean's cities stay words.
+EXCLUDE["ko"].update({
+    "트럼프", "김", "박", "황", "윤", "최", "허", "노", "임", "추", "삼성", "카카오", "애플", "한겨레", "부시", "잭", "샘", "피트", "론", "맥", "존",
+})
+KOREAN_CUT.update({"일이", "때문에", "앞에서", "중에서", "명의", "박은", "박이", "박을", "숨이", "숨도", "숨은", "차라도", "배라도", "데라도"})
