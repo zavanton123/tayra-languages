@@ -983,7 +983,9 @@ _OVERRIDES_D = {
     },
     # Czech: the same aspect-partner rows (říkat -> říct, chodit -> jít) are undone; 'je' (is) was counted
     # for ona/oni/ono; the plural pronoun cases for 'onen'; 'může'... for the noun 'moc'; 'let' (years) for
-    # 'léto'; negated forms (není, nemá, nechci) were dropped because 'nebýt'/'nemít' have no entry.
+    # 'léto'; negated forms (není, nemá, nechci) were dropped because 'nebýt'/'nemít' have no entry. 'ty' and
+    # its cases were chained into 'ten'; zlý, nos, volat, věda, dav, králík, topit and brána sat in look-alike verbs
+    # and nouns (zlo, nosit, vole, vědět, dát, král, utopit, brát).
     "cs": {
         "brát": ["brát"], "chodit": ["chodit"], "chápat": ["chápat"], "dojit": ["dojit"], "dávat": ["dávat"],
         "dívat": ["dívat"], "děkovat": ["děkovat"], "hrávat": ["hrávat"], "jezdit": ["jezdit"], "končit": ["končit"],
@@ -1016,7 +1018,20 @@ _OVERRIDES_D = {
         "rána": ["rána"], "ránu": ["rána"], "rány": ["rána"], "hodin": ["hodina"], "hodinách": ["hodina"],
         "hodinami": ["hodina"], "zlatý": ["zlatý"], "zbytečný": ["zbytečný"], "hlavně": ["hlavně"],
         "vlastně": ["vlastně"], "jednou": ["jednou"], "příště": ["příště"], "i": ["i"], "li": ["li"],
-        "hele": ["hele"],
+        "hele": ["hele"], "ty": ["ty", "ten"], "ti": ["ty", "ten"], "tebe": ["ty"], "tě": ["ty"], "tobě": ["ty"],
+        "tebou": ["ty"], "tu": ["tu", "ten"], "vám": ["vy"], "vámi": ["vy"], "zavolat": ["zavolat"],
+        **{f: ["zlý"] for f in "zle zlou zlá zlé zlého zlém zlému zlí zlý zlých zlým zlými".split()},
+        **{f: ["nos"] for f in "nos nose nosem nosu nosy nosík nosů".split()},
+        **{f: ["volat"] for f in "volají volající volal volala volali volalo volaly volaný volat volej volejte "
+           "volá volám voláme voláno voláte voláš".split()},
+        **{f: ["věda"] for f in "věd věda vědou vědu vědy vědách vědě".split()},
+        **{f: ["vědecký"] for f in "vědeckou vědecky vědecká vědecké vědeckého vědeckém vědecký vědeckých "
+           "vědeckým".split()},
+        **{f: ["dav"] for f in "dav davem davu davy".split()},
+        **{f: ["králík"] for f in "králičí králíci králík králíka králíkem králíky králíků králíček".split()},
+        **{f: ["topit"] for f in "topil topila topili topilo topit topí topící topím topíme topíte".split()},
+        **{f: ["brána"] for f in "bran branami branou brána bránou bránu bráně".split()},
+        **{f: ["branka"] for f in "brance branek branka brankami brankou branku".split()},
     },
     # Slovak: simplemma's negated lemmas (nechcieť, nemať, nemôcť...) go to the positive verb; 'ona' and
     # the plural were counted for 'on'; 'je' for 'jesť'; aspect partners split as in Polish; common
