@@ -93,6 +93,7 @@ import com.tayra.languages.core.domain.service.ClearDataService
 import com.tayra.languages.core.domain.service.DemoDataService
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.service.ExampleRecordings
+import com.tayra.languages.core.domain.courses.CourseExamplesProvider
 import com.tayra.languages.core.domain.service.CorpusWords
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.GoogleTranslation
@@ -155,7 +156,10 @@ val dataModule: Module = module {
         single { LeipzigExamplesProvider(get()) }
         single<CorpusWords> { get<LeipzigExamplesProvider>() }
     }
-    single<ExampleSentencesProvider> { ChineseScriptExamples(SourceRoutingExamples(TatoebaExamplesProvider(get()), getOrNull<LeipzigExamplesProvider>())) }
+    single { CourseExamplesProvider(get(), get(), get()) }
+    single<ExampleSentencesProvider> {
+        ChineseScriptExamples(SourceRoutingExamples(TatoebaExamplesProvider(get()), getOrNull<LeipzigExamplesProvider>(), get<CourseExamplesProvider>()))
+    }
     single { MyMemoryTranslationProvider(get(), get()) }
     single { GoogleTranslationProvider(get(), get()) }
     single<GoogleTranslation> { get<GoogleTranslationProvider>() }

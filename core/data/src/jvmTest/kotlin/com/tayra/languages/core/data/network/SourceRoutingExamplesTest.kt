@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.network
 
+import com.tayra.languages.core.domain.courses.COURSES_PAGE_PREFIX
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSearchResult
@@ -30,12 +31,15 @@ class SourceRoutingExamplesTest {
     fun searchesAndPagesGoToTheSourceThatOwnsThem() = runTest {
         val tatoeba = Named("tatoeba", listOf(ExampleSourceFeatures.TATOEBA))
         val leipzig = Named("leipzig", listOf(leipzigFeatures))
-        val router = SourceRoutingExamples(tatoeba, leipzig)
+        val courses = Named("courses", listOf(leipzigFeatures.copy(source = ExampleSource.COURSES)))
+        val router = SourceRoutingExamples(tatoeba, leipzig, courses)
         assertEquals("tatoeba", router.search(ExampleSearchQuery("casa", language, "en")).sentences.single().text)
         assertEquals("leipzig", router.search(ExampleSearchQuery("casa", language, "en", source = ExampleSource.LEIPZIG)).sentences.single().text)
         assertEquals("leipzig next", router.nextPage("${LEIPZIG_PAGE_PREFIX}{}", "en").sentences.single().text)
         assertEquals("tatoeba next", router.nextPage("https://api.tatoeba.org/v1/sentences?after=3", "en").sentences.single().text)
-        assertEquals(listOf(ExampleSource.TATOEBA, ExampleSource.LEIPZIG), router.sources(language).map { it.source })
+        assertEquals("courses", router.search(ExampleSearchQuery("casa", language, "en", source = ExampleSource.COURSES)).sentences.single().text)
+        assertEquals("courses next", router.nextPage("${COURSES_PAGE_PREFIX}4", "en").sentences.single().text)
+        assertEquals(listOf(ExampleSource.TATOEBA, ExampleSource.COURSES, ExampleSource.LEIPZIG), router.sources(language).map { it.source })
     }
 
     @Test
