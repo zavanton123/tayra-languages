@@ -600,10 +600,12 @@ class ReadingViewModel(
     }
 
     fun applyBulkUpdate(update: BulkTermUpdate) {
-        val panel = _state.value.panel as? ReadingPanel.BulkEdit ?: return
+        val s = _state.value
+        val panel = s.panel as? ReadingPanel.BulkEdit ?: return
+        val sentences = sentencesOf(s.marked.sorted().mapNotNull { s.items.getOrNull(it) })
         viewModelScope.launch {
             try {
-                termService.applyBulkUpdate(update.copy(termIds = panel.termIds))
+                termService.applyBulkUpdate(update.copy(termIds = panel.termIds), sentences)
                 _state.update { it.copy(panel = ReadingPanel.None, marked = emptySet()) }
                 afterTermChange()
             } catch (e: Exception) {

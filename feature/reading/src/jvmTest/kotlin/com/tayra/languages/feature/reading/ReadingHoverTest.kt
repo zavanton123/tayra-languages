@@ -1342,6 +1342,24 @@ class ReadingHoverTest {
         assertEquals("O lobo sonha.", sentence(termRepository.findByTextLc(languageId, "sonha")?.id), "the sentences after it are their own")
     }
 
+    /** A status given to several words and a phrase at once in the bulk pane stores the sentences they are read in. */
+    @Test
+    fun theBulkPaneStoresTheSentences() = runBlocking {
+        val vm = reader(paragraph = "O lobo dorme. A raposa corre na floresta.", wordsPerPage = 100)
+        val lobo = termService.save(termService.findOrNew(languageId, "lobo").copy(status = TermStatus.WELL_KNOWN))
+        val phrase = termService.save(termService.findOrNew(languageId, "raposa corre").copy(status = TermStatus.WELL_KNOWN))
+        vm.refresh()
+        withTimeout(5_000) { while (vm.index("raposa corre") < 0) delay(20) }
+
+        vm.onWordClick(vm.index("lobo"), shift = true)
+        vm.onWordClick(vm.index("raposa corre"), shift = true)
+        withTimeout(5_000) { while ((vm.state.value.panel as? ReadingPanel.BulkEdit)?.termIds?.size != 2) delay(20) }
+        vm.applyBulkUpdate(com.tayra.languages.core.domain.service.BulkTermUpdate(emptyList(), status = TermStatus.NEW_1))
+        withTimeout(5_000) { while (termRepository.getById(phrase)?.status != TermStatus.NEW_1) delay(20) }
+        assertEquals("O lobo dorme.", termRepository.getById(lobo)?.sentence)
+        assertEquals("A raposa corre na floresta.", termRepository.getById(phrase)?.sentence)
+    }
+
     private fun silentWav(samples: Int = 800): ByteArray {
         val data = samples * 2
         val header = java.nio.ByteBuffer.allocate(44).order(java.nio.ByteOrder.LITTLE_ENDIAN).apply {

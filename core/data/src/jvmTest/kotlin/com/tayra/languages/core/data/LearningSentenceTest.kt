@@ -7,6 +7,7 @@ import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.service.BulkTermUpdate
 import com.tayra.languages.core.domain.service.TermService
 import kotlinx.coroutines.test.runTest
 import java.io.File
@@ -69,6 +70,22 @@ class LearningSentenceTest {
         assertEquals(TermStatus.WELL_KNOWN, env.terms.getById(parent.id)?.status)
         assertNull(env.terms.getById(parent.id)?.sentence)
         assertNull(env.terms.getById(child)?.sentence)
+    }
+
+    @Test
+    fun aBulkStatusChangeStoresTheSentences() = runTest {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val lobo = env.service.save(env.service.findOrNew(language, "lobo").copy(status = TermStatus.UNKNOWN, statusExplicitlySet = true))
+        val phrase = env.service.save(env.service.findOrNew(language, "anda depressa").copy(status = TermStatus.NEW_2, statusExplicitlySet = true), sentence = "O tempo anda depressa.")
+        val sentences = mapOf(lobo to "O lobo dorme.", phrase to "Ela anda depressa.")
+
+        env.service.applyBulkUpdate(BulkTermUpdate(listOf(lobo, phrase), status = TermStatus.NEW_1), sentences)
+        assertEquals("O lobo dorme.", env.terms.getById(lobo)?.sentence)
+        assertEquals("O tempo anda depressa.", env.terms.getById(phrase)?.sentence, "a term already being learned keeps its sentence")
+        env.service.applyBulkUpdate(BulkTermUpdate(listOf(lobo, phrase), status = TermStatus.WELL_KNOWN), sentences)
+        assertNull(env.terms.getById(lobo)?.sentence)
+        assertNull(env.terms.getById(phrase)?.sentence)
     }
 
     @Test

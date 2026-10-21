@@ -220,7 +220,8 @@ class TermService(
         applyStatus(following, status) { sentence }
     }
 
-    suspend fun applyBulkUpdate(update: BulkTermUpdate) {
+    /** Applies [update] to its terms; [sentences] are the ones they are being read in, by id, as for [setStatus]. */
+    suspend fun applyBulkUpdate(update: BulkTermUpdate, sentences: Map<Long, String> = emptyMap()) {
         if (update.termIds.isEmpty()) return
         val targets = terms.getByIds(update.termIds)
         val languageIds = targets.map { it.languageId }.distinct()
@@ -245,10 +246,10 @@ class TermService(
                 if (parent.status != TermStatus.UNKNOWN) term = term.copy(syncStatus = true, status = parent.status)
             }
             update.status?.let { term = term.copy(status = it) }
-            if (term.status != target.status) term = term.copy(sentence = target.sentenceAt(term.status, null))
+            if (term.status != target.status) term = term.copy(sentence = target.sentenceAt(term.status, sentences[target.id]))
             terms.save(term)
             terms.setParents(term.id, parentIds)
-            if (term.status != target.status) setStatus(listOf(term.id), term.status)
+            if (term.status != target.status) setStatus(listOf(term.id), term.status, sentences)
         }
     }
 
