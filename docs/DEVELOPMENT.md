@@ -200,7 +200,8 @@ space-delimited, but `KoreanParser` cuts the particles off a word (학교에서 
 에 + 도), each in the form the sound before it takes (이/가, 을/를, 으로/로), the copula after a noun too
 (학생이에요), when the word before them is in its lexicon; of the cuts and the word left whole the
 commonest by the lexicon's ranks wins, as `SegmentingParser` cuts Chinese, so a word of the frequency
-list stays whole (사과; 나가, a form of 나가다) and verbs keep their endings (먹었어요). Lookup finds a
+list stays whole (사과; 나가, a form of 나가다), one only a dictionary has never does against a cut after a
+word of the list (집은 is 집 + 은, not 집다's form), and verbs keep their endings (먹었어요). Lookup finds a
 particle under the pack's suffix entry ("-에서"). Any language
 outside the catalog found in the database is removed on start together with its books and terms.
 
@@ -764,11 +765,12 @@ counts Korean in morpheme pieces, which no reader shows), each cut by `korean_pi
 `KoreanParser` to keep in step with it. As the reader cuts by the ranks of the list it ships with, the
 list is built again from cuts made with the last one's ranks until they no longer change; the first
 cut keeps whole the words the counts say are a verb's form rather than a noun with a particle (가는
-of 가다, but 나는 is 나 + 는), and every word left whole that the reader could cut is listed among its
+of 가다, but 나는 is 나 + 는), or the pack's word rather than one (바로, but 길이 is 길 + 이), and every word left whole that the reader could cut is listed among its
 word's forms, beyond the first 40, so the reader leaves it whole too. Particles are words of their own,
 the copula's forms (이에요, 예요, 입니다) are counted for 이다, and verb forms the pack lacks are grouped by
 Yomitan's Korean rules (`tools/korean_inflection.py`, read from the app's `KoTransforms.kt`).
-`KOREAN_WHOLE` and `KOREAN_CUT` in `tools/frequency_fixes.py` correct that first cut word by word.
+`KOREAN_WHOLE` and `KOREAN_CUT` in `tools/frequency_fixes.py` correct that first cut word by word; the
+words of `KOREAN_CUT` are kept out of the list in every round, so the reader cuts them too.
 
 Forms are grouped under their dictionary words with the pack's forms table, then simplemma for
 forms the pack lacks. Both are noisy (pronoun tables list every pronoun as a form of the others,
