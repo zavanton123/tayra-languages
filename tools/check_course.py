@@ -1015,7 +1015,10 @@ def check(path, brief=False):
         raw_words = [fold(code, t.lower()) for t in re.findall(r"[^\W\d_]+(?:['’][^\W\d_]+)*", text)]
         lowered = [fold(code, t.lower()) for t in toks] + ["\u0000name"] * whole_names
         if code == "tr":
-            lowered = [w if w in ranks or w in names else turkish_base(w, ranks) or w for w in lowered]
+            # A language name takes its endings without an apostrophe (Türkçede, Fransızcadan): it counts as the name.
+            def tr_name(w):
+                return next((n for n in names if len(n) > 3 and w.startswith(n) and TR_NOMINAL.fullmatch(w, len(n))), None)
+            lowered = [w if w in ranks or w in names else turkish_base(w, ranks) or tr_name(w) or w for w in lowered]
         # Ukrainian writes у/в and і/й by the sound before (учинив, вчинив): a word the list has only one way counts.
         if code == "uk":
             swap = {"у": "в", "в": "у", "і": "й", "й": "і"}
