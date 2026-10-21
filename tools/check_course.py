@@ -341,6 +341,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return danish_tokens(text, ranks)
     if code == "tr":
         return turkish_tokens(text)
+    if code == "ko":
+        return korean_tokens(text, ranks, names, heads)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -784,6 +786,127 @@ def turkish_base(word, ranks):
     return None
 
 
+# Korean: runs of Hangul are the words, each cut as the reader cuts it (KoreanParser, ported as
+# build_frequency_list.korean_pieces) by the ranks of the list the app ships, not the courses' pinned one.
+KOREAN_RUN = re.compile("[가-힣ᄀ-ᇿ㄰-㆏]+")
+# Number words before a counter (세 명, 두 시, 열두 개, 오 분): the number and the counter count as known.
+KOREAN_NATIVE_NUMBER = re.compile("(?:열|스물|스무|서른|마흔|쉰|예순|일흔|여든|아흔)?(?:한|두|세|석|네|넉|다섯|여섯|일곱|여덟|아홉)?")
+# Sino-Korean numbers alone (오 분, 만 원), but not 이 "this", 사 or 구, which are more often words.
+KOREAN_SINO_NUMBER = re.compile("[일이삼사오육칠팔구십백천만]{2,}|[일삼오육칠팔십백천만]")
+KOREAN_COUNTERS = {
+    "개", "명", "분", "시", "시간", "살", "번", "마리", "잔", "병", "권", "장", "대", "층", "원", "년", "월", "일", "주",
+    "주일", "주년", "개월", "달", "가지", "그릇", "벌", "켤레", "송이", "번째", "째", "쪽", "초", "세", "인분", "칸", "줄",
+    "통", "곡", "편", "채", "군데", "학년", "반", "호", "점", "퍼센트", "도", "배", "박", "박스", "봉지", "상자", "조각",
+    "컵", "접시", "바퀴", "정거장", "킬로", "킬로미터", "미터", "킬로그램", "그램", "리터", "센티미터", "호선", "등", "사람",
+}
+_korean = {}
+
+
+def korean_reader():
+    """The bundled list's words and ranks, as LexiconService gives them to the reader, and the ko-en pack's words."""
+    if not _korean:
+        import sqlite3
+        import build_frequency_list as fl
+        words, bundled = fl.list_ranks(open(os.path.join(LISTS, "ko.tsv"), encoding="utf-8").read())
+        path = os.path.join(ROOT, "dictionaries", "ko-en.sqlite")
+        if not os.path.exists(path):
+            sys.exit(f"Korean courses need the ko-en pack at {path}")
+        db = sqlite3.connect(path)
+        pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w}
+        # The copula's forms are listed under 이다; its stem 이 would otherwise begin any word in ㅇ (있었구나).
+        verbs = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('verb', 'adj')")} - {"이다"}
+        lemmas = {}
+        for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
+            lemmas.setdefault(form, set()).add(lemma)
+        _korean.update(fl=fl, known=lambda w: w in words or w in pack, rank=bundled.get, verbs=verbs, lemmas=lemmas)
+    return _korean
+
+
+def korean_guess(form, ranks, heads, depth=0):
+    """
+    The list's verb or adjective a whole Korean form the list lacks inflects, as build_frequency_list's korean_guess
+    finds it: by Yomitan's rules, the nearest, then the commonest; then the spoken endings in 잖아, then without a
+    polite 요 (같네요, 할게요).
+    """
+    k = korean_reader()
+    fl = k["fl"]
+    found = [(steps, ranks[lemma], lemma) for lemma, steps in fl.korean_dictionary_forms(form)
+             if lemma in heads and lemma in k["verbs"] and fl.korean_stem_of(lemma, form)]
+    if found:
+        return min(found)[2]
+    stem = next((form[:-len(e)] for e in fl.KOREAN_SPOKEN_ENDINGS if form.endswith(e) and len(form) > len(e)), None)
+    if stem and stem + "다" in heads and stem + "다" in k["verbs"]:
+        return stem + "다"
+    if form.endswith(fl.KOREAN_POLITE) and len(form) > 2 and depth < 2:
+        base = form[:-1]
+        if base in ranks:
+            return base
+        listed = [lemma for lemma in k["lemmas"].get(base, ()) if lemma in heads and lemma in k["verbs"]]
+        return min(listed, key=ranks.get) if listed else korean_guess(base, ranks, heads, depth + 1)
+    return None
+
+
+def korean_name(run, names):
+    """A run that is a name with particles after it (민수가, 서울에서, 민준이는) or called by it (민수야, 민준아): None, or the particles."""
+    k = korean_reader()
+    for name in names:
+        if not run.startswith(name):
+            continue
+        rest = run[len(name):]
+        if not rest:
+            return []
+        final = (ord(name[-1]) - 0xAC00) % 28 if "가" <= name[-1] <= "힣" else -1
+        # The vocative, and the 이 a given name ending in a consonant takes before particles (민준이가).
+        if rest == ("아" if final > 0 else "야"):
+            return []
+        stacks = k["fl"].korean_stacks(rest, name)
+        if not stacks and final > 0 and rest.startswith("이"):
+            if rest == "이":
+                return []
+            stacks = k["fl"].korean_stacks(rest[1:], name + "이")
+        if stacks:
+            return min(stacks, key=lambda stack: sum(math.log(k["rank"](p) or k["fl"].KOREAN_UNRANKED) for p in stack))
+    return None
+
+
+def korean_tokens(text, ranks, names, heads):
+    """
+    Korean words as the reader cuts them: each run of Hangul into a word and the particles after it, by the
+    bundled list's ranks and the ko-en pack's words. Each piece is the list's word as written, or, for a whole
+    verb form the list lacks, the verb it inflects. A name, and a number's counter, is [KNOWN]; the
+    particles after it are words.
+    """
+    k = korean_reader()
+    names = sorted({part for name in names for part in name.split() if part}, key=len, reverse=True)
+    out = []
+    previous_number, previous_end = False, 0
+    for match in KOREAN_RUN.finditer(text):
+        run = match.group(0)
+        particles = korean_name(run, names)
+        if particles is not None:
+            out.append(KNOWN)
+            out.extend(particles)
+            previous_number, previous_end = False, match.end()
+            continue
+        pieces = k["fl"].korean_pieces(run, k["known"], k["rank"])
+        start = match.start()
+        # A counter after digits (3개, 2024년에) or after a number word (세 명, 오 분) belongs to the number.
+        after_digits = start > 0 and text[start - 1].isdigit()
+        gap = text[previous_end:start]
+        spaced = previous_number and bool(gap) and gap.isspace()
+        if after_digits or spaced and pieces[0] in KOREAN_COUNTERS:
+            if spaced:
+                out[-1] = KNOWN
+            out.append(KNOWN)
+            pieces = pieces[1:]
+        previous_end = match.end()
+        previous_number = len(pieces) == 1 and pieces[0] == run and bool(
+            KOREAN_SINO_NUMBER.fullmatch(run) or KOREAN_NATIVE_NUMBER.fullmatch(run))
+        for piece in pieces:
+            out.append(piece if piece in ranks else korean_guess(piece, ranks, heads) or piece)
+    return out
+
+
 def check(path, brief=False):
     course = json.load(open(path, encoding="utf-8"))
     code = course["id"].split("-")[0]
@@ -793,7 +916,7 @@ def check(path, brief=False):
     band_start = up_to - BAND + 1
     need, shortest, longest = rules(up_to)
     # Chinese cuts into more, shorter words than the languages the lengths were set for.
-    if code in ("zh", "ja") and up_to > 4000:
+    if code in ("zh", "ja", "ko") and up_to > 4000:
         longest = 700
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
@@ -822,7 +945,7 @@ def check(path, brief=False):
     report = []
     # Where each new word is taught, by its forms: a Chinese lesson must not use a word a later lesson teaches.
     taught_in = {}
-    if code in ("zh", "ja"):
+    if code in ("zh", "ja", "ko"):
         for j, later in enumerate(course["lessons"], start=1):
             for new in later.get("newWords", []):
                 key = fold(code, new.lower())
@@ -873,7 +996,9 @@ def check(path, brief=False):
             text = text.replace("質問：", "")
         if code == "uk":
             text = re.sub(r"(?m)^Запитання:", "", text)
-        toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
+        if code == "ko":
+            text = re.sub(r"(?m)^질문:", "", text)
+        toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
