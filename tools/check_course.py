@@ -739,6 +739,7 @@ TR_HARD = {"d": "t", "ğ": "k", "b": "p", "c": "ç"}
 # A noun's plural, possessive and case (kartınızla, komşularınızla, telefonundaki, dükkânlardaki).
 TR_NOMINAL = re.compile(r"(?:l[ae]r)?(?:[ıiuü]?m|[ıiuü]?n|s?[ıiuü]|[ıiuü]?m[ıiuü]z|[ıiuü]?n[ıiuü]z|l[ae]r[ıiuü])?"
                         r"(?:n?[ıiuü]|n?[ae]|y[ıiuü]|y[ae]|n?[dt][ae]|n?[dt][ae]n|n?[dt][ae]ki|yl[ae]|l[ae]|n[ıiuü]n|[ıiuü]n)?$")
+TR_DERIVED = re.compile(r"(?:l[ıiuü]|s[ıiuü]z)" + TR_NOMINAL.pattern)
 TR_PASSIVE = re.compile(r"(?:[ıiuü]l|n)$")
 TR_TENSE = re.compile(r"(?:m?[ıiuü]?yor|[ae]r|[ıiuü]r|[dt][ıiuü]|m[ıiuü]ş|y?[ae]c[ae][kğ]|m[ae]l[ıi]|m[ae]z|m[ae])\w*$")
 
@@ -753,7 +754,12 @@ def turkish_base(word, ranks):
         # The y may be the word's own last letter rather than the buffer (kaykaydı is kaykay + dı).
         if word[match.start()] == "y" and base + "y" in ranks:
             return base + "y"
-        word = base
+        # What looks like a copula may be a case ending (rağbetin is rağbet + in, not rağbe + tin).
+        return _turkish_stem(base, ranks) or _turkish_stem(word, ranks)
+    return _turkish_stem(word, ranks)
+
+
+def _turkish_stem(word, ranks):
     # The longest list noun the rest of the word is a plural, possessive and case ending of (omuzdaki is
     # omuz + daki, not o + muzdaki); a two-letter noun (el, ev, su) only with an ending of three letters or more.
     for end in range(len(word) - 1, 1, -1):
@@ -765,6 +771,10 @@ def turkish_base(word, ranks):
         for noun in (base, base[:-1] + TR_HARD[base[-1]] if base[-1:] in TR_HARD else None):
             if noun in ranks:
                 return noun
+    # A noun with -li or -siz (amonyaklı, kokusuz) and its endings.
+    for end in range(len(word) - 2, 2, -1):
+        if word[:end] in ranks and TR_DERIVED.fullmatch(word, end):
+            return word[:end]
     # A verb stem may be two letters (ol-, öl-): the verb itself must be a list word.
     stems = []
     match = TR_VERBAL.search(word)
