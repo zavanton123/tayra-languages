@@ -1,0 +1,195 @@
+{
+  "id": "tr-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Halk sağlığı",
+  "description": "Ten standalone stories, interviews and columns about public health in Turkey and abroad: clean water, mosquitoes, vaccines, hospital hygiene, food safety, sun, loneliness, sleep and prevention.",
+  "topic": "Public health",
+  "names": [
+    "Konya",
+    "Esra",
+    "Hasan",
+    "Ahmet",
+    "Ayvalık",
+    "Leyla",
+    "Mehmet",
+    "Burak",
+    "Ömer",
+    "Halil",
+    "Trabzon",
+    "Karadeniz",
+    "Japon",
+    "Zehra",
+    "Antalya",
+    "Konyaaltı",
+    "Ayla",
+    "Fatma",
+    "Berlin",
+    "İstanbul",
+    "Münih",
+    "Sinan",
+    "Türkçe",
+    "Türk",
+    "Alman",
+    "Anadolu",
+    "Cem",
+    "Hatice",
+    "İbrahim",
+    "Ayşe",
+    "Yusuf",
+    "Yunan"
+  ],
+  "lessons": [
+    {
+      "title": "Kuyunun suyu",
+      "summary": "A young engineer tests the wells of a village near Konya and finds natural uranium and chromium in five of them.",
+      "newWords": [
+        "uranyum",
+        "krom",
+        "taşlı",
+        "müstakil",
+        "anomali",
+        "ilaveten",
+        "tıkamak",
+        "savurmak"
+      ],
+      "text": "Konya'ya bir saat uzaklıktaki küçük bir köyde evlerin çoğu müstakildir. Her müstakil evin bir bahçesi, bahçenin köşesinde de eski bir kuyusu vardır. Köylüler yıllarca bu kuyuların suyunu içmiş, yemeklerini bu suyla pişirmişti. Köye şebeke suyu ancak birkaç yıl önce gelmişti ve yaşlıların çoğu hâlâ kuyu suyunu daha lezzetli buluyordu.\n\nGeçen ilkbaharda il sağlık müdürlüğü, bölgedeki kuyuların suyunu tek tek incelemeye karar verdi. Bu iş için genç bir mühendis olan Esra Hanım köye geldi. Muhtar Hasan Bey onu köy kahvesinde karşıladı ve birlikte evleri dolaşmaya başladılar.\n\nO gün rüzgâr çok sertti. Rüzgâr tarlalardaki kuru toprağı havaya savuruyor, toz bulutları köyün üstünden geçiyordu. Esra Hanım bazı kuyuların ağzının açık olduğunu fark etti. \"Rüzgâr bu tozu doğrudan suyun içine savuruyor,\" dedi. \"Kuyunun ağzını mutlaka bir kapakla kapatmanız gerekir.\"\n\nEsra Hanım her evden iki şişe su aldı ve şişelerin üstüne evin numarasını yazdı. Köyün toprağı taşlı ve sertti; kuyuların bazıları bu taşlı zemine çok derin kazılmıştı. Bir evde musluktan neredeyse hiç su akmadığını gördüler. Ev sahibi Ahmet Amca, kumun pompanın borusunu tıkadığını anlattı. \"Her bahar kum borunun içine doluyor ve onu tıkıyor,\" dedi. Esra Hanım, borunun ucuna basit bir filtre takılırsa kumun boruyu bu kadar sık tıkamayacağını söyledi.\n\nİki hafta sonra laboratuvar sonuçları geldi. Kuyuların çoğunda su temizdi, ama köyün doğusundaki beş evde bir anomali vardı: Bu evlerin suyunda uranyum ve krom, izin verilen sınırın üstündeydi. Esra Hanım muhtara durumu sakin bir dille açıkladı. Uranyum, bu bölgenin taşlı toprağında doğal olarak bulunan bir maddeydi; yer altındaki su yüzyıllardır kayaların arasından geçiyor ve uranyumun bir kısmını yanına alıyordu. Krom ise büyük olasılıkla köyün yakınındaki eski bir deri atölyesinden kalmıştı. \"Bu anomali bir günde ortaya çıkmadı,\" dedi Esra Hanım. \"Ama artık onu biliyoruz ve önlem alabiliriz.\"\n\nÖnlemler basitti. Beş evin kuyusu içme suyu için kapatıldı; bu evler bundan sonra içmek ve yemek pişirmek için yalnızca şebeke suyunu kullanacaktı. Kuyu suyu ise bahçeyi sulamak için kullanılabilirdi. İlaveten, köydeki bütün kuyuların suyu her yıl yeniden ölçülecekti. Belediye köylülere kuyu kapağı ve filtre dağıttı; ilaveten her eve, kuyunun nasıl temiz tutulacağını anlatan küçük bir kâğıt bıraktı.\n\nAhmet Amca ilk başta biraz kırıldı; çocukluğundan beri içtiği suyun zararlı olabileceğine inanmak ona zor geldi. Ama Esra Hanım'ın gösterdiği rakamları dikkatle okudu ve sonunda başını salladı. \"Su eskisi gibi görünüyor,\" dedi, \"ama demek ki her şey göründüğü gibi değil.\" O akşam kuyusunun ağzına yeni kapağı kendi elleriyle taktı.\n\nSorular:\nEsra Hanım köye neden geldi?\nİl sağlık müdürlüğü bölgedeki kuyuların suyunu incelemek istediği için geldi.\nRüzgâr neden bir sorundu?\nRüzgâr kuru toprağı savuruyor, tozu açık kuyuların içine taşıyordu.\nAhmet Amca'nın evinde ne sorun vardı?\nKum, pompanın borusunu tıkıyordu ve musluktan neredeyse hiç su akmıyordu.\nLaboratuvar sonuçları hangi anomaliyi gösterdi?\nBeş evin suyunda uranyum ve krom, izin verilen sınırın üstündeydi.\nUranyum suya nasıl karışıyordu?\nYer altındaki su taşlı topraktaki kayaların arasından geçerken uranyumun bir kısmını yanına alıyordu."
+    },
+    {
+      "title": "Sivrisineksiz akşamlar",
+      "summary": "An Aegean neighbourhood plagued by mosquitoes agrees with the municipality on a plan and clears standing water together.",
+      "newWords": [
+        "ilaçlamak",
+        "çiftleşme",
+        "alacakaranlık",
+        "naylon",
+        "ıslanmak",
+        "bulutlu",
+        "yardımlaşmak",
+        "uzlaşmak",
+        "salyangoz"
+      ],
+      "text": "Ayvalık'ın eski mahallelerinden birinde oturan emekli öğretmen Leyla Hanım, o yaz akşamları bahçesinde oturamaz olmuştu. Güneş batıp alacakaranlık başladığı anda sivrisinekler ortaya çıkıyor, kollarını ve bacaklarını ısırıyordu. Komşusu Mehmet Bey de aynı durumdaydı. İkisi de alacakaranlıkta kapıları ve pencereleri kapatıyor, akşam yemeğini içeride yiyordu.\n\nMahalleli muhtara gitti ve belediyenin bütün mahalleyi ilaçlamasını istedi. Belediyeden gelen genç uzman Burak Bey, önce bir toplantı yapmayı önerdi. Toplantıda şunu anlattı: \"Her yeri ilaçlamak kolay görünür, ama kalıcı bir çözüm değildir. İlaçladığımız yerde birkaç gün sivrisinek azalır, sonra yeniden çoğalır. Kullandığımız ilaç arılara ve başka faydalı böceklere de zarar verir.\"\n\nBurak Bey sivrisineklerin nasıl çoğaldığını da anlattı. Yazın, çiftleşme döneminden sonra dişi sivrisinekler yumurtalarını durgun suya bırakıyordu. Bir kova, eski bir lastik, hatta bahçede unutulmuş bir naylon örtü bile yeterliydi. Yağmur yağınca naylon örtünün üstünde küçük su gölleri oluşuyor, birkaç gün içinde bu sular yeni sivrisineklerle doluyordu. \"Çiftleşme mevsiminde bir şişe kapağı kadar su bile önemlidir,\" dedi.\n\nToplantıda herkes aynı fikirde değildi. Bazıları hemen bütün mahallenin ilaçlanmasını istiyor, bazıları ise ilaçtan korkuyordu. Uzun bir tartışmadan sonra iki taraf uzlaştı: Belediye yalnızca dere kenarındaki sık otları ilaçlayacak, mahalleli de kendi bahçesindeki durgun suyu temizleyecekti. Uzlaşmak kolay olmamıştı, ama herkes bu kararın adil olduğunu kabul etti.\n\nCumartesi sabahı mahalle yardımlaşarak işe koyuldu. Bu mahallede yardımlaşma eski bir gelenekti. Gençler yaşlıların bahçelerindeki kovaları boşalttı, naylon örtüleri katlayıp kaldırdı. Leyla Hanım komşularına limonata dağıttı. Gökyüzü bulutluydu ve öğleden sonra hafif bir yağmur başladı. Çalışanların hepsi ıslandı, ama kimse işi bırakmadı. Mehmet Bey ıslanmış gömleğiyle gülerek, \"Aman, bu yağmurun suyu da bir yerde birikmesin!\" dedi. Herkes güldü; ıslanmak o gün kimsenin umurunda değildi.\n\nYağmurdan sonra bahçelerde salyangozlar ortaya çıktı. Mehmet Bey'in küçük torunu, salyangozları da ilaçlamak gerekip gerekmediğini sordu. Leyla Hanım gülümsedi: \"Hayır, salyangoz sivrisinek gibi hastalık taşımaz. Onu rahat bırak.\" Çocuk bir salyangozu dikkatle bir yaprağın üstüne koydu.\n\nİki hafta sonra akşamlar değişmişti. Sivrisinekler tamamen kaybolmamıştı, ama sayıları çok azalmıştı. Bulutlu ve serin bir akşam Leyla Hanım ile Mehmet Bey yeniden bahçede oturup çaylarını içtiler. Alacakaranlık çökerken artık kapıları kapatmalarına gerek yoktu.\n\nSorular:\nLeyla Hanım neden akşamları bahçesinde oturamıyordu?\nAlacakaranlık başlayınca sivrisinekler ortaya çıkıp onu ısırıyordu.\nBurak Bey neden her yeri ilaçlamak istemedi?\nÇünkü ilaçlamak kalıcı bir çözüm değildi ve ilaç arılara ve faydalı böceklere de zarar veriyordu.\nNaylon örtü neden tehlikeliydi?\nYağmurdan sonra üstünde su birikiyor, sivrisinekler yumurtalarını bu suya bırakıyordu.\nMahalleli ve belediye nasıl uzlaştı?\nBelediye yalnızca dere kenarını ilaçlayacak, mahalleli de kendi bahçesindeki durgun suyu temizleyecekti.\nCumartesi günü hava nasıldı?\nGökyüzü bulutluydu ve öğleden sonra hafif bir yağmur başladı."
+    },
+    {
+      "title": "Aşı günü",
+      "summary": "A mother's diary: her son, afraid of the needle, gets his hepatitis vaccine at school by reciting prime numbers.",
+      "newWords": [
+        "hepatit",
+        "şırınga",
+        "mecburi",
+        "nezaret",
+        "tutturmak",
+        "ezbere",
+        "düşürücü",
+        "telesekreter",
+        "asal"
+      ],
+      "text": "Pazartesi, 14 Ekim\n\nBugün Ömer'in okulunda aşı günüydü. Okul iki hafta önce bütün ailelere bir mektup göndermişti. Mektupta dördüncü sınıflara hepatit A aşısının yapılacağı yazıyordu. Hepatit A, karaciğeri etkileyen ve kirli su ya da iyi yıkanmamış yiyeceklerle bulaşan bir hastalık. Aşı mecburi değil, ama doktorlar bütün çocuklara öneriyor. Mecburi olmadığı için her aileden imzalı bir onay kâğıdı istenmişti.\n\nÖmer bir haftadır \"Aşı olmayacağım!\" diye tutturmuştu. Ne söylesem ikna olmuyordu. \"Şırıngayı görünce bayılırım,\" diyordu. Bir akşam yemekte ona hepatitin ne olduğunu anlattım. \"Bir arkadaşın hasta olursa hastalık sana da geçebilir,\" dedim. \"Aşı olursan vücudun hastalığı tanır ve ona karşı hazır olur.\" Ömer biraz düşündü, sonra yine \"Ama şırınga çok büyük,\" diye tutturdu.\n\nBabası ona bir yol önerdi. Ömer matematiği çok sever; özellikle asal sayılara bayılır. Geçen yıl yüze kadar bütün asal sayıları ezbere öğrenmişti. Babası, \"Şırıngaya hiç bakma. Hemşire aşıyı yaparken asal sayıları ezbere say. Daha 23'e gelmeden iş biter,\" dedi. Ömer bu fikri çok sevdi.\n\nBu sabah okula ben de gittim. Aşılar okulun revirinde, aile sağlığı merkezinden gelen bir doktorun nezaretinde yapılıyordu. Doktor Hanım bana, her çocuğun aşıdan sonra 15 dakika kendi nezaretinde bekleyeceğini anlattı. Hemşire her yeni şırıngayı paketinden çocuğun önünde açıyor, kullandıktan sonra da özel bir kutuya atıyordu. Şırınga, Ömer'in sandığı kadar büyük değildi; küçücüktü.\n\nSıra Ömer'e geldiğinde gözlerini kapattı ve yüksek sesle saymaya başladı: \"2, 3, 5, 7, 11...\" Hemşire gülümsedi. Ömer 17'ye geldiğinde aşı çoktan bitmişti. \"Bu kadar mı?\" diye sordu. Sonra 15 dakika boyunca arkadaşlarına asal sayıları anlattı.\n\nAkşamüstü Ömer'in hafif ateşi çıktı. Doktor Hanım bunun olabileceğini söylemişti, yine de biraz endişelendim. Aile hekimimizi aradım ama telefonu telesekreter açtı. Telesekretere kısa bir mesaj bıraktım. Yarım saat sonra doktor beni aradı. Telesekreterdeki mesajımı dinlemişti. Ateş 38'in altındaysa ateş düşürücü vermeye gerek olmadığını, Ömer'in bol su içmesinin yeterli olduğunu söyledi. Ateş yükselirse ateş düşürücü bir şurup verebilirdim.\n\nGece ateş kendiliğinden düştü, düşürücüye hiç gerek kalmadı. Yatmadan önce Ömer bana, \"Anne, bir sonraki aşıya kadar 100'den sonraki asal sayıları da ezbere öğreneceğim,\" dedi.\n\nSorular:\nHepatit A nasıl bir hastalık?\nKaraciğeri etkileyen ve kirli su ya da iyi yıkanmamış yiyeceklerle bulaşan bir hastalık.\nAşı mecburi miydi?\nHayır, mecburi değildi, ama doktorlar bütün çocuklara öneriyordu.\nÖmer neden aşı olmak istemiyordu?\nŞırıngadan korkuyordu ve şırınganın çok büyük olduğunu sanıyordu.\nÖmer aşı olurken ne yaptı?\nGözlerini kapattı ve asal sayıları ezbere saydı.\nDoktor ateş için ne söyledi?\nAteş 38'in altındaysa ateş düşürücüye gerek olmadığını, bol su içmenin yeterli olduğunu söyledi."
+    },
+    {
+      "title": "Çamaşırhanenin ustası",
+      "summary": "An interview with the man who runs a Bursa hospital laundry, on how clean linen helps stop infections.",
+      "newWords": [
+        "çamaşırhane",
+        "kabarcık",
+        "düzenek",
+        "tertip",
+        "dikkatsiz",
+        "dağınıklık",
+        "esneklik",
+        "yumuşacık"
+      ],
+      "text": "Bir hastanede enfeksiyonla mücadele denince çoğumuzun aklına doktorlar ve hemşireler gelir. Oysa bu mücadelenin önemli bir kısmı, hastanenin bodrum katında, çamaşırhanede yürür. Bursa'daki bir devlet hastanesinin çamaşırhanesini 22 yıldır yöneten Halil Usta ile konuştuk.\n\n— Halil Usta, bir hastane çamaşırhanesi sıradan bir çamaşırhaneden nasıl ayrılır?\n— En büyük fark, kirli ile temizin hiç karşılaşmamasıdır. Bizim çamaşırhanemizde iki ayrı oda var. Kirli çarşaflar bir kapıdan girer, yıkandıktan sonra duvarın öbür tarafından çıkar. Makinelerimiz iki odanın arasındaki duvara yerleştirilmiştir. Bu düzenek sayesinde temiz çamaşır, kirli çamaşırın girdiği odaya bir daha hiç dönmez. Bu düzeneği ilk gördüğümde çok şaşırmıştım; şimdi onsuz bir çamaşırhane düşünemiyorum.\n\n— Mikroplar yıkamada nasıl yok ediliyor?\n— Sıcaklık ve süre çok önemlidir. Ameliyathaneden gelen çamaşırlar en az 70 derecede yıkanır. Makinenin camından bakınca suyun içinde binlerce kabarcık görürsünüz. İnsanlar kabarcık ne kadar çoksa çamaşırın o kadar temiz olacağını sanır. Oysa asıl işi kabarcıklar değil, sıcak su ve zaman yapar.\n\n— Bu işte en çok neye dikkat ediyorsunuz?\n— Tertibe. Çamaşırhanede her şeyin bir tertibi vardır: Hangi araba nereye konur, hangi torba hangi renktir, hepsi bellidir. Dağınıklık bizim için tehlikedir. Bir dağınıklık yüzünden temiz bir çarşaf kirli arabaya konursa, bütün emeğimiz boşa gider. Tertipli çalışan bir ekip hastaları da korur.\n\n— Hiç hata oldu mu?\n— Oldu tabii. Yıllar önce dikkatsiz bir arkadaşımız eldiven giymeden kirli torbaları açtı. Neyse ki ciddi bir şey olmadı, ama o günden sonra her yeni çalışana ilk hafta yalnızca kuralları öğretiyoruz. Dikkatsiz olmak kötü niyetli olmak değildir; insan çoğu zaman yorgunluktan dikkatsiz olur. Bu yüzden vardiyaları kısa tutuyoruz.\n\n— Kuralların bu kadar sıkı olduğu bir yerde esnekliğe yer var mı?\n— Var, olmak zorunda. Kurallarımız sıkıdır, ama çalışma saatlerimizde esneklik vardır. Çocuğu hasta olan bir arkadaşımız vardiyasını değiştirebilir. Esneklik olmazsa insanlar yorulur, yorgun insan da hata yapar.\n\n— Son olarak, işinizin en sevdiğiniz yanı ne?\n— Sabahın erken saatinde ütüden yeni çıkmış, yumuşacık çarşafları katlamak. Bir hasta o yumuşacık çarşafa uzandığında kendini biraz daha iyi hisseder. Bunu bilmek bana yeter.\n\nSorular:\nHastane çamaşırhanesinin en büyük farkı nedir?\nKirli ile temiz çamaşır hiç karşılaşmaz.\nMakineler neden iki odanın arasındaki duvara yerleştirilmiş?\nBu düzenek sayesinde temiz çamaşır, kirli çamaşırın girdiği odaya hiç dönmez.\nHalil Usta'ya göre çamaşırı asıl ne temizler?\nKabarcıklar değil, sıcak su ve zaman temizler.\nDağınıklık neden tehlikelidir?\nTemiz bir çarşaf kirli arabaya konursa bütün emek boşa gider.\nÇalışma saatlerinde neden esneklik var?\nEsneklik olmazsa insanlar yorulur ve yorgun insan hata yapar."
+    },
+    {
+      "title": "Yayla şenliğinde bir gün",
+      "summary": "A food safety inspector checks the stalls of a highland festival above Trabzon, from the trout to the ayran.",
+      "newWords": [
+        "ayran",
+        "güveç",
+        "haşlamak",
+        "alabalık",
+        "pancar",
+        "kiler",
+        "füzyon",
+        "ailecek",
+        "sefa"
+      ],
+      "text": "Her temmuz, Trabzon'un yaylalarından birinde büyük bir şenlik yapılır. Şehirde yaşayan aileler ailecek yaylaya çıkar, birkaç gün temiz havanın ve yaylanın sefasını sürer. Bazı aileler ailecek çadır kurup bütün hafta orada kalır. Şenlikte yemek de çok önemlidir: Çadırlarda mısır ekmeği, alabalık ve güveçte pişmiş et satılır.\n\nGıda mühendisi Zehra Hanım bu yıl şenliğe denetim için gitti. Onun işi yaylanın sefasını sürmek değil, binlerce kişinin yediği yemeklerin güvenli olmasını sağlamaktı. Kalabalık bir şenlikte tek bir hatalı yemek, yüzlerce kişiyi hasta edebilirdi.\n\nİlk durağı bir alabalık tezgâhıydı. Alabalıklar yakındaki bir çiftlikten sabah getirilmiş, buzun üstünde duruyordu. Zehra Hanım balıkların gözlerine ve renklerine baktı; alabalık tazeydi. Ama tezgâhın sahibi pişmiş alabalıkları çiğ balıkların hemen yanına koyuyordu. Zehra Hanım ona çiğ ve pişmiş yiyeceklerin ayrı tutulması gerektiğini anlattı.\n\nSonra bir güveç çadırına uğradı. Toprak güveçler odun ateşinde saatlerce pişiyordu. Zehra Hanım bir güvecin içine ölçü aletini soktu: Yemek yeterince sıcaktı. Güveç yavaş pişen ve uzun süre sıcak kalan bir yemek olduğu için açık havada en güvenli yemeklerden biriydi.\n\nAsıl sorun ayrandaydı. Bir tezgâhta ayran büyük bir kovada, güneşin altında bekliyordu. Ayran yoğurttan yapıldığı için sıcakta çabuk bozulabilir. Zehra Hanım satıcıdan ayranı hemen gölgeye ve buzun içine almasını istedi. Satıcı önce itiraz etti, sonra kovayı çadırın arkasındaki küçük kilere taşıdı. Kiler taştan yapılmıştı ve içi serindi. \"Ayranı kilerde tutun, sadece satacağınız kadarını dışarı çıkarın,\" dedi Zehra Hanım.\n\nÖğleden sonra genç bir aşçının çadırına geldi. Aşçı, Karadeniz yemekleriyle Japon mutfağını birleştiren bir füzyon tabağı hazırlıyordu: pancar, ince dilimler halinde alabalık ve mısırdan yapılmış küçük köfteler. Zehra Hanım füzyon mutfağına pek alışkın değildi, ama tabağın renkleri çok güzeldi. Aşçıya pancarı nasıl hazırladığını sordu. \"Pancarı sabah kabuğuyla birlikte bir saat haşlıyorum, sonra soğutup soyuyorum,\" dedi aşçı. \"Balığı da çiğ değil, fırında pişmiş kullanıyorum.\" Zehra Hanım memnun kaldı: Pancarı haşlamak onu hem lezzetli hem de güvenli yapıyordu. Aşçı, köftelerin içindeki yumurtaları da sabah haşladığını söyledi.\n\nAkşam olduğunda Zehra Hanım'ın defteri notlarla dolmuştu. Şenlik boyunca kimse hastalanmadı. Son gün Zehra Hanım da işini bitirdi, bir bardak soğuk ayran aldı ve biraz da olsa yaylanın sefasını sürdü.\n\nSorular:\nAileler şenlikte ne yapar?\nAilecek yaylaya çıkar, birkaç gün temiz havanın ve yaylanın sefasını sürerler.\nAlabalık tezgâhında ne sorun vardı?\nSatıcı pişmiş alabalıkları çiğ balıkların hemen yanına koyuyordu.\nGüveç neden güvenli bir yemekti?\nYavaş pişen ve uzun süre sıcak kalan bir yemek olduğu için güvenliydi.\nZehra Hanım ayran satıcısından ne istedi?\nAyranı gölgeye ve buzun içine almasını, kilerde tutmasını istedi.\nAşçı pancarı nasıl hazırlıyordu?\nPancarı kabuğuyla birlikte bir saat haşlıyor, sonra soğutup soyuyordu."
+    },
+    {
+      "title": "Sahildeki sağlık çadırı",
+      "summary": "A dermatologist runs a free skin check on an Antalya beach and reminds people of the well-known rules against the sun.",
+      "newWords": [
+        "yakıcı",
+        "şapkalı",
+        "sedef",
+        "karakteristik",
+        "serap",
+        "bilindik",
+        "tuhaflık"
+      ],
+      "text": "Temmuzun ortasında Antalya'da güneş, öğle saatlerinde gerçekten yakıcıdır. Sahile inen yolun asfaltı o kadar ısınır ki uzaktan bakınca yolun üstünde parlayan bir su varmış gibi görünür. Bu bir seraptır; yaklaştıkça kaybolur. Cilt doktoru Ayla Hanım her sabah sahildeki sağlık çadırına yürürken bu serabı görür ve kendi kendine, \"Güneş bugün de işini ciddiye alıyor,\" der.\n\nO yaz belediye ile bir hastane, Konyaaltı sahilinde ücretsiz cilt kontrolü başlatmıştı. Amaç, insanlara yakıcı güneşten nasıl korunacaklarını anlatmak ve cildinde bir sorun olanları erkenden hastaneye yönlendirmekti. Ayla Hanım çadırın önüne büyük bir pano asmıştı. Panoda bilindik öneriler yazıyordu: Saat 11 ile 16 arasında gölgede kalın, şapka takın, güneş kremini iki saatte bir yenileyin. Bunlar herkesin bildiği şeylerdi, ama Ayla Hanım'a göre sorun da buradaydı: Bilindik öneriler, tam da bilindik oldukları için ciddiye alınmıyordu.\n\nİlk gelen, şapkalı ve güneş gözlüklü yaşlı bir adamdı. \"Ben hep şapkalı gezerim, doktor hanım,\" dedi gururla. Ayla Hanım onu övdü, ama kulaklarının ve ensesinin kıpkırmızı olduğunu gösterdi. Şapkasının kenarı çok dardı. \"Şapkalı olmak yetmez,\" dedi, \"şapkanın kenarı da geniş olmalı.\"\n\nSonra genç bir kadın geldi. Yıllardır sedef hastalığı vardı. Dirseklerinde ve dizlerinde sedef hastalığının karakteristik izleri görülüyordu: kırmızı bir zeminin üzerinde gümüş renginde, kuru pullar. Bu karakteristik görüntü yüzünden kadın yazın kısa kollu giymekten çekiniyordu. Güneşin sedefe iyi geldiğini duymuştu ve bütün gün güneşte kalmayı düşünüyordu. Ayla Hanım ona bunun yarı doğru olduğunu anlattı. Kısa ve dikkatli güneşlenme bazı hastalarda lekeleri azaltabilirdi; ama güneş yanığı, tersine, hastalığı kötüleştirirdi. \"Sabahları 15 dakika yeter,\" dedi, \"yakıcı öğle güneşinden ise uzak durun.\"\n\nÖğleden sonra orta yaşlı bir adam sırtındaki bir beni göstermek istedi. Eşi, benin son aylarda şeklinin değiştiğini fark etmişti. Ayla Hanım beni dikkatle inceledi. Benin kenarlarında küçük bir tuhaflık vardı; rengi de her yerde aynı değildi. \"Bu tuhaflık büyük olasılıkla zararsızdır,\" dedi, \"ama emin olmak için hastanede bir uzmana görünmeniz gerekiyor.\" Adamın yüzündeki endişeyi görünce ekledi: \"Erken gelmek en doğrusu. Eşiniz bu tuhaflığı fark ettiği için şanslısınız.\"\n\nAkşamüstü çadırı kapatırken Ayla Hanım kumsala baktı. Şemsiyelerin altında aileler oturuyor, çocuklar şapkalı ve tişörtlü oynuyordu. Yol yine sıcaktı ve asfaltın üstünde serap yine parlıyordu. Ama Ayla Hanım bu kez serabı değil, gölgede oturan insanları gördü ve bu manzara onu sevindirdi.\n\nSorular:\nYolun üstünde parlayan şey neydi?\nBir seraptı; yaklaştıkça kayboluyordu.\nPanoda hangi öneriler yazıyordu?\nGölgede kalmak, şapka takmak ve güneş kremini iki saatte bir yenilemek gibi bilindik öneriler yazıyordu.\nŞapkalı adamın sorunu neydi?\nŞapkasının kenarı çok dardı, bu yüzden kulakları ve ensesi kıpkırmızı olmuştu.\nSedef hastalığının karakteristik izleri nasıldı?\nKırmızı bir zeminin üzerinde gümüş renginde, kuru pullardı.\nAyla Hanım neden adamı hastaneye yönlendirdi?\nÇünkü benin kenarlarında küçük bir tuhaflık vardı ve rengi her yerde aynı değildi."
+    },
+    {
+      "title": "Gurbette örülen atkılar",
+      "summary": "A lonely elderly woman in Berlin joins a knitting circle on her doctor's advice and finds company again.",
+      "newWords": [
+        "gurbet",
+        "atkı",
+        "hırka",
+        "motif",
+        "cömertlik",
+        "destansı",
+        "orkide",
+        "dekoratif"
+      ],
+      "text": "Fatma Teyze, Berlin'e 1973 yılında, 20 yaşındayken gelmişti. Kayseri'nin bir köyünden İstanbul'a otobüsle, İstanbul'dan Münih'e trenle, oradan da Berlin'e geçmişti. Bu yolculuk tam dört gün sürmüştü. Torunları bu hikâyeyi dinlerken ona \"destansı yolculuk\" derlerdi. Fatma Teyze ise gülerdi: \"Destansı bir şey yoktu, sadece çok yorulmuştuk.\"\n\nGurbette ilk yıllar zor geçti, ama çalıştı, çocuklarını büyüttü, kendine yeni bir hayat kurdu. Yıllar sonra çocukları başka şehirlere taşındı ve Fatma Teyze küçük dairesinde yalnız kaldı. Gençken gurbet, çalışmanın ve umudun adıydı; yaşlanınca yalnızlığın adı oldu. Günlerce kimseyle konuşmadığı oluyordu. Pencerenin önünde, kızının yıllar önce hediye ettiği beyaz bir orkide vardı. Fatma Teyze her sabah orkideye su verir, onunla konuşur gibi olurdu.\n\nBir gün aile hekimi Sinan Bey, kontrolde onun tansiyonunun yükseldiğini ve uykusunun bozulduğunu gördü. Sinan Bey Berlin'de doğmuştu ama Türkçeyi çok iyi konuşuyordu. \"Teyzeciğim, yalnızlık da bir sağlık sorunudur,\" dedi. \"Uzun süren yalnızlık kalbe ve uykuya zarar verir.\" Ona mahalledeki bir kadın derneğini önerdi. Orada her salı bir örgü grubu toplanıyordu.\n\nFatma Teyze ilk salı çekinerek gitti. Odada on iki kadın vardı; kimi Türk'tü, kimi Alman. Masada renk renk yünler duruyordu. Grubun bu kışki amacı, mahalledeki evsiz barınağı için atkı ve hırka örmekti. Fatma Teyze yıllardır örgü örmemişti, ama elleri hiçbir şeyi unutmamıştı. İlk hafta bir atkı ördü. Atkının iki ucuna, köyünde annesinden öğrendiği koç boynuzu motifini işledi.\n\nMotif kadınların çok hoşuna gitti. Herkes bu motifin anlamını sordu. Fatma Teyze anlattı: Koç boynuzu motifi Anadolu'da güç ve bereket demekti. Bir Alman kadın, kendi büyükannesinin işlediği bir motifi gösterdi; iki motif birbirine çok benziyordu. O günden sonra salı günleri motif alışverişi de başladı.\n\nKış boyunca grup kırk atkı ve yirmi hırka ördü. Fatma Teyze'nin ördüğü kalın, gri hırka, barınaktaki görevlilerin en çok beğendiği hırka oldu. Barınağın müdürü kadınlara teşekkür ederken onların cömertliğinden söz etti. Fatma Teyze ise bunun cömertlik olmadığını söyledi: \"Siz bize atkılar ve hırkalar için teşekkür ediyorsunuz, ama asıl biz size teşekkür etmeliyiz. Bu grup bana yeniden insanlarla konuşmayı öğretti.\"\n\nBahar geldiğinde Sinan Bey, Fatma Teyze'nin tansiyonunun düştüğünü ve daha iyi uyuduğunu gördü. Fatma Teyze ona küçük bir hediye getirmişti: üzerinde koç boynuzu motifi olan, dekoratif bir duvar örtüsü. \"Bunu muayene odanıza asın,\" dedi. \"Sadece dekoratif bir şey, ama bir hikâyesi var.\" Penceresindeki orkide de o bahar yıllar sonra ilk kez yeniden çiçek açtı.\n\nSorular:\nTorunlar Fatma Teyze'nin yolculuğuna neden \"destansı\" diyorlardı?\nÇünkü yolculuk otobüsle ve trenle tam dört gün sürmüştü.\nGurbet, Fatma Teyze yaşlanınca neyin adı oldu?\nYalnızlığın adı oldu.\nSinan Bey Fatma Teyze'ye ne önerdi?\nMahalledeki kadın derneğinin örgü grubuna gitmesini önerdi.\nFatma Teyze atkının uçlarına hangi motifi işledi?\nKöyünde annesinden öğrendiği koç boynuzu motifini işledi.\nFatma Teyze neden bunun cömertlik olmadığını söyledi?\nÇünkü grup ona yeniden insanlarla konuşmayı öğretmişti."
+    },
+    {
+      "title": "Uykusuz bir dönem",
+      "summary": "A student who cannot sleep learns at the campus health centre how caffeine and noise keep him awake.",
+      "newWords": [
+        "öğrencilik",
+        "muhtelif",
+        "davulcu",
+        "yatıştırıcı",
+        "kafein",
+        "göreceli",
+        "sinirsel",
+        "seyrek"
+      ],
+      "text": "Cem, İstanbul'da bir üniversitenin üçüncü sınıfındaydı. Öğrencilik hayatını çok seviyordu: dersler, arkadaşlar, kampüsün çimlerinde uzun sohbetler. Ama son aylarda öğrencilik onu yormaya başlamıştı, çünkü bir türlü uyuyamıyordu. Gece saat ikiye kadar yatakta dönüp duruyor, sabah derse gözleri kızarmış hâlde gidiyordu.\n\nUykusuzluğun muhtelif sebepleri vardı. Birincisi gürültüydü. Cem'in oturduğu sokakta yaz boyunca neredeyse her hafta sonu bir düğün oluyordu ve davulcular gece yarısına kadar çalıyordu. Davulcu sokağın öbür ucundayken bile davulun sesi Cem'in odasına kadar geliyordu. İkincisi kahveydi. Sınavlara hazırlanırken günde 5-6 fincan kahve içiyor, akşam yemeğinden sonra bile bir fincan daha içiyordu. Üçüncüsü telefonuydu: Yatakta saatlerce ekrana bakıyordu.\n\nSonunda kampüsteki sağlık merkezine gitti. Doktor Hatice Hanım onu dikkatle dinledi. Cem utanarak sordu: \"Bana bir yatıştırıcı yazabilir misiniz? Birkaç gece rahat uyusam yeter.\" Hatice Hanım başını salladı. \"Yatıştırıcı ilaçlar kısa bir süre işe yarayabilir, ama sebebi ortadan kaldırmaz. Üstelik insan onlara kolayca alışır. Önce sebepleri değiştirelim; gerekirse yatıştırıcıyı sonra konuşuruz.\"\n\nHatice Hanım önce kafeinden söz etti. \"Kafeinin etkisi vücutta 5-6 saat sürer,\" dedi. \"Akşam altıda içtiğin kahvedeki kafeinin yarısı, gece yarısı hâlâ kanında dolaşıyor. Kafein sadece kahvede değil, çayda ve enerji içeceklerinde de var.\" Ona öğleden sonra saat üçten sonra kafein almamasını önerdi.\n\nSonra gürültüye geçtiler. \"Gürültü biraz göreceli bir şeydir,\" dedi doktor. \"Seni uyutmayan bir davul sesi, yan dairedeki komşunu hiç rahatsız etmeyebilir. Ama rahatsızlık göreceli olsa da etkisi gerçektir. Gece gürültüsü seni uyandırmasa bile kalbini hızlandırır.\" Sesin vücut için sinirsel bir yük olduğunu, uzun uykusuzluğun da sinirsel yorgunluğa yol açtığını anlattı. Sinirsel yorgunluk ise dikkati, hafızayı ve sınavdaki başarıyı düşürüyordu.\n\nCem eve dönünce küçük değişiklikler yaptı. Kahveyi sabaha aldı, akşamları bitki çayı içti. Telefonunu yatağın yanından kaldırıp mutfağa koydu. Ayrıca mahallenin muhtarıyla konuştu; muhtar da düğün sahiplerinden davulcuların saat 23'te çalmayı bırakmasını rica etti. Eylül gelince sokaktaki düğünler seyrek hâle geldi. Cem de kahveyi artık daha seyrek içiyordu: günde yalnızca iki fincan, ikisi de öğleden önce.\n\nBir ay sonra Hatice Hanım'a kontrole gittiğinde Cem, yatıştırıcıya ihtiyacı kalmadığını söyledi. \"Her gece 7 saat uyuyorum,\" dedi. \"En tuhafı da kahvenin tadı şimdi bana daha güzel geliyor.\"\n\nSorular:\nCem neden yorgundu?\nBir türlü uyuyamıyordu, gece saat ikiye kadar yatakta dönüp duruyordu.\nCem'in uykusuzluğunun muhtelif sebepleri nelerdi?\nDüğünlerde çalan davulcuların gürültüsü, çok içtiği kahve ve yatakta baktığı telefon.\nHatice Hanım neden hemen yatıştırıcı yazmadı?\nÇünkü yatıştırıcı ilaçlar sebebi ortadan kaldırmaz ve insan onlara kolayca alışır.\nKafeinin etkisi ne kadar sürer?\nKafeinin etkisi vücutta 5-6 saat sürer.\nDoktor gürültü için neden \"göreceli\" dedi?\nÇünkü bir kişiyi rahatsız eden ses başka birini hiç rahatsız etmeyebilir."
+    },
+    {
+      "title": "Önlemenin getirisi",
+      "summary": "A columnist answers a reader who asks whether money for prevention and screening is wasted, weighing both sides.",
+      "newWords": [
+        "getiri",
+        "bono",
+        "pankreas",
+        "küsur",
+        "tekil",
+        "şablon",
+        "utanmaz",
+        "rekabetçi"
+      ],
+      "text": "Geçen hafta bir okurumdan mektup aldım. \"Hastanelerde yer yokken, belediyenin parasını yürüyüş yollarına ve tarama kampanyalarına harcamak israf değil mi?\" diye soruyordu. Soru haklı bir soru. Bu yazıda iki tarafı da tartmaya çalışacağım.\n\nÖnce bir benzetme yapalım. Bir bono alan kişi parasını bugün verir, getirisini ise birkaç yıl sonra alır. Bononun getirisi gözle görülmez; kimse bono aldı diye sokakta bayram yapmaz. Önleyici sağlık harcamaları da bir bonoya benzer. Bugün harcanan para, yıllar sonra hastaneye gitmeyen insanlar olarak geri döner. Sorun şu ki hastaneye gitmeyen insanı kimse görmez.\n\nŞeker hastalığını düşünelim. Bu hastalık, pankreasın yeterince insülin üretmemesi ya da vücudun bu insüline iyi cevap vermemesiyle ortaya çıkar. Çoğu zaman yıllarca sessizce ilerler; pankreas yorulur, ama kişi bir şey hissetmez. Basit bir kan şekeri taraması bu sessiz dönemi yakalayabilir. Bir taramanın maliyeti birkaç yüz lirayken, ilerlemiş şeker hastalığının yıllık tedavisi 30 bin küsur liraya ulaşabiliyor. Belediyenin geçen yıl yaptığı tarama da 4 bin küsur kişiye ulaştı. Bu rakamlar, önlemenin getirisini açıkça gösteriyor.\n\nAma madalyonun öbür yüzü de var. Her önleme programı aynı getiriyi sağlamaz. Bazı taramalar o kadar çok yanlış alarm verir ki gereksiz tahliller ve kaygı, faydayı geçer. Ayrıca bir başarı hikâyesi tekil bir örnektir. Bir köyde işe yarayan bir program her yerde işe yaramayabilir. Kararlarımızı tekil hikâyelere değil, büyük sayılara dayandırmalıyız.\n\nBir başka tehlike de şablon programlar. Büyük bir şehir için hazırlanmış bir şablonu aynen bir dağ köyüne uygulamak, parayı rüzgâra savurmaktır. Her yerin ihtiyacı farklıdır; hazır bir şablon yerine yerel bilgiyle hazırlanmış programlar gerekir.\n\nBir de reklamlar meselesi var. Televizyonda \"pankreası yeniler, şekeri kökünden yok eder\" diye satılan bitki kapsülleri görüyorum. Bu utanmaz vaatler, insanları gerçek taramadan ve tedaviden uzaklaştırıyor. Önleyici sağlık, utanmaz satıcıların değil, doğru bilginin işi olmalı.\n\nSon olarak ekonomi tarafı. Rekabetçi bir ekonomi ancak sağlıklı çalışanlarla mümkündür. Çalışanları sık sık hastalanan bir şirket, ne kadar yeni makineleri olsa da uzun süre rekabetçi kalamaz. Bu yüzden bazı şirketler çalışanlarına ücretsiz sağlık kontrolü sunuyor. Bunu yalnızca iyilik için değil, kendi çıkarları için de yapıyorlar ve haklılar.\n\nOkuruma cevabım şu: Hayır, israf değil; ama her harcama da yatırım değildir. Önlemeyi bir bono gibi düşünmeli, getirisini sabırla beklemeli, ama hangi bonoyu aldığımıza da dikkat etmeliyiz.\n\nSorular:\nOkur yazara ne sordu?\nBelediyenin parasını yürüyüş yollarına ve tarama kampanyalarına harcamanın israf olup olmadığını sordu.\nYazar önleyici sağlığı neden bir bonoya benzetiyor?\nÇünkü para bugün harcanır, getirisi ise yıllar sonra gelir.\nŞeker hastalığı nasıl ortaya çıkar?\nPankreas yeterince insülin üretmeyince ya da vücut insüline iyi cevap vermeyince ortaya çıkar.\nYazara göre şablon programların sorunu nedir?\nHer yerin ihtiyacı farklıdır; büyük şehir için hazırlanmış bir şablon bir dağ köyüne uymaz.\nYazar reklamlardaki vaatler için ne diyor?\nBu utanmaz vaatlerin insanları gerçek taramadan ve tedaviden uzaklaştırdığını söylüyor."
+    },
+    {
+      "title": "Müzede bir sabah",
+      "summary": "A biology teacher takes his class to a museum of medical history: a mummy, an early microscope, an old school notebook and a garden of healing plants.",
+      "newWords": [
+        "mumya",
+        "hanedan",
+        "mercek",
+        "simgele",
+        "mektep",
+        "şifalı",
+        "botanik"
+      ],
+      "text": "Biyoloji öğretmeni İbrahim Bey, bir cuma sabahı on birinci sınıf öğrencilerini İstanbul'daki bir üniversitenin tıp tarihi müzesine götürdü. Müze eski bir binanın iki katına yerleşmişti. Rehber Ayşe Hanım öğrencileri kapıda karşıladı.\n\nİlk salonda cam bir dolabın içinde bir mumya vardı. Bu, Mısır'dan getirilmiş gerçek bir mumya değil, bilimsel bir kopyaydı. Ayşe Hanım, bilim insanlarının gerçek mumyaları röntgenle ve tomografiyle incelediğini anlattı. Bu incelemeler, binlerce yıl önce yaşamış insanların da damar sertliği, diş çürüğü ve eklem hastalıkları çektiğini göstermişti. \"Eski Mısır'daki hanedanların üyeleri en iyi yemekleri yiyordu,\" dedi Ayşe Hanım. \"Ama mumyalara bakınca, hanedan üyelerinin damarlarının da tıpkı bizimkiler gibi sertleştiğini görüyoruz. Bol yağlı yemek ve az hareket, o zaman da sağlığa zarar veriyormuş.\"\n\nİkinci salon mikroskoplara ayrılmıştı. Bir dolapta 17. yüzyıldan kalma bir mikroskobun kopyası duruyordu. Bu mikroskobun tek bir küçük merceği vardı. Ayşe Hanım, bir kumaş tüccarının böyle bir mercekle bir damla suyun içindeki küçük canlıları ilk kez gördüğünü anlattı. Öğrencilerden Yusuf, bu kadar küçük bir merceğin nasıl bu kadar büyütebildiğini sordu. Ayşe Hanım, merceğin çok dikkatle parlatıldığını ve neredeyse bir cam boncuk gibi yuvarlak olduğunu açıkladı.\n\nÜçüncü salonun duvarında, bir değneğe sarılmış bir yılan resmi asılıydı. Ayşe Hanım sordu: \"Bu sembolü nerede gördünüz?\" Öğrenciler eczanelerin ve ambulansların üstünde gördüklerini söylediler. Ayşe Hanım, bu sembolün eski Yunan'dan geldiğini ve tıbbı simgelediğini anlattı. Yılanın deri değiştirmesi ise yenilenmeyi ve iyileşmeyi simgeliyordu.\n\nAynı salonda eski bir mektep defteri de duruyordu. Defter, 1930'larda bir köy mektebinde okuyan bir kız öğrenciye aitti. Sayfalarda ellerin nasıl yıkanacağı, suyun nasıl kaynatılacağı ve sineklerden nasıl korunulacağı güzel bir el yazısıyla yazılmıştı. İbrahim Bey öğrencilerine döndü: \"Görüyorsunuz, halk sağlığı mektepte, bir çocuğun defterinde başlıyor.\"\n\nSon durak, müzenin arkasındaki küçük botanik bahçesiydi. Bu botanik bahçesinde nane ve papatya gibi yüzyıllardır şifalı kabul edilen bitkiler yetişiyordu. Ayşe Hanım, şifalı bitkilerin tıbbın tarihinde önemli bir yeri olduğunu, ama \"doğal\" olan her şeyin zararsız olmadığını da hatırlattı. Bazı şifalı bitkiler, ilaçlarla birlikte alındığında tehlikeli olabiliyordu.\n\nDönüş yolunda Yusuf, otobüsün camından bir eczanenin tabelasındaki yılanı gösterdi. \"Hocam, bakın, tıbbı simgeleyen yılan!\" dedi. İbrahim Bey gülümsedi; gezi amacına ulaşmıştı.\n\nSorular:\nMumyalar üzerindeki incelemeler neyi gösterdi?\nBinlerce yıl önce yaşamış insanların da damar sertliği, diş çürüğü ve eklem hastalıkları çektiğini gösterdi.\nHanedan üyelerinin damarları neden sertleşmişti?\nBol yağlı yemek yiyorlar ve az hareket ediyorlardı.\nEski mikroskobun kaç merceği vardı?\nTek bir küçük merceği vardı.\nDeğneğe sarılmış yılan neyi simgeliyor?\nTıbbı simgeliyor; yılanın deri değiştirmesi de yenilenmeyi ve iyileşmeyi simgeliyor.\nBotanik bahçesinde Ayşe Hanım neyi hatırlattı?\nŞifalı bitkilerin önemli olduğunu, ama doğal olan her şeyin zararsız olmadığını hatırlattı."
+    }
+  ]
+}

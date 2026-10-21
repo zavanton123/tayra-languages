@@ -1,0 +1,186 @@
+{
+  "id": "tr-mini-7800",
+  "rankUpTo": 7800,
+  "level": "C1",
+  "title": "Devlet ve vatandaş",
+  "description": "Ten everyday stories about ordinary people dealing with public offices, services and spaces: permits, tax offices, libraries, parks, clinics, museums, auctions, weddings, evening classes and protected nature.",
+  "topic": "State and citizens",
+  "names": [
+    "Esra",
+    "Ömer",
+    "Ankara",
+    "Etimesgut",
+    "Sinan",
+    "Cem",
+    "İzmir",
+    "İstanbul",
+    "Leyla",
+    "Merve",
+    "Eskişehir",
+    "Halil",
+    "Ayla",
+    "Bursa",
+    "Hasan",
+    "Hatice",
+    "Zehra",
+    "Fatma",
+    "Adana",
+    "Yusuf",
+    "Çukurova",
+    "Türkiye",
+    "Ali",
+    "Konya",
+    "Ahmet",
+    "Emine",
+    "Burak",
+    "Trabzon",
+    "İbrahim",
+    "Ayşe",
+    "Mehmet",
+    "Türkçe",
+    "Karapınar",
+    "Meke Gölü"
+  ],
+  "lessons": [
+    {
+      "title": "İskân izni",
+      "summary": "A couple learn that their new flat has no occupancy permit and follow the inspection until the permit is granted.",
+      "newWords": [
+        "iskan",
+        "bihaber",
+        "tutanak",
+        "istinaden",
+        "ikaz",
+        "bürokratik",
+        "sifon",
+        "müteakip"
+      ],
+      "text": "Esra ile Ömer, Ankara'nın Etimesgut ilçesinde yeni yapılmış bir apartmandan daire aldılar. Taşınmadan önce elektrik ve su için başvuru yapmak üzere belediyeye gittiler. Ancak gişedeki memur, binanın iskân izninin henüz alınmadığını söyledi.\n\n— İskân izni olmayan bir binaya su veremiyoruz, dedi. Önce binanın iskânı çıkmalı.\n\nEsra ile Ömer bu durumdan tamamen bihaberdi. Müteahhit onlara her şeyin hazır olduğunu söylemişti. Akşam müteahhidi aradılar. Müteahhit, belgelerin belediyede beklediğini ve iskânın birkaç hafta içinde çıkacağını söyledi.\n\nÖmer ertesi gün yeniden belediyeye gitti. İmar müdürlüğündeki memur Sinan Bey ona süreci sabırla anlattı. Önce belediyeden bir ekip binayı denetleyecek, gördüklerini bir tutanakla kayda geçirecekti. Tutanakta bir eksik yoksa, bu tutanağa istinaden iskân izni verilecekti. Eksik varsa, müteahhide bir ikaz yazısı gönderilecek ve eksikler giderilmeden izin verilmeyecekti.\n\n— Biraz bürokratik bir süreç, farkındayım, dedi Sinan Bey. Ama bu denetim sizin güvenliğiniz için. Yangın merdiveninden asansöre kadar her şeye bakılıyor.\n\nDenetim ekibi bir hafta sonra geldi. Esra da o gün dairedeydi. Ekip binayı kat kat dolaştı, yangın merdivenini ve asansörü kontrol etti. Esra'nın dairesine girdiklerinde banyodaki sifonun su kaçırdığını fark ettiler. Sifonun altındaki boru gevşekti ve yerde küçük bir su lekesi vardı. Ekipten biri bunu da tutanağa yazdı.\n\nBirkaç gün sonra müteahhide bir ikaz yazısı geldi. Yazıda, tutanağa istinaden sifonun ve iki dairedeki eksik korkulukların on beş gün içinde onarılması isteniyordu. Müteahhit ikazı ciddiye aldı. Ertesi hafta bir usta gönderdi; usta sifonu değiştirdi ve boruyu sıktı.\n\nEksiklerin giderilmesini müteakip ekip binayı yeniden denetledi ve bu kez temiz bir tutanak hazırladı. İskân izni bir hafta sonra verildi. İzni müteakip Esra ile Ömer elektrik ve su başvurularını aynı gün yaptılar.\n\nTaşındıkları akşam Ömer bütün süreci düşünüp güldü.\n\n— Başta bu bürokratik iş canımı çok sıktı, dedi. Ama o ikaz olmasaydı, alttaki komşunun tavanına belki de su akardı.\n\n— Haklısın, dedi Esra. Bundan sonra bir ev alırken iskânı ilk iş olarak soracağız. Bir daha böyle bir şeyden bihaber kalmak istemiyorum.\n\nSorular:\nEsra ile Ömer belediyede neden su alamadı?\nBinanın iskân izni henüz alınmadığı için alamadılar.\nDenetim ekibi gördüklerini nasıl kayda geçirdi?\nGördüklerini bir tutanakla kayda geçirdi.\nEsra'nın dairesinde hangi eksik bulundu?\nBanyodaki sifon su kaçırıyordu, altındaki boru gevşekti.\nMüteahhide neden bir ikaz yazısı gönderildi?\nTutanakta eksikler olduğu için, tutanağa istinaden bir ikaz yazısı gönderildi.\nİskân izni ne zaman verildi?\nEksiklerin giderilmesini müteakip yapılan ikinci denetimden bir hafta sonra verildi.\nEsra bundan sonra ne yapmak istiyor?\nBir ev alırken iskânı ilk iş olarak sormak istiyor."
+    },
+    {
+      "title": "Eski adres",
+      "summary": "A man receives an e-mail warning of a seizure over an old tax debt and settles it at a friendly tax office.",
+      "newWords": [
+        "haciz",
+        "mail",
+        "ramak",
+        "caba",
+        "itina",
+        "muvaffak",
+        "saydam",
+        "dostane"
+      ],
+      "text": "Cem iki yıl önce İzmir'den İstanbul'a taşınmıştı. Bir sabah işe giderken telefonuna bir mail geldi. Mail vergi dairesindendi. Cem'in ödenmemiş eski bir vergi borcu vardı. Borcun üstüne faiz eklenmişti, gecikme cezası da cabası. Mailin sonunda, borç on beş gün içinde ödenmezse banka hesabına haciz konulabileceği yazıyordu.\n\nCem çok şaşırdı. Arabasını İzmir'den ayrılmadan hemen önce satmıştı ve bütün vergilerini ödediğini sanıyordu. Akşam borcun ayrıntılarına baktı. Borç, arabayı sattığı yılın ikinci taksitiydi. Vergi dairesi ona iki kez yazı göndermişti, ama yazılar İzmir'deki eski adresine gitmişti. Cem taşınınca adresini bildirmeyi unutmuştu.\n\nErtesi gün vergi dairesine gitti. Gişedeki memur Leyla Hanım çok dostane bir kadındı. Cem'in endişeli yüzünü görünce gülümsedi.\n\n— Merak etmeyin, dedi. Haciz henüz başlamadı. Borcu bugün öderseniz haciz işlemi hiç başlamaz.\n\nLeyla Hanım ekrandaki bilgileri Cem'e tek tek gösterdi: asıl borç, faiz ve gecikme cezası. Her birinin nasıl hesaplandığını anlattı. Cem bu kadar saydam bir açıklama beklemiyordu. Devlet dairelerinde her şeyin karışık olduğunu sanıyordu.\n\n— Vatandaşa her şeyi saydam bir şekilde göstermek zorundayız, dedi Leyla Hanım. Neyi neden ödediğinizi bilmek sizin hakkınız.\n\nCem borcu ödedi. Leyla Hanım makbuzu itina ile katlayıp bir zarfa koydu. Sonra Cem'e adresini nasıl değiştireceğini anlattı. Bundan sonra bütün bildirimlerin mail ile de gelmesi için bir form verdi. Cem yeni adresini ve mail adresini itinayla yazdı, her harfi iki kez kontrol etti.\n\n— Hesabınıza haciz konulmasına ramak kalmış, dedi Leyla Hanım. Bir hafta daha geç kalsaydınız, işlem başlayacaktı.\n\n— Size çok teşekkür ederim, dedi Cem. Borç, faiz, ceza da cabası... Ama bu kadar dostane karşılanacağımı düşünmemiştim.\n\nAkşam Cem annesine telefon etti ve olanları anlattı.\n\n— Anne, vergi dairesindeki işi bir günde halletmeye muvaffak oldum, dedi gülerek.\n\n— Muvaffak olmak mı? dedi annesi. Ne kadar resmî konuşuyorsun!\n\n— Bütün gün vergi dairesindeydim, dedi Cem. İnsan orada böyle konuşmaya başlıyor. Ama işin aslı şu: hesabıma haciz konulmasına ramak kalmıştı.\n\nErtesi hafta telefonuna yeni bir mail geldi. Mail, adres değişikliğinin kaydedildiğini bildiriyordu. Cem maili okuyunca rahat bir nefes aldı. Bu kez gelen mail bir haciz uyarısı değil, iyi bir haberdi.\n\nSorular:\nCem'e gelen mail neyle ilgiliydi?\nÖdenmemiş eski bir vergi borcuyla ilgiliydi.\nBorç ödenmezse ne olabilirdi?\nCem'in banka hesabına haciz konulabilirdi.\nVergi dairesinin yazıları Cem'e neden ulaşmamıştı?\nYazılar İzmir'deki eski adresine gitmişti, çünkü Cem adresini bildirmeyi unutmuştu.\nLeyla Hanım borcu Cem'e nasıl açıkladı?\nAsıl borcu, faizi ve gecikme cezasını tek tek, saydam bir şekilde gösterdi.\nLeyla Hanım makbuzu ne yaptı?\nMakbuzu itina ile katlayıp bir zarfa koydu.\nAnnesi Cem'in hangi sözüne güldü?\n\"Muvaffak oldum\" sözüne güldü, çünkü bu söz ona çok resmî geldi."
+    },
+    {
+      "title": "Kütüphanede ilk gün",
+      "summary": "A new civil servant starts work at a public library, opens her personnel file and learns to keep private matters private.",
+      "newWords": [
+        "müessese",
+        "özlük",
+        "mahrem",
+        "teşrif",
+        "alakadar",
+        "gevezelik",
+        "dedikoducu",
+        "tamamlayıcı"
+      ],
+      "text": "Merve üniversiteyi bitirdikten sonra kamu sınavına girdi ve Eskişehir'deki il halk kütüphanesine memur olarak atandı. İlk iş gününde sabah erkenden kütüphaneye gitti. Bina eskiydi ama bakımlıydı; okuma salonunun büyük pencerelerinden içeri bol ışık giriyordu.\n\nÖnce personel bürosuna uğradı. Büroda Halil Bey adında yaşlı bir memur onu karşıladı. Halil Bey, Merve için bir özlük dosyası açacağını söyledi. Her çalışanın özlük dosyasında kimlik bilgileri, diploması, sağlık raporu ve izin kayıtları bulunuyordu.\n\n— Diplomanız ve sağlık raporunuz burada, dedi Halil Bey. Bir de tamamlayıcı belgeler lazım: adres belgesi ve iki fotoğraf. Bu tamamlayıcı belgeleri hafta içinde getirirseniz dosyanız tamam olur.\n\nMerve dosyaya kimlerin bakabileceğini sordu.\n\n— Özlük bilgileri mahremdir, dedi Halil Bey. Bu dolabı yalnızca ben ve müdürümüz açabiliriz. Burada çalışan herkesin mahrem bilgileri bu dolapta. Onları korumak benim görevim.\n\nSonra Halil Bey, Merve'yi müdürün odasına götürdü. Müdür Ayla Hanım ayağa kalkıp onun elini sıktı.\n\n— Müessesemize hoş geldiniz, dedi. Bu müessese yüz yıla yakın bir süredir şehre hizmet ediyor. Burada hepimiz okurlara hizmet etmek için varız.\n\nAyla Hanım ilk haftanın programını anlattı. Perşembe günü ünlü bir çocuk kitabı yazarı kütüphaneyi teşrif edecekti. Yazar, çocuklara kitaplarından okuyacak ve sorularını cevaplayacaktı.\n\n— Yazarımız bizi teşrif ettiğinde çocukları salona siz yerleştirirsiniz, dedi Ayla Hanım.\n\nÖğle arasında Merve, çay ocağında Esra adında bir meslektaşıyla tanıştı. Esra güler yüzlüydü ama biraz dedikoducuydu. Beş dakika içinde Merve'ye kimin kiminle konuşmadığını, kimin her gün geç geldiğini anlattı. Sonra Merve'nin maaşını ve evli olup olmadığını sordu.\n\nMerve kibarca gülümsedi.\n\n— Bu konular işimizi pek alakadar etmiyor bence, dedi. Bana kütüphanenin işleyişini anlatır mısın?\n\nEsra biraz şaşırdı ama kırılmadı. Ona ödünç verme ve iade işlerini anlattı. Öğleden sonra Merve okuma salonunda nöbet tuttu. İki lise öğrencisi bir masada yüksek sesle konuşup gülüyordu. Merve yanlarına gitti.\n\n— Lütfen gevezelik etmeyin, dedi alçak sesle. Salonda ders çalışan başka öğrenciler de var.\n\nÖğrenciler hemen sustu. Gün sonunda Halil Bey, Merve'ye Esra'yla nasıl anlaştığını sordu. Merve olanları anlattı.\n\n— İyi yapmışsın, dedi Halil Bey. Esra kötü biri değildir, ama dedikoducudur. Gevezelik etmeyi sever. Mahrem konuları, seni alakadar etmeyen işleri onunla konuşmamak en iyisi.\n\nMerve başını salladı. Ertesi sabah tamamlayıcı belgelerini getirdi ve özlük dosyası tamamlandı.\n\nSorular:\nMerve nereye memur olarak atandı?\nEskişehir'deki il halk kütüphanesine atandı.\nBir özlük dosyasında neler bulunuyordu?\nKimlik bilgileri, diploma, sağlık raporu ve izin kayıtları bulunuyordu.\nMerve'den hangi tamamlayıcı belgeler istendi?\nAdres belgesi ve iki fotoğraf istendi.\nHalil Bey özlük bilgileri için ne dedi?\nÖzlük bilgilerinin mahrem olduğunu, dolabı yalnızca kendisinin ve müdürün açabileceğini söyledi.\nPerşembe günü kütüphaneyi kim teşrif edecekti?\nÜnlü bir çocuk kitabı yazarı teşrif edecekti.\nMerve, Esra maaşını sorunca ne cevap verdi?\nBu konuların işlerini pek alakadar etmediğini söyledi."
+    },
+    {
+      "title": "Yeni park",
+      "summary": "Neighbours who asked the city for a park celebrate its opening with games, balloons and a drawing contest.",
+      "newWords": [
+        "salıncak",
+        "kovalamaca",
+        "çelenk",
+        "helyum",
+        "ürkek",
+        "ödüllendirmek",
+        "adaletli",
+        "atıştırmak"
+      ],
+      "text": "Bursa'nın eski bir mahallesinde, evlerin arasında yıllardır boş bir arsa vardı. Mahallede çocuklar için hiç park yoktu. Geçen yıl mahalleli bir dilekçe yazıp belediyeye verdi. Dilekçeyi iki yüzden fazla kişi imzaladı. Muhtar Hasan Bey de konuyu her ay belediyeye sordu. Sonunda belediye arsaya bir park yapmaya karar verdi.\n\nPark bu bahar bitti. Açılış bir cumartesi sabahı yapıldı. Parkın girişine mahalledeki fırının ve eczanenin gönderdiği iki büyük çelenk konmuştu. Çelenklerin üstünde \"Güle güle kullanın\" yazıyordu. Belediyeden gelen gençler, helyum dolu renkli balonları çocuklara dağıtıyordu. Helyum havadan hafif olduğu için balonlar ipin ucunda gökyüzüne doğru duruyordu.\n\nÇocuklar balonlarını alınca hemen oyuna daldı. Bir grup çim alanda kovalamaca oynamaya başladı. Kovalamaca oynayanların sesleri bütün parkı dolduruyordu. Ötekiler salıncağa koştu. Parkta altı salıncak vardı ve hepsi kısa sürede doldu.\n\nHatice Hanım parka torunu Zehra'yla gelmişti. Zehra dört yaşındaydı ve çok ürkek bir çocuktu. Salıncakları uzaktan izliyor, ama yanlarına gitmiyordu. Hatice Hanım onu zorlamadı. Önce birlikte salıncakların yanında durdular. Sonra Hatice Hanım Zehra'yı kucağına alıp salıncağa oturdu ve yavaşça sallandı. Ürkek kız önce sıkıca ninesine sarıldı, sonra gülmeye başladı. Biraz sonra tek başına salıncağa bindi.\n\nÖğleye doğru muhtar küçük bir resim yarışması düzenledi. Çocuklar yeni parkın resmini yaptı. Kimi kovalamaca oynayan arkadaşlarını, kimi salıncakları, kimi helyum balonlarını çizdi. Mahallenin emekli resim öğretmeni Sinan Bey resimlere baktı. Sonra herkesin duyacağı bir sesle konuştu.\n\n— Bütün çocukları ödüllendirmek istiyorum, dedi. Hepsi çok emek vermiş. Birini seçip ötekileri üzmek adaletli olmaz.\n\nMahalleli bu kararı alkışladı. Herkes bunun adaletli bir karar olduğunu düşündü. Muhtar, her çocuğu bir boya kalemi kutusuyla ödüllendirdi. Zehra da resmini salıncakta otururken çizmişti; kutusunu alınca çok sevindi.\n\nBu arada komşular evlerinden börek, kurabiye ve meyve getirdi. Uzun bir masa kuruldu. Çocuklar oyunlar arasında masaya gelip bir şeyler atıştırıyor, sonra yeniden oyuna dönüyordu. Büyükler de çay içip börek atıştırdı ve sohbet etti.\n\nAkşama doğru Hatice Hanım, Zehra'nın elinden tutup eve döndü. Zehra'nın bir elinde balonu, öbür elinde boya kutusu vardı.\n\n— Nine, yarın yine salıncağa gelelim mi? diye sordu.\n\nSorular:\nMahalleli park için ne yaptı?\nBir dilekçe yazıp belediyeye verdi.\nParkın girişinde neler vardı?\nFırının ve eczanenin gönderdiği iki büyük çelenk vardı.\nBalonlar neden gökyüzüne doğru duruyordu?\nHelyum havadan hafif olduğu için öyle duruyordu.\nHatice Hanım ürkek torununa nasıl yardım etti?\nOnu kucağına alıp salıncağa oturdu ve yavaşça sallandı.\nSinan Bey neden bütün çocukları ödüllendirmek istedi?\nHepsi çok emek vermişti ve birini seçmek adaletli olmayacaktı.\nÇocuklar oyunlar arasında ne yaptı?\nMasaya gelip börek, kurabiye ve meyve atıştırdılar."
+    },
+    {
+      "title": "Aile hekiminde",
+      "summary": "A mother takes her son to the family doctor and learns how the state once fought malaria in Çukurova.",
+      "newWords": [
+        "migren",
+        "sıtma",
+        "dalak",
+        "sümük",
+        "hücreli",
+        "soğukluk",
+        "işitsel"
+      ],
+      "text": "Fatma, Adana'da oturuyordu. Bir sabah oğlu Yusuf'u aile hekimine götürdü. Yusuf yedi yaşındaydı; üç gündür öksürüyordu ve burnundan durmadan sümük akıyordu. Fatma'nın da iki gündür migreni vardı. Başı zonkluyor, ışık gözlerini acıtıyordu.\n\nAile hekimi Doktor Hatice Hanım, yaşlıca, ciddi bir kadındı. Fatma ilk başta onun tavrında bir soğukluk sezdi. Doktor az konuşuyor, gülümsemiyordu. Ama Yusuf'u muayene etmeye başlayınca bu soğukluğun aslında dikkat olduğunu anladı. Doktor çocuğun ciğerlerini uzun uzun dinledi, boğazına ve kulaklarına baktı.\n\n— Basit bir soğuk algınlığı, dedi. Sümük berrak, ateşi de yok. Bol su içsin, dinlensin. Burnunu tuzlu suyla temizleyin, sümük kendiliğinden azalır.\n\nSonra Fatma'ya döndü ve migrenini sordu. Migren ağrılarının ne zaman başladığını, nelerin ağrıyı artırdığını öğrenmek istedi.\n\n— Işık beni çok rahatsız ediyor, dedi Fatma. Bir de gürültü.\n\n— Işığın yanında işitsel uyaranlar da migreni tetikleyebilir, dedi doktor. Yüksek müzik, trafik, kalabalık bir ortamın sesi... Bu işitsel uyaranları bir deftere yazın. Bir ay sonra birlikte bakalım. Gerekirse sizi bir nöroloji uzmanına göndereceğim.\n\nYusuf bu arada duvardaki eski bir afişe bakıyordu. Afişte büyük bir sivrisinek resmi ve \"Sıtmaya karşı birlikte\" yazısı vardı.\n\n— Sıtma ne? diye sordu.\n\nDoktor Hatice Hanım ilk kez gülümsedi.\n\n— Sıtma bir hastalık, dedi. Eskiden Çukurova'da çok yaygındı. Bataklıklarda sivrisinekler çoğalırdı. Sivrisinek insanı ısırınca kana tek hücreli küçük bir canlı geçerdi. Bu tek hücreli canlı, insanı çok hasta ederdi. Hastanın ateşi yükselir, titrerdi. Dalağı da büyürdü.\n\n— Dalak ne? diye sordu Yusuf.\n\n— Karnının sol üst tarafında bir organ, dedi doktor. Dalak kanı temizler. Sıtmada dalak çok çalışır ve büyür.\n\nDoktor, babasının da bir köy doktoru olduğunu anlattı. Devlet o yıllarda bataklıkları kurutmuş, köy köy dolaşan sağlık ekipleri kurmuştu. Babası da bu ekiplerden birindeydi. Böylece Türkiye'de sıtma neredeyse tamamen ortadan kalktı.\n\n— Afişi babamın hatırası olarak saklıyorum, dedi.\n\nMuayene bitince Fatma doktora teşekkür etti. Dışarı çıktıklarında Yusuf hâlâ sıtmayı düşünüyordu.\n\n— Anne, benim dalağım da kanımı temizliyor mu? diye sordu.\n\n— Temizliyor, dedi Fatma gülerek. Sen de bol su iç ki sümük bitsin.\n\nSorular:\nYusuf'un nesi vardı?\nÜç gündür öksürüyordu ve burnundan durmadan sümük akıyordu.\nFatma doktorun tavrındaki soğukluğu sonra nasıl anladı?\nBu soğukluğun aslında dikkat olduğunu anladı.\nDoktora göre hangi işitsel uyaranlar migreni tetikleyebilir?\nYüksek müzik, trafik ve kalabalık bir ortamın sesi tetikleyebilir.\nSıtmaya ne sebep olur?\nSivrisineğin kana geçirdiği tek hücreli küçük bir canlı sebep olur.\nDalak ne işe yarar?\nDalak kanı temizler.\nDoktor eski afişi neden saklıyor?\nBabası sıtmayla mücadele eden bir köy doktoruydu; afişi onun hatırası olarak saklıyor."
+    },
+    {
+      "title": "Demiryolu müzesi",
+      "summary": "A retired train driver takes his grandson to the railway museum and remembers dawn journeys across the steppe.",
+      "newWords": [
+        "lokomotif",
+        "mazot",
+        "düzlük",
+        "çalılık",
+        "seher",
+        "cereyan",
+        "tıpatıp"
+      ],
+      "text": "Hasan Amca otuz yıl devlet demiryollarında tren sürmüştü. Emekli olalı on yıl olmuştu, ama trenleri hâlâ çok seviyordu. Bir pazar günü torunu Ali'yi Ankara'daki demiryolu müzesine götürdü. Müze, eski garın hemen yanındaydı.\n\nMüzenin bahçesinde kocaman siyah bir lokomotif duruyordu. Ali onu görünce koşmaya başladı.\n\n— Dede, bu lokomotifi sen mi sürdün?\n\n— Hayır, dedi Hasan Amca. Bu bir buharlı lokomotif. Kömürle çalışırdı. Ben gençken bu lokomotifler artık az kalmıştı. Ben dizel lokomotif sürdüm. Dizel lokomotif mazotla çalışır.\n\nHasan Amca, Ali'ye bir dizel lokomotifin nasıl çalıştığını anlattı. Mazot büyük bir motorda yanar, motor da elektrik üretirdi. Bu elektrik tekerlekleri döndürürdü. Bir sefer için binlerce litre mazot gerekirdi.\n\n— Yeni trenler nasıl çalışıyor? diye sordu Ali.\n\n— Onlar elektrikli, dedi Hasan Amca. Cereyanı yukarıdaki tellerden alırlar. Tellerde güçlü bir cereyan vardır, o yüzden oraya asla yaklaşılmaz.\n\nSonra ikisi eski bir vagonun basamağına oturdu. Hasan Amca eski seferlerini anlatmaya başladı. Ankara'dan Konya'ya giden yük trenlerini sürerdi. Çoğu zaman yola seher vakti çıkardı. Seherde hava serin olurdu, gökyüzü yavaş yavaş aydınlanırdı.\n\n— Ankara'dan çıkınca uçsuz bucaksız bir düzlüğe girerdik, dedi. O düzlükte ne bir ağaç ne bir ev görünürdü. Rayların iki yanında yalnızca çalılık vardı. Bazen çalılıktan bir tilki çıkar, trene bakar, sonra yine çalılığa kaçardı.\n\n— Hiç korkmaz mıydı? dedi Ali.\n\n— Alışmıştı herhalde, dedi Hasan Amca gülerek. Her sabah aynı saatte geçiyorduk.\n\nHasan Amca, düzlükte güneşin doğuşunu izlemenin en güzel anısı olduğunu söyledi. Seherde gökyüzü önce mor, sonra pembe olurdu. Lokomotifin penceresinden bütün düzlük altın rengine bürünürdü.\n\nMüzeden çıkmadan önce küçük dükkâna uğradılar. Rafta küçük bir model lokomotif duruyordu. Hasan Amca modeli eline alınca durdu.\n\n— Bak Ali, dedi. Bu benim yıllarca sürdüğüm lokomotifin tıpatıp aynısı. Rengi bile aynı.\n\nHasan Amca modeli torununa aldı. Ali onu iki eliyle sıkıca tuttu. Eve dönerken otobüste modeli inceledi.\n\n— Dede, büyüyünce ben de tren süreceğim, dedi. Ama benimki elektrikli olacak, cereyanla çalışacak.\n\n— Olur, dedi Hasan Amca. Ama seher vaktini sakın kaçırma.\n\nSorular:\nHasan Amca otuz yıl ne iş yaptı?\nDevlet demiryollarında tren sürdü.\nDizel lokomotif ne ile çalışır?\nDizel lokomotif mazotla çalışır.\nElektrikli trenler cereyanı nereden alır?\nYukarıdaki tellerden alır.\nHasan Amca yola genellikle ne zaman çıkardı?\nSeher vakti çıkardı.\nRayların iki yanında ne vardı?\nYalnızca çalılık vardı; bazen çalılıktan bir tilki çıkardı.\nHasan Amca model lokomotifi görünce ne dedi?\nYıllarca sürdüğü lokomotifin tıpatıp aynısı olduğunu söyledi."
+    },
+    {
+      "title": "Belediyenin müzayedesi",
+      "summary": "A father and daughter go to a charity auction held by the city and buy an old model sailing boat.",
+      "newWords": [
+        "müzayede",
+        "yelkenli",
+        "gotik",
+        "ambalaj",
+        "aromalı",
+        "abuk",
+        "kışkırtıcı"
+      ],
+      "text": "İzmir'de belediye her yıl bir müzayede düzenliyordu. Müzayedede vatandaşların bağışladığı eşyalar satılıyor, gelir de köy okullarının kütüphanelerine gidiyordu. Bu yıl Ahmet Bey de kızı Emine'yle müzayedeye gitti. Ahmet Bey emekli bir denizciydi ve gazetede müzayedeye eski bir yelkenli modelinin de çıkacağını okumuştu.\n\nMüzayede kültür merkezinin büyük salonunda yapıldı. Salon doluydu. Sahnede, bağışlanan eşyalar bir masanın üstünde sıralanmıştı. Müzayedeyi belediyenin kültür müdürü Sinan Bey yönetiyordu.\n\nİlk olarak eski bir duvar saati satıldı. Saatin ahşap kasası gotik tarzda oyulmuştu; üstünde sivri kemerler ve ince kuleler vardı. Sinan Bey saati tanıtırken bu gotik süslemelerin yüz yıllık olduğunu söyledi. Saat iyi bir fiyata satıldı.\n\nSonra masaya yerel bir kahve dükkânının bağışladığı kutular geldi. Kutuların içinde aromalı kahveler vardı: fındıklı, tarçınlı, vanilyalı. Her kutu şık bir ambalaja sarılmıştı. Ambalajın üstünde altın rengi bir kurdele vardı. Sinan Bey kutulardan birini açtı; aromalı kahvenin kokusu ön sıralara kadar yayıldı. Salondakiler güldü.\n\nKahveler satılırken arka sıralardan bir adam abuk sabuk teklifler vermeye başladı. Bir kutu için önce çok düşük bir fiyat söyledi, sonra fiyatı birden on katına çıkardı. Bir başka adam da kışkırtıcı bir tavırla ayağa kalktı.\n\n— Bu kahveye bu kadar para verilmez! dedi yüksek sesle. Kim alırsa kandırılmış olur!\n\nSalonda bir uğultu oldu. Sinan Bey ise hiç sinirlenmedi. Gülümseyerek konuştu.\n\n— Beyefendi, burada kimse kandırılmıyor, dedi. Bu müzayedenin bütün geliri köy okullarına gidiyor. Teklif vermek zorunda değilsiniz. Abuk sabuk tekliflere ve kışkırtıcı sözlere de gerek yok. Lütfen herkes sırasıyla teklif versin.\n\nAdamlar oturdu ve müzayede sakin bir şekilde devam etti.\n\nSonunda sıra yelkenliye geldi. Model, ahşaptan yapılmış eski bir yelkenliydi. Beyaz yelkenleri hâlâ sağlamdı. Bir emekli kaptan, bu yelkenliyi yıllar önce kendi elleriyle yapmış ve belediyeye bağışlamıştı. Ahmet Bey modeli görünce heyecanlandı.\n\n— Baba, teklif ver! dedi Emine.\n\nAhmet Bey elini kaldırdı. İki kişi daha teklif verdi. Fiyat yavaş yavaş yükseldi. Sonunda öteki iki kişi vazgeçti ve yelkenli Ahmet Bey'in oldu.\n\nMüzayede bitince belediyenin çalışanları modeli dikkatle paketledi. Ahmet Bey'e kalın bir kâğıt ambalaj içinde verdiler. Eve dönünce Ahmet Bey ambalajı açtı ve yelkenliyi salondaki rafın en güzel yerine koydu.\n\n— Hem güzel bir yelkenli aldık, hem de köy okullarına yardım ettik, dedi Emine.\n\n— Evet, dedi Ahmet Bey. Bu müzayedeye her yıl gelmeliyiz.\n\nSorular:\nBelediyenin müzayedesinin geliri nereye gidiyordu?\nKöy okullarının kütüphanelerine gidiyordu.\nDuvar saatinin kasası nasıldı?\nGotik tarzda oyulmuştu; üstünde sivri kemerler ve ince kuleler vardı.\nKahve kutularının içinde ne vardı?\nFındıklı, tarçınlı ve vanilyalı aromalı kahveler vardı.\nSinan Bey kışkırtıcı sözlere nasıl karşılık verdi?\nSinirlenmedi; gülümseyerek gelirin köy okullarına gittiğini anlattı ve herkesten sırasıyla teklif vermesini istedi.\nYelkenliyi kim yapmıştı?\nBir emekli kaptan yıllar önce kendi elleriyle yapmıştı.\nAhmet Bey eve dönünce ne yaptı?\nAmbalajı açtı ve yelkenliyi salondaki rafın en güzel yerine koydu."
+    },
+    {
+      "title": "Nikâh günü",
+      "summary": "A best man saves a civil wedding at the town hall when a document goes missing on the morning of the ceremony.",
+      "newWords": [
+        "sağdıç",
+        "hayrola",
+        "azat",
+        "balıklı",
+        "ebediyet",
+        "çomak",
+        "antrenörlük"
+      ],
+      "text": "Burak, Trabzon'da belediyenin spor kulübünde antrenörlük yapıyordu. Çocuklara basketbol öğretiyordu. Antrenörlük onun için yalnızca bir iş değildi; çocuklarla çalışmayı çok seviyordu. O cumartesi ise salona gitmedi, çünkü en yakın arkadaşı İbrahim evleniyordu ve Burak onun sağdıcıydı.\n\nNikâh saat on birde belediyenin nikâh salonunda kıyılacaktı. Sabah yedide Burak'ın telefonu çaldı. Arayan İbrahim'di.\n\n— Hayrola, bu saatte? dedi Burak.\n\n— Kötü bir haber var, dedi İbrahim. Nikâh dairesinden aradılar. Benim sağlık raporumun bir sayfası dosyada yokmuş. O sayfa olmadan nikâh kıyılamazmış.\n\n— Sakin ol, dedi Burak. Sağdıç bu gün için var. Rapor nerede?\n\nİbrahim, raporun aslının evinde, masasının çekmecesinde olduğunu söyledi. Ama kendisi berberdeydi, saçı yarım kalmıştı. Burak hemen arabasına bindi. İbrahim'in annesinden anahtarı aldı, çekmeceden raporu buldu ve belediyeye gitti. Nikâh dairesindeki memur sayfayı dosyaya ekledi ve her şeyin tamam olduğunu söyledi.\n\nBurak, İbrahim'i aradı.\n\n— Hayrola, yine ne oldu? dedi İbrahim telaşla.\n\n— Bu kez iyi haber, dedi Burak. Rapor dosyada. Kimse bu düğünün tekerleğine çomak sokamaz.\n\nİbrahim rahat bir nefes aldı. Sonra gülerek konuştu.\n\n— Tekerleğe çomak sokan bir kâğıt parçasıydı, sen de onu çıkardın.\n\nSaat on birde salon doluydu. Gelin Ayşe beyaz bir elbise giymişti. Nikâh memuru kısa bir konuşma yaptı ve gençlere sorularını sordu. Ayşe de İbrahim de yüksek sesle \"Evet\" dedi. Burak ve Ayşe'nin kuzeni Leyla, şahit olarak deftere imza attılar. Memur, çiftin evlilik cüzdanını Ayşe'ye verdi ve onlara mutluluk diledi.\n\nNikâhtan sonra herkes belediyenin bahçesine çıktı. Ayşe'nin babası elinde beyaz güvercinlerle dolu bir kafesle gelmişti. Ayşe ile İbrahim kafesin kapağını birlikte açtı ve güvercinleri azat etti. Güvercinler bahçenin üstünde bir tur atıp denize doğru uçtu. Ayşe'nin babası, kendi düğününde de güvercinleri böyle azat ettiklerini anlattı.\n\nÖğle yemeği için şehrin dışındaki bir restorana gittiler. Restoranın bahçesinde balıklı bir havuz vardı. Çocuklar havuzun başından ayrılmadı; kırmızı balıklara ekmek attılar. Masalara da balıklı pilav ve hamsi tava geldi.\n\nYemeğin sonunda Burak ayağa kalktı ve bardağını kaldırdı.\n\n— Sevginiz ebediyete kadar sürsün, dedi. Bugün bir kâğıt az kalsın her şeyi bozuyordu. Ama aranızdaki sevgiyi hiçbir kâğıt bozamaz. Ebediyete kadar mutlu olun.\n\nHerkes alkışladı. İbrahim arkadaşına sarıldı.\n\n— Senin gibi bir sağdıç herkese lazım, dedi.\n\nSorular:\nBurak ne iş yapıyordu?\nBelediyenin spor kulübünde antrenörlük yapıyor, çocuklara basketbol öğretiyordu.\nBurak telefonda İbrahim'in sesini duyunca ne dedi?\n\"Hayrola, bu saatte?\" dedi.\nNikâh dosyasında ne eksikti?\nİbrahim'in sağlık raporunun bir sayfası eksikti.\nBurak sağdıç olarak ne yaptı?\nİbrahim'in evinden raporu alıp belediyeye götürdü.\nAyşe ile İbrahim bahçede ne yaptı?\nKafesin kapağını birlikte açıp güvercinleri azat ettiler.\nRestoranın bahçesinde ne vardı?\nBalıklı bir havuz vardı; çocuklar kırmızı balıklara ekmek attılar."
+    },
+    {
+      "title": "Akşam okulu",
+      "summary": "A woman finishing high school at an adult education centre enjoys a teacher who lets the class learn together.",
+      "newWords": [
+        "düzlem",
+        "çoğul",
+        "özgürlükçü",
+        "işbirlikçi",
+        "özgül"
+      ],
+      "text": "Emine Hanım elli iki yaşındaydı. Gençken liseyi bitirememişti. Çocukları büyüyünce Konya'daki halk eğitim merkezine yazıldı. Merkez, devletin yetişkinler için açtığı bir okuldu ve dersler akşamları yapılıyordu. Emine Hanım haftada üç akşam derse gidiyordu.\n\nSınıfın öğretmeni Mehmet Bey genç ve sabırlı bir adamdı. Özgürlükçü bir öğretmendi. Öğrencilerine ne yapacaklarını tek tek söylemiyor, onlara seçme hakkı veriyordu. Bir konuyu hangi sırayla çalışacaklarına bazen birlikte karar veriyorlardı. Emine Hanım ilk başta bu özgürlükçü yönteme şaşırdı. Kendi okul yıllarında öğretmen konuşur, öğrenciler susardı.\n\nMehmet Bey işbirlikçi öğrenmeye de çok önem veriyordu. Öğrencileri dörder kişilik gruplara ayırıyordu. Her grup bir problemi birlikte çözüyor, sonra çözümünü sınıfa anlatıyordu.\n\n— İşbirlikçi öğrenmede herkes hem öğrenci hem öğretmendir, dedi Mehmet Bey ilk derste. Birbirinize anlatırken daha iyi öğreneceksiniz.\n\nMatematik dersinde düzlemi işlediler. Mehmet Bey tahtaya iki doğru çizdi: biri yatay, biri dikey.\n\n— Bu iki doğru bir düzlem üzerinde, dedi. Düzlemdeki her noktanın iki sayısı vardır. Bu sayılarla noktanın yerini buluruz.\n\nEmine Hanım'ın grubu düzlemde bir harita yaptı. Evlerini, pazarı, okulu düzlemde birer nokta olarak gösterdiler. Emine Hanım haritayı sınıfa kendisi anlattı. Konuşurken hiç heyecanlanmadığını fark etti.\n\nTürkçe dersinde çoğul ekleri konuştular. Mehmet Bey, Türkçede çoğulun \"-lar\" ve \"-ler\" ekleriyle yapıldığını hatırlattı. Sonra ilginç bir şey söyledi: sayıdan sonra çoğul eki kullanılmaz. \"Üç kitaplar\" denmez, \"üç kitap\" denir. Emine Hanım'ın grubu yirmi cümle buldu ve her cümlede çoğul ekinin doğru olup olmadığını tartıştı.\n\nFen dersinde ise özgül ağırlığı öğrendiler. Mehmet Bey bir bardak suya biraz zeytinyağı döktü. Yağ suyun üstünde kaldı.\n\n— Yağın özgül ağırlığı suyunkinden azdır, dedi. Bu yüzden yağ suyun üstünde kalır. Demirin özgül ağırlığı ise sudan fazladır, o yüzden demir bir çivi batar.\n\n— Peki demir gemiler neden batmıyor? diye sordu Emine Hanım.\n\nMehmet Bey bu soruyu gruplara verdi. Gruplar birlikte düşündü. Sonunda Emine Hanım'ın grubu cevabı buldu: geminin içi havayla doludur, bu yüzden geminin tamamının özgül ağırlığı sudan azdır.\n\nDönem sonunda Emine Hanım bütün derslerini geçti. Son derste Mehmet Bey'e teşekkür etti.\n\n— Bu özgürlükçü sınıfta yalnızca matematik ve Türkçe öğrenmedim, dedi. Kendime güvenmeyi de öğrendim.\n\nSorular:\nEmine Hanım neden halk eğitim merkezine yazıldı?\nGençken liseyi bitirememişti; çocukları büyüyünce bitirmek istedi.\nMehmet Bey nasıl bir öğretmendi?\nÖzgürlükçü bir öğretmendi; öğrencilerine seçme hakkı veriyordu.\nİşbirlikçi öğrenmede gruplar ne yapıyordu?\nBir problemi birlikte çözüp çözümünü sınıfa anlatıyordu.\nEmine Hanım'ın grubu düzlemde ne yaptı?\nEvlerini, pazarı ve okulu birer nokta olarak gösteren bir harita yaptı.\nTürkçede sayıdan sonra çoğul eki kullanılır mı?\nHayır, kullanılmaz; \"üç kitap\" denir.\nDemir gemiler neden batmaz?\nGeminin içi havayla dolu olduğu için geminin tamamının özgül ağırlığı sudan azdır."
+    },
+    {
+      "title": "Krater gölü",
+      "summary": "A family visiting a protected crater lake near Konya watches a ranger deal calmly with a visitor who throws rubbish.",
+      "newWords": [
+        "krater",
+        "sümüklü",
+        "suçüstü",
+        "alçakça",
+        "hemencecik"
+      ],
+      "text": "Ayla Hanım, bir bahar sabahı oğlu Ali'yle Konya'nın Karapınar ilçesine gitti. Oradaki Meke Gölü'nü görmek istiyorlardı. Meke Gölü, binlerce yıl önce bir yanardağın patlamasıyla oluşmuş bir kraterin içindeydi. Devlet burayı koruma altına almıştı.\n\nKraterin kenarına vardıklarında Ali şaşkınlıkla aşağı baktı. Kocaman, yuvarlak bir çukurun dibinde mavi bir göl vardı. Gölün ortasında da küçük, koyu renkli bir tepe yükseliyordu.\n\nKraterin başında koruma alanının bekçisi Halil Amca duruyordu. Ziyaretçilere yolu gösteriyor, sorularını cevaplıyordu. Ali ona kraterin nasıl oluştuğunu sordu.\n\n— Çok eskiden burada bir yanardağ vardı, dedi Halil Amca. Yanardağ patladı, toprağın ortası çöktü ve bu krater oluştu. Sonra kraterin dibine yer altından su doldu.\n\nGece yağmur yağmıştı ve yolun kenarındaki taşlar ıslaktı. Ali birden eğildi.\n\n— Anne, bak! Sümüklü böcekler!\n\nTaşların üstünde gri, parlak birkaç sümüklü böcek yavaş yavaş ilerliyordu. Arkalarında ince, parlak bir iz bırakıyorlardı. Halil Amca, yağmurdan sonra sümüklü böceklerin hep dışarı çıktığını anlattı. Ali onlara dokunmadı, yalnızca fotoğraflarını çekti.\n\nKraterin çevresindeki yolda yürürken genç bir adam yanlarından geçti. Elindeki boş plastik şişeyi kraterin içine attı. Halil Amca bunu gördü ve adamın yanına gitti. Adamı suçüstü yakalamıştı.\n\n— Beyefendi, şişeyi gördüm, dedi sakin bir sesle. Burası koruma altında bir alan. Kraterin içine çöp atmak yasak.\n\nGenç adam önce bir şey söylemek istedi, ama sonra utandı. Suçüstü yakalandığı için ne diyeceğini bilemedi.\n\n— Haklısınız, dedi. Hiç düşünmeden attım.\n\n— Buraya her yıl binlerce kişi geliyor, dedi Halil Amca. Herkes bir şişe atsa, göl yok olur. Doğanın bize bıraktığı bu güzelliği kirletmek alçakça bir davranış olur. Ama siz hatanızı anladınız, bu yeter.\n\nGenç adam hemencecik aşağı indi, şişeyi aldı ve yukarıdaki çöp kutusuna attı. Sonra Halil Amca'dan özür diledi. Halil Amca onun elini sıktı.\n\nAli olanları dikkatle izlemişti.\n\n— Anne, o adam neden şişeyi attı? diye sordu.\n\n— Düşünmeden yaptı, dedi Ayla Hanım. Ama hemencecik hatasını düzeltti. Bir hatayı düzeltmek de önemli.\n\n— Bence de çöp atmak alçakça, dedi Ali. Ben hiç atmam.\n\nAkşamüstü eve dönerken Ali, telefonundaki sümüklü böcek fotoğraflarına bakıyordu. Bir sonraki tatilde başka bir krater görmek istediğini söyledi.\n\nSorular:\nMeke Gölü nasıl oluşmuştu?\nBir yanardağın patlamasıyla oluşan bir kraterin dibine yer altından su dolmuştu.\nAli yolun kenarında ne gördü?\nIslak taşların üstünde ilerleyen sümüklü böcekler gördü.\nGenç adam ne yaptı?\nElindeki boş plastik şişeyi kraterin içine attı.\nHalil Amca adamı nasıl yakaladı?\nAdamı suçüstü yakaladı ve sakin bir sesle çöp atmanın yasak olduğunu söyledi.\nHalil Amca'ya göre doğayı kirletmek nasıl bir davranış?\nAlçakça bir davranış.\nGenç adam hatasını nasıl düzeltti?\nHemencecik aşağı inip şişeyi aldı ve çöp kutusuna attı."
+    }
+  ]
+}
