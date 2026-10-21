@@ -515,6 +515,25 @@ KOREAN_NOMINAL = {"noun", "pron", "num"}
 KOREAN_LISTED = 3.0
 # The syllables 하다's stem takes (확보해요, 확보했다, 확보합니다, 확보할, 확보한).
 KOREAN_HADA = set("하해했합할한함")
+# Verbs a noun makes a verb with (운동하다, 출시되다, 피난시키다, 기만당하다), each with the beginnings its forms take after
+# the noun: a reader who knows the noun reads them.
+KOREAN_LIGHT_VERBS = {
+    "하다": tuple(KOREAN_HADA),
+    "되다": tuple("되돼됐됩될된됨"),
+    "시키다": ("시키", "시켜", "시켰", "시킨", "시킬", "시킵", "시킴"),
+    "당하다": ("당하", "당해", "당했", "당할", "당한", "당합", "당함"),
+}
+# Of those, the ones whose verbs the pack has are counted for their noun where it is the commoner.
+KOREAN_MERGED_LIGHT_VERBS = ("하다", "되다")
+
+
+def korean_light_noun(lemma, form):
+    """The noun of a verb of a noun and a light verb (출시 of 출시되다) that [form] spells as such, or None."""
+    for light, beginnings in KOREAN_LIGHT_VERBS.items():
+        noun = lemma[:-len(light)]
+        if lemma.endswith(light) and len(noun) > 1 and form.startswith(noun) and form.startswith(beginnings, len(noun)):
+            return noun
+    return None
 
 
 # Endings joined to a verb's stem as they are (하자, 보지, 알리고, 가면), and those after which a stem ending
@@ -1358,6 +1377,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         humble = korean_humble_verb(form, lambda verb: is_word(verb) and pos[verb] & {"verb", "adj"})
         if humble:
             return humble
+        # A verb whose forms begin like a shorter verb's (모셨는데 of 모시다, not 몰다; 달았고 of 달다, not 닫다).
+        stems = [verb for verb, beginnings in KOREAN_STEMS.items() if form.startswith(beginnings) and is_word(verb)]
+        if stems:
+            return stems[0]
         found = [(steps, -weight(lemma), lemma) for lemma, steps in korean_dictionary_forms(form)
                  if korean_stem_of(lemma, form) and korean_reu_fits(lemma, form, reu) and pos.get(lemma, set()) & {"verb", "adj"}
                  and lemma in common and lemma not in excluded]
@@ -1367,11 +1390,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             f for f in found if -KOREAN_LOOKALIKE * f[1] >= count(form) and any(form == f[2][:-1] + e for e in KOREAN_PLAIN_ENDINGS)
             or f[2].endswith("하다") and form[len(f[2]) - 2:len(f[2]) - 1] in KOREAN_HADA]
         if not found:
-            # A verb of a noun and 하다 the pack lacks is the noun's (출시했어요 of 출시), as one it has may be (운동하다).
-            for lemma, _ in korean_dictionary_forms(form):
-                noun = lemma[:-2]
-                if lemma.endswith("하다") and len(noun) > 1 and lemma not in pos and lemma not in KOREAN_APART and is_word(noun) \
-                        and "noun" in pos[noun] and form.startswith(noun) and form[len(noun):len(noun) + 1] in KOREAN_HADA:
+            # A verb of a noun and 하다, 되다, 시키다 or 당하다 the pack lacks is the noun's (출시했어요, 출시됐어요 of 출시), as
+            # one it has may be (운동하다).
+            for lemma, _ in [(form, 0)] + korean_dictionary_forms(form):
+                noun = korean_light_noun(lemma, form)
+                if noun and lemma not in pos and lemma not in KOREAN_APART and is_word(noun) and "noun" in pos[noun]:
                     return noun
             # A verb in 지다 "become" the pack lacks is its verb's (자연스러워졌어요 of 자연스럽다, 빨라졌고 of 빠르다), or
             # that verb's own in 지다 as the pack spells it (이뤄졌다 of 이루어지다).
@@ -1384,6 +1407,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             stem = next((form[:-len(ending)] for ending in KOREAN_SPOKEN_ENDINGS if form.endswith(ending) and len(form) > len(ending)), None)
             if stem and stem + "다" in common and pos.get(stem + "다", set()) & {"verb", "adj"}:
                 return stem + "다"
+            # After a verb's form in 다 without it (했잖아요 of 했다, 하다's).
+            if stem and len(stem) > 1:
+                verb = korean_guess(stem + "다")
+                if verb:
+                    return verb
             # The polite 요 after an ending the rules know without it (같네요, 있나요, 할게요).
             if form.endswith(KOREAN_POLITE) and len(form) > 2:
                 base = form[:-1]
@@ -1462,9 +1490,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             # An adverb in -게 is its adjective's form (짧게 of 짧다, 크게 of 크다); the pro-forms (어떻게, 그렇게) are overrides.
             return {form[:-1] + "다": 1.0}
         elif language == "ko" and (noun := korean_hada_noun(form)):
-            # A verb or adjective of a noun and 하다 (운동하다, 요리하다) is the noun's where the noun is the commoner:
-            # a reader who knows 운동 reads 운동해요. KOREAN_APART keeps those whose noun means another thing (이상하다).
-            merged[noun] = form
+            # A verb or adjective of a noun and 하다 or 되다 (운동하다, 요리하다, 발표되다) is the noun's where the noun is the
+            # commoner: a reader who knows 운동 reads 운동해요. KOREAN_APART keeps those whose noun means another thing (이상하다).
+            merged[noun].append(form)
+            merged_verbs.add(form)
             return {noun: 1.0}
         elif language == "ko" and form.endswith("다") and is_word(form) and pos[form] & {"verb", "adj"} and not any(
                 steps and korean_stem_of(lemma, form) and lemma in lemmas.get(form, []) for lemma, steps in korean_dictionary_forms(form)):
@@ -1556,11 +1585,15 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()}
 
-    merged = {}
+    merged = defaultdict(list)
+    merged_verbs = set()
+    # The forms that reached their word through a verb merged into it (생각되지 through 생각되다 to 생각).
+    via = {}
 
     def korean_hada_noun(form):
-        noun = form[:-2]
-        if not form.endswith("하다") or len(noun) < 2 or form in KOREAN_APART or not is_word(form) or not pos[form] & {"verb", "adj"}:
+        light = next((v for v in KOREAN_MERGED_LIGHT_VERBS if form.endswith(v)), None)
+        noun = form[:-len(light)] if light else ""
+        if len(noun) < 2 or form in KOREAN_APART or not is_word(form) or not pos[form] & {"verb", "adj"}:
             return None
         # The noun must keep its count, not be sent to a verb whose form it spells (보고 of 보다, 작고 of 작다).
         if not is_word(noun) or "noun" not in pos[noun] or overrides.get(noun, [noun]) != [noun] or noun in verbal_nouns:
@@ -1578,6 +1611,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             if word != form and depth < 3:
                 onward = targets_of(word, depth + 1)
                 if onward and word not in onward:
+                    if word in merged_verbs:
+                        via[form] = word
                     for final, share in onward.items():
                         result[final] += part * share
                     continue
@@ -1611,15 +1646,18 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
                           or word in overrides.get(f, ())), key=lambda f: -forms[word][f])
         # A Korean form of a word sent to another by hand (해야할 of 해야하다, 해야 하다 written as one) is listed
         # however many forms come before it: the reader finds no word of the list for it otherwise.
+        everything = counted
         counted = counted[:FORMS_PER_WORD] + [f for f in counted[FORMS_PER_WORD:] if f in required or (
             language == "ko" and lemmas.get(f) and all(overrides.get(l, [l]) != [l] for l in lemmas[f]))]
         if language == "ja" and any(is_cjk(c) and not is_kana(c) for c in word):
             # A kanji spelling reached through a kana word read alike (枯れる through かれる to 狩る, 湧く through
             # わく to 分ける) is another word: a kanji word's forms share a kanji with it.
             counted = [f for f in counted if not any(is_cjk(c) and not is_kana(c) for c in f) or set(f) & set(word)]
-        if word in merged and merged[word] not in counted:
-            # The verb in 하다 sent to its noun, which texts seldom write in its dictionary form, is listed for the reader to find.
-            counted.append(merged[word])
+        # The verbs in 하다 and 되다 sent to their noun, which texts seldom write in their dictionary form, are listed for the
+        # reader to find, with as many of each one's forms as it would have had listed under it (생각되지 of 생각되다, under 생각).
+        for verb in merged.get(word, []):
+            own = [f for f in everything if via.get(f) == verb][:FORMS_PER_WORD]
+            counted = list(dict.fromkeys(counted + [verb] + own))
         if word == "이다" and language == "ko":
             # The reader reads the copula's 면 (정도 + 면) as 이다's, which the list counts as 이면, and cuts every
             # form of the copula it knows, however seldom (사람이었기), as a word of the list.
