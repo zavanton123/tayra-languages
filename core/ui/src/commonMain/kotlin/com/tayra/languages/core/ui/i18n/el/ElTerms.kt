@@ -24,6 +24,7 @@ internal val elTerms: Map<String, String> = mapOf(
     "Oldest first" to "Πρώτα οι παλαιότερες",
     "Recently modified" to "Πρόσφατα τροποποιημένες",
     "Random" to "Τυχαία σειρά",
+    "Course order" to "Σειρά μαθημάτων",
     "Yes" to "Ναι",
     "No" to "Όχι",
 
@@ -304,6 +305,11 @@ internal val elTerms: Map<String, String> = mapOf(
     "About {0} sentences in the corpus" to "Περίπου {0} πρόταση στο σώμα κειμένων|Περίπου {0} προτάσεις στο σώμα κειμένων",
     "Machine translation" to "Αυτόματη μετάφραση",
     "Open the article" to "Άνοιγμα του άρθρου",
+    "My courses" to "Τα μαθήματά μου",
+    "Try my courses" to "Δοκιμάστε τα μαθήματά μου",
+    "From your courses" to "Από τα μαθήματά σας",
+    "Open the lesson" to "Άνοιγμα του μαθήματος",
+    "This lesson is no longer in your courses." to "Αυτό το μάθημα δεν υπάρχει πια στα μαθήματά σας.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Η γλώσσα δεν βρέθηκε",

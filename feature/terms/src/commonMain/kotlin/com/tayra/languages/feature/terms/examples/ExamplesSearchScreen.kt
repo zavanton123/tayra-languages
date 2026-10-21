@@ -136,7 +136,8 @@ import org.koin.core.parameter.parametersOf
 
 /**
  * Searches Tatoeba example sentences with every filter the API offers, or, for a language the
- * Leipzig Corpora Collection has, news and Wikipedia sentences with a machine translation. Wide windows show the
+ * Leipzig Corpora Collection has, news and Wikipedia sentences, or the sentences of the installed
+ * courses, those two with a machine translation. Wide windows show the
  * term pane beside the results, for the searched term or a word clicked in an example; on
  * narrower ones a clicked word opens it in a sheet.
  */
@@ -150,6 +151,7 @@ fun ExamplesSearchScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.onResumed() }
+    CollectEvents(viewModel.navigation) { onNavigate(it) }
     val query = state.query
     val audio = rememberExampleAudio()
     audio.PrepareSpeech(state.results, state.language?.let { LanguageCodes.codeFor(it.name) })
@@ -304,7 +306,15 @@ fun ExamplesSearchScreen(
                     state.results.isEmpty() -> item {
                         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                             EmptyMessage(tr("No examples match these filters."), Modifier.fillMaxWidth())
-                            if (state.offersLeipzig) SecondaryButton(tr("Try Leipzig Corpora"), onClick = { viewModel.setSource(ExampleSource.LEIPZIG) })
+                            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                                state.fallbackSources.forEach { source ->
+                                    val label = when (source) {
+                                        ExampleSource.COURSES -> tr("Try my courses")
+                                        else -> tr("Try Leipzig Corpora")
+                                    }
+                                    SecondaryButton(label, onClick = { viewModel.setSource(source) })
+                                }
+                            }
                         }
                     }
                     else -> {
@@ -318,7 +328,8 @@ fun ExamplesSearchScreen(
                                 translateWord = translateWord,
                                 translation = example.translation,
                                 machineTranslation = if (state.features.translations) null else state.translations[example.text] ?: SentenceTranslation.Loading,
-                                source = example.sourceUrl?.let { url -> sourceLabel(url, example.date) to { uriHandler.openUri(url) } },
+                                link = example.lesson?.let { lesson -> CardLink("${lesson.courseTitle} · ${lesson.lessonTitle}", tr("Open the lesson")) { viewModel.openLesson(example) } }
+                                    ?: example.sourceUrl?.let { url -> CardLink(sourceLabel(url, example.date), tr("Open the article")) { uriHandler.openUri(url) } },
                                 sound = audio.soundOf(example),
                                 active = index == activeIndex,
                                 onPlay = { activeIndex = index; audio.toggle(example, LanguageCodes.codeFor(query.language.name)) },
@@ -416,8 +427,9 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
     val crumbs = if (compact) emptyList() else listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(tr("Examples")))
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
         ScreenHeader(tr("Examples for ‘{0}’", query.text), subtitle = null, crumbs = crumbs, titleOnCompact = true, onBack = onBack) {
-            if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            if (!compact && query.source != ExampleSource.COURSES) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             when (query.source) {
+                ExampleSource.COURSES -> Text(tr("From your courses"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 ExampleSource.TATOEBA -> LinkText(
                     "Tatoeba",
                     onClick = {
@@ -460,7 +472,7 @@ private fun FilterRow(query: ExampleSearchQuery, sources: List<ExampleSourceFeat
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         itemVerticalAlignment = Alignment.Bottom,
     ) {
-        if (sources.size > 1) Select(tr("Source"), sources.map { it.source }, query.source, { it.label }, 170.dp, viewModel::setSource)
+        if (sources.size > 1) Select(tr("Source"), sources.map { it.source }, query.source, ::sourceName, 170.dp, viewModel::setSource)
         Select(tr("Min words"), (listOf<Int?>(null) + WORD_COUNTS), query.minWords, { it?.toString() ?: tr("Any") }, 110.dp) { v -> viewModel.updateFilters { it.copy(minWords = v) } }
         Select(tr("Max words"), (listOf<Int?>(null) + WORD_COUNTS), query.maxWords, { it?.toString() ?: tr("Any") }, 110.dp) { v -> viewModel.updateFilters { it.copy(maxWords = v) } }
         Select(tr("Sort"), features.sorts, query.sort, { tr(it.label) }, 170.dp) { v -> viewModel.updateFilters { it.copy(sort = v) } }
@@ -489,6 +501,14 @@ private fun Collocations(words: List<String>, onSearch: (String) -> Unit) {
     }
 }
 
+private fun sourceName(source: ExampleSource): String = when (source) {
+    ExampleSource.COURSES -> tr("My courses")
+    else -> source.label
+}
+
+/** What a result links to: the article or the lesson it was taken from. */
+private class CardLink(val label: String, val description: String, val open: () -> Unit)
+
 /** The site a corpus sentence was taken from, and its date. */
 private fun sourceLabel(url: String, date: String?): String {
     val site = runCatching { Url(url).host.removePrefix("www.") }.getOrNull()?.takeIf { it.isNotEmpty() } ?: url
@@ -510,8 +530,8 @@ private fun ExampleCard(
     translation: String?,
     /** The machine translation of a result whose source has none. */
     machineTranslation: SentenceTranslation?,
-    /** The site and date of the text the result was taken from, and how to open it. */
-    source: Pair<String, () -> Unit>?,
+    /** The text the result was taken from. */
+    link: CardLink?,
     sound: ExampleSound,
     /** The result the keys act on, marked and kept in view. */
     active: Boolean,
@@ -562,11 +582,11 @@ private fun ExampleCard(
             )
             translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium.copy(fontSize = MaterialTheme.typography.bodyMedium.fontSize * fontScale), color = colors.onSurfaceVariant) }
             machineTranslation?.let { MachineTranslation(it, fontScale) }
-            source?.let { (label, open) ->
+            link?.let {
                 LinkText(
-                    label,
-                    onClick = open,
-                    modifier = Modifier.semantics { contentDescription = tr("Open the article") },
+                    it.label,
+                    onClick = it.open,
+                    modifier = Modifier.semantics { contentDescription = it.description },
                     color = colors.onSurfaceVariant,
                     style = MaterialTheme.typography.labelSmall,
                     trailingIcon = AppIcons.OpenInNew,

@@ -24,6 +24,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Oldest first" to "Сначала старые",
     "Recently modified" to "Недавно изменённые",
     "Random" to "Случайный порядок",
+    "Course order" to "По порядку курса",
     "Yes" to "Да",
     "No" to "Нет",
 
@@ -304,6 +305,11 @@ internal val ruTerms: Map<String, String> = mapOf(
     "About {0} sentences in the corpus" to "Около {0} предложения в корпусе|Около {0} предложений в корпусе|Около {0} предложений в корпусе",
     "Machine translation" to "Машинный перевод",
     "Open the article" to "Открыть статью",
+    "My courses" to "Мои курсы",
+    "Try my courses" to "Искать в моих курсах",
+    "From your courses" to "Из ваших курсов",
+    "Open the lesson" to "Открыть урок",
+    "This lesson is no longer in your courses." to "Этого урока больше нет в ваших курсах.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Язык не найден",

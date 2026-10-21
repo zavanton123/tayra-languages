@@ -24,6 +24,7 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Oldest first" to "最早优先",
     "Recently modified" to "最近修改",
     "Random" to "随机",
+    "Course order" to "课程顺序",
     "Yes" to "是",
     "No" to "否",
 
@@ -304,6 +305,11 @@ internal val zhTerms: Map<String, String> = mapOf(
     "About {0} sentences in the corpus" to "语料库中约有 {0} 个句子",
     "Machine translation" to "机器翻译",
     "Open the article" to "打开原文",
+    "My courses" to "我的课程",
+    "Try my courses" to "试试我的课程",
+    "From your courses" to "来自你的课程",
+    "Open the lesson" to "打开课文",
+    "This lesson is no longer in your courses." to "这篇课文已不在你的课程中。",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "未找到该语言",

@@ -24,6 +24,7 @@ internal val deTerms: Map<String, String> = mapOf(
     "Oldest first" to "Älteste zuerst",
     "Recently modified" to "Zuletzt geändert",
     "Random" to "Zufällig",
+    "Course order" to "Kursreihenfolge",
     "Yes" to "Ja",
     "No" to "Nein",
 
@@ -304,6 +305,11 @@ internal val deTerms: Map<String, String> = mapOf(
     "About {0} sentences in the corpus" to "Etwa {0} Satz im Korpus|Etwa {0} Sätze im Korpus",
     "Machine translation" to "Maschinelle Übersetzung",
     "Open the article" to "Artikel öffnen",
+    "My courses" to "Meine Kurse",
+    "Try my courses" to "Meine Kurse versuchen",
+    "From your courses" to "Aus deinen Kursen",
+    "Open the lesson" to "Lektion öffnen",
+    "This lesson is no longer in your courses." to "Diese Lektion ist nicht mehr in deinen Kursen.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Sprache nicht gefunden",

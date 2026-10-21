@@ -3,9 +3,19 @@ package com.tayra.languages.feature.terms.examples
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
+import com.tayra.languages.core.data.repository.BookRepositoryImpl
+import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import com.tayra.languages.core.domain.courses.Course
+import com.tayra.languages.core.domain.courses.CourseLevel
+import com.tayra.languages.core.domain.courses.CourseService
+import com.tayra.languages.core.domain.courses.Lesson
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.service.BookService
+import com.tayra.languages.core.domain.service.ExampleLesson
+import com.tayra.languages.core.ui.navigation.Route
+import kotlinx.coroutines.flow.first
 import com.tayra.languages.core.domain.service.CorpusFrequency
 import com.tayra.languages.core.domain.service.CorpusWords
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
@@ -34,6 +44,10 @@ import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
 class ExamplesSearchViewModelTest {
+
+    private val courses = ExampleSourceFeatures(
+        ExampleSource.COURSES, audio = false, sorts = listOf(ExampleSort.RANDOM, ExampleSort.COURSE_ORDER), translations = false, phrases = true,
+    )
 
     private val leipzig = ExampleSourceFeatures(
         ExampleSource.LEIPZIG, audio = false, sorts = listOf(ExampleSort.RANDOM, ExampleSort.SHORTEST), translations = false, phrases = false,
@@ -135,18 +149,52 @@ class ExamplesSearchViewModelTest {
         vm.setSource(ExampleSource.LEIPZIG)
         Thread.sleep(200)
         assertEquals(1, examples.queries.size)
-        assertFalse(vm.state.value.offersLeipzig, "no Leipzig where it cannot be reached")
+        assertEquals(emptyList(), vm.state.value.fallbackSources, "no Leipzig where it cannot be reached")
     }
 
     @Test
-    fun anEmptyTatoebaSearchForAWordOffersLeipzig() {
-        val examples = FakeExamples(listOf(ExampleSourceFeatures.TATOEBA, leipzig)) { if (it.source == ExampleSource.TATOEBA) emptyList() else listOf(ExampleSentence("x", null)) }
+    fun anEmptyTatoebaSearchOffersTheCoursesThenLeipzig() {
+        val examples = FakeExamples(listOf(ExampleSourceFeatures.TATOEBA, courses, leipzig)) { if (it.source == ExampleSource.TATOEBA) emptyList() else listOf(ExampleSentence("x", null)) }
         val vm = viewModel(examples)
-        waitFor("offer") { vm.state.value.offersLeipzig }
+        waitFor("offer") { vm.state.value.fallbackSources == listOf(ExampleSource.COURSES, ExampleSource.LEIPZIG) }
         vm.updateQuery { it.copy(text = "duas palavras") }
         vm.search()
         waitFor("phrase searched") { examples.queries.size == 2 && !vm.state.value.searching }
-        assertFalse(vm.state.value.offersLeipzig, "Leipzig finds single words only")
+        assertEquals(listOf(ExampleSource.COURSES), vm.state.value.fallbackSources, "Leipzig finds single words only")
+
+        vm.setSource(ExampleSource.COURSES)
+        waitFor("courses searched") { vm.state.value.results.isNotEmpty() }
+        val query = examples.queries.last()
+        assertEquals(ExampleSource.COURSES, query.source)
+        assertEquals(15, query.maxWords)
+        assertEquals(courses, vm.state.value.features)
+        assertEquals(emptyList(), vm.state.value.fallbackSources)
+    }
+
+    @Test
+    fun aCourseSentenceOpensItsLessonAtItsPage() {
+        val db = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-examples-lesson", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(db)
+        val books = BookRepositoryImpl(db)
+        val repository = CourseRepositoryImpl(db)
+        val languageId = runBlocking { languages.save(Language(name = "Portuguese")) }
+        // Enough words for two pages, with the sentence on the second.
+        val text = (1..300).joinToString(" ") { "Palavra número $it." } + "\n\nA casa fica no fim."
+        val course = Course("c1", "pt", "Primeiro curso", "", CourseLevel.A1, "", listOf(Lesson("l1", "Lição um", "", text)))
+        runBlocking { repository.seedSamples(languageId, listOf(course)) }
+        val service = CourseService(books, languages, BookService(books, languages), repository) { emptyList() }
+        val sentence = ExampleSentence("A casa fica no fim.", null, lesson = ExampleLesson("c1", "l1", "Primeiro curso", "Lição um"))
+        val examples = FakeExamples(listOf(ExampleSourceFeatures.TATOEBA, courses)) { listOf(sentence) }
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val vm = ExamplesSearchViewModel(languageId, "casa", languages, settings, examples, courses = service)
+        waitFor("searched") { vm.state.value.results.isNotEmpty() }
+
+        vm.openLesson(sentence)
+        val route = runBlocking { withTimeout(5_000) { vm.navigation.flow.first() } } as Route.Read
+        val pages = runBlocking { books.getPages(route.bookId) }
+        assertTrue(pages.size > 1, "the test needs two pages")
+        assertEquals(pages.first { "casa" in it.text }.order, route.page)
+        assertTrue(route.page!! > 1)
     }
 
     @Test

@@ -24,6 +24,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Oldest first" to "Les plus anciens d’abord",
     "Recently modified" to "Modifiés récemment",
     "Random" to "Aléatoire",
+    "Course order" to "Ordre du cours",
     "Yes" to "Oui",
     "No" to "Non",
 
@@ -304,6 +305,11 @@ internal val frTerms: Map<String, String> = mapOf(
     "About {0} sentences in the corpus" to "Environ {0} phrase dans le corpus|Environ {0} phrases dans le corpus",
     "Machine translation" to "Traduction automatique",
     "Open the article" to "Ouvrir l’article",
+    "My courses" to "Mes cours",
+    "Try my courses" to "Essayer mes cours",
+    "From your courses" to "Tiré de vos cours",
+    "Open the lesson" to "Ouvrir la leçon",
+    "This lesson is no longer in your courses." to "Cette leçon ne fait plus partie de vos cours.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Langue introuvable",

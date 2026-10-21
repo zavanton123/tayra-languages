@@ -1,6 +1,8 @@
 package com.tayra.languages.feature.terms.examples
 
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.state.UiEvents
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.language.LanguageCatalog
@@ -10,6 +12,7 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.settings.Hotkey
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.repository.LanguageRepository
+import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.service.CorpusWords
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSentence
@@ -71,11 +74,13 @@ data class ExamplesSearchUiState(
     val features: ExampleSourceFeatures
         get() = sources.firstOrNull { it.source == query?.source } ?: ExampleSourceFeatures.TATOEBA
 
-    /** Tatoeba found nothing for a single word that the Leipzig corpus may have. */
-    val offersLeipzig: Boolean
-        get() = query?.source == ExampleSource.TATOEBA && !searching && results.isEmpty() &&
-            query.text.trim().let { it.isNotEmpty() && it.none(Char::isWhitespace) } &&
-            sources.any { it.source == ExampleSource.LEIPZIG }
+    /** The other sources to try when Tatoeba found nothing: those that can search what was typed. */
+    val fallbackSources: List<ExampleSource>
+        get() {
+            val text = query?.text?.trim().orEmpty()
+            if (query?.source != ExampleSource.TATOEBA || searching || results.isNotEmpty() || text.isEmpty()) return emptyList()
+            return sources.filter { it.source != ExampleSource.TATOEBA && (it.phrases || text.none(Char::isWhitespace)) }.map { it.source }
+        }
 }
 
 class ExamplesSearchViewModel(
@@ -91,7 +96,12 @@ class ExamplesSearchViewModel(
     private val localTranslator: LocalSentenceTranslator? = null,
     /** The words found near the searched one, where the corpus can be reached. */
     private val corpusWords: CorpusWords? = null,
+    /** Opens the lesson a course sentence is from. */
+    private val courses: CourseService? = null,
 ) : ViewModel() {
+
+    /** Where a result's link leads. */
+    val navigation = UiEvents<Route>()
 
     private val _state = MutableStateFlow(ExamplesSearchUiState())
     val state: StateFlow<ExamplesSearchUiState> = _state.asStateFlow()
@@ -144,8 +154,8 @@ class ExamplesSearchViewModel(
     private fun defaultFilters(query: ExampleSearchQuery) =
         query.copy(minWords = 1, maxWords = defaultMaxWords(query.source), sort = ExampleSort.RANDOM, limit = 10, hasAudio = null)
 
-    // Corpus sentences are longer than Tatoeba's, so fewer would pass a filter as tight.
-    private fun defaultMaxWords(source: ExampleSource) = if (source == ExampleSource.LEIPZIG) 15 else 6
+    // The sentences of whole texts are longer than Tatoeba's, so fewer would pass a filter as tight.
+    private fun defaultMaxWords(source: ExampleSource) = if (source == ExampleSource.TATOEBA) 6 else 15
 
     /** Searches [source] instead, with its own default length and without the filters it lacks. */
     fun setSource(source: ExampleSource) {
@@ -162,6 +172,17 @@ class ExamplesSearchViewModel(
             )
         }
         search()
+    }
+
+    /** Opens the lesson [example] is from in the reader, at the page that holds it. */
+    fun openLesson(example: ExampleSentence) {
+        val lesson = example.lesson ?: return
+        val service = courses ?: return
+        viewModelScope.launch {
+            val opened = service.openLessonAt(lesson.courseId, lesson.lessonId, example.text)
+            if (opened == null) _state.update { it.copy(error = tr("This lesson is no longer in your courses.")) }
+            else navigation.send(Route.Read(opened.first, opened.second))
+        }
     }
 
     /** Searches [word] in the same source and filters, as a collocation chip does. */

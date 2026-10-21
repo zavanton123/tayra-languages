@@ -24,6 +24,7 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Oldest first" to "Mais antigas primeiro",
     "Recently modified" to "Modificados recentemente",
     "Random" to "Aleatório",
+    "Course order" to "Ordem do curso",
     "Yes" to "Sim",
     "No" to "Não",
 
@@ -304,6 +305,11 @@ internal val ptTerms: Map<String, String> = mapOf(
     "About {0} sentences in the corpus" to "Cerca de {0} frase no corpus|Cerca de {0} frases no corpus",
     "Machine translation" to "Tradução automática",
     "Open the article" to "Abrir o artigo",
+    "My courses" to "Meus cursos",
+    "Try my courses" to "Experimentar meus cursos",
+    "From your courses" to "Dos seus cursos",
+    "Open the lesson" to "Abrir a lição",
+    "This lesson is no longer in your courses." to "Esta lição não está mais nos seus cursos.",
 
     // ExamplesSearchViewModel.kt
     "Language not found" to "Idioma não encontrado",
