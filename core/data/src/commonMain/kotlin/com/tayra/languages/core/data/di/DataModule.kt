@@ -32,7 +32,9 @@ import com.tayra.languages.core.data.mdict.DictionaryFiles
 import com.tayra.languages.core.data.network.CommonsRecordingSource
 import com.tayra.languages.core.data.network.GoogleTranslationProvider
 import com.tayra.languages.core.data.network.KtorRecordingFetcher
+import com.tayra.languages.core.data.network.LeipzigExamplesProvider
 import com.tayra.languages.core.data.network.MyMemoryTranslationProvider
+import com.tayra.languages.core.data.network.SourceRoutingExamples
 import com.tayra.languages.core.data.network.TatoebaExamplesProvider
 import com.tayra.languages.core.data.network.TranslationSuggestionProvider
 import com.tayra.languages.core.data.network.WiktionaryTranslationProvider
@@ -91,6 +93,7 @@ import com.tayra.languages.core.domain.service.ClearDataService
 import com.tayra.languages.core.domain.service.DemoDataService
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.service.ExampleRecordings
+import com.tayra.languages.core.domain.service.CorpusWords
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.domain.service.LanguageService
@@ -147,7 +150,12 @@ val dataModule: Module = module {
     single<OfflineDictionary> { get<DictionaryService>() }
 
     single { createHttpClient() }
-    single<ExampleSentencesProvider> { ChineseScriptExamples(TatoebaExamplesProvider(get())) }
+    // The Leipzig service sends no CORS headers, so a browser cannot ask it.
+    if (webPagesSupported) {
+        single { LeipzigExamplesProvider(get()) }
+        single<CorpusWords> { get<LeipzigExamplesProvider>() }
+    }
+    single<ExampleSentencesProvider> { ChineseScriptExamples(SourceRoutingExamples(TatoebaExamplesProvider(get()), getOrNull<LeipzigExamplesProvider>())) }
     single { MyMemoryTranslationProvider(get(), get()) }
     single { GoogleTranslationProvider(get(), get()) }
     single<GoogleTranslation> { get<GoogleTranslationProvider>() }
