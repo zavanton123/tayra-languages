@@ -827,9 +827,17 @@ def korean_reader():
         lemmas = {}
         for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
             lemmas.setdefault(form, set()).add(lemma)
+        # Nouns and names of the pack, which the rules would read as some verb's form (김 of 기다, 오이 of 오다).
+        nominal = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('noun', 'name', 'pron', 'num')")}
         _korean.update(fl=fl, known=lambda w: w in words or w in pack, rank=bundled.get, verbs=verbs, lemmas=lemmas,
-                       reu=fl.korean_reu_doubling(lemmas))
+                       reu=fl.korean_reu_doubling(lemmas), nominal=nominal, excluded=fl.EXCLUDE.get("ko", set()))
     return _korean
+
+
+def korean_number_word(word):
+    """Whether [word] is a Korean number of two syllables or more written out (다섯, 일흔, 이십만), which counts as known."""
+    fl = korean_reader()["fl"]
+    return len(word) > 1 and bool(fl.KOREAN_NATIVE_NUMBER.fullmatch(word)) or fl.korean_whole_number(word)
 
 
 def korean_guess(form, ranks, heads, depth=0):
@@ -840,23 +848,52 @@ def korean_guess(form, ranks, heads, depth=0):
     """
     k = korean_reader()
     fl = k["fl"]
+
+    def listed_verb(lemma):
+        # A verb of the list: a headword, or one in 하다 the list counts for its noun (운동하다 of 운동).
+        return lemma in k["verbs"] and (lemma in heads or lemma.endswith("하다") and lemma in ranks and lemma[:-2] in heads)
+
+    # A name the list leaves out (김, 박) is no verb's form: the course lists it in its names.
+    if form in k["excluded"]:
+        return None
+    # The copula's form, which the list lists under 이다 (선생님 + 이세요).
+    if form in fl.KOREAN_COPULA_FORMS:
+        return "이다" if "이다" in heads else None
     # The pack's own verb for the form (나으세요 of 낫다, not 나다), as the list builder takes it.
-    listed = [lemma for lemma in k["lemmas"].get(form, ()) if lemma in heads and lemma in k["verbs"]]
+    listed = [lemma for lemma in k["lemmas"].get(form, ()) if listed_verb(lemma)]
     if listed:
         return min(listed, key=ranks.get)
     # The polite 요 after a word of the list (이거요), before the rules take it for a verb's (익다).
     if form.endswith(fl.KOREAN_POLITE) and form[:-1] in ranks:
         return form[:-1]
+    # A noun or name of the pack is no verb's form, though the rules may make it one (김 of 기다, 오이 of 오다).
+    if form in k["nominal"]:
+        return None
+    humble = fl.korean_humble_verb(form, listed_verb)
+    if humble:
+        return humble
     found = [(steps, ranks[lemma], lemma) for lemma, steps in fl.korean_dictionary_forms(form)
-             if lemma in heads and lemma in k["verbs"] and fl.korean_stem_of(lemma, form) and fl.korean_reu_fits(lemma, form, k["reu"])]
+             if listed_verb(lemma) and fl.korean_stem_of(lemma, form) and fl.korean_reu_fits(lemma, form, k["reu"])]
     if found:
         return min(found)[2]
+    # A verb of a noun and 하다 the pack lacks is the noun's (출시했어요 of 출시), as the list builder takes it.
+    for lemma, _ in fl.korean_dictionary_forms(form):
+        noun = lemma[:-2]
+        if lemma.endswith("하다") and len(noun) > 1 and lemma not in k["verbs"] and noun in heads and noun in k["nominal"] \
+                and form.startswith(noun) and form[len(noun):len(noun) + 1] in fl.KOREAN_HADA:
+            return noun
+    # A verb in 지다 "become" the list lacks is its verb's (쉬워졌다 of 쉽다), as the list builder takes it.
+    for lemma, _ in fl.korean_dictionary_forms(form):
+        stem = fl.korean_become_stem(lemma)
+        verb = stem and not listed_verb(lemma) and depth < 2 and korean_guess(stem, ranks, heads, depth + 1)
+        if verb:
+            return next((v for v in fl.korean_become_verbs(verb) if listed_verb(v)), verb)
     stem = next((form[:-len(e)] for e in fl.KOREAN_SPOKEN_ENDINGS if form.endswith(e) and len(form) > len(e)), None)
     if stem and stem + "다" in heads and stem + "다" in k["verbs"]:
         return stem + "다"
     if form.endswith(fl.KOREAN_POLITE) and len(form) > 2 and depth < 2:
         base = form[:-1]
-        listed = [lemma for lemma in k["lemmas"].get(base, ()) if lemma in heads and lemma in k["verbs"]]
+        listed = [lemma for lemma in k["lemmas"].get(base, ()) if listed_verb(lemma)]
         return min(listed, key=ranks.get) if listed else korean_guess(base, ranks, heads, depth + 1)
     return None
 
@@ -912,15 +949,22 @@ def korean_tokens(text, ranks, names, heads):
             continue
         # After a number, a counter and its particles (한 대가 is 대 + 가, not 대가 "price").
         pieces = fl.korean_counter_cut(run, k["known"], k["rank"], before) or fl.korean_pieces(run, k["known"], k["rank"])
-        # A counter after digits (3개, 2024년에) or after a number word (세 명, 오 분) belongs to the number.
+        # A counter after digits (3개, 2024년에) or after a number word (세 명, 오 분) belongs to the number; another
+        # word after digits (1구역) is a word.
         spaced = previous_number and bool(gap) and gap.isspace()
-        if after_digits or spaced and pieces[0] in fl.KOREAN_COUNTERS:
+        if (after_digits or spaced) and pieces[0] in fl.KOREAN_COUNTERS:
             if spaced:
                 out[-1] = KNOWN
             out.append(KNOWN)
             pieces = pieces[1:]
         previous_end = match.end()
         previous_number = len(pieces) == 1 and pieces[0] == run and fl.korean_number(run)
+        # The copula's form alone, which takes a noun before it, is a verb's (말을 이었다 is 잇다's); after a quote it
+        # is the copula ("…"이라며).
+        if pieces == [run] and run in fl.KOREAN_COPULA_FORMS and (start == 0 or text[start - 1].isspace()):
+            verbs = [lemma for lemma in k["lemmas"].get(run, ()) if lemma in heads and lemma in k["verbs"]]
+            if verbs:
+                pieces = [min(verbs, key=ranks.get)]
         for piece in pieces:
             out.append(piece if piece in ranks else korean_guess(piece, ranks, heads) or piece)
     return out
@@ -1060,6 +1104,10 @@ def check(path, brief=False):
                 if measure or CHINESE_NUMBER.fullmatch(t):
                     known += 1
                     continue
+            # A Korean number written out (스물, 일흔, 이십만) is a number, as digits are; one syllable (한, 세, 일) is as often a word.
+            if code == "ko" and korean_number_word(t):
+                known += 1
+                continue
             rank = ranks.get(t)
             if rank is not None and rank <= up_to:
                 known += 1
