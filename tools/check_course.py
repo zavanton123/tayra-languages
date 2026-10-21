@@ -44,6 +44,7 @@ def rules(rank_up_to):
 
 
 GREEK_ACCENTED = {"ά": "α", "έ": "ε", "ή": "η", "ί": "ι", "ό": "ο", "ύ": "υ", "ώ": "ω", "ΐ": "ϊ", "ΰ": "ϋ"}
+TURKISH_CIRCUMFLEX = str.maketrans("âîû", "aiu")
 
 
 # OpenCC's tables, as the app bundles them, for reading Chinese in simplified characters.
@@ -92,6 +93,13 @@ def fold(code, word):
     # Russian texts for learners write ё where it belongs, while the list holds both spellings of most words.
     if code == "ru":
         return word.replace("ё", "е")
+    # The Ukrainian list writes the apostrophe straight (м'ясо); texts may use the curly one or the modifier letter (м’ясо, мʼясо).
+    if code == "uk":
+        return word.replace("’", "'").replace("ʼ", "'")
+    # Turkish texts may write â, î, û (hâlâ, dükkân, millî) where the list mostly has a, i, u; and a
+    # capital İ lowercased by Python keeps a combining dot.
+    if code == "tr":
+        return word.replace("̇", "").translate(TURKISH_CIRCUMFLEX)
     # A Greek word stressed on the third syllable from the end takes a second accent before an enclitic
     # pronoun (όνομά μου, τηλέφωνό της): the word is the one with the first accent only.
     # Each part of a hyphenated pair keeps its own accent (άνω-κάτω, σιγά-σιγά).
@@ -258,6 +266,7 @@ def japanese_tokens(text, ranks):
             f = node.feature.split(",")
             pieces.append((node.surface, f[0], f[1], f[2], f[6] if len(f) > 6 and f[6] != "*" else node.surface))
         node = node.next
+    position = {id(piece): n for n, piece in enumerate(pieces)}
     # Words: runs of pieces, each joined to the one before as the reader joins them.
     words, previous = [], None
     for piece in pieces:
@@ -274,8 +283,9 @@ def japanese_tokens(text, ranks):
             if head[1] == "記号" or not re.search(r"[^\W\d_]", head[0]):
                 i += 1
                 continue
-            # さん, ちゃん, 様 and 君 after a name go with the name.
-            if head[2] == "接尾" and head[3] == "人名":
+            # さん, ちゃん, 様 and 君 right after a name go with the name (not 君 after 「マキさん！」).
+            before = pieces[position[id(head)] - 1] if position[id(head)] else None
+            if head[2] == "接尾" and head[3] == "人名" and before and (before[0] == JA_NAME or before[3] == "人名"):
                 out.append(KNOWN)
                 i += 1
                 continue
@@ -319,7 +329,7 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return french_tokens(text, ranks)
     if code == "es":
         return spanish_tokens(text, ranks, names, verbs)
-    if code == "ru":
+    if code in ("ru", "uk"):
         return russian_tokens(text)
     if code == "it":
         return italian_tokens(text, ranks, names, verbs, heads)
@@ -327,6 +337,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return dutch_tokens(text)
     if code in ("da", "no", "sv", "el"):
         return danish_tokens(text, ranks)
+    if code == "tr":
+        return turkish_tokens(text)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -442,6 +454,56 @@ def russian_name_forms(names):
                 forms.update(stem + e for e in ("я", "ю", "ем", "е", "и", "ью"))
             elif last not in "оеиыуюэ":
                 forms.update(part + e for e in ("а", "у", "ом", "е", "ем"))
+    return forms
+
+
+UKRAINIAN_SOFTENED = {"г": "з", "к": "ц", "х": "с"}
+
+
+def ukrainian_name_forms(names):
+    """
+    The case forms of Ukrainian names, the vocative too, from their regular declension: Оксана, Оксани,
+    Оксані, Оксану, Оксаною, Оксано (Ольга, Ользі; Саша, Сашею); Марія, Марії, Марією, Маріє; Таня, Тані,
+    Танею, Таню; Іван, Івана, Іванові, Іваном, Іване; Ігор, Ігоря, Ігореві, Ігорем, Ігорю; Андрій, Андрія,
+    Андрієві, Андрієм, Андрію; Петро, Петра, Петрові, Петре; Карпати, Карпат, Карпатах; Біла Церква, Білої
+    Церкви; Кривий, Кривого. A name in -ів or -їв (Львів, Харків, Київ) also gives its stem in -ов-/-єв-
+    (Львова, Києва). A name of several words or with a hyphen gives the forms of each part. A name whose
+    stem changes otherwise (Ірпінь, Ірпеня; Ріг, Рогу) is listed by its stems.
+    """
+    forms = set()
+    for name in names:
+        for part in re.split(r"[\s-]+", fold("uk", name.lower())):
+            if not part:
+                continue
+            forms.add(part)
+            stem, last = part[:-1], part[-1]
+            if part.endswith("ий"):
+                forms.update(part[:-2] + e for e in ("ого", "ому", "им", "ім"))
+            elif last == "а":
+                forms.update(stem + e for e in ("и", "і", "у", "ою", "о", "ої", "ій"))
+                if stem[-1:] and stem[-1] in "жчшщ":
+                    forms.add(stem + "ею")
+                if stem[-1:] in UKRAINIAN_SOFTENED:
+                    forms.add(stem[:-1] + UKRAINIAN_SOFTENED[stem[-1]] + "і")
+            elif last == "я":
+                if stem[-1:] and stem[-1] in "аеєиіїоуюя'":
+                    forms.update(stem + e for e in ("ї", "ю", "єю", "є"))
+                else:
+                    forms.update(stem + e for e in ("і", "ю", "ею", "е"))
+            elif last == "й":
+                forms.update(stem + e for e in ("я", "ю", "єві", "єм", "ї"))
+            elif last == "ь":
+                forms.update(stem + e for e in ("я", "ю", "еві", "ем", "і"))
+            elif last == "о":
+                forms.update(stem + e for e in ("а", "у", "ові", "ом", "е", "і"))
+            elif last == "и":
+                forms.update(stem + e for e in ("", "ах", "ам", "ами"))
+            elif last not in "еєіїую'":
+                forms.update(part + e for e in ("а", "у", "ові", "ом", "і", "е", "я", "ю", "еві", "ем"))
+                if part.endswith(("ів", "їв")):
+                    short = part[:-2] + ("о" if part[-2] == "і" else "є") + "в"
+                    forms.update(short + e for e in ("а", "у", "ові", "ом", "і", "е"))
+    forms.discard("")
     return forms
 
 
@@ -638,6 +700,21 @@ def italian_tokens(text, ranks, names=frozenset(), verbs=None, heads=None):
     return out
 
 
+def turkish_lower(text):
+    """Lowercased as Turkish does: I is ı, İ is i."""
+    return text.replace("I", "ı").replace("İ", "i").lower()
+
+
+def turkish_tokens(text):
+    """
+    Turkish words, lowercased the Turkish way. A suffix set off by an apostrophe (Ali'nin, Ankara'ya,
+    TDK'ya) goes with the word before it, which is counted alone; after digits (3'te, 1990'larda) it
+    belongs to the number, which is not counted.
+    """
+    text = re.sub(r"(?<=\d)['’][^\W\d_]+", " ", text)
+    return [turkish_lower(re.split(r"['’]", match.group(0))[0]) for match in WORD.finditer(text)]
+
+
 def check(path, brief=False):
     course = json.load(open(path, encoding="utf-8"))
     code = course["id"].split("-")[0]
@@ -658,8 +735,19 @@ def check(path, brief=False):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
+    if code == "uk":
+        names = names | ukrainian_name_forms(course.get("names", []))
     if code == "sr":
         names = names | serbian_name_forms(course.get("names", []))
+    # A Polish name of several words or with a hyphen (Zielona Góra, Bielsko-Biała) counts as one known word wherever it
+    # is written whole; each case form the text uses is listed whole (Zielonej Górze).
+    if code == "pl":
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+    # Turkish names are lowercased the Turkish way (Işıl, İzmir); one of several words (Kız Kulesi) counts as one
+    # known word wherever it is written whole, its suffix too (Kız Kulesi'ne).
+    if code == "tr":
+        names = {fold(code, turkish_lower(n)) for n in course.get("names", [])}
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     seen_new = set()
     ok = True
     report = []
@@ -682,6 +770,17 @@ def check(path, brief=False):
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
+            if code == "tr":
+                pattern = re.compile(r"(?<![^\W\d_])" + re.escape(name) + r"(?:['’][^\W\d_]+)?(?![^\W\d_])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
+            # A katakana name is not matched inside a longer katakana word (リン in オリンピック).
+            if code == "ja" and re.fullmatch(r"[ァ-ヺー]+", name):
+                pattern = re.compile(r"(?<![ァ-ヺー])" + re.escape(name) + r"(?![ァ-ヺー])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(JA_NAME, text)
+                continue
             whole_names += text.count(name)
             text = text.replace(name, JA_NAME if code == "ja" else " ")
         # A decade or number ending joined to the digits is a number (Danish 1960'erne, Norwegian 1960-tallet, Swedish 1960-talet).
@@ -703,11 +802,18 @@ def check(path, brief=False):
         # The header of the questions is the lesson's layout, not one of its words.
         if code == "ja":
             text = text.replace("質問：", "")
+        if code == "uk":
+            text = re.sub(r"(?m)^Запитання:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
-        if code in ("es", "ru", "it", "sr"):
+        if code in ("es", "ru", "it", "sr", "uk"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
+            whole_names += numerals
+        # So is a Polish one (XIX wiek, Jan III Sobieski); a capital I alone is the word i.
+        if code == "pl":
+            numerals = sum(1 for t in toks if t != "I" and ROMAN.fullmatch(t))
+            toks = [t for t in toks if t == "I" or not ROMAN.fullmatch(t)]
             whole_names += numerals
         raw_words = [fold(code, t.lower()) for t in re.findall(r"[^\W\d_]+(?:['’][^\W\d_]+)*", text)]
         lowered = [fold(code, t.lower()) for t in toks] + ["\u0000name"] * whole_names
