@@ -2,8 +2,37 @@ package com.tayra.languages.core.domain.service
 
 import com.tayra.languages.core.domain.model.Language
 
-/** An example sentence using a term, with a translation and a recording when available. */
-data class ExampleSentence(val text: String, val translation: String?, val audioUrl: String? = null)
+/**
+ * An example sentence using a term, with a translation and a recording when available; a sentence
+ * taken from a published text links to it ([sourceUrl]) with its date (yyyy-mm-dd).
+ */
+data class ExampleSentence(
+    val text: String,
+    val translation: String?,
+    val audioUrl: String? = null,
+    val sourceUrl: String? = null,
+    val date: String? = null,
+)
+
+/** Where example sentences come from. */
+enum class ExampleSource(val label: String) {
+    TATOEBA("Tatoeba"),
+    LEIPZIG("Leipzig Corpora"),
+}
+
+/** What a [source] offers for a language, so a screen shows only the filters it can apply. */
+data class ExampleSourceFeatures(
+    val source: ExampleSource,
+    val audio: Boolean,
+    val sorts: List<ExampleSort>,
+    val translations: Boolean,
+    /** Whether a search for several words finds them together, rather than nothing. */
+    val phrases: Boolean,
+) {
+    companion object {
+        val TATOEBA = ExampleSourceFeatures(ExampleSource.TATOEBA, audio = true, sorts = ExampleSort.entries, translations = true, phrases = true)
+    }
+}
 
 enum class YesNo(val apiValue: String, val label: String) { YES("yes", "Yes"), NO("no", "No") }
 
@@ -46,6 +75,7 @@ data class ExampleSearchQuery(
     val transIsUnapproved: YesNo? = null,
     val transIsOrphan: YesNo? = null,
     val limit: Int = 30,
+    val source: ExampleSource = ExampleSource.TATOEBA,
 )
 
 data class ExampleSearchResult(
@@ -71,4 +101,19 @@ interface ExampleSentencesProvider {
     suspend fun search(query: ExampleSearchQuery): ExampleSearchResult
 
     suspend fun nextPage(nextPage: String, targetLanguage: String): ExampleSearchResult
+
+    /** The sources with examples in [language], the default first. */
+    suspend fun sources(language: Language): List<ExampleSourceFeatures> = listOf(ExampleSourceFeatures.TATOEBA)
+}
+
+/** How often a word occurs in a corpus. */
+data class CorpusFrequency(val count: Long, val rank: Int?, val frequencyClass: Int?)
+
+/** Counts of a language's words in a large corpus, and the words found near them. */
+interface CorpusWords {
+    /** The word's frequency, or null when the corpus lacks the language or the word. Never throws. */
+    suspend fun frequency(word: String, language: Language): CorpusFrequency?
+
+    /** The words found with [word] most significantly often, strongest first. Never throws. */
+    suspend fun cooccurrences(word: String, language: Language, limit: Int = 8): List<String>
 }

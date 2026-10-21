@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.service
 
+import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.morphology.ChineseScript
 import com.tayra.languages.core.domain.morphology.ChineseScripts
 
@@ -13,6 +14,8 @@ class ChineseScriptExamples(private val examples: ExampleSentencesProvider) : Ex
 
     override suspend fun nextPage(nextPage: String, targetLanguage: String): ExampleSearchResult =
         examples.nextPage(nextPage, targetLanguage).inScript(scripts[nextPage])
+
+    override suspend fun sources(language: Language): List<ExampleSourceFeatures> = examples.sources(language)
 
     private fun ExampleSearchResult.inScript(script: ChineseScript?): ExampleSearchResult {
         if (script == null) return this
