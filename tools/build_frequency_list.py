@@ -584,6 +584,41 @@ KOREAN_THING_COPULA = ("거라", "거냐", "거니까", "거니깐")
 
 # How the dictionary glosses a word written with its particle.
 KOREAN_FUSED = re.compile(r"(topic-marked form of|allomorph of .* before -가|plural of)")
+# How it glosses a form it has as a word of its own: 화려한 "attributive form of 화려하다", 먹기 "verbal noun of 먹다",
+# 아빤 "topic-marked form of 아빠", 해요 "informal polite present exclamatory form of 하다"; and a verb's noun in -기 glossed
+# as the English one in -ing (만나기 "meeting", 걷기 "walking").
+KOREAN_INFLECTION_GLOSS = re.compile(
+    r"(?:an? )?(?:(?:informal|formal|polite|plain|present|past|future|declarative|interrogative|imperative|exclamatory|"
+    r"realis|irrealis|attributive|adnominal|conjunctive|sequential|infinitive|nominal|verbal|topic-marked)\s+)*"
+    r"(?:form|noun|adnominal|determiner|infinitive|topic-marked)\s+of\s+([가-힣]+)", re.I)
+KOREAN_VERBAL_NOUN_GLOSS = re.compile(r"(?:verbal noun|action noun|[a-z]+ing\b(?! [a-z]))", re.I)
+# The forms the pack has as words, each with the word it is the form of where there is one; filled by load_dictionary.
+KOREAN_GLOSSED = {}
+
+
+def korean_glossed(rows, verbs):
+    """
+    The pack's entries ([rows] of word, part of speech and senses) that are another word's forms (KOREAN_INFLECTION_GLOSS),
+    each with that word where all name one, else None; and nouns in -기 of [verbs] glossed as a verb's noun, with the verb.
+    Words with their particle (korean_fused) are not among them.
+    """
+    glosses, first = defaultdict(list), {}
+    for word, p, senses in rows:
+        if p not in WORD_POS or korean_fused(word, senses):
+            continue
+        found = [g for sense in json.loads(senses) for g in sense.get("glosses", [""])]
+        glosses[word] += found
+        if p == "noun" and found:
+            first.setdefault(word, found[0])
+    out = {}
+    for word, found in glosses.items():
+        matches = [KOREAN_INFLECTION_GLOSS.match(g) for g in found]
+        if found and all(matches):
+            of = {m.group(1) for m in matches}
+            out[word] = of.pop() if len(of) == 1 else None
+        elif word.endswith("기") and len(word) > 1 and word[:-1] + "다" in verbs and KOREAN_VERBAL_NOUN_GLOSS.match(first.get(word, "")):
+            out[word] = word[:-1] + "다"
+    return out
 
 
 def korean_fused(word, senses):
@@ -938,8 +973,11 @@ def load_dictionary(language):
     # Words whose common-word entries are all capitalised ("China", the noun) are names too,
     # except the nouns of a language that capitalises them; those keep their capital ("Haus").
     common = {}
+    if language == "ko":
+        verbs = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('verb', 'adj')")}
+        KOREAN_GLOSSED.update(korean_glossed(db.execute("SELECT word_lc, pos, senses FROM entries"), verbs))
     for word, word_lc, p, senses in db.execute("SELECT word, word_lc, pos, senses FROM entries"):
-        if language == "ko" and korean_fused(word_lc, senses):
+        if language == "ko" and (korean_fused(word_lc, senses) or word_lc in KOREAN_GLOSSED):
             continue
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter"):
@@ -959,6 +997,10 @@ def load_dictionary(language):
         lemma = lower(language, lemma)
         if is_wordlike(lemma):
             lemmas[form_lc].append(lemma)
+    # A Korean verb's form the pack files under other verbs too (가는 of 가다, 갈다 and 가늘다) goes as its forms table says.
+    for form_lc, of in KOREAN_GLOSSED.items() if language == "ko" else ():
+        if of and set(lemmas.get(form_lc, [of])) - {of} and pos.get(of, set()) & {"verb", "adj"}:
+            KOREAN_GLOSSED[form_lc] = None
     if language == "ja":
         # The pack files a kanji word's kana reading as a form of it, so the reader finds the word written
         # in kana ("ところ" for 所). A reading that is a word of its own is counted for itself: else "ます",
@@ -1399,6 +1441,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
                 return {form: 1.0}
         elif language == "ko" and form in KOREAN_OWN:
             return {form: 1.0}
+        elif language == "ko" and KOREAN_GLOSSED.get(form) and is_word(KOREAN_GLOSSED[form]):
+            # A form the pack has as a word (화려한, 먹기, 아빤) is the word it is the form of.
+            return {KOREAN_GLOSSED[form]: 1.0}
         elif language == "ko" and form.startswith(KOREAN_THING_COPULA) and form not in pos:
             # 거 with the copula (거라고요, 거냐고, 거니깐), which the rules make 걸다's.
             return {"거": 1.0}
