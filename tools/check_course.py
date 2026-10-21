@@ -312,7 +312,9 @@ def japanese_tokens(text, ranks):
                         end, lemma = j, "".join(p[0] for p in word[i:j])
                         break
             written = "".join(p[0] for p in word[i:end])
-            if JA_NUMBER.fullmatch(written):
+            # Grammar the list lacks (によって, という, らしい, the ん of のだ) is grammar, never an outside word.
+            unlisted = lemma not in ranks and head[0] not in ranks
+            if JA_NUMBER.fullmatch(written) or unlisted and (head[1] in ("助詞", "助動詞") or head[0] == "ん" and head[2] == "非自立"):
                 out.append(KNOWN)
             else:
                 out.append(lemma if lemma in ranks or head[0] not in ranks else head[0])
