@@ -1377,7 +1377,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
     for word in ranked:
         counted = sorted((f for f in forms[word] if f not in main or KOREAN_LISTED * forms[word][f] >= forms[main[f]][f]),
                          key=lambda f: -forms[word][f])
-        counted = counted[:FORMS_PER_WORD] + [f for f in counted[FORMS_PER_WORD:] if f in required]
+        # A Korean form of a word sent to another by hand (해야할 of 해야하다, 해야 하다 written as one) is listed
+        # however many forms come before it: the reader finds no word of the list for it otherwise.
+        counted = counted[:FORMS_PER_WORD] + [f for f in counted[FORMS_PER_WORD:] if f in required or (
+            language == "ko" and lemmas.get(f) and all(overrides.get(l, [l]) != [l] for l in lemmas[f]))]
         if language == "ja" and any(is_cjk(c) and not is_kana(c) for c in word):
             # A kanji spelling reached through a kana word read alike (枯れる through かれる to 狩る, 湧く through
             # わく to 分ける) is another word: a kanji word's forms share a kanji with it.
