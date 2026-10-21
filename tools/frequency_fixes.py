@@ -1440,3 +1440,11 @@ OVERRIDES["ja"].update({w: [w] for w in ("日本", "地球", "クリスマス", 
 OVERRIDES["ja"].update({"理由": ["理由"], "友": ["友"]})
 # あれ "that", which the dictionary also files as a form of ある; おり, the stem of おる in ております.
 OVERRIDES["ja"].update({"あれ": ["あれ"], "おり": ["おる"]})
+# Kana spellings and て stems that would go to the wrong word: 行っ is 行く far more than 行う.
+OVERRIDES["ja"].update({
+    "行っ": ["行く"], "いっ": ["言う", "行く"], "いっぱい": ["一杯"], "かける": ["掛ける"], "かけ": ["掛ける"],
+    "かかり": ["掛かる"], "はじめ": ["始め"], "いれる": ["入れる"], "いたる": ["至る"], "しり": ["知る"],
+})
+# Transitive verbs the dictionary files under their intransitive partner (入れる "put in" under 入る "enter").
+OVERRIDES["ja"].update({w: [w] for w in ("入れる", "開ける", "届ける")})
+OVERRIDES["ja"].update({"入れ": ["入れる"], "開け": ["開ける"], "届け": ["届ける"], "あけ": ["開ける"], "あける": ["開ける"]})

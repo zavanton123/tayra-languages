@@ -191,6 +191,21 @@ TE_STEMS = {"っ": "うつる", "ん": "むぶぬ", "い": "くぐ"}
 # How common a verb must be, against its stem, to take the stem's count: else a rare verb that only
 # looks like the stem (同じる for 同じ) would.
 JA_STEM_SHARE = 0.02
+# The readings the dictionary's entries give each Japanese word, and the spellings left with no word
+# by the related-kanji rule; filled by load_dictionary.
+JA_READINGS = {}
+JA_ORPHANS = set()
+
+
+def ja_stem_words(form):
+    """The verbs and adjectives a stem the dictionary lacks may be of: 帰っ → 帰る, 飲ん → 飲む, 良かっ → 良い."""
+    words = [form + "る"]
+    if form.endswith("かっ"):
+        words.append(form[:-2] + "い")
+    words += [form[:-1] + end for end in TE_STEMS.get(form[-1:], "") + GODAN.get(form[-1:], "")]
+    if form.endswith("行っ"):
+        words.append(form[:-1] + "く")
+    return words
 
 
 def verb_stem_of(form, verb):
@@ -492,7 +507,12 @@ def load_dictionary(language):
             # A verb or adjective of one kanji is read as its kun reading with the same kana (居る as いる).
             tail = form_lc[1:] if len(kanji) == 1 and form_lc[0] in kanji and is_kana(form_lc[1:]) else None
             own = readings[form_lc] | ({r.replace(".", "") for r in kun.get(form_lc[0], []) if r.partition(".")[2] == tail} if tail else set())
-            lemmas[form_lc] = [l for l in of if kanji & set(l) or (is_kana(l) and l in own)]
+            kept = [l for l in of if kanji & set(l) or (is_kana(l) and l in own)]
+            # A spelling whose only links were to words read alike (超える, filed under 越える) is a word itself.
+            if of and not kept:
+                JA_ORPHANS.add(form_lc)
+            lemmas[form_lc] = kept
+        JA_READINGS.update(readings)
     if language in ("zh", "yue"):
         # A simplified spelling is a form of every traditional word written with it, variant and dialect
         # spellings among them (我们 of 我們 and of 姆們); its count goes to the main word: the most common
@@ -515,7 +535,9 @@ def load_dictionary(language):
                 lemmas[form_lc] = [lemma for lemma in of if weight(lemma) == best]
     for form_lc, of in lemmas.items():
         if len(set(of)) > MAX_LEMMAS_PER_FORM:
-            lemmas[form_lc] = []
+            # A kana spelling of many kanji words read alike (かかる of 掛かる, 係る, 罹る ...) stays with them.
+            ja_reading = language == "ja" and is_kana(form_lc) and len(form_lc) > 2 and not set(form_lc) & set("ゃゅょ") and any(form_lc in JA_READINGS.get(l, ()) for l in of)
+            lemmas[form_lc] = of if ja_reading else []
     return pos, lemmas, common, outdated
 
 
@@ -648,6 +670,11 @@ def build(language, source, size):
             if len(form) == 1 and not is_word(form) and language not in ("zh", "yue"):
                 return {}
             known = [s for s in spellings(form) if s in lemmas or s in pos]
+            if not known and language == "ja" and len(form) > 1:
+                verbs = [v for v in ja_stem_words(form) if pos.get(v, set()) & {"verb", "adj"} and is_word(v)]
+                if verbs:
+                    weights = {v: count(v) or 1e-12 for v in verbs}
+                    return {v: w / sum(weights.values()) for v, w in weights.items()}
             if not known:
                 word = guess(form)
                 return {word: 1.0} if word else {}
@@ -667,7 +694,13 @@ def build(language, source, size):
         # A noun made from a verb (考え "idea", 終わり "end") stays a word of its own.
         if language == "ja" and is_kana(form):
             # A kana piece (しよ of しよう) gives its count only to a kanji word written with it that is common itself.
-            others = [l for l in others if is_kana(l) or count(l) >= JA_STEM_SHARE * count(form)]
+            others = [l for l in others if is_kana(l) or count(l) >= JA_STEM_SHARE * count(form) or (len(form) > 2 and not set(form) & set("ゃゅょ") and form in JA_READINGS.get(l, ()))]
+            # A kana spelling of several kanji words read alike counts for the commonest (かかる for 掛かる);
+            # two kana are more often a piece of a longer word (しさ of らしさ) than a word written in kana.
+            if not is_word(form) and len(others) > 1 and not any(is_kana(l) for l in others):
+                # まつ is 待つ, not 末: a kana spelling ending as a verb ends goes to a verb.
+                verbs = [l for l in others if form[-1] in "うくぐすつぬぶむる" and "verb" in pos.get(l, set())]
+                others = [max(verbs or others, key=count)]
         stem_of = [] if language != "ja" or form in overrides or pos.get(form, set()) & {"adj"} or (len(form) > 1 and "noun" in pos.get(form, set())) else [
             l for l in others
             if "verb" in pos.get(l, set()) and kanji_stem(l) and verb_stem_of(form, l) and count(l) >= JA_STEM_SHARE * count(form)
@@ -687,7 +720,7 @@ def build(language, source, size):
             if not others:
                 return {form: 1.0}
         if not others:
-            return {}
+            return {form: 1.0} if form in JA_ORPHANS else {}
         weights = {l: count(l) or 1e-12 for l in others}
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()}
