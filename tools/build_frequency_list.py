@@ -456,6 +456,33 @@ def korean_verb_readings(form, verbs):
     return out & verbs
 
 
+# The humble 드리다 after a noun that makes a verb with 하다 (부탁드립니다 of 부탁하다), which the pack lacks.
+KOREAN_HUMBLE = ("드리", "드려", "드렸", "드립", "드릴", "드린", "드림")
+# The vowels of a verb's 아/어 form (쉬워, 빨라, 해, 돼), before 지다 "become" (쉬워지다 of 쉽다).
+KOREAN_INFINITIVE_VOWELS = {0, 1, 4, 6, 9, 10, 14}
+
+
+def korean_humble_verb(form, is_verb):
+    """The verb in 하다 a form in 드리다 is humble for (부탁드립니다 of 부탁하다), by [is_verb]; None for any other."""
+    for at in range(len(form) - 2, 1, -1):
+        if form.startswith(KOREAN_HUMBLE, at) and is_verb(form[:at] + "하다"):
+            return form[:at] + "하다"
+    return None
+
+
+def korean_become_stem(lemma):
+    """The 아/어 form a verb in 지다 "become" is made of (쉬워 of 쉬워지다, 빨라 of 빨라지다), or None."""
+    if not lemma.endswith("지다") or len(lemma) < 4:
+        return None
+    code = ord(lemma[-3]) - 0xAC00
+    return lemma[:-2] if 0 <= code < 11172 and not code % 28 and code // 28 % 21 in KOREAN_INFINITIVE_VOWELS else None
+
+
+def korean_become_verbs(verb):
+    """The verbs in 지다 "become" a verb makes, as dictionaries spell them (이루어지다 of 이루다, 만들어지다 of 만들다)."""
+    return [verb[:-1] + "어지다", verb[:-1] + "아지다"]
+
+
 # Endings of spoken Korean that Yomitan's rules do not undo, longest first.
 KOREAN_SPOKEN_ENDINGS = ["잖습니까", "잖아요", "잖니", "잖아"]
 
@@ -1186,6 +1213,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
         if form.endswith(KOREAN_POLITE) and is_word(base) and not (
                 is_word(base + "다") and pos[base + "다"] & {"verb", "adj"} and weight(base + "다") >= weight(base)):
             return base
+        humble = korean_humble_verb(form, lambda verb: is_word(verb) and pos[verb] & {"verb", "adj"})
+        if humble:
+            return humble
         found = [(steps, -weight(lemma), lemma) for lemma, steps in korean_dictionary_forms(form)
                  if korean_stem_of(lemma, form) and korean_reu_fits(lemma, form, reu) and pos.get(lemma, set()) & {"verb", "adj"}
                  and lemma in common and lemma not in excluded]
@@ -1201,6 +1231,13 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
                 if lemma.endswith("하다") and len(noun) > 1 and lemma not in pos and lemma not in KOREAN_APART and is_word(noun) \
                         and "noun" in pos[noun] and form.startswith(noun) and form[len(noun):len(noun) + 1] in KOREAN_HADA:
                     return noun
+            # A verb in 지다 "become" the pack lacks is its verb's (자연스러워졌어요 of 자연스럽다, 빨라졌고 of 빠르다), or
+            # that verb's own in 지다 as the pack spells it (이뤄졌다 of 이루어지다).
+            for lemma, _ in korean_dictionary_forms(form):
+                stem = korean_become_stem(lemma)
+                verb = stem and not is_word(lemma) and korean_guess(stem)
+                if verb:
+                    return next((v for v in korean_become_verbs(verb) if is_word(v)), verb)
             # Spoken endings the rules lack: 있잖아 "you know, there is" of 있다.
             stem = next((form[:-len(ending)] for ending in KOREAN_SPOKEN_ENDINGS if form.endswith(ending) and len(form) > len(ending)), None)
             if stem and stem + "다" in common and pos.get(stem + "다", set()) & {"verb", "adj"}:
