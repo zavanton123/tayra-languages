@@ -1527,6 +1527,8 @@ KOREAN_STEMS = {
     "마시다": ("마시", "마셔", "마셨", "마신", "마실", "마십니"),
     "지우다": ("지우", "지워", "지웠", "지운", "지울"),
     "가시다": ("가시", "가셔", "가셨", "가신", "가실", "가십"),
+    # The pack files 달아, 달았다 under 닫다 too, whose forms are 닫아, 닫았다.
+    "달다": ("달아", "달았"),
 }
 # Person names, surnames and brands that rank by their use in news; Korean's cities stay words.
 EXCLUDE["ko"].update({
@@ -1542,3 +1544,16 @@ OVERRIDES["ko"].update({
 KOREAN_CUT.update({"차도"})
 # Sino-Korean nouns spelled as a verb's form with -자 or -지 that the builder would give the verb (일다, 감다, 굴다).
 OVERRIDES["ko"].update({w: [w] for w in ("일자", "감지", "굴지")})
+# Verb forms that the builder's counts would cut as a noun with a particle (자 + 는, 아 + 나 + 요), and 누가요,
+# 누가 with the polite 요. 니 is 너 as spoken (니가, 니 엄마); 해야하다 is 해야 하다 written without its space.
+KOREAN_WHOLE.update({"자는", "자를", "아나요", "누가요"})
+OVERRIDES["ko"].update({"니": ["너"], "누가요": ["누가"], "해야하다": ["하다"]})
+# Adverbs in -게 that are words of their own, not their adjective's form (build_list): the pro-forms, and 되게 "very".
+OVERRIDES["ko"].update({w: [w] for w in ("어떻게", "이렇게", "그렇게", "저렇게", "되게")})
+# A noun and a name the pack files as rare verbs' forms (고다, 썰다), and 잘 자 "good night" written as one.
+OVERRIDES["ko"].update({"고심": [], "써니": [], "잘자": ["자다"]})
+# 너냐 "is it you", which the pack files under 넣다; 안나, the name Anna, or 안 나 written as one.
+OVERRIDES["ko"].update({"너냐": ["너"], "안나": []})
+# 서 (서 있어요, 거기 서) and 기어 (기어 가다) alone are 서다's and 기다's far more than "west" and "marlin";
+# the builder's test for nouns spelled as a verb's form misses them (서로 and 기어이 look like 서, 기어 with a particle).
+OVERRIDES["ko"].update({"서": ["서다"], "기어": ["기다"]})
