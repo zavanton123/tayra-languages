@@ -13,6 +13,7 @@ import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
+import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -72,13 +73,12 @@ class WiktionarySectionTest {
     fun aFormNamesItsLemmaWhichOpens() = runDesktopComposeUiTest(width = 420, height = 700) {
         val opened = mutableListOf<String>()
         setContent { Framed { WiktionarySection(WiktionaryUi(comem, tableWord = "comer", tables = listOf(conjugation), complete = true), "comem", "Portuguese", { opened += it }, {}, {}) } }
-        // The word heads the card, above its form-of line and transcriptions.
+        // The word heads the card, above its form-of line; the card shows no transcriptions.
         onNodeWithTag("wiktionary-headword").assertTextEquals("comem")
         onNodeWithText("third-person plural present indicative of comer").assertExists()
         onNodeWithTag("form-of-comer").performClick()
         assertEquals(listOf("comer"), opened)
-        onNodeWithText("/ˈkɔ.mɐ̃j̃/").assertExists()
-        onNodeWithText("Portugal").assertExists()
+        onAllNodesWithText("/ˈkɔ.mɐ̃j̃/").assertCountEquals(0)
         onNodeWithTag("wiktionary-credit").assertTextEquals("Wiktionary contributors · CC BY-SA 4.0")
         // No expressions: no section for them, not even a line saying so.
         onAllNodesWithTag("wiktionary-expressions").assertCountEquals(0)

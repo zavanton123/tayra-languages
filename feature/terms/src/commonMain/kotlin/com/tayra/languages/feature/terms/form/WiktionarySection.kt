@@ -55,7 +55,7 @@ import com.tayra.languages.core.ui.theme.AppText
 
 /**
  * What Wiktionary says of the term online: the word, which form of which lemma it is, its
- * pronunciations, its synonyms, the lemma's inflection table and the expressions made with it, the
+ * synonyms, the lemma's inflection table and the expressions made with it, the
  * last two collapsible. The pane shows it only for a word with a table or expressions.
  */
 @OptIn(ExperimentalLayoutApi::class)
@@ -73,17 +73,6 @@ internal fun WiktionarySection(
     SectionCard({ BadgeIcon(AppIcons.MenuBook) }, tr("Wiktionary"), tint = null, filled = false) {
         wiktionary.headword?.let { Text(it, Modifier.testTag("wiktionary-headword"), style = AppText.itemTitle) }
         page?.formOf?.forEach { sense -> FormOfLine(sense, onOpenWord) }
-        val pronunciations = page?.pronunciations.orEmpty().take(MAX_PRONUNCIATIONS)
-        if (pronunciations.isNotEmpty()) {
-            Column(Modifier.testTag("wiktionary-ipa"), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                pronunciations.forEach { pronunciation ->
-                    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
-                        Text(pronunciation.ipa, style = MaterialTheme.typography.bodyMedium)
-                        if (pronunciation.tags.isNotEmpty()) Text(pronunciation.tags.joinToString(", ") { it.replace('-', ' ') }, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-                    }
-                }
-            }
-        }
         val synonyms = page?.synonyms.orEmpty().take(MAX_SYNONYMS)
         if (synonyms.isNotEmpty()) {
             Text(tr("Synonyms"), style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
@@ -250,7 +239,6 @@ internal fun WiktionaryCredit(page: WiktionaryPage, languageName: String?) {
     )
 }
 
-private const val MAX_PRONUNCIATIONS = 8
 private const val MAX_SYNONYMS = 12
 private const val MAX_LISTED_FORMS = 60
 private val ROW_LABEL_WIDTH = 132.dp
