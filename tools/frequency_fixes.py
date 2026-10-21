@@ -1518,3 +1518,12 @@ EXCLUDE["ko"].update({
     "트럼프", "김", "박", "황", "윤", "최", "허", "노", "임", "추", "삼성", "카카오", "애플", "한겨레", "부시", "잭", "샘", "피트", "론", "맥", "존",
 })
 KOREAN_CUT.update({"일이", "때문에", "앞에서", "중에서", "명의", "박은", "박이", "박을", "숨이", "숨도", "숨은", "차라도", "배라도", "데라도"})
+# 거지 is 거 + 지 (것이지) far more than "beggar"; 꺼 is 거 after a possessor (내 꺼). 아뇨 is 아니요 as spoken.
+# 써 and 타, verb forms the pack files as an adverb and a determiner. 차라, a rare form of 차다 that would
+# take 차라도 from 차 + 라도; 차도 is mostly 차 + 도.
+OVERRIDES["ko"].update({
+    "거지": ["거"], "거지요": ["거"], "꺼": ["거"], "아뇨": ["아니요"], "아니요": ["아니요"], "써": ["쓰다"], "타": ["타다"], "차라": [],
+})
+KOREAN_CUT.update({"차도"})
+# Sino-Korean nouns spelled as a verb's form with -자 or -지 that the builder would give the verb (일다, 감다, 굴다).
+OVERRIDES["ko"].update({w: [w] for w in ("일자", "감지", "굴지")})
