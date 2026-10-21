@@ -403,11 +403,12 @@ def korean_copula_is_verbs(form, sound, before, word, known):
 KOREAN_SOFT_FINALS = {0, 7, 8, 17, 19, 27}
 
 
-def korean_stem_of(lemma, word):
+def korean_stem_of(lemma, word, strict=True):
     """
     Whether [lemma], a dictionary form, can be what [word] inflects: its stem begins the word, the
     stem's last syllable in its first letter only (갔어요 of 가다, 몰라 of 모르다, 해 of 하다). The rules
-    also give words no reading would (다 of 학교에서).
+    also give words no reading would (다 of 학교에서). Only [strict]ly, the stem's last syllable changes as a
+    verb's does (땄다 is no 뜨다's, 끄라고 no 끌다's), and no particle follows the stem (비키의).
     """
     stem = lemma[:-1]
     if not lemma.endswith("다") or not stem or len(stem) > len(word):
@@ -425,7 +426,51 @@ def korean_stem_of(lemma, word):
         return False
     # Only a stem in ㄷ, ㄹ, ㅂ, ㅅ or ㅎ loses or changes its last consonant (들어 of 듣다, 사는 of 살다, 도와 of
     # 돕다); the rules, which read the letters apart, also take 부터요 for 붙어요.
-    return final in KOREAN_SOFT_FINALS or word[len(stem) - 1] == stem[-1]
+    if not (final in KOREAN_SOFT_FINALS or word[len(stem) - 1] == stem[-1]):
+        return False
+    if not strict:
+        return True
+    # Nor does a verb's form end in a particle after its stem (비키의, 졸리와 are names').
+    rest = word[len(stem):]
+    if word.startswith(stem) and (rest in KOREAN_NO_VERB_ENDINGS or rest == "을" and not final):
+        return False
+    return korean_last_syllable_fits(stem, word[len(stem) - 1], word[len(stem):len(stem) + 1])
+
+
+# A verb's stem's last vowel as its 아/어 ending changes it, by Hangul's numbering of the vowels: ㅗ to ㅘ (봐), ㅜ to ㅝ
+# (줘), ㅣ to ㅕ (마셔), ㅚ to ㅙ (돼), ㅡ to ㅓ (써), or to ㅏ after ㅏ or ㅗ (바빠, 몰라).
+KOREAN_VOWEL_CHANGES = {8: {9}, 13: {14}, 20: {6}, 11: {10}, 18: {4}}
+KOREAN_BRIGHT_VOWELS = {0, 2, 8, 9, 12}
+# Particles no verb's form ends in after its stem.
+KOREAN_NO_VERB_ENDINGS = {"의", "를", "와", "과", "가", "에", "에서", "에게", "로", "처럼", "까지", "부터", "만", "랑"}
+# The ㄹ of a stem drops before ㄴ, ㅂ and ㅅ (사는, 사세요 of 살다) or turns into ㄴ or ㅂ (산다, 삽니다), keeping it
+# before 라 (살라고): 끄라고 is 끄다's, not 끌다's.
+KOREAN_L_DROPS_BEFORE = {2, 7, 9}
+KOREAN_L_BECOMES = {4, 17, 10}
+
+
+def korean_last_syllable_fits(stem, got, after):
+    """Whether [got] may be the last syllable of a verb's [stem] in a form, [after] the syllable after it, if any."""
+    last = stem[-1]
+    if got == last:
+        return True
+    x, y = ord(last) - 0xAC00, ord(got) - 0xAC00
+    vowel, now, final, end = x // 28 % 21, y // 28 % 21, x % 28, y % 28
+    if vowel != now:
+        changes = set(KOREAN_VOWEL_CHANGES.get(vowel, ()))
+        if vowel == 18 and len(stem) > 1 and (ord(stem[-2]) - 0xAC00) // 28 % 21 in KOREAN_BRIGHT_VOWELS:
+            changes.add(0)
+        # 하다 and a stem in ㅎ (해, 그래, 빨개, 하얘), and 그러다, 이러다 (그래, 이래).
+        if last == "하" or final == 27 or last in ("러", "쩌"):
+            changes |= {1, 3, 7}
+        if now not in changes:
+            return False
+    if final == 8 and end != 8:
+        if end in KOREAN_L_BECOMES:
+            return True
+        code = ord(after) - 0xAC00 if after else -1
+        return end == 0 and 0 <= code < 11172 and code // 588 in KOREAN_L_DROPS_BEFORE
+    return True
 
 
 def korean_reu_doubling(lemmas):
@@ -1109,7 +1154,7 @@ def build_korean(found, size):
     def verbal(run):
         """Whether [run] may be a verb's form: by the pack, or by Yomitan's rules past the bare stem, which any word is."""
         return bool(lemmas.get(run)) or any(
-            lemma in verbs and steps and korean_stem_of(lemma, run) for lemma, steps in korean_dictionary_forms(run, bare=False))
+            lemma in verbs and steps and korean_stem_of(lemma, run, strict=False) for lemma, steps in korean_dictionary_forms(run, bare=False))
 
     def reads_as_verb(run, stem):
         # 하고 after a noun that makes a verb with 하다 is that verb's (공부하고), not "with" (친구하고).
