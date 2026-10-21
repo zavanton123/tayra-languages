@@ -186,7 +186,7 @@ object AddedLanguages {
             wordCharacters = "\\uAC00-\\uD7A3\\u1100-\\u11FF\\u3130-\\u318F",
             rightToLeft = false,
             showRomanization = true,
-            parserType = "spacedel",
+            parserType = "korean",
         ),
     )
 

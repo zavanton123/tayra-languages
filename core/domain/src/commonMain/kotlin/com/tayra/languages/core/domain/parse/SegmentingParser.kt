@@ -24,7 +24,7 @@ open class SegmentingParser(
     private val code: String,
     private val joinUnknown: Boolean,
     private val byFrequency: Boolean = false,
-) : TextParser {
+) : LexiconParser {
 
     /** How much longer than the lexicon's longest word a stretch may be, for the inflections [matches] accepts. */
     protected open val inflectionLength: Int = 0

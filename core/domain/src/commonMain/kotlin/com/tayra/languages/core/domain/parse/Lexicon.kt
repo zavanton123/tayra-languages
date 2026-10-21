@@ -3,8 +3,9 @@ package com.tayra.languages.core.domain.parse
 import kotlin.concurrent.Volatile
 
 /**
- * The words a language written without spaces is cut into, lowercase, and the frequency [ranks] of
- * those its frequency list has (1 for the most common), which tell a parser the likelier cut.
+ * The words a language written without spaces is cut into (and Korean's, cut from their particles),
+ * lowercase, and the frequency [ranks] of those its frequency list has (1 for the most common), which
+ * tell a parser the likelier cut.
  */
 class Lexicon(words: Collection<String>, private val ranks: Map<String, Int> = emptyMap()) {
     private val words: Set<String> = words.toHashSet()
@@ -27,8 +28,11 @@ class Lexicon(words: Collection<String>, private val ranks: Map<String, Int> = e
     }
 }
 
+/** A parser that cuts words by its language's lexicon ([Lexicons]), which LexiconService loads first. */
+interface LexiconParser : TextParser
+
 /**
- * The lexicons of the languages read without spaces, by language code, set by the
+ * The lexicons of the languages read without spaces, and of Korean, by language code, set by the
  * LexiconService before a text is parsed; a parser without its lexicon still parses, more coarsely.
  */
 object Lexicons {

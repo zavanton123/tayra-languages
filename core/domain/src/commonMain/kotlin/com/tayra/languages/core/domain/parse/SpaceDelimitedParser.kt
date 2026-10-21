@@ -34,6 +34,9 @@ open class SpaceDelimitedParser : TextParser {
         return tokens
     }
 
+    /** The words a run of word characters is read as: by default, the run itself. */
+    protected open fun words(word: String): List<String> = listOf(word)
+
     private fun parseParagraph(text: String, language: Language, tokens: MutableList<ParsedToken>) {
         val termChars = normalizeRegexEscapes(language.wordCharacters.trim()).ifEmpty { DEFAULT_WORD_CHARACTERS }
         val splitExceptions = language.exceptionsSplitSentences.replace(".", "\\.")
@@ -52,7 +55,7 @@ open class SpaceDelimitedParser : TextParser {
         for (match in wordRegex.findAll(text)) {
             if (match.value.isEmpty()) continue
             addNonWords(text.substring(position, match.range.first))
-            tokens.add(ParsedToken(match.value, isWord = true))
+            words(match.value).forEach { tokens.add(ParsedToken(it, isWord = true)) }
             position = match.range.last + 1
         }
         addNonWords(text.substring(position))

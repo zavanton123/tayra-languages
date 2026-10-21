@@ -18,6 +18,7 @@ object ParserRegistry {
         "mandarin" to SegmentingParser("Mandarin Chinese", "zh", joinUnknown = false, byFrequency = true),
         "cantonese" to SegmentingParser("Cantonese", "yue", joinUnknown = false, byFrequency = true),
         "japanese" to JapaneseParser(),
+        "korean" to KoreanParser(),
     )
 
     /** Parser types with their display names. */
