@@ -1534,7 +1534,7 @@ KOREAN_STEMS = {
 EXCLUDE["ko"].update({
     "트럼프", "김", "박", "황", "윤", "최", "허", "노", "임", "추", "삼성", "카카오", "애플", "한겨레", "부시", "잭", "샘", "피트", "론", "맥", "존",
 })
-KOREAN_CUT.update({"일이", "때문에", "앞에서", "중에서", "명의", "박은", "박이", "박을", "숨이", "숨도", "숨은", "차라도", "배라도", "데라도"})
+KOREAN_CUT.update({"일이", "때문에", "명의", "박은", "박이", "박을", "숨이", "숨도", "숨은", "차라도", "배라도", "데라도"})
 # 거지 is 거 + 지 (것이지) far more than "beggar"; 꺼 is 거 after a possessor (내 꺼). 아뇨 is 아니요 as spoken.
 # 써 and 타, verb forms the pack files as an adverb and a determiner. 차라, a rare form of 차다 that would
 # take 차라도 from 차 + 라도; 차도 is mostly 차 + 도.
@@ -1557,6 +1557,31 @@ OVERRIDES["ko"].update({"너냐": ["너"], "안나": []})
 # 서 (서 있어요, 거기 서) and 기어 (기어 가다) alone are 서다's and 기다's far more than "west" and "marlin";
 # the builder's test for nouns spelled as a verb's form misses them (서로 and 기어이 look like 서, 기어 with a particle).
 OVERRIDES["ko"].update({"서": ["서다"], "기어": ["기다"]})
+# 앞에서 and 중에서 take particles of their own (앞에서는, 중에서도): as forms of 앞 and 중 the reader keeps them whole.
+# 혼자서, 멀리서, 둘이서 and 셋이서 are 혼자, 멀리, 둘 and 셋 with 에서 contracted, as 여기서 is.
+OVERRIDES["ko"].update({"앞에서": ["앞"], "중에서": ["중"], "혼자서": ["혼자"], "멀리서": ["멀리"], "둘이서": ["둘"], "셋이서": ["셋"]})
+# 화가 is mostly 화 + 가 (화가 나다), 적도 적 + 도 (본 적도 없다), more than "painter" and "equator"; 오와 and 오도,
+# which the pack files under 오다, are 오 + 와, 오 + 도.
+KOREAN_CUT.update({"화가", "적도", "오와", "오도"})
+# Spoken 바래 is 바라다 "hope" misspelt, far more than 바래다 "fade"; 데리다 "take along", a verb of few forms,
+# has none in the pack (데려 is filed under 데다), nor has it 이것저것 "this and that"; 일대 "area" and 노래다
+# "it is a song" are no forms of 일다 and 노리다, nor 거리다 and 거시기 of 걸다, nor 걸세 (거 + ㄹ세); 일어서 is
+# 일어서다's; 칠 is 치다's (칠 수 있다) more than "seven".
+OVERRIDES["ko"].update({form: ["바라다"] for form in (
+    "바래", "바래요", "바랬어", "바래야지", "바랬어요", "바랬는데", "바랬던", "바랬다", "바랬을", "바랬지", "바래야죠", "바랬지만",
+    "바랬죠", "바래야", "바랬고", "바랬거든", "바랬는지", "바랬나", "바랬겠지", "바랬기", "바랬거든요", "바래왔던", "바래서야", "바래서",
+)})
+OVERRIDES["ko"].update({form: ["데리다"] for form in (
+    "데리고", "데리러", "데리구", "데려", "데려다", "데려다가", "데리고는", "데리고도", "데려서",
+)})
+OVERRIDES["ko"].update({
+    "일대": ["일대"], "이것저것": ["이것저것"], "노래다": ["노래"], "거리다": [], "거시기": ["거시기"], "일어서": ["일어서다"], "칠": ["치다"], "걸세": ["거"],
+})
+# Forms of two words alike, each listed under both: 꺼 is 거 (내 꺼) and 끄다 (불 꺼); 끈다 끄다 and 끌다; 사지 and 사면
+# the nouns and 사다 (사지 마, 사면 돼요); 실은 "in fact" and 싣다 (짐을 실은 차).
+OVERRIDES["ko"].update({
+    "꺼": ["거", "끄다"], "끈다": ["끄다", "끌다"], "사지": ["사다", "사지"], "사면": ["사다", "사면"], "실은": ["실은", "싣다"],
+})
 # Verbs in 하다 kept apart from their noun, which means another thing (이상하다 "strange", 이상 "above"; 시장하다
 # "hungry", 시장 "market"; 불구하고 "despite").
 KOREAN_APART = {

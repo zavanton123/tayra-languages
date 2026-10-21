@@ -486,6 +486,9 @@ def korean_become_verbs(verb):
 # Endings of spoken Korean that Yomitan's rules do not undo, longest first.
 KOREAN_SPOKEN_ENDINGS = ["잖습니까", "잖아요", "잖니", "잖아"]
 
+# 거 "thing" with the copula, written as one (거라고요, 거냐고, 거니깐).
+KOREAN_THING_COPULA = ("거라", "거냐", "거니까", "거니깐")
+
 # How the dictionary glosses a word written with its particle.
 KOREAN_FUSED = re.compile(r"(topic-marked form of|allomorph of .* before -가|plural of)")
 
@@ -1299,6 +1302,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
                 return {form: 1.0}
         elif language == "ko" and form in KOREAN_OWN:
             return {form: 1.0}
+        elif language == "ko" and form.startswith(KOREAN_THING_COPULA) and form not in pos:
+            # 거 with the copula (거라고요, 거냐고, 거니깐), which the rules make 걸다's.
+            return {"거": 1.0}
         elif language == "ko" and form in verbal_nouns and is_word(verbal_nouns[form]):
             return {verbal_nouns[form]: 1.0}
         elif language == "ko" and any(form.startswith(KOREAN_STEMS[verb]) and verb in lemmas.get(form, []) for verb in KOREAN_STEMS):
@@ -1458,8 +1464,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
                     main[form] = word
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
-        counted = sorted((f for f in forms[word] if f not in main or KOREAN_LISTED * forms[word][f] >= forms[main[f]][f]),
-                         key=lambda f: -forms[word][f])
+        # A form sent by hand to several words is listed under each (끈다 of 끄다 and 끌다).
+        counted = sorted((f for f in forms[word] if f not in main or KOREAN_LISTED * forms[word][f] >= forms[main[f]][f]
+                          or word in overrides.get(f, ())), key=lambda f: -forms[word][f])
         # A Korean form of a word sent to another by hand (해야할 of 해야하다, 해야 하다 written as one) is listed
         # however many forms come before it: the reader finds no word of the list for it otherwise.
         counted = counted[:FORMS_PER_WORD] + [f for f in counted[FORMS_PER_WORD:] if f in required or (
