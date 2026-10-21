@@ -1140,6 +1140,10 @@ def build_list(language, found, size, required=frozenset()):
     for word in ranked:
         counted = sorted(forms[word], key=lambda f: -forms[word][f])
         counted = counted[:FORMS_PER_WORD] + [f for f in counted[FORMS_PER_WORD:] if f in required]
+        if language == "ja" and any(is_cjk(c) and not is_kana(c) for c in word):
+            # A kanji spelling reached through a kana word read alike (枯れる through かれる to 狩る, 湧く through
+            # わく to 分ける) is another word: a kanji word's forms share a kanji with it.
+            counted = [f for f in counted if not any(is_cjk(c) and not is_kana(c) for c in f) or set(f) & set(word)]
         if language == "sr":
             # The counts are of Latin-script text; Serbian is read in Cyrillic too.
             counted = list(dict.fromkeys(counted + [to_serbian_cyrillic(f) for f in counted]))
