@@ -722,7 +722,7 @@ def turkish_tokens(text):
 # Regular Turkish endings the list's forms run out on: the copula and personal endings on any word
 # (evdeydi, masaydı, yıldır, telefondaydım), and a verb's -me/-dik/-ecek nouns and converbs with their
 # possessive and case (görmesini, yaşadığını, olacağını, çalıştıktan, görmeden).
-TR_COPULA = re.compile(r"(?:y?ken|y?[dt][ıiuü](?:m|n|k|nız|niz|nuz|nüz|lar|ler)?|y?m[ıiuü]ş(?:[ıiuü]m|s[ıiuü]n|[ıiuü]z|l[ae]r)?|[dt][ıiuü]r|y?s[ae]|y?[ıiuü]m|y?[ıiuü]z|s[ıiuü]n(?:[ıiuü]z)?)$")
+TR_COPULA = re.compile(r"(?:y?ken|y?[dt][ıiuü](?:m|n|k|nız|niz|nuz|nüz|lar|ler)?|y?m[ıiuü]ş(?:[ıiuü]m|s[ıiuü]n|[ıiuü]z|l[ae]r)?|[dt][ıiuü]r(?:l[ae]r)?|y?s[ae]|y?[ıiuü]m|y?[ıiuü]z|s[ıiuü]n(?:[ıiuü]z)?)$")
 TR_VERBAL = re.compile(
     # -me nouns with plural, possessive and case (görmesini, yapmalarını, harcamamız)
     r"(?:m[ae](?:l[ae]r)?(?:s?[ıiuü]|[ıiuü]m|[ıiuü]n|[ıiuü]m[ıiuü]z|[ıiuü]n[ıiuü]z|l[ae]r[ıiuü])?(?:n?[ıiuü]|n?[ae]|n?d[ae]|n?d[ae]n|yl[ae]|y[ıiuü]|y[ae])?"
@@ -773,6 +773,8 @@ def turkish_base(word, ranks):
     match = TR_TENSE.search(word, 2)
     if match:
         stems.append(word[:match.start()])
+    # A negative stem (kararma- of kararmak, in kararmadığını).
+    stems += [stem[:-2] for stem in stems if len(stem) > 4 and stem[-2:] in ("ma", "me")]
     for stem in list(stems):
         passive = TR_PASSIVE.search(stem)
         if passive and passive.start() >= 2:
@@ -1017,7 +1019,9 @@ def check(path, brief=False):
         if code == "tr":
             # A language name takes its endings without an apostrophe (Türkçede, Fransızcadan): it counts as the name.
             def tr_name(w):
-                return next((n for n in names if len(n) > 3 and w.startswith(n) and TR_NOMINAL.fullmatch(w, len(n))), None)
+                copula = TR_COPULA.search(w)
+                bare = w[:copula.start()] if copula and copula.start() > 3 else w
+                return next((n for n in names if len(n) > 3 and bare.startswith(n) and TR_NOMINAL.fullmatch(bare, len(n))), None)
             lowered = [w if w in ranks or w in names else turkish_base(w, ranks) or tr_name(w) or w for w in lowered]
         # Ukrainian writes у/в and і/й by the sound before (учинив, вчинив): a word the list has only one way counts.
         if code == "uk":
