@@ -31,7 +31,7 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
     }
 
     fun cut(word: String, lexicon: Lexicon): List<String> {
-        if (NATIVE_NUMBER.matches(word)) return listOf(word)
+        if (NATIVE_NUMBER.matches(word) || isWholeNumber(word)) return listOf(word)
         var best: Double? = null
         var cut = listOf(word)
         var afterListed = false
@@ -83,6 +83,13 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
     private fun isNumber(word: String): Boolean =
         word.isNotEmpty() && word.all { it.isDigit() } || NATIVE_NUMBER.matches(word) || SINO_NUMBER.matches(word)
 
+    /**
+     * Whether [word] is a Sino-Korean number that stays whole (이십만, 십만, 삼십오): of three syllables or more, or two
+     * from 십, 백 or 천, and not ending in 이, which is as often the particle (백이, 만이); 이만 "this much" is cut.
+     */
+    private fun isWholeNumber(word: String): Boolean =
+        SINO_NUMBER.matches(word) && (word.length > 2 || word.length == 2 && word[0] in "십백천") && word.last() != '이'
+
     /** Every way [rest] is a stack of particles after [stem]; with the [lexicon], no copula's past after a verb's stem in 이. */
     private fun stacks(rest: String, stem: String, lexicon: Lexicon?): List<List<String>> {
         val out = mutableListOf<List<String>>()
@@ -101,6 +108,7 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
                 for ((form, sound) in COPULA) {
                     if (pieces.isEmpty() && verbInI && form.startsWith(COPULA_PAST)) continue
                     if (form in COPULA_IF && lexicon != null && rest.endsWith(form) && ifIsNoCopula(stem + rest.dropLast(form.length), stem + rest, lexicon)) continue
+                    if (lexicon != null && rest.endsWith(form) && isVerbs(form, sound, stem + rest.dropLast(form.length), lexicon)) continue
                     if (rest.endsWith(form) && at + form.length == rest.length && follows(last, sound)) out += pieces + form
                 }
             }
@@ -125,6 +133,19 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
      */
     private fun ifIsNoCopula(before: String, word: String, lexicon: Lexicon): Boolean =
         word in lexicon || before + VERB_END in lexicon || (before.last() in NOT_BEFORE_IF && before.dropLast(1) + VERB_END in lexicon)
+
+    /**
+     * Whether the copula's [form] after [before] is a verb's ending instead: one verbs end in too (가세요, 크구나,
+     * 보이던데요) after a stem that makes a verb with 다 or 이다, or a verb's command quoted (익히라고, 보내라는)
+     * where the verb is commoner than the word its stem spells.
+     */
+    private fun isVerbs(form: String, sound: Sound, before: String, lexicon: Lexicon): Boolean {
+        if (form in COPULA_VERBAL && (before + VERB_END in lexicon || form[0] == '이' && before + COPULA_STEM in lexicon)) return true
+        if (form[0] != '라' || sound != Sound.VOWEL) return false
+        val verb = lexicon.rank(before + VERB_END) ?: return false
+        val word = lexicon.rank(before)
+        return word == null || verb < word
+    }
 
     /** Whether a particle that follows [sound] may come after the syllable [previous]. */
     private fun follows(previous: Char, sound: Sound): Boolean {
@@ -162,6 +183,9 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
 
         /** 당 "per", right after a counter only (시간당, 개당; 부당 "unjust" is no 부 + 당). */
         const val PER = "당"
+
+        /** The copula's forms a verb ends in too (가세요, 크구나, 보이던데요). */
+        val COPULA_VERBAL = setOf("이구나", "이군요", "이던데", "이던데요", "이시라고", "이세요", "구나", "군요")
 
         /**
          * The copula's past after a vowel (였어요) is no copula after a stem that makes a verb in 이다
@@ -210,8 +234,8 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
 
         /**
          * The particles, by their place in a stack (집에도 is 집 + 에 + 도): the plural 들 first, then
-         * particles of place, manner and company (two may stack: 에서부터), then 도, 은/는 and their kind,
-         * then the case endings 이/가, 을/를, 의.
+         * particles of place, manner and company (two may stack: 에서부터), with 쯤 "about" and 씩 "each" (세 시쯤에,
+         * 두 개씩), then 도, 은/는 and their kind, then the case endings 이/가, 을/를, 의.
          */
         val PARTICLES: List<Particle> = listOf(
             Particle("들", Sound.ANY, 0),
@@ -222,7 +246,7 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
             "와" to Sound.VOWEL, "과" to Sound.CONSONANT, "하고" to Sound.ANY, "랑" to Sound.VOWEL, "이랑" to Sound.CONSONANT,
             "처럼" to Sound.ANY, "보다" to Sound.ANY, "까지" to Sound.ANY, "부터" to Sound.ANY, "마다" to Sound.ANY,
             "만큼" to Sound.ANY, "대로" to Sound.ANY, "만" to Sound.ANY, "밖에" to Sound.ANY, "뿐" to Sound.ANY,
-            "조차" to Sound.ANY, "마저" to Sound.ANY, PER to Sound.ANY,
+            "조차" to Sound.ANY, "마저" to Sound.ANY, PER to Sound.ANY, "쯤" to Sound.ANY, "씩" to Sound.ANY,
         ).map { (form, sound) -> Particle(form, sound, 1) } + listOf(
             "도" to Sound.ANY, "은" to Sound.CONSONANT, "는" to Sound.VOWEL, "이나" to Sound.CONSONANT, "나" to Sound.VOWEL,
             "이라도" to Sound.CONSONANT, "라도" to Sound.VOWEL, "이든" to Sound.CONSONANT, "든" to Sound.VOWEL,
@@ -239,9 +263,11 @@ class KoreanParser : SpaceDelimitedParser(), LexiconParser {
         val COPULA: List<Pair<String, Sound>> = listOf(
             "이다", "입니다", "입니까", "이었다", "이었어", "이었어요", "이었습니다", "이었던", "이고", "이지만", "이라고", "이라서",
             "이라면", "이라는", "이란", "인데", "인데요", "인지", "인가", "인가요", "일까", "일까요", "이죠", "이지", "이지요", "이니까",
-            "이네요", "이며", "인",
+            "이네요", "이며", "인", "이었기", "이었는지", "이었는데", "이었고", "이었지만", "이었을", "이구나", "이군요", "이던데", "이던데요",
+            "이시라고", "이세요",
         ).map { it to Sound.ANY } + listOf("이에요" to Sound.CONSONANT, "이야" to Sound.CONSONANT, "이면" to Sound.CONSONANT) + listOf(
             "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요", "면",
+            "였기", "였는지", "였는데", "였고", "였지만", "였을", "구나", "군요",
         ).map { it to Sound.VOWEL }
     }
 }

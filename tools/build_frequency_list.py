@@ -243,7 +243,7 @@ def kanji_stem(word):
 # ㄹ, "K" a consonant but ㄹ, "" any, and its place in a stack (집에도 is 집 + 에 + 도): the plural 들
 # first, then particles of place, manner and company (two may stack: 에서부터), then 도, 은/는 and their
 # kind, then the case endings 이/가, 을/를, 의. 당 "per" is among the second, right after a counter only
-# (시간당, 개당; 부당 "unjust" is no 부 + 당).
+# (시간당, 개당; 부당 "unjust" is no 부 + 당), and so are 쯤 "about" and 씩 "each" (세 시쯤에, 두 개씩).
 KOREAN_PARTICLES = [
     ("들", "", 0),
     ("에", "", 1), ("에서", "", 1), ("에게", "", 1), ("에게서", "", 1), ("한테", "", 1), ("한테서", "", 1),
@@ -251,7 +251,7 @@ KOREAN_PARTICLES = [
     ("로써", "R", 1), ("으로써", "K", 1), ("와", "V", 1), ("과", "C", 1), ("하고", "", 1), ("랑", "V", 1),
     ("이랑", "C", 1), ("처럼", "", 1), ("보다", "", 1), ("까지", "", 1), ("부터", "", 1), ("마다", "", 1),
     ("만큼", "", 1), ("대로", "", 1), ("만", "", 1), ("밖에", "", 1), ("뿐", "", 1), ("조차", "", 1), ("마저", "", 1),
-    ("당", "", 1),
+    ("당", "", 1), ("쯤", "", 1), ("씩", "", 1),
     ("도", "", 2), ("은", "C", 2), ("는", "V", 2), ("이나", "C", 2), ("나", "V", 2), ("이라도", "C", 2), ("라도", "V", 2),
     ("이든", "C", 2), ("든", "V", 2), ("이든지", "C", 2), ("든지", "V", 2),
     ("이", "C", 3), ("가", "V", 3), ("을", "C", 3), ("를", "V", 3), ("의", "", 3),
@@ -262,10 +262,14 @@ KOREAN_PARTICLES = [
 KOREAN_COPULA = [(form, "") for form in (
     "이다", "입니다", "입니까", "이었다", "이었어", "이었어요", "이었습니다", "이었던", "이고", "이지만", "이라고", "이라서",
     "이라면", "이라는", "이란", "인데", "인데요", "인지", "인가", "인가요", "일까", "일까요", "이죠", "이지", "이지요", "이니까",
-    "이네요", "이며", "인",
+    "이네요", "이며", "인", "이었기", "이었는지", "이었는데", "이었고", "이었지만", "이었을", "이구나", "이군요", "이던데", "이던데요",
+    "이시라고", "이세요",
 )] + [("이에요", "C"), ("이야", "C"), ("이면", "C")] + [(form, "V") for form in (
     "예요", "야", "였다", "였어", "였어요", "였습니다", "였던", "지만", "라고", "라서", "라면", "라는", "란", "죠", "니까", "네요", "면",
+    "였기", "였는지", "였는데", "였고", "였지만", "였을", "구나", "군요",
 )]
+# Forms a verb ends in too (가세요, 크구나, 보이던데요): after a stem that makes a verb with 다 or 이다, they are its.
+KOREAN_COPULA_VERBAL = {"이구나", "이군요", "이던데", "이던데요", "이시라고", "이세요", "구나", "군요"}
 KOREAN_COPULA_IF = {"이면", "면"}
 KOREAN_COPULA_VOWEL_IF = "면"
 KOREAN_NOT_BEFORE_IF = set("다려라자")
@@ -297,8 +301,11 @@ def korean_follows(previous, sound):
     return sound == "" or {"C": final != 0, "V": final == 0, "R": final in (0, 8), "K": final not in (0, 8)}[sound]
 
 
-def korean_stacks(rest, stem, known=None):
-    """Every way [rest] is a stack of particles after [stem], each a list of pieces; [known] is the lexicon's test."""
+def korean_stacks(rest, stem, known=None, rank=None):
+    """
+    Every way [rest] is a stack of particles after [stem], each a list of pieces; [known] is the lexicon's test and
+    [rank] its frequency ranks.
+    """
     out = []
     verb_in_i = known is not None and known(stem + "이다")
 
@@ -319,6 +326,13 @@ def korean_stacks(rest, stem, known=None):
                 before = stem + rest[:len(rest) - len(form)]
                 if form in KOREAN_COPULA_IF and known is not None and rest.endswith(form) and (
                         known(stem + rest) or known(before + "다") or before[-1] in KOREAN_NOT_BEFORE_IF and known(before[:-1] + "다")):
+                    continue
+                if form in KOREAN_COPULA_VERBAL and known is not None and rest.endswith(form) and (
+                        known(before + "다") or form[0] == "이" and known(before + "이다")):
+                    continue
+                # A verb's command quoted (익히라고, 보내라는) where the verb is commoner than the word its stem spells.
+                if form[0] == "라" and sound == "V" and rank is not None and rest.endswith(form) and rank(before + "다") and (
+                        not rank(before) or rank(before + "다") < rank(before)):
                     continue
                 if rest.endswith(form) and at + len(form) == len(rest) and korean_follows(last, sound):
                     out.append(pieces + [form])
@@ -485,7 +499,7 @@ def korean_pieces(word, known, rank):
     whole; one only the dictionary has never does against a cut after a word of the list (집은 is 집 + 은,
     though the dictionary has it as a form of 집다).
     """
-    if KOREAN_NATIVE_NUMBER.fullmatch(word):
+    if KOREAN_NATIVE_NUMBER.fullmatch(word) or korean_whole_number(word):
         return [word]
     best, cut = None, [word]
     after_listed = False
@@ -499,7 +513,7 @@ def korean_pieces(word, known, rank):
             head = [stem[:-1], KOREAN_HONORIFIC]
         elif end == len(word):
             continue
-        for stack in korean_stacks(word[end:], stem, known):
+        for stack in korean_stacks(word[end:], stem, known, rank):
             cost = sum(math.log(rank(piece) or KOREAN_UNRANKED) + KOREAN_WORD_COST for piece in head + stack)
             if rank(stem):
                 after_listed = True
@@ -544,6 +558,16 @@ KOREAN_NATIVE_NUMBER = re.compile("(?:열|스물|스무|서른|마흔|쉰|예순
 # Sino-Korean numbers (오 분, 만 원, 삼십 분), digits between their tens, hundreds, thousands and ten thousands;
 # but not 이 "this", 사 or 구 alone, which are more often words.
 KOREAN_SINO_NUMBER = re.compile("(?:[이삼사오육칠팔구]?[십백천만])+[일이삼사오육칠팔구]?|[일삼오육칠팔]")
+
+
+def korean_whole_number(word):
+    """
+    Whether [word] is a Sino-Korean number that stays whole (이십만, 십만, 삼십오): of three syllables or more, or two
+    from 십, 백 or 천, and not ending in 이, which is as often the particle (백이, 만이); 이만 "this much" is cut.
+    """
+    return bool(KOREAN_SINO_NUMBER.fullmatch(word)) and (len(word) > 2 or len(word) == 2 and word[0] in "십백천") and word[-1] != "이"
+
+
 # The honorific 님 after a word (사장님께 is 사장님 + 께 though the lexicon lacks 사장님).
 KOREAN_HONORIFIC = "님"
 KOREAN_COUNTERS = {
@@ -1386,8 +1410,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None):
             # わく to 分ける) is another word: a kanji word's forms share a kanji with it.
             counted = [f for f in counted if not any(is_cjk(c) and not is_kana(c) for c in f) or set(f) & set(word)]
         if word == "이다" and language == "ko":
-            # The reader reads the copula's 면 (정도 + 면) as 이다's, which the list counts as 이면.
-            counted.append(KOREAN_COPULA_VOWEL_IF)
+            # The reader reads the copula's 면 (정도 + 면) as 이다's, which the list counts as 이면, and cuts every
+            # form of the copula it knows, however seldom (사람이었기), as a word of the list.
+            counted += [f for f, _ in KOREAN_COPULA if f not in counted]
         if language == "sr":
             # The counts are of Latin-script text; Serbian is read in Cyrillic too.
             counted = list(dict.fromkeys(counted + [to_serbian_cyrillic(f) for f in counted]))

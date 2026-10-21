@@ -24,13 +24,14 @@ class KoreanParserTest {
         "하자" to 6, "대" to 228, "대가" to 1297, "로봇" to 2279, "한" to 49, "시" to 153, "시야" to 3394, "몇" to 302,
         "오" to 183, "분" to 138, "분만" to 3152, "명" to 98, "당" to 388, "시간" to 92, "부" to 400, "여" to 814,
         "든" to 369, "살" to 131, "다음" to 272, "주" to 376, "주로" to 1512, "차" to 160, "라도" to 561, "길" to 323,
-        "분야" to 662, "두" to 157,
+        "분야" to 662, "두" to 157, "지금" to 60, "쯤" to 741, "씩" to 934, "표" to 2288, "크다" to 140, "보이다" to 300,
+        "익히다" to 4848, "익히" to 9653, "백" to 800,
     )
 
     /** Words a dictionary pack adds, without a rank. */
     private val packWords = listOf(
         "나는", "날다", "사", "집은", "집다", "개는", "아이가", "수도", "도와요", "나와요", "모였어요", "사장", "열한", "부당",
-        "여든", "차라", "아이들", "길이", "개이다", "다섯", "정도", "한다", "먹이면", "먹",
+        "여든", "차라", "아이들", "길이", "개이다", "다섯", "정도", "한다", "먹이면", "먹", "크", "보", "원",
     )
 
     @BeforeTest
@@ -193,6 +194,44 @@ class KoreanParserTest {
         assertEquals(listOf("한다면"), words("한다면"))
         assertEquals(listOf("하자면"), words("하자면"))
         assertEquals(listOf("먹이면"), words("먹이면"))
+    }
+
+    @Test
+    fun aboutAndEachAreParticles() {
+        assertEquals(listOf("세", "시", "쯤"), words("세 시쯤"))
+        assertEquals(listOf("두", "개", "씩"), words("두 개씩"))
+        assertEquals(listOf("지금", "쯤", "이면"), words("지금쯤이면"))
+        assertEquals(listOf("표", "씩"), words("표씩"))
+    }
+
+    @Test
+    fun moreFormsOfTheCopulaAreCut() {
+        assertEquals(listOf("사람", "이었기"), words("사람이었기"))
+        assertEquals(listOf("사람", "이었는지"), words("사람이었는지"))
+        assertEquals(listOf("학생", "이구나"), words("학생이구나"))
+        assertEquals(listOf("선생님", "이세요"), words("선생님이세요"))
+        assertEquals(listOf("원", "이던데요"), words("원이던데요"))
+        assertEquals(listOf("친구", "구나"), words("친구구나"))
+        assertEquals(listOf("의사", "였는데"), words("의사였는데"))
+    }
+
+    /** Endings a verb shares with the copula stay the verb's after its stem (크구나, 보이던데요, 익히라고). */
+    @Test
+    fun aVerbsEndingIsNoCopula() {
+        assertEquals(listOf("크구나"), words("크구나"))
+        assertEquals(listOf("보이던데요"), words("보이던데요"))
+        // A command quoted, where the verb is commoner than the word its stem spells; after a noun it is the copula.
+        assertEquals(listOf("익히라고"), words("익히라고"))
+        assertEquals(listOf("친구", "라고"), words("친구라고"))
+    }
+
+    @Test
+    fun longSinoKoreanNumbersStayWhole() {
+        assertEquals(listOf("이십만"), words("이십만"))
+        assertEquals(listOf("십만"), words("십만"))
+        // Not a number in 이, which is as often the particle, nor 이만 "this much".
+        assertEquals(listOf("백", "이"), words("백이"))
+        assertEquals(listOf("이", "만"), words("이만"))
     }
 
     /** The dictionary's rare words give way to a word of the list and its particles (차라도, 아이들, 길이). */
