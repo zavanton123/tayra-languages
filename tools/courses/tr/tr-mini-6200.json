@@ -1,0 +1,190 @@
+{
+  "id": "tr-mini-6200",
+  "rankUpTo": 6200,
+  "level": "C1",
+  "title": "Madencilik ve doğal kaynaklar",
+  "description": "Ten standalone stories about water, salt, marble, boron, coal and the people who live and work with Turkey's natural resources.",
+  "topic": "Mining and natural resources",
+  "names": [
+    "Ayla",
+    "Konya",
+    "Konya Ovası",
+    "Türkiye",
+    "Halil",
+    "Sinan",
+    "Eskişehir",
+    "Fatma",
+    "İstanbul",
+    "Hasan",
+    "Zonguldak",
+    "Burak",
+    "Ankara",
+    "Tuz Gölü",
+    "Emine",
+    "İzmir",
+    "Bursa",
+    "Leyla",
+    "Marmara Adası",
+    "Ömer",
+    "Cem",
+    "Esra",
+    "Antalya",
+    "Toros Dağları",
+    "Zehra",
+    "Kütahya",
+    "Ege",
+    "İbrahim",
+    "Hatice",
+    "Aksoy"
+  ],
+  "lessons": [
+    {
+      "title": "Ovanın altındaki su",
+      "summary": "A water engineer advises a village in the Konya basin against a deeper well and suggests drip irrigation instead.",
+      "newWords": [
+        "sondaj",
+        "havza",
+        "güneybatı",
+        "kilometrelerce",
+        "berrak",
+        "halihazırda",
+        "takiben",
+        "dezavantaj"
+      ],
+      "text": "Ayla, Konya'da yeraltı suları üzerine çalışan bir mühendis. Konya Ovası, Türkiye'nin en büyük kapalı havzalarından biri. Kapalı havza, suyu denize ulaşmayan bir bölge demek: yağmur ve kar suyu ya göllerde toplanıyor ya da toprağın altına iniyor. Ayla'ya göre bu havzanın asıl hazinesi, gözle görülmeyen yeraltı suyu.\n\nGeçen ilkbahar Ayla'yı havzanın güneybatısındaki küçük bir köye çağırdılar. Köyün muhtarı Halil Bey telefonda endişeliydi:\n\n— Kuyularımız her yıl suyu biraz daha derinden çekiyor. Yeni bir sondaj yaptırmak istiyoruz, ama önce sizin fikrinizi almak istedik.\n\nAyla ertesi sabah yola çıktı. Şehirden köye kadar kilometrelerce buğday tarlası uzanıyordu. Güneybatıya ilerledikçe toprak kuruyor, tarlaların yerini taşlı tepeler alıyordu.\n\nKöyde Halil Bey onu eski kuyunun başına götürdü. Ayla kuyudan aldığı suyu bir şişeye doldurup ışığa tuttu. Su berraktı, ama tadı hafif tuzluydu.\n\n— Su berrak diye temiz sanmayın, dedi Ayla. Derinden gelen su bazen gözle görülmeyen tuzlar taşır.\n\nAyla önce havzanın haritalarını inceledi. Haritalara göre bölgede halihazırda yüzlerce kuyu vardı ve bunların bir kısmı izinsiz açılmıştı. Halihazırda çalışan kuyular, suyu yağmurun getirdiğinden çok daha hızlı tüketiyordu.\n\nAkşam köy kahvesinde bir toplantı yapıldı. Ayla yeni sondajın avantajlarını ve dezavantajlarını tek tek anlattı:\n\n— Daha derin bir sondaj size birkaç yıl daha su verir. Ama en büyük dezavantajı şu: derine indikçe hem masraf artar hem de su daha tuzlu olur. Bir dezavantajı daha var: sizin kuyunuz derinleşince komşu köyün kuyusu kurur.\n\nKöylüler bir süre sessiz kaldı. Sonra genç bir çiftçi söz aldı:\n\n— Peki, ne yapmalıyız?\n\nAyla damla sulamayı önerdi. Toplantıyı takiben köyde küçük bir çalışma grubu kuruldu. Grup ilk yıl beş tarlada damla sulama denedi. Denemeleri takiben yapılan ölçümler, aynı ürün için eskisinin neredeyse yarısı kadar suyun yettiğini gösterdi.\n\nYeni sondaj bir yıl ertelendi. Ertesi yaz Ayla kilometrelerce yolu yine aynı heyecanla geçip köye geldiğinde, eski kuyudaki su biraz yükselmişti. Halil Bey gülümseyerek ona bir bardak su uzattı:\n\n— Hâlâ berrak, dedi. Ama bu sefer tadı da güzel.\n\nSorular:\nKapalı havza ne demek?\nSuyu denize ulaşmayan bir bölge demek; su ya göllerde toplanıyor ya da toprağın altına iniyor.\nAyla'yı nereye çağırdılar?\nHavzanın güneybatısındaki küçük bir köye çağırdılar.\nAyla berrak su hakkında ne söyledi?\nSuyun berrak diye temiz sanılmaması gerektiğini, çünkü derinden gelen suyun gözle görülmeyen tuzlar taşıyabileceğini söyledi.\nDerin bir sondajın dezavantajları nelerdi?\nMasraf artıyor, su daha tuzlu oluyor ve komşu köyün kuyusu kuruyor.\nToplantıyı takiben köyde ne yapıldı?\nKüçük bir çalışma grubu kuruldu ve beş tarlada damla sulama denendi."
+    },
+    {
+      "title": "Borun geometrisi",
+      "summary": "A young physicist shows a group of high-school students how boron is used and why he repeats every measurement.",
+      "newWords": [
+        "fizikçi",
+        "kısaltma",
+        "dokunmatik",
+        "tablet",
+        "elektron",
+        "geometri",
+        "saniyelik",
+        "mükemmellik",
+        "yeti"
+      ],
+      "text": "Sinan, Eskişehir'de bir üniversitede çalışan genç bir fizikçi. Türkiye, dünyadaki bor rezervlerinin büyük bir kısmına sahip ve Sinan'ın laboratuvarı bu madenle ilgili araştırmalar yapıyor.\n\nBir pazartesi sabahı laboratuvara bir grup lise öğrencisi geldi. Öğretmenleri Fatma Hanım, öğrencilerin madenlerin günlük hayattaki yerini görmesini istiyordu. Sinan çocukları beyaz bir tozun durduğu masanın başına topladı.\n\n— Bu bor, dedi. Kimyada kısaltması B harfi. Her elementin böyle bir kısaltması var: oksijenin O, demirin Fe. Bu kısaltmalar dünyanın her yerindeki bilim insanlarının ortak dili.\n\nÖğrencilerden biri elini kaldırdı:\n\n— Bor nerede kullanılıyor?\n\nSinan cebinden telefonunu çıkardı.\n\n— Mesela bu dokunmatik ekranın camında. Evdeki tabletlerinizin camında da olabilir. Dokunmatik bir ekran her gün binlerce kez dokunulmaya dayanmalı. Bor, cama bu dayanıklılığı vermeye yardım ediyor.\n\nSonra bilgisayarında bir resim açtı. Ekranda küçük toplar ve onları birleştiren çizgiler vardı.\n\n— Bunlar atomlar. Atomların etrafında elektronlar dolaşır. Bir maddenin sert mi yumuşak mı olacağını büyük ölçüde elektronların atomlar arasında nasıl paylaşıldığı belirler. Bor atomları birbirine çok düzenli bir geometriyle bağlanır. Bu geometri, yirmi üçgenden oluşan küçük bir topa benzer.\n\nÖğrenciler resmi kendi tabletlerinde büyütüp incelediler. Bir kız sordu:\n\n— Geometri dersinde öğrendiğimiz şekiller atomlarda da mı var?\n\n— Kesinlikle, dedi Sinan. Doğa geometriyi bizden çok önce biliyordu.\n\nArdından onlara bir deney gösterdi. Bir cihaz, bir malzemenin içindeki elektronların hareketini ölçüyor ve sonucu birkaç saniyelik bir grafikle ekrana yansıtıyordu. Her ölçüm yalnızca on saniyelik bir işti, ama Sinan aynı ölçümü yüzlerce kez tekrarlıyordu.\n\n— Neden bu kadar çok tekrar ediyorsunuz? diye sordu Fatma Hanım.\n\n— Bilimde mükemmellik diye bir şey yok, dedi Sinan. Ama her tekrar hatayı biraz daha azaltır. Biz mükemmelliği değil, güvenilir bir sonucu arıyoruz.\n\nZiyaretin sonunda öğrenciler Sinan'a teşekkür etti. Fatma Hanım giderken çocukların merak etme yetisinden söz etti:\n\n— Bu yaştaki çocukların en büyük yetisi soru sormak. Ne yazık ki büyüdükçe bu yetiyi bazen kaybediyorlar.\n\nSinan güldü:\n\n— Bir fizikçinin de en önemli yetisi bu. Ben hâlâ her gün bir çocuk gibi soru soruyorum.\n\nSorular:\nBorun kimyadaki kısaltması ne?\nBorun kısaltması B harfi.\nBor dokunmatik ekranlarda ne işe yarıyor?\nCama dayanıklılık veriyor; böylece ekran her gün binlerce kez dokunulmaya dayanabiliyor.\nBor atomları nasıl bağlanıyor?\nÇok düzenli bir geometriyle, yirmi üçgenden oluşan küçük bir topa benzer biçimde bağlanıyor.\nSinan ölçümleri neden yüzlerce kez tekrarlıyor?\nÇünkü her tekrar hatayı azaltıyor; o mükemmelliği değil, güvenilir bir sonucu arıyor.\nFatma Hanım'a göre çocukların en büyük yetisi ne?\nSoru sormak."
+    },
+    {
+      "title": "Kapıcımızın hikâyesi",
+      "summary": "On a cold evening by a fireplace, the building's caretaker, a former coal miner, tells the neighbours about his years underground.",
+      "newWords": [
+        "kapıcı",
+        "kaslı",
+        "terlik",
+        "şömine",
+        "vah",
+        "dam",
+        "alıkoy"
+      ],
+      "text": "İstanbul'da oturduğum eski apartmanın kapıcısı Hasan Amca. Altmış yaşında, kısa boylu ama kaslı bir adam. Kaslı kollarına bakınca insan onun bütün ömrünü ağır işlerde geçirdiğini hemen anlıyor. Nitekim Hasan Amca gençliğinde yirmi yıl Zonguldak'ta kömür madeninde çalışmış. Kapıcı olarak İstanbul'a geleli on beş yıl olmuş.\n\nGeçen kış bir akşam apartmanın ısıtması bozuldu. En üst kattaki dairede bir şömine vardı. Dairenin sahibi, yaşlı komşumuz Ayla Hanım, bütün apartmanı şöminesinin başına çağırdı. Hasan Amca da elinde bir torba odunla geldi. Ayaklarında her zamanki gibi kalın, yünlü terlikleri vardı. Bu terlikleri karısı örmüş; Hasan Amca kışın onları neredeyse hiç çıkarmıyor. \"Terlik ayağı sıcak tutmazsa insanın bütün vücudu üşür,\" der.\n\nŞöminenin karşısına oturduk. Ateş iyice yanınca Hasan Amca kömürden söz etmeye başladı.\n\n— Sizin bu şöminede yaktığınız odun güzel kokar, dedi. Ama benim gençliğimde evlerin çoğu kömürle ısınırdı. O kömürü yerin yüzlerce metre altından biz çıkarırdık.\n\nMaden ocağındaki günlerini anlattı: sabah karanlıkta yerin altına inmeyi, akşam karanlıkta çıkmayı, kışın haftalarca güneş görmemeyi. Ocakta hava ağır, toz yoğunmuş. Bir gün tavandan düşen bir taş, arkadaşının bacağını kırmış.\n\n— Vah vah, dedi Ayla Hanım. Ne zor bir hayat.\n\n— Zordu, dedi Hasan Amca. Ama arkadaşlık çok güzeldi. Ocakta herkes birbirine emanetti. Yukarıda kavga eden iki adam, aşağıda birbirinin hayatını korurdu.\n\nSonra çocukluğunu anlattı. Köyündeki evlerin damları düzmüş; yazın akşamları bütün aile damda yatarmış. Hasan Amca, damda yıldızlara bakarak madenci olmayı değil, öğretmen olmayı hayal edermiş.\n\n— Vah, dedim. Neden okumadınız?\n\n— Babam hastalandı, ben de en büyük oğuldum, dedi. Ama pişman değilim. İki oğlumu da okuttum; ikisi de mühendis oldu.\n\nSaat gece yarısını geçince Hasan Amca terliklerini sürüyerek kalktı.\n\n— Sizi daha fazla alıkoymayayım, dedi. Yarın hepinizin işi var.\n\nAma kimse kalkmak istemedi; onun anlattıkları hepimizi o şöminenin başında alıkoymuştu. Ertesi sabah pencereden baktığımda Hasan Amca'yı bahçedeki küçük deponun alçak damında gördüm. Gece yağan karı küreğiyle damdan aşağı atıyordu.\n\nSorular:\nHasan Amca gençliğinde nerede çalışmış?\nZonguldak'ta kömür madeninde yirmi yıl çalışmış.\nKomşular o akşam neden Ayla Hanım'ın evinde toplandı?\nApartmanın ısıtması bozulmuştu ve Ayla Hanım'ın dairesinde şömine vardı.\nHasan Amca terliklerini neden hiç çıkarmıyor?\nÇünkü terlik ayağı sıcak tutmazsa insanın bütün vücudunun üşüdüğünü düşünüyor.\nHasan Amca çocukken damda ne hayal edermiş?\nYıldızlara bakarak öğretmen olmayı hayal edermiş.\nHasan Amca ertesi sabah ne yapıyordu?\nBahçedeki küçük deponun damındaki karı küreğiyle aşağı atıyordu."
+    },
+    {
+      "title": "Tuz Gölü'nde bir gün",
+      "summary": "An amateur photographer visits the salt works at Lake Tuz, watches the salt being packed and shipped, and photographs the birds.",
+      "newWords": [
+        "fotoğrafçılık",
+        "uçuk",
+        "terazi",
+        "kiloluk",
+        "karton",
+        "sevkiyat",
+        "meltem",
+        "havalanmak",
+        "uçuşmak"
+      ],
+      "text": "Burak, Ankara'da muhasebeci olarak çalışıyor, ama asıl tutkusu fotoğrafçılık. Fotoğrafçılığa üniversitede başlamış; hafta sonları makinesini alıp şehir dışına çıkıyor. Bu ağustos yolu Tuz Gölü'ne düştü.\n\nTuz Gölü yazın neredeyse tamamen kurur ve geride göz alabildiğine uzanan beyaz bir tuz tabakası kalır. Burak arabadan indiğinde güneş o kadar parlaktı ki bir süre gözlerini açamadı. Gölün bazı yerlerinde su uçuk pembe bir renk almıştı. Burak bu uçuk pembeyi daha önce hiçbir yerde görmemişti.\n\nGöl kenarında tuz işleyen bir tesis vardı. Burak'ı kapıda Emine adında genç bir mühendis karşıladı ve ona tesisi gezdirdi. Önce tuzun gölden nasıl toplandığını anlattı:\n\n— Yazın su buharlaşınca tuz kendiliğinden yüzeyde birikir. Makineler bu tabakayı toplar, sonra tuz burada yıkanır, kurutulur ve elenir.\n\nPaketleme bölümünde tuz bir kiloluk ve üç kiloluk paketlere dolduruluyordu. Her paket bir terazinin üzerinden geçiyordu.\n\n— Terazi her paketi ayrı ayrı tartar, dedi Emine. Bir kiloluk pakette bir gram bile eksik olursa terazi onu banttan ayırır.\n\nPaketler daha sonra karton kutulara yerleştiriliyordu. Her karton kutuda yirmi paket vardı. Bir işçi kartonların üzerine şehir adları yazıyordu.\n\n— Bunlar yarınki sevkiyat, dedi Emine. Bu hafta İzmir'e ve Bursa'ya sevkiyat yapıyoruz. Kışın ise asıl sevkiyat yol tuzu için olur; o zaman tuz kartonla değil, kamyonlarla dökme olarak gider.\n\nAkşamüstü Burak gölün kıyısına döndü. Gölün üzerinden hafif bir meltem esiyordu. Meltem, tuzun keskin kokusunu ve uzaktaki kuşların seslerini getiriyordu. Suyun ortasında binlerce pembe kuş vardı. Emine öğleden sonra ona bu kuşların her yıl buraya yumurtlamaya geldiğini anlatmıştı.\n\nBurak makinesini hazırladı ve sabırsızlıkla bekledi. Bir süre sonra kuşlar hep birlikte havalandı. Havalanırken kanatlarının altındaki kırmızı renk göründü. Yüzlerce kuş bir süre gölün üzerinde uçuştu, sonra yeniden suya indi. Burak, kuşlar uçuşurken art arda onlarca fotoğraf çekti.\n\nEve dönünce fotoğrafları bilgisayarına aktardı. En sevdiği fotoğrafta beyaz tuzun, uçuk pembe suyun ve havalanan kuşların hepsi bir aradaydı. Burak o fotoğrafı bastırıp Emine'ye bir mektupla birlikte gönderdi.\n\nSorular:\nBurak'ın asıl tutkusu ne?\nBurak'ın asıl tutkusu fotoğrafçılık.\nTesiste terazi ne işe yarıyor?\nHer paketi ayrı ayrı tartıyor ve eksik olan paketi banttan ayırıyor.\nKarton kutularda kaç paket var?\nHer karton kutuda yirmi paket var.\nKışın sevkiyat nasıl yapılıyor?\nKışın tuz yol için gönderiliyor ve kartonla değil, kamyonlarla dökme olarak gidiyor.\nKuşlar havalanınca Burak ne yaptı?\nKuşlar gölün üzerinde uçuşurken art arda onlarca fotoğraf çekti."
+    },
+    {
+      "title": "Adadan gelen taş",
+      "summary": "A sculpture student takes the ferry to Marmara Island to choose a block of marble and learns how the quarry works today and in the past.",
+      "newWords": [
+        "feribot",
+        "musallat",
+        "kompozisyon",
+        "gedik",
+        "saplamak",
+        "bertaraf",
+        "kabartmak"
+      ],
+      "text": "Leyla, İstanbul'da heykel bölümünde okuyan son sınıf bir öğrenci. Mezuniyet projesi, üç parçadan oluşan büyük bir kompozisyon: denizden çıkan bir el, bir dalga ve bir martı. Hocası ona, \"Bu kompozisyon için taşı kendin seçmelisin,\" dedi. Leyla da bir sabah Marmara Adası'na giden feribota bindi.\n\nFeribotun güvertesi kalabalıktı. Yolcular simit atınca martılar hemen geminin etrafını sardı. Bir süre sonra martılar elinde simit tutan herkese musallat oldu. Leyla gülerek çantasını kapattı ve kuşları izledi. Martıları ilk kez bu kadar yakından görüyordu; kompozisyonundaki martıyı nasıl yapacağını düşündü.\n\nAdada onu ocağın ustabaşı Ömer Bey karşıladı. Mermer ocağı, dağın yamacında dev basamaklar gibi duruyordu. Her basamak, yıllar içinde kesilip alınmış taşların yerini gösteriyordu.\n\n— Bu ada binlerce yıldır mermer veriyor, dedi Ömer Bey. Eski İstanbul'un birçok sarayında bu adanın taşı var.\n\nLeyla eskiden taşın nasıl kesildiğini sordu. Ömer Bey, kayada doğal bir çatlak gösterdi.\n\n— Bakın, bu gediği görüyor musunuz? Eski ustalar önce taşta böyle bir gedik ararlardı. Sonra gediğe ıslak tahta parçaları saplarlardı. Tahta suyla şişer, taşı yavaş yavaş açardı. Bazen de demir parçaları saplayıp çekiçle vururlardı. Şimdi bu işi elmaslı tellerle yapıyoruz.\n\nKesim alanında makineler sürekli su püskürtüyordu. Ömer Bey bunun tozu azaltmak için yapıldığını anlattı:\n\n— Mermer tozu eskiden ocakta çalışanların en büyük derdiydi. Şimdi tozu suyla bastırıyoruz. Sonra çamur haline gelen tozu ayrı bir havuzda topluyoruz. Onu bertaraf etmek de kolay değil, ama artık bir kısmını boya ve kâğıt fabrikalarına satıyoruz. Geri kalanını da kurallara uygun biçimde bertaraf ediyoruz.\n\nLeyla sonunda içinde hiçbir çatlak olmayan, beyaz ve ince damarlı bir blok seçti. Ömer Bey ona atölyedeki yaşlı bir ustanın işini de gösterdi. Usta, bir mermer levhanın üzerine bir zeytin dalını kabartıyordu. Dalın etrafındaki taşı milim milim yontuyor, dal yavaş yavaş yüzeyden yükseliyordu.\n\n— Dalı kabartmak kolay, dedi usta. Zor olan, yaprakları canlı göstermek.\n\nAkşam feribotla dönerken martılar yine yolculara musallat oldu. Leyla bu sefer onlara kızmadı. Defterini açtı ve kompozisyonundaki martıyı, kanatları rüzgârda açılmış haliyle yeniden çizdi.\n\nSorular:\nLeyla'nın mezuniyet projesi ne?\nÜç parçadan oluşan bir kompozisyon: bir el, bir dalga ve bir martı.\nMartılar feribotta ne yaptı?\nElinde simit tutan yolculara musallat oldu.\nEski ustalar taşı nasıl açarlardı?\nTaşta bir gedik bulur, ıslak tahta parçaları ya da demir parçaları saplarlardı.\nOcakta mermer tozu ne yapılıyor?\nSuyla bastırılıyor, havuzda toplanıyor, bir kısmı satılıyor, geri kalanı bertaraf ediliyor.\nYaşlı usta atölyede ne yapıyordu?\nBir mermer levhanın üzerine bir zeytin dalını kabartıyordu."
+    },
+    {
+      "title": "Yayladaki misafirler",
+      "summary": "Two geology students mapping old chrome pits in the Taurus Mountains spend three days as guests of a Yörük family.",
+      "newWords": [
+        "Yörük",
+        "kalori",
+        "jambon",
+        "vejetaryen",
+        "doğramak",
+        "şiş",
+        "papatya",
+        "serçe",
+        "pire",
+        "olgunlaşmak"
+      ],
+      "text": "Cem ve Esra, Antalya'da jeoloji okuyan iki öğrenci. Geçen haziran bitirme ödevleri için Toros Dağları'na gittiler. Görevleri, dağdaki eski krom ocaklarının haritasını çıkarmaktı. Bu ocaklar yıllar önce kapanmıştı ama kayalarda hâlâ koyu renkli krom damarları görülüyordu.\n\nHer gün sırtlarında ağır çantalarla saatlerce yürüyorlardı. Esra yürüyüş uygulamasına bakıp güldü:\n\n— Bugün tam üç bin kalori harcamışız!\n\nBu kadar kalori harcayınca insan çok acıkıyordu. Cem şehirden çantası dolusu jambonlu sandviç getirmişti; sandviçler iki günde bitti. Jambon Esra'ya göre değildi, çünkü Esra vejetaryendi.\n\nÜçüncü gün bir yaylada beyaz bir çadır gördüler. Çadırın önünde bir Yörük ailesi oturuyordu. Bu Yörük ailesi her yaz hayvanlarıyla birlikte aşağıdaki köyden yaylaya çıkıyordu. Ailenin annesi Zehra Teyze, gençleri görünce hemen yanına çağırdı:\n\n— Gelin, yorgunsunuz. Bir şeyler yiyin.\n\nZehra Teyze bir tahtanın üzerinde domates, biber ve soğan doğradı. Doğradığı sebzeleri bir tavaya koydu, üzerine köy yumurtası kırdı. Eşi Hasan Amca ise ateşin başında şiş hazırlıyordu.\n\n— Ben et yemiyorum, dedi Esra çekinerek. Vejetaryenim.\n\n— O zaman sana da sebze şişi yapalım, dedi Zehra Teyze.\n\nBiberleri ve patlıcanları iri iri doğradı, şişlere dizdi. Esra hayatında yediği en lezzetli şişin bu olduğunu söyledi.\n\nYemekten sonra Zehra Teyze, çadırın çevresinde açan papatyalardan topladı ve onlara papatya çayı demledi. Yaylanın her yanı papatyayla kaplıydı. Çadırın kenarına konan serçeler, yere düşen ekmek kırıntılarını topluyordu. Cem serçelerin hiç korkmadan bu kadar yaklaşmasına şaşırdı.\n\nAilenin köpeği de gençlerin yanına geldi. Hasan Amca köpeği okşarken açıkladı:\n\n— Yaylada pire çok olur. Bu yüzden köpeği her hafta yıkıyoruz, yoksa pireler çadıra da girer.\n\nAkşam Zehra Teyze onlara tulum peyniri ikram etti. Peynir, keçi derisinden yapılmış bir torbada aylarca olgunlaşmıştı.\n\n— Peynir de insan gibidir, dedi Zehra Teyze. Acele edersen olgunlaşmaz. Zamanını bekleyeceksin.\n\nGençler üç gün bu Yörük çadırının yakınında kaldılar. Gündüzleri ocakları gezip harita çizdiler, akşamları çadırda Hasan Amca'nın anlattığı eski göç hikâyelerini dinlediler.\n\nSorular:\nCem ve Esra dağda ne yapıyordu?\nEski krom ocaklarının haritasını çıkarıyorlardı.\nEsra jambonlu sandviçleri neden yemedi?\nÇünkü Esra vejetaryen.\nZehra Teyze Esra için ne hazırladı?\nBiber ve patlıcanları doğrayıp sebze şişi hazırladı.\nHasan Amca köpeği neden her hafta yıkıyor?\nÇünkü yaylada pire çok oluyor ve pireler çadıra da girebilir.\nZehra Teyze'ye göre peynir neden insana benziyor?\nÇünkü acele edilirse olgunlaşmıyor; zamanını beklemek gerekiyor."
+    },
+    {
+      "title": "Maden kasabasında bir ev",
+      "summary": "A mining engineer and his wife buy an old house in a mining town, deal with the mortgage on it and renovate it.",
+      "newWords": [
+        "gayrimenkul",
+        "görüşlü",
+        "parasal",
+        "ipotek",
+        "fotokopi",
+        "mahremiyet",
+        "lağım",
+        "karıştırıcı"
+      ],
+      "text": "Ömer bir maden mühendisi. Geçen yıl Kütahya'daki bir maden şirketinde iş bulunca eşi Zehra ile birlikte bu küçük maden kasabasına taşındılar. İlk aylarda kirada oturdular, sonra kendi evlerini almaya karar verdiler.\n\nKasabadaki tek gayrimenkul ofisini Halil Bey adında yaşlı bir adam işletiyordu. Halil Bey açık görüşlü, sakin bir insandı. Gençlere en iyi evleri değil, onlara en uygun evleri göstermek istiyordu.\n\n— Önce parasal durumunuzu konuşalım, dedi. Ev almak sadece bir hayal değil, aynı zamanda parasal bir karar.\n\nÖmer ile Zehra hesaplarını anlattılar. Halil Bey onlara bahçeli, iki katlı eski bir taş ev gösterdi. Ev, madenin eski müdürüne aitmiş. Fiyatı uygundu, ama Halil Bey dürüst davrandı:\n\n— Bu evin üzerinde bir ipotek var. Sahibi yıllar önce bankadan kredi çekmiş. Satıştan önce bu ipoteğin kaldırılması gerekiyor.\n\nZehra endişelendi, ama Halil Bey ona her şeyi tek tek açıkladı. Ev sahibi borcunu satış parasıyla kapatacak, banka da ipoteği tapudan silecekti. Halil Bey, gayrimenkul alırken bu tür ayrıntılara mutlaka dikkat etmek gerektiğini söyledi.\n\nErtesi gün tapu dairesine gittiler. Memur, kimliklerinin fotokopisini istedi. Ömer'in yanında fotokopi yoktu; Halil Bey hemen karşıdaki kırtasiyeye gidip iki fotokopi çektirdi. Birkaç saat sonra ev onlarındı.\n\nEvin tek sorunu, mutfak penceresinin doğrudan komşunun bahçesine bakmasıydı. Zehra mahremiyetine çok önem veren biriydi.\n\n— Kahvaltıda bütün mahalle bizi seyredecek, dedi gülerek.\n\nMahremiyet sorununu bahçeye sık bir çit dikerek çözdüler. Ama asıl sorun başka yerdeydi. Ev eskiydi ve lağım borusu kasabanın yeni lağım hattına bağlı değildi. Belediyeden gelen ekip, boruyu yenilemek için bahçeyi kazmak zorunda kaldı.\n\nYenileme işleri bir ay sürdü. Bahçenin önünde her sabah küçük bir beton karıştırıcısı çalışıyordu. Karıştırıcının sesi, kasabanın çocuklarını evin önüne topluyordu. Ömer de akşamları işten dönünce ustalarla birlikte çalıştı, maden ocağında öğrendiklerini evin temelini sağlamlaştırmak için kullandı.\n\nSonbaharda iş bitti. Zehra mutfak penceresinin önüne bir masa koydu. Artık oradan çitin üzerinden yalnızca dağları görüyordu.\n\nSorular:\nHalil Bey nasıl bir insandı?\nAçık görüşlü ve sakin bir insandı.\nTaş evin üzerinde ne vardı?\nEvin üzerinde bir ipotek vardı; sahibi yıllar önce bankadan kredi çekmişti.\nTapu dairesinde memur ne istedi?\nKimliklerin fotokopisini istedi.\nZehra'nın mahremiyet sorununu nasıl çözdüler?\nBahçeye sık bir çit diktiler.\nBelediyeden gelen ekip neden bahçeyi kazdı?\nÇünkü evin lağım borusu kasabanın yeni lağım hattına bağlı değildi."
+    },
+    {
+      "title": "Bir dağın iki yüzü",
+      "summary": "A village teacher writes a column on a planned quarry, weighing new jobs against the risks to the village's water.",
+      "newWords": [
+        "hüsran",
+        "imiş",
+        "boykot",
+        "aşağılayıcı",
+        "yozlaşmak",
+        "caiz",
+        "ebediyen"
+      ],
+      "text": "Ben, Ege'de küçük bir dağ köyünde yirmi yıldır öğretmenlik yapıyorum. Bu yazıyı, köyümüzün son aylarda en çok konuştuğu konu hakkında yazıyorum: köyün üstündeki dağda açılması planlanan bir taş ocağı.\n\nÖnce biraz geçmişi anlatmak gerekiyor. Köyde otuz yıl önce de bir ocak açılmış. O zaman herkes büyük umutlar beslemiş. Anlatılanlara göre şirketin verdiği sözler de çok büyük imiş. Ama ocak dört yıl sonra kapanmış ve geride sadece yaralı bir yamaç bırakmış. Yaşlılar o dönemi hâlâ bir hüsran olarak hatırlıyor. Hüsran, insan bir şeyden çok umup eli boş kalınca hissettiği o acı duygu.\n\nŞimdi yeni bir şirket geldi. Şirketin söylediğine göre bu kez ocak yirmi yıl çalışacak, köyden otuz kişiye iş verecek imiş. Gençlerin çoğu bu habere sevindi. Haksız da sayılmazlar; köyde iş olmadığı için her yıl birkaç aile şehre göçüyor.\n\nŞirket köy kahvesinde bir tanıtım toplantısı düzenledi. Bazı köylüler toplantıyı boykot etti; boykot edenler, kararın zaten verildiğini düşünüyordu. Toplantıya gidenler ise bir yetkilinin sözlerine kırıldı. Adam, suyla ilgili soruları duyunca \"Köylü teknik ayrıntıları anlamaz,\" demiş. Bu söz pek çoğumuza aşağılayıcı geldi. Aşağılayıcı bir dil, en haklı projeye bile güveni yok eder.\n\nEndişelerin başında su geliyor. Köyün içme suyu, dağın eteğindeki kaynaktan geliyor. Bir kez kirlenen ya da yolunu değiştiren bir kaynak, belki de ebediyen kaybolur. Bir taş ocağı yirmi yıl sonra kapanır, ama kaybolan bir kaynak ebediyen geri gelmeyebilir.\n\nBazı yaşlılar da paranın köydeki dayanışmayı yozlaştıracağından korkuyor. Onlara göre eski ocak döneminde de komşuluk ilişkileri yozlaşmış, iş için birbirini kıskanan aileler küsmüş. Ben bu korkuyu anlıyorum, ama abartılı buluyorum. Bir topluluk yozlaşmaya mahkûm değildir; dürüst ve açık konuşursa güçlenebilir de.\n\nPeki ne yapmalı? Burada fikrimi söylemek caiz ise, bence mesele ocağa evet ya da hayır demek değil. Mesele, şartları birlikte belirlemek. Kaynak suyunun her ay bağımsız bir laboratuvarda ölçülmesi, sonuçların köy kahvesine asılması ve ocak kapanınca yamacın ağaçlandırılması gibi şartlar yazılı olmalı. Bir misafire \"Neden geldin?\" diye sormak caiz değildir belki, ama dağımıza gelen bir şirkete \"Gittiğinde geride ne bırakacaksın?\" diye sormak hakkımızdır.\n\nGeçen hafta muhtar ve şirket, bu şartları konuşmak için yeni bir toplantı yapmayı kabul etti. Bu kez masada köyün yaşlıları da, gençleri de olacak.\n\nSorular:\nOtuz yıl önceki ocak nasıl sona ermiş?\nDört yıl sonra kapanmış ve geride yaralı bir yamaç bırakmış.\nBazı köylüler toplantıyı neden boykot etti?\nKararın zaten verildiğini düşünüyorlardı.\nHangi söz köylülere aşağılayıcı geldi?\nYetkilinin \"Köylü teknik ayrıntıları anlamaz\" demesi aşağılayıcı geldi.\nÖğretmen su konusunda neden endişeli?\nÇünkü bir kez kirlenen ya da yolunu değiştiren bir kaynak ebediyen kaybolabilir.\nÖğretmene göre asıl mesele ne?\nOcağa evet ya da hayır demek değil, şartları birlikte belirlemek."
+    },
+    {
+      "title": "Gece vardiyası",
+      "summary": "A caregiver looks after a retired miner with diabetes in Zonguldak and helps him through sleepless nights and low moods.",
+      "newWords": [
+        "bakıcılık",
+        "insülin",
+        "uykusuzluk",
+        "depresif",
+        "dublaj",
+        "sinsice",
+        "tarak",
+        "sabırla"
+      ],
+      "text": "Esra, Zonguldak'ta hasta bakıcılığı yapıyor. Bakıcılık mesleğine on yıl önce başladı. Şu sıralar, yetmiş yaşındaki emekli madenci İbrahim Amca'ya bakıyor. İbrahim Amca şeker hastası ve günde iki kez insülin kullanması gerekiyor.\n\nEsra her sabah önce İbrahim Amca'nın şekerini ölçüyor, sonra insülin iğnesini hazırlıyor. İbrahim Amca ilk zamanlarda iğneden çok korkarmış. Esra ona insülini kendisinin nasıl yapacağını sabırla öğretti. Şimdi İbrahim Amca iğnesini kendisi yapıyor, Esra yalnızca yanında duruyor.\n\nİbrahim Amca'nın en büyük derdi uykusuzluk. Otuz yıl gece vardiyasında çalışmış; vücudu hâlâ geceleri uyanık kalmaya alışkın. Doktor, uykusuzluğun şekeri de kötü etkilediğini söylemiş. Bu yüzden Esra akşamları ona uzun bir yürüyüş yaptırıyor ve yatmadan önce çay yerine ıhlamur veriyor.\n\nEmekli olduktan sonraki ilk yıllar İbrahim Amca için çok zor geçmiş. Arkadaşlarından uzak kalmış, evden çıkmak istememiş. Kızı, babasının o dönem depresif olduğunu anlatıyor. Esra da ilk geldiğinde onu depresif ve sessiz bulmuştu. Bakıcılığın sadece ilaç vermek olmadığını, en çok da insanı dinlemek olduğunu bu evde bir kez daha öğrendi.\n\nUyuyamadığı gecelerde İbrahim Amca televizyonda eski filmler izliyor. En çok da dublajlı yabancı filmleri seviyor. Ona göre eski dublaj sanatçılarının sesleri, filmlerin oyuncularından daha güzel. Bazen Esra'ya bir sahneyi gösterip \"Dinle, bu ses dublajın ustası,\" diyor.\n\nEvde bir de kedi var. Kedi, İbrahim Amca film izlerken mutfağa sinsice girip tezgâhtaki yiyeceklere uzanıyor. Esra onu her seferinde yakalıyor, ama kedi ertesi gece yine aynı yoldan sinsice geliyor. Esra kızmıyor; kedinin bu oyununa da sabırla katlanıyor.\n\nHer sabah kahvaltıdan sonra İbrahim Amca aynanın karşısına geçip beyaz saçlarını eski bir tarakla tarıyor. Bu tarak, madende çalıştığı yıllardan kalma. Tarağı karısı ona ilk maaşıyla almış. Esra bir gün tarağın dişlerinin kırıldığını görüp yenisini almayı teklif etti.\n\n— Olmaz, dedi İbrahim Amca. Bu tarak benim gençliğim. Bazı şeyler kırık da olsa kalmalı.\n\nGeçen ay İbrahim Amca eski madenci arkadaşlarının kahvesine gitmeye başladı. Esra onu her perşembe kahveye götürüyor. Dönüşte İbrahim Amca hep aynı şeyi söylüyor:\n\n— Bu gece rahat uyurum.\n\nSorular:\nİbrahim Amca neden insülin kullanıyor?\nÇünkü şeker hastası.\nİbrahim Amca neden uykusuzluk çekiyor?\nOtuz yıl gece vardiyasında çalıştığı için vücudu geceleri uyanık kalmaya alışkın.\nEsra'ya göre bakıcılık nedir?\nSadece ilaç vermek değil, en çok da insanı dinlemek.\nKedi geceleri ne yapıyor?\nMutfağa sinsice girip tezgâhtaki yiyeceklere uzanıyor.\nİbrahim Amca eski tarağını neden değiştirmek istemiyor?\nÇünkü tarağı ona karısı almış; o tarak onun gençliği."
+    },
+    {
+      "title": "Kömür ocağından ormana",
+      "summary": "An interview with a woman mining engineer who turns an old coal pit into a poplar forest and receives an award from her university.",
+      "newWords": [
+        "rektörlük",
+        "erkeklik",
+        "sabote",
+        "klon",
+        "seferberlik"
+      ],
+      "text": "Maden mühendisi Hatice Aksoy, geçen ay mezun olduğu üniversitenin rektörlüğünden bir ödül aldı. Ödülün nedeni, Kütahya'daki eski bir kömür ocağını ormana dönüştüren projesi. Rektörlük binasındaki törenden sonra kendisiyle konuştuk.\n\n— Hatice Hanım, öncelikle tebrikler. Madenciliğe nasıl başladınız?\n\n— Teşekkür ederim. Babam madenciydi. Çocukken onun anlattığı yeraltı hikâyelerini dinlerdim. Ama madenciliği seçtiğimde çevremdeki herkes şaşırdı. O yıllarda madencilik bir erkeklik işi olarak görülüyordu. Sanki yerin altına inmek, bir tür erkeklik gösterisiymiş gibi.\n\n— Bu düşünce sizi zorladı mı?\n\n— Dışarıdan gelen sözlerden çok, kendi korkularım zorladı. İlk yıllarda kendimi sürekli sabote ettim. Toplantılarda fikrimi söylemiyor, \"Ya yanlışsa?\" diye susuyordum. Bir hocam bana bunu fark ettirdi: \"Kimse seni sabote etmiyor, sen kendini sabote ediyorsun,\" dedi. O günden sonra konuşmaya başladım.\n\n— Projenize gelelim. Eski bir ocak nasıl ormana dönüşüyor?\n\n— Açık ocaklar kapandığında geride derin çukurlar ve çıplak toprak kalır. Biz önce toprağı düzledik, sonra üzerine verimli bir toprak tabakası serdik. Ardından kavak diktik. Ama rastgele kavak değil, bu toprağa en iyi uyan kavak klonlarını seçtik.\n\n— Klon derken neyi kastediyorsunuz?\n\n— Klon, aynı ağaçtan alınan dallardan yetiştirilen, birbirinin tıpatıp aynısı olan ağaçlar demek. Bir klonun özelliklerini önceden bilirsiniz: ne kadar hızlı büyüdüğünü, ne kadar su istediğini. Biz on iki farklı klonu denedik ve en dayanıklı üç klonu seçtik.\n\n— Bu kadar büyük bir işi nasıl başardınız?\n\n— Tek başımıza başaramazdık. İlk yıl çevre köylerle birlikte bir fidan dikme seferberliği düzenledik. Okullar, köylüler, emekli madenciler bu seferberliğe katıldı. Bir hafta sonunda kırk bin fidan toprağa girmişti. En çok da yaşlı madencilerin gelmesi beni duygulandırdı. Yıllarca kömür çıkardıkları toprağa şimdi ağaç dikiyorlardı.\n\n— Bugün orası nasıl görünüyor?\n\n— Kavaklar on metreyi geçti. Ormanda tavşanlar ve kuşlar dolaşıyor. Hafta sonları aileler eski ocağın yerinde piknik yapıyor. Çocuklar, orada bir zamanlar kömür ocağı olduğuna inanmıyor.\n\n— Genç kadın mühendislere ne söylemek istersiniz?\n\n— Madencilik bir erkeklik meselesi değil, bir bilgi ve emek meselesi. Kimsenin, en çok da kendinizin, hayallerinizi sabote etmesine izin vermeyin.\n\nSorular:\nHatice Aksoy rektörlükten neden ödül aldı?\nEski bir kömür ocağını ormana dönüştüren projesi için ödül aldı.\nHatice Hanım'ın gençliğinde madencilik nasıl görülüyordu?\nBir erkeklik işi olarak görülüyordu.\nHocası Hatice Hanım'a ne söyledi?\n\"Kimse seni sabote etmiyor, sen kendini sabote ediyorsun,\" dedi.\nKlon ne demek?\nAynı ağaçtan alınan dallardan yetiştirilen, birbirinin tıpatıp aynısı olan ağaçlar demek.\nFidan dikme seferberliğine kimler katıldı?\nOkullar, köylüler ve emekli madenciler katıldı."
+    }
+  ]
+}

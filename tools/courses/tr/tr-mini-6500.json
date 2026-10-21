@@ -1,0 +1,193 @@
+{
+  "id": "tr-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Mühendislik",
+  "description": "Ten stories about engineers at work: weather forecasting, cash machines, a village coop, concert-hall acoustics, a campus app, a robot contest, a wooden boat, porcelain, home heating and a smart walking stick.",
+  "topic": "Engineering",
+  "names": [
+    "Sinan",
+    "Trabzon",
+    "Karadeniz",
+    "Büyük Okyanus",
+    "Ömer",
+    "İzmir",
+    "Karşıyaka",
+    "Ayla",
+    "Bursa",
+    "İnegöl",
+    "Hatice",
+    "Zehra Öztürk",
+    "Zehra",
+    "Burak",
+    "Ankara",
+    "Cem",
+    "Halil",
+    "Merve",
+    "Konya",
+    "Eskişehir",
+    "Esra",
+    "Bodrum",
+    "Fatma",
+    "İstanbul",
+    "Ege",
+    "Akdeniz",
+    "Emine",
+    "Kütahya",
+    "Leyla",
+    "Hasan",
+    "Çankaya",
+    "Yusuf"
+  ],
+  "lessons": [
+    {
+      "title": "Tayfun değil, fırtına",
+      "summary": "A meteorological engineer in Trabzon explains on live TV that the coming storm is not a typhoon and watches it through the night.",
+      "newWords": [
+        "meteoroloji",
+        "tayfun",
+        "spiker",
+        "yanıtlamak",
+        "geceleyin",
+        "sabahleyin",
+        "yatışmak",
+        "uyuyakalmak"
+      ],
+      "text": "Sinan, Trabzon'daki meteoroloji istasyonunda çalışan bir mühendis. On iki yıldır Karadeniz'in havasını izliyor; radarlardan, uydulardan ve kıyıdaki ölçüm cihazlarından gelen verileri okuyup sonraki günlerin havasını tahmin ediyor. Ona göre meteoroloji sabırla öğrenilen bir dil gibidir: bulutlar, rüzgâr ve deniz her gün aynı şeyi biraz farklı söyler.\n\nGeçen ekimde bir salı günü, Sinan sabahleyin ekrana baktığında denizin üzerinde hızla büyüyen bir alçak basınç alanı gördü. Hesaplarına göre rüzgârın hızı gece saatlerinde saatte 90 kilometreye çıkacaktı. Hemen bir uyarı hazırladı ve bunu limana, belediyelere ve balıkçı kooperatiflerine gönderdi.\n\nÖğleden sonra yerel bir televizyon kanalı aradı ve akşam haberlerinde canlı yayına bağlanmasını istedi. Saat 7'de Sinan kameranın karşısına geçti. Genç spiker ilk soruyu sordu:\n\n— Sinan Bey, sosyal medyada \"Karadeniz'e tayfun geliyor\" diye mesajlar dolaşıyor. Bu doğru mu?\n\nSinan soruyu sakin bir sesle yanıtladı:\n\n— Hayır, bu bir tayfun değil. Tayfun, Büyük Okyanus'un sıcak sularında oluşan çok büyük bir kasırgadır. Karadeniz, böyle bir sistemin doğması için hem çok küçük hem de çok serin. Bu gece göreceğimiz şey kuvvetli bir fırtına. Ciddiye alınmalı ama korkmaya gerek yok.\n\nSpiker ikinci soruya geçti:\n\n— Fırtına ne zaman başlayacak, ne kadar sürecek?\n\n— Gece yarısından sonra başlayacak, en sert hâline sabaha karşı ulaşacak. Öğleye doğru yatışmasını bekliyoruz.\n\nYayının sonunda izleyicilerden gelen soruları da tek tek yanıtladı. Bir balıkçı teknelerini limanda bağlamanın yeterli olup olmadığını sordu, bir anne de ertesi gün çocuğunu okula gönderip göndermemesi gerektiğini. Sinan her soruyu yanıtlarken aynı cümleyi tekrarladı: \"Geceleyin dışarı çıkmayın, balkondaki eşyaları içeri alın.\"\n\nO gece Sinan eve gitmedi. Geceleyin istasyonda kalıp rüzgâr ölçümlerini dakika dakika takip etti. Saat 3'te rüzgâr tahmin ettiği hıza ulaştı; pencereler titriyor, deniz kıyıya beyaz köpüklü dalgalar atıyordu. Sabaha doğru ölçümler yavaş yavaş düşmeye başladı. Sinan yorgunluktan masasının başında uyuyakaldı.\n\nSabahleyin telefonunun sesiyle uyandı. Arayan, bir önceki akşamın spikeriydi:\n\n— Günaydın Sinan Bey. Fırtına yatıştı mı?\n\nSinan ekrana baktı: rüzgârın hızı saatte 30 kilometreye inmişti.\n\n— Evet, fırtına yatıştı, dedi. Kusura bakmayın, sesim uykulu. Yarım saat kadar uyuyakalmışım.\n\nSpiker güldü ve ona geceki çalışması için teşekkür etti.\n\nSorular:\nSinan nerede çalışıyor?\nSinan, Trabzon'daki meteoroloji istasyonunda mühendis olarak çalışıyor.\nSpiker Sinan'a ilk olarak ne sordu?\nKaradeniz'e tayfun gelip gelmediğini sordu.\nSinan bunun neden bir tayfun olmadığını söyledi?\nÇünkü tayfun Büyük Okyanus'un sıcak sularında oluşur; Karadeniz böyle bir sistem için hem çok küçük hem de çok serin.\nSinan izleyicilere ne tavsiye etti?\nGeceleyin dışarı çıkmamalarını ve balkondaki eşyaları içeri almalarını tavsiye etti.\nSinan sabahleyin neden uykuluydu?\nÇünkü bütün gece istasyonda kalmış, sabaha doğru masasının başında uyuyakalmıştı."
+    },
+    {
+      "title": "Bankamatiğin içinde",
+      "summary": "An engineer who services cash machines finds that a 'broken' machine has simply run out of notes, and replaces a worn belt while he is there.",
+      "newWords": [
+        "banknot",
+        "dikdörtgen",
+        "kayış",
+        "parola",
+        "kabahat",
+        "meğerse",
+        "boşalma",
+        "istifade"
+      ],
+      "text": "Bankamatiği çoğumuz yalnızca dışından tanırız: bir ekran, birkaç tuş ve paranın çıktığı dar bir yarık. Ben ise yedi yıldır bu makinelerin içini görüyorum. Adım Ömer; İzmir'de bankamatik bakımı yapan bir şirkette elektronik mühendisiyim.\n\nBir bankamatiğin içi, dışarıdan tahmin edildiğinden çok daha kalabalıktır. Banknotlar, kaset dediğimiz kilitli, dikdörtgen kutularda durur. Her kasette tek bir değerde banknot bulunur. Banknotların hepsi dikdörtgendir ama boyları değerlerine göre biraz değişir; makine her banknotun boyunu ve kalınlığını ölçerek yanlış bir kâğıdın dışarı çıkmasını önler. Müşterinin hesabı kontrol edildikten sonra makine banknotları kasetten tek tek alır, sayar ve ince lastik kayışların üzerinde yarığa doğru taşır. Bu kayışlar saniyede onlarca banknotu hiç buruşturmadan taşıyabilmelidir.\n\nMakinenin bakım ekranına girmek için bir parola gerekir. Parolayı her ay değiştiririz ve kimseyle paylaşmayız. Kasetleri ise biz değil, bir güvenlik şirketinin çalışanları doldurur; biz yalnızca mekanik ve elektronik arızalarla ilgileniriz.\n\nGeçen hafta Karşıyaka'daki bir şubeden şikâyet geldi. Makine para vermiyor, ekranda \"Geçici olarak hizmet dışı\" yazısı çıkıyordu. Şube müdürü telefonda oldukça sinirliydi:\n\n— Sabahtan beri müşteriler bize kızıyor. Bu sizin kabahatiniz, makineniz sürekli bozuluyor!\n\nSakin olmaya çalışarak cevap verdim:\n\n— Önce bir bakayım, sonra kabahatin kimde olduğunu birlikte konuşuruz.\n\nŞubeye gidip makineyi açtığımda ilk olarak kasetlere baktım. Meğerse sorun hiç de karmaşık değilmiş: elli liralık banknotların durduğu kaset tamamen boşalmıştı. Makine, kasetin boşalmasını bir arıza gibi algılamış ve kendini kapatmıştı. Kayıtlara göre boşalma sabah 9.15'te olmuştu; yeni para ise ancak ertesi gün gelecekti.\n\nYine de işi yarım bırakmadım. Makine açıkken bundan istifade edip kayışları da kontrol ettim. Bir tanesi aşınmış ve gevşemişti; yakında banknotları sıkıştırabilirdi. Yanımda yedek bir kayış vardı, onu hemen değiştirdim. Teknisyenler arasında sevilen bir söz vardır: \"Makineyi açtıysan, fırsattan istifade et.\"\n\nAkşamüstü güvenlik şirketi kaseti doldurdu ve makine yeniden çalışmaya başladı. Şube müdürü beni aradı, bu kez yumuşak bir sesle konuştu:\n\n— Kusura bakmayın, sabah biraz sert konuştum. Meğerse kabahat ne sizde ne de makinedeymiş.\n\n— Önemli değil, dedim. Bundan sonra kasetler yarıya inince sistem size otomatik bir mesaj gönderecek. Böylece boşalma olmadan önce haberiniz olacak.\n\nSorular:\nBanknotlar bankamatiğin içinde nerede durur?\nKaset denilen kilitli, dikdörtgen kutularda durur.\nBanknotlar kasetten yarığa nasıl taşınır?\nİnce lastik kayışların üzerinde taşınır.\nÖmer makinenin bakım ekranına nasıl girer?\nHer ay değiştirilen bir parolayla girer.\nKarşıyaka'daki makine neden para vermiyordu?\nÇünkü elli liralık banknotların durduğu kaset boşalmıştı ve makine kendini kapatmıştı.\nÖmer makine açıkken başka ne yaptı?\nBundan istifade edip kayışları kontrol etti ve aşınmış bir kayışı değiştirdi."
+    },
+    {
+      "title": "Kümeste serin bir yaz",
+      "summary": "An agricultural engineer finds that a hot, airless coop is why a village woman's hens lay fewer eggs, and shows her how to cool it.",
+      "newWords": [
+        "kümes",
+        "karbondioksit",
+        "hapsetmek",
+        "hijyen",
+        "sahipsiz",
+        "oğlak",
+        "çekirge",
+        "bolluk"
+      ],
+      "text": "Ayla, Bursa'da çiftçilere danışmanlık yapan genç bir ziraat mühendisi. Temmuzun ortasında İnegöl yakınlarındaki bir köyden telefon geldi. Arayan, Ayla'nın geçen yıl tanıştığı Hatice Teyze'ydi:\n\n— Kızım, tavuklarım bu yaz yumurta vermiyor gibi. Geçen yıl günde 60 yumurta topluyordum, şimdi 30 bile zor.\n\nErtesi sabah Ayla köye gitti. Kümes, evin arkasında, beton duvarlı ve saç çatılı küçük bir yapıydı. Kapıyı açar açmaz yüzüne ağır, sıcak bir hava çarptı. Ayla çantasından küçük bir ölçüm cihazı çıkardı. Cihaz, kümesin içindeki sıcaklığın 36 dereceyi bulduğunu, karbondioksit oranının da normalin neredeyse iki katı olduğunu gösteriyordu.\n\n— Teyze, sorun yemde değil, havada, dedi Ayla. Bu saç çatı gün boyu güneşi topluyor ve sıcağı içeride hapsediyor. Pencereler küçük olduğu için hava da değişmiyor. Tavuklar nefes aldıkça karbondioksit birikiyor, onlar da halsiz düşüyor. Halsiz tavuk da az yumurtlar.\n\nHatice Teyze başını salladı:\n\n— Peki ne yapacağız? Ben her sabah kapıyı açıyorum ama yetmiyor.\n\nAyla bir kâğıda basit bir plan çizdi. Önce çatı açık renge boyanacak ve üstüne bir gölge bezi gerilecekti. Sonra kuzey duvarının alt kısmına bir pencere, güney duvarının üst kısmına da ikinci bir pencere açılacaktı. Sıcak hava yükseldiği için üstteki pencereden çıkacak, serin hava da alttaki pencereden girecekti. Böylece kümes sıcağı artık içeride hapsetmeyecekti.\n\nAyla kümesin hijyenine de baktı. Yerdeki talaş ıslanmış, kokmaya başlamıştı. Islak talaş hem mikropların çoğalmasına hem de havanın ağırlaşmasına yol açıyordu. Hijyen için talaşın haftada bir değişmesini, suluklarınsa her gün yıkanmasını önerdi.\n\nKonuşurken bahçeye sahipsiz bir köpek girdi. Hatice Teyze onu kovmadı:\n\n— Bu köpek bir yıldır buralarda. Sahipsiz ama tilkileri kümesten uzak tutuyor, ben de ona yemek veriyorum.\n\nKöpeğin arkasından bir de oğlak geldi. Komşunun keçisi baharda doğurmuştu; oğlak her gün çitin arasından geçip tavukların arasında dolaşıyordu. Bu yaz köyde çekirge bolluğu vardı ve tavuklar öğleden sonra bahçede çekirge avlıyordu. Oğlak da onların peşinden koşuyordu.\n\n— Çekirge tavuklar için iyi bir besin, dedi Ayla. Ama günün en sıcak saatlerinde dışarıda kalmasınlar, gölgede dinlensinler.\n\nİki hafta sonra Hatice Teyze yine aradı. Sesi neşeliydi:\n\n— Kızım, kümes artık serin, tavuklar da canlandı. Bugün 55 yumurta topladım. Evde yumurta bolluğu var, gel de sana bir sepet vereyim!\n\nSorular:\nHatice Teyze Ayla'yı neden aradı?\nÇünkü tavukları bu yaz eskisinden çok daha az yumurta veriyordu.\nAyla'nın cihazı kümeste ne gösterdi?\nSıcaklığın 36 dereceyi bulduğunu ve karbondioksit oranının normalin neredeyse iki katı olduğunu gösterdi.\nAyla kümesin havasını nasıl değiştirmeyi önerdi?\nÇatıyı açık renge boyamayı, üstüne gölge bezi germeyi ve biri altta, biri üstte iki pencere açmayı önerdi.\nHijyen için ne yapılmalıydı?\nTalaş haftada bir değişmeli, suluklar her gün yıkanmalıydı.\nHatice Teyze sahipsiz köpeğe neden yemek veriyor?\nÇünkü köpek tilkileri kümesten uzak tutuyor."
+    },
+    {
+      "title": "Salonun sesini ayarlamak",
+      "summary": "An interview with the acoustic engineer who turned an old İzmir cinema into a concert hall.",
+      "newWords": [
+        "flüt",
+        "senfoni",
+        "anlaşılmaz",
+        "serbestçe",
+        "müşterek",
+        "onursal",
+        "değinmek",
+        "şevk"
+      ],
+      "text": "İzmir'de yıllardır kapalı duran eski bir sinema, iki yıl süren bir çalışmanın ardından konser salonu olarak yeniden açıldı. Salonun akustik tasarımını yapan mühendis Zehra Öztürk'le bu dönüşümü konuştuk.\n\n— Bir konser salonunun akustiğini tasarlamak ne demek?\n\n— Kısaca, sesin salonda nasıl dolaşacağına karar vermek. Sahnede bir flüt çaldığında o sesin en arka sıradaki dinleyiciye temiz ve dengeli ulaşmasını istersiniz. Ses duvarlara, tavana ve koltuklara çarpar; bir kısmı emilir, bir kısmı yansır. Biz bu yansımaları hesaplayıp yönlendiriyoruz.\n\n— Eski sinemanın en büyük sorunu neydi?\n\n— Sinemalar film sesi için yapılır; duvarlar sesi emsin diye kalın kumaşlarla kaplanır. Bir senfoni orkestrası içinse salon fazla sessizdi; müzisyenlerin deyişiyle neredeyse ölü bir salondu. İlk denemede orkestraya bir senfoninin son bölümünü çaldırdık. Kemanlar boğuk geliyordu, flüt ise orkestranın içinde kayboluyordu. Arka sıralarda solistin sesi neredeyse anlaşılmaz hâle geliyordu.\n\n— Bunu nasıl çözdünüz?\n\n— Duvarlardaki kumaşları söktük, yerlerine ahşap paneller koyduk. Panellerin yüzeyini düz değil, dalgalı yaptık; böylece ses tek bir noktada toplanmadan salona serbestçe yayılıyor. Tavana da sahneye doğru eğik duran yansıtıcılar astık. Sesin serbestçe dolaşması ama kontrolden çıkmaması gerekiyor; işin zor yanı bu dengeyi bulmak.\n\n— Dinleyiciler farkı hissediyor mu?\n\n— Açılış gecesinden sonra bir dinleyici bize yazdı. Eskiden bu binada sözleri anlaşılmaz gelen şarkıcıları ilk kez her kelimesiyle duyduğunu söylüyordu. Bu bizim için en güzel teşekkürdü.\n\n— Bu projeyi tek başınıza mı yürüttünüz?\n\n— Hayır, mimarlarla, belediyeyle ve orkestrayla müşterek bir çalışmaydı. Önemli kararları da müşterek aldık. Örneğin koltukların kumaşını orkestranın şefiyle birlikte seçtik, çünkü dolu ve boş salonun sesi arasındaki fark büyük ölçüde koltuklara bağlı.\n\n— Salonun onursal başkanı tanınmış bir flüt sanatçısı. Onun katkısı ne oldu?\n\n— Onursal başkanımız işin teknik yanına hiç karışmadı ama provaların neredeyse hepsine geldi. Her denemeden sonra en küçük ayrıntılara bile değindi; \"Sahnenin solunda ses bir an geç geliyor\" gibi. Onun kulağı çoğu ölçüm cihazından daha hassas.\n\n— Son olarak, akustik alanında çalışmak isteyen genç mühendislere ne söylersiniz?\n\n— Bu meslek sabır ister ama şevk de ister. Hesaplar bazen haftalarca sürer; şevkinizi kaybederseniz küçük bir ayrıntıyı atlarsınız. Az önce değindiğim gibi, salonda en küçük fark bile duyulur. Bir de şunu söylerim: Bu işte müziği sevmek şart. Bir senfoniyi baştan sona dinlemeden iyi bir salon tasarlanamaz.\n\nSorular:\nZehra Öztürk bu projede ne yaptı?\nEski sinemadan dönüştürülen konser salonunun akustik tasarımını yaptı.\nİlk denemede flütün sesi nasıldı?\nFlüt orkestranın içinde kayboluyordu.\nAhşap panellerin yüzeyi neden dalgalı yapıldı?\nSes tek bir noktada toplanmadan salona serbestçe yayılsın diye dalgalı yapıldı.\nKoltukların kumaşı neden şefle birlikte seçildi?\nÇünkü dolu ve boş salonun sesi arasındaki fark büyük ölçüde koltuklara bağlı.\nOnursal başkan provalarda ne yaptı?\nHer denemeden sonra en küçük ayrıntılara bile değindi."
+    },
+    {
+      "title": "Yerleşkenin haritası",
+      "summary": "A computer engineering student's campus navigation app fails its first test, and his teacher's advice helps him fix it.",
+      "newWords": [
+        "yerleşke",
+        "navigasyon",
+        "patika",
+        "öğretilmek",
+        "fiyasko",
+        "hadisene",
+        "nasihat"
+      ],
+      "text": "Burak, Ankara'da bilgisayar mühendisliği okuyan üçüncü sınıf bir öğrenci. Üniversitesinin yerleşkesi o kadar büyük ki fakülteler arasında yürümek bazen yirmi dakika sürüyor. Birinci sınıftayken Burak bu yerleşkede birçok kez kaybolmuş, derslere geç kalmıştı. Bu yüzden yazılım projesi dersinde yerleşke için bir navigasyon uygulaması yapmaya karar verdi.\n\nTelefonlardaki bilinen navigasyon uygulamaları yerleşkenin içinde pek işe yaramıyordu, çünkü yalnızca araçların kullandığı yolları tanıyordu. Oysa öğrenciler binalar arasında çoğunlukla ağaçların arasından geçen patikaları kullanıyordu. Burak ve arkadaşı Cem iki hafta boyunca bu patikaları telefonlarıyla tek tek yürüyüp haritaya işlediler.\n\nDerste en kısa yolu bulan algoritmalar öğretiliyordu, ama gerçek bir haritayla çalışmak çok farklıydı. Uygulamanın ilk sürümü, iki bina arasındaki en kısa yolu hesaplayıp ekranda gösteriyordu. Kâğıt üzerinde her şey doğru görünüyordu.\n\nİlk deneme tam bir fiyaskoydu. Uygulama Burak'ı kütüphaneye götürmek yerine bir inşaat alanının çitinin önüne getirdi. Haritadaki patikalardan biri birkaç gün önce kapanmıştı ve uygulama bunu bilmiyordu. Cem gülmekten kendini alamadı:\n\n— Hadisene, atla şu çiti! En kısa yol buymuş!\n\nBurak önce bu sonucu kabullenmek istemedi. Ona göre hata algoritmada değil, haritadaydı; yani kendi kodunda bir sorun yoktu. Ama danışman hocası Halil Bey'e durumu anlattığında aldığı nasihat aklından hiç çıkmadı:\n\n— Hatayı kabullenmek mühendisliğin yarısıdır. Gerçek dünyada yollar kapanır, binalar yıkılır, kapılar taşınır. Senin uygulaman da bu değişikliklere ayak uydurabilmeli. Okulda öğretilen yöntemler yalnızca bir başlangıç; gerisini sahada öğrenirsin.\n\nBu nasihatten sonra Burak ve Cem uygulamaya yeni bir özellik eklediler: Kullanıcılar kapanan bir patikayı ekrana tek bir dokunuşla bildirebiliyordu. Aynı patikayı üç farklı kişi bildirince uygulama o yolu haritadan geçici olarak çıkarıyordu.\n\nİkinci denemenin sabahı Cem kapıda bekliyordu:\n\n— Hadisene, geç kalıyoruz! Bu sefer kütüphaneye çitin üstünden değil, kapısından gireceğiz.\n\nBu kez deneme fiyasko olmadı. Uygulama onları kapalı patikanın etrafından dolaştırıp tam on iki dakikada kütüphaneye götürdü. Dönem sonunda proje sınıfın en yüksek notunu aldı. Üniversite de uygulamayı yeni gelen öğrencilerin telefonlarına önermeye başladı.\n\nBurak bugün birinci sınıf öğrencileriyle karşılaştığında onlara Halil Bey'in nasihatini aktarıyor: \"Hatanızı erken kabul edin; ne kadar erken kabul ederseniz o kadar az yol kaybedersiniz.\"\n\nSorular:\nBurak neden bir navigasyon uygulaması yapmaya karar verdi?\nÇünkü yerleşke çok büyüktü ve birinci sınıftayken birçok kez kaybolup derslere geç kalmıştı.\nBilinen navigasyon uygulamaları yerleşkede neden işe yaramıyordu?\nÇünkü yalnızca araç yollarını tanıyor, öğrencilerin kullandığı patikaları bilmiyordu.\nİlk deneme neden fiyaskoyla sonuçlandı?\nÇünkü haritadaki bir patika kapanmıştı ve uygulama Burak'ı bir inşaat alanının çitine götürdü.\nHalil Bey Burak'a nasıl bir nasihat verdi?\nHatayı kabullenmenin mühendisliğin yarısı olduğunu ve uygulamanın değişikliklere ayak uydurması gerektiğini söyledi.\nBurak ve Cem uygulamaya hangi özelliği eklediler?\nKullanıcıların kapanan bir patikayı tek bir dokunuşla bildirebildiği bir özellik eklediler."
+    },
+    {
+      "title": "Robotların rövanşı",
+      "summary": "A volunteer engineer helps a school robot team win a rematch, despite a noisy accusation from the stands.",
+      "newWords": [
+        "rövanş",
+        "atıcı",
+        "doğrult",
+        "fanatik",
+        "korna",
+        "hileli",
+        "yuh",
+        "yaygara",
+        "adaletsizlik"
+      ],
+      "text": "Merve, Konya'da tarım makineleri üreten bir fabrikada çalışan bir makine mühendisi. Hafta sonları gönüllü olarak bir lisenin robot takımına yardım ediyor. Takımın bu yılki hedefi açıktı: geçen yıl finalde Eskişehir takımına kaybettikleri maçın rövanşını almak.\n\nYarışmanın kuralı basitti. İki robot iki dakika boyunca sahadaki topları toplayıp sahanın iki ucundaki potalara atmaya çalışıyordu. Takımın robotunun en önemli parçası, öğrencilerin \"atıcı\" dediği mekanizmaydı. Atıcı, topu birbirine ters yönde dönen iki tekerleğin arasından fırlatıyordu. Topu potaya doğrultmak için de robotun üstünde, hedefi izleyen küçük bir kamera vardı.\n\nFinal günü salon tıklım tıklım doluydu. Velilerin bir kısmı, futbol maçına gelmiş fanatik taraftarlar gibiydi; ellerinde pankartlar ve kornalar vardı. Her sayıda kornalar çalıyor, salon inliyordu. Maç, hakemin kornasıyla başladı.\n\nİlk dakikada bir sorun çıktı. Robot bir duvara çarpmış, atıcının kolu hafifçe eğilmişti; atışlar potanın soluna gidiyordu. Takım kaptanı Esra hemen mola istedi. Merve, öğrencilerle birlikte eğilen kolu küçük bir aletle dikkatle doğrulttu. Esra da kameranın açısını yeniden ayarladı.\n\nMola bitince bu kez başka bir sorun çıktı. Eskişehir takımının robotu art arda beş topu potaya atınca tribünde bir veli ayağa kalktı:\n\n— Bu robot hileli! Kurallarda izin verilenden güçlü bir motor kullanıyorlar! Yuh!\n\nBirkaç kişi daha \"Yuh!\" diye bağırdı. Salon bir anda yaygaraya boğuldu. Hakemler maçı durdurdu ve rakip robotun motorunu ölçtü. Motor kurallara uygundu; robot hileli değildi.\n\nMerve yaygaranın öğrencileri ne kadar gerdiğini gördü. Takımdan bir çocuk da sinirle konuşmaya başladı:\n\n— Bu bir adaletsizlik! Bizim molamız kısa tutuldu, onlarınki uzun!\n\nMerve onu sakinleştirdi:\n\n— Adaletsizlik, kurallar herkese farklı uygulandığında olur. İki takımın molası da aynı süreydi, hakemler de rakibin robotunu ölçtü. Biz kendi robotumuza bakalım.\n\nMaç yeniden başladı. Doğrultulan kol artık hedefi şaşırmıyordu; atıcı her topu potanın tam ortasına gönderiyordu. Son saniyede Esra'nın robotu bir top daha attı ve takım maçı tek sayı farkla kazandı. Böylece rövanş alınmış oldu.\n\nMaçtan sonra Eskişehir takımının öğrencileri gelip onları tebrik etti. Az önce \"Yuh!\" diye bağıran veli de yanlarına geldi ve kusura bakmamalarını istedi. Merve gülümsedi:\n\n— Fanatik olmak kolay; iyi bir rakip olmak zor. Seneye yine görüşürüz.\n\nSorular:\nTakımın bu yılki hedefi neydi?\nGeçen yıl finalde Eskişehir takımına kaybettikleri maçın rövanşını almaktı.\nRobotun atıcısı nasıl çalışıyordu?\nTopu, birbirine ters yönde dönen iki tekerleğin arasından fırlatıyordu.\nMola sırasında Merve ne yaptı?\nÖğrencilerle birlikte eğilen kolu dikkatle doğrulttu.\nVeli neden \"Yuh!\" diye bağırdı?\nÇünkü rakip robotun hileli olduğunu, kuralların izin verdiğinden daha güçlü bir motor kullandığını düşünüyordu.\nMerve'ye göre adaletsizlik ne zaman olur?\nKurallar herkese farklı uygulandığında olur."
+    },
+    {
+      "title": "Kızaktan denize",
+      "summary": "A naval engineer and her father, an old boat builder in Bodrum, launch a wooden gulet built for a retired diplomat.",
+      "newWords": [
+        "imtiyaz",
+        "tüzel",
+        "diplomat",
+        "kızak",
+        "çiçekçi",
+        "kurdele",
+        "maşallah",
+        "fok",
+        "ıstakoz"
+      ],
+      "text": "Bodrum'un kuzeyindeki küçük bir koyda, ahşap teknelerin yapıldığı eski bir tezgâh var. Tezgâhın sahibi Halil Usta yetmiş yaşında ve elli yılı aşkın bir süredir gulet yapıyor. Kızı Fatma ise İstanbul'da gemi inşaatı mühendisliği okuduktan sonra köyüne dönmüş, babasının yanında çalışmaya başlamış.\n\nFatma babasıyla çalışmayı bir imtiyaz olarak görüyor:\n\n— Okulda hesap yapmayı öğrendim ama ahşabın suda nasıl davrandığını babamdan öğreniyorum. Böyle bir ustanın yanında çalışmak her mühendise nasip olmayan bir imtiyaz.\n\nTezgâhın müşterileri genellikle tüzel kişiler, yani tur şirketleri ve oteller. Bu yıl ise farklı bir sipariş geldi. Tekneyi, otuz yıl boyunca farklı ülkelerde diplomat olarak çalışmış olan Ömer Bey istedi. Emekli diplomat, hayatının geri kalanında Ege'nin koylarını kendi teknesiyle gezmeyi hayal ediyordu. Fatma için bu yeni bir deneyimdi; karşısında tüzel bir kişi değil, hayalini anlatan bir insan vardı.\n\nFatma teknenin çizimlerini bilgisayarda hazırladı, dalgaların gövdeye yapacağı baskıyı ve teknenin dengesini hesapladı. Halil Usta ise omurga için kuru ve sağlam bir meşe kütüğü seçti. Tekne dokuz ay boyunca kızağın üzerinde büyüdü. Kızak, kalın ahşap kirişlerden yapılmış ve denize doğru hafifçe eğilen bir yol gibiydi. Tekne bitince bu yoldan kayarak suya inecekti.\n\nSuya indirme günü sabah erkenden çarşıdaki çiçekçi geldi. Yaşlı çiçekçi, Halil Usta'nın elli yılda yaptığı teknelerin neredeyse hepsini süslemişti. Teknenin burnunu beyaz çiçeklerle donattı, kızağın başına da kırmızı bir kurdele gerdi.\n\nÖğleye doğru köylüler kıyıda toplandı. Ömer Bey elinde bir makasla teknenin yanına geldi ve kurdeleyi kesti. Halil Usta, tekneyi kızakta tutan son takozları kaldırdı. Tekne önce yavaşça, sonra hızlanarak kızaktan kaydı ve büyük bir sesle denize indi. Kıyıdakiler alkışladı. Yaşlı kadınlardan biri \"Maşallah!\" diye seslendi. Halil Usta da gözlerini tekneden ayırmadan aynı kelimeyi tekrarladı:\n\n— Maşallah, suya tam oturdu.\n\nTam o sırada koyun girişinde bir fok başını sudan çıkardı. Akdeniz foku bu kıyılarda artık çok nadir görülüyor. Fok bir süre yeni tekneye baktı, sonra yeniden suya daldı. Ömer Bey gülümsedi:\n\n— Daha iyi bir başlangıç olamazdı.\n\nTörenden sonra herkes kıyıdaki uzun masaya oturdu. Köyün balıkçısı sabah ağından iki ıstakoz çıkarmıştı. Halil Usta ıstakozları, kızının tasarladığı ilk teknenin şerefine, Ömer Bey'e ikram etti. Fatma ise sofrada bir sonraki teknenin çizimlerini düşünüyordu.\n\nSorular:\nFatma babasıyla çalışmayı neden bir imtiyaz olarak görüyor?\nÇünkü ahşabın suda nasıl davrandığını ondan öğreniyor ve böyle bir ustanın yanında çalışmak her mühendise nasip olmuyor.\nTezgâhın müşterileri genellikle kimler?\nGenellikle tüzel kişiler, yani tur şirketleri ve oteller.\nKızak nedir?\nKalın ahşap kirişlerden yapılmış ve denize doğru hafifçe eğilen bir yoldur.\nÇiçekçi tekneyi nasıl süsledi?\nTeknenin burnunu beyaz çiçeklerle donattı ve kızağın başına kırmızı bir kurdele gerdi.\nTekne suya inince koyun girişinde ne görüldü?\nBaşını sudan çıkaran bir fok görüldü."
+    },
+    {
+      "title": "Porselen vezirler",
+      "summary": "A ceramics engineer in Kütahya works out why the queens of a porcelain chess set crack in the kiln and ships the order safely.",
+      "newWords": [
+        "yılbaş",
+        "porselen",
+        "kıvam",
+        "vezir",
+        "tılsım",
+        "çekicilik",
+        "koli",
+        "ibret"
+      ],
+      "text": "Emine, Kütahya'daki bir porselen fabrikasında çalışan bir seramik mühendisi. Fabrikada her gün binlerce tabak, fincan ve vazo üretiliyor. Geçen ekim gelen sipariş ise alışılmış işlerden biraz farklıydı: İstanbul'daki bir otel, yılbaşında misafirlerine hediye etmek için yüz tane porselen satranç takımı istiyordu. Tarih kesindi; takımlar yılbaşından en az bir hafta önce otelde olmalıydı.\n\nPorselen, beyaz bir kilin, kuvarsın ve başka bazı minerallerin suyla karıştırılmasıyla elde edilen bir çamurdan yapılır. Satranç taşları için bu çamur alçı kalıplara dökülüyordu. Burada çamurun kıvamı çok önemliydi. Çamur fazla sulu olursa taşlar kalıbın içinde ince ve kırılgan çıkıyor, fazla koyu olursa kalıbın her köşesine ulaşmıyordu. Emine her sabah çamurun kıvamını ölçüyor, gerekirse birkaç damla su ya da biraz kuru toz ekliyordu.\n\nİlk denemeden sonra fırının kapağı açıldığında piyonlar, atlar ve kaleler sorunsuz çıkmıştı. Ama vezirlerin neredeyse yarısı çatlamıştı. Emine çatlakları büyüteçle inceledi. Vezir, takımın en uzun taşlarından biriydi; boynu inceydi, başındaki küçük taç ise kalındı. Fırında ince boyun ile kalın taç farklı hızlarda küçülüyor, porselen de bu gerginliğe dayanamayıp çatlıyordu.\n\nEmine iki değişiklik yaptı. Önce kalıbı yeniden tasarlayıp tacın içini boş bıraktı; böylece taç da boyun kadar ince oldu. Sonra vezirleri fırına girmeden önce iki gün boyunca serin bir odada yavaş yavaş kuruttu. İkinci denemede fırından çıkan yüz vezirin hiçbirinde çatlak yoktu.\n\nFırından çıkan porselenin, Emine'nin yıllardır alışamadığı bir tılsımı vardı. İnce bir porselen parçası ışığa tutulduğunda ışığı hafifçe içinden geçiriyordu. Emine'ye göre porselenin çekiciliği bu tılsımdan geliyordu: Hem bir taş kadar sert, hem de bir kâğıt kadar ince olabilmesinden. Otelin müdürü de numuneleri görünce aynı çekiciliğe kapılmış, siparişi hemen onaylamıştı.\n\nGeriye paketleme kalıyordu. Geçen yıl bir sipariş yolda kırılmıştı. Koliler fazla dolu olduğu için parçalar birbirine çarpmıştı. O olay fabrikadaki herkese ibret olmuştu. Bu kez her taş köpükten yapılmış ayrı bir yuvaya yerleştirildi, her takım ayrı bir koliye kondu ve kolilerin üstüne büyük harflerle \"Kırılacak eşya\" yazıldı. Fabrikanın en yaşlı ustası o günden beri yeni gelen her çalışana bu hikâyeyi ibret olsun diye anlatıyor.\n\nKoliler yılbaşından on gün önce İstanbul'a ulaştı. Tek bir vezir bile kırılmamıştı. Otelin müdürü ertesi gün Emine'ye, lobideki ağacın altına dizilmiş satranç takımlarının bir fotoğrafını gönderdi.\n\nSorular:\nOtel neden porselen satranç takımı sipariş etti?\nYılbaşında misafirlerine hediye etmek için sipariş etti.\nÇamurun kıvamı neden önemliydi?\nÇünkü çamur fazla sulu olursa taşlar ince ve kırılgan, fazla koyu olursa eksik çıkıyordu.\nVezirler fırında neden çatlıyordu?\nÇünkü ince boyun ile kalın taç farklı hızlarda küçülüyordu ve porselen bu gerginliğe dayanamıyordu.\nEmine'ye göre porselenin çekiciliği nereden geliyor?\nHem bir taş kadar sert, hem de bir kâğıt kadar ince olabilmesinden geliyor.\nGeçen yıl hangi olay fabrikadaki herkese ibret oldu?\nKoliler fazla dolu olduğu için bir siparişin yolda kırılması herkese ibret oldu."
+    },
+    {
+      "title": "Bir enerji mühendisinin günlüğü",
+      "summary": "A new energy engineer's diary of her first week: an old apartment's central heating and how to make it warmer and cheaper.",
+      "newWords": [
+        "bildirge",
+        "merkezî",
+        "ıvır",
+        "bebe",
+        "pisi",
+        "eko",
+        "tahminen"
+      ],
+      "text": "Pazartesi, 3 Kasım\n\nBugün yeni işimdeki ilk günümdü. Ankara'da binalara enerji danışmanlığı yapan küçük bir şirkette makine mühendisi olarak çalışmaya başladım. Sabah insan kaynaklarından Ayla Hanım \"Hoş geldin Leyla\" diyerek beni karşıladı, işe giriş bildirgemi hazırlayıp sisteme yükledi. \"Bildirgen gitti, artık resmen bizdensin,\" dedi gülerek. Öğleden sonra ekibin başındaki Hasan Bey yarınki işi anlattı: Çankaya'da kırk yıllık bir apartmanın ısınma sistemini inceleyecektik.\n\nSalı, 4 Kasım\n\nApartmanda merkezî ısıtma var; bodrum kattaki tek bir kazan, sekiz dairenin hepsini ısıtıyor. Apartman yöneticisi bizi kazan dairesine indirdi. Kazanın çevresi ıvır zıvırla doluydu: eski bisikletler, boya kutuları, kırık sandalyeler. Hasan Bey önce bu ıvır zıvırın kaldırılmasını istedi, çünkü hem yangın tehlikesi yaratıyor hem de kazanın temiz hava almasını engelliyordu.\n\nSonra borulara baktık. Kazandan çıkan sıcak su, bodrumdaki çıplak borularda ısısının bir kısmını daha dairelere ulaşmadan kaybediyordu. Üstelik sistem dengesizdi: Alt katlardaki daireler pencere açacak kadar ısınırken üst katlardakiler üşüyordu.\n\nÜçüncü kattaki dairede genç bir anne bizi kapıda karşıladı. Kucağında altı aylık bir bebe vardı. \"Bebe için evi sıcak tutmak istiyorum ama salon hep soğuk,\" dedi. Gerçekten de salonun sıcaklığı 18 derecenin altındaydı. Radyatörün önündeki halının üstünde gri bir pisi kıvrılmış uyuyordu. Anne gülümsedi: \"Bizim pisi bile bütün gün radyatörün önünden kalkmıyor.\" Ölçümleri yaparken bebe uyanmasın diye alçak sesle konuştuk.\n\nÇarşamba, 5 Kasım\n\nBütün gün raporu yazdım. Önerilerimiz üç başlık altında toplandı. Birincisi, bodrumdaki boruların kaplanması. İkincisi, her radyatöre odanın sıcaklığını ayarlayan bir vana takılması; böylece merkezî sistemde bir daire fazla ısınınca o dairenin radyatörleri kendiliğinden kısılacak. Üçüncüsü, eski kazanın yerine eko modu olan yeni bir kazan konması. Eko modda kazan, dış hava ısındığında suyu daha az ısıtarak gereksiz yakıt harcamıyor.\n\nHesaplarıma göre bu üç değişiklik apartmanın yakıt faturasını tahminen yüzde 25 azaltacak. Yatırımın masrafı da tahminen üç kışta geri dönecek.\n\nPerşembe, 6 Kasım\n\nRaporu Hasan Bey'e verdim. Okuyup birkaç rakamı düzeltti, sonra şöyle dedi: \"İyi bir rapor. Ama bir şeyi unutma: Biz kazanlar için değil, o soğuk salonda oturan bebe ve annesi için çalışıyoruz.\" Bu cümleyi defterimin ilk sayfasına yazdım.\n\nSorular:\nLeyla'nın ilk iş gününde Ayla Hanım ne yaptı?\nİşe giriş bildirgesini hazırlayıp sisteme yükledi.\nHasan Bey kazan dairesindeki ıvır zıvırın neden kaldırılmasını istedi?\nÇünkü hem yangın tehlikesi yaratıyor hem de kazanın temiz hava almasını engelliyordu.\nMerkezî ısıtma sistemindeki sorun neydi?\nSistem dengesizdi; alt katlar fazla ısınırken üst katlar üşüyordu.\nÜçüncü kattaki pisi nerede uyuyordu?\nRadyatörün önündeki halının üstünde uyuyordu.\nEko modda kazan nasıl çalışıyor?\nDış hava ısındığında suyu daha az ısıtıyor ve gereksiz yakıt harcamıyor.\nÖnerilen değişiklikler faturayı ne kadar azaltacak?\nTahminen yüzde 25 azaltacak."
+    },
+    {
+      "title": "Dedemin değneği",
+      "summary": "A biomedical engineer tests a smart walking stick with his grandfather, a former stud-farm groom.",
+      "newWords": [
+        "hara",
+        "huylu",
+        "nail",
+        "değnek",
+        "anatomi",
+        "fizyolojik",
+        "saka"
+      ],
+      "text": "Dedem Yusuf yetmiş sekiz yaşında. Gençliğinde Bursa yakınlarındaki büyük bir harada çalışmış, kırk yıl boyunca atların bakımıyla ilgilenmiş. Haradan söz edildiğinde gözleri hâlâ parlar. \"Atlar da insanlar gibidir,\" der hep. \"Kimi huylu, kimi huysuz. Huylu bir atı sevmek kolaydır; asıl marifet, huysuz olanla anlaşabilmektir.\" Emekli olurken haranın en iyi bakıcısı seçilmiş ve küçük bir ödüle nail olmuş. O ödülün plaketi bugün hâlâ salonunun duvarında asılı.\n\nİki yıl önce dedem bahçede düştü. Ciddi bir şey olmadı ama o günden beri bir değnekle yürüyor. Ben, torunu Cem, Bursa'da yaşlılar için cihazlar tasarlayan bir şirkette biyomedikal mühendisi olarak çalışıyorum. Geçen yıl şirketimiz akıllı bir değnek üzerinde çalışmaya başlayınca ilk aklıma gelen, dedem oldu.\n\nBir değnek tasarlamak, sanıldığı kadar basit değil. Önce insanın yürürken nasıl hareket ettiğini, yani yürüyüşün anatomisini iyi anlamak gerekiyor. Değnek, zayıf olan bacağın değil, sağlam olan bacağın tarafındaki elde tutulmalı. Boyu da bileğe kadar gelmeli; fazla uzun olursa omzu yorar, fazla kısa olursa insanı öne eğer. Sapın biçimi de elin anatomisine uymalı, çünkü bütün ağırlık avucun küçük bir bölümüne biniyor.\n\nBizim değneğimizin içinde küçük algılayıcılar var. Sap, tutan kişinin nabzını ölçüyor; değneğin içindeki başka bir algılayıcı da ani bir düşüşü fark ediyor. Kullanıcı düşerse ve bir dakika içinde kalkmazsa, değnek ailesine otomatik bir mesaj gönderiyor. Böylece nabız gibi fizyolojik ölçümlerle hareket verileri bir arada değerlendiriliyor.\n\nİlk deneme modelini dedeme götürdüğümde önce şüpheyle baktı:\n\n— Bu değnek benden akıllı mı olacak şimdi?\n\nYine de bir hafta boyunca kullanmayı kabul etti. Dedemin sabahları ilk işi, balkondaki saka kuşuna yem vermektir. Saka, ötüşüyle bütün sokağı uyandıran küçük, sarı kanatlı bir kuştur. Dedem her sabah değneğiyle balkona yürüdü ve verileri incelediğimde ilginç bir şey gördüm: Merdivenleri çıkarken nabzı beklediğimden çok daha yüksek bir seviyeye çıkıyordu. Bu fizyolojik bilgiyi doktoruna ilettik; doktor ilacının dozunu değiştirdi.\n\nDedemin de önerileri oldu. Sapın biraz daha kalın olmasını istedi, gece tuvalete giderken yolunu görmek için değneğin ucuna küçük bir ışık konmasını önerdi. İkisini de yaptık.\n\nGeçen ay dedeme son modeli götürdüm. Elinde değneği birkaç kez çevirdi, sonra gülümsedi:\n\n— Bunu sen mi yaptın, oğlum?\n\nYıllardır ödüller ve başarılar için çalışıyorum ama hiçbir başarıya bu kadar büyük bir sevinçle nail olmamıştım.\n\nSorular:\nCem'in dedesi Yusuf gençliğinde nerede çalışmış?\nBursa yakınlarındaki büyük bir harada atların bakımıyla ilgilenmiş.\nDeğnek hangi elde tutulmalı?\nSağlam olan bacağın tarafındaki elde tutulmalı.\nAkıllı değnek kullanıcı düşerse ne yapıyor?\nKullanıcı bir dakika içinde kalkmazsa ailesine otomatik bir mesaj gönderiyor.\nYusuf'un sabahları ilk işi nedir?\nBalkondaki saka kuşuna yem vermektir.\nVeriler incelenince ne fark edildi?\nYusuf'un merdivenleri çıkarken nabzının beklenenden çok daha yükseğe çıktığı fark edildi.\nYusuf değneğe hangi değişikliklerin yapılmasını istedi?\nSapın biraz daha kalın olmasını ve değneğin ucuna küçük bir ışık konmasını istedi."
+    }
+  ]
+}

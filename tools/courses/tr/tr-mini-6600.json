@@ -1,0 +1,194 @@
+{
+  "id": "tr-mini-6600",
+  "rankUpTo": 6600,
+  "level": "C1",
+  "title": "Tarladan sofraya",
+  "description": "Ten standalone stories, reports and interviews about how food travels from Turkish fields, gardens and seas to the table.",
+  "topic": "Farm to table",
+  "names": [
+    "Kapadokya",
+    "Ürgüp",
+    "İstanbul",
+    "Konya",
+    "İç Anadolu",
+    "Hasan",
+    "Leyla",
+    "İzmir",
+    "Emine",
+    "Fatma",
+    "Ankara",
+    "Anadolu",
+    "Burak",
+    "Fransa",
+    "Türkiye",
+    "Ege",
+    "Avrupa",
+    "Cem",
+    "Eskişehir",
+    "Ayla",
+    "Merve",
+    "Kadıköy",
+    "Ömer",
+    "Halil",
+    "Hatice",
+    "Zehra",
+    "Mehmet",
+    "Bursa",
+    "Esra",
+    "Sinan",
+    "Safranbolu"
+  ],
+  "lessons": [
+    {
+      "title": "Dedemin mahzeni",
+      "summary": "A woman remembers her grandfather's rock-cut cellar in Cappadocia, where he stored apples and potatoes in perfect order.",
+      "newWords": [
+        "mahzen",
+        "sistemli",
+        "koparmak",
+        "tombul",
+        "kuzgun",
+        "saklambaç",
+        "kaygan",
+        "dondurulmuş",
+        "alışılmış"
+      ],
+      "text": "Çocukluğumun bütün yazlarını Kapadokya'da, Ürgüp'e yakın küçük bir köyde, dedemin evinde geçirdim. O evin en sevdiğim yeri mahzendi. Mahzen, evin altında, yumuşak kayanın içine açılmış uzun ve serin bir odaydı. Temmuzun en sıcak günlerinde bile içi serin kalır, kışın ise hiç donmazdı. Bu yüzden köyde herkes patatesini, elmasını ve kışlık yiyeceklerini mahzende saklardı.\n\nDedem son derece sistemli bir adamdı. Mahzenin sağ duvarına patates çuvallarını, sol duvarına elma sandıklarını dizerdi. Her sandığın üstünde, elmaların hangi ağaçtan ve hangi gün toplandığını gösteren küçük bir kâğıt olurdu. Ona göre sistemli çalışmayan bir çiftçi, baharda yarısı çürümüş bir mahzenle karşılaşırdı.\n\nEylülde hep birlikte elma toplamaya giderdik. Dedem bize elmayı dalından nasıl koparmak gerektiğini öğretmişti: \"Elmayı avucuna al ve hafifçe çevir. Olgunsa kendiliğinden gelir. Zorla koparmaya çalışırsan dal yorulur, gelecek yıl daha az meyve verir.\" Biz yine de en tombul elmaları görünce sabredemez, onları çekip koparırdık. Dedem buna kızmaz, sadece gülerdi.\n\nBahçenin ucundaki yaşlı ceviz ağacında iki kuzgun yaşardı. Kuzgunlar çok akıllıydı; en tombul ve en kırmızı elmaları her zaman bizden önce bulurlardı. Dedem onları kovalamazdı. \"Bahçe yalnız bizim değil,\" derdi, \"kuzgunların da payı var.\"\n\nAkşamları kuzenlerimle saklambaç oynardık. Saklambaçta en iyi saklanma yeri elbette mahzendi, ama dedem oraya girmemize izin vermezdi, çünkü mahzenin taş merdivenleri nemden kaygan olurdu. Bir akşam bu kuralı unuttum ve saklambaç oynarken mahzene koştum. Kaygan basamakta ayağım kaydı ve dizimi çarptım. Dedem beni kucağına aldı, dizime soğuk bir bez koydu ve beni hiç azarlamadı. O günden sonra saklambaçta mahzeni bir daha seçmedim.\n\nBugün İstanbul'da yaşıyorum. Sebzeyi çoğu zaman marketten dondurulmuş alıyorum; dondurulmuş bezelye de, dondurulmuş fasulye de pratik ve ucuz. Bu, bizim kuşak için alışılmış bir şey. Oysa dedem için buzdolabı bile alışılmışın dışında bir eşyaydı. Kışın sofraya gelen her elmanın, eylülde kendi elleriyle topladığı ve mahzende sakladığı elmalar olmasını isterdi. Ne zaman dondurulmuş bir paketi açsam, o serin mahzeni ve sandıkların üstündeki küçük kâğıtları hatırlıyorum.\n\nSorular:\nKöydeki insanlar kışlık yiyeceklerini neden mahzende saklardı?\nÇünkü mahzen yazın serin kalır, kışın ise hiç donmazdı.\nDedenin sistemli bir adam olduğunu ne gösteriyor?\nPatatesleri ve elmaları ayrı duvarlara dizer, her sandığın üstüne elmaların hangi ağaçtan ve hangi gün toplandığını yazardı.\nDede elmayı dalından nasıl koparmayı öğretti?\nElmayı avuca alıp hafifçe çevirmeyi öğretti; zorla koparmanın dalı yorduğunu söyledi.\nKuzgunlar ne yapardı?\nEn tombul ve en kırmızı elmaları çocuklardan önce bulurlardı.\nYazar saklambaç oynarken ne oldu?\nMahzenin kaygan merdiveninde ayağı kaydı ve dizini çarptı.\nYazar bugün sebzeyi nasıl alıyor?\nÇoğu zaman marketten dondurulmuş alıyor."
+    },
+    {
+      "title": "Platoda kurak bir yaz",
+      "summary": "A short report from a wheat village on the Anatolian plateau, where a third dry year pushes farmers towards new crops.",
+      "newWords": [
+        "plato",
+        "bucaksız",
+        "kuraklık",
+        "dolgun",
+        "istatistiksel",
+        "tonluk",
+        "oluk",
+        "illegal",
+        "sefalet",
+        "kazançlı"
+      ],
+      "text": "Konya'nın doğusundaki köylere giden yol, uçsuz bucaksız buğday tarlalarının arasından geçiyor. Burası İç Anadolu'nun yüksek platosu: yazları sıcak ve kuru, kışları soğuk ve karlı geniş bir ova. Platoda yüzyıllardır buğday ekiliyor, ama son üç yılın kuraklığı çiftçileri yeni yollar aramaya zorladı.\n\nKöyün tarım kooperatifinin başkanı Hasan Bey bizi tarlasının kenarında karşılıyor. Elinde bir başak var. Başağı avucunda ezip içindeki taneleri gösteriyor. \"Bakın,\" diyor, \"taneler küçük ve kuru. Yağmurlu bir yılda bu taneler dolgun olur. Dolgun tane, bol ve iyi ekmek demek. Bu yılki kuraklıkta tanelerin çoğu dolgun değil.\"\n\nHasan Bey'in anlattıklarını rakamlar da doğruluyor. Kooperatifin on yıldır tuttuğu kayıtlardan hazırlanan istatistiksel bir çalışmaya göre, köyde eskiden bir dönüm tarladan ortalama 400 kilo buğday alınıyordu; bu yıl bu rakam 200 kilonun altına düştü. Hasan Bey kendi tarlalarından geçen yıl 30 tonluk ürün kaldırmıştı; bu yıl 15 tonluk bir hasat bekliyor. \"İstatistiksel tablolar soğuk görünür,\" diyor, \"ama her rakamın arkasında bir ailenin bütçesi var.\"\n\nKöyde suyun büyük kısmı eskiden taş oluklardan akardı. Dağdaki kaynaktan gelen su, önce köyün ortasındaki çeşmeye, oradan da oluklarla bahçelere giderdi. Bugün olukların çoğu kuru. Bazı çiftçiler bu yüzden tarlalarında izinsiz kuyular açmış. Hasan Bey bu kuyuların illegal olduğunu hatırlatıyor ve ekliyor: \"İllegal kuyular yeraltındaki suyu çok hızlı tüketiyor. Bugün bir aileyi kurtaran kuyu, yarın bütün köyü susuz bırakabilir.\"\n\nKöyün yaşlıları, 1950'lerdeki büyük kuraklığı hâlâ hatırlıyor. O yıllarda kuraklık sefalet demekti: hayvanlar ucuza satılır, gençler iş bulmak için büyük şehirlere göç ederdi. Bugün durum o kadar ağır değil. Yine de Hasan Bey, önlem alınmazsa o sefaletin bir gün geri gelebileceğini söylüyor.\n\nKooperatif bu yüzden yeni bir yol deniyor. Tarlaların bir kısmına buğday yerine az su isteyen mercimek ekiliyor, bahçelerde de damla sulama kullanılıyor. Hasan Bey'e göre kurak yıllarda mercimek buğdaydan daha kazançlı. \"Buğday hâlâ ekmeğimiz,\" diyor, \"ama kazançlı olan, toprağa ve suya uygun olan üründür.\" Dönüş yolunda yine uçsuz bucaksız tarlaların arasından geçiyoruz. Gökyüzünde tek bir bulut bile yok.\n\nSorular:\nKöyler nerede bulunuyor?\nKonya'nın doğusunda, İç Anadolu'nun yüksek platosunda bulunuyor.\nHasan Bey başaktaki tanelerle ne göstermek istiyor?\nKuraklık yüzünden tanelerin küçük ve kuru olduğunu, dolgun olmadığını göstermek istiyor.\nKooperatifin istatistiksel çalışması neyi gösteriyor?\nBir dönüm tarladan alınan buğdayın 400 kilodan 200 kilonun altına düştüğünü gösteriyor.\nHasan Bey izinsiz kuyular hakkında ne düşünüyor?\nBu kuyuların illegal olduğunu ve yeraltındaki suyu çok hızlı tükettiğini düşünüyor.\n1950'lerdeki kuraklık köy için ne demekti?\nSefalet demekti; hayvanlar ucuza satılır, gençler şehirlere göç ederdi.\nKooperatif neden mercimek ekiyor?\nÇünkü mercimek az su istiyor ve kurak yıllarda buğdaydan daha kazançlı."
+    },
+    {
+      "title": "Bankacıdan bahçıvana",
+      "summary": "An interview with a former banker who left her job in Istanbul to grow vegetables and tend gardens near İzmir.",
+      "newWords": [
+        "bankacı",
+        "bahçıvan",
+        "huzursuzluk",
+        "varoluş",
+        "zaaf",
+        "imtihan",
+        "yelpaze",
+        "şahsiyet",
+        "içtenlikle"
+      ],
+      "text": "Leyla Hanım on beş yıl boyunca İstanbul'da bankacı olarak çalıştı. Üç yıl önce işini bıraktı ve İzmir'in yakınındaki bir köyde küçük bir sebze bahçesi kurdu. Bugün hem kendi sebzelerini yetiştiriyor hem de çevredeki eski evlerin bahçelerine bahçıvan olarak bakıyor. Onunla domateslerin arasında konuştuk.\n\n— Bankacı olmaktan bahçıvan olmaya geçmek nasıl oldu?\n\n— Kolay olmadı. Bankacı olarak iyi para kazanıyordum, ama içimde sürekli bir huzursuzluk vardı. Sabah trafikte, gün boyu ekran başında, akşam yine trafikte... Bu huzursuzluğun adını uzun süre koyamadım. Bir gün kendime basit ama büyük bir soru sordum: Ben bu dünyada ne yapıyorum? Felsefecilerin varoluş dediği konu bu sanırım. O soru beni bırakmadı. Sonunda varoluşumun anlamının bir ekranın karşısında olmadığını anladım.\n\n— Bahçıvan olmanın zor yanları neler?\n\n— Benim en büyük zaafım sabırsızlık. Bankada her şey hızlıydı; bir tuşa basardınız ve iş biterdi. Toprak ise acele etmiyor. İlk yılım gerçek bir imtihandı. Domateslerimi bir hastalık sardı, fasulyelerim de kuraklıktan kurudu. O imtihanı ilk yıl veremedim. Ama zaafımı tanımak bana çok şey öğretti. Artık beklemeyi biliyorum.\n\n— Bugün bahçenizde neler yetişiyor?\n\n— Geniş bir ürün yelpazesi var: domates, biber, fasulye, kabak, patlıcan ve birkaç çeşit ot. Bu yelpazeyi her yıl biraz daha genişletiyorum. Ürünlerimi köydeki pazarda satıyorum, bir kısmını da İzmir'deki iki küçük lokantaya gönderiyorum. Kendi yetiştirdiğim bir domatesin bir lokantada sofraya geldiğini görmek bana büyük bir mutluluk veriyor.\n\n— Başkalarının bahçelerine de bakıyorsunuz. Bu işi nasıl yapıyorsunuz?\n\n— Her bahçenin bir şahsiyeti var, tıpkı insanlar gibi. Bir bahçe gölgeyi sever, bir başkası güneşi; biri sessiz ve düzenlidir, öteki biraz vahşi. Bir bahçenin şahsiyetini anlamadan ona iyi bakamazsınız. Bu yüzden yeni bir bahçeye ilk gün hiçbir şey dikmem, sadece dolaşır ve bakarım.\n\n— Bankadaki eski arkadaşlarınıza ne söylemek istersiniz?\n\n— Onlara içtenlikle şunu söylerim: Herkesin bahçıvan olması gerekmiyor. Ama içinizde bir huzursuzluk varsa onu dinleyin. Bunu içtenlikle söylüyorum, çünkü ben o sesi yıllarca duymazdan geldim.\n\nSorular:\nLeyla Hanım bahçıvan olmadan önce ne iş yapıyordu?\nOn beş yıl İstanbul'da bankacı olarak çalışıyordu.\nBankada çalışırken içinde ne vardı?\nİçinde sürekli bir huzursuzluk vardı.\nLeyla Hanım'ın en büyük zaafı nedir?\nEn büyük zaafı sabırsızlıktır.\nİlk yıl neden bir imtihandı?\nÇünkü domateslerini bir hastalık sardı, fasulyeleri de kuraklıktan kurudu.\nLeyla Hanım'a göre bir bahçeye nasıl bakılır?\nÖnce o bahçenin şahsiyetini anlamak gerekir; o yüzden ilk gün sadece dolaşır ve bakar.\nEski arkadaşlarına içtenlikle ne söylüyor?\nİçlerinde bir huzursuzluk varsa onu dinlemelerini söylüyor."
+    },
+    {
+      "title": "Erişte günü",
+      "summary": "Women in a Konya village spend an autumn day making, cutting and drying homemade noodles for the winter.",
+      "newWords": [
+        "erişte",
+        "dolay",
+        "pervane",
+        "mecburen",
+        "geometrik",
+        "fazlaca",
+        "açıcı",
+        "yedirmek"
+      ],
+      "text": "Konya'nın küçük bir köyünde her eylül sonunda Emine Hanım'ın evinde erişte günü olur. Bu yıl da öyle oldu. Sabah altı dolaylarında komşu kadınlar birer birer avluya geldiler. Herkesin elinde ya bir tahta, ya bir bıçak, ya da temiz bir örtü vardı.\n\nErişte, Anadolu mutfağının en eski yiyeceklerinden biridir. Hamur un, yumurta, süt ve tuzla yoğrulur, sonra ince ince açılır. Açılan hamur bir süre kurur, sonra kesilir ve günlerce güneşte kurutulur. İyi kurumuş erişte, serin bir yerde bütün kış bozulmadan kalır.\n\nEmine Hanım bütün gün pervane gibi dönüp durdu: bir hamura baktı, bir ocağa, bir de bahçede oynayan torunlarına. Kızı Fatma da annesinin peşinde pervane oldu; tahtaları taşıdı, örtüleri serdi, çay demledi.\n\nEskiden köylerde erişte mecburen yapılırdı. Köyde market yoktu, kışın kar yolları kapatırdı; kışın ne yenecekse yazdan ve sonbahardan hazırlanmalıydı. Emine Hanım bunu iyi hatırlıyor. \"Biz bu işi mecburen yapardık,\" diyor, \"şimdi ise keyif için yapıyoruz. Markette her türlü makarna var, ama bizim eriştenin tadı başka.\"\n\nÖğleye doğru kesme işi başladı. Bazı köylerde erişte ince şeritler halinde kesilir, bu köyde ise küçük kareler halinde. Emine Hanım'ın bıçağı o kadar düzgün kesiyordu ki tepsideki kareler geometrik bir desene benziyordu. Fatma bir fotoğraf çekti ve gülerek \"Anne, bu bir sanat eseri; geometrik bir halı gibi,\" dedi.\n\nBu yıl fazlaca erişte yaptılar, çünkü bir kısmını İstanbul'da ve Ankara'da yaşayan çocuklarına gönderecekler. Fazlaca hamur artınca, Emine Hanım onu da kesip ayrı bir tepsiye koydu: \"Bunu akşam pişiririz.\"\n\nAkşamüstü beş dolaylarında ocakta büyük bir tencere kaynamaya başladı. Emine Hanım taze erişteyi önce tereyağında biraz kavurdu, sonra suya attı. Tereyağında kızaran eriştenin kokusu o kadar iştah açıcıydı ki bahçedeki çocuklar oyunlarını bırakıp mutfağa koştular. Emine Hanım ilk tabağı en küçük torununa kendi eliyle yedirdi. Çocuk her kaşıktan sonra ağzını açıp bir kaşık daha istedi. Kadınlar da bu iştah açıcı sofranın etrafına oturdular.\n\nGece olmadan önce tepsiler damın üstüne taşındı. Erişteler orada bir hafta kuruyacak. Emine Hanım yorgundu ama mutluydu. \"Bir torununa kendi yaptığın erişteyi yedirmek,\" dedi, \"bütün günün yorgunluğunu alıyor.\"\n\nSorular:\nErişte günü sabah saat kaçta başladı?\nSabah altı dolaylarında başladı.\nEmine Hanım gün boyunca ne yaptı?\nPervane gibi dönüp durdu; hamura, ocağa ve torunlarına baktı.\nEskiden erişte neden mecburen yapılırdı?\nÇünkü köyde market yoktu ve kışın kar yolları kapatırdı.\nFatma tepsideki erişteleri neye benzetti?\nGeometrik bir halıya benzetti.\nBu yıl neden fazlaca erişte yaptılar?\nÇünkü bir kısmını İstanbul'da ve Ankara'da yaşayan çocuklarına gönderecekler.\nEmine Hanım ilk tabağı kime yedirdi?\nEn küçük torununa yedirdi."
+    },
+    {
+      "title": "Körfezdeki istiridyeler",
+      "summary": "A young man who learned oyster farming abroad raises oysters in an Aegean bay and sells them to a restaurant in İzmir.",
+      "newWords": [
+        "istiridye",
+        "kano",
+        "kordon",
+        "halkalı",
+        "yanaşmak",
+        "yurtdışı",
+        "klas",
+        "dekor",
+        "vurucu"
+      ],
+      "text": "Burak her sabah saat beşte küçük bir kanoyla iskeleden ayrılır. Kano onun için hem bir iş aracı hem de sabah sporudur. Yarım saat kürek çektikten sonra körfezin sakin bir köşesine varır. Orada, suyun içinde, Burak'ın istiridyeleri büyür.\n\nİstiridyeler denize sarkıtılmış ağ torbaların içinde yaşar. Torbalar kalın kordonlarla yüzen tahtalara bağlıdır. Her kordonun ucunda halkalı bir demir vardır; Burak kanosunu bu halkalı demirlerden birine bağlar ve işe başlar. Torbaları tek tek kaldırır, istiridyeleri kontrol eder, büyüyenleri ayırır. Kordonlardan biri gevşemişse onu yeniden sıkıca bağlar.\n\nBurak bu işi yurtdışında öğrendi. Üniversiteden sonra üç yıl yurtdışında, Fransa'nın batı kıyısındaki istiridye çiftliklerinde çalıştı. Türkiye'ye dönünce Ege'de kendi küçük çiftliğini kurmaya karar verdi. İlk yıl zor geçti; ama Ege'nin temiz ve tuzlu suyu istiridyeler için çok uygundu. Bugün istiridyelerinin bir kısmı yine yurtdışına, Avrupa'daki restoranlara gidiyor.\n\nÇarşamba günleri Burak'ın en sevdiği gündür. O gün kanosunu bırakıp küçük bir tekneyle İzmir'e gider. Tekne limana yanaşınca, şef Cem Bey onu iskelede bekliyor olur. Cem Bey'in restoranı şehrin en klas yerlerinden biridir. Ama klas olması pahalı ve soğuk olduğu anlamına gelmez. Restoranın dekoru sadedir: beyaz duvarlar, eski ahşap masalar ve duvarda Burak'ın kanosunun büyük bir fotoğrafı. Cem Bey bu dekoru bilerek seçmiş. \"Müşteri tabaktaki istiridyenin nereden geldiğini görsün,\" diyor.\n\nCem Bey, istiridyeleri Burak'tan almaya başlamadan önce çiftliği kendi gözleriyle görmek istemişti. Geçen bahar bir sabah Burak'la birlikte kanoya bindi ve körfeze gitti. Kordonları, torbaları ve suyun ne kadar temiz olduğunu yakından gördü. O günden beri başka hiçbir yerden istiridye almıyor.\n\nMenünün en vurucu tabağı, Burak'ın istiridyelerinden yapılan basit bir yemek: limon, biraz zeytinyağı ve birkaç damla nar ekşisi. Cem Bey'e göre bir tabağı vurucu yapan şey, üzerine eklenen malzemeler değil, ürünün tazeliğidir. \"Bu istiridye dün sabah denizdeydi,\" diyor gururla.\n\nAkşam Burak tekneyle köyüne döner. Tekne küçük iskeleye yavaşça yanaşırken güneş körfezin üstünde batmaktadır. Burak ertesi sabah yine saat beşte kanosuyla denize açılacak.\n\nSorular:\nBurak her sabah iskeleden neyle ayrılır?\nKüçük bir kanoyla ayrılır.\nİstiridyeler denizde nasıl yaşar?\nKalın kordonlarla yüzen tahtalara bağlı ağ torbaların içinde yaşar.\nBurak bu işi nerede öğrendi?\nYurtdışında, Fransa'nın batı kıyısındaki istiridye çiftliklerinde öğrendi.\nCem Bey'in restoranının dekoru nasıldır?\nSadedir: beyaz duvarlar, eski ahşap masalar ve duvarda kanonun büyük bir fotoğrafı vardır.\nCem Bey'e göre bir tabağı vurucu yapan nedir?\nÜzerine eklenen malzemeler değil, ürünün tazeliğidir.\nAkşam tekne iskeleye yanaşırken ne oluyor?\nGüneş körfezin üstünde batıyor."
+    },
+    {
+      "title": "Ekşi mayanın günlüğü",
+      "summary": "A woman in Eskişehir keeps a diary for a week while she learns to bake her first sourdough loaf.",
+      "newWords": [
+        "aktive",
+        "kabarık",
+        "hipnoz",
+        "kıvanç",
+        "rastlantı",
+        "bahşetmek",
+        "mukaddes",
+        "safi"
+      ],
+      "text": "3 Mart, Pazartesi\n\nBugün komşum Ayla Hanım bana bir kavanoz ekşi maya verdi. Kavanozun içinde gri, yapışkan bir hamur var. Ayla Hanım bu mayayı yirmi yıldır besliyormuş. \"Ekmeği yapmadan önce mayayı aktive etmen gerekiyor,\" dedi. Mayayı aktive etmek için onu ılık su ve un ile beslemem, sonra bir gün beklemem gerekiyormuş. Akşam evde hiç un kalmadığını fark ettim. Yarın sabah marketten alacağım.\n\n4 Mart, Salı\n\nMayayı besledim ve sıcak bir köşeye koydum. Akşam kavanoza baktım: maya iki katına çıkmış, kabarık ve köpüklüydü. Ayla Hanım'a mesaj attım. \"Tamam,\" dedi, \"maya aktive olmuş. Şimdi hamuru yoğurabilirsin.\"\n\n5 Mart, Çarşamba\n\nHamuru yoğurdum ve bütün gece buzdolabında dinlenmeye bıraktım. Sabah hamur kabarık ve yumuşaktı. Fırına koyduktan sonra camın önüne oturdum ve ekmeğin yavaş yavaş büyümesini izledim. Kendimi hipnoz olmuş gibi hissettim; yirmi dakika boyunca gözümü fırından ayıramadım. Kızım mutfağa geldi, o da yanıma oturdu ve bir süre sonra o da hipnoz olmuş gibi camı izlemeye başladı.\n\nEkmek fırından çıktığında kabuğu altın rengindeydi. İlk dilimi kestiğimde içimi büyük bir kıvanç doldurdu. Bir fotoğraf çekip Ayla Hanım'a gönderdim. Bu kıvancı en çok o anlar diye düşündüm.\n\n6 Mart, Perşembe\n\nAkşam ekşi mayanın tarihi üzerine bir yazı okudum. Yazıya göre ekşi maya belki de bir rastlantı sonucu bulunmuş: binlerce yıl önce biri hamuru birkaç gün unutmuş, hamur ekşimiş ve kabarmış. Bu rastlantı olmasaydı bugün yediğimiz ekmeklerin çoğu olmayacaktı. Doğanın bize bahşettiği en güzel şeylerden biri, gözle görülmeyen bu küçük canlılar bence.\n\n7 Mart, Cuma\n\nEkmeğin yarısını Ayla Hanım'a götürdüm. Bir dilim yedi ve gözleri doldu. Bana anneannesini anlattı: \"Anneannem ekmeği mukaddes sayardı. Yere düşen bir parça ekmeği alır, öper ve yüksek bir yere koyardı. Ona göre toprağın bize bahşettiği her buğday tanesi bir emekti.\" Ben ekmeği belki mukaddes saymıyorum, ama artık bir dilim ekmeği çöpe atamayacağımı biliyorum.\n\nAyla Hanım'a nasıl bu kadar güzel ekmek yaptığını sordum. \"Bunun bir sırrı yok,\" dedi. \"Safi sabır.\" Haklı. İçinde maya, un, su ve tuzdan başka bir şey yok; geri kalanı safi zaman ve emek.\n\nSorular:\nAyla Hanım yazara ne verdi?\nBir kavanoz ekşi maya verdi.\nMaya aktive olunca nasıl görünüyordu?\nİki katına çıkmış, kabarık ve köpüklüydü.\nYazar ekmeği fırında izlerken ne hissetti?\nKendini hipnoz olmuş gibi hissetti.\nOkuduğu yazıya göre ekşi maya nasıl bulunmuş olabilir?\nBir rastlantı sonucu; biri hamuru birkaç gün unutmuş, hamur ekşimiş ve kabarmış.\nAyla Hanım'ın anneannesi ekmeğe nasıl bakardı?\nEkmeği mukaddes sayardı ve yere düşen ekmeği öpüp yüksek bir yere koyardı.\nAyla Hanım'a göre güzel ekmeğin sırrı nedir?\nBir sırrı yok; safi sabır."
+    },
+    {
+      "title": "Pedallı manav",
+      "summary": "A young woman delivers vegetable boxes by cargo bicycle in Kadıköy and runs into her old teacher on her rounds.",
+      "newWords": [
+        "pedal",
+        "makbuz",
+        "kitabevi",
+        "kafeterya",
+        "zencefil",
+        "buket",
+        "rast",
+        "kılıklı"
+      ],
+      "text": "Merve her perşembe sabahı, İstanbul'un Kadıköy semtinde, önünde büyük bir sepet olan yük bisikletine biner. Sepetin içinde köydeki çiftçilerden gelen sebze ve meyve kutuları vardır. Merve bu kutuları müşterilerine pedal çevirerek götürür. Bisikletin elektrikli bir motoru da var, ama Merve yokuşlarda bile çoğu zaman sadece pedal gücünü kullanmayı sever.\n\nİlk durak, Merve'nin çok sevdiği küçük bir kitabevi. Kitabevinin sahibi Ömer Bey her hafta bir kutu sebze alır. Kutuyu kasanın yanına bırakan Merve, ona elle yazılmış bir makbuz verir. Ömer Bey makbuzu katlar ve her zaman aynı kitabın arasına koyar. \"Yıl sonunda makbuzları sayıyorum,\" der, \"kaç kilo domates yediğimi görmek için.\"\n\nİkinci durak bir üniversitenin kafeteryası. Kafeteryanın aşçısı Halil Usta, haftada iki kez öğrencilere köy sebzelerinden çorba yapar. Bugün siparişin içinde zencefil de var. Halil Usta, zencefil kokulu sıcak bir çorbanın soğuk günlerde öğrencilere iyi geldiğini söyler. Merve zencefil paketlerini mutfağa taşırken kafeteryada öğrenciler kahvaltı ediyor.\n\nKafeteryadan çıkarken güzel bir rastlantı oluyor: Merve, lisedeki biyoloji öğretmeni Hatice Hanım'a rast geliyor. Hatice Hanım onu önce tanımıyor. Kaskı, eldivenleri ve büyük sepetli bisikletiyle Merve gerçekten kurye kılıklı görünüyor. Sonra Merve kaskını çıkarıyor ve öğretmeni gülümseyerek \"Sen bizim Merve'sin!\" diyor.\n\nHatice Hanım, Merve'ye bisikletin pedallarının ağır olup olmadığını soruyor. Merve gülüyor: \"İlk ay bacaklarım çok ağrıdı hocam, ama şimdi alıştım.\" Hatice Hanım, Merve'nin anlattıklarını dikkatle dinliyor. Köyden gelen sebzeyi şehirde bisikletle dağıtmak ona çok mantıklı geliyor. O da her hafta bir kutu istiyor. Merve hemen telefonundan adresini kaydediyor.\n\nSon durak bir çiçekçi. Çiçekçi, köydeki kadınların yetiştirdiği çiçeklerden küçük buketler yapar. Merve haftalık işinin sonunda kendine her zaman bir buket alır. Bugünkü buket sarı ve beyaz papatyalardan oluşuyor. Eve dönerken buket sepetin içinde sallanıyor, Merve de yavaş yavaş pedal çeviriyor. Yolda kurye kılıklı bir başka genç el sallıyor; o da bisikletle paket dağıtıyor. Merve de ona el sallıyor ve Hatice Hanım'a o gün rast gelmesini düşünerek gülümsüyor.\n\nSorular:\nMerve sebze kutularını müşterilerine nasıl götürür?\nYük bisikletiyle, pedal çevirerek götürür.\nÖmer Bey makbuzları neden saklıyor?\nYıl sonunda kaç kilo domates yediğini görmek için saklıyor.\nHalil Usta nerede çalışıyor?\nBir üniversitenin kafeteryasında aşçı olarak çalışıyor.\nHatice Hanım Merve'yi neden önce tanımadı?\nÇünkü Merve kaskı, eldivenleri ve büyük sepetli bisikletiyle kurye kılıklı görünüyordu.\nMerve işinin sonunda kendine ne alır?\nKöydeki kadınların yetiştirdiği çiçeklerden küçük bir buket alır."
+    },
+    {
+      "title": "Hasat sonu",
+      "summary": "A young woman drives her father's old tractor through the harvest, learns to tie a good knot, and sings at the village harvest party.",
+      "newWords": [
+        "tork",
+        "matkap",
+        "faal",
+        "ilmek",
+        "sakinleştirmek",
+        "karaoke"
+      ],
+      "text": "Zehra yirmi dört yaşındaydı ve Ankara'da bir ofiste çalışıyordu. O yaz, hasat için iki haftalığına babasının köyüne gitti. Babası Mehmet Bey yetmiş yaşındaydı, ama hâlâ faal bir çiftçiydi. Her sabah güneşle birlikte kalkar, akşama kadar tarlada çalışırdı. Köyde onun gibi faal başka yaşlı yoktu.\n\nHasadın ilk günü babası Zehra'ya traktörü kullanmayı öğretmeye karar verdi. Traktör eskiydi ve motoru çok güçlü değildi. \"Ama torku yüksek,\" dedi babası. Zehra bu kelimeyi ilk kez duyuyordu. Babası açıkladı: \"Tork, motorun bir şeyi çekme ve döndürme gücüdür. Bu traktör hızlı gitmez, ama arkasında ağır bir yük olsa bile yokuşu yavaş yavaş çıkar. İşte tork bu.\"\n\nZehra direksiyona geçince elleri titremeye başladı. Babası onu sakinleştirmek için yanına oturdu ve yavaş bir sesle konuştu: \"Acele etme. Traktör seni dinler. Sen sakin olursan o da sakin gider.\" Bu sözler Zehra'yı gerçekten sakinleştirdi. İlk turu yavaşça bitirdi ve gülümsedi.\n\nÖğleden sonra traktörün arkasındaki yük arabasının tahtalarından biri kırıldı. Mehmet Bey ahırdan eski matkabını getirdi. Zehra hayatında ilk kez bir matkap kullanacaktı. Babası ona tahtayı nasıl deleceğini gösterdi; Zehra iki delik açtı ve yeni tahtayı vidaladı. Matkap babasının gençliğinden kalmaydı, ama hâlâ çalışıyordu.\n\nAkşama doğru saman yüklendi. Samanı arabaya bağlamak için kalın bir ip kullandılar. Babası Zehra'ya sağlam bir ilmek atmayı öğretti. \"İlmeği sıkı çekersen yolda çözülmez,\" dedi. Zehra ilk iki denemede başaramadı; üçüncüde ilmek sapasağlam oldu. Mehmet Bey, Zehra'nın işini kolaylaştırmak için ipi önceden kesip hazırlamıştı. \"Bu iş zor,\" dedi Zehra, \"ama senin hazırlığın işimi gerçekten kolaylaştırdı.\" \"Gençlerin işini kolaylaştırmak bizim görevimiz,\" dedi babası.\n\nHasadın son günü köy meydanında bir şenlik vardı. Uzun masalara yemekler kondu: bulgur pilavı, köy ekmeği, tereyağlı erişte, karpuz. Gençler bir hoparlör getirmiş, karaoke yapıyorlardı. Zehra'yı da karaokeye çağırdılar. Zehra önce utandı, ama babası \"Haydi kızım!\" deyince mikrofonu aldı ve eski bir türkü söyledi. Herkes alkışladı.\n\nAnkara'ya dönerken Zehra arabanın penceresinden sarı tarlalara baktı. Bir dahaki hasatta yine gelecekti.\n\nSorular:\nMehmet Bey nasıl bir çiftçiydi?\nYetmiş yaşında ama hâlâ faal bir çiftçiydi.\nMehmet Bey'e göre tork nedir?\nMotorun bir şeyi çekme ve döndürme gücüdür.\nZehra direksiyonda heyecanlanınca babası ne yaptı?\nOnu sakinleştirmek için yanına oturdu ve yavaş bir sesle konuştu.\nZehra matkabı ne için kullandı?\nYük arabasının kırılan tahtasını değiştirmek için iki delik açtı.\nBabası Zehra'ya ilmek hakkında ne söyledi?\nİlmeği sıkı çekerse yolda çözülmeyeceğini söyledi.\nŞenlikte Zehra ne yaptı?\nKaraokeye katıldı ve eski bir türkü söyledi."
+    },
+    {
+      "title": "Hastanenin bahçesi",
+      "summary": "A report on a hospital garden in Bursa where psychiatric and rehabilitation patients grow vegetables for the hospital kitchen.",
+      "newWords": [
+        "psikiyatrik",
+        "koordinatör",
+        "karizmatik",
+        "bedensel",
+        "omurilik",
+        "medikal",
+        "doküman"
+      ],
+      "text": "Bursa'daki büyük bir devlet hastanesinin arkasında, eski bir otoparkın yerinde, bugün sebze dolu bir bahçe var. Bahçede domates, fasulye, marul ve maydanoz yetişiyor. Burada çalışanlar ise çiftçi değil, hastanenin psikiyatrik servisinde ve fizik tedavi merkezinde tedavi gören hastalar.\n\nBahçenin koordinatörü Esra Hanım, aslında bir hemşire. Proje dört yıl önce onun fikriyle başlamış. Esra Hanım karizmatik bir kadın; konuşurken herkes ona dönüyor, söylediklerini dikkatle dinliyor. Ama kendisi karizmatik olmanın tek başına yeterli olmadığını söylüyor: \"Bir fikri sevdirmek kolay. Zor olan, o fikri her gün sürdürmek.\"\n\nEsra Hanım'a göre bahçe, psikiyatrik tedavinin yerini tutmuyor, ama ona güçlü bir destek oluyor. \"Hastalarımızın çoğu odalarında yalnız ve hareketsiz kalıyor,\" diyor. \"Bahçede ise hem bedensel hem de zihinsel olarak çalışıyorlar. Toprağı kazmak, su taşımak, ot yolmak bedensel bir iş. Bir tohumun filiz vermesini beklemek ise sabır ve umut istiyor.\"\n\nBahçede bugün yirmiye yakın hasta düzenli olarak çalışıyor. Her hastanın küçük bir toprak parçası var ve o parçaya ne ekeceğine kendisi karar veriyor. Esra Hanım bunun önemli olduğunu düşünüyor: \"Hastanede çoğu karar onlar için başkaları tarafından veriliyor. Bahçede ise karar onların.\"\n\nBahçenin bir bölümü, fizik tedavi merkezindeki omurilik hastaları için yapılmış. Omurilik yaralanması geçirmiş hastaların çoğu tekerlekli sandalye kullanıyor. Bu yüzden bu bölümdeki tarhlar yerden bir metre yüksekte. Hastalar tekerlekli sandalyelerinden kalkmadan toprağa ulaşabiliyor.\n\nHastanenin medikal ekibi başta bu projeye şüpheyle bakmış. Bahçede çalışmanın hastalara gerçekten faydalı olup olmadığını merak etmişler. Esra Hanım bu yüzden ilk günden itibaren her hastanın bahçede geçirdiği saatleri, uykusunu ve ruh halini bir dokümana yazmış. Dört yıl içinde bu doküman yüzlerce sayfaya ulaşmış. Medikal ekip bu kayıtları inceledikten sonra bahçenin hastalara iyi geldiğini kabul etmiş.\n\nBahçenin ürünleri hastanenin mutfağına gidiyor. Her cuma öğlen, hastalara kendi yetiştirdikleri sebzelerle yapılmış bir yemek veriliyor. Esra Hanım bu günlerin en güzel günler olduğunu söylüyor: \"Bir hasta tabağındaki domatesi gösterip 'Bunu ben yetiştirdim' dediğinde, bütün yorgunluğumu unutuyorum.\"\n\nSorular:\nHastanenin bahçesinde kimler çalışıyor?\nPsikiyatrik serviste ve fizik tedavi merkezinde tedavi gören hastalar çalışıyor.\nEsra Hanım'ın bahçedeki görevi nedir?\nBahçenin koordinatörüdür.\nEsra Hanım'a göre karizmatik olmak yeterli mi?\nHayır; zor olan, fikri her gün sürdürmektir.\nOmurilik hastaları için yapılan tarhlar neden yüksek?\nÇünkü hastaların çoğu tekerlekli sandalye kullanıyor ve sandalyeden kalkmadan toprağa ulaşmaları gerekiyor.\nMedikal ekip neden bahçenin faydalı olduğunu kabul etti?\nEsra Hanım'ın dört yıl boyunca tuttuğu dokümandaki kayıtları inceledikten sonra kabul etti."
+    },
+    {
+      "title": "Konağın mutfak defteri",
+      "summary": "An archaeologist staying in a guesthouse in Safranbolu studies an old mansion's kitchen ledger and cooks a dish from it.",
+      "newWords": [
+        "arkeolog",
+        "pansiyon",
+        "katip",
+        "muhterem",
+        "hizmetkar",
+        "karanfil",
+        "öğreti"
+      ],
+      "text": "Sinan Bey otuz yıldır arkeolog olarak çalışıyor. Çoğu arkeolog gibi o da yıllarını kazılarda, eski şehirlerin taşları arasında geçirdi. Ama son birkaç yıldır başka bir şeyle ilgileniyor: eski mutfaklarla. Bu yaz Safranbolu'da, eski bir konağın mutfağını incelemek için küçük bir pansiyonda kalıyor. Pansiyon, konağın hemen karşısında; Sinan Bey her sabah kahvaltıdan sonra pansiyondan çıkıp yolun karşısına geçiyor.\n\nKonağın mutfağında, duvardaki bir dolabın içinde eski bir defter bulunmuş. Defteri yaklaşık 150 yıl önce konağın kâtibi yazmış. Kâtip, her gün mutfağa giren her şeyi tek tek deftere kaydetmiş: kaç okka et, kaç kilo pirinç, kaç kavanoz bal... Sinan Bey'e göre bu defter, o dönemin sofraları hakkında birçok kitaptan daha fazla bilgi veriyor.\n\nDefterin ilk sayfası, konağın sahibine yazılmış kısa bir notla başlıyor: \"Muhterem efendim, mutfağın bu ayki hesabı aşağıdadır.\" Sinan Bey bu satırı okurken gülümsüyor. \"Muhterem kelimesini bugün pek kullanmıyoruz,\" diyor, \"ama o zamanlar saygının dili buydu.\"\n\nDefterden konakta çok sayıda insanın yaşadığı anlaşılıyor. Konağın ailesi küçükmüş, ama hizmetkârları kalabalıkmış: aşçılar, su taşıyanlar, bahçede çalışanlar... Kâtip, hizmetkârların yemeğini de ayrıca yazmış. Onların sofrasında daha çok bulgur, fasulye ve ekmek varmış; ailenin sofrasında ise et ve pilav.\n\nDefterde Sinan Bey'in en çok ilgisini çeken şey, baharat listeleri olmuş. Neredeyse her hafta karanfil alınmış. Karanfil o dönemde pahalı bir baharatmış ve tatlılarda, şerbetlerde, bazen de et yemeklerinde kullanılırmış. Sinan Bey bir akşam pansiyonun mutfağında, defterdeki bilgilere göre bir ayva tatlısı yaptı. Tatlının içine iki karanfil koydu. Pansiyonun sahibi Zehra Hanım tadına baktı ve \"Anneannemin tatlısı gibi,\" dedi.\n\nSinan Bey'e göre eski aşçıların kuşaktan kuşağa geçen bir öğretisi vardı: Hiçbir şey çöpe atılmaz. Defter de bu öğretiyi doğruluyor; kemikten çorba, bayat ekmekten tatlı, meyve kabuğundan reçel yapılmış. \"Bu öğreti bugün bize çok şey söylüyor,\" diyor Sinan Bey. \"Tarladan sofraya gelen yolun her adımına saygı göstermek.\"\n\nSorular:\nSinan Bey ne iş yapıyor?\nOtuz yıldır arkeolog olarak çalışıyor.\nSinan Bey Safranbolu'da nerede kalıyor?\nKonağın hemen karşısındaki küçük bir pansiyonda kalıyor.\nDefteri kim yazmış?\nYaklaşık 150 yıl önce konağın kâtibi yazmış.\nDefterin ilk sayfası nasıl başlıyor?\n\"Muhterem efendim, mutfağın bu ayki hesabı aşağıdadır\" diye başlıyor.\nHizmetkarların sofrasında neler varmış?\nDaha çok bulgur, fasulye ve ekmek varmış.\nEski aşçıların öğretisi neydi?\nHiçbir şeyin çöpe atılmaması."
+    }
+  ]
+}

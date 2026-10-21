@@ -1,0 +1,198 @@
+{
+  "id": "tr-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Sayılar ve akıl yürütme",
+  "description": "Ten standalone stories about people who count, measure and reason their way through everyday problems, from a rally in the fog to a jeweller's workbench.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Ayla",
+    "Burak",
+    "Trabzon",
+    "Fatma",
+    "Hasan",
+    "İzmir",
+    "Datça",
+    "Esra",
+    "Satürn",
+    "Merve",
+    "Bursa",
+    "Ömer",
+    "Berlin",
+    "Emine",
+    "Ayşe",
+    "Eskişehir",
+    "Yusuf",
+    "Zehra",
+    "Halil",
+    "İstanbul",
+    "Rumeli",
+    "Sinan",
+    "Antalya",
+    "Cem",
+    "Muğla",
+    "Konya",
+    "Leyla",
+    "Hatice",
+    "İbrahim",
+    "Ali",
+    "Kapalıçarşı",
+    "Mehmet",
+    "Topkapı Sarayı"
+  ],
+  "lessons": [
+    {
+      "title": "Dumanlı yolda bir defter",
+      "summary": "A rally co-driver in the Trabzon highlands calculates times and reads her notes aloud through the fog.",
+      "newWords": [
+        "ralli",
+        "viraj",
+        "dumanlı",
+        "güvensiz",
+        "oyalanmak",
+        "kısacık",
+        "uğurla",
+        "fışkırmak"
+      ],
+      "text": "Ayla, ralli yarışlarında yardımcı pilot olarak çalışıyor. Direksiyonda ağabeyi Burak oturuyor; Ayla ise onun yanındaki koltukta, kucağında kalın bir defterle yol notlarını okuyor. Birçok kişi rallinin yalnızca hız ve cesaretten ibaret olduğunu sanır. Ayla'ya göre ise ralli, her şeyden önce bir hesap işidir.\n\nGeçen eylülde iki kardeş, Trabzon'un yaylalarında düzenlenen bir ralliye katıldı. Yarıştan iki gün önce parkuru yavaş yavaş dolaşıp her virajı not ettiler. Ayla her viraj için bir sayı yazıyordu: 1 en keskin viraj, 6 ise neredeyse düz bir yol demekti. Sonra virajlar arasındaki mesafeleri metre metre ölçtü. \"150 metre düz, sonra sola 3\" gibi kısacık cümlelerle koca bir defteri doldurdu. Bu kısacık cümleler, yarış sırasında saniyeler kazandıracaktı.\n\nYarış sabahı köyün muhtarı, çocuklar ve birkaç yaşlı teyze yarışçıları başlangıç noktasında uğurladı. Kardeşlerin annesi Fatma Hanım da oradaydı. Çocuklarını uğurlarken yalnızca bir şey söyledi:\n\n— Acele etmeyin, ama oyalanmayın da.\n\nBu öğüt ralli için şaşırtıcı derecede doğruydu. Rallide her etabın belli bir sürede bitirilmesi gerekir; geç kalan takım puan kaybeder, ama hedeften erken varan takım da ceza alır. Kontrol noktalarında oyalanmak da, gereksiz yere acele etmek de aynı hatadır. Ayla bu yüzden saatini sürekli izliyor, her kontrol noktasında kalan dakikaları yeniden hesaplıyordu.\n\nÖğleye doğru dağların üstünü dumanlı bir bulut örttü. Görüş mesafesi 30 metreye kadar düştü. Dumanlı havada sürücü virajın nerede başladığını göremez; o zaman tek güvenilir şey yardımcı pilotun sesidir. Ayla sayıları yüksek sesle ve tek tek okudu:\n\n— 100 metre sonra sağa 2. Dikkat, zemin güvensiz!\n\nGerçekten de o virajın asfaltı kırık ve güvensizdi. Bir gün önce yağan yağmurdan kalan çukurlardan, araba geçerken çamurlu su fışkırıyordu. Fışkıran su ön camı bir anda kapladı, ama Burak Ayla'nın uyarısını önceden duymuştu. Yavaşladı ve arabayı sakin bir şekilde virajdan çıkardı.\n\nEtabın sonunda saatlerine baktılar. Hedef süreyi yalnızca 4 saniye aşmışlardı. Akşam sonuçlar açıklandığında kendi sınıflarında ikinci olduklarını öğrendiler.\n\n— Dumanlı yollarda en hızlı araba değil, en iyi defter kazanır, dedi Burak gülerek.\n\nSorular:\nAyla takımda ne iş yapıyor?\nAyla yardımcı pilot olarak çalışıyor ve yol notlarını okuyor.\nAyla virajları nasıl not etti?\nHer viraj için bir sayı yazdı, virajlar arasındaki mesafeleri ölçtü ve defteri kısacık cümlelerle doldurdu.\nAnneleri onları uğurlarken ne söyledi?\nAnneleri \"Acele etmeyin, ama oyalanmayın da\" dedi.\nRallide erken varmak neden bir sorundur?\nÇünkü her etabın belli bir sürede bitirilmesi gerekir ve erken varan takım da ceza alır.\nDumanlı havada sürücü neye güvenir?\nSürücü yardımcı pilotun sesine güvenir.\nKardeşler yarışı nasıl bitirdi?\nKendi sınıflarında ikinci oldular."
+    },
+    {
+      "title": "Yarımadada bir teleskop",
+      "summary": "A retired maths teacher on the Datça peninsula shows his granddaughter Saturn and tells her how Kepler trusted the numbers over a beautiful idea.",
+      "newWords": [
+        "teleskop",
+        "astronomi",
+        "dairesel",
+        "yarımada",
+        "kavak",
+        "servi",
+        "mazi",
+        "imge"
+      ],
+      "text": "Hasan Bey emekli bir matematik öğretmeni. Kırk yıl İzmir'de ders verdikten sonra Datça yarımadasındaki küçük bir köye yerleşti. Yarımadanın havası temiz, geceleri karanlık ve sessizdir; şehir ışıkları burada yıldızları örtmez. Bu yüzden Hasan Bey'in emeklilikteki en büyük tutkusu astronomi oldu.\n\nBu yaz torunu Esra onu ziyarete geldi. Esra üniversitede edebiyat okuyor ve şiir yazıyor. İlk akşam dedesi onu bahçeye çıkardı. Bahçenin bir köşesinde, üç ayağın üzerinde duran beyaz bir teleskop vardı.\n\n— Teleskobu nereye kuracağımı seçmek bir yılımı aldı, dedi Hasan Bey. Doğuda uzun kavak ağaçları var, güneyde de komşunun servileri. Kavaklar doğudan yükselen yıldızları saklıyor, serviler de güneydeki gökyüzünü. Ben de ikisinin arasında kalan bu küçük boşluğu buldum.\n\nEsra kavakların ve servilerin karanlıkta siyah gölgeler gibi durduğunu gördü. Dedesi teleskobu Satürn'e çevirdi. Esra merceğe eğilince sarı bir topun etrafındaki halkaları gördü ve uzun süre sesini çıkarmadı.\n\n— Şu an gördüğün ışık, Satürn'den yaklaşık 80 dakika önce yola çıktı, dedi Hasan Bey. Yani biz Satürn'ün şimdisini değil, kısa bir mazisini görüyoruz. Daha uzaktaki yıldızlarda bu mazi yüzlerce, binlerce yıl olur. Astronomi biraz da maziye bakmaktır.\n\nSonra ona eski bir hikâye anlattı. Yüzyıllar boyunca astronomlar, gezegenlerin kusursuz dairesel yollarda döndüğüne inandılar. Daire mükemmel bir şekil sayılıyordu; gökyüzünün de mükemmel olması gerektiği düşünülüyordu. 17. yüzyılın başında Kepler, Mars'ın yıllarca ölçülmüş konumlarını dairesel bir yörüngeyle karşılaştırdı. Aradaki fark çok küçüktü, ama ölçümler güvenilirdi. Kepler bu küçük farkı görmezden gelmedi. Sonunda Mars'ın yolunun dairesel değil, elips şeklinde olduğunu gösterdi.\n\n— Bir fikir ne kadar güzel olursa olsun, sayılarla uyuşmuyorsa bırakılmalı, dedi Hasan Bey. Matematiğin bana öğrettiği en önemli şey bu.\n\nEsra bir süre düşündü.\n\n— Benim şiirlerimdeki imgeler de böyle, dedi. Güzel görünen bir imge bazen yanlış bir şey söyler. O zaman onu çıkarıp yerine daha doğru bir imge koyuyorum.\n\nHasan Bey güldü. O gece Esra defterine yeni bir şiir yazdı. Şiirin ilk imgesi, karanlıkta yan yana duran bir kavak ile bir serviydi.\n\nSorular:\nHasan Bey emekli olduktan sonra nereye yerleşti?\nDatça yarımadasındaki küçük bir köye yerleşti.\nHasan Bey teleskobun yerini nasıl seçti?\nDoğudaki kavakların ve güneydeki servilerin arasında kalan küçük bir boşluğu buldu.\nEsra teleskopla neyi gördü?\nSatürn'ü ve onun halkalarını gördü.\nHasan Bey neden \"Astronomi biraz da maziye bakmaktır\" diyor?\nÇünkü gördüğümüz ışık yola çok önce çıkmıştır; biz yıldızların ve gezegenlerin mazisini görürüz.\nKepler neyi gösterdi?\nMars'ın yolunun dairesel değil, elips şeklinde olduğunu gösterdi.\nEsra'nın yeni şiirinin ilk imgesi neydi?\nKaranlıkta yan yana duran bir kavak ile bir serviydi."
+    },
+    {
+      "title": "Düğün menüsünün hesabı",
+      "summary": "A caterer in Bursa plans a wedding for 240 guests, calculating waste and leftovers for every dish.",
+      "newWords": [
+        "pirzola",
+        "püre",
+        "baklava",
+        "midye",
+        "fire",
+        "fazlalık",
+        "ananas",
+        "salam",
+        "spagetti",
+        "suşi"
+      ],
+      "text": "Merve, Bursa'da düğünlere ve toplantılara yemek hazırlayan küçük bir şirketin sahibi. Mesleğinin yarısı mutfakta geçer, öbür yarısı ise bir masanın başında, hesap makinesinin önünde.\n\nGeçen ay genç bir çift onu aradı. Düğünlerinde 240 misafir olacaktı. Damat suşi istiyordu, çünkü yurt dışında çalıştığı yıllarda suşiyi çok sevmişti. Gelinin büyükannesi ise baklava olmadan düğün olmaz diyordu. Çocuklar için de ayrı bir menü gerekiyordu: spagetti, patates püresi ve küçük salamlı sandviçler.\n\nMerve önce misafirleri gruplara ayırdı: 200 yetişkin ve 40 çocuk. Ana yemek pirzola olacaktı. Bir yetişkin ortalama üç pirzola yerdi; 200 kişi için 600 pirzola gerekiyordu. Ama Merve kasaptan tam 600 pirzola değil, daha fazlasını istemeliydi. Çünkü her işin bir firesi vardır. Pirzolaların fazla yağı kesilir, et pişerken de suyunu kaybeder. Merve'nin defterine göre etteki fire yüzde 30 civarındaydı.\n\nMidyede iş daha da zordu. Merve meze olarak midye dolması yapmayı planlamıştı. Midyelerin bir kısmı her zaman açık ya da kırık çıkar ve bunlar atılır. Merve deneyimle bu firenin yüzde 10 olduğunu biliyordu. Bu yüzden 500 midye dolması için 550 midye sipariş etti.\n\nSonra fazlalık meselesini düşündü. İşe yeni başladığı yıllarda her şeyden yüzde 20 fazla hazırlardı; yemek az gelirse rezil olmaktan korkardı. Ama düğün bitince o fazlalık çöpe giderdi. Şimdi en fazla yüzde 5 fazlalık bırakıyor ve artan yemeği aynı gece yakındaki bir öğrenci yurduna gönderiyor.\n\nSuşi için suşi yapmayı iyi bilen bir aşçıyla anlaştı. Spagetti için iki büyük tencere, püre için 15 kilo patates hesapladı. Ertesi sabah kahvaltı yapacak olan aile için de peynir, zeytin ve salam tabakları hazırladı.\n\nTatlıda küçük bir anlaşmazlık çıktı. Gelin, baklavanın yanında hafif bir şey istiyordu. Merve taze ananas önerdi. Büyükanne önce ananası garip buldu, ama tadına bakınca fikrini değiştirdi:\n\n— Baklavadan sonra bu ananas çok iyi gidiyor, dedi.\n\nDüğün gecesi her şey yolunda gitti. Ertesi sabah Merve artan yemekleri tarttı ve defterine yazdı. Toplam fazlalık, hesapladığı gibi yüzde 5'in altındaydı.\n\nSorular:\nDamat neden suşi istiyordu?\nÇünkü yurt dışında çalıştığı yıllarda suşiyi çok sevmişti.\nÇocuklar için menüde ne vardı?\nSpagetti, patates püresi ve küçük salamlı sandviçler vardı.\nMerve neden 600'den fazla pirzola istedi?\nÇünkü pişen ette fire olur; yağı kesilir ve et pişerken suyunu kaybeder.\nMerve 500 midye dolması için kaç midye sipariş etti?\n550 midye sipariş etti, çünkü midyelerdeki fire yüzde 10'dur.\nMerve artık neden çok fazla yemek hazırlamıyor?\nÇünkü fazlalık çöpe gider; şimdi en fazla yüzde 5 fazlalık bırakıyor.\nBüyükanne ananas hakkında ne dedi?\nBaklavadan sonra ananasın çok iyi gittiğini söyledi."
+    },
+    {
+      "title": "Bahçedeki açgözlü misafir",
+      "summary": "In Berlin, an eleven-year-old who loves detective books reasons from clues that a raccoon is raiding his grandmother's garden.",
+      "newWords": [
+        "dedektiflik",
+        "rakun",
+        "açgözlü",
+        "çıldırtmak",
+        "kamış",
+        "şoke",
+        "salya",
+        "bakımlı"
+      ],
+      "text": "Ömer on bir yaşında. Ailesiyle birlikte Berlin'de yaşıyor ve dedektiflik kitaplarını çok seviyor. Okuldaki arkadaşlarına sık sık, dedektifliğin bir sihir değil, dikkatli bir akıl yürütme olduğunu söyler.\n\nÖmer'in babaannesi Emine Hanım şehrin kenarında, bahçesi olan küçük bir evde oturuyor. Onun bahçesi mahallenin en bakımlı bahçesidir: çimler her hafta biçilir, çilekler düzgün sıralar halinde yetişir, bahçenin sonundaki küçük havuzun kenarında kamışlar uzar. Emine Hanım bakımlı bahçesiyle gurur duyar.\n\nAma bu yaz bir şey Emine Hanım'ı çıldırtıyordu. Her sabah çöp kutusunun kapağını açık, çöpleri yerde buluyordu. Çileklerin yarısı da yenmiş oluyordu.\n\n— Bu iş beni çıldırtacak! dedi bir pazar günü torununa. Komşunun kedisi olmalı.\n\nÖmer hemen defterini çıkardı ve ipuçlarını tek tek yazdı. Bir: çöp kutusunun kapağı ağırdı ve bir mandalla kapanıyordu. Bir kedi onu açamazdı. İki: Emine Hanım'ın köpeği bütün gece cama dayanıp havlıyordu; sabah camda köpeğin salyası vardı. Demek ki köpek dışarıdaki şeyi görüyor ama ona ulaşamıyordu. Suçlu köpek değildi. Üç: havuzun kenarında, kamışların arasındaki çamurda küçük izler vardı. İzler beş parmaklıydı ve küçük insan ellerine benziyordu.\n\nÖmer bir süre düşündü, sonra okuduğu bir kitabı hatırladı.\n\n— Babaanne, bu bir rakun! dedi. Berlin'de binlerce rakun yaşıyor. Rakunların ön ayakları insan eline benzer, kapak açmayı da çok iyi bilirler.\n\nEmine Hanım inanmadı. Bunun üzerine Ömer, babasının eski telefonunu kamışlara bakacak şekilde bahçeye yerleştirdi. Ertesi sabah kaydı birlikte izlediler. Gece saat 2'de kamışların arasından tombul bir rakun çıktı. Çöp kutusunun mandalını iki eliyle açtı, içindekileri karıştırdı, sonra çileklere yöneldi ve neredeyse hepsini yedi.\n\nEmine Hanım şoke olmuştu.\n\n— Ne kadar açgözlü bir hayvan! dedi. Bir gecede bu kadar çilek!\n\nÖmer, rakunların aslında açgözlü olmadığını, sadece kış için vücutlarında yağ depolamaya çalıştıklarını anlattı. Yine de bir çözüm bulmaları gerekiyordu. Çöp kutusunu kalın bir kayışla bağladılar ve çileklerin üstüne bir ağ gerdiler.\n\nO geceden sonra rakun bir daha gelmedi. Emine Hanım ise şoke olduğu o sabahı herkese anlatırken torununun dedektiflik yeteneğini övmeyi de unutmuyordu.\n\nSorular:\nÖmer dedektiflik hakkında ne düşünüyor?\nDedektifliğin bir sihir değil, dikkatli bir akıl yürütme olduğunu düşünüyor.\nEmine Hanım'ın bahçesi nasıl bir bahçe?\nMahallenin en bakımlı bahçesi; havuzun kenarında kamışlar uzuyor.\nCamdaki salya Ömer'e ne anlattı?\nKöpeğin dışarıdaki şeyi gördüğünü ama ona ulaşamadığını, yani suçlunun köpek olmadığını anlattı.\nÖmer neden suçlunun bir rakun olduğunu düşündü?\nÇünkü çamurdaki izler küçük insan ellerine benziyordu ve kapak bir mandalla kapanıyordu; rakunlar kapak açmayı bilir.\nEmine Hanım kaydı görünce ne dedi?\nŞoke oldu ve rakunun çok açgözlü bir hayvan olduğunu söyledi."
+    },
+    {
+      "title": "Notların söylediği",
+      "summary": "A maths teacher in Eskişehir uses a pupil's own marks and an old proverb to cure his gloom before report-card day.",
+      "newWords": [
+        "karne",
+        "karamsar",
+        "atasözü",
+        "tükenmez",
+        "formasyon",
+        "toy",
+        "rasyonel",
+        "annecik"
+      ],
+      "text": "Ayşe, Eskişehir'de bir ortaokulda matematik öğretmeni. Üniversitede mühendislik okudu, ama mezun olduktan sonra çocuklarla çalışmak istediğini anladı. Bir yıl boyunca öğretmenlik formasyonu aldı. Formasyon derslerinde, bir konuyu bilmekle onu öğretebilmenin aynı şey olmadığını öğrendi.\n\nGöreve başladığı ilk yıl çok toy bir öğretmendi. Her öğrencinin matematiği bir ayda seveceğini sanıyordu. Bugün o yılları gülerek anlatır: \"O zaman çok toydum.\" Yıllar içinde sabırlı ve dikkatli bir insana dönüştü.\n\nOcak ayında, karne gününden bir hafta önce, Yusuf adlı bir öğrenci ders çıkışında yanına geldi. Yedinci sınıftaydı ve yüzü asıktı.\n\n— Öğretmenim, karnemde matematik yine kötü olacak, değil mi? Ben bu dersi hiç anlamıyorum.\n\nAyşe onun bu kadar karamsar olmasına şaşırdı. Masasından kırmızı tükenmez kalemini ve not defterini aldı.\n\n— Gel, birlikte bakalım, dedi. Karamsar olmadan önce sayılara bakmamız lazım.\n\nDefterde Yusuf'un sınav notları vardı: eylülde 30, kasımda 42, aralıkta 55. Ayşe tükenmez kalemle üç sayıyı alt alta yazdı ve aralarındaki farkları hesapladı.\n\n— Notun her sınavda ortalama 12 puan yükselmiş. Bu bir şans değil, bir eğilim. Böyle giderse haziranda 70'i geçersin.\n\nYusuf bir süre sayılara baktı.\n\n— Ama rasyonel sayılar konusunu hâlâ anlamadım.\n\n— Rasyonel sayı, bir tam sayının sıfır olmayan başka bir tam sayıya bölümü olarak yazılabilen sayıdır, dedi Ayşe. 3/4 de, -5/2 de rasyonel sayıdır. 7 bile rasyoneldir, çünkü onu 7/1 olarak yazabiliriz. Bunu bir pizzayla düşün: pizzayı dört dilime böler ve üç dilimini yersen, pizzanın 3/4'ünü yemiş olursun.\n\nSonra Ayşe ona bir atasözü hatırlattı: \"Damlaya damlaya göl olur.\" Bu atasözü, ona göre matematiğin özetiydi. Her gün on soru çözmek, bir gecede yüz soru çözmekten çok daha etkiliydi.\n\nKarne günü Yusuf'un matematik notu eylüldeki notundan çok daha yüksekti. Akşam heyecanla anneciğini aradı:\n\n— Anneciğim, karnemi aldım! Matematik notum yükseldi!\n\nAnnesi işten eve gelince karneye uzun uzun baktı ve oğluna sarıldı. Yusuf, anneciğinin gözlerinin dolduğunu gördü.\n\n— Anneciğim, öğretmenim haziranda daha da yükseleceğini söylüyor, dedi Yusuf.\n\nErtesi gün Yusuf, Ayşe'nin masasına küçük bir not bıraktı. Notta tükenmez kalemle yazılmış tek bir cümle vardı: \"Damlaya damlaya göl olur.\"\n\nSorular:\nAyşe öğretmen olmak için ne yaptı?\nBir yıl boyunca öğretmenlik formasyonu aldı.\nYusuf neden karamsardı?\nKarnesinde matematik notunun yine kötü olacağını düşünüyordu.\nAyşe, Yusuf'un notlarında ne gördü?\nNotların her sınavda ortalama 12 puan yükseldiğini, yani bir eğilim olduğunu gördü.\nRasyonel sayı nedir?\nBir tam sayının sıfır olmayan başka bir tam sayıya bölümü olarak yazılabilen sayıdır.\nAyşe, Yusuf'a hangi atasözünü hatırlattı?\n\"Damlaya damlaya göl olur\" atasözünü hatırlattı.\nYusuf karnesini alınca annesine ne dedi?\n\"Anneciğim, karnemi aldım! Matematik notum yükseldi!\" dedi."
+    },
+    {
+      "title": "Dedemin daktilosu",
+      "summary": "A girl visits her grandfather near Rumeli Hisarı, falls for his bookworm puzzle and counts the squares of an old quilt.",
+      "newWords": [
+        "daktilo",
+        "ithaf",
+        "kelam",
+        "baston",
+        "hisar",
+        "ansiklopedi",
+        "yorgan",
+        "mankafa",
+        "jilet"
+      ],
+      "text": "Zehra her cumartesi dedesi Halil Bey'i ziyaret eder. Halil Bey 86 yaşında ve İstanbul'da, Rumeli Hisarı'nın hemen arkasındaki dik bir sokakta oturuyor. Kırk yıl muhasebeci olarak çalışmış, ömrü sayılarla geçmiş. Artık bastonla yürüyor, ama aklı hâlâ bir hesap makinesi kadar hızlı. Zehra'nın babaannesi Fatma Hanım o hafta sonu kız kardeşini ziyarete gitmişti.\n\nO cumartesi hava güzeldi. Zehra ile dedesi önce hisara kadar yürüdüler. Halil Bey her basamakta bastonunu yere vuruyor ve basamakları yüksek sesle sayıyordu. Hisarın duvarlarına bakan bir bankta oturdular.\n\n— Bu hisar yalnızca dört ayda yapılmış, dedi Halil Bey. Düşün, kaç işçi, kaç taş, kaç hesap gerekmiştir.\n\nEve dönünce dedesi onu çalışma odasına götürdü. Masanın üstünde eski, yeşil bir daktilo duruyordu. Halil Bey gençliğinde akşamları bu daktiloyla bulmacalar yazar, bir gazeteye gönderirdi. Daktilonun yanında, kendi bulmacalarından oluşan ince bir kitap vardı. Kitabın ilk sayfasında daktiloyla yazılmış bir ithaf okunuyordu: \"Sayıları benden önce seven Fatma'ya.\" Halil Bey kitabı eşine ithaf etmişti.\n\n— Sana bir bulmaca sorayım, dedi dedesi ve raftaki ansiklopedi ciltlerini gösterdi. Bu ansiklopedinin birinci ve ikinci cildi rafta yan yana duruyor, birincisi solda. Her cildin sayfaları 4 santim kalınlığında. Küçük bir kurt, birinci cildin ilk sayfasından ikinci cildin son sayfasına kadar delik açıyor. Kurt kaç santim yol gider?\n\nZehra hemen \"8 santim\" dedi. Dedesi gülümsedi ve tek kelam etmeden ansiklopedinin birinci cildini eline alıp yeniden rafa koydu. Zehra kitaplara dikkatle baktı. Rafta duran bir kitabın ilk sayfası en sağdadır, son sayfası da en solda. Yani birinci cildin ilk sayfası ile ikinci cildin son sayfası yan yanaydı. Kurt hiçbir sayfayı geçmiyor, yalnızca iki kapağı deliyordu!\n\n— Ne mankafayım! dedi Zehra gülerek.\n\n— Mankafa değilsin, dedi dedesi. Herkes önce 8 der. Asıl önemli olan, ikinci kez bakmak.\n\nDedesinin bu kelamı Zehra'nın aklında kaldı.\n\nO gece Zehra dedesinde kaldı. Babaannesinin yıllar önce diktiği, renkli karelerden oluşan yorganın altında yattı. Uyumadan önce yorganın karelerini saydı: enine 9, boyuna 12, toplam 108 kare. Sabah dedesi banyoda eski usul bir jiletle tıraş oluyordu. Zehra kapıdan baktı. Dedesi yeni bir jileti dikkatle yerine taktı ve aynadan ona gülümsedi.\n\n— Yorganın karelerini saydın mı? diye sordu.\n\nZehra şaşırdı. Dedesi onu çok iyi tanıyordu.\n\nSorular:\nHalil Bey nerede oturuyor?\nİstanbul'da, Rumeli Hisarı'nın hemen arkasındaki dik bir sokakta oturuyor.\nHalil Bey gençliğinde daktiloyla ne yazardı?\nAkşamları daktiloyla bulmacalar yazar, bir gazeteye gönderirdi.\nHalil Bey bulmaca kitabını kime ithaf etmişti?\nKitabı eşi Fatma Hanım'a ithaf etmişti.\nKurt neden hiçbir sayfayı geçmiyordu?\nÇünkü birinci cildin ilk sayfası ile ikinci cildin son sayfası rafta yan yanaydı; kurt yalnızca iki kapağı deliyordu.\nZehra yanlış cevap verince kendine ne dedi?\n\"Ne mankafayım!\" dedi.\nYorganda kaç kare vardı?\nEnine 9, boyuna 12, toplam 108 kare vardı."
+    },
+    {
+      "title": "Cankurtaranın sayıları",
+      "summary": "A lifeguard and regular blood donor in Antalya has a swollen lymph node checked by ultrasound before he can give blood again.",
+      "newWords": [
+        "cankurtaran",
+        "donör",
+        "ultrason",
+        "lenf",
+        "magnezyum",
+        "süresiz",
+        "ılıca"
+      ],
+      "text": "Sinan yazları Antalya'da kalabalık bir halk plajında cankurtaran olarak çalışıyor, kışın da bir spor merkezinde yüzme dersleri veriyor. Bir cankurtaranın en önemli aracı gözleridir. Ama Sinan'a göre sayılar da en az gözler kadar önemlidir: denizdeki insan sayısı, rüzgârın hızı, dalgaların yüksekliği. Her sabah bu sayıları bir tahtaya yazar ve diğer cankurtaranlarla birlikte o günün planını yapar.\n\nSinan aynı zamanda düzenli bir kan donörüdür. On sekiz yaşından beri yılda üç kez kan veriyor. Geçen kış bir gün oturup hesap yaptı: on iki yılda 36 kez kan vermişti. Her seferinde yarım litre kadar kan verdiğine göre, toplam 16 litreden fazla ediyordu. Bu, bir insanın vücudundaki kanın üç katı demekti.\n\nOcak ayında yine kan bağışı merkezine gitti. Doktor her donöre yaptığı gibi ona birkaç soru sordu ve boynunu muayene etti. Sinan'ın boynunda, kulağının altında küçük bir şişlik vardı.\n\n— Bu bir lenf düğümü, dedi doktor. Son haftalarda hasta oldunuz mu?\n\nSinan iki hafta önce ağır bir grip geçirdiğini söyledi. Doktor o gün kan almamaya karar verdi.\n\n— Muhtemelen önemli bir şey değil, ama emin olmadan sizi donör olarak kabul edemem. Önce bir ultrason yaptırın.\n\nErtesi gün Sinan ultrasona girdi. Doktor ekrandaki görüntüyü ona gösterdi.\n\n— Lenf düğümü 9 milimetre, şekli oval, iç yapısı normal, dedi. Bir enfeksiyondan sonra lenf düğümlerinin büyümesi çok normaldir. Bir ay sonra ultrasonu tekrarlayalım.\n\nAynı gün yapılan kan tahlilinde bir şey daha çıktı: magnezyum değeri normalin biraz altındaydı. Sinan buna şaşırmadı. Son aylarda yüzerken bacaklarına sık sık kramp giriyordu. Doktor bir ay boyunca magnezyum almasını önerdi.\n\n— Ama bu ilacı süresiz kullanmayın, dedi. Bir ay sonra değerlere tekrar bakarız. Gereksiz yere süresiz ilaç kullanmak doğru değil.\n\nSinan bir ay boyunca ilacını aldı ve bol bol dinlendi. Bir hafta sonu babasıyla birlikte Bursa'daki bir ılıcaya gitti. Sıcak suyun içinde otururken babası ona sordu:\n\n— Peki, bu ay neden kan vermedin?\n\n— Önce doktorun kararını beklemem lazım. Bir donör kendi sağlığından emin olmalı.\n\nBir ay sonra ikinci ultrason yapıldı. Lenf düğümü 5 milimetreye inmişti. Kramplar da geçmişti. Şubatın sonunda Sinan yeniden kan bağışı merkezine gitti ve 37. kez kan verdi. Ilıcadan getirdiği küçük bir kutu lokumu da hemşirelere bıraktı.\n\nSorular:\nSinan yazları ne iş yapıyor?\nAntalya'da kalabalık bir halk plajında cankurtaran olarak çalışıyor.\nSinan on iki yılda kaç kez kan vermişti?\n36 kez kan vermişti; bu da toplam 16 litreden fazla ediyordu.\nDoktor o gün neden kan almadı?\nÇünkü Sinan'ın boynunda büyümüş bir lenf düğümü vardı ve doktor emin olmadan onu donör olarak kabul etmek istemedi.\nUltrason ne gösterdi?\nLenf düğümünün 9 milimetre, oval ve normal olduğunu gösterdi.\nDoktor magnezyum hakkında ne dedi?\nBir ay boyunca magnezyum almasını, ama ilacı süresiz kullanmamasını söyledi.\nSinan babasıyla nereye gitti?\nBursa'daki bir ılıcaya gitti."
+    },
+    {
+      "title": "Bir yılın fotoğrafları",
+      "summary": "A documentary producer films a burnt forest growing back, with cameras programmed to take one photo a day, and offsets his film's emissions.",
+      "newWords": [
+        "yapımcılık",
+        "emisyon",
+        "gütmek",
+        "bürokrasi",
+        "tahribat",
+        "programlanmak",
+        "sac",
+        "baraka"
+      ],
+      "text": "Cem on yıl boyunca İstanbul'da reklam filmleri çekti. Sonra bir gün yapımcılık işini başka bir yöne çevirmeye karar verdi. Bugün kâr amacı gütmeyen küçük bir derneğin belgesellerini hazırlıyor. Derneğin güttüğü tek amaç, doğayı sayılarla ama insanları sıkmadan anlatmak.\n\nCem'in son belgeseli Muğla'nın dağlarında geçiyor. Birkaç yıl önce orada büyük bir orman yangını olmuştu. Yangının tahribatı çok büyüktü: binlerce hektar çam ormanı kül olmuştu. Ama Cem yalnızca tahribatı göstermek istemiyordu. Asıl amacı, ormanın yeniden nasıl canlandığını göstermekti.\n\nÖnce bürokrasiyle uğraşması gerekti. Ormanda çekim yapmak için bir izin, kamera yerleştirmek için ayrı bir izin, ekibin orada kalması için bir izin daha gerekiyordu. Her dilekçe başka bir masaya gidiyordu. Bürokrasi tam üç ay sürdü. Cem bu süreyi boşa geçirmedi; senaryoyu yazdı ve sayıları topladı.\n\nİzinler çıkınca ekip dağa çıktı. Orman işçilerinin eski bir barakasına yerleştiler. Barakanın duvarları ve çatısı sacdandı. Sac çatı yazın çok ısınıyor, yağmur yağınca da gürültü yapıyordu. Yine de barakanın penceresinden bütün vadi görünüyordu.\n\nCem vadiye on iki küçük kamera yerleştirdi. Her kamera, bir yıl boyunca her gün öğle saatinde tek bir fotoğraf çekecek şekilde programlanmıştı. Pillerini güneş enerjisiyle dolduruyorlardı. Programlanmış her kamera bir yılın sonunda 365 fotoğraf verecekti. Bu fotoğraflar art arda gösterildiğinde, kara bir yamaçta yeşil bitkilerin bir yıl içinde nasıl çıktığı birkaç saniyede görülecekti.\n\nCem bir sayıyı daha hesapladı: kendi belgeselinin emisyonunu. Ekibin arabalarıyla yaptığı kilometreler, kullanılan yakıt, elektrik... Hesaba göre film yaklaşık 4 ton karbon emisyonuna yol açacaktı. Kâr amacı gütmeyen bir dernek için bile bu önemliydi. Ekip, bu emisyonu dengelemek için yangın alanına 200 fidan dikti.\n\nBir yıl sonra fotoğrafları yan yana koyduklarında kimse konuşmadı. Kara toprak önce griye, sonra yeşile dönüyordu. Cem'e göre yapımcılığın en güzel anı buydu: sayıların bir resme dönüştüğü an.\n\nSorular:\nCem bugün ne iş yapıyor?\nKâr amacı gütmeyen küçük bir derneğin belgesellerini hazırlıyor.\nCem neden yalnızca tahribatı göstermek istemiyordu?\nÇünkü asıl amacı ormanın yeniden nasıl canlandığını göstermekti.\nBürokrasi ne kadar sürdü?\nBürokrasi tam üç ay sürdü.\nEkip dağda nerede kaldı?\nOrman işçilerinin duvarları ve çatısı sacdan yapılmış eski bir barakasında kaldı.\nKameralar nasıl programlanmıştı?\nBir yıl boyunca her gün öğle saatinde tek bir fotoğraf çekecek şekilde programlanmıştı.\nEkip filmin emisyonunu nasıl dengeledi?\nYangın alanına 200 fidan dikti."
+    },
+    {
+      "title": "Sayıların peşinde",
+      "summary": "At a quiz final in Konya where every answer is a number, one team is disqualified for a phone and another wins with a doubling puzzle.",
+      "newWords": [
+        "raunt",
+        "birincilik",
+        "diskalifiye",
+        "yasaklı",
+        "bando",
+        "meşale",
+        "şayan",
+        "erkeksi",
+        "kobra",
+        "aygır"
+      ],
+      "text": "Konya'daki liseler arasında her yıl bir bilgi yarışması düzenlenir. Yarışmanın adı \"Sayıların Peşinde\", çünkü bütün soruların cevabı bir sayıdır. Bu yıl finale üç takım kaldı. Takımlardan biri Leyla, Hatice ve İbrahim'den oluşuyordu.\n\nFinal gecesi okulun spor salonu doluydu. Belediye bandosu salonun girişinde neşeli bir parça çaldı. Sahnenin ortasında ödül duruyordu: altın renkli bir meşale. Meşale yarışmanın simgesiydi; her yıl birinci olan okul onu bir yıl boyunca kendi okulunda saklıyordu.\n\nSunucu, kalın ve biraz erkeksi sesiyle tanınan bir matematik öğretmeniydi. Bu erkeksi ses salonu bir anda susturdu. Öğretmen kuralları tek tek okudu: yarışma üç rauntta yapılacaktı. Salonda telefon kullanmak yasaktı. Yasaklı bir cihazla yakalanan takım diskalifiye edilecekti.\n\nBirinci raunt hızlı sorulardan oluşuyordu.\n\n— Bir kral kobra en fazla kaç metre uzunluğa ulaşabilir?\n\nHatice hemen zile bastı:\n\n— Yaklaşık 5 buçuk metre.\n\n— Doğru. Kral kobra dünyanın en uzun zehirli yılanıdır. Peki, yetişkin bir aygırın ağzında kaç diş vardır?\n\nBu kez İbrahim zile bastı:\n\n— Genellikle 40.\n\n— Doğru. Dişi atlarda bu sayı çoğu zaman daha azdır; aygırı tanımanın yollarından biri de budur.\n\nİkinci rauntta küçük bir sorun çıktı. Rakip takımlardan birinin çantasında bir telefon çaldı. Telefonun salona hiç girmemesi gerekiyordu, ama sahibi onu çantasından çıkarmayı unutmuştu. Jüri kısa bir görüşme yaptı. Kurallar açıktı: yasaklı cihaz salondaydı ve takım diskalifiye edildi. Öğrenciler üzgündü, ama salon onları alkışlarla uğurladı.\n\nÜçüncü raunt bir akıl yürütme sorusuydu:\n\n— Bir havuzdaki yosunlar her gün iki katına çıkıyor. Havuz 30. günde tamamen yosunla kaplanıyor. Havuzun yarısı hangi gün kaplanmıştı?\n\nRakip takım \"15. gün\" diye cevap verdi. Leyla ise biraz düşündükten sonra \"29. gün\" dedi ve nedenini açıkladı:\n\n— Yosunlar her gün iki katına çıkıyorsa, tamamen dolmadan bir gün önce havuzun yarısı doludur.\n\nJüri, Leyla'nın açıklamasını dikkate şayan buldu. Birincilik onların okuluna gitti. Bando yeniden çalmaya başladı ve meşale Leyla'nın eline verildi. Leyla birincilik ödülünü okulunun matematik kulübüne armağan etti.\n\nSorular:\nYarışmadaki soruların cevabı nasıldır?\nBütün soruların cevabı bir sayıdır.\nYarışmanın ödülü neydi?\nÖdül, altın renkli bir meşaleydi.\nSunucunun sesi nasıldı?\nSunucunun kalın ve biraz erkeksi bir sesi vardı.\nRakip takım neden diskalifiye edildi?\nÇünkü çantalarında yasaklı bir telefon çaldı.\nLeyla üçüncü rauntta ne cevap verdi?\n\"29. gün\" dedi, çünkü yosunlar her gün iki katına çıkıyorsa havuz dolmadan bir gün önce yarısı doludur.\nJüri Leyla'nın açıklaması hakkında ne düşündü?\nJüri açıklamayı dikkate şayan buldu ve birincilik onların okuluna gitti."
+    },
+    {
+      "title": "Kapalıçarşı'da bir çırak",
+      "summary": "A jeweller's apprentice in the Grand Bazaar learns to reason about gold alloys, diamond prices and rubies, then visits Topkapı Palace with his master.",
+      "newWords": [
+        "pırlanta",
+        "yakut",
+        "bileşim",
+        "vasıf",
+        "harem",
+        "tüyo",
+        "püf"
+      ],
+      "text": "Ali on dokuz yaşında ve altı aydır Kapalıçarşı'da bir mücevher dükkânında çırak olarak çalışıyor. Ustası Mehmet Usta kırk yıldır bu işin içinde. Mehmet Usta'ya göre bu mesleğin ilk vasfı dürüstlük, ikinci vasfı sabır, üçüncü vasfı ise iyi bir hesaptır.\n\nBir sabah dükkâna yaşlı bir kadın geldi. Elinde eski bir bilezik vardı ve kaç para edeceğini öğrenmek istiyordu. Mehmet Usta bileziği Ali'ye uzattı.\n\n— Bu senin işin, dedi. Önce damgasına bak.\n\nBileziğin iç tarafında küçük bir \"14\" yazıyordu. Ali hesabı yüksek sesle yaptı:\n\n— Saf altın 24 ayardır. 14 ayar, 24 parçanın 14 parçasının altın olduğu anlamına gelir. 14'ü 24'e bölersek yaklaşık yüzde 58 eder. Bileziğin geri kalanı gümüş ve bakırdır.\n\n— Doğru, dedi Mehmet Usta. Bileşimi değişince rengi de değişir. Bakır fazla olursa altın kırmızıya çalar, gümüş fazla olursa rengi açılır. Bir altının bileşimini bilmeden fiyatını söyleyemezsin.\n\nBilezik 20 gramdı. Ali içindeki saf altını hesapladı: yaklaşık 11,7 gram. Kadın sonuçtan memnun kaldı ve bileziği satmak yerine torununa vermeye karar verdi.\n\nÖğleden sonra genç bir çift nişan yüzüğü için geldi. Pırlanta bir yüzük arıyorlardı. Ali onlara iki taş gösterdi: biri yarım karat, öteki tam bir karattı. Genç adam büyük pırlantanın fiyatının küçüğün iki katı olmasını bekliyordu, ama fiyat dört katına yakındı.\n\n— Pırlantanın fiyatı ağırlığıyla birlikte düz bir çizgide artmaz, dedi Mehmet Usta. Büyük taş çok daha nadirdir. Size bir tüyo vereyim. İşin püf noktası şu: 0,9 karatlık bir taş gözle bir karatlık taştan pek ayırt edilmez, ama fiyatı çok daha düşüktür.\n\nÇift bu tüyoyu çok beğendi ve 0,9 karatlık pırlantayı seçti.\n\nAkşam dükkânı kapatırken Ali yakutlar hakkında bir soru sordu.\n\n— Usta, yakutu bu kadar değerli yapan ne?\n\n— Yakutun bileşimi aslında çok basittir, dedi Mehmet Usta. Kırmızı rengini, içindeki çok küçük bir maddeye borçludur. Değerini ise rengi ve temizliği belirler. Bu da sana ikinci tüyom olsun: bir yakuta önce gün ışığında bak, sonra fiyatını konuş. Her işin bir püf noktası vardır.\n\nPazar günü Mehmet Usta, Ali'yi Topkapı Sarayı'na götürdü. Önce hazine bölümündeki ünlü mücevherlere baktılar; aralarında iri yakutlar ve parlak pırlantalar vardı. Sonra Harem'i gezdiler. Harem, sarayda ailenin yaşadığı bölümdü. Mehmet Usta haremde, duvarlardaki taş işçiliğine uzun uzun baktı.\n\n— Bak, dedi. Burada da her şey hesapla yapılmış.\n\nSorular:\nMehmet Usta'ya göre bu mesleğin vasıfları nelerdir?\nİlk vasfı dürüstlük, ikinci vasfı sabır, üçüncü vasfı iyi bir hesaptır.\n14 ayar altın ne demektir?\n24 parçanın 14 parçasının altın olduğu anlamına gelir; geri kalanı gümüş ve bakırdır.\nBileşim altının rengini nasıl değiştirir?\nBakır fazla olursa altın kırmızıya çalar, gümüş fazla olursa rengi açılır.\nMehmet Usta genç çifte hangi tüyoyu verdi?\n0,9 karatlık bir taşın bir karatlık taştan pek ayırt edilmediğini, ama fiyatının çok daha düşük olduğunu söyledi.\nPazar günü Ali ile Mehmet Usta nereyi gezdi?\nTopkapı Sarayı'nın hazine bölümünü ve Harem'i gezdiler."
+    }
+  ]
+}
