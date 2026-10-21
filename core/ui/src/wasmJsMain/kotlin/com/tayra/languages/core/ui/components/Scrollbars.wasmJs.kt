@@ -11,3 +11,6 @@ actual fun BoxScope.EdgeScrollbar(state: ScrollState, modifier: Modifier) = Unit
 
 @Composable
 actual fun BoxScope.EdgeScrollbar(state: LazyListState, modifier: Modifier) = Unit
+
+@Composable
+actual fun BoxScope.BottomEdgeScrollbar(state: ScrollState, modifier: Modifier) = Unit

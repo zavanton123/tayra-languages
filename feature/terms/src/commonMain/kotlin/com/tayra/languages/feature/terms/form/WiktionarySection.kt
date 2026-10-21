@@ -4,6 +4,8 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
+import com.tayra.languages.core.ui.components.BottomEdgeScrollbar
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -167,21 +169,25 @@ internal fun InflectionTableView(table: InflectionTable, term: String) {
         val column = table.columns.indices.firstOrNull { index -> table.rows.any { row -> row.cells[index].any(::isClicked) } }
         val end = with(LocalDensity.current) { column?.let { (ROW_LABEL_WIDTH + CELL_WIDTH * (it + 1)).roundToPx() } }
         LaunchedEffect(table, end, scroll.viewportSize) { end?.let { scroll.scrollTo((it - scroll.viewportSize).coerceAtLeast(0)) } }
-        Column(Modifier.fillMaxWidth().horizontalScroll(scroll)) {
-            Row {
-                Cell("", ROW_LABEL_WIDTH, header = true)
-                table.columns.forEach { Cell(grammarColumn(it), CELL_WIDTH, header = true) }
-            }
-            table.rows.forEach { row ->
-                AppDivider(Modifier.width(ROW_LABEL_WIDTH + CELL_WIDTH * table.columns.size), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
+        // The bar sits under the table, in room kept for it, as a wide table's other columns are otherwise easy to miss.
+        Box(Modifier.fillMaxWidth()) {
+            Column(Modifier.fillMaxWidth().horizontalScroll(scroll).padding(bottom = AppSpacing.m)) {
                 Row {
-                    Cell(grammarTags(row.tags), ROW_LABEL_WIDTH, header = true)
-                    row.cells.forEach { forms ->
-                        val highlighted = forms.any(::isClicked)
-                        Cell(forms.joinToString(", "), CELL_WIDTH, highlighted = highlighted, modifier = Modifier.testTag(if (highlighted) "cell-clicked" else "cell"))
+                    Cell("", ROW_LABEL_WIDTH, header = true)
+                    table.columns.forEach { Cell(grammarColumn(it), CELL_WIDTH, header = true) }
+                }
+                table.rows.forEach { row ->
+                    AppDivider(Modifier.width(ROW_LABEL_WIDTH + CELL_WIDTH * table.columns.size), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
+                    Row {
+                        Cell(grammarTags(row.tags), ROW_LABEL_WIDTH, header = true)
+                        row.cells.forEach { forms ->
+                            val highlighted = forms.any(::isClicked)
+                            Cell(forms.joinToString(", "), CELL_WIDTH, highlighted = highlighted, modifier = Modifier.testTag(if (highlighted) "cell-clicked" else "cell"))
+                        }
                     }
                 }
             }
+            BottomEdgeScrollbar(scroll)
         }
     }
     if (table.other.isNotEmpty()) {

@@ -31,6 +31,10 @@ expect fun BoxScope.EdgeScrollbar(state: ScrollState, modifier: Modifier = Modif
 @Composable
 expect fun BoxScope.EdgeScrollbar(state: LazyListState, modifier: Modifier = Modifier)
 
+/** A scrollbar for [state] along the bottom edge of the Box, for content wider than its viewport; on the desktop only, as [EdgeScrollbar]. */
+@Composable
+expect fun BoxScope.BottomEdgeScrollbar(state: ScrollState, modifier: Modifier = Modifier)
+
 /**
  * A column that scrolls, with [EdgeScrollbar] beside it. [modifier] frames the whole;
  * [contentModifier] goes on the column inside the scrolling, where padding belongs;
