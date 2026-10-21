@@ -1,0 +1,196 @@
+{
+  "id": "tr-mini-5200",
+  "rankUpTo": 5200,
+  "level": "C1",
+  "title": "Yemeğin bilimi",
+  "description": "Ten standalone texts on the science behind everyday cooking: salt, bread, grilling, milk, stuffed vine leaves, sports nutrition, digestion, yogurt, pans and fresh fish.",
+  "topic": "The science of cooking",
+  "names": [
+    "Türkiye",
+    "İzmir",
+    "Çamaltı",
+    "Orta Anadolu",
+    "Tuz Gölü",
+    "Çankırı",
+    "Eskişehir",
+    "Hasan",
+    "Halil",
+    "Adana",
+    "Ayvalık",
+    "Emine",
+    "Hatice",
+    "Esra",
+    "Aksoy",
+    "Merve",
+    "Berlin",
+    "Ömer",
+    "Japon",
+    "Leyla",
+    "Malatya",
+    "Türk",
+    "Ayla",
+    "Zehra",
+    "Ankara",
+    "Sinan",
+    "İstanbul",
+    "Trabzon",
+    "Yusuf",
+    "Karadeniz"
+  ],
+  "lessons": [
+    {
+      "title": "Beyaz altının yolculuğu",
+      "summary": "An explanatory text on where salt comes from, salt pans and salt mines, how it is stored and packed, and why it keeps food from spoiling.",
+      "newWords": [
+        "tuzla",
+        "madencilik",
+        "ova",
+        "ambar",
+        "paketlemek",
+        "organizma",
+        "eşdeğer",
+        "kuşkusuz"
+      ],
+      "text": "Sofradaki tuzluğa pek dikkat etmeyiz. Oysa içindeki küçük beyaz taneler uzun bir yolculuktan geçerek önümüze gelir. Bu yazıda tuzun nasıl üretildiğini ve mutfakta neden bu kadar önemli olduğunu anlatmak istiyorum.\n\nTürkiye'de tuz başlıca iki yoldan elde edilir. Birincisi tuzlalardır. Tuzla, deniz ya da göl suyunun geniş ve düz havuzlara alınıp güneşte bekletildiği yerdir. Yaz boyunca güneş ve rüzgâr suyu yavaş yavaş alır; havuzların dibinde beyaz bir tuz tabakası kalır. İzmir yakınlarındaki Çamaltı tuzlası ülkenin en büyük tuzlalarından biridir. Bir başka büyük kaynak da Orta Anadolu'daki Tuz Gölü'dür. Gölün çevresi geniş ve düz bir ovadır. Yazın göl suyu çekilince ova bembeyaz bir örtüyle kaplanır ve uzaktan karla kaplı gibi görünür. Ülkede kullanılan tuzun önemli bir kısmı bu ovadan gelir.\n\nİkinci yol ise madenciliktir. Bazı bölgelerde tuz, milyonlarca yıl önce kuruyan denizlerden kalmış kaya tabakaları hâlinde yerin altında bulunur. Tuz madenciliği, kömür madenciliğine benzer: İşçiler yerin altındaki uzun galerilerde tuz kayalarını keser ve yukarı taşır. Çankırı'daki eski tuz mağaraları bu tür madenciliğin en bilinen örneklerindendir. Kısacası tuzlada güneş çalışır, madencilikte ise insan ve makine.\n\nTuz, tuzladan ya da madenden çıktıktan sonra hemen sofraya gelmez. Önce yıkanır, kurutulur ve büyük ambarlarda bekletilir. Bu ambarlar kuru olmalıdır, çünkü tuz havadaki nemi kolayca çeker ve topak topak olur. Ardından tuz fabrikalarda öğütülür, temizlenir ve paketlenir. Paketlemeden önce sofra tuzuna çoğu zaman sağlık için küçük bir miktar mineral eklenir. Paketlenmiş tuzun üzerindeki son kullanma tarihi aslında paket içindir; tuzun kendisi bozulmaz.\n\nPeki tuz yiyecekleri nasıl korur? Bunun cevabı canlı organizmalarda gizlidir. Yiyecekleri bozan bakteriler ve mantarlar da birer organizmadır ve bütün canlılar gibi suya ihtiyaç duyar. Tuz ise suyu kendine çeker. Bir balığın üzerine bol tuz serptiğinizde tuz, hem balığın içindeki suyu hem de bu küçük organizmaların suyunu dışarı çeker. Susuz kalan organizma çoğalamaz. Turşu, peynir ve zeytin de bu yüzden tuzlu suda saklanır.\n\nBuzdolabının olmadığı yüzyıllarda tuz, kuşkusuz insanların en değerli maddelerinden biriydi. Bazı yerlerde ticarette paraya eşdeğer tutulurdu. Bir çuval tuz, birkaç çuval buğdaya eşdeğer sayılabilirdi. Bugün ise bir paket tuzu birkaç liraya alıyoruz. Tuz ucuzladı diye değeri azalmadı; yalnızca onu fark etmez olduk. Kuşkusuz bunda tuzun her yerde bulunmasının da payı var. Ama bir dahaki sefere yemeğinize tuz serperken, onun bir tuzladan ya da bir maden ocağından, ambarlardan ve fabrikalardan geçerek sofranıza geldiğini hatırlayın.\n\nSorular:\nTuzla nedir?\nTuzla, deniz ya da göl suyunun geniş ve düz havuzlara alınıp güneşte bekletildiği yerdir.\nTuz Gölü'nün çevresinde yazın ne olur?\nGöl suyu çekilince çevredeki ova bembeyaz bir örtüyle kaplanır.\nTuz madenciliği neye benzer?\nKömür madenciliğine benzer; işçiler yerin altında tuz kayalarını keser ve yukarı taşır.\nTuz neden kuru ambarlarda bekletilir?\nÇünkü tuz havadaki nemi kolayca çeker ve topak topak olur.\nTuz yiyecekleri nasıl korur?\nTuz, yiyecekleri bozan küçük organizmaların suyunu dışarı çeker; susuz kalan organizma çoğalamaz."
+    },
+    {
+      "title": "Hamur beklemeyi sever",
+      "summary": "A young baker in Eskişehir remembers how his experienced master taught him patience, warm water, malt and why dough rises.",
+      "newWords": [
+        "şişmek",
+        "malt",
+        "sabırsızlık",
+        "ılık",
+        "hafifçe",
+        "örtülü",
+        "deneyimli",
+        "ötmek",
+        "tüh",
+        "tas"
+      ],
+      "text": "Bir yıl önce Eskişehir'de küçük bir mahalle fırınında çalışmaya başladım. Ustam Hasan Bey otuz yıldır ekmek yapan, çok deneyimli bir adam. Fırına her sabah saat 4'te gelirdik. Mahallede horozlar daha ötmeden biz ilk hamuru hazırlamış olurduk.\n\nİlk haftalarda en büyük sorunum sabırsızlıktı. Hamuru hazırlar, üstünü bir bezle örter, sonra her beş dakikada bir bezi kaldırıp bakardım. Hasan Usta bir sabah gülerek omzuma dokundu:\n\n— Sen baktıkça hamur daha hızlı şişmez evladım. Hamur beklemeyi sever.\n\nSonra bana hamurun neden şiştiğini anlattı. Maya aslında canlı bir organizmadır. Hamurdaki şekeri yer ve bir gaz çıkarır. Bu gaz hamurun içinde küçük boşluklar oluşturur. Unun içindeki proteinler ise sakız gibi esnek bir ağ kurar ve gazın kaçmasına izin vermez. Hamur bu yüzden yavaş yavaş şişer. Ağ ne kadar güçlüyse ekmek o kadar yumuşak ve hafif olur.\n\nMayanın en sevdiği ortam ılık bir ortamdır. Çok sıcak su mayayı öldürür, soğuk su ise onu uyutur. Bu yüzden ustam hamuru her zaman ılık suyla hazırlardı. Suyun ılık olup olmadığını anlamak için termometre kullanmazdı; birkaç damlayı bileğine damlatırdı. Su bileğinde ne sıcak ne soğuk geliyorsa doğru sıcaklıktaydı.\n\nUstamın bir de küçük sırrı vardı: malt. Malt, önce filizlendirilip sonra kurutulan tahıldan yapılır. İçinde mayanın çok sevdiği basit şekerler bulunur. Hamura bir kaşık malt eklenince maya daha kolay beslenir. Malt ekmeğin kabuğunu da daha koyu ve parlak yapar.\n\nHamuru büyük bir bakır tasa koyar, tasın üstünü temiz bir bezle örterdik. Örtülü tas, fırının ılık bir köşesinde bir saat kadar beklerdi. Ustam hamurun üstünün her zaman örtülü kalmasını isterdi, çünkü açıkta kalan hamurun yüzeyi kurur ve sertleşir. Hamurun hazır olup olmadığını anlamak için parmağıyla hamura hafifçe bastırırdı. Parmağın bıraktığı çukur yavaşça geri doluyorsa hamur hazırdı. Hemen doluyorsa biraz daha beklemek gerekirdi. Ben de bunu denedim; ilk başta fazla bastırıyordum, sonra hafifçe dokunmayı öğrendim.\n\nBir sabah ustam izinliydi ve fırını ilk kez ben açtım. Acele ettim, suyu fazla sıcak koydum. Bir saat sonra bezi kaldırdım: Hamur hiç şişmemişti.\n\n— Tüh! dedim kendi kendime. Bütün sabah boşa gitti.\n\nErtesi gün ustama anlattım. Kızmadı.\n\n— Tüh, yazık olmuş, dedi. Ama iyi bir ders. Deneyimli usta, bu hatayı bir kez yapıp bir daha yapmayan kişidir.\n\nO günden beri sabırsızlığımla daha iyi baş ediyorum. Artık horozlar öterken hamurum çoktan tasta, sessizce şişiyor.\n\nSorular:\nYazar sabahları fırına ne zaman gelirdi?\nSaat 4'te, horozlar daha ötmeden gelirdi.\nHamur neden şişer?\nMaya şekeri yer ve bir gaz çıkarır; bu gaz hamurun içinde küçük boşluklar oluşturur.\nHasan Usta suyun ılık olduğunu nasıl anlardı?\nBirkaç damlayı bileğine damlatırdı.\nMalt hamura ne katar?\nMaya malt sayesinde daha kolay beslenir, ekmeğin kabuğu da daha koyu ve parlak olur.\nHamur neden şişmemişti?\nÇünkü yazar acele etmiş, suyu fazla sıcak koymuştu ve sıcak su mayayı öldürmüştü."
+    },
+    {
+      "title": "Alev değil, kor",
+      "summary": "An interview with an Adana grill master about why meat cooks on embers rather than flames, moving the skewers and keeping a busy evening in order.",
+      "newWords": [
+        "mangal",
+        "kor",
+        "manevra",
+        "koordinasyon",
+        "gösteriş",
+        "sema",
+        "şort",
+        "hoşnut"
+      ],
+      "text": "Halil Usta kırk yıldır Adana'da mangal başında. Dükkânının önündeki uzun mangal, yaz akşamları bütün mahalleye kokusunu yayar. Yaz sıcağında bile şort giymiyor; mangalın başında bacakları korumak gerektiğini söylüyor. Onunla mangalın, daha doğrusu korun bilimi üzerine konuştuk.\n\n— Halil Usta, mangalda en sık yapılan hata nedir?\n\n— Eti alevin üstünde pişirmek. İnsanlar alevi görünce hemen şişleri koyuyor. Oysa alev gösteriştir. Et alevde değil, korda pişer. Kömür önce yanar, sonra alevi söner, üstünü ince beyaz bir kül kaplar. İşte bu kor. Korun ısısı düzenlidir ve uzun sürer. Alev ise bir yeri yakar, bir yeri çiğ bırakır.\n\n— Peki et korda neden bu kadar lezzetli oluyor?\n\n— Etin yüzeyi yüksek ısıda kahverengileşir. Bu sırada yüzlerce yeni tat ve koku ortaya çıkar. Bilim insanları bunu kimyayla anlatıyor; ben formülünü bilmem ama kokusunu iyi bilirim. Bir de yağ var. Etin yağı kora damlayınca küçük bir duman çıkar. O duman da etin tadına karışır. Yalnız yağ çok damlarsa yine alev çıkar. O zaman şişi hemen kenara çekmek gerekir.\n\n— Mangal başında en önemli beceri hangisi?\n\n— Şişleri kora yaklaştırıp uzaklaştırmak. Ben buna manevra diyorum. Kor her yerde aynı sıcaklıkta değildir. Ortası çok sıcaktır, kenarları daha ılık kalır. Usta, şişlerin yerini sürekli değiştirir. Kalın parça ortaya, ince parça kenara. Bu manevraları yapmazsan etin dışı yanar, içi çiğ kalır. Çırakları ilk yıl yalnızca bu manevraları izlesinler diye yanıma alırım.\n\n— Kalabalık bir akşamda yirmi şişi aynı anda nasıl yönetiyorsunuz?\n\n— Koordinasyonla. Ben mangaldayım, oğlum ekmeği ve sebzeleri hazırlıyor, garson da masaları takip ediyor. Hepimiz birbirimizin ne yaptığını görürüz. Koordinasyon bozulursa ya et soğur ya ekmek yanar. Bu yüzden akşam başlamadan önce on dakika konuşur, kim ne yapacak belirleriz. İyi koordinasyon, iyi kordan sonra en önemli şeydir.\n\n— Televizyonda alevler içinde pişirilen etler gösteriliyor. Ne düşünüyorsunuz?\n\n— Görüntü güzel, kabul ediyorum. Ama o gösteriş içindir. Gösterişli bir alev fotoğrafta iyi durur, tabakta değil. Ben yemeği gösteriş için değil, müşteri için yaparım.\n\n— Sizi en çok ne mutlu ediyor?\n\n— Akşam olunca mangaldan yükselen duman semaya karışır. Semaya bakarım, yıldızlar çıkmıştır, masalar doludur. Sonra bir müşteri kalkarken hoşnut bir yüzle \"Ellerine sağlık usta,\" der. Benim için en büyük ödül budur. Müşteri hoşnutsa ben de hoşnutum.\n\n— Son olarak, yazın evde şort giyip mangal yakanlara ne önerirsiniz?\n\n— Önce şortu bırakıp uzun bir pantolon giysinler. Sonra sabırlı olsunlar, alevin sönmesini beklesinler. Alevin sönmesini beklemeyen, eti hep ya yanık ya çiğ yer.\n\nSorular:\nHalil Usta'ya göre mangalda en sık yapılan hata nedir?\nEn sık yapılan hata, eti alevin üstünde pişirmektir.\nKor nedir?\nKömürün alevi söndükten sonra üstünü ince beyaz bir kül kaplar; buna kor denir.\nHalil Usta'nın \"manevra\" dediği şey nedir?\nŞişleri kora yaklaştırıp uzaklaştırmak ve yerlerini sürekli değiştirmektir.\nKalabalık akşamlarda koordinasyon nasıl sağlanıyor?\nAkşam başlamadan önce on dakika konuşup kimin ne yapacağını belirliyorlar.\nHalil Usta neden şort giymiyor?\nÇünkü mangalın başında bacakları korumak gerektiğini düşünüyor."
+    },
+    {
+      "title": "Süt neden taşar?",
+      "summary": "A writer whose milk boils over one morning remembers her grandmother and learns why milk foams up while water does not.",
+      "newWords": [
+        "taşmak",
+        "kalsiyum",
+        "anımsamak",
+        "reçel",
+        "içilmek",
+        "sığ",
+        "neticede",
+        "kayıtsız"
+      ],
+      "text": "Bu sabah yine süt taştı. Sütü ocağa koymuş, ekmeğime vişne reçeli sürmeye başlamıştım. Reçel kavanozunun kapağıyla uğraşırken arkamdan bir ses geldi. Döndüğümde beyaz köpük tencerenin kenarından ocağa akıyordu. Mutfağı yanık süt kokusu kapladı.\n\nYıllarca bu olaya kayıtsız kaldım. Süt taşar, ocağı siler, işime devam ederdim. Ama bu sabah, elimde reçelli bir ekmekle ocağın başında dururken merak ettim: Su kaynayınca taşmıyor da süt neden taşıyor?\n\nBiraz okudum ve cevabın sütün yapısında olduğunu öğrendim. Süt yalnızca su değildir. İçinde yağ, şeker, proteinler ve kalsiyum gibi mineraller bulunur. Süt ısındıkça bu proteinlerin bir kısmı yağla birleşir ve yüzeyde ince bir zar oluşturur. Bu zarı hepimiz biliriz; soğuyan sütün üstünde kalan o ince tabakadır. Süt kaynamaya başlayınca alttan buhar yükselir. Su kaynarken buhar yüzeye çıkıp kolayca dağılır. Sütte ise zar buharın önünü keser. Buhar zarın altında birikir, zarı yukarı iter ve bir köpük oluşur. Köpük birkaç saniye içinde tencerenin kenarına ulaşır ve süt taşar.\n\nOcağın üstünde kalan sert beyaz leke de boşuna sert değildir. O leke büyük ölçüde yanmış proteinlerden ve kalsiyumdan oluşur. Kalsiyum kemiklerimiz için çok değerlidir ama ocağın üstüne yapışınca temizlenmesi çok zordur.\n\nSonra anneannemi anımsadım. O, süt ocaktayken mutfaktan asla çıkmazdı. Sütü hep derin bir tencereye koyar, sığ tencere kullanmazdı. Şimdi nedenini anlıyorum: Sığ bir tencerede köpüğün yükselecek yeri yoktur. Bir de tencerenin üstüne tahta bir kaşık koyardı. Köpük yükselip tahtaya değince içindeki küçük kabarcıklar patlar, süt de kolay kolay taşmaz. Çocukken bunu bir tür sihir sanırdım. Şimdi bunun basit bir fizik olduğunu öğrendim.\n\nAnneannemle ilgili bir şeyi daha anımsıyorum. Onun evinde süt her zaman sıcak içilirdi. Kışın bir bardak sıcak süt bal ile içilirdi, yazın ise soğuk ayran tercih edilirdi. Köyden gelen çiğ süt ise kaynatılmadan asla içilmezdi. Bugün bunun da bir bilimsel nedeni olduğunu biliyorum: Kaynatmak sütteki zararlı mikropları öldürür.\n\nNeticede bu sabah ocağı yine temizlemek zorunda kaldım. Reçelli ekmeğim soğudu, kahvaltım gecikti. Ama neticede bir şey de öğrendim. Artık sütü derin bir tencereye koyuyorum, ateşi kısıyorum ve ocağın başından ayrılmıyorum. Süte kayıtsız kalırsanız süt de size kayıtsız kalmıyor; ilk fırsatta taşıyor.\n\nSorular:\nSüt taştığında yazar ne yapıyordu?\nEkmeğine vişne reçeli sürüyordu ve reçel kavanozunun kapağıyla uğraşıyordu.\nSüt neden taşar?\nProteinler ve yağ yüzeyde bir zar oluşturur, buhar bu zarın altında birikir ve bir köpük oluşur.\nOcakta kalan beyaz leke neden oluşur?\nBüyük ölçüde yanmış proteinlerden ve kalsiyumdan oluşur.\nYazarın anneannesi neden sığ tencere kullanmazdı?\nÇünkü sığ bir tencerede köpüğün yükselecek yeri yoktur ve süt hemen taşar.\nAnneannenin evinde çiğ süt nasıl içilirdi?\nÇiğ süt kaynatılmadan asla içilmezdi."
+    },
+    {
+      "title": "İki kardeş, bir tencere sarma",
+      "summary": "In Ayvalık two sisters compete every holiday over whose stuffed vine leaves are better, and a niece explains the science behind their different styles.",
+      "newWords": [
+        "sarma",
+        "sarımsak",
+        "baharat",
+        "tutarlı",
+        "üslup",
+        "birliktelik",
+        "bütünlük",
+        "çekişmek",
+        "dokuzuncu",
+        "memnuniyet"
+      ],
+      "text": "Ayvalık'taki ailemizde her bayram aynı tatlı yarışma yaşanır. Teyzem Emine ile annem Hatice, kimin yaprak sarmasının daha güzel olduğu konusunda yıllardır çekişir. Bu yıl bu çekişmenin dokuzuncu yılıydı. Ben de bu kez bir gıda mühendisi olarak iki kaba bilimsel bir gözle bakmaya karar verdim.\n\nÖnce ikisinin üslubunu anlatayım. Annemin üslubu sade ve düzenlidir. Sarmalarını kalem gibi ince sarar; her sarma neredeyse aynı boyda ve kalınlıktadır. İçine yalnızca pirinç, soğan, biraz biber ve tuz koyar. Teyzemin üslubu ise daha cömerttir. Sarmaları biraz daha kalındır. İçine bol baharat koyar, bir de küçük kuru üzüm ve ince kıyılmış sarımsak katar. Annem sarımsağı sarmaya yakıştırmaz. Teyzem ise \"Sarımsağı olmayan sarma, tuzu olmayan ekmeğe benzer,\" der.\n\nPeki bilim ne diyor? İlk konu sarmanın ne kadar sıkı sarıldığı. Pirinç pişerken suyu emer ve neredeyse iki kat büyür. Yaprak çok sıkı sarılırsa pirincin büyüyecek yeri kalmaz; yaprak patlar, sarma açılır. Çok gevşek sarılırsa da sarma pişerken dağılır. Annem bunu yıllar içinde elleriyle öğrenmiş. Sarmaları ne çok sıkı ne çok gevşek, hep aynı tutarlı biçimde sarar. Tutarlı sarılan sarmalar aynı sürede pişer. Teyzemin bazı sarmaları kalın, bazıları ince olduğu için kalın olanlar bazen biraz sert kalır.\n\nİkinci konu baharat. Baharatların kokusunu veren maddelerin çoğu suda değil, yağda daha iyi çözülür. Teyzem baharatları önce yağda kısa bir süre ısıttığı için kokuları bütün kaba yayılır. Sarımsağın keskin tadı da pişince yumuşak ve tatlı bir hâl alır. Üzümün şekeri ile limonun ekşi tadı birbirini dengeler.\n\nÜçüncü konu ise bütünlük. İyi bir yemekte malzemelerin her biri ayrı ayrı öne çıkmaz; hepsi bir bütünlük oluşturur. Annemin sarmasında bu bütünlük sade olmasından gelir. Teyzemin sarmasında ise farklı tatların birlikteliğinden. Pirinç, yağ, limon ve baharatların birlikteliği, sarma soğuyup dinlendikçe güçlenir. Bu yüzden soğuk yenen sarma ertesi gün daha lezzetlidir.\n\nBayram sabahı iki büyük tabak masaya kondu. Babam, kuzenlerim ve komşular iki tabaktan da tattı. Bu dokuzuncu yarışmanın sonucu, önceki sekiz yılın sonucuyla aynıydı: Herkes iki sarmayı da beğendi. Masada büyük bir memnuniyet vardı. Annem kardeşinin sarmalarını memnuniyetle bitirdi, teyzem de annemin sarmasından üç tane daha aldı.\n\nBana göre bu çekişme hiçbir zaman bitmeyecek. Zaten bitmesine de gerek yok. İki farklı üslup, iki farklı kap; ama aynı sofrada, aynı memnuniyetle yeniyor.\n\nSorular:\nEmine ile Hatice hangi konuda çekişiyor?\nKimin yaprak sarmasının daha güzel olduğu konusunda çekişiyorlar.\nHatice'nin üslubu nasıldır?\nSade ve düzenlidir; sarmalarını ince ve hep aynı tutarlı biçimde sarar.\nTeyze sarmanın içine neler koyuyor?\nBol baharat, küçük kuru üzüm ve ince kıyılmış sarımsak koyuyor.\nYaprak çok sıkı sarılırsa ne olur?\nPirincin büyüyecek yeri kalmaz, yaprak patlar ve sarma açılır.\nDokuzuncu yarışmanın sonucu ne oldu?\nHerkes iki sarmayı da beğendi ve masada büyük bir memnuniyet vardı."
+    },
+    {
+      "title": "Sporcunun tabağı",
+      "summary": "A sports dietitian who works with a basketball team, a marathon runner, a karate athlete and a cyclist explains how each one should eat.",
+      "newWords": [
+        "basket",
+        "atlet",
+        "maraton",
+        "karate",
+        "şut",
+        "asist",
+        "astım",
+        "kask",
+        "arma"
+      ],
+      "text": "Esra Aksoy, İzmir'de sporcularla çalışan bir beslenme uzmanı. Haftanın üç günü bir kadın basket takımıyla, diğer günlerde de tek tek sporcularla çalışıyor. Ona sporcuların tabağında neler olması gerektiğini sorduk.\n\n— Esra Hanım, bir basket oyuncusu ile bir maraton koşucusu aynı şekilde mi beslenir?\n\n— Hayır, çok farklı beslenirler. Basket kısa ve hızlı hareketlerden oluşan bir oyundur. Oyuncu sıçrar, durur, döner, şut atar. Maraton ise saatlerce aynı hızda koşmaktır. Maratondan önceki üç gün atletlerimiz bol makarna, pilav ve ekmek yer. Bu yiyeceklerdeki nişastalı besinler kaslarda enerji olarak depolanır. Maratonun son kilometrelerinde bu depo çok değerlidir. Basket oyuncusunun ise her gün dengeli bir tabağa ihtiyacı vardır: biraz tahıl, biraz protein, bol sebze.\n\n— Maç sırasında beslenmenin etkisi görülür mü?\n\n— Kesinlikle görülür. Maçın son dakikalarında şutlar kısa kalıyorsa, bu çoğu zaman yorgunluktan değil, susuzluktan olur. Vücut suyunu kaybedince kaslar arasındaki koordinasyon bozulur. Bizim takımın oyun kurucusu geçen sezon maç başına ortalama sekiz asist yapıyordu. Ama ikinci yarılarda asist sayısı düşüyordu. Maç öncesi ve devre arasında düzenli su içmeye başlayınca ikinci yarılarda da aynı sayıda asist yapmaya başladı. Doğru şut ve doğru asist, biraz da doğru beslenmeyle gelir.\n\n— Bireysel sporlarda durum nasıl?\n\n— Karate yapan bir sporcum var, Ayla. Karatede sporcular kilolarına göre gruplara ayrılır. Ayla maçtan önceki günlerde aç kalarak kilo vermek istiyordu. Ben buna izin vermedim, çünkü aç bir sporcu güçsüz bir sporcudur. Kilosunu haftalar önceden, yavaş yavaş ayarladık. Bir de bisiklet yarışlarına katılan bir sporcumuz var. Bisikletçiler kaskın altında çok terler. Yazın uzun bir antrenmandan sonra kaskını çıkardığında saçları sırılsıklam olur. Ona tuzlu bir ayran içmesini öneriyorum; ter ile kaybettiği suyu ve tuzu yerine koyar.\n\n— Sağlık sorunu olan sporcularla da çalışıyor musunuz?\n\n— Evet. Takımımızdaki bir oyuncunun astımı var. Astım spor yapmaya engel değildir; dünyaca ünlü birçok atletin de astımı vardır. Ama astımı olan sporcunun, doktorunun önerilerine dikkatle uyması gerekir. Biz de beslenme tarafında elimizden geleni yapıyoruz: bol sebze ve meyve, düzenli öğünler, maçtan hemen önce ağır yemek yok.\n\n— Bu işte sizi en çok ne heyecanlandırıyor?\n\n— Oyuncularımın formasında takımın arması var. O armayı taşıyan herkes sahada elinden gelenin en iyisini yapmak istiyor. Ben de o armanın altında görünmeyen bir oyuncu gibiyim. Kimse beni sahada görmüyor ama her şutta, her asistte biraz benim de payım var.\n\nSorular:\nEsra Hanım hangi takımla çalışıyor?\nİzmir'de bir kadın basket takımıyla çalışıyor.\nMaraton koşan atletler yarıştan önce ne yer?\nMaratondan önceki üç gün bol makarna, pilav ve ekmek yerler.\nMaçın sonunda şutlar neden kısa kalabilir?\nÇoğu zaman susuzluk yüzünden; vücut suyunu kaybedince kaslar arasındaki koordinasyon bozulur.\nEsra Hanım bisiklet yarışlarına katılan sporcuya ne öneriyor?\nUzun bir antrenmandan sonra tuzlu bir ayran içmesini öneriyor.\nAstımı olan sporcu ne yapmalı?\nDoktorunun önerilerine dikkatle uymalı ve düzenli beslenmeli."
+    },
+    {
+      "title": "Yağdan korkmalı mıyız?",
+      "summary": "A columnist weighs the old fear of fat against what we now know about digestion and bile, and argues for a calmer, kinder way of eating.",
+      "newWords": [
+        "safra",
+        "yetmezlik",
+        "hastalıklı",
+        "kanaat",
+        "zihniyet",
+        "paranoyak",
+        "umutsuzluk",
+        "kırıcı"
+      ],
+      "text": "1990'larda büyüyen pek çok kişi gibi ben de yağdan korkarak büyüdüm. Televizyonda \"yağsız\" yazan ürünlerin reklamları vardı. Annem bir dönem yemeklere yağ koymayı neredeyse bıraktı. O yıllarda yaygın olan zihniyet basitti: Yağ düşmandır, ne kadar az yersen o kadar iyidir. Bugün bu zihniyetin ne kadar doğru olduğunu sormak istiyorum.\n\nÖnce vücudumuzun yağla ne yaptığına bakalım. Yağ suda çözülmez. Bir bardak suya bir kaşık zeytinyağı dökerseniz yağ yüzeyde büyük damlalar hâlinde kalır. Bağırsaklarımız da benzer bir sorunla karşılaşır. Burada safra devreye girer. Safra, karaciğerde üretilen ve safra kesesinde saklanan sarı yeşil bir sıvıdır. Yağlı bir yemek yediğimizde safra kesesi safrayı bağırsağa gönderir. Safra, büyük yağ damlalarını sabun gibi çok küçük damlalara ayırır. Ancak bu küçük damlalar sindirilebilir. Yani vücudumuz yağı kullanmak için özel bir sistem kurmuştur. Üstelik bazı vitaminler ancak yağ ile birlikte emilebilir.\n\nÖte yandan yağın her türü aynı değildir ve fazlası elbette zararlıdır. Bazı hastalıklarda doktorlar beslenmenin dikkatle düzenlenmesini ister. Örneğin kalp yetmezliği ya da böbrek yetmezliği olan hastalar tuz ve yağ konusunda doktorlarının önerilerine uymalıdır. Bu tür bir yetmezlik söz konusuysa kararı kişi değil, doktor verir. Ama sağlıklı bir insan için zeytinyağlı bir yemek, bir avuç ceviz ya da bir dilim peynir korkulacak şeyler değildir.\n\nBenim asıl kaygım başka bir konuda. Yiyeceklerle kurduğumuz ilişki bazen hastalıklı bir hâl alıyor. Tanıdığım bazı kişiler her lokmanın gramını hesaplıyor, her etiketi dakikalarca okuyor. Bir arkadaşım bir akşam yemekte salatanın üstüne bir kaşık zeytinyağı döküldü diye tabağına dokunmadı. Bu kadar paranoyak olmak, bence yağın kendisinden daha çok zarar veriyor. Yemeği bir düşman gibi gören bu hastalıklı bakış, sofradaki keyfi de yok ediyor. Paranoyak bir beslenme alışkanlığı bir süre sonra umutsuzluğa dönüşebiliyor. Kişi \"doğru\" yemeyi başaramadıkça kendini suçluyor, bu umutsuzluk da onu daha katı kurallara itiyor.\n\nBir de başkalarının tabağına yapılan yorumlar var. \"Bunu mu yiyeceksin?\", \"Yine mi tatlı?\" gibi sözler kulağa masum gelir ama çoğu zaman çok kırıcıdır. Kırıcı bir söz, insanın yemekle ilişkisini yıllarca etkileyebilir. Kimsenin tabağı bizim denetimimizde değil.\n\nBenim kanaatim şu: Yağ ne düşmandır ne de mucize. Vücudumuz onu sindirmek için safra gibi akıllı bir sistem kurmuş; bunu bilmek bile korkuyu azaltıyor. Herkesin kendi doktoruna danışarak, kendi vücudunu dinleyerek beslenmesi gerektiği kanaatindeyim. Sofrada hesap makinesi değil, sohbet olmalı.\n\nSorular:\n1990'larda yaygın olan zihniyet neydi?\nYağın düşman olduğu ve ne kadar az yenirse o kadar iyi olduğu düşünülüyordu.\nSafra nerede üretilir ve ne işe yarar?\nKaraciğerde üretilir; büyük yağ damlalarını çok küçük damlalara ayırır.\nKimler yağ ve tuz konusunda doktorlarının önerilerine uymalıdır?\nKalp yetmezliği ya da böbrek yetmezliği olan hastalar uymalıdır.\nYazara göre paranoyak beslenme neye dönüşebilir?\nBir süre sonra umutsuzluğa dönüşebilir; bu hastalıklı bakış sofradaki keyfi de yok eder.\nYazarın kanaati nedir?\nYağın ne düşman ne de mucize olduğu, herkesin doktoruna danışarak ve vücudunu dinleyerek beslenmesi gerektiğidir."
+    },
+    {
+      "title": "Berlin'den bir kase yoğurt",
+      "summary": "In a letter to her mother, a woman living in Berlin describes how her homemade yogurt kept failing in her cold flat and how she finally got it right.",
+      "newWords": [
+        "avro",
+        "yazıcı",
+        "büyükelçilik",
+        "alfabe",
+        "manga",
+        "fal",
+        "piyango",
+        "malik",
+        "romantizm"
+      ],
+      "text": "Sevgili anneciğim,\n\nSana bu mektubu mutfaktan yazıyorum. Önümde bir kase yoğurt var ve bu yoğurdu ben yaptım. Bu kadar basit bir şey için mektup yazdığıma gülme; bu kaseye ulaşmak tam üç hafta sürdü.\n\nBiliyorsun, burada marketlerde satılan yoğurt bizim yoğurda benzemiyor. Hem çok sulu hem de pahalı; küçük bir kase neredeyse üç avro. Torunun Ömer her sabah yoğurt istediği için ayda kırk avroyu yalnızca yoğurda veriyordum. Ben de senin tarifini denemeye karar verdim. Telefonda anlattıklarını yazıcıdan çıkarıp buzdolabının kapağına yapıştırdım. Ömer de altına kendi alfabesiyle bir şey yazmış. Son zamanlarda Japon çizgi romanları okuyor; bunlara manga deniyor. Manga okumak için Japon alfabesini öğrenmeye çalışıyor. Yazıcıdan çıkan tarifin altına da o alfabeyle \"anneannenin yoğurdu\" yazdığını iddia ediyor.\n\nİlk denemede sütü kaynattım, senin dediğin gibi ılık olana kadar bekledim, maya olarak bir kaşık yoğurt ekledim ve tencereyi battaniyeye sardım. Sabah kalktığımda süt hâlâ süttü. İkinci denemede de aynısı oldu. Sonra komşum Leyla Hanım'a sordum. Kendisi Türk, bu binada otuz yıldır yaşıyor. Onun bir açıklaması vardı: Bizim daire geceleri çok soğuyor. Yoğurdu yapan küçük bakteriler ılık bir ortam ister. Sütteki şekeri yiyip ekşi bir maddeye çevirirler; süt de bu sayede yoğurda dönüşür. Ortam soğursa bakteriler yavaşlar ve çalışmayı bırakır. Leyla Hanım tencereyi gece boyunca lambası açık fırının içinde tutmamı önerdi. Fırının lambası küçük bir ısı verir, bu da bakterilere yeter. Üçüncü denemede gerçekten oldu! Sabah tencerenin kapağını açınca sevinçten bağırdım.\n\nMayayı nereden bulduğumu da anlatayım. Büyükelçiliğin birkaç sokak ötesinde küçük bir Türk bakkalı var. Geçen ay büyükelçiliğe pasaport işim için gitmiştim; dönüşte bu dükkânı tesadüfen gördüm. Kapının üstünde eski usul bir tabela var: \"Dükkânın maliki Halil Bey.\" İçeride sumak, nar ekşisi, köy yoğurdu, her şey var. Bu dükkânı bulmak benim için piyango gibiydi! Halil Bey Malatya'danmış. Dükkânın maliki olduğu kadar herkesin sohbet arkadaşı da o. Büyükelçilik yakınında olduğu için müşterilerinin çoğu da Türk.\n\nLeyla Hanım'ı teşekkür için kahveye çağırdım. Kahveden sonra fincanı kapattı ve falıma baktı. Falımda \"uzun bir yolculuk ve güzel bir haber\" görmüş. Ben fala inanmam, biliyorsun, ama fal bahanesiyle iki saat sohbet ettik.\n\nBelki diyeceksin ki bu yoğurt işinde bir romantizm var. Haklısın. Market yoğurdu daha kolay; ama annemin tarifiyle yaptığım yoğurdun romantizmi başka. Ömer de artık her sabah anneannesinin tarifiyle yapılan bu yoğurdu yiyor.\n\nSeni çok özledim. Ellerinden öperim.\n\nKızın Zehra\n\nSorular:\nZehra yoğurt yapmaya neden karar verdi?\nMarketteki yoğurt bizim yoğurda benzemiyordu, hem sulu hem de pahalıydı.\nİlk iki denemede yoğurt neden olmadı?\nDaire geceleri çok soğuyordu ve soğukta bakteriler yavaşlayıp çalışmayı bırakıyordu.\nLeyla Hanım ne önerdi?\nTencereyi gece boyunca lambası açık fırının içinde tutmasını önerdi.\nZehra mayayı nereden buldu?\nBüyükelçiliğin birkaç sokak ötesindeki küçük bir Türk bakkalından buldu; bu dükkânı bulmak onun için piyango gibiydi.\nÖmer neden Japon alfabesini öğreniyor?\nJapon çizgi romanları, yani manga okumak için öğreniyor."
+    },
+    {
+      "title": "Tavadaki çizikler",
+      "summary": "A food engineering student spends a day in the university lab, scanning scratched pans and measuring how fast thick and thin pans heat up.",
+      "newWords": [
+        "tunç",
+        "çizik",
+        "kalınlık",
+        "eğri",
+        "kanalizasyon",
+        "taramak",
+        "ring"
+      ],
+      "text": "Merve, Ankara'da gıda mühendisliği okuyor. Bu dönem bir hocasının projesinde çalışıyor: Mutfakta kullanılan tavaların yüzeyi zamanla nasıl değişiyor? Bu yazıda onun laboratuvardaki bir gününü anlatıyoruz.\n\nMerve sabah 8'de yurdun önünden ring servisine biniyor. Ring, kampüsün içinde dolaşan küçük bir otobüs. Yurttan mühendislik binasına ringle gitmek on dakika sürüyor. Kış sabahlarında ring hep dolu oluyor, bu yüzden Merve çoğu zaman ayakta gidiyor.\n\nLaboratuvarda onu bir masa dolusu eski tava bekliyor. Hepsi yıllarca kullanılmış yapışmaz tavalar. Yüzeylerinde ince çizikler var. Çiziklerin çoğu metal çatal ve kaşıklardan, bazıları da sert bulaşık süngerlerinden kalmış. Merve'nin işi bu çizikleri özel bir cihazla taramak. Cihaz tavanın yüzeyini milimetre milimetre tarıyor ve her çiziğin derinliğini ölçüyor. Bir tavayı taramak yaklaşık bir saat sürüyor. Bilgisayar ekranında yüzey, dağlar ve vadilerle dolu bir harita gibi görünüyor.\n\nMerve'nin ilk bulgusu şu: Derin çiziklerin olduğu yerlerde yapışmaz tabaka incelmiş ya da tamamen kalkmış. Yemek tam bu noktalara yapışıyor. Hocası, çizik bir tavanın yapışmaz özelliğini kaybettiğini, bu yüzden tahta ya da silikon kaşık kullanmanın önemli olduğunu söylüyor.\n\nÖğleden sonra ikinci deney başlıyor. Bu kez konu tavanın tabanının kalınlığı. Merve aynı ocağa sırayla üç tava koyuyor: ince bir alüminyum tava, kalın tabanlı bir çelik tava ve müzeden ödünç alınmış eski bir tunç kap. Tunç, bakır ile kalayın karışımından oluşan çok eski bir maddedir; insanlar binlerce yıl önce tunçtan kaplar yapmıştı. Merve her tavanın yüzeyine küçük ısı ölçerler yerleştiriyor ve sıcaklığı her saniye kaydediyor.\n\nAkşama doğru bilgisayar her tava için bir eğri çiziyor. İnce tavanın eğrisi çok hızlı yükseliyor; tava birkaç dakikada ısınıyor ama ısı yüzeye eşit dağılmıyor, ortası yanarken kenarları soğuk kalıyor. Kalın tabanlı tavanın eğrisi daha yavaş ama daha düzgün yükseliyor. Kalınlık, ısının yüzeyin her yerine eşit yayılmasını sağlıyor. Tunç kabın eğrisi ise ikisinin arasında bir yerde. Merve bu üç eğriyi yan yana koyunca hocasının neden \"Tavanın kalınlığı, tarifin yarısıdır\" dediğini anlıyor.\n\nGünün sonunda temizlik var. Laboratuvarın en önemli kuralı lavabonun üstüne asılmış: \"Yağı lavaboya dökmeyin!\" Sıcak yağ lavabodan akarken sıvıdır ama kanalizasyonda soğuyunca katılaşır. Borulara yapışır, zamanla kanalizasyonu tıkar. Merve deneylerde kullanılan yağı bir şişede topluyor. Bu şişeler daha sonra toplama merkezine götürülüyor.\n\nMerve akşam 6'da yine ring servisine biniyor. Ring yurda doğru ilerlerken telefonundaki üç eğriye bakıyor. Yarın dördüncü tavayı tarayacak.\n\nSorular:\nMerve kampüste nasıl dolaşıyor?\nKampüsün içinde dolaşan ring servisine biniyor.\nMerve tavaları nasıl inceliyor?\nTavaların yüzeyini özel bir cihazla tarıyor ve her çiziğin derinliğini ölçüyor.\nDerin çiziklerin olduğu yerlerde ne oluyor?\nYapışmaz tabaka incelmiş ya da kalkmış oluyor ve yemek bu noktalara yapışıyor.\nKalın tabanlı tavanın eğrisi nasıl yükseliyor?\nDaha yavaş ama daha düzgün yükseliyor, çünkü kalınlık ısıyı eşit yayıyor.\nYağ neden lavaboya dökülmemeli?\nÇünkü kanalizasyonda soğuyunca katılaşır, borulara yapışır ve kanalizasyonu tıkar."
+    },
+    {
+      "title": "Yıldızların altında hamsi",
+      "summary": "A software engineer spends a winter night on his uncle's fishing boat off Trabzon, watching a meteor shower and learning why fresh fish should be cooked at once.",
+      "newWords": [
+        "dümen",
+        "meteor",
+        "saltanat",
+        "bilhassa",
+        "rahatlatıcı",
+        "tefek",
+        "kripto"
+      ],
+      "text": "Sinan İstanbul'da bir yazılım şirketinde çalışıyor. Şirketi kripto paralarla ilgili programlar geliştiriyor. Günleri ekran başında, kripto piyasasının rakamları arasında geçiyor. Aralık ayında birkaç gün izin aldı ve Trabzon'a, balıkçı dayısı Yusuf'un yanına gitti.\n\nYusuf'un küçük bir teknesi var. Kışın Karadeniz'de hamsinin saltanatı sürer. Balıkçılar \"Hamsi kışın sofraların sultanıdır,\" der. Bu saltanat birkaç ay sürer; hamsi o aylarda hem bol hem de en lezzetli hâlindedir.\n\nBir akşam Sinan dayısıyla birlikte denize açıldı. Yusuf dümende duruyordu. Dümeni sakin bir şekilde çeviriyor, tekneyi kıyıdan uzaklaştırıyordu. Sinan ilk kez bir teknenin dümenine dokundu. Dayısı ona dümeni nasıl tutacağını gösterdi: Hafif hareketler, ani dönüşler yok.\n\nGece çok soğuktu ama gökyüzü açıktı. Yusuf yukarıyı gösterdi:\n\n— Aralıkta bu gecelerde meteor yağmuru olur. Bak, işte bir tane!\n\nGerçekten de gökyüzünde parlak bir çizgi belirip kayboldu. Sonra bir meteor daha, sonra bir tane daha. Sinan saatlerce ekrana bakan gözleriyle şimdi meteorları sayıyordu. Dalgaların teknenin kenarına vuran sesi çok rahatlatıcıydı. Uzun zamandır bu kadar rahatlatıcı bir akşam geçirmediğini düşündü.\n\nAğlar çekildiğinde içinden gümüş renginde yüzlerce hamsi çıktı. Aralarında başka ufak tefek balıklar da vardı. Yusuf ufak tefek olanları denize geri attı.\n\n— Onlar büyüsün, seneye gelsinler, dedi.\n\nSonra küçük bir tüplü ocak yaktı ve hamsileri hemen tavaya koydu. Sinan neden eve dönmeyi beklemediklerini sordu. Yusuf açıkladı: Balık sudan çıktıktan sonra çok çabuk bozulmaya başlar. Bu, bilhassa hamsi gibi yağlı ve küçük balıklar için geçerlidir. Balığın içindeki maddeler ve üzerindeki küçük canlılar, balık ölür ölmez etini yumuşatmaya başlar. Taze balık deniz gibi kokar; o ağır \"balık kokusu\" ise balık bekledikçe ortaya çıkar. Bu yüzden balıkçılar yakaladıkları balığı ya hemen buza koyar ya da hemen pişirir. Yusuf, bilhassa soğuk kış gecelerinde teknede pişen hamsinin tadının hiçbir lokantada bulunamayacağını söyledi.\n\nHamsiler mısır ununa bulanıp kızartıldı. Sinan bir tane ağzına attı. Dışı çıtır, içi yumuşacıktı. Yusuf gülümsedi:\n\n— Senin kripto paraların böyle bir tat verir mi?\n\nSinan da güldü. Kripto piyasasını o gece bir kez bile düşünmemişti.\n\nGece yarısı kıyıya döndüler. Yusuf yine dümendeydi. Sinan son bir meteor görmek için gökyüzüne baktı ve gördü.\n\nSorular:\nSinan'ın şirketi ne iş yapıyor?\nKripto paralarla ilgili programlar geliştiriyor.\nBalıkçılar hamsi için ne der?\n\"Hamsi kışın sofraların sultanıdır,\" derler; kışın hamsinin saltanatı sürer.\nSinan gökyüzünde ne gördü?\nBir meteor yağmuru gördü; parlak çizgiler belirip kayboluyordu.\nYusuf ufak tefek balıkları neden denize geri attı?\nBüyümeleri ve seneye gelmeleri için geri attı.\nHamsi neden hemen pişirildi?\nÇünkü balık sudan çıktıktan sonra çok çabuk bozulmaya başlar, bilhassa hamsi gibi yağlı ve küçük balıklar."
+    }
+  ]
+}

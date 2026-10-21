@@ -1,0 +1,193 @@
+{
+  "id": "tr-mini-5100",
+  "rankUpTo": 5100,
+  "level": "C1",
+  "title": "Tarih",
+  "description": "Ten standalone history stories, columns, a review and an interview: an old fortress, an Ottoman archive, a hospital of music in Edirne, the last samurai, the neighbourhood grocer, the Devrim car, a grandmother's school diary, fertiliser, a historian's craft and the map of Piri Reis.",
+  "topic": "History",
+  "names": [
+    "Yedikule",
+    "İstanbul",
+    "Hasan",
+    "Bursa",
+    "Osmanlı",
+    "Osmanlıca",
+    "Ömer",
+    "İzmir",
+    "Edirne",
+    "Türk",
+    "Japon",
+    "Japonya",
+    "Tokugawa",
+    "Mehmet",
+    "Eskişehir",
+    "Türkiye",
+    "Ankara",
+    "Hatice",
+    "Avrupa",
+    "Amerika",
+    "Alman",
+    "Fritz Haber",
+    "Carl Bosch",
+    "Merve",
+    "Aydoğan",
+    "İbn Haldun",
+    "Gelibolu",
+    "Lapseki",
+    "Piri Reis",
+    "Kolomb",
+    "Topkapı",
+    "Akdeniz"
+  ],
+  "lessons": [
+    {
+      "title": "Yedikule'de bir sabah",
+      "summary": "A visitor tours the old dungeons of Yedikule Fortress in İstanbul, where a guide describes the pitiful conditions of the past and calmly dismisses the legend of a cursed tower.",
+      "newWords": [
+        "zindan",
+        "selamlamak",
+        "uzunca",
+        "kırpmak",
+        "acınası",
+        "hareketsiz",
+        "lanetli",
+        "inandırıcı"
+      ],
+      "text": "Geçen cumartesi, yıllardır görmek istediğim Yedikule'ye gittim. Bu eski kale, İstanbul'un surlarının yanında, denize yakın bir yerde duruyor. 15. yüzyılda yapılmış ve yedi kulesi olduğu için bu adı almış. Sonraki yüzyıllarda kulelerden bazıları zindan olmuş. Kalenin taş duvarlarını, kulelerini ve bahçesini çok merak ediyordum, ama benim asıl merakım bu zindanlardı. Okulda tarih derslerinde onlardan söz edildiğini hatırlıyordum.\n\nKapıda bizi genç bir rehber karşıladı. Gülümseyerek her ziyaretçiyi tek tek selamladı, sonra bütün grubu bir kez daha selamladı ve tura başladık. Önce bahçede uzunca bir süre yürüdük. Rehber, kalenin nasıl yapıldığını ve duvarların neden bu kadar kalın olduğunu anlattı. Ben onu göz kırpmadan dinliyordum.\n\nSonra dar bir merdivenden kulelerden birinin altına indik. İçerisi karanlık ve serindi. Rehber, \"Burası eski bir zindan,\" dedi. \"Yüzlerce yıl önce insanlar burada aylarca, bazen yıllarca kalmış.\" Duvarda küçük bir delik vardı; içeri giren ışık çok azdı. Rehber, zindandaki koşulların acınası olduğunu söyledi: Su azmış, hava kötüymüş, yatak yokmuş. Gerçekten de bu acınası odada birkaç dakika kalmak bile zordu.\n\nGrubumuzdaki yaşlı bir adam duvarın önünde hareketsiz duruyordu. Uzunca bir süre hiç kıpırdamadı. Sonra bana döndü ve \"Bazıları bu kulenin lanetli olduğunu söylüyor, siz ne dersiniz?\" diye sordu. Ben gülümsedim ve rehbere baktım. Rehber bu soruyu sık sık duyduğunu anlattı. Ona göre lanetli kule hikâyeleri ilginç ama hiçbiri inandırıcı değil. \"Lanetli olan duvarlar değil, burada yaşanan zor hayatlar,\" dedi. \"Tarihi anlamak için inandırıcı belgelere bakmalıyız, korkutucu hikâyelere değil.\"\n\nTurun sonunda surların üstüne çıktık. Denizden gelen serin rüzgâr yüzüme vuruyordu. Bir yanda karanlık zindan, öbür yanda mavi deniz vardı. Gözlerimi kırpmadan uzunca bir süre bu manzaraya baktım. Aşağıdaki hareketsiz taşlar bana bir şeyi hatırlattı: Tarih yalnızca sultanların değil, sıradan insanların da hikâyesidir.\n\nSorular:\nYazar geçen cumartesi nereye gitti?\nYıllardır görmek istediği Yedikule'ye gitti.\nBu eski kale Yedikule adını neden almış?\nYedi kulesi olduğu için bu adı almış.\nRehber tura başlamadan önce ne yaptı?\nHer ziyaretçiyi tek tek selamladı, sonra bütün grubu bir kez daha selamladı.\nRehbere göre zindandaki koşullar nasılmış?\nKoşullar acınasıymış: Su azmış, hava kötüymüş, yatak yokmuş.\nYaşlı adam yazara ne sordu?\nKulenin lanetli olduğunu söyleyenler hakkında ne düşündüğünü sordu.\nRehber lanetli kule hikâyeleri hakkında ne düşünüyor?\nBu hikâyelerin ilginç olduğunu ama hiçbirinin inandırıcı olmadığını düşünüyor."
+    },
+    {
+      "title": "Arşivde bir berat",
+      "summary": "A retired accountant searches the Ottoman archive for his ancestor, a blacksmith, and with the help of a friend who teaches Ottoman Turkish finds the warrant that made him head of the city's blacksmiths.",
+      "newWords": [
+        "muhasebeci",
+        "demirci",
+        "pir",
+        "ilahiyat",
+        "yoğunlaşmak",
+        "berat",
+        "peşin",
+        "orantılı",
+        "müsteşar",
+        "ıslah"
+      ],
+      "text": "Kırk yıl muhasebeci olarak çalıştım. Bütün hayatım rakamlar, defterler ve hesaplarla geçti. Emekli olunca kendime yeni bir uğraş aradım ve ailemin geçmişini araştırmaya karar verdim. Babamdan hep aynı hikâyeyi dinlemiştim: Dedesinin dedesi Hasan Usta, Bursa'da ünlü bir demirciymiş. Hasan Usta işinin piri sayılırmış; şehirdeki bütün demirciler zor bir işte ona danışırmış.\n\nBu hikâyenin belgesini bulmak için İstanbul'daki Osmanlı arşivine başvurdum. Ama ilk gün büyük bir sorunla karşılaştım: Belgeler eski yazıyla yazılmıştı ve ben tek kelime okuyamıyordum. Neyse ki eski bir arkadaşım, ilahiyat fakültesinde Osmanlıca dersleri veren Ömer Bey, bana yardım etmeyi kabul etti. Ömer Bey gençken ilahiyat okumuş, ama yıllardır eski belgelerle uğraşıyor.\n\nArşivde günlerce çalıştık. Okuma salonu sessizdi; herkes önündeki belgeye yoğunlaşmıştı. Ben de yoğunlaşmaya çalışıyordum ama eski yazının kıvrımları gözümü yoruyordu. Üçüncü gün Ömer Bey heyecanla bir kâğıdı gösterdi: Bu bir berattı. Berat, padişahın birine bir görev ya da bir hak verdiğini gösteren resmî bir belgedir. Bu beratta, Hasan adlı bir demircinin Bursa demircilerinin başına getirildiği yazıyordu. Babamın anlattığı hikâye doğruydu!\n\nMuhasebeci gözüm hemen beratın alt kısmındaki rakamlara gitti. Ömer Bey açıkladı: Berat alan kişi, bunun için devlete peşin bir ücret ödermiş. Ücret peşin ödenmeden berat verilmezmiş. Ayrıca esnafın ödediği vergi, kazandığı parayla orantılıymış; az kazanan az, çok kazanan çok ödermiş. Bu orantılı sistem bana çok tanıdık geldi, çünkü bugün de vergilerin önemli bir kısmı kazançla orantılı.\n\nBir hafta sonra aynı dosyada başka bir belge bulduk. Bu, 19. yüzyılda bir müsteşarın yazdığı bir mektuptu. Müsteşar, esnafın ıslahı için yeni kurallar öneriyordu. Ömer Bey, o dönemde devletin birçok alanı ıslah etmeye çalıştığını anlattı. Müsteşarın mektubuna göre ıslah edilmesi gereken ilk konu ölçü ve tartılardı, çünkü bazı esnaf müşteriyi yanlış tartıyla aldatıyormuş.\n\nArşivden çıkarken kendimi tuhaf bir şekilde mutlu hissettim. Kırk yıl başkalarının hesaplarını tutmuştum; şimdi ilk kez kendi ailemin hesabını, yani hikâyesini tutuyordum.\n\nSorular:\nYazar emekli olmadan önce ne iş yapıyordu?\nKırk yıl muhasebeci olarak çalışıyordu.\nBabasının anlattığı hikâyeye göre Hasan Usta kimdi?\nBursa'da ünlü bir demirciydi ve işinin piri sayılırdı.\nÖmer Bey yazara nasıl yardım etti?\nİlahiyat fakültesinde Osmanlıca dersleri veren Ömer Bey, eski yazıyla yazılmış belgeleri okudu.\nBerat nedir?\nPadişahın birine bir görev ya da bir hak verdiğini gösteren resmî bir belgedir.\nEsnafın vergisi nasıl hesaplanırmış?\nVergi, esnafın kazandığı parayla orantılıymış.\nMüsteşar mektubunda ne öneriyordu?\nEsnafın ıslahı için yeni kurallar öneriyordu."
+    },
+    {
+      "title": "Suyun ve müziğin şifası",
+      "summary": "An operating-theatre nurse, resting after cracking two ribs, visits the old hospital in Edirne where patients of the mind were once soothed with music and the sound of water, and brings the lesson back to her own work.",
+      "newWords": [
+        "ameliyathane",
+        "kaburga",
+        "psikiyatri",
+        "anlayışlı",
+        "gam",
+        "tasavvuf",
+        "susturmak",
+        "revir",
+        "taburcu"
+      ],
+      "text": "Yirmi yıldır İzmir'de bir hastanede, ameliyathanede hemşire olarak çalışıyorum. Ameliyathane benim için hızlı, parlak ve gürültülü bir yerdir: makinelerin sesleri, kısa cümleler, koşan ayaklar. Geçen kış merdivende düştüm ve iki kaburgam çatladı. Doktor birkaç hafta dinlenmemi söyledi. Kaburgalarım iyileşirken uzun zamandır görmek istediğim bir yere, Edirne'deki Sağlık Müzesi'ne gittim.\n\nMüze, 15. yüzyılın sonunda yapılmış büyük bir yapı grubunun içinde. Bu yapıların en önemlisi, o dönemde \"şifahane\" denilen hastaneydi. Burada her türlü hasta tedavi edilirmiş, ama burayı asıl ünlü yapan, ruh hastalarına gösterilen özenmiş. Bugünün diliyle söylersek, burası bir tür psikiyatri merkeziymiş. Psikiyatri bir bilim dalı olarak çok daha sonra doğdu; yine de bu binada hastalara şaşırtıcı derecede anlayışlı davranılmış.\n\nRehberimiz, hastaların müzikle tedavi edildiğini anlattı. Müzisyenler haftada birkaç gün gelir, kubbenin altında çalarmış. Türk müziğinde Batı müziğindeki gam yerine \"makam\" denilen ses dizileri kullanılır ve her makamın ruha farklı bir etkisi olduğuna inanılırmış. Rehber, bir gamı ve bir makamı karşılaştırmamız için iki kısa kayıt dinletti. Gam bana düz bir merdiven gibi geldi; makam ise daha kıvrımlı bir yol gibiydi. Bu müzikte tasavvuf müziğinin de etkisi varmış. Tasavvuf, insanın kendi iç dünyasına dönmesini öğütleyen bir düşünce yoludur; bu yüzden tasavvuf müziği de sakin ve derindir.\n\nMüzik kadar suyun sesi de önemliymiş. Ortadaki küçük havuzun sesi, huzursuz hastaları sakinleştirirmiş. Doktorlar bağıran bir hastayı zorla susturmak yerine onu suyun ve müziğin sesiyle sakinleştirmeye çalışırmış. Bunu duyunca kendi işimi düşündüm. Biz de korkan bir hastayı susturmak zorunda değiliz; onu anlamak zorundayız.\n\nMüzede bir de küçük bir revir canlandırılmış. Revirdeki yataklar, ilaç kapları ve doktorların aletleri sergileniyor. Anlatılana göre hastalar iyileşince taburcu edilir, taburcu olurken de onlara yeni elbise ve biraz para verilirmiş.\n\nEdirne'den dönerken kaburgalarımın ağrısı azalmıştı. Bir hafta sonra yeniden ameliyathanedeydim. Ama artık ameliyattan önce korkan hastalarla biraz daha uzun konuşuyorum, bazen onlara sakin bir müzik açıyorum. Beş yüz yıl önceki doktorlar bana, anlayışlı olmanın da bir tedavi olduğunu hatırlattı.\n\nSorular:\nYazar nerede çalışıyor?\nİzmir'de bir hastanede, ameliyathanede hemşire olarak çalışıyor.\nYazar neden birkaç hafta dinlenmek zorunda kaldı?\nMerdivende düştüğü ve iki kaburgası çatladığı için dinlenmek zorunda kaldı.\nEdirne'deki şifahaneyi ünlü yapan neydi?\nRuh hastalarına gösterilen özendi; burası bir tür psikiyatri merkeziydi.\nYazar gamı ve makamı nasıl karşılaştırıyor?\nGam ona düz bir merdiven gibi, makam ise daha kıvrımlı bir yol gibi geldi.\nDoktorlar huzursuz hastaları nasıl sakinleştirirmiş?\nOnları zorla susturmak yerine suyun ve müziğin sesiyle sakinleştirmeye çalışırmış.\nHastalar taburcu olurken onlara ne verilirmiş?\nYeni elbise ve biraz para verilirmiş."
+    },
+    {
+      "title": "Kılıcını bırakan sınıf",
+      "summary": "A reader reviews a history book about the samurai in the long peace and after the decrees of 1876, when a proud class laid down its swords and became teachers, merchants and labourers.",
+      "newWords": [
+        "samuray",
+        "gururlu",
+        "hükmetmek",
+        "sürdürmek",
+        "hançer",
+        "kararname",
+        "emekçi"
+      ],
+      "text": "Samuray denince çoğumuzun aklına filmler gelir: kılıcını çeken, korkusuz, gururlu adamlar. Geçenlerde Japon tarihi üzerine okuduğum bir kitap, bu resmin yalnızca küçük bir parçası olduğunu gösterdi. Kitap, samurayların savaş alanından çok, uzun bir barış döneminde nasıl yaşadığını anlatıyor.\n\n1600'lerin başından 1868'e kadar Japonya'ya Tokugawa ailesinden gelen şogunlar hükmetti. İmparator sarayında otururdu, ama ülkeye asıl hükmeden şogundu. Bu iki yüz elli yıl boyunca ülkede büyük bir savaş olmadı. Peki savaş olmayınca samuraylar ne yaptı? Kitaba göre çoğu bir memur gibi çalıştı: hesap tuttu, vergi topladı, mektup yazdı. Yine de kılıç taşımayı sürdürmek onlar için çok önemliydi. Bir samuray belinde iki kılıç taşırdı, bir uzun, bir de kısa kılıç. Bazıları bunların yanında küçük bir hançer de taşırdı. Bu kılıçlar ve hançer, bir silahtan çok, sınıflarının işaretiydi.\n\n1868'de her şey değişti. Yeni yönetim ülkeyi hızla değiştirmek istiyordu. 1876'da çıkan bir kararname ile samurayların sokakta kılıç taşıması yasaklandı. Aynı yıl başka bir kararname, devletin samuraylara yıllardır ödediği maaşları da kaldırdı. Yüzyıllardır gururla taşınan kılıçlar ve hançerler birkaç yıl içinde sandıklara ve müzelere girdi.\n\nKitabın en ilginç bölümü, bu kararnamelerden sonraki hayatı anlatan bölüm. Gururlu bir sınıf, bir gün kendini sıradan insanların arasında buldu. Bazıları öğretmen oldu, bazıları tüccar, bazıları da tarlada ya da fabrikada çalışan birer emekçi. Yazar, eski bir samurayın günlüğünden bir parça aktarıyor: \"Babam bana kılıç kullanmayı öğretti. Ben oğluma pirinç tarlasında çalışmayı öğretiyorum.\" Bu satırlarda hem hüzün hem de gururlu bir kabul var.\n\nYazara göre samurayların değerleri, bu sınıf ortadan kalkınca yok olmadı. Yazar, disiplin, sadakat ve işe saygı gibi değerlerin fabrikalardaki emekçilerin ve okullardaki öğretmenlerin hayatında yaşamayı sürdürdüğünü anlatıyor. Bazı tarihçiler, Japonya'nın hızlı gelişmesinde bu değerlerin de payı olduğunu düşünüyor. Bazıları ise bunu fazla romantik bir açıklama olarak görüyor. Kitap bu iki görüşü de adil bir şekilde tartışıyor ve okura son kararı bırakıyor.\n\nKitabı kapattığımda aklımda filmlerdeki kahramanlar değil, kılıcını sandığa koyup tarlaya giden o adam vardı. Tarih bazen büyük olaylarla değil, böyle sessiz değişimlerle yazılıyor.\n\nSorular:\nSamuray denince çoğu insanın aklına ne gelir?\nFilmlerdeki korkusuz, gururlu adamlar gelir.\n1600'lerin başından 1868'e kadar Japonya'ya kim hükmetti?\nTokugawa ailesinden gelen şogunlar hükmetti.\nBarış döneminde samuraylar ne iş yaptı?\nÇoğu bir memur gibi çalıştı: hesap tuttu, vergi topladı, mektup yazdı.\n1876'da çıkan kararname neyi yasakladı?\nSamurayların sokakta kılıç taşımasını yasakladı.\nKararnamelerden sonra samuraylar ne oldu?\nBazıları öğretmen, bazıları tüccar, bazıları da tarlada ya da fabrikada çalışan birer emekçi oldu.\nYazara göre samurayların değerleri nerede yaşamaya devam etti?\nFabrikalardaki emekçilerin ve okullardaki öğretmenlerin hayatında yaşamaya devam etti."
+    },
+    {
+      "title": "Mahallenin bakkalı",
+      "summary": "A columnist from İzmir remembers the neighbourhood grocer of his childhood: the only radio in the street with its aerial on the roof, the credit book, morning gevrek and the slang word papel.",
+      "newWords": [
+        "bakkal",
+        "anten",
+        "alışılmadık",
+        "gevrek",
+        "papel",
+        "argo",
+        "karlı"
+      ],
+      "text": "İzmir'de büyüdüm ve çocukluğumun en canlı yeri mahallemizin bakkalıydı. Bakkalın sahibi Mehmet Amca'ydı. Büyük marketlerin her köşede açıldığı bugünlerde, mahalle bakkalının tarihine biraz bakmak istiyorum.\n\nBabamın anlattığına göre 1950'lerde mahallede radyosu olan tek yer Mehmet Amca'nın bakkalıymış. Dükkânın damında uzun bir anten varmış. Rüzgâr çıktığında anten eğilir, Mehmet Amca da merdivene çıkıp anteni düzeltirmiş. Akşamları mahallenin erkekleri bakkalın önünde toplanır, haberleri ya da maçı dinlermiş. O yıllarda bu, alışılmadık bir manzara değildi; radyo pahalıydı ve her eve giremiyordu.\n\nBakkal yalnızca bir dükkân değildi; bir haber merkezi, bir buluşma yeri ve bazen de bir bankaydı. Mehmet Amca'nın tezgâhının altında kalın bir \"veresiye defteri\" dururdu. Parası olmayan aile alacağını alır, borcunu ay sonunda öderdi. Bu sistem bugün bize alışılmadık gelebilir ama o zaman mahalledeki güvenin bir işaretiydi.\n\nSabahları bakkalın önünden gevrek kokusu gelirdi. İzmir'de simide gevrek denir; bunu başka şehirlerden gelen arkadaşlarıma anlatmak her zaman zor olmuştur. Mehmet Amca'nın dükkânında gevrek, peynir ve çay, bütün bir mahallenin kahvaltısı demekti. Ben de okul yolunda bir gevrek alır, parasını cebimdeki bozuk paralarla öderdim.\n\nMehmet Amca liraya her zaman \"papel\" derdi: \"Bir papel ver, iki gevrek al.\" Papel, liranın argodaki adıdır. Annem bu kelimeyi sevmezdi; argo bir kelimenin çocuk ağzına yakışmadığını düşünürdü. Oysa Mehmet Amca için argo, insanlara yakın olmanın bir yoluydu. Dilimizdeki pek çok argo kelime gibi papel de çarşıda, pazarda, dükkânlarda doğmuş ve oradan bütün şehre yayılmış.\n\nPeki bakkallık kârlı bir iş miydi? Mehmet Amca'nın oğlu bir gün bana babasının hiçbir zaman zengin olmadığını anlattı. Dükkân çok kârlı değildi ama aileyi geçindiriyordu. 1980'lerden sonra büyük marketler açılınca bakkallık daha da az kârlı hâle geldi. Bugün o eski dükkânda bir telefon tamircisi var.\n\nYine de ne zaman bir gevrek alsam, mahallenin bakkalını hatırlarım: damdaki anteni, tezgâhın altındaki defteri ve \"Bir papel ver\" diyen o sıcak sesi.\n\nSorular:\nBabasının anlattığına göre 1950'lerde mahallede radyosu olan tek yer neresiydi?\nMehmet Amca'nın bakkalıydı.\nRüzgâr çıktığında Mehmet Amca ne yaparmış?\nMerdivene çıkıp anteni düzeltirmiş.\nVeresiye defteri ne işe yarıyordu?\nParası olmayan aile alacağını alır, borcunu ay sonunda öderdi.\nİzmir'de simide ne denir?\nİzmir'de simide gevrek denir.\nPapel ne demek ve yazarın annesi bu kelime hakkında ne düşünürdü?\nPapel, liranın argodaki adıdır. Annesi argo bir kelimenin çocuk ağzına yakışmadığını düşünürdü.\nBakkallık kârlı bir iş miydi?\nÇok kârlı değildi ama aileyi geçindiriyordu."
+    },
+    {
+      "title": "Devrim'in yüz metresi",
+      "summary": "A visitor to Eskişehir tells the story of the Devrim cars of 1961, built by hand in 129 days, the empty fuel tank that made the headlines, and the car's revival half a century later.",
+      "newWords": [
+        "dişli",
+        "hiza",
+        "gevşek",
+        "manşet",
+        "hemfikir",
+        "torpido",
+        "diriliş"
+      ],
+      "text": "Eskişehir'e gidenlere hep aynı şeyi öneririm: Tren fabrikasının bahçesindeki küçük müzeye uğrayın ve camın arkasında duran siyah arabaya bakın. Bu araba, 1961'de Türkiye'de tasarlanıp yapılan ilk otomobil olan Devrim'dir.\n\nHikâye kısaca şöyle: 1961 yazında bir grup mühendise, dört buçuk ay içinde bir otomobil yapma görevi verildi. Mühendisler Eskişehir'deki demiryolu atölyesinde gece gündüz çalıştı. Motorun dişlilerini, kapıların parçalarını, hatta direksiyonu bile kendileri çizip kendileri ürettiler. Her parçayı elle yaptılar; bir dişli yerine tam oturmazsa onu baştan yeniden yaptılar. Tekerleklerin hizasını ayarlamak günler sürdü, çünkü hiza bozuk olursa araba yolda bir yana çekerdi. Bu kadar kısa sürede yapılan bir arabada bazı vidaların gevşek kalması da doğaldı; mühendisler her deneme sürüşünden sonra gevşek vidaları tek tek sıkıyordu. Sonunda, 129 gün sonra, dört araba hazırdı.\n\nArabalar Ankara'ya trenle götürüldü. Güvenlik için depolardaki benzin boşaltılmıştı. Tanıtım günü telaş içinde arabalardan birinin deposunu doldurmayı unuttular. Araba yaklaşık yüz metre gitti ve durdu. Ertesi gün bazı gazetelerin manşetleri bu küçük olayla dalga geçti. Manşetlerde arabanın kendisinden çok, benzinsiz kalması konuşuldu. Oysa ikinci araba hiçbir sorun çıkarmadan yoluna devam etmişti.\n\nProje kısa süre sonra durduruldu. Bunun nedenleri konusunda tarihçiler hemfikir değil. Bazıları maliyetin çok yüksek olduğunu, bazıları da seri üretim için gereken fabrikanın olmadığını söylüyor. Ama bir konuda herkes hemfikir: Mühendisler bu kısa sürede olağanüstü bir iş başardı.\n\nMüzedeki arabayı yakından incelediğimde küçük ayrıntılar dikkatimi çekti. Torpido son derece sade; üzerinde yalnızca birkaç gösterge var. Bugünün ekranlarla dolu torpidolarını düşününce, o sade torpido bana neredeyse bir sanat eseri gibi geldi.\n\nDevrim'in asıl dirilişi ise 2008'de oldu. O yıl çekilen bir film, bu unutulmuş hikâyeyi milyonlarca insana anlattı. Filmden sonra bu arabayı merak edenlerin sayısı arttı. Bence bu diriliş bize önemli bir şey söylüyor: Başarısız görünen bir deneme de, doğru anlatıldığında yeni kuşaklara cesaret verebilir.\n\nSorular:\nDevrim arabası ne zaman yapıldı?\n1961'de yapıldı.\nMühendisler arabaları nerede ve kaç günde yaptı?\nEskişehir'deki demiryolu atölyesinde, 129 günde yaptılar.\nTekerleklerin hizası neden önemliydi?\nHiza bozuk olursa araba yolda bir yana çekerdi.\nMühendisler gevşek vidalar için ne yapıyordu?\nHer deneme sürüşünden sonra gevşek vidaları tek tek sıkıyordu.\nTanıtım günü arabalardan biri neden durdu?\nDeposunu doldurmayı unuttukları için benzinsiz kaldı.\nTarihçiler hangi konuda hemfikir?\nMühendislerin kısa sürede olağanüstü bir iş başardığı konusunda hemfikir."
+    },
+    {
+      "title": "Ninemin günlüğü",
+      "summary": "A woman finds the diary her grandmother kept in 1958 at a boarding school in Bursa: the scholarship exam, the nanny who packed her suitcase with peaches and a lucky stone, a night-time fire drill and the feelings of adolescence.",
+      "newWords": [
+        "yatılı",
+        "kontenjan",
+        "dadı",
+        "valiz",
+        "bisküvi",
+        "şeftali",
+        "uğurlu",
+        "tatbikat",
+        "ergenlik"
+      ],
+      "text": "Geçen ay ninemin evini toplarken bir sandığın dibinde mavi kapaklı küçük bir defter buldum. Bu, ninemin 1958'de, on üç yaşındayken tuttuğu günlüktü. O yıl ninem Bursa'daki bir kız okuluna yatılı öğrenci olarak gitmiş. Günlüğü okurken yalnızca ninemi değil, o dönemin okul hayatını da tanıdım.\n\nNinem bir köyde büyümüş. Okumak için parasız yatılı sınavına girmiş. Günlüğün ilk sayfasında bu sınavı anlatıyor: \"Kontenjan çok azmış. Bizim ilden yalnızca beş kız alınacakmış. Kontenjanı duyunca ellerim titredi.\" Sınavı kazanmış ve eylülde yola çıkmış.\n\nNinemin çocukluğunda evlerinde yaşlı bir dadı varmış. Herkes ona Hatice Dadı diyormuş. Annesi tarlada çalıştığı için ninemi asıl büyüten bu dadıymış. Ninem günlükte ayrılık gününü şöyle yazmış: \"Dadım valizimi hazırladı. Valizin içine elbiselerimi, iki paket bisküvi ve bahçeden topladığı şeftalileri koydu. Sonra elime küçük, mavi bir taş verdi. 'Bu taş uğurludur, sana şans getirir,' dedi.\" Ninem o uğurlu taşı ömrü boyunca saklamış; aynı sandıkta, günlüğün yanında duruyordu.\n\nYatılı okulun ilk haftaları zor geçmiş. Günlükte sık sık \"Dadımı özledim\" yazıyor. Şeftaliler iki günde bitmiş, bisküvileri ise yeni arkadaşlarıyla paylaşmış. Bir gece yarısı okulda yangın tatbikatı yapılmış: \"Zil çaldı, hepimiz geceliklerimizle bahçeye koştuk. Ben uğurlu taşımı almayı unutmadım. Öğretmen bunun yalnızca bir tatbikat olduğunu söyleyince hepimiz güldük.\" Tatbikattan sonra kızlar sabaha kadar konuşmuş ve ninem ilk gerçek arkadaşlarını o gece edinmiş.\n\nGünlüğün sonraki sayfalarında ergenliğin bütün tanıdık duyguları var: bir arkadaşa küsmek, aynaya bakıp üzülmek, bir öğretmene hayran olmak. Ergenlik, 1958'de de bugün olduğu gibi karışık bir dönemmiş. Bunları okumak beni hem güldürdü hem de duygulandırdı, çünkü on üç yaşındaki kızımın ergenlikte yaşadıklarıyla ninemin duyguları arasında pek fark yoktu.\n\nNinem yatılı okulu bitirdikten sonra öğretmen olmuş ve kırk yıl köy okullarında çalışmış. Günlüğü kızıma da okuttum. Kızım okuduktan sonra bana yalnızca şunu sordu: \"Ninemin uğurlu taşını ben saklayabilir miyim?\"\n\nSorular:\nYazar ninesinin günlüğünü nerede buldu?\nNinesinin evindeki bir sandığın dibinde buldu.\nNinesi 1958'de nereye gitti?\nBursa'daki bir kız okuluna yatılı öğrenci olarak gitti.\nSınavın kontenjanı nasıldı?\nKontenjan çok azdı; ilden yalnızca beş kız alınacaktı.\nDadı valizin içine neler koydu?\nElbiseleri, iki paket bisküvi ve bahçeden topladığı şeftalileri koydu.\nYangın tatbikatından sonra ne oldu?\nKızlar sabaha kadar konuştu ve ninesi ilk gerçek arkadaşlarını o gece edindi.\nYazarın kızı günlüğü okuduktan sonra ne sordu?\nNinesinin uğurlu taşını saklayıp saklayamayacağını sordu."
+    },
+    {
+      "title": "Havadan ekmek",
+      "summary": "A grandson asks his grandfather what fertiliser he uses on his garden of squashes and loofahs, and traces the history of fertiliser from manure to the synthesis of ammonia from nitrogen and hydrogen.",
+      "newWords": [
+        "kabak",
+        "lif",
+        "sentetik",
+        "gübre",
+        "verimlilik",
+        "hidrojen",
+        "küçülmek",
+        "susuz",
+        "farkındalık"
+      ],
+      "text": "Dedemin Bursa yakınlarındaki köyünde küçük bir bahçesi var. Her yaz orada domates, biber ve kabak yetiştirir. Bahçenin bir köşesinde de benim çok sevdiğim bir bitki büyür: lif kabağı. Bu kabak yenmez; kurutulur, içindeki lifler çıkarılır ve banyoda kullanılır. Dedemin hazırladığı lifler, marketteki sentetik liflerden çok daha yumuşaktır. Geçen yaz dedeme bahçesinde hangi gübreyi kullandığını sordum. Cevabı beni gübrenin tarihine kadar götürdü.\n\nDedem bahçesinde yalnızca hayvan gübresi kullanıyor. Yüzyıllar boyunca çiftçilerin elindeki gübre de buydu: hayvan gübresi, çürümüş yapraklar ve kül. Bitkilerin büyümesi için azot gerekir. İşin ilginç yanı, soluduğumuz havanın yaklaşık beşte dördü azottur; ama bitkiler havadaki bu azotu doğrudan kullanamaz. Bu yüzden toprağın verimliliği, büyük ölçüde ona eklenen gübreye bağlıydı.\n\n19. yüzyılda dünya nüfusu hızla artınca bu gübre yetmemeye başladı. Avrupa, Güney Amerika'daki adalardan gemilerle kuş gübresi satın alıyordu. Bilim insanları ise başka bir yol arıyordu: havadaki azotu bitkilerin kullanabileceği bir hâle getirmek.\n\n1909'da Alman kimyacı Fritz Haber bunu laboratuvarda başardı. Haber, havadaki azotu hidrojenle birleştirerek amonyak elde etti. Bunun için çok yüksek bir sıcaklık ve basınç gerekiyordu. Birkaç yıl sonra mühendis Carl Bosch bu yöntemi büyük fabrikalara taşıdı. Bugün de gereken hidrojen çoğunlukla doğal gazdan elde ediliyor. Kısacası sentetik gübre, havadan ve hidrojenden yapılan bir besindir.\n\nSentetik gübrenin tarıma etkisi çok büyük oldu. Tarlaların verimliliği birkaç kat arttı. Bazı uzmanlara göre bugün dünyada yaşayan insanların neredeyse yarısı bu sayede beslenebiliyor. Verimlilik artınca bir ailenin geçinmesi için gereken tarla da küçüldü. Tarlaların küçülmesi ise köylerden şehirlere göçü hızlandırdı.\n\nAma her yeni yöntem gibi bunun da bir bedeli var. Fazla kullanılan gübre yağmurla derelere ve göllere karışıyor, suyu kirletiyor. Susuz bölgelerde ise toprağa çok gübre vermek tek başına işe yaramıyor, çünkü susuz kalan bitki gübreyi kullanamıyor. Son yıllarda çiftçiler arasında bu konuda bir farkındalık oluşuyor. Toprağı ölçmeden gübre vermemek ve her tarlaya ihtiyacı kadar gübre kullanmak, bu farkındalığın sonuçları.\n\nDedem bütün bunları kitaplardan değil, kendi bahçesinden öğrenmiş. \"Toprağa ne verirsen onu alırsın,\" diyor. Bu yaz bahçeden on iki lif kabağı topladık. Liflerden birini şimdi banyomda kullanıyorum ve her seferinde havadan ekmek yapan o buluşu düşünüyorum.\n\nSorular:\nDedenin bahçesinde hangi bitkiler yetişiyor?\nDomates, biber, kabak ve lif kabağı yetişiyor.\nLif kabağı ne için kullanılır?\nKurutulur, içindeki lifler çıkarılır ve banyoda kullanılır.\nBitkiler havadaki azotu doğrudan kullanabilir mi?\nHayır, bitkiler havadaki azotu doğrudan kullanamaz.\nFritz Haber 1909'da neyi başardı?\nHavadaki azotu hidrojenle birleştirerek amonyak elde etti.\nSentetik gübre tarımı nasıl etkiledi?\nTarlaların verimliliği birkaç kat arttı ve bir ailenin geçinmesi için gereken tarla küçüldü.\nSusuz bölgelerde çok gübre vermek neden işe yaramıyor?\nÇünkü susuz kalan bitki gübreyi kullanamıyor."
+    },
+    {
+      "title": "Bir tarihçiyle söyleşi",
+      "summary": "In an interview, a historian who writes for high-school students explains her wall of sticky notes, why history is a puzzle without the picture on the box, and how to spot a forged document.",
+      "newWords": [
+        "söyleşi",
+        "yapışkan",
+        "bulmaca",
+        "idrak",
+        "odaklı",
+        "filozof",
+        "kandırma"
+      ],
+      "text": "Tarihçi Merve Aydoğan yıllardır lise öğrencileri için tarih kitapları yazıyor. Son kitabı, geçmişi bir dedektif gibi okumayı öğretiyor. Kendisiyle Ankara'daki çalışma odasında bir söyleşi yaptık. Odanın duvarları renk renk yapışkan notlarla doluydu.\n\n— Duvarlardaki bu yapışkan notlar ne anlatıyor?\n\n— Her biri bir soru, diye gülüyor Merve Hanım. Yeni bir konuya başlarken aklıma gelen her soruyu yapışkan bir nota yazıp duvara yapıştırırım. Cevabını bulduğum notu kaldırırım. Duvar boşalınca kitap da biter.\n\n— Kitabınızda tarihi bir bulmacaya benzetiyorsunuz. Neden?\n\n— Çünkü geçmiş bize hiçbir zaman tam bir resim olarak gelmez. Elimizde bir mektup, bir hesap defteri, birkaç fotoğraf vardır; parçaların çoğu kayıptır. Tarihçinin işi, bu eksik bulmacayı tamamlamaya çalışmaktır. Ama sıradan bir bulmacadan farklı olarak, burada kutunun üstünde bitmiş bir resim yoktur.\n\n— Okullarda tarih genellikle yıl ve isim ezberlemek olarak görülüyor. Siz ne düşünüyorsunuz?\n\n— Ezberlemek tek başına anlamak değildir. Bir öğrenci bir antlaşmanın yılını bilebilir, ama o dönemde insanların nasıl yaşadığını idrak etmeyebilir. Ben olay odaklı değil, insan odaklı bir tarih öğretimini savunuyorum. Yani yalnızca \"Ne oldu?\" diye değil, \"İnsanlar bunu nasıl yaşadı?\" diye de sormak gerekiyor. İnsan odaklı bir anlatım, öğrencinin geçmişi gerçekten idrak etmesine yardım eder.\n\n— Bu yaklaşımda size yol gösteren biri var mı?\n\n— Elbette: 14. yüzyılda yaşamış filozof ve tarihçi İbn Haldun. O, tarihçilerin duydukları her hikâyeye inanmasını eleştirmişti. Bir haberin doğru olup olmadığını akla ve toplumun yapısına bakarak sınamak gerektiğini söylemişti. Bir filozofun gözüyle tarihe bakmak, yani \"Bu gerçekten mümkün mü?\" diye sormak, bugün de bir tarihçinin en önemli alışkanlığıdır.\n\n— Sahte belgeler de tarihin bir parçası mı?\n\n— Maalesef evet. Tarih boyunca kandırmaya yönelik pek çok belge yazılmış. Kimi bir aileye eski ve soylu bir geçmiş vermek için, kimi bir toprağın sahibi olduğunu kanıtlamak için. Bir belgede kandırma olup olmadığını anlamak için kâğıdına, mürekkebine ve dilinin o döneme uyup uymadığına bakarız. Öğrencilerime bunu öğretmeyi çok seviyorum, çünkü bu beceri bugün internetteki haberler için de geçerli.\n\n— Son olarak gençlere ne önerirsiniz?\n\n— Ailenizin büyükleriyle konuşun. Onların hikâyeleri de bulmacanın bir parçası. Ve her duyduğunuza hemen inanmayın; iyi bir tarihçi gibi önce soru sorun.\n\nSöyleşimiz bittiğinde, duvardaki yapışkan notlardan birinde şu soru yazıyordu: \"Bizden yüz yıl sonra bizi nasıl anlatacaklar?\"\n\nSorular:\nMerve Aydoğan'ın çalışma odasının duvarları neyle doluydu?\nRenk renk yapışkan notlarla doluydu.\nMerve Hanım duvardaki notları ne zaman kaldırıyor?\nBir sorunun cevabını bulduğunda o notu kaldırıyor.\nMerve Hanım tarihi neden bir bulmacaya benzetiyor?\nÇünkü geçmiş hiçbir zaman tam bir resim olarak gelmez; parçaların çoğu kayıptır ve tarihçi eksik bulmacayı tamamlamaya çalışır.\nMerve Hanım nasıl bir tarih öğretimini savunuyor?\nOlay odaklı değil, insan odaklı bir tarih öğretimini savunuyor.\nFilozof İbn Haldun tarihçileri neden eleştirmişti?\nDuydukları her hikâyeye inandıkları için eleştirmişti.\nBir belgede kandırma olup olmadığını anlamak için nelere bakılır?\nKâğıdına, mürekkebine ve dilinin o döneme uyup uymadığına bakılır."
+    },
+    {
+      "title": "Gelibolu'da bir harita",
+      "summary": "A teacher crosses to Gelibolu to prepare a lesson, visits the small Piri Reis Museum and learns how a young deckhand became the maker of the famous map of 1513.",
+      "newWords": [
+        "ışıl",
+        "süzülmek",
+        "tayfa",
+        "sarsmak",
+        "yürekli",
+        "misyon"
+      ],
+      "text": "Geçen bahar, öğrencilerime anlatacağım bir dersi hazırlamak için Gelibolu'ya gittim. Lapseki'den vapura bindim. Deniz ışıl ışıldı; martılar vapurun üstünde rüzgârda süzülüyordu. Yarım saat sonra Gelibolu'nun küçük limanındaydım. Limanın hemen yanında, eski bir taş kulenin içinde küçük bir müze var: Piri Reis Müzesi.\n\nPiri Reis 15. yüzyılın ikinci yarısında Gelibolu'da doğmuş. Gelibolu o dönemde önemli bir denizcilik merkeziymiş. Piri, çocuk yaşta amcasının gemilerine katılmış ve tayfa olarak denize açılmış. Bir tayfanın hayatı kolay değildi: halat çekmek, yelkenleri onarmak, gece boyunca nöbet tutmak... Genç Piri, gemideki tayfayla birlikte çalışırken bir yandan da gördüğü her limanı, her koyu ve her tehlikeli kayayı not edermiş.\n\nMüzenin görevlisi, Piri Reis'in en ünlü eseri olan 1513 tarihli dünya haritasını anlattı. Harita ceylan derisi üzerine çizilmiş. Piri Reis bu haritayı hazırlamak için yaklaşık yirmi eski haritayı karşılaştırmış. Bunlardan biri, Amerika'yı yeni görmüş olan Kolomb'un bir haritasıymış. Bu harita yüzyıllarca unutulmuş ve ancak 1929'da Topkapı Sarayı'nda bulunmuş. Görevliye göre bu buluş, o yıllarda harita tarihçilerinin dünyasını sarsmış, çünkü Kolomb'un kayıp haritasının izleri bu haritada görülüyormuş.\n\nPiri Reis'in ikinci büyük eseri bir kitap: Akdeniz'in kıyılarını, limanlarını ve tehlikeli yerlerini anlatan bir denizcilik rehberi. Görevli, kitapta fırtınaların gemileri nasıl sarstığını anlatan satırlar olduğunu söyledi. O dönemde denize açılmak gerçekten yürekli olmayı gerektiriyordu. Ama Piri Reis'e göre yürekli olmak yetmezdi; iyi bir denizci kıyıyı, rüzgârı ve yıldızları da tanımalıydı.\n\nGörevli bana müzenin misyonunu da anlattı: Gelibolu'nun denizcilik geçmişini korumak ve bunu gençlere tanıtmak. Bu misyon bana tanıdık geldi. Bir öğretmen olarak benim misyonum da buna benziyor: geçmişin ışığını bugüne taşımak.\n\nDönüşte vapur denizin üstünde sessizce süzülüyordu. Akşam güneşinde deniz yine ışıl ışıl parlıyordu. Piri Reis'in beş yüz yıl önce bu aynı sularda tayfa olarak çalıştığını düşündüm. Ertesi hafta öğrencilerime haritanın bir kopyasını gösterdim. En sessiz öğrencim elini kaldırdı ve sordu: \"Öğretmenim, o zaman uçak da uydu da yoktu. Bu haritayı nasıl bu kadar doğru çizmiş?\" Dersin geri kalanı bu soruyla geçti.\n\nSorular:\nYazar Gelibolu'ya neden gitti?\nÖğrencilerine anlatacağı bir dersi hazırlamak için gitti.\nVapurdan bakınca deniz ve martılar nasıldı?\nDeniz ışıl ışıldı; martılar rüzgârda süzülüyordu.\nPiri Reis denize nasıl açılmış?\nÇocuk yaşta amcasının gemilerine katılmış ve tayfa olarak denize açılmış.\n1513 tarihli harita nasıl hazırlanmış?\nPiri Reis yaklaşık yirmi eski haritayı karşılaştırarak hazırlamış.\nHaritanın bulunması harita tarihçilerinin dünyasını neden sarsmış?\nÇünkü Kolomb'un kayıp haritasının izleri bu haritada görülüyormuş.\nYazara göre bir öğretmen olarak onun misyonu nedir?\nGeçmişin ışığını bugüne taşımaktır."
+    }
+  ]
+}

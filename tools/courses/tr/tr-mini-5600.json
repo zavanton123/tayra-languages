@@ -1,0 +1,189 @@
+{
+  "id": "tr-mini-5600",
+  "rankUpTo": 5600,
+  "level": "C1",
+  "title": "Gazetecilik ve medya",
+  "description": "Ten standalone stories, columns and interviews from the world of Turkish journalism: a small-town paper, a health column, a radio show, science and sports reporting, an excavation, a comedian and a summer column.",
+  "topic": "Journalism and media",
+  "names": [
+    "Manisa",
+    "İzmir",
+    "Merve",
+    "Aksoy",
+    "Hasan",
+    "Öztürk",
+    "Fatma",
+    "Bursa",
+    "Halil",
+    "Ankara",
+    "Ömer",
+    "Ayla",
+    "Eskişehir",
+    "Sinan",
+    "Karadeniz",
+    "Emine",
+    "Burak",
+    "Leyla",
+    "Trabzon",
+    "Hatice",
+    "Zehra",
+    "Özkan",
+    "Konya",
+    "İstanbul",
+    "Ege"
+  ],
+  "lessons": [
+    {
+      "title": "Küçük bir gazetenin onuncu yılı",
+      "summary": "The editor of a small-town newspaper near Manisa looks back on ten years: the vineyards, the district office's announcements and a young entrepreneur.",
+      "newWords": [
+        "onuncu",
+        "mütevazı",
+        "bağcı",
+        "bereketli",
+        "kaymakamlık",
+        "anons",
+        "girişimci",
+        "start",
+        "cazip"
+      ],
+      "text": "Sevgili okurlarımız, bu hafta elinizde tuttuğunuz sayı, gazetemizin onuncu yılının ilk sayısı. On yıl önce Manisa'nın bu küçük ilçesinde, çarşının üstündeki iki odalı, mütevazı bir büroda işe başladık. Bir masamız, eski bir bilgisayarımız ve bolca hevesimiz vardı. Bugün büromuz hâlâ mütevazı. Ama artık her perşembe sabahı gazeteyi kapıda bekleyen okurlarımız var ve bu bizim için en büyük ödül.\n\nİlçemizde insanların çoğu bağcı. Bu yüzden ilk sayfamızda çoğu zaman üzüm, hava ve hasat haberleri yer alıyor. Bir bağcı için yağmurun ne zaman yağacağı, büyük şehirlerden gelen pek çok haberden daha önemli. Bu yıl hasat çok bereketli geçti. Konuştuğumuz bağcıların hepsi aynı şeyi söyledi: \"Böyle bereketli bir yıl uzun zamandır görmedik.\" Biz de bu bereketli yılı kutlamak için onuncu yılımızın ilk sayfasına büyük bir üzüm fotoğrafı koyduk.\n\nYerel gazeteciliğin en önemli işlerinden biri, insanların günlük hayatını etkileyen bilgiyi zamanında vermektir. Eskiden kaymakamlığın duyuruları belediyenin hoparlöründen anons edilirdi. Anons bazen rüzgâra karışır, yarısı duyulmazdı. Şimdi kaymakamlık suyun kesileceği saatleri, yol çalışmalarını ve aşı günlerini önce bize gönderiyor. Biz de bunları hem gazetede hem internet sitemizde yayımlıyoruz. Yine de yaşlı okurlarımızın çoğu hâlâ hoparlördeki anonsu bekliyor. Biz buna da saygı duyuyoruz: anonsu duymayan gazetede okusun, gazeteyi okumayan anonsu duysun.\n\nBu yıl en çok okunan haberimiz genç bir girişimci hakkındaydı. İzmir'de üniversiteyi bitirip ilçeye dönen Merve Aksoy, üzümleri artık tarlada değil, güneş enerjisiyle çalışan küçük bir tesiste kurutuyor. Bu genç girişimci, üzümün böylece daha temiz ve daha hızlı kuruduğunu anlattı. Onun başarısından sonra kaymakamlık da geçen ay genç girişimciler için bir destek programına start verdi. Programa start verilen gün kaymakam, ilçede kalmak isteyen her gence kapısının açık olduğunu söyledi.\n\nPeki, ilçemizi gençler için yeniden cazip kılan ne olabilir? Merve Hanım'a göre cevap basit: iş ve hızlı internet. \"Burada hayat büyük şehirden çok daha cazip. Ama gençlerin önce bir işe ihtiyacı var,\" diyor. Biz de önümüzdeki on yılda, gençlerin başarılarını yazmaya devam edeceğiz.\n\nBizi on yıldır okuduğunuz için teşekkür ederiz.\n\nSorular:\nGazete bu hafta neyi kutluyor?\nGazete bu hafta onuncu yılını kutluyor.\nGazete on yıl önce nerede işe başladı?\nÇarşının üstündeki iki odalı, mütevazı bir büroda işe başladı.\nİlçedeki insanların çoğu ne iş yapıyor?\nİlçedeki insanların çoğu bağcı.\nBu yıl hasat nasıl geçti?\nBu yıl hasat çok bereketli geçti.\nEskiden kaymakamlığın duyuruları nasıl yapılırdı?\nBelediyenin hoparlöründen anons edilirdi.\nMerve Aksoy neden bir girişimci olarak haber oldu?\nÇünkü üzümleri güneş enerjisiyle çalışan küçük bir tesiste kurutarak yeni bir iş kurdu."
+    },
+    {
+      "title": "Sağlık köşesi",
+      "summary": "A retired doctor answers three readers' letters in a newspaper's health column: a sensitive new filling, a grandchild's stomach bug and night-time palpitations.",
+      "newWords": [
+        "tabip",
+        "dişçi",
+        "dolgu",
+        "sancı",
+        "kusma",
+        "potasyum",
+        "nane",
+        "psikiyatrist",
+        "istem"
+      ],
+      "text": "Gazetemizin sağlık köşesini on beş yıldır emekli tabip Hasan Öztürk hazırlıyor. Eski gazetelerde doktor yerine çoğu zaman \"tabip\" kelimesi kullanılırdı. Hasan Bey de kendine hâlâ tabip demeyi seviyor: \"Kırk yıl tabip olarak çalıştım, bu kelimeye alıştım,\" diyor. Her hafta okurların mektuplarından üçünü seçiyor ve onları sade bir dille cevaplıyor. Bu haftaki sorular şöyle.\n\nİlk mektup İzmir'den, Fatma Hanım'dan geliyor: \"Geçen ay dişçiye gittim ve bir dişime dolgu yapıldı. Ama soğuk su içince hâlâ hafif bir sancı hissediyorum. Bu normal mi?\"\n\nHasan Bey'in cevabı: \"Yeni bir dolgudan sonra birkaç hafta boyunca dişte sıcağa ve soğuğa karşı hassasiyet olabilir. Bu genellikle kendiliğinden geçer. Ama sancı artıyorsa ya da geceleri uykunuzu bölüyorsa, dişçinize yeniden gitmenizi öneririm. Dolgu bazen biraz yüksek kalır ve dişçi bunu birkaç dakikada düzeltebilir.\"\n\nİkinci mektup Bursa'dan, Halil Bey'den: \"Torunum geçen hafta mide hastalığı geçirdi. İki gün boyunca kusma ve ishal yaşadı. Biz ona nane çayı verdik. Doğru mu yaptık?\"\n\nCevap: \"Kusma ve ishal sırasında vücut yalnızca su kaybetmez, potasyum gibi mineralleri de kaybeder. Potasyum kalbin düzgün çalışması için gereklidir. Bu yüzden çocuğa yalnızca su değil, eczanelerde satılan tuzlu sıvılardan da verin. İyileşmeye başlayınca muz yemesi de iyi olur, çünkü muz potasyum açısından zengindir. Nane çayı mideyi rahatlatabilir. Ama naneyi şekersiz ya da az şekerli verin. Kusma bir günden uzun sürerse çocuğu mutlaka doktora götürün.\"\n\nÜçüncü mektup Ankara'dan, adını vermek istemeyen bir okurdan: \"Son aylarda geceleri uyanıyorum ve kalbim istem dışı hızlanıyor. Bir arkadaşım bir psikiyatriste gitmemi söyledi ama çekiniyorum.\"\n\nCevap: \"Kalbin istem dışı hızlanması kaygının sık görülen işaretlerinden biridir. Önce bir iç hastalıkları uzmanına görünün ve fiziksel bir neden olmadığından emin olun. Sonra bir psikiyatriste gitmekten çekinmeyin. Psikiyatrist yalnızca ağır hastaların gittiği bir doktor değildir. Kaygıyla başa çıkmayı öğrenmek, bir dişi tedavi ettirmek kadar normaldir.\"\n\nHasan Bey köşesinin sonuna her hafta aynı cümleyi yazıyor: \"Gazete doktorun yerini tutmaz. Şikâyetiniz sürerse bir tabibe görünün.\"\n\nSorular:\nGazetenin sağlık köşesini kim hazırlıyor?\nEmekli tabip Hasan Öztürk hazırlıyor.\nFatma Hanım'ın sorunu ne?\nDişine dolgu yapıldıktan sonra soğuk su içince hafif bir sancı hissediyor.\nHasan Bey'e göre kusma ve ishalde vücut neyi kaybeder?\nVücut yalnızca su değil, potasyum gibi mineralleri de kaybeder.\nHalil Bey torununa ne verdi?\nTorununa nane çayı verdi.\nHasan Bey üçüncü okura ne öneriyor?\nÖnce bir iç hastalıkları uzmanına görünmesini, sonra bir psikiyatriste gitmekten çekinmemesini öneriyor."
+    },
+    {
+      "title": "Çarşıdaki terzi",
+      "summary": "A young reporter writes a portrait of an old tailor in Bursa who learned the trade from his brother-in-law and still sews on a treadle machine.",
+      "newWords": [
+        "terzi",
+        "mahir",
+        "becerikli",
+        "enişte",
+        "çark",
+        "vida",
+        "tahsil",
+        "taviz"
+      ],
+      "text": "Gazetemizin \"Ustalar\" dizisi için bu hafta Bursa'nın eski çarşısına gittim. Dar bir sokakta, elli yıldır aynı küçük dükkânda çalışan bir terzi var: Ömer Usta. Kapıyı açtığımda başını kaldırmadan \"Hoş geldin, kızım, otur,\" dedi. Elindeki ceketin son düğmesini dikiyordu.\n\nÖmer Usta'nın tahsili ilkokulla sınırlı. \"Tahsilim azdır ama mesleğimi iyi bilirim,\" diyor gülerek. On iki yaşında eniştesinin yanında çırak olarak başlamış. Eniştesi o yıllarda çarşının en mahir terzisiymiş. \"Eniştem çok mahir bir ustaydı. Bir müşteriye bakar, ölçü almadan ceketini biçerdi,\" diye anlatıyor. Ömer Usta mesleği bu eniştesinden öğrenmiş. Tahsil yapamamış ama eniştesinin yanında başka bir okul bitirmiş.\n\nDükkânın köşesinde, eniştesinden kalan eski bir dikiş makinesi duruyor. Makine elektrikle değil, ayakla çalışıyor. Ayak aşağı yukarı hareket ettikçe büyük demir bir çark dönüyor, çark da iğneyi hareket ettiriyor. Ömer Usta makinenin bütün vidalarını tek tek tanıyor. \"Bir vida gevşediğinde makinenin sesi değişir, hemen anlarım,\" diyor. Çekmecesinde yıllardır topladığı yedek vidaları gösteriyor. Elektrikli makineleri de var, ama ince işler için hâlâ bu çarkı çeviriyor.\n\nOna iyi bir terzinin nasıl olması gerektiğini soruyorum. \"Becerikli olmak yetmez,\" diyor. \"Becerikli eller çok, ama sabırlı eller az. Bir terzi hem becerikli hem sabırlı olmalı.\" Dükkâna gelen gençlerin çoğunun becerikli olduğunu, ama hızlı para kazanmak istediklerini anlatıyor.\n\nÖmer Usta'nın tek kuralı kalite. Ucuz kumaşla çalışmasını, dikişi hızlı bitirmesini isteyen müşteriler oluyormuş. Ama o kaliteden taviz vermiyor. \"Bir kere taviz verirsen, ikincisi kolay gelir. Sonra ne ustalık kalır ne güven,\" diyor. Bu yüzden müşterileri ondan yıllarca ayrılmıyor; bazıları babalarının, dedelerinin de bu dükkânda giyindiğini anlatıyor.\n\nAyrılırken ona dükkânı kimin devralacağını soruyorum. Biraz düşünüyor. \"Eşimin kız kardeşinin oğlu geliyor. Yani ben de onun eniştesiyim,\" diyor ve gülüyor.\n\nSorular:\nÖmer Usta ne iş yapıyor?\nÖmer Usta elli yıldır aynı dükkânda çalışan bir terzi.\nÖmer Usta mesleği kimden öğrendi?\nÇarşının en mahir terzisi olan eniştesinden öğrendi.\nEski dikiş makinesi nasıl çalışıyor?\nAyakla çalışıyor; ayak hareket ettikçe büyük bir çark dönüyor ve iğneyi hareket ettiriyor.\nÖmer Usta bir vidanın gevşediğini nasıl anlıyor?\nMakinenin sesi değişince hemen anlıyor.\nÖmer Usta'ya göre iyi bir terzi nasıl olmalı?\nHem becerikli hem sabırlı olmalı.\nÖmer Usta neden kaliteden taviz vermiyor?\nÇünkü bir kere taviz verilirse ikincisinin kolay geleceğini ve güvenin kaybolacağını düşünüyor."
+    },
+    {
+      "title": "Sabah programı",
+      "summary": "A radio presenter in Eskişehir starts her morning show from a new studio, buys her simit from the kiosk outside and plays a listener's recording of a nightingale.",
+      "newWords": [
+        "ezgi",
+        "bülbül",
+        "enstrüman",
+        "simit",
+        "büfe",
+        "heyecanlandırmak",
+        "adapte"
+      ],
+      "text": "Ayla Hanım yirmi yıldır Eskişehir'de yerel bir radyoda sabah programı sunuyor. Bu ay radyo eski binasından şehir merkezindeki yeni bir binaya taşındı. Yeni stüdyo daha büyük ve daha modern, ama Ayla Hanım ilk günlerde ona adapte olmakta zorlandı. Masadaki düğmelerin yeri değişmiş, mikrofon da daha yüksekte duruyordu. \"Yirmi yılın alışkanlığı kolay değişmiyor. Ama yavaş yavaş adapte oluyorum,\" dedi dinleyicilerine.\n\nDeğişmeyen bir şey var: her sabah yayından önce binanın önündeki büfeden bir simit alıyor. Büfeyi işleten yaşlı Sinan Bey, Ayla Hanım'ı uzaktan görünce simidini kâğıda sarıp hazırlıyor. Ayla Hanım programda bazen bu büfeden söz ediyor. Dinleyiciler de artık büfeyi tanıyor; bazıları sabahları oraya uğrayıp \"Ayla Hanım'ın simidinden bir tane,\" diyor.\n\nSinan Bey otuz yıldır bu büfede gazete, su ve simit satıyor. Büfede küçük bir radyo var ve bu radyo sabahtan akşama kadar hep aynı kanalda çalıyor. Sinan Bey Ayla Hanım'ın programını yıllardır bu radyodan dinliyormuş. Radyo yeni binaya taşınınca en çok o sevinmiş, çünkü yeni bina tam büfesinin karşısındaymış. \"Yıllarca sesini dinledim, şimdi her sabah simidini ben veriyorum,\" diyor gururla.\n\nProgram her sabah eski bir ezgiyle başlıyor. Ayla Hanım her gün farklı bir bölgeden bir halk ezgisi seçiyor ve ezginin kısa hikâyesini anlatıyor. Bu sabah bir Karadeniz ezgisi çaldı. Ezgi biter bitmez telefonlar çalmaya başladı.\n\nİlk arayan, şehrin dışında bahçesi olan bir evde yaşayan Emine Hanım'dı. Emine Hanım her sabah bahçesinde bir bülbülün öttüğünü söyledi ve onun sesini telefonuyla kaydetmişti. \"Bu bülbülü bütün şehir duysun istiyorum,\" dedi. Ayla Hanım kaydı programda çaldı. Bülbülün sesi stüdyoyu doldurdu. Bu küçük kayıt dinleyicileri çok heyecanlandırdı. Bir saat içinde onlarca mesaj geldi. Biri, çocukluğunda dinlediği bülbülleri hatırladığını yazdı.\n\nProgramın ikinci yarısında genç bir müzisyen stüdyoya konuk oldu. Burak, kavaldan bağlamaya kadar pek çok halk enstrümanı çalıyor. Masaya üç enstrüman koydu ve her birinin nasıl yapıldığını anlattı. En sonunda kavalla, bülbülün sesini taklit etmeye çalıştı. Bu da dinleyicileri yeniden heyecanlandırdı.\n\nProgramın sonunda Ayla Hanım yeni stüdyoya baktı. \"Bugün buraya biraz daha adapte oldum galiba,\" dedi. \"Bir bülbül, bir kaval ve bir simit, her şeyi kolaylaştırıyor.\"\n\nSorular:\nAyla Hanım neden ilk günlerde zorlandı?\nÇünkü radyo yeni bir binaya taşındı ve o yeni stüdyoya adapte olmakta zorlandı.\nAyla Hanım her sabah yayından önce ne yapıyor?\nBinanın önündeki büfeden bir simit alıyor.\nProgram her sabah nasıl başlıyor?\nHer sabah eski bir halk ezgisiyle başlıyor.\nEmine Hanım radyoya ne gönderdi?\nBahçesinde öten bir bülbülün sesini gönderdi.\nBurak stüdyoya kaç enstrüman getirdi?\nBurak stüdyoya üç enstrüman getirdi."
+    },
+    {
+      "title": "Bir araştırmayı haber yapmak",
+      "summary": "A science reporter explains how she turned a driving-simulator study on tiredness into a careful news story without exaggerating it.",
+      "newWords": [
+        "denek",
+        "simülasyon",
+        "tetiklemek",
+        "nispeten",
+        "ikincil",
+        "fiziki",
+        "norm",
+        "seçici",
+        "çizelge"
+      ],
+      "text": "Ben bir gazetenin bilim muhabiriyim. Geçen hafta yazdığım bir haberin nasıl hazırlandığını anlatmak istiyorum, çünkü okurlar bilim haberlerinin arkasındaki süreci pek bilmiyor.\n\nAnkara'daki bir üniversite, uykusuzluğun araba kullanmaya etkisi üzerine bir araştırma yayımladı. Araştırmacılar kırk denekle çalışmışlar. Denekler bir gece yalnızca dört saat uyumuş, ertesi sabah da bir sürüş simülasyonuna girmiş. Simülasyon, gerçek bir arabanın içindeymiş gibi hissettiren bir ekran ve direksiyondan oluşuyor. Aynı denekler başka bir hafta sekiz saat uyuduktan sonra aynı simülasyonu yeniden yapmışlar.\n\nSonuç açıktı: az uyuyan denekler çok daha fazla hata yapmış. Araştırmacılara göre uykusuzluk dikkat kaybını tetikliyor, dikkat kaybı da yavaş tepkiyi tetikliyor. Makalede sonuçlar uzun bir çizelgede verilmişti. Çizelgeyi saatlerce inceledim, çünkü bir haberin en önemli bilgisi genellikle bu tür bir çizelgenin içinde saklıdır.\n\nHaberi yazarken seçici olmam gerekiyordu. Makalede onlarca sonuç vardı ama okurun hepsini bilmesine gerek yoktu. Seçici olmak, işime gelen sonucu seçmek değil, en önemli olanı seçmek demek. Araştırmanın ikincil bir sonucu da ilgimi çekti: sabah kısa bir yürüyüş yapan denekler biraz daha az hata yapmış. Ama bu ikincil sonucu başlığa taşımadım. Çünkü çalışma bu soruyu cevaplamak için yapılmamıştı; ikincil bir sonucu ana sonuç gibi sunmak okuru yanıltır. Haberde fiziki etkinliğin olası etkisini yalnızca kısa bir cümleyle andım ve fiziki etkinlikle ilgili daha büyük çalışmalara ihtiyaç olduğunu yazdım.\n\nBilim gazeteciliğinin bazı normları var. Bu normların ilki, bir araştırmanın sınırlarını açıkça yazmak. Kırk denek, nispeten küçük bir sayı. Ayrıca simülasyon gerçek trafik değil. Bu yüzden haberde çalışmanın nispeten küçük olduğunu ve sonuçların daha büyük bir grupta doğrulanması gerektiğini belirttim. İkinci norm, araştırmacılardan biriyle mutlaka konuşmak. Araştırmayı yöneten hocayla telefonda yarım saat konuştum ve ona yazdığım cümleleri okudum.\n\nHaber yayımlandıktan sonra hoca bana kısa bir mesaj gönderdi: \"Çalışmamızı olduğu gibi anlattığınız için teşekkür ederim.\" Bir bilim muhabiri için bundan güzel bir övgü olamaz.\n\nSorular:\nAraştırma neyi inceliyordu?\nUykusuzluğun araba kullanmaya etkisini inceliyordu.\nDenekler araştırmada ne yaptı?\nBir gece az uyuduktan sonra ve başka bir hafta sekiz saat uyuduktan sonra bir sürüş simülasyonuna girdiler.\nAraştırmacılara göre uykusuzluk neyi tetikliyor?\nDikkat kaybını tetikliyor.\nMuhabir ikincil sonucu neden başlığa taşımadı?\nÇünkü çalışma bu soruyu cevaplamak için yapılmamıştı ve ikincil bir sonucu ana sonuç gibi sunmak okuru yanıltır.\nMuhabir çalışmanın hangi sınırlarını yazdı?\nKırk deneğin nispeten küçük bir sayı olduğunu ve simülasyonun gerçek trafik olmadığını yazdı."
+    },
+    {
+      "title": "Kazıdan haberler",
+      "summary": "A reporter spends a day at an excavation near İzmir, where students uncover a Roman villa with oil lamps, a bronze bracelet and a fallen wall.",
+      "newWords": [
+        "arkeoloji",
+        "kandil",
+        "bilezik",
+        "malikane",
+        "sünger",
+        "silikon",
+        "yuvarlanmak",
+        "devril"
+      ],
+      "text": "İzmir'e bir saat uzaklıktaki bir zeytin bahçesinin altında, iki bin yıllık bir Roma malikanesi yatıyor. Bir çiftçi on yıl önce tarlasını sürerken renkli taşlar bulmuş ve durumu müzeye bildirmiş. O günden beri her yaz burada bir kazı yapılıyor. Bu yaz ben de bir gün boyunca kazı ekibinin yanında kaldım.\n\nKazıyı yöneten Leyla Hoca, arkeoloji bölümünde ders veriyor. Ekibinde on iki arkeoloji öğrencisi var. Sabah beşte işe başlıyorlar, çünkü öğleden sonra sıcak dayanılmaz oluyor. Leyla Hoca'ya göre arkeoloji sabır işi: \"Bir haftada yalnızca birkaç santim kazdığımız olur,\" diyor.\n\nMalikane oldukça büyükmüş: bir avlu, sekiz oda ve küçük bir hamam. Malikanenin doğu duvarı bir depremde devrilmiş. Devrilen duvarın taşları hâlâ düştükleri yerde duruyor. Öğrenciler her taşın yerini çizip ona bir numara veriyor, sonra taşları tek tek kaldırıyor. Duvar devrildiğinde altında kalan bir oda, bu sayede iki bin yıl boyunca neredeyse hiç bozulmamış.\n\nO odada bu yaz yirmiden fazla kil kandil bulundu. O dönemde insanlar evlerini zeytin yağıyla yanan bu küçük kandillerle aydınlatırmış. Kandillerin bazılarının üstünde yunus ve kuş resimleri var. Aynı odada bronz bir bilezik de çıktı. Bilezik öyle küçük ki bir çocuğa ait olabilir. Öğrenciler bileziği gördüklerinde bir süre konuşamadılar.\n\nOdanın tabanında bir mozaik var. Öğrenciler mozaiği fırçayla değil, ıslak bir süngerle temizliyor, çünkü fırça küçük taşları yerinden çıkarabilir. Sünger toprağı yavaşça alıyor ve renkler ortaya çıkıyor. Bulunan bazı parçaların kopyasını yapmak için de silikon kullanılıyor. Öğrenciler parçanın üstüne sıvı silikon döküyor, silikon kuruyunca onu dikkatle kaldırıyor. Böylece müzede sergilenecek kopyalar hazırlanıyor.\n\nKazı alanı bir yamaçta. Kazı sırasında yerinden çıkan küçük taşlar ve toprak bazen aşağı yuvarlanıyor. Geçen yaz büyük bir taş da yamaçtan yuvarlandı ve boş bir çadırı yıktı. Bu yıl yamacın alt tarafına tahta bir set kurdular. Artık yukarıdan yuvarlanan taşlar bu sette duruyor.\n\nAkşam güneş batarken ekip aletlerini toplamaya başladı. Bir öğrenci, gün boyu kazdığı yere bakarak bana \"Burada biri iki bin yıl önce akşam yemeği yiyordu,\" dedi. Bu cümle, o günkü haberimin başlığı oldu.\n\nSorular:\nMalikane nasıl bulundu?\nBir çiftçi tarlasını sürerken renkli taşlar buldu ve durumu müzeye bildirdi.\nMalikanenin doğu duvarına ne olmuş?\nDoğu duvarı bir depremde devrilmiş.\nO dönemde insanlar kandillerde ne yakarmış?\nKandillerde zeytin yağı yakarmış.\nÖğrenciler mozaiği neden süngerle temizliyor?\nÇünkü fırça mozaiğin küçük taşlarını yerinden çıkarabilir.\nÖğrenciler silikonu ne için kullanıyor?\nBulunan parçaların kopyasını yapmak için kullanıyor.\nYamacın alt tarafına neden tahta bir set kuruldu?\nÇünkü taşlar ve toprak bazen yamaçtan aşağı yuvarlanıyor."
+    },
+    {
+      "title": "Penaltılarla gelen kupa",
+      "summary": "A sports reporter covers a local women's football final in Trabzon, from the week's training to a penalty shootout won by a brave young goalkeeper.",
+      "newWords": [
+        "idman",
+        "çimen",
+        "bariyer",
+        "cesurca",
+        "iddialı",
+        "blöf",
+        "düello",
+        "kısmet"
+      ],
+      "text": "Trabzon'un kadın futbol takımı bu sezon ilk kez bölge finaline kaldı. Ben de spor muhabiri olarak finalden önceki son haftayı takımla geçirdim.\n\nTakım beş yıl önce, birkaç öğretmenin çabasıyla kuruldu. İlk yıllarda kendi sahaları bile yoktu; oyuncular okulların bahçelerinde, toprak sahalarda çalışıyordu. Şimdi belediyenin verdiği güzel bir sahaları var ve takımda yirmi iki oyuncu oynuyor. En gençleri on altı, en büyükleri otuz dört yaşında.\n\nTakım haftada dört gün idman yapıyor. Oyuncuların çoğu gündüz çalışıyor ya da okuyor, bu yüzden idmanlar akşam yedide başlıyor. Final haftasındaki son idmana yağmur yağarken çıktılar. Sahanın çimeni çamur olmuştu. Antrenör Hatice Hanım idmanı kısa tuttu: \"Çimeni bozmayalım, cumartesi bu sahada oynayacağız,\" dedi. Yağmurdan sonra belediye ekipleri çimeni düzeltmek için iki gün çalıştı.\n\nFinalden önce rakip takımın antrenörü gazetelere çok iddialı bir açıklama yaptı: \"Kupayı alacağımızdan hiç şüphem yok.\" Bu iddialı cümleyi Hatice Hanım'a okuduğumda gülümsedi. \"Bence bu bir blöf. Finalden önce herkes blöf yapar. Biz konuşmayı değil, oynamayı seçiyoruz,\" dedi.\n\nCumartesi günü stadyumda iki binden fazla seyirci vardı. Seyirciler sahayı çeviren beyaz bariyerlerin arkasına sıkışmıştı. Küçük çocuklar sahayı daha iyi görebilmek için bariyerlere tırmanıyordu. Stadyumun çalışanları bariyerlerin önünde dolaşıp onları nazikçe aşağı indiriyordu.\n\nMaç çok çekişmeli geçti ve 1-1 berabere bitti. Kupa, penaltı düellosu ile belirlenecekti. Penaltı düellosu futbolun en heyecanlı anlarından biridir; ama oyuncular için çok zordur. İlk dört atışta iki takım da hiç hata yapmadı. Beşinci atışta rakip takımın oyuncusu topa vurdu ve on dokuz yaşındaki kalecimiz Zehra, sağ köşeye cesurca atlayıp topu çıkardı. Son atışı kaptan yaptı ve gol oldu. Kupa Trabzon'a geldi.\n\nMaçtan sonra Zehra'ya o anda ne düşündüğünü sordum. \"Hiçbir şey düşünmedim. Sadece cesurca atlamak istedim,\" dedi. Rakip takımın antrenörü de yenilgiyi saygıyla karşıladı ve kazananları tebrik etti. \"Bu yıl kupa bize kısmet değilmiş. Belki gelecek yıl kısmet olur,\" dedi.\n\nAkşam takım otobüsü şehir merkezine döndüğünde sokaklar insanlarla doluydu. Hatice Hanım ertesi gün de idman yapacaklarını söyledi: \"Kupa güzel, ama gelecek sezon yine sıfırdan başlıyoruz.\"\n\nSorular:\nTakım haftada kaç gün idman yapıyor?\nTakım haftada dört gün idman yapıyor.\nAntrenör son idmanı neden kısa tuttu?\nÇünkü çimen çamur olmuştu ve cumartesi aynı sahada oynayacaklardı.\nHatice Hanım rakip antrenörün iddialı açıklaması için ne düşündü?\nBunun bir blöf olduğunu düşündü.\nKupa nasıl belirlendi?\nMaç berabere bittiği için kupa penaltı düellosu ile belirlendi.\nKaleci Zehra beşinci atışta ne yaptı?\nSağ köşeye cesurca atlayıp topu çıkardı."
+    },
+    {
+      "title": "Gündelik hayatın komedyeni",
+      "summary": "An interview with a stand-up comedian from Konya who builds his shows from the small details of everyday life and keeps a careful distance from his audience.",
+      "newWords": [
+        "komedyen",
+        "gündelik",
+        "yaşantı",
+        "deha",
+        "küçümsemek",
+        "mesafeli",
+        "özlü",
+        "yaratılış",
+        "aşina"
+      ],
+      "text": "Burak Özkan, son yılların en çok izlenen komedyenlerinden biri. Konya'da doğdu, on yıl öğretmenlik yaptı, otuz beş yaşında sahneye çıktı. Gösterilerinde gündelik hayatın küçük ayrıntılarını anlatıyor: otobüs kuyrukları, aile toplantıları, komşuların balkon konuşmaları. Onunla İstanbul'daki yeni gösterisinden önce konuştuk.\n\n— Neden gündelik hayatı anlatmayı seçiyorsunuz?\n\n— Çünkü herkes ona aşina. Seyirci, sahnede anlattığım şeye aşina olunca kendini hemen içeride buluyor. Herkesin annesi bayramdan önce evi baştan aşağı temizler. Bunu anlatınca bütün salon \"Bizim ev de böyle!\" diye gülüyor.\n\n— Bu malzeme nereden geliyor?\n\n— Kendi yaşantımdan. Benim yaşantım çok sıradan, bu da bir şans. Çantamda her zaman küçük bir defter var. Markette, dolmuşta, düğünde gördüğüm her şeyi not ederim.\n\n— Bazı yazarlar sizin için \"deha\" kelimesini kullanıyor. Kendinizi bir deha olarak görüyor musunuz?\n\n— Hayır, kesinlikle. Deha başka bir şey. Ben çok çalışan biriyim. Bir esprinin sahnede işlemesi için onu bazen elli kez deniyorum. Komedi biraz da bir zanaat.\n\n— Komedyenlerin seyirciyi küçümsediği söylenir. Siz ne düşünüyorsunuz?\n\n— Seyirciyi küçümseyen bir komedyen uzun süre sahnede kalamaz. Seyirci zekidir, onu küçümsediğinizi hemen hisseder. Ben de kimseyi küçümsemem; en çok kendime gülerim.\n\n— Sahnede çok rahatsınız ama sahne dışında oldukça mesafeli olduğunuz söyleniyor. Bu doğru mu?\n\n— Doğru. Yaratılışım gereği biraz utangacım. Gösteriden sonra seyircilerle fotoğraf çektiririm ama özel hayatımda mesafeli dururum. Bu mesafeli tavrı ailemi korumak için de seçtim; çocuklarımın sahnede bir malzeme olmasını istemem.\n\n— Yaratılış olarak utangaç biri nasıl komedyen olur?\n\n— Belki de bu yüzden olur. Utangaç insanlar çok gözlem yapar. Ben sınıfta da hep arka sırada oturup herkesi izleyen çocuktum.\n\n— Genç komedyenlere ne öneriyorsunuz?\n\n— Özlü olsunlar. İyi bir espri, özlü bir söz gibidir: kısa, açık ve doğru. Fazla kelime esprinin tadını kaçırır. Ben de her esprimi daha özlü hale getirmek için yazıp siliyorum.\n\nSöyleşinin sonunda Burak Özkan saatine baktı. Gösteriye yarım saat vardı. Defterini çantasından çıkardı ve gülerek ekledi: \"Bu söyleşi de bir gün bir gösterinin konusu olabilir.\"\n\nSorular:\nBurak Özkan gösterilerinde neleri anlatıyor?\nGündelik hayatın küçük ayrıntılarını anlatıyor.\nSeyirci neden hemen gülüyor?\nÇünkü anlatılan şeylere aşina ve kendini hemen içeride buluyor.\nBurak Özkan malzemesini nereden buluyor?\nKendi yaşantısından buluyor ve her şeyi bir deftere not ediyor.\nBurak Özkan kendini bir deha olarak görüyor mu?\nHayır, kendini çok çalışan biri olarak görüyor.\nBurak Özkan neden özel hayatında mesafeli duruyor?\nÇünkü yaratılışı gereği utangaç ve ailesini korumak istiyor."
+    },
+    {
+      "title": "Bayat haber diye bir şey var mı?",
+      "summary": "A columnist weighs speed against care in news, comparing her father's habit of reading the printed paper with readers who only follow news online.",
+      "newWords": [
+        "bayat",
+        "çevrim",
+        "masaüstü",
+        "tutucu",
+        "yeğlemek",
+        "nüfuz",
+        "ciddiyet",
+        "gitgide"
+      ],
+      "text": "Babam her sabah kahvaltıdan sonra gazetesini baştan sona okur. Geçen gün ona gülerek \"Baba, bu haberlerin hepsi bayat. Dün akşam internette okudum hepsini,\" dedim. Babam gözlüğünün üstünden bana baktı: \"Haber bayat olabilir, ama düşünce bayat olmaz,\" dedi. Bu cümle bütün gün aklımdan çıkmadı.\n\nBir gazeteci olarak hız ile dikkat arasındaki dengeyi her gün yaşıyorum. Bugün okurların büyük kısmı haberleri çevrim içi okuyor. Çevrim içi bir haber birkaç dakikada yayımlanabiliyor ve birkaç saat sonra bayat sayılıyor. Bu yüzden haber siteleri gitgide hızlanıyor. Eskiden bir haberin yayımlanması bir gün sürerdi. Şimdi dakikalar yetiyor. Ama hız arttıkça hata da gitgide artıyor.\n\nBasılı gazeteyi yeğleyen okurlar çoğu zaman tutucu olmakla suçlanıyor. Oysa onların çoğu yeniliğe karşı tutucu değil. Yalnızca başka bir şeyi yeğliyorlar: bir haberi okurken düşünmeye vakit bulmayı. Babam da tutucu biri değil; torunlarıyla görüntülü konuşuyor, faturalarını internetten ödüyor. Ama haberi kâğıttan okumayı yeğliyor.\n\nBenim çalıştığım gazetede iki ayrı ekip var. Biri gün boyu masaüstü bilgisayarlarının başında oturup çevrim içi haberleri hazırlıyor. Masaüstü ekranlarında aynı anda on ayrı haber sitesi açık duruyor. Öteki ekip, ertesi sabah basılacak gazete için daha uzun ve daha derin yazılar hazırlıyor. İki ekibin işi de değerli. Ama okurun güveni, haberi ilk verenin değil, doğru verenin olur.\n\nMedyanın nüfuzu bugün eskisinden çok daha büyük. Bir haber, bir saat içinde milyonlarca telefona ulaşıyor. Bu kadar büyük bir nüfuzun büyük bir sorumluluğu da var. Gazeteciliğin ciddiyeti, bu sorumluluğu taşımakla ölçülür. Ciddiyet, sıkıcı olmak demek değil; bir haberi yayımlamadan önce bir kez daha aramak, bir kez daha sormak demek.\n\nBelki de okurlara şunu söylemeliyiz: Hızlı haberi yeğleyen de dikkatli haberi yeğleyen de haklı. Önemli olan, hangisini neden okuduğumuzu bilmek. Babamın gazetesi bayat olabilir, ama onun gazeteyi okurken gösterdiği ciddiyet hiç bayat değil.\n\nSorular:\nYazarın babası her sabah ne yapıyor?\nKahvaltıdan sonra gazetesini baştan sona okuyor.\nBabası \"bayat haber\" sözüne nasıl cevap verdi?\nHaberin bayat olabileceğini ama düşüncenin bayat olmayacağını söyledi.\nYazara göre haber siteleri neden gitgide hızlanıyor?\nÇünkü çevrim içi bir haber birkaç saat sonra bayat sayılıyor.\nBasılı gazeteyi yeğleyen okurlar ne istiyor?\nBir haberi okurken düşünmeye vakit bulmak istiyor.\nYazara göre gazeteciliğin ciddiyeti ne demek?\nBir haberi yayımlamadan önce bir kez daha aramak ve bir kez daha sormak demek."
+    },
+    {
+      "title": "Yazlıktan bir mektup",
+      "summary": "A columnist writes her summer column from a family summer house in an Aegean village, where the paper comes at noon, watermelons cool in the well and an owl calls at night.",
+      "newWords": [
+        "yazlık",
+        "karpuz",
+        "dondurucu",
+        "kontak",
+        "bürün",
+        "baykuş",
+        "sabretmek"
+      ],
+      "text": "Sevgili okurlar,\n\nBu yazıyı Ege'deki küçük bir köyden, ailemizin eski yazlığından yazıyorum. Yazlık, babamın kırk yıl önce kendi elleriyle yaptığı iki odalı, mütevazı bir ev. İnternet yok, televizyon yok. Bir gazeteci için tuhaf bir tatil, biliyorum. Ama her yaz iki haftalığına haberlerden uzaklaşmayı kendime bir hediye olarak görüyorum.\n\nBurada gazete köye öğlen geliyor. Sabah uyanınca haberleri hemen öğrenemiyorum; öğleni beklemem gerekiyor. İlk günler sabretmek çok zor geldi. Elim sürekli telefona gidiyordu. Sonra sabretmeyi öğrendim. Şimdi öğlene kadar bahçede kitap okuyorum, sonra arabanın kontağını çevirip kasabaya iniyorum. Gazeteyi alıp eve dönünce kontağı kapatıyorum ve onu sakin sakin, sayfa sayfa okuyorum. Sabretmek, haberi daha iyi okumamı sağlıyor.\n\nKomşumuz Hatice Teyze iki günde bir bahçesinden bir karpuz koparıp kapımıza bırakıyor. Karpuzu soğutmak için dondurucu kullanmıyor; onu iple bağlayıp bahçedeki kuyuya indiriyor. \"Dondurucudaki karpuz taş gibi olur, kuyudaki karpuz tam olması gerektiği gibi olur,\" diyor. Haklı da. Öğleden sonra kuyudan çıkan karpuz, buz gibi soğuk ama sert değil. Evdeki küçük buzdolabının dondurucusunu ise yalnızca buz yapmak için kullanıyoruz.\n\nAkşamları deniz renk değiştiriyor. Güneş batarken bütün körfez önce turuncuya, sonra mora bürünüyor. Köyün evleri de bu ışığa bürünüyor ve beyaz duvarlar pembe görünüyor. Ben her akşam balkona çıkıp bu manzarayı izliyorum.\n\nBu köşe yazısını da bilgisayarda değil, eski bir deftere kalemle yazıyorum. Sonra arabayla yine kasabaya iniyor, bir kafede yazıyı bilgisayara geçirip gazeteye gönderiyorum. Kafenin sahibi yazımın gazetede ne zaman çıkacağını soruyor. Pazar günü gazeteyi alıp okuyunca bana bir çay ısmarlayacağını söylüyor.\n\nGece olunca bahçedeki yaşlı zeytin ağacından bir baykuş ötüyor. İlk gece onun sesinden biraz korktum. Hatice Teyze'ye sorunca güldü: \"O baykuş yıllardır orada. Fareleri o yakalar, korkma,\" dedi. Artık baykuşun sesini duymadan uyuyamıyorum.\n\nİki hafta sonra İstanbul'a, haber odasına döneceğim. Yine hızlı olmam gerekecek. Ama bu yazlıkta öğrendiğim şeyi yanımda götürmek istiyorum: Bazen sabretmek, acele etmekten daha çok şey öğretiyor.\n\nSorular:\nYazar bu yazıyı nereden yazıyor?\nEge'deki küçük bir köyden, ailesinin eski yazlığından yazıyor.\nYazar ilk günlerde neden zorlandı?\nÇünkü gazete öğlen geliyordu ve haberleri öğrenmek için sabretmek zorundaydı.\nHatice Teyze karpuzu nasıl soğutuyor?\nKarpuzu dondurucuya koymuyor, iple bağlayıp kuyuya indiriyor.\nAkşamları körfez hangi renklere bürünüyor?\nÖnce turuncuya, sonra mora bürünüyor.\nYazar gece bahçede ne duyuyor?\nYaşlı zeytin ağacından öten bir baykuşun sesini duyuyor."
+    }
+  ]
+}
